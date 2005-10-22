@@ -1,0 +1,45 @@
+#/*****************************************************/
+#/* HOBER.NAM                                         */
+#/* Namnfil f”r hob-namn                              */
+#/* av Johan Danforth                                 */
+#/* rader som b”rjar med / „r kommentar-rader         */
+#/* varje section b”rjar med [xxx] enlig filen nedan  */
+#/*****************************************************/
+#/* Frodo Bilbo Sam Meriadoc Peregrin */
+[RULES]
+25[FULL]
+100[SYL1][SYL2][SYL3]
+[FULL]
+Frodo
+Bilbo
+Sam
+Meriadoc
+Peregrin
+[SYL1]
+#/* startstavelser skall sluta med en konsonant som b,k,t etc... */
+B
+Dr
+Fr
+Mer
+Per
+R
+S
+[SYL2]
+#/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+a
+e
+i
+ia
+o
+oi
+u
+[SYL3]
+#/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+bo
+do
+doc
+go
+grin
+m
+ppi
+rry
