@@ -8,15 +8,14 @@
 #/* Frodo Bilbo Sam Meriadoc Peregrin */
 [RULES]
 25[FULL]
-100[SYL1][SYL2][SYL3]
+100[startstav][mittstav][slutstav]
 [FULL]
 Frodo
 Bilbo
 Sam
 Meriadoc
 Peregrin
-[SYL1]
-#/* startstavelser skall sluta med en konsonant som b,k,t etc... */
+[startstav]
 B
 Dr
 Fr
@@ -24,8 +23,7 @@ Mer
 Per
 R
 S
-[SYL2]
-#/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+[mittstav]
 a
 e
 i
@@ -33,8 +31,7 @@ ia
 o
 oi
 u
-[SYL3]
-#/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+[slutstav]
 bo
 do
 doc
@@ -43,3 +40,4 @@ grin
 m
 ppi
 rry
+[stop]

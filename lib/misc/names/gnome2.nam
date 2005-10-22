@@ -6,10 +6,9 @@
 #/* varje section b”rjar med [xxx] enlig filen nedan  */
 #/*****************************************************/
 [RULES]
-100[SYL1][SYL2][SYL3]
+100[startstav][mittstav][slutstav]
 [FULL]
-[SYL1]
-#/* startstavelser skall sluta med en konsonant som b,k,t etc... */
+[startstav]
 Aeth
 Addr
 Bl
@@ -28,8 +27,7 @@ S
 T
 V
 Yr
-[SYL2]
-#/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+[mittstav]
 a
 ae
 e
@@ -38,8 +36,7 @@ i
 o
 u
 y
-[SYL3]
-#/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+[slutstav]
 bryn
 c
 cyn
@@ -61,3 +58,4 @@ rcyn
 rraent
 ran
 ryn
+[stop]

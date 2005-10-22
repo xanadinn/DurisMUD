@@ -7,10 +7,9 @@
 #/*****************************************************/
 #/* balin durin bofur bifur bombur belin */
 [RULES]
-100[SYL1][SYL2][SYL3]
+100[startstav][mittstav][slutstav]
 [FULL]
-[SYL1]
-#/* startstavelser skall sluta med en konsonant som b,k,t etc... */
+[startstav]
 B
 D
 F
@@ -25,16 +24,14 @@ R
 S
 T
 V
-[SYL2]
-#/* mittstavelser skall b”rja och sluta med en vokal som a,o,u,i,e,y etc... */
+[mittstav]
 a
 e
 i
 o
 oi
 u
-[SYL3]
-#/* slutstavelser skall b”rja med en konsonant som b,k,t etc... */
+[slutstav]
 bur
 fur
 gan
@@ -51,3 +48,4 @@ ran
 sin
 sil
 sur
+[stop]
