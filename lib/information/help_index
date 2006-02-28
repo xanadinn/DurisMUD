@@ -528,6 +528,16 @@ be engaged in battle to use this skill.
 See also: "RANGE WEAPONS", FIRE, THROW
 
 #
+ARCHMAGE (MultiClass)
+===========================================================================
+An Archmage is a multi-class Conjurer/Sorcerer.
+
+Both classes use memorize/spellbooks, so there is no change to how you
+acquire/memorize/cast your spells when you multiclass.
+===========================================================================
+See Also: CONJURER, SORCERER, MULTI-CLASS, MEMORIZE
+
+#
 "AREA MAKING" AREAS BUILDING (General Information)
 ===========================================================================
 The world of Duris is made up of various "zones" or areas, created by a
@@ -1179,6 +1189,21 @@ See also: STRENGTH, ELEPHANTSTRENGTH, "ENHANCE STRENGTH", "SPELL, STRENGTH",
           CONSENT
 
 #
+BEASTMASTER (MultiClass)
+===========================================================================
+A Beastmaster is a multi-class Shaman/Druid.
+
+Notes on Beastmaster:
+Shamans use totems, and memorize spells without spellbooks.
+Druids commune, which is heavilly based on terrain, for both spells
+and commune times.
+If you start as a Druid, you will commune all of your spells.
+If you start as a Shaman, you will memorize spells, but you will no longer
+need totems, for ANY of your spells.
+===========================================================================
+See Also: SHAMAN, DRUID, MULTI-CLASS, TOTEM, COMMUNE, MEMORIZE
+
+#
 BERSERK (Skill)
 ===========================================================================
 Syntax:         berserk
@@ -1302,6 +1327,16 @@ Aggressive: 	Yes
 The innate "bite" is unique to thri-kreens, sending a venomous poison
 through the body of their victims.
 ===========================================================================
+
+#
+Blackguard (MultiClass)
+===========================================================================
+A Blackguard is a multi-class Anti-Paladin/Warrior.
+
+Warriors normally do not have any spells, so there is no change to how you
+acquire/pray/cast your spells when you multiclass.
+===========================================================================
+See Also: ANTI-PALADIN, WARRIOR, MULTI-CLASS, PRAY
 
 #
 BLACKSMITH (Specialization)
@@ -1880,7 +1915,20 @@ This spell allows the caster to rearrange the cellular makeup of their body
 to their own liking. This comes in handy when afflicted with various
 maladies.
 ===========================================================================
- 
+
+#
+CENOBITE (MultiClass)
+===========================================================================
+A Cenobite is a multi-class Druid/Cleric.
+
+Notes on Cenobite:
+Druids commune, which is heavilly based on terrain, for both spells
+and commune times.
+Clerics pray, and require no spellbooks or totems.
+If you start as a Druid, you will commune all your spells.
+If you start as a Cleric, you will pray spells.
+===========================================================================
+See Also: CLERIC, DRUID, MULTI-CLASS, COMMUNE, PRAY
 #
 CENTAUR (General Information)
 ===========================================================================
@@ -1966,6 +2014,21 @@ Type of spell:  Generic
 to emanate from the caster, striking his victim. The target suffers
 considerable damage, and his lost vitality is transferred to the caster.
 ===========================================================================
+
+#
+CHANNELER (MultiClass)
+===========================================================================
+A Channeler is a multi-class Shaman/Conjurer.
+
+Notes on Channeler:
+Shamans use totems, and memorize spells without spellbooks.
+Conjurers memorize and require spellbooks.
+If you start as a Shaman, you will memorize spells, but you will no longer
+need totems or spellbooks, for ANY of your spells.
+If you start as a Conjurer, you will need spellbooks for all of your
+conjurer AND your shaman spells.
+===========================================================================
+See Also: SHAMAN, CONJURER, MULTI-CLASS, TOTEMS, MEMORIZE
 
 #
 "CHANT MASTERY" (&+REpic Skill&n)
@@ -3384,6 +3447,16 @@ to protect a chosen person from offensive spells or incoming blows.
 See also: GUARD, RESCUE
 
 #
+DEFENDER (MultiClass)
+===========================================================================
+A Defender is a multi-class Paladin/Warrior.
+
+Warriors normally do not have any spells, so there is no change to how you
+acquire/pray/cast your spells when you multiclass.
+===========================================================================
+See Also: PALADIN, WARRIOR, MULTI-CLASS, PRAY
+
+#
 DEFLECT (Spell)
 ===========================================================================
 Area of effect: <caster>
@@ -4555,6 +4628,16 @@ the process. Example Syntax: enchant cloak 'vitality'
 See also: ALCHEMIST, SKILL_ALCHEMIST
 
 #
+ENCHANTER (MultiClass)
+===========================================================================
+An Enchanter is a multi-class Bard/Sorcerer.
+
+Both classes use memorize/spellbooks, so there is no change to how you
+acquire/memorize/cast your spells when you multiclass.
+===========================================================================
+See Also: BARD, SORCERER, MULTI-CLASS, MEMORIZE
+
+#
 ENCRUST
 ===========================================================================
 Encrusting is one of the highly sought after skills of the Alchemist Class.
@@ -5673,6 +5756,21 @@ Spell
 See also: GROW, VINES, "AWAKEN FOREST"
 
 #
+FORRESTAL (MultiClass)
+===========================================================================
+A Forrestal is a multi-class Ranger/Druid.
+
+Notes on Forrestal:
+Rangers use spellbooks, and memorize spells.
+Druids commune, which is heavilly based on terrain, for both spells
+and commune times.
+If you start as a Druid, you will commune all your spells.
+If you start as a Ranger, you will memorize all your spells, and you
+will need spellbooks for BOTH your druid and your ranger spells.
+===========================================================================
+See Also: RANGER, DRUID, MULTI-CLASS, COMMUNE, MEMORIZE
+
+#
 FORGE FORGING
 ===========================================================================
 Forging is one of the primary skills of the Alchemist Class. By collecting
@@ -6008,6 +6106,13 @@ overload the receiver, requires the receiver's consent.
 See also: COINS CURRENCY CONSENT
 
 #
+GLADIATOR (MultiClass)
+===========================================================================
+A Gladiator is a multi-class Mercenary/Warrior.
+===========================================================================
+See Also: MERCENARY, WARRIOR, MULTI-CLASS
+
+#
 GLANCE
 ===========================================================================
 Syntax: glance [opponent]
@@ -6054,6 +6159,20 @@ provides no protection at all from physical assault.
 See also: "MINOR GLOBE OF INVULNERABILITY", "GROUP GLOBE OF INVULNERABILITY"
 
 #
+GMOTD
+===========================================================================
+This command gives you your Guild Message Of The Day, otherwise known as
+the news flashes for your guild that you see when you log in.
+
+Setting up your GMOTD: Only guild leaders are able to change and set your
+guild's GMOTD. To do this the leader writes the motd onto a piece of paper
+(which can be minor c'ed) and then type 'gmotd paper' to activate it. If
+you just type 'gmotd' or you are not a leader, it will show your current
+guild motd.
+===========================================================================
+See also: NEWS, GMOTD
+
+#
 GNOME
 ===========================================================================
 Gnomes are small, sturdy humanoids who are well known for their quick hands
@@ -6072,20 +6191,6 @@ Statistics: Gnomes have very quick minds, but seem to lack the wisdom to
 Innates:    Infravision, Farsee.
 ===========================================================================
 See also: RACES, INFRAVISION, INNATE
-
-#
-GMOTD
-===========================================================================
-This command gives you your Guild Message Of The Day, otherwise known as
-the news flashes for your guild that you see when you log in.
-
-Setting up your GMOTD: Only guild leaders are able to change and set your
-guild's GMOTD. To do this the leader writes the motd onto a piece of paper
-(which can be minor c'ed) and then type 'gmotd paper' to activate it. If
-you just type 'gmotd' or you are not a leader, it will show your current
-guild motd.
-===========================================================================
-See also: NEWS, GMOTD
 
 #
 GOBLIN
@@ -7103,6 +7208,16 @@ Innate abilities: infravision, outdoor sneak
 
 ===========================================================================
 See also: RACES, DROW, INFRAVISION, SNEAK, INNATE
+
+#
+GRIFTER (MultiClass)
+===========================================================================
+A Grifter is a multi-class Bard/Rogue.
+
+Rogues normally do not have any spells, so there is no change to how you
+acquire/memorize/cast your spells when you multiclass.
+===========================================================================
+See Also: BARD, ROGUE, MULTI-CLASS, MEMORIZE
 
 #
 GROUP (General Information)
@@ -9840,12 +9955,11 @@ combinations are not allowed (and not on the list of course).
 -Anti-Paladin: Warrior
 -Paladin: Warrior
 -Druid: Shaman, Cleric
--Shaman: Conjurer, Druid, Cleric
+-Shaman: Conjurer, Druid, Cleric, Reaver
 -Mercenary: Rogue, Warrior
 -Rogue: Bard, Mercenary
 -Reaver: Shaman
 -Conjurer: Shaman, Sorcerer
-
 
 Multi-Class Names
 ===========================================================================
@@ -15163,6 +15277,21 @@ the link is active.
 ===========================================================================
 
 #
+SOULRENDER (MultiClass)
+===========================================================================
+A Soulrender is a multi-class Shaman/Reaver.
+
+Notes on Soulrender:
+Shamans use totems, and memorize spells without spellbooks.
+Reavers memorize and require spellbooks.
+If you start as a Shaman, you will memorize spells, but you will no longer
+need totems or spellbooks, for ANY of your spells.
+If you start as a Reaver, you will also memorize spells, but you will
+need spellbooks for all of your reaver AND your shaman spells.
+===========================================================================
+See Also: REAVER, SHAMAN, MULTI-CLASS, MEMORIZE, TOTEM
+
+#
 "SOULSHIELD" (Spell)
 ===========================================================================
 Area of effect: <caster>
@@ -15429,6 +15558,21 @@ ability to communicate with the rest of his central nervous system.
 This causes the victim to have trouble travelling about, and
 in extreme cases, makes it harder for them to escape from combat.
 ===========================================================================
+
+#
+SPIRITMASTER (MultiClass)
+===========================================================================
+A Spiritmaster is a multi-class Shaman/Cleric.
+
+Notes on Spiritmaster:
+Shamans use totems, and memorize spells without spellbooks.
+Clerics pray, and require no spellbooks or totems.
+If you start as a Shaman, you will memorize spells, but you will no longer
+need totems, for ANY of your spells.
+If you start as a Cleric, you will pray spells, but again, you will not
+need totems, for ANY of your spells.
+===========================================================================
+See Also: SHAMAN, CLERIC, MULTI-CLASS, PRAY, MEMORIZE
 
 #
 SPIRITUALIST (Specialization)
@@ -16363,6 +16507,13 @@ had a chill touch potion and you wished to throw it at the mob in the room
 called "hunter", type: throwpotion chill hunter
 ===========================================================================
 See also: THROW, MIX, SKILL_ALCHEMIST
+
+#
+THUG (MultiClass)
+===========================================================================
+A Thug is a multi-class Rogue/Mercenary.
+===========================================================================
+See Also: ROGUE, MERCENARY, MULTI-CLASS
 
 #
 TIME
@@ -17501,6 +17652,16 @@ anyone within its effects to lose their sense of direction.
 ===========================================================================
 
 #
+"WAR PRIEST" (MultiClass)
+===========================================================================
+A War Priest is a multi-class Warrior/Cleric.
+
+Warriors normally do not have any spells, so there is no change to how you
+acquire/pray/cast your spells when you multiclass.
+===========================================================================
+See Also: WARRIOR, CLERIC, MULTI-CLASS, PRAY
+
+#
 WARCRY (Skill)
 ===========================================================================
 Preparing to go into battle, a skilled warrior lets loose with a powerful
@@ -17757,7 +17918,7 @@ will not give you any information if you are indoors.
 ===========================================================================
 
 #
-"WEB" (Spell)
+WEB (Spell)
 ===========================================================================
 Area of effect: Exit
 Aggressive:     No
@@ -18031,6 +18192,16 @@ to travel further without tiring. As the caster improves, so do the results
 of the spell.
 ===========================================================================
 See also: PANTHERSPEED
+
+#
+WOODSMAN (MultiClass)
+===========================================================================
+A Woodsman is a multi-class Ranger/Warrior.
+
+Warriors normally do not have any spells, so there is no change to how you
+acquire/memorize/cast your spells when you multiclass.
+===========================================================================
+See Also: RANGER, WARRIOR, MULTI-CLASS, MEMORIZE
 
 #
 "WORD OF COMMAND" (Spell)
