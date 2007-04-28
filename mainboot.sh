@@ -34,18 +34,18 @@ while [ $RESULT != 0 ]; do
     mv logs/log/* logs/old-logs/$LOGNAME
   fi
 
-  echo "Coping news files.."
-  rm -rf /var/www/html/duris_files/*
-  cp /duris/mud/lib/information/news /var/www/html/duris_files/
+  #echo "Copying news files.."
+  #rm -rf /var/www/html/duris_files/*
+  #cp /duris/mud/lib/information/news /var/www/html/duris_files/
 
   echo "Creating svn log file.."
-  /usr/local/bin/svn2cl -f lib/information/changelog.src src
+  /usr/bin/svn2cl -f lib/information/changelog.src src
 
   echo "Generating list of functions.."
   nm --demangle dms | grep " T " | sed -e 's/[(].*[)]//g' > lib/event_names
 
   echo "Starting duris server.."
-  ./dms 6666 > dms.out
+  ./dms 7777 > dms.out
 
   RESULT=${PIPESTATUS[0]}
 done
