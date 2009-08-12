@@ -1,0 +1,134 @@
+#5024
+M
+lost map exit maze~
+&+LThe lost &+radventurer &+Lspeaks:&N
+&+L                  &N
+&+L   Please help me, I have been looking for a way out of this place for longer&N
+&+Lthan I can remember.  I will give you all that I have if you could bring me a&N
+&+Wmap &+Lto find my way out of here.  I do not know how much longer I can survive,&N
+&+Lplease have mercy on me.  All I want to do is go home to my family, can't you&N
+&+Lunderstand that and help me.&N
+~
+M
+minotaurs minotaur horror horrors~
+&+LThe lost &+radventurer &+Lspeaks:&N
+&+L             &N
+&+w   Yes I have seen many horrors in my long time trapped within this diabolical&N
+&+wdismal domain.  &+LMino&+rtaur&+Ls&+w, yes, there are at least 3 that I have seen, perhaps&N
+&+wdieing to them is the only way out of here.  Please, you must find me a &+Wmap &+wso&N
+&+wI can find my way out of here finally.  I just want to go home, to my wife and&N
+&+wkids, my small village.  I was stupid to wish to explore this place, I wish so&N
+&+wmuch I never entered this &+Ldeath &+wspun realm.  Please find me a &+Wmap&+w, I will give&N
+&+wyou all that I still own in this life.&N
+~
+QA
+&+LThe lost &+radventurer &+Llooks at the &+wmap &+Lthen speaks:&N
+&+L         &N
+&+L   Yes, yes, hahaha it all is so clear now, finally I can find my way out of&N
+&+Lthis vile place.  I can never thank you enough, but here, take all that I have&N
+&+Land good luck finding your way out.  I will never forget all that you did for&N
+&+Lme today, ask the &+Wknight &+Labout &+revil&+L, and the &+rDevil &+Labout the &+bcurse&+L.&N
+~
+R I 5073
+R C 24000
+R E 24000
+G I 5014
+D
+&+LThe lost &+radventurer &+Lvanishes into the foreboding darkness of the &+wlabyrinth&+L.&N
+~
+S
+#5028
+M
+evil creatures monsters~
+&+LThe &+Wknight &+Lgrimaces and says '&+wThere is much &+revil &+wwithin these passages and it&N
+&+wis my quest to rid the labyrinth of the &+Ldarkness&+w.&+L'&N
+&+L                                           &N
+&+LHe looks you up and down before continuing.&N
+&+L                                           &N
+&+LHe says '&+wIf you're good enough, and bring me back proof of destruction of these&N
+&+wfoul creatures that lurk within the depths of this place, I would repay you for&N
+&+wyour assistance.&+L'&N
+~
+M
+who are you knight golden flame~
+He says proudly 'I am Sir Uthor Whiteheart, knight of the Golden Flame.'
+~
+M
+where from come~
+The knight says 'I come from a land on the other side of the mountains to
+the east called Metheryl.'
+~
+M
+hi hello greetings~
+The knight nods at you in acknowledgement.
+~
+MA
+proof evidence list destruction~
+&+LThe &+Wknight &+Lspeaks:&N
+&+L          &N
+   Yes, the evidence I need to reward thee is as follows...
+&+La bat wing&N
+&+ya tuft of sasquatch hair&N
+&+La beetle &+wshell&N
+&+La spider's &+Gpoison &+Lsac&N
+&+La patch of &+rred moss&N
+&+La patch of &+Bblue moss&N
+&+La patch of &+ggreen moss&N
+&+wa patch of &+Lblack moss&N
+&+La piece of spider's &+wweb&N
+
+&+LThe &+Wknight &+Lglares around, then speaks once more.&N
+
+   &+wBring me these and I shall bestow thee with the sigil of my powerful and
+&+wnoble order.&N
+~
+Q
+&+LThe &+Wknight &+Lsmiles and speaks:&N
+&+L           &N
+&+w   You have done very well indeed, my quest has been made easier with your help&N
+&+wand I shall reward thee.  Never shall you fear the darkness, for this item will&N
+&+wguide you down the correct path.  You are a true hero, wear this item with a&N
+&+wpride unmatched.&N
+~
+R I 5031
+R E 50000
+G I 5001
+G I 5002
+G I 5003
+G I 5005
+G I 5006
+G I 5007
+G I 5008
+G I 5009
+G I 5020
+S
+#5055
+M
+minotaur minotaurs quest curse~
+&+wVada&+Ltorn flashes a strange glare, then starts to speak:&N
+&+L                                               &N
+&+L   Yes I shall tell you of the &+bcurse &+Lthat I must endure, the reason for this&N
+&+Lstrange mark you see.  I have been bound to this place for as long as I care to&N
+&+Lremember.  I need three things from the mino&+rtaur&+Ls that dwell within this dismal&N
+&+Lplace devoid of any hope.  Bring me the tail of a mino&+rtaur&+L, a &+rbloody heart &+Lof a&N
+&+Lmino&+rtaur&+L, and an &+reye &+Lof a mino&+rtaur&+L.  Do as I say and I shall reward thee, now&N
+&+Lleave me alone.  Do not return until you have the items I have told you to get.&N
+~
+Q
+&+wVada&+Ltorn flashes a smile, then speaks:&N
+&+L                                      &N
+&+L   Now I can finally be free from this place, never again shall I have to stay&N
+&+Lwhere I do not wish to.  You have done well, I never thought you would be able&N
+&+Lto do it.  I guess I will keep my side of the deal, only because I do not need&N
+&+Lthese objects.  Someone like yourself, you seem like you need all the help you&N
+&+Lcan get.  So here you go, remember &+wonly death is real&+L, nothing else matters.&N
+~
+R I 5069
+R I 5070
+G I 5061
+G I 5053
+G I 5058
+D
+&+wVada&+Ltorn chants some words and vanishes in a flickering fading &+Ct&+cwi&+Cl&+cigh&+Ct &+Lblaze.&N
+~
+S

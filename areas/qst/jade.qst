@@ -1,0 +1,366 @@
+#76602
+M
+qc_action 30~
+$n looks around the city warily, watching for trouble.
+$n says in broken common, "No trouble!"
+~
+S
+#76603
+Q
+&+W"Thanks!"
+~
+R C 10000
+G I 318
+Q
+&+W"Thanks!"
+~
+R C 10000
+G I 319
+S
+#76606
+Q
+~
+R C 0
+G I 76620
+D
+&+yThe Hunter looks extremely upset.
+&+W     "How could you! That boar was to be my trophy!
+&+W     Mine..."
+&+yHe hangs his head in sorrow and wanders off into the
+&+yJungle.
+~
+Q
+&+yThe hunter doesn't look too impressed.
+&+W        "Well, thank you, but I could have done that myself."
+~
+R E 80000
+R C 50000
+G I 76619
+G I 76619
+G I 76619
+G I 76619
+S
+#76623
+Q
+&+yThe kiter flashes a toothy smile.
+&+W        "Sure I'll make you something, one moment."
+&+yHe takes a minute and flattens the ground rice
+&+yinto a paper-thin layer, then deftly folds it up.
+&+W        "Here you go, but remember rice paper isn't
+&+W        very strong, not useful for much, maybe you
+&+W        can get someone to enchant it for you."
+~
+R I 76635
+G I 76626
+S
+#76629
+Q
+~
+R I 76651
+G I 76626
+Q
+&+W        "Ah one moment, let me whip you up something special!"
+&+W....
+&+W....
+&+W        "Here you are, good for the soul!"
+~
+R I 76652
+G I 76624
+S
+#76630
+Q
+&+W	"Ok, thats enough for a bag, here you go."
+~
+R I 76607
+G I 76608
+G I 76608
+G I 76608
+G I 76608
+G I 76608
+S
+#76654
+Q
+&+W	"You have nice face! I give you special
+&+W	discount and enchant this item for you."
+~
+R I 76636
+G I 76635
+G C 10000
+Q
+~
+G I 76706
+Q
+~
+R I 76725
+G I 76724
+G C 10000
+S
+#76656
+Q
+~
+R I 76703
+G I 76678
+G I 76690
+G I 76690
+G I 76692
+G I 76693
+S
+#76657
+Q
+&+yYou dump in the full bag of harvested rice...
+&+yWait a moment for the wheel to grind...
+&+y...
+&+yAnd 'presto!' you now have crushed, ground rice.
+~
+R I 76626
+G I 76607
+S
+#76658
+Q
+~
+R I 76624
+G I 76623
+D
+&+gWith a couple of quick snips with your knife you cut the net, free the
+&+gturtle and place it in your inventory.&n
+~
+S
+#76659
+Q
+&+W     "Here let me mix you a drink with this..."
+....
+....
+....
+&+W     "This should put some hair on your chest, enjoy."
+~
+R I 76628
+G I 76626
+S
+#76660
+Q
+~
+R I 76707
+G I 76615
+D
+&+LThe &+ymercenary&+L looks estatic.&n
+&+W        "This is great news!!" &+LHe pauses, looking sheepish for a moment.
+&+W        "Well I mean, it is bad, Armageddon is here, for sure.
+&+W        But, like, wow.. action. I gotta go tell the Hunters.
+&+W        I'll be back with the full crew as soon as I can, to beat
+&+W        those buggers back into hell, but in the meantime hold on
+&+W        to this, and kill some more of those bastards for me.
+&+W        Later!"
+~
+S
+#76665
+Q
+~
+R C 200000
+G I 76704
+D
+&+W	"Nicely done, well, as promised, here is half the
+&+W	bounty. I better get back to Tharnadia now."
+~
+S
+#76668
+Q
+~
+R I 76617
+G C 10000
+Q
+&+yThe tamer looks at you in shock.
+&+W     "Wow! I can't believe it, such fine creature.
+&+W     Please take this as a token of my thanks, it
+&+W     is but a small ammount to what this beast is
+&+W     worth, now I must work long and hard to tame
+&+W     it!"
+~
+R C 100000
+G I 76644
+Q
+&+W	"Well, its not really much, but its something I
+&+W	suppose. Here, take this for your trouble."
+~
+R I 222
+R I 222
+G I 76624
+S
+#76669
+Q
+&+LThe &+gDaimyo&+L thinks for a moment.
+&+W        "Well, certainly that is fine work, you are quite skilled.
+&+W        Perhaps you can do one more small thing for me, kill the
+&+W        pirate king that has been hiding out in our fair city,
+&+W        and show me proof along with the hydra heart, then I
+&+W        promise to grant you audience."
+~
+R I 76665
+G I 76665
+Q
+&+LThe &+gDaimyo&+L appears quite impressed.
+&+W        "Well done, well as promised, here is your invitation.
+&+W        Please give it to the guard at the door to the Emperor's
+&+W        room for admitance."
+~
+R I 76667
+G I 76666
+G I 76665
+S
+#76674
+Q
+&+WWith all your might you fling the giant net at the beast.&n
+~
+R I 76644
+G I 76617
+D
+&+W...
+&+WSuccess! You have captured the vicious creature!&n
+~
+S
+#76679
+Q
+~
+R I 76723
+R I 76649
+G I 76708
+G I 76712
+G I 76713
+G I 76711
+S
+#76684
+Q
+~
+R I 76663
+G I 76654
+D
+&+mThe upset woman looks at the hierloom with tears in her eyes.
+        "I knew he was gone...I felt it...
+        But, this is the proof I need, maybe now I can
+        get on with my life... Thank you, take this
+        as a sign of my enternal gratitude. It was his."
+~
+S
+#76688
+M
+hi hello mande~
+&+YSaint &+WMacavor grumbles to you, 'Why are you here? If you want to make
+&+Wyourself useful, go slay brother &+cMande&+W. He has brought nothing but
+&+Wtrouble to our ways. Oh, and while you're at it, go slay that vile
+&+Ldragon &+RTroggahn&+W.'
+
+&+W'Bring me &+cMande&+W's &+rhead&+W, and &+RTroggahn&+W's &+Legg &+Wand I will reward you
+&+Whandsomely.'&n
+~
+M
+mande~
+&+YSaint &+WMacavor says to you, '&+cMande &+Wis in hiding here, within &+gThe &+GJade &+gempire&+W.
+&+WFind him and kill him!'&n
+~
+M
+troggahn~
+&+YSaint &+WMacavor says to you, '&+RTroggahn&+W, the &+Lblack dragon &+Wis a vile
+&+Wcreature that resides in the &+LUnderground Tunnels &+Wbeneath Father
+&+cTel's &+WHoly &+YCloister&+W.'
+
+&+W'You must travel through the &+MUnderdark &+Wto reach it. The only known
+&+Wpassage to this area is through the &+LClan &+cStoutdorf &+WSettlement&+W.'&n
+~
+Q
+~
+R I 55324
+R I 32019
+R I 32019
+G I 67116
+G I 76730
+S
+#76691
+Q
+~
+R I 76659
+G I 76657
+G I 76658
+Q
+~
+R I 76699
+G I 76659
+G I 76660
+G C 10000
+Q
+~
+R I 76700
+G I 233
+Q
+~
+R I 76720
+G C 10000
+G I 76659
+G I 76679
+S
+#76693
+Q
+~
+R I 76726
+R I 76648
+G I 76687
+S
+#76696
+Q
+~
+R I 76704
+G I 76617
+D
+&+yWith a burst of speed, you fling the net at the &+Loutlaw&+y, tangling
+&+yhim up, and drag him around behind you.
+~
+S
+#76697
+Q
+&+gThe guard nods and hands you a key.
+&+W        "All the paperwork seems to be in order. Here you are.
+&+W        Please be curteous in His Majesty's pressence."
+~
+R I 76689
+G I 76667
+S
+#76699
+Q
+~
+R C 10000
+R E 10000
+G I 76676
+D
+&+W	"Hey thanks alot! I can go look around now no problem.
+&+W	Let me pay you for this."
+~
+S
+#76711
+Q
+&+gIn broken common and with tears in his eyes, the Emperor thanks you.
+&+W	"Oh, my daughter is safe....
+&+W	I owe you so much."
+~
+R I 76722
+R I 55372
+G I 77205
+S
+#76715
+Q
+~
+R I 76729
+G I 76688
+S
+#76718
+Q
+~
+R E 30000
+G I 77200
+D
+&+LThe ambassador nods after you show him the coin purse and tell him
+&+Lyour tale of the stowaway.&n
+        "Thank you for telling me about my poor
+        fellow citizen here in these lands.
+        I will make sure to go pick him up when
+        I am finished with business here and make
+        sure he gets home to his wife safetly."
+~
+S

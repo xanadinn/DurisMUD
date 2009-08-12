@@ -1,0 +1,249 @@
+#986
+Village of Refugees~
+98666 1 0 25 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 98607 3 9 100 0 0 0
+*     west exit from "A Broken-down Shack" to
+*     "A Tiny Little Alcove" - closed/blocked
+*
+D 0 98610 1 9 100 0 0 0
+*     east exit from "A Tiny Little Alcove" to
+*     "A Broken-down Shack" - closed/blocked
+*
+D 0 98609 5 5 100 0 0 0
+*     down exit from "Market Square" to
+*     "Climbing down the well" - closed/secret
+*
+D 0 98629 4 5 100 0 0 0
+*     up exit from "Climbing down the well" to
+*     "Market Square" - closed/secret
+*
+D 0 98614 1 4 100 0 0 0
+*     east exit from "A Dark and Gloomy Attic" to
+*     "A Dark Niche" - open/secret
+*
+D 0 98615 3 4 100 0 0 0
+*     west exit from "A Dark Niche" to
+*     "A Dark and Gloomy Attic" - open/secret
+*
+D 0 98624 5 1 100 0 0 0
+*     down exit from "A Devastated Mansion" to
+*     "A Dark Cellar" - closed
+*
+D 0 98628 4 1 100 0 0 0
+*     up exit from "A Dark Cellar" to
+*     "A Devastated Mansion" - closed
+*
+D 0 98626 1 2 100 0 0 0
+*     east exit from "A Disheveled Attic" to
+*     "A Large Roosting Area" - closed/locked
+*
+D 0 98627 3 2 100 0 0 0
+*     west exit from "A Large Roosting Area" to
+*     "A Disheveled Attic" - closed/locked
+*
+D 0 98665 1 1 100 0 0 0
+*     east exit from "A Large Barn" to
+*     "A Large Loose-box" - closed
+*
+D 0 98666 3 1 100 0 0 0
+*     west exit from "A Large Loose-box" to
+*     "A Large Barn" - closed
+*
+*
+O 0 98600 1 98604 100 0 0 0        * a broken gate
+P 1 98601 1 98600 100 0 0 0        *   a pitch-black raven's feather
+O 0 98607 1 98607 100 0 0 0        * an old broken table
+O 0 98631 1 98609 100 0 0 0        * an old dry well
+O 0 98667 1 98610 100 0 0 0        * an old broken table
+O 0 98613 1 98611 100 0 0 0        * a rusty carving knife
+O 0 98608 1 98614 100 0 0 0        * a little sparrow's nest
+P 1 98609 5 98608 100 0 0 0        *   a tiny sparrow's egg
+P 1 98609 5 98608 100 0 0 0        *   a tiny sparrow's egg
+P 1 98609 5 98608 100 0 0 0        *   a tiny sparrow's egg
+P 1 98609 5 98608 100 0 0 0        *   a tiny sparrow's egg
+P 1 98609 5 98608 100 0 0 0        *   a tiny sparrow's egg
+O 0 98612 1 98615 100 0 0 0        * a small chest
+P 1 98611 1 98612 100 0 0 0        *   a lace wedding veil
+P 1 98614 1 98612 100 0 0 0        *   a note
+O 0 98615 1 98617 100 0 0 0        * a mass of spider webs
+P 1 98616 1 98615 100 0 0 0        *   worn leather gloves
+O 0 98623 1 98621 100 0 0 0        * a broken bedside table
+P 1 98624 1 98623 100 0 0 0        *   a greenwood cudgel
+O 0 98630 1 98626 100 0 0 0        * a pile of bat guano
+P 1 98629 1 98630 100 0 0 0        *   a tiny silver key
+O 0 98626 1 98628 100 0 0 0        * an aromatic cedar chest
+P 1 98625 1 98626 100 0 0 0        *   a bright blue cummerbund
+P 1 98627 1 98626 100 0 0 0        *   a faded letter
+O 0 98628 1 98628 100 0 0 0        * a pile of cracked and broken bones
+O 0 98666 1 98629 100 0 0 0        * a battered sign
+O 0 98632 1 98643 100 0 0 0        * a large rusted cage
+O 0 98633 1 98643 100 0 0 0        * a small cage
+P 1 98637 1 98633 100 0 0 0        *   a garish pair of shoes
+O 0 98634 1 98643 100 0 0 0        * a brass cage
+P 1 98636 1 98634 100 0 0 0        *   a pair of tattered pants
+O 0 98639 1 98655 100 0 0 0        * a wooden farm gate
+O 0 98640 1 98663 100 0 0 0        * a cast-iron cookpot
+O 0 98663 1 98665 100 0 0 0        * a dutch-door
+O 0 98665 1 98666 100 0 0 0        * a large storage bin
+P 1 98664 1 98665 100 0 0 0        *   a glossy riding saddle
+*
+M 0 98600 9 98601 100 0 0 0        * A tiny bony chipmunk
+M 0 98602 7 98601 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98600 9 98601 100 0 0 0        * A tiny bony chipmunk
+M 0 98606 1 98601 100 0 0 0        * A black-winged falcon
+G 1 98604 1 0 100 0 0 0            *    a black falcon's feather
+M 0 98620 9 98601 100 0 0 0        * A little blue snake
+M 0 98600 9 98601 100 0 0 0        * A tiny bony chipmunk
+M 0 98600 9 98601 100 0 0 0        * A tiny bony chipmunk
+M 0 98602 7 98602 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98600 9 98602 100 0 0 0        * A tiny bony chipmunk
+M 0 98601 6 98602 100 0 0 0        * A zombified squirrel
+M 0 98601 6 98602 100 0 0 0        * A zombified squirrel
+M 0 98605 1 98602 100 0 0 0        * A red-tailed hawk
+G 1 98603 1 0 100 0 0 0            *    a red-tailed hawk's feather
+M 0 98620 9 98602 100 0 0 0        * A little blue snake
+M 0 98602 7 98602 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98600 9 98602 100 0 0 0        * A tiny bony chipmunk
+M 0 98603 1 98602 100 0 0 0        * A screech owl
+G 1 98602 1 0 100 0 0 0            *    a bright white feather
+M 0 98602 7 98603 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98600 9 98603 100 0 0 0        * A tiny bony chipmunk
+M 0 98604 1 98603 100 0 0 0        * A black raven
+M 0 98601 6 98603 100 0 0 0        * A zombified squirrel
+M 0 98601 6 98603 100 0 0 0        * A zombified squirrel
+M 0 98601 6 98603 100 0 0 0        * A zombified squirrel
+M 0 98602 7 98603 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98620 9 98603 100 0 0 0        * A little blue snake
+M 0 98600 9 98604 100 0 0 0        * A tiny bony chipmunk
+M 0 98600 9 98604 100 0 0 0        * A tiny bony chipmunk
+M 0 98601 6 98604 100 0 0 0        * A zombified squirrel
+M 0 98602 7 98604 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98602 7 98604 100 0 0 0        * A ragged furred, bushy tailed fox
+M 0 98620 9 98604 100 0 0 0        * A little blue snake
+M 0 98620 9 98606 100 0 0 0        * A little blue snake
+M 0 98609 9 98608 100 0 0 0        * A small black mouse
+M 0 98609 9 98608 100 0 0 0        * A small black mouse
+M 0 98607 1 98610 100 0 0 0        * A mangy snarling bitch
+E 1 98606 1 3 100 0 0 0            *   a frayed cloth collar
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+F 1 98608 7 98610 100 0 0 0        * A whimpering puppy (following)
+M 0 98609 9 98612 100 0 0 0        * A small black mouse
+M 0 98609 9 98614 100 0 0 0        * A small black mouse
+M 0 98609 9 98614 100 0 0 0        * A small black mouse
+M 0 98610 4 98614 100 0 0 0        * A bright-eyed sparrow skeleton
+M 0 98610 4 98614 100 0 0 0        * A bright-eyed sparrow skeleton
+M 0 98610 4 98614 100 0 0 0        * A bright-eyed sparrow skeleton
+M 0 98610 4 98614 100 0 0 0        * A bright-eyed sparrow skeleton
+M 0 98611 1 98614 100 0 0 0        * A moaning spirit
+G 1 98610 1 0 100 0 0 0            *    a ghost's key
+M 0 98612 1 98615 100 0 0 0        * An evil wraith
+M 0 98609 9 98616 100 0 0 0        * A small black mouse
+M 0 98613 1 98617 100 0 0 0        * A large black spider
+M 0 98614 6 98617 100 0 0 0        * A little black spider
+M 0 98614 6 98617 100 0 0 0        * A little black spider
+M 0 98614 6 98617 100 0 0 0        * A little black spider
+M 0 98615 1 98619 100 0 0 0        * The shopkeeper Anguinel
+G 1 98617 999 0 100 0 0 0          *    a pickle
+G 1 98618 999 0 100 0 0 0          *    a tightly woven cloth waterskin
+G 1 98619 999 0 100 0 0 0          *    a treasure map
+G 1 98620 999 0 100 0 0 0          *    a loaf of stale bread
+G 1 98621 999 0 100 0 0 0          *    a torch
+G 1 98622 999 0 100 0 0 0          *    a tough cloth backpack
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 98620 9 98620 100 0 0 0        * A little blue snake
+M 0 98614 6 98622 100 0 0 0        * A little black spider
+M 0 98614 6 98622 100 0 0 0        * A little black spider
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98618 7 98626 100 0 0 0        * A small brown bat
+M 0 98617 5 98627 100 0 0 0        * A large black bat
+M 0 98617 5 98627 100 0 0 0        * A large black bat
+M 0 98617 5 98627 100 0 0 0        * A large black bat
+M 0 98617 5 98627 100 0 0 0        * A large black bat
+M 0 98617 5 98627 100 0 0 0        * A large black bat
+M 0 98616 1 98628 100 0 0 0        * A mourning spirit
+M 0 98621 2 98628 100 0 0 0        * A hiding rat
+M 0 98609 9 98628 100 0 0 0        * A small black mouse
+M 0 98614 6 98628 100 0 0 0        * A little black spider
+M 0 98619 5 98628 100 0 0 0        * A squeaking rat
+M 0 98642 2 98633 100 0 0 0        * A bored adolescent Ettin
+F 1 98641 7 98633 100 0 0 0        * A playful Ettin cub (following)
+E 1 98658 5 16 100 0 0 0           *   a toy club
+F 1 98641 7 98633 100 0 0 0        * A playful Ettin cub (following)
+M 0 98641 7 98635 100 0 0 0        * A playful Ettin cub
+E 1 98658 5 16 100 0 0 0           *   a toy club
+M 0 98641 7 98635 100 0 0 0        * A playful Ettin cub
+E 1 98658 5 16 100 0 0 0           *   a toy club
+M 0 98642 2 98637 100 0 0 0        * A bored adolescent Ettin
+F 1 98641 7 98637 100 0 0 0        * A playful Ettin cub (following)
+F 1 98641 7 98637 100 0 0 0        * A playful Ettin cub (following)
+F 1 98641 7 98637 100 0 0 0        * A playful Ettin cub (following)
+M 0 98639 2 98638 100 0 0 0        * An Ettin warrior
+M 0 98634 2 98643 100 0 0 0        * An Ettin Warrior
+E 1 98659 2 13 100 0 0 0           *   a filthy stained loincloth
+E 1 98662 2 16 100 0 0 0           *   a wooden club
+M 0 98635 2 98643 100 0 0 0        * An Ettin Female
+E 1 98660 2 5 100 0 0 0            *   a sack dress
+M 0 98636 2 98643 100 0 0 0        * A little Ettin Cub
+E 1 98658 5 16 100 0 0 0           *   a toy club
+M 0 98634 2 98643 100 0 0 0        * An Ettin Warrior
+E 1 98659 2 13 100 0 0 0           *   a filthy stained loincloth
+E 1 98662 2 16 100 0 0 0           *   a wooden club
+M 0 98635 2 98643 100 0 0 0        * An Ettin Female
+E 1 98660 2 5 100 0 0 0            *   a sack dress
+M 0 98636 2 98643 100 0 0 0        * A little Ettin Cub
+E 1 98658 5 16 100 0 0 0           *   a toy club
+M 0 98637 1 98643 100 0 0 0        * A large Beholder
+G 1 98635 1 0 100 0 0 0            *    a rusty key
+G 1 98642 1 0 100 0 0 0            *    a beholder's eyestalk
+M 0 98638 1 98643 100 0 0 0        * A pitiful Human prisoner
+E 1 98661 4 3 100 0 0 0            *   black-iron shackles
+E 1 98661 4 4 100 0 0 0            *   black-iron shackles
+M 0 98639 2 98646 100 0 0 0        * An Ettin warrior
+M 0 98620 9 98647 100 0 0 0        * A little blue snake
+M 0 98620 9 98647 100 0 0 0        * A little blue snake
+M 0 98609 9 98648 100 0 0 0        * A small black mouse
+M 0 98609 9 98648 100 0 0 0        * A small black mouse
+M 0 98619 5 98648 100 0 0 0        * A squeaking rat
+M 0 98619 5 98648 100 0 0 0        * A squeaking rat
+M 0 98619 5 98648 100 0 0 0        * A squeaking rat
+M 0 98619 5 98648 100 0 0 0        * A squeaking rat
+M 0 98623 1 98649 100 0 0 0        * A desperate survivor
+E 1 98638 1 16 100 0 0 0           *   a rusty sword
+M 0 98621 2 98649 100 0 0 0        * A hiding rat
+M 0 98622 1 98649 100 0 0 0        * A red-eyed spider
+M 0 98620 9 98653 100 0 0 0        * A little blue snake
+M 0 98626 2 98658 100 0 0 0        * A little skeletal brown mouse.
+M 0 98626 2 98658 100 0 0 0        * A little skeletal brown mouse.
+M 0 98643 1 98660 100 0 0 0        * an Ettin scout
+M 0 98625 1 98663 100 0 0 0        * A grey-haired farmer's wife
+E 1 98641 1 16 100 0 0 0           *   a long-handled cooking ladle
+M 0 98624 1 98663 100 0 0 0        * An old farmer
+M 0 98627 1 98664 100 0 0 0        * A well-fed cow zombie
+F 1 98628 1 98664 100 0 0 0        * A little dead calf (following)
+M 0 98629 1 98664 100 0 0 0        * A skeletal banty rooster
+F 1 98630 2 98664 100 0 0 0        * A speckled hen zombie (following)
+F 1 98630 2 98664 100 0 0 0        * A speckled hen zombie (following)
+M 0 98631 1 98664 100 0 0 0        * A lovely pink and quite undead pig
+M 0 98632 2 98665 100 0 0 0        * A large skeletal draft-horse
+M 0 98632 2 98665 100 0 0 0        * A large skeletal draft-horse
+M 0 98640 3 98666 100 0 0 0        * A glossy black riding horse with blazing red eyes.
+M 0 98640 3 98666 100 0 0 0        * A glossy black riding horse with blazing red eyes.
+M 0 98640 3 98666 100 0 0 0        * A glossy black riding horse with blazing red eyes.
+*
+S

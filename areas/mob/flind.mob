@@ -1,0 +1,531 @@
+#3400
+crucified human~
+a crucified human~
+&+yA frail human nailed to a crucifix struggles to get free.
+~
+&+y   This poor bastard screams and tries to free his hands from the huge nails
+&+ydriven through them. Oddly enough, the wounds in his hands do not bleed,
+&+yand his entire body is covered with scars from an edged weapon. It seems
+&+yDeath would be a gift to this captive.
+~
+10 0 0 16384 0 0 0 700 S
+PH 1 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3401
+cleric flind~
+&+yflind cleric~
+A &+yflind cleric &nstands here, healing the mortally wounded.
+~
+&+y   This flind's sole purpose is to keep the prisoners from death, prolonging
+&+ythe life and usefulness of the crucified and those chosen for blood
+&+yextraction.  The cleric has a &+Ybright yellow mane, &+yand his body does not show
+&+yany recent signs of battle as his fur is unblemished.  He is unarmed and
+&+ytakes little notice of anything but the condition of the wounded.
+~
+67108872 64 0 0 0 0 0 -1000 S
+H 0 32 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3402
+troll bound sitting prisoner skinny~
+a bound troll~
+&+gA skinny troll sits bound in a stockade.
+~
+&+g   This troll is locked into a large stockade, and sits with her head hanging
+&+gbetween her outstreached arms. The animal has had its hands cut off at the
+&+gwrists, and &+rblood &+gfreely flows into the collection basin below the stockade.
+&+gPale and sickly, the troll looks as though it has survived years of blood
+&+gletting, kept healthy enough only to produce blood for the flind.
+~
+8 0 0 16384 0 0 0 0 S
+PT 10 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#3403
+chained human frail~
+&+wa chained human~
+&+LA &+Wpale human &+Lhangs upside down here, chained to the wall.
+~
+&+W   A chained human hangs against the wall, suspended by the ankles and hung
+&+Wupside down. This individual seems a shell of a man, and is missing both
+&+Whis arms from the elbow down. &+rBlood spurts &+Wfrom the exposed veins, landing
+&+Win a collection basin below the prisoner. The man manages a few weak sobs,
+&+Wand doesn't seem to be capable of much more.
+~
+2058 0 0 16384 0 0 0 0 S
+PH 1 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3404
+ogre mutilated disfigured chained~
+a disfigured ogre~
+A mutilated ogre hangs from the ceiling.
+~
+This sorry animal has been mutilated by the flind for some unknown reason.
+His teeth have been broken and pulled from his mouth, eyes removed and the
+sockets seared shut.  Chains attached to the ceiling hang the ogre by his
+arms, a large chain incircles his waist and holds him to the floor.  The
+legs have been removed at the knee, and blood drains into a deep collection
+basin below him.  The ogre occasionally flails about, sending streams of
+blood through the air.
+~
+8 0 0 16384 0 0 0 -1000 S
+PT 10 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3405
+dwarf restrained burned smoldering~
+&+Ya restrained dwarf~
+&+L A smoldering &+Ydwarf &+Lstands in the basin, covered in burns.
+~
+&+LThis is your typical dwarf, with a scraggly beard and smelly long hair. He has
+&+Lbeen burned repeatedly, most of his skin seared black with pure energy. The
+&+Ldwarf acts as though he can't see, probably losing his eye sight from a direct
+&+Wlightning strike.
+~
+8 0 0 16384 0 0 0 679 S
+PM 0 32 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3406
+butcher drow smelly filthy shopkeeper~
+&+ma smelly butcher~
+&+mA filthy looking shopkeeper mangles pieces of meat behind the case.
+~
+&+m   For some unknown reason, this Drow Elf has been allowed to run the local
+&+mmeat shop.  He does possess great dexterity and is obviously an expert with
+&+ma knife, but is surrounded by a stench that would gag an ogre.  Scraps of
+&+mmeat, flesh and bone cover his body, along with a mixture of grease and
+&+mblood.  It is evident this captive loves his job, he delights in the
+&+mdismemberment and mutilation of bodies.
+~
+2058 0 0 0 8 0 0 -1000 S
+H 0 8192 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3407
+mouther gibbering pile flesh slimy~
+&+Ya gibbering mouther~
+&+YA slimy pile of flesh lies motionless on the floor.
+~
+&+Y   When left undisturbed, this creature keeps its hundreds of eyes and mouths
+&+Yshut, waiting to ambush passing creatures.  The body seems only to contain
+&+Yeyes and mouths, its sole function to find and eat everything possible, dead
+&+Yor alive.  While active, the eyes constantly scan the room and the mouths
+&+Ychomp their teeth continously, creating afrightening sound.
+~
+12 0 0 0 0 0 0 300 S
+A 0 0 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3408
+qullan humanoid bright savage~
+&+ya savage Qullan~
+&+yA humanoid covered in bright warpaint flails about the room.
+~
+&+yMany colors of warpaint adorn this wild Qullan, arranged in large patches
+&+racross every part of its body.  A dark patch of hair sprouts from the top of
+&+bits head and hangs just below its waist.  It emits a loud, unnerving
+&+glaughter as it attacks, greatly enjoying the battle.  Qullan are experts with
+&+ma sword, their quick and brutal attacks have been known to slaughter entire
+&+cgroups of adventurers.
+~
+1073741832 1 0 16 0 0 0 -900 S
+H 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3409
+rat grinning~
+&+La rat~
+&+LA grinning rat licks his lips as it looks about.
+~
+&+L   Very large and obviously well fed, this rat has a taste for live food.
+&+LHis grey fur is matted with &+rblood&+L, it looks as though he rolled in an
+&+ropen wound &+Lor a &+rbloody carcass.  &+LLong sharp teeth jut out from every
+&+Linch of his mouth, and beady red eyes watch you closely.
+~
+10 0 0 0 0 0 0 0 S
+A 0 0 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3410
+flind cook~
+a flind cook~
+A flind cook stands here, urinating in the appetizer.
+~
+    This filthy cook handles the meals for the lower rank flind, who never
+receive anything remotely resembling food.  The cook's grease covered fur
+is full of large dark grey spots and a few scars are noticeable, probably
+inflicted by uncooperative food.
+~
+1073741832 0 0 33554432 0 0 0 -950 S
+H 0 0 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3411
+cook obese flind fat~
+&+yan obese flind~
+&+yAn obese flind works here, roasting prisoners for dinner.
+~
+&+y    This slovenly flind sweats buckets toiling over the large cooking pit.  He
+&+ywears thick leather gloves and an apron to protect himself from the heat, and
+&+yseems to be have burnt the hair off the remainder of his body.
+~
+67110922 0 0 33554432 0 0 0 -900 S
+H 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3412
+trainer flind gigantic huge~
+&+Ya flind trainer~
+A &+Ygigantic flind &nruns about, beating the youngsters.
+~
+&+Y   This huge flind has develeped his body into a damage machine.  Muscles
+&+Ybulge across his entire body, his arms the size of most flind's legs.
+&+YHis fists are enormous and are raised in front of him in a menacing nature.
+~
+2056 0 0 144 0 0 0 -900 S
+H 0 16384 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3413
+cleric flind robed cook~
+&+Ya flind cleric~
+&+yA &+Yrobed cook &+ywatches the roasting pit carefully.
+~
+&+Y   This flind cleric is in charge of healing the prisoners selected for
+&+Yroasting.  The food must be kept alive until it is cooked inside and
+&+Yout, so the cleric must be capable of serious healing and good judgment.
+&+YHis &+Lblack eyes &+Yscan back and forth, from the room to his assignment.
+~
+67110920 64 0 0 0 0 0 -800 S
+H 0 32 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3414
+cleaner animal strange~
+&+ma corpse cleaner~
+&+mA strange looking animal is wrapped around a corpse here.
+~
+&+mThis horrid beast moves aout dead bodies, wrapping its wing-like arms
+&+maround corpses and consuming them completely.  The cleaner has a tube shaped
+&+mmouth that sprays its meal with a strong acid which turns the body into a
+&+msoft pulp.  No eyes are dissernable behind its oversized facial scales.
+~
+138 0 0 0 8192 0 0 0 S
+A 0 0 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3415
+glider cavern animal winged~
+&+Ca cavern glider~
+&+CA leathery winged animal flys through the air.
+~
+   An animal resembling a skeletal bat with stretched leather wings screeches
+as it darts about.  It has large clear eyes and needle like fangs protrude
+from its mouth. Its bony claws end in sharp nails and are used for protection.
+~
+1073873032 0 0 0 0 0 0 500 S
+A 0 0 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3416
+halfling skewered~
+a skewered halfling~
+A &+mskewered &+whalfling has been placed across the roasting pit.
+~
+   This unfortunate halfling has been impaled on a skewer and set upon the
+roasting pit.  She twitches as the flames lap at her and emits a deep
+gurgling sound when the skewer is rotated for even cooking.  The charred
+skin has begun to smolder, but the meal isnt ready until the insides boil
+and the eyes completely fall from the head.
+~
+10 0 0 16384 0 0 0 700 S
+PF 0 4096 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#3417
+cub flind~
+&+La flind cub~
+A &+Lflind cub &nplays here, kicking his brethren in the head.
+~
+&+L   Cruel at birth, flind cubs spend their waking hours attacking each other
+&+Land learning from mistakes.  The young flind have dark colored fur and manes,
+&+Lwhich provide camoflage.  Their coloring will not lighten to the normal
+&+Lyellowish color unless they live to be older.
+~
+136 0 0 0 0 0 0 -600 S
+H 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3418
+cook foul flind~
+a dirty cook~
+&+yA foul cook stands here, &+Ypissing &+yin the appetizer.
+~
+&+y   This filthy cook handles the meals for the lower rank flind, who
+&+ywho never receive anything remotely resembling food.  The cook's grease
+&+ycovered fur is full of large dark grey spots and a few scars can be
+&+ynoticed, probably inflicted by uncooperative food.
+~
+2056 0 0 0 0 0 0 -800 S
+H 0 16384 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3419
+innards entrails living pile bloody~
+&+ysome living &+rinnards~
+&+yA &+rbloody &+ypile of entrails crawls across the ground.
+~
+   &+yThis disgusting abonimation is all that remains of some unfortunate
+&+yindividual.  An evil force has completely removed its body, limbs and life,
+&+yleaving only the raw insides to house the soul.  The innards twist and fall
+&+yover each other as they slither across the ground, and its heart still pumps
+&+yblood through this mess, each beat causing the pile to twitch.
+~
+136 0 0 0 0 0 0 550 S
+AP 0 0 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3420
+demon minor winged~
+&+ra minor demon&n~
+&+rA winged demon hovers here, fire erupting about it.
+~
+   &+LBlack &+rhorns shoot from the sides of this demons head, curving straight
+&+rbehind it and down its back.  Large bat-like wings connect to its shoulder
+&+rblades and spikes run from its neck to the end of its tail.  The demon has
+&+ran extremely muscular build and sports &+csilver metallic spikes &+rfrom its
+&+rshoulders, elbows and wingtips.
+~
+1073872904 1 0 65536 1 0 0 -1000 S
+X 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3421
+garlyf animal reptilian~
+&+ga garlyf~
+&+g A reptilian animal moves about, frothing at the mouth.
+~
+&+g   A cross between a small alligator and a wolf, the garlyf is a strange
+&+gunderworld animal.  It is covered in scales over the top of its body and
+&+ghas &+Ldark black fur &+gunderneath.  The face is a combination of scales and
+&+Lfur,&+g while its large reptilian tail ends in sharp spikes.
+~
+8 72 0 0 0 0 0 -400 S
+A 0 0 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#3422
+goat evil~
+&+La goat~
+&+LAn evil looking goat with long curved horns stands here.
+~
+&+L   This black haired goat is very muscular and sports two wicked horns that
+&+Lcurve forward, ending in sharp points.  Its beard hangs halfway down its chest
+&+Land large &+rdemonic symbols &+Lhave been branded into its hide.  The goats &+Yyellow
+&+Yreptilean eyes &+Lhint of an inner wisdom and powers unseen.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+A 0 1 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3423
+vigilante column fire demon~
+&+ra vigilante~
+&+rA column of fire violently burns in the air here.
+~
+&+r   This demon is an incarnation of fire, summoned by greater demons to aid
+&+rin attle.  No features or limbs exist, but parts of the fire form into
+&+rhuge arms and legs for striking.
+~
+1073743882 1 0 805306408 1 0 0 -1000 S
+EF 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3424
+guard flind hyena humanoid~
+&+ya flind guard~
+A humanoid resembling an upright &+yhyena&n paces about.
+~
+&+y   Standing nearly seven feet tall, this humanoid strongly resembles a hyena,
+&+yit has a long &+rred-&+Yyellow mane, &+Ldark eyes &+yand a short muzzle.  It has a very
+&+ypowerful body which is covered in dark orange fur and its movements indicate
+&+ya good deal of agility.
+~
+67110922 1 0 16 0 0 0 -900 S
+H 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3425
+magi flind mage~
+&+ra flind magi~
+A &+rflind magi&n stares into space, apparently in a trance.
+~
+&+r    This flind has carved magical runes across his body and forehead,
+&+rcompletely devote to his craft.  While still quite large, this mage is not
+&+ras big as other flind, barely standing over six feet tall.  His fur and mane
+&+rare bright red and his &+Lblack eyes &+rshine from power within.
+~
+10 1 0 134217736 128 0 0 -900 S
+H 0 512 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3426
+dog skinned~
+&+Ra skinned dog~
+&+RA large dog with no skin growls as it runs about.
+~
+&+R   This dog has been skinned alive by some cruel individual.  The exposed
+&+Rskin is bright pink and &+rblood &+Rruns from a few spots where the skin was
+&+Rpunctured.  The exposed body is muscular and the dog looks very dangerous.
+~
+1073744008 64 0 0 0 0 0 450 S
+A 0 0 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#3427
+demon serrated~
+&+rthe Serrated Demon~
+&+rA grotesque demon erupts from a column of flames.
+~
+&+r   This demon is the Serrated Demon of ancient lore.  The demons vile torso, &n
+&+rwings and head protrude from the flames which engulf it.  Its wings easily   &n
+&+rspan twenty feet and its horned skull houses bone fangs that protrude well   &n
+&+rbelow its shoulders.  The body is difficult to see through the flames and its
+&+rmonstrous arms end in metal shafts, narrowing to lethal points.              &N
+~
+1073743880 1 0 0 0 0 0 -1000 S
+Y 0 16 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3428
+sentinel orb guard armored~
+&+Ga sentinel~
+&+GAn armored orb floats about the room, surveying all in sight.
+~
+&+G   This creature was manufactured to serve as a guard and protector, and is
+&+Gdesigned as such.  It possesses several sets of eyes, each sunken in its body
+&+Gand surrounded by a hardened exoskeleton for protection.  It scans its
+&+Gposition in a 360 degree radius, not allowing trespassers to escape notice.
+&+GThe stinals body is made to inflict damage when struck, it is encased in
+&+Grows of radially protruding plates, each as sharp as a sword.  The limbs of
+&+Gthe creature jut mid-center from its body and are capable of delivering
+&+Gquick and brutal attacks.
+~
+133130 1 0 268435512 0 0 0 100 S
+EE 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3429
+necromancer necro mage body flind~
+&+La decaying mage~
+&+LA decaying body moves about, performing a complex ritual.
+~
+&+L   A rotten and decomposing body moves about, performing evil acts in the
+&+Lname of the necromancer.  The body looks to be formerly of a flind, evidently
+&+Lthe mage was killed in ritual and raised as an undead, to enhance its
+&+Lunnatural powers.  Its face has deteriorated badly, several open areas reveal
+&+Wbarren skull&+L, and its claws have been reduced to &+Wskeletal hands.
+~
+2058 64 0 64 262144 0 0 -900 S
+UV 0 1024 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3430
+minion demon evil creature~
+&+ra minion~
+&+rAn evil creature presides here, tormenting the damned.
+~
+&+r   This creature has been manufactured for pain infliction, and is designed
+&+raccordingly.  It resembles a minor winged demon with a row of spikes running
+&+rdown its back to its tail, large clawed arms and legs and bright flames that
+&+rburn across its body.  The minion is equiped with an extra set of arms,
+&+rallowing it to manipulate bodies and increments of torture efficiently.
+~
+1073874952 1 0 536870952 1 0 0 -1000 S
+X 0 2048 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#3431
+sentinel orb guard armored~
+&+ma sentinel~
+&+mAn armored orb floats about the room, surveying all in sight.
+~
+&+m   This creature was manufactured to serve as a guard and protector, and is
+&+mdesigned as such.  It possesses several sets of eyes, each sunken in its body
+&+mand surrounded by a hardened exoskeleton for protection.  It scans its
+&+mposition in a 360 degree radius, not allowing trespassers to escape notice.
+&+mThe sentinels body is made to inflict damage when struck, it is encased in
+&+mrows of radially protruding plates, each as sharp as a sword.  The limbs of
+&+mthe creature jut mid-center from its body and are capable of delivering
+&+mquick and brutal attacks.
+~
+133130 1 0 268435512 0 0 0 100 S
+OG 0 16 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#3432
+tutor large flind~
+&+ya flind tutor~
+A &+ylarge flind &nstands here, swinging away with a club.
+~
+&+y   The amount of muscle mass on this warrior is amazing, every muscle highly
+&+ydefined and developed.  This large flind looks to be some sort of instructor,
+&+yhe keeps a watchful eye on the room and carries a very large club that looks
+&+ylight in his hands.  His fur and mane are dark orange and a large scar runs
+&+ydown his forehead and across his left eye, which is missing.
+~
+2058 64 0 16 0 0 0 -900 S
+H 0 16384 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#3433
+lesser minion creature stocky short~
+&+ra lesser minion~
+&+RA short stocky creature wanders about, guarding its master.
+~
+&+r   This is a creation of the minion, a servant used to do his bidding.  It
+&+ris short and squat, appearing as a strong humanoid warrior covered in flames.
+&+rThe surface of the lesser minion resembles a fire elemental and follows its
+&+rmaster about the room closely, guarding against any intruders.
+~
+67110922 1 0 65576 1 0 0 -900 S
+EF 0 1 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

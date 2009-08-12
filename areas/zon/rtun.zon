@@ -1,0 +1,188 @@
+#903
+Tunnels of Payang~
+90387 2 4 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 90311 1 1 100 0 0 0
+*     east exit from "A Large Opening in the Tunnels" to
+*     "An Unholy Labortory" - closed
+*
+D 0 90366 3 1 100 0 0 0
+*     west exit from "An Unholy Labortory" to
+*     "A Large Opening in the Tunnels" - closed
+*
+D 0 90319 1 1 100 0 0 0
+*     east exit from "An Unholy Shrine" to
+*     "A Small Armoury" - closed
+*
+D 0 90320 3 1 100 0 0 0
+*     west exit from "A Small Armoury" to
+*     "An Unholy Shrine" - closed
+*
+D 0 90325 5 5 100 0 0 0
+*     down exit from "A Deadend in the Tunnels" to
+*     "A Black Iron Ladder" - closed/secret
+*
+D 0 90326 4 5 100 0 0 0
+*     up exit from "A Black Iron Ladder" to
+*     "A Deadend in the Tunnels" - closed/secret
+*
+D 0 90340 3 1 100 0 0 0
+*     west exit from "A Side Tunnel" to
+*     "An Empty Burial Plot" - closed
+*
+D 0 90344 1 1 100 0 0 0
+*     east exit from "An Empty Burial Plot" to
+*     "A Side Tunnel" - closed
+*
+D 0 90341 4 1 100 0 0 0
+*     up exit from "Entrance to the Crypt" to
+*     "Above the Crypt" - closed
+*
+D 0 90380 5 1 100 0 0 0
+*     down exit from "Above the Crypt" to
+*     "Entrance to the Crypt" - closed
+*
+D 0 90348 3 1 100 0 0 0
+*     west exit from "The Upper Tombs" to
+*     "The Halls of the Dead" - closed
+*
+D 0 90349 1 1 100 0 0 0
+*     east exit from "The Halls of the Dead" to
+*     "The Upper Tombs" - closed
+*
+*
+O 0 90302 5 90301 100 0 0 0        * a large coffin
+O 0 90302 5 90302 100 0 0 0        * a large coffin
+O 0 90302 5 90303 100 0 0 0        * a large coffin
+O 0 90301 4 90313 100 0 0 0        * a hanging lantern
+O 0 90301 4 90334 100 0 0 0        * a hanging lantern
+O 0 90301 4 90337 100 0 0 0        * a hanging lantern
+O 0 90302 5 90372 100 0 0 0        * a large coffin
+O 0 90302 5 90373 100 0 0 0        * a large coffin
+O 0 90301 4 90375 100 0 0 0        * a hanging lantern
+O 0 3097 2 90387 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 90303 13 90301 100 0 0 0       * a rat zombie
+M 0 90303 13 90301 100 0 0 0       * a rat zombie
+M 0 90313 13 90301 100 0 0 0       * a skeletal guard
+M 0 90319 6 90301 100 0 0 0        * a worker ghoul
+M 0 90303 13 90304 100 0 0 0       * a rat zombie
+M 0 90303 13 90304 100 0 0 0       * a rat zombie
+M 0 90313 13 90304 100 0 0 0       * a skeletal guard
+M 0 90313 13 90304 100 0 0 0       * a skeletal guard
+M 0 90303 13 90305 100 0 0 0       * a rat zombie
+M 0 90303 13 90305 100 0 0 0       * a rat zombie
+M 0 90313 13 90305 100 0 0 0       * a skeletal guard
+M 0 90313 13 90305 100 0 0 0       * a skeletal guard
+M 0 90313 13 90306 100 0 0 0       * a skeletal guard
+M 0 90313 13 90306 100 0 0 0       * a skeletal guard
+M 0 90321 4 90306 100 0 0 0        * a zombie labourer
+M 0 90321 4 90306 100 0 0 0        * a zombie labourer
+M 0 90303 13 90309 100 0 0 0       * a rat zombie
+M 0 90303 13 90309 100 0 0 0       * a rat zombie
+M 0 90304 2 90311 100 0 0 0        * a blood golem
+M 0 90313 13 90314 100 0 0 0       * a skeletal guard
+M 0 90313 13 90314 100 0 0 0       * a skeletal guard
+M 0 90303 13 90315 100 0 0 0       * a rat zombie
+M 0 90303 13 90315 100 0 0 0       * a rat zombie
+M 0 90305 3 90315 100 0 0 0        * a carrion crawler
+M 0 90319 6 90315 100 0 0 0        * a worker ghoul
+M 0 90319 6 90315 100 0 0 0        * a worker ghoul
+M 0 90304 2 90319 100 0 0 0        * a blood golem
+M 0 90321 4 90319 100 0 0 0        * a zombie labourer
+M 0 90325 1 90320 100 0 0 0        * a wight weaponsmith
+M 0 90321 4 90321 100 0 0 0        * a zombie labourer
+M 0 90316 2 90322 100 0 0 0        * a wraith
+M 0 90316 2 90322 100 0 0 0        * a wraith
+M 0 90315 6 90326 100 0 0 0        * a vampire bat
+M 0 90315 6 90326 100 0 0 0        * a vampire bat
+M 0 90315 6 90327 100 0 0 0        * a vampire bat
+M 0 90315 6 90327 100 0 0 0        * a vampire bat
+M 0 90315 6 90328 100 0 0 0        * a vampire bat
+M 0 90315 6 90328 100 0 0 0        * a vampire bat
+M 0 90306 1 90329 100 0 0 0        * the master piper
+G 1 36245 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 36246 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 36247 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 36248 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 90322 3 90329 100 0 0 0        * a dwarven berzerker
+M 0 90322 3 90331 100 0 0 0        * a dwarven berzerker
+M 0 90322 3 90334 100 0 0 0        * a dwarven berzerker
+M 0 90311 6 90335 100 0 0 0        * a dwarven battlerager
+M 0 90326 1 90335 100 0 0 0        * a GIANT carrion crawler
+G 1 90304 1 0 100 0 0 0            *    some stitched-up limbs of the damned
+M 0 90311 6 90336 100 0 0 0        * a dwarven battlerager
+M 0 90311 6 90337 100 0 0 0        * a dwarven battlerager
+M 0 90328 1 90337 100 0 0 0        * a dark dreadlord
+M 0 90311 6 90338 100 0 0 0        * a dwarven battlerager
+M 0 90303 13 90339 100 0 0 0       * a rat zombie
+M 0 90319 6 90339 100 0 0 0        * a worker ghoul
+M 0 90313 13 90340 100 0 0 0       * a skeletal guard
+M 0 90313 13 90340 100 0 0 0       * a skeletal guard
+M 0 90303 13 90342 100 0 0 0       * a rat zombie
+M 0 90303 13 90342 100 0 0 0       * a rat zombie
+M 0 90309 4 90344 100 0 0 0        * a newborn gargoyle
+M 0 90310 4 90344 100 0 0 0        * a mature gargoyle
+M 0 90309 4 90345 100 0 0 0        * a newborn gargoyle
+M 0 90305 3 90345 100 0 0 0        * a carrion crawler
+M 0 90310 4 90345 100 0 0 0        * a mature gargoyle
+M 0 90314 1 90346 100 0 0 0        * a cryptkeeper
+M 0 90313 13 90348 100 0 0 0       * a skeletal guard
+M 0 90313 13 90348 100 0 0 0       * a skeletal guard
+M 0 90301 6 90349 100 0 0 0        * a cryptkeeper
+M 0 90301 6 90349 100 0 0 0        * a cryptkeeper
+M 0 90301 6 90356 100 0 0 0        * a cryptkeeper
+M 0 90301 6 90356 100 0 0 0        * a cryptkeeper
+M 0 90301 6 90357 100 0 0 0        * a cryptkeeper
+M 0 90301 6 90357 100 0 0 0        * a cryptkeeper
+M 0 90309 4 90364 100 0 0 0        * a newborn gargoyle
+M 0 90310 4 90364 100 0 0 0        * a mature gargoyle
+M 0 90309 4 90365 100 0 0 0        * a newborn gargoyle
+M 0 90310 4 90365 100 0 0 0        * a mature gargoyle
+M 0 90312 1 90366 100 0 0 0        * a vampire battle-forger
+G 1 827 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 828 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 826 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 825 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 824 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 823 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 822 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 90308 1 90370 100 0 0 0        * a gravedigger merchant
+G 1 53 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3050 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 90320 2 90371 100 0 0 0        * a skeletal lancer
+E 1 90303 5 16 100 0 0 0           *   a bone lance
+M 0 90320 2 90371 100 0 0 0        * a skeletal lancer
+E 1 90303 5 16 100 0 0 0           *   a bone lance
+M 0 90319 6 90372 100 0 0 0        * a worker ghoul
+M 0 90305 3 90373 100 0 0 0        * a carrion crawler
+M 0 90319 6 90373 100 0 0 0        * a worker ghoul
+M 0 90311 6 90374 100 0 0 0        * a dwarven battlerager
+M 0 90311 6 90375 100 0 0 0        * a dwarven battlerager
+M 0 90324 1 90376 100 0 0 0        * an undead behemoth
+M 0 90317 3 90377 100 0 0 0        * a zombie miner
+G 1 191 3 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 90318 3 90377 100 0 0 0        * a worker ghoul
+M 0 90317 3 90378 100 0 0 0        * a zombie miner
+G 1 191 3 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 90318 3 90378 100 0 0 0        * a worker ghoul
+M 0 90317 3 90379 100 0 0 0        * a zombie miner
+G 1 191 3 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 90318 3 90379 100 0 0 0        * a worker ghoul
+M 0 90302 3 90380 100 0 0 0        * a skeletal lancer
+E 1 90303 5 16 100 0 0 0           *   a bone lance
+M 0 90302 3 90380 100 0 0 0        * a skeletal lancer
+E 1 90303 5 16 100 0 0 0           *   a bone lance
+M 0 90302 3 90380 100 0 0 0        * a skeletal lancer
+E 1 90303 5 16 100 0 0 0           *   a bone lance
+M 0 90307 1 90380 100 0 0 0        * a ghastly illusionist
+M 0 90323 1 90385 100 0 0 0        * a lurking shadow beast
+M 0 90387 1 90387 100 0 0 0        * Nyroclex, the Lich banker
+*
+S

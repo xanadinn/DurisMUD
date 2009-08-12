@@ -1,0 +1,209 @@
+#358
+&+gAbandoned &+GElven &+yHomestead&+g.~
+35851 1 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 35817 3 0 100 0 0 0
+*     west exit from "Outside the Walls of an Ancient Keep" to
+*     "Inside an Abandoned Garrison" - open
+*
+D 0 35819 1 0 100 0 0 0
+*     east exit from "Inside an Abandoned Garrison" to
+*     "Outside the Walls of an Ancient Keep" - open
+*
+D 0 35818 0 2 100 0 0 0
+*     north exit from "Courtyard of the Keep" to
+*     "Courtyard of the Inter-Sanctum" - closed/locked
+*
+D 0 35820 2 1 100 0 0 0
+*     south exit from "Courtyard of the Inter-Sanctum" to
+*     "Courtyard of the Keep" - closed
+*
+D 0 35820 1 1 100 0 0 0
+*     east exit from "Courtyard of the Inter-Sanctum" to
+*     "Cobweb Covered Hallway" - closed
+*
+D 0 35823 3 1 100 0 0 0
+*     west exit from "Cobweb Covered Hallway" to
+*     "Courtyard of the Inter-Sanctum" - closed
+*
+D 0 35821 3 1 100 0 0 0
+*     west exit from "Grand Dining Room" to
+*     "An old run down Kitchen" - closed
+*
+D 0 35822 1 1 100 0 0 0
+*     east exit from "An old run down Kitchen" to
+*     "Grand Dining Room" - closed
+*
+D 0 35827 0 2 100 0 0 0
+*     north exit from "Hall of Redemntion" to
+*     "War Room" - closed/locked
+*
+D 0 35828 2 1 100 0 0 0
+*     south exit from "War Room" to
+*     "Hall of Redemntion" - closed
+*
+D 0 35829 4 1 100 0 0 0
+*     up exit from "Leading toward the Master Room" to
+*     "Master Bedchamber" - closed
+*
+D 0 35836 5 1 100 0 0 0
+*     down exit from "Master Bedchamber" to
+*     "Leading toward the Master Room" - closed
+*
+D 0 35830 4 1 100 0 0 0
+*     up exit from "Hallway towards the Lady's Chamber" to
+*     "Lady's Bedchamber" - closed
+*
+D 0 35837 5 1 100 0 0 0
+*     down exit from "Lady's Bedchamber" to
+*     "Hallway towards the Lady's Chamber" - closed
+*
+D 0 35831 4 1 100 0 0 0
+*     up exit from "Antechamber to the High Magi's Abode" to
+*     "High Magi's Sleeping Chamber" - closed
+*
+D 0 35834 5 1 100 0 0 0
+*     down exit from "High Magi's Sleeping Chamber" to
+*     "Antechamber to the High Magi's Abode" - closed
+*
+D 0 35832 4 1 100 0 0 0
+*     up exit from "Dimly Lit Antechamber before the High Ranger's Chamber" to
+*     "High Ranger's Sleeping Chamber" - closed
+*
+D 0 35833 5 1 100 0 0 0
+*     down exit from "High Ranger's Sleeping Chamber" to
+*     "Dimly Lit Antechamber before the High Ranger's Chamber" - closed
+*
+D 0 35849 1 5 100 0 0 0
+*     east exit from "Pool Under the Waterfall" to
+*     "Secuded Beach Hidden Behind the Larger Falls" - closed/secret
+*
+D 0 35851 3 5 100 0 0 0
+*     west exit from "Secuded Beach Hidden Behind the Larger Falls" to
+*     "Pool Under the Waterfall" - closed/secret
+*
+*
+O 0 35803 1 35810 100 0 0 0        * a statue to Corellon Larethian
+O 0 35804 1 35810 100 0 0 0        * a statue to Solonor Thelandira
+O 0 35805 2 35810 100 0 0 0        * a clear tearformed basin of water
+O 0 35801 1 35814 100 0 0 0        * a half-spider, half-woman statue
+O 0 35802 1 35814 100 0 0 0        * a vile looking fountain and pool of cloudy waters
+O 0 35806 1 35819 100 0 0 0        * an old weapons rack
+P 1 35807 6 35806 100 0 0 0        *   a forked-bladed warsword
+P 1 35808 2 35806 100 0 0 0        *   an embroidered illithid-hide backsheath
+P 1 35809 2 35806 100 0 0 0        *   a well-crafted ash longbow
+O 0 35800 1 35822 100 0 0 0        * a well used oven
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+P 1 35810 10 35800 100 0 0 0       *   a leg of venison
+O 0 35821 1 35828 100 0 0 0        * an intricatly and inscribed runed chest rests here in the room
+P 1 35822 1 35821 100 0 0 0        *   some treasure
+P 1 35819 2 35821 100 0 0 0        *   a stretched drow-skin weapons sheath
+P 1 35827 1 35821 100 0 0 0        *   a pair of drow and illithid-skin armguards
+O 0 35823 1 35833 100 0 0 0        * a long flowing girth of spidersilk
+O 0 35811 1 35834 100 0 0 0        * a burnt out brazier long past forgotten
+O 0 35825 1 35836 100 0 0 0        * a well-crafted belt pouch
+*
+M 0 35806 5 35800 100 0 0 0        * the spirit of an Elven protector
+E 1 35807 6 16 100 0 0 0           *   a forked-bladed warsword
+M 0 35804 14 35801 100 0 0 0       * a red-breasted tree-hugger
+M 0 35804 14 35802 100 0 0 0       * a red-breasted tree-hugger
+M 0 35804 14 35803 100 0 0 0       * a red-breasted tree-hugger
+M 0 35804 14 35804 100 0 0 0       * a red-breasted tree-hugger
+M 0 35813 7 35804 100 0 0 0        * a red-tailed butterfly
+M 0 35804 14 35805 100 0 0 0       * a red-breasted tree-hugger
+M 0 35807 8 35805 100 0 0 0        * a blue-tailed butterfly
+M 0 35804 14 35806 100 0 0 0       * a red-breasted tree-hugger
+M 0 35807 8 35806 100 0 0 0        * a blue-tailed butterfly
+M 0 35804 14 35807 100 0 0 0       * a red-breasted tree-hugger
+M 0 35807 8 35807 100 0 0 0        * a blue-tailed butterfly
+M 0 35804 14 35808 100 0 0 0       * a red-breasted tree-hugger
+M 0 35807 8 35808 100 0 0 0        * a blue-tailed butterfly
+M 0 35804 14 35809 100 0 0 0       * a red-breasted tree-hugger
+M 0 35807 8 35809 100 0 0 0        * a blue-tailed butterfly
+M 0 35803 1 35810 100 0 0 0        * a blue robin
+G 1 35817 20 0 100 0 0 0           *    a robin's tail feather
+M 0 35807 8 35810 100 0 0 0        * a blue-tailed butterfly
+M 0 35804 14 35811 100 0 0 0       * a red-breasted tree-hugger
+M 0 35808 5 35811 100 0 0 0        * a reddish colored squirrel
+M 0 35804 14 35812 100 0 0 0       * a red-breasted tree-hugger
+M 0 35808 5 35812 100 0 0 0        * a reddish colored squirrel
+M 0 35804 14 35813 100 0 0 0       * a red-breasted tree-hugger
+M 0 35806 5 35813 100 0 0 0        * the spirit of an Elven protector
+E 1 35807 6 16 100 0 0 0           *   a forked-bladed warsword
+M 0 35808 5 35813 100 0 0 0        * a reddish colored squirrel
+M 0 35804 14 35814 100 0 0 0       * a red-breasted tree-hugger
+M 0 35805 1 35814 100 0 0 0        * a golden ivy plant
+G 1 35818 20 0 100 0 0 0           *    a strangly glowing ivy leaf
+M 0 35808 5 35814 100 0 0 0        * a reddish colored squirrel
+M 0 35804 14 35815 100 0 0 0       * a red-breasted tree-hugger
+M 0 35808 5 35815 100 0 0 0        * a reddish colored squirrel
+M 0 35806 5 35817 100 0 0 0        * the spirit of an Elven protector
+E 1 35807 6 16 100 0 0 0           *   a forked-bladed warsword
+M 0 35806 5 35820 100 0 0 0        * the spirit of an Elven protector
+E 1 35807 6 16 100 0 0 0           *   a forked-bladed warsword
+M 0 35801 1 35822 100 0 0 0        * Kalaban the aging hermit
+M 0 35809 9 35823 100 0 0 0        * a small spider
+M 0 35809 9 35824 100 0 0 0        * a small spider
+M 0 35809 9 35825 100 0 0 0        * a small spider
+M 0 35809 9 35826 100 0 0 0        * a small spider
+M 0 35809 9 35827 100 0 0 0        * a small spider
+M 0 35800 1 35828 100 0 0 0        * a half-elf, half-spider creature
+E 1 35815 1 16 100 0 0 0           *   an ancient forked-bladed warsword dubbed "Spider Bane"
+M 0 35809 9 35829 100 0 0 0        * a small spider
+M 0 35809 9 35830 100 0 0 0        * a small spider
+M 0 35809 9 35831 100 0 0 0        * a small spider
+M 0 35809 9 35832 100 0 0 0        * a small spider
+M 0 35802 5 35833 100 0 0 0        * a large sword spider
+G 1 35812 5 0 100 0 0 0            *    some unhatched spider eggs
+M 0 35802 5 35834 100 0 0 0        * a large sword spider
+G 1 35812 5 0 100 0 0 0            *    some unhatched spider eggs
+M 0 35802 5 35835 100 0 0 0        * a large sword spider
+G 1 35812 5 0 100 0 0 0            *    some unhatched spider eggs
+M 0 35802 5 35836 100 0 0 0        * a large sword spider
+G 1 35812 5 0 100 0 0 0            *    some unhatched spider eggs
+M 0 35802 5 35837 100 0 0 0        * a large sword spider
+G 1 35812 5 0 100 0 0 0            *    some unhatched spider eggs
+M 0 35807 8 35838 100 0 0 0        * a blue-tailed butterfly
+M 0 35813 7 35838 100 0 0 0        * a red-tailed butterfly
+M 0 35807 8 35839 100 0 0 0        * a blue-tailed butterfly
+M 0 35813 7 35839 100 0 0 0        * a red-tailed butterfly
+M 0 35806 5 35840 100 0 0 0        * the spirit of an Elven protector
+E 1 35807 6 16 100 0 0 0           *   a forked-bladed warsword
+M 0 35813 7 35840 100 0 0 0        * a red-tailed butterfly
+M 0 35813 7 35841 100 0 0 0        * a red-tailed butterfly
+M 0 35813 7 35842 100 0 0 0        * a red-tailed butterfly
+M 0 35810 13 35843 100 0 0 0       * a small speckled fish
+M 0 35813 7 35844 100 0 0 0        * a red-tailed butterfly
+M 0 35811 6 35845 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35845 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35845 100 0 0 0       * a small speckled fish (following)
+M 0 35811 6 35846 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35846 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35846 100 0 0 0       * a small speckled fish (following)
+M 0 35811 6 35847 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35847 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35847 100 0 0 0       * a small speckled fish (following)
+M 0 35811 6 35848 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35848 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35848 100 0 0 0       * a small speckled fish (following)
+M 0 35811 6 35849 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35849 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35849 100 0 0 0       * a small speckled fish (following)
+M 0 35811 6 35850 100 0 0 0        * a larger speckled fish
+F 1 35810 13 35850 100 0 0 0       * a small speckled fish (following)
+F 1 35810 13 35850 100 0 0 0       * a small speckled fish (following)
+M 0 35812 1 35851 100 0 0 0        * a sandcrab
+G 1 35826 1 0 100 0 0 0            *    a charred and burnt spellcase with golden edges
+*
+S

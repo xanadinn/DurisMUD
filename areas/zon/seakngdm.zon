@@ -1,0 +1,324 @@
+#315
+&+BSea Kingdom&n~
+31724 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 31500 9 2 100 0 0 0
+*     southeast exit from "A Landing Before a Gate" to
+*     "Within a Waveless Sea" - closed/locked
+*
+D 0 31507 6 2 100 0 0 0
+*     northwest exit from "Within a Waveless Sea" to
+*     "A Landing Before a Gate" - closed/locked
+*
+D 0 31501 5 12 100 0 0 0
+*     down exit from "A Mosaic Viewing Chamber" to
+*     "A Secret Room of Worship" - open/secret/blocked
+*
+D 0 31648 4 4 100 0 0 0
+*     up exit from "A Secret Room of Worship" to
+*     "A Mosaic Viewing Chamber" - open/secret
+*
+D 0 31527 0 2 100 0 0 0
+*     north exit from "A Sphere of Air" to
+*     "A Water Shrine" - closed/locked
+*
+D 0 31645 2 2 100 0 0 0
+*     south exit from "A Water Shrine" to
+*     "A Sphere of Air" - closed/locked
+*
+D 0 31545 1 8 100 0 0 0
+*     east exit from "A Bubbling Part of the Shaft" to
+*     "A Large Air Bubble" - open/blocked
+*
+D 0 31547 3 8 100 0 0 0
+*     west exit from "A Large Air Bubble" to
+*     "A Bubbling Part of the Shaft" - open/blocked
+*
+D 0 31566 5 8 100 0 0 0
+*     down exit from "Deep and Misty Portion of The Shadow Lake" to
+*     "Deep Shadow Lake" - open/blocked
+*
+D 0 31567 4 4 100 0 0 0
+*     up exit from "Deep Shadow Lake" to
+*     "Deep and Misty Portion of The Shadow Lake" - open/secret
+*
+D 0 31646 2 8 100 0 0 0
+*     south exit from "The Coral Gateway of the Water Palace" to
+*     "Open Watery Courtyard of the Palace" - open/blocked
+*
+D 0 31647 0 4 100 0 0 0
+*     north exit from "Open Watery Courtyard of the Palace" to
+*     "The Coral Gateway of the Water Palace" - open/secret
+*
+D 0 31654 2 8 100 0 0 0
+*     south exit from "Nearing the Heart of the Sea Kingdom" to
+*     "The Core of the Sea Kingdom" - open/blocked
+*
+D 0 31668 0 1 100 0 0 0
+*     north exit from "The Core of the Sea Kingdom" to
+*     "Nearing the Heart of the Sea Kingdom" - closed
+*
+D 0 31668 5 6 100 0 0 0
+*     down exit from "The Core of the Sea Kingdom" to
+*     "Below The Core of the Sea Kingdom" - closed/locked/secret
+*
+D 0 31724 4 6 100 0 0 0
+*     up exit from "Below The Core of the Sea Kingdom" to
+*     "The Core of the Sea Kingdom" - closed/locked/secret
+*
+D 0 31700 2 1 100 0 0 0
+*     south exit from "The Ultranos' Treasury" to
+*     "A Corridor in the Ultranos' Hull" - closed
+*
+D 0 31701 0 1 100 0 0 0
+*     north exit from "A Corridor in the Ultranos' Hull" to
+*     "The Ultranos' Treasury" - closed
+*
+D 0 31702 4 1 100 0 0 0
+*     up exit from "Junction in the Ultranos' Hull" to
+*     "The Center of the Deck of the Ultranos" - closed
+*
+D 0 31705 5 1 100 0 0 0
+*     down exit from "The Center of the Deck of the Ultranos" to
+*     "Junction in the Ultranos' Hull" - closed
+*
+*
+O 0 31510 1 31501 100 0 0 0        * the statue of an ancient trident
+O 0 31500 1 31535 100 0 0 0        * a strange dark pool
+O 0 31501 1 31540 100 0 0 0        * something
+O 0 31504 1 31545 100 0 0 0        * an air bubble
+O 0 31503 1 31547 100 0 0 0        * the shaft
+O 0 31505 1 31556 100 0 0 0        * a dark pool
+O 0 31506 1 31566 100 0 0 0        * the skull of the shadow lake
+O 0 31507 5 31604 100 0 0 0        * a large statue of an open-mouthed fish head
+O 0 31507 5 31604 100 0 0 0        * a large statue of an open-mouthed fish head
+O 0 31507 5 31604 100 0 0 0        * a large statue of an open-mouthed fish head
+O 0 31507 5 31604 100 0 0 0        * a large statue of an open-mouthed fish head
+O 0 31507 5 31606 100 0 0 0        * a large statue of an open-mouthed fish head
+O 0 31533 1 31609 100 0 0 0        * a glyph
+O 0 31509 1 31645 100 0 0 0        * two ancient tablets
+O 0 31511 1 31646 100 0 0 0        * the gates
+O 0 31512 1 31661 100 0 0 0        * a blue orb
+O 0 31525 1 31661 100 0 0 0        * a huge pile of pure platinum coins
+O 0 31534 1 31677 100 0 0 0        * a magical manuscript
+O 0 31536 1 31691 100 0 0 0        * an open blue portal
+O 0 31537 3 31700 100 0 0 0        * a platinum brick
+O 0 31537 3 31700 100 0 0 0        * a platinum brick
+O 0 31537 3 31700 100 0 0 0        * a platinum brick
+O 0 31538 1 31700 100 0 0 0        * a green gem called 'Eye of the Serpent'
+O 0 31541 2 31703 100 0 0 0        * several circular glass windows
+O 0 31541 2 31704 100 0 0 0        * several circular glass windows
+O 0 31547 1 31705 100 0 0 0        * a huge glimmering portal
+O 0 31549 1 31723 100 0 0 0        * a glowing necklace
+*
+M 0 31536 1 31500 100 0 0 0        * a stone golem
+G 1 31535 1 0 100 0 0 0            *    a tiny nightstone key
+M 0 31505 8 31522 100 0 0 0        * a huge water elemental
+M 0 31504 7 31522 100 0 0 0        * a water elemental
+M 0 31505 8 31524 100 0 0 0        * a huge water elemental
+M 0 31504 7 31524 100 0 0 0        * a water elemental
+M 0 31526 3 31536 100 0 0 0        * a cloud of dark sea mist
+F 1 31526 3 31536 100 0 0 0        * a cloud of dark sea mist (following)
+G 1 31522 1 0 100 0 0 0            *    a black visor
+F 1 31526 3 31536 100 0 0 0        * a cloud of dark sea mist (following)
+M 0 31507 1 31540 100 0 0 0        * the coral golem
+E 1 31528 1 15 100 0 0 0           *   a spiked nightstone bracelet
+F 1 31508 1 31540 100 0 0 0        * the coral golem's right arm (following)
+F 1 31509 1 31540 100 0 0 0        * the coral golem's left arm (following)
+M 0 31529 4 31541 100 0 0 0        * a needled blow fish
+E 1 31502 2 16 100 0 0 0           *   a blue thrusting needle
+M 0 31529 4 31541 100 0 0 0        * a needled blow fish
+E 1 31502 2 16 100 0 0 0           *   a blue thrusting needle
+M 0 31529 4 31541 100 0 0 0        * a needled blow fish
+M 0 31529 4 31541 100 0 0 0        * a needled blow fish
+M 0 31517 9 31548 100 0 0 0        * an aquatic beast
+M 0 31517 9 31548 100 0 0 0        * an aquatic beast
+M 0 31530 11 31548 100 0 0 0       * a whirlpool minion
+M 0 31517 9 31550 100 0 0 0        * an aquatic beast
+M 0 31517 9 31550 100 0 0 0        * an aquatic beast
+M 0 31530 11 31550 100 0 0 0       * a whirlpool minion
+M 0 31530 11 31550 100 0 0 0       * a whirlpool minion
+M 0 31517 9 31552 100 0 0 0        * an aquatic beast
+M 0 31517 9 31552 100 0 0 0        * an aquatic beast
+M 0 31530 11 31552 100 0 0 0       * a whirlpool minion
+M 0 31530 11 31552 100 0 0 0       * a whirlpool minion
+M 0 31530 11 31552 100 0 0 0       * a whirlpool minion
+M 0 31517 9 31554 100 0 0 0        * an aquatic beast
+M 0 31517 9 31554 100 0 0 0        * an aquatic beast
+M 0 31517 9 31554 100 0 0 0        * an aquatic beast
+M 0 31530 11 31554 100 0 0 0       * a whirlpool minion
+M 0 31530 11 31554 100 0 0 0       * a whirlpool minion
+M 0 31530 11 31554 100 0 0 0       * a whirlpool minion
+M 0 31510 1 31556 100 0 0 0        * the whirlpool demon
+E 1 31524 1 16 100 0 0 0           *   the daemonite whip
+E 1 31523 1 17 100 0 0 0           *   a twisted nightstone fork
+F 1 31527 1 31556 100 0 0 0        * a daemonite imp (following)
+F 1 31530 11 31556 100 0 0 0       * a whirlpool minion (following)
+F 1 31530 11 31556 100 0 0 0       * a whirlpool minion (following)
+M 0 31511 1 31564 100 0 0 0        * an evil shadow fish
+F 1 31512 2 31564 100 0 0 0        * a lesser shadow fish (following)
+F 1 31512 2 31564 100 0 0 0        * a lesser shadow fish (following)
+M 0 31518 1 31566 100 0 0 0        * a psionic eel
+E 1 31519 1 21 100 0 0 0           *   a small nightstone earring
+M 0 31501 7 31596 100 0 0 0        * a deep blue eel
+M 0 31501 7 31600 100 0 0 0        * a deep blue eel
+M 0 31501 7 31600 100 0 0 0        * a deep blue eel
+M 0 31501 7 31600 100 0 0 0        * a deep blue eel
+M 0 31501 7 31605 100 0 0 0        * a deep blue eel
+M 0 31501 7 31605 100 0 0 0        * a deep blue eel
+M 0 31501 7 31607 100 0 0 0        * a deep blue eel
+M 0 31503 1 31608 100 0 0 0        * the morkoth
+G 1 31532 1 0 100 0 0 0            *    a band of morkoth flesh
+G 1 31508 1 0 100 0 0 0            *    a wide, glowing key
+G 1 31529 1 0 100 0 0 0            *    a half of a silver amulet
+F 1 31535 2 31608 100 0 0 0        * a writhing tendril (following)
+F 1 31535 2 31608 100 0 0 0        * a writhing tendril (following)
+M 0 31515 1 31646 100 0 0 0        * a sapphire eye of the deep
+M 0 31516 1 31646 100 0 0 0        * an azure eye of the deep
+E 1 31517 1 10 100 0 0 0           *   the pauldrons of the tide
+M 0 31524 9 31647 100 0 0 0        * a black tentacle
+M 0 31534 1 31647 100 0 0 0        * a reef demon
+M 0 31522 1 31648 100 0 0 0        * an ixitxachitl priest
+G 1 31518 1 0 100 0 0 0            *    an oval seastone
+F 1 31523 3 31648 100 0 0 0        * an ixitxachitl (following)
+F 1 31523 3 31648 100 0 0 0        * an ixitxachitl (following)
+F 1 31523 3 31648 100 0 0 0        * an ixitxachitl (following)
+M 0 31521 10 31650 100 0 0 0       * a sea spirit
+M 0 31521 10 31650 100 0 0 0       * a sea spirit
+M 0 31521 10 31651 100 0 0 0       * a sea spirit
+M 0 31521 10 31651 100 0 0 0       * a sea spirit
+M 0 31521 10 31652 100 0 0 0       * a sea spirit
+M 0 31521 10 31652 100 0 0 0       * a sea spirit
+M 0 31521 10 31653 100 0 0 0       * a sea spirit
+M 0 31521 10 31653 100 0 0 0       * a sea spirit
+M 0 31521 10 31654 100 0 0 0       * a sea spirit
+M 0 31521 10 31654 100 0 0 0       * a sea spirit
+M 0 31519 1 31654 100 0 0 0        * the manta ray
+E 1 31515 1 18 100 0 0 0           *   the stinger of the manta ray
+M 0 31525 14 31655 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31655 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31656 100 0 0 0        * a black tentacle
+M 0 31524 9 31657 100 0 0 0        * a black tentacle
+M 0 31525 14 31657 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31657 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31659 100 0 0 0        * a black tentacle
+M 0 31525 14 31659 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31659 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31660 100 0 0 0        * a black tentacle
+M 0 31500 1 31661 100 0 0 0        * the deep spawn
+M 0 31525 14 31661 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31661 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31662 100 0 0 0        * a black tentacle
+M 0 31524 9 31663 100 0 0 0        * a black tentacle
+M 0 31525 14 31663 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31663 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31665 100 0 0 0        * a black tentacle
+M 0 31525 14 31665 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31665 100 0 0 0       * a red-tooth piranha
+M 0 31524 9 31667 100 0 0 0        * a black tentacle
+M 0 31525 14 31667 100 0 0 0       * a red-tooth piranha
+M 0 31525 14 31667 100 0 0 0       * a red-tooth piranha
+M 0 31513 3 31669 100 0 0 0        * an eerie sea sage
+G 1 31516 1 0 100 0 0 0            *    a staff of the sea
+F 1 31505 8 31669 100 0 0 0        * a huge water elemental (following)
+F 1 31505 8 31669 100 0 0 0        * a huge water elemental (following)
+M 0 31502 6 31669 100 0 0 0        * a large water snake
+M 0 31502 6 31669 100 0 0 0        * a large water snake
+M 0 31502 6 31669 100 0 0 0        * a large water snake
+M 0 31504 7 31669 100 0 0 0        * a water elemental
+M 0 31504 7 31669 100 0 0 0        * a water elemental
+M 0 31505 8 31669 100 0 0 0        * a huge water elemental
+M 0 31505 8 31669 100 0 0 0        * a huge water elemental
+M 0 31514 6 31669 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31514 6 31669 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31513 3 31670 100 0 0 0        * an eerie sea sage
+E 1 31520 1 9 100 0 0 0            *   the gloves of the sea
+F 1 31520 2 31670 100 0 0 0        * an eerie sea minion (following)
+M 0 31513 3 31670 100 0 0 0        * an eerie sea sage
+E 1 31521 1 13 100 0 0 0           *   the sash of the rainweaver
+F 1 31520 2 31670 100 0 0 0        * an eerie sea minion (following)
+M 0 31514 6 31670 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31514 6 31670 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31502 6 31670 100 0 0 0        * a large water snake
+M 0 31502 6 31670 100 0 0 0        * a large water snake
+M 0 31504 7 31670 100 0 0 0        * a water elemental
+M 0 31504 7 31670 100 0 0 0        * a water elemental
+M 0 31504 7 31670 100 0 0 0        * a water elemental
+M 0 31505 8 31670 100 0 0 0        * a huge water elemental
+M 0 31502 6 31670 100 0 0 0        * a large water snake
+M 0 31514 6 31670 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31514 6 31670 100 0 0 0        * a water mephit
+E 1 31513 6 16 100 0 0 0           *   a sleek dagger of flowing water
+M 0 31532 3 31670 100 0 0 0        * a giant razor serpent
+M 0 31532 3 31670 100 0 0 0        * a giant razor serpent
+M 0 31532 3 31670 100 0 0 0        * a giant razor serpent
+M 0 31506 5 31670 100 0 0 0        * a large octopus
+M 0 31506 5 31670 100 0 0 0        * a large octopus
+M 0 31506 5 31670 100 0 0 0        * a large octopus
+M 0 31506 5 31670 100 0 0 0        * a large octopus
+M 0 31506 5 31670 100 0 0 0        * a large octopus
+M 0 31533 3 31670 100 0 0 0        * a phantasmal force
+E 1 31530 1 5 100 0 0 0            *   a chest plate of blue flame
+E 1 31540 3 16 100 0 0 0           *   a long ivory partisan
+M 0 31533 3 31670 100 0 0 0        * a phantasmal force
+E 1 31540 3 16 100 0 0 0           *   a long ivory partisan
+M 0 31533 3 31670 100 0 0 0        * a phantasmal force
+E 1 31540 3 16 100 0 0 0           *   a long ivory partisan
+M 0 31505 8 31670 100 0 0 0        * a huge water elemental
+M 0 31531 1 31671 100 0 0 0        * the soul of a fisherman
+M 0 31537 3 31701 100 0 0 0        * a human treasurey guardian
+E 1 31542 5 16 100 0 0 0           *   a two-handed golden broadsword
+M 0 31537 3 31701 100 0 0 0        * a human treasurey guardian
+E 1 31542 5 16 100 0 0 0           *   a two-handed golden broadsword
+M 0 31537 3 31701 100 0 0 0        * a human treasurey guardian
+E 1 31542 5 16 100 0 0 0           *   a two-handed golden broadsword
+M 0 31539 1 31705 100 0 0 0        * Dante
+E 1 31544 1 5 100 0 0 0            *   a blue dragonscale tunic
+E 1 31539 4 16 100 0 0 0           *   a silverish cutlass
+E 1 31539 4 17 100 0 0 0           *   a silverish cutlass
+G 1 31553 1 0 100 0 0 0            *    a red key
+F 1 31540 1 31705 100 0 0 0        * the first mate (following)
+E 1 31548 1 18 100 0 0 0           *   a small diamond wand
+M 0 31543 4 31707 100 0 0 0        * a human guard
+F 1 31543 4 31707 100 0 0 0        * a human guard (following)
+E 1 31542 5 16 100 0 0 0           *   a two-handed golden broadsword
+M 0 31544 1 31707 100 0 0 0        * a phantasmal dragon
+E 1 31543 1 12 100 0 0 0           *   the clawed wings of a dragon
+M 0 31538 2 31708 100 0 0 0        * a human swashbuckler
+E 1 31539 4 16 100 0 0 0           *   a silverish cutlass
+M 0 31542 2 31708 100 0 0 0        * a noble crew member
+M 0 31543 4 31709 100 0 0 0        * a human guard
+F 1 31543 4 31709 100 0 0 0        * a human guard (following)
+E 1 31542 5 16 100 0 0 0           *   a two-handed golden broadsword
+M 0 31542 2 31710 100 0 0 0        * a noble crew member
+M 0 31538 2 31710 100 0 0 0        * a human swashbuckler
+E 1 31539 4 16 100 0 0 0           *   a silverish cutlass
+M 0 31541 2 31718 100 0 0 0        * a human lookout
+M 0 31545 2 31718 100 0 0 0        * an azure drake
+M 0 31545 2 31718 100 0 0 0        * an azure drake
+M 0 31546 1 31718 100 0 0 0        * an large azure drake
+E 1 31545 1 7 100 0 0 0            *   a spiked pair of azure leg plates
+M 0 31541 2 31719 100 0 0 0        * a human lookout
+M 0 31547 1 31719 100 0 0 0        * a white dragon
+E 1 31546 1 3 100 0 0 0            *   a glowing necklace of crystal spheres
+M 0 31548 2 31720 100 0 0 0        * a wave berserker
+M 0 31548 2 31720 100 0 0 0        * a wave berserker
+M 0 31549 2 31721 100 0 0 0        * a water Oni
+M 0 31549 2 31721 100 0 0 0        * a water Oni
+M 0 31528 1 31722 100 0 0 0        * Poseidon
+E 1 31526 1 3 100 0 0 0            *   an amulet of creation
+E 1 31527 1 12 100 0 0 0           *   the living oceanic cloak
+E 1 31556 1 16 100 0 0 0           *   something
+E 1 31514 1 17 100 0 0 0           *   Tsunami, the trident of storms
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 31557 1 0 100 0 0 0            *    A key to the bottom of the ocean
+*
+S

@@ -1,0 +1,364 @@
+#386
+&+BSevenoaks&n~
+38676 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38602 0 2 100 0 0 0
+*     north exit from "Before the Town of Sevenoaks" to
+*     "The Street of Gravel" - closed/locked
+*
+D 0 38603 2 2 100 0 0 0
+*     south exit from "The Street of Gravel" to
+*     "Before the Town of Sevenoaks" - closed/locked
+*
+D 0 38613 6 6 100 0 0 0
+*     northwest exit from "A Safe Room" to
+*     "A Gust of Wind" - closed/locked/secret
+*
+D 0 38663 9 6 100 0 0 0
+*     southeast exit from "A Gust of Wind" to
+*     "A Safe Room" - closed/locked/secret
+*
+D 0 38618 5 6 100 0 0 0
+*     down exit from "Higher Above An Intersection In A Hall of Mirrors" to
+*     "Above An Intersection In A Hall of Mirrors" - closed/locked/secret
+*
+D 0 38642 4 6 100 0 0 0
+*     up exit from "Above An Intersection In A Hall of Mirrors" to
+*     "Higher Above An Intersection In A Hall of Mirrors" - closed/locked/secret
+*
+D 0 38624 0 6 100 0 0 0
+*     north exit from "Before the Great Tower of Sevenoaks" to
+*     "The Main Floor of the Tower of Sevenoaks" - closed/locked/secret
+*
+D 0 38625 2 6 100 0 0 0
+*     south exit from "The Main Floor of the Tower of Sevenoaks" to
+*     "Before the Great Tower of Sevenoaks" - closed/locked/secret
+*
+D 0 38625 4 6 100 0 0 0
+*     up exit from "The Main Floor of the Tower of Sevenoaks" to
+*     "The Level of Ayrina and Alyza" - closed/locked/secret
+*
+D 0 38626 5 6 100 0 0 0
+*     down exit from "The Level of Ayrina and Alyza" to
+*     "The Main Floor of the Tower of Sevenoaks" - closed/locked/secret
+*
+D 0 38626 4 6 100 0 0 0
+*     up exit from "The Level of Ayrina and Alyza" to
+*     "An Old Circular Study" - closed/locked/secret
+*
+D 0 38627 5 6 100 0 0 0
+*     down exit from "An Old Circular Study" to
+*     "The Level of Ayrina and Alyza" - closed/locked/secret
+*
+D 0 38627 4 6 100 0 0 0
+*     up exit from "An Old Circular Study" to
+*     "The Den of Olystra" - closed/locked/secret
+*
+D 0 38628 5 6 100 0 0 0
+*     down exit from "The Den of Olystra" to
+*     "An Old Circular Study" - closed/locked/secret
+*
+D 0 38628 4 6 100 0 0 0
+*     up exit from "The Den of Olystra" to
+*     "The Old Study of Myrina" - closed/locked/secret
+*
+D 0 38629 5 6 100 0 0 0
+*     down exit from "The Old Study of Myrina" to
+*     "The Den of Olystra" - closed/locked/secret
+*
+D 0 38629 4 6 100 0 0 0
+*     up exit from "The Old Study of Myrina" to
+*     "The Old Study of Fuerina" - closed/locked/secret
+*
+D 0 38630 5 6 100 0 0 0
+*     down exit from "The Old Study of Fuerina" to
+*     "The Old Study of Myrina" - closed/locked/secret
+*
+D 0 38630 4 6 100 0 0 0
+*     up exit from "The Old Study of Fuerina" to
+*     "Before the Vault of Sevenoaks" - closed/locked/secret
+*
+D 0 38631 5 2 100 0 0 0
+*     down exit from "Before the Vault of Sevenoaks" to
+*     "The Old Study of Fuerina" - closed/locked
+*
+D 0 38631 0 6 100 0 0 0
+*     north exit from "Before the Vault of Sevenoaks" to
+*     "The Vault of Sevenoaks" - closed/locked/secret
+*
+D 0 38632 2 14 100 0 0 0
+*     south exit from "The Vault of Sevenoaks" to
+*     "Before the Vault of Sevenoaks" - closed/locked/secret/blocked
+*
+D 0 38636 3 2 100 0 0 0
+*     west exit from "An Intersection in a Hall of Mirrors" to
+*     "A Hall of Mirrors" - closed/locked
+*
+D 0 38643 1 2 100 0 0 0
+*     east exit from "A Hall of Mirrors" to
+*     "An Intersection in a Hall of Mirrors" - closed/locked
+*
+D 0 38640 0 1 100 0 0 0
+*     north exit from "Before A Large Mirror" to
+*     "A Dark Cellar" - closed
+*
+D 0 38641 2 1 100 0 0 0
+*     south exit from "A Dark Cellar" to
+*     "Before A Large Mirror" - closed
+*
+D 0 38644 0 1 100 0 0 0
+*     north exit from "Before A Large Mirror" to
+*     "A Dark Cellar" - closed
+*
+D 0 38645 2 1 100 0 0 0
+*     south exit from "A Dark Cellar" to
+*     "Before A Large Mirror" - closed
+*
+D 0 38648 0 1 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "The Laboratory of Myrina" - closed
+*
+D 0 38649 2 1 100 0 0 0
+*     south exit from "The Laboratory of Myrina" to
+*     "A Dark Hallway" - closed
+*
+D 0 38669 0 2 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "The Laboratory of Fuerina" - closed/locked
+*
+D 0 38670 2 2 100 0 0 0
+*     south exit from "The Laboratory of Fuerina" to
+*     "A Dark Hallway" - closed/locked
+*
+D 0 38674 0 2 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "The Laboratory of Ayrina" - closed/locked
+*
+D 0 38675 2 2 100 0 0 0
+*     south exit from "The Laboratory of Ayrina" to
+*     "A Dark Hallway" - closed/locked
+*
+*
+O 0 38600 2 38600 100 0 0 0        * a frozen berry bush
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+O 0 38600 2 38601 100 0 0 0        * a frozen berry bush
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+P 1 38601 8 38600 100 0 0 0        *   a frozen berry
+O 0 38604 1 38606 100 0 0 0        * a large fountain
+O 0 38605 1 38609 100 0 0 0        * a large statue of a flame
+O 0 38613 1 38612 100 0 0 0        * a large ice sculpture
+O 0 38618 1 38613 100 0 0 0        * a small white portal
+O 0 38624 3 38614 100 0 0 0        * a large mirror
+O 0 38623 3 38615 100 0 0 0        * a large mirror
+O 0 38624 3 38616 100 0 0 0        * a large mirror
+O 0 38623 3 38616 100 0 0 0        * a large mirror
+O 0 38622 1 38616 100 0 0 0        * a large mirror
+O 0 38623 3 38617 100 0 0 0        * a large mirror
+O 0 38624 3 38617 100 0 0 0        * a large mirror
+O 0 38628 1 38618 100 0 0 0        * a large skylight
+O 0 38646 3 38619 100 0 0 0        * a puddle of blood
+O 0 38646 3 38620 100 0 0 0        * a puddle of blood
+O 0 38646 3 38621 100 0 0 0        * a puddle of blood
+O 0 38651 1 38621 100 0 0 0        * a skeleton
+O 0 359 1 38632 100 0 0 0          * (object type not in this .obj file)
+O 0 38632 3 38632 100 0 0 0        * some copper coins
+O 0 38631 1 38632 100 0 0 0        * a long black satin robe
+O 0 38632 3 38632 100 0 0 0        * some copper coins
+O 0 38644 1 38632 100 0 0 0        * a shiny ring of the faeries
+O 0 38632 3 38632 100 0 0 0        * some copper coins
+O 0 38633 1 38632 100 0 0 0        * a crack in the floor
+O 0 38647 1 38632 100 0 0 0        * the ice mace of Sevenoaks
+O 0 38634 1 38632 100 0 0 0        * a dagger of despair
+O 0 38649 1 38632 100 0 0 0        * a longsword of Sevenoaks
+O 0 38625 2 38641 100 0 0 0        * a large mirror
+O 0 38625 2 38645 100 0 0 0        * a large mirror
+O 0 38612 3 38650 100 0 0 0        * a large skylight
+O 0 38609 1 38657 100 0 0 0        * a large head of a demon
+O 0 38612 3 38671 100 0 0 0        * a large skylight
+O 0 38612 3 38676 100 0 0 0        * a large skylight
+*
+M 0 38644 7 38601 100 0 0 0        * a snow bobcat
+M 0 38600 8 38602 100 0 0 0        * an elite guard
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+E 1 38603 11 17 100 0 0 0          *   an old rusty sword
+F 1 38601 11 38602 100 0 0 0       * a beautiful cleric (following)
+E 1 38602 2 16 100 0 0 0           *   a large wooden mace
+F 1 38600 8 38602 100 0 0 0        * an elite guard (following)
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+E 1 38603 11 17 100 0 0 0          *   an old rusty sword
+F 1 38601 11 38602 100 0 0 0       * a beautiful cleric (following)
+E 1 38602 2 16 100 0 0 0           *   a large wooden mace
+G 1 38656 1 0 100 0 0 0            *    the ice key of sevenoaks
+M 0 38647 1 38602 100 0 0 0        * Wyrina
+E 1 38658 1 3 100 0 0 0            *   the ice amulet of Wyrina
+E 1 38657 1 16 100 0 0 0           *   a wooden staff
+M 0 38644 7 38603 100 0 0 0        * a snow bobcat
+M 0 38644 7 38606 100 0 0 0        * a snow bobcat
+M 0 38644 7 38609 100 0 0 0        * a snow bobcat
+M 0 38622 2 38614 100 0 0 0        * a cloaked woman
+M 0 38622 2 38615 100 0 0 0        * a cloaked woman
+M 0 38631 1 38620 100 0 0 0        * Kyz
+E 1 38645 1 5 100 0 0 0            *   a shining suit of warrior's platemail
+E 1 38662 1 11 100 0 0 0           *   a shield lined with silver fangs
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+F 1 38651 1 38620 100 0 0 0        * a snow bobcat (following)
+M 0 38652 1 38621 100 0 0 0        * Oslero
+E 1 38663 1 3 100 0 0 0            *   an amulet of chaos
+F 1 38609 1 38621 100 0 0 0        * Oslyra (following)
+E 1 38630 1 3 100 0 0 0            *   the medallion of Oslyra
+G 1 38650 1 0 100 0 0 0            *    a silver pendant of dragon teeth
+G 1 38655 1 0 100 0 0 0            *    an ice ring
+F 1 38644 7 38621 100 0 0 0        * a snow bobcat (following)
+F 1 38644 7 38621 100 0 0 0        * a snow bobcat (following)
+M 0 38630 1 38624 100 0 0 0        * Mekel, the tower guard
+G 1 38635 1 0 100 0 0 0            *    the sevenoaks' tower key
+F 1 38601 11 38624 100 0 0 0       * a beautiful cleric (following)
+F 1 38601 11 38624 100 0 0 0       * a beautiful cleric (following)
+M 0 38634 3 38625 100 0 0 0        * an iron golem
+M 0 38634 3 38625 100 0 0 0        * an iron golem
+M 0 38634 3 38625 100 0 0 0        * an iron golem
+M 0 38610 4 38626 100 0 0 0        * an ice golem
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+E 1 38640 26 25 100 0 0 0          *   a guard's longsword
+E 1 38640 26 26 100 0 0 0          *   a guard's longsword
+F 1 38601 11 38626 100 0 0 0       * a beautiful cleric (following)
+M 0 38610 4 38626 100 0 0 0        * an ice golem
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+E 1 38640 26 25 100 0 0 0          *   a guard's longsword
+E 1 38640 26 26 100 0 0 0          *   a guard's longsword
+M 0 38601 11 38626 100 0 0 0       * a beautiful cleric
+M 0 38643 3 38627 100 0 0 0        * a skeletal guardsman
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+M 0 38643 3 38627 100 0 0 0        * a skeletal guardsman
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+M 0 38643 3 38627 100 0 0 0        * a skeletal guardsman
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+M 0 38611 1 38628 100 0 0 0        * a beholder
+G 1 38648 1 0 5 0 0 0              *    a sparkling ruby earring
+G 1 38665 1 0 10 0 0 0             *    a glowing ruby earring
+M 0 38633 5 38629 100 0 0 0        * a fiendish devil
+M 0 38633 5 38629 100 0 0 0        * a fiendish devil
+M 0 38633 5 38629 100 0 0 0        * a fiendish devil
+M 0 38633 5 38629 100 0 0 0        * a fiendish devil
+M 0 38642 2 38630 100 0 0 0        * a dark anti-paladin
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+M 0 38642 2 38630 100 0 0 0        * a dark anti-paladin
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+M 0 38610 4 38631 100 0 0 0        * an ice golem
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+E 1 38640 26 25 100 0 0 0          *   a guard's longsword
+E 1 38640 26 26 100 0 0 0          *   a guard's longsword
+M 0 38610 4 38631 100 0 0 0        * an ice golem
+E 1 38640 26 16 100 0 0 0          *   a guard's longsword
+E 1 38640 26 17 100 0 0 0          *   a guard's longsword
+E 1 38640 26 25 100 0 0 0          *   a guard's longsword
+E 1 38640 26 26 100 0 0 0          *   a guard's longsword
+G 1 38636 1 0 100 0 0 0            *    the sevenoaks' vault key
+M 0 38601 11 38631 100 0 0 0       * a beautiful cleric
+M 0 38601 11 38631 100 0 0 0       * a beautiful cleric
+M 0 38612 2 38633 100 0 0 0        * a golden reflection
+E 1 38639 5 16 100 0 0 0           *   an oaken quarterstaff
+M 0 38619 1 38634 100 0 0 0        * a golden reflection
+E 1 38639 5 16 100 0 0 0           *   an oaken quarterstaff
+E 1 38639 5 17 100 0 0 0           *   an oaken quarterstaff
+M 0 38613 2 38635 100 0 0 0        * a dark reflection
+E 1 38639 5 16 100 0 0 0           *   an oaken quarterstaff
+E 1 38639 5 17 100 0 0 0           *   an oaken quarterstaff
+M 0 38613 2 38636 100 0 0 0        * a dark reflection
+M 0 38632 1 38636 100 0 0 0        * a dark cloaked imp
+M 0 38616 1 38637 100 0 0 0        * a golden reflection
+M 0 38612 2 38639 100 0 0 0        * a golden reflection
+M 0 38615 1 38640 100 0 0 0        * a dark reflection
+M 0 38614 1 38641 100 0 0 0        * a spectre of a trapped soul
+E 1 38637 1 13 100 0 0 0           *   a green belt of sages
+G 1 38626 1 0 100 0 0 0            *    a small key
+M 0 38617 1 38643 100 0 0 0        * a dark reflection
+M 0 38618 1 38644 100 0 0 0        * a golden reflection
+M 0 38626 1 38645 100 0 0 0        * a spectre of a trapped soul
+G 1 38627 1 0 100 0 0 0            *    a small blood-stained key
+G 1 38638 1 0 100 0 0 0            *    a shield of silver dragon scales
+M 0 38633 5 38646 100 0 0 0        * a fiendish devil
+M 0 38640 2 38648 100 0 0 0        * an apprentice mage
+M 0 38640 2 38648 100 0 0 0        * an apprentice mage
+M 0 38620 1 38649 100 0 0 0        * Myrina
+E 1 38642 1 3 100 0 0 0            *   the medallion of Myrina
+E 1 38666 1 4 100 0 0 0            *   a silver brooch
+F 1 38600 8 38649 100 0 0 0        * an elite guard (following)
+F 1 38600 8 38649 100 0 0 0        * an elite guard (following)
+M 0 38635 2 38651 100 0 0 0        * a flesh golem
+M 0 38625 5 38652 100 0 0 0        * a fire demon
+M 0 38645 2 38653 100 0 0 0        * a fire demon
+G 1 38606 1 0 100 0 0 0            *    a key of fire
+M 0 38625 5 38654 100 0 0 0        * a fire demon
+M 0 38625 5 38655 100 0 0 0        * a fire demon
+M 0 38646 4 38656 100 0 0 0        * a strange fire plant
+M 0 38625 5 38656 100 0 0 0        * a fire demon
+M 0 38645 2 38658 100 0 0 0        * a fire demon
+G 1 38607 1 0 100 0 0 0            *    a small bag of flames
+P 1 38608 1 38607 100 0 0 0        *   a small note
+M 0 38603 6 38659 100 0 0 0        * a wind devil
+M 0 38603 6 38661 100 0 0 0        * a wind devil
+M 0 38603 6 38662 100 0 0 0        * a wind devil
+M 0 38604 1 38663 100 0 0 0        * Alyza
+E 1 38615 1 3 100 0 0 0            *   the medallion of Alyza
+G 1 38614 1 0 100 0 0 0            *    a wind dragon egg
+P 1 38617 1 38614 100 0 0 0        *   a key of wind
+P 1 38664 1 38614 100 0 0 0        *   a glowing white pearl
+M 0 38603 6 38664 100 0 0 0        * a wind devil
+M 0 38603 6 38665 100 0 0 0        * a wind devil
+M 0 38603 6 38666 100 0 0 0        * a wind devil
+M 0 38646 4 38667 100 0 0 0        * a strange fire plant
+G 1 38643 3 0 100 0 0 0            *    a red blossom
+M 0 38646 4 38667 100 0 0 0        * a strange fire plant
+G 1 38643 3 0 100 0 0 0            *    a red blossom
+M 0 38646 4 38667 100 0 0 0        * a strange fire plant
+G 1 38643 3 0 100 0 0 0            *    a red blossom
+M 0 38625 5 38668 100 0 0 0        * a fire demon
+M 0 38602 1 38669 100 0 0 0        * a glowing archdemon
+M 0 38600 8 38669 100 0 0 0        * an elite guard
+G 1 38654 1 0 100 0 0 0            *    a small lab key
+M 0 38637 1 38670 100 0 0 0        * Fuerina, the sister of fire
+E 1 38653 1 3 100 0 0 0            *   the medallion of Fuerina
+E 1 38610 1 4 100 0 0 0            *   an amulet of fire dragon's blood
+G 1 38611 1 0 100 0 0 0            *    a fire dragon egg
+F 1 38600 8 38670 100 0 0 0        * an elite guard (following)
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+E 1 38603 11 17 100 0 0 0          *   an old rusty sword
+F 1 38600 8 38670 100 0 0 0        * an elite guard (following)
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+E 1 38603 11 17 100 0 0 0          *   an old rusty sword
+F 1 38600 8 38670 100 0 0 0        * an elite guard (following)
+E 1 38603 11 16 100 0 0 0          *   an old rusty sword
+E 1 38603 11 17 100 0 0 0          *   an old rusty sword
+M 0 38606 3 38672 100 0 0 0        * a strange wind-blowing plant
+M 0 38606 3 38672 100 0 0 0        * a strange wind-blowing plant
+M 0 38606 3 38672 100 0 0 0        * a strange wind-blowing plant
+M 0 38644 7 38673 100 0 0 0        * a snow bobcat
+M 0 38607 1 38674 100 0 0 0        * a wind devil
+G 1 38619 1 0 100 0 0 0            *    a small lab key
+F 1 38635 2 38674 100 0 0 0        * a flesh golem (following)
+M 0 38605 1 38675 100 0 0 0        * Ayrina
+E 1 38620 1 3 100 0 0 0            *   the medallion of Ayrina
+G 1 38641 1 0 100 0 0 0            *    an ugly green horn
+G 1 38621 1 0 100 0 0 0            *    a satanic bracelet
+F 1 38601 11 38675 100 0 0 0       * a beautiful cleric (following)
+F 1 38601 11 38675 100 0 0 0       * a beautiful cleric (following)
+F 1 38601 11 38675 100 0 0 0       * a beautiful cleric (following)
+*
+S

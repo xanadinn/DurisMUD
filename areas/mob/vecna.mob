@@ -1,0 +1,526 @@
+#130000
+dragon dracolich br_s~
+&+La huge dracolich&N~
+A huge &+Ldracolich&N stands here.
+~
+&+g  An unnatural creation brought back to live by some necromancer's hideous
+&+gspell, this gigantic skeletal dragon blocks passage further to the south.
+&+gIt's huge wings could stretch about fifty feet from tip to tip, but
+&+gbecause of the close confines of the chasm, the beast is forced to tuck
+&+gthem in tightly to it's body.  Malicious burning red eyes gaze out from
+&+git's skeletal head, staring with pure malice at the living world.
+~
+17828426 1 0 570425528 262336 67108864 8192 -1000 S
+D 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130001
+ghoul _size_large_ _nosneak_ _ignore_~
+&+La ghoul&N~
+A &+Lghoul&N with &+revil&N eyes stands here.
+~
+This horrible misshapen form was once a humanoid, but is now damned to
+existance as a slave of its undead master.
+~
+1073743977 1 0 941097144 264384 67108864 8192 -1000 S
+u 0 256 -1
+58 0 0 5d1000+1000 10d10+60
+0.0.0.0 0
+8 8 1
+#130002
+wight _size_small_ undead~
+&+ga wight&N~
+An ugly &+gwight&N turns its  &+rhate&N filled gaze to you.
+~
+&+wA gaunt, skeletal figure with eyes of fire, this poor creature has been
+&+wbrought back from the dead to serve an undead master.  Filled only with an
+&+wintense hatred of all things living, this creature still maintains all of
+&+wthe fighting skills it had while alive, making it a formidable opponent,
+&+wone that feels no pain and knows no fear.
+~
+1073743945 1 0 8 262336 67108864 8192 -1000 S
+uw 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#130003
+shadow _nosneak_ _ignore_~
+&+La shadow&N~
+&+LThe shadow of some long-dead thing floats here.&N
+~
+&+LLittle more than a inky, black humanoid shape floating above the ground,
+&+Lthis cursed creature is forced to live again as a spectre.  Damned for
+&+Leternity to know only the hunger for the&n &+rblood&n &+Lof the living, this shadow
+&+Lremembers nothing of its former existance, only a singleminded
+&+Ldetermination to fulfill the desires of its evil master.
+~
+1073743945 1 0 524296 262336 67108864 14336 -1000 S
+sw 0 4 -1
+58 0 0 10d10+3000 2d5+1
+0.0.0.0 0
+8 8 1
+#130004
+ghast~
+&+ya ghast&N~
+The twisted form of a &+yghast&N scrambles along the ground here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743945 1 0 0 262336 67108864 8192 -1000 S
+ug 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#130005
+vampire _ignore_ _spec1_~
+&+Wa vampire&N~
+A &+Wpale-skinned vampire&N stalks the area.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073813576 1 0 403177528 264384 67108864 110112768 -1000 S
+UV 0 64 5
+59 150 -500 1000d4+12000 10d10+50
+0.0.0.100 900000
+8 8 1
+#130006
+lich rashid ibn halil _size_giant_ br_s~
+the lich of &+rRashid&N~
+The lich of &+rRashid Ibn-Halil&N stands here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1074792520 1 0 805306520 309440 67108864 8192 -1000 S
+ul 0 516 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130007
+wraith tormented~
+&+La twisted wraith&N~
+&+LThe wraith of tormented soul floats here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743944 1 0 8 262336 67108864 8192 -1000 S
+wr 0 4194304 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130008
+morgan ghost _spec3_~
+&+Lthe ghost of &+CMorgan&N~
+&+LThe ghost of &+CMorgan&+L floats here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073875048 1 0 40 262336 67108864 8192 -1000 S
+UG 0 1024 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130009
+elidh lich _spec3_~
+the lich of &+BElidh&n~
+The lich of &+BElidh&n floats here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743944 1 0 40 262336 67108864 8192 -1000 S
+ul 0 2048 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130010
+salron lich _spec1_~
+the lich of &+rSalron&N~
+&+LThe lich of &+rSalron&+L floats here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743944 1 0 40 262336 67108864 8192 -1000 S
+ul 0 4194304 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130011
+ghoul _size_large_~
+&+La ghoul&N~
+A &+Lghoul&N with &+revil&N eyes stands here.
+~
+This horrible misshapen form was once a humanoid, but is now damned to
+existance as a slave of its undead master.
+~
+1073743945 1 0 8 262336 67108864 8192 -1000 S
+ug 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#130012
+ghast~
+&+ya ghast&N~
+The twisted form of a &+yghast&N scrambles along the ground here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743945 1 0 0 262336 67108864 8192 -1000 S
+ug 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#130013
+wight _size_small_ undead~
+&+ga wight&N~
+An ugly &+gwight&N turns its &+rhate&N filled gaze to you.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073809481 1 0 8 262336 67108864 8192 -1000 S
+uw 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130014
+shadow crawler~
+&+La shadow crawler&N~
+&+LA thing made of barely discernable shadows crawls here.&n
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1140852809 1 0 134217768 264384 67108864 8192 -1000 S
+SW 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130015
+death avatar _multiclass_ _sorcerer_ _ignore_~
+&+Lthe avatar of Death&N~
+The avatar of &+LDeath&N stands here, ready for your soul.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073756232 1 0 939524280 276673 67108864 8192 -1000 S
+Y 0 576 -1
+60 250 -300 500d5+20000 9d7+60
+0.0.0.0 0
+8 8 0
+#130016
+chressan lich _giant_ _ignore_~
+&+RChressan&N~
+&+RChressan&N, the lost lich of &+LBloodstone&N stands here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+16783435 1 0 939524282 276701 67117056 9216 -1000 S
+UL 0 4195328 -1
+60 350 -250 1000d10+10000 12d7+55
+0.0.0.0 0
+8 8 1
+#130017
+barrow guardian _size_huge_ _ignore_~
+&+La barrow guardian&N~
+&+LA horrid barrow guardian stands here, flesh decaying.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743946 1 0 268435626 264384 67108864 8192 -1000 S
+ZO 0 1 -1
+60 266 -200 500d10+12000 12d6+50
+0.0.0.0 0
+8 8 0
+#130018
+ali stalker _size_medium_~
+&+LAli&N~
+&+LAli&N, the &+LNight&+rstalker&N stands here.&N
+~
+~
+1090549836 1 0 40 264384 67108864 8192 -1000 S
+UV 0 16777216 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130019
+knight death skeletal _ignore_ _spec2_~
+the &+Ldeath&N &+Wknight&N~
+A &+Wskeletal&N &+Lknight&n stands here, guarding the passage
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743978 1 0 40 264384 67108864 8192 -1000 S
+UK 0 16 -1
+60 250 -250 100d8+19000 12d8+50
+0.0.0.0 0
+8 8 1
+#130020
+wraith tormented~
+&+La twisted wraith&N~
+&+LThe wraith of tormented soul stands beside the knight.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743946 1 0 24 262336 67108864 8192 -1000 S
+WR 0 4194304 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130021
+nightmare deadly _ignore_~
+&+La deadly nightmare&N~
+&+LA deadly nightmare stands here,&N &+Reyes glowing hotly&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1141917802 1 0 40 264384 67108864 8192 0 S
+A 0 1 -1
+58 250 -200 500d5+12000 4d13+50
+0.0.0.0 0
+8 8 2
+#130022
+flame spirit br_f~
+&+ra flame spirit&N~
+&+rA ghostly form floats here, encased in fire.&N
+~
+The &+rflame spirits&N ghostly outline flickers in and out, as it dances
+among the flames.
+~
+1073743976 1 0 939597880 264385 67108864 8192 0 S
+UG 0 1 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130023
+lich kairvo _multiclass_ _necromancer_ _druid_~
+&+Lthe lich of Kairvo&N~
+&+LThe undead form of Kairvo floats chained to the floor here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073760330 0 0 40 264384 67108864 8704 -1000 S
+ul 0 1024 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130024
+kaervek lich~
+&+gKaervek&N~
+&+LThe lich of &+gKaervek&N &+Lfloats chained to the floor here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+1073743946 0 0 40 264384 67108864 9445376 -1000 S
+ul 0 512 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130025
+tobosh dragon silver~
+&+WTobosh&N~
+&+WTobosh&N, the &+rreanimated&N silver dragon &+Lhowls&N in pain here.
+~
+~
+16910922 1 0 939524280 264384 69206016 1057280 1000 S
+D 0 67108872 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130026
+demon torturer _ignore_~
+&+Rthe torturer&N~
+The &+rdemonic&+R torturer&N stands here, ready to flay you.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+83888202 1 0 40 264385 67633152 8192 -1000 S
+Y 0 16777280 -1
+55 300 -250 900d9+18000 15d5+60
+0.0.0.0 0
+8 8 1
+#130027
+apprentice~
+&+Lthe torturers apprentice&N~
+&+LThe apprentice stands here, observing your pain.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67111018 1 0 40 264384 67108864 8192 -1000 S
+UV 0 16 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#130028
+nothing _ignore_~
+&+la black mass&N~
+&+lAn mass of nothingness swirls around you.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+524618 1 0 56 264384 67108864 8192 -1000 S
+SP 0 64 -1
+58 200 -250 1500d5+12000 15d5+70
+0.0.0.0 0
+8 8 0
+#130029
+corpse half disolved~
+&+ya half-disolved corpse&N~
+&+yA half-disolved corpse floats in the putrid liquid here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+2122 1 0 40 264384 67108864 8192 -1000 S
+zo 0 1 -1
+57 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130030
+statue dwarf _block_north_ _nosneak_~
+&+Wa twisted statue&N~
+&+WA twisted statue of a dwarf stands here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67242058 1 0 939524280 268697792 67371136 9216 0 S
+OG 0 1048576 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130031
+twisted statue human _block_north_ _nosneak_~
+&+Wa twisted statue&N~
+&+WA twisted statue of a human stands here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67242058 1 0 939524280 268437696 0 13312 0 S
+OG 0 256 -1
+61 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130032
+twisted statue orc _block_north_ _nosneak_~
+&+Wa twisted statue&N~
+&+WA twisted statue of an orc stands here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67242058 1 0 939524280 193 67371008 1061888 0 S
+OG 0 32 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130033
+twisted statue ogre _block_south_ _nosneak_~
+&+Wa twisted statue&N~
+&+WA twisted statue of an ogre stands here.&n
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67242058 1 0 939524280 268699840 67371008 5252096 0 S
+OG 0 5 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130034
+twisted statue dragon _block_north_ _block_south_ _nosneak_~
+&+Wa twisted statue&N~
+&+WA twisted statue of a dragon stands here.&N
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67242058 1 0 939524280 192 67371008 76559360 0 S
+OG 0 260 -1
+61 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130035
+vecna _ignore_ lich _nosneak_ _no_move_~
+&+Lthe arch-lich &+rVecna&N~
+&+LThe arch-lich &+rVecna&+L is here.&N
+~
+Formerly a mage of the highest power, &+rVecna&N transformed himself into
+the immortal form of a lich.
+~
+52656203 1 0 939598010 268744897 67108992 101724160 -1000 S
+ul 0 2097664 -1
+60 300 -350 1200d10+20000 12d7+59
+0.0.0.0 0
+8 8 1
+#130036
+mob unnamed~
+&+Wa twisted statue&N~
+An unnamed mob stands here, looking lonely and forelorn.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+133194 0 0 939524280 192 0 9216 0 S
+OG 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#130037
+knight death skeletal _ignore_~
+the &+Ldeath&N &+Wknight&N~
+A &+Wskeletal&N &+Lknight&n stands here.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+2123 1 0 40 264384 67108864 8192 0 S
+uk 0 16777232 -1
+60 250 -250 10d10+10000 10d6+50
+0.0.0.0 0
+8 8 1
+#130038
+ghast~
+&+ya ghast&N~
+The twisted form of a &+yghast&N stands before the gate.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+2492491 1 0 402653240 262336 67371008 1060864 -1000 S
+U 0 1 -1
+61 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#130039
+ghast _ignore_~
+&+ya ghast&N~
+The twisted form of a &+yghast&N stands here, serving its master.
+~
+This misshapen creature hobbles along.  Once a humanoid of some sort, but
+now forever damned to serve its undead master.
+~
+67110987 1 0 16 262336 67108864 8192 -1000 S
+U 0 1 -1
+58 -180 -200 500d5+8000 10d5+45
+0.0.0.0 0
+8 8 1

@@ -1,0 +1,317 @@
+#407
+&+cHome of the &+CDi&+Wvine&n&n~
+40821 1 8 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 40705 0 5 100 0 0 0
+*     north exit from "A Hotspot within the Plane of Mist" to
+*     "Within A Planar Hotspot" - closed/secret
+*
+D 0 40706 2 5 100 0 0 0
+*     south exit from "Within A Planar Hotspot" to
+*     "A Hotspot within the Plane of Mist" - closed/secret
+*
+D 0 40729 0 5 100 0 0 0
+*     north exit from "The Gates of Purity" to
+*     "Outside the Gates of Purity" - closed/secret
+*
+D 0 40810 2 5 100 0 0 0
+*     south exit from "Outside the Gates of Purity" to
+*     "The Gates of Purity" - closed/secret
+*
+D 0 40729 1 1 100 0 0 0
+*     east exit from "The Gates of Purity" to
+*     "The Pathway of Purity" - closed
+*
+D 0 40730 3 1 100 0 0 0
+*     west exit from "The Pathway of Purity" to
+*     "The Gates of Purity" - closed
+*
+D 0 40748 1 2 100 0 0 0
+*     east exit from "Before the Palace of Justice" to
+*     "Within the Palace of Justice" - closed/locked
+*
+D 0 40751 3 2 100 0 0 0
+*     west exit from "Within the Palace of Justice" to
+*     "Before the Palace of Justice" - closed/locked
+*
+D 0 40749 0 5 100 0 0 0
+*     north exit from "A Layered Cloudscape" to
+*     "A Passage Within the Clouds" - closed/secret
+*
+D 0 40771 2 5 100 0 0 0
+*     south exit from "A Passage Within the Clouds" to
+*     "A Layered Cloudscape" - closed/secret
+*
+D 0 40753 2 5 100 0 0 0
+*     south exit from "Within the Palace of Justice" to
+*     "The Titan's Forge" - closed/secret
+*
+D 0 40757 0 5 100 0 0 0
+*     north exit from "The Titan's Forge" to
+*     "Within the Palace of Justice" - closed/secret
+*
+D 0 40757 1 5 100 0 0 0
+*     east exit from "The Titan's Forge" to
+*     "Emition's Back Room" - closed/secret
+*
+D 0 40809 3 5 100 0 0 0
+*     west exit from "Emition's Back Room" to
+*     "The Titan's Forge" - closed/secret
+*
+D 0 40767 4 5 100 0 0 0
+*     up exit from "A Cloudy Pasture" to
+*     "A Split in the Cloudscape" - closed/secret
+*
+D 0 40768 5 5 100 0 0 0
+*     down exit from "A Split in the Cloudscape" to
+*     "A Cloudy Pasture" - closed/secret
+*
+D 0 40781 1 2 100 0 0 0
+*     east exit from "A Prison of Illusions" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40782 3 2 100 0 0 0
+*     west exit from "A Prison Cell" to
+*     "A Prison of Illusions" - closed/locked
+*
+D 0 40781 3 2 100 0 0 0
+*     west exit from "A Prison of Illusions" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40812 1 2 100 0 0 0
+*     east exit from "A Prison Cell" to
+*     "A Prison of Illusions" - closed/locked
+*
+D 0 40785 5 5 100 0 0 0
+*     down exit from "A Warm Mist Trail" to
+*     "A Super-Heated Mist Trail" - closed/secret
+*
+D 0 40786 4 5 100 0 0 0
+*     up exit from "A Super-Heated Mist Trail" to
+*     "A Warm Mist Trail" - closed/secret
+*
+*
+O 0 40754 1 40700 100 0 0 0        * a misty, glowing portal
+O 0 40739 500 40710 100 0 0 0      * a piece of nexus cloud
+O 0 40716 1 40717 100 0 0 0        * a shard of solidified mist
+O 0 40739 500 40724 100 0 0 0      * a piece of nexus cloud
+O 0 40739 500 40727 100 0 0 0      * a piece of nexus cloud
+O 0 40739 500 40728 100 0 0 0      * a piece of nexus cloud
+O 0 40700 1 40736 100 0 0 0        * the spring of purity
+O 0 40701 1 40738 100 0 0 0        * an angelic statue
+O 0 40702 1 40738 100 0 0 0        * an angelic statue
+O 0 40703 1 40738 100 0 0 0        * an angelic statue
+P 1 40719 1 40703 100 0 0 0        *   a piece of ivory
+O 0 40723 1 40756 100 0 0 0        * an ethereal loom
+O 0 40714 1 40757 100 0 0 0        * a titanic anvil
+P 1 40751 1 40714 100 0 0 0        *   a disc of molded adamantium
+O 0 40720 1 40758 100 0 0 0        * a reflectling pool
+O 0 40721 1 40773 100 0 0 0        * a reflectling pool
+O 0 40749 1 40778 100 0 0 0        * a frosty icicle
+O 0 40755 1 40780 100 0 0 0        * a misty, glowing portal
+O 0 40724 1 40781 100 0 0 0        * an ethereal loom
+O 0 40750 1 40782 100 0 0 0        * a tiny carved bone statue
+O 0 40753 1 40787 100 0 0 0        * a huge flaming portal
+O 0 40734 1 40788 100 0 0 0        * a golden horse shoe
+O 0 40748 1 40807 100 0 0 0        * a smoke dragon egg
+O 0 40743 1 40811 100 0 0 0        * a griffon's nest
+P 1 40746 1 40743 100 0 0 0        *   a rare griffon feather
+*
+M 0 40720 5 40702 100 0 0 0        * a large mist creature
+M 0 40719 10 40703 100 0 0 0       * a tiny mist creature
+M 0 40720 5 40704 100 0 0 0        * a large mist creature
+M 0 40719 10 40704 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40705 100 0 0 0       * a tiny mist creature
+M 0 40744 9 40706 100 0 0 0        * a tiny mist creature
+M 0 40745 2 40706 100 0 0 0        * a large mist creature
+M 0 40720 5 40707 100 0 0 0        * a large mist creature
+M 0 40719 10 40708 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40709 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40711 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40713 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40713 100 0 0 0       * a tiny mist creature
+M 0 40719 10 40715 100 0 0 0       * a tiny mist creature
+M 0 40713 2 40717 100 0 0 0        * a young soldier of fortune
+M 0 40713 2 40717 100 0 0 0        * a young soldier of fortune
+M 0 40714 1 40717 100 0 0 0        * a hunter guard adventurer
+M 0 40716 1 40717 100 0 0 0        * Wicks
+E 1 40752 1 3 100 0 0 0            *   a blue moon charm
+M 0 40720 5 40718 100 0 0 0        * a large mist creature
+M 0 40720 5 40720 100 0 0 0        * a large mist creature
+M 0 40719 10 40721 100 0 0 0       * a tiny mist creature
+M 0 40721 1 40721 100 0 0 0        * a HUGE mist creature
+M 0 40700 3 40729 100 0 0 0        * a majestic guardian angel
+M 0 40700 3 40729 100 0 0 0        * a majestic guardian angel
+M 0 40707 5 40732 100 0 0 0        * an air sylph
+M 0 40711 4 40732 100 0 0 0        * an angelic soldier
+M 0 40702 3 40733 100 0 0 0        * a young angel
+M 0 40702 3 40735 100 0 0 0        * a young angel
+M 0 40707 5 40735 100 0 0 0        * an air sylph
+M 0 40701 1 40736 100 0 0 0        * a beautiful siren
+M 0 40702 3 40736 100 0 0 0        * a young angel
+M 0 40707 5 40737 100 0 0 0        * an air sylph
+M 0 40711 4 40737 100 0 0 0        * an angelic soldier
+M 0 40711 4 40738 100 0 0 0        * an angelic soldier
+M 0 40708 1 40739 100 0 0 0        * a majestic phoenix
+M 0 40707 5 40741 100 0 0 0        * an air sylph
+M 0 40704 1 40742 100 0 0 0        * the chancellor of air
+E 1 40764 1 3 100 0 0 0            *   a token of air
+M 0 40705 1 40743 100 0 0 0        * the chancellor of flames
+E 1 40765 1 3 100 0 0 0            *   a token of fire
+M 0 40711 4 40744 100 0 0 0        * an angelic soldier
+M 0 40709 1 40745 100 0 0 0        * the chancellor of earth
+E 1 40762 1 3 100 0 0 0            *   a token of earth
+M 0 40710 1 40746 100 0 0 0        * the chancellor of water
+E 1 40763 1 3 100 0 0 0            *   a token of water
+M 0 40700 3 40748 100 0 0 0        * a majestic guardian angel
+M 0 40749 1 40748 100 0 0 0        * a majestic guardian angel
+E 1 40706 999 16 100 0 0 0         *   a blade of kings
+M 0 40707 5 40749 100 0 0 0        * an air sylph
+M 0 40706 1 40750 100 0 0 0        * a heavenly bounty hunter
+E 1 40705 999 5 100 0 0 0          *   an angelic suit of full plate armor
+E 1 40704 1 16 100 0 0 0           *   an angelic blade
+M 0 40751 3 40751 100 0 0 0        * a titan commoner
+M 0 40759 2 40752 100 0 0 0        * a titan noble
+M 0 40751 3 40752 100 0 0 0        * a titan commoner
+M 0 40751 3 40753 100 0 0 0        * a titan commoner
+M 0 40759 2 40753 100 0 0 0        * a titan noble
+M 0 40728 2 40755 100 0 0 0        * an imposing guardian angel
+M 0 40728 2 40755 100 0 0 0        * an imposing guardian angel
+M 0 40717 1 40755 100 0 0 0        * Leolan, the titan prince
+G 1 40715 1 0 100 0 0 0            *    the hammer of the titans
+M 0 40734 1 40756 100 0 0 0        * Ampheles
+M 0 40718 1 40756 100 0 0 0        * Lenia, sister of the prince
+M 0 40712 1 40757 100 0 0 0        * Emition
+E 1 40705 999 5 100 0 0 0          *   an angelic suit of full plate armor
+E 1 40711 999 7 100 0 0 0          *   a pair of celestial leg plates
+E 1 40708 999 8 100 0 0 0          *   a pair of boots of the ages
+E 1 40707 999 11 100 0 0 0         *   a shield of the heavens
+E 1 40706 999 16 100 0 0 0         *   a blade of kings
+E 1 40710 999 20 100 0 0 0         *   a mask of heavens
+E 1 40709 999 21 100 0 0 0         *   an earring of angels
+G 1 40705 999 0 100 0 0 0          *    an angelic suit of full plate armor
+G 1 40706 999 0 100 0 0 0          *    a blade of kings
+G 1 40707 999 0 100 0 0 0          *    a shield of the heavens
+G 1 40708 999 0 100 0 0 0          *    a pair of boots of the ages
+G 1 40709 999 0 100 0 0 0          *    an earring of angels
+G 1 40710 999 0 100 0 0 0          *    a mask of heavens
+G 1 40711 999 0 100 0 0 0          *    a pair of celestial leg plates
+M 0 40715 1 40758 100 0 0 0        * Shiva
+M 0 40723 3 40759 100 0 0 0        * a young pegasus
+M 0 40722 1 40760 100 0 0 0        * a huge celestial dragon
+G 1 40736 1 0 100 0 0 0            *    a large celestial dragon scale
+M 0 40724 3 40761 100 0 0 0        * an adult unicorn
+M 0 40723 3 40762 100 0 0 0        * a young pegasus
+M 0 40727 1 40762 100 0 0 0        * a titan caretaker
+M 0 40725 1 40763 100 0 0 0        * a mature pegasus
+G 1 40713 1 0 100 0 0 0            *    a heavenly saddle
+M 0 40726 1 40764 100 0 0 0        * an elderly unicorn
+G 1 40712 1 0 100 0 0 0            *    a celestial ribbon
+M 0 40724 3 40765 100 0 0 0        * an adult unicorn
+M 0 40723 3 40766 100 0 0 0        * a young pegasus
+M 0 40724 3 40767 100 0 0 0        * an adult unicorn
+M 0 40738 7 40769 100 0 0 0        * a young cloud giant
+M 0 40729 1 40772 100 0 0 0        * a shifty-eyed high elf
+E 1 40742 1 16 100 0 0 0           *   a long barbed falchion
+G 1 40718 1 0 100 0 0 0            *    a token of the titans
+M 0 40730 1 40772 100 0 0 0        * a travel weary high elf
+M 0 40733 10 40773 100 0 0 0       * a tiny cloud critter
+M 0 40731 2 40774 100 0 0 0        * a nervous high elf
+M 0 40732 1 40774 100 0 0 0        * a sly high elf
+E 1 40741 2 16 100 0 0 0           *   a crested golden dagger
+E 1 40741 2 17 100 0 0 0           *   a crested golden dagger
+M 0 40731 2 40775 100 0 0 0        * a nervous high elf
+M 0 40733 10 40776 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40776 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40777 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40777 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40778 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40778 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40779 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40779 100 0 0 0       * a tiny cloud critter
+M 0 40733 10 40779 100 0 0 0       * a tiny cloud critter
+M 0 40754 1 40782 100 0 0 0        * a cloud giant prisoner
+M 0 40744 9 40783 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40783 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40784 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40784 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40784 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40785 100 0 0 0        * a tiny mist creature
+M 0 40744 9 40785 100 0 0 0        * a tiny mist creature
+M 0 40735 1 40787 100 0 0 0        * Raith
+G 1 40726 1 0 100 0 0 0            *    the dark heart of Raith
+M 0 40743 1 40788 100 0 0 0        * a watchful angel soldier
+E 1 40705 999 5 100 0 0 0          *   an angelic suit of full plate armor
+E 1 40707 999 11 100 0 0 0         *   a shield of the heavens
+E 1 40706 999 16 100 0 0 0         *   a blade of kings
+M 0 40738 7 40789 100 0 0 0        * a young cloud giant
+E 1 40744 3 24 100 0 0 0           *   a badge of the cloud giants
+M 0 40750 5 40789 100 0 0 0        * a drunken cloud giant
+M 0 40737 8 40790 100 0 0 0        * a cloud giant guard
+M 0 40738 7 40790 100 0 0 0        * a young cloud giant
+M 0 40750 5 40790 100 0 0 0        * a drunken cloud giant
+M 0 40737 8 40791 100 0 0 0        * a cloud giant guard
+M 0 40737 8 40791 100 0 0 0        * a cloud giant guard
+M 0 40738 7 40792 100 0 0 0        * a young cloud giant
+M 0 40737 8 40793 100 0 0 0        * a cloud giant guard
+E 1 40744 3 24 100 0 0 0           *   a badge of the cloud giants
+M 0 40737 8 40793 100 0 0 0        * a cloud giant guard
+M 0 40737 8 40794 100 0 0 0        * a cloud giant guard
+M 0 40750 5 40794 100 0 0 0        * a drunken cloud giant
+M 0 40738 7 40795 100 0 0 0        * a young cloud giant
+M 0 40750 5 40795 100 0 0 0        * a drunken cloud giant
+M 0 40737 8 40796 100 0 0 0        * a cloud giant guard
+M 0 40736 1 40797 100 0 0 0        * the cloud giant camp leader
+E 1 40727 1 16 100 0 0 0           *   an iron mace dubbed 'Riser'
+E 1 40744 3 24 100 0 0 0           *   a badge of the cloud giants
+M 0 40737 8 40797 100 0 0 0        * a cloud giant guard
+M 0 40738 7 40797 100 0 0 0        * a young cloud giant
+M 0 40738 7 40798 100 0 0 0        * a young cloud giant
+M 0 40750 5 40798 100 0 0 0        * a drunken cloud giant
+M 0 40739 3 40799 100 0 0 0        * a mist viper
+G 1 40730 3 0 100 0 0 0            *    a mist viper venom sac
+M 0 40739 3 40799 100 0 0 0        * a mist viper
+G 1 40730 3 0 100 0 0 0            *    a mist viper venom sac
+M 0 40739 3 40799 100 0 0 0        * a mist viper
+G 1 40730 3 0 100 0 0 0            *    a mist viper venom sac
+M 0 40740 3 40799 100 0 0 0        * an ethereal falcon
+G 1 40731 3 0 100 0 0 0            *    an ethereal falcon skull
+M 0 40740 3 40799 100 0 0 0        * an ethereal falcon
+G 1 40731 3 0 100 0 0 0            *    an ethereal falcon skull
+M 0 40740 3 40799 100 0 0 0        * an ethereal falcon
+G 1 40731 3 0 100 0 0 0            *    an ethereal falcon skull
+M 0 40742 1 40799 100 0 0 0        * a shade tiger
+G 1 40733 1 0 100 0 0 0            *    a shade tiger claw
+M 0 40758 1 40799 100 0 0 0        * a large gorgon
+G 1 40761 1 0 100 0 0 0            *    a gorgon eye
+M 0 40741 1 40799 100 0 0 0        * a young phoenix
+G 1 40732 1 0 100 0 0 0            *    a flame of a phoenix
+M 0 40747 1 40803 100 0 0 0        * Vain, the drow conjurer
+G 1 40756 1 0 100 0 0 0            *    the dark heart of Vain
+M 0 40755 1 40803 100 0 0 0        * Gravet
+G 1 40757 1 0 100 0 0 0            *    the dark heart of Gravet
+M 0 40760 1 40803 100 0 0 0        * Snent
+G 1 40772 1 0 100 0 0 0            *    the dark heart of Snent
+M 0 40761 1 40803 100 0 0 0        * Relazier
+G 1 40776 1 0 100 0 0 0            *    the dark heart of Relazier
+M 0 40744 9 40807 100 0 0 0        * a tiny mist creature
+M 0 40745 2 40807 100 0 0 0        * a large mist creature
+M 0 40746 1 40807 100 0 0 0        * a large smoke dragon
+G 1 40735 1 0 100 0 0 0            *    a large smoke dragon scale
+M 0 40748 1 40809 100 0 0 0        * Reln
+M 0 40752 1 40811 100 0 0 0        * a majestic griffon
+G 1 40747 1 0 100 0 0 0            *    a griffon feather cloak
+M 0 40753 3 40811 100 0 0 0        * a young griffon
+M 0 40753 3 40811 100 0 0 0        * a young griffon
+M 0 40753 3 40811 100 0 0 0        * a young griffon
+M 0 40757 1 40812 100 0 0 0        * a raging demon
+G 1 40760 1 0 100 0 0 0            *    a flaming demon claw
+M 0 40756 1 40813 100 0 0 0        * Ajandaner
+E 1 40759 2 16 100 0 0 0           *   a skull crested bane knife
+E 1 40759 2 17 100 0 0 0           *   a skull crested bane knife
+G 1 40758 1 0 100 0 0 0            *    the dark heart of Ajandaner
+*
+S

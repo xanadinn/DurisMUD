@@ -1,0 +1,466 @@
+#371
+&+rDu'Maathe &+LCastle&n~
+37605 1 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 37284 0 1 100 0 0 0
+*     north exit from "Elegantly Carpeted Hallway" to
+*     "Quarters of the Deputy Head Guard" - closed
+*
+D 0 37285 2 1 100 0 0 0
+*     south exit from "Quarters of the Deputy Head Guard" to
+*     "Elegantly Carpeted Hallway" - closed
+*
+D 0 37284 3 1 100 0 0 0
+*     west exit from "Elegantly Carpeted Hallway" to
+*     "Quarters of the Captain of the Guard" - closed
+*
+D 0 37286 1 1 100 0 0 0
+*     east exit from "Quarters of the Captain of the Guard" to
+*     "Elegantly Carpeted Hallway" - closed
+*
+D 0 37288 2 2 100 0 0 0
+*     south exit from "Before an Intricate Spiral Stair" to
+*     "Intricate Spiral Stair" - closed/locked
+*
+D 0 37291 0 1 100 0 0 0
+*     north exit from "Intricate Spiral Stair" to
+*     "Before an Intricate Spiral Stair" - closed
+*
+D 0 37346 0 2 100 0 0 0
+*     north exit from "Before the Du'Maathe Castle Prison Cells" to
+*     "A Patrol Passage Outside the Du'Maathe Castle Prison Cells" - closed/locked
+*
+D 0 37347 2 2 100 0 0 0
+*     south exit from "A Patrol Passage Outside the Du'Maathe Castle Prison Cells" to
+*     "Before the Du'Maathe Castle Prison Cells" - closed/locked
+*
+D 0 37353 0 5 100 0 0 0
+*     north exit from "A Patrol Passage Outside the Du'Maathe Castle Prison Cells" to
+*     "The Start of a Dark Spiral Stair" - closed/secret
+*
+D 0 37356 2 5 100 0 0 0
+*     south exit from "The Start of a Dark Spiral Stair" to
+*     "A Patrol Passage Outside the Du'Maathe Castle Prison Cells" - closed/secret
+*
+D 0 37384 1 6 100 0 0 0
+*     east exit from "Neglected Tunnels Beneath the Du'Maathe Castle" to
+*     "Entrance to the Du'Maathe Castle Catacombs" - closed/locked/secret
+*
+D 0 37385 3 2 100 0 0 0
+*     west exit from "Entrance to the Du'Maathe Castle Catacombs" to
+*     "Neglected Tunnels Beneath the Du'Maathe Castle" - closed/locked
+*
+*
+O 0 37101 1 37117 100 0 0 0        * a tiny waterfall
+O 0 37113 1 37391 100 0 0 0        * a hidden plaque
+O 0 37121 1 37506 100 0 0 0        * a small white flower
+*
+M 0 37171 1 37101 100 0 0 0        * a large black squid
+M 0 37170 5 37101 100 0 0 0        * a black tentacle
+M 0 37170 5 37101 100 0 0 0        * a black tentacle
+M 0 37170 5 37101 100 0 0 0        * a black tentacle
+M 0 37170 5 37101 100 0 0 0        * a black tentacle
+M 0 37170 5 37101 100 0 0 0        * a black tentacle
+M 0 37111 4 37133 100 0 0 0        * a lumbering treant
+M 0 37110 3 37138 100 0 0 0        * a great stag
+M 0 37110 3 37139 100 0 0 0        * a great stag
+M 0 37111 4 37140 100 0 0 0        * a lumbering treant
+M 0 37112 1 37151 100 0 0 0        * an aging woodsman
+E 1 37116 1 16 100 0 0 0           *   a sharp oaken stick
+M 0 37110 3 37154 100 0 0 0        * a great stag
+M 0 37111 4 37157 100 0 0 0        * a lumbering treant
+M 0 37111 4 37159 100 0 0 0        * a lumbering treant
+M 0 37109 8 37166 100 0 0 0        * a horned crab
+M 0 37109 8 37167 100 0 0 0        * a horned crab
+M 0 37109 8 37168 100 0 0 0        * a horned crab
+M 0 37109 8 37169 100 0 0 0        * a horned crab
+M 0 37109 8 37169 100 0 0 0        * a horned crab
+M 0 37109 8 37172 100 0 0 0        * a horned crab
+M 0 37109 8 37177 100 0 0 0        * a horned crab
+M 0 37109 8 37177 100 0 0 0        * a horned crab
+M 0 37190 12 37210 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37190 12 37210 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37190 12 37210 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37190 12 37210 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37213 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37213 100 0 0 0       * a Du'Maathe castle guard
+M 0 37159 5 37214 100 0 0 0        * a visiting traveller
+M 0 37103 34 37216 100 0 0 0       * a Du'Maathe castle guard
+M 0 37104 13 37216 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37166 5 37218 100 0 0 0        * a visiting noble
+M 0 37103 34 37220 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37222 100 0 0 0       * a Du'Maathe castle guard
+M 0 37159 5 37223 100 0 0 0        * a visiting traveller
+M 0 37104 13 37225 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37226 100 0 0 0       * a Du'Maathe castle guard
+M 0 37166 5 37228 100 0 0 0        * a visiting noble
+M 0 37103 34 37230 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37232 100 0 0 0       * a Du'Maathe castle guard
+M 0 37159 5 37233 100 0 0 0        * a visiting traveller
+M 0 37104 13 37234 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37236 100 0 0 0       * a Du'Maathe castle guard
+M 0 37166 5 37238 100 0 0 0        * a visiting noble
+M 0 37103 34 37240 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37243 100 0 0 0       * a Du'Maathe castle guard
+M 0 37159 5 37243 100 0 0 0        * a visiting traveller
+M 0 37104 13 37243 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37246 100 0 0 0       * a Du'Maathe castle guard
+M 0 37166 5 37248 100 0 0 0        * a visiting noble
+M 0 37104 13 37249 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37250 100 0 0 0       * a Du'Maathe castle guard
+M 0 37104 13 37253 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37104 13 37253 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37159 5 37254 100 0 0 0        * a visiting traveller
+M 0 37103 34 37255 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37255 100 0 0 0       * a Du'Maathe castle guard
+M 0 37190 12 37257 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37190 12 37257 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37103 34 37258 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37258 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37258 100 0 0 0       * a Du'Maathe castle guard
+M 0 37104 13 37258 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37104 13 37260 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37104 13 37260 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37100 1 37261 100 0 0 0        * Lord Du'Maathe
+E 1 37127 1 5 100 0 0 0            *   a set of ringmail bearing the Du'Maathe crest
+E 1 37132 5 16 100 0 0 0           *   a thin steel sword with a stone hilt
+E 1 37132 5 17 100 0 0 0           *   a thin steel sword with a stone hilt
+F 1 37143 3 37261 100 0 0 0        * a Du'Maathe castle mage (following)
+F 1 37143 3 37261 100 0 0 0        * a Du'Maathe castle mage (following)
+F 1 37143 3 37261 100 0 0 0        * a Du'Maathe castle mage (following)
+F 1 37190 12 37261 100 0 0 0       * an elite Du'Maathe castle guard (following)
+F 1 37190 12 37261 100 0 0 0       * an elite Du'Maathe castle guard (following)
+M 0 37103 34 37263 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37265 100 0 0 0       * a Du'Maathe castle guard
+M 0 37121 6 37267 100 0 0 0        * a Du'Maathe castle servant
+M 0 37121 6 37267 100 0 0 0        * a Du'Maathe castle servant
+M 0 37103 34 37273 100 0 0 0       * a Du'Maathe castle guard
+M 0 37121 6 37273 100 0 0 0        * a Du'Maathe castle servant
+M 0 37121 6 37274 100 0 0 0        * a Du'Maathe castle servant
+M 0 37121 6 37276 100 0 0 0        * a Du'Maathe castle servant
+M 0 37103 34 37277 100 0 0 0       * a Du'Maathe castle guard
+E 1 37118 3 5 100 0 0 0            *   some chainmail of the Du'Maathe castle guard
+E 1 37132 5 16 100 0 0 0           *   a thin steel sword with a stone hilt
+M 0 37121 6 37277 100 0 0 0        * a Du'Maathe castle servant
+M 0 37152 1 37279 100 0 0 0        * a plump cook
+M 0 37103 34 37284 100 0 0 0       * a Du'Maathe castle guard
+M 0 37163 1 37285 100 0 0 0        * the deputy of the Du'Maathe castle guard
+M 0 37162 1 37286 100 0 0 0        * the captain of the Du'Maathe castle guard
+E 1 37123 1 5 100 0 0 0            *   some platemail of the Du'Maathe guard
+M 0 37104 13 37286 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37106 6 37288 100 0 0 0        * a Du'Maathe castle stair guard
+M 0 37106 6 37288 100 0 0 0        * a Du'Maathe castle stair guard
+G 1 37112 1 0 100 0 0 0            *    an intricate onyx key
+M 0 37106 6 37288 100 0 0 0        * a Du'Maathe castle stair guard
+M 0 37106 6 37288 100 0 0 0        * a Du'Maathe castle stair guard
+M 0 37106 6 37289 100 0 0 0        * a Du'Maathe castle stair guard
+M 0 37106 6 37290 100 0 0 0        * a Du'Maathe castle stair guard
+M 0 37145 1 37292 100 0 0 0        * Carmotee
+M 0 37103 34 37293 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37295 100 0 0 0       * a Du'Maathe castle guard
+M 0 37157 10 37296 100 0 0 0       * an off-duty guard
+M 0 37157 10 37296 100 0 0 0       * an off-duty guard
+M 0 37104 13 37297 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37157 10 37298 100 0 0 0       * an off-duty guard
+M 0 37157 10 37298 100 0 0 0       * an off-duty guard
+M 0 37103 34 37299 100 0 0 0       * a Du'Maathe castle guard
+M 0 37157 10 37300 100 0 0 0       * an off-duty guard
+M 0 37157 10 37300 100 0 0 0       * an off-duty guard
+M 0 37158 1 37301 100 0 0 0        * T'Sharenoa
+G 1 37140 999 0 100 0 0 0          *    a delicate iron rod set with whitestone
+M 0 37139 19 37306 100 0 0 0       * a shaggy mount
+M 0 37139 19 37306 100 0 0 0       * a shaggy mount
+M 0 37139 19 37306 100 0 0 0       * a shaggy mount
+M 0 37139 19 37306 100 0 0 0       * a shaggy mount
+M 0 37139 19 37306 100 0 0 0       * a shaggy mount
+M 0 37139 19 37307 100 0 0 0       * a shaggy mount
+M 0 37139 19 37307 100 0 0 0       * a shaggy mount
+M 0 37139 19 37307 100 0 0 0       * a shaggy mount
+M 0 37139 19 37307 100 0 0 0       * a shaggy mount
+M 0 37139 19 37307 100 0 0 0       * a shaggy mount
+M 0 37103 34 37309 100 0 0 0       * a Du'Maathe castle guard
+E 1 37118 3 5 100 0 0 0            *   some chainmail of the Du'Maathe castle guard
+E 1 37132 5 16 100 0 0 0           *   a thin steel sword with a stone hilt
+M 0 37144 2 37309 100 0 0 0        * a cheltite vendor
+M 0 37103 34 37311 100 0 0 0       * a Du'Maathe castle guard
+M 0 37144 2 37311 100 0 0 0        * a cheltite vendor
+M 0 37166 5 37312 100 0 0 0        * a visiting noble
+M 0 37156 1 37313 100 0 0 0        * the innkeep of the Du'Maathe castle inn
+M 0 37153 9 37314 100 0 0 0        * an off-duty guard
+M 0 37153 9 37314 100 0 0 0        * an off-duty guard
+M 0 37153 9 37314 100 0 0 0        * an off-duty guard
+M 0 37153 9 37314 100 0 0 0        * an off-duty guard
+M 0 37160 2 37314 100 0 0 0        * a Du'Maathe castle inn barmaid
+M 0 37103 34 37315 100 0 0 0       * a Du'Maathe castle guard
+E 1 37118 3 5 100 0 0 0            *   some chainmail of the Du'Maathe castle guard
+E 1 37132 5 16 100 0 0 0           *   a thin steel sword with a stone hilt
+M 0 37160 2 37315 100 0 0 0        * a Du'Maathe castle inn barmaid
+M 0 37153 9 37315 100 0 0 0        * an off-duty guard
+M 0 37153 9 37315 100 0 0 0        * an off-duty guard
+M 0 37153 9 37315 100 0 0 0        * an off-duty guard
+M 0 37153 9 37315 100 0 0 0        * an off-duty guard
+M 0 37153 9 37315 100 0 0 0        * an off-duty guard
+M 0 37154 2 37319 100 0 0 0        * a tired traveller
+M 0 37154 2 37320 100 0 0 0        * a tired traveller
+M 0 37157 10 37321 100 0 0 0       * an off-duty guard
+M 0 37157 10 37321 100 0 0 0       * an off-duty guard
+M 0 37157 10 37322 100 0 0 0       * an off-duty guard
+M 0 37157 10 37322 100 0 0 0       * an off-duty guard
+M 0 37103 34 37325 100 0 0 0       * a Du'Maathe castle guard
+M 0 37103 34 37325 100 0 0 0       * a Du'Maathe castle guard
+M 0 37150 4 37328 100 0 0 0        * a castle guest
+E 1 37133 1 7 100 0 0 0            *   a pair of gold linked leggings
+M 0 37150 4 37332 100 0 0 0        * a castle guest
+M 0 37150 4 37333 100 0 0 0        * a castle guest
+M 0 37103 34 37335 100 0 0 0       * a Du'Maathe castle guard
+M 0 37148 4 37335 100 0 0 0        * a quiet monk
+M 0 37148 4 37335 100 0 0 0        * a quiet monk
+M 0 37149 1 37335 100 0 0 0        * a quiet monk
+E 1 37128 1 13 100 0 0 0           *   a leather twined belt
+M 0 37148 4 37338 100 0 0 0        * a quiet monk
+M 0 37148 4 37339 100 0 0 0        * a quiet monk
+M 0 37103 34 37341 100 0 0 0       * a Du'Maathe castle guard
+M 0 37155 2 37341 100 0 0 0        * a Du'Maathe castle mage
+M 0 37178 1 37342 100 0 0 0        * a Du'Maathe castle mage
+M 0 37105 1 37342 100 0 0 0        * a lich of Du'Maathe castle's arch-mage
+E 1 37126 1 5 100 0 0 0            *   a torn black velvet robe
+G 1 37144 2 0 100 0 0 0            *    a small copper colored earring
+G 1 37104 1 0 100 0 0 0            *    a small black gem
+G 1 55171 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 37103 34 37343 100 0 0 0       * a Du'Maathe castle guard
+M 0 37155 2 37343 100 0 0 0        * a Du'Maathe castle mage
+M 0 37190 12 37346 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37120 2 37346 100 0 0 0        * a stone golem
+G 1 37346 1 0 100 0 0 0            *    A decayed key
+M 0 37120 2 37346 100 0 0 0        * a stone golem
+E 1 37110 1 16 100 0 0 0           *   a curved iron rod
+M 0 37165 1 37348 100 0 0 0        * a cunning assassin
+E 1 37147 1 16 100 0 0 0           *   a shard of black crystal
+E 1 37135 1 20 100 0 0 0           *   a black mask covered in flames
+M 0 37177 2 37349 100 0 0 0        * a large red dragon
+M 0 37177 2 37349 100 0 0 0        * a large red dragon
+E 1 37139 1 2 100 0 0 0            *   a golden band set with a fire opal
+M 0 37104 13 37350 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37179 1 37351 100 0 0 0        * a large yochlol
+M 0 37180 1 37351 100 0 0 0        * a captured drow priestess
+E 1 37141 1 9 100 0 0 0            *   a pair of delicate spider silk gloves
+M 0 37181 2 37351 100 0 0 0        * a captured drow scout
+M 0 37181 2 37351 100 0 0 0        * a captured drow scout
+M 0 37113 1 37352 100 0 0 0        * a goblin shaman
+E 1 37117 1 18 100 0 0 0           *   a totem of the goblin tribe 'Gruneegth'
+M 0 37114 2 37352 100 0 0 0        * a goblin magi
+M 0 37114 2 37352 100 0 0 0        * a goblin magi
+M 0 37115 2 37352 100 0 0 0        * a goblin warrior
+M 0 37115 2 37352 100 0 0 0        * a goblin warrior
+M 0 37183 2 37354 100 0 0 0        * a massive minotaur warrior
+M 0 37185 2 37354 100 0 0 0        * a minotaur sorcerer
+E 1 37142 1 37 100 0 0 0           *   a black ring etched with runes
+G 1 37143 1 0 100 0 0 0            *    a blackened belt of the minotaur
+M 0 37186 1 37354 100 0 0 0        * a massive minotaur warrior
+M 0 37183 2 37354 100 0 0 0        * a massive minotaur warrior
+M 0 37185 2 37354 100 0 0 0        * a minotaur sorcerer
+M 0 37173 1 37355 100 0 0 0        * a brigand leader
+E 1 37138 1 10 100 0 0 0           *   a pair of black sleeves with glowing runes
+M 0 37174 1 37355 100 0 0 0        * a fierce brigand
+M 0 37175 2 37355 100 0 0 0        * a brigand mage
+M 0 37175 2 37355 100 0 0 0        * a brigand mage
+M 0 37118 4 37361 100 0 0 0        * an undead beholder
+M 0 37119 4 37363 100 0 0 0        * a large gargoyle
+M 0 37118 4 37365 100 0 0 0        * an undead beholder
+M 0 37119 4 37367 100 0 0 0        * a large gargoyle
+M 0 37118 4 37369 100 0 0 0        * an undead beholder
+M 0 37119 4 37371 100 0 0 0        * a large gargoyle
+M 0 37119 4 37373 100 0 0 0        * a large gargoyle
+M 0 37118 4 37376 100 0 0 0        * an undead beholder
+M 0 37107 3 37387 100 0 0 0        * a powerful spectre
+M 0 37108 1 37388 100 0 0 0        * a spectral warrior
+E 1 37124 1 16 100 0 0 0           *   a carved bone longsword
+G 1 37114 1 0 100 0 0 0            *    a small dragon tooth
+M 0 37107 3 37389 100 0 0 0        * a powerful spectre
+M 0 37107 3 37391 100 0 0 0        * a powerful spectre
+M 0 37190 12 37401 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37190 12 37401 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37138 4 37417 100 0 0 0        * a cheltite girl
+M 0 37138 4 37419 100 0 0 0        * a cheltite girl
+M 0 37190 12 37420 100 0 0 0       * an elite Du'Maathe castle guard
+M 0 37128 1 37421 100 0 0 0        * a tinker
+M 0 37138 4 37423 100 0 0 0        * a cheltite girl
+M 0 37123 10 37426 100 0 0 0       * a cheltite toddler
+M 0 37122 5 37427 100 0 0 0        * a cheltite goodwife
+M 0 37123 10 37428 100 0 0 0       * a cheltite toddler
+M 0 37123 10 37430 100 0 0 0       * a cheltite toddler
+M 0 37122 5 37431 100 0 0 0        * a cheltite goodwife
+M 0 37123 10 37432 100 0 0 0       * a cheltite toddler
+M 0 37125 1 37434 100 0 0 0        * a cheltite innkeeper
+M 0 37129 5 37435 100 0 0 0        * a cheltite patron
+M 0 37129 5 37435 100 0 0 0        * a cheltite patron
+M 0 37129 5 37435 100 0 0 0        * a cheltite patron
+M 0 37129 5 37435 100 0 0 0        * a cheltite patron
+M 0 37129 5 37435 100 0 0 0        * a cheltite patron
+M 0 37127 2 37435 100 0 0 0        * a cheltite barmaid
+M 0 37127 2 37436 100 0 0 0        * a cheltite barmaid
+M 0 37126 1 37437 100 0 0 0        * the innkeeper's wife
+M 0 37102 1 37440 100 0 0 0        * a frail man
+M 0 37141 4 37442 100 0 0 0        * an outlaw
+E 1 37120 1 15 100 0 0 0           *   a whitestone bracer
+E 1 37119 5 16 100 0 0 0           *   a black bladed dagger with a silver hilt
+M 0 37141 4 37443 100 0 0 0        * an outlaw
+E 1 37119 5 16 100 0 0 0           *   a black bladed dagger with a silver hilt
+M 0 37135 4 37444 100 0 0 0        * a bulette
+M 0 37141 4 37446 100 0 0 0        * an outlaw
+E 1 37119 5 16 100 0 0 0           *   a black bladed dagger with a silver hilt
+M 0 37141 4 37447 100 0 0 0        * an outlaw
+E 1 37119 5 16 100 0 0 0           *   a black bladed dagger with a silver hilt
+M 0 37142 42 37449 100 0 0 0       * a freshwater shark
+M 0 37142 42 37449 100 0 0 0       * a freshwater shark
+M 0 37142 42 37449 100 0 0 0       * a freshwater shark
+M 0 37142 42 37449 100 0 0 0       * a freshwater shark
+M 0 37142 42 37450 100 0 0 0       * a freshwater shark
+M 0 37142 42 37450 100 0 0 0       * a freshwater shark
+M 0 37142 42 37450 100 0 0 0       * a freshwater shark
+M 0 37142 42 37450 100 0 0 0       * a freshwater shark
+M 0 37142 42 37450 100 0 0 0       * a freshwater shark
+M 0 37142 42 37451 100 0 0 0       * a freshwater shark
+M 0 37142 42 37451 100 0 0 0       * a freshwater shark
+M 0 37142 42 37451 100 0 0 0       * a freshwater shark
+M 0 37142 42 37451 100 0 0 0       * a freshwater shark
+M 0 37142 42 37451 100 0 0 0       * a freshwater shark
+M 0 37142 42 37452 100 0 0 0       * a freshwater shark
+M 0 37142 42 37452 100 0 0 0       * a freshwater shark
+M 0 37142 42 37452 100 0 0 0       * a freshwater shark
+M 0 37142 42 37452 100 0 0 0       * a freshwater shark
+M 0 37142 42 37452 100 0 0 0       * a freshwater shark
+M 0 37142 42 37453 100 0 0 0       * a freshwater shark
+M 0 37142 42 37453 100 0 0 0       * a freshwater shark
+M 0 37142 42 37453 100 0 0 0       * a freshwater shark
+M 0 37142 42 37453 100 0 0 0       * a freshwater shark
+M 0 37142 42 37453 100 0 0 0       * a freshwater shark
+M 0 37142 42 37454 100 0 0 0       * a freshwater shark
+M 0 37142 42 37454 100 0 0 0       * a freshwater shark
+M 0 37142 42 37454 100 0 0 0       * a freshwater shark
+M 0 37142 42 37454 100 0 0 0       * a freshwater shark
+M 0 37142 42 37454 100 0 0 0       * a freshwater shark
+M 0 37142 42 37455 100 0 0 0       * a freshwater shark
+M 0 37142 42 37455 100 0 0 0       * a freshwater shark
+M 0 37142 42 37455 100 0 0 0       * a freshwater shark
+M 0 37142 42 37455 100 0 0 0       * a freshwater shark
+M 0 37142 42 37455 100 0 0 0       * a freshwater shark
+M 0 37142 42 37456 100 0 0 0       * a freshwater shark
+M 0 37142 42 37456 100 0 0 0       * a freshwater shark
+M 0 37142 42 37456 100 0 0 0       * a freshwater shark
+M 0 37142 42 37456 100 0 0 0       * a freshwater shark
+M 0 37101 1 37457 100 0 0 0        * a water dragon
+E 1 37106 1 18 100 0 0 0           *   a small handful of fine sand
+M 0 37142 42 37457 100 0 0 0       * a freshwater shark
+M 0 37142 42 37457 100 0 0 0       * a freshwater shark
+M 0 37142 42 37457 100 0 0 0       * a freshwater shark
+M 0 37142 42 37457 100 0 0 0       * a freshwater shark
+M 0 37123 10 37459 100 0 0 0       * a cheltite toddler
+M 0 37122 5 37460 100 0 0 0        * a cheltite goodwife
+M 0 37123 10 37461 100 0 0 0       * a cheltite toddler
+M 0 37123 10 37463 100 0 0 0       * a cheltite toddler
+M 0 37123 10 37464 100 0 0 0       * a cheltite toddler
+M 0 37122 5 37466 100 0 0 0        * a cheltite goodwife
+M 0 37138 4 37468 100 0 0 0        * a cheltite girl
+M 0 37123 10 37469 100 0 0 0       * a cheltite toddler
+M 0 37122 5 37470 100 0 0 0        * a cheltite goodwife
+M 0 37123 10 37471 100 0 0 0       * a cheltite toddler
+M 0 37140 1 37475 100 0 0 0        * a cheltite stableman
+M 0 37139 19 37475 100 0 0 0       * a shaggy mount
+M 0 37139 19 37475 100 0 0 0       * a shaggy mount
+M 0 37139 19 37475 100 0 0 0       * a shaggy mount
+M 0 37139 19 37475 100 0 0 0       * a shaggy mount
+M 0 37139 19 37475 100 0 0 0       * a shaggy mount
+M 0 37139 19 37476 100 0 0 0       * a shaggy mount
+M 0 37139 19 37476 100 0 0 0       * a shaggy mount
+M 0 37139 19 37476 100 0 0 0       * a shaggy mount
+M 0 37139 19 37476 100 0 0 0       * a shaggy mount
+M 0 37191 1 37481 100 0 0 0        * a notorious jewel thief
+E 1 37119 5 16 100 0 0 0           *   a black bladed dagger with a silver hilt
+G 1 28146 1 0 33 0 0 0             *    (object type not in this .obj file)
+M 0 37116 6 37489 100 0 0 0        * a tiny field mouse
+M 0 37116 6 37490 100 0 0 0        * a tiny field mouse
+M 0 37117 8 37493 100 0 0 0        * a cheltite farmer
+M 0 37116 6 37494 100 0 0 0        * a tiny field mouse
+M 0 37116 6 37495 100 0 0 0        * a tiny field mouse
+M 0 37117 8 37500 100 0 0 0        * a cheltite farmer
+M 0 37116 6 37501 100 0 0 0        * a tiny field mouse
+M 0 37116 6 37502 100 0 0 0        * a tiny field mouse
+M 0 37117 8 37504 100 0 0 0        * a cheltite farmer
+M 0 37117 8 37504 100 0 0 0        * a cheltite farmer
+M 0 37124 5 37508 100 0 0 0        * a cheltite youth
+M 0 37130 5 37508 100 0 0 0        * a wooly sheep
+M 0 37131 5 37509 100 0 0 0        * a large oxen
+M 0 37130 5 37509 100 0 0 0        * a wooly sheep
+M 0 37131 5 37510 100 0 0 0        * a large oxen
+M 0 37124 5 37512 100 0 0 0        * a cheltite youth
+M 0 37124 5 37514 100 0 0 0        * a cheltite youth
+M 0 37130 5 37516 100 0 0 0        * a wooly sheep
+M 0 37131 5 37516 100 0 0 0        * a large oxen
+M 0 37131 5 37517 100 0 0 0        * a large oxen
+M 0 37130 5 37518 100 0 0 0        * a wooly sheep
+M 0 37130 5 37518 100 0 0 0        * a wooly sheep
+M 0 37131 5 37518 100 0 0 0        * a large oxen
+M 0 37124 5 37521 100 0 0 0        * a cheltite youth
+M 0 37124 5 37522 100 0 0 0        * a cheltite youth
+M 0 37135 4 37523 100 0 0 0        * a bulette
+M 0 37133 1 37526 100 0 0 0        * an onyx dragon
+G 1 37107 1 0 100 0 0 0            *    a blackened dragon horn
+M 0 37136 4 37526 100 0 0 0        * an umber hulk
+M 0 37137 4 37529 100 0 0 0        * an earth drake
+M 0 37135 4 37532 100 0 0 0        * a bulette
+M 0 37136 4 37539 100 0 0 0        * an umber hulk
+M 0 37135 4 37547 100 0 0 0        * a bulette
+M 0 37134 1 37548 100 0 0 0        * a crystal dragon
+G 1 37108 1 0 100 0 0 0            *    a pure white dragon horn
+M 0 37136 4 37548 100 0 0 0        * an umber hulk
+M 0 37136 4 37555 100 0 0 0        * an umber hulk
+M 0 37137 4 37556 100 0 0 0        * an earth drake
+M 0 37132 1 37565 100 0 0 0        * a sapphire dragon
+M 0 37137 4 37568 100 0 0 0        * an earth drake
+M 0 37137 4 37568 100 0 0 0        * an earth drake
+M 0 37117 8 37570 100 0 0 0        * a cheltite farmer
+M 0 37117 8 37571 100 0 0 0        * a cheltite farmer
+M 0 37117 8 37572 100 0 0 0        * a cheltite farmer
+M 0 37117 8 37573 100 0 0 0        * a cheltite farmer
+M 0 37187 1 37577 100 0 0 0        * a tharnardian lord
+E 1 37144 2 21 100 0 0 0           *   a small copper colored earring
+M 0 37182 6 37577 100 0 0 0        * an elite Du'Maathe castle guard
+M 0 37164 17 37578 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37580 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37582 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37584 100 0 0 0       * a Du'Maathe castle guard
+M 0 37150 4 37586 100 0 0 0        * a castle guest
+M 0 37164 17 37586 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37586 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37588 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37590 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37592 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37592 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37594 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37596 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37598 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37598 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37598 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37598 100 0 0 0       * a Du'Maathe castle guard
+M 0 37164 17 37598 100 0 0 0       * a Du'Maathe castle guard
+M 0 37147 1 37601 100 0 0 0        * a grey elf ambassador
+E 1 37130 1 13 100 0 0 0           *   a handwoven grass bag
+M 0 37182 6 37601 100 0 0 0        * an elite Du'Maathe castle guard
+M 0 37188 1 37602 100 0 0 0        * a dark cleric
+E 1 37145 1 18 100 0 0 0           *   a ball of burning flame
+M 0 37182 6 37602 100 0 0 0        * an elite Du'Maathe castle guard
+M 0 37151 1 37603 100 0 0 0        * a dwarven prospector
+E 1 37131 1 18 100 0 0 0           *   a spirit flask
+M 0 37182 6 37603 100 0 0 0        * an elite Du'Maathe castle guard
+M 0 37146 1 37604 100 0 0 0        * a storm giant emissary
+E 1 37129 1 8 100 0 0 0            *   a pair of boots lined in mist
+M 0 37182 6 37604 100 0 0 0        * an elite Du'Maathe castle guard
+M 0 37189 1 37605 100 0 0 0        * a gnomish inventor
+G 1 37146 1 0 100 0 0 0            *    a gnomish notebook
+M 0 37182 6 37605 100 0 0 0        * an elite Du'Maathe castle guard
+*
+S

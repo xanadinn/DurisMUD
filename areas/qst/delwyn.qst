@@ -1,0 +1,364 @@
+#82800
+M
+qc_action 200~
+&+WThe inspection agent looks you up and down, taking careful note of the weapons
+&+Wyou are carrying with you.&N
+~
+S
+#82801
+M
+qc_action 150~
+&+WThe customs agent&N attempts to justify the levies of the Duchy to the merchant,
+&+Wbut fails miserably to assuage the &+YDwarf's&N anger.
+~
+S
+#82802
+M
+qc_action 150~
+&+YInfuriated by the hopeless situation, the merchant goes into a tirade about the
+&+Yunconscionable scruples of the local Duke.&N
+~
+S
+#82803
+M
+qc_action 200~
+&+mThe apothecary measures a few more grains of this reagent and a scruple of that
+&+mone into a mortar before crushing the ingredients with a pestle.&N
+~
+S
+#82804
+M
+qc_action 100~
+&+yThe bartender hops upon a stool to reach the far side of the bar as he wipes
+&+yup a small spill.&N
+~
+S
+#82805
+M
+qc_action 150~
+&+GThe ranger sips from his mug of ale, quietly observing his surroundings.&N
+~
+S
+#82806
+M
+qc_action 150~
+&+bThe barbarian flexes a bit as he shows another patron to his room.&N
+~
+S
+#82807
+M
+qc_action 145~
+&+gThe woman looks you up and down and whispers something about snake oil and
+&+gflexibility that you just manage to tune out.&N
+~
+Q
+&+g   The prostitute beams a wide smile at you, and you can see she is missing&n
+&+gseveral teeth.  She winks, and leads you into a dark alley nearby.  Ten&n
+&+gminutes later you emerge wiser by far, although perhaps a visit to a local&n
+&+gcleric would be in order ...&n
+~
+G C 1000
+S
+#82808
+M
+qc_action 110~
+&+gThe miller appears to be distressed as he paces back and forth.&N
+~
+M
+gearwork fix part cog grumbling mill~
+&+g   The miller throws up his hands and says,&+W "Bah! I'm missing a sprocket&n
+&+Wfor me mill! Until I get a new one I be plum out of business.  I tell ya&n
+&+Wwhat, you find me a new cog, and i'll find you a reward! I used to be a&n
+&+Wsoldier, mayhap can find some of me old gear lyin' about."&n
+~
+Q
+&+g   The miller grins from ear to ear, then says,&+W "Well done lad!  I been&n
+&+Wtryin' to get that damned clockmaker to make me a new gearwork for three&n
+&+Wmonths now.  Hmm, let me see what I can offer as reward.  Ah, heres me&n
+&+Wold trench knife from me times in the Duke's army."&n
+~
+R I 82830
+G I 82829
+S
+#82809
+M
+qc_action 120~
+&+RThe gnomish fishmonger shouts, '&+rFISH!  GET YOUR FISH HERE!  HEALTHY
+&+rFOOD FIT FOR A KING! FIIIISH!!!&+R'&N
+~
+S
+#82810
+M
+qc_action 110~
+&+yThe poulterer holds a naked chicken by the feet and shoves it into your face.
+&+Y"&+yYOU WANT CHICKEN!?&+Y"&N
+~
+S
+#82811
+M
+qc_action 140~
+&+YThe baker fans himself with a spare towel, but it doesn't appear to help him
+&+Ymuch.&N
+~
+S
+#82812
+M
+qc_action 100~
+&+rThe saucemaker stirs a rather large pot, humming a tune to himself.&N
+~
+S
+#82813
+M
+qc_action 140~
+&+LThe hangman looks at you and nods solemnly, his expression never changing.&N
+~
+S
+#82814
+M
+qc_action 110~
+&+cThe herbalist smiles as you peruse the store.&N
+~
+M
+qc_action 200~
+&+cAnother patron briefly enters and has a short exchange with &+Cthe Herbalist
+&+cbefore moving along.&N
+~
+S
+#82815
+M
+part clock bell~
+&+g   The small gnome loudly yells,&+W "That blasted bellfounder! He was supposed&n
+&+Whave made me bell last week! If you can get me bell, I'm sure I can dig up&n
+&+Wsomethin' around here as reward."&n
+~
+Q
+&+g   The gnome laughs uproariously before saying,&+W "Damn me! I dunno how you&n
+&+Wdone it, but you got me bell!  I'm afraid I haven't much to offer in the&n
+&+Wway of a reward.  Take this sprocket, a smart young soul such as yourself&n
+&+Wshould be able to make somethin' useful with it!"&n
+~
+R I 82829
+G I 82828
+S
+#82820
+M
+qc_action 120~
+&+WThe knifegrinder peers at the edge of the blade before returning it to the stone
+&+Wonce more.&N
+~
+S
+#82821
+M
+qc_action 90~
+&+BAnother spool of yarn gets dumped into a barrel as the dyer hums a tune.&N
+~
+M
+spool yarn wool dye~
+&+g   The dyer turns to you and says,&+W "Sure'n I can dye your wool, however me&n
+&+Wfee is not so small.  I require ten platinum coins to do the job."&n
+~
+Q
+&+gThe dyer hands you the newly coloured yarn.&n
+~
+R I 82818
+G I 82817
+G C 10000
+S
+#82823
+M
+flag banner wool bolt fabric~
+&+g   The seamstress nods, and replies,&+W "I can make you a banner, but I'll&n
+&+Wrequire a bolt of material.  My wages for the job will be thirty-five&n
+&+Wplatinum."&n
+~
+Q
+&+gThe seamstress wordlessly hands you a large banner.&n
+~
+R I 82820
+G I 82819
+G C 35000
+S
+#82824
+M
+spool yarn wool~
+&+g   The weaver turns to you and replies,&+W "Yes, I can weave yarn into fabric.&n
+&+WHowever, I won't do it for free.  You must pay me ten platinum coins before&n
+&+WI'll start working. Oh, and if you want it a certain colour, make sure you&n
+&+Wget it dyed first."&n
+~
+Q
+&+gThe weaver gives you a bolt of fabric.&n
+~
+R I 82819
+G I 82818
+G C 10000
+S
+#82825
+M
+fleece~
+&+g   The old spinner stops her work, then replies,&+W "Why yes, I can spin a&n
+&+Wfleece into yarn.  However, I don't work for free.  I expect recompense in&n
+&+Wthe amount of five platinum coins for the service."&n
+~
+Q
+&+gThe spinner hands you a spool of yarn.&n
+~
+R I 82817
+G I 82816
+G C 5000
+S
+#82837
+M
+qc_action 110~
+&+yThe beggar looks up at you with with his most disheveled look and holds out
+&+yhis hands.  &+Y"&+yAlms for a poor soul who's fallen on hard times?&+Y"&N
+~
+S
+#82840
+M
+qc_action 110~
+&+YThe teamster runs into you roughly, shoving you out of his way as he travels
+&+Yonward.&N
+~
+S
+#82842
+M
+qc_action 200~
+&+mThe hog grunts and sniffs the air.&N
+~
+S
+#82858
+M
+qc_action 110~
+&+r"&+RKeep your nose clean and we won't have to drag you off to the cells&+r",
+&+ythe sheriff quips.&N
+~
+S
+#82859
+M
+qc_action 110~
+&+CA cold stare from the &+cman-at-arms &+Cis all the welcome you get.&N
+~
+S
+#82862
+M
+qc_action 110~
+&+yThe longbowman stares off into the distance and sighs.&N
+~
+M
+qc_action 210~
+&+Y"&+yI wish something would happen.  I'm so bored&+Y", the longbowman exclaims.
+~
+S
+#82867
+M
+qc_action 110~
+&+CThe grumbling private throws a small stone into the cauldron and watches the
+&+Coil as the stone slowly sinks beneath the surface.&N
+~
+S
+#82873
+M
+qc_action 150~
+&+yThe servant yawns and stretches, her eyes drooping visibly.&N
+~
+S
+#82874
+M
+mutter mutters muttering chess something~
+&+y   The captain pauses, then says,&+W "Aye, my chess set is missing a piece.&n
+&+WI've just learned of a new maneouver, and I'd like to surprise my mates&n
+&+Wwith it, however we cannot attempt a game missing a piece.  Find my&n
+&+Wmissing chess piece and I'll reward you in some manner.  Now, this move&n
+&+Wis called capturing en passant, and its origin is an obscure ..."&+y The&n
+&+ycaptain drones on about the origin of the chess move.&n
+~
+Q
+&+y   The captain smiles widely at you and says,&+W "I'm not sure how you found&n
+&+Wthis, and frankly I care not.  You have done me a great service, and as&n
+&+Wsuch I shall reward you.  Take this extra pair of boots."&n
+~
+R I 82827
+G I 82826
+S
+#82878
+Q
+&+g   The Duke roars in outrage, before growling,&+W "Blast that monster! He&n
+&+Wwould take advantage of my own daughter's birthday to attack me! Well,&n
+&+WI shall certainly have a thing to say about that!  Here, you have proven&n
+&+Wyourself a true hero to my Duchy.  Take this and be forever welcome in&n
+&+Wmy lands."&n
+~
+R I 82825
+G I 82824
+G I 82823
+S
+#82881
+M
+qc_action 100~
+&+bThe page glares at you and comes between you and the Duke.&N
+~
+M
+qc_action 200~
+&+bThe page studies you and asks, "&+BDo you have something important to say,
+&+Bor should I just escort you out now?&+b"&N
+~
+S
+#82890
+M
+search searching study duke something~
+&+y   The halfling pauses for a moment, nods to himself, and says,&+W "Well, I&n
+&+Wsuppose if you were going to turn me in or kill me you would have done so&n
+&+Wby now.  Since you haven't I must assume you are on my side.  Find the&n
+&+Wdocuments we need quickly, before the guards discover we are in here."&n
+~
+Q
+&+y   The halfling chuckles slyly, then responds, &+W"Ah, exactly what I've been&n
+&+Wlooking for.  Here, take this note back to our master.  If all goes to&n
+&+Wplan this miserable castle will be ours without losing a single day at the&n
+&+Wwalls."&n
+~
+R I 82824
+G I 82822
+S
+#82891
+M
+qc_action 160~
+&+rThe watchman twists his head suddenly, perhaps hearing something behind him.&N
+~
+M
+qc_action 160~
+&+rA sudden coughing fit strikes the watchman who looks terribly embarrassed after
+&+rhe composes himself.&N
+~
+S
+#82892
+M
+qc_action 150~
+&+cThe lookout suddenly becomes excited and shouts out, "&+COgres! Trolls!
+&+CThey are coming!&+c".  The deafening silence, as well as the dejected
+&+clook on the lookout's face, suggests this isn't the first false alarm he
+&+chas reported.&N
+~
+S
+#82895
+M
+flagpole frown flag~
+&+g   The magician turns to you, and yells,&n &+W"Be ya daft and blind, ya silly&n
+&+Wegg-addled, goose-legged, duck-lovin' sons-o-ya-brothers?!  Me flag be&n
+&+Wgone!  Find me flag, or brung me a new one! An' iff'n I See ya here again&n
+&+WI'll turn the whole steenkin lot of ya to leezards!"&n
+~
+M
+qc_action 120~
+&+cThe mage sneezes suddenly and &+Wbright white sparks &+cdance in front of your eyes.&N
+~
+Q
+&+g   The strange magician takes the banner, and checks it over before spinning&n
+&+gin a circle and yelling,&+W "Yippee!! Ya billow-winded, fart-filled fools done&n
+&+Wit! Ya have me thanks, and more ya have me Duke's thanks, and more ya can&n
+&+Whave me own pair of slippers off me own hairy feet! Well done lads!"&n
+~
+R I 82821
+G I 82820
+S

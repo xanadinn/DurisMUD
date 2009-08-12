@@ -1,0 +1,321 @@
+#58804
+M
+qc_action 45~
+&N$n &+Lpeers up at Castle Ravenloft and cringes at its looming dominance.
+~
+M
+qc_action 45~
+The chilling howls of a distant werewolf can be heard echoing through the valley.
+~
+M
+qc_action 45~
+&+LYou feel strangely as if you are being watched...
+~
+M
+hi hello~
+&+WSir Urik&+W says 'Thank you!  The darkness in this area, I feel, is sucking
+&+Wthe very life from me!'  WIth a gasp, Sir Urik continues, 'I am a Paladin of
+&+WTharnadia.  I was in Bloodstone attempting to purge the world of some of
+&+Wthe corruption that plagues it when a member of a Peace Organization known
+&+Was the 'Vistani' helped me into this valley.  He said there is a much more
+&+Wimportant situation for me to attend to and that Helm would smile on
+&+Wme for such heroics.  Either way, I fear that this Vistani is lost, he
+&+Wdisappeared one night and has not returned.  Whatever has taken him, has
+&+Walso taken my supplies!'
+~
+M
+vistani perganan~
+&+WSir Urik says 'A Vistani member was leading me through the valley to
+&+WCastle Ravenloft until he disappeared one night last week.  I have
+&+Wmade camp at the gallows here, but every night I feel like the darkness
+&+Wis sucking the life out of me.  This Vistani man introduced himself as
+&+WPerganan, however I have not heard from him since.  I wish to know his
+&+Wwhereabouts.  Please, if you find any information of this Perganan in
+&+Wthe future, you must share it with me!'
+~
+M
+qc_action 44~
+A miniature tornado of leaves and debris blows across the valley floor with a
+crisp gust of wind.
+~
+QA
+&+WUrik takes the note and quickly reads it.
+&+WHis brows furrow and he says '$N!  I am grateful for everything you have done.
+&+WBless Perganan for his work against this evil force, and bless you for your
+&+Wacts of nobility.'
+&+WUrik removes a &+Yring &+Wfrom his finger.
+~
+R I 58849
+G I 58416
+D
+&+WUrik says 'Take my ring, Moonfriend.  Perhaps he will aid you in repelling those
+&+Wbeasts of undeath.'
+~
+S
+#58812
+M
+hi hello~
+&+MMadam Eva greets you and invites you to sit with her.
+&+M'Greetings, adventurer.  I am Madam Eva.  Although before you speak, I know
+&+Mwhy you have come here.  You are in search of a way to fend off the darkness
+&+Mthat comes from Castle Ravenloft, currupting this valley.  You are also
+&+Min search of answers to many questions, perhaps about the witches, or even
+&+Mabout Strahd himself.  Please, ask me these questions and I will read your
+&+Mfortune.'
+~
+M
+fortune~
+   &+MMadam Eva says 'I will tell your fortune.  Ask me about anything in
+&+MBarovia or Ravenloft.'
+~
+M
+strahd castle ravenloft~
+&+MMadam Eva grins and says 'Strahd Zarovich lives within Castle Ravenloft,
+&+Msitting atop the highest peak of Mount Ravenloft.'
+&+MMadam Eva gestures with her hand to the west.
+&+MMadam Eva says 'Strahd is a very powerful force indeed.  I would not be
+&+Mwise to speak unkindly of him, as he is wise to not disturb my fortune-
+&+Mtelling business here in the realm of Barovia.  Most of the time while
+&+MI am fortune telling, however, I am in the village of Barovia, so it is
+&+Mmost strange for me to be seeing someone in my quarters at this camp.'
+~
+M
+barovia village~
+&+M'This realm is Barovia, and the village is thusly named for outsiders.
+&+MHowever, most of the folks here call it home.  I have forseen the zombie
+&+Mincursion in Barovia and I have forseen your victory over them!  Now that
+&+Mthe village is safe and Doru has been slain, you may want to focus your
+&+Mthoughts on why you are here.  Perhaps for the Sunsword?'
+~
+M
+sunsword symbol ravenkind~
+&+MMadam Eva smiles and says 'There are two artifacts that you may find useful
+&+Min your adventure here within Barovia.  The holy symbol of the Ravenkind
+&+Mand The Sunsword.  Although I do not have the Sunsword, I can tell you where
+&+Myou can find it.'
+&+MMadam Eva flips over the card of a holy warrior.
+&+M'Your Sunsword is in the posession of a noble warrior.  Although I would
+&+Mnot kill him for it, as he does not carry it with him.  This warrior is
+&+Mvery smart.'
+&+MMadam Eva smiles and continues 'The Ravenkind symbol?  That, my dear, is
+&+Min my posession.  However, there is a task I wish of you regarding the
+&+Mother two witches.'
+~
+M
+witches zelena baba drowned lady~
+&+M'Baba Zelenna and the Drowned Lady are the other two witches.  Although
+&+MI consider myself to be a well-spoken sage and soothsayer of the lands,
+&+MI have never dissapointed any patrons with my farsight.'
+&+M'There is a certain aura, a life to this land.  Although I do have an
+&+Minfluence upon it, the darkness comes from the other two witches.  Defeat
+&+MZelenna and the Drowned Lady, and prove to me their demise.  I will grant
+&+Myou the power of the Ravenkind.'
+~
+MA
+vistani~
+&+MMadam Eva looks curiously at you and says lightly 'The Vistani are killers..'
+&+MMadam Eva raises an eyebrow and smirks before she continues 'I have been watching
+&+Myou for a while and I have noticed you are quite the killer yourself.  Perhaps you
+&+Mwould like to consider a different line of employment.'
+&+WYou feel a wave of comfort and are compelled to speak further with Madam Eva.
+&+mShe continues...
+&+M'The Vistani gain their positions by proving their strength over the others, if you
+&+Mtoo would like to be in my service, you must prove your strength over the other
+&+MVistani, but you must do it their way.. with stealth.  What do you know about &+Lstealth&+M?'
+~
+MA
+stealth~
+&+MMadam Eva grins and says 'Collect for me a mark of the saboteur as well as a Vistani
+&+Moverseer's badge.  If you do so with great stealth, you will be rewarded and join
+&+Mthe ranks of the Vistani.'
+~
+QA
+&+MMadam &+YEva &+Mtakes the items from $N and grins, revealing her shiny white teeth.
+&+M'Excellent' she says as she tucks them into her robes.
+&+M'Now take this, the symbol of the Ravenkind.  It will help you when you
+&+Mmeet Strahd.  Here is the key to the outter gates as well.'
+'&+RBeware $N!  Strahd knows you are coming!'  Madam &+YEva &+Mwarns one final time.
+~
+R I 58825
+R I 58826
+G I 58817
+G I 58824
+QA
+&+mMadam &+YEva &ntakes the badges from you and grins.
+&+MShe says 'Welcome to the Vistani.  I have been holding onto this bandana since
+&+Mwas last worn by my former lover.  I believe the other two Fanes drove him to
+&+Mhis suicide into the crag.  But those witches are another matter.'
+&+MMadam Eva continues, 'You may keep this badge, remember.. in the Vistani you
+&+Mkeep what you kill.'
+~
+R I 58846
+R I 58844
+G I 58845
+G I 58844
+S
+#58822
+MA
+hi hello~
+&N$n &+Csays 'Hello adventurerer...
+&+C'Rarely do any people come up these parts of the mountains to chat
+&+Cwith me.  I have only ever found trecherous Vistani thieves trying
+&+Cto steal from me, or beasts from the wilderness that know no better
+&+Cthan to disturb a dragon!'
+&N$n laughs momentarily.
+&+C'But since you are here, I have a quest for you.  Have your adventures
+&+Cthrough Barovia brought you to Mount Ravenloft?'
+~
+MA
+mount ravenloft~
+&n$n &+Cnods.
+&+C'There is a dragon asleep on the northern bluffs of Mount Ravenloft.
+&+CThis evil dragon, this red dragon, is a blood enemy to my people.
+&+CThese mountains are not big enough for the two of us!  Bring me proof
+&+Cof this dragon's demise and I will reward you.'
+~
+QA
+&+C'You have proven yourself worthy to have this crystal dragon as your
+&+Cfriend.  I have watched from afar the peril you have vanquished in the
+&+Cvillage and here in the valley.  I will scout ahead and look down upon
+&+Cthe valley.  Perhaps our paths will cross again some day.'
+~
+R I 58810
+G I 58809
+D
+&n$n &+Cspreads his wings and takes flight, beginning to circle the valley...
+~
+S
+#58826
+M
+qc_action 39~
+The vicious snarling of a beast is heard not so far in the distance, followed
+by a blood-curdling scream, and then silence.
+~
+M
+qc_action 38~
+Your mind starts to sink for a minute...
+A vision of &+rStrahd Von Zarovich&N invades your mind, beckoning you to continue.
+~
+M
+qc_action 41~
+&+COff in the distance, a crystal dragon flies through the clouds before settling
+&+Con a far-off mountain.
+~
+S
+#58827
+M
+qc_action 40~
+The harsh valley winds of Barovia blow through here, sending a chill straight
+down your spine.
+~
+M
+qc_action 41~
+&+LThe dark, foreboding spires of Castle Ravenloft cast an ominous shadow across
+&+Lthe entire valley in the realm of Barovia, causing much of this outback to
+&+Lbe shaded in an evercast.
+~
+M
+qc_action 39~
+&+yA high-pitched howl of a timberwolf is heard echoing from the distance.
+~
+S
+#58830
+M
+qc_action 39~
+&+LYou feel strangely as if you're being watched...
+~
+M
+qc_action 40~
+&+BA thunderless bolt of lightning illuminates the blackened skies just over
+&+Bthe highest spire of Castle Ravenloft.
+~
+M
+qc_action 41~
+&+LYou feel as if something just brushed against your leg.  A cold-sweat forms
+&+Lon your forehead as you gasp your next breath.  The paranoia of this place
+&+Lhas begun to sink in...
+~
+M
+qc_action 47~
+&+gYou hear a rustling behind you.  As you quickly turn to see what it was, you
+&+gmanage to catch a glimpse of a hair-covered werewolf before it disappears
+&+ginto the wilderness.
+~
+S
+#58846
+M
+qc_action 50~
+&+LA thick, black fog seems to settle through the steel gates of Castle
+&+LRavenloft, across this mountain peak.  The dreary Castle Ravenloft
+&+Lstands before you, dominating over the realm of Barovia with an ominous,
+&+Llooming presence.
+~
+M
+qc_action 90~
+&+L...the black fog in the area slowly begins to swirl, speeding up faster
+&+Land faster.  As the fog swirls faster and faster, it starts building
+&+Linto a tall form, which eventually takes shape into a humanoid shape.
+
+The apparition introduces itself as a personal servant of Strahd...
+'&+WCongratulations, adventurer.  You have made it to the castle gates
+&+Wof Ravenloft.  The great Strahd Von Zarovich awaits your company
+&+Was guests in his glorious castle.'
+
+&+LAs fast as the apparition formed, it disappears, sinking back into the
+&+Lfog which settles back over the ground.
+~
+M
+hi hello~
+&+LGrinning as you speak, &+yMegosh &+Lresponds, '&+yGreetings travellers.
+&+yI have gone undetected for several weeks here in Barovia, and I've finally
+&+ybeen spotted!  But... you're not Vistani, are you treasure-hunting too?'
+~
+M
+treasure vistani~
+&+L'&+yI am treasure-hunting, I have just reached the top of this mountain.
+&+yI've had the key to these gates for quite some time, I came across it in
+&+ymy travels.  The Vistani have been trying to track me and spy on me.  But,
+&+ywell, when you have experience spying on others, you learn a few tricks
+&+yyourself.&+L'
+
+&+yMegosh&+L grins wickedly.
+
+&+L'&+yI have been sneaking all throughout this area.  I'm sure since you
+&+yhave reached the top as well you have seen the werewolves and vampires
+&+ythat plague this land...  Have you seen the witches&+L?'
+~
+M
+witches~
+&+L'&+yYes there are three of them.  One of them is guarded by a fortress of
+&+yVistani in an encampment near the Svalich Woods, the witch of Lysaga Hill
+&+yhas completely lost her mind, and the Drowned Lady is deep underwater!
+&+yNeedless to say, they are both very difficult to get to&+L.'
+
+&+LPausing for a moment, &+yMegosh&+L stops to eye you up and down.
+&+LWith a wide, toothy smile, &+yMegosh &+Lcontinues '&+yThere was a rumor
+&+yabout the witch of Lysaga Hill, that part of the corruption of Barovia
+&+yis a result of the evil she has summoned from her tower, that of a
+&+ypowerful devil.&+L'
+~
+M
+devil~
+&+L'&+yThis devil is really none of my concern, as I can not stop him
+&+yand the evil Zelenna has brought to Barovia.  But you can!  Bring to
+&+yme proof that this devil is dead so that I know my journey through
+&+yBarovia is not cursed, and we shall enter these gates together!'
+~
+QA
+&+yMegosh &+L cackles gleefully, graciously accepting the heart from you.
+&+LReaching into a small belt pouch, &+yMegosh&+L pulls out a small key.
+&+L'&+yI am going to go ahead and give this key to you.  I do not hunt
+&+yfor treasure any way other then alone!&+L'
+
+&+yMegosh&+L chuckles politely and slips through the gates before handing
+&+Lyou the key.
+~
+R I 58826
+G I 58834
+D
+&+LBefore you realize, &+yMegosh&+L is gone completely without a trace.
+~
+S

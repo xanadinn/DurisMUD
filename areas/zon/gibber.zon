@@ -1,0 +1,476 @@
+#87
+Lair of the Gibberling King~
+8821 1 0 6 7 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 8701 1 2 100 0 0 0
+*     east exit from "At the Bottom of a Tight Fissure" to
+*     "A Widening Tunnel." - closed/locked
+*
+D 0 8702 3 2 100 0 0 0
+*     west exit from "A Widening Tunnel." to
+*     "At the Bottom of a Tight Fissure" - closed/locked
+*
+D 0 8713 5 5 100 0 0 0
+*     down exit from "A Cramped Refuse Pit Filled With Dung" to
+*     "Inside a Mound of Refuse." - closed/secret
+*
+D 0 8714 4 5 100 0 0 0
+*     up exit from "Inside a Mound of Refuse." to
+*     "A Cramped Refuse Pit Filled With Dung" - closed/secret
+*
+D 0 8726 2 1 100 0 0 0
+*     south exit from "A Long Blood Spattered Hallway." to
+*     "G'graz Meditation Room" - closed
+*
+D 0 8727 0 1 100 0 0 0
+*     north exit from "G'graz Meditation Room" to
+*     "A Long Blood Spattered Hallway." - closed
+*
+D 0 8727 5 6 100 0 0 0
+*     down exit from "G'graz Meditation Room" to
+*     "G'graz's Bolt Hole" - closed/locked/secret
+*
+D 0 8728 4 6 100 0 0 0
+*     up exit from "G'graz's Bolt Hole" to
+*     "G'graz Meditation Room" - closed/locked/secret
+*
+D 0 8735 0 1 100 0 0 0
+*     north exit from "Entrance to the Gibberling Larder." to
+*     "A Small Cell With Skeletal Remains" - closed
+*
+D 0 8736 2 1 100 0 0 0
+*     south exit from "A Small Cell With Skeletal Remains" to
+*     "Entrance to the Gibberling Larder." - closed
+*
+D 0 8737 0 1 100 0 0 0
+*     north exit from "A Long Hallway Within the Gibberling Larder" to
+*     "A Small Foul-smelling Cell" - closed
+*
+D 0 8738 2 1 100 0 0 0
+*     south exit from "A Small Foul-smelling Cell" to
+*     "A Long Hallway Within the Gibberling Larder" - closed
+*
+D 0 8737 2 1 100 0 0 0
+*     south exit from "A Long Hallway Within the Gibberling Larder" to
+*     "A Tight Crumbling Cell." - closed
+*
+D 0 8739 0 1 100 0 0 0
+*     north exit from "A Tight Crumbling Cell." to
+*     "A Long Hallway Within the Gibberling Larder" - closed
+*
+D 0 8740 0 1 100 0 0 0
+*     north exit from "End of a Well Stocked Larder." to
+*     "Cell with Manacled Walls" - closed
+*
+D 0 8741 2 1 100 0 0 0
+*     south exit from "Cell with Manacled Walls" to
+*     "End of a Well Stocked Larder." - closed
+*
+D 0 8740 2 1 100 0 0 0
+*     south exit from "End of a Well Stocked Larder." to
+*     "A Blood Stained Cell" - closed
+*
+D 0 8742 0 1 100 0 0 0
+*     north exit from "A Blood Stained Cell" to
+*     "End of a Well Stocked Larder." - closed
+*
+D 0 8764 5 5 100 0 0 0
+*     down exit from "A Moss Covered Grotto." to
+*     "A Moss Covered Chamber." - closed/secret
+*
+D 0 8784 4 5 100 0 0 0
+*     up exit from "A Moss Covered Chamber." to
+*     "A Moss Covered Grotto." - closed/secret
+*
+D 0 8784 0 9 100 0 0 0
+*     north exit from "A Moss Covered Chamber." to
+*     "A Large Cavern Tunnel." - closed/blocked
+*
+D 0 8785 2 0 100 0 0 0
+*     south exit from "A Large Cavern Tunnel." to
+*     "A Moss Covered Chamber." - open
+*
+D 0 8784 2 5 100 0 0 0
+*     south exit from "A Moss Covered Chamber." to
+*     "A Small Natural Cavern." - closed/secret
+*
+D 0 8789 0 5 100 0 0 0
+*     north exit from "A Small Natural Cavern." to
+*     "A Moss Covered Chamber." - closed/secret
+*
+D 0 8809 0 5 100 0 0 0
+*     north exit from "A Small Pasture" to
+*     "A Small Pasture" - closed/secret
+*
+D 0 8820 2 5 100 0 0 0
+*     south exit from "A Small Pasture" to
+*     "A Small Pasture" - closed/secret
+*
+*
+O 0 8739 2 8701 100 0 0 0          * a worn and rusted key
+O 0 8713 10 8703 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8704 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8706 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8707 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8709 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8710 100 0 0 0         * a pile of worthless trash
+O 0 8703 20 8712 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8712 100 0 0 0         * claws of a gibberling
+O 0 8708 1 8713 100 0 0 0          * a foul smelling dung pile
+O 0 8713 10 8713 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8713 100 0 0 0         * a pile of worthless trash
+O 0 8707 1 8714 100 0 0 0          * a pair of blood colored eyes
+O 0 8713 10 8714 100 0 0 0         * a pile of worthless trash
+O 0 8713 10 8728 100 0 0 0         * a pile of worthless trash
+O 0 8703 20 8748 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8748 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8748 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8748 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8749 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8749 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8749 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8749 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8749 100 0 0 0         * claws of a gibberling
+O 0 8703 20 8750 100 0 0 0         * claws of a gibberling
+O 0 8725 7 8764 100 0 0 0          * a corpse of a troll
+P 1 8719 15 8725 100 0 0 0         *   a badge of the Blood Horde
+P 1 8720 8 8725 100 0 0 0          *   a suit of Blood Horde chainmail
+O 0 8725 7 8772 100 0 0 0          * a corpse of a troll
+P 1 8719 15 8725 100 0 0 0         *   a badge of the Blood Horde
+P 1 8720 8 8725 100 0 0 0          *   a suit of Blood Horde chainmail
+O 0 8725 7 8781 100 0 0 0          * a corpse of a troll
+P 1 8719 15 8725 100 0 0 0         *   a badge of the Blood Horde
+O 0 8716 1 8784 100 0 0 0          * a large cratered boulder
+O 0 8725 7 8788 100 0 0 0          * a corpse of a troll
+O 0 8725 7 8788 100 0 0 0          * a corpse of a troll
+O 0 8725 7 8788 100 0 0 0          * a corpse of a troll
+O 0 8725 7 8788 100 0 0 0          * a corpse of a troll
+O 0 359 1 8788 100 0 0 0           * (object type not in this .obj file)
+*
+M 0 8709 7 8702 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8710 11 8703 100 0 0 0         * a tired gibberling
+M 0 8709 7 8703 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8710 11 8704 100 0 0 0         * a tired gibberling
+M 0 8710 11 8704 100 0 0 0         * a tired gibberling
+M 0 8710 11 8705 100 0 0 0         * a tired gibberling
+M 0 8707 14 8706 100 0 0 0         * a horde of gibberlings
+M 0 8710 11 8706 100 0 0 0         * a tired gibberling
+M 0 8710 11 8706 100 0 0 0         * a tired gibberling
+M 0 8710 11 8707 100 0 0 0         * a tired gibberling
+M 0 8710 11 8707 100 0 0 0         * a tired gibberling
+M 0 8709 7 8708 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8705 14 8708 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8708 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8709 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8709 100 0 0 0         * a horde of gibberlings
+M 0 8710 11 8709 100 0 0 0         * a tired gibberling
+M 0 8709 7 8709 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8706 7 8709 100 0 0 0          * a horde of gibberlings
+M 0 8705 14 8710 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8710 100 0 0 0         * a horde of gibberlings
+M 0 8710 11 8710 100 0 0 0         * a tired gibberling
+M 0 8709 7 8710 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8702 1 8711 100 0 0 0          * Zsrsr
+G 1 8739 2 0 100 0 0 0             *    a worn and rusted key
+F 1 8703 4 8711 100 0 0 0          * Zsrsr's elite guard (following)
+F 1 8703 4 8711 100 0 0 0          * Zsrsr's elite guard (following)
+F 1 8703 4 8711 100 0 0 0          * Zsrsr's elite guard (following)
+F 1 8703 4 8711 100 0 0 0          * Zsrsr's elite guard (following)
+F 1 8704 1 8711 100 0 0 0          * Zsrsr's ogre slave (following)
+E 1 8700 1 5 100 0 0 0             *   a blood drenched giants ribcage
+E 1 8702 1 7 100 0 0 0             *   black horned chimera leggings
+E 1 8701 1 18 30 0 0 0             *   a tormented and wailing wraith totem
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8708 6 8712 100 0 0 0          * a howling horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8712 100 0 0 0         * a horde of gibberlings
+M 0 8713 5 8713 100 0 0 0          * a young roper
+G 1 8706 1 0 100 0 0 0             *    a slimy roper's tentacle
+M 0 8714 4 8715 100 0 0 0          * a gibberling cook
+M 0 8714 4 8716 100 0 0 0          * a gibberling cook
+M 0 8706 7 8716 100 0 0 0          * a horde of gibberlings
+M 0 8715 1 8717 100 0 0 0          * a blubbery master cook
+M 0 8714 4 8717 100 0 0 0          * a gibberling cook
+M 0 8714 4 8719 100 0 0 0          * a gibberling cook
+M 0 8717 7 8721 100 0 0 0          * a gibberling fanatic
+M 0 8717 7 8721 100 0 0 0          * a gibberling fanatic
+M 0 8717 7 8722 100 0 0 0          * a gibberling fanatic
+M 0 8717 7 8722 100 0 0 0          * a gibberling fanatic
+M 0 8718 6 8722 100 0 0 0          * an unholy gibberling
+M 0 8710 11 8723 100 0 0 0         * a tired gibberling
+M 0 8717 7 8723 100 0 0 0          * a gibberling fanatic
+M 0 8717 7 8723 100 0 0 0          * a gibberling fanatic
+M 0 8718 6 8723 100 0 0 0          * an unholy gibberling
+M 0 8709 7 8724 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8705 14 8724 100 0 0 0         * a horde of gibberlings
+M 0 8717 7 8724 100 0 0 0          * a gibberling fanatic
+M 0 8718 6 8725 100 0 0 0          * an unholy gibberling
+M 0 8718 6 8725 100 0 0 0          * an unholy gibberling
+M 0 8706 7 8726 100 0 0 0          * a horde of gibberlings
+M 0 8718 6 8727 100 0 0 0          * an unholy gibberling
+M 0 8719 1 8727 100 0 0 0          * the unholy high priest G'graz
+E 1 8710 5 10 100 0 0 0            *   sleeves made of gibberling hide
+G 1 8715 1 0 100 0 0 0             *    a bent and rusted key
+M 0 8713 5 8729 100 0 0 0          * a young roper
+M 0 8713 5 8730 100 0 0 0          * a young roper
+M 0 8713 5 8731 100 0 0 0          * a young roper
+M 0 8713 5 8732 100 0 0 0          * a young roper
+M 0 8720 5 8736 100 0 0 0          * a brown rat
+M 0 8721 4 8736 100 0 0 0          * a wounded rat
+M 0 8721 4 8736 100 0 0 0          * a wounded rat
+M 0 8720 5 8736 100 0 0 0          * a brown rat
+M 0 8705 14 8737 100 0 0 0         * a horde of gibberlings
+F 1 8706 7 8737 100 0 0 0          * a horde of gibberlings (following)
+F 1 8706 7 8737 100 0 0 0          * a horde of gibberlings (following)
+F 1 8706 7 8737 100 0 0 0          * a horde of gibberlings (following)
+M 0 8722 1 8738 100 0 0 0          * a half-breed gibberling
+E 1 8711 1 20 100 0 0 0            *   a mask of blood
+M 0 8711 5 8738 100 0 0 0          * female grey elf slave
+M 0 8720 5 8739 100 0 0 0          * a brown rat
+M 0 8721 4 8739 100 0 0 0          * a wounded rat
+M 0 8720 5 8739 100 0 0 0          * a brown rat
+M 0 8720 5 8739 100 0 0 0          * a brown rat
+M 0 8721 4 8739 100 0 0 0          * a wounded rat
+M 0 8711 5 8741 100 0 0 0          * female grey elf slave
+M 0 8711 5 8741 100 0 0 0          * female grey elf slave
+M 0 8724 1 8741 100 0 0 0          * a drow elf with lust filled eyes
+E 1 8714 1 12 100 0 0 0            *   a cloak of squirming maggots
+M 0 8723 1 8742 100 0 0 0          * a frantic human
+E 1 8712 2 16 100 0 0 0            *   a shard of lost hope
+E 1 8712 2 17 100 0 0 0            *   a shard of lost hope
+M 0 8718 6 8742 100 0 0 0          * an unholy gibberling
+M 0 8711 5 8743 100 0 0 0          * female grey elf slave
+E 1 8704 1 7 100 0 0 0             *   a pair of rusted shackles
+G 1 8705 1 0 100 0 0 0             *    a sparkling blue gem
+M 0 8712 1 8743 100 0 0 0          * a dejected gibberling
+M 0 8711 5 8743 100 0 0 0          * female grey elf slave
+M 0 8701 9 8744 100 0 0 0          * a gibberling baby
+M 0 8701 9 8744 100 0 0 0          * a gibberling baby
+M 0 8701 9 8744 100 0 0 0          * a gibberling baby
+M 0 8709 7 8744 100 0 0 0          * a shrieking horde of gibberlings
+M 0 8701 9 8745 100 0 0 0          * a gibberling baby
+M 0 8701 9 8745 100 0 0 0          * a gibberling baby
+M 0 8701 9 8745 100 0 0 0          * a gibberling baby
+M 0 8700 3 8746 100 0 0 0          * a gibberling female
+M 0 8700 3 8746 100 0 0 0          * a gibberling female
+M 0 8701 9 8746 100 0 0 0          * a gibberling baby
+M 0 8701 9 8746 100 0 0 0          * a gibberling baby
+M 0 8701 9 8746 100 0 0 0          * a gibberling baby
+M 0 8700 3 8746 100 0 0 0          * a gibberling female
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8707 14 8747 100 0 0 0         * a horde of gibberlings
+M 0 8705 14 8750 100 0 0 0         * a horde of gibberlings
+E 1 8703 20 16 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 17 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 25 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 26 100 0 0 0           *   claws of a gibberling
+F 1 8716 4 8750 100 0 0 0          * a horde of gibberlings (following)
+F 1 8716 4 8750 100 0 0 0          * a horde of gibberlings (following)
+F 1 8716 4 8750 100 0 0 0          * a horde of gibberlings (following)
+F 1 8716 4 8750 100 0 0 0          * a horde of gibberlings (following)
+F 1 8706 7 8750 100 0 0 0          * a horde of gibberlings (following)
+E 1 8703 20 16 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 17 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 25 100 0 0 0           *   claws of a gibberling
+E 1 8703 20 26 100 0 0 0           *   claws of a gibberling
+M 0 8728 7 8759 100 0 0 0          * a huge roper
+M 0 8726 7 8760 100 0 0 0          * a large roper
+M 0 8730 7 8760 100 0 0 0          * a giant earth elemental
+M 0 8725 6 8761 100 0 0 0          * a roper
+M 0 8727 7 8762 100 0 0 0          * a moss covered roper
+M 0 8729 7 8763 100 0 0 0          * an earth elemental
+M 0 8732 4 8764 100 0 0 0          * a huge roper
+M 0 8732 4 8764 100 0 0 0          * a huge roper
+M 0 8732 4 8764 100 0 0 0          * a huge roper
+M 0 8726 7 8765 100 0 0 0          * a large roper
+M 0 8726 7 8765 100 0 0 0          * a large roper
+M 0 8747 9 8765 100 0 0 0          * an elite Blood Horde warrior
+M 0 8735 1 8765 50 0 0 0           * Roshen lord of insects
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8724 1 18 100 0 0 0            *   a staff of insect control
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+G 1 8717 1 0 100 0 0 0             *    a wand of dismissal
+M 0 8725 6 8766 100 0 0 0          * a roper
+M 0 8725 6 8766 100 0 0 0          * a roper
+M 0 8749 4 8766 100 0 0 0          * a huge roper
+M 0 8725 6 8767 100 0 0 0          * a roper
+M 0 8749 4 8767 100 0 0 0          * a huge roper
+M 0 8730 7 8768 100 0 0 0          * a giant earth elemental
+M 0 8728 7 8769 100 0 0 0          * a huge roper
+M 0 8728 7 8769 100 0 0 0          * a huge roper
+M 0 8726 7 8770 100 0 0 0          * a large roper
+M 0 8726 7 8770 100 0 0 0          * a large roper
+M 0 8725 6 8771 100 0 0 0          * a roper
+M 0 8727 7 8772 100 0 0 0          * a moss covered roper
+M 0 8727 7 8772 100 0 0 0          * a moss covered roper
+M 0 8728 7 8773 100 0 0 0          * a huge roper
+M 0 8728 7 8773 100 0 0 0          * a huge roper
+M 0 8729 7 8774 100 0 0 0          * an earth elemental
+M 0 8729 7 8774 100 0 0 0          * an earth elemental
+M 0 8729 7 8774 100 0 0 0          * an earth elemental
+M 0 8726 7 8775 100 0 0 0          * a large roper
+M 0 8729 7 8776 100 0 0 0          * an earth elemental
+M 0 8728 7 8776 100 0 0 0          * a huge roper
+M 0 8727 7 8777 100 0 0 0          * a moss covered roper
+M 0 8730 7 8778 100 0 0 0          * a giant earth elemental
+M 0 8749 4 8778 100 0 0 0          * a huge roper
+M 0 8730 7 8779 100 0 0 0          * a giant earth elemental
+M 0 8729 7 8780 100 0 0 0          * an earth elemental
+M 0 8725 6 8781 100 0 0 0          * a roper
+M 0 8749 4 8781 100 0 0 0          * a huge roper
+M 0 8727 7 8782 100 0 0 0          * a moss covered roper
+M 0 8730 7 8783 100 0 0 0          * a giant earth elemental
+M 0 8733 1 8784 100 0 0 0          * Arcole the Unholy Reaver
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8710 5 10 100 0 0 0            *   sleeves made of gibberling hide
+E 1 8722 2 16 100 0 0 0            *   a cat-of-nine tails
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+F 1 8734 1 8784 100 0 0 0          * To'gar the gnome killer (following)
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8710 5 10 100 0 0 0            *   sleeves made of gibberling hide
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+E 1 8723 1 16 100 0 0 0            *   an awl pike
+F 1 8745 9 8784 100 0 0 0          * a Blood Horde archer (following)
+F 1 8745 9 8784 100 0 0 0          * a Blood Horde archer (following)
+M 0 8755 6 8784 100 0 0 0          * an elite Blood Horde warrior
+M 0 8737 1 8785 100 0 0 0          * Riviana Swiftwind
+E 1 8740 1 5 100 0 0 0             *   a suit of Blood Horde platemail
+E 1 8710 5 10 100 0 0 0            *   sleeves made of gibberling hide
+E 1 8728 2 15 100 0 0 0            *   a bracer of the Blood Horde
+E 1 8727 4 16 100 0 0 0            *   a shard of polished obsidian
+E 1 8727 4 17 100 0 0 0            *   a shard of polished obsidian
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+M 0 8736 1 8785 100 0 0 0          * Aermth Spinecrusher
+E 1 8710 5 10 100 0 0 0            *   sleeves made of gibberling hide
+E 1 8728 2 15 100 0 0 0            *   a bracer of the Blood Horde
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+G 1 8726 1 0 100 0 0 0             *    a shimmering black sword of unholy wrath
+F 1 8738 1 8785 100 0 0 0          * Methuri lord of flames (following)
+E 1 8737 2 3 100 0 0 0             *   a collar of the Blood Horde
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+F 1 8747 9 8785 100 0 0 0          * an elite Blood Horde warrior (following)
+E 1 8727 4 16 100 0 0 0            *   a shard of polished obsidian
+E 1 8727 4 17 100 0 0 0            *   a shard of polished obsidian
+M 0 8747 9 8785 100 0 0 0          * an elite Blood Horde warrior
+M 0 8747 9 8785 100 0 0 0          * an elite Blood Horde warrior
+M 0 8747 9 8785 100 0 0 0          * an elite Blood Horde warrior
+M 0 8755 6 8785 100 0 0 0          * an elite Blood Horde warrior
+M 0 8739 1 8786 100 0 0 0          * Khia the Fury of War
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8733 1 16 100 0 0 0            *   a warhammer of the frozen north
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+F 1 8740 1 8786 100 0 0 0          * Obozlak Puntgnome (following)
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+E 1 8729 1 16 100 0 0 0            *   a bloodied gnome corpse
+F 1 8741 1 8786 100 0 0 0          * Bolan priest of death (following)
+E 1 8737 2 3 100 0 0 0             *   a collar of the Blood Horde
+E 1 8720 8 5 100 0 0 0             *   a suit of Blood Horde chainmail
+E 1 8722 2 16 100 0 0 0            *   a cat-of-nine tails
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+F 1 8742 1 8786 100 0 0 0          * Pewrt Quicksilver (following)
+E 1 8738 1 8 40 0 0 0              *   a pair of pitch-black mindstone boots
+F 1 8747 9 8786 100 0 0 0          * an elite Blood Horde warrior (following)
+M 0 8755 6 8786 100 0 0 0          * an elite Blood Horde warrior
+M 0 8755 6 8786 100 0 0 0          * an elite Blood Horde warrior
+M 0 8743 1 8787 100 0 0 0          * Sylara Windmage
+E 1 8730 1 5 100 0 0 0             *   a robe of lightning
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+F 1 8744 1 8787 100 0 0 0          * K'zrak Deadeye (following)
+E 1 8731 5 23 100 0 0 0            *   a simple quiver
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+E 1 8732 5 16 100 0 0 0            *   a longbow of speed
+F 1 8745 9 8787 100 0 0 0          * a Blood Horde archer (following)
+E 1 8731 5 23 100 0 0 0            *   a simple quiver
+E 1 8732 5 16 100 0 0 0            *   a longbow of speed
+F 1 8745 9 8787 100 0 0 0          * a Blood Horde archer (following)
+E 1 8731 5 23 100 0 0 0            *   a simple quiver
+E 1 8732 5 16 100 0 0 0            *   a longbow of speed
+M 0 8745 9 8787 100 0 0 0          * a Blood Horde archer
+M 0 8747 9 8787 100 0 0 0          * an elite Blood Horde warrior
+M 0 8747 9 8787 100 0 0 0          * an elite Blood Horde warrior
+M 0 8746 1 8788 100 0 0 0          * Crymson
+E 1 8721 1 16 100 0 0 0            *   a mace named 'Vengeance'
+E 1 8719 15 24 100 0 0 0           *   a badge of the Blood Horde
+G 1 8734 1 0 100 0 0 0             *    an essence of Crymson
+G 1 55190 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 8745 9 8788 100 0 0 0          * a Blood Horde archer (following)
+F 1 8745 9 8788 100 0 0 0          * a Blood Horde archer (following)
+F 1 8745 9 8788 100 0 0 0          * a Blood Horde archer (following)
+E 1 8731 5 23 100 0 0 0            *   a simple quiver
+E 1 8732 5 16 100 0 0 0            *   a longbow of speed
+F 1 8745 9 8788 100 0 0 0          * a Blood Horde archer (following)
+E 1 8731 5 23 100 0 0 0            *   a simple quiver
+E 1 8732 5 16 100 0 0 0            *   a longbow of speed
+F 1 8747 9 8788 100 0 0 0          * an elite Blood Horde warrior (following)
+M 0 8755 6 8788 100 0 0 0          * an elite Blood Horde warrior
+M 0 8755 6 8788 100 0 0 0          * an elite Blood Horde warrior
+M 0 8731 1 8789 100 0 0 0          * an earth elemental noble
+M 0 8726 7 8790 100 0 0 0          * a large roper
+M 0 8727 7 8790 100 0 0 0          * a moss covered roper
+M 0 8727 7 8790 100 0 0 0          * a moss covered roper
+M 0 8728 7 8790 100 0 0 0          * a huge roper
+M 0 8730 7 8790 100 0 0 0          * a giant earth elemental
+M 0 8730 7 8790 100 0 0 0          * a giant earth elemental
+M 0 8729 7 8790 100 0 0 0          * an earth elemental
+M 0 8732 4 8790 100 0 0 0          * a huge roper
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+E 1 8735 1 8 100 0 0 0             *   a living breeze
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+M 0 8748 6 8792 100 0 0 0          * a Blood Horde archer
+M 0 8751 9 8793 100 0 0 0          * a large black and red shark
+M 0 8752 8 8794 100 0 0 0          * a large catfish
+M 0 8752 8 8795 100 0 0 0          * a large catfish
+M 0 8752 8 8796 100 0 0 0          * a large catfish
+M 0 8752 8 8797 100 0 0 0          * a large catfish
+M 0 8751 9 8798 100 0 0 0          * a large black and red shark
+M 0 8751 9 8799 100 0 0 0          * a large black and red shark
+M 0 8751 9 8800 100 0 0 0          * a large black and red shark
+M 0 8752 8 8800 100 0 0 0          * a large catfish
+M 0 8752 8 8801 100 0 0 0          * a large catfish
+M 0 8751 9 8802 100 0 0 0          * a large black and red shark
+M 0 8752 8 8802 100 0 0 0          * a large catfish
+M 0 8751 9 8804 100 0 0 0          * a large black and red shark
+M 0 8752 8 8805 100 0 0 0          * a large catfish
+M 0 8751 9 8806 100 0 0 0          * a large black and red shark
+M 0 8751 9 8807 100 0 0 0          * a large black and red shark
+M 0 8751 9 8808 100 0 0 0          * a large black and red shark
+M 0 8754 6 8810 100 0 0 0          * a rothe
+M 0 8753 7 8811 100 0 0 0          * a small scrawny rothe
+M 0 8753 7 8812 100 0 0 0          * a small scrawny rothe
+M 0 8753 7 8813 100 0 0 0          * a small scrawny rothe
+M 0 8754 6 8814 100 0 0 0          * a rothe
+M 0 8753 7 8815 100 0 0 0          * a small scrawny rothe
+M 0 8753 7 8816 100 0 0 0          * a small scrawny rothe
+M 0 8754 6 8817 100 0 0 0          * a rothe
+M 0 8753 7 8818 100 0 0 0          * a small scrawny rothe
+M 0 8754 6 8818 100 0 0 0          * a rothe
+M 0 8754 6 8819 100 0 0 0          * a rothe
+M 0 8753 7 8820 100 0 0 0          * a small scrawny rothe
+M 0 8754 6 8821 100 0 0 0          * a rothe
+*
+S

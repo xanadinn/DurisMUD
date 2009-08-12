@@ -1,0 +1,144 @@
+#95019
+M
+hi hello hail~
+&+wThe dark woodsman looks in your direction and says&+W 'hail warrior, my name is&N
+&+WRiliatar, I am a hunter of these woods. The animals pelts of this forest pay&N
+&+Wa high price in the cities. If you are truly brave I might even have a job&N
+&+Wfor you, art thou interested?'&N
+~
+M
+yes job~
+&+W'Ahh.. Good! There is a bear within these wood's that I have been hired to&N
+&+Wkill, unfortunatly the druid Ascuren has given him a claw to wear around his&N
+&+Wneck which alerts him to my presence. Because of this every time I've gotten&N
+&+Wnear him he's been able to surprise me.'&+w He looks down at the deep scar&N
+running along his arm.&+W 'If you were to kill him, and return the claw to me&N
+&+Was proof of your victory I would gladly pay you 15 platinum coins. He can be&N
+&+Widentified by a scar which runs down his right cheek.'&N
+~
+M
+ascuren druid~
+&+W'Bah!' &+wRiliatar mocks. &+W'Ascuren is a foolish druid which thinks that the&N
+&+Wforest is his alone. He doesn't seem to agree with my decorations.'&+w He grins&N
+as he glances over to the animal head's which line the wall. &+W'The bear is&N
+&+Wapparently one of his friends.'&N
+~
+M
+bear scar~
+&+wRiliatar grins, and says &+W'In the northwestern section of the forest there&N is
+&+Wa cave, within it you will find the bear. He can be identified by a scar&N
+&+Wwhich runs down his right cheek. Now go, and return the claw to me.'&N
+~
+Q
+&+W'Ahh! You have done well in killing the bear, for this service I will gladly&N
+&+Wpay you the 15 platinum coins that were promised.'&+w He then takes the claw&N
+and hang's it around his neck.&N
+~
+R C 15000
+R E 25000
+G I 95000
+S
+#95020
+M
+hi hello hail~
+&+wAscuren turns to you and says &+W'Hail! I have need of the services of a brave&N
+&+Wadventurer such as yourself. I have spent many years protecting this &+gforest,&N
+&+Wunfortunatly my woodland friends tell me that much destruction has happened&N
+&+Wto it recently. Would you be willing to help me remove this scourge from the&N
+&+Wforest?'&N
+~
+M
+yes protect forest~
+&+wThe druid says &+W'Good! I knew I had chosen wisely, There is a giant which has&N
+&+Wbeen destroying the sanctuary of this beautiful forest, ripping the very&N
+&+Wbranches from trees. This threat to the forest must be removed! Go and find&N
+&+Wthe giant, return the club he wields to me so that I might have proof of&N
+&+Wthe forest's safety.'&N
+~
+Q
+&+wAscuren says &+W'Ahh, Thank you for keeping the forest safe!'&+w He smiles and &N
+begin's chanting a few words you do not understand. Suddenly the club begins&N
+to rise in the air, its wood &+Rcrackling with energy&+r. You watch dumbfounded as&N
+&+rthe trees around you reach out, taking the club and claiming it within their&N
+&+rbranches. &+wAscuren smiles with satisfaction. He then turn's to you and says &N
+&+W'Please take this potion to reward you for your help. I have prepared it to &N
+&+Wprotect you from any who would harm these woods.'&N
+~
+R I 95004
+G I 95001
+S
+#95021
+M
+hi hail hello~
+&+wDaumis stops from his meditation for a moment looking at you with concern in&N
+his eyes. He says &+W'Hail adventurer, I'm afraid if you've come to see Jarnes&N
+&+Wyou've come at a bad time.'&N
+~
+M
+jarnes concern distress~
+&+wDaumis looks at you with hope in his eyes. &+W'Perhaps you could help me? My&N
+&+Wstudent Jarnes is in trouble, he was exploring the swamp to the east of here&N
+&+Wand has become trapped. If you could get him the spell component he needs I &N
+&+Wwould be most grateful! Would you help him?'&N
+~
+M
+yes sure~
+&+wDaumis smiles and says, &+W'Great! In the northwestern section of the forest &N
+&+Wyou'll find a series of tunnels, within them grow some mushrooms which are&N
+&+Wnative to this forest. If you can get one of these mushrooms to Jarnes he &N
+&+Wwill be able to teleport himself to safety. I'm afraid I do not know where &N
+&+Win the swamp he is trapped, but please hurry, I fear for his safety.'&N
+~
+S
+#95022
+M
+hail hi hello~
+&+wJarnes says &+W'Oh! Thank the god's! I've been trapped here for so long, have&N
+&+Wyou spoken to daumis and brought the mushroom?'&N
+~
+M
+trapped mushroom no~
+&+wJarnes frowns and states &+W'Well then, perhaps you can help me, I came here to &N
+&+Wsearch for some rare spell components when I was attacked by the swamp &N
+&+Witself. The vines came out and tried to strangle me! I ran into this small&N
+&+Wclearing and have been stuck here since. Please, if you could go to daumis&N
+&+Whe could tell you where to find the mushroom I need, with it as a spell&N
+&+Wcomponent I could teleport myself away from this area.'&N
+~
+M
+yes~
+&+wJarnes says &+W'Good! Then please give me the mushroom so I can escape from &N
+&+Wthis accused place.'&N
+~
+Q
+&+wJarnes smiles happily. &+W'Thank you for this mushroom, with it I can return&N
+&+Wto my master in safety. Please, in reward for you help take my scimitar, it&N
+&+Wshould be in the hands of one with such honor.'&N
+~
+R I 95002
+R E 10000
+G I 95003
+D
+&+wWith that he smiles, &+rutter's a brief incantation&+w while holding the mushroom, &N
+&+Wand disappears with a blinding flash.&N
+~
+S
+#95023
+M
+hi hello hail~
+&+wThe korred falls down and begins laughing at you. &+W'Ha! I bet you thought you&N
+&+Wwere saving me from this place!'&+w He chuckles at himself.&+W 'I'm not in &N
+&+Wtrouble, HE is! Yes, he's in trouble, got himself into a fix he did.. alive&N
+&+Wforever he is.. forever and ever and ever and ever...'&+w The korred begins&N
+laughing again.&N
+~
+M
+fix he him alive~
+&+W'HA! So, you want to know about him eh? He wanted life, dying he was! Now&N
+&+Whe's alive, and now he wants to die!'&+w The korred begins cackling.&+W 'Go to the&N
+&+Wtower, he'll kill you he will! And once you're dead he'll tell you his &N
+&+Wstory, again and again and again and again....' &+wHe begins laughing.&+W 'After&N
+&+Wall, he has nothing else to do!' &+wThe korred drops to the ground laughing as&N
+if he had just told some joke.&N
+~
+S

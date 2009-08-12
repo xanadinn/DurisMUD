@@ -1,0 +1,1733 @@
+#80600
+&+gA Path into a Dark Jungle&N~
+   The thick growth to the west is parted by a narrow path that dives into its
+darkness with a frightening speed.  It is clear that the jungle has been
+raised slightly above the surrounding swampy ground that surrounds it,
+allowing the trees and underbrush to grow much thicker.  Vines surround all
+the trees attempting to strangle them.  Unlike many jungles, this forest is
+made up mostly of short, squat trees that spread out overhead.  None of the
+trees appears to stand more than 30-40 feet high.  Though the path appears
+clear there is a disturbing silence here, the normal animals sounds one would
+expect are distinctly absent.
+~
+806 1 3
+D1
+~
+~
+0 0 600250
+D3
+The jungle continues.
+~
+~
+0 0 80601
+S
+#80601
+&+gA Narrow Jungle Trail&N~
+   This narrow trail winds through the thick vines, trees and underbrush that
+make up this twisted, swampy jungle.  The faint buzzing from the clouds of
+insects that swarm through the area is the only sound to be heard.  The
+creatures that live in this jungle are either very silent and good at hiding
+or making quite certain they stay far from this narrow trail.  Overhead there
+is a thick interlacing of branches and vines that lets very little light
+through to the ground, and is almost equally good at keeping away the rain.
+~
+806 4097 3
+D1
+The jungle extends further.
+~
+~
+0 0 80600
+D6
+The jungle continues.
+~
+~
+0 0 80602
+S
+#80602
+&+gA Twisting Jungle Trail&N~
+   The trail bends sharply to the southeast here as it roams randomly through
+the jungle.  The stench of rot and decay fills the air, something must have
+died someplace nearby.  Thick vines, trees, and bushes make it impossible to
+see very far into the forest, in fact it could end just around the tree to the
+west.  Clouds of vicious insects fill the air, making life even more miserable.
+~
+806 4097 3
+D3
+The jungle extends further.
+~
+~
+0 0 80603
+D9
+The jungle continues.
+~
+~
+0 0 80601
+S
+#80603
+&+gNearing a Narrow Jungle &+yBridge&N~
+   Compared to areas nearby, the forest is practically clear here.  So much
+growth has been cleared away from the path that there is actually a muddy
+trail leading up to a bridge to the west.  Long serpent-like trails as well
+as human-sized footprints can be made out in the mud.  Some of them look
+quite recent.  A bridge stands to the west and the trail winds away to the
+east.
+~
+806 1 3
+D1
+The jungle extends further.
+~
+~
+0 0 80602
+D3
+The jungle continues.
+~
+~
+0 0 80604
+S
+#80604
+&+yA Narrow Bridge&N~
+   This narrow, rickety bridge passes over a particularily swampy part of the
+forest.  The railing along the sides of the bridge appears to have been spaced
+to move carts or crates from one side to the other, making it particularily
+narrow.  The bridge extends further to the west as it passes over this swampy
+portion of the jungle and ends to the east.
+~
+806 4097 3
+D1
+The jungle extends further.
+~
+~
+0 0 80603
+D3
+The bridge continues.
+~
+~
+0 0 80605
+E
+bridge railing~
+The rails along each side of the bridge have been spaced quite close together.
+Long scrapes and scars in the wood suggest that crates or even entire carts
+have been placed on top of the railings and slid across them to get over the
+bridge.  The terribly uneven flooring that has been placed here makes it easy
+to understand why someone might rather push crates or other objects along the
+smooth wooden rails.
+~
+S
+#80605
+&+yThe End of a Narrow Bridge&N~
+   The narrow bridge comes to an end at the base of a trail that appears to
+head toward a walled village of some type.  Men, or at least man-like creatures
+can be seen walking along the trail further ahead.  Clouds of insects swarm
+about, sometimes biting, others just creating a nuisance.  The moist, swampy
+portion of the jungle that the brige passes over has added a great deal of
+humidity to an already uncomfortable place.
+~
+806 4097 3
+D1
+The bridge continues.
+~
+~
+0 0 80604
+D3
+The bridge continues.
+~
+~
+0 0 80606
+S
+#80606
+&+gThe Path Widens&N~
+   Clouds of insects hang in the humid air, their faint hum a distraction from
+all the other sounds of the jungle.  The vague outline of a wall can be made
+out further to the west.  Odd, human-like forms can be seen walking the pathway
+between here and the wall.  A small yellow orchid once hung down from a tree
+to the northwest but someone has striped it off the tree and tossed it to the
+ground.  The remaining vines and tendrils of the orchid have been left behind
+to die a slow death.  The path continues toward a village of some sort to the
+west and passes over a narrow bridge to the east.
+~
+806 4097 3
+D1
+The path continues.
+~
+~
+0 0 80605
+D3
+The path continues.
+~
+~
+0 0 80607
+S
+#80607
+&+gA Wide Trail&N~
+   Trees and brush have been cleared away to create a wider path as it heads
+toward the village wall to the west.  Thick growth on either side of the trail
+is parted by small openings that are only large enough for small animals or
+snakes to pass through.  A number of human, or at least human-looking,
+creatures can be seen on the trail as well as near the village gates to the
+west.  Muddy ground makes travel a bit slow here, but the moisture in the
+ground and air prevents it from drying.  Clouds of insects hum annoyingly
+through the air, drowning out the faint echoes of other sounds in the jungle.
+~
+806 4097 3
+D1
+The trail continues.
+~
+~
+0 0 80606
+D3
+The trail continues.
+~
+~
+0 0 80608
+S
+#80608
+&+yBefore the Village Gates&N~
+   The sturdy gates stand open here, though they can easily be closed by the
+guards on either side.  It is clear now that this is indeed a village of
+yuan-ti, creatures that are part-snake and part-man.  The fence and gates to
+the north are sturdy, but not on the basis of solid construction.  To make up
+for their lack of skill the yuan-ti have simply made everything extremely
+large and heavy.  The jungle surrounding the village provides more protection
+than these gates or the wall ever could, it is impassable in almost every
+direction.  A muddy trail heads off to the east and the village gates stand
+open to the north.
+~
+806 4097 1
+D0
+A small village lies beyond the gates.
+~
+~
+0 0 80609
+D1
+The trail continues.
+~
+~
+0 0 80607
+E
+wall~
+The wall has been made from thick, rough hewn timbers.  It appears to extend
+about 30-40 feet to both sides of the gates to the village.  Beyond that
+point the fence must either end or turn toward the the north out of sight.
+~
+E
+gate gates~
+The gates have been constructed from heavy, rough hewn timber.  If closed they
+would be able to withstand considerable damage, but it seems that they have
+been opened for a very long time.
+~
+S
+#80609
+&+yInside the Gates to a &+gYu&+yan-&+gti&+y Village&N~
+   Everything about this village speaks of relative poverty.  The slums of
+major cities are better off than this village appears to be.  It may be that
+the yuan-ti are poor, or that they simply do not care about their village and
+make no effort to keep it in decent shape.  Muddy trails wind through decrepit
+huts, and yuan-ti of all shapes and sizes can be seen walking through the
+village.  A muddy trail continues northward toward the center of the village
+and paths travel along the village wall to the east and west.
+~
+806 1 1
+D0
+The trail continues.
+~
+~
+0 0 80610
+D1
+The trail continues.
+~
+~
+0 0 80623
+D2
+The trail continues.
+~
+~
+0 0 80608
+D3
+The trail continues.
+~
+~
+0 0 80646
+S
+#80610
+&+yA Village Path&N~
+   Most areas of the village are still laden with squat trees that are
+surrounded by small bushes and thick vines.  Those spots that have been cleared
+are muddy and laden with refuse.  The garbage adds an unpleasant taint to the
+already steamy air.  A clump of thick brush is to the east and a small,
+decrepit hut is to the west.  The trail continues through the village to the
+north and the gates entering the village can be seen further to the south.
+~
+806 1 1
+D0
+The trail continues.
+~
+~
+0 0 80612
+D2
+The trail continues.
+~
+~
+0 0 80609
+D3
+You see a collapsing hut.
+~
+~
+0 0 80611
+S
+#80611
+&+LA Collapsing Hut&N~
+   The sagging roof of this dismal building appears ready to fall in at any
+time.  It is amazing that the building itself has stood so long.  The walls are
+uneven and stand at an angle, and the wood that has been used in their
+construction is already beginning to rot.  There are no decorations of any sort
+inside this dark building, a few simple pallets lie against one wall and a
+there-legged table leans against the northern wall.  The only exit from the
+windowless building is to the east.
+~
+806 9 0
+D1
+You see a muddy trail.
+~
+~
+0 0 80610
+S
+#80612
+&+yNear Some &+LSmoking&+y Ruins&N~
+   The trail passes near the smoldering ruins of a burned out hut as it heads
+north toward the center of the village and heads south toward the village
+gates.  Clumps of mud and dirt have been thrown up against the side of the
+smoldering building to prevent the fire that once consumed it from spreading.
+The smoldering ruins are to the east and an abandoned hut is to the west.
+The trail continues to the north and south.
+~
+806 1 1
+D0
+The trail continues.
+~
+~
+0 0 80615
+D1
+You see some smoking ruins.
+~
+~
+0 0 80613
+D2
+The trail continues.
+~
+~
+0 0 80610
+D3
+You see an abandoned hut.
+~
+~
+0 0 80614
+S
+#80613
+&+yThe&+L Smoldering&+y Ruins of a Hut&N~
+   A blackened corpse has been staked out in the center of what was once a
+small hut.  Fire has consumed everything here, burning the thatch roof and
+most of the walls away.  Any furniture or other valuable items, if there were
+any were clearly removed before the fire was started.  The corpse in the center
+of the room was clearly staked out there, and it appears the fire was started
+in the center of the person's belly and then spread to the rest of the building
+which burned down around it.
+~
+806 1 1
+D3
+You see a muddy trail.
+~
+~
+0 0 80612
+S
+#80614
+&+yAn Abandoned Hut&N~
+   Dust and dried mud have been caked on almost every surface in the building.
+Gaps can be seen in the thatched roof as well, suggesting that this hut has
+been neither maintained nor lived in for a very long time.  A rotting portion
+of the floor has broken away leaving a muddy hole in the northwest corner of
+the hut.  Nothing of value has been left here, though it seems that few
+yuan-ti have anything of value anyway.
+~
+806 9 0
+D1
+You see a muddy trail.
+~
+~
+0 0 80612
+S
+#80615
+&+yThe Village Square&N~
+   The village square, though not truely the center of the yuan-ti village,
+gives a good view of much of the village.  This view makes it quite clear that
+most of the yuan-ti are poor and that a few, probably those with the most
+power, are quite wealthy.  Poor, run-down huts and ramshackle buildings can be
+seen to the north, south, and east whereas stout buildings and homes can be
+seen to the west.  The difference between the well-made buildings and the poor
+huts is quite profound.  Muddy trails wind through the village to the north,
+east and south and a rock-lined path heads to the west.
+~
+806 1 1
+D0
+The trail continues.
+~
+~
+0 0 80649
+D1
+The trail continues.
+~
+~
+0 0 80616
+D2
+The trail continues.
+~
+~
+0 0 80612
+D3
+The trail continues.
+~
+~
+0 0 80655
+S
+#80616
+&+yA Muddy Village Path&N~
+   The smoldering remains of a wall can be seen to the south, it is clear that
+a building there was burned down recently.  A doorway to the north enters a
+small hut made from sturdy, rough-hewn logs.  Several more small huts can be
+seen further to the east and the village square can be seen to the west.  The
+path here twists slightly north as it continues to the east, mostly to pass
+around a large mud-caked boulder.
+~
+806 1 1
+D0
+You see a small hut.
+~
+~
+0 0 80617
+D3
+The trail continues.
+~
+~
+0 0 80615
+D8
+The trail continues.
+~
+~
+0 0 80618
+S
+#80617
+&+WA Painted Hut&N~
+   White paint has been used on every wall, in fact almost every surface, in
+the hut.  The table against the northern wall has been painted white, the two
+chairs beside it have been painted white, it appears that attempts have been
+made to paint even the floor and ceiling white.  The fact that is painted at
+all makes it quite different from most yuan-ti dwellings, the color scheme and
+lack of serpentine designs is even more strange.  A open doorway, also painted
+white, leads back to a muddy path to the south.
+~
+806 9 0
+D2
+You see a muddy path.
+~
+~
+0 0 80616
+S
+#80618
+&+yA Winding, Muddy Path&N~
+   Moisture seem to ooze out of the ground with every step.  This jungle is
+only inches from being called a swamp, and in some areas it is truely difficult
+to tell the difference.  The path bends southwest and east here as it passes
+around an immence boulder to the south, a boulder that has been covered with
+muddy handprints for some obscure reason.  A small hut barely keeps itself from
+collapsing to the north and the path continues to the east and southwest.
+~
+806 1 1
+D0
+You see a decrepit hut.
+~
+~
+0 0 80619
+D1
+The trail continues.
+~
+~
+0 0 80620
+D7
+The trail continues.
+~
+~
+0 0 80616
+S
+#80619
+&+yA Collapsing Hut&N~
+   Both the walls and the ceiling sag from the moisture and lack of care they
+have received.  Anyone can tell at a glance that the walls never stood straight
+to begin with, and the light wood they have been made with simply absorbs to
+much water to be any good for construction in such a wet environment.  A broken
+chair has been tossed into the corner and abandoned there and several sleeping
+pallets lie in the center of the room.  A mis-shapen doorway to the south leads
+out to a muddy path.
+~
+806 9 0
+D2
+You see a muddy trail.
+~
+~
+0 0 80618
+S
+#80620
+&+yA Muddy Path&N~
+   A strange garden of some sort lies to the north and an exceedingly tiny hut
+is to the south.  The tiny hut has a doorway that is barely chest height for
+an elf or human, and much smaller than what any of the yuan-ti might require.
+The building is quite well-constructed though, clearly sturdier than most of
+the other buildings in the village.  It has a solid wood roof and the walls
+have all been made from treated timber.  The moisture of the ground and air has
+been unable to damage the wood in any way.
+~
+806 1 1
+D0
+You see a small garden.
+~
+~
+0 0 80621
+D1
+The path continues.
+~
+~
+0 0 80628
+D2
+You see a small hut.
+~
+~
+0 0 80622
+D3
+The path continues.
+~
+~
+0 0 80618
+S
+#80621
+&+gA Strange Garden&N~
+   Plants of various sizes and shapes grow in neat rows, carefully tended by
+someone.  The plants don't appear to be bearing any fruits or vegetables,
+instead most appear to be rare herbs of some sort.  A few thin vines along the
+eastern wall enclosing the garden seem to exude some sort of caustic sap.  The
+boards and plants near the vines have been burned away but their power.  A
+muddy path is to the south but the rest of the garden has been fenced off to
+keep people from wandering through it.
+~
+806 1 1
+D2
+You see a muddy path.
+~
+~
+0 0 80620
+S
+#80622
+&+WA Tiny Home&N~
+   Everything in this well-kept home is almost halfling or gnome-like in size.
+The owner must be quite a bit smaller than his neighbors, as well as much more
+tidy.  Sturdy timbers support a wood ceiling that has been extremely well put
+together.  A wooden floor adds another nice touch that separates this home from
+most of the others in the village.  A small desk and table occupy the single
+room house, as well as a small sleeping pallet.  Oddly enough, there are no
+chairs for anyone to sit on.  An open doorway leads out to a muddy path to the
+north.
+~
+806 9 0
+D0
+You see a muddy path.
+~
+~
+0 0 80620
+S
+#80623
+&+yA Muddy Path Around the Village&N~
+   Swampy and sticky, the muddy path is more of a boundary marker than route to
+or from any place specific.  Thick, rough-hewn logs have been laid against the
+trees to the south to create a fence of sorts.  The fence would seem to be a
+bit excessive, the swampy jungle is a far more powerful deterrent to attack
+than the poorly made wall could ever be.  The trail winds to the northeast and
+heads west to the village gates.
+~
+806 1 1
+D3
+The path continues.
+~
+~
+0 0 80609
+D8
+The path continues.
+~
+~
+0 0 80624
+S
+#80624
+&+yA Muddy Path Around the Village&N~
+   This muddy trail encircles the village alongside a poorly made outer wall.
+The village wall is nothing more than rough-hewn timbers that have been stacked
+up against the swamp plants to the south and east.  There is little need for
+the wall in the first place, few would be so foolish as to try to approach a
+village through the disease infested swamp in the first place.  A decrepit hut
+is to the north and the muddy path continues to the northeast and southwest.
+~
+806 1 1
+D0
+You see a small hut.
+~
+~
+0 0 80625
+D7
+The path continues.
+~
+~
+0 0 80623
+D8
+The path continues.
+~
+~
+0 0 80626
+S
+#80625
+&+LA Dark, Decrepit Hut&N~
+   Several bunks line the eastern wall, bunks that appear to be used regularly
+but never cleaned.  The acrid odor of fresh urine hangs in the air, adding to
+the filthy smells that are already here.  This appears to be where off-duty
+guards rest and take breaks.  Pegs near the doorway have been designed to hold
+a variety of weapons, but remain mostly unused.  Few of the yuan-ti guardsmen
+even own weapons, those that do received them as gifts from the true-bloods.
+~
+806 9 0
+D2
+You see a muddy path.
+~
+~
+0 0 80624
+S
+#80626
+&+gA Large Clump of Trees&N~
+   The muddy trail that surrounds the village passes through a large clump of
+trees here.  The low spot causes water to pool here and provides a fertile spot
+for the thick swamp plants that prefer to have a constant source of water like
+this.  The wooden wall has become nothing more than two rough-hewn timbers
+affixed to trees and branches at both waist height and shoulder height.  The
+path continues to the east and winds to the southwest.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80627
+D7
+The path continues.
+~
+~
+0 0 80624
+S
+#80627
+&+yA Sharp Bend in the Path&N~
+   The path, and the few timbers that have been set along it, bends sharply to
+the north here.  Though guards do patrol the path, they are lazy and uncaring.
+Fresh blood has formed a small pool near the southeastern edge of the fence.
+Close inspection reveals that the fence itself has been breached there, a small
+opening has been made between two trees.  Markings in the mud here indicate
+that someone, or something, has recently been dragged through the small opening
+into the swamp.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80628
+D2
+~
+~
+0 0 80672
+D3
+The path continues.
+~
+~
+0 0 80626
+D9
+A nearly invisible trail heads down into the swamp.
+~
+~
+0 0 80672
+S
+#80628
+&+yA T-Intersection&N~
+   Two muddy trails meet here.  One is a path that surrounds the village, the
+other is a path that cuts straight through it to the west.  Several rough-hewn
+timbers have been spiked to trees to the east to create a wall.  The wall is
+next to worthless, the swamp animals can easily pass through the gaping holes
+within it, and anyone that would plan to attack the village would certainly
+avoid having to travel through the swampy jungle that lies to the east.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80629
+D2
+The path continues.
+~
+~
+0 0 80627
+D3
+The path continues.
+~
+~
+0 0 80620
+S
+#80629
+&+yThe Path Curves&N~
+   The path curves to the northwest and south beside a small building to the
+west.  The wall has been built up a bit more here, though exactly why is hard
+to say.  A solidly built building stands to the west, though made of rough-hewn
+timbers like the wall around the village, the timbers have been carefully
+joined together to create a sturdy building.
+~
+806 1 1
+D2
+The path continues.
+~
+~
+0 0 80628
+D3
+You see a sturdy building.
+~
+~
+0 0 80630
+D6
+The path continues.
+~
+~
+0 0 80631
+S
+#80630
+&+yA Sturdy Building&N~
+   Though it isn't pretty, this building is strong enough to last a number of
+years and is far better constructed than most things in the yuan-ti village.  A
+solidly built bed lies in the southwest corner and a large, heavy chest lies on
+the ground beside it.  This home, and its trappings, show more wealth than most
+yuan-ti posess, yet it is on the poorest side of town showing that whoever
+lives here must be at the bottom of the social ladder.
+~
+806 9 0
+D1
+You see a muddy path.
+~
+~
+0 0 80629
+S
+#80631
+&+yA Muddy Path Around the Village&N~
+   The path is plain and barren here, few other than the guards actually walk
+past this point.  An odd silence has fallen over the area, not even insects can
+be heard buzzing around.  The path continues to the southeast and northwest.
+~
+806 1 1
+D6
+The path continues.
+~
+~
+0 0 80632
+D9
+The path continues.
+~
+~
+0 0 80629
+S
+#80632
+&+yA Muddy Path Around the Village&N~
+   Everything seems more desolate here.  Both the village and the surrounding
+swamp are quiet, the sort of quiet that precedes a cresendo of violence and
+bloodshed.  It is as if everything in the area has collectively held its breath
+in anticipation of something grave happening.  The path continues to the
+southeast and to the west, and a small building lies to the south.
+~
+806 1 1
+D2
+You see a small hut.
+~
+~
+0 0 80633
+D3
+The path continues.
+~
+~
+0 0 80634
+D9
+The path continues.
+~
+~
+0 0 80631
+S
+#80633
+&+gA Green Hut&N~
+   Small plants have been grown in a variety of pots that have been left near
+the windows that dot the walls.  Wherever possible, green paint or cloth has
+been used to decorate the home.  Whoever lives here must love the color, or
+love plants, perhaps even both.  Green blankets lie on a small sleeping pallet
+in the corner and a ragged green table cloth covers a small table in the center
+of the room.
+~
+806 9 0
+D0
+You see a muddy path.
+~
+~
+0 0 80632
+S
+#80634
+&+yA Muddy Path Around the Village&N~
+   Periodically a loud scream pierces the humid air, then everything falls back
+to silence.  This border of the village is desolate, few yuan-ti wander here,
+and those that do are usually guards.  The swamp beyond the wall to the north
+is dense and wet, gaps in the rough-hewn logs show that the swamp drops off at
+least 4-5 feet into murky, muddy water just beyond the village border.  The
+path continues east and west around the village.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80632
+D3
+The path continues.
+~
+~
+0 0 80635
+S
+#80635
+&+yA T-Intersection&N~
+   A relatively wide pathway cuts southward through the village and a path
+around the village heads to the east and west.  A wall of rough-hewn logs is to
+the north, but it seems to be more for show than for protection.  Various yuan-
+ti, even a few true-bloods, can be seen in the village to the south, but few
+yuan-ti travel the pathway along the northern side of the village here.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80634
+D2
+The path continues.
+~
+~
+0 0 80647
+D3
+The path continues.
+~
+~
+0 0 80636
+S
+#80636
+&+yA Muddy Path&N~
+   The muddy path begins to rise a bit higher and get a bit drier as it winds
+to the northwest.  It is odd how large a difference a few inches can make in
+the swampy jungle.  A few inches can mean the difference between wet feet and
+dry, and make a huge difference in what sort of buildings can be constructed.
+The muddy path dries a bit as it rises upward to the northwest and continues
+its moist passage to the east.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80635
+D6
+The path continues.
+~
+~
+0 0 80637
+S
+#80637
+&+yA Dirt Path&N~
+   This path has gotten just high enough above the swamp to become a bit drier.
+Though the dirt is still moist, it doesn't cling like the mud from the paths
+throughout most of the village.  A fence made of rough-hewn logs lies to the
+north and the path continues to the west and southeast.
+~
+806 1 1
+D3
+The path continues.
+~
+~
+0 0 80638
+D9
+The path continues.
+~
+~
+0 0 80636
+S
+#80638
+&+yAn Intersection With a &+LStone Path&N~
+   A stone walkway heads off toward the south, passing along the larger homes
+of the more important and wealthy yuan-ti.  Serpentine forms of several true-
+blood yuan-ti can be seen along the path to the south, and there seem to be
+more guards in this area of the town.  The wall to the north shows much more
+careful construction than at any other spot surrounding the village.  Oddly
+enough there are a number of serpentine trails and footprints that seem to
+disappear right into the wall.  The dirt path continues around the village to
+the east and west and a path paved with stones heads south.
+~
+806 1 1
+D0
+~
+wall fence secret~
+5 0 80671
+D1
+The path continues.
+~
+~
+0 0 80637
+D2
+The stone path continues.
+~
+~
+0 0 80669
+D3
+The path continues.
+~
+~
+0 0 80639
+S
+#80639
+&+yThe Northwestern Corner&N~
+   The western portion of the village is a bit higher and drier than the rest,
+a likely reason all the wealthy yuan-ti seem to live here.  The path here is
+just dry enough to be called dirt, a touch more moisture and it will become
+clingy mud like the rest of the village paths.  The path continues to the east
+and heads south between two walls of rough-hewn logs.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80638
+D2
+The path continues.
+~
+~
+0 0 80640
+S
+#80640
+&+yA Dirt Path Between Two Walls&N~
+   Two walls made of rough-hewn logs stand to the east and west making the path
+seem somewhat claustrophobic as it heads to the north and south.  The walls are
+poorly made however, gaps allow them to be easily seen through.  To the east
+there are several large homes, homes of the wealthy yuan-ti.  It would appear
+the eastern wall is meant to keep the lower class citizens of the village out.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80639
+D2
+The path continues.
+~
+~
+0 0 80641
+S
+#80641
+&+yA Dirt Path Between Two Walls&N~
+   Two walls made of rough-hewn logs stand to the east and west making the path
+seem somewhat claustrophobic as it heads to the north and south.  The dirt
+appears well-trampled here, the guards must pass by here more often on their
+rounds than in other parts of the village.  A glint of something flashy can be
+seen in the mud at the base of the western wall.  The path continues to the
+north and south.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80640
+D2
+The path continues.
+~
+~
+0 0 80642
+S
+#80642
+&+yA Dirt Path Between Two Walls&N~
+   Two walls made of rough-hewn logs stand to the east and west making the path
+seem somewhat claustrophobic as it heads to the north and south.  Several large
+buildings can be seen beyond the eastern fence, homes of the yuan-ti elite.
+When the path meets another just to the south, the eastern wall ends and the
+western wall seems to bend to the southeast along with the path around the
+village.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80641
+D2
+The path continues.
+~
+~
+0 0 80643
+S
+#80643
+&+yA T-Intersection&N~
+   The path around the village heads north from here as well as heading to the
+southeast.  There is a stone path that heads to the east past the large homes
+of the wealthy, elite yuan-ti.  This part of the village is higher than the
+rest, making it a bit drier, though it is still moist and humid.  A number of
+snakes writhe about to the southeast, there must be some sort of snake-den
+nearby.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80642
+D1
+The stone path continues.
+~
+~
+0 0 80660
+D9
+The path continues.
+~
+~
+0 0 80644
+S
+#80644
+&+yA Dirt Path Along the Village Wall&N~
+   The path follows the wall as it heads northwest and southeast.  To the
+southeast the path begins to dip, getting more moist and muddy as it heads
+toward the village gates.  The writhing trails of a number of small snakes can
+be seen here, there must be a small snake-den nearby, something the yuan-ti
+consider to be good luck.
+~
+806 1 1
+D6
+The path continues.
+~
+~
+0 0 80643
+D9
+The path continues.
+~
+~
+0 0 80645
+S
+#80645
+&+yA Muddy Path Along the Village Wall&N~
+   The path rises out of the swamp a bit more and is a bit drier to the
+northwest.  To the southeast it drops even further, pools of water can be seen
+in other's footprints.  The wall that is supposed to guard the village is made
+of rough-hewn logs that haven't been treated or cared for in any way.  Not only
+was the wall poorly made to begin with, but the logs have begun to rot and
+decay.
+~
+806 1 1
+D6
+The path continues.
+~
+~
+0 0 80644
+D9
+The path continues.
+~
+~
+0 0 80646
+S
+#80646
+&+yA Sharp Turn&N~
+   The turn from east to northwest seems rather abrupt.  This isn't because the
+path really makes such a steep turn though, it is because the wall is suddenly
+much closer to the path as it turns northwest.  The rough-hewn logs have been
+attached to the nearest trees strong enough to hold them, one of those trees is
+almost in the center of the path that comes in from the east making the turn
+appear much sharper than it really is.  The village gates can be seen just to
+the east.
+~
+806 1 1
+D1
+The path continues.
+~
+~
+0 0 80609
+D6
+The path continues.
+~
+~
+0 0 80645
+S
+#80647
+&+yBefore a &+rBlood-Splattered&N &+yHut&N~
+   The front entrance to the hut immediately to the east has been splattered
+with blood.  The blood has dried into an ugly black crust, but the faint,
+coppery smell of fresh blood hangs in the air as well.  The muddy path
+continues to the north where it meets the village wall and to the south where
+it eventually meets with the village square.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80635
+D1
+The entrance to the small hut is splattered with blood.
+~
+~
+0 0 80648
+D2
+The path continues.
+~
+~
+0 0 80649
+S
+#80648
+&+yA &+rBlood-Splattered&N &+yHome&N~
+   Sometime in the past day or so, something or someone was murdered or maimed
+in a particularily bloody fashion.  Bits of dried blood and flesh cling to the
+walls.  Two blood-cloaked broken chairs and a broken table lie in the center of
+the room.  The amount of blood here either came from one gigantic creature or a
+large number of smaller ones.  There are no corpses, or even trails indicating
+where they might have been dragged, but it is hard to believe that anything
+could lose this much blood and survive.
+~
+806 9 0
+D3
+You see a muddy path.
+~
+~
+0 0 80647
+S
+#80649
+&+yA Muddy Intersection&N~
+   An open doorway leads into a small home to the west and a muddy path heads
+east toward a group of three small huts.  The main path continues to the north
+and south.  All of the buildings in the area are poorly done, most look
+decrepit and ready to collapse at any time.  It is clear that the poorest yuan-
+ti are the ones that are forced to live along these muddy paths.  The village
+isn't very large, or at least doesn't seem large enough to support the many
+different footprints and tracks left here in the mud.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80647
+D1
+The path ends at a group of huts.
+~
+~
+0 0 80651
+D2
+The path continues.
+~
+~
+0 0 80615
+D3
+You see a small home.
+~
+~
+0 0 80650
+S
+#80650
+&+yA Crowded Yuan-Ti Home&N~
+   Several sets of triple bunk beds have been lined up against the northern
+wall.  They take up almost all the space in the home itself, leaving just
+enough space for a small kitchen to the south, but no space for any tables or
+chairs.  If any of the yuan-ti living here have any sort of wealth it is
+extremely well-hidden.  An open doorway leads back out to a muddy path to the
+east.
+~
+806 9 0
+D1
+You see a muddy path.
+~
+~
+0 0 80649
+S
+#80651
+&+yBefore a Group of Homes&N~
+   Several small huts have been clustered here, one each to the north, south
+and west.  The huts are small and gaps can be seen in all the walls.  Each hut
+seems to have a new, well-cared for roof however, somewhat surprising in this
+part of town.  The small huts have been packed so close together that they
+almost seem to lean on each other for support.
+~
+806 1 1
+D0
+You see a small hut.
+~
+~
+0 0 80653
+D1
+You see a small hut.
+~
+~
+0 0 80652
+D2
+You see a small hut.
+~
+~
+0 0 80654
+D3
+The path continues.
+~
+~
+0 0 80649
+S
+#80652
+&+yA Small Family Dwelling&N~
+   Though every piece of furniture here is old and looks to have been broken
+several times, it has all been repaired fairly well and is more than
+serviceable.  This is quite a suprise seeing as most yuan-ti have neither the
+skill nor the inclination to bother repairing anything that is broken.  Most
+would simply move to sleeping pallets if a bed was broken, or stop using chairs
+if they all became broken.
+~
+806 9 0
+D3
+You see a muddy path.
+~
+~
+0 0 80651
+S
+#80653
+&+yA Pentagon-Shaped Hut&N~
+   The back end of the hut has been expanding in a near-triangle shape giving
+the inside of the hut a pentagon-like space.  The triangular, northern portion
+of the home has a three sets of triple bunkbeds as well as several rolled-up
+sleeping pallets.  Four small chairs and a table stand in the southeastern
+corner and a small iron stove is to the southwest.  The hut seems quite clean
+and well-kept, for a yuan-ti home.
+~
+806 9 0
+D2
+You see a muddy path.
+~
+~
+0 0 80651
+S
+#80654
+&+yA &+gMusty&+y Hut&N~
+   This home smells both musty and moldy, but the source of the aroma can't be
+seen anywhere.  It is clearly the home of a very poor yuan-ti family but it has
+been kept extremely clean and tidy.  Though the ground and some of the walls
+are a bit moist, they are no more moist than any other hut in the area.  There
+must be something moldy hidden away someplace putting off the awful musty
+smell.
+~
+806 9 0
+D0
+You see a muddy path.
+~
+~
+0 0 80651
+S
+#80655
+&+LA Stone Path&N~
+   This path is a bit narrow, and its edges are certainly not even, but it is
+paved with large flagstones that make it much more comfortable to travel on.
+The village square lies to the east and the stone pathway continues to the
+west.  A large, sturdy wooden house is to the north.  It is much larger than
+most of the huts that are in the eastern portion of the village, and is built
+with far better materials.  Most of the buildings to the north and west of here
+are homes of the elite yuan-ti of the village.
+~
+806 1 1
+D0
+You see a well-built building.
+~
+~
+0 0 80656
+D1
+You see the village square.
+~
+~
+0 0 80615
+D3
+The path continues.
+~
+~
+0 0 80658
+S
+#80656
+&+WA Large Supply Store&N~
+   A door in the back of the room leads into the living quarters of the yuan-ti
+family that must own this shop.  Though the shop looks fairly well-kept, it
+sells only the simplest of items for travelling.  Prices are much what one
+would expect for the only supply store in the middle of a swamp, higher than
+any reasonable person would pay.  The owner seems to buy goods at fair prices
+though, it is probably hard to find products to sell in the swamp as well.  One
+would guess there are few non-yuan-ti customers because guards and citizens
+rarely allow interlopers to get this deep into the village.
+~
+806 9 0
+D0
+You see a wooden door.
+~
+door~
+1 0 80657
+D2
+You see a stone path.
+~
+~
+0 0 80655
+S
+#80657
+&+WSome Tidy Living Quarters&N~
+   This room is well-furnished and quite tidy, though a bit small.  There is a
+single bed against the northern wall and a tiny stove in the southeast corner.
+A single wooden chair stands next to a small table in the center of the room,
+and a rocking chair has been placed near a window in the eastern wall.  A
+wooden door leads back south to the shop that is located in the front of the
+building.
+~
+806 9 0
+D2
+You see a wooden door.
+~
+door~
+1 0 80656
+S
+#80658
+&+LA Meeting of Stone Paths&N~
+   A stone pathway coming in from the north forms a T-intersection with a
+second path that heads to the east and west.  A squat building built from
+bricks made of dried mud stands to the south.  The dried bricks have been
+painted a pale yellow color that stands out among the bland buildings in most
+of the village.  The yuan-ti that can be seen in this part of the village are
+larger and have more serpentine features than those in the poorer part of the
+village.  The more serpentine one is, the more respect and wealth one can
+achieve in yuan-ti culture.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80663
+D1
+The path continues.
+~
+~
+0 0 80655
+D2
+You see a squat building built from bricks of dried mud.
+~
+~
+0 0 80659
+D3
+The path continues.
+~
+~
+0 0 80660
+S
+#80659
+&+YA Mud-Brick Building&N~
+   The yuan-ti that built this building was clearly quite a bit brighter than
+most of his fellow villagers.  The clay bricks insulate the home extremely
+well, keeping it much cooler than most homes throughout the village.  The
+yellow paint on the outside of the building also seems to help reflect some of
+the heat away from the building.  Several pieces of furniture along the wall
+appear to be made of mud bricks as well.  The sofas and chairs appear to be
+more a part of the wall and floor than anything else, but soft yellow cushions
+pad them extremely well.  An open doorway leads back to a stone pathway to the
+north.
+~
+806 9 0
+D0
+You see a stone pathway.
+~
+~
+0 0 80658
+S
+#80660
+&+LA Stone Path&N~
+   There is a clear distinction between the rich and poor yuan-ti in the
+village.  The larger, more well-built buildings are in the higher, drier part
+of the village and are connected by stone-paved paths.  Several coats of paint
+on the two-story frame house to the north and it could almost be from a human
+town.  The stone path continues to the east and meets the village wall to the
+west.
+~
+806 1 1
+D0
+You see a two-story frame house.
+~
+~
+0 0 80661
+D1
+The path continues.
+~
+~
+0 0 80658
+D3
+The path continues.
+~
+~
+0 0 80643
+S
+#80661
+&+WA Large Living Room&N~
+   Thin white linen curtains hang limp in the windows to the east and west,
+dragged down by the humid air and lack of a breeze.  Several old sofas and
+chairs form a circle facing into the center of the room where there is a large
+round coffee table.  All the chairs and sofas have been covered with linen
+sheets, sheets which have a dirty, musty air to them, yet somehow look cleaner
+than most things in the village.  A narrow stairway in the northwestern corner
+of the room leads up to a second floor.
+~
+806 9 0
+D2
+You see a stone path.
+~
+~
+0 0 80660
+D4
+Some stairs lead upward.
+~
+~
+0 0 80662
+S
+#80662
+&+WA Spacious Bedroom&N~
+   A large ebonwood bed stands in the center of the room.  The four posts of
+the bed rise up to support a framework for a canopy, but there is no canopy to
+cover it.  Several limp curtains hang by the two windows to the north and
+south, and a small table with a lamp sits alone in the southeastern corner of
+the room.  A small stairway in the northwestern corner leads down to the first
+floor of the home.
+~
+806 9 0
+D5
+The stairway leads downward.
+~
+~
+0 0 80661
+S
+#80663
+&+LA Stone Path&N~
+   The stone path narrows briefly as it cuts to the northwest between two large
+buildings.  An open entryway to the north leads into a long building that
+stretches to the east.  The northern building looks almost large enough to
+house the entire village if it was needed to.  A two-story building stands to
+the west, but its entrance must be on another side of the home.  The stone path
+continues to the northwest and to the south.
+~
+806 1 1
+D0
+An open entryway leads into a large building.
+~
+~
+0 0 80664
+D2
+The path continues.
+~
+~
+0 0 80658
+D6
+The path continues.
+~
+~
+0 0 80666
+S
+#80664
+&+YA Large Meeting Hall&N~
+   Chairs of all sorts stand about facing in every direction.  A small dais and
+podium are in the northwestern corner of the room, but they, as well as the
+chairs, appear to be largely unused.  The massive room has a hollow, empty
+feeling to it.  Decisions may once have been made here by the entire village as
+a whole, but that time is over and this room is mostly unused.  A path of sorts
+has been created by pushing chairs to the side to allow entry to another room
+to the east and an open doorway leads to a stone pathway to the south.
+~
+806 13 0
+D1
+The jungle continues.
+~
+~
+0 0 80665
+D2
+You see a stone path.
+~
+~
+0 0 80663
+S
+#80665
+&+gThe Mayor's Quarters&N~
+   This massive room acts as both the living quarters and meeting place for the
+mayor of this small village.  The mayor is not elected, at least not now,
+instead he is appointed directly by the living god of the yuan-ti.  A number of
+hunting trophies and treasures dot the walls.  Not even the wealthiest of the
+true-blood yuan-ti can match the wealth that is in this room, though it is
+certain that a number would like to try.
+~
+806 8388617 0
+D3
+You see a room full of chairs.
+~
+~
+0 0 80664
+S
+#80666
+&+LA Stone Path&N~
+   Winding its way through the wealthiest homes in the village, this path acts
+more as a vain attempt at civilization than a truely organized walkway.  Though
+it is paved with large stones, the different colored stones are rough and of a
+variety of sizes.  Gaps in the path show that it is poorly kept, and its widely
+varying sizes at different points shows that no real planning went into its
+design or building.  The stone path continues to the north and veers to the
+southeast between two large buildings.  A two-story frame house stands to the
+south.
+~
+806 1 1
+D0
+The path continues.
+~
+~
+0 0 80669
+D2
+A finely made door blocks the way.
+~
+~
+0 0 80667
+D9
+The path continues.
+~
+~
+0 0 80663
+S
+#80667
+&+yA Solidly Built Home&N~
+   It may not be the largest building in the village, but this home is
+certainly the sturdiest and most well-built.  Heavy timbers have been sunk deep
+into the ground providing support along the walls and even in the center of the
+room.  A raised wooden floor adds another touch not seen in many other homes
+here.  The wood used here is treated timber, not the rough logs, or sawed
+timbers used elsewhere in the village.  There is no furniture in this room
+however, visitors and the owner must simply sit or lie on the floor.  A curving
+stairway to the south leads up to the second floor.
+~
+806 9 0
+D0
+A door leads out.
+~
+~
+0 0 80666
+D4
+A stairway leads up.
+~
+~
+0 0 80668
+S
+#80668
+&+yA Plain Wooden Bedroom&N~
+   A bed of sorts stands in the middle of the room, but there is no other
+furniture.  The bed itself is quite odd, it has the posts, headboard, and
+footboard that one would expect, but there is no mattress.  A large, wide
+wooden board acts as a mattress, or has at least been placed in that spot.
+There are no pillows or other adornments for the bed.  A chest of heavy timber
+stands against the western wall and a stairway spirals down from the southern
+part of the room.
+~
+806 9 0
+D5
+The stairway heads down.
+~
+~
+0 0 80667
+S
+#80669
+&+LA Stone Path&N~
+   The path ends to the north at a dirt path that surrounds the village, and
+the stones that pave it end there as well.  The path does head further south
+however, where it winds past several of the larger homes of the wealthy yuan-
+ti.  An open doorway leads into a small house built of heavy, rough-hewn logs
+to the east.
+~
+806 1 1
+D0
+The path meets an intersection.
+~
+~
+0 0 80638
+D1
+An open doorway leads into a log home.
+~
+~
+0 0 80670
+D2
+The path continues.
+~
+~
+0 0 80666
+S
+#80670
+&+yA Log House&N~
+   The heavy logs used to build this strong structure would take at least three
+men to lift.  Gaps in the walls show that the construction wasn't as careful
+and cautious as it should be.  Bits of clay used to plug the cracks has dried
+just enough to shrink and fall away.  The floor is also of rough logs that have
+been sliced in half and set down with the flat surface up.  There is no
+furniture here at all, the only decorations are two large silk tapestries that
+hang on the northern and southern wall.  An open doorway leads back out to a
+stone path to the west.
+~
+806 9 0
+D3
+The path continues.
+~
+~
+0 0 80669
+S
+#80671
+&+gBefore a Jungle Path&N~
+   A thick, but well-traveled, path leads off into the swampy jungle to the
+north.  A cleverly disguised door in the wooden fence to the south leads back
+into the yuan-ti village.  Whatever lies to the north must be quite important
+to the yuan-ti because this secret exit from the village is particularily well-
+guarded.  There is a strange silence here, none of the normal animal sounds
+echo through the dank, humid air.  It is as if the entire jungle has been held
+quiet by fear and awe.
+~
+806 4097 3
+D0
+~
+~
+0 0 80554
+D2
+~
+wall fence secret~
+1 0 80638
+S
+#80672
+&+gA Thin Trail&N~
+   Thick bushes and trees grow here in this part of the swamp, closing in on
+this narrow trail in an effort to completely close it off.  The thin layer of
+water and mud here has been stirred quite recently, it would appear that
+someone has been dragging something along the path for some reason.  The trail
+winds its way east and a narrow opening in the fence to the north allows easy
+access to the yuan-ti village.
+~
+806 1 3
+D1
+~
+~
+0 0 80673
+D6
+~
+~
+0 0 80627
+S
+#80673
+&+gA Swampy Trail&N~
+   The increasing amount of water has cut down the number of plants that can
+grow here and made travel a little bit easier.  Travel is slow and muddy now
+though, and there is no telling what sort of diesease ridden leaches and snakes
+may be hidden beneath the waist-high water.  A trail of some sort continues to
+the east and west while swamp bushes and trees attempt to close off the path
+from the north and south.
+~
+806 1 26
+D1
+~
+~
+0 0 80674
+D3
+~
+~
+0 0 80672
+S
+#80674
+&+gA Swampy Trail&N~
+   The water is particularily deep here, almost as if some of the mud beneath
+it were dredged out to make the mound that one can see to the northeast.  There
+is an odd quietness here, none of the usual animal sounds can be heard.  Only
+the faint sounds of water lapping up against the trees and brush of the swamp
+make their way through the wet air.  The trail seems to rise out of the jungle
+toward the north and continues through muddy water to the west.
+~
+806 1 26
+D0
+~
+~
+0 0 80675
+D3
+~
+~
+0 0 80673
+S
+#80675
+&+gBefore a Small Mound&N~
+   A small mound rises above the level of the swamp to the east.  Tracks in the
+mud there indicate that someone or something must definitely live there.
+Insects buzz around the area in large clouds, making the only sounds that can
+be heard anywhere.  It is hard to say whether the thick vegetation is soaking
+up all the sound here, or if there are simply no creatures to make any sounds.
+A watery trail leads off through the swamp to the south.
+~
+806 1 26
+D1
+~
+~
+0 0 80676
+D2
+~
+~
+0 0 80674
+S
+#80676
+&+rA Bloody Campsite&N~
+   Blood, both fresh and dried, has been splashed about the entire area causing
+an awful stench.  The mound is just high enough above the surrounding swamp to
+be somewhat dry.  Carrion flies, drawn by the scent of blood, swoop around
+looking for corpses to lay their eggs in.  It appears that someone has been
+living here for quite sometime, but without the aid of a fire or any other
+civilized amenities.
+~
+806 1 3
+D3
+~
+~
+0 0 80675
+S
+#80677
+SNAKEBITE LOAD ROOM~
+   If you are here report to a god.
+~
+806 134250576 0
+D1
+~
+~
+0 0 80678
+D3
+~
+~
+0 0 80678
+D5
+~
+~
+0 0 80665
+S
+#80678
+SNAKBBITE DID NOT LOAD~
+   If you are here tell a god.
+~
+806 134250560 0
+S

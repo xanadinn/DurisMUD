@@ -1,0 +1,259 @@
+#326
+&+YThe Fortress of Dreams&n~
+32710 1 8 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 32660 0 2 100 0 0 0
+*     north exit from "A Stairway Carved from Obsidian" to
+*     "The Fortress of Dreams" - closed/locked
+*
+D 0 32661 2 2 100 0 0 0
+*     south exit from "The Fortress of Dreams" to
+*     "A Stairway Carved from Obsidian" - closed/locked
+*
+D 0 32664 2 1 100 0 0 0
+*     south exit from "A Room of Spectral Mirrors" to
+*     "A Small, Ghostly Stairway" - closed
+*
+D 0 32665 0 1 100 0 0 0
+*     north exit from "A Small, Ghostly Stairway" to
+*     "A Room of Spectral Mirrors" - closed
+*
+D 0 32669 5 2 100 0 0 0
+*     down exit from "A Wide Landing On Top of the Fortress" to
+*     "A Richly Decorated Chamber" - closed/locked
+*
+D 0 32670 4 2 100 0 0 0
+*     up exit from "A Richly Decorated Chamber" to
+*     "A Wide Landing On Top of the Fortress" - closed/locked
+*
+D 0 32670 2 2 100 0 0 0
+*     south exit from "A Richly Decorated Chamber" to
+*     "A Short Hallway" - closed/locked
+*
+D 0 32671 0 2 100 0 0 0
+*     north exit from "A Short Hallway" to
+*     "A Richly Decorated Chamber" - closed/locked
+*
+D 0 32671 2 1 100 0 0 0
+*     south exit from "A Short Hallway" to
+*     "A Circular Pit" - closed
+*
+D 0 32672 0 1 100 0 0 0
+*     north exit from "A Circular Pit" to
+*     "A Short Hallway" - closed
+*
+D 0 32675 1 2 100 0 0 0
+*     east exit from "A Circular Room Filled with Stagnant Water" to
+*     "A Warm, Damp Hallway" - closed/locked
+*
+D 0 32676 3 2 100 0 0 0
+*     west exit from "A Warm, Damp Hallway" to
+*     "A Circular Room Filled with Stagnant Water" - closed/locked
+*
+D 0 32692 0 2 100 0 0 0
+*     north exit from "Before a Gigantic Ethereal Tree" to
+*     "Inside an Ancient Tree" - closed/locked
+*
+D 0 32693 2 2 100 0 0 0
+*     south exit from "Inside an Ancient Tree" to
+*     "Before a Gigantic Ethereal Tree" - closed/locked
+*
+D 0 32697 5 1 100 0 0 0
+*     down exit from "On the Fortress Battlements" to
+*     "A Stone Crossroad in the Fortress" - closed
+*
+D 0 32698 4 1 100 0 0 0
+*     up exit from "A Stone Crossroad in the Fortress" to
+*     "On the Fortress Battlements" - closed
+*
+D 0 32699 0 1 100 0 0 0
+*     north exit from "A Stone Passageway" to
+*     "A Ghostly Cathedral" - closed
+*
+D 0 32703 2 1 100 0 0 0
+*     south exit from "A Ghostly Cathedral" to
+*     "A Stone Passageway" - closed
+*
+D 0 32700 1 1 100 0 0 0
+*     east exit from "A Stone Passageway" to
+*     "A Ghostly Cathedral" - closed
+*
+D 0 32703 3 1 100 0 0 0
+*     west exit from "A Ghostly Cathedral" to
+*     "A Stone Passageway" - closed
+*
+D 0 32701 2 1 100 0 0 0
+*     south exit from "A Stone Passageway" to
+*     "A Ghostly Cathedral" - closed
+*
+D 0 32703 0 1 100 0 0 0
+*     north exit from "A Ghostly Cathedral" to
+*     "A Stone Passageway" - closed
+*
+D 0 32702 3 1 100 0 0 0
+*     west exit from "A Stone Passageway" to
+*     "A Ghostly Cathedral" - closed
+*
+D 0 32703 1 1 100 0 0 0
+*     east exit from "A Ghostly Cathedral" to
+*     "A Stone Passageway" - closed
+*
+D 0 32703 4 2 100 0 0 0
+*     up exit from "A Ghostly Cathedral" to
+*     "A Fading Bell Tower" - closed/locked
+*
+D 0 32710 5 2 100 0 0 0
+*     down exit from "A Fading Bell Tower" to
+*     "A Ghostly Cathedral" - closed/locked
+*
+D 0 32703 5 1 100 0 0 0
+*     down exit from "A Ghostly Cathedral" to
+*     "A Gloomy Passageway" - closed
+*
+D 0 32704 4 1 100 0 0 0
+*     up exit from "A Gloomy Passageway" to
+*     "A Ghostly Cathedral" - closed
+*
+D 0 32706 0 2 100 0 0 0
+*     north exit from "The Throne Room of Aramus" to
+*     "The Treasure Room of Aramus" - closed/locked
+*
+D 0 32707 2 2 100 0 0 0
+*     south exit from "The Treasure Room of Aramus" to
+*     "The Throne Room of Aramus" - closed/locked
+*
+*
+O 0 32640 1 32632 100 0 0 0        * a nearly invisible portal
+O 0 32601 1 32656 100 0 0 0        * a strange distortion
+O 0 32639 1 32660 100 0 0 0        * a nearly invisible portal
+O 0 32612 1 32682 100 0 0 0        * a wall of light
+O 0 32627 1 32685 100 0 0 0        * a strange ethereal rose
+O 0 32614 1 32689 100 0 0 0        * a large jodani tree
+O 0 32615 1 32689 100 0 0 0        * an ancient white oak
+O 0 32622 1 32707 100 0 0 0        * a glowing portal
+O 0 32623 1 32707 100 0 0 0        * some gloves of rage
+O 0 32624 1 32707 100 0 0 0        * the boots of the dreamer
+O 0 32634 1 32707 100 0 0 0        * a blackened dreamwalker's staff
+O 0 360 1 32707 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 32601 3 32613 100 0 0 0        * a shadow demon
+M 0 32600 3 32614 100 0 0 0        * an ethereal swimmer
+M 0 32600 3 32615 100 0 0 0        * an ethereal swimmer
+M 0 32601 3 32622 100 0 0 0        * a shadow demon
+M 0 32601 3 32623 100 0 0 0        * a shadow demon
+M 0 32600 3 32624 100 0 0 0        * an ethereal swimmer
+M 0 32609 1 32625 100 0 0 0        * a thought-eater
+M 0 32602 4 32628 100 0 0 0        * an abyssal ogre
+M 0 32644 1 32632 100 0 0 0        * an enormous neogi shadow
+M 0 32602 4 32635 100 0 0 0        * an abyssal ogre
+M 0 32603 2 32637 100 0 0 0        * a phaze hound
+M 0 32603 2 32637 100 0 0 0        * a phaze hound
+M 0 32602 4 32638 100 0 0 0        * an abyssal ogre
+M 0 32611 7 32640 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32611 7 32640 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32611 7 32640 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32602 4 32645 100 0 0 0        * an abyssal ogre
+M 0 32604 1 32655 100 0 0 0        * a vortex demon
+E 1 32600 1 16 100 0 0 0           *   an axe of the vortex demon
+M 0 32642 1 32656 100 0 0 0        * an astral wraith
+M 0 32608 1 32659 100 0 0 0        * Ashahel
+E 1 32602 1 6 10 0 0 0             *   the helmet of corruption
+E 1 32603 1 16 100 0 0 0           *   a silvery githyanki longsword
+G 1 32604 1 0 100 0 0 0            *    a small brass key
+F 1 32605 1 32659 100 0 0 0        * a shadowy guardian (following)
+F 1 32606 1 32659 100 0 0 0        * a shadowy guardian (following)
+F 1 32607 1 32659 100 0 0 0        * a shadowy guardian (following)
+M 0 32610 4 32662 100 0 0 0        * a spectral warrior
+G 1 32629 1 0 100 0 0 0            *    a gem of reflection
+F 1 32610 4 32662 100 0 0 0        * a spectral warrior (following)
+F 1 32610 4 32662 100 0 0 0        * a spectral warrior (following)
+M 0 32611 7 32663 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32611 7 32663 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32611 7 32663 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32611 7 32663 100 0 0 0        * a bladeling
+E 1 32637 14 16 100 0 0 0          *   a bladeling's tooth
+E 1 32637 14 17 100 0 0 0          *   a bladeling's tooth
+M 0 32612 1 32664 100 0 0 0        * a ravager guardian
+E 1 32605 1 16 100 0 0 0           *   a bloody flail of demons
+G 1 32630 1 0 100 0 0 0            *    the gloves of the adept
+M 0 32613 2 32666 100 0 0 0        * a spectral beholder
+F 1 32613 2 32666 100 0 0 0        * a spectral beholder (following)
+G 1 32636 1 0 100 0 0 0            *    a decaying chunk of beholder flesh
+M 0 32614 1 32669 100 0 0 0        * Yves, the ethereal stalker
+E 1 32607 1 16 100 0 0 0           *   the halberd of destruction
+G 1 32606 1 0 100 0 0 0            *    a small glowing pendant
+G 1 32608 1 0 100 0 0 0            *    the shield of Nightmares
+M 0 32643 1 32669 100 0 0 0        * the illithid magus Ixilik
+M 0 32615 1 32670 100 0 0 0        * a ravager assassin
+E 1 32609 2 16 100 0 0 0           *   a repulsive dagger
+E 1 32609 2 17 100 0 0 0           *   a repulsive dagger
+G 1 32610 1 0 100 0 0 0            *    a key carved from bone
+M 0 32616 3 32671 100 0 0 0        * a soul reaper
+M 0 32616 3 32671 100 0 0 0        * a soul reaper
+M 0 32616 3 32671 100 0 0 0        * a soul reaper
+M 0 32617 3 32672 100 0 0 0        * a red slaad
+M 0 32617 3 32672 100 0 0 0        * a red slaad
+M 0 32618 3 32672 100 0 0 0        * a blue slaad
+M 0 32618 3 32672 100 0 0 0        * a blue slaad
+M 0 32619 4 32672 100 0 0 0        * a grey slaad
+M 0 32620 1 32673 100 0 0 0        * a death slaad
+E 1 32628 1 3 100 0 0 0            *   a slaadi necklace of Chaos
+G 1 32611 1 0 100 0 0 0            *    the staff of the slaadi
+G 1 32638 1 0 100 0 0 0            *    a mold-encrusted key
+F 1 32619 4 32673 100 0 0 0        * a grey slaad (following)
+F 1 32617 3 32673 100 0 0 0        * a red slaad (following)
+F 1 32618 3 32673 100 0 0 0        * a blue slaad (following)
+F 1 32619 4 32673 100 0 0 0        * a grey slaad (following)
+F 1 32619 4 32673 100 0 0 0        * a grey slaad (following)
+M 0 32621 6 32677 100 0 0 0        * a ghostly spectator
+M 0 32621 6 32677 100 0 0 0        * a ghostly spectator
+M 0 32622 6 32677 100 0 0 0        * a fiery zealot
+M 0 32622 6 32677 100 0 0 0        * a fiery zealot
+M 0 32623 3 32677 100 0 0 0        * a fiery zealot
+M 0 32621 6 32678 100 0 0 0        * a ghostly spectator
+M 0 32621 6 32678 100 0 0 0        * a ghostly spectator
+M 0 32622 6 32678 100 0 0 0        * a fiery zealot
+M 0 32623 3 32678 100 0 0 0        * a fiery zealot
+M 0 32621 6 32679 100 0 0 0        * a ghostly spectator
+M 0 32622 6 32679 100 0 0 0        * a fiery zealot
+M 0 32621 6 32680 100 0 0 0        * a ghostly spectator
+M 0 32622 6 32680 100 0 0 0        * a fiery zealot
+M 0 32622 6 32680 100 0 0 0        * a fiery zealot
+M 0 32623 3 32680 100 0 0 0        * a fiery zealot
+M 0 32624 2 32683 100 0 0 0        * a fluffy bunny
+M 0 32624 2 32686 100 0 0 0        * a fluffy bunny
+M 0 32625 1 32686 100 0 0 0        * a playful squirrel
+M 0 32626 1 32687 100 0 0 0        * a fuzzy duckling
+M 0 32627 1 32691 100 0 0 0        * a little lost girl
+G 1 32613 1 0 100 0 0 0            *    a long, wooden key
+G 1 32631 1 0 100 0 0 0            *    a short lance of demonic iron
+M 0 32635 1 32703 100 0 0 0        * Tholgrom, the dwarven priest
+E 1 32619 1 16 100 0 0 0           *   the stone mace 'Godsfury'
+E 1 32618 1 18 100 0 0 0           *   a book of dwarven religion
+F 1 32632 1 32703 100 0 0 0        * Jeremiah, the human holy man (following)
+E 1 32635 1 3 100 0 0 0            *   a glowing necklace of power
+G 1 32641 1 0 100 0 0 0            *    a twisted basalt key
+F 1 32633 1 32703 100 0 0 0        * Narha, the drow priestess (following)
+E 1 32616 1 16 100 0 0 0           *   a staff of Lolth
+F 1 32634 1 32703 100 0 0 0        * Gringap, the goblin cleric (following)
+E 1 32617 1 3 100 0 0 0            *   a goblin holy symbol
+M 0 32637 1 32706 100 0 0 0        * Aramus
+G 1 32621 1 0 100 0 0 0            *    the crown of Aramus
+G 1 32620 1 0 100 0 0 0            *    a rainbow key
+*
+S

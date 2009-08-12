@@ -1,0 +1,162 @@
+#163
+&+LA Dark and Twisted &+gWood&n~
+16399 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 16388 3 5 100 0 0 0
+*     west exit from "Deep in a Twisted Wood" to
+*     "A Large Camp" - closed/secret
+*
+D 0 16389 1 5 100 0 0 0
+*     east exit from "A Large Camp" to
+*     "Deep in a Twisted Wood" - closed/secret
+*
+*
+O 0 16336 1 16323 100 0 0 0        * a bloody troll claw
+O 0 16306 1 16348 100 0 0 0        * a rotting corpse
+P 1 16307 1 16306 100 0 0 0        *   a rotting barrel
+O 0 16305 1 16359 100 0 0 0        * a dark well
+O 0 16320 1 16365 100 0 0 0        * a human warrior's corpse
+P 1 16321 1 16320 100 0 0 0        *   an ancient long sword
+O 0 16301 1 16391 100 0 0 0        * a thorny throne
+P 1 16302 1 16301 100 0 0 0        *   a crown of thorns
+O 0 16303 1 16394 100 0 0 0        * some twisted bones
+O 0 16304 1 16394 100 0 0 0        * splattered blood
+O 0 16300 1 16395 100 0 0 0        * A gray stone obelisk
+O 0 16333 1 16396 100 0 0 0        * a dessicated corpse
+P 1 16326 1 16333 100 0 0 0        *   a blue canvas cloak
+P 1 16335 1 16333 100 0 0 0        *   a golden choker
+P 1 16330 1 16333 100 0 0 0        *   a blue canvas belt
+P 1 16334 3 16330 100 0 0 0        *     a small emerald
+P 1 16334 3 16330 100 0 0 0        *     a small emerald
+P 1 16334 3 16330 100 0 0 0        *     a small emerald
+*
+M 0 16327 1 16324 100 0 0 0        * a young assassin
+E 1 16327 1 16 100 0 0 0           *   a three-pronged dagger
+M 0 16304 7 16340 100 0 0 0        * a yellow quisel
+M 0 16316 1 16341 100 0 0 0        * An elven ranger
+E 1 16319 1 2 100 0 0 0            *   a thornwood ring
+M 0 16304 7 16342 100 0 0 0        * a yellow quisel
+M 0 16329 1 16343 100 0 0 0        * a dwarven warrior
+E 1 16328 1 5 100 0 0 0            *   bloody scalemail armor
+M 0 16305 4 16344 100 0 0 0        * a thorncat
+M 0 16306 6 16345 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16314 1 16352 100 0 0 0        * a barbarian shaman
+E 1 16317 1 18 100 0 0 0           *   a lion totem
+F 1 16313 1 16352 100 0 0 0        * a barbarian warrior (following)
+G 1 16316 1 0 100 0 0 0            *    a brutal warhammer
+F 1 16315 1 16352 100 0 0 0        * the human mage (following)
+E 1 16318 2 21 100 0 0 0           *   a thornhawk feather
+M 0 16304 7 16359 100 0 0 0        * a yellow quisel
+M 0 16304 7 16361 100 0 0 0        * a yellow quisel
+M 0 16311 1 16364 100 0 0 0        * the guardian faerie
+E 1 16312 1 16 100 0 0 0           *   a tiny faerie shortsword
+M 0 16309 5 16365 100 0 0 0        * a boring beetle
+M 0 16309 5 16365 100 0 0 0        * a boring beetle
+M 0 16309 5 16365 100 0 0 0        * a boring beetle
+M 0 16309 5 16365 100 0 0 0        * a boring beetle
+M 0 16309 5 16365 100 0 0 0        * a boring beetle
+M 0 16304 7 16368 100 0 0 0        * a yellow quisel
+M 0 16312 1 16368 100 0 0 0        * a halfling adventurer
+E 1 16315 1 16 100 0 0 0           *   a halfling's scimitar
+E 1 16314 1 5 100 0 0 0            *   ebonwood scale body armor
+M 0 16304 7 16376 100 0 0 0        * a yellow quisel
+M 0 16304 7 16378 100 0 0 0        * a yellow quisel
+M 0 16330 1 16382 100 0 0 0        * a fallen paladin
+E 1 16329 1 6 100 0 0 0            *   a dented helm
+M 0 16320 2 16389 100 0 0 0        * a thornman guard
+E 1 16332 10 16 100 0 0 0          *   a spiked club
+M 0 16320 2 16389 100 0 0 0        * a thornman guard
+E 1 16322 20 11 100 0 0 0          *   a thornwood shield
+M 0 16319 2 16390 100 0 0 0        * a fat thornman
+G 1 16323 3 0 100 0 0 0            *    a dull iron bracer
+M 0 16319 2 16390 100 0 0 0        * a fat thornman
+M 0 16324 1 16391 100 0 0 0        * the thornman king
+E 1 16325 1 8 100 0 0 0            *   canvas boots
+M 0 16306 6 16393 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16326 1 16394 100 0 0 0        * a thornman mage
+M 0 16318 1 16394 100 0 0 0        * a thin thornman
+M 0 16322 1 16395 100 0 0 0        * a thornman guard
+E 1 16322 20 11 100 0 0 0          *   a thornwood shield
+G 1 16332 10 0 100 0 0 0           *    a spiked club
+M 0 16323 2 16395 100 0 0 0        * a thornman
+M 0 16323 2 16395 100 0 0 0        * a thornman
+M 0 16325 1 16395 100 0 0 0        * the thornman priest
+G 1 16324 2 0 100 0 0 0            *    a thornwood bracelet
+M 0 16321 5 16396 100 0 0 0        * a young thornman
+M 0 16321 5 16396 100 0 0 0        * a young thornman
+M 0 16321 5 16396 100 0 0 0        * a young thornman
+M 0 16321 5 16396 100 0 0 0        * a young thornman
+M 0 16321 5 16396 100 0 0 0        * a young thornman
+M 0 16307 5 16397 100 0 0 0        * a glowing spider
+M 0 16307 5 16397 100 0 0 0        * a glowing spider
+M 0 16307 5 16397 100 0 0 0        * a glowing spider
+M 0 16307 5 16397 100 0 0 0        * a glowing spider
+M 0 16307 5 16397 100 0 0 0        * a glowing spider
+M 0 16308 5 16397 100 0 0 0        * a yellow millipede
+M 0 16308 5 16397 100 0 0 0        * a yellow millipede
+M 0 16308 5 16397 100 0 0 0        * a yellow millipede
+M 0 16308 5 16397 100 0 0 0        * a yellow millipede
+M 0 16308 5 16397 100 0 0 0        * a yellow millipede
+M 0 16301 8 16397 100 0 0 0        * a vicious barrit
+M 0 16301 8 16397 100 0 0 0        * a vicious barrit
+M 0 16301 8 16397 100 0 0 0        * a vicious barrit
+M 0 16301 8 16397 100 0 0 0        * a vicious barrit
+M 0 16301 8 16397 100 0 0 0        * a vicious barrit
+M 0 16301 8 16398 100 0 0 0        * a vicious barrit
+M 0 16301 8 16398 100 0 0 0        * a vicious barrit
+M 0 16301 8 16398 100 0 0 0        * a vicious barrit
+M 0 16300 10 16398 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16398 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16398 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16398 100 0 0 0       * a bumbling thornucine
+M 0 16310 2 16398 100 0 0 0        * a green faerie
+E 1 16311 2 15 100 0 0 0           *   a faerie bracelet
+M 0 16310 2 16398 100 0 0 0        * a green faerie
+E 1 16311 2 15 100 0 0 0           *   a faerie bracelet
+M 0 16302 4 16398 100 0 0 0        * a thornhawk
+M 0 16302 4 16398 100 0 0 0        * a thornhawk
+M 0 16302 4 16398 100 0 0 0        * a thornhawk
+M 0 16302 4 16398 100 0 0 0        * a thornhawk
+M 0 16303 4 16399 100 0 0 0        * a thornbear
+E 1 16308 8 3 100 0 0 0            *   a collar of bone thorns
+M 0 16303 4 16399 100 0 0 0        * a thornbear
+E 1 16308 8 3 100 0 0 0            *   a collar of bone thorns
+M 0 16303 4 16399 100 0 0 0        * a thornbear
+M 0 16303 4 16399 100 0 0 0        * a thornbear
+M 0 16305 4 16399 100 0 0 0        * a thorncat
+E 1 16309 3 6 100 0 0 0            *   a thorncat mane
+M 0 16305 4 16399 100 0 0 0        * a thorncat
+M 0 16305 4 16399 100 0 0 0        * a thorncat
+M 0 16306 6 16399 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16306 6 16399 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16306 6 16399 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16306 6 16399 100 0 0 0        * a lost troll
+G 1 16310 50 0 100 0 0 0           *    a thorny club
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16300 10 16399 100 0 0 0       * a bumbling thornucine
+M 0 16317 3 16399 100 0 0 0        * a wandering ogre
+E 1 16310 50 16 100 0 0 0          *   a thorny club
+M 0 16317 3 16399 100 0 0 0        * a wandering ogre
+E 1 16310 50 16 100 0 0 0          *   a thorny club
+M 0 16317 3 16399 100 0 0 0        * a wandering ogre
+E 1 16310 50 16 100 0 0 0          *   a thorny club
+M 0 16328 3 16399 100 0 0 0        * a thornman hunter
+G 1 16331 10 0 100 0 0 0           *    a crude spear
+M 0 16328 3 16399 100 0 0 0        * a thornman hunter
+G 1 16331 10 0 100 0 0 0           *    a crude spear
+M 0 16328 3 16399 100 0 0 0        * a thornman hunter
+G 1 16331 10 0 100 0 0 0           *    a crude spear
+*
+S

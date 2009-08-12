@@ -1,0 +1,846 @@
+#700
+&+LThe &+bTown &+Lof &+rMoregeeth&n~
+70352 2 4 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 70001 2 1 100 0 0 0
+*     south exit from "Within the Private Chambers of the Mayor" to
+*     "A Grand Entry Hall" - closed
+*
+D 0 70287 0 1 100 0 0 0
+*     north exit from "A Grand Entry Hall" to
+*     "Within the Private Chambers of the Mayor" - closed
+*
+D 0 70002 4 2 100 0 0 0
+*     up exit from "In a Dark Sepulchre" to
+*     "Atop a Stone Sepulchre" - closed/locked
+*
+D 0 70009 5 2 100 0 0 0
+*     down exit from "Atop a Stone Sepulchre" to
+*     "In a Dark Sepulchre" - closed/locked
+*
+D 0 70003 4 1 100 0 0 0
+*     up exit from "The Entry to a Dark Crypt" to
+*     "Within a Large Burial Pit" - closed
+*
+D 0 70015 5 1 100 0 0 0
+*     down exit from "Within a Large Burial Pit" to
+*     "The Entry to a Dark Crypt" - closed
+*
+D 0 70007 4 2 100 0 0 0
+*     up exit from "In a Dark Sepulchre" to
+*     "Atop a Stone Sepulchre" - closed/locked
+*
+D 0 70011 5 2 100 0 0 0
+*     down exit from "Atop a Stone Sepulchre" to
+*     "In a Dark Sepulchre" - closed/locked
+*
+D 0 70017 1 1 100 0 0 0
+*     east exit from "Within a Burial Pit" to
+*     "Within a Dirty Hovel" - closed
+*
+D 0 70200 3 1 100 0 0 0
+*     west exit from "Within a Dirty Hovel" to
+*     "Within a Burial Pit" - closed
+*
+D 0 70019 5 2 100 0 0 0
+*     down exit from "Atop a Stone Sepulchre" to
+*     "In a Dark Sepulchre" - closed/locked
+*
+D 0 70027 4 2 100 0 0 0
+*     up exit from "In a Dark Sepulchre" to
+*     "Atop a Stone Sepulchre" - closed/locked
+*
+D 0 70021 5 2 100 0 0 0
+*     down exit from "Atop a Stone Sepulchre" to
+*     "In a Dark Sepulchre" - closed/locked
+*
+D 0 70023 4 2 100 0 0 0
+*     up exit from "In a Dark Sepulchre" to
+*     "Atop a Stone Sepulchre" - closed/locked
+*
+D 0 70028 3 1 100 0 0 0
+*     west exit from "In a Commoner's House" to
+*     "At the End of the Lower Road" - closed
+*
+D 0 70306 1 1 100 0 0 0
+*     east exit from "At the End of the Lower Road" to
+*     "In a Commoner's House" - closed
+*
+D 0 70029 0 2 100 0 0 0
+*     north exit from "Within Gorblag's Office" to
+*     "Gorblag's Private Chambers" - closed/locked
+*
+D 0 70031 2 2 100 0 0 0
+*     south exit from "Gorblag's Private Chambers" to
+*     "Within Gorblag's Office" - closed/locked
+*
+D 0 70168 5 2 100 0 0 0
+*     down exit from "Chamber of Portals" to
+*     "Within the Academies Classroom" - closed/locked
+*
+D 0 70173 4 2 100 0 0 0
+*     up exit from "Within the Academies Classroom" to
+*     "Chamber of Portals" - closed/locked
+*
+D 0 70169 2 1 100 0 0 0
+*     south exit from "Mage Supply Shop" to
+*     "Along the Street of Guilds" - closed
+*
+D 0 70298 0 1 100 0 0 0
+*     north exit from "Along the Street of Guilds" to
+*     "Mage Supply Shop" - closed
+*
+D 0 70171 0 1 100 0 0 0
+*     north exit from "A Small Magic Shop" to
+*     "At the End of the Street of Guilds" - closed
+*
+D 0 70299 2 1 100 0 0 0
+*     south exit from "At the End of the Street of Guilds" to
+*     "A Small Magic Shop" - closed
+*
+D 0 70176 0 1 100 0 0 0
+*     north exit from "Brogan's Bar" to
+*     "Along the Street of Guilds" - closed
+*
+D 0 70298 2 1 100 0 0 0
+*     south exit from "Along the Street of Guilds" to
+*     "Brogan's Bar" - closed
+*
+D 0 70176 2 1 100 0 0 0
+*     south exit from "Brogan's Bar" to
+*     "Behind the Stage" - closed
+*
+D 0 70183 0 1 100 0 0 0
+*     north exit from "Behind the Stage" to
+*     "Brogan's Bar" - closed
+*
+D 0 70177 1 1 100 0 0 0
+*     east exit from "Behind the Altar" to
+*     "Before an Altar to Loviatar" - closed
+*
+D 0 70178 3 1 100 0 0 0
+*     west exit from "Before an Altar to Loviatar" to
+*     "Behind the Altar" - closed
+*
+D 0 70179 0 0 100 0 0 0
+*     north exit from "Amoungst Rows of Seats" to
+*     "Within a Confessional" - open
+*
+D 0 70181 2 0 100 0 0 0
+*     south exit from "Within a Confessional" to
+*     "Amoungst Rows of Seats" - open
+*
+D 0 70179 2 0 100 0 0 0
+*     south exit from "Amoungst Rows of Seats" to
+*     "Within a Confessional" - open
+*
+D 0 70180 0 0 100 0 0 0
+*     north exit from "Within a Confessional" to
+*     "Amoungst Rows of Seats" - open
+*
+D 0 70182 1 1 100 0 0 0
+*     east exit from "Within the Church Vestibule" to
+*     "At the End of the Street of Guilds" - closed
+*
+D 0 70299 3 1 100 0 0 0
+*     west exit from "At the End of the Street of Guilds" to
+*     "Within the Church Vestibule" - closed
+*
+D 0 70190 3 1 100 0 0 0
+*     west exit from "Within Some Barracks" to
+*     "Entry Hall into the Guards Barracks" - closed
+*
+D 0 70195 1 1 100 0 0 0
+*     east exit from "Entry Hall into the Guards Barracks" to
+*     "Within Some Barracks" - closed
+*
+D 0 70194 1 1 100 0 0 0
+*     east exit from "Within Some Barracks" to
+*     "Entry Hall into the Guards Barracks" - closed
+*
+D 0 70195 3 1 100 0 0 0
+*     west exit from "Entry Hall into the Guards Barracks" to
+*     "Within Some Barracks" - closed
+*
+D 0 70195 0 1 100 0 0 0
+*     north exit from "Entry Hall into the Guards Barracks" to
+*     "Along the Street of the Dead" - closed
+*
+D 0 70302 2 1 100 0 0 0
+*     south exit from "Along the Street of the Dead" to
+*     "Entry Hall into the Guards Barracks" - closed
+*
+D 0 70205 0 1 100 0 0 0
+*     north exit from "The Gilt-edged Truffle" to
+*     "A Busy Kitchen" - closed
+*
+D 0 70206 2 1 100 0 0 0
+*     south exit from "A Busy Kitchen" to
+*     "The Gilt-edged Truffle" - closed
+*
+D 0 70205 1 1 100 0 0 0
+*     east exit from "The Gilt-edged Truffle" to
+*     "Along the High Road" - closed
+*
+D 0 70307 3 1 100 0 0 0
+*     west exit from "Along the High Road" to
+*     "The Gilt-edged Truffle" - closed
+*
+D 0 70205 3 1 100 0 0 0
+*     west exit from "The Gilt-edged Truffle" to
+*     "A Gaming Room" - closed
+*
+D 0 70207 1 1 100 0 0 0
+*     east exit from "A Gaming Room" to
+*     "The Gilt-edged Truffle" - closed
+*
+D 0 70206 3 1 100 0 0 0
+*     west exit from "A Busy Kitchen" to
+*     "A Cluttered Storeroom" - closed
+*
+D 0 70208 1 1 100 0 0 0
+*     east exit from "A Cluttered Storeroom" to
+*     "A Busy Kitchen" - closed
+*
+D 0 70207 0 1 100 0 0 0
+*     north exit from "A Gaming Room" to
+*     "A Cluttered Storeroom" - closed
+*
+D 0 70208 2 1 100 0 0 0
+*     south exit from "A Cluttered Storeroom" to
+*     "A Gaming Room" - closed
+*
+D 0 70207 5 5 100 0 0 0
+*     down exit from "A Gaming Room" to
+*     "A Practice Room" - closed/secret
+*
+D 0 70209 4 5 100 0 0 0
+*     up exit from "A Practice Room" to
+*     "A Gaming Room" - closed/secret
+*
+D 0 70210 1 5 100 0 0 0
+*     east exit from "A Training Room" to
+*     "An Abandoned Hovel" - closed/secret
+*
+D 0 70300 3 5 100 0 0 0
+*     west exit from "An Abandoned Hovel" to
+*     "A Training Room" - closed/secret
+*
+D 0 70287 2 1 100 0 0 0
+*     south exit from "A Grand Entry Hall" to
+*     "Along the Street of Nobles" - closed
+*
+D 0 70340 0 1 100 0 0 0
+*     north exit from "Along the Street of Nobles" to
+*     "A Grand Entry Hall" - closed
+*
+D 0 70300 1 1 100 0 0 0
+*     east exit from "An Abandoned Hovel" to
+*     "Along the Lower Road" - closed
+*
+D 0 70304 3 1 100 0 0 0
+*     west exit from "Along the Lower Road" to
+*     "An Abandoned Hovel" - closed
+*
+D 0 70301 0 1 100 0 0 0
+*     north exit from "The Street of Harlots" to
+*     "In a Room of Whips and Chains" - closed
+*
+D 0 70333 2 1 100 0 0 0
+*     south exit from "In a Room of Whips and Chains" to
+*     "The Street of Harlots" - closed
+*
+D 0 70303 2 1 100 0 0 0
+*     south exit from "The End of the Street of the Dead" to
+*     "In a Warg Den" - closed
+*
+D 0 70336 0 1 100 0 0 0
+*     north exit from "In a Warg Den" to
+*     "The End of the Street of the Dead" - closed
+*
+D 0 70303 3 1 100 0 0 0
+*     west exit from "The End of the Street of the Dead" to
+*     "In a Filthy Pig Pen" - closed
+*
+D 0 70338 1 1 100 0 0 0
+*     east exit from "In a Filthy Pig Pen" to
+*     "The End of the Street of the Dead" - closed
+*
+D 0 70304 1 1 100 0 0 0
+*     east exit from "Along the Lower Road" to
+*     "In a Commoner's House" - closed
+*
+D 0 70335 3 1 100 0 0 0
+*     west exit from "In a Commoner's House" to
+*     "Along the Lower Road" - closed
+*
+D 0 70305 1 1 100 0 0 0
+*     east exit from "Along the Lower Road" to
+*     "In a Commoner's House" - closed
+*
+D 0 70334 3 1 100 0 0 0
+*     west exit from "In a Commoner's House" to
+*     "Along the Lower Road" - closed
+*
+D 0 70305 3 1 100 0 0 0
+*     west exit from "Along the Lower Road" to
+*     "In a Commoner's House" - closed
+*
+D 0 70318 1 1 100 0 0 0
+*     east exit from "In a Commoner's House" to
+*     "Along the Lower Road" - closed
+*
+D 0 70309 0 1 100 0 0 0
+*     north exit from "At the End of the High Road" to
+*     "Within a Noble's Home." - closed
+*
+D 0 70345 2 1 100 0 0 0
+*     south exit from "Within a Noble's Home." to
+*     "At the End of the High Road" - closed
+*
+D 0 70316 2 1 100 0 0 0
+*     south exit from "In a Room of Whips and Chains" to
+*     "The Intersection of the Street of Harlots and Gold Street" - closed
+*
+D 0 70331 0 1 100 0 0 0
+*     north exit from "The Intersection of the Street of Harlots and Gold Street" to
+*     "In a Room of Whips and Chains" - closed
+*
+D 0 70317 1 1 100 0 0 0
+*     east exit from "In a Room of Whips and Chains" to
+*     "The Intersection of the Street of Harlots and Gold Street" - closed
+*
+D 0 70331 3 1 100 0 0 0
+*     west exit from "The Intersection of the Street of Harlots and Gold Street" to
+*     "In a Room of Whips and Chains" - closed
+*
+D 0 70321 2 1 100 0 0 0
+*     south exit from "Within a Noble's Home." to
+*     "The Intersection of Commerce Street and the Street of Nobles" - closed
+*
+D 0 70341 0 1 100 0 0 0
+*     north exit from "The Intersection of Commerce Street and the Street of Nobles" to
+*     "Within a Noble's Home." - closed
+*
+D 0 70322 0 1 100 0 0 0
+*     north exit from "Within a Noble's Home" to
+*     "Along the Street of Nobles" - closed
+*
+D 0 70340 2 1 100 0 0 0
+*     south exit from "Along the Street of Nobles" to
+*     "Within a Noble's Home" - closed
+*
+D 0 70323 1 1 100 0 0 0
+*     east exit from "Along Gold Street" to
+*     "In a Commoner's House" - closed
+*
+D 0 70329 3 1 100 0 0 0
+*     west exit from "In a Commoner's House" to
+*     "Along Gold Street" - closed
+*
+D 0 70323 3 1 100 0 0 0
+*     west exit from "Along Gold Street" to
+*     "In a Commoner's House" - closed
+*
+D 0 70324 1 1 100 0 0 0
+*     east exit from "In a Commoner's House" to
+*     "Along Gold Street" - closed
+*
+D 0 70325 3 1 100 0 0 0
+*     west exit from "In a Commoner's House" to
+*     "Along Gold Street" - closed
+*
+D 0 70330 1 1 100 0 0 0
+*     east exit from "Along Gold Street" to
+*     "In a Commoner's House" - closed
+*
+D 0 70326 2 5 100 0 0 0
+*     south exit from "On an Old River Bed" to
+*     "The End of the Passageway" - closed/secret
+*
+D 0 70328 0 5 100 0 0 0
+*     north exit from "The End of the Passageway" to
+*     "On an Old River Bed" - closed/secret
+*
+D 0 70330 3 1 100 0 0 0
+*     west exit from "Along Gold Street" to
+*     "In a Commoner's House" - closed
+*
+D 0 70332 1 1 100 0 0 0
+*     east exit from "In a Commoner's House" to
+*     "Along Gold Street" - closed
+*
+D 0 70341 3 1 100 0 0 0
+*     west exit from "The Intersection of Commerce Street and the Street of Nobles" to
+*     "Within a Noble's Home." - closed
+*
+D 0 70344 1 1 100 0 0 0
+*     east exit from "Within a Noble's Home." to
+*     "The Intersection of Commerce Street and the Street of Nobles" - closed
+*
+*
+O 0 70000 1 70000 100 0 0 0        * a large sign
+O 0 70020 1 70031 100 0 0 0        * a stone table
+P 1 70021 1 70020 100 0 0 0        *   a pouch of spell components
+O 0 70005 1 70039 100 0 0 0        * some gold coins
+O 0 70009 1 70076 100 0 0 0        * a blue flame
+O 0 70008 1 70101 100 0 0 0        * a large boulder
+O 0 70011 1 70124 100 0 0 0        * a mysterious crystal
+O 0 70007 1 70153 100 0 0 0        * a thick field of smoke
+O 0 70090 1 70168 100 0 0 0        * a mysterious crystal
+O 0 70012 1 70168 100 0 0 0        * a mirror
+O 0 70006 1 70168 100 0 0 0        * a blue flame
+O 0 70010 1 70168 100 0 0 0        * a mirror
+O 0 70031 1 70182 100 0 0 0        * an obsidian bowl of unholy water
+O 0 70056 1 70196 100 0 0 0        * a deep recess
+P 1 70053 6 70056 100 0 0 0        *   a ball of bat guano
+P 1 70053 6 70056 100 0 0 0        *   a ball of bat guano
+P 1 70053 6 70056 100 0 0 0        *   a ball of bat guano
+P 1 70053 6 70056 100 0 0 0        *   a ball of bat guano
+P 1 70053 6 70056 100 0 0 0        *   a ball of bat guano
+O 0 70064 1 70212 100 0 0 0        * a large metal desk
+P 1 70065 1 70064 100 0 0 0        *   a short letter
+O 0 3097 999 70286 100 0 0 0       * (object type not in this .obj file)
+O 0 70088 1 70296 100 0 0 0        * a concrete fountain
+O 0 70004 1 70333 100 0 0 0        * a hanging sign
+*
+M 0 70000 1 70001 100 0 0 0        * Moreg
+E 1 70001 1 16 100 0 0 0           *   a short sword named 'Pig-Sticker'
+M 0 70001 1 70002 100 0 0 0        * the ghost of Glub
+E 1 70003 1 5 100 0 0 0            *   a spectral robe
+M 0 70005 4 70006 100 0 0 0        * the skeleton of a commoner
+M 0 70002 3 70007 100 0 0 0        * the ghost of a nobleman
+M 0 70005 4 70008 100 0 0 0        * the skeleton of a commoner
+M 0 70004 4 70009 100 0 0 0        * the zombie of a commoner
+M 0 70003 4 70010 100 0 0 0        * the zombie of a commoner
+M 0 70004 4 70011 100 0 0 0        * the zombie of a commoner
+M 0 70003 4 70014 100 0 0 0        * the zombie of a commoner
+M 0 70003 4 70016 100 0 0 0        * the zombie of a commoner
+M 0 70004 4 70019 100 0 0 0        * the zombie of a commoner
+M 0 70003 4 70020 100 0 0 0        * the zombie of a commoner
+E 1 70055 1 2 100 0 0 0            *   a brass signet ring
+M 0 70004 4 70021 100 0 0 0        * the zombie of a commoner
+M 0 70005 4 70022 100 0 0 0        * the skeleton of a commoner
+M 0 70002 3 70023 100 0 0 0        * the ghost of a nobleman
+M 0 70005 4 70024 100 0 0 0        * the skeleton of a commoner
+M 0 70002 3 70027 100 0 0 0        * the ghost of a nobleman
+M 0 70085 4 70028 100 0 0 0        * a goblin commmoner
+M 0 70024 2 70029 100 0 0 0        * a sorcerer's apprentice
+M 0 70024 2 70029 100 0 0 0        * a sorcerer's apprentice
+M 0 70023 1 70029 100 0 0 0        * Gorblag
+M 0 70025 2 70030 100 0 0 0        * a young sorcerer
+M 0 70025 2 70030 100 0 0 0        * a young sorcerer
+M 0 70038 1 70033 100 0 0 0        * Smog
+G 1 70034 1 0 100 0 0 0            *    a large leather backpack
+G 1 70033 1 0 100 0 0 0            *    a leather waterskin
+G 1 70032 1 0 100 0 0 0            *    some iron rations
+G 1 188 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 189 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70008 1 70039 100 0 0 0        * a young purple worm
+M 0 70091 1 70042 100 0 0 0        * a roper
+E 1 70095 4 16 100 0 0 0           *   a tentacle
+E 1 70095 4 17 100 0 0 0           *   a tentacle
+E 1 70095 4 25 100 0 0 0           *   a tentacle
+E 1 70095 4 26 100 0 0 0           *   a tentacle
+M 0 70053 4 70057 100 0 0 0        * a young roper
+M 0 70053 4 70057 100 0 0 0        * a young roper
+M 0 70053 4 70057 100 0 0 0        * a young roper
+M 0 70053 4 70057 100 0 0 0        * a young roper
+M 0 70019 7 70060 100 0 0 0        * a fire elemental
+M 0 70020 4 70064 100 0 0 0        * a large fire elemental
+M 0 70019 7 70068 100 0 0 0        * a fire elemental
+M 0 70019 7 70071 100 0 0 0        * a fire elemental
+M 0 70020 4 70072 100 0 0 0        * a large fire elemental
+M 0 70019 7 70073 100 0 0 0        * a fire elemental
+M 0 70021 1 70073 100 0 0 0        * an efreeti scout
+E 1 70016 999 3 100 0 0 0          *   a pendant of fire
+M 0 70020 4 70074 100 0 0 0        * a large fire elemental
+M 0 70019 7 70075 100 0 0 0        * a fire elemental
+M 0 70019 7 70078 100 0 0 0        * a fire elemental
+M 0 70020 4 70082 100 0 0 0        * a large fire elemental
+M 0 70019 7 70086 100 0 0 0        * a fire elemental
+M 0 70015 7 70087 100 0 0 0        * an earth elemental
+M 0 70016 4 70091 100 0 0 0        * a large earth elemental
+M 0 70015 7 70095 100 0 0 0        * an earth elemental
+M 0 70016 4 70097 100 0 0 0        * a large earth elemental
+M 0 70015 7 70098 100 0 0 0        * an earth elemental
+M 0 70015 7 70100 100 0 0 0        * an earth elemental
+M 0 70017 1 70100 100 0 0 0        * a dao noble
+E 1 70013 1 18 100 0 0 0           *   a stone heart
+M 0 70015 7 70102 100 0 0 0        * an earth elemental
+M 0 70016 4 70103 100 0 0 0        * a large earth elemental
+M 0 70015 7 70105 100 0 0 0        * an earth elemental
+M 0 70016 4 70109 100 0 0 0        * a large earth elemental
+M 0 70015 7 70113 100 0 0 0        * an earth elemental
+M 0 70012 7 70114 100 0 0 0        * a water elemental
+M 0 70013 4 70118 100 0 0 0        * a large water elemental
+M 0 70012 7 70122 100 0 0 0        * a water elemental
+M 0 70012 7 70125 100 0 0 0        * a water elemental
+M 0 70013 4 70126 100 0 0 0        * a large water elemental
+M 0 70012 7 70127 100 0 0 0        * a water elemental
+M 0 70014 1 70127 100 0 0 0        * a marid noble
+E 1 70014 1 2 100 0 0 0            *   a ring of water
+M 0 70013 4 70128 100 0 0 0        * a large water elemental
+M 0 70012 7 70129 100 0 0 0        * a water elemental
+M 0 70012 7 70132 100 0 0 0        * a water elemental
+M 0 70013 4 70136 100 0 0 0        * a large water elemental
+M 0 70012 7 70140 100 0 0 0        * a water elemental
+M 0 70009 7 70141 100 0 0 0        * an air elemental
+M 0 70010 4 70145 100 0 0 0        * a large air elemental
+M 0 70009 7 70149 100 0 0 0        * an air elemental
+M 0 70010 4 70151 100 0 0 0        * a large air elemental
+M 0 70009 7 70152 100 0 0 0        * an air elemental
+M 0 70009 7 70154 100 0 0 0        * an air elemental
+M 0 70011 1 70154 100 0 0 0        * a powerful jann
+E 1 70015 1 12 100 0 0 0           *   the wings of a sylph
+M 0 70009 7 70156 100 0 0 0        * an air elemental
+M 0 70010 4 70157 100 0 0 0        * a large air elemental
+M 0 70009 7 70159 100 0 0 0        * an air elemental
+M 0 70010 4 70163 100 0 0 0        * a large air elemental
+M 0 70009 7 70167 100 0 0 0        * an air elemental
+M 0 70046 1 70169 100 0 0 0        * a mage shopkeeper
+G 1 70051 1 0 100 0 0 0            *    a pinch of spider silk
+G 1 70052 1 0 100 0 0 0            *    a vial of fine sand
+G 1 70053 6 0 100 0 0 0            *    a ball of bat guano
+G 1 70041 999 0 100 0 0 0          *    a quill
+G 1 70042 999 0 100 0 0 0          *    a spellbook
+M 0 70045 1 70171 100 0 0 0        * an odd little shopkeeper
+G 1 70049 1 0 100 0 0 0            *    a staff of living energy
+G 1 70050 1 0 100 0 0 0            *    a scroll of insight
+G 1 70041 999 0 100 0 0 0          *    a quill
+G 1 70042 999 0 100 0 0 0          *    a spellbook
+G 1 70054 1 0 100 0 0 0            *    a murky brown potion
+G 1 70073 1 0 100 0 0 0            *    a wizards hat
+G 1 421 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70026 2 70172 100 0 0 0        * a young conjurer
+E 1 70048 1 18 100 0 0 0           *   a bright blue potion
+M 0 70026 2 70172 100 0 0 0        * a young conjurer
+M 0 70022 1 70173 100 0 0 0        * Gimbatul
+M 0 70027 2 70173 100 0 0 0        * a conjurer's apprentice
+M 0 70027 2 70173 100 0 0 0        * a conjurer's apprentice
+M 0 70050 6 70174 100 0 0 0        * a goblin warrior
+M 0 70050 6 70174 100 0 0 0        * a goblin warrior
+M 0 70028 1 70175 100 0 0 0        * Brogan
+F 1 70106 2 70175 100 0 0 0        * a burly bouncer (following)
+F 1 70106 2 70175 100 0 0 0        * a burly bouncer (following)
+M 0 70029 1 70176 100 0 0 0        * a gruff bartender
+G 1 70023 999 0 100 0 0 0          *    elf surprise
+G 1 70024 999 0 100 0 0 0          *    fried grubs
+G 1 70025 999 0 100 0 0 0          *    a bloody mary
+G 1 70026 999 0 100 0 0 0          *    a bottle of rot gut
+M 0 70030 3 70176 100 0 0 0        * a drunk goblin
+M 0 70030 3 70176 100 0 0 0        * a drunk goblin
+M 0 70030 3 70176 100 0 0 0        * a drunk goblin
+M 0 70031 2 70176 100 0 0 0        * a goblin slut
+E 1 70027 1 16 100 0 0 0           *   a broken bottle
+M 0 70031 2 70176 100 0 0 0        * a goblin slut
+M 0 70039 1 70176 100 0 0 0        * a gaily dressed bard
+E 1 70035 1 18 100 0 0 0           *   a plain wooden mandolin
+M 0 70043 1 70176 100 0 0 0        * a sly rogue
+E 1 70078 3 16 100 0 0 0           *   a fine steel dagger
+E 1 70078 3 17 100 0 0 0           *   a fine steel dagger
+M 0 70034 1 70177 100 0 0 0        * Dura, mistress of pain
+E 1 70029 1 16 100 0 0 0           *   a barbed whip
+G 1 70030 1 0 100 0 0 0            *    Dura's severed head
+M 0 70035 2 70177 100 0 0 0        * an apprentice cleric
+M 0 70035 2 70177 100 0 0 0        * an apprentice cleric
+M 0 70036 2 70178 100 0 0 0        * a senior cleric
+M 0 70036 2 70178 100 0 0 0        * a senior cleric
+M 0 70037 2 70182 100 0 0 0        * an eager initiate
+M 0 70037 2 70182 100 0 0 0        * an eager initiate
+M 0 70040 1 70184 100 0 0 0        * a small shopkeeper
+G 1 70036 1 0 100 0 0 0            *    a metal flute
+G 1 70037 1 0 100 0 0 0            *    a rough wooden lyre
+G 1 70038 1 0 100 0 0 0            *    a brass harp
+G 1 70039 1 0 100 0 0 0            *    a drum covered with rothe hide
+G 1 70040 1 0 100 0 0 0            *    a horn carved from bone
+G 1 70042 999 0 100 0 0 0          *    a spellbook
+G 1 70041 999 0 100 0 0 0          *    a quill
+G 1 70043 1 0 100 0 0 0            *    a gaudy green pair of pants
+G 1 70044 1 0 100 0 0 0            *    a gaudy yellow shirt
+G 1 70045 6 0 100 0 0 0            *    a short steel dagger
+G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70042 2 70185 100 0 0 0        * a young bard
+M 0 70042 2 70185 100 0 0 0        * a young bard
+M 0 70041 1 70186 100 0 0 0        * Skai
+M 0 70044 8 70187 100 0 0 0        * an elite goblin guard
+E 1 70047 4 5 100 0 0 0            *   some padded rothe hide armor
+E 1 70046 2 16 100 0 0 0           *   a steel shortsword
+F 1 70107 11 70187 100 0 0 0       * a huge warg (following)
+F 1 70107 11 70187 100 0 0 0       * a huge warg (following)
+M 0 70044 8 70187 100 0 0 0        * an elite goblin guard
+E 1 70047 4 5 100 0 0 0            *   some padded rothe hide armor
+E 1 70046 2 16 100 0 0 0           *   a steel shortsword
+M 0 70044 8 70187 100 0 0 0        * an elite goblin guard
+M 0 70050 6 70188 100 0 0 0        * a goblin warrior
+M 0 70050 6 70188 100 0 0 0        * a goblin warrior
+M 0 70050 6 70189 100 0 0 0        * a goblin warrior
+M 0 70050 6 70189 100 0 0 0        * a goblin warrior
+M 0 70051 2 70190 100 0 0 0        * a goblin warrior
+M 0 70051 2 70190 100 0 0 0        * a goblin warrior
+M 0 70052 1 70190 100 0 0 0        * Golgash
+M 0 70047 6 70191 100 0 0 0        * a goblin mercenary
+E 1 70047 4 5 100 0 0 0            *   some padded rothe hide armor
+M 0 70047 6 70191 100 0 0 0        * a goblin mercenary
+M 0 70047 6 70192 100 0 0 0        * a goblin mercenary
+E 1 70047 4 5 100 0 0 0            *   some padded rothe hide armor
+M 0 70047 6 70192 100 0 0 0        * a goblin mercenary
+M 0 70047 6 70192 100 0 0 0        * a goblin mercenary
+M 0 70047 6 70193 100 0 0 0        * a goblin mercenary
+M 0 70048 1 70194 100 0 0 0        * Olog
+M 0 70049 2 70194 100 0 0 0        * a goblin mercenary
+M 0 70049 2 70194 100 0 0 0        * a goblin mercenary
+M 0 70057 5 70196 100 0 0 0        * a vampire bat
+G 1 70075 5 0 100 0 0 0            *    a bat skull
+M 0 70057 5 70196 100 0 0 0        * a vampire bat
+G 1 70075 5 0 100 0 0 0            *    a bat skull
+M 0 70057 5 70196 100 0 0 0        * a vampire bat
+G 1 70075 5 0 100 0 0 0            *    a bat skull
+M 0 70057 5 70196 100 0 0 0        * a vampire bat
+G 1 70075 5 0 100 0 0 0            *    a bat skull
+M 0 70057 5 70196 100 0 0 0        * a vampire bat
+G 1 70075 5 0 100 0 0 0            *    a bat skull
+M 0 70054 2 70197 100 0 0 0        * an elite goblin guard
+M 0 70054 2 70197 100 0 0 0        * an elite goblin guard
+M 0 70056 4 70198 100 0 0 0        * a goblin scout
+M 0 70056 4 70199 100 0 0 0        * a goblin scout
+M 0 70058 1 70200 100 0 0 0        * a cemetery caretaker
+G 1 70057 1 0 100 0 0 0            *    a rusty key
+M 0 70059 2 70201 100 0 0 0        * a young necromancer
+M 0 70059 2 70201 100 0 0 0        * a young necromancer
+M 0 70060 1 70204 100 0 0 0        * Tala
+M 0 70061 2 70204 100 0 0 0        * an apprentice necromancer
+M 0 70061 2 70204 100 0 0 0        * an apprentice necromancer
+M 0 70062 1 70205 100 0 0 0        * the maitre'd
+E 1 70058 1 13 100 0 0 0           *   a red sash
+M 0 70063 2 70205 100 0 0 0        * a goblin noble
+M 0 70063 2 70205 100 0 0 0        * a goblin noble
+M 0 70064 2 70205 100 0 0 0        * a goblin noble
+M 0 70064 2 70205 100 0 0 0        * a goblin noble
+M 0 70067 2 70206 100 0 0 0        * a bossy chef
+M 0 70067 2 70206 100 0 0 0        * a bossy chef
+M 0 70068 4 70206 100 0 0 0        * a halfling slave
+M 0 70068 4 70206 100 0 0 0        * a halfling slave
+M 0 70068 4 70206 100 0 0 0        * a halfling slave
+M 0 70068 4 70206 100 0 0 0        * a halfling slave
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+E 1 70045 6 16 100 0 0 0           *   a short steel dagger
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+E 1 70045 6 16 100 0 0 0           *   a short steel dagger
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+E 1 70045 6 16 100 0 0 0           *   a short steel dagger
+M 0 70065 6 70207 100 0 0 0        * a shifty gambler
+M 0 70066 1 70207 100 0 0 0        * an ogre bouncer
+M 0 70069 2 70209 100 0 0 0        * a young rogue
+E 1 70063 2 16 100 0 0 0           *   a training dagger
+M 0 70069 2 70209 100 0 0 0        * a young rogue
+E 1 70063 2 16 100 0 0 0           *   a training dagger
+M 0 70070 1 70210 100 0 0 0        * Zagh
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 54 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 73 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 77 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 412 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70071 2 70210 100 0 0 0        * an apprentice thief
+M 0 70071 2 70210 100 0 0 0        * an apprentice thief
+M 0 70072 1 70211 100 0 0 0        * a roguish merchant
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 70059 999 0 100 0 0 0          *    a serrated dagger
+G 1 70060 999 0 100 0 0 0          *    a fine lockpick
+G 1 70061 999 0 100 0 0 0          *    a large black cloak
+G 1 70062 999 0 100 0 0 0          *    some padded slippers
+G 1 70093 1 0 100 0 0 0            *    a sharp obsidian dart
+M 0 70073 1 70212 100 0 0 0        * Ungal
+G 1 70059 999 0 100 0 0 0          *    a serrated dagger
+M 0 70074 2 70212 100 0 0 0        * an apprentice assassin
+M 0 70074 2 70212 100 0 0 0        * an apprentice assassin
+M 0 70077 4 70243 100 0 0 0        * a freshwater shark
+M 0 70090 9 70244 100 0 0 0        * a gold fish
+M 0 70076 9 70247 100 0 0 0        * a pale white fish
+M 0 70090 9 70248 100 0 0 0        * a gold fish
+M 0 70076 9 70249 100 0 0 0        * a pale white fish
+M 0 70090 9 70250 100 0 0 0        * a gold fish
+M 0 70090 9 70252 100 0 0 0        * a gold fish
+M 0 70076 9 70253 100 0 0 0        * a pale white fish
+M 0 70077 4 70254 100 0 0 0        * a freshwater shark
+M 0 70076 9 70255 100 0 0 0        * a pale white fish
+M 0 70090 9 70256 100 0 0 0        * a gold fish
+M 0 70076 9 70257 100 0 0 0        * a pale white fish
+M 0 70090 9 70258 100 0 0 0        * a gold fish
+M 0 70076 9 70259 100 0 0 0        * a pale white fish
+M 0 70077 4 70260 100 0 0 0        * a freshwater shark
+M 0 70076 9 70261 100 0 0 0        * a pale white fish
+M 0 70076 9 70263 100 0 0 0        * a pale white fish
+M 0 70090 9 70264 100 0 0 0        * a gold fish
+M 0 70076 9 70265 100 0 0 0        * a pale white fish
+M 0 70090 9 70266 100 0 0 0        * a gold fish
+M 0 70077 4 70269 100 0 0 0        * a freshwater shark
+M 0 70090 9 70270 100 0 0 0        * a gold fish
+M 0 70081 2 70275 100 0 0 0        * an apprentice shaman
+M 0 70081 2 70275 100 0 0 0        * an apprentice shaman
+M 0 70078 1 70276 100 0 0 0        * a shamanic merchant
+G 1 70068 1 0 100 0 0 0            *    a skull-topped staff
+G 1 70069 1 0 100 0 0 0            *    a fractured boar's tusk
+G 1 70070 1 0 100 0 0 0            *    a soapstone figurine
+G 1 70071 1 0 100 0 0 0            *    a small pine cone
+G 1 70072 1 0 100 0 0 0            *    some buffalo-hide sleeves
+G 1 70076 1 0 100 0 0 0            *    a bracelet of beads
+M 0 70079 1 70277 100 0 0 0        * Burgo
+M 0 70080 2 70277 100 0 0 0        * a dark spirit
+M 0 70080 2 70277 100 0 0 0        * a dark spirit
+M 0 70082 1 70280 100 0 0 0        * Ghash
+G 1 70077 1 0 100 0 0 0            *    a steel shortsword
+G 1 70081 1 0 100 0 0 0            *    a well-balanced two-handed sword
+G 1 70079 1 0 100 0 0 0            *    a small iron mace
+G 1 70080 1 0 100 0 0 0            *    an iron-shod staff
+G 1 70078 3 0 100 0 0 0            *    a fine steel dagger
+M 0 70083 1 70281 100 0 0 0        * Roge
+G 1 70082 1 0 100 0 0 0            *    iron boots
+G 1 70086 1 0 100 0 0 0            *    an iron battle helm
+G 1 70083 1 0 100 0 0 0            *    steel leggings
+G 1 70084 1 0 100 0 0 0            *    a steel breastplate
+G 1 70085 1 0 100 0 0 0            *    steel sleeves
+G 1 70087 1 0 100 0 0 0            *    steel gauntlets
+M 0 70084 1 70286 100 0 0 0        * Glab
+M 0 70088 5 70286 100 0 0 0        * a goblin noble
+M 0 70055 8 70286 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70286 100 0 0 0       * a huge warg (following)
+M 0 70088 5 70296 100 0 0 0        * a goblin noble
+M 0 70044 8 70296 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70296 100 0 0 0       * a huge warg (following)
+M 0 70044 8 70296 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70296 100 0 0 0       * a huge warg (following)
+M 0 70055 8 70297 100 0 0 0        * an elite goblin guard
+M 0 70087 10 70297 100 0 0 0       * a scarab beetle
+M 0 70086 10 70298 100 0 0 0       * a grub
+M 0 70007 9 70298 100 0 0 0        * a baby goblin
+M 0 70087 10 70299 100 0 0 0       * a scarab beetle
+M 0 70055 8 70299 100 0 0 0        * an elite goblin guard
+M 0 70088 5 70299 100 0 0 0        * a goblin noble
+M 0 70108 4 70299 100 0 0 0        * a crazed warg
+M 0 70086 10 70301 100 0 0 0       * a grub
+M 0 70007 9 70301 100 0 0 0        * a baby goblin
+M 0 70086 10 70302 100 0 0 0       * a grub
+M 0 70007 9 70302 100 0 0 0        * a baby goblin
+M 0 70108 4 70302 100 0 0 0        * a crazed warg
+M 0 70087 10 70303 100 0 0 0       * a scarab beetle
+M 0 70055 8 70303 100 0 0 0        * an elite goblin guard
+M 0 70086 10 70303 100 0 0 0       * a grub
+M 0 70108 4 70303 100 0 0 0        * a crazed warg
+M 0 70087 10 70304 100 0 0 0       * a scarab beetle
+M 0 70033 1 70304 100 0 0 0        * a press-gang leader
+F 1 70032 3 70304 100 0 0 0        * a press-gang member (following)
+F 1 70032 3 70304 100 0 0 0        * a press-gang member (following)
+F 1 70032 3 70304 100 0 0 0        * a press-gang member (following)
+M 0 70086 10 70304 100 0 0 0       * a grub
+M 0 70086 10 70305 100 0 0 0       * a grub
+M 0 70007 9 70305 100 0 0 0        * a baby goblin
+M 0 70055 8 70306 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70306 100 0 0 0       * a huge warg (following)
+M 0 70007 9 70306 100 0 0 0        * a baby goblin
+M 0 70108 4 70306 100 0 0 0        * a crazed warg
+M 0 70087 10 70307 100 0 0 0       * a scarab beetle
+M 0 70086 10 70308 100 0 0 0       * a grub
+M 0 70007 9 70308 100 0 0 0        * a baby goblin
+M 0 70088 5 70309 100 0 0 0        * a goblin noble
+M 0 70055 8 70309 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70309 100 0 0 0       * a huge warg (following)
+M 0 70086 10 70309 100 0 0 0       * a grub
+M 0 70007 9 70309 100 0 0 0        * a baby goblin
+M 0 70044 8 70310 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70310 100 0 0 0       * a huge warg (following)
+M 0 70044 8 70310 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70310 100 0 0 0       * a huge warg (following)
+M 0 70044 8 70310 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70310 100 0 0 0       * a huge warg (following)
+M 0 70055 8 70312 100 0 0 0        * an elite goblin guard
+F 1 70107 11 70312 100 0 0 0       * a huge warg (following)
+M 0 70075 1 70314 100 0 0 0        * a giant crayfish
+E 1 70067 1 5 100 0 0 0            *   chitinous armor
+M 0 70006 3 70316 100 0 0 0        * a homely prostitute
+M 0 70006 3 70317 100 0 0 0        * a homely prostitute
+M 0 70085 4 70318 100 0 0 0        * a goblin commmoner
+E 1 70089 3 18 100 0 0 0           *   a half-eaten rat
+M 0 70089 4 70321 100 0 0 0        * a goblin noble
+M 0 70089 4 70322 100 0 0 0        * a goblin noble
+M 0 70087 10 70323 100 0 0 0       * a scarab beetle
+M 0 70018 4 70324 100 0 0 0        * a tired goblin
+M 0 70018 4 70325 100 0 0 0        * a tired goblin
+M 0 70103 9 70326 100 0 0 0        * a vampire bat
+M 0 70103 9 70326 100 0 0 0        * a vampire bat
+M 0 70103 9 70326 100 0 0 0        * a vampire bat
+M 0 70102 1 70327 100 0 0 0        * an overgrown Goblin
+E 1 70045 6 16 100 0 0 0           *   a short steel dagger
+E 1 70045 6 17 100 0 0 0           *   a short steel dagger
+M 0 70103 9 70327 100 0 0 0        * a vampire bat
+M 0 70103 9 70327 100 0 0 0        * a vampire bat
+M 0 70103 9 70327 100 0 0 0        * a vampire bat
+M 0 70103 9 70327 100 0 0 0        * a vampire bat
+M 0 70056 4 70328 100 0 0 0        * a goblin scout
+M 0 70056 4 70328 100 0 0 0        * a goblin scout
+M 0 70103 9 70328 100 0 0 0        * a vampire bat
+M 0 70103 9 70328 100 0 0 0        * a vampire bat
+M 0 70018 4 70329 100 0 0 0        * a tired goblin
+M 0 70086 10 70330 100 0 0 0       * a grub
+M 0 70055 8 70331 100 0 0 0        * an elite goblin guard
+M 0 70087 10 70331 100 0 0 0       * a scarab beetle
+M 0 70007 9 70331 100 0 0 0        * a baby goblin
+M 0 70018 4 70332 100 0 0 0        * a tired goblin
+M 0 70006 3 70333 100 0 0 0        * a homely prostitute
+G 1 70019 1 0 100 0 0 0            *    a sticky key
+M 0 70085 4 70334 100 0 0 0        * a goblin commmoner
+E 1 70089 3 18 100 0 0 0           *   a half-eaten rat
+M 0 70085 4 70335 100 0 0 0        * a goblin commmoner
+E 1 70089 3 18 100 0 0 0           *   a half-eaten rat
+M 0 70094 4 70336 100 0 0 0        * an adult warg
+M 0 70094 4 70336 100 0 0 0        * an adult warg
+M 0 70093 4 70336 100 0 0 0        * a young warg
+M 0 70093 4 70336 100 0 0 0        * a young warg
+M 0 70094 4 70336 100 0 0 0        * an adult warg
+M 0 70094 4 70336 100 0 0 0        * an adult warg
+M 0 70092 4 70337 100 0 0 0        * a warg pup
+M 0 70092 4 70337 100 0 0 0        * a warg pup
+M 0 70093 4 70337 100 0 0 0        * a young warg
+M 0 70093 4 70337 100 0 0 0        * a young warg
+M 0 70092 4 70337 100 0 0 0        * a warg pup
+M 0 70092 4 70337 100 0 0 0        * a warg pup
+M 0 70097 4 70338 100 0 0 0        * a pig
+M 0 70097 4 70338 100 0 0 0        * a pig
+M 0 70097 4 70338 100 0 0 0        * a pig
+M 0 70097 4 70338 100 0 0 0        * a pig
+M 0 70096 3 70339 100 0 0 0        * a sow
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70096 3 70339 100 0 0 0        * a sow
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70096 3 70339 100 0 0 0        * a sow
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70095 6 70339 100 0 0 0        * a piglet
+M 0 70087 10 70340 100 0 0 0       * a scarab beetle
+M 0 70087 10 70341 100 0 0 0       * a scarab beetle
+M 0 70088 5 70341 100 0 0 0        * a goblin noble
+M 0 70007 9 70341 100 0 0 0        * a baby goblin
+M 0 70087 10 70342 100 0 0 0       * a scarab beetle
+M 0 70086 10 70343 100 0 0 0       * a grub
+M 0 70089 4 70344 100 0 0 0        * a goblin noble
+M 0 70089 4 70345 100 0 0 0        * a goblin noble
+M 0 70100 1 70346 100 0 0 0        * Bubgol
+M 0 70101 1 70347 100 0 0 0        * Golag
+M 0 70098 1 70348 100 0 0 0        * Agh
+M 0 70099 1 70349 100 0 0 0        * Gulg
+E 1 70091 1 5 100 0 0 0            *   a rothe-hide tunic
+E 1 70092 1 7 100 0 0 0            *   some pants woven from flax
+M 0 70105 2 70351 100 0 0 0        * an illusionist apprentice
+M 0 70105 2 70351 100 0 0 0        * an illusionist apprentice
+M 0 70104 1 70352 100 0 0 0        * Gorblog
+*
+S

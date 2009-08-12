@@ -1,0 +1,45 @@
+#300
+The Light's Guildhall~
+30022 0 0 40 50 1
+*
+* Zone edited with dikuEdit v2.98h
+*
+*
+*
+O 0 11051 999 30000 100 0 0 0      * (object not in this .OBJ file)
+O 0 11101 999 30003 100 0 0 0      * (object not in this .OBJ file)
+O 0 30000 999 30007 100 0 0 0      * a glowing portal
+O 0 11013 999 30009 100 0 0 0      * (object not in this .OBJ file)
+O 0 11051 999 30010 100 0 0 0      * (object not in this .OBJ file)
+O 0 11101 999 30011 100 0 0 0      * (object not in this .OBJ file)
+O 0 30001 1 30012 100 0 0 0        * a glowing portal
+O 0 11051 999 30020 100 0 0 0      * (object not in this .OBJ file)
+O 0 11101 999 30021 100 0 0 0      * (object not in this .OBJ file)
+O 0 30002 1 30022 100 0 0 0        * a glowing portal
+*
+M 0 30000 8 30000 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30000 100 0 0 0        * a heavenly beam of light
+M 0 30002 1 30000 100 0 0 0        * a heavenly beam of light
+M 0 30003 3 30000 100 0 0 0        * a heavenly beam of light
+M 0 30001 1 30004 100 0 0 0        * Yariena
+G 1 3050 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 412 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 53 999 0 100 0 0 0             *    (object not in this .OBJ file)
+G 1 347 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 364 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 377 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 398 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 6089 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 111 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 108 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 109 999 0 100 0 0 0            *    (object not in this .OBJ file)
+M 0 30003 3 30010 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30010 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30010 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30010 100 0 0 0        * a heavenly beam of light
+M 0 30003 3 30020 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30020 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30020 100 0 0 0        * a heavenly beam of light
+M 0 30000 8 30020 100 0 0 0        * a heavenly beam of light
+*
+S

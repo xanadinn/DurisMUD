@@ -1,0 +1,81 @@
+#19005
+M
+chothe hide strip~
+&N   "I have been known to make leather items from that type of hide.  I can
+make many things.  Ask me more about backpacks, gloves, shirts or shoes."&N
+~
+M
+backpack bp~
+&N   "Give me three strips of &+Ycho&+ythe&N hide and i'll make you a great backpack."&N
+~
+M
+shoes~
+&N   "Give me one strip of&+Y cho&+ythe&N hide and one platinum coin and you can have
+a pair of my special leather shoes.  You can walk forever in them."&N
+~
+M
+shirt~
+&N   "Give me two strips of&+Y cho&+ythe&N hide and two platinum and i'll make you a
+great shirt that is very popular with the shamans of &+gMalch'hor Ganl&N."&N
+~
+M
+gloves~
+&N   "Give me four&+Y cho&+ythe&N hides and ten platinum coins and i'll make you an
+excellent pair of gloves."&N
+~
+Q
+&N   "Here you go!"&N
+~
+R I 19007
+G I 19006
+G C 1000
+Q
+&N   "Here you go!"
+~
+R I 19008
+G I 19006
+G I 19006
+G C 2000
+Q
+&N   "Thank you!  Here you are!"&N
+~
+R I 19009
+G I 19006
+G I 19006
+G I 19006
+Q
+&N   "Here you go!"&N
+~
+R I 19010
+G I 19006
+G I 19006
+G I 19006
+G I 19006
+G C 10000
+S
+#19006
+M
+bone sword~
+&N   "I can make you a sword.  You must bring me a large bone and two different
+kinds of flesh for the handle.  It'll also cost you one hundred
+platinum coins.  Give it all to me and you got yourself a deal.&N
+~
+M
+earring~
+&+L   "I can make you an earring.  Give me two bones and i'll see what I can do."&N
+~
+Q
+&N   "Oh thanks, it was a pleasure to make this for you.  Wield it well!"&N
+~
+R I 19012
+G I 19011
+G I 19013
+G I 19006
+G C 100000
+Q
+&N   "Heh, thanks.  Enjoy the earring."&N
+~
+R I 19014
+G I 19011
+G I 19011
+S

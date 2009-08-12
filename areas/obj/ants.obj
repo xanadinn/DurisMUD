@@ -1,0 +1,60 @@
+#10900
+broken ant leg~
+&+ra broken &+La&+Rn&+Lt &+rleg&n~
+&+rA broken ant leg lay on the floor here.&n~
+~
+19 2 2 0 7 0 4096 16385 0 0 0
+48 0 0 0 0 0 0 0
+3 4 100
+E
+broken ant leg~
+&+r  Rather hard, this broken off ant leg has been gnawed at, most likely&n
+&+rindicating that it is edible.&n
+~
+#10901
+corpse~
+&na &+Rbut&+rche&+Rred &+La&+Rn&+Lt &ncorpse~
+&+LA &+Rbut&+rche&+Rred&+L a&+Rn&+Lt&+L corpse lay mangled in a heap of &+ydri&+re&+yd &+rblo&+yo&+rd.~
+~
+29 15 3 0 7 0 4096 0 0 0 0
+53 10904 5 0 0 0 0 0
+0 0 100
+E
+corpse~
+&+L   This corpse has been severly mutilated.  Its eyes have been torn out,&n
+&+Lseveral of its legs severed, and its antennae ripped off.  A collection&n
+&+Lof aggressive scratch marks expose the innards of this mangled ant, its&n
+&+Lcorpse long frozen into a still death.  Simply looking at the corpse&n
+&+Lfills one with sadness and mourning. In fact, it's making you
+&+Lwant to "cry" over it.&n
+~
+#10902
+handprint print~
+a handprint~
+Handprint trigger to open wall in room 16~
+~
+29 15 3 0 7 0 2 0 0 0 0
+320 10915 0 0 0 0 0 0
+0 0 100
+E
+handprint print~
+Trigger
+~
+#10903
+crown frost~
+&+Wa c&nro&+cwn o&+Cf ethe&+Wrea&+Cl f&+crost~
+&+WA small crown lay here, emitting an aura of intense cold.~
+~
+9 40 3 0 14 80 4096 17 64 4227727360 17154
+5 4 16 2 0 0 0 0
+1 50000 100
+E
+crown frost~
+&+W   Made of some supernatural ice, this tiny crown would fit any mid to small&n
+&+Wsized head.  It bears a series of engraved magical inscriptions on its brow,&n
+&+Wand exudes of a continuous aura of unreal cold.  &n
+~
+A
+5 5
+A
+13 15

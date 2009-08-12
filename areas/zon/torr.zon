@@ -1,0 +1,828 @@
+#790
+City of Fehlnan~
+79299 1 0 20 25 1
+*
+* Zone edited with dikuEdit v2.98f
+*
+*
+D 0 79007 1 1 100 0 0 0
+*     east exit from "Talerenn Way" to
+*     "A Shiny Room" - closed
+*
+D 0 79128 3 1 100 0 0 0
+*     west exit from "A Shiny Room" to
+*     "Talerenn Way" - closed
+*
+D 0 79011 1 1 100 0 0 0
+*     east exit from "Talerenn Way" to
+*     "The Guard's Barracks" - closed
+*
+D 0 79275 3 1 100 0 0 0
+*     west exit from "The Guard's Barracks" to
+*     "Talerenn Way" - closed
+*
+D 0 79011 3 1 100 0 0 0
+*     west exit from "Talerenn Way" to
+*     "The Guard's Barracks" - closed
+*
+D 0 79274 1 1 100 0 0 0
+*     east exit from "The Guard's Barracks" to
+*     "Talerenn Way" - closed
+*
+D 0 79012 0 2 100 0 0 0
+*     north exit from "Before The Palace Gates" to
+*     "The Entrance to King Torrhan's Palace" - closed/locked
+*
+D 0 79166 2 2 100 0 0 0
+*     south exit from "The Entrance to King Torrhan's Palace" to
+*     "Before The Palace Gates" - closed/locked
+*
+D 0 79023 0 1 100 0 0 0
+*     north exit from "Shaiennar Road" to
+*     "An Abandoned Shop" - closed
+*
+D 0 79242 2 1 100 0 0 0
+*     south exit from "An Abandoned Shop" to
+*     "Shaiennar Road" - closed
+*
+D 0 79076 0 1 100 0 0 0
+*     north exit from "Chipane Street" to
+*     "A House of Stone" - closed
+*
+D 0 79233 2 1 100 0 0 0
+*     south exit from "A House of Stone" to
+*     "Chipane Street" - closed
+*
+D 0 79076 2 1 100 0 0 0
+*     south exit from "Chipane Street" to
+*     "A Lavish Home" - closed
+*
+D 0 79232 0 1 100 0 0 0
+*     north exit from "A Lavish Home" to
+*     "Chipane Street" - closed
+*
+D 0 79077 0 1 100 0 0 0
+*     north exit from "Chipane Street" to
+*     "An Expensive Home" - closed
+*
+D 0 79234 2 1 100 0 0 0
+*     south exit from "An Expensive Home" to
+*     "Chipane Street" - closed
+*
+D 0 79081 1 1 100 0 0 0
+*     east exit from "Dead End In An Alley" to
+*     "A Dimly Lit Hallway" - closed
+*
+D 0 79082 3 1 100 0 0 0
+*     west exit from "A Dimly Lit Hallway" to
+*     "Dead End In An Alley" - closed
+*
+D 0 79083 0 1 100 0 0 0
+*     north exit from "A Dimly Lit Hallway" to
+*     "A Large Room" - closed
+*
+D 0 79084 2 1 100 0 0 0
+*     south exit from "A Large Room" to
+*     "A Dimly Lit Hallway" - closed
+*
+D 0 79094 0 1 100 0 0 0
+*     north exit from "Shaiennar Road" to
+*     "The Torrhan School of Knowledge" - closed
+*
+D 0 79280 2 1 100 0 0 0
+*     south exit from "The Torrhan School of Knowledge" to
+*     "Shaiennar Road" - closed
+*
+D 0 79105 1 4 100 0 0 0
+*     east exit from "A Trail Through Rhanale Forest" to
+*     "Through Rhanale Forest" - open/secret
+*
+D 0 79107 3 0 100 0 0 0
+*     west exit from "Through Rhanale Forest" to
+*     "A Trail Through Rhanale Forest" - open
+*
+D 0 79120 0 5 100 0 0 0
+*     north exit from "Deep Within Rhanale Forest" to
+*     "Within A Tree" - closed/secret
+*
+D 0 79121 2 1 100 0 0 0
+*     south exit from "Within A Tree" to
+*     "Deep Within Rhanale Forest" - closed
+*
+D 0 79131 0 1 100 0 0 0
+*     north exit from "Chipane Street" to
+*     "An Old House" - closed
+*
+D 0 79141 2 1 100 0 0 0
+*     south exit from "An Old House" to
+*     "Chipane Street" - closed
+*
+D 0 79133 0 1 100 0 0 0
+*     north exit from "A Bend in Chipane Street" to
+*     "A Small Brick House" - closed
+*
+D 0 79235 2 1 100 0 0 0
+*     south exit from "A Small Brick House" to
+*     "A Bend in Chipane Street" - closed
+*
+D 0 79138 0 1 100 0 0 0
+*     north exit from "Within Tilby's Tavern" to
+*     "A Small Office" - closed
+*
+D 0 79139 2 1 100 0 0 0
+*     south exit from "A Small Office" to
+*     "Within Tilby's Tavern" - closed
+*
+D 0 79140 1 5 100 0 0 0
+*     east exit from "A Rocky Beach" to
+*     "A Narrow Passageway" - closed/secret
+*
+D 0 79151 3 5 100 0 0 0
+*     west exit from "A Narrow Passageway" to
+*     "A Rocky Beach" - closed/secret
+*
+D 0 79150 1 1 100 0 0 0
+*     east exit from "A Clearing Within Rhanale Forest" to
+*     "A Cozy Cabin" - closed
+*
+D 0 79164 3 1 100 0 0 0
+*     west exit from "A Cozy Cabin" to
+*     "A Clearing Within Rhanale Forest" - closed
+*
+D 0 79171 0 1 100 0 0 0
+*     north exit from "An Ancient Hallway" to
+*     "A Small Anteroom" - closed
+*
+D 0 79215 2 1 100 0 0 0
+*     south exit from "A Small Anteroom" to
+*     "An Ancient Hallway" - closed
+*
+D 0 79180 0 2 100 0 0 0
+*     north exit from "The Tower of Choices" to
+*     "The Room of Magic" - closed/locked
+*
+D 0 79181 2 2 100 0 0 0
+*     south exit from "The Room of Magic" to
+*     "The Tower of Choices" - closed/locked
+*
+D 0 79180 1 2 100 0 0 0
+*     east exit from "The Tower of Choices" to
+*     "The Room of Secrecy" - closed/locked
+*
+D 0 79182 3 2 100 0 0 0
+*     west exit from "The Room of Secrecy" to
+*     "The Tower of Choices" - closed/locked
+*
+D 0 79180 2 2 100 0 0 0
+*     south exit from "The Tower of Choices" to
+*     "The Room of Healing" - closed/locked
+*
+D 0 79184 0 2 100 0 0 0
+*     north exit from "The Room of Healing" to
+*     "The Tower of Choices" - closed/locked
+*
+D 0 79180 3 2 100 0 0 0
+*     west exit from "The Tower of Choices" to
+*     "The Room of Warriors" - closed/locked
+*
+D 0 79183 1 2 100 0 0 0
+*     east exit from "The Room of Warriors" to
+*     "The Tower of Choices" - closed/locked
+*
+D 0 79191 0 2 100 0 0 0
+*     north exit from "The Tower of Uncertainty" to
+*     "An Abandoned Room" - closed/locked
+*
+D 0 79214 2 2 100 0 0 0
+*     south exit from "An Abandoned Room" to
+*     "The Tower of Uncertainty" - closed/locked
+*
+D 0 79191 1 2 100 0 0 0
+*     east exit from "The Tower of Uncertainty" to
+*     "An Abandoned Room" - closed/locked
+*
+D 0 79261 3 2 100 0 0 0
+*     west exit from "An Abandoned Room" to
+*     "The Tower of Uncertainty" - closed/locked
+*
+D 0 79191 2 2 100 0 0 0
+*     south exit from "The Tower of Uncertainty" to
+*     "An Abandoned Room" - closed/locked
+*
+D 0 79262 0 2 100 0 0 0
+*     north exit from "An Abandoned Room" to
+*     "The Tower of Uncertainty" - closed/locked
+*
+D 0 79191 3 2 100 0 0 0
+*     west exit from "The Tower of Uncertainty" to
+*     "An Abandoned Room" - closed/locked
+*
+D 0 79263 1 2 100 0 0 0
+*     east exit from "An Abandoned Room" to
+*     "The Tower of Uncertainty" - closed/locked
+*
+D 0 79194 0 2 100 0 0 0
+*     north exit from "Main Hall Through The Palace" to
+*     "Entrance to The Throne Room" - closed/locked
+*
+D 0 79195 2 2 100 0 0 0
+*     south exit from "Entrance to The Throne Room" to
+*     "Main Hall Through The Palace" - closed/locked
+*
+D 0 79208 0 1 100 0 0 0
+*     north exit from "A Dark Corridor" to
+*     "A Smokey Room" - closed
+*
+D 0 79209 2 1 100 0 0 0
+*     south exit from "A Smokey Room" to
+*     "A Dark Corridor" - closed
+*
+D 0 79208 5 6 100 0 0 0
+*     down exit from "A Dark Corridor" to
+*     "A Large Cavern" - closed/locked/secret
+*
+D 0 79222 4 6 100 0 0 0
+*     up exit from "A Large Cavern" to
+*     "A Dark Corridor" - closed/locked/secret
+*
+D 0 79212 2 1 100 0 0 0
+*     south exit from "The Banquet Hall" to
+*     "A Spacious Kitchen" - closed
+*
+D 0 79213 0 1 100 0 0 0
+*     north exit from "A Spacious Kitchen" to
+*     "The Banquet Hall" - closed
+*
+D 0 79215 0 1 100 0 0 0
+*     north exit from "A Small Anteroom" to
+*     "A Tailor's Workshop" - closed
+*
+D 0 79216 2 1 100 0 0 0
+*     south exit from "A Tailor's Workshop" to
+*     "A Small Anteroom" - closed
+*
+D 0 79250 0 1 100 0 0 0
+*     north exit from "A Long Hallway" to
+*     "A Guest Room" - closed
+*
+D 0 79256 2 1 100 0 0 0
+*     south exit from "A Guest Room" to
+*     "A Long Hallway" - closed
+*
+D 0 79250 2 1 100 0 0 0
+*     south exit from "A Long Hallway" to
+*     "A Guest Room" - closed
+*
+D 0 79257 0 1 100 0 0 0
+*     north exit from "A Guest Room" to
+*     "A Long Hallway" - closed
+*
+D 0 79251 0 1 100 0 0 0
+*     north exit from "A Long Hallway" to
+*     "An Extravagant Guest Room" - closed
+*
+D 0 79260 2 1 100 0 0 0
+*     south exit from "An Extravagant Guest Room" to
+*     "A Long Hallway" - closed
+*
+D 0 79255 0 1 100 0 0 0
+*     north exit from "A Long Hallway" to
+*     "King Torrhan's Resting Chambers" - closed
+*
+D 0 79259 2 1 100 0 0 0
+*     south exit from "King Torrhan's Resting Chambers" to
+*     "A Long Hallway" - closed
+*
+D 0 79280 1 1 100 0 0 0
+*     east exit from "The Torrhan School of Knowledge" to
+*     "The Room of Paladins" - closed
+*
+D 0 79289 3 1 100 0 0 0
+*     west exit from "The Room of Paladins" to
+*     "The Torrhan School of Knowledge" - closed
+*
+D 0 79280 3 1 100 0 0 0
+*     west exit from "The Torrhan School of Knowledge" to
+*     "The Room of Rangers" - closed
+*
+D 0 79288 1 1 100 0 0 0
+*     east exit from "The Room of Rangers" to
+*     "The Torrhan School of Knowledge" - closed
+*
+D 0 79281 1 1 100 0 0 0
+*     east exit from "A Short Hallway" to
+*     "The Room of Shamans" - closed
+*
+D 0 79294 3 1 100 0 0 0
+*     west exit from "The Room of Shamans" to
+*     "A Short Hallway" - closed
+*
+D 0 79281 3 1 100 0 0 0
+*     west exit from "A Short Hallway" to
+*     "The Room of Druids" - closed
+*
+D 0 79293 1 1 100 0 0 0
+*     east exit from "The Room of Druids" to
+*     "A Short Hallway" - closed
+*
+D 0 79282 0 1 100 0 0 0
+*     north exit from "A Short Hallway" to
+*     "The Room of Warriors" - closed
+*
+D 0 79287 2 1 100 0 0 0
+*     south exit from "The Room of Warriors" to
+*     "A Short Hallway" - closed
+*
+D 0 79282 1 1 100 0 0 0
+*     east exit from "A Short Hallway" to
+*     "The Room of Mercenaries" - closed
+*
+D 0 79286 3 1 100 0 0 0
+*     west exit from "The Room of Mercenaries" to
+*     "A Short Hallway" - closed
+*
+D 0 79282 3 1 100 0 0 0
+*     west exit from "A Short Hallway" to
+*     "The Room of Anti-Paladins" - closed
+*
+D 0 79285 1 1 100 0 0 0
+*     east exit from "The Room of Anti-Paladins" to
+*     "A Short Hallway" - closed
+*
+D 0 79283 0 1 100 0 0 0
+*     north exit from "A Short Hallway" to
+*     "The Room of Psionicists" - closed
+*
+D 0 79291 2 1 100 0 0 0
+*     south exit from "The Room of Psionicists" to
+*     "A Short Hallway" - closed
+*
+D 0 79283 1 1 100 0 0 0
+*     east exit from "A Short Hallway" to
+*     "The Room of Bards" - closed
+*
+D 0 79292 3 1 100 0 0 0
+*     west exit from "The Room of Bards" to
+*     "A Short Hallway" - closed
+*
+D 0 79283 3 1 100 0 0 0
+*     west exit from "A Short Hallway" to
+*     "The Room of Rogues" - closed
+*
+D 0 79290 1 1 100 0 0 0
+*     east exit from "The Room of Rogues" to
+*     "A Short Hallway" - closed
+*
+D 0 79284 0 1 100 0 0 0
+*     north exit from "A Short Hallway" to
+*     "The Room of Clerics" - closed
+*
+D 0 79295 2 1 100 0 0 0
+*     south exit from "The Room of Clerics" to
+*     "A Short Hallway" - closed
+*
+D 0 79284 1 1 100 0 0 0
+*     east exit from "A Short Hallway" to
+*     "The Room of Sorcerers" - closed
+*
+D 0 79296 3 1 100 0 0 0
+*     west exit from "The Room of Sorcerers" to
+*     "A Short Hallway" - closed
+*
+D 0 79284 3 1 100 0 0 0
+*     west exit from "A Short Hallway" to
+*     "The Room of Conjurers" - closed
+*
+D 0 79297 1 1 100 0 0 0
+*     east exit from "The Room of Conjurers" to
+*     "A Short Hallway" - closed
+*
+D 0 79284 4 1 100 0 0 0
+*     up exit from "A Short Hallway" to
+*     "The Room of Necromancers" - closed
+*
+D 0 79298 5 1 100 0 0 0
+*     down exit from "The Room of Necromancers" to
+*     "A Short Hallway" - closed
+*
+*
+O 0 79000 1 79000 100 0 0 0        * a huge fountain
+O 0 79076 1 79180 100 0 0 0        * a large plaque
+O 0 79033 1 79201 100 0 0 0        * a mighty throne
+O 0 79046 1 79205 100 0 0 0        * a shimmering portal
+O 0 79057 1 79209 100 0 0 0        * a shelf
+P 1 79066 1 79057 100 0 0 0        *   a yellow potion
+O 0 79081 1 79265 100 0 0 0        * some dyed demon-skin sleeves
+O 0 79082 1 79265 100 0 0 0        * some dyed demon-skin leggings
+O 0 79085 1 79266 80 0 0 0         * some unicorn leggings
+O 0 79072 1 79266 80 0 0 0         * a rose of thorns
+O 0 79084 1 79267 100 0 0 0        * a ring of the mermaids
+O 0 79080 1 79268 60 0 0 0         * some robes of protection
+O 0 79090 1 79268 70 0 0 0         * boots of the panther
+O 0 79083 1 79270 100 0 0 0        * ring of the dragons
+*
+M 0 79081 7 79000 100 0 0 0        * a young guard
+M 0 79003 1 79001 100 0 0 0        * an elven woman
+M 0 79050 1 79001 100 0 0 0        * a young girl
+M 0 79151 9 79001 100 0 0 0        * a retired sailor
+M 0 79051 1 79003 100 0 0 0        * a young girl
+M 0 79151 9 79004 100 0 0 0        * a retired sailor
+M 0 79081 7 79005 100 0 0 0        * a young guard
+M 0 79004 5 79005 100 0 0 0        * an elven woman
+M 0 79056 1 79009 100 0 0 0        * a young girl
+M 0 79004 5 79010 100 0 0 0        * an elven woman
+M 0 79005 1 79012 100 0 0 0        * a huge guard
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+G 1 79018 1 0 100 0 0 0            *    a thick iron key
+F 1 79006 1 79012 100 0 0 0        * a huge guard (following)
+E 1 79008 1 16 100 0 0 0           *   a thick, steel longsword
+F 1 79007 1 79012 100 0 0 0        * a huge guard (following)
+E 1 79009 1 16 100 0 0 0           *   a thick, steel longsword
+F 1 79047 1 79012 100 0 0 0        * a huge guard (following)
+E 1 79010 1 16 100 0 0 0           *   a thick, steel longsword
+F 1 79069 1 79012 100 0 0 0        * a huge guard (following)
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+F 1 79070 1 79012 100 0 0 0        * a huge guard (following)
+E 1 79017 1 16 100 0 0 0           *   a thick, steel longsword
+M 0 79004 5 79013 100 0 0 0        * an elven woman
+M 0 79081 7 79013 100 0 0 0        * a young guard
+M 0 79049 1 79014 100 0 0 0        * a young girl
+M 0 79008 1 79015 100 0 0 0        * a dwarven merchant
+G 1 79012 999 0 100 0 0 0          *    a fishscale skirt
+M 0 79000 1 79016 100 0 0 0        * a smiling halfling
+G 1 79003 999 0 100 0 0 0          *    a ripe banana
+G 1 79002 999 0 100 0 0 0          *    a basket of apples
+G 1 79004 999 0 100 0 0 0          *    a bunch of grapes
+M 0 79001 1 79017 100 0 0 0        * a gloomy looking human
+G 1 79005 999 0 100 0 0 0          *    a sharkskin sack
+G 1 79001 999 0 100 0 0 0          *    a tough leather backpack
+M 0 79052 2 79017 100 0 0 0        * a young girl
+M 0 79002 1 79018 100 0 0 0        * an elven woman
+M 0 79053 1 79021 100 0 0 0        * a young girl
+M 0 79081 7 79021 100 0 0 0        * a young guard
+M 0 79151 9 79023 100 0 0 0        * a retired sailor
+M 0 79055 3 79023 100 0 0 0        * a young girl
+M 0 79055 3 79023 100 0 0 0        * a young girl
+M 0 79055 3 79026 100 0 0 0        * a young girl
+M 0 79009 1 79028 100 0 0 0        * a young sailor
+M 0 79028 1 79029 100 0 0 0        * a young sailor
+M 0 79027 1 79031 100 0 0 0        * a young sailor
+M 0 79065 1 79031 100 0 0 0        * an old seaman
+M 0 79064 1 79032 100 0 0 0        * an old seaman
+M 0 79029 1 79033 100 0 0 0        * a young sailor
+M 0 79030 1 79034 100 0 0 0        * a young sailor
+M 0 79045 1 79035 100 0 0 0        * a boat inspector
+M 0 79026 4 79036 100 0 0 0        * a young sailor
+M 0 79014 1 79037 100 0 0 0        * a young sailor
+M 0 79015 1 79037 100 0 0 0        * a young sailor
+M 0 79016 1 79037 100 0 0 0        * a young sailor
+M 0 79017 1 79037 100 0 0 0        * a young sailor
+M 0 79018 1 79038 100 0 0 0        * a young sailor
+M 0 79019 1 79038 100 0 0 0        * a young sailor
+M 0 79020 1 79038 100 0 0 0        * a young sailor
+M 0 79021 1 79038 100 0 0 0        * a young sailor
+M 0 79022 1 79038 100 0 0 0        * a young sailor
+M 0 79023 1 79038 100 0 0 0        * a young sailor
+M 0 79024 1 79038 100 0 0 0        * a young sailor
+M 0 79025 1 79038 100 0 0 0        * a young sailor
+M 0 79010 3 79039 100 0 0 0        * a young sailor
+M 0 79011 1 79039 100 0 0 0        * a young sailor
+M 0 79012 1 79039 100 0 0 0        * a young sailor
+M 0 79013 1 79039 100 0 0 0        * a young sailor
+M 0 79066 1 79040 100 0 0 0        * an old seaman
+M 0 79043 3 79042 100 0 0 0        * a boat inspector
+M 0 79026 4 79043 100 0 0 0        * a young sailor
+M 0 79043 3 79045 100 0 0 0        * a boat inspector
+M 0 79026 4 79045 100 0 0 0        * a young sailor
+M 0 79026 4 79045 100 0 0 0        * a young sailor
+M 0 79042 2 79046 100 0 0 0        * a boat inspector
+M 0 79054 1 79049 100 0 0 0        * a young girl
+M 0 79063 1 79051 100 0 0 0        * an old seaman
+M 0 79061 1 79055 100 0 0 0        * an old seaman
+M 0 79060 3 79058 100 0 0 0        * an old seaman
+M 0 79036 1 79060 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79037 1 79061 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79038 1 79061 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79043 3 79061 100 0 0 0        * a boat inspector
+M 0 79067 2 79062 100 0 0 0        * an old seaman
+M 0 79067 2 79062 100 0 0 0        * an old seaman
+M 0 79040 1 79063 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79039 4 79063 100 0 0 0        * a fisherman
+M 0 79039 4 79064 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79039 4 79064 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79039 4 79064 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79031 1 79066 100 0 0 0        * Aineila
+E 1 79007 1 7 100 0 0 0            *   a pair of mermaid leggings
+G 1 79013 1 0 100 0 0 0            *    a shimmering lyre
+M 0 79062 1 79069 100 0 0 0        * an old seaman
+M 0 79034 1 79070 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79035 1 79070 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79032 1 79072 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79044 1 79072 100 0 0 0        * a boat inspector
+M 0 79033 1 79073 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79041 3 79073 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79041 3 79075 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79041 3 79075 100 0 0 0        * a fisherman
+G 1 79109 15 0 100 0 0 0           *    a fishing pole
+M 0 79151 9 79076 100 0 0 0        * a retired sailor
+M 0 79057 1 79078 100 0 0 0        * a crazy man
+E 1 79015 1 6 100 0 0 0            *   a large brooming hat
+M 0 79081 7 79078 100 0 0 0        * a young guard
+M 0 79046 1 79084 100 0 0 0        * Marthona
+M 0 79060 3 79086 100 0 0 0        * an old seaman
+M 0 79060 3 79086 100 0 0 0        * an old seaman
+M 0 79042 2 79087 100 0 0 0        * a boat inspector
+M 0 79010 3 79088 100 0 0 0        * a young sailor
+M 0 79010 3 79088 100 0 0 0        * a young sailor
+M 0 79102 1 79089 100 0 0 0        * a boat merchant
+M 0 79058 1 79090 100 0 0 0        * a captain
+E 1 79014 1 14 100 0 0 0           *   a dull grey bracelet
+M 0 79059 1 79090 100 0 0 0        * an old seaman
+M 0 79081 7 79095 100 0 0 0        * a young guard
+M 0 79151 9 79095 100 0 0 0        * a retired sailor
+M 0 79151 9 79095 100 0 0 0        * a retired sailor
+M 0 79004 5 79097 100 0 0 0        * an elven woman
+M 0 79052 2 79098 100 0 0 0        * a young girl
+M 0 79068 1 79101 100 0 0 0        * a dwarven boy
+M 0 79082 5 79101 100 0 0 0        * a raccoon
+M 0 79082 5 79108 100 0 0 0        * a raccoon
+M 0 79146 8 79109 100 0 0 0        * a small brown bear
+M 0 79082 5 79112 100 0 0 0        * a raccoon
+M 0 79146 8 79113 100 0 0 0        * a small brown bear
+M 0 79146 8 79116 100 0 0 0        * a small brown bear
+M 0 79101 1 79121 100 0 0 0        *  the owl lady
+G 1 79068 1 0 100 0 0 0            *    a large white feather
+M 0 79082 5 79122 100 0 0 0        * a raccoon
+M 0 79146 8 79122 100 0 0 0        * a small brown bear
+M 0 79146 8 79123 100 0 0 0        * a small brown bear
+M 0 79048 1 79124 100 0 0 0        * a giant green dragon
+G 1 79011 1 0 100 0 0 0            *    some green dragonscales
+M 0 79078 1 79125 100 0 0 0        * a curious halfling
+E 1 79020 1 8 100 0 0 0            *   some strange boots
+M 0 79071 1 79128 100 0 0 0        * Thurdorf
+M 0 79004 5 79128 100 0 0 0        * an elven woman
+M 0 79149 5 79129 100 0 0 0        * a seagull
+M 0 79149 5 79130 100 0 0 0        * a seagull
+M 0 79151 9 79132 100 0 0 0        * a retired sailor
+M 0 79081 7 79134 100 0 0 0        * a young guard
+M 0 79151 9 79134 100 0 0 0        * a retired sailor
+M 0 79072 3 79135 100 0 0 0        * a drunken sailor
+M 0 79072 3 79135 100 0 0 0        * a drunken sailor
+M 0 79103 3 79135 100 0 0 0        * a waiter
+M 0 79072 3 79136 100 0 0 0        * a drunken sailor
+M 0 79073 1 79136 100 0 0 0        * a drunken sailor
+M 0 79074 1 79136 100 0 0 0        * a drunken sailor
+M 0 79103 3 79136 100 0 0 0        * a waiter
+M 0 79075 1 79137 100 0 0 0        * a drunken sailor
+M 0 79076 3 79137 100 0 0 0        * a drunken sailor
+M 0 79103 3 79137 100 0 0 0        * a waiter
+M 0 79076 3 79138 100 0 0 0        * a drunken sailor
+M 0 79076 3 79138 100 0 0 0        * a drunken sailor
+M 0 79077 1 79139 100 0 0 0        * Tilby
+M 0 79150 5 79141 100 0 0 0        * a wealthy man
+M 0 79082 5 79144 100 0 0 0        * a raccoon
+M 0 79146 8 79145 100 0 0 0        * a small brown bear
+M 0 79146 8 79149 100 0 0 0        * a small brown bear
+M 0 79146 8 79149 100 0 0 0        * a small brown bear
+M 0 79145 7 79154 100 0 0 0        * a large brown rat
+M 0 79145 7 79156 100 0 0 0        * a large brown rat
+M 0 79145 7 79160 100 0 0 0        * a large brown rat
+M 0 79145 7 79162 100 0 0 0        * a large brown rat
+M 0 79149 5 79163 100 0 0 0        * a seagull
+M 0 79079 1 79164 100 0 0 0        * a fearsome centaur
+E 1 79022 1 35 100 0 0 0           *   a sturdy saddle
+F 1 79080 1 79164 100 0 0 0        * a grey elf warrior (following)
+E 1 79023 1 16 100 0 0 0           *   a shimmering longsword
+M 0 79154 1 79165 100 0 0 0        * a wounded grey elf
+E 1 79107 1 6 100 0 0 0            *   a dull silver helmet
+M 0 79095 10 79166 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79100 8 79166 100 0 0 0        * a guardian enchantress
+M 0 79095 10 79169 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79095 10 79178 100 0 0 0       * a patrolling guard
+M 0 79095 10 79179 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79153 1 79180 100 0 0 0        * an angry wraith
+M 0 79083 1 79181 100 0 0 0        * an angry mage
+E 1 79062 1 3 50 0 0 0             *   a pendant of fire
+E 1 79027 1 8 100 0 0 0            *   some boots of enchantment
+E 1 79026 1 10 80 0 0 0            *   the sleeves of sorcery
+E 1 79025 1 20 100 0 0 0           *   veil of darkness
+G 1 79047 1 0 100 0 0 0            *    an enchanted spellbook
+M 0 79085 1 79182 100 0 0 0        * a devious rogue
+E 1 79063 1 3 100 0 0 0            *   a pendant of fire
+E 1 79029 1 16 100 0 0 0           *   a glowing stiletto
+E 1 79061 1 18 100 0 0 0           *   horn of the bards
+E 1 79019 1 21 100 0 0 0           *   a shark tooth earring
+G 1 79049 3 0 100 0 0 0            *    some shiny silver lockpicks
+G 1 79049 3 0 100 0 0 0            *    some shiny silver lockpicks
+G 1 79049 3 0 100 0 0 0            *    some shiny silver lockpicks
+M 0 79084 1 79183 100 0 0 0        * a fearsome warrior
+E 1 79059 1 5 100 0 0 0            *   some platemail covered in ancient runes
+E 1 79060 1 9 100 0 0 0            *   gauntlets of might
+E 1 79030 1 19 70 0 0 0            *   a thick leather eyepiece
+E 1 79035 1 16 100 0 0 0           *   a heavy trident
+G 1 79050 1 0 100 0 0 0            *    a heavy iron shield
+M 0 79086 1 79184 100 0 0 0        * a powerful priest
+E 1 79058 1 5 30 0 0 0             *   some platemail covered in ancient runes
+E 1 79036 1 7 100 0 0 0            *   some bright blue leg plates
+E 1 79032 1 14 100 0 0 0           *   a circlet of sorrow
+E 1 79064 1 19 30 0 0 0            *   a thick leather eyepiece
+E 1 79031 1 24 100 0 0 0           *   a badge of promise
+G 1 79048 1 0 100 0 0 0            *    the totem of healing
+M 0 79100 8 79186 100 0 0 0        * a guardian enchantress
+M 0 79100 8 79188 100 0 0 0        * a guardian enchantress
+M 0 79095 10 79189 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79112 4 79191 100 0 0 0        * an uneasy troll guard
+M 0 79112 4 79191 100 0 0 0        * an uneasy troll guard
+M 0 79112 4 79191 100 0 0 0        * an uneasy troll guard
+G 1 79079 1 0 100 0 0 0            *    a slimy black key
+M 0 79112 4 79191 100 0 0 0        * an uneasy troll guard
+M 0 79155 1 79191 100 0 0 0        * an uneasy troll guard
+M 0 79100 8 79192 100 0 0 0        * a guardian enchantress
+M 0 79095 10 79194 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79095 10 79195 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79147 2 79195 100 0 0 0        * a palace guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+F 1 79147 2 79195 100 0 0 0        * a palace guard (following)
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79092 1 79201 100 0 0 0        * King Torrhan
+E 1 79052 1 6 100 0 0 0            *   the crown of kingdoms
+M 0 79096 1 79201 100 0 0 0        * the King's advisor
+E 1 79051 1 12 100 0 0 0           *   the cloak of enchantment
+G 1 79028 1 0 100 0 0 0            *    drums of battle
+F 1 79097 4 79201 100 0 0 0        * a palace guard (following)
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+F 1 79097 4 79201 100 0 0 0        * a palace guard (following)
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+F 1 79097 4 79201 100 0 0 0        * a palace guard (following)
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+F 1 79097 4 79201 100 0 0 0        * a palace guard (following)
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+M 0 79089 1 79204 100 0 0 0        * a huge guard
+F 1 79088 1 79204 100 0 0 0        * a huge guard (following)
+F 1 79090 1 79204 100 0 0 0        * a huge guard (following)
+F 1 79091 1 79204 100 0 0 0        * a huge guard (following)
+M 0 79087 1 79205 100 0 0 0        * Zrilxa
+G 1 79024 1 0 100 0 0 0            *    a glowing key
+G 1 79103 1 0 100 0 0 0            *    the heart of Zrilxa
+M 0 79095 10 79206 100 0 0 0       * a patrolling guard
+M 0 79100 8 79207 100 0 0 0        * a guardian enchantress
+G 1 79053 1 0 100 0 0 0            *    a thick gold key
+M 0 79094 1 79209 100 0 0 0        * a watchful drow elf
+F 1 79093 1 79209 100 0 0 0        * a scowling half-elf (following)
+M 0 79110 8 79211 100 0 0 0        * a massive ogre
+M 0 79110 8 79211 100 0 0 0        * a massive ogre
+M 0 79110 8 79211 100 0 0 0        * a massive ogre
+M 0 79110 8 79211 100 0 0 0        * a massive ogre
+M 0 79111 1 79211 100 0 0 0        * a massive ogre
+E 1 79078 1 14 100 0 0 0           *   a blackened bracelet of the ogre chiefs
+M 0 79110 8 79211 100 0 0 0        * a massive ogre
+M 0 79100 8 79212 100 0 0 0        * a guardian enchantress
+M 0 79110 8 79212 100 0 0 0        * a massive ogre
+M 0 79110 8 79212 100 0 0 0        * a massive ogre
+E 1 79100 1 5 100 0 0 0            *   some ringmail stained with blood
+M 0 79110 8 79212 100 0 0 0        * a massive ogre
+M 0 79144 1 79213 100 0 0 0        * the palace cook
+E 1 79101 1 6 100 0 0 0            *   a silver cooking pot
+E 1 79102 1 13 100 0 0 0           *   a food stained apron
+M 0 79104 1 79215 60 0 0 0         * a noble
+E 1 79077 1 19 100 0 0 0           *   some snake eyes
+M 0 79098 1 79216 100 0 0 0        * the King's tailor
+M 0 79145 7 79219 100 0 0 0        * a large brown rat
+M 0 79099 1 79222 100 0 0 0        * a translucent dragon
+G 1 79037 1 0 100 0 0 0            *    some translucent cloth
+M 0 79145 7 79227 100 0 0 0        * a large brown rat
+M 0 79145 7 79227 100 0 0 0        * a large brown rat
+M 0 79125 1 79228 100 0 0 0        * Tirila
+G 1 79096 999 0 100 0 0 0          *    a sharkskin covered spellbook
+G 1 79097 999 0 100 0 0 0          *    a scroll of identify
+G 1 79098 999 0 100 0 0 0          *    a translucent potion
+M 0 79124 1 79229 100 0 0 0        * a fat halfling
+G 1 79094 999 0 100 0 0 0          *    a strawberry pastry
+G 1 79095 999 0 100 0 0 0          *    a sugary doughnut
+M 0 79123 1 79230 100 0 0 0        * Torrok's assistant
+G 1 79091 999 0 100 0 0 0          *    a sharkskin backpack
+G 1 79092 999 0 100 0 0 0          *    some live worms
+G 1 79093 999 0 100 0 0 0          *    a seashell lantern
+M 0 79151 9 79230 100 0 0 0        * a retired sailor
+M 0 79121 1 79231 100 0 0 0        * Torrok
+M 0 79109 3 79232 100 0 0 0        * a spoiled elf
+M 0 79150 5 79232 100 0 0 0        * a wealthy man
+M 0 79143 1 79233 100 0 0 0        * a tiny gnome
+M 0 79109 3 79233 100 0 0 0        * a spoiled elf
+M 0 79150 5 79234 100 0 0 0        * a wealthy man
+M 0 79150 5 79234 100 0 0 0        * a wealthy man
+M 0 79150 5 79235 100 0 0 0        * a wealthy man
+M 0 79109 3 79235 100 0 0 0        * a spoiled elf
+M 0 79152 1 79236 100 0 0 0        * a fish merchant
+M 0 79149 5 79240 100 0 0 0        * a seagull
+M 0 79108 1 79241 100 0 0 0        * an old fisherman
+M 0 79100 8 79245 100 0 0 0        * a guardian enchantress
+M 0 79095 10 79247 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79095 10 79251 100 0 0 0       * a patrolling guard
+E 1 79016 11 16 100 0 0 0          *   a thick, steel longsword
+M 0 79100 8 79255 100 0 0 0        * a guardian enchantress
+M 0 79148 1 79256 20 0 0 0         * a tired duergar
+E 1 79106 1 21 100 0 0 0           *   a sapphire earring
+M 0 79157 9 79256 100 0 0 0        * an elite bodyguard
+M 0 79157 9 79256 100 0 0 0        * an elite bodyguard
+M 0 79106 1 79257 100 0 0 0        * a minotaur diplomat
+E 1 79071 1 40 95 0 0 0            *   horns of the buffalo
+M 0 79157 9 79257 100 0 0 0        * an elite bodyguard
+M 0 79157 9 79257 100 0 0 0        * an elite bodyguard
+M 0 79157 9 79257 100 0 0 0        * an elite bodyguard
+M 0 79107 1 79258 60 0 0 0         * a silent rogue
+G 1 79056 1 0 100 0 0 0            *    the bag of thieves
+M 0 79105 1 79260 100 0 0 0        * a decorated ambassador
+E 1 79070 1 1 100 0 0 0            *   a ring of wisdom
+M 0 79157 9 79260 100 0 0 0        * an elite bodyguard
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+M 0 79157 9 79260 100 0 0 0        * an elite bodyguard
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+M 0 79157 9 79260 100 0 0 0        * an elite bodyguard
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+M 0 79157 9 79260 100 0 0 0        * an elite bodyguard
+E 1 79006 9 16 100 0 0 0           *   a thick, steel longsword
+M 0 79113 1 79264 70 0 0 0         * a deformed goblin
+M 0 79114 2 79264 100 0 0 0        * a lesser demon
+M 0 79114 2 79264 100 0 0 0        * a lesser demon
+M 0 79115 2 79264 90 0 0 0         * an unrecognizable creature
+M 0 79116 2 79264 100 0 0 0        * a huge red spider
+E 1 79086 1 20 100 0 0 0           *   a mask of spider webs
+F 1 79117 3 79264 100 0 0 0        * a small black spider (following)
+F 1 79117 3 79264 100 0 0 0        * a small black spider (following)
+M 0 79115 2 79264 100 0 0 0        * an unrecognizable creature
+M 0 79118 3 79264 100 0 0 0        * a greater demon
+E 1 79087 1 11 100 0 0 0           *   the shield of demons
+M 0 79118 3 79264 100 0 0 0        * a greater demon
+M 0 79119 1 79264 40 0 0 0         * a broken faerie
+E 1 79089 1 3 100 0 0 0            *   a token of the faeries
+M 0 79120 1 79264 100 0 0 0        * a frightened gnome
+M 0 79118 3 79264 100 0 0 0        * a greater demon
+M 0 79116 2 79264 100 0 0 0        * a huge red spider
+F 1 79117 3 79264 100 0 0 0        * a small black spider (following)
+M 0 79156 2 79264 100 0 0 0        * a giant ogre
+M 0 79156 2 79264 100 0 0 0        * a giant ogre
+M 0 79122 4 79272 100 0 0 0        * a fisherman
+M 0 79122 4 79272 100 0 0 0        * a fisherman
+M 0 79149 5 79272 100 0 0 0        * a seagull
+M 0 79122 4 79273 100 0 0 0        * a fisherman
+M 0 79122 4 79273 100 0 0 0        * a fisherman
+M 0 79126 12 79274 100 0 0 0       * a city guard
+M 0 79126 12 79274 100 0 0 0       * a city guard
+M 0 79126 12 79274 100 0 0 0       * a city guard
+M 0 79126 12 79275 100 0 0 0       * a city guard
+M 0 79126 12 79275 100 0 0 0       * a city guard
+M 0 79126 12 79275 100 0 0 0       * a city guard
+M 0 79126 12 79276 100 0 0 0       * a city guard
+M 0 79126 12 79276 100 0 0 0       * a city guard
+M 0 79126 12 79276 100 0 0 0       * a city guard
+M 0 79126 12 79277 100 0 0 0       * a city guard
+M 0 79126 12 79277 100 0 0 0       * a city guard
+M 0 79126 12 79277 100 0 0 0       * a city guard
+M 0 79127 2 79278 100 0 0 0        * burly guard
+M 0 79127 2 79279 100 0 0 0        * burly guard
+M 0 79132 1 79285 100 0 0 0        * Derm
+G 1 79098 999 0 100 0 0 0          *    a translucent potion
+M 0 79131 1 79286 100 0 0 0        * Xilarin
+M 0 79130 1 79287 100 0 0 0        * Draloth
+M 0 79128 1 79288 100 0 0 0        * Shahala
+E 1 79110 1 16 100 0 0 0           *   a lightweight longsword
+M 0 79129 1 79289 100 0 0 0        * Plaron
+M 0 79133 1 79290 100 0 0 0        * Rhogrim
+M 0 79137 1 79291 100 0 0 0        * Twyglyroo
+E 1 79113 1 6 100 0 0 0            *   a crown of the gnomes
+M 0 79134 1 79292 100 0 0 0        * Slilatel
+M 0 79135 1 79293 100 0 0 0        * Durgen
+E 1 79111 1 1 100 0 0 0            *   a ring of leaves
+M 0 79136 1 79294 100 0 0 0        * Ona
+E 1 79112 1 18 100 0 0 0           *   a painted blue staff
+M 0 79139 1 79295 100 0 0 0        * Tibbe
+M 0 79140 1 79296 100 0 0 0        * Nirrel
+G 1 79099 1 0 100 0 0 0            *    a long green wood staff
+M 0 79138 1 79297 100 0 0 0        * Llyren
+M 0 79141 1 79298 100 0 0 0        * Tamor
+E 1 79114 1 9 100 0 0 0            *   some thick drow-skin gloves
+M 0 79142 1 79299 100 0 0 0        * Riralin, the innkeeper
+*
+S

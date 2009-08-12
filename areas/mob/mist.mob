@@ -1,0 +1,131 @@
+#6300
+spider large black~
+&+La large black spider&n~
+&+LA large black spider, looking for prey,&n stands here.
+~
+&+L  This spider must be over four feet tall and weigh over two hundred
+&+Lpounds, as it moves through the thick branches of the tree. It has
+&+Lhuge bloody fangs with which it injects poison into its enemies.
+~
+1073743944 0 0 0 0 0 0 0 S
+AS 0 1 -1
+30 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 0
+#6301
+spider small~
+&+La small black spider&n~
+&+LA small black spider stands here ready to attack!&n
+~
+&+LLike the other spiders of the area, this spider is completely black and
+&+Lhas small fangs to which it injects venom.
+~
+1073743944 0 0 32 0 0 0 1 S
+AS 0 1 -1
+27 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 0
+#6302
+swarm insects~
+&+La swarm of small insects&n~
+&+LA swarm of small insects turns the air black.&n
+~
+  This swarm of insects is made up of just about every insect there is, and
+it moves from place to place feeding on whatever it can.  Among the insects,
+are flying, crawling, jumping, and poisonous ones. At times, it is impossible
+to see with these insects in the way.
+~
+1073743944 0 0 0 0 0 0 0 S
+I 0 1 -1
+35 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 0
+#6303
+treant~
+&+ga huge treant&n~
+&+gA huge treant stands here, protecting the forest.&n
+~
+This huge tree come alive walks around the forest, protecting it from the
+advancing civilizations of the world. It must stand over fifty feet tall,
+and looks very strong.
+~
+1073743948 0 0 0 0 0 0 1000 S
+VT 0 1 -1
+40 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 0
+#6304
+grolen druid~
+Grolen~
+&+LGrolen, the shadow druid, protects his forest here.&n
+~
+  Grolen appears to be a human and resides over this land. He has a dark
+personality, but seems to love his forest. He looks like he has never
+been to a city and has lived here his whole life.  He spends his time
+summoning hordes of insects to watch over his forest.
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 128 -1
+39 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 1
+#6305
+darnac~
+&+LDarnac&n~
+&+LDarnac, the great thief, stands here.
+~
+  This shadowy man seems to slip through the shadows and is almost
+undetectable at this point. He can only be seen wearing a dark cloak
+that covers his entire body. He seems to be friends of the shadow
+druids and supports their cause, for whatever reason he has.
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 8192 -1
+40 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 0
+#6306
+paladin palon~
+&+WPalon&n~
+&+WPalon, the great paladin&n stands here.
+~
+  This paladin seems to be on a quest to hunt down the burners of towns.
+He has tracked the group here into this forest, and is mainly looking
+for Darnac, the rapist who he has been on the tail of since Ako village.
+~
+1073743948 0 0 0 0 0 0 1000 S
+PH 0 8 -1
+40 0 0 0d0+0 0d0+0
+0.0.0.0 0
+8 8 1
+#6307
+guardian druid~
+&+La guardian druid&n~
+&+LA guardian druid prevents passage to the unwelcome.&n
+~
+&+L  This druid seems to prevent the passage of anyone who might disturb
+&+Lthe tranquility of the forest.  For instance, he prevents such highly
+&+Ltrained people from ravaging the forest with their spells and battle.
+&+LInterested in only preserving the peace, he won't budge for anyone.
+~
+14411 0 0 807534744 14529 0 0 0 S
+G 0 128 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#6308
+traveller human~
+&+La human traveller&n~
+&+LA human traveller roams through the forest.
+~
+&+L  This human traveller, originating from Tharnadia, has wandered into
+&+Lthe mist forest.  He wears the standard vorhide gear that one can
+&+Laquire in Tharnadia, and wears a rose as a badge, probably found in
+&+Lthe castle of Tharnadia.  He seems to enjoy the forest, finally being
+&+Lable to train in peace and quiet without the orcish hoardes chasing him.
+~
+1073743948 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

@@ -1,0 +1,411 @@
+#230
+&+BN&+by'&+BN&+beth's&+L Stronghold&n~
+23100 0 0 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 23001 1 2 100 0 0 0
+*     east exit from "A Roughly Hewn Hallway" to
+*     "A Tunnel to the Workshop" - closed/locked
+*
+D 0 23038 3 2 100 0 0 0
+*     west exit from "A Tunnel to the Workshop" to
+*     "A Roughly Hewn Hallway" - closed/locked
+*
+D 0 23002 3 2 100 0 0 0
+*     west exit from "A Roughly Hewn Hallway" to
+*     "Main Passage in the Ore Mines" - closed/locked
+*
+D 0 23003 1 2 100 0 0 0
+*     east exit from "Main Passage in the Ore Mines" to
+*     "A Roughly Hewn Hallway" - closed/locked
+*
+D 0 23029 1 6 100 0 0 0
+*     east exit from "A Mining Tunnel Through Solid Perversium" to
+*     "Beginning of some Mining Cart Tracks" - closed/locked/secret
+*
+D 0 23032 3 6 100 0 0 0
+*     west exit from "Beginning of some Mining Cart Tracks" to
+*     "A Mining Tunnel Through Solid Perversium" - closed/locked/secret
+*
+D 0 23034 1 2 100 0 0 0
+*     east exit from "A Smooth Passage" to
+*     "The Sorting Room" - closed/locked
+*
+D 0 23037 3 2 100 0 0 0
+*     west exit from "The Sorting Room" to
+*     "A Smooth Passage" - closed/locked
+*
+D 0 23042 1 2 100 0 0 0
+*     east exit from "A Tunnel to the Workshop" to
+*     "Caverns of the Upper Underworld" - closed/locked
+*
+D 0 23065 3 2 100 0 0 0
+*     west exit from "Caverns of the Upper Underworld" to
+*     "A Tunnel to the Workshop" - closed/locked
+*
+D 0 23043 0 1 100 0 0 0
+*     north exit from "A Tunnel to the Workshop" to
+*     "A Workshop Passage" - closed
+*
+D 0 23044 2 1 100 0 0 0
+*     south exit from "A Workshop Passage" to
+*     "A Tunnel to the Workshop" - closed
+*
+D 0 23044 3 1 100 0 0 0
+*     west exit from "A Workshop Passage" to
+*     "The Summoning Room" - closed
+*
+D 0 23047 1 1 100 0 0 0
+*     east exit from "The Summoning Room" to
+*     "A Workshop Passage" - closed
+*
+D 0 23045 1 1 100 0 0 0
+*     east exit from "A Workshop Passage" to
+*     "The Feeding Room" - closed
+*
+D 0 23048 3 1 100 0 0 0
+*     west exit from "The Feeding Room" to
+*     "A Workshop Passage" - closed
+*
+D 0 23046 0 2 100 0 0 0
+*     north exit from "A Workshop Passage" to
+*     "Inside the Processing Area" - closed/locked
+*
+D 0 23049 2 2 100 0 0 0
+*     south exit from "Inside the Processing Area" to
+*     "A Workshop Passage" - closed/locked
+*
+D 0 23062 0 1 100 0 0 0
+*     north exit from "Inside the Processing Area" to
+*     "The Storage Chamber" - closed
+*
+D 0 23063 2 1 100 0 0 0
+*     south exit from "The Storage Chamber" to
+*     "Inside the Processing Area" - closed
+*
+D 0 23063 0 2 100 0 0 0
+*     north exit from "The Storage Chamber" to
+*     "Ny'Neth's Secret Portal Room" - closed/locked
+*
+D 0 23064 2 2 100 0 0 0
+*     south exit from "Ny'Neth's Secret Portal Room" to
+*     "The Storage Chamber" - closed/locked
+*
+D 0 23096 0 2 100 0 0 0
+*     north exit from "The Lair of Nogoz'Tzel" to
+*     "The Second Vault" - closed/locked
+*
+D 0 23098 2 2 100 0 0 0
+*     south exit from "The Second Vault" to
+*     "The Lair of Nogoz'Tzel" - closed/locked
+*
+*
+O 0 23002 1 23010 100 0 0 0        * a mining cart
+O 0 23000 1 23013 100 0 0 0        * a mining cart
+O 0 23001 1 23014 100 0 0 0        * a mining cart
+O 0 23003 1 23015 100 0 0 0        * a mining cart
+O 0 23006 1 23017 100 0 0 0        * a mining cart
+O 0 23016 1 23017 100 0 0 0        * a chunk of illithite
+O 0 23005 1 23018 100 0 0 0        * a mining cart
+O 0 23009 1 23020 100 0 0 0        * a mining cart
+O 0 23017 1 23020 100 0 0 0        * a chunk of malicite
+O 0 23004 1 23021 100 0 0 0        * a mining cart
+O 0 23007 1 23023 100 0 0 0        * a mining cart
+O 0 23008 1 23024 100 0 0 0        * a mining cart
+O 0 23018 1 23024 100 0 0 0        * a chunk of evilite
+O 0 23010 1 23025 100 0 0 0        * a mining cart
+O 0 23011 1 23028 100 0 0 0        * a mining cart
+O 0 23019 1 23029 100 0 0 0        * a chunk of perversium
+O 0 23012 1 23030 100 0 0 0        * a mining cart
+O 0 23013 1 23031 100 0 0 0        * a mining cart
+O 0 23020 1 23031 100 0 0 0        * a chunk of deathalite
+O 0 23014 1 23032 100 0 0 0        * a mining cart
+O 0 23015 1 23033 100 0 0 0        * a mining cart
+O 0 23022 1 23036 100 0 0 0        * a mining cart
+O 0 23024 1 23042 100 0 0 0        * a demons visage
+O 0 23025 1 23052 100 0 0 0        * a giant cauldron
+O 0 23026 1 23057 100 0 0 0        * a maggot infested corpse
+O 0 23029 1 23064 100 0 0 0        * a painting of the upper underworld
+O 0 23030 1 23071 100 0 0 0        * a demon skeleton
+O 0 23031 1 23081 100 0 0 0        * the frozen figure of a deep gnome
+O 0 23032 1 23095 100 0 0 0        * a magical scroll
+O 0 23033 1 23097 100 0 0 0        * a pile of skulls
+O 0 23055 1 23098 100 0 0 0        * the gauntlets of immortality
+O 0 23056 1 23098 100 0 0 0        * a bloodblade called 'Lifereaver'
+O 0 23057 1 23098 100 0 0 0        * an ancient staff called 'Protector'
+O 0 23058 1 23098 100 0 0 0        * the ring of illusions
+O 0 23059 1 23098 100 0 0 0        * the severed eyes of a demon
+O 0 23060 1 23098 100 0 0 0        * the crown of the blizzard king
+O 0 23061 1 23098 100 0 0 0        * a cloak of demonic subterfuge
+O 0 23063 1 23098 100 0 0 0        * the elven chainmail leggings of speed
+O 0 23071 1 23098 100 0 0 0        * the 3rd key of Ny'Neth
+O 0 22966 2 23098 100 0 0 0        * (object type not in this .obj file)
+O 0 23062 1 23098 100 0 0 0        * a bracelet of wizardry
+O 0 360 1 23098 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 23000 4 23000 100 0 0 0        * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+F 1 23000 4 23000 100 0 0 0        * an illithite golem (following)
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+F 1 23000 4 23000 100 0 0 0        * an illithite golem (following)
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+F 1 23000 4 23000 100 0 0 0        * an illithite golem (following)
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23004 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23002 1 23006 100 0 0 0        * the foreman
+E 1 23036 1 24 100 0 0 0           *   the badge of the foreman
+M 0 23001 13 23007 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23008 6 23007 100 0 0 0        * a deep gnome
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+M 0 23001 13 23008 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23009 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23010 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23011 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23012 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23008 6 23012 100 0 0 0        * a deep gnome
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+M 0 23001 13 23013 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23014 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23035 13 0 100 0 0 0           *    a drop of liquified illithite
+M 0 23001 13 23015 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23001 13 23016 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23001 13 23016 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23008 6 23016 100 0 0 0        * a deep gnome
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+M 0 23001 13 23017 100 0 0 0       * an illithite golem
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23003 4 23018 100 0 0 0        * a malicite golem
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23003 4 23019 100 0 0 0        * a malicite golem
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23003 4 23019 100 0 0 0        * a malicite golem
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23008 6 23019 100 0 0 0        * a deep gnome
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+M 0 23003 4 23020 100 0 0 0        * a malicite golem
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23004 5 23021 100 0 0 0        * an evilite golem
+M 0 23004 5 23022 100 0 0 0        * an evilite golem
+G 1 23039 3 0 100 0 0 0            *    a vial of pure evil
+M 0 23004 5 23023 100 0 0 0        * an evilite golem
+G 1 23039 3 0 100 0 0 0            *    a vial of pure evil
+M 0 23004 5 23023 100 0 0 0        * an evilite golem
+M 0 23008 6 23023 100 0 0 0        * a deep gnome
+M 0 23004 5 23024 100 0 0 0        * an evilite golem
+G 1 23039 3 0 100 0 0 0            *    a vial of pure evil
+M 0 23005 5 23025 100 0 0 0        * a perversium golem
+G 1 23040 4 0 100 0 0 0            *    a sliver of pure perversium
+M 0 23005 5 23026 100 0 0 0        * a perversium golem
+G 1 23040 4 0 100 0 0 0            *    a sliver of pure perversium
+M 0 23006 1 23026 100 0 0 0        * a deep duergar assassin
+E 1 23041 2 16 100 0 0 0           *   a blade of ending
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23005 5 23027 100 0 0 0        * a perversium golem
+G 1 23040 4 0 100 0 0 0            *    a sliver of pure perversium
+M 0 23008 6 23027 100 0 0 0        * a deep gnome
+M 0 23005 5 23028 100 0 0 0        * a perversium golem
+M 0 23005 5 23029 100 0 0 0        * a perversium golem
+G 1 23040 4 0 100 0 0 0            *    a sliver of pure perversium
+M 0 23007 4 23030 100 0 0 0        * a deathalite golem
+M 0 23007 4 23031 100 0 0 0        * a deathalite golem
+G 1 23043 1 0 100 0 0 0            *    an orb of pure deathalite
+M 0 23007 4 23031 100 0 0 0        * a deathalite golem
+M 0 23007 4 23031 100 0 0 0        * a deathalite golem
+M 0 23011 1 23035 100 0 0 0        * a deep cube
+G 1 23045 1 0 100 0 0 0            *    a potion of slime
+M 0 23010 1 23037 100 0 0 0        * Toloxi
+E 1 23044 1 3 100 0 0 0            *   a delicate silver chain
+G 1 23023 1 0 100 0 0 0            *    a small silver key
+F 1 23009 2 23037 100 0 0 0        * a sorting golem (following)
+F 1 23009 2 23037 100 0 0 0        * a sorting golem (following)
+M 0 23012 5 23038 100 0 0 0        * a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+M 0 23012 5 23040 100 0 0 0        * a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+M 0 23012 5 23040 100 0 0 0        * a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+M 0 23012 5 23042 100 0 0 0        * a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+M 0 23012 5 23043 100 0 0 0        * a morgus demon
+G 1 23046 6 0 100 0 0 0            *    the blood of a morgus demon
+M 0 23013 1 23047 100 0 0 0        * a half-materialized demon
+M 0 23014 1 23047 100 0 0 0        * an apprentice summoner
+M 0 23015 1 23047 100 0 0 0        * the master summoner
+E 1 23047 1 15 100 0 0 0           *   bracelet of the master summoner
+E 1 23048 1 18 100 0 0 0           *   staff of the master summoner
+M 0 23016 1 23048 100 0 0 0        * a tzuz demon
+G 1 23049 1 0 100 0 0 0            *    a key to the inner workshop
+M 0 23017 1 23048 100 0 0 0        * an enslaved deep gnome
+G 1 23038 6 0 100 0 0 0            *    a chunk of deep gnome brain matter
+M 0 23018 10 23049 100 0 0 0       * an enslaved deep gnome
+M 0 23021 4 23049 100 0 0 0        * a xyyn demon
+G 1 23050 4 0 100 0 0 0            *    a potion of xyyn blood
+M 0 23019 6 23050 100 0 0 0        * an azel demon
+G 1 23051 5 0 100 0 0 0            *    the twisted horn of an azel demon
+M 0 23021 4 23051 100 0 0 0        * a xyyn demon
+G 1 23050 4 0 100 0 0 0            *    a potion of xyyn blood
+M 0 23018 10 23052 100 0 0 0       * an enslaved deep gnome
+M 0 23020 3 23052 100 0 0 0        * a corus demon
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23018 10 23053 100 0 0 0       * an enslaved deep gnome
+M 0 23021 4 23053 100 0 0 0        * a xyyn demon
+G 1 23050 4 0 100 0 0 0            *    a potion of xyyn blood
+M 0 23018 10 23054 100 0 0 0       * an enslaved deep gnome
+M 0 23019 6 23054 100 0 0 0        * an azel demon
+G 1 23051 5 0 100 0 0 0            *    the twisted horn of an azel demon
+M 0 23018 10 23056 100 0 0 0       * an enslaved deep gnome
+M 0 23019 6 23056 100 0 0 0        * an azel demon
+G 1 23051 5 0 100 0 0 0            *    the twisted horn of an azel demon
+M 0 23019 6 23056 100 0 0 0        * an azel demon
+G 1 23051 5 0 100 0 0 0            *    the twisted horn of an azel demon
+M 0 23018 10 23057 100 0 0 0       * an enslaved deep gnome
+M 0 23021 4 23057 100 0 0 0        * a xyyn demon
+G 1 23050 4 0 100 0 0 0            *    a potion of xyyn blood
+M 0 23018 10 23058 100 0 0 0       * an enslaved deep gnome
+M 0 23018 10 23059 100 0 0 0       * an enslaved deep gnome
+M 0 23020 3 23059 100 0 0 0        * a corus demon
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23018 10 23060 100 0 0 0       * an enslaved deep gnome
+M 0 23020 3 23060 100 0 0 0        * a corus demon
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23018 10 23061 100 0 0 0       * an enslaved deep gnome
+M 0 23019 6 23061 100 0 0 0        * an azel demon
+M 0 23019 6 23062 100 0 0 0        * an azel demon
+G 1 23051 5 0 100 0 0 0            *    the twisted horn of an azel demon
+M 0 23022 1 23063 100 0 0 0        * Maluzaan
+G 1 23027 1 0 100 0 0 0            *    a key to the upper underworld
+G 1 23028 1 0 100 0 0 0            *    Ny'Neth's portal room key
+M 0 23023 5 23065 100 0 0 0        * a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+M 0 23024 7 23066 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23025 7 23067 100 0 0 0        * a tortured soul
+M 0 23024 7 23068 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23025 7 23069 100 0 0 0        * a tortured soul
+M 0 23027 2 23070 100 0 0 0        * a painseeker
+G 1 23053 2 0 100 0 0 0            *    a severed eyestalk
+M 0 23023 5 23071 100 0 0 0        * a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+M 0 23026 8 23072 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23070 4 0 100 0 0 0            *    the horn of a taus devil
+M 0 23025 7 23073 100 0 0 0        * a tortured soul
+M 0 23024 7 23074 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23023 5 23075 100 0 0 0        * a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+M 0 23026 8 23076 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23070 4 0 100 0 0 0            *    the horn of a taus devil
+M 0 23025 7 23077 100 0 0 0        * a tortured soul
+M 0 23026 8 23078 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23023 5 23079 100 0 0 0        * a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+M 0 23024 7 23080 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23023 5 23081 100 0 0 0        * a deep wyrm
+G 1 23069 6 0 100 0 0 0            *    blood of a deep wyrm
+M 0 23026 8 23082 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23024 7 23083 100 0 0 0        * an arus demon
+E 1 23037 1 5 100 0 0 0            *   the bandedmail of reaving
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23025 7 23084 100 0 0 0        * a tortured soul
+M 0 23026 8 23085 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23025 7 23088 100 0 0 0        * a tortured soul
+M 0 23024 7 23089 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23026 8 23089 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+M 0 23025 7 23090 100 0 0 0        * a tortured soul
+M 0 23026 8 23091 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23070 4 0 100 0 0 0            *    the horn of a taus devil
+M 0 23026 8 23092 100 0 0 0        * a taus devil
+E 1 23042 57 16 100 0 0 0          *   a sliver of illithite
+E 1 23042 57 17 100 0 0 0          *   a sliver of illithite
+G 1 23070 4 0 100 0 0 0            *    the horn of a taus devil
+M 0 23024 7 23093 100 0 0 0        * an arus demon
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23027 2 23094 100 0 0 0        * a painseeker
+G 1 23053 2 0 100 0 0 0            *    a severed eyestalk
+M 0 23028 1 23096 100 0 0 0        * Nogoz'Tzel, devil of the 308'th plane
+G 1 23034 1 0 100 0 0 0            *    the second vault key
+F 1 23029 1 23096 100 0 0 0        * Slyten (following)
+G 1 23054 1 0 100 0 0 0            *    a wand of wizardry
+F 1 23030 1 23096 100 0 0 0        * Tuosceck the Blizzard King (following)
+M 0 23031 1 23099 100 0 0 0        * Gormash the berserker lord
+E 1 23064 1 2 100 0 0 0            *   the ring of the berserker lord
+E 1 23052 12 16 100 0 0 0          *   a malicite greatsword
+M 0 23032 1 23099 100 0 0 0        * an ancient roper
+E 1 23065 4 16 100 0 0 0           *   a brutal roper tentacle
+E 1 23065 4 17 100 0 0 0           *   a brutal roper tentacle
+E 1 23065 4 25 100 0 0 0           *   a brutal roper tentacle
+E 1 23065 4 26 100 0 0 0           *   a brutal roper tentacle
+G 1 23066 1 0 100 0 0 0            *    the heart of an ancient roper
+M 0 23033 1 23099 100 0 0 0        * Sythuun the Reaper lord
+E 1 23067 1 16 100 0 0 0           *   a shard of blackness
+E 1 23041 2 17 100 0 0 0           *   a blade of ending
+M 0 23034 1 23099 100 0 0 0        * Jugger the golem
+G 1 23068 1 0 100 0 0 0            *    the story of Jugger the golem
+*
+S

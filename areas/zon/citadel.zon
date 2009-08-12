@@ -1,0 +1,606 @@
+#130
+&+LThe &+BCitadel&n~
+13199 1 0 45 75 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 13000 0 2 100 0 0 0
+*     north exit from "Drawbridge Before the Citadel" to
+*     "The Foyer of the Citadel" - closed/locked
+*
+D 0 13003 2 1 100 0 0 0
+*     south exit from "The Foyer of the Citadel" to
+*     "Drawbridge Before the Citadel" - closed
+*
+D 0 13002 1 1 100 0 0 0
+*     east exit from "The Perimeter Corridor" to
+*     "The Foyer of the Citadel" - closed
+*
+D 0 13003 3 1 100 0 0 0
+*     west exit from "The Foyer of the Citadel" to
+*     "The Perimeter Corridor" - closed
+*
+D 0 13003 0 1 100 0 0 0
+*     north exit from "The Foyer of the Citadel" to
+*     "A Short Hallway" - closed
+*
+D 0 13008 2 1 100 0 0 0
+*     south exit from "A Short Hallway" to
+*     "The Foyer of the Citadel" - closed
+*
+D 0 13003 1 1 100 0 0 0
+*     east exit from "The Foyer of the Citadel" to
+*     "The Perimeter Corridor" - closed
+*
+D 0 13004 3 1 100 0 0 0
+*     west exit from "The Perimeter Corridor" to
+*     "The Foyer of the Citadel" - closed
+*
+D 0 13018 1 1 100 0 0 0
+*     east exit from "The Northeast End of the Large Banqueting Hall" to
+*     "The Kitchen" - closed
+*
+D 0 13019 3 1 100 0 0 0
+*     west exit from "The Kitchen" to
+*     "The Northeast End of the Large Banqueting Hall" - closed
+*
+D 0 13029 1 1 100 0 0 0
+*     east exit from "A Secret Room" to
+*     "A Washroom" - closed
+*
+D 0 13030 3 5 100 0 0 0
+*     west exit from "A Washroom" to
+*     "A Secret Room" - closed/secret
+*
+D 0 13031 0 1 100 0 0 0
+*     north exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13036 2 1 100 0 0 0
+*     south exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13032 0 1 100 0 0 0
+*     north exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13037 2 1 100 0 0 0
+*     south exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13033 0 1 100 0 0 0
+*     north exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13038 2 1 100 0 0 0
+*     south exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13035 0 1 100 0 0 0
+*     north exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13040 2 1 100 0 0 0
+*     south exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13043 1 1 100 0 0 0
+*     east exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13044 3 1 100 0 0 0
+*     west exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13044 1 1 100 0 0 0
+*     east exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13045 3 1 100 0 0 0
+*     west exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13048 1 1 100 0 0 0
+*     east exit from "An Apprentice's Abode" to
+*     "The Apprentices' Hallway" - closed
+*
+D 0 13049 3 1 100 0 0 0
+*     west exit from "The Apprentices' Hallway" to
+*     "An Apprentice's Abode" - closed
+*
+D 0 13077 1 1 100 0 0 0
+*     east exit from "A Laboratory" to
+*     "Hallway between Laboratories" - closed
+*
+D 0 13078 3 1 100 0 0 0
+*     west exit from "Hallway between Laboratories" to
+*     "A Laboratory" - closed
+*
+D 0 13084 0 1 100 0 0 0
+*     north exit from "A Laboratory" to
+*     "Hallway Between Laboratories" - closed
+*
+D 0 13089 2 1 100 0 0 0
+*     south exit from "Hallway Between Laboratories" to
+*     "A Laboratory" - closed
+*
+D 0 13087 1 1 100 0 0 0
+*     east exit from "A Laboratory" to
+*     "Stairwell Down to the Third Floor" - closed
+*
+D 0 13088 3 1 100 0 0 0
+*     west exit from "Stairwell Down to the Third Floor" to
+*     "A Laboratory" - closed
+*
+D 0 13090 0 1 100 0 0 0
+*     north exit from "Hallway Between Laboratories" to
+*     "A Laboratory" - closed
+*
+D 0 13095 2 1 100 0 0 0
+*     south exit from "A Laboratory" to
+*     "Hallway Between Laboratories" - closed
+*
+D 0 13127 1 2 100 0 0 0
+*     east exit from "A Store Room" to
+*     "Hallway by the Store Rooms" - closed/locked
+*
+D 0 13128 3 2 100 0 0 0
+*     west exit from "Hallway by the Store Rooms" to
+*     "A Store Room" - closed/locked
+*
+D 0 13129 0 2 100 0 0 0
+*     north exit from "A Store Room" to
+*     "The Inner Room" - closed/locked
+*
+D 0 13134 2 2 100 0 0 0
+*     south exit from "The Inner Room" to
+*     "A Store Room" - closed/locked
+*
+D 0 13131 1 2 100 0 0 0
+*     east exit from "A Store Room" to
+*     "The Inner Room" - closed/locked
+*
+D 0 13132 3 2 100 0 0 0
+*     west exit from "The Inner Room" to
+*     "A Store Room" - closed/locked
+*
+D 0 13135 0 2 100 0 0 0
+*     north exit from "A Store Room" to
+*     "Hallway by the Store Rooms" - closed/locked
+*
+D 0 13140 2 2 100 0 0 0
+*     south exit from "Hallway by the Store Rooms" to
+*     "A Store Room" - closed/locked
+*
+D 0 13136 0 2 100 0 0 0
+*     north exit from "Hallway by the Store Rooms" to
+*     "A Store Room" - closed/locked
+*
+D 0 13141 2 2 100 0 0 0
+*     south exit from "A Store Room" to
+*     "Hallway by the Store Rooms" - closed/locked
+*
+D 0 13145 0 2 100 0 0 0
+*     north exit from "A Store Room" to
+*     "The Inner Room" - closed/locked
+*
+D 0 13150 2 2 100 0 0 0
+*     south exit from "The Inner Room" to
+*     "A Store Room" - closed/locked
+*
+D 0 13146 1 2 100 0 0 0
+*     east exit from "The Inner Room" to
+*     "A Store Room" - closed/locked
+*
+D 0 13147 3 2 100 0 0 0
+*     west exit from "A Store Room" to
+*     "The Inner Room" - closed/locked
+*
+D 0 13148 1 2 100 0 0 0
+*     east exit from "Hallway by the Store Rooms" to
+*     "A Store Room" - closed/locked
+*
+D 0 13149 3 2 100 0 0 0
+*     west exit from "A Store Room" to
+*     "Hallway by the Store Rooms" - closed/locked
+*
+D 0 13151 0 2 100 0 0 0
+*     north exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13156 2 2 100 0 0 0
+*     south exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13152 0 2 100 0 0 0
+*     north exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13157 2 2 100 0 0 0
+*     south exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13153 0 2 100 0 0 0
+*     north exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13158 2 2 100 0 0 0
+*     south exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13154 0 2 100 0 0 0
+*     north exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13159 2 2 100 0 0 0
+*     south exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13155 0 2 100 0 0 0
+*     north exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13160 2 2 100 0 0 0
+*     south exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13161 1 2 100 0 0 0
+*     east exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13162 3 2 100 0 0 0
+*     west exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13164 1 2 100 0 0 0
+*     east exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13165 3 2 100 0 0 0
+*     west exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13166 0 2 100 0 0 0
+*     north exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13171 2 2 100 0 0 0
+*     south exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13167 0 2 100 0 0 0
+*     north exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13172 2 2 100 0 0 0
+*     south exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13168 0 2 100 0 0 0
+*     north exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13173 2 2 100 0 0 0
+*     south exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13169 0 2 100 0 0 0
+*     north exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13174 2 2 100 0 0 0
+*     south exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13170 0 2 100 0 0 0
+*     north exit from "Hallway in the Hall of Treasures" to
+*     "A Treasure Room" - closed/locked
+*
+D 0 13175 2 2 100 0 0 0
+*     south exit from "A Treasure Room" to
+*     "Hallway in the Hall of Treasures" - closed/locked
+*
+D 0 13185 1 2 100 0 0 0
+*     east exit from "The Landing" to
+*     "The Entryway" - closed/locked
+*
+D 0 13186 3 2 100 0 0 0
+*     west exit from "The Entryway" to
+*     "The Landing" - closed/locked
+*
+D 0 13186 2 2 100 0 0 0
+*     south exit from "The Entryway" to
+*     "The Master of the Citadel's Study" - closed/locked
+*
+D 0 13190 0 2 100 0 0 0
+*     north exit from "The Master of the Citadel's Study" to
+*     "The Entryway" - closed/locked
+*
+D 0 13188 3 2 100 0 0 0
+*     west exit from "The Hallway" to
+*     "The Sleeping Chambers" - closed/locked
+*
+D 0 13189 1 2 100 0 0 0
+*     east exit from "The Sleeping Chambers" to
+*     "The Hallway" - closed/locked
+*
+D 0 13190 3 2 100 0 0 0
+*     west exit from "The Master of the Citadel's Study" to
+*     "A Bizarre Corridor" - closed/locked
+*
+D 0 13191 1 2 100 0 0 0
+*     east exit from "A Bizarre Corridor" to
+*     "The Master of the Citadel's Study" - closed/locked
+*
+D 0 13198 3 2 100 0 0 0
+*     west exit from "A Bizarre Corridor" to
+*     "Inside the Nightstone Vault" - closed/locked
+*
+D 0 13199 1 2 100 0 0 0
+*     east exit from "Inside the Nightstone Vault" to
+*     "A Bizarre Corridor" - closed/locked
+*
+*
+O 0 13000 1 13000 100 0 0 0        * the plaque
+O 0 13005 1 13029 100 0 0 0        * the chest
+P 1 13032 1 13005 100 0 0 0        *   a tiny ruby ring
+P 1 13033 1 13005 100 0 0 0        *   a few sheets of notes
+O 0 13038 4 13045 100 0 0 0        * the book of Amberyl
+O 0 13035 1 13055 100 0 0 0        * Growler's Book of Runes
+O 0 13037 4 13058 100 0 0 0        * a stack of papers
+O 0 13038 4 13069 100 0 0 0        * the book of Amberyl
+O 0 13037 4 13072 100 0 0 0        * a stack of papers
+O 0 13038 4 13074 100 0 0 0        * the book of Amberyl
+O 0 13037 4 13090 100 0 0 0        * a stack of papers
+O 0 13034 18 13132 100 0 0 0       * the pedestal
+P 1 13009 1 13034 100 0 0 0        *   an odd crystal shard
+O 0 13040 18 13134 100 0 0 0       * the pedestal
+P 1 13008 1 13040 100 0 0 0        *   the Ancient Lyre of Amberyl
+O 0 13034 18 13146 100 0 0 0       * the pedestal
+P 1 13010 1 13034 100 0 0 0        *   a golden wristband with obsidian spikes
+O 0 13034 18 13150 100 0 0 0       * the pedestal
+P 1 13011 1 13034 100 0 0 0        *   a black dagger
+O 0 13034 18 13151 100 0 0 0       * the pedestal
+P 1 13001 1 13034 100 0 0 0        *   a nightstone key
+O 0 13034 18 13152 100 0 0 0       * the pedestal
+P 1 13030 1 13034 100 0 0 0        *   a paper boat
+O 0 13034 18 13153 100 0 0 0       * the pedestal
+P 1 13031 1 13034 100 0 0 0        *   a pair of phantom boots
+O 0 13034 18 13154 100 0 0 0       * the pedestal
+P 1 13036 3 13034 100 0 0 0        *   a large diamond
+O 0 13034 18 13155 100 0 0 0       * the pedestal
+P 1 13002 1 13034 100 0 0 0        *   a key encrusted with sapphires
+O 0 13034 18 13161 100 0 0 0       * the pedestal
+P 1 13028 1 13034 100 0 0 0        *   a small silver flask
+O 0 13034 18 13165 100 0 0 0       * the pedestal
+P 1 13029 1 13034 100 0 0 0        *   a darkstone ring
+O 0 13034 18 13171 100 0 0 0       * the pedestal
+P 1 13003 1 13034 100 0 0 0        *   a pure silver key
+O 0 13034 18 13172 100 0 0 0       * the pedestal
+P 1 13025 1 13034 100 0 0 0        *   an onyx earring
+O 0 13034 18 13173 100 0 0 0       * the pedestal
+P 1 13026 1 13034 100 0 0 0        *   an elegant deadly katana
+O 0 13034 18 13174 100 0 0 0       * the pedestal
+P 1 13027 1 13034 100 0 0 0        *   the phantom mask
+O 0 13034 18 13175 100 0 0 0       * the pedestal
+P 1 13004 1 13034 100 0 0 0        *   the onyx key
+O 0 13037 4 13189 100 0 0 0        * a stack of papers
+O 0 13058 1 13189 100 0 0 0        * a very small chest
+P 1 13060 1 13058 35 0 0 0         *   a necklace of glowing runes
+P 1 13061 1 13058 35 0 0 0         *   a necklace of glowing runes
+P 1 13062 1 13058 100 0 0 0        *   a rune covered wand
+O 0 13024 1 13199 100 0 0 0        * a large pile of coins
+O 0 13036 3 13199 100 0 0 0        * a large diamond
+O 0 13036 3 13199 100 0 0 0        * a large diamond
+*
+M 0 13001 35 13001 100 0 0 0       * the apprentice
+M 0 13013 28 13003 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13005 100 0 0 0       * the apprentice
+M 0 13013 28 13006 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13007 100 0 0 0       * the apprentice
+M 0 13003 21 13008 100 0 0 0       * the wandering apprentice
+M 0 13000 8 13012 100 0 0 0        * the apprentice
+M 0 13000 8 13012 100 0 0 0        * the apprentice
+M 0 13000 8 13013 100 0 0 0        * the apprentice
+M 0 13000 8 13013 100 0 0 0        * the apprentice
+M 0 13003 21 13013 100 0 0 0       * the wandering apprentice
+M 0 13001 35 13014 100 0 0 0       * the apprentice
+M 0 13013 28 13016 100 0 0 0       * the patrolling elemental
+M 0 13000 8 13017 100 0 0 0        * the apprentice
+M 0 13000 8 13017 100 0 0 0        * the apprentice
+M 0 13000 8 13018 100 0 0 0        * the apprentice
+M 0 13000 8 13018 100 0 0 0        * the apprentice
+M 0 13003 21 13020 100 0 0 0       * the wandering apprentice
+M 0 13013 28 13020 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13023 100 0 0 0       * the apprentice
+M 0 13004 1 13028 100 0 0 0        * the severely pissed off apprentice
+M 0 13011 1 13029 100 0 0 0        * the wraith
+M 0 13002 7 13031 100 0 0 0        * the napping apprentice
+M 0 13003 21 13032 100 0 0 0       * the wandering apprentice
+M 0 13013 28 13034 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13034 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13037 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13038 100 0 0 0       * the apprentice
+M 0 13013 28 13039 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13040 100 0 0 0       * the apprentice
+M 0 13003 21 13040 100 0 0 0       * the wandering apprentice
+M 0 13001 35 13041 100 0 0 0       * the apprentice
+M 0 13013 28 13041 100 0 0 0       * the patrolling elemental
+M 0 13003 21 13043 100 0 0 0       * the wandering apprentice
+M 0 13002 7 13048 100 0 0 0        * the napping apprentice
+M 0 13001 35 13049 100 0 0 0       * the apprentice
+M 0 13002 7 13051 100 0 0 0        * the napping apprentice
+M 0 13005 12 13052 100 0 0 0       * the apprentice
+M 0 13001 35 13053 100 0 0 0       * the apprentice
+M 0 13005 12 13054 100 0 0 0       * the apprentice
+M 0 13002 7 13055 100 0 0 0        * the napping apprentice
+M 0 13005 12 13056 100 0 0 0       * the apprentice
+M 0 13001 35 13057 100 0 0 0       * the apprentice
+M 0 13001 35 13057 100 0 0 0       * the apprentice
+M 0 13006 5 13057 100 0 0 0        * the apprentice
+M 0 13003 21 13058 100 0 0 0       * the wandering apprentice
+M 0 13005 12 13058 100 0 0 0       * the apprentice
+M 0 13002 7 13059 100 0 0 0        * the napping apprentice
+M 0 13006 5 13059 100 0 0 0        * the apprentice
+M 0 13005 12 13060 100 0 0 0       * the apprentice
+M 0 13001 35 13061 100 0 0 0       * the apprentice
+M 0 13002 7 13061 100 0 0 0        * the napping apprentice
+M 0 13003 21 13062 100 0 0 0       * the wandering apprentice
+M 0 13005 12 13062 100 0 0 0       * the apprentice
+M 0 13006 5 13063 100 0 0 0        * the apprentice
+M 0 13001 35 13064 100 0 0 0       * the apprentice
+M 0 13005 12 13064 100 0 0 0       * the apprentice
+M 0 13014 1 13064 100 0 0 0        * the professor
+E 1 13054 1 3 100 0 0 0            *   a pulsating amulet lined with red granite
+E 1 13039 5 18 100 0 0 0           *   the Book of Riddles
+M 0 13005 12 13066 100 0 0 0       * the apprentice
+M 0 13006 5 13067 100 0 0 0        * the apprentice
+M 0 13013 28 13067 100 0 0 0       * the patrolling elemental
+M 0 13005 12 13068 100 0 0 0       * the apprentice
+M 0 13006 5 13069 100 0 0 0        * the apprentice
+M 0 13001 35 13070 100 0 0 0       * the apprentice
+M 0 13005 12 13070 100 0 0 0       * the apprentice
+M 0 13001 35 13072 100 0 0 0       * the apprentice
+M 0 13003 21 13072 100 0 0 0       * the wandering apprentice
+M 0 13005 12 13072 100 0 0 0       * the apprentice
+M 0 13013 28 13072 100 0 0 0       * the patrolling elemental
+M 0 13002 7 13074 100 0 0 0        * the napping apprentice
+M 0 13005 12 13074 100 0 0 0       * the apprentice
+M 0 13003 21 13077 100 0 0 0       * the wandering apprentice
+M 0 13008 8 13079 100 0 0 0        * the apprentice
+M 0 13007 2 13080 100 0 0 0        * the apprentice
+M 0 13008 8 13081 100 0 0 0        * the apprentice
+M 0 13008 8 13082 100 0 0 0        * the apprentice
+M 0 13001 35 13083 100 0 0 0       * the apprentice
+M 0 13008 8 13084 100 0 0 0        * the apprentice
+M 0 13003 21 13086 100 0 0 0       * the wandering apprentice
+M 0 13001 35 13089 100 0 0 0       * the apprentice
+M 0 13013 28 13089 100 0 0 0       * the patrolling elemental
+M 0 13003 21 13090 100 0 0 0       * the wandering apprentice
+M 0 13008 8 13091 100 0 0 0        * the apprentice
+M 0 13007 2 13092 100 0 0 0        * the apprentice
+M 0 13008 8 13092 100 0 0 0        * the apprentice
+M 0 13013 28 13093 100 0 0 0       * the patrolling elemental
+M 0 13008 8 13094 100 0 0 0        * the apprentice
+M 0 13008 8 13095 100 0 0 0        * the apprentice
+M 0 13001 35 13097 100 0 0 0       * the apprentice
+M 0 13001 35 13098 100 0 0 0       * the apprentice
+M 0 13003 21 13099 100 0 0 0       * the wandering apprentice
+M 0 13001 35 13101 100 0 0 0       * the apprentice
+M 0 13003 21 13102 100 0 0 0       * the wandering apprentice
+M 0 13009 12 13102 100 0 0 0       * the apprentice
+M 0 13015 4 13102 100 0 0 0        * the venomous vine
+M 0 13009 12 13103 100 0 0 0       * the apprentice
+M 0 13010 1 13105 100 0 0 0        * the apprentice
+E 1 13007 1 12 100 0 0 0           *   a heavy coat with many pockets
+P 1 13006 1 13007 100 0 0 0        *   a bluish key
+M 0 13009 12 13106 100 0 0 0       * the apprentice
+M 0 13015 4 13106 100 0 0 0        * the venomous vine
+M 0 13009 12 13108 100 0 0 0       * the apprentice
+M 0 13001 35 13109 100 0 0 0       * the apprentice
+M 0 13009 12 13109 100 0 0 0       * the apprentice
+M 0 13013 28 13109 100 0 0 0       * the patrolling elemental
+M 0 13016 3 13109 100 0 0 0        * a scorpion
+M 0 13016 3 13111 100 0 0 0        * a scorpion
+M 0 13001 35 13112 100 0 0 0       * the apprentice
+M 0 13009 12 13112 100 0 0 0       * the apprentice
+M 0 13009 12 13114 100 0 0 0       * the apprentice
+M 0 13015 4 13114 100 0 0 0        * the venomous vine
+M 0 13003 21 13115 100 0 0 0       * the wandering apprentice
+M 0 13028 1 13115 100 0 0 0        * a desert hunter
+E 1 13055 1 21 100 0 0 0           *   a tiny silver octopus earring
+M 0 13009 12 13116 100 0 0 0       * the apprentice
+M 0 13013 28 13117 100 0 0 0       * the patrolling elemental
+M 0 13009 12 13118 100 0 0 0       * the apprentice
+M 0 13015 4 13118 100 0 0 0        * the venomous vine
+E 1 13057 1 15 100 0 0 0           *   a shimmering wristband of snake scales
+M 0 13001 35 13120 100 0 0 0       * the apprentice
+M 0 13009 12 13120 100 0 0 0       * the apprentice
+M 0 13029 1 13120 100 0 0 0        * a druid teacher
+E 1 13056 1 3 100 0 0 0            *   a necklace of glittering shells
+M 0 13001 35 13122 100 0 0 0       * the apprentice
+M 0 13003 21 13122 100 0 0 0       * the wandering apprentice
+M 0 13009 12 13122 100 0 0 0       * the apprentice
+M 0 13016 3 13123 100 0 0 0        * a scorpion
+M 0 13009 12 13124 100 0 0 0       * the apprentice
+M 0 13001 35 13133 100 0 0 0       * the apprentice
+M 0 13003 21 13133 100 0 0 0       * the wandering apprentice
+M 0 13012 1 13134 100 0 0 0        * Amberyl
+E 1 13041 1 18 100 0 0 0           *   an amber key
+E 1 13053 1 19 100 0 0 0           *   glyphs of power tattooed around one eye
+M 0 13001 35 13136 100 0 0 0       * the apprentice
+M 0 13001 35 13137 100 0 0 0       * the apprentice
+M 0 13003 21 13137 100 0 0 0       * the wandering apprentice
+M 0 13013 28 13137 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13138 100 0 0 0       * the apprentice
+M 0 13003 21 13139 100 0 0 0       * the wandering apprentice
+M 0 13013 28 13139 100 0 0 0       * the patrolling elemental
+M 0 13001 35 13140 100 0 0 0       * the apprentice
+M 0 13022 4 13156 100 0 0 0        * the elemental guardian
+E 1 13012 1 18 100 0 0 0           *   a vault key
+M 0 13001 35 13157 100 0 0 0       * the apprentice
+M 0 13020 3 13157 100 0 0 0        * the elemental guardian
+E 1 13013 1 18 100 0 0 0           *   a vault key
+M 0 13001 35 13158 100 0 0 0       * the apprentice
+M 0 13013 28 13158 100 0 0 0       * the patrolling elemental
+M 0 13020 3 13158 100 0 0 0        * the elemental guardian
+E 1 13014 1 18 100 0 0 0           *   a vault key
+M 0 13020 3 13159 100 0 0 0        * the elemental guardian
+E 1 13015 1 18 100 0 0 0           *   a vault key
+M 0 13022 4 13160 100 0 0 0        * the elemental guardian
+E 1 13016 1 18 100 0 0 0           *   a vault key
+M 0 13003 21 13162 100 0 0 0       * the wandering apprentice
+M 0 13021 2 13162 100 0 0 0        * the elemental guardian
+E 1 13017 1 18 100 0 0 0           *   a vault key
+M 0 13003 21 13164 100 0 0 0       * the wandering apprentice
+M 0 13021 2 13164 100 0 0 0        * the elemental guardian
+E 1 13018 1 18 100 0 0 0           *   a vault key
+M 0 13001 35 13166 100 0 0 0       * the apprentice
+M 0 13022 4 13166 100 0 0 0        * the elemental guardian
+E 1 13019 1 18 100 0 0 0           *   a vault key
+M 0 13001 35 13167 100 0 0 0       * the apprentice
+M 0 13019 3 13167 100 0 0 0        * the elemental guardian
+E 1 13020 1 18 100 0 0 0           *   a vault key
+M 0 13001 35 13168 100 0 0 0       * the apprentice
+M 0 13013 28 13168 100 0 0 0       * the patrolling elemental
+M 0 13019 3 13168 100 0 0 0        * the elemental guardian
+E 1 13021 1 18 100 0 0 0           *   a vault key
+M 0 13013 28 13168 100 0 0 0       * the patrolling elemental
+M 0 13019 3 13169 100 0 0 0        * the elemental guardian
+E 1 13022 1 18 100 0 0 0           *   a vault key
+M 0 13022 4 13170 100 0 0 0        * the elemental guardian
+E 1 13023 1 18 100 0 0 0           *   a vault key
+M 0 13013 28 13170 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13170 100 0 0 0       * the patrolling elemental
+M 0 13024 1 13185 100 0 0 0        * the guardian
+E 1 13052 1 15 100 0 0 0           *   a silvery bracer covered in glowing runes
+E 1 13044 1 18 100 0 0 0           *   the stone Guardian's Key
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13013 28 13186 100 0 0 0       * the patrolling elemental
+M 0 13030 1 13188 100 0 0 0        * a lost apprentice
+M 0 13018 1 13189 100 0 0 0        * the mistress
+E 1 13046 1 3 100 0 0 0            *   a velvet choker with a silver pendant
+E 1 13049 99 5 100 0 0 0           *   some VERY sexy lingerie
+E 1 13045 1 12 100 0 0 0           *   a magical woven robe
+G 1 13038 4 0 100 0 0 0            *    the book of Amberyl
+M 0 13017 1 13190 100 0 0 0        * the master
+E 1 13047 1 12 100 0 0 0           *   the paradox cloak
+E 1 13042 1 18 100 0 0 0           *   the paradox key
+E 1 13051 1 19 100 0 0 0           *   a pair of golden spectacles
+M 0 13026 2 13190 100 0 0 0        * the masters elemental
+M 0 13026 2 13190 100 0 0 0        * the masters elemental
+M 0 13023 1 13198 100 0 0 0        * the Portal Guardian
+E 1 13048 1 13 100 0 0 0           *   a well crafted spiked sword belt
+E 1 13043 1 18 100 0 0 0           *   a golden portal key
+M 0 13027 1 13199 100 0 0 0        * the guardian beholder
+G 1 67239 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 13050 1 0 100 0 0 0            *    a cloak of werewolf fur
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55187 1 0 100 0 0 0            *    (object type not in this .obj file)
+*
+S

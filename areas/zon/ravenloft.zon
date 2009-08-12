@@ -1,0 +1,1221 @@
+#583
+&+LCastle &N&+rRavenloft&N~
+58568 0 0 40 50 4
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 58306 1 0 100 0 0 0
+*     east exit from "The Portcullis" to
+*     "On the Drawbridge" - open
+*
+D 0 58307 3 0 100 0 0 0
+*     west exit from "On the Drawbridge" to
+*     "The Portcullis" - open
+*
+D 0 58308 0 1 100 0 0 0
+*     north exit from "Before the Castle Doors" to
+*     "The Foyer" - closed
+*
+D 0 58310 2 1 100 0 0 0
+*     south exit from "The Foyer" to
+*     "Before the Castle Doors" - closed
+*
+D 0 58310 1 0 100 0 0 0
+*     east exit from "The Foyer" to
+*     "The Castle Dining Room" - open
+*
+D 0 58312 3 0 100 0 0 0
+*     west exit from "The Castle Dining Room" to
+*     "The Foyer" - open
+*
+D 0 58311 3 0 100 0 0 0
+*     west exit from "A Glorious Ballroom" to
+*     "Northern End of the Carpeted Hallway" - open
+*
+D 0 58316 1 0 100 0 0 0
+*     east exit from "Northern End of the Carpeted Hallway" to
+*     "A Glorious Ballroom" - open
+*
+D 0 58316 0 1 100 0 0 0
+*     north exit from "Northern End of the Carpeted Hallway" to
+*     "The Ravenloft Chapel" - closed
+*
+D 0 58317 2 1 100 0 0 0
+*     south exit from "The Ravenloft Chapel" to
+*     "Northern End of the Carpeted Hallway" - closed
+*
+D 0 58316 3 2 100 0 0 0
+*     west exit from "Northern End of the Carpeted Hallway" to
+*     "The Channeling Room" - closed/locked
+*
+D 0 58368 1 1 100 0 0 0
+*     east exit from "The Channeling Room" to
+*     "Northern End of the Carpeted Hallway" - closed
+*
+D 0 58317 1 1 100 0 0 0
+*     east exit from "The Ravenloft Chapel" to
+*     "The East Chapel Alcoves" - closed
+*
+D 0 58460 3 1 100 0 0 0
+*     west exit from "The East Chapel Alcoves" to
+*     "The Ravenloft Chapel" - closed
+*
+D 0 58317 3 1 100 0 0 0
+*     west exit from "The Ravenloft Chapel" to
+*     "The West Chapel Alcoves, Along the Servants' Stairs" - closed
+*
+D 0 58370 1 1 100 0 0 0
+*     east exit from "The West Chapel Alcoves, Along the Servants' Stairs" to
+*     "The Ravenloft Chapel" - closed
+*
+D 0 58321 3 0 100 0 0 0
+*     west exit from "The Office of Vengeance" to
+*     "The Hall of Riches" - open
+*
+D 0 58439 1 0 100 0 0 0
+*     east exit from "The Hall of Riches" to
+*     "The Office of Vengeance" - open
+*
+D 0 58324 2 0 100 0 0 0
+*     south exit from "The Hall of Heroes" to
+*     "A Planning Hall" - open
+*
+D 0 58513 0 0 100 0 0 0
+*     north exit from "A Planning Hall" to
+*     "The Hall of Heroes" - open
+*
+D 0 58325 0 0 100 0 0 0
+*     north exit from "Inside a Cramped, Orcish Tent" to
+*     "The Grassy Floor of the DarkPeak Basin" - open
+*
+D 0 58326 2 0 100 0 0 0
+*     south exit from "The Grassy Floor of the DarkPeak Basin" to
+*     "Inside a Cramped, Orcish Tent" - open
+*
+D 0 58330 2 1 100 0 0 0
+*     south exit from "The Grassy Floor of the DarkPeak Basin" to
+*     "Inside a Cramped, Orcish Tent" - closed
+*
+D 0 58331 0 1 100 0 0 0
+*     north exit from "Inside a Cramped, Orcish Tent" to
+*     "The Grassy Floor of the DarkPeak Basin" - closed
+*
+D 0 58335 2 1 100 0 0 0
+*     south exit from "The Grassy Floor of the DarkPeak Basin" to
+*     "Inside a Cramped, Orcish Tent" - closed
+*
+D 0 58336 0 1 100 0 0 0
+*     north exit from "Inside a Cramped, Orcish Tent" to
+*     "The Grassy Floor of the DarkPeak Basin" - closed
+*
+D 0 58343 2 1 100 0 0 0
+*     south exit from "The Grassy Floor of the DarkPeak Basin" to
+*     "Inside a Cramped, Orcish Tent" - closed
+*
+D 0 58346 0 1 100 0 0 0
+*     north exit from "Inside a Cramped, Orcish Tent" to
+*     "The Grassy Floor of the DarkPeak Basin" - closed
+*
+D 0 58369 2 2 100 0 0 0
+*     south exit from "The Court of the Count" to
+*     "A Small Hallway Before a Blood-Red Door" - closed/locked
+*
+D 0 58459 0 2 100 0 0 0
+*     north exit from "A Small Hallway Before a Blood-Red Door" to
+*     "The Court of the Count" - closed/locked
+*
+D 0 58371 2 1 100 0 0 0
+*     south exit from "The Servants' Stairs" to
+*     "The Hall of Madness" - closed
+*
+D 0 58376 0 1 100 0 0 0
+*     north exit from "The Hall of Madness" to
+*     "The Servants' Stairs" - closed
+*
+D 0 58377 1 1 100 0 0 0
+*     east exit from "The Grand Vestibule" to
+*     "The Guards' Headquarters" - closed
+*
+D 0 58452 3 1 100 0 0 0
+*     west exit from "The Guards' Headquarters" to
+*     "The Grand Vestibule" - closed
+*
+D 0 58379 2 1 100 0 0 0
+*     south exit from "A Small Garden Before a Guard Tower" to
+*     "Bottom of an Old Guard Tower" - closed
+*
+D 0 58385 0 1 100 0 0 0
+*     north exit from "Bottom of an Old Guard Tower" to
+*     "A Small Garden Before a Guard Tower" - closed
+*
+D 0 58381 3 1 100 0 0 0
+*     west exit from "The Landing" to
+*     "The Steward's Office" - closed
+*
+D 0 58384 1 1 100 0 0 0
+*     east exit from "The Steward's Office" to
+*     "The Landing" - closed
+*
+D 0 58382 2 0 100 0 0 0
+*     south exit from "The Main Hallway" to
+*     "A Lavish Study" - open
+*
+D 0 58383 0 0 100 0 0 0
+*     north exit from "A Lavish Study" to
+*     "The Main Hallway" - open
+*
+D 0 58392 3 1 100 0 0 0
+*     west exit from "Head of the Court of the Count" to
+*     "The Private Quarters of Strahd Von Zarovich" - closed
+*
+D 0 58562 1 1 100 0 0 0
+*     east exit from "The Private Quarters of Strahd Von Zarovich" to
+*     "Head of the Court of the Count" - closed
+*
+D 0 58394 3 1 100 0 0 0
+*     west exit from "A Foyer Before a Tower Entrance" to
+*     "Below the HighTower Ramp" - closed
+*
+D 0 58408 1 1 100 0 0 0
+*     east exit from "Below the HighTower Ramp" to
+*     "A Foyer Before a Tower Entrance" - closed
+*
+D 0 58397 0 8 100 0 0 0
+*     north exit from "The Hall of Heroes" to
+*     "A Small Sword Case Alcove" - open/blocked
+*
+D 0 58564 2 0 100 0 0 0
+*     south exit from "A Small Sword Case Alcove" to
+*     "The Hall of Heroes" - open
+*
+D 0 58398 1 1 100 0 0 0
+*     east exit from "End of the Hall of Heroes" to
+*     "Entrance to the Warlock Alchemy" - closed
+*
+D 0 58399 3 1 100 0 0 0
+*     west exit from "Entrance to the Warlock Alchemy" to
+*     "End of the Hall of Heroes" - closed
+*
+D 0 58399 1 0 100 0 0 0
+*     east exit from "Entrance to the Warlock Alchemy" to
+*     "A Chamber of Old, Dirty Beds" - open
+*
+D 0 58402 3 0 100 0 0 0
+*     west exit from "A Chamber of Old, Dirty Beds" to
+*     "Entrance to the Warlock Alchemy" - open
+*
+D 0 58400 2 2 100 0 0 0
+*     south exit from "The South Alchemy Wall, Before a Tower Entrance" to
+*     "Below the Velvet Stairs of SouthTower" - closed/locked
+*
+D 0 58403 0 1 100 0 0 0
+*     north exit from "Below the Velvet Stairs of SouthTower" to
+*     "The South Alchemy Wall, Before a Tower Entrance" - closed
+*
+D 0 58412 0 2 100 0 0 0
+*     north exit from "End of the Main Hallway" to
+*     "The Royal Courtyard" - closed/locked
+*
+D 0 58435 2 1 100 0 0 0
+*     south exit from "The Royal Courtyard" to
+*     "End of the Main Hallway" - closed
+*
+D 0 58422 5 2 100 0 0 0
+*     down exit from "An Acrid Pool of Slime" to
+*     "The Deep Bottom of the Slime Pit" - closed/locked
+*
+D 0 58423 4 2 100 0 0 0
+*     up exit from "The Deep Bottom of the Slime Pit" to
+*     "An Acrid Pool of Slime" - closed/locked
+*
+D 0 58431 3 1 100 0 0 0
+*     west exit from "The Courtyard Before the Dayheart Tower" to
+*     "The Base of the Dayheart Tower" - closed
+*
+D 0 58514 1 1 100 0 0 0
+*     east exit from "The Base of the Dayheart Tower" to
+*     "The Courtyard Before the Dayheart Tower" - closed
+*
+D 0 58440 3 8 100 0 0 0
+*     west exit from "The Hall of Riches" to
+*     "A Narrow Hallway" - open/blocked
+*
+D 0 58565 1 0 100 0 0 0
+*     east exit from "A Narrow Hallway" to
+*     "The Hall of Riches" - open
+*
+D 0 58442 1 1 100 0 0 0
+*     east exit from "End of the Hall of Riches" to
+*     "The Kingsmen Hall" - closed
+*
+D 0 58533 3 1 100 0 0 0
+*     west exit from "The Kingsmen Hall" to
+*     "End of the Hall of Riches" - closed
+*
+D 0 58442 3 8 100 0 0 0
+*     west exit from "End of the Hall of Riches" to
+*     "The Top of the Servants' Stairwell" - open/blocked
+*
+D 0 58451 1 4 100 0 0 0
+*     east exit from "The Top of the Servants' Stairwell" to
+*     "End of the Hall of Riches" - open/secret
+*
+D 0 58445 2 2 100 0 0 0
+*     south exit from "A Guard Post" to
+*     "The Treasury" - closed/locked
+*
+D 0 58446 0 2 100 0 0 0
+*     north exit from "The Treasury" to
+*     "A Guard Post" - closed/locked
+*
+D 0 58446 4 8 100 0 0 0
+*     up exit from "The Treasury" to
+*     "Scarab Trap Holder Room" - open/blocked
+*
+D 0 58563 5 8 100 0 0 0
+*     down exit from "Scarab Trap Holder Room" to
+*     "The Treasury" - open/blocked
+*
+D 0 58446 5 8 100 0 0 0
+*     down exit from "The Treasury" to
+*     "A Short, Hidden Staircase Below the False Treasury" - open/blocked
+*
+D 0 58447 4 0 100 0 0 0
+*     up exit from "A Short, Hidden Staircase Below the False Treasury" to
+*     "The Treasury" - open
+*
+D 0 58448 1 2 100 0 0 0
+*     east exit from "A Hidden Landing" to
+*     "The Ravenloft Castle Treasury" - closed/locked
+*
+D 0 58449 3 2 100 0 0 0
+*     west exit from "The Ravenloft Castle Treasury" to
+*     "A Hidden Landing" - closed/locked
+*
+D 0 58449 8 8 100 0 0 0
+*     northeast exit from "The Ravenloft Castle Treasury" to
+*     "A Secret Passage" - open/blocked
+*
+D 0 58450 7 8 100 0 0 0
+*     southwest exit from "A Secret Passage" to
+*     "The Ravenloft Castle Treasury" - open/blocked
+*
+D 0 58451 0 0 100 0 0 0
+*     north exit from "The Top of the Servants' Stairwell" to
+*     "The Butler's Quarters" - open
+*
+D 0 58518 2 0 100 0 0 0
+*     south exit from "The Butler's Quarters" to
+*     "The Top of the Servants' Stairwell" - open
+*
+D 0 58454 3 1 100 0 0 0
+*     west exit from "A Guard Post" to
+*     "The Receiving Room" - closed
+*
+D 0 58524 1 1 100 0 0 0
+*     east exit from "The Receiving Room" to
+*     "A Guard Post" - closed
+*
+D 0 58455 2 0 100 0 0 0
+*     south exit from "The Guards' Headquarters" to
+*     "An Old, Web-Filled Cell" - open
+*
+D 0 58457 0 0 100 0 0 0
+*     north exit from "An Old, Web-Filled Cell" to
+*     "The Guards' Headquarters" - open
+*
+D 0 58457 1 8 100 0 0 0
+*     east exit from "An Old, Web-Filled Cell" to
+*     "A Dark Crawlspace" - open/blocked
+*
+D 0 58320 3 0 100 0 0 0
+*     west exit from "A Dark Crawlspace" to
+*     "An Old, Web-Filled Cell" - open
+*
+D 0 58458 5 1 100 0 0 0
+*     down exit from "The Kitchen" to
+*     "A Wine Cellar" - closed
+*
+D 0 58522 4 1 100 0 0 0
+*     up exit from "A Wine Cellar" to
+*     "The Kitchen" - closed
+*
+D 0 58520 1 0 100 0 0 0
+*     east exit from "A Basement Hallway" to
+*     "The Servants' Quarters" - open
+*
+D 0 58539 3 0 100 0 0 0
+*     west exit from "The Servants' Quarters" to
+*     "A Basement Hallway" - open
+*
+D 0 58520 2 0 100 0 0 0
+*     south exit from "A Basement Hallway" to
+*     "The Maid's Quarters" - open
+*
+D 0 58523 0 0 100 0 0 0
+*     north exit from "The Maid's Quarters" to
+*     "A Basement Hallway" - open
+*
+D 0 58521 0 8 100 0 0 0
+*     north exit from "A Basement Hallway" to
+*     "Top of an Ancient Staircase" - open/blocked
+*
+D 0 58535 2 0 100 0 0 0
+*     south exit from "Top of an Ancient Staircase" to
+*     "A Basement Hallway" - open
+*
+D 0 58521 3 1 100 0 0 0
+*     west exit from "A Basement Hallway" to
+*     "A Wine Cellar" - closed
+*
+D 0 58522 1 1 100 0 0 0
+*     east exit from "A Wine Cellar" to
+*     "A Basement Hallway" - closed
+*
+D 0 58526 3 0 100 0 0 0
+*     west exit from "A Manor Hallway" to
+*     "A Dark, Gloomy Bedchamber" - open
+*
+D 0 58527 1 0 100 0 0 0
+*     east exit from "A Dark, Gloomy Bedchamber" to
+*     "A Manor Hallway" - open
+*
+D 0 58556 5 8 100 0 0 0
+*     down exit from "The Vaulted Caves of the Obyrith Lair" to
+*     "A Steep Jagged Vertical Shaft Deep Within the Heart of Zionyn" - open/blocked
+*
+D 0 58559 4 0 100 0 0 0
+*     up exit from "A Steep Jagged Vertical Shaft Deep Within the Heart of Zionyn" to
+*     "The Vaulted Caves of the Obyrith Lair" - open
+*
+D 0 58560 9 8 100 0 0 0
+*     southeast exit from "The Lair of the Obyrith King Obox-Ob" to
+*     "A Focus of Reality" - open/blocked
+*
+D 0 58561 6 8 100 0 0 0
+*     northwest exit from "A Focus of Reality" to
+*     "The Lair of the Obyrith King Obox-Ob" - open/blocked
+*
+D 0 58565 4 1 100 0 0 0
+*     up exit from "A Narrow Hallway" to
+*     "A Secluded Observation Loft" - closed
+*
+D 0 58566 5 1 100 0 0 0
+*     down exit from "A Secluded Observation Loft" to
+*     "A Narrow Hallway" - closed
+*
+D 0 58567 2 2 100 0 0 0
+*     south exit from "The Outer Gates of Castle Ravenloft" to
+*     "An Incline Beyond the Outer Gates of Ravenloft" - closed/locked
+*
+D 0 58568 0 2 100 0 0 0
+*     north exit from "An Incline Beyond the Outer Gates of Ravenloft" to
+*     "The Outer Gates of Castle Ravenloft" - closed/locked
+*
+*
+O 0 58344 1 58317 100 0 0 0        * an ancient, cracked altar
+O 0 58346 1 58317 100 0 0 0        * the idol of Ravenloft
+O 0 58345 1 58317 100 0 0 0        * a humanoid body
+P 1 58335 4 58345 100 0 0 0        *   some change
+O 0 58340 2 58321 100 0 0 0        * a desk
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 3050 10 58340 100 0 0 0        *   (object type not in this .obj file)
+P 1 58368 1 58340 100 0 0 0        *   a document in Abyssal
+P 1 58369 1 58340 100 0 0 0        *   a document of Ravenloft Indulgence
+P 1 58370 1 58340 100 0 0 0        *   a document of Ravenloft Lenience
+P 1 58336 4 58340 100 0 0 0        *   some change
+O 0 7371 1 58368 100 0 0 0         * (object type not in this .obj file)
+O 0 83282 1 58379 100 0 0 0        * (object type not in this .obj file)
+O 0 58339 1 58383 100 0 0 0        * a bookshelf
+P 1 58347 1 58339 100 0 0 0        *   a scroll of embalming
+P 1 75638 4 58339 100 0 0 0        *   (object type not in this .obj file)
+P 1 75638 4 58339 100 0 0 0        *   (object type not in this .obj file)
+P 1 75638 4 58339 100 0 0 0        *   (object type not in this .obj file)
+P 1 75638 4 58339 100 0 0 0        *   (object type not in this .obj file)
+O 0 58338 1 58383 100 0 0 0        * a bookshelf
+P 1 58348 1 58338 100 0 0 0        *   a scroll of word of recall
+P 1 75669 4 58338 100 0 0 0        *   (object type not in this .obj file)
+P 1 75669 4 58338 100 0 0 0        *   (object type not in this .obj file)
+P 1 75669 4 58338 100 0 0 0        *   (object type not in this .obj file)
+P 1 75669 4 58338 100 0 0 0        *   (object type not in this .obj file)
+O 0 58340 2 58383 100 0 0 0        * a desk
+P 1 58335 4 58340 100 0 0 0        *   some change
+O 0 58327 1 58389 100 0 0 0        * a comfy sofa
+P 1 58336 4 58327 100 0 0 0        *   some change
+P 1 58330 1 58327 100 0 0 0        *   a tiny bag
+P 1 58331 1 58330 100 0 0 0        *     a tiger's eye
+P 1 58332 1 58330 100 0 0 0        *     an aquamarine
+P 1 58333 1 58330 100 0 0 0        *     a topaz
+P 1 58334 1 58330 100 0 0 0        *     an opal
+P 1 58335 4 58330 100 0 0 0        *     some change
+O 0 58328 1 58389 100 0 0 0        * a fireplace
+P 1 53625 1 58328 100 0 0 0        *   (object type not in this .obj file)
+O 0 58329 1 58389 100 0 0 0        * tables and chairs
+O 0 58326 1 58391 100 0 0 0        * two statues
+O 0 58302 1 58397 100 0 0 0        * a tapestry curtain
+O 0 58375 1 58399 100 0 0 0        * a candle melted onto a skull
+O 0 58376 1 58399 100 0 0 0        * an old jade raven
+O 0 58377 1 58401 100 0 0 0        * a porcelain cat
+O 0 58312 1 58406 100 0 0 0        * teleport to Zionyn grid
+O 0 58303 1 58411 100 0 0 0        * teleport to Obox-ob grid
+O 0 58309 1 58440 100 0 0 0        * a tapestry
+O 0 58308 1 58441 100 0 0 0        * a tapestry
+O 0 58307 1 58442 100 0 0 0        * a tapestry
+O 0 58311 1 58443 100 0 0 0        * a tapestry
+O 0 58306 1 58446 100 0 0 0        * a golden ophidian idol
+O 0 58422 1 58446 100 0 0 0        * a pile of curiously-arranged platinum coins
+O 0 58336 4 58446 100 0 0 0        * some change
+O 0 58305 1 58449 100 0 0 0        * a golden yuan-ti idol
+O 0 58423 1 58449 100 0 0 0        * a huge pile of platinum coins
+O 0 360 1 58449 100 0 0 0          * (object type not in this .obj file)
+O 0 58424 1 58449 100 0 0 0        * the tome of Strahd
+O 0 58427 1 58449 100 0 0 0        * a glorious copper mallet
+O 0 58392 1 58453 100 0 0 0        * some dirty beds
+P 1 58335 4 58392 100 0 0 0        *   some change
+P 1 58336 4 58392 100 0 0 0        *   some change
+O 0 58315 1 58456 100 0 0 0        * a huge key ring with a single key
+O 0 58359 1 58457 100 0 0 0        * a loose brick
+O 0 58396 1 58470 100 0 0 0        * an Eladrin spear
+O 0 58313 1 58513 100 0 0 0        * a map of the cosmos
+O 0 58433 1 58516 100 0 0 0        * a strange granite head
+O 0 58410 1 58517 100 0 0 0        * the Dayheart
+O 0 58349 1 58521 100 0 0 0        * a torch
+O 0 58412 1 58527 100 0 0 0        * a young girl named Gertruda
+O 0 58397 1 58532 100 0 0 0        * a dracolich skull
+O 0 58413 1 58534 100 0 0 0        * a huge copper bell
+O 0 58343 1 58538 100 0 0 0        * an ancient plaque
+O 0 58372 1 58541 100 0 0 0        * an old battered chest
+P 1 58373 1 58372 100 0 0 0        *   boots of thundering might
+P 1 58374 1 58372 100 0 0 0        *   a small heap of coins
+O 0 58404 1 58552 100 0 0 0        * the altar of blood
+O 0 58406 1 58560 100 0 0 0        * the bone throne of slime
+O 0 58430 1 58564 100 0 0 0        * a sword case
+*
+M 0 58304 3 58302 100 0 0 0        * a large gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58304 3 58303 100 0 0 0        * a large gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58303 5 58304 100 0 0 0        * a shade
+M 0 58304 3 58305 100 0 0 0        * a large gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+M 0 58303 5 58305 100 0 0 0        * a shade
+M 0 58305 4 58308 100 0 0 0        * a vampire-gargoyle
+G 1 58432 4 0 100 0 0 0            *    a vial of boiling blood
+M 0 58305 4 58308 100 0 0 0        * a vampire-gargoyle
+G 1 58432 4 0 100 0 0 0            *    a vial of boiling blood
+M 0 58305 4 58308 100 0 0 0        * a vampire-gargoyle
+G 1 58432 4 0 100 0 0 0            *    a vial of boiling blood
+M 0 58305 4 58308 100 0 0 0        * a vampire-gargoyle
+G 1 58432 4 0 100 0 0 0            *    a vial of boiling blood
+M 0 58326 5 58310 100 0 0 0        * a wight
+M 0 58326 5 58310 100 0 0 0        * a wight
+M 0 58324 5 58310 100 0 0 0        * a wraith
+M 0 58325 9 58315 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58325 9 58315 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58324 5 58315 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58308 2 58317 100 0 0 0        * a shapeless spawn
+M 0 58347 1 58320 100 0 0 0        * Perganan the rogue Vistani
+M 0 58348 1 58321 100 0 0 0        * Lucian, the Half-Celestial Inhabitted
+E 1 58361 1 3 100 0 0 0            *   the fang of inhabitation
+E 1 58367 1 5 34 0 0 0             *   an embroidered tunic of the Knights of the Raven
+E 1 58365 1 7 34 0 0 0             *   some stitched leggings of the Knights of the Raven
+E 1 58364 1 10 34 0 0 0            *   some stitched sleeves of the Knights of the Raven
+E 1 58363 1 16 100 0 0 0           *   a demonic broadsword
+G 1 58366 1 0 100 0 0 0            *    some baby guts
+P 1 58362 1 58366 100 0 0 0        *   a small key
+F 1 58333 7 58321 100 0 0 0        * a shadow (following)
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+F 1 58349 2 58321 100 0 0 0        * a dolghast (following)
+F 1 58349 2 58321 100 0 0 0        * a dolghast (following)
+M 0 58312 1 58324 100 0 0 0        * Lady Vey Rallen
+M 0 58310 6 58324 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58311 6 58369 100 0 0 0        * a cursed spirit
+M 0 58325 9 58369 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58325 9 58369 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58325 9 58369 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58355 9 58370 100 0 0 0        * a lost soul of a servant
+M 0 58303 5 58375 100 0 0 0        * a shade
+M 0 58342 1 58377 100 0 0 0        * a large gold wyrm
+E 1 58341 2 16 100 0 0 0           *   a solid gold claw
+E 1 58341 2 17 100 0 0 0           *   a solid gold claw
+G 1 58342 1 0 100 0 0 0            *    a mound of gold coins
+M 0 58309 3 58378 100 0 0 0        * a gibbering mouther
+M 0 58309 3 58378 100 0 0 0        * a gibbering mouther
+M 0 58309 3 58378 100 0 0 0        * a gibbering mouther
+M 0 58356 12 58378 100 0 0 0       * a plague rat
+M 0 58303 5 58379 100 0 0 0        * a shade
+M 0 58313 1 58381 100 0 0 0        * a chain golem
+E 1 58351 1 13 100 0 0 0           *   a shimmering chain-linked belt
+E 1 58317 4 16 100 0 0 0           *   a chain
+E 1 58317 4 17 100 0 0 0           *   a chain
+E 1 58317 4 25 100 0 0 0           *   a chain
+E 1 58317 4 26 100 0 0 0           *   a chain
+M 0 58314 4 58381 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58314 4 58381 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58315 1 58381 100 0 0 0        * a Tatyana portrait
+M 0 58354 5 58382 100 0 0 0        * a mohrg
+M 0 58306 1 58384 100 0 0 0        * Lief Lipsiege
+E 1 58316 1 16 100 0 0 0           *   a greatsword
+G 1 58350 1 0 100 0 0 0            *    a silver key
+M 0 58307 3 58384 100 0 0 0        * a deathlock
+M 0 58307 3 58384 100 0 0 0        * a deathlock
+M 0 58307 3 58384 100 0 0 0        * a deathlock
+M 0 58303 5 58387 100 0 0 0        * a shade
+M 0 58301 2 58388 100 0 0 0        * a stone serpent
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+M 0 58301 2 58388 100 0 0 0        * a stone serpent
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+M 0 58302 4 58388 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58302 4 58388 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58302 4 58388 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58302 4 58388 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58336 3 58391 100 0 0 0        * a crypt chanter
+M 0 58336 3 58392 100 0 0 0        * a crypt chanter
+M 0 58311 6 58392 100 0 0 0        * a cursed spirit
+M 0 58311 6 58392 100 0 0 0        * a cursed spirit
+M 0 58336 3 58392 100 0 0 0        * a crypt chanter
+M 0 58300 9 58394 100 0 0 0        * a plague rat
+M 0 58308 2 58394 100 0 0 0        * a shapeless spawn
+M 0 58310 6 58395 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58311 6 58395 100 0 0 0        * a cursed spirit
+M 0 58356 12 58396 100 0 0 0       * a plague rat
+M 0 58310 6 58396 100 0 0 0        * a wraith
+M 0 58310 6 58397 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58311 6 58398 100 0 0 0        * a cursed spirit
+M 0 58356 12 58398 100 0 0 0       * a plague rat
+M 0 58318 1 58400 100 0 0 0        * Afina
+E 1 58378 1 14 100 0 0 0           *   a silver charm bracelet
+E 1 58381 1 18 100 0 0 0           *   a wand of prismatic colors
+F 1 58345 1 58400 100 0 0 0        * a redcap (following)
+E 1 58357 1 6 100 0 0 0            *   a red cap
+E 1 58358 1 8 100 0 0 0            *   some hefty iron boots
+E 1 58355 1 16 100 0 0 0           *   a thick iron sword
+E 1 58356 1 17 100 0 0 0           *   an iron shiv
+M 0 58317 1 58401 100 0 0 0        * Trina
+E 1 58379 1 3 25 0 0 0             *   an oathstone pendant
+E 1 58382 1 18 100 0 0 0           *   a skull-headed staff
+F 1 58344 1 58401 100 0 0 0        * a green-eyed cat imp (following)
+M 0 58319 1 58402 100 0 0 0        * Cristofor
+E 1 58380 1 1 100 0 0 0            *   a two-fingered gold band of focusing
+G 1 32856 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 58343 1 58402 100 0 0 0        * a shocker lizard (following)
+M 0 58359 1 58415 100 0 0 0        * a skullstone golem
+E 1 58391 2 16 100 0 0 0           *   a sharp shard of stone
+E 1 58391 2 17 100 0 0 0           *   a sharp shard of stone
+G 1 58390 1 0 100 0 0 0            *    a slimy key
+G 1 58388 9 0 100 0 0 0            *    a drop of living stone
+M 0 58361 8 58417 100 0 0 0        * a uridezu
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58417 100 0 0 0      * a primal vermin (following)
+M 0 58362 4 58418 100 0 0 0        * a chasme
+M 0 58362 4 58418 100 0 0 0        * a chasme
+M 0 58362 4 58418 100 0 0 0        * a chasme
+M 0 58362 4 58418 100 0 0 0        * a chasme
+M 0 58361 8 58418 100 0 0 0        * a uridezu
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58418 100 0 0 0      * a primal vermin (following)
+M 0 58360 4 58419 100 0 0 0        * a tanar'ri soulripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58395 4 0 100 0 0 0            *    a potion of soulripping
+M 0 58360 4 58419 100 0 0 0        * a tanar'ri soulripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58395 4 0 100 0 0 0            *    a potion of soulripping
+M 0 58360 4 58419 100 0 0 0        * a tanar'ri soulripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58395 4 0 100 0 0 0            *    a potion of soulripping
+M 0 58360 4 58419 100 0 0 0        * a tanar'ri soulripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58395 4 0 100 0 0 0            *    a potion of soulripping
+M 0 58361 8 58419 100 0 0 0        * a uridezu
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58419 100 0 0 0      * a primal vermin (following)
+M 0 58361 8 58422 100 0 0 0        * a uridezu
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58422 100 0 0 0      * a primal vermin (following)
+M 0 58363 8 58423 100 0 0 0        * an enslaved bebilith
+M 0 58363 8 58423 100 0 0 0        * an enslaved bebilith
+M 0 58363 8 58423 100 0 0 0        * an enslaved bebilith
+M 0 58363 8 58423 100 0 0 0        * an enslaved bebilith
+M 0 58363 8 58423 100 0 0 0        * an enslaved bebilith
+M 0 58364 1 58424 100 0 0 0        * Obox-Ob, the Prince of Demons
+G 1 58393 1 0 100 0 0 0            *    an abyssal essence
+M 0 58356 12 58428 100 0 0 0       * a plague rat
+M 0 58339 13 58428 100 0 0 0       * a bone vampire
+F 1 58339 13 58428 100 0 0 0       * a bone vampire (following)
+F 1 58339 13 58428 100 0 0 0       * a bone vampire (following)
+M 0 58300 9 58429 100 0 0 0        * a plague rat
+M 0 58356 12 58430 100 0 0 0       * a plague rat
+M 0 58339 13 58430 100 0 0 0       * a bone vampire
+F 1 58339 13 58430 100 0 0 0       * a bone vampire (following)
+F 1 58339 13 58430 100 0 0 0       * a bone vampire (following)
+M 0 58339 13 58431 100 0 0 0       * a bone vampire
+M 0 58300 9 58431 100 0 0 0        * a plague rat
+M 0 58337 1 58432 100 0 0 0        * Utzelloth the dracolich
+E 1 58322 1 14 100 0 0 0           *   a dracolich-bone bracelet
+M 0 58338 1 58432 100 0 0 0        * Ranchot the Troll Slayer
+E 1 58324 1 3 50 0 0 0             *   a necklace of dangling bones and relics
+E 1 58323 2 16 100 0 0 0           *   a sharp bone longsword
+E 1 58323 2 17 100 0 0 0           *   a sharp bone longsword
+M 0 58340 1 58432 100 0 0 0        * Mahweeistardala the ancient beholder
+E 1 58325 1 18 100 0 0 0           *   blood of the Mahweeistardala
+E 1 58337 1 24 50 0 0 0            *   an ever-watching eye
+M 0 58339 13 58432 100 0 0 0       * a bone vampire
+F 1 58339 13 58432 100 0 0 0       * a bone vampire (following)
+F 1 58339 13 58432 100 0 0 0       * a bone vampire (following)
+M 0 58300 9 58435 100 0 0 0        * a plague rat
+M 0 58339 13 58436 100 0 0 0       * a bone vampire
+F 1 58339 13 58436 100 0 0 0       * a bone vampire (following)
+F 1 58339 13 58436 100 0 0 0       * a bone vampire (following)
+M 0 58333 7 58438 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58333 7 58438 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58314 4 58438 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+M 0 58314 4 58438 100 0 0 0        * a gargoyle
+E 1 58314 26 16 100 0 0 0          *   a stone claw
+E 1 58314 26 17 100 0 0 0          *   a stone claw
+M 0 58310 6 58442 100 0 0 0        * a wraith
+M 0 58310 6 58442 100 0 0 0        * a wraith
+M 0 58354 5 58442 100 0 0 0        * a mohrg
+M 0 58316 5 58445 100 0 0 0        * a chelicera
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+F 1 58316 5 58445 100 0 0 0        * a chelicera (following)
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+F 1 58316 5 58445 100 0 0 0        * a chelicera (following)
+E 1 58421 1 3 100 0 0 0            *   a large golden key on a leather loop
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58355 9 58451 100 0 0 0        * a lost soul of a servant
+M 0 58331 3 58452 100 0 0 0        * a web golem
+E 1 58320 6 16 100 0 0 0           *   a flailing stalk of webbing
+E 1 58320 6 17 100 0 0 0           *   a flailing stalk of webbing
+M 0 58328 3 58452 100 0 0 0        * an ettercap
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58329 5 58452 100 0 0 0        * a large monstrous spider
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58328 3 58453 100 0 0 0        * an ettercap
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58329 5 58453 100 0 0 0        * a large monstrous spider
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58335 3 58454 100 0 0 0        * a grotesque flesh golem
+E 1 58321 12 16 100 0 0 0          *   a writhing arm
+E 1 58321 12 17 100 0 0 0          *   a writhing arm
+E 1 58321 12 25 100 0 0 0          *   a writhing arm
+E 1 58321 12 26 100 0 0 0          *   a writhing arm
+M 0 58335 3 58454 100 0 0 0        * a grotesque flesh golem
+E 1 58321 12 16 100 0 0 0          *   a writhing arm
+E 1 58321 12 17 100 0 0 0          *   a writhing arm
+E 1 58321 12 25 100 0 0 0          *   a writhing arm
+E 1 58321 12 26 100 0 0 0          *   a writhing arm
+M 0 58335 3 58454 100 0 0 0        * a grotesque flesh golem
+E 1 58321 12 16 100 0 0 0          *   a writhing arm
+E 1 58321 12 17 100 0 0 0          *   a writhing arm
+E 1 58321 12 25 100 0 0 0          *   a writhing arm
+E 1 58321 12 26 100 0 0 0          *   a writhing arm
+M 0 58331 3 58455 100 0 0 0        * a web golem
+E 1 58320 6 16 100 0 0 0           *   a flailing stalk of webbing
+E 1 58320 6 17 100 0 0 0           *   a flailing stalk of webbing
+M 0 58328 3 58455 100 0 0 0        * an ettercap
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58329 5 58455 100 0 0 0        * a large monstrous spider
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58331 3 58456 100 0 0 0        * a web golem
+E 1 58320 6 16 100 0 0 0           *   a flailing stalk of webbing
+E 1 58320 6 17 100 0 0 0           *   a flailing stalk of webbing
+M 0 58329 5 58456 100 0 0 0        * a large monstrous spider
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58329 5 58457 100 0 0 0        * a large monstrous spider
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58325 9 58458 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58326 5 58458 100 0 0 0        * a wight
+M 0 58327 1 58458 100 0 0 0        * a mohrg
+M 0 58381 1 58459 100 0 0 0        * Megosh, the Thief
+M 0 58380 2 58468 100 0 0 0        * a four-armed tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 25 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 26 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58376 4 58474 100 0 0 0        * a vicious chasme
+M 0 58376 4 58474 100 0 0 0        * a vicious chasme
+M 0 58376 4 58474 100 0 0 0        * a vicious chasme
+M 0 58376 4 58474 100 0 0 0        * a vicious chasme
+M 0 58366 4 58475 100 0 0 0        * a borrow worm
+M 0 58366 4 58475 100 0 0 0        * a borrow worm
+M 0 58366 4 58475 100 0 0 0        * a borrow worm
+M 0 58366 4 58475 100 0 0 0        * a borrow worm
+M 0 58380 2 58476 100 0 0 0        * a four-armed tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 25 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 26 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58368 1 58478 100 0 0 0        * a bloated bebilith
+G 1 58402 1 0 100 0 0 0            *    a bloated bebilith stomach sack
+M 0 58361 8 58480 100 0 0 0        * a uridezu
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58480 100 0 0 0      * a primal vermin (following)
+M 0 58361 8 58481 100 0 0 0        * a uridezu
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58481 100 0 0 0      * a primal vermin (following)
+M 0 58372 5 58482 100 0 0 0        * a sorrowsworn
+G 1 58403 5 0 100 0 0 0            *    a vial of sorrow
+M 0 58372 5 58482 100 0 0 0        * a sorrowsworn
+G 1 58403 5 0 100 0 0 0            *    a vial of sorrow
+M 0 58372 5 58482 100 0 0 0        * a sorrowsworn
+G 1 58403 5 0 100 0 0 0            *    a vial of sorrow
+M 0 58372 5 58482 100 0 0 0        * a sorrowsworn
+G 1 58403 5 0 100 0 0 0            *    a vial of sorrow
+M 0 58372 5 58482 100 0 0 0        * a sorrowsworn
+G 1 58403 5 0 100 0 0 0            *    a vial of sorrow
+M 0 58371 5 58483 100 0 0 0        * a chaos elemental
+M 0 58371 5 58483 100 0 0 0        * a chaos elemental
+M 0 58371 5 58483 100 0 0 0        * a chaos elemental
+M 0 58371 5 58483 100 0 0 0        * a chaos elemental
+M 0 58371 5 58483 100 0 0 0        * a chaos elemental
+M 0 58361 8 58487 100 0 0 0        * a uridezu
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58487 100 0 0 0      * a primal vermin (following)
+M 0 58361 8 58488 100 0 0 0        * a uridezu
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58488 100 0 0 0      * a primal vermin (following)
+M 0 58369 4 58489 100 0 0 0        * a tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58369 4 58489 100 0 0 0        * a tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58369 4 58489 100 0 0 0        * a tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58369 4 58489 100 0 0 0        * a tanar'ri mindripper
+E 1 58394 24 16 100 0 0 0          *   a jagged bone sword
+E 1 58394 24 17 100 0 0 0          *   a jagged bone sword
+G 1 58409 6 0 100 0 0 0            *    a vial of the mindripper
+M 0 58370 5 58490 100 0 0 0        * a great goristro
+M 0 58370 5 58490 100 0 0 0        * a great goristro
+M 0 58370 5 58490 100 0 0 0        * a great goristro
+M 0 58370 5 58490 100 0 0 0        * a great goristro
+M 0 58370 5 58490 100 0 0 0        * a great goristro
+M 0 58311 6 58513 100 0 0 0        * a cursed spirit
+M 0 58300 9 58514 100 0 0 0        * a plague rat
+M 0 58300 9 58514 100 0 0 0        * a plague rat
+M 0 58326 5 58514 100 0 0 0        * a wight
+M 0 58324 5 58514 100 0 0 0        * a wraith
+M 0 58322 1 58516 100 0 0 0        * Khyristrix the Barbed Devil
+E 1 58384 1 5 34 0 0 0             *   a suit of wickedly-barbed devil hide
+E 1 58385 1 10 34 0 0 0            *   some barbed sleeves oozing slime
+E 1 58371 18 16 100 0 0 0          *   a poisonous claw
+E 1 58389 1 17 33 0 0 0            *   Pek'Nasisk, the venom lash
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58323 12 58516 100 0 0 0       * a garden larva
+M 0 58320 5 58517 100 0 0 0        * a vampire spawn
+M 0 58320 5 58517 100 0 0 0        * a vampire spawn
+M 0 58321 1 58517 100 0 0 0        * Rafail the Fighter
+E 1 58352 1 5 100 0 0 0            *   a torn chain shirt
+E 1 58353 1 12 100 0 0 0           *   a flapping cloak of scarlet
+E 1 58319 2 16 100 0 0 0           *   a blood-red bastard sword
+E 1 58319 2 17 100 0 0 0           *   a blood-red bastard sword
+F 1 58320 5 58517 100 0 0 0        * a vampire spawn (following)
+F 1 58320 5 58517 100 0 0 0        * a vampire spawn (following)
+M 0 58374 1 58518 100 0 0 0        * the soul of the butler
+M 0 58355 9 58520 100 0 0 0        * a lost soul of a servant
+M 0 58324 5 58522 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58324 5 58522 100 0 0 0        * a wraith
+G 1 58383 6 0 100 0 0 0            *    a chunk of materialized wraith bone
+M 0 58316 5 58522 100 0 0 0        * a chelicera
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58316 5 58522 100 0 0 0        * a chelicera
+E 1 58318 26 16 100 0 0 0          *   a poisoned fang
+E 1 58318 26 17 100 0 0 0          *   a poisoned fang
+M 0 58375 1 58523 100 0 0 0        * the soul of the maid
+M 0 58326 5 58525 100 0 0 0        * a wight
+M 0 58333 7 58525 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58300 9 58526 100 0 0 0        * a plague rat
+M 0 58300 9 58526 100 0 0 0        * a plague rat
+M 0 58325 9 58527 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58325 9 58527 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58325 9 58527 100 0 0 0        * a Strahd zombie
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58333 7 58528 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58333 7 58528 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58300 9 58529 100 0 0 0        * a plague rat
+M 0 58332 2 58532 100 0 0 0        * a forsaken shell
+M 0 58333 7 58532 100 0 0 0        * a shadow
+G 1 58354 7 0 100 0 0 0            *    a droplet of the blackest shadow
+M 0 58320 5 58532 100 0 0 0        * a vampire spawn
+M 0 58332 2 58532 100 0 0 0        * a forsaken shell
+M 0 58351 1 58533 100 0 0 0        * a babau demon
+E 1 58371 18 16 100 0 0 0          *   a poisonous claw
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58352 1 58533 100 0 0 0        * a fiendish rutterkin
+M 0 58355 9 58540 100 0 0 0        * a lost soul of a servant
+M 0 58350 3 58542 100 0 0 0        * a bar-lguras
+E 1 58371 18 16 100 0 0 0          *   a poisonous claw
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58350 3 58542 100 0 0 0        * a bar-lguras
+E 1 58371 18 16 100 0 0 0          *   a poisonous claw
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58350 3 58542 100 0 0 0        * a bar-lguras
+E 1 58371 18 16 100 0 0 0          *   a poisonous claw
+E 1 58371 18 17 100 0 0 0          *   a poisonous claw
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58354 5 58543 100 0 0 0        * a mohrg
+M 0 58354 5 58543 100 0 0 0        * a mohrg
+M 0 58354 5 58543 100 0 0 0        * a mohrg
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58356 12 58543 100 0 0 0       * a plague rat
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58355 9 58543 100 0 0 0        * a lost soul of a servant
+M 0 58355 9 58543 100 0 0 0        * a lost soul of a servant
+M 0 58355 9 58543 100 0 0 0        * a lost soul of a servant
+M 0 58355 9 58543 100 0 0 0        * a lost soul of a servant
+M 0 58382 10 58543 100 0 0 0       * a member of the Vistani secret police
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58543 100 0 0 0       * a member of the Vistani secret police
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58543 100 0 0 0       * a member of the Vistani secret police
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58543 100 0 0 0       * a member of the Vistani secret police
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58355 9 58543 100 0 0 0        * a lost soul of a servant
+M 0 58353 6 58543 100 0 0 0        * a gaunt zombie
+M 0 58382 10 58543 100 0 0 0       * a member of the Vistani secret police
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58358 1 58544 40 0 0 0         * Yanosh Poha the Servant of Carpathia
+E 1 58387 1 19 100 0 0 0           *   some destruction holo-gogs
+M 0 58357 1 58544 30 0 0 0         * Prucha'shokourung'tagag'onk the Moon Stalker
+E 1 58386 1 16 25 0 0 0            *   Shokurung'otaghe'rakag'onk'rakag, the axe of ill repute
+G 1 58425 1 0 100 0 0 0            *    an elixir of the moonstalker
+M 0 58334 1 58544 15 0 0 0         * Nicoramus the Troll Stalker
+E 1 58398 3 16 100 0 0 0           *   a vorpal blade
+E 1 58398 3 17 100 0 0 0           *   a vorpal blade
+E 1 58399 1 21 100 0 0 0           *   a multi-phased fish bone earring
+M 0 58341 1 58544 15 0 0 0         * Basklez the Troll Stalker
+E 1 58400 1 16 100 0 0 0           *   a vorpal sword named 'Shimmer'
+E 1 58398 3 17 100 0 0 0           *   a vorpal blade
+M 0 58367 1 58544 20 0 0 0         * the sabbath Wizard
+M 0 58386 1 58544 75 0 0 0         * Lord Soth
+E 1 58426 1 16 100 0 0 0           *   the sword of scourging
+F 1 12401 1 58544 100 0 0 0        * (mob type not in this .mob file) (following)
+M 0 58363 8 58549 100 0 0 0        * an enslaved bebilith
+M 0 58373 4 58550 100 0 0 0        * a uridezu ratlord
+F 1 58377 8 58550 100 0 0 0        * a hairy ratman (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58550 100 0 0 0      * a primal vermin (following)
+F 1 58377 8 58550 100 0 0 0        * a hairy ratman (following)
+M 0 58373 4 58551 100 0 0 0        * a uridezu ratlord
+F 1 58377 8 58551 100 0 0 0        * a hairy ratman (following)
+F 1 58377 8 58551 100 0 0 0        * a hairy ratman (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58551 100 0 0 0      * a primal vermin (following)
+M 0 58363 8 58551 100 0 0 0        * an enslaved bebilith
+M 0 58378 1 58552 100 0 0 0        * the oboxian high priest
+E 1 58405 1 16 100 0 0 0           *   a tanar'ri mace of fire and acid
+M 0 58373 4 58553 100 0 0 0        * a uridezu ratlord
+F 1 58377 8 58553 100 0 0 0        * a hairy ratman (following)
+F 1 58377 8 58553 100 0 0 0        * a hairy ratman (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58553 100 0 0 0      * a primal vermin (following)
+M 0 58363 8 58553 100 0 0 0        * an enslaved bebilith
+M 0 58373 4 58555 100 0 0 0        * a uridezu ratlord
+F 1 58377 8 58555 100 0 0 0        * a hairy ratman (following)
+F 1 58377 8 58555 100 0 0 0        * a hairy ratman (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+F 1 58365 120 58555 100 0 0 0      * a primal vermin (following)
+M 0 58379 1 58560 100 0 0 0        * Obox-Ob the Obyrith Demon Overlord
+G 1 58407 1 0 100 0 0 0            *    a Zionyn essence
+M 0 58383 1 58562 100 0 0 0        * Strahd Von Zarovich
+E 1 58417 1 1 100 0 0 0            *   a band of parting prevented
+E 1 58431 1 14 100 0 0 0           *   a wisp of total and utter blackness
+E 1 58434 10 16 100 0 0 0          *   strahd proc 2
+E 1 58435 1 17 100 0 0 0           *   strahd proc 1
+G 1 58420 1 0 100 0 0 0            *    a silver key ring
+P 1 58419 1 58420 100 0 0 0        *   an old key of the Ravenloft Catacombs
+P 1 58415 1 58420 100 0 0 0        *   a key to the Ravenloft Treasury
+F 1 58384 2 58562 100 0 0 0        * an advanced dread guard (following)
+E 1 58418 2 16 100 0 0 0           *   a spectral lance
+F 1 58384 2 58562 100 0 0 0        * an advanced dread guard (following)
+E 1 58418 2 16 100 0 0 0           *   a spectral lance
+F 1 58387 1 58562 100 0 0 0        * Bram Burns, Vistani Captain (following)
+E 1 58414 19 16 100 0 0 0          *   a sharpened black dagger
+E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
+G 1 97118 1 0 30 0 0 0             *    (object type not in this .obj file)
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58385 50 58563 100 0 0 0       * a platinum scarab
+M 0 58382 10 58566 100 0 0 0       * a member of the Vistani secret police
+G 1 58808 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58566 100 0 0 0       * a member of the Vistani secret police
+G 1 58808 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58566 100 0 0 0       * a member of the Vistani secret police
+G 1 58808 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58566 100 0 0 0       * a member of the Vistani secret police
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58382 10 58566 100 0 0 0       * a member of the Vistani secret police
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 58414 19 0 100 0 0 0           *    a sharpened black dagger
+G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 58846 1 58567 100 0 0 0        * (mob type not in this .mob file)
+*
+S

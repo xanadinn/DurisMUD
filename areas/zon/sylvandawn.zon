@@ -1,0 +1,695 @@
+#80
+&+GSylvandawn&n~
+8327 2 4 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 8001 0 2 100 0 0 0
+*     north exit from "Shrine of Peace" to
+*     "Entrance to the Palace of the Sun" - closed/locked
+*
+D 0 8035 2 2 100 0 0 0
+*     south exit from "Entrance to the Palace of the Sun" to
+*     "Shrine of Peace" - closed/locked
+*
+D 0 8014 2 1 100 0 0 0
+*     south exit from "Entrance to the Warriors' Guild of Sylvandawn" to
+*     "Warriors' Bar and Grill" - closed
+*
+D 0 8015 0 1 100 0 0 0
+*     north exit from "Warriors' Bar and Grill" to
+*     "Entrance to the Warriors' Guild of Sylvandawn" - closed
+*
+D 0 8038 0 1 100 0 0 0
+*     north exit from "Western Hallway" to
+*     "Royal Library" - closed
+*
+D 0 8049 2 1 100 0 0 0
+*     south exit from "Royal Library" to
+*     "Western Hallway" - closed
+*
+D 0 8041 0 1 100 0 0 0
+*     north exit from "Western Hallway" to
+*     "Guard Room of the King's Chambers" - closed
+*
+D 0 8046 2 1 100 0 0 0
+*     south exit from "Guard Room of the King's Chambers" to
+*     "Western Hallway" - closed
+*
+D 0 8043 0 1 100 0 0 0
+*     north exit from "Western Hallway" to
+*     "Queen's Outer Chambers" - closed
+*
+D 0 8044 2 1 100 0 0 0
+*     south exit from "Queen's Outer Chambers" to
+*     "Western Hallway" - closed
+*
+D 0 8044 1 2 100 0 0 0
+*     east exit from "Queen's Outer Chambers" to
+*     "The Main Chamber of the Queen of Sylvandawn" - closed/locked
+*
+D 0 8045 3 2 100 0 0 0
+*     west exit from "The Main Chamber of the Queen of Sylvandawn" to
+*     "Queen's Outer Chambers" - closed/locked
+*
+D 0 8047 1 2 100 0 0 0
+*     east exit from "The Outer Chambers of the King" to
+*     "The Royal Throne Room of Sylvandawn" - closed/locked
+*
+D 0 8048 3 2 100 0 0 0
+*     west exit from "The Royal Throne Room of Sylvandawn" to
+*     "The Outer Chambers of the King" - closed/locked
+*
+D 0 8052 1 1 100 0 0 0
+*     east exit from "Treasure Room of the Palace" to
+*     "Guardian of the Treasure of the Palace" - closed
+*
+D 0 8053 3 1 100 0 0 0
+*     west exit from "Guardian of the Treasure of the Palace" to
+*     "Treasure Room of the Palace" - closed
+*
+D 0 8070 3 1 100 0 0 0
+*     west exit from "Entrance to the Temple of the Sun" to
+*     "The Acolytes' Meditation Room" - closed
+*
+D 0 8071 1 1 100 0 0 0
+*     east exit from "The Acolytes' Meditation Room" to
+*     "Entrance to the Temple of the Sun" - closed
+*
+D 0 8088 0 1 100 0 0 0
+*     north exit from "The Western Path" to
+*     "An Elven Home" - closed
+*
+D 0 8089 2 1 100 0 0 0
+*     south exit from "An Elven Home" to
+*     "The Western Path" - closed
+*
+D 0 8092 3 1 100 0 0 0
+*     west exit from "The Sylvan Trail" to
+*     "A Small Tree Dwelling" - closed
+*
+D 0 8093 1 1 100 0 0 0
+*     east exit from "A Small Tree Dwelling" to
+*     "The Sylvan Trail" - closed
+*
+D 0 8094 1 1 100 0 0 0
+*     east exit from "The Sylvan Trail" to
+*     "A Strange Elven House" - closed
+*
+D 0 8101 3 1 100 0 0 0
+*     west exit from "A Strange Elven House" to
+*     "The Sylvan Trail" - closed
+*
+D 0 8096 0 1 100 0 0 0
+*     north exit from "City Guard Room" to
+*     "Cell" - closed
+*
+D 0 8097 2 1 100 0 0 0
+*     south exit from "Cell" to
+*     "City Guard Room" - closed
+*
+D 0 8098 1 1 100 0 0 0
+*     east exit from "The Sylvan Trail" to
+*     "A Huge Elven House" - closed
+*
+D 0 8100 3 1 100 0 0 0
+*     west exit from "A Huge Elven House" to
+*     "The Sylvan Trail" - closed
+*
+D 0 8098 3 1 100 0 0 0
+*     west exit from "The Sylvan Trail" to
+*     "An Elven House" - closed
+*
+D 0 8099 1 1 100 0 0 0
+*     east exit from "An Elven House" to
+*     "The Sylvan Trail" - closed
+*
+D 0 8113 2 1 100 0 0 0
+*     south exit from "The Tower of High Magic in Sylvandawn" to
+*     "The Tower Laboratory" - closed
+*
+D 0 8114 0 1 100 0 0 0
+*     north exit from "The Tower Laboratory" to
+*     "The Tower of High Magic in Sylvandawn" - closed
+*
+D 0 8117 2 0 100 0 0 0
+*     south exit from "The Arch-Mage's Room and Practice Arena" to
+*     "Room of Artifacts and Relics" - open
+*
+D 0 8118 0 0 100 0 0 0
+*     north exit from "Room of Artifacts and Relics" to
+*     "The Arch-Mage's Room and Practice Arena" - open
+*
+D 0 8139 0 1 100 0 0 0
+*     north exit from "Temple of Rillifane Rallathil" to
+*     "A Small Cottage" - closed
+*
+D 0 8140 2 1 100 0 0 0
+*     south exit from "A Small Cottage" to
+*     "Temple of Rillifane Rallathil" - closed
+*
+D 0 8157 2 2 100 0 0 0
+*     south exit from "A Split in the Paths" to
+*     "The Great Southern Gate of Sylvandawn" - closed/locked
+*
+D 0 8213 0 2 100 0 0 0
+*     north exit from "The Great Southern Gate of Sylvandawn" to
+*     "A Split in the Paths" - closed/locked
+*
+D 0 8186 2 1 100 0 0 0
+*     south exit from "The Southern Path" to
+*     "A Huge Storage Tree" - closed
+*
+D 0 8187 0 1 100 0 0 0
+*     north exit from "A Huge Storage Tree" to
+*     "The Southern Path" - closed
+*
+D 0 8188 2 1 100 0 0 0
+*     south exit from "The Southern Path" to
+*     "A Huge Storage Tree" - closed
+*
+D 0 8189 0 1 100 0 0 0
+*     north exit from "A Huge Storage Tree" to
+*     "The Southern Path" - closed
+*
+D 0 8190 3 1 100 0 0 0
+*     west exit from "The Trail of Lost Gods" to
+*     "An Elven House" - closed
+*
+D 0 8191 1 1 100 0 0 0
+*     east exit from "An Elven House" to
+*     "The Trail of Lost Gods" - closed
+*
+D 0 8192 1 1 100 0 0 0
+*     east exit from "The Trail of Lost Gods" to
+*     "A Huge Storage Tree" - closed
+*
+D 0 8194 3 1 100 0 0 0
+*     west exit from "A Huge Storage Tree" to
+*     "The Trail of Lost Gods" - closed
+*
+D 0 8192 3 1 100 0 0 0
+*     west exit from "The Trail of Lost Gods" to
+*     "A Huge Private Dwelling" - closed
+*
+D 0 8193 1 1 100 0 0 0
+*     east exit from "A Huge Private Dwelling" to
+*     "The Trail of Lost Gods" - closed
+*
+D 0 8200 3 1 100 0 0 0
+*     west exit from "The Entrance to a Dark and Mysterious Building" to
+*     "Rogues' Den" - closed
+*
+D 0 8201 1 1 100 0 0 0
+*     east exit from "Rogues' Den" to
+*     "The Entrance to a Dark and Mysterious Building" - closed
+*
+D 0 8209 3 1 100 0 0 0
+*     west exit from "The Trail of Tears" to
+*     "A Huge Storage Tree" - closed
+*
+D 0 8212 1 1 100 0 0 0
+*     east exit from "A Huge Storage Tree" to
+*     "The Trail of Tears" - closed
+*
+D 0 8213 2 2 100 0 0 0
+*     south exit from "The Great Southern Gate of Sylvandawn" to
+*     "Dock Street" - closed/locked
+*
+D 0 8214 0 2 100 0 0 0
+*     north exit from "Dock Street" to
+*     "The Great Southern Gate of Sylvandawn" - closed/locked
+*
+D 0 8271 2 0 100 0 0 0
+*     south exit from "The Great Port Gates of Sylvandawn" to
+*     "Outside the Port Gates of Evermeet" - open
+*
+D 0 8325 0 0 100 0 0 0
+*     north exit from "Outside the Port Gates of Evermeet" to
+*     "The Great Port Gates of Sylvandawn" - open
+*
+D 0 8305 1 1 100 0 0 0
+*     east exit from "Entrance to the Rangers' Guild of Sylvandawn" to
+*     "Nature's Necture" - closed
+*
+D 0 8306 3 1 100 0 0 0
+*     west exit from "Nature's Necture" to
+*     "Entrance to the Rangers' Guild of Sylvandawn" - closed
+*
+*
+O 0 92 9999 8001 100 0 0 0         * (object type not in this .obj file)
+O 0 90 9999 8007 100 0 0 0         * (object type not in this .obj file)
+O 0 14001 1 8052 100 0 0 0         * (object type not in this .obj file)
+O 0 3097 9999 8109 100 0 0 0       * (object type not in this .obj file)
+O 0 45 1 8322 100 0 0 0            * (object type not in this .obj file)
+*
+M 0 8027 20 8001 100 0 0 0         * a kooshie dog
+M 0 8319 10 8001 100 0 0 0         * an elven cat
+M 0 8044 9 8001 100 0 0 0          * an elven trail keeper
+M 0 8046 13 8001 100 0 0 0         * the robin
+M 0 8047 1 8001 100 0 0 0          * the great oak tree
+M 0 8027 20 8002 100 0 0 0         * a kooshie dog
+M 0 8319 10 8002 100 0 0 0         * an elven cat
+M 0 8038 14 8002 100 0 0 0         * an elven woman
+M 0 8044 9 8002 100 0 0 0          * an elven trail keeper
+M 0 8046 13 8002 100 0 0 0         * the robin
+M 0 8027 20 8003 100 0 0 0         * a kooshie dog
+M 0 8319 10 8003 100 0 0 0         * an elven cat
+M 0 8046 13 8003 100 0 0 0         * the robin
+M 0 8027 20 8004 100 0 0 0         * a kooshie dog
+M 0 8319 10 8004 100 0 0 0         * an elven cat
+M 0 8046 13 8004 100 0 0 0         * the robin
+M 0 8051 20 8004 100 0 0 0         * a snake
+M 0 8051 20 8004 100 0 0 0         * a snake
+M 0 8021 1 8005 100 0 0 0          * Qualazral the barreler
+G 1 3029 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 386 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 385 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3049 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8027 20 8005 100 0 0 0         * a kooshie dog
+M 0 8044 9 8005 100 0 0 0          * an elven trail keeper
+M 0 8046 13 8005 100 0 0 0         * the robin
+M 0 8022 16 8006 100 0 0 0         * a elf commoner
+M 0 8027 20 8006 100 0 0 0         * a kooshie dog
+M 0 8027 20 8006 100 0 0 0         * a kooshie dog
+M 0 8046 13 8006 100 0 0 0         * the robin
+M 0 8022 16 8007 100 0 0 0         * a elf commoner
+M 0 8025 12 8007 100 0 0 0         * an elite elven guard
+M 0 8025 12 8007 100 0 0 0         * an elite elven guard
+M 0 8027 20 8007 100 0 0 0         * a kooshie dog
+M 0 8318 5 8007 100 0 0 0          * a visiting human
+M 0 8044 9 8007 100 0 0 0          * an elven trail keeper
+M 0 8046 13 8007 100 0 0 0         * the robin
+M 0 8022 16 8008 100 0 0 0         * a elf commoner
+M 0 8026 10 8008 100 0 0 0         * an elven guard
+M 0 8027 20 8008 100 0 0 0         * a kooshie dog
+M 0 8045 1 8008 100 0 0 0          * an elven traveler
+M 0 8046 13 8008 100 0 0 0         * the robin
+M 0 8012 1 8009 100 0 0 0          * Talidnal
+G 1 390 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3069 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 396 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 191 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3032 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8022 16 8009 100 0 0 0         * a elf commoner
+M 0 8027 20 8009 100 0 0 0         * a kooshie dog
+M 0 8046 13 8009 100 0 0 0         * the robin
+M 0 8022 16 8010 100 0 0 0         * a elf commoner
+M 0 8027 20 8010 100 0 0 0         * a kooshie dog
+M 0 8044 9 8010 100 0 0 0          * an elven trail keeper
+M 0 8046 13 8010 100 0 0 0         * the robin
+M 0 8334 1 8010 100 0 0 0          * Norlan
+M 0 8027 20 8011 100 0 0 0         * a kooshie dog
+M 0 8030 1 8011 100 0 0 0          * a black panther
+M 0 8046 13 8011 100 0 0 0         * the robin
+M 0 8022 16 8012 100 0 0 0         * a elf commoner
+M 0 8022 16 8012 100 0 0 0         * a elf commoner
+M 0 8027 20 8012 100 0 0 0         * a kooshie dog
+M 0 8027 20 8012 100 0 0 0         * a kooshie dog
+M 0 8011 1 8013 100 0 0 0          * the weaponsmith
+G 1 3025 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3024 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 283 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 256 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3023 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3021 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8022 16 8013 100 0 0 0         * a elf commoner
+M 0 8022 16 8014 100 0 0 0         * a elf commoner
+M 0 8015 6 8015 100 0 0 0          * an elf warrior trainee
+M 0 8015 6 8015 100 0 0 0          * an elf warrior trainee
+M 0 8022 16 8015 100 0 0 0         * a elf commoner
+M 0 8035 1 8015 100 0 0 0          * bartender warrior
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3004 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8015 6 8016 100 0 0 0          * an elf warrior trainee
+M 0 8022 16 8016 100 0 0 0         * a elf commoner
+M 0 8306 1 8016 100 0 0 0          * the guild storekeeper
+G 1 283 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3046 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3070 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3075 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3080 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3085 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8015 6 8017 100 0 0 0          * an elf warrior trainee
+M 0 8018 1 8017 100 0 0 0          * the elven war master
+M 0 8015 6 8018 100 0 0 0          * an elf warrior trainee
+M 0 8015 6 8018 100 0 0 0          * an elf warrior trainee
+M 0 8038 14 8019 100 0 0 0         * an elven woman
+M 0 8319 10 8020 100 0 0 0         * an elven cat
+M 0 8038 14 8020 100 0 0 0         * an elven woman
+M 0 8010 1 8021 100 0 0 0          * the scribe
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3050 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8319 10 8021 100 0 0 0         * an elven cat
+M 0 8038 14 8021 100 0 0 0         * an elven woman
+M 0 8008 1 8022 100 0 0 0          * the armorer
+G 1 3085 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3080 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3075 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3070 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3046 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3076 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3071 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3045 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3041 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3040 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3042 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3044 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3043 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8319 10 8022 100 0 0 0         * an elven cat
+M 0 8038 14 8022 100 0 0 0         * an elven woman
+M 0 8319 10 8023 100 0 0 0         * an elven cat
+M 0 8038 14 8023 100 0 0 0         * an elven woman
+M 0 8032 1 8024 100 0 0 0          * Silyonlanster
+G 1 6836 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 6835 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 6834 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3036 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 8038 14 8024 100 0 0 0         * an elven woman
+M 0 8009 1 8025 100 0 0 0          * the oracle
+M 0 8038 14 8025 100 0 0 0         * an elven woman
+M 0 8022 16 8026 100 0 0 0         * a elf commoner
+M 0 8025 12 8026 100 0 0 0         * an elite elven guard
+M 0 8025 12 8026 100 0 0 0         * an elite elven guard
+M 0 8026 10 8026 100 0 0 0         * an elven guard
+M 0 8038 14 8026 100 0 0 0         * an elven woman
+M 0 8024 6 8027 100 0 0 0          * an elf noble
+M 0 8027 20 8027 100 0 0 0         * a kooshie dog
+M 0 8038 14 8027 100 0 0 0         * an elven woman
+M 0 8053 20 8027 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8027 100 0 0 0         * a sneaky weasel
+M 0 8022 16 8029 100 0 0 0         * a elf commoner
+M 0 8052 20 8030 100 0 0 0         * a white rabbit
+M 0 8052 20 8030 100 0 0 0         * a white rabbit
+M 0 8024 6 8033 100 0 0 0          * an elf noble
+M 0 8051 20 8033 100 0 0 0         * a snake
+M 0 8051 20 8033 100 0 0 0         * a snake
+M 0 8025 12 8034 100 0 0 0         * an elite elven guard
+M 0 8029 7 8035 100 0 0 0          * an elite palace guard
+M 0 8029 7 8035 100 0 0 0          * an elite palace guard
+M 0 8029 7 8035 100 0 0 0          * an elite palace guard
+M 0 8029 7 8043 100 0 0 0          * an elite palace guard
+M 0 8029 7 8044 100 0 0 0          * an elite palace guard
+M 0 8001 1 8045 100 0 0 0          * the elven queen
+M 0 8049 4 8045 100 0 0 0          * a palace attendant
+M 0 8029 7 8046 100 0 0 0          * an elite palace guard
+M 0 8029 7 8047 100 0 0 0          * an elite palace guard
+M 0 8000 1 8048 100 0 0 0          * the elven king
+M 0 8049 4 8048 100 0 0 0          * a palace attendant
+M 0 8049 4 8050 100 0 0 0          * a palace attendant
+M 0 8050 1 8053 100 0 0 0          * The guardian spirit
+M 0 8048 1 8058 100 0 0 0          * Lito the palace cook
+G 1 25400 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 8049 4 8067 100 0 0 0          * a palace attendant
+M 0 8025 12 8069 100 0 0 0         * an elite elven guard
+M 0 8044 9 8069 100 0 0 0          * an elven trail keeper
+M 0 8020 4 8070 100 0 0 0          * a elf cleric
+M 0 8040 1 8070 100 0 0 0          * a clay golem
+M 0 8020 4 8071 100 0 0 0          * a elf cleric
+M 0 8020 4 8072 100 0 0 0          * a elf cleric
+M 0 8020 4 8072 100 0 0 0          * a elf cleric
+M 0 8303 1 8073 100 0 0 0          * a bartender of the faith
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3004 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8016 1 8074 100 0 0 0          * the high elven cleric
+M 0 8302 1 8075 100 0 0 0          * the guild storekeeper astria
+G 1 3018 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 7202 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3025 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3046 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3029 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 4240 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8038 14 8076 100 0 0 0         * an elven woman
+M 0 8053 20 8076 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8076 100 0 0 0         * a sneaky weasel
+M 0 8026 10 8077 100 0 0 0         * an elven guard
+M 0 8022 16 8079 100 0 0 0         * a elf commoner
+M 0 8052 20 8079 100 0 0 0         * a white rabbit
+M 0 8052 20 8079 100 0 0 0         * a white rabbit
+M 0 8046 13 8080 100 0 0 0         * the robin
+M 0 8027 20 8082 100 0 0 0         * a kooshie dog
+M 0 8051 20 8082 100 0 0 0         * a snake
+M 0 8051 20 8082 100 0 0 0         * a snake
+M 0 8038 14 8084 100 0 0 0         * an elven woman
+M 0 8022 16 8085 100 0 0 0         * a elf commoner
+M 0 8053 20 8085 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8085 100 0 0 0         * a sneaky weasel
+M 0 8037 10 8087 100 0 0 0         * the elven gate guard
+M 0 8037 10 8087 100 0 0 0         * the elven gate guard
+M 0 8037 10 8087 100 0 0 0         * the elven gate guard
+M 0 8037 10 8087 100 0 0 0         * the elven gate guard
+M 0 8037 10 8087 100 0 0 0         * the elven gate guard
+M 0 1253 2 8087 100 0 0 0          * (mob type not in this .mob file)
+M 0 8025 12 8088 100 0 0 0         * an elite elven guard
+M 0 8025 12 8088 100 0 0 0         * an elite elven guard
+M 0 8026 10 8088 100 0 0 0         * an elven guard
+M 0 8025 12 8090 100 0 0 0         * an elite elven guard
+M 0 8044 9 8090 100 0 0 0          * an elven trail keeper
+M 0 8025 12 8091 100 0 0 0         * an elite elven guard
+M 0 8051 20 8092 100 0 0 0         * a snake
+M 0 8051 20 8092 100 0 0 0         * a snake
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8317 10 8095 100 0 0 0         * a weakened drow prisoner
+M 0 8028 1 8096 100 0 0 0          * the elven jailkeeper
+M 0 8034 4 8096 100 0 0 0          * a jail guard
+M 0 8336 1 8096 100 0 0 0          * the justice clerk
+M 0 8319 10 8100 100 0 0 0         * an elven cat
+M 0 8318 5 8100 100 0 0 0          * a visiting human
+M 0 8038 14 8100 100 0 0 0         * an elven woman
+M 0 8319 10 8101 100 0 0 0         * an elven cat
+M 0 8007 1 8103 100 0 0 0          * Barantoosil
+G 1 101 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 9017 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3054 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 18280 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 5214 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8006 1 8105 100 0 0 0          * Tilanthra
+G 1 25400 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 25401 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 5541 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 12116 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3051 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8005 1 8106 100 0 0 0          * Gaston Reglia
+G 1 300 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 310 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 312 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 315 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 317 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 8038 14 8107 100 0 0 0         * an elven woman
+M 0 8003 1 8108 100 0 0 0          * Zilota
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3091 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3016 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3012 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 12531 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 8004 1 8109 100 0 0 0          * Gltilti
+M 0 8026 10 8110 100 0 0 0         * an elven guard
+M 0 8043 1 8111 100 0 0 0          * Katanor the master shipwright
+G 1 3060 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3061 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3247 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11030 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 11031 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 8002 1 8112 100 0 0 0          * Morlanthrtilans
+G 1 3071 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3043 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3076 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 6002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3902 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8014 2 8115 100 0 0 0          * an apprentice elf mage
+M 0 8014 2 8116 100 0 0 0          * an apprentice elf mage
+M 0 8304 1 8116 100 0 0 0          * the bartender mage
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3004 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8333 1 8116 100 0 0 0          * the master arch-sorcerer of Sylvandawn
+M 0 8013 1 8117 100 0 0 0          * the master arch-mage of Sylvandawn
+M 0 8027 20 8117 100 0 0 0         * a kooshie dog
+M 0 8305 1 8118 100 0 0 0          * Illitlantia the guild master of artifacts
+G 1 3054 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 12581 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 12584 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 18280 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 5214 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 8024 6 8119 100 0 0 0          * an elf noble
+M 0 8027 20 8119 100 0 0 0         * a kooshie dog
+M 0 8052 20 8120 100 0 0 0         * a white rabbit
+M 0 8052 20 8120 100 0 0 0         * a white rabbit
+M 0 8024 6 8122 100 0 0 0          * an elf noble
+M 0 8026 10 8123 100 0 0 0         * an elven guard
+M 0 8051 20 8124 100 0 0 0         * a snake
+M 0 8051 20 8124 100 0 0 0         * a snake
+M 0 8051 20 8125 100 0 0 0         * a snake
+M 0 8051 20 8125 100 0 0 0         * a snake
+M 0 8052 20 8127 100 0 0 0         * a white rabbit
+M 0 8052 20 8127 100 0 0 0         * a white rabbit
+M 0 8024 6 8130 100 0 0 0          * an elf noble
+M 0 8053 20 8131 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8131 100 0 0 0         * a sneaky weasel
+M 0 8052 20 8134 100 0 0 0         * a white rabbit
+M 0 8052 20 8134 100 0 0 0         * a white rabbit
+M 0 8053 20 8136 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8136 100 0 0 0         * a sneaky weasel
+M 0 8033 2 8139 100 0 0 0          * a elf druid
+M 0 8033 2 8139 100 0 0 0          * a elf druid
+M 0 8031 1 8140 100 0 0 0          * the great druid
+M 0 8022 16 8141 100 0 0 0         * a elf commoner
+M 0 8053 20 8141 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8141 100 0 0 0         * a sneaky weasel
+M 0 8052 20 8144 100 0 0 0         * a white rabbit
+M 0 8052 20 8144 100 0 0 0         * a white rabbit
+M 0 8046 13 8149 100 0 0 0         * the robin
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8054 10 8149 100 0 0 0         * a warty toad
+M 0 8051 20 8155 100 0 0 0         * a snake
+M 0 8051 20 8155 100 0 0 0         * a snake
+M 0 8044 9 8160 100 0 0 0          * an elven trail keeper
+M 0 8052 20 8160 100 0 0 0         * a white rabbit
+M 0 8052 20 8160 100 0 0 0         * a white rabbit
+M 0 8026 10 8161 100 0 0 0         * an elven guard
+M 0 8027 20 8161 100 0 0 0         * a kooshie dog
+M 0 8053 20 8163 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8163 100 0 0 0         * a sneaky weasel
+M 0 8026 10 8164 100 0 0 0         * an elven guard
+M 0 8026 10 8169 100 0 0 0         * an elven guard
+M 0 8051 20 8170 100 0 0 0         * a snake
+M 0 8051 20 8170 100 0 0 0         * a snake
+M 0 8025 12 8172 100 0 0 0         * an elite elven guard
+M 0 8044 9 8172 100 0 0 0          * an elven trail keeper
+M 0 8051 20 8175 100 0 0 0         * a snake
+M 0 8051 20 8175 100 0 0 0         * a snake
+M 0 8024 6 8176 100 0 0 0          * an elf noble
+M 0 8027 20 8176 100 0 0 0         * a kooshie dog
+M 0 8053 20 8178 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8178 100 0 0 0         * a sneaky weasel
+M 0 8026 10 8179 100 0 0 0         * an elven guard
+M 0 8052 20 8183 100 0 0 0         * a white rabbit
+M 0 8052 20 8183 100 0 0 0         * a white rabbit
+M 0 8052 20 8190 100 0 0 0         * a white rabbit
+M 0 8052 20 8190 100 0 0 0         * a white rabbit
+M 0 8052 20 8196 100 0 0 0         * a white rabbit
+M 0 8052 20 8196 100 0 0 0         * a white rabbit
+M 0 8053 20 8199 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8199 100 0 0 0         * a sneaky weasel
+M 0 8019 1 8200 100 0 0 0          * an elf rogue
+M 0 8318 5 8200 100 0 0 0          * a visiting human
+M 0 8318 5 8201 100 0 0 0          * a visiting human
+M 0 8318 5 8202 100 0 0 0          * a visiting human
+M 0 8023 1 8202 100 0 0 0          * a elf bartender
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3004 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8017 1 8203 100 0 0 0          * the elven master of thieves
+M 0 8307 1 8204 100 0 0 0          * a tricky looking storekeeper
+G 1 8331 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8051 20 8207 100 0 0 0         * a snake
+M 0 8051 20 8207 100 0 0 0         * a snake
+M 0 8053 20 8210 100 0 0 0         * a sneaky weasel
+M 0 8053 20 8210 100 0 0 0         * a sneaky weasel
+M 0 8037 10 8213 100 0 0 0         * the elven gate guard
+M 0 8037 10 8213 100 0 0 0         * the elven gate guard
+M 0 8037 10 8213 100 0 0 0         * the elven gate guard
+M 0 8037 10 8213 100 0 0 0         * the elven gate guard
+M 0 8037 10 8213 100 0 0 0         * the elven gate guard
+M 0 1253 2 8213 100 0 0 0          * (mob type not in this .mob file)
+M 0 666 999 8287 100 0 0 0         * (mob type not in this .mob file)
+M 0 8301 1 8306 100 0 0 0          * an elf ranger bartender
+G 1 3001 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3003 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3004 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8300 1 8309 100 0 0 0          * leiteitdor the guild shopkeeper
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3043 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 1403 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 283 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3069 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3043 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3902 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8314 1 8310 100 0 0 0          * the elven grand ranger
+M 0 8310 1 8315 100 0 0 0          * the guild shopkeeper
+G 1 9017 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 12581 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 5214 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3051 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 18280 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 8316 1 8316 100 0 0 0          * the great arch-necromancer
+M 0 8326 2 8317 100 0 0 0          * a young male elf
+M 0 8326 2 8317 100 0 0 0          * a young male elf
+M 0 8325 5 8317 100 0 0 0          * young woman
+M 0 8325 5 8317 100 0 0 0          * young woman
+M 0 8325 5 8317 100 0 0 0          * young woman
+M 0 8328 4 8317 100 0 0 0          * a drunk elf
+M 0 8328 4 8317 100 0 0 0          * a drunk elf
+M 0 8331 1 8317 100 0 0 0          * an elven merchant
+M 0 8329 1 8317 100 0 0 0          * a juggling bard
+M 0 8327 2 8317 100 0 0 0          * the commons bouncer
+M 0 8309 1 8317 100 0 0 0          * Nelanna
+G 1 8342 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8343 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8344 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8345 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8330 1 8318 100 0 0 0          * a half-elf boy
+M 0 8328 4 8318 100 0 0 0          * a drunk elf
+M 0 8328 4 8318 100 0 0 0          * a drunk elf
+M 0 8325 5 8318 100 0 0 0          * young woman
+M 0 8325 5 8318 100 0 0 0          * young woman
+M 0 8332 1 8318 100 0 0 0          * the singing bard
+M 0 8327 2 8318 100 0 0 0          * the commons bouncer
+M 0 8313 1 8318 100 0 0 0          * the half-elf usher
+M 0 8315 1 8321 100 0 0 0          * Aliel Lehnalia
+M 0 8308 1 8322 100 0 0 0          * Renim
+G 1 8335 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8336 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8337 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8338 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8339 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 8320 1 8324 100 0 0 0          * a white elven horse
+M 0 8335 1 8326 100 0 0 0          * the judge
+M 0 8034 4 8326 100 0 0 0          * a jail guard
+M 0 8034 4 8326 100 0 0 0          * a jail guard
+M 0 8034 4 8326 100 0 0 0          * a jail guard
+M 0 8055 1 8327 100 0 0 0          * Alkatia the elven fletcher
+G 1 8022 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8006 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8004 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8007 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8008 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8023 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 8009 999 0 100 0 0 0           *    (object type not in this .obj file)
+*
+S

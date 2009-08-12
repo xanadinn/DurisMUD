@@ -1,0 +1,105 @@
+#24101
+wagon _id_~
+&+ya broken wagon&n~
+&+yA broken wagon lies here torn to pieces.&n~
+~
+13 15 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+wagon~
+   &+yThis wagon is truely in a bad state. It looks as if a
+&+yhuge rock has been thrown into the drivers seat crushing
+&+yeverything in its path. The wood is dark with dried blood
+&+yand a foul stink hangs in the air.
+~
+E
+_id_name_~
+~
+#24102
+ladder~
+&+can iron ladder&n~
+&+cA rusted iron ladder stands here against the wall.&n~
+~
+13 15 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+ladder~
+&+c   This iron ladder is covered with rust due to the constant
+&+cdripping of water coming from the ceiling and cavern walls.
+&+cThe design seems very old and it's a wonder that it is still
+&+cin good enough condition to use.
+~
+#24103
+pool water~
+&+mA &+bpool &+mof water&n~
+&+mA &+bpool &+mof water is here.&n~
+~
+25 15 3 0 5 0 0 0 0 0 0
+24102 7 -1 0 0 0 0 0
+0 0 100
+#24104
+pool water~
+&+ma &+bpool &+mof water&n~
+&+mA &+bpool &+mof water is here.&n~
+~
+25 15 3 0 5 0 8192 0 0 0 0
+24108 7 -1 0 0 0 0 0
+0 0 100
+E
+pool water~
+Entrance into this pool of water appears possible, however, the current
+is strong enough that returning to this area will be impossible.
+~
+#24105
+chain~
+&+La blackened chain&n~
+&+cA twisted iron chain lies here half-melted in the dust.&n~
+~
+13 15 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+chain~
+    The chain is quite thick, each link two feet long and one foot wide.
+Near one end the chain is twisted and warped after being heated which
+caused it to snap and fall to where it now lies. The entire surface is
+heavily stained by soot and rust.
+~
+#24106
+claw~
+&+rthe claw of a fi&+Rer&+ry demon&n~
+The &+rcurved claw of a &+Ldemon&n lies here.&n~
+~
+5 15 3 0 5 0 4104 8193 0 0 0
+5 3 5 0 0 0 0 0
+0 0 100
+A
+18 3
+A
+19 3
+#24107
+river lava~
+&+Ra river of &+Ylava&n~
+&+rA river of &+Rlava flows f&+rrom a crack in &+Rthe wall down in&+rto the underworld.&N~
+~
+13 15 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#24108
+pool lake~
+&+ra pool from demon lake to the river&n~
+&+rpool to river, triggers on enter lake&n~
+~
+25 15 3 0 5 0 2 0 0 0 0
+24229 7 -1 0 0 0 0 0
+0 0 100
+#24109
+pool lake~
+&+ra pool from river to demon lake&n~
+&+rpool to demon lakeriver, triggers on enter pool&n~
+~
+25 15 3 0 5 0 8194 0 0 0 0
+24218 7 -1 0 0 0 0 0
+0 0 100

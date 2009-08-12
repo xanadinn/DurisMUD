@@ -1,0 +1,170 @@
+#150
+&+gThe Chasm of the &+LMisty &+GVale&n~
+15099 1 8 5 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 15004 1 8 100 0 0 0
+*     east exit from "A Trail Through a Misty Forest" to
+*     "A Trail Through a Misty Forest" - open/blocked
+*
+D 0 15087 3 8 100 0 0 0
+*     west exit from "A Trail Through a Misty Forest" to
+*     "A Trail Through a Misty Forest" - open/blocked
+*
+D 0 15029 5 8 100 0 0 0
+*     down exit from "A Trail Through a Misty Forest" to
+*     "A Worked Shaft" - open/blocked
+*
+D 0 15030 4 0 100 0 0 0
+*     up exit from "A Worked Shaft" to
+*     "A Trail Through a Misty Forest" - open
+*
+D 0 15073 4 6 100 0 0 0
+*     up exit from "A Hall in the Pyramid" to
+*     "A Secret Chamber in the Pyramid" - closed/locked/secret
+*
+D 0 15077 5 2 100 0 0 0
+*     down exit from "A Secret Chamber in the Pyramid" to
+*     "A Hall in the Pyramid" - closed/locked
+*
+*
+O 0 15016 1 15004 100 0 0 0        * flowers
+O 0 15000 1 15029 100 0 0 0        * a granite head
+O 0 15001 1 15039 100 0 0 0        * a small spring
+O 0 15002 1 15041 100 0 0 0        * an ancient well
+O 0 15003 1 15052 100 0 0 0        * a granite head
+O 0 15004 1 15063 100 0 0 0        * some ruins
+O 0 15010 1 15078 100 0 0 0        * a burial casket
+P 1 15011 1 15010 100 0 0 0        *   a skeletal corpse
+P 1 15012 1 15010 100 0 0 0        *   a live snake necklace
+P 1 15015 1 15010 100 0 0 0        *   a bone hilted sabre
+O 0 15023 1 15087 100 0 0 0        * flowers
+O 0 15017 7 15099 100 0 0 0        * a small salamander scale
+*
+M 0 15005 6 15000 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15000 6 15001 100 0 0 0        * a female pygmie
+M 0 15001 6 15002 100 0 0 0        * a male pygmie
+M 0 15017 6 15002 100 0 0 0        * a pygmie elder
+M 0 15005 6 15003 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15000 6 15004 100 0 0 0        * a female pygmie
+M 0 15001 6 15004 100 0 0 0        * a male pygmie
+M 0 15005 6 15005 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15007 4 15005 100 0 0 0        * a pygmie warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15016 8 15005 100 0 0 0        * a young pygmie
+M 0 15001 6 15006 100 0 0 0        * a male pygmie
+M 0 15000 6 15007 100 0 0 0        * a female pygmie
+M 0 15007 4 15007 100 0 0 0        * a pygmie warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15017 6 15007 100 0 0 0        * a pygmie elder
+M 0 15000 6 15009 100 0 0 0        * a female pygmie
+M 0 15001 6 15010 100 0 0 0        * a male pygmie
+M 0 15007 4 15011 100 0 0 0        * a pygmie warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15000 6 15012 100 0 0 0        * a female pygmie
+M 0 15001 6 15013 100 0 0 0        * a male pygmie
+M 0 15007 4 15014 100 0 0 0        * a pygmie warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15016 8 15014 100 0 0 0        * a young pygmie
+M 0 15001 6 15027 100 0 0 0        * a male pygmie
+M 0 15005 6 15027 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15017 6 15027 100 0 0 0        * a pygmie elder
+M 0 15005 6 15028 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15005 6 15028 100 0 0 0        * a forest salamander
+G 1 15018 6 0 100 0 0 0            *    a large salamander scale
+M 0 15016 8 15028 100 0 0 0        * a young pygmie
+M 0 15000 6 15029 100 0 0 0        * a female pygmie
+M 0 15006 1 15029 100 0 0 0        * a pygmie shaman
+E 1 15009 1 5 100 0 0 0            *   some lizardhide robes
+M 0 15009 3 15036 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15009 3 15037 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15009 3 15040 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15045 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15047 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15047 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15049 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15050 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15010 6 15050 100 0 0 0        * a large wolf spider
+G 1 15014 9 0 100 0 0 0            *    a spider globule
+M 0 15003 4 15054 100 0 0 0        * a mud dweller
+M 0 15004 1 15057 100 0 0 0        * a mud dweller
+G 1 15006 1 0 100 0 0 0            *    a bone razored skull
+M 0 15003 4 15059 100 0 0 0        * a mud dweller
+M 0 15002 3 15061 100 0 0 0        * a mud dweller
+E 1 15005 3 9 100 0 0 0            *   a pair of bone razored talons
+M 0 15008 1 15063 100 0 0 0        * the Banshee of Xtlpal
+E 1 15013 1 3 100 0 0 0            *   a necklace of drow testicles
+M 0 15002 3 15064 100 0 0 0        * a mud dweller
+E 1 15005 3 9 100 0 0 0            *   a pair of bone razored talons
+M 0 15003 4 15065 100 0 0 0        * a mud dweller
+M 0 15003 4 15066 100 0 0 0        * a mud dweller
+M 0 15002 3 15067 100 0 0 0        * a mud dweller
+E 1 15005 3 9 100 0 0 0            *   a pair of bone razored talons
+M 0 15011 4 15068 100 0 0 0        * a skeletal warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15011 4 15071 100 0 0 0        * a skeletal warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15019 4 15072 100 0 0 0        * a skeletal warrior
+M 0 15011 4 15073 100 0 0 0        * a skeletal warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15012 4 15073 100 0 0 0        * a zombie cleric
+E 1 15022 4 16 100 0 0 0           *   an ancient stone mace
+M 0 15019 4 15074 100 0 0 0        * a skeletal warrior
+M 0 15019 4 15075 100 0 0 0        * a skeletal warrior
+M 0 15011 4 15076 100 0 0 0        * a skeletal warrior
+E 1 15007 8 16 100 0 0 0           *   an oak vine-bar
+M 0 15012 4 15076 100 0 0 0        * a zombie cleric
+E 1 15022 4 16 100 0 0 0           *   an ancient stone mace
+M 0 15019 4 15077 100 0 0 0        * a skeletal warrior
+M 0 15012 4 15078 100 0 0 0        * a zombie cleric
+E 1 15022 4 16 100 0 0 0           *   an ancient stone mace
+M 0 15012 4 15078 100 0 0 0        * a zombie cleric
+E 1 15022 4 16 100 0 0 0           *   an ancient stone mace
+M 0 15013 1 15078 100 0 0 0        * a guardian wraith
+E 1 15021 1 8 100 0 0 0            *   some salamander scale boots
+G 1 15024 1 0 100 0 0 0            *    A skeletal key
+M 0 15016 8 15087 100 0 0 0        * a young pygmie
+M 0 15014 6 15088 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15015 6 15089 100 0 0 0        * a pygmie mother
+M 0 15016 8 15089 100 0 0 0        * a young pygmie
+M 0 15017 6 15089 100 0 0 0        * a pygmie elder
+M 0 15014 6 15090 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15015 6 15091 100 0 0 0        * a pygmie mother
+M 0 15015 6 15092 100 0 0 0        * a pygmie mother
+M 0 15018 1 15092 100 0 0 0        * a weaver pygmie
+E 1 15020 1 20 100 0 0 0           *   a salamander scale mask
+M 0 15014 6 15093 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15015 6 15093 100 0 0 0        * a pygmie mother
+M 0 15014 6 15094 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15016 8 15094 100 0 0 0        * a young pygmie
+M 0 15017 6 15094 100 0 0 0        * a pygmie elder
+M 0 15015 6 15095 100 0 0 0        * a pygmie mother
+M 0 15016 8 15095 100 0 0 0        * a young pygmie
+M 0 15017 6 15095 100 0 0 0        * a pygmie elder
+M 0 15014 6 15096 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15015 6 15097 100 0 0 0        * a pygmie mother
+M 0 15014 6 15098 100 0 0 0        * a forest salamander
+G 1 15017 7 0 100 0 0 0            *    a small salamander scale
+M 0 15016 8 15098 100 0 0 0        * a young pygmie
+*
+S

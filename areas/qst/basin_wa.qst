@@ -1,0 +1,102 @@
+#34013
+M
+hello hi howdy~
+&+C' Get out of here you young hooligan before I turn you into a toad! '
+~
+M
+greetings welcome~
+&+C' Greetings to you too. Would you like to help an old woman in her search? '
+~
+M
+help search yes~
+&+C' I am searching for various spell components. Do you think you could fetch
+&+C  me some of them? '
+~
+M
+no nope sorry~
+&+C' Then get the hell out of here! '
+~
+M
+components~
+&+C' Various. Animal parts, plants parts. Everything might come useful. Magical
+&+C potions or elixers might be helpful as well.'
+~
+M
+ring signet~
+&+C' A signet ring?  Perhaps it is that of the mage...  It has been years since
+&+CI last saw him.  Well... if you have the ring now, perhaps you've done away
+&+Cwith him?  Or perhaps not...  The ring itself is merely a symbol of his
+&+Cheritage, but I could probably enchant it and create a real masterpiece.
+
+&+CI'd definately need some ingredients to make potions with, however... and
+&+Cif you could find a way to kill that draconian beast, we could use some
+&+Cof its power to bring about a change in the ring.'
+~
+Q
+&+bThe witch looks over the ring and the rest of the components and nods.  She
+&+bbegins with a flourish and continues working spells and potions over the ring
+&+bin a ritualistic manner.
+
+&+cAfter half an hour of work, the witch finally speaks.
+
+&+C' There... I am done.  I can do no more with this. '
+~
+R I 34028
+R E 500000
+G I 34031
+G I 34019
+G I 34018
+Q
+&+c' Let's see what happens if I place this inside this... and cast this...
+&+c  ...Here you are, the resulting potion is yours to take. '
+~
+R I 34019
+G I 34030
+G I 34002
+Q
+&+c' Let's see what happens if I put this into this... And cast this...
+&+c  ...Here you are, the resulting potion is your to take '
+~
+R I 34025
+G I 34030
+G I 34001
+Q
+&+c' Let's see what happens if I put this into this... And cast this...
+&+c  ...Here you are, the resulting potion is your to take. '
+~
+R I 34026
+G I 34030
+G I 34000
+Q
+&+c' Let's see what happens if I put this into this... And cast this...
+&+c  ...Here you are, the resulting potion is your to take. '
+~
+R I 34027
+G I 34030
+G I 34003
+Q
+&+c' This might become useful, aye. '
+~
+R C 25000
+G I 34000
+Q
+&+c' We'll find use for this. Here is your reward.'
+~
+R C 25000
+G I 34001
+Q
+&+C'Interesting. Here is your cash.'
+~
+R C 25000
+G I 34002
+Q
+&+C'Interesting. Here is your reward.'
+~
+R C 25000
+G I 34003
+Q
+&+C' Keep that, I have no use for it. '
+~
+R I 34024
+G I 34024
+S

@@ -1,0 +1,385 @@
+#130101
+ice troll~
+&+Can ice troll&n~
+&+wAn &+Cice troll&+w rampages in this room.&n
+~
+&+w      Foaming at the mouth with his rage, this &+Cice troll&+w has &+rb&+Rl&+roo&+Rd&+ried&+w his hands&n
+&+won the walls in his frenzy to try to free himself from this place and return to&n
+&+whis home in &+CJ&+Wo&+Ct&+Wun&+Ch&+Weim&+w.  His rage is overshadowed only by his desire for revenge&n
+&+won the one who had brought him here.&n
+~
+8 1 0 0 0 0 0 -1000 S
+pt 0 16777216 -1
+49 0 -500 49d10+0 5d9+10
+0.0.0.0 0
+8 8 1
+#130102
+snow troll _nosneak_~
+&+Wa snow troll&n~
+&+wA &+Wsnow troll&+w wanders the area, looking for fresh victims.&n
+~
+&+w     This &+Wsnow troll&+w has been captured and brought here to take the lives of&n
+&+wall who are foolish enough to come to this place.  It does not like being in&n
+&+wthis place and takes out its frustration and anger of all who cross its path&n
+&+where.  It just wants to be free so it can go back home to &+CJ&+Wo&+Ct&+Wun&+Ch&+Weim.&n
+~
+2060 1 0 60 0 0 0 -1000 S
+pt 0 16384 -1
+50 0 0 5d8+1000 10d5+10
+0.0.0.0 0
+8 8 1
+#130103
+lizard ice~
+&+Can &+Wice &+Clizard&n~
+&+wA &+Clizard &+wwith the same shading as the &+Wice&+w skitters past.&n
+~
+&+w     This odd &+Clizard&+W must have been created by some jokester just for this odd&n
+&+wplace.  Though it walks on four legs and appears to be a normal quadruped, when&n
+&+wit fights, it leans back on its hind legs, using its tail to balance it, but it&n
+&+wuses both its upper legs and a hidden pair of legs along its belly to rip apart&n
+&+wits prey.&n
+~
+520 1 0 0 0 0 0 -10 S
+d 0 1 -1
+45 0 0 5d4+500 10d8+4
+0.0.0.0 0
+8 8 1
+#130104
+frost giant _nosneak_~
+&+wa &+Wf&+wros&+Wt &+wgian&+Wt&n~
+&+wA &+Wf&+wrost gian&+Wt &+wstomps around the room in a bad temper.&n
+~
+&+w     Towering over most normal scenery, this bad-tempered giant stomps around&n
+&+wthis area in even more of a temper as he has been taken from his home, forced&n
+&+wto stay in this area, and even deprived of food - except for the unfortunates&n
+&+wwho wander into his reach.  He is dressed in the leather skins of dragons and&n
+&+wothers who fell to his heavy &+yclub&+w, or his &+Ljavelin&+w, or even to a blow from the&n
+&+rs&+Rh&+rie&+Rld&+w he wields for defense as well as to attack.&n
+~
+12 1 0 56 0 0 0 0 S
+g 0 1048576 -1
+48 0 0 56d10+1500 8d8+5
+0.0.0.0 0
+8 8 1
+#130105
+kabouter~
+&+Ba &+Ck&+Ba&+Cb&+Bou&+Ct&+Ber&n~
+&+wA &+Ck&+Ba&+Cb&+Bou&+Ct&+Ber&+w races across the &+gmoss &+wto a &+Rmus&+Wh&+Rro&+Wo&+Rm.&n
+~
+&+w     This person may be small, but he is a fierce fighter.  He is furious that&n
+&+whe has been pulled away from his home by the &+Rmus&+Wh&+rro&+Wo&+Rm&+w and he comes out looking&n
+&+wfor a fight.  He is wearing a &+ybrown leather vest&+w, &+Cshirt&+w and &+Cpants&+w both dyed an&n
+&+waqua blue, and a &+bdark blue pointed wizard cap&+w.  He has a full beard grown past&n
+&+whis waist, but it flows smoothly with no braiding at all.  His hair sticks out&n
+&+waround the edges of his cap, but instead of growing long, it just curls around&n
+&+wthe cap.  But the thing that draws the eye the most is the fierce glare in his&n
+&+weyes.  He does not want to be here, and he's more than ready to do whatever it&n
+&+wtakes to get out of here.&n
+~
+1073756172 1 0 56 0 0 0 0 S
+hf 0 1 -1
+41 0 0 56d4+250 5d6+5
+0.0.0.0 0
+8 8 1
+#130106
+pterodactyl~
+&+La p&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&n~
+&+wAppearing from the &+Lwa&+yl&+Ll&+w, the &+Lp&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&+w attacks.&n
+~
+&+w     This huge avian creature matches the &+Lwa&+yl&+Lls&+w in color.  It has a roost on&n
+&+wthe rough &+Lwa&+yl&+Ll&+w that cannot be distinguished from the rest of the &+Lwa&+yl&+Ll&+w.  When&n
+&+wit leaves its roost, it seems to be a part of the &+Lwa&+yl&+Ll&+w detaching itself, and&n
+&+wthen launching itself to attack all who enter this area.  It is, however, an&n
+&+wanimal that is made of flesh and blood, not rock, even though its beak feels&n
+&+was hard as rock when it hits.   If killed, however, there is no telling what&n
+&+wmight be found on the carcass as they are unparallelled scavangers.&n
+~
+8 1 0 0 0 0 0 0 S
+d 0 1 5
+50 0 0 50d8+10 4d4+10
+0.0.0.0 0
+8 8 1
+#130107
+nidhoggr _ignore_ _nosneak_~
+&+rNi&+Rdh&+roggr&n~
+&+rNi&+Rdh&+roggr &+ywatches all that happens around him, looking for a corpse to suck.&n
+~
+&+y     &+rNi&+Rdh&+roggr&+y usually spends his time at the base of &+GY&+ggg&+Gd&+grasi&+Gl, the World&n
+&+GTree&+y, taunting the &+Lea&+Wgl&+Le&+y that sits atop the great tree.  But today he has&n
+&+ydecided to be here, watching the chaos of the &+Cn&+We&+Cx&+Wu&+Cs&+y, as he is more in the&n
+&+ymood to chew on a corpse than to chew on roots.  He watches as those that&n
+&+yexist here fight to the death, then rise again to party before they fight&n
+&+yagain.  For some, they require extra mending as &+rNi&+Rdh&+roggr&+y settles with the&n
+&+ycorpse, sucking on it in complete contentment, while watching the battles&n
+&+yrage around him.&n
+~
+1073744394 1 0 0 0 0 0 0 S
+d 0 576 -1
+52 0 -350 59d12+3000 10d10+50
+0.0.0.0 0
+8 8 1
+#130108
+snow ogre _nosneak_ _ignore_~
+&+Wa snow ogre&n~
+&+wHis eyes &+Rred&+w with &+Rrage&+w, a &+Wsnow ogre&+w wanders here.&n
+~
+&+w    Life had been hard enough back in the Valley of the Snow Ogres, but that&n
+&+wwas better than being here.  Captured from the life he had known, he wanders&n
+&+wthe narrow pathway, forever hemmed in by the ice, forever separated from his&n
+&+whome and his tribe, this ogre has gone into a permanent fury, killing anyone&n
+&+wfoolish enough to cross his path.  The &+rscars&+w carved into his face that shows&n
+&+whis arcane bent are a dull red, as though his &+Rbl&+roo&+Rd&+w seeks to erupt from them&n
+&+win his fury.&n
+~
+1073743880 1 0 939524152 0 0 0 -1000 S
+po 0 16 -1
+49 0 -500 56d10+2500 12d4+50
+0.0.0.0 0
+8 8 1
+#130109
+ice troll~
+&+Can ice troll&n~
+&+wAn &+Cice troll&+w rampages in this room.&n
+~
+&+w      Foaming at the mouth with his rage, this &+Cice troll&+w has &+rb&+Rl&+roo&+Rd&+ried&+w his hands&n
+&+won the walls in his frenzy to try to free himself from this place and return to&n
+&+whis home in &+CJ&+Wo&+Ct&+Wun&+Ch&+Weim&+w.  His rage is overshadowed only by his desire for revenge&n
+&+won the one who had him brought here.  The &+bscars&+w on his face and shoulders which&n
+&+wmark the type of magic he uses are a &+bsullen blue&+w as he rages against his fate.&n
+~
+8 1 0 0 0 0 0 -1000 S
+pt 0 1 -1
+45 0 -1000 56d12+500 10d4+10
+0.0.0.0 0
+8 8 1
+#130110
+ice troll _nosneak_~
+&+Can ice troll&n~
+&+wAn &+Cice troll&+w rampages in this room.&n
+~
+&+w      Foaming at the mouth with his rage, this &+Cice troll&+w has &+rb&+Rl&+roo&+Rd&+ried&+w his hands&n
+&+won the walls in his frenzy to try to free himself from this place and return to&n
+&+whis home in &+CJ&+Wo&+Ct&+Wun&+Ch&+Weim&+w.  His rage is overshadowed only by his desire for revenge&n
+&+won the one who had him brought here.  The &+bscars&+w on his face and shoulders which&n
+&+wmark the type of magic he uses are a &+bsullen blue&+w as he rages against his fate.&n
+~
+1073743884 1 0 56 0 0 0 0 S
+pt 0 256 -1
+49 0 -1000 56d8+250 5d3+0
+0.0.0.0 0
+8 8 1
+#130111
+snow troll~
+&+Wa snow troll&n~
+&+wA &+Wsnow troll&+w wanders the area, looking for fresh vicitms.&n
+~
+&+w     This &+Wsnow troll&+w has been captured and brought here to take the lives of&n
+&+wall who are foolish enough to come to this place.  He does not like being in&n
+&+wthis place and takes out his frustration and anger on all who cross his path&n
+&+where.  He just wants to be free so it can go back home to &+CJ&+Wo&+Ct&+Wun&+Ch&+Weim&+w.  On its&n
+&+wface are scars and tattoos denoting that he uses magic but only another &+Wsnow&n
+&+Wtroll&+w could tell what kind of magic he uses.&n
+~
+8 1 0 0 0 0 0 -1000 S
+pt 0 49 -1
+44 0 -1000 56d6+100 5d5+5
+0.0.0.0 0
+8 8 1
+#130112
+ice lizard _nosneak_~
+&+Can &+Wice &+Clizard~
+&+wA &+Clizard&+w with the same shading as the &+Wice&+w skitters past.&n
+~
+&+w     This odd &+Clizard&+W must have been created by some jokester just for this odd&n
+&+wplace.  Though it walks on four legs and appears to be a normal quadruped, when&n
+&+wit fights, it leans back on its hind legs, using its tail to balance it, but it&n
+&+wuses both its upper legs and a hidden pair of legs along its belly to rip apart&n
+&+wits prey.  The banding of grays and whites is more intense on this face of this&n
+&+wone than on some of the others.&n
+~
+1073744392 1 0 134217784 0 262144 0 0 S
+d 0 1 -1
+50 0 0 56d10+0 6d6+6
+0.0.0.0 0
+8 8 1
+#130113
+frost giant _nosneak_~
+&+wa &+Wf&+wros&+Wt &+wgian&+Wt&n~
+&+wA &+Wf&+wros&+Wt &+wgian&+Wt&+w stomps around the room in a bad temper.&n
+~
+&+w     Towering over most normal scenery, this bad-tempered giant stomps around&n
+&+wthis area in even more of a temper as he has been taken from his home, forced&n
+&+wto stay in this area, and even deprived of food - except for the unfortunates&n
+&+wwho wander into his reach.  He is dressed in the leather skins of dragons and&n
+&+wothers who fell to his heavy &+yclub&+w, or his &+Ljavelin&+w, or even to a blow from the&n
+&+rs&+Rh&+rie&+Rld&+w he wields for defense as well as to attack. This one has &+Rvi&+Bv&+Rid r&+Be&+Rd an&+Bd&n
+&+Bbl&+Ru&+Be ta&+Rtt&+Boo&+Rs&+w on his face denoting that he is a wielder of magics.&n
+~
+652 1 0 56 268435456 128 0 0 S
+g 0 65536 -1
+49 0 -1000 56d4+10 4d4+25
+0.0.0.0 0
+8 8 1
+#130114
+kabouter _nosneak_ _ignore_~
+&+Ba &+Ck&+Ba&+Cb&+Bou&+Ct&+Ber&n~
+&+wA &+Ck&+Ba&+Cb&+Bou&+Ct&+Ber&+w races across the &+gmoss&+w to a &+Rmus&+Wh&+Rro&+Wo&+Rm.&n
+~
+&+w     This person may be small, but he is a fierce fighter.  He is furious that&n
+&+whe has been pulled away from his home by the &+Rmus&+Wh&+rro&+Wo&+Rm&+w and he comes out looking&n
+&+wfor a fight.  He is wearing a &+ybrown leather vest&+w, &+Cshirt&+w and &+Cpants&+w both dyed an&n
+&+waqua blue, and a &+bdark blue pointed wizard cap&+w.  He has a full beard grown past&n
+&+whis waist, but it flows smoothly with no braiding at all.  His hair sticks out&n
+&+waround the edges of his cap, but instead of growing long, it just curls around&n
+&+wthe cap.  But the thing that draws the eye the most is the fierce glare in his&n
+&+weyes.  He does not want to be here, and he's more than ready to do whatever it&n
+&+wtakes to get out of here.  This one wears intricate runes on his hat.&n
+~
+12300 1 0 56 0 0 0 -1000 S
+mf 0 262144 7
+41 0 -250 10d10+1500 10d5+30
+0.0.0.0 0
+8 8 1
+#130115
+kabouter _nosneak_ _ignore_~
+&+Ba &+Ck&+Ba&+Cb&+Cou&+Bt&+Cer&n~
+&+wA &+Ck&+Ba&+Cb&+Bou&+Ct&+Ber&+w races across the &+gmoss&+w to a &+Rmus&+Wh&+Rro&+Wo&+Rm.&n
+~
+&+w     This person may be small, but he is a fierce fighter.  He is furious that&n
+&+whe has been pulled away from his home by the &+Rmus&+Wh&+rro&+Wo&+Rm&+w and he comes out looking&n
+&+wfor a fight.  He is wearing a &+ybrown leather vest&+w, &+Cshirt&+w and &+Cpants&+w both dyed an&n
+&+waqua blue, and a &+bdark blue pointed wizard cap&+w.  He has a full beard grown past&n
+&+whis waist, but it flows smoothly with no braiding at all.  His hair sticks out&n
+&+waround the edges of his cap, but instead of growing long, it just curls around&n
+&+wthe cap.  But the thing that draws the eye the most is the fierce glare in his&n
+&+weyes.  He does not want to be here, and he's more than ready to do whatever it&n
+&+wtakes to get out of here.   This one wears intricate runes on his hat and vest.&n
+~
+12360 1 0 56 0 0 0 0 S
+hf 0 4194304 -1
+42 0 0 10d10+1000 1d6+5
+0.0.0.0 0
+8 8 1
+#130116
+pterodactyl _nosneak_~
+&+La p&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&n~
+&+wAppearing from the &+Lwa&+yl&+Ll&+w, the &+Lp&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&+w attacks.&n
+~
+&+w     This huge avian creature matches the &+Lwa&+yl&+Lls&+w in color.  It has a roost on&n
+&+wthe rough &+Lwa&+yl&+Ll&+w that cannot be distinguished from the rest of the &+Lwa&+yl&+Ll&+w.  When&n
+&+wit leaves its roost, it seems to be a part of the &+Lwa&+yl&+Ll&+w detaching itself, and&n
+&+wthen launching itself to attack all who enter this area.  It is, however, an&n
+&+wanimal that is made of flesh and blood, not rock, even though its beak feels&n
+&+was hard as rock when it hits.   If killed, however, there is no telling what&n
+&+wmight be found on the carcass as they are unparallelled scavangers. This one&n
+&+wseems to be taking measure of those who enter instead of just attacking.&n
+~
+14344 1 0 56 0 0 0 0 S
+dk 0 1 -1
+50 0 0 50d8+0 4d4+5
+0.0.0.0 0
+8 8 1
+#130117
+pterodactyl _nosneak_~
+&+La p&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&n~
+&+wAppearing from the &+Lwa&+yl&+Ll&+w, the &+Lp&+yt&+Lero&+yd&+Lac&+yt&+Ly&+yl&+w attacks.&n
+~
+&+w     This huge avian creature matches the &+Lwa&+yl&+Lls&+w in color.  It has a roost on&n
+&+wthe rough &+Lwa&+yl&+Ll&+w that cannot be distinguished from the rest of the &+Lwa&+yl&+Ll&+w.  When&n
+&+wit leaves its roost, it seems to be a part of the &+Lwa&+yl&+Ll&+w detaching itself, and&n
+&+wthen launching itself to attack all who enter this area.  It is, however, an&n
+&+wanimal that is made of flesh and blood, not rock, even though its beak feels&n
+&+was hard as rock when it hits.   If killed, however, there is no telling what&n
+&+wmight be found on the carcass as they are unparallelled scavangers. This one&n
+&+wseems to be taking measure of those who enter instead of just attacking.&n
+~
+2058 1 0 56 0 0 0 0 S
+dk 0 256 -1
+50 0 0 50d4+0 4d3+3
+0.0.0.0 0
+8 8 1
+#130118
+skadi _nosneak_ _ignore_ _no_move_~
+&+CS&+Wk&+Ca&+Wd&+Ci&n~
+&+CS&+Wk&+Ca&+Wd&+Ci &+ystands looking out over the &+Boc&+Ce&+Ban.&n
+~
+&+y     &+CS&+Wk&+Ca&+Wd&+Ci&+y stands looking out over the &+Boc&+Ce&+Ban&+y, her longing for her mountains&n
+&+yclear in her ice gray eyes.  Despite her &+Wf&+wros&+Wt&+w gian&+Wt&+y heritage, she is still&n
+&+ya very beautiful woman.  Her long hair is white, with blue highlights clear&n
+&+yin the many braids among her long hair.  Though she is not wielding them, a&n
+&+yspear, a bow, and a quiver full of arrows are close at hand, as she watches&n
+&+ythe riotous revelry around her.   She wears a horned helm, chainmail shirt,&n
+&+yand studded leather pants, and looks ready to join in any combat that might&n
+&+ybegin near her.&n
+&+y     As she watches out over the ocean she quaffs &+Yhoney mead&+y from an ornate&n
+&+ydrinking horn.  She waits for her husband &+BNj&+Co&+Bror, go&+Cd o&+Bf the s&+Ce&+Ba&+y, or any of&n
+&+ythe other gods to arrive to join in the chaotic combat.&n
+~
+1073839178 1 0 134217784 0 0 67112960 0 S
+x 0 16779520 3
+55 0 -500 55d10+2000 12d10+50
+0.0.0.0 0
+8 8 2
+#130119
+gletzglo _nosneak_~
+&+Ma g&+ml&+Me&+mt&+Mzg&+ml&+Mo&n~
+&+yA &+Mg&+ml&+Me&+mt&+Mzg&+ml&+Mo&+y dances past.&n
+~
+&+y      A &+Mg&+ml&+Me&+mt&+Mzg&+ml&+Mo&+y is a tripodal creature.   More than anything it resembles a&n
+&+ygiant tooth with three roots.  It has no feet, but rather the legs are stiff&n
+&+yand it moves by rocking back and forth on them.  Despite the unwieldy way it&n
+&+ymoves, it is fast, and looks more like dancing than walking.&n
+&+y     Along the flat, cylidrical top of its body are six tentacles set evenly&n
+&+yspaced.  At the end of each tentacle is a flipper that pulls apart to create&n
+&+yfour digits, a thumb-like one on each side of two others in the center.  The&n
+&+ydigits can bend and be used like hands, but there are ridges along the sides&n
+&+yof each one that lock into each other to form a hard, wide flipper that when&n
+&+yused as a weapon is quite painful.&n
+&+y      The &+Mg&+ml&+Me&+mt&+Mzg&+ml&+Mo&+y has three eyes, evenly spaced around the cylidrical body.&n
+&+yIt has no head, just torso, legs, and tentacles. There is no visible nose or&n
+&+yother breathing apertures.  Those tall enough to see above their tall bodies&n
+&+ywill be able see a huge, gaping, tooth-lined maw on the top of their torsos.&n
+~
+1073743884 0 0 536870968 0 0 0 -1000 S
+mf 0 32 -1
+49 0 0 49d10+250 4d5+5
+0.0.0.0 0
+8 8 0
+#130120
+einjherjer soldier warrior _nosneak_ _ignore_~
+&+Can ein&+Bjh&+Cer&+Bj&+Cer&n~
+&+yAn &+Cein&+Bjh&+Cer&+Bj&+Cer&+y fights and drinks and sings with great gusto.&n
+~
+&+y    This is a prime specimen of the valiant dead that inhabit the viking knarr.&n
+&+yDuring the day, he fights using all of his courage and abilities, honing combat&n
+&+yskills beyond anything a mere mortal can imagine. When night falls, he carouses&n
+&+ywith the rest, whether he died again that day or not.  He discusses the battles&n
+&+yof the day with many he fought, comparing and improving his techniques. Wearing&n
+&+yany wounds and scars with pride, he lifts his flagon of mead often.&n
+~
+1073821708 1 0 134217784 2048 0 0 0 S
+y 0 16777728 3
+51 0 0 60d12+2500 10d15+50
+0.0.0.0 0
+8 8 0
+#130121
+valkyrie angel lady _nosneak_~
+&+Wa &+Bva&+Wlk&+Cy&+Brie&n~
+&+yA &+Bva&+Wlk&+Cy&+Brie&+y stands watching over the chaos of the deck.&n
+~
+&+y      This &+Bva&+Wlk&+Cy&+Brie&+y is taking a break from her chore of fetching the worthy of&n
+&+ythe dead to their reward.  At Odin's command, she has brought on of the worthy&n
+&+yto this knarr to continue to improve his skill.  Her swans' wings are slightly&n
+&+yopened as she watches, helping her to keep her balance despite the wild battle&n
+&+yand the sometimes rough seas.  She watches those she has brought here, to make&n
+&+ysure they deserve to stay.&n
+&+y     Though it seems she is dressed only in a feathered white gown, beneath it&n
+&+yshe wears shining chainmail.  Atop her long blond hair is a winged helm.  Blue&n
+&+yeyes watch around her, not missing even the smallest of details.  Near her are&n
+&+yseveral ravens, waiting to go with her when she moves.&n
+~
+30730 1 0 671088696 0 0 0 1000 S
+an 0 520 3
+51 0 0 60d8+0 12d4+1
+0.0.0.0 0
+8 8 0

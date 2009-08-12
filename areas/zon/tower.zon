@@ -1,0 +1,334 @@
+#93
+&+LTower of &+GH&+gi&+Gg&+gh &+GS&+go&+Gr&+gc&+Ge&+gr&+Gy&N~
+9399 1 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 9300 5 2 100 0 0 0
+*     down exit from "The Top of the Tower" to
+*     "Polished Obsidian Staircase" - closed/locked
+*
+D 0 9301 4 2 100 0 0 0
+*     up exit from "Polished Obsidian Staircase" to
+*     "The Top of the Tower" - closed/locked
+*
+D 0 9304 2 1 100 0 0 0
+*     south exit from "A Small Living Area" to
+*     "A Black Mage's Laboratory" - closed
+*
+D 0 9305 0 1 100 0 0 0
+*     north exit from "A Black Mage's Laboratory" to
+*     "A Small Living Area" - closed
+*
+D 0 9312 2 1 100 0 0 0
+*     south exit from "The South-western Corner of the Barracks" to
+*     "A Small Closet" - closed
+*
+D 0 9317 0 1 100 0 0 0
+*     north exit from "A Small Closet" to
+*     "The South-western Corner of the Barracks" - closed
+*
+D 0 9325 2 1 100 0 0 0
+*     south exit from "The T-Intersection" to
+*     "A Small Closet" - closed
+*
+D 0 9328 0 1 100 0 0 0
+*     north exit from "A Small Closet" to
+*     "The T-Intersection" - closed
+*
+D 0 9329 2 2 100 0 0 0
+*     south exit from "Inside the Tower of High Sorcery" to
+*     "Outside the Tower of High Sorcery" - closed/locked
+*
+D 0 9331 0 2 100 0 0 0
+*     north exit from "Outside the Tower of High Sorcery" to
+*     "Inside the Tower of High Sorcery" - closed/locked
+*
+D 0 9336 3 1 100 0 0 0
+*     west exit from "Southern Hallway" to
+*     "A Meat Locker" - closed
+*
+D 0 9337 1 1 100 0 0 0
+*     east exit from "A Meat Locker" to
+*     "Southern Hallway" - closed
+*
+D 0 9338 3 1 100 0 0 0
+*     west exit from "A Refrigerated Room" to
+*     "A Hallway" - closed
+*
+D 0 9339 1 1 100 0 0 0
+*     east exit from "A Hallway" to
+*     "A Refrigerated Room" - closed
+*
+D 0 9339 3 1 100 0 0 0
+*     west exit from "A Hallway" to
+*     "A Small, Dark Storage Closet" - closed
+*
+D 0 9340 1 1 100 0 0 0
+*     east exit from "A Small, Dark Storage Closet" to
+*     "A Hallway" - closed
+*
+D 0 9341 3 1 100 0 0 0
+*     west exit from "A Slaughter House" to
+*     "Northern Hallway" - closed
+*
+D 0 9342 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Slaughter House" - closed
+*
+D 0 9342 0 1 100 0 0 0
+*     north exit from "Northern Hallway" to
+*     "The Hallway of Statues" - closed
+*
+D 0 9357 2 1 100 0 0 0
+*     south exit from "The Hallway of Statues" to
+*     "Northern Hallway" - closed
+*
+D 0 9342 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Storeroom" - closed
+*
+D 0 9343 1 1 100 0 0 0
+*     east exit from "A Storeroom" to
+*     "Northern Hallway" - closed
+*
+D 0 9348 0 2 100 0 0 0
+*     north exit from "The Entrance to the Prison" to
+*     "Inside the Prison" - closed/locked
+*
+D 0 9351 2 2 100 0 0 0
+*     south exit from "Inside the Prison" to
+*     "The Entrance to the Prison" - closed/locked
+*
+D 0 9353 3 8 100 0 0 0
+*     west exit from "A Cave" to
+*     "A Diabolical Looking Dead End" - open/blocked
+*
+D 0 9372 1 8 100 0 0 0
+*     east exit from "A Diabolical Looking Dead End" to
+*     "A Cave" - open/blocked
+*
+D 0 9366 5 2 100 0 0 0
+*     down exit from "End of the Hallway of Statues" to
+*     "The Prison Chamber" - closed/locked
+*
+D 0 9371 4 2 100 0 0 0
+*     up exit from "The Prison Chamber" to
+*     "End of the Hallway of Statues" - closed/locked
+*
+D 0 9369 3 0 100 0 0 0
+*     west exit from "Dismal End in The Hallway of Statues" to
+*     "Small Chamber" - open
+*
+D 0 9370 1 0 100 0 0 0
+*     east exit from "Small Chamber" to
+*     "Dismal End in The Hallway of Statues" - open
+*
+*
+O 0 9361 1 9353 100 0 0 0          * a skull
+O 0 9338 1 9371 100 0 0 0          * a small fountain
+O 0 9360 1 9372 100 0 0 0          * a goblin spine
+*
+M 0 9300 1 9300 100 0 0 0          * Drestah, The Archmage
+E 1 9305 1 5 100 0 0 0             *   a long flowing black robe
+E 1 9304 1 15 100 0 0 0            *   a glowing emerald bracelet
+E 1 9303 1 16 100 0 0 0            *   a jewel-studded silver dagger
+E 1 9302 1 18 100 0 0 0            *   a wizard's staff
+G 1 9312 1 0 100 0 0 0             *    a staff of absorption
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 9305 10 9301 100 0 0 0         * a patrolling guard
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9329 1 9303 100 0 0 0          * ahe fiendish looking spectre
+E 1 9308 1 12 100 0 0 0            *   a black silken cloak
+E 1 9307 1 19 100 0 0 0            *   some eyes of charming
+M 0 9303 1 9305 100 0 0 0          * Jethromus, The Black Mage
+E 1 9316 10 16 100 0 0 0           *   a twisted ruby dagger
+G 1 9306 1 0 100 0 0 0             *    an ornate wand
+G 1 9313 1 0 100 0 0 0             *    a brown potion
+G 1 9314 1 0 100 0 0 0             *    a white elixir
+G 1 9318 1 0 100 0 0 0             *    a strange scroll
+G 1 9315 1 0 24 0 0 0              *    a strange vial of blood
+M 0 9304 1 9307 100 0 0 0          * Sarlania, The Cleric
+E 1 9319 1 12 100 0 0 0            *   a glowing runed cloak
+E 1 9317 1 16 100 0 0 0            *   a mace of disruption
+M 0 9302 1 9309 100 0 0 0          * a muscular large warrior
+E 1 9311 1 5 100 0 0 0             *   a shining suit of warrior's platemail
+E 1 9309 2 15 100 0 0 0            *   a tarnished platinum bracelet
+E 1 9310 1 16 100 0 0 0            *   a curved blood stained sword
+M 0 9322 1 9310 100 0 0 0          * a patrolling guard
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9306 10 9311 100 0 0 0         * a burly guardian
+M 0 9323 1 9312 100 0 0 0          * a burly guardian
+M 0 9324 1 9313 100 0 0 0          * a burly guardian
+M 0 9307 1 9314 100 0 0 0          * Brekrvertornthal, The Chief Guard
+E 1 9322 6 5 100 0 0 0             *   a heavy suit of guard's platemail
+E 1 9324 6 11 100 0 0 0            *   a fine glistening shield
+E 1 9323 6 16 100 0 0 0            *   a fine longsword
+G 1 9336 1 0 100 0 0 0             *    a strange red key
+M 0 9325 1 9314 100 0 0 0          * a burly guardian
+E 1 9322 6 5 100 0 0 0             *   a heavy suit of guard's platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9326 1 9314 100 0 0 0          * a burly guardian
+M 0 9327 1 9315 100 0 0 0          * a burly guardian
+M 0 9328 1 9316 100 0 0 0          * a burly guardian
+M 0 9301 1 9317 100 0 0 0          * the fiendish looking spectre
+E 1 9325 1 3 100 0 0 0             *   a satanic amulet
+E 1 9359 1 6 100 0 0 0             *   a skeletal helmet
+M 0 9330 1 9318 100 0 0 0          * a burly guardian
+M 0 9316 1 9319 100 0 0 0          * a sinister rogue
+E 1 9328 1 16 100 0 0 0            *   a sinister looking dagger
+E 1 9342 1 17 100 0 0 0            *   a dull chipped dagger
+M 0 9331 1 9319 100 0 0 0          * a patrolling guard
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9310 1 9320 100 0 0 0          * a disciple
+M 0 9315 1 9320 100 0 0 0          * a flesh golem
+E 1 9327 1 9 100 0 0 0             *   a pair of strange gauntlets
+M 0 9332 1 9321 100 0 0 0          * a disciple
+M 0 9309 1 9322 100 0 0 0          * Xlorkortor, The High Priest
+E 1 9343 1 5 100 0 0 0             *   a high priest robe of Xlorkortor
+E 1 9344 1 20 100 0 0 0            *   a mask of Xlorkortor
+M 0 9333 1 9322 100 0 0 0          * a disciple
+M 0 9319 5 9324 100 0 0 0          * a wimpy sentry
+E 1 9332 5 16 100 0 0 0            *   a magic longsword
+M 0 9334 1 9324 100 0 0 0          * A flesh golem
+E 1 9345 1 7 100 0 0 0             *   some tattered leggings
+M 0 9320 5 9325 100 0 0 0          * an apprentice mage
+E 1 9333 5 16 100 0 0 0            *   a quarterstaff
+M 0 9335 1 9326 100 0 0 0          * A flesh golem
+E 1 9346 1 6 100 0 0 0             *   a helm of spun flesh
+M 0 9336 2 9326 100 0 0 0          * An apprentice mage
+E 1 9333 5 16 100 0 0 0            *   a quarterstaff
+M 0 9314 1 9328 100 0 0 0          * an iron golem
+E 1 9326 1 8 100 0 0 0             *   a pair of heavy-plated iron boots
+M 0 9336 2 9330 100 0 0 0          * An apprentice mage
+E 1 9333 5 16 100 0 0 0            *   a quarterstaff
+M 0 9308 1 9331 100 0 0 0          * the Tower Guardian
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9309 2 15 100 0 0 0            *   a tarnished platinum bracelet
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+G 1 9300 2 0 100 0 0 0             *    a sorcerer's key
+M 0 9319 5 9331 100 0 0 0          * a wimpy sentry
+E 1 9332 5 16 100 0 0 0            *   a magic longsword
+M 0 9319 5 9333 100 0 0 0          * a wimpy sentry
+E 1 9332 5 16 100 0 0 0            *   a magic longsword
+M 0 9320 5 9334 100 0 0 0          * an apprentice mage
+E 1 9333 5 16 100 0 0 0            *   a quarterstaff
+M 0 9337 1 9335 100 0 0 0          * a patrolling guard
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9321 1 9340 100 0 0 0          * Smedgewack
+M 0 9338 1 9344 100 0 0 0          * a patrolling guard
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+M 0 9312 1 9347 100 0 0 0          * a diabolical infernal imp
+E 1 9348 1 10 100 0 0 0            *   some demonic runed sleeves
+E 1 9347 1 15 100 0 0 0            *   a demonic runed bracer
+M 0 9311 1 9348 100 0 0 0          * The golden warrior
+E 1 9335 1 8 100 0 0 0             *   a pair of shiny golden boots
+E 1 9334 1 16 100 0 0 0            *   a golden longsword
+G 1 9301 1 0 100 0 0 0             *    a prison key
+M 0 9318 1 9349 100 0 0 0          * ZrBardFaustas, The Archdemon
+E 1 9349 1 6 100 0 0 0             *   a sapphire crown
+E 1 9331 1 15 100 0 0 0            *   a satanic bracelet
+M 0 9339 1 9350 100 0 0 0          * A diabolical infernal imp
+E 1 9351 1 2 100 0 0 0             *   a jagged ring
+E 1 9350 1 8 100 0 0 0             *   some strange glowing sabatons
+M 0 9313 1 9351 100 0 0 0          * a deformed disgusting looking thing
+E 1 9354 1 3 100 0 0 0             *   a rancid deformed amulet
+E 1 9353 1 6 100 0 0 0             *   a jagged deformed helmet
+E 1 9352 1 19 100 0 0 0            *   a dreadful deformed eyepatch
+M 0 9340 1 9352 100 0 0 0          * a deformed disgusting looking thing
+E 1 9356 1 5 100 0 0 0             *   a foul moldy robe
+G 1 9355 1 0 100 0 0 0             *    a large emerald
+M 0 9317 1 9356 100 0 0 0          * a silver dragon
+E 1 9329 1 16 100 0 0 0            *   a dragonslayer
+G 1 9330 1 0 100 0 0 0             *    a silver dragon egg
+M 0 9342 1 9357 100 0 0 0          * the landshark
+M 0 9344 1 9359 100 0 0 0          * a large bulette
+M 0 9345 1 9360 100 0 0 0          * a bulette
+M 0 9346 1 9362 100 0 0 0          * a landshark
+M 0 9347 1 9363 100 0 0 0          * a bulette
+M 0 9348 1 9365 100 0 0 0          * a landshark
+M 0 9349 1 9366 100 0 0 0          * a bulette
+E 1 9339 1 11 100 0 0 0            *   a bulette shield
+M 0 9350 1 9368 100 0 0 0          * a large bulette
+M 0 9343 1 9370 100 0 0 0          * Barkwoof, The Mongrelman
+E 1 9340 1 13 100 0 0 0            *   an ugly green belt
+E 1 9337 1 28 100 0 0 0            *   a small brittle key
+M 0 9352 1 9371 100 0 0 0          * Armonder
+E 1 9358 3 11 100 0 0 0            *   a skeletal shield
+E 1 9341 1 16 100 0 0 0            *   the crimson sword of Armonder
+F 1 9341 1 9371 100 0 0 0          * the skeleton (following)
+E 1 9358 3 11 100 0 0 0            *   a skeletal shield
+E 1 9357 2 16 100 0 0 0            *   a skeletal scimitar
+F 1 9351 1 9371 100 0 0 0          * the skeleton (following)
+E 1 9358 3 11 100 0 0 0            *   a skeletal shield
+E 1 9357 2 16 100 0 0 0            *   a skeletal scimitar
+M 0 9366 1 9372 100 0 0 0          * a ghoul
+M 0 9365 1 9373 100 0 0 0          * a ghast
+M 0 9364 1 9374 100 0 0 0          * a vampiric warg
+M 0 9363 1 9376 100 0 0 0          * Karkran
+G 1 9367 1 0 100 0 0 0             *    a strange skiff
+M 0 9362 3 9377 100 0 0 0          * an undead fish
+M 0 9362 3 9377 100 0 0 0          * an undead fish
+M 0 9362 3 9378 100 0 0 0          * an undead fish
+M 0 9354 1 9380 100 0 0 0          * a mysterious kraken
+E 1 9363 1 16 100 0 0 0            *   a mysterious kraken trident
+E 1 9364 1 17 100 0 0 0            *   a hard stone dagger
+M 0 9355 1 9380 100 0 0 0          * a water spout
+M 0 9356 1 9380 100 0 0 0          * a water spout
+M 0 9353 1 9381 100 0 0 0          * a foul water fiend
+E 1 9362 1 3 100 0 0 0             *   a weird water amulet
+M 0 9357 3 9382 100 0 0 0          * a water weird
+M 0 9359 3 9383 100 0 0 0          * a water weird
+M 0 9358 3 9384 100 0 0 0          * a water weird
+M 0 9359 3 9385 100 0 0 0          * a water weird
+M 0 9358 3 9386 100 0 0 0          * a water weird
+M 0 9357 3 9387 100 0 0 0          * a water weird
+M 0 9359 3 9387 100 0 0 0          * a water weird
+M 0 9360 1 9389 100 0 0 0          * a gargantuan kraken
+E 1 9368 1 15 100 0 0 0            *   a sapphire bracelet
+E 1 9366 1 21 100 0 0 0            *   a kraken scale
+M 0 9358 3 9390 100 0 0 0          * a water weird
+M 0 9357 3 9391 100 0 0 0          * a water weird
+M 0 9361 1 9391 100 0 0 0          * a giant kraken
+E 1 9374 1 3 100 0 0 0             *   a seaweed covered necklace
+G 1 9365 1 0 100 0 0 0             *    a kraken eye
+M 0 9369 1 9392 100 0 0 0          * a muscular patrolling guardian
+E 1 9370 2 16 100 0 0 0            *   a well polished longsword
+E 1 9370 2 17 100 0 0 0            *   a well polished longsword
+M 0 9370 2 9392 100 0 0 0          * A wimpy sentry
+E 1 9371 4 16 100 0 0 0            *   a fine magic longsword
+E 1 9371 4 17 100 0 0 0            *   a fine magic longsword
+M 0 9371 2 9392 100 0 0 0          * An advanced apprentice mage
+E 1 9372 2 16 100 0 0 0            *   a mystical diamond quarterstaff
+M 0 9368 2 9393 100 0 0 0          * a patrolling guardian
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+E 1 9320 11 17 100 0 0 0           *   a crude tarnished longsword
+M 0 9370 2 9393 100 0 0 0          * A wimpy sentry
+E 1 9371 4 16 100 0 0 0            *   a fine magic longsword
+E 1 9371 4 17 100 0 0 0            *   a fine magic longsword
+M 0 9368 2 9394 100 0 0 0          * a patrolling guardian
+E 1 9321 8 5 100 0 0 0             *   a heavy tarnished suit of platemail
+E 1 9320 11 16 100 0 0 0           *   a crude tarnished longsword
+E 1 9320 11 17 100 0 0 0           *   a crude tarnished longsword
+M 0 9371 2 9394 100 0 0 0          * An advanced apprentice mage
+E 1 9372 2 16 100 0 0 0            *   a mystical diamond quarterstaff
+M 0 9372 2 9395 100 0 0 0          * a vampiric warg
+M 0 9373 1 9395 100 0 0 0          * a ghast
+M 0 9367 1 9395 100 0 0 0          * Zbarnos, The Master Craftsman
+M 0 9372 2 9396 100 0 0 0          * a vampiric warg
+M 0 9374 1 9396 100 0 0 0          * a ghoul
+M 0 9375 2 9397 100 0 0 0          * a huge water weird
+M 0 9376 2 9397 100 0 0 0          * a giant water weird
+G 1 9376 2 0 100 0 0 0             *    a mysterious pearl
+M 0 9375 2 9398 100 0 0 0          * a huge water weird
+M 0 9376 2 9398 100 0 0 0          * a giant water weird
+G 1 9376 2 0 100 0 0 0             *    a mysterious pearl
+*
+S

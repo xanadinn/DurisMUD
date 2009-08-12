@@ -1,0 +1,139 @@
+#3504
+M
+adventurers luck~
+"Ahhhh yes", the gardener says, "Adventurers have been coming here for as long
+as I can remember - all seeking to unravel the secrets of the manor". "I'm sure
+YOU have what it takes, however!"  the gardener says in a much louder tone.  He
+stares ahead, then proceeds to chuckle to himself.
+~
+M
+secrets secret manor~
+The gardener stares at you blankly, then says "you don't know the history of
+this mansion, do ya?  Well, many years ago the family that lived here just
+disappeared very suddenly...  noone knows what happened to them, but many
+people think the mansion is... well.. they think its haunted.  I don't know
+about that, because I am afraid to go in.  Lots of adventurers like you have
+tried to go in to loot the family's treasures... but I've never seen anyone
+come back out!"
+~
+M
+key door~
+The gardener thinks for a moment before speaking: "Ahhhh yes, I remember now.
+The owner of the mansion kept a few extra keys in a desk around here somewhere
+I think.  But where was that desk? hmmm... well, its around here somewhere."
+~
+M
+family name~
+"The family name?  Oh hell, Eng something.. I forget.. its been years ya know.
+I remember the name being written somewhere... I think.. hmmm.  I know the name
+is important for some reason, but I just don't remember what could be so
+important about a name..."
+~
+S
+#3505
+M
+piano music~
+The ghost says in a morose tone "This was the masters favorite song, but my
+memory is fading and I don't remember how the ending goes, or even what the
+name of the song is.  I wonder if you could help me find the music notes...
+I would be very appreciative if you could".  With that, the ghost returns to
+playing the somber music on the piano.
+~
+M
+phoenix rise~
+"Ahhhhh yes!  thats the name of the song!"  the ghost says, her faint red eyes
+brightening a little, "Have you found the music?  Please, give me the papers if
+you have."
+~
+Q
+"Thankyou!" The image says, "ever since that day came, and the house wept, I
+have been looking for this paper.  I appreciate your help, and in return I
+offer you this.  Hopefully, you can uncover what happened here and finally put
+some of the spirits to rest.  Be careful, because the angry spirits in the
+house pale in comparison to those beneath it!  If you wish to go below, go to
+the library and look around.  You should be able to find the way into the
+caverns.  In the library, speak the name of the family to gain entrace.  Good
+luck, adventurers!"
+~
+R I 3512
+R I 3511
+G I 3505
+S
+#3506
+M
+baby crying child cry~
+"If only I could find her rattle", the ghost says, "It was the only thing that
+could pacify her.  I don't know where it could have been left, but if you find
+it, please bring it back to me.  Maybe I can finally be at ease if she stops
+crying".
+~
+Q
+The beautiful image turns to you and says "Thankyou very much!  Now I can
+finally get some peace and quiet."  The handmaid places the rattle into the
+crib and promptly the crying stops.  "As a token of my gratitude, please
+accept this bracelet.  It's been in my family for ages, but as you can see,
+I have no use for it anymore".
+~
+R I 3513
+G I 3509
+S
+#3518
+M
+life experiment quest~
+&+rLord Englehardt&n speaks "My quest? My quest for life... I was a fool.  I went
+and tampered with things that are way beyond the power or mortal comprehension.
+I never meant to cause so many people so much harm.  I thought I would be a
+legend if I could discover what allows some races to live longer than others,
+and perhaps give way to increasing the lifespan of those whose lives are much
+shorter.  In my foolishness, I accepted the help of a man - at least, I thought
+he was a man.  &+gGaultair&n, that foul demon tricked me into opening a portal for
+his master.  That day, this house died.. and with it, every living soul inside.
+Hmmmmmm I have an &+coffer&n for you, if you think you're strong enough."
+~
+M
+offer strong~
+"YES", Englehardt booms, "If you can defeat both the chameleon devil and his
+master, you will have undone the curse of this house.  Those poor souls whose
+lives were lost when the devil lord made his appearance will be allowed to rest
+and I too, will not be burdened with unleashing the evil demons upon our fair
+land.  In return I will give you the key to my &+Yvault&n, and with it the right
+to all that my family has accumulated over the century's.  What do you say?
+Kill the foul demons and return to me with proof of their demise, and the key
+is yours!"
+~
+M
+vault~
+"Yes, I will give you the key but only after you have brought me proof that the
+foul demons are both dead.  The vault is still well guarded after the first
+door, but if you can handle those two demons, the guards placed in the vault
+should prove to be of little trouble to you."  Englehardt remarks.
+~
+M
+gaultair~
+Englehardt lowers his head and speaks, "&+gGaultair&n is a master of disguise and
+he is also an accomplished spellcaster.  He won't be alone when you meet him,
+as he likes to keep his guards and advisors close.  &+gGaultair&n is a dangerous
+foe, but his master &+rTy&+Lrl&+ros&n, the prince of the netherworld is
+even more fearsome.  I wish you luck."
+~
+M
+tyrlos~
+"That vile beast!  When he came through the portal, he cast a spell which
+killed off everyone in this house.  He is a vicious and evil beast who must
+be stopped at all costs.  Tyrlos is a threat to the world.  Someone must
+stop him before it is too late."
+~
+Q
+Englehardt gasps as you prove to him that both &+gGaultair&n and &+rTy&+Lrl&+ros&n have
+been dispatched.  "Thankyou so much!  Now I can rest knowing that the evil
+prince will not be able to conquer the world I used to love so much.  In return
+for my retribution, I'll give you this key.  Be careful, because the vault
+contains some guards that will not recognize you.  You were strong enough to
+defeat the devils, therefore I believe the vault guards will not prove too
+difficult."
+~
+R I 3540
+R E 250000
+G I 3529
+G I 3539
+S

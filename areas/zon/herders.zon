@@ -1,0 +1,1031 @@
+#943
+&+LThe Behemoth Herders&N~
+94646 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 94303 0 8 100 0 0 0
+*     north exit from "A Dark Entry To the Subterrain" to
+*     "A Desecent Underground" - open/blocked
+*
+D 0 94306 2 8 100 0 0 0
+*     south exit from "A Desecent Underground" to
+*     "A Dark Entry To the Subterrain" - open/blocked
+*
+D 0 94315 7 1 100 0 0 0
+*     southwest exit from "A Large Subterranean Cavern" to
+*     "A Secret Cavern" - closed
+*
+D 0 94424 8 1 100 0 0 0
+*     northeast exit from "A Secret Cavern" to
+*     "A Large Subterranean Cavern" - closed
+*
+D 0 94324 9 1 100 0 0 0
+*     southeast exit from "The Boneheap" to
+*     "In a Dimly Lit Cavern Tunnel" - closed
+*
+D 0 94325 6 5 100 0 0 0
+*     northwest exit from "In a Dimly Lit Cavern Tunnel" to
+*     "The Boneheap" - closed/secret
+*
+D 0 94329 0 1 100 0 0 0
+*     north exit from "Small Turn in the Rocks before a Cave" to
+*     "A Large Underground Cave" - closed
+*
+D 0 94330 2 1 100 0 0 0
+*     south exit from "A Large Underground Cave" to
+*     "Small Turn in the Rocks before a Cave" - closed
+*
+D 0 94346 0 5 100 0 0 0
+*     north exit from "Bloodstained Rocks, Forming a Platform" to
+*     "A Dark, Putrid Lair" - closed/secret
+*
+D 0 94347 2 1 100 0 0 0
+*     south exit from "A Dark, Putrid Lair" to
+*     "Bloodstained Rocks, Forming a Platform" - closed
+*
+D 0 94365 0 1 100 0 0 0
+*     north exit from "Dead-End with Caves" to
+*     "The Bonesmith's Cave" - closed
+*
+D 0 94366 2 1 100 0 0 0
+*     south exit from "The Bonesmith's Cave" to
+*     "Dead-End with Caves" - closed
+*
+D 0 94365 2 1 100 0 0 0
+*     south exit from "Dead-End with Caves" to
+*     "A Shop of Undead Delight" - closed
+*
+D 0 94371 0 1 100 0 0 0
+*     north exit from "A Shop of Undead Delight" to
+*     "Dead-End with Caves" - closed
+*
+D 0 94366 3 2 100 0 0 0
+*     west exit from "The Bonesmith's Cave" to
+*     "The Bonesmith's Office" - closed/locked
+*
+D 0 94367 1 2 100 0 0 0
+*     east exit from "The Bonesmith's Office" to
+*     "The Bonesmith's Cave" - closed/locked
+*
+D 0 94369 0 1 100 0 0 0
+*     north exit from "Before a Large Cave" to
+*     "The Bar of the Evil Dead" - closed
+*
+D 0 94370 2 1 100 0 0 0
+*     south exit from "The Bar of the Evil Dead" to
+*     "Before a Large Cave" - closed
+*
+D 0 94382 0 5 100 0 0 0
+*     north exit from "A Very Misty Part of the Cavern" to
+*     "A Secret Misty Cave" - closed/secret
+*
+D 0 94507 2 1 100 0 0 0
+*     south exit from "A Secret Misty Cave" to
+*     "A Very Misty Part of the Cavern" - closed
+*
+D 0 94384 5 5 100 0 0 0
+*     down exit from "A Guarded Portion of Shizmaah" to
+*     "A Hidden Underground Tunnel" - closed/secret
+*
+D 0 94458 4 1 100 0 0 0
+*     up exit from "A Hidden Underground Tunnel" to
+*     "A Guarded Portion of Shizmaah" - closed
+*
+D 0 94397 1 5 100 0 0 0
+*     east exit from "An Enormous Cavern Known as Shizmaah" to
+*     "A Hidden Tunnel, Seering With Heat" - closed/secret
+*
+D 0 94419 3 1 100 0 0 0
+*     west exit from "A Hidden Tunnel, Seering With Heat" to
+*     "An Enormous Cavern Known as Shizmaah" - closed
+*
+D 0 94426 1 1 100 0 0 0
+*     east exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94437 3 1 100 0 0 0
+*     west exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94426 3 1 100 0 0 0
+*     west exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94436 1 1 100 0 0 0
+*     east exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94427 0 1 100 0 0 0
+*     north exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94439 2 1 100 0 0 0
+*     south exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94427 3 1 100 0 0 0
+*     west exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94438 1 1 100 0 0 0
+*     east exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94428 0 1 100 0 0 0
+*     north exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94440 2 1 100 0 0 0
+*     south exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94428 2 1 100 0 0 0
+*     south exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94441 0 1 100 0 0 0
+*     north exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94429 0 1 100 0 0 0
+*     north exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94442 2 1 100 0 0 0
+*     south exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94429 2 1 100 0 0 0
+*     south exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94443 0 1 100 0 0 0
+*     north exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94430 0 1 100 0 0 0
+*     north exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94444 2 1 100 0 0 0
+*     south exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94430 1 1 100 0 0 0
+*     east exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94445 3 1 100 0 0 0
+*     west exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94431 1 1 100 0 0 0
+*     east exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94446 3 1 100 0 0 0
+*     west exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94431 3 1 100 0 0 0
+*     west exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94447 1 1 100 0 0 0
+*     east exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94432 1 1 100 0 0 0
+*     east exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94448 3 1 100 0 0 0
+*     west exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94433 1 1 100 0 0 0
+*     east exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94450 3 1 100 0 0 0
+*     west exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94433 2 1 100 0 0 0
+*     south exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94451 0 1 100 0 0 0
+*     north exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94434 0 1 100 0 0 0
+*     north exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94452 2 1 100 0 0 0
+*     south exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94434 2 1 100 0 0 0
+*     south exit from "A Tunnel Between the Caging Areas" to
+*     "A Huge Behemoth Cage" - closed
+*
+D 0 94453 0 1 100 0 0 0
+*     north exit from "A Huge Behemoth Cage" to
+*     "A Tunnel Between the Caging Areas" - closed
+*
+D 0 94470 4 1 100 0 0 0
+*     up exit from "Hidden Tunnel Under a Trapdoor" to
+*     "The Base of a Dark Spire" - closed
+*
+D 0 94474 5 5 100 0 0 0
+*     down exit from "The Base of a Dark Spire" to
+*     "Hidden Tunnel Under a Trapdoor" - closed/secret
+*
+D 0 94472 4 1 100 0 0 0
+*     up exit from "Hidden Tunnel Under a Trapdoor" to
+*     "The Base of a Dark Spire" - closed
+*
+D 0 94473 5 5 100 0 0 0
+*     down exit from "The Base of a Dark Spire" to
+*     "Hidden Tunnel Under a Trapdoor" - closed/secret
+*
+D 0 94473 0 1 100 0 0 0
+*     north exit from "The Base of a Dark Spire" to
+*     "Entryway to the Southern Dark Spire" - closed
+*
+D 0 94519 2 2 100 0 0 0
+*     south exit from "Entryway to the Southern Dark Spire" to
+*     "The Base of a Dark Spire" - closed/locked
+*
+D 0 94474 2 1 100 0 0 0
+*     south exit from "The Base of a Dark Spire" to
+*     "Entryway to the Northern Dark Spire" - closed
+*
+D 0 94518 0 2 100 0 0 0
+*     north exit from "Entryway to the Northern Dark Spire" to
+*     "The Base of a Dark Spire" - closed/locked
+*
+D 0 94481 2 1 100 0 0 0
+*     south exit from "A Stone Foyer Before a Large Atrium" to
+*     "A Western Corridor in the Royal Stronghold" - closed
+*
+D 0 94630 0 1 100 0 0 0
+*     north exit from "A Western Corridor in the Royal Stronghold" to
+*     "A Stone Foyer Before a Large Atrium" - closed
+*
+D 0 94495 5 1 100 0 0 0
+*     down exit from "The Cavern Floor Atop a Covered Trench" to
+*     "Dead-End of the Trench" - closed
+*
+D 0 94606 4 1 100 0 0 0
+*     up exit from "Dead-End of the Trench" to
+*     "The Cavern Floor Atop a Covered Trench" - closed
+*
+D 0 94500 5 1 100 0 0 0
+*     down exit from "The Cavern Floor Atop a Covered Trench" to
+*     "Within a Hidden Trench Below Shizmaah" - closed
+*
+D 0 94605 4 1 100 0 0 0
+*     up exit from "Within a Hidden Trench Below Shizmaah" to
+*     "The Cavern Floor Atop a Covered Trench" - closed
+*
+D 0 94509 0 8 100 0 0 0
+*     north exit from "A Rocky Cave-in At the West Wall of the Cavern" to
+*     "A Tight Passage Behind a Boulder" - open/blocked
+*
+D 0 94609 2 0 100 0 0 0
+*     south exit from "A Tight Passage Behind a Boulder" to
+*     "A Rocky Cave-in At the West Wall of the Cavern" - open
+*
+D 0 94522 1 1 100 0 0 0
+*     east exit from "Landing Before Symmetrical Gates" to
+*     "Before the Prisoner-Slave Center" - closed
+*
+D 0 94524 3 1 100 0 0 0
+*     west exit from "Before the Prisoner-Slave Center" to
+*     "Landing Before Symmetrical Gates" - closed
+*
+D 0 94522 2 2 100 0 0 0
+*     south exit from "Landing Before Symmetrical Gates" to
+*     "A Well-Guarded Chamber of Death" - closed/locked
+*
+D 0 94608 0 2 100 0 0 0
+*     north exit from "A Well-Guarded Chamber of Death" to
+*     "Landing Before Symmetrical Gates" - closed/locked
+*
+D 0 94522 3 2 100 0 0 0
+*     west exit from "Landing Before Symmetrical Gates" to
+*     "Within the Diorite Gates of a Large Chamber" - closed/locked
+*
+D 0 94613 1 2 100 0 0 0
+*     east exit from "Within the Diorite Gates of a Large Chamber" to
+*     "Landing Before Symmetrical Gates" - closed/locked
+*
+D 0 94532 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94555 2 1 100 0 0 0
+*     south exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94532 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Large Prisoner's Cell" - closed/locked
+*
+D 0 94556 0 1 100 0 0 0
+*     north exit from "A Large Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94533 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Small Prisoner's Cell" - closed/locked
+*
+D 0 94543 2 1 100 0 0 0
+*     south exit from "A Small Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94533 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94544 0 1 100 0 0 0
+*     north exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94534 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Huge Prisoner's Cell" - closed/locked
+*
+D 0 94545 2 1 100 0 0 0
+*     south exit from "A Huge Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94534 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94546 0 1 100 0 0 0
+*     north exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94535 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94540 2 1 100 0 0 0
+*     south exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94535 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94541 0 1 100 0 0 0
+*     north exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94535 3 2 100 0 0 0
+*     west exit from "A Prisoner Cell Block" to
+*     "A Small Prisoner's Cell" - closed/locked
+*
+D 0 94542 1 1 100 0 0 0
+*     east exit from "A Small Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94536 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94547 2 1 100 0 0 0
+*     south exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94536 1 2 100 0 0 0
+*     east exit from "A Prisoner Cell Block" to
+*     "A Small Prisoner's Cell" - closed/locked
+*
+D 0 94548 3 1 100 0 0 0
+*     west exit from "A Small Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94536 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94549 0 1 100 0 0 0
+*     north exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94537 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94553 2 1 100 0 0 0
+*     south exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94537 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Giant Prisoner's Cell" - closed/locked
+*
+D 0 94554 0 1 100 0 0 0
+*     north exit from "A Giant Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94538 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94550 2 1 100 0 0 0
+*     south exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94538 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94551 0 1 100 0 0 0
+*     north exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94538 3 2 100 0 0 0
+*     west exit from "A Prisoner Cell Block" to
+*     "A Small Prisoner's Cell" - closed/locked
+*
+D 0 94552 1 1 100 0 0 0
+*     east exit from "A Small Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94539 0 2 100 0 0 0
+*     north exit from "A Prisoner Cell Block" to
+*     "A Huge Prisoner's Cell" - closed/locked
+*
+D 0 94557 2 1 100 0 0 0
+*     south exit from "A Huge Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94539 1 2 100 0 0 0
+*     east exit from "A Prisoner Cell Block" to
+*     "A Prisoner's Cell" - closed/locked
+*
+D 0 94559 3 1 100 0 0 0
+*     west exit from "A Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94539 2 2 100 0 0 0
+*     south exit from "A Prisoner Cell Block" to
+*     "A Small Prisoner's Cell" - closed/locked
+*
+D 0 94558 0 1 100 0 0 0
+*     north exit from "A Small Prisoner's Cell" to
+*     "A Prisoner Cell Block" - closed
+*
+D 0 94597 2 2 100 0 0 0
+*     south exit from "Private Sector of the Slave Master" to
+*     "Inner Sanctum of the Slave Master" - closed/locked
+*
+D 0 94598 0 1 100 0 0 0
+*     north exit from "Inner Sanctum of the Slave Master" to
+*     "Private Sector of the Slave Master" - closed
+*
+D 0 94603 5 5 100 0 0 0
+*     down exit from "Cespool of Vermin" to
+*     "A Dark Lair" - closed/secret
+*
+D 0 94604 4 5 100 0 0 0
+*     up exit from "A Dark Lair" to
+*     "Cespool of Vermin" - closed/secret
+*
+D 0 94615 3 8 100 0 0 0
+*     west exit from "A Hallway of Unfinished Diorite Statues" to
+*     "A Small Carved Out Room" - open/blocked
+*
+D 0 94641 1 0 100 0 0 0
+*     east exit from "A Small Carved Out Room" to
+*     "A Hallway of Unfinished Diorite Statues" - open
+*
+D 0 94621 3 2 100 0 0 0
+*     west exit from "A Domed Chamber with Diorite Support Beams" to
+*     "A Western Corridor in the Royal Stronghold" - closed/locked
+*
+D 0 94627 1 2 100 0 0 0
+*     east exit from "A Western Corridor in the Royal Stronghold" to
+*     "A Domed Chamber with Diorite Support Beams" - closed/locked
+*
+D 0 94622 5 5 100 0 0 0
+*     down exit from "A Room of Statues at the Chamber Center" to
+*     "A Forbidden Chamber of Forgotten Bones" - closed/secret
+*
+D 0 94643 4 1 100 0 0 0
+*     up exit from "A Forbidden Chamber of Forgotten Bones" to
+*     "A Room of Statues at the Chamber Center" - closed
+*
+D 0 94623 1 2 100 0 0 0
+*     east exit from "A Domed Chamber with Diorite Support Beams" to
+*     "A Eastern Corridor in the Royal Stronghold" - closed/locked
+*
+D 0 94634 3 2 100 0 0 0
+*     west exit from "A Eastern Corridor in the Royal Stronghold" to
+*     "A Domed Chamber with Diorite Support Beams" - closed/locked
+*
+*
+O 0 94300 2 94303 100 0 0 0        * the black gate
+O 0 94301 1 94304 100 0 0 0        * the crank
+O 0 94302 1 94305 100 0 0 0        * the crank
+O 0 94300 2 94306 100 0 0 0        * the black gate
+O 0 94303 1 94319 100 0 0 0        * a small pool of blood
+O 0 94304 2 94324 100 0 0 0        * the bone pile
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94306 10 94304 100 0 0 0       *   a large piece of bone
+P 1 94307 1 94304 100 0 0 0        *   an aged silver ring
+O 0 94313 1 94346 100 0 0 0        * a pile of bloody rocks and corpses
+P 1 94305 12 94313 100 0 0 0       *   a piece of a bone fragment
+P 1 94305 12 94313 100 0 0 0       *   a piece of a bone fragment
+P 1 94306 10 94313 100 0 0 0       *   a large piece of bone
+O 0 94316 1 94351 100 0 0 0        * a bone sign
+O 0 94333 1 94375 100 0 0 0        * a human's bloody head on a pike
+O 0 94334 1 94424 100 0 0 0        * the corpse of a halfling
+P 1 94335 1 94334 100 0 0 0        *   a small leather eyepatch
+P 1 94336 1 94334 100 0 0 0        *   a small concealed money pouch
+O 0 94381 3 94482 100 0 0 0        * bloody chunks
+O 0 94381 3 94486 100 0 0 0        * bloody chunks
+O 0 94382 3 94491 100 0 0 0        * streaks of blood
+O 0 94373 1 94494 100 0 0 0        * a stone platform
+O 0 94380 1 94495 100 0 0 0        * bloody footprints
+O 0 94381 3 94498 100 0 0 0        * bloody chunks
+O 0 94382 3 94502 100 0 0 0        * streaks of blood
+O 0 94383 1 94509 100 0 0 0        * a boulder
+O 0 94382 3 94510 100 0 0 0        * streaks of blood
+O 0 94347 1 94515 100 0 0 0        * a dark rift
+O 0 94354 1 94561 100 0 0 0        * a crucified grey elf maiden
+O 0 94359 1 94577 100 0 0 0        * a foul, cloudy natural spring
+O 0 94369 1 94603 100 0 0 0        * HUGE razor-sharp spikes
+O 0 94370 1 94603 100 0 0 0        * a decayed corpse
+P 1 94371 1 94370 100 0 0 0        *   some rusty iron shackles
+O 0 94304 2 94610 100 0 0 0        * the bone pile
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94305 12 94304 100 0 0 0       *   a piece of a bone fragment
+P 1 94306 10 94304 100 0 0 0       *   a large piece of bone
+P 1 94306 10 94304 100 0 0 0       *   a large piece of bone
+P 1 94384 1 94304 100 0 0 0        *   a tarnished and aged silver stud
+O 0 94388 1 94610 100 0 0 0        * skulls and bones
+O 0 94391 1 94615 100 0 0 0        * an unfinished statue
+*
+M 0 94301 1 94304 100 0 0 0        * a mindless storm giant zombie gate operator
+M 0 94300 1 94305 100 0 0 0        * A mindless wight gate operator
+M 0 94306 3 94309 100 0 0 0        * a larger tarantula
+M 0 94305 2 94311 100 0 0 0        * a tarantula
+M 0 94305 2 94311 100 0 0 0        * a tarantula
+M 0 94313 4 94311 100 0 0 0        * a dark green snake
+M 0 94313 4 94311 100 0 0 0        * a dark green snake
+M 0 94303 1 94316 100 0 0 0        * a skeletal behemoth rider
+R 1 94302 17 94316 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94307 4 94317 100 0 0 0        * a black rock lizard
+M 0 94307 4 94317 100 0 0 0        * a black rock lizard
+M 0 94304 2 94319 100 0 0 0        * a thirsty vampire
+M 0 94304 2 94319 100 0 0 0        * a thirsty vampire
+M 0 94314 1 94319 100 0 0 0        * a wight
+M 0 94324 2 94319 100 0 0 0        * a huge poisonous snail
+M 0 94308 1 94320 100 0 0 0        * a blood worm
+M 0 94309 1 94320 100 0 0 0        * a blood worm
+M 0 94310 1 94320 100 0 0 0        * a blood worm
+M 0 94311 1 94320 100 0 0 0        * a blood worm
+M 0 94312 1 94320 100 0 0 0        * a large blood worm
+M 0 94324 2 94321 100 0 0 0        * a huge poisonous snail
+M 0 94325 2 94321 100 0 0 0        * a long black viper
+M 0 94307 4 94321 100 0 0 0        * a black rock lizard
+M 0 94306 3 94322 100 0 0 0        * a larger tarantula
+M 0 94325 2 94322 100 0 0 0        * a long black viper
+M 0 94307 4 94323 100 0 0 0        * a black rock lizard
+M 0 94315 1 94324 100 0 0 0        * a short necromancer
+E 1 94308 1 5 100 0 0 0            *   a tattered black mage robe
+F 1 94317 1 94324 100 0 0 0        * a tiny dragonkin (following)
+G 1 94309 10 0 100 0 0 0           *    a tiny dragonkin scale
+M 0 94316 1 94324 100 0 0 0        * a deformed skeleton
+M 0 94318 1 94324 100 0 0 0        * a skeketon hand
+M 0 94306 3 94326 100 0 0 0        * a larger tarantula
+M 0 94313 4 94326 100 0 0 0        * a dark green snake
+M 0 94313 4 94326 100 0 0 0        * a dark green snake
+M 0 94319 1 94330 100 0 0 0        * a flaming skeleton highlord
+M 0 94320 1 94330 100 0 0 0        * Zugle, wight warlord
+E 1 94310 1 16 100 0 0 0           *   a humungous blood-splattered twin-bladed battleaxe
+G 1 94376 1 0 100 0 0 0            *    a key of diorite
+G 1 94389 1 0 100 0 0 0            *    the worm-infested skull of Zugle
+F 1 94323 1 94330 100 0 0 0        * an ancient vampiric behemoth (following)
+G 1 94312 1 0 100 0 0 0            *    black-pointed behemoth horns
+M 0 94321 1 94330 100 0 0 0        * a lich dark wizard
+E 1 94311 1 18 100 0 0 0           *   a wand with a black gem
+M 0 94322 1 94330 100 0 0 0        * a brutalized gnome
+M 0 94354 6 94336 100 0 0 0        * a vampire bat
+M 0 94335 4 94336 100 0 0 0        * a carnivorous fungus
+M 0 94335 4 94336 100 0 0 0        * a carnivorous fungus
+M 0 94333 3 94337 100 0 0 0        * a tall death knight
+M 0 94437 5 94337 100 0 0 0        * a large grey cave wyrm
+M 0 94335 4 94338 100 0 0 0        * a carnivorous fungus
+M 0 94336 2 94338 100 0 0 0        * a huge black widow
+M 0 94354 6 94342 100 0 0 0        * a vampire bat
+M 0 94334 2 94342 100 0 0 0        * a shadowbeast
+M 0 94326 1 94346 100 0 0 0        * a vampire
+M 0 94327 1 94346 100 0 0 0        * a githzerai vampire
+M 0 94330 2 94346 100 0 0 0        * a maggot
+M 0 94330 2 94346 100 0 0 0        * a maggot
+M 0 94331 2 94346 100 0 0 0        * a maggot
+M 0 94331 2 94346 100 0 0 0        * a maggot
+M 0 94328 1 94346 100 0 0 0        * a huge maggot
+M 0 94329 1 94346 100 0 0 0        * a huge maggot
+M 0 94332 1 94347 100 0 0 0        * a putrid fomorian
+E 1 94314 1 16 100 0 0 0           *   a bloody skull-headed bone mace
+G 1 94306 10 0 100 0 0 0           *    a large piece of bone
+M 0 94354 6 94348 100 0 0 0        * a vampire bat
+M 0 94335 4 94348 100 0 0 0        * a carnivorous fungus
+M 0 94336 2 94348 100 0 0 0        * a huge black widow
+M 0 94343 4 94348 100 0 0 0        * a boa constrictor
+M 0 94437 5 94349 100 0 0 0        * a large grey cave wyrm
+M 0 94337 1 94356 100 0 0 0        * a barbarian slave
+M 0 94338 1 94356 100 0 0 0        * a minotaur slave
+M 0 94339 1 94356 100 0 0 0        * a behemoth rider enforcer
+R 1 94302 17 94356 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94354 6 94358 100 0 0 0        * a vampire bat
+M 0 94333 3 94359 100 0 0 0        * a tall death knight
+M 0 94437 5 94359 100 0 0 0        * a large grey cave wyrm
+M 0 94343 4 94361 100 0 0 0        * a boa constrictor
+M 0 94354 6 94361 100 0 0 0        * a vampire bat
+M 0 94333 3 94362 100 0 0 0        * a tall death knight
+M 0 94334 2 94363 100 0 0 0        * a shadowbeast
+M 0 94343 4 94363 100 0 0 0        * a boa constrictor
+M 0 94354 6 94364 100 0 0 0        * a vampire bat
+M 0 94437 5 94365 100 0 0 0        * a large grey cave wyrm
+M 0 94431 1 94366 100 0 0 0        * a bone abomination
+G 1 94375 1 0 100 0 0 0            *    a small bone key
+M 0 94340 1 94367 100 0 0 0        * Argle, the Bonesmith
+M 0 94341 1 94368 100 0 0 0        * a diabolic skeleton
+M 0 94342 1 94368 100 0 0 0        * a struggling drow elf
+G 1 94332 1 0 100 0 0 0            *    a tiny spider earring
+M 0 94343 4 94369 100 0 0 0        * a boa constrictor
+M 0 94345 1 94370 100 0 0 0        * a revenant
+F 1 94379 2 94370 100 0 0 0        * a revenant's war pig (following)
+M 0 94344 2 94370 100 0 0 0        * an undead pirate
+M 0 94344 2 94370 100 0 0 0        * an undead pirate
+M 0 94346 1 94370 100 0 0 0        * a massive wight barkeep
+M 0 94347 1 94370 100 0 0 0        * a vampire patron
+E 1 94317 1 5 100 0 0 0            *   some blood-splattered fur robes
+M 0 94348 1 94371 100 0 0 0        * an undead shopkeeper
+G 1 94315 1 0 100 0 0 0            *    a torso vestment smeared with blood
+G 1 94318 1 0 100 0 0 0            *    sleeves smeared with blood
+G 1 94319 1 0 100 0 0 0            *    leggings smeared with blood
+G 1 94320 1 0 100 0 0 0            *    a bone crossbow
+G 1 94321 1 0 100 0 0 0            *    an old leather quiver
+G 1 94323 1 0 100 0 0 0            *    a bone crossbow bolt
+G 1 94324 1 0 100 0 0 0            *    a quiver smeared with blood
+G 1 94322 1 0 100 0 0 0            *    a rock tipped bone crossbow bolt
+G 1 94325 999 0 100 0 0 0          *    an ogre-bone djembe
+G 1 94326 999 0 100 0 0 0          *    a drow-bone flute
+G 1 94327 999 0 100 0 0 0          *    a flesh-bound bone harp
+G 1 94330 999 0 100 0 0 0          *    a locathah-bone mandolin
+G 1 94331 999 0 100 0 0 0          *    an elven-bone songhorn
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 94427 5 94381 100 0 0 0        * a pale ghoul
+M 0 94423 2 94382 100 0 0 0        * an large undead roper
+M 0 94425 4 94382 100 0 0 0        * a moaning zombie
+M 0 94434 4 94383 100 0 0 0        * a huge grey cave wyrm
+M 0 94361 4 94384 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94384 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94362 1 94384 100 0 0 0        * an elite wight guardian
+M 0 94434 4 94387 100 0 0 0        * a huge grey cave wyrm
+M 0 94426 4 94388 100 0 0 0        * a groaning zombie
+M 0 94434 4 94388 100 0 0 0        * a huge grey cave wyrm
+M 0 94425 4 94389 100 0 0 0        * a moaning zombie
+M 0 94425 4 94394 100 0 0 0        * a moaning zombie
+M 0 94426 4 94394 100 0 0 0        * a groaning zombie
+M 0 94370 3 94395 100 0 0 0        * a skeletal herder
+M 0 94371 3 94395 100 0 0 0        * a captured undead behemoth
+M 0 94425 4 94396 100 0 0 0        * a moaning zombie
+M 0 94437 5 94396 100 0 0 0        * a large grey cave wyrm
+M 0 94434 4 94396 100 0 0 0        * a huge grey cave wyrm
+M 0 94424 3 94399 100 0 0 0        * an undead roper
+M 0 94375 1 94400 100 0 0 0        * the shade of a nereid
+M 0 94423 2 94401 100 0 0 0        * an large undead roper
+M 0 94427 5 94401 100 0 0 0        * a pale ghoul
+M 0 94370 3 94408 100 0 0 0        * a skeletal herder
+M 0 94371 3 94408 100 0 0 0        * a captured undead behemoth
+M 0 94424 3 94410 100 0 0 0        * an undead roper
+M 0 94427 5 94415 100 0 0 0        * a pale ghoul
+M 0 94367 1 94417 100 0 0 0        * a devious shade
+E 1 94346 1 15 100 0 0 0           *   a band of pure negative energy
+F 1 94369 1 94417 100 0 0 0        * a shadowbeast mercenary (following)
+M 0 94373 1 94417 100 0 0 0        * a fat halfling slave
+M 0 94374 1 94417 100 0 0 0        * a young halfling slave
+M 0 94424 3 94418 100 0 0 0        * an undead roper
+M 0 94349 1 94420 100 0 0 0        * a gargoyle lookout
+M 0 94350 1 94423 100 0 0 0        * a gargoyle frost magus
+M 0 94352 1 94423 100 0 0 0        * a gargoyle windtalker
+M 0 94353 1 94423 100 0 0 0        * the enormous pyrobeast
+E 1 94337 1 3 20 0 0 0             *   a collar of the pyrobeast
+M 0 94351 3 94424 100 0 0 0        * a cannibilistic spider
+M 0 94351 3 94424 100 0 0 0        * a cannibilistic spider
+M 0 94351 3 94424 100 0 0 0        * a cannibilistic spider
+M 0 94355 2 94425 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94425 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94380 3 94426 100 0 0 0        * an undead herder
+M 0 94359 5 94427 100 0 0 0        * a bone golem
+M 0 94380 3 94429 100 0 0 0        * an undead herder
+M 0 94360 1 94430 100 0 0 0        * a lich warlock
+E 1 94339 1 16 100 0 0 0           *   a black staff headed with a goat skull
+M 0 94359 5 94433 100 0 0 0        * a bone golem
+M 0 94380 3 94434 100 0 0 0        * an undead herder
+M 0 94355 2 94435 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94435 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94358 32 94436 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94436 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94436 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94436 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94437 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94437 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94437 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94437 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94438 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94438 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94438 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94438 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94439 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94439 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94439 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94439 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94440 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94440 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94440 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94440 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94441 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94441 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94441 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94441 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94442 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94442 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94442 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94442 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94443 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94443 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94443 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94443 100 0 0 0       * a fearsome undead behemoth
+M 0 94356 1 94444 100 0 0 0        * Viscerith
+G 1 94338 1 0 100 0 0 0            *    a jagged nightstone ring
+G 1 94340 1 0 30 0 0 0             *    the tainted soul of Viscerith
+M 0 94358 32 94445 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94445 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94445 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94445 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94446 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94446 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94446 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94446 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94447 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94447 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94447 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94447 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94448 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94448 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94448 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94448 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94449 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94449 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94449 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94449 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94450 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94450 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94450 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94450 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94451 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94451 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94451 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94451 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94452 100 0 0 0       * a fearsome undead behemoth
+M 0 94357 36 94452 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94452 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94452 100 0 0 0       * a ferocious undead behemoth
+M 0 94358 32 94453 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94453 100 0 0 0       * a fearsome undead behemoth
+M 0 94358 32 94453 100 0 0 0       * a ferocious undead behemoth
+M 0 94357 36 94453 100 0 0 0       * a fearsome undead behemoth
+M 0 94370 3 94454 100 0 0 0        * a skeletal herder
+F 1 94371 3 94454 100 0 0 0        * a captured undead behemoth (following)
+M 0 94426 4 94454 100 0 0 0        * a groaning zombie
+M 0 94427 5 94454 100 0 0 0        * a pale ghoul
+M 0 94426 4 94454 100 0 0 0        * a groaning zombie
+M 0 94427 5 94456 100 0 0 0        * a pale ghoul
+M 0 94364 1 94457 100 0 0 0        * Archahzel
+E 1 94350 1 12 100 0 0 0           *   a villainous black cape
+E 1 94343 1 16 100 0 0 0           *   a huge bone broadsword
+F 1 94365 4 94457 100 0 0 0        * a minion of Archahzel (following)
+F 1 94365 4 94457 100 0 0 0        * a minion of Archahzel (following)
+F 1 94365 4 94457 100 0 0 0        * a minion of Archahzel (following)
+F 1 94365 4 94457 100 0 0 0        * a minion of Archahzel (following)
+M 0 94366 2 94477 100 0 0 0        * a twin phantom farseer
+G 1 94344 1 0 100 0 0 0            *    the left half of an evil mind
+M 0 94366 2 94480 100 0 0 0        * a twin phantom farseer
+G 1 94345 1 0 100 0 0 0            *    the right half of an evil mind
+M 0 94435 3 94482 100 0 0 0        * a feeding behemoth
+M 0 94420 4 94483 100 0 0 0        * a repulsive grell
+M 0 94419 7 94484 100 0 0 0        * a hulking behemoth
+M 0 94435 3 94486 100 0 0 0        * a feeding behemoth
+M 0 94420 4 94487 100 0 0 0        * a repulsive grell
+M 0 94419 7 94489 100 0 0 0        * a hulking behemoth
+M 0 94421 3 94493 100 0 0 0        * a wild and vicious hellbeast
+M 0 94422 1 94494 100 0 0 0        * a pale-eyed bound human slave
+M 0 94419 7 94496 100 0 0 0        * a hulking behemoth
+M 0 94419 7 94498 100 0 0 0        * a hulking behemoth
+M 0 94420 4 94498 100 0 0 0        * a repulsive grell
+M 0 94435 3 94498 100 0 0 0        * a feeding behemoth
+M 0 94419 7 94499 100 0 0 0        * a hulking behemoth
+M 0 94421 3 94499 100 0 0 0        * a wild and vicious hellbeast
+M 0 94421 3 94502 100 0 0 0        * a wild and vicious hellbeast
+M 0 94419 7 94503 100 0 0 0        * a hulking behemoth
+M 0 94419 7 94508 100 0 0 0        * a hulking behemoth
+M 0 94420 4 94510 100 0 0 0        * a repulsive grell
+M 0 94376 1 94512 100 0 0 0        * Drakasyth
+M 0 94372 1 94520 100 0 0 0        * the phantom reaver keymaster
+E 1 94349 1 12 100 0 0 0           *   an arcane mage's cloak
+E 1 94348 1 18 100 0 0 0           *   the negative energy key to the spires
+M 0 94361 4 94524 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94524 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94394 2 94528 100 0 0 0        * an undead cell block guard
+E 1 94353 30 18 100 0 0 0          *   a steel cell key
+M 0 94359 5 94528 100 0 0 0        * a bone golem
+M 0 94394 2 94531 100 0 0 0        * an undead cell block guard
+G 1 94353 30 0 100 0 0 0           *    a steel cell key
+M 0 94359 5 94531 100 0 0 0        * a bone golem
+M 0 94387 4 94540 100 0 0 0        * a scared human prisoner
+M 0 94383 2 94541 100 0 0 0        * a weakened harpy prisoner
+M 0 94388 3 94542 100 0 0 0        * a scrawny gnome prisoner
+M 0 94385 2 94543 100 0 0 0        * a beaten goblin prisoner
+M 0 94384 2 94544 100 0 0 0        * a sahaugin prisoner
+M 0 94386 3 94545 100 0 0 0        * a bloody ogre prisoner
+M 0 94384 2 94546 100 0 0 0        * a sahaugin prisoner
+M 0 94382 3 94547 100 0 0 0        * a terrified thri-kreen prisoner
+M 0 94388 3 94548 100 0 0 0        * a scrawny gnome prisoner
+M 0 94387 4 94549 100 0 0 0        * a scared human prisoner
+M 0 94383 2 94550 100 0 0 0        * a weakened harpy prisoner
+M 0 94382 3 94551 100 0 0 0        * a terrified thri-kreen prisoner
+M 0 94388 3 94552 100 0 0 0        * a scrawny gnome prisoner
+M 0 94387 4 94553 100 0 0 0        * a scared human prisoner
+M 0 94389 1 94554 100 0 0 0        * a cloud giant prisoner
+E 1 94358 1 13 100 0 0 0           *   a bloody loincloth of giants
+M 0 94382 3 94555 100 0 0 0        * a terrified thri-kreen prisoner
+M 0 94386 3 94556 100 0 0 0        * a bloody ogre prisoner
+M 0 94386 3 94557 100 0 0 0        * a bloody ogre prisoner
+M 0 94385 2 94558 100 0 0 0        * a beaten goblin prisoner
+M 0 94387 4 94559 100 0 0 0        * a scared human prisoner
+M 0 94391 1 94562 100 0 0 0        * a huge wight taskmaster
+E 1 94355 1 5 100 0 0 0            *   a full suit of spiked bone platemail
+E 1 94356 1 16 100 0 0 0           *   a huge brutal black axe
+M 0 94390 1 94562 100 0 0 0        * a panicked dwarf prisoner
+M 0 94393 1 94563 100 0 0 0        * Carnivos, the warlock slave maker
+E 1 94357 1 9 100 0 0 0            *   the inquitous gloves of submission
+M 0 94392 1 94563 100 0 0 0        * a shackled kenku
+M 0 94381 2 94565 100 0 0 0        * a behemoth rider enforcer
+R 1 94302 17 94565 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94395 4 94570 100 0 0 0        * a pale-eyed minotaur slave
+M 0 94395 4 94570 100 0 0 0        * a pale-eyed minotaur slave
+M 0 94395 4 94570 100 0 0 0        * a pale-eyed minotaur slave
+M 0 94397 4 94576 100 0 0 0        * a pale-eyed human slave
+M 0 94397 4 94576 100 0 0 0        * a pale-eyed human slave
+M 0 94397 4 94576 100 0 0 0        * a pale-eyed human slave
+M 0 94395 4 94577 100 0 0 0        * a pale-eyed minotaur slave
+M 0 94396 4 94577 100 0 0 0        * a pale-eyed wild elf slave
+M 0 94397 4 94577 100 0 0 0        * a pale-eyed human slave
+M 0 94398 4 94577 100 0 0 0        * a pale-eyed duergar slave
+M 0 94399 4 94577 100 0 0 0        * a pale-eyed orc slave
+M 0 94400 1 94577 100 0 0 0        * a thirsty pale-eyed half-elf slave
+M 0 94398 4 94578 100 0 0 0        * a pale-eyed duergar slave
+M 0 94398 4 94578 100 0 0 0        * a pale-eyed duergar slave
+M 0 94398 4 94578 100 0 0 0        * a pale-eyed duergar slave
+M 0 94399 4 94580 100 0 0 0        * a pale-eyed orc slave
+M 0 94399 4 94580 100 0 0 0        * a pale-eyed orc slave
+M 0 94399 4 94580 100 0 0 0        * a pale-eyed orc slave
+M 0 94381 2 94583 100 0 0 0        * a behemoth rider enforcer
+R 1 94302 17 94583 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94396 4 94584 100 0 0 0        * a pale-eyed wild elf slave
+M 0 94396 4 94584 100 0 0 0        * a pale-eyed wild elf slave
+M 0 94396 4 94584 100 0 0 0        * a pale-eyed wild elf slave
+M 0 94361 4 94585 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94585 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94361 4 94586 100 0 0 0        * a behemoth rider watcher
+R 1 94302 17 94586 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94407 1 94587 100 0 0 0        * a sinister death knight
+E 1 94363 1 11 100 0 0 0           *   a huge bone-spiked dematite war shield
+G 1 94362 1 0 100 0 0 0            *    a long dematite lance
+F 1 94408 1 94587 100 0 0 0        * a winged hellhound (following)
+F 1 94409 1 94587 100 0 0 0        * a cloaked squire (following)
+M 0 94410 8 94588 100 0 0 0        * a bloodthirsty viewer
+M 0 94410 8 94588 100 0 0 0        * a bloodthirsty viewer
+M 0 94410 8 94590 100 0 0 0        * a bloodthirsty viewer
+M 0 94410 8 94590 100 0 0 0        * a bloodthirsty viewer
+M 0 94401 1 94591 100 0 0 0        * a huge ogre slave fighter
+M 0 94402 1 94591 100 0 0 0        * a barbarian slave fighter
+M 0 94410 8 94592 100 0 0 0        * a bloodthirsty viewer
+M 0 94410 8 94592 100 0 0 0        * a bloodthirsty viewer
+M 0 94405 1 94593 100 0 0 0        * a lich air magus
+E 1 94361 1 8 100 0 0 0            *   some ghastly boots of wind and energy
+F 1 94406 1 94593 100 0 0 0        * a vaporous sylph servant (following)
+M 0 94410 8 94594 100 0 0 0        * a bloodthirsty viewer
+M 0 94410 8 94594 100 0 0 0        * a bloodthirsty viewer
+M 0 94403 1 94595 100 0 0 0        * a flaming skeleton highlord
+E 1 94360 1 16 100 0 0 0           *   a mystical axe of undead flame
+M 0 94404 2 94595 100 0 0 0        * a flaming skeleton warrior
+M 0 94404 2 94595 100 0 0 0        * a flaming skeleton warrior
+M 0 94359 5 94597 100 0 0 0        * a bone golem
+M 0 94411 1 94597 100 0 0 0        * a guardian hellbeast
+E 1 94364 1 3 100 0 0 0            *   a metal key hanging from a black collar
+M 0 94412 1 94598 100 0 0 0        * Persevesk
+E 1 94365 1 16 100 0 0 0           *   a large runed flail
+E 1 94366 1 18 100 0 0 0           *   a beaten grey elf infant
+M 0 94413 1 94598 100 0 0 0        * a bound and gagged grey elf prisoner
+M 0 94414 1 94599 100 0 0 0        * a zombie slave tosser
+E 1 94367 1 15 100 0 0 0           *   a length of zombie flesh
+E 1 94368 1 16 100 0 0 0           *   a huge bloody bone
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94416 7 94603 100 0 0 0        * a filthy undead rat
+M 0 94415 5 94603 100 0 0 0        * a plague rat
+M 0 94415 5 94603 100 0 0 0        * a plague rat
+M 0 94415 5 94603 100 0 0 0        * a plague rat
+M 0 94415 5 94603 100 0 0 0        * a plague rat
+M 0 94415 5 94603 100 0 0 0        * a plague rat
+M 0 94417 1 94604 100 0 0 0        * a massive pit fiend
+E 1 94372 1 9 100 0 0 0            *   the clawed hands of the pit fiend
+M 0 94428 4 94605 100 0 0 0        * an undead behemoth herder
+M 0 94428 4 94605 100 0 0 0        * an undead behemoth herder
+M 0 94428 4 94606 100 0 0 0        * an undead behemoth herder
+M 0 94428 4 94606 100 0 0 0        * an undead behemoth herder
+M 0 94429 1 94607 100 0 0 0        * a tall vampire warlock
+M 0 94430 1 94607 100 0 0 0        * a revenant bodyguard
+F 1 94379 2 94607 100 0 0 0        * a revenant's war pig (following)
+E 1 94352 1 3 100 0 0 0            *   a spiked choker of a war pig
+M 0 94432 3 94608 100 0 0 0        * a huge diorite golem
+M 0 94432 3 94608 100 0 0 0        * a huge diorite golem
+M 0 94432 3 94608 100 0 0 0        * a huge diorite golem
+M 0 94433 1 94608 100 0 0 0        * a black diorite serpent
+G 1 94377 1 0 100 0 0 0            *    an enchanted diorite key
+G 1 94378 1 0 100 0 0 0            *    some scales of diorite
+M 0 94436 1 94612 100 0 0 0        * an ancient two-headed black dragon
+G 1 94385 1 0 100 0 0 0            *    a foreign lifeforce
+G 1 94387 1 0 100 0 0 0            *    the mask of draconic deviance
+M 0 94440 1 94613 100 0 0 0        * the vampire of Scarb Torntooth
+M 0 94439 6 94613 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94613 100 0 0 0       * an undead behemoth (being ridden)
+F 1 94302 17 94613 100 0 0 0       * an undead behemoth (following)
+M 0 94441 1 94615 100 0 0 0        * an imprisoned gnome stone carver
+M 0 94439 6 94618 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94618 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94439 6 94618 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94618 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94439 6 94618 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94618 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94442 2 94621 100 0 0 0        * A vampiric diorite golem
+G 1 94390 2 0 100 0 0 0            *    a diorite stronghold key
+M 0 94443 5 94622 100 0 0 0        * an undead beholder
+G 1 94392 5 0 100 0 0 0            *    an undead beholder central eye
+M 0 94442 2 94623 100 0 0 0        * A vampiric diorite golem
+G 1 94390 2 0 100 0 0 0            *    a diorite stronghold key
+M 0 94443 5 94630 100 0 0 0        * an undead beholder
+G 1 94392 5 0 100 0 0 0            *    an undead beholder central eye
+M 0 94418 4 94630 100 0 0 0        * a phasing spectre
+E 1 94394 8 16 100 0 0 0           *   a spectral dagger
+E 1 94394 8 17 100 0 0 0           *   a spectral dagger
+M 0 94439 6 94631 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94631 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94443 5 94633 100 0 0 0        * an undead beholder
+G 1 94392 5 0 100 0 0 0            *    an undead beholder central eye
+M 0 94418 4 94633 100 0 0 0        * a phasing spectre
+E 1 94394 8 16 100 0 0 0           *   a spectral dagger
+E 1 94394 8 17 100 0 0 0           *   a spectral dagger
+M 0 94439 6 94634 100 0 0 0        * an elite undead behemoth rider
+R 1 94302 17 94634 100 0 0 0       * an undead behemoth (being ridden)
+M 0 94443 5 94637 100 0 0 0        * an undead beholder
+G 1 94392 5 0 100 0 0 0            *    an undead beholder central eye
+M 0 94418 4 94637 100 0 0 0        * a phasing spectre
+E 1 94394 8 16 100 0 0 0           *   a spectral dagger
+E 1 94394 8 17 100 0 0 0           *   a spectral dagger
+M 0 94443 5 94640 100 0 0 0        * an undead beholder
+G 1 94392 5 0 100 0 0 0            *    an undead beholder central eye
+M 0 94418 4 94640 100 0 0 0        * a phasing spectre
+E 1 94394 8 16 100 0 0 0           *   a spectral dagger
+E 1 94394 8 17 100 0 0 0           *   a spectral dagger
+M 0 94444 1 94643 100 0 0 0        * a hulking bone dracolich
+G 1 94396 1 0 100 0 0 0            *    some cracked bone arm bracers
+*
+S

@@ -1,0 +1,134 @@
+#16
+Truktakyagyo~
+1655 2 0 35 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 1608 0 1 100 0 0 0
+*     north exit from "Gateway" to
+*     "Gateway" - closed
+*
+D 0 1609 2 1 100 0 0 0
+*     south exit from "Gateway" to
+*     "Gateway" - closed
+*
+D 0 1647 3 1 100 0 0 0
+*     west exit from "Entrance to a Small Enclosure" to
+*     "Rothe Enclosure" - closed
+*
+D 0 1648 1 1 100 0 0 0
+*     east exit from "Rothe Enclosure" to
+*     "Entrance to a Small Enclosure" - closed
+*
+D 0 1650 3 1 100 0 0 0
+*     west exit from "Rothe Enclosure" to
+*     "Rothe Pen" - closed
+*
+D 0 1653 1 1 100 0 0 0
+*     east exit from "Rothe Pen" to
+*     "Rothe Enclosure" - closed
+*
+D 0 1651 3 1 100 0 0 0
+*     west exit from "Rothe Enclosure" to
+*     "Rothe Pen" - closed
+*
+D 0 1652 1 1 100 0 0 0
+*     east exit from "Rothe Pen" to
+*     "Rothe Enclosure" - closed
+*
+*
+O 0 1606 7 1649 100 0 0 0          * some rothe dung
+O 0 1607 5 1650 100 0 0 0          * some putrid fungi
+O 0 1606 7 1650 100 0 0 0          * some rothe dung
+O 0 1607 5 1650 100 0 0 0          * some putrid fungi
+O 0 1606 7 1652 100 0 0 0          * some rothe dung
+O 0 1606 7 1652 100 0 0 0          * some rothe dung
+O 0 1606 7 1653 100 0 0 0          * some rothe dung
+O 0 1606 7 1653 100 0 0 0          * some rothe dung
+O 0 1607 5 1653 100 0 0 0          * some putrid fungi
+O 0 1607 5 1653 100 0 0 0          * some putrid fungi
+O 0 1607 5 1653 100 0 0 0          * some putrid fungi
+*
+M 0 1602 2 1604 100 0 0 0          * a goblin sentry
+M 0 1602 2 1605 100 0 0 0          * a goblin sentry
+E 1 1602 1 8 100 0 0 0             *   a pair of light rothe-hide boots
+M 0 1600 4 1608 100 0 0 0          * a large goblin guard
+E 1 1600 2 16 100 0 0 0            *   a long wooden spear
+M 0 1600 4 1608 100 0 0 0          * a large goblin guard
+M 0 1600 4 1609 100 0 0 0          * a large goblin guard
+M 0 1600 4 1609 100 0 0 0          * a large goblin guard
+E 1 1600 2 16 100 0 0 0            *   a long wooden spear
+M 0 1614 8 1611 100 0 0 0          * a large guard
+M 0 1614 8 1611 100 0 0 0          * a large guard
+M 0 1606 8 1612 100 0 0 0          * a common goblin female
+M 0 1606 8 1612 100 0 0 0          * a common goblin female
+M 0 1613 4 1614 100 0 0 0          * a busy goblin male
+M 0 1606 8 1616 100 0 0 0          * a common goblin female
+M 0 1607 5 1617 100 0 0 0          * a small goblin child
+M 0 1608 4 1617 100 0 0 0          * a small goblin child
+M 0 1613 4 1617 100 0 0 0          * a busy goblin male
+M 0 1615 2 1617 100 0 0 0          * an elite goblin guard
+E 1 1605 2 16 100 0 0 0            *   a short sword
+M 0 1615 2 1617 100 0 0 0          * an elite goblin guard
+E 1 1605 2 16 100 0 0 0            *   a short sword
+M 0 1616 3 1617 100 0 0 0          * a small patrolling guard
+M 0 1606 8 1617 100 0 0 0          * a common goblin female
+M 0 1614 8 1617 100 0 0 0          * a large guard
+M 0 1606 8 1619 100 0 0 0          * a common goblin female
+M 0 1607 5 1620 100 0 0 0          * a small goblin child
+M 0 1614 8 1620 100 0 0 0          * a large guard
+M 0 1613 4 1620 100 0 0 0          * a busy goblin male
+M 0 1601 1 1622 100 0 0 0          * a massive goblin gate guard
+E 1 1601 1 16 100 0 0 0            *   a massive great axe
+G 1 1609 1 0 100 0 0 0             *    a bright red key
+M 0 1606 8 1624 100 0 0 0          * a common goblin female
+M 0 1607 5 1624 100 0 0 0          * a small goblin child
+M 0 1608 4 1624 100 0 0 0          * a small goblin child
+M 0 1616 3 1625 100 0 0 0          * a small patrolling guard
+M 0 1613 4 1627 100 0 0 0          * a busy goblin male
+M 0 1614 8 1628 100 0 0 0          * a large guard
+M 0 1614 8 1628 100 0 0 0          * a large guard
+M 0 1606 8 1631 100 0 0 0          * a common goblin female
+M 0 1607 5 1633 100 0 0 0          * a small goblin child
+M 0 1614 8 1634 100 0 0 0          * a large guard
+M 0 1614 8 1634 100 0 0 0          * a large guard
+M 0 1608 4 1639 100 0 0 0          * a small goblin child
+M 0 1607 5 1640 100 0 0 0          * a small goblin child
+M 0 1608 4 1640 100 0 0 0          * a small goblin child
+M 0 1606 8 1640 100 0 0 0          * a common goblin female
+M 0 1616 3 1641 100 0 0 0          * a small patrolling guard
+M 0 1604 3 1646 100 0 0 0          * a drunk goblin
+M 0 1604 3 1646 100 0 0 0          * a drunk goblin
+M 0 1604 3 1646 100 0 0 0          * a drunk goblin
+M 0 1603 1 1646 100 0 0 0          * a brutish goblin bartender
+E 1 1603 1 19 100 0 0 0            *   a dirty eyepatch
+M 0 1605 3 1646 100 0 0 0          * a goblin patron
+G 1 1604 2 0 100 0 0 0             *    a stone mug
+M 0 1605 3 1646 100 0 0 0          * a goblin patron
+M 0 1605 3 1646 100 0 0 0          * a goblin patron
+G 1 1604 2 0 100 0 0 0             *    a stone mug
+M 0 1610 7 1648 100 0 0 0          * a female rothe
+M 0 1610 7 1648 100 0 0 0          * a female rothe
+M 0 1610 7 1648 100 0 0 0          * a female rothe
+M 0 1609 5 1649 100 0 0 0          * a large male rothe
+M 0 1609 5 1649 100 0 0 0          * a large male rothe
+M 0 1611 5 1649 100 0 0 0          * a young rothe
+M 0 1611 5 1649 100 0 0 0          * a young rothe
+M 0 1609 5 1650 100 0 0 0          * a large male rothe
+M 0 1610 7 1650 100 0 0 0          * a female rothe
+M 0 1611 5 1651 100 0 0 0          * a young rothe
+M 0 1611 5 1651 100 0 0 0          * a young rothe
+M 0 1612 2 1651 100 0 0 0          * a working goblin
+M 0 1609 5 1652 100 0 0 0          * a large male rothe
+M 0 1611 5 1652 100 0 0 0          * a young rothe
+M 0 1612 2 1652 100 0 0 0          * a working goblin
+E 1 1606 7 18 100 0 0 0            *   some rothe dung
+M 0 1609 5 1653 100 0 0 0          * a large male rothe
+M 0 1610 7 1653 100 0 0 0          * a female rothe
+M 0 1610 7 1653 100 0 0 0          * a female rothe
+M 0 1610 7 1653 100 0 0 0          * a female rothe
+M 0 1617 1 1654 100 0 0 0          * the goblin weaponsmaster
+E 1 1608 1 16 100 0 0 0            *   a vicious looking scimitar
+*
+S

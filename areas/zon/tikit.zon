@@ -1,0 +1,490 @@
+#437
+&+gLost City of &+GTikitzopl&n~
+44039 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 43701 0 1 100 0 0 0
+*     north exit from "The Archway" to
+*     "City Entrance" - closed
+*
+D 0 43702 2 1 100 0 0 0
+*     south exit from "City Entrance" to
+*     "The Archway" - closed
+*
+D 0 43703 2 6 100 0 0 0
+*     south exit from "A Well-Traveled Street" to
+*     "The Snake Pit" - closed/locked/secret
+*
+D 0 43704 0 2 100 0 0 0
+*     north exit from "The Snake Pit" to
+*     "A Well-Traveled Street" - closed/locked
+*
+D 0 43705 0 1 100 0 0 0
+*     north exit from "A well-traveled street" to
+*     "Entrance To The Inn" - closed
+*
+D 0 43706 2 1 100 0 0 0
+*     south exit from "Entrance To The Inn" to
+*     "A well-traveled street" - closed
+*
+D 0 43717 0 1 100 0 0 0
+*     north exit from "A well-traveled street" to
+*     "The Jeweler's Shop" - closed
+*
+D 0 43718 2 1 100 0 0 0
+*     south exit from "The Jeweler's Shop" to
+*     "A well-traveled street" - closed
+*
+D 0 43720 0 1 100 0 0 0
+*     north exit from "The Jeweler's Shop" to
+*     "A heavily-traveled street" - closed
+*
+D 0 43729 2 1 100 0 0 0
+*     south exit from "A heavily-traveled street" to
+*     "The Jeweler's Shop" - closed
+*
+D 0 43723 0 2 100 0 0 0
+*     north exit from "A well-traveled street" to
+*     "A Small Dwelling" - closed/locked
+*
+D 0 43724 2 2 100 0 0 0
+*     south exit from "A Small Dwelling" to
+*     "A well-traveled street" - closed/locked
+*
+D 0 43732 2 1 100 0 0 0
+*     south exit from "A heavily-traveled street" to
+*     "Entrance To A Bar" - closed
+*
+D 0 43737 0 1 100 0 0 0
+*     north exit from "Entrance To A Bar" to
+*     "A heavily-traveled street" - closed
+*
+D 0 43734 2 1 100 0 0 0
+*     south exit from "A heavily-traveled street" to
+*     "Ahmeni's Bar" - closed
+*
+D 0 43735 0 1 100 0 0 0
+*     north exit from "Ahmeni's Bar" to
+*     "A heavily-traveled street" - closed
+*
+D 0 43746 0 6 100 0 0 0
+*     north exit from "The Armoury" to
+*     " A store room" - closed/locked/secret
+*
+D 0 43747 2 2 100 0 0 0
+*     south exit from " A store room" to
+*     "The Armoury" - closed/locked
+*
+D 0 43750 2 6 100 0 0 0
+*     south exit from "The Forging Room" to
+*     "The Weaponry Storeroom" - closed/locked/secret
+*
+D 0 43757 0 2 100 0 0 0
+*     north exit from "The Weaponry Storeroom" to
+*     "The Forging Room" - closed/locked
+*
+D 0 43800 3 5 100 0 0 0
+*     west exit from "A Dark Path Along The River" to
+*     "A small opening in the forest" - closed/secret
+*
+D 0 43818 1 1 100 0 0 0
+*     east exit from "A small opening in the forest" to
+*     "A Dark Path Along The River" - closed
+*
+D 0 43810 3 1 100 0 0 0
+*     west exit from "A lesser-traveled street" to
+*     "The western entrance" - closed
+*
+D 0 43812 1 1 100 0 0 0
+*     east exit from "The western entrance" to
+*     "A lesser-traveled street" - closed
+*
+D 0 43903 0 5 100 0 0 0
+*     north exit from "A dark forest path" to
+*     "An ancient forest" - closed/secret
+*
+D 0 43951 2 5 100 0 0 0
+*     south exit from "An ancient forest" to
+*     "A dark forest path" - closed/secret
+*
+D 0 43926 2 5 100 0 0 0
+*     south exit from "A dark forest path" to
+*     "An ancient forest" - closed/secret
+*
+D 0 44019 0 5 100 0 0 0
+*     north exit from "An ancient forest" to
+*     "A dark forest path" - closed/secret
+*
+D 0 44038 3 2 100 0 0 0
+*     west exit from "A temple entrance" to
+*     "Temple Entrance" - closed/locked
+*
+D 0 44039 1 2 100 0 0 0
+*     east exit from "Temple Entrance" to
+*     "A temple entrance" - closed/locked
+*
+*
+O 0 43754 1 43704 100 0 0 0        * a small key of leaves
+O 0 43727 1 43719 100 0 0 0        * a work bench
+P 1 43728 1 43727 100 0 0 0        *   an iron key
+O 0 43741 1 43724 100 0 0 0        * a bed
+P 1 43729 1 43741 100 0 0 0        *   the eyepiece of Kohlinar
+O 0 43744 1 43742 100 0 0 0        * a deep well
+O 0 43704 1 43747 100 0 0 0        * a robe of the forest magi
+O 0 43706 1 43757 100 0 0 0        * a bright silver sword
+*
+M 0 43731 4 43701 100 0 0 0        * a huge stone golem
+M 0 43731 4 43701 100 0 0 0        * a huge stone golem
+M 0 43702 25 43702 100 0 0 0       * a large apeman
+M 0 43729 20 43702 100 0 0 0       * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43733 7 43704 100 0 0 0        * a silver serpent
+M 0 43733 7 43704 100 0 0 0        * a silver serpent
+M 0 43733 7 43704 100 0 0 0        * a silver serpent
+M 0 43702 25 43705 100 0 0 0       * a large apeman
+M 0 43729 20 43705 100 0 0 0       * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43711 1 43707 100 0 0 0        * Kherinan, the Innkeeper
+E 1 43730 1 21 100 0 0 0           *   a snakes eye earring
+M 0 43712 1 43709 100 0 0 0        * Ahmeni, the Barkeep
+E 1 43731 1 6 100 0 0 0            *   a snakeskin helm
+M 0 43713 10 43709 100 0 0 0       * a drunken apeman
+M 0 43713 10 43709 100 0 0 0       * a drunken apeman
+M 0 43713 10 43709 100 0 0 0       * a drunken apeman
+M 0 43714 6 43709 100 0 0 0        * a drunken apewoman
+M 0 43714 6 43709 100 0 0 0        * a drunken apewoman
+M 0 43730 8 43711 100 0 0 0        * an apeman merchant
+E 1 43708 2 16 100 0 0 0           *   a small mithril shortsword
+M 0 43710 8 43712 100 0 0 0        * an apeman worshipper
+E 1 43703 1 3 100 0 0 0            *   a sapphire necklace
+M 0 43710 8 43712 100 0 0 0        * an apeman worshipper
+M 0 43766 1 43712 100 0 0 0        * an apeman worshipper
+M 0 43762 3 43713 100 0 0 0        * a small spider
+M 0 43762 3 43713 100 0 0 0        * a small spider
+M 0 43762 3 43713 100 0 0 0        * a small spider
+M 0 43702 25 43714 100 0 0 0       * a large apeman
+M 0 43729 20 43717 100 0 0 0       * a Tikitzopl guardsman
+M 0 43706 1 43719 100 0 0 0        * Kohlinar, the jeweler
+F 1 43707 1 43719 100 0 0 0        * a bodyguard of Kohlinar (following)
+G 1 43726 1 0 100 0 0 0            *    a small yellow key
+F 1 43708 1 43719 100 0 0 0        * a bodyguard of Kohlinar (following)
+F 1 43709 1 43719 100 0 0 0        * a bodyguard of Kohlinar (following)
+M 0 43761 4 43722 100 0 0 0        * a large apeman
+M 0 43760 2 43725 100 0 0 0        * a large apeman
+M 0 43702 25 43727 100 0 0 0       * a large apeman
+M 0 43730 8 43729 100 0 0 0        * an apeman merchant
+M 0 43702 25 43734 100 0 0 0       * a large apeman
+M 0 43713 10 43735 100 0 0 0       * a drunken apeman
+M 0 43713 10 43735 100 0 0 0       * a drunken apeman
+M 0 43714 6 43735 100 0 0 0        * a drunken apewoman
+M 0 43713 10 43736 100 0 0 0       * a drunken apeman
+M 0 43713 10 43736 100 0 0 0       * a drunken apeman
+M 0 43713 10 43736 100 0 0 0       * a drunken apeman
+M 0 43714 6 43736 100 0 0 0        * a drunken apewoman
+M 0 43713 10 43737 100 0 0 0       * a drunken apeman
+M 0 43713 10 43737 100 0 0 0       * a drunken apeman
+M 0 43714 6 43737 100 0 0 0        * a drunken apewoman
+M 0 43702 25 43741 100 0 0 0       * a large apeman
+M 0 43729 20 43742 100 0 0 0       * a Tikitzopl guardsman
+M 0 43700 1 43746 100 0 0 0        * Ixantl
+F 1 43749 4 43746 100 0 0 0        * a Tikitzopl guardsman (following)
+G 1 43712 1 0 100 0 0 0            *    a ruby red key
+M 0 43701 2 43747 100 0 0 0        * a guardian apeman
+E 1 43705 1 2 100 0 0 0            *   a ring of human flesh
+E 1 43700 2 16 100 0 0 0           *   a huge black claymore
+M 0 43703 1 43749 100 0 0 0        * Enixaptl, the weaponsmith
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+F 1 43749 4 43749 100 0 0 0        * a Tikitzopl guardsman (following)
+G 1 43713 1 0 100 0 0 0            *    a small red key
+M 0 43728 1 43755 100 0 0 0        * an inSaNe mAgE
+E 1 43718 1 2 100 0 0 0            *   a ring of dwarven flesh
+G 1 43742 999 0 100 0 0 0          *    a scared kitty cat
+M 0 43761 4 43756 100 0 0 0        * a large apeman
+M 0 43701 2 43757 100 0 0 0        * a guardian apeman
+E 1 43707 1 2 100 0 0 0            *   a ring of gnome flesh
+E 1 43700 2 16 100 0 0 0           *   a huge black claymore
+M 0 43702 25 43776 100 0 0 0       * a large apeman
+M 0 43730 8 43791 100 0 0 0        * an apeman merchant
+M 0 43730 8 43793 100 0 0 0        * an apeman merchant
+M 0 43729 20 43794 100 0 0 0       * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43730 8 43794 100 0 0 0        * an apeman merchant
+E 1 43708 2 16 100 0 0 0           *   a small mithril shortsword
+M 0 43704 1 43795 100 0 0 0        * Xanfer, the shopkeeper
+G 1 43748 1 0 100 0 0 0            *    a large stein
+G 1 43749 1 0 100 0 0 0            *    a sapphire-studded sack
+G 1 43750 1 0 100 0 0 0            *    a silvery-blue backpack
+G 1 43751 1 0 100 0 0 0            *    a small lockpick
+M 0 43705 1 43796 100 0 0 0        * Xynapti, the baker
+G 1 43745 999 0 100 0 0 0          *    a yummy hemp cookie
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43745 999 0 100 0 0 0          *    a yummy hemp cookie
+G 1 43745 999 0 100 0 0 0          *    a yummy hemp cookie
+G 1 43745 999 0 100 0 0 0          *    a yummy hemp cookie
+G 1 43745 999 0 100 0 0 0          *    a yummy hemp cookie
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43746 999 0 100 0 0 0          *    a tasty hemp muffin
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+G 1 43747 6 0 100 0 0 0            *    a blueberry pie
+M 0 43710 8 43798 100 0 0 0        * an apeman worshipper
+M 0 43710 8 43798 100 0 0 0        * an apeman worshipper
+E 1 43753 1 3 100 0 0 0            *   a sapphire necklace
+M 0 43764 1 43798 100 0 0 0        * an apeman worshipper
+M 0 43729 20 43804 100 0 0 0       * a Tikitzopl guardsman
+M 0 43702 25 43805 100 0 0 0       * a large apeman
+M 0 43702 25 43806 100 0 0 0       * a large apeman
+M 0 43729 20 43811 100 0 0 0       * a Tikitzopl guardsman
+E 1 43709 3 11 100 0 0 0           *   a shield of the guards
+M 0 43731 4 43812 100 0 0 0        * a huge stone golem
+M 0 43731 4 43812 100 0 0 0        * a huge stone golem
+M 0 43733 7 43814 100 0 0 0        * a silver serpent
+M 0 43770 1 43814 100 0 0 0        * a silver serpent
+M 0 43769 2 43814 100 0 0 0        * a silver serpent
+M 0 43768 2 43814 100 0 0 0        * a silver serpent
+M 0 43733 7 43815 100 0 0 0        * a silver serpent
+M 0 43769 2 43815 100 0 0 0        * a silver serpent
+M 0 43733 7 43816 100 0 0 0        * a silver serpent
+M 0 43733 7 43817 100 0 0 0        * a silver serpent
+M 0 43768 2 43817 100 0 0 0        * a silver serpent
+M 0 43734 1 43818 100 0 0 0        * a large snake
+M 0 43735 4 43818 100 0 0 0        * a small snake
+M 0 43735 4 43818 100 0 0 0        * a small snake
+M 0 43735 4 43818 100 0 0 0        * a small snake
+M 0 43735 4 43818 100 0 0 0        * a small snake
+M 0 43719 1 43820 100 0 0 0        * an apeman noble
+E 1 43710 1 2 100 0 0 0            *   a ring of barbarian flesh
+F 1 43721 5 43820 100 0 0 0        * a lowly servant (following)
+F 1 43721 5 43820 100 0 0 0        * a lowly servant (following)
+M 0 43702 25 43822 100 0 0 0       * a large apeman
+M 0 43729 20 43827 100 0 0 0       * a Tikitzopl guardsman
+M 0 43702 25 43829 100 0 0 0       * a large apeman
+E 1 43702 2 16 100 0 0 0           *   a huge log
+M 0 43729 20 43829 100 0 0 0       * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43729 20 43830 100 0 0 0       * a Tikitzopl guardsman
+M 0 43702 25 43831 100 0 0 0       * a large apeman
+M 0 43716 8 43832 100 0 0 0        * an apeman father
+F 1 43717 8 43832 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43832 100 0 0 0       * an apeman child (following)
+M 0 43736 1 43834 100 0 0 0        * a sneaky rogue
+E 1 43711 2 16 100 0 0 0           *   a jagged dagger
+E 1 43711 2 17 100 0 0 0           *   a jagged dagger
+M 0 43722 1 43835 100 0 0 0        * Auxetix the Magician
+F 1 43749 4 43835 100 0 0 0        * a Tikitzopl guardsman (following)
+E 1 43725 1 5 100 0 0 0            *   a bright red robe
+E 1 43709 3 11 100 0 0 0           *   a shield of the guards
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43710 8 43836 100 0 0 0        * an apeman worshipper
+M 0 43710 8 43836 100 0 0 0        * an apeman worshipper
+E 1 43752 1 3 100 0 0 0            *   a sapphire necklace
+M 0 43765 1 43836 100 0 0 0        * an apeman worshipper
+M 0 43729 20 43838 100 0 0 0       * a Tikitzopl guardsman
+M 0 43740 2 43839 100 0 0 0        * a guardian of the High Council
+M 0 43740 2 43839 100 0 0 0        * a guardian of the High Council
+M 0 43727 4 43840 100 0 0 0        * a guardian of the High Council
+M 0 43727 4 43840 100 0 0 0        * a guardian of the High Council
+M 0 43723 1 43841 100 0 0 0        * Tekifan, of the High Council
+E 1 43724 1 12 100 0 0 0           *   the cloak of the overseer
+F 1 43724 1 43841 100 0 0 0        * Tekinar, of the High Council (following)
+E 1 43719 1 16 100 0 0 0           *   the great sword of the High Council
+F 1 43725 1 43841 100 0 0 0        * Tikiapti, of the High Council (following)
+E 1 43723 1 16 100 0 0 0           *   'Skullsmasher', the spiked hammer
+F 1 43726 1 43841 100 0 0 0        * Tikitani, of the High Council (following)
+E 1 43720 1 16 100 0 0 0           *   'Disemboweler', the dagger of sin
+E 1 43721 1 17 100 0 0 0           *   the flaming dagger of the Council
+F 1 43727 4 43841 100 0 0 0        * a guardian of the High Council (following)
+E 1 43739 1 2 100 0 0 0            *   a ring of orcish flesh
+F 1 43727 4 43841 100 0 0 0        * a guardian of the High Council (following)
+E 1 43722 1 7 100 0 0 0            *   some pitch black leg plates
+M 0 43702 25 43845 100 0 0 0       * a large apeman
+M 0 43702 25 43845 100 0 0 0       * a large apeman
+M 0 43750 1 43849 100 0 0 0        * Kahtkihlr, the Pet Shop owner
+G 1 43742 999 0 100 0 0 0          *    a scared kitty cat
+M 0 43702 25 43852 100 0 0 0       * a large apeman
+M 0 43729 20 43852 100 0 0 0       * a Tikitzopl guardsman
+E 1 43709 3 11 100 0 0 0           *   a shield of the guards
+M 0 43730 8 43853 100 0 0 0        * an apeman merchant
+M 0 43732 1 43856 100 0 0 0        * Graxtl
+M 0 43737 1 43858 100 0 0 0        * an apeman noble
+E 1 43714 1 2 100 0 0 0            *   a ring of halfling flesh
+F 1 43720 3 43858 100 0 0 0        * a lowly servant (following)
+F 1 43721 5 43858 100 0 0 0        * a lowly servant (following)
+M 0 43738 1 43860 100 0 0 0        * an apeman noble
+E 1 43715 1 2 100 0 0 0            *   a ring of elven flesh
+F 1 43720 3 43860 100 0 0 0        * a lowly servant (following)
+F 1 43721 5 43860 100 0 0 0        * a lowly servant (following)
+M 0 43716 8 43862 100 0 0 0        * an apeman father
+F 1 43717 8 43862 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43862 100 0 0 0       * an apeman child (following)
+M 0 43715 1 43864 100 0 0 0        * the BUTCHER
+E 1 43716 1 16 100 0 0 0           *   a bloody cleaver
+F 1 43749 4 43864 100 0 0 0        * a Tikitzopl guardsman (following)
+E 1 43702 2 16 100 0 0 0           *   a huge log
+M 0 43761 4 43870 100 0 0 0        * a large apeman
+M 0 43729 20 43871 100 0 0 0       * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43729 20 43872 100 0 0 0       * a Tikitzopl guardsman
+M 0 43710 8 43874 100 0 0 0        * an apeman worshipper
+M 0 43710 8 43874 100 0 0 0        * an apeman worshipper
+M 0 43767 1 43874 100 0 0 0        * an apeman worshipper
+M 0 43716 8 43875 100 0 0 0        * an apeman father
+F 1 43717 8 43875 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43875 100 0 0 0       * an apeman child (following)
+F 1 43718 10 43875 100 0 0 0       * an apeman child (following)
+M 0 43730 8 43876 100 0 0 0        * an apeman merchant
+M 0 43716 8 43879 100 0 0 0        * an apeman father
+F 1 43717 8 43879 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43879 100 0 0 0       * an apeman child (following)
+M 0 43716 8 43881 100 0 0 0        * an apeman father
+F 1 43717 8 43881 100 0 0 0        * a mother apewoman (following)
+G 1 43738 2 0 100 0 0 0            *    a grey potion
+F 1 43718 10 43881 100 0 0 0       * an apeman child (following)
+F 1 43718 10 43881 100 0 0 0       * an apeman child (following)
+M 0 43716 8 43882 100 0 0 0        * an apeman father
+F 1 43717 8 43882 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43882 100 0 0 0       * an apeman child (following)
+M 0 43716 8 43883 100 0 0 0        * an apeman father
+F 1 43717 8 43883 100 0 0 0        * a mother apewoman (following)
+G 1 43738 2 0 100 0 0 0            *    a grey potion
+F 1 43718 10 43883 100 0 0 0       * an apeman child (following)
+M 0 43729 20 43884 100 0 0 0       * a Tikitzopl guardsman
+M 0 43716 8 43885 100 0 0 0        * an apeman father
+F 1 43717 8 43885 100 0 0 0        * a mother apewoman (following)
+F 1 43718 10 43885 100 0 0 0       * an apeman child (following)
+M 0 43760 2 43887 100 0 0 0        * a large apeman
+M 0 43739 1 43889 100 0 0 0        * an apeman noble
+E 1 43717 1 2 100 0 0 0            *   a ring of trollish flesh
+F 1 43720 3 43889 100 0 0 0        * a lowly servant (following)
+F 1 43721 5 43889 100 0 0 0        * a lowly servant (following)
+M 0 43761 4 43902 100 0 0 0        * a large apeman
+M 0 43759 3 43907 100 0 0 0        * a doe
+M 0 43757 3 43908 100 0 0 0        * a doe
+M 0 43702 25 43909 100 0 0 0       * a large apeman
+M 0 43751 2 43909 100 0 0 0        * a buff deer
+M 0 43754 3 43909 100 0 0 0        * a large stag
+M 0 43752 2 43910 100 0 0 0        * a buff deer
+M 0 43753 2 43911 100 0 0 0        * a buff deer
+M 0 43729 20 43912 100 0 0 0       * a Tikitzopl guardsman
+M 0 43754 3 43912 100 0 0 0        * a large stag
+M 0 43755 2 43913 100 0 0 0        * a large stag
+M 0 43756 2 43914 100 0 0 0        * a large stag
+M 0 43758 2 43915 100 0 0 0        * a doe
+M 0 43729 20 43916 100 0 0 0       * a Tikitzopl guardsman
+M 0 43757 3 43916 100 0 0 0        * a doe
+M 0 43751 2 43917 100 0 0 0        * a buff deer
+M 0 43752 2 43917 100 0 0 0        * a buff deer
+M 0 43753 2 43917 100 0 0 0        * a buff deer
+M 0 43754 3 43918 100 0 0 0        * a large stag
+M 0 43755 2 43919 100 0 0 0        * a large stag
+M 0 43756 2 43920 100 0 0 0        * a large stag
+M 0 43757 3 43921 100 0 0 0        * a doe
+M 0 43758 2 43922 100 0 0 0        * a doe
+M 0 43759 3 43923 100 0 0 0        * a doe
+M 0 43702 25 43924 100 0 0 0       * a large apeman
+M 0 43759 3 43924 100 0 0 0        * a doe
+M 0 43729 20 43926 100 0 0 0       * a Tikitzopl guardsman
+M 0 43729 20 43929 100 0 0 0       * a Tikitzopl guardsman
+M 0 43748 3 43929 100 0 0 0        * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43748 3 43929 100 0 0 0        * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43748 3 43929 100 0 0 0        * a Tikitzopl guardsman
+G 1 43701 10 0 100 0 0 0           *    a sword of the guards
+M 0 43702 25 43932 100 0 0 0       * a large apeman
+M 0 43702 25 43934 100 0 0 0       * a large apeman
+M 0 43702 25 43935 100 0 0 0       * a large apeman
+M 0 43729 20 43937 100 0 0 0       * a Tikitzopl guardsman
+M 0 43702 25 43939 100 0 0 0       * a large apeman
+M 0 43730 8 43942 100 0 0 0        * an apeman merchant
+M 0 43702 25 43943 100 0 0 0       * a large apeman
+M 0 43702 25 43944 100 0 0 0       * a large apeman
+M 0 43702 25 43946 100 0 0 0       * a large apeman
+M 0 43702 25 43947 100 0 0 0       * a large apeman
+M 0 43741 9 43952 100 0 0 0        * a small faerie
+M 0 43744 14 43954 100 0 0 0       * a small faerie
+M 0 43742 12 43957 100 0 0 0       * a small faerie
+M 0 43746 5 43958 100 0 0 0        * a small faerie
+M 0 43743 10 43959 100 0 0 0       * a small faerie
+M 0 43747 7 43960 100 0 0 0        * a small faerie
+M 0 43744 14 43962 100 0 0 0       * a small faerie
+M 0 43747 7 43963 100 0 0 0        * a small faerie
+M 0 43742 12 43964 100 0 0 0       * a small faerie
+M 0 43743 10 43966 100 0 0 0       * a small faerie
+M 0 43746 5 43967 100 0 0 0        * a small faerie
+M 0 43745 8 43972 100 0 0 0        * a small faerie
+M 0 43742 12 43973 100 0 0 0       * a small faerie
+M 0 43744 14 43974 100 0 0 0       * a small faerie
+M 0 43747 7 43974 100 0 0 0        * a small faerie
+M 0 43747 7 43976 100 0 0 0        * a small faerie
+M 0 43747 7 43980 100 0 0 0        * a small faerie
+M 0 43743 10 43983 100 0 0 0       * a small faerie
+M 0 43744 14 43983 100 0 0 0       * a small faerie
+M 0 43741 9 43983 100 0 0 0        * a small faerie
+M 0 43744 14 43988 100 0 0 0       * a small faerie
+M 0 43745 8 43988 100 0 0 0        * a small faerie
+M 0 43745 8 43990 100 0 0 0        * a small faerie
+M 0 43747 7 43990 100 0 0 0        * a small faerie
+M 0 43743 10 43991 100 0 0 0       * a small faerie
+M 0 43742 12 43996 100 0 0 0       * a small faerie
+M 0 43742 12 43997 100 0 0 0       * a small faerie
+M 0 43744 14 43999 100 0 0 0       * a small faerie
+M 0 43742 12 44000 100 0 0 0       * a small faerie
+M 0 43744 14 44004 100 0 0 0       * a small faerie
+M 0 43746 5 44006 100 0 0 0        * a small faerie
+M 0 43744 14 44015 100 0 0 0       * a small faerie
+E 1 43735 1 16 100 0 0 0           *   a glowing white dagger
+M 0 43746 5 44015 100 0 0 0        * a small faerie
+M 0 43742 12 44020 100 0 0 0       * a small faerie
+M 0 43744 14 44020 100 0 0 0       * a small faerie
+M 0 43741 9 44021 100 0 0 0        * a small faerie
+G 1 43732 2 0 100 0 0 0            *    a milky white vial
+M 0 43742 12 44022 100 0 0 0       * a small faerie
+M 0 43743 10 44022 100 0 0 0       * a small faerie
+G 1 43733 3 0 100 0 0 0            *    a vial of yellow liquid
+M 0 43744 14 44022 100 0 0 0       * a small faerie
+M 0 43741 9 44023 100 0 0 0        * a small faerie
+M 0 43742 12 44023 100 0 0 0       * a small faerie
+M 0 43745 8 44024 100 0 0 0        * a small faerie
+G 1 43732 2 0 100 0 0 0            *    a milky white vial
+M 0 43741 9 44024 100 0 0 0        * a small faerie
+M 0 43746 5 44024 100 0 0 0        * a small faerie
+E 1 43737 1 18 100 0 0 0           *   a glowing white wand
+M 0 43743 10 44025 100 0 0 0       * a small faerie
+M 0 43745 8 44025 100 0 0 0        * a small faerie
+M 0 43741 9 44025 100 0 0 0        * a small faerie
+M 0 43742 12 44026 100 0 0 0       * a small faerie
+M 0 43741 9 44026 100 0 0 0        * a small faerie
+M 0 43743 10 44026 100 0 0 0       * a small faerie
+M 0 43745 8 44026 100 0 0 0        * a small faerie
+M 0 43745 8 44027 100 0 0 0        * a small faerie
+M 0 43744 14 44028 100 0 0 0       * a small faerie
+G 1 43733 3 0 100 0 0 0            *    a vial of yellow liquid
+M 0 43742 12 44029 100 0 0 0       * a small faerie
+G 1 43734 1 0 100 0 0 0            *    a vial of blood
+M 0 43744 14 44029 100 0 0 0       * a small faerie
+M 0 43747 7 44029 100 0 0 0        * a small faerie
+E 1 43736 1 16 100 0 0 0           *   a wooden staff
+M 0 43743 10 44030 100 0 0 0       * a small faerie
+M 0 43744 14 44031 100 0 0 0       * a small faerie
+M 0 43743 10 44031 100 0 0 0       * a small faerie
+G 1 43733 3 0 100 0 0 0            *    a vial of yellow liquid
+M 0 43745 8 44032 100 0 0 0        * a small faerie
+M 0 43741 9 44033 100 0 0 0        * a small faerie
+M 0 43744 14 44034 100 0 0 0       * a small faerie
+M 0 43743 10 44035 100 0 0 0       * a small faerie
+M 0 43742 12 44035 100 0 0 0       * a small faerie
+M 0 43741 9 44036 100 0 0 0        * a small faerie
+M 0 43763 1 44037 100 0 0 0        * the Sacrifical Leader
+*
+S

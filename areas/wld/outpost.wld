@@ -1,0 +1,845 @@
+#82100
+&+LNear the Entrance of an Outpost&N~
+    The dirt ground is very solid here as are the walls and ceiling. Light
+seems to be coming from all directions with a strange magical glow. While
+giving enough light to see, it is not a huge amount which leaves the area
+very dim and hard to see for most people. The tunnel continues northwards
+where the entrance to an underground entrance can be seen. It is possible
+to exit this place upwards.
+~
+821 33554444 0
+D0
+Before the entrance to an outpost
+~
+~
+0 0 82101
+D4
+Above a gaping hole
+~
+~
+0 0 82124
+S
+#82101
+&+bThe Entrance to a Human Outpost&N~
+    This is the entrance to an underground base. Wooden poles can be found
+in the room which hold up the ceiling. This is a great structure and
+probably took engineers many years to create. The air is rather stale here
+from the dust in the air caused by the dirt floor. A finely structured
+guard walk extends to the west and east from here. Northwards leads inside
+the outpost.
+~
+821 41943048 0
+D0
+Inside the entrance to an outpost
+~
+~
+0 0 82104
+D1
+The guard walk
+~
+~
+0 0 82103
+D2
+In a gaping hole
+~
+~
+0 0 82100
+D3
+The guard walk
+~
+~
+0 0 82102
+S
+#82102
+&+bThe Guard Walk&N~
+    This is a small guard walk which can occupy a good crowd of humans.
+It has been strategically placed so that archers can fire upon people
+attempting to enter the outpost while remaining relatively protected.
+It is rather dark in here so that the exact position of guards wouldn't
+be easily detectable. The only exit is to the east.
+~
+821 33554440 0
+D1
+The entrance to an outpost
+~
+~
+0 0 82101
+S
+#82103
+&+bThe Guard Walk&N~
+    This is a small guard walk which can occupy a good crowd of humans.
+It has been strategically placed so that archers can fire upon people
+attempting to enter the outpost while remaining relatively protected.
+It is rather dark in here so that the exact position of guards wouldn't
+be easily detectable. The only exit is to the west.
+~
+821 33554440 0
+D3
+The entrance to an outpost
+~
+~
+0 0 82101
+S
+#82104
+&+gA Well-Lit Meeting Room&N~
+    This is the entrance to an underground outpost. Magical torches line
+the walls filling the room with a dim blue glow. It is very evident that
+this outpost was carved from tough rock as large chunks of boulders can
+be seen jutting from the wall every so often. It is rather dusty here making
+breathing an effort. Tunnels lead to the north, east, and west while the
+entrance to the outpost is to the south.
+~
+821 33554444 0
+D0
+In a rocky passage
+~
+~
+0 0 82105
+D1
+Before a staircase
+~
+~
+0 0 82126
+D2
+The entrance to an outpost
+~
+~
+0 0 82101
+D3
+In a well lit passage
+~
+~
+0 0 82107
+S
+#82105
+&+yIn a Rocky Passage&N~
+    This passage looks quite unfinished as rocks can be found on the floor,
+and jutting out of the walls. It is not a very long hallway, and it serves
+the function of connecting the armory to the rest of the outpost. The air
+is very dusty from the walls having been worked on recently. Southwards
+leads back to the main entrance of the outpost.
+~
+821 33554440 0
+D2
+Inside the entrance to an outpost
+~
+~
+0 0 82104
+D5
+The armory
+~
+~
+0 0 82106
+S
+#82106
+&+LIn an Armoury&N~
+    This armory supplies weapons and armor for all of the soldiers in the
+outpost. Here new weapons and armor are forged, and magical items discovered
+on raids are also brought here for identification. A counter has been set
+up so that visitors to the outpost can buy weapons from the armorer here.
+While the outpost generally frowns upon visitors, very rich adventurers
+are often welcome here to buy the magical weapons and armor at greatly
+inflated prices. Northwards is a thick metal door which probably leads
+to something very important while upwards leads back near the outpost.
+~
+821 33554444 0
+D0
+Inside the end of the armory
+~
+door~
+3 82110 82125
+D4
+In a small rocky passage
+~
+~
+0 0 82105
+S
+#82107
+&+YIn a Well-Lit Passage&N~
+    The ceiling of this tunnel is rather low, which would force most humans
+to bend their head while moving through it. Like the rest of the outpost,
+boulders jut from the walls occasionally showing how difficult it was to
+create this underground structure. Magical torches line the walls making
+sight possible for most any race. It is possible to exit this place to the
+east and west.
+~
+821 33554440 0
+D1
+Inside the entrance to an outpost
+~
+~
+0 0 82104
+D3
+In a well lit passage
+~
+~
+0 0 82108
+S
+#82108
+&+YIn a Well-Lit Passage&N~
+    This rocky tunnel extends to the east and north. It is wide enough for
+about five human sized people to walk through side by side as though to
+allow quick access during an emergency. The floor consists of smooth packed
+dirt however, the walls have rocks jutting out of them as though it was
+unfinished. The dusty air makes breathing an effort although it is not
+extremely uncomfortable.
+~
+821 33554444 0
+D0
+The hallway through the barracks
+~
+~
+0 0 82109
+D1
+In a well lit passage
+~
+~
+0 0 82107
+S
+#82109
+&+bA Hallway Connecting the Barracks&N~
+    This wide tunnel has a low ceiling forcing all but the shortest races
+to bend theirs heads down while they walk. Thick oaken doors can be seen
+to the east and west while the path continues to the north and south.
+Ornate weapons and Tharnadian symbols can be found on the walls screwed
+tightly by thick metal bolts. This area is much cleaner than the rest of
+the outpost. It is probably used as sleeping quarters or barracks for most
+of the soldiers.
+~
+821 33554440 0
+D0
+A hallway between the barracks
+~
+~
+0 0 82112
+D1
+Inside Sleeping quarters
+~
+door~
+1 0 82110
+D2
+A well lit passage
+~
+~
+0 0 82108
+D3
+Inside sleeping quarters
+~
+door~
+1 0 82111
+S
+#82110
+&+BInside Sleeping Quarters&N~
+    Ten comfortable looking beds line the eastern wall while lockers can
+be seen to the north and south. This room is extremely clean as no dust
+can be found at all. In this particular room bloody bandages, and other
+used medical equipment can be seen on the floor and on shelves. This is
+probably where sick or injured soldiers stay while they are cared for by
+the outpost healers. The only exit is to the west.
+~
+821 33554440 0
+D3
+A hallway between the barracks
+~
+door~
+1 0 82109
+S
+#82111
+&+BInside Sleeping Quarters&N~
+    Ten comfortable looking beds line the western wall while lockers can
+be seen to the north and south. This room is extremely clean as no dust
+can be found at all. In this particular room bloody bandages, and other
+used medical equipment can be seen on the floor and on shelves. This is
+probably where sick or injured soldiers stay while they are cared for by
+the outpost healers. The only exit is to the east.
+~
+821 33554440 0
+D1
+A hallway between the barracks
+~
+door~
+1 0 82109
+S
+#82112
+&+bA Hallway Connecting the Barracks&N~
+    This wide tunnel has a low ceiling forcing all but the shortest races
+to bend theirs heads down while they walk. Thick oaken doors can be seen
+to the east and west while the path continues to the north and south.
+Ornate weapons and Tharnadian symbols can be found on the walls screwed
+tightly by thick metal bolts. This area is much cleaner than the rest of
+the outpost. It is probably used as sleeping quarters or barracks for most
+of the soldiers.
+~
+821 33554440 0
+D0
+A hallway between the barracks
+~
+~
+0 0 82115
+D1
+Inside sleeping quarters
+~
+door~
+1 0 82113
+D2
+A hallway between the barracks
+~
+~
+0 0 82109
+D3
+Inside sleeping quarters
+~
+door~
+1 0 82114
+S
+#82113
+&+BInside Sleeping Quarters&N~
+    These are the barracks used by the majority of the soldiers in the
+outpost. Twenty comfortable beds are spread around the room each with a
+wooden chest at the end of them for soldiers to put their personal
+belongings. Like the other barracks no dust can be found permeating the air
+as this place is kept extremely clean. Other than the beds and storage
+chests, there is absolutely nothing else of value in the room. The only
+exit is to the west.
+~
+821 33554440 0
+D3
+A hallway between the barracks
+~
+door~
+1 0 82112
+S
+#82114
+&+BInside Sleeping Quarters&N~
+    These are the barracks used by the majority of the soldiers in the
+outpost. Twenty comfortable beds are spread around the room each with a
+wooden chest at the end of them for soldiers to put their personal
+belongings. Like the other barracks no dust can be found permeating the air
+as this place is kept extremely clean. Other than the beds and storage
+chests, there is absolutely nothing else of value in the room. The only
+exit is to the east.
+~
+821 33554440 0
+D1
+A hallway between the barracks
+~
+door~
+1 0 82112
+S
+#82115
+&+bA Hallway Connecting the Barracks&N~
+    This wide tunnel has a low ceiling forcing all but the shortest races
+to bend theirs heads down while they walk. Thick oaken doors can be seen
+to the east and west while the path continues to the north and south.
+Ornate weapons and Tharnadian symbols can be found on the walls screwed
+tightly by thick metal bolts. This area is much cleaner than the rest of
+the outpost. It is probably used as sleeping quarters or barracks for most
+of the soldiers. This particular area has locker rooms to the east and west.
+~
+821 33554440 0
+D0
+A Hallway between the barracks
+~
+~
+0 0 82118
+D1
+Inside sleeping quarters
+~
+door~
+1 0 82116
+D2
+A hallway through the barracks
+~
+~
+0 0 82112
+D3
+Inside sleeping quarters
+~
+door~
+1 0 82117
+S
+#82116
+&+BInside Sleeping Quarters&N~
+    These are the barracks used by the majority of the soldiers in the
+outpost. Twenty comfortable beds are spread around the room each with a
+wooden chest at the end of them for soldiers to put their personal
+belongings. Like the other barracks no dust can be found permeating the air
+as this place is kept extremely clean. Other than the beds and storage
+chests, there is absolutely nothing else of value in the room. The only
+exit is to the west.
+~
+821 33554440 0
+D3
+A hallway between the barracks
+~
+door~
+1 0 82115
+S
+#82117
+&+BInside Sleeping Quarters&N~
+    These are the barracks used by the majority of the soldiers in the
+outpost. Twenty comfortable beds are spread around the room each with a
+wooden chest at the end of them for soldiers to put their personal
+belongings. Like the other barracks no dust can be found permeating the air
+as this place is kept extremely clean. Other than the beds and storage
+chests, there is absolutely nothing else of value in the room. The only
+exit is to the east.
+~
+821 33554440 0
+D1
+A hallway between the barracks
+~
+door~
+1 0 82115
+S
+#82118
+&+bA Hallway Connecting the Barracks&N~
+    This wide tunnel has a low ceiling forcing all but the shortest races
+to bend theirs heads down while they walk. Thick oaken doors can be seen
+to the east and west while the path continues to the north and south.
+Ornate weapons and Tharnadian symbols can be found on the walls screwed
+tightly by thick metal bolts. This area is much cleaner than the rest of
+the outpost. It is probably used as sleeping quarters or barracks for most
+of the soldiers. This particular area has storage rooms to the east and
+west.
+~
+821 33554440 0
+D0
+A hallway between the barracks
+~
+~
+0 0 82121
+D1
+Inside sleeping quarters
+~
+door~
+1 0 82119
+D2
+A hallway between the barracks
+~
+~
+0 0 82115
+D3
+Inside sleeping quarters
+~
+door~
+1 0 82120
+S
+#82119
+&+gA Room Full of Lockers&N~
+   This room is completely barren other than for lockers lining all of
+the walls. This room is probably used to store large amounts of weapons
+and armor so that soldiers have quick access to battle equipment during
+an attack. Most of the lockers have no lock on them and are empty which
+probably means most of the soldiers are out in the wilderness scouting
+and raiding. The only exit is to the west.
+~
+821 33554444 0
+D3
+A hallway between the barracks
+~
+door~
+1 0 82118
+S
+#82120
+&+gA Room Full of Lockers&N~
+   This room is completely barren other than for lockers lining all of
+the walls. This room is probably used to store large amounts of weapons
+and armor so that soldiers have quick access to battle equipment during
+an attack. Most of the lockers have no lock on them and are empty which
+probably means most of the soldiers are out in the wilderness scouting
+and raiding. The only exit is to the east.
+~
+821 33554444 0
+D1
+A hallway between the barracks
+~
+door~
+1 0 82118
+S
+#82121
+&+BThe End of a Hallway&N~
+    This wide tunnel has a low ceiling forcing all but the shortest races
+to bend theirs heads down while they walk. Thick oaken doors can be seen
+to the east and west while the path continues to the north and south.
+Ornate weapons and Tharnadian symbols can be found on the walls screwed
+tightly by thick metal bolts. This area is much cleaner than the rest of
+the outpost. It is probably used as sleeping quarters or barracks for most
+of the soldiers. This particular area is where all the strategy for the
+soldiers is conceived. Eastwards leads to a map room while west goes to a
+meeting room. The only exit out of here is to the south.
+~
+821 33554440 0
+D1
+Inside sleeping quarters
+~
+door~
+1 0 82122
+D2
+A hallway between the barracks
+~
+~
+0 0 82118
+D3
+Inside sleeping quarters
+~
+door~
+1 0 82123
+S
+#82122
+&+LA Room Full of Maps&N~
+    This planning and strategy room is full of maps which show nearly all
+of Duris. Maps of numerous cities of evil races such as the Duergar and
+Drow can be found here also. Not only this, but battle plans for assaults
+on such camps such as Isoril's bandit fort lie here forgotten under a pile
+of paper. Other than the maps there is little else of interest in the room.
+It is possible to exit this place to the west.
+~
+821 33554444 0
+D3
+A hallway between the barracks
+~
+door~
+1 0 82121
+S
+#82123
+&+LA Meeting Room&N~
+   This room is used for private meetings by officers of the outpost.
+A single massive oaken table lies in the center of the room surrounded
+by a dozen ornate looking wooden chairs. Beautifully ornate statues of holy
+gods can be seen against the western wall while Tharnadian symbols can be
+seen to the north and south. This room is usually entered only by important
+members of the outpost. The only exit is to the east.
+~
+821 41943048 0
+D1
+A hallway between the barracks
+~
+door~
+1 0 82121
+S
+#82124
+&+LBefore a Stairway Leading Deep Into the Ground&N~
+    This is the entrance to a tunnel which heads straight into the ground.
+The area here is rather nondescript, with nothing unusual that can be
+noticed. The tunnel is quite wide, enough for several human sized people
+to enter at once. There appears to be light inside which makes a torch
+completely unnecessary.
+~
+821 33554436 3
+D3
+~
+~
+0 0 527555
+D5
+Inside a gaping hole
+~
+~
+0 0 82100
+S
+#82125
+&+rIn the Treasury&N~
+    This room is used to temporarily store loot found on raids upon the
+cities of evil races. The room is very solidly built as to prevent it from
+collapsing or from people trying to dig into the room. While it usually
+never holds a great deal of items, sometimes extremely valuable items are
+found on raids which the soldiers immediately store here. Being a very secure
+room, the only exit is to the south through a thick metal door.
+~
+821 33554440 0
+D2
+Inside the armory
+~
+door~
+3 82110 82106
+S
+#82126
+&+mBefore a Staircase&N~
+   Here the tunnel gradually heads downwards as workers failed to cut
+through a massive boulder found on the ceiling. The staircase built instead
+consists of wooden planks secured tightly to the floor. The planks are very
+worn which shows this staircase must see lots of traffic throughout the
+day. Westwards leads back to the main entrance of the outpost.
+~
+821 33554444 0
+D3
+The entrance to an outpost
+~
+~
+0 0 82104
+D5
+In a recreational area
+~
+~
+0 0 82127
+S
+#82127
+&+mBefore a Staircase&N~
+    This area of the outpost often sees large amounts of traffic. Because
+of this, it has been constructed extremely well to prevent the room from
+collapsing. A massive shield bearing the emblem of Tharnadia can be seen
+hanging from the western wall. Eastwards leads to the soldiers recreational
+area while southwards leads to an eating area. Northwards leads to a much
+darker hallway.
+~
+821 33554444 0
+D0
+A dark hallway
+~
+~
+0 0 82134
+D1
+A recreational area
+~
+~
+0 0 82128
+D2
+The eating area
+~
+~
+0 0 82133
+D4
+Before a staircase
+~
+~
+0 0 82126
+S
+#82128
+&+GA Recreational Area&N~
+    This room is used by the soldiers for gambling, drinking, and dart
+tossing during their short breaks. It has many tables set up for people
+to relax in while several dart boards hang against the northern and
+southern walls. Soldiers are required to keep all of their armor on in
+case of an emergency so the wooden chairs are reinforced with steel in
+many spots. Southwards leads to the training area while westwards leads
+to the base of a staircase.
+~
+821 33554440 0
+D2
+A Well lit passage
+~
+~
+0 0 82129
+D3
+Before a staircase
+~
+~
+0 0 82127
+S
+#82129
+&+WAn L Shaped Passage&N~
+    This passage connects the recreational area to the training room. It
+is very wide allowing passage for a large group of people at once. It
+is very plain and nothing of value can be seen in the room. The only exits
+are to the north and east.
+~
+821 33554440 0
+D0
+A recreational area
+~
+~
+0 0 82128
+D1
+The training area
+~
+~
+0 0 82130
+S
+#82130
+&+YThe Training Area&N~
+    This area is used to train the soldiers of the outpost. While most are
+considered excellent warriors already, they are required to keep their
+skills honed during long months of peacetime. Training dummies, practice
+foils, and other training instruments are scattered throughout the room.
+Bandages can be seen on the floor for those who are unlucky during sparring
+practice. Exits lead east and westwards from here.
+~
+821 33554440 0
+D1
+The training area
+~
+~
+0 0 82131
+D3
+A well lit passage
+~
+~
+0 0 82129
+S
+#82131
+&+YThe Training Area&N~
+    This area is used to train the soldiers of the outpost. While most are
+considered excellent warriors already, they are required to keep their
+skills honed during long months of peacetime. Training dummies, practice
+foils, and other training instruments are scattered throughout the room.
+Bandages can be seen on the floor for those who are unlucky during sparring
+practice. Exits lead westwards, and upwards to the sparring circle.
+~
+821 33554440 0
+D3
+The training area
+~
+~
+0 0 82130
+D4
+A large sparring area
+~
+~
+0 0 82132
+S
+#82132
+&+gA Large Sparring Room&N~
+    This room is used by the weaponsmaster to privately train officers and
+elite soldiers. It is rather small and unequipped to hold large crowds of
+people. Most of the room consists of a large mat which is used for sparring
+and practice. Numerous practice weapons hang from the northern and eastern
+walls. It is only possible to leave here downwards.
+~
+821 33554440 0
+D5
+The training area
+~
+~
+0 0 82131
+S
+#82133
+&+MThe Eating Area&N~
+    During certain periods of the day, this room can be extremely busy.
+Most of the food is cooked in this room over an oven fixed to the southern
+wall. A single massive oaken table rests in the center of the room with
+chairs to seat about twenty people. The soldiers of the outpost must have
+shift schedules extremely different from each other as to prevent this
+room from becoming overly crowded. The only exit is northwards which leads
+to the base of a staircase.
+~
+821 33554440 0
+D0
+~
+~
+0 0 82127
+S
+#82134
+&+LBefore a Dark Staircase&N~
+    This room has a significantly less amount of torches which make the
+room glow extremely dimly. The room is very small and crowded, and probably
+doesn't face much traffic throughout the day. Southwards leads back to
+the base of the staircase. Downwards leads through a very dark and small
+set of stairs.
+~
+821 33554440 0
+D2
+Before a stairway
+~
+~
+0 0 82127
+D5
+A dark stairway
+~
+~
+0 0 82135
+S
+#82135
+&+LOn a Narrow Staircase&N~
+    This staircase is very long and extends deep into the ground. There
+are barely any torches here which can make sight extremely difficult for
+some races. Several ornate symbols of Tharnadia can be seen on the walls
+of the staircase. It is only possible to exit here upwards and down.
+~
+821 33554440 0
+D4
+A dark hallway
+~
+~
+0 0 82134
+D5
+A dark stairway
+~
+grate~
+1 0 82136
+S
+#82136
+&+LAt the Bottom of a Set of Narrow Stairs&N~
+    This is the base of a very long staircase. Deep in the ground now, the
+scarcity of torches has made it all but impossible for most races to see
+clearly.  This room is very dark and dingy and a very odd smell seems to
+be coming from some direction. Northwards and westwards lead to different
+sections of the dungeon while upwards leads back to the stairs.
+~
+821 33554444 0
+D0
+In a dark dingy room
+~
+~
+0 0 82137
+D3
+Inside a dark room
+~
+~
+0 0 82139
+D4
+A dark stairway
+~
+grate~
+1 0 82135
+S
+#82137
+&+LA Dark Room Full of Torture Devices&N~
+    Shackles can be seen on the floor and ceiling. This place is equipped
+to hold many prisoners of various sizes. Near the center of the room are
+vicious looking torture implements. Some of them look so cruel that even
+some evil races might be loath to use them. There are no torches here and
+the room is kept very dark. Soldiers guarding this section are required
+to bring their own for security. Exits lead to the west and south.
+~
+821 9 0
+D2
+Before a staircase
+~
+~
+0 0 82136
+D3
+The interrogation room
+~
+~
+0 0 82138
+S
+#82138
+&+rThe Interrogation Area&N~
+    Because most of the outposts prisoners are evil races, this room is
+kept brilliantly bright by a magical force so that the evil being will be
+in constant pain throughout the interrogation. A single chair is in the
+center of the room which is obviously where prisoners to be tortured sit.
+Other than the chair there is little else of interest in the room as it
+is quite plain. Exits lead to the east and south.
+~
+821 4194312 0
+D1
+~
+~
+0 0 82137
+D2
+~
+~
+0 0 82139
+S
+#82139
+&+LA Dark and Dingy Room&N~
+    Shackles can be seen on the floor and ceiling. This place is equipped
+to hold many prisoners of various sizes. Near the center of the room are
+vicious looking torture implements. Some of them look so cruel that even
+some evil races might be loath to use them. There are no torches here and
+the room is kept very dark. Soldiers guarding this section are required
+to bring their own for security. Exits lead to the north and east.
+~
+821 9 0
+D0
+The interrogation area
+~
+~
+0 0 82138
+D1
+Before a stairway
+~
+~
+0 0 82136
+S

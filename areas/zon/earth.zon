@@ -1,0 +1,535 @@
+#435
+&+LTemple of the &+yEarth&n~
+43697 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 43507 0 1 100 0 0 0
+*     north exit from "Standing Before a Large Stone Door" to
+*     "Entryway to the Temple of the Earth" - closed
+*
+D 0 43509 2 1 100 0 0 0
+*     south exit from "Entryway to the Temple of the Earth" to
+*     "Standing Before a Large Stone Door" - closed
+*
+D 0 43510 3 5 100 0 0 0
+*     west exit from "A Room of Worship" to
+*     "A Secret Passage through the Temple" - closed/secret
+*
+D 0 43521 1 5 100 0 0 0
+*     east exit from "A Secret Passage through the Temple" to
+*     "A Room of Worship" - closed/secret
+*
+D 0 43516 3 1 100 0 0 0
+*     west exit from "A Large Oval Chamber" to
+*     "A Private Chamber within the Temple" - closed
+*
+D 0 43517 1 1 100 0 0 0
+*     east exit from "A Private Chamber within the Temple" to
+*     "A Large Oval Chamber" - closed
+*
+D 0 43518 0 9 100 0 0 0
+*     north exit from "A Small Alcove" to
+*     "The Private Study of Parigar" - closed/blocked
+*
+D 0 43519 2 5 100 0 0 0
+*     south exit from "The Private Study of Parigar" to
+*     "A Small Alcove" - closed/secret
+*
+D 0 43518 2 1 100 0 0 0
+*     south exit from "A Small Alcove" to
+*     "A Large Domed Cathedral" - closed
+*
+D 0 43619 0 1 100 0 0 0
+*     north exit from "A Large Domed Cathedral" to
+*     "A Small Alcove" - closed
+*
+D 0 43522 0 5 100 0 0 0
+*     north exit from "A Dark Alcove" to
+*     "A Partially Collapsed Room" - closed/secret
+*
+D 0 43526 2 5 100 0 0 0
+*     south exit from "A Partially Collapsed Room" to
+*     "A Dark Alcove" - closed/secret
+*
+D 0 43523 0 1 100 0 0 0
+*     north exit from "A Large Alcove" to
+*     "A Vapor Filled Catacomb" - closed
+*
+D 0 43524 2 1 100 0 0 0
+*     south exit from "A Vapor Filled Catacomb" to
+*     "A Large Alcove" - closed
+*
+D 0 43523 3 1 100 0 0 0
+*     west exit from "A Large Alcove" to
+*     "A Vapor Filled Catacomb" - closed
+*
+D 0 43525 1 1 100 0 0 0
+*     east exit from "A Vapor Filled Catacomb" to
+*     "A Large Alcove" - closed
+*
+D 0 43528 3 5 100 0 0 0
+*     west exit from "Deep Within a Series of Catacombs" to
+*     "The Bottom of a Great Spire" - closed/secret
+*
+D 0 43533 1 1 100 0 0 0
+*     east exit from "The Bottom of a Great Spire" to
+*     "Deep Within a Series of Catacombs" - closed
+*
+D 0 43532 0 8 100 0 0 0
+*     north exit from "A Discolored Section of the Cavern" to
+*     "A Lair Littered with Bones" - open/blocked
+*
+D 0 43537 2 1 100 0 0 0
+*     south exit from "A Lair Littered with Bones" to
+*     "A Discolored Section of the Cavern" - closed
+*
+D 0 43535 0 2 100 0 0 0
+*     north exit from "The Top Landing of the Spire" to
+*     "A Large Chamber Within the Spire" - closed/locked
+*
+D 0 43621 2 2 100 0 0 0
+*     south exit from "A Large Chamber Within the Spire" to
+*     "The Top Landing of the Spire" - closed/locked
+*
+D 0 43540 0 1 100 0 0 0
+*     north exit from "A Connecting Passageway through the Temple" to
+*     "Before a Series of Catacombs" - closed
+*
+D 0 43541 2 1 100 0 0 0
+*     south exit from "Before a Series of Catacombs" to
+*     "A Connecting Passageway through the Temple" - closed
+*
+D 0 43545 2 1 100 0 0 0
+*     south exit from "A Series of Small Catacombs" to
+*     "A Narrow Passageway through the Stone" - closed
+*
+D 0 43552 0 1 100 0 0 0
+*     north exit from "A Narrow Passageway through the Stone" to
+*     "A Series of Small Catacombs" - closed
+*
+D 0 43548 0 2 100 0 0 0
+*     north exit from "Travelling through a Well Carved Passageway" to
+*     "A Secret Chamber within the Temple" - closed/locked
+*
+D 0 43549 2 1 100 0 0 0
+*     south exit from "A Secret Chamber within the Temple" to
+*     "Travelling through a Well Carved Passageway" - closed
+*
+D 0 43550 0 13 100 0 0 0
+*     north exit from "Before the Chamber of Illusions" to
+*     "Crossing a Stone Bridge" - closed/secret/blocked
+*
+D 0 43551 2 1 100 0 0 0
+*     south exit from "Crossing a Stone Bridge" to
+*     "Before the Chamber of Illusions" - closed
+*
+D 0 43556 1 1 100 0 0 0
+*     east exit from "Standing Before an Iron Cage" to
+*     "Standing Before an Iron Cage" - closed
+*
+D 0 43557 3 1 100 0 0 0
+*     west exit from "Standing Before an Iron Cage" to
+*     "Standing Before an Iron Cage" - closed
+*
+D 0 43559 0 2 100 0 0 0
+*     north exit from "Before a Blocked Passageway" to
+*     "A Water Filled Cavern" - closed/locked
+*
+D 0 43560 2 1 100 0 0 0
+*     south exit from "A Water Filled Cavern" to
+*     "Before a Blocked Passageway" - closed
+*
+D 0 43566 2 1 100 0 0 0
+*     south exit from "A Water Filled Cavern" to
+*     "Standing Before a Large Iron Door" - closed
+*
+D 0 43567 0 1 100 0 0 0
+*     north exit from "Standing Before a Large Iron Door" to
+*     "A Water Filled Cavern" - closed
+*
+D 0 43594 3 8 100 0 0 0
+*     west exit from "The Entrance to an Abandoned Temple" to
+*     "Inside an Abandoned Temple" - open/blocked
+*
+D 0 43595 1 1 100 0 0 0
+*     east exit from "Inside an Abandoned Temple" to
+*     "The Entrance to an Abandoned Temple" - closed
+*
+D 0 43595 0 5 100 0 0 0
+*     north exit from "Inside an Abandoned Temple" to
+*     "A Small Chamber Within the Temple" - closed/secret
+*
+D 0 43596 2 1 100 0 0 0
+*     south exit from "A Small Chamber Within the Temple" to
+*     "Inside an Abandoned Temple" - closed
+*
+D 0 43597 3 1 100 0 0 0
+*     west exit from "A Hallway Within the Temple" to
+*     "An Abandoned Library" - closed
+*
+D 0 43601 1 1 100 0 0 0
+*     east exit from "An Abandoned Library" to
+*     "A Hallway Within the Temple" - closed
+*
+D 0 43601 3 6 100 0 0 0
+*     west exit from "An Abandoned Library" to
+*     "A Secret Chamber Within the Library" - closed/locked/secret
+*
+D 0 43614 1 1 100 0 0 0
+*     east exit from "A Secret Chamber Within the Library" to
+*     "An Abandoned Library" - closed
+*
+D 0 43601 5 8 100 0 0 0
+*     down exit from "An Abandoned Library" to
+*     "A Secret Chamber Beneath the Library" - open/blocked
+*
+D 0 43602 4 1 100 0 0 0
+*     up exit from "A Secret Chamber Beneath the Library" to
+*     "An Abandoned Library" - closed
+*
+D 0 43608 0 2 100 0 0 0
+*     north exit from "A Passageway Within the Temple" to
+*     "A Turn in the Passageway" - closed/locked
+*
+D 0 43610 2 1 100 0 0 0
+*     south exit from "A Turn in the Passageway" to
+*     "A Passageway Within the Temple" - closed
+*
+D 0 43610 3 8 100 0 0 0
+*     west exit from "A Turn in the Passageway" to
+*     "Private Chambers of the Summoning Sect" - open/blocked
+*
+D 0 43611 1 1 100 0 0 0
+*     east exit from "Private Chambers of the Summoning Sect" to
+*     "A Turn in the Passageway" - closed
+*
+D 0 43624 2 1 100 0 0 0
+*     south exit from "Before the Chamber of the High Priests" to
+*     "The Chamber of the High Priests" - closed
+*
+D 0 43625 0 1 100 0 0 0
+*     north exit from "The Chamber of the High Priests" to
+*     "Before the Chamber of the High Priests" - closed
+*
+D 0 43677 1 2 100 0 0 0
+*     east exit from "Standing Before a Large Fortress" to
+*     "The Chambers Within the Fortress" - closed/locked
+*
+D 0 43678 3 2 100 0 0 0
+*     west exit from "The Chambers Within the Fortress" to
+*     "Standing Before a Large Fortress" - closed/locked
+*
+D 0 43682 3 1 100 0 0 0
+*     west exit from "A Dark Chamber Within the Fortress" to
+*     "Before a Huge Stone Door" - closed
+*
+D 0 43696 1 1 100 0 0 0
+*     east exit from "Before a Huge Stone Door" to
+*     "A Dark Chamber Within the Fortress" - closed
+*
+*
+O 0 43567 1 43502 100 0 0 0        * some druid stones
+O 0 43575 1 43514 100 0 0 0        * a wooden sign
+O 0 43527 1 43516 100 0 0 0        * an altar in the cathedral
+O 0 43533 1 43518 100 0 0 0        * a sun shaped indention
+O 0 43557 1 43522 100 0 0 0        * a pile of useless rocks
+O 0 43532 1 43524 100 0 0 0        * a dwarf corpse in the cavern
+O 0 43530 1 43536 100 0 0 0        * a metallic button
+O 0 43501 1 43541 100 0 0 0        * a duergar corpse
+O 0 43500 1 43549 100 0 0 0        * a silk tapestry
+O 0 43584 1 43550 100 0 0 0        * glorious switch object of doom
+O 0 43590 1 43550 100 0 0 0        * a limestone button
+O 0 43591 1 43550 100 0 0 0        * an obsidian button
+O 0 43592 1 43550 100 0 0 0        * a granite button
+O 0 43593 1 43550 100 0 0 0        * an adamantite button
+O 0 43594 1 43550 100 0 0 0        * a jade button
+O 0 43595 1 43550 100 0 0 0        * (object type not in this .obj file)
+O 0 43505 1 43551 100 0 0 0        * a warning plaque
+O 0 43547 1 43559 100 0 0 0        * a golden plaque
+O 0 43522 2 43560 100 0 0 0        * a rotted corpse in hydra lair
+O 0 43523 1 43562 100 0 0 0        * a thickly banded wooden chest
+P 1 43546 1 43523 100 0 0 0        *   gauntlets of the shadow realms
+O 0 43524 2 43562 100 0 0 0        * corpses in hydra lair
+O 0 43522 2 43563 100 0 0 0        * a rotted corpse in hydra lair
+O 0 43545 1 43564 100 0 0 0        * head in hydra lair
+O 0 43582 2 43566 100 0 0 0        * a green mirror
+O 0 43506 1 43579 100 0 0 0        * a mystical rune
+O 0 43576 1 43593 100 0 0 0        * a skeletal corpse
+O 0 43502 1 43594 100 0 0 0        * a wooden wheel
+O 0 43559 1 43599 100 0 0 0        * an illithid corpse
+P 1 43560 1 43559 100 0 0 0        *   a vial of pulsating energy
+O 0 43503 1 43601 100 0 0 0        * a red book
+O 0 43524 2 43605 100 0 0 0        * corpses in hydra lair
+P 1 43556 1 43524 100 0 0 0        *   a small illithid tentacle
+O 0 43508 1 43609 100 0 0 0        * a charred book
+P 1 43509 1 43508 100 0 0 0        *   a rune shaped dial
+O 0 43507 1 43610 100 0 0 0        * a golden plate
+O 0 43515 1 43611 100 0 0 0        * a bloodrune
+O 0 43543 1 43611 100 0 0 0        * a hanging corpse in the rune room
+O 0 43582 2 43613 100 0 0 0        * a green mirror
+O 0 43537 1 43615 100 0 0 0        * a corpse in the abandoned temple
+O 0 43528 1 43621 100 0 0 0        * an ancient rune
+O 0 43511 1 43624 100 0 0 0        * a golem statue
+O 0 43512 1 43626 100 0 0 0        * a sturdy desk
+P 1 43513 1 43512 100 0 0 0        *   a gold key inlaid with rubies
+P 1 43535 1 43512 100 0 0 0        *   a frothing purple potion
+O 0 43518 1 43628 100 0 0 0        * a bloody mass of flesh
+O 0 43538 1 43628 100 0 0 0        * a paladin's corpse in the temple
+P 1 43539 1 43538 100 0 0 0        *   a silver band of Torm the true
+O 0 43583 1 43652 100 0 0 0        * a bloodrune
+O 0 43540 1 43692 100 0 0 0        * a two-handed sword of jagged bone
+O 0 43544 1 43694 100 0 0 0        * a speckled hydra egg
+O 0 43578 1 43695 100 0 0 0        * a dragon-forged lance
+O 0 43579 1 43695 100 0 0 0        * an ancient scroll
+O 0 43585 1 43697 20 0 0 0         * a limestone button
+O 0 43586 1 43697 40 0 0 0         * an obsidian button
+O 0 43587 1 43697 60 0 0 0         * a granite button
+O 0 43588 1 43697 80 0 0 0         * an adamantite button
+O 0 43589 1 43697 100 0 0 0        * a jade button
+*
+M 0 43600 1 43505 100 0 0 0        * a mountain lion
+M 0 43507 4 43509 100 0 0 0        * a guardian golem
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43507 4 43509 100 0 0 0        * a guardian golem
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43511 1 43510 100 0 0 0        * an acolyte
+M 0 43515 2 43511 100 0 0 0        * an elite protector
+F 1 43516 2 43511 100 0 0 0        * a guardian cleric (following)
+M 0 43509 1 43512 100 0 0 0        * a paladin captain
+F 1 43510 1 43512 100 0 0 0        * a paladin scout (following)
+M 0 43564 1 43516 100 0 0 0        * a young elementalist
+M 0 43513 1 43517 100 0 0 0        * a crazed priest
+G 1 43534 1 0 100 0 0 0            *    a symbol of the sun
+F 1 43514 1 43517 100 0 0 0        * a granite golem (following)
+M 0 43500 1 43519 100 0 0 0        * Parigar, the High Priest
+F 1 43508 3 43519 100 0 0 0        * an elite guardian (following)
+E 1 43514 7 16 100 0 0 0           *   a granite sword
+E 1 43514 7 17 100 0 0 0           *   a granite sword
+F 1 43508 3 43519 100 0 0 0        * an elite guardian (following)
+F 1 43508 3 43519 100 0 0 0        * an elite guardian (following)
+M 0 43512 1 43521 100 0 0 0        * a stone golem
+M 0 43552 5 43524 100 0 0 0        * a vaporous mist
+M 0 43552 5 43525 100 0 0 0        * a vaporous mist
+M 0 43563 1 43528 100 0 0 0        * a bloody elemental
+M 0 43551 1 43529 100 0 0 0        * a two-headed elemental
+M 0 43553 3 43530 100 0 0 0        * a vapor
+M 0 43553 3 43530 100 0 0 0        * a vapor
+M 0 43553 3 43530 100 0 0 0        * a vapor
+M 0 43556 1 43531 100 0 0 0        * the guardian
+G 1 43529 1 0 100 0 0 0            *    a mithril key
+M 0 43554 3 43535 100 0 0 0        * a lava elemental
+M 0 43557 1 43536 100 0 0 0        * an crazed mage
+F 1 43558 4 43536 100 0 0 0        * a shadow warrior (following)
+M 0 43562 1 43537 100 0 0 0        * a bloodied pech
+M 0 43541 1 43541 100 0 0 0        * a granite elemental
+M 0 43550 1 43541 100 0 0 0        * a fiery elemental
+M 0 43540 4 43543 100 0 0 0        * a magma elemental
+M 0 43540 4 43543 100 0 0 0        * a magma elemental
+M 0 43540 4 43544 100 0 0 0        * a magma elemental
+M 0 43540 4 43545 100 0 0 0        * a magma elemental
+M 0 43542 2 43545 100 0 0 0        * a fierce pech
+M 0 43542 2 43546 100 0 0 0        * a fierce pech
+M 0 43504 1 43549 100 0 0 0        * Lithibar
+E 1 43510 1 19 100 0 0 0           *   an eyepatch of swirling shadows
+M 0 43505 2 43549 100 0 0 0        * a vicious shade
+E 1 43514 7 16 100 0 0 0           *   a granite sword
+M 0 43505 2 43549 100 0 0 0        * a vicious shade
+E 1 43514 7 16 100 0 0 0           *   a granite sword
+M 0 43507 4 43552 100 0 0 0        * a guardian golem
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43507 4 43552 100 0 0 0        * a guardian golem
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43515 2 43553 100 0 0 0        * an elite protector
+E 1 43514 7 16 100 0 0 0           *   a granite sword
+F 1 43516 2 43553 100 0 0 0        * a guardian cleric (following)
+E 1 43568 1 16 100 0 0 0           *   a granite mace
+M 0 43548 1 43555 100 0 0 0        * a wandering acolyte
+F 1 43549 1 43555 100 0 0 0        * an earth elemental (following)
+M 0 43543 3 43560 100 0 0 0        * a baby hydra
+M 0 43544 2 43562 100 0 0 0        * a young hydra
+M 0 43544 2 43562 100 0 0 0        * a young hydra
+M 0 43543 3 43563 100 0 0 0        * a baby hydra
+M 0 43574 1 43565 100 0 0 0        * an adult hydra
+M 0 43501 2 43567 100 0 0 0        * a duergar guard
+E 1 43555 3 16 100 0 0 0           *   a mithril great-axe
+M 0 43501 2 43567 100 0 0 0        * a duergar guard
+E 1 43555 3 16 100 0 0 0           *   a mithril great-axe
+M 0 43547 2 43570 100 0 0 0        * a duergar scout
+E 1 43526 3 16 100 0 0 0           *   a stone dagger
+E 1 43526 3 17 100 0 0 0           *   a stone dagger
+M 0 43547 2 43570 100 0 0 0        * a duergar scout
+E 1 43526 3 16 100 0 0 0           *   a stone dagger
+M 0 43502 1 43572 100 0 0 0        * Gromdishar
+E 1 43555 3 16 100 0 0 0           *   a mithril great-axe
+F 1 43503 1 43572 100 0 0 0        * a duergar (following)
+M 0 43545 1 43573 100 0 0 0        * a vicious hydra
+M 0 43581 3 43580 100 0 0 0        * a phantom stalker
+E 1 43548 3 16 100 0 0 0           *   a shadow dagger
+M 0 43579 8 43582 100 0 0 0        * a small rocky creature
+M 0 43566 7 43583 100 0 0 0        * a small rock
+M 0 43566 7 43583 100 0 0 0        * a small rock
+M 0 43566 7 43583 100 0 0 0        * a small rock
+M 0 43566 7 43584 100 0 0 0        * a small rock
+M 0 43579 8 43585 100 0 0 0        * a small rocky creature
+M 0 43579 8 43585 100 0 0 0        * a small rocky creature
+M 0 43579 8 43587 100 0 0 0        * a small rocky creature
+M 0 43579 8 43587 100 0 0 0        * a small rocky creature
+M 0 43580 3 43587 100 0 0 0        * a shadow elemental
+M 0 43580 3 43587 100 0 0 0        * a shadow elemental
+M 0 43581 3 43587 100 0 0 0        * a phantom stalker
+E 1 43548 3 16 100 0 0 0           *   a shadow dagger
+M 0 43580 3 43587 100 0 0 0        * a shadow elemental
+M 0 43566 7 43588 100 0 0 0        * a small rock
+M 0 43579 8 43589 100 0 0 0        * a small rocky creature
+M 0 43579 8 43590 100 0 0 0        * a small rocky creature
+M 0 43579 8 43591 100 0 0 0        * a small rocky creature
+M 0 43581 3 43591 100 0 0 0        * a phantom stalker
+E 1 43548 3 16 100 0 0 0           *   a shadow dagger
+M 0 43566 7 43593 100 0 0 0        * a small rock
+M 0 43566 7 43593 100 0 0 0        * a small rock
+M 0 43567 1 43594 100 0 0 0        * a fierce magma elemental
+M 0 43523 3 43596 100 0 0 0        * a crazed priest
+M 0 43571 1 43596 100 0 0 0        * Charinth, the mad
+G 1 43542 1 0 100 0 0 0            *    a sliver of flesh
+M 0 43560 1 43598 100 0 0 0        * Gargiloth
+E 1 43531 1 5 100 0 0 0            *   the armor of elemental power
+F 1 43559 2 43598 100 0 0 0        * a monstrous elemental (following)
+M 0 43559 2 43598 100 0 0 0        * a monstrous elemental
+M 0 43561 3 43600 100 0 0 0        * an earthen elemental
+M 0 43561 3 43600 100 0 0 0        * an earthen elemental
+M 0 43561 3 43600 100 0 0 0        * an earthen elemental
+M 0 43528 3 43601 100 0 0 0        * a poisonous vapor
+M 0 43546 4 43603 100 0 0 0        * a young hydra
+M 0 43546 4 43603 100 0 0 0        * a young hydra
+M 0 43546 4 43603 100 0 0 0        * a young hydra
+M 0 43546 4 43603 100 0 0 0        * a young hydra
+M 0 43543 3 43605 100 0 0 0        * a baby hydra
+M 0 43597 1 43606 25 0 0 0         * Karthimar, the damned
+E 1 43517 1 2 100 0 0 0            *   a bone studded ring of the damned
+M 0 43598 1 43606 25 0 0 0         * a stone beast
+M 0 43599 1 43606 25 0 0 0         * a misty form
+E 1 43558 1 27 100 0 0 0           *   a backpack of flowing mist
+M 0 43602 1 43606 25 0 0 0         * an ancient lich
+E 1 43572 1 13 100 0 0 0           *   a belt of linked bones
+F 1 43603 1 43606 100 0 0 0        * a white dracolich (following)
+G 1 43573 1 0 100 0 0 0            *    a bracer of dracolich scales
+M 0 43523 3 43608 100 0 0 0        * a crazed priest
+M 0 43568 1 43609 100 0 0 0        * a gore drenched elemental
+F 1 43570 1 43609 100 0 0 0        * an elemental servant (following)
+M 0 43524 1 43610 100 0 0 0        * a spiked golem
+M 0 43572 1 43610 100 0 0 0        * a swirling dust
+M 0 43583 1 43611 100 0 0 0        * an orcish warrior
+F 1 43582 1 43611 100 0 0 0        * Bal'goran (following)
+G 1 43581 1 0 100 0 0 0            *    a mystic wand
+M 0 43525 1 43612 100 0 0 0        * a dust demon
+M 0 43523 3 43613 100 0 0 0        * a crazed priest
+M 0 43527 1 43616 100 0 0 0        * Litharian, the dead
+E 1 43516 1 16 100 0 0 0           *   the bone staff of decay
+G 1 43574 1 0 100 0 0 0            *    a gore covered key
+F 1 43530 1 43616 100 0 0 0        * a skeletal knight (following)
+F 1 43529 1 43616 100 0 0 0        * an elven ghoul (following)
+M 0 43528 3 43616 100 0 0 0        * a poisonous vapor
+M 0 43569 1 43617 100 0 0 0        * a negative plane elemental
+G 1 43541 1 0 100 0 0 0            *    an eyepatch of negative energy
+M 0 43538 1 43618 100 0 0 0        * a temple protector
+E 1 43514 7 16 100 0 0 0           *   a granite sword
+E 1 43514 7 17 100 0 0 0           *   a granite sword
+M 0 43539 2 43618 100 0 0 0        * a guardian elemental
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43539 2 43618 100 0 0 0        * a guardian elemental
+E 1 43521 6 16 100 0 0 0           *   a gnarled stone club
+M 0 43573 1 43620 100 0 0 0        * a paladin warrior
+M 0 43554 3 43621 100 0 0 0        * a lava elemental
+F 1 43555 1 43621 100 0 0 0        * Belikar, the high priest (following)
+F 1 43554 3 43621 100 0 0 0        * a lava elemental (following)
+M 0 43565 1 43622 100 0 0 0        * an enchantress
+E 1 43536 1 20 100 0 0 0           *   a silk veil of the enchantress
+M 0 43517 1 43624 100 0 0 0        * a stone golem
+M 0 43521 1 43625 100 0 0 0        * Lasitar, the high priest
+F 1 43522 3 43625 100 0 0 0        * a young acolyte (following)
+M 0 43522 3 43625 100 0 0 0        * a young acolyte
+M 0 43522 3 43625 100 0 0 0        * a young acolyte
+M 0 43518 1 43626 100 0 0 0        * a sleek assassin
+F 1 43519 1 43626 100 0 0 0        * a sly thief (following)
+M 0 43520 1 43627 100 0 0 0        * a guardian golem
+M 0 43528 3 43628 100 0 0 0        * a poisonous vapor
+M 0 43604 3 43629 100 0 0 0        * a beholder
+M 0 43604 3 43629 100 0 0 0        * a beholder
+M 0 43604 3 43629 100 0 0 0        * a beholder
+M 0 43577 8 43630 100 0 0 0        * an earthen warrior
+M 0 43585 3 43632 100 0 0 0        * a duergar scout
+M 0 43585 3 43632 100 0 0 0        * a duergar scout
+M 0 43585 3 43632 100 0 0 0        * a duergar scout
+M 0 43552 5 43633 100 0 0 0        * a vaporous mist
+M 0 43552 5 43633 100 0 0 0        * a vaporous mist
+M 0 43552 5 43633 100 0 0 0        * a vaporous mist
+M 0 43584 2 43637 100 0 0 0        * A paladin warrior
+M 0 43584 2 43637 100 0 0 0        * A paladin warrior
+M 0 43601 6 43638 100 0 0 0        * a swirling whirlwind of dust
+M 0 43601 6 43638 100 0 0 0        * a swirling whirlwind of dust
+M 0 43601 6 43638 100 0 0 0        * a swirling whirlwind of dust
+M 0 43558 4 43639 100 0 0 0        * a shadow warrior
+M 0 43558 4 43639 100 0 0 0        * a shadow warrior
+M 0 43558 4 43639 100 0 0 0        * a shadow warrior
+M 0 43578 6 43652 100 0 0 0        * a molten slaad
+M 0 43578 6 43652 100 0 0 0        * a molten slaad
+M 0 43578 6 43652 100 0 0 0        * a molten slaad
+M 0 43577 8 43654 100 0 0 0        * an earthen warrior
+M 0 43532 2 43659 100 0 0 0        * an elven guard
+M 0 43532 2 43659 100 0 0 0        * an elven guard
+M 0 43533 1 43659 100 0 0 0        * an elven mage
+M 0 43577 8 43661 100 0 0 0        * an earthen warrior
+M 0 43577 8 43664 100 0 0 0        * an earthen warrior
+M 0 43586 3 43668 100 0 0 0        * an elemental fiend
+M 0 43586 3 43668 100 0 0 0        * an elemental fiend
+M 0 43586 3 43668 100 0 0 0        * an elemental fiend
+M 0 43577 8 43671 100 0 0 0        * an earthen warrior
+M 0 43577 8 43671 100 0 0 0        * an earthen warrior
+M 0 43578 6 43673 100 0 0 0        * a molten slaad
+M 0 43578 6 43676 100 0 0 0        * a molten slaad
+M 0 43578 6 43676 100 0 0 0        * a molten slaad
+M 0 43536 1 43677 100 0 0 0        * a granite golem
+G 1 43520 1 0 100 0 0 0            *    a granite key
+M 0 43601 6 43678 100 0 0 0        * a swirling whirlwind of dust
+M 0 43601 6 43678 100 0 0 0        * a swirling whirlwind of dust
+M 0 43601 6 43678 100 0 0 0        * a swirling whirlwind of dust
+M 0 43577 8 43680 100 0 0 0        * an earthen warrior
+M 0 43577 8 43681 100 0 0 0        * an earthen warrior
+M 0 43576 1 43682 100 0 0 0        * Eligoth, lord of the abyss
+E 1 43571 1 5 100 0 0 0            *   a shimmering suit of golden platemail
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 25105 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 43575 2 43682 100 0 0 0        * a golden golem (following)
+F 1 43575 2 43682 100 0 0 0        * a golden golem (following)
+M 0 43587 1 43683 100 0 0 0        * Gorich, the centaur warrior
+E 1 43549 1 37 100 0 0 0           *   a ring of flowing mists
+M 0 43588 1 43683 100 0 0 0        * Tarlimar, the war wizard
+E 1 43550 1 11 100 0 0 0           *   a shield of negative energy
+M 0 43589 1 43683 100 0 0 0        * a crazed githyanki
+M 0 43590 1 43683 100 0 0 0        * a glabrezu demon
+E 1 43519 1 16 100 0 0 0           *   the jeweled horn of a glabrezu demon
+M 0 43591 1 43683 100 0 0 0        * a death knight
+E 1 43551 1 5 100 0 0 0            *   a suit of bonemail armor
+E 1 43552 1 16 100 0 0 0           *   a demon forged sword called 'Famine'
+M 0 43592 1 43683 100 0 0 0        * a minotaur mercenary
+E 1 43553 1 40 100 0 0 0           *   a pair of spiked horncaps
+M 0 43593 1 43683 100 0 0 0        * a gnome sorcerer
+E 1 43554 1 19 100 0 0 0           *   an eyepatch of the celestial order
+M 0 43596 1 43683 100 0 0 0        * an elder shaman
+E 1 43566 1 11 100 0 0 0           *   a shield of ancestral spirits
+M 0 43537 1 43685 100 0 0 0        * the sage of the earth
+E 1 43563 1 2 100 0 0 0            *   a ring of elemental might
+M 0 43594 1 43685 100 0 0 0        * a barbarian
+G 1 43564 1 0 100 0 0 0            *    a totem of the planes
+M 0 43595 1 43685 100 0 0 0        * a elven mage
+G 1 43565 1 0 100 0 0 0            *    a small hydra scale
+M 0 43526 1 43690 100 0 0 0        * Grollian, the runemaster
+E 1 43570 1 7 100 0 0 0            *   a pair of brimstone leggings
+M 0 43531 1 43691 100 0 0 0        * a wolf knight
+M 0 43506 1 43693 100 0 0 0        * Ixilitxhinesst
+E 1 43577 1 11 100 0 0 0           *   a shield of mind Domination
+E 1 43569 1 41 100 0 0 0           *   a ball of negative energy
+*
+S

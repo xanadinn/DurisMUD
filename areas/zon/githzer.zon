@@ -1,0 +1,926 @@
+#444
+&+GGith&+yzerai &+LStronghold&n~
+44785 2 0 410 420 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 44400 0 2 100 0 0 0
+*     north exit from "Adamantite Gates of an Outpost Stronghold" to
+*     "Intersection in the Stronghold" - closed/locked
+*
+D 0 44401 2 2 100 0 0 0
+*     south exit from "Intersection in the Stronghold" to
+*     "Adamantite Gates of an Outpost Stronghold" - closed/locked
+*
+D 0 44404 3 1 100 0 0 0
+*     west exit from "An Adamantite Corridor" to
+*     "The Knight Guild of the Stronghold" - closed
+*
+D 0 44429 1 1 100 0 0 0
+*     east exit from "The Knight Guild of the Stronghold" to
+*     "An Adamantite Corridor" - closed
+*
+D 0 44407 1 2 100 0 0 0
+*     east exit from "An Adamantite Corridor" to
+*     "A Strangely Lit Corridor" - closed/locked
+*
+D 0 44465 3 2 100 0 0 0
+*     west exit from "A Strangely Lit Corridor" to
+*     "An Adamantite Corridor" - closed/locked
+*
+D 0 44410 0 1 100 0 0 0
+*     north exit from "An Adamantite Corridor" to
+*     "The Mage Guild of the Stronghold" - closed
+*
+D 0 44439 2 1 100 0 0 0
+*     south exit from "The Mage Guild of the Stronghold" to
+*     "An Adamantite Corridor" - closed
+*
+D 0 44413 3 2 100 0 0 0
+*     west exit from "An Adamantite Corridor" to
+*     "A Strangely Lit Corridor" - closed/locked
+*
+D 0 44463 1 2 100 0 0 0
+*     east exit from "A Strangely Lit Corridor" to
+*     "An Adamantite Corridor" - closed/locked
+*
+D 0 44416 1 1 100 0 0 0
+*     east exit from "An Adamantite Corridor" to
+*     "The Rogue Guild of the Stronghold" - closed
+*
+D 0 44419 3 1 100 0 0 0
+*     west exit from "The Rogue Guild of the Stronghold" to
+*     "An Adamantite Corridor" - closed
+*
+D 0 44450 3 2 100 0 0 0
+*     west exit from "A Wider Adamantite Corridor" to
+*     "A Spacious Meeting Chamber" - closed/locked
+*
+D 0 44453 1 2 100 0 0 0
+*     east exit from "A Spacious Meeting Chamber" to
+*     "A Wider Adamantite Corridor" - closed/locked
+*
+D 0 44452 1 2 100 0 0 0
+*     east exit from "A Wider Adamantite Corridor" to
+*     "A Spacious Meeting Chamber" - closed/locked
+*
+D 0 44454 3 2 100 0 0 0
+*     west exit from "A Spacious Meeting Chamber" to
+*     "A Wider Adamantite Corridor" - closed/locked
+*
+D 0 44454 5 5 100 0 0 0
+*     down exit from "A Spacious Meeting Chamber" to
+*     "An Unused Storage Room" - closed/secret
+*
+D 0 44468 4 1 100 0 0 0
+*     up exit from "An Unused Storage Room" to
+*     "A Spacious Meeting Chamber" - closed
+*
+D 0 44455 1 1 100 0 0 0
+*     east exit from "A Smaller Corridor" to
+*     "An Adamantite Sleeping Chamber" - closed
+*
+D 0 44459 3 1 100 0 0 0
+*     west exit from "An Adamantite Sleeping Chamber" to
+*     "A Smaller Corridor" - closed
+*
+D 0 44456 3 2 100 0 0 0
+*     west exit from "A Smaller Corridor" to
+*     "A Strangely Vacant Sleeping Chamber" - closed/locked
+*
+D 0 44457 1 2 100 0 0 0
+*     east exit from "A Strangely Vacant Sleeping Chamber" to
+*     "A Smaller Corridor" - closed/locked
+*
+D 0 44457 5 5 100 0 0 0
+*     down exit from "A Strangely Vacant Sleeping Chamber" to
+*     "A Secret Chamber" - closed/secret
+*
+D 0 44458 4 1 100 0 0 0
+*     up exit from "A Secret Chamber" to
+*     "A Strangely Vacant Sleeping Chamber" - closed
+*
+D 0 44460 3 2 100 0 0 0
+*     west exit from "Guard Post Before a Chamber" to
+*     "A Large Adamantite Chamber" - closed/locked
+*
+D 0 44462 1 2 100 0 0 0
+*     east exit from "A Large Adamantite Chamber" to
+*     "Guard Post Before a Chamber" - closed/locked
+*
+D 0 44461 1 2 100 0 0 0
+*     east exit from "Guard Post Before a Chamber" to
+*     "A Large Adamantite Chamber" - closed/locked
+*
+D 0 44462 3 2 100 0 0 0
+*     west exit from "A Large Adamantite Chamber" to
+*     "Guard Post Before a Chamber" - closed/locked
+*
+D 0 44464 3 1 100 0 0 0
+*     west exit from "A Strangely Lit Corridor" to
+*     "Interplanar" - closed
+*
+D 0 44467 1 1 100 0 0 0
+*     east exit from "Interplanar" to
+*     "A Strangely Lit Corridor" - closed
+*
+D 0 44466 1 1 100 0 0 0
+*     east exit from "A Strangely Lit Corridor" to
+*     "Interplanar" - closed
+*
+D 0 44467 3 1 100 0 0 0
+*     west exit from "Interplanar" to
+*     "A Strangely Lit Corridor" - closed
+*
+D 0 44540 0 2 100 0 0 0
+*     north exit from "Towering Gates of a Fortress" to
+*     "The Foyer" - closed/locked
+*
+D 0 44546 2 2 100 0 0 0
+*     south exit from "The Foyer" to
+*     "Towering Gates of a Fortress" - closed/locked
+*
+D 0 44546 5 9 100 0 0 0
+*     down exit from "The Foyer" to
+*     "Hidden Staircase Below the Statue" - closed/blocked
+*
+D 0 44586 4 1 100 0 0 0
+*     up exit from "Hidden Staircase Below the Statue" to
+*     "The Foyer" - closed
+*
+D 0 44552 0 2 100 0 0 0
+*     north exit from "The Stairway of Incantations" to
+*     "A Huge Crossing Between Two Structures" - closed/locked
+*
+D 0 44620 2 1 100 0 0 0
+*     south exit from "A Huge Crossing Between Two Structures" to
+*     "The Stairway of Incantations" - closed
+*
+D 0 44553 1 1 100 0 0 0
+*     east exit from "The Base of the Tower of Incantations" to
+*     "A Dark Library Containing Ancient Texts" - closed
+*
+D 0 44554 3 1 100 0 0 0
+*     west exit from "A Dark Library Containing Ancient Texts" to
+*     "The Base of the Tower of Incantations" - closed
+*
+D 0 44556 4 2 100 0 0 0
+*     up exit from "Below a Trapdoor in the Tower of Incantations" to
+*     "Nearing the Top of the Tower of Incantations" - closed/locked
+*
+D 0 44621 5 2 100 0 0 0
+*     down exit from "Nearing the Top of the Tower of Incantations" to
+*     "Below a Trapdoor in the Tower of Incantations" - closed/locked
+*
+D 0 44557 0 2 100 0 0 0
+*     north exit from "Before a Dark and Ancient Chamber" to
+*     "The Spirit Chamber of the Spell Master" - closed/locked
+*
+D 0 44558 2 1 100 0 0 0
+*     south exit from "The Spirit Chamber of the Spell Master" to
+*     "Before a Dark and Ancient Chamber" - closed
+*
+D 0 44558 0 5 100 0 0 0
+*     north exit from "The Spirit Chamber of the Spell Master" to
+*     "The Room Behind the Chamber" - closed/secret
+*
+D 0 44559 2 1 100 0 0 0
+*     south exit from "The Room Behind the Chamber" to
+*     "The Spirit Chamber of the Spell Master" - closed
+*
+D 0 44565 0 2 100 0 0 0
+*     north exit from "The Stairway of Combat" to
+*     "A Highly-Decorated Guard Post" - closed/locked
+*
+D 0 44651 2 1 100 0 0 0
+*     south exit from "A Highly-Decorated Guard Post" to
+*     "The Stairway of Combat" - closed
+*
+D 0 44567 0 2 100 0 0 0
+*     north exit from "Before a Large Adamantite Door Embossed With Skulls" to
+*     "A Short and Radiant Hallway" - closed/locked
+*
+D 0 44568 2 1 100 0 0 0
+*     south exit from "A Short and Radiant Hallway" to
+*     "Before a Large Adamantite Door Embossed With Skulls" - closed
+*
+D 0 44570 0 2 100 0 0 0
+*     north exit from "The Hallway's End Before a Large Door" to
+*     "The Soul Chamber of the War Master" - closed/locked
+*
+D 0 44571 2 1 100 0 0 0
+*     south exit from "The Soul Chamber of the War Master" to
+*     "The Hallway's End Before a Large Door" - closed
+*
+D 0 44571 0 5 100 0 0 0
+*     north exit from "The Soul Chamber of the War Master" to
+*     "The Room Behind the Chamber" - closed/secret
+*
+D 0 44572 2 1 100 0 0 0
+*     south exit from "The Room Behind the Chamber" to
+*     "The Soul Chamber of the War Master" - closed
+*
+D 0 44579 3 6 100 0 0 0
+*     west exit from "A Vortex of ChaoTiC Energy" to
+*     "A Brilliant White Antechamber" - closed/locked/secret
+*
+D 0 44763 1 1 100 0 0 0
+*     east exit from "A Brilliant White Antechamber" to
+*     "A Vortex of ChaoTiC Energy" - closed
+*
+D 0 44583 0 2 100 0 0 0
+*     north exit from "The Ancient Hallway of Stealth" to
+*     "The Chamber of the Rogue" - closed/locked
+*
+D 0 44584 2 1 100 0 0 0
+*     south exit from "The Chamber of the Rogue" to
+*     "The Ancient Hallway of Stealth" - closed
+*
+D 0 44586 5 9 100 0 0 0
+*     down exit from "Hidden Staircase Below the Statue" to
+*     "The Downward Spiral" - closed/blocked
+*
+D 0 44587 4 1 100 0 0 0
+*     up exit from "The Downward Spiral" to
+*     "Hidden Staircase Below the Statue" - closed
+*
+D 0 44587 5 9 100 0 0 0
+*     down exit from "The Downward Spiral" to
+*     "Further Down the Spiral" - closed/blocked
+*
+D 0 44588 4 1 100 0 0 0
+*     up exit from "Further Down the Spiral" to
+*     "The Downward Spiral" - closed
+*
+D 0 44589 4 14 100 0 0 0
+*     up exit from "The Ancient Throne Room" to
+*     "The Center of all Shadows" - closed/locked/secret/blocked
+*
+D 0 44590 5 6 100 0 0 0
+*     down exit from "The Center of all Shadows" to
+*     "The Ancient Throne Room" - closed/locked/secret
+*
+D 0 44626 0 2 100 0 0 0
+*     north exit from "Before the Towering Doors of the Chapel" to
+*     "A Gloomy Foyer in the Chapel" - closed/locked
+*
+D 0 44627 2 1 100 0 0 0
+*     south exit from "A Gloomy Foyer in the Chapel" to
+*     "Before the Towering Doors of the Chapel" - closed
+*
+D 0 44629 0 2 100 0 0 0
+*     north exit from "A North Extension of the Pillared Worship Hall" to
+*     "The Arch-Bishop's Antechamber" - closed/locked
+*
+D 0 44630 2 1 100 0 0 0
+*     south exit from "The Arch-Bishop's Antechamber" to
+*     "A North Extension of the Pillared Worship Hall" - closed
+*
+D 0 44631 1 2 100 0 0 0
+*     east exit from "Before a Door Covered in Holy Symbols" to
+*     "A Dark Study in the Chapel" - closed/locked
+*
+D 0 44632 3 1 100 0 0 0
+*     west exit from "A Dark Study in the Chapel" to
+*     "Before a Door Covered in Holy Symbols" - closed
+*
+D 0 44655 1 2 100 0 0 0
+*     east exit from "A Hallway Junction Before an Adamantite Door" to
+*     "A Meeting Room in the Chamber of War" - closed/locked
+*
+D 0 44661 3 1 100 0 0 0
+*     west exit from "A Meeting Room in the Chamber of War" to
+*     "A Hallway Junction Before an Adamantite Door" - closed
+*
+D 0 44665 3 1 100 0 0 0
+*     west exit from "An Interrogation Room" to
+*     "A Short Hallway Within the Chamber of War" - closed
+*
+D 0 44667 1 1 100 0 0 0
+*     east exit from "A Short Hallway Within the Chamber of War" to
+*     "An Interrogation Room" - closed
+*
+D 0 44667 2 1 100 0 0 0
+*     south exit from "A Short Hallway Within the Chamber of War" to
+*     "The Admiral's Personal Quarters" - closed
+*
+D 0 44668 0 1 100 0 0 0
+*     north exit from "The Admiral's Personal Quarters" to
+*     "A Short Hallway Within the Chamber of War" - closed
+*
+D 0 44672 2 2 100 0 0 0
+*     south exit from "The Top of the Grand Staircase" to
+*     "An Exquisite Hallway of Adamantite Statues" - closed/locked
+*
+D 0 44675 0 1 100 0 0 0
+*     north exit from "An Exquisite Hallway of Adamantite Statues" to
+*     "The Top of the Grand Staircase" - closed
+*
+D 0 44675 2 1 100 0 0 0
+*     south exit from "An Exquisite Hallway of Adamantite Statues" to
+*     "A Dark Shrine of the Rrakkma War Master" - closed
+*
+D 0 44704 0 1 100 0 0 0
+*     north exit from "A Dark Shrine of the Rrakkma War Master" to
+*     "An Exquisite Hallway of Adamantite Statues" - closed
+*
+D 0 44678 2 2 100 0 0 0
+*     south exit from "The End of the Hallway Before an Adamantite Door" to
+*     "An Ominous Hallway Splattered with Blood" - closed/locked
+*
+D 0 44690 0 1 100 0 0 0
+*     north exit from "An Ominous Hallway Splattered with Blood" to
+*     "The End of the Hallway Before an Adamantite Door" - closed
+*
+D 0 44679 2 2 100 0 0 0
+*     south exit from "The End of the Hallway Before an Adamantite Door" to
+*     "A Dark Corridor of Unholy Relics" - closed/locked
+*
+D 0 44682 0 1 100 0 0 0
+*     north exit from "A Dark Corridor of Unholy Relics" to
+*     "The End of the Hallway Before an Adamantite Door" - closed
+*
+D 0 44704 5 8 100 0 0 0
+*     down exit from "A Dark Shrine of the Rrakkma War Master" to
+*     "An Ancient and Forgotten Passage" - open/blocked
+*
+D 0 44705 4 0 100 0 0 0
+*     up exit from "An Ancient and Forgotten Passage" to
+*     "A Dark Shrine of the Rrakkma War Master" - open
+*
+D 0 44705 5 8 100 0 0 0
+*     down exit from "An Ancient and Forgotten Passage" to
+*     "The End of an Ancient and Forgotten Passage" - open/blocked
+*
+D 0 44706 4 0 100 0 0 0
+*     up exit from "The End of an Ancient and Forgotten Passage" to
+*     "An Ancient and Forgotten Passage" - open
+*
+D 0 44715 0 2 100 0 0 0
+*     north exit from "Before a Crystalline Door" to
+*     "A Crystalline Gallery of Archaic Royalty" - closed/locked
+*
+D 0 44729 2 1 100 0 0 0
+*     south exit from "A Crystalline Gallery of Archaic Royalty" to
+*     "Before a Crystalline Door" - closed
+*
+D 0 44739 0 1 100 0 0 0
+*     north exit from "The Cabalistic Catacombs of the Githzerai Kings" to
+*     "The Ancient Tomb of a Githzerai King" - closed
+*
+D 0 44752 2 1 100 0 0 0
+*     south exit from "The Ancient Tomb of a Githzerai King" to
+*     "The Cabalistic Catacombs of the Githzerai Kings" - closed
+*
+D 0 44741 0 1 100 0 0 0
+*     north exit from "The Cabalistic Catacombs of the Githzerai Kings" to
+*     "The Ancient Tomb of a Githzerai King" - closed
+*
+D 0 44753 2 1 100 0 0 0
+*     south exit from "The Ancient Tomb of a Githzerai King" to
+*     "The Cabalistic Catacombs of the Githzerai Kings" - closed
+*
+D 0 44746 2 1 100 0 0 0
+*     south exit from "The Cabalistic Catacombs of the Githzerai Kings" to
+*     "The Ancient Tomb of a Githzerai King" - closed
+*
+D 0 44755 0 1 100 0 0 0
+*     north exit from "The Ancient Tomb of a Githzerai King" to
+*     "The Cabalistic Catacombs of the Githzerai Kings" - closed
+*
+D 0 44748 2 1 100 0 0 0
+*     south exit from "The Cabalistic Catacombs of the Githzerai Kings" to
+*     "The Ancient Tomb of a Githzerai King" - closed
+*
+D 0 44754 0 1 100 0 0 0
+*     north exit from "The Ancient Tomb of a Githzerai King" to
+*     "The Cabalistic Catacombs of the Githzerai Kings" - closed
+*
+D 0 44749 1 1 100 0 0 0
+*     east exit from "A Room of Statues Within the Cabalistic Catacombs" to
+*     "The Tomb of the Great King Kezyr-Dryn" - closed
+*
+D 0 44758 3 1 100 0 0 0
+*     west exit from "The Tomb of the Great King Kezyr-Dryn" to
+*     "A Room of Statues Within the Cabalistic Catacombs" - closed
+*
+D 0 44760 5 8 100 0 0 0
+*     down exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open/blocked
+*
+D 0 44765 4 0 100 0 0 0
+*     up exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open
+*
+D 0 44761 5 8 100 0 0 0
+*     down exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open/blocked
+*
+D 0 44764 4 0 100 0 0 0
+*     up exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open
+*
+D 0 44762 5 8 100 0 0 0
+*     down exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open/blocked
+*
+D 0 44766 4 0 100 0 0 0
+*     up exit from "Spirit Load Room 1" to
+*     "Spirit Load Room 1" - open
+*
+D 0 44763 5 8 100 0 0 0
+*     down exit from "A Brilliant White Antechamber" to
+*     "The Ancient Hallway of Stealth" - open/blocked
+*
+D 0 44583 4 0 100 0 0 0
+*     up exit from "The Ancient Hallway of Stealth" to
+*     "A Brilliant White Antechamber" - open
+*
+*
+O 0 44405 1 44404 100 0 0 0        * an adamantite sign
+O 0 44406 1 44410 100 0 0 0        * an adamantite sign
+O 0 44402 1 44416 100 0 0 0        * an adamantite sign
+O 0 44403 3 44421 100 0 0 0        * an adamantite locker
+P 1 44504 2 44403 100 0 0 0        *   a gold and adamantite lockpick
+P 1 44504 2 44403 100 0 0 0        *   a gold and adamantite lockpick
+O 0 44403 3 44431 100 0 0 0        * an adamantite locker
+P 1 44509 1 44403 100 0 0 0        *   a pile of adamantite coins
+P 1 44510 1 44403 100 0 0 0        *   a pile of coins
+O 0 44403 3 44441 100 0 0 0        * an adamantite locker
+P 1 44511 1 44403 100 0 0 0        *   a smoking black potion
+O 0 44418 1 44457 100 0 0 0        * some blood
+O 0 44419 1 44458 100 0 0 0        * some blood
+O 0 44426 1 44467 100 0 0 0        * a wormhole
+O 0 44430 1 44472 100 0 0 0        * a two-handed silver githyanki bastard sword
+O 0 44432 1 44473 100 0 0 0        * a wormhole
+O 0 44527 1 44504 100 0 0 0        * teleport to 44617
+O 0 44454 1 44542 100 0 0 0        * a blood-red scimitar
+O 0 44455 1 44543 100 0 0 0        * a deep-blue scimitar
+O 0 44445 1 44544 100 0 0 0        * an emerald-green scimitar
+O 0 44435 1 44545 100 0 0 0        * a pitch-black scimitar
+O 0 44458 1 44546 100 0 0 0        * a statue of Zerthimon
+O 0 44542 1 44557 100 0 0 0        * a small inscription
+O 0 44471 1 44559 100 0 0 0        * a huge switch
+O 0 44543 1 44566 100 0 0 0        * a small plaque
+O 0 44554 1 44569 100 0 0 0        * a swirling portal
+O 0 44556 1 44570 100 0 0 0        * a small inscription
+O 0 44479 1 44572 100 0 0 0        * a huge switch
+O 0 44488 1 44579 100 0 0 0        * teleports to 44768
+O 0 44576 1 44583 100 0 0 0        * an engraving
+O 0 44498 2 44584 100 0 0 0        * a mysterious blue orb
+O 0 44500 1 44585 100 0 0 0        * a huge switch
+O 0 44502 1 44589 100 0 0 0        * the altar
+O 0 360 1 44590 100 0 0 0          * (object type not in this .obj file)
+O 0 44506 1 44601 100 0 0 0        * a fold in the flux
+O 0 44533 1 44626 100 0 0 0        * an adamantite plaque
+O 0 44537 1 44629 100 0 0 0        * a dark red plaque
+O 0 44541 1 44630 100 0 0 0        * the sacred altar to the Rrakkma
+O 0 44538 1 44631 100 0 0 0        * a fiery plaque
+O 0 44535 1 44632 100 0 0 0        * a small prayer idol
+O 0 44465 1 44632 100 0 0 0        * the chaplain's shrine
+O 0 44534 3 44635 100 0 0 0        * an adamantite pillar
+O 0 44534 3 44639 100 0 0 0        * an adamantite pillar
+O 0 44534 3 44644 100 0 0 0        * an adamantite pillar
+O 0 44536 1 44648 100 0 0 0        * a fountain of blood
+O 0 44545 1 44668 100 0 0 0        * a chest with a green keyhole
+P 1 44557 1 44545 100 0 0 0        *   the shard of the rrakkma
+P 1 44558 1 44545 100 0 0 0        *   a huge pile of coins
+O 0 44548 1 44680 100 0 0 0        * a massive adamantite and marble statue
+O 0 44549 1 44681 100 0 0 0        * a massive adamantite and bloodstone statue
+O 0 44553 1 44693 100 0 0 0        * a huge bloody lever
+O 0 44552 1 44703 100 0 0 0        * the blood armor of Kraange
+O 0 44555 1 44706 100 0 0 0        * a swirling portal
+O 0 44477 1 44720 100 0 0 0        * a crystalline statue of Tayr-Dryn
+O 0 44486 1 44726 100 0 0 0        * a strange glowing rift
+O 0 44560 1 44731 100 0 0 0        * an ancient adamantite plaque
+O 0 44561 5 44752 100 0 0 0        * a huge adamantite sarcophagus
+P 1 44562 4 44561 100 0 0 0        *   the ancient remains of a githzerai king
+P 1 44563 5 44561 100 0 0 0        *   a signet ring with a kingly crest
+O 0 44561 5 44753 100 0 0 0        * a huge adamantite sarcophagus
+P 1 44562 4 44561 100 0 0 0        *   the ancient remains of a githzerai king
+P 1 44563 5 44561 100 0 0 0        *   a signet ring with a kingly crest
+O 0 44561 5 44754 100 0 0 0        * a huge adamantite sarcophagus
+P 1 44562 4 44561 100 0 0 0        *   the ancient remains of a githzerai king
+P 1 44563 5 44561 100 0 0 0        *   a signet ring with a kingly crest
+O 0 44561 5 44755 100 0 0 0        * a huge adamantite sarcophagus
+P 1 44562 4 44561 100 0 0 0        *   the ancient remains of a githzerai king
+P 1 44563 5 44561 100 0 0 0        *   a signet ring with a kingly crest
+O 0 44561 5 44758 100 0 0 0        * a huge adamantite sarcophagus
+P 1 44564 1 44561 100 0 0 0        *   the skeletal remains of king Kezyr-Dryn
+P 1 44563 5 44561 100 0 0 0        *   a signet ring with a kingly crest
+O 0 44493 1 44767 100 0 0 0        * a huge mirror
+O 0 44573 1 44768 100 0 0 0        * a huge mirror
+*
+M 0 44401 1 44400 100 0 0 0        * a githzerai gate warden
+G 1 44400 1 0 100 0 0 0            *    an adamantite key
+G 1 44401 1 0 100 0 0 0            *    a wrinkled parchment
+F 1 44400 2 44400 100 0 0 0        * a githzerai gate keeper (following)
+F 1 44400 2 44400 100 0 0 0        * a githzerai gate keeper (following)
+M 0 44402 3 44404 100 0 0 0        * a githzerai patrol sergeant
+E 1 44514 3 16 100 0 0 0           *   a polished bone githzerai longsword
+F 1 44403 6 44404 100 0 0 0        * a member of the githzerai patrol (following)
+F 1 44403 6 44404 100 0 0 0        * a member of the githzerai patrol (following)
+M 0 44402 3 44410 100 0 0 0        * a githzerai patrol sergeant
+E 1 44514 3 16 100 0 0 0           *   a polished bone githzerai longsword
+F 1 44403 6 44410 100 0 0 0        * a member of the githzerai patrol (following)
+F 1 44403 6 44410 100 0 0 0        * a member of the githzerai patrol (following)
+M 0 44402 3 44416 100 0 0 0        * a githzerai patrol sergeant
+E 1 44514 3 16 100 0 0 0           *   a polished bone githzerai longsword
+F 1 44403 6 44416 100 0 0 0        * a member of the githzerai patrol (following)
+F 1 44403 6 44416 100 0 0 0        * a member of the githzerai patrol (following)
+M 0 44405 1 44423 100 0 0 0        * the githzerai master rogue
+E 1 44411 1 16 100 0 0 0           *   a serrated adamantite dirk
+G 1 44470 1 0 100 0 0 0            *    a tiny azure bottle
+M 0 44404 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44404 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44404 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44406 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44406 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44406 3 44427 100 0 0 0        * a githzerai rogue
+E 1 44404 6 16 100 0 0 0           *   an adamantite shortsword
+M 0 44407 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44407 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44407 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44408 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44408 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44408 3 44434 100 0 0 0        * A githzerai knight
+E 1 44407 6 16 100 0 0 0           *   an adamantite claymore
+M 0 44409 1 44438 100 0 0 0        * the githzerai master knight
+E 1 44410 1 16 100 0 0 0           *   a glowing adamantite broadsword
+M 0 44410 3 44444 100 0 0 0        * a githzerai warlock
+M 0 44410 3 44444 100 0 0 0        * a githzerai warlock
+M 0 44410 3 44444 100 0 0 0        * a githzerai warlock
+E 1 44408 3 15 100 0 0 0           *   an adamantite bracelet
+M 0 44411 3 44444 100 0 0 0        * a githzerai warlock
+E 1 44408 3 15 100 0 0 0           *   an adamantite bracelet
+M 0 44411 3 44444 100 0 0 0        * a githzerai warlock
+M 0 44411 3 44444 100 0 0 0        * a githzerai warlock
+E 1 44408 3 15 100 0 0 0           *   an adamantite bracelet
+M 0 44412 1 44448 100 0 0 0        * the githzerai master warlock
+E 1 44409 1 15 100 0 0 0           *   a polished adamantite bracelet
+G 1 44512 1 0 100 0 0 0            *    a violet potion
+M 0 44413 4 44450 100 0 0 0        * an adamantite golem
+G 1 44412 2 0 100 0 0 0            *    a cracked key
+M 0 44413 4 44452 100 0 0 0        * an adamantite golem
+G 1 44412 2 0 100 0 0 0            *    a cracked key
+M 0 44414 1 44453 100 0 0 0        * the githzerai strategist
+E 1 44413 1 5 100 0 0 0            *   a black set of hooded robes, lined with runes
+M 0 44415 1 44453 100 0 0 0        * a githzerai tactical sergeant
+E 1 44414 1 9 100 0 0 0            *   a pair of adamantite-plated gloves
+M 0 44416 1 44453 100 0 0 0        * an officer of githzerai troop placement
+E 1 44453 1 13 100 0 0 0           *   a black githzerai sash of rank
+M 0 44417 1 44454 100 0 0 0        * the githzerai high priest
+E 1 44415 1 6 100 0 0 0            *   an unholy black turban
+M 0 44418 1 44454 100 0 0 0        * a commander of the githzerai militia
+E 1 44417 1 8 100 0 0 0            *   a pair of spiked adamantite military boots
+M 0 44419 1 44454 100 0 0 0        * a githzerai battle philosopher
+E 1 44416 1 12 100 0 0 0           *   a black bodycloak
+M 0 44420 1 44458 100 0 0 0        * a vicious githyanki assassin
+E 1 44421 1 16 100 0 0 0           *   a thin, astral-forged stiletto
+E 1 44420 1 17 100 0 0 0           *   a wide-bladed, astral-forged kris
+G 1 44422 1 0 100 0 0 0            *    the dark heart of a githyanki
+M 0 44421 5 44459 100 0 0 0        * a tired githzerai
+M 0 44421 5 44459 100 0 0 0        * a tired githzerai
+M 0 44421 5 44459 100 0 0 0        * a tired githzerai
+M 0 44421 5 44459 100 0 0 0        * a tired githzerai
+M 0 44421 5 44459 100 0 0 0        * a tired githzerai
+M 0 44413 4 44460 100 0 0 0        * an adamantite golem
+G 1 44425 2 0 100 0 0 0            *    a chipped adamantite key
+M 0 44423 4 44460 100 0 0 0        * a githzerai sentinel
+M 0 44423 4 44460 100 0 0 0        * a githzerai sentinel
+M 0 44413 4 44461 100 0 0 0        * an adamantite golem
+G 1 44425 2 0 100 0 0 0            *    a chipped adamantite key
+M 0 44423 4 44461 100 0 0 0        * a githzerai sentinel
+M 0 44423 4 44461 100 0 0 0        * a githzerai sentinel
+M 0 44422 1 44462 100 0 0 0        * Zangzk, the githzerai captain
+E 1 44423 1 6 100 0 0 0            *   a headband embedded with adamantite spikes
+E 1 44424 1 9 100 0 0 0            *   some spiked knuckles
+M 0 44424 6 44467 100 0 0 0        * an entranced githzerai Zerth
+G 1 44427 4 0 100 0 0 0            *    a Zerthimonian necklace
+M 0 44424 6 44467 100 0 0 0        * an entranced githzerai Zerth
+G 1 44427 4 0 100 0 0 0            *    a Zerthimonian necklace
+M 0 44424 6 44467 100 0 0 0        * an entranced githzerai Zerth
+G 1 44427 4 0 100 0 0 0            *    a Zerthimonian necklace
+M 0 44424 6 44467 100 0 0 0        * an entranced githzerai Zerth
+G 1 44427 4 0 100 0 0 0            *    a Zerthimonian necklace
+M 0 44425 1 44468 100 0 0 0        * an elite githyanki spy
+G 1 44428 1 0 100 0 0 0            *    the scalp of a githyanki
+M 0 44426 1 44469 100 0 0 0        * the githyanki recon escort
+G 1 44429 1 0 100 0 0 0            *    the bloody skull of a githyanki
+G 1 44513 1 0 100 0 0 0            *    a flaming pentagram
+M 0 44430 1 44483 100 0 0 0        * a red and green slaad
+G 1 44434 1 0 100 0 0 0            *    the first relic of chaos
+G 1 44436 1 0 100 0 0 0            *    a pile of red slaadi hide
+G 1 44437 1 0 100 0 0 0            *    a pile of green slaadi hide
+M 0 44466 1 44489 100 0 0 0        * a shadow golem
+M 0 44432 2 44490 100 0 0 0        * a red slaad
+G 1 44440 2 0 100 0 0 0            *    some red slaadi hide
+M 0 44432 2 44490 100 0 0 0        * a red slaad
+G 1 44440 2 0 100 0 0 0            *    some red slaadi hide
+M 0 44433 2 44490 100 0 0 0        * a green slaad
+G 1 44441 2 0 100 0 0 0            *    some green slaadi hide
+M 0 44433 2 44490 100 0 0 0        * a green slaad
+G 1 44441 2 0 100 0 0 0            *    some green slaadi hide
+M 0 44427 1 44490 100 0 0 0        * a fierce space argos
+G 1 44443 1 0 100 0 0 0            *    the glowing eye of an argos
+M 0 44428 2 44490 100 0 0 0        * an insane githzerai
+M 0 44428 2 44490 100 0 0 0        * an insane githzerai
+M 0 44429 1 44491 100 0 0 0        * Rzazk, the githzerai traveller
+E 1 44433 1 5 100 0 0 0            *   the chainmail of the universe
+E 1 44442 1 8 100 0 0 0            *   the spacial boots of Limbo
+M 0 44434 6 44492 100 0 0 0        * a shadow monster
+M 0 44434 6 44494 100 0 0 0        * a shadow monster
+M 0 44434 6 44496 100 0 0 0        * a shadow monster
+M 0 44434 6 44496 100 0 0 0        * a shadow monster
+M 0 44434 6 44497 100 0 0 0        * a shadow monster
+M 0 44469 1 44499 100 0 0 0        * Verzwyz, the chosen one
+G 1 44523 1 0 100 0 0 0            *    the path of the chosen one
+G 1 44524 1 0 100 0 0 0            *    the path of the chosen one
+G 1 44525 1 0 100 0 0 0            *    the path of the chosen one
+G 1 44526 1 0 100 0 0 0            *    the path of the chosen one
+M 0 44434 6 44501 100 0 0 0        * a shadow monster
+M 0 44435 5 44504 100 0 0 0        * a large shadow monster
+M 0 44435 5 44504 100 0 0 0        * a large shadow monster
+M 0 44471 3 44505 100 0 0 0        * a fiendish red imp
+M 0 44471 3 44505 100 0 0 0        * a fiendish red imp
+M 0 44471 3 44505 100 0 0 0        * a fiendish red imp
+M 0 44435 5 44506 100 0 0 0        * a large shadow monster
+M 0 44475 3 44507 100 0 0 0        * an animated spellbook
+G 1 44530 1 0 100 0 0 0            *    an animated spellbook
+M 0 44447 2 44507 100 0 0 0        * a githzerai scribe
+M 0 44475 3 44507 100 0 0 0        * an animated spellbook
+M 0 44435 5 44509 100 0 0 0        * a large shadow monster
+M 0 44435 5 44511 100 0 0 0        * a large shadow monster
+M 0 44436 1 44513 100 0 0 0        * a HUGE shadow monster
+G 1 44444 1 0 100 0 0 0            *    the second relic of chaos
+G 1 44528 1 0 100 0 0 0            *    a shadowy rift
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44451 1 9 100 0 0 0            *   the gloves of shadows
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44452 1 6 100 0 0 0            *   the crown of shadows
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44440 6 44515 100 0 0 0        * a shadow mephit
+E 1 44450 12 16 100 0 0 0          *   a black knife
+E 1 44450 12 17 100 0 0 0          *   a black knife
+M 0 44437 1 44519 100 0 0 0        * the spirit of Zerthimon
+E 1 44447 1 3 100 0 0 0            *   the pendant of the chaotic
+G 1 44446 1 0 100 0 0 0            *    the heartstone of Zerthimon
+M 0 44523 1 44535 100 0 0 0        * a shadow necromancer
+M 0 44439 1 44540 100 0 0 0        * the githzerai fortress watch leader
+E 1 44449 1 16 100 0 0 0           *   a blackened bone githzerai longsword
+G 1 44448 1 0 100 0 0 0            *    the third relic of chaos
+F 1 44438 3 44540 100 0 0 0        * a githzerai fortress watcher (following)
+F 1 44438 3 44540 100 0 0 0        * a githzerai fortress watcher (following)
+F 1 44438 3 44540 100 0 0 0        * a githzerai fortress watcher (following)
+M 0 44431 1 44541 100 0 0 0        * Prazyz, the githzerai hunter
+M 0 44442 1 44546 100 0 0 0        * the githzerai foyer guard
+E 1 44460 1 20 100 0 0 0           *   a githyanki-skin mask
+F 1 44441 1 44546 100 0 0 0        * an adamantite golem (following)
+E 1 44459 4 16 100 0 0 0           *   a huge sword of curved adamantite
+M 0 44443 2 44546 100 0 0 0        * a githzerai savant
+M 0 44443 2 44546 100 0 0 0        * a githzerai savant
+M 0 44472 1 44552 100 0 0 0        * a towering demon guardian
+E 1 44461 1 2 100 0 0 0            *   a ring of hardened blood
+M 0 44445 1 44552 100 0 0 0        * a dark githzerai warlock
+G 1 44462 1 0 100 0 0 0            *    a glowing adamantite key
+M 0 44474 1 44553 100 0 0 0        * an adamantite golem
+E 1 44459 4 16 100 0 0 0           *   a huge sword of curved adamantite
+M 0 44447 2 44554 100 0 0 0        * a githzerai scribe
+M 0 44475 3 44554 100 0 0 0        * an animated spellbook
+M 0 44449 1 44557 100 0 0 0        * a beholder guardian
+G 1 44484 1 0 100 0 0 0            *    the magenta eye of a beholder guardian
+M 0 44457 1 44557 100 0 0 0        * a beholder guardian
+G 1 44485 1 0 100 0 0 0            *    the sapphire eye of a beholder guardian
+M 0 44450 1 44558 100 0 0 0        * the soul of the Rrakkma spell master
+E 1 44508 1 21 100 0 0 0           *   a crystalized angel tear
+E 1 44468 1 27 100 0 0 0           *   a satchel containing spell components
+M 0 44489 1 44565 100 0 0 0        * a githzerai dragon rider
+E 1 44473 1 12 100 0 0 0           *   the cloak of blood
+E 1 44472 1 18 100 0 0 0           *   an adamantite key shaped like a sword
+R 1 44488 1 44565 100 0 0 0        * a shadow dragon (being ridden)
+M 0 44504 1 44567 100 0 0 0        * a sinister githzerai necrolyte
+E 1 44559 1 18 100 0 0 0           *   a bone key
+F 1 44505 1 44567 100 0 0 0        * a dark undead shadow (following)
+M 0 44456 1 44571 100 0 0 0        * the soul of the Rrakkma war master
+E 1 44481 1 5 100 0 0 0            *   the sacred platemail of strength
+E 1 44480 1 6 100 0 0 0            *   the mighty crown of the gith
+E 1 44459 4 16 100 0 0 0           *   a huge sword of curved adamantite
+M 0 44459 1 44579 100 0 0 0        * a huge flaming vortex demon
+E 1 44574 1 16 100 0 0 0           *   something
+G 1 44575 1 0 100 0 0 0            *    a fiery key of the vortex
+G 1 44497 2 0 100 0 0 0            *    a glowing potion of blood
+G 1 44497 2 0 100 0 0 0            *    a glowing potion of blood
+M 0 44460 1 44584 100 0 0 0        * the soul of the Rrakkma rogue master
+E 1 44495 1 15 100 0 0 0           *   a black bracer
+E 1 44494 1 16 100 0 0 0           *   a fierce blade of doom
+E 1 44499 1 17 100 0 0 0           *   a black-bladed dagger
+G 1 44498 2 0 100 0 0 0            *    a mysterious blue orb
+M 0 44461 1 44589 100 0 0 0        * Tayr-Dryn, the githzerai Wizard King
+M 0 44462 1 44590 100 0 0 0        * Tayr-Dryn, the arcane Wizard
+E 1 44505 1 2 100 0 0 0            *   a thick black ring
+E 1 44579 1 16 100 0 0 0           *   something
+E 1 44518 1 18 100 0 0 0           *   a wizard's staff
+E 1 44507 1 20 100 0 0 0           *   a shadow mask of force
+G 1 25103 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 44464 1 44590 100 0 0 0        * Evernight, the two-headed shadow dragon (following)
+E 1 44503 1 12 100 0 0 0           *   the shadow wings of evernight
+F 1 44463 3 44590 100 0 0 0        * the githzerai soul (following)
+F 1 44463 3 44590 100 0 0 0        * the githzerai soul (following)
+F 1 44463 3 44590 100 0 0 0        * the githzerai soul (following)
+M 0 44465 1 44612 100 0 0 0        * Vozalyzk
+G 1 44520 3 0 100 0 0 0            *    a swirling magenta potion
+G 1 44520 3 0 100 0 0 0            *    a swirling magenta potion
+G 1 44520 3 0 100 0 0 0            *    a swirling magenta potion
+M 0 44467 1 44614 100 0 0 0        * a faceless and damned soul
+M 0 44468 1 44616 100 0 0 0        * a faceless and damned soul
+M 0 44470 1 44617 100 0 0 0        * a shadow dragon
+M 0 44473 1 44619 100 0 0 0        * the githzerai caretaker
+E 1 44483 1 15 100 0 0 0           *   an ancient durithalite bracelet
+G 1 44531 1 0 100 0 0 0            *    a large glowing key
+F 1 44478 1 44619 100 0 0 0        * a small dragonkin familiar (following)
+F 1 44477 1 44619 100 0 0 0        * an animated staff (following)
+M 0 44476 2 44621 100 0 0 0        * a githzerai apprentice
+M 0 44476 2 44621 100 0 0 0        * a githzerai apprentice
+M 0 44479 1 44622 100 0 0 0        * a robed githzerai seer
+E 1 44491 1 5 100 0 0 0            *   the robe of the githzeraian mages
+M 0 44480 1 44624 100 0 0 0        * the high steward of the tower
+E 1 44469 1 6 100 0 0 0            *   a swirling hood of negative vapors
+G 1 44532 1 0 100 0 0 0            *    the steward's key
+F 1 44444 2 44624 100 0 0 0        * a blood elemental (following)
+G 1 44463 2 0 100 0 0 0            *    a potion of blood
+F 1 44444 2 44624 100 0 0 0        * a blood elemental (following)
+G 1 44463 2 0 100 0 0 0            *    a potion of blood
+M 0 44481 1 44625 100 0 0 0        * an adamantite golem
+E 1 44459 4 16 100 0 0 0           *   a huge sword of curved adamantite
+M 0 44487 1 44630 100 0 0 0        * the arch-bishop of the githzerai
+E 1 44490 1 16 100 0 0 0           *   a blazing clerical warhammer
+M 0 44484 1 44632 100 0 0 0        * the holy githzerai chaplain
+E 1 44467 1 18 100 0 0 0           *   the holy githzerai bible
+G 1 44540 1 0 100 0 0 0            *    a deep red key
+M 0 44482 2 44633 100 0 0 0        * an adamantite caryatid pillar
+M 0 44446 1 44635 100 0 0 0        * a robed githzerai acolyte
+M 0 44482 2 44637 100 0 0 0        * an adamantite caryatid pillar
+M 0 44483 2 44644 100 0 0 0        * a robed githzerai acolyte
+M 0 44448 1 44646 100 0 0 0        * a wise githzerai zealot
+E 1 44466 1 13 100 0 0 0           *   the belt of githzerai wisdom
+G 1 44539 1 0 100 0 0 0            *    a key to the chaplain's study
+F 1 44485 1 44646 100 0 0 0        * a robed githzerai acolyte (following)
+F 1 44486 1 44646 100 0 0 0        * a robed githzerai acolyte (following)
+M 0 44483 2 44647 100 0 0 0        * a robed githzerai acolyte
+M 0 44490 1 44651 100 0 0 0        * a githzerai elite guard
+M 0 44491 1 44651 100 0 0 0        * an adamantite golem
+M 0 44451 5 44652 100 0 0 0        * a githzerai soldier
+M 0 44451 5 44654 100 0 0 0        * a githzerai soldier
+M 0 44492 1 44658 100 0 0 0        * a captain of the githzerai militia
+G 1 44544 1 0 100 0 0 0            *    the key to the war chamber
+F 1 44493 1 44658 100 0 0 0        * a short githzerai squire (following)
+M 0 44451 5 44659 100 0 0 0        * a githzerai soldier
+M 0 44497 2 44661 100 0 0 0        * a githzerai honor guard
+M 0 44497 2 44661 100 0 0 0        * a githzerai honor guard
+M 0 44451 5 44662 100 0 0 0        * a githzerai soldier
+M 0 44451 5 44664 100 0 0 0        * a githzerai soldier
+M 0 44494 1 44665 100 0 0 0        * a brutalized githyanki prisoner
+M 0 44495 1 44665 100 0 0 0        * a sinister githzerai torturer
+G 1 44580 1 0 100 0 0 0            *    a wicked implement of torture
+M 0 44496 1 44665 100 0 0 0        * the githzerai admiral
+G 1 44546 1 0 100 0 0 0            *    a green key
+M 0 44498 2 44666 100 0 0 0        * a githzerai tactitian
+E 1 44457 1 10 100 0 0 0           *   some spiked arm plates of adamantite
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44498 2 44666 100 0 0 0        * a githzerai tactitian
+E 1 44478 1 7 100 0 0 0            *   some spiked leg plates of adamantite
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44452 2 44672 100 0 0 0        * the githzerai templar
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+G 1 44547 1 0 100 0 0 0            *    a small adamantite key
+F 1 44452 2 44672 100 0 0 0        * the githzerai templar (following)
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44499 3 44678 100 0 0 0        * a githzerai honor guard
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44499 3 44679 100 0 0 0        * a githzerai honor guard
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44499 3 44679 100 0 0 0        * a githzerai honor guard
+E 1 44474 7 16 100 0 0 0           *   a heavy bone khopesh
+M 0 44424 6 44680 100 0 0 0        * an entranced githzerai Zerth
+E 1 44550 2 2 100 0 0 0            *   a Zerthimonian ring
+M 0 44424 6 44681 100 0 0 0        * an entranced githzerai Zerth
+E 1 44550 2 2 100 0 0 0            *   a Zerthimonian ring
+M 0 44500 2 44684 100 0 0 0        * a dark ritualist
+M 0 44501 3 44685 100 0 0 0        * a githzerai death knight
+M 0 44500 2 44686 100 0 0 0        * a dark ritualist
+M 0 44454 1 44687 100 0 0 0        * Raylen Xarvyn, master death knight
+E 1 44476 1 19 100 0 0 0           *   the warvisor of the death knight
+G 1 44551 1 0 100 0 0 0            *    a huge bone lever
+F 1 44502 1 44687 100 0 0 0        * a huge hellhound (following)
+M 0 44501 3 44688 100 0 0 0        * a githzerai death knight
+M 0 44501 3 44689 100 0 0 0        * a githzerai death knight
+M 0 44453 4 44695 100 0 0 0        * a vicious blood warrior
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+G 1 44464 2 0 100 0 0 0            *    a dark potion of blood
+M 0 44453 4 44696 100 0 0 0        * a vicious blood warrior
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+M 0 44453 4 44697 100 0 0 0        * a vicious blood warrior
+E 1 44492 1 13 100 0 0 0           *   the belt of the blood warriors
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+M 0 44503 2 44698 100 0 0 0        * an insane blood warrior
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+M 0 44453 4 44699 100 0 0 0        * a vicious blood warrior
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+G 1 44464 2 0 100 0 0 0            *    a dark potion of blood
+M 0 44503 2 44700 100 0 0 0        * an insane blood warrior
+E 1 44565 13 16 100 0 0 0          *   a huge blood-stained morningstar
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+M 0 44455 1 44702 100 0 0 0        * Kraange Xarvyn, master blood warrior
+E 1 44487 1 6 100 0 0 0            *   the circlet of blood
+E 1 44566 1 16 100 0 0 0           *   a barbed and bloody black whip
+E 1 44565 13 17 100 0 0 0          *   a huge blood-stained morningstar
+M 0 44506 3 44711 100 0 0 0        * a royal githzerai patrolman
+F 1 44506 3 44711 100 0 0 0        * a royal githzerai patrolman (following)
+F 1 44506 3 44711 100 0 0 0        * a royal githzerai patrolman (following)
+M 0 44507 3 44716 100 0 0 0        * a caliginous githzerai ascetic
+M 0 44510 2 44720 100 0 0 0        * a sycophantic githzerai magi
+M 0 44510 2 44720 100 0 0 0        * a sycophantic githzerai magi
+M 0 44507 3 44721 100 0 0 0        * a caliginous githzerai ascetic
+M 0 44507 3 44724 100 0 0 0        * a caliginous githzerai ascetic
+M 0 44508 2 44728 100 0 0 0        * a crystalline entity
+M 0 44509 1 44729 100 0 0 0        * a wise and bothered githzerai prophet
+M 0 44508 2 44730 100 0 0 0        * a crystalline entity
+M 0 44511 1 44731 100 0 0 0        * a spiritual guardian dragon
+M 0 44515 4 44735 100 0 0 0        * a hulking diorite elemental
+M 0 44514 3 44735 100 0 0 0        * a soul of a githzerai lord
+M 0 44513 4 44735 100 0 0 0        * a nearly-invisible wraith
+M 0 44514 3 44736 100 0 0 0        * a soul of a githzerai lord
+M 0 44513 4 44737 100 0 0 0        * a nearly-invisible wraith
+M 0 44515 4 44740 100 0 0 0        * a hulking diorite elemental
+M 0 44515 4 44741 100 0 0 0        * a hulking diorite elemental
+M 0 44513 4 44743 100 0 0 0        * a nearly-invisible wraith
+M 0 44514 3 44743 100 0 0 0        * a soul of a githzerai lord
+M 0 44513 4 44745 100 0 0 0        * a nearly-invisible wraith
+M 0 44515 4 44746 100 0 0 0        * a hulking diorite elemental
+M 0 44512 3 44749 100 0 0 0        * a marble guardian statue
+F 1 44512 3 44749 100 0 0 0        * a marble guardian statue (following)
+F 1 44512 3 44749 100 0 0 0        * a marble guardian statue (following)
+M 0 44458 4 44752 100 0 0 0        * the spirit of a fallen king
+E 1 44496 4 16 100 0 0 0           *   a royal githzeraian dagger
+M 0 44458 4 44753 100 0 0 0        * the spirit of a fallen king
+E 1 44496 4 16 100 0 0 0           *   a royal githzeraian dagger
+M 0 44458 4 44754 100 0 0 0        * the spirit of a fallen king
+E 1 44496 4 16 100 0 0 0           *   a royal githzeraian dagger
+M 0 44458 4 44755 100 0 0 0        * the spirit of a fallen king
+E 1 44496 4 16 100 0 0 0           *   a royal githzeraian dagger
+M 0 44516 1 44758 100 0 0 0        * the spirit of King Kezyr-Dryn
+E 1 44578 1 16 100 0 0 0           *   something
+G 1 44567 1 0 100 0 0 0            *    a ghostly scripture
+M 0 44517 4 44759 100 0 0 0        * a ghostly guardian spirit
+G 1 44568 1 0 100 0 0 0            *    a ghostly lever
+M 0 44517 4 44759 100 0 0 0        * a ghostly guardian spirit
+G 1 44569 1 0 100 0 0 0            *    a ghostly lever
+M 0 44517 4 44759 100 0 0 0        * a ghostly guardian spirit
+G 1 44570 1 0 100 0 0 0            *    a ghostly lever
+M 0 44517 4 44759 100 0 0 0        * a ghostly guardian spirit
+G 1 44571 1 0 100 0 0 0            *    a ghostly lever
+M 0 44518 4 44760 100 0 0 0        * a transparent githzerai
+M 0 44518 4 44760 100 0 0 0        * a transparent githzerai
+M 0 44518 4 44761 100 0 0 0        * a transparent githzerai
+M 0 44518 4 44761 100 0 0 0        * a transparent githzerai
+M 0 44519 1 44762 100 0 0 0        * a spiritual shadow dragon
+M 0 44522 4 44769 100 0 0 0        * an anti-matter pocket
+M 0 44521 3 44771 100 0 0 0        * a poisonous black slaad
+M 0 44521 3 44773 100 0 0 0        * a poisonous black slaad
+M 0 44520 3 44774 100 0 0 0        * a large thought eater
+M 0 44521 3 44775 100 0 0 0        * a poisonous black slaad
+M 0 44520 3 44779 100 0 0 0        * a large thought eater
+M 0 44522 4 44780 100 0 0 0        * an anti-matter pocket
+M 0 44522 4 44782 100 0 0 0        * an anti-matter pocket
+M 0 44520 3 44782 100 0 0 0        * a large thought eater
+M 0 44522 4 44784 100 0 0 0        * an anti-matter pocket
+*
+S

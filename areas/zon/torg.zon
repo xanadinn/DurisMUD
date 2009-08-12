@@ -1,0 +1,943 @@
+#289
+&N&+LThe Kingdom of &N&+rT&N&+gor&N&+rg&N~
+29181 1 8 30 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 28902 4 5 100 0 0 0
+*     up exit from "An Underground Pit Built For The Monitor's Pet" to
+*     "A Waiting Area Down The Central Walkway" - closed/secret
+*
+D 0 29002 5 5 100 0 0 0
+*     down exit from "A Waiting Area Down The Central Walkway" to
+*     "An Underground Pit Built For The Monitor's Pet" - closed/secret
+*
+D 0 28903 2 2 100 0 0 0
+*     south exit from "Entering The Inner Compound" to
+*     "Before The Double Doors Of The Inner Compound" - closed/locked
+*
+D 0 29003 0 2 100 0 0 0
+*     north exit from "Before The Double Doors Of The Inner Compound" to
+*     "Entering The Inner Compound" - closed/locked
+*
+D 0 28918 0 2 100 0 0 0
+*     north exit from "A Corridor In The Inner Compound" to
+*     "Inside the Obsidian Doors" - closed/locked
+*
+D 0 28925 2 2 100 0 0 0
+*     south exit from "Inside the Obsidian Doors" to
+*     "A Corridor In The Inner Compound" - closed/locked
+*
+D 0 28923 2 2 100 0 0 0
+*     south exit from "Intersection Just Inside The Compound Gates" to
+*     "The Entryway Into Torg's Compound" - closed/locked
+*
+D 0 28989 0 2 100 0 0 0
+*     north exit from "The Entryway Into Torg's Compound" to
+*     "Intersection Just Inside The Compound Gates" - closed/locked
+*
+D 0 28932 5 1 100 0 0 0
+*     down exit from "The Path Comes To A Halt AT Pile Of Rocks" to
+*     "A Steep Shaft Leading Down" - closed
+*
+D 0 28933 4 1 100 0 0 0
+*     up exit from "A Steep Shaft Leading Down" to
+*     "The Path Comes To A Halt AT Pile Of Rocks" - closed
+*
+D 0 28935 1 1 100 0 0 0
+*     east exit from "A Guard Post In Front Of The Mines" to
+*     "Beginning Of A Hallway Through The Mine" - closed
+*
+D 0 28936 3 1 100 0 0 0
+*     west exit from "Beginning Of A Hallway Through The Mine" to
+*     "A Guard Post In Front Of The Mines" - closed
+*
+D 0 28938 2 1 100 0 0 0
+*     south exit from "Guard Post In Front Of The Duergar Miner" to
+*     "A Large Duergar Mine" - closed
+*
+D 0 28944 0 1 100 0 0 0
+*     north exit from "A Large Duergar Mine" to
+*     "Guard Post In Front Of The Duergar Miner" - closed
+*
+D 0 28939 0 1 100 0 0 0
+*     north exit from "Guard Post In Front Of The Goblin Mines" to
+*     "A Large Goblin Mine" - closed
+*
+D 0 28940 2 1 100 0 0 0
+*     south exit from "A Large Goblin Mine" to
+*     "Guard Post In Front Of The Goblin Mines" - closed
+*
+D 0 28950 0 1 100 0 0 0
+*     north exit from "Guard Post In Front Of The Orc Mines" to
+*     "Beginning of A Well Cleared Mine" - closed
+*
+D 0 28952 2 1 100 0 0 0
+*     south exit from "Beginning of A Well Cleared Mine" to
+*     "Guard Post In Front Of The Orc Mines" - closed
+*
+D 0 28951 2 1 100 0 0 0
+*     south exit from "Guard Post In Front Of The Kobold Miners" to
+*     "A Large Kobold Mine" - closed
+*
+D 0 28953 0 1 100 0 0 0
+*     north exit from "A Large Kobold Mine" to
+*     "Guard Post In Front Of The Kobold Miners" - closed
+*
+D 0 28960 5 5 100 0 0 0
+*     down exit from "A Quickly Expanding Mine" to
+*     "A Roughly Built Escape Tunnel" - closed/secret
+*
+D 0 29103 4 5 100 0 0 0
+*     up exit from "A Roughly Built Escape Tunnel" to
+*     "A Quickly Expanding Mine" - closed/secret
+*
+D 0 28964 1 2 100 0 0 0
+*     east exit from "A Passage Into The Heart Of The Hobgoblin City" to
+*     "Southwest Portion Of The Main Cavern Route" - closed/locked
+*
+D 0 29012 3 2 100 0 0 0
+*     west exit from "Southwest Portion Of The Main Cavern Route" to
+*     "A Passage Into The Heart Of The Hobgoblin City" - closed/locked
+*
+D 0 28977 1 2 100 0 0 0
+*     east exit from "At The Gates Set In The Rock" to
+*     "Just Inside The Gates" - closed/locked
+*
+D 0 28982 3 2 100 0 0 0
+*     west exit from "Just Inside The Gates" to
+*     "At The Gates Set In The Rock" - closed/locked
+*
+D 0 28980 1 1 100 0 0 0
+*     east exit from "Along The Main Cavern Route" to
+*     "The Shop Of Kordor" - closed
+*
+D 0 28985 3 1 100 0 0 0
+*     west exit from "The Shop Of Kordor" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 28980 3 0 100 0 0 0
+*     west exit from "Along The Main Cavern Route" to
+*     "A Small Hobgoblin Home" - open
+*
+D 0 28981 1 0 100 0 0 0
+*     east exit from "A Small Hobgoblin Home" to
+*     "Along The Main Cavern Route" - open
+*
+D 0 28983 5 5 100 0 0 0
+*     down exit from "Moving Into The City" to
+*     "A Curve In The Escape Tunnel" - closed/secret
+*
+D 0 29104 4 1 100 0 0 0
+*     up exit from "A Curve In The Escape Tunnel" to
+*     "Moving Into The City" - closed
+*
+D 0 28986 0 1 100 0 0 0
+*     north exit from "Along The Main Cavern Route" to
+*     "Compact Soldier's Barracks" - closed
+*
+D 0 29110 2 1 100 0 0 0
+*     south exit from "Compact Soldier's Barracks" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 28986 2 1 100 0 0 0
+*     south exit from "Along The Main Cavern Route" to
+*     "Small Barracks In The City" - closed
+*
+D 0 29111 0 1 100 0 0 0
+*     north exit from "Small Barracks In The City" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 28990 0 1 100 0 0 0
+*     north exit from "Along The Main Cavern Route" to
+*     "A Large Smelting Area" - closed
+*
+D 0 29119 2 1 100 0 0 0
+*     south exit from "A Large Smelting Area" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29006 0 1 100 0 0 0
+*     north exit from "Along The Main Cavern Route" to
+*     "Some Higher Order Barracks" - closed
+*
+D 0 29112 2 1 100 0 0 0
+*     south exit from "Some Higher Order Barracks" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29006 2 1 100 0 0 0
+*     south exit from "Along The Main Cavern Route" to
+*     "Some Rather Shabby Sleeping Arrangements" - closed
+*
+D 0 29114 0 1 100 0 0 0
+*     north exit from "Some Rather Shabby Sleeping Arrangements" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29008 1 0 100 0 0 0
+*     east exit from "Along The Main Cavern Route" to
+*     "A Small Hobgoblin Home" - open
+*
+D 0 29115 3 0 100 0 0 0
+*     west exit from "A Small Hobgoblin Home" to
+*     "Along The Main Cavern Route" - open
+*
+D 0 29011 1 0 100 0 0 0
+*     east exit from "Along The Main Cavern Route" to
+*     "A Small Hobgoblin Home" - open
+*
+D 0 29100 3 0 100 0 0 0
+*     west exit from "A Small Hobgoblin Home" to
+*     "Along The Main Cavern Route" - open
+*
+D 0 29014 1 0 100 0 0 0
+*     east exit from "Along The Main Cavern Route" to
+*     "A Small Hobgoblin Home" - open
+*
+D 0 29101 3 0 100 0 0 0
+*     west exit from "A Small Hobgoblin Home" to
+*     "Along The Main Cavern Route" - open
+*
+D 0 29016 0 1 100 0 0 0
+*     north exit from "Along The Main Cavern Route" to
+*     "Compact Soldier's Barracks" - closed
+*
+D 0 29030 2 1 100 0 0 0
+*     south exit from "Compact Soldier's Barracks" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29016 2 1 100 0 0 0
+*     south exit from "Along The Main Cavern Route" to
+*     "Small Barracks In The City" - closed
+*
+D 0 29109 0 1 100 0 0 0
+*     north exit from "Small Barracks In The City" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29018 2 1 100 0 0 0
+*     south exit from "Along The Main Cavern Route" to
+*     "The Work Line" - closed
+*
+D 0 29118 0 1 100 0 0 0
+*     north exit from "The Work Line" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29020 0 1 100 0 0 0
+*     north exit from "Along The Main Cavern Route" to
+*     "Some Rather Shabby Sleeping Arrangements" - closed
+*
+D 0 29113 2 1 100 0 0 0
+*     south exit from "Some Rather Shabby Sleeping Arrangements" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29020 2 1 100 0 0 0
+*     south exit from "Along The Main Cavern Route" to
+*     "Some Higher Order Barracks" - closed
+*
+D 0 29107 0 1 100 0 0 0
+*     north exit from "Some Higher Order Barracks" to
+*     "Along The Main Cavern Route" - closed
+*
+D 0 29027 0 2 100 0 0 0
+*     north exit from "Behind The Great Colloseum" to
+*     "Entering The Colloseum Through The Gladiator's Doors" - closed/locked
+*
+D 0 29028 2 2 100 0 0 0
+*     south exit from "Entering The Colloseum Through The Gladiator's Doors" to
+*     "Behind The Great Colloseum" - closed/locked
+*
+D 0 29027 1 1 100 0 0 0
+*     east exit from "Behind The Great Colloseum" to
+*     "Tagnor's Personal Teleport Room" - closed
+*
+D 0 29117 3 1 100 0 0 0
+*     west exit from "Tagnor's Personal Teleport Room" to
+*     "Behind The Great Colloseum" - closed
+*
+D 0 29027 5 2 100 0 0 0
+*     down exit from "Behind The Great Colloseum" to
+*     "The Lineup" - closed/locked
+*
+D 0 29177 4 2 100 0 0 0
+*     up exit from "The Lineup" to
+*     "Behind The Great Colloseum" - closed/locked
+*
+D 0 29033 0 2 100 0 0 0
+*     north exit from "The Center Of The North Wall" to
+*     "Climbing The Stairs To The Councelor's Plateau" - closed/locked
+*
+D 0 29062 2 2 100 0 0 0
+*     south exit from "Climbing The Stairs To The Councelor's Plateau" to
+*     "The Center Of The North Wall" - closed/locked
+*
+D 0 29068 1 0 100 0 0 0
+*     east exit from "The Hallway Next To Some Councilors' Quarters" to
+*     "The Quarters Of Zillra: The Councelor Of The Interior" - open
+*
+D 0 29069 3 0 100 0 0 0
+*     west exit from "The Quarters Of Zillra: The Councelor Of The Interior" to
+*     "The Hallway Next To Some Councilors' Quarters" - open
+*
+D 0 29068 3 0 100 0 0 0
+*     west exit from "The Hallway Next To Some Councilors' Quarters" to
+*     "The Quarters Of Zojt: The Councilor of Security" - open
+*
+D 0 29070 1 0 100 0 0 0
+*     east exit from "The Quarters Of Zojt: The Councilor of Security" to
+*     "The Hallway Next To Some Councilors' Quarters" - open
+*
+D 0 29072 1 0 100 0 0 0
+*     east exit from "The Oculus" to
+*     "The Quarters Of Zarina: Councilor Of The Mystics" - open
+*
+D 0 29073 3 0 100 0 0 0
+*     west exit from "The Quarters Of Zarina: Councilor Of The Mystics" to
+*     "The Oculus" - open
+*
+D 0 29072 3 0 100 0 0 0
+*     west exit from "The Oculus" to
+*     "The Quarters Of Zorn: Councilor of War" - open
+*
+D 0 29074 1 0 100 0 0 0
+*     east exit from "The Quarters Of Zorn: Councilor of War" to
+*     "The Oculus" - open
+*
+D 0 29076 1 0 100 0 0 0
+*     east exit from "The Last Quarters Of The Six" to
+*     "The Quarters Of Zuzon: Councilor Of Politics" - open
+*
+D 0 29077 3 0 100 0 0 0
+*     west exit from "The Quarters Of Zuzon: Councilor Of Politics" to
+*     "The Last Quarters Of The Six" - open
+*
+D 0 29076 3 0 100 0 0 0
+*     west exit from "The Last Quarters Of The Six" to
+*     "The Quarters Of Zravi: The Councilor Of The Gods" - open
+*
+D 0 29078 1 0 100 0 0 0
+*     east exit from "The Quarters Of Zravi: The Councilor Of The Gods" to
+*     "The Last Quarters Of The Six" - open
+*
+D 0 29080 0 2 100 0 0 0
+*     north exit from "At The Entrance To Tagnor's Quarters" to
+*     "The Quarters of Tagnor: General Of Torg" - closed/locked
+*
+D 0 29081 2 2 100 0 0 0
+*     south exit from "The Quarters of Tagnor: General Of Torg" to
+*     "At The Entrance To Tagnor's Quarters" - closed/locked
+*
+D 0 29090 1 2 100 0 0 0
+*     east exit from "Enourmous Doors Before The Sanctum" to
+*     "Inside Torg's Quarters" - closed/locked
+*
+D 0 29091 3 2 100 0 0 0
+*     west exit from "Inside Torg's Quarters" to
+*     "Enourmous Doors Before The Sanctum" - closed/locked
+*
+D 0 29093 0 2 100 0 0 0
+*     north exit from "Torg's Sleeping Cave" to
+*     "Gilaxi's Hidden Chamber" - closed/locked
+*
+D 0 29181 2 2 100 0 0 0
+*     south exit from "Gilaxi's Hidden Chamber" to
+*     "Torg's Sleeping Cave" - closed/locked
+*
+D 0 29096 0 1 100 0 0 0
+*     north exit from "Central Avenue" to
+*     "Some Higher Order Barracks" - closed
+*
+D 0 29102 2 1 100 0 0 0
+*     south exit from "Some Higher Order Barracks" to
+*     "Central Avenue" - closed
+*
+D 0 29096 2 1 100 0 0 0
+*     south exit from "Central Avenue" to
+*     "The Shop Of Gornogo" - closed
+*
+D 0 29106 0 1 100 0 0 0
+*     north exit from "The Shop Of Gornogo" to
+*     "Central Avenue" - closed
+*
+D 0 29098 2 1 100 0 0 0
+*     south exit from "Central Avenue" to
+*     "Small Barracks In The City" - closed
+*
+D 0 29108 0 1 100 0 0 0
+*     north exit from "Small Barracks In The City" to
+*     "Central Avenue" - closed
+*
+D 0 29122 3 1 100 0 0 0
+*     west exit from "The Colloseum Path" to
+*     "The Gladiators Prison" - closed
+*
+D 0 29129 1 1 100 0 0 0
+*     east exit from "The Gladiators Prison" to
+*     "The Colloseum Path" - closed
+*
+D 0 29132 3 2 100 0 0 0
+*     west exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29139 1 2 100 0 0 0
+*     east exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29133 1 2 100 0 0 0
+*     east exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29138 3 2 100 0 0 0
+*     west exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29134 3 2 100 0 0 0
+*     west exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29140 1 2 100 0 0 0
+*     east exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29135 1 2 100 0 0 0
+*     east exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29141 3 2 100 0 0 0
+*     west exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29142 2 2 100 0 0 0
+*     south exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29146 0 2 100 0 0 0
+*     north exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29143 0 2 100 0 0 0
+*     north exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29147 2 2 100 0 0 0
+*     south exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29144 2 2 100 0 0 0
+*     south exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29151 0 2 100 0 0 0
+*     north exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29145 0 2 100 0 0 0
+*     north exit from "Inside The Colloseum Prison" to
+*     "The Cell" - closed/locked
+*
+D 0 29150 2 2 100 0 0 0
+*     south exit from "The Cell" to
+*     "Inside The Colloseum Prison" - closed/locked
+*
+D 0 29168 1 2 100 0 0 0
+*     east exit from "Entrance To The Staging Area" to
+*     "The Staging Area" - closed/locked
+*
+D 0 29169 3 2 100 0 0 0
+*     west exit from "The Staging Area" to
+*     "Entrance To The Staging Area" - closed/locked
+*
+D 0 29176 1 2 100 0 0 0
+*     east exit from "The Staging Area" to
+*     "The Lineup" - closed/locked
+*
+D 0 29177 3 2 100 0 0 0
+*     west exit from "The Lineup" to
+*     "The Staging Area" - closed/locked
+*
+*
+O 0 28975 1 28907 100 0 0 0        * a pair of couches
+O 0 28915 1 28919 100 0 0 0        * a handsome corpse
+P 1 28916 1 28915 100 0 0 0        *   a secret promise ring
+O 0 28927 1 28976 100 0 0 0        * a battered corpse
+O 0 28928 1 28976 100 0 0 0        * a fake rock
+P 1 28929 1 28928 100 0 0 0        *   a bloody note
+O 0 28990 1 29037 100 0 0 0        * some eyes ripped from their very sockets
+O 0 28991 1 29049 100 0 0 0        * a broken mug of mead
+O 0 28989 1 29058 100 0 0 0        * a set of scorched fingers
+O 0 28974 1 29064 100 0 0 0        * a luxurious chair
+O 0 28933 1 29064 100 0 0 0        * a glimmering pool
+O 0 28934 1 29065 100 0 0 0        * a glimmering lake
+O 0 28952 1 29081 100 0 0 0        * a glimmering pool
+O 0 72 100 29093 100 0 0 0         * (object type not in this .obj file)
+O 0 359 1 29093 100 0 0 0          * (object type not in this .obj file)
+O 0 28957 1 29097 100 0 0 0        * a red hued fountain
+*
+M 0 28900 7 28900 100 0 0 0        * a deer
+M 0 28916 1 28902 100 0 0 0        * a decaying undead dragon
+G 1 28923 1 0 33 0 0 0             *    a strip of dracolich hide
+M 0 28958 4 28903 100 0 0 0        * an elite ogre guard
+M 0 28919 2 28905 100 0 0 0        * the war cleric
+M 0 28958 4 28907 100 0 0 0        * an elite ogre guard
+M 0 28920 1 28909 100 0 0 0        * The Enforcer
+E 1 28914 1 7 100 0 0 0            *   some pantaloons covered in runes
+F 1 28986 2 28909 100 0 0 0        * a duergar guard (following)
+F 1 28986 2 28909 100 0 0 0        * a duergar guard (following)
+M 0 28918 2 28911 100 0 0 0        * a flind battle sorcerer
+M 0 28958 4 28913 100 0 0 0        * an elite ogre guard
+M 0 28921 1 28915 100 0 0 0        * The High Templar
+E 1 28913 1 19 100 0 0 0           *   the bloody battle goggles
+F 1 28985 2 28915 100 0 0 0        * a flind guard (following)
+F 1 28985 2 28915 100 0 0 0        * a flind guard (following)
+M 0 28958 4 28918 100 0 0 0        * an elite ogre guard
+M 0 28919 2 28918 100 0 0 0        * the war cleric
+M 0 28918 2 28918 100 0 0 0        * a flind battle sorcerer
+M 0 28964 1 28920 100 0 0 0        * The Lore Keeper
+G 1 28979 1 0 100 0 0 0            *    a braid of war beads
+M 0 28901 1 28927 100 0 0 0        * a scared illithid
+G 1 28906 1 0 100 0 0 0            *    a long severed tentacle
+M 0 28900 7 28928 100 0 0 0        * a deer
+M 0 28900 7 28928 100 0 0 0        * a deer
+M 0 28900 7 28930 100 0 0 0        * a deer
+M 0 28900 7 28931 100 0 0 0        * a deer
+M 0 28900 7 28931 100 0 0 0        * a deer
+M 0 28902 5 28935 100 0 0 0        * a hobgoblin guard
+E 1 28900 999 6 100 0 0 0          *   a banded helmet with small studs
+E 1 28902 999 16 100 0 0 0         *   a rusty hand-axe
+M 0 28902 5 28938 100 0 0 0        * a hobgoblin guard
+M 0 28902 5 28939 100 0 0 0        * a hobgoblin guard
+M 0 28903 8 28940 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28940 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28941 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28941 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28942 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28942 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28943 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28903 8 28943 100 0 0 0        * a goblin miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28944 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28944 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28945 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28945 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28946 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28946 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28947 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28904 8 28947 100 0 0 0        * a duergar miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28902 5 28950 100 0 0 0        * a hobgoblin guard
+M 0 28902 5 28951 100 0 0 0        * a hobgoblin guard
+M 0 28906 5 28953 100 0 0 0        * a kobold miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28906 5 28954 100 0 0 0        * a kobold miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28906 5 28955 100 0 0 0        * a kobold miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28906 5 28956 100 0 0 0        * a kobold miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28905 7 28960 100 0 0 0        * an orc miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28906 5 28962 100 0 0 0        * a kobold miner
+E 1 28903 28 15 100 0 0 0          *   iron cuffs
+M 0 28908 2 28964 100 0 0 0        * the rough rakshasa commander
+G 1 28901 2 0 100 0 0 0            *    a stubby key
+R 1 28909 2 28964 100 0 0 0        * a nightmare (being ridden)
+M 0 28988 4 28964 100 0 0 0        * a hobgoblin guard
+E 1 28902 999 16 100 0 0 0         *   a rusty hand-axe
+M 0 28988 4 28964 100 0 0 0        * a hobgoblin guard
+E 1 28902 999 16 100 0 0 0         *   a rusty hand-axe
+M 0 28907 5 28966 100 0 0 0        * a large hobgoblin guard
+E 1 28904 999 16 100 0 0 0         *   a bent longsword
+M 0 28907 5 28966 100 0 0 0        * a large hobgoblin guard
+E 1 28904 999 16 100 0 0 0         *   a bent longsword
+M 0 28907 5 28966 100 0 0 0        * a large hobgoblin guard
+E 1 28904 999 16 100 0 0 0         *   a bent longsword
+M 0 28907 5 28966 100 0 0 0        * a large hobgoblin guard
+E 1 28904 999 16 100 0 0 0         *   a bent longsword
+M 0 28907 5 28966 100 0 0 0        * a large hobgoblin guard
+E 1 28904 999 16 100 0 0 0         *   a bent longsword
+M 0 28900 7 28968 100 0 0 0        * a deer
+M 0 28910 10 28973 100 0 0 0       * a veteran hobgoblin guard
+M 0 28908 2 28977 100 0 0 0        * the rough rakshasa commander
+G 1 28901 2 0 100 0 0 0            *    a stubby key
+R 1 28909 2 28977 100 0 0 0        * a nightmare (being ridden)
+M 0 28988 4 28977 100 0 0 0        * a hobgoblin guard
+E 1 28902 999 16 100 0 0 0         *   a rusty hand-axe
+M 0 28988 4 28977 100 0 0 0        * a hobgoblin guard
+E 1 28902 999 16 100 0 0 0         *   a rusty hand-axe
+M 0 28911 9 28978 100 0 0 0        * a hobgoblin child
+M 0 28993 4 28978 100 0 0 0        * a tired hobgoblin merchant
+M 0 28972 6 28979 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28978 9 28980 100 0 0 0        * a veteran ogre guard
+M 0 28911 9 28981 100 0 0 0        * a hobgoblin child
+M 0 28973 1 28983 100 0 0 0        * a relief rakshasa commander
+M 0 28911 9 28984 100 0 0 0        * a hobgoblin child
+M 0 28910 10 28984 100 0 0 0       * a veteran hobgoblin guard
+M 0 28972 6 28984 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28917 1 28985 100 0 0 0        * Kordor, the smith
+G 1 28904 999 0 100 0 0 0          *    a bent longsword
+G 1 28900 999 0 100 0 0 0          *    a banded helmet with small studs
+G 1 28902 999 0 100 0 0 0          *    a rusty hand-axe
+M 0 28978 9 28986 100 0 0 0        * a veteran ogre guard
+M 0 28995 5 28987 100 0 0 0        * a common mage soldier
+M 0 28989 1 28989 100 0 0 0        * an ogre lieutenant
+E 1 28905 1 16 100 0 0 0           *   a cruel obsidian claymore
+G 1 28909 1 0 100 0 0 0            *    a crooked gold key
+F 1 28912 7 28989 100 0 0 0        * a veteran ogre guard (following)
+F 1 28912 7 28989 100 0 0 0        * a veteran ogre guard (following)
+F 1 28912 7 28989 100 0 0 0        * a veteran ogre guard (following)
+M 0 28910 10 28990 100 0 0 0       * a veteran hobgoblin guard
+M 0 28912 7 28993 100 0 0 0        * a veteran ogre guard
+M 0 28912 7 28995 100 0 0 0        * a veteran ogre guard
+M 0 28912 7 28999 100 0 0 0        * a veteran ogre guard
+M 0 28912 7 29000 100 0 0 0        * a veteran ogre guard
+M 0 28915 1 29002 100 0 0 0        * the monitor golem
+E 1 28912 1 9 100 0 0 0            *   a pair of crystalized gloves
+M 0 28913 1 29003 100 0 0 0        * an ogre shaman commander
+E 1 28908 1 3 100 0 0 0            *   a string of gnome feet
+G 1 28910 1 0 100 0 0 0            *    a squarish sapphire key
+F 1 28914 3 29003 100 0 0 0        * an elite ogre guard (following)
+E 1 28907 3 16 100 0 0 0           *   a crystal broadsword
+F 1 28914 3 29003 100 0 0 0        * an elite ogre guard (following)
+E 1 28907 3 16 100 0 0 0           *   a crystal broadsword
+F 1 28914 3 29003 100 0 0 0        * an elite ogre guard (following)
+E 1 28907 3 16 100 0 0 0           *   a crystal broadsword
+M 0 28972 6 29005 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28993 4 29005 100 0 0 0        * a tired hobgoblin merchant
+M 0 28911 9 29006 100 0 0 0        * a hobgoblin child
+M 0 28978 9 29006 100 0 0 0        * a veteran ogre guard
+M 0 28910 10 29007 100 0 0 0       * a veteran hobgoblin guard
+M 0 28972 6 29008 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28978 9 29008 100 0 0 0        * a veteran ogre guard
+M 0 28995 5 29009 100 0 0 0        * a common mage soldier
+M 0 28910 10 29010 100 0 0 0       * a veteran hobgoblin guard
+M 0 28911 9 29010 100 0 0 0        * a hobgoblin child
+M 0 28978 9 29011 100 0 0 0        * a veteran ogre guard
+M 0 28910 10 29012 100 0 0 0       * a veteran hobgoblin guard
+M 0 28993 4 29013 100 0 0 0        * a tired hobgoblin merchant
+M 0 28972 6 29014 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28978 9 29014 100 0 0 0        * a veteran ogre guard
+M 0 28910 10 29015 100 0 0 0       * a veteran hobgoblin guard
+M 0 28911 9 29015 100 0 0 0        * a hobgoblin child
+M 0 28978 9 29016 100 0 0 0        * a veteran ogre guard
+M 0 28993 4 29017 100 0 0 0        * a tired hobgoblin merchant
+M 0 28910 10 29018 100 0 0 0       * a veteran hobgoblin guard
+M 0 28995 5 29018 100 0 0 0        * a common mage soldier
+M 0 28972 6 29019 100 0 0 0        * a grumbling hobgoblin woman
+M 0 28911 9 29020 100 0 0 0        * a hobgoblin child
+M 0 28978 9 29020 100 0 0 0        * a veteran ogre guard
+M 0 28922 1 29026 100 0 0 0        * The Keeper
+E 1 28920 1 11 100 0 0 0           *   a slab of obsidian
+E 1 28919 1 16 100 0 0 0           *   the barbed javelin
+G 1 28918 1 0 100 0 0 0            *    an official key
+M 0 28923 1 29027 100 0 0 0        * an obsidian golem
+E 1 28921 1 2 100 0 0 0            *   an obsidian circle
+G 1 28922 1 0 100 0 0 0            *    a scrap of paper
+G 1 28994 2 0 100 0 0 0            *    the hatch key
+M 0 28966 6 29030 100 0 0 0        * a large hobgoblin soldier
+M 0 28997 4 29030 100 0 0 0        * a nervous hobgoblin soldier
+M 0 28966 6 29030 100 0 0 0        * a large hobgoblin soldier
+M 0 28997 4 29030 100 0 0 0        * a nervous hobgoblin soldier
+M 0 28966 6 29030 100 0 0 0        * a large hobgoblin soldier
+M 0 28935 2 29031 100 0 0 0        * a raging illithid
+M 0 28984 2 29032 100 0 0 0        * an unfortunate hill giant
+M 0 28990 2 29033 100 0 0 0        * a gnome missing both ears
+M 0 28925 1 29035 100 0 0 0        * a dwarven gladiator
+F 1 28928 1 29035 100 0 0 0        * a elf gladiator (following)
+M 0 28946 5 29036 100 0 0 0        * a half-orc gladiator
+M 0 28947 1 29038 100 0 0 0        * a ravenous wolf
+M 0 28946 5 29039 100 0 0 0        * a half-orc gladiator
+M 0 28930 2 29040 100 0 0 0        * an enraged lion
+M 0 28926 1 29043 100 0 0 0        * The Champion
+E 1 28930 1 3 100 0 0 0            *   the laurel medallion
+E 1 28926 2 14 100 0 0 0           *   a blood inscribed bracer
+E 1 28926 2 15 100 0 0 0           *   a blood inscribed bracer
+E 1 28925 1 16 100 0 0 0           *   a three tailed whip
+M 0 28946 5 29044 100 0 0 0        * a half-orc gladiator
+M 0 28953 2 29045 100 0 0 0        * a one-armed thri-kreen
+M 0 28945 2 29046 100 0 0 0        * a wemic gladiator
+M 0 28935 2 29047 100 0 0 0        * a raging illithid
+M 0 28930 2 29048 100 0 0 0        * an enraged lion
+M 0 28946 5 29049 100 0 0 0        * a half-orc gladiator
+M 0 28990 2 29050 100 0 0 0        * a gnome missing both ears
+M 0 28987 1 29051 100 0 0 0        * a ratkin gladiator
+M 0 28979 2 29053 100 0 0 0        * a ravenous warg
+M 0 28979 2 29054 100 0 0 0        * a ravenous warg
+M 0 28983 1 29055 100 0 0 0        * a confused baby dragon
+M 0 28945 2 29056 100 0 0 0        * a wemic gladiator
+M 0 28946 5 29057 100 0 0 0        * a half-orc gladiator
+M 0 28984 2 29058 100 0 0 0        * an unfortunate hill giant
+M 0 28953 2 29059 100 0 0 0        * a one-armed thri-kreen
+M 0 28944 1 29060 100 0 0 0        * a goblin gladiator
+F 1 28927 2 29060 100 0 0 0        * a kobold gladiator (following)
+F 1 28927 2 29060 100 0 0 0        * a kobold gladiator (following)
+M 0 28948 1 29061 100 0 0 0        * LLznixor, the legend
+E 1 28944 1 24 100 0 0 0           *   Llznixor's cleaned skull symbol
+M 0 28949 1 29061 100 0 0 0        * Elirandel, the legend
+G 1 28947 1 0 100 0 0 0            *    Elirandel's ball of flame
+M 0 28950 1 29061 100 0 0 0        * Dorn, the legend
+E 1 28945 1 6 100 0 0 0            *   Dorn's steel forehead plate
+M 0 28951 1 29061 100 0 0 0        * Tibor, the legend
+G 1 28946 1 0 100 0 0 0            *    Tibor's tankard
+M 0 28952 1 29061 100 0 0 0        * Jonxin, the legend
+G 1 28948 1 0 100 0 0 0            *    Jonxin's magic cards
+M 0 28954 1 29061 100 0 0 0        * Smurp, the legend
+E 1 28949 1 16 100 0 0 0           *   Smurp's boot knife
+M 0 28955 1 29061 100 0 0 0        * Kulnon, the legend
+E 1 28950 1 9 100 0 0 0            *   Kulnon's brass knuckles
+M 0 28957 1 29061 100 0 0 0        * Lanom, the legend
+E 1 28951 1 3 100 0 0 0            *   Lanom's medallion of purity
+M 0 28929 1 29064 100 0 0 0        * Councilor Zillra
+E 1 28931 1 21 100 0 0 0           *   the sapphire star
+G 1 28938 1 0 100 0 0 0            *    a secret promise ring
+F 1 28933 8 29064 100 0 0 0        * a fomorian giant guard (following)
+F 1 28933 8 29064 100 0 0 0        * a fomorian giant guard (following)
+M 0 28931 2 29065 100 0 0 0        * a limestone golem
+M 0 28931 2 29065 100 0 0 0        * a limestone golem
+E 1 28935 1 2 100 0 0 0            *   a limestone circle
+M 0 28940 5 29067 100 0 0 0        * a fomorian giant
+M 0 28940 5 29069 100 0 0 0        * a fomorian giant
+M 0 28932 1 29070 100 0 0 0        * Councilor Zojt
+E 1 28937 1 16 100 0 0 0           *   a gem studded foil
+F 1 28933 8 29070 100 0 0 0        * a fomorian giant guard (following)
+F 1 28933 8 29070 100 0 0 0        * a fomorian giant guard (following)
+M 0 28934 1 29073 100 0 0 0        * Councilor Zarina
+E 1 28943 1 24 100 0 0 0           *   a silverthorn corsage
+F 1 28933 8 29073 100 0 0 0        * a fomorian giant guard (following)
+F 1 28933 8 29073 100 0 0 0        * a fomorian giant guard (following)
+F 1 28936 1 29073 100 0 0 0        * a hobgoblin jeweler (following)
+G 1 28959 1 0 20 0 0 0             *    an intricate jeweler's chisel
+G 1 28977 1 0 100 0 0 0            *    a diamond stud covered in blood
+M 0 28940 5 29074 100 0 0 0        * a fomorian giant
+M 0 28940 5 29075 100 0 0 0        * a fomorian giant
+M 0 28937 1 29077 100 0 0 0        * Councilor Zuzon
+E 1 28942 1 13 100 0 0 0           *   the silk twined rope
+G 1 28980 1 0 100 0 0 0            *    the head of the former dwarven lord
+F 1 28933 8 29077 100 0 0 0        * a fomorian giant guard (following)
+F 1 28933 8 29077 100 0 0 0        * a fomorian giant guard (following)
+M 0 28940 5 29078 100 0 0 0        * a fomorian giant
+M 0 28938 1 29080 100 0 0 0        * fomorian commander
+G 1 28939 1 0 100 0 0 0            *    a glowing key
+F 1 28939 2 29080 100 0 0 0        * a fomorian giant elite guard (following)
+F 1 28939 2 29080 100 0 0 0        * a fomorian giant elite guard (following)
+M 0 28941 1 29081 100 0 0 0        * Tagnor
+G 1 28940 1 0 100 0 0 0            *    a tiny gold locket
+G 1 28953 1 0 100 0 0 0            *    a skull topped, spear impaled key
+M 0 28942 1 29081 100 0 0 0        * Councilor Zravi
+G 1 28982 1 0 100 0 0 0            *    the unholy chisel of shaping
+M 0 28943 1 29081 100 0 0 0        * Councilor Zorn
+E 1 28941 1 10 100 0 0 0           *   two marbled coiling serpents
+M 0 28924 2 29083 100 0 0 0        * a hobnobbing duergar
+M 0 28981 2 29083 100 0 0 0        * a hobnobbing rakshasa
+M 0 28982 1 29084 100 0 0 0        * a hobnobbing hobgoblin
+M 0 28991 2 29084 100 0 0 0        * a hobnobbing flind
+M 0 28965 1 29085 100 0 0 0        * a pacing preoccupied woman
+M 0 28991 2 29085 100 0 0 0        * a hobnobbing flind
+M 0 28981 2 29086 100 0 0 0        * a hobnobbing rakshasa
+M 0 28924 2 29086 100 0 0 0        * a hobnobbing duergar
+M 0 28959 3 29090 100 0 0 0        * a granite golem
+G 1 28978 1 0 100 0 0 0            *    a stony granite face
+M 0 28959 3 29090 100 0 0 0        * a granite golem
+M 0 28959 3 29090 100 0 0 0        * a granite golem
+M 0 28961 1 29092 100 0 0 0        * Timoro the mastermind
+E 1 28972 1 5 100 0 0 0            *   the ultrathin robes of probability
+F 1 28960 1 29092 100 0 0 0        * Timoro's musician (following)
+G 1 28970 1 0 100 0 0 0            *    a bag of wonderous depth
+P 1 28971 1 28970 100 0 0 0        *   a finely curved horn
+M 0 28963 1 29093 100 0 0 0        * Torg
+E 1 28961 1 8 100 0 0 0            *   the boots of the war giant Torg
+E 1 28960 1 9 100 0 0 0            *   the gauntlets of the war giant Torg
+E 1 28966 1 16 100 0 0 0           *   a bloodsoaked obsidian column
+F 1 28962 1 29093 100 0 0 0        * Gilaxi (following)
+E 1 28963 1 3 100 0 0 0            *   some kharma mind beads
+G 1 28999 1 0 100 0 0 0            *    A mithril key
+M 0 28995 5 29095 100 0 0 0        * a common mage soldier
+M 0 28910 10 29096 100 0 0 0       * a veteran hobgoblin guard
+M 0 28978 9 29097 100 0 0 0        * a veteran ogre guard
+M 0 28910 10 29098 100 0 0 0       * a veteran hobgoblin guard
+M 0 28995 5 29099 100 0 0 0        * a common mage soldier
+M 0 28911 9 29101 100 0 0 0        * a hobgoblin child
+M 0 28970 9 29102 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29102 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29102 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29102 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29102 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28967 1 29105 100 0 0 0        * an orc miner
+M 0 28968 1 29106 100 0 0 0        * Gornogo, the butcher
+G 1 28958 1 0 100 0 0 0            *    a centaur haunch
+G 1 28964 999 0 100 0 0 0          *    a halfling belly
+G 1 28965 999 0 100 0 0 0          *    a barbarian rib
+M 0 28970 9 29107 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29107 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29107 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29107 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29107 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28969 9 29108 100 0 0 0        * an ogre soldier
+M 0 28996 6 29108 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29108 100 0 0 0        * an ogre soldier
+M 0 28996 6 29108 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29108 100 0 0 0        * an ogre soldier
+M 0 28969 9 29109 100 0 0 0        * an ogre soldier
+M 0 28996 6 29109 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29109 100 0 0 0        * an ogre soldier
+M 0 28996 6 29109 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29109 100 0 0 0        * an ogre soldier
+M 0 28966 6 29110 100 0 0 0        * a large hobgoblin soldier
+M 0 28997 4 29110 100 0 0 0        * a nervous hobgoblin soldier
+M 0 28966 6 29110 100 0 0 0        * a large hobgoblin soldier
+M 0 28997 4 29110 100 0 0 0        * a nervous hobgoblin soldier
+M 0 28966 6 29110 100 0 0 0        * a large hobgoblin soldier
+M 0 28969 9 29111 100 0 0 0        * an ogre soldier
+M 0 28996 6 29111 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29111 100 0 0 0        * an ogre soldier
+M 0 28996 6 29111 100 0 0 0        * a grumbling ogre soldier
+M 0 28969 9 29111 100 0 0 0        * an ogre soldier
+M 0 28970 9 29112 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29112 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29112 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28999 6 29112 100 0 0 0        * an alert veteran hobgoblin soldier
+M 0 28970 9 29112 100 0 0 0        * a veteran hobgoblin soldier
+M 0 28971 6 29113 100 0 0 0        * an orc mercenary
+M 0 28998 4 29113 100 0 0 0        * an angry orc mercenary
+M 0 28971 6 29113 100 0 0 0        * an orc mercenary
+M 0 28998 4 29113 100 0 0 0        * an angry orc mercenary
+M 0 28971 6 29113 100 0 0 0        * an orc mercenary
+M 0 28971 6 29114 100 0 0 0        * an orc mercenary
+M 0 28998 4 29114 100 0 0 0        * an angry orc mercenary
+M 0 28971 6 29114 100 0 0 0        * an orc mercenary
+M 0 28998 4 29114 100 0 0 0        * an angry orc mercenary
+M 0 28971 6 29114 100 0 0 0        * an orc mercenary
+M 0 28911 9 29115 100 0 0 0        * a hobgoblin child
+M 0 28975 1 29116 100 0 0 0        * Tibornor, the dwarven leader
+E 1 28967 1 5 100 0 0 0            *   the barbed mail of the battlerager king
+F 1 28974 1 29116 100 0 0 0        * Dranar (following)
+F 1 28977 4 29116 100 0 0 0        * a tough dwarven scout (following)
+E 1 28969 4 16 100 0 0 0           *   sharp spike of stone
+F 1 28976 4 29116 100 0 0 0        * a hardened dwarven battlerager (following)
+E 1 28968 4 16 100 0 0 0           *   a half-moon battleaxe
+F 1 28977 4 29116 100 0 0 0        * a tough dwarven scout (following)
+E 1 28969 4 16 100 0 0 0           *   sharp spike of stone
+F 1 28976 4 29116 100 0 0 0        * a hardened dwarven battlerager (following)
+E 1 28968 4 16 100 0 0 0           *   a half-moon battleaxe
+F 1 28977 4 29116 100 0 0 0        * a tough dwarven scout (following)
+E 1 28969 4 16 100 0 0 0           *   sharp spike of stone
+F 1 28976 4 29116 100 0 0 0        * a hardened dwarven battlerager (following)
+E 1 28968 4 16 100 0 0 0           *   a half-moon battleaxe
+F 1 28977 4 29116 100 0 0 0        * a tough dwarven scout (following)
+E 1 28969 4 16 100 0 0 0           *   sharp spike of stone
+F 1 28976 4 29116 100 0 0 0        * a hardened dwarven battlerager (following)
+E 1 28968 4 16 100 0 0 0           *   a half-moon battleaxe
+F 1 29024 1 29116 100 0 0 0        * the dwarven equipment master (following)
+M 0 28992 3 29118 100 0 0 0        * a common worker
+M 0 28992 3 29118 100 0 0 0        * a common worker
+M 0 28992 3 29118 100 0 0 0        * a common worker
+M 0 28980 3 29119 100 0 0 0        * a common worker
+M 0 28980 3 29119 100 0 0 0        * a common worker
+M 0 28980 3 29119 100 0 0 0        * a common worker
+M 0 29000 1 29123 100 0 0 0        * Tranug, the treacherous
+G 1 28983 1 0 50 0 0 0             *    a piece of cloth from Vecna's robe
+G 1 28985 1 0 50 0 0 0             *    the hand of an elven prodigy
+G 1 28984 1 0 50 0 0 0             *    a shaving of one of Bahamut's scales
+M 0 29001 2 29131 100 0 0 0        * the drunk hobgoblin guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29013 4 29136 100 0 0 0        * a hobgoblin prison guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29013 4 29137 100 0 0 0        * a hobgoblin prison guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29002 4 29138 100 0 0 0        * the starved goblin
+M 0 29003 4 29138 100 0 0 0        * the angry starved goblin
+M 0 29002 4 29138 100 0 0 0        * the starved goblin
+M 0 29003 4 29138 100 0 0 0        * the angry starved goblin
+M 0 29004 4 29139 100 0 0 0        * the starved kobold
+M 0 29005 4 29139 100 0 0 0        * the angry starved kobold
+M 0 29004 4 29139 100 0 0 0        * the starved kobold
+M 0 29005 4 29139 100 0 0 0        * the angry starved kobold
+M 0 29004 4 29140 100 0 0 0        * the starved kobold
+M 0 29005 4 29140 100 0 0 0        * the angry starved kobold
+M 0 29004 4 29140 100 0 0 0        * the starved kobold
+M 0 29005 4 29140 100 0 0 0        * the angry starved kobold
+M 0 29002 4 29141 100 0 0 0        * the starved goblin
+M 0 29003 4 29141 100 0 0 0        * the angry starved goblin
+M 0 29002 4 29141 100 0 0 0        * the starved goblin
+M 0 29003 4 29141 100 0 0 0        * the angry starved goblin
+M 0 29013 4 29145 100 0 0 0        * a hobgoblin prison guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29006 4 29146 100 0 0 0        * the tortured dwarf
+M 0 29007 4 29146 100 0 0 0        * the heavily tortured dwarf
+M 0 29006 4 29146 100 0 0 0        * the tortured dwarf
+M 0 29007 4 29146 100 0 0 0        * the heavily tortured dwarf
+M 0 29006 4 29147 100 0 0 0        * the tortured dwarf
+M 0 29007 4 29147 100 0 0 0        * the heavily tortured dwarf
+M 0 29007 4 29147 100 0 0 0        * the heavily tortured dwarf
+M 0 29006 4 29147 100 0 0 0        * the tortured dwarf
+M 0 29013 4 29148 100 0 0 0        * a hobgoblin prison guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29008 4 29150 100 0 0 0        * the tortured gnome
+M 0 29009 4 29150 100 0 0 0        * the badly tortured gnome
+M 0 29008 4 29150 100 0 0 0        * the tortured gnome
+M 0 29009 4 29150 100 0 0 0        * the badly tortured gnome
+M 0 29008 4 29151 100 0 0 0        * the tortured gnome
+M 0 29009 4 29151 100 0 0 0        * the badly tortured gnome
+M 0 29008 4 29151 100 0 0 0        * the tortured gnome
+M 0 29009 4 29151 100 0 0 0        * the badly tortured gnome
+M 0 29001 2 29156 100 0 0 0        * the drunk hobgoblin guard
+G 1 28976 6 0 100 0 0 0            *    a cell key
+M 0 29011 3 29160 100 0 0 0        * the chained lion
+M 0 29010 3 29163 100 0 0 0        * the chained warg
+M 0 29010 3 29164 100 0 0 0        * the chained warg
+M 0 29011 3 29165 100 0 0 0        * the chained lion
+M 0 29011 3 29166 100 0 0 0        * the chained lion
+M 0 29010 3 29167 100 0 0 0        * the chained warg
+M 0 29012 2 29168 100 0 0 0        * a mean ogre prison guard
+M 0 29012 2 29168 100 0 0 0        * a mean ogre prison guard
+G 1 28992 1 0 100 0 0 0            *    the staging key
+M 0 29014 3 29169 100 0 0 0        * a fomorian giant prison guard
+M 0 29017 1 29169 100 0 0 0        * a dwarven gladiator
+M 0 29015 3 29170 100 0 0 0        * a githyanki prison guard
+M 0 29016 3 29170 100 0 0 0        * a half-orc gladiator
+M 0 29014 3 29171 100 0 0 0        * a fomorian giant prison guard
+M 0 29015 3 29172 100 0 0 0        * a githyanki prison guard
+M 0 29014 3 29173 100 0 0 0        * a fomorian giant prison guard
+M 0 29016 3 29173 100 0 0 0        * a half-orc gladiator
+M 0 29015 3 29174 100 0 0 0        * a githyanki prison guard
+M 0 29018 2 29174 100 0 0 0        * a elf gladiator
+M 0 29016 3 29175 100 0 0 0        * a half-orc gladiator
+M 0 29018 2 29176 100 0 0 0        * a elf gladiator
+M 0 29020 1 29176 100 0 0 0        * the gate master
+G 1 28993 2 0 100 0 0 0            *    the fence key
+F 1 29019 2 29176 100 0 0 0        * a rough looking ogre guard (following)
+F 1 29019 2 29176 100 0 0 0        * a rough looking ogre guard (following)
+M 0 29022 1 29177 100 0 0 0        * captain of the iron bloodhounds
+E 1 28995 1 3 100 0 0 0            *   a charm made of dwarf bone
+E 1 28996 1 20 100 0 0 0           *   mask of the iron bloodhounds
+G 1 28994 2 0 100 0 0 0            *    the hatch key
+G 1 28993 2 0 100 0 0 0            *    the fence key
+F 1 29021 3 29177 100 0 0 0        * member of the iron bloodhounds (following)
+F 1 29021 3 29177 100 0 0 0        * member of the iron bloodhounds (following)
+F 1 29021 3 29177 100 0 0 0        * member of the iron bloodhounds (following)
+M 0 29025 1 29178 100 0 0 0        * Lanella, the concubine of Timoro
+*
+S

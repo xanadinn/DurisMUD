@@ -1,0 +1,487 @@
+#133
+&+LThe Caverns of &+rArmageddon&n~
+13448 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 13348 2 5 100 0 0 0
+*     south exit from "Behind a Waterfall" to
+*     "Before an Underground Waterspray" - closed/secret
+*
+D 0 13428 0 5 100 0 0 0
+*     north exit from "Before an Underground Waterspray" to
+*     "Behind a Waterfall" - closed/secret
+*
+D 0 13368 2 6 100 0 0 0
+*     south exit from "Before the Vault" to
+*     "The Vault" - closed/locked/secret
+*
+D 0 13371 0 6 100 0 0 0
+*     north exit from "The Vault" to
+*     "Before the Vault" - closed/locked/secret
+*
+D 0 13375 5 2 100 0 0 0
+*     down exit from "Before a Shaft Leading into the Caverns" to
+*     "Junction One" - closed/locked
+*
+D 0 13376 4 2 100 0 0 0
+*     up exit from "Junction One" to
+*     "Before a Shaft Leading into the Caverns" - closed/locked
+*
+D 0 13377 1 1 100 0 0 0
+*     east exit from "The War Room" to
+*     "Inside a Large Open Cavern" - closed
+*
+D 0 13385 3 1 100 0 0 0
+*     west exit from "Inside a Large Open Cavern" to
+*     "The War Room" - closed
+*
+D 0 13380 2 1 100 0 0 0
+*     south exit from "The Slave Master's Office" to
+*     "The Slave Compound" - closed
+*
+D 0 13407 0 1 100 0 0 0
+*     north exit from "The Slave Compound" to
+*     "The Slave Master's Office" - closed
+*
+D 0 13381 2 1 100 0 0 0
+*     south exit from "The Troll Unit Station" to
+*     "A Rocky Tunnel East" - closed
+*
+D 0 13401 0 1 100 0 0 0
+*     north exit from "A Rocky Tunnel East" to
+*     "The Troll Unit Station" - closed
+*
+D 0 13387 5 5 100 0 0 0
+*     down exit from "An Intersection in the Caves" to
+*     "A Hidden Lair" - closed/secret
+*
+D 0 13438 4 5 100 0 0 0
+*     up exit from "A Hidden Lair" to
+*     "An Intersection in the Caves" - closed/secret
+*
+D 0 13391 3 1 100 0 0 0
+*     west exit from "Before a Rusted Door" to
+*     "The Hall of Altars" - closed
+*
+D 0 13392 1 1 100 0 0 0
+*     east exit from "The Hall of Altars" to
+*     "Before a Rusted Door" - closed
+*
+D 0 13395 0 1 100 0 0 0
+*     north exit from "Inside the Caverns of Armageddon" to
+*     "The Thief Lord's Chamber" - closed
+*
+D 0 13396 2 1 100 0 0 0
+*     south exit from "The Thief Lord's Chamber" to
+*     "Inside the Caverns of Armageddon" - closed
+*
+D 0 13396 1 2 100 0 0 0
+*     east exit from "The Thief Lord's Chamber" to
+*     "A Set of Descending Stone Steps" - closed/locked
+*
+D 0 13397 3 2 100 0 0 0
+*     west exit from "A Set of Descending Stone Steps" to
+*     "The Thief Lord's Chamber" - closed/locked
+*
+D 0 13399 0 1 100 0 0 0
+*     north exit from "Within the Twisting Caverns" to
+*     "The Slave Compound" - closed
+*
+D 0 13407 2 1 100 0 0 0
+*     south exit from "The Slave Compound" to
+*     "Within the Twisting Caverns" - closed
+*
+D 0 13402 1 1 100 0 0 0
+*     east exit from "Before a Wooden Door" to
+*     "The Barracks" - closed
+*
+D 0 13403 3 1 100 0 0 0
+*     west exit from "The Barracks" to
+*     "Before a Wooden Door" - closed
+*
+D 0 13404 2 1 100 0 0 0
+*     south exit from "The Barracks" to
+*     "The Barracks" - closed
+*
+D 0 13405 0 1 100 0 0 0
+*     north exit from "The Barracks" to
+*     "The Barracks" - closed
+*
+D 0 13405 3 1 100 0 0 0
+*     west exit from "The Barracks" to
+*     "The Captain's Quarters" - closed
+*
+D 0 13406 1 1 100 0 0 0
+*     east exit from "The Captain's Quarters" to
+*     "The Barracks" - closed
+*
+D 0 13409 1 1 100 0 0 0
+*     east exit from "The Slave Compound" to
+*     "Within the Twisting Caverns" - closed
+*
+D 0 13410 3 1 100 0 0 0
+*     west exit from "Within the Twisting Caverns" to
+*     "The Slave Compound" - closed
+*
+D 0 13419 1 2 100 0 0 0
+*     east exit from "Before a Large Cavern" to
+*     "A Huge Cavern" - closed/locked
+*
+D 0 13420 3 2 100 0 0 0
+*     west exit from "A Huge Cavern" to
+*     "Before a Large Cavern" - closed/locked
+*
+*
+O 0 13300 1 13313 100 0 0 0        * a campfire
+O 0 13302 1 13313 100 0 0 0        * a tent
+O 0 13301 1 13320 100 0 0 0        * a cold forest pond
+O 0 13305 5 13323 100 0 0 0        * a keg of ale
+O 0 13305 5 13323 100 0 0 0        * a keg of ale
+O 0 13305 5 13323 100 0 0 0        * a keg of ale
+O 0 13305 5 13324 100 0 0 0        * a keg of ale
+O 0 13305 5 13324 100 0 0 0        * a keg of ale
+O 0 13363 1 13341 100 0 0 0        * a swirling portal
+O 0 13306 1 13355 100 0 0 0        * a magnificent statue
+O 0 67278 1 13371 100 0 0 0        * (object type not in this .obj file)
+O 0 359 1 13371 100 0 0 0          * (object type not in this .obj file)
+O 0 13341 2 13383 100 0 0 0        * a pile of corpses
+O 0 13340 1 13384 100 0 0 0        * a wounded Myrabolan soldier
+P 1 13359 2 13340 100 0 0 0        *   the tags of the Myrabolan guard
+O 0 13341 2 13384 100 0 0 0        * a pile of corpses
+O 0 13325 1 13393 100 0 0 0        * a basin of blood
+P 1 13313 1 13325 100 0 0 0        *   a chipped key of rock
+O 0 13323 1 13395 100 0 0 0        * a dying Wild Card mercenary
+P 1 13330 1 13323 100 0 0 0        *   the tags of a Wild Card
+O 0 13338 1 13397 100 0 0 0        * a dying Soldier of Fortune
+P 1 13359 2 13338 100 0 0 0        *   the tags of the Myrabolan guard
+O 0 13339 1 13426 100 0 0 0        * a rift in the cavern wall
+O 0 72 100 13431 100 0 0 0         * (object type not in this .obj file)
+O 0 13364 4 13442 100 0 0 0        * a chest of treasure
+O 0 13364 4 13442 100 0 0 0        * a chest of treasure
+O 0 13364 4 13444 100 0 0 0        * a chest of treasure
+O 0 13364 4 13444 100 0 0 0        * a chest of treasure
+O 0 13365 1 13448 100 0 0 0        * a lost monkey
+*
+M 0 13307 8 13310 100 0 0 0        * a member of the soldiers of fortune
+M 0 13305 1 13311 100 0 0 0        * Drimble
+M 0 13304 1 13312 100 0 0 0        * Clond
+M 0 13310 1 13313 100 0 0 0        * Captain Engleton
+M 0 13303 1 13314 100 0 0 0        * Mastiff
+M 0 13302 1 13316 100 0 0 0        * Shix
+M 0 13307 8 13317 100 0 0 0        * a member of the soldiers of fortune
+M 0 13308 1 13318 100 0 0 0        * Kantara
+M 0 13318 1 13319 100 0 0 0        * Berelain
+M 0 13321 1 13320 100 0 0 0        * Redana
+M 0 13306 1 13321 100 0 0 0        * Cecil
+M 0 13322 1 13322 100 0 0 0        * Rudamuse
+M 0 13307 8 13323 100 0 0 0        * a member of the soldiers of fortune
+M 0 13300 1 13323 100 0 0 0        * Wicks
+M 0 13301 1 13324 100 0 0 0        * Valquin
+M 0 13323 5 13326 100 0 0 0        * a fluffy bunny
+M 0 13324 5 13327 100 0 0 0        * a proud stag
+M 0 13323 5 13328 100 0 0 0        * a fluffy bunny
+M 0 13324 5 13329 100 0 0 0        * a proud stag
+M 0 13323 5 13330 100 0 0 0        * a fluffy bunny
+M 0 13323 5 13335 100 0 0 0        * a fluffy bunny
+M 0 13388 2 13335 100 0 0 0        * a huge grizzly bear
+M 0 13389 1 13335 100 0 0 0        * an orc grunt
+M 0 13324 5 13337 100 0 0 0        * a proud stag
+M 0 13325 3 13338 100 0 0 0        * a bald-eagle
+M 0 13335 1 13339 100 0 0 0        * a pikachu
+M 0 13312 1 13341 100 0 0 0        * Xavier
+M 0 13313 1 13341 100 0 0 0        * the Dragon Queen
+M 0 13324 5 13344 100 0 0 0        * a proud stag
+M 0 13325 3 13345 100 0 0 0        * a bald-eagle
+M 0 13311 1 13346 100 0 0 0        * Maveriss
+M 0 13367 12 13347 100 0 0 0       * a vicious wererat
+M 0 13367 12 13347 100 0 0 0       * a vicious wererat
+M 0 13364 1 13349 100 0 0 0        * Blicatch
+M 0 13324 5 13352 100 0 0 0        * a proud stag
+M 0 13325 3 13353 100 0 0 0        * a bald-eagle
+M 0 13388 2 13353 100 0 0 0        * a huge grizzly bear
+M 0 13323 5 13354 100 0 0 0        * a fluffy bunny
+M 0 13317 1 13355 100 0 0 0        * Ajax
+M 0 13314 3 13356 100 0 0 0        * a frustrated monk
+M 0 13314 3 13356 100 0 0 0        * a frustrated monk
+M 0 13316 8 13358 100 0 0 0        * a praying monk
+M 0 13316 8 13358 100 0 0 0        * a praying monk
+M 0 13316 8 13359 100 0 0 0        * a praying monk
+M 0 13316 8 13359 100 0 0 0        * a praying monk
+M 0 13315 5 13361 100 0 0 0        * an enraged monk
+M 0 13315 5 13361 100 0 0 0        * an enraged monk
+M 0 13315 5 13362 100 0 0 0        * an enraged monk
+M 0 13316 8 13363 100 0 0 0        * a praying monk
+M 0 13316 8 13363 100 0 0 0        * a praying monk
+M 0 13316 8 13364 100 0 0 0        * a praying monk
+M 0 13316 8 13364 100 0 0 0        * a praying monk
+M 0 13330 17 13365 100 0 0 0       * an orc soldier
+M 0 13330 17 13365 100 0 0 0       * an orc soldier
+M 0 13330 17 13365 100 0 0 0       * an orc soldier
+M 0 13379 4 13365 100 0 0 0        * a deadly assassin
+M 0 13314 3 13366 100 0 0 0        * a frustrated monk
+M 0 13315 5 13367 100 0 0 0        * an enraged monk
+M 0 13319 1 13368 100 0 0 0        * the Abbot
+E 1 13304 1 16 100 0 0 0           *   the scepter of kilospanatis
+M 0 13320 1 13368 100 0 0 0        * the Archdeacon
+M 0 13315 5 13370 100 0 0 0        * an enraged monk
+M 0 13358 11 13372 100 0 0 0       * a vampire bat
+M 0 13358 11 13372 100 0 0 0       * a vampire bat
+M 0 13358 11 13373 100 0 0 0       * a vampire bat
+M 0 13358 11 13373 100 0 0 0       * a vampire bat
+M 0 13358 11 13373 100 0 0 0       * a vampire bat
+M 0 13376 17 13373 100 0 0 0       * a cave beetle
+M 0 13376 17 13373 100 0 0 0       * a cave beetle
+M 0 13358 11 13374 100 0 0 0       * a vampire bat
+M 0 13358 11 13374 100 0 0 0       * a vampire bat
+M 0 13330 17 13374 100 0 0 0       * an orc soldier
+M 0 13330 17 13374 100 0 0 0       * an orc soldier
+M 0 13330 17 13374 100 0 0 0       * an orc soldier
+R 1 13372 6 13374 100 0 0 0        * a rabid warg (being ridden)
+M 0 13370 2 13375 100 0 0 0        * an elite orc soldier
+G 1 13314 1 0 100 0 0 0            *    a key of steel
+M 0 13367 12 13375 100 0 0 0       * a vicious wererat
+M 0 13367 12 13375 100 0 0 0       * a vicious wererat
+M 0 13331 7 13375 100 0 0 0        * an orc sentry
+M 0 13331 7 13375 100 0 0 0        * an orc sentry
+M 0 13376 17 13375 100 0 0 0       * a cave beetle
+M 0 13376 17 13375 100 0 0 0       * a cave beetle
+M 0 13376 17 13375 100 0 0 0       * a cave beetle
+M 0 13376 17 13375 100 0 0 0       * a cave beetle
+M 0 13385 15 13376 100 0 0 0       * an orc grunt
+M 0 13385 15 13376 100 0 0 0       * an orc grunt
+M 0 13385 15 13376 100 0 0 0       * an orc grunt
+M 0 13385 15 13376 100 0 0 0       * an orc grunt
+M 0 13385 15 13376 100 0 0 0       * an orc grunt
+M 0 13354 3 13377 100 0 0 0        * an orc shock troop
+M 0 13354 3 13377 100 0 0 0        * an orc shock troop
+M 0 13354 3 13377 100 0 0 0        * an orc shock troop
+M 0 13361 1 13377 100 0 0 0        * Renatta, the orc lieutenant
+G 1 13342 1 0 100 0 0 0            *    the severed head of Renatta
+M 0 13346 7 13378 100 0 0 0        * an orc battle-mage
+M 0 13346 7 13378 100 0 0 0        * an orc battle-mage
+M 0 13346 7 13379 100 0 0 0        * an orc battle-mage
+M 0 13346 7 13379 100 0 0 0        * an orc battle-mage
+M 0 13368 1 13379 100 0 0 0        * Zeelnar
+G 1 13348 1 0 100 0 0 0            *    the severed head of Zeelnar
+M 0 13349 1 13380 100 0 0 0        * Grue, the slave master
+G 1 13354 1 0 100 0 0 0            *    the severed head of Grue
+M 0 13384 2 13380 100 0 0 0        * a flind guard
+M 0 13384 2 13380 100 0 0 0        * a flind guard
+M 0 13386 1 13381 100 0 0 0        * Hackzen, the troll ragelord
+G 1 13362 1 0 100 0 0 0            *    the severed head of Hackzen
+F 1 13387 1 13381 100 0 0 0        * a troll captain (following)
+M 0 13359 3 13382 100 0 0 0        * a goblin windlord
+M 0 13359 3 13382 100 0 0 0        * a goblin windlord
+M 0 13359 3 13382 100 0 0 0        * a goblin windlord
+M 0 13380 1 13382 100 0 0 0        * a frenzied mercenary
+M 0 13374 1 13382 100 0 0 0        * Jigoog, the windmaster
+G 1 13343 1 0 100 0 0 0            *    the severed head of Jigoog
+M 0 13394 5 13382 100 0 0 0        * an orc priest
+M 0 13373 1 13384 100 0 0 0        * a valiant crusader
+M 0 13370 2 13384 100 0 0 0        * an elite orc soldier
+M 0 13369 9 13384 100 0 0 0        * a ravaging carrion beast
+M 0 13369 9 13384 100 0 0 0        * a ravaging carrion beast
+M 0 13369 9 13384 100 0 0 0        * a ravaging carrion beast
+M 0 13372 6 13385 100 0 0 0        * a rabid warg
+M 0 13372 6 13385 100 0 0 0        * a rabid warg
+M 0 13336 6 13385 100 0 0 0        * an orc battle-mage
+M 0 13336 6 13385 100 0 0 0        * an orc battle-mage
+M 0 13367 12 13386 100 0 0 0       * a vicious wererat
+M 0 13367 12 13386 100 0 0 0       * a vicious wererat
+M 0 13367 12 13386 100 0 0 0       * a vicious wererat
+M 0 13367 12 13386 100 0 0 0       * a vicious wererat
+M 0 13376 17 13386 100 0 0 0       * a cave beetle
+M 0 13376 17 13386 100 0 0 0       * a cave beetle
+M 0 13376 17 13386 100 0 0 0       * a cave beetle
+M 0 13376 17 13386 100 0 0 0       * a cave beetle
+M 0 13376 17 13386 100 0 0 0       * a cave beetle
+M 0 13353 1 13387 100 0 0 0        * a cosmic golem sentinel
+M 0 13358 11 13388 100 0 0 0       * a vampire bat
+M 0 13358 11 13388 100 0 0 0       * a vampire bat
+M 0 13385 15 13389 100 0 0 0       * an orc grunt
+M 0 13385 15 13389 100 0 0 0       * an orc grunt
+M 0 13330 17 13390 100 0 0 0       * an orc soldier
+M 0 13330 17 13390 100 0 0 0       * an orc soldier
+M 0 13369 9 13390 100 0 0 0        * a ravaging carrion beast
+M 0 13369 9 13390 100 0 0 0        * a ravaging carrion beast
+M 0 13336 6 13390 100 0 0 0        * an orc battle-mage
+M 0 13331 7 13391 100 0 0 0        * an orc sentry
+M 0 13394 5 13391 100 0 0 0        * an orc priest
+M 0 13376 17 13391 100 0 0 0       * a cave beetle
+M 0 13376 17 13391 100 0 0 0       * a cave beetle
+M 0 13376 17 13391 100 0 0 0       * a cave beetle
+M 0 13334 4 13393 100 0 0 0        * an orc priest
+M 0 13334 4 13393 100 0 0 0        * an orc priest
+M 0 13362 1 13393 100 0 0 0        * Graiven, the orcish high priest
+G 1 13356 1 0 100 0 0 0            *    the severed head of Graiven
+M 0 13394 5 13393 100 0 0 0        * an orc priest
+M 0 13334 4 13394 100 0 0 0        * an orc priest
+M 0 13334 4 13394 100 0 0 0        * an orc priest
+M 0 13369 9 13395 100 0 0 0        * a ravaging carrion beast
+M 0 13347 1 13396 100 0 0 0        * Veannan, the orc thief lord
+E 1 13331 8 16 100 0 0 0           *   a dagger of anarchy
+E 1 13331 8 17 100 0 0 0           *   a dagger of anarchy
+G 1 13345 1 0 100 0 0 0            *    the severed head of Veannan
+M 0 13369 9 13397 100 0 0 0        * a ravaging carrion beast
+M 0 13369 9 13397 100 0 0 0        * a ravaging carrion beast
+M 0 13369 9 13397 100 0 0 0        * a ravaging carrion beast
+M 0 13331 7 13398 100 0 0 0        * an orc sentry
+M 0 13331 7 13398 100 0 0 0        * an orc sentry
+M 0 13329 3 13398 100 0 0 0        * an orc major
+M 0 13394 5 13398 100 0 0 0        * an orc priest
+M 0 13338 4 13402 100 0 0 0        * a troll berserker
+M 0 13338 4 13402 100 0 0 0        * a troll berserker
+M 0 13338 4 13402 100 0 0 0        * a troll berserker
+M 0 13338 4 13402 100 0 0 0        * a troll berserker
+M 0 13330 17 13402 100 0 0 0       * an orc soldier
+M 0 13330 17 13402 100 0 0 0       * an orc soldier
+M 0 13333 8 13403 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13403 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13403 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13403 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13404 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13404 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13404 100 0 0 0        * a resting orc soldier
+M 0 13333 8 13404 100 0 0 0        * a resting orc soldier
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13391 7 13405 100 0 0 0        * a cave spider
+M 0 13390 1 13406 100 0 0 0        * the captain of the guard
+G 1 13312 1 0 100 0 0 0            *    a stone key
+M 0 13392 1 13406 100 0 0 0        * a half-orc veteran
+M 0 13350 2 13407 100 0 0 0        * an enslaved barbarian
+M 0 13366 2 13407 100 0 0 0        * a flind guardian
+M 0 13330 17 13408 100 0 0 0       * an orc soldier
+M 0 13351 1 13408 100 0 0 0        * a mercenary prisoner of war
+M 0 13352 2 13408 100 0 0 0        * an enslaved grey elf
+M 0 13350 2 13409 100 0 0 0        * an enslaved barbarian
+M 0 13352 2 13409 100 0 0 0        * an enslaved grey elf
+M 0 13366 2 13409 100 0 0 0        * a flind guardian
+M 0 13358 11 13410 100 0 0 0       * a vampire bat
+M 0 13358 11 13410 100 0 0 0       * a vampire bat
+M 0 13385 15 13410 100 0 0 0       * an orc grunt
+M 0 13385 15 13410 100 0 0 0       * an orc grunt
+M 0 13367 12 13411 100 0 0 0       * a vicious wererat
+M 0 13367 12 13411 100 0 0 0       * a vicious wererat
+M 0 13341 3 13411 100 0 0 0        * a young wyvern
+M 0 13367 12 13411 100 0 0 0       * a vicious wererat
+M 0 13367 12 13411 100 0 0 0       * a vicious wererat
+M 0 13342 1 13412 100 0 0 0        * Chowza, an orc wyvern trainer
+G 1 13355 1 0 100 0 0 0            *    the severed head of Chowza
+M 0 13340 1 13412 100 0 0 0        * an adult wyvern
+G 1 13307 1 0 100 0 0 0            *    a wyvern wing
+M 0 13341 3 13412 100 0 0 0        * a young wyvern
+M 0 13341 3 13412 100 0 0 0        * a young wyvern
+M 0 13346 7 13413 100 0 0 0        * an orc battle-mage
+M 0 13346 7 13413 100 0 0 0        * an orc battle-mage
+M 0 13385 15 13413 100 0 0 0       * an orc grunt
+M 0 13385 15 13413 100 0 0 0       * an orc grunt
+M 0 13385 15 13413 100 0 0 0       * an orc grunt
+M 0 13376 17 13413 100 0 0 0       * a cave beetle
+M 0 13376 17 13413 100 0 0 0       * a cave beetle
+M 0 13376 17 13413 100 0 0 0       * a cave beetle
+M 0 13357 1 13414 100 0 0 0        * Krazzi
+G 1 13358 1 0 100 0 0 0            *    the severed head of Krazzi
+F 1 13345 1 13414 100 0 0 0        * an enslaved fire elemental (following)
+G 1 13350 1 0 100 0 0 0            *    a wispy tendril of flame
+M 0 13355 1 13415 100 0 0 0        * a behemoth
+G 1 13336 1 0 100 0 0 0            *    a twisted behemoth tooth
+M 0 13344 1 13416 100 0 0 0        * a small beholder
+G 1 13349 1 0 100 0 0 0            *    a beholder eyestalk
+M 0 13348 3 13417 100 0 0 0        * an ogre assault soldier
+M 0 13348 3 13417 100 0 0 0        * an ogre assault soldier
+M 0 13348 3 13417 100 0 0 0        * an ogre assault soldier
+M 0 13365 1 13418 100 0 0 0        * Greeef, the ogre battlelord
+G 1 13346 1 0 100 0 0 0            *    the severed head of Greeef
+M 0 13331 7 13419 100 0 0 0        * an orc sentry
+M 0 13331 7 13419 100 0 0 0        * an orc sentry
+M 0 13329 3 13419 100 0 0 0        * an orc major
+M 0 13329 3 13419 100 0 0 0        * an orc major
+M 0 13394 5 13419 100 0 0 0        * an orc priest
+M 0 13385 15 13420 100 0 0 0       * an orc grunt
+M 0 13385 15 13420 100 0 0 0       * an orc grunt
+M 0 13385 15 13420 100 0 0 0       * an orc grunt
+M 0 13379 4 13421 100 0 0 0        * a deadly assassin
+E 1 13331 8 16 100 0 0 0           *   a dagger of anarchy
+E 1 13331 8 17 100 0 0 0           *   a dagger of anarchy
+M 0 13379 4 13421 100 0 0 0        * a deadly assassin
+E 1 13331 8 16 100 0 0 0           *   a dagger of anarchy
+E 1 13331 8 17 100 0 0 0           *   a dagger of anarchy
+M 0 13379 4 13421 100 0 0 0        * a deadly assassin
+E 1 13331 8 16 100 0 0 0           *   a dagger of anarchy
+E 1 13331 8 17 100 0 0 0           *   a dagger of anarchy
+M 0 13330 17 13422 100 0 0 0       * an orc soldier
+R 1 13372 6 13422 100 0 0 0        * a rabid warg (being ridden)
+M 0 13330 17 13422 100 0 0 0       * an orc soldier
+R 1 13372 6 13422 100 0 0 0        * a rabid warg (being ridden)
+M 0 13330 17 13422 100 0 0 0       * an orc soldier
+R 1 13372 6 13422 100 0 0 0        * a rabid warg (being ridden)
+M 0 13330 17 13423 100 0 0 0       * an orc soldier
+R 1 13363 2 13423 100 0 0 0        * a huge rockworm (being ridden)
+M 0 13330 17 13423 100 0 0 0       * an orc soldier
+R 1 13363 2 13423 100 0 0 0        * a huge rockworm (being ridden)
+M 0 13375 3 13424 100 0 0 0        * an elite rakshasa wizard
+M 0 13375 3 13424 100 0 0 0        * an elite rakshasa wizard
+M 0 13375 3 13424 100 0 0 0        * an elite rakshasa wizard
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13371 6 13425 100 0 0 0        * a gremlin fanatic
+M 0 13328 1 13426 100 0 0 0        * Endosa
+G 1 13347 1 0 100 0 0 0            *    the severed head of Endosa
+M 0 13339 3 13427 100 0 0 0        * a troll battle master
+M 0 13339 3 13427 100 0 0 0        * a troll battle master
+M 0 13339 3 13427 100 0 0 0        * a troll battle master
+M 0 13336 6 13428 100 0 0 0        * an orc battle-mage
+M 0 13336 6 13428 100 0 0 0        * an orc battle-mage
+M 0 13336 6 13428 100 0 0 0        * an orc battle-mage
+M 0 13330 17 13428 100 0 0 0       * an orc soldier
+R 1 13381 1 13428 100 0 0 0        * an adult wyvern (being ridden)
+M 0 13326 1 13431 100 0 0 0        * Maverick
+E 1 13310 1 10 100 0 0 0           *   the armplates of armageddon
+G 1 13352 1 0 100 0 0 0            *    the severed head of Maverick
+M 0 13327 1 13431 100 0 0 0        * Abbadon
+E 1 13367 1 6 100 0 0 0            *   the blackened crown of the Sixth Legion
+G 1 13311 1 0 100 0 0 0            *    key of the cosmos
+G 1 13366 1 0 100 0 0 0            *    the heart of Abbadon
+M 0 13332 7 13432 100 0 0 0        * a hazy blue sentinel
+M 0 13332 7 13432 100 0 0 0        * a hazy blue sentinel
+M 0 13332 7 13433 100 0 0 0        * a hazy blue sentinel
+M 0 13332 7 13433 100 0 0 0        * a hazy blue sentinel
+M 0 13356 1 13435 100 0 0 0        * a misty sentinel overlord
+M 0 13332 7 13435 100 0 0 0        * a hazy blue sentinel
+M 0 13332 7 13436 100 0 0 0        * a hazy blue sentinel
+M 0 13332 7 13436 100 0 0 0        * a hazy blue sentinel
+M 0 13378 1 13437 100 0 0 0        * Maximas, the dark knight
+E 1 13360 5 16 100 0 0 0           *   an emblazoned bastard sword
+G 1 13357 1 0 100 0 0 0            *    the severed head of Maximas
+M 0 13383 4 13437 100 0 0 0        * a soldier of Maximas
+E 1 13360 5 16 100 0 0 0           *   an emblazoned bastard sword
+M 0 13383 4 13437 100 0 0 0        * a soldier of Maximas
+E 1 13360 5 16 100 0 0 0           *   an emblazoned bastard sword
+M 0 13383 4 13437 100 0 0 0        * a soldier of Maximas
+E 1 13360 5 16 100 0 0 0           *   an emblazoned bastard sword
+M 0 13383 4 13437 100 0 0 0        * a soldier of Maximas
+E 1 13360 5 16 100 0 0 0           *   an emblazoned bastard sword
+M 0 13377 1 13438 100 0 0 0        * a rotting golem
+M 0 13382 1 13438 100 0 0 0        * Argophel, the necromancer
+G 1 13353 1 0 100 0 0 0            *    the severed head of Argophel
+M 0 13307 8 13441 100 0 0 0        * a member of the soldiers of fortune
+M 0 13307 8 13441 100 0 0 0        * a member of the soldiers of fortune
+M 0 13337 1 13441 100 0 0 0        * Markam
+M 0 13307 8 13442 100 0 0 0        * a member of the soldiers of fortune
+M 0 13307 8 13443 100 0 0 0        * a member of the soldiers of fortune
+M 0 13307 8 13444 100 0 0 0        * a member of the soldiers of fortune
+M 0 13346 7 13446 100 0 0 0        * an orc battle-mage
+F 1 13343 1 13446 100 0 0 0        * an archangel (following)
+G 1 13335 1 0 100 0 0 0            *    a pair archangel wings
+*
+S

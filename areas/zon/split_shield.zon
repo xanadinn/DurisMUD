@@ -1,0 +1,788 @@
+#103
+&+wVillage of &+ySplit Shield&n~
+10398 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 10316 5 0 100 0 0 0
+*     down exit from "A Thick Thorn Patch" to
+*     "Chief's Basement" - open
+*
+D 0 10388 5 0 100 0 0 0
+*     down exit from "Chief's Basement" to
+*     "A Thick Thorn Patch" - open
+*
+D 0 10319 2 0 100 0 0 0
+*     south exit from "The Northern Gate of Split Shield" to
+*     "Northern Road Along the Fence" - open
+*
+D 0 10320 0 0 100 0 0 0
+*     north exit from "Northern Road Along the Fence" to
+*     "The Northern Gate of Split Shield" - open
+*
+D 0 10342 1 1 100 0 0 0
+*     east exit from "Western Road Along the Fence" to
+*     "West End of the Barreling Brew Tavern and Inn" - closed
+*
+D 0 10366 3 1 100 0 0 0
+*     west exit from "West End of the Barreling Brew Tavern and Inn" to
+*     "Western Road Along the Fence" - closed
+*
+D 0 10349 3 1 100 0 0 0
+*     west exit from "A Beaten Path Towards the City Center" to
+*     "East End of the Barreling Brew Tavern and Inn" - closed
+*
+D 0 10368 1 1 100 0 0 0
+*     east exit from "East End of the Barreling Brew Tavern and Inn" to
+*     "A Beaten Path Towards the City Center" - closed
+*
+D 0 10353 3 2 100 0 0 0
+*     west exit from "A Beaten Path Towards the City Center" to
+*     "Chief's Living Room" - closed/locked
+*
+D 0 10386 1 2 100 0 0 0
+*     east exit from "Chief's Living Room" to
+*     "A Beaten Path Towards the City Center" - closed/locked
+*
+D 0 10354 1 2 100 0 0 0
+*     east exit from "The Southern End of the Village Path" to
+*     "The Training Hall" - closed/locked
+*
+D 0 10376 3 2 100 0 0 0
+*     west exit from "The Training Hall" to
+*     "The Southern End of the Village Path" - closed/locked
+*
+D 0 10378 3 2 100 0 0 0
+*     west exit from "The Training Hall" to
+*     "Storage Room" - closed/locked
+*
+D 0 10379 1 2 100 0 0 0
+*     east exit from "Storage Room" to
+*     "The Training Hall" - closed/locked
+*
+D 0 10380 3 2 100 0 0 0
+*     west exit from "The Recruits Room" to
+*     "The Parade Grounds" - closed/locked
+*
+D 0 10397 1 2 100 0 0 0
+*     east exit from "The Parade Grounds" to
+*     "The Recruits Room" - closed/locked
+*
+D 0 10382 4 2 100 0 0 0
+*     up exit from "An Ordered Planning Room" to
+*     "The Swift Special Attack Team" - closed/locked
+*
+D 0 10383 5 2 100 0 0 0
+*     down exit from "The Swift Special Attack Team" to
+*     "An Ordered Planning Room" - closed/locked
+*
+D 0 10385 1 2 100 0 0 0
+*     east exit from "The War Room" to
+*     "Chief's Living Room" - closed/locked
+*
+D 0 10386 3 2 100 0 0 0
+*     west exit from "Chief's Living Room" to
+*     "The War Room" - closed/locked
+*
+D 0 10385 5 2 100 0 0 0
+*     down exit from "The War Room" to
+*     "Chief's Basement" - closed/locked
+*
+D 0 10388 4 2 100 0 0 0
+*     up exit from "Chief's Basement" to
+*     "The War Room" - closed/locked
+*
+D 0 10397 3 2 100 0 0 0
+*     west exit from "The Parade Grounds" to
+*     "The Officers Recreation Room" - closed/locked
+*
+D 0 10398 1 2 100 0 0 0
+*     east exit from "The Officers Recreation Room" to
+*     "The Parade Grounds" - closed/locked
+*
+*
+O 0 10428 10 10300 100 0 0 0       * a small rock
+O 0 10429 10 10301 100 0 0 0       * a large rock
+O 0 10432 20 10301 100 0 0 0       * a small stick
+O 0 10432 20 10302 100 0 0 0       * a small stick
+O 0 10433 20 10302 100 0 0 0       * a large stick
+O 0 10428 10 10303 100 0 0 0       * a small rock
+O 0 10431 10 10303 100 0 0 0       * a rock
+O 0 10433 20 10303 100 0 0 0       * a large stick
+O 0 10433 20 10304 100 0 0 0       * a large stick
+O 0 10429 10 10305 100 0 0 0       * a large rock
+O 0 10434 10 10305 100 0 0 0       * a tree branch
+O 0 10429 10 10306 100 0 0 0       * a large rock
+O 0 10433 20 10306 100 0 0 0       * a large stick
+O 0 10428 10 10307 100 0 0 0       * a small rock
+O 0 10433 20 10307 100 0 0 0       * a large stick
+O 0 10430 10 10308 100 0 0 0       * a huge rock
+O 0 10431 10 10308 100 0 0 0       * a rock
+O 0 10433 20 10308 100 0 0 0       * a large stick
+O 0 10431 10 10309 100 0 0 0       * a rock
+O 0 10433 20 10309 100 0 0 0       * a large stick
+O 0 386 999 10310 100 0 0 0        * (object type not in this .obj file)
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10423 18 10310 100 0 0 0       * a trail ration
+O 0 10433 20 10310 100 0 0 0       * a large stick
+O 0 10434 10 10310 100 0 0 0       * a tree branch
+O 0 10428 10 10312 100 0 0 0       * a small rock
+O 0 10431 10 10312 100 0 0 0       * a rock
+O 0 10430 10 10313 100 0 0 0       * a huge rock
+O 0 10429 10 10314 100 0 0 0       * a large rock
+O 0 10432 20 10314 100 0 0 0       * a small stick
+O 0 10431 10 10315 100 0 0 0       * a rock
+O 0 10434 10 10315 100 0 0 0       * a tree branch
+O 0 10430 10 10316 100 0 0 0       * a huge rock
+O 0 10431 10 10318 100 0 0 0       * a rock
+O 0 10434 10 10320 100 0 0 0       * a tree branch
+O 0 10432 20 10322 100 0 0 0       * a small stick
+O 0 10431 10 10324 100 0 0 0       * a rock
+O 0 10434 10 10325 100 0 0 0       * a tree branch
+O 0 10431 10 10327 100 0 0 0       * a rock
+O 0 10428 10 10329 100 0 0 0       * a small rock
+O 0 10429 10 10330 100 0 0 0       * a large rock
+O 0 10434 10 10330 100 0 0 0       * a tree branch
+O 0 10432 20 10331 100 0 0 0       * a small stick
+O 0 10429 10 10332 100 0 0 0       * a large rock
+O 0 10434 10 10335 100 0 0 0       * a tree branch
+O 0 10429 10 10336 100 0 0 0       * a large rock
+O 0 10432 20 10336 100 0 0 0       * a small stick
+O 0 10433 20 10339 100 0 0 0       * a large stick
+O 0 10429 10 10340 100 0 0 0       * a large rock
+O 0 10434 10 10340 100 0 0 0       * a tree branch
+O 0 10431 10 10342 100 0 0 0       * a rock
+O 0 10432 20 10345 100 0 0 0       * a small stick
+O 0 10434 10 10345 100 0 0 0       * a tree branch
+O 0 10430 10 10348 100 0 0 0       * a huge rock
+O 0 10428 10 10351 100 0 0 0       * a small rock
+O 0 10429 10 10351 100 0 0 0       * a large rock
+O 0 10428 10 10353 100 0 0 0       * a small rock
+O 0 10430 10 10355 100 0 0 0       * a huge rock
+O 0 10434 10 10355 100 0 0 0       * a tree branch
+O 0 10428 10 10356 100 0 0 0       * a small rock
+O 0 10429 10 10358 100 0 0 0       * a large rock
+O 0 386 999 10365 100 0 0 0        * (object type not in this .obj file)
+O 0 386 999 10368 100 0 0 0        * (object type not in this .obj file)
+O 0 10496 3 10372 100 0 0 0        * a brown chair
+O 0 10497 1 10373 100 0 0 0        * an operating table
+O 0 10496 3 10376 100 0 0 0        * a brown chair
+O 0 386 999 10378 100 0 0 0        * (object type not in this .obj file)
+O 0 10423 18 10379 100 0 0 0       * a trail ration
+O 0 10423 18 10379 100 0 0 0       * a trail ration
+O 0 10423 18 10379 100 0 0 0       * a trail ration
+O 0 10423 18 10379 100 0 0 0       * a trail ration
+O 0 10496 3 10386 100 0 0 0        * a brown chair
+O 0 10498 1 10387 100 0 0 0        * a large feather bed
+O 0 386 999 10390 100 0 0 0        * (object type not in this .obj file)
+O 0 10432 20 10393 100 0 0 0       * a small stick
+O 0 10431 10 10397 100 0 0 0       * a rock
+*
+M 0 10302 1 10302 100 0 0 0        * a shady old man
+E 1 10381 5 5 100 0 0 0            *   a well crafted leather jacket
+E 1 10384 5 7 100 0 0 0            *   a pair of well crafted leather pants
+E 1 10382 5 8 100 0 0 0            *   a pair of well crafted leather boots
+E 1 10386 6 9 100 0 0 0            *   a pair of well crafted leather gloves
+E 1 10383 5 10 100 0 0 0           *   a pair of well crafted leather sleeves
+E 1 10410 5 16 100 0 0 0           *   a well polished steel short sword
+E 1 10415 5 17 100 0 0 0           *   a thin steel spike
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10303 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10305 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10310 4 10306 100 0 0 0        * a village patrol guard
+E 1 10353 11 5 100 0 0 0           *   a raw leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10397 11 12 100 0 0 0          *   a raw leather cloak
+E 1 10407 11 16 100 0 0 0          *   a dull steel short sword
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10307 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10309 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10310 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10310 4 10311 100 0 0 0        * a village patrol guard
+E 1 10353 11 5 100 0 0 0           *   a raw leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10397 11 12 100 0 0 0          *   a raw leather cloak
+E 1 10407 11 16 100 0 0 0          *   a dull steel short sword
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10313 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10313 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10310 4 10313 100 0 0 0        * a village patrol guard
+E 1 10353 11 5 100 0 0 0           *   a raw leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10397 11 12 100 0 0 0          *   a raw leather cloak
+E 1 10407 11 16 100 0 0 0          *   a dull steel short sword
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10314 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10341 20 10317 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10342 25 10317 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10342 25 10318 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10301 8 10319 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10301 8 10319 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10319 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10340 20 10319 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10301 8 10320 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10320 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10342 25 10320 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10320 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10321 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10311 5 10321 100 0 0 0        * an experienced guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10404 11 16 100 0 0 0          *   a long sharp steel dagger
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10352 14 10322 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10328 20 10322 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10323 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10317 2 10323 100 0 0 0        * a village protector
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10370 10 7 100 0 0 0           *   a pair of fine leather pants
+E 1 10366 10 11 100 0 0 0          *   a studded leather shield
+E 1 10413 5 16 100 0 0 0           *   dull black steel long sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10324 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10324 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10325 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10341 20 10325 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10328 20 10326 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10301 8 10327 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10301 8 10327 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10327 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10340 20 10328 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10328 20 10328 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10352 14 10329 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10343 10 10330 100 0 0 0       * a brown wolf
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10330 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10331 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10342 25 10332 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10332 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10333 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10341 20 10333 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10301 8 10334 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10310 4 10334 100 0 0 0        * a village patrol guard
+E 1 10353 11 5 100 0 0 0           *   a raw leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10397 11 12 100 0 0 0          *   a raw leather cloak
+E 1 10407 11 16 100 0 0 0          *   a dull steel short sword
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10334 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10336 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10328 20 10336 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10337 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10341 20 10337 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10328 20 10338 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10339 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10342 25 10339 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10301 8 10340 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10301 8 10340 100 0 0 0        * a village gate guard
+E 1 10346 50 5 100 0 0 0           *   a rotted leather jacket
+E 1 10347 50 8 100 0 0 0           *   a pair of rotted leather boots
+E 1 10400 50 16 100 0 0 0          *   a rusty steel dagger
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10423 18 0 100 0 0 0           *    a trail ration
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10317 2 10340 100 0 0 0        * a village protector
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10370 10 7 100 0 0 0           *   a pair of fine leather pants
+E 1 10366 10 11 100 0 0 0          *   a studded leather shield
+E 1 10413 5 16 100 0 0 0           *   dull black steel long sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10340 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10341 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10311 5 10341 100 0 0 0        * an experienced guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10404 11 16 100 0 0 0          *   a long sharp steel dagger
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10342 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10342 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10343 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10328 20 10344 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10345 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10313 2 10345 100 0 0 0        * a seasoned village guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10355 5 10 100 0 0 0           *   a pair of raw leather sleeves
+E 1 10420 5 16 100 0 0 0           *   a steel chain
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10345 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10346 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10320 20 10346 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10346 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10352 14 10348 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10316 1 10348 100 0 0 0        * a special guard orc
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10367 10 5 100 0 0 0           *   a fine leather jacket
+E 1 10366 10 11 100 0 0 0          *   a studded leather shield
+E 1 10399 10 12 100 0 0 0          *   a leather cloak
+E 1 10405 5 16 100 0 0 0           *   a dull black steel dagger
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10348 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10348 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10349 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10318 2 10349 100 0 0 0        * an elite orc village guard
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10329 6 5 100 0 0 0            *   a suit of field plate
+E 1 10370 10 7 100 0 0 0           *   a pair of fine leather pants
+E 1 10386 6 9 100 0 0 0            *   a pair of well crafted leather gloves
+E 1 10323 6 10 100 0 0 0           *   a pair of bronze sleeves
+E 1 10380 6 11 100 0 0 0           *   a fine studded leather shield
+E 1 10414 20 16 100 0 0 0          *   a thin polished steel long sword
+G 1 10454 6 0 100 0 0 0            *    an eight of clubs
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10349 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10349 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10349 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10350 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10321 10 10350 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10325 5 10350 100 0 0 0        * an old female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10350 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10325 5 10351 100 0 0 0        * an old female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10351 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10352 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10311 5 10352 100 0 0 0        * an experienced guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10404 11 16 100 0 0 0          *   a long sharp steel dagger
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10325 5 10352 100 0 0 0        * an old female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10352 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10353 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10329 10 10353 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10354 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10354 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10355 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10320 20 10355 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10356 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10328 20 10356 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10325 5 10357 100 0 0 0        * an old female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10357 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10341 20 10358 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10325 5 10358 100 0 0 0        * an old female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10328 20 10358 100 0 0 0       * an adult orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10342 25 10359 100 0 0 0       * a large warg
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10320 20 10359 100 0 0 0       * a common male orc
+M 0 10320 20 10360 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10360 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10322 5 10360 100 0 0 0        * a mother orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10323 5 10360 100 0 0 0        * a father orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10360 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10320 20 10361 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10361 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10322 5 10361 100 0 0 0        * a mother orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10323 5 10361 100 0 0 0        * a father orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10361 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10320 20 10362 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10362 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10322 5 10362 100 0 0 0        * a mother orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10323 5 10362 100 0 0 0        * a father orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10362 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10342 25 10363 100 0 0 0       * a large warg
+M 0 10352 14 10363 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10320 20 10363 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10363 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10322 5 10363 100 0 0 0        * a mother orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10323 5 10363 100 0 0 0        * a father orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10363 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10340 20 10364 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10320 20 10364 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10364 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10323 5 10364 100 0 0 0        * a father orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10364 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10341 20 10365 100 0 0 0       * a large dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10320 20 10365 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10365 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10322 5 10365 100 0 0 0        * a mother orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10365 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10320 20 10366 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10366 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10366 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10366 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10366 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10367 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10367 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10367 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10367 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10368 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10368 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10368 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10353 10 10368 100 0 0 0       * a very drunk orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10369 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10369 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10324 5 10369 100 0 0 0        * an old male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10324 5 10369 100 0 0 0        * an old male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10369 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10352 14 10370 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10320 20 10370 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10370 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10324 5 10370 100 0 0 0        * an old male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10324 5 10370 100 0 0 0        * an old male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10370 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10352 14 10371 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10320 20 10371 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10321 10 10371 100 0 0 0       * a common female orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10324 5 10371 100 0 0 0        * an old male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10371 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10352 14 10372 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10320 20 10372 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10326 1 10372 100 0 0 0        * a very old female orc
+G 1 10495 1 0 100 0 0 0            *    a purple potion
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10352 14 10373 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10314 2 10375 100 0 0 0        * a village guard trainer
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10376 10 10 100 0 0 0          *   a pair of fine studded leather sleeves
+E 1 10409 10 16 100 0 0 0          *   a sharp steel short sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10314 2 10376 100 0 0 0        * a village guard trainer
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10376 10 10 100 0 0 0          *   a pair of fine studded leather sleeves
+E 1 10409 10 16 100 0 0 0          *   a sharp steel short sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10320 20 10378 100 0 0 0       * a common male orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10343 10 10383 100 0 0 0       * a brown wolf
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10360 1 10383 100 0 0 0        * a swift special attack team warrior
+M 0 10361 1 10383 100 0 0 0        * a large orc mercenary
+M 0 10362 1 10383 100 0 0 0        * a swift special attack team thief
+M 0 10363 2 10383 100 0 0 0        * a swift special attack team shaman
+M 0 10363 2 10383 100 0 0 0        * a swift special attack team shaman
+M 0 10329 10 10384 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10354 4 10384 100 0 0 0        * an orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10354 4 10384 100 0 0 0        * an orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10354 4 10384 100 0 0 0        * an orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10354 4 10384 100 0 0 0        * an orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10350 1 10385 100 0 0 0        * the village chief
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10328 20 4 100 0 0 0           *   a studded leather neck collar
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10363 20 7 100 0 0 0           *   a pair of studded leather pants
+E 1 10361 20 8 100 0 0 0           *   a pair of studded leather boots
+E 1 10365 20 9 100 0 0 0           *   a pair of studded leather gloves
+E 1 215 9999 10 100 0 0 0          *   (object type not in this .obj file)
+E 1 10333 20 11 100 0 0 0          *   a splinted shield
+E 1 10414 20 16 100 0 0 0          *   a thin polished steel long sword
+E 1 10306 5 21 100 0 0 0           *   a wooden earring
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10351 1 10385 100 0 0 0        * an orc shaman
+E 1 10331 10 5 100 0 0 0           *   a suit of splintmail
+E 1 10395 10 12 100 0 0 0          *   a fine leather cloak
+E 1 10417 5 16 100 0 0 0           *   a polished steel war hammer
+G 1 10488 1 0 100 0 0 0            *    a light blue potion
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10313 2 10385 100 0 0 0        * a seasoned village guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10355 5 10 100 0 0 0           *   a pair of raw leather sleeves
+E 1 10420 5 16 100 0 0 0           *   a steel chain
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10327 12 10386 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10327 12 10387 100 0 0 0       * a young cub orc
+G 1 10427 11 0 100 0 0 0           *    a rotten slab of meat
+M 0 10352 14 10388 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10340 20 10390 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10352 14 10390 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10315 2 10390 100 0 0 0        * a huge village guard
+E 1 10367 10 5 100 0 0 0           *   a fine leather jacket
+E 1 10364 10 7 100 0 0 0           *   a studded leather skirt
+E 1 10366 10 11 100 0 0 0          *   a studded leather shield
+E 1 10414 20 16 100 0 0 0          *   a thin polished steel long sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10352 14 10392 100 0 0 0       * a young orc shaman
+E 1 10356 50 7 100 0 0 0           *   a pair of raw leather pants
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10489 7 0 100 0 0 0            *    a light red potion
+M 0 10340 20 10393 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10352 14 10393 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10343 10 10394 100 0 0 0       * a brown wolf
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+M 0 10352 14 10394 100 0 0 0       * a young orc shaman
+E 1 10357 50 7 100 0 0 0           *   a raw leather skirt
+E 1 10416 20 16 100 0 0 0          *   a steel war hammer
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+G 1 10487 6 0 100 0 0 0            *    a light green potion
+M 0 10311 5 10394 100 0 0 0        * an experienced guard
+E 1 10360 27 5 100 0 0 0           *   a studded leather jacket
+E 1 10354 22 8 100 0 0 0           *   a pair of raw leather boots
+E 1 10404 11 16 100 0 0 0          *   a long sharp steel dagger
+E 1 398 9999 18 100 0 0 0          *   (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10340 20 10395 100 0 0 0       * a small dog
+G 1 10424 29 0 100 0 0 0           *    a small slab of meat
+M 0 10329 10 10395 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10315 2 10396 100 0 0 0        * a huge village guard
+E 1 10367 10 5 100 0 0 0           *   a fine leather jacket
+E 1 10364 10 7 100 0 0 0           *   a studded leather skirt
+E 1 10366 10 11 100 0 0 0          *   a studded leather shield
+E 1 10414 20 16 100 0 0 0          *   a thin polished steel long sword
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10318 2 10396 100 0 0 0        * an elite orc village guard
+E 1 10328 20 3 100 0 0 0           *   a studded leather neck collar
+E 1 10329 6 5 100 0 0 0            *   a suit of field plate
+E 1 10370 10 7 100 0 0 0           *   a pair of fine leather pants
+E 1 10386 6 9 100 0 0 0            *   a pair of well crafted leather gloves
+E 1 10323 6 10 100 0 0 0           *   a pair of bronze sleeves
+E 1 10380 6 11 100 0 0 0           *   a fine studded leather shield
+E 1 10414 20 16 100 0 0 0          *   a thin polished steel long sword
+G 1 10454 6 0 100 0 0 0            *    an eight of clubs
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10329 10 10396 100 0 0 0       * a teen-age orc
+G 1 10426 176 0 100 0 0 0          *    a slab of orc meat
+M 0 10343 10 10397 100 0 0 0       * a brown wolf
+G 1 10425 50 0 100 0 0 0           *    a large slab of meat
+*
+S

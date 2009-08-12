@@ -1,0 +1,245 @@
+#22
+&+yThe Seacaves&n~
+2295 2 0 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 2221 1 5 100 0 0 0
+*     east exit from "In a Small Cave" to
+*     "Entrance to the Bandit Hideout" - closed/secret
+*
+D 0 2231 3 5 100 0 0 0
+*     west exit from "Entrance to the Bandit Hideout" to
+*     "In a Small Cave" - closed/secret
+*
+D 0 2233 2 5 100 0 0 0
+*     south exit from "A Small Cave" to
+*     "A Short Corridor" - closed/secret
+*
+D 0 2234 0 5 100 0 0 0
+*     north exit from "A Short Corridor" to
+*     "A Small Cave" - closed/secret
+*
+D 0 2253 4 1 100 0 0 0
+*     up exit from "The Top of a Long Shaft" to
+*     "The Top of the Cliff" - closed
+*
+D 0 2254 5 1 100 0 0 0
+*     down exit from "The Top of the Cliff" to
+*     "The Top of a Long Shaft" - closed
+*
+D 0 2256 2 1 100 0 0 0
+*     south exit from "A Short Corridor" to
+*     "The Bandit Leader's Room" - closed
+*
+D 0 2257 0 1 100 0 0 0
+*     north exit from "The Bandit Leader's Room" to
+*     "A Short Corridor" - closed
+*
+D 0 2262 1 8 100 0 0 0
+*     east exit from "The Temple of the Sea Goddess" to
+*     "The Priest's Quarters" - open/blocked
+*
+D 0 2264 3 0 100 0 0 0
+*     west exit from "The Priest's Quarters" to
+*     "The Temple of the Sea Goddess" - open
+*
+D 0 2265 1 1 100 0 0 0
+*     east exit from "A Short Corridor" to
+*     "The Mage's Room" - closed
+*
+D 0 2266 3 1 100 0 0 0
+*     west exit from "The Mage's Room" to
+*     "A Short Corridor" - closed
+*
+D 0 2266 0 1 100 0 0 0
+*     north exit from "The Mage's Room" to
+*     "The Mage's Summoning Room" - closed
+*
+D 0 2267 2 1 100 0 0 0
+*     south exit from "The Mage's Summoning Room" to
+*     "The Mage's Room" - closed
+*
+D 0 2283 3 1 100 0 0 0
+*     west exit from "The Main Deck of the Wind Dancer" to
+*     "A Corridor in the Stern Castle" - closed
+*
+D 0 2285 1 1 100 0 0 0
+*     east exit from "A Corridor in the Stern Castle" to
+*     "The Main Deck of the Wind Dancer" - closed
+*
+D 0 2285 0 1 100 0 0 0
+*     north exit from "A Corridor in the Stern Castle" to
+*     "A Passenger's Cabin" - closed
+*
+D 0 2286 2 1 100 0 0 0
+*     south exit from "A Passenger's Cabin" to
+*     "A Corridor in the Stern Castle" - closed
+*
+D 0 2285 2 1 100 0 0 0
+*     south exit from "A Corridor in the Stern Castle" to
+*     "A Small Passenger Cabin" - closed
+*
+D 0 2287 0 1 100 0 0 0
+*     north exit from "A Small Passenger Cabin" to
+*     "A Corridor in the Stern Castle" - closed
+*
+D 0 2288 0 1 100 0 0 0
+*     north exit from "The End of the Corridor" to
+*     "A Fire Blackened Room" - closed
+*
+D 0 2289 2 1 100 0 0 0
+*     south exit from "A Fire Blackened Room" to
+*     "The End of the Corridor" - closed
+*
+D 0 2288 2 1 100 0 0 0
+*     south exit from "The End of the Corridor" to
+*     "The VIP Cabin" - closed
+*
+D 0 2290 0 1 100 0 0 0
+*     north exit from "The VIP Cabin" to
+*     "The End of the Corridor" - closed
+*
+D 0 2288 3 1 100 0 0 0
+*     west exit from "The End of the Corridor" to
+*     "The Captain's Stateroom" - closed
+*
+D 0 2291 1 1 100 0 0 0
+*     east exit from "The Captain's Stateroom" to
+*     "The End of the Corridor" - closed
+*
+*
+O 0 2212 1 2242 100 0 0 0          * a wooden chest
+P 1 2223 1 2212 100 0 0 0          *   a silver and blue shield
+O 0 386 1 2246 100 0 0 0           * (object type not in this .obj file)
+O 0 2208 1 2262 100 0 0 0          * the mural
+O 0 2203 1 2263 100 0 0 0          * an altar made of coral
+P 1 2204 1 2203 100 0 0 0          *   a sacrificial dagger made of coral
+O 0 2217 1 2279 100 0 0 0          * a niche in the wall
+P 1 2218 1 2217 100 0 0 0          *   a shiny steel helm
+O 0 2215 1 2294 100 0 0 0          * a steel chest
+P 1 2216 1 2215 100 0 0 0          *   a gold band studded with onyx stones
+O 0 2221 1 2294 100 0 0 0          * a crushed skeleton
+O 0 2222 1 2295 100 0 0 0          * the remains of a corpse
+*
+M 0 2230 1 2208 100 0 0 0          * a giant osprey
+M 0 2231 1 2209 100 0 0 0          * a giant mother osprey
+M 0 2232 4 2216 100 0 0 0          * a hermit crab
+M 0 2234 4 2217 100 0 0 0          * a spotted sandpiper
+M 0 2233 3 2218 100 0 0 0          * a crab
+M 0 2234 4 2219 100 0 0 0          * a spotted sandpiper
+M 0 2232 4 2220 100 0 0 0          * a hermit crab
+M 0 2233 3 2222 100 0 0 0          * a crab
+M 0 2234 4 2223 100 0 0 0          * a spotted sandpiper
+M 0 2232 4 2224 100 0 0 0          * a hermit crab
+M 0 2233 3 2225 100 0 0 0          * a crab
+M 0 2229 3 2227 100 0 0 0          * a scavenging crabman
+M 0 2232 4 2228 100 0 0 0          * a hermit crab
+M 0 2234 4 2229 100 0 0 0          * a spotted sandpiper
+M 0 2229 3 2230 100 0 0 0          * a scavenging crabman
+M 0 2200 2 2232 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2200 2 2232 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2213 1 2235 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2212 2 2239 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2211 1 2240 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2210 1 2241 100 0 0 0          * a guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2212 2 2241 100 0 0 0          * a bandit guard
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 209 7 6 100 0 0 0              *   (object type not in this .obj file)
+E 1 227 7 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 214 7 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2209 1 2242 100 0 0 0          * the head guard
+E 1 2210 1 16 100 0 0 0            *   a steel militia broadsword
+E 1 2211 1 18 100 0 0 0            *   an iron key
+M 0 2214 1 2245 100 0 0 0          * a bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2216 2 2248 100 0 0 0          * a bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2217 2 2249 100 0 0 0          * a tough-looking bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2216 2 2250 100 0 0 0          * a bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2215 1 2251 100 0 0 0          * a bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2217 2 2251 100 0 0 0          * a tough-looking bandit
+E 1 239 6 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2207 1 2255 100 0 0 0          * the bandit scout
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 246 3 8 100 0 0 0              *   (object type not in this .obj file)
+E 1 2220 1 15 100 0 0 0            *   a black leather bracer
+E 1 283 14 16 100 0 0 0            *   (object type not in this .obj file)
+M 0 2208 1 2257 100 0 0 0          * the bandit leader
+E 1 2219 1 13 100 0 0 0            *   a black leather belt with a silver buckle
+E 1 2209 1 16 100 0 0 0            *   a silver-bladed saber
+G 1 210 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 246 3 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 2205 1 2260 100 0 0 0          * the stealthy bandit
+E 1 245 9 5 100 0 0 0              *   (object type not in this .obj file)
+E 1 228 1 7 100 0 0 0              *   (object type not in this .obj file)
+E 1 246 3 8 100 0 0 0              *   (object type not in this .obj file)
+E 1 215 1 10 100 0 0 0             *   (object type not in this .obj file)
+E 1 2207 1 16 100 0 0 0            *   a dark-bladed shortsword
+M 0 2201 1 2263 100 0 0 0          * the water elemental
+E 1 2201 1 15 100 0 0 0            *   a scrimshaw bracer
+M 0 2202 1 2264 100 0 0 0          * the priest of the Sea Goddess
+E 1 2202 1 20 100 0 0 0            *   a coral mask
+G 1 288 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 2203 1 2266 100 0 0 0          * the young mage
+E 1 2205 1 12 100 0 0 0            *   a blue mage's robe
+M 0 2206 1 2266 100 0 0 0          * the glowing staff
+M 0 2204 1 2267 100 0 0 0          * the imp
+E 1 2206 1 3 100 0 0 0             *   an amulet of light
+M 0 2229 3 2268 100 0 0 0          * a scavenging crabman
+M 0 2224 1 2271 100 0 0 0          * the crabman chief
+M 0 2225 1 2274 100 0 0 0          * a crabwoman
+M 0 2226 1 2275 100 0 0 0          * a mature crabman
+M 0 2227 1 2277 100 0 0 0          * a young crabman
+M 0 2228 1 2278 100 0 0 0          * the crabman shaman
+M 0 2221 1 2283 100 0 0 0          * a dwarven lacedon
+M 0 2220 1 2286 100 0 0 0          * a lacedon
+M 0 2223 1 2290 100 0 0 0          * a lacedon
+M 0 2219 1 2291 100 0 0 0          * the captain's spirit
+E 1 2214 1 3 100 0 0 0             *   a steel key
+M 0 2222 1 2293 100 0 0 0          * a hungry lacedon
+M 0 2218 1 2295 100 0 0 0          * an ogre lacedon
+E 1 2213 1 16 100 0 0 0            *   a bloody single-bladed war axe
+*
+S

@@ -1,0 +1,133 @@
+#1302
+&+LThe Reliquary &+rN&+Re&+rx&+Ru&+rs &+Lof &+WTh&+re De&+Wad&n~
+130284 0 0 40 50 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 130200 2 1 100 0 0 0
+*     south exit from "A Field of Withered Grass and Shrubs" to
+*     "A Massacred Antechamber" - closed
+*
+D 0 130209 0 1 100 0 0 0
+*     north exit from "A Massacred Antechamber" to
+*     "A Field of Withered Grass and Shrubs" - closed
+*
+D 0 130219 1 5 100 0 0 0
+*     east exit from "Cracked, Blackened Earth" to
+*     "An Imposing Wall of White Limestone" - closed/secret
+*
+D 0 130220 3 5 100 0 0 0
+*     west exit from "An Imposing Wall of White Limestone" to
+*     "Cracked, Blackened Earth" - closed/secret
+*
+D 0 130222 2 1 100 0 0 0
+*     south exit from "A Pair of Massive White Limestone Gates" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130231 0 1 100 0 0 0
+*     north exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "A Pair of Massive White Limestone Gates" - closed
+*
+D 0 130231 2 1 100 0 0 0
+*     south exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "The Base of The Spired Tower" - closed
+*
+D 0 130240 0 1 100 0 0 0
+*     north exit from "The Base of The Spired Tower" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130238 1 1 100 0 0 0
+*     east exit from "A Pair of Massive White Limestone Gates" to
+*     "A Pristine Courtyard At The Base of A Tower" - closed
+*
+D 0 130239 3 1 100 0 0 0
+*     west exit from "A Pristine Courtyard At The Base of A Tower" to
+*     "A Pair of Massive White Limestone Gates" - closed
+*
+D 0 130239 1 1 100 0 0 0
+*     east exit from "A Pristine Courtyard At The Base of A Tower" to
+*     "The Base of The Spired Tower" - closed
+*
+D 0 130240 3 1 100 0 0 0
+*     west exit from "The Base of The Spired Tower" to
+*     "A Pristine Courtyard At The Base of A Tower" - closed
+*
+D 0 130240 1 1 100 0 0 0
+*     east exit from "The Base of The Spired Tower" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130241 3 1 100 0 0 0
+*     west exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "The Base of The Spired Tower" - closed
+*
+D 0 130240 2 1 100 0 0 0
+*     south exit from "The Base of The Spired Tower" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130249 0 1 100 0 0 0
+*     north exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "The Base of The Spired Tower" - closed
+*
+D 0 130241 1 1 100 0 0 0
+*     east exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "A Pair of Massive White Limestone Gates" - closed
+*
+D 0 130242 3 1 100 0 0 0
+*     west exit from "A Pair of Massive White Limestone Gates" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130249 2 1 100 0 0 0
+*     south exit from "A Pristine Courtyard At The Base of A Spired Tower" to
+*     "A Pair of Massive White Limestone Gates" - closed
+*
+D 0 130258 0 1 100 0 0 0
+*     north exit from "A Pair of Massive White Limestone Gates" to
+*     "A Pristine Courtyard At The Base of A Spired Tower" - closed
+*
+D 0 130283 4 6 100 0 0 0
+*     up exit from "The Throne Chamber of Osiris" to
+*     "The Reliquary Nexus of The Dead" - closed/locked/secret
+*
+D 0 130284 5 1 100 0 0 0
+*     down exit from "The Reliquary Nexus of The Dead" to
+*     "The Throne Chamber of Osiris" - closed
+*
+*
+O 0 130200 1 130201 100 0 0 0      * a long, claw-foot onyx tub filled with bubbling blood
+O 0 130218 1 130202 100 0 0 0      * a lavish onyx mirror
+O 0 130204 1 130208 100 0 0 0      * a pillar of granite
+O 0 130201 1 130215 100 0 0 0      * a pillar of granite
+O 0 130202 1 130217 100 0 0 0      * a mass of negative energy
+O 0 130203 1 130226 100 0 0 0      * a mass of negative energy
+O 0 130212 1 130254 100 0 0 0      * a blazing phoenix frozen in time
+O 0 130205 1 130261 100 0 0 0      * the statue of an earthen hulk
+O 0 130211 1 130263 100 0 0 0      * a blazing phoenix frozen in time
+O 0 130208 1 130269 100 0 0 0      * the statue of Ogremoch
+O 0 130206 1 130270 100 0 0 0      * the statue of an earthen hulk
+O 0 130210 1 130273 100 0 0 0      * a brilliant ball of fire
+O 0 130209 1 130274 100 0 0 0      * a brilliant ball of fire
+O 0 130207 1 130280 100 0 0 0      * the statue of Ogremoch
+*
+M 0 130200 1 130201 100 0 0 0      * Thotenthomanp, The Lord of Decay
+G 1 130214 1 0 100 0 0 0           *    a key bearing the rite of passage
+M 0 26624 1 130207 100 0 0 0       * (mob type not in this .mob file)
+M 0 26605 2 130208 100 0 0 0       * (mob type not in this .mob file)
+M 0 26605 2 130216 100 0 0 0       * (mob type not in this .mob file)
+M 0 26626 1 130217 100 0 0 0       * (mob type not in this .mob file)
+M 0 130202 2 130219 100 0 0 0      * an anubian soldier
+G 1 130215 1 0 100 0 0 0           *    the white limestone gate key
+M 0 130202 2 130238 100 0 0 0      * an anubian soldier
+G 1 130216 1 0 100 0 0 0           *    the Nexus Tower key
+M 0 25430 2 130263 100 0 0 0       * (mob type not in this .mob file)
+M 0 25450 1 130264 100 0 0 0       * (mob type not in this .mob file)
+M 0 23805 2 130270 100 0 0 0       * (mob type not in this .mob file)
+M 0 23804 2 130271 100 0 0 0       * (mob type not in this .mob file)
+M 0 25420 1 130272 100 0 0 0       * (mob type not in this .mob file)
+M 0 25430 2 130273 100 0 0 0       * (mob type not in this .mob file)
+M 0 23804 2 130279 100 0 0 0       * (mob type not in this .mob file)
+M 0 23805 2 130280 100 0 0 0       * (mob type not in this .mob file)
+M 0 130201 1 130283 100 0 0 0      * Osiris, Keeper of the Land of the Dead
+G 1 130217 1 0 100 0 0 0           *    the key to the Reliquary Nexus of the Dead
+*
+S

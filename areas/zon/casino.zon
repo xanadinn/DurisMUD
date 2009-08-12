@@ -1,0 +1,29 @@
+#778
+CasinoZone~
+77815 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 77801 2 1 100 0 0 0
+*     south exit from "The Casino Doors" to
+*     "A Dark and Noisy Casino" - closed
+*
+D 0 77802 0 1 100 0 0 0
+*     north exit from "A Dark and Noisy Casino" to
+*     "The Casino Doors" - closed
+*
+*
+O 0 45 2 77803 100 0 0 0           * (object type not in this .obj file)
+O 0 45 2 77804 100 0 0 0           * (object type not in this .obj file)
+O 0 77802 2 77805 100 0 0 0        * a wheel of fortune
+O 0 77801 2 77808 100 0 0 0        * a roulette table
+O 0 77801 2 77809 100 0 0 0        * a roulette table
+O 0 77802 2 77810 100 0 0 0        * a wheel of fortune
+O 0 77804 2 77812 100 0 0 0        * a solataire table
+O 0 77803 2 77813 100 0 0 0        * a high-roller slot machine
+O 0 77804 2 77814 100 0 0 0        * a solataire table
+O 0 77803 2 77815 100 0 0 0        * a high-roller slot machine
+*
+*
+S

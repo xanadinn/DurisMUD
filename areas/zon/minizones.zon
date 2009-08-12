@@ -1,0 +1,829 @@
+#57
+Mini Zones~
+5999 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 5717 3 1 100 0 0 0
+*     west exit from "Next to a Huge Oak Tree" to
+*     "Inside the Trunk of a Mammoth Tree" - closed
+*
+D 0 5719 1 1 100 0 0 0
+*     east exit from "Inside the Trunk of a Mammoth Tree" to
+*     "Next to a Huge Oak Tree" - closed
+*
+D 0 5729 3 1 100 0 0 0
+*     west exit from "Southern Branch along the Tree Top" to
+*     "Huge Living Chamber in the Tree House" - closed
+*
+D 0 5730 1 1 100 0 0 0
+*     east exit from "Huge Living Chamber in the Tree House" to
+*     "Southern Branch along the Tree Top" - closed
+*
+D 0 5770 3 1 100 0 0 0
+*     west exit from "Jenna's Wayhouse" to
+*     "Inside the Horse Barn" - closed
+*
+D 0 5781 1 1 100 0 0 0
+*     east exit from "Inside the Horse Barn" to
+*     "Jenna's Wayhouse" - closed
+*
+D 0 5776 2 1 100 0 0 0
+*     south exit from "Hallway on the Second Floor" to
+*     "Small Bedroom" - closed
+*
+D 0 5778 0 1 100 0 0 0
+*     north exit from "Small Bedroom" to
+*     "Hallway on the Second Floor" - closed
+*
+D 0 5777 2 1 100 0 0 0
+*     south exit from "Hallway on the Second Floor" to
+*     "Small Bedroom" - closed
+*
+D 0 5779 0 1 100 0 0 0
+*     north exit from "Small Bedroom" to
+*     "Hallway on the Second Floor" - closed
+*
+D 0 5777 3 1 100 0 0 0
+*     west exit from "Hallway on the Second Floor" to
+*     "Jenna's Bedroom" - closed
+*
+D 0 5780 1 1 100 0 0 0
+*     east exit from "Jenna's Bedroom" to
+*     "Hallway on the Second Floor" - closed
+*
+D 0 5783 3 1 100 0 0 0
+*     west exit from "Horse Corral" to
+*     "Inside the Horse Barn" - closed
+*
+D 0 5784 1 1 100 0 0 0
+*     east exit from "Inside the Horse Barn" to
+*     "Horse Corral" - closed
+*
+D 0 5787 3 1 100 0 0 0
+*     west exit from "Entrance To An Underground Home" to
+*     "A Passageway" - closed
+*
+D 0 5789 1 1 100 0 0 0
+*     east exit from "A Passageway" to
+*     "Entrance To An Underground Home" - closed
+*
+D 0 5792 5 5 100 0 0 0
+*     down exit from "A Living Hall" to
+*     "Bottom Of The Staircase" - closed/secret
+*
+D 0 5799 4 1 100 0 0 0
+*     up exit from "Bottom Of The Staircase" to
+*     "A Living Hall" - closed
+*
+D 0 5801 1 1 100 0 0 0
+*     east exit from "A Burial Chamber" to
+*     "The Guardian's Room" - closed
+*
+D 0 5802 3 1 100 0 0 0
+*     west exit from "The Guardian's Room" to
+*     "A Burial Chamber" - closed
+*
+D 0 5802 9 5 100 0 0 0
+*     southeast exit from "The Guardian's Room" to
+*     "A Treasure Room" - closed/secret
+*
+D 0 5803 6 1 100 0 0 0
+*     northwest exit from "A Treasure Room" to
+*     "The Guardian's Room" - closed
+*
+D 0 5830 1 1 100 0 0 0
+*     east exit from "A Small Room at the Front of the Tavern" to
+*     "Amid Several Tables in the Tavern" - closed
+*
+D 0 5831 3 1 100 0 0 0
+*     west exit from "Amid Several Tables in the Tavern" to
+*     "A Small Room at the Front of the Tavern" - closed
+*
+D 0 5831 2 1 100 0 0 0
+*     south exit from "Amid Several Tables in the Tavern" to
+*     "Bathrooms in the Tavern" - closed
+*
+D 0 5846 0 1 100 0 0 0
+*     north exit from "Bathrooms in the Tavern" to
+*     "Amid Several Tables in the Tavern" - closed
+*
+D 0 5832 2 1 100 0 0 0
+*     south exit from "At the Bar in the Broken Blade Tavern" to
+*     "The Tavern's Kitchen" - closed
+*
+D 0 5845 0 1 100 0 0 0
+*     north exit from "The Tavern's Kitchen" to
+*     "At the Bar in the Broken Blade Tavern" - closed
+*
+D 0 5833 1 2 100 0 0 0
+*     east exit from "A Narrow Hallway in the Tavern" to
+*     "A Darkly Lit Room in the Tavern" - closed/locked
+*
+D 0 5834 3 2 100 0 0 0
+*     west exit from "A Darkly Lit Room in the Tavern" to
+*     "A Narrow Hallway in the Tavern" - closed/locked
+*
+D 0 5834 5 1 100 0 0 0
+*     down exit from "A Darkly Lit Room in the Tavern" to
+*     "Dimly Lit Hallway Underneath the Tavern" - closed
+*
+D 0 5841 4 1 100 0 0 0
+*     up exit from "Dimly Lit Hallway Underneath the Tavern" to
+*     "A Darkly Lit Room in the Tavern" - closed
+*
+D 0 5835 1 1 100 0 0 0
+*     east exit from "Hallway on the Second Floor of the Tavern" to
+*     "The Madam's Room in the Tavern" - closed
+*
+D 0 5836 3 1 100 0 0 0
+*     west exit from "The Madam's Room in the Tavern" to
+*     "Hallway on the Second Floor of the Tavern" - closed
+*
+D 0 5835 3 1 100 0 0 0
+*     west exit from "Hallway on the Second Floor of the Tavern" to
+*     "Luxuriously Furnished Quarters" - closed
+*
+D 0 5840 1 1 100 0 0 0
+*     east exit from "Luxuriously Furnished Quarters" to
+*     "Hallway on the Second Floor of the Tavern" - closed
+*
+D 0 5836 2 1 100 0 0 0
+*     south exit from "The Madam's Room in the Tavern" to
+*     "The Brothel Women's Quarters in the Tavern" - closed
+*
+D 0 5837 0 1 100 0 0 0
+*     north exit from "The Brothel Women's Quarters in the Tavern" to
+*     "The Madam's Room in the Tavern" - closed
+*
+D 0 5838 3 1 100 0 0 0
+*     west exit from "End of the Second Floor Hallway" to
+*     "The Common Sleeping Quarters" - closed
+*
+D 0 5839 1 1 100 0 0 0
+*     east exit from "The Common Sleeping Quarters" to
+*     "End of the Second Floor Hallway" - closed
+*
+D 0 5842 3 1 100 0 0 0
+*     west exit from "The Meeting Hall of the Guild of Cutpurses" to
+*     "The Guild Leader's Quarters" - closed
+*
+D 0 5844 1 1 100 0 0 0
+*     east exit from "The Guild Leader's Quarters" to
+*     "The Meeting Hall of the Guild of Cutpurses" - closed
+*
+D 0 5849 1 1 100 0 0 0
+*     east exit from "First Floor, Guest Rooms and Lounge" to
+*     "A small, cozy room" - closed
+*
+D 0 5852 3 1 100 0 0 0
+*     west exit from "A small, cozy room" to
+*     "First Floor, Guest Rooms and Lounge" - closed
+*
+D 0 5849 2 1 100 0 0 0
+*     south exit from "First Floor, Guest Rooms and Lounge" to
+*     "A Utility Closet" - closed
+*
+D 0 5851 0 1 100 0 0 0
+*     north exit from "A Utility Closet" to
+*     "First Floor, Guest Rooms and Lounge" - closed
+*
+D 0 5854 1 2 100 0 0 0
+*     east exit from "Wide Corridor, Leading south to more Rooms" to
+*     "A small, yet lavish room" - closed/locked
+*
+D 0 5855 3 2 100 0 0 0
+*     west exit from "A small, yet lavish room" to
+*     "Wide Corridor, Leading south to more Rooms" - closed/locked
+*
+D 0 5854 3 2 100 0 0 0
+*     west exit from "Wide Corridor, Leading south to more Rooms" to
+*     "A large, elaborate room" - closed/locked
+*
+D 0 5856 1 2 100 0 0 0
+*     east exit from "A large, elaborate room" to
+*     "Wide Corridor, Leading south to more Rooms" - closed/locked
+*
+D 0 5857 1 2 100 0 0 0
+*     east exit from "Center Corridor, intersecting two Bedrooms" to
+*     "A filthy room, caked in dirt" - closed/locked
+*
+D 0 5859 3 2 100 0 0 0
+*     west exit from "A filthy room, caked in dirt" to
+*     "Center Corridor, intersecting two Bedrooms" - closed/locked
+*
+D 0 5857 3 2 100 0 0 0
+*     west exit from "Center Corridor, intersecting two Bedrooms" to
+*     "A small wooden room" - closed/locked
+*
+D 0 5858 1 2 100 0 0 0
+*     east exit from "A small wooden room" to
+*     "Center Corridor, intersecting two Bedrooms" - closed/locked
+*
+D 0 5858 5 5 100 0 0 0
+*     down exit from "A small wooden room" to
+*     "A Hidden Room" - closed/secret
+*
+D 0 5866 4 1 100 0 0 0
+*     up exit from "A Hidden Room" to
+*     "A small wooden room" - closed
+*
+D 0 5859 5 5 100 0 0 0
+*     down exit from "A filthy room, caked in dirt" to
+*     "A large, dingy room" - closed/secret
+*
+D 0 5867 4 1 100 0 0 0
+*     up exit from "A large, dingy room" to
+*     "A filthy room, caked in dirt" - closed
+*
+D 0 5860 1 2 100 0 0 0
+*     east exit from "End of The Corridor, at a Spare Room" to
+*     "An Elaboratly Furnished Room" - closed/locked
+*
+D 0 5861 3 2 100 0 0 0
+*     west exit from "An Elaboratly Furnished Room" to
+*     "End of The Corridor, at a Spare Room" - closed/locked
+*
+D 0 5860 3 2 100 0 0 0
+*     west exit from "End of The Corridor, at a Spare Room" to
+*     "A small, unused room" - closed/locked
+*
+D 0 5862 1 2 100 0 0 0
+*     east exit from "A small, unused room" to
+*     "End of The Corridor, at a Spare Room" - closed/locked
+*
+D 0 5868 2 1 100 0 0 0
+*     south exit from "A Delapitated Gateway" to
+*     "Through the Adamantine Gates" - closed
+*
+D 0 5869 0 1 100 0 0 0
+*     north exit from "Through the Adamantine Gates" to
+*     "A Delapitated Gateway" - closed
+*
+D 0 5876 5 5 100 0 0 0
+*     down exit from "A Road Between Ruins" to
+*     "A Dark Passageway" - closed/secret
+*
+D 0 5938 4 1 100 0 0 0
+*     up exit from "A Dark Passageway" to
+*     "A Road Between Ruins" - closed
+*
+D 0 5909 0 1 100 0 0 0
+*     north exit from "A Gaping Hole In The Base of the Tower" to
+*     "Inside the Bowels of the Tower" - closed
+*
+D 0 5911 2 1 100 0 0 0
+*     south exit from "Inside the Bowels of the Tower" to
+*     "A Gaping Hole In The Base of the Tower" - closed
+*
+D 0 5976 5 1 100 0 0 0
+*     down exit from "Entrance of a Ruined Outpost" to
+*     "An Old, Dark Staircase" - closed
+*
+D 0 5977 4 1 100 0 0 0
+*     up exit from "An Old, Dark Staircase" to
+*     "Entrance of a Ruined Outpost" - closed
+*
+D 0 5980 1 1 100 0 0 0
+*     east exit from "A Dilapidated Hallway" to
+*     "A Ruined Barracks" - closed
+*
+D 0 5983 3 1 100 0 0 0
+*     west exit from "A Ruined Barracks" to
+*     "A Dilapidated Hallway" - closed
+*
+D 0 5980 3 1 100 0 0 0
+*     west exit from "A Dilapidated Hallway" to
+*     "A Ruined Barracks" - closed
+*
+D 0 5984 1 1 100 0 0 0
+*     east exit from "A Ruined Barracks" to
+*     "A Dilapidated Hallway" - closed
+*
+D 0 5981 1 1 100 0 0 0
+*     east exit from "End of a Hallway" to
+*     "A Ransacked Officer's Quarters" - closed
+*
+D 0 5986 3 1 100 0 0 0
+*     west exit from "A Ransacked Officer's Quarters" to
+*     "End of a Hallway" - closed
+*
+D 0 5981 3 1 100 0 0 0
+*     west exit from "End of a Hallway" to
+*     "A Ruined Barracks" - closed
+*
+D 0 5985 1 1 100 0 0 0
+*     east exit from "A Ruined Barracks" to
+*     "End of a Hallway" - closed
+*
+D 0 5991 0 1 100 0 0 0
+*     north exit from "Bent, Mis-shapen Dungeon Gates" to
+*     "A Filthy Dungeon" - closed
+*
+D 0 5992 2 1 100 0 0 0
+*     south exit from "A Filthy Dungeon" to
+*     "Bent, Mis-shapen Dungeon Gates" - closed
+*
+D 0 5992 1 1 100 0 0 0
+*     east exit from "A Filthy Dungeon" to
+*     "A Filthy Jail Cell" - closed
+*
+D 0 5995 3 1 100 0 0 0
+*     west exit from "A Filthy Jail Cell" to
+*     "A Filthy Dungeon" - closed
+*
+D 0 5992 3 1 100 0 0 0
+*     west exit from "A Filthy Dungeon" to
+*     "An Old Jail Cell" - closed
+*
+D 0 5994 1 1 100 0 0 0
+*     east exit from "An Old Jail Cell" to
+*     "A Filthy Dungeon" - closed
+*
+D 0 5993 1 1 100 0 0 0
+*     east exit from "A Filthy Dungeon" to
+*     "A Grungy Jail Cell" - closed
+*
+D 0 5996 3 1 100 0 0 0
+*     west exit from "A Grungy Jail Cell" to
+*     "A Filthy Dungeon" - closed
+*
+D 0 5993 3 1 100 0 0 0
+*     west exit from "A Filthy Dungeon" to
+*     "A Burnt and Blasted Jail Cell" - closed
+*
+D 0 5997 1 1 100 0 0 0
+*     east exit from "A Burnt and Blasted Jail Cell" to
+*     "A Filthy Dungeon" - closed
+*
+D 0 5997 3 5 100 0 0 0
+*     west exit from "A Burnt and Blasted Jail Cell" to
+*     "A Secret Crawlspace" - closed/secret
+*
+D 0 5999 1 1 100 0 0 0
+*     east exit from "A Secret Crawlspace" to
+*     "A Burnt and Blasted Jail Cell" - closed
+*
+*
+O 0 5724 2 5702 100 0 0 0          * a tiny stream
+O 0 5705 1 5723 100 0 0 0          * a wooden dresser
+P 1 5706 20 5705 100 0 0 0         *   a beautiful dryad's garment
+P 1 5706 20 5705 100 0 0 0         *   a beautiful dryad's garment
+P 1 5706 20 5705 100 0 0 0         *   a beautiful dryad's garment
+P 1 5706 20 5705 100 0 0 0         *   a beautiful dryad's garment
+P 1 5707 5 5705 100 0 0 0          *   a leather pouch
+P 1 5708 15 5707 100 0 0 0         *     a tiny ruby
+P 1 5708 15 5707 100 0 0 0         *     a tiny ruby
+P 1 5708 15 5707 100 0 0 0         *     a tiny ruby
+O 0 5701 1 5730 100 0 0 0          * an ancient desk
+P 1 5704 1 5701 100 0 0 0          *   some silver coins neatly stacked in rows
+P 1 5730 1 5701 100 0 0 0          *   a clear potion
+O 0 5723 1 5736 100 0 0 0          * a tiny porous stone
+O 0 5722 1 5748 100 0 0 0          * a broken down cart
+O 0 5709 2 5765 100 0 0 0          * a pool of water.
+O 0 5725 1 5780 100 0 0 0          * a wooden dresser
+P 1 5726 10 5725 100 0 0 0         *   a beautiful silken dress
+P 1 5727 10 5725 100 0 0 0         *   a small silver dagger
+O 0 1320 2 5803 100 0 0 0          * (object type not in this .obj file)
+O 0 1320 2 5803 100 0 0 0          * (object type not in this .obj file)
+O 0 5736 1 5822 100 0 0 0          * a huge worm nest
+P 1 5737 1 5736 100 0 0 0          *   a rotting flesh amulet
+O 0 5758 1 5829 100 0 0 0          * a sign
+O 0 5749 1 5831 100 0 0 0          * a target
+O 0 5743 1 5846 100 0 0 0          * a pool of vomit
+O 0 5787 1 5872 100 0 0 0          * a faded sign
+O 0 5798 1 5882 100 0 0 0          * a well concealed panel
+P 1 5799 1 5798 100 0 0 0          *   a perfectly clear potion
+P 1 5800 1 5798 100 0 0 0          *   oil of etherealness
+O 0 5788 1 5939 100 0 0 0          * a pitch-black wall
+O 0 5789 1 5942 100 0 0 0          * a bright white wall of light
+O 0 5809 1 5971 100 0 0 0          * a portal enshrouded in darkness
+O 0 5810 1 5973 100 0 0 0          * a portal enshrouded in darkness
+O 0 5820 1 5975 100 0 0 0          * an old durethium key
+*
+M 0 5714 1 5700 100 0 0 0          * the forest ranger
+G 1 5720 1 0 100 0 0 0             *    a glowing silverish scimitar
+M 0 5704 6 5704 100 0 0 0          * the squirrel
+M 0 5704 6 5704 100 0 0 0          * the squirrel
+M 0 5700 14 5707 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5707 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5707 1 5709 100 0 0 0          * the furry rabbit
+M 0 5708 1 5709 100 0 0 0          * the red fox
+M 0 5705 2 5710 100 0 0 0          * the deer
+M 0 5706 1 5710 100 0 0 0          * the rattler snake
+M 0 5700 14 5711 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5711 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5715 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5715 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5705 2 5716 100 0 0 0          * the deer
+M 0 5700 14 5720 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5720 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5725 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5725 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5702 2 5725 100 0 0 0          * an enslaved human male
+M 0 5702 2 5725 100 0 0 0          * an enslaved human male
+M 0 5701 1 5730 100 0 0 0          * the beautiful dryad princess
+E 1 5702 1 3 100 0 0 0             *   a tiny green-glowing metallic loop
+E 1 5703 1 4 100 0 0 0             *   a beautiful dryad charm
+E 1 5711 1 5 100 0 0 0             *   a beautiful forest green dryad's gown
+M 0 5703 2 5730 100 0 0 0          * an enslaved human male
+M 0 5703 2 5730 100 0 0 0          * an enslaved human male
+M 0 5700 14 5732 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+M 0 5700 14 5732 100 0 0 0         * the beautiful dryad
+G 1 5706 20 0 100 0 0 0            *    a beautiful dryad's garment
+G 1 5712 99 0 100 0 0 0            *    a wooden club
+M 0 5709 23 5735 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5735 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5737 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5737 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5738 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5738 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5742 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5742 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5742 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5747 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5747 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5747 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5747 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5747 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5749 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5749 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5749 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5749 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5749 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5753 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5753 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5753 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5709 23 5753 100 0 0 0         * the brownie
+G 1 5714 99 0 100 0 0 0            *    a tiny dagger
+M 0 5710 6 5759 100 0 0 0          * the brownie child
+M 0 5710 6 5759 100 0 0 0          * the brownie child
+M 0 5710 6 5759 100 0 0 0          * the brownie child
+M 0 5710 6 5760 100 0 0 0          * the brownie child
+M 0 5710 6 5760 100 0 0 0          * the brownie child
+M 0 5710 6 5760 100 0 0 0          * the brownie child
+M 0 5711 4 5760 100 0 0 0          * the brownie elder
+G 1 5715 9 0 100 0 0 0             *    a tiny wooden cane
+M 0 5711 4 5760 100 0 0 0          * the brownie elder
+G 1 5715 9 0 100 0 0 0             *    a tiny wooden cane
+M 0 5712 1 5766 100 0 0 0          * the ancient brownie
+G 1 5715 9 0 100 0 0 0             *    a tiny wooden cane
+G 1 5713 1 0 100 0 0 0             *    a tiny golden earring
+M 0 5711 4 5768 100 0 0 0          * the brownie elder
+G 1 5715 9 0 100 0 0 0             *    a tiny wooden cane
+M 0 5711 4 5768 100 0 0 0          * the brownie elder
+E 1 285 999 16 100 0 0 0           *   (object type not in this .obj file)
+G 1 5719 999 0 100 0 0 0           *    a vial of holy water
+G 1 5716 2 0 100 0 0 0             *    a dark potion
+G 1 5718 2 0 100 0 0 0             *    a thick blue potion
+G 1 5717 2 0 100 0 0 0             *    a murky brown potion
+G 1 5729 99 0 100 0 0 0            *    a pair of muddy boots
+G 1 5715 9 0 100 0 0 0             *    a tiny wooden cane
+M 0 5715 1 5770 100 0 0 0          * Jenna
+G 1 3000 99 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3001 99 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3002 99 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3003 99 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 3004 99 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 5728 99 0 100 0 0 0            *    a wine flagon
+G 1 312 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 5721 1 0 100 0 0 0             *    a decorated leather eyepatch
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 5718 1 5770 100 0 0 0          * the road weary traveller
+G 1 5700 1 0 100 0 0 0             *    an oaken key
+G 1 5710 1 0 100 0 0 0             *    an old silver longsword
+M 0 5725 1 5770 100 0 0 0          * the old ranger
+M 0 5726 1 5770 100 0 0 0          * the old hound dog
+M 0 5720 1 5773 100 0 0 0          * the cook
+M 0 5721 2 5773 100 0 0 0          * the male traveller
+M 0 5721 2 5773 100 0 0 0          * the male traveller
+M 0 5722 1 5773 100 0 0 0          * the female traveller
+M 0 5727 3 5773 100 0 0 0          * the mercenary
+E 1 283 99999 16 100 0 0 0         *   (object type not in this .obj file)
+M 0 5723 1 5774 100 0 0 0          * the card shark
+M 0 5724 1 5774 100 0 0 0          * the native indian
+M 0 5727 3 5778 100 0 0 0          * the mercenary
+E 1 283 99999 16 100 0 0 0         *   (object type not in this .obj file)
+M 0 5727 3 5778 100 0 0 0          * the mercenary
+E 1 283 99999 16 100 0 0 0         *   (object type not in this .obj file)
+M 0 5713 1 5779 100 0 0 0          * the travelling merchant
+G 1 5716 2 0 100 0 0 0             *    a dark potion
+G 1 5717 2 0 100 0 0 0             *    a murky brown potion
+G 1 5718 2 0 100 0 0 0             *    a thick blue potion
+G 1 5719 999 0 100 0 0 0           *    a vial of holy water
+M 0 5716 3 5781 100 0 0 0          * the stable hand
+M 0 5716 3 5781 100 0 0 0          * the stable hand
+M 0 5719 1 5781 100 0 0 0          * the drunk old stable hand
+G 1 5728 99 0 100 0 0 0            *    a wine flagon
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5781 100 0 0 0         * the mount
+M 0 5717 13 5782 100 0 0 0         * the mount
+M 0 5716 3 5783 100 0 0 0          * the stable hand
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5717 13 5784 100 0 0 0         * the mount
+M 0 5734 1 5787 100 0 0 0          * a minotaur guard
+E 1 5733 1 16 100 0 0 0            *   a longsword
+M 0 5730 1 5788 100 0 0 0          * a worshipper
+G 1 5734 1 0 100 0 0 0             *    some ceremonial robes
+M 0 5732 1 5790 100 0 0 0          * a giant spider
+M 0 5733 1 5792 100 0 0 0          * a young minotaur
+M 0 5728 1 5796 100 0 0 0          * a studious minotaur
+M 0 5729 1 5798 100 0 0 0          * a female minotaur commoner
+M 0 5735 1 5800 100 0 0 0          * a skeleton
+M 0 5736 1 5801 100 0 0 0          * a zombie
+M 0 5731 1 5802 100 0 0 0          * a guardian minotaur
+G 1 5731 1 0 100 0 0 0             *    a horned helmet
+G 1 5732 1 0 100 0 0 0             *    a large battle-axe
+M 0 5737 1 5803 100 0 0 0          * a treasure guardian
+M 0 5738 5 5805 100 0 0 0          * a small squirrel
+M 0 5741 7 5805 100 0 0 0          * a small bird
+M 0 5740 1 5807 100 0 0 0          * a fisherman
+G 1 5735 1 0 100 0 0 0             *    a fishing vest
+M 0 5741 7 5808 100 0 0 0          * a small bird
+M 0 5741 7 5809 100 0 0 0          * a small bird
+M 0 5738 5 5810 100 0 0 0          * a small squirrel
+M 0 5739 2 5810 100 0 0 0          * a swarm of insects
+M 0 5741 7 5811 100 0 0 0          * a small bird
+M 0 5741 7 5813 100 0 0 0          * a small bird
+M 0 5739 2 5814 100 0 0 0          * a swarm of insects
+M 0 5738 5 5815 100 0 0 0          * a small squirrel
+M 0 5741 7 5815 100 0 0 0          * a small bird
+M 0 5738 5 5816 100 0 0 0          * a small squirrel
+M 0 5738 5 5816 100 0 0 0          * a small squirrel
+M 0 5741 7 5816 100 0 0 0          * a small bird
+M 0 5742 2 5817 100 0 0 0          * a small white fish
+M 0 5742 2 5817 100 0 0 0          * a small white fish
+M 0 5746 3 5821 100 0 0 0          * the adult worm
+M 0 5747 2 5821 100 0 0 0          * the adult worm
+M 0 5743 1 5822 100 0 0 0          * the mother worm
+M 0 5745 2 5822 100 0 0 0          * A young worm
+M 0 5747 2 5823 100 0 0 0          * the adult worm
+M 0 5746 3 5824 100 0 0 0          * the adult worm
+M 0 5745 2 5826 100 0 0 0          * A young worm
+M 0 5746 3 5827 100 0 0 0          * the adult worm
+M 0 5744 7 5828 100 0 0 0          * the black worm mass
+G 1 5740 1 0 33 0 0 0              *    a dark grey potion
+M 0 5744 7 5828 75 0 0 0           * the black worm mass
+G 1 5738 2 0 100 0 0 0             *    a dark grey potion
+G 1 5738 2 0 25 0 0 0              *    a dark grey potion
+M 0 5744 7 5828 75 0 0 0           * the black worm mass
+G 1 5739 2 0 100 0 0 0             *    a dark grey potion
+G 1 5739 2 0 25 0 0 0              *    a dark grey potion
+M 0 5744 7 5828 10 0 0 0           * the black worm mass
+G 1 5741 2 0 100 0 0 0             *    a dark grey potion
+G 1 5741 2 0 100 0 0 0             *    a dark grey potion
+G 1 5742 1 0 100 0 0 0             *    a dark grey potion
+F 1 5744 7 5828 100 0 0 0          * the black worm mass (following)
+F 1 5744 7 5828 100 0 0 0          * the black worm mass (following)
+F 1 5744 7 5828 100 0 0 0          * the black worm mass (following)
+M 0 5760 1 5830 100 0 0 0          * an upset centaur bouncer
+G 1 5757 1 0 100 0 0 0             *    a green-bladed scimitar
+M 0 5756 1 5831 100 0 0 0          * a pompous elven ranger
+G 1 5768 1 0 100 0 0 0             *    an archers wrist guard
+M 0 5757 1 5831 100 0 0 0          * a gaudily dressed bard
+G 1 5769 1 0 100 0 0 0             *    a fuzzy suede hat
+M 0 5758 1 5831 100 0 0 0          * a drunken rogue
+G 1 5770 1 0 100 0 0 0             *    a rugged green and blue jersey.
+M 0 5759 1 5831 100 0 0 0          * a young waitress
+G 1 5750 1 0 100 0 0 0             *    the waittress's tip jar
+G 1 5772 1 0 100 0 0 0             *    a jade and emerald earring
+M 0 5751 1 5832 100 0 0 0          * an elderly bartender
+G 1 5773 1 0 100 0 0 0             *    a piranha-hide belt
+M 0 5752 1 5832 100 0 0 0          * a drunken half-orc
+G 1 5774 1 0 100 0 0 0             *    a dirty ale flagon
+M 0 5753 1 5832 100 0 0 0          * a fallen paladin
+G 1 5775 1 0 100 0 0 0             *    some dented steel platemail
+M 0 5754 1 5832 100 0 0 0          * a sleazy prostitute
+G 1 5771 1 0 100 0 0 0             *    some fishnet stockings
+M 0 5755 1 5832 100 0 0 0          * a burly potash miner
+G 1 5776 1 0 100 0 0 0             *    a large pick-axe
+M 0 5762 1 5833 100 0 0 0          * a mean-looking halfling
+G 1 5767 1 0 100 0 0 0             *    a wire mesh eyepatch
+M 0 5775 1 5834 100 0 0 0          * a dark-robed mage
+G 1 5764 1 0 100 0 0 0             *    some dark wool robes
+M 0 5776 1 5834 100 0 0 0          * a stocky dwarf
+G 1 5765 1 0 100 0 0 0             *    sleeves of patched duergar-skin
+M 0 5777 1 5834 100 0 0 0          * a silver-haired halfling
+G 1 5766 1 0 100 0 0 0             *    a silver rope necklace
+M 0 5763 1 5836 100 0 0 0          * the brothel Madam
+G 1 5755 1 0 100 0 0 0             *    a gold ring set with rubies
+F 1 5764 1 5836 100 0 0 0          * a hired guard (following)
+G 1 5780 1 0 100 0 0 0             *    a spiked wormskin helm
+M 0 5765 1 5837 100 0 0 0          * a deeply tanned woman
+G 1 5753 1 0 100 0 0 0             *    a ceremonial whip
+M 0 5766 1 5837 100 0 0 0          * a topless half-elf
+G 1 5754 1 0 100 0 0 0             *    a woven reed skirt
+M 0 5767 1 5837 100 0 0 0          * a brawny barbarian woman
+G 1 5751 1 0 100 0 0 0             *    some polar bear fur underwear
+M 0 5768 1 5837 100 0 0 0          * a sweaty half-orc prostitute
+G 1 5752 1 0 100 0 0 0             *    a crusty loincloth
+M 0 5769 1 5838 100 0 0 0          * the tavern janitor
+G 1 5756 1 0 100 0 0 0             *    a straw broom
+M 0 5770 1 5839 100 0 0 0          * a stubborn barbarian
+G 1 5777 1 0 100 0 0 0             *    a steel and silver earring
+M 0 5771 1 5839 100 0 0 0          * a grimy half-orc
+G 1 5778 1 0 100 0 0 0             *    a mask of sewn burlap
+M 0 5772 1 5839 100 0 0 0          * a beady-eyed gnome
+G 1 5779 1 0 100 0 0 0             *    a lizard-skin scarf
+M 0 5773 1 5840 100 0 0 0          * a traveling paint salesman
+G 1 5781 1 0 100 0 0 0             *    a can of paint thinner
+M 0 5774 1 5840 100 0 0 0          * the salesman's assistant
+G 1 5782 1 0 100 0 0 0             *    a paint stirring paddle
+M 0 5761 1 5842 100 0 0 0          * a cutpurse guild assassin
+G 1 5759 1 0 100 0 0 0             *    a long silver stiletto
+M 0 5779 1 5842 100 0 0 0          * a cutpurse guild burglar
+G 1 5760 1 0 100 0 0 0             *    some dwarf-skin padded slippers
+M 0 5778 3 5842 100 0 0 0          * a cutpurse guild thug
+G 1 5763 3 0 100 0 0 0             *    an oaken shillelagh
+M 0 5778 3 5842 100 0 0 0          * a cutpurse guild thug
+G 1 5763 3 0 100 0 0 0             *    an oaken shillelagh
+M 0 5778 3 5842 100 0 0 0          * a cutpurse guild thug
+G 1 5763 3 0 100 0 0 0             *    an oaken shillelagh
+M 0 5781 1 5843 100 0 0 0          * a stolen goods fence
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 5780 1 5844 100 0 0 0          * the cutpurse guild leader
+E 1 5761 1 8 100 0 0 0             *   blood-red demonskin boots
+E 1 5762 1 16 100 0 0 0            *   a massive iron sledge
+M 0 5749 1 5845 100 0 0 0          * the thri-kreen chef
+G 1 5746 1 0 100 0 0 0             *    a crusty ladel
+G 1 5745 1 0 100 0 0 0             *    a cheese grater
+G 1 5744 1 0 100 0 0 0             *    a carrot peeler
+G 1 5747 1 0 100 0 0 0             *    a large wooden spoon
+M 0 5750 1 5845 100 0 0 0          * an over-worked dishwasher
+G 1 5748 1 0 100 0 0 0             *    some yellow dishwashing gloves
+M 0 5748 1 5846 100 0 0 0          * a filthy drunk
+M 0 5782 1 5848 100 0 0 0          * Arlik 
+G 1 5783 1 0 100 0 0 0             *    a small key made of obsidian
+M 0 5787 1 5852 100 0 0 0          * A small elven man
+M 0 5791 2 5853 100 0 0 0          * A Tavern Patron
+M 0 5792 3 5853 100 0 0 0          * A young man
+M 0 5792 3 5853 100 0 0 0          * A young man
+M 0 5791 2 5853 100 0 0 0          * A Tavern Patron
+M 0 5784 1 5855 100 0 0 0          * A lonely traveller
+M 0 5783 1 5856 100 0 0 0          * A tired mage
+M 0 5785 1 5858 100 0 0 0          * A Thri-Kreen warrior 
+G 1 5784 4 0 100 0 0 0             *    a glowing shortsword
+G 1 5784 4 0 100 0 0 0             *    a glowing shortsword
+G 1 5784 4 0 100 0 0 0             *    a glowing shortsword
+G 1 5784 4 0 100 0 0 0             *    a glowing shortsword
+M 0 5786 1 5861 100 0 0 0          * A female Barbarian traveller
+M 0 5788 1 5862 100 0 0 0          * A small Halfling bard
+M 0 5792 3 5863 100 0 0 0          * A young man
+M 0 5793 1 5863 100 0 0 0          * A drunken anti-paladin
+M 0 5795 1 5864 100 0 0 0          * A young warrior
+M 0 5796 2 5864 100 0 0 0          * A young female shaman
+M 0 5796 2 5864 100 0 0 0          * A young female shaman
+M 0 5794 1 5865 100 0 0 0          * A Receptionist 
+M 0 5789 1 5866 100 0 0 0          * A Duergar assassin
+G 1 5786 1 0 100 0 0 0             *    a crimson hilted stiletto
+M 0 5790 1 5867 100 0 0 0          * A lost Troll
+G 1 5785 1 0 100 0 0 0             *    an obsidian longsword
+M 0 5797 1 5873 100 0 0 0          * a groaning spirit
+G 1 5790 1 0 100 0 0 0             *    the staff of the serpent
+M 0 5808 7 5876 100 0 0 0          * a whipweed
+M 0 5798 1 5879 100 0 0 0          * a skulk
+G 1 5793 1 0 100 0 0 0             *    a silvery-blue strip of metal
+G 1 5791 1 0 100 0 0 0             *    a chamelion dagger
+G 1 5792 1 0 100 0 0 0             *    a darkened dagger
+M 0 5799 2 5882 100 0 0 0          * an unseen servant
+G 1 5797 2 0 100 0 0 0             *    an old dirty broom
+F 1 5799 2 5882 100 0 0 0          * an unseen servant (following)
+G 1 5796 1 0 100 0 0 0             *    a tiny golden key
+G 1 5797 2 0 100 0 0 0             *    an old dirty broom
+M 0 5808 7 5884 100 0 0 0          * a whipweed
+M 0 5808 7 5884 100 0 0 0          * a whipweed
+M 0 5808 7 5885 100 0 0 0          * a whipweed
+M 0 5809 3 5886 100 0 0 0          * a LARGE whipweed
+M 0 5809 3 5887 100 0 0 0          * a LARGE whipweed
+M 0 5800 1 5892 100 0 0 0          * an undead knight
+G 1 5802 1 0 100 0 0 0             *    a round shield of stone
+G 1 5801 1 0 100 0 0 0             *    stone platemail
+M 0 5801 1 5904 100 0 0 0          * an old wise man
+M 0 5807 1 5909 100 0 0 0          * a wither weed
+M 0 5802 1 5920 100 0 0 0          * the Bodak
+G 1 5795 1 0 100 0 0 0             *    a silvery-green strip of metal
+M 0 5808 7 5925 100 0 0 0          * a whipweed
+M 0 5808 7 5925 100 0 0 0          * a whipweed
+M 0 5808 7 5926 100 0 0 0          * a whipweed
+M 0 5804 1 5928 100 0 0 0          * a yellow musk creeper
+G 1 5807 1 0 100 0 0 0             *    the bulb of a yellow musk plant
+P 1 5806 1 5807 100 0 0 0          *   a shiny golden hilt
+F 1 5805 2 5928 100 0 0 0          * a yellow musk zombie (following)
+F 1 5805 2 5928 100 0 0 0          * a yellow musk zombie (following)
+F 1 5806 2 5928 100 0 0 0          * a yellow musk zombie (following)
+F 1 5806 2 5928 100 0 0 0          * a yellow musk zombie (following)
+M 0 5809 3 5930 100 0 0 0          * a LARGE whipweed
+M 0 5803 1 5963 100 0 0 0          * a revanant
+G 1 5803 1 0 100 0 0 0             *    a small satchel
+P 1 5804 1 5803 100 0 0 0          *   a parchment
+M 0 5810 2 5969 100 0 0 0          * a giant blood worm
+M 0 5810 2 5969 100 0 0 0          * a giant blood worm
+G 1 5808 1 0 100 0 0 0             *    a golden bracelet encrusted with diamonds
+M 0 5820 4 5978 100 0 0 0          * a zombie
+M 0 5818 2 5981 100 0 0 0          * an ancient skeleton
+M 0 5821 3 5982 100 0 0 0          * a small dire maggot
+M 0 5821 3 5982 100 0 0 0          * a small dire maggot
+M 0 5821 3 5982 100 0 0 0          * a small dire maggot
+M 0 5819 2 5982 100 0 0 0          * a skeleton
+M 0 5820 4 5982 100 0 0 0          * a zombie
+M 0 5815 5 5983 100 0 0 0          * a skeleton
+M 0 5815 5 5983 100 0 0 0          * a skeleton
+M 0 5814 5 5983 100 0 0 0          * a zombie soldier
+M 0 5820 4 5983 100 0 0 0          * a zombie
+M 0 5814 5 5984 100 0 0 0          * a zombie soldier
+M 0 5814 5 5984 100 0 0 0          * a zombie soldier
+M 0 5815 5 5984 100 0 0 0          * a skeleton
+M 0 5815 5 5985 100 0 0 0          * a skeleton
+M 0 5815 5 5985 100 0 0 0          * a skeleton
+M 0 5814 5 5985 100 0 0 0          * a zombie soldier
+M 0 5814 5 5985 100 0 0 0          * a zombie soldier
+M 0 5816 1 5986 100 0 0 0          * the zombie captain
+M 0 5820 4 5987 100 0 0 0          * a zombie
+M 0 5819 2 5987 100 0 0 0          * a skeleton
+M 0 5818 2 5987 100 0 0 0          * an ancient skeleton
+M 0 5812 1 5988 100 0 0 0          * the ghost of the quartermaster
+G 1 5811 1 0 100 0 0 0             *    a pair of ghostly sleeves
+G 1 5812 999 0 100 0 0 0           *    a pair of ghostly pants
+G 1 5813 999 0 100 0 0 0           *    a pair of ghostly gloves
+G 1 5814 999 0 100 0 0 0           *    a pair of ghostly boots
+M 0 5813 1 5989 100 0 0 0          * Thrulmar the undead minotaur
+M 0 5817 1 5991 100 0 0 0          * a flesh golem
+M 0 5822 20 5992 100 0 0 0         * a dungeon rat
+F 1 5822 20 5992 100 0 0 0         * a dungeon rat (following)
+M 0 5822 20 5992 100 0 0 0         * a dungeon rat
+F 1 5822 20 5992 100 0 0 0         * a dungeon rat (following)
+F 1 5822 20 5992 100 0 0 0         * a dungeon rat (following)
+M 0 5822 20 5992 100 0 0 0         * a dungeon rat
+M 0 5822 20 5992 100 0 0 0         * a dungeon rat
+M 0 5822 20 5993 100 0 0 0         * a dungeon rat
+F 1 5822 20 5993 100 0 0 0         * a dungeon rat (following)
+F 1 5822 20 5993 100 0 0 0         * a dungeon rat (following)
+F 1 5822 20 5993 100 0 0 0         * a dungeon rat (following)
+F 1 5822 20 5993 100 0 0 0         * a dungeon rat (following)
+M 0 5822 20 5993 100 0 0 0         * a dungeon rat
+M 0 5822 20 5993 100 0 0 0         * a dungeon rat
+M 0 5824 1 5993 100 0 0 0          * an enraged zombie ogress
+M 0 5823 4 5994 100 0 0 0          * a tortured spirit
+M 0 5823 4 5995 100 0 0 0          * a tortured spirit
+M 0 5823 4 5996 100 0 0 0          * a tortured spirit
+M 0 5823 4 5997 100 0 0 0          * a tortured spirit
+M 0 5811 1 5998 100 0 0 0          * the zombie torturer
+G 1 5819 1 0 100 0 0 0             *    a strong durethium lockbox
+P 1 5821 1 5819 100 0 0 0          *   a small pile of platinum coins
+P 1 5823 2 5819 100 0 0 0          *   a scroll of frozen wrath
+P 1 5823 2 5819 100 0 0 0          *   a scroll of frozen wrath
+P 1 5822 1 5819 50 0 0 0           *   a magician's holy wand
+M 0 5822 20 5998 100 0 0 0         * a dungeon rat
+F 1 5822 20 5998 100 0 0 0         * a dungeon rat (following)
+F 1 5822 20 5998 100 0 0 0         * a dungeon rat (following)
+M 0 5822 20 5998 100 0 0 0         * a dungeon rat
+F 1 5822 20 5998 100 0 0 0         * a dungeon rat (following)
+M 0 5822 20 5998 100 0 0 0         * a dungeon rat
+*
+S

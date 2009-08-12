@@ -1,0 +1,343 @@
+#137
+&+CTundra&n~
+13938 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 13712 0 1 100 0 0 0
+*     north exit from "Entrance to Bone Fort Inn" to
+*     "Entrance Room to the Bone Fort Inn" - closed
+*
+D 0 13713 2 1 100 0 0 0
+*     south exit from "Entrance Room to the Bone Fort Inn" to
+*     "Entrance to Bone Fort Inn" - closed
+*
+D 0 13716 0 1 100 0 0 0
+*     north exit from "The Onyx Stairs" to
+*     "A Dark Passage Behind The Rooms" - closed
+*
+D 0 13728 2 1 100 0 0 0
+*     south exit from "A Dark Passage Behind The Rooms" to
+*     "The Onyx Stairs" - closed
+*
+D 0 13726 0 1 100 0 0 0
+*     north exit from "A Small Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 13758 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hallway" - closed
+*
+D 0 13727 0 1 100 0 0 0
+*     north exit from "A Small Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 13752 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hallway" - closed
+*
+D 0 13728 5 1 100 0 0 0
+*     down exit from "A Dark Passage Behind The Rooms" to
+*     "An Underground River Under The Bone Fort Inn" - closed
+*
+D 0 13729 4 1 100 0 0 0
+*     up exit from "An Underground River Under The Bone Fort Inn" to
+*     "A Dark Passage Behind The Rooms" - closed
+*
+D 0 13740 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind The Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13752 0 5 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind The Rooms" - closed/secret
+*
+D 0 13741 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind the Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13758 0 5 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind the Rooms" - closed/secret
+*
+D 0 13742 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind the Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13751 0 8 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind the Rooms" - open/blocked
+*
+D 0 13743 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind the Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13750 0 5 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind the Rooms" - closed/secret
+*
+D 0 13744 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind the Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13759 0 5 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind the Rooms" - closed/secret
+*
+D 0 13745 2 5 100 0 0 0
+*     south exit from "A Dark Passage Behind the Rooms" to
+*     "A Small Bedroom" - closed/secret
+*
+D 0 13760 0 5 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "A Dark Passage Behind the Rooms" - closed/secret
+*
+D 0 13746 0 1 100 0 0 0
+*     north exit from "A Small Hall" to
+*     "A Small Bedroom" - closed
+*
+D 0 13759 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hall" - closed
+*
+D 0 13747 0 1 100 0 0 0
+*     north exit from "A Small Hall" to
+*     "A Small Bedroom" - closed
+*
+D 0 13760 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hall" - closed
+*
+D 0 13748 0 1 100 0 0 0
+*     north exit from "A Small Hall" to
+*     "A Small Bedroom" - closed
+*
+D 0 13751 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hall" - closed
+*
+D 0 13749 0 1 100 0 0 0
+*     north exit from "A Small Hall" to
+*     "A Small Bedroom" - closed
+*
+D 0 13750 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "A Small Hall" - closed
+*
+D 0 13761 2 1 100 0 0 0
+*     south exit from "The Ice Lounge" to
+*     "An Ancient Workshop" - closed
+*
+D 0 13762 0 1 100 0 0 0
+*     north exit from "An Ancient Workshop" to
+*     "The Ice Lounge" - closed
+*
+*
+O 0 13704 1 13712 100 0 0 0        * a very large sign
+O 0 13718 1 13713 100 0 0 0        * a blood-filled fountain
+O 0 13700 1 13714 100 0 0 0        * a small book rack
+O 0 13717 1 13735 100 0 0 0        * a very large pile of coins
+O 0 13701 1 13751 100 0 0 0        * a shiny mirror
+O 0 13703 1 13754 100 0 0 0        * a tribal mask of human skulls
+O 0 13755 1 13764 100 0 0 0        * a dangling earring of crystal
+O 0 13728 1 13938 100 0 0 0        * a pair of spiked grey boots
+*
+M 0 13720 20 13700 100 0 0 0       * a snow leopard
+M 0 13714 19 13700 100 0 0 0       * a snow buffalo
+M 0 13714 19 13700 100 0 0 0       * a snow buffalo
+M 0 13714 19 13701 100 0 0 0       * a snow buffalo
+M 0 13721 53 13701 100 0 0 0       * an arctic fox
+M 0 13721 53 13701 100 0 0 0       * an arctic fox
+M 0 13714 19 13701 100 0 0 0       * a snow buffalo
+M 0 13714 19 13701 100 0 0 0       * a snow buffalo
+M 0 13721 53 13701 100 0 0 0       * an arctic fox
+M 0 13714 19 13702 100 0 0 0       * a snow buffalo
+M 0 13720 20 13702 100 0 0 0       * a snow leopard
+M 0 13721 53 13702 100 0 0 0       * an arctic fox
+M 0 13721 53 13703 100 0 0 0       * an arctic fox
+M 0 13721 53 13703 100 0 0 0       * an arctic fox
+M 0 13721 53 13703 100 0 0 0       * an arctic fox
+M 0 13720 20 13704 100 0 0 0       * a snow leopard
+M 0 13721 53 13704 100 0 0 0       * an arctic fox
+M 0 13715 13 13705 100 0 0 0       * a snow fox
+M 0 13720 20 13706 100 0 0 0       * a snow leopard
+M 0 13720 20 13706 100 0 0 0       * a snow leopard
+M 0 13721 53 13706 100 0 0 0       * an arctic fox
+M 0 13715 13 13707 100 0 0 0       * a snow fox
+M 0 13721 53 13708 100 0 0 0       * an arctic fox
+M 0 13721 53 13708 100 0 0 0       * an arctic fox
+M 0 13720 20 13710 100 0 0 0       * a snow leopard
+M 0 13721 53 13710 100 0 0 0       * an arctic fox
+M 0 13721 53 13710 100 0 0 0       * an arctic fox
+M 0 13721 53 13710 100 0 0 0       * an arctic fox
+M 0 13707 1 13713 100 0 0 0        * a dark traveller
+G 1 13711 1 0 100 0 0 0            *    a dark black book
+M 0 13703 1 13714 100 0 0 0        * a hunched man
+M 0 13715 13 13717 100 0 0 0       * a snow fox
+M 0 13720 20 13717 100 0 0 0       * a snow leopard
+M 0 13721 53 13717 100 0 0 0       * an arctic fox
+M 0 13721 53 13717 100 0 0 0       * an arctic fox
+M 0 13720 20 13719 100 0 0 0       * a snow leopard
+M 0 13721 53 13719 100 0 0 0       * an arctic fox
+M 0 13715 13 13720 100 0 0 0       * a snow fox
+M 0 13721 53 13720 100 0 0 0       * an arctic fox
+M 0 13721 53 13720 100 0 0 0       * an arctic fox
+M 0 13721 53 13720 100 0 0 0       * an arctic fox
+M 0 13720 20 13721 100 0 0 0       * a snow leopard
+M 0 13721 53 13722 100 0 0 0       * an arctic fox
+M 0 13721 53 13722 100 0 0 0       * an arctic fox
+M 0 13715 13 13724 100 0 0 0       * a snow fox
+M 0 13709 5 13728 100 0 0 0        * a hungry hook horror
+M 0 13700 6 13729 100 0 0 0        * a shimmering blue shark
+M 0 13700 6 13729 100 0 0 0        * a shimmering blue shark
+M 0 13700 6 13730 100 0 0 0        * a shimmering blue shark
+M 0 13700 6 13731 100 0 0 0        * a shimmering blue shark
+M 0 13700 6 13733 100 0 0 0        * a shimmering blue shark
+M 0 13700 6 13734 100 0 0 0        * a shimmering blue shark
+M 0 13709 5 13740 100 0 0 0        * a hungry hook horror
+M 0 13709 5 13743 100 0 0 0        * a hungry hook horror
+M 0 13709 5 13744 100 0 0 0        * a hungry hook horror
+M 0 13709 5 13745 100 0 0 0        * a hungry hook horror
+M 0 13704 2 13750 100 0 0 0        * a strange guest
+G 1 13709 1 0 100 0 0 0            *    a dark green book
+M 0 13705 2 13751 100 0 0 0        * a shady traveller
+G 1 13710 1 0 100 0 0 0            *    a dark magenta book
+M 0 13706 2 13752 100 0 0 0        * a human traveller
+G 1 13708 1 0 100 0 0 0            *    an old book
+M 0 13701 1 13753 100 0 0 0        * a thundering red dragon
+E 1 13702 1 7 100 0 0 0            *   a pair of spiked fire leggings
+G 1 13714 1 0 100 0 0 0            *    a pile of red dragon scales
+M 0 13704 2 13758 100 0 0 0        * a strange guest
+M 0 13706 2 13759 100 0 0 0        * a human traveller
+M 0 13705 2 13760 100 0 0 0        * a shady traveller
+M 0 13708 1 13761 100 0 0 0        * a pale bartender
+M 0 13702 1 13763 100 0 0 0        * Ixarvonl, the great illithid alchemist
+E 1 13706 1 9 100 0 0 0            *   a dark pair of illithid gloves
+G 1 13707 1 0 100 0 0 0            *    a dark red potion
+M 0 13714 19 13768 100 0 0 0       * a snow buffalo
+M 0 13714 19 13769 100 0 0 0       * a snow buffalo
+M 0 13721 53 13769 100 0 0 0       * an arctic fox
+M 0 13721 53 13771 100 0 0 0       * an arctic fox
+M 0 13714 19 13771 100 0 0 0       * a snow buffalo
+M 0 13714 19 13771 100 0 0 0       * a snow buffalo
+M 0 13714 19 13772 100 0 0 0       * a snow buffalo
+M 0 13714 19 13773 100 0 0 0       * a snow buffalo
+M 0 13714 19 13773 100 0 0 0       * a snow buffalo
+M 0 13714 19 13775 100 0 0 0       * a snow buffalo
+M 0 13714 19 13775 100 0 0 0       * a snow buffalo
+M 0 13720 20 13775 100 0 0 0       * a snow leopard
+M 0 13721 53 13776 100 0 0 0       * an arctic fox
+M 0 13720 20 13778 100 0 0 0       * a snow leopard
+M 0 13721 53 13778 100 0 0 0       * an arctic fox
+M 0 13721 53 13778 100 0 0 0       * an arctic fox
+M 0 13714 19 13780 100 0 0 0       * a snow buffalo
+M 0 13714 19 13780 100 0 0 0       * a snow buffalo
+M 0 13714 19 13780 100 0 0 0       * a snow buffalo
+M 0 13714 19 13781 100 0 0 0       * a snow buffalo
+M 0 13715 13 13783 100 0 0 0       * a snow fox
+M 0 13721 53 13784 100 0 0 0       * an arctic fox
+M 0 13720 20 13785 100 0 0 0       * a snow leopard
+M 0 13721 53 13786 100 0 0 0       * an arctic fox
+M 0 13721 53 13786 100 0 0 0       * an arctic fox
+M 0 13720 20 13787 100 0 0 0       * a snow leopard
+M 0 13715 13 13788 100 0 0 0       * a snow fox
+M 0 13721 53 13788 100 0 0 0       * an arctic fox
+M 0 13715 13 13790 100 0 0 0       * a snow fox
+M 0 13720 20 13790 100 0 0 0       * a snow leopard
+M 0 13721 53 13790 100 0 0 0       * an arctic fox
+M 0 13721 53 13792 100 0 0 0       * an arctic fox
+M 0 13715 13 13793 100 0 0 0       * a snow fox
+M 0 13720 20 13794 100 0 0 0       * a snow leopard
+M 0 13721 53 13794 100 0 0 0       * an arctic fox
+M 0 13720 20 13795 100 0 0 0       * a snow leopard
+M 0 13713 19 13797 100 0 0 0       * a barbarian guard
+M 0 13713 19 13797 100 0 0 0       * a barbarian guard
+M 0 13711 13 13800 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13800 100 0 0 0       * a barbarian fisherman
+M 0 13713 19 13806 100 0 0 0       * a barbarian guard
+M 0 13713 19 13807 100 0 0 0       * a barbarian guard
+M 0 13713 19 13810 100 0 0 0       * a barbarian guard
+M 0 13713 19 13810 100 0 0 0       * a barbarian guard
+M 0 13713 19 13810 100 0 0 0       * a barbarian guard
+M 0 13713 19 13810 100 0 0 0       * a barbarian guard
+M 0 13713 19 13811 100 0 0 0       * a barbarian guard
+M 0 13713 19 13811 100 0 0 0       * a barbarian guard
+M 0 13713 19 13811 100 0 0 0       * a barbarian guard
+M 0 13713 19 13812 100 0 0 0       * a barbarian guard
+M 0 13713 19 13812 100 0 0 0       * a barbarian guard
+M 0 13713 19 13812 100 0 0 0       * a barbarian guard
+M 0 13710 1 13813 100 0 0 0        * a barbarian blacksmith
+M 0 13711 13 13814 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13814 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13815 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13815 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13816 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13816 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13817 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13817 100 0 0 0       * a barbarian fisherman
+M 0 13712 1 13818 100 0 0 0        * the barbarian elder
+E 1 13716 1 19 100 0 0 0           *   a pair of worn snow goggles
+M 0 13713 19 13818 100 0 0 0       * a barbarian guard
+M 0 13713 19 13818 100 0 0 0       * a barbarian guard
+M 0 13713 19 13818 100 0 0 0       * a barbarian guard
+M 0 13713 19 13818 100 0 0 0       * a barbarian guard
+M 0 13711 13 13819 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13819 100 0 0 0       * a barbarian fisherman
+M 0 13711 13 13819 100 0 0 0       * a barbarian fisherman
+M 0 13713 19 13819 100 0 0 0       * a barbarian guard
+M 0 13721 53 13821 100 0 0 0       * an arctic fox
+M 0 13715 13 13822 100 0 0 0       * a snow fox
+M 0 13721 53 13823 100 0 0 0       * an arctic fox
+M 0 13715 13 13825 100 0 0 0       * a snow fox
+M 0 13720 20 13826 100 0 0 0       * a snow leopard
+M 0 13720 20 13826 100 0 0 0       * a snow leopard
+M 0 13721 53 13826 100 0 0 0       * an arctic fox
+M 0 13715 13 13827 100 0 0 0       * a snow fox
+M 0 13721 53 13829 100 0 0 0       * an arctic fox
+M 0 13715 13 13832 100 0 0 0       * a snow fox
+M 0 13720 20 13832 100 0 0 0       * a snow leopard
+M 0 13721 53 13832 100 0 0 0       * an arctic fox
+M 0 13720 20 13834 100 0 0 0       * a snow leopard
+M 0 13721 53 13834 100 0 0 0       * an arctic fox
+M 0 13721 53 13859 100 0 0 0       * an arctic fox
+M 0 13721 53 13859 100 0 0 0       * an arctic fox
+M 0 13719 1 13870 100 0 0 0        * a barbarian-human halfbreed
+G 1 13723 1 0 100 0 0 0            *    some iron rations
+G 1 13724 1 0 100 0 0 0            *    a leather waterskin
+G 1 13725 1 0 100 0 0 0            *    a large hide backpack
+G 1 13726 1 0 100 0 0 0            *    an icy potion
+G 1 13727 999 0 100 0 0 0          *    a cloudy grey potion
+G 1 363 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 368 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 369 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 13716 1 13891 100 0 0 0        * Eleadora, guardian of the ice forest
+E 1 13721 1 5 100 0 0 0            *   a golden robe of the north
+M 0 13721 53 13893 100 0 0 0       * an arctic fox
+M 0 13721 53 13893 100 0 0 0       * an arctic fox
+M 0 13718 12 13894 100 0 0 0       * a large caribou
+M 0 13718 12 13894 100 0 0 0       * a large caribou
+M 0 13718 12 13895 100 0 0 0       * a large caribou
+M 0 13721 53 13895 100 0 0 0       * an arctic fox
+M 0 13718 12 13896 100 0 0 0       * a large caribou
+M 0 13718 12 13896 100 0 0 0       * a large caribou
+M 0 13718 12 13897 100 0 0 0       * a large caribou
+M 0 13721 53 13897 100 0 0 0       * an arctic fox
+M 0 13721 53 13898 100 0 0 0       * an arctic fox
+M 0 13721 53 13898 100 0 0 0       * an arctic fox
+M 0 13721 53 13901 100 0 0 0       * an arctic fox
+M 0 13721 53 13901 100 0 0 0       * an arctic fox
+M 0 13721 53 13901 100 0 0 0       * an arctic fox
+M 0 13718 12 13902 100 0 0 0       * a large caribou
+M 0 13718 12 13903 100 0 0 0       * a large caribou
+M 0 13721 53 13903 100 0 0 0       * an arctic fox
+M 0 13721 53 13904 100 0 0 0       * an arctic fox
+M 0 13718 12 13905 100 0 0 0       * a large caribou
+M 0 13718 12 13907 100 0 0 0       * a large caribou
+M 0 13718 12 13908 100 0 0 0       * a large caribou
+M 0 13717 1 13911 100 0 0 0        * Malinar, blood enemy of Eleadora
+E 1 13719 1 3 100 0 0 0            *   a dangling necklace of ice shards
+G 1 13722 1 0 100 0 0 0            *    the bloody head of Malinar
+M 0 13718 12 13912 100 0 0 0       * a large caribou
+*
+S

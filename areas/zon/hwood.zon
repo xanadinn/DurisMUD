@@ -1,0 +1,166 @@
+#108
+&+gThe Haunted Woods&n~
+10857 2 0 30 40 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 10812 3 5 100 0 0 0
+*     west exit from "Somewhere Within Haunted Wood Forest" to
+*     "Caught In A Spider's Web" - closed/secret
+*
+D 0 10832 1 1 100 0 0 0
+*     east exit from "Caught In A Spider's Web" to
+*     "Somewhere Within Haunted Wood Forest" - closed
+*
+D 0 10833 0 1 100 0 0 0
+*     north exit from "Before A Small Hut" to
+*     "Within A Dark Hut" - closed
+*
+D 0 10834 2 1 100 0 0 0
+*     south exit from "Within A Dark Hut" to
+*     "Before A Small Hut" - closed
+*
+D 0 10842 0 1 100 0 0 0
+*     north exit from "Before Some Poorly-Made Gates" to
+*     "A Dirty Road Through The Settlement" - closed
+*
+D 0 10843 2 1 100 0 0 0
+*     south exit from "A Dirty Road Through The Settlement" to
+*     "Before Some Poorly-Made Gates" - closed
+*
+D 0 10843 1 1 100 0 0 0
+*     east exit from "A Dirty Road Through The Settlement" to
+*     "The Nursery" - closed
+*
+D 0 10844 3 1 100 0 0 0
+*     west exit from "The Nursery" to
+*     "A Dirty Road Through The Settlement" - closed
+*
+D 0 10846 3 1 100 0 0 0
+*     west exit from "A Dirty Road Through The Settlement" to
+*     "Within A Warrior's Tent" - closed
+*
+D 0 10847 1 1 100 0 0 0
+*     east exit from "Within A Warrior's Tent" to
+*     "A Dirty Road Through The Settlement" - closed
+*
+D 0 10849 3 1 100 0 0 0
+*     west exit from "A Small Dirt Path" to
+*     "The Barracks" - closed
+*
+D 0 10850 1 1 100 0 0 0
+*     east exit from "The Barracks" to
+*     "A Small Dirt Path" - closed
+*
+D 0 10851 0 1 100 0 0 0
+*     north exit from "A Dirty Road Through The Settlement" to
+*     "The Chief Gnoll's Tent" - closed
+*
+D 0 10852 2 1 100 0 0 0
+*     south exit from "The Chief Gnoll's Tent" to
+*     "A Dirty Road Through The Settlement" - closed
+*
+D 0 10853 3 1 100 0 0 0
+*     west exit from "Before A Large Oak Tree" to
+*     "The Foyer of the Oak Tree Inn" - closed
+*
+D 0 10854 1 1 100 0 0 0
+*     east exit from "The Foyer of the Oak Tree Inn" to
+*     "Before A Large Oak Tree" - closed
+*
+*
+*
+M 0 10818 2 10802 100 0 0 0        * an elven guard
+M 0 10818 2 10803 100 0 0 0        * an elven guard
+M 0 10800 1 10832 100 0 0 0        * a gigantic spider
+G 1 10800 1 0 100 0 0 0            *    a tiny diamond earring
+M 0 10801 1 10834 100 0 0 0        * an old orc scout
+E 1 10801 1 15 100 0 0 0           *   a jagged metal bracelet
+M 0 10802 4 10835 100 0 0 0        * a wolverine
+M 0 10802 4 10835 100 0 0 0        * a wolverine
+M 0 10802 4 10835 100 0 0 0        * a wolverine
+M 0 10802 4 10835 100 0 0 0        * a wolverine
+M 0 10803 5 10835 100 0 0 0        * a black spider
+M 0 10803 5 10835 100 0 0 0        * a black spider
+M 0 10803 5 10835 100 0 0 0        * a black spider
+M 0 10803 5 10835 100 0 0 0        * a black spider
+M 0 10803 5 10835 100 0 0 0        * a black spider
+M 0 10804 4 10835 100 0 0 0        * a ferocious dog
+M 0 10805 5 10835 100 0 0 0        * a deer
+M 0 10804 4 10835 100 0 0 0        * a ferocious dog
+M 0 10804 4 10835 100 0 0 0        * a ferocious dog
+M 0 10804 4 10835 100 0 0 0        * a ferocious dog
+M 0 10805 5 10835 100 0 0 0        * a deer
+M 0 10805 5 10835 100 0 0 0        * a deer
+M 0 10805 5 10835 100 0 0 0        * a deer
+M 0 10805 5 10835 100 0 0 0        * a deer
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10806 6 10835 100 0 0 0        * a venomous snake
+M 0 10807 5 10835 100 0 0 0        * a gnoll
+M 0 10807 5 10835 100 0 0 0        * a gnoll
+M 0 10807 5 10835 100 0 0 0        * a gnoll
+M 0 10807 5 10835 100 0 0 0        * a gnoll
+M 0 10807 5 10835 100 0 0 0        * a gnoll
+M 0 10808 5 10835 100 0 0 0        * a carniverous ape
+M 0 10808 5 10835 100 0 0 0        * a carniverous ape
+M 0 10808 5 10835 100 0 0 0        * a carniverous ape
+M 0 10808 5 10835 100 0 0 0        * a carniverous ape
+M 0 10808 5 10835 100 0 0 0        * a carniverous ape
+M 0 10809 1 10839 100 0 0 0        * a half-orc
+G 1 10802 999 0 100 0 0 0          *    a canoe
+G 1 10803 1 0 100 0 0 0            *    a small raft
+M 0 10815 5 10842 100 0 0 0        * a gnoll guard
+M 0 10815 5 10842 100 0 0 0        * a gnoll guard
+M 0 10815 5 10843 100 0 0 0        * a gnoll guard
+M 0 10810 3 10844 100 0 0 0        * a gnoll nurse
+M 0 10810 3 10844 100 0 0 0        * a gnoll nurse
+M 0 10810 3 10844 100 0 0 0        * a gnoll nurse
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10811 6 10844 100 0 0 0        * a gnoll infant
+M 0 10812 1 10845 100 0 0 0        * a gnoll overseer
+E 1 10804 1 19 100 0 0 0           *   a dirty leather eyepatch
+M 0 10813 4 10845 100 0 0 0        * a young gnoll warrior
+M 0 10813 4 10845 100 0 0 0        * a young gnoll warrior
+M 0 10813 4 10845 100 0 0 0        * a young gnoll warrior
+M 0 10813 4 10845 100 0 0 0        * a young gnoll warrior
+M 0 10814 1 10847 100 0 0 0        * a savage gnoll warrior
+E 1 10805 1 16 100 0 0 0           *   a blood-stained spear
+M 0 10815 5 10848 100 0 0 0        * a gnoll guard
+M 0 10816 5 10850 100 0 0 0        * a gnoll warrior
+M 0 10816 5 10850 100 0 0 0        * a gnoll warrior
+M 0 10816 5 10850 100 0 0 0        * a gnoll warrior
+M 0 10816 5 10850 100 0 0 0        * a gnoll warrior
+M 0 10816 5 10850 100 0 0 0        * a gnoll warrior
+M 0 10815 5 10850 100 0 0 0        * a gnoll guard
+M 0 10817 1 10852 100 0 0 0        * the gnoll chief
+E 1 10806 1 2 100 0 0 0            *   a polished emerald ring
+M 0 10819 1 10855 100 0 0 0        * an elven shopkeeper
+G 1 10807 999 0 100 0 0 0          *    an elven pastry
+G 1 10808 1 0 100 0 0 0            *    a small water barrel
+G 1 10809 1 0 100 0 0 0            *    a pair of silk pants
+G 1 10810 1 0 100 0 0 0            *    a silk shirt
+G 1 10811 1 0 100 0 0 0            *    a silk veil
+G 1 10812 1 0 100 0 0 0            *    a pair of silk sleeves
+G 1 10813 1 0 100 0 0 0            *    a silk lined belt
+G 1 10814 1 0 100 0 0 0            *    a pair of silk boots
+G 1 10815 1 0 100 0 0 0            *    a silk scarf
+G 1 10816 1 0 100 0 0 0            *    a silk wristband
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 10821 1 10856 100 0 0 0        * Thalindelil
+E 1 10817 1 16 100 0 0 0           *   an emerald scimitar
+M 0 10822 1 10856 100 0 0 0        * Athowela
+E 1 10818 1 3 100 0 0 0            *   a jade necklace
+M 0 10820 1 10857 100 0 0 0        * the receptionist
+*
+S

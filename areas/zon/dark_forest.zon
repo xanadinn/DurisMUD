@@ -1,0 +1,186 @@
+#750
+&+LDark &+gForest&n~
+75171 2 0 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 75018 2 1 100 0 0 0
+*     south exit from "A Path through the Dark Forest" to
+*     "A Dark Forest" - closed
+*
+D 0 75019 0 1 100 0 0 0
+*     north exit from "A Dark Forest" to
+*     "A Path through the Dark Forest" - closed
+*
+D 0 75029 1 1 100 0 0 0
+*     east exit from "A Dark Forest" to
+*     "An Ancient Log" - closed
+*
+D 0 75036 3 1 100 0 0 0
+*     west exit from "An Ancient Log" to
+*     "A Dark Forest" - closed
+*
+D 0 75032 1 1 100 0 0 0
+*     east exit from "A Path through the Dark Forest" to
+*     "A Dark Forest" - closed
+*
+D 0 75033 3 1 100 0 0 0
+*     west exit from "A Dark Forest" to
+*     "A Path through the Dark Forest" - closed
+*
+D 0 75039 1 1 100 0 0 0
+*     east exit from "A Footpath through the Dark Forest" to
+*     "A Smoke Filled Trail through the Dark Forest" - closed
+*
+D 0 75048 3 1 100 0 0 0
+*     west exit from "A Smoke Filled Trail through the Dark Forest" to
+*     "A Footpath through the Dark Forest" - closed
+*
+D 0 75063 1 1 100 0 0 0
+*     east exit from "A Footpath through the Dark Forest" to
+*     "A Smoke Filled Clearing within the Dark Forest" - closed
+*
+D 0 75066 3 1 100 0 0 0
+*     west exit from "A Smoke Filled Clearing within the Dark Forest" to
+*     "A Footpath through the Dark Forest" - closed
+*
+D 0 75092 2 1 100 0 0 0
+*     south exit from "Dead End of Worn Path through the Ogrillonian Encampment" to
+*     "The Hidden Fortress Gar - Thurin" - closed
+*
+D 0 75093 0 1 100 0 0 0
+*     north exit from "The Hidden Fortress Gar - Thurin" to
+*     "Dead End of Worn Path through the Ogrillonian Encampment" - closed
+*
+*
+*
+M 0 75001 5 75001 100 0 0 0        * a young urd
+M 0 75001 5 75003 100 0 0 0        * a young urd
+M 0 75001 5 75004 100 0 0 0        * a young urd
+M 0 75002 6 75006 100 0 0 0        * a young urd warrior
+M 0 75003 6 75007 100 0 0 0        * an adult urd
+M 0 75002 6 75011 100 0 0 0        * a young urd warrior
+M 0 75001 5 75013 100 0 0 0        * a young urd
+M 0 75001 5 75014 100 0 0 0        * a young urd
+M 0 75003 6 75015 100 0 0 0        * an adult urd
+M 0 75002 6 75017 100 0 0 0        * a young urd warrior
+M 0 75006 4 75019 100 0 0 0        * a mature urd warrior
+M 0 75004 5 75020 100 0 0 0        * an adult urd warrior
+M 0 75004 5 75022 100 0 0 0        * an adult urd warrior
+M 0 75002 6 75024 100 0 0 0        * a young urd warrior
+M 0 75005 5 75026 100 0 0 0        * a mature urd
+M 0 75005 5 75027 100 0 0 0        * a mature urd
+M 0 75007 3 75029 100 0 0 0        * a urd warrior
+E 1 75002 2 5 100 0 0 0            *   a fine suit of silvery chain
+M 0 75003 6 75032 100 0 0 0        * an adult urd
+M 0 75006 4 75033 100 0 0 0        * a mature urd warrior
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75002 6 75034 100 0 0 0        * a young urd warrior
+M 0 75032 2 75036 100 0 0 0        * a rot grub
+M 0 75032 2 75037 100 0 0 0        * a rot grub
+M 0 75006 4 75039 100 0 0 0        * a mature urd warrior
+E 1 75001 1 16 100 0 0 0           *   a silvery gladius
+M 0 75003 6 75041 100 0 0 0        * an adult urd
+M 0 75004 5 75043 100 0 0 0        * an adult urd warrior
+M 0 75004 5 75046 100 0 0 0        * an adult urd warrior
+M 0 75007 3 75049 100 0 0 0        * a urd warrior
+M 0 75033 2 75050 100 0 0 0        * a carrion crawler
+M 0 75005 5 75051 100 0 0 0        * a mature urd
+M 0 75004 5 75054 100 0 0 0        * an adult urd warrior
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75008 3 75055 100 0 0 0        * a urd scavenger
+M 0 75033 2 75056 100 0 0 0        * a carrion crawler
+M 0 75034 1 75057 100 0 0 0        * an immature gulguthra
+G 1 75014 1 0 100 0 0 0            *    a multicolored sack
+M 0 75008 3 75059 100 0 0 0        * a urd scavenger
+M 0 75007 3 75061 100 0 0 0        * a urd warrior
+M 0 75008 3 75064 100 0 0 0        * a urd scavenger
+M 0 75005 5 75066 100 0 0 0        * a mature urd
+M 0 75003 6 75068 100 0 0 0        * an adult urd
+M 0 75010 4 75069 100 0 0 0        * a young orgillon mercenary
+M 0 75009 5 75070 100 0 0 0        * a young orgillon soldier
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75009 5 75072 100 0 0 0        * a young orgillon soldier
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75011 3 75075 100 0 0 0        * a mature orgillon soldier
+M 0 75010 4 75077 100 0 0 0        * a young orgillon mercenary
+M 0 75012 3 75078 100 0 0 0        * a mature orgillon mercenary
+M 0 75016 2 75079 100 0 0 0        * an orgillon mage
+E 1 75006 1 7 100 0 0 0            *   some fine chain leggings
+M 0 75013 7 75081 100 0 0 0        * an experienced orgillon soldier
+M 0 75011 3 75082 100 0 0 0        * a mature orgillon soldier
+M 0 75014 5 75084 100 0 0 0        * an experienced orgillon mercenary
+E 1 75004 2 8 100 0 0 0            *   a pair of hobnail warrior boots
+M 0 75015 1 75086 100 0 0 0        * an orgillon cleric
+E 1 75003 1 12 100 0 0 0           *   a long red cape with mystic runes lining the edges
+E 1 75005 1 16 100 0 0 0           *   a stone handled mace
+M 0 75013 7 75088 100 0 0 0        * an experienced orgillon soldier
+M 0 75012 3 75090 100 0 0 0        * a mature orgillon mercenary
+M 0 75012 3 75092 100 0 0 0        * a mature orgillon mercenary
+M 0 75013 7 75093 100 0 0 0        * an experienced orgillon soldier
+M 0 75013 7 75094 100 0 0 0        * an experienced orgillon soldier
+E 1 75013 2 9 100 0 0 0            *   a pair of well-worn gauntlets
+M 0 75009 5 75097 100 0 0 0        * a young orgillon soldier
+M 0 75009 5 75098 100 0 0 0        * a young orgillon soldier
+M 0 75013 7 75098 100 0 0 0        * an experienced orgillon soldier
+G 1 75015 13 0 100 0 0 0           *    a crude spear
+M 0 75014 5 75099 100 0 0 0        * an experienced orgillon mercenary
+M 0 75013 7 75100 100 0 0 0        * an experienced orgillon soldier
+M 0 75014 5 75102 100 0 0 0        * an experienced orgillon mercenary
+M 0 75016 2 75102 100 0 0 0        * an orgillon mage
+M 0 75010 4 75104 100 0 0 0        * a young orgillon mercenary
+M 0 75011 3 75104 100 0 0 0        * a mature orgillon soldier
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75010 4 75105 100 0 0 0        * a young orgillon mercenary
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75013 7 75105 100 0 0 0        * an experienced orgillon soldier
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75014 5 75106 100 0 0 0        * an experienced orgillon mercenary
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75014 5 75107 100 0 0 0        * an experienced orgillon mercenary
+M 0 75017 1 75108 100 0 0 0        * an orgillon leader
+E 1 75007 1 6 100 0 0 0            *   a battle scarred helmet
+M 0 75018 2 75109 100 0 0 0        * a filthy spriggan
+M 0 75018 2 75110 100 0 0 0        * a filthy spriggan
+M 0 75024 1 75111 100 0 0 0        * a female spriggan
+M 0 75019 2 75112 100 0 0 0        * a dirty spriggan
+M 0 75019 2 75114 100 0 0 0        * a dirty spriggan
+M 0 75020 2 75115 100 0 0 0        * a filthy spriggan warrior
+G 1 75015 13 0 100 0 0 0           *    a crude spear
+M 0 75020 2 75117 100 0 0 0        * a filthy spriggan warrior
+M 0 75021 3 75119 100 0 0 0        * a dirty spriggan hunter
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75021 3 75120 100 0 0 0        * a dirty spriggan hunter
+M 0 75025 1 75121 100 0 0 0        * a spriggan shaman
+E 1 75010 2 18 100 0 0 0           *   a bear claw totem
+M 0 75022 2 75123 100 0 0 0        * a spriggan warrior
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75022 2 75124 100 0 0 0        * a spriggan warrior
+E 1 75008 1 3 100 0 0 0            *   a rope of pure gold
+M 0 75023 2 75127 100 0 0 0        * a spriggan hunter
+E 1 75015 13 16 100 0 0 0          *   a crude spear
+M 0 75023 2 75129 100 0 0 0        * a spriggan hunter
+E 1 75009 1 10 100 0 0 0           *   a pair of iron bracers
+M 0 75026 1 75132 100 0 0 0        * a spriggan patriarch
+E 1 75011 1 15 100 0 0 0           *   a gem-encrusted gold band
+M 0 75027 2 75134 100 0 0 0        * an angry ettercap
+M 0 75028 2 75135 100 0 0 0        * an immature ettercap
+M 0 75029 2 75137 100 0 0 0        * an angry ettercap warrior
+M 0 75030 2 75139 100 0 0 0        * an ettercap warrior
+M 0 75028 2 75145 100 0 0 0        * an immature ettercap
+M 0 75029 2 75146 100 0 0 0        * an angry ettercap warrior
+M 0 75031 2 75148 100 0 0 0        * a large ettercap
+M 0 75027 2 75150 100 0 0 0        * an angry ettercap
+M 0 75030 2 75152 100 0 0 0        * an ettercap warrior
+E 1 75012 1 11 100 0 0 0           *   a knight's shield
+M 0 75031 2 75153 100 0 0 0        * a large ettercap
+E 1 75013 2 9 100 0 0 0            *   a pair of well-worn gauntlets
+M 0 75006 4 75156 100 0 0 0        * a mature urd warrior
+M 0 75003 6 75158 100 0 0 0        * an adult urd
+M 0 75021 3 75161 100 0 0 0        * a dirty spriggan hunter
+M 0 75009 5 75165 100 0 0 0        * a young orgillon soldier
+M 0 75005 5 75168 100 0 0 0        * a mature urd
+M 0 75002 6 75170 100 0 0 0        * a young urd warrior
+*
+S

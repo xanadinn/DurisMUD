@@ -1,0 +1,575 @@
+#752
+&+YNorthern &+BLakes &+Wand &+MSettlements&n~
+75418 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 75202 0 5 100 0 0 0
+*     north exit from "Before A Great Stone Wall" to
+*     "A Small Gravel Road" - closed/secret
+*
+D 0 75203 2 5 100 0 0 0
+*     south exit from "A Small Gravel Road" to
+*     "Before A Great Stone Wall" - closed/secret
+*
+D 0 75204 3 1 100 0 0 0
+*     west exit from "The West Guardhouse" to
+*     "Another Holding Cell" - closed
+*
+D 0 75207 1 1 100 0 0 0
+*     east exit from "Another Holding Cell" to
+*     "The West Guardhouse" - closed
+*
+D 0 75205 1 1 100 0 0 0
+*     east exit from "The East Guardhouse" to
+*     "A Holding Cell" - closed
+*
+D 0 75206 3 1 100 0 0 0
+*     west exit from "A Holding Cell" to
+*     "The East Guardhouse" - closed
+*
+D 0 75208 1 1 100 0 0 0
+*     east exit from "A Small Gravel Road" to
+*     "A Dark Hallway" - closed
+*
+D 0 75209 3 1 100 0 0 0
+*     west exit from "A Dark Hallway" to
+*     "A Small Gravel Road" - closed
+*
+D 0 75208 3 1 100 0 0 0
+*     west exit from "A Small Gravel Road" to
+*     "A Small Hut" - closed
+*
+D 0 75210 1 1 100 0 0 0
+*     east exit from "A Small Hut" to
+*     "A Small Gravel Road" - closed
+*
+D 0 75211 5 5 100 0 0 0
+*     down exit from "A Dark Hallway" to
+*     "An Old Cellar" - closed/secret
+*
+D 0 75212 4 5 100 0 0 0
+*     up exit from "An Old Cellar" to
+*     "A Dark Hallway" - closed/secret
+*
+D 0 75217 2 1 100 0 0 0
+*     south exit from "A Large Meeting Chamber" to
+*     "A Dusty Closet" - closed
+*
+D 0 75218 0 1 100 0 0 0
+*     north exit from "A Dusty Closet" to
+*     "A Large Meeting Chamber" - closed
+*
+D 0 75220 3 1 100 0 0 0
+*     west exit from "A Small Gravel Road" to
+*     "A Small Shed" - closed
+*
+D 0 75248 1 1 100 0 0 0
+*     east exit from "A Small Shed" to
+*     "A Small Gravel Road" - closed
+*
+D 0 75222 1 1 100 0 0 0
+*     east exit from "A Small Gravel Road" to
+*     "The Holy Chamber of the Teka" - closed
+*
+D 0 75258 3 1 100 0 0 0
+*     west exit from "The Holy Chamber of the Teka" to
+*     "A Small Gravel Road" - closed
+*
+D 0 75223 0 1 100 0 0 0
+*     north exit from "Before a Large Stone Cathedral" to
+*     "The Vestibule" - closed
+*
+D 0 75264 2 1 100 0 0 0
+*     south exit from "The Vestibule" to
+*     "Before a Large Stone Cathedral" - closed
+*
+D 0 75225 3 1 100 0 0 0
+*     west exit from "A Rocky Pathway" to
+*     "Before A Large Practice Chamber" - closed
+*
+D 0 75226 1 1 100 0 0 0
+*     east exit from "Before A Large Practice Chamber" to
+*     "A Rocky Pathway" - closed
+*
+D 0 75230 1 1 100 0 0 0
+*     east exit from "Before A Great Tower" to
+*     "The Main Room of the Tower of Yezen" - closed
+*
+D 0 75240 3 1 100 0 0 0
+*     west exit from "The Main Room of the Tower of Yezen" to
+*     "Before A Great Tower" - closed
+*
+D 0 75238 1 1 100 0 0 0
+*     east exit from "A Small Cottage" to
+*     "A Small Frozen Garden" - closed
+*
+D 0 75239 3 1 100 0 0 0
+*     west exit from "A Small Frozen Garden" to
+*     "A Small Cottage" - closed
+*
+D 0 75248 5 5 100 0 0 0
+*     down exit from "A Small Shed" to
+*     "An Underground Storage Room" - closed/secret
+*
+D 0 75249 4 5 100 0 0 0
+*     up exit from "An Underground Storage Room" to
+*     "A Small Shed" - closed/secret
+*
+D 0 75253 4 1 100 0 0 0
+*     up exit from "A Circular Staircase" to
+*     "The Throne Room of Yezen" - closed
+*
+D 0 75254 5 1 100 0 0 0
+*     down exit from "The Throne Room of Yezen" to
+*     "A Circular Staircase" - closed
+*
+D 0 75255 2 1 100 0 0 0
+*     south exit from "Before A Large Dungeon" to
+*     "A Dark and Damp Dungeon" - closed
+*
+D 0 75412 0 1 100 0 0 0
+*     north exit from "A Dark and Damp Dungeon" to
+*     "Before A Large Dungeon" - closed
+*
+D 0 75274 0 5 100 0 0 0
+*     north exit from "The Bottom of a Frozen Well" to
+*     "A Frozen Passageway" - closed/secret
+*
+D 0 75414 2 1 100 0 0 0
+*     south exit from "A Frozen Passageway" to
+*     "The Bottom of a Frozen Well" - closed
+*
+D 0 75277 3 1 100 0 0 0
+*     west exit from "A Frozen Trail" to
+*     "Inside the Frozen Tavern of the Ice Lakes" - closed
+*
+D 0 75278 1 1 100 0 0 0
+*     east exit from "Inside the Frozen Tavern of the Ice Lakes" to
+*     "A Frozen Trail" - closed
+*
+D 0 75366 0 1 100 0 0 0
+*     north exit from "The Gates Before the Settlement of the Ruzdo" to
+*     "A Path Through the Settlement" - closed
+*
+D 0 75367 2 1 100 0 0 0
+*     south exit from "A Path Through the Settlement" to
+*     "The Gates Before the Settlement of the Ruzdo" - closed
+*
+D 0 75370 0 1 100 0 0 0
+*     north exit from "A Path Through the Settlement" to
+*     "The Chambers of the Ruzdo Elders" - closed
+*
+D 0 75373 2 1 100 0 0 0
+*     south exit from "The Chambers of the Ruzdo Elders" to
+*     "A Path Through the Settlement" - closed
+*
+D 0 75371 1 1 100 0 0 0
+*     east exit from "A Path Through the Settlement" to
+*     "A Small Hut" - closed
+*
+D 0 75372 3 1 100 0 0 0
+*     west exit from "A Small Hut" to
+*     "A Path Through the Settlement" - closed
+*
+D 0 75378 3 1 100 0 0 0
+*     west exit from "A Covered Walkway" to
+*     "A Small Wooden Office" - closed
+*
+D 0 75409 1 1 100 0 0 0
+*     east exit from "A Small Wooden Office" to
+*     "A Covered Walkway" - closed
+*
+D 0 75383 2 1 100 0 0 0
+*     south exit from "An Icy Shore" to
+*     "A Small Cave" - closed
+*
+D 0 75411 0 1 100 0 0 0
+*     north exit from "A Small Cave" to
+*     "An Icy Shore" - closed
+*
+D 0 75399 5 1 100 0 0 0
+*     down exit from "The End of the Hunting Trail" to
+*     "An Old Earthen Ladder" - closed
+*
+D 0 75400 4 1 100 0 0 0
+*     up exit from "An Old Earthen Ladder" to
+*     "The End of the Hunting Trail" - closed
+*
+D 0 75403 1 5 100 0 0 0
+*     east exit from "A Stone Trail" to
+*     "An Old Earthen Ladder" - closed/secret
+*
+D 0 75404 3 5 100 0 0 0
+*     west exit from "An Old Earthen Ladder" to
+*     "A Stone Trail" - closed/secret
+*
+*
+O 0 75245 3 75200 100 0 0 0        * an ogre's skull
+O 0 75200 2 75201 100 0 0 0        * a small frozen shrub
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+O 0 75202 1 75202 100 0 0 0        * a small sign
+O 0 75206 5 75206 100 0 0 0        * a pile of golden hay
+O 0 75206 5 75207 100 0 0 0        * a pile of golden hay
+O 0 75205 1 75208 100 0 0 0        * a pair of blood-red gloves
+O 0 75210 2 75210 100 0 0 0        * an old bookcase
+P 1 75225 3 75210 100 0 0 0        *   a golden vial
+P 1 75225 3 75210 100 0 0 0        *   a golden vial
+P 1 75245 3 75210 100 0 0 0        *   an ogre's skull
+O 0 75216 1 75214 100 0 0 0        * a glowing human skull
+O 0 75220 1 75219 100 0 0 0        * a large marble fountain
+O 0 75246 3 75223 100 0 0 0        * a large dragon's tooth
+O 0 75206 5 75238 100 0 0 0        * a pile of golden hay
+O 0 75210 2 75249 100 0 0 0        * an old bookcase
+P 1 75227 1 75210 100 0 0 0        *   an old suit of Tekan platemail
+P 1 75225 3 75210 100 0 0 0        *   a golden vial
+P 1 75246 3 75210 100 0 0 0        *   a large dragon's tooth
+P 1 75247 4 75210 100 0 0 0        *   a small orc femur
+O 0 75244 1 75263 100 0 0 0        * a large pile of bones
+P 1 75245 3 75244 100 0 0 0        *   an ogre's skull
+P 1 75246 3 75244 100 0 0 0        *   a large dragon's tooth
+P 1 75247 4 75244 100 0 0 0        *   a small orc femur
+P 1 75247 4 75244 100 0 0 0        *   a small orc femur
+P 1 75247 4 75244 100 0 0 0        *   a small orc femur
+O 0 75249 2 75274 100 0 0 0        * a frozen fish
+O 0 75249 2 75274 100 0 0 0        * a frozen fish
+O 0 75253 2 75276 100 0 0 0        * a small frozen shrub
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+O 0 75253 2 75281 100 0 0 0        * a small frozen shrub
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75253 100 0 0 0       *   a frozen blueberry
+O 0 75200 2 75388 100 0 0 0        * a small frozen shrub
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75201 7 75200 100 0 0 0        *   a small frozen berry
+P 1 75254 12 75200 100 0 0 0       *   a frozen blueberry
+P 1 75254 12 75200 100 0 0 0       *   a frozen blueberry
+O 0 75206 5 75412 100 0 0 0        * a pile of golden hay
+O 0 75206 5 75413 100 0 0 0        * a pile of golden hay
+*
+M 0 75240 6 75201 100 0 0 0        * a snow fox
+M 0 75200 7 75204 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75203 4 16 100 0 0 0           *   a long sword of Teka
+M 0 75200 7 75204 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+M 0 75200 7 75205 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75203 4 16 100 0 0 0           *   a long sword of Teka
+M 0 75200 7 75205 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+M 0 75201 3 75206 100 0 0 0        * a bound troll
+E 1 75207 4 3 100 0 0 0            *   a small necklace of human bones
+M 0 75202 3 75206 100 0 0 0        * a young orcish warrior
+E 1 75208 3 16 100 0 0 0           *   a long leather whip
+M 0 75201 3 75207 100 0 0 0        * a bound troll
+E 1 75207 4 3 100 0 0 0            *   a small necklace of human bones
+M 0 75203 2 75207 100 0 0 0        * an ogre warrior
+E 1 75209 2 16 100 0 0 0           *   an ivory tusk
+M 0 75205 5 75208 100 0 0 0        * a young boy
+M 0 75216 5 75208 100 0 0 0        * a training Tekan apprentice
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75205 5 75209 100 0 0 0        * a young boy
+M 0 75210 2 75209 100 0 0 0        * a green plant
+G 1 75219 2 0 100 0 0 0            *    a spotted leaf
+M 0 75204 1 75210 100 0 0 0        * Kazim
+E 1 75214 1 3 100 0 0 0            *   an old green vial of serpent's blood
+E 1 75212 1 7 100 0 0 0            *   a pair of silken leggings
+E 1 75213 1 16 100 0 0 0           *   a crystal orb
+E 1 75211 2 18 100 0 0 0           *   a staff of fiery skies
+M 0 75205 5 75210 100 0 0 0        * a young boy
+M 0 75207 9 75212 100 0 0 0        * a small spider
+M 0 75207 9 75212 100 0 0 0        * a small spider
+M 0 75206 1 75213 100 0 0 0        * a red demon
+E 1 75215 1 3 100 0 0 0            *   a jeweled demonic amulet
+M 0 75207 9 75213 100 0 0 0        * a small spider
+M 0 75207 9 75214 100 0 0 0        * a small spider
+M 0 75208 4 75215 100 0 0 0        * A skeleton
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+E 1 75264 13 17 100 0 0 0          *   a small short sword
+G 1 75217 2 0 100 0 0 0            *    a skeletal bracer
+M 0 75208 4 75215 100 0 0 0        * A skeleton
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+E 1 75264 13 17 100 0 0 0          *   a small short sword
+G 1 75217 2 0 100 0 0 0            *    a skeletal bracer
+M 0 75209 1 75216 100 0 0 0        * Maur
+E 1 75218 1 18 100 0 0 0           *   a blue dragon's egg
+G 1 75268 1 0 100 0 0 0            *    a dragon's heart
+M 0 75211 1 75217 100 0 0 0        * a Tekan shaman
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75207 9 75218 100 0 0 0        * a small spider
+M 0 75210 2 75218 100 0 0 0        * a green plant
+G 1 75219 2 0 100 0 0 0            *    a spotted leaf
+M 0 75212 1 75219 100 0 0 0        * Bron, the travelling salesman
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 385 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 75261 999 0 100 0 0 0          *    a short polished sword
+R 1 75229 7 75219 100 0 0 0        * a large horse (being ridden)
+M 0 75216 5 75221 100 0 0 0        * a training Tekan apprentice
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75232 4 75221 100 0 0 0        * a large lizard
+M 0 75236 3 75223 100 0 0 0        * a large stone gargoyle
+E 1 75248 3 2 100 0 0 0            *   a jeweled stone ring
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75216 5 75225 100 0 0 0        * a training Tekan apprentice
+M 0 75215 1 75226 100 0 0 0        * a training Tekan apprentice
+M 0 75216 5 75226 100 0 0 0        * a training Tekan apprentice
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75229 7 75226 100 0 0 0        * a large horse
+M 0 75251 4 75226 100 0 0 0        * a whining barbarian child
+M 0 75232 4 75227 100 0 0 0        * a large lizard
+M 0 75257 11 75227 100 0 0 0       * a snow faerie
+E 1 75272 5 20 100 0 0 0           *   a mask of snow
+R 1 75229 7 75227 100 0 0 0        * a large horse (being ridden)
+M 0 75259 1 75230 100 0 0 0        * Tein
+E 1 75275 1 5 100 0 0 0            *   a shimmering ebony suit
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75276 1 16 100 0 0 0           *   a golden whip
+R 1 75229 7 75230 100 0 0 0        * a large horse (being ridden)
+F 1 75200 7 75230 100 0 0 0        * a Tekan guardsman (following)
+M 0 75217 3 75231 100 0 0 0        * a green serpent
+M 0 75232 4 75232 100 0 0 0        * a large lizard
+M 0 75217 3 75233 100 0 0 0        * a green serpent
+M 0 75218 1 75238 100 0 0 0        * a nanny of Teka
+E 1 75226 2 13 100 0 0 0           *   a spotted apron
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75219 2 75238 100 0 0 0        * a young child
+M 0 75219 2 75238 100 0 0 0        * a young child
+M 0 75216 5 75239 100 0 0 0        * a training Tekan apprentice
+M 0 75217 3 75239 100 0 0 0        * a green serpent
+M 0 75230 5 75240 100 0 0 0        * a whining brat
+M 0 75224 1 75241 100 0 0 0        * Kalila
+E 1 75226 2 13 100 0 0 0           *   a spotted apron
+E 1 75233 1 16 100 0 0 0           *   a diamond-tipped blade
+E 1 75234 1 20 100 0 0 0           *   a jeweled mask
+M 0 75225 1 75242 100 0 0 0        * a stone statue of Yezen
+E 1 75235 1 6 100 0 0 0            *   a spiked helm of stone
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75226 1 75242 100 0 0 0        * a stone serpent
+E 1 75236 1 11 100 0 0 0           *   a stone scale
+M 0 75223 1 75243 100 0 0 0        * an old tekan scribe
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+E 1 75232 1 18 100 0 0 0           *   an old book of the Sylvandawn elves
+M 0 75213 1 75247 100 0 0 0        * Farzam, the trainer
+E 1 75221 2 5 100 0 0 0            *   a suit of Tekan platemail
+E 1 75222 2 16 100 0 0 0           *   a sword of the elders
+F 1 75214 1 75247 100 0 0 0        * Selira (following)
+E 1 75223 1 16 100 0 0 0           *   a golden dagger of the elders
+M 0 75230 5 75248 100 0 0 0        * a whining brat
+M 0 75220 1 75249 100 0 0 0        * a Tekan thief
+E 1 75228 1 16 100 0 0 0           *   a bloodstained dagger
+E 1 75229 1 18 100 0 0 0           *   a large troll-skin bag
+M 0 75200 7 75250 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75203 4 16 100 0 0 0           *   a long sword of Teka
+M 0 75200 7 75250 100 0 0 0        * a Tekan guardsman
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75203 4 16 100 0 0 0           *   a long sword of Teka
+M 0 75222 3 75251 100 0 0 0        * a tired guard
+E 1 75231 3 7 100 0 0 0            *   a pair of soft leggings
+M 0 75222 3 75251 100 0 0 0        * a tired guard
+E 1 75231 3 7 100 0 0 0            *   a pair of soft leggings
+M 0 75222 3 75251 100 0 0 0        * a tired guard
+E 1 75231 3 7 100 0 0 0            *   a pair of soft leggings
+M 0 75221 1 75252 100 0 0 0        * G'mar
+E 1 75221 2 5 100 0 0 0            *   a suit of Tekan platemail
+E 1 75230 1 9 100 0 0 0            *   a pair of jagged talons
+E 1 75204 8 11 100 0 0 0           *   a shield of the eclipsed sun
+E 1 75222 2 16 100 0 0 0           *   a sword of the elders
+M 0 75207 9 75253 100 0 0 0        * a small spider
+M 0 75227 1 75254 100 0 0 0        * Yezen
+E 1 75237 1 16 100 0 0 0           *   the blood orb of the Teka
+E 1 75211 2 18 100 0 0 0           *   a staff of fiery skies
+E 1 75238 1 19 100 0 0 0           *   the golden eyepatch of Teka
+F 1 75228 2 75254 100 0 0 0        * an assistant (following)
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+F 1 75228 2 75254 100 0 0 0        * an assistant (following)
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75231 1 75255 100 0 0 0        * Yarmo
+E 1 75239 1 3 100 0 0 0            *   a cape of bearskin
+E 1 75240 1 8 100 0 0 0            *   a pair of dragon-scale boots
+G 1 75261 999 0 100 0 0 0          *    a short polished sword
+M 0 75230 5 75256 100 0 0 0        * a whining brat
+M 0 75230 5 75257 100 0 0 0        * a whining brat
+M 0 75235 1 75258 100 0 0 0        * a holy ghost
+E 1 75243 1 3 100 0 0 0            *   a holy amulet of Teka
+M 0 75233 1 75259 100 0 0 0        * a dancing red flame
+G 1 75241 1 0 100 0 0 0            *    a small red flame
+M 0 75234 1 75259 100 0 0 0        * a dancing yellow flame
+G 1 75242 1 0 100 0 0 0            *    a bright yellow flame
+M 0 75208 4 75263 100 0 0 0        * A skeleton
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75208 4 75263 100 0 0 0        * A skeleton
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75261 1 75264 100 0 0 0        * Aerin, a tekan shaman
+E 1 75278 2 3 100 0 0 0            *   an earthen amulet of faeries
+E 1 75282 1 5 100 0 0 0            *   a spiked platemail of Teka
+E 1 75208 3 16 100 0 0 0           *   a long leather whip
+M 0 75236 3 75268 100 0 0 0        * a large stone gargoyle
+E 1 75248 3 2 100 0 0 0            *   a jeweled stone ring
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75236 3 75270 100 0 0 0        * a large stone gargoyle
+E 1 75248 3 2 100 0 0 0            *   a jeweled stone ring
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+M 0 75257 11 75275 100 0 0 0       * a snow faerie
+E 1 75272 5 20 100 0 0 0           *   a mask of snow
+M 0 75240 6 75276 100 0 0 0        * a snow fox
+M 0 75240 6 75277 100 0 0 0        * a snow fox
+M 0 75237 3 75278 100 0 0 0        * a drunken barbarian
+E 1 75250 3 18 100 0 0 0           *   a pewter mug
+M 0 75238 1 75278 100 0 0 0        * a barbarian conjurer
+E 1 75251 1 16 100 0 0 0           *   a red sphere
+M 0 75239 1 75278 100 0 0 0        * a lost human
+M 0 75237 3 75279 100 0 0 0        * a drunken barbarian
+E 1 75250 3 18 100 0 0 0           *   a pewter mug
+M 0 75237 3 75279 100 0 0 0        * a drunken barbarian
+E 1 75250 3 18 100 0 0 0           *   a pewter mug
+M 0 75252 4 75280 100 0 0 0        * a white rabbit
+M 0 75240 6 75281 100 0 0 0        * a snow fox
+M 0 75252 4 75282 100 0 0 0        * a white rabbit
+M 0 75257 11 75282 100 0 0 0       * a snow faerie
+M 0 75241 1 75283 100 0 0 0        * Melbh
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+R 1 75229 7 75283 100 0 0 0        * a large horse (being ridden)
+M 0 75240 6 75283 100 0 0 0        * a snow fox
+M 0 75243 18 75285 100 0 0 0       * a small beaver
+M 0 75243 18 75286 100 0 0 0       * a small beaver
+M 0 75243 18 75290 100 0 0 0       * a small beaver
+M 0 75249 1 75292 100 0 0 0        * Syria
+E 1 75262 1 3 100 0 0 0            *   an old scarf
+E 1 75252 1 18 100 0 0 0           *   a scroll of recall
+M 0 75243 18 75293 100 0 0 0       * a small beaver
+M 0 75243 18 75295 100 0 0 0       * a small beaver
+M 0 75243 18 75297 100 0 0 0       * a small beaver
+M 0 75243 18 75303 100 0 0 0       * a small beaver
+M 0 75243 18 75304 100 0 0 0       * a small beaver
+M 0 75243 18 75306 100 0 0 0       * a small beaver
+M 0 75258 9 75315 100 0 0 0        * a golden fish
+M 0 75258 9 75317 100 0 0 0        * a golden fish
+M 0 75258 9 75319 100 0 0 0        * a golden fish
+M 0 75258 9 75319 100 0 0 0        * a golden fish
+M 0 75258 9 75321 100 0 0 0        * a golden fish
+M 0 75258 9 75324 100 0 0 0        * a golden fish
+M 0 75258 9 75327 100 0 0 0        * a golden fish
+M 0 75258 9 75327 100 0 0 0        * a golden fish
+M 0 75258 9 75329 100 0 0 0        * a golden fish
+M 0 75243 18 75340 100 0 0 0       * a small beaver
+M 0 75243 18 75342 100 0 0 0       * a small beaver
+M 0 75243 18 75344 100 0 0 0       * a small beaver
+M 0 75243 18 75349 100 0 0 0       * a small beaver
+M 0 75243 18 75352 100 0 0 0       * a small beaver
+M 0 75243 18 75353 100 0 0 0       * a small beaver
+M 0 75243 18 75359 100 0 0 0       * a small beaver
+M 0 75242 1 75359 100 0 0 0        * Murar
+E 1 75260 1 3 100 0 0 0            *   a red amulet of the phlan
+M 0 75243 18 75361 100 0 0 0       * a small beaver
+M 0 75243 18 75362 100 0 0 0       * a small beaver
+M 0 75257 11 75364 100 0 0 0       * a snow faerie
+E 1 75272 5 20 100 0 0 0           *   a mask of snow
+M 0 75240 6 75365 100 0 0 0        * a snow fox
+M 0 75248 3 75366 100 0 0 0        * a ruzdo guardsman
+E 1 75261 999 16 100 0 0 0         *   a short polished sword
+M 0 75248 3 75366 100 0 0 0        * a ruzdo guardsman
+E 1 75261 999 16 100 0 0 0         *   a short polished sword
+M 0 75248 3 75366 100 0 0 0        * a ruzdo guardsman
+E 1 75261 999 16 100 0 0 0         *   a short polished sword
+M 0 75247 3 75367 100 0 0 0        * a ruzdo warrior
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+F 1 75253 5 75367 100 0 0 0        * a snow leopard (following)
+M 0 75207 9 75367 100 0 0 0        * a small spider
+M 0 75247 3 75368 100 0 0 0        * a ruzdo warrior
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75257 11 75368 100 0 0 0       * a snow faerie
+M 0 75247 3 75370 100 0 0 0        * a ruzdo warrior
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75232 4 75370 100 0 0 0        * a large lizard
+M 0 75244 1 75372 100 0 0 0        * a ruzdo shaman
+E 1 75256 2 16 100 0 0 0           *   a golden mace of the ruzdo
+E 1 75274 1 18 100 0 0 0           *   a golden vial
+E 1 75255 1 19 100 0 0 0           *   an eyepatch of the eclipsed sun
+M 0 75205 5 75372 100 0 0 0        * a young boy
+M 0 75245 1 75373 100 0 0 0        * Asmar
+E 1 75259 1 11 100 0 0 0           *   a shield of the Ruzdo
+E 1 75257 1 16 100 0 0 0           *   the sword of the Ruzdo
+M 0 75246 1 75373 100 0 0 0        * Aswadi
+E 1 75258 1 12 100 0 0 0           *   a green satin robe
+E 1 75256 2 16 100 0 0 0           *   a golden mace of the ruzdo
+M 0 75252 4 75376 100 0 0 0        * a white rabbit
+M 0 75257 11 75376 100 0 0 0       * a snow faerie
+M 0 75250 5 75377 100 0 0 0        * a travelling barbarian mercenary
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75251 4 75377 100 0 0 0        * a whining barbarian child
+E 1 75265 4 21 100 0 0 0           *   a green earring
+M 0 75250 5 75378 100 0 0 0        * a travelling barbarian mercenary
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75251 4 75378 100 0 0 0        * a whining barbarian child
+E 1 75265 4 21 100 0 0 0           *   a green earring
+M 0 75250 5 75379 100 0 0 0        * a travelling barbarian mercenary
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+E 1 75265 4 21 100 0 0 0           *   a green earring
+M 0 75250 5 75379 100 0 0 0        * a travelling barbarian mercenary
+E 1 75264 13 16 100 0 0 0          *   a small short sword
+M 0 75251 4 75379 100 0 0 0        * a whining barbarian child
+M 0 75250 5 75381 100 0 0 0        * a travelling barbarian mercenary
+E 1 75265 4 21 100 0 0 0           *   a green earring
+M 0 75257 11 75382 100 0 0 0       * a snow faerie
+M 0 75257 11 75386 100 0 0 0       * a snow faerie
+E 1 75272 5 20 100 0 0 0           *   a mask of snow
+M 0 75254 1 75391 100 0 0 0        * Artek
+E 1 75269 1 9 100 0 0 0            *   a pair of spiked talons
+E 1 75224 13 16 100 0 0 0          *   a stone mace
+E 1 75270 1 21 100 0 0 0           *   a tiny earthen earring
+M 0 75255 1 75393 100 0 0 0        * a green dragon
+E 1 75271 2 11 100 0 0 0           *   a green scale
+M 0 75257 11 75397 100 0 0 0       * a snow faerie
+E 1 75272 5 20 100 0 0 0           *   a mask of snow
+M 0 75253 5 75398 100 0 0 0        * a snow leopard
+G 1 75267 4 0 100 0 0 0            *    a snow leopard's tail
+M 0 75253 5 75399 100 0 0 0        * a snow leopard
+G 1 75267 4 0 100 0 0 0            *    a snow leopard's tail
+M 0 75207 9 75401 100 0 0 0        * a small spider
+M 0 75253 5 75403 100 0 0 0        * a snow leopard
+G 1 75267 4 0 100 0 0 0            *    a snow leopard's tail
+M 0 75207 9 75404 100 0 0 0        * a small spider
+M 0 75257 11 75406 100 0 0 0       * a snow faerie
+M 0 75253 5 75407 100 0 0 0        * a snow leopard
+G 1 75267 4 0 100 0 0 0            *    a snow leopard's tail
+M 0 75257 11 75407 100 0 0 0       * a snow faerie
+M 0 75252 4 75408 100 0 0 0        * a white rabbit
+M 0 75205 5 75408 100 0 0 0        * a young boy
+M 0 75230 5 75409 100 0 0 0        * a whining brat
+M 0 75260 1 75409 100 0 0 0        * Tamara
+E 1 75278 2 3 100 0 0 0            *   an earthen amulet of faeries
+E 1 75277 1 16 100 0 0 0           *   a spiked leather whip
+M 0 75256 1 75411 100 0 0 0        * an old dragon
+G 1 75271 2 0 100 0 0 0            *    a green scale
+M 0 75203 2 75412 100 0 0 0        * an ogre warrior
+E 1 75209 2 16 100 0 0 0           *   an ivory tusk
+M 0 75201 3 75412 100 0 0 0        * a bound troll
+E 1 75207 4 3 100 0 0 0            *   a small necklace of human bones
+E 1 75207 4 4 100 0 0 0            *   a small necklace of human bones
+M 0 75202 3 75413 100 0 0 0        * a young orcish warrior
+E 1 75208 3 16 100 0 0 0           *   a long leather whip
+M 0 75202 3 75413 100 0 0 0        * a young orcish warrior
+M 0 75262 3 75414 100 0 0 0        * a small rat
+M 0 75262 3 75416 100 0 0 0        * a small rat
+M 0 75262 3 75417 100 0 0 0        * a small rat
+*
+S

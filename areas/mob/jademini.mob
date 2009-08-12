@@ -1,0 +1,290 @@
+#77200
+water ox~
+&+ya water &+Lox&n~
+&+yA strong water &+Lox&+y works the fields here.&n
+~
+&+yWater oxen are quite familiar with working in the rice fields. They
+&+yare especially adept and pulling tills and plows behind them while
+&+ywallowing through the muck, often several feet deep.&n
+~
+2120 0 0 0 0 0 0 0 S
+A 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77201
+huge olyx~
+&+Wa huge olyx&n~
+&+WA massive olyx plows through the muck &+yfields&+W.&n
+~
+&+WThis huge cow-like beast is renowned for its strength and timidness.
+&+WThey make excellent work creatures, often used in farms for plowing
+&+Wand tilling soil.&n
+~
+2120 0 0 0 0 0 0 0 S
+A 0 1 4
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#77202
+halfling adventurer~
+&+La &+yhalfling adventurer&n~
+&+LA &+yHalfling adventurer&+L snoops around the &+Wrice&+y fields&+L.&n
+~
+&+yThe halfling beams a bright smile.
+&+W        "I just came from the Jade city." &+yHe tells you.
+&+W        "But its too big for me. I had to get a map, but I
+&+W        don't need it anymore, I'll sell it to you if you
+&+W        want... Lets say 50 platinum!"
+&+yHe giggles to himself.
+~
+1073743948 0 0 0 0 0 0 500 S
+PF 0 32768 -1
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77203
+canner~
+&+La &+ccanner&n~
+&+LA &+ccanner&+L works here, securing and storing food supplies.&n
+~
+&+LThis &+ccanner &+Lseems most bored, he looks up at you, happy to have
+&+Lsomeone to speak to.
+&+W        "I just can the food all day. Rice, roots, and all the
+&+W        vegetables. But I'll tell you a secret, when no one is
+&+W        watching I can other stuff as well. Fireflies, crickets,
+&+W        dew faeries, it is good fun! Find me something you want
+&+W        to put into a can and I'll do it. But you need to pay
+&+W        for the can, they aren't cheap you know."
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77204
+packer citizen~
+&+ya packer&n~
+&+yA grizzled citizen of &+GJade&+y spends his days working in the fields.&n
+~
+&+yThis poor fellow spends every day in the muck of the rice fields,
+&+yploughing and packing up rice. After he has packed it into the
+&+ylarge harvest bags, he sends it off to the city.&n
+~
+1073743944 0 0 0 0 0 0 0 S
+PH 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77205
+mosquitoes mosquito swarm~
+&+La mosquito swarm&n~
+&+LA swarm of mosquitoes buzz around the area.&n
+~
+&+LMosquitoes love swamps, they spawn in the wet, damp, muck around the rice
+&+Lfields and populate to incredible numbers. They become a horrible nuisance
+&+Lwhen in swarms like these.&n
+~
+72 1 0 0 0 0 0 0 S
+I 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#77206
+crewman oberon~
+&+yan &+Wob&+wer&+Won&+y crewman&n~
+&+yAn crewman of the &+WOb&+wer&+Won&+y rushes to charge the enemy.&n
+~
+&+yOne of the sailors of the Oberon, this crewman barely has time to
+&+yglance up at you as he rushes by, swinging his saber against the
+&+yoncoming pirates.
+~
+1140852744 0 0 0 0 0 0 500 S
+PH 0 16384 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77207
+crewman crew~
+&+yan &+Wob&+wer&+Won&+y crewman&n~
+&+yA crewman keeps the &+Lpirates&+y back with deft thrusts of his &+Lcutlass&+y.&n
+~
+&+yHe swings his blade viciously, forcing the advancing &+Lpirates&+y back from
+&+yalong the &+Lgrappling&+y line, while shouting to his companions.
+&+W        "I'll hold the line here! Try and make it to
+&+W        their ship!
+~
+1140852746 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77208
+captain~
+&+ythe captain of the &+Wob&+wer&+Won&n~
+&+yThe captain of the &+WOb&+wer&+Won&+y stands fast here, shouting orders to his crew.&n
+~
+&+yWith one eye constantly watching the water outside and his helmsman, the
+&+yother eye focused with steel-like resolve on the enemy ship just fifteen
+&+yfeet away, the captain leads his men to battle against the pirates with
+&+ygrim determination.
+&+W        "You there, soldiers, hold the starboard side!
+&+W        Watch for arrows... Helmsman, steady the ship,
+&+W        Prepare the boarding parties, we must rescue the
+&+W        princess at any cost! Rudder twenty degrees left..
+&+W        Go men go! No one lives forever!"
+~
+1073743882 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77209
+pirate~
+&+La pirate&n~
+&+LA vicious pirate fights against the &+WOb&+wer&+Won&+L's crew.&n
+~
+&+LThis ruthless pirate is in the heat of battle with the Oberon
+&+Lcrew, but at this point he barely cares who he attacks. Armed
+&+Lwith short bows and cutlasses, the pirate crew is not to be
+&+Ltrifled with.&n
+~
+1073741836 1 0 0 0 0 0 -1000 S
+PH 0 16384 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77210
+guardsman guard elite~
+&+Lan &+gemperor's&+L guardsman&n~
+&+LAn elite guardsman of the &+gEmperor&+L assists in the battle.&n
+~
+~
+2056 0 0 0 0 0 0 0 S
+PH 0 2097154 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77211
+miu pai captain~
+&+LMi&+wu P&+Lai&n~
+&+LThe captain of the &+LLace&+wdon&+L, Mi&+wu P&+Lai, drives his pirates onwards.&n
+~
+&+LMiu Pai is another of the pirate leaders that work out of the Jade
+&+Larea. He is as mean and ruthless as the rest, though he works much
+&+Lmore at sea than the other leaders, organizing the pirate fleet
+&+Lwhile his comrades work on undermining the trade guilds, the city
+&+Lofficials, and all sorts of malicious crimes.
+~
+16793610 1 0 24 0 0 0 -1000 S
+PH 0 81920 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77212
+first mate~
+&+ythe &+Wfirst mate&n~
+&+yThe &+Wfirst mate&+y of the &+WOb&+wer&+Won&+y helps to extinguish a &+rfire&+y here.&n
+~
+&+yThe&+W first mate&+y of the&+W Ob&+wer&+Won&+y looks up at you hastily when
+&+yhe sees you arrive.
+&+W	"If your here to help you better hurry!
+&+W	I don't know how much longer we can keep
+&+W	them busy. If something doesn't change soon
+&+W	this rescue attempt will be a failure."
+&+yHe turns away quickly and gets back to work.&n
+~
+1073743882 0 0 0 0 0 0 500 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77213
+reef shark~
+&+ba reef&+W shark&n~
+&+bA reef &+Wshark&+b, attracted to the battle, hunts the waters here.&n
+~
+&+bThis shark has been attracted to the Jade inlet by the fierce
+&+bfighting going on on the ships above. Any poor soul wounded
+&+bor even takes a single misstep and falls into these cold waters
+&+bwill become this sharks next meal.&n
+~
+1074003976 1 0 8 0 0 0 0 S
+AC 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77214
+captive princess jade~
+&+ma &+Lcaptive&+m princess of &+Gjade&n~
+&+mA princess of &+GJade&+m lies here, &+Lshackled&+m and &+Lchained&+m.&n
+~
+&+MThis is one of the daughters of the &+gEmperor&+M of&+G Jade&+M. She has been taken prisoner
+&+Mby a group of bandits hoping to ransom her off. Her legs and arms have been
+&+Msecurely manacled and it appears the only way to free her would be to unlock
+&+Mthe heavy locks that have her chained.
+~
+2058 0 0 8 0 0 0 500 S
+PH 0 4194304 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#77215
+shady rascal~
+&+La shady &+yrascal&n~
+&+LA shady &+yrascal&+L helps to support the pirate soldiers.&n
+~
+~
+1073741832 1 0 0 0 0 0 -1000 S
+PH 0 512 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77216
+archer pirate~
+&+La pirate archer&n~
+&+LAn archer for the Lace&+wdon&+L fires arrows at the enemy crew here.&n
+~
+~
+11 0 0 0 0 0 0 -1000 S
+PH 0 65536 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77217
+shady rascal~
+&+La shady &+yrascal&n~
+&+LA shady &+yrascal&+L stands here, protecting his leader.&n
+~
+~
+2058 1 0 0 0 0 0 -1000 S
+PH 0 512 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77218
+helmsman helms man~
+&+ythe &+Wob&+wer&+Won&+y helmsman&n~
+&+yThe helmsman of the &+WOb&+Wer&+Won&+y stands here, looking distressed.&n
+~
+~
+1140852746 0 0 0 0 0 0 500 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#77219
+pirate sly~
+&+La pirate&n~
+&+LA sly pirate lurks about the inside of the Lace&+wdon&+L.&n
+~
+&+LThis ruthless pirate is in the heat of battle with the Oberon
+&+Lcrew, but at this point he barely cares who he attacks. Armed
+&+Lwith short bows and cutlasses, the pirate crew is not to be
+&+Ltrifled with.&n
+~
+1073741836 1 0 0 0 0 0 -1000 S
+PH 0 65536 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

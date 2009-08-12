@@ -1,0 +1,611 @@
+#6068
+M
+qc_action 75~
+The &+WKnight&n says, 'Our burden will soon be lifted as more ascend to new ranks. If you are interested in ascending my dear brother, do ask me, I will be glad to tell you how.'
+~
+M
+ascend ascending holy avenger~
+The knight says, 'Ah ye are interested in ascending? Well it takes a very special paladin to be willing to ascend and dedicate their life to being a Holy Avenger. Now first you must travel and find the altar of the god you wish to follow.'
+
+'You can follow the god &+cT&+Cem&+cpus&n as a Punisher of the faith. His altar can be found in the evil lands at a fallen citadel. The god &+YT&+Wo&+Yrm&n is closer to our lands and is found in in the land of towers.'
+~
+S
+#6081
+Q
+~
+R E 33
+G T 19
+D
+   &+LThe child blinks his eyes in astonishment at your kind-heartedness, and
+&+Lsays, '&+cOh, thank you!  Thank you ever so much!  I haven't eaten in weeks, and
+&+cthat was when I had to eat my cat to survive.  Thank you!&+L'
+
+&+L   The child runs off before you can change your mind and take back your gift.&n
+~
+S
+#6087
+Q
+&+L   She leads you over to the straw mat, and presses you against the furs.  You
+&+Lspend the next few hours enthralled.  Arms flailing, juices flowing, eyes
+&+Lrolled back in your head, and the whole time you can hear your mother talking
+&+Labout &+gcookie &+Gjars&+L.&n
+~
+R I 6102
+G I 6100
+Q
+   '&+gWhat I'm not good enough to ride without a saddle?!&n' she says before she
+bends down to perform her art.  You let yourself be conjoled into the rack,
+where you get sucked, damned, and manhandled and you're not quite sure if it
+was by woman or machine.
+~
+R E 3
+G I 6101
+G I 6100
+S
+#6113
+M
+note text wares goods~
+&+rZa&+Lberetorn&+raz &+Llooks around, then speaks:&N
+&+L            &N
+&+w   I deal in many wares, you are welcome to buy and sell here, as long as you&N
+&+whave money.  Also do not waste my time trying to sell me items that I have no&N
+&+wuse for.  If you find a &+Lnote &+wwith my name on it, then I will reward you with a&N
+&+wfree &+yspellbook &+wand &+Lquill&+w.&N
+~
+QA
+&+rZa&+Lberetorn&+raz &+Llooks at the crumpled &+wnote&+L, smiles, then speaks:&N
+&+L        &N
+&+w   I see that you wish to learn the ways of magic, perhaps I can at least give&N
+&+wyou something to help.  These might not be the best tools, but at least it will&N
+&+wgive you a start.  Hold the &+Lquill &+wand book when you scribe the spells at your&N
+&+wteacher.  If you can bring me a &+Rmag&+ric&+Wal &+Ltext&+w, I shall reward you with a better&N
+&+yspellbook&+w.  Or save up some money and you can purchase one of the finest &+Ltomes&N
+&+wyou have ever seen.  Perhaps its not the best, but still, least give it a try&N
+&+wsometime.  Never forget with great power, comes great responsibility as well.&N
+~
+R I 6122
+R I 6123
+G I 6124
+Q
+&+rZa&+Lberetorn&+raz &+Lsmiles and looks around, then he speaks:&N
+&+L         &N
+&+w   Yes you show some promise, perhaps there is hope for you after all, enjoy&N
+&+wthis &+Ltome &+wand &+Lquill&+w.  I think you will find that while not the best, they can&N
+&+wat least be useful.  Save up some money, buy some of my wares, also I may buy&N
+&+wsome items from you.  Just do not waste my time trying to sell me any garbage&N
+&+wor objects that I have no use for.&N
+~
+R I 6120
+R I 99412
+G I 6529
+Q
+&+rZa&+Lberetorn&+raz &+Llooks at you with a strange look, then speaks:&N
+&+L            &N
+&+L   I do not know how you found out about this quest, still I do not really care&N
+&+Leither.  I hope you enjoy your reward, I will put this grim dagger to good use.&N
+~
+R I 500
+R I 6129
+R I 6130
+G I 98928
+S
+#6518
+M
+book spellbook~
+Khira looks at you briefly before speaking.
+
+  "Ah, yes. Spellbooks are rather important to a mage. Unfortunately
+I have none to spare at the moment. Perhaps you can check in the tower
+of the illusionist Zaberetornaz. He usually has one or two lying around
+in his bookshelves."
+~
+S
+#6528
+MA
+map gc level experience~
+&+WThis map on the desk is plenty big enough for us both to look at it at once.
+&+WI've done a lot of travelling and marked interesting places along with some
+&+Wnotes about each at the bottom.  If you are just now setting out looking for
+&+Wadventure I would suggest you check out Ako.  It is a pretty tame forest, but
+&+Wyou can find some adventure there to get started with.  Just be sure to pay
+&+Wattention to the guards in the area.  They are peaceful enough, but if they
+&+Wcatch you abusing one of their people they will attack without mercy!  If you
+&+Wcan find me some &+Ypaper&n I can try and make a copy of my map you can take with
+&+Wyou.  I bet the innkeeper keeps some in the desk in the library down the hall.&n
+
+&+WI may be getting ahead of myself though, &+YTharnadia&+W is a pretty big and
+&+Wconfusing place by itself.  Are you comfortable getting around?  If not, I'm not
+&+Wthat busy,just ask and I'm glad to help!&n
+~
+MA
+tharnadia directions~
+&+WDon't feel bad about getting lost around here, everyone does!
+&+WI've been here dozens of times and even I have to stick to the
+&+Wmain roads, or I'd be lost myself.  This inn is in a good
+&+Wlocation though.  The fountain outside marks pretty much the
+&+Wcenter of town.  There are a few shops within walking distance
+&+Wif you find some items to sell, or want to buy some new and
+&+Wstronger gear for your travels.  If you are ready to leave town
+&+Wjust follow the Great Bazaar east of the inn, and keep following
+&+Wthat path east until you leave the city limits.  From there you
+&+Wshould be able to find your way, especially if you take a look at
+&+Wmy &+Ymap&+W before you go.  If you get lost you can always ask
+&+Wother adventurers, but beware, outside of the city not all of the
+&+Wadventurers you meet will be friendly!&n
+~
+MA
+search bag instruments play music~
+&+WYou can never be too careful when staying at a crowded inn.
+&+WYou never know who is sneaking around so I can't leave my
+&+Winstruments in plain view.  I hide them under things in my
+&+Wbag to help make sure nobody steals them, but I don't mind
+&+Wif you want to play them for a while.  Just &+Ysearch&+W that
+&+Wbag a little and you should find them easily enough.  If you
+&+Whave a specific instrument you like to play just keep searching
+&+Wtil you find the one you like.&n
+~
+M
+bard profession~
+&+WInterested in bards are you?  I bet you've heard bards referred to
+&+Was jacks-of-all-trades before?  It's true.  Why devote all your time
+&+Wto one discipline the way all of the other professions do?  It's all
+&+Wabout versatility.  Warriors, sorcerors, clerics, and all the others
+&+Whave their strengths, but all are also doomed by obvious weaknesses.
+&+WWarriors can endure a lot of punishment in battle, but eventually
+&+Wtheir vitality runs out.  Clerics can continually refresh themselves,
+&+Wbut being unable to damage their attacks they can only survive, never
+&+Wwin.  Us bards realized that we needed to learn a bit of everything to
+&+Wbest survive, instead of a lot of just one thing.  We can fight, we can
+&+Wcast magic, and we can even heal a little.  We can come and go stealthily
+&+Wwithout anyone else knowing, or we can weave enchantments over friend
+&+Wand foe alike with mystifying melodies from our instruments.  We are
+&+Wmasters of adaptation, being able to respond to any situation we encounter!&n
+~
+Q
+&+bIthilin&nsmiles as you hand him the paper.
+
+&+W	"This will do nicely.  just give me a minute to copy the main points of interest
+&+W	onto this piece of paper..."
+
+&+bIthilin&n begins copying the map.  His hands move rapidly, and he finishes quickly.
+
+&+W	It might not be a perfect copy but it should be close enough
+&+W	to help you get around!"&n
+~
+R I 6576
+G I 5
+S
+#6529
+MA
+advice~
+&+WIt is good that you are not too proud to ask for advice from others,
+&+Wyou'll learn a lot from people that have experienced things before you.
+&+WA lot of young fighters are disillusioned and think fighting is all
+&+Wabout charging your enemy fearlessly and trying to hack them to pieces,
+&+Wbut it is so much more than that.  Charging opponents recklessly will
+&+Wquickly get you killed.  Effective fighting requires careful thought.
+&+WBefore attacking, &+Yconsider&+W your enemy.  That will help you judge
+&+Wyour ability to win.  If the odds look bad, leave to develop your skills
+&+Wmore fully before you return.  Likewise, in the midst of battle itself,
+&+Wthe main focus should not be on delivering mortal blows, but defending
+&+Wyourself from the blows of your enemy.  Expensive armors can help you
+&+Wsurvive the occasional blow, but not even mithril can save you against
+&+Wrepeated onslaught.  Therefore, develop your skills so that you can
+&+Wnimbly dodge most attacks, and parry or riposte the others.  Those
+&+Wskills will do more for you than any amount of armor.&n
+~
+QA
+&+bZ&+Le&+bch&n takes a whet stone out of his journey bag and gets to work.  Very quickly he finishes and hands you back your weapon.
+
+	&+WThere you go!  There are limits to how fine of weapons you can make
+	&+Wfrom that low grade of iron, but you should see a noticable difference!&n
+~
+R I 6547
+G I 1108
+QA
+&+bZ&+Le&+bch&n takes a whet stone out of his journey bag and gets to work.  Very quickly he finishes and hands you back your weapon.
+
+        &+WThere you go!  There are limits to how fine of weapons you can make
+        &+Wfrom that low grade of iron, but you should see a noticable difference!&n
+~
+R I 6543
+G I 1110
+QA
+&+bZ&+Le&+bch&n takes a whet stone out of his journey bag and gets to work.  Very quickly he finishes and hands you back your weapon.
+
+        &+WThere you go!  There are limits to how fine of weapons you can make
+        &+Wfrom that low grade of iron, but you should see a noticable difference!&n
+~
+R I 6543
+G I 1111
+QA
+&+bZ&+Le&+bch&n takes a whet stone out of his journey bag and gets to work.  Very quickly he finishes and hands you back your weapon.
+
+        &+WThere you go!  There are limits to how fine of weapons you can make
+        &+Wfrom that low grade of iron, but you should see a noticable difference!&n
+~
+R I 6544
+G I 1113
+QA
+&+bZ&+Le&+bch&n takes a whet stone out of his journey bag and gets to work.  Very quickly he finishes and hands you back your weapon.
+
+        &+WThere you go!  There are limits to how fine of weapons you can make
+        &+Wfrom that low grade of iron, but you should see a noticable difference!&n
+~
+R I 6545
+G I 1112
+S
+#6530
+QA
+As you hand him the children's instruments, the monk's features contort with the biggest smile you've ever seen.  He immediately snaps each over his knee and does a little jig around the room.
+
+	&+W"THANK YOU SO MUCH STRANGER!  I never thought my sanity would survive the night!  Forgive
+	&+Wmy rudeness in not properly introducing myself earlier.  I am &+WAr&+yk&+Wel&+yn&+W, A
+	&+Wstudent of Father Tel from Temple Cloister.  If you are ever in the area please stop in
+	&+Wand I'd be more than happy to show you the beautiful gardens surrounding our temple.  But
+	&+Wfor now, please accept the little money I have brought with me, and allow me to demonstrate
+	&+Wa few advanced techniques my master has taught me.  It is the least I can do for such a great
+	&+Wservice you have done for me!"&n
+
+&+WAr&+yk&+Wel&+yn&n hands you a small bag of coins and spars with you a while, teaching you some moves.
+~
+R C 10000
+R E 1500
+G I 6548
+G I 6549
+G I 6550
+S
+#6531
+MA
+quiet instrument play loud monk~
+&+WGo away!  We can play loud if we want to and you can't stop us!&n
+~
+S
+#6532
+MA
+loud monk play instrument instruments please quiet~
+&+WHa ha!  You're not our boss!  We'll be as loud as we want!  Go away!&n
+~
+S
+#6533
+MA
+lout quiet instrument instruments play monk please~
+&+WOld people like you are no fun!  We're just kids that know how to have a good time!  Lighten up and stop bothering us!&n
+~
+S
+#6534
+MA
+mercenary mercenaries~
+	&+W"Mercenaries are warriors that rely on stealth.  They are the hunters and trappers
+	&+Wyou'll meet in your travels.  Sneaking up on your enemies, or weakening them with a
+	&+Wwell placed trap before you engage them greatly increases your chances of killing
+	&+Wthem before they can get an attack off.  Even if they survive the initial attack,
+	&+Wwe have other skills at our disposal to further weaken them.  A swift tackle aimed
+	&+Wat the stomache, or a powerful headbutt to the temple will disable most targets
+	&+Wuntil they can regain their breath, or even conciousness if the headbutt is aimed right.
+	&+WThat is more than enough time to finish them off in most cases.&n
+~
+MA
+food hungry eat~
+	&+W"You'd get some food for me?  I just can't leave here until I get all these
+	&+Wtraps ready for tomorrow's hunt.  If you can't find anything thats fine, but
+	&+Wif you could find me a little something to hold me over until I can get a proper
+	&+Wmeal, I would sure appreciate it."&n
+~
+QA
+	&+W"Fresh bread!  This should fill me up fine.  Thanks a lot for helping an old
+	&+Wman out.  One good turn deserves another.  Let me see... where did I put those...
+	&+WNot long ago a fellow adventurer crafted me some good hiking boots, but they were
+	&+Wjust a little too small for my large barbarian feet.  They will probably fit you
+	&+Wthough, and they should help.  One thing is the same about every adventure - you
+	&+Wwill do a lot of walking!  You should be able to get a lot of wear and tear out of
+	&+Wthese, but when you need to replace them, make sure to get another good pair.  Good
+	&+Wboots are more important than good weapons.  The sharpest sword won't protect your
+	&+Wfeet from a hundred league journey!"&n
+~
+R I 6553
+G I 6052
+S
+#6555
+MA
+search desk book~
+	&+W"The library is only a few doors down.  Once inside there should be a desk
+	&+Wat the back of the room.  Just go over to it, open the drawer, and search.
+	&+WIf there are any blank books in there, you should find one quickly.  Once
+	&+Wyou do bring it back to me and I'll give you my book in exchange, with one
+	&+Wof my rare autographs!"&n
+~
+MA
+adventure adventures memoirs travels story stories~
+&+yL&+Ye&+Wo&+yd&+Yra&n's face brightens as he sits back and begins reciting his heroics.
+
+	&+W"That bullywug chieftain was tough, let me tell you.  By some stroke of luck
+	&+Won his part, he managed to withstand my mighty chill touch and charged me
+	&+Wbefore I could conjure another.  My companions, not grasping the extent of my
+	&+Wpower to defend myself, ran to my rescue and insisted I stay behind them during
+	&+Wsuch intense battles.  Although I saw it as unneccesary, I decided to humor them
+	&+Wby letting them stay in front and feel important for once.  I didn't need to engage
+	&+Wthe enemy with my weapons, I could sit back and let the warrior and ranger fight it,
+	&+Wwhile I sat behind and hurled my spells at it safely.
+
+&+yL&+Ye&+Wo&+yd&+Yra&n's smile begins to fade as he notices you don't look impressed.  He hurriedly launches into another heroic adventure.
+
+	&+W"Well, this other time we journeyed into a rather secluded wood in the great land of
+	&+WEvermeet.  We had gone a ways before we realized we couldn't hear the sounds of any
+	&+Wwildlife, and alerted to a possible trap.  Immediately we were charged from every side
+	&+Wby a fierce group of urd warriors.  One of our wizards fell immediately from an arrow
+	&+Wbefore our warriors jumped in front to protect the other casters.  Our other wizard
+	&+Wbegan blasting them with alternate bursts of fire and ice, while our druid slammed ones
+	&+Wthat got too close with fists of stone and strong currents of wind.  I assisted them by
+	&+Wsummoning my own bursts of frigid ice, yet they shouted at me to stop that and instead
+	&+Wenchant our faltering warriors.  Personally I thought that was our cleric's job, but he
+	&+Wjust wasn't powerful enough to keep the healing going fast enough.  So even though my
+	&+Wspells could have helped kill them and end the encounter quickly, I had to instead
+	&+Wcontinually cast &+Lstone skin&n on the tanks so they wouldn't fall.  If they had been
+	&+Wstronger and better trained they wouldn't have needed my constant help, though I suppose
+	&+Wwhen you choose to travel with lesser adventurers you should be prepared to drop what you
+	&+Ware doing and look after them."&n
+
+Seeing that you are still not impressed, his face flushes and he turns away from you again.
+
+	&+W"I am very busy.  If you cannot find a book I can use please go away and come
+	&+Wback another time."&n
+~
+QA
+	&+W"Excellent!  This book should do splendidly.  I'll get to work on my memoirs straight away.
+	&+WIt's sure to be a big seller once its published, but don't worry, I'll save one for you
+	&+Win remembrance for your help!  Oh!  I almost forgot, your book in return."&n
+
+He walks over to his desk and fetches a small and plain looking book.  Grabbing his quill he hurriedly autographs the inside cover and hands both book and quill to you.
+~
+R I 6552
+G I 6551
+S
+#6556
+MA
+stab stabbed hurt wound who~
+Speaking slowly between heavy breaths the halfling relates his tale.
+
+	&+W"I had been tailing a rich merchant for some time. Not long ago he
+	&+Wstole a golden pendant, a family heirloom of mine, claiming it was
+	&+Wpayment for a debt I owed him.  I saved up enough money to pay him
+	&+Win order to get it back, yet he refused, saying that it was too late,
+	&+Wand that if I really wanted it back the interest would increase the
+	&+Wamount to ten times what I originally owed.  I cannot come up with
+	&+Wthat amount of money, nor do I think I should have to.  He had no
+	&+Wright to take my father's pendant, and I will do whatever it takes
+	&+Wto get it back!  Earlier I tried to break into his room and take it
+	&+Wwhile he was out, but he returned at the last moment and his bodyguards
+	&+Wgot a lucky hit on me before I escaped.  I thought I would be fine, but
+	&+Wit won't stop &+Rbleeding&+W."&n
+~
+MA
+help bleeding friend potion medicine~
+The &+yhalfling's&n eyes narrow as he peers at you warily.
+
+	&+W"Why would you help me?  What is in it for you?  I guess I have little
+	&+Wchoice but to trust you, so I'll take my chances...  Another guest at
+	&+Wthis inn is a talented alchemist.  He is very adept at creating very
+	&+Wpowerful medicines, and I am sure he could save my life.  Though, I am
+	&+Wnot sure if I could bear life after the disgrace of losing my father's
+	&+Wpendant...  If you can obtain both the &+Rmedicine&+W and the &+Ypendant
+	&+W I shall reward you with the money I had saved to pay off my debt, along
+	&+Wwith the eternal thanks of my family.  Should you decide to betray me,
+	&+Wthe money is well hidden, and you will never find it should you take
+	&+Wadvantage of my weakened condition... Now go.&n
+~
+QA
+The &+yhalfling's&n eyes widen as he sees the vial and pendant you carry.  As you hand them to him he quickly downs the potion in one quick gulp, and then rubs his fingers over the pendant with an amused grin on his face.  As his strength returns he stands and walks to the back of the room.  Kneeling and fiddling with a loose floorboard, he pries it loose and retrieves something from underneath.  As he walks back towards you, a menacing smile comes into view.
+
+	&+W"When that fat merchant caught me in his room I figured I had lost
+	&+Wmy only chance to nab that pendant.  And then when one of his guards
+	&+Wcut me, I thought it was all over..."&n
+
+The &+yhalfling&n smirks before continuing.
+
+	&+W"But then again, you never know when lady luck will smile your way.
+	&+WYoung naive adventurers, entering the big city, and the real world
+	&+Wfor the first time... Didn't anyone ever tell you not to trust a
+	&+Wthief?  I suppose I should thank you, though.  I never would have
+	&+Wbeen able to steal that trader's valuables without your help.  This
+	&+Wshould fetch a good price in the Bazaar!"&n
+~
+R I 6564
+R E 3000
+G I 6565
+G I 6563
+D
+Throwing the pouch at you, and bolting past you before you can react, the &+yhalfling&n bolts down the hallway, cackling at his success.  As he disappears down the stairs you hear him shout one last time,
+
+	&+W"Never trust a thief!"&n
+~
+S
+#6557
+MA
+mandrake nightshade nebble~
+&+gTh&+Ge&+gr&+Ga&n listens intently as you tell her your story.
+
+	&+W"Someone is hurt?  Of course I will help!  &+YN&+ye&+Ybbl&+ye&+W knows me too well, yes
+	&+WI have some mandrake and nightshade with me.  I have not finished unpacking
+	&+Wyet, and I think both of those plants are still in my bag.  Just &+Yopen&+W it
+	&+Wand &+Ysearch&+W through it until you find them both.  There are some other things
+	&+Win there, but nothing else &+YN&+ye&+Ybbl&+ye&+W needs to finish his potion.  Do
+	&+Whurry and save that poor &+yhalfling&+W.  Even if he does look like a bad sort,
+	&+Wperhaps an experience like this might turn him around, you never know.  Good luck!"&n
+~
+MA
+druid druids profession~
+	&+W"Druids are the guardians of life.  We draw our powers from life itself, and use it
+	&+Wonly to preserve and protect it.  As such we have both curative and offensive abilities.
+	&+WWe can inject the essence of life into the veins of the weary, or into the desolate earth
+	&+Wand watch a new forest emerge from it in the blink of an eye.  When our forests are
+	&+Wthreatened, we can unlease the elements against the attackers.  Gale-strength winds, pockets
+	&+Wof the earth, lightning from the clouds, even the light and heat of the sun obey our summons
+	&+Wto protect the land, which is in our charge.  However, like I have already said, our power
+	&+Wis directly linked to the life which surrounds us.  In our domain we are powerful, and the
+	&+Wevil hoardes dare not challenge us directly, yet in their domain our strength is sapped.  In
+	&+Wthe barren wastelands and dismal Underdark of their home we have no lifeforce to commune with,
+	&+Wand therefore our role is limited to the defense of the land, and not the destruction of the
+	&+Whoardes."&n
+~
+MA
+race races centaur~
+	&+W"You will meet a great many peoples in this city, and even more should your travels take
+	&+Wyou to distant lands, such as that of the Khomani-Khan.  Each race has its strengths and
+	&+Wweaknesses, and you should plan your strategy with that in mind.  I am sure you are
+	&+Waccustomed to seeing the humanoid races which are common in this area of the world, such
+	&+Was dwarves and gnomes and elves, but let me explain to you the differences between some
+	&+Wof the other races which tend to dwell far from here, but you are sure to meet on your
+	&+Wjourneys.
+
+	&+gCen&+Ltaurs&+W, live in the forests of the far west, in the land of Evermeet, and are half horse,
+	&+Wwhich makes them strong and sturdy.  Only the largest of opponents, such as &+bOgres &+Wand
+	&+LMino&+rtaurs&+W can bash them to the ground, but the reverse is also true that their size also
+	&+Wmakes it difficult for them to do the same to others.  Our horse-body allows us to carry our
+	&+Wcompanions on our back as long as we have a saddle for them to sit on.  Our legendary stamina
+	&+Wallows us to outrun any wingless opponent, and our powerful legs allow us to kick in all but
+	&+Wmagically sealed doors.  However, the universal fear of dragons is also inescapable for us.
+	&+WDragons prefer horse flesh to any other meal, and knowing that we would be the preferred
+	&+Wtarget during battle always causes us to panic and flee.
+
+	&+LMino&+rtaurs&+W hail from the distant forested continent of the Khomani-Khan, and are similar to
+	&+Wus, gaining great strength and constitution from the half of them that are not human.  They can
+	&+Wsee perfectly day or night, and their powerful legs and solid upper body make them very
+	&+Weffective at charging their foe, slamming it so powerfully that it becomes momentarily paralyzed
+	&+Wtrying to gather its breath and its senses.  The power of the bull is not without its drawbacks
+	&+Whowever.  Just as the sight of dragons terrifies my people, physical pain infuriates the bull
+	&+Winside of each &+LMino&+rtaur&+W.  After significant damage is taken, it loses control, flying
+	&+Winto an insatiable rage.  Its strength and vitality climb even higher during this time, but it
+	&+Wloses all ability to think and reason.  Fearing for its safety, it will charge anything near
+	&+Wit which moves, even its friends, even if it were its mother or child.
+
+	&+GThri-&+YKreens&+W dwell in the same area as the &+LMino&+rtaurs&+W, and can see in both light and
+	&+Wdarkness as well, though they prefer to live in the dark in an underground city.  Their skinny and
+	&+Wuniquely-shaped bodies prevent them from wearing much of the protective armor the other races use,
+	&+Wbut they possess four arms to fight with!  They can wield 4 longswords, or 2 powerful broadswords,
+	&+Wuse a shield and 3 swords, or any combination they choose!  Also, their evolution has gifted them
+	&+Wwith a highly venomous bite, able to poison or paralyze victims that get too close to their jaws.
+	&+WThough not naturally possessing great physical strength, their speed more than makes up for it.
+	&+WThey are more agile and coordinated, even having innately driven dodging abilities, than nearly
+	&+Wany race save &+yhalflings &+Wand &+Ggoblins&+W!
+
+	&+yHarpies&+W dwell in the mountains to the west of the homeland of the &+Lmino&+rtaurs&+W.  They are
+	&+Wan agile bird race with many unique abilities.  Strong wings allow them to remain perpetually in
+	&+Wthe air, which when coupled with perfect night and day vision allows them to see a much larger area
+	&+Wwhen outside than their comrades.  Isolationists by nature, the &+yharpies&+W possess many secrets
+	&+Wunbeknownst to the rest of the world, such as the ability of some of them to harness the powers of
+	&+Wthe stars in combat, releasing a torrent of destruction!"&n
+~
+S
+#6558
+MA
+alchemy alchemist profession~
+&+YN&+ye&+Ybbl&+ye&n's face lights up as you ask him about alchemy.
+
+	&+WI am more than happy to talk with you about the art of alchemy.  It is truly
+	&+Wan amazing art which is only recently beginning to be understood and taken
+	&+Wseriously.  Don't listen to all the stories about witchs' cauldrons and love
+	&+Wpotions and all that hocus-pocus.  Alchemy is a science, not like the magical
+	&+Warts practiced by many of the other adventurers you'll meet.  A sorceror is
+	&+Wable to cause an ice storm to materialize out of nothing, while a warrior is
+	&+Wincapable of ever producing anything like it.  That is magic.  Alchemy is
+	&+Wdifferent.  There is no need for natural power or ability.  When ingredient A
+	&+Wis mixxed with ingredient B, it produces a potion with a specific effect that is
+	&+Wthe same for whoever mixxes the ingredients together.  It is constant and reliable.
+	&+WWith magic you sometimes fail, and at the worst times.  With alchemy it is certain.
+	&+WIt will never fail you in a tight spot!"
+
+&+YN&+ye&+Ybbl&+ye&n pauses a moment to collect his thoughts, then continues.
+
+	&+W"Now, onto what alchemy can actually do!  The aspect of potion brewing you are
+	&+Walready mildly aware of.  Potions can be brewed which neutralize potions, and some
+	&+Wcan restore energy and vitality itself.  However, the power to enhance life is
+	&+Wbalanced by the power also to destroy it.  Poisons can be created, as well as volatile
+	&+Wacids and gasses.  Others can be made that fill you with gasses so light that it causes
+	&+Wyour body to actually float!  There is more to alchemy than potion brewing however.  The
+	&+Wsame concepts can be applied to metals and other materials.  Just as mixxing different
+	&+Wingredients together can give potions of different effects, metals can be combined to
+	&+Wproduce alloys with enhanced properties as well.  Bronze can be easily pierced.  Iron
+	&+Wis more difficult, but it can be pierced as well.  However, if I melt them together I
+	&+Wcan cool it into a metal that is more durable than either, and lighter as well.  I guess
+	&+Wto sum it all up quickly, I can say this.  Alchemists are scientists.  They take items from
+	&+Wtheir surroundings and use them to produce whatever it is they might need, be it an elixir,
+	&+Wpoison, armor, or broadsword.  When a need arises, we work with what we have to address it."&n
+~
+MA
+medicine potion help hurt injured halfling~
+	&+W"A deep wound to his side you say?  That sounds simple enough, a little mandrake
+	&+Wpaste with some nightshade dew should fix him right up."
+
+&+YN&+ye&+Ybbl&+ye&n thinks and then frowns.
+
+	&+W"Though there might be a problem.  Both of those plants are out of season, and
+	&+WI brought none with me since it wasn't needed for the drider antidote.  What to
+	&+Wdo..."
+
+&+YN&+ye&+Ybbl&+ye&n paces a moment.
+
+	&+W"Oh yes!  I believe I saw an old friend of mine, &+gTh&+Ge&+gr&+Ga&+W, in town earlier
+	&+Wtoday.  She is a druid from the far west with an insatiable love of plants.  When I use
+	&+Wto travel with her she always amused me by bringing an assortment of plants along with
+	&+Wher.  She claimed they improved her powers when they were near her, which I don't know
+	&+Wif it was true or not, but she brought them with her all the same.  Anyways, I do remember
+	&+Wseeing her at the Great Bazaar earlier.  Perhaps she is staying the night here as well.
+	&+WIf you can find her, see if she has any &+Ymandrake&+W and &+Ynightshade&+W, as a favor for an old
+	&+Wfriend.  If she does, bring them immediately back to me and I'll brew a potion to help
+	&+Wyour friend.  Good luck!"&n
+~
+QA
+&+YN&+ye&+Ybbl&+ye&n quickly throws the plants into a bowl of other ingredients he had already prepared.  After grinding them into a fine reddish paste with the rest of the mixture, he then scrapes the contents into a thin vial and hands it to you.
+
+	&+W"Quickly go and administer this to that injured &+yhalfling!"&n
+~
+R I 6563
+G I 6560
+G I 6561
+S
+#6570
+MA
+suspicious guards guard bodyguard bodyguards~
+&+W"In times like these being a successful tradesman can make you an attractive target.
+&+WSacrificing a small amount of profit to secure my safety is a small price to pay.
+&+WJust keep your hands away from your weapons and my guards will not harm you.  If
+&+WI come to suspect you are in league with that miserable low-life thief that we
+&+Wjust chased from here, your fate will be the same as his once we find him."&n
+~
+MA
+pendant thief stole father return~
+&+W"My pendant?!  It is mine!  Why would you believe a thief over an honest
+&+Wman like me?  You cannot take that which is mine.  Get out of my room
+&+Wat once before I have my men teach you the same lesson they taught him!"
+~
+S
+#6572
+QA
+&+W"thank you so much friend!  I have been worried about what I was going to do,
+&+Wbut it looks like things always seem to work out afterall!  Here is the wand,
+&+Was promised.  Come back and visit with me the next time you are in Tharnadia!"&n
+~
+R I 6569
+G C 1000
+S
+#6573
+QA
+	&+W"Hukka!  There you are!  Been running around the inn and annoying the other guests
+	&+Whave you?  It is about time I make you a collar and leash to put you on until you
+	&+Wcan learn to behave!"&n
+
+Taking Hukka from you, &+GR&+gh&+ye&+gd&n ruffles the fur on the pup's head and places him on top of the sheets at the foot of his bed.  Turning back to you, &+GR&+gh&+ye&+gd&n smiles warmly.
+
+	&+W"Thank you very much for the kind service you have done me.  I half expected
+	&+Wwhoever found him to hide and keep him.  Wolf pups are extremely valuable
+	&+Was they grow to be excellent hunters for their masters. I generally have little
+	&+Wuse for money, so I am afraid I have none to reward you with.  However, I do
+	&+Whave some equipment I can spare that may be of use to you on your journeys
+	&+Woutside the city.  They are not much, but it is all I have to give.  Thank you
+	&+Wagain."&n
+~
+R I 6567
+R I 6568
+G I 6566
+S

@@ -1,0 +1,398 @@
+#570
+&+yThe Trakkia Mountains&n~
+57165 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 57001 5 9 100 0 0 0
+*     down exit from "Inside the Rilla Monestary" to
+*     "Inside The Rilla Catacombs" - closed/blocked
+*
+D 0 57067 4 1 100 0 0 0
+*     up exit from "Inside The Rilla Catacombs" to
+*     "Inside the Rilla Monestary" - closed
+*
+D 0 57043 2 1 100 0 0 0
+*     south exit from "The Trakkia Mountainside" to
+*     "Inside the Rilla Monestary" - closed
+*
+D 0 57048 0 1 100 0 0 0
+*     north exit from "Inside the Rilla Monestary" to
+*     "The Trakkia Mountainside" - closed
+*
+D 0 57059 5 1 100 0 0 0
+*     down exit from "The Trakkia Summit" to
+*     "A Dark Shaft" - closed
+*
+D 0 57070 4 1 100 0 0 0
+*     up exit from "A Dark Shaft" to
+*     "The Trakkia Summit" - closed
+*
+D 0 57094 0 2 100 0 0 0
+*     north exit from "Inside the Rilla Catacombs" to
+*     "The Tomb of Khan Aspuru" - closed/locked
+*
+D 0 57096 2 2 100 0 0 0
+*     south exit from "The Tomb of Khan Aspuru" to
+*     "Inside the Rilla Catacombs" - closed/locked
+*
+D 0 57096 0 5 100 0 0 0
+*     north exit from "The Tomb of Khan Aspuru" to
+*     "The Lost Vault of Khan Aspuru" - closed/secret
+*
+D 0 57097 2 5 100 0 0 0
+*     south exit from "The Lost Vault of Khan Aspuru" to
+*     "The Tomb of Khan Aspuru" - closed/secret
+*
+D 0 57098 0 1 100 0 0 0
+*     north exit from "Inside the Rilla Catacombs" to
+*     "The Tomb of Kiri Ivinof" - closed
+*
+D 0 57100 2 1 100 0 0 0
+*     south exit from "The Tomb of Kiri Ivinof" to
+*     "Inside the Rilla Catacombs" - closed
+*
+D 0 57103 0 1 100 0 0 0
+*     north exit from "Inside a Mountain Cave" to
+*     "Inside a Mountain Cave" - closed
+*
+D 0 57119 2 9 100 0 0 0
+*     south exit from "Inside a Mountain Cave" to
+*     "Inside a Mountain Cave" - closed/blocked
+*
+D 0 57110 3 5 100 0 0 0
+*     west exit from "A Cave of Molten Rock" to
+*     "A Cave of Molten Rock" - closed/secret
+*
+D 0 57130 1 5 100 0 0 0
+*     east exit from "A Cave of Molten Rock" to
+*     "A Cave of Molten Rock" - closed/secret
+*
+D 0 57134 3 9 100 0 0 0
+*     west exit from "Inside a Mountain Cave" to
+*     "Inside a Mountain Cave" - closed/blocked
+*
+D 0 57136 1 9 100 0 0 0
+*     east exit from "Inside a Mountain Cave" to
+*     "Inside a Mountain Cave" - closed/blocked
+*
+D 0 57157 0 6 100 0 0 0
+*     north exit from "A Great Mantis Lair" to
+*     "The Trakkian Treasure Cavern" - closed/locked/secret
+*
+D 0 57158 2 6 100 0 0 0
+*     south exit from "The Trakkian Treasure Cavern" to
+*     "A Great Mantis Lair" - closed/locked/secret
+*
+*
+O 0 57028 1 57001 100 0 0 0        * a candle
+O 0 57000 12 57002 100 0 0 0       * a clump of mountain grass
+O 0 57022 1 57003 100 0 0 0        * a simple straw hut
+O 0 57000 12 57015 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57017 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57018 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57021 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57023 100 0 0 0       * a clump of mountain grass
+O 0 57008 4 57027 100 0 0 0        * a candle
+O 0 57006 1 57028 100 0 0 0        * a cave
+O 0 57005 1 57029 100 0 0 0        * a cave
+O 0 57000 12 57032 100 0 0 0       * a clump of mountain grass
+O 0 57007 1 57033 100 0 0 0        * a cave
+O 0 57000 12 57039 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57041 100 0 0 0       * a clump of mountain grass
+O 0 57008 4 57048 100 0 0 0        * a candle
+O 0 57000 12 57050 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57053 100 0 0 0       * a clump of mountain grass
+O 0 57000 12 57055 100 0 0 0       * a clump of mountain grass
+O 0 57008 4 57068 100 0 0 0        * a candle
+O 0 57020 1 57085 100 0 0 0        * a dying samurai
+O 0 57018 2 57096 100 0 0 0        * a casket
+O 0 57023 6 57097 100 0 0 0        * a pile of coins
+O 0 57023 6 57097 100 0 0 0        * a pile of coins
+O 0 57024 1 57097 100 0 0 0        * a tarnished royal signet ring
+O 0 57025 1 57097 100 0 0 0        * a tiny orb of obsidian
+O 0 57010 1 57097 100 0 0 0        * a fire elemental figurine
+O 0 57031 1 57097 100 0 0 0        * an ancient, tribal coif
+O 0 57023 6 57097 100 0 0 0        * a pile of coins
+O 0 57023 6 57097 100 0 0 0        * a pile of coins
+O 0 359 1 57097 100 0 0 0          * (object type not in this .obj file)
+O 0 57018 2 57100 100 0 0 0        * a casket
+P 1 57019 1 57018 100 0 0 0        *   an ancient skeleton key
+O 0 57012 1 57101 100 0 0 0        * a cave
+O 0 57014 1 57102 100 0 0 0        * a cave
+O 0 57015 1 57103 100 0 0 0        * a cave
+O 0 57016 1 57114 100 0 0 0        * a shield of metorite
+O 0 57013 1 57114 100 0 0 0        * a slender shard of metorite
+O 0 57017 1 57114 100 0 0 0        * a metorite visor
+O 0 57027 1 57114 100 0 0 0        * a stone lever
+O 0 57026 1 57129 100 0 0 0        * a stone lever
+O 0 57008 4 57137 100 0 0 0        * a candle
+O 0 57037 4 57152 100 0 0 0        * a nest
+P 1 57040 4 57037 100 0 0 0        *   a grangle root
+O 0 57037 4 57157 100 0 0 0        * a nest
+P 1 57040 4 57037 100 0 0 0        *   a grangle root
+O 0 57047 1 57158 100 0 0 0        * a set of trakkian tribal greaves
+O 0 57050 1 57158 100 0 0 0        * an embroidered trakkian belt
+O 0 57046 1 57159 100 0 0 0        * a basilisk claw
+O 0 57052 1 57159 100 0 0 0        * an ancestoral tribal mask
+O 0 57045 1 57160 100 0 0 0        * an orb of metorite
+O 0 57023 6 57160 100 0 0 0        * a pile of coins
+O 0 57049 1 57161 100 0 0 0        * an ancient ring of spellweaving
+O 0 57051 1 57161 100 0 0 0        * a bronze trakkian breastplate
+O 0 57023 6 57161 100 0 0 0        * a pile of coins
+O 0 57037 4 57163 100 0 0 0        * a nest
+P 1 57040 4 57037 100 0 0 0        *   a grangle root
+O 0 57037 4 57165 100 0 0 0        * a nest
+P 1 57040 4 57037 100 0 0 0        *   a grangle root
+*
+M 0 57004 1 57001 100 0 0 0        * a monestary acolyte
+M 0 57020 8 57004 100 0 0 0        * an antlion
+M 0 57020 8 57004 100 0 0 0        * an antlion
+M 0 57015 1 57005 100 0 0 0        * a trakkian goatherder
+F 1 57016 3 57005 100 0 0 0        * a goat (following)
+F 1 57016 3 57005 100 0 0 0        * a goat (following)
+F 1 57016 3 57005 100 0 0 0        * a goat (following)
+M 0 57009 3 57006 100 0 0 0        * a hill giant
+M 0 57009 3 57006 100 0 0 0        * a hill giant
+M 0 57009 3 57006 100 0 0 0        * a hill giant
+M 0 57021 10 57009 100 0 0 0       * a mountain goat
+M 0 57021 10 57009 100 0 0 0       * a mountain goat
+M 0 57021 10 57009 100 0 0 0       * a mountain goat
+M 0 57021 10 57009 100 0 0 0       * a mountain goat
+M 0 57008 3 57011 100 0 0 0        * a mesa cobra
+M 0 57008 3 57011 100 0 0 0        * a mesa cobra
+M 0 57008 3 57011 100 0 0 0        * a mesa cobra
+M 0 57019 3 57015 100 0 0 0        * a trakkian tribesman
+M 0 57019 3 57015 100 0 0 0        * a trakkian tribesman
+M 0 57019 3 57015 100 0 0 0        * a trakkian tribesman
+M 0 57012 3 57016 100 0 0 0        * a mountain lion
+M 0 57012 3 57016 100 0 0 0        * a mountain lion
+M 0 57012 3 57016 100 0 0 0        * a mountain lion
+M 0 57030 4 57018 100 0 0 0        * a rock maw
+M 0 57013 3 57021 100 0 0 0        * a leucrotta
+M 0 57013 3 57021 100 0 0 0        * a leucrotta
+M 0 57013 3 57021 100 0 0 0        * a leucrotta
+M 0 57018 3 57025 100 0 0 0        * a wild rockboar
+M 0 57018 3 57025 100 0 0 0        * a wild rockboar
+M 0 57018 3 57025 100 0 0 0        * a wild rockboar
+M 0 57025 3 57027 100 0 0 0        * a missionary
+M 0 57025 3 57027 100 0 0 0        * a missionary
+M 0 57025 3 57027 100 0 0 0        * a missionary
+M 0 57028 2 57030 100 0 0 0        * a scaly basilisk
+M 0 57028 2 57030 100 0 0 0        * a scaly basilisk
+M 0 57011 4 57031 100 0 0 0        * a mountain wildman
+E 1 57004 3 16 100 0 0 0           *   a club of spiked stone
+M 0 57011 4 57031 100 0 0 0        * a mountain wildman
+E 1 57004 3 16 100 0 0 0           *   a club of spiked stone
+M 0 57011 4 57031 100 0 0 0        * a mountain wildman
+E 1 57004 3 16 100 0 0 0           *   a club of spiked stone
+M 0 57011 4 57031 100 0 0 0        * a mountain wildman
+M 0 57010 2 57032 100 0 0 0        * a rock drake
+M 0 57010 2 57032 100 0 0 0        * a rock drake
+M 0 57031 6 57037 100 0 0 0        * a stone imp
+M 0 57031 6 57037 100 0 0 0        * a stone imp
+M 0 57030 4 57040 100 0 0 0        * a rock maw
+M 0 57026 1 57041 100 0 0 0        * a gully dwarf
+M 0 57017 1 57042 100 0 0 0        * a three-headed mountain hydra
+M 0 57020 8 57045 100 0 0 0        * an antlion
+M 0 57020 8 57045 100 0 0 0        * an antlion
+M 0 57020 8 57045 100 0 0 0        * an antlion
+M 0 57020 8 57045 100 0 0 0        * an antlion
+M 0 57029 2 57046 100 0 0 0        * a mountain troll
+M 0 57029 2 57046 100 0 0 0        * a mountain troll
+M 0 57021 10 57047 100 0 0 0       * a mountain goat
+M 0 57021 10 57047 100 0 0 0       * a mountain goat
+M 0 57021 10 57047 100 0 0 0       * a mountain goat
+M 0 57021 10 57047 100 0 0 0       * a mountain goat
+M 0 57030 4 57049 100 0 0 0        * a rock maw
+M 0 57027 6 57050 100 0 0 0        * a cliff hopper
+M 0 57027 6 57050 100 0 0 0        * a cliff hopper
+M 0 57027 6 57050 100 0 0 0        * a cliff hopper
+M 0 57027 6 57050 100 0 0 0        * a cliff hopper
+M 0 57034 14 57051 100 0 0 0       * a large boring beetle
+M 0 57034 14 57051 100 0 0 0       * a large boring beetle
+M 0 57034 14 57051 100 0 0 0       * a large boring beetle
+M 0 57034 14 57051 100 0 0 0       * a large boring beetle
+M 0 57014 3 57052 100 0 0 0        * a mountain ettin
+M 0 57014 3 57052 100 0 0 0        * a mountain ettin
+M 0 57014 3 57052 100 0 0 0        * a mountain ettin
+M 0 57033 1 57056 100 0 0 0        * a falconer
+E 1 57021 1 9 100 0 0 0            *   a gamehawker
+F 1 57040 1 57056 100 0 0 0        * a hunting falcon (following)
+M 0 57006 3 57060 100 0 0 0        * a trakkian tribeswoman
+M 0 57006 3 57061 100 0 0 0        * a trakkian tribeswoman
+M 0 57007 1 57062 100 0 0 0        * a tribal witch
+G 1 57001 999 0 100 0 0 0          *    a potion of gold silk water
+G 1 57002 999 0 100 0 0 0          *    a potion of liquid steel
+G 1 57003 999 0 100 0 0 0          *    an ampoule of enchanted moonrock
+G 1 57009 999 0 100 0 0 0          *    a fiery, bubbling, potion
+M 0 57021 10 57063 100 0 0 0       * a mountain goat
+M 0 57021 10 57063 100 0 0 0       * a mountain goat
+M 0 57002 1 57064 100 0 0 0        * Khan Kaloian
+E 1 57011 1 16 100 0 0 0           *   a massive tribal greatsword
+M 0 57006 3 57065 100 0 0 0        * a trakkian tribeswoman
+M 0 57005 4 57066 100 0 0 0        * a trakkian tribesman
+M 0 57005 4 57066 100 0 0 0        * a trakkian tribesman
+M 0 57005 4 57066 100 0 0 0        * a trakkian tribesman
+M 0 57005 4 57066 100 0 0 0        * a trakkian tribesman
+M 0 57003 1 57068 100 0 0 0        * Saint Gauce
+M 0 57037 1 57069 100 0 0 0        * a templar knight
+M 0 57038 1 57069 100 0 0 0        * a righteous crusader
+M 0 57039 1 57072 100 0 0 0        * a captured wildman
+E 1 57044 1 5 100 0 0 0            *   some filthy goat hides
+M 0 57032 11 57073 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57073 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57073 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57073 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57073 100 0 0 0       * a massive carrion crawler
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57024 7 57074 100 0 0 0        * a greater zombie
+M 0 57022 5 57075 100 0 0 0        * a massive cyclops
+M 0 57022 5 57075 100 0 0 0        * a massive cyclops
+M 0 57022 5 57075 100 0 0 0        * a massive cyclops
+M 0 57022 5 57075 100 0 0 0        * a massive cyclops
+M 0 57023 6 57076 100 0 0 0        * a nasty satyr
+M 0 57023 6 57076 100 0 0 0        * a nasty satyr
+M 0 57023 6 57076 100 0 0 0        * a nasty satyr
+M 0 57023 6 57076 100 0 0 0        * a nasty satyr
+M 0 57023 6 57076 100 0 0 0        * a nasty satyr
+M 0 57032 11 57077 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57077 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57077 100 0 0 0       * a massive carrion crawler
+M 0 57023 6 57078 50 0 0 0         * a nasty satyr
+E 1 57033 1 16 100 0 0 0           *   a satyr's pitchfork
+M 0 57055 8 57082 100 0 0 0        * a haunt
+M 0 57036 1 57084 100 0 0 0        * a shepard
+M 0 57035 1 57084 100 0 0 0        * a mountain sasquatch
+G 1 57039 1 0 100 0 0 0            *    a sasquatch cowl
+M 0 57001 1 57084 100 0 0 0        * Torbalan
+E 1 57030 1 18 100 0 0 0           *   a bag of abduction
+E 1 57029 1 18 100 0 0 0           *   a stitched-skin drum
+M 0 57048 1 57085 100 0 0 0        * a HUGE carrion crawler
+M 0 57055 8 57086 100 0 0 0        * a haunt
+M 0 57044 4 57088 100 0 0 0        * a wailing apparition
+M 0 57044 4 57088 100 0 0 0        * a wailing apparition
+M 0 57044 4 57088 100 0 0 0        * a wailing apparition
+M 0 57044 4 57088 100 0 0 0        * a wailing apparition
+M 0 57055 8 57091 100 0 0 0        * a haunt
+M 0 57000 1 57096 100 0 0 0        * Khan Aspuru
+E 1 57043 1 12 20 0 0 0            *   the cloak of enternal anguish
+G 1 57054 1 0 100 0 0 0            *    the tormented soul of Khan Aspuru
+M 0 57055 8 57096 100 0 0 0        * a haunt
+M 0 57055 8 57096 100 0 0 0        * a haunt
+M 0 57055 8 57096 100 0 0 0        * a haunt
+M 0 57022 5 57098 100 0 0 0        * a massive cyclops
+M 0 57043 1 57100 100 0 0 0        * the phantom of Kiri Ivinof
+M 0 57055 8 57100 100 0 0 0        * a haunt
+M 0 57055 8 57100 100 0 0 0        * a haunt
+M 0 57030 4 57101 100 0 0 0        * a rock maw
+M 0 57020 8 57104 100 0 0 0        * an antlion
+M 0 57020 8 57104 100 0 0 0        * an antlion
+M 0 57034 14 57105 100 0 0 0       * a large boring beetle
+M 0 57034 14 57105 100 0 0 0       * a large boring beetle
+M 0 57034 14 57105 100 0 0 0       * a large boring beetle
+M 0 57046 17 57106 100 0 0 0       * a crab spider
+M 0 57046 17 57106 100 0 0 0       * a crab spider
+M 0 57046 17 57106 100 0 0 0       * a crab spider
+M 0 57046 17 57106 100 0 0 0       * a crab spider
+M 0 57046 17 57106 100 0 0 0       * a crab spider
+M 0 57046 17 57107 100 0 0 0       * a crab spider
+M 0 57046 17 57107 100 0 0 0       * a crab spider
+M 0 57046 17 57107 100 0 0 0       * a crab spider
+M 0 57046 17 57107 100 0 0 0       * a crab spider
+M 0 57045 4 57111 100 0 0 0        * a magma imp
+M 0 57045 4 57111 100 0 0 0        * a magma imp
+M 0 57045 4 57111 100 0 0 0        * a magma imp
+M 0 57045 4 57111 100 0 0 0        * a magma imp
+M 0 57034 14 57112 100 0 0 0       * a large boring beetle
+M 0 57034 14 57112 100 0 0 0       * a large boring beetle
+M 0 57034 14 57112 100 0 0 0       * a large boring beetle
+M 0 57034 14 57112 100 0 0 0       * a large boring beetle
+M 0 57047 4 57113 100 0 0 0        * a lava spawn
+M 0 57047 4 57113 100 0 0 0        * a lava spawn
+M 0 57047 4 57113 100 0 0 0        * a lava spawn
+M 0 57047 4 57113 100 0 0 0        * a lava spawn
+M 0 57041 1 57114 100 0 0 0        * a metorite golem
+E 1 57032 2 16 100 0 0 0           *   a magma club
+M 0 57042 1 57114 100 0 0 0        * a magma golem
+E 1 57032 2 16 100 0 0 0           *   a magma club
+M 0 57049 2 57116 100 0 0 0        * a medusa
+M 0 57049 2 57116 100 0 0 0        * a medusa
+M 0 57034 14 57119 100 0 0 0       * a large boring beetle
+M 0 57034 14 57119 100 0 0 0       * a large boring beetle
+M 0 57034 14 57119 100 0 0 0       * a large boring beetle
+M 0 57046 17 57120 100 0 0 0       * a crab spider
+M 0 57046 17 57120 100 0 0 0       * a crab spider
+M 0 57046 17 57120 100 0 0 0       * a crab spider
+M 0 57031 6 57122 100 0 0 0        * a stone imp
+M 0 57031 6 57122 100 0 0 0        * a stone imp
+M 0 57046 17 57123 100 0 0 0       * a crab spider
+M 0 57046 17 57123 100 0 0 0       * a crab spider
+M 0 57027 6 57123 100 0 0 0        * a cliff hopper
+M 0 57027 6 57123 100 0 0 0        * a cliff hopper
+M 0 57052 4 57124 100 0 0 0        * a mature chrome dragon
+M 0 57052 4 57124 100 0 0 0        * a mature chrome dragon
+M 0 57052 4 57124 100 0 0 0        * a mature chrome dragon
+M 0 57052 4 57124 100 0 0 0        * a mature chrome dragon
+M 0 57050 1 57129 100 0 0 0        * a huge chrome dragon
+G 1 57034 1 0 100 0 0 0            *    a chrome circlet
+G 1 57035 1 0 100 0 0 0            *    a chrome horn
+G 1 57036 1 0 100 0 0 0            *    a chrome dragon eye
+F 1 57051 3 57129 100 0 0 0        * a baby chrome dragon (following)
+F 1 57051 3 57129 100 0 0 0        * a baby chrome dragon (following)
+F 1 57051 3 57129 100 0 0 0        * a baby chrome dragon (following)
+M 0 57053 1 57132 100 0 0 0        * a magma drake
+G 1 57042 1 0 100 0 0 0            *    a magma drake scale
+M 0 57054 4 57133 100 0 0 0        * a nimble mountain pony
+M 0 57054 4 57133 100 0 0 0        * a nimble mountain pony
+M 0 57054 4 57133 100 0 0 0        * a nimble mountain pony
+M 0 57054 4 57133 100 0 0 0        * a nimble mountain pony
+M 0 57060 1 57135 100 0 0 0        * a three-headed mountain hydra
+M 0 57058 1 57136 100 0 0 0        * a trakkian tribesman
+M 0 57046 17 57142 100 0 0 0       * a crab spider
+M 0 57046 17 57142 100 0 0 0       * a crab spider
+M 0 57046 17 57142 100 0 0 0       * a crab spider
+M 0 57031 6 57143 100 0 0 0        * a stone imp
+M 0 57031 6 57143 100 0 0 0        * a stone imp
+M 0 57059 8 57144 100 0 0 0        * a mantis soldier
+M 0 57059 8 57144 100 0 0 0        * a mantis soldier
+M 0 57059 8 57144 100 0 0 0        * a mantis soldier
+M 0 57059 8 57144 100 0 0 0        * a mantis soldier
+M 0 57032 11 57145 100 0 0 0       * a massive carrion crawler
+M 0 57057 7 57148 100 0 0 0        * a young mantis
+M 0 57057 7 57148 100 0 0 0        * a young mantis
+M 0 57059 8 57148 100 0 0 0        * a mantis soldier
+M 0 57059 8 57150 100 0 0 0        * a mantis soldier
+M 0 57057 7 57151 100 0 0 0        * a young mantis
+M 0 57057 7 57151 100 0 0 0        * a young mantis
+M 0 57057 7 57151 100 0 0 0        * a young mantis
+M 0 57057 7 57151 100 0 0 0        * a young mantis
+M 0 57056 10 57152 100 0 0 0       * a mantis guard
+M 0 57056 10 57152 100 0 0 0       * a mantis guard
+M 0 57056 10 57152 100 0 0 0       * a mantis guard
+M 0 57059 8 57153 100 0 0 0        * a mantis soldier
+M 0 57059 8 57153 100 0 0 0        * a mantis soldier
+M 0 57032 11 57154 100 0 0 0       * a massive carrion crawler
+M 0 57032 11 57156 100 0 0 0       * a massive carrion crawler
+M 0 57057 7 57156 100 0 0 0        * a young mantis
+M 0 57061 1 57157 100 0 0 0        * the mantis queen
+G 1 57048 1 0 100 0 0 0            *    the queen mantis eye
+M 0 57056 10 57157 100 0 0 0       * a mantis guard
+M 0 57056 10 57157 100 0 0 0       * a mantis guard
+M 0 57062 4 57157 100 0 0 0        * a mantis hatchling
+M 0 57062 4 57157 100 0 0 0        * a mantis hatchling
+M 0 57062 4 57157 100 0 0 0        * a mantis hatchling
+M 0 57062 4 57157 100 0 0 0        * a mantis hatchling
+M 0 57056 10 57163 100 0 0 0       * a mantis guard
+M 0 57056 10 57163 100 0 0 0       * a mantis guard
+M 0 57056 10 57163 100 0 0 0       * a mantis guard
+M 0 57056 10 57165 100 0 0 0       * a mantis guard
+M 0 57056 10 57165 100 0 0 0       * a mantis guard
+*
+S

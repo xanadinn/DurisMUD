@@ -1,0 +1,82 @@
+#856
+&+yAn Ancient Bridge~
+85636 1 8 10 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 85606 0 1 100 0 0 0
+*     north exit from "A Spanning Ancient Bridge" to
+*     "Inside A Small Garison" - closed
+*
+D 0 85608 2 1 100 0 0 0
+*     south exit from "Inside A Small Garison" to
+*     "A Spanning Ancient Bridge" - closed
+*
+D 0 85606 2 1 100 0 0 0
+*     south exit from "A Spanning Ancient Bridge" to
+*     "A Horse Corral" - closed
+*
+D 0 85635 0 1 100 0 0 0
+*     north exit from "A Horse Corral" to
+*     "A Spanning Ancient Bridge" - closed
+*
+D 0 85615 0 1 100 0 0 0
+*     north exit from "A Spanning Ancient Bridge" to
+*     "Inside A Small Garison" - closed
+*
+D 0 85617 2 1 100 0 0 0
+*     south exit from "Inside A Small Garison" to
+*     "A Spanning Ancient Bridge" - closed
+*
+D 0 85615 2 1 100 0 0 0
+*     south exit from "A Spanning Ancient Bridge" to
+*     "A Gated Corral" - closed
+*
+D 0 85636 0 1 100 0 0 0
+*     north exit from "A Gated Corral" to
+*     "A Spanning Ancient Bridge" - closed
+*
+D 0 85633 0 1 100 0 0 0
+*     north exit from "Outside A Little Hut" to
+*     "Inside A Small Hut" - closed
+*
+D 0 85634 2 1 100 0 0 0
+*     south exit from "Inside A Small Hut" to
+*     "Outside A Little Hut" - closed
+*
+*
+*
+M 0 85612 2 85600 100 0 0 0        * a halfling traveler
+M 0 445 2 85600 100 0 0 0          * (mob type not in this .mob file)
+M 0 85614 2 85603 100 0 0 0        * a smelly dwarf
+M 0 85613 1 85603 100 0 0 0        * a halfling traveler
+M 0 85604 4 85606 100 0 0 0        * a stern guard
+M 0 85605 2 85608 100 0 0 0        * a tired halfling guard
+M 0 85605 2 85609 100 0 0 0        * a tired halfling guard
+M 0 85610 2 85612 100 0 0 0        * an elven traveler
+M 0 85611 1 85614 100 0 0 0        * an elven male traveler
+M 0 85607 4 85615 100 0 0 0        * a stern halfling guard
+M 0 85608 1 85617 100 0 0 0        * a tired guard
+M 0 85609 1 85618 100 0 0 0        * a stern halfling archer
+M 0 85615 1 85620 100 0 0 0        * a female dwarf
+M 0 85614 2 85623 100 0 0 0        * a smelly dwarf
+M 0 445 2 85623 100 0 0 0          * (mob type not in this .mob file)
+M 0 85602 2 85624 100 0 0 0        * a dirty kobold father
+M 0 85601 4 85626 100 0 0 0        * a dirty kobold child
+M 0 85603 1 85627 100 0 0 0        * a large bridge troll
+G 1 85600 1 0 100 0 0 0            *    a small crystal ball
+M 0 85602 2 85628 100 0 0 0        * a dirty kobold father
+M 0 85601 4 85631 100 0 0 0        * a dirty kobold child
+M 0 85601 4 85632 100 0 0 0        * a dirty kobold child
+M 0 85601 4 85633 100 0 0 0        * a dirty kobold child
+M 0 85600 1 85634 100 0 0 0        * a dirty kobold mother
+G 1 85601 1 0 100 0 0 0            *    some kobold skin boots
+M 0 85616 5 85635 100 0 0 0        * a black stallion
+M 0 85617 10 85635 100 0 0 0       * a black and white painted pony
+M 0 85618 4 85635 100 0 0 0        * a black and white painted colt
+M 0 85619 1 85636 100 0 0 0        * a black shetland pony
+M 0 85620 10 85636 100 0 0 0       * a black and white painted pony
+M 0 85621 5 85636 100 0 0 0        * a black and white painted colt
+*
+S

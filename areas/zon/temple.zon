@@ -1,0 +1,513 @@
+#183
+&+LThe Ruins of Desecration&n~
+18622 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 18326 5 5 100 0 0 0
+*     down exit from "A Well in the Forest of Stone" to
+*     "A Tunnel Burrowed in Soil and Stone" - closed/secret
+*
+D 0 18341 4 1 100 0 0 0
+*     up exit from "A Tunnel Burrowed in Soil and Stone" to
+*     "A Well in the Forest of Stone" - closed
+*
+D 0 18362 2 2 100 0 0 0
+*     south exit from "Before the Dark Structure" to
+*     "Inside the Holy Sepulchre" - closed/locked
+*
+D 0 18363 0 2 100 0 0 0
+*     north exit from "Inside the Holy Sepulchre" to
+*     "Before the Dark Structure" - closed/locked
+*
+D 0 18368 2 1 100 0 0 0
+*     south exit from "In Cemetery Square" to
+*     "Inside the Small House" - closed
+*
+D 0 18369 0 1 100 0 0 0
+*     north exit from "Inside the Small House" to
+*     "In Cemetery Square" - closed
+*
+D 0 18368 3 1 100 0 0 0
+*     west exit from "In Cemetery Square" to
+*     "A Small Wooden Shack" - closed
+*
+D 0 18375 1 1 100 0 0 0
+*     east exit from "A Small Wooden Shack" to
+*     "In Cemetery Square" - closed
+*
+D 0 18371 5 13 100 0 0 0
+*     down exit from "Inside the Small House" to
+*     "A musty basement" - closed/secret/blocked
+*
+D 0 18373 4 0 100 0 0 0
+*     up exit from "A musty basement" to
+*     "Inside the Small House" - open
+*
+D 0 18372 4 1 100 0 0 0
+*     up exit from "Inside the Small House" to
+*     "Inside the Small House's Attic" - closed
+*
+D 0 18374 5 1 100 0 0 0
+*     down exit from "Inside the Small House's Attic" to
+*     "Inside the Small House" - closed
+*
+D 0 18405 4 13 100 0 0 0
+*     up exit from "Below the Bridge's Water Drain" to
+*     "On the Great Bridge" - closed/secret/blocked
+*
+D 0 18406 5 13 100 0 0 0
+*     down exit from "On the Great Bridge" to
+*     "Below the Bridge's Water Drain" - closed/secret/blocked
+*
+D 0 18410 5 5 100 0 0 0
+*     down exit from "In a Curious Little Vale" to
+*     "A Secret in a Curious Little Vale" - closed/secret
+*
+D 0 18425 4 2 100 0 0 0
+*     up exit from "A Secret in a Curious Little Vale" to
+*     "In a Curious Little Vale" - closed/locked
+*
+D 0 18426 1 2 100 0 0 0
+*     east exit from "On the Great Bridge Before Two Massive Doors" to
+*     "The Temple's Main Entrance" - closed/locked
+*
+D 0 18427 3 1 100 0 0 0
+*     west exit from "The Temple's Main Entrance" to
+*     "On the Great Bridge Before Two Massive Doors" - closed
+*
+D 0 18444 5 5 100 0 0 0
+*     down exit from "The Temple's Main Entrance" to
+*     "Below the Main Floor" - closed/secret
+*
+D 0 18447 4 1 100 0 0 0
+*     up exit from "Below the Main Floor" to
+*     "The Temple's Main Entrance" - closed
+*
+D 0 18501 1 5 100 0 0 0
+*     east exit from "At the Humming Altar" to
+*     "The High Priest's Passageway" - closed/secret
+*
+D 0 18504 3 1 100 0 0 0
+*     west exit from "The High Priest's Passageway" to
+*     "At the Humming Altar" - closed
+*
+D 0 18506 1 13 100 0 0 0
+*     east exit from "The High Priest's Passageway" to
+*     "The High Priest's Secret Chambers" - closed/secret/blocked
+*
+D 0 18507 3 0 100 0 0 0
+*     west exit from "The High Priest's Secret Chambers" to
+*     "The High Priest's Passageway" - open
+*
+D 0 18508 1 1 100 0 0 0
+*     east exit from "The Southern Corridor" to
+*     "A Bloody Kitchen" - closed
+*
+D 0 18509 3 1 100 0 0 0
+*     west exit from "A Bloody Kitchen" to
+*     "The Southern Corridor" - closed
+*
+D 0 18512 1 1 100 0 0 0
+*     east exit from "A Bloody Kitchen" to
+*     "A Cold Room" - closed
+*
+D 0 18513 3 1 100 0 0 0
+*     west exit from "A Cold Room" to
+*     "A Bloody Kitchen" - closed
+*
+D 0 18515 2 1 100 0 0 0
+*     south exit from "The Back of A Cold Room" to
+*     "A Secret Chamber in the Cold Room" - closed
+*
+D 0 18584 0 1 100 0 0 0
+*     north exit from "A Secret Chamber in the Cold Room" to
+*     "The Back of A Cold Room" - closed
+*
+D 0 18538 0 1 100 0 0 0
+*     north exit from "In a Hallway of White Marble" to
+*     "In a Royal Suite" - closed
+*
+D 0 18547 2 1 100 0 0 0
+*     south exit from "In a Royal Suite" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18539 0 1 100 0 0 0
+*     north exit from "In a Hallway of White Marble" to
+*     "A Ravaged Guest Chamber" - closed
+*
+D 0 18544 2 1 100 0 0 0
+*     south exit from "A Ravaged Guest Chamber" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18539 2 1 100 0 0 0
+*     south exit from "In a Hallway of White Marble" to
+*     "A Ravaged Guest Chamber" - closed
+*
+D 0 18543 0 1 100 0 0 0
+*     north exit from "A Ravaged Guest Chamber" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18540 0 1 100 0 0 0
+*     north exit from "In a Hallway of White Marble" to
+*     "A Ravaged Guest Chamber" - closed
+*
+D 0 18541 2 1 100 0 0 0
+*     south exit from "A Ravaged Guest Chamber" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18540 2 1 100 0 0 0
+*     south exit from "In a Hallway of White Marble" to
+*     "A Ravaged Guest Chamber" - closed
+*
+D 0 18542 0 1 100 0 0 0
+*     north exit from "A Ravaged Guest Chamber" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18545 1 1 100 0 0 0
+*     east exit from "In a Hallway of White Marble" to
+*     "A Stone Corridor" - closed
+*
+D 0 18546 3 1 100 0 0 0
+*     west exit from "A Stone Corridor" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18545 2 1 100 0 0 0
+*     south exit from "In a Hallway of White Marble" to
+*     "In a Royal Suite" - closed
+*
+D 0 18549 0 1 100 0 0 0
+*     north exit from "In a Royal Suite" to
+*     "In a Hallway of White Marble" - closed
+*
+D 0 18561 1 2 100 0 0 0
+*     east exit from "Inside the Throne Room" to
+*     "A Room of Heavenly Light" - closed/locked
+*
+D 0 18564 3 2 100 0 0 0
+*     west exit from "A Room of Heavenly Light" to
+*     "Inside the Throne Room" - closed/locked
+*
+D 0 18567 3 5 100 0 0 0
+*     west exit from "A Dark Corridor" to
+*     "A Room of Weapons" - closed/secret
+*
+D 0 18572 1 1 100 0 0 0
+*     east exit from "A Room of Weapons" to
+*     "A Dark Corridor" - closed
+*
+D 0 18570 0 5 100 0 0 0
+*     north exit from "A Dark Corridor" to
+*     "Inside the Dark Fireplace" - closed/secret
+*
+D 0 18573 2 1 100 0 0 0
+*     south exit from "Inside the Dark Fireplace" to
+*     "A Dark Corridor" - closed
+*
+D 0 18584 5 5 100 0 0 0
+*     down exit from "A Secret Chamber in the Cold Room" to
+*     "A Dark Echoing Shaft" - closed/secret
+*
+D 0 18585 4 1 100 0 0 0
+*     up exit from "A Dark Echoing Shaft" to
+*     "A Secret Chamber in the Cold Room" - closed
+*
+*
+O 0 18304 1 18301 100 0 0 0        * an old wooden sign
+O 0 18305 1 18326 100 0 0 0        * an old well
+O 0 18306 3 18335 100 0 0 0        * a stone archery target
+O 0 18306 3 18336 100 0 0 0        * a stone archery target
+O 0 18306 3 18339 100 0 0 0        * a stone archery target
+O 0 18308 1 18343 100 0 0 0        * a pool of water
+O 0 18313 1 18368 100 0 0 0        * an old marble fountain
+O 0 18314 1 18371 100 0 0 0        * an old wooden table
+O 0 18315 1 18375 100 0 0 0        * a steel chest
+P 1 18336 1 18315 100 0 0 0        *   a wedding band
+O 0 18318 1 18382 100 0 0 0        * a wooden boat
+O 0 18319 1 18405 100 0 0 0        * a water drain latch
+O 0 18326 1 18427 100 0 0 0        * a basin of water
+O 0 18327 1 18431 100 0 0 0        * a beautiful mirror
+O 0 18329 1 18432 100 0 0 0        * the backside of a mirror
+O 0 18330 1 18501 100 0 0 0        * a wonderful altar
+O 0 18331 1 18503 100 0 0 0        * a wooden dragon
+O 0 18333 1 18519 100 0 0 0        * a beautiful ebony harpsichord
+O 0 18335 1 18558 100 0 0 0        * a ghastly throne
+O 0 18349 3 18594 100 0 0 0        * the searing flames
+O 0 18349 3 18595 100 0 0 0        * the searing flames
+O 0 18349 3 18596 100 0 0 0        * the searing flames
+O 0 18350 20 18598 100 0 0 0       * the pool of flame
+O 0 18350 20 18599 100 0 0 0       * the pool of flame
+O 0 18350 20 18600 100 0 0 0       * the pool of flame
+O 0 18350 20 18601 100 0 0 0       * the pool of flame
+O 0 18350 20 18602 100 0 0 0       * the pool of flame
+O 0 18350 20 18603 100 0 0 0       * the pool of flame
+O 0 18350 20 18604 100 0 0 0       * the pool of flame
+O 0 18350 20 18605 100 0 0 0       * the pool of flame
+O 0 18350 20 18606 100 0 0 0       * the pool of flame
+O 0 18350 20 18607 100 0 0 0       * the pool of flame
+O 0 18350 20 18608 100 0 0 0       * the pool of flame
+O 0 18350 20 18609 100 0 0 0       * the pool of flame
+O 0 18350 20 18610 100 0 0 0       * the pool of flame
+O 0 18350 20 18611 100 0 0 0       * the pool of flame
+O 0 18350 20 18612 100 0 0 0       * the pool of flame
+O 0 18350 20 18613 100 0 0 0       * the pool of flame
+O 0 18350 20 18614 100 0 0 0       * the pool of flame
+O 0 18350 20 18615 100 0 0 0       * the pool of flame
+O 0 18350 20 18616 100 0 0 0       * the pool of flame
+O 0 18350 20 18617 100 0 0 0       * the pool of flame
+*
+M 0 18300 3 18305 100 0 0 0        * a mangled wolf
+M 0 18300 3 18305 100 0 0 0        * a mangled wolf
+M 0 18300 3 18305 100 0 0 0        * a mangled wolf
+M 0 18303 11 18308 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18303 11 18310 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18303 11 18311 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18301 19 18312 100 0 0 0       * the mindless shape
+M 0 18301 19 18312 100 0 0 0       * the mindless shape
+M 0 18301 19 18312 100 0 0 0       * the mindless shape
+M 0 18301 19 18313 100 0 0 0       * the mindless shape
+M 0 18301 19 18313 100 0 0 0       * the mindless shape
+M 0 18301 19 18313 100 0 0 0       * the mindless shape
+M 0 18301 19 18314 100 0 0 0       * the mindless shape
+M 0 18301 19 18314 100 0 0 0       * the mindless shape
+M 0 18301 19 18314 100 0 0 0       * the mindless shape
+M 0 18303 11 18314 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18303 11 18315 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18303 11 18315 100 0 0 0       * the mangled commoner
+E 1 18303 12 16 100 0 0 0          *   a tarnished blade
+E 1 18303 12 17 100 0 0 0          *   a tarnished blade
+M 0 18301 19 18316 100 0 0 0       * the mindless shape
+M 0 18301 19 18316 100 0 0 0       * the mindless shape
+M 0 18301 19 18316 100 0 0 0       * the mindless shape
+M 0 18301 19 18317 100 0 0 0       * the mindless shape
+M 0 18301 19 18317 100 0 0 0       * the mindless shape
+M 0 18301 19 18317 100 0 0 0       * the mindless shape
+M 0 18301 19 18318 100 0 0 0       * the mindless shape
+M 0 18301 19 18318 100 0 0 0       * the mindless shape
+M 0 18301 19 18318 100 0 0 0       * the mindless shape
+M 0 18301 19 18319 100 0 0 0       * the mindless shape
+M 0 18302 1 18322 100 0 0 0        * Illyn the Gatekeeper
+M 0 18304 7 18322 100 0 0 0        * the magical entity
+M 0 18304 7 18322 100 0 0 0        * the magical entity
+M 0 18304 7 18322 100 0 0 0        * the magical entity
+M 0 18304 7 18322 100 0 0 0        * the magical entity
+M 0 18317 1 18325 100 0 0 0        * Lord Samael
+G 1 18323 2 0 100 0 0 0            *    an ethereal sword
+M 0 18305 7 18332 100 0 0 0        * the aspiring knight
+M 0 18305 7 18333 100 0 0 0        * the aspiring knight
+M 0 18305 7 18333 100 0 0 0        * the aspiring knight
+M 0 18305 7 18333 100 0 0 0        * the aspiring knight
+M 0 18350 2 18334 100 0 0 0        * the holy spirit
+M 0 18306 5 18335 100 0 0 0        * the young lad
+M 0 18306 5 18335 100 0 0 0        * the young lad
+M 0 18305 7 18336 100 0 0 0        * the aspiring knight
+M 0 18306 5 18336 100 0 0 0        * the young lad
+M 0 18307 2 18337 100 0 0 0        * the maiden
+E 1 18307 1 3 100 0 0 0            *   a golden locket
+P 1 18312 1 18307 100 0 0 0        *   a damaged picture
+M 0 18305 7 18338 100 0 0 0        * the aspiring knight
+M 0 18305 7 18338 100 0 0 0        * the aspiring knight
+M 0 18307 2 18338 100 0 0 0        * the maiden
+M 0 18306 5 18339 100 0 0 0        * the young lad
+M 0 18306 5 18339 100 0 0 0        * the young lad
+M 0 18308 1 18343 100 0 0 0        * the dark faced contortionate
+E 1 18309 1 16 100 0 0 0           *   a well-crafted dagger
+G 1 18310 1 0 100 0 0 0            *    a note covered with excrement
+G 1 18311 2 0 100 0 0 0            *    a foul smelling scroll
+G 1 18311 2 0 100 0 0 0            *    a foul smelling scroll
+M 0 18304 7 18344 100 0 0 0        * the magical entity
+M 0 18309 22 18347 100 0 0 0       * the sickening corpse
+M 0 18309 22 18347 100 0 0 0       * the sickening corpse
+M 0 18309 22 18349 100 0 0 0       * the sickening corpse
+M 0 18316 7 18349 100 0 0 0        * the crawling monster
+E 1 18320 3 16 100 0 0 0           *   a human arm
+M 0 18309 22 18350 100 0 0 0       * the sickening corpse
+M 0 18309 22 18350 100 0 0 0       * the sickening corpse
+M 0 18309 22 18351 100 0 0 0       * the sickening corpse
+M 0 18309 22 18351 100 0 0 0       * the sickening corpse
+M 0 18316 7 18351 100 0 0 0        * the crawling monster
+M 0 18316 7 18351 100 0 0 0        * the crawling monster
+M 0 18309 22 18352 100 0 0 0       * the sickening corpse
+M 0 18309 22 18353 100 0 0 0       * the sickening corpse
+M 0 18309 22 18355 100 0 0 0       * the sickening corpse
+E 1 18320 3 16 100 0 0 0           *   a human arm
+M 0 18309 22 18355 100 0 0 0       * the sickening corpse
+M 0 18316 7 18355 100 0 0 0        * the crawling monster
+M 0 18350 2 18355 100 0 0 0        * the holy spirit
+M 0 18309 22 18356 100 0 0 0       * the sickening corpse
+M 0 18309 22 18356 100 0 0 0       * the sickening corpse
+M 0 18316 7 18356 100 0 0 0        * the crawling monster
+M 0 18316 7 18356 100 0 0 0        * the crawling monster
+M 0 18309 22 18357 100 0 0 0       * the sickening corpse
+M 0 18309 22 18357 100 0 0 0       * the sickening corpse
+M 0 18309 22 18358 100 0 0 0       * the sickening corpse
+M 0 18309 22 18359 100 0 0 0       * the sickening corpse
+M 0 18309 22 18360 100 0 0 0       * the sickening corpse
+M 0 18316 7 18360 100 0 0 0        * the crawling monster
+E 1 18320 3 16 100 0 0 0           *   a human arm
+M 0 18309 22 18361 100 0 0 0       * the sickening corpse
+M 0 18309 22 18361 100 0 0 0       * the sickening corpse
+M 0 18310 1 18363 100 0 0 0        * King Lleddraick
+E 1 18345 1 2 100 0 0 0            *   an obsidian ring
+E 1 18341 1 6 100 0 0 0            *   an obsidian crown
+M 0 18304 7 18363 100 0 0 0        * the magical entity
+M 0 18304 7 18363 100 0 0 0        * the magical entity
+M 0 18312 10 18366 100 0 0 0       * the huge rat
+M 0 18318 2 18367 100 0 0 0        * the ghost of a street sweeper
+E 1 18321 1 16 100 0 0 0           *   a spectral broom
+M 0 18312 10 18368 100 0 0 0       * the huge rat
+M 0 18312 10 18370 100 0 0 0       * the huge rat
+M 0 18312 10 18371 100 0 0 0       * the huge rat
+M 0 18312 10 18372 100 0 0 0       * the huge rat
+M 0 18311 1 18373 100 0 0 0        * the rape victim
+M 0 18312 10 18374 100 0 0 0       * the huge rat
+M 0 18312 10 18374 100 0 0 0       * the huge rat
+M 0 18312 10 18374 100 0 0 0       * the huge rat
+M 0 18312 10 18374 100 0 0 0       * the huge rat
+M 0 18312 10 18374 100 0 0 0       * the huge rat
+M 0 18319 1 18375 100 0 0 0        * the possessed watchdog
+M 0 18313 1 18379 100 0 0 0        * the ravaging demon
+E 1 18317 1 2 100 0 0 0            *   a ring of flames
+M 0 18314 10 18384 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18386 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18386 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18388 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18389 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18391 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18394 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18315 7 18394 100 0 0 0        * the spectral alligator
+M 0 18315 7 18394 100 0 0 0        * the spectral alligator
+M 0 18314 10 18395 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18314 10 18396 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18315 7 18398 100 0 0 0        * the spectral alligator
+M 0 18315 7 18398 100 0 0 0        * the spectral alligator
+M 0 18314 10 18399 100 0 0 0       * the noisy swarm of swamp insects
+M 0 18315 7 18399 100 0 0 0        * the spectral alligator
+M 0 18315 7 18400 100 0 0 0        * the spectral alligator
+M 0 18315 7 18400 100 0 0 0        * the spectral alligator
+M 0 18318 2 18406 100 0 0 0        * the ghost of a street sweeper
+M 0 18321 1 18409 100 0 0 0        * the little devil
+E 1 18322 2 16 100 0 0 0           *   a yellow dagger
+E 1 18322 2 17 100 0 0 0           *   a yellow dagger
+M 0 18323 1 18414 100 0 0 0        * the little devil
+G 1 18324 1 0 100 0 0 0            *    a green token
+M 0 18324 1 18420 100 0 0 0        * the little devil
+E 1 18325 1 16 100 0 0 0           *   a blue wooden sword
+M 0 18322 5 18425 100 0 0 0        * the small faerie child
+M 0 18322 5 18425 100 0 0 0        * the small faerie child
+M 0 18322 5 18425 100 0 0 0        * the small faerie child
+M 0 18322 5 18425 100 0 0 0        * the small faerie child
+M 0 18322 5 18425 100 0 0 0        * the small faerie child
+M 0 18325 1 18440 100 0 0 0        * the old sage
+E 1 18328 1 18 100 0 0 0           *   a globe of light
+M 0 18327 1 18446 100 0 0 0        * the dark watcher
+E 1 18340 1 16 100 0 0 0           *   a sword of black steel
+M 0 18326 5 18447 100 0 0 0        * the faceless human
+M 0 18326 5 18447 100 0 0 0        * the faceless human
+M 0 18326 5 18447 100 0 0 0        * the faceless human
+M 0 18326 5 18447 100 0 0 0        * the faceless human
+M 0 18326 5 18447 100 0 0 0        * the faceless human
+M 0 18343 16 18448 100 0 0 0       * the zombie
+M 0 18335 5 18451 100 0 0 0        * the hopping contortionate
+M 0 18335 5 18455 100 0 0 0        * the hopping contortionate
+M 0 18343 16 18457 100 0 0 0       * the zombie
+M 0 18343 16 18460 100 0 0 0       * the zombie
+M 0 18303 11 18465 100 0 0 0       * the mangled commoner
+M 0 18303 11 18467 100 0 0 0       * the mangled commoner
+M 0 18303 11 18471 100 0 0 0       * the mangled commoner
+M 0 18343 16 18473 100 0 0 0       * the zombie
+M 0 18303 11 18473 100 0 0 0       * the mangled commoner
+M 0 18343 16 18475 100 0 0 0       * the zombie
+M 0 18303 11 18475 100 0 0 0       * the mangled commoner
+M 0 18343 16 18476 100 0 0 0       * the zombie
+M 0 18343 16 18477 100 0 0 0       * the zombie
+M 0 18344 6 18478 100 0 0 0        * the blood-soaked woman
+M 0 18343 16 18479 100 0 0 0       * the zombie
+M 0 18343 16 18480 100 0 0 0       * the zombie
+M 0 18309 22 18480 100 0 0 0       * the sickening corpse
+M 0 18343 16 18482 100 0 0 0       * the zombie
+M 0 18344 6 18482 100 0 0 0        * the blood-soaked woman
+M 0 18335 5 18485 100 0 0 0        * the hopping contortionate
+M 0 18344 6 18485 100 0 0 0        * the blood-soaked woman
+M 0 18343 16 18487 100 0 0 0       * the zombie
+M 0 18343 16 18489 100 0 0 0       * the zombie
+M 0 18343 16 18491 100 0 0 0       * the zombie
+M 0 18344 6 18492 100 0 0 0        * the blood-soaked woman
+M 0 18344 6 18494 100 0 0 0        * the blood-soaked woman
+M 0 18343 16 18497 100 0 0 0       * the zombie
+M 0 18344 6 18498 100 0 0 0        * the blood-soaked woman
+M 0 18343 16 18499 100 0 0 0       * the zombie
+M 0 18329 1 18511 100 0 0 0        * the rotting chef
+E 1 18332 1 16 100 0 0 0           *   a blunted, smashed cleaver
+M 0 18328 6 18513 100 0 0 0        * the sown horror
+M 0 18328 6 18513 100 0 0 0        * the sown horror
+M 0 18328 6 18514 100 0 0 0        * the sown horror
+M 0 18328 6 18514 100 0 0 0        * the sown horror
+M 0 18328 6 18515 100 0 0 0        * the sown horror
+M 0 18328 6 18515 100 0 0 0        * the sown horror
+M 0 18330 1 18520 100 0 0 0        * the withered lutist
+G 1 18334 1 0 100 0 0 0            *    a platinum lute
+M 0 18343 16 18521 100 0 0 0       * the zombie
+M 0 18309 22 18521 100 0 0 0       * the sickening corpse
+M 0 18335 5 18522 100 0 0 0        * the hopping contortionate
+M 0 18335 5 18526 100 0 0 0        * the hopping contortionate
+M 0 18334 4 18541 100 0 0 0        * the sleeping soul
+M 0 18334 4 18542 100 0 0 0        * the sleeping soul
+M 0 18334 4 18543 100 0 0 0        * the sleeping soul
+M 0 18334 4 18544 100 0 0 0        * the sleeping soul
+M 0 18333 2 18548 100 0 0 0        * the dead noble
+M 0 18333 2 18550 100 0 0 0        * the dead noble
+M 0 18332 4 18555 100 0 0 0        * the frightened statue
+M 0 18341 1 18556 100 0 0 0        * the stone queen
+E 1 18348 1 5 100 0 0 0            *   a robe of silken veils
+E 1 18346 1 20 100 0 0 0           *   a scintillating mask
+G 1 18342 1 0 100 0 0 0            *    a leather bound tome
+M 0 18332 4 18560 100 0 0 0        * the frightened statue
+M 0 18340 1 18561 100 0 0 0        * the court bishop
+E 1 18347 1 8 100 0 0 0            *   a set of transparent sandals
+E 1 18344 1 11 100 0 0 0           *   a white marble shield
+E 1 18343 1 16 100 0 0 0           *   a white marble mace
+M 0 18332 4 18562 100 0 0 0        * the frightened statue
+M 0 18332 4 18563 100 0 0 0        * the frightened statue
+M 0 18331 1 18564 100 0 0 0        * the angel
+M 0 18337 1 18569 100 0 0 0        * the crazy monster
+M 0 18336 1 18572 100 0 0 0        * the weapons master
+M 0 18338 1 18575 100 0 0 0        * the grey old man
+E 1 18351 1 3 100 0 0 0            *   a magical necklace
+M 0 18339 1 18578 100 0 0 0        * the strange hallucination
+G 1 18339 1 0 100 0 0 0            *    a stonecrusher
+M 0 18345 1 18579 100 0 0 0        * the temple high priest
+G 1 18353 1 0 100 0 0 0            *    the holy crest of the Fire Temple
+M 0 18348 5 18590 100 0 0 0        * the lesser demon
+M 0 18348 5 18590 100 0 0 0        * the lesser demon
+M 0 18348 5 18592 100 0 0 0        * the lesser demon
+M 0 18348 5 18592 100 0 0 0        * the lesser demon
+M 0 18348 5 18592 100 0 0 0        * the lesser demon
+M 0 18349 9 18598 100 0 0 0        * the greater demon
+M 0 18349 9 18601 100 0 0 0        * the greater demon
+M 0 18349 9 18603 100 0 0 0        * the greater demon
+M 0 18349 9 18605 100 0 0 0        * the greater demon
+M 0 18349 9 18607 100 0 0 0        * the greater demon
+M 0 18349 9 18608 100 0 0 0        * the greater demon
+M 0 18349 9 18614 100 0 0 0        * the greater demon
+M 0 18349 9 18615 100 0 0 0        * the greater demon
+M 0 18349 9 18616 100 0 0 0        * the greater demon
+M 0 18346 1 18619 100 0 0 0        * the frost demon
+G 1 18352 1 0 100 0 0 0            *    a bracelet of magical steel
+M 0 18347 1 18620 100 0 0 0        * the void demon
+M 0 18320 1 18621 100 0 0 0        * Aku, The High Lord
+G 1 18300 1 0 100 0 0 0            *    The soul of Illyn
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+*
+S

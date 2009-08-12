@@ -1,0 +1,1007 @@
+#78000
+grocer village~
+&+gthe village grocer~
+&+gThe village grocer stands here, watching over the fresh food.
+~
+   The grocer stands here, making sure that the vegetables and fruits don't get
+mixed.  Its a thankless job, but someone's gotta do it.  The grocer looks at
+around with curiosity, looking for new sales opportunities.
+~
+2122 0 0 268435500 12 0 0 0 S
+PH 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78001
+butcher village~
+&+rthe village butcher~
+&+rThe village butcher prepares the meat and fish for sale.
+~
+   The village butcher wears a blood stained apron, and smells of fish.  This
+man takes care of cleaning and preparing all the fresh game and fish that are
+caught by the village hunters and fishers.  The broad shouldered dwarf appears
+to be quite strong, after years of preparing food for the village.
+~
+2122 0 0 268435500 12 0 0 0 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78002
+goltyrn adventurer~
+&+bGoltyrn, the adventurer~
+&+bGoltyrn, &nthe village story-teller stands here.
+~
+   Goltyrn, the local explorer and story-teller extraordinaire, stands in his
+shop watching his assistant admirably.  Goltyrn relishes in telling his tales
+to anyone who will listen.  His eyes often brighten when he sees a young
+village member willing to take on the trials of the world.  Goltyrn is here
+to teach potential adventurers the fine arts of exploration, and the old elf
+lives to pass on his knowledge.
+~
+2122 0 0 268435500 12 0 0 1000 S
+PE 0 2 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78003
+assistant supply~
+Goltyrn's assistant~
+Goltyrn's young assistant tends to the sale of supplies.
+~
+   Goltyrn has taken this young villager under his wing to teach her the ways
+of adventuring.  This young girl tends to the shop while Goltyrn spins his
+tails of high-seas adventure, or dragon slaying.  She smiles contently as
+customers look at the wares that are sold here.
+~
+2122 0 0 268435500 12 0 0 0 S
+PH 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78004
+guard lookout~
+&+ma &+Llookout &+mguard~
+&+mA strong &+Lguard&+m watches the area around the village.
+~
+   The best guards from around the village are often chosen for the very
+important job of standing watch at the guard towers.  The guards are the
+first line of defense for the oasis village.  Twenty four guards in total
+share the duty of watching the four towers.  Two member teams can be found
+watching the tower, sleeping in the bunks below, and spending their free
+time with their families.
+~
+2122 0 0 268435500 12 0 0 0 S
+PM 0 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78005
+guard relaxing~
+&+ma &+Lrelaxing &+mguard~
+&+mA &+Lguard&+m spends his time resting here.
+~
+   The best guards from around the village are often chosen for the very
+important job of standing watch at the guard towers.  The guards are the
+first line of defense for the oasis village.  Twenty four guards in total
+share the duty of watching the four towers.  This guard is currently resting
+before his next duty of watchout.
+~
+2122 0 0 268435500 12 0 0 0 S
+PM 0 1 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 8 1
+#78006
+bargor dwarf mountain smith~
+&+LBargor~
+&+LA stout &+yDwarf &+Lpounds away at a piece of metal.
+~
+   This Mountain Dwarf appears to be incredibly strong.  Decades of pounding
+away with a massive smithy's hammer have increased both his stamina and his
+strength. Care should be taken before trifling with a man of his stature.  His
+dark eyes reflect the sparks which fly off his hammer with every strike upon
+the enormous anvil.  The hammer which he wields with ease in his right hand
+looks heavy enough to be a struggle for even a Barbarian.
+~
+2122 0 0 805306428 2060 0 0 1000 S
+PM 0 8 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78007
+assistant shopkeeper salesman~
+&+LBargor's &nassistant~
+Bargor's salesman offers his wares.
+~
+   This strong Half-elf takes care of the shop for &+LBargor&n while his master
+works on creating more armor in his forge.  This Half-elf looks more than
+capable of handling himself in a fight, if ever the occasion should arise.
+Bargor's assistant is always willing to show off the wares of the famous
+dwarf, and seems to know quite a bit about the selling points of each piece.
+~
+2122 0 0 268435500 12 0 0 0 S
+P2 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78008
+shopkeeper weapons duergar~
+&+rA weapons shopkeeper&N~
+A &+rDuergar &nstands here, ready to sell his wares.
+~
+   A &+rDuergar&n working hand in hand with the surface races is a very
+strange sight to behold.  Duergar's are known to hate the surface races, but
+are also known to be experts in the art of war.  This duergar has been taken
+in by Jallev, and has been given the task of working in his weapon shop.  The
+rest of the villagers have come to trust the duergar like any other member of
+the village.  This town truly is a strange collaboration of races.
+~
+2122 0 0 268435500 12 0 0 -1000 S
+PD 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78009
+jallev arms master~
+&+cJallev, the &+Larms &+cmaster~
+&+cJallev&n, the weapons expert stands here.
+~
+   Jallev has travelled the world many times over in search of the rarest
+artifacts and precious weapons money can buy.  When he isn't searching the
+world for new items to add to his collection, he is often found trying to
+create his own artifact-quality weapons.  Jallev is an accomplished fighter
+and is certainly not a man to be underestimated, for he not only knows weapons;
+he knows how to use them.
+~
+2122 0 0 805306428 2060 0 0 1000 S
+PE 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78010
+mayor~
+&+Bthe village mayor~
+&+BThe village mayor stands here with a concerned look on his face.
+~
+   This wise looking man, stands here entranced in thought.  He has a worried
+look on his face.  Whatever is bothering this man, in what seems to be an
+island utopia, seems to be dominating his thought.  The mayor is often sought
+out whenever a dispute arises between villagers, or when there is a threat of
+drought or a food shortage.  The troubles which seem to be bothering the mayor
+on this day, however, seem to be far more critical.
+~
+2122 0 0 805306428 2060 0 0 1000 S
+PE 0 512 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78011
+captain guard~
+&+Lthe &+Ycaptain&+L of the &+mguards~
+&+LThe &+Ycaptain&+L of the &+mguards&+L paces here.
+~
+   This huge Barbarian has been given the honor of leading the defense of the
+oasis village.  At the moment, he seems to be troubled by something very dire.
+This Barbarian is outfitted in some of the finest platemail ever created.
+The metal of the dark armor gleams with a fantastic shine that could only be
+magical in nature.  The captain props himself up with a massive bastard sword
+with he holds in his right hand.  Many scuff marks in the floor of his house
+suggest that the captain tends to stand that way quite often.
+~
+2122 0 0 805306428 2060 0 0 1000 S
+PB 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78012
+teacher archery elven~
+&+gthe archery teacher~
+&+gAn agile elven archer, stands here teaching his students.
+~
+   This eldery elf teaches the village youth and militia the art of archery.
+Centuries of hunting with the bow and arrow have made this man an incredibly
+gifted archer.  His time spent in the forest attuned to the forces of nature
+have also given the archer the skills of an accomplished ranger.  With bow in
+hand, the elf effortlessly lands bullseye after bullseye against the furthest
+of the targets at the end of the archery field.
+~
+34890 0 0 805306428 2060 0 0 1000 S
+PE 0 2 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78013
+student archery~
+an &+garchery &nstudent~
+A village &+garchery &nstudent practices in the field.
+~
+   This young pupil has come here to practice his skills with the renowned
+archer that lives in the village.  With a concentrated eye, the student aims
+at targets a few hundred feet away.  The pupil has much to learn, but with
+such an impressive teacher, soon this student will be defending his village
+with expert marksmanship.
+~
+1073743946 0 0 805306428 12 0 0 1000 S
+PH 0 2 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78014
+guard patrolling~
+&+La &+mpatrolling &+Lguard~
+&+LA &+mpatrolling &+Lguard walks the perimeter of the village.
+~
+   This guard walks around the village making sure that none of the villagers
+are accosted in any way.  In times of crisis, these guards become the soldiers
+of the village and will give their lives to save the home that they love.  The
+soldiers are strong fighters and are capable of defending themselves well.
+~
+1140852810 0 0 44 12 0 0 0 S
+PM 0 1 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78015
+sergeant guard patrolling~
+&+La &+mpatrolling &+Lsergeant~
+&+LA &+mpatrolling &+Lsergeant looks around carefully.
+~
+   The sergeants of the village have many years of experience, and are more
+adept fighters that the other guards.  The sergeants are easily discernable
+from the other guards with a bright &+Yyellow stripe&n which is worn on their
+right shoulder.  Sergeants can offen be heard barking commands at the guards
+which they lead.
+~
+1140852808 0 0 44 2060 0 0 0 S
+PM 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78016
+commoner~
+An oasis village commoner~
+A village commoner goes about his daily business.
+~
+   The oasis village is an diverse collection of races, that it is sometimes
+hard to distinguish the lineage of its inhabitants.  This villager goes about
+his normal daily activities, and occasionally hums to himself a song that only
+he can hear.
+~
+1140852808 0 0 36 12 0 0 0 S
+PM 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78017
+commoner female~
+A female village commoner~
+A female commoner goes about her daily business.
+~
+   The oasis village is an diverse collection of races, that it is sometimes
+hard to distinguish the lineage of its inhabitants.  This villager goes about
+her normal daily activities, and occasionally hums to herself a song that only
+she can hear.
+~
+1140852808 0 0 36 12 0 0 0 S
+PM 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78018
+teenager young~
+a young teenager~
+A young village teenager plays here.
+~
+   This small child runs about the village without a care in the world.  This
+child runs about the village yelling and shouting and paying no heed to the
+dangers outside the village walls.
+~
+1140852808 0 0 36 12 0 0 0 S
+PH 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78019
+inhabitant village~
+&+cA village inhabitant~
+&+cA village inhabitant rests in his home.
+~
+   This man is relaxing in his home, after a tiring day working in the market,
+or perhaps in the diamond mines of the town.  He looks forward to having a good
+meal and having a good nights rest.
+~
+67110986 0 0 44 12 0 0 0 S
+PE 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78020
+villager female~
+&+mA female villager~
+&+mA female villager relaxes in her home.
+~
+   This woman looks quite content here in the oasis village.  She is currently
+resting in her house after whatever her day offered.  She seems to be always
+straightening the pillows of the sofa's and checking the curtains.
+~
+67110986 0 0 44 12 0 0 0 S
+PE 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78021
+child young villager~
+&+ga young child~
+&+gA young villager plays in the park.
+~
+   This young child runs about the trees and gardens of the village park with
+careless abandon.  This child appears to be playing a game of hide and seek
+with his peers.  With the many bushes and flower beds in the park, this area
+is a perfect place for the childish game.
+~
+67110984 0 0 44 12 0 0 0 S
+P2 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78022
+halfling villager~
+&+ya halfling villager~
+&+yA halfling villager sits comfortably in his house.
+~
+   This man of halfling descent looks quite comfortable in his favorite chair.
+The halfling sits peacefully reading a novel, oblivious to his surroundings.
+The halfling, although small in size, appears to be quite intelligent.
+~
+67110986 0 0 44 12 0 0 0 S
+PF 0 10 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78023
+centaur villager~
+&+cA &+gCen&+Ltaur &+cvillager~
+&+cA &+gCen&+Ltaur &+cvillager relaxes here.
+~
+   This centaur appears to be enjoying a relaxing day in his home.  Centaurs
+are a strange creature, with the torso of a man and the lower body of a horse.
+Centaurs are known to be incredibily strong, even able to wield two-handed
+weapons in only one hand.  Any beast with strength enough to pull off such a
+feat should be feared and admired.
+~
+67110986 0 0 60 12 0 0 0 S
+CT 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78024
+overseer tower~
+&+rthe &+Ltower&+r overseer~
+&+rThe &+Ltower &+roverseer&n stands here sizing the party up.
+~
+   This man is decorated in some of the finest armor anyone hav ever laid eyes
+on.  This heavily muscled barbarian stands well over six and a half feet tall,
+with piercing blue eyes that stear out from behind a full helmet visor.  As
+his glance is met, he raises his head and speaks: "have you come to challenge
+the gladiators of the tower?"
+~
+67110986 0 0 60 13 0 0 0 S
+PB 0 1 -1
+58 0 0 30000d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78025
+knight warrior green~
+&+Lthe &+ggreen &+Lknight~
+&+LThe &+ggreen &+Lknight waits patiently for his next opponent.
+~
+   This massive knight is covered entirely by a strong plate of green armor.
+In his hands, he wields an incredibly sharp blade - sharp enough to cut through
+metal.  This knight will be a challenge to defeat.
+~
+67110986 1 0 301989948 2061 0 0 0 S
+PO 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78026
+knight warrior blue~
+&+Lthe &+bblue &+Lknight~
+&+LThe &+bblue&+L knight waits patiently for his next opponent.
+~
+   This massive knight is covered entirely by a strong plate of blue armor.
+In his hands, he wields an incredibly sharp blade - sharp enough to cut through
+metal.  This knight will be a challenge to defeat.
+~
+67110986 1 0 301989948 2061 0 0 0 S
+PO 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78027
+knight warrior gold~
+&+Lthe &+Ygold &+Lknight~
+&+LThe &+Ygold&+L knight waits patiently for his next opponent.
+~
+   This massive knight is covered entirely by a strong plate of gold armor.
+In his hands, he wields an incredibly sharp blade - sharp enough to cut throug
+metal.  This knight will be a challenge to defeat.
+~
+67110986 1 0 301989948 2061 0 0 0 S
+PO 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78028
+knight warrior red~
+&+Lthe &+rred &+Lknight~
+&+LThe &+rred&+L knight waits patiently for his next opponent.
+~
+   This massive knight is covered entirely by a strong plate of red armor.
+In his hands, he wields an incredibly sharp blade - sharp enough to cut throug
+metal.  This knight will be a challenge to defeat.
+~
+67110986 1 0 301989948 2061 0 0 0 S
+PO 0 1 -1
+57 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78029
+knight warrior obsidian~
+&+Lthe obsidian knight~
+&+LThe obsidian knight stands here, eyes glowing &+rred&+L.
+~
+   It is rumored that this final knight of the warriors tower is not even of
+this world.  It has also been said that the obsidian knight has never been
+defeated in combat.  Peering into the slits of his visor, glowing red eyes
+watch every move.  This knight will undoubtedly return to in the nightmares
+of his opponents, if they ever sleep again.
+~
+100665418 1 0 302055486 2061 0 0 -1000 S
+X 0 48 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78030
+gnome elderly~
+&+gan elderly &+rgnome~
+A &+rgnome &nputters about in his shop.
+~
+   This elderly gnome seems a little senile in his old age, but has thwarted
+all attempts of the village to persuade him to retire.  The gnome can often
+be found in his shop concocting strange brews, many of which are completely
+worthless.  He is always on the lookout for strange new ingredients to add
+to his potion making endeavors.  Although his age has made this gnomes bones
+weak, and forgetfulness has set in, his mind can become very sharp if provoked.
+~
+1140852810 0 0 44 2060 0 0 0 S
+PG 0 256 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78031
+mantis insect large~
+&+ga &+ylarge &+gbi-pedal &+Ginsect~
+&+GA &+ylarge &+Ginsect &nhisses menacingly in your direction.
+~
+   This creature is hideous.  It can be described as a man-sized grasshopper
+which stands on two legs.  The beast which stands at approximately six feet,
+has four sinewy arms which are far stronger than their slender appearance
+suggests.  Pincers can be found atop the lower limbs of the insect, and claws
+finish the upper limbs in frightening fashion.  As the creature sizes prepares
+its upper torso shifts back and forth and its claws clench and release at the
+air.
+~
+1073743944 1 0 268959800 14 0 0 -1000 S
+TK 0 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78032
+mantis enormous female~
+&+gan &+Lenormous &+gfemale &+Gmantis~
+&+gAn &+Lenormous &+ginsect guards the hatchlings.
+~
+   This is one of the few female egg-laying mantis' of the hive.  This beast is
+capable of laying thousands of eggs a year.  It is much large than many of the
+other drone insects, and quite capable of defending itself and its eggs against
+any intruders who would dare to tresspass here.  Like the other insects of the
+lair, it has two sets of limbs which allow it to strike out with ferocity.
+~
+67112010 1 0 268959928 2062 0 0 -1000 S
+D 0 2 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78033
+mantis insect young~
+&+ga young mantis~
+&+gA &+yyoung &+gmantis &nhisses menacingly in your direction.
+~
+   This young mantis, although young, is still able to fight like its older
+brethren.  When angered, the mantis makes a frightening opponent.  Its green
+exoskeleton seems thin, but it is incredibly durable.  Its four limbs are
+also incredibly strong, despite their lithe appearance.
+~
+1073743944 1 0 268959800 14 0 0 -1000 S
+TK 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78034
+hatching mantis~
+&+ga h&+Gat&+gch&+Gli&+gng mantis~
+&+gA recently hatched mantis scutters about here.
+~
+   This recently hatched insectoid isn't nearly as strong as its older insect
+brothers, but it is a fearsome opponent as well.  Its skin tone and thin
+strong limbs allow it to sneak easily through the lair of the mantis.  In
+groups, these small insects become a frightening foe.
+~
+1073743944 1 0 268959784 14 0 0 -1000 S
+TK 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78035
+mantis patrolling~
+&+Ga &+Lpatrolling &+Gmantis~
+&+GA &+Lpatrolling &+Gmantis &nsearches for intruders.
+~
+   This mantis wanders the hive searching for any intruders foolish enough
+to venture into the depths of these tunnels.  The mantis' strong carapace
+makes their natural armor incredibly high.  These mantis, even when not using
+a weapon hit incredibly hard, and with a blinding speed!
+~
+1073743944 1 0 268959800 14 0 0 -1000 S
+TK 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78036
+mantis mature~
+&+Ga &+Lmature &+Gmantis~
+&+GA &+Lmature &+Gmantis &nprowls the lair.
+~
+   The mature mantis' of the hive have the ability to spit acid at their
+opponents.  The acid not only burns but it tenderizes the skin of the mantis'
+victims in preparation for their feasting.  This mantis is slightly larger
+than many of the full sized mantis of the caverns, and slightly more dangerous.
+~
+1073744968 1 0 268959800 14 0 0 -1000 S
+TK 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78037
+locust buzzing~
+&+ya buzzing locust~
+&+yA locust flies about here.
+~
+   These flying insects are much larger than their surface equivalent.  Perhaps
+its the acidic substance on the walls that cause them to grow to abnormal
+sizes.  Perhaps the goo is also the cause of their hightened aggresiveness.
+~
+1140861002 1 0 268435512 14 0 0 -500 S
+I 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78038
+locust buzzing~
+&+ya buzzing locust~
+&+yA locust flies about here.
+~
+   These flying insects are much larger than their surface equivalent.  Perhaps
+its the acidic substance on the walls that cause them to grow to abnormal
+sizes.  Perhaps the goo is also the cause of their hightened aggresiveness.
+~
+1140861002 1 0 268435496 14 0 0 -500 S
+I 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78039
+locust buzzing~
+&+ya buzzing locust~
+&+yA locust flies about here.
+~
+   These flying insects are much larger than their surface equivalent.  Perhaps
+its the acidic substance on the walls that cause them to grow to abnormal
+sizes.  Perhaps the goo is also the cause of their hightened aggresiveness.
+~
+1140861002 1 0 268435496 14 0 0 -500 S
+I 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78040
+locust buzzing~
+&+ya buzzing locust~
+&+yA locust flies about here.
+~
+   These flying insects are much larger than their surface equivalent.  Perhaps
+its the acidic substance on the walls that cause them to grow to abnormal
+sizes.  Perhaps the goo is also the cause of their hightened aggresiveness.
+~
+1140861002 1 0 268435496 14 0 0 -500 S
+I 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78041
+mantis general~
+&+Ga mantis &+Lgeneral~
+&+LA vicious looking &+Gmantis &+rgeneral &+Lglares about.
+~
+   This mantis seems to be a leader of sorts.  He commands respect from the
+other mantis in the area.  He carefully scans the room, making sure his
+soldiers are training hard.  This mantis, although not much larger than the
+others, seems to control his movements with grace and agility.  He has
+undoubtedly trained hard and proven himself a valuable asset to the mantis
+hive.
+~
+1140866122 1 0 268959804 2062 67108864 0 -1000 S
+TK 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78042
+mantis elite guard~
+&+Gan &+Lelite &+Gmantis &+Lguard~
+&+GA &+Lelite &+Gmantis &nguards the tunnel.
+~
+   The elite mantis of the lair have been given the important task of guarding
+the main artery of the area.  These mantis are far stronger and deadlier than
+the others.  They also have the ability to spit acid at their opponents, adding
+even more firepower to their arsenal.
+~
+1073753160 1 0 268959788 2062 67108864 0 -1000 S
+TK 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78043
+mantis soldier~
+&+Ga mantis &+Lsoldier~
+&+GA mantis &+Lsoldier &ntrains in the hall.
+~
+   These mantis are the soldiers of the race.  They are training here for some
+purpose which is, as of yet, unknown.  They follow the commands of their
+general who, in turn, receives his orders from an even higher source.  These
+rather ordinary soldiers are the infantry of the mantis army.
+~
+1073743944 1 0 268959788 2062 0 0 -1000 S
+TK 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78044
+shaman mantis~
+&+Ga &+Lwise &+Gmantis &+Lshaman~
+&+GA &+Lwise &+Gmantis &+Lshaman wanders here.
+~
+   Few mantis have the intellectual capacity for spellcasting.  This mantis
+is one of the very few who can control the elements of spirit, the elements,
+and nature.  The shaman mantis are revered by their brethren as being the
+most intelligent and most deserving of respect.  This mantis, uses his wits
+rather than sheer brawn to inflict pain upon its adversaries.
+~
+1073743944 1 0 268959788 2062 0 0 -1000 S
+TK 0 256 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78045
+mantis feeding~
+&+Ga &+yfeeding &+Gmantis~
+&+GA &+yfeeding &+Gmantis &ntears into the flesh of an unknown beast.
+~
+   This mantis has been interrupted during feeding, and it doesn't appear to be
+thrilled about it.  The mantis leaps to the foray, in the attempts of making
+adventurers its next meal.
+~
+1140852808 1 0 268959800 2062 0 0 -1000 S
+TK 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78046
+mantis ravenous~
+&+Ga &+yravenous &+Gmantis~
+&+GA &+yfeeding &+Gmantis &ntears into the flesh of an unknown beast.
+~
+   This mantis has been interrupted during feeding, and it doesn't appear to be
+thrilled about it.  The mantis leaps to the foray, in the attempts of making
+adventurers its next meal.  This large mantis looks to be a ferocious opponent.
+~
+1140852808 1 0 268959800 2062 67108864 0 -1000 S
+TK 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78047
+guard mantis royal advisor~
+&+Ga &+Yroyal &+Gmantis &+Ladvisor~
+&+GA &+Yroyal &+Gmantis &+Ladvisor waits for an audience with the &+Yqueen&+L.
+~
+   These mantis are the last line of defense for the queen of the mantis.  The
+guards have been hand picked by the queen, herself.  These guards exhibit the
+most powerful attributes that the insect beasts can hope to obtain: strength,
+wisdom, and intelligence.
+~
+1140853834 1 0 268959800 2063 67108864 0 -1000 S
+TK 0 10 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78048
+guard mantis royal~
+&+Ga mantis &+Yroyal &+Lguard~
+&+GA &+Yroyal &+Gmantis &+Lguards the &+Yqueen&+L.
+~
+   These mantis are the last line of defense for the queen of the hive.  These
+mantis possess the most sought after qualities that a mantis can aspire to.
+These hand picked guards are the epitome of strength, wisdom and intelligence.
+~
+1140853834 1 0 268959800 2062 67108864 0 -1000 S
+TK 0 32 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78049
+guard mantis royal~
+&+Ga mantis &+Yroyal &+Lguard~
+&+GA &+Yroyal &+Gmantis &+Lguards the &+Yqueen&+L.
+~
+   These mantis are the last line of defense for the queen of the hive.  These
+mantis possess the most sought after qualities that a mantis can aspire to.
+These hand picked guards are the epitome of strength, wisdom and intelligence.
+~
+1140853834 1 0 268959800 2062 67108864 0 -1000 S
+TK 0 16 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78050
+guard mantis royal~
+&+Ga mantis &+Yroyal &+Lguard~
+&+GA &+Yroyal &+Gmantis &+Lguards the &+Yqueen&+L.
+~
+   These mantis are the last line of defense for the queen of the hive.  These
+mantis possess the most sought after qualities that a mantis can aspire to.
+These hand picked guards are the epitome of strength, wisdom and intelligence.
+~
+1140853834 1 0 268959800 2062 67108864 0 -1000 S
+TK 0 512 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78051
+queen mantis~
+&+gthe &+Yqueen &+gof the m&+Ga&+gn&+Gt&+gi&+Gs~
+&+gThe &+Yqueen &+gof the m&+Ga&+gn&+Gt&+gi&+Gs &+grests her enormous body here.
+~
+   The females of the mantis species are far more rare, and grow to about ten
+times the size of the average male mantis.  It is unknown what classifies the
+queen of the hive, but perhaps size is a factor.  This beast is dragon sized,
+and inspires the same amount of awe.  The queen of the hive has a deep green
+tint to her skin.  She lets out a spine-tingling shreak upon approach.  It's
+hard to discern if she is screaming in anger or delight at the sight of food.
+The enormous beast lunges forward to attack, with all four limbs poised to
+rend flesh from their limbs.
+~
+67140682 1 0 268959928 2062 0 0 -1000 S
+D 0 256 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78052
+illithid emissary~
+&+man illithid emissary~
+&+mAn illithid emissary stands here, with malicious intent.
+~
+   Illithids are a vicious race of alien beings intent on destruction, and
+enslaving all other races by any means neccesary.  Their vile feature make
+them look like a humanoid squid, with purplish flesh and tentacles which
+flail about its head.  This emisarry is one of the world-travellers, who
+visit fledgling worlds in search of future fodder and slaves.  The illithids
+have the power to control minds, and inflict pain without touching or chanting
+any magical incantations.
+~
+10312 1 0 268959928 2062 0 0 -1000 S
+MF 0 4 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#78053
+illithid bodyguard~
+&+man illithid bodyguard~
+&+mAn illithid bodyguard protects the emissary.
+~
+   Illithids are a vicious race of alien beings intent on destruction, and
+enslaving all other races by any means neccesary.  Their vile feature make
+them look like a humanoid squid, with purplish flesh and tentacles which
+flail about its head.  This bodyguards travel with the illithid emissary
+to protect it, as if the emisarry had any reason to fear for its safety.
+~
+67119178 1 0 268959800 2062 0 0 -1000 S
+MF 0 4 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#78054
+warrior practicing~
+a &+ypracticing &nwarrior~
+A &+rwarrior &npractices his skills in the hall.
+~
+   This warrior trains in the hall, honing his skills.  Many people come from
+around the land to train here, with some of the finest teachers available.
+Although, not very strong, this warrior is extremely agile and skilled with
+a sword.
+~
+2122 0 0 536870956 12 0 0 500 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78055
+foreman mine~
+&+Lthe &nmine &+Lforeman~
+The &+Lforeman &nof the mines stands here in, deep in thought.
+~
+   The mine foreman is a strong looking dwarf.  His tassled dirty hair hangs
+over his face, and he doesn't seem to mind.  There is not one clean inch of
+skin on his body.  The foreman seems quite troubled, and he almost doesn't
+notice another presence.  The recent troubles in the mines obviously have him
+quite concerned.
+~
+2122 0 0 268435500 12 0 0 1000 S
+PM 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78056
+miner diamond~
+&+La &+Wdiamond &+Lminer~
+&+LA &+Wdiamond &+Lminer works arduously here.
+~
+   This miner is covered in dirt from head to toe.  He occasionally takes a
+breather from hacking into the rock walls with his pickaxe in search of the
+elusive diamonds.  His face shows concern about the recent disappearance of
+his fellow miners, and he undoubtedly fears his own fate staying here in the
+mines.
+~
+2122 0 0 268435500 12 0 0 1000 S
+PM 0 1 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78057
+miner diamond~
+&+La concerned &+Wdiamond &+Lminer~
+&+LA concerned &+Wdiamond &+Lminer seems to be listening for something.
+~
+   This miner is covered in dirt from head to toe.  He occasionally takes a
+breather from hacking into the rock walls with his pickaxe in search of the
+elusive diamonds.  His face shows concern about the recent disappearance of
+his fellow miners, and he undoubtedly fears his own fate staying here in the
+mines.
+~
+2122 0 0 268435500 12 0 0 1000 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78058
+villager female weeping~
+&+ma &+Cweeping &+mvillager stands here.~
+&+mA &+Cweeping &+mvillager stands here with a heavy heart.
+~
+   This female village is crying uncontrollably.  Her face is bright red and
+puffy and tears are streaming down her cheeks.  Something quite terrible must
+have happened to cause such pain and suffering.  Every once in a while she
+mentions the word 'Kara'.
+~
+67110986 0 0 44 12 0 0 0 S
+PE 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#78059
+zombie miner~
+&+Lthe &+yzombie &nof a &+Lminer~
+&+LThe &+yreanimated corpse&+L of a miner stumbles about here.
+~
+   Powerful magic has brought the remains of an oasis miner back to life, to
+wander the caverns he used to toil in.  Zombies are often under the influence
+of a far more powerful master, and they tend to have their strength augmented
+in death.  They often make fearsome opponents.
+~
+1073748040 1 0 268435516 14 0 0 -500 S
+U 0 1 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78060
+spectre fearsome~
+&+La fe&nar&+Lso&nme &+Lspe&nct&+Lre~
+&+LA fe&nar&+Lso&nme &+Lspe&nct&+Lre &nhaunts the mines.
+~
+   This vicious ghost employs the skills of a cunning assassin.  The creature,
+although corporeal, is able to use daggers that inflict very tangible damage.
+Spectres can be deadly if they are able to sneak up on their opponents much
+like a stealthy thief.
+~
+1073764424 1 0 268435516 14 0 0 -500 S
+UG 0 8192 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78061
+vampire vicious~
+&+La &+rvicious &+Lvampire~
+&+LA &+rvicious &+Lvampire stalks the caverns.
+~
+   Vampires are frightening beasts.  They are one of the stronger undead
+species and posess the ability to charm humanoids and turn them against their
+own allies.  Vampires are often incredibly strong and deadly in combat.  This
+lich appears to be muttering the word "&+rZoth&n".
+~
+1073748040 1 0 268959804 2062 67108864 0 -1000 S
+UV 0 1 3
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78062
+ambassador hell mortazoth demon~
+&+Lthe ambassador of &+rHell~
+&+LThe ambassador of &+rHell&+L stands here commanding his army of undead.
+~
+&+L   This dispicable beast was too evil even for the god of the underworld.  This
+&+Lambassador was banished to his earthen tomb centuries ago by his master for
+&+Ldeeds that were vile even for the god of &+rDeath&+L.  Now released from his
+&+Lforced imprisonment, the ambassador of Hades seeks to make up for lost time
+&+Land continue his quest for worldwide domination.  The demon stands at least
+&+Ltwenty-five feet tall, and his dark black and red skin pulsates with evil
+&+Lenergy, giving off a strange dark glow which seems to suck the magical
+&+Llight from the equipment of the party.
+~
+33585258 1 0 268435516 2063 0 0 -1000 S
+X 0 512 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78063
+lich charmed~
+&+La &+ccharmed &+Ll&+ric&+Lh~
+&+LA &+ccharmed &+Ll&+ric&+Lh wields powerful magic for his master.
+~
+   Liches are the equivalent of undead sorcerors.  Their power is immense and
+their hunger for death is unmatched.  Liches are powerful spellcasters and are
+often capable of casting the most devastating spells.  Liches make incredible
+undead leaders and are often seen directing lesser undead to engage enemies
+while the intelligent lich blasts his foes with powerful spells.  This lich
+seems to be muttering the word "&+rMorta&n" over and over.
+~
+1073748040 1 0 268959804 2062 0 0 -1000 S
+U 0 512 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#78064
+demon massive~
+&+ra massive demon~
+&+rA &+Lmassive &+rdemon &+Lstands here imposingly.
+~
+&+r   This enormous demon stands at about fifteen feet tall.  He has small red
+&+rwings which sprout out from a muscular back.  The demon seems to be guarding
+&+rsomething or someone.  His evil glare sends shivers down the spine.  This
+&+rdemon will make for an incredible opponent.
+~
+33585258 1 0 268435516 2062 0 0 -1000 S
+X 0 16 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

@@ -1,0 +1,649 @@
+#91000
+M
+qc_action 50~
+With the dying of daylight, a fog creeps across the land,
+clutching everything in its clammy grasp.  Inside the
+Weary Horse Inn, though, the fire is warm enough.
+~
+M
+qc_action 50~
+&+LThe &+cVistani &+Lmessanger scans the people at the Inn then pulls
+&+Lback his cowl to shout, '&+cThe Village of Barovia is in need of Heroes.&+L'
+&+LHe says in a thick accent, '&+cYou'll do as well as any.&+L'  Without another
+&+Lword he fixes his cowl and sits back down, eyeing the faces of the inn.
+~
+M
+qc_action 50~
+&+LThe voices of the inn's customers are low; the mood of the
+&+Linn subdued by the heavy fog.
+~
+M
+hi hello~
+   &+LThe &+cVistani &+Lmessanger nods and says '&+cYou could do well for
+&+cyourself to help the Village of Barovia.&+L'
+~
+M
+barovia~
+   &+LThe &+cVistani &+Lmessanger says '&+cBarovia lies to the northwest,
+&+cfollow the road through the woods and you will find your way.  They
+&+care in need of a hero like yourself&+L.'
+   &+L'The &+cVistani &+Lmessanger sighs and continues '&+cMy journeys
+&+ctake me through Barovia, but I do not live there.  The villagers'
+&+ctroubles are not my troubles.  They pay me to find them heroes,
+&+cand that is what I have done.  Go now.&+L'
+~
+M
+strahd vistani ravenloft burgomaster heroes help why~
+   &+LThe &+cVistani &+Lmessanger says '&+cI received a letter from the
+&+cburgomaster of Barovia saying they need a hero.  That is all I know.&+L'
+~
+S
+#91001
+M
+hi hello~
+   &+LThe patron shakes his head and turns from you.
+~
+M
+vistani~
+   &+LThe patron looks up at you and pulls you over.
+   &+LHe whispers in your ear '&NI don't trust them!&+L'  With a quick
+   &+Lshove he has already repositioned himself as if you aren't there.
+~
+S
+#91002
+M
+qc_action 50~
+&+WThe bartender lets out a big sigh as he peers into the forest.
+~
+M
+hi hello~
+   &+WThe bartender waves you off and mutters something.
+~
+S
+#91006
+M
+qc_action 50~
+&+WAshlyn grasps her blade tightly, scanning the village streets.
+~
+M
+qc_action 50~
+&+LThe groans of the undead can be heard coming from a nearby street.
+~
+M
+hi hello~
+&+WAshlyn says 'Hello I am Ashlyn.  I and my companions are called
+&+WLightbringers.  We slay undead wherever we find them.  We'd
+&+Wheard Barovia was thick with the horrors.'
+~
+M
+companions~
+&+W'My companions include Thendrick, faithful servant of Pelor, and
+&+Wmathilda, a fighter of great renown.  Thendrick and Mathilda wanted
+&+Wto check out the church on the southwestern corner of the town.
+&+WThe townsfolk believe that's where the zombies arise.  Everyone told
+&+Wthem to talk to Madam Eva first, she's some sort of wise woman who lives
+&+Wwest of town, the same one who apparently knows about the &+YSunsword&+W.
+&+WBut they wouldn't listen, the arrogant clods.  They went to the church
+&+Wconfident they could handle whatever they found without needing advice.
+&+WThat was three days ago.  I haven't heard from them since, and haven't
+&+Wbeen able to venture beyond this square.'
+&+WAshlyn sighs and collects herself for a moment before she continues
+&+W'Had you not arrived when you did, I doubt I could have held this last
+&+Wwave back.  The zombies never breached the barricades before.'
+~
+M
+zombies undead zombie~
+&+W'If you're here to destroy zombies, our aims likely coincide.
+&+WPlease help me find my companions, and escape town, and find
+&+WMadam Eva so I may retrieve the Sunsword.'
+~
+M
+strahd~
+&+WAshlyn replies 'I've heard the townspeople curse with that name.
+&+WI thought it merely a local equivilant to the evil eye.'
+~
+M
+sunsword treasure madam eva~
+&+WAshlyn smiles and replies 'It is also my quest to find the legendary
+&+YSunsword&+W.  A mighty weapon against evil, especially undead.  It is
+&+Wmost potent against vampires.  It fell out of histories long ago,
+&+Wbut I've determined that it was last seen and used in these lands.
+&+WThe townspoeple say someone named Madam Eva would know the sword's
+&+Wwhereabouts if anybody does.'
+~
+QA
+&+WAshlyn takes the brooch and holds it against her heart.
+&+WWith a deep sigh, she says 'Noble Thendrick, your loss will have ultimately
+&+Wbeen our gain, dear brother.  May you walk with Pelor.'
+
+&+WAshlyn looks back at you and says 'Thendrick will not have died in vane.
+&+WYou have done well to purge the world of the beast that consumed the
+&+Wbody and mine of Thendrick.  Please accept this as token of my honor
+&+Wand thanks to you.  May Pelor bless you.  Still the quest for the Sunsword
+&+Wcontinues, however.  I do not sense that it is in the village of Barovia.
+&+WWe must ask Madam Eva to help us locate it.'
+~
+R I 91020
+G I 91021
+S
+#91007
+M
+qc_action 60~
+&+LA low moan and a loud crash are followed by the paniced screams of a woman.
+~
+M
+qc_action 50~
+&+MBildrath nervously paces back and forth, startled by the incursion.
+~
+M
+vistani~
+&+MBildrath nervously looks up and says 'The Vistani help me pay the bills
+&+Mand I am not seeing any money from them when the town is full of zombies!
+&+MMy nephew Parriwimple and I are barricaded in here for protection from
+&+Mthose mindless creatures.  Anyway, the Vistani come here sometimes,
+&+Malways with rare and exotic items to sell to me!  I am not sure who
+&+Mthey get them from, or how they get them, but whenever newcomers like
+&+Myourselves show up to Barovia, they aren't seen again too much later
+&+Mand suddenly the Vistani have more items for me to buy.'
+~
+M
+hi hello~
+&+MBildrath says 'Yes yes hello, I do not know how you came in but my
+&+Mnephew tells me that you are a slayer of the zombies and evil that
+&+Mcorrupts our town, so I solute you!  Now if only I could be sure to
+&+Msee the Vistani return after this incursion!'
+~
+MA
+items buy sell store open close~
+&+M'I am not going to open my store up until I know these zombies are
+&+Mout of here!  I have a lot of work to get done, there are several
+&+Mcrucial items out there that I must get my hands on.  You see, I am
+&+Ma collector, and I collect rare and valuable items, some of which
+&+Mare much more valuable in a set.  Parriwimple knows about my
+&+Mcollection almost better than I do.  Ask him about my collection.'
+
+&+MBildrath finishes 'After he tells you what items to get, bring
+&+Mthem all back to me and my collection will be complete!  I have
+&+Msomething I think you will like when you finish this task.'
+~
+Q
+&+M'YES!!!!!!!!!!!!' Bildrath exclaims with total bliss.
+&+M'Thank you my good friend!  You have saved me much troubles and
+&+Mnow I shall reward you with one of my most prized posessions.
+&+MI traded for this mask from a strange man, a long time ago.
+~
+R I 91047
+G I 91015
+G I 91018
+G I 91026
+G I 91042
+G I 91043
+G I 91044
+G I 91045
+G I 91046
+G I 91027
+S
+#91010
+M
+hi hello~
+   &+GArik the barkeep says 'Hello and welcome to the Blood of the Vine
+&+GTavern.  If you are looking for a drink you've come to the right place.
+&+GIf you are looking for refuge from the zombie incursion, well you have
+&+Galso found the right place.'
+~
+M
+drink~
+   &+GArik the barkeep&N pours a &+ydark beer&N into a larger mug of &+Ldarker
+&+Lbeer&N before lighting it on &+RFIRE!
+~
+M
+vistani~
+   &+GArik the barkeep shrugs helplessly.
+   &+GArik the barkeep leans closer to you and whispers 'I never question
+   &+Gmy customers.  Although the Vistani keep to themself and rarely spend
+   &+Gmore time in here then it takes to pound a couple drinks, their platinum
+   &+Gis as good as yours or mine!'
+      &+G...the smile that was forming on Arik's face slowly turns to a frown,
+      &+Gas he realizes what he just said.
+   &+GArik the barkeep says 'Between you and me, I would not trust them.  They
+   &+Gwork for Strahd Von Zarovich and I would certainly never trust him!'
+~
+M
+strahd~
+   &+GArik the barkeep gets a look of &+Lfear&+G on his face.
+   &+GArik the barkeep says to you 'I don't know anything about Strahd Von
+   &+GZarovich other than he is a powerful man in a glorious castle.  You
+   &+GCan see it on an eastern mountain ridge right through the window
+   &+Gof the &+RBlood of the Vine &+GTavern.  Now please, leave me alone...'
+~
+M
+ismark~
+   &+GArik the barkeep nods and says 'By all means, talk to Ismark!  He is
+&+Gthe son of the burgomaster!'
+~
+M
+qc_action 63~
+&+LMomentarily, a loud &+rmoaning&+L just outside escalates to a vicious &+Wsnarl&+L!
+~
+M
+qc_action 51~
+&+GArik the barkeep dunks several large mugs into a wash basin, rinsing them thoroughly.
+~
+S
+#91011
+M
+hi hello~
+   &+mIsmark quietly tips his hat towards you.
+   &+m'I am Ismark the Lesser.  My father is ---was- Kolyan Indirovich,
+&+m, the burgomaster of Barovia.  But the burgomaster is &+rdead!&+m'
+
+   &+mIsmark sighs for a moment.  'His body lies there ten days and more
+&+min the mansion.  My &+Msister&+m remains with hi, barricaded there
+&+magainst the zombies.'
+~
+M
+vistani strahd~
+   &+mThe vistani work for Strahd.  He is their leader and sees to it that
+&+mthey are well paid with devious and wicked schemes.  I'm sure these
+&+msinister folk take a certain pleasure in the deeds they commit as well.'
+
+   &+mIsmark the Lesser sighs and continues, 'A few months ago, he who rules
+&+mthe castle, that devil Strahd, tried to pay us a visit.  I don't know why,
+&+mhowever, my father bravely stood up to him, using the &+gholy symbol of
+&+gravenkind&+m.  Then the attacks began.'
+~
+M
+zombies zombie incursion~
+   &+m'The plague began in the church.  Danovich the priest used to
+&+mward the church and the village, but his vigil lapsed when his
+&+mson Doru was slain by brigands in the Svalich Woods.  No one
+&+mknows what became of Danovich, but soon afterward, the zombies
+&+mbegan to walk.  If they aren't stopped, we'll all be dead in days.'
+
+   &+mIsmark the Lesser sighs for a moment before leaning closer towards
+&+myou.   He continues, 'Two lightbringers, hunters of the undeath, went
+&+mto investigate the church a few days ago.  We haven't heard from them
+&+msince.  I told them to talk to Madam Eva first --that woman is wiser
+&+mthan any of us.'  'Anyway,' Ismark continues, 'The zombies didn't get
+&+mmy father; the infection began after Kolyan was already dead!  No, it
+&+mwas the master of the castle, Strahd, or his Vistani who killed my
+&+mfather, Kolyan Indirovich!'
+~
+M
+madam eva~
+   &+m'Some call Madam Eva a gypsy, but others call her a visionary.  She lives
+&+mjust west of the village in an encampment.'
+~
+M
+symbol ravenkind~
+   &+m'The &+gHoly Symbol of Ravenkind&+m is a powerful amulet that hurt
+&+mStrahd.  But one morning we woke to find our father dead from poison.
+&+mAfter that, the power of the amulet wouldn't work for me or my sister,
+&+mIreena.'
+~
+M
+sister ireena~
+   &+mIreena, my sister, is sitting vigil by our father's body to make
+&+mcertain he doesn't become a zombie.  They are in my father's mansion
+&+mon the eastern end of town, barricaded within.  Go speak with my
+&+msister, perhaps she will give you the amulet, but I doubt it will do
+&+myou any good.  Later in your journies if you make your way north of
+&+mthe village into the outback, you might also want to talk to Madam Eva.'
+
+   &+mIsmark the Lesser sighs momentarily.
+   &+mIsmark the Lesser picks up his goblet of wine and continues, 'Me? I'm
+&+mgoing to sit here and drink.'
+~
+M
+qc_action 46~
+&+mIsmark the Lesser &Nlifts his &+Ygoblet&N to his nose, taking in the aroma of his wine.
+~
+M
+qc_action 45~
+&+mIsmark the Lesser &Nsips down a mouthful of &+rwine&N and lets out a slow exhale.
+~
+M
+qc_action 59~
+&+YCRRRAAAACCCKKKK!!  &+LThe booming sound of &+Bthunder&+L is heard outside.
+~
+M
+qc_action 52~
+&+LA scream is heard nearby, trailed immediately by many fast footsteps.
+~
+QA
+&+mIsmark takes the &+Wnote&+m and reads over it.
+&+mMoments later, Ismark tosses the &+Wnote&+m back towards you in an
+&+munimpressed manner.
+&+m'That is not my father's handwriting.  You say you got this in
+&+mhis robe?  It must have been plantered there by Strahd's men.  I
+&+mam not going to risk my life or my sister's life by bringing her
+&+minto the woods within our village, zombies or not!  She is a skilled
+&+mwarrior and can protect herself within my father's mansion.  Bringing
+&+mher to this place the note speaks of us a trick!'
+
+&+mIsmark pauses for a moment and continues 'Thank you for helping me, but
+&+mI have a task for you, if you should feel brave enough to do it.  Go to
+&+mthis place that the letter speaks, north of my father's mansion.
+&+mInvestigate it.  I want you to spring the trap for me and come back
+&+mwith information as to what they are trying to plan for my sister.  Go now!'
+~
+R C 200000
+G I 91022
+QA
+&+mIsmark carefully reads the &+Wnote&+m and sighs.
+&+m'So they are trying to lure my sister in to be captured for that
+&+msick devil, Strahd.  How you managed to obtain this note.. you
+&+mtruly are a brave hero.  Never would I have anticipated that
+&+mtheir goals were murderous upon you or I.  As a token of my
+&+mappreciation please, take these gloves.  They are a magical
+&+mpair of gloves that have been passed through the Indirovich
+&+mfamily for centuries.  My family is dead now, as Strahd looms
+&+mon.  Please, you have proven your loyalty and saved the lives
+&+mof me and my sister; I consider you part of my family.  May
+&+mthese gloves aid you in your crusade against Strahd.'
+~
+R I 91039
+G I 91038
+S
+#91012
+M
+hi hello~
+   &+WIreena waves you off without lifting her head from her other arm,
+&+Wweeping desperately for her father.
+~
+MA
+father dead kolyan burgomaster body help cry crying~
+   &+WIreena Kolyana sighs and says 'The master of the castle punished my
+&+Wfather for standing up to his commands.  My father managed to hold him
+&+Woff with &+gthe Holy Symbol of Ravenkind&+W, until he paid with his life.'
+
+   &+WIreena Kolyana sighs, her chest heaving.
+   &+W'He was poisoned!  It had to be Strahd and his henchmen!'
+~
+MA
+strahd henchmen vistani~
+   &+WIreena Kolyana says 'Strahd and the Vistani, his henchmen poisoned and
+&+Wmurdered my father, Kolyan Indirovich!'
+
+   &+WIreena sighs for a moment before looking you directly in the &+Be&+Wy&+Be&+Ws.
+   &+WShe says 'It is &-L&+WME&+W Strahd wants, so he says!  I've had awful dreams
+&+Wwhere he chases me, and when he catches me he kisses me and calls me
+&+Wsomething else.  &+M'Tatyana.'&+W  At least, I thought they were dreams, but
+&+Wwhen I wake, I find these...'
+
+  &+WIreena reveals two &Nmarks&+W on her neck, obviously made by &+Rbites&+W.
+  &+WIreena says 'I had this dream twice.'
+~
+M
+symbol ravenkind~
+   &+W'The &+gHoly Symbol of the Ravenkind&+W, my father used it to fight off
+&+WStrahd.  I can not believe Strahd poisoned him, my poor father...'
+
+&+WIreena Kolyana weeps for a moment, before she continues 'I no longer have
+&+Wthe &+gholy symbol&+L.  I couldn't make it work, nor could my brother,
+&+mIsmark&+W.  Though, it is still precious to me.  But something evil
+&+Wslipped in and stole it in the dead of the night!  The thief could of been
+&+Wa servant of Strahd, but if so, I don't know which one.  It could have been
+&+Wsomething else entirely.  Evil of every sort has begun to collect in the
+&+Wwoods around Barovia.  The &+gHoly Symbol of Ravenkind&+W could be anywhere---
+&+WStrahd's reach is long, and if he had it stolen, he likely wants it as far from
+&+Wthe castle as possible.  Maybe the wise woman knows.'
+~
+M
+wise woman madam eva~
+   &+W'The wise woman, Madam Eva.  If I dare'd leave, I'd go to the
+&+Wencampment wst of town.  I've heard the wise woman there knows
+&+Wthings that even Strahd is afraid to discover.  She can glimpse
+&+Wthe future.
+~
+M
+qc_action 45~
+&+WIreena Kolyana sobs loudly.  'Why God, why!?' she yells to the heavens.
+~
+M
+qc_action 47~
+&+LA low &+ggroaning&+L is heard just outside, followed immediately by a heavy scratching sound.
+~
+M
+qc_action 53~
+&+LYou feel strangely as if you are being watched...
+~
+QA
+&+WIreena Kolyana shrugs and says 'So?  This is a letter for my brother.
+&+WI think he is in the Blood of the Vine Tavern, barricaded in from
+&+Wthe zombies.'
+~
+R I 91022
+G I 91022
+QA
+&+WIreena Kolyana says 'Give this note to my brother Ismark!  He is in
+&+Wthe Blood of the Vine Tavern!'
+~
+R I 91038
+G I 91038
+S
+#91013
+M
+qc_action 44~
+&+LYou feel strangely as if you are being watched...
+~
+M
+qc_action 45~
+&+LThe abrupt sound of glass shattering immediately followed by the
+&+Lyells of a man can be heard echoing through the village.
+~
+S
+#91018
+M
+hi hello~
+&+YParriwimple takes a moment to say hello, before returning to his work on
+&+Yreinforcing the barricade of Bildrath's Mercantile.
+~
+M
+strahd~
+&+YParriwimple gulps, at a loss of words and says only 'To cross the master
+&+Yof the castle is death ---or worse.'
+~
+M
+vistani~
+&+YParriwimple shrugs helplessly.
+~
+M
+qc_action 45~
+&+YParriwimple lifts up a large &+ywooden&+Y plank and begins &+Cnailing&+Y it across the door frame.
+~
+M
+qc_action 45~
+&+yBANG! BANG! BANG! &+YParriwimple continues to hammer &+Cnails&+y into the wooden planks.
+~
+M
+collection bildrath~
+&+YParriwimple says 'I ain't tellin you nothin for free.  Give me
+&+Y5 &+Wplatinum &+Yand I'll tell you exactly what my uncle is
+&+Ylooking for.  Believe me, it will be worth it.'
+~
+QA
+&+YParriwimple says 'I overheard my uncle talking about the items he
+&+Yneeds and he has told me a dozen times.  If you get these items
+&+Yand return them to my uncle, Bildrath, I'm sure he will be very
+&+Ythankful, as will I so that I can finally stop searching for them!
+
+&+Ma thin adamantium hair pin
+&+Ya golden compass locket
+&+Ca silver spoon
+&+Ya golden wrench
+&+Ca silver horse shoe&N
+&+Ya golden chalice
+&+Ca rare engraved electrum coin
+&+Wa diamond engagement ring
+&+Ba small delicate bell
+
+&+YReturn these &+Wnine&+Y items to my uncle, which could be hidden
+&+Yall over the village, and I'm sure he will give you an incredible
+&+Yreward!'
+~
+G C 5000
+S
+#91021
+M
+qc_action 47~
+&+LThe deep &+rmoaning&+L of undead echos through the village of Barovia.
+~
+M
+qc_action 48~
+&+LThe terrified &Ngate guard&+L shivers violently, scared beyond mobility.
+~
+M
+hi hello zombies zombie undead strahd vistani~
+&+L'Leave me alone, the zombies are coming!  Save yourself, I am done for!'
+~
+S
+#91023
+M
+qc_action 40~
+&+LYou feel strangely as if you were being watched...
+~
+M
+qc_action 40~
+&+LA loud scream is heard outside, followed by the sound of glass breaking.
+~
+S
+#91030
+M
+qc_action 43~
+&+WDanovich pops up from behind the altar and screams, in a thundering voice:
+&-L&+W'You can't take my son from me!'
+&+WThe shockwave of his booming, inhuman voice nearly knocks you to the ground!
+~
+M
+qc_action 48~
+&+LYou feel strangely as if you are being watched...
+~
+M
+qc_action 45~
+&+WDanovich mumbles a strange incantation loudly, causing the entire church
+&+Wto &+yshake&+W and &+ybuckle&+W.
+~
+M
+hi hello strahd vistani ismark doru~
+&+WDanovich ignores you completely, caught up completely in his incantation.
+~
+S
+#91041
+M
+hi hello~
+&+LThe tall, shifty-eyed &+cVistani&+L glares at you for a moment and says'
+&+LListen, if you want answers, I'd suggest not bothering me or my men.  There
+&+Lis a woman named Madam Eva located in an encampment just northwest of the
+&+Lgates to this village.  That is all any Vistani will tell you.'
+~
+M
+strahd ireena~
+&+L'I would watch what you talk about.  Hold your tongue, knave!'
+~
+S
+#91044
+M
+qc_action 45~
+&+WWavering images of doughty women touting greatswords, woodwise men
+&+Wwith slender bows, dwarves with glittering axes, and archaically dressed
+&+Wmages with beards and strange points hats - all these and more march
+&+Wforth from the graveyard, their numbers growing by the second.
+~
+M
+qc_action 45~
+&+WA vast procession of spirits rises, walking in unison upward through
+&+Wthe air and northeast into the pillarstone of Ravenloft.  These spirits
+&+Ware being pulled from their graves, unable to resist the call from Strahd
+&+Wvon Zarovich.
+~
+M
+qc_action 48~
+&+LYou feel strangely as if you are being watched...
+~
+S
+#91050
+M
+qc_action 45~
+&+GEphon Arbury looks up and, with a quiver in his voice, says 'Please,
+&+Gdon't hurt me!  The zombies came, I managed to lock the northern
+&+Ggates but not the south.  I have been here for three days.  Luckily
+&+GI always carry an extra couple packets of rations, just in case.
+&+GI am running out of food.  Please bring proof that this &+gzombie
+&+Ginvasion is over as soon as you can and I will finally be able to
+&+Gunlock the &+Lgates&+G!  You know what I mean by &+Rproof&+G, don't you?'
+~
+MA
+proof zombie zombies doru~
+   &+GEphon Arbury nods and says 'A horrible corruption has plagued
+&+Gmy village.  Please find the heart of this evil force, the &+rheart
+&+Gof the &+rblaspheme&+G so that I know it has been slain and the
+&+Gcorruption is gone!  Return to me this &+rheart of the blaspheme&+G and I
+&+Gwill give to you the &+Lkey to the city!&+G'
+~
+M
+qc_action 46~
+&+LA loud rhythmic &+ydragging sound&+L is soon followed by a loud &+rgroan&+L.
+~
+M
+qc_action 49~
+&+LYou feel as if you are being watched...
+~
+M
+hi hello~
+&+GEphon Arbury doesn't respond, and only peers out the cracks in
+&+Gthe barricade, wary of the zombies.
+~
+QA
+&+GEphon Arbury takes the &+Lheart&+G and smiles, relieved.
+&+GEphon Arbury pulls a &+Lkey &+Gfrom his pocket.
+~
+R I 91037
+G I 91036
+D
+&+GEphon Arbury says 'Thank you.. You have stopped the invasion.  I will
+&+Gnow go try to tend to the villagers the best I can, I am still an
+&+Gold man you know.. I may need some help.'
+~
+S
+#91052
+M
+hi hello gertrude~
+&+MMad Mary looks at you for a moment and says 'My daughter, Gerturda..
+&+Mshe was taken from me!'  Mary continues crying, 'They started to
+&+Mcall me Mad Mary several days ago after my daughter went missing.
+&+MI kept Gertruda in this room her entire life.  She was safe here.
+&+MSafe!  Gertruda was happy here - she knew only the storybook tales
+&+MI told her.  The real world was too hard, too dangerous.  I never
+&+Mlet her know anything of it!'
+
+&+M'My girl had everything she ever wanted here, why would she run
+&+Maway to that castle!?  I fear that the master of the castle has
+&+Mher now.  Oh, my poor Gertruda!  I know the worst has come to
+&+Mpass!'
+~
+M
+qc_action 46~
+&+LYou feel strangely as if you are being watched...
+~
+M
+qc_action 47~
+&+LA horrifying and gutteral &+Wshriek&+L is heard outside.
+~
+M
+qc_action 48~
+&+MMad Mary weeps and throws her hands up in the air in disgust.
+&+M'Gertruda!' she yells, then continues to sob.
+~
+QA
+&+MMad Mary gasps in great astonishment.
+&+M'Oh Thank you $N!'
+&+MAs the face of Mad Mary settles from her normal insanity, a strange magical buildup of dark power floats from her face.
+&+M'Now I may leave my expression of insanity and leave this wicked place with my daughter.  Thank you $N!'
+~
+R I 91065
+G I 58412
+D
+&+MMad Mary dashes out the door with Gertruda in her arms.
+~
+S

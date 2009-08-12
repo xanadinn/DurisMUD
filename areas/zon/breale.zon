@@ -1,0 +1,482 @@
+#26
+&+WThe Town of &+WBreale&n~
+2655 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 2600 2 0 100 0 0 0
+*     south exit from "Outside Town Gate" to
+*     "Inside Town Gate" - open
+*
+D 0 2601 0 0 100 0 0 0
+*     north exit from "Inside Town Gate" to
+*     "Outside Town Gate" - open
+*
+D 0 2608 1 1 100 0 0 0
+*     east exit from "Large Hut" to
+*     "Doctor's Office" - closed
+*
+D 0 2609 3 1 100 0 0 0
+*     west exit from "Doctor's Office" to
+*     "Large Hut" - closed
+*
+D 0 2610 1 1 100 0 0 0
+*     east exit from "Priest's Office" to
+*     "Church" - closed
+*
+D 0 2611 3 1 100 0 0 0
+*     west exit from "Church" to
+*     "Priest's Office" - closed
+*
+D 0 2611 1 1 100 0 0 0
+*     east exit from "Church" to
+*     "Church Gate" - closed
+*
+D 0 2614 3 1 100 0 0 0
+*     west exit from "Church Gate" to
+*     "Church" - closed
+*
+D 0 2622 4 2 100 0 0 0
+*     up exit from "Secret Stairway" to
+*     "A Small Hut" - closed/locked
+*
+D 0 2623 5 6 100 0 0 0
+*     down exit from "A Small Hut" to
+*     "Secret Stairway" - closed/locked/secret
+*
+D 0 2642 1 5 100 0 0 0
+*     east exit from "Dark Tunnel" to
+*     "Secret Passage" - closed/secret
+*
+D 0 2643 3 1 100 0 0 0
+*     west exit from "Secret Passage" to
+*     "Dark Tunnel" - closed
+*
+D 0 2647 1 1 100 0 0 0
+*     east exit from "Secret Passage" to
+*     "Witch Central" - closed
+*
+D 0 2650 3 1 100 0 0 0
+*     west exit from "Witch Central" to
+*     "Secret Passage" - closed
+*
+D 0 2650 0 1 100 0 0 0
+*     north exit from "Witch Central" to
+*     "Waiting Room" - closed
+*
+D 0 2655 2 1 100 0 0 0
+*     south exit from "Waiting Room" to
+*     "Witch Central" - closed
+*
+D 0 2650 1 1 100 0 0 0
+*     east exit from "Witch Central" to
+*     "Abigail's Room" - closed
+*
+D 0 2651 3 1 100 0 0 0
+*     west exit from "Abigail's Room" to
+*     "Witch Central" - closed
+*
+D 0 2650 2 1 100 0 0 0
+*     south exit from "Witch Central" to
+*     "Esmerelda's Room" - closed
+*
+D 0 2652 0 1 100 0 0 0
+*     north exit from "Esmerelda's Room" to
+*     "Witch Central" - closed
+*
+D 0 2653 2 1 100 0 0 0
+*     south exit from "Demon Room" to
+*     "Pontif's Room" - closed
+*
+D 0 2654 0 2 100 0 0 0
+*     north exit from "Pontif's Room" to
+*     "Demon Room" - closed/locked
+*
+D 0 2654 2 1 100 0 0 0
+*     south exit from "Pontif's Room" to
+*     "Waiting Room" - closed
+*
+D 0 2655 0 2 100 0 0 0
+*     north exit from "Waiting Room" to
+*     "Pontif's Room" - closed/locked
+*
+*
+O 0 2678 1 2601 100 0 0 0          * an old oaken sign
+O 0 2685 1 2611 100 0 0 0          * an ornamental altar
+O 0 2675 100 2640 100 0 0 0        * a red mushroom
+O 0 2675 100 2640 100 0 0 0        * a red mushroom
+O 0 2675 100 2640 100 0 0 0        * a red mushroom
+O 0 2675 100 2641 100 0 0 0        * a red mushroom
+O 0 2675 100 2641 100 0 0 0        * a red mushroom
+O 0 2601 1 2655 100 0 0 0          * a black key
+*
+M 0 2614 12 2601 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2623 10 2601 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2601 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2613 10 2602 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2602 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2602 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2613 10 2603 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2603 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2603 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2613 10 2604 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2604 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2613 10 2605 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2605 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2605 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2613 10 2606 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2606 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2606 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2614 12 2607 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2616 1 2609 100 0 0 0          * the doctor
+E 1 2618 1 5 100 0 0 0             *   a white leather tunic
+E 1 2634 1 7 100 0 0 0             *   a pair of white leather pants
+E 1 2679 1 18 100 0 0 0            *   a small potion of healing
+G 1 369 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 368 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 363 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 2612 11 2610 100 0 0 0         * the priest
+E 1 2624 100 5 100 0 0 0           *   the priestly robes of sacrifice
+E 1 2615 100 6 100 0 0 0           *   a priestly cap
+G 1 2616 100 0 100 0 0 0           *    the mauler
+M 0 2611 6 2611 100 0 0 0          * the altar boy
+E 1 2623 100 5 100 0 0 0           *   a holy cloth
+E 1 2621 100 18 100 0 0 0          *   a candle
+M 0 2611 6 2611 100 0 0 0          * the altar boy
+E 1 2623 100 5 100 0 0 0           *   a holy cloth
+E 1 2621 100 18 100 0 0 0          *   a candle
+M 0 2610 8 2612 100 0 0 0          * the acolyte
+E 1 2622 100 5 100 0 0 0           *   a righteous robe
+M 0 2610 8 2613 100 0 0 0          * the acolyte
+E 1 2622 100 5 100 0 0 0           *   a righteous robe
+M 0 2613 10 2616 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2616 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2613 10 2617 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2617 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2617 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2619 15 2618 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2625 24 2620 100 0 0 0         * the Myranthean merchant
+E 1 2641 24 16 100 0 0 0           *   a sharpened wooden dagger
+M 0 2619 15 2620 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2613 10 2620 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2620 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2615 6 2620 100 0 0 0          * the Brealean child
+E 1 2632 6 5 100 0 0 0             *   a child's shirt
+E 1 2631 6 7 100 0 0 0             *   a pair of brealean knickers
+E 1 2633 6 16 100 0 0 0            *   a pocket knife
+M 0 2623 10 2620 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2620 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2624 1 2620 100 0 0 0          * the Breale Captain of the Guards
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2640 1 13 100 0 0 0            *   a breale captain's belt
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2617 1 2621 100 0 0 0          * the dying witch
+E 1 2635 1 5 100 0 0 0             *   dirty rags
+M 0 2618 1 2623 100 0 0 0          * Hagatha
+E 1 2637 1 12 100 0 0 0            *   the cloak of youth
+E 1 2680 1 18 100 0 0 0            *   a small key
+M 0 2620 5 2624 100 0 0 0          * the fish vendor
+G 1 2664 100 0 100 0 0 0           *    some sardines
+G 1 2676 100 0 100 0 0 0           *    a bass
+G 1 2665 100 0 100 0 0 0           *    a sword fish
+G 1 72609 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 2666 999 0 100 0 0 0           *    some lamb chops
+G 1 2667 999 0 100 0 0 0           *    some goat meat
+M 0 2621 5 2624 100 0 0 0          * the fruit vendor
+G 1 2659 100 0 100 0 0 0           *    a banana
+G 1 2657 100 0 100 0 0 0           *    an apple
+G 1 2658 100 0 100 0 0 0           *    an orange
+G 1 2663 100 0 100 0 0 0           *    a pear
+G 1 2660 100 0 100 0 0 0           *    a grapefruit
+G 1 2661 100 0 100 0 0 0           *    some grapes
+G 1 2662 100 0 100 0 0 0           *    a peach
+M 0 2622 5 2624 100 0 0 0          * the jeweler
+G 1 2677 100 0 100 0 0 0           *    a diamond ring
+G 1 2668 100 0 100 0 0 0           *    an emerald bracelet
+G 1 2669 100 0 100 0 0 0           *    a gold band
+M 0 2626 1 2625 100 0 0 0          * Brim Barley
+E 1 2642 1 5 100 0 0 0             *   a bloodstained apron
+G 1 2666 999 0 100 0 0 0           *    some lamb chops
+G 1 2667 999 0 100 0 0 0           *    some goat meat
+M 0 2625 24 2626 100 0 0 0         * the Myranthean merchant
+E 1 2641 24 16 100 0 0 0           *   a sharpened wooden dagger
+M 0 2625 24 2626 100 0 0 0         * the Myranthean merchant
+E 1 2641 24 16 100 0 0 0           *   a sharpened wooden dagger
+M 0 2619 15 2626 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2619 15 2626 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2627 1 2627 100 0 0 0          * Monty
+E 1 2643 1 5 100 0 0 0             *   a leather suit stained with ale
+G 1 2653 100 0 100 0 0 0           *    a cup of Monty's ale
+G 1 2656 100 0 100 0 0 0           *    a tankard of homebrewed beer
+M 0 2625 24 2628 100 0 0 0         * the Myranthean merchant
+E 1 2641 24 16 100 0 0 0           *   a sharpened wooden dagger
+M 0 2619 15 2628 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2625 24 2629 100 0 0 0         * the Myranthean merchant
+E 1 2641 24 16 100 0 0 0           *   a sharpened wooden dagger
+M 0 2619 15 2629 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2622 5 2629 100 0 0 0          * the jeweler
+G 1 2677 100 0 100 0 0 0           *    a diamond ring
+G 1 2668 100 0 100 0 0 0           *    an emerald bracelet
+G 1 2669 100 0 100 0 0 0           *    a gold band
+M 0 2622 5 2629 100 0 0 0          * the jeweler
+G 1 2677 100 0 100 0 0 0           *    a diamond ring
+G 1 2668 100 0 100 0 0 0           *    an emerald bracelet
+G 1 2669 100 0 100 0 0 0           *    a gold band
+M 0 2628 1 2630 100 0 0 0          * Bart
+E 1 2620 1 5 100 0 0 0             *   a loin cloth
+E 1 2644 1 16 100 0 0 0            *   a club
+G 1 2655 100 0 100 0 0 0           *    an iron sword
+G 1 2650 100 0 100 0 0 0           *    an iron dagger
+G 1 2651 100 0 100 0 0 0           *    an iron spear
+G 1 2652 100 0 100 0 0 0           *    an iron morningstar
+M 0 2622 5 2631 100 0 0 0          * the jeweler
+G 1 2677 100 0 100 0 0 0           *    a diamond ring
+G 1 2668 100 0 100 0 0 0           *    an emerald bracelet
+G 1 2669 100 0 100 0 0 0           *    a gold band
+M 0 2622 5 2631 100 0 0 0          * the jeweler
+G 1 2677 100 0 100 0 0 0           *    a diamond ring
+G 1 2668 100 0 100 0 0 0           *    an emerald bracelet
+G 1 2669 100 0 100 0 0 0           *    a gold band
+M 0 2629 1 2632 100 0 0 0          * Garvin
+G 1 2654 100 0 100 0 0 0           *    a suit of iron plate
+G 1 2646 100 0 100 0 0 0           *    a pair of iron sleeves
+G 1 2647 100 0 100 0 0 0           *    a pair of iron leggings
+G 1 2648 100 0 100 0 0 0           *    a pair of iron boots
+G 1 2649 100 0 100 0 0 0           *    a pair of iron gauntlets
+M 0 2619 15 2633 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2619 15 2633 100 0 0 0         * the Breale merchant
+E 1 2619 15 16 100 0 0 0           *   a jeweled blade
+M 0 2613 10 2633 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2633 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2623 10 2634 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2634 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2613 10 2635 100 0 0 0         * the Brealean man
+E 1 2626 150 5 100 0 0 0           *   a brealean shirt
+E 1 2627 150 7 100 0 0 0           *   a pair of brealean pants
+E 1 2628 150 16 100 0 0 0          *   a brealean curved sword
+M 0 2614 12 2635 100 0 0 0         * the Brealean woman
+E 1 2629 150 5 100 0 0 0           *   a brealean dress
+E 1 2617 150 7 100 0 0 0           *   a brealean skirt
+E 1 2630 150 16 100 0 0 0          *   a brealean long dagger
+M 0 2623 10 2635 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2635 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2636 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2623 10 2636 100 0 0 0         * the Breale city guard
+E 1 2638 16 5 100 0 0 0            *   a standard breale vest
+E 1 2639 16 7 100 0 0 0            *   a pair of standard breale leggings
+E 1 2655 100 16 100 0 0 0          *   an iron sword
+M 0 2604 6 2640 100 0 0 0          * the grey rat
+M 0 2604 6 2641 100 0 0 0          * the grey rat
+M 0 2604 6 2641 100 0 0 0          * the grey rat
+M 0 2609 6 2641 100 0 0 0          * the mold creature
+M 0 2609 6 2641 100 0 0 0          * the mold creature
+M 0 2604 6 2642 100 0 0 0          * the grey rat
+M 0 2604 6 2642 100 0 0 0          * the grey rat
+M 0 2609 6 2642 100 0 0 0          * the mold creature
+M 0 2609 6 2642 100 0 0 0          * the mold creature
+M 0 2605 8 2644 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2644 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2644 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+M 0 2605 8 2645 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2645 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2645 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+M 0 2605 8 2646 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2646 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2646 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+M 0 2605 8 2647 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2605 8 2647 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2647 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2647 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+M 0 2608 1 2648 100 0 0 0          * Celia the Hag
+G 1 2670 100 0 100 0 0 0           *    some ash
+G 1 2671 100 0 100 0 0 0           *    a peppercorn
+G 1 2675 100 0 100 0 0 0           *    a red mushroom
+G 1 2672 100 0 100 0 0 0           *    a tiny pile of wood
+G 1 2673 100 0 100 0 0 0           *    some dirt
+G 1 2674 100 0 100 0 0 0           *    a fennel root
+M 0 2604 6 2649 100 0 0 0          * the grey rat
+M 0 2609 6 2649 100 0 0 0          * the mold creature
+M 0 2609 6 2649 100 0 0 0          * the mold creature
+M 0 2605 8 2650 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2605 8 2650 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2650 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2606 7 2650 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2650 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+M 0 2601 1 2651 100 0 0 0          * Abigail
+E 1 2602 4 3 100 0 0 0             *   the amulet of the triad of witches
+E 1 2606 1 5 100 0 0 0             *   the weightless robe of protection
+E 1 2605 1 18 100 0 0 0            *   the broom of fire
+M 0 2600 1 2652 100 0 0 0          * Esmerelda
+E 1 2602 4 3 100 0 0 0             *   the amulet of the triad of witches
+E 1 2604 1 7 100 0 0 0             *   the weightless leggings of protection
+E 1 2603 1 18 100 0 0 0            *   the broom of ice
+M 0 2603 1 2653 100 0 0 0          * Bacca
+E 1 2625 1 5 100 0 0 0             *   a red demon hide
+M 0 2602 1 2654 100 0 0 0          * Pontif
+E 1 2602 4 3 100 0 0 0             *   the amulet of the triad of witches
+E 1 2607 1 18 100 0 0 0            *   the broom of air
+G 1 2600 1 0 100 0 0 0             *    a red key
+M 0 2605 8 2655 100 0 0 0          * the witch
+E 1 2609 15 5 100 0 0 0            *   a rag of many cackles
+E 1 2608 15 7 100 0 0 0            *   a pair of witch leggings
+E 1 2610 15 16 100 0 0 0           *   a ceremonial dagger
+M 0 2606 7 2655 100 0 0 0          * the warlock
+E 1 2611 14 12 100 0 0 0           *   a dark cloak
+E 1 2612 14 16 100 0 0 0           *   the devil's instrument
+M 0 2607 6 2655 100 0 0 0          * the hag
+E 1 2613 11 5 100 0 0 0            *   a hag rag
+E 1 2614 11 18 100 0 0 0           *   an elemental staff of nature
+*
+S

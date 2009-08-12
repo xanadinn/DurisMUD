@@ -1,0 +1,88 @@
+#38200
+M
+hi hello forest you going target~
+&+bA huge &+Bshimmering&+b bluebird looks around searching for some food,&n
+&+b obviously ignoring everything you try to tell to it.&n
+~
+M
+food~
+&+bA huge &+Bshimmering&+b bluebird peers at you warily.
+~
+Q
+&+bA huge &+Bshimmering&+b bluebird pecks the meat with its large beak.&n
+&+bLooking sated, it looks at you kindly and handles you some of its feathers.&n
+~
+R I 38200
+R C 500
+G I 38201
+Q
+&+bA huge &+Bshimmering&+b bluebird pecks the meat with its large beak.&n
+&+bLooking half-sated, it looks at you kindly and handles you a small nest.&n
+~
+R I 38204
+G I 38202
+S
+#38230
+M
+hi hello greetings~
+A young tribal woman turns to you and says "Hello there. Did you see my comb?"
+
+Than quickly turns back to you and returns to her search.
+~
+M
+comb~
+She turns to you with a hopeful look on her face.
+"Comb, yes comb. Have you seen it?  Ahh, no.  Damnation, none of our young
+ boys will want to look at me, not to mention sleeping with me, if I don't
+ comb my hair. And with this crude comb I managed to find it's nearly
+ impossible.  Ahh, where is that beautifully crafted smooth wooden comb I had?
+ Lost it somewhere in the forest..."
+
+She blushes slightly, than continues.
+ "Shall you find my old good comb, i'll reward you greatly.
+  You will do it, will you?"
+
+Than she quickly turns away from you and continues her search.
+~
+Q
+A young tribal woman stares at the comb for a while, than exclaims.
+ "Yes, Finally, my good comb! Yes! Now I can camp my hair and become attractive
+  once again. Thank you! Thank you, thankyouthankyouthankyou!
+  Here's the reward. A brooch of some sort. I've been given it by my mother,
+  but it doesn't suit me. It does not match with the color of my eyes, you see.
+  Take it, and may it serve you well."
+She gives you a brooch of some sort, then promptly starts combing her hair.
+~
+R I 38260
+R E 500
+G I 38241
+S
+#38234
+M
+hi hello greetings quest~
+His head turns towards you and he speaks 'Nah, no time to waste.'
+After a brief pause he continues 'But maybe you need some work?'
+After yet another pause he adds 'Ask me for details if you are interested'
+~
+M
+work details~
+He smiles happily and starts telling you all the details.
+It's something about magical ingredients, demons, devils, and his experiments,
+all mixed and formed into definitely not understandable pulp.
+However, being clever as you are, you manage to understand he simply wants you
+to get for him some special piece of animal fur infested with some fungus.
+What a stupid job for such a great adventurer as you are.
+~
+Q
+&+cUpon seeing the piece of funny deerskin you brought to him, the tribal shaman
+&+csmiles broadly and begins speaking very fast:
+&+C'Ahh, yes, yes, it is, you fond it, yes, ahh, yes. Heh, yea, it is. Great.'
+&+C'Yes, yes, this is the &+c<here he starts mumbling some strange words, and he does
+&+c that for quite a while>&+C I was looking for. Ahh, yea, here, keep the reward.'
+&+cHe handles you an amulet made from soft bearskin.
+&+cOww, so this is it? No gold? No fame? Just this piece of fur?
+~
+R I 38224
+R E 500
+G I 38244
+S

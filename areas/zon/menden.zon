@@ -1,0 +1,213 @@
+#888
+&+bMenden-on-the-Deep&n~
+88870 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 88804 1 1 100 0 0 0
+*     east exit from "Herbal Garden" to
+*     "Inside a Farmhouse" - closed
+*
+D 0 88805 3 1 100 0 0 0
+*     west exit from "Inside a Farmhouse" to
+*     "Herbal Garden" - closed
+*
+D 0 88805 2 1 100 0 0 0
+*     south exit from "Inside a Farmhouse" to
+*     "Potato Fields" - closed
+*
+D 0 88811 0 1 100 0 0 0
+*     north exit from "Potato Fields" to
+*     "Inside a Farmhouse" - closed
+*
+D 0 88815 1 1 100 0 0 0
+*     east exit from "A Patch of Clover" to
+*     "Inside a Small Farmhouse" - closed
+*
+D 0 88816 3 1 100 0 0 0
+*     west exit from "Inside a Small Farmhouse" to
+*     "A Patch of Clover" - closed
+*
+D 0 88823 2 1 100 0 0 0
+*     south exit from "The Oak and Ragged Staff" to
+*     "Fork in The Main Road" - closed
+*
+D 0 88829 0 1 100 0 0 0
+*     north exit from "Fork in The Main Road" to
+*     "The Oak and Ragged Staff" - closed
+*
+D 0 88824 2 1 100 0 0 0
+*     south exit from "Memson's Wares" to
+*     "Main Road" - closed
+*
+D 0 88830 0 1 100 0 0 0
+*     north exit from "Main Road" to
+*     "Memson's Wares" - closed
+*
+D 0 88827 1 1 100 0 0 0
+*     east exit from "A Small Temple" to
+*     "A Bend in the Main Road" - closed
+*
+D 0 88828 3 1 100 0 0 0
+*     west exit from "A Bend in the Main Road" to
+*     "A Small Temple" - closed
+*
+D 0 88834 1 1 100 0 0 0
+*     east exit from "Wooden Bridge Over a Small Stream" to
+*     "Leaking Farmhouse" - closed
+*
+D 0 88835 3 1 100 0 0 0
+*     west exit from "Leaking Farmhouse" to
+*     "Wooden Bridge Over a Small Stream" - closed
+*
+D 0 88835 2 1 100 0 0 0
+*     south exit from "Leaking Farmhouse" to
+*     "Slaughtering Block" - closed
+*
+D 0 88842 0 1 100 0 0 0
+*     north exit from "Slaughtering Block" to
+*     "Leaking Farmhouse" - closed
+*
+D 0 88840 1 1 100 0 0 0
+*     east exit from "Jennis' Goods Shoppe" to
+*     "Main Road" - closed
+*
+D 0 88841 3 1 100 0 0 0
+*     west exit from "Main Road" to
+*     "Jennis' Goods Shoppe" - closed
+*
+D 0 88842 2 1 100 0 0 0
+*     south exit from "Slaughtering Block" to
+*     "The Sheep Pen" - closed
+*
+D 0 88850 0 1 100 0 0 0
+*     north exit from "The Sheep Pen" to
+*     "Slaughtering Block" - closed
+*
+D 0 88854 1 1 100 0 0 0
+*     east exit from "A Wooden Shack" to
+*     "End of the Main Road" - closed
+*
+D 0 88855 3 1 100 0 0 0
+*     west exit from "End of the Main Road" to
+*     "A Wooden Shack" - closed
+*
+D 0 88855 1 2 100 0 0 0
+*     east exit from "End of the Main Road" to
+*     "A Well Kept House" - closed/locked
+*
+D 0 88856 3 2 100 0 0 0
+*     west exit from "A Well Kept House" to
+*     "End of the Main Road" - closed/locked
+*
+*
+O 0 88801 1 88804 100 0 0 0        * some witchbane
+O 0 88800 1 88804 100 0 0 0        * a parsnip
+O 0 88802 1 88804 100 0 0 0        * a clump of grannywort
+O 0 88804 1 88815 100 0 0 0        * a four-leaf clover
+O 0 88829 1 88853 100 0 0 0        * a small pink seashell
+O 0 88824 1 88856 100 0 0 0        * a heavy wooden chest
+P 1 88825 1 88824 100 0 0 0        *   a sandalwood figurine
+P 1 88826 1 88824 100 0 0 0        *   a hardwood staff
+O 0 88830 1 88858 100 0 0 0        * Llym's wondrous altar
+O 0 88821 1 88859 100 0 0 0        * a murky white color pool
+O 0 88827 1 88860 100 0 0 0        * a murky white color pool
+*
+M 0 88800 7 88802 100 0 0 0        * the chicken
+M 0 88801 23 88802 100 0 0 0       * the sheep
+M 0 88800 7 88803 100 0 0 0        * the chicken
+M 0 88800 7 88804 100 0 0 0        * the chicken
+M 0 88803 4 88804 100 0 0 0        * the farmer
+E 1 88803 16 16 100 0 0 0          *   a hoe
+M 0 88802 1 88805 100 0 0 0        * the farmer with the broken leg
+M 0 88800 7 88808 100 0 0 0        * the chicken
+M 0 88800 7 88809 100 0 0 0        * the chicken
+M 0 88800 7 88810 100 0 0 0        * the chicken
+M 0 88801 23 88811 100 0 0 0       * the sheep
+M 0 88800 7 88811 100 0 0 0        * the chicken
+M 0 88818 3 88811 100 0 0 0        * a young farmgirl
+M 0 88801 23 88812 100 0 0 0       * the sheep
+M 0 88803 4 88812 100 0 0 0        * the farmer
+E 1 88803 16 16 100 0 0 0          *   a hoe
+M 0 88818 3 88815 100 0 0 0        * a young farmgirl
+M 0 88803 4 88816 100 0 0 0        * the farmer
+E 1 88814 16 16 100 0 0 0          *   a rake
+M 0 88803 4 88818 100 0 0 0        * the farmer
+M 0 88818 3 88821 100 0 0 0        * a young farmgirl
+M 0 88804 1 88823 100 0 0 0        * the serving wench
+G 1 88805 20 0 100 0 0 0           *    a tankard of ale
+G 1 88806 20 0 100 0 0 0           *    a carafe
+G 1 1000 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 88808 50 0 100 0 0 0           *    a leg of mutton
+G 1 88809 50 0 100 0 0 0           *    a meat pie
+M 0 88805 3 88823 100 0 0 0        * the fisherman
+E 1 88805 20 18 100 0 0 0          *   a tankard of ale
+M 0 88805 3 88823 100 0 0 0        * the fisherman
+E 1 88805 20 18 100 0 0 0          *   a tankard of ale
+M 0 88805 3 88823 100 0 0 0        * the fisherman
+E 1 88806 20 18 100 0 0 0          *   a carafe
+M 0 88806 1 88823 100 0 0 0        * the drunken magus
+E 1 88811 1 3 100 0 0 0            *   a silvery periapt
+E 1 88810 1 18 100 0 0 0           *   an ivory key
+M 0 88807 1 88824 100 0 0 0        * Memson
+G 1 88803 16 0 100 0 0 0           *    a hoe
+G 1 88812 6 0 100 0 0 0            *    a wool sweater
+G 1 88813 12 0 100 0 0 0           *    a blue wool hat
+G 1 88814 16 0 100 0 0 0           *    a rake
+M 0 88820 2 88826 100 0 0 0        * a seagull
+M 0 88808 1 88827 100 0 0 0        * the village aovalk
+E 1 88817 1 12 100 0 0 0           *   a Mendeni vestment
+E 1 88816 1 18 100 0 0 0           *   a lambskin scroll
+M 0 88822 4 88827 100 0 0 0        * a young man
+M 0 88822 4 88827 100 0 0 0        * a young man
+M 0 88801 23 88831 100 0 0 0       * the sheep
+M 0 88801 23 88832 100 0 0 0       * the sheep
+M 0 88801 23 88832 100 0 0 0       * the sheep
+M 0 88801 23 88832 100 0 0 0       * the sheep
+M 0 88820 2 88833 100 0 0 0        * a seagull
+M 0 88819 3 88834 100 0 0 0        * a village merchant
+M 0 88821 4 88835 100 0 0 0        * a large rat
+M 0 88801 23 88836 100 0 0 0       * the sheep
+M 0 88819 3 88836 100 0 0 0        * a village merchant
+M 0 88801 23 88837 100 0 0 0       * the sheep
+M 0 88801 23 88837 100 0 0 0       * the sheep
+M 0 88801 23 88837 100 0 0 0       * the sheep
+M 0 88810 1 88840 100 0 0 0        * Jennis
+G 1 88818 8 0 100 0 0 0            *    some imported leather gloves
+G 1 88819 4 0 100 0 0 0            *    a potion of protection from evil
+G 1 88820 60 0 100 0 0 0           *    a hardtack biscuit
+G 1 397 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 88822 3 0 100 0 0 0            *    a treasure map
+G 1 88823 60 0 100 0 0 0           *    some salted fish jerky
+M 0 88801 23 88843 100 0 0 0       * the sheep
+M 0 88801 23 88843 100 0 0 0       * the sheep
+M 0 88801 23 88843 100 0 0 0       * the sheep
+M 0 88801 23 88843 100 0 0 0       * the sheep
+M 0 88809 3 88843 100 0 0 0        * the shepherd
+E 1 88815 10 16 100 0 0 0          *   a shepherd's crook
+M 0 88811 2 88844 100 0 0 0        * the ram
+M 0 88809 3 88844 100 0 0 0        * the shepherd
+M 0 88817 1 88846 100 0 0 0        * a man selling ships
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88801 23 88850 100 0 0 0       * the sheep
+M 0 88811 2 88850 100 0 0 0        * the ram
+M 0 88801 23 88851 100 0 0 0       * the sheep
+M 0 88801 23 88852 100 0 0 0       * the sheep
+M 0 88809 3 88852 100 0 0 0        * the shepherd
+E 1 88815 10 16 100 0 0 0          *   a shepherd's crook
+M 0 88821 4 88854 100 0 0 0        * a large rat
+M 0 88821 4 88854 100 0 0 0        * a large rat
+M 0 88821 4 88854 100 0 0 0        * a large rat
+M 0 88819 3 88855 100 0 0 0        * a village merchant
+M 0 88812 1 88856 100 0 0 0        * the invisible servant
+M 0 88822 4 88859 100 0 0 0        * a young man
+M 0 88822 4 88859 100 0 0 0        * a young man
+M 0 88816 1 88860 100 0 0 0        * Kitan the all knowing
+G 1 88807 1 0 100 0 0 0            *    the unholy relic of life and death
+*
+S

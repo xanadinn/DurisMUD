@@ -1,0 +1,66 @@
+#87821
+M
+paladin paladins~
+&+mThe Cardinal looks up at you, and then speaks slowly,&n &+W"Yes, the paladins..&n
+&+WThey have been a thorn in my side for years.  I have been trying to elinate&n
+&+Wthem unsuccesfully for quite some time.  Anyone who could manage this would&n
+&+Wgain my favour, although I don't believe grand tales without proof."&n
+~
+Q
+&+mThe Cardinal leans back and cackles noisily, then beams a smile at you.  He&n
+&+mpauses before saying,&n &+W"Well done!  There may yet be a place for you here&n
+&+Win the church, we have need of people of your caliber.  Speak with my bishop&n
+&+Wof initiation."&n
+~
+R E 100000
+G I 87846
+S
+#87847
+Q
+&+C   The old field general pauses before speaking,&+W "So .. We still know&n
+&+Wnothing more than before.  But even that is knowledge.  Sometimes it's&n
+&+Wbetter to know that you don't know,"&n &+C He chuckles slowly,&+W "although&n
+&+Wperhaps not in this case.  Forgive me, I am just an old soldier rambling&n
+&+Won, and I have not yet rewarded you.  Here take this child, and go on&n
+&+Win the light."&n
+~
+R I 87874
+G I 87873
+S
+#87860
+M
+initiation~
+&+mThe Bishop looks up from his meditation, nods slowly and then grins.  He&n
+&+mspeaks,&n &+W"One who would join us in a position of trust must first prove&n
+&+Wthemselves to me, not that doddering old scum who calls himself Cardinal.  &n
+&+WOne day that position will be mine, but before I can move I must have proof&n
+&+Wthat he has been... eliminated.  Bring such proof to me and I'll make you  &n
+&+Wa part of a new church under my rule.  But be warned: speak of this to     &n
+&+Wanyone and I will deny it, and in this church, my word is law!"            &n
+                                                                           &n
+~
+Q
+&+mThe bishop smirks before replying,&n &+W"You have done for me what no other&n
+&+Wcould have done, and for this I shall reward you.  You will never be seen&n
+&+Wagain in these parts or I shall turn you over to the interrogaters and&n
+&+Wtorturers for the murder of our dear departed cardinal.  However, I am&n
+&+Wnot totally without appreciation, so take this as a token of my gratitude&n
+&+Wand leave, for to stay will invite your doom.  Remember, there is no&n
+&+Wgreater crime than&n &+Cblasphemy&+W, and of this you are surely guilty! Now,&n
+&+Wbegone!"&n
+~
+R C 250000
+R E 100000
+G I 87869
+S
+#87869
+Q
+&+C   The paladin grins broadly, before saying,&n &+W"A true foe of the dark eh?&n
+&+WGood.  Wish there were more like you.  Take this message to my lord the&n
+&+Wcommander of the Royal Paladins, he'll see you get some manner of reward."&n
+~
+R I 87873
+G I 87870
+G I 87871
+G I 87872
+S

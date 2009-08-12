@@ -1,0 +1,991 @@
+#5000
+minotaur gargantuan~
+&+wa &+Lgargantuan &+Lmino&+rtaur&n~
+&+wA &+Lgargantuan &+Lmino&+rtaur &+Lis here, looking rather unpleased and furious.&n
+~
+&+L   This half-man, half-bull creature stands over nine feet tall, its muscles&N
+&+Lrippling with ungodly strength. Its black torso bears many a &+Rscar&+L, no doubt&N
+&+Linflicted by previous opponents. The fact that this &+Lmino&+rtaur &+Lis still around&N
+&+Lsuggests that they lost, which is not good news for you.&N
+~
+1107322890 1 0 120 262144 0 0 -1000 S
+MT 0 1 7
+60 -3 -85 50d100+2900 6d6+25
+0.3.1.5 121500
+8 8 1
+#5001
+bat flying~
+&+La flying bat&n~
+&+LA giant bat is flying here, screeching down the passageway.&n
+~
+&+L   This giant bat has a wingspan of nearly six feet, and is kicking up quite a&N
+&+Lbreeze as it flies overhead. Unfortunately, it thinks you would make a great&N
+&+Lsnack and dives to attack!&N
+~
+141448 1 0 60 0 0 0 -1000 S
+B 0 0 -1
+30 2 -28 40d95+920 4d7+10
+0.0.0.0 51840
+8 8 0
+#5002
+bat giant flying~
+&+La flying bat&n~
+&+LA giant bat is hanging from the ceiling here, fast asleep.&n
+~
+&+L   This giant bat has a wingspan of nearly six feet, and seems to have a set of&N
+&+Lvicious &+Wfangs &+Land large sensitive ears. Luckily, it is sleeping . . . for now.&N
+~
+141320 1 0 60 0 0 0 -800 S
+B 0 0 -1
+32 2 -28 40d95+920 4d7+10
+0.0.0.0 51840
+4 4 0
+#5003
+sasquatch bigfoot hairy~
+&+ya hairy sasquatch&n~
+&+yA hairy sasquatch is here, howling with savage glee.&n
+~
+&+y   This giant humanoid is very large and hairy, and is probably annoyed at your&N
+&+yintrusion into his domain. His bulky arms look very powerful, but the light&N
+&+ybehind his eyes is very dim, suggesting only a rudimentary intelligence.&N
+~
+1073750156 1 0 16 0 0 0 -350 S
+H 0 1 -1
+45 -1 -69 45d90+1935 6d6+12
+5.9.8.4 109350
+8 8 1
+#5004
+giant beetle~
+&+La giant beetle&n~
+&+LA giant beetle is lumbering about here, &+Reyes &+Lglowing.&n
+~
+&+L   This gigantic beetle looks rather large and bulky, yet it must be incredibly&N
+&+Lstrong to carry around its thick, chitinous, armored body. Its mandibles look&N
+&+Lvery powerful, as it is able to use them to tunnel into the rock that forms the&N
+&+Lwall. Its &+Reyes &+Lglow mysteriously, leading ne to believe that this creature has&N
+&+Lspent too long a time in the &+wlabyrinth&+L.&N
+~
+1207969800 56 0 160 1024 0 0 -1000 S
+I 0 1 -1
+39 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5005
+fish blind~
+&+wa &+Lblind &+bfish&n~
+&+BA &+Wpale&+B, &+Lblind &+bfish &+Bis &+bswimming &+Baround here.&n
+~
+&+w   This pale, &+Lblind &+bfish &+whas lost the need for eyes in these dark caverns a&N
+&+wlong time ago. Instead, sensitive feelers protrude from the tips of its mouth,&N
+&+wsearching for small prey.&N
+~
+270346 0 0 33080 0 0 0 0 S
+A 0 0 -1
+10 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5006
+colorless salamander lonely~
+&+wa colorless &+Lsalamander&N~
+&+LA lonely &+wcolorless &+Lsalamander wanders about here.&N
+~
+&+w   For some reason, creatures grow to an enormous size within this dark&N
+&+wlabyrinth, and this &+Lsalamander &+wis no exception. Being eternally in &+Ldarkness&+w,&N
+&+wthis &+Lsalamander &+whas lost its colorful appearance common to its smaller kin.&N
+&+wHowever, its giant size has made this particular lizard exceptionally&N
+&+waggressive.&N
+~
+26634 1 0 56 0 0 0 -1000 S
+D 0 4 -1
+60 -3 -95 50d100+2650 6d6+25
+0.0.0.0 121500
+8 8 0
+#5007
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5008
+red moss~
+&+ra patch of red moss&n~
+&+rA patch of red moss grows alongside the walls here.&n
+~
+&+r   This peculiar moss looks as though it is aware of your presence, and is&N
+&+rrather nonplussed at your intrusion.&N
+~
+10250 1 0 536870912 2048 0 0 -1000 S
+AP 0 0 -1
+40 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#5009
+blue moss~
+&+Ba patch of blue moss&n~
+&+BA patch of blue moss grows alongside the walls here.&n
+~
+&+B   This peculiar moss looks as though it is aware of your presence, and is&N
+&+Brather nonplussed at your intrusion.&N
+~
+10250 1 0 536944680 274624 0 0 -1000 S
+AP 0 0 -1
+42 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 0
+#5010
+green moss~
+&+ga patch of green moss&n~
+&+gA patch of green moss grows alongside the walls here.&n
+~
+&+g   This peculiar moss looks as though it is aware of your presence, and is&N
+&+grather nonplussed at your intrusion.&N
+~
+534538 1 0 40 128 0 0 -1000 S
+AP 0 0 -1
+45 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 0
+#5011
+black moss~
+&+La patch of black moss&n~
+&+LA patch of black moss grows alongside the walls here.&n
+~
+&+L   This peculiar moss looks as though it is aware of your presence, and is&N
+&+Lrather nonplussed at your intrusion.&N
+~
+10250 1 0 168 0 0 0 -1000 S
+AP 0 0 -1
+47 -3 -95 50d100+2650 6d6+25
+0.3.1.5 121500
+8 8 0
+#5012
+millipede giant pede~
+&+La giant millipede&n~
+&+LA giant millipede is here scampering along rather quickly.&n
+~
+&+L   This millipede is one part body and two parts legs, its black carapace&N
+&+Llimned in &+Yyellow &+Lstripes.  Although it is very long, it is rather agile, and&N
+&+Lmoves rather quickly.&N
+~
+10248 1 0 80 0 0 0 -1000 S
+I 0 0 -1
+30 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5013
+centipede giant centi cent~
+&+La giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le&n~
+&+LA giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is here, crawling about in search of food.&n
+~
+&+L   This &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is not as large as the millipede. As a result, its agility is&N
+&+Lmuch better and moves with an uncanny speed. It seems to think you'd make a&N
+&+Lgood snack, and charges to attack!&N
+~
+10248 1 0 1048624 0 0 0 -1000 S
+I 0 0 -1
+45 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5014
+glow worm~
+&+ca &+Cglow &+cworm&n~
+&+cA &+Cglow &+cworm is hanging from the ceiling here, mimicking a &+Cstar &+cin the sky.&N
+~
+&+g   This &+Gglow &+gworm &+Gshines &+gwith a pale light, filling the cavern with a strange&N
+&+girridescence.&N
+~
+8202 0 0 32 0 0 0 -1000 S
+I 0 0 -1
+5 -3 -95 50d100+2650 6d6+25
+0.0.0.0 121500
+8 8 0
+#5015
+tube worm~
+&+ca &+Ltube &+cworm&N~
+&+cA &+Ltube &+cworm is here, snaking out of a vertical cylinder made of &+Lrock&+c.&N
+~
+&+c   This &+Ltube &+cworm is nearly four feet in diameter, its head is just a cicular&N
+&+crow of jagged &+Wteeth&+c, perfect for attaching to a victim and sucking the juices&N
+&+cout. The worm is protected by its thick &+Cs&+cc&+Ca&+cl&+Ces&+c.&N
+~
+10250 1 0 32888 0 0 0 -1000 S
+A 0 1 -1
+30 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 0
+#5016
+rock worm~
+&+ya &+Lrock &+yworm&n~
+&+yAn huge &+Lrock &+yworm is here, seeking prey.&n
+~
+&+y   This &+Lrock &+yworm is nearly impervious to physical attack, its jaws ready to&N
+&+ysunder apart anything from solid &+Lrock &+yto platemail. It looks very fearsome, and&N
+&+ywise adventurers would do well not to underestimate its ferocity.&N
+~
+33564810 1 0 570532012 0 0 0 -500 S
+AC 0 1 -1
+46 -5 -94 53d121+4717 7d6+30
+8.0.6.6 214650
+8 8 0
+#5017
+stone golem~
+&+La &+wstone &+Lgolem&N~
+&+LA &+wstone &+Lgolem is here, lumbering down the passageway.&N
+~
+&+L   This &+wstone &+Lgolem towers above you, and although it is slow, it is&N
+&+Lundoubtedly very strong.&N
+~
+10248 1 0 40 14336 0 0 -1000 S
+OG 0 16 -1
+53 -5 -94 53d131+4770 7d6+30
+8.0.6.6 214650
+8 8 0
+#5018
+earth elemental~
+&+yan earth elemental&n~
+&+yAn elemental of earth is here, rising out of a pool of mud.&n
+~
+&+y   This earth elemental towers above you, and grunts with dissatisfaction at&N
+&+yyour intrusion. The ends of its arms slowly coalesce into the shape of lucern&N
+&+yhammers, which it now swings at you!&N
+~
+1073752074 1 0 570425592 0 0 0 -500 S
+EE 0 1 -1
+50 -5 -94 53d88+4664 7d6+30
+8.0.6.6 214650
+8 8 0
+#5019
+spelunking explorer~
+&+wa &+cspelunking &+rexplorer&N~
+&+LA &+cspelunking &+rexplorer &+Lis here, setting up &+ycamp&+L.&N
+~
+&+c   This spelunking &+rexplorer &+clooks very rough and rugged, and seems to know his&N
+&+cway around these caverns.&N
+~
+10250 32 0 8424 0 0 0 1000 S
+H 0 1 -1
+53 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 1
+#5020
+diamondine diamond golem massive _ignore_~
+&+La massive &+Wdiamond&+Line golem&n~
+&+LA massive &+Wdiamond&+Line golem is here, &+Cs&+cp&+Ca&+cr&+Ck&+cl&+Ci&+cn&+Cg &+Lin the darkness.&n
+~
+&+L   This &+Wdiamond&+Line golem looks very fearsome, for not only is it entirely&N
+&+Lcomposed of &+Wdiamond&+L, but it looks very strong as well.&N
+~
+33564682 1 0 33628350 14528 0 1060864 0 S
+OG 0 2097152 -1
+57 -7 -107 57d132+6213 7d6+35
+2.4.8.6 230850
+8 8 0
+#5021
+rothe gentle~
+&+ya gentle rothe&n~
+&+yA gentle rothe is here, roaming the labyrinth.&n
+~
+&+y   This rothe is a cattle-like animal, prodding its way down through the&N
+&+ycaverns peacefully.&N
+~
+10376 0 0 0 0 0 0 500 S
+A 0 0 -1
+25 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5022
+rothe young~
+&+ya young &+Lrothe&n~
+&+yA young &+Lrothe &+yis here, roaming the labyrinth.&n
+~
+&+y   This &+Lrothe &+yis a cattle-like animal, prodding its way down through the&N
+&+ycaverns peacefully.&N
+~
+10376 0 0 0 0 0 0 500 S
+A 0 0 -1
+20 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5023
+xloranarx queen spider giant~
+&+La giant queen &+Lspider&n~
+&+LA giant, queen &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   The giant queen spider is laden with &+weggs&+L, and it looks as though you've&N
+&+Ldisturbed it while it was laying them. Unfortunately for you, spiders are very&N
+&+Laggressive during this stage of their lives. Fortunately for her, she now has&N
+&+Lsomeone to feed to her little ones!&N
+~
+1174415434 1 0 35225660 0 0 0 -1000 S
+X 0 1 -1
+55 -5 -107 54d88+4482 7d6+30
+0.0.0.0 218700
+8 8 2
+#5024
+lost adventurer mackin~
+&+wa &+Llost &+radventurer&N~
+&+LA lost &+radventurer &+Lis here, trying hopelessly to find his way out.&N
+~
+&+L   This lost &+radventurer &+Llooks terrified, for he has obviously been in these&N
+&+wlabyrinths &+Lfor a long while and has yet to find his way out.&N
+~
+33564808 0 0 46 0 0 0 0 S
+H 0 1 -1
+40 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#5025
+dolomite warrior~
+&+La dolomite warrior&n~
+&+LA dolomite warrior is here, patrolling the labyrinth.
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound.  Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752072 24 0 32936 0 0 0 -1000 S
+EE 0 1 -1
+45 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5026
+dolomite warrior~
+&+La dolomite warrior&n~
+&+LA dolomite warrior is here, patrolling the labyrinth.&n
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound.  Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+10312 8 0 168 0 0 0 -1000 S
+EE 0 1 -1
+49 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5027
+guardian dolomite~
+&+La dolomite guardian&n~
+&+LA dolomite guardian is here, keeping watch for intruders.&n
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound. Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752138 56 0 33554616 0 0 0 -1000 S
+OG 0 1 -1
+53 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5028
+knight golden flame dzonovrakdl~
+&+La &+Wknight &+Lof the &+YGolden &+RFlame&n~
+&+LA &+Wknight &+Lof the &+YGolden &+RFlame &+Lis here, battling the evil that lurks in wait.&n
+~
+&+L   This &+Wknight &+Lglows &+Ygolden &+Lwith the light of his magnificent armor, his glass&N
+&+Lstandard twinkling the song of his Faith and devotion. He is a champion of&N
+&+Lgood, and has come to the &+wLabyrinth &+Lof &+rNo Return &+Lto battle the awesome &+revil&N
+&+Lwithin it.&N
+~
+1174419464 0 0 8316 32960 0 0 1000 S
+PH 0 8 -1
+50 -5 -111 55d121+4620 7d6+30
+0.2.7.10 222750
+8 8 1
+#5029
+earth elemental~
+&+yan earth elemental&n~
+&+yAn elemental of earth is here, rising out of a pool of mud.&n
+~
+&+y   This earth elemental towers above you, and grunts with dissatisfaction at&N
+&+yyour intrusion. The ends of its arms slowly coalesce into the shape of lucern&N
+&+yhammers, which it now swings at you!&N
+~
+10250 1 0 570532072 192 0 0 -1000 S
+G 0 1 -1
+49 -5 -94 53d131+4770 7d6+30
+8.0.6.6 214650
+8 8 0
+#5030
+bat giant flying~
+&+La flying bat&n~
+&+LA giant bat is hanging from the ceiling here, fast asleep.&n
+~
+&+L   This giant bat has a wingspan of nearly six feet, and seems to have a set of&N
+&+Lvicious &+Wfangs &+Land large sensitive ears. Luckily, it is sleeping . . . for now.&N
+~
+141320 1 0 60 0 0 0 -800 S
+B 0 0 -1
+32 2 -28 40d95+920 4d7+10
+0.0.0.0 51840
+4 4 0
+#5031
+bat flying~
+&+La flying bat&n~
+&+LA giant bat is flying here, screeching down the passageway.&n
+~
+&+L   This giant bat has a wingspan of nearly six feet, and is kicking up quite a&N
+&+Lbreeze as it flies overhead. Unfortunately, it thinks you would make a great&N
+&+Lsnack and dives to attack!&N
+~
+141448 1 0 60 0 0 0 -1000 S
+B 0 0 -1
+30 2 -28 40d95+920 4d7+10
+0.0.0.0 51840
+8 8 0
+#5032
+giant beetle~
+&+La giant beetle&n~
+&+LA giant beetle is lumbering about here, &+Reyes &+Lglowing.&n
+~
+&+L   This gigantic beetle looks rather large and bulky, yet it must be incredibly&N
+&+Lstrong to carry around its thick, chitinous, armored body. Its mandibles look&N
+&+Lvery powerful, as it is able to use them to tunnel into the rock that forms the&N
+&+Lwall. Its &+Reyes &+Lglow mysteriously, leading ne to believe that this creature has&N
+&+Lspent too long a time in the &+wlabyrinth&+L.&N
+~
+1207969800 56 0 160 1024 0 0 -1000 S
+I 0 1 -1
+39 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5033
+blind fish~
+&+wa &+Lblind &+bfish&n~
+&+BA &+Wpale&+B, &+Lblind &+bfish &+Bis &+bswimming &+Baround here.&n
+~
+&+w   This pale, &+Lblind &+bfish &+whas lost the need for eyes in these dark caverns a&N
+&+wlong time ago. Instead, sensitive feelers protrude from the tips of its mouth,&N
+&+wsearching for small prey.&N
+~
+270346 0 0 33080 0 0 0 0 S
+A 0 0 -1
+10 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5034
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5035
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5036
+dolomite warrior~
+&+La dolomite warrior&n~
+&+LA dolomite warrior is here, patrolling the labyrinth.
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound.  Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752072 24 0 32936 0 0 0 -1000 S
+EE 0 1 -1
+45 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5037
+guardian dolomite~
+&+La dolomite guardian&n~
+&+LA dolomite guardian is here, keeping watch for intruders.&n
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound. Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752138 56 0 33554616 0 0 0 -1000 S
+OG 0 1 -1
+53 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5038
+dolomite warrior~
+&+La dolomite warrior&n~
+&+LA dolomite warrior is here, patrolling the labyrinth.
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound.  Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752072 24 0 32936 0 0 0 -1000 S
+EE 0 1 -1
+45 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5039
+guardian dolomite~
+&+La dolomite guardian&n~
+&+LA dolomite guardian is here, keeping watch for intruders.&n
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound. Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752138 56 0 33554616 0 0 0 -1000 S
+OG 0 1 -1
+53 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5040
+guardian dolomite~
+&+La dolomite guardian&n~
+&+LA dolomite guardian is here, keeping watch for intruders.&n
+~
+&+L   This dolomite warrior is made out of living rock, and moves with an abrasive&N
+&+Lrubbing sound. Somehow, the &+revil &+Lin these caverns has brought to life this&N
+&+Lmanifestation of minerality.&N
+~
+1073752138 56 0 33554616 0 0 0 -1000 S
+OG 0 1 -1
+53 -5 -104 53d131+4505 7d6+30
+8.0.6.6 214650
+8 8 0
+#5041
+tube worm~
+&+ca &+Ltube &+cworm&N~
+&+cA &+Ltube &+cworm is here, snaking out of a vertical cylinder made of &+Lrock&+c.&N
+~
+&+c   This &+Ltube &+cworm is nearly four feet in diameter, its head is just a cicular&N
+&+crow of jagged &+Wteeth&+c, perfect for attaching to a victim and sucking the juices&N
+&+cout. The worm is protected by its thick &+Cs&+cc&+Ca&+cl&+Ces&+c.&N
+~
+10250 1 0 32888 0 0 0 -1000 S
+A 0 1 -1
+30 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 0
+#5042
+tube worm~
+&+ca &+Ltube &+cworm&N~
+&+cA &+Ltube &+cworm is here, snaking out of a vertical cylinder made of &+Lrock&+c.&N
+~
+&+c   This &+Ltube &+cworm is nearly four feet in diameter, its head is just a cicular&N
+&+crow of jagged &+Wteeth&+c, perfect for attaching to a victim and sucking the juices&N
+&+cout. The worm is protected by its thick &+Cs&+cc&+Ca&+cl&+Ces&+c.&N
+~
+10250 1 0 32888 0 0 0 -1000 S
+A 0 1 -1
+30 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 0
+#5043
+tube worm~
+&+ca &+Ltube &+cworm&N~
+&+cA &+Ltube &+cworm is here, snaking out of a vertical cylinder made of &+Lrock&+c.&N
+~
+&+c   This &+Ltube &+cworm is nearly four feet in diameter, its head is just a cicular&N
+&+crow of jagged &+Wteeth&+c, perfect for attaching to a victim and sucking the juices&N
+&+cout. The worm is protected by its thick &+Cs&+cc&+Ca&+cl&+Ces&+c.&N
+~
+10250 1 0 32888 0 0 0 -1000 S
+A 0 1 -1
+30 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 0
+#5044
+earth elemental~
+&+yan earth elemental&n~
+&+yAn elemental of earth is here, rising out of a pool of mud.&n
+~
+&+y   This earth elemental towers above you, and grunts with dissatisfaction at&N
+&+yyour intrusion. The ends of its arms slowly coalesce into the shape of lucern&N
+&+yhammers, which it now swings at you!&N
+~
+1073752074 1 0 570425592 0 0 0 -500 S
+EE 0 1 -1
+50 -5 -94 53d88+4664 7d6+30
+8.0.6.6 214650
+8 8 0
+#5045
+earth elemental~
+&+yan earth elemental&n~
+&+yAn elemental of earth is here, rising out of a pool of mud.&n
+~
+&+y   This earth elemental towers above you, and grunts with dissatisfaction at&N
+&+yyour intrusion. The ends of its arms slowly coalesce into the shape of lucern&N
+&+yhammers, which it now swings at you!&N
+~
+10250 1 0 570532072 192 0 0 -1000 S
+G 0 1 -1
+49 -5 -94 53d131+4770 7d6+30
+8.0.6.6 214650
+8 8 0
+#5046
+colorless salamander lonely~
+&+wa colorless &+Lsalamander&N~
+&+LA lonely &+wcolorless &+Lsalamander wanders about here.&N
+~
+&+w   For some reason, creatures grow to an enormous size within this dark&N
+&+wlabyrinth, and this &+Lsalamander &+wis no exception. Being eternally in &+Ldarkness&+w,&N
+&+wthis &+Lsalamander &+whas lost its colorful appearance common to its smaller kin.&N
+&+wHowever, its giant size has made this particular lizard exceptionally&N
+&+waggressive.&N
+~
+26634 1 0 56 0 0 0 -1000 S
+D 0 4 -1
+60 -3 -95 50d100+2650 6d6+25
+0.0.0.0 121500
+8 8 0
+#5047
+scarred battle minotaur~
+&+La battle &+rscar&+Lred &+Lmino&+rtaur&n~
+&+LA battle &+rscar&+Lred mino&+rtaur &+Lis here, looking rather unpleased and furious.&n
+~
+&+L   This half-man, half-bull creature stands over nine feet tall, its muscles&N
+&+Lrippling with ungodly strength. Its black torso bears many a &+rscar&+L, no doubt&N
+&+Linflicted by previous opponents. The fact that this &+Lmino&+rtaur &+Lis still around&N
+&+Lsuggests that they lost, which is not good news for you.&N
+~
+1107322890 1 0 120 262144 0 0 -1000 S
+MT 0 1 7
+60 -3 -85 50d100+2900 6d6+25
+0.3.1.5 121500
+8 8 1
+#5048
+muscular minotaur~
+&+wa &+Lmuscular &+Lmino&+rtaur&n~
+&+LA muscular &+Lmino&+rtaur &+Lis here, looking rather unpleased and furious.&n
+~
+&+L   This half-man, half-bull creature stands over nine feet tall, its muscles&N
+&+Lrippling with ungodly strength. Its black torso bears many a &+Rscar&+L, no doubt&N
+&+Linflicted by previous opponents. The fact that this &+Lmino&+rtaur &+Lis still around&N
+&+Lsuggests that they lost, which is not good news for you.&N
+~
+1107322890 1 0 120 262144 0 0 -1000 S
+MT 0 1 7
+60 -3 -85 50d100+2900 6d6+25
+0.3.1.5 121500
+8 8 1
+#5049
+stone golem~
+&+La &+wstone &+Lgolem&N~
+&+LA &+wstone &+Lgolem is here, lumbering down the passageway.&N
+~
+&+L   This &+wstone &+Lgolem towers above you, and although it is slow, it is&N
+&+Lundoubtedly very strong.&N
+~
+10248 1 0 40 14336 0 0 -1000 S
+OG 0 16 -1
+53 -5 -94 53d131+4770 7d6+30
+8.0.6.6 214650
+8 8 0
+#5050
+stone golem~
+&+La &+wstone &+Lgolem&N~
+&+LA &+wstone &+Lgolem is here, lumbering down the passageway.&N
+~
+&+L   This &+wstone &+Lgolem towers above you, and although it is slow, it is&N
+&+Lundoubtedly very strong.&N
+~
+10248 1 0 40 14336 0 0 -1000 S
+OG 0 16 -1
+53 -5 -94 53d131+4770 7d6+30
+8.0.6.6 214650
+8 8 0
+#5051
+millipede giant pede~
+&+La giant millipede&n~
+&+LA giant millipede is here scampering along rather quickly.&n
+~
+&+L   This millipede is one part body and two parts legs, its black carapace&N
+&+Llimned in &+Yyellow &+Lstripes.  Although it is very long, it is rather agile, and&N
+&+Lmoves rather quickly.&N
+~
+10248 1 0 80 0 0 0 -1000 S
+I 0 0 -1
+30 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5052
+millipede giant pede~
+&+La giant millipede&n~
+&+LA giant millipede is here scampering along rather quickly.&n
+~
+&+L   This millipede is one part body and two parts legs, its black carapace&N
+&+Llimned in &+Yyellow &+Lstripes.  Although it is very long, it is rather agile, and&N
+&+Lmoves rather quickly.&N
+~
+10248 1 0 80 0 0 0 -1000 S
+I 0 0 -1
+30 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5053
+millipede giant pede~
+&+La giant millipede&n~
+&+LA giant millipede is here scampering along rather quickly.&n
+~
+&+L   This millipede is one part body and two parts legs, its black carapace&N
+&+Llimned in &+Yyellow &+Lstripes.  Although it is very long, it is rather agile, and&N
+&+Lmoves rather quickly.&N
+~
+10248 1 0 80 0 0 0 -1000 S
+I 0 0 -1
+30 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5054
+millipede giant pede~
+&+La giant millipede&n~
+&+LA giant millipede is here scampering along rather quickly.&n
+~
+&+L   This millipede is one part body and two parts legs, its black carapace&N
+&+Llimned in &+Yyellow &+Lstripes.  Although it is very long, it is rather agile, and&N
+&+Lmoves rather quickly.&N
+~
+10248 1 0 80 0 0 0 -1000 S
+I 0 0 -1
+30 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5055
+vadatorn torn wizard devil~
+&+wVada&+Ltorn, The &+rDevil &+LWizard of &+RD&+re&+Rs&+rp&+Ra&+ri&+Rr&N~
+&+wVada&+Ltorn, The &+rDevil &+LWizard of &+RD&+re&+Rs&+rp&+Ra&+ri&+Rr &+Lstands here, &+Reyes &+Lof fire glaring.&N
+~
+&+L   This dismal creature stands well over eighteen feet in total actual height.&N
+&+REyes &+Lof &+rfire &+Lburn with a dreary hatred beyond any that you have ever gazed your&N
+&+Lmortal stare on before.  Demonical wings spring forth from the muscular back of&N
+&+Lthis vile &+revil &+Lentity.  A strange symbol of a &+Lmino&+rtaur &+Lhas been &+wburned &+Linto the&N
+&+Lright arm of this being.  As you look more closely you start to realize it is&N
+&+La &+bmagical &+Lward and not a natural thing.  Perhaps there is some sort of &+bcurse&N
+&+Lthat has been placed upon this demonic minion.&N
+~
+1108752458 0 0 536971708 34882 0 0 -1000 S
+Y 0 512 7
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5056
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5057
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5058
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5059
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5060
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5061
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5062
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5063
+spider giant hairy~
+&+La giant &+yhairy &+Lspider&n~
+&+LA giant, &+yhairy &+Lspider is here, ready to pounce on unsuspecting prey.&n
+~
+&+L   This &+yhairy &+Lspider would be a much-worshipped creature in the city of&N
+&+LMenzoberranzan. As it is, most other creatures within these caverns stay out&N
+&+Lof the way of this arachnid, for its vicious pincers are coated with &+Gpoison &+Land&N
+&+Lcan crush a granite boulder easily.&N
+~
+1073752072 1 0 35127416 0 0 0 -1000 S
+AS 0 1 -1
+38 -3 -95 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#5064
+centipede giant centi cent~
+&+La giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le&n~
+&+LA giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is here, crawling about in search of food.&n
+~
+&+L   This &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is not as large as the millipede. As a result, its agility is&N
+&+Lmuch better and moves with an uncanny speed. It seems to think you'd make a&N
+&+Lgood snack, and charges to attack!&N
+~
+10248 1 0 1048624 0 0 0 -1000 S
+I 0 0 -1
+45 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5065
+centipede giant centi cent~
+&+La giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le&n~
+&+LA giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is here, crawling about in search of food.&n
+~
+&+L   This &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is not as large as the millipede. As a result, its agility is&N
+&+Lmuch better and moves with an uncanny speed. It seems to think you'd make a&N
+&+Lgood snack, and charges to attack!&N
+~
+10248 1 0 1048624 0 0 0 -1000 S
+I 0 0 -1
+45 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5066
+centipede giant centi cent~
+&+La giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le&n~
+&+LA giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is here, crawling about in search of food.&n
+~
+&+L   This &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is not as large as the millipede. As a result, its agility is&N
+&+Lmuch better and moves with an uncanny speed. It seems to think you'd make a&N
+&+Lgood snack, and charges to attack!&N
+~
+10248 1 0 1048624 0 0 0 -1000 S
+I 0 0 -1
+45 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5067
+centipede giant centi cent~
+&+La giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le&n~
+&+LA giant &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is here, crawling about in search of food.&n
+~
+&+L   This &+wc&+Le&+wnt&+Li&+wp&+Le&+wd&+Le is not as large as the millipede. As a result, its agility is&N
+&+Lmuch better and moves with an uncanny speed. It seems to think you'd make a&N
+&+Lgood snack, and charges to attack!&N
+~
+10248 1 0 1048624 0 0 0 -1000 S
+I 0 0 -1
+45 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+8 8 0
+#5068
+pudgy rothe~
+&+ya pudgy rothe&n~
+&+yA pudgy rothe is here, roaming the labyrinth.&n
+~
+&+y   This rothe is a cattle-like animal, prodding its way down through the&N
+&+ycaverns peacefully.&N
+~
+10376 0 0 0 0 0 0 500 S
+A 0 0 -1
+28 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#5069
+dismal rothe~
+&+ya dismal &+Lrothe&n~
+&+yA dismal &+Lrothe &+yis here, roaming the labyrinth.&n
+~
+&+y   This &+Lrothe &+yis a cattle-like animal, prodding its way down through the&N
+&+ycaverns peacefully.&N
+~
+10376 0 0 0 0 0 0 500 S
+A 0 0 -1
+26 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0

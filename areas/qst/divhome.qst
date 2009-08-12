@@ -1,0 +1,342 @@
+#40701
+M
+hello~
+'Hello there.
+I seek the powers of the elements.
+The four elements shall bring peace unto my sisters.'
+~
+Q
+&+cThe &+Ysiren&+c smiles wistfully and disrobes.&n
+        &+W'Please, in return for the elemental tokens you have shared
+        &+Wfor me, take my &+Ldress&+W and my &+Lharp&+W. May they serve you as
+        &+Wwell as they have served me.'
+~
+R I 40766
+R I 40767
+G I 40762
+G I 40763
+G I 40764
+G I 40765
+D
+&+cLacking in clothing but unashamed the &+Ysiren&+c vanishes into the &+Wclouds&n
+&+cwith the tokens in hand.&n
+~
+S
+#40706
+M
+hello~
+'Hello traveller.
+I have come to this holy land to search out and destroy evil.
+Evil wanders the mist plane, this place is a haven for the
+pure, soon I shall begin the hunt for the horrible villians
+who wander below the Gates of Purity.'
+~
+M
+villains evil~
+'Why yes, for the hearts of the evil villains, at least to me,
+ are worth immeasureable amounts.  Find them, hand them to me,
+ and I would be eager to reward you!'
+~
+M
+default~
+~
+Q
+&+cThe bounty hunter nods at the proof. &n
+        &+W'Raith has long been a thorn in my side. Good riddance.
+        &+W'Take these greaves as your reward.'&n
+~
+R I 40771
+G I 40726
+Q
+&+cThe bounty hunter appears estatic.&n
+        &+W'Ajandaner's demise is wonderful news. That rogue had been
+        &+Wslaying the angelkin for ages. Now, at last, they are safe.&n
+        &+WPlease take this headdress, I have held it for eons, now it
+        &+Wis yours.'&n
+~
+R I 40769
+G I 40758
+Q
+&+cThe bounty hunter nods.&n
+        &+W'Vain's death is good news to the angelkin.  He was a
+        &+Wdangerous drow and had the ability to become much more
+        &+Wdangerous. Take this ring as a reward.'&n
+~
+R I 40768
+G I 40756
+Q
+&+cThe bounty hunter nods.&n
+        &+W'With Gravet dead I feel I owe you. Please take this as
+        &+Wa symbol of my thanks.'&n
+~
+R I 22625
+G I 40757
+Q
+~
+R I 40773
+G I 40772
+Q
+~
+R I 22020
+G I 40774
+Q
+~
+R I 31341
+G I 40776
+S
+#40708
+M
+hello~
+'I control the power of the flame..
+I can infuse the power of fire into almost anything with the
+proper tools...'
+~
+M
+tools~
+'Why yes, tools.  Perhaps if you were to find me these two things,
+ if you wish an item of fire for your own.... &+ra&N &+Yfl&+rami&+Yng&N &+rdemon&N &+Lclaw&n,
+ and &+Wan&N &+ciron mace&N &+Wdubbed&N &+c'&+YRiser&+c'&N and I may be persuaded
+ to fashion a new item for you!'
+~
+Q
+&+rThe phoenix takes the items and melds them together with divine
+&+rmagics.&n
+                &+W'Take this mace which has been infused
+                &+Wwith the power of &+rfire&+W, the power I
+                &+Wcontrol and use it for just cause.'&n
+~
+R I 40729
+G I 40727
+G I 40760
+S
+#40712
+M
+hello~
+'Hello and welcome to my shop.  As well as selling
+the heavenly armor you see around you I can also imbue
+stronger qualities upon items.  The power of the mist
+is most impressive.'
+~
+M
+mist~
+'Yes, the mist.  I've heard there is a shard of mist which when combined with
+ another item such as the Prince's hammer, transforms the item into an even
+ more powerful weapon.'
+~
+Q
+&+CEm&+citi&+Con&+c smiles after finishing his work.
+        &+c'My greatest work, may this battlehammer prove useful for you.'&n
+~
+R I 40717
+G I 40715
+G I 40716
+Q
+&+cAfter banging on his massive hammer and anvil Emition hands you his finished work.
+&+W	"For my friend Whetstone, hope he likes it."
+~
+R I 40778
+G I 77539
+S
+#40715
+M
+hello~
+'I control the power of ice..
+I can meld the power of ice into anything, with the correct
+ingredients..'
+~
+M
+ingredients ingredient~
+'Indeed.  &+bA&N &+Wfrosty&N &+bicicle&N and &+Wan&N &+ciron mace&N
+ &+Wdubbed&N '&+YRiser&N' combine to make an exquisite weapon.  However,
+ finding such items are difficult indeed.
+~
+Q
+&+BShiva&+c waves her hands mystically and melds the two items together.&n
+        &+W'Take this weapon and use it wisely, I have infused it
+        &+Wwith the essence of ice itself.  May it serve you well.&n
+~
+R I 40728
+G I 40727
+G I 40749
+S
+#40716
+M
+hello~
+'Hello there, fellow traveller. Glad to see someone else out and about
+on this godforsaken plane.  I'm searching for treasure personally,
+but the unique stuff is becoming less and less common these days.'
+~
+M
+unique~
+'Why yes, uniques.. items that you may find here and there, which
+ may be of no use to me, but of great use to me!  Perhaps a disc
+ of adamantium; a golden horse shoe; a piece of ivory; a rare
+ griffon feather; a smoke dragon egg, a wyvern egg or even a
+ tiny carved bone statue, and for each, I'd be willing to offer
+ a small reward.'
+~
+Q
+        &+W'Wow, dude! A horseshoe.. And it's real &+Ygold&+c.  A real catch.'&n
+~
+R C 50000
+G I 40734
+Q
+&+cWicks smiles happily.&n
+        &+W'Good times, good times.  This &+Wivory&+c is worth a bit of cash,&n
+        &+Wthanks.'&n
+~
+R C 10000
+G I 40719
+Q
+&+cWicks beams with happiness.&n
+        &+W'Kick ass, this is a really rare feather. Take some coin.'&n
+~
+R C 25000
+G I 40746
+Q
+        &+W'Wow, an actual egg from an actual smoke dragon, that's
+        &+Wgonna impress the other guys!'&n
+~
+R C 25000
+G I 40748
+Q
+        &+W'Wow dude, neat little disc, I'll pay for that.'&n
+~
+R C 5000
+G I 40751
+Q
+        &+W'Neat statue man, thats deff worth some coinage.'&n
+~
+R C 10000
+G I 40750
+Q
+~
+R C 25000
+G I 31105
+S
+#40717
+M
+hello~
+'Hello, I'm sorry but I have no time to for idle chatter now.
+My token of titans has gone missing, I must continue to search
+for it.'
+~
+Q
+&+CLeolan&+c beams with happiness.&n
+        &+W'Thank you very much for returning this token to us. I feared&n
+        &+Wit had fallen into the wrong hands. Take my shield as a reward.'&n
+~
+R I 40722
+G I 40718
+S
+#40718
+M
+hello~
+'Hello there, welcome to the palace.'
+Lenia gives a short sigh.
+'Those silly giants, always stirring up trouble, watching
+them over them in the prison is such a bore.  They are
+always drunk...'
+~
+Q
+        &+W'You have shown me proof of the demise of the cloud
+        &+Lgiants&+W.  Despite their evil ways, we, the &+Ctitan&+W royalty,
+        &+Wfeel for this race who lived within our kingdom. Please
+        &+Wtake this &+ckey&+W and release those remaining giants inside
+        &+Wour prison.  It seems only fair.&n
+~
+R I 40745
+G I 40744
+S
+#40735
+M
+hello~
+'You are interfering with my duty to watch the portal.  Unless
+you have proof of the descension of the titan royal I suggest
+you leave before I make your stay permanent.'
+~
+Q
+&+rRaith grins wickedly&n
+        &+W'Ah, with this token, my leaders can begin to drain the
+        &+Wpowers of the titan royalty.  My thanks.'&n
+~
+R I 40725
+G I 40718
+S
+#40748
+M
+hello~
+'Hello, I am just a blacksmith apprentice but I have known to be
+able to craft some fine suits of armor.  I do however need
+the most powerful dragonscale... and a fee for my work.'
+~
+M
+fee scale~
+"Why yes, for my labors are not free! Perhaps you could
+ find either the scale of the celestial dragon, or perhaps
+ that of the smoke dragon, add to that the minor fee of
+ 10 platinum and we shall see!"
+~
+Q
+&+W'Ah, celestial dragon scale.. If you wait but one moment I shall
+&+Wcraft this into a wonderful suit of armor for you.'
+&+w....
+&+w....
+&+w....
+&+W'Here we are. Enjoy.'&n
+~
+R I 40738
+G I 40736
+G C 10000
+D
+&+c'All that crafting of armor has taken its toll on me, I must
+&+cgo rest now.'&n
+~
+Q
+&+W'Ah, a perfect smoke dragon scale. If you wait one moment I will
+&+Wcraft a magnificent suit of smoke dragonscale armor for you.'&n
+&+w....
+&+w....
+&+w....
+&+W'Here you go, hope it serves you well.'&n
+~
+R I 40737
+G I 40735
+G C 10000
+D
+&+c'All that crafting of armor has taken its toll on me. I must
+&+cgo rest now.'&n
+~
+Q
+~
+R I 40777
+G I 76697
+G C 10000000
+S
+#40749
+M
+hello~
+'Good day to you, adventurer. I am sorry but I can only
+allow those that have proof of their venture through the
+misty nexus to enter our divine gates.'
+~
+Q
+&+WThe strong angel smiles and says:&n
+        &+c'You have proven you have wandered through the divine
+        &+cnexus, you may use this key to enter the palace.'&n
+~
+R I 40740
+G I 40739
+S
+#40761
+Q
+~
+R I 40775
+G I 22032
+D
+&+W	"With the power of this mace I can now return to my
+&+W	own lands, the angelics borders will be no match
+&+W	for me now. Take this as a fair trade, as it is no
+&+W	use to me."
+~
+S

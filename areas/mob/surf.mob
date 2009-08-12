@@ -1,0 +1,4314 @@
+#200000
+dryad female woman~
+&+ythe beautiful dryad~
+&+yA beautiful dryad is here, observing you shyly.
+~
+Her exquisite features, delicate and finely chiselled, make her look
+somewhat akin to an elf maiden. She has high cheek bones and violet
+eyes, with golden-red hair that seems to almost sparkle. Her light-tan
+skin is dotted with a greenish tint.
+~
+205 0 0 4194336 0 0 0 0 S
+H 0 0 -1
+20 13 35 20d30+100 3d4+2
+0.9.3.0 9720
+8 8 2
+#200001
+forest ranger~
+&+gthe forest ranger~
+&+gA forest ranger is passing through the area here, dressed in green.
+~
+He is dressed from head to toe in green leather armor, and resembles a
+half-elf in appearance. He has blackish hair and striking violet eyes, and
+stands about six feet tall. From his appearance, this rangers definitely
+knows his way about these forests.
+~
+1074006092 0 0 148 0 0 0 1000 S
+H 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 1
+#200002
+wizard maelron mage~
+&+mMaelron&n~
+&+mMaelron&n &+Lthe wandering wizard, searches for his long lost friend.&n
+~
+   Maelron the wandering wizard appears the be a human of advanced years with
+long grey hair and wrinkled skin.  Dressed in a loose fitting grey robe wearing
+leather sandals he looks rather unimposing except for power that seems to
+radiate from the man.
+~
+1107429448 0 0 570433576 2048 0 0 0 S
+PH 0 512 -1
+50 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200003
+arcane merchant~
+&+Ban arcane merchant&n~
+&+BAn arcane merchant rests here on his way to Tharnadia.&n
+~
+   This 12 foot tall lanky blue-skinned humanoid with a elongated face and
+thin fingers is wearing just a simple lite-blue robe with a small belt and
+buckle.  He is a merchant and like all of his race deals only in magical items
+and potions.
+~
+1107364040 0 0 570425512 2112 0 0 0 S
+G 0 512 -1
+60 -3 -95 50d80+25000 6d6+25
+0.3.1.5 121500
+6 5 1
+#200004
+patrol leader _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Gwarrior&+L is scanning the landscape.&n
+~
+&+L   Not very tall compare to other guards and wearing a &+Ggreen chainmail&+L, this
+&+Lman seem to be one with nature. He bears the insignia of the &+WTharnadian
+&+RPatrol Leader&+L upon his &+Lchainmail.&n
+~
+67110920 384 0 24 0 0 0 1000 S
+PH 1 2 -1
+30 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#200005
+leader patrol _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Wwarrior&+L is scanning the road.&n
+~
+&+L   Standing a bit more than six feet tall, this man look like a holy warrior.
+&+LYou can see the symbol of his god carve into his shield. The look in his eyes
+&+Lmake a lot of person think twice before raising there sword against him. He
+&+Lbears the insignia of the &+WTharnadian&+R Patrol Leader&+L upon his platemail.&n
+~
+1073743880 384 0 24 0 0 67108864 1000 S
+PH 1 8 -1
+31 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#200006
+guard patrol _patrol_guard_~
+a &+Lpatrol &+Wguard&n~
+&+LA &+Wwarrior&+L is scanning the landscape.&n
+~
+&+L   Standing six feet tall with broad shoulders and a neck the size of a small
+&+gtree&+L, this guard is all business. He bears the insignia of the &+WTharnadian
+&+RPatrol&+L upon his &+Lbreastplate.&n
+~
+67110987 2432 0 8 0 0 0 750 S
+PH 1 1 -1
+20 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200007
+hellaranin nomad~
+&+YHellaranin, &+ythe nomad~
+&+YHellaranin, &+ythe nomad roams the sands here.
+~
+  Hellaranin stands six feet in height and seems to be making out quite well.
+He wears a lot of snakeskin clothes and hasn't shaved in years. He is quite
+old.
+~
+1073743944 0 0 0 0 0 0 0 S
+PH 0 2 -1
+36 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#200008
+patrol leader _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Gwarrior&+L is guarding the town's gate.&n
+~
+&+L   Not very tall compare to other guards and wearing a &+Ggreen chainmail&+L, this
+&+Lman seem to be one with nature. He bears the insignia of the &+WTharnadian
+&+RPatrol Leader&+L upon his &+Lchainmail.&n
+~
+67110987 2432 0 268435608 0 0 0 1000 S
+PH 1 8 -1
+30 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#200009
+guard patrol _patrol_guard_~
+a &+Lpatrol &+Wguard&n~
+&+LA &+Wwarrior&+L is scanning the landscape.&n
+~
+&+L   Standing six feet tall with broad shoulders and a neck the size of a small
+&+gtree&+L, this guard is all business. He bears the insignia of the &+WTharnadian
+&+RPatrol&+L upon his &+Lbreastplate.&n
+~
+67110987 2432 0 152 0 0 0 750 S
+PH 1 1 -1
+25 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200010
+human paladin soldier guard~
+&+WA &+CHuman&n &+WPaladin in Full&n &+LPlatemail&n~
+&+WA &+CHuman&n &+WPaladin in Full&n &+LPlatemail Wanders Here.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200011
+barbarian hunter soldier guard~
+&+wA &+BBarbarian &+LWarrior&n~
+&+wA &+BBarbarian&n &+wWarrior protects the the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PB 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200012
+gnomish soldier guard~
+&+wa &+Rgnomish&+L soldier&n~
+&+wA &+Lsoldier&+w from &+RAshrumite&+W patrols&+w the countryside here.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PG 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200013
+soldier woodseer patrol guard~
+&+wa &+yhalfling&+L soldier&n~
+&+wA &+Lsoldier&+w of the &+yWoodseer&+c guard&+W patrols&+w the area.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PF 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200014
+dwarven soldier guard~
+&+wa &+Ydwarven &+Lsoldier&n~
+&+wA &+Lsoldier &+wfrom &+YKimordril&+w watches the area here.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PM 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200015
+elven soldier guard~
+&+wa &+celven &+Lsoldier&n~
+&+wA &+Lsoldier&+w from &+cCharing&+w protects the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PE 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200016
+soldier marigot guard~
+&+wa &+gcen&+Ltaur &+Lsoldier&n~
+&+wA &+Lsoldier&+w from &+MMarigot&+w scans the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+CT 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200017
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200018
+soldier elite ugta guard~
+&+wan &+Welite &+Bbarbarian&+L soldier&n~
+&+wAn &+Lelite &+Wsoldier&+w from &+BUgta&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PB 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200019
+soldier woodseer patrol guard elite~
+&+wan &+Welite &+yhalfling&+L soldier&n~
+&+wAn &+Welite soldier&+w of the &+yWoodseer&+c guard&+w scans the the area.&n
+~
+&+wThis strong soldier watches the land around his city vigilantly for
+&+wintruders.  He seems eager to jump into battle, and quite adept with
+&+wat combat.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PF 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200020
+elite gnomish soldier guard~
+&+wan &+Welite &+Rgnomish&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+RAshrumite&+w watches over the countryside.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PG 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200021
+elite dwarven soldier guard~
+&+wan &+Welite &+Ydwarven&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+YKimordril&+W patrols&+w here.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PM 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200022
+captain guard tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200023
+captain guard ugta~
+&+wa &+Lcaptain&+w of the &+Bbarbarian&+w &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+Bbarbarian&+W guard &+wpatrols the area here.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PB 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200024
+guard captain gnomish ashrumite~
+&+wa &+Lcaptain &+wof the &+Rgnomish &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Rgnomish&+W guard &+wpatrols the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PG 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200025
+captain guard woodseer~
+&+wa &+Lcaptain &+wof the &+yhalfling &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+yWoodseer&n &+Wguard&+w watches the land intently.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PF 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200026
+captain guard warrior dwarven kimordril~
+&+wa &+Lcaptain&+w of the &+Ydwarven &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Ydwarven&n &+Wguard &+wprotects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PM 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200027
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200028
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200029
+captain guard warrior tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200030
+captain guard warrior tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200031
+elite gnomish soldier guard~
+&+wan &+Welite &+Rgnomish&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+RAshrumite&+w watches over the countryside.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PG 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200032
+guard captain gnomish ashrumite warrior~
+&+wa &+Lcaptain &+wof the &+Rgnomish &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Rgnomish&+W guard &+wpatrols the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PG 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200033
+captain guard warrior ugta~
+&+wa &+Lcaptain&+w of the &+Bbarbarian&+w &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+Bbarbarian&+W guard &+wpatrols the area here.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PB 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200034
+soldier elite ugta guard~
+&+wan &+Welite &+Bbarbarian&+L soldier&n~
+&+wAn &+Lelite &+Wsoldier&+w from &+BUgta&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PB 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200035
+captain guard woodseer warrior~
+&+wa &+Lcaptain &+wof the &+yhalfling &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+yWoodseer&n &+Wguard&+w watches the land intently.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PF 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200036
+soldier woodseer patrol guard elite~
+&+wan &+Welite &+yhalfling&+L soldier&n~
+&+wAn &+Welite soldier&+w of the &+yWoodseer&+c guard&+w scans the the area.&n
+~
+&+wThis strong soldier watches the land around his city vigilantly for
+&+wintruders.  He seems eager to jump into battle, and quite adept with
+&+wat combat.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PF 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200037
+elite dwarven soldier guard~
+&+wan &+Welite &+Ydwarven&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+YKimordril&+W patrols&+w here.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PM 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200038
+captain guard warrior dwarven kimordril~
+&+wa &+Lcaptain&+w of the &+Ydwarven &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Ydwarven&n &+Wguard &+wprotects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PM 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200039
+graelma necromancer~
+&+mGraelma&n~
+&+mGraelma the necromancer wanders here, reeking of death.&n
+~
+&+LThis darkly cloaked necromancer wanders the countryside, the stench of death surrounding him.&n
+~
+1107429449 0 0 570433576 2048 0 0 -1000 S
+PH 0 1024 -1
+52 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200040
+ghiran teacher sorcerer~
+&+bGhiran&n~
+&+bGhiran, the great sorcerer, stands here, thinking.&n
+~
+&+bObviously a very aged man, this great sorcerer has dedicated his life
+&+bto teaching others his great magics.
+~
+43020 384 0 570499176 12480 0 0 632 S
+PH 0 512 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200041
+surak dwarf warrior teacher~
+&+YSurak&n~
+&+YSurak, the great dwarven warrior, stands here, toying with a small boulder.&n
+~
+&+ySurok is nothing if not a muscle-bound freak.  Continuously lifting
+&+ysomething, he may be an egomaniac, but at least he knows what he's
+&+ytalking about.
+~
+43020 384 0 973185148 12480 0 0 397 S
+PM 0 1 -1
+60 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200042
+valyn teacher elf ranger~
+&+gValyn&n~
+&+gValyn, the great elven ranger, stands here, peering this way and that.&n
+~
+&+gLong versed in the way of the elven ranger, Valyn is just the man to
+&+glearn from.
+~
+43020 384 0 973152380 12480 0 0 981 S
+PE 0 2 -1
+56 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200043
+alana teacher paladin~
+&+WAlana&n~
+&+WAlana, the great paladin, stands here, at the ready.&n
+~
+&+WHaving fought in hundreds of holy battles, Alana is just the woman to
+&+Wspeak to if you're interested in the holy profession's skills yourself.
+~
+67151884 384 0 973152380 12480 0 0 1000 S
+PH 0 8 -1
+60 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 2
+#200044
+steed horse white mount~
+&+Wa great white steed&n~
+&+WA great white steed stands here.&n
+~
+&+WStanding at least seven feet high to the shoulder, this horse is quite
+&+Wfearsome indeed.  Tangle with it, if you dare..
+~
+134227980 0 0 570499176 12480 0 0 0 S
+AE 0 0 -1
+40 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 1
+#200045
+alanae antipaladin teacher~
+&+LAlanae&n~
+&+LAlanae, the great anti-paladin, stands here, smirking.&n
+~
+&+LHaving fought battles against the forces of good for years, Alanae is
+&+Ljust the person to talk to if you're interested in learning some of
+&+Lthe dark skills yourself.
+~
+43020 128 0 570499196 12480 0 0 -1000 S
+PH 0 16 -1
+50 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 2
+#200046
+steed horse black mount~
+&+La great black steed&n~
+&+LA great black steed stands here.&n
+~
+&+LStanding at least seven feet high to the shoulder, this horse is quite
+&+Lfearsome indeed.  Tangle with it, if you dare..
+~
+134227980 0 0 570499176 12480 0 0 0 S
+AE 0 0 -1
+40 2 -28 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 1
+#200047
+benali cleric teacher~
+&+cBenali&n~
+&+cFather Benali, the great cleric, stands here in silent prayer.&n
+~
+&+yAs benevolent as they come, Father Benali is known throughout the lands
+&+yfor his goodwill to races everywhere.  He is also reknowned for his
+&+yteaching abilities..  Perhaps he could teach you a little something..?
+~
+43020 384 0 570499176 12480 0 0 1000 S
+PH 0 32 -1
+51 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 1
+#200048
+mu monk teacher~
+&+yMu&n~
+&+yMu, the great monk, stands here, staring off into space.&n
+~
+&+yYou'd never know that this man was one of the greatest monks that ever
+&+ylived from looking at him - he wears the clothes of a peasant, and is
+&+ymore humble than the lowest slave.  However, if approached, he will
+&+ygladly teach a bit of the martial arts..
+~
+43020 384 0 570499176 12480 0 0 713 S
+PH 0 64 -1
+55 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200049
+perin druid teacher~
+&+gPerin&n~
+&+gPerin, the great druid, stands here, carefully scrutinizing the ground.&n
+~
+&+gContinuously scanning the ground for useful spell materials, this man
+&+ghas an eagle eye admired from Verzanan to Sylvandawn.  He will gladly
+&+gteach anyone some druid skills, for a price..
+~
+43020 384 0 570499176 12480 0 0 789 S
+P2 0 128 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 1
+#200050
+mugtogg shaman barbarian teacher~
+&+mMugtogg&n~
+&+mMugtogg, the great shaman, stands here, mixing reagents.&n
+~
+&+mWearing three layers of robes and several totems and other trinkets,
+&+mthis shaman is great indeed.  He may even teach you a little something,
+&+mif requested..
+~
+43020 384 0 570499176 12480 0 0 473 S
+PB 0 256 -1
+60 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 1
+#200051
+kralim necromancer necro teacher~
+&+LKralim&n~
+&+LKralim, the great necromancer, stands here, smiling at you evilly.&n
+~
+&+LClothed in dark robes from head to foot, and with pallid white skin,
+&+LKralim does nothing to dispel your image of the stereotypical
+&+Lnecromancer.  He is extroverted enough, however, to teach people
+&+Lhere and there.  Guess he's just a nice guy at heart.
+~
+43020 128 0 570499176 12480 0 0 -985 S
+PH 0 1024 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200052
+suri conjurer conjuress teacher~
+&+YSuri&n~
+&+YSuri, the great conjuress, stands here, deep in thought.&n
+~
+&+YShort and stout, this gnomish woman doesn't have much in the
+&+Ybeauty department.  But in the mind department, she beats most other
+&+Ycasters hands down.  Bored of adventuring, she now wanders the byways
+&+Yof the world, occasionally dispensing tidbits of information.
+~
+43020 384 0 570499176 12480 0 0 493 S
+PG 0 2048 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 2
+#200053
+favin halfling thief teacher~
+&+LFavin&n~
+&+LFavin, the great thief, stands here, looking you over carefully.&n
+~
+&+LHardly visible in the shadows, this man is clearly an experienced
+&+Lthief.  Lucky for you he has given up killing others for fun and
+&+Lprofit and instead now educates them.
+~
+43148 384 0 570499176 12480 0 0 -732 S
+PF 0 65536 -1
+50 -3 -95 50d100+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200054
+nivaf assassin teacher~
+&+rNivaf&n~
+&+rNivaf, the great assassin, stands here, fingering his dagger.&n
+~
+&+rTall and muscular, this man looks positively evil.  A gleam in his
+&+reye somehow tells you he could kill you right now without thinking,
+&+rbut that he simply doesn't want to waste the time.
+~
+43148 384 0 570499176 12480 0 0 -999 S
+PH 0 8192 -1
+50 -3 -95 50d100+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200055
+jaer mercenary teacher~
+&+yJaer&n~
+&+yJaer, the great mercenary, stands here, studying your features.&n
+~
+&+yShort and stubby, Jaer has clearly fought many battles in the name of
+&+ymoney.  However, he has called it quits, teaching many students in the
+&+yname of money instead.
+~
+43020 384 0 973152380 12480 0 0 -329 S
+PH 0 16384 -1
+55 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#200056
+kortril bard teacher elf~
+&+mKortril&n~
+&+mKortril, the great minstrel, stands here, hashing out a new ballad.&n
+~
+&+mYou don't know if you've ever seen an elf more spry and jovial than
+&+mthis one.  Always ready with a joke or song, this guy is so damn
+&+mhappy you almost want to choke him after a while.  But hey, if you're
+&+ma bard yourself, he'll be more than happy to enlist his help.
+~
+43020 384 0 570499176 12480 0 0 913 S
+PE 0 32768 -1
+56 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 1
+#200057
+draknah drow conjurer teacher~
+&+mDraknah&n~
+&+mDraknah, the great drow conjurer, stands here.&n
+~
+&+mTall and slender, this handsome drow is quite the lady killer and is
+&+mknown for his wild drinking binges (perhaps related?).
+~
+33597448 64 0 0 0 0 0 -1000 S
+PL 3 2048 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200058
+sodolum drow necromancer necro teacher~
+&+LSodolum&n~
+&+LSodolum, the great necromancer, stands here.&n
+~
+&+LWith stark black hair contrasting with her utterly colorless skin,
+&+LSodolum is quite beautiful, in a dominatrix kind of way.  Her face
+&+Lis twisted into a perpetual look of disdain, and even when teaching
+&+Lthose less knowledgeable than herself, her mind seems to be on
+&+Lbigger, better tasks.
+~
+33597448 64 0 0 0 0 0 -1000 S
+PL 3 1024 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 2
+#200059
+ofnil sorcerer drow teacher~
+&+gOfnil&n~
+&+gOfnil, the great sorcerer, stands here.&n
+~
+&+gOld, even for a drow, Ofnil has seen things most can only hope to dream
+&+gabout.  Wizened by his experiences, Ofnil is almost civil to even his
+&+Gmost dimwitted students.
+~
+33597448 64 0 0 0 0 0 -1000 S
+PL 3 512 -1
+55 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200060
+okurah~
+&+mOkurah&n~
+&+mOkurah, &+Csearches for her marbles.&n
+~
+  Okurah the fair maiden searches for her marbles. She has looked all over
+Ashrumite Village and Tharnadia, maybe you can help her find them.  Her
+dark hair has fallen from it's braid and she has begun to look a bit
+disheveled.
+~
+133128 768 0 134742144 0 0 0 0 S
+PG 0 2048 1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200061
+barbarian tribesman~
+&+Ba barbarian tribesman~
+&+BA barbarian tribesman stands here scouting the area.
+~
+   &+BA stout barbarian man stands here scouting the
+&+Barea.
+~
+8 0 0 0 0 0 0 0 S
+PB 0 0 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200062
+peasant~
+&+Ca ragged peasant~
+&+CA peasant from a nearby village stands here looking lost.
+~
+   &+CA small stout man stands here trying to find his way home.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200063
+gnome~
+&+Ra travelling gnome~
+&+RA gnome stands here looking lost
+~
+   &+RA small gnome stands here scouting for food.
+~
+8 0 0 0 0 0 0 0 S
+PG 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200064
+arcane initiate mage~
+&+ban arcane initiate~
+&+bA arcane initiate stands here practicing his spells.
+~
+   &+bHands waving about, this mage practices his spells.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 512 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200065
+centaur scout~
+&+ga centaur scout~
+&+gA husky centaur stands here scanning for intruders.
+~
+   &+gA centaur stands here looking angry.
+~
+8 0 0 0 0 0 0 0 S
+CT 0 2 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200066
+bard travelling~
+&+Wa travelling bard~
+&+WA bard stands here spreading tales of glory.
+~
+   &+WA human bard stands here singing songs of triumph and glory.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 32768 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200067
+working prostitute~
+&+ma working prostitute~
+&+mA prostitute stands here attracting your attention.
+~
+   &+mWearing torn and ripped clothes, this woman looks to
+&+mknow her profession well.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200068
+kobold commoner~
+&+ca kobold commoner~
+&+cA kobold stands here looking lost and forelorn.
+~
+   &+cThis kobold looks to have seen better days, dressed in
+&+ca ragged garb.
+~
+8 0 0 0 0 0 0 0 S
+H 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200069
+noble~
+&+Ca nobleman~
+&+CA nobleman travels home with good news.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200070
+thief sneaky bandit small~
+&+La sneaky bandit~
+&+LA small thief stands here looking in your purse.
+~
+   &+LThis small evil looking man waits for you to look away so
+&+Lthat he may steal your coins.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 4096 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200071
+young cleric~
+&+ca young cleric~
+&+cA young cleric stands here praying for spells.
+~
+   &+cA young cleric stands here praying to his gods for protection.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 32 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200072
+stout dwarven warrior~
+&+Ya dwarven warrior~
+&+YA stout dwarven warrior stands here protecting the area.
+~
+   &+YThis small dwarf looks around for thieves and invaders.
+~
+8 0 0 0 0 0 0 0 S
+PM 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200073
+human merchant~
+&+Ca human merchant~
+&+CA human merchant stands here selling wares.
+~
+   &+CThis small human offers you some basic supplies.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200074
+peasant farmer~
+&+ya peasant farmer~
+&+yA peasant stands here looking at the land.
+~
+   &+yThis poor farmer wishes of days long past.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200075
+merchant chubby man~
+&+MA merchant from another town~
+&+MThis chubby man stands here selling his goods.
+~
+  &+MThis chubby man is traveling, selling his goods to support
+&+Mhis family.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 1 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200076
+patrol guard~
+&+ca patrol guard~
+&+cA patrol guard stands here scouting for intruders.
+~
+   &+cThis fearsome warrior scouts for invaders.
+~
+8 128 0 0 0 0 0 0 S
+PM 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200077
+young warrior~
+&+Ba young warrior~
+&+BA young warrior stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200078
+young necromancer~
+&+ma young necromancer~
+&+mA young necromancer stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 1024 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200079
+young bard~
+&+ga young bard~
+&+gA young bard stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 32768 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200080
+young conjurer~
+&+Ya young conjurer~
+&+YA young conjurer stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 2048 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200081
+young mercenary~
+&+ya young mercenary~
+&+yA young mercenary stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200082
+young paladin~
+&+Wa young paladin~
+&+WA young paladin stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 8 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200083
+young shaman~
+&+Ca young shaman~
+&+CA young shaman stands here practicing his skills
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 256 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200084
+young thief~
+&+Ra young thief~
+&+RA young thief stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 4096 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200085
+young assassin~
+&+ra young assassin~
+&+rA young assassin stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 8192 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200086
+young druid~
+&+ga young druid~
+&+gA young druid stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 128 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200087
+young anti-paladin anti paladin~
+&+La young anti-paladin~
+&+LA young anti-paladin stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 16 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200088
+young ranger~
+&+Ga young ranger~
+&+GA young ranger stands here honing his skills.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 2 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200089
+hill giant~
+&+ya wandering hill giant~
+&+yA huge giant stands here wondering about.
+~
+~
+8 0 0 0 0 0 0 0 S
+G 0 1 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200090
+mountain yeti~
+&+Wa mountian yeti~
+&+WA mountain yeti wonders about.
+~
+~
+8 0 0 0 0 0 0 0 S
+HG 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200091
+mountain dwarf small~
+&+Ya small dwarf~
+&+YA small mountain dwarf wonders the area.
+~
+~
+8 0 0 0 0 0 0 0 S
+PM 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200092
+small orc short~
+&+La short orc~
+&+LA small orc wonders about the mountain side.
+~
+~
+8 0 0 0 0 0 0 0 S
+HO 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200093
+elven ranger~
+&+gan elven ranger~
+&+gA small elven ranger scouts the area.
+~
+~
+8 0 0 0 0 0 0 0 S
+PE 0 2 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200094
+ugly grell~
+&+yan ugly grell~
+&+yA ugly grell walks around here.
+~
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200095
+robin~
+&+ra robin~
+&+rA robin flies around here.
+~
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200096
+small su-monster su monster~
+&+ga young &+rsu-&+gmonster~
+&+gA small&+r su-&+gmonster scouts the area.
+~
+~
+8 0 0 0 0 0 0 0 S
+H 0 4096 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200097
+large black bear~
+&+La black bear~
+&+LA large black bear roars at you.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200098
+mob unnamed~
+&+ya small deer~
+small deer
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200099
+orc~
+&+Lan orc raider~
+&+LA lone orc stands here waiting for backup.
+~
+~
+8 0 0 0 0 0 0 0 S
+HO 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200100
+hungry dog~
+&+ya wild dog~
+&+yA hungry dog looks around for food.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200101
+large black wolf~
+&+La black wolf~
+&+LA large black wolf looks for its prey.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200102
+small black spider~
+&+La black spider~
+&+LA small black spider rests here.
+~
+~
+8 0 0 0 0 0 0 0 S
+AS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200103
+large egal~
+&+Wa large eagle~
+&+WA large eagle soars about above.
+~
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200104
+small fox~
+&+ra small fox~
+&+rA small fox runs around looking for scraps.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200105
+lost sheep~
+&+Wa lost sheep~
+&+WA lost sheep has wondered away from the farm.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200106
+small squirrel~
+&+ya small squirrel~
+&+yA small squirrel walks about the plains.
+~
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200107
+mob unnamed~
+&+yan ox~
+&+yA ox wonders around grazing on the plains.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200108
+wild horse~
+&+La wild horse~
+&+LA wild horse gallops about the area.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200109
+small raccoon~
+&+ya small racc&+Loon~
+&+yA small raccoon forages for food.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200110
+young mare~
+&+La young mare~
+&+LA young mare wonders about the area, grazing.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200111
+small lizard~
+&+ya sly basilisk~
+&+yA small lizard scampers about.
+~
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200112
+snake~
+&+Ya large sna&+yke~
+&+yA snake slithers around the desert.
+~
+~
+8 0 0 0 0 0 0 0 S
+RS 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200113
+rabbit furry white~
+&+Wa furry white rabbit&N~
+&+WA furry white rabbit is playing here.&N
+~
+&+WThis is a small, white rabbit with very soft fur.&N
+~
+72 0 0 0 0 0 0 200 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 1
+#200114
+squirrel brown~
+&+ya brown squirrel&N~
+&+yA brown squirrel is here frolicking about.&N
+~
+&+yThis is a tiny, brown squirrel with a bushy tail.&N
+~
+72 0 0 0 0 0 0 200 S
+A 0 0 -1
+2 20 93 2d15+7 1d5+0
+0.0.0.0 259
+8 8 1
+#200115
+sparrow tiny bird~
+&+Ya tiny sparrow&N~
+&+YA tiny sparrow is flying here.&N
+~
+&+yThis is a very beautiful, tiny bird with brown body and wings.&N
+~
+72 0 0 0 0 0 0 300 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 2
+#200116
+rodent small~
+&+ya small rodent&N~
+&+yA small rodent is scurrying about here.&N
+~
+&+yThis is a small, brown rodent that looks almost like a mouse.&N
+~
+72 0 0 0 0 0 0 0 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 1
+#200117
+wolf white~
+&+Wa white wolf&N~
+&+WA white wolf is here growling at you.&N
+~
+&+WThis is a very beautiful, majestic looking wolf with snow white fur.&N
+~
+72 1 0 0 0 0 0 -1000 S
+A 0 0 -1
+8 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 1
+#200118
+owl wise old~
+&+ya wise old owl&N~
+&+yA wise old owl is flying here.&N
+~
+&+yThis is a very large owl with brown feathers and&N &+Ybright yellow eyes.&N
+~
+72 0 0 0 0 0 0 500 S
+A 0 0 -1
+4 20 87 4d15+14 1d5+0
+0.0.0.0 518
+8 8 1
+#200119
+bandit sneaky~
+&+La sneaky bandit&N~
+&+LA sneaky bandit is here trying to steal something from you.&N
+~
+&+LThis is a small man dressed in black leather and a mask to hide his identity.
+~
+2120 0 0 524288 0 0 0 -500 S
+H 0 4096 -1
+5 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 1
+#200120
+gypsy wandering~
+&+La wandering gypsy&N~
+&+LA wandering gypsy is here telling fortunes.&N
+~
+&+LThis is an old, scruffy woman with strangly, grey hair.  She is trying to get
+&+Lyou to give her money to tell you your fortune.&N
+~
+2120 0 0 0 0 0 0 0 S
+H 0 0 -1
+4 20 87 4d15+14 1d5+0
+2.1.0.0 518
+8 8 1
+#200121
+warrior seasoned~
+a seasoned warrior~
+A seasoned warrior is travelling here, looking for adventure.
+~
+This is a scruffy human dressed in leather.  He looks like he has travelled a
+long way, and looks tired.
+~
+2120 0 0 0 0 0 0 100 S
+H 0 1 -1
+6 18 80 6d21+33 2d3+1
+3.2.0.0 777
+8 8 1
+#200122
+cleric young~
+a young cleric~
+A young cleric is here looking lost.
+~
+He smiles at you and says, 'Do you know the way to the town of Verzanan?'.
+~
+2056 0 0 0 0 0 0 500 S
+H 0 32 -1
+4 20 87 4d16+18 1d5+0
+2.1.0.0 518
+8 8 1
+#200123
+magician evil~
+&+Lan evil&N &+mmagician&N~
+&+LAn evil&N &+mmagician&N is here scowling at you.
+~
+&+LHe growls at you, 'What are you looking at?!?!?!'.&N
+~
+72 0 0 0 0 0 0 -500 S
+H 0 2048 -1
+4 20 87 4d12+14 1d5+0
+2.1.0.0 518
+8 8 1
+#200124
+man wise old~
+a wise, old man~
+A wise, old man is here telling stories of old.
+~
+He says, 'Did I tell you the story about when I slayed a dragon bare-handed?'.
+~
+2120 0 0 0 0 0 0 0 S
+H 0 0 -1
+3 20 90 3d15+11 1d5+0
+2.1.0.0 388
+8 8 1
+#200125
+deer~
+&+ya deer&N~
+&+yA deer is prancing about here.&N
+~
+&+yThis is a large, beautiful deer with soft brown and grey fur.&N
+~
+72 0 0 0 0 0 0 300 S
+A 0 0 -1
+4 20 87 4d15+14 1d5+0
+0.0.0.0 518
+8 8 1
+#200126
+fox grey small~
+&+La small grey fox&N~
+&+LA small grey fox is running around here.&N
+~
+&+LThis is a small fox with grey fur and small&N &+Wwhite blotches&N &+Laround its eyes.
+~
+72 0 0 0 0 0 0 150 S
+A 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 1
+#200127
+merchant~
+a merchant~
+A merchant is travelling here, and selling his wares.
+~
+This is a tall, human merchant trying to earn an honest living.
+~
+2120 0 0 0 0 0 0 400 S
+H 0 0 -1
+4 20 87 4d15+14 1d5+0
+2.1.0.0 518
+8 8 1
+#200128
+man poor village~
+a &+yvillage poor man&N~
+A &+yvillage poor man&N is here begging for money.
+~
+He looks like he hasn't eaten in days. 'Please have pity on me!', he says.
+~
+2056 0 0 0 0 0 0 300 S
+H 0 0 -1
+4 20 87 4d15+14 1d5+0
+2.1.0.0 518
+8 8 1
+#200129
+dog~
+the &+yguardian dog&N~
+A &+ysnarling guardian&N dog drools as the thought of eating you.
+~
+The dog is hardly small enough to fit in the closet -- his neck is so thick
+his master uses belts for a collar -- the normal dog collar type things
+just don't work since they're too small.  His teeth are sharp and pointed
+and his breath is worse than his bite is worse than his bark.
+~
+10 1 0 0 0 0 0 0 S
+A 0 0 -1
+20 13 35 20d30+100 3d4+2
+0.0.0.0 9720
+8 8 1
+#200130
+giant hill~
+&+ya wandering hill giant~
+&+yA wandering hill giant roams the hills here, looking for prey.
+~
+  &+y This hill giant seems to have lost his way and wanders the area
+&+ylooking for more of his kind.  He doesn't appear to be carrying all
+&+ythat much on him but a rather large club, probably the remains of a
+&+ytree, and some hides from animals or people he has killed during
+&+yhis journeys across the land.
+~
+8 0 0 0 0 0 0 0 S
+G 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200131
+ranger elven~
+&+can elven ranger~
+&+cAn elven ranger stands here, guarding the forests.
+~
+&+c  Standing about 5 feet tall, this elven ranger appears to be happy
+&+cwith his work of guarding the forest. He is lightly attired in sets
+&+cof green and brown armor.  He carries with him a small elven bow
+&+cand a shortsword.  He appears to go around the forest, visiting the
+&+cdruids and payign homage to the other rangers of the area.
+~
+8 0 0 0 0 0 0 0 S
+PE 0 2 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200132
+orc raider~
+&+Lan orc raider~
+&+LAn orc raider scurries about here, preparing to take a village.
+~
+&+L  With a snarling grin on his face, this jittery orc roams the
+&+Lcountry side on a raid.  He is wearing hardly anything but the
+&+Lhides of some of the animals that inhabit the area around
+&+Lshady grove.  He appears to have many large scars from his
+&+Lencounters with illithids and the opposing villagers.
+~
+8 64 0 0 0 0 0 -1000 S
+HO 0 1 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200133
+barbarian tribesman~
+&+Ba barbarian tribesman~
+&+BA barbarian tribes man stands here, setting up camp.
+~
+&+B  Like many barbarians, this barbarian travels in a tribe across
+&+Bthe continent following the herdes of animals and such that might
+&+Bbe encountered.  He likes to spend most of his time up north, but
+&+Bduring some of the seasons when the cattle move south he is forced
+&+Bto come closer south to look for new furs and food for him and his
+&+Bfollowers.
+~
+8 0 0 0 0 0 0 1000 S
+PB 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200134
+peasant~
+a filthy peasant~
+A filthy peasant wollows in its filth here.
+~
+  He looks like he hasn't been fed in days, which he probably hasn't.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200135
+gnome~
+&+Ra travelling gnome~
+&+RA travelling gnome heads for the next town.
+~
+   This gnome has decided to leave his small house and travel to another
+town in search of adventure.
+~
+8 0 0 0 0 0 0 0 S
+PG 0 512 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200136
+elemental earth~
+&+yan angried earth elemental~
+&+yAn angry earth elemental, who has broken away from his charm, stomps around here.
+~
+  Hard as a rock, this elemental roams the countryside here, looking for
+his previous master.  He seems enraged with a peculiar kind of bloodlust
+that only an elemental shows when he no longer is under the influence
+of a conjurer.
+~
+8 1 0 0 0 0 0 0 S
+EE 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200137
+elemental air~
+&+Can angried air elemental~
+&+CBroken from its charm, an air elemental searches for his previous master.
+~
+  Visible to only those with special powers, this elemental swirls by
+the area in a fierce wirlwind looking for his previous master.  He seems
+to have broken his charm that had summoned him to this plane.
+~
+8 1 0 0 0 0 0 0 S
+EA 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200138
+elemental water~
+&+ban angried water elemental~
+&+bFlowing through here like a river, this elemental looks very upset.
+~
+   Flowing here with the force of the strongest river, this elemental
+fiercly ravages the country side looking for its former master, who's
+charm has failed.
+~
+8 1 0 0 0 0 0 0 S
+EW 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200139
+fire elemental~
+&+ran angried fire elemental~
+&+rBlazing through here, an angried fire elemental looks rather upset.
+~
+  &+rAfter breaking away from its former master, this fire elemental
+&+rappears that it could start a fire anywhere.  It crisps the country
+&+rside as it burns along here.  It's red hot flames stand at least
+&+rseven feet in the air, and it leaves a burn mark wherever it goes.
+~
+8 1 0 0 0 0 0 0 S
+EF 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200140
+grell~
+&+gan ugly grell~
+&+gAn ugly grell, wielding many spears in its tentacles floats here.
+~
+   Normally living in caves, this grell seems to have come up and is
+rather lost.  It is a huge tentacled brain that wields many spears.
+It's body is rather slimy and seems very unhappy to be out in the
+wilderness, and would rather be back in it's cave.
+~
+8 1 0 16 0 0 0 0 S
+TK 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200141
+robin bird~
+&+ra robin~
+&+rA robin flies through here, chirping it's heart out.
+~
+  &+rLike most robins, this robin has a beautiful red stripe and
+&+rblack feathers to match.  It flies through the air here looking
+&+rfor fresh worms. It chirps as it flies buy.
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 -1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200142
+aarakocra~
+&+ma hungry aarakocra~
+&+mA hungry aarakocra flies by you, looking for food.&n
+~
+  Resembling much what appears to be a "bird man" this creature is
+a human sized vulture with a huge beak and huge wings.  It has
+magenta colored feathers and seems to remain mostly in the mountains.
+~
+8 1 0 0 0 0 0 0 S
+HF 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200143
+arcane~
+&+Ban arcane initiate&n~
+&+BAn arcane initiate rests here.
+~
+   Coming and going as they please, arcanes seem to hang around the more
+civilized areas. Unlike most of the arcanes, this one is just an
+initiate and has not yet found his wealth in magical items and spelljamming.
+He wears some simple blue robes, and smiles whenever anyone comes near.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 512 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200144
+basilisk sly~
+&+ga sly basilisk~
+&+gA sly basilisk roams the undergrowth here.
+~
+   This eight legged creature seems to move slowly through the undergrowth,
+looking for various things to eat or maybe to start a nest.  It has long,
+toothy jaws, and huge gazing eyes that are rumored to even gaze into the
+Ethereal or Astral planes.
+~
+8 0 0 0 0 0 0 0 S
+R 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200145
+bear~
+&+ya brown fuzzy bear~
+&+yA brown fuzzy bear roams the forest, looking for a beehive.
+~
+   Like most bears, it has a huge mouth with sharp teeth and large claws.
+Standing on its hind legs, it might reach ten feet tall.  For the most part
+it sleeps a lot and scavenges the forest for things to eat.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200146
+brownie~
+&+ya sneaky brownie~
+&+yA brownie lurks here, trying not to be seen.&n
+~
+   &+yBrownies appear to be small version of human, who may be infact
+&+yrelated to halflings.  It only stands about 2 feet tall and is
+&+yattired with bright garments.  It seems to have a few gold teeth and
+&+ymaybe even some golden clothing.
+~
+8 0 0 0 0 0 0 0 S
+PF 0 4096 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200147
+bugbear~
+&+ca smelly bugbear&n~
+&+cA smelly bugbear is here, eyeing you warily.&n
+~
+   This bugbear, probably a relatives from the ones in Bugentolen, stands
+a good seven feet tall and can pick a fight with the best of them.  He
+appears to be roaming the countryside in search of merchants to loot or
+animals to catch.
+~
+8 0 0 0 0 0 0 0 S
+PO 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200148
+bulette~
+&+ba large bulette~
+&+bA large bulette roams here, looking to eat.
+~
+  Mostly referred to as landsharks, a bulette's soul purpose it to eat.
+This thing is looked down upon by almost every form of life on the planet
+Duris, and a bulette hide can go a long way on the Ghore or Ugta markets.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200149
+centaur scout~
+&+ga centaur scout~
+&+gA centaur scout trots through here.
+~
+   Dwelling in mostly remote glade, most centaurs will hardly come out
+to see who is romping through, however in this case, a centaur scout
+appears to have come out to see who is about and to see if they pose
+any threat to his glade or his family.
+~
+8 640 0 0 0 0 0 1000 S
+CT 0 2 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200150
+cockatrice~
+&+ya scavenging cockatrice~
+&+yA scavenging cockatrice flies through here.
+~
+   This disgusting hibrid of a lizard, bird and a bat flies through here
+looking for whomever and whatever it wants to eat.  It is about the size
+of a large chicken and has the head and body of a chicken with two bat-like
+wings, and a tail of a lizard, which has feathers at the end of it.
+~
+8 1 0 0 0 0 0 0 S
+B 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200151
+crocodile~
+&+ga hungry crocodile~
+&+gA hungry crocodile slithers through here, looking for a meal.
+~
+   Large and dangerous, this crocodile spends most of its time in the
+water, but appears to have come out to see who has come to feed it.  He
+has very large claws, and an even bigger set of teeth, along with a powerful
+tail that could take down some of the strongest ogres of the realm.
+~
+8 1 0 0 0 0 0 0 S
+R 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200152
+beast displacer~
+&+ba displacer beast~
+&+bA displacer beast is barely visible here.
+~
+   Someone must have stumbled near this displacer beast's lair because
+normally they try to avoid human contact, however, this one has come out
+to see who is disturbing it.  Much like one of the great cats, this displacer
+beast has two huge tentacles growing from it's shoulders.
+~
+8 1 0 0 0 0 0 0 S
+A 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200153
+dog wild~
+&+ya wild dog~
+&+yA wild and vicious looking dog roams the wilderness.
+~
+   This dog, dirtied from nature, appears to be one of the many wild dogs
+of Duris and roams the countryside gnawing at whatever corpse it can find
+and scavenging whatever it can.  It has huge vicious teeth and a rough
+coat.
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200154
+wemic scout~
+&+ya &+Ywemic&n &+yscout~
+&+yA &+Ywemic &+yscout patrols the area here.
+~
+   A scout from Wellvolen, city of the wemics, scouts the surrounding
+wilderness here.  It looks like a huge lion body, with a torso of
+man and a huge cat like head.  It is normally seen with some kind of
+crude weapon and a shield.  It is much larger than any human.
+~
+8 0 0 0 0 0 0 0 S
+G 0 1 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200155
+yeti~
+&+Wa mountain yeti~
+&+WA mountain yeti thunders through here.
+~
+   Appearing huge to the sight, a mountain yeti appears to be a huge
+and muscular ape that roams the hill and mountains and most of the time
+the more colder of areas.  Mostly, these creatures will not attack
+humans or humanoids, but primarly prey on the herd animals of Duris.
+~
+8 0 0 0 0 0 0 0 S
+G 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200156
+wraith~
+a lost wraith~
+A lost wraith of some poor soul stands here.
+~
+   This wraith appears to have lost its master and roams the surface
+world in forever torment.  It appears to be in pain constantly and feeds
+off the life of others around it.
+~
+8 1 0 0 0 0 0 -1000 S
+U 0 512 -1
+14 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200157
+zombie~
+a lost zombie~
+A lost zombie roams the hillside here.
+~
+   Lost, and mostly stupidfied, this zombie has no clue where its master
+is and only knows that it won't be happy until he finds it again.  He
+wanders around aimlessly, hitting anyone he sees.
+~
+8 1 0 0 0 0 0 -1000 S
+U 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200158
+vampire~
+a lost vampire~
+&+LA tall, dark man stands here, emanating evil.&n
+~
+   Finally free from its masters control, he terrorizes the country side
+here, draining the blood of others and growing stronger.  He wears nothing
+but black, and hides out in caves in the mountains during the night.  He
+has huge fangs when he is fully ready to suck blood.
+~
+8 0 0 0 0 0 0 0 S
+UV 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200159
+wyvern~
+&+ya wyvern~
+&+yA wyvern flies about here, scavenging for things or people.
+~
+   Working for an evil dragon, this wyvern flies about looking for things
+or people.  It looks like a minerature of a dragon, except a little
+fatter.  It has two horns and huge wings, along with a fearsome tail.
+~
+8 1 0 0 0 0 0 0 S
+D 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200160
+wolf~
+&+La black wolf~
+&+LA black wolf growels fiercly here.
+~
+    &+LWith rough black fur, wolves seem to travel in herdes, and although
+&+Lthis one might be alone right now, his brothers and sisters will soon
+&+Lbe right behind him as the pack scavenges for more food.
+~
+8 1 0 0 0 0 0 0 S
+PH 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200161
+wight~
+&+Wan ugly wight~
+&+WAn ugly wight stands here, looking miserable.
+~
+    From a distance, it is hard to tell what kind of creature this is,
+but as one gets closer, it is obvious it is a hideous form of undead
+that roams the more disgusting places of the earth.
+~
+8 1 0 0 0 0 0 0 S
+U 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200162
+unicorn~
+&+Wa beautiful unicorn~
+&+BA beautiful unicorn prances about the area, gleaming with pride.
+~
+    Roaming the beautiful forest of the world Unicorn scarecly come
+out, but this one appears to have taken some intrest in the person who
+got too close to it.  Unicorns are just like normal horses except
+for a large shiny horn on their forehead.  It also has a silvery
+white coat.
+~
+8 128 0 0 0 0 0 1000 S
+AE 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200163
+bard~
+&+Ma travelling bard~
+&+BA travelling bard sings as he walks down the road here.
+~
+   Dressed in beautiful forest green and magenta clothes this bard
+sings his songs to the people around him as he travels the world in
+search of the best audience.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 32768 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200164
+prostitute~
+a sleezy prostitute from &+mVella's~
+A sleezy prostitute from &+mVella's&n struts around here.
+~
+  Dressed in the average robes of a prostitute from Vella's, this prostitute
+has taken it upon herself to leave Vella's for a time and to go make
+money by herself a while.  She cat walks around here looking for the
+newest customer.  She isn't exactly unnatractive, but she seems dirty.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200165
+kobold~
+a kobold commoner~
+A kobold commoner wanders about here.
+~
+   Most like from the kobold village, this kobold seems to be on some
+kind of a mission to trade the valuable ore that the kobold miners mine.
+He wears nothing but simple rags, and looks rather feeble.
+~
+8 8 0 0 0 0 0 0 S
+H 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200166
+su monster~
+&+ga young &+csu&n-&+rmonster~
+&+gA young &+csu&n-&+rmonster&+g jumps through the woods here.
+~
+   Like most of the su, this monster is rather smart for such a
+savage animal.  It looks like a rather large monkey with an exceptionally
+large head and bloody claws.
+~
+8 0 0 0 0 0 0 0 S
+H 0 4 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200167
+stirge~
+&+ma stirge~
+&+mA stirge hops along the ground here.
+~
+    Appearing to be a winged insect, and rather large, stirges
+are one of the many insects that one could encounter out in the
+wilderness.  It seems to be looking for someone to drain, or something
+to eat.
+~
+8 1 0 0 0 0 0 0 S
+A 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200168
+sprite~
+&+ca sprite~
+&+cA small sprite flickers here.
+~
+   Like a minerature elf with wings, the sprites seem to enhabit the
+wilderness of Duris, creating their own societies.  They appear
+attired in very small sets of noblish cloths and usually wielding
+some sort of spear.
+~
+8 0 0 0 0 0 0 0 S
+HF 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200169
+ogre~
+&+ban ogre~
+&+bAn ogre wanders the landscape here.
+~
+   Big and smelly, this ogre goes about the landscape killing all.
+He wears huge smelly hides and carries a big two-handed club.  He
+seems to have a clueless expression on his face, and normally
+communicates through obscene gestures and grunts.
+~
+8 64 0 0 0 0 0 0 S
+PO 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200170
+minotaur~
+&+ra minotaur &+ymercenary~
+&+rA minotaur &+ymercenary&n searches for his bounty here.
+~
+    This minotaur seems to be very well equipped in the arts of
+capturing people and bringing them back to whoever pays the
+highest price.  He carries large amounts of ropes, throwing
+daggers, swords, and nets for capturing his bounties.
+~
+8 0 0 0 0 0 0 0 S
+PB 0 16384 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200171
+snake~
+&+ga large snake~
+&+gA large snake slithers through here.
+~
+   &+gA particularily large snake slithers through the area here,
+&+glooking for small rodents or maybe a small animal to eat.  It
+&+ghas beautiful scales and slithers in an S formation.
+~
+8 0 0 0 0 0 0 0 S
+RS 0 1 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200172
+lamia~
+&+ya lamia&n~
+&+yA lamia is here, hunting for food.&n
+~
+    Much like a wemic, but without the cat like head, this creature
+roams through the plains and desert, offten with the wemics.  It
+prefers to hang around in the ruined cities of Duris.
+~
+8 1 0 0 0 0 0 0 S
+H 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200173
+satyr~
+&+ya satyr~
+&+yA satyr hops through the forest here.
+~
+   With the legs of a bull, torso of a human, and horns, this creature
+looks rather weird to most people.  It usually travells with followers
+that it has charmed.  It also carries with it some sort of container
+which to hold it's magical set of pipes.
+~
+8 0 0 0 0 0 0 0 S
+H 0 32768 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200174
+troll~
+&+ga troll warrior~
+&+gA troll warrior stands here, ready to fight!
+~
+     This troll is here for one reason, and one reason only, to raid
+against the good races of Duris.  He is equipped with little but
+a bone shard and a cowl.  He has many scars from his previous attempts.
+~
+8 64 0 0 0 0 0 -1000 S
+PT 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200175
+spider~
+&+La black spider~
+&+LA black spider hangs from a web here.
+~
+   This spider hangs from a web here, looking to catch some insects.
+It is of normal size, and scurries away from someone when they
+come near to it's web.
+~
+136 0 0 0 0 0 0 0 S
+I 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200176
+drow~
+&+ma drow sorcerer~
+&+bA drow sorcerer stands in mid-air here.
+~
+    While on a raid, this drow must have gotten lost, but it is
+still on its mission against the good races of Duris.  He wears
+some thick magenta robes and hold a crystal ball. He also has a
+set of gold teeth.
+~
+8 0 0 0 0 0 0 -1000 S
+PL 0 512 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200177
+sparrow~
+&+ya sparrow~
+&+yA sparrow flies about here.
+~
+   This creature is small enough to put in your pocket, but is very
+excitable.  It has brown feathers, with a set of white feathers
+on its underside.
+~
+8 0 0 0 0 0 0 0 S
+B 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200178
+deer~
+&+ya young deer~
+&+yA young deer prances about in this area.
+~
+     Standing a good four feet in the air, this deer has a nice
+white tail and hops through the forest here.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200179
+bird~
+&+ya small flightless bird~
+&+yA small flightless bird hops along the ground.
+~
+    This bird appears to be one of those birds that appears that it
+has the inability to fly, either by an accident or just by nature.
+In either case, it spends its entire life on the ground, hiding
+and trying to avoid predators.
+~
+8 0 0 0 0 0 0 0 S
+B 0 1 -1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200180
+bandit~
+&+La sneaky bandit~
+&+LA sneaky bandit stands here, trying to pick your pocket!
+~
+   &+LDressed in entirely black, this bandit hides in the surrounding
+&+Lshadows, trying to pick your pocket.  He has a sly grin and
+&+Lobviously hasn't shaved in a while.  He has an eyepatch over his
+&+Lleft eye, with a large scar.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200181
+cleric~
+&+Ca young cleric~
+&+CA young cleric stands here, muttering words of thanks.
+~
+   This cleric, right out of training, appears to be wandering the
+country for adventure.  He is dressed in white robes and holds
+a holy symbol high and proud.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 32 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200182
+warrior dwarf~
+&+Ya dwarven warrior~
+&+YA dwarven warriors sits here, polishing his axe.
+~
+   With a huge golden beard and bushy eyebrows, this dwarven warrior,
+dressed in ceremonial platmeail of Kimordril, sits here polishing
+his mithril shield and his mithril sword.  He also appears to have
+a silverstone hammer, just like General Kimordril.
+~
+8 0 0 0 0 0 0 1000 S
+PM 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200183
+firelizard lizard~
+&+ra firelizard~
+&+rA firelizard roams the area, leaving burn marks.
+~
+   Like a small wingless dragon, this firelizard roams the area breathing
+fire.  It doesn't have much power, but it sure can start fires in the
+area. There is rumored to be a large naga that hunts this lizard.
+~
+40 0 0 0 0 0 0 0 S
+D 0 512 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200184
+naga~
+&+ma dark naga~
+&+mA dark naga slithers about here.
+~
+   This large snake is a very dark and magenta color and slithers through
+the deepest and darkest parts of the forest.  It doesn't look too
+friendly, even to other snakes.  It seems larger than any other snake
+in the area as well.
+~
+8 0 0 0 0 0 0 -1000 S
+RS 0 1 -1
+14 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200185
+eagle~
+&+Wa large eagle~
+&+WA large eagle flies through here, on its way to its nest.
+~
+   Like all other eagles, this eagle has brown and white feathers and
+appears to be on its way back to its nest.  In it's large claws, it
+carries twigs and worms for its young ones.
+~
+8 0 0 0 0 0 0 1000 S
+B 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200186
+bear~
+&+La black bear~
+&+LA large ferocious black bear wanders through here.
+~
+   This bear is like any other of the bears, however it is slightly
+bigger than a brown bear and slightly smaller than a polar bear.
+It also has pitch-black fur, and a large pink tongue.
+~
+8 1 0 0 0 0 0 0 S
+A 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200187
+fox~
+&+ya small fox~
+&+yA small fox scurries through the area.
+~
+   This little fellow is brown with red stripes and scavenges through
+the area, looking for all sorts of things to kill and eat.  He appears
+mostly harmless, but has a sharp set of teeth and claws to defend himself
+with if need be.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200188
+sheep~
+&+Wa lost sheep~
+&+WA lost sheep stands here, frozen with fear.
+~
+   This sheep seems to have wandered off from it's heard and is standing
+here frozen stiff out of fear that a fox or something might come along
+and take it and eat it.  It has rather nice fur for a sheep that has
+been sepereated from its heard.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200189
+dragonfly dragon~
+&+ga small dragonfly~
+&+gA small dragonfly buzzes about your head!
+~
+   Mostly a pain in the neck, this little insect, about 2 inches long,
+buzzes about frantically above the water, catching other insects and
+eating them.  It has a hard green exoskeleton.
+~
+8 0 0 0 0 0 0 0 S
+I 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200190
+bat~
+&+La black bat~
+&+LA black bat flies about here, resting now and then.
+~
+   This bat is flying by night and sleeping by day.  It has fury wings
+and large ears.  It's fur is short and black.  For the most part,
+it looks like a big flying rat.
+~
+8 0 0 0 0 0 0 0 S
+B 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200191
+human merchant~
+&+ca human merchant~
+&+cA human merchant is travelling to another town here.
+~
+   This human merchant appears to be lightly attired and carrying
+several of the ideal items of the nearby lands to take to another part of
+the continent to sell for a prophit.  He doesn't appear to be very
+wealthy, but just trying to make a living for his family.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200192
+illithid~
+&+Ma raiding illithid~
+&+MCausing things in its path to flee, a raiding illithid roams here.
+~
+   Dressed in dark purple robes, and some pitch-black items from the
+Astral plane, this mind flayer seems to be raiding the wilderness and
+draining the brains out of the peasants.
+~
+8 1 0 0 0 0 0 -1000 S
+MF 0 4 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200193
+bluejay~
+&+ba bluejay~
+&+bA bluejay flies about here.
+~
+    &+bCovered with blue feathers, this bluejay flies about here, looking
+&+bat home with nature.  It has a sharp golden beak and golden claws.
+&+bIt also has some lightly colored grey under side feathers.
+~
+8 0 0 0 0 0 0 350 S
+B 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200194
+rat~
+&+ya large rat~
+&+yA large rat sits here, gnawing on something.
+~
+     This appears to be a large rat that has gotten outside the
+walls of a nearby town.  It is rather large and has brown and black fur.
+In addition, it has a set of huge teeth and claws with a disgusting
+tail.  It is very unclean.
+~
+8 0 0 0 0 0 0 -304 S
+A 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200195
+half orc half-orc halforc~
+&+La half-orc~
+&+LA half-orc peruses the area.
+~
+      This seems to be the product between a human and an orc, and since
+it is part of both it is outcast from both Shady Grove and Tharnadia.
+It looks rather sad that it is hated from both sides.  It looks a litte
+bit more orcish than human, and is wearing black armor.
+~
+8 0 0 0 0 0 0 0 S
+HO 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200196
+squirrel~
+a small squirrel~
+A small squirrel climbs a tree here.
+~
+      This squirrel has grey fur and climbs the trees around this area.
+It doesn't look afraid of very many people due to the fact of the high
+population around this area.
+~
+8 0 0 0 0 0 0 500 S
+A 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200197
+squirrel~
+&+ya brown squirrel~
+&+yA brown squirrel hops along here.
+~
+     Just like its cousin the grey squirrel, this squirrel is exactly
+like it, except it seems a little more playful and has brown fur
+instead of grey fur.
+~
+8 0 0 0 0 0 0 585 S
+A 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200198
+buffalo~
+&+ya buffalo~
+&+yA large buffalo stands here, grazing.
+~
+     This huge and powerufl buffalo barely notices anyone that comes
+by, but will defend itself against any attacker.  It just sits around
+all day eating, sleeping, and going to the bathroom.
+~
+8 0 0 0 0 0 0 300 S
+A 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200199
+ox~
+an ox~
+An ox grazes on the grass in the area.
+~
+        Large and fat with huge horns, this ox grazes in the fields here,
+its owner not far off. It has a big leather collar strapped around it's
+neck, and a large plow pulling apartus strapped to its back.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200200
+farmer peasant~
+a peasant farmer~
+A peasant farmer is standing here watching his cattle.
+~
+       This farmer stands here watching his cattle graze in the area.
+He is wearing the traditional farmer's apparel and has a bandanna
+going across his forehead.  He holds a plow in his right hand and
+a whip in the left.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200201
+thri-kreen warrior thri kreen~
+&+Ya thri-&+Gkreen warrior~
+&+YA thri-&+Gkreen warrior wanders around here.
+~
+     This warrior appears to be a huge bug with four arms and four hands.
+He isn't wearing any on body armor, most likely because it is impossible
+for such a creature to wear on body armor. However he is wielding several
+swords at once.
+~
+8 0 0 16 0 0 0 -300 S
+TK 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200202
+merchant~
+a merchant from another town~
+A merchant from another town is here trying to sell his warez.
+~
+      This merchant appears to be from another town and is wearing some
+clothing unfamiliar to these parts. He brings with him spices and rare
+clothing to try and sell in the local markets.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200203
+horse wild~
+&+ya wild horse~
+&+yA wild horse grazes peacefully here.
+~
+    This horse appears to have never been tamed and probably never will.
+It grazes here peacefull with its heard.  It has long dark brown hair and
+is rather smelly.
+~
+8 0 0 0 0 0 0 0 S
+AE 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200204
+raccoon small~
+&+ya small raccoon~
+&+yA small raccoon climbs a tree here.
+~
+      This brown and black raccoon appears to be enjoying himself
+by climbing trees in this area and looking for bugs and plants to
+eat.  He has sharp claws and even sharper teeth to defend anyone
+that would disturb him.
+~
+8 0 0 0 0 0 0 200 S
+A 0 1 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200205
+cow~
+&+La black&n and &+Wwhite cow~
+&+LA black&n and &+Wwhite cow grazes here.
+~
+       This cow has a marbled pattern of black and whtie for
+     a coat and stands around here all day grazing under the
+     supervision of his master.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200206
+mare horse~
+&+ya young mare~
+&+yA young mare stands here, grazing in the fields.
+~
+        This young female horse is grazing here, and is
+probably only a few weeks old.  It has short brown
+hair and long legs.  It has a golden brown tail that
+swats at the flies that come by
+~
+8 0 0 0 0 0 0 300 S
+AE 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200207
+swan~
+&+Wa swan~
+&+WA swan flies by overheard.
+~
+     This beautiful swan is entirely
+white with huge beautiful spread wings
+that cast a big shadow on the ground as
+it flies by overhead.
+~
+8 0 0 0 0 0 0 1000 S
+B 0 1 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200208
+iguana~
+&+ga large iguana~
+&+gA large iguana is sunning himself on a rock.
+~
+    This lizard has big and defining scales.
+A row of spikes run down his back and down his tail.
+He probably weighs a good fifty pounds and is almost
+four feet long!
+~
+8 0 0 0 0 0 0 250 S
+R 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200209
+lizard man~
+&+ga lizard man~
+&+gA lizard man stands here, spear in hand.
+~
+   This humanoid appears to be a
+very large lizard.  He has all the
+trates of a normal lizard except
+that he stands upright and has a
+thumb and hands.
+~
+8 0 0 0 0 0 0 -500 S
+H 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200210
+patrol guard~
+&+ca patrol guard~
+&+cA patrol guard of the local town patrols the area.
+~
+     This patrol guard is dressed in a cyan uniform
+and appears quite wimpy in appearence.  It seems that
+the town has started to recruit the peasant farmers
+for their protection.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200211
+warrior young~
+&+ba young warrior~
+&+bA young warrior travels through the area.
+~
+      Branded in the simplest of uniforms and equipment, this young
+ warrior doesn't look very tough compared to some of the Legends
+ that are spread around Duris of great warriors.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200212
+monk young~
+a young monk~
+A young monk is sitting here, meditating.
+~
+     This young monk appears to be one of the very few monks
+left on the world of Duris and is garnished in very simple robes.
+He sits here meditating and pondering on what adventure to go on
+next.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 64 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200213
+necromancer necro young~
+&+ma young necromancer~
+&+mA young necromancer stands here, trying to raise a corpse.
+~
+     This young necromancer seems to be right out of training and
+is wandering around the wilderness dressed in his robes trying
+to raise a corpse or two.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 1024 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200214
+bard young~
+&+Ma young bard~
+&+MA young bard rests here, singing his heart out.
+~
+     This lovely female bard rests here playing her lyre and
+singing alloud for all of Duris to hear. She has long golden
+hair and is wearing some bright clothes from woodseer.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 32768 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200215
+conjurer young~
+&+Ya young conjurer~
+&+YA young conjurer stands here trying to summon an elemental.
+~
+   This young conjurer, just like his necro friends, just
+finished his begining apprenticeship and is trying to
+raise a few elemental of his own.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 2048 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200216
+young mercenary~
+&+ya young mercenary~
+&+yA young mercenary tracks his first victim here.
+~
+     This young mercenary grabs his rope tightly as
+he intently searches for the tracks of his very
+first victim.  He appears to be a rather young
+lad from one of the surrounding villages.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200217
+paladin young~
+&+Wa young paladin~
+&+WA young paladin stands here, waiting for his mount.
+~
+    Dressed in rusty platemail, this young paladin
+who probably just came from his temple is standing
+here trying to summon his very first ever warhorse.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 8 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200218
+shaman~
+&+Ca young shaman~
+&+CA young shaman stands here, trying to invoke the spirit.
+~
+     This young female shaman just finished her barbarian
+apprenticeship of being a shaman, and has her first set
+of totems out and ready to invoke the spirit.
+~
+8 0 0 0 0 0 0 -1000 S
+PB 0 256 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#200219
+thief~
+&+Ra young thief~
+&+RA young thief stands here trying to pick your pocket!
+~
+     Except for a sly grin and many daggers, this
+young lad looks like just like one of the normal
+peasants of one of the nearby villages.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 4096 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200220
+assasin young~
+&+ra young assassin~
+&+rA young assasin is hiding here.
+~
+     This assassin has a blood and poison covered
+dagger that he is trying to conceal, but isn't doing
+a very good job.  Truthfully, the only thing he has
+killed so far was a cow.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 8192 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200221
+druid young~
+&+ga young druid~
+&+gA young druid sits here communing with nature.
+~
+    Dressed in a forest green outfit, this
+druid sits here communing with nature. He
+has a piece of holly which he holds up as his
+holy symbol.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 128 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200222
+young anti paladin anti-paladin~
+&+La young anti-paladin~
+&+LA young anti-paladin rides a nightmare here.
+~
+    Dressed in pitch-black platemail of low
+quality, this young anti-paladin rides his
+first summoned nightmare here, and is looking
+for a paladin to smight.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 16 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200223
+ranger young~
+&+Ga young ranger~
+&+GA young ranger tracks his first target here.
+~
+      This young ranger scouts through
+the area here trying to improve his skill
+of track.  Unfortunately, he isn't having
+very much luck as he can only barely
+track a cow.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 2 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200224
+rodent small~
+&+ya small rodent~
+&+yA small rodent scurries about on the forest floor here.
+~
+    Only a druid could tell what this small rodent really
+is, but as it appears, it is just your average rodent with
+big teeth and brown fur.
+~
+8 0 0 0 0 0 0 0 S
+A 0 1 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200225
+bounty hunter~
+&+La bounty hunter~
+&+LA bounty hunter hunts his target here.
+~
+   This bounty hunter, attired in studded leather,
+tracks his kill here.  He has a huge scar that runs
+from his forehead down the left side of his face
+and all the way down his neck.  He has a tattoo
+of what appears to be a bear on his arm.
+~
+8 0 0 0 0 0 0 -1000 S
+H 0 16384 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200226
+peasant tired~
+&+ya tired peasant~
+&+yA tired peasant strolls along here, slowly.
+~
+     This tired peasant has just finished
+a hard day's work and is completely and
+totally exhausted.  It's a wonder if this
+peasant will just collapse right here.
+~
+8 0 0 0 0 0 0 0 S
+PH 0 0 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200227
+turtle~
+&+ga small turtule~
+&+gA small turtle wades through the marshy land here.
+~
+     This turtle has a green shell and brown
+under side.  He wades through the marshy
+land here looking for bugs or small fish
+to eat.
+~
+8 0 0 0 0 0 0 300 S
+R 0 1 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200228
+ogre half half-ogre~
+&+ba half-ogre~
+&+bA half-ogre gnaws on some raw meat.
+~
+     This half-ogre seems to be the perverted doings of an ogre and a
+captured slave.  He is neither accepted in Faang or Tharnadia, but
+is banished to the wilderness forever.
+~
+8 0 0 0 0 0 0 -1000 S
+PO 0 1 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200229
+kobold commoner~
+&+ca kobold commoner~
+&+cA kobold stands here looking lost and forelorn.
+~
+   &+cThis kobold looks to have seen better days, dressed in
+&+ca ragged garb.
+~
+2056 1 0 33554688 0 0 0 0 S
+H 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200230
+small orc short~
+&+La short orc~
+&+LA small orc wonders about the mountain side.
+~
+~
+2056 1 0 33554688 0 0 0 0 S
+HO 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200231
+orc~
+&+Lan orc raider~
+&+LA lone orc stands here waiting for backup.
+~
+~
+8 1 0 33554688 0 0 0 0 S
+HO 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200232
+orc raider~
+&+Lan orc raider~
+&+LAn orc raider scurries about here, preparing to take a village.
+~
+&+L  With a snarling grin on his face, this jittery orc roams the
+&+Lcountry side on a raid.  He is wearing hardly anything but the
+&+Lhides of some of the animals that inhabit the area around
+&+Lshady grove.  He appears to have many large scars from his
+&+Lencounters with illithids and the opposing villagers.
+~
+8 64 0 33554688 0 0 0 -1000 S
+HO 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200233
+elemental earth~
+&+yan angried earth elemental~
+&+yAn angry earth elemental, who has broken away from his charm, stomps around here.
+~
+  Hard as a rock, this elemental roams the countryside here, looking for
+his previous master.  He seems enraged with a peculiar kind of bloodlust
+that only an elemental shows when he no longer is under the influence
+of a conjurer.
+~
+2056 1 0 33554816 0 0 0 0 S
+EE 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200234
+elemental air~
+&+Can angried air elemental~
+&+CBroken from its charm, an air elemental searches for his previous master.
+~
+  Visible to only those with special powers, this elemental swirls by
+the area in a fierce wirlwind looking for his previous master.  He seems
+to have broken his charm that had summoned him to this plane.
+~
+133128 1 0 167772426 0 0 0 0 S
+EA 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200235
+elemental water~
+&+ban angried water elemental~
+&+bFlowing through here like a river, this elemental looks very upset.
+~
+   Flowing here with the force of the strongest river, this elemental
+fiercly ravages the country side looking for its former master, who's
+charm has failed.
+~
+264200 1 0 33556736 0 0 0 0 S
+EW 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200236
+fire elemental~
+&+ran angried fire elemental~
+&+rBlazing through here, an angried fire elemental looks rather upset.
+~
+  &+rAfter breaking away from its former master, this fire elemental
+&+rappears that it could start a fire anywhere.  It crisps the country
+&+rside as it burns along here.  It's red hot flames stand at least
+&+rseven feet in the air, and it leaves a burn mark wherever it goes.
+~
+2056 1 0 570425600 1 0 0 0 S
+EF 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200237
+wraith~
+a lost wraith~
+A lost wraith of some poor soul stands here.
+~
+   This wraith appears to have lost its master and roams the surface
+world in forever torment.  It appears to be in pain constantly and feeds
+off the life of others around it.
+~
+133128 1 0 134217992 0 0 0 -1000 S
+U 0 512 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200238
+zombie~
+a lost zombie~
+A lost zombie roams the hillside here.
+~
+   Lost, and mostly stupidfied, this zombie has no clue where its master
+is and only knows that it won't be happy until he finds it again.  He
+wanders around aimlessly, hitting anyone he sees.
+~
+33556488 32 0 0 0 0 0 -1000 S
+U 0 1 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200239
+vampire~
+a lost vampire~
+&+LA tall, dark man stands here, emanating evil.&n
+~
+   Finally free from its masters control, he terrorizes the country side
+here, draining the blood of others and growing stronger.  He wears nothing
+but black, and hides out in caves in the mountains during the night.  He
+has huge fangs when he is fully ready to suck blood.
+~
+133128 1 0 167772424 262144 0 0 0 S
+UV 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200240
+ogre~
+&+ban ogre~
+&+bAn ogre wanders the landscape here.
+~
+   Big and smelly, this ogre goes about the landscape killing all.
+He wears huge smelly hides and carries a big two-handed club.  He
+seems to have a clueless expression on his face, and normally
+communicates through obscene gestures and grunts.
+~
+2056 1 0 33554688 0 0 0 0 S
+PO 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200241
+troll~
+&+ga troll warrior~
+&+gA troll warrior stands here, ready to fight!
+~
+     This troll is here for one reason, and one reason only, to raid
+against the good races of Duris.  He is equipped with little but
+a bone shard and a cowl.  He has many scars from his previous attempts.
+~
+2056 1 0 33554688 0 0 0 -1000 S
+PT 0 1 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200242
+drow~
+&+ma drow sorcerer~
+&+bA drow sorcerer stands in mid-air here.
+~
+    While on a raid, this drow must have gotten lost, but it is
+still on its mission agains the good races of Duris.  He wears
+some thick magenta robes and hold a crystal ball. He also has a
+set of gold teeth.
+~
+2056 1 0 167772424 0 0 0 -1000 S
+PL 0 512 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200243
+bat~
+&+La black bat~
+&+LA black bat flies about here, resting now and then.
+~
+   This bat is flying by night and sleeping by day.  It has fury wings
+and large ears.  It's fur is short and black.  For the most part,
+it looks like a big flying rat.
+~
+131080 1 0 167772416 0 0 0 0 S
+B 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200244
+illithid~
+&+Ma raiding illithid~
+&+MCausing things in its path to flee, a raiding illithid roams here.
+~
+   Dressed in dark purple robes, and some pitch-black items from the
+Astral plane, this mind flayer seems to be raiding the wilderness and
+draining the brains out of the peasants.
+~
+2056 1 0 167772424 0 0 0 -1000 S
+MF 0 4 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200245
+hook horror~
+&+ya hook horror&n~
+&+yA hook horror stands here.&N
+~
+~
+2056 1 0 33554688 0 0 0 0 S
+H 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200246
+lizard large~
+&+Ga large lizard&N~
+&+GA large lizard roams here&N
+~
+~
+134217736 64 0 34079008 0 0 0 0 S
+R 0 0 4
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200247
+roper~
+&+ga roper&N~
+&+gA roper stands here, looking for food&N
+~
+~
+2056 1 0 33554696 0 0 0 0 S
+TK 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200248
+duergar small~
+&+ra small duergar&N~
+&+rA small duergar stands here&N
+~
+~
+2056 1 0 35127552 0 0 0 0 S
+PD 0 32 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200249
+drow warrior~
+&+ma drow warrior&N~
+&+mA drow warrior stands here&N
+~
+~
+2056 1 0 100663560 0 0 0 0 S
+PL 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200250
+troll angry~
+&+gan angry troll&N~
+&+GAn angry troll stands here&N
+~
+~
+2056 1 0 33554688 0 0 0 0 S
+PT 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200251
+dryder~
+&+Ba dryder&N~
+&+BA dryder stands here&N
+~
+~
+1073743880 1 0 33554704 0 0 0 0 S
+PL 0 16384 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200252
+xorn~
+&+ya xorn&N~
+&+yA xorn stands here, sniffing the earth&N
+~
+~
+2056 1 0 33554816 0 0 0 0 S
+EE 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200253
+githyanki~
+&+ga githyanki&N~
+&+gA githyanki stands here&N
+~
+~
+133128 1 0 167772416 0 0 0 0 S
+GI 0 1024 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200254
+githyanki warrior~
+&+ga githyanki warrior&N~
+&+gA githyanki warrior stands here&N
+~
+~
+2056 1 0 33554696 0 0 0 -1000 S
+GI 0 16 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200255
+fire lizard~
+&+fa fire lizard&N~
+&+fA fire lizard roams around here.&N
+~
+~
+2056 1 0 35127552 1 0 0 0 S
+R 0 0 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200256
+roth large~
+&+Ya large rothe&N~
+&+YA large rothe is grazing here&N
+~
+~
+134217736 0 0 33554688 0 0 0 0 S
+AE 0 0 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200257
+spider large~
+&+La large spider&N~
+&+LA large spider is making is web here&N
+~
+~
+1073741832 1 0 35127584 0 0 0 0 S
+AS 0 0 4
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200258
+orc cloaked~
+&+La cloaked orc&N~
+&+LA cloaked orc stands here&N
+~
+~
+2056 1 0 33554696 0 0 0 0 S
+HO 0 64 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200259
+snake large~
+&+ga large snake&N~
+&+gA large snake hiss at you&N
+~
+~
+2056 1 0 34078976 0 0 0 0 S
+RS 0 0 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200260
+brownie~
+&+ythe brownie~
+&+yA small and mischievous looking brownie is darting around the area.
+~
+It stands no taller than two feet in height, and looks extremely nimble.
+They resemble small elves with brown hair and bright blue eyes, which
+twinkle with mischief.
+~
+205 0 0 524304 0 0 0 900 S
+H 0 0 -1
+15 15 51 15d23+60 2d5+2
+7.6.2.0 7290
+8 8 0
+#200261
+brownie child~
+&+ythe brownie child~
+&+yA tiny brownie child is dancing through the area here.
+~
+It stands about a foot high and is extremely agile. It's long brown hair
+and flashing blue eyes are filled with fun and trouble. It laughs and
+plays and dances about the area with not a care in the world..
+~
+205 0 0 524304 0 0 0 1000 S
+H 0 0 -1
+5 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 0
+#200262
+brownie elder~
+&+ythe brownie elder~
+&+yA brownie elder is standing here, eyeing you with curiosity.
+~
+His features and dress are indicative of authority and importance amongst
+the brownie community, and streaks of grey line his deep brown hair. He
+has stunningly blue eyes that are filled with both intelligence and mischief.
+~
+131276 0 0 786448 0 0 0 900 S
+H 0 2048 -1
+20 13 35 20d24+100 3d4+2
+0.9.3.0 9720
+8 8 0
+#200263
+ancient brownie~
+&+ythe ancient brownie~
+&+yA old and wise looking brownie is sitting on a tree branch here, smiling.
+~
+He is an older looking little fellow, even for a brownie, and has greyish-
+brown hair and deep blue eyes that hold an ancient wisdom. His size and
+age make him look extremely fragile. Even though he is old, he still looks
+extremely quick and agile.
+~
+143 0 0 1835226 0 0 0 1000 S
+H 0 32 -1
+55 -5 -111 55d121+4620 7d6+30
+0.2.7.6 222750
+8 8 1
+#200264
+assassin scarlock~
+Scarlock~
+Scarlock the assassin, appears to be looking for someone.
+~
+~
+33560778 1 0 1572880 0 0 0 -1000 S
+PH 0 8192 -1
+50 -3 -95 50d100+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#200265
+male leucrotta~
+&+ya mature leucrotta&n~
+&+yA mature male leucrotta, sniffs the air in search of prey.&n
+~
+&+L   This beast stands over 6 feet tall at the shoulder and is about 9 feet in
+&+Llength.  The body of the leucrotta resembles that of a stag, with a leonine
+&+Ltufted tail and cloven hooves.  It's head resembles resembles that of a huge
+&+Lbadger, with sharp jagged bony ridges used as teeth.  It's eyes glow with a
+&+Lferal red light.&n
+~
+1073743944 1 0 33554472 0 0 0 -500 S
+A 0 0 -1
+25 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+8 8 1
+#200266
+dragon red chromatic~
+&+Ra gigantic red dragon&n~
+&+RA gigantic red dragon, rests here preening itself.&n
+~
+&+R   This gigantic ancient red chromatic dragon towers over 50 feet high and is
+&+Rfrightening to behold.  It's dull red scales are harder then the toughest
+&+Rmetals and long claws end in sharp points.  Smoke bellows from its flared
+&+Rnostrels and one can hear the rumble deep within its body of the fiery flames
+&+Rthat are given birth there.
+~
+33622126 1 0 33554488 12504 0 0 -1000 S
+D 0 1 -1
+60 -10 -152 60d143+10900 7d6+35
+6.6.9.22 486000
+8 8 1
+#200267
+lizard man~
+&+ra lizard man~
+&+rA lizard man stands here, spear in hand.
+~
+   This humanoid appears to be a
+very large lizard.  He has all the
+trates of a normal lizard except
+that he stands upright and has a
+thumb and hands.
+~
+72 1 0 0 0 0 0 -500 S
+H 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200268
+giant spider~
+a &+Lgiant spider&n~
+&+LA giant spider creeps along looking for prey.&n
+~
+   This spider is almost ten feet across, with sword sized fangs.
+~
+1073741896 1 0 33554440 0 0 0 0 S
+AS 0 0 -1
+28 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 0
+#200269
+roving hellbeast hell beast~
+&+ra roving hell&+Lbeast&n~
+&+rA roving hell&+Lbeast&+r travels the wasteland in a pack.&n
+~
+~
+1073743912 1 0 0 1 0 0 -1000 S
+AC 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200270
+roving hellbeast hell beast~
+&+ra roving hell&+Lbeast&n~
+&+rA roving hell&+Lbeast&+r travels the wasteland in a pack.&n
+~
+~
+1073743914 1 0 0 1 0 0 -1000 S
+AC 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200271
+magnus archlich arch lich~
+&+LMagnus the &+Larchlich&n~
+&+LThe archlich viscount, Magnus, travels the wastelands.&n
+~
+~
+1074174024 0 0 402653212 262144 0 0 -1000 S
+U 0 512 4
+55 170 -100 10d10+25000 5d10+20
+0.0.0.100 150000
+8 8 0
+#200272
+high magus styge~
+&+YStyge, the high magus&n~
+&+YThe high magus, Styge, stands here.&n
+~
+~
+1074174024 0 0 402653212 262144 0 0 -1000 S
+U 0 2048 4
+55 170 -100 10d10+25000 5d10+20
+0.0.0.100 150000
+8 8 0
+#200273
+skeleton skeletal knight~
+&+Wa skeletal knight&n~
+&+WA dangerous looking skeleton shambles about here.&n
+~
+~
+1074141257 1 0 402653240 1 0 0 -1000 S
+U 0 1 5
+55 0 0 10d10+25000 5d10+30
+0.0.0.100 0
+8 8 0
+#200274
+powerful figure lich~
+&+La &+bwandering &+Llich&n~
+&+LA powerful looking figure wanders the land.&n
+~
+~
+1074141257 1 0 402653212 262144 0 0 -1000 S
+U 0 512 4
+50 170 -100 10d10+25000 5d10+20
+0.0.0.100 150000
+8 8 0
+#200275
+shade form~
+&+La dark shade&n~
+&+LAn outline of a humanoid form can barely be seen here.&n
+~
+~
+1074137417 1 0 403177500 0 69206016 0 -1000 S
+U 0 8192 4
+50 170 -100 10d10+20000 5d10+30
+0.0.0.100 200000
+8 8 0
+#200276
+charon boatman~
+&+WCharon&n~
+&+WCharon, the boatman of the &+LRiver Styx&+W awaits his cargo.&n
+~
+~
+34043979 0 0 402653228 262144 67108864 0 0 S
+U 0 20 3
+60 190 -100 10d10+29000 10d10+50
+0.0.0.0 1000000
+8 8 0
+#200277
+undead behemoth~
+&+La large undead behemoth&n~
+&+LA monsterous undead behemoth prowls the wastelands.&n
+~
+~
+1107695692 1 0 296 2 0 0 -1000 S
+AC 0 1 5
+60 0 0 6d143+9900 6d6+30
+0.0.0.0 0
+8 8 0
+#200278
+zombie warrior~
+&+ra large zombie warrior&N~
+&+LA large zombie shambles around looking for things to kill!&N
+~
+~
+1107695692 1 0 296 2 0 0 -1000 S
+U 0 16384 5
+60 0 0 6d143+9900 6d6+30
+0.0.0.0 0
+8 8 0
+#200279
+ustrel wight warrior~
+&+RUstrel, the &+rwight&+R warlord&n~
+&+rA mighty &+RWight&+r warlord wanders the wasteland.&n
+~
+~
+1073776648 0 0 0 0 0 0 -1000 S
+UW 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#200280
+dracolich~
+&+La dracolich&n~
+&+LA monsterous dracolich flies across the land of undeath.&n
+~
+~
+1073874952 1 0 0 0 0 0 -1000 S
+UD 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200281
+bog wyrm~
+&+ga bog wyrm&n~
+&+gA hideous bog wyrm hunts through the marshes.&n
+~
+~
+1073747976 1 0 0 0 0 0 -1000 S
+DK 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#200282
+drider~
+&+La drider~
+&+LA large, horrid looking drider is standing here.
+~
+&+LThe drider is a half man/half spider beast that stands about eight feet
+&+Ltall.  The spider body is black, with eight large spindly legs.  It is a
+&+Lrevolting looking creature, with puffed out cheeks and glowing red eyes.
+~
+78 1 0 56 2 0 0 -1000 S
+H 0 0 -1
+23 11 26 23d40+184 3d5+3
+5.1.6.0 20493
+8 8 0
+#200283
+zorta drow cleric~
+&+LZorta the all powerful&N~
+&+LZorta the all powerful stands here.&N
+~
+&+LThis drow cleric, older then most seems to be REALLY upset
+&+Lthat someone has disturbed his eternal resting place.
+~
+33564683 0 0 65784 14537 0 0 -1000 S
+PE 0 32 -1
+60 -10 -132 60d132+6240 7d6+35
+6.6.9.7 243000
+8 8 2
+#200284
+kuo-toan kuo toan man guardian~
+&+ga kuo-toan guardian&N~
+&+ga large kuo-toan guardian is standing here, wearing a grim expression.&N
+~
+This kuo-toan is quite large, standing about eight feet tall.  It has a
+humanoid body with a frog's head, and dark green scaly skin.
+~
+67371022 1 0 33554600 0 0 0 -850 S
+H 0 1 -1
+50 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 0
+#200285
+drider~
+&+La drider~
+&+LA large, horrid looking drider is standing here.
+~
+&+LThe drider is a half man/half spider beast that stands about eight feet
+&+Ltall.  The spider body is black, with eight large spindly legs.  It is a
+&+Lrevolting looking creature, with puffed out cheeks and glowing red eyes.
+~
+76 1 0 56 2 0 0 -1000 S
+H 0 1 -1
+30 11 26 23d40+184 3d5+3
+5.1.6.0 20493
+8 8 0
+#200286
+hook horror~
+&+ra hook horror&n~
+&+ra large skeletal hook horror is standing here.&n
+~
+The hook horror resembles a huge bear that stands upright, except that this
+one has a bony exo-skeleton.  It has two large pinchers for grabbing and
+crushing prey with.
+~
+2120 1 0 33554432 0 0 0 0 S
+A 0 16384 -1
+15 -3 -78 48d119+2640 6d6+25
+0.0.0.0 116640
+8 8 0
+#200287
+lizard massive reptile~
+&+ra massive underground lizard&n~
+&+yA massive reptile with glowing red eyes wanders around.&n
+~
+   &+rWell over 15 feet in length it moves across the cavern floor very
+&+rquickly. The thick scales on its hide must be very hard to penetrate
+&+rand the sharp claws on it make attacking this creature very dangerous.
+~
+2120 0 0 0 0 0 0 0 S
+R 0 1 -1
+50 8 7 29d55+319 3d6+4
+0.0.0.0 25839
+8 8 0
+#200288
+lizard massive reptile~
+&+La gigantic underground lizard&n~
+&+LA gigantic reptile with glowing red eyes wanders around.&n
+~
+&+Lquickly. The thick scales on its hide must be very hard to penetrate
+&+Land the sharp claws on it make attacking this creature very dangerous.
+&+LThis could only be the king of its kind.
+~
+67110984 0 0 24 0 0 0 0 S
+R 0 1 -1
+60 8 7 29d55+319 3d6+4
+0.0.0.0 25839
+8 8 0
+#200289
+xorn~
+&+La huge xorn~
+&+La HUGE Xorn is standing here, rumbling around the room.
+~
+&+LThe Xorn is a three legged monsters that resembles a huge rock with a large
+&+Lmouth at its top.  The eyes placed around its top gives the xorn 360 degree
+&+Lvision.  Its skin resembles a turtles shell, except that it is stone.
+~
+2058 1 0 168 0 0 0 -350 S
+EE 0 1 -1
+58 15 41 15d27+90 2d5+2
+0.0.0.0 7290
+8 8 0
+#200290
+water weird~
+&+ba water weird~
+&+ba serpentine water weird is here, moving around in the river.
+~
+&+bThe water weird resembles a large snake made from pure water, rising up
+&+bout of the river about five feet into the air.
+~
+262216 1 0 1048616 0 0 0 -300 S
+EW 0 0 -1
+35 11 9 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#200291
+shambling mound~
+&+ga huge shambling mound~
+&+gA huge shambling mound stands here, stalking about the cavern.
+~
+&+gThe mound stands fifteen feet tall, and is entirely composed of rotting
+&+gvegetation.  Its shape is vaguely humanoid, with great arms the size of
+&+gtree trunks for striking out at prey.
+~
+76 1 0 33554472 0 0 0 -500 S
+VT 0 1 -1
+45 -1 -69 45d107+2475 6d6+12
+0.0.0.0 109350
+8 8 0
+#200292
+drow cleric~
+&+La Drow Cleric~
+&+La slender dark elven cleric stands here, scouting for invaders.
+~
+&+LThe drow stands about 5'2", with black skin and red glowing eyes.  His hair
+&+Lis silver in color, and very long.  The thin, but tight as steel cords of
+&+Lmuscle in his arms and the many scars on his face indicate that this one knows
+&+Lhow to fight, and pray.
+~
+2248 1 0 16 2 0 0 -1000 S
+PL 0 32 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 1
+#200293
+rock worm~
+&+La&N rock &+Lworm&N~
+&+LA long, black worm boroughs in and out of the cave walls here.&N
+~
+The rock worm is big, being about ten feet in length and at least a foot
+thick.
+~
+72 1 0 33554472 0 0 0 -500 S
+A 0 0 -1
+35 6 -22 35d70+525 4d6+7
+0.0.0.0 45360
+8 8 0
+#200294
+human rogue~
+&+La human rogue&N~
+&+LA tall, slender looking human rogue is standing here, grinning evily.&N
+~
+The rogue is dressed in black with long brown hair and wicked looking black
+pupiless eyes.  His skin is very pale and marked with dozens of scars.
+~
+2062 1 0 524288 0 0 0 -1000 S
+H 0 8192 -1
+44 -1 -65 44d72+1892 6d6+12
+4.9.8.3 106920
+8 8 0
+#200295
+steeder spider~
+&+La black steeder spider&N~
+&+LA large black steeder spider is crawling around the cavern here.&N
+~
+The spider is about two feet tall, with a rounded back that looks suited for
+riding on.  The spider has strap marks across its belly, indicating that is
+probably used for riding by small humanoids.
+~
+10 1 0 33554464 0 0 0 -800 S
+I 0 0 -1
+18 13 42 18d30+90 3d4+2
+0.0.0.0 8748
+8 8 0
+#200296
+purple worm~
+a &+LGIANT&N &+mpurple worm&N~
+A &+LGIANT&N &+mpurple worm&N is here, looking around the cavern for food.
+~
+The worm is mammoth, standing twenty feet high and eighty feet long.  With a
+great maw of razor sharp teeth, it looks as though this beast could swallow
+just about anything.
+~
+1082392653 1 0 33554728 0 0 0 -1000 S
+G 0 0 -1
+60 -3 -85 5d100+8900 7d5+35
+0.3.1.5 150000
+8 8 0
+#200297
+baby purple worm~
+a &+Mbaby&N &+mpurple worm&N~
+A &+Mbaby&N &+mpurple worm&N is here, scrounging around the cavern for food.
+~
+This dragon is much smaller, only about five feet high and twenty feet in
+length.
+~
+262220 1 0 33554472 0 0 0 -800 S
+I 0 0 -1
+25 11 19 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#200298
+hook horror skeletal~
+a hook horror~
+A large skeletal hook horror is standing here.
+~
+The hook horror resembles a huge bear that stands upright, except that this
+one has a bony exo-skeleton.  It has two large pincers for grabbing and
+crushing prey with.
+~
+2120 1 0 33554432 0 0 0 0 S
+A 0 16384 -1
+48 -3 -78 48d119+2640 6d6+25
+0.0.0.0 116640
+8 8 0
+#200299
+huge earth elemental~
+&+ya huge earth elemental&N~
+&+yA HUGE earth elemental is here.&N
+~
+The elemental is large, standing fifteen feet tall and at least five feet
+in width.  It has a humanoid shape, and looks very dangerous.
+~
+1107691596 1 0 33563048 2 0 0 0 S
+H 0 1 5
+60 -10 -111 5d131+9675 7d5+35
+0.2.7.6 250000
+8 8 0
+#200300
+huge earth elemental~
+&+ya huge earth elemental&N~
+&+yA HUGE earth elemental is here.&N
+~
+The elemental is large, standing fifteen feet tall and at least five feet
+in width.  It has a humanoid shape, and looks very dangerous.
+~
+1107691596 1 0 33562792 2 0 0 0 S
+EE 0 1 -1
+55 -5 -111 55d131+4675 7d6+30
+0.2.7.6 250000
+8 8 0
+#200301
+roper large~
+a &+glarge roper&N~
+A &+glarge roper&N is here with dozens of &+Yswirling tentacles&N flailing about!&N
+~
+The roper looks like a short, fat tree with a dozen or so rope-like tentacles
+protruding out of its body on all sides.  It has two small black eyes in it's
+torso and a large mouth or sharp teeth in its midsection.
+~
+1107695692 1 0 296 2 0 0 -1000 S
+AC 0 1 5
+60 0 0 6d143+9900 6d6+30
+0.0.0.0 0
+8 8 0
+#200302
+piercer stalactite huge~
+&+Wa HUGE piercer&N~
+&+WA HUGE piercer is here, ready to impale its next victim.&N
+~
+The piercer greatly resembles a mammoth stalactite, except that it has two
+small black eyes near its top.
+~
+131145 0 0 35127336 0 0 0 0 S
+EA 0 0 -1
+30 11 9 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#200303
+kuo-toan kuo toan man commoner~
+&+ga kuo-toan commoner&N~
+&+gA kuo-toan commoner is standing here.&N
+~
+Kuo-Toans resemble frog men in many respects, except that they have humanoid
+bodies with frog-like heads.  Their skin is green and scaly.
+~
+264268 1 0 33554472 0 0 0 -700 S
+H 0 0 -1
+37 15 55 14d23+56 2d5+2
+7.5.2.0 6804
+8 8 0
+#200304
+kuo-toan kuo toan man warrior~
+&+ga kuo-toan warrior&N~
+&+gA kuo-toan warrior is standing here, prepared for battle.&N
+~
+The kuo-toan warrior resembles a frog man in some respects, with a humanoid
+body and a frog's head.  It has green scaly skin and large black eyes.
+~
+264268 1 0 33554472 0 0 0 -800 S
+H 0 1 -1
+43 15 51 15d27+90 2d5+2
+7.6.2.0 7290
+8 8 0
+#200305
+kuo-toan kuo toan man hatchling~
+&+ga kuo-toan hatchling&N~
+&+gA small kuo-toan hatchling is playing here.&N
+~
+The kuo-toan child has bright green skin, and large black eyes.  It resembles
+a frog man in many respects, with a humanoid's body and a frog's head.
+~
+262286 0 0 32 0 0 0 -400 S
+H 0 0 -1
+13 15 58 13d23+52 2d5+2
+6.5.2.0 6318
+8 8 0
+#200306
+kuo-toan kuo toan man guardian~
+&+ga kuo-toan guardian&N~
+&+gA large kuo-toan guardian is standing here, wearing a grim expression.&N
+~
+This kuo-toan is quite large, standing about eight feet tall.  It has a
+humanoid body with a frog's head, and dark green scaly skin.
+~
+67373070 1 0 33554616 0 0 0 -850 S
+H 0 1 -1
+60 -10 -132 60d143+6300 7d6+35
+6.6.9.7 243000
+8 8 0
+#200307
+kuo-toan kuo toan man fisherman~
+&+ga kuo-toan&N &+Gfisherman&N~
+&+gA kuo-toan&N &+Gfisherman&N &+gis standing here, tending to it's job.&N
+~
+This kuo-toan is lean, and stands about five feet tall.  Its humanoid body
+and frog are head is slimy.  It has large webbed hands and green scaly skin.
+~
+262158 1 0 33554472 0 0 0 -800 S
+H 0 0 -1
+30 13 45 17d30+85 3d4+2
+8.6.2.0 8262
+8 8 0
+#200308
+kuo-toan kuo toan man noble~
+&+Ga kuo-toan noble&N~
+&+GA kuo-toan noble is standing here, looking regal and proud.&N
+~
+This kuo-toan looks a bit older and wiser than the other kuo-toans in this
+village.   It stands about six feet tall and has green scaly skin.
+~
+262344 1 0 33554472 0 0 0 -900 S
+H 0 16384 -1
+51 -5 -98 51d131+4335 7d6+30
+6.9.4.6 206550
+8 8 0
+#200309
+kuo-toan kuo toan man shaman~
+&+Ga kuo-toan&+L shaman&N~
+&+GA very large kuo-toan is standing here, mumbling some strange words.
+~
+This kuo-toan must stand eight and a half feet high, with dark green skin
+and large black eyes.  It is dressed in green robes that look somewhat slimy.
+~
+264206 1 0 33554600 0 0 0 -1000 S
+H 0 256 -1
+45 2 -21 38d88+836 4d7+10
+1.2.2.2 49248
+8 8 0
+#200310
+kuo-toan kuo toan man high priestess~
+&+gthe kuo-toan&N &+Ghigh priestess&N~
+&+GA powerful looking kuo-toan is standing here, preparing a spell.&N
+~
+&+GThis kuo-toan stands nine feet tall, with large black eyes and a frog's
+head.
+&+GIts skin is so dark a shade of green, that it is almost black.
+~
+100993038 1 0 100737272 14539 0 0 -1000 S
+X 0 256 -1
+60 -10 -147 6d6+29000 7d6+35
+6.6.4.10 364500
+8 8 2
+#200311
+duergar dwarf dark child~
+&+ra small duergar child&N~
+&+rA small duergar child is playing here.&N
+~
+The child is only about two feet tall, and very stocky.
+~
+204 0 0 33554464 0 0 0 -400 S
+H 0 0 -1
+13 15 58 13d23+52 2d5+2
+6.5.2.0 6318
+8 8 1
+#200312
+duergar dwarf dark commoner~
+&+La dark dwarf&N~
+&+LA dark dwarf is standing here, minding his own business.&N
+~
+The duergar stands four feet tall, and has a long beard.  His dark gray skin
+and grin expression show that he is not to be messed with.
+~
+2124 1 0 33554472 0 0 0 -800 S
+H 0 1 -1
+35 15 51 15d27+90 2d5+2
+7.6.2.0 7290
+8 8 1
+#200313
+duergar dwarf dark warrior~
+&+ra duergar warrior&N~
+A &+rduergar warrior&N &+Lis standing here, ready to rip someone's head off.&N
+~
+This duergar is very hardy looking, with dozens of scars that indicate is
+great battle prowess.  He stands four and a half feet in height.
+~
+2124 1 0 33554600 0 0 0 -900 S
+H 0 1 -1
+44 15 61 12d27+72 2d5+2
+6.4.2.0 5832
+8 8 1
+#200314
+duergar dwarf dark blacksmith~
+&+La&N &+rduergar&N &+Lblacksmith&N~
+A &+Lsoot-covered&N &+rduergar&N &+Lblacksmith&N is standing here, working furiously.
+~
+This duergar is covered in black soot from head to toe, with rippling
+muscles and almost no hair.  He looks very menacing.
+~
+2062 1 0 33554472 0 0 0 -750 S
+H 0 1 -1
+40 13 45 17d35+119 3d4+2
+8.6.2.0 8262
+8 8 1
+#200315
+duergar dwarf dark war master~
+&+rthe duergar war master&N~
+The &+rduergar&N &+Lwar master&N is standing here, glaring icily around.
+~
+The war master's dozen scars and fierce glare indicate that he has
+survived many a battle.  He stands four and a half feet tall, and has
+only a very small beard.
+~
+2062 1 0 33554600 0 0 0 -1000 S
+H 0 1 -1
+60 -10 -132 60d143+6300 7d6+35
+6.6.9.7 243000
+8 8 1
+#200316
+duergar dwarf dark high cleric~
+&+rthe duergar High Cleric&N~
+&+rThe duergar High Cleric&N &+Wis standing here, preparing to cast a spell.&N
+~
+This duergar is dressed in white robes, and looks very old.  Even though she
+is a mere four feet tall, this one looks like a powerful cleric indeed.
+~
+100796426 1 0 33620136 12490 0 0 -1000 S
+H 0 32 -1
+59 -7 -125 58d132+6032 7d6+35
+3.4.8.6 234900
+8 8 1
+#200317
+duergar dwarf dark king bregnar~
+&+rBregnar&N the duergar King~
+&+rBregnar, King of the duergar dwarves&N &+Wis standing here, looking noble.&N
+~
+The king stands four and a half feet tall with long white hair and a beard
+that covers half of his chest.  He wears regal looking robes, and has no
+hair what so ever.  He is older looking, but carries himself with pride.
+~
+100665358 1 0 855711992 14531 0 0 -1000 S
+PD 0 1 -1
+60 -10 -132 60d143+6300 7d6+35
+6.6.9.7 243000
+8 8 1
+#200318
+human slave~
+&+Ca human slave&N~
+A &+Chuman slave&N is standing here.
+~
+The human looks very mal-nourished and pathetic.  He has probably been
+down here a long time.
+~
+204 0 0 0 0 0 0 1000 S
+H 0 0 -1
+5 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 1
+#200319
+duergar dwarf dark guardian~
+&+ra duergar guardian&N~
+&+LA powerful looking&N &+rduergar&N &+Lis standing here, ready to strike.&N
+~
+This dwarf is much more scarred and beaten up looking than the others,
+indicating that he must have seen alot of battle in his day, and lived to
+tell the tale.
+~
+2062 1 0 33554600 0 0 0 -1000 S
+H 0 16384 -1
+44 2 -24 39d95+897 4d7+10
+2.2.3.2 50544
+8 8 1
+#200320
+lizard massive reptile~
+&+ya massive underground lizard&n~
+&+yA massive reptile moves across the room slowly
+~
+   &+gWell over 7 feet in length it moves across the cavern floor very
+&+gslowly. It gives you a glance and continues walking. The thick scales on
+&+gits hide must be very hard to penetrate and the sharp claws on it make
+&+gattacking this creature very dangerous.
+~
+2120 0 0 0 0 0 0 0 S
+R 0 1 -1
+45 8 7 29d55+319 3d6+4
+0.0.0.0 25839
+8 8 0
+#200321
+zailaus ethermancer ether master~
+&+yZailaus, the &+wether&+y master&n~
+&+yZailaus, the high &+wethermancer&+y travels the continent.&n
+~
+&+y   This elderly harpy is a sage of great power among his people in the&n
+&+ymountains. Over the years he has gained amazing control over the ether&n
+&+ymagics, and has since become nomadic, travelling the countryside willing&n
+&+yto teach those he finds worthy his knowledge in the power of storms.&n
+~
+3288336456 0 0 301990160 2049 0 0 0 S
+MH 0 33554432 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

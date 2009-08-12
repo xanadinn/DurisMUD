@@ -1,0 +1,133 @@
+#936
+&+mVella's Bordello&n~
+93668 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 93631 3 0 100 0 0 0
+*     west exit from "The Main Hallway" to
+*     "The Treasure Room" - open
+*
+D 0 93668 1 0 100 0 0 0
+*     east exit from "The Treasure Room" to
+*     "The Main Hallway" - open
+*
+*
+O 0 93600 2 93610 100 0 0 0        * a huge fountain
+O 0 93600 2 93616 100 0 0 0        * a huge fountain
+O 0 45 100 93644 100 0 0 0         * (object type not in this .obj file)
+O 0 45 100 93646 100 0 0 0         * (object type not in this .obj file)
+O 0 45 100 93656 100 0 0 0         * (object type not in this .obj file)
+O 0 45 100 93665 100 0 0 0         * (object type not in this .obj file)
+O 0 93601 4 93668 100 0 0 0        * a suit of hide armor
+O 0 93602 8 93668 100 0 0 0        * a pair of rugged outdoors boots
+O 0 93603 7 93668 100 0 0 0        * a wicked looking collar
+O 0 93604 6 93668 100 0 0 0        * some tight silk pants
+O 0 93605 5 93668 100 0 0 0        * a leather bag with two little eye holes
+O 0 93606 6 93668 100 0 0 0        * a pair of worn leather sleeves
+O 0 93607 5 93668 100 0 0 0        * a studded leather cloak
+*
+M 0 93605 1 93603 100 0 0 0        * Padh, the big black bouncer
+E 1 93608 1 9 100 0 0 0            *   a pair of studded black leather gloves
+M 0 93609 5 93610 100 0 0 0        * an exotic woman
+E 1 93604 6 7 100 0 0 0            *   some tight silk pants
+M 0 93611 3 93610 100 0 0 0        * a sleezy prostitute
+M 0 93610 7 93610 100 0 0 0        * a tired traveler
+M 0 93601 5 93610 100 0 0 0        * a red headed slut
+M 0 93602 7 93610 100 0 0 0        * a sex crazed prostitute
+M 0 93603 3 93610 100 0 0 0        * a well built prostitute
+M 0 93604 6 93610 100 0 0 0        * a topless prostitute
+M 0 93610 7 93615 100 0 0 0        * a tired traveler
+G 1 93607 5 0 100 0 0 0            *    a studded leather cloak
+M 0 93600 1 93641 100 0 0 0        * Vella, the great slut
+E 1 93609 1 5 100 0 0 0            *   a silk white gown
+M 0 93606 8 93642 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93601 5 93642 100 0 0 0        * a red headed slut
+M 0 93614 6 93643 100 0 0 0        * a grinning old man
+E 1 93606 6 10 100 0 0 0           *   a pair of worn leather sleeves
+M 0 93608 4 93643 100 0 0 0        * an ugly looking wench
+E 1 93605 5 20 100 0 0 0           *   a leather bag with two little eye holes
+M 0 93610 7 93644 100 0 0 0        * a tired traveler
+G 1 93607 5 0 100 0 0 0            *    a studded leather cloak
+M 0 93604 6 93644 100 0 0 0        * a topless prostitute
+M 0 93614 6 93645 100 0 0 0        * a grinning old man
+E 1 93606 6 10 100 0 0 0           *   a pair of worn leather sleeves
+M 0 93601 5 93645 100 0 0 0        * a red headed slut
+M 0 93606 8 93646 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93601 5 93646 100 0 0 0        * a red headed slut
+M 0 93614 6 93647 100 0 0 0        * a grinning old man
+E 1 93606 6 10 100 0 0 0           *   a pair of worn leather sleeves
+M 0 93602 7 93647 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93614 6 93648 100 0 0 0        * a grinning old man
+E 1 93606 6 10 100 0 0 0           *   a pair of worn leather sleeves
+M 0 93602 7 93648 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93606 8 93649 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93601 5 93649 100 0 0 0        * a red headed slut
+M 0 93610 7 93650 100 0 0 0        * a tired traveler
+G 1 93607 5 0 100 0 0 0            *    a studded leather cloak
+M 0 93611 3 93650 100 0 0 0        * a sleezy prostitute
+M 0 93611 3 93651 100 0 0 0        * a sleezy prostitute
+M 0 93606 8 93651 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93609 5 93652 100 0 0 0        * an exotic woman
+E 1 93604 6 7 100 0 0 0            *   some tight silk pants
+M 0 93613 5 93652 100 0 0 0        * a tired young man
+E 1 93601 4 5 100 0 0 0            *   a suit of hide armor
+M 0 93610 7 93653 100 0 0 0        * a tired traveler
+G 1 93607 5 0 100 0 0 0            *    a studded leather cloak
+M 0 93609 5 93653 100 0 0 0        * an exotic woman
+E 1 93604 6 7 100 0 0 0            *   some tight silk pants
+M 0 93614 6 93654 100 0 0 0        * a grinning old man
+E 1 93606 6 10 100 0 0 0           *   a pair of worn leather sleeves
+M 0 93608 4 93654 100 0 0 0        * an ugly looking wench
+E 1 93605 5 20 100 0 0 0           *   a leather bag with two little eye holes
+M 0 93614 6 93655 100 0 0 0        * a grinning old man
+M 0 93608 4 93655 100 0 0 0        * an ugly looking wench
+E 1 93605 5 20 100 0 0 0           *   a leather bag with two little eye holes
+M 0 93606 8 93656 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93603 3 93656 100 0 0 0        * a well built prostitute
+M 0 93606 8 93657 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93608 4 93657 100 0 0 0        * an ugly looking wench
+E 1 93605 5 20 100 0 0 0           *   a leather bag with two little eye holes
+M 0 93610 7 93658 100 0 0 0        * a tired traveler
+M 0 93602 7 93658 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93613 5 93659 100 0 0 0        * a tired young man
+M 0 93602 7 93659 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93613 5 93660 100 0 0 0        * a tired young man
+M 0 93602 7 93660 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93610 7 93661 100 0 0 0        * a tired traveler
+M 0 93602 7 93661 100 0 0 0        * a sex crazed prostitute
+G 1 93603 7 0 100 0 0 0            *    a wicked looking collar
+M 0 93609 5 93662 100 0 0 0        * an exotic woman
+E 1 93604 6 7 100 0 0 0            *   some tight silk pants
+M 0 93613 5 93662 100 0 0 0        * a tired young man
+E 1 93601 4 5 100 0 0 0            *   a suit of hide armor
+M 0 93609 5 93663 100 0 0 0        * an exotic woman
+E 1 93604 6 7 100 0 0 0            *   some tight silk pants
+M 0 93613 5 93663 100 0 0 0        * a tired young man
+E 1 93601 4 5 100 0 0 0            *   a suit of hide armor
+M 0 93604 6 93664 100 0 0 0        * a topless prostitute
+M 0 93606 8 93664 100 0 0 0        * a grinning merchant
+M 0 93606 8 93665 100 0 0 0        * a grinning merchant
+E 1 93602 8 8 100 0 0 0            *   a pair of rugged outdoors boots
+M 0 93603 3 93665 100 0 0 0        * a well built prostitute
+M 0 93604 6 93666 100 0 0 0        * a topless prostitute
+M 0 93604 6 93666 100 0 0 0        * a topless prostitute
+M 0 93604 6 93666 100 0 0 0        * a topless prostitute
+M 0 93612 1 93667 100 0 0 0        * Vegar
+G 1 93610 1 0 100 0 0 0            *    an elven tickler
+G 1 93611 1 0 100 0 0 0            *    a large condom
+M 0 93615 1 93668 100 0 0 0        * a guard dog
+*
+S

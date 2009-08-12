@@ -1,0 +1,4159 @@
+#40002
+&+yA Dusty Highway&n~
+   Here the route bends south and west. Far to the south mountains
+loom thrateningly on the horizon.&n
+~
+400 262144 4
+D0
+~
+~
+0 0 575327
+D2
+~
+~
+0 0 40003
+S
+#40003
+&+yA Dusty Highway&n~
+   Here the route bends south and east.  Far to the south mountains
+loom threateningly on the horizon.
+~
+400 262144 4
+D0
+~
+~
+0 0 40002
+D3
+~
+~
+0 0 40004
+S
+#40004
+&+yA Dusty Highway&n~
+   The route bends north and east here.  Far to the south dark
+mountains loom like nightmares.  The soil here is a little damper
+than the arid desert sands, and large rocks are scattered here
+and there.
+~
+400 262144 4
+D1
+The path twists out of sight again, leading farther into the dunes.
+~
+~
+0 0 40003
+D3
+~
+~
+0 0 40005
+S
+#40005
+&+yA Dusty Highway&n~
+   Threading west and south, the path is clearly marked by stones.
+Looking closer, it seems some of the stones are really bones bleached
+by the desert sun.  Unaccountably it feels as if the area is overcast
+but there is not a cloud in the sky...
+~
+400 262144 4
+D1
+~
+~
+0 0 40004
+D2
+The path snakes out of sight behind the dunes.
+~
+~
+0 0 40006
+S
+#40006
+&+yA Dusty Highway&n~
+   A small open area hidden in the dunes, exits are north and east.
+Hidden in the desert foliage are pitiful skeletons.  The dunes turn
+dark and rocky, and the mountains to the south cast shadows over
+the soul.
+~
+400 131072 2
+D0
+The path twists into the heavy dunes to the north.
+~
+~
+0 0 40005
+D3
+~
+~
+0 0 40007
+S
+#40007
+&+yA Dusty Highway&n~
+   The path leads straight through a mountainous pass, the land
+sterile, the earth sandy.  To the south, far down the path a
+gigantic statue is visible.
+~
+400 0 2
+D1
+~
+~
+0 0 40006
+D2
+The path narrows, leading deeper between the mountains.
+~
+~
+0 0 40008
+S
+#40008
+&+cThe Mountain Pass&n~
+   The path is sandy and windswept.  The gorge is so narrow
+there is no room to turn around.  Far to the south a gigantic
+statue is visible.  On either side the mountainsides are dark and
+dead.
+~
+400 8192 2
+D0
+The path leads out of the mountains back to the dunes.
+~
+~
+0 0 40007
+D2
+Down the path the statue is barely distinguishable in the shadows
+of the mountain.  It looks to be a human head and animal body ...
+~
+~
+0 0 40009
+S
+#40009
+&+cThe Mountain Pass&n~
+   The path remains as narrow as it has been, heading unswervingly
+to the south.
+~
+400 256 2
+D0
+The path leads back into the mountains.
+~
+~
+0 0 40008
+D2
+The path shows no signs of opening up, nor does it turn to avoid the
+statue, which seems to be looking in this direction.
+~
+~
+0 0 40010
+S
+#40010
+&+cThe Mountain Pass&n~
+   The path is as straight as an arrow, leading to the statue or
+back out the mountain pass.  On either side of the path the mountains
+loom like the memory of a bad dream.
+~
+400 8192 2
+D0
+The path to the north seems especially inviting in face of the statue
+to the south.
+~
+~
+0 0 40009
+D2
+There seems to be a clearing, and the statue appears to block
+the way further south.
+~
+~
+0 0 40011
+S
+#40011
+&+YThe Sphinx Gate&n~
+   The gigantic stone statue blocks the passage south.  The huge,
+human head with huge human eyes stares at you.  Its lion's body is
+sprawled on the path.  Between its forelegs are two large double
+doors, and a plaque.
+~
+400 128 2
+D0
+The path back into the mountains looks *really* inviting at the
+moment.
+~
+~
+0 0 40010
+D2
+The doors seem to be made of an unknown material.  There are no
+handles or keyholes to be seen.
+~
+double door doors hi~
+2 -2 40012
+E
+plaque sign~
+&+Y+----------------------------------------+
+&+Y|                                        &+Y|
+&+Y|    &+yNone may pass save those who know   &+Y|
+&+Y|       &+yThe secrets of the language      &+Y|
+&+Y|  &+yLook to your letters; they will show  &+Y|
+&+Y|    &+yThe word you must speak to enter    &+Y|
+&+Y|                                        &+Y|
+&+Y|          &+y  An easy greeting            &+Y|
+&+Y|             &+yA simple hello             &+Y|
+&+Y|             &+ySpeak the word             &+Y|
+&+Y|              &+yAnd go below             &+Y |
+&+Y|                                        &+Y|
+&+Y+----------------------------------------+&n
+~
+S
+#40012
+&+yBeneath the Sphinx&n~
+   The air is chill in this short underground passage.  The exit to
+the north leads back to the clearing of the Sphinx.  To the south,
+the air seems heavy and oppressive, heavier than the heat of the
+desert should allow.  Beyond the tunnel's opening, vast walls of
+limestone are visible, and a huge arch.
+~
+400 256 2
+D0
+The large double doors of the Sphinx Gate glow softly with an eerie
+light of their own.  They have no handles or keyholes.
+~
+door doors double hi~
+2 -2 40011
+D2
+The tunnel opens up quickly to the surface.  The air is oppressive
+and heavy, the skies seem to brood even though the sky is fairly
+clear.
+~
+~
+0 0 40016
+S
+#40013
+End of the City Walls~
+   The limestone wall merges neatly into the sheer side of the
+mountain here.  The side of the mountain is much to steep to climb,
+and to jump would be suicide.  From this vantage point parts of the
+city of Nizari are visible, and off to the north the pass through
+the mountains is plainly visible.
+~
+400 0 2
+D1
+The city wall continues east, at its narrowest point about ten paces
+wide.
+~
+~
+0 0 40014
+S
+#40014
+The City Walls~
+   The wall here has an excellent view of the city of Nizari; even
+the &+MDroijim Palace&n is visible from here (albeit only the towers).
+The noise of the crowd wafts up from below, as does the faint,
+putrid smell of the camel yard.
+~
+400 0 2
+D1
+The city wall continues east and twists to the south, down to street
+level.
+~
+~
+0 0 40015
+D3
+The city wall meets with the mountainside to the west.
+~
+~
+0 0 40013
+S
+#40015
+The City Walls~
+   From here the entire city of Nizari is visible, as is the pass
+leading through the mountains; even the back of the Sphinx' head is
+visible from here.  The noise from the city gates is clearly
+audible, and the stench from the camel yard is well nigh unbearable.
+The dust swirls in the heat, and the incessant buzzing of flies is
+enough to drive one mad.
+~
+400 0 2
+D2
+There is a slight incline which leads down from the city walls to
+street level.
+~
+~
+0 0 40027
+D3
+The city walls extend west to the mountains.
+~
+~
+0 0 40014
+S
+#40016
+&+yThe Camel Yard&n~
+   This is where the people of the town keep the camels; due to
+their stench and offensive habits they are not allowed within the
+town walls.  The city walls are to the south, and on either side
+of the open archway are identical plaques.  The air is filled with
+dust and the stench of camel dung.  From the city walls the guards
+are plainly visible, marching back and forth, their pikes flashing
+in the sun.
+~
+400 0 2
+D0
+The hole in the face of the mountain to the north leads back under
+the sphinx.
+~
+~
+0 0 40012
+D2
+The archway is open but heavily guarded.  Flies swarm lazily in the
+desert heat, the air shimmering and blurring.
+~
+arch~
+1 0 40028
+E
+arch archway~
+The archway is built of heavy limestone blocks, ornately carved with
+jeering faces or leering demons.
+~
+E
+plaque plaques~
+&+y+--------------------------+
+&+y|                          |
+&+y| &+R        Welcome          &+y|
+&+y|  &+R      O traveler        &+y|
+&+y|        &+R Welcome          &+y|
+&+y|  &+Rto the city of Nizari   &+y|
+&+y|        &+R Welcome          &+y|
+&+y|        &+RO traveler        &+y|
+&+y|         &+RWelcome         &n &+y|
+&+y|  &+Rto the city of thieves &n &+y|
+&+y|                          &+y|
+&+y+--------------------------+&n
+~
+S
+#40017
+The City Walls~
+   From here the entire city of Nizari is visible, as is the pass
+leading through the mountains; even the back of the Sphinx' head is
+visible from here.  The noise from the city gates is clearly
+audible, and the stench from the camel yard is well nigh unbearable.
+The dust swirls in the heat, and the incessant buzzing of flies is
+enough to drive one mad.  The path along the top of the city wall
+stops to the west, interrupted by a demon-carved wall set in the
+archway.
+~
+400 0 2
+D1
+The city wall leads back towards the guard house at the northeastern
+corner of the city.
+~
+~
+0 0 40018
+E
+wall demon~
+Ugly, leering visages have been chipped into the wall by some artist
+with a truly hideous and depraved imagination.
+~
+S
+#40018
+The City Walls~
+   The smell of the camel yards is less prominent here, and the
+sounds of the &+yMarketplace&n drift up, borne by the waves of hot
+air washing over everything.  Farther to the east the guardhouse
+is visible; to the west the walkway extends to the archway.
+~
+400 0 2
+D1
+The walkway atop the city wall leads into the guardhouse or twists
+to the south leading down to street level.
+~
+~
+0 0 40019
+D3
+The navagatible space atop the city wall extends a little way to the
+west before coming to a stop before the arch.
+~
+~
+0 0 40017
+S
+#40019
+The City Wall~
+   From here the city of Nizari is fully visible, spread out like
+a tapestry.  At the southwest corner of the city the &+MDroijim Palace&n
+seems to shine like a jewel in the sun, but the &+yMarketplace&n and
+alleyways between here and there are none to attractive.  The door
+to the guard house is to the east, and the city wall extends to the
+west.
+~
+400 0 2
+D1
+The door is made of some strange, heavy wood, bound with iron.
+~
+door~
+1 0 40023
+D2
+There is a slight incline here, leading down to street level.
+~
+~
+0 0 40031
+D3
+The city wall is broad and quite navagatable.
+~
+~
+0 0 40018
+S
+#40020
+Northwest Corner of the Guards' Tower~
+   A number of spartan bunks are here; the room is purely
+utilitarian, obviously used only to sleep when not on duty.  There
+are no couches or tables or chairs here, implying the guards do not
+live an easy life.
+~
+400 9 0
+D1
+More bunks.
+~
+~
+0 0 40021
+D2
+The entry foyer of the guard's tower.
+~
+~
+0 0 40023
+E
+bunk bunks~
+Not much more than a sheet on a board of wood, they look distinctly
+uncomfortable and prone to giving one splinters in ... uncomfortable
+places.
+~
+S
+#40021
+Northern Part of the Guards' Tower~
+   A number of spartan bunks are here; the room is purely
+utilitarian, obviously used only to sleep when not on duty.  There
+are no couches or tables or chairs here, implying the guards do not
+live an easy life.  Smells coming through an archway to the east
+indicate a kitchen or mess hall.  A simple door is to the south.
+~
+400 9 0
+D1
+The pungent smells of desert food float in from the archway to the
+east.
+~
+~
+0 0 40022
+D2
+The door is a simple, utilitarian slab of wood.
+~
+door~
+1 0 40024
+D3
+More bunks.
+~
+~
+0 0 40020
+E
+bunk bunks~
+Not much more than a sheet on a board of wood, they look distinctly
+uncomfortable and prone to giving one splinters in ... uncomfortable
+places.
+~
+S
+#40022
+Kitchen of the Guards' Tower~
+  The northeastern part of the tower positively reeks of the pungent
+spices and smells of desert food.  The sink is filled with dirty
+dishes and a dense cloud of flies wanders about the room aimlessly.
+To the south is a small storage area.
+~
+400 9 0
+D2
+There are all sorts of pots and pans in here.  A heavy iron bound
+door is set in the south wall.
+~
+door~
+1 0 40025
+D3
+Through the archway rows and rows of bunks are visible.
+~
+~
+0 0 40021
+E
+fly flies~
+These things are *huge*, about the size of a small mouse.  No doubt
+anything they land on is instantly contaminated.
+~
+E
+sink dishes dirty~
+Looks like all the soldiers are bachelors.
+~
+S
+#40023
+Entrance to the Guards' Tower~
+   The tower is dimly lit, the air is stuffy and close.  The acrid
+stench of unwashed bodies and mildewed clothes and sheets pervades
+the air.  The tangy smell of rust and spicy scent of oil float
+around the room, coming from deeper within the tower.  A duty roster
+is posted on the wall.
+~
+400 9 0
+D0
+Rows and rows of bunks are visible through the archway.
+~
+~
+0 0 40020
+D2
+You see several tables and chairs set up in the room to the south.
+~
+~
+0 0 40032
+D3
+The door is made of some strange, heavy wood, bound with iron.
+~
+door~
+1 0 40019
+E
+roster~
+There are many names on the roster, and all have many hours assigned
+to them.  Judging from the times, it seems Nizari is always heavily
+patrolled.
+~
+S
+#40024
+Guards' Tower Shower Room~
+   This place looks mostly unused.  The shower heads are old and
+rusted; dark discolored rust stains streak the walls and floor.  The
+stone floor is discolored with age, and a moldering mound of material
+of what may have once been soap sits in the corner.  To the north and
+south are simple wooden doors.
+~
+400 9 0
+D0
+The door has small patches of mildew stains here and there.
+~
+simple wooden door~
+1 0 40021
+D2
+The door has small patches of mildew stains here and there.
+~
+simple wooden door~
+1 0 40033
+S
+#40025
+Storage Area in Guards' Tower~
+   This small, shelf lined area has got pots and pans stacked all over
+the place, as well as sacks of meal and grains strewn about the floor.
+Upon close examination rat droppings are visible in the grain.  To
+the north is the kitchen and mess hall, and to the south there is a
+heavy, iron bound door.
+~
+400 9 0
+D0
+The pungent scents of desert food comes from the kitchen.
+~
+door~
+1 0 40022
+D2
+The iron door is heavy and looks impossible to break down.
+~
+iron bound door~
+0 0 40034
+S
+#40026
+Merchant's Hovel~
+  This miserable dwelling is hardly fit for pigs.  The ventilation
+isn't any good, the air smells terrible, the location is horrible,
+the noise at night prohibits sleep, and the rent payments are
+probably astronomical as well.
+~
+400 9 0
+D2
+The curtain that serves as a door is hardly adequate to keep the
+mammoth flies out, much less keep thieves outside.
+~
+curtain door~
+1 0 40037
+S
+#40027
+End of &+cHyree Road&n~
+   One of the many twisting streets of Nizari comes to an end here.
+To the north a ramp leads up to the top of the city walls, where many
+guards stand watch.  To the east the narrow street heads into the
+city.
+~
+400 0 1
+D0
+The steep incline leads right to the top of the city walls.  There
+is a path pounded into the dirt by thousands and thousands of booted
+guards' feet from over the years.
+~
+~
+0 0 40015
+D1
+The city gates just to the east buzz with activity.
+~
+~
+0 0 40028
+S
+#40028
+City Entrance on &+cHyree Road&n~
+   The heavily guarded gates swarm with people on their way in and
+out of the city.  The stench of the camel yard is clear and putrid
+from the north.  To the east and west &+cHyree Road&n continues; to the
+east turning north up onto the city walls, east between the cramped
+passages between the slovenly buildings of the town.
+~
+400 0 1
+D0
+Through the arches the sight and smell of the camel yard are more than
+a little obvious.
+~
+arch~
+1 0 40016
+D1
+&+cHyree Road&n continues on its narrow way between the cramped buildings,
+dust thick in the air.
+~
+~
+0 0 40029
+D3
+The street curves to the north a little way west, going up to the
+top of the city walls.
+~
+~
+0 0 40027
+S
+#40029
+&+cHyree Road&n~
+   The cramped road slides between the tall buildings.  The stench of
+garbage and refuse is hard to ignore.  The walls are made of some
+sort of dirty stucco material; the blasts of wind that eddy through
+the street whirl minute grains of sand around that immediately dive
+for the first sand-proof container around and work their way inside.
+~
+400 0 1
+D1
+The road continues to squeeze in between the dirty buildings.
+~
+~
+0 0 40030
+D3
+The road continues back to the city entrance.
+~
+~
+0 0 40028
+S
+#40030
+&+cHyree Road&n~
+  The stench here is almost unbelievable.  There is a pathetic little
+plant here that all the dogs in town must visit.  Veritable clouds
+of flies fill the air, and the cries of the destitute are almost
+deafening.
+~
+400 0 1
+D1
+To the east the road hits a T-intersection.
+~
+~
+0 0 40031
+D3
+To the west the road meanders through the buildings.
+~
+~
+0 0 40029
+S
+#40031
+T-intersection on &+cHyree Road&n~
+  Here the street begins to widen, and a patch of sky is suddenly
+visible.  For some reason a heavy pall seems to hang over the entire
+town.  To the north a ramp leads to the top of the city walls, and
+&+cHyree Road&n continues to the south.
+~
+400 0 1
+D0
+The ramp leads to the top of the city wall.
+~
+~
+0 0 40019
+D2
+&+cHyree Road&n continues deeper into the city.
+~
+~
+0 0 40042
+D3
+The road leads back to the city entrance.
+~
+~
+0 0 40030
+S
+#40032
+Guards' Tower Recreation Room~
+   There are several tables set up here, with stacks of colorfully
+painted cards all over the place.  There is also a curious table
+with six holes drilled in the top around the edges, and a number of
+strange ceramic balls.  To the east the mildew stench grows worse,
+and to the north is the entrance to the tower.
+~
+400 9 0
+D0
+The roster in the next room is clearly visible from here.
+~
+~
+0 0 40023
+D1
+The rooms appears to be some sort of wash room.
+~
+~
+0 0 40033
+S
+#40033
+Guards' Tower Laundry Room~
+  Several tubs of dirty water are scattered about the floor.  In one
+of the tubs a drowned rat floats, belly up, crawling with white
+maggots.  Several lengths of rope have been tied from one end of the
+room to the other, and smelly clothes hang from them, drying.  To the
+north is a simple wooden door, and to the east the recreation room
+is visible.
+~
+400 9 0
+D0
+The door is a simple wooden affair.
+~
+door~
+1 0 40024
+D3
+In the next room several tables and chairs have been set up.
+~
+~
+0 0 40032
+S
+#40034
+Guards' Tower Weaponry~
+   Stored here are extra swords and armaments not in use by the Guard
+at the moment.  There are many racks set into the walls designed to
+hold different types of weapons.  A pool of grease leaks from a barrel
+sitting in the corner of the room, releasing a sweet, spicy scent.
+The air smells of iron and old rust.
+~
+400 9 0
+D0
+The iron bound door looks strong and secure.
+~
+iron bound door~
+0 0 40022
+S
+#40035
+End of Alley~
+   The dimly lit corridor comes to an end here,  It is as still here
+as it is in a graveyard.  The air is stifling hot, and it seems as
+if there is always someone or something standing at the edge of one's
+periphial vision.  There is trash strewn about, mixed with offal and
+other unpleasant material.  The south wall seems strangely discolored
+in the sparse light.
+~
+400 1 1
+D1
+The dark alley extends east, disappearing into the shadows.
+~
+~
+0 0 40036
+D2
+A cunningly hidden door is set into the wall, almost invisible
+in the shadows.
+~
+door wall~
+1 0 40045
+S
+#40036
+Dark &+LBack Alley&n~
+   The alley winds it way along between the city walls and the
+mountain.  It is so convoluted it seems to have been laid out by
+a blind, drunken mole.  The passage comes to an end to the west
+and to the east there is an intersection.
+~
+400 1 1
+D1
+The intersection to the east doesn't look particularly exciting.
+~
+~
+0 0 40037
+D3
+The alley comes to an end to the west.
+~
+~
+0 0 40035
+S
+#40037
+Intersection on the &+LBack Alley&n~
+   Here the miserably crowded buildings actually move apart from
+each other, and the sky is visible; despite this respite the air
+still seems heavy and oppressive, as if the air itself was somehow
+diseased.  To the north is a small hovel; the alley continues
+east, south and west.
+~
+400 0 1
+D0
+The curtain sifts slightly in the arid wind, covering the entrance to
+some miserable merchant's home.
+~
+curtain~
+1 0 40026
+D1
+The alley seems to come to an end to the east.  A putrid stench comes
+from that direction.
+~
+~
+0 0 40038
+D2
+The alley disappears into the shadows to the south, continuing out
+of sight.
+~
+~
+0 0 40046
+D3
+To the west the alleyway continues for a little bit.
+~
+~
+0 0 40036
+S
+#40038
+Dead End on the &+LBack Alley&n~
+  For some it seems to have been a literal dead end; there is trash
+strewn all over the place back here.  Underneath some piles of refuse
+moldering, decaying body parts are visible.  The air is filled with
+the sweet, sickly scent of rotting human flesh, and the swarms of
+flies crawling on the body parts make the air vibrate with the buzzing
+of their wings.  A startled rat leaves off nibbling on a sightless,
+dead, eye and disappears into its rat hole.
+~
+400 1 1
+D3
+Fresher air is in that direction...
+~
+~
+0 0 40037
+E
+corpse body parts~
+Some look old, some seem to be fairly recent.  Judging from wounds
+it seems they were mugged.
+~
+S
+#40039
+&+MAfrit Street&n by the &+yMarketplace&n~
+   Here the buildings draw apart, opening apart.  To the south the
+loud sounds of the &+yMarketplace&n are audible, the incessant hum of
+people doing business, selling, buying, stealing, murdering, and
+whatnot.  To the east &+MAfrit Street&n continues.
+~
+400 1 1
+D1
+The street continues east.
+~
+~
+0 0 40040
+D2
+The &+yMarketplace&n is an explosion of sights and sounds and smells.
+~
+~
+0 0 40048
+S
+#40040
+&+MAfrit Street&n~
+   This street is actually swept clean, and the guards make an effort
+to chase the beggars away, which implies this part of town is a little
+better than the back slums.  To the east &+MAfrit Street&n meets with
+&+cHyree Road&n, and to the west the street leads to the &+yMarketplace&n.
+~
+400 1 1
+D1
+A T-intersection is to the east.
+~
+~
+0 0 40041
+D3
+The sounds of the market place are faintly audible from here.
+~
+~
+0 0 40039
+S
+#40041
+&+MAfrit Street&n~
+   The semi-clean street continues to the east and west here.
+The tall buildings on either side of the road seem to loom over
+the street like vultures over a dying man in the desert.  The air
+seems stifled, and it feels almost as if there is some sound in
+the air just barely above the frequency human ears can detect.  It
+is not audible, but the non-sound forms a pressure on the eardrums
+that is distinctly uncomfortable.
+~
+400 1 1
+D1
+There is a T-intersection up ahead.
+~
+~
+0 0 40042
+D3
+The street continues deeper into the city...
+~
+~
+0 0 40040
+S
+#40042
+T-intersection of &+MAfrit Street&n and &+cHyree Road&n~
+   The tightly cramped buildings open up a bit, exposing a passage
+west.  &+cHyree Road&n continues south here, leading into the shadows.
+The air is arid and dry, and a few well fed flies wander leisurely
+through the air.
+~
+400 1 1
+D0
+Hyree street curves to the west, and an incline to the north seems
+to lead to the top of the city walls.
+~
+~
+0 0 40031
+D2
+Hyree street twists to the east and disappears around a corner to the
+south.
+~
+~
+0 0 40051
+D3
+&+MAfrit Street&n looks somewhat cleaner and more open that &+cHyree Road&n,
+and the faint sounds of the &+yMarketplace&n drift in from that direction.
+~
+~
+0 0 40041
+S
+#40043
+Merchant's Hovel~
+  This miserable dwelling is hardly fit for pigs.  The ventilation
+isn't any good, the air smells terrible, the location is horrible,
+the noise at night prohibits sleep, and the rent payments are
+probably astronomical as well.
+~
+400 9 0
+D1
+The curtain that serves as a door is hardly adequate to keep the
+mammoth flies out, much less keep thieves outside.
+~
+curtain~
+1 0 40044
+S
+#40044
+End of &+cHyree Road&n~
+   The street either ends or starts here, depending on which way one
+is traveling.  It leads south and immediately curves to the west.  To
+the north it runs into a blank wall.  To the west a flimsy curtain
+serves as a door to some pathetic hovel.  As expected, there is
+quite an impressive collection of garbage strewn about the street.
+~
+400 1 1
+D2
+The road curves west to the south.
+~
+~
+0 0 40053
+D3
+The curtain is threadbare and moves gently in the arid air.
+~
+curtain~
+1 0 40043
+S
+#40045
+Merchant's Hovel~
+  This miserable dwelling is hardly fit for pigs.  The ventilation
+isn't any good, the air smells terrible, the location is horrible,
+the noise at night prohibits sleep, and the rent payments are
+probably astronomical as well.  It seems strange to find a mere
+merchant's hovel behind a hidden door, but stranger things have
+happened.  Actually it appears this room has been bricked closed,
+rather than intentionally hidden.
+~
+400 9 0
+D0
+The wall has been shoddily built, and seems to serve little or
+no purpose.  The fact the entrance was hidden seems to be more
+because it was not meant to be there at all, than any sense of
+secrecy.
+~
+wall~
+1 0 40035
+S
+#40046
+&+LBack Alley&n of Nizari~
+   This alley is the type of place it would not be prudent to be in
+at any time, unless it is with ten heavily armed bodyguards.  It is
+dark and dank, with hundreds of nooks and crannies for thieves to
+hide in.  The sewer stench so common to the city is even stronger
+here.  The alley runs north and south, and the side of the mountain
+to the west is craggy and pitted by the elements.
+~
+400 1 1
+D0
+To the north there seems to be some sort of intersection.
+~
+~
+0 0 40037
+D2
+There is a T-intersection to the south, and the alley continues off
+into the shadows.
+~
+~
+0 0 40058
+S
+#40047
+Spice Merchant's Stall~
+   This tent positively *reeks* of the pungent spices of the desert.
+The disorganized sacks are crawling with flies, and in the desert
+heat even this open tent is almost unbearable.  To the east the
+hot, crowded, seething &+yMarketplace&n does not seem much of an
+improvement.
+~
+400 9 1
+D1
+The &+yMarketplace&n is larger than life in regards to smells and sights.
+Emphasis on the smells.  The entrance is to the east.
+~
+~
+0 0 40048
+S
+#40048
+Entrance of the Nizari &+yMarketplace&n~
+   The swirling dervish of noise, smells and colors that is the
+&+yMarketplace&n confounds the senses, almost repugnant in their intensity.
+To the east the definitive scent of desert spices crawls through the
+air.  The &+yMarketplace&n extends to the east and south.  To the north
+is &+MAfrit Street&n.  Far to the southwest the tower of the &+MDroijim Palace&n
+shines like the sun striking a jewel.
+~
+400 0 1
+D0
+&+MAfrit Street&n is dark and concealed in shadows.
+~
+~
+0 0 40039
+D1
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40049
+D2
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40060
+D3
+The acrid reek of desert spices crawls out from under the merchant's
+open tent to the west.
+~
+~
+0 0 40047
+S
+#40049
+The Nizari &+yMarketplace&n~
+   The hustle and bustle of this place is incredible, almost akin
+to an army of ants swarming over a severed head left in the sand.
+Beggar children flit through the crowds, ostensibly at play, but
+passerbys should probably check their belongings.
+~
+400 0 1
+D1
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40050
+D2
+The back corner of the &+yMarketplace&n.
+~
+~
+0 0 40061
+D3
+The entrance to the Nizari &+yMarketplace&n is to the west.
+~
+~
+0 0 40048
+S
+#40050
+The Back Corner of the &+yMarketplace&n~
+   This corner of the &+yMarketplace&n is positively subdued compared to
+the cacophony of the rest of the &+yMarketplace&n; it is mostly clear of
+tents and merchants ... but it also appears to be where some of the
+less savory inhabitants of Nizari hang out.  The walls here have
+been liberally tagged with graffiti painted in what looks
+uncomfortably like blood.
+~
+400 0 1
+D2
+The chaos of the &+yMarketplace&n resumes.
+~
+~
+0 0 40062
+D3
+The chaos of the &+yMarketplace&n resumes.
+~
+~
+0 0 40049
+E
+graffiti blood walls wall~
+The largest bit of graffiti reads, 'The Forty Thieves were here'
+Elsewhere it reads, 'The Sultan and Vizier are lovers' and 'Jasmine
+is a babe.'  'I love Jasmine,' It continues on a similar vein all
+over the walls.
+~
+S
+#40051
+Bend in &+cHyree Road&n~
+   The street snakes through the buildings, twisting from the north
+to the east.  To the north is an intersection, and the street also
+continues to the east into darkness.
+~
+400 0 1
+D0
+There is an intersection to the north.
+~
+~
+0 0 40042
+D1
+The close passage worms its way to the east.
+~
+~
+0 0 40052
+S
+#40052
+&+cHyree Road&n~
+   A short section in the road that is actually straight, to the east
+and west it runs.  The air is dank and stale.  Small piles of sand
+have built up along the sides of the road.  To the east the street
+curves north; likewise to the west.
+~
+400 0 1
+D1
+There seems to be a door set in the wall at the end of the passage
+up ahead.
+~
+~
+0 0 40053
+D3
+The passage curves to the north and is obscured from sight almost
+immediately.
+~
+~
+0 0 40051
+S
+#40053
+Bend in &+cHyree Road&n~
+   Here the street curves to the north where it seems to come to an
+end.  The street is more an alley than a road, the tall walls on
+either side of the street cutting off any and all light, even at
+noon.  The smells of the city are distant, but have been replaced
+by the stench of the rotting refuse that lines the street.
+~
+400 0 1
+D0
+The alley seems to end to the north.
+~
+~
+0 0 40044
+D1
+The door seems to have been broken down in the past, and no one has
+bothered to fix it since.
+~
+door~
+1 0 40054
+D3
+The street leads out of this dead-end cul-de-sac type area.
+~
+~
+0 0 40052
+S
+#40054
+An Abandoned House~
+  This small, single-room house seems to have been deserted for quite
+some time.  There is splintered furniture scattered all over the room,
+and old blood stains all over the floor, walls, and even the ceiling.
+What used to be a beautiful table now lays in ruin in the center of
+the floor.  The air in here is chill and a pall seems to fall over
+everything in the room, as a shadow cast on a soul.  Crude words have
+been painted on the back wall in blood.
+~
+400 0 0
+D3
+The door seems to have been broken in, and scattered furniture seems
+to indicate it had been barricaded.  In vain, it appears.
+~
+door~
+1 0 40053
+E
+back wall blood words~
++-----------------------------+
+|                             |
+|  Thus is the fate of those  |
+|  who betray the secrets of  |
+|     The Forty Thieves       |
+|                             |
++-----------------------------+
+~
+E
+furniture table splintered~
+Looking closely, it appears something has been scratched into the
+tabletop.
+~
+E
+scratches tabletop~
++-------------------------------------------+
+|                                           |
+|  The wealth of the Forty is well hidden,  |
+|  sealed within a magic vault.             |
+|  Speak the name of their desires          |
+|  and the way shall be opened to you.      |
+|                                           |
++-------------------------------------------+
+~
+S
+#40055
+&+RLair of the Forty Thieves&n~
+   The spacious cavern has several rows of beds, and part of the
+cave and a bed has been curtained off to provide an illusion of
+privacy for those that engage in ... recreational activities.
+The place is well lit and almost clean.  The rock walls glisten with
+moisture, and the air is cool and refreshing compared to the desert
+heat outside.  There is no sign, however, of the supposedly vast
+wealth of this gang.
+~
+400 0 0
+D1
+The cavern continues to the east.  More beds are visible.
+~
+~
+0 0 40056
+D2
+To the south a rude kitchen is set up.
+~
+~
+0 0 40071
+E
+bed~
+It is fragrant and looks ... well used.
+~
+S
+#40056
+&+RLair of the Forty Thieves&n~
+   This part of the cavern has several beds or simple cots set up.
+Here there is no sign of the legendary wealth of the thieves.
+There are, however, signs of heavy boxes being dragged along the
+ground.  The coolness of the cavern is a refreshing contrast to
+the heat of the desert outside.
+~
+400 0 0
+D1
+This cunningly hidden door almost escapes your attention entirely.
+The only sign that it is there at all are minute cracks in the shape
+of a door.  There are no apparent keyholes or handles at all.
+~
+cracks hidden jasmine~
+2 -2 40057
+D2
+To the south several tables and chairs are scattered about the room.
+~
+~
+0 0 40072
+D3
+There are more bunks in the cave to the west.
+~
+~
+0 0 40055
+E
+signs ground~
+The tracks on the ground lead to the east wall and vanish into it!
+~
+S
+#40057
+&+YTreasure Vault of the Forty Thieves&n~
+   Everything the Thieves have gathered over their long reign of
+terror is stored in this room.  There are several plaques embedded
+in the wall, most of which are just bad poetry written by the
+Chief Thief, but one stands out from the rest.
+~
+400 0 0
+D3
+From this side the door is obvious.  There's a sign on part of
+the wall that reads, 'Door.'
+~
+cracks hidden door jasmine~
+2 -2 40056
+E
+plaque~
+&+g+------------------------------------------------+
+&+g|                                                |
+&+g|  TO  : The Chief Thief                         |
+&+g|  cc  : The Vizier                              |
+&+g|  Subj: Your Reign of Terror                    |
+&+g|  From: The Sultan of Nizari                    |
+&+g|                                                |
+&+g|  You know the plan.  Keep the populace scared  |
+&+g|  and too busy to plot revolt and I will make   |
+&+g|  sure the Guard is not too scrupulous in       |
+&+g|  trying to capture you and yours.  I will      |
+&+g|  even overlook the looting of the ancient      |
+&+g|  royal catacombs.  Little did you know your    |
+&+g|  thieves missed the greater treasure!          |
+&+g|                                                |
+&+g|  You will be rewarded for your service.        |
+&+g|                                                |
+&+g|                  -- The Sultan of Nizari       |
+&+g|                                                |
+&+g+------------------------------------------------+&n
+~
+S
+#40058
+Dark &+LBack Alley&n~
+  The dark and dingy avenues hidden behind the &+yMarketplace&n and between the
+more disreputable buildings in the city are even more depressing than the
+rest of the city -- no mean feat.  Here a side street leading to the
+&+yMarketplace&n connects with a small, dirty road that runs north and south
+along the western border of the town.  Both directions disappear into
+shadows and darkness.  The west wall, actually the side of the mountain,
+is cracked and pitted.
+~
+400 1 1
+D0
+The dark alley is swallowed by shadows.
+~
+~
+0 0 40046
+D1
+The side street is more empty space between structures than a planned road.
+~
+~
+0 0 40059
+D2
+The dark alley is swallowed by shadows.
+~
+~
+0 0 40064
+S
+#40059
+Side Street Between Buildings~
+   This passage is more empty space between buildings than a planned road.
+Dirt and debris clog the way, which is already too narrow to travel in any
+manner other than single file.  The rank stenches rising from some piles of
+garbage are almost visible wrinkles of air, even in this uncertain light.
+The only passable ways are west and south.
+~
+400 0 1
+D2
+The way is barely passable.
+~
+~
+0 0 40065
+D3
+There seems to be a T-intersection to the west.
+~
+~
+0 0 40058
+S
+#40060
+The Nizari &+yMarketplace&n~
+   The cacophony of sounds and pungent mixture of smells is bad enough to
+repel the dead.  Somehow vendors still manage to turn a profit in a place
+where fish are sold next to dates are sold next to slaves and so on.  The
+general citizenry are loud with shifty eyes and suspicious bulges under
+their cloaks.  From here the &+yMarketplace&n extends to the north, east and to
+the south is the entrance to the south part of Nizari.
+~
+400 0 1
+D0
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40048
+D1
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40061
+D2
+The entrance to the southern, ritzy part of Nizari is heavily guarded.
+~
+~
+0 0 40066
+S
+#40061
+The Center of the Nizari &+yMarketplace&n~
+   It seems this area is the culmination of the mess that is the &+yMarketplace&n.
+The area gives the impression of a gaudy clothing store crossed with a farm
+that someone blew up with a sulfur and methane bomb.  The people around
+don't seem to have a problem with the sights or smells, nor do they seem to
+notice the ambiance of doom that hangs over everything like a pall.  Far
+off the the southwest the &+MDroijim Palace&n is highly visible, even above the
+tents and stalls of the &+yMarketplace&n.
+~
+400 0 1
+D0
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40049
+D1
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40062
+D2
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40067
+D3
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40060
+S
+#40062
+The &+yMarketplace&n of Nizari~
+   No matter which direction one looks, they are instantly accosted by a
+bolt of confusion and mayhem; sounds and sights begin to blur together here,
+but for some reason, the far off &+MDroijim Palace&n looks totally unaffected
+by the pall of confusion that lies over the city.  To the east is a simple
+lamp merchant.  For some reason it seems the air in the tent is cleaner.  To
+the south is the southeastern corner of the &+yMarketplace&n, and to the north is
+the northeastern corner of the &+yMarketplace&n.
+~
+400 0 1
+D0
+The corner of the &+yMarketplace&n seems to be mostly deserted.
+~
+~
+0 0 40050
+D1
+The entire ambiance of the lamp merchant's tent seems to be somewhat purer.
+~
+~
+0 0 40063
+D2
+The corner of the &+yMarketplace&n seems to be a natural magnet for refuse.
+~
+~
+0 0 40068
+D3
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40061
+S
+#40063
+&+YThe Tent of the Lamp Merchant&n~
+   The aromatic oils the merchant burns in the many lamps give off a scent
+that, somehow, manages to cover the stench outside.  The tent seems to be
+much larger inside than it is outside; from here a smaller inner room is
+visible through a slit in the south wall of the tent.  The tent itself is
+as brightly lit as the &+yMarketplace&n outside during the day, save this light
+seems to be somewhat cleaner; it lacks the shadow's shadow that hangs over
+the rest of the town.
+~
+400 8 0
+D2
+The inner room is dim compared to this one.
+~
+~
+0 0 40069
+D3
+The chaos of the &+yMarketplace&n seems even more repulsive from the vantage of
+the peaceful lamp shop.
+~
+~
+0 0 40062
+S
+#40064
+&+LBack Alley&n of Nizari~
+   The narrow passage runs north and south.  The western wall is a
+mountainside and there is no way to pass through the cluttered walls to the
+east.  The mountainside here is cracked and pitted almost as much as the
+poor quality plaster and adobe used to build the buildings to the east.
+~
+400 8193 1
+D0
+To the north there seems to be some sort of T-intersection.
+~
+~
+0 0 40058
+D2
+The passage disappears into the shadows to the south.
+~
+~
+0 0 40077
+S
+#40065
+Side Street Between Buildings~
+  There is hardly enough room here to breathe, but it is barely possible
+to squeeze through to the north or east.
+~
+400 0 1
+D0
+The passage doesn't seem to open up to the north.
+~
+~
+0 0 40059
+D1
+There is a narrow slit in the side of a tent; on the other side is a guard
+station.
+~
+~
+0 0 40066
+S
+#40066
+Guardpost to the Southern Part of Nizari~
+   This large tent set in the southwestern corner of the &+yMarketplace&n acts as
+something like a filter; the guards here let nobles and merchants through
+the gates to the south into the ritzier part of town, and keeps the peons
+and riffraff out.  The tent itself has been somewhat weather beaten and
+has several long rents in its sides.  The south exit is blocked by an
+imposing looking gate.
+~
+400 0 0
+D0
+The chaos of the &+yMarketplace&n seems almost inviting compared to the air of
+silent menace that surrounds this place.
+~
+~
+0 0 40048
+D1
+The chaos of the &+yMarketplace&n seems almost inviting compared to the air of
+silent menace that surrounds this place.
+~
+~
+0 0 40067
+D2
+The gate is too heavy to break and is topped with razor sharp ribbons of
+metal the keep thieves from climbing over.
+~
+gate~
+2 40051 40079
+D3
+Upon closer examination, the rent in the tent's wall leads to narrow, almost
+non-existent passageways.  It might be possible to pass that way.
+~
+~
+0 0 40065
+S
+#40067
+The &+yMarketplace&n of Nizari~
+   This appears to be the filthiest part of the market.  There is a hole in
+the southern wall that leads to a cramped series of passages.  They look
+like they're filled with garbage, and a lot of it has spilled out the hole
+into this area.  The &+yMarketplace&n extends to the north, east and west, the
+mixture of sound and smell something out of a nightmare.  The air of
+impending doom doesn't help any at all, either.
+~
+400 0 1
+D0
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40061
+D1
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40068
+D2
+The tiny passage absolutely reeks of garbage.
+~
+~
+0 0 40080
+D3
+The gate to southern Nizari is highly visible.
+~
+~
+0 0 40066
+S
+#40068
+The &+yMarketplace&n of Nizari~
+   This bottom corner of the &+yMarketplace&n is no improvement on the rest of
+the market.  The sights, smells and sounds are just as bad here as they are
+elsewhere, but the intangible shadow that seems to lie over the rest of the
+city seems somewhat lighter here for some reason.
+~
+400 0 1
+D0
+The chaos of the &+yMarketplace&n continues.
+~
+~
+0 0 40062
+D3
+That part of the &+yMarketplace&n seems clogged with garbage.
+~
+~
+0 0 40067
+S
+#40069
+&+YInner room of the Lamp Shop&n~
+   From this room the sound of the chaos of the &+yMarketplace&n is barely a
+murmur over the hum of silence.  The back of the passage is open, and
+across a brief open space is an abandoned house.  There is a bed and
+many lit lamps in this room.
+~
+400 8 0
+D0
+The front part of the lamp merchant's tent.
+~
+~
+0 0 40063
+D2
+The door to the abandoned house is closed, but doesn't seem locked.
+~
+door~
+1 0 40082
+S
+#40070
+The Abandoned Hideout~
+   Judging from various signs, it seems this room used to be the lair of the
+Forty Thieves.  It looks to have been abandoned for quite some time, however.
+There is no sign of where their new hideout is.
+~
+400 9 0
+D2
+Back out into the cramped maze.
+~
+door~
+1 0 40083
+E
+sign signs~
+The sign reads,
++-------------------------------------------+
+|                                           |
+|  This was the &+RLair of the Forty Thieves&n!  |
+|                                           |
++-------------------------------------------+
+~
+S
+#40071
+Kitchen of the Forty Thieves~
+   This area consists of little more than a few firepits and a number of
+rude wooden tables.  The fires have burnt down to embers, and will be
+relit later when they are actually in use.  To the north are rows of bunks
+and to the east are more tables and chairs.
+~
+400 0 0
+D0
+The sleeping quarters of the forty Thieves.
+~
+~
+0 0 40055
+D1
+A room of tables and chairs.
+~
+~
+0 0 40072
+S
+#40072
+Gameroom of the Forty Thieves~
+   This room is, in furnishing, much like the game room in the Guards' Tower,
+only the equipment is in better repair and is of finer quality.  Decks of
+painted plaster boards lay scattered about, and strange porcelain spheres
+cover the strange table in the middle of the room.
+~
+400 0 0
+D0
+Rows of bunks indicate that is the sleeping area.
+~
+~
+0 0 40056
+D1
+The door is a simple affair meant more to keep the draft out than people.
+~
+door~
+2 40052 40073
+E
+table strange~
+The table is rectangular, with six holes drilled in its top.  The holes look
+just large enough to admit the spheres.
+~
+S
+#40073
+The Entrance to the Thieve's Lair~
+   The tunnel comes to an end at a simple wooden door.  There are several
+piles of trash lying about the door, paying mute testimony to the house
+keeping skills of the Thieves.  To the east the tunnel continues.
+~
+400 1 0
+D1
+The tunnel heads back to the &+LBack Alley&ns of Nizari.
+~
+~
+0 0 40074
+D3
+The door is a simple thing, meant more to keep out the draft than to keep
+out people.
+~
+door~
+2 40052 40072
+S
+#40074
+&+LA Dark Tunnel&n~
+   The passage runs to the east and west, in both directions disappearing
+into darkness.  The walls are dry sandstone, but there is a hint of moisture
+in the air.
+~
+400 1 0
+D1
+The tunnel heads back to the &+LBack Alley&ns of Nizari.
+~
+~
+0 0 40075
+D3
+The tunnel leads further under the mountain.
+~
+~
+0 0 40073
+S
+#40075
+&+LA Dark Tunnel&n~
+   The passage here has exits to the east and west; the walls lining the
+tunnel are of sandstone and the air is slightly cool and even a little damp.
+To the east the faintest glimmer of light is visible, and to the west the
+tunnel continues deeper under the mountain.
+~
+400 1 0
+D1
+The dim light comes from light outside shining down into the passage.
+~
+~
+0 0 40076
+D3
+The tunnel leads further under the mountain.
+~
+~
+0 0 40074
+S
+#40076
+&+LA Dark Tunnel&n Entrance~
+   The passage slopes gently downward.  The walls are sandstone, and seem
+to have been made artificially.  The air that wafts from the west is
+distinctly cooler than the air outside to the east.
+~
+400 1 0
+D1
+The dark and twisty &+LBack Alley&n is on the other side of the hidden door.
+~
+door~
+1 0 40077
+D3
+The alley disappears into the darkness under the mountains ...
+~
+~
+0 0 40075
+S
+#40077
+Dark &+LBack Alley&n~
+   The cramped space between the west wall of the city (actually the mountain
+side) and the buildings to the east allows passage to the north and south.
+Here the mountain side is preternaturally smooth.  To the south the alley
+comes to an end against the &+BPalace Walls&n.
+~
+400 1 1
+D0
+The dark alley is swallowed by shadows.
+~
+~
+0 0 40064
+D2
+The dark alley is swallowed by shadows.
+~
+~
+0 0 40087
+D3
+The mountain side seems strangely flat here.
+~
+mountain side~
+1 0 40076
+S
+#40078
+&+cGuards' Way&n~
+   This street is absolutely lined with guards whose sole job is to kill
+anyone not of noble blood or a slave thereof.  They will simply assume
+that anyone that's made it this far has bad intentions, and will react
+accordingly.  It seems the street continues in a like manner to the east
+and south.
+~
+400 0 1
+D1
+More street, more guards.
+~
+~
+0 0 40079
+D2
+More street, more guards.
+~
+~
+0 0 40088
+S
+#40079
+&+cGuards' Way&n~
+   This street is absolutely lined with guards whose sole job is to kill
+anyone not of noble blood or a slave thereof.  They will simply assume
+that anyone that's made it this far has bad intentions, and will react
+accordingly.  The street continues in a like manner to the west, and to
+the north is the gate of the guard post.
+~
+400 0 1
+D0
+The gate is rather large and forbidding.
+~
+gate~
+2 40051 40066
+D3
+More street, more guards.
+~
+~
+0 0 40078
+S
+#40080
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is barely visible and the
+murky light makes it even harder to differentiate between the shadows and
+reality.
+~
+400 1 1
+D0
+To the chaos of the &+yMarketplace&n.
+~
+~
+0 0 40067
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40081
+S
+#40081
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is barely visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40091
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40080
+S
+#40082
+An Abandoned House~
+   This small, single-room house seems to have been deserted.  For
+no apparent reason, the air in here seems clear and almost clean.
+Out of nowhere a cooling breeze stirs up.  Judging from the old
+bloodstains on the floor, it seems the previous owners came to an
+evil end.  Their ghosts can almost be sensed, their sadness and
+melancholy almost a palpable force keeping the peace and silence.
+~
+400 131092 0
+D0
+Back to the lamp merchant's tent.
+~
+door~
+1 0 40069
+S
+#40083
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a cat or two.  The sky above is barely visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The barely noticeable entrance to the north is hidden in shadows.
+~
+door~
+1 0 40070
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40084
+S
+#40084
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is barely visible and the
+uncertain light makes it even harder to tell the difference between shadows
+and reality.
+~
+400 1 1
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40085
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40083
+S
+#40085
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40095
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40084
+S
+#40086
+Dead End in the &+LBack Alley&n of Eastern Nizari~
+   The passage is actually different here -- it ends in a blank wall instead
+of continuing in some direction.  Other than that, the garbage and corpses
+and the shadows are the same.
+~
+400 1 1
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40096
+S
+#40087
+Dead End on the &+LBack Alley&n~
+   The west wall, being the mountainside, is too sheer to climb (besides,
+it doesn't go anywhere).  The south wall is the palace wall, and there are
+so many guards in sight that attempting to climb would be 1) suicidal and
+2) impossible, since it is so high and there are no foot or handholds.
+~
+400 1 1
+D0
+The alley disappears into the shadows.
+~
+~
+0 0 40077
+S
+#40088
+&+cGuards' Way&n~
+   This street is absolutely lined with guards whose sole job is to kill
+anyone not of noble blood or a slave thereof.  They will simply assume
+that anyone that's made it this far has bad intentions, and will react
+accordingly.  The street continues in a like manner to the west, and to
+the north is the gate of the guard post.
+~
+400 0 1
+D0
+More street, more guards.
+~
+~
+0 0 40078
+D1
+&+cGuards' Way&n turns into Glass Road.
+~
+~
+0 0 40089
+S
+#40089
+&+CThe Glass Road&n~
+   To the west is &+cGuards' Way&n; here along &+CGlass Road&n, there are dozens of
+glass sculptures lining the street, catching the light, reflecting and
+refracting it all over the place.  The street is well swept and clean,
+everything has been whitewashed and polished to perfection.  All in all,
+the place is just a bit *too* clean; the sense of menace that hangs over
+the northern part of the city has simply been replaced by a feeling of
+impending doom.
+~
+400 0 1
+D1
+To the east Glass Road curves to the south.
+~
+~
+0 0 40090
+D3
+To the west is &+cGuards' Way&n.
+~
+~
+0 0 40088
+E
+statue glass statues sculptures~
+Some are simple pillars of glass, but most have been fashioned in the shape
+of a sphinx or demonic bodies writhing in agony.
+~
+S
+#40090
+&+CThe Glass Road&n~
+   The street here curves from the west to the south.  There are many glass
+structures lining the streets here, and the streets are clean swept.  The
+sudden cleanliness after the chaos and filth of northern Nizari seems almost
+threatening.
+~
+400 0 0
+D2
+&+CThe Glass Road&n sparkles on.
+~
+~
+0 0 40103
+D3
+&+CThe Glass Road&n sparkles on.
+~
+~
+0 0 40089
+E
+structures structure glass~
+These are slightly larger than those on the street to the west but not as
+large as those lining the street to the south.  These mostly depict large
+serpents with sharp fangs, or unearthly mythical beasts with cruel eyes.
+Of course, every structure on the street seems to be watching you.
+~
+S
+#40091
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+wavering light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40081
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40092
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40104
+S
+#40092
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with a corpse or two or three.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40093
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40105
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40091
+S
+#40093
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is not visible at all and
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40094
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40106
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40091
+S
+#40094
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40095
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40107
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40093
+S
+#40095
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same here as well; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40085
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40096
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40094
+S
+#40096
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40086
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40095
+S
+#40097
+Atop the &+BPalace Walls&n~
+   The masons have built part of the palace right into the mountainside;
+here the &+BPalace Walls&n end to the west against the flat, craggy surface of
+the mountain.  To the west the palace wall continues, and down the stairs to
+the south are the palace gardens.
+~
+400 32768 1
+D1
+The palace wall continues.
+~
+~
+0 0 40098
+D2
+The palace gardens are filled with strange desert plants.
+~
+~
+0 0 40111
+S
+#40098
+Atop the &+BPalace Walls&n~
+   From here the view of northern Nizari is partially blocked from view --
+not that northern Nizari is all that attractive at the best of times, but
+nevertheless, that's what is visible from here.  The palace wall extends
+to the mountain to the west and continues for a while to the east.
+~
+400 32768 1
+D1
+The palace wall continues.
+~
+~
+0 0 40099
+D3
+The palace wall continues.
+~
+~
+0 0 40097
+S
+#40099
+Atop the &+BPalace Walls&n~
+   The path across the top of the thick palace wall is somewhat precarious,
+being only a few feet wide at this point and no safety ledge.  The wall
+runs from the east to west, its surface embossed sporadically with sphinxes
+or serpents.  Far down on the ground to the south are the palace gardens.
+~
+400 32768 1
+D1
+The palace wall continues.
+~
+~
+0 0 40100
+D3
+The palace wall continues.
+~
+~
+0 0 40098
+S
+#40100
+Atop the &+BPalace Walls&n~
+   Here there is a stairwell leading to the ground to the south, and the
+walkable path across the palace wall continues to the west.  From here much
+of northern Nizari is visible, and on a clear day it is possible to see all
+they way to the guard's tower on the northeastern corner of town.  Directly
+below to the north a cramped, dank, and Dark &+LBack Alley&n stretches to the
+north, running along the side of the mountain.
+~
+400 32768 1
+D2
+The stairwell leads down to the palace grounds.
+~
+~
+0 0 40114
+D3
+The palace wall continues.
+~
+~
+0 0 40099
+S
+#40103
+&+CThe Glass Road&n~
+   The statues lining the street here are very, very large; most are twice
+again the size of a normal human.  That they should be made of glass is,
+after a bit of thought, somewhat obvious, considering the amount of glass
+handy to work with.  Some of the statues feature large, gaping mouths with
+rows of sharp teeth.  All have eyes that stare sightlessly ahead, but for
+some reason seem to turn to focus on you when you turn your back on them.
+~
+400 0 1
+D0
+&+CThe Glass Road&n sparkles on
+~
+~
+0 0 40090
+D2
+A T-intersection is to the south.
+~
+~
+0 0 40117
+S
+#40104
+&+LBack Alley&n of Eastern Nizari~
+   The &+LBack Alley&n is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40091
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40105
+S
+#40105
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is barely visible; the
+uncertain light makes it impossible to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40092
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40106
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40104
+S
+#40106
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40093
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40105
+S
+#40107
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is hardly visible and the
+uncertain light makes it even harder to differentiate between the shadows
+and reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40094
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40108
+S
+#40108
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a rat or two.  The sky above is not visible and the
+absence of light makes it even harder to differentiate between the shadow
+on the wall and reality ... or is it?
+~
+400 1 1
+D1
+It's only a shadow on the wall.  Or a shadow within a shadow, it seems.  But
+then what's that keyhole?
+~
+shadow wall door~
+2 40056 40109
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40122
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40107
+S
+#40109
+Back door to the City of Nizari~
+   The area shows every sign of being lost and forgotten; the floor has a
+layer of dust an inch thick on it, and there are no tracks disturbing it.
+The secret door is in disrepair, and the passage to the south is blocked
+by massive, unmovable rubble.
+~
+400 9 1
+D3
+The door is barely distinguishable from the rest of the wall, and the
+mechanism that opens and closes it is rusty and barely works.
+~
+door secret~
+2 40056 40108
+S
+#40110
+Servants' Entrance to the &+MDroijim Palace&n~
+   This is the way the guards and servants enter and leave the castle; in
+the back so as to be out of the way of the noble drips.  The north wall has
+shelves and hooks to store gardening equipment when not in use.
+~
+400 32769 0
+D1
+The gardens of the &+MDroijim Palace&n.
+~
+door~
+2 40057 40111
+D2
+The servants quarters.
+~
+~
+0 0 40123
+S
+#40111
+The Gardens of the &+MDroijim Palace&n~
+   The strange and exotic desert plants are beautiful, hardy, and deadly.
+The gardens are nice to look at and amusing to watch -- especially when
+one not bred in the desert walks through, not knowing which plants will
+regard them as food ...
+~
+400 32768 1
+D0
+The stone stairs lead up to the top of the &+BPalace Walls&n.
+~
+~
+0 0 40097
+D1
+The garden continues.
+~
+~
+0 0 40112
+D3
+The servants' entrance.
+~
+door entrance~
+2 40057 40110
+S
+#40112
+The Gardens of the &+MDroijim Palace&n~
+   The plants that are cultivated here are beautiful to see and some are
+deadly to touch.  All are brightly colored, with thin, spiked leaves and
+thick skins.
+~
+400 32768 1
+D1
+The garden continues.
+~
+~
+0 0 40113
+D3
+The garden continues.
+~
+~
+0 0 40111
+S
+#40113
+The Gardens of the &+MDroijim Palace&n~
+   These plants and flowers are lovely, all brightly painted with vivid
+colors and their scents are as clean and refreshing as a cool drink of
+water.  Just around the corner the sounds of a fountain are audible.  To
+the west the garden continues, and to the east is the gate that keeps
+scavengers out ... or the plants in?
+~
+400 32768 1
+D1
+The gate to the gardens is more a nuisance than anything else, but it
+looks good.
+~
+gate~
+1 0 40114
+D3
+The garden goes on.
+~
+~
+0 0 40112
+S
+#40114
+&+GThe Grounds of the &+MDroijim Palace~
+   From here, to the north there is a short flight of stairs that leads up
+to a pathway atop the &+BPalace Walls&n.  To the south a beautiful marble
+fountain is visible, the waters flowing from the spouts in such as way as
+to catch the light in scintillating arcs when the sun strikes them, the
+light visible even from this distance.  To the west is a small ornamental
+gate closing off the beautiful and bizarre gardens.
+~
+400 32768 1
+D0
+The stairs lead up to the top of the &+BPalace Walls&n.
+~
+~
+0 0 40100
+D2
+The very sound of the fountain is enough to make one thirsty.
+~
+~
+0 0 40127
+D3
+The gate to the gardens is more a nuisance than anything else, but it
+looks good.
+~
+gate~
+1 0 40113
+S
+#40115
+&+CGates to the &+MDroijim Palace~
+   This is a truly forbidding structure.  Twin pillars soar some forty feet
+in the air, each embossed with serpents and demons that leer and stare with
+malicious eyes.  The gates are gold plated steel, and bristle with sharp
+spikes; anyone throw up against the gate is instantly impaled by dozens of
+the things.  Plaques of gold are set within the walls at either side of the
+pillars; disgustingly gaudy things that are three feet long by two feet wide,
+with bold letters embossed on them.
+~
+400 32768 1
+D1
+&+YNoble Road&n lies in that direction.
+~
+~
+0 0 40116
+D2
+The gates stare back at you ... and sneer.  Some of the demons seem to be
+laughing or drooling.
+~
+gate~
+2 40058 40128
+E
+pillars serpents demons~
+The creatures carved into the pillars seem to shift around, but of course
+it is only the wavering of the hot air that is doing it ... isn't it?
+~
+E
+plaque plaques~
+&+Y+---------------------+
+|                     |
+|  The &+MDroijim Palace&n |
+|                     |
++---------------------+&n
+~
+S
+#40116
+Along &+YNoble Road&n~
+   This street is absolutely lousy with jewels that may or may not be glass.
+Most are set into the walls but a few have come loose and fallen to the
+ground.  To the west the palace gates loom, and &+YNoble Road&n continues to the
+east.  When the sun strikes this road the resulting glitters and flashes
+are almost blinding; spectrums of light beam out from strangely cut and
+faceted jewels inscribed with magical runes.
+~
+400 0 1
+D1
+&+YNoble Road&n continues.
+~
+~
+0 0 40117
+D3
+&+YNoble Road&n continues toward the gates of the &+MDroijim Palace&n.
+~
+~
+0 0 40115
+S
+#40117
+T-intersection of &+YNoble Road&n and &+CThe Glass Road&n~
+   To the north the unmistakable shine and glare of &+CGlass Road &nbeacons;
+to the east and west &+YNoble Road&n runs, a veritable river of jewels.  Some
+have come loose of their settings in the wall, but others are too firmly
+stuck in the wall to pry free, so don't bother trying.  The air along this
+road is much cleaner than that of the market, but it feels so clean and
+sharp that your lungs feel shredded to ribbons with each breath.  There is
+a golden door set in the wall to the south.
+~
+400 0 1
+D0
+The huge glass sculptures seem to be waiting for you to approach.
+~
+~
+0 0 40103
+D1
+&+YNoble Road&n seems to end up ahead.
+~
+~
+0 0 40118
+D2
+The door to the large mansion obviously belongs to some sort of noble.
+~
+door golden~
+2 40059 40130
+D3
+&+YNoble Road&n runs toward the &+MDroijim Palace&n.  Even from here there is a
+palpable sense of impending doom radiating from the palace.
+~
+~
+0 0 40116
+S
+#40118
+End of &+YNoble Road&n~
+   The road ends in a sort of cul-de-sac.  Tall walls to the north and south
+keep out the undesirable elements that inhabit northern Nizari.  To the
+south an ornately carved door is set in the wall; fashionable and rich
+looking, but still obviously the quarters of a servant.
+~
+400 0 1
+D2
+The door is elegant and simple.
+~
+door~
+1 0 40131
+D3
+&+YNoble Road&n is drawn toward the leering Palace Gates.
+~
+~
+0 0 40117
+E
+carved carving carvings ornately~
+There seen to be words carved into the door.
+~
+E
+words~
+The words read, after some deciphering, 'IF YOU VALUE YOUR LIFE KEEP OUT.'
+~
+S
+#40121
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a cat or two.  The sky above is not visible and the
+dim light makes it even harder to differentiate between shadows and
+reality.
+~
+400 1 1
+D1
+The &+LBack Alley&n continues.
+~
+~
+0 0 40122
+D2
+The &+LBack Alley&n continues.
+~
+~
+0 0 40134
+S
+#40122
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; trash and more trash, interspaced
+with the corpse of a man or two.  The sky above is barely visible and the
+murky, dirty light makes it even harder to differentiate between the shadow
+on the wall and reality ... or is it?
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40108
+D3
+The &+LBack Alley&n continues.
+~
+~
+0 0 40121
+S
+#40123
+&+yThe Servant's Quarters&n~
+   Even though the facilities are opulent and comfortable, the impression of
+abject misery and servitude is unshakable.  Despite the cleanliness of the
+quarters the servant's existence seems squalid and unkempt.  Perhaps it has
+something to do with the smell of total, unadulterated fear in the room.
+~
+400 32769 0
+D0
+The servants entrance.
+~
+~
+0 0 40110
+D2
+Deeper into the palace; looking that way feels the same as looking down the
+throat of a dragon...
+~
+~
+0 0 40135
+S
+#40124
+&+YThe Throne Room of the &+MDroijim Palace~
+   The room is unspeakably large and tasteless.  The chamber is so large it
+takes three seconds for the echo to return from the other side of the room.
+The throne is gold set with entirely too many jewels.  The back of the throne
+towers some twelve feet in the air.  The armrests are hung with grinning
+golden skulls with eyes of ruby.  At the moment the throne is unoccupied.
+~
+400 32768 5
+D1
+The prospect of a hike to the other side of the throne room is tiring in and
+of itself.
+~
+~
+0 0 40125
+D2
+The prospect of a hike to the other side of the throne room is tiring in and
+of itself.
+~
+~
+0 0 40136
+S
+#40125
+&+YThe Throne Room of the &+MDroijim Palace~
+   The room is unspeakably large and tasteless.  The chamber is so large it
+takes a full three seconds for an echo to travel back from the other side of
+the room.  Here the walls are hung with tapestries; the one along the east
+wall is particularly large.  The pattern forms an optical illusion of a
+tunnel.  The throne room continues south and west.
+~
+400 32768 5
+D1
+The tapestry stirs slightly, as if there is a draft passing through it.
+~
+tapestry~
+1 -1 40126
+D2
+The prospect of a hike to the other side of the throne room is tiring in and
+of itself.
+~
+~
+0 0 40137
+D3
+The prospect of a hike to the other side of the throne room is tiring in and
+of itself.
+~
+~
+0 0 40124
+S
+#40126
+The Royal Conference Room~
+   There is a large, round table of some strange type of wood dominating the
+center of the room.  There are a dozen or so chairs set around the table as
+well.  The walls are hung with tapestries or mirrors; to the south is a
+particularly large mirror.  Something about it seems strange.
+~
+400 32769 0
+D2
+The mirror doesn't really reflect much.
+~
+mirror~
+1 -1 40138
+D3
+There is a tapestry hung over the archway that seems to conceal the room's
+existence.
+~
+tapestry~
+1 -1 40125
+S
+#40127
+The Fountain Outside the &+MDroijim Palace&n~
+   The waters of the fountain arch and sparkle in the air.  To the south is
+the entrance to the palace itself.  To the north the palace grounds extend,
+and to the east is a guardpost.  The fountain's water winks in the light.
+~
+400 32768 1
+D0
+The gate to the gardens of the &+MDroijim Palace&n are visible from here.
+~
+~
+0 0 40114
+D1
+The guardpost inside the palace gate.
+~
+~
+0 0 40128
+D2
+The door to the palace is a huge, thick, wooden affair inlaid with gold.
+~
+door~
+1 0 40139
+S
+#40128
+Inside the Palace Gates~
+   There is a small guard post here; meant more to be a token show of force
+than a determined effort to keep invaders out.  The evil reputation of the
+palace is well known to the inhabitants of Nizari; most avoid it voluntarily.
+The pillars and walls of the palace tower to the north, blocking the sun at
+most times of the day; to the west the fountain's waters sparkle in the air.
+~
+400 32768 1
+D0
+The real world lies on the other side of the gates.  From the inside, it
+feels as if reality is somewhat warped.
+~
+gates gate~
+1 0 40115
+D3
+The fountain seems to be beckoning to you.  Don't you feel thirsty?
+~
+~
+0 0 40127
+S
+#40129
+Foyer of an Opulent Noble's House~
+   Through an ivy-covered arch to the south is the sitting room to this
+dwelling; to the east is the entrance.  The house seems to be empty, judging
+by the preternatural silence in the house.  Here there are wooden shelves
+against the wall designed to hold shoes and boots and other types of foot-
+ware.
+~
+400 32768 0
+D1
+Entrance to the Noble's house.
+~
+~
+0 0 40130
+D2
+The sitting room.
+~
+~
+0 0 40141
+S
+#40130
+Entrance to the Noble's House~
+   The most immediately striking thing about this room is the intense silence
+that saturates the room, and as far as one can tell, the rest of the mansion.
+The ornate door to the north is tasteful, different from the streets outside.
+The interior of the house lies to the west; the door to the north leads to
+the intersection of Glass Road and &+YNoble Road&n.
+~
+400 32769 0
+D0
+The door to the street.
+~
+door~
+2 40059 40117
+D3
+The foyer of the house.
+~
+~
+0 0 40129
+S
+#40131
+&+LThe Beast's Cage&n~
+   The antithesis of the rest of southern Nizari, this room is dank, smelly,
+squalid, pungent, dirty, filthy, and several other adjectives along that vein.
+There are a pair of heavy iron chains bolted into the back wall.  The air in
+the chamber stirs, as from the breath of some large creature.
+~
+400 9 0
+D0
+The way out!
+~
+door~
+1 0 40118
+S
+#40132
+The Noble's Bedroom~
+   This room is an explosion of pillows and silken sheets.  The floor itself
+would serve as a bed quite easily; the sheer profusion of pillows is enough
+to make one yawn.  The room is predominantly red and gold, and plenty of lace
+all over the place.  The air is heavily scented with incense and ...
+something else.
+~
+400 32768 0
+D2
+The double doors on this side aren't bejeweled; they are padded.
+~
+double~
+1 0 40144
+S
+#40134
+&+LBack Alley&n of Eastern Nizari~
+   The passage is the same everywhere; corpses and more corpses, interspaced
+with a few bits and pieces of trash.  The sky above is not visible and the
+shadow tainted light makes it hard to differentiate between shadows and
+reality.
+~
+400 1 1
+D0
+The &+LBack Alley&n continues.
+~
+~
+0 0 40121
+S
+#40135
+Hallway in &+yThe Servant's Quarters&n~
+   The corridor is as friendly and cheerful as a hall in the prison of your
+choice.  For absolutely no reason you can put your finger on, a pall hangs
+over your head like an executioner's blade.  The passage runs north and
+south.
+~
+400 32768 0
+D0
+&+yThe Servant's Quarters&n.
+~
+~
+0 0 40123
+D2
+&+yThe Servant's Quarters&n.
+~
+~
+0 0 40145
+S
+#40136
+&+YThe Throne Room of the &+MDroijim Palace~
+   The room is unspeakably large and tasteless.  The chamber is so large it
+takes a full three seconds for an echo to travel back from the other side of
+the room.  Here there are a few glass cases set with *ulp* grinning human
+skulls.  Each has a plaque with the name of the previous owner and their
+transgression against the sultan.  One reads, 'Gazeem, who looked at the Lady
+Consort of the Sultan of Nizari.'  Another reads, 'Calishaw, who was late
+to a feast given by the Sultan of Nizari.'
+~
+400 32768 5
+D0
+The throne takes up much of the area to the north.
+~
+~
+0 0 40124
+D1
+The other side of the throne room is far, far away.
+~
+~
+0 0 40137
+S
+#40137
+&+YThe Throne Room of the &+MDroijim Palace~
+   The room is unspeakably large and tasteless.  The chamber is so large it
+takes a full three seconds for an echo to travel back from the other side of
+the room.  Suits of exotic desert armor line the east wall; to the north and
+west the throne room continues.  Through the entrance to the south is the
+smaller, but not much more comfortable, waiting chamber.
+~
+400 32768 5
+D0
+The other side of the throne room is far, far away.
+~
+~
+0 0 40125
+D2
+The enormous double doors were designed to impress ... and they do.
+~
+double door doors~
+1 0 40147
+D3
+The other side of the throne room is far, far away.
+~
+~
+0 0 40136
+S
+#40138
+Through the Looking Glass~
+   This is a simple stairwell.  To the north the conference room is clearly
+visible.  The walls are simple, unadorned sandstone, and the winding stair
+case in the room leads to the upper level high overhead.
+~
+400 32772 0
+D0
+Back into the conference room.
+~
+mirror~
+1 -1 40126
+D4
+Up to the second floor of the &+MDroijim Palace&n.
+~
+~
+0 0 40179
+S
+#40139
+Main Entrance to the &+MDroijim Palace&n~
+   The first room within the temple was designed to overawe those entering
+the palace; the ceiling soars to a height some forty feet high.  The windows
+have been set with stained glass -- when the sun strikes the window the
+resulting colors that paint the room are absolutely incredible.  The
+incongruous archway to the south leads deeper into the palace.
+~
+400 32768 0
+D0
+The door to the palace is a huge, thick, wooden affair inlaid with gold.
+~
+door~
+1 0 40127
+D2
+It is only your imagination, of course, but the archway seems to bear the
+slightest resemblance to the maw of a snake.
+~
+~
+0 0 40149
+S
+#40140
+Kitchen of the &+MDroijim Palace&n~
+   Fitting with the rest of the palace, the place is overly large and overly
+decorated and overly obnoxious.  There are hundreds of gizmos lined against
+the wall, each meant to make cooking easier -- one makes bread, another
+slices meat, another juices fruits, etc etc etc.  One for every conceivable
+kitchen task there is.
+~
+400 32768 0
+D2
+The kitchen continues.
+~
+~
+0 0 40150
+S
+#40141
+Sitting Room~
+   This sitting room is the size of two or three of the hovels of Northern
+Nizari.  There is a fireplace against the south wall (God knows why, this
+being a desert and all) and against the east wall is a bay window that lets
+in plenty of light.  There are several comfortable looking couches in the
+room and a few coffee tables; in the southwest corner a dry bar is set up.
+~
+400 32768 0
+D0
+Foyer of the Noble's house.
+~
+~
+0 0 40129
+D1
+Hallway in the Noble's House.
+~
+~
+0 0 40142
+S
+#40142
+Hallway in the Noble's House~
+   This long hallway forms the 'backbone' of the house; there are numerous
+rooms branching off to the north and south.  After a cursory glance, it is
+fairly apparent there is nothing of interest in any of them.  The rooms at
+the end of the hallway look much more interesting.  There are paintings
+hung on the walls between doorways; most are beautiful scenic landscapes of
+forests and rivers.
+~
+400 32768 0
+D1
+The hallway continues.
+~
+~
+0 0 40143
+D3
+The sitting room is to the west through a desert ivy-clad archway.
+~
+~
+0 0 40141
+S
+#40143
+Hallway in the Noble's House~
+   This long hallway forms the 'backbone' of the house; there are numerous
+rooms branching off to the north and south.  After a cursory glance, it is
+fairly apparent there is nothing of interest in any of them.  The rooms at
+the end of the hallway look much more interesting.  There are paintings
+hung on the walls between doorways; most are beautiful scenic landscapes of
+forests and rivers.
+~
+400 32768 0
+D1
+The hallway ends up ahead.
+~
+~
+0 0 40144
+D3
+The hallway stretches out a fair distance before you.
+~
+~
+0 0 40142
+S
+#40144
+End of the Hallway~
+   The hallway comes to graceful completion here.  To the north are ornate
+double doors of wood; richly carved and inlaid with silver and gold and
+precious gems.  To the south is a simple wooden door.  The wood is of high
+quality, but other than that, it is rather simple.  Here there is a small
+display case set in the east wall, but it is empty.
+~
+400 32768 0
+D0
+The double doors alone probably cost as much as half of northern Nizari.
+~
+double~
+1 0 40132
+D2
+The wooden door is simple yet elegant.
+~
+wooden~
+1 0 40151
+D3
+The hallway stretches for a fair distance to the west.
+~
+~
+0 0 40143
+S
+#40145
+&+yThe Servant's Sector&n~
+   This room would actually be rather pleasant ... if it wasn't for the reek
+of fear that fills it.  It is well lighted through large windows on the far
+wall, with tasteful decorations and hangings here and there.  All in all, it
+is a far cut above most servant's quarters, but the atmosphere is as dismal
+as a dungeon.
+~
+400 32768 0
+D0
+A hallway leads to the back entrance to the castle.
+~
+~
+0 0 40135
+D1
+There is a stairwell leading up in the next room.
+~
+~
+0 0 40146
+D2
+The southwest corner of &+yThe Servant's Sector&n.
+~
+~
+0 0 40152
+S
+#40146
+&+yThe Servant's Sector&n~
+   This room would actually be rather pleasant ... if it wasn't for the reek
+of fear that fills it.  It is well lighted through large windows on the far
+wall, with tasteful decorations and hangings here and there.  All in all, it
+is a far cut above most servant's quarters, but the atmosphere is as dismal
+as a dungeon.  There is a large iron winding staircase leading through a
+hole in the ceiling to the second floor of the &+MDroijim Palace&n.
+~
+400 32768 0
+D2
+The southeast corner of &+yThe Servant's Sector&n.
+~
+~
+0 0 40153
+D3
+The northwest corner of &+yThe Servant's Sector&n.
+~
+~
+0 0 40145
+D4
+The iron staircase vanishes into the hole above.
+~
+~
+0 0 40181
+E
+iron staircase~
+The staircase is in sharp contrast to the rest of the room.  The staircase is
+fashioned of black iron that looks old and ugly compared to the soft hues of
+the rest of the room.
+~
+S
+#40147
+The Audience Chamber~
+   Less an audience chamber than an informal sitting room, this is a well
+decorated and furnished room.  It is, in short, the perfect place to rest
+before having an audience with the sultan.  However, the furniture looks
+as if it has never been used before.
+~
+400 32768 0
+D0
+The enormous throne room lies that way through enormous double doors.
+~
+double door doors~
+1 0 40137
+D1
+The foyer of the &+MDroijim Palace&n is to the east through a soaring arch.
+~
+~
+0 0 40148
+D2
+From this room it is possible to catch a glimpse of the large banquet hall.
+~
+~
+0 0 40154
+S
+#40148
+The Foyer of the &+MDroijim Palace&n~
+   This is basically one of those large, empty, pretty much useless rooms
+all palaces must have.  It looks impressive and does nothing (much like
+many forms of government) but it is critical, for some reason known only
+to architects, to the overall aesthetic design of the palace.
+~
+400 32768 0
+D1
+More largely empty and useless space.
+~
+~
+0 0 40149
+D3
+The audience chamber lies that way through a rather large archway.
+~
+~
+0 0 40147
+S
+#40149
+The Foyer of the &+MDroijim Palace&n~
+   This is basically one of those large, empty, pretty much useless rooms
+all palaces must have.  It looks impressive and does nothing (much like
+many forms of government) but it is critical, for some reason known only
+to architects, to the overall aesthetic value of the palace.
+~
+400 32768 0
+D0
+That way lies the entrance to the palace.
+~
+~
+0 0 40139
+D2
+That way lies &+cThe Banquet Hall&n.
+~
+~
+0 0 40156
+S
+#40150
+Kitchen of the &+MDroijim Palace&n~
+   Fitting with the rest of the palace, the place is overly large and overly
+decorated and overly obnoxious.  There are hundreds of gizmos lined against
+the wall, each meant to make cooking easier -- one makes bread, another
+slices meat, another juices fruits, etc etc etc.  One for every conceivable
+kitchen task there is.
+~
+400 32768 0
+D0
+The kitchen continues.
+~
+~
+0 0 40140
+D2
+The kitchen continues.
+~
+~
+0 0 40157
+S
+#40151
+&+BThe Library&n~
+   This is a bookworm's dream library; there are virtually hundreds of books
+lining the walls -- probably closer to a thousand.  The floor is carpeted
+with lush green material, and there is wood everywhere -- the ultimate sign
+of wealth in this dry and arid land.  The walls are lined with books, with
+small, aesthetic spaces between bookshelves hung with pictures.  The door
+is almost invisible when closed, since the paneling on the door matches
+the paneling on the walls.  There are several lightsources in the room, each
+obviously enchanted, but well out of reach.  There is a couch, coffee table
+and lazy boy recliner near the center of the room.  It appears that some of
+these books are of an other-worldly nature ...
+~
+400 32768 0
+D0
+The wooden door seems to vanish into the wall when closed.
+~
+door wooden~
+1 0 40144
+D2
+The bookshelf is marginally smaller than the rest against the wall.  There
+is a curious blank space along the right edge that looks as if there is
+a book missing from the shelf.
+~
+bookshelf shelf~
+2 40060 40161
+S
+#40152
+&+yThe Servant's Sector&n~
+   This room would actually be rather pleasant ... if it wasn't for the reek
+of fear that fills it.  It is well lighted through large windows on the far
+wall, with tasteful decorations and hangings here and there.  All in all, it
+is a far cut above most servant's quarters, but the atmosphere is as dismal
+as a dungeon.
+~
+400 32768 0
+D0
+&+yThe Servant's Quarters&n continue.  Farther north is a hallway.
+~
+~
+0 0 40145
+D1
+The southeast corner of &+yThe Servant's Quarters&n.
+~
+~
+0 0 40153
+S
+#40153
+&+yThe Servant's Sector&n~
+   This room would actually be rather pleasant ... if it wasn't for the reek
+of fear that fills it.  It is well lighted through large windows on the far
+wall, with tasteful decorations and hangings here and there.  All in all, it
+is a far cut above most servant's quarters, but the atmosphere is as dismal
+as a dungeon.  To the north is a large iron stairwell.
+~
+400 32768 0
+D0
+The northeastern corner of the quarters is dominated by an ugly iron stair.
+~
+~
+0 0 40146
+D3
+The southwestern corner of &+yThe Servant's Quarters&n.
+~
+~
+0 0 40152
+S
+#40154
+&+cThe Banquet Hall&n~
+   It seems as if the entire population of Nizari could fit comfortably in
+this ridiculously large room.  The main table is at this end on a raised
+dais -- a comfortable rectangular affair that can seat fifty people easily
+for a small informal dinner.  Below are dozens of smaller tables that seat
+twelve.
+~
+400 32768 5
+D0
+The audience chamber is to the north.
+~
+~
+0 0 40147
+D1
+&+cThe Banquet Hall&n stretches so far east the curve of the earth is almost
+visible looking across the room.
+~
+~
+0 0 40155
+S
+#40155
+&+cThe Banquet Hall&n~
+   Standing in the middle of the hall, on a dim day it can actually be
+difficult to see to the other sides of the room.  Here are a few dozen tables
+that seat a dozen each -- roughly speaking, a gross of people could be fit
+in this part of the room alone -- comfortably, at that.
+~
+400 32768 5
+D1
+The end of &+cThe Banquet Hall&n is a long walk that way.
+~
+~
+0 0 40156
+D3
+The end of &+cThe Banquet Hall&n is a long walk that way.
+~
+~
+0 0 40154
+S
+#40156
+&+cThe Banquet Hall&n~
+   This room is ridiculously large.  The tables at this end are obviously for
+persons out of favor with the Sultan -- for one thing, they are so far away
+from the main table.  For another thing, the tables are almost shoddy in
+condition and quality.  The kitchen entrance is a simple swinging door on
+the east wall, and to the north is the castle foyer.
+~
+400 32768 5
+D0
+The castle foyer is to the north.
+~
+~
+0 0 40149
+D1
+The swinging door allows easy access to and from the kitchen.
+~
+swinging door~
+1 0 40157
+D3
+&+cThe Banquet Hall&n stretches so far west the curve of the earth is almost
+visible looking across the room.
+~
+~
+0 0 40155
+S
+#40157
+Kitchen of the &+MDroijim Palace&n~
+   Fitting with the rest of the palace, the place is overly large and overly
+decorated and overly obnoxious.  There are hundreds of gizmos lined against
+the wall, each meant to make cooking easier -- one makes bread, another
+slices meat, another juices fruits, etc etc etc.  One for every conceivable
+kitchen task there is.  The door to the pantry is on the east wall.
+~
+400 32768 0
+D0
+The kitchen stretches quite a ways to the north before coming to an end.
+~
+~
+0 0 40150
+D1
+The pantry is rather large; hardly surprising considering the scale of the
+rest of the palace.
+~
+pantry~
+1 0 40158
+D3
+Through a simple swinging door is &+cThe Banquet Hall&n.
+~
+swinging door~
+1 0 40156
+S
+#40158
+The Pantry~
+   Large.  Lots of food.  Lots of pots.  Lots of pans.  Huge shelves.
+Shelves all over the walls.  'Nuff said.
+~
+400 32769 0
+D1
+The shelf looks a little less old than the others.
+~
+shelf~
+1 0 40159
+D3
+The door leads out into the kitchen.
+~
+pantry door~
+1 0 40157
+S
+#40159
+End of the Tunnel~
+   The dark tunnel comes to an abrupt end against a flat wooden wall.  The
+scent of danger seems much stronger here.  The walls are surprisingly dry,
+and the air is slightly stuffy.
+~
+400 32769 0
+D1
+The tunnel disappears into shadows to the east.
+~
+~
+0 0 40160
+D3
+The wooden wall seems fixed on a hinge at one end.
+~
+wooden wall~
+1 0 40158
+S
+#40160
+&+LThe Dark Tunnel&n~
+   The tunnel stretches off into shadows to the east and west.  The air is
+not entirely musty nor stale, but is not quite clean or fresh.  The ground
+underfoot is sand, and the walls are of sandstone.  There is a fairly strong
+smell or feeling of menace in the air; it seems to be coming from the west.
+~
+400 32769 0
+D1
+The tunnel disappears into shadows to the east.
+~
+~
+0 0 40161
+D3
+The tunnel disappears into shadows to the west.
+~
+~
+0 0 40159
+S
+#40161
+&+LThe Dark Tunnel&n~
+   The tunnel here evidently extends only to the west.  To the north there
+is a flat wooden panel affixed on a hinge that would open fairly easily.
+The sand underfoot muffles footsteps quite well; there is a distinct sense
+of danger in the air.  It is hard to tell from which direction it comes from.
+The eastern wall is flat sandstone, and to the west the tunnel disappears
+into darkness.
+~
+400 32769 0
+D0
+The wooden wall has a slot in it that looks as if a book would fit into it.
+~
+wood wooden~
+2 40060 40151
+D1
+The sandstone wall appears to have been chiseled away at with something
+blunt, as if someone had pounded their forehead against it.
+~
+sandstone wall~
+1 0 40162
+D3
+The tunnel is swallowed by the darkness.
+~
+~
+0 0 40160
+S
+#40162
+&+yThe Arid Tunnel&n~
+   The air on this side of the sandstone wall is noticeably drier and much
+mustier than the rest of the tunnel.  There is a strange scent of decay all
+around, as if a very large rat had crawled in here and died.  There are
+odd inscriptions and hieroglyphs carved into the walls here.
+~
+400 32769 0
+D1
+The dry tunnel leads off into the darkness.
+~
+~
+0 0 40163
+D3
+The entrance is pretty obvious from this side of the hidden door.
+~
+door sandstone wall~
+1 0 40161
+E
+inscription inscriptions hieroglyphs~
+Unable to decipher the odd symbols engraved on the walls, for some reason
+you still get the general feeling that they are a warning.  Perhaps it has
+something to do with the numerous skulls and crossbones.
+~
+S
+#40163
+&+yThe Arid Tunnel&n~
+   The air is still dry, but the scent of decay is much stronger.  The
+inscriptions in the wall have grown larger and now cover the ceiling as well.
+The ceiling itself is only about two feet overhead.  In many places it seems
+the glyphs have been worn away.
+~
+400 32769 0
+D1
+The dry tunnel continues east.
+~
+~
+0 0 40164
+D3
+The dry tunnel continues west.
+~
+~
+0 0 40162
+S
+#40164
+&+yThe Arid Tunnel&n~
+   The air is still dry, but the scent of decay is much stronger.  The
+inscriptions in the wall have grown larger and now cover the ceiling as well.
+The ceiling itself is only about two feet overhead.  In many places it seems
+the glyphs have been worn away.
+~
+400 32769 0
+D1
+To the east the tunnel curves south.
+~
+~
+0 0 40165
+D3
+The way back to the surface looks mighty inviting at the moment.
+~
+~
+0 0 40163
+S
+#40165
+&+yThe Arid Tunnel&n~
+   The tunnel makes an abrupt twist to the south here.  There are many old
+footprints in the sand here; they haven't been eroded away by air currents
+like they had been in the tunnel to the west.  But wait -- these footprints
+actually seem kind of fresh.  And they lead to the south ...
+~
+400 32769 0
+D2
+The footprints lead toward some sort of archway to the south.
+~
+~
+0 0 40166
+D3
+The way back to the surface looks *REALLY* inviting right now.
+~
+~
+0 0 40164
+S
+#40166
+&+yThe Outer Tomb&n~
+   There is a small archway built into the tunnel here -- partially to
+support the ceiling, partially decoration.  There is a large sphinx sculpted
+into the keystone of the arch, and more glyphs and death's heads inscribed
+on the pillars of the arch.  It is obvious that this marks the entrance to
+a tomb or other ritual burial site of some sort.
+~
+400 32769 0
+D0
+Back toward the library -- which seems like a good idea.
+~
+~
+0 0 40165
+D1
+Into the maw of the tomb...
+~
+~
+0 0 40167
+E
+arch keystone pillars glyphs sphinx~
+The arch is in remarkably good condition considering the length of time it
+seems to have been here.  Looking closer, however, reveals that this arch
+is not the exact same one that was originally built.  There are signs that
+it has been repaired or modified ... and it does not look like the work
+of human hands.
+~
+S
+#40167
+&+yThe Tomb&n~
+   This tomb has been plundered -- there are signs of heavy statues being
+dragged away, chisel marks on the walls and empty sockets that once held
+jewels.  Several sarcophagi lay around in a haphazard manner; some tumbled
+about so much the mummies inside have fallen free ...
+~
+400 32768 0
+D1
+There is an enormous sarcophagus against the east wall.
+~
+sarcophagus~
+1 0 40168
+D3
+Back out of the tomb.  It might be a good idea to start running, so your body
+and instincts suggest.
+~
+~
+0 0 40166
+S
+#40168
+&+yThe Inner Tomb&n~
+   This place is sacred -- only the highest priests are supposed to enter
+here.  This is the resting place of the hierophants of the priesthood.  One
+of Death's Angels frequently haunts the area as well -- neither the prisoners
+of Death nor Death's servant are likely to take intruders philosophically.
+~
+400 32768 0
+D3
+That looks like a good way to go.  Now.
+~
+sarcophagus~
+1 0 40167
+S
+#40169
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D1
+Huh?
+~
+~
+0 0 40170
+D2
+Huh?
+~
+~
+0 0 40173
+S
+#40170
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading up to somewhere else.
+~
+400 32768 0
+D3
+Huh?
+~
+~
+0 0 40169
+D4
+Huh?
+~
+~
+0 0 40186
+S
+#40171
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D1
+Huh?
+~
+~
+0 0 40172
+D2
+Huh?
+~
+~
+0 0 40175
+S
+#40172
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading up to somewhere else.
+~
+400 32768 0
+D3
+Huh?
+~
+~
+0 0 40171
+D4
+Huh?
+~
+~
+0 0 40188
+S
+#40173
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40169
+D1
+Huh?
+~
+~
+0 0 40174
+S
+#40174
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D1
+Huh?
+~
+~
+0 0 40175
+D2
+Huh?
+~
+~
+0 0 40178
+D3
+Huh?
+~
+~
+0 0 40173
+S
+#40175
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40171
+D1
+Huh?
+~
+~
+0 0 40176
+D2
+Huh?
+~
+~
+0 0 40179
+D3
+Huh?
+~
+~
+0 0 40174
+S
+#40176
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D2
+Huh?
+~
+~
+0 0 40180
+D3
+Huh?
+~
+~
+0 0 40175
+S
+#40177
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading up to somewhere else.
+~
+400 0 0
+D2
+Huh?
+~
+~
+0 0 40181
+D4
+Huh?
+~
+~
+0 0 40192
+S
+#40178
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40174
+D2
+Huh?
+~
+~
+0 0 40182
+S
+#40179
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading down to somewhere else.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40175
+D5
+Huh?
+~
+~
+0 0 40138
+S
+#40180
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40176
+D2
+Huh?
+~
+~
+0 0 40184
+S
+#40181
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading down to somewhere else.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40177
+D1
+Huh?
+~
+~
+0 0 40182
+D5
+Huh?
+~
+~
+0 0 40146
+S
+#40182
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40178
+D3
+Huh?
+~
+~
+0 0 40181
+S
+#40183
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.  There is an iron staircase leading up to somewhere else.
+~
+400 32768 0
+D1
+Huh?
+~
+~
+0 0 40184
+D4
+Huh?
+~
+~
+0 0 40196
+S
+#40184
+&+CBizarre Corridors of Mirrors&n~
+   The walls are mirrors.  The ceilings are mirrors.  The floor is only
+granite, though.  It is barely possible to tell what is an exit and what
+is only a mirror, and the reflecting infinities would give a bind man
+headaches.
+~
+400 32768 0
+D0
+Huh?
+~
+~
+0 0 40180
+D3
+Huh?
+~
+~
+0 0 40183
+S
+#40185
+&+LThe Prison Cell&n~
+   There are several old and dry corpses in this room still chained to the
+wall.  Not the type of place one would want to vacation at, but as prison
+cells go, it's not that bad.  There's plenty of sunlight, plenty of fresh
+air ... of course, food would help, but at least there are no rats.
+~
+400 32768 0
+D1
+The cell door is a thick wooden affair.
+~
+door cell~
+2 40061 40186
+S
+#40186
+The Guard Room~
+   This room looks as if it has been unoccupied for quite some time.  Perhaps
+it has something to do with the Sultan's casual attitude towards execution;
+it is, after all, much cheaper and faster than imprisonment...
+~
+400 32768 0
+D3
+The cell door is a thick wooden affair.
+~
+cell door~
+2 40061 40185
+D5
+Back to the mirrors...
+~
+~
+0 0 40170
+S
+#40187
+&+MThe Pillow Room&n~
+   The floor is a mattress and there are probably a hundred pillows scattered
+about this room.  This is obviously where the Sultan keeps his concubines --
+keeps them and visits them.
+~
+400 32768 0
+D1
+More pillows.
+~
+~
+0 0 40188
+S
+#40188
+&+MThe Pillow Room&n~
+   The floor is a mattress and there are probably a hundred pillows scattered
+about this room.  This is obviously where the Sultan keeps his concubines --
+keeps them and visits them.  There is an ugly iron stairwell leading down.
+~
+400 32768 0
+D2
+More pillows.
+~
+~
+0 0 40191
+D3
+More pillows.
+~
+~
+0 0 40187
+D5
+The stairwell leads back into the rooms with the mirrors from hell.
+~
+~
+0 0 40172
+S
+#40189
+&+YThe &+RVizier's &+YChambers&n~
+   Judging from the 'tasteful' decor of flayed human bodies and impaled bits
+of human anatomy -- this guy is pretty sick.  The carpet is a deep scarlet,
+and the walls have been painted in what looks suspiciously like blood.  There
+is a simple pallet in the back corner, but most of the room is taken up by
+surgical tables and racks of implements.
+~
+400 0 0
+D2
+There is a stairwell leading down to the south.
+~
+~
+0 0 40192
+E
+implements~
+The normal tools of the trade -- thumbscrews, scalpels, iron braziers, dull
+cheese graters ...
+~
+S
+#40190
+The Stairwell~
+   The iron the stairs are fashioned of virtually radiate with evil.  The
+metal seems strangely twisted for some reason, and to the touch feels as if
+it is writhing in pain.  It is the only way to ascend to the tower, however.
+Not that it is such a good idea in and of itself ...
+~
+400 32769 0
+D1
+Back into &+MThe Pillow Room&n.
+~
+tapestry door~
+1 0 40191
+D4
+Up to the Sultan's Chambers.
+~
+~
+0 0 40198
+S
+#40191
+&+MThe Pillow Room&n~
+   The floor is a mattress and there are probably a hundred pillows scattered
+about this room.  This is obviously where the Sultan keeps his concubines --
+keeps them and visits them.  There are large tapestries lining the walls in
+this part of the room.
+~
+400 32768 0
+D0
+More pillows.
+~
+~
+0 0 40188
+D3
+The tapestry does not seem to be firmly attached to the wall.
+~
+tapestry~
+1 0 40190
+S
+#40192
+&+YThe &+RVizier's &+YChambers&n~
+   This is where the Vizier displays his most prized works of art.  He does,
+by the way, consider himself to be an artist of pain and death.  The bodies
+in various stages of dismemberment and disfigurement are possibly some of
+the most hideous things on the face of the earth.  There are many of them
+as well.  There is an iron stairwell leading down into the hell of mirrors.
+~
+400 0 0
+D0
+The far end of &+YThe &+RVizier's &+YChambers&n appears to be where he works.
+~
+~
+0 0 40189
+D2
+More of the Vizier's works of 'art.'
+~
+~
+0 0 40194
+D5
+Down into the mirrored corridors.
+~
+~
+0 0 40177
+S
+#40193
+An Empty Storage Room~
+   It appears this room was once used to store the kingdom's treasures, but
+it is totally empty now.  Perhaps there is a link between this and the
+rife corruption and rampant fear in the city...
+~
+400 32769 0
+D2
+The other end of the storage room.
+~
+~
+0 0 40197
+S
+#40194
+&+YThe &+RVizier's &+YChambers&n~
+   This is where the Vizier displays his most prized works of art.  He does,
+by the way, consider himself to be an artist of pain and death.  The bodies
+in various stages of dismemberment and disfigurement are possibly some of
+the most hideous things on the face of the earth.  There are many of them
+as well.  There is an iron stairwell leading down into the hell of mirrors,
+and a rune engraved door in the east wall.
+~
+400 0 0
+D0
+More of the Vizier's art collection.
+~
+~
+0 0 40192
+D1
+The evil radiating through the door is almost a physical force pushing you
+back.  The runes inscribed on the door are among the most powerful known.
+~
+door runes~
+1 0 40195
+S
+#40195
+&+LThe Chamber of Shadows&n~
+&+L   This room is pitch black.  No amount of light will ever fully illuminate
+the residence of a black demon of hell -- which is exactly what the Vizier
+had trapped in here.  The room reeks of evil and all that is wrong with the
+universe, and the overpowering presence of Evil is staggering.&n
+~
+400 1 0
+D3
+Out the door looks like a good direction to go.  Now.
+~
+door~
+1 0 40194
+S
+#40196
+An Empty Storage Room~
+   It appears this room was once used to store the kingdom's treasures, but
+it is totally empty now.  Perhaps there is a link between this and the
+rife corruption and rampant fear in the city.  There is an iron stairwell
+leading down.
+~
+400 32769 0
+D1
+The other end of the storage room.
+~
+~
+0 0 40197
+D5
+Back into the hellish corridors of mirrors.
+~
+~
+0 0 40183
+S
+#40197
+The other end of the storage room~
+   This part of the room is just as empty as the rest of it.  There are
+scratches on the floor inlaid with gold, and signs that this room was not
+totally vacated until recently.  If overheard conversation is any indication,
+it happened about the same time the Forty Thieves began their reign of
+terror.
+~
+400 32769 0
+D0
+More storage space.
+~
+~
+0 0 40193
+D3
+Back to the stairwell.
+~
+~
+0 0 40196
+S
+#40198
+&+WThe &+YSultan's&+W Tower&n~
+   This is the Sultan's private chambers.  None who enter without a personal
+invitation leave alive.  The room is richly decorated -- it seems every
+surface possible has been plated with gold.  There are tapestries all over
+the walls and silk flows about the room like a river.  The room is red and
+yellow and black, the three merging in such a way that the room looks
+positively menacing.  There is a bed and desk in this room, but little else.
+The room is hideous, pure and simple.  There's a nice view, though.
+~
+400 32832 0
+D5
+The stairwell leads out of this room of Evil.
+~
+~
+0 0 40190
+S

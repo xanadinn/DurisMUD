@@ -1,0 +1,629 @@
+#400
+&+yNizari&n~
+40198 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 40011 2 2 100 0 0 0
+*     south exit from "The Sphinx Gate" to
+*     "Beneath the Sphinx" - closed/locked
+*
+D 0 40012 0 2 100 0 0 0
+*     north exit from "Beneath the Sphinx" to
+*     "The Sphinx Gate" - closed/locked
+*
+D 0 40016 2 0 100 0 0 0
+*     south exit from "The Camel Yard" to
+*     "City Entrance on Hyree Road" - open
+*
+D 0 40028 0 0 100 0 0 0
+*     north exit from "City Entrance on Hyree Road" to
+*     "The Camel Yard" - open
+*
+D 0 40019 1 1 100 0 0 0
+*     east exit from "The City Wall" to
+*     "Entrance to the Guards' Tower" - closed
+*
+D 0 40023 3 1 100 0 0 0
+*     west exit from "Entrance to the Guards' Tower" to
+*     "The City Wall" - closed
+*
+D 0 40021 2 1 100 0 0 0
+*     south exit from "Northern Part of the Guards' Tower" to
+*     "Guards' Tower Shower Room" - closed
+*
+D 0 40024 0 1 100 0 0 0
+*     north exit from "Guards' Tower Shower Room" to
+*     "Northern Part of the Guards' Tower" - closed
+*
+D 0 40022 2 1 100 0 0 0
+*     south exit from "Kitchen of the Guards' Tower" to
+*     "Storage Area in Guards' Tower" - closed
+*
+D 0 40025 0 1 100 0 0 0
+*     north exit from "Storage Area in Guards' Tower" to
+*     "Kitchen of the Guards' Tower" - closed
+*
+D 0 40024 2 1 100 0 0 0
+*     south exit from "Guards' Tower Shower Room" to
+*     "Guards' Tower Laundry Room" - closed
+*
+D 0 40033 0 1 100 0 0 0
+*     north exit from "Guards' Tower Laundry Room" to
+*     "Guards' Tower Shower Room" - closed
+*
+D 0 40026 2 1 100 0 0 0
+*     south exit from "Merchant's Hovel" to
+*     "Intersection on the Back Alley" - closed
+*
+D 0 40037 0 1 100 0 0 0
+*     north exit from "Intersection on the Back Alley" to
+*     "Merchant's Hovel" - closed
+*
+D 0 40035 2 1 100 0 0 0
+*     south exit from "End of Alley" to
+*     "Merchant's Hovel" - closed
+*
+D 0 40045 0 1 100 0 0 0
+*     north exit from "Merchant's Hovel" to
+*     "End of Alley" - closed
+*
+D 0 40043 1 1 100 0 0 0
+*     east exit from "Merchant's Hovel" to
+*     "End of Hyree Road" - closed
+*
+D 0 40044 3 1 100 0 0 0
+*     west exit from "End of Hyree Road" to
+*     "Merchant's Hovel" - closed
+*
+D 0 40053 1 1 100 0 0 0
+*     east exit from "Bend in Hyree Road" to
+*     "An Abandoned House" - closed
+*
+D 0 40054 3 1 100 0 0 0
+*     west exit from "An Abandoned House" to
+*     "Bend in Hyree Road" - closed
+*
+D 0 40056 1 2 100 0 0 0
+*     east exit from "Lair of the Forty Thieves" to
+*     "Treasure Vault of the Forty Thieves" - closed/locked
+*
+D 0 40057 3 2 100 0 0 0
+*     west exit from "Treasure Vault of the Forty Thieves" to
+*     "Lair of the Forty Thieves" - closed/locked
+*
+D 0 40066 2 2 100 0 0 0
+*     south exit from "Guardpost to the Southern Part of Nizari" to
+*     "Guards' Way" - closed/locked
+*
+D 0 40079 0 2 100 0 0 0
+*     north exit from "Guards' Way" to
+*     "Guardpost to the Southern Part of Nizari" - closed/locked
+*
+D 0 40069 2 1 100 0 0 0
+*     south exit from "Inner room of the Lamp Shop" to
+*     "An Abandoned House" - closed
+*
+D 0 40082 0 1 100 0 0 0
+*     north exit from "An Abandoned House" to
+*     "Inner room of the Lamp Shop" - closed
+*
+D 0 40070 2 1 100 0 0 0
+*     south exit from "The Abandoned Hideout" to
+*     "Back Alley of Eastern Nizari" - closed
+*
+D 0 40083 0 1 100 0 0 0
+*     north exit from "Back Alley of Eastern Nizari" to
+*     "The Abandoned Hideout" - closed
+*
+D 0 40072 1 2 100 0 0 0
+*     east exit from "Gameroom of the Forty Thieves" to
+*     "The Entrance to the Thieve's Lair" - closed/locked
+*
+D 0 40073 3 2 100 0 0 0
+*     west exit from "The Entrance to the Thieve's Lair" to
+*     "Gameroom of the Forty Thieves" - closed/locked
+*
+D 0 40076 1 5 100 0 0 0
+*     east exit from "A Dark Tunnel Entrance" to
+*     "Dark Back Alley" - closed/secret
+*
+D 0 40077 3 5 100 0 0 0
+*     west exit from "Dark Back Alley" to
+*     "A Dark Tunnel Entrance" - closed/secret
+*
+D 0 40108 1 2 100 0 0 0
+*     east exit from "Back Alley of Eastern Nizari" to
+*     "Back door to the City of Nizari" - closed/locked
+*
+D 0 40109 3 2 100 0 0 0
+*     west exit from "Back door to the City of Nizari" to
+*     "Back Alley of Eastern Nizari" - closed/locked
+*
+D 0 40110 1 2 100 0 0 0
+*     east exit from "Servants' Entrance to the Droijim Palace" to
+*     "The Gardens of the Droijim Palace" - closed/locked
+*
+D 0 40111 3 2 100 0 0 0
+*     west exit from "The Gardens of the Droijim Palace" to
+*     "Servants' Entrance to the Droijim Palace" - closed/locked
+*
+D 0 40113 1 1 100 0 0 0
+*     east exit from "The Gardens of the Droijim Palace" to
+*     "The Grounds of the Droijim Palace" - closed
+*
+D 0 40114 3 1 100 0 0 0
+*     west exit from "The Grounds of the Droijim Palace" to
+*     "The Gardens of the Droijim Palace" - closed
+*
+D 0 40115 2 2 100 0 0 0
+*     south exit from "Gates to the Droijim Palace" to
+*     "Inside the Palace Gates" - closed/locked
+*
+D 0 40128 0 1 100 0 0 0
+*     north exit from "Inside the Palace Gates" to
+*     "Gates to the Droijim Palace" - closed
+*
+D 0 40117 2 2 100 0 0 0
+*     south exit from "T-intersection of Noble Road and The Glass Road" to
+*     "Entrance to the Noble's House" - closed/locked
+*
+D 0 40130 0 2 100 0 0 0
+*     north exit from "Entrance to the Noble's House" to
+*     "T-intersection of Noble Road and The Glass Road" - closed/locked
+*
+D 0 40118 2 1 100 0 0 0
+*     south exit from "End of Noble Road" to
+*     "The Beast's Cage" - closed
+*
+D 0 40131 0 1 100 0 0 0
+*     north exit from "The Beast's Cage" to
+*     "End of Noble Road" - closed
+*
+D 0 40125 1 5 100 0 0 0
+*     east exit from "The Throne Room of the Droijim Palace" to
+*     "The Royal Conference Room" - closed/secret
+*
+D 0 40126 3 5 100 0 0 0
+*     west exit from "The Royal Conference Room" to
+*     "The Throne Room of the Droijim Palace" - closed/secret
+*
+D 0 40126 2 5 100 0 0 0
+*     south exit from "The Royal Conference Room" to
+*     "Through the Looking Glass" - closed/secret
+*
+D 0 40138 0 5 100 0 0 0
+*     north exit from "Through the Looking Glass" to
+*     "The Royal Conference Room" - closed/secret
+*
+D 0 40127 2 1 100 0 0 0
+*     south exit from "The Fountain Outside the Droijim Palace" to
+*     "Main Entrance to the Droijim Palace" - closed
+*
+D 0 40139 0 1 100 0 0 0
+*     north exit from "Main Entrance to the Droijim Palace" to
+*     "The Fountain Outside the Droijim Palace" - closed
+*
+D 0 40132 2 1 100 0 0 0
+*     south exit from "The Noble's Bedroom" to
+*     "End of the Hallway" - closed
+*
+D 0 40144 0 1 100 0 0 0
+*     north exit from "End of the Hallway" to
+*     "The Noble's Bedroom" - closed
+*
+D 0 40137 2 1 100 0 0 0
+*     south exit from "The Throne Room of the Droijim Palace" to
+*     "The Audience Chamber" - closed
+*
+D 0 40147 0 1 100 0 0 0
+*     north exit from "The Audience Chamber" to
+*     "The Throne Room of the Droijim Palace" - closed
+*
+D 0 40144 2 1 100 0 0 0
+*     south exit from "End of the Hallway" to
+*     "The Library" - closed
+*
+D 0 40151 0 1 100 0 0 0
+*     north exit from "The Library" to
+*     "End of the Hallway" - closed
+*
+D 0 40151 2 2 100 0 0 0
+*     south exit from "The Library" to
+*     "The Dark Tunnel" - closed/locked
+*
+D 0 40161 0 2 100 0 0 0
+*     north exit from "The Dark Tunnel" to
+*     "The Library" - closed/locked
+*
+D 0 40156 1 1 100 0 0 0
+*     east exit from "The Banquet Hall" to
+*     "Kitchen of the Droijim Palace" - closed
+*
+D 0 40157 3 1 100 0 0 0
+*     west exit from "Kitchen of the Droijim Palace" to
+*     "The Banquet Hall" - closed
+*
+D 0 40157 1 1 100 0 0 0
+*     east exit from "Kitchen of the Droijim Palace" to
+*     "The Pantry" - closed
+*
+D 0 40158 3 1 100 0 0 0
+*     west exit from "The Pantry" to
+*     "Kitchen of the Droijim Palace" - closed
+*
+D 0 40158 1 1 100 0 0 0
+*     east exit from "The Pantry" to
+*     "End of the Tunnel" - closed
+*
+D 0 40159 3 1 100 0 0 0
+*     west exit from "End of the Tunnel" to
+*     "The Pantry" - closed
+*
+D 0 40161 1 5 100 0 0 0
+*     east exit from "The Dark Tunnel" to
+*     "The Arid Tunnel" - closed/secret
+*
+D 0 40162 3 5 100 0 0 0
+*     west exit from "The Arid Tunnel" to
+*     "The Dark Tunnel" - closed/secret
+*
+D 0 40167 1 1 100 0 0 0
+*     east exit from "The Tomb" to
+*     "The Inner Tomb" - closed
+*
+D 0 40168 3 1 100 0 0 0
+*     west exit from "The Inner Tomb" to
+*     "The Tomb" - closed
+*
+D 0 40185 1 2 100 0 0 0
+*     east exit from "The Prison Cell" to
+*     "The Guard Room" - closed/locked
+*
+D 0 40186 3 1 100 0 0 0
+*     west exit from "The Guard Room" to
+*     "The Prison Cell" - closed
+*
+D 0 40190 1 1 100 0 0 0
+*     east exit from "The Stairwell" to
+*     "The Pillow Room" - closed
+*
+D 0 40191 3 1 100 0 0 0
+*     west exit from "The Pillow Room" to
+*     "The Stairwell" - closed
+*
+D 0 40194 1 1 100 0 0 0
+*     east exit from "The Vizier's Chambers" to
+*     "The Chamber of Shadows" - closed
+*
+D 0 40195 3 1 100 0 0 0
+*     west exit from "The Chamber of Shadows" to
+*     "The Vizier's Chambers" - closed
+*
+*
+O 0 40063 6 40030 100 0 0 0        * some camel crap
+O 0 40056 1 40045 100 0 0 0        * an old, unused key
+O 0 40132 2 40057 100 0 0 0        * a barbed stiletto
+O 0 40133 1 40057 100 0 0 0        * a sandy potion
+O 0 40057 1 40113 100 0 0 0        * the key to the servant's entrance
+O 0 40077 1 40127 100 0 0 0        * a beautiful fountain
+O 0 40060 1 40132 100 0 0 0        * an odd book
+O 0 40078 1 40151 100 0 0 0        * a book
+O 0 40070 2 40151 100 0 0 0        * a book
+O 0 40071 2 40151 100 0 0 0        * a book
+O 0 40072 10 40151 100 0 0 0       * a book
+O 0 40069 1 40151 100 0 0 0        * a holy bible
+O 0 40061 1 40186 100 0 0 0        * a key to the jail
+*
+M 0 40050 15 40013 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40052 20 40013 100 0 0 0       * a beggar
+M 0 40052 20 40013 100 0 0 0       * a beggar
+M 0 40053 38 40013 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40076 38 40013 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40070 20 40013 100 0 0 0       * a nizarine
+M 0 40070 20 40013 100 0 0 0       * a nizarine
+M 0 40050 15 40014 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40050 15 40015 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40016 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40016 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40016 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40016 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40057 20 40016 100 0 0 0       * a rat
+M 0 40058 5 40016 100 0 0 0        * a camel
+E 1 40063 6 18 100 0 0 0           *   some camel crap
+M 0 40058 5 40016 100 0 0 0        * a camel
+E 1 40063 6 18 100 0 0 0           *   some camel crap
+M 0 40058 5 40016 100 0 0 0        * a camel
+E 1 40063 6 18 100 0 0 0           *   some camel crap
+M 0 40058 5 40016 100 0 0 0        * a camel
+E 1 40063 6 18 100 0 0 0           *   some camel crap
+M 0 40058 5 40016 100 0 0 0        * a camel
+E 1 40063 6 18 100 0 0 0           *   some camel crap
+M 0 40070 20 40016 100 0 0 0       * a nizarine
+M 0 40070 20 40016 100 0 0 0       * a nizarine
+M 0 40050 15 40017 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40076 38 40017 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40017 100 0 0 0       * a rat
+M 0 40050 15 40018 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40050 15 40019 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40050 15 40022 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40023 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40050 15 40024 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40071 20 40027 100 0 0 0       * a nizarine
+M 0 40071 20 40027 100 0 0 0       * a nizarine
+M 0 40051 15 40028 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40028 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40028 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40028 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40052 20 40029 100 0 0 0       * a beggar
+M 0 40052 20 40029 100 0 0 0       * a beggar
+M 0 40057 20 40029 100 0 0 0       * a rat
+M 0 40052 20 40030 100 0 0 0       * a beggar
+M 0 40052 20 40030 100 0 0 0       * a beggar
+M 0 40071 20 40030 100 0 0 0       * a nizarine
+M 0 40071 20 40030 100 0 0 0       * a nizarine
+M 0 40057 20 40031 100 0 0 0       * a rat
+M 0 40053 38 40034 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40035 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40052 20 40036 100 0 0 0       * a beggar
+M 0 40057 20 40037 100 0 0 0       * a rat
+M 0 40053 38 40038 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40070 20 40039 100 0 0 0       * a nizarine
+M 0 40070 20 40039 100 0 0 0       * a nizarine
+M 0 40050 15 40040 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40052 20 40040 100 0 0 0       * a beggar
+M 0 40052 20 40040 100 0 0 0       * a beggar
+M 0 40057 20 40040 100 0 0 0       * a rat
+M 0 40071 20 40040 100 0 0 0       * a nizarine
+M 0 40071 20 40040 100 0 0 0       * a nizarine
+M 0 40057 20 40041 100 0 0 0       * a rat
+M 0 40076 38 40042 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40042 100 0 0 0       * a rat
+M 0 40071 20 40043 100 0 0 0       * a nizarine
+M 0 40071 20 40043 100 0 0 0       * a nizarine
+M 0 40052 20 40044 100 0 0 0       * a beggar
+M 0 40052 20 40044 100 0 0 0       * a beggar
+M 0 40064 4 40047 100 0 0 0        * a merchant
+M 0 40064 4 40047 100 0 0 0        * a merchant
+M 0 40050 15 40048 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40050 15 40049 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40076 38 40049 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40071 20 40049 100 0 0 0       * a nizarine
+M 0 40071 20 40049 100 0 0 0       * a nizarine
+M 0 40050 15 40050 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40053 38 40050 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40050 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40050 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40050 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40071 20 40051 100 0 0 0       * a nizarine
+M 0 40071 20 40051 100 0 0 0       * a nizarine
+M 0 40076 38 40054 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40056 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40056 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40076 38 40056 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40055 1 40056 100 0 0 0        * the rogue leader
+E 1 40132 2 16 100 0 0 0           *   a barbed stiletto
+M 0 40076 38 40057 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40050 15 40058 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40076 38 40058 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+G 1 40052 1 0 100 0 0 0            *    a black stone key
+M 0 40057 20 40058 100 0 0 0       * a rat
+M 0 40071 20 40058 100 0 0 0       * a nizarine
+M 0 40071 20 40058 100 0 0 0       * a nizarine
+M 0 40070 20 40059 100 0 0 0       * a nizarine
+M 0 40070 20 40059 100 0 0 0       * a nizarine
+M 0 40053 38 40060 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40076 38 40060 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40050 15 40061 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40052 20 40061 100 0 0 0       * a beggar
+M 0 40052 20 40061 100 0 0 0       * a beggar
+M 0 40076 38 40061 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40061 100 0 0 0       * a rat
+M 0 40070 20 40061 100 0 0 0       * a nizarine
+M 0 40070 20 40061 100 0 0 0       * a nizarine
+M 0 40056 1 40063 100 0 0 0        * the lamp merchant
+M 0 40070 20 40063 100 0 0 0       * a nizarine
+M 0 40070 20 40063 100 0 0 0       * a nizarine
+M 0 40071 20 40064 100 0 0 0       * a nizarine
+M 0 40071 20 40064 100 0 0 0       * a nizarine
+M 0 40057 20 40065 100 0 0 0       * a rat
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40051 15 40066 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+E 1 40051 2 18 100 0 0 0           *   an ornate metallic key
+M 0 40071 20 40066 100 0 0 0       * a nizarine
+M 0 40071 20 40066 100 0 0 0       * a nizarine
+M 0 40053 38 40067 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40076 38 40067 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40052 20 40068 100 0 0 0       * a beggar
+M 0 40052 20 40068 100 0 0 0       * a beggar
+M 0 40076 38 40068 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40064 4 40068 100 0 0 0        * a merchant
+M 0 40064 4 40068 100 0 0 0        * a merchant
+M 0 40070 20 40069 100 0 0 0       * a nizarine
+M 0 40070 20 40069 100 0 0 0       * a nizarine
+M 0 40070 20 40070 100 0 0 0       * a nizarine
+M 0 40070 20 40070 100 0 0 0       * a nizarine
+M 0 40053 38 40071 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40071 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40071 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40071 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40071 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40072 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40072 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40053 38 40072 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40076 38 40072 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40054 1 40073 100 0 0 0        * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40074 100 0 0 0       * a rat
+M 0 40057 20 40075 100 0 0 0       * a rat
+M 0 40057 20 40076 100 0 0 0       * a rat
+M 0 40076 38 40078 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40075 10 40078 100 0 0 0       * a eunuch guard
+M 0 40075 10 40078 100 0 0 0       * a eunuch guard
+M 0 40075 10 40079 100 0 0 0       * a eunuch guard
+G 1 40051 2 0 100 0 0 0            *    an ornate metallic key
+M 0 40075 10 40079 100 0 0 0       * a eunuch guard
+M 0 40053 38 40080 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40070 20 40080 100 0 0 0       * a nizarine
+M 0 40070 20 40080 100 0 0 0       * a nizarine
+M 0 40052 20 40084 100 0 0 0       * a beggar
+M 0 40052 20 40084 100 0 0 0       * a beggar
+M 0 40057 20 40084 100 0 0 0       * a rat
+M 0 40053 38 40085 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40085 100 0 0 0       * a rat
+M 0 40057 20 40086 100 0 0 0       * a rat
+M 0 40053 38 40087 100 0 0 0       * a thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40057 20 40087 100 0 0 0       * a rat
+M 0 40075 10 40088 100 0 0 0       * a eunuch guard
+M 0 40075 10 40088 100 0 0 0       * a eunuch guard
+M 0 40057 20 40093 100 0 0 0       * a rat
+M 0 40052 20 40094 100 0 0 0       * a beggar
+M 0 40052 20 40094 100 0 0 0       * a beggar
+M 0 40050 15 40097 100 0 0 0       * a guard of Nizari
+E 1 40064 30 16 100 0 0 0          *   a steel scimitar
+M 0 40061 1 40103 100 0 0 0        * a glass serpent
+E 1 40059 1 18 100 0 0 0           *   a key of silver
+M 0 40067 8 40110 100 0 0 0        * a servant
+M 0 40066 6 40111 100 0 0 0        * an exotic plant
+M 0 40066 6 40111 100 0 0 0        * an exotic plant
+M 0 40066 6 40112 100 0 0 0        * an exotic plant
+M 0 40066 6 40112 100 0 0 0        * an exotic plant
+M 0 40066 6 40113 100 0 0 0        * an exotic plant
+M 0 40066 6 40113 100 0 0 0        * an exotic plant
+M 0 40075 10 40115 100 0 0 0       * a eunuch guard
+M 0 40075 10 40115 100 0 0 0       * a eunuch guard
+E 1 40058 2 18 100 0 0 0           *   a massive golden key
+M 0 40062 1 40116 100 0 0 0        * a blaze of light
+M 0 40067 8 40123 100 0 0 0        * a servant
+M 0 40067 8 40123 100 0 0 0        * a servant
+M 0 40067 8 40123 100 0 0 0        * a servant
+M 0 40067 8 40123 100 0 0 0        * a servant
+M 0 40074 1 40124 100 0 0 0        * the Vizier
+E 1 40068 2 8 100 0 0 0            *   a pair of red suede boots
+E 1 40066 1 16 100 0 0 0           *   a fiery red scepter
+M 0 40065 12 40125 100 0 0 0       * a eunuch guard
+M 0 40059 2 40131 100 0 0 0        * the shadow
+M 0 40057 20 40134 100 0 0 0       * a rat
+M 0 40067 8 40135 100 0 0 0        * a servant
+M 0 40065 12 40137 100 0 0 0       * a eunuch guard
+M 0 40075 10 40137 100 0 0 0       * a eunuch guard
+M 0 40075 10 40139 100 0 0 0       * a eunuch guard
+M 0 40067 8 40140 100 0 0 0        * a servant
+M 0 40065 12 40145 100 0 0 0       * a eunuch guard
+M 0 40067 8 40145 100 0 0 0        * a servant
+M 0 40070 20 40147 100 0 0 0       * a nizarine
+M 0 40070 20 40147 100 0 0 0       * a nizarine
+M 0 40071 20 40147 100 0 0 0       * a nizarine
+M 0 40071 20 40147 100 0 0 0       * a nizarine
+M 0 40068 8 40150 100 0 0 0        * a servant
+M 0 40068 8 40150 100 0 0 0        * a servant
+M 0 40068 8 40152 100 0 0 0        * a servant
+M 0 40068 8 40153 100 0 0 0        * a servant
+M 0 40068 8 40155 100 0 0 0        * a servant
+M 0 40068 8 40155 100 0 0 0        * a servant
+M 0 40068 8 40155 100 0 0 0        * a servant
+M 0 40068 8 40155 100 0 0 0        * a servant
+M 0 40065 12 40157 100 0 0 0       * a eunuch guard
+G 1 40058 2 0 100 0 0 0            *    a massive golden key
+M 0 40060 3 40164 100 0 0 0        * a mummy
+M 0 40060 3 40165 100 0 0 0        * a mummy
+M 0 40060 3 40166 100 0 0 0        * a mummy
+M 0 40063 1 40168 100 0 0 0        * the mummy of the Hierophant
+E 1 40075 1 16 100 0 0 0           *   a scepter of earthly power
+E 1 40072 10 18 100 0 0 0          *   a book
+M 0 40065 12 40169 100 0 0 0       * a eunuch guard
+M 0 40065 12 40171 100 0 0 0       * a eunuch guard
+M 0 40065 12 40174 100 0 0 0       * a eunuch guard
+M 0 40065 12 40176 100 0 0 0       * a eunuch guard
+M 0 40065 12 40177 100 0 0 0       * a eunuch guard
+M 0 40076 38 40179 100 0 0 0       * the thief
+E 1 40076 39 16 100 0 0 0          *   a copper dagger
+M 0 40065 12 40179 100 0 0 0       * a eunuch guard
+M 0 40065 12 40181 100 0 0 0       * a eunuch guard
+M 0 40065 12 40183 100 0 0 0       * a eunuch guard
+M 0 40069 6 40187 100 0 0 0        * a concubine
+M 0 40069 6 40187 100 0 0 0        * a concubine
+M 0 40069 6 40188 100 0 0 0        * a concubine
+M 0 40069 6 40188 100 0 0 0        * a concubine
+M 0 40069 6 40191 100 0 0 0        * a concubine
+M 0 40069 6 40191 100 0 0 0        * a concubine
+M 0 40059 2 40195 100 0 0 0        * the shadow
+E 1 40074 1 12 100 0 0 0           *   a cloak of shadows
+M 0 40073 1 40198 100 0 0 0        * the sultan of Nizari
+E 1 40067 1 2 100 0 0 0            *   a ring of sandstone
+E 1 40065 1 6 100 0 0 0            *   the turban of power
+E 1 40073 1 16 100 0 0 0           *   a bronze sword
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+*
+S

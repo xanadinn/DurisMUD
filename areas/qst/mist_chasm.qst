@@ -1,0 +1,88 @@
+#15006
+M
+scales salamander jade~
+&+LThe &+gshaman &+Lspeaks:&N
+
+&N   I could really use the scales of the jade salamanders that wander here for
+potions and to craft armor.  If you bring me a small scale and a large scale I
+shall reward you with a powerful potion.  It will help lift your spirits and
+make it much easier to navigate the old bridge.&N
+~
+Q
+&+LThe &+gshaman &+Lspeaks:&N
+
+&n   Very well done these scales will help me create armor and other things for&N
+my tribe.&N
+~
+R I 15008
+G I 15017
+G I 15018
+D
+&+LThe &+gshaman &+Lspeaks:&N
+
+&N   I must go now and prepare these scales while they are still in perfect
+condition.  Remember to drink this potion before you try to cross the bridge
+over the mighty chasm.&N
+~
+S
+#15007
+M
+scale scales jade salamander~
+&+LThe primitive man speaks:&N
+
+&N   If you give me scale, large or small, I give you shiny metal.&N
+~
+Q
+&+LThe primitive man speaks:&N
+
+&N   Thank you for this, it will make good for me, here take shiny metal.&N
+~
+R C 2000
+G I 15017
+D
+&+LThe primitive man speaks:&N
+
+&N   I must go and bring this to shaman, he will help make me something grand.&N
+~
+Q
+&+LThe primitive man speaks:&N
+
+&N   Thank you funny head, I now have what I need, here take shiny metal.&N
+~
+R C 4000
+G I 15018
+D
+&+LThe primitive man speaks:&N
+
+&N   I must hurry and take this to shaman while it still in grand condition.&N
+~
+S
+#15018
+M
+scales scale salamander jade~
+&+LThe &+gweaver &+Lspeaks:&N
+
+&N   Yes if you kill the jade salamanders here I can craft you a shield the like
+of which you have never seen before.  All I need is 2 small scales and 2 large
+and I shall reward you greatly.&N
+~
+Q
+&+LThe &+gweaver &+Lspeaks:&N
+
+&N   These scales will do nicely, I will craft these into a shield that will
+serve you very well.  This process is known only to me, nobody else not even
+the shaman knows it.  She only gives you a potion for some scales, why I give
+the best prize of all.&N
+~
+R I 15019
+R E 81000
+G I 15017
+G I 15017
+G I 15018
+G I 15018
+D
+&+LThe &+gweaver &+Lspeaks:&N
+
+&N   I must go now and rest, I am exhausted after crafting you that shield.&N
+~
+S

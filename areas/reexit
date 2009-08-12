@@ -1,0 +1,93 @@
+#!/usr/bin/env ruby
+#
+# This script renumbers exits of a duris world file
+#
+# December 2007 - Torgal
+#
+# syntax: reexit <filename> <low vnum> <high vnum> <delta>
+# outputs: <filename>.out
+
+# 0: read room vnum
+# 1: room name ~
+# 2: room desc, new line, ~
+# 3: flags
+# 4: room exits S
+#
+# room exit:
+#  direction
+#  string ~
+#  string ~
+#  int, int, to_room
+#
+
+def convert_exits(filename, low_vnum, high_vnum, delta)
+  puts "Converting exit vnums..."
+  state = 0
+  dir_state = 0
+  changed = 0
+
+  File.open(filename, "r") do |infile|
+    File.open(filename+".out", "w+") do |outfile|
+      while (line = infile.gets)
+        case state
+        when 0
+          # #vnum
+          state = 1
+          outfile.puts line
+        when 1
+          # room name
+          state = 2
+          outfile.puts line
+        when 2
+          # ~
+          state = 3 if line =~ /^~/
+          outfile.puts line
+        when 3
+          # flags          
+          state = 4
+          outfile.puts line
+        when 4
+          if line =~ /^S$/
+            state = 0
+            outfile.puts line
+          else
+            case dir_state
+            when 0              
+              dir_state = 1 if line =~ /^D/
+              outfile.puts line
+            when 1
+              outfile.puts line
+              dir_state = 2 if line =~ /~$/
+            when 2
+              outfile.puts line
+              dir_state = 3 if line =~ /~$/
+            when 3
+              matches = line.scan(/^(\d+) (\d+) (\d+)$/)
+              
+              dest_vnum = matches[0][2].to_i
+              
+              if dest_vnum >= low_vnum.to_i && dest_vnum <= high_vnum.to_i 
+                dest_vnum += delta.to_i
+              end
+              
+              outfile.puts "#{matches[0][0]} #{matches[0][1]} #{dest_vnum}"
+              changed += 1
+              
+              dir_state = 0
+            end
+          end
+        end
+      end
+    end
+  end
+  
+  puts "#{changed} rooms changed"
+end
+
+if ARGV.size != 4
+  puts "reexit takes a duris wld file and globally replaces exit dest vnums within a range"
+  puts "syntax: reexit <filename.wld> <start vnum> <end vnum> <delta>"
+  exit
+else
+  convert_exits(ARGV[0], ARGV[1], ARGV[2], ARGV[3])
+end

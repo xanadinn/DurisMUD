@@ -1,0 +1,3314 @@
+#23600
+&+LRoughly Finished Tunnel&N~
+&+L   The tunnel is untouched by tools of the rock trades.  The walls are as rough
+&+Land natural as they were thousands of years ago.  The floor is covered with
+&+Lmany sharp, jutting rocks that stick out in any which direction nature has
+&+Lchosen them to.  The darkness is very deep here but one can see that the tunnel
+&+Lcontinues on to the north.&N
+~
+236 33562884 14
+D0
+~
+~
+0 0 23601
+D4
+~
+~
+0 0 632944
+S
+#23601
+&+LFurther Down the Dark Tunnel&N~
+&+L   The tunnel is still very rough and unworked.  There are some slimy pools of
+&+Lan unknown substance in many small holes in the floor.  This entire tunnel
+&+Lsmells terribly bad, much like that giant filth filled lagoons common to the
+&+Llarger cities of the surface.  There is a fair amount of food waste lying in
+&+Lthe darkness of this tunnel.  One may travel to the north or south.&N
+~
+236 33562880 14
+D0
+~
+~
+0 0 23602
+D2
+~
+~
+0 0 23600
+S
+#23602
+&+LNarrow Tunnel Through the Rock&N~
+&+L   Many small stalagmites and stalactites protrude from the tunnels ceiling
+&+Land floor.  The rocks here continue to have their very rough texture.  There is
+&+Lan undeniably sickening smell coming from somewhere in this tunnel.  One can
+&+Lsee a great deal of excriment that has been smeared on the walls.  The tunnel
+&+Lcontinues to the north and south.&N
+~
+236 33562880 14
+D0
+~
+~
+0 0 23603
+D2
+~
+~
+0 0 23601
+S
+#23603
+&+LNarrow Passage&N~
+&+L   The stalactites on the ceiling make it very hard to squeeze through this
+&+Llow tunnel.  The roughness of the walls and floor make traveling here very hard
+&+Lindeed.  Small rats dart through the darkness adding to the vile atmosphere of
+&+Lthis tunnel.  The smell of rotting and filth increases every step to the north.&N
+~
+236 33562880 14
+D0
+~
+~
+0 0 23604
+D2
+~
+~
+0 0 23602
+S
+#23604
+&+LIn Front of the Gates of&N &+gMalch'hor Ganl&N~
+&+L   The tunnel in front of the massive iron gates has been masterfully crafted
+&+Lby this towns inhabitants.  The walls are no longer sharp and uneven but, for
+&+Lthe most part, smooth and at proper angles.  There is some magical&N &+Mfaerie fire
+&+Lilluminating parts of the gates and the rocks nearby.  To the north is the
+&+Lgreat town of&N &+gMalch'hor Ganl.&N
+~
+236 33554432 14
+D0
+~
+gate iron~
+1 0 23605
+D2
+~
+~
+0 0 23603
+E
+gate~
+&+L  This gate has been crafted from a very dark and hard metal.  Upon it are long
+&+Land cruel spikes sticking out from the cross pieces of the gate. There are some
+&+Lsevered dwarf heads impaled on the spikes.&N
+~
+S
+#23605
+&+LInside the Great Iron Gates of&N &+gMalch'hor Ganl&N~
+&+L   This tunnel is very well crafted from the stone.  There isn't a single rock
+&+Lprotruding from where it should not on the wall.  The surface of the tunnels
+&+Lsides, floor and ceiling have been meticulously chiseled and carved to contain
+&+Lno imperfections.  The smell of the air, however, is less than immaculate.  The
+&+Lodor is overly disgusting, smelling like a combiation of a rotten carcas and
+&+Lthe vomit of several &+ggoblin&+L.  The large iron gates of the city are located due
+&+Lsouth from this point.  The city itself is located to the north.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23606
+D2
+~
+iron gate~
+1 0 23604
+S
+#23606
+&+LLarge Connecting Chamber&N~
+&+L   This large chamber is almost exclusively naturally formed.  The ceiling of
+&+Lthe room is over twenty feet high, ample room for the short people who live
+&+Lhere.  The northern wall has been partially worked by the&N &+ggoblin&N &+Lstone workers.
+&+LThere are&N &+ggoblin&N &+Lmade tunnels leading to the west and east away from this
+&+Ldirty fountain.  The smell of this place is revolting.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23609
+D2
+~
+~
+0 0 23605
+D3
+~
+~
+0 0 23607
+S
+#23607
+&+gGoblin&N &+LMade Side Tunnel&N~
+&+L   The eastern half of this small side tunnel was naturally formed but the
+&+Lwestern half had to be carved out of the solid stone.  There are various veins
+&+Lof non-precious metals running through the stone. There are also some even less
+&+Lprecious veins of&N &+ggoblin&N &+Lwaste running over the uneven stone floor.  The
+&+Lamount of waste here is revolting considering the compact size of this cave.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23611
+D1
+~
+~
+0 0 23606
+D2
+~
+~
+0 0 23608
+S
+#23608
+&+LVery Small Nook Used as a Guards Station&N~
+&+L   This small carved out room has a ceiling of only four feet.  The small
+&+Larea is used as a guards break station.  There is a three legged chair and a
+&+Lworn out old table located near the back of the room.  There is a thick layer
+&+Lof filth covering the table and chair but on the floor it is even worse.  This
+&+Lroom smells terrible and looks just as bad.  To the north is the carved out
+&+Ltunnel.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23607
+S
+#23609
+&+LA&N &+gGoblin&N &+LMade Tunnel&N~
+&+L   This tight side tunnel has been masterfully crafted out of the solid stone
+&+Lof this lightless cavern.  The walls are relatively smooth considering that
+&+Lit was carved into the solid stone.  This place is absolutely filthy.  There is
+&+La disgusting amount of feces and urine covering the floor and even on the walls
+&+Lin places.  To the north a natural cavern opens up deeper into the dark cave.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23612
+D2
+~
+~
+0 0 23610
+D3
+~
+~
+0 0 23606
+S
+#23610
+&+LSite of a Very Smelly Pile of Excrement&N~
+&+L  It seems that the&N &+ggoblins&N &+Lwho live in this disgusting city have done a
+&+L&+Lbit of house cleaning.  A large pile of feces and food wastes has been pushed
+&+Lup against the far wall of this tunnel.  The tunnel was made by the&N &+ggoblins&N &+Lbut
+&+Lwho knows what made all this waste.  To the north is the&N &+ggoblin&N &+Lmade tunnel
+&+Lthat connects this tunnel to the natural caverns of&N &+gMalch'hor Danl.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23609
+S
+#23611
+&+LNatural Cave Near the&N &+gGoblin&N &+LMade Tunnels&N~
+&+L   This naturally formed cave is intersected by three different&N &+ggoblin&N &+Lmade
+&+Ltunnels.  The walls of the cave are rough and untouced by mining equipment.  A
+&+Lfair amount of filth has been smeared on the walls and assorded stalctites that
+&+Lhang low enough on the ceiling.  The floor of the cavern has been leveled off
+&+Lto allow easy walking.  There are several &+ggoblin&N &+Lengineers trying to figure
+&+Lout a plan of action for the cave.  To the north is a small tunnel and to the
+&+Lwest is a larger tunnel.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23613
+D2
+~
+~
+0 0 23607
+D3
+~
+~
+0 0 23618
+S
+#23612
+&+LA Naturally Formed Cavern&N~
+&+L   No &+ggoblin&N &+Ltools have been used in the creation of this large open cavern.
+&+LThe only work that has been done here is on the leveling of the floor.  There
+&+Lis a small pile of stone from that particular work on the western wall.  There
+&+Lare many stalactites hanging from the ceiling.  The stone that this cavern was
+&+Lformed in is covered with slime and filth.  The floor is slippery from the
+&+Llarge amount of garbage and grime.  One can travel to the north or south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23614
+D2
+~
+~
+0 0 23609
+S
+#23613
+&+LTurn In The Direction of the Tunnel&N~
+&+L   The rocks here are so black they steal the light from torches.  There is a
+&+Ldisgusting amount of filth imbedded upon the floor.  The tunnel here was made
+&+Lby &+ggoblins&N &+Lan unknown time ago.  The &+ggoblins&N &+Lhave inhabited these caves
+&+Land caverns for what seems like an eternity.  There are several small bones
+&+Lthat lie about the various kinds of filth and muck.  The underdark has rarely
+&+Lseen a city that matches the splendor of&+g Malch'hor Danl&+L.  The amount of filth
+&+Lhides that truth to any visitors who dare enter the gates of this city.  One
+&+Lcan travel to the east or south.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23615
+D2
+~
+~
+0 0 23611
+S
+#23614
+&+LSharp Turn In a Narrow Tunnel&N~
+&+L   The two passageways meet here at a perfect ninety degree angle.  The stone
+&+Lhas been well chiseled and even polished by the industrious &+ggoblin&N &+Lworkers that
+&+Lmake this underground city rival most cities on the vile surface.  The passage
+&+Lis roughly five feet high and three feet wide, perfect for all save the very
+&+Llargest of the &+ggoblin&N &+Lrace.  There is a fair amount of filth strewn about
+&+Lthis narrow tunnel.  The smell of this place is terrible indeed for any race
+&+Lbesides the &+ggoblins&N.  &+LOne may travel to the west or south.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23612
+D3
+~
+~
+0 0 23615
+S
+#23615
+&+gGabbuk'Jul&N &+LSquare&N~
+&+L   This enormous cavern has been named &+gGabbuk'Jul&N &+LSquare by the founders
+&+Lof &+gMalch'hor Ganl&+L.  It was named for the&N &+ggoblin&N &+Lshaman, the legendary hero in
+&+Lthe fourth great war for the northern expanses of the Underdark.  The square is
+&+Lvery large in size, over one hundred feet in any direction.  There are several
+&+Lstone benches on each corner of this dark square.  There is a large amount of
+&+Lgarbage and filth in this square as with the rest of this disgusting town.  The
+&+Lother caves and caverns of &+gMalch'hor Ganl&N &+Ldo not rival the underlying
+&+Lperfection of this magically created cave.  There is a ebonwood door to the
+&+Lsouth that marks the edge of a great stone building.  To the north lies the
+&+Lmain town of &+gMalch'hor Ganl&+L.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23622
+D1
+~
+~
+0 0 23614
+D2
+~
+door~
+1 0 23616
+D3
+~
+~
+0 0 23613
+S
+#23616
+&+LLarge Meeting Chamber of&N &+gMalch'hor Ganl&N~
+&+L   This room was masterfully crafted out of the solid stone by the industrious
+&+ggoblins&+L.  It appears to be a meeting hall for the &+ggoblin&+L people.  There
+&+Lis a bad odor rising from the filth on the floor.  There are several severed
+&+Lheads on the floor, obviously the losers of a heated debate.  There are twelve
+&+Lrows of wooden benches located roughly in the center of the room.  The benches
+&+Lhave long and viscious gouges cut into them by either swords or &+ggoblin&N &+Lfinger
+&+Lnails.  There is a stairway in the back of the room that leads to the filthy
+&+Linn of the town.  There is a wooden door to the north that seperates the caves
+&+Land tunnels from this building.&N
+~
+236 33554432 14
+D0
+~
+door~
+1 0 23615
+D4
+~
+~
+0 0 23617
+S
+#23617
+&+LThe Filthy Cave,&N &+gInn of Malch'hor Ganl&N~
+&+L   The Filthy Cave is used by&N &+ggoblins&N &+Lspending the night.  Compared to some
+&+Lparts of the underdark city of&N &+gMalch'hor Ganl&N &+Lthis place is realatively clean.
+&+LThere are many small hollows chiseled out of the stone.  Each cubby has a small
+&+Liron gate on it to keep out the prying hands of thieves.  Although it looks
+&+Llike a prison, this place is used solely for sleeping.  If you lose your key
+&+Lthough it is a different story.  In the middle of the room is a circular desk
+&+Lmade from a single piece of thick stone.  The inn keeper is a disgusting&N &+ggoblin
+&+Lwho doesn't particularly care about the needs of his clients.  There is an exit
+&+Lgoing downwards away from this inn.&N
+~
+236 34078848 14
+D5
+~
+~
+0 0 23616
+S
+#23618
+&+LDark Tunnel That Connects To the Mine Complex&N~
+&+L   This tunnel branches of the other, well made tunnel.  The walls here are
+&+Lover seven feet apart from eachother.  The ceiling is over ten feet high, very
+&+Lodd for a &+ggoblin&+L tunnel.  There is a large set of stairs leading down to the
+&+Llower levels of &+gMalch'hor Ganl&+L.  The tunnels below here are used for mining
+&+Land quarry work.  There is a fair amount of filth and slime on the walls and
+&+Lfloor.  One can smell a very bad odor coming from the mining tunnels below.&N
+~
+236 33554436 14
+D1
+~
+~
+0 0 23611
+D5
+~
+~
+0 0 23619
+S
+#23619
+&+LInside the &+gGoblin&N &+LMining Complex&N~
+&+L   The &+ggoblin&+L mining complex has been well engineered.  There are large wood
+&+Lsupports at three foot intervals making this place realatively safe.  Although
+&+Lthis mining complex has been well made, the actual mining practices used by the
+&+ggoblins&+L could only be classified as rough.  There are large gaping holes in
+&+Lseemingly random places.  It seems that the miners here strike out wherever
+&+Lthey think they can find some precious stones.  Various mining equipment has
+&+Lbeen left here as the miners exited the mines.  There is a long stone stairway
+&+Lleading to the main level of the city.  To the east is the bank of &+gMalch'hor
+&+gGanl&+L.  The mines continue to the west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23686
+D3
+~
+~
+0 0 23620
+D4
+~
+~
+0 0 23618
+S
+#23620
+&+LTunnel in the &+gGoblin&N &+LMining Complex&N~
+&+L   The mine has been dug by industrious &+ggoblins&+L of &+gMalch'hor Ganl&+L. The walls
+&+Land floor have been expertly chipped but still looks very sloppy. The once rich
+&+Lstone here has been stripped of any and all precious materials.  There are some
+&+Llarge reed baskets that are used to haul out the excess stone.  Some implements
+&+Lof mining lie in piles at random intervals along the mines wall.  One may
+&+Ltravel to the west or east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23619
+D3
+~
+~
+0 0 23621
+S
+#23621
+&+LInside the &+gGoblin&+L Mining Complex of &+gMalch'hor Ganl&N~
+&+L   The mine continues here.  The tunnels walls and ceiling are very rough and
+&+Lwell worked.  It is apparant that all the precious materials have been stripped
+&+Lfrom the stone.  The ceiling juts down dangerously and at deadly angles.  The
+&+Lstone has not been worked in any way to promote safety.  There are some mining
+&+Ltools lying about the ground.  There are side passages to this mine to the
+&+Lnorth and south.  The exit of the mining complex of&+g Malch'hor Ganl&+L is to the
+&+Least.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23711
+D1
+~
+~
+0 0 23620
+D2
+~
+~
+0 0 23710
+S
+#23622
+&+LThe Main Tunnel of &+gMalch'hor Ganl&N~
+&+L   This tunnel was cut painstakingly from the solid stone.  One can see the
+&+Lmany small chip marks left from the various mining equipment used to make this.
+&+LThere are several small chips of stone left lying on the ground.  There is a
+&+Lvery bad smell in these tunnels from an unknown source.  As one gazes around a
+&+Lfair amount of filth can be seen.  The dirt and grime looks as if it has been
+&+Lsmeared and thrown about.  This small tunnel continues to the north.  The exit
+&+Lto this tunnel is to the south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23633
+D2
+~
+~
+0 0 23615
+D3
+~
+~
+0 0 23713
+S
+#23623
+&+gTogak'Hogak&+L, Guild of &+gGoblin&N &+LThieves&N~
+&+L   This central room is used for both meetings and battle.  This room is in
+&+Lreality a small cavern formed in the stone.  There are a few stalactites on the
+&+Lceiling but they are very small.  A seven foot tall creature could walk here
+&+Lwithout hitting its head.  The head room here is plenty for the short &+ggoblin&N
+&+Lthieves.  This is the guild of &+gTogak'Hogak&+L, the premiere thieving guild
+&+Lin all of &+gMalch'hor Ganl&+L.  There are several small rooms that the thieves
+&+Lhave carved into the sides of the tunnel.  To the north is the tunnel that was
+&+Lcarved to connect the dary side passage to this cavern.  To the east is the
+&+Linitiation chamber of the guild.  To the west is the sleeping quarters of the
+&+Lguild.  Finally, to the south is the guildmasters private chambers.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23624
+D1
+~
+~
+0 0 23625
+D2
+~
+door~
+1 0 23626
+D3
+~
+~
+0 0 23627
+S
+#23624
+&+LEdge of a Large Cavern&N~
+&+L   This small tunnel is the main connector between the narrow and dirty side
+&+Lstreet and a large cavern which is located to the south.  The tunnel is very
+&+Lnarrow and tight but offers easy access to those dextrous and agile enough.  A
+&+Lfair amount of filth has been drug down from the above alley and rests on the
+&+Lfloor and walls.  The floor beneath the slime has been roughly chiseled by the
+&+Lagile &+ggoblin&+L hands.  There is a trapdoor above this small tunnel that is
+&+Laccessible by a small series of platforms cut into the stone.  The tunnel leads
+&+Lsouth to a larger naturally formed cavern.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23623
+D4
+~
+trap trapdoor~
+1 0 23646
+S
+#23625
+&+LInitiation Chamber for the Thieves of &+gMalch'hor Ganl&N~
+&+L   This small chamber is where the &+ggobin&N &+Lthieves are first initiated into
+&+Lthe guild of &+gTogak'Hogak&+L, notorious for training and harboring thieves.  The
+&+Lroom is sparsely decorated with small benches and chairs.  The stone walls of
+&+Lthis room have been very roughly cut out of the stone by the hands of the very
+&+Lelusive thieving guild.  The guild is well known for its prowess in the art of
+&+Lstealing.  There is a large fur rug on the floor.  The main part of the guilds
+&+Lcavern lies to the west.  There is also a sign on the wall which reads, "&+WIf you
+&+Wcan see it...steal it&+L."&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23623
+S
+#23626
+&+LThe Guild Masters Chamber of the&+g Thogak'Hogak&N~
+&+L   This room has been carved into the southern wall of the cavern that has
+&+Leen taken over by the thieves guild, &+gTogak'Hogak&+L.  The room has been very
+&+Lwell chiseled into the stone as for the most part the walls are smooth and free
+&+Lof the ugly scars of carelessness.  Fine silk banners and expensive looking
+&+Lfurniture adorn this room.  Thee is a nice looking shag rug in the center of
+&+Lthe floor with a couple of &+Ygold&+L inlaid chairs.  There are a few nice pieces of
+&+Larmor and fine edged weapons hanging on the walls.  The desk used by the guild
+&+Lmaster looks to be made of expensive ebonwood.  There is a wooden door to the
+&+Lnorth that seperates this private room from the rest of the cavern.&N
+~
+236 33554432 14
+D0
+~
+door~
+1 0 23623
+S
+#23627
+&+LSleeping Quarters For the &+gGoblin&N &+LThieves&N~
+&+L   These tight quarters have been set up for the thieves to rest their tired
+&+Lfeet after taking flight after robberies.  There are several sets of bunk beds
+&+Lat the end of the room but they all lack bed sheets or covers.  The room that
+&+Lhas been chiseled out of the cavern wall is fairly large, roughly ten feet high
+&+Land twenty feet wide and long.  Although the beds are here, one cannot spend
+&+Lthe night here.  There are some nice goblets and platters on a small wooden
+&+Ltable in the middle of the room.  One may travel back to the main part of the
+&+Lguild hall of &+gTogak'Hogak &+Lto the east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23623
+S
+#23628
+&+gThazzo Holt&+L, Unholy School of the &+gGoblin&N &+LClerics&N~
+&+L   This large cavern was formed at the dawn of Duris.  Large stalactites
+&+Lhang from the ceiling looking very much like long fangs.  The air here almost
+&+Lcrackles with unholy energy.  This is the school of clerics,&+g Thazzo Holt&+L.  The
+&+Lmany side passages seem to pale in comparrison to this glorious school.  The
+&+Lunholy gods of the &+ggoblins&+L are worshiped fanatically here by the new and old
+&+Lclerics.  Hundreds of goblins have been taught the lessons of the clerics in
+&+Lthis very cavern.  There is little dirt or any other filth in this tunnel but
+&+Lit does smell very bad.  There is an enormous stone cross hanging from the roof
+&+Lof the cavern with a large &+Bbarbarian&N &+Lnailed to it.  One may travel in any
+&+Ldirection.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23629
+D1
+~
+~
+0 0 23631
+D2
+~
+~
+0 0 23630
+D3
+~
+~
+0 0 23632
+E
+barbarian cross~
+&+L   This macabe sight is quite unnerving.  The &+Bbarbarian&+L nailed onto this
+&+Lcross was a very impressive sacrifice in the eyes of the &+ggoblin&+L God.  There
+&+Lis some &+Rblood&+L dripping from the open wounds of the corpse.&N
+~
+S
+#23629
+&+LThe Highest Level of &+gMalch'hor Ganl&+L, The School of Clerics&N~
+&+L   This highest level of &+gMalch'hor Ganl&+L is the permanent home of the &+ggoblin&N
+&+Lclerics.  The walls have been polished to a very fine finish by some unknown
+&+Lmagical spell that has been lost to the ages.  The floor has been recently
+&+Lswept clear of any waste that once lied here.  High above the cavern floor is
+&+Lone large stalactite that has been inscribed with thousands of small runes of
+&+Lpower.  There is a set of stone stairs that lead down to a lower level of the
+&+Lcity of the &+ggoblins&+L.  To the south is the unholy school of &+ggoblin&+L clerics,
+&+gThazzo Holt&+L.
+~
+236 33554436 14
+D2
+~
+~
+0 0 23628
+D5
+~
+~
+0 0 23643
+E
+stalactite~
+&+L   This stalactite is covered with thousands of small yet powerful runes.  The
+&+Lpowerfully enchanted stalactite is a symbol of faith for the &+ggoblin&+L clerics.&N
+~
+S
+#23630
+&+LDark Altar of the &+gGoblin&N &+LClerics&N~
+&+L   This room is dedicated to the devout followers of the &+RUnholy&+g Goblin&+L God
+&+gGob'tek&+L and his&+R evil &+Lmi&+Rni&+Lons.  The altar is a large slab of stone that rests
+&+Lupon two pyramid like supports on each end.  The altar &+Mglows&+L and hums with an
+&+Lsurreal magical enchantment.  Upon the altar is a large basin that is filled
+&+Lwith blood and wine.  A large stone &+Wcross&+L hangs inverted from the ceiling of
+&+Lthe room.  The room itself has been carved out of the stone very meticulously.
+&+LThe walls have been polished smooth by the industrious dark clerics of the town
+&+Lof &+gMalch'hor Ganl&+L.  One may travel to the north into the main chamber of
+&+gThazzo Holt&+L.
+~
+236 33685504 14
+D0
+~
+~
+0 0 23628
+E
+altar~
+&+L   This unholy altar has been crafted from fine stone.  There are several
+&+Lsmall carvings chiseled into the stone depicting various ceremonial acts.  The
+&+Ltop of the altar is the final resting place of a virgin &+ggoblin&N &+Lmaiden.&N
+~
+S
+#23631
+&+LCollection of Tomes of the Dark Art of the&N &+gGoblin&+L Clerics&N~
+&+L   This library is the only collection of books in the whole &+ggoblin&N &+Lcity of
+&+gMalch'hor Ganl&+L.  There are several different book cases that are filled with
+&+Ldusty old tomes.  There is a round table in the middle of the room.  There are
+&+Lseveral open tomes on the table and a large white candle that illuminates the
+&+Lroom.  There are several small chair around the table, all made of some kind of
+&+Lred wood.  This is the main library of the &+ggoblin&N &+Lclerics of &+gMalch'hor Ganl&+L.
+&+LOne can travel to the west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23628
+S
+#23632
+&+LThe Main Study of the Headmaster of &+gGoblin&N &+LClerics&N~
+&+L   This room pulsates with the unholy powers of the &+ggoblin&N &+Lclerical leader,
+&+gTol'rah&+L. The room is well stocked with expensive looking furniture and banners
+&+Lproclaiming the power of the &+ggoblin &+LDiety.  The walls are not smooth but cut
+&+Lat wierd angles.  The surface of the walls has been so strangely crafted that
+&+Lit seems to move out and in randomly.  This room is truly a powerful center of
+&+Lunholy power.  There are some large, cushioned chairs along the walls and a
+&+Lvery huge altar that is used by only the head priest.  There is an exit leading
+&+Lto the east that connects this room to the main cavern of &+gThazzo Holt&+L.
+~
+236 33554432 14
+D1
+~
+~
+0 0 23628
+S
+#23633
+&+LRoughly Cut Tunnel of &+gMalch'hor Ganl&N~
+&+L   This tunnel has been roughly cut from the stone.  Several jagged edges of
+&+Lstone reach down from the ceiling.  Any creature taller than a &+ggoblin&N &+Lcould
+&+Lvery likely cut open their skull on these edges.  The tunnel has been cut in a
+&+Lrectangular shape, roughly five feet high and four feet wide.  There is a lot
+&+Lof &+ggoblin&N &+Lfeces smeared on the ground.  It appears that the inhabitants of
+&+Lthese tunnels, caves and caverns care little in the way of sanitation.  The
+&+Ltunnel leads to the north or south, depending upon which direction you are
+&+Ltraveling.  There is a small home to your east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23634
+D1
+~
+~
+0 0 23715
+D2
+~
+~
+0 0 23622
+S
+#23634
+&+LFour Way Intersection on the Main Path of &+gMalch'hor Ganl&N~
+&+L   The tunnel here branches in several directions.  The conditions here are
+&+Lsqualid at best.  The walls and floor are filthy and covered with an unknown
+&+Lgrime.  There appears to be fresh stools of feces near the eastern tunnel
+&+Lopening.  To the west the tunnel is considerably less filthy but by no means
+&+Limmaculate.  The stench here is beyond revolting but what would you expect from
+&+Lthe cold, stone tunnels of &+gMalch'hor Ganl&+L.  One can travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23635
+D1
+~
+~
+0 0 23637
+D2
+~
+~
+0 0 23633
+D3
+~
+~
+0 0 23636
+S
+#23635
+&+LAbove the Worst Smelling Area of &+gMalch'hor Ganl&N~
+&+L   The narrow tunnel continues on to the northern parts of the city.  The
+&+Lwalls have been very roughly cut here and look to be neglected.  Small chunks
+&+Lof ceiling have fallen down into the walkway and some of the wooden support
+&+Lbeams have been knocked down and lie strewn upon the ground.  There is a large
+&+Lhole on the floor.  There is an iron grate over it so one can continue travels
+&+Lwithout falling in.  It smells horrid and could make the toughest of &+BOgres&+L want
+&+Lto plug their nose.  The central path of &+gMalch'hor Ganl&+L continues to the
+&+Lnorth and south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23672
+D2
+~
+~
+0 0 23634
+D5
+~
+grate iron~
+1 0 23647
+S
+#23636
+&+LA Finely Carved Tunnel&N~
+&+L   The tunnel here is displays better craftmanship and overall asthetic value
+&+Lthan the previous tunnels of &+gMalch'hor Ganl&+L.  There is amazingly little filth
+&+Land grime here but their are signs of some.  An iron shovel leans against the
+&+Lwall and it appears that it has been used recently in the removal of the filth.
+&+LThe tunnel is somewhat larger than normal, about six feet by six feet.  Some
+&+Lunholy &+crunes&+L and &+mglyphs&+L have been masterfully chiseled into the tunnel walls.
+&+LOne may travel back to the main tunnel by traveling east, or further into the
+&+ggoblin&+L city of &+gMalch'hor Ganl&+L by traveling west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23634
+D3
+~
+~
+0 0 23639
+S
+#23637
+&+LA Very Cramped and Small Tunnel&N~
+&+L   This tight tunnel branches off the main tunnel.  There are several wooden
+&+Lbeams supporting the roof of the tunnel.  The stone shows the very rough
+&+Lworkmanship that was put into the construction of this tunel.  There are large
+&+Land uneven gouges in the stone from errant pick axe swings.  The walls are
+&+Lsmeared with feces and other filth.  This tunnel smells very bad, almost like
+&+Lthe haunted swamps in the &+gTroll Moors&+L.  One may travel to the east or west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23638
+D3
+~
+~
+0 0 23634
+S
+#23638
+&+LA Tight and Smelly Side Tunnel&N~
+&+L   The tunnel walls have been cut very closely together.  The space here is
+&+Lonly easily traveled in by those who are agile or lanky enough to squeeze
+&+Lthrough the tight spaces.  There is a very large amount of filth covering the
+&+Lwalls which is helpful as a lubricant in slipping through.  The stone floor is
+&+Lrough but not overly harsh to the feet.  The tunnel makes a turn here to the
+&+Lsouth.  One may travel back to the main tunnel by heading west.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23644
+D3
+~
+~
+0 0 23637
+S
+#23639
+&+LBelow the Stone Steps Leading to An Upper Level&N~
+&+L   The well crafted tunnel continues here and ends at the western wall.  The
+&+Lsteps that lead upwards are very well polished and inlaid with some precious
+&+Lmaterials including &+Csapphires&+L and&+r rubies &+Ladding to the feeling of power that
+&+Lcomes from this tunnel.  The walls have been masterfully chiseled into the
+&+Lstone.  There are some places where natural pockets of air were found in the
+&+Lrock that would have put some holes in the smooth wall.  These holes were very
+&+Lmeticulously filled with a substance unknown to those outside of the city of
+&+gMalch'hor Ganl&+L.  There is a set of stairs leading up and a tunnel leading to
+&+Lthe east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23636
+D4
+~
+~
+0 0 23640
+S
+#23640
+&+LBeginning of One of the Upper Levels of &+gMalch'hor Ganl&N~
+&+L   This upper level of &+gMalch'hor Ganl&N &+Lhas been very well crafted from the
+&+Lstone.  Because the &+ggoblins&N &+Lwho use this tunnel are in charge of keeping
+&+Lit maintained, this part of the tunnel complex has been well maintained.  The
+&+Lwalls and ceiling of this tunnel are very clean.  The floor has some deeply
+&+Lingrained stains that are impossible to clean.  This tunnel is by far the most
+&+Lclean in the entire city for the unholy clerics constantly work to clear this
+&+Larea from filth.  There is a set of stairs leading downward to the lower levels
+&+Lof &+gMalch'hor Ganl&+L.  The tunnel leads to the west.&N
+~
+236 33554436 14
+D3
+~
+~
+0 0 23641
+D5
+~
+~
+0 0 23639
+S
+#23641
+&+LIntersection on the Upper Level of &+gMalch'hor Ganl&N~
+&+L   The tunnel has come to an intersection here on the second level of the
+&+Lunderworld city of &+gMalch'hor Ganl&+L.  The tunnel has been masterfully cut out
+&+Lof the solid stone by industrious &+ggoblins&+L.  This tunnel splits to the left
+&+Land right here at the stone statue of a &+ggoblin&+L cleric of considerable power.
+&+LThe statue rests permanently upon a stone slab on the western wall.  One may
+&+Ltravel to the north or south, or return to the main tunnel of &+gMalch'hor Ganl&+L by
+&+Ltraveling east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23642
+D1
+~
+~
+0 0 23640
+D2
+~
+~
+0 0 23643
+S
+#23642
+&+LBeginnings of an Unfinished Tunnel&N~
+&+L  The &+ggoblin&+L clerics have decided to expand their tunnels to include more
+&+Lareas to the north.  This tunnel has been recently chiseled into the stone wall
+&+Lby the clerics for the glory of their god.  The walls are still very rough and
+&+Luneven.  Several kinds of mining equipment lie in a pile in the corner of the
+&+Lroom waiting for use.  The exit to this area is to the south.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23641
+S
+#23643
+&+LBelow the Final Stairs to the Highest Level of &+gMalch'hor Ganl&N~
+&+L   The tunnel here has been cleared of most filth.  There is a few small areas
+&+Lof filth but they seem to be very recent.  The walls and ceiling of this tunnel
+&+Lhave been polished and chiseled to absolute smoothness.  The surface of the
+&+Lblack rock is so smooth it offers a reflective surface.  There is a long and
+&+Lwinding set of stairs that has been cut into the stone wall that leads upwards
+&+Linto the very highest levels of &+gMalch'hor Ganl&+L.  The tunnel itself leads to
+&+Lthe north.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23641
+D4
+~
+~
+0 0 23629
+S
+#23644
+&+LSmall Side Passageway Amongst the Filth&N~
+&+L   This side tunnel continues into the gloom.  This room reeks of rotten waste
+&+Land other forms of disgusting filth.  The smell here is like no other cave in
+&+Lthe realms.  There is a thick layer of slime and grime covering all the surface
+&+Lof the walls and ceiling.  The tunnel is over six feet high but only three feet
+&+Lwide making travel very tricky.  The sharp edges of the roughly chiseled stone
+&+Lcuts and grabs at loose clothing as one travels through this dark tunnel.  The
+&+Ltunnel has abruptly turned here, one direction leading east, the other leading
+&+Lto the north.&N
+~
+236 33554436 14
+D0
+~
+~
+0 0 23638
+D1
+~
+~
+0 0 23645
+S
+#23645
+&+LVery Tight and Filthy Tunnel&N~
+&+L   The tunnel has turned into little more than a crack in the wall.  The
+&+Lmovement is even further hindered by the amount of trash that has been thrown
+&+Linto this tunnel.  There is a thick layer of sludge and other disgusting types
+&+Lof filth covering the floor.  There are several small holes dug into the walls
+&+Lthat appear to have once been some sort of trap.  The holes are now unarmed and
+&+Ltherefore should not offer one another thought.  The walls here are very rough
+&+Land unpleasant to the touch.  The tunnel continues to the west and south.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23646
+D3
+~
+~
+0 0 23644
+S
+#23646
+&+LDark and Filthy End to a Tunnel&N~
+&+L   The filthy and winding tunnel comes to an end in this corner.  There are
+&+Llarge boxes full of garbage and other unmentionable filth.  The walls here are
+&+Lhighly unfinished as this tunnel is no more than a very small tunnel burrowed
+&+Lthrough the stone.  The many jagged edges of the wall could offer more than a
+&+Llittle pain to an unwary traveler.  There is a small trapdoor in the floor with
+&+La small emblem on it.  The filthy tunnel leads back to the north.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23645
+D5
+~
+trap trapdoor~
+1 0 23624
+S
+#23647
+&+LThe Center of the Towns Dump and Cemetary&N~
+&+g   Goblins&+L are known for being filthy and loathsome creatures, but this cavern
+&+Lis simply unbelievable to outsiders.  This is &+gMalch'hor Ganls&+L main garbage
+&+Ldump.  There are tons and tons of garbage and filth in this area.  The cavern
+&+Lis over twenty feet high and stretches as far as you can see.  There is a very
+&+Lterrible smell coming from the tons of filth and grime.  The footing here is
+&+Ltreacherous at best and shifts constantly.  Amongst the garbage and waste are
+&+Lcountless &+ggoblin&N &+Lcorpses.  It seems that the &+ggoblin&+L people use this cavern for
+&+La cemetary as well.  One can travel in any direction including up.&N
+~
+236 33554436 14
+D0
+~
+~
+0 0 23648
+D1
+~
+~
+0 0 23651
+D2
+~
+~
+0 0 23650
+D3
+~
+~
+0 0 23649
+D4
+~
+iron grate~
+1 0 23635
+S
+#23648
+&+LDisgusting Looking And Smelling Region of the Dump&N~
+&+L   This part of the &+gMalch'hor Ganl&+L dump is filled with tons of trash and
+&+Lother foul smelling filth.  The caverns ceiling is several yards over the level
+&+Lof the dumped trash.  There is a very terrible smell that seems to pulsate from
+&+Lthe muck below.  There are several &+ggoblin&+L corpses lying amongst the many
+&+Ldiscarded things.  Apparently this cavern is used as a mass grave as well.  One
+&+Lmay travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23657
+D1
+~
+~
+0 0 23654
+D2
+~
+~
+0 0 23647
+D3
+~
+~
+0 0 23655
+S
+#23649
+&+LMounds and Mounds of Bodies&N~
+&+L   There is an unreal amount of rotting and decomposing &+ggoblin&+L corpses in a
+&+Llarge pile here.  The stench is overwhelming and seems to add a certain amount
+&+Lof density to the air.  There is also many tons of garbage beneath the cavern
+&+Lceiling.  In a few places one can discern a stalagmite poking through the piles
+&+Land looking very much like a tall mountain peek amongst all the other higher
+&+Lareas of trash.  One may travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23655
+D1
+~
+~
+0 0 23647
+D2
+~
+~
+0 0 23653
+D3
+~
+~
+0 0 23669
+S
+#23650
+&+LIn the Dump of the City of &+gMalch'hor Ganl&N~
+&+L   Trash and garbage are piled very high in this naturally formed cavern.
+&+LSeveral stalactites hang down low and even enter the main body of the dumps
+&+Lwaste.  The smell here is terrible as the dump has no real ventilation system.
+&+LThere are bodies strewn amongst the filth and grime.  One may travel in any
+&+Ldirection.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23647
+D1
+~
+~
+0 0 23652
+D2
+~
+~
+0 0 23665
+D3
+~
+~
+0 0 23653
+S
+#23651
+&+LIn the Large Dumping Cavern of &+gMalch'hor Ganl&N~
+&+L   An unbelievable amount of trash and filth has been dumped into this large
+&+Lcavern than the town of &+gMalch'hor Ganl&+L uses for a dump.  The stone walls and
+&+Lceiling consist of a black, volcanic rock.  The smell here is very bad.  The
+&+Lgarbage and trash has decomposed partially but is now filled with thousands of
+&+Llittle &+wmaggots&+L.  Amongst the trash are several hundred &+ggoblin&+L corpses.  It is
+&+Lalmost surreal how many dead have been unceremoniously tossed into the dump.
+&+LOne may travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23654
+D1
+~
+~
+0 0 23661
+D2
+~
+~
+0 0 23652
+D3
+~
+~
+0 0 23647
+S
+#23652
+&+LIn the Cavern That is Used for the Town Dump&N~
+&+L   This section of dump is one of the worst smelling places ever.  There is
+&+Lfood waste as well as &+ggoblin&+L waste.  Everything is covered with a thick layer
+&+Lof grime and filth. There are several bodies of &+ggoblins&+L lying amongst the filth
+&+Land slime.  It seems that the citizens of &+gMalch'hor Ganl&+L use this dump for a
+&+Lcemetary as well as a garbage dump.  There are several blind creatures that sit
+&+Lin the filth eating until they burst.  One may travel in any direction.
+~
+236 33554432 14
+D0
+~
+~
+0 0 23651
+D1
+~
+~
+0 0 23662
+D2
+~
+~
+0 0 23664
+D3
+~
+~
+0 0 23650
+S
+#23653
+&+LAmongst the Trash and Filth of the Dump&N~
+&+L   This part of the &+gMalch'hor Ganl&+L dump is filled with tons of trash and
+&+Lother foul smelling filth.  The caverns ceiling is several yards over the level
+&+Lof the dumped trash.  There is a very terrible smell that seems to pulsate from
+&+Lthe muck below.  There are several &+ggoblin&+L corpses lying amongst the many
+&+Ldiscarded things.  Apparently this cavern is used as a mass grave as well.  One
+&+Lmay travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23649
+D1
+~
+~
+0 0 23650
+D2
+~
+~
+0 0 23666
+D3
+~
+~
+0 0 23668
+S
+#23654
+&+LInside the &+gMalch'hor Ganl&+L Dump&N~
+&+L   The dump of &+gMalch'hor Ganl&+L is filled with tons and tons of trash, filth
+&+Land an ubelievable amount of corpses.  For hundreds of years the &+ggoblin&+L people
+&+Lhave dumped those things they no longer need in this large cavern.  Corpses
+&+Lhave the same value as a pile of waste in &+ggoblin&+L society.  There are some
+&+Ldiscarded weapons here as well, their handles broken in half.  There are many
+&+wmaggots&+L squirming about on the surface.  One may travel in any direction.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23658
+D1
+~
+~
+0 0 23660
+D2
+~
+~
+0 0 23651
+D3
+~
+~
+0 0 23648
+S
+#23655
+&+LHorribly Disgusting Section of the &+gMalch'hor Ganl&+L Dump&N~
+&+L   This section of dump is one of the worst smelling places ever.  There is
+&+Lfood waste as well as &+ggoblin&+L waste.  Everything is covered with a thick layer
+&+Lof grime and filth. There are several bodies of &+ggoblins&+L lying amongst the filth
+&+Land slime.  It seems that the citizens of &+gMalch'hor Ganl&+L use this dump for a
+&+Lcemetary as well as a garbage dump.  There are several blind creatures that sit
+&+Lin the filth eating until they burst.  One may travel in any direction.
+~
+236 33554432 14
+D0
+~
+~
+0 0 23656
+D1
+~
+~
+0 0 23648
+D2
+~
+~
+0 0 23649
+D3
+~
+~
+0 0 23670
+S
+#23656
+&+LNorthern Edge of the &+gGoblin&+L Dumping Cavern&N~
+&+L   This edge of the dump is filled with many animal corpses.  It seems that
+&+Lthe &+ggoblin&+L people had a large herd of animals that they tended to for a while.
+&+LThe herd of rothe they once tended was quickly devoured as the &+ggoblins&+L were
+&+Lnot bright enough to conserve and slowly consume the herd.  They didn't give it
+&+Ltime to reproduce.  The skeletons have been stripped of any and all flesh by
+&+Lthe combination of the maggots and &+ggoblins&+L.  There are also some &+ggoblin&+L bodies
+&+Lamongst the rothe skeletons.  One may travel to the west, east or south.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23657
+D2
+~
+~
+0 0 23655
+D3
+~
+~
+0 0 23671
+S
+#23657
+&+LAgainst the Northern Wall of this Dump&N~
+&+L   Much of the waste here seems to be of the bodily kind.  This area of the
+&+Ldump smells like a tightly closed latrine.  The solid wall of stone to the is
+&+Lcovered with grime and other filth.  The garbage and other wastes have been
+&+Lpiled three quarters of the way to the cave ceiling.  There are several &+ggoblin&N
+&+Lcorpses lying amongst the trash.  One can travel to the south, east or west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23658
+D2
+~
+~
+0 0 23648
+D3
+~
+~
+0 0 23656
+S
+#23658
+&+LDisgusting Smelling Section of the &+gMalch'hor Ganl&+L Dump&N~
+&+L   The garbage and filth that has been piled high here reeks like no other
+&+Lthing smelled on the surface or Underdark.  The garbage here is only beginning
+&+Lto decompose even though the trash itself may be hundreds of years old.  The
+&+Lcarrion crawlers that have been devouring the filth have a very daunting task
+&+Lbefore them.  The amount of trash here is amazing.  Strewn amongst the trash
+&+Lare several &+ggoblin&+L corpses, unceremoniously dumped here by their families or
+&+Lthe patrol groups who found the dead or dying in the tunnels.  One may travel
+&+Lto the west, east or south.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23659
+D2
+~
+~
+0 0 23654
+D3
+~
+~
+0 0 23657
+S
+#23659
+&+LNortheastern Corner of the Towns Dump&N~
+&+L   The amount of garbage here is staggering.  There is a great amount of
+&+Ldecomposition occuring here as this is the oldest section of the dump.  The
+&+Ltrash and waste here could be hundreds, even thousands, of years old.  The
+&+Lsmell here is more than a little disgusting, even by &+ggoblin&+L standards.  There
+&+Lare several fully decomposed &+ggoblin&+L corpses lying in and about the trash.
+&+LOne may travel to the south or west.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23660
+D3
+~
+~
+0 0 23658
+S
+#23660
+&+LSqualid Eastern Wall of &+gMalch'hor Ganl&N &+LDumping Cavern&N~
+&+L   There is a big difference between dirty and squalid.  This section of the
+&+Ldump is squalid for sure.  There is a lot of trash and garbage here.  From the
+&+Lstalactite covered ceiling, a thick ooze is currently dripping.  There is a
+&+Lthick layer of dirt and grime covering all the trash and corpses.  The corpses
+&+Lare distinctly &+ggoblin&+L.  Some have even decomposed fully leaving only a &+Wwhite
+&+Lskeleton.  Some of the bodies are still twitching.  One may travel north, south
+&+Lor west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23659
+D2
+~
+~
+0 0 23661
+D3
+~
+~
+0 0 23654
+S
+#23661
+&+LEastern Edge of the Disgusting Dumping Cavern of the &+gGoblins&N~
+&+L  This part of the cavern is used by the &+ggoblins&+L of &+gMalch'hor Ganl&+L to dump both
+&+Lbodily waste and trash they no longer need.  The sheer amount of garbage here
+&+Lis almost unfathomable.  The piles have been pushed up against the cavern wall
+&+Lin a feeble effort to create more room for dumping.  If the &+ggoblin&+L people do
+&+Lnot do something to curb their garbage production, this cavern will soon be
+&+Labsolutely filled with this smelly trash.  There are several decomposed bodies
+&+Lshowing the whites of their bones.  This dump smells as bad as it looks.  One
+&+Lmay travel north, south or west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23660
+D2
+~
+~
+0 0 23662
+D3
+~
+~
+0 0 23651
+S
+#23662
+&+LDisgusting Smelling Eastern Wall of the Dump&N~
+&+L   Small rats scurry in and out of the garbage.  There is a unreal amount of
+&+Ltrash, filth, grime and corpses here in the dump of &+gMalch'hor Ganl&+L.   The
+&+Lsmell here is thoroughly revolting.  The cavern wall is covered with a thick
+&+Llayer of what appears to be dried feces.  The ceiling is covered with small
+&+Lstalactites that appear to be comprised of much instead of stone.  One may
+&+Ltravel to the north, south or west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23661
+D2
+~
+~
+0 0 23663
+D3
+~
+~
+0 0 23652
+S
+#23663
+&+LFilthy Southeastern Corner of the Dump&N~
+&+L   The trash and bodies are piled nearly to the cavern roof.  Some sharp
+&+Lstalactites hang down and plunge into the large body of waste.  The amount of
+&+Lgarbage here is surreal as it would take a thousand years to fill such a large
+&+Lcavern.  The smell here is one of rot and decay.  One can see several half-way
+&+Ldecomposed &+ggoblin&+L corpses lying in or out of the trash.  The walls crawl
+&+Lwith many different kinds of carrion and other types of Underdark scavengers.
+&+LOne may travel to the north or west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23662
+D3
+~
+~
+0 0 23664
+S
+#23664
+&+LSouthern Cavern Wall of the Town Dump&N~
+&+L   This part of the dumping cavern of &+gMalch'hor Ganl&+L smells terribly bad.
+&+LThe garbage here is piled up to the very top of the cavern.  There are large
+&+Lpools of filthy water on the cavern floor.  The trash is littered with many of
+&+Lthe &+ggoblin&+L corpses from the city.  The stone wall of the cavern is covered
+&+Lwith slime and filth.  The dump of &+gMalch'hor Ganl&+L is a very dirty and smelly
+&+Lplace.  One may travel from this point by going north, west or east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23652
+D1
+~
+~
+0 0 23663
+D3
+~
+~
+0 0 23665
+S
+#23665
+&+LThe Revolting Edge of the &+GGoblin&N &+LDump&N~
+&+L   The amount of garbage that is in this stone cavern is unbelievable.  There
+&+Lis thousands of tons of trash and waste dumped here.  Hundreds and maybe even
+&+Lthousands of years have passed by with the limited amount of decomposing that
+&+Lthe underdark offers.  Amidst all the trash and filthy waste are several grey
+&+Lcorpses of &+ggoblins&N &+Land &+rduergar&+L dwarves.  The &+ggoblin&N &+Ldoesn't particularly
+&+Lcare about the dead.  The bodies were tossed in here just as any other type of
+&+Ltrash.  One can see a few &+ggoblin&N &+Lbabies amongst the garbage either badly
+&+Ldeformed or decapitated by the angry fathers. One may travel to the north, east
+&+Lor west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23650
+D1
+~
+~
+0 0 23664
+D3
+~
+~
+0 0 23666
+S
+#23666
+&+LGrimy Section of the Dump&N~
+&+L   Much of the waste here seems to be of the bodily kind.  This area of the
+&+Ldump smells like a tightly closed latrine.  The solid wall of stone to the is
+&+Lcovered with grime and other filth.  The garbage and other wastes have been
+&+Lpiled three quarters of the way to the cave ceiling.  There are several &+ggoblin&N
+&+Lcorpses lying amongst the trash.  One can travel to the north, east or west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23653
+D1
+~
+~
+0 0 23665
+D3
+~
+~
+0 0 23667
+S
+#23667
+&+LDark Corner of the &+gMalch'hor Ganls&+L Dump&N~
+&+L  This part of the cavern is used by the &+ggoblins&+L of &+gMalch'hor Ganl&+L to dump both
+&+Lbodily waste and trash they no longer need.  The sheer amount of garbage here
+&+Lis almost unfathomable.  The piles have been pushed up against the cavern wall
+&+Lin a feeble effort to create more room for dumping.  If the &+ggoblin&+L people do
+&+Lnot do something to curb their garbage production, this cavern will soon be
+&+Labsolutely filled with this smelly trash.  There are several decomposed bodies
+&+Lshowing the whites of their bones.  This dump smells as bad as it looks.  One
+&+Lmay travel north or west seeing as how this is the corner of the dump.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23668
+D1
+~
+~
+0 0 23666
+S
+#23668
+&+LThe Piles and Piles of Trash&N~
+&+L   Piles and piles of trash are placed near the cavern wall here.  The trash
+&+Lhas accumulated for a very long time and has nearly reached the caverns ceiling
+&+Lin several places.  This is a huge cavern and if the &+ggoblins&+L weren't such dirty
+&+Land wasteful creatures they would have made this cavern into a very great hall
+&+Lor dining center.  The place reeks of rot and of waste.  Some things decompose
+&+Lquickly here with help from the various parasites help but many more are as
+&+Lthey were a decade before as no natural forces are allowed to break down the
+&+Ltrash.  One may travel north, south or east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23669
+D1
+~
+~
+0 0 23653
+D2
+~
+~
+0 0 23667
+S
+#23669
+&+LThe Western Wall of the &+gMalch'hor Ganl&+L Dump&N~
+&+L   The bodies and trash have been piled high against the western wall here.
+&+LThere is an unbelievable smell here, bad enough to cause the strongest of will
+&+Lto lose their breakfast.  Speaking of which it looks like some creature has
+&+Ldone just that here.  The carrion crawlers have broken down a fair amount of
+&+Ltrash with their acidy saliva.  The amount of filth here is unbelievable.  One
+&+Lmay travel north, south or east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23670
+D1
+~
+~
+0 0 23649
+D2
+~
+~
+0 0 23668
+S
+#23670
+&+LOn the Western Cavern Wall&N~
+&+L   The filth and trash are piled very high here.  The caverns ceiling has been
+&+Lcovered with a thick layer of slime, by what is unknown.  The smell here is
+&+Lterrible and unlike any other smell in the entire realm.  The piles are always
+&+Lshifting and seem to be alive as creatures you cannot fathom crawl beneath the
+&+Lsurface.  The stone walls of the cavern are filled with all kinds of grime that
+&+Lmake the wall look like the inside of some monsters viscious mouth.  One may
+&+Ltravel north, south or east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23671
+D1
+~
+~
+0 0 23655
+D2
+~
+~
+0 0 23669
+S
+#23671
+&+LNorthwestern Corner of the Town Dumping Cavern&N~
+&+L   The trash and bodies are piled nearly to the cavern roof.  Some sharp
+&+Lstalactites hang down and plunge into the large body of waste.  The amount of
+&+Lgarbage here is surreal as it would take a thousand years to fill such a large
+&+Lcavern.  The smell here is one of rot and decay.  One can see several half-way
+&+Ldecomposed &+ggoblin&+L corpses lying in or out of the trash.  The walls crawl
+&+Lwith many different kinds of carrion and other types of Underdark scavengers.
+&+LOne may travel to the east or south as this is as far as one can travel to the
+&+Lnorth or west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23656
+D2
+~
+~
+0 0 23670
+S
+#23672
+&+LPoorly Constructed Tunnel Leading North&N~
+&+L   This tunnel is very dangerous to walk in.  The support beams here have
+&+Lbeen knocked free and taken away.  There is a fair amount of filth wiped onto
+&+Lthe walls by the mischevious adolescent &+ggoblins&+L. The walls here were skillfully
+&+Lcut by the various mining tools that the people took from the many dwarven
+&+Lmining expeditions they slaughtered nearly three thousand years ago.  Not that
+&+Lany &+ggoblin&N &+Lwould remember that.  &+gGoblin&N &+Lhistory is usually rewritten again
+&+Levery day and retold many times by diferent people. They never wrote down their
+&+Lhistory, that is why this colony will repeat the same mistakes they made in the
+&+Lpast.  One may travel to the north or south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23673
+D2
+~
+~
+0 0 23635
+S
+#23673
+&+LSafer Section of the Main Tunnel of &+gMalch'hor Ganl&N~
+&+L   The tunnel here is better suited for safety purposes.  There are several
+&+Llarge oaken support beams here used increase the overall engineering of the
+&+Ltunnel.  The tunnel walls have been well polished and chiseled to offer rather
+&+Lsmooth walls to the inhabitants that live at the far end of these tunnels.  The
+&+Ltunnel is roughly five feet high and three feet wide.  There is a rather
+&+Ldisgusting amount of grime and filth on the walls and floor.  There are several
+&+Lsets of &+ggoblin&N &+Ltracks in the filth leading in both directions.  One can
+&+Ltravel either north or south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23674
+D2
+~
+~
+0 0 23672
+S
+#23674
+&+LMain Tunnel of &+gMalch'hor Ganl&+L In Front of a Small Shop&N~
+&+L   The tunnel widens ever so slightly here allowing a more free range from
+&+Lleft to right.  The extra four feet this tunnel offers is more than enough for
+&+Lseveral &+ggoblins&N &+Lto stand side by side.  The ceiling too has been raised
+&+Lto a height of over seven feet.  The walls here have been adorned with some
+&+Lcheap looking banners and curtains.  To the west is a very gaudy shop that is
+&+Lknown to sell many interesting things.  The tunnel continues far to the north
+&+Land south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23675
+D2
+~
+~
+0 0 23673
+D3
+~
+~
+0 0 23687
+S
+#23675
+&+LThe Main Tunnel Throgh &+gMalch'hor Ganl&N~
+&+L   The dark tunnel has considerably narrowed.  There are many small nooks and
+&+Lcrannies that have been formed by constant neglect. In many of these nooks and
+&+Lcrannies live small spiders and other underground creatures.  The tunnel walls
+&+Lhave been well crafted by the &+ggoblins&N &+Lof &+gMalch'hor Ganl&+L. The tunnel is over
+&+Lfive feet high but barely.  The width of the tunnel has considerably narrowed
+&+Lcompared to the tunnels south of here.  One may travel to the north or south.&N
+&+LThere is a small cave to the west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23676
+D2
+~
+~
+0 0 23674
+D3
+~
+~
+0 0 23712
+S
+#23676
+&+LEntering a Long, Naturally Formed Cavern&N~
+&+L   How the ancient &+ggoblins&+L found this naturally formed cavern is beyond
+&+Lmost of the wisest in all the realms comprehension.  The tunnel that lead here
+&+Lfrom the south has perfectly met the edge of the cavern.  The tunnel has met
+&+Lthe cavern at a perfect right angle and only scarred the natural cavern where
+&+Lthe entrance cut into the stone.  The cavern floor has formed into a smooth
+&+Lsurface with little to no help from the &+ggoblin&+L miners.  The caverns ceiling
+&+Lis located over twenty feet over the surface of the floor.  One can see several
+&+Lstalactites hanging down.  The cavern continues to the east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23677
+D2
+~
+~
+0 0 23675
+S
+#23677
+&+LWithin A Long Cavern&N~
+&+L   This naturally formed cavern is filled with naturally formed stalactites
+&+Land stalagmites made from solid stone.  The stalactites are much larger than
+&+Lits cousins on the floor.  They hang over a dozen feet from the ceiling and
+&+Lend in a very sharp point.  The stalagmites have very wide bases and stand at
+&+Lnearly seven feet.  The cavern is very wide at this point offering free range
+&+Lof movement to all creatures, even the largest giants.  This cavern is only
+&+Lused by &+ggoblins&+L however as this is a main avenue in the city of &+gMalch'hor
+&+gGanl&+L.  The caverns have been soiled by the careless inhabitants of the town.
+&+LOne may travel to the west or east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23678
+D3
+~
+~
+0 0 23676
+S
+#23678
+&+LInside of the Naturally Formed Tunnel&N~
+&+L   The cavern here is illuminated by several shaman created spells.  There are
+&+Lhundreds of stalactites hanging very low from the ceiling.  The stalactites
+&+Ltook thousands of years to form but the &+ggoblin&+L children don't think twice
+&+Labout breaking them off and having pretend sword fights.  Several such rocky
+&+Lspears lie strewn about the ground.  The cavern walls are uneven and offer many
+&+Lhiding places for the wild creatures of the Underdark.  The cavern allows one
+&+Lto travel to the west or east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23679
+D3
+~
+~
+0 0 23677
+S
+#23679
+&+LSide Tunnel Connecting to the Enormous Cavern&N~
+&+L   The large and naturally formed cavern continues in its enormity here.  The
+&+Lcave walls are very far apart and the ceiling has become very low.  There are
+&+Lseveral long stalactites hanging very low, in several places even touching the
+&+Lcavern floor.  There are also a few stalagmites but not very many.  There is a
+&+Lsmall small tunnel that has been chiseled out of the caverns wall to the north.
+&+LOne may travel to the north through that tunnel or to the west and east along
+&+Lthe long cavern.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23680
+D1
+~
+~
+0 0 23681
+D3
+~
+~
+0 0 23678
+S
+#23680
+&+LBeginning of a Side Tunnel&N~
+&+L   This side tunnel is quite small but then again it doesn't have to be very
+&+Llarge for the &+ggoblins&+L that live here.  The tunnel has been cut masterfully
+&+Linto the solid stone of the cavern wall.  The tunnel is roughly six feet tall
+&+Lwhich is plenty of room for even the tallest of &+ggoblin&+L warriors.  The floor
+&+Lis smooth and well finished by those who fashioned this tunnel.  There is a
+&+Lgreat amount of filth on the walls and floor, left by the careless or perhaps
+&+Luncaring &+ggoblins&+L that live down at the end of this passageway.  One may
+&+Ltravel to the north or south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23688
+D2
+~
+~
+0 0 23679
+S
+#23681
+&+LIn the Dark Natural Cavern of &+gMalch'hor Ganl&N~
+&+L   The cavern floor has been expertly crafted into a smooth walking surface by
+&+Lthe unrelenting power of nature.  This naturally formed cavern is filled with
+&+Lmany amazing rock formations.  Small caverns branch of to the north and south
+&+Lleading into places unexplored for they tunnels are to small to be used by even
+&+Lthe smallest of &+ggoblins&+L.  The darkness here is very thick but easy to
+&+Lpenetrate with the powers of infravision.  One may travel to either the east or
+&+Lthe west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23682
+D3
+~
+~
+0 0 23679
+S
+#23682
+&+LIn the Wide Caverns of &+gMalch'hor Ganl&N~
+&+L   Although this is a naturally formed cavern, there is a very large amount of
+&+Levidence of the &+ggoblin&+L presence.  There is a very disgusting amount of
+&+Lunmentionable filth and vile smellin substances on the floor.  The smell here
+&+Lis terrible but not to the the vile residents of &+gMalch'hor Ganl&+L.  The cavern
+&+Lfloor is a very uneven but still traverseable.  There are a few scattered
+&+Lstalagmites about the floor but nothing that is large enough to block the
+&+Lcavern.  One may travel to the east or west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23683
+D3
+~
+~
+0 0 23681
+S
+#23683
+&+LWithin The Large Cavern&N~
+&+L   This cavern is filled with hundreds of stalactites and stalagmites, making
+&+Lthis cavern look like the gaping maw of some enormous dragon.  The rock floor
+&+Lis smooth beneath the feet of those who travel here, yet the walls are as
+&+Luneven as the mountains of the surface.  The air here is thick with the smells
+&+Lof rot, mold and feces.  One may travel to the east or west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23684
+D3
+~
+~
+0 0 23682
+S
+#23684
+&+LIn the Spacious Cavern of &+gMalch'hor Ganl&N~
+&+L   This cavern is very spacious indeed.  The walls are so far apart that if one
+&+Lstands in the center of the cavern, neither wall could be seen.  THe ceiling is
+&+Lalso a great distance away but is still visible.  The ceiling is covered with
+&+Lrows and rows of the giant fang like rock formations known as stalactites.  A
+&+Lfair amount of filth and grime has accumulated on the floor, left there by the
+&+Lfilthy inhabitants of &+gMalch'hor Ganl&+L.  One may travel to the east or to the
+&+Lwest.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23685
+D3
+~
+~
+0 0 23683
+S
+#23685
+&+LThe Eastern Edge of the Great Cavern in &+gMalch'hor Ganl&N~
+&+L   The large cavern ends at this point amongst the many stalactites and
+&+Lstalagmites.  The cavern has tapered to the point where it is hard for even the
+&+Lshortest of &+ggoblins&+L to stand straight.  There has been a lot of garbage and
+&+Lother filth dumped in the end of the cavern.  There is a set of stairs on the
+&+Lsouthern side of the cavern leading up to who knows what.  One may travel up
+&+Lor west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23684
+D4
+~
+~
+0 0 23701
+S
+#23686
+&+LThe Sleezy Bank of &+gMalch'hor Ganl&N~
+&+L   This small room was carved by the &+ggoblins&N &+Lto be used as a place to store
+&+Ltheir valuables.  The room itself is not very spectacular as the walls are very
+&+Lrough and unfinished.  There is a small counter at the rear of the room that is
+&+Lused as the main transaction desk.  A large vault is located on the northern
+&+Lwall that contains the various deposits.  One may exit the bank by traveling to
+&+Lthe west.&N
+~
+236 301989888 14
+D3
+~
+~
+0 0 23619
+S
+#23687
+&+LThe Shop of &+gJaga'Gook~
+&+L   This shop is &+Yga&+Mud&+Cil&+biy&+L decorated with many &+Cmulti-&+mcolored&+L objects from all
+&+Labout the realm.  The goods are displayed on several wooden shelves on the
+&+Lnorth and south walls.  The western wall is adorned with several &+ccolo&+Yrful&+L and
+&+Lexpensive looking &+ytapestries&+L.  There is a large metal rod that is used to hang
+&+Lseveral very &+rcolo&+yrful&+L sets of clothing.  There are some strangely &+mcolo&+bred
+&+Lbanners that hang from the ceiling.  This place is not very filthy at all
+&+Lconsidering that a &+ggoblin&+L runs this shop.  There appears to be a very clean
+&+Larea in the town of &+gMalch'hor Ganl&+L after all.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23674
+S
+#23688
+&+LFurther Into the Twisting Tunnel&N~
+&+L   This tunnel has been hued from the solid rock by the careless hands of the
+&+ggoblin&+L workers who were assigned this task.  Needless to say the walls and
+&+Lfloor are very uneven and marked with many signs of errant swings with a pick
+&+Laxe.  There is a very bad smell in the tunnel, more likely than not from the
+&+Lincredible amount of filth and bodily waste on the floor and walls.  To the
+&+Lsouth is the large and long natural cavern.  One may travel downward to go
+&+Lfurther into this tunnel.&N
+~
+236 33554436 14
+D2
+~
+~
+0 0 23680
+D5
+~
+~
+0 0 23689
+S
+#23689
+&+LA Very Low and Wet Under-Tunnel&N~
+&+L   This area of the tunnel is low and moist feeling.  The steps leading upwards
+&+Lare covered with slimy muck.  The tunnel is very dark with the filth of the
+&+ggoblins&+L who have traveled here.  The floor is covered with a good three inches
+&+Lof an unknown liquid.  The smell here is terrible, like that of &+Yurine&+L.  Its
+&+Lrather easy at this point to figure out what the liquid is.  One may travel up
+&+Lor to the west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23690
+D4
+~
+~
+0 0 23688
+S
+#23690
+&+LIn The Lower Tunnels of &+gMalch'hor Ganl&N~
+&+L   This tunnel has been made rather sloppily.  The diggers of this tunnel
+&+Lunintentionally dug too deep and now the tunnel is so low that it fills with
+&+Lwater.  Ones nose will quickly reveal that the liquid is not water but&+Y urine&+L.
+&+LIt seems that the &+ggoblins&+L here use this area of&+g Malch'hor Ganl&+L for two uses:
+&+Lboth a way of travel and a community bathroom.  The path continues to the north
+&+Land east.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23691
+D1
+~
+~
+0 0 23689
+S
+#23691
+&+LFurther Along the Dark Under-Tunnel&N~
+&+L   The floor of this tunnel has finally gotten above the "water" level and is
+&+Lnow relatively dry.  The tunnels walls are rough and uneven.  There are many
+&+Lsmall changes in direction to this tunnel.  The small tunnel is only five feet
+&+Lhigh and three feet wide but that is ample room for any &+ggoblin&+L who wants to
+&+Ltravel down this way.  The floor of the tunnel is quite rough and has many
+&+Lsharp edges.  This tunnel is obviously used primarily for real and useful
+&+Lpurposes as opposed to a display of aesthetic beauty.  The tunnel continues to
+&+Lthe north and south.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23692
+D2
+~
+~
+0 0 23690
+S
+#23692
+&+LIn the Lower Tunnels of the &+gGoblin &+LCity of &+gMalch'hor Ganl&N~
+&+L   The tunnel is tight and without any lights.  It is very smelly down here in
+&+Lthe lower regions of &+gMalch'hor Ganl&+L.  The tunnel is tight and cramped but
+&+Loffers easy passage for all the &+ggoblins&+L who live at the end of this tunnel.
+&+LThe walls are rough and full of sharp edges.  The rock is a very dark type that
+&+Lretains the heat of the city well.  One may travel to the south or up.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23691
+D4
+~
+~
+0 0 23693
+S
+#23693
+&+LTurn in the &+gGoblin&N &+LMade Tunnel&N~
+&+L   This tunnel has been carved rather well.  It turns abruptly here to join
+&+Lwith yet another section of tunnel.  The tunnel walls are rough and have sharp
+&+Ledges.  There are small paintings that have been painted by the &+ggoblin&+L children
+&+Lwho had an artistic side.  The paintings are of warriors in battle and also
+&+Lsmall bats flying.  The smell here is overwhelming.  There is a fair amount of
+&+Lgarbage and trash lying strewn about the floor.  The tunnel continues to the
+&+Least and there is a set of stairs leading down.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23694
+D5
+~
+~
+0 0 23692
+S
+#23694
+&+LTurn in One of the Many Dark Tunnels of &+gMalch'hor Ganl&N~
+&+L   This dark tunnel reaks of the terrible smells of &+ggoblin&+L waste.  There
+&+Lare many signs of life at the end of this tunnel as there are many tracks in
+&+Lthe filth.  The tunnel walls are rough here as the rest of the walls down this
+&+Lside tunnel.  In the distance you can here the echoes of battle and cheers
+&+Lcutting through the unbearable silence.  It seems that there is a competition
+&+Lgoing on somehwere near.  One may travel to the north or west.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23695
+D3
+~
+~
+0 0 23693
+S
+#23695
+&+LIn the Narrow Tunnel Above the &+gGoblin&+L Warrior Training Rooms&N~
+&+L   This narrow section of tunnel is above the only entrance to the school of
+&+ggoblin&+L warriors.  The tunnel was only partially dug further north but the
+&+Lnatural cavern below made that very unneeded.  The tunnel walls are very rough
+&+Llooking and unfinished as the asthetics of tunnels such as these are very
+&+Lunimportant.  The floor is very rough and the stone juts out at strange angles.
+&+LOne may travel down into the school or south through the tunnels.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23694
+D5
+~
+~
+0 0 23696
+S
+#23696
+&+LCentral Room of the &+gGoblin&+L Warrior Training&N~
+&+L   This large central room is part natural cavern and partly carved from the
+&+Lstone.  The black rock has been polished to a shine by the undergraduates of
+&+Lthe school.  The glory of the &+ggoblin&+L warriors is on display here in the
+&+Lmany stone statues of the greatest warriors to come from this school.  Although
+&+Lsome warriors came to fame without the aid and lessons learned from this school
+&+Lit is a rare feat indeed.  The school has instilled many valuable lessons to
+&+Lthe students that have come through the ranks here.  To the west is the first
+&+Lroom of warrior training.  The second room is to the south, the third room is
+&+Lto the east and the final room is to the north.  One may exit the school by
+&+Lgoing up.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23697
+D1
+~
+~
+0 0 23698
+D2
+~
+~
+0 0 23700
+D3
+~
+~
+0 0 23699
+D4
+~
+~
+0 0 23695
+S
+#23697
+&+LThe Final Room of Warrior Training&N~
+&+L   This room is again in a circular shape and is used to instill the final
+&+Llesson to the &+ggoblin&+L warrior students.  This final training room is where the
+&+Lrecruits finally are allowed to practice their full skills against each other
+&+Lor even, for the better students, against the masters themselves.  There are
+&+Lseveral&+R blood&+L stains on the ground from previous battles.  The most important
+&+Llessons are learned here, lessons of controlled rage, of fearlessness, of
+&+RBloodlust&+L and of victory.  It is here where the &+ggoblin&+L warriors learn what it
+&+Lis like to be a true warrior.  One may travel into the main room of the cavern
+&+Lby walking south.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23696
+S
+#23698
+&+LThe Third Room of Warrior Training&N~
+&+L   This third room in the &+ggoblin&+L warrior school is not round like the other
+&+Lprevious rooms.  This room is roughly rectangular with the long side leading to
+&+Lthe east.  This room is used by the teachers of the school to instill the
+&+Lvarious lessons of using a shield in battle.  There are several small shields
+&+Lhanging from the walls on either side.  The importance of shields to &+ggoblin&N
+&+Lwarriors is paramount if they want to try to knock down any smaller opponents
+&+Lthey face.  The main room of the warriors school is to the west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23696
+S
+#23699
+&+LThe First Room of Warrior Training&N~
+&+L   This is the first room that all &+ggoblin&+L warriors are first orientated in.
+&+LThe room is roughly circular offering no corners to cower in.  There is no
+&+Lfurniture in this room at all.  In fact, the only object in this room is the
+&+Lsmall rothe-skin rug that covers roughly half of the floor.  The walls are not
+&+Lsmooth by any means but have been chiseled free of any overly sharp edges.
+&+LThis room is used to teach the &+ggoblin&+L warriors to fight furiously in the
+&+Lwidest open place they can, for in a corner a &+ggoblin&+L warrior could easily be
+&+Loverwhelmed by a larger opponent.  The exit of this room is to the east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23696
+S
+#23700
+&+LThe Second Room of Warrior Training&N~
+&+L   This room is very similar to the first room of warrior training in that
+&+Lit is round and without furniture.  This room, however, is well stocked with
+&+Lmany different types of weapons.  Flails, swords and maces are the primary
+&+Lweapons used by the more advanced students of the &+ggoblin&+L school but most of
+&+Lthe warriors here start out with simple clubs.  It is very important for all
+&+ggoblin&+L warriors to remember that they are not large enough to wield the
+&+Llarger weapons that are available.  One may travel out of this room be going
+&+Lnorth into the main chamber of the warrior school.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23696
+S
+#23701
+&+LBeginning of a Tight and Poorly Made Side Tunnel&N~
+&+L   This tight side tunnel has started above the main body of the long natural
+&+Lcavern of &+gMalch'hor Ganl&+L.  The tunnel is a tight squeeze indeed as the
+&+Lpassageway is a mere three feet across.  The tunnel has a large pile of some
+&+Lsick looking filth that is a combination of feces and vomit.  The air around
+&+Lyou smells very bad as you are in the higher parts of the cavern.  There is a
+&+Llong set of stone stairs that leads back down to the caverns floor.  One may
+&+Ltravel into the tight tunnel by going south.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23702
+D5
+~
+~
+0 0 23685
+S
+#23702
+&+LIn a Tight and Poorly Made Tunnel&N~
+&+L   This tunnel has been better crafted than the other side tunnels in the city
+&+Lof &+gMalch'hor Ganl&+L.  The creators of this tunnel did not use the conventional
+&+Ltools used to dig, they used magic.  The walls and ceiling are just as flat as
+&+Lthe perfectly flat floor.  The stone has a very glassy finish as if the stone
+&+Lwas melted by an intense heat.  The tunnel continues to the north.  There is a
+&+Lset of stone stairs leading downward.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23701
+D5
+~
+~
+0 0 23703
+S
+#23703
+&+LA Dark and Twisting Tunnel&N~
+&+L   The tunnel here has been absolutely perfectly hued from the stone.  It is
+&+Las if a giant cut this tunnel out of soft wax with a hot dagger.  The walls,
+&+Lfloor and ceiling are perfectly smooth and without any blemishes.  There has
+&+Lbeen some unmentionable filth smeared on the glassy surface by a careless
+&+ggoblin&+L as it passed by.  The tunnel continues to the west and there is a
+&+Lstone stairway leading upwards.&N
+~
+236 33554436 14
+D3
+~
+~
+0 0 23704
+D4
+~
+~
+0 0 23702
+S
+#23704
+&+LA Turn in the Tunnel&N~
+&+L   The tunnel continues its twisting and turning through the solid stone.
+&+LThe floor and walls have been melted by an intense heat to a glossy finish.  A
+&+Lfair amount of filth has been tracked into this tunnel by the citizens of
+&+gMalch'hor Ganl&+L.  The tunnel is wide enough for a person to walk through very
+&+Lcomfortably unless of course they are a large &+BOgre&+L.  The tunnel continues to
+&+Lthe east and south.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23703
+D2
+~
+~
+0 0 23705
+S
+#23705
+&+LEntrance to the School of &+gGana Matak&N~
+&+L   This is the entrance to the shaman school of &+gMalch'hor Ganl&+L.  There has been
+&+La stone archway carved from the stone that has been very well detailed by the
+&+Lseveral expert artisans that work for the school of &+gGana Matak&+L.  The archway
+&+Lglows with a magic unknown outside of the school.  The tunnel has very smooth
+&+Lwalls and floor.  The surfaces hae a very smooth finish as well because they
+&+Lhave been painted with a clear substance that allows the stone to retain its
+&+Lnatural power.  The school of shamans is located directly south.  The tunnel
+&+Lback to the main part of &+gMalch'hor Ganl&+L is to the north.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23704
+D2
+~
+~
+0 0 23706
+S
+#23706
+&+LThe School of Shamans, &+gGana Matak&N~
+&+L   The school of shamans has been well chiseled from the deep stone that is
+&+Lthe city of &+gMalch'hor Ganl&+L.  The large room is sparsely decorated with any
+&+Lfurniture or any thing on the walls or floor.  There is however a few floating
+&+Lballs of flame that illuminate the four exits from this room.  The exit to the
+&+Lnorth leads back to the main tunnels of the city.  To the west is the first
+&+Lroom of the school of shamans.  To the south is the second room and to the east
+&+Lis the third and final.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23705
+D1
+~
+~
+0 0 23707
+D2
+~
+~
+0 0 23708
+D3
+~
+~
+0 0 23709
+S
+#23707
+&+LThe Third and Final School Room of &+gGana Matak&N~
+&+L   This third and final room of the shamans school,&+g Gana Matak&+L, is the final
+&+Lculmination of every shaman students education.  The room is very grandly
+&+Ldecorated with some very expensive looking goblets and icons.  The room smells
+&+Lof several different types of incense combining together.  This final room is
+&+Lwhere the students learn how to use weapons along with their magic to make them
+&+Linto very powerful allies and equally as dangerous enemies.  The main room of
+&+Lthe school is located to the west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23706
+S
+#23708
+&+LThe Second Room of the School of &+gGana Matak&N~
+&+L   This small room is the second room the new shaman students practice the
+&+Lmagical shaman arts.  This room is filled with parchments and scrolls that
+&+Lcontain magical spells.  The lessons learned in this place are the importance
+&+Lof memorization.  Memorization is paramount for shamans as they cannot hope to
+&+Lcast a spell without first memorizing it.  The room is very quiet and without
+&+Lany disturbances for those who wish to memorize sells.  The exit is located to
+&+Lthe north.&N
+~
+236 33685504 14
+D0
+~
+~
+0 0 23706
+S
+#23709
+&+LThe First Room of the School of &+gGana Matak&N~
+&+L   The first room of the shaman school is used to teach the new students the
+&+Lutter importance of the use of totems.  The room is rather small but has many
+&+Lwooden shelves.  Upon these shelves are a few dozen small totems.  There have
+&+Lbeen many important lessons taught in this room.  There are some large areas of
+&+Lthe stone wall that have been melted away by searing blasts of fires.  It seems
+&+Lthat as many lessons that have been learned, an equal amount have been utterly
+&+Ldisasterous.  One may enter the main part of the school by going east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23706
+S
+#23710
+&+LA Side Tunnel In the Mining Complex of &+gMalch'hor Ganl&N~
+&+L   This side tunnel in the mine was a futile attempt by the&+g goblin&+L miners to
+&+Lfind a new found wealth.  The tunnel is very roughly cut from the stone but it
+&+Lwas only made to try to find the deeply buried metal or precious jewel deposits
+&+Lthat have been here since the dawn of time.  The miners quickly realized that
+&+Ltheir attempts in this direction were futile.  One may return to the main
+&+Lmining tunnel by going north.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23621
+S
+#23711
+&+LThe Newest Tunnel of &+gMalch'hor Ganl&N~
+&+L   This section of tunnel is the newest in all of &+gMalch'hor Ganl&+L.  The tunnel
+&+Lwas just recently started on and this section of tunnel is very rough.  This
+&+Lroom is only half the size of a normal room because only half the tunnel has
+&+Lbeen dug.  There are large piles of rock chips and dust on the floor.  There
+&+Lare a few mining tools lying on the floor or against the wall.  The exit is to
+&+Lthe south which connects to the &+ggoblin&+L mining complex.&N
+~
+236 33554432 14
+D0
+~
+~
+0 0 23716
+D2
+~
+~
+0 0 23621
+S
+#23712
+&+LA Small Cave Used By a &+gGoblin&+L Family&N~
+&+L   This small cave has been expanded in size by the &+ggoblin&+L family that lives
+&+Lhere.  The room is almost bare except for the few scraps of hide that they use
+&+Lfor blankets at night and rugs during the day.  The room is very dirty with a
+&+Lthick layer of filth covering everything in sight.  There are some clean places
+&+Lhowever...On the ceiling.  The main tunnel of &+gMalch'hor Ganl&+L is located to
+&+Lthe east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23675
+S
+#23713
+&+LThe &+gGoblin&+L Dining Facility&N~
+&+L   This rather large room has been carved out of the solid stone.  There are
+&+La great number of stone benches and tables used by those who can afford to come
+&+Land eat here.  For the majority of the &+ggoblin&+L people there is little or no
+&+Lmoney that is available for such expenditures.  The smells of cooked meat is
+&+Lvery pleasing compared to the rest of the stinky &+gMalch'hor Ganl&+L.  One may
+&+Lexit the dining area to the main tunnel by traveling east or one may enter the
+&+Lkitchen by traveling west.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23622
+D3
+~
+~
+0 0 23714
+S
+#23714
+&+LThe Main Kitchen of the Main Dining Hall of &+gMalch'hor Ganl&N~
+&+L   This kitchen has been carved out of the solid stone of the city.  The room
+&+Lis very empty of any kinds of furniture.  A large stone stove has been carved
+&+Lout of the wall.  Iron rods have been laid across the stone top of the stove
+&+Lto provide a cooking surface.  There are many pots and pans on the rods as this
+&+Lroom is being used to cook a large meal.  The smell in this place is quite
+&+Lpleasant smelling compared to the rest of &+gMalch'hor Ganl&+L.  One may exit the
+&+Lkitchen by traveling east.&N
+~
+236 33554432 14
+D1
+~
+~
+0 0 23713
+S
+#23715
+&+LA Small Home Dug From the Stone&N~
+&+L   This small room has been dug by the family the originally resided here.
+&+LThe room is small, about ten feet by ten feet, and has little in the way of
+&+Lfurniture.  There is a small stone box filled with some coal that is used for
+&+Lthe only means of cooking this family has.  Although &+ggoblins&+L do not usually
+&+Lcook their food it is helpful in other aspects of life such as boiling water
+&+Lfor cleaning, a very rare thing indeed for the citizens of &+gMalch'hor Ganl&+L. This
+&+Lfamily must have a shaman that uses the heat for whatever purposes necessary.
+&+LOne may travel back to the main tunnel by going west.&N
+~
+236 33554432 14
+D3
+~
+~
+0 0 23633
+S
+#23716
+&+LA Dead-End in the Tunnel~
+&+L   This section of tunnel is the newest in all of &+gMalch'hor Ganl&+L.  The tunnel
+&+Lwas just recently started on and this section of tunnel is very rough.  This
+&+Lroom is only half the size of a normal room because only half the tunnel has
+&+Lbeen dug.  There are large piles of rock chips and dust on the floor.  There
+&+Lare a few mining tools lying on the floor or against the wall.  The exit is to
+&+Lthe south which connects to the &+ggoblin&+L mining complex.&N
+~
+236 33554432 14
+D2
+~
+~
+0 0 23711
+D3
+~
+secret~
+5 0 23717
+S
+#23717
+&+LA Dark, Hidden Tunnel~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23718
+D1
+~
+secret~
+1 0 23716
+S
+#23718
+&+LA Dark, Hidden Tunnel~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D2
+~
+~
+0 0 23717
+D3
+~
+~
+0 0 23719
+S
+#23719
+&+LA Bend in the Dark Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23720
+D1
+~
+~
+0 0 23718
+S
+#23720
+&+LEnd of a Hidden Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+rocks~
+1 0 23721
+D2
+~
+~
+0 0 23719
+S
+#23721
+&+mA Dark Low Cavern&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23724
+D1
+~
+~
+0 0 849235
+D2
+~
+rocks~
+1 0 23720
+D3
+~
+~
+0 0 23722
+S
+#23722
+&+mA Huge Scattered Rocky Cavein&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23723
+D1
+~
+~
+0 0 23721
+S
+#23723
+&+mA Massive Rocky Cavern&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23724
+D2
+~
+~
+0 0 23722
+D3
+~
+~
+0 0 23726
+S
+#23724
+&+mA Dank Corner in a Rocky Cavern&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23725
+D2
+~
+~
+0 0 23721
+D3
+~
+~
+0 0 23723
+S
+#23725
+&+mA Small Side Cave&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D2
+~
+~
+0 0 23724
+S
+#23726
+&+mA Tunnel Turns Before an Opening&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23727
+D1
+~
+~
+0 0 23723
+D3
+~
+~
+0 0 23729
+S
+#23727
+&+mA Long Narrow Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 5 13
+D0
+~
+~
+0 0 23728
+D2
+~
+~
+0 0 23726
+S
+#23728
+&+mA Tunnel Below a Vertical Shaft&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D2
+~
+~
+0 0 23727
+D4
+~
+~
+0 0 23730
+S
+#23729
+&+LA Huge, Dark Cave&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23726
+S
+#23730
+&+mA Vertical Shaft&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D4
+~
+~
+0 0 23731
+D5
+~
+~
+0 0 23728
+S
+#23731
+&+mA Vertical Shaft&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D4
+~
+~
+0 0 23732
+D5
+~
+~
+0 0 23730
+S
+#23732
+&+mThe Top of a Vertical Shaft&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D3
+~
+~
+0 0 23733
+D5
+~
+~
+0 0 23731
+S
+#23733
+&+LA Dark, Caved-In Tunnel~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+rocks~
+1 0 23734
+D1
+~
+~
+0 0 23732
+S
+#23734
+&+LA Small Caved-In Chamber&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23735
+D2
+~
+rocks~
+1 0 23733
+S
+#23735
+&+LA Deep Chasm of Low-Hanging Stalagmites&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23736
+D1
+~
+~
+0 0 23740
+D2
+~
+~
+0 0 23737
+D3
+~
+~
+0 0 23734
+S
+#23736
+&+LA Narrow Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D2
+~
+~
+0 0 23735
+D3
+~
+~
+0 0 23738
+S
+#23737
+&+LA Narrow Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23735
+D1
+~
+~
+0 0 23739
+S
+#23738
+&+LA Small, Dark Cave&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23736
+S
+#23739
+&+LA Small, Dark Cave&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D3
+~
+~
+0 0 23737
+S
+#23740
+&+LA Rocky Chasm Basin&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23741
+D3
+~
+~
+0 0 23735
+S
+#23741
+&+LBelow a Dark Recess&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 96976
+D3
+~
+~
+0 0 23740
+D4
+~
+~
+0 0 23742
+S
+#23742
+&+LAlong a Cavern Wall&n~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 5 13
+D4
+~
+~
+0 0 23743
+D5
+~
+~
+0 0 23741
+F
+60
+S
+#23743
+&+LAlong a Cavern Wall&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D4
+~
+~
+0 0 23744
+D5
+~
+~
+0 0 23742
+F
+5
+S
+#23744
+&+LA Rocky Ledge, Atop a Recess&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23745
+D5
+~
+~
+0 0 23743
+F
+5
+S
+#23745
+&+LA Rocky, Narrow Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23747
+D2
+~
+~
+0 0 23744
+D3
+~
+~
+0 0 23746
+F
+5
+S
+#23746
+&+LA Small Cave&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23745
+F
+5
+S
+#23747
+&+LA Steep, Rocky Tunnel Climb&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D3
+~
+~
+0 0 23745
+D4
+~
+~
+0 0 23752
+F
+5
+S
+#23748
+&+LA Rocky Tunnel Before the &+BSea Seige Den&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 5 13
+D0
+~
+~
+0 0 23754
+D2
+~
+~
+0 0 23752
+D3
+~
+~
+0 0 23749
+F
+5
+S
+#23749
+&+LWithin A Cavernous Tunnel&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23748
+D3
+~
+~
+0 0 23750
+F
+5
+S
+#23750
+&+LA Cavern Floor at the Bottom of a &+yWooden &+LRamp&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D1
+~
+~
+0 0 23749
+D4
+~
+~
+0 0 23751
+F
+5
+S
+#23751
+&+LOn a &+yWooden &+LRamp&N~
+   &+LThis wooden ramp winds back and forth twice before reaching the
+&+Lcavern floor.  A tunnel opening at the very top of the cavern is
+&+Lwhere the ramp starts, ending at the base of the floor.  This wooden
+&+Lramp has been crafted so that it is sturdy enough for several people
+&+Lto travel up and down at once.
+~
+236 1 13
+D4
+~
+~
+0 0 23753
+D5
+~
+~
+0 0 23750
+F
+5
+S
+#23752
+&+LA Narrow Ledge&N~
+   &+LThis dark tunnel stretches through the underdark, winding around
+&+Lwith long dark stalagmites hanging down.  Moss of all different colors
+&+Lgrows on the illustrious glowing cavern walls of the underdark.  There
+&+Lare occasional dripping sounds in the tunnels around here.
+~
+236 1 13
+D0
+~
+~
+0 0 23748
+D5
+~
+~
+0 0 23747
+F
+5
+S
+#23753
+&+LTop of a &+yWooden &+LRamp&N~
+   &+LThis wooden ramp winds back and forth twice before reaching the
+&+Lcavern floor.  A tunnel opening at the very top of the cavern is
+&+Lwhere the ramp starts, ending at the base of the floor.  This wooden
+&+Lramp has been crafted so that it is sturdy enough for several people
+&+Lto travel up and down at once.
+~
+236 1 13
+D3
+~
+~
+0 0 23757
+D5
+~
+~
+0 0 23751
+F
+5
+S
+#23754
+&+BThe Den of the Sea Seige Pirates&N~
+   &+BThis massive cavern opens up into an encampment of the
+&+Bpirates known as the sea seigers.  There are several torch-
+&+Bposts set up in this hidden pirate enclave.  Several large
+&+Bchests are piled up in various areas, and sleeping tents
+&+Bhave been set up.  Various camp fires have also been set up
+&+Baround rocks with hides strewn across them, used as a gathering
+&+Band meeting location for this pirate syndicate.
+~
+236 1 13
+D0
+~
+~
+0 0 23755
+D2
+~
+~
+0 0 23748
+F
+5
+S
+#23755
+&+BThe Den of the Sea Seige Pirates&N~
+   &+BThis massive cavern opens up into an encampment of the
+&+Bpirates known as the sea seigers.  There are several torch-
+&+Bposts set up in this hidden pirate enclave.  Several large
+&+Bchests are piled up in various areas, and sleeping tents
+&+Bhave been set up.  Various camp fires have also been set up
+&+Baround rocks with hides strewn across them, used as a gathering
+&+Band meeting location for this pirate syndicate.
+~
+236 1 13
+D0
+~
+~
+0 0 23756
+D2
+~
+~
+0 0 23754
+F
+5
+S
+#23756
+&+BEnd of the Sea Seige Pirate Den&N~
+   &+BThis massive cavern opens up into an encampment of the
+&+Bpirates known as the sea seigers.  There are several torch-
+&+Bposts set up in this hidden pirate enclave.  Several large
+&+Bchests are piled up in various areas, and sleeping tents
+&+Bhave been set up.  Various camp fires have also been set up
+&+Baround rocks with hides strewn across them, used as a gathering
+&+Band meeting location for this pirate syndicate.
+~
+236 1 13
+D2
+~
+~
+0 0 23755
+F
+5
+S
+#23757
+&+LA Bend in a Hidden Passageway&N~
+   &+LThis secret passageway has steps leading down into the
+&+Ldarkness, as well as winding around back north to Cairme
+&+LBloodFang's tavern wine cellar.  Ever so often there is
+&+La torch sconce on that wall.  Sometimes there is even a
+&+Ltorch in one of them, but none of them are burning.
+~
+236 1 13
+D0
+~
+~
+0 0 23758
+D1
+~
+~
+0 0 23753
+F
+5
+S
+#23758
+&+LA Hidden Passageway&N~
+   &+LThis secret passageway has steps leading down into the
+&+Ldarkness, as well as winding around back north to Cairme
+&+LBloodFang's tavern wine cellar.  Ever so often there is
+&+La torch sconce on that wall.  Sometimes there is even a
+&+Ltorch in one of them, but none of them are burning.
+~
+236 1 13
+D0
+~
+~
+8 0 23759
+D2
+~
+~
+0 0 23757
+F
+5
+S
+#23759
+&+LA Hidden &+gGambling &+LChamber&N~
+&+LThis hidden gambling chamber sits here rests here below some
+&+Lhidden steps in Cairme BloodFang's wine cellar.  A simple wooden
+&+Ltable rests in the center of a chamber surrounded by wooden
+&+Lchairs.  Empty mugs lie in small puddles of lager, while other
+&+Lmugs lay smashed beneath the blast-marks on the wall.  This
+&+Lchamber is always the site of roaring excitement.
+~
+236 1 13
+D1
+~
+~
+0 0 23760
+D2
+~
+~
+8 0 23758
+F
+5
+S
+#23760
+&+LThe Bottom of a Secret Staircase&N~
+&+LThis hidden gambling chamber sits here rests here below some
+&+Lhidden steps in Cairme BloodFang's wine cellar.  A simple wooden
+&+Ltable rests in the center of a chamber surrounded by wooden
+&+Lchairs.  Empty mugs lie in small puddles of lager, while other
+&+Lmugs lay smashed beneath the blast-marks on the wall.  This
+&+Lchamber is always the site of roaring excitement.
+~
+236 1 13
+D3
+~
+~
+0 0 23759
+D4
+~
+~
+0 0 43320
+F
+5
+S

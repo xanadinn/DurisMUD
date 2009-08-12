@@ -1,0 +1,1591 @@
+#890
+&+wThe &+bVil&+rla&+bge &+wof &+bNe&+rw Ho&+bpe&n~
+89227 2 0 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 89000 2 1 100 0 0 0
+*     south exit from "A Sandy Walkway by the Gates" to
+*     "Standing Before Huge Gates" - closed
+*
+D 0 89211 0 1 100 0 0 0
+*     north exit from "Standing Before Huge Gates" to
+*     "A Sandy Walkway by the Gates" - closed
+*
+D 0 89003 2 1 100 0 0 0
+*     south exit from "Along a Sandy Walkway" to
+*     "A Messy Goblin Home" - closed
+*
+D 0 89004 0 1 100 0 0 0
+*     north exit from "A Messy Goblin Home" to
+*     "Along a Sandy Walkway" - closed
+*
+D 0 89005 2 1 100 0 0 0
+*     south exit from "An Intersection in a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89006 0 1 100 0 0 0
+*     north exit from "A Stone Hut" to
+*     "An Intersection in a Sandy Walkway" - closed
+*
+D 0 89007 2 1 100 0 0 0
+*     south exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89008 0 1 100 0 0 0
+*     north exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89009 2 1 100 0 0 0
+*     south exit from "A Sandy Walkway" to
+*     "A Drow Habitat" - closed
+*
+D 0 89010 0 1 100 0 0 0
+*     north exit from "A Drow Habitat" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89009 3 1 100 0 0 0
+*     west exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89012 1 1 100 0 0 0
+*     east exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89009 7 1 100 0 0 0
+*     southwest exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89011 8 1 100 0 0 0
+*     northeast exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89013 1 1 100 0 0 0
+*     east exit from "A Sandy Walkway Beside a Stable" to
+*     "A Decrepit Stone Hut" - closed
+*
+D 0 89014 3 1 100 0 0 0
+*     west exit from "A Decrepit Stone Hut" to
+*     "A Sandy Walkway Beside a Stable" - closed
+*
+D 0 89013 3 1 100 0 0 0
+*     west exit from "A Sandy Walkway Beside a Stable" to
+*     "Inside a Stable" - closed
+*
+D 0 89015 1 1 100 0 0 0
+*     east exit from "Inside a Stable" to
+*     "A Sandy Walkway Beside a Stable" - closed
+*
+D 0 89016 3 1 100 0 0 0
+*     west exit from "Beside Bales of Hay in a Stable" to
+*     "In a Stall" - closed
+*
+D 0 89017 1 1 100 0 0 0
+*     east exit from "In a Stall" to
+*     "Beside Bales of Hay in a Stable" - closed
+*
+D 0 89017 0 1 100 0 0 0
+*     north exit from "In a Stall" to
+*     "Inside a Stall" - closed
+*
+D 0 89018 2 1 100 0 0 0
+*     south exit from "Inside a Stall" to
+*     "In a Stall" - closed
+*
+D 0 89018 1 1 100 0 0 0
+*     east exit from "Inside a Stall" to
+*     "Beside Bales of Hay in a Stable" - closed
+*
+D 0 89019 3 1 100 0 0 0
+*     west exit from "Beside Bales of Hay in a Stable" to
+*     "Inside a Stall" - closed
+*
+D 0 89020 1 1 100 0 0 0
+*     east exit from "Inside a Stable" to
+*     "On a Sandy Walkway by a Stable" - closed
+*
+D 0 89021 3 1 100 0 0 0
+*     west exit from "On a Sandy Walkway by a Stable" to
+*     "Inside a Stable" - closed
+*
+D 0 89024 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89025 3 1 100 0 0 0
+*     west exit from "A Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89026 3 1 100 0 0 0
+*     west exit from "Beside The Lair of the Lecherous Leech" to
+*     "In The Lair of the Lecherous Leech" - closed
+*
+D 0 89027 1 1 100 0 0 0
+*     east exit from "In The Lair of the Lecherous Leech" to
+*     "Beside The Lair of the Lecherous Leech" - closed
+*
+D 0 89035 0 5 100 0 0 0
+*     north exit from "In The Lair of the Lecherous Leech" to
+*     "In a Hidden Room" - closed/secret
+*
+D 0 89036 2 5 100 0 0 0
+*     south exit from "In a Hidden Room" to
+*     "In The Lair of the Lecherous Leech" - closed/secret
+*
+D 0 89036 1 5 100 0 0 0
+*     east exit from "In a Hidden Room" to
+*     "At a Landing on a Spiral Staircase" - closed/secret
+*
+D 0 89038 3 5 100 0 0 0
+*     west exit from "At a Landing on a Spiral Staircase" to
+*     "In a Hidden Room" - closed/secret
+*
+D 0 89039 1 1 100 0 0 0
+*     east exit from "At the Foot of a Spiral Staircase" to
+*     "A Quiet Room" - closed
+*
+D 0 89040 3 1 100 0 0 0
+*     west exit from "A Quiet Room" to
+*     "At the Foot of a Spiral Staircase" - closed
+*
+D 0 89039 3 1 100 0 0 0
+*     west exit from "At the Foot of a Spiral Staircase" to
+*     "A Quiet Room" - closed
+*
+D 0 89041 1 1 100 0 0 0
+*     east exit from "A Quiet Room" to
+*     "At the Foot of a Spiral Staircase" - closed
+*
+D 0 89042 1 1 100 0 0 0
+*     east exit from "In a Hallway" to
+*     "A Quiet Room" - closed
+*
+D 0 89043 3 1 100 0 0 0
+*     west exit from "A Quiet Room" to
+*     "In a Hallway" - closed
+*
+D 0 89042 3 1 100 0 0 0
+*     west exit from "In a Hallway" to
+*     "A Quiet Room" - closed
+*
+D 0 89044 1 1 100 0 0 0
+*     east exit from "A Quiet Room" to
+*     "In a Hallway" - closed
+*
+D 0 89045 1 1 100 0 0 0
+*     east exit from "In a Hallway" to
+*     "In a Quiet Room" - closed
+*
+D 0 89046 3 1 100 0 0 0
+*     west exit from "In a Quiet Room" to
+*     "In a Hallway" - closed
+*
+D 0 89045 3 1 100 0 0 0
+*     west exit from "In a Hallway" to
+*     "In a Quiet Room" - closed
+*
+D 0 89047 1 1 100 0 0 0
+*     east exit from "In a Quiet Room" to
+*     "In a Hallway" - closed
+*
+D 0 89048 1 1 100 0 0 0
+*     east exit from "At the Top of a Staircase" to
+*     "In a Quiet Room" - closed
+*
+D 0 89049 3 1 100 0 0 0
+*     west exit from "In a Quiet Room" to
+*     "At the Top of a Staircase" - closed
+*
+D 0 89048 3 1 100 0 0 0
+*     west exit from "At the Top of a Staircase" to
+*     "In a Quiet Room" - closed
+*
+D 0 89050 1 1 100 0 0 0
+*     east exit from "In a Quiet Room" to
+*     "At the Top of a Staircase" - closed
+*
+D 0 89059 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89060 3 1 100 0 0 0
+*     west exit from "A Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89061 0 1 100 0 0 0
+*     north exit from "An Intersection on a Sandy Walkway" to
+*     "In the BloodMoon Tavern" - closed
+*
+D 0 89073 2 1 100 0 0 0
+*     south exit from "In the BloodMoon Tavern" to
+*     "An Intersection on a Sandy Walkway" - closed
+*
+D 0 89063 0 1 100 0 0 0
+*     north exit from "On a Sandy Walkway in Front of the Armorsmithy" to
+*     "Entrance to the Armorsmithy" - closed
+*
+D 0 89066 2 1 100 0 0 0
+*     south exit from "Entrance to the Armorsmithy" to
+*     "On a Sandy Walkway in Front of the Armorsmithy" - closed
+*
+D 0 89064 0 1 100 0 0 0
+*     north exit from "On a Sandy Walkway by the Guardhouse" to
+*     "In the Guardhouse" - closed
+*
+D 0 89065 2 1 100 0 0 0
+*     south exit from "In the Guardhouse" to
+*     "On a Sandy Walkway by the Guardhouse" - closed
+*
+D 0 89070 5 1 100 0 0 0
+*     down exit from "In the Armorsmithy" to
+*     "In the Armorsmith's Rooms" - closed
+*
+D 0 89071 4 1 100 0 0 0
+*     up exit from "In the Armorsmith's Rooms" to
+*     "In the Armorsmithy" - closed
+*
+D 0 89073 1 1 100 0 0 0
+*     east exit from "In the BloodMoon Tavern" to
+*     "In an Open Sandy Area" - closed
+*
+D 0 89076 3 1 100 0 0 0
+*     west exit from "In an Open Sandy Area" to
+*     "In the BloodMoon Tavern" - closed
+*
+D 0 89077 3 1 100 0 0 0
+*     west exit from "In Front of the Weaponsmithy" to
+*     "In the Weaponsmithy" - closed
+*
+D 0 89078 1 1 100 0 0 0
+*     east exit from "In the Weaponsmithy" to
+*     "In Front of the Weaponsmithy" - closed
+*
+D 0 89080 5 5 100 0 0 0
+*     down exit from "In the Weaponsmithy" to
+*     "In the Weaponsmith's Room" - closed/secret
+*
+D 0 89081 4 5 100 0 0 0
+*     up exit from "In the Weaponsmith's Room" to
+*     "In the Weaponsmithy" - closed/secret
+*
+D 0 89085 0 1 100 0 0 0
+*     north exit from "Before the Gates to the Dark Keep" to
+*     "At the Entrance to the Keep" - closed
+*
+D 0 89164 2 1 100 0 0 0
+*     south exit from "At the Entrance to the Keep" to
+*     "Before the Gates to the Dark Keep" - closed
+*
+D 0 89087 1 1 100 0 0 0
+*     east exit from "At the Doors to the Courthouse" to
+*     "Inside the Courthouse" - closed
+*
+D 0 89088 3 1 100 0 0 0
+*     west exit from "Inside the Courthouse" to
+*     "At the Doors to the Courthouse" - closed
+*
+D 0 89088 0 1 100 0 0 0
+*     north exit from "Inside the Courthouse" to
+*     "In the Guard Post" - closed
+*
+D 0 89089 2 1 100 0 0 0
+*     south exit from "In the Guard Post" to
+*     "Inside the Courthouse" - closed
+*
+D 0 89088 2 1 100 0 0 0
+*     south exit from "Inside the Courthouse" to
+*     "In the Guard Post" - closed
+*
+D 0 89105 0 1 100 0 0 0
+*     north exit from "In the Guard Post" to
+*     "Inside the Courthouse" - closed
+*
+D 0 89090 2 1 100 0 0 0
+*     south exit from "In the Guard Post" to
+*     "In the Courthouse" - closed
+*
+D 0 89091 0 1 100 0 0 0
+*     north exit from "In the Courthouse" to
+*     "In the Guard Post" - closed
+*
+D 0 89091 1 1 100 0 0 0
+*     east exit from "In the Courthouse" to
+*     "In the Courtroom" - closed
+*
+D 0 89092 3 1 100 0 0 0
+*     west exit from "In the Courtroom" to
+*     "In the Courthouse" - closed
+*
+D 0 89091 2 1 100 0 0 0
+*     south exit from "In the Courthouse" to
+*     "In the Guard Post" - closed
+*
+D 0 89104 0 1 100 0 0 0
+*     north exit from "In the Guard Post" to
+*     "In the Courthouse" - closed
+*
+D 0 89096 5 1 100 0 0 0
+*     down exit from "In Front of the Judge's Bench" to
+*     "A Dank Tunnel with Holding Cells" - closed
+*
+D 0 89097 4 1 100 0 0 0
+*     up exit from "A Dank Tunnel with Holding Cells" to
+*     "In Front of the Judge's Bench" - closed
+*
+D 0 89097 1 1 100 0 0 0
+*     east exit from "A Dank Tunnel with Holding Cells" to
+*     "In a Dank Cell" - closed
+*
+D 0 89098 3 1 100 0 0 0
+*     west exit from "In a Dank Cell" to
+*     "A Dank Tunnel with Holding Cells" - closed
+*
+D 0 89099 1 1 100 0 0 0
+*     east exit from "A Dank Tunnel with Holding Cells" to
+*     "A Dank Cell" - closed
+*
+D 0 89100 3 1 100 0 0 0
+*     west exit from "A Dank Cell" to
+*     "A Dank Tunnel with Holding Cells" - closed
+*
+D 0 89101 1 1 100 0 0 0
+*     east exit from "A Dank Tunnel with Holding Cells" to
+*     "A Dank Holding Cell" - closed
+*
+D 0 89102 3 1 100 0 0 0
+*     west exit from "A Dank Holding Cell" to
+*     "A Dank Tunnel with Holding Cells" - closed
+*
+D 0 89109 2 1 100 0 0 0
+*     south exit from "At the Corner of an Open Sandy Area" to
+*     "In Sal's Sundries" - closed
+*
+D 0 89110 0 1 100 0 0 0
+*     north exit from "In Sal's Sundries" to
+*     "At the Corner of an Open Sandy Area" - closed
+*
+D 0 89111 5 1 100 0 0 0
+*     down exit from "Inside Bottles 'n' Books" to
+*     "In a Quiet Room" - closed
+*
+D 0 89222 4 1 100 0 0 0
+*     up exit from "In a Quiet Room" to
+*     "Inside Bottles 'n' Books" - closed
+*
+D 0 89114 3 1 100 0 0 0
+*     west exit from "On a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89115 1 1 100 0 0 0
+*     east exit from "A Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89118 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "In a Wood Shop" - closed
+*
+D 0 89119 3 1 100 0 0 0
+*     west exit from "In a Wood Shop" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89120 5 1 100 0 0 0
+*     down exit from "In a Wood Shop" to
+*     "In a Quiet Room" - closed
+*
+D 0 89224 4 1 100 0 0 0
+*     up exit from "In a Quiet Room" to
+*     "In a Wood Shop" - closed
+*
+D 0 89121 1 1 100 0 0 0
+*     east exit from "An Intersection on a Sandy Walkway" to
+*     "Inside the Bloody Bowels Tavern" - closed
+*
+D 0 89122 3 1 100 0 0 0
+*     west exit from "Inside the Bloody Bowels Tavern" to
+*     "An Intersection on a Sandy Walkway" - closed
+*
+D 0 89124 1 1 100 0 0 0
+*     east exit from "Inside the Bloody Bowels Tavern" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89147 3 1 100 0 0 0
+*     west exit from "On a Sandy Walkway" to
+*     "Inside the Bloody Bowels Tavern" - closed
+*
+D 0 89125 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "The Alchemist's Place" - closed
+*
+D 0 89132 3 1 100 0 0 0
+*     west exit from "The Alchemist's Place" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89125 3 1 100 0 0 0
+*     west exit from "On a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89126 1 1 100 0 0 0
+*     east exit from "A Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89127 1 1 100 0 0 0
+*     east exit from "A Sandy Walkway" to
+*     "Inside The Cow's Hide" - closed
+*
+D 0 89131 3 1 100 0 0 0
+*     west exit from "Inside The Cow's Hide" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89129 0 1 100 0 0 0
+*     north exit from "A Sandy Walkway" to
+*     "In a Quiet Room" - closed
+*
+D 0 89145 2 1 100 0 0 0
+*     south exit from "In a Quiet Room" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89129 3 1 100 0 0 0
+*     west exit from "A Sandy Walkway" to
+*     "In the Clothier's Shop" - closed
+*
+D 0 89130 1 1 100 0 0 0
+*     east exit from "In the Clothier's Shop" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89133 2 1 100 0 0 0
+*     south exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89134 0 1 100 0 0 0
+*     north exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89135 1 1 100 0 0 0
+*     east exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89137 3 1 100 0 0 0
+*     west exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89135 2 1 100 0 0 0
+*     south exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89136 0 1 100 0 0 0
+*     north exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89135 9 1 100 0 0 0
+*     southeast exit from "A Sandy Walkway" to
+*     "In a Stone Hut" - closed
+*
+D 0 89138 6 1 100 0 0 0
+*     northwest exit from "In a Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89139 1 1 100 0 0 0
+*     east exit from "A Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89140 3 1 100 0 0 0
+*     west exit from "A Stone Hut" to
+*     "A Sandy Walkway" - closed
+*
+D 0 89141 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "A Stone Hut" - closed
+*
+D 0 89142 3 1 100 0 0 0
+*     west exit from "A Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89141 3 1 100 0 0 0
+*     west exit from "On a Sandy Walkway" to
+*     "In a Quiet Room" - closed
+*
+D 0 89143 1 1 100 0 0 0
+*     east exit from "In a Quiet Room" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89147 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "In a Guard Post" - closed
+*
+D 0 89148 3 1 100 0 0 0
+*     west exit from "In a Guard Post" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89148 0 1 100 0 0 0
+*     north exit from "In a Guard Post" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89149 2 1 100 0 0 0
+*     south exit from "On a Sandy Walkway" to
+*     "In a Guard Post" - closed
+*
+D 0 89150 0 1 100 0 0 0
+*     north exit from "On a Sandy Walkway" to
+*     "In the Jeweler's Space" - closed
+*
+D 0 89151 2 1 100 0 0 0
+*     south exit from "In the Jeweler's Space" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89153 5 1 100 0 0 0
+*     down exit from "In a Carving Room" to
+*     "In the Apprentice Quarters" - closed
+*
+D 0 89154 4 1 100 0 0 0
+*     up exit from "In the Apprentice Quarters" to
+*     "In a Carving Room" - closed
+*
+D 0 89156 3 1 100 0 0 0
+*     west exit from "In a Carving Room" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89159 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "In a Carving Room" - closed
+*
+D 0 89161 1 1 100 0 0 0
+*     east exit from "On a Sandy Walkway" to
+*     "In a Stone Hut" - closed
+*
+D 0 89162 3 1 100 0 0 0
+*     west exit from "In a Stone Hut" to
+*     "On a Sandy Walkway" - closed
+*
+D 0 89165 3 1 100 0 0 0
+*     west exit from "In a Guardroom" to
+*     "In the Barracks" - closed
+*
+D 0 89166 1 1 100 0 0 0
+*     east exit from "In the Barracks" to
+*     "In a Guardroom" - closed
+*
+D 0 89166 0 1 100 0 0 0
+*     north exit from "In the Barracks" to
+*     "In a Long Hallway" - closed
+*
+D 0 89176 2 1 100 0 0 0
+*     south exit from "In a Long Hallway" to
+*     "In the Barracks" - closed
+*
+D 0 89167 1 1 100 0 0 0
+*     east exit from "In a Guardroom" to
+*     "In the Barracks" - closed
+*
+D 0 89168 3 1 100 0 0 0
+*     west exit from "In the Barracks" to
+*     "In a Guardroom" - closed
+*
+D 0 89168 0 1 100 0 0 0
+*     north exit from "In the Barracks" to
+*     "In a Long Hallway" - closed
+*
+D 0 89191 2 1 100 0 0 0
+*     south exit from "In a Long Hallway" to
+*     "In the Barracks" - closed
+*
+D 0 89171 0 1 100 0 0 0
+*     north exit from "In the Kitchen" to
+*     "Outside the Kitchen Door" - closed
+*
+D 0 89208 2 1 100 0 0 0
+*     south exit from "Outside the Kitchen Door" to
+*     "In the Kitchen" - closed
+*
+D 0 89171 1 5 100 0 0 0
+*     east exit from "In the Kitchen" to
+*     "In a Conference Room" - closed/secret
+*
+D 0 89205 3 5 100 0 0 0
+*     west exit from "In a Conference Room" to
+*     "In the Kitchen" - closed/secret
+*
+D 0 89171 3 5 100 0 0 0
+*     west exit from "In the Kitchen" to
+*     "In an Elegant Dining Chamber" - closed/secret
+*
+D 0 89173 1 5 100 0 0 0
+*     east exit from "In an Elegant Dining Chamber" to
+*     "In the Kitchen" - closed/secret
+*
+D 0 89174 3 5 100 0 0 0
+*     west exit from "In an Elegant Dining Chamber" to
+*     "In a Lavish Bedroom" - closed/secret
+*
+D 0 89181 1 5 100 0 0 0
+*     east exit from "In a Lavish Bedroom" to
+*     "In an Elegant Dining Chamber" - closed/secret
+*
+D 0 89178 0 1 100 0 0 0
+*     north exit from "In a Long Hallway" to
+*     "In a Lavish Bedroom" - closed
+*
+D 0 89180 2 1 100 0 0 0
+*     south exit from "In a Lavish Bedroom" to
+*     "In a Long Hallway" - closed
+*
+D 0 89178 2 1 100 0 0 0
+*     south exit from "In a Long Hallway" to
+*     "The Janitor's Room" - closed
+*
+D 0 89179 0 1 100 0 0 0
+*     north exit from "The Janitor's Room" to
+*     "In a Long Hallway" - closed
+*
+D 0 89181 3 5 100 0 0 0
+*     west exit from "In a Lavish Bedroom" to
+*     "In the Master's Bedroom" - closed/secret
+*
+D 0 89189 1 5 100 0 0 0
+*     east exit from "In the Master's Bedroom" to
+*     "In a Lavish Bedroom" - closed/secret
+*
+D 0 89182 0 1 100 0 0 0
+*     north exit from "At the End of the Hallway" to
+*     "In the Master's Bedroom" - closed
+*
+D 0 89186 2 1 100 0 0 0
+*     south exit from "In the Master's Bedroom" to
+*     "At the End of the Hallway" - closed
+*
+D 0 89182 2 1 100 0 0 0
+*     south exit from "At the End of the Hallway" to
+*     "A Snack Room" - closed
+*
+D 0 89183 0 1 100 0 0 0
+*     north exit from "A Snack Room" to
+*     "At the End of the Hallway" - closed
+*
+D 0 89182 3 1 100 0 0 0
+*     west exit from "At the End of the Hallway" to
+*     "In a Lavish Bedroom" - closed
+*
+D 0 89184 1 1 100 0 0 0
+*     east exit from "In a Lavish Bedroom" to
+*     "At the End of the Hallway" - closed
+*
+D 0 89188 5 6 100 0 0 0
+*     down exit from "In the Master's Bedroom" to
+*     "Near the Entrance to the Vault" - closed/locked/secret
+*
+D 0 89218 4 5 100 0 0 0
+*     up exit from "Near the Entrance to the Vault" to
+*     "In the Master's Bedroom" - closed/secret
+*
+D 0 89192 2 1 100 0 0 0
+*     south exit from "In a Long Hallway" to
+*     "A Visitor's Chamber" - closed
+*
+D 0 89193 0 1 100 0 0 0
+*     north exit from "A Visitor's Chamber" to
+*     "In a Long Hallway" - closed
+*
+D 0 89194 0 1 100 0 0 0
+*     north exit from "In a Long Hallway" to
+*     "In the Master's Court" - closed
+*
+D 0 89198 2 1 100 0 0 0
+*     south exit from "In the Master's Court" to
+*     "In a Long Hallway" - closed
+*
+D 0 89194 2 1 100 0 0 0
+*     south exit from "In a Long Hallway" to
+*     "A Visitor's Chamber" - closed
+*
+D 0 89195 0 1 100 0 0 0
+*     north exit from "A Visitor's Chamber" to
+*     "In a Long Hallway" - closed
+*
+D 0 89196 0 1 100 0 0 0
+*     north exit from "The End of the Hallway" to
+*     "In a Visitor's Chamber" - closed
+*
+D 0 89199 2 1 100 0 0 0
+*     south exit from "In a Visitor's Chamber" to
+*     "The End of the Hallway" - closed
+*
+D 0 89196 2 1 100 0 0 0
+*     south exit from "The End of the Hallway" to
+*     "In a Visitor's Room" - closed
+*
+D 0 89197 0 1 100 0 0 0
+*     north exit from "In a Visitor's Room" to
+*     "The End of the Hallway" - closed
+*
+D 0 89202 3 5 100 0 0 0
+*     west exit from "In the Master's Court" to
+*     "In a Conference Room" - closed/secret
+*
+D 0 89204 1 5 100 0 0 0
+*     east exit from "In a Conference Room" to
+*     "In the Master's Court" - closed/secret
+*
+D 0 89220 0 2 100 0 0 0
+*     north exit from "The Lair of the Tentacler, Protector of the Vault" to
+*     "Inside the Vault" - closed/locked
+*
+D 0 89227 2 2 100 0 0 0
+*     south exit from "Inside the Vault" to
+*     "The Lair of the Tentacler, Protector of the Vault" - closed/locked
+*
+D 0 89223 5 1 100 0 0 0
+*     down exit from "In a Place of Ever Shifting Patterns" to
+*     "In the Lair of the Necromancer" - closed
+*
+D 0 89226 4 1 100 0 0 0
+*     up exit from "In the Lair of the Necromancer" to
+*     "In a Place of Ever Shifting Patterns" - closed
+*
+*
+O 0 89000 1 89004 100 0 0 0        * a battered couch
+O 0 89001 1 89006 100 0 0 0        * a small wooden table
+O 0 89002 1 89008 100 0 0 0        * a huge bed
+P 1 89003 1 89002 100 0 0 0        *   a crumpled negligee
+O 0 89004 1 89010 100 0 0 0        * a sturdy workbench
+O 0 89005 1 89012 100 0 0 0        * a table with short legs
+O 0 89006 2 89012 100 0 0 0        * a small, battered pillow
+O 0 89006 2 89012 100 0 0 0        * a small, battered pillow
+O 0 89017 7 89028 100 0 0 0        * a wooden table with benches
+O 0 89017 7 89029 100 0 0 0        * a wooden table with benches
+O 0 89017 7 89030 100 0 0 0        * a wooden table with benches
+O 0 89013 3 89031 100 0 0 0        * a scarred table
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+O 0 89017 7 89032 100 0 0 0        * a wooden table with benches
+O 0 89017 7 89033 100 0 0 0        * a wooden table with benches
+O 0 89017 7 89034 100 0 0 0        * a wooden table with benches
+O 0 89017 7 89035 100 0 0 0        * a wooden table with benches
+P 1 89016 8 89017 100 0 0 0        *   thickly sliced bread
+O 0 89023 4 89052 100 0 0 0        * a bottle of elven wine
+O 0 89023 4 89053 100 0 0 0        * a bottle of elven wine
+O 0 89023 4 89055 100 0 0 0        * a bottle of elven wine
+O 0 89023 4 89056 100 0 0 0        * a bottle of elven wine
+O 0 89008 2 89073 100 0 0 0        * stone tables with benches
+O 0 89008 2 89074 100 0 0 0        * stone tables with benches
+O 0 89117 2 89098 100 0 0 0        * a piece of mithral
+O 0 89075 2 89106 100 0 0 0        * a bloodstained stock
+O 0 89075 2 89107 100 0 0 0        * a bloodstained stock
+O 0 89117 2 89162 100 0 0 0        * a piece of mithral
+O 0 89013 3 89170 100 0 0 0        * a scarred table
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89014 7 89013 100 0 0 0        *   a bunch of grapes
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89015 6 89013 100 0 0 0        *   a chunk of rotting meat
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+P 1 89016 8 89013 100 0 0 0        *   thickly sliced bread
+O 0 89013 3 89170 100 0 0 0        * a scarred table
+P 1 89128 3 89013 100 0 0 0        *   a slice of chocolate cake
+P 1 89128 3 89013 100 0 0 0        *   a slice of chocolate cake
+P 1 89128 3 89013 100 0 0 0        *   a slice of chocolate cake
+P 1 89126 3 89013 100 0 0 0        *   a meat pie
+P 1 89126 3 89013 100 0 0 0        *   a meat pie
+P 1 89126 3 89013 100 0 0 0        *   a meat pie
+P 1 89127 4 89013 100 0 0 0        *   an apple pie
+P 1 89127 4 89013 100 0 0 0        *   an apple pie
+P 1 89127 4 89013 100 0 0 0        *   an apple pie
+P 1 89127 4 89013 100 0 0 0        *   an apple pie
+O 0 89139 1 89202 100 0 0 0        * an imposing throne
+O 0 89150 1 89227 100 0 0 0        * a set of rusty platemail
+O 0 89151 1 89227 100 0 0 0        * a cracked longsword
+O 0 89152 2 89227 100 0 0 0        * a cracked dagger
+O 0 89152 2 89227 100 0 0 0        * a cracked dagger
+*
+M 0 89026 4 89000 100 0 0 0        * a human child
+M 0 89027 3 89000 100 0 0 0        * a human female
+M 0 89028 3 89000 100 0 0 0        * a human male
+M 0 89019 3 89001 100 0 0 0        * a male orc
+M 0 89020 4 89002 100 0 0 0        * a drow child
+M 0 89049 4 89002 100 0 0 0        * a dwarven child
+M 0 89197 4 89002 100 0 0 0        * an aggravating do-gooder
+M 0 89027 3 89003 100 0 0 0        * a human female
+M 0 89037 4 89003 100 0 0 0        * a barbarian child
+M 0 89009 3 89004 100 0 0 0        * a female goblin
+M 0 89010 3 89004 100 0 0 0        * a male goblin
+M 0 89008 3 89004 100 0 0 0        * a goblin child
+M 0 89040 4 89005 100 0 0 0        * an ogre child
+M 0 89041 3 89005 100 0 0 0        * a female ogre
+M 0 89042 3 89005 100 0 0 0        * a male ogre
+M 0 89011 4 89006 100 0 0 0        * a gnomish child
+M 0 89012 3 89006 100 0 0 0        * a female gnome
+M 0 89013 3 89006 100 0 0 0        * a male gnome
+M 0 89013 3 89007 100 0 0 0        * a male gnome
+M 0 89050 3 89007 100 0 0 0        * a female dwarf
+M 0 89051 3 89007 100 0 0 0        * a male dwarf
+M 0 89014 4 89008 100 0 0 0        * a halfling child
+M 0 89015 3 89008 100 0 0 0        * a female halfling
+M 0 89016 2 89008 100 0 0 0        * a male halfling
+M 0 89014 4 89009 100 0 0 0        * a halfling child
+M 0 89049 4 89009 100 0 0 0        * a dwarven child
+M 0 89053 4 89009 100 0 0 0        * a storm giant child
+M 0 89020 4 89010 100 0 0 0        * a drow child
+M 0 89021 3 89010 100 0 0 0        * a female drow
+M 0 89022 3 89010 100 0 0 0        * a male drow
+M 0 89053 4 89011 100 0 0 0        * a storm giant child
+M 0 89054 3 89011 100 0 0 0        * a female storm giant
+M 0 89055 3 89011 100 0 0 0        * a male storm giant
+M 0 89017 4 89012 100 0 0 0        * an orcish child
+M 0 89018 3 89012 100 0 0 0        * a female orc
+M 0 89019 3 89012 100 0 0 0        * a male orc
+M 0 89009 3 89013 100 0 0 0        * a female goblin
+M 0 89023 4 89014 100 0 0 0        * a grey elf child
+M 0 89024 3 89014 100 0 0 0        * a grey elf female
+M 0 89025 3 89014 100 0 0 0        * a grey elf male
+M 0 89056 10 89015 100 0 0 0       * a trundling bug
+M 0 89056 10 89015 100 0 0 0       * a trundling bug
+M 0 89057 10 89015 100 0 0 0       * a ratling
+M 0 89057 10 89015 100 0 0 0       * a ratling
+M 0 89058 6 89015 100 0 0 0        * a ratkin
+G 1 89007 6 0 100 0 0 0            *    a smooth stone
+M 0 89058 6 89015 100 0 0 0        * a ratkin
+G 1 89007 6 0 100 0 0 0            *    a smooth stone
+M 0 89059 7 89015 100 0 0 0        * a spider
+M 0 89056 10 89016 100 0 0 0       * a trundling bug
+M 0 89056 10 89016 100 0 0 0       * a trundling bug
+M 0 89057 10 89016 100 0 0 0       * a ratling
+M 0 89057 10 89016 100 0 0 0       * a ratling
+M 0 89059 7 89016 100 0 0 0        * a spider
+M 0 89059 7 89016 100 0 0 0        * a spider
+M 0 89058 6 89016 100 0 0 0        * a ratkin
+G 1 89007 6 0 100 0 0 0            *    a smooth stone
+M 0 89052 6 89017 100 0 0 0        * a bovine critter
+M 0 89052 6 89017 100 0 0 0        * a bovine critter
+M 0 89052 6 89017 100 0 0 0        * a bovine critter
+M 0 89056 10 89017 100 0 0 0       * a trundling bug
+M 0 89057 10 89017 100 0 0 0       * a ratling
+M 0 89052 6 89018 100 0 0 0        * a bovine critter
+M 0 89052 6 89018 100 0 0 0        * a bovine critter
+M 0 89052 6 89018 100 0 0 0        * a bovine critter
+M 0 89059 7 89018 100 0 0 0        * a spider
+M 0 89057 10 89018 100 0 0 0       * a ratling
+M 0 89056 10 89018 100 0 0 0       * a trundling bug
+M 0 89056 10 89019 100 0 0 0       * a trundling bug
+M 0 89056 10 89019 100 0 0 0       * a trundling bug
+M 0 89057 10 89019 100 0 0 0       * a ratling
+M 0 89057 10 89019 100 0 0 0       * a ratling
+M 0 89058 6 89019 100 0 0 0        * a ratkin
+G 1 89007 6 0 100 0 0 0            *    a smooth stone
+M 0 89058 6 89019 100 0 0 0        * a ratkin
+G 1 89007 6 0 100 0 0 0            *    a smooth stone
+M 0 89059 7 89019 100 0 0 0        * a spider
+M 0 89056 10 89020 100 0 0 0       * a trundling bug
+M 0 89056 10 89020 100 0 0 0       * a trundling bug
+M 0 89057 10 89020 100 0 0 0       * a ratling
+M 0 89057 10 89020 100 0 0 0       * a ratling
+M 0 89059 7 89020 100 0 0 0        * a spider
+M 0 89059 7 89020 100 0 0 0        * a spider
+M 0 89058 6 89020 100 0 0 0        * a ratkin
+E 1 89007 6 16 100 0 0 0           *   a smooth stone
+M 0 89008 3 89021 100 0 0 0        * a goblin child
+M 0 89040 4 89021 100 0 0 0        * an ogre child
+M 0 89196 4 89021 100 0 0 0        * an annoying do-gooder
+M 0 89010 3 89022 100 0 0 0        * a male goblin
+M 0 89054 3 89023 100 0 0 0        * a female storm giant
+M 0 89055 3 89023 100 0 0 0        * a male storm giant
+M 0 89014 4 89024 100 0 0 0        * a halfling child
+M 0 89028 3 89024 100 0 0 0        * a human male
+M 0 89026 4 89024 100 0 0 0        * a human child
+M 0 89026 4 89025 100 0 0 0        * a human child
+M 0 89027 3 89025 100 0 0 0        * a human female
+M 0 89028 3 89025 100 0 0 0        * a human male
+M 0 89029 4 89026 100 0 0 0        * a thri-kreen child
+M 0 89030 3 89026 100 0 0 0        * a thri-kreen adult
+M 0 89074 4 89028 100 0 0 0        * a chuckling halfling
+M 0 89078 4 89028 100 0 0 0        * a leaning thri-kreen
+M 0 89078 4 89028 100 0 0 0        * a leaning thri-kreen
+M 0 89078 4 89028 100 0 0 0        * a leaning thri-kreen
+M 0 89070 4 89029 100 0 0 0        * a whistling duergar
+E 1 89020 3 16 100 0 0 0           *   a sharpened stone shard
+M 0 89072 4 89029 100 0 0 0        * a giggling centaur
+M 0 89076 2 89029 100 0 0 0        * a somber dwarf
+M 0 89076 2 89029 100 0 0 0        * a somber dwarf
+G 1 89018 2 0 100 0 0 0            *    a heavy pewter tankard
+M 0 89077 2 89029 100 0 0 0        * an inattentive gnome
+M 0 89074 4 89030 100 0 0 0        * a chuckling halfling
+M 0 89060 9 89030 100 0 0 0        * a tipsy ant
+M 0 89075 2 89030 100 0 0 0        * a grinning goblin
+M 0 89066 3 89031 100 0 0 0        * an impassive cook
+M 0 89066 3 89031 100 0 0 0        * an impassive cook
+M 0 89066 3 89031 100 0 0 0        * an impassive cook
+M 0 89140 1 89031 100 0 0 0        * Butterfoot
+E 1 89173 1 6 100 0 0 0            *   an acorn cap
+M 0 89067 3 89032 100 0 0 0        * a scowling ogre
+G 1 89018 2 0 100 0 0 0            *    a heavy pewter tankard
+M 0 89067 3 89032 100 0 0 0        * a scowling ogre
+M 0 89068 3 89032 100 0 0 0        * a laughing ogress
+M 0 89068 3 89032 100 0 0 0        * a laughing ogress
+M 0 89069 2 89032 100 0 0 0        * a drunk troll
+M 0 89069 2 89032 100 0 0 0        * a drunk troll
+M 0 89070 4 89032 100 0 0 0        * a whistling duergar
+E 1 89020 3 16 100 0 0 0           *   a sharpened stone shard
+M 0 89072 4 89033 100 0 0 0        * a giggling centaur
+M 0 89075 2 89033 100 0 0 0        * a grinning goblin
+M 0 89079 3 89033 100 0 0 0        * a squinting orc
+M 0 89079 3 89033 100 0 0 0        * a squinting orc
+M 0 89080 1 89033 100 0 0 0        * a listening gargoyle
+M 0 89085 1 89033 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89070 4 89034 100 0 0 0        * a whistling duergar
+E 1 89020 3 16 100 0 0 0           *   a sharpened stone shard
+M 0 89060 9 89034 100 0 0 0        * a tipsy ant
+M 0 89071 3 89034 100 0 0 0        * a brutish hill giant
+M 0 89081 3 89034 100 0 0 0        * a bellowing minotaur
+M 0 89081 3 89034 100 0 0 0        * a bellowing minotaur
+M 0 89071 3 89035 100 0 0 0        * a brutish hill giant
+M 0 89072 4 89035 100 0 0 0        * a giggling centaur
+M 0 89073 2 89035 100 0 0 0        * a laughing elf
+M 0 89074 4 89035 100 0 0 0        * a chuckling halfling
+M 0 89060 9 89035 100 0 0 0        * a tipsy ant
+M 0 89083 1 89036 100 0 0 0        * a silent man
+E 1 89021 1 16 100 0 0 0           *   a petrified bone shard
+M 0 89082 1 89037 100 0 0 0        * a frowning troll
+M 0 89084 6 89038 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89084 6 89038 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89084 6 89039 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89084 6 89039 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89137 1 89040 100 0 0 0        * Fered
+E 1 89165 1 21 100 0 0 0           *   a carved turquoise stud
+M 0 89135 1 89041 100 0 0 0        * Bernice
+E 1 89166 1 6 100 0 0 0            *   a calcified pachycephalosaurus skull
+M 0 89136 1 89044 100 0 0 0        * Blossum
+E 1 89163 1 16 100 0 0 0           *   an ankylosaur tail club
+M 0 89132 1 89049 100 0 0 0        * Nishagron
+E 1 89158 1 6 100 0 0 0            *   a transparent helm
+M 0 89086 9 89051 100 0 0 0        * a skeletal rat
+M 0 89086 9 89051 100 0 0 0        * a skeletal rat
+M 0 89086 9 89052 100 0 0 0        * a skeletal rat
+M 0 89087 5 89052 100 0 0 0        * a shambling zombie
+M 0 89086 9 89053 100 0 0 0        * a skeletal rat
+M 0 89086 9 89053 100 0 0 0        * a skeletal rat
+M 0 89087 5 89053 100 0 0 0        * a shambling zombie
+M 0 89087 5 89053 100 0 0 0        * a shambling zombie
+M 0 89086 9 89054 100 0 0 0        * a skeletal rat
+M 0 89088 1 89054 100 0 0 0        * a sneering vampire
+M 0 89086 9 89055 100 0 0 0        * a skeletal rat
+M 0 89086 9 89055 100 0 0 0        * a skeletal rat
+M 0 89086 9 89056 100 0 0 0        * a skeletal rat
+M 0 89087 5 89056 100 0 0 0        * a shambling zombie
+M 0 89087 5 89056 100 0 0 0        * a shambling zombie
+M 0 89084 6 89057 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89084 6 89057 100 0 0 0        * a maljer
+E 1 89022 7 16 100 0 0 0           *   a sharpened wood splinter
+M 0 89089 3 89057 100 0 0 0        * an inquisitive ogre
+M 0 89090 3 89057 100 0 0 0        * a nose-picking troll
+M 0 89041 3 89059 100 0 0 0        * a female ogre
+M 0 89049 4 89060 100 0 0 0        * a dwarven child
+M 0 89050 3 89060 100 0 0 0        * a female dwarf
+M 0 89051 3 89060 100 0 0 0        * a male dwarf
+M 0 89033 3 89061 100 0 0 0        * a male minotaur
+M 0 89042 3 89061 100 0 0 0        * a male ogre
+M 0 89197 4 89061 100 0 0 0        * an aggravating do-gooder
+M 0 89010 3 89062 100 0 0 0        * a male goblin
+M 0 89034 4 89062 100 0 0 0        * a troll child
+M 0 89011 4 89063 100 0 0 0        * a gnomish child
+M 0 89035 3 89064 100 0 0 0        * a female troll
+M 0 89036 3 89064 100 0 0 0        * a male troll
+M 0 89064 6 89065 100 0 0 0        * a troll guard
+E 1 89011 2 5 100 0 0 0            *   a bloodstained leather tabard
+M 0 89064 6 89065 100 0 0 0        * a troll guard
+E 1 89010 2 11 100 0 0 0           *   a redwood shield
+M 0 89064 6 89065 100 0 0 0        * a troll guard
+E 1 89009 2 16 100 0 0 0           *   a wooden club
+M 0 89091 1 89068 100 0 0 0        * a patient apprentice
+G 1 89027 1 0 100 0 0 0            *    a set of chain sleeves
+G 1 89028 1 0 100 0 0 0            *    a set of chain leggings
+G 1 89029 1 0 100 0 0 0            *    a chain vest
+G 1 89024 1 0 100 0 0 0            *    a set of bone sleeves
+G 1 89025 1 0 100 0 0 0            *    a set of bone leggings
+G 1 89026 1 0 100 0 0 0            *    a bone vest
+G 1 89046 1 0 100 0 0 0            *    a bone bracer
+G 1 89048 1 0 100 0 0 0            *    a bone helm
+G 1 89049 1 0 100 0 0 0            *    a chain bracer
+G 1 89050 1 0 100 0 0 0            *    a chain coif
+G 1 89051 1 0 100 0 0 0            *    a set of chain boots
+G 1 89047 1 0 100 0 0 0            *    a set of bone boots
+M 0 89065 1 89069 100 0 0 0        * a stone giant
+E 1 89164 1 20 100 0 0 0           *   an etched mithral faceguard
+E 1 89012 1 16 100 0 0 0           *   a massive hammer
+M 0 89092 11 89071 100 0 0 0       * a young apprentice
+M 0 89092 11 89071 100 0 0 0       * a young apprentice
+M 0 89092 11 89071 100 0 0 0       * a young apprentice
+M 0 89093 9 89071 100 0 0 0        * an older apprentice
+M 0 89093 9 89071 100 0 0 0        * an older apprentice
+M 0 89093 9 89071 100 0 0 0        * an older apprentice
+M 0 89093 9 89071 100 0 0 0        * an older apprentice
+M 0 89094 1 89072 100 0 0 0        * a smiling giantess
+M 0 89095 3 89072 100 0 0 0        * an active child
+M 0 89095 3 89072 100 0 0 0        * an active child
+M 0 89095 3 89072 100 0 0 0        * an active child
+M 0 89060 9 89073 100 0 0 0        * a tipsy ant
+M 0 89060 9 89073 100 0 0 0        * a tipsy ant
+M 0 89060 9 89073 100 0 0 0        * a tipsy ant
+M 0 89061 4 89073 100 0 0 0        * a grinning human
+M 0 89061 4 89073 100 0 0 0        * a grinning human
+M 0 89062 6 89073 100 0 0 0        * a smirking goblin
+M 0 89062 6 89073 100 0 0 0        * a smirking goblin
+M 0 89062 6 89073 100 0 0 0        * a smirking goblin
+M 0 89063 4 89073 100 0 0 0        * a smiling woman
+M 0 89063 4 89073 100 0 0 0        * a smiling woman
+M 0 89060 9 89074 100 0 0 0        * a tipsy ant
+M 0 89060 9 89074 100 0 0 0        * a tipsy ant
+M 0 89060 9 89074 100 0 0 0        * a tipsy ant
+M 0 89061 4 89074 100 0 0 0        * a grinning human
+M 0 89061 4 89074 100 0 0 0        * a grinning human
+M 0 89062 6 89074 100 0 0 0        * a smirking goblin
+M 0 89062 6 89074 100 0 0 0        * a smirking goblin
+M 0 89062 6 89074 100 0 0 0        * a smirking goblin
+M 0 89063 4 89074 100 0 0 0        * a smiling woman
+M 0 89063 4 89074 100 0 0 0        * a smiling woman
+M 0 89014 4 89075 100 0 0 0        * a halfling child
+M 0 89015 3 89075 100 0 0 0        * a female halfling
+M 0 89126 4 89075 100 0 0 0        * a githyanki child
+M 0 89114 11 89075 100 0 0 0       * a withered bird
+M 0 89032 3 89076 100 0 0 0        * a female minotaur
+M 0 89031 4 89076 100 0 0 0        * a minotaur child
+M 0 89009 3 89077 100 0 0 0        * a female goblin
+M 0 89015 3 89077 100 0 0 0        * a female halfling
+M 0 89114 11 89077 100 0 0 0       * a withered bird
+M 0 89196 4 89077 100 0 0 0        * an annoying do-gooder
+M 0 89096 1 89079 100 0 0 0        * a questioning apprentice
+G 1 89030 1 0 100 0 0 0            *    a black-handled longsword
+G 1 89031 1 0 100 0 0 0            *    a black-handled dagger
+G 1 89032 1 0 100 0 0 0            *    a black-handled short sword
+G 1 89033 1 0 100 0 0 0            *    a black-handled two-handed sword
+G 1 89034 1 0 100 0 0 0            *    a black-handled hammer
+G 1 89035 1 0 100 0 0 0            *    a black-handled two-handed hammer
+M 0 89092 11 89081 100 0 0 0       * a young apprentice
+M 0 89092 11 89081 100 0 0 0       * a young apprentice
+M 0 89092 11 89081 100 0 0 0       * a young apprentice
+M 0 89093 9 89081 100 0 0 0        * an older apprentice
+M 0 89093 9 89081 100 0 0 0        * an older apprentice
+M 0 89100 1 89082 100 0 0 0        * a sturdy half-elf
+M 0 89101 3 89082 100 0 0 0        * a giggling child
+M 0 89101 3 89082 100 0 0 0        * a giggling child
+M 0 89101 3 89082 100 0 0 0        * a giggling child
+M 0 89102 1 89083 100 0 0 0        * Vitrius
+E 1 89175 1 14 100 0 0 0           *   a bracelet of woven wolverinehide
+M 0 89114 11 89084 100 0 0 0       * a withered bird
+M 0 89031 4 89084 100 0 0 0        * a minotaur child
+M 0 89032 3 89084 100 0 0 0        * a female minotaur
+M 0 89033 3 89084 100 0 0 0        * a male minotaur
+M 0 89114 11 89086 100 0 0 0       * a withered bird
+M 0 89034 4 89086 100 0 0 0        * a troll child
+M 0 89035 3 89086 100 0 0 0        * a female troll
+M 0 89016 2 89087 100 0 0 0        * a male halfling
+M 0 89029 4 89087 100 0 0 0        * a thri-kreen child
+M 0 89036 3 89087 100 0 0 0        * a male troll
+M 0 89104 8 89088 100 0 0 0        * a troll guard
+M 0 89105 6 89088 100 0 0 0        * a storm giant guard
+M 0 89103 8 89089 100 0 0 0        * an ogre guard
+M 0 89103 8 89089 100 0 0 0        * an ogre guard
+M 0 89104 8 89089 100 0 0 0        * a troll guard
+M 0 89104 8 89089 100 0 0 0        * a troll guard
+M 0 89105 6 89089 100 0 0 0        * a storm giant guard
+M 0 89103 8 89090 100 0 0 0        * an ogre guard
+M 0 89103 8 89090 100 0 0 0        * an ogre guard
+M 0 89104 8 89090 100 0 0 0        * a troll guard
+M 0 89105 6 89090 100 0 0 0        * a storm giant guard
+M 0 89104 8 89091 100 0 0 0        * a troll guard
+M 0 89105 6 89091 100 0 0 0        * a storm giant guard
+M 0 89185 2 89092 100 0 0 0        * a nosy neighbor
+M 0 89187 2 89092 100 0 0 0        * an annoying githyanki
+M 0 89192 1 89092 100 0 0 0        * a young observer
+M 0 89187 2 89093 100 0 0 0        * an annoying githyanki
+M 0 89188 2 89093 100 0 0 0        * a curious centaur
+M 0 89190 2 89093 100 0 0 0        * a watching minotaur
+M 0 89185 2 89094 100 0 0 0        * a nosy neighbor
+M 0 89186 2 89094 100 0 0 0        * a betting goblin
+M 0 89191 2 89094 100 0 0 0        * a hooded nuisance
+M 0 89188 2 89095 100 0 0 0        * a curious centaur
+M 0 89189 2 89095 100 0 0 0        * a hungry thri-kreen
+M 0 89191 2 89095 100 0 0 0        * a hooded nuisance
+M 0 89106 1 89096 100 0 0 0        * a measuring judge
+E 1 89073 1 5 100 0 0 0            *   a black leather vest
+E 1 89074 1 7 100 0 0 0            *   a pair of black leather pants
+F 1 89107 3 89096 100 0 0 0        * the judge's honor guard (following)
+F 1 89107 3 89096 100 0 0 0        * the judge's honor guard (following)
+F 1 89107 3 89096 100 0 0 0        * the judge's honor guard (following)
+M 0 89194 1 89096 100 0 0 0        * a stammering man
+M 0 89108 11 89097 100 0 0 0       * a slimy thing
+M 0 89108 11 89097 100 0 0 0       * a slimy thing
+M 0 89108 11 89097 100 0 0 0       * a slimy thing
+M 0 89109 11 89097 100 0 0 0       * a slimy thing
+M 0 89109 11 89097 100 0 0 0       * a slimy thing
+M 0 89109 11 89097 100 0 0 0       * a slimy thing
+M 0 89110 11 89097 100 0 0 0       * a slimy thing
+M 0 89110 11 89097 100 0 0 0       * a slimy thing
+M 0 89110 11 89097 100 0 0 0       * a slimy thing
+M 0 89108 11 89098 100 0 0 0       * a slimy thing
+M 0 89109 11 89098 100 0 0 0       * a slimy thing
+M 0 89110 11 89098 100 0 0 0       * a slimy thing
+M 0 89138 1 89098 100 0 0 0        * Zarix
+E 1 89168 1 6 100 0 0 0            *   a braided elfskin headband
+G 1 424 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 89108 11 89099 100 0 0 0       * a slimy thing
+M 0 89108 11 89099 100 0 0 0       * a slimy thing
+M 0 89108 11 89099 100 0 0 0       * a slimy thing
+M 0 89109 11 89099 100 0 0 0       * a slimy thing
+M 0 89109 11 89099 100 0 0 0       * a slimy thing
+M 0 89109 11 89099 100 0 0 0       * a slimy thing
+M 0 89110 11 89099 100 0 0 0       * a slimy thing
+M 0 89110 11 89099 100 0 0 0       * a slimy thing
+M 0 89110 11 89099 100 0 0 0       * a slimy thing
+M 0 89112 1 89100 100 0 0 0        * Lady Lysaly
+M 0 89113 4 89100 100 0 0 0        * a plotting goblin
+M 0 89113 4 89100 100 0 0 0        * a plotting goblin
+M 0 89113 4 89100 100 0 0 0        * a plotting goblin
+M 0 89113 4 89100 100 0 0 0        * a plotting goblin
+M 0 89108 11 89100 100 0 0 0       * a slimy thing
+M 0 89109 11 89100 100 0 0 0       * a slimy thing
+M 0 89110 11 89100 100 0 0 0       * a slimy thing
+M 0 89108 11 89101 100 0 0 0       * a slimy thing
+M 0 89108 11 89101 100 0 0 0       * a slimy thing
+M 0 89108 11 89101 100 0 0 0       * a slimy thing
+M 0 89109 11 89101 100 0 0 0       * a slimy thing
+M 0 89109 11 89101 100 0 0 0       * a slimy thing
+M 0 89109 11 89101 100 0 0 0       * a slimy thing
+M 0 89110 11 89101 100 0 0 0       * a slimy thing
+M 0 89110 11 89101 100 0 0 0       * a slimy thing
+M 0 89110 11 89101 100 0 0 0       * a slimy thing
+M 0 89111 1 89102 100 0 0 0        * an imprisoned paladin
+E 1 89167 1 20 100 0 0 0           *   a translucent crystal hemisphere
+M 0 89186 2 89103 100 0 0 0        * a betting goblin
+M 0 89189 2 89103 100 0 0 0        * a hungry thri-kreen
+M 0 89190 2 89103 100 0 0 0        * a watching minotaur
+M 0 89103 8 89104 100 0 0 0        * an ogre guard
+M 0 89103 8 89104 100 0 0 0        * an ogre guard
+M 0 89104 8 89104 100 0 0 0        * a troll guard
+M 0 89104 8 89104 100 0 0 0        * a troll guard
+M 0 89105 6 89104 100 0 0 0        * a storm giant guard
+M 0 89103 8 89105 100 0 0 0        * an ogre guard
+M 0 89103 8 89105 100 0 0 0        * an ogre guard
+M 0 89104 8 89105 100 0 0 0        * a troll guard
+M 0 89105 6 89105 100 0 0 0        * a storm giant guard
+M 0 89089 3 89106 100 0 0 0        * an inquisitive ogre
+M 0 89090 3 89106 100 0 0 0        * a nose-picking troll
+M 0 89114 11 89106 100 0 0 0       * a withered bird
+M 0 89193 4 89106 100 0 0 0        * a bewildered bystander
+M 0 89193 4 89106 100 0 0 0        * a bewildered bystander
+M 0 89089 3 89107 100 0 0 0        * an inquisitive ogre
+M 0 89090 3 89107 100 0 0 0        * a nose-picking troll
+M 0 89193 4 89107 100 0 0 0        * a bewildered bystander
+M 0 89193 4 89107 100 0 0 0        * a bewildered bystander
+M 0 89017 4 89108 100 0 0 0        * an orcish child
+M 0 89021 3 89108 100 0 0 0        * a female drow
+M 0 89034 4 89108 100 0 0 0        * a troll child
+M 0 89008 3 89109 100 0 0 0        * a goblin child
+M 0 89029 4 89109 100 0 0 0        * a thri-kreen child
+M 0 89031 4 89109 100 0 0 0        * a minotaur child
+M 0 89197 4 89109 100 0 0 0        * an aggravating do-gooder
+M 0 89115 1 89110 100 0 0 0        * a halfling named Big Sal
+G 1 89076 1 0 100 0 0 0            *    a fringed suede backpack
+G 1 89077 1 0 100 0 0 0            *    a fringed suede vest
+G 1 89078 1 0 100 0 0 0            *    a pair of fringed suede pants
+G 1 89079 1 0 100 0 0 0            *    a fringed suede quiver
+G 1 89080 1 0 100 0 0 0            *    a pair of fringed suede boots
+G 1 89081 1 0 100 0 0 0            *    a fringed suede waterskin
+G 1 89082 1 0 100 0 0 0            *    a set of fringed suede sleeves
+G 1 89083 1 0 100 0 0 0            *    a camel bladder
+G 1 89181 1 0 100 0 0 0            *    a sow's ear
+G 1 89185 1 0 100 0 0 0            *    a bone sliver
+G 1 89186 1 0 100 0 0 0            *    a sigil of the Village of New Hope
+M 0 89116 1 89111 100 0 0 0        * Krestlegigglymank
+G 1 89084 1 0 100 0 0 0            *    a bark-bound book
+G 1 89085 1 0 100 0 0 0            *    a feathered quill
+G 1 89177 1 0 100 0 0 0            *    a copper flute
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 89178 999 0 100 0 0 0          *    an inlaid mandolin
+G 1 89182 999 0 100 0 0 0          *    a parasaurolophus horn
+M 0 89011 4 89112 100 0 0 0        * a gnomish child
+M 0 89021 3 89112 100 0 0 0        * a female drow
+M 0 89040 4 89112 100 0 0 0        * an ogre child
+M 0 89043 4 89112 100 0 0 0        * a centaur child
+M 0 89128 3 89112 100 0 0 0        * a male githyanki
+M 0 89114 11 89112 100 0 0 0       * a withered bird
+M 0 89114 11 89113 100 0 0 0       * a withered bird
+M 0 89127 3 89113 100 0 0 0        * a female githyanki
+M 0 89020 4 89114 100 0 0 0        * a drow child
+M 0 89037 4 89114 100 0 0 0        * a barbarian child
+M 0 89038 3 89114 100 0 0 0        * a female barbarian
+M 0 89039 3 89114 100 0 0 0        * a male barbarian
+M 0 89037 4 89115 100 0 0 0        * a barbarian child
+M 0 89038 3 89115 100 0 0 0        * a female barbarian
+M 0 89039 3 89115 100 0 0 0        * a male barbarian
+M 0 89047 3 89116 100 0 0 0        * a female duergar
+M 0 89048 3 89116 100 0 0 0        * a duergar male
+M 0 89126 4 89116 100 0 0 0        * a githyanki child
+M 0 89046 4 89117 100 0 0 0        * a duergar child
+M 0 89114 11 89117 100 0 0 0       * a withered bird
+M 0 89046 4 89118 100 0 0 0        * a duergar child
+M 0 89049 4 89118 100 0 0 0        * a dwarven child
+M 0 89050 3 89118 100 0 0 0        * a female dwarf
+M 0 89051 3 89118 100 0 0 0        * a male dwarf
+M 0 89121 1 89119 100 0 0 0        * a busy orc
+M 0 89120 1 89120 100 0 0 0        * a young troll apprentice
+G 1 89111 1 0 100 0 0 0            *    a set of carved wooden numchucks
+G 1 89110 1 0 100 0 0 0            *    a carved ash staff
+G 1 89109 1 0 100 0 0 0            *    a carved wooden tankard
+G 1 89086 1 0 100 0 0 0            *    a stained pine vulture
+G 1 89087 1 0 100 0 0 0            *    a stained ash osprey
+G 1 89108 1 0 100 0 0 0            *    a wood slat backpack
+G 1 89107 1 0 100 0 0 0            *    an inlaid box
+G 1 89106 1 0 100 0 0 0            *    an ash practice dagger
+G 1 89105 1 0 100 0 0 0            *    an ash practice sword
+G 1 89104 1 0 100 0 0 0            *    an ash arrow
+G 1 89103 1 0 100 0 0 0            *    an ash bow
+G 1 89102 1 0 100 0 0 0            *    a yew bow
+G 1 89178 999 0 100 0 0 0          *    an inlaid mandolin
+G 1 89179 1 0 100 0 0 0            *    a shaped splinter
+G 1 89184 1 0 100 0 0 0            *    an inlaid harp
+M 0 89037 4 89121 100 0 0 0        * a barbarian child
+M 0 89053 4 89121 100 0 0 0        * a storm giant child
+M 0 89074 4 89122 100 0 0 0        * a chuckling halfling
+M 0 89077 2 89122 100 0 0 0        * an inattentive gnome
+M 0 89079 3 89122 100 0 0 0        * a squinting orc
+M 0 89139 1 89122 100 0 0 0        * Salashin
+E 1 89170 1 1 100 0 0 0            *   a carved jade ring
+M 0 89070 4 89123 100 0 0 0        * a whistling duergar
+M 0 89072 4 89123 100 0 0 0        * a giggling centaur
+M 0 89081 3 89123 100 0 0 0        * a bellowing minotaur
+M 0 89073 2 89123 100 0 0 0        * a laughing elf
+M 0 89131 1 89123 100 0 0 0        * a tavernkeep
+G 1 89116 1 0 100 0 0 0            *    a horse's stomach
+G 1 89113 1 0 100 0 0 0            *    a pressed rat
+G 1 89114 1 0 100 0 0 0            *    a haunch of meat
+G 1 89115 1 0 100 0 0 0            *    a journey cake
+M 0 89134 1 89123 100 0 0 0        * Harnd
+E 1 89160 1 13 100 0 0 0           *   a belt of braided bearskin
+M 0 89067 3 89124 100 0 0 0        * a scowling ogre
+M 0 89068 3 89124 100 0 0 0        * a laughing ogress
+M 0 89071 3 89124 100 0 0 0        * a brutish hill giant
+M 0 89078 4 89124 100 0 0 0        * a leaning thri-kreen
+M 0 89133 1 89124 100 0 0 0        * Unicrit
+E 1 89121 1 16 100 0 0 0           *   a barbed dagger
+M 0 89020 4 89125 100 0 0 0        * a drow child
+M 0 89043 4 89126 100 0 0 0        * a centaur child
+M 0 89044 3 89126 100 0 0 0        * a female centaur
+M 0 89045 3 89126 100 0 0 0        * a male centaur
+M 0 89038 3 89127 100 0 0 0        * a female barbarian
+M 0 89039 3 89127 100 0 0 0        * a male barbarian
+M 0 89019 3 89128 100 0 0 0        * a male orc
+M 0 89003 3 89129 100 0 0 0        * a sand viper
+M 0 89018 3 89129 100 0 0 0        * a female orc
+M 0 89098 1 89130 100 0 0 0        * a tempermental drow
+G 1 89053 1 0 100 0 0 0            *    a black cotton shirt
+G 1 89054 1 0 100 0 0 0            *    a pair of black wool pants
+G 1 89055 1 0 100 0 0 0            *    a black wool cloak
+G 1 89056 1 0 100 0 0 0            *    a black felt hat
+G 1 89057 1 0 100 0 0 0            *    a pair of black cotton gloves
+G 1 89058 1 0 100 0 0 0            *    a red cotton shirt
+G 1 89059 1 0 100 0 0 0            *    a pair of red wool pants
+G 1 89060 1 0 100 0 0 0            *    a red wool cloak
+G 1 89061 1 0 100 0 0 0            *    a red cotton kerchief
+G 1 89062 1 0 100 0 0 0            *    a pair of red cotton gloves
+G 1 89063 1 0 100 0 0 0            *    a green cotton shirt
+G 1 89064 1 0 100 0 0 0            *    a pair of green wool pants
+G 1 89065 1 0 100 0 0 0            *    a green wool cloak
+G 1 89066 1 0 100 0 0 0            *    a green felt hat
+G 1 89067 1 0 100 0 0 0            *    a pair of green cotton gloves
+G 1 89068 1 0 100 0 0 0            *    a blue cotton shirt
+G 1 89069 1 0 100 0 0 0            *    a pair of blue wool pants
+G 1 89070 1 0 100 0 0 0            *    a blue wool cloak
+G 1 89071 1 0 100 0 0 0            *    a blue cotton kerchief
+G 1 89072 1 0 100 0 0 0            *    a pair of blue cotton gloves
+F 1 89099 2 89130 100 0 0 0        * a menacing troll (following)
+F 1 89099 2 89130 100 0 0 0        * a menacing troll (following)
+M 0 89097 1 89131 100 0 0 0        * a bright-eyed half-elf
+G 1 89042 1 0 100 0 0 0            *    a woven mulehide backpack
+G 1 89043 2 0 100 0 0 0            *    a braided rawhide belt
+G 1 89045 1 0 100 0 0 0            *    a woven rawhide belt pouch
+G 1 89044 1 0 100 0 0 0            *    a set of woven rawhide boots
+G 1 89052 1 0 100 0 0 0            *    a woven rawhide quiver
+G 1 89036 1 0 100 0 0 0            *    a set of woven rawhide sleeves
+G 1 89037 1 0 100 0 0 0            *    a woven rawhide vest
+G 1 89038 1 0 100 0 0 0            *    a set of rawhide leggings
+G 1 89039 1 0 100 0 0 0            *    a woven rawhide bracer
+G 1 89040 1 0 100 0 0 0            *    a braided rawhide whip
+G 1 89041 1 0 100 0 0 0            *    a braided rawhide rope
+G 1 89112 1 0 100 0 0 0            *    a braided rawhide tail ring
+G 1 89176 1 0 100 0 0 0            *    a braided rawhide drum
+M 0 89124 1 89132 100 0 0 0        * Rhaggent
+E 1 89157 1 3 100 0 0 0            *   a braided plant necklace
+M 0 89013 3 89133 100 0 0 0        * a male gnome
+M 0 89024 3 89133 100 0 0 0        * a grey elf female
+M 0 89025 3 89133 100 0 0 0        * a grey elf male
+M 0 89026 4 89133 100 0 0 0        * a human child
+M 0 89196 4 89133 100 0 0 0        * an annoying do-gooder
+M 0 89034 4 89134 100 0 0 0        * a troll child
+M 0 89035 3 89134 100 0 0 0        * a female troll
+M 0 89036 3 89134 100 0 0 0        * a male troll
+M 0 89018 3 89135 100 0 0 0        * a female orc
+M 0 89031 4 89136 100 0 0 0        * a minotaur child
+M 0 89032 3 89136 100 0 0 0        * a female minotaur
+M 0 89033 3 89136 100 0 0 0        * a male minotaur
+M 0 89040 4 89137 100 0 0 0        * an ogre child
+M 0 89041 3 89137 100 0 0 0        * a female ogre
+M 0 89042 3 89137 100 0 0 0        * a male ogre
+M 0 89029 4 89138 100 0 0 0        * a thri-kreen child
+M 0 89030 3 89138 100 0 0 0        * a thri-kreen adult
+M 0 89023 4 89139 100 0 0 0        * a grey elf child
+M 0 89024 3 89139 100 0 0 0        * a grey elf female
+M 0 89046 4 89140 100 0 0 0        * a duergar child
+M 0 89047 3 89140 100 0 0 0        * a female duergar
+M 0 89048 3 89140 100 0 0 0        * a duergar male
+M 0 89011 4 89141 100 0 0 0        * a gnomish child
+M 0 89012 3 89141 100 0 0 0        * a female gnome
+M 0 89017 4 89141 100 0 0 0        * an orcish child
+M 0 89126 4 89142 100 0 0 0        * a githyanki child
+M 0 89127 3 89142 100 0 0 0        * a female githyanki
+M 0 89128 3 89142 100 0 0 0        * a male githyanki
+M 0 89129 1 89144 100 0 0 0        * Terria
+E 1 89162 1 3 100 0 0 0            *   a necklace of swirling feathers
+M 0 89125 1 89146 100 0 0 0        * Merding
+E 1 89172 1 3 100 0 0 0            *   a woven mithral choker
+M 0 89025 3 89147 100 0 0 0        * a grey elf male
+M 0 89053 4 89147 100 0 0 0        * a storm giant child
+M 0 89054 3 89147 100 0 0 0        * a female storm giant
+M 0 89055 3 89147 100 0 0 0        * a male storm giant
+M 0 89114 11 89147 100 0 0 0       * a withered bird
+M 0 89064 6 89148 100 0 0 0        * a troll guard
+E 1 89009 2 16 100 0 0 0           *   a wooden club
+M 0 89064 6 89148 100 0 0 0        * a troll guard
+E 1 89011 2 5 100 0 0 0            *   a bloodstained leather tabard
+M 0 89064 6 89148 100 0 0 0        * a troll guard
+E 1 89010 2 11 100 0 0 0           *   a redwood shield
+M 0 89114 11 89149 100 0 0 0       * a withered bird
+M 0 89126 4 89149 100 0 0 0        * a githyanki child
+M 0 89127 3 89149 100 0 0 0        * a female githyanki
+M 0 89128 3 89149 100 0 0 0        * a male githyanki
+M 0 89197 4 89149 100 0 0 0        * an aggravating do-gooder
+M 0 89003 3 89150 100 0 0 0        * a sand viper
+M 0 89012 3 89150 100 0 0 0        * a female gnome
+M 0 89023 4 89150 100 0 0 0        * a grey elf child
+M 0 89117 1 89151 100 0 0 0        * a harried halfling
+G 1 89091 1 0 100 0 0 0            *    a carved lapis lazuli starburst
+G 1 89090 1 0 100 0 0 0            *    a carved coral heart
+G 1 89092 1 0 100 0 0 0            *    a coral scorpion earring
+G 1 89093 1 0 100 0 0 0            *    a fine silver chain necklace
+G 1 89094 1 0 100 0 0 0            *    a fine silver chain bracelet
+G 1 89095 1 0 100 0 0 0            *    an etched silver ring
+G 1 89096 1 0 100 0 0 0            *    a carved jade amulet
+G 1 89097 1 0 100 0 0 0            *    a carved ivory nose ring
+G 1 89098 1 0 100 0 0 0            *    a set of carved ivory horn tips
+G 1 89182 999 0 100 0 0 0          *    a parasaurolophus horn
+G 1 89183 1 0 100 0 0 0            *    a carved pearl lyre
+M 0 89118 1 89152 100 0 0 0        * Gruug
+G 1 89088 1 0 100 0 0 0            *    a carved quartz cube
+G 1 89089 1 0 100 0 0 0            *    a carved flint pyramid
+G 1 89099 1 0 100 0 0 0            *    a carved granite pitchfork
+G 1 89101 1 0 100 0 0 0            *    a white stone scythe
+G 1 89100 1 0 100 0 0 0            *    a marble dagger
+G 1 89180 1 0 100 0 0 0            *    a marble shard
+M 0 89092 11 89154 100 0 0 0       * a young apprentice
+M 0 89092 11 89154 100 0 0 0       * a young apprentice
+M 0 89092 11 89154 100 0 0 0       * a young apprentice
+M 0 89093 9 89154 100 0 0 0        * an older apprentice
+M 0 89093 9 89154 100 0 0 0        * an older apprentice
+M 0 89119 1 89155 100 0 0 0        * a meditating troll
+E 1 89171 1 21 100 0 0 0           *   an emerald lizard earring
+M 0 89023 4 89156 100 0 0 0        * a grey elf child
+M 0 89046 4 89157 100 0 0 0        * a duergar child
+M 0 89047 3 89157 100 0 0 0        * a female duergar
+M 0 89048 3 89157 100 0 0 0        * a duergar male
+M 0 89114 11 89157 100 0 0 0       * a withered bird
+M 0 89043 4 89158 100 0 0 0        * a centaur child
+M 0 89045 3 89158 100 0 0 0        * a male centaur
+M 0 89022 3 89159 100 0 0 0        * a male drow
+M 0 89017 4 89160 100 0 0 0        * an orcish child
+M 0 89044 3 89161 100 0 0 0        * a female centaur
+M 0 89045 3 89161 100 0 0 0        * a male centaur
+M 0 89196 4 89161 100 0 0 0        * an annoying do-gooder
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89130 6 89162 100 0 0 0        * a maljer
+M 0 89022 3 89163 100 0 0 0        * a male drow
+M 0 89030 3 89163 100 0 0 0        * a thri-kreen adult
+M 0 89043 4 89163 100 0 0 0        * a centaur child
+M 0 89044 3 89163 100 0 0 0        * a female centaur
+M 0 89147 1 89164 100 0 0 0        * a keep guard
+G 1 89124 1 0 100 0 0 0            *    a braided raccoonskin headband
+F 1 89145 1 89164 100 0 0 0        * a keep guard (following)
+E 1 89122 1 16 100 0 0 0           *   a two-handed hammer
+F 1 89146 1 89164 100 0 0 0        * a keep guard (following)
+E 1 89123 1 13 100 0 0 0           *   a braided pelt belt
+F 1 89148 1 89164 100 0 0 0        * a keep guard (following)
+G 1 89125 1 0 100 0 0 0            *    a pair of ferretskin boots
+M 0 89149 4 89165 100 0 0 0        * a patrolling guard
+M 0 89150 4 89165 100 0 0 0        * a patrolling guard
+M 0 89151 4 89166 100 0 0 0        * a patrolling guard
+M 0 89152 4 89166 100 0 0 0        * a patrolling guard
+M 0 89149 4 89167 100 0 0 0        * a patrolling guard
+M 0 89150 4 89167 100 0 0 0        * a patrolling guard
+M 0 89151 4 89168 100 0 0 0        * a patrolling guard
+M 0 89152 4 89168 100 0 0 0        * a patrolling guard
+M 0 89177 3 89169 100 0 0 0        * a githyanki servant
+M 0 89154 2 89170 100 0 0 0        * a kitchen drudge
+M 0 89154 2 89170 100 0 0 0        * a kitchen drudge
+M 0 89155 2 89170 100 0 0 0        * a kitchen drudge
+M 0 89155 2 89170 100 0 0 0        * a kitchen drudge
+M 0 89153 3 89171 100 0 0 0        * a cook
+M 0 89153 3 89171 100 0 0 0        * a cook
+M 0 89153 3 89171 100 0 0 0        * a cook
+M 0 89149 4 89176 100 0 0 0        * a patrolling guard
+M 0 89179 3 89176 100 0 0 0        * a troll servant
+M 0 89150 4 89177 100 0 0 0        * a patrolling guard
+M 0 89151 4 89177 100 0 0 0        * a patrolling guard
+M 0 89178 3 89177 100 0 0 0        * an orc servant
+M 0 89180 3 89178 100 0 0 0        * a barbarian servant
+M 0 89165 1 89179 100 0 0 0        * a troll janitor
+E 1 89137 1 16 100 0 0 0           *   a wet mop
+M 0 89177 3 89180 100 0 0 0        * a githyanki servant
+M 0 89157 1 89181 100 0 0 0        * Daisy
+G 1 89130 1 0 100 0 0 0            *    a marble hammer
+G 1 89132 1 0 100 0 0 0            *    a carved femur of a stupid barb
+M 0 89158 1 89181 100 0 0 0        * Snerga
+E 1 89131 1 7 100 0 0 0            *   leggings carved from minotaur bones
+M 0 89152 4 89182 100 0 0 0        * a patrolling guard
+M 0 89178 3 89182 100 0 0 0        * an orc servant
+M 0 89162 1 89183 100 0 0 0        * a chained gnome
+M 0 89163 1 89183 100 0 0 0        * a bound goblin
+M 0 89164 1 89183 100 0 0 0        * a defiant halfling
+M 0 89159 1 89184 100 0 0 0        * Phillia
+E 1 89133 1 37 100 0 0 0           *   a woven mithral tail ring
+M 0 89179 3 89184 100 0 0 0        * a troll servant
+M 0 89160 1 89185 100 0 0 0        * Harakar
+E 1 89134 1 3 100 0 0 0            *   a necklace of tails and feathers
+M 0 89161 1 89185 100 0 0 0        * Ellie
+E 1 89135 1 21 100 0 0 0           *   a green and black oval earring
+M 0 89182 1 89188 100 0 0 0        * a mummified ogre male
+M 0 89183 1 89188 100 0 0 0        * a mummified ogre female
+M 0 89184 1 89188 100 0 0 0        * a mummified human
+M 0 89156 1 89189 100 0 0 0        * Hammerhead
+G 1 89129 1 0 100 0 0 0            *    the eye of the ogre
+G 1 89019 1 0 100 0 0 0            *    a petrified heart
+M 0 89150 4 89190 100 0 0 0        * a patrolling guard
+M 0 89151 4 89191 100 0 0 0        * a patrolling guard
+M 0 89180 3 89191 100 0 0 0        * a barbarian servant
+M 0 89149 4 89192 100 0 0 0        * a patrolling guard
+M 0 89177 3 89192 100 0 0 0        * a githyanki servant
+M 0 89195 1 89193 100 0 0 0        * a giant ambassador
+E 1 89187 1 19 100 0 0 0           *   a butterfly mask
+M 0 89152 4 89194 100 0 0 0        * a patrolling guard
+M 0 89178 3 89194 100 0 0 0        * an orc servant
+M 0 89166 1 89195 100 0 0 0        * a centaur visitor
+E 1 89138 2 35 100 0 0 0           *   a set of mithral chain barding
+G 1 89138 2 0 100 0 0 0            *    a set of mithral chain barding
+M 0 89179 3 89196 100 0 0 0        * a troll servant
+M 0 89180 3 89199 100 0 0 0        * a barbarian servant
+M 0 89167 1 89200 100 0 0 0        * a half-elf child
+M 0 89168 1 89200 100 0 0 0        * a half-elf woman
+M 0 89169 1 89200 100 0 0 0        * a half-elf man
+M 0 89172 3 89201 100 0 0 0        * a barbarian court guard
+E 1 89141 3 16 100 0 0 0           *   a mithral shortsword
+F 1 89170 3 89201 100 0 0 0        * a thri-kreen court guard (following)
+E 1 89140 3 16 100 0 0 0           *   a mithral dagger
+F 1 89171 3 89201 100 0 0 0        * an ogre court guard (following)
+E 1 89142 3 16 100 0 0 0           *   a mithral longsword
+M 0 89170 3 89202 100 0 0 0        * a thri-kreen court guard
+E 1 89140 3 16 100 0 0 0           *   a mithral dagger
+F 1 89171 3 89202 100 0 0 0        * an ogre court guard (following)
+E 1 89142 3 16 100 0 0 0           *   a mithral longsword
+F 1 89172 3 89202 100 0 0 0        * a barbarian court guard (following)
+E 1 89141 3 16 100 0 0 0           *   a mithral shortsword
+M 0 89173 1 89202 100 0 0 0        * a court clerk
+M 0 89171 3 89203 100 0 0 0        * an ogre court guard
+E 1 89142 3 16 100 0 0 0           *   a mithral longsword
+F 1 89170 3 89203 100 0 0 0        * a thri-kreen court guard (following)
+E 1 89140 3 16 100 0 0 0           *   a mithral dagger
+F 1 89172 3 89203 100 0 0 0        * a barbarian court guard (following)
+E 1 89141 3 16 100 0 0 0           *   a mithral shortsword
+M 0 89174 6 89208 100 0 0 0        * a trash rat
+M 0 89174 6 89208 100 0 0 0        * a trash rat
+M 0 89175 6 89208 100 0 0 0        * a trash rat
+M 0 89175 6 89208 100 0 0 0        * a trash rat
+M 0 89176 6 89208 100 0 0 0        * a trash rat
+M 0 89176 6 89208 100 0 0 0        * a trash rat
+M 0 89174 6 89209 100 0 0 0        * a trash rat
+M 0 89174 6 89209 100 0 0 0        * a trash rat
+M 0 89175 6 89209 100 0 0 0        * a trash rat
+M 0 89175 6 89209 100 0 0 0        * a trash rat
+M 0 89176 6 89209 100 0 0 0        * a trash rat
+M 0 89176 6 89209 100 0 0 0        * a trash rat
+M 0 89174 6 89210 100 0 0 0        * a trash rat
+M 0 89174 6 89210 100 0 0 0        * a trash rat
+M 0 89175 6 89210 100 0 0 0        * a trash rat
+M 0 89175 6 89210 100 0 0 0        * a trash rat
+M 0 89176 6 89210 100 0 0 0        * a trash rat
+M 0 89176 6 89210 100 0 0 0        * a trash rat
+M 0 89005 1 89211 100 0 0 0        * a proud barbarian
+E 1 89154 1 1 100 0 0 0            *   a braided ferrethide ring
+F 1 89004 1 89211 100 0 0 0        * a snarling ogre (following)
+E 1 89153 1 16 100 0 0 0           *   a darkly glowing two-handed sword
+F 1 89006 1 89211 100 0 0 0        * a bored troll (following)
+E 1 89155 1 13 100 0 0 0           *   a pelt loincloth
+F 1 89007 1 89211 100 0 0 0        * a jittery thri-kreen (following)
+E 1 89156 1 14 100 0 0 0           *   an etched mithral bracer
+M 0 89002 3 89212 100 0 0 0        * a striped mongoose
+M 0 89000 4 89213 100 0 0 0        * a desert squirrel
+M 0 89000 4 89213 100 0 0 0        * a desert squirrel
+M 0 89003 3 89213 100 0 0 0        * a sand viper
+M 0 89000 4 89214 100 0 0 0        * a desert squirrel
+M 0 89001 5 89214 100 0 0 0        * a dung beetle
+M 0 89000 4 89215 100 0 0 0        * a desert squirrel
+M 0 89001 5 89215 100 0 0 0        * a dung beetle
+M 0 89002 3 89216 100 0 0 0        * a striped mongoose
+M 0 89001 5 89216 100 0 0 0        * a dung beetle
+M 0 89002 3 89217 100 0 0 0        * a striped mongoose
+M 0 89001 5 89217 100 0 0 0        * a dung beetle
+M 0 89001 5 89217 100 0 0 0        * a dung beetle
+M 0 89181 1 89220 100 0 0 0        * the tentacler
+G 1 89144 1 0 100 0 0 0            *    the tentacle of the tentacler
+G 1 89188 1 0 100 0 0 0            *    a solidified tentacler eye
+M 0 89142 1 89223 100 0 0 0        * Feralis
+E 1 89189 1 13 100 0 0 0           *   a belt of woven dreams
+E 1 89136 1 28 100 0 0 0           *   a snuggly cuddlebunny
+F 1 89198 1 89223 100 0 0 0        * a suspicious human (following)
+F 1 89199 1 89223 100 0 0 0        * a wary minotaur (following)
+F 1 89200 1 89223 100 0 0 0        * a scarred dwarf (following)
+M 0 89093 9 89224 100 0 0 0        * an older apprentice
+M 0 89092 11 89224 100 0 0 0       * a young apprentice
+M 0 89092 11 89224 100 0 0 0       * a young apprentice
+M 0 89122 1 89225 100 0 0 0        * Concertina
+E 1 89043 2 13 100 0 0 0           *   a braided rawhide belt
+E 1 89159 1 28 100 0 0 0           *   a sunbeam flute
+M 0 89123 1 89225 100 0 0 0        * Tracker
+E 1 89169 1 23 100 0 0 0           *   a pantherhide quiver
+M 0 89141 1 89226 100 0 0 0        * Gronmor
+E 1 89174 1 3 100 0 0 0            *   a triceratops frill
+M 0 89143 1 89226 100 0 0 0        * Beth, Purveyor of Death
+E 1 89161 1 24 100 0 0 0           *   an oval of tattered flesh
+M 0 89144 4 89226 100 0 0 0        * a detached hand
+M 0 89144 4 89226 100 0 0 0        * a detached hand
+M 0 89144 4 89226 100 0 0 0        * a detached hand
+M 0 89144 4 89226 100 0 0 0        * a detached hand
+*
+S

@@ -1,0 +1,70 @@
+#30814
+M
+hi hello~
+&+WThe councilman turns to you and bellows, "The underdark denizens are preparing
+&+Wto invade Tharnadia. All able warriors are needed in the war to help maintain
+&+Wthe balance of Duris.&n
+~
+S
+#30820
+M
+hi hello~
+&+LThe guard suddenly turns to you and grimaces before returning to his duties.&n
+~
+S
+#30821
+MA
+hi hello~
+&+LThe storm giant shopkeeper bellows, "quit talkin and get ta shopin!"&n
+~
+S
+#30831
+M
+hi hello~
+&+yThe bartender wipes down his bar and says, "Hoomans forming army and storm
+&+ygiants help to push back underdark dwellers. Giants are strong like ogre and
+&+yfight hard!"&n
+~
+S
+#30833
+M
+hi hello~
+&+yThe patron looks at you and bellows, "Trouble is come! The nasty underdark
+&+ymobilizes their forces. Giants must fight to save hoomans.&n
+~
+S
+#30852
+M
+hi hello~
+&+yThe courier turns to you and says, "Our forces do well, but the battle still
+&+yrages. Any warriors of able blood are needed at the fronts."&n
+~
+S
+#30868
+M
+qc_action 200~
+&N$n sings a song about the once-great Woodseer and its former hero, Jarus.
+~
+S
+#30871
+M
+hi hello~
+   &+WKing Stragathor looks at you for a moment and speaks &+C'Why would you
+&+Ctrouble an already-troubled King?  Begone! There is no help for Stragathor.&+W'
+~
+M
+king stragathor~
+   &+C'Yes, I am afraid my Kingdom is the target for attack by a ruthless
+&+CSultan in a distant Palace.  My contacts have altered me of his intensions
+&+Cto raid my Kingdom!'
+
+&+WKing Straag looks at you for a moment and continues &+C'Bring me the &+ybronze sword &+Cof the Sultan of Nizari so that I know he has been defeaten and my &+CKingdom is once again safe!&+W'
+~
+QA
+   &+C'Well done!  The threat is over with the slaying of the Sultan!  Here,
+&+Ctake my crown.&+C'
+~
+R I 30846
+R E 60000
+G I 40073
+S

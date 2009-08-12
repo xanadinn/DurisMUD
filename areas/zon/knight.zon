@@ -1,0 +1,390 @@
+#709
+&+YThe Hall of Knighthood&n~
+70999 1 0 5 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 70900 0 1 100 0 0 0
+*     north exit from "Cave Entrance" to
+*     "The Hall of Knighthood" - closed
+*
+D 0 70901 2 1 100 0 0 0
+*     south exit from "The Hall of Knighthood" to
+*     "Cave Entrance" - closed
+*
+D 0 70902 0 2 100 0 0 0
+*     north exit from "The White Knight" to
+*     "The Green Knight" - closed/locked
+*
+D 0 70903 2 2 100 0 0 0
+*     south exit from "The Green Knight" to
+*     "The White Knight" - closed/locked
+*
+D 0 70903 0 2 100 0 0 0
+*     north exit from "The Green Knight" to
+*     "The Blue Knight" - closed/locked
+*
+D 0 70904 2 2 100 0 0 0
+*     south exit from "The Blue Knight" to
+*     "The Green Knight" - closed/locked
+*
+D 0 70904 0 2 100 0 0 0
+*     north exit from "The Blue Knight" to
+*     "The Yellow Knight" - closed/locked
+*
+D 0 70905 2 2 100 0 0 0
+*     south exit from "The Yellow Knight" to
+*     "The Blue Knight" - closed/locked
+*
+D 0 70905 0 2 100 0 0 0
+*     north exit from "The Yellow Knight" to
+*     "The Red Knight" - closed/locked
+*
+D 0 70906 2 2 100 0 0 0
+*     south exit from "The Red Knight" to
+*     "The Yellow Knight" - closed/locked
+*
+D 0 70906 0 2 100 0 0 0
+*     north exit from "The Red Knight" to
+*     "The Crimson Knight" - closed/locked
+*
+D 0 70907 2 2 100 0 0 0
+*     south exit from "The Crimson Knight" to
+*     "The Red Knight" - closed/locked
+*
+D 0 70907 0 2 100 0 0 0
+*     north exit from "The Crimson Knight" to
+*     "The Hall of Knighthood" - closed/locked
+*
+D 0 70908 2 2 100 0 0 0
+*     south exit from "The Hall of Knighthood" to
+*     "The Crimson Knight" - closed/locked
+*
+D 0 70913 1 2 100 0 0 0
+*     east exit from "Pirate's Tunnel" to
+*     "The Hall of Knighthood" - closed/locked
+*
+D 0 70914 3 2 100 0 0 0
+*     west exit from "The Hall of Knighthood" to
+*     "Pirate's Tunnel" - closed/locked
+*
+D 0 70914 2 2 100 0 0 0
+*     south exit from "The Hall of Knighthood" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70915 0 2 100 0 0 0
+*     north exit from "Holy Auditorium" to
+*     "The Hall of Knighthood" - closed/locked
+*
+D 0 70915 2 2 100 0 0 0
+*     south exit from "Holy Auditorium" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70916 0 2 100 0 0 0
+*     north exit from "Holy Auditorium" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70916 2 2 100 0 0 0
+*     south exit from "Holy Auditorium" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70917 0 2 100 0 0 0
+*     north exit from "Holy Auditorium" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70917 2 2 100 0 0 0
+*     south exit from "Holy Auditorium" to
+*     "The Hall of Knighthood" - closed/locked
+*
+D 0 70918 0 2 100 0 0 0
+*     north exit from "The Hall of Knighthood" to
+*     "Holy Auditorium" - closed/locked
+*
+D 0 70919 1 2 100 0 0 0
+*     east exit from "Conjurer Room" to
+*     "Conjurer Room" - closed/locked
+*
+D 0 70919 1 2 100 0 0 0
+*     east exit from "Conjurer Room" to
+*     "Conjurer Room" - closed/locked
+*
+D 0 70920 1 2 100 0 0 0
+*     east exit from "Paladin Room" to
+*     "Paladin Room" - closed/locked
+*
+D 0 70920 1 2 100 0 0 0
+*     east exit from "Paladin Room" to
+*     "Paladin Room" - closed/locked
+*
+D 0 70921 1 2 100 0 0 0
+*     east exit from "Necromancer Room" to
+*     "Necromancer Room" - closed/locked
+*
+D 0 70921 1 2 100 0 0 0
+*     east exit from "Necromancer Room" to
+*     "Necromancer Room" - closed/locked
+*
+D 0 70922 1 2 100 0 0 0
+*     east exit from "Sorcerer Room" to
+*     "Sorcerer Room" - closed/locked
+*
+D 0 70922 1 2 100 0 0 0
+*     east exit from "Sorcerer Room" to
+*     "Sorcerer Room" - closed/locked
+*
+D 0 70922 3 2 100 0 0 0
+*     west exit from "Sorcerer Room" to
+*     "Pathway to the Room of Convergence" - closed/locked
+*
+D 0 70923 1 2 100 0 0 0
+*     east exit from "Pathway to the Room of Convergence" to
+*     "Sorcerer Room" - closed/locked
+*
+D 0 70923 3 1 100 0 0 0
+*     west exit from "Pathway to the Room of Convergence" to
+*     "Room of Convergence" - closed
+*
+D 0 70924 1 1 100 0 0 0
+*     east exit from "Room of Convergence" to
+*     "Pathway to the Room of Convergence" - closed
+*
+D 0 70924 3 1 100 0 0 0
+*     west exit from "Room of Convergence" to
+*     "The Staff of Life" - closed
+*
+D 0 70925 1 1 100 0 0 0
+*     east exit from "The Staff of Life" to
+*     "Room of Convergence" - closed
+*
+*
+O 0 70908 1 70914 100 0 0 0        * a truth key
+O 0 70912 1 70918 100 0 0 0        * a key of resilience
+O 0 70969 1 70923 100 0 0 0        * the small spout of water
+O 0 72 100 70925 100 0 0 0         * (object type not in this .obj file)
+O 0 360 1 70925 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 70901 1 70902 100 0 0 0        * Sir Wilon
+E 1 70918 1 16 100 0 0 0           *   a glowing, white mace
+G 1 70901 1 0 100 0 0 0            *    a green key
+M 0 70940 39 70902 100 0 0 0       * a squire
+M 0 70940 39 70902 100 0 0 0       * a squire
+M 0 70940 39 70902 100 0 0 0       * a squire
+M 0 70940 39 70902 100 0 0 0       * a squire
+M 0 70902 1 70903 100 0 0 0        * Sir Frithyl
+E 1 70919 1 16 100 0 0 0           *   a green axe
+G 1 70902 1 0 100 0 0 0            *    a blue key
+M 0 70940 39 70903 100 0 0 0       * a squire
+M 0 70940 39 70903 100 0 0 0       * a squire
+M 0 70940 39 70903 100 0 0 0       * a squire
+M 0 70940 39 70903 100 0 0 0       * a squire
+M 0 70940 39 70903 100 0 0 0       * a squire
+M 0 70900 1 70904 100 0 0 0        * Sir Ger
+G 1 70903 1 0 100 0 0 0            *    a yellow key
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70904 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70940 39 70905 100 0 0 0       * a squire
+M 0 70905 1 70905 100 0 0 0        * Sir Epho
+E 1 70922 1 16 100 0 0 0           *   a crimson halberd
+G 1 70904 1 0 100 0 0 0            *    a light red key
+M 0 70904 1 70906 100 0 0 0        * Sir Cronth
+E 1 70921 1 16 100 0 0 0           *   a faded red morningstar
+G 1 70905 1 0 100 0 0 0            *    a crimson key
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70906 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70940 39 70907 100 0 0 0       * a squire
+M 0 70903 1 70907 100 0 0 0        * Sir Yol
+E 1 70920 1 16 100 0 0 0           *   the flaming sword of the sun
+G 1 70906 1 0 100 0 0 0            *    a grey key
+M 0 70907 5 70909 100 0 0 0        * the cutthroat
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70907 5 70909 100 0 0 0        * the cutthroat
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70907 5 70909 100 0 0 0        * the cutthroat
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70908 1 70910 100 0 0 0        * Merdock
+E 1 70927 1 16 100 0 0 0           *   a small blue piercer
+M 0 70909 6 70910 100 0 0 0        * the robber
+E 1 70929 2 5 100 0 0 0            *   a small garb
+E 1 70928 2 6 100 0 0 0            *   a small cap
+E 1 70931 2 16 100 0 0 0           *   a stabber
+E 1 70930 2 17 100 0 0 0           *   a bopper
+M 0 70909 6 70910 100 0 0 0        * the robber
+E 1 70929 2 5 100 0 0 0            *   a small garb
+E 1 70928 2 6 100 0 0 0            *   a small cap
+E 1 70931 2 16 100 0 0 0           *   a stabber
+E 1 70930 2 17 100 0 0 0           *   a bopper
+M 0 70909 6 70910 100 0 0 0        * the robber
+M 0 70909 6 70910 100 0 0 0        * the robber
+M 0 70910 1 70911 100 0 0 0        * Antonier, Lord of Ballads
+E 1 70934 1 16 100 0 0 0           *   a musical dagger
+E 1 70932 1 18 100 0 0 0           *   a lyre of harm
+G 1 70933 1 0 100 0 0 0            *    a colorful cloak
+M 0 70911 6 70911 100 0 0 0        * the singer
+E 1 70935 2 18 100 0 0 0           *   a singer's lyre
+M 0 70911 6 70911 100 0 0 0        * the singer
+E 1 70935 2 18 100 0 0 0           *   a singer's lyre
+M 0 70911 6 70911 100 0 0 0        * the singer
+M 0 70911 6 70911 100 0 0 0        * the singer
+M 0 70912 1 70912 100 0 0 0        * Rodnex, the Hunter of the Skies
+E 1 70936 1 15 100 0 0 0           *   a bowman's adamantium wristband
+E 1 70967 1 16 100 0 0 0           *   the dagger of Athernon
+M 0 70913 8 70912 100 0 0 0        * the hunter
+E 1 70966 2 16 100 0 0 0           *   a small green dagger
+M 0 70913 8 70912 100 0 0 0        * the hunter
+E 1 70966 2 16 100 0 0 0           *   a small green dagger
+M 0 70913 8 70912 100 0 0 0        * the hunter
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70913 8 70912 100 0 0 0        * the hunter
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70913 8 70912 100 0 0 0        * the hunter
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+G 1 70971 27 0 100 0 0 0           *    a bloody dagger
+M 0 70913 8 70912 100 0 0 0        * the hunter
+M 0 70914 1 70913 100 0 0 0        * Volknur
+E 1 70937 1 9 100 0 0 0            *   some fists of steel
+E 1 70947 1 16 100 0 0 0           *   the Soulrender
+G 1 70907 1 0 100 0 0 0            *    an assassin's key
+F 1 70915 6 70913 100 0 0 0        * the killer (following)
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+F 1 70915 6 70913 100 0 0 0        * the killer (following)
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+M 0 70915 6 70913 100 0 0 0        * the killer
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70915 6 70913 100 0 0 0        * the killer
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70915 6 70913 100 0 0 0        * the killer
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70915 6 70913 100 0 0 0        * the killer
+G 1 70971 27 0 100 0 0 0           *    a bloody dagger
+G 1 70971 27 0 100 0 0 0           *    a bloody dagger
+M 0 70916 1 70915 100 0 0 0        * Nogi
+G 1 70909 1 0 100 0 0 0            *    a paladin's key
+M 0 70917 1 70916 100 0 0 0        * Shiantu
+E 1 70972 1 2 100 0 0 0            *   a ring of barriers
+E 1 70973 1 16 100 0 0 0           *   a star-shaped club
+G 1 70910 1 0 100 0 0 0            *    a shaman's key
+M 0 70918 1 70917 100 0 0 0        * Saint Verdonnaly
+E 1 70974 1 16 100 0 0 0           *   a mace of cleansing
+G 1 70911 1 0 100 0 0 0            *    a cleric's key
+G 1 55325 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70919 1 70919 100 0 0 0        * Zyla the Summoner
+E 1 70975 1 18 100 0 0 0           *   a brimstone staff
+G 1 70913 1 0 100 0 0 0            *    a conjurer's key
+M 0 70920 1 70920 100 0 0 0        * Zephron
+E 1 70976 1 8 100 0 0 0            *   the boots of the four winds
+G 1 70914 1 0 100 0 0 0            *    a steel key
+M 0 70921 1 70921 100 0 0 0        * Deathor
+E 1 70938 1 3 100 0 0 0            *   a necklace of human teeth
+E 1 70977 1 18 100 0 0 0           *   a black crooked wand
+G 1 70915 1 0 100 0 0 0            *    a necromancer's key
+M 0 70922 1 70922 100 0 0 0        * Maxwell
+E 1 70939 1 12 100 0 0 0           *   a dark-blue robe of stars and moons
+G 1 70940 1 0 100 0 0 0            *    the bag of impossibilities
+G 1 70916 1 0 100 0 0 0            *    a sorcerer's key
+M 0 70942 1 70922 100 0 0 0        * Maxwells apprentice
+M 0 70923 1 70924 100 0 0 0        * Breelix, Lord of Thieves
+E 1 70941 1 16 100 0 0 0           *   a sharp blade dripping with blood
+M 0 70924 1 70924 100 0 0 0        * Bearax, Lord of Warriors
+E 1 70943 1 9 100 0 0 0            *   the gauntlets of pounding
+E 1 70942 1 16 100 0 0 0           *   the mighty hammer of Volheru
+M 0 70925 1 70924 100 0 0 0        * Butchelne, Lord of Mercenaries
+E 1 70954 1 5 100 0 0 0            *   the chameleon suit of transformation
+M 0 70926 1 70924 100 0 0 0        * Tiarra, Lord of Bards
+E 1 70980 1 6 100 0 0 0            *   the crown of Lords
+E 1 70946 1 18 100 0 0 0           *   the lyrical lyre
+G 1 70945 1 0 100 0 0 0            *    a bard's axe
+M 0 70927 1 70924 100 0 0 0        * Arthel, Lord of Assassins
+E 1 70948 1 16 100 0 0 0           *   the blade of pain
+G 1 70917 1 0 100 0 0 0            *    a key of convergence
+G 1 55379 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70928 1 70924 100 0 0 0        * Ferron, Lord of Rangers
+E 1 70949 1 18 100 0 0 0           *   the gem of the aerie
+G 1 70961 1 0 100 0 0 0            *    the holy sword of slashing
+M 0 70929 1 70924 100 0 0 0        * Asmuth, the Spirit of All Evil Clerics
+E 1 70952 1 3 100 0 0 0            *   the chaotic necklace
+E 1 70950 1 16 100 0 0 0           *   the vampire vanquisher hammer
+G 1 70951 1 0 100 0 0 0            *    a warm light
+M 0 70930 1 70924 100 0 0 0        * Clarician, Lady of Monks
+E 1 70953 1 18 100 0 0 0           *   the orb of fear
+M 0 70931 1 70924 100 0 0 0        * Bealwiz, Master of Conjurers
+E 1 70968 1 9 100 0 0 0            *   the gloves of magic fingertips
+E 1 70956 1 18 100 0 0 0           *   the wand of the guardian
+G 1 70981 1 0 100 0 0 0            *    a black leather bound spellbook
+M 0 70932 1 70924 100 0 0 0        * Yani, Lord of Necromancers
+E 1 70955 1 18 100 0 0 0           *   the staff of lost souls
+M 0 70933 1 70924 100 0 0 0        * Yoo, the High Spirit of Shamans
+E 1 70983 1 18 100 0 0 0           *   the totem of the ancient shaman spirits
+M 0 70934 1 70924 100 0 0 0        * Basanti, Master of Sorcerers
+E 1 70958 1 2 100 0 0 0            *   the ring of the mad mage
+E 1 70959 1 16 100 0 0 0           *   the staff of superiority
+M 0 70935 1 70924 100 0 0 0        * Belthazor, Demon of Anti-Paladins
+E 1 70960 1 16 100 0 0 0           *   the evil sword of anti-paladins
+M 0 70936 1 70924 100 0 0 0        * Crysanthis, Angel of Paladins
+E 1 70944 1 16 100 0 0 0           *   the shell sword of shock
+M 0 70937 1 70924 100 0 0 0        * Lamor, the Drow Ghost King
+E 1 70962 1 5 100 0 0 0            *   a breastplate melded with drowidian metal
+E 1 70963 1 16 100 0 0 0           *   a huge claymore named 'Pathfinder'
+M 0 70938 1 70924 100 0 0 0        * Fistor, Spirit of All Berserkers
+E 1 70964 1 16 100 0 0 0           *   the berzerker axe
+M 0 70939 1 70924 100 0 0 0        * Jasmine, the Lady of Druids
+E 1 70965 1 16 100 0 0 0           *   a transparent sword
+M 0 70941 1 70925 100 0 0 0        * Kithron
+E 1 70979 1 10 100 0 0 0           *   some scintillating sleeves
+E 1 70978 4 16 100 0 0 0           *   a crimson long sword
+E 1 70978 4 17 100 0 0 0           *   a crimson long sword
+E 1 70978 4 25 100 0 0 0           *   a crimson long sword
+E 1 70978 4 26 100 0 0 0           *   a crimson long sword
+G 1 70970 1 0 100 0 0 0            *    the wand of Life
+G 1 55269 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 70907 5 70926 100 0 0 0        * the cutthroat
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70907 5 70927 100 0 0 0        * the cutthroat
+E 1 70971 27 16 100 0 0 0          *   a bloody dagger
+E 1 70971 27 17 100 0 0 0          *   a bloody dagger
+M 0 70909 6 70928 100 0 0 0        * the robber
+M 0 70909 6 70929 100 0 0 0        * the robber
+M 0 70911 6 70930 100 0 0 0        * the singer
+M 0 70911 6 70931 100 0 0 0        * the singer
+M 0 70913 8 70932 100 0 0 0        * the hunter
+M 0 70913 8 70932 100 0 0 0        * the hunter
+M 0 70906 1 70939 100 0 0 0        * Lobos, the Lord of Vice
+E 1 70924 1 5 100 0 0 0            *   Lobos' leather coat
+E 1 70923 2 16 100 0 0 0           *   a jagged edge of glass
+E 1 70923 2 17 100 0 0 0           *   a jagged edge of glass
+*
+S

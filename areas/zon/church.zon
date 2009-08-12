@@ -1,0 +1,250 @@
+#878
+The &+yChurch &nof the &+mEternal &+LDusk&n~
+87852 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 87820 0 1 100 0 0 0
+*     north exit from "Before a Massive Stone Church" to
+*     "Entrance Hall of a Dark Church" - closed
+*
+D 0 87821 2 1 100 0 0 0
+*     south exit from "Entrance Hall of a Dark Church" to
+*     "Before a Massive Stone Church" - closed
+*
+D 0 87821 1 1 100 0 0 0
+*     east exit from "Entrance Hall of a Dark Church" to
+*     "Storage Room within the Church" - closed
+*
+D 0 87823 3 1 100 0 0 0
+*     west exit from "Storage Room within the Church" to
+*     "Entrance Hall of a Dark Church" - closed
+*
+D 0 87821 3 1 100 0 0 0
+*     west exit from "Entrance Hall of a Dark Church" to
+*     "Supply Room within the Church" - closed
+*
+D 0 87822 1 1 100 0 0 0
+*     east exit from "Supply Room within the Church" to
+*     "Entrance Hall of a Dark Church" - closed
+*
+D 0 87834 0 1 100 0 0 0
+*     north exit from "North End of the Second Story Hallway" to
+*     "A Broad Theatre for the Church Choir" - closed
+*
+D 0 87843 2 1 100 0 0 0
+*     south exit from "A Broad Theatre for the Church Choir" to
+*     "North End of the Second Story Hallway" - closed
+*
+D 0 87834 3 1 100 0 0 0
+*     west exit from "North End of the Second Story Hallway" to
+*     "The Church Interrogation Area" - closed
+*
+D 0 87842 1 1 100 0 0 0
+*     east exit from "The Church Interrogation Area" to
+*     "North End of the Second Story Hallway" - closed
+*
+D 0 87835 3 1 100 0 0 0
+*     west exit from "Along a Gloomy Hallway within the Church" to
+*     "The Bishop's Meditation Area" - closed
+*
+D 0 87841 1 1 100 0 0 0
+*     east exit from "The Bishop's Meditation Area" to
+*     "Along a Gloomy Hallway within the Church" - closed
+*
+D 0 87836 2 1 100 0 0 0
+*     south exit from "Southern End of the Second Story Hallway" to
+*     "A Balcony Looking Out from the Church" - closed
+*
+D 0 87837 0 1 100 0 0 0
+*     north exit from "A Balcony Looking Out from the Church" to
+*     "Southern End of the Second Story Hallway" - closed
+*
+D 0 87836 3 1 100 0 0 0
+*     west exit from "Southern End of the Second Story Hallway" to
+*     "The Church Member Sleeping Quarters" - closed
+*
+D 0 87838 1 1 100 0 0 0
+*     east exit from "The Church Member Sleeping Quarters" to
+*     "Southern End of the Second Story Hallway" - closed
+*
+D 0 87839 0 1 100 0 0 0
+*     north exit from "Outside of the Cardinal's Study" to
+*     "The Cardinal's Private Study" - closed
+*
+D 0 87840 2 1 100 0 0 0
+*     south exit from "The Cardinal's Private Study" to
+*     "Outside of the Cardinal's Study" - closed
+*
+D 0 87842 4 2 100 0 0 0
+*     up exit from "The Church Interrogation Area" to
+*     "Within a Dark and Gloomy Hallway" - closed/locked
+*
+D 0 87848 5 2 100 0 0 0
+*     down exit from "Within a Dark and Gloomy Hallway" to
+*     "The Church Interrogation Area" - closed/locked
+*
+D 0 87849 0 2 100 0 0 0
+*     north exit from "The Jailor's Work Area" to
+*     "Within the Northern Jail Cell" - closed/locked
+*
+D 0 87850 2 2 100 0 0 0
+*     south exit from "Within the Northern Jail Cell" to
+*     "The Jailor's Work Area" - closed/locked
+*
+D 0 87849 1 2 100 0 0 0
+*     east exit from "The Jailor's Work Area" to
+*     "Within the Eastern Jail Cell" - closed/locked
+*
+D 0 87851 3 2 100 0 0 0
+*     west exit from "Within the Eastern Jail Cell" to
+*     "The Jailor's Work Area" - closed/locked
+*
+D 0 87849 2 2 100 0 0 0
+*     south exit from "The Jailor's Work Area" to
+*     "Within the Southern Jail Cell" - closed/locked
+*
+D 0 87852 0 2 100 0 0 0
+*     north exit from "Within the Southern Jail Cell" to
+*     "The Jailor's Work Area" - closed/locked
+*
+*
+O 0 87820 1 87826 100 0 0 0        * a scroll of dried reed
+O 0 87821 1 87826 100 0 0 0        * a scroll of pressed leaf
+O 0 87822 1 87826 100 0 0 0        * a scroll of woven flax
+O 0 87823 1 87826 100 0 0 0        * a large metal case
+P 1 87825 1 87823 100 0 0 0        *   a scroll of rotting parchment
+*
+M 0 87831 1 87820 100 0 0 0        * a wild-eyed agnostic
+E 1 87828 1 20 100 0 0 0           *   a mask of rusted iron
+M 0 87832 1 87821 100 0 0 0        * a church official
+E 1 87829 1 18 100 0 0 0           *   a thick wire-bound tome
+M 0 87833 1 87821 100 0 0 0        * a pompous church spokesman
+E 1 87830 1 16 100 0 0 0           *   a thick walnut mallet
+M 0 87834 1 87821 100 0 0 0        * a cowled church member
+E 1 87831 1 6 100 0 0 0            *   a damp woolen cowl
+M 0 87864 4 87821 100 0 0 0        * a fervent church acolyte
+M 0 87835 1 87822 100 0 0 0        * the church supply clerk
+E 1 87832 1 8 100 0 0 0            *   a pair of spiked ostrich-skin boots
+M 0 87836 1 87822 100 0 0 0        * a dim-witted church member
+E 1 87833 1 7 100 0 0 0            *   a pair of greasy trousers
+M 0 87865 4 87822 100 0 0 0        * a church guardsman
+M 0 87837 1 87823 100 0 0 0        * the work-gang leader
+E 1 87834 1 5 100 0 0 0            *   a spike-shouldered leather jacket
+F 1 87838 2 87823 100 0 0 0        * a brawny work-gang member (following)
+E 1 87838 4 6 100 0 0 0            *   a ribbed iron hard-hat
+E 1 87835 4 8 100 0 0 0            *   a pair of steel-toed work boots
+E 1 87836 4 9 100 0 0 0            *   a pair of thick work gloves
+E 1 87837 4 27 100 0 0 0           *   a leather lifting harness
+F 1 87839 2 87823 100 0 0 0        * a muscular work-gang member (following)
+E 1 87838 4 6 100 0 0 0            *   a ribbed iron hard-hat
+E 1 87835 4 8 100 0 0 0            *   a pair of steel-toed work boots
+E 1 87836 4 9 100 0 0 0            *   a pair of thick work gloves
+E 1 87837 4 27 100 0 0 0           *   a leather lifting harness
+F 1 87838 2 87823 100 0 0 0        * a brawny work-gang member (following)
+E 1 87838 4 6 100 0 0 0            *   a ribbed iron hard-hat
+E 1 87835 4 8 100 0 0 0            *   a pair of steel-toed work boots
+E 1 87836 4 9 100 0 0 0            *   a pair of thick work gloves
+E 1 87837 4 27 100 0 0 0           *   a leather lifting harness
+F 1 87839 2 87823 100 0 0 0        * a muscular work-gang member (following)
+E 1 87838 4 6 100 0 0 0            *   a ribbed iron hard-hat
+E 1 87835 4 8 100 0 0 0            *   a pair of steel-toed work boots
+E 1 87836 4 9 100 0 0 0            *   a pair of thick work gloves
+E 1 87837 4 27 100 0 0 0           *   a leather lifting harness
+M 0 87865 4 87824 100 0 0 0        * a church guardsman
+M 0 87850 1 87825 100 0 0 0        * a meek church academic
+E 1 87848 1 19 100 0 0 0           *   an emerald-rimmed glass monocle
+M 0 87864 4 87825 100 0 0 0        * a fervent church acolyte
+M 0 87820 1 87826 100 0 0 0        * the church head scholar
+G 1 87824 1 0 100 0 0 0            *    a small iron key
+M 0 87844 1 87827 100 0 0 0        * a minotaur church scholar
+E 1 87842 1 3 100 0 0 0            *   a set of copper wire coils
+M 0 87841 1 87828 100 0 0 0        * a scrawny church scholar
+E 1 87840 1 1 100 0 0 0            *   an emerald set on a thin iron band
+M 0 87842 1 87828 100 0 0 0        * a scraggly church scholar
+E 1 87841 1 13 100 0 0 0           *   a thin length of twisted cord
+M 0 87843 1 87828 100 0 0 0        * a skinny church scholar
+E 1 87839 1 14 100 0 0 0           *   a magical time-keeping device
+M 0 87851 1 87829 100 0 0 0        * The church editor
+E 1 87849 1 12 100 0 0 0           *   a red and white striped bodycloak
+M 0 87852 1 87829 100 0 0 0        * the church publisher
+E 1 87850 1 3 100 0 0 0            *   a tight golden chain
+M 0 87864 4 87829 100 0 0 0        * a fervent church acolyte
+M 0 87853 1 87830 100 0 0 0        * a church creative writer
+G 1 87851 1 0 100 0 0 0            *    a steel-tipped peacock feather
+M 0 87854 1 87830 100 0 0 0        * A devoted church spin doctor
+E 1 87852 1 11 100 0 0 0           *   a rusted iron tower shield
+M 0 87855 1 87831 100 0 0 0        * a muscular church member
+E 1 87853 1 1 100 0 0 0            *   a heavy spike-edged ring
+M 0 87856 1 87832 100 0 0 0        * a gnomish inventor
+E 1 87854 1 10 100 0 0 0           *   sleeves scrolled with intricate runes
+M 0 87865 4 87834 100 0 0 0        * a church guardsman
+M 0 87864 4 87836 100 0 0 0        * a fervent church acolyte
+M 0 87865 4 87836 100 0 0 0        * a church guardsman
+M 0 87828 1 87837 100 0 0 0        * a wealthy church patron
+E 1 87827 1 14 100 0 0 0           *   a shriveled band of human flesh
+M 0 87829 1 87837 100 0 0 0        * the patron's scrawny wife
+E 1 87826 1 16 100 0 0 0           *   a blue-tinted knitting needle
+M 0 87830 1 87837 100 0 0 0        * a devout church follower
+E 1 87865 1 16 100 0 0 0           *   a shredded leather flail
+M 0 87825 1 87838 100 0 0 0        * a tired-looking church member
+E 1 87862 1 14 100 0 0 0           *   an ink-covered steel bracer
+M 0 87826 1 87838 100 0 0 0        * a well muscled church member
+E 1 87863 1 13 100 0 0 0           *   a dark sash spun from wire
+M 0 87827 1 87838 100 0 0 0        * a skinny church member
+E 1 87864 1 20 100 0 0 0           *   an opaque mask of coloured glass
+M 0 87824 1 87839 100 0 0 0        * a brawny barbarian bodyguard
+E 1 87858 1 16 100 0 0 0           *   a magnificent silver tomahawk
+M 0 87821 1 87840 100 0 0 0        * the church cardinal
+E 1 87859 1 18 100 0 0 0           *   a staff of swirling smoke and flame
+G 1 87869 1 0 100 0 0 0            *    the cardinal's skull and spine
+F 1 87823 1 87840 100 0 0 0        * the cardinal's food-taster (following)
+E 1 87860 1 13 100 0 0 0           *   a food-splattered apron
+M 0 87822 1 87840 100 0 0 0        * a squint-eyed friar
+E 1 87861 1 7 100 0 0 0            *   a pleated red and blue kilt
+M 0 87861 3 87840 100 0 0 0        * a ravenous imp
+M 0 87861 3 87840 100 0 0 0        * a ravenous imp
+M 0 87861 3 87840 100 0 0 0        * a ravenous imp
+M 0 87860 1 87841 100 0 0 0        * the church bishop
+E 1 87857 1 6 100 0 0 0            *   the crown of unholy saints
+M 0 87862 1 87842 100 0 0 0        * the head church interrogater
+E 1 87866 1 3 100 0 0 0            *   a thin leather cord
+M 0 87857 1 87843 100 0 0 0        * The church choir director.
+E 1 87855 1 20 100 0 0 0           *   a mask of charred flesh
+M 0 87858 2 87843 100 0 0 0        * a gentle-looking choir member
+E 1 87856 4 18 100 0 0 0           *   a book of dark hymns
+M 0 87859 2 87843 100 0 0 0        * a beautiful choir member
+E 1 87856 4 18 100 0 0 0           *   a book of dark hymns
+M 0 87858 2 87843 100 0 0 0        * a gentle-looking choir member
+E 1 87856 4 18 100 0 0 0           *   a book of dark hymns
+M 0 87859 2 87843 100 0 0 0        * a beautiful choir member
+E 1 87856 4 18 100 0 0 0           *   a book of dark hymns
+M 0 87863 1 87844 100 0 0 0        * a zilverran delegate
+E 1 87867 1 5 100 0 0 0            *   obsidian platemail embossed with a silver crest
+M 0 87845 1 87845 100 0 0 0        * a hired warmage
+E 1 87844 1 21 100 0 0 0           *   a spiral woven of smoke
+M 0 87846 1 87846 100 0 0 0        * a massive paladin scout
+E 1 87843 1 16 100 0 0 0           *   a massive ivory-bladed claymore
+M 0 87847 1 87847 100 0 0 0        * a grey-haired paladin field general
+E 1 87845 1 9 100 0 0 0            *   a glowing pair of diamond gauntlets
+M 0 87848 1 87847 100 0 0 0        * a young paladin
+E 1 87846 1 24 100 0 0 0           *   a badge of holy patronage
+M 0 87849 1 87847 100 0 0 0        * a devout dwarven cleric
+E 1 87847 1 3 100 0 0 0            *   a stiff mithril collar
+M 0 87840 1 87849 100 0 0 0        * the church jailor
+G 1 87868 1 0 100 0 0 0            *    a dark iron key
+M 0 87869 1 87850 100 0 0 0        * a large paladin
+M 0 87870 1 87850 100 0 0 0        * a well-groomed knight
+M 0 87871 1 87850 100 0 0 0        * a fierce mercenary
+M 0 87872 1 87851 100 0 0 0        * a master burglar
+M 0 87873 1 87851 100 0 0 0        * a panic-stricken wizard
+M 0 87874 1 87851 100 0 0 0        * a tongue-less bard
+M 0 87866 1 87852 100 0 0 0        * a furious troll
+G 1 87870 1 0 100 0 0 0            *    the ears of a troll
+M 0 87867 1 87852 100 0 0 0        * a depressed ogre warrior
+G 1 87871 1 0 100 0 0 0            *    the skull of an ogre
+M 0 87868 1 87852 100 0 0 0        * a squint-eyed duergar
+G 1 87872 1 0 100 0 0 0            *    the shriveled hand of a duergar
+*
+S

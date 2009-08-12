@@ -1,0 +1,271 @@
+#758
+&n&+yRogue Plains~
+75959 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 75836 2 5 100 0 0 0
+*     south exit from "The Rogue Plains" to
+*     "Behind the Cliffs" - closed/secret
+*
+D 0 75897 0 5 100 0 0 0
+*     north exit from "Behind the Cliffs" to
+*     "The Rogue Plains" - closed/secret
+*
+D 0 75849 0 5 100 0 0 0
+*     north exit from "A Fetid Bog Inside the Camp" to
+*     "Edge of the Bog" - closed/secret
+*
+D 0 75888 2 5 100 0 0 0
+*     south exit from "Edge of the Bog" to
+*     "A Fetid Bog Inside the Camp" - closed/secret
+*
+D 0 75865 1 1 100 0 0 0
+*     east exit from "Through the Ebriham Encampment" to
+*     "A Staging Lodge" - closed
+*
+D 0 75866 3 1 100 0 0 0
+*     west exit from "A Staging Lodge" to
+*     "Through the Ebriham Encampment" - closed
+*
+D 0 75868 1 1 100 0 0 0
+*     east exit from "Through the Ebriham Encampment" to
+*     "A Spirit Lodge" - closed
+*
+D 0 75869 3 1 100 0 0 0
+*     west exit from "A Spirit Lodge" to
+*     "Through the Ebriham Encampment" - closed
+*
+D 0 75871 2 1 100 0 0 0
+*     south exit from "A Mound of Corpses" to
+*     "A Shadow Temple" - closed
+*
+D 0 75872 0 1 100 0 0 0
+*     north exit from "A Shadow Temple" to
+*     "A Mound of Corpses" - closed
+*
+D 0 75905 4 5 100 0 0 0
+*     up exit from "High Above the Plains" to
+*     "A Gathering of Giants" - closed/secret
+*
+D 0 75910 5 5 100 0 0 0
+*     down exit from "A Gathering of Giants" to
+*     "High Above the Plains" - closed/secret
+*
+*
+O 0 75801 2 75809 100 0 0 0        * a blazing bonfire
+O 0 75813 7 75810 100 0 0 0        * some sparse vegetation
+O 0 75813 7 75820 100 0 0 0        * some sparse vegetation
+O 0 75813 7 75843 100 0 0 0        * some sparse vegetation
+O 0 75820 1 75847 100 0 0 0        * a huge obsidian slab
+O 0 75806 2 75854 100 0 0 0        * a pile of corpses
+O 0 75802 1 75855 100 0 0 0        * a blackened altar
+P 1 75823 1 75802 100 0 0 0        *   the rod of assimilation
+O 0 75803 1 75856 100 0 0 0        * a sacrificial pit
+O 0 75811 1 75858 100 0 0 0        * a large watering hole
+O 0 75813 7 75863 100 0 0 0        * some sparse vegetation
+O 0 75804 1 75864 100 0 0 0        * a large yurt
+O 0 75809 1 75866 100 0 0 0        * a large table
+O 0 75805 1 75867 100 0 0 0        * a tether pole
+O 0 75806 2 75871 100 0 0 0        * a pile of corpses
+O 0 75801 2 75873 100 0 0 0        * a blazing bonfire
+O 0 75807 1 75873 100 0 0 0        * a large yurt
+O 0 75813 7 75875 100 0 0 0        * some sparse vegetation
+O 0 75810 1 75895 100 0 0 0        * a wind-blown banner
+O 0 75813 7 75900 100 0 0 0        * some sparse vegetation
+O 0 75816 1 75936 100 0 0 0        * a huge obelisk
+P 1 75835 1 75816 100 0 0 0        *   a pile of coins
+P 1 75847 1 75816 100 0 0 0        *   the medal of giantkind
+P 1 76711 1 75816 100 0 0 0        *   (object type not in this .obj file)
+O 0 75817 1 75937 100 0 0 0        * a flaming portal
+O 0 75818 1 75937 100 0 0 0        * a flaming portal
+O 0 75819 1 75937 100 0 0 0        * a flaming portal
+O 0 75813 7 75943 100 0 0 0        * some sparse vegetation
+*
+M 0 75812 10 75803 100 0 0 0       * a huge buffalo
+G 1 75837 5 0 100 0 0 0            *    a strip of buffalo flesh
+G 1 75843 1 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75812 10 75803 100 0 0 0       * a huge buffalo
+M 0 75805 6 75804 100 0 0 0        * a scourge assassin
+E 1 75812 4 16 100 0 0 0           *   a splintered bone knife
+M 0 75805 6 75804 100 0 0 0        * a scourge assassin
+E 1 75812 4 16 100 0 0 0           *   a splintered bone knife
+M 0 75805 6 75804 100 0 0 0        * a scourge assassin
+E 1 75812 4 16 100 0 0 0           *   a splintered bone knife
+M 0 75806 4 75805 100 0 0 0        * a dingo dog
+M 0 75806 4 75805 100 0 0 0        * a dingo dog
+M 0 75805 6 75806 100 0 0 0        * a scourge assassin
+M 0 75805 6 75806 100 0 0 0        * a scourge assassin
+M 0 75805 6 75806 100 0 0 0        * a scourge assassin
+M 0 75812 10 75808 100 0 0 0       * a huge buffalo
+G 1 75837 5 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75812 10 75808 100 0 0 0       * a huge buffalo
+G 1 75837 5 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75809 4 75809 100 0 0 0        * an ebriham soldier
+M 0 75809 4 75809 100 0 0 0        * an ebriham soldier
+M 0 75810 5 75809 100 0 0 0        * an ebriham steed
+M 0 75806 4 75810 100 0 0 0        * a dingo dog
+M 0 75806 4 75810 100 0 0 0        * a dingo dog
+M 0 75849 3 75820 100 0 0 0        * a tumbleweed
+M 0 75849 3 75820 100 0 0 0        * a tumbleweed
+M 0 75849 3 75820 100 0 0 0        * a tumbleweed
+M 0 75807 4 75822 100 0 0 0        * a dodgehog
+M 0 75807 4 75822 100 0 0 0        * a dodgehog
+M 0 75807 4 75822 100 0 0 0        * a dodgehog
+M 0 75807 4 75822 100 0 0 0        * a dodgehog
+M 0 75812 10 75823 100 0 0 0       * a huge buffalo
+G 1 75844 1 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75812 10 75823 100 0 0 0       * a huge buffalo
+G 1 75845 1 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75804 4 75830 100 0 0 0        * an ebriham sentinel
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75804 4 75830 100 0 0 0        * an ebriham sentinel
+M 0 75804 4 75832 100 0 0 0        * an ebriham sentinel
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75804 4 75832 100 0 0 0        * an ebriham sentinel
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75808 3 75836 100 0 0 0        * a stray warg
+M 0 75808 3 75836 100 0 0 0        * a stray warg
+M 0 75808 3 75836 100 0 0 0        * a stray warg
+M 0 75812 10 75842 100 0 0 0       * a huge buffalo
+G 1 75837 5 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75812 10 75842 100 0 0 0       * a huge buffalo
+G 1 75837 5 0 100 0 0 0            *    a strip of buffalo flesh
+M 0 75816 3 75846 100 0 0 0        * a bog beast
+M 0 75818 5 75847 100 0 0 0        * an acolyte
+M 0 75839 1 75847 100 0 0 0        * a newborn dracolich
+M 0 75845 1 75847 100 0 0 0        * a soul reaper
+M 0 75816 3 75849 100 0 0 0        * a bog beast
+M 0 75816 3 75850 100 0 0 0        * a bog beast
+M 0 75811 3 75852 100 0 0 0        * a phantom ravager
+M 0 75811 3 75852 100 0 0 0        * a phantom ravager
+M 0 75811 3 75852 100 0 0 0        * a phantom ravager
+M 0 75814 3 75853 100 0 0 0        * an apprentice necromancer
+M 0 75814 3 75853 100 0 0 0        * an apprentice necromancer
+M 0 75814 3 75853 100 0 0 0        * an apprentice necromancer
+M 0 75821 2 75854 100 0 0 0        * a flesh fiend
+M 0 75813 3 75855 100 0 0 0        * a lich warlock
+M 0 75813 3 75855 100 0 0 0        * a lich warlock
+M 0 75813 3 75855 100 0 0 0        * a lich warlock
+M 0 75818 5 75856 100 0 0 0        * an acolyte
+M 0 75818 5 75856 100 0 0 0        * an acolyte
+M 0 75810 5 75858 100 0 0 0        * an ebriham steed
+M 0 75810 5 75858 100 0 0 0        * an ebriham steed
+M 0 75820 2 75865 100 0 0 0        * a tribal shaman
+M 0 75823 1 75866 100 0 0 0        * the ebriham chieftain
+E 1 75822 1 8 100 0 0 0            *   the sabatons of the Ebriham
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+E 1 75814 8 17 100 0 0 0           *   a slender tribal blade
+G 1 75825 1 0 100 0 0 0            *    a token of light
+M 0 75828 1 75866 100 0 0 0        * the tribal advisor
+M 0 75833 2 75866 100 0 0 0        * an ebriham sentinel
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75833 2 75866 100 0 0 0        * an ebriham sentinel
+M 0 75810 5 75867 100 0 0 0        * an ebriham steed
+M 0 75810 5 75867 100 0 0 0        * an ebriham steed
+M 0 75817 3 75869 100 0 0 0        * a tribal shaman
+M 0 75817 3 75869 100 0 0 0        * a tribal shaman
+M 0 75821 2 75871 100 0 0 0        * a flesh fiend
+M 0 75815 3 75872 100 0 0 0        * a master necromancer
+M 0 75815 3 75872 100 0 0 0        * a master necromancer
+E 1 75808 1 21 100 0 0 0           *   a sphere of entrapped souls
+M 0 75815 3 75872 100 0 0 0        * a master necromancer
+M 0 75819 2 75873 100 0 0 0        * an ebriham sentinel
+M 0 75819 2 75873 100 0 0 0        * an ebriham sentinel
+E 1 75832 1 8 100 0 0 0            *   some soft leather hiking boots
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75820 2 75873 100 0 0 0        * a tribal shaman
+M 0 75829 3 75874 100 0 0 0        * an ebriham horseman
+E 1 75814 8 16 100 0 0 0           *   a slender tribal blade
+M 0 75829 3 75874 100 0 0 0        * an ebriham horseman
+M 0 75809 4 75878 100 0 0 0        * an ebriham soldier
+M 0 75817 3 75879 100 0 0 0        * a tribal shaman
+M 0 75809 4 75879 100 0 0 0        * an ebriham soldier
+M 0 75836 1 75879 100 0 0 0        * a tribal witchdoctor
+E 1 75821 1 18 100 0 0 0           *   a witchdoctor's staff
+G 1 75850 1 0 100 0 0 0            *    a potion of silence
+M 0 75831 3 75881 100 0 0 0        * a hand of death
+M 0 75831 3 75884 100 0 0 0        * a hand of death
+M 0 75822 3 75887 100 0 0 0        * a legion bloodguard
+E 1 75815 2 16 100 0 0 0           *   a demonic warsword
+M 0 75822 3 75887 100 0 0 0        * a legion bloodguard
+E 1 75815 2 16 100 0 0 0           *   a demonic warsword
+M 0 75822 3 75887 100 0 0 0        * a legion bloodguard
+M 0 75827 3 75889 100 0 0 0        * a legion bloodguard
+M 0 75830 3 75889 100 0 0 0        * a bloodthirsty hellhound
+M 0 75827 3 75890 100 0 0 0        * a legion bloodguard
+M 0 75830 3 75890 100 0 0 0        * a bloodthirsty hellhound
+M 0 75827 3 75891 100 0 0 0        * a legion bloodguard
+M 0 75830 3 75891 100 0 0 0        * a bloodthirsty hellhound
+M 0 75831 3 75893 100 0 0 0        * a hand of death
+G 1 75836 1 0 100 0 0 0            *    some fleshless finger bones
+M 0 75829 3 75894 100 0 0 0        * an ebriham horseman
+M 0 75824 1 75896 100 0 0 0        * the archnecromancer
+E 1 75824 1 10 100 0 0 0           *   some stitched skin sleeves
+G 1 75834 1 0 100 0 0 0            *    a token of undeath
+G 1 75830 1 0 100 0 0 0            *    a skeletal bone key
+M 0 75825 1 75896 100 0 0 0        * a chanting warlock
+M 0 75818 5 75896 100 0 0 0        * an acolyte
+M 0 75818 5 75896 100 0 0 0        * an acolyte
+M 0 75826 1 75897 100 0 0 0        * Sijona, assistant of Balance
+M 0 75837 1 75901 100 0 0 0        * an old tribal sage
+M 0 75801 2 75909 100 0 0 0        * an ebriham horselord
+R 1 75802 2 75909 100 0 0 0        * an ebriham steed (being ridden)
+E 1 75831 1 8 100 0 0 0            *   a pair of whitestone horseshoes
+F 1 75803 4 75909 100 0 0 0        * an ebriham horseman (following)
+F 1 75803 4 75909 100 0 0 0        * an ebriham horseman (following)
+F 1 75841 1 75909 100 0 0 0        * a tribal witchdoctor (following)
+G 1 75851 1 0 100 0 0 0            *    a potion of silence
+M 0 75846 1 75910 100 0 0 0        * a hill giant
+M 0 75847 1 75910 100 0 0 0        * a storm giant
+M 0 75848 1 75910 100 0 0 0        * a cloud giant
+M 0 75842 1 75911 100 0 0 0        * a bickering cloud giant
+M 0 75843 1 75911 100 0 0 0        * a bickering storm giant
+M 0 75832 1 75911 100 0 0 0        * a titan mediator
+M 0 75855 1 75915 100 0 0 0        * a majestic griffon
+M 0 75856 3 75915 100 0 0 0        * an air elemental
+M 0 75856 3 75915 100 0 0 0        * an air elemental
+M 0 75856 3 75915 100 0 0 0        * an air elemental
+M 0 75854 2 75924 100 0 0 0        * a wind walker
+M 0 75854 2 75924 100 0 0 0        * a wind walker
+M 0 75852 3 75928 100 0 0 0        * a HUGE air elemental
+M 0 75852 3 75928 100 0 0 0        * a HUGE air elemental
+M 0 75852 3 75928 100 0 0 0        * a HUGE air elemental
+M 0 75853 3 75929 100 0 0 0        * a wind sylph
+M 0 75853 3 75929 100 0 0 0        * a wind sylph
+M 0 75853 3 75929 100 0 0 0        * a wind sylph
+M 0 75834 1 75934 100 0 0 0        * Mabus
+E 1 75827 1 9 100 0 0 0            *   some spiked gauntlets of the Sixth Legion
+G 1 75826 1 0 100 0 0 0            *    a token of evil
+G 1 75829 1 0 100 0 0 0            *    an obsidian key
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55286 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 75838 1 75934 100 0 0 0        * a legion firebringer
+E 1 75839 1 2 100 0 0 0            *   a ring of hellfire
+M 0 75840 2 75934 100 0 0 0        * a legion bloodguard
+M 0 75840 2 75934 100 0 0 0        * a legion bloodguard
+M 0 75835 1 75938 100 0 0 0        * a wandering orc
+M 0 75812 10 75945 100 0 0 0       * a huge buffalo
+M 0 75812 10 75945 100 0 0 0       * a huge buffalo
+M 0 75801 2 75948 100 0 0 0        * an ebriham horselord
+E 1 75849 1 7 100 0 0 0            *   the greaves of the Ebriham
+E 1 75848 1 12 100 0 0 0           *   a wyvern-hide cloak
+R 1 75802 2 75948 100 0 0 0        * an ebriham steed (being ridden)
+G 1 75828 1 0 100 0 0 0            *    a tanned leather tribal saddle
+F 1 75803 4 75948 100 0 0 0        * an ebriham horseman (following)
+F 1 75803 4 75948 100 0 0 0        * an ebriham horseman (following)
+M 0 75844 1 75949 100 0 0 0        * a lifebane
+E 1 75842 1 16 100 0 0 0           *   a fragmented dracolich bone
+E 1 75812 4 17 100 0 0 0           *   a splintered bone knife
+E 1 75840 1 20 100 0 0 0           *   a lifebane mask
+M 0 75858 1 75949 100 0 0 0        * Keva
+E 1 75857 1 24 100 0 0 0           *   the masters sigil
+M 0 75851 1 75950 100 0 0 0        * a lich warlock
+F 1 75850 2 75950 100 0 0 0        * a phantom ravager (following)
+F 1 75850 2 75950 100 0 0 0        * a phantom ravager (following)
+M 0 75857 1 75951 100 0 0 0        * the windtalker
+E 1 75841 1 13 100 0 0 0           *   the braid of the windtalkers
+E 1 75856 1 21 100 0 0 0           *   an earring of the maelstrom
+*
+S

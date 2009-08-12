@@ -1,0 +1,302 @@
+#36600
+Brads Wandering Mobile Zone~
+This can be used to load 'wandering' mobiles in a somewhat random fashion.
+It is set up so that there are probability rooms as well as loading rooms.
+Refer to room descs for instructions. This section is used for LLZAZAN
+GHETTO - ARACHDRATHOS, CITY OF THE DROW.
+~
+366 142639120 0
+D0
+~
+~
+0 0 36601
+D1
+~
+~
+0 0 36602
+D2
+~
+~
+0 0 36603
+D3
+~
+~
+0 0 36604
+D4
+~
+~
+0 0 36605
+D5
+~
+~
+0 0 36606
+S
+#36601
+Rothe Area~
+Mobs in this room will go to the rothe area.
+~
+366 142639120 0
+D0
+~
+~
+0 0 36280
+D1
+~
+~
+0 0 36281
+D2
+~
+~
+0 0 36278
+D3
+~
+~
+0 0 36288
+D4
+~
+~
+0 0 36283
+D5
+~
+~
+0 0 36276
+S
+#36602
+Mushroom Grove~
+These mobs will load in the mushroom grove.
+~
+366 142639120 0
+D0
+~
+~
+0 0 36312
+D1
+~
+~
+0 0 36265
+D2
+~
+~
+0 0 36267
+D3
+~
+~
+0 0 36263
+D4
+~
+~
+0 0 36313
+D5
+~
+~
+0 0 36267
+S
+#36603
+Svirfneblin Slave Camp~
+Mobs here will load to the Svirfneblin slave camp.
+~
+366 142639120 0
+D0
+~
+~
+0 0 36210
+D1
+~
+~
+0 0 36212
+D2
+~
+~
+0 0 36214
+D3
+~
+~
+0 0 36205
+D4
+~
+~
+0 0 36207
+D5
+~
+~
+0 0 36209
+S
+#36604
+Llzazan fungus farms~
+This willl load in the fungus farms area.
+~
+366 142639120 0
+D0
+~
+~
+0 0 36293
+D1
+~
+~
+0 0 36294
+D2
+~
+~
+0 0 36296
+D3
+~
+~
+0 0 36239
+D4
+~
+~
+0 0 36297
+D5
+~
+~
+0 0 36295
+S
+#36605
+Lower Llzazan Ghetto~
+These mobs will load in lower Llzazan Ghetto
+~
+366 142639120 0
+D0
+~
+~
+0 0 36378
+D1
+~
+~
+0 0 36377
+D2
+~
+~
+0 0 36366
+D3
+~
+~
+0 0 36331
+D4
+~
+~
+0 0 36340
+D5
+~
+~
+0 0 36325
+S
+#36606
+Upper Llzazan Ghetto~
+These mobs will loa din the upper ghetto
+~
+366 142639120 0
+D0
+~
+~
+0 0 36343
+D1
+~
+~
+0 0 36317
+D2
+~
+~
+0 0 36355
+D3
+~
+~
+0 0 36363
+D4
+~
+~
+0 0 36353
+D5
+~
+~
+0 0 36350
+S
+#36607
+50 percent~
+Mobs loading in this room have a 50 percent chance of entering game
+~
+366 142639120 0
+D4
+~
+~
+0 0 36600
+D5
+~
+~
+0 0 36608
+S
+#36608
+The Cosmic Toilet~
+Mobs in this room wil not make it into game this boot.
+~
+366 142639120 0
+S
+#36609
+25 percent~
+Mobs loading in this room have a 25 percent chance of entering game
+~
+366 142639120 0
+D4
+~
+~
+0 0 36607
+D5
+~
+~
+0 0 36608
+S
+#36610
+12.5 percent~
+Mobs loading in this room have a 12.5 percent chance of entering game
+~
+366 142639120 0
+D4
+~
+~
+0 0 36609
+D5
+~
+~
+0 0 36608
+S
+#36611
+6.25 percent~
+Mobs loading in this room have a 6.5 percent chance of entering game
+~
+366 142639120 0
+D4
+~
+~
+0 0 36610
+D5
+~
+~
+0 0 36608
+S
+#36612
+3.125 percent~
+~
+366 142639120 0
+D4
+~
+~
+0 0 36611
+D5
+~
+~
+0 0 36608
+S
+#36613
+1.0625 percent~
+Mobs in this room won't load very often but better kick ass.
+~
+366 142639120 0
+D4
+~
+~
+0 0 36612
+D5
+~
+~
+0 0 36608
+S

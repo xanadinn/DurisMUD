@@ -1,0 +1,3459 @@
+#82500
+&+yA Well Worn &+LPath&n~
+&+y   This path appears to be constantly used. Even now it is being used by both
+&+ytrade caravans and military transports. Not far north is the city of
+&+MMyrabolus&+y, capital of the defending armies. Directly south is No Man's Land.
+&+yA wide area where hundreds of thousands have died both attacking and
+&+ydefending the city. Row after row of crosses systematically flank this road,
+&+yproving this could just possibly be the most sought after strategic location
+&+yon the continent.&n
+~
+825 33554444 2
+D0
+~
+~
+0 0 82501
+D1
+~
+~
+0 0 82633
+D2
+~
+~
+0 0 513674
+D3
+~
+~
+0 0 513273
+S
+#82501
+The &+YGates&n of &+MMyrabolus&n~
+   Rumors have said that even the &+rimmortals&n themselves have not been able
+to penetrate the walls of this amazing city. The &+Ygates&n are made of four
+feet of solid &+yoak&n, the &+Wwalls&n, six feet of &+Lstone&n. To physically break in
+would be next to impossible, but intruders must also be warned of not
+the &+Rarch&+Wers&n watching carefully in the twin parapets above, but the immense
+&+barcane energies&n that have been fused with both these &+Wwalls&n and &+Ygates&n,
+protecting from any sort of &+bmagical&n entry.
+~
+825 33554440 2
+D0
+~
+~
+0 0 82502
+D2
+~
+~
+0 0 82500
+S
+#82502
+&+MMyrabolus&n &+LHigh&nway - &+YGate &+LRoad&n Intersection~
+   This is the first main insection in the city. &+YGate &+LRoad&n runs east
+to west parallel &+CMarket &+LRoad&n and &+yAncients Avenue&n. Inside the gates
+a huge &+Rred&n painted sign reads:
+        &+W'Welcome to &+MMyrabolus&+W, Home of the &+gHunters&n.'
+The peaceful citizens of the town welcome all visitors warmly and offer
+directions to all this great city's attractions.  The Highway here runs
+straight north here, directly towards the palace gates.&n
+~
+825 33554440 1
+D0
+~
+~
+0 0 82503
+D1
+~
+~
+0 0 82504
+D2
+~
+~
+0 0 82501
+D3
+~
+~
+0 0 82505
+S
+#82503
+&+MMyrabolus &+LHigh&nway~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82510
+D2
+~
+~
+0 0 82502
+S
+#82504
+&+YGate &+LRoad&n East~
+   To the east of the &+MMyrabolan&n &+LHigh&nway, &+YGate &+LRoad&n follows to
+&+BSkylight&+L Lane&n. As with both sides of the street, this road is acts as
+the secondary defence line of the city where numerous housing blocks are
+dedicated solely for the military infantry.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82509
+D3
+~
+~
+0 0 82502
+D4
+~
+~
+0 0 82508
+S
+#82505
+&+YGate &+LRoad&n West~
+   &+YGate&+L Road&n continues west of the &+LHigh&nway providing access to
+the primary residential sector of the city. As well as commoners who
+travel and live here it also acts as a defence parimeter for the city
+itself. Secondary &+Wsoldiers&n, &+Gpeacekeepers&n, and &+Cgate guards&n all
+have barracks along this road.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82502
+D3
+~
+~
+0 0 82506
+D4
+~
+~
+0 0 82507
+S
+#82506
+&+YGate &+LRoad&n West~
+   &+YGate&+L Road&n continues west of the &+LHigh&nway providing access to
+the primary residential sector of the city. As well as commoners who
+travel and live here it also acts as a defence parimeter for the city
+itself. Secondary &+Wsoldiers&n, &+Gpeacekeepers&n, and &+Cgate guards&n all
+have barracks along this road.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82621
+D1
+~
+~
+0 0 82505
+D3
+~
+~
+0 0 82538
+S
+#82507
+An Archer's Parapet~
+&+LThis room is built by the same&n sturdy&+L, &+Bmagical&+L, &+Wwhite&+L stone that the city
+&+Wwalls &+Lare created from. A ladder leads down to the Gate Road and continues
+&+Lup to the open ceiling, that is used for carrier &+wpig&+leons &+Lsending scout&+L
+&+Lreports to the palace. A slit is open in west, south, and east &+Wwalls&+L just
+&+Lnarrow enough to give the &+Rarch&+Wers &+Ltargetting space.
+~
+825 33554440 1
+D5
+~
+~
+0 0 82505
+S
+#82508
+An Archer's Parapet~
+&+LThis room is built by the same&n sturdy&+L, &+Bmagical&+L, &+Wwhite&+L stone that the city
+&+Wwalls &+Lare created from. A ladder leads down to the &+YGate&n &+LRoad and continues
+&+Lup to the open ceiling, that is used for carrier &+wpig&+leons &+Lsending scout&+L
+&+Lreports to the palace. A slit is open in west, south, and east &+Wwalls&+L just
+&+Lnarrow enough to give the &+Rarch&+Wers &+Ltargetting space.
+~
+825 33554440 1
+D5
+~
+~
+0 0 82504
+S
+#82509
+&+YGate &+LRoad&n East~
+   To the east of the &+MMyrabolan&n &+LHigh&nway, &+YGate &+LRoad&n follows to
+&+BSkylight&+L Lane&n. As with both sides of the street, this road is acts as
+the secondary defence line of the city where numerous housing blocks are
+dedicated solely for the military infantry.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82622
+D1
+~
+~
+0 0 82565
+D3
+~
+~
+0 0 82504
+S
+#82510
+&+MMyrabolus &+LHigh&nway - &+CMarket &+LRoad&n Intersection~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area. &n
+~
+825 33554440 1
+D0
+~
+~
+0 0 82514
+D1
+~
+~
+0 0 82512
+D2
+~
+~
+0 0 82503
+D3
+~
+~
+0 0 82511
+S
+#82511
+&+CMarket &+LRoad&n West~
+   Running west off the &+MMyrabolus &+LHigh&nway, &+CMarket&n &+LRoad&n is the
+designated &+Bcommerce&n center of the city. It also happens to be the loudest
+area in the city where the shouts of hundreds of humaniods mingle together
+in an obscence display of &+Minter&n-&+Yracial&n bartering.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82573
+D1
+~
+~
+0 0 82510
+D3
+~
+~
+0 0 82513
+S
+#82512
+&+CMarket &+LRoad &nEast~
+   On the east side of the &+LHigh&nway, &+CMarket&+L Road&n continues
+with the shouts of venders and bustling shoppers. Amongst the stores
+the town &+mBlacksmith&n and the &+rMagistrate's&n spiritual advisor
+can also be found. The majority of the shop owners here are close
+personal friends with the &+gHunters&n and have put that to use for
+financial purposes.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82558
+D3
+~
+~
+0 0 82510
+S
+#82513
+&+CMarket &+LRoad &nWest~
+   Running east to west off the &+MMyrabolus &+LHigh&nway, &+CMarket&n &+LRoad&n is the
+designated &+Bcommerce&n center of the city. It also happens to be the loudest
+area in the city where the shouts of hundreds of humaniods mingle together
+in an obscence display of &+Minter&n-&+Yracial&n bartering.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82511
+D2
+~
+~
+0 0 82600
+D3
+~
+~
+0 0 82543
+S
+#82514
+&+MMyrabolus&n &+LHigh&nway~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82515
+D2
+~
+~
+0 0 82510
+S
+#82515
+&+MMyrabolus &+WFountain&n &+YPlaza~
+   Here, the &+Lhigh&nway intersects with &+yAncients Avenue&n and although
+the avenue is most of the time the quietest street in the city, the &+Yplaza
+has become the symbol of the &+Lbal&+Wance&n between the &+gHunters&n and their patron
+&+rMagistrate&n. The fountain is contructed from &+Wwhite &+wmarble&n and shaped like
+the &+MMyrabolan&n elite guard's cresent &+Wmoon&n insignia with a &+Lblack&n stone
+sword rising from the &+Wfountain's&n base to impale the &+Wmoon&n.  It represents
+the &+Lbal&+Wance&n of &+Wlight&n and &+Ldarkness&n and the spirit of &+MMyrabolus.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82524
+D1
+~
+~
+0 0 82516
+D2
+~
+~
+0 0 82514
+D3
+~
+~
+0 0 82517
+S
+#82516
+&+yAncients Avenue~
+   East of the &+MMyrabolus &+LHigh&nway, &+yAncients Avenue&n is home to three
+of the six resident &+gHunters&n of &+MMyrabolus&n.  The homes begin a
+block away from the &+Lhigh&nway for quieter, more comfortable living.
+The &+gHunters&n have such a influence over the city's &+rMagistrate&n, he
+is willing to provide any service they require. Including, this, their
+own avenue.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82551
+D3
+~
+~
+0 0 82515
+S
+#82517
+&+yAncients Avenue~
+   Unlike the loud section of &+CMarket &+LRoad&n, this street is basically
+deserted and eerily quiet. Only the praticed ever venture here in hopes of
+maturing their skills by the well known teachers who live in their
+nonscript housing blocks.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82515
+D3
+~
+~
+0 0 82518
+S
+#82518
+&+yAncients Avenue~
+   Unlike the loud section of &+CMarket &+LRoad&n, this street is basically
+deserted and eerily quiet. Only the praticed ever venture here in hopes of
+maturing their skills by the well known teachers who live in their
+nonscript housing blocks. A simple wooden &+Wsign&n denotes the resident
+of each house.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82519
+D1
+~
+~
+0 0 82517
+D3
+~
+~
+0 0 82520
+E
+sign~
+&+WEntrance to Rol&+Land&+W'&+Ls&+W humble home.
+&+WPlease leave boots at the door.
+~
+S
+#82519
+&+WRol&+Land&+W'&+Ls&n House~
+&+W   Rol&+Land&n, the legendary &+Wswords&+Lman&n, sits in his living room
+drinking a mug of &+yale&n. If he noticed entry he gives no indication.
+The room is sparesly, yet comfortably furnished and their seem to be exits
+to the kitchen, bathroom, bedroom, none of which you have any wish on
+entering or doubt &+WRol&+Land&n himself would let you. The room is empty now as
+the legendary &+ghunter&n must be out travelling, most likely on the way to
+battle the forces of&+r armageddon&n.&n
+~
+825 33554440 1
+D2
+~
+door~
+1 0 82518
+S
+#82520
+&+yAncients Avenue~
+   Unlike the loud section of &+CMarket &+LRoad&n, this street is basically
+deserted and eerily quiet. Only the praticed ever venture here in hopes of
+maturing their skills by the well known teachers who live in their
+nonscript housing blocks. A simple wooden &+csign&n denotes the resident
+of each house.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82518
+D2
+~
+~
+0 0 82547
+D3
+~
+~
+0 0 82521
+E
+sign~
+&+cStudents of the arcane arts welcome at &+LXavier&+c'&+cs tower.
+&+cMysticisms, Myrabolan Arcanus, Bantar Warlocks.
+~
+S
+#82521
+&+yAncients Avenue~
+   Unlike the loud section of &+CMarket &+LRoad&n, this street is basically
+deserted and eerily quiet. Only the praticed ever venture here in hopes of
+maturing their skills by the well known teachers who live in their
+nonscript housing blocks. A &+rsign&n denotes the resident of each house.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82522
+D1
+~
+~
+0 0 82520
+D3
+~
+~
+0 0 82523
+E
+sign~
+&+rHero of the Axe, &+RAj&+Lax&+r the mighty looks forward
+&+rto those willing to learn the true arts of
+&+rhand-to-hand combat.
+~
+S
+#82522
+&+RAj&+Lax's &+rArena~
+   &+rThis room is dedicated to all of the well-known melee combat
+&+rtechniques, foremost being axe and polearm training. A few trainees
+&+rcan be seen praticing hand-to-hand combat in the corner as &+RAj&+Lax
+&+rwatches and studies, occasionally offering tips or advice on their
+&+rskills.
+~
+825 33554440 1
+D2
+~
+door~
+1 0 82521
+S
+#82523
+&+bAphantan&n &+yAvenue&n and &+yAncients Avenue~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82545
+D1
+~
+~
+0 0 82521
+D2
+~
+~
+0 0 82546
+S
+#82524
+&+MMyrabolus&n &+LHigh&nway~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82525
+D2
+~
+~
+0 0 82515
+S
+#82525
+&+MMyrabolus&n &+LHigh&nway - &+LProtection&n &+cStreet&n Intersection~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82526
+D1
+~
+~
+0 0 82530
+D2
+~
+~
+0 0 82524
+D3
+~
+~
+0 0 82531
+S
+#82526
+&+MMyrabolus&n &+LHigh&nway~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82527
+D2
+~
+~
+0 0 82525
+S
+#82527
+&+MMyrabolus&n &+LHigh&nway~
+   This road is the central &+Lhigh&nway of the entire &+Mcity&n, leading north
+to the grand &+Wpalace&n and south heading towards the &+Ygates&n, eventually
+becoming the &+ydirt&n road to the ravaged battle grounds.  &+LStreets&n arch
+out both east and west every block or two in an accurate systematic
+design. Inbetween each street block, civilian homes make up the rest
+of the area.
+~
+825 33554444 1
+D0
+~
+~
+0 0 82528
+D2
+~
+~
+0 0 82526
+S
+#82528
+The Palace Gates~
+   The &+MMyrabolus &+LHigh&nway ends here. North leads into the &+cziggurat &+Wpalace,&n
+a tarraced pyramid, with an arched gateway depicating the image of a
+straight-edged sword thrust through a &+Wcresent moon&n formed from &+Wwhite&n rock
+around the doors. Only a single &+cguardsman&n ever protects the &+Ygate&n, believing
+no enemy could ever make it this far north into the city. The single &+cguard&n
+symbolizes the self-righteousness of the elite protectors.
+~
+825 33554440 1
+D0
+~
+gate gates~
+3 82537 82529
+D2
+~
+~
+0 0 82527
+S
+#82529
+In the Halls of the &+cZiggurat&n &+WPalace~
+   This hallway leads up to the pinnacle of the &+Wpalace&n. On every floor
+there is a brief landing then another staircase.  Specialized rooms for
+the politicians break off every floor, all unaccessable.  The &+csecurity
+is fairly tight here and the &+Wpalace &+cguards&n are anything but few and
+far between.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82654
+D2
+~
+gates gate~
+3 82537 82528
+D3
+~
+~
+0 0 82655
+D4
+~
+~
+0 0 82603
+S
+#82530
+&+LProtection&n &+cStreet&n East~
+   The east side of &+cProtection&n &+LStree&n is yet another residential
+sector of the city.  It runs from the &+LHigh&nway to the fallen wreckage
+of the &+Yspell&+Ljammer&n, only a few blocks long. &+WCresent Concourse&n arches
+out from the north eastern end and circles around the &+Wpalace&n to
+&+cProtection &+LStreet&n West.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82535
+D3
+~
+~
+0 0 82525
+D4
+~
+~
+0 0 82536
+S
+#82531
+&+LProtection &+cStreet&n West~
+   Running from &+bAphantan&n &+yAvenue&n to the &+MMyrabolus &+LHigh&nway,
+&+cProtection &+LStreet&n West is home to many of the city commoners as
+well as a the last guard towers before the &+Wpalace&n, built on either
+side of the &+Lhigh&nway. &+WCresent Concourse&n can only be accessed
+from this &+Lstreet&n for those wishing a tour around the &+Wpalace&n.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82525
+D3
+~
+~
+0 0 82585
+D4
+~
+~
+0 0 82533
+S
+#82532
+Inside the &+yHull&n of a Fallen &+YSpell&+LJammer&n~
+   It appears that no person has been down here since the &+YSpell&+LJammer
+crashed so many years ago. It has a musty odour givin off by the decaying
+wood and it appears &+rtermites&n have made a lunch out of the support planks.
+Although not pleasant for the more civilized races, something has made
+a home here and it doesn't look happy to be disturbed.
+~
+825 9 0
+D2
+~
+~
+0 0 82588
+D4
+~
+plank~
+5 0 82584
+S
+#82533
+&+WUp a Steel Ladder~
+   A ladder leads up and down, built into the &+Wwhite stone&n walls of
+the &+Warc&+Rhers&n parapet. This serves as access to one of the last
+two defence towers before the palace.
+~
+825 33554440 1
+D4
+~
+~
+0 0 82534
+D5
+~
+~
+0 0 82531
+F
+40
+S
+#82534
+&+WPalace&n Parapet~
+   Just a couple blocks from the &+Wpalace&n, &+Mtwo&n &+Ltowers&n raise above
+the city on each side of the highway. They are the last and very
+rarely used defense against &+Lair&+yships&n and &+Gdragon&n and &+ygrif&+wfon&n riders.
+Not only are the most elite &+Warc&+rhers&n stationed in these &+Ltowers&n as well
+a mechanical, perhaps even &+bmagical&n, contrapation that appears to sling
+a dozen &+war&+rrows&n at a time.
+~
+825 33554440 1
+D5
+~
+~
+0 0 82533
+S
+#82535
+&+LProtection&n &+cStreet&n East~
+   The east side of &+cProtection&n &+LStree&n is yet another residential
+sector of the city.  It runs from the &+LHigh&nway to the fallen wreckage
+of the &+Yspell&+Ljammer&n, only a few blocks long. &+WCresent Concourse&n arches
+out from the north eastern end and circles around the &+Wpalace&n to
+&+cProtection &+LStreet&n West.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82581
+D3
+~
+~
+0 0 82530
+S
+#82536
+&+WUp a Steel Ladder~
+   A ladder leads up and down, built into the &+Wwhite stone&n walls of
+the &+Warc&+Rhers&n parapet. This serves as access to one of the last
+two defence towers before the palace.
+~
+825 33554440 1
+D4
+~
+~
+0 0 82537
+D5
+~
+~
+0 0 82530
+F
+40
+S
+#82537
+Palace Parapet~
+   Just a couple blocks from the &+Wpalace&n, &+Mtwo&n &+Ltowers&n raise above
+the city on each side of the highway. They are the last and very
+rarely used defense against &+Lair&+yships&n and &+Gdragon&n and &+ygrif&+wfon&n riders.
+Not only are the most elite &+Warc&+rhers&n stationed in these &+Ltowers&n as well
+a mechanical, perhaps even &+bmagical&n, contrapation that appears to sling
+a dozen &+war&+rrows&n at a time.
+~
+825 33554440 1
+D5
+~
+~
+0 0 82536
+S
+#82538
+&+YGate &+LRoad&n West~
+   &+YGate&+L Road&n continues west of the &+LHigh&nway providing access to
+the primary residential sector of the city. As well as commoners who
+travel and live here it also acts as a defence parimeter for the city
+itself. Secondary &+Wsoldiers&n, &+Gpeacekeepers&n, and &+Cgate guards&n all
+have barracks along this road.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82506
+D2
+~
+~
+0 0 82624
+D3
+~
+~
+0 0 82539
+S
+#82539
+&+YGate &+LRoad&n West~
+   &+YGate&+L Road&n continues west of the &+LHigh&nway providing access to
+the primary residential sector of the city. As well as commoners who
+travel and live here it also acts as a defence parimeter for the city
+itself. Secondary &+Wsoldiers&n, &+Gpeacekeepers&n, and &+Cgate guards&n all
+have barracks along this road.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82538
+D3
+~
+~
+0 0 82540
+S
+#82540
+&+bAphantan&n &+yAvenue&n and &+YGate &+LRoad~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82541
+D1
+~
+~
+0 0 82539
+S
+#82541
+&+bAphantan&n &+yAvenue~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82542
+D2
+~
+~
+0 0 82540
+S
+#82542
+&+bAphantan&n &+yAvenue&n and &+CMarket &+LRoad~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82546
+D1
+~
+~
+0 0 82544
+D2
+~
+~
+0 0 82541
+S
+#82543
+&+CMarket &+LRoad&n West~
+   Running east to west off the &+MMyrabolus &+LHigh&nway, &+CMarket&n &+LRoad&n is the
+designated &+Bcommerce&n center of the city. It also happens to be the loudest
+area in the city where the shouts of hundreds of humaniods mingle together
+in an obscence display of &+Minter&n-&+Yracial&n bartering.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82601
+D1
+~
+~
+0 0 82513
+D3
+~
+~
+0 0 82544
+S
+#82544
+&+CMarket &+LRoad&n West~
+   Running east to west off the &+MMyrabolus &+LHigh&nway, &+CMarket&n &+LRoad&n is the
+designated &+Bcommerce&n center of the city. It also happens to be the loudest
+area in the city where the shouts of hundreds of humaniods mingle together
+in an obscence display of &+Minter&n-&+Yracial&n bartering.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82543
+D2
+~
+~
+0 0 82602
+D3
+~
+~
+0 0 82542
+S
+#82545
+&+bAphantan&n &+yAvenue~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82570
+D1
+~
+curtain~
+1 0 82571
+D2
+~
+~
+0 0 82523
+S
+#82546
+&+bAphantan&n &+yAvenue~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82523
+D2
+~
+~
+0 0 82542
+S
+#82547
+&+CTower Entrance~
+   The &+Ctower&n of the &+Lwarlocks&n leads up from this foyer. Historically, the
+&+Lwarlock&n class has been all of the chaotic evil alignments. Now, this
+&+Ctower&n dedicated to the preservation of true &+Lbal&+Wance&n, acts as
+a second home for &+Lwarlocks&n who seek neutrality in their arts.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82520
+D4
+~
+~
+0 0 82548
+S
+#82548
+Up the &+CTower&n Stairs~
+   A &+Lsp&+mir&+Mli&nng staircase leads up to the observatory where
+&+LXavier&n can be found a majority of the time when he is in the city.
+The walls of the tower are built from the same &+Wwhite&n stone that
+encases the city in a fairly square-shaped design. The tower walls,
+however, have been infused with a special, additional, form of &+bmagical&n
+wards.
+~
+825 33554440 1
+D4
+~
+~
+0 0 82549
+D5
+~
+~
+0 0 82547
+S
+#82549
+Up the &+CTower&n Stairs~
+   A &+Lsp&+mir&+Mli&nng staircase leads up to the observatory where
+&+LXavier&n can be found a majority of the time when he is in the city.
+The walls of the tower are built from the same &+Wwhite&n stone that
+encases the city in a fairly square-shaped design. The tower walls,
+however, have been infused with a special, additional, form of &+bmagical&n
+wards.
+~
+825 33554440 1
+D4
+~
+~
+0 0 82550
+D5
+~
+~
+0 0 82548
+S
+#82550
+The &+WObservatory&n~
+   &+WThe Observatory is &+LXavier&+W'&+Ls &+Wpersonal study areas From this room
+&+Whe studies the sun, the moon, and the stars, and their &+Wrelationships
+&+Wwith each other. There is no ceiling to this room, enabling full view
+&+Wto the skies.  Students in the arcane arts travel across the world to
+&+Wvisit this tower hoping to one day, like &+LXavier&+W himself, to unlock
+&+Wa new form of magic.&n
+~
+825 33554440 1
+D2
+~
+sealed~
+2 82538 82627
+D5
+~
+~
+0 0 82549
+S
+#82551
+&+yAncients Avenue~
+   East of the &+MMyrabolus &+LHigh&nway, &+yAncients Avenue&n is home to three
+of the six resident &+gHunters&n of &+MMyrabolus&n.  The homes begin a
+block away from the &+Lhigh&nway for quieter, more comfortable living.
+The &+gHunters&n have such a influence over the city's &+rMagistrate&n, he
+is willing to provide any service they require. Including, this, their
+own avenue.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82553
+D2
+~
+door~
+1 0 82552
+D3
+~
+~
+0 0 82516
+S
+#82552
+&+BA Plush Living Room~
+   &+bThis house seems to be alot nicer than even the more modest homes
+&+balong &+yAncients Avenue&+b. A large sofa leans against the south wall and
+&+blarge, comfortable chairs are spread around in a fairly well decorated
+&+bdesign. A blue curtain blocks off the room to the east.&n
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82551
+D1
+~
+~
+0 0 82625
+S
+#82553
+&+yAncients Avenue~
+   East of the &+MMyrabolus &+LHigh&nway, &+yAncients Avenue&n is home to three
+of the six resident &+gHunters&n of &+MMyrabolus&n.  The homes begin a
+block away from the &+Lhigh&nway for quieter, more comfortable living.
+The &+gHunters&n have such a influence over the city's &+rMagistrate&n, he
+is willing to provide any service they require. Including, this, their
+own avenue.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82554
+D1
+~
+~
+0 0 82555
+D3
+~
+~
+0 0 82551
+S
+#82554
+&+cFl&+Lag&+car&+L's Room~
+   &+cThis room almost looks identical to &+WRol&+Land's&+c. Same sparse
+&+cfurniture, same basic makeup. Of course this is not &+WRol&+Land's &+chome,
+&+cit is home to the only grey elf member of the &+gHunters&+c, Fl&+Lag&+car.
+&+cHe often lounges in a plush chair opposite the doorway, enjoying his
+&+cretirement completely, but at the moment, the chair is empty and
+&+cthere is no sign of this legendary &+gHunter&+c.&n
+~
+825 33554568 1
+D2
+~
+door~
+1 0 82553
+S
+#82555
+&+yAncients Avenue~
+   East of the &+MMyrabolus &+LHigh&nway, &+yAncients Avenue&n is home to three
+of the six resident &+gHunters&n of &+MMyrabolus&n.  The homes begin a
+block away from the &+Lhigh&nway for quieter, more comfortable living.
+The &+gHunters&n have such a influence over the city's &+rMagistrate&n, he
+is willing to provide any service they require. Including, this, their
+own avenue.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82557
+D2
+~
+door~
+1 0 82556
+D3
+~
+~
+0 0 82553
+S
+#82556
+&+LEth&+Wan's&N House~
+   This residence is a &+Ytrophy&n hunters dream. &+yDeer&n heads, stuffed &+Wbi&+Lrds,
+and bearskin carpets make up most of the decorations.  There is a &+Msofa&n
+against the south wall opposite the doorway so &+LEth&+Wan&n can watch the &+Lroad
+outside when hes home and relaxing.  A table set for two is aligned
+with the east wall, indicating &+LEth&+Wan&n must be expecting company,
+however, oddly enough, it seems no one is home at the moment.&n
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82555
+S
+#82557
+&+BSkylight &+LLane &nand &+yAncients Avenue&n Corner~
+   &+BSkylight &+LLane&n ends and intersects with &+yAncients Avenue&n here.
+To the north the wreckage of a monolithic &+Yspell&+Ljammer&n rests like
+the corpse of a monsterous &+Wstorm &+Lgiant&n. Debris from the wreckage
+has been cleaned from this street corner so tourists have a clear
+walk-through of the area.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82564
+D2
+~
+~
+0 0 82562
+D3
+~
+~
+0 0 82555
+S
+#82558
+&+CMarket &+LRoad&n East~
+   On the east side of the &+LHigh&nway, &+CMarket&+L Road&n continues
+with the shouts of venders and bustling shoppers. Amongst the stores
+the town &+mBlacksmith&n and the &+rMagistrate's&n spiritual advisor
+can also be found. The majority of the shop owners here are close
+personal friends with the &+gHunters&n and have put that to use for
+financial purposes.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82589
+D1
+~
+~
+0 0 82559
+D3
+~
+~
+0 0 82512
+S
+#82559
+&+CMarket &+LRoad&n East~
+   On the east side of the &+LHigh&nway, &+CMarket&+L Road&n continues
+with the shouts of venders and bustling shoppers. Amongst the stores
+the town &+mBlacksmith&n and the &+rMagistrate's&n spiritual advisor
+can also be found. The majority of the shop owners here are close
+personal friends with the &+gHunters&n and have put that to use for
+financial purposes.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82591
+D1
+~
+~
+0 0 82560
+D2
+~
+~
+0 0 82590
+D3
+~
+~
+0 0 82558
+S
+#82560
+&+CMarket &+LRoad&n East~
+   On the east side of the &+LHigh&nway, &+CMarket&+L Road&n continues
+with the shouts of venders and bustling shoppers. Amongst the stores
+the town &+mBlacksmith&n and the &+rMagistrate's&n spiritual advisor
+can also be found. The majority of the shop owners here are close
+personal friends with the &+gHunters&n and have put that to use for
+financial purposes.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82620
+D1
+~
+~
+0 0 82561
+D3
+~
+~
+0 0 82559
+S
+#82561
+&+BSkylight &+LLane &nand &+CMarket &+LRoad~
+   &+BSkylight&n &+LLane&n, the street running parallel to the &+MMyrabolan&n
+&+LHigh&nway, was named because it is the first place in the city
+the &+Ysunshine&n hits in the morning and for the rest of the day
+the sky is all completely visible without large buildings obstructing
+anyone's line of vision. It is also the most comfortable &+cstreet&n in the
+city where many people come to relax and enjoy the outdoors. &+LProtection&n,
+&+yAncients&n, &+CMarket&n, and &+YGate&n, all breakaway from &+BSkylight&n &+LLane.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82562
+D2
+~
+~
+0 0 82568
+D3
+~
+~
+0 0 82560
+S
+#82562
+&+BSkylight &+LLane~
+   &+BSkylight&n &+LLane&n, the street running parallel to the &+MMyrabolan&n
+&+LHigh&nway, was named because it is the first place in the city
+the &+Ysunshine&n hits in the morning and for the rest of the day
+the sky is all completely visible without large buildings obstructing
+anyone's line of vision. It is also the most comfortable &+cstreet&n in the
+city where many people come to relax and enjoy the outdoors. &+LProtection&n,
+&+yAncients&n, &+CMarket&n, and &+YGate&n, all breakaway from &+BSkylight&n &+LLane.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82557
+D2
+~
+~
+0 0 82561
+D3
+A pure granit door.
+~
+granite door~
+1 0 82563
+S
+#82563
+A Sitting Room~
+This house has been built to be avoidable by both the citizens of &+MMyrabolus&n
+and its resident.  The living room seems simple and common enough, but
+on the west wall a &+rpa&+Rin&+Lting&n depicting the image of &+MLloth&n is hung.
+Obviously this is not your standard, nuetral, &+MMyrabolan's&n building.
+~
+825 33554440 1
+D1
+~
+door granite~
+1 0 82562
+D4
+~
+~
+0 0 82569
+S
+#82564
+&+LCrash Site of a Fallen&n &+YSpell&+LJammer~
+   &+rFive, perhaps six years ago, a massive&n &+Yspell&+Ljammer&n &+rwas shot
+&+rdown while attacking the city. During its crash to&n &+yearth&+r an
+&+rentire city block &+rwas destroyed and dozens of civilians were
+&+rkilled. It is unclear just &+rwho owned this monolithic vessel as
+&+rthere are no markings visible, but &+rthe the wreckage continues
+&+rto remind the citizens of&n &+MMyrabolus&+r of &+rthe horrors and
+&+renormity of&n &+Rwar&+r to this day.
+~
+825 33554440 2
+D0
+~
+~
+0 0 82583
+D2
+~
+~
+0 0 82557
+D3
+~
+~
+0 0 82584
+S
+#82565
+&+YGate &+LRoad&n East~
+   To the east of the &+MMyrabolan&n &+LHigh&nway, &+YGate &+LRoad&n follows to
+&+BSkylight&+L Lane&n. As with both sides of the street, this road is acts as
+the secondary defence line of the city where numerous housing blocks are
+dedicated solely for the military infantry.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82566
+D2
+~
+~
+0 0 82623
+D3
+~
+~
+0 0 82509
+S
+#82566
+&+YGate &+LRoad&n East~
+   To the east of the &+MMyrabolan&n &+LHigh&nway, &+YGate &+LRoad&n follows to
+&+BSkylight&+L Lane&n. As with both sides of the street, this road is acts as
+the secondary defence line of the city where numerous housing blocks are
+dedicated solely for the military infantry.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82567
+D3
+~
+~
+0 0 82565
+S
+#82567
+&+BSkylight &+LLane &nand &+YGate &+LRoad~
+   &+BSkylight&n &+LLane&n, the street running parallel to the &+MMyrabolan&n
+&+LHigh&nway, was named because it is the first place in the city
+the &+Ysunshine&n hits in the morning and for the rest of the day
+the sky is all completely visible without large buildings obstructing
+anyone's line of vision. It is also the most comfortable &+cstreet&n in the
+city where many people come to relax and enjoy the outdoors. &+LProtection&n,
+&+yAncients&n, &+CMarket&n, and &+YGate&n, all breakaway from &+BSkylight&n &+LLane.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82568
+D3
+~
+~
+0 0 82566
+S
+#82568
+&+BSkylight&+L Lane~
+   &+BSkylight&n &+LLane&n, the street running parallel to the &+MMyrabolan&n
+&+LHigh&nway, was named because it is the first place in the city
+the &+Ysunshine&n hits in the morning and for the rest of the day
+the sky is all completely visible without large buildings obstructing
+anyone's line of vision. It is also the most comfortable &+cstreet&n in the
+city where many people come to relax and enjoy the outdoors. &+LProtection&n,
+&+yAncients&n, &+CMarket&n, and &+YGate&n, all breakaway from &+BSkylight&n &+LLane.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82561
+D2
+~
+~
+0 0 82567
+S
+#82569
+&+MMardoc's&n Study~
+   This room is littered with overturned chairs and is covered with scattered papers being blown about by the open window.  In one corner is a young bleeding guard, being bandaged by his comrades, and sitting slumped in a chair is an older looking soldier, possibly their squad leader.  The usual inhabitant of these quarters is nowhere to be seen.
+~
+825 33554440 1
+D5
+~
+~
+0 0 82563
+S
+#82570
+&+bAphantan&n &+yAvenue&n and &+LProtection&n &+cStreet&n Corner~
+   &+bAphantan&n &+yAvenue&n, named after the legendary founding member of the
+&+gHunters&n, could possible be traced to the first contruction of the
+city. Legends say, &+bAphantan&n built a camp in this location with the
+help of his followers because it seemed to be directly under a full
+&+Wmoon&n that evening. Now, &+bAphantan&n is a memory yet his beliefs
+have passed on throughout the years and this &+cstreet&n has been dedicated
+in his honour.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82587
+D2
+~
+~
+0 0 82545
+S
+#82571
+Foyer of the Home of the Holy~
+   In contrast to the popularity of neutrality in this city, this house
+seems to be out of place. It appears to clearly be a &+Wrighteous&n sanctum for
+whoever living here. Sculptures of &+YMountain Dwarves&n and &+yHigh Elves&n decorate
+the room with elegance and above the archway to the east a &+Wcross&n is hung.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82572
+D3
+~
+curtain~
+1 0 82545
+S
+#82572
+&+WValentines'&n Antechamber~
+   Excessive to its last detail this room eptomises everything that the
+citizens of &+MMyrabolus&n stand against.  Scripture and Bibical writings
+adorn every space on the walls, beyond that, sitting on desks and shelves
+more scripture and self-righteousness are displayed. Only a &+cHuman&n could
+use the power of good so much that it no longer became lawful.
+~
+825 33554440 1
+D3
+~
+~
+0 0 82571
+S
+#82573
+&+gHunter's &nTavern~
+   Built close to the &+LHigh&nway but still in the &+Bcommercial&n sector, this
+bustling pub is a second home to many of the militia of &+MMyrabolus&n.
+Many &+Woff&n-&+Lduty&n soldiers relax and talk casually, hardley noticing anything
+going on around them. Up a short flight of stairs is the reception area
+of the &+RRising &+YSun&n Inn.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82511
+D4
+~
+~
+0 0 82574
+S
+#82574
+&+RRising&+Y Sun&n Inn~
+   The &+RRising &+YSun&n is a rather famous location of the &+Mcity&n. The innkeeper
+is free of any prejiduce and will admit any traveller as long as they
+leave their weapons or spellbooks in the bin located next to the door.
+The sign behind innkeeper's counter depicts the familiar &+Ygolden sun&n with
+a &+Wsilvery blade&n thrust through it.
+~
+825 33554440 1
+D3
+~
+~
+0 0 82575
+D5
+~
+~
+0 0 82573
+S
+#82575
+&+RRising &+YSun &+wCorridor~
+   This &+Wcorridor&n leads to a few of rentable rooms of the &+RRising &+YSun
+inn. Various paintings and tapestries are hung from the walls, mostly
+images of the &+gHunters&n doing battle with all forms of devils and dragons,
+capturing them and freezing them in time of their most &+Wglorious&n moments.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82580
+D1
+~
+~
+0 0 82574
+D3
+~
+~
+0 0 82576
+S
+#82576
+&+RRising &+YSun &+wCorridor~
+   This &+Wcorridor&n leads to a few of rentable rooms of the &+RRising &+YSun
+inn. Various paintings and tapestries are hung from the walls, mostly
+images of the &+gHunters&n doing battle with all forms of devils and dragons,
+capturing them and freezing them in time of their most &+Wglorious&n moments.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82579
+D1
+~
+~
+0 0 82575
+D3
+~
+~
+0 0 82577
+S
+#82577
+&+RRising &+YSun &+wCorridor~
+   This &+Wcorridor&n leads to a few of rentable rooms of the &+RRising &+YSun
+inn. Various paintings and tapestries are hung from the walls, mostly
+images of the &+gHunters&n doing battle with all forms of devils and dragons,
+capturing them and freezing them in time of their most &+Wglorious&n moments.
+~
+825 33554440 1
+D0
+~
+door~
+1 0 82578
+D1
+~
+~
+0 0 82576
+S
+#82578
+A &+LRented&n Room~
+   This is a standard room of the &+RRising &+YSun&n Inn. It is furnished
+without estravagance. There is a single sized bed, a dresser, a couple
+chairs, and a small table. The door south appears to be of the lowest
+quality wood.
+~
+825 33554444 0
+D2
+~
+door~
+1 0 82577
+S
+#82579
+A &+LRented&n Room~
+   This is a standard room of the &+RRising &+YSun&n Inn. It is furnished
+without estravagance. There is a single sized bed, a dresser, a couple
+chairs, and a small table. The door south appears to be of the lowest
+quality wood. The first drawer on the dresser in this room seems to be
+open a crack.
+~
+825 33554444 0
+D2
+~
+door~
+1 0 82576
+S
+#82580
+A &+LRented&n Room~
+   This is a standard room of the &+RRising &+YSun&n Inn. It is furnished
+without estravagance. There is a single sized bed, a dresser, a couple
+chairs, and a small table. The door south appears to be of the lowest
+quality wood.
+~
+825 33554444 0
+D2
+~
+door~
+1 0 82575
+S
+#82581
+End of &+LProtection&n &+cStreet&n East~
+   The east side of &+cProtection&n &+LStree&n is yet another residential
+sector of the city.  It runs from the &+LHigh&nway to the fallen wreckage
+of the &+Yspell&+Ljammer&n, only a few blocks long. &+WCresent Concourse&n arches
+out from the north eastern end and circles around the &+Wpalace&n to
+&+cProtection &+LStreet&n West.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82592
+D1
+~
+~
+0 0 82582
+D3
+~
+~
+0 0 82535
+S
+#82582
+&+LCrash Site of a Fallen &+YSpell&+LJammer~
+   &+rFive, perhaps six years ago, a massive&n &+Yspell&+Ljammer&n &+rwas shot
+&+rdown while attacking the city. During its crash to&n &+yearth&+r an
+&+rentire city block &+rwas destroyed and dozens of civilians were
+&+rkilled. It is unclear just &+rwho owned this monolithic vessel as
+&+rthere are no markings visible, but &+rthe the wreckage continues
+&+rto remind the citizens of&n &+MMyrabolus&+r of &+rthe horrors and
+&+renormity of&n &+Rwar&+r to this day.
+~
+825 33554440 2
+D1
+~
+~
+0 0 82583
+D2
+~
+~
+0 0 82584
+D3
+~
+~
+0 0 82581
+S
+#82583
+&+LCrash Site of a Fallen &+YSpell&+LJammer~
+   &+rFive, perhaps six years ago, a massive&n &+Yspell&+Ljammer&n &+rwas shot
+&+rdown while attacking the city. During its crash to&n &+yearth&+r an
+&+rentire city block &+rwas destroyed and dozens of civilians were
+&+rkilled. It is unclear just &+rwho owned this monolithic vessel as
+&+rthere are no markings visible, but &+rthe the wreckage continues
+&+rto remind the citizens of&n &+MMyrabolus&+r of &+rthe horrors and
+&+renormity of&n &+Rwar&+r to this day.
+~
+825 33554440 2
+D2
+~
+~
+0 0 82564
+D3
+~
+~
+0 0 82582
+S
+#82584
+&+LCrash Site of a Fallen &+YSpell&+LJammer~
+   &+rFive, perhaps six years ago, a massive&n &+Yspell&+Ljammer&n &+rwas shot
+&+rdown while attacking the city. During its crash to&n &+yearth&+r an
+&+rentire city block &+rwas destroyed and dozens of civilians were
+&+rkilled. It is unclear just &+rwho owned this monolithic vessel as
+&+rthere are no markings visible, but &+rthe the wreckage continues
+&+rto remind the citizens of&n &+MMyrabolus&+r of &+rthe horrors and
+&+renormity of&n &+Rwar&+r to this day.
+~
+825 33554440 2
+D0
+~
+~
+0 0 82582
+D1
+~
+~
+0 0 82564
+D5
+~
+plank~
+5 0 82532
+S
+#82585
+&+LProtection&n &+cStreet&n West~
+   Running from &+bAphantan&n &+yAvenue&n to the &+MMyrabolus &+LHigh&nway,
+&+cProtection &+LStreet&n West is home to many of the city commoners as
+well as a the last guard towers before the &+Wpalace&n, built on either
+side of the &+Lhigh&nway. &+WCresent Concourse&n can only be accessed
+from this &+Lstreet&n for those wishing a tour around the &+Wpalace&n.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82531
+D3
+~
+~
+0 0 82586
+S
+#82586
+&+LProtection &+cStreet&n West~
+   Running from &+bAphantan&n &+yAvenue&n to the &+MMyrabolus &+LHigh&nway,
+&+cProtection &+LStreet&n West is home to many of the city commoners as
+well as a the last guard towers before the &+Wpalace&n, built on either
+side of the &+Lhigh&nway. &+WCresent Concourse&n can only be accessed
+from this &+Lstreet&n for those wishing a tour around the &+Wpalace&n.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82593
+D1
+~
+~
+0 0 82585
+D3
+~
+~
+0 0 82587
+S
+#82587
+&+LProtection&n &+cStreet&n West~
+   Running from &+bAphantan&n &+yAvenue&n to the &+MMyrabolus &+LHigh&nway,
+&+cProtection &+LStreet&n West is home to many of the city commoners as
+well as a the last guard towers before the &+Wpalace&n, built on either
+side of the &+Lhigh&nway. &+WCresent Concourse&n can only be accessed
+from this &+Lstreet&n for those wishing a tour around the &+Wpalace&n.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82586
+D3
+~
+~
+0 0 82570
+S
+#82588
+A &+yCargo&n Hold~
+   &+yThis room was mainly used for holding goods and personnel onboard
+&+ythe &+YSpell&+Ljammer&+y. Apparently some unfortunate souls were in this &+yroom
+&+ywhen it crashed and died either from impact or starvation over the
+&+yfollowing days. The bodies have decayed to the point of giving off
+&+ya &+yterrible stench mixed with that of the smell of rotting wood.
+~
+825 9 0
+D0
+~
+~
+0 0 82532
+S
+#82589
+&+LRico's &+BCool&n Stuff~
+   &+BThis shop is abosolutely littered with junk of all kinds. Apparently
+&+LRico's&n &+Bcollection includes carnal objects as well that are best
+&+Bif left unmentioned. He will, and does, swear everything in his store
+&+Bis hundred percent, purified, concentrated cool. Whether or not
+&+Banyone else believes it bothers him little.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82558
+S
+#82590
+&+mAndryn's&+L Armory~
+   &+MThis shop continually lacks ventilation. It is stuffy, unbearably
+&+Mhot, and extremely smokey.  The&n &+mblacksmith's&n &+Lpupils&n &+Mseem to have
+&+Mno problem with it though as they work through the smog that only
+&+Mburning steel can produce and in the process produce some of the finest
+&+Mweapons in the countryside as well as the city.&n
+~
+825 33554440 1
+D0
+~
+~
+0 0 82559
+S
+#82591
+&+CRandom's &+GK&+Ba&+Gr&+Bm&+Gi&+Bc&n &+cAdvisements~
+   &+CRandom&n &+chas turned a once profitable store into a store of cosmic
+&+coddities. Everything here reeks of fraud, from the glowing crystal ball,
+&+cto the tarot cards spread out upon the &+Rred&n &+ccarpeted table. However
+&+ca fair ammount of people actually pay to hear their fortunes read
+&+cby him including and foremost the &+rMagistrate&+c himself.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82559
+S
+#82592
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554444 1
+D0
+~
+~
+0 0 82599
+D2
+~
+~
+0 0 82581
+S
+#82593
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554444 0
+D0
+~
+~
+0 0 82594
+D2
+~
+~
+0 0 82586
+S
+#82594
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D1
+~
+~
+0 0 82595
+D2
+~
+~
+0 0 82593
+S
+#82595
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D0
+~
+~
+0 0 82596
+D3
+~
+~
+0 0 82594
+S
+#82596
+Pinnacle of &+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D1
+~
+~
+0 0 82597
+D2
+~
+~
+0 0 82595
+S
+#82597
+Pinnacle of &+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D2
+~
+~
+0 0 82598
+D3
+~
+~
+0 0 82596
+S
+#82598
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D0
+~
+~
+0 0 82597
+D1
+~
+~
+0 0 82599
+S
+#82599
+&+WCresent Concourse~
+   Cresent Concourse rounds the outskirts of the &+Wpalace&n and follows
+the inner walls of the city.  It is often only used as a tourist road as
+no shops or homes are built here, but lately it seems to have been taken
+over by a rather questionable gang of &+Grangers&n.  The tourism has
+died a small bit since the new self-designated owners arrived.
+~
+825 33554440 0
+D2
+~
+~
+0 0 82592
+D3
+~
+~
+0 0 82598
+S
+#82600
+&+MMyrabolan&n &+YMoney&n &+LLenders~
+   &+mProbably one of the better known buildings in &+MMyrabolus.  &+mDutch
+&+mis sort of a town celebrity. The bank is comfortable for those waiting to
+&+mcheck their accounts and the banker himself promises to handle all business
+&+mas quickly and painlessly as possible. He sits behind a large counter
+&+mleafing through someone's insurance papers.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82513
+S
+#82601
+&+LDe&+gck&+Ler's&n &+gPredictions&n &+LHut~
+   &+gDespite the fact this isn't really a shop it has still been placed off
+&+gof &+CMarket &+LRoad&+g. It is a simple room, bare of furniture, &+gexcept
+&+ga table and a chair which &+LDe&+gck&+Ler&+g sits at spouting his prophetic
+&+gblurbs. The majority of the commoners walking by outside have learned to
+&+gpay him no mind whatsoever but he can still catch the odd tourist by
+&+gcuriosity and entrall him.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82543
+S
+#82602
+&+YShan&+ytil&n'&+ys&n Merchandising~
+&+y   Yet another friend of the &+gHunters&+y,&n &+YShan&+ytil sells the more useful
+&+yitems in the city. The shop is very tidy, clean, &+yand organized much
+&+yunlike that of her fellow vendors on &+CMarket &+LRoad&n &+yand many beginner
+&+yadventurers should seek out her wares before leaving &+ythe city.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82544
+S
+#82603
+In the Halls of the &+cZiggurat &+WPalace~
+   This hallway leads up to the pinnacle of the &+Wpalace&n. On every floor
+there is a brief landing then another staircase.  Specialized rooms for
+the politicians break off every floor, all unaccessable.  The &+csecurity
+is fairly tight here and the &+Wpalace &+cguards&n are anything but few and
+far between.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82604
+D5
+~
+~
+0 0 82529
+S
+#82604
+In the Halls of the &+cZiggurat &+WPalace~
+   This hallway leads up to the pinnacle of the &+Wpalace&n. On every floor
+there is a brief landing then another staircase.  Specialized rooms for
+the politicians break off every floor, all unaccessable.  The &+csecurity
+is fairly tight here and the &+Wpalace &+cguards&n are anything but few and
+far between.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82603
+D4
+~
+~
+0 0 82605
+S
+#82605
+In the Halls of the &+cZiggurat &+WPalace~
+   This hallway leads up to the pinnacle of the &+Wpalace&n. On every floor
+there is a brief landing then another staircase.  Specialized rooms for
+the politicians break off every floor, all unaccessable.  The &+csecurity
+is fairly tight here and the &+Wpalace &+cguards&n are anything but few and
+far between.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82606
+D5
+~
+~
+0 0 82604
+S
+#82606
+In the Halls of the &+cZiggurat &+WPalace~
+   This hallway leads up to the pinnacle of the &+Wpalace&n. On every floor
+there is a brief landing then another staircase.  Specialized rooms for
+the politicians break off every floor, all unaccessable.  The &+csecurity
+is fairly tight here and the &+Wpalace &+cguards&n are anything but few and
+far between.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82605
+D1
+~
+secret~
+5 0 82612
+D4
+~
+~
+0 0 82607
+S
+#82607
+The &+cZiggurat&+W Palace&n Hall of the &+RT&+Gr&+Bi&n-&+LLords~
+   The &+RT&+Gr&+Bi&n-&+LLords&n are the bueracracy of the city of &+MMyrabolus.
+The &+rMagistrate&n himself is but a figurehead, a shadow of his former
+power while he trained and travelled with the &+gHunters&n so many years ago.
+Their support to him still carries a great deal of wieght in the city, but
+it is the &+RT&+Gr&+Bi&n-&+LLords&n who handle all the governing.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82608
+D1
+~
+~
+0 0 82609
+D2
+~
+~
+0 0 82611
+D3
+~
+~
+0 0 82610
+D4
+~
+trapdoor~
+7 82520 82626
+D5
+~
+~
+0 0 82606
+S
+#82608
+Office of the &+RT&+Gr&+Bi&n-&+LLord&n of &+WSpirits~
+   This room is identical to the other two. Furnished with a large
+maple desk, two chairs, and &+Rbanner&n hanging on the end wall to
+display who the &+LLord&n of this office is.  Very few ever want to
+come this far into the &+Wpalace&n to see the &+LLords&n since they
+aren't the most pleasant people to be around and the &+cguards&n here
+are extremely arrogant.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82607
+S
+#82609
+Office of the &+RT&+Gr&+Bi&n-&+LLord of &+YTime~
+   This room is identical to the other two. Furnished with a large
+maple desk, two chairs, and &+Ybanner&n hanging on the end wall to
+display who the &+LLord&n of this office is.  Very few ever want to
+come this far into the &+Wpalace&n to see the &+LLords&n since they
+aren't the most pleasant people to be around and the &+cguards&n here
+are extremely arrogant.
+~
+825 33554440 1
+D3
+~
+~
+0 0 82607
+S
+#82610
+Office of the &+RT&+Gr&+Bi&n-&+LLord&n of &+LGravity~
+   This room is identical to the other two. Furnished with a large
+maple desk, two chairs, and &+Gbanner&n hanging on the end wall to
+display who the &+LLord&n of this office is.  Very few ever want to
+come this far into the &+Wpalace&n to see the &+LLords&n since they
+aren't the most pleasant people to be around and the &+cguards&n here
+are extremely arrogant.
+~
+825 33554440 1
+D1
+~
+~
+0 0 82607
+S
+#82611
+Royal &+WArc&+Rher's&n Tower~
+   This room is used only by the &+Wpalace arc&+Rhers&n.  It over looks both
+the southern end of the &+cziggurat&n &+Wpalace&n as well as the city, giving
+the &+Warc&+Rhers&n clear shots at any enemies marching up the &+MMyrabolan &+LHigh&nway
+or trying to scale the &+Wpalace&n. The &+Warc&+Rhers&n stationed here will also
+aid the &+Wpalace&n &+cguards&n in defending the residents if any opposition
+makes it this far.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82607
+S
+#82612
+&+yWalkway&n to the &+rMagistrate's&n Hidden &+YSpell&+LJammer~
+   &+LThis &+ywalkway&n &+Lserves as docking area for the&n &+rMagistrate's
+&+Lpersonal&n &+Yspell&+LJammer, the &+YSun&+Lwea&+Yer&+L.  The vessel, at least a
+&+Lcity block long, &+Lhas been contructed inside the palace itself
+&+Land will only ever lift off &+Lif the structure is penetrated by
+&+Lthe enemy. This also must be one of &+Lcity's greatest secrets. At
+&+Lthis point there is a white sign reading : &+WAuthorized Personal
+&+WOnly! Traspassing will Carry Maximum Punishment!
+~
+825 1107296268 0
+D1
+~
+~
+0 0 82613
+D3
+~
+secret~
+5 0 82606
+S
+#82613
+Onboard the &+YSun&+Lwea&+Yver&n~
+   &+yThis area on the &+YSun&+Lwea&+Yver&+y acts as a walkthrough from bow to
+&+ystern, a gangplank hold, and most importantly gives length that is needed
+&+yto completely the size of the balloon needed to lift the rest of the &+Lship
+&+yinto the atmosphere.  Truly being onboard this vessel brings about a variety
+&+yof emotions, foremost amazement at such a thing could ever been built,
+&+yhowever this is not the first or the last of its kind ever to be constructed.
+~
+825 33554440 0
+D0
+~
+~
+0 0 82615
+D2
+~
+~
+0 0 82614
+D3
+~
+~
+0 0 82612
+S
+#82614
+The Bridge of the &+YSun&+Lwea&+yver~
+   &+yThis room controls the steering of the &+Yspell&+Ljammer&+y, however
+&+yno one is currently at the helm.  Of course the minute trouble arises
+&+ythe captain will rush to this spot and commence the take-off sequence,
+&+yincluding igniting the &+bmagically&+y set charges that would open up the
+&+yceiling &+yof the &+Wpalace&+y, giving the &+Lship&+y access to the open skies.
+~
+825 33554440 0
+D0
+~
+~
+0 0 82613
+D2
+~
+~
+0 0 82619
+D4
+~
+~
+0 0 82616
+D5
+~
+hatch~
+1 0 82618
+S
+#82615
+Stern of the &+YSun&+Lwea&+Yver~
+   &+yThe rear end of the vessel is nothing abnormal to a regular sailing
+&+yvessel, albeit a fair bit larger.  Cables connect from the ships hull to
+&+ywrap around the balloon for superior dexterity in the skies and safety
+&+yto the crew and its occupants.  It is a shame to think that a vessel this
+&+ymagnificient might never, ever, be used, never set into motion.
+~
+825 33554440 0
+D2
+~
+~
+0 0 82613
+S
+#82616
+Central Mast of the &+YSun&+Lwea&+Yver~
+   &+yNot only does this mast serve as the primary navigation post on the
+&+yvessel but it also a focal point for the balloon. The huge cloth sphere
+&+yis fastened tightly here so it wont break free during ascent or descent.
+&+yUnlike a sailing ship, the only sails working here are for directional
+&+yuse only and open up from the bottom and sides of the &+Lship.
+~
+825 33554440 0
+D4
+~
+~
+0 0 82617
+D5
+~
+~
+0 0 82614
+S
+#82617
+Central Mast of the &+YSun&+Lwea&+Yver~
+   &+yNot only does this mast serve as the primary navigation post on the
+&+yvessel but it also a focal point for the balloon. The huge cloth sphere
+&+yis fastened tightly here so it wont break free during ascent or descent.
+&+yUnlike a sailing ship, the only sails working here are for directional
+&+yuse only and open up from the bottom and sides of the &+Lship.
+~
+825 33554440 0
+D5
+~
+~
+0 0 82616
+S
+#82618
+The High &+rMagistrate's&n Quarters~
+   Probably the most well guarded room in the entire &+Mcity&n, making
+it here is quite a feat.  Tucked away onboard the &+YSun&+Lwea&+Yver
+is a quaint, tidy room, with dozens of bookshelves and a study desk.
+This is where the &+rMagistrate&n spends his days and nights,
+communicating with the rest of the city through couriers, ever since
+he found out that his life was in danger.
+~
+825 33554440 0
+D4
+~
+hatch~
+1 0 82614
+S
+#82619
+Bow of the &+YSun&+Lwea&+Yver~
+   &+yThe front end of the &+YSun&+Lwea&+Yver&+y is basically identical
+&+yto the rear end.  It has cables securely fastened to the guard rails
+&+ythat run up the huge leather balloon that hangs from the mast just
+&+ywaiting for inflation. The bow serves as a secondary navigation point
+&+yfor the captain as well.
+~
+825 33554440 0
+D0
+~
+~
+0 0 82614
+S
+#82620
+&+MMyrabolan &+RStables~
+   &+RThe &+MMryabolan&n &+Rstables do not have much of a selection on
+&+Rhand but what they do have are very realiable animals. The same &+Ltigers
+&+Rthat the city militia use are kept here as well proud &+Lblack&+R war
+&+Rhorses that the military depend on.  There is no service or handling
+&+Rcharges for borrowing these animals. All that they ask is please return
+&+Rthem alive.
+~
+825 33554432 1
+D2
+~
+~
+0 0 82560
+S
+#82621
+&+LDefence Station Prime~
+   &+LOn the each side of the high&nway&+L, off of &+YGate &+LRoad sits
+&+Lthe second defence station after the gate guards. This building serves
+&+Las the barracks of the shock troops who  spring into action the moment
+&+Lthe gates are penetrated or the front lines of the battlefield
+&+Lbecome too weakened to continue fighting.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82506
+S
+#82622
+&+LDefence Station Prime~
+   &+LOn the each side of the high&nway&+L, off of &+YGate &+LRoad sits
+&+Lthe second defence station after the gate guards. This building serves
+&+Las the barracks of the shock troops who  spring into action the moment
+&+Lthe gates are penetrated or the front lines of the battlefield
+&+Lbecome too weakened to continue fighting.
+~
+825 33554440 1
+D2
+~
+~
+0 0 82509
+S
+#82623
+&+LDefence Station Second~
+   &+LThe secondary barracks along &+YGate &+LRoad house the general militia
+&+Lmen of the city of &+MMyrabolus&+L. This includes first and foremost the
+&+GHunter&n &+cGuards&+L, the elite ranger unit trained from early teens to
+&+Lprotect and serve the city proper. Generally the &+GHunter &+cGuards
+&+Lstationed in these barracks are not as efficient as soldiers as the ones
+&+Labout the town.  It appears these barracks are empty today, indicating
+&+Lthe &+cguards&+L usually resting here must be out working on something.&n
+~
+825 33554440 1
+D0
+~
+~
+0 0 82565
+S
+#82624
+&+LDefence Station Second~
+   &+LThe secondary barracks along &+YGate &+LRoad house the general militia
+&+Lmen of the city of &+MMyrabolus&+L. This includes first and foremost the
+&+GHunter&n &+cGuards&+L, the elite ranger unit trained from early teens to
+&+Lprotect and serve the city proper. Generally the &+GHunter &+cGuards
+&+Lstationed in these barracks are not as efficient as soldiers as the ones
+&+Labout the town.
+~
+825 33554440 1
+D0
+~
+~
+0 0 82538
+S
+#82625
+&+BAlexis' &+WBedroom~
+   &+bOther then the large bed in the center of the room and the nightstand
+&+bbeside it there isn't really much else in here. Except of course the blue-
+&+bhaired angel woman, &+BAlexis&+b.  The room has become a secluded haven
+&+bfor her until the day &+LMa&+mver&+Liss &+breturns.
+~
+825 33554440 1
+D3
+~
+~
+0 0 82552
+S
+#82626
+The &+YTreasure&n Room~
+   Probably closed off for many years, this room, at the top of the &+Wpalace
+has but a small portion of the city's treasure. The items kept here have
+probably been gifts from the &+gHunters&n to the &+rMagistrate&n, who in turn
+having no use for them, placed them up here. Only then did the &+RT&+Gr&+Bi&+L-
+&+LLords&n find out their worth did they seal the items up here along with
+a &+mcreature&n summoned with their combined &+bmagics&n.
+~
+825 41975816 1
+D5
+~
+trapdoor~
+7 0 82607
+S
+#82627
+&+WA Swirling Portal&n~
+&+W   This is the backroom of the observatory, used by &+LXavier&+W for
+&+Wspecial purposes.  Shelves and bookcases hold countless numbers of
+&+Wscrolls and parchment, the room is littered with wands and staves
+&+Wthat are most likely extremely old.  Dead center in the room sits a
+&+Wportal that swirls with a white mist.  Peering inside offers little
+&+Winsight on what is through the portal, other than just a quick glimspe
+&+Wof greenery, perhaps from a forest.&n
+~
+825 0 1
+D0
+~
+sealed~
+2 82538 82550
+S
+#82628
+&+yThe &+MMyrabolan&+Y Dock&+y Road&n~
+&+y   The &+Lroad&+y continues to wind around the foliage and tall trees that
+&+ymake up much of the terrain in this area.  The &+Lroad&+y is quite busy,
+&+yand usually many different people of all races and cultures can be
+&+yseen wandering towards &+MMyrabolus&+y or to the &+Ydocks&+y that lie on the north
+&+yeastern edge.  The path forks to the north here, but the trail is
+&+ymuch less travelled than the main &+Lroad&+y.  The great ocean can clearly
+&+ybe seen with just a glance north now.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82630
+D1
+~
+~
+0 0 82629
+D3
+~
+~
+0 0 82640
+S
+#82629
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y   The &+Lroad&+y continues to wind around the foliage and tall trees that
+&+ymake up much of the terrain in this area.  The &+Lroad&+y is quite busy,
+&+yand usually many different people of all races and cultures can be
+&+yseen wandering towards &+MMyrabolus&+y or to the &+Ydocks&+y that lie on the north
+&+yeastern edge.  The path forks to the north here, but the trail is
+&+ymuch less travelled than the main &+Lroad&+y.  The great ocean can clearly
+&+ybe seen with just a glance north now.&n
+~
+825 0 2
+D2
+~
+~
+0 0 82645
+D3
+~
+~
+0 0 82628
+S
+#82630
+&+yA Small Trail&n~
+&+y   This trail is just off from the main road.  It is most likely
+&+yused by the forest animals that wander around this area.  To the north
+&+ythe ocean can be seen clearly, the main road to the &+MMyrabolan&+Y Docks&+y is
+&+yjust to the south.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82631
+D2
+~
+~
+0 0 82628
+S
+#82631
+&+yThe Trail Ends&n~
+&+y   The small trail towards the ocean seems to end here, with a
+&+ylarge group of rocks that seem to have been piled up by someone not
+&+ythat long ago.  The soil of the &+Lroad&+y has been replaced by the sand
+&+yfrom a &+Ybeach&+y and the tall trees of the forest are now quite a
+&+ydistance to the south.&n
+~
+825 0 2
+D1
+~
+rock~
+5 0 82644
+D2
+~
+~
+0 0 82630
+S
+#82632
+&+yThe Western &+YBeach&n~
+&+Y   This is small secluded beach along the northern coast of the
+&+Ycontinent.  It runs in a small cresent from the north to the east
+&+Ywith the ocean waves lapping against the shore.  The squawks from
+&+Ythe seagulls and the voices from the road to the south make it
+&+Yquite a noisey area here.&n
+~
+825 0 24
+D2
+~
+~
+0 0 82643
+D3
+~
+~
+0 0 82644
+S
+#82633
+&+yA Newly Built &+LRoad&n~
+&+y   This &+Lroad&+y has been built recently to compensate for the heavy
+&+ytraffic the capital city of &+MMyrabolus&+y has been experiencing over the
+&+ylast several years.  As a secondary route from and to the city, this
+&+yroad leads easternly towards the sea.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82634
+D3
+~
+~
+0 0 82500
+S
+#82634
+&+yA &+YWagon&+y Stop&n~
+&+y   The path leading east, the newest road out of &+MMyrabolus&+y, indeed
+&+yonly constructed over the last year, truly begins here, with a large
+&+Ywagon&+y stop.  &+YCaravans&+y and &+Ywagon&+y trains use this area to refill supplies
+&+yand equipment for the journey ahead, as well as a rest area for those
+&+ycoming in.  Just off to the south a small bar has been built for those
+&+yseeking rest from travelling.  The road continues on to the north.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82635
+D1
+~
+~
+0 0 82636
+D2
+~
+door~
+1 0 82641
+D3
+~
+~
+0 0 82633
+S
+#82635
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y   The road continues north here, towards the ocean and through the
+&+yforested country side.  The great city of &+MMyrabolus&+y can be seen just
+&+yto the west, with the tall palace and the city walls rising up beyond
+&+ythe tree line.  Not far off to the south is a small tavern that is
+&+yused by weary travellers nearing the end of the road.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82637
+D2
+~
+~
+0 0 82634
+S
+#82636
+&+yA Small &+YRest&+y Area&n~
+&+y   For those too cheap or too poor to spend the money to rest at
+&+ythe tavern just off to the west, this resting grounds has been set up,
+&+yand designed for the tired traveller or camper.  The area has had the
+&+ybrush cut away, and a large &+Rfire&+y pit dug for some comfort, still,
+&+ysleeping on the cold hard earth here should be done only as a last
+&+yresort of those not wishing for things such as being comfortable.&n
+~
+825 0 2
+D3
+~
+~
+0 0 82634
+S
+#82637
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y   The &+Lroad&+y continues to wind around the foliage and tall trees that
+&+ymake up much of the terrain in this area.  The &+Lroad&+y is quite busy,
+&+yand usually many different people of all races and cultures can be
+&+yseen wandering towards &+MMyrabolus&+y or to the &+Ydocks&+y that lie on the north
+&+yeastern edge.  The citizens and commoners that wander the &+Lroad&+y are
+&+yquite polite and wave hello to others when they cross paths.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82639
+D2
+~
+~
+0 0 82635
+S
+#82638
+&+wBefore the&+y Pier&n~
+&+w   The long pier of the &+MMyrabolan &+YDocks&+w begins just north of here,
+&+wwhile the large gates, separated by two &+Wwhite stone&+w pillars is just
+&+wsouth.  Though there isn't all that much here, the guards to the
+&+wsouth are always on guard looking out for trouble makers undocking
+&+wtheir ships here.  To the east a small structure has been built
+&+wfor use for the harbour master.&n
+~
+825 0 1
+D0
+~
+~
+0 0 82669
+D1
+~
+door~
+1 0 82671
+D2
+~
+gates~
+1 0 82653
+S
+#82639
+&+yThe &+MMyrabolan&+Y Dock&+y Road&n~
+&+y   The &+Lroad&+y continues to wind around the foliage and tall trees that
+&+ymake up much of the terrain in this area.  The &+Lroad&+y is quite busy,
+&+yand usually many different people of all races and cultures can be
+&+yseen wandering towards &+MMyrabolus&+y or to the &+Ydocks&+y that lie on the north
+&+yeastern edge.  The citizens and commoners that wander the &+Lroad&+y are
+&+yquite polite and wave hello to others when they cross paths.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82640
+D2
+~
+~
+0 0 82637
+S
+#82640
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y   The &+Lroad&+y continues to wind around the foliage and tall trees that
+&+ymake up much of the terrain in this area.  The &+Lroad&+y is quite busy,
+&+yand usually many different people of all races and cultures can be
+&+yseen wandering towards &+MMyrabolus&+y or to the &+Ydocks&+y that lie on the north
+&+yeastern edge.  The citizens and commoners that wander the &+Lroad&+y are
+&+yquite polite and wave hello to others when they cross paths.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82628
+D3
+~
+~
+0 0 82639
+S
+#82641
+&+yThe &+MTravelling&+Y Hound Dog&+y Tavern&n~
+&+y    This small tavern is used by both the citizens of the city as
+&+ywell as travellers on the road from elsewhere.  The tavern itself isn't
+&+yvery large but still is quite cozy and comfortable enough be enjoyable
+&+yfor those tired from travelling.  It is also alot less hetic than
+&+ythe famous &+rRising &+YSun&+w Inn&+y, that is one of the most popular locations
+&+ywithin &+MMyrabolus&+y.  There is a short flight of stairs that leads up
+&+yto the second floor, where the patrons can sleep.&n
+~
+825 0 1
+D0
+~
+door~
+1 0 82634
+D4
+~
+~
+0 0 82642
+S
+#82642
+&+yThe Resting Room of the &+MTravelling &+YHound Dog&n~
+&+y   This room is used by the travellers for resting, while the bottom
+&+yfloor is for those patrons wishing to eat and drink.  Though the noise
+&+yfrom below is extremely loud and doesn't diminish much by walking up
+&+ythe short flight of stairs, it is still possible to get some sleep for
+&+ythe weary here on the group of cots that have been set up here.  A
+&+ydesk and couple chairs have also been set up here for those wishing to
+&+ystudy.&n
+~
+825 0 1
+D5
+~
+~
+0 0 82641
+S
+#82643
+&+yThe Western &+YBeach&n~
+&+Y   This is small secluded beach along the northern coast of the
+&+Ycontinent.  It runs in a small cresent from the north to the east
+&+Ywith the ocean waves lapping against the shore.  The squawks from
+&+Ythe seagulls and the voices from the road to the south make it
+&+Yquite a noisey area here.&n
+~
+825 0 24
+D0
+~
+~
+0 0 82632
+D1
+~
+~
+0 0 82674
+S
+#82644
+&+yThe Western &+YBeach&n~
+&+Y   This is small secluded beach along the northern coast of the
+&+Ycontinent.  It runs in a small cresent from the north to the east
+&+Ywith the ocean waves lapping against the shore.  The squawks from
+&+Ythe seagulls and the voices from the road to the south make it
+&+Yquite a noisey area here.&n
+~
+825 0 24
+D0
+~
+~
+0 0 82660
+D1
+~
+~
+0 0 82632
+D3
+~
+rock~
+5 0 82631
+S
+#82645
+&+yThe &+MMyrabolan&+Y Dock&+y Road&n~
+&+y   The &+Lroad&+y continues here, but turns to avoid a heavy forest that
+&+ymust have been to difficult to clear.  The &+MMyrabolan&+Y Docks&+y are now
+&+yquite close, just off to the east a short distance, while the popular
+&+wziggurat palace&+y of the city can be seen rising up a distance in the
+&+ywest.  To the south here a faint trail opens up into the &+gforest&+y,
+&+ymost likely used more for the animals that inhabit the &+gforest&+y than
+&+ytravellers along the &+Lroad&+y.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82629
+D1
+~
+~
+0 0 82646
+D2
+~
+bushes~
+5 0 82656
+S
+#82646
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y    The &+Lroad&+y continues to wind through the forest here, while the
+&+yocean spreads up open to the north.  The &+Ydocks&+y of &+MMyrabolus&+y are close
+&+yby here, and open up to the no&+grth with a large gate.  The further
+&+gone travels east, the more the foliage thickens and the field out-
+&+gside of the city comes to life with vegetation.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82647
+D3
+~
+~
+0 0 82645
+S
+#82647
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y    The &+Lroad&+y continues to wind through the forest here, while the
+&+yocean spreads up open to the north.  The &+Ydocks&+y of &+MMyrabolus&+y are close
+&+yby here, and open up to the no&+grth with a large gate.  The further
+&+gone travels east, the more the foliage thickens and the field out-
+&+gside of the city comes to life with vegetation.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82648
+D3
+~
+~
+0 0 82646
+S
+#82648
+&+yBefore the &+MMyrabolan&+Y Docks&n~
+&+y    The &+Lroad&+y continues to wind through the forest here, while the
+&+yocean spreads up open to the north.  The &+Ydocks&+y of &+MMyrabolus&+y are close
+&+yby here, and open up to the no&+grth with a large gate.  The further
+&+gone travels east, the more the foliage thickens and the field out-
+&+gside of the city comes to life with vegetation.  The &+Lroad&+g forks to
+&+gthe north here, where the gates of the &+Ydocks&+g lie.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82653
+D1
+~
+~
+0 0 82649
+D3
+~
+~
+0 0 82647
+S
+#82649
+&+yThe &+MMyrabolan&+Y Dock&+y Road&n~
+&+y    The &+Lroad&+y continues to wind through the forest here, while the
+&+yocean spreads up open to the north.  The &+Ydocks&+y of &+MMyrabolus&+y are close
+&+yby here, and open up to the no&+grth with a large gate.  The further
+&+gone travels east, the more the foliage thickens and the field out-
+&+gside of the city comes to life with vegetation.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82650
+D3
+~
+~
+0 0 82648
+S
+#82650
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+y    The &+Lroad&+y continues to wind through the forest here, while the
+&+yocean spreads up open to the north.  The &+Ydocks&+y of &+MMyrabolus&+y are close
+&+yby here, and open up to the no&+grth with a large gate.  The further
+&+gone travels east, the more the foliage thickens and the field out-
+&+gside of the city comes to life with vegetation.&n
+~
+825 0 2
+D0
+~
+~
+0 0 82651
+D3
+~
+~
+0 0 82649
+S
+#82651
+&+yThe &+MMyrabolan &+YDock&+y Road&n~
+&+g   The forest completely overwhelms on all sides of the &+Lroad&+g here,
+&+gas those travelling away from the city and &+Ydocks&+g prepare to enter the
+&+gcountryside not that far away.   Though the &+Lroad&+g itself is still
+&+gquite well-travelled, it is not nearly as much as that further off
+&+gto the west, where travellers are seen much more frequently.&n
+~
+825 0 2
+D1
+~
+~
+0 0 82652
+D2
+~
+~
+0 0 82650
+S
+#82652
+&+yThe &+MMyrabolan&+Y Dock&+y Road&n~
+&+g   The &+Lroadway&+g begins or ends here, depending on what side travellers
+&+gare heading. Across this long &+Ywagon &+ytrail&+g heading east lies the &+MMyrabolan
+&+Ydocks&+g, as well as the great city itself a distance aways.  Heading south
+&+gfrom here the forest once again opens up, stretching like a great green
+&+gcarpet out before ones eyes.&n
+~
+825 4 2
+D3
+~
+~
+0 0 82651
+S
+#82653
+&+wThe &+YGates&+w of the &+MMyrabolan &+YDocks&n~
+&+w   The small docks of &+MMyrabolus&+w are straight north of here, with
+&+wonly a single pier.  The guards stationed here protect the guards from
+&+wthe unwelcome from entering the road to the south.  In case of an
+&+wemergency they would sealed the gates here to lock intruders on
+&+wthe pier.  The gate itself is held up by two large &+Wwhite stone&+w pillars.&n
+~
+825 0 1
+D0
+~
+gates~
+1 0 82638
+D2
+~
+~
+0 0 82648
+S
+#82654
+&+wA Storage Room&n~
+&n   This room is fairly barren except for a few racks of standard
+weapons that are used by the lower ranking &+Ghunter&+c guards&n.  There is
+a bunch of old, ratty equipment piled up here as well, not even
+worth a second glance.  The main hall of the palace is just to the
+west. &n
+~
+825 8 1
+D3
+~
+~
+0 0 82529
+S
+#82655
+&+wA Training Room&n~
+&n    This room is being used currently by a group of &+GHunter &+cGuards&n for
+training for an upcoming mission.  Usually the soldiers training here
+spend most there time in the guards station in the city though currently
+they are going through some basic drills and techniques and listening
+to their &+Wcaptain&n for mission assignments.  The palace hallway is just
+off to the east.&n
+~
+825 8 1
+D1
+~
+~
+0 0 82529
+S
+#82656
+&+gOff the &+LRoad&n~
+&+g   The forest becomes alot darker here, and even more thick close
+&+gby here.  The sounds and noises of this forest send a slight chill up
+&+gthe spine, causing a certain ammount of tension for any adventurer.
+&+gThankfully the road to &+MMyrabolus &+gis just to the north here, as with
+&+git the safety it brings.&n
+~
+825 4 3
+D0
+~
+bushes~
+5 0 82645
+D1
+~
+~
+0 0 82657
+D2
+~
+~
+0 0 82658
+S
+#82657
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D2
+~
+~
+0 0 82659
+D3
+~
+~
+0 0 82656
+S
+#82658
+&+gThe &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D0
+~
+~
+0 0 82656
+D1
+~
+~
+0 0 82659
+S
+#82659
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D0
+~
+~
+0 0 82657
+D2
+~
+~
+0 0 82663
+D3
+~
+~
+0 0 82658
+S
+#82660
+&+yThe Western &+YBeach&n~
+&+Y   This is small secluded beach along the northern coast of the
+&+Ycontinent.  It runs in a small cresent from the north to the east
+&+Ywith the ocean waves lapping against the shore.  The squawks from
+&+Ythe seagulls and the voices from the road to the south make it
+&+Yquite a noisey area here.&n
+~
+825 0 24
+D0
+~
+~
+0 0 82661
+D2
+~
+~
+0 0 82644
+S
+#82661
+&+yThe Western &+YBeach&n~
+&+Y   The sandy beach ends to the north here, as the ocean begins. This
+&+Ysecluded area has a perfect lookout for the &+MMyrabolan&+Y Docks that lie
+&+Yjust to the east of here, where the many ships in the harbour can be
+&+Yseen floating on the gentle waves of the ocean.&n
+~
+825 0 24
+D0
+~
+~
+0 0 82662
+D2
+~
+~
+0 0 82660
+S
+#82662
+&+bA Shallow &+YBeach&n~
+&+b   The ocean begins here to the north, and it gets extremely deep
+&+bextremely quickly.  Though the main docks of &+MMyrabolus&+b can be seen
+&+bjust to the east of here, this area is rarely used.  The water here
+&+bis very cold and almost freezes the skin while walking through it.
+&+bThere is a small &+yraft&+b that has half washed up on shore here, rolling
+&+bup and down on the waves that lap across the &+Ybeach&+b to the south.&n
+~
+825 0 6
+D2
+~
+~
+0 0 82661
+S
+#82663
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D0
+~
+~
+0 0 82659
+D1
+~
+~
+0 0 82664
+S
+#82664
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D2
+~
+~
+0 0 82665
+D3
+~
+~
+0 0 82663
+S
+#82665
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D0
+~
+~
+0 0 82664
+D1
+~
+~
+0 0 82666
+S
+#82666
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D0
+~
+~
+0 0 82672
+D3
+~
+~
+0 0 82665
+S
+#82667
+Ethan and Roland load room~
+~
+825 142639168 0
+D0
+~
+~
+0 0 1
+D1
+~
+~
+0 0 22209
+D2
+~
+~
+0 0 82668
+D3
+~
+~
+0 0 22000
+D4
+~
+~
+0 0 1
+D5
+~
+~
+0 0 1
+D6
+~
+~
+0 0 1
+D7
+~
+~
+0 0 1
+D8
+~
+~
+0 0 1
+D9
+~
+~
+0 0 1
+S
+#82668
+Unnamed~
+~
+825 0 0
+S
+#82669
+&+yThe Pier&n~
+&+y   This is the single pier that makes up the &+MMyrabolan&+Y Docks&+y.  Though
+&+yno where near as large as the docks in other capital cities, the dock
+&+ydoes serve its purpose well and is able to handle many ships in harbour
+&+yat the same time.  Straight south are the gates of the docks that
+&+yexit to the road to &+MMyrabolus&+y.&n
+~
+825 1048576 1
+D0
+~
+~
+0 0 82670
+D2
+~
+~
+0 0 82638
+S
+#82670
+&+yThe Pier&n~
+&+y   This is the single pier that makes up the &+MMyrabolan&+Y Docks&+y.  Though
+&+yno where near as large as the docks in other capital cities, the dock
+&+ydoes serve its purpose well and is able to handle many ships in harbour
+&+yat the same time.  Straight south are the gates of the docks that
+&+yexit to the road to &+MMyrabolus&+y.&n
+~
+825 1048576 1
+D0
+~
+~
+0 0 512874
+D2
+~
+~
+0 0 82669
+S
+#82671
+&+yThe Harbour Master's Station&n~
+&+y    This is a simple wooden shack used by the harbour master of
+&+ythe &+MMyrabolan&+Y docks&+y.  Though the docks aren't extremely busy most
+&+yof the time, the harbour master still keeps quite busy in checking
+&+ythe incoming and outgoing ships.  The door to the west leads back
+&+yto the docks.&n
+~
+825 8 1
+D3
+~
+door~
+1 0 82638
+S
+#82672
+&+gA &+LDark&+g Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 0 3
+D1
+~
+forest~
+5 0 82673
+D2
+~
+~
+0 0 82666
+S
+#82673
+&+gA &+rSu&+c-Monster&+g Den&n~
+&+g   The trail through the forest becomes far to thick to travel beyond
+&+ghere and is probably only used by animals or the &+rsu&+c-monsters&+g that seem
+&+gto have infested this area.  A large nest has been constructed by an
+&+gextremely large su, who defends it viciously.  The nest itself seems
+&+gto be built from bones and wood, held together by tree-sap.&n
+~
+825 0 3
+D1
+~
+~
+0 0 82675
+D3
+~
+forest~
+5 0 82672
+S
+#82674
+&+yThe Western &+YBeach&n~
+&+Y   This is small secluded beach along the northern coast of the
+&+Ycontinent.  It runs in a small cresent from the north to the east
+&+Ywith the ocean waves lapping against the shore.  The beach ends
+&+Yto the south here, leading back onto the main road right before
+&+Ythe &+MMyrabolan &+YDocks, but seems to difficult to walk back here
+&+Yfrom there.&n
+~
+825 4 24
+D2
+~
+~
+0 0 82647
+D3
+~
+~
+0 0 82643
+S
+#82675
+&+gA Dark Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 1 3
+D2
+~
+~
+0 0 82676
+D3
+~
+~
+0 0 82673
+S
+#82676
+&+gA Dark Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 5 3
+D0
+~
+~
+0 0 82675
+D1
+~
+~
+0 0 82677
+S
+#82677
+&+gA Dark Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 1 3
+D2
+~
+~
+0 0 82678
+D3
+~
+~
+0 0 82676
+S
+#82678
+&+gA Dark Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 1 3
+D0
+~
+~
+0 0 82677
+D2
+~
+~
+0 0 82679
+S
+#82679
+&+gA Dark Forest Trail&n~
+&+g   The fo&+Lrest becomes incredibly thick and dark the further one travels
+&+gin this area, much l&+Like the regular forest that covers the continent.
+&+gTravel through this area i&+Ls not recommended by the citizens of Myrabolus,
+&+gand strange howling can be heard &+Lechoing through the trees.  Even in
+&+gthe middle of the day here the sun stil&+Ll seems to have a hard time
+&+gin lighting this area, making it even more da&+Lngerous to proceed.&n
+~
+825 5 3
+D0
+~
+~
+0 0 82678
+D2
+~
+bushes~
+4 0 95312
+S
+#82680
+Unnamed~
+~
+825 134250560 0
+S
+#82681
+Unnamed~
+~
+825 134250560 0
+S
+#82682
+Unnamed~
+~
+825 0 0
+S
+#82683
+Unnamed~
+~
+825 0 0
+S

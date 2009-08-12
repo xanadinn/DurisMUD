@@ -1,0 +1,4619 @@
+#13000
+&+yDrawbridge Before the Citadel~
+   This drawbridge is composed of some unknown material -- material that is
+resistant to the affects of the odd magical river it bridges.  The water
+below shimmers oddly. To the south lies the underworld, while to the north
+is a huge double door.  No locks or knobs or handholds are apparent in the
+face of the massive onyx doors; the only decoration are powerful magical
+runes worked into their surface in gold.
+~
+130 4 14
+D0
+The onyx doors are heavy and immovable by brute physical force.
+~
+double door paradox~
+3 -2 13003
+D2
+That way lies the shadows of the forest...
+~
+~
+0 0 12796
+S
+#13001
+&+LCorner in the Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13006
+D1
+The corridor continues.
+~
+~
+0 0 13002
+S
+#13002
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.  To the
+east a small blue door is set into the wall.
+~
+130 9 0
+D1
+A small blue door is simple and utilitarian.
+~
+blue~
+1 -1 13003
+D3
+The corridor continues.
+~
+~
+0 0 13001
+S
+#13003
+The Foyer of the Citadel~
+   This room is of medium size, the walls draped with colorful tapestries.
+all four walls of this room bear doors; to the west is a small blue door,
+to the north large double doors, to the east is a small red door, and to
+the south are the mammoth onyx doors that lead outside.  The room is lit by
+a shimmering magical globe high overhead.
+~
+130 8 0
+D0
+The double doors lead to a large banquet hall.
+~
+double~
+1 -1 13008
+D1
+A small red door is simple and utilitarian.
+~
+red~
+1 -1 13004
+D2
+The mammoth onyx doors lead out of doors.
+~
+onyx paradox~
+2 -2 13000
+D3
+A small blue door is simple and utilitarian.
+~
+blue~
+1 -1 13002
+S
+#13004
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.  To the
+west a small red door is set into the wall.
+~
+130 9 0
+D1
+The corridor continues.
+~
+~
+0 0 13005
+D3
+A small red door is simple and utilitarian.
+~
+red~
+1 -1 13003
+S
+#13005
+&+LCorner in the Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13010
+D3
+The corridor continues.
+~
+~
+0 0 13004
+S
+#13006
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13011
+D2
+The corridor continues.
+~
+~
+0 0 13001
+S
+#13007
+A Small Resting Room~
+   This small room is perfect for resting a bit after first entering the
+tower.  There is a couch and small coffee table here; the room is lit by
+another small shimmering globe of light, and various odd decorations are
+set artistically about the room.
+~
+130 8 0
+D1
+A hallway.
+~
+~
+0 0 13008
+S
+#13008
+A Short Hallway~
+   This hallway connects the banquet hall and the foyer.  To the west a
+small resting room has been conveniently placed.  To the north lies the
+large banqueting hall, and to the south through a set of double doors is
+the foyer.
+~
+130 8 0
+D0
+The banqueting hall.
+~
+~
+0 0 13013
+D2
+Two large double doors.
+~
+double~
+1 -1 13003
+D3
+A resting room.
+~
+~
+0 0 13007
+S
+#13009
+&+LThe First Floor Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 12 0
+D0
+The kitchen.
+~
+~
+0 0 13014
+D4
+The stairs lead up to the second floor.
+~
+~
+0 0 13034
+S
+#13010
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13015
+D2
+The corridor continues.
+~
+~
+0 0 13005
+S
+#13011
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13016
+D2
+The corridor continues.
+~
+~
+0 0 13006
+S
+#13012
+The Southwest End of the Large Banqueting Hall~
+   This banquet hall is very, very, large.  Several tables large enough to
+seat ten or more people easily are situated about the room.  In the center
+of the room is a large firepit.  The pit itself looks long unused.  On the
+walls tapestries, darkened with age, are carefully hung.
+~
+130 9 0
+D0
+The northwest end of the hall.
+~
+~
+0 0 13017
+D1
+The southeast end of the hall.
+~
+~
+0 0 13013
+E
+tapestry~
+The tapestries show various depictions of the great mages of the past,
+locked in mortal combat with one grave foe or another.  Various old, craggy
+faced magi bearing gnarled oaken staves are shown wielding magic against
+everything from dragons to ogres to black knights clad in steel.
+~
+S
+#13013
+The Southeast End of the Large Banqueting Hall~
+   This banquet hall is very, very, large.  Several tables large enough to
+seat ten or more people easily are situated about the room.  In the center
+of the room is a large firepit.  The pit itself looks long unused.  On the
+walls tapestries, darkened with age, are carefully hung.
+~
+130 9 0
+D0
+The northeast end of the hall.
+~
+~
+0 0 13018
+D2
+A small hallway.
+~
+~
+0 0 13008
+D3
+The southwest end of the hall.
+~
+~
+0 0 13012
+E
+tapestry~
+The tapestries show various depictions of the great mages of the past,
+locked in mortal combat with one grave foe or another.  Various old, craggy
+faced magi bearing gnarled oaken staves are shown wielding magic against
+everything from dragons to ogres to black knights clad in steel.
+~
+S
+#13014
+The Kitchen~
+   In this large room the meals that were served in the great banqueting
+hall were prepared.  Large cupboards line the walls, and there is more
+counter space than floor space in this spacious room.  There is still a
+hint of the fragrant aromas that once wafted through here lingering in the
+air -- something that smacks a little of magic.
+~
+130 8 0
+D0
+The other end of the kitchen.
+~
+~
+0 0 13019
+D2
+The stairwell.
+~
+~
+0 0 13009
+S
+#13015
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13020
+D2
+The corridor continues.
+~
+~
+0 0 13010
+S
+#13016
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13021
+D2
+The corridor continues.
+~
+~
+0 0 13011
+S
+#13017
+The Northwest End of the Large Banqueting Hall~
+   This banquet hall is very, very, large.  Several tables large enough to
+seat ten or more people easily are situated about the room.  In the center
+of the room is a large firepit.  The pit itself looks long unused.  On the
+walls tapestries, darkened with age, are carefully hung.
+~
+130 9 0
+D1
+The northeast end of the hall.
+~
+~
+0 0 13018
+D2
+The southwest end of the hall.
+~
+~
+0 0 13012
+E
+tapestry~
+The tapestries show various depictions of the great mages of the past,
+locked in mortal combat with one grave foe or another.  Various old, craggy
+faced magi bearing gnarled oaken staves are shown wielding magic against
+everything from dragons to ogres to black knights clad in steel.
+~
+S
+#13018
+The Northeast End of the Large Banqueting Hall~
+   This banquet hall is very, very, large.  Several tables large enough to
+seat ten or more people easily are situated about the room.  In the center
+of the room is a large firepit.  The pit itself looks long unused.  On the
+walls tapestries, darkened with age, are carefully hung.  On the east wall
+a small door leads into the kitchen.
+~
+130 9 0
+D1
+A small door leads into what would be the kitchen.
+~
+door~
+1 -1 13019
+D2
+The southeast end of the hall.
+~
+~
+0 0 13013
+D3
+The northwest end of the hall.
+~
+~
+0 0 13017
+E
+tapestry~
+The tapestries show various depictions of the great mages of the past,
+locked in mortal combat with one grave foe or another.  Various old, craggy
+faced magi bearing gnarled oaken staves are shown wielding magic against
+everything from dragons to ogres to black knights clad in steel.
+~
+S
+#13019
+The Kitchen~
+   In this large room the meals that were served in the great banqueting
+hall were prepared.  Large cupboards line the walls, and there is more
+counter space than floor space in this spacious room.  There is still a
+hint of the fragrant aromas that once wafted through here lingering in the
+air -- something that smacks a little of magic.
+~
+130 8 0
+D2
+The other end of the kitchen.
+~
+~
+0 0 13014
+D3
+A small door leads out into the banquet hall.
+~
+door~
+1 -1 13018
+S
+#13020
+&+LCorner in the Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D0
+The corridor continues.
+~
+~
+0 0 13025
+D2
+The corridor continues.
+~
+~
+0 0 13015
+S
+#13021
+A Curve in the Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D1
+The corridor continues.
+~
+~
+0 0 13022
+D2
+The corridor continues.
+~
+~
+0 0 13016
+S
+#13022
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D1
+The corridor continues.
+~
+~
+0 0 13023
+D3
+The corridor continues.
+~
+~
+0 0 13021
+S
+#13023
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D1
+The corridor continues.
+~
+~
+0 0 13024
+D3
+The corridor continues.
+~
+~
+0 0 13022
+S
+#13024
+&+LThe Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D1
+The corridor continues.
+~
+~
+0 0 13025
+D3
+The corridor continues.
+~
+~
+0 0 13023
+S
+#13025
+&+LCorner in the Perimeter Corridor~
+   This corridor runs around the perimeter of the first level of the
+towering Citadel.  The air here is slightly musty and carries a faint hint
+of decay, as from a long mummified rat or some such.  There is no natural
+illumination in this hallway; the way is dark, narrow and dank.
+~
+130 9 0
+D2
+The corridor continues.
+~
+~
+0 0 13020
+D3
+The corridor continues.
+~
+~
+0 0 13024
+S
+#13026
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D0
+The rest of the room.
+~
+~
+0 0 13031
+S
+#13027
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D0
+The rest of the room.
+~
+~
+0 0 13032
+S
+#13028
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D0
+The rest of the room.
+~
+~
+0 0 13033
+S
+#13029
+&+LA Secret Room~
+   This small secreted room has been heavily bound with wards of power and
+protection and concealment.  It is just large enough to store a good sized
+chest within it; there is a small glistening globe of magical light
+illuminating the room.
+~
+130 8 0
+D1
+A concealed door.
+~
+door~
+1 -1 13030
+S
+#13030
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D0
+The rest of the room.
+~
+~
+0 0 13035
+D3
+A cleverly concealed door.
+~
+door concealed~
+1 -1 13029
+S
+#13031
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D0
+A door leads to the hallway.
+~
+door~
+1 -1 13036
+D2
+The washroom.
+~
+~
+0 0 13026
+S
+#13032
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D0
+A door leads to the hallway.
+~
+door~
+1 -1 13037
+D2
+The washroom.
+~
+~
+0 0 13027
+S
+#13033
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D0
+A door leads to the hallway.
+~
+door~
+1 -1 13038
+D2
+The washroom.
+~
+~
+0 0 13028
+S
+#13034
+&+LThe Stairwell Down to the First Floor~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 8 0
+D0
+The hallway.
+~
+~
+0 0 13039
+D5
+The first level.
+~
+~
+0 0 13009
+S
+#13035
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D0
+A door leads to the hallway.
+~
+door~
+1 -1 13040
+D2
+The washroom.
+~
+~
+0 0 13030
+S
+#13036
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D0
+The hall continues.
+~
+~
+0 0 13041
+D1
+The hall continues.
+~
+~
+0 0 13037
+D2
+A small door.
+~
+door~
+1 0 13031
+S
+#13037
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D1
+The hallway continues.
+~
+~
+0 0 13038
+D2
+A small door.
+~
+door~
+1 -1 13032
+D3
+The hallway continues.
+~
+~
+0 0 13036
+S
+#13038
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D1
+The hallway continues.
+~
+~
+0 0 13039
+D2
+A small door.
+~
+door~
+1 -1 13033
+D3
+The hallway continues.
+~
+~
+0 0 13037
+S
+#13039
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D0
+The hallway continues.
+~
+~
+0 0 13044
+D1
+The hallway continues.
+~
+~
+0 0 13040
+D2
+The stairwell.
+~
+~
+0 0 13034
+D3
+The hallway continues.
+~
+~
+0 0 13038
+S
+#13040
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D2
+A small door.
+~
+door~
+1 -1 13035
+D3
+The hallway continues.
+~
+~
+0 0 13039
+S
+#13041
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D0
+The hallway continues.
+~
+~
+0 0 13046
+D2
+The hallway continues.
+~
+~
+0 0 13036
+S
+#13042
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D1
+The rest of the room.
+~
+~
+0 0 13043
+S
+#13043
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D1
+A door leads to the hallway.
+~
+door~
+1 -1 13044
+D3
+The washroom.
+~
+~
+0 0 13042
+S
+#13044
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D0
+The hallway continues.
+~
+~
+0 0 13049
+D1
+A small blue door.
+~
+blue~
+1 -1 13045
+D2
+The hallway continues.
+~
+~
+0 0 13039
+D3
+A small red door.
+~
+red~
+1 -1 13043
+S
+#13045
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D0
+The washroom
+~
+~
+0 0 13050
+D3
+The door leads to the hall.
+~
+door~
+1 0 13044
+S
+#13046
+&+LThe Second Floor Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 12 0
+D2
+The apprentices' hallway.
+~
+~
+0 0 13041
+D4
+The third floor.
+~
+~
+0 0 13071
+S
+#13047
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D1
+The rest of the room.
+~
+~
+0 0 13048
+S
+#13048
+An Apprentice's Abode~
+   This room is very small and very functional.  The furniture consists of
+a bed, a bookshelf and a chest containing clothes and other personal items.
+Since the majority of an apprentice's time is spent in study, they have
+little need or use for anything else.
+~
+130 9 0
+D1
+A door leads to the hallway.
+~
+door~
+1 -1 13049
+D3
+The washroom.
+~
+~
+0 0 13047
+S
+#13049
+&+rThe Apprentices' Hallway~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is plushly carpeted with a red shag
+oriental rug that covers the entire floor, muting the sound of footsteps.
+Along the walls of the hallway are doors leading into the minuscule abodes
+of the apprentices.
+~
+130 8 0
+D2
+The hall continues.
+~
+door~
+0 0 13044
+D3
+A small door.
+~
+door~
+1 -1 13048
+S
+#13050
+A Washroom~
+   This small (very small) room serves as a personal washroom for the
+apprentice residing in the adjoining room.  There is a toilet, sink, shower
+and tub all combined into one!  Very rudimentary facilities, but very
+functional.
+~
+130 9 0
+D2
+The rest of the room.
+~
+~
+0 0 13045
+S
+#13051
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13056
+D1
+The library continues.
+~
+~
+0 0 13052
+S
+#13052
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13057
+D1
+The library continues.
+~
+~
+0 0 13053
+D3
+The library continues.
+~
+~
+0 0 13051
+S
+#13053
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13058
+D1
+The library continues.
+~
+~
+0 0 13054
+D3
+The library continues.
+~
+~
+0 0 13052
+S
+#13054
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13059
+D1
+The library continues.
+~
+~
+0 0 13055
+D3
+The library continues.
+~
+~
+0 0 13053
+S
+#13055
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13060
+D3
+The library continues.
+~
+~
+0 0 13054
+S
+#13056
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13061
+D1
+The library continues.
+~
+~
+0 0 13057
+D2
+The library continues.
+~
+~
+0 0 13051
+S
+#13057
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13062
+D1
+The library continues.
+~
+~
+0 0 13058
+D2
+The library continues.
+~
+~
+0 0 13052
+D3
+The library continues.
+~
+~
+0 0 13056
+S
+#13058
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The Stairwell.
+~
+~
+0 0 13063
+D1
+The library continues.
+~
+~
+0 0 13059
+D2
+The library continues.
+~
+~
+0 0 13053
+D3
+The library continues.
+~
+~
+0 0 13057
+S
+#13059
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13064
+D1
+The library continues.
+~
+~
+0 0 13060
+D2
+The library continues.
+~
+~
+0 0 13054
+D3
+The library continues.
+~
+~
+0 0 13058
+S
+#13060
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13065
+D2
+The library continues.
+~
+~
+0 0 13055
+D3
+The library continues.
+~
+~
+0 0 13059
+S
+#13061
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13066
+D1
+The library continues.
+~
+~
+0 0 13062
+D2
+The library continues.
+~
+~
+0 0 13056
+S
+#13062
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13067
+D1
+The Stairwell.
+~
+~
+0 0 13063
+D2
+The library continues.
+~
+~
+0 0 13057
+D3
+The library continues.
+~
+~
+0 0 13061
+S
+#13063
+&+LThe Third Floor Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 12 0
+D0
+The library.
+~
+~
+0 0 13072
+D1
+The library.
+~
+~
+0 0 13064
+D2
+The library.
+~
+~
+0 0 13058
+D3
+The library.
+~
+~
+0 0 13062
+D4
+The fourth floor.
+~
+~
+0 0 13088
+S
+#13064
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13069
+D1
+The library continues.
+~
+~
+0 0 13065
+D2
+The library continues.
+~
+~
+0 0 13059
+D3
+The stairwell.
+~
+~
+0 0 13063
+S
+#13065
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13070
+D2
+The library continues.
+~
+~
+0 0 13060
+D3
+The library continues.
+~
+~
+0 0 13064
+S
+#13066
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The Stairwell.
+~
+~
+0 0 13071
+D1
+The library continues.
+~
+~
+0 0 13067
+D2
+The library continues.
+~
+~
+0 0 13061
+S
+#13067
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13072
+D1
+The library continues.
+~
+~
+0 0 13068
+D2
+The library continues.
+~
+~
+0 0 13062
+D3
+The library continues.
+~
+~
+0 0 13066
+S
+#13068
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13073
+D1
+The library continues.
+~
+~
+0 0 13069
+D2
+The stairwell.
+~
+~
+0 0 13063
+D3
+The library continues.
+~
+~
+0 0 13067
+S
+#13069
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13074
+D1
+The library continues.
+~
+~
+0 0 13070
+D2
+The library continues.
+~
+~
+0 0 13064
+D3
+The library continues.
+~
+~
+0 0 13068
+S
+#13070
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D0
+The library continues.
+~
+~
+0 0 13075
+D2
+The library continues.
+~
+~
+0 0 13065
+D3
+The library continues.
+~
+~
+0 0 13069
+S
+#13071
+&+LStairwell Down to the Second Floor~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 8 0
+D1
+The library.
+~
+~
+0 0 13072
+D2
+The library.
+~
+~
+0 0 13066
+D5
+The second floor.
+~
+~
+0 0 13046
+S
+#13072
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D1
+The library continues.
+~
+~
+0 0 13073
+D2
+The library continues.
+~
+~
+0 0 13067
+D3
+The stairwell.
+~
+~
+0 0 13071
+S
+#13073
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D1
+The library continues.
+~
+~
+0 0 13074
+D2
+The library continues.
+~
+~
+0 0 13068
+D3
+The library continues.
+~
+~
+0 0 13072
+S
+#13074
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D1
+The library continues.
+~
+~
+0 0 13075
+D2
+The library continues.
+~
+~
+0 0 13069
+D3
+The library continues.
+~
+~
+0 0 13073
+S
+#13075
+&+BThe Citadel Library~
+   This library is spacious and well lighted; there are shelves and shelves
+of books occupying this open floor.  Scattered around the room are desks
+and chairs and reading couches and the occasional flowering plant or two.
+The books that line the shelves are of both magical and mundane natures,
+some written in spidery hand, others etched into stone by inhuman hands.
+Whatever the case, it is most likely not a good idea to tamper with them.
+~
+130 8 0
+D2
+The library continues.
+~
+~
+0 0 13070
+D3
+The library continues.
+~
+~
+0 0 13074
+S
+#13076
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13081
+D1
+The other end of the lab.
+~
+~
+0 0 13077
+S
+#13077
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13082
+D1
+A small door leads to the hallway.
+~
+door~
+1 -1 13078
+D3
+The other end of the lab.
+~
+~
+0 0 13076
+S
+#13078
+Hallway between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D0
+The hallway continues.
+~
+~
+0 0 13083
+D3
+A door leads into a lab.
+~
+door~
+1 -1 13077
+S
+#13079
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13084
+D1
+The other end of the lab.
+~
+~
+0 0 13080
+S
+#13080
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13085
+D3
+The other end of the lab.
+~
+~
+0 0 13079
+S
+#13081
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D1
+The other end of the lab.
+~
+~
+0 0 13082
+D2
+The other end of the lab.
+~
+~
+0 0 13076
+S
+#13082
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D2
+The other end of the lab.
+~
+~
+0 0 13077
+D3
+The other end of the lab.
+~
+~
+0 0 13081
+S
+#13083
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D0
+The stairwell.
+~
+~
+0 0 13088
+D2
+The hallway continues.
+~
+~
+0 0 13078
+S
+#13084
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+A door leads to the hallway.
+~
+door~
+1 -1 13089
+D1
+The other end of the lab.
+~
+~
+0 0 13085
+D2
+The other end of the lab.
+~
+~
+0 0 13079
+S
+#13085
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placable but recognizable to all.
+~
+130 8 0
+D2
+The other end of the lab.
+~
+~
+0 0 13080
+D3
+The other end of the lab.
+~
+~
+0 0 13084
+S
+#13086
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13091
+D1
+The other end of the lab.
+~
+~
+0 0 13087
+S
+#13087
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13092
+D1
+A door leads out into the hallway.
+~
+door~
+1 -1 13088
+D3
+The other end of the lab.
+~
+~
+0 0 13086
+S
+#13088
+&+LStairwell Down to the Third Floor~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 8 0
+D0
+The lab hallway.
+~
+~
+0 0 13093
+D1
+The lab hallway.
+~
+~
+0 0 13089
+D2
+The lab hallway.
+~
+~
+0 0 13083
+D3
+A door leads into a lab.
+~
+door~
+1 -1 13087
+D5
+The third floor.
+~
+~
+0 0 13063
+S
+#13089
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D1
+The hallway continues.
+~
+~
+0 0 13090
+D2
+A door leads into a lab.
+~
+door~
+1 -1 13084
+D3
+The stairwell.
+~
+~
+0 0 13088
+S
+#13090
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D0
+A door leads into a lab.
+~
+door~
+1 -1 13095
+D3
+The hallway continues.
+~
+~
+0 0 13089
+S
+#13091
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D1
+The other end of the lab.
+~
+~
+0 0 13092
+D2
+The other end of the lab.
+~
+~
+0 0 13086
+S
+#13092
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D2
+The other end of the lab.
+~
+~
+0 0 13087
+D3
+The other end of the lab.
+~
+~
+0 0 13091
+S
+#13093
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D0
+The hallway continues.
+~
+~
+0 0 13098
+D2
+The stairwell.
+~
+~
+0 0 13088
+S
+#13094
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13099
+D1
+The other end of the lab.
+~
+~
+0 0 13095
+S
+#13095
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D0
+The other end of the lab.
+~
+~
+0 0 13100
+D2
+A door leads to the hallway.
+~
+door~
+1 -1 13090
+D3
+The other end of the lab.
+~
+~
+0 0 13094
+S
+#13096
+&+LThe Fourth Floor Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 12 0
+D1
+The hallway.
+~
+~
+0 0 13097
+D4
+Up to the fifth floor.
+~
+~
+0 0 13121
+S
+#13097
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D1
+The hallway continues.
+~
+~
+0 0 13098
+D3
+The stairwell.
+~
+~
+0 0 13096
+S
+#13098
+Hallway Between Laboratories~
+   This hallway is wide and smooth, the best design to facilitate moving
+large objects or equipment from room to room.  The floors are shiny and
+unmarred, despite all evidence to the fact that they should be scuffed and
+dirty.  Magic can be a very handy thing...
+~
+130 0 0
+D2
+The hallway continues.
+~
+~
+0 0 13093
+D3
+The hallway continues.
+~
+~
+0 0 13097
+S
+#13099
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D1
+The other end of the lab.
+~
+~
+0 0 13100
+D2
+The other end of the lab.
+~
+~
+0 0 13094
+S
+#13100
+&+WA Laboratory~
+   This laboratory is spacious, clean, well lit and sterile.  There are a
+few tables with a bit of bizarre looking lab apparatus perched on them, a
+few shelves full of carefully labeled bottles of liquids and amalagrams, a
+few chalkboards covered with lines and lines of equations.  There is an odd
+fragrance in the air, something not quite placeable but recognizable to all.
+~
+130 8 0
+D2
+The other side of the lab.
+~
+~
+0 0 13095
+D3
+The other side of the lab.
+~
+~
+0 0 13099
+S
+#13101
+&+GTemperate Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleased here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is temperate; there is not much difference from this room than most of
+the weather outside, but the mages of the tower have reconstructed those
+conditions anyway.  They're probably too lazy to climb down four sets of
+stairs to get outside.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13106
+D1
+A desert zone.
+~
+~
+0 0 13102
+S
+#13102
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleased here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room.  Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A temperate zone.
+~
+~
+0 0 13107
+D1
+A desert zone.
+~
+~
+0 0 13103
+D3
+A temperate zone.
+~
+~
+0 0 13101
+S
+#13103
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13108
+D1
+An ocean zone.
+~
+~
+0 0 13104
+D3
+A tropical zone.
+~
+~
+0 0 13102
+S
+#13104
+&+BOcean Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is full of water -- and it's very, very deep.  Peering into the water,
+underwater plants can be faintly made out.
+~
+130 32776 7
+D0
+A desert zone.
+~
+~
+0 0 13109
+D1
+An arctic zone.
+~
+~
+0 0 13105
+D3
+A desert zone.
+~
+~
+0 0 13103
+S
+#13105
+&+WArctic Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions here.  This particular room is COLD!  This area is
+essentially a patch of ice and the air is FREEZING.  There are few odd
+iceplants growing here and there, but how they survive is beyond normal
+ken, since nothing should be able to survive it is so COLD in here.
+~
+130 8 0
+D0
+An ocean zone.
+~
+~
+0 0 13110
+D3
+An ocean zone.
+~
+~
+0 0 13104
+S
+#13106
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A desert zone.
+~
+~
+0 0 13111
+D1
+A temperate zone.
+~
+~
+0 0 13107
+D2
+A temperate zone.
+~
+~
+0 0 13101
+S
+#13107
+&+GTemperate Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is temperate; there is not much difference from this room than most of
+the weather outside, but the mages of the tower have reconstructed those
+conditions anyway.  They're probably too lazy to climb down four sets of
+stairs to get outside.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13112
+D1
+A tropical zone.
+~
+~
+0 0 13108
+D2
+A tropical zone.
+~
+~
+0 0 13102
+D3
+A tropical zone.
+~
+~
+0 0 13106
+S
+#13108
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+The stairwell.
+~
+~
+0 0 13113
+D1
+A desert zone.
+~
+~
+0 0 13109
+D2
+A desert zone.
+~
+~
+0 0 13103
+D3
+A temperate zone.
+~
+~
+0 0 13107
+S
+#13109
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13114
+D1
+An ocean zone.
+~
+~
+0 0 13110
+D2
+An ocean zone.
+~
+~
+0 0 13104
+D3
+A tropical zone.
+~
+~
+0 0 13108
+S
+#13110
+&+BOcean Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is full of water -- and it's very, very deep.  Peering into the water,
+underwater plants can be faintly made out.
+~
+130 32776 7
+D0
+A desert zone.
+~
+~
+0 0 13115
+D2
+An arctic zone.
+~
+~
+0 0 13105
+D3
+A desert zone.
+~
+~
+0 0 13109
+S
+#13111
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D0
+A tundra zone.
+~
+~
+0 0 13116
+D1
+A tropical zone.
+~
+~
+0 0 13112
+D2
+A tropical zone.
+~
+~
+0 0 13106
+S
+#13112
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A desert zone.
+~
+~
+0 0 13117
+D1
+The stairwell.
+~
+~
+0 0 13113
+D2
+A temperate zone.
+~
+~
+0 0 13107
+D3
+A desert zone.
+~
+~
+0 0 13111
+S
+#13113
+&+LThe Fourth Floor Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 12 0
+D0
+A tropical zone.
+~
+~
+0 0 13118
+D1
+A tropical zone.
+~
+~
+0 0 13114
+D2
+A tropical zone.
+~
+~
+0 0 13108
+D3
+A tropical zone.
+~
+~
+0 0 13112
+D4
+The fifth floor.
+~
+~
+0 0 13138
+S
+#13114
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleased here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A temperate zone.
+~
+~
+0 0 13119
+D1
+A desert zone.
+~
+~
+0 0 13115
+D2
+A desert zone.
+~
+~
+0 0 13109
+D3
+A temperate zone.
+~
+~
+0 0 13113
+S
+#13115
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13120
+D2
+An ocean zone.
+~
+~
+0 0 13110
+D3
+A tropical zone.
+~
+~
+0 0 13114
+S
+#13116
+&+cTundra Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tundra-like; the air is cold and dry, but not quite freezing.  The
+ground is partially frozen dirt, out of which wimpy little plants grow.
+The light is sparse but piercing, and the air surprisingly fresh.
+~
+130 8 0
+D0
+The stairwell.
+~
+~
+0 0 13121
+D1
+A desert zone.
+~
+~
+0 0 13117
+D2
+A desert zone.
+~
+~
+0 0 13111
+S
+#13117
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D0
+A tundra zone.
+~
+~
+0 0 13122
+D1
+A tropical zone.
+~
+~
+0 0 13118
+D2
+A tropical zone.
+~
+~
+0 0 13112
+D3
+A tundra zone.
+~
+~
+0 0 13116
+S
+#13118
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A desert zone.
+~
+~
+0 0 13123
+D1
+A tropical zone.
+~
+~
+0 0 13119
+D2
+A tropical zone.
+~
+~
+0 0 13113
+D3
+A desert zone.
+~
+~
+0 0 13117
+S
+#13119
+&+GTemperate Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is temperate; there is not much difference from this room than most of
+the weather outside, but the mages of the tower have reconstructed those
+conditions anyway.  They're probably too lazy to climb down four sets of
+stairs to get outside.
+~
+130 8 0
+D0
+A tropical zone.
+~
+~
+0 0 13124
+D1
+A tropical zone.
+~
+~
+0 0 13120
+D2
+A tropical zone.
+~
+~
+0 0 13114
+D3
+A tropical zone.
+~
+~
+0 0 13118
+S
+#13120
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D0
+A temperate zone.
+~
+~
+0 0 13125
+D2
+A desert zone.
+~
+~
+0 0 13115
+D3
+A temperate zone.
+~
+~
+0 0 13119
+S
+#13121
+&+LStairwell Down to the Fourth Floor~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 8 0
+D1
+A tundra zone.
+~
+~
+0 0 13122
+D2
+A tundra zone.
+~
+~
+0 0 13116
+D5
+The fourth floor.
+~
+~
+0 0 13096
+S
+#13122
+&+cTundra Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tundra-like; the air is cold and dry, but not quite freezing.  The
+ground is partially frozen dirt, out of which wimpy little plants grow.
+The light is sparse but piercing, and the air surprisingly fresh.
+~
+130 8 0
+D1
+A desert zone.
+~
+~
+0 0 13123
+D2
+A desert zone.
+~
+~
+0 0 13117
+D3
+The stairwell.
+~
+~
+0 0 13121
+S
+#13123
+&+yDesert Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleased here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is desert-like; the air is hot and dry, and for some reason it is much
+brighter in this room than in most of the others.  There is sand underfoot;
+clean, fine white sand the consistency of sugar, but it still tastes
+exactly like dirt.
+~
+130 8 0
+D1
+A tropical zone.
+~
+~
+0 0 13124
+D2
+A tropical zone.
+~
+~
+0 0 13118
+D3
+A desert zone.
+~
+~
+0 0 13122
+S
+#13124
+&+gTropical Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is tropical; the air here is steamy and humid, the lighting a bit
+dimmer than in other parts of the room. Monstrous vines and heavy
+vegetation hang from the ceiling.
+~
+130 8 0
+D1
+A temperate zone.
+~
+~
+0 0 13125
+D2
+A temperate zone.
+~
+~
+0 0 13119
+D3
+A desert zone.
+~
+~
+0 0 13123
+S
+#13125
+&+GTemperate Zone in the Greenhouse~
+   This room is as large as the library, but all the magic bound in books
+in the library has been unleashed here!  This is some sort of greenhouse,
+magically constructed so that the weather in one place is tropical, then
+ten feet away is arctic!  It seems as if every type of weather condition is
+represented here -- tundra, desert, temperate climes, tropical -- there is
+even a simulation of the ocean somehow set up, with a small island with
+arctic conditions in the southeast corner.  Different zones seem to be used
+to grow different plants or cultivate different reagents.  This particular
+room is temperate; there is not much difference from this room than most of
+the weather outside, but the mages of the tower have reconstructed those
+conditions anyway.  They're probably too lazy to climb down four sets of
+stairs to get outside.
+~
+130 8 0
+D2
+A tropical zone.
+~
+~
+0 0 13120
+D3
+A tropical zone.
+~
+~
+0 0 13124
+S
+#13126
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D0
+The other end of the store room.
+~
+~
+0 0 13131
+D1
+The other end of the store room.
+~
+~
+0 0 13127
+S
+#13127
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D1
+A door leads out into the hall.
+~
+door~
+3 13001 13128
+D3
+Further in the store room.
+~
+~
+0 0 13126
+S
+#13128
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 9 0
+D0
+The hallway continues.
+~
+~
+0 0 13133
+D3
+A door leads into a store room.
+~
+door~
+3 13001 13127
+S
+#13129
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...  Set in the north wall is a softly glowing
+runed door.  There are no visible handles or keyholes, but a single mark is
+set prominently in the middle of the door amidst the smaller markings.
+~
+130 9 0
+D0
+There is a tingling in the air in that direction, through the door.
+~
+door wind~
+3 -2 13134
+D1
+The other end of the store room.
+~
+~
+0 0 13130
+E
+door rune mark~
+                               &+Y  *
+                               &+Y * *
+                               &+Y*   *
+                               &+Y * *
+                               &+Y  *
+                               &+Y  *
+                               &+Y  *
+~
+S
+#13130
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D0
+The other end of the room.
+~
+~
+0 0 13135
+D3
+The other end of the room.
+~
+~
+0 0 13129
+S
+#13131
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...  Set in the east wall is a softly glowing runed
+door.  There are no visible handles or keyholes, but a single mark is set
+prominently in the middle of the door amidst the smaller markings.
+~
+130 9 0
+D1
+There is a tingling in the air in that direction, through the door.
+~
+door dark~
+3 -2 13132
+D2
+The other end of the room.
+~
+~
+0 0 13126
+E
+door rune mark~
+&+Y                                     *
+&+Y                                     * *
+&+Y                                     *   *
+   &+Y                                  *     *
+      &+Y                               * *
+         &+Y                            *   *  *
+            &+Y                         *     *
+               &+Y                      *
+~
+S
+#13132
+&+CThe Inner Room~
+   The air in this room is so charged with magic even the most adept can
+detect it.  There are wards of protection and binding and hiding and
+several other types of magical spells laid on the room.  There is a
+pedestal and case in the middle of the room that has every single square
+inch marked with some type of rune or other; however, all these runes seem
+to have been broken or deactivated when the Master Rune was broken -- it
+was placed over the door so when the door opened, the runes stopped
+functioning.  Yet the traces of powerful magic remain in the air.
+~
+130 32776 0
+D3
+The storage room.
+~
+door dark~
+3 -2 13131
+S
+#13133
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D0
+The stairwell.
+~
+~
+0 0 13138
+D2
+The hall continues.
+~
+~
+0 0 13128
+S
+#13134
+&+CThe Inner Room~
+   The air in this room is so charged with magic even the most adept can
+detect it.  There are wards of protection and binding and hiding and
+several other types of magical spells laid on the room.  There is a
+pedestal and case in the middle of the room that has every single square
+inch marked with some type of rune or other; however, all these runes seem
+to have been broken or deactivated when the Master Rune was broken -- it
+was placed over the door so when the door opened, the runes stopped
+functioning.  Yet the traces of powerful magic remain in the air.
+~
+130 32776 0
+D2
+The store room.
+~
+door wind~
+3 -2 13129
+S
+#13135
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D0
+The hallway.
+~
+door~
+3 13002 13140
+D2
+The other end of the room.
+~
+~
+0 0 13130
+S
+#13136
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D0
+A door leads into the store rooms.
+~
+door~
+3 13003 13141
+D1
+The hallway continues.
+~
+~
+0 0 13137
+S
+#13137
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D1
+The stairwell.
+~
+~
+0 0 13138
+D3
+The end of the hallway.
+~
+~
+0 0 13136
+S
+#13138
+&+LThe Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.
+~
+130 8 0
+D0
+The hallway.
+~
+~
+0 0 13143
+D1
+The hallway.
+~
+~
+0 0 13139
+D2
+The hallway.
+~
+~
+0 0 13133
+D3
+The hallway.
+~
+~
+0 0 13137
+D4
+The seventh floor.
+~
+~
+0 0 13163
+D5
+The fifth floor.
+~
+~
+0 0 13113
+S
+#13139
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D1
+End of the hallway.
+~
+~
+0 0 13140
+D3
+The stairwell.
+~
+~
+0 0 13138
+S
+#13140
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D2
+A door leads into the store room.
+~
+door~
+3 13002 13135
+D3
+The hallway.
+~
+~
+0 0 13139
+S
+#13141
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D1
+The store room.
+~
+~
+0 0 13142
+D2
+The hallway.
+~
+door~
+3 13003 13136
+S
+#13142
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D0
+The other end of the room.
+~
+~
+0 0 13147
+D3
+The other end of the room.
+~
+~
+0 0 13141
+S
+#13143
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D0
+The hallway continues.
+~
+~
+0 0 13148
+D2
+The stair well.
+~
+~
+0 0 13138
+S
+#13144
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D0
+The other end of the store room.
+~
+~
+0 0 13149
+D1
+The other end of the store room.
+~
+~
+0 0 13145
+S
+#13145
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away... Set in the north wall is a softly glowing runed
+door.  There are no visible handles or keyholes, but a single mark is set
+prominently in the middle of the door amidst the smaller markings.
+~
+130 9 0
+D0
+There is a tingling in the air in that direction, through the door.
+~
+door black~
+3 -2 13150
+D3
+The other end of the room.
+~
+~
+0 0 13144
+E
+door rune mark~
+&+Y                                     *
+   &+Y                                  * *
+      &+Y                               *   *
+         &+Y                            * *
+            &+Y                         *   *
+               &+Y                      *     *
+~
+S
+#13146
+&+CThe Inner Room~
+   The air in this room is so charged with magic even the most adept can
+detect it.  There are wards of protection and binding and hiding and
+several other types of magical spells laid on the room.  There is a
+pedestal in the middle of the room that has every single square inch marked
+with some type of rune or other; however, all these runes seem to have been
+broken or deactivated when the Master Rune was broken -- it was placed over
+the door so when the door opened, the runes stopped functioning.  Yet the
+traces of powerful magic remain in the air.
+~
+130 32776 0
+D1
+The store room.
+~
+door time~
+3 -2 13147
+S
+#13147
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...  Set in the west wall is a softly glowing runed
+door.  There are no visible handles or keyholes, but a single mark is set
+prominently in the middle of the door amidst the smaller markings.
+~
+130 9 0
+D2
+The other end of the room.
+~
+~
+0 0 13142
+D3
+There is a tingling in the air in that direction, through the door.
+~
+door time~
+3 -2 13146
+E
+door rune mark~
+&+Y                                       * *
+   &+Y                                  *
+      &+Y                               *  *
+         &+Y                            *     *
+            &+Y                         *
+               &+Y                      *
+                  &+Y                   *
+~
+S
+#13148
+Hallway by the Store Rooms~
+   This hallway is dimly lit by magical glowing spheres set into the walls
+at regular intervals.  The floor is bare stone of the same peculiar
+substance the stairwells are fashioned of; the material does nothing to
+mute the sound of footsteps.  Along the walls of the hallway are doors
+leading into the store rooms.
+~
+130 8 0
+D1
+A door leads into a store room.
+~
+door~
+3 13004 13149
+D2
+The hallway continues.
+~
+~
+0 0 13143
+S
+#13149
+&+LA Store Room~
+   The room is dank and musty and dark.  Boxes and bags and sacks have been
+left lying about in an utterly ramshackle fashion -- it's a wonder that
+anything can ever be found here.  The air, however, fairly bristles with
+magical energy, and it is quite obvious that some kind of powerful magical
+artifact is not far away...
+~
+130 9 0
+D2
+The other end of the room.
+~
+~
+0 0 13144
+D3
+A door.
+~
+door~
+3 13004 13148
+S
+#13150
+&+CThe Inner Room~
+   The air in this room is so charged with magic even the most adept can
+detect it.  There are wards of protection and binding and hiding and
+several other types of magical spells laid on the room.  There is a
+pedestal in the middle of the room that has every single square inch marked
+with some type of rune or other; however, all these runes seem to have been
+broken or deactivated when the Master Rune was broken -- it was placed over
+the door so when the door opened, the runes stopped functioning.  Yet the
+traces of powerful magic remain in the air.
+~
+130 32776 0
+D2
+A door leads back into the store room.
+~
+door black~
+3 -2 13145
+S
+#13151
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D0
+A door leads back into the hall.
+~
+door~
+3 13012 13156
+S
+#13152
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D0
+A door leads back into the hall.
+~
+door~
+3 13013 13157
+S
+#13153
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D0
+A door leads back into the hall.
+~
+door~
+3 13014 13158
+S
+#13154
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D0
+A door leads back into the hall.
+~
+door~
+3 13015 13159
+S
+#13155
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D0
+A door leads back into the hall.
+~
+door~
+3 13016 13160
+S
+#13156
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D1
+Along the hall.
+~
+~
+0 0 13157
+D2
+A door into a vault.
+~
+door~
+3 13012 13151
+S
+#13157
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D1
+Along the hall.
+~
+~
+0 0 13158
+D2
+A door leads into a vault.
+~
+door~
+3 13013 13152
+D3
+Along the hall.
+~
+~
+0 0 13156
+S
+#13158
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+Along the hallway.
+~
+~
+0 0 13163
+D1
+Along the hallway.
+~
+~
+0 0 13159
+D2
+A door leads into a vault.
+~
+door~
+3 13014 13153
+D3
+Along the hallway.
+~
+~
+0 0 13157
+S
+#13159
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D1
+Along the hallway.
+~
+~
+0 0 13160
+D2
+A door leads into the vault.
+~
+door~
+3 13015 13154
+D3
+Along the hallway.
+~
+~
+0 0 13158
+S
+#13160
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D2
+A door leads into a vault.
+~
+door~
+3 13016 13155
+D3
+Along the hall.
+~
+~
+0 0 13159
+S
+#13161
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D1
+The door leads out into the hallway.
+~
+door~
+3 13017 13162
+S
+#13162
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D1
+The stairwell.
+~
+~
+0 0 13163
+D3
+A door leads into the vault.
+~
+door~
+3 13017 13161
+S
+#13163
+&+LThe Stairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards, the stairs circle
+out of sight.
+~
+130 8 0
+D0
+The hallway.
+~
+~
+0 0 13168
+D1
+The hallway.
+~
+~
+0 0 13164
+D2
+The hallway.
+~
+~
+0 0 13158
+D3
+The hallway.
+~
+~
+0 0 13162
+D4
+Up the stairwell.
+~
+~
+0 0 13176
+D5
+The Sixth Floor.
+~
+~
+0 0 13138
+S
+#13164
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D1
+A door leads into the vault.
+~
+door~
+3 13018 13165
+D3
+The stairwell.
+~
+~
+0 0 13163
+S
+#13165
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D3
+A door leads out into the hallway.
+~
+door~
+3 13018 13164
+S
+#13166
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+A door leads into the vault.
+~
+door~
+3 13019 13171
+D1
+Along the hall.
+~
+~
+0 0 13167
+S
+#13167
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+A door leads into the vault.
+~
+door~
+3 13020 13172
+D1
+Along the hall.
+~
+~
+0 0 13168
+D3
+Along the hall.
+~
+~
+0 0 13166
+S
+#13168
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+A door leads into the vault.
+~
+door~
+3 13021 13173
+D1
+Along the hall.
+~
+~
+0 0 13169
+D2
+The stairwell.
+~
+~
+0 0 13163
+D3
+Along the hall.
+~
+~
+0 0 13167
+S
+#13169
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+A door leads into the vault.
+~
+door~
+3 13022 13174
+D1
+Along the hall.
+~
+~
+0 0 13170
+D3
+Along the hall.
+~
+~
+0 0 13168
+S
+#13170
+&+yHallway in the Hall of Treasures~
+   This hallway is well lit and spacious; the ceiling is high, giving the
+entire area a great impression of space.  The ceiling is also high to allow
+space for the massive Earth Elementals that guard the doors to the vaults.
+The walls are of stone worked to a sandstone-ish appearance, but they are
+made of a much harder substance.  Along the walls at regular intervals are
+doors leading into the vaults.
+~
+130 8 0
+D0
+A door leads into the vault.
+~
+door~
+3 13023 13175
+D3
+Along the hallway.
+~
+~
+0 0 13169
+S
+#13171
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D2
+A door south leads to the hall.
+~
+door~
+3 13019 13166
+S
+#13172
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D2
+A door south leads to the hall.
+~
+door~
+3 13020 13167
+S
+#13173
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D2
+A door south leads to the hall.
+~
+door~
+3 13021 13168
+S
+#13174
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D2
+A door south leads to the hall.
+~
+door~
+3 13022 13169
+S
+#13175
+&+YA Treasure Room~
+   This room is part vault part display room.  In the center of the room is
+a large pedestal/case that contains some magical item.  The room is lit by
+a large glowing sphere high overhead, and the walls have been either plated
+with gold or some illusion spell is working to make them appear to be gold.
+The air in here hums slightly, as from some hidden vibration.
+~
+130 32776 0
+D2
+A door south leads to the hall.
+~
+door~
+3 13023 13170
+S
+#13176
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards, the stairs circle
+out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13177
+D5
+The stairs continue.
+~
+~
+0 0 13163
+S
+#13177
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards, the stairs circle
+out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13178
+D5
+The stairs continue.
+~
+~
+0 0 13176
+S
+#13178
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards, the stairs circle
+out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13179
+D5
+The stairs continue.
+~
+~
+0 0 13163
+S
+#13179
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards and downwards, the
+stairs circle out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13180
+D5
+The stairs continue.
+~
+~
+0 0 13178
+S
+#13180
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Upwards and downwards, the
+stairs circle out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13181
+D5
+The stairs continue.
+~
+~
+0 0 13179
+S
+#13181
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Downwards, the stairs circle
+out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13182
+D5
+The stairs continue.
+~
+~
+0 0 13180
+S
+#13182
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Downwards, the stairs circle
+out of sight.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13183
+D5
+The stairs continue.
+~
+~
+0 0 13181
+S
+#13183
+&+LStairwell~
+   This stairwell has been carved out of a curious stone substance that
+does not seem entirely natural; the sheen of the stone is peculiarly
+bright, as if it has been polished.  Deep beneath the surface of the stone,
+bright specks of gold float within the stone.  Downwards, the stairs circle
+out of sight.  Upwards is some sort of landing.
+~
+130 8 0
+D4
+The stairs continue.
+~
+~
+0 0 13184
+D5
+The stairs continue.
+~
+~
+0 0 13182
+S
+#13184
+The Landing~
+   Down a long ways is the seventh floor; this floor is at the very top of
+the Citadel.  The floor, walls and ceiling here are constructed of the same
+strange material the stairwells were all constructed of.  The room is lit
+by a glowing magical globe set into the ceiling.
+~
+130 8 0
+D1
+The other end of the landing.
+~
+~
+0 0 13185
+D5
+Down ....
+~
+~
+0 0 13183
+S
+#13185
+&+LThe Landing~
+   To the east are two huge double doors built of the same onyx material
+the front doors were constructed of.  Golden runes blaze forth from deep
+within the surface, with a translation written underneath.
+~
+130 8 0
+D1
+The double doors are solid and impressive.
+~
+door double shalafi~
+3 -2 13186
+D3
+The stairwell.
+~
+~
+0 0 13184
+E
+runes translation~
+The runes seem to be elven in nature, but the translation is written in
+several different languages; the one you understand reads,
+
+                          &+YCry 'master' and enter.&n
+~
+S
+#13186
+&+LThe Entryway~
+   These are the private chambers of the master of the Citadel.  A short
+corridor to the north leads to another door, while immediately to the south
+another set of double doors leads to the study.  The hallway is lit by yet
+another glowing magical globe.
+~
+130 8 0
+D0
+The hallway.
+~
+~
+0 0 13187
+D2
+The double doors are made of black lacquered wood.
+~
+double~
+3 13044 13190
+D3
+The solid rune carven door leads to the stairs down.
+~
+door shalafi~
+3 -2 13185
+S
+#13187
+&+LThe Hallway~
+   This hallway leads a short distance from the entryway of the Citadel's
+master to his sleeping chambers.  The walls, floor and ceiling are
+constructed of the same odd onyx-like material that has been occurring over
+and over again within the citadel; in the gloom the golden specks deep
+within the surface of the material provide ample light to see by.  One gets
+the impression of standing in the middle of space with billions of stars
+surrounding one, standing here.  To the unwary, the feeling of vertigo can
+become overwhelming ...
+~
+130 8 0
+D0
+The end of the hallway.
+~
+~
+0 0 13188
+D2
+The entryway.
+~
+~
+0 0 13186
+S
+#13188
+&+LThe Hallway~
+   This hallway leads a short distance from the entryway of the Citadel's
+master to his sleeping chambers.  The walls, floor and ceiling are
+constructed of the same odd onyx-like material that has been occurring over
+and over again within the citadel; in the gloom the golden specks deep
+within the surface of the material provide ample light to see by.  One gets
+the impression of standing in the middle of space with billions of stars
+surrounding one, standing here.  To the unwary, the feeling of vertigo can
+become overwhelming ...
+~
+130 8 0
+D2
+The hall leads south to the entryway and study.
+~
+~
+0 0 13187
+D3
+The master's sleeping chambers.
+~
+door~
+3 13044 13189
+S
+#13189
+&+cThe Sleeping Chambers~
+   This room is simple and spartan -- there is essentially just a bed and a
+small writing table occupying the room.  The bed itself is comfortable
+enough, but does not appear to be used often.  On the small table stacks of
+paper have been left with notes and sketches scrawled indiscriminately
+across them.
+~
+130 32776 0
+D1
+The hallway.
+~
+door~
+3 13044 13188
+S
+#13190
+The Master of the Citadel's Study~
+   This room is fairly large, about twice the size of the foyer far below.
+One wall is covered with shelves full of books and bottles.  The desk,
+placed to one side, is the size of a bed a giant would use, and messy,
+covered with parchments, books and various magical odds and ends.  Nearby
+is a table almost the same size -- this one covered by flasks and glass
+tubing and other glassware.  A fireplace is set within the east wall, and a
+small table and several comfortable chairs are set around it.  Prominent
+in the south wall is a door with a large stylized hourglass entwined with
+an infinity symbol.
+~
+130 32776 0
+D0
+Double doors leads out to the entryway.
+~
+double~
+3 13044 13186
+D3
+The symbol engraved in the door glows slightly.
+~
+door~
+3 13042 13191
+S
+#13191
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D1
+The door to the Master's study.
+~
+door~
+3 13042 13190
+D2
+Along the corridor.
+~
+~
+0 0 13192
+S
+#13192
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D0
+Along the corridor
+~
+~
+0 0 13191
+D1
+Along the corridor.
+~
+~
+0 0 13193
+S
+#13193
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D0
+Along the corridor
+~
+~
+0 0 13194
+D3
+Along the corridor.
+~
+~
+0 0 13192
+S
+#13194
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D2
+Along the corridor
+~
+~
+0 0 13193
+D3
+Along the corridor.
+~
+~
+0 0 13195
+S
+#13195
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D1
+Along the corridor
+~
+~
+0 0 13194
+D2
+Along the corridor.
+~
+~
+0 0 13196
+S
+#13196
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D0
+Along the corridor
+~
+~
+0 0 13195
+D1
+Along the corridor.
+~
+~
+0 0 13197
+S
+#13197
+A Bizarre Corridor~
+   The walls, floor and ceiling are constructed of the same odd onyx-like
+material that has been occurring over and over again within the citadel;
+Like the hallway outside the Master's study, in the gloom the golden
+specks deep within the surface of the material provide ample light to see
+by.  The impression of standing in the middle of space in the middle of
+billions of stars is even stronger here, and the specks within the walls
+seem to move slowly, as if they really were stars doing some cosmic dance.
+~
+130 8 0
+D0
+Along the corridor.
+~
+~
+0 0 13198
+D3
+Along the corridor
+~
+~
+0 0 13196
+S
+#13198
+A Bizarre Corridor~
+   The strange corridor comes to an end here.  In a wall full of stars
+an enormous door is set.  The door is constructed entirely of nightstone;
+its sheer blackness is a stark contrast to the star filled depths of the
+walls of the corridor.  Whereas they were bright, this door is as dark as
+an area of space where all the stars have died.
+~
+130 8 0
+D2
+Along the corridor
+~
+~
+0 0 13197
+D3
+A black portal leads into darkness.
+~
+portal~
+3 13043 13199
+S
+#13199
+&+LInside the Nightstone Vault~
+&+L   Suspended in space and time, this room has been isolated from the world
+&+Lby thick magic-absorbing nightstone walls. The only way out seems to be through
+&+Lthe black portal door visible in the eastern wall.
+~
+130 209748168 0
+D1
+Before a Portal.
+~
+portal~
+2 13043 13198
+S

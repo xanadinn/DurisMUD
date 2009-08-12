@@ -1,0 +1,1731 @@
+#10600
+&+BSmall Tunnel&n~
+   &+LThis tunnel is only six feet wide and five feet high, not allowing
+&+Lalot of room to move around. A strange glow comes from the rock of the
+&+Ltunnel, lighting the area slightly. The floor is level and slopes down
+&+Lto the south.&n
+~
+106 9 15
+D0
+~
+door~
+1 0 10601
+D2
+~
+~
+0 0 10613
+S
+#10601
+&+rEntryway&n~
+   &+gThis large room echoes any sound made within it. On the floor an orcish
+&+gskull and crossbones made out of &+Lblack &+gsquare inch tiles stands out and
+&+gdemands your attention. Above you the ceiling looms over forty feet high,
+&+gbarely seen in the dim light. To the west a small room can be seen. A
+&+gsolid oak door lies to the north.&n
+~
+106 9 15
+D0
+~
+door~
+1 0 10603
+D2
+~
+door~
+1 0 10600
+D3
+~
+~
+0 0 10602
+S
+#10602
+&+yGuard Post&n~
+   &+yThis small, smelly room serves as a guard post. A table and two chairs
+&+yare the only furniture in the room, among the litter that lines the floor.
+&+yA single &+Ytorch &+yfastened to the north lights the room dimly. To the east a
+&+yvast hall can be seen.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10601
+S
+#10603
+&+LDark Hallway&n~
+   &+gCut and smoothed out of the natural rock of the underground network of
+&+gcaves, the hallway runs east and west. Small, brass lanterns line the
+&+gwalls, but remain unlit. To the south is a large oak door.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10605
+D2
+~
+door~
+1 0 10601
+D3
+~
+~
+0 0 10604
+S
+#10604
+&+LDark Hallway&n~
+   &+gCut and smoothed out of the natural rock of the underground network of
+&+gcaves, the hallway runs east and west. Small, brass lit lanterns line the
+&+gwalls, but remain unlit.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10603
+D3
+~
+~
+0 0 10608
+S
+#10605
+&+LDark Hallway&n~
+   &+gCut and smoothed out of the natural rock of the underground network of
+&+gcaves, the hallway runs east and west. Small, brass lanterns line the
+&+gwalls, but remain unlit.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10606
+D3
+~
+~
+0 0 10603
+S
+#10606
+&+LBend in a Dark Hallway&n~
+   &+gCut and smoothed from the natural rock of underground caves, this tunnel
+&+gruns north and west. Small, dimly lit lanterns line the walls, barely giving
+&+genough light to illuminate the area.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10607
+D3
+~
+~
+0 0 10605
+S
+#10607
+&+LIntersection in a Dark Hallway&n~
+   &+gCut and smoothed from the naturally formed rock of underground caves,
+&+gthis hallway splits into three directions. Small, brass lanterns line
+&+gthe walls, unlit. From the east the smell of rotten meat wafts into
+&+gthe room.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10610
+D1
+~
+~
+0 0 10609
+D2
+~
+~
+0 0 10606
+S
+#10608
+&+LBend in a Dark Hallway&n~
+   &+gCut and smoothed from the natural rock of underground caverns, this
+&+gtunnel runs to the east and north. Small, brass lanterns line the walls
+&+gbut remain unlit. To the north is a small door. To the east, the passage
+&+gcontinues.&n
+~
+106 9 15
+D0
+~
+door~
+1 0 10614
+D1
+~
+~
+0 0 10604
+S
+#10609
+&+RMeat Room~
+   &+rPutrid meat lines the walls, filling the cramped room with an unbearable
+&+rstench. Hanging from hooks, and dripping blood on the floor, making the
+&+rfloor quite treacherous. A few butcher's tools are scattered about the
+&+rroom.&n
+~
+106 262157 15
+D0
+~
+~
+0 0 10611
+D3
+~
+~
+0 0 10607
+D5
+~
+hatch~
+7 10611 10616
+S
+#10610
+&+LHallway Outside a Kitchen&n~
+   &+gCut and smoothed from the natural rock of underground caverns, the tunnel
+&+gleads north and south. Small, brass lanterns line the walls, but remain
+&+gunlit. From the east the light of a fire brightens the room slightly and
+&+glooking in, a mess of a kitchen can be seen.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10612
+D1
+~
+~
+0 0 10611
+D2
+~
+~
+0 0 10607
+S
+#10611
+&+gA Messy Kitchen&n~
+   &+yPans, food, knives and trash are everywhere! This place is a real dump. A
+&+ylarge oven to the east dominates the wall. A blazing fire is seen underneath
+&+yit in a small pit. Knives are stuck into the huge table in the center of the
+&+yroom and a few are also in the different walls. The floor is covered with
+&+yfilth, from food, to fecal matter. The smell isn't very pleasing either.&n
+~
+106 9 15
+D2
+~
+~
+0 0 10609
+D3
+~
+~
+0 0 10610
+S
+#10612
+&+LDark Hallway&n~
+   &+gCut and smoothed out of the naturally formed rock of underground caverns,
+&+gthis tunnel runs north and south. Small, brass lanterns line the wall, but
+&+gremain unlit. The glow of torchlight can be seen in the distance to the
+&+gnorth, lighting this room a bit.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10629
+D2
+~
+~
+0 0 10610
+S
+#10613
+&+bA Small Chamber&n~
+   &+LLarge and round, this chamber is made from a black, shining rock. The
+&+Lfloor is uneven, but a faint trail can be seen, having been worn into the
+&+Lground over time. Moss clings to a few areas of stone. To the north is
+&+La small passage leading into darkness.&n
+~
+106 8388685 15
+D0
+~
+~
+0 0 10600
+D1
+~
+~
+0 0 10649
+S
+#10614
+&+ySmall Room&n~
+   &nThis small room is shaped like a square. A small torch fastened to the
+eastern wall lights the room. The floor is dusty and a slight trail can be
+seen heading north, west and south. A large door lies to the west, made out
+of rock. A wide passage begins to the north and a small door lies to the
+south.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10624
+D2
+~
+door~
+1 0 10608
+D3
+~
+door~
+1 0 10615
+S
+#10615
+&+YSleeping Area&n~
+   &+yCramped bedrolls fill this room, set in rows along the north and south
+&+ywalls, making a thin path through the center of the room. Assorted armor
+&+yand clothes litter the floor around the rolls. The room smells like sweat
+&+yand a few other unmentionable odors. To the east lies a stone door.&n
+~
+106 9 15
+D1
+~
+door~
+1 0 10614
+S
+#10616
+&+LEnd of a Bloody Tunnel&n~
+   &+rBlood slowly drips down from the ceiling and gradually runs down to the
+&+reast, making the path slick. Droppings suggest small vermin visit this room
+&+rfrequently, searching for food. A strange glow floods this room in a bluish
+&+rhaze, emanating from the east.&n
+~
+106 32841 15
+D1
+~
+~
+0 0 10617
+D4
+~
+trapdoor~
+7 10611 10609
+S
+#10617
+&+rNear a Pool of Blood&n~
+   &+bA small line of &+rblood&+b runs in from the west, and forms a small pool here,
+&+bsmelling rancid. The rock of the tunnel glow a slight blue, bathing this
+&+barea in faint light. The tunnel continues to the east, sloping down, and
+&+bwest.
+~
+106 163913 15
+D1
+~
+~
+0 0 10618
+D3
+~
+~
+0 0 10616
+S
+#10618
+&+LDead End&n~
+   &+bThe bloody passage ends here. The naturally formed rock emits a blue
+&+bglow, filling the area with a faint light. Eerily silent, this passage
+&+bgives chills to those who travel within. A few clusters of fungi has
+&+battached itself to the glowing rock. To the west is a small room.&n
+~
+106 9 15
+D3
+~
+~
+0 0 10617
+S
+#10619
+&+LDead End&n~
+   &+bWalls rough and naturally formed, this tunnel gradually slopes downward
+&+bto the north, leading into darkness. The only light here is the small patch
+&+bof fungi growing on the rocky west wall. The air is humid and warm. A slight
+&+bbreeze blows in through here as well, hot and moist.&n
+~
+106 8388681 15
+D0
+~
+~
+0 0 10620
+D1
+~
+secret~
+5 0 10621
+S
+#10620
+&+bBlue Tunnel&n~
+   &+BThe rock of this tunnel emits a soft blue glow, bathing everything with
+&+Ba faint light. The floor is ragged, making the passage through this tunnel
+&+Brough. To the south the end of the path can be seen. The floor slopes down
+&+Bto the north.&n
+~
+106 8421449 15
+D0
+~
+~
+0 0 10622
+D2
+~
+~
+0 0 10619
+S
+#10621
+&+YSmall Alcove&n~
+   Secluded and quiet, this cave seems the ideal sanctuary from the harsh
+outside world. Smooth walls on every side, and a low ceiling, the room
+almost seems unnatural. A small hole is in the west wall, about 3 feet
+wide in diameter. To the north is a small niche in the wall.&n
+~
+106 8552525 0
+D3
+~
+secret~
+5 0 10619
+S
+#10622
+&+bBlue Tunnel&n~
+   &+BThe rock of this tunnel emits a bluish glow, bathing the area in a faint
+&+Blight. The floor is ragged, making the passage through here rough. To the
+&+Bnorth is a wall of &+Ldarkness&+B, permitting no light through and blocking your
+&+Bview. To the south, the tunnel slopes up.&n
+~
+106 8421449 15
+D0
+   &+LA sheet of darkness blocks your vision.&n
+~
+darkness~
+0 0 10623
+D2
+~
+~
+0 0 10620
+S
+#10623
+&+LRoom of Shadows&n~
+   &+yA tall statue sits in the middle of the room, humming quietly. Black and
+&+yshining, even without light, it emanates an evil feeling all can feel. Only
+&+ythe statue fills the room, being void of anything else. Walls of shadow cover
+&+ya doorway in each direction. North, south, east, and west are all blocked
+&+yfrom view, keeping one from seeing what lies beyond. The floor and ceiling
+&+yor made from a grey stone: different from the rest of the tunnels around
+&+ythese underground caves.&n
+~
+106 8683597 0
+D0
+~
+~
+0 0 10627
+D1
+~
+~
+0 0 10628
+D2
+~
+~
+0 0 10622
+D3
+~
+~
+0 0 10626
+S
+#10624
+&+bWide Hallway&n~
+   &+WThis strange hallway has a crude stone shelf carved into the eastern wall,
+&+Wand is filled with different types of skulls. They stare at you with empty
+&+Wsockets, giving you the feeling that you're being watched. Curious glowing
+&+Wlines run along the floor, from the skulls, and lead to a curtain covered
+&+Wdoorway to the west. To the south a small room can be seen, and north is
+&+Wa large room.&n
+~
+106 13 15
+D0
+~
+~
+0 0 10633
+D2
+~
+~
+0 0 10614
+D3
+~
+curtain~
+1 0 10625
+S
+#10625
+&+WShaman's Quarters&n~
+   &+gA small altar dominates the western wall. Covered with trinkets, you would
+&+ghardly notice that it is made out of bones. A few skulls sit upon wooden
+&+gshelves, covered with runes. The ceiling is painted black, casting the
+&+gillusion of an open night sky. In the middle of the room a rock glows, giving
+&+glight to the darkness enshrouded room. A curtain covered doorway lies to
+&+gthe east.&n
+~
+106 8519689 15
+D1
+~
+curtain~
+1 0 10624
+S
+#10626
+Basilisk Lair~
+   &+mBones and broken pieces of stone statues are everywhere. Scratches made
+&+mfrom claws mark the floor, running to and from the western room. Strangely,
+&+mthe room feels hot, instead of the chilly dampness of the other tunnels. Up
+&+mabove, a petrified piercer is clinging to the ceiling, having been turned to
+&+mstone long ago.&n
+~
+106 8421449 15
+D1
+~
+~
+0 0 10623
+D3
+~
+~
+0 0 10642
+S
+#10627
+At the Edge of a Deep Chasm~
+   &+LTo the north is the edge of a deep chasm. A small stone bridge spans the
+&+Lwidth, but is thin, and below is a more than 500 foot drop. A slight breeze
+&+Lblows through here, coming up from the chasm. Across the chasm gigantic
+&+Lmushrooms can be seen growing. Above, large stalagtites point down, having
+&+Lgrown through the eons.
+~
+106 8421453 15
+D0
+~
+~
+0 0 10643
+D2
+~
+~
+0 0 10623
+S
+#10628
+&+cDecorated Passage&n~
+   &+BThe walls and ceiling have been carved out of the rock with great skill,
+&+Band is decorated with patterns. The quality of the work is astounding and
+&+Bruns along the length of this hallway. Small pillars about 3 feet high are
+&+Bspaced evenly along this corridor, each with a black stone sphere atop them.
+&+BTo the west, your vicious is blocked by a dark shroud, and to the east, the
+&+Btunnel continues, sloping down gradually.&n
+~
+106 8421453 0
+D1
+~
+~
+0 0 10648
+D3
+~
+~
+0 0 10623
+S
+#10629
+&+yGreat Hall&n~
+   &+gAn assortment of chairs and tables are scattered about this hall, half of
+&+gthem broken. All over the walls is dried food and blood. Bones litter the
+&+gfloor in piles, coming from many different types of animals, or people. A
+&+gbright torch is in the center of the great hall, lighting everything. Great
+&+gbattle trophies and skins line the walls, obviously from successful orcs
+&+gand their warparties. The great hall runs west from here, and a door lies
+&+gto the south.&n
+~
+106 9 15
+D2
+~
+~
+0 0 10612
+D3
+~
+~
+0 0 10630
+S
+#10630
+&+yGreat Hall&n~
+   &+gAn assortment of chairs and tables are scattered about this hall, half of
+&+gthem broken. All over the walls is dried food and blood. Bones litter the
+&+gfloor in piles, coming from many different types of animals, or people. A
+&+gbright torch is in the center of the great hall, lighting everything. Great
+&+gbattle trophies and skins line the walls, obviously from successful orcs
+&+gand their warparties. The great hall runs east and west from here.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10629
+D3
+~
+~
+0 0 10631
+S
+#10631
+&+yCenter of the Great Hall&n~
+   &+gAn assortment of chairs and tables are scattered about this hall, half of
+&+gthem broken. All over the walls is dried food and blood. Bones litter the
+&+gfloor in piles, coming from many different types of animals, or people. A
+&+gbright torch is here, lighting everything in sight. Great battle trophies
+&+gand skins line the walls, obviously from successful orcs and their battles.
+&+gThe great hall runs east-west from here, and a large door lies to the
+&+gnorth.&n
+~
+106 9 15
+D0
+~
+~
+0 0 10634
+D1
+~
+~
+0 0 10630
+D3
+~
+~
+0 0 10632
+S
+#10632
+&+yGreat Hall&n~
+   &+gAn assortment of chairs and tables are scattered about this hall, half of
+&+gthem broken. All over the walls is dried food and blood. Bones litter the
+&+gfloor in piles, coming from many different types of animals, or people. A
+&+gbright torch is in the center of the great hall, lighting everything. Great
+&+gbattle trophies and skins line the walls, obviously from successful orcs
+&+gand their warparties. The great hall runs east and west from here.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10631
+D3
+~
+~
+0 0 10633
+S
+#10633
+&+yGreat Hall&n~
+   &+gAn assortment of chairs and tables are scattered about this hall, half of
+&+gthem broken. All over the walls is dried food and blood. Bones litter the
+&+gfloor in piles, coming from many different types of animals, or people. A
+&+gbright torch is in the center of the great hall, lighting everything. Great
+&+gbattle trophies and skins line the walls, obviously from successful orcs
+&+gand their warparties. The great hall continues to the east, and a passage
+&+gbegins to the south.&n
+~
+106 9 15
+D1
+~
+~
+0 0 10632
+D2
+~
+~
+0 0 10624
+S
+#10634
+&+mSlave Room&n~
+   A wide circular room, it is made to hold alot of people. Metal hoops are
+embedded into the stone walls, for the chains of slaves to be attached to.
+Two walls of metal bars block off a small room to the east and west, put
+there to keep slaves in securely. A stairway leading down can be seen near
+the center of the room. To the north is a large chamber, and south lies a
+great hall.&n
+~
+106 142639177 15
+D0
+~
+~
+0 0 10635
+D1
+~
+bars~
+3 10632 10637
+D2
+~
+~
+0 0 10631
+D5
+~
+~
+0 0 10638
+S
+#10635
+&+rPragtog's Domain&n~
+   &+LWeapons, trophies and a manticore-skin rug fills the room, decorating it
+&+Lrichly. Above, a large lantern hangs, basking the room in dim firelight. A
+&+Llarge stuffed corpse of one of Pragtog's enemies stands here with. Only the
+&+Lchief and leader of a clan of orcs could have a room so magnificently
+&+Lfurnished.&n
+~
+106 8421449 15
+D2
+~
+~
+0 0 10634
+D3
+~
+~
+0 0 10636
+S
+#10636
+&+rPragtog's Domain&n~
+   &+LA manticore-skin rug lines the floor and trophies from past battles cover
+&+Lthe walls. A few huge pillows are on the rug, mainly for Pragtog and his
+&+Lorcish women to sleep and lay on. A table with ale and charred meat on it is
+&+Lin the center of the room. To the east, Pragtog's domain continues.&n
+~
+106 8552521 15
+D1
+~
+~
+0 0 10635
+S
+#10637
+&+WA Tiny Cell&n~
+   &+LCramped and dirty, this cell is used for holding more aggressive slaves,
+&+Lor ones that try to run away. Shackles are attached to the smooth stone walls
+&+Lhere. A few bones litter the floor among the waste of past slaves. A large
+&+Lbarred door is to the west, blocking the way.&n
+~
+106 8421577 0
+D3
+~
+bars~
+3 10632 10634
+S
+#10638
+&+yTunnel Underneath the Settlement&n~
+   &+LSmall torches line these newly carved tunnels. Black stone, and carts are
+&+Leverywhere, ready to be hauled out of the area. Mining tools are scattered
+&+Labout, obviously being used to chip away the rock. Metal hoops are in the
+&+Lfloor of this new cave, set there for slaves to be attached to by chains. Up
+&+Lthe stone stairway you can see a lighted room.&n
+~
+106 142639177 15
+D0
+~
+~
+0 0 10640
+D2
+~
+~
+0 0 10641
+D4
+~
+~
+0 0 10634
+D5
+~
+~
+0 0 10639
+S
+#10639
+&+yNew Tunnel&n~
+   &+LSmall torches line these newly carved tunnels. Black stone, and carts are
+&+Leverywhere, ready to be hauled out of the area. Mining tools are scattered
+&+Labout, obviously being used to chip away the rock. Metal hoops are in the
+&+Lfloor of this new cave, set there for slaves to be attached to by chains.&n
+~
+106 142639177 13
+D1
+~
+~
+0 0 10688
+D4
+~
+~
+0 0 10638
+S
+#10640
+&+yNew Tunnel&n~
+   &+LSmall torches line these newly carved tunnels. Black stone, and carts are
+&+Leverywhere, ready to be hauled out of the area. Mining tools are scattered
+&+Labout, obviously being used to chip away the rock. Metal hoops are in the
+&+Lfloor of this new cave, set there for slaves to be attached to by chains.&n
+~
+106 8421449 15
+D2
+~
+~
+0 0 10638
+S
+#10641
+&+yNew Tunnel&n~
+   &+LSmall torches line these newly carved tunnels. Black stone, and carts are
+&+Leverywhere, ready to be hauled out of the area. Mining tools are scattered
+&+Labout, obviously being used to chip away the rock. Metal hoops are in the
+&+Lfloor of this new cave, set there for slaves to be attached to by chains.&n
+~
+106 8421449 15
+D0
+~
+~
+0 0 10638
+S
+#10642
+Basilisk Lair~
+   &+mBones and broken pieces of stone statues are everywhere. Scratches made
+&+mfrom claws mark the floor, running to and from the eastern room. Strangely,
+&+mthe room feels hot, instead of the chilly dampness of the other tunnels. Up
+&+mabove, a petrified piercer is clinging to the ceiling, having been turned to
+&+mstone long ago.&n
+~
+106 8421449 15
+D1
+~
+~
+0 0 10626
+S
+#10643
+On a Thin Stone Bridge~
+   &+LAbout 3 feet wide and spanning the deep chasm below, this bridge looks
+&+Lnaturally formed. You cannot see the bottom of the chasm from here, and
+&+Labove, large stalagtites hang from the ceiling of the cave. To the north
+&+Lhuge mushrooms can be seen, and to the south is a rock wall with a dark
+&+Lopens at the base.&n
+~
+106 8429641 15
+D0
+~
+~
+0 0 10644
+D2
+~
+~
+0 0 10627
+S
+#10644
+&+gA Small Group of Huge Mushrooms&n~
+   &+cHuge mushrooms grow here, in what looks to be soil. The soil is uncommon
+&+cin such areas, and raises the question of how it arrived here. The mushroom
+&+cbases are round, and the caps are spotted &+Rred &+cand &+Wwhite&+c. To the south lies
+&+ca chasm, and natural rock bridge crossing it. Across the cavern is a
+&+crock ledge and wall.&n
+~
+106 8421449 15
+D0
+~
+~
+0 0 10647
+D1
+~
+~
+0 0 10645
+D2
+~
+~
+0 0 10643
+D3
+~
+~
+0 0 10646
+S
+#10645
+&+gSmall Group of Huge Mushrooms&n~
+   &+cHuge mushrooms grow here, in what looks to be soil. The soil is uncommon
+&+cin such areas, and raises the question of how it arrived here. The mushroom
+&+cbases are round, and the caps are spotted &+Rred &+cand &+Wwhite&+c. To the south lies
+&+ca chasm, and natural rock bridge crossing it. Across the cavern is a
+&+crock ledge and wall.&n
+~
+106 8421449 15
+D3
+~
+~
+0 0 10644
+S
+#10646
+&+gSmall Group of Huge Mushrooms&n~
+   &+cHuge mushrooms grow here, in what looks to be soil. The soil is uncommon
+&+cin such areas, and raises the question of how it arrived here. The mushroom
+&+cbases are round, and the caps are spotted &+Rred &+cand &+Wwhite&+c. To the south lies
+&+ca chasm, and natural rock bridge crossing it. Across the cavern is a
+&+crock ledge and wall.&n
+~
+106 8421449 15
+D1
+~
+~
+0 0 10644
+S
+#10647
+&+gAlcove in a Group of Huge Mushrooms&n~
+   &+CThis secluded area is surrounded by large mushrooms which have grown
+&+Cclose together. A small pool of water is here with smaller mushrooms and
+&+Cfungi around it. The air is damp and cool, promoting the growth of these
+&+Cmushrooms in a strangely rich soil. Far to the south, through a gap in
+&+Cthe mushrooms, a dark cave can be seen.&n
+~
+106 8421449 3
+D2
+~
+~
+0 0 10644
+S
+#10648
+&+WChamber of the Spirit&n~
+   This area of the tunnel widens out into a small rounded room. In the
+center are glowing runes, shaped in a circle and were made from a blue rock
+before they were set into the floor. On the walls that encircle the room is
+a depiction of the ethereal plane, showing beautiful colors and shadows. The
+floor is smooth and flat, almost glossy, and a brightness from an unknown
+source fills the room with a like not unlike the moon of the surface. The
+passage continues west from here.
+~
+106 8552520 0
+D3
+~
+~
+0 0 10628
+S
+#10649
+&+bA Small Tunnel&n~
+   &+LThe rock of this tunnel emits a faint bluish glow, lighting the area
+&+Lsoftly. The floor is level, and slopes downwards to the west. A slight trail
+&+Lcan be seen worn into the rock of the floor, made from heavy boots and clawed
+&+Lfeet. Light from a torch comes from the room to the west.&n
+~
+106 13 0
+D3
+~
+~
+0 0 10613
+D4
+~
+~
+0 0 822668
+S
+#10650
+&+WDecorated Hallway&n~
+   &+cMagnificent carvings and decorations have been carved out of the flat
+&+cstone walls here, drawing your eye to every detail. Small 3ft high pillars
+&+cline the walls, spaced evenly apart with small, black stone spheres atop
+&+ceach. A large blue portal is here, swirling, beckoning you to step into it.
+&+cThe tunnel takes a sudden steep drop in incline to the east, leading deeper
+&+cdown into the ground.&n
+~
+106 8421705 15
+D1
+~
+~
+0 0 10651
+S
+#10651
+&+WDecorated Hallway&n~
+   &+cMagnificent carvings and decorations have been carved out of the flat
+&+cstone walls here, drawing your eye to every detail. Small 3ft high pillars
+&+cline the walls, spaced evenly apart with small, black stone spheres atop
+&+ceach. The tunnel takes a steep drop in incline to the east, leading
+&+cdeeper down into the ground. To the west is a dead end.&n
+~
+106 8421453 15
+D1
+~
+~
+0 0 10652
+D3
+~
+~
+0 0 10650
+S
+#10652
+&+LHole in the Floor&n~
+   &+BThe steep grade ends here at a hole in the floor. Perfectly round, it
+&+Blooks as though it was carved away from the rock. The lack of sound or
+&+Bsigns of animal life suggest that nothing knows of this place, and it is
+&+Blong forgotten. The ceiling is low here and flat. To the west, a steep
+&+Bclimb continues.&n
+~
+106 8421453 15
+D3
+~
+~
+0 0 10651
+D5
+~
+~
+0 0 10653
+S
+#10653
+&+LIn a Smooth Vertical Shaft&n~
+   &+BOnly precarious well placed rocks offer you a grip as you hold on to the
+&+Bside of the smooth walled shaft. Above the ceiling of a room can be seen.
+&+BBelow, the tunnel slowly begins to curve. Nothing else of importance can be
+&+Bseen.&n
+~
+106 8421453 15
+D4
+~
+~
+0 0 10652
+D5
+~
+~
+0 0 10654
+S
+#10654
+&+LSteep Tunnel&n~
+   &+BRound, and curving in from above and to the east, this tunnel has no
+&+Bparticular features and isn't extremely big, only allowing one to pass
+&+Bthrough at a time. The rock is black here and the a mist slowly wafts in
+&+Bfrom the east. The tunnel begins to even out to the east, becoming less
+&+Bsteep.&n
+~
+106 8429645 15
+D1
+~
+~
+0 0 10655
+D4
+~
+~
+0 0 10653
+S
+#10655
+&+LA Large Chamber&n~
+   &+yLines are carved into the walls to give the illusion of bricks. Small
+&+yunlit lanterns are on each wall, made out of brass and have obviously been
+&+yused in the past by their burnt wicks. The walls are a black stone, almost
+&+yglossy in color. A large oak door is to the east, and small passages run
+&+ynorth and south from here.&n
+~
+106 8421453 15
+D0
+~
+~
+0 0 10657
+D1
+~
+door~
+2 0 10656
+D2
+~
+~
+0 0 10658
+D3
+~
+~
+0 0 10654
+S
+#10656
+&+YA Small Storage Room&n~
+   &+yThis room has layers of shelves lining the walls, holding various items,
+&+ymost ruined or rotten and useless. Even the shelves are beginning to fall
+&+yapart, some broken in half and leaning on the shelf below it. A tiny
+&+yglowing rock is in the ceiling, still semi-bright, ever since the first
+&+ytime it was set in its spot. To the west is a wooden door, the only exit
+&+yfrom here.&n
+~
+106 8421453 15
+D3
+~
+door~
+2 0 10655
+S
+#10657
+&+mA Dark Hallway&n~
+   &+BSmoothed with lines carved in it, the walls give the illusion of being
+&+Bmade out of bricks. Black and glossy in color, the passage is 9ft in height
+&+Band 6ft in width. Devoid of any other details, this hallway runs north and
+&+Bsouth, opening up into a small chamber to the south.&n
+~
+106 8421453 15
+D0
+~
+~
+0 0 10660
+D2
+~
+~
+0 0 10655
+S
+#10658
+&+mA Dark Hallway&n~
+   &+BSmoothed with lines carved in it, the walls give the illusion of being
+&+Bmade out of bricks. Black and glossy in color, the passage is 9ft in height
+&+Band 6ft in width. Devoid of any other details, this hallway runs north and
+&+Bsouth, opening up into a small chamber to the north.&n
+~
+106 8421449 15
+D0
+~
+~
+0 0 10655
+D2
+~
+~
+0 0 10659
+S
+#10659
+&+mA Dark Hallway&n~
+   &+BSmoothed with lines carved in it, the walls give the illusion of being
+&+Bmade out of bricks. Black and glossy in color, the passage is 9ft in height
+&+Band 6ft in width. Devoid of any other details, this hallway runs north and
+&+Bsouth, opening up into a small chamber, its door seemingly blown off of
+&+Bits hinges in the past. &+RA glowing line of runes &+Bruns across the
+&+Bhallway before the entrance.&n
+~
+106 8421453 0
+D0
+~
+~
+0 0 10658
+D2
+~
+~
+0 0 10663
+S
+#10660
+&+mA Dark Hallway&n~
+   &+BSmoothed with lines carved in it, the walls give the illusion of being
+&+Bmade out of bricks. Black and glossy in color, the passage is 9ft in height
+&+Band 6ft in width. A large hole is in the western wall, claw marks lining
+&+Bthe edges. Devoid of any other details, this hallway runs north and south,
+&+Bopening up into a small chamber to the north.&n
+~
+106 8421449 15
+D0
+~
+~
+0 0 10662
+D2
+~
+~
+0 0 10657
+D3
+~
+~
+0 0 10661
+S
+#10661
+&+yA Tunnel Ripped From the Stone&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel continues to the west and opens up into a more level surface
+&+rto the east. An alternate tunnel opens up to the north, a bit smaller
+&+rthan this one.&n
+~
+106 8421449 13
+D0
+~
+~
+0 0 10666
+D1
+~
+~
+0 0 10660
+D3
+~
+~
+0 0 10664
+S
+#10662
+&+BIn an Abandoned Home&n~
+   &+cWooden furniture you would find in a small home lies scattered about,
+&+ccollecting dust and cobwebs. A desk is in the corner with a few pieces of
+&+cpaper scattered about its surface. The drawers are missing, looted long
+&+cago. A dozen candles line a shelf on the north wall, used to light this
+&+cabode when it was lived in. A tunnel opens up into this home from the
+&+csouth through a doorway.&n
+~
+106 8683721 15
+D2
+~
+~
+0 0 10660
+S
+#10663
+&+LA Scorched Workroom&n~
+   &+yDevastation runs rampant within this chamber. The walls look as though
+&+ythey had melted for a few seconds, then cooled, disfigured. Bits of melted
+&+yglass lies around the floor, among charred remains of wood and stone. What
+&+yused to be a table is now shattered and spread about the room in black
+&+ypieces. The source of the explosion that ruined this room lies to the
+&+ysoutheast, near a small dip in the floor, possibly the crater. The
+&+yremains of the door to this room is to the north.&n
+~
+106 8421449 0
+D0
+~
+~
+0 0 10659
+D1
+~
+~
+0 0 10667
+D2
+~
+~
+0 0 10668
+S
+#10664
+&+yIn a Tunnel Ripped From the Stone&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel continues to the east and opens up into a small carved out
+&+rroom to the west.&n
+~
+106 8421449 13
+D1
+~
+~
+0 0 10661
+D3
+~
+~
+0 0 10665
+S
+#10665
+&+yIn a Small Room of Rough Stone&n~
+   &+rClaw marks are everywhere, in this spherical shaped room, as if some
+&+rgreat creature ripped a hole into the stone with its hands. Bones litter
+&+rthe floor among a few items from past adventurers. The travelling rough
+&+rfrom the jagged edges everywhere, the room opens up to the east, into a
+&+rtunnel.&n
+~
+106 8421449 13
+D1
+~
+~
+0 0 10664
+S
+#10666
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421709 15
+D0
+~
+~
+0 0 10673
+D2
+~
+~
+0 0 10661
+S
+#10667
+&+LA Scorched Workroom&n~
+   &+yDevastation runs rampant within this chamber. The walls look as though
+&+ythey had melted for a few seconds, then cooled, disfigured. Bits of melted
+&+yglass lies around the floor, among charred remains of wood and stone. What
+&+yused to be a table is now shattered and spread about the room in black
+&+ypieces. The source of the explosion that ruined this room lies to the
+&+ysoutheast, near a small dip in the floor, possibly the crater.&n
+~
+106 8421449 0
+D2
+~
+~
+0 0 10669
+D3
+~
+~
+0 0 10663
+S
+#10668
+&+LA Scorched Workroom&n~
+   &+yDevastation runs rampant within this chamber. The walls look as though
+&+ythey had melted for a few seconds, then cooled, disfigured. Bits of melted
+&+yglass lies around the floor, among charred remains of wood and stone. What
+&+yused to be a table is now shattered and spread about the room in black
+&+ypieces. The source of the explosion that ruined this room lies to the
+&+ysoutheast, near a small dip in the floor, possibly the crater.&n
+~
+106 8421449 0
+D0
+~
+~
+0 0 10663
+D1
+~
+~
+0 0 10669
+S
+#10669
+&+LIn the Crater of the &+RExplosion&n~
+   &+rA dip in the floor is here, created by a incredibly destructive force.
+&+rNothing litters this area, having been blown to all the other areas of the
+&+rroom. Cracks line the floor, ceiling and walls, from the cooling of the
+&+rstone after it had melted briefly. The walls to the south and east were
+&+rblown back from the intense heat and force of the possible explosion. Dust
+&+rmakes a faint ring about the crater, perhaps the remains of somene who was
+&+rin the room at the time. A large demonic skeleton is just outside the
+&+rcrater, ebony in color and fleshless from the searing heat. To the northwest
+&+ris the rest of the room, while to the southeast, the expanded walls lie.&n
+~
+106 8421577 4
+D0
+~
+~
+0 0 10667
+D1
+~
+~
+0 0 10670
+D2
+~
+~
+0 0 10671
+D3
+~
+~
+0 0 10668
+S
+#10670
+&+yOn the Edge of the Crater&n~
+   &+LBlown out like glass under intense heat, the room has been expanded
+&+Laround the circumference of the crater. Cracks line the area from the
+&+Lcooling of the stone, possibly running all the way through to an imploded
+&+Larea somewhere beneath. Black marks on the ceiling are the only signs of
+&+Lthe smoke from the incinerated remains of the workshop. To the northwest
+&+Lis the crater and the rest of the scorched workshop.&n
+~
+106 8421449 0
+D2
+~
+~
+0 0 10672
+D3
+~
+~
+0 0 10669
+S
+#10671
+&+yOn the Edge of the Crater&n~
+   &+LBlown out like glass under intense heat, the room has been expanded
+&+Laround the circumference of the crater. Cracks line the area from the
+&+Lcooling of the stone, possibly running all the way through to an imploded
+&+Larea somewhere beneath. Black marks on the ceiling are the only signs of
+&+Lthe smoke from the incinerated remains of the workshop. To the northwest
+&+Lis the crater and the rest of the scorched workshop.&n
+~
+106 8421449 0
+D0
+~
+~
+0 0 10669
+D1
+~
+~
+0 0 10672
+S
+#10672
+&+yOn the Edge of the Crater&n~
+   &+LBlown out like glass under intense heat, the room has been expanded
+&+Laround the circumference of the crater. Cracks line the area from the
+&+Lcooling of the stone, possibly running all the way through to an imploded
+&+Larea somewhere beneath. Black marks on the ceiling are the only signs of
+&+Lthe smoke from the incinerated remains of the workshop. To the northwest
+&+Lis the crater and the rest of the scorched workshop.&n
+~
+106 8421449 0
+D0
+~
+~
+0 0 10670
+D3
+~
+~
+0 0 10671
+S
+#10673
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 142639309 13
+D2
+~
+~
+0 0 10689
+D3
+~
+~
+0 0 10674
+S
+#10674
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 142639305 13
+D0
+~
+~
+0 0 10675
+D1
+~
+~
+0 0 10673
+D2
+~
+~
+0 0 10676
+S
+#10675
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 142639305 13
+D1
+~
+~
+0 0 10684
+D2
+~
+~
+0 0 10674
+S
+#10676
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10674
+D3
+~
+~
+0 0 10677
+S
+#10677
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10678
+D1
+~
+~
+0 0 10676
+S
+#10678
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D2
+~
+~
+0 0 10677
+D3
+~
+~
+0 0 10679
+S
+#10679
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10680
+D1
+~
+~
+0 0 10678
+S
+#10680
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10682
+D2
+~
+~
+0 0 10679
+D3
+~
+~
+0 0 10681
+S
+#10681
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D1
+~
+~
+0 0 10680
+D2
+~
+~
+0 0 10679
+S
+#10682
+&+YIn the Center of a Maze&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 142639181 13
+D0
+~
+~
+0 0 10600
+D1
+~
+~
+0 0 10683
+D2
+~
+~
+0 0 10680
+D3
+~
+~
+0 0 10684
+S
+#10683
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10686
+D3
+~
+~
+0 0 10682
+S
+#10684
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 142639305 13
+D1
+~
+~
+0 0 10682
+D3
+~
+~
+0 0 10685
+S
+#10685
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10686
+D1
+~
+~
+0 0 10684
+D2
+~
+~
+0 0 10688
+S
+#10686
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D0
+~
+~
+0 0 10687
+D2
+~
+~
+0 0 10685
+S
+#10687
+&+RIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421577 13
+D1
+~
+~
+0 0 10680
+D2
+~
+~
+0 0 10686
+S
+#10688
+&+yIn a Maze of Jagged Tunnels&n~
+   &+rClaw marks line this tunnel, as if something with great strength just
+&+rripped a hole through the stone. The tunnel edges are rough and hard to
+&+rwalk on. A few bones litter the floor, looking very old and dead. The
+&+rrough tunnel seems to run on forever and looks the same practically
+&+reverywhere.&n
+~
+106 8421581 13
+D0
+~
+~
+0 0 10685
+D3
+~
+~
+0 0 10639
+S
+#10689
+&+BOutside of a Twisting and Jagged Maze&n~
+   &+gA large box of a room with no details is here. No sound passes through
+&+gthis chamber, staying utterly silent. A glow comes form the east through a
+&+gsmall stone portal, basking the room in a light greenish color. To the north
+&+gis a rough opening, leading into some twisting tunnels.&n
+~
+106 142639197 13
+D0
+~
+~
+0 0 10673
+D1
+~
+~
+0 0 10690
+S
+#10690
+&+GA Glowing Green Room&n~
+   &+gGlowing green fungi and rock is everywhere, lighting up this room. A
+&+gsmall stream of water runs by here to the east and disappears into the wall.
+&+gStalagmites and stalagtites cover the floor and ceiling. To the north is
+&+ga waterfall, not big, but enough to spray water and cover the area in a
+&+gfine mist. To the west is a jagged looking room.&n
+~
+106 8421449 13
+D0
+~
+~
+0 0 10691
+D3
+~
+~
+0 0 10689
+S
+#10691
+&+CWaterfall Room&n~
+   &+bA small waterfall splashes down from a small hole in the ceiling to the
+&+bnorth, and runs along the eastern wall south, into the next room. The rock
+&+bis a mysterious swirling of many different colors. The greenish glow coming
+&+bfrom the south bathes this area in a light green haze, accentuated by the
+&+bmist of the waterfall.&n
+~
+106 142639177 13
+D0
+~
+rock~
+1 0 10692
+D2
+~
+~
+0 0 10690
+S
+#10692
+&+bBehind a Waterfall&n~
+   &+BA waterfall is to the south, covering a small, almost unnoticeable
+&+Bopening. Fungi and mold grows here, thriving in the cool dampness brought
+&+Bon by the waterfall's mist. Black stone walls make this small room, created
+&+Bnaturally. The passage continues to the north, and goes through a waterfall
+&+Bto the south.&n
+~
+106 8421449 13
+D0
+~
+~
+0 0 10693
+D2
+~
+rock~
+1 0 10691
+S
+#10693
+&+LBlack Tunnel&n~
+   &+bA naturally made tunnel, the walls, floor and ceiling are all rough,
+&+bmaking the going uncomfortable. Water drips down from the ceiling, creating
+&+blong, beautiful stalagmites and stalagtites. Small pools collect on the
+&+bfloor, and tiny rivulets run to the south. To the north the passage gets
+&+bwider.&n
+~
+106 8388873 13
+D0
+~
+~
+0 0 10700
+D2
+~
+~
+0 0 10692
+S

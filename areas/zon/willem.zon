@@ -1,0 +1,366 @@
+#71
+&+yThe Ruins of &+cTurolopolis&n~
+7253 1 0 30 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 7101 0 1 100 0 0 0
+*     north exit from "Along a Ruined Street" to
+*     "Standing in What Used to Be a Home" - closed
+*
+D 0 7119 2 1 100 0 0 0
+*     south exit from "Standing in What Used to Be a Home" to
+*     "Along a Ruined Street" - closed
+*
+D 0 7106 0 2 100 0 0 0
+*     north exit from "Along a Ruined Street" to
+*     "A Sort of Reinforced Bunker" - closed/locked
+*
+D 0 7120 2 1 100 0 0 0
+*     south exit from "A Sort of Reinforced Bunker" to
+*     "Along a Ruined Street" - closed
+*
+D 0 7109 3 1 100 0 0 0
+*     west exit from "Along a Thoroughfare in a City of Ruins" to
+*     "The Remains of a Restaurant" - closed
+*
+D 0 7163 1 1 100 0 0 0
+*     east exit from "The Remains of a Restaurant" to
+*     "Along a Thoroughfare in a City of Ruins" - closed
+*
+D 0 7110 1 1 100 0 0 0
+*     east exit from "Along a Thoroughfare in a City of Ruins" to
+*     "The First Floor of an Abandoned Building" - closed
+*
+D 0 7156 3 1 100 0 0 0
+*     west exit from "The First Floor of an Abandoned Building" to
+*     "Along a Thoroughfare in a City of Ruins" - closed
+*
+D 0 7112 0 1 100 0 0 0
+*     north exit from "A Cul-de-sac along the Ruins of a Residential Road" to
+*     "First Floor of a Ruined Manor House" - closed
+*
+D 0 7113 2 1 100 0 0 0
+*     south exit from "First Floor of a Ruined Manor House" to
+*     "A Cul-de-sac along the Ruins of a Residential Road" - closed
+*
+D 0 7117 5 5 100 0 0 0
+*     down exit from "A Small Shop" to
+*     "The Sewers of Turolopolis" - closed/secret
+*
+D 0 7230 4 5 100 0 0 0
+*     up exit from "The Sewers of Turolopolis" to
+*     "A Small Shop" - closed/secret
+*
+D 0 7120 5 1 100 0 0 0
+*     down exit from "A Sort of Reinforced Bunker" to
+*     "A Cubbyhole" - closed
+*
+D 0 7121 4 1 100 0 0 0
+*     up exit from "A Cubbyhole" to
+*     "A Sort of Reinforced Bunker" - closed
+*
+D 0 7140 4 6 100 0 0 0
+*     up exit from "A Mirrored Room" to
+*     "A Large Mirrored Room" - closed/locked/secret
+*
+D 0 7158 5 2 100 0 0 0
+*     down exit from "A Large Mirrored Room" to
+*     "A Mirrored Room" - closed/locked
+*
+D 0 7158 0 2 100 0 0 0
+*     north exit from "A Large Mirrored Room" to
+*     "A Scary Mirrored Room" - closed/locked
+*
+D 0 7159 2 6 100 0 0 0
+*     south exit from "A Scary Mirrored Room" to
+*     "A Large Mirrored Room" - closed/locked/secret
+*
+D 0 7158 1 2 100 0 0 0
+*     east exit from "A Large Mirrored Room" to
+*     "A Sphere of Mirrors" - closed/locked
+*
+D 0 7172 3 6 100 0 0 0
+*     west exit from "A Sphere of Mirrors" to
+*     "A Large Mirrored Room" - closed/locked/secret
+*
+D 0 7158 2 2 100 0 0 0
+*     south exit from "A Large Mirrored Room" to
+*     "A Mirrored Sphere" - closed/locked
+*
+D 0 7164 0 6 100 0 0 0
+*     north exit from "A Mirrored Sphere" to
+*     "A Large Mirrored Room" - closed/locked/secret
+*
+D 0 7158 3 2 100 0 0 0
+*     west exit from "A Large Mirrored Room" to
+*     "A Sphere with Mirrored Walls" - closed/locked
+*
+D 0 7165 1 6 100 0 0 0
+*     east exit from "A Sphere with Mirrored Walls" to
+*     "A Large Mirrored Room" - closed/locked/secret
+*
+D 0 7161 0 1 100 0 0 0
+*     north exit from "A Narrow Side Street" to
+*     "A Grungy Building" - closed
+*
+D 0 7162 2 1 100 0 0 0
+*     south exit from "A Grungy Building" to
+*     "A Narrow Side Street" - closed
+*
+D 0 7163 5 5 100 0 0 0
+*     down exit from "The Remains of a Restaurant" to
+*     "An Abandoned Wine Cellar" - closed/secret
+*
+D 0 7211 4 1 100 0 0 0
+*     up exit from "An Abandoned Wine Cellar" to
+*     "The Remains of a Restaurant" - closed
+*
+D 0 7203 1 1 100 0 0 0
+*     east exit from "A Finely Tended Lawn" to
+*     "A Storage Shed" - closed
+*
+D 0 7207 3 1 100 0 0 0
+*     west exit from "A Storage Shed" to
+*     "A Finely Tended Lawn" - closed
+*
+D 0 7204 3 1 100 0 0 0
+*     west exit from "A Finely Tended Lawn" to
+*     "The Stables" - closed
+*
+D 0 7205 1 1 100 0 0 0
+*     east exit from "The Stables" to
+*     "A Finely Tended Lawn" - closed
+*
+D 0 7206 0 2 100 0 0 0
+*     north exit from "The Palace Gates" to
+*     "The Foyer of Turolhaus" - closed/locked
+*
+D 0 7208 2 2 100 0 0 0
+*     south exit from "The Foyer of Turolhaus" to
+*     "The Palace Gates" - closed/locked
+*
+D 0 7208 3 1 100 0 0 0
+*     west exit from "The Foyer of Turolhaus" to
+*     "Servants' Quarters" - closed
+*
+D 0 7236 1 1 100 0 0 0
+*     east exit from "Servants' Quarters" to
+*     "The Foyer of Turolhaus" - closed
+*
+D 0 7211 1 1 100 0 0 0
+*     east exit from "An Abandoned Wine Cellar" to
+*     "The Sewers of Turolopolis" - closed
+*
+D 0 7212 3 1 100 0 0 0
+*     west exit from "The Sewers of Turolopolis" to
+*     "An Abandoned Wine Cellar" - closed
+*
+D 0 7237 0 2 100 0 0 0
+*     north exit from "The Dungeon" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 7238 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "The Dungeon" - closed/locked
+*
+D 0 7237 1 2 100 0 0 0
+*     east exit from "The Dungeon" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 7239 3 2 100 0 0 0
+*     west exit from "A Prison Cell" to
+*     "The Dungeon" - closed/locked
+*
+D 0 7237 2 2 100 0 0 0
+*     south exit from "The Dungeon" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 7240 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "The Dungeon" - closed/locked
+*
+D 0 7237 3 2 100 0 0 0
+*     west exit from "The Dungeon" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 7241 1 2 100 0 0 0
+*     east exit from "A Prison Cell" to
+*     "The Dungeon" - closed/locked
+*
+D 0 7245 0 1 100 0 0 0
+*     north exit from "Balcony Overlooking the Dining Hall" to
+*     "The Throne Room" - closed
+*
+D 0 7253 2 1 100 0 0 0
+*     south exit from "The Throne Room" to
+*     "Balcony Overlooking the Dining Hall" - closed
+*
+D 0 7248 2 1 100 0 0 0
+*     south exit from "A Crimson Hallway" to
+*     "Guest Bedroom of Turolhaus" - closed
+*
+D 0 7251 0 1 100 0 0 0
+*     north exit from "Guest Bedroom of Turolhaus" to
+*     "A Crimson Hallway" - closed
+*
+D 0 7249 2 1 100 0 0 0
+*     south exit from "A Crimson Hallway" to
+*     "Guest Bedroom of Turolhaus" - closed
+*
+D 0 7250 0 1 100 0 0 0
+*     north exit from "Guest Bedroom of Turolhaus" to
+*     "A Crimson Hallway" - closed
+*
+*
+O 0 7119 1 7117 100 0 0 0          * a reinforced chest
+P 1 7122 1 7119 100 0 0 0          *   a scroll with a blue border
+P 1 7121 1 7119 100 0 0 0          *   a scroll with a green border
+P 1 7120 1 7119 100 0 0 0          *   a scroll with a red border
+O 0 7118 1 7118 100 0 0 0          * a glittering key
+O 0 7101 1 7121 100 0 0 0          * the corpse of a human
+P 1 7105 1 7101 100 0 0 0          *   a platinum buckle on a leather strip
+O 0 7102 1 7138 100 0 0 0          * a fountain
+O 0 7155 999 7140 100 0 0 0        * a glowing portal
+O 0 7115 1 7142 100 0 0 0          * a giant statue
+O 0 7112 1 7145 100 0 0 0          * a statue
+O 0 7109 1 7148 100 0 0 0          * a marble statue
+O 0 7106 1 7151 100 0 0 0          * a huge statue
+O 0 7155 999 7159 100 0 0 0        * a glowing portal
+O 0 7155 999 7164 100 0 0 0        * a glowing portal
+O 0 7155 999 7165 100 0 0 0        * a glowing portal
+O 0 7123 1 7170 100 0 0 0          * a statue of a rogue
+O 0 7155 999 7172 100 0 0 0        * a glowing portal
+O 0 7127 1 7197 100 0 0 0          * the omnipresent webbing
+P 1 7128 1 7127 100 0 0 0          *   the eviscerator
+O 0 7145 1 7246 100 0 0 0          * a many-tiered chandelier
+P 1 7146 2 7145 100 0 0 0          *   an eternal flame
+P 1 7146 2 7145 100 0 0 0          *   an eternal flame
+*
+M 0 7120 1 7100 100 0 0 0          * a naive adventurer
+G 1 7129 1 0 100 0 0 0             *    a book entitled "Willem of Turol- a Biography"
+M 0 7109 1 7118 100 0 0 0          * a snarling manticore
+M 0 7104 1 7121 100 0 0 0          * a grinning shadow
+M 0 7100 4 7126 100 0 0 0          * a squirrel
+M 0 7101 4 7126 100 0 0 0          * a four-winged raven
+M 0 7102 4 7126 100 0 0 0          * a twelve-legged spider
+M 0 7100 4 7135 100 0 0 0          * a squirrel
+M 0 7101 4 7135 100 0 0 0          * a four-winged raven
+M 0 7102 4 7135 100 0 0 0          * a twelve-legged spider
+M 0 7100 4 7138 100 0 0 0          * a squirrel
+M 0 7100 4 7138 100 0 0 0          * a squirrel
+M 0 7101 4 7138 100 0 0 0          * a four-winged raven
+M 0 7101 4 7138 100 0 0 0          * a four-winged raven
+M 0 7102 4 7138 100 0 0 0          * a twelve-legged spider
+M 0 7102 4 7138 100 0 0 0          * a twelve-legged spider
+M 0 7103 1 7139 100 0 0 0          * Corwyck
+G 1 7104 1 0 100 0 0 0             *    an arboreal curio
+M 0 7105 1 7140 100 0 0 0          * Gorma
+E 1 7108 1 20 100 0 0 0            *   Gorma's glorious visor
+E 1 7107 1 24 100 0 0 0            *   a red Glory Badge
+M 0 7115 4 7155 100 0 0 0          * a blue ooze
+M 0 7115 4 7155 100 0 0 0          * a blue ooze
+M 0 7115 4 7155 100 0 0 0          * a blue ooze
+G 1 7141 1 0 100 0 0 0             *    a lump of hardened blue ooze
+M 0 7115 4 7155 100 0 0 0          * a blue ooze
+M 0 7116 4 7155 100 0 0 0          * a crimson ooze
+M 0 7116 4 7155 100 0 0 0          * a crimson ooze
+M 0 7116 4 7155 100 0 0 0          * a crimson ooze
+M 0 7116 4 7155 100 0 0 0          * a crimson ooze
+M 0 7114 4 7155 100 0 0 0          * a green ooze
+M 0 7114 4 7155 100 0 0 0          * a green ooze
+M 0 7114 4 7155 100 0 0 0          * a green ooze
+M 0 7114 4 7155 100 0 0 0          * a green ooze
+M 0 7106 1 7159 100 0 0 0          * Okhell
+E 1 7111 1 12 100 0 0 0            *   Okhell's glorious cloak
+E 1 7110 1 24 100 0 0 0            *   a black Glory Badge
+M 0 7107 1 7164 100 0 0 0          * Kalmidor
+E 1 7114 1 16 100 0 0 0            *   Kalmidor's glorious warhammer
+E 1 7113 1 24 100 0 0 0            *   a blue Glory Badge
+M 0 7108 1 7165 100 0 0 0          * Chlyridia
+E 1 7117 1 15 100 0 0 0            *   Chlyridia's glorious bangle
+E 1 7116 1 24 100 0 0 0            *   a green Glory Badge
+M 0 7110 1 7172 100 0 0 0          * Ballic
+E 1 7125 1 16 100 0 0 0            *   Ballic's glorious dagger
+E 1 7124 1 24 100 0 0 0            *   a brown Glory Badge
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7111 8 7187 100 0 0 0          * a giant centipede
+M 0 7112 1 7193 100 0 0 0          * a gargantuan centipede
+F 1 7113 5 7193 100 0 0 0          * a baby giant centipede (following)
+F 1 7113 5 7193 100 0 0 0          * a baby giant centipede (following)
+F 1 7113 5 7193 100 0 0 0          * a baby giant centipede (following)
+F 1 7113 5 7193 100 0 0 0          * a baby giant centipede (following)
+F 1 7113 5 7193 100 0 0 0          * a baby giant centipede (following)
+M 0 7117 1 7194 100 0 0 0          * a black pudding
+G 1 7126 1 0 100 0 0 0             *    a black lump
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7119 7 7196 100 0 0 0          * a rhagodessa
+M 0 7118 1 7197 100 0 0 0          * a giant rhagodessa
+E 1 7130 1 24 100 0 0 0            *   a white Glory Badge
+M 0 7127 1 7199 100 0 0 0          * Sprecken
+F 1 7126 1 7199 100 0 0 0          * Kurtukr (following)
+E 1 7133 1 8 100 0 0 0             *   some boots of the smith
+M 0 7135 1 7199 100 0 0 0          * a holy shaman
+E 1 7149 1 18 100 0 0 0            *   a white wolf totem
+M 0 7128 1 7201 100 0 0 0          * Orvalus
+E 1 7140 1 6 100 0 0 0             *   a padded helmet
+M 0 7134 1 7201 100 0 0 0          * a wooddrake
+E 1 7147 1 18 100 0 0 0            *   a wooddrake's tail spine
+E 1 7148 1 20 100 0 0 0            *   a mask of the dragonkin
+M 0 7122 4 7205 100 0 0 0          * a horse
+M 0 7122 4 7205 100 0 0 0          * a horse
+M 0 7122 4 7205 100 0 0 0          * a horse
+M 0 7122 4 7205 100 0 0 0          * a horse
+M 0 7123 1 7205 100 0 0 0          * a frenzied unicorn
+G 1 7103 1 0 100 0 0 0             *    a unicorn's horn
+M 0 7124 2 7206 100 0 0 0          * a Crimson Watch sentinel
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+M 0 7124 2 7206 100 0 0 0          * a Crimson Watch sentinel
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+G 1 7134 1 0 100 0 0 0             *    a crimson key
+M 0 7125 1 7210 100 0 0 0          * a drow emissary
+E 1 7136 1 3 100 0 0 0             *   a necklace of the Emissary
+M 0 7131 5 7212 100 0 0 0          * a giant rat
+M 0 7131 5 7217 100 0 0 0          * a giant rat
+M 0 7131 5 7224 100 0 0 0          * a giant rat
+M 0 7129 1 7227 100 0 0 0          * the caecilia
+G 1 7139 1 0 100 0 0 0             *    a caecilia's stinger
+M 0 7131 5 7228 100 0 0 0          * a giant rat
+M 0 7130 1 7231 100 0 0 0          * an inventive minotaur
+G 1 7135 1 0 100 0 0 0             *    a time-worn letter
+M 0 7131 5 7232 100 0 0 0          * a giant rat
+M 0 7141 2 7233 100 0 0 0          * a member of the Crimson Watch
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+M 0 7140 1 7236 100 0 0 0          * a servant of Willem
+M 0 7132 1 7237 100 0 0 0          * a Crimson Watch jailor
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+G 1 7143 1 0 100 0 0 0             *    a red jail key
+M 0 7133 1 7242 100 0 0 0          * a thri-kreen prisoner
+E 1 7144 1 13 100 0 0 0            *   a belt of dragonslaying
+M 0 7141 2 7248 100 0 0 0          * a member of the Crimson Watch
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+M 0 7136 1 7252 100 0 0 0          * Mishka
+E 1 7150 1 18 100 0 0 0            *   a gleaming silver flute
+M 0 7138 1 7253 100 0 0 0          * Willem
+E 1 7153 1 16 100 0 0 0            *   the claymore of the dark ruler
+G 1 7154 1 0 100 0 0 0             *    Willem of Turol's bloodstained skull
+F 1 7137 1 7253 100 0 0 0          * Jalk (following)
+E 1 7151 1 15 100 0 0 0            *   Crimson Watch captain's stripes
+E 1 7132 7 16 100 0 0 0            *   a longsword of the Crimson Watch
+E 1 7132 7 17 100 0 0 0            *   a longsword of the Crimson Watch
+F 1 7139 1 7253 100 0 0 0          * Amanthia (following)
+E 1 7152 1 21 100 0 0 0            *   an earring of the waves
+*
+S

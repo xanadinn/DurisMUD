@@ -1,0 +1,77 @@
+#241
+&+mthe &+MMushroom&n &+mCaverns&n~
+24237 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 24144 2 9 100 0 0 0
+*     south exit from "Inside a large Mushroom Forest" to
+*     "A Collapsed Section of a Duergar Mining Tunnel" - closed/blocked
+*
+D 0 24168 0 9 100 0 0 0
+*     north exit from "A Collapsed Section of a Duergar Mining Tunnel" to
+*     "Inside a large Mushroom Forest" - closed/blocked
+*
+D 0 24148 1 1 100 0 0 0
+*     east exit from "An Ancient Duergar Mining Outpost" to
+*     "A Forgotten Duergar Mining Tunnel" - closed
+*
+D 0 24151 3 1 100 0 0 0
+*     west exit from "A Forgotten Duergar Mining Tunnel" to
+*     "An Ancient Duergar Mining Outpost" - closed
+*
+*
+O 0 24104 1 24102 100 0 0 0        * a pool of water
+O 0 24103 1 24108 100 0 0 0        * A pool of water
+O 0 24101 1 24125 100 0 0 0        * a broken wagon
+O 0 24102 1 24143 100 0 0 0        * an iron ladder
+O 0 24105 1 24209 100 0 0 0        * a blackened chain
+O 0 24108 1 24218 100 0 0 0        * a pool from demon lake to the river
+O 0 24107 1 24221 100 0 0 0        * a river of lava
+O 0 24109 1 24229 100 0 0 0        * a pool from river to demon lake
+*
+M 0 24107 4 24102 100 0 0 0        * a deep cave lizard
+M 0 24107 4 24102 100 0 0 0        * a deep cave lizard
+M 0 24108 4 24106 100 0 0 0        * a colorless salamander
+M 0 24108 4 24106 100 0 0 0        * a colorless salamander
+M 0 4403 1 24112 100 0 0 0         * (mob type not in this .mob file)
+M 0 4404 2 24113 100 0 0 0         * (mob type not in this .mob file)
+M 0 2300 3 24114 100 0 0 0         * (mob type not in this .mob file)
+M 0 4404 2 24115 100 0 0 0         * (mob type not in this .mob file)
+M 0 2307 2 24116 100 0 0 0         * (mob type not in this .mob file)
+M 0 2308 1 24116 100 0 0 0         * (mob type not in this .mob file)
+M 0 2309 2 24116 100 0 0 0         * (mob type not in this .mob file)
+M 0 4530 3 24119 100 0 0 0         * (mob type not in this .mob file)
+M 0 2300 3 24121 100 0 0 0         * (mob type not in this .mob file)
+M 0 2318 2 24122 100 0 0 0         * (mob type not in this .mob file)
+M 0 2318 2 24122 100 0 0 0         * (mob type not in this .mob file)
+M 0 2307 2 24123 100 0 0 0         * (mob type not in this .mob file)
+M 0 4530 3 24124 100 0 0 0         * (mob type not in this .mob file)
+M 0 2309 2 24124 100 0 0 0         * (mob type not in this .mob file)
+M 0 4530 3 24125 100 0 0 0         * (mob type not in this .mob file)
+M 0 2300 3 24126 100 0 0 0         * (mob type not in this .mob file)
+M 0 2305 2 24126 100 0 0 0         * (mob type not in this .mob file)
+M 0 4490 1 24130 100 0 0 0         * (mob type not in this .mob file)
+M 0 2305 2 24130 100 0 0 0         * (mob type not in this .mob file)
+M 0 2315 1 24137 100 0 0 0         * (mob type not in this .mob file)
+M 0 2316 1 24137 100 0 0 0         * (mob type not in this .mob file)
+M 0 24101 1 24178 100 0 0 0        * a protective aboleth
+M 0 24102 2 24178 100 0 0 0        * a young aboleth
+F 1 24102 2 24178 100 0 0 0        * a young aboleth (following)
+M 0 24104 4 24185 100 0 0 0        * a duergar guard
+M 0 24104 4 24185 100 0 0 0        * a duergar guard
+M 0 24104 4 24186 100 0 0 0        * a duergar guard
+M 0 24104 4 24186 100 0 0 0        * a duergar guard
+M 0 24105 3 24207 100 0 0 0        * a small bat
+M 0 24105 3 24207 100 0 0 0        * a small bat
+M 0 24105 3 24207 100 0 0 0        * a small bat
+M 0 24106 1 24217 100 0 0 0        * a fiery demon
+E 1 24106 2 16 100 0 0 0           *   the claw of a fiery demon
+E 1 24106 2 17 100 0 0 0           *   the claw of a fiery demon
+M 0 24108 4 24234 100 0 0 0        * a colorless salamander
+M 0 24108 4 24234 100 0 0 0        * a colorless salamander
+M 0 24107 4 24236 100 0 0 0        * a deep cave lizard
+M 0 24107 4 24236 100 0 0 0        * a deep cave lizard
+*
+S

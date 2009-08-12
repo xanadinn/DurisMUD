@@ -1,0 +1,27 @@
+#529
+&+Wthe Lost Temple of the North&n~
+52920 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 52904 3 2 100 0 0 0
+*     west exit from "Before a Flux of Raw Energy" to
+*     "Inside an Enormous Bubble in the Ice" - closed/locked
+*
+D 0 52913 1 2 100 0 0 0
+*     east exit from "Inside an Enormous Bubble in the Ice" to
+*     "Before a Flux of Raw Energy" - closed/locked
+*
+*
+O 0 52901 1 52904 100 0 0 0        * a flux of energy
+*
+M 0 52902 1 52904 100 0 0 0        * an ice golem
+M 0 31402 1 52909 100 0 0 0        * (mob type not in this .mob file)
+M 0 31403 4 52909 100 0 0 0        * (mob type not in this .mob file)
+M 0 31403 4 52909 100 0 0 0        * (mob type not in this .mob file)
+M 0 31403 4 52909 100 0 0 0        * (mob type not in this .mob file)
+M 0 31403 4 52909 100 0 0 0        * (mob type not in this .mob file)
+M 0 52901 1 52913 100 0 0 0        * an ancient white dragon
+*
+S

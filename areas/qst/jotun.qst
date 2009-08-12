@@ -1,0 +1,436 @@
+#96013
+M
+hi hello~
+Mimir rumbles 'No one who are not giants may pass through to my well.'
+Mimir peers intently at you and rumbles 'However you seem to be
+capable for a mortal. I may part with some of my treasures if
+you perform some small tasks for me.'
+~
+M
+task~
+Mimir rumbles 'There is a blight upon this land.  The frost mages
+of Kostchtchie do not belong in Jotunheim.  Cleanse this blight
+and I shall reward you.  Bring me proof of their leader's destruction.'
+
+&+bThe giant pauses a moment and then continues, &n'If you manage to wipe
+out the mages completely, there would be a greater reward bestowed upon
+you.'
+~
+M
+qc_action 50~
+$n says, '&+WThe races of the surface have always been fascinated with fire.&n'
+$n continues, '&+WBut like their own lives, the fire burns with bright intensity
+&+Wfor only a brief time, then quickly fades away.&n'
+~
+M
+qc_action 50~
+$n says, '&+WIce is the more powerful of the pair.&n'
+$n continues, '&+WWhile fire consumes itself and fades, ice endures, covering the
+&+Wearth in its chilled silence.&n'
+~
+Q
+Mimir rumbles 'Jotunheim has always been a rough land, but fiends of any kind
+are not welcome within our domain. Take these gloves as reward for dispatching
+the minions of Kostchtchie.'
+~
+R I 96078
+R E 80000
+G I 96008
+Q
+$n examines the items, smiles and nods solemnly before offering you the reward.
+~
+R I 96016
+G I 96036
+G I 96038
+G I 96039
+G I 96037
+G I 96081
+Q
+$n shakes his great head and says, 'No, I do not require that.'
+~
+R I 96035
+G I 96035
+Q
+$n shakes his great head and says, 'No, I do not require that.'
+~
+R I 96046
+G I 96046
+S
+#96049
+M
+hi hello~
+The frost giant alchemist just mutters 'How can they expect me
+to keep a reasonable stock of components in conditions like this!'
+~
+M
+components~
+The frost giant alchemist says 'Yes yes, you know, spell
+components.  We seem to be running out of them particularly
+fast.  Why just yesterday we ran out of fireweed! What
+am I supposed to do without fireweed!?!'
+~
+M
+fireweed~
+The frost giant alchemist says 'Fireweed? Oh yes. Handy
+little plant. Useful in all sorts of flame-based spells.
+You wouldn't happen to have any on you would you?
+~
+Q
+The frost giant alchemist exclaims 'Finally! How they think
+we are supposed to fight a war without fireweed is beyond me.
+Hmmmm..  I suppose you want some sort of reward eh? One
+moment...'
+The frost giant alchemist putters around his shop for a few
+hours, and when he returns he bears a small earring in his
+hand.
+The frost giant alchemist says 'It's not much, just a little
+magic I've dabbled with in my spare time. Here, take this
+earring as my payment.'
+~
+R I 96077
+R E 50000
+G I 96076
+S
+#96051
+M
+hi hello~
+The drow emissary turns to look at you and exclaims 'Well,
+fancy meeting adventurers in this dreary place.  You wouldn't
+happen to have anything to drink would you?'
+~
+M
+drink~
+The drow emissary says 'Bah! Go to Jotunheim they all said.
+Best brew in the planes. So where do I get stuck? In this
+god-forsaken castle with that maniac Utgard-Loki! I've heard
+that Brimir has the best ale this side of the Astral Plane.
+I'd sure appreciate some of his brew.'
+The drow licks his lips and flashes a thin smile.
+~
+Q
+The drow turns and exclaims 'What's this?'
+The drow takes the tankard and chugs the brew.
+The drow says 'Ah now that hit the spot. I seem to be a little
+short of cash right now, take this trifling as payment.'
+~
+R I 96075
+R E 100000
+G I 96023
+S
+#96058
+M
+hi hello~
+The frost giant blacksmith rumbles 'Are you just going to
+stand there like fools, or do you wish me to forge you
+something?'
+~
+M
+forge~
+The frost giant rumbles 'I am a blacksmith aren't I? Bring
+me the raw materials you wish for your armor, and a payment
+of 250 platinum coins and I shall forge a suit of armor
+for you.'
+~
+Q
+The frost giant takes the pile of remorhaz scales, and
+sets to work at his anvil.  After several hours of furious
+pounding and smithing, the giant returns.
+The frost giant rumbles 'This suit should serve you well.
+Some of my best work.'
+~
+R I 96070
+G I 96069
+G C 250000
+Q
+The frost giant takes the pile of ancient remorhaz
+scales, and sets to work at his anvil. After several
+hours of furious pounding and smithing, the giant returns.
+The frost giant rumbles 'Excellent, these scales were
+of a quality I have never seen before. This suit of
+armor should be of unparalled strength.'
+~
+R I 96072
+G I 96071
+G C 250000
+S
+#96068
+M
+hi hello~
+The valkyrie turns to face you, and fixes you with a stern gaze.
+The valkyrie says 'Travelers, Jotunheim is not a place to tread
+lightly. Only the powerful or the foolish travel here.'
+The valkyrie looks you over, and continues 'You seem to
+be somewhat capable. Would you be interested in providing
+me some help?'
+~
+M
+help~
+The valkyrie says 'Yes.. I've come to Jotunheim to catch
+that bastard Sarimar once and for all, but he seems to
+have an uncanny ability to avoid me.  Help me bring
+that evil bastard to justice and I'll see that you are
+rewarded.'
+~
+M
+sarimar~
+The valkyrie says 'Sarimar is the enforcer of Utgard-Loki, and
+a more devious and evil fellow you've never met. Ware his tricks.'
+~
+M
+silverwing~
+The valkyrie quickly turns and says 'Where did you hear that name?!
+Telshanar has been missing for weeks!'
+Seeing the puzzled look on your face, the valkyrie explains 'Yes,
+Silverwing is the name Telshanar goes by in these parts. He's
+a movanic deva, and one of my great friends.  He seems to be missing.
+If you could help me find him, or proof of his plight, I shall
+reward you greatly.'
+~
+Q
+As you hand the valkyrie the foul belt, she takes it upon her
+knees and dashs it to dust.
+The valkyrie says 'The poor souls sacrificed to Sarimar's magic
+have been laid to rest. Take this small token of Valhalla
+for your great deeds.'
+~
+R I 96064
+R E 100000
+G I 96057
+Q
+The valkyrie takes the feathery cloak into her hands, and she
+starts to sob uncontrollably.
+After several minutes the valkyrie turns toward you.
+The valkyrie says 'Thank you for trying to help Telshanar.
+I'm sure you did your best. I shall bitterly miss his absence.'
+The valkyrie twists a glittering ring on her finger, and takes it off.
+The valkyrie says 'Here, take this ring as a sign of my gratitude.
+Treasure it greatly.'
+~
+R I 96067
+R E 600000
+G I 96042
+D
+The valkyrie turns and whistles to her winged steed, mounts him
+with surprising grace, and takes off into the air toward Valhalla.
+~
+S
+#96069
+M
+hi hello~
+The giant grins wickedly and pats his axe.
+The giant growls 'Ye be not too attached to yer head I see.'
+The giant growls 'I am Sarimar, enforcer of Utgard-Loki.. I track
+down those who cross my lord.'
+The giant mutters.
+The giant growls 'I am busy searching for bigger prey than you.'
+~
+M
+prey~
+Sarimar mutters.
+Sarimar growls 'That damn valkyrie. The bitch seems to avoid all
+my magic.'
+Sarimar peers at you closely.
+Sarimar growls 'You seem to think you know how to fight, judging
+by the way you dress. Catch that valkyrie for me, and maybe
+I'll reward you.'
+~
+Q
+Sarimar takes the valkyrie's sword from you, and stuffs it into
+a hidden pouch.
+Sarimar mutters 'Finally.. this will get that bastard Utgard-Loki off
+my back.. er I mean the magnificent Utgard-Loki will be pleased at
+your service.'
+Sarimar fishes around in one of his pouches, and takes out a
+grotesque suit of armor.
+Sarimar growls 'A bit to small for me, take this armor.'
+~
+R I 96063
+R E 150000
+G I 96056
+D
+Sarimar turns around, and his long strides quickly take him back
+to the citadel of Utgard-Loki.
+~
+S
+#96071
+M
+hi hello~
+The ice troll grunts and turns toward you.
+Transfixing his dull black eyes on you, he starts to speak.
+Grishnar says 'Me ice troll shaman of Vaprak who you?'
+~
+M
+vaprak~
+Grishnar prostrates himself and exclaims 'All hail Vaprak!'
+~
+M
+shaman~
+Grishnar says 'Yes me shaman of Vaprak.'
+He peers intently at you.
+Grishnar says 'You no friends of snow troll?'
+Grishnar lets out a low growl.
+~
+M
+snow~
+Grishnar growls 'Snow troll Rashnik compete me for Vaprak attention.'
+Grishnar mutters.
+Grishnar peers at you again.
+Grishnar says 'You strong look. Kill Rashnik?'
+~
+M
+rashnik~
+Grishnar growls 'Rashnik shaman of snow trolls. Bring me totem
+of snow troll so me know you kill him dead.'
+~
+Q
+Grishnar takes the totem from your hands, and smashes it
+over his knees, and dances a little jig.
+Grishnar exclaims 'You friend me.  Take gift of Vaprak!'
+~
+R I 96062
+R E 100000
+G I 96061
+D
+Grishnar wanders away and blends in with the terrain.
+~
+S
+#96072
+M
+hi hello~
+The snow troll grunts and turns toward you.
+The snow troll says 'Me Rashnik shaman of Vaprak.'
+Rashnik says 'You no look like troll.'
+~
+M
+vaprak~
+Rashnik prostrates himself and exclaims 'Hail the Destroyer!'
+~
+M
+shaman~
+Rashnik grunts 'Me best shaman of Vaprak.'
+Rashnik growls 'Ice troll shaman Grishnar, he no good shaman.'
+~
+M
+grishnar~
+Rashnik grunts 'Grishnar me want dead. Me break his standard.'
+Rashnik peers at you.
+Rashnik says 'You kill Grishnar?'
+~
+Q
+Rashnik grunts gleefully as you hand him the standard of the
+ice trolls. Letting out a loud whoop, he dances around, then
+smashes the standard in two.
+Rashnik says 'You friend Rashnik. Take gift of Vaprak.'
+~
+R I 96062
+R E 100000
+G I 96060
+D
+Rashnik wanders off happily, and disappears into the snows of Jotunheim.
+~
+S
+#96075
+M
+hi hello~
+The stocky dwarf grunts.
+The dwarf says 'Ye be an odd sort of folk to be wanderin around.'
+The dwarf says 'Ain't ye got no sense? Jotunheim ain't for everyone.'
+The dwarf peers at you.
+The dwarf says 'Unless ye be a friend of the giants?'
+~
+M
+giants giant~
+The dwarf growls.
+The dwarf says 'Frost giants killed my parents.'
+The dwarf says 'I am Olaf Forkbeard, Jotunslayer! Death to the giants!'
+~
+M
+jotunheim~
+The dwarf peers at you.
+The dwarf mutters 'Damn fools don't even know where they are.'
+~
+M
+jotunslayer~
+Olaf Forkbeard roars 'Death to the frost giants!'
+Olaf peers at you.
+Olaf says 'Be ye interested in helpin Olaf?'
+~
+M
+help olaf~
+Olaf Forkbeard grunts.
+Olaf says 'I've heard the giants be enslavin me kin.'
+Olaf says 'The slave overseer reportedly wears a hideous mask.'
+Olaf grunts.
+Olaf says 'Free me kin from their oppressers. Slay this giant
+and I shall consider you dwarf friend.'
+~
+Q
+Olaf takes the mask and mutters.
+Olaf says  'Just as I thought.
+Olaf sighs.
+Olaf says 'Thank ye for helping me kin.'
+Olaf says 'Take this amulet, dwarf-friend.'
+~
+R I 96068
+R E 175000
+G I 96004
+D
+Olaf Forkbeard wanders off, no doubt looking for giants to slay.
+~
+S
+#96077
+M
+hi hello~
+The emerald-skinned humanoid transfixes you with his piercing blue eyes.
+The humanoid rumbles 'Mortals this place is dangerous for you kind.'
+The humanoid rumbles 'There have been reports of troubles afoot.'
+The humanoid peers at you.
+The humanoid rumbles 'You wouldn't have anything to do with them I hope.'
+The humanoid reaches over and pets his shimmering sword.
+~
+M
+troubles~
+The humanoid rumbles 'Yes.. there have been reports of shall we say..
+not so welcome intruders into the upper planes.'
+The humanoid rumbles 'I am the planetar Quelranor, and am here
+to investigate.'
+~
+M
+intruders~
+Quelranor rumbles 'I have heard of fiends present in Jotunheim.'
+Quelranor mutters.
+Quelranor rumbles 'Jotunheim is a nasty place, but still one of
+the upper planes.'
+Quelranor rumbles 'Fiends are not tolerated here.'
+~
+M
+fiends fiend~
+Quelranor rumbles 'Yes.. supposedly one of the devious Balors has
+managed to make his way here.'
+Quelranor rumbles 'It will not be easy to dispatch that one.'
+~
+M
+balor~
+Quelranor peers at you.
+Quelranor rumbles 'You seem to be a little lightweight to take on
+a Balor. They've handled your kind with ease for eons.'
+Quelranor rumbles 'However If you can bring me proof that you have rid
+the upper planes of this fiend, I shall reward you greatly.'
+Quelranor rumbles 'Bring me the fiend's evil sword mortal.'
+~
+Q
+The planetar Quelranor takes the evil sword from your hands, and it
+seems to vaporize after he mutters a few unintelligable words.
+Quelranor rumbles 'I had not expected you to come back alive.'
+Quelranor chuckles.
+Quelranor takes off a pair of shimmering metallic gloves.
+Quelranor rumbles 'Take these as a reward for your great service.'
+Quelranor rumbles 'They shall serve the cause of good well.'
+~
+R I 96074
+R E 175000
+G I 96038
+D
+The planetar whispers a command, and disappears in a flash of light.
+~
+S

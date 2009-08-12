@@ -1,0 +1,133 @@
+#75239
+M
+home homesick~
+&+CThe lost human turns to you and sighs.&N
+&+CThe human says, "A stupid mage friend failed his gate and I ended&N
+&+Cup here in this winter wonderland.  I travelled for many nights to&N
+&+Cseek escape and ended up here.  I had a scroll of recall upon my&N
+&+Carrival into the local area. Its missing now.  Please find it so&N
+&+Cthat I may be able to reach home."&N
+~
+M
+scroll recall word~
+&+CThe human nods at you.&N
+&+CHe says, "Please find it so I can recall home.  I will reward&N
+&+Cupon your return."&N
+~
+Q
+&+CThe lost human blinks at you in disbelief! He smiles and says,&N
+&+C"Now I will be able to return to my home and escape this cold&N
+&+Cenvironment from hell.  I hope you found this experience both&N
+&+Cfun and enjoyable."&N
+~
+R I 75263
+G I 75252
+D
+The lost human opens the scroll and begins to recite it.
+&+WThe human fades into thin air and is gone.&N
+~
+S
+#75254
+M
+hi hello hey howdy~
+&+MArtek says to you, 'Hello young traveler. I'm the bridgekeeper of this area. I
+&+Wcaution you not to wander too far, or you might find youself directly in harms
+&+Wway. There are &+gdragons &+Wand &+rdemons &+Win these parts that have caused us much dismay.'&n
+~
+M
+dragon dragons demon demons~
+&+MArtek &+Wsays to you, 'There is a red demon and 2 green dragons that
+&+Wreside in this area. Please bring me two &+Ggreen scales &+Wpried from
+&+Wthe corpse of &+Ga green dragon &+Wand &+Gan old dragon&+W. Also, bring me the
+&+Rjeweled demonic amulet &+Wfrom &+Ra red demon&+W.'&n
+~
+Q
+~
+R C 250000
+R I 55287
+G I 75271
+G I 75271
+G I 75215
+S
+#75255
+M
+flight fly help~
+&+GThe green dragon roars loudly at you!&N
+&+GHe nods his head and says "I have been cursed by a shaman in&N
+&+Ga nearby clan.  He has sworn as long as he lives that I will&N
+&+Gnever fly.&N
+&+GThe green dragon flaps its wings again.&N
+&+GHe sighs and says "The only way for me to fly again is to break&N
+&+Gthis curse.  Bring me the vial he has so I may fly and be free&N
+&+Gagain.  Make me happy and you hard work will be rewarded.&N
+~
+Q
+&+GThe green dragon flashes a wicked grin across his face.&N
+&+GHe thanks you as he examines the vial.&N
+&+G"Yes, this appears to be the one!" he exclaims.&N
+&+G"After all these years, I may fly again.  I hope you take&N
+&+Gthis little gift.&N
+~
+R I 75273
+G I 75274
+D
+&+WThe green dragon quaffs the vial.&N
+&+WSurrounded by a white aura, he flaps his wings and reaches flight.&N
+&+WHe happily wave from the air and disappears into the surrounding&N
+&+Wskies.&N
+~
+S
+#75259
+M
+qc_action 45~
+$n &Ngrins as his armor bulges while flexing his massive muscles.
+$n &nsays 'There are none who have battled the forces of evil like I, &+CTein&N!'
+~
+S
+#75260
+M
+help order late~
+Tamara sighs loudly and nods.
+Tamara says "A shaman ordered a dragon's heart that he needed
+in preparing a new spell.  I placed an order for a heart and until
+now it has not arrived.  I fear that the expedition that set out for
+the heart died in their confrontation with the dragon."
+Tamara mutters something to herself.
+Tamara "Well if you could bring me a dragon's heart of a blue dragon...
+I just might be able to complete this order and reward you and your
+group for the effort."
+Tamara smiles at you and picks up a stack of papers.
+~
+Q
+Tamara smiles and thanks you for your hard work.
+She packages the heart into a small bottle and seals it tightly.
+Tamara says "Now take this jar to the master shaman in the Tekan
+settlement. Don't forget to bring back the note. I will wait here
+upon your return."
+~
+R I 75281
+G I 75268
+Q
+Tamara smiles and takes the note.
+"Thank you for delivering it," she says.
+"Please take this as a sign of gratitude..."
+~
+R I 75279
+R C 10000
+G I 75280
+S
+#75261
+M
+order~
+Aerin sighs and nods.
+She says "I placed an order for a bottled heart of a blue dragon. It has
+yet to arrive. I need it now for an expierment."
+~
+Q
+Aerin examines the bottle closely and nods.
+"Yes," she says, "this is it. Here take this note back to Tamara."
+Aerin bags the bottle and continues on her way.
+~
+R I 75280
+G I 75281
+S

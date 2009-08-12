@@ -1,0 +1,911 @@
+#78400
+M
+qc_action 50~
+&+GKristigrogg runs through the room, screaming madly, pounding at the floor.
+~
+M
+qc_action 60~
+&+GKristigrogg jumps up and down extremely fast, screaming and swinging his fists.
+~
+M
+qc_action 55~
+&+GKristigrogg suddenly becomes very cautious in his movement, walking quietly to
+&+Gthe doorway.  He begins to peer out and immediately runs back inside and
+&+Gsits back down on his bed holding his arms around his knees.
+~
+M
+qc_action 65~
+&+GKristigrogg shakes scariily in his bed, a crazed look in his eye.
+~
+M
+qc_action 50~
+&+GKristigrogg says 'I won't let Krizzix get to me, this is still my castle!
+&+GNo he will never get to me, MY CASTLE!  MY CASTLE!'
+~
+MA
+hi hello~
+&+RKristigrogg looks at you and yelps 'He's here!! Help!  A terrible
+&+Rdragon!  I Need your help.. but wait, I don't even know you!
+&+Rprove to me that I can trust you.. go kill five of those pesky
+&+Rgremlins and we'll talk!  Bring me their claws!'
+~
+M
+key~
+&+G'Well of course ya can have a key.. just as soon as ya bring me
+&+Gback five gremlin claws!'
+~
+QA
+&+GKristigrogg says 'Excellent!  I don't know if I can trust you with
+&+Gthe dungeon key yet but uhh.. how about the tower key?  Use this key
+&+Gto travel to four different realms.  These rifts exist on the top
+&+Gof each of the four towers in the Twin Keeps.  Some number of years
+&+Gago a great magi opened these rifts after Tharnadia was taken by the
+&+Ghorde.  However, the Horde didn't last long in Tharnadia, not after
+&+Gthey opened the rifts.  Travel through these rifts and bring me
+&+Gfour life shards, and you will have earned my trust enough for
+&+Gme to grant you access to the dungeon!
+~
+R I 78494
+G I 78493
+G I 78493
+G I 78493
+G I 78493
+G I 78493
+QA
+&+GKristigrogg takes the life shards and thanks you heartidly
+&+G'Ok brave soldier, I trust you now!  Now please, take this key and hurry
+&+Gdown to the dungeon.  It is inside those gates that I found the fifth
+&+Gand final rift of the Twin Keeps, one to a land of dragons.  One of
+&+Gthem followed me through... please slay this beast so my castle is
+&+Gsafe again!'
+~
+R I 78504
+G I 78499
+G I 78513
+G I 78514
+G I 78515
+S
+#78402
+M
+qc_action 60~
+&+rIn one of the distant tunnels, a small legion of duergars marches through.
+~
+S
+#78408
+M
+qc_action 60~
+&+LThe miners in the tunnels continue to chop through dense blackrock, while the guards
+&+Land wardens taunt and beat the miners.
+~
+S
+#78414
+M
+qc_action 60~
+&+LCLANK! ---  CLANK! ---  CLANK!
+~
+M
+qc_action 60~
+&+lSomebody yells 'Hey what are they doing in here!?'
+~
+M
+qc_action 60~
+&+LYou hear a loud crack of the whip followed by an agonized scream of pain.
+~
+S
+#78415
+S
+#78416
+M
+hi hello~
+&+rTreskin &+Llooks at you and says 'Hello.. I normally would not talk to
+&+Lsomeone not of dark iron blood, but I am in need.  You see, I am too old
+&+Lto continue like this out here, I must take my leave.  I was once a
+&+Lmedic in the armies of Kakrash, descendant of Khildarak.  I have some
+&+Lknowledge of spell power.  However I believe in order to complete the
+&+Lincantation I can cast, I will need an ingredient.'
+~
+M
+ingredient~
+&+L'I will need five &+rh&+Re&+Ya&+Wrts of f&+Yi&+Rr&+re&+W.'
+&+rTreskin &+Lpauses and thinks for a moment, then nods and says 'There
+&+Lis a place called Strak'Ash.  My brother Treskash is there, he may
+&+Lknow of where I may get those hearts of fire.  At any rate, bring me
+&+Lfive of these hearts and I will reward you!'
+~
+QA
+&+LTreskin takes the five hearts and smiles happily.
+&+rThank you!&+L he says.
+~
+R I 78411
+G I 78410
+G I 78410
+G I 78410
+G I 78410
+G I 78410
+D
+&+rTreskin &+Lsays 'That is the last of my earthly pocessions.  Now I
+&+Lmay find peace.  Thank you again.'
+&+rTreskin&+L makes an incantation and the five hearts &+Rburst&+L into
+&+Rbright flames&+L.  In a &+rpillar &+Lof &+Yfire&+L, he is suddenly gone!
+~
+S
+#78426
+M
+treskin ingredients heart flame~
+&+WTrekash says 'Ahh you musta been talkin to my brother Treskin.  Last I heard
+&+Whe was going to be exiled.  That grieves me, as I know my brother was a great
+&+Wsoldier in his day.  Either way, you said Treskin was looking for some
+&+Whearts of fire?  You can find them in the bodies of those damned flame
+&+Wdragonkin south of the choke, outside the northern entrance of Strak'Ash.
+&+WGodspeed in returning them to my brother!
+~
+M
+hi hello~
+&+WTrekash looks at you and says 'Greetings.. if you really want to do me a
+&+Wfavor you'll bring me the wings of four dragonlings from the far-western
+&+Wpeaks of Blackrock Mountain.  Don't ask questions, follow instructions!'
+
+&+WTrekash sighs.&N
+
+&+WHe says, "There is also the matter of the &+bfrostsharn&+W
+&+Wscimitars..."
+~
+M
+frostsharn~
+&+WTrekash roars!
+&+WTrekash says 'Curse those FrostSharn Orcs!  Okay listen here, you want to
+&+Wdo my people a favor?  Bring me five &+Cfrostsharn scimitars&+W!  I'll know
+&+Wyou killed the orcs for them as they would never give them to someone
+&+Wwho looks like you.'
+&+WTrekash bursts into laughter.
+~
+QA
+&+WTrekash smiles and says 'Ahh thank you, perhaps you'll do well with the
+&+WDark Iron Dwarves...'
+~
+R I 78415
+G I 78414
+G I 78414
+G I 78414
+G I 78414
+QA
+&+WTrekash cheers wildly!
+&+WTrekash says 'Thank you! Now that those orcs are dealt with, we can
+&+Wget down to business.  I have a &+Ggreen orb of mystics&+W that I absolutely
+&+WMUST get to Keshia Moongleam, you will find her at the Zorana Tower in the
+&+WShaeradin Valley.  Godspeed Noble friend, I know I can count on you.'
+~
+R I 78427
+R E 85000
+G I 78426
+G I 78426
+G I 78426
+G I 78426
+G I 78426
+S
+#78427
+M
+qc_action 45~
+&+CThelranak swings a mighty &+Lblacksmith's hammer&+C into the air, crashing
+&+Cdown onto the fiery anvil in a burst of sparks.
+~
+MA
+hi hello~
+&+CThelranak looks up at you and nods.
+&+CTaking a closer look at your illustrious equipment, Thelranak grins
+&+Cand says 'Greetings Traveller.  Normally I try to keep to my own kind,
+&+Cbut something tells me you can be of some use to me.  It is about a
+&+Cdragon.'
+~
+MA
+dragon~
+&+CThelranak nods and continues 'There is a dragon far northwest up in the
+&+Cmountains.  I try not to go above ground nowadays because of this beast!
+&+C'Anyway, I'm sure I could make one hell of a suit of armor with the
+&+Cscales from that dragon!  Bring me back those scales and I'll see what
+&+CI can do!'
+~
+Q
+&+CThelranak cheer happily for you!
+&+C'Let me get started.'
+&+CWhat seems like the blink of an eye, and Thelranak is done!
+~
+R I 78429
+G I 78428
+S
+#78434
+M
+qc_action 45~
+&+RThe loud laughter of a duergar can be heard echoing through Strak'Ash.
+~
+M
+qc_action 45~
+&+LThe smell of smoked meats and burning flesh blow through in a soft breeze.
+~
+M
+qc_action 45~
+&+RThe scream of a woman is heard in the distance, followed by a loud BOOM and
+&+Rthen silence.
+~
+M
+qc_action 45~
+&+rThe redundant, rhythmic footsteps of a squadron of duergar troops is heard in
+&+rone of the nearby corridors.
+~
+S
+#78435
+M
+qc_action 45~
+&+YA booming voice from somewhere up above orders troops in the hallways to keep
+&+Ywatch for a band of intruders.
+~
+M
+qc_action 45~
+&+rTwo duergars can be heard shouting profanities back and forth to each other.
+~
+S
+#78437
+M
+hi hello~
+&+YMarny Taskgulch looks you up and down and responds 'Greetings.  I am
+&+Yin need of assistance, traveller.  You see, I don't know anything about
+&+Yblackrock, and it is awfully dangerous out there right now, even with
+&+Ythese dark iron escorts I've seen walkin about!'
+&+YMarny Taskgulch pauses for a moment and sighs, wiping a bit of sweat
+&+Yoff of his head with his hand before continuing, '&+YAnyways, if you
+&+Ycould bring me back a sample of some fresh blackrock ore, I would be
+&+Yable to study it much better.'
+~
+M
+sample blackrock ore bostas~
+&+YMarny Taskgulch nods and says 'Bostas was going to have some escorts take
+&+Yme down to their blackrock mine.  It's quite the journy from here.  You must
+&+Ygo all the way back to Camp Ram'Mapo and then to the mine at the southeast
+&+Yrim of the Blackrock Mountain ridge.  Please, bring me back a sample of
+&+Yblackrock ore!'
+~
+QA
+&+YMarny Taskgulch cheers and claps his hands as you hand him the blackrock ore.
+&+Y'This is perfect!  And now I will give you a special earring made out of
+&+Yan ore I found called endurium.  You know.. I could make you something
+&+Yreally special if you could find for me about as much endurium ore as
+&+Yyou just got for me blackrock ore...  The place I mined mine was many
+&+Yyears ago on a jungle island without anybody living on it!  The cave was
+&+Yat the base of a volcano, you can't miss it!'
+&+YMarny Taskgulch smiles and continues 'Here is your earring!  Remember there
+&+Yis more where that came from if you find me that endurium!'
+&+YMarny abruptly says 'I almost forgot!  Take this &+Wreceipt, make sure to bring
+&+Yit back to me with the &Nen&+Ldu&Nr&+Wiu&Nm &+Yjust so I know I saw you before!'
+~
+R I 78423
+R I 78424
+G I 78422
+QA
+&+YMarny Taskgulch beams a wide toothy smile at you and says 'You found it!
+&+YI don't know how but you found it!  I guess that mine is still fresh,
+&+Yhuh?  While you were gone I managed to develop schematics for a
+&+Ysegmented endurium belt, and with the amount of endurium you've got here,
+&+YI could easily make you one and have plenty to spare for myself.
+&+YMarny Taskgulch whips something up real quick.
+&+Y'Here you are.' the Prospector says.
+&+Y'Also, take this crystal.  It carries powerful magic, but is no use to me.
+&+YPerhaps you can find some use for it in your travels.'
+~
+R I 78464
+R I 78465
+G I 78424
+G I 78463
+S
+#78446
+MA
+hi hello~
+&+WZeda &+LGrim&+WTooth looks at you and grunts.
+&+W'Greetings.  I am looking something and you may be able to help.  In the
+&+WFrostSharn camp not too long ago I left my hunting hat.  I hunt much
+&+Wbetter with it and I do not have the strength to travel all the way back
+&+Wthere for it now.  You might find it somewhere in IceClaw Hall, the last
+&+Wplace I was.
+~
+QA
+&+WZaden &+LGrim&+WTooth puts his hunting at on, and grins.
+~
+R I 78437
+G I 78436
+D
+&+WZaden &+LGrim&+WTooth&N says 'teleport'
+&+WZaden &+LGrim&+WTooth&N's &+ghunting &+Ghat&+R FLARES up&N!
+&+WZaden &+LGrim&+WTooth&+L slowly fades out of existence.
+~
+S
+#78455
+M
+qc_action 45~
+&+LKralth Gaptooth paces back and forth the hall while grumbling to himself.
+~
+M
+qc_action 50~
+&+CA gust of the frozen winds of the Alteran Valley blows through, chilling everything.
+~
+M
+qc_action 50~
+&+rA blood curdelling scream is heard nearby, followed by boisteris orcish laughter.
+~
+M
+hi hello~
+&+LKracth Gaptooth snorts at you and says 'Leave off.  You are not a
+&+LFrostSharn orc.  But wait, perhaps you can ...solve a problem for me.'
+~
+M
+solve problem frostsharn orc orcs~
+&+L'There is a problem I am having, and the FrostSharn Orcs do not know about
+&+Lit, yet here I am within their camp!  My rank as King in the city of
+&+LKrathmor has been taken from me.  The elder council has suggested
+&+La new Warlord.  I know there are four of the warlords who enjoy the
+&+Lhunt in Alteran Valley.  Thresh Blackmane, Axelon Clawgrip, Grimmar
+&+LStonebrow, and Riker Frostfang.  Bring me their heads so that I may
+&+Lclinch my rule of Krathmor!'
+~
+QA
+&+LKralth Gaptooth takes the &+rbloody heads&+L and grins maliciously.
+&+L'Here, take my mask, it will strike fear into the hearts of your
+&+Lenemies.'
+~
+R I 78446
+R C 200000
+G I 78442
+G I 78443
+G I 78444
+G I 78445
+D
+&+LKralth Gaptooth says 'And now I must ride!'
+After a quick whistle by Kralth, a &+Whuge winter wolf &Nruns into the
+chamber.  Kralth mounts the beast, and they run off.
+~
+S
+#78456
+M
+qc_action 45~
+&+rSkinjar Wyrmsnout mutters something about harpies before slamming his fists down in frustration.
+~
+M
+qc_action 45~
+&+rSkinjar Wyrmsnout says 'Argh!  We cannot gain position in this valley
+&+rwithout those two mountains!'
+~
+M
+hi hello~
+&+rSkinjar Wyrmsnout snorts and turns his back to you.
+~
+MA
+harpy harpies~
+&+rSkinjar Wyrmsnout says 'Those filthy harpies!  Curse them by the will
+&+rof Grolanthor!!  They are slowing us down in our surveying of Mount Bren'Shan
+&+rand Mount Straka!  weed out some of these harpies so that we can further
+&+rscout the area to develop the FrostSharn presence in this valley.  Bring me
+&+rthree six feathers.. three from the Bren'Shan harpies and three from the
+&+rStraka harpies and I will reward you.
+~
+M
+mountain mountains frostsharn brenshan straka~
+&+rSkinjar Wyrmsnout turns to you and says 'The Bren'Shan and Straka Mountains
+&+rare key to the expansion of the FrostSharn orcs!  My latest scout has not
+&+rreturned.  Please investigate, and see if you can find his scouting
+&+rreport.  I grow tired of waiting!'
+~
+QA
+&+rSkinjar Wyrmsnout grins wickedly, accepting the feathers from you.
+&+rSkinjar Wyrmsnout says 'Excellent, now that those harpies have been
+&+rtaken care of we can begin our conquest of Mount Bren'Shan and Mount
+&+rStraka.'
+~
+R I 78449
+R E 450000
+G I 78447
+G I 78447
+G I 78447
+G I 78448
+G I 78448
+G I 78448
+QA
+&+rSkinjar Wyrmsnout carefully reads the note and scratches his wrinkled orcish
+&+rhead.  Moments later he nods and speaks 'You have done well, noble traveller
+&+rbut I have another task for you.  You must travel to the Shaeradin Valley.
+&+rIn the Dagger Peak spire there is a dark and ancient mystic named Woten
+&+rDarkhammer.  Bring him this &+Wnote&+r and he will give you further instruct-
+&+rions.  Beware, there are otherwordly horrors in Dagger Peak.'
+~
+R I 78451
+G I 78450
+S
+#78459
+M
+qc_action 50~
+&+CAn icy breeze of the Alteran Valley blows through here, chilling everything it touches.
+~
+M
+qc_action 46~
+&+GMungir runs his fingers across the &+Csilver&+Gleaf and gasps at its potential.
+~
+M
+hi hello~
+&+GMungir looks up at you and scoffs before turning back to his &+Csilver&+Gleaf&+G.
+~
+M
+silverleaf~
+&+GMungir quickly turns to you and says 'Aren't they magnificent?!  You know,
+&+GI could make an incredible silverleaf curing potion if I had more of these
+&+Gsilverleaves!'
+&+GMungir ponders for a moment and continues, 'I could make one potion for
+&+Gthe cost of 1 silverleaf and 50 &+Wplatinum&+G'
+~
+Q
+&+GMungir smiles and whips up a quick concoction.
+&+G'Here you go!' he speaks excitedly.
+~
+R I 78456
+G I 78455
+G C 50000
+S
+#78469
+M
+qc_action 50~
+&+rThe cave shakes as the mountain is barraged by a massive swarm of meteors!
+~
+M
+qc_action 50~
+&+mJenzuel MoonGaze searches through his supplies and then lets out a huge sigh.
+~
+MA
+hi hello searching upset~
+&+mJenzuel MoonGaze nods at you and says 'I was recently scouting that
+&+mdreadful tower, Dagger Peak, to the southeast.  There were orogs
+&+meverywhere, I had to escape with haste.'
+&+mJenzuel sighs loudly and continues 'It is up in that tower, in Dagger Peak
+&+mthat I lost my bow.  It is a night elven longbow, long, slender, deadly..'
+&+mJenzuel stands tall and youlds you by the shoulders before continuing
+'&+MPlease travel to Dagger Peak and recover my precious longbow.  It was
+&+Mgiven to me by my father, and to him by his father!  It is the only
+&+Mmoonglade longbow I know of.  Return it to me!'
+~
+QA
+&+m$n &+msmiles happily.
+~
+R I 78459
+R C 350000
+R E 600000
+G I 78458
+D
+&+MJenzuel MoonGaze puts his bow around his body and turns to you.
+&+MHe says 'Now that I know I can trust you, I have a task for you.'
+&+MJenzuel begins putting his gloves and cloak on while speaking.
+&+MAs he pulls a glove tighter onto his hand, he says 'Travel to
+&+MZorana's Refuge.  There you will find Hindis the seer.'
+&+MBring that relic to her and see if she has any further insight
+&+Mon it.  I came across it in Dagger Peak.'
+
+&+MAs he slides on his second mountain boot, Jenzeul continues 'You
+&+Mare doing me a huge favor $N.  May the speed of Mielikki be with you.'
+&+MJenzuel stands up and with the blink of an eye he is swiftly out of
+&+Mthe cave.
+~
+S
+#78470
+M
+qc_action 50~
+&+CHindis the Seer begins waving his hands around, creating a magical window to another place.
+~
+MA
+hi hello~
+&+CHindis says 'Your help is needed!  Slay Thel'Samar in Dagger Peak and
+&+Creturn to me his HEAD!'
+~
+QA
+&+CHindis cheer and thanks you.
+&+CTake my bracelet.  And thank you, brave traveller.
+~
+R I 78467
+G I 78466
+D
+&+CHindis the Seer walks off.
+~
+Q
+&+WHindis says 'Ahh Perfect!  Jenzuel must have given you this.  I lost
+&+Wcontact with Jenzuel many moons ago, but the last I heard she had
+&+Wrecovered an orog artifact!  And here it is!  With this, we will be
+&+Wable to further study the Orogs and what gives them the dark powers
+&+Wthey possess.  Thank you, and as a sign of my gratitude please take
+&+Wthese boots of my people.'
+~
+R I 78512
+G I 78459
+S
+#78471
+M
+hi hello quest orb help~
+&+cKeshia&N turns to you and nods.
+
+'I've heard of your prowess adventurer.  Perhaps you can help me.  I
+lost my &+Ggreen orb of mystics&N in an encounter with &+WTrekash the
+&+WElder&N.  Find him, and get my orb back.  If it's an ether crystal
+you seek, I don't have one, but I do have something else that will be
+of great interest to you...'
+~
+QA
+&+CKeshia Moongleam gasps in astonishment at the orb.
+&+C'The orb Trekash told me about.  I take it means you helped him lay
+&+Csiege to the FrostSharn orcs?'
+&+CKeshia Moongleam bursts out into laughter.
+&+CKeshia Moongleam gathers herself and continues 'Okay, excellent.  Since
+&+CI know I can trust you with things like that orb, I have a task for you.'
+&+C'This key unlocks a chest that is buried in &+gA Dense, Humid Jungle&+C.
+&+CYou can find this jungle on a deserted volcanic island.  I'm afraid that
+&+Cis all I know.  But within the chest lies a great treasure!'
+&+CKeshia Moongleam says 'Four paces east and four paces north from a cave
+&+Centrance.  Godspeed!'
+~
+R I 78460
+G I 78427
+S
+#78472
+M
+hi hello~
+&+WVenali Mistblood looks at you and nods.  He says 'There is a huge ravasaur
+&+Winfestation southwest of here in part of the Shaeradin Valley.  Bring back
+&+Wto me six ravasaur teeth.'
+~
+QA
+&+WVenali Mistbloom the Prophet gathers the teeth and says 'Excellent!'
+&+WA few moments later, he hands you a necklace.
+~
+R I 78462
+R E 500000
+G I 78461
+G I 78461
+G I 78461
+G I 78461
+G I 78461
+G I 78461
+D
+&+WVenali Mistbloom bows before you and exits.
+~
+S
+#78473
+M
+qc_action 45~
+&+LPowerful bolts of &+Cbright &+Bblue &+Lenergy surge up and down &+CThelinnius &+WBrave&Nt&+Lhunder.
+~
+M
+hi hello~
+&+CThelinnius &+WBrave&Nt&+Lhunder &+csmiles at you and says 'Greetings.'
+~
+MA
+staff twin worlds~
+&+CThelinnius &+WBrave&Nt&+Lhunder&+L gasps at you and leans in to get closer.
+&+LThelinnius quietly says to you 'That was another life for me, but the
+&+Lstaff of twin worlds is very powerful, and I have figured out how to
+&+Lcreate it.  Although I cannot create one as the reagents I require
+to properly infuse it with magical energies are very hard to find..'
+~
+MA
+reagents~
+&+CThelinnius &+WBrave&Nt&+Lhunder says 'I will need the following items:
+&+Lan &+Wether &+Lcrystal
+&+Lan &+yearth&+L crystal
+&+La &+Gnether &+Lcrystal
+&+La v&+Wo&+Li&+Wd &+Lcrystal
+&+La shadow staff
+&+LWith these items I will be able to create for you the ultimate staff.
+~
+Q
+~
+R I 78400
+G I 78465
+G I 78486
+G I 78492
+G I 78480
+G I 78477
+S
+#78475
+M
+qc_action 50~
+&+YNaboriyan says 'We will gather the troops on the northern flank, then we will attack.'
+~
+M
+qc_action 60~
+&+GThe skies are full of huge green flaming meteors, crashing with massive explosions.
+~
+M
+hi hello~
+&+YNaboriyan the Sergeant responds 'Greetings.  Adventurer would you be one
+&+Yto aid the interest of Zorana?  Of course you are.  There is a force of
+&+Yduergars in the towering peaks of Blackrock Mountain.  They fight and
+&+Ymurder others under the great rule of their dispicable lord, Bostas
+&+YFirebraid.  Return to me with the scepter of Bostas Firebraid and I will
+&+Ysee you are greatly rewarded.'
+~
+QA
+&+YNaboriyan the Sergeant accepts the scepter and grins.
+&+Y'Well done.  YOu have defeated the mighty ruler of the dark iron dwarves.
+&+YBehold, a moonstone!  Moonstones are very rare in these parts, so this
+&+Yis certainly a great treasure!  Also accept this reward for the bounty
+&+Yon Bostas Firebraid's head.'
+~
+R C 500000
+R I 78468
+G I 78419
+D
+&+YNaboriyan the Sergeant turns to you and says 'I heard a rumor that there
+&+Yis a great centaur druid up in a mountain on a volcanic island somewhere.
+&+YIf you bring the moonstone to that druid he may be able to extract
+&+Ythe power from it to a different form.  Godspeed!'
+~
+S
+#78476
+M
+qc_action 55~
+&+RZorana Felwood unsheathes his mighty sword and polishes it for a moment before re-sheathing it.
+~
+M
+qc_action 55~
+&+RZorana Felwood yells down to the troops in his refuge 'What do we do!?'
+&+LIn one collective voice, the troops yell back '&+L&-LFIGHT FIGHT FIGHT!!&+L'
+~
+M
+hi hello~
+&+RZorana Felwood responds 'Greetings.'
+~
+S
+#78481
+M
+qc_action 44~
+&+CSeveral squadruns of night elf soldiers in Zorana's army march through the area.
+~
+M
+qc_action 58~
+&+CA voice from above shouts 'What do we do?'
+&+CSuddenly, all the soldiers in the entire refuge shout back '&+L&-LFIGHT FIGHT FIGHT!&+C'
+~
+M
+qc_action 60~
+&+GA hail of green meteors barrages the landscape in massive hails of destruction.
+~
+S
+#78484
+M
+qc_action 50~
+&+LThe low growl of two o&+r&+Lo&+rg&+Ls is heard  in another part of the Peak.
+~
+M
+qc_action 50~
+&+LKA-BOOOOOOM!!!&N
+&+LThe earth shakes and a loud explosion is heard from outside.
+~
+QA
+&+LWoten Darkhammer carefully unrolls the note from Skinjar Wyrmsnout and
+&+Lreads it carefully.
+&+LMoments later, Woten Darkhammer says to you 'There is a pirate who sails
+&+Lwith Blackbeard.  His name is CrowFoot McGuillies.'
+&+LWoten Darkhammer jots down &+Wa note&+L.
+&+LWoten Darkhammer looks around for a moment and then picks up a bottle
+&+Loff of the floor.  He quickly uncorks it, stuffs &+Wthe note&+L inside
+&+Land recorks the bottle.
+&+LWoten Darkhammer says 'Bring this to CrowFoot McGuillies, it's just his style.
+&+LHe should give you something to bring back to me at some point, too.'
+~
+R I 78473
+G I 78451
+QA
+&+rWoten &+LDark&+rhammer &+Ltakes the ore and utters a magical phrase.
+&+LSuddenly the ore shatters into several &+Mnether &+Lcrystals.
+~
+R I 78486
+G I 78485
+S
+#78487
+M
+hi hello~
+&+CGul'Thak quickly turns to you and says, in a deep, booming voice
+&+C'Greetings.  You have come to me and I have a task for you.
+&+CThe leader of the night elves, Zorana Felwood.  Kill him.  Bring
+&+Cme his signet ring!  This is your task. go now!'
+~
+M
+qc_action 50~
+&+LLow chanting and dark incantations can be heard from other parts of the tower.
+~
+QA
+&+CGul'Thak accepts the ring from you and cackles with insane glee.
+&+C'Excellent.  Your reward as promised..'
+~
+R I 78474
+R C 1750000
+G I 78471
+D
+&+CGul'Thak smiles and says 'I have now to overseer the others.  I suggest
+&+Cyou make yourself vanish from this place.'
+~
+S
+#78492
+M
+hi hello~
+&+GWeskel the Druid smiles at you.
+~
+M
+qc_action 50~
+&+gA large basilisk crawls over a nearby mountain ridge and quickly three more follow it into a cave.
+~
+M
+qc_action 51~
+&+WThe sound of seagulls is heard coming closer, then fading further and further.
+~
+M
+moonstone~
+&+GWeskel's eyes light up and he responds 'You have a moonstone?  I can
+&+Gextract huge amounts of power from moonstones for my moonwell and
+&+Gmoonstone spells.. one of the byproducts of my powerful disenchanting
+&+Gritual is earth crystals.  If you get me a moonstone, I will give you
+&+Gan earth crystal for it!'
+~
+QA
+&+GWeskel utters a few words and shatters the &+Lmoon&+cstone&+G into many pieces.
+&+GA huge glowing aura bursts forth and into Weskel's hand.  When he opens it
+&+Gup there are several &+yearth crystals&+G.
+~
+R I 78480
+G I 78468
+D
+&+GWeskel the Centaur Druid trots off.
+~
+S
+#78493
+M
+qc_action 50~
+&+RMithranil stretches and squeezes the bandage on his arm, grimmacing in discomfort.
+~
+M
+hi hello~
+&+RMithranil says 'My dragon flew me in here yesterday, but the pirates
+&+Rspotted me.  I did the best to defend myself but they left me
+&+Rwounded.  My partner can say more on that.  However, my concern is
+&+RBlackbeard's chest.  Please, retrieve for me the chest.  Blackbeard
+&+Rwent down with his ship and he always kept it close.  Bring me his
+&+Rchest!'
+~
+QA
+&+RMithranil says 'Ahh thank you so much!  I can now return to my masters.'
+&+RMithranil ponders for a moment.  '
+&+R'As a reward,' he continues, 'take my gloves.
+~
+R I 78482
+G I 78481
+D
+&+RMithranil exits the cave and is gone within seconds.
+~
+S
+#78494
+M
+qc_action 50~
+&+YBrothedin rummages through various mining supplies as well as numerous traps and nods.
+~
+M
+qc_action 50~
+&+LThe low growl of a gorilla is heard just outside this cave, or perhaps even on top of it.
+~
+M
+hi hello pirate pirates~
+&+YBrothedin looks at you and nods and looks down 'Those pirates might be
+&+Yshipwrecked but they sure are tough!  Tell ya what, bring me five of
+&+Ythe red bandanas those pirates wear so that I know ya killed some.
+&+YI will be sure to reward ye!'
+~
+QA
+&+YBrothedin says 'Ahh Thank you!  They've been killed!  Hey if you want to
+&+Ygo kill more and come back just bring me the bandanas back by the five
+&+Yand I'll keep giving you this dwarven brew!'
+~
+R I 78484
+R I 78484
+G I 78483
+G I 78483
+G I 78483
+G I 78483
+G I 78483
+D
+&+YAnd like that...
+&+LHe's GONE!
+~
+S
+#78499
+M
+hi hello~
+&+LCrow&+WFoot &+gMcGuillies says 'Salutations.  There is something I can
+&+guse your assistance with.  In the mountains to the southwest there is
+&+ga mountain trail with a basilisk nest.  Sometimes, very rarely, you'll
+&+gbe able to find an actual basilisk &+Wegg&+g!!  If you bring me one of
+&+gthese eggs I will definitely make it worth your while!'
+~
+QA
+&+G'Glorious!' CrowFoot says.
+&+G'Take this nether ore back to Woten Darkhammer, back in Dagger Peak
+&+Gat Shaeradin Valley.'
+~
+R I 78485
+G I 78473
+D
+&+LCrow&+WFoot &+gMcGuillies &+Lhobbles off.
+~
+Q
+&+LThere is a
+~
+R C 145000
+G I 78478
+S
+#78500
+M
+qc_action 50~
+&+GVeedle yells 'Okay first we will need to build a new boat!'
+~
+M
+hi hello~
+&+GVeedle says 'Greetings.  I need my sailors to respect me more.  If only
+&+Gwe could salvage the ship, but now the dead sailors have risen back
+&+Gto life!  Help me kill the zombies there.  Bring me five plagued skulls
+&+Gand I will pay you generously.'
+~
+Q
+&+GVeedle cackles and says 'Excellent!  I will go rally the troops now.
+&+GTake this money as a token of my thanks!'
+~
+R C 420000
+G I 78487
+G I 78487
+G I 78487
+G I 78487
+G I 78487
+S
+#78511
+M
+qc_action 45~
+&+GChaz'Waz rummages through the debris and scoffs '&NWhere is that ring!?&+G'
+~
+M
+qc_action 45~
+&+GChaz'Wazz tosses chunk after chunk of debris from a pile, searching for something.
+~
+M
+hi hello~
+&+GChaz'Wazz looks at you and says '&NBah!&+g' before continuing the search.
+~
+M
+search searching ring~
+&+GChaz'Wazz says '&NI'm looking for a golden ring.  It is a family signet
+that has been going from generation to generation, I cannot bare to
+lose it!  Help me find it.&+G' Chaz'Wazz continues searching.
+~
+QA
+&+GChaz'Wazz cheers excitedly.
+&+G'&NThank you!  Now I do not have much to give in return, but as nothing
+&ncan replace this ring, I am in your debt.&+G'
+&+GChaz'Wazz ponders for a moment and then says '&NHere, take this bag,
+&nit is just the thing an adventurer like you could use!&+G'
+~
+R I 78496
+G I 78495
+D
+&+GChaz'Wazz bows deeply before you and is gone in a flash of light.
+~
+S
+#78516
+M
+qc_action 45~
+&+WThe seagull squaks a few times and then lands near your feet, pecking around the ground.
+~
+M
+qc_action 45~
+&+LA low rumbling and a lot of dark smoke are coming from the volcano to the east.
+~
+M
+qc_action 45~
+&+BThe distant soft gentle sound of the waves crashing against the island shore is heard.
+~
+S

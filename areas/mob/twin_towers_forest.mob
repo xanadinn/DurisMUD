@@ -1,0 +1,369 @@
+#13500
+farmer woodsman ranger man alvinar~
+a farmer~
+A friendly-looking farmer stands here smiling.
+~
+   On closer look, this man looks more like a woodsman or ranger than a
+farmer.  He is dressed in the skins and furs of forest animals, like soft
+deerskin boots, lined with rabbit fur, and a buckskin jacket and pants. He
+has a quiver of arrows over his shoulder, and a hunting knife strapped to
+his belt.
+~
+1107364034 0 0 50855944 0 0 0 600 S
+PH 0 2 -1
+35 6 -12 35d83+595 4d6+7
+0.0.0.0 45360
+8 8 1
+#13501
+archer ranger man farlindel~
+Farlindel the archer~
+An archer is here, practicing his shooting.
+~
+   The archer appears to be very good at shooting.  His clothing is made
+of the skins and furs of animals.  He carries a quiver of arrows, and has a
+hunting knife in a sheath attached to a large black belt around his waist.
+~
+1174472898 0 0 50855944 0 0 0 650 S
+PH 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.0.0.0 26730
+8 8 1
+#13502
+archer ranger man hanson~
+Hanson the archer~
+&+LAn archer is here, practising his shooting.&N
+~
+   The archer appears to be very good at shooting.  His clothing is made
+of the skins and furs of animals.  He carries a quiver of arrows, and has a
+hunting knife in a sheath attached to a large black belt around his waist.
+~
+1174472898 0 0 50855944 0 0 0 600 S
+PH 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.0.0.0 26730
+8 8 1
+#13503
+woman wife marja~
+a woman~
+A woman is here, cleaning her house.
+~
+   The woman is a plump, cheerful looking person, with a pink glow to
+her cheeks.  She is humming to herself as she goes about her work.  She
+is instantly likable, with her country charm and gracious manner, but
+you sense that there is something more to her than meets the eye.
+~
+1107560642 0 0 33554632 0 0 0 700 S
+PH 0 512 -1
+35 6 -12 35d56+525 4d6+7
+9.9.1.2 45360
+8 8 2
+#13504
+gardener man tryve~
+a gardener~
+A gardener is here, looking over the gardens.
+~
+   The gardener is dressed in ordinary clothing, and he is carrying some
+gardening tools.  He looks at his gardens with pride, and shows an obvious
+satisfaction in their beauty.
+~
+2240 0 0 0 0 0 0 130 S
+PH 0 1 -1
+6 18 80 6d21+33 2d3+1
+3.2.0.0 777
+8 8 1
+#13505
+mother fox~
+&+ra mother fox&N~
+&+rA mother fox &+yis here snarling at you, trying to protect her pups.
+~
+&+r   The mother fox is of the red fox variety.  She is very beautiful but
+&+rlooks quite vicious, and she is very upset that you have disturbed her
+&+rnest.
+~
+75497537 0 0 0 0 0 0 0 S
+A 0 0 -1
+8 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 2
+#13506
+fox pup baby~
+&+ra red fox pup&N~
+&+rA tiny red fox pup &+yis here yapping at you, and shivering in fear.
+~
+&+r   The fox pup is huddling against its mother for protection.  Even
+&+rthough it is small, its teeth look very sharp.
+~
+67109058 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 0
+#13507
+squirrel~
+&+ya tiny brown squirrel&N~
+&+yA tiny brown squirrel with a bushy tail is darting around the trees.
+~
+&+y   The little sguirrel is mostly brown, with a big bushy tail that curls
+&+yinto a question mark.  It finds a nut, sits up and holds it in its little
+&+yhands to eat it, then darts away looking for food and playing merrily.
+~
+192 0 0 0 0 0 0 0 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#13508
+mother wolf~
+a mother wolf&N~
+A mother wolf is here growling viciously at you, trying to protect her pups.
+~
+   The mother wolf is a beautiful silvery grey color, with a thick heavy
+coat.  She looks extremely vicious as she leans back in a position to
+spring if she thinks her pups are in danger.
+~
+8388673 0 0 0 0 0 0 0 S
+A 0 0 -1
+9 18 71 9d18+31 2d3+1
+0.0.0.0 1166
+8 8 0
+#13509
+wolf pup baby~
+a wolf pup~
+A wolf pup is here growling at you, and backing away in fear.
+~
+   The wolf pup is growling and snarling at you.  It looks quite vicious,
+even though it is young.
+~
+194 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 0
+#13510
+robin~
+&+ya &+rred-breasted &+yrobin&N~
+&+yA little robin &+rred breast &+yis here, looking for bugs and worms.
+~
+&+y   The little robin flies around from tree to tree, searching the ground
+&+yfor worms, and the tree bark for bugs.  As you approack, it hops away.
+~
+192 0 0 0 0 0 0 0 S
+B 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#13511
+bunny rabbit~
+&+Wa little white bunny rabbit&N~
+&+WA little white bunny rabbit is hopping around merrily, and wiggling its nose.
+~
+   The little bunny seems almost tame, and looks at you as if it thinks you
+might have some food to offer it.
+~
+8388801 0 0 0 0 0 0 0 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#13512
+chipmunk~
+&+ya tiny little chipmunk&N~
+&+yA tiny little chipmunk is darting all around.
+~
+&+y   The tiny little chipmunk is mostly brown, with a thin white stripe
+&+ydown his back, and a perky little tail. Now and then, he finds some nut
+&+yor other little piece of food, and he sits up and holds it in his little
+&+yhands to nibble on it.&N
+~
+192 0 0 0 0 0 0 0 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#13513
+raccoon~
+&+ya &+Lr&+ya&+Lc&+yc&+Lo&+yo&+Ln&N~
+&+yA little &+Lr&+ya&+Lc&+yc&+Lo&+yo&+Ln&+y is here, foraging for food.
+~
+&+y   The little raccoon is colored with bands of brown and black stripes
+&+yaround its body, and has a black mask around its eyes, making it look
+&+ylike like a little bandit.  Its ringed tail is nice and bushy.  It seems
+&+yunconcerned about anything but looking for food.&N
+~
+8388801 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 0
+#13514
+skunk~
+&+La litt&+Wle &+Lskunk&N~
+&+LA litt&+Wle &+Lskunk&N &+ypeers around looking for danger.
+~
+&+L   The little skunk is all bla&+Wck ex&+Lcept for a broad white stripe that
+&+Lruns down his back, and along &+Wthe t&+Lop of his bushy tail. He seems to be
+&+Lpaying close attention to his &+Wsurro&+Lundings, keeping an eye out for danger.
+~
+192 0 0 0 0 0 0 0 S
+A 0 0 -1
+2 20 93 2d15+7 1d5+0
+0.0.0.0 259
+8 8 0
+#13515
+buck~
+&+ya magnificent buck&N~
+&+yA magnificent buck stands frozen, listening for danger.
+~
+&+y   This magnificent creature is brown, with a touch of white under his
+&+yneck.  The most outstanding thing about it is the rack of horns upon its
+&+yhead, which indicates it is a mature animal, who has won many a battle
+&+yfor supremacy.&N
+~
+8390849 0 0 32 0 0 0 0 S
+A 0 0 -1
+11 15 64 11d23+44 2d5+2
+0.0.0.0 5346
+8 8 1
+#13516
+deer~
+&+ya beautiful deer&N~
+&+yA beautiful deer is taking a drink from the stream.
+~
+&+y   This beautiful creature is brown, with a touch of white under his
+&+yneck.  Judging from the rack of horns on its head, this is a fairly
+&+yyoung male deer, but one who has been around long enough to have seen
+&+ya few battles.&N
+~
+8390851 0 0 0 0 0 0 0 S
+A 0 0 -1
+9 18 71 9d18+31 2d3+1
+0.0.0.0 1166
+8 8 1
+#13517
+doe~
+&+ya graceful doe&N~
+&+yA graceful doe is bounding through the forest.
+~
+&+y   This beautiful creature is brown, with a touch of white under her
+&+yneck.  She appears to be fairly mature.
+~
+8390851 0 0 0 0 0 0 0 S
+A 0 0 -1
+8 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 2
+#13518
+snake rattlesnake~
+&+ya ra&+Ytt&+yle&+Ysn&+yake&N~
+&+yA ra&+Ytt&+yle&+Ysn&+yake was hidden here in the brush, and is now ready to strike.
+~
+&+y   The rattlesnake is beautiful but deadly.  It has yellow diamonds in
+&+ya pattern running down the length of its body, which looks to be about
+&+y4 feet when uncoiled.  Right now, however, it is coiled up tightly and
+&+yready to strike.&N
+~
+8388673 0 0 1048576 0 0 0 0 S
+RS 0 0 -1
+5 20 83 5d15+17 1d5+0
+0.0.0.0 648
+8 8 0
+#13519
+bluejay bird~
+&+Ba bluejay&N~
+&+yA little &+Bbluejay&N &+ywith &+Wwhite tipped&N &+ywings is fluttering around here.
+~
+&+y   The bluejay flutters from tree to tree, sometimes hopping onto the
+&+yground, making small squaking noises.
+~
+8519875 0 0 0 0 0 0 0 S
+B 0 0 -1
+2 20 93 2d15+7 1d5+0
+0.0.0.0 259
+8 8 0
+#13520
+beautiful sprite glor-linda~
+&+Ma beautiful sprite&N~
+&+MA beautiful sprite&N is here, crying her eyes out.&N
+~
+&+M   This little fairy-like creature is so beautiful it takes your breath
+&+Maway.  She is wearing a flowing diaphonous gown of a soft magenta color,
+&+Mwhich shimmers as if touched by moondust.  Her hair is the color of spun
+&+Mgold, and it hangs down her back to below her waist.  As you approach,
+&+Mshe looks at you with big blue tear-filled eyes, then buries her head
+&+Min her hands and continues her heart-rending sobbing.
+~
+33687690 0 0 33554508 128 0 0 900 S
+HF 0 512 -1
+35 6 -12 35d56+525 4d6+7
+9.9.1.2 45360
+5 5 2
+#13521
+pixie~
+&+ca mischievous looking pixie&N~
+&+cA mischievous looking pixie is here&N, grinning at you.
+~
+&+c   This little fellow looks like he's trouble looking for a place to
+&+chappen.  He taunts you and grins at you, almost daring you to try to
+&+ccatch him.  He moves very quickly, seemingly almost by magic.
+~
+1107429452 0 0 35201118 8384 0 0 0 S
+HF 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 1
+#13522
+yellowbird bird magical~
+&+Ya magical yellowbird~
+&+YA magical yellowbird is here, chirping merrily.
+~
+&+Y   This is a beautiful brightly hued yellow bird. It is very very large for
+&+Ya bird, and you cannot help but know that it is somehow magical.  It looks
+&+Yat you, unafraid, as if it knows that it can never be permanently harmed.
+~
+133128 0 0 704643080 12480 0 0 0 S
+B 0 0 -1
+15 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+11 11 1
+#13523
+redbird bird magical~
+&+Ra magical redbird~
+&+RA magical redbird is here, singing prettily.
+~
+&+R   This is a beautiful brightly hued red bird. It is very very large for
+&+Ra bird, and you cannot help but know that it is somehow magical.  It looks
+&+Rat you, unafraid, as if it knows that it can never be permanently harmed.
+~
+133128 0 0 704643080 12480 0 0 0 S
+B 0 0 -1
+15 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+11 11 2
+#13524
+bluebird bird magical~
+&+Ba magical bluebird~
+&+BA magical bluebird is here, flying around.
+~
+&+B   This is a beautiful brightly hued blue bird. It is very very large for
+&+Ba bird, and you cannot help but know that it is somehow magical.  It looks
+&+Bat you, unafraid, as if it knows that it can never be permanently harmed.
+~
+133128 0 0 704643080 12480 0 0 0 S
+B 0 0 -1
+15 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+11 11 2
+#13525
+greenbird bird magical~
+&+Ga magical greenbird~
+&+GA magical greenbird is here, fluttering gayly.
+~
+&+G   This is a beautiful brightly hued green bird. It is very very large for
+&+Ga bird, and you cannot help but know that it is somehow magical.  It looks
+&+Gat you, unafraid, as if it knows that it can never be permanently harmed.
+~
+133128 0 0 704643080 12480 0 0 0 S
+B 0 0 -1
+15 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+11 11 1

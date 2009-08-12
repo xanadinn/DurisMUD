@@ -1,0 +1,906 @@
+#43103
+M
+qc_action 45~
+&+YPol &Njumps up on the counter and yells '&+YPol's poles, grab em while they're
+&+Yhot!&N before jumping back down and laughing to himself.
+~
+M
+qc_action 45~
+&+WA seagull flies overhead before circling back, landing on a wooden dock post.
+~
+M
+qc_action 45~
+&+YPol &Nreaches down below where your eyes can see and pulls out a large pole.
+&+YPol&N stammers and says '&+YI caught a doozy the other weak with this
+&+Yfishing pole.  Yours for the low-low price of three-hundred platinum!&N'
+~
+QA
+&+YPol &Ncackles and says '&+YNo no no my dearest Fishfetcher is far too
+&+Yvaluable to me to simply sell!  But I will tell you what, I saw the way
+&+Yyou looked longingly at that platinum before giving it to me, I could
+&+Ytell you didn't want to part with it.  I will double this sack of platinum
+&+Yfor you if you do something for me!'
+&+YPol&N grins for a moment and continues '&+YThere is a fishing lure I'm
+&+Yworking on and there are some ingredients I need.  A certain substance
+&+Yfound in &+Wsnapjaw turtle shells&+Y mixed with the enzymes found in
+&+Ythe fire &+rglands&+Y of stonescale pyrolisks.  You might be the perfect
+&+Yone for the job, seeing as how these species are only found on different
+&+Ylands and you happen to be at a harbor!'
+&+YPol &Nlaughs hysterically.
+&N'&+YOkay.  return to me with five snapjaw shells and five fire glands.&N'
+&+YPoli&N quickly &+Lscribbles&N down a &+Wnote.
+'&+YMake sure to bring this note back to me too with all the shells and glands
+&+Yso that I make sure I'm rewarding the right person.&N'
+~
+R C 300000
+R I 43136
+G C 300000
+QA
+&+YPol cheers in excitement.
+~
+R C 300000
+R E 125000
+G I 43137
+G I 43137
+G I 43137
+G I 43137
+G I 43137
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+D
+&+YPol runs out the door.
+~
+S
+#43120
+M
+qc_action 50~
+&+LA &+Whuge &+Lbartender stops wiping out the stein for a moment and suspiciously
+&+Llooks over both shoulders before continuing.
+~
+S
+#43121
+M
+qc_action 65~
+&+LA &Ndrunk &+Lfisherman sings '&NHeya-aya-eyahayah-ayah-acerena.. Heyyy Macarena!&+L'
+~
+M
+qc_action 50~
+&+LA &Ndrunk &+Lfisherman says 'Hey buddy every time I go out there, the only
+&+Lthing I manage to catch is crabs!'
+&+LA &Ndrunk &+Lfisherman cracks up, laughing hysterically.
+&+LRegaining his composure, the &Ndrunk &+Lfisherman satisfyingly sighs and
+&+Ltakes another hearty swig of ale.
+~
+M
+qc_action 50~
+&+LA &Ndrunk &+Lfisherman says '&NI saw em over at the Construction Pier installin
+&na Mindstone Beamcannon... by Berronar's Beard! The thing was the size of one
+&nof the Pharr Mountain peaks&+L!'
+~
+S
+#43122
+M
+qc_action 50~
+&+LA &+Bsailor&+L laughs heartedly.
+&+LA &+Bsailor&+L gulps down the last few swigs of ale before ordering another.
+~
+M
+qc_action 65~
+&+LA &+Bsailor &+Lsays '&+BI can't believe they are all out of those pike fillets!  Ale it is!&+L'
+~
+S
+#43125
+M
+qc_action 50~
+&+WVoshen paces back and forth squeezing and twisting his hands around a large
+&+Wcooking ladel.  'What'll I do.. what'll I do!?' he keeps asking to himself.
+~
+M
+qc_action 50~
+&+LThe bartenders voice can be heard from the Hutch, 'Two more orders of pike fillet!'
+&+Wto which Voshen nervously responds 'Comin right up!' as he carefully splits the
+&+Wlast order of pike fillet into two smaller orders, hoping nobody will notice.
+~
+M
+hi hello pike fillet~
+&+WVoshen says 'There is no more pike!  You can't cook pike fillet without pike!'
+&+WWiping his hands over his face, Voshen continues 'I'll be ruined without more
+&+Wpike and the fishermen have already gone out today!  If you can bring me six
+&+Wof the freshest, biggest, juiciest &+clarge fresh pikes&+W I will handsomely reward you.'
+&+WVoshen smiles and sends you on your way before resuming his pacing.
+~
+QA
+&+WVoshen the Chef graciously takes the half-dozen pikes and smiles graciously.
+&+WWithin moments Voshen whips up several fresh orders of pike fillet.
+~
+R E 40000
+R C 50000
+G I 318
+G I 318
+G I 318
+G I 318
+G I 318
+G I 318
+D
+&+W'Your reward as promised, and a fresh order of pike fillet on the house!'
+&+WVoshen says 'Come back in the future, I could probably use your help getting
+&+Wmore pikes again!'
+&+WVoshen dashes out the door.
+~
+S
+#43126
+M
+qc_action 50~
+&+CCrendethyl lifts his stein and eyes it in disgust before taking another drink.
+~
+MA
+hi hello~
+&+CCrendethyl says 'Greetings.  I was once a glassblower of Charing, the elven
+&+Cvillage, but after the great war I fled to the seas, which is where I have
+&+Cbeen for the past several hundred years.  During my time in Charing, however
+&+Cthe last thing I ever created was a large glass stein, sized for a high elf!'
+&+CCrendethyl sighs and continues 'I left that stein in some Fisherman's Inn
+&+Cback in Canderthal Harbor many years ago.  Go there and find it for me.
+&+Creturn me my stein for a nice reward!'
+~
+QA
+&+CCrendethyl smiles and accepts the stein.
+~
+R E 166000
+R C 24000
+G I 43111
+D
+&+CCrendethyl says 'Thank you gracious one.  Your reward as promised, now I am
+&+Coff to brave the seas!'
+~
+S
+#43127
+M
+qc_action 65~
+&+LA fisherman tugs on his pole, reeling in a large delicious-looking fish.
+~
+M
+qc_action 50~
+&+WThe ocean waves softly crash against the rocky jetty.
+~
+M
+qc_action 50~
+&+rA small crab creeps up on a rock near your feet, but as soon as you see him he scitters off.
+~
+S
+#43131
+M
+qc_action 65~
+&+WA flock of seagulls flies overhead across Canderthal Harbor into the distance.
+~
+M
+qc_action 50~
+A young fisherman checks the change in his pockets and heads for the bait shop.
+~
+M
+qc_action 50~
+A young fisherman says 'Those rainbow trout are so tasty, but you gotta try Voshen's
+Fillet!  Best in these parts!'
+~
+MA
+voshen filet fillet~
+The young fisherman says 'Sure, Voshen.. he works over in the Fisherman's Hutch.'
+~
+S
+#43132
+M
+qc_action 45~
+&+cA merchant &Nyells '&+ySmall clams for sale!  One for five platinum!'
+~
+QA
+&+cA merchant&N says 'There ya go!'
+~
+R I 334
+G C 5000
+D
+&+cA merchant&N walks off into the streets.
+~
+S
+#43135
+M
+qc_action 75~
+&+LThe door slams open as a huge sailor leans through the entryway.
+&+LWith a thundering voice, the man says '&+WGringash, toss me a pint.  I'm in
+&+Wa rush.&+L'
+&+LBefore you know it, a large stein of &+yale&+L soars across the bar, landing
+&+Lin the barbarian's hand.
+&+LThe door slams shut and the atmosphere continues.
+~
+M
+qc_action 50~
+&+YGringash pours and distributes several large steins of ale, a smile on his face.
+~
+M
+qc_action 50~
+&+LOutside a large frigate comes in, docking at a passenger pier on the main dock.
+~
+M
+hi hello~
+&+YGringash smiles at you and says 'Greetings traveller!  Want to do me a great
+&+Yfavor?  My cousin in Kimordril is looking to open a bar of his own.  He thinks
+&+Ythe great desert city of Venan'Trust doesn't have enough bars already!
+&+YWhat I need from you is to sail to Venan'Trust and bring me back a &+ymap &+Yof
+&+Ythe city.  I've come across this type of map before at a tinker in a small shoppe!'
+~
+QA
+~
+R E 81000
+R C 65656
+G I 49179
+D
+&+YGringash gives you your reward and says 'Great!  Wait till I go fly over to
+&+Ymy brother in Kimordril and show him this great map!
+&+YBefore leaving, Gringash yells to the patrons '&+LDon't steal my booze while I'm
+&+Lgone, boys!'
+~
+S
+#43136
+M
+qc_action 50~
+&+rKrinstis paces through the cellar, arms crossed.
+~
+MA
+hi hello~
+&+rKrintis looks at you and says 'Greetings.  If you are willing, I have
+&+ra task for you.  I am working on developing a highly toxic poison,
+&+r but I require two reagents for it.  There is a chemical found in
+&+rthe fangs of tundra panthers... mixed properly with the venom of sand
+&+rvipers found in Calimshan, I can create this deadly concoction.  Please
+&+rreturn to me with three sand viper venom sacs and three tundra paneher
+&+rteeth.  You will find the panthers on Ice Crag continent.  Go with haste.'
+~
+QA
+~
+R E 100000
+R C 210000
+G I 43139
+G I 43139
+G I 43139
+G I 43140
+G I 43140
+G I 43140
+D
+&N$n grins, accepting $N's bounty.
+~
+S
+#43137
+M
+qc_action 50~
+&+WA seagull squawks as it pecks around the ground looking for something to eat.
+~
+M
+qc_action 50~
+&+WA flock of seagulls soars gracefully over the ocean waters into the distance.
+~
+S
+#43138
+MA
+qc_action 50~
+&+WGelden the Shaman waves his hands around and a spiritual eagle forms in front of him.
+&+WGelden whispers to the spiritual eagle and it flies off into the skies.
+~
+M
+qc_action 50~
+&+WGelden utters a few words to himself and suddenly grows strong like a bear!
+~
+MA
+hi hello~
+&+WGelden nods at you and says 'Well met.  I am in need of your services.'
+&+WGelden stands up and says 'I have become very well attuned with the
+&+Wanimal and the spiritual, but I have not yet grasped the elemental.
+&+WPlease sail to Sarmiz'Duul and recover for me an &Nan &+Lobsidian &Nand &+Wsteel
+&ntotem&+W that I may analyze to further learn how to bring out the elemental
+&+Wether from it.  You may find this totem on a half-orc shaman in the city
+&+Wof Half-Orcs!'
+~
+QA
+&+WGelden the Shaman smiles and cheers for you.
+~
+R E 65000
+R C 150000
+G I 9440
+D
+&+WGelden the shaman hands you your reward and says 'Money is all I have to offer.
+&+WThank you adventurer!'
+&+WIn the blink of an eye, Gelden is gone and a hawk is flying away from where
+&+Whe just was.
+~
+S
+#43139
+M
+qc_action 50~
+&+WChundel shouts 'Departures out the north!  New arrivals to the western pier!'
+&+WChundel shouts 'Get yer ship fixed on the eastern pier!
+~
+M
+qc_action 49~
+&+WChundel looks around, scanning the pier and counting the ships docked here.
+~
+MA
+hi hello~
+&+WChundel looks around and sighs.
+&+WChundel says to you 'These supply crates are everywhere!'
+&+WChundel ponders for a moment and continues 'Tell ya what, for each and every
+&+Wcrate you bring back to me, I will give ya two gold pieces!'
+~
+QA
+&+WChundel says 'Thanks for the help, here's your reward!'
+~
+R C 200
+G I 43101
+S
+#43142
+M
+qc_action 90~
+&+WA righteous white light flows forth from the statue, bathing you with warmth.
+~
+M
+qc_action 91~
+&+WAn &+celven &+Wworshipper says '&+cGuide us oh great Silvanos.  Bathe us with your wisdom.&+W'
+~
+M
+qc_action 93~
+&+wAn &+celven &+Wworshipper kneels beneath the statue and kisses its feet.
+~
+S
+#43145
+M
+qc_action 50~
+&+MElthindeal's eyes sparkle as she smiles, wiping out a fine elven mug.
+~
+MA
+hi hello~
+&+MElthindeal smiles and says 'Greetings.  I'm glad you are enjoying
+&+Myourself in Fenaline.  Have you tasted our elven lager?  I have heard
+&+Mgreat things about Canderthal ale.  If you could bring me back a cask
+&+Mof it I would be very greatful.'
+&+MElthindeal winks and giggles.
+~
+QA
+&+MElthindeal smiles and says 'Ahh thank you so much!'
+&+MElthindeal grabs you and kisses you passionately.
+~
+R E 55000
+R C 45000
+G I 43115
+D
+&+MElthindeal smiles and says 'That is all I've got.  I am going to go try
+&+Mthis new ale!
+~
+S
+#43146
+M
+qc_action 80~
+&+cAn experienced sailor says 'It is in the patch of ocean around
+&+cthe Githzerai Outpost that we should pay the most attention!  Our
+&+cscouts have spotted orcish warships in those seas on three seperate
+&+coccasions this week alone!'
+~
+M
+qc_action 80~
+&+cAn experienced sailor says 'When they land at Sarmiz'Duul looking to
+&+cbuy that contraband of theirs, thats when the elven ambushers jump
+&+cout of a nearby Frigate, capturing them at the source!'
+~
+M
+qc_action 80~
+&+cAn experienced sailor says 'Beware sailing the Ice Crag Gap at the high
+&+chours of the day.  That is when the seas are haunted by Cyric himself.'
+~
+S
+#43147
+M
+qc_action 80~
+&+LA well-dressed sailor says 'Hogwash!  I have made the trip to
+&+LVenan'Trut three times this week alone!  Besides, that Island is
+&+Lmuch closer to Canderthal anyway.  Let them deal with the horde.'
+~
+M
+qc_action 80~
+&+LA well-dressed sailor says 'Those dwarves are so foolish.  They waste
+&+Ltheir time mining when the real money is in running cargo.'
+~
+M
+qc_action 80~
+&+LA well-dressed sailor grins and says 'We have a fleet now that Herris
+&+Lhimself would turn away from!'
+~
+S
+#43148
+M
+qc_action 50~
+&+RTrismerk pulls out a chunk of whetstone and begins sharpening his blade.
+~
+M
+qc_action 50~
+&+RTrismerk slowly sips his drink, eyeing his surroundings cautiously.
+~
+MA
+hi hello~
+&+RTrismerk says 'Greetings traveller.  I must wait here for my
+&+Rship to ring in at the docks, but in the mean time I have a task
+&+Rfor you.  There are samurais guarding the outside of the Jade
+&+RIsland.  I need you to weaken their defenses and kill some
+&+Rof these samurais.  Return to me with five of their katanas and
+&+RI will pay you a handsome reward.'
+~
+QA
+&+RTrismerk cheer gleefully for you.
+~
+R E 80000
+R C 135000
+G I 43141
+G I 43141
+G I 43141
+G I 43141
+G I 43141
+D
+&+RTrismerk says 'Now I have other races to conquer!'
+~
+S
+#43151
+M
+qc_action 50~
+&+cAustugus peers outward, using his great elvish sight to see over the horizon.
+~
+M
+qc_action 50~
+&+cAustugus greets you, smiling happily.
+~
+MA
+hi hello~
+&+cAustugus says 'Greetings traveller.  I am a busy man in Fenaline,
+&+cand I have a quest for you.  There are green hydralisks on the northern
+&+cside of the Island of Darkness where evil dwells.  If the alchemists of
+&+cFenaline can extract the enzymes from the hydralisks poison glands
+&+cwell enough, we may be able to generate a new toxin for battling harsh
+&+cpoisons like this!  Bring me five green hydralisk gas glands!'
+~
+QA
+&+cAustugus smiles and thanks you heartidly.
+~
+R C 240000
+R E 110000
+G I 43142
+G I 43142
+G I 43142
+G I 43142
+G I 43142
+D
+&+cAustugus says 'And I'm off!'
+&+cWith the blink of an eye, Austugus is gone.
+~
+S
+#43152
+M
+qc_action 45~
+&+cA merchant &Nyells '&+cLarge pike fish for sale!  One for five platinum!'
+~
+QA
+&+cA merchant&N says 'There ya go!'
+~
+R I 318
+G C 5000
+D
+&+cA merchant&N walks off into the streets.
+~
+S
+#43153
+M
+qc_action 50~
+&+RMartinek paces back and forth around the cauldron, worried about something.
+~
+M
+qc_action 50~
+&+RMartinek stirs the cauldron and gulps nervously as he looks inside.
+~
+MA
+hi hello~
+&+RMartinek says 'Hello, you're a fisherman right!?  You've gotta
+&+Rhelp me.  My customers are hungry and I've run out of small
+&+Rclams!  Please bring back six small clams!'
+~
+QA
+&+RMartinek takes the clams and throws them in the cauldron.
+&+RThank you very much, here is your reward!
+~
+R E 45000
+R C 52500
+G I 334
+G I 334
+G I 334
+G I 334
+G I 334
+G I 334
+S
+#43154
+M
+qc_action 50~
+&+WA high elven sailor quietly sips his drink, always aware of his surroundings.
+~
+S
+#43155
+M
+qc_action 60~
+&+LA &+rhungry &+Lpatron &+Limpatiently taps his foot, looking up towards the cauldron.
+~
+S
+#43156
+M
+qc_action 50~
+&+CShaenae the Mystic raises her hands in the air, communing with the magical essence of the moonwell.
+~
+M
+qc_action 50~
+&+CShaenae dips her hands into the moonwell and utters a magical phrase.
+~
+MA
+hi hello~
+&+CShaenae says 'Greetings traveller.  Welcome to Fenaline.  This is
+&+Ca peaceful port of the Grey Elves.  I have a task for you.  Please
+&+Ctravel to the Island to the far west and southwest.  This island
+&+Chas much exposed molten rock and undead creatures.  It is within
+&+Ca dark tunnel at a &+YBone Yard&+C that I dropped a silver ring of mine,
+&+Cages ago.  Please bring my silver ring back to me, it has been there
+&+Cfor quite some time.  Beware these tunnels though, they contain vicious
+&+Cundead and behemoths.
+~
+QA
+~
+R E 155000
+R C 200000
+G I 94307
+D
+&+CShaenae the Mystic swirls into vapor and becomes one with the moonwell.
+~
+S
+#43157
+M
+qc_action 95~
+&+CA robed grey elf holds his hands up, &+Wand they begin to glow.
+~
+M
+qc_action 99~
+&+CA robed grey elf says 'May the powers of Elune and Silvanos be with you.'
+~
+S
+#43158
+M
+qc_action 50~
+&+CA young sailor says 'Sailing the seas on the ocean blue, that is the dream of mine.'
+~
+M
+qc_action 50~
+&+CA young sailor says 'The wind in your hair, the sea at your fingertips..'
+&+CA young sailor sighs.
+&+CA young sailor says 'That is the life for me.'
+~
+S
+#43159
+M
+qc_action 50~
+&+LA fisherman walks through the streets carrying his pole and tackle.
+~
+S
+#43163
+M
+qc_action 50~
+&+LAyden &NStone&+Lheart says 'A galleon approaches from the northwest.  Their standard is from Canderthal Harbor.'
+~
+M
+qc_action 50~
+&+LAyden &NStone&+Lheart relaxes for a moment uttering a few magic phrases to himself, and continues his watch.
+~
+M
+qc_action 50~
+&+LAyden &NStone&+Lheart says 'There! Far to the northeast, a ketch!   It looks as if it is baring
+&+Lwestward.  Perhaps it heads to Venan'Trut, to the northeast, beyond the land of the undead.'
+~
+MA
+hi hello~
+&+LAyden &NStone&+Lheart smiles at you and says 'Greetings.  I have a task for you
+&+Lif you wish to be brave enough for the Horde!  I am trying to create a great
+&+Lpoison to use on our enemies, but there are things I require.  The fire glands
+&+Lfrom pyrolisks on the continent of undeath, north of here, as well as sand viper
+&+Lvenom sacs from the Calimshan desert on the continent of Winterhaven, to the
+&+Lnorthwest in the lands of man.'
+&+LAyden &NStone&+Lheart laughs.
+&+YAyden &NStone&+Lheart says 'Bring me three of each and I will reward you!'
+~
+QA
+&+LAyden &NStone&+Lheart thanks you.
+~
+R C 160000
+R E 90000
+G I 43138
+G I 43138
+G I 43138
+G I 43139
+G I 43139
+G I 43139
+D
+&+LAyden &NStone&+Lheart fades into the darkness.
+~
+S
+#43167
+M
+qc_action 90~
+&+LKruth'Urgur shouts 'Orcs of Thur'Gurax, seek out great fortune in the lands of
+&+LAravne to the west!'
+~
+M
+qc_action 90~
+&+LKruth'Urgur shouts 'Pillage and destroy the Jade Empire, claim their jewels
+&+Las your own!  These men dwell on an island to the southwest of Thur'Gurax!
+&+LFor the horde!'
+~
+M
+qc_action 90~
+&+LKruth'Urgur shouts 'Claim the bounty of Ice Crag!  Go to the southern
+&+Ltip of our lands and look to the southeast!'
+~
+M
+hi hello~
+&+LKruth'Urgur grunts at you and says 'Perhaps you can aid me.  I require
+&+Lsomething from a Desert City.. Venan'Trut.  You can find it around the
+&+Lcontinent of undeath north of here, and to the northeast.  Once in Venan'Trut
+&+Lfind where you can get a map of that place and bring it back to me.  I
+&+Lwill reward you nicely for this will let us know how to seige the
+&+Ldesert city!'
+~
+QA
+&+L'Thanks!'
+~
+R E 35000
+R C 35000
+G I 49179
+D
+&+LAnd like that.. he's gone!
+~
+S
+#43170
+M
+qc_action 50~
+&+RVresh Steelclaw grunts and snarls viciously, foaming at the mouth.
+~
+M
+qc_action 50~
+&+RVrash Steelclaw says 'Once we control the seas around Venan'Trut,
+&+RWe will control everything!!'
+&+RVrash Steelclaw cackles maniacally.
+~
+MA
+hi hello~
+&+RVrash Steelclaw says 'Greetings.  We are going to upgrade our arsenal
+&+Rfor the Thur'Gurax troops to wield spiked maces.  I am going to craft
+&+Rsome prototypes first.  Bring me three &+Lwicked maces&+R you can find on wemic
+&+Rwarriors on the island to the northwest.  Also I will need three &+Wtundra
+&+Wpanthers teeth&+R, found on the panthers on Ice Crag continent.  Bring me
+&+Wthese items and I will reward you greatly.
+~
+QA
+&+RVrash grins wickedly and rewards you.
+~
+R E 90000
+R C 245000
+G I 93501
+G I 93501
+G I 93501
+G I 43140
+G I 43140
+G I 43140
+D
+&+RVrash runs out of his office.
+~
+S
+#43174
+M
+qc_action 50~
+&+RCairme BloodFang looks from one side of the tavern to the other and grunts.
+~
+M
+qc_action 50~
+&+RCairme BloodFang says 'Welcome to my Tavern.  Sit and drink, proud warrior.'
+~
+MA
+hi hello~
+&+rCairme BloodFang notices you and says '&+WZug zug.  I am Cairme Bloodfang,
+&+rowner of the tavern.  I have noticed you are a hunter, seeking glory.
+&+rI know that life, I lived it once.'
+&+rCairme BloodFang pauses for a moment, a proud look in his eye.
+&+r'I have task for hunter!  Travel to realm of Winterhaven.  Seek out
+&+rbandit scouts surrounding bandit camp and kill them!  Bring me four
+&+rbandit shivs.  Also I am sick of fish!  What I want is good old rations,
+&+rbut not just any!  The iron rations I eat come from a barbarian-human
+&+rwho sells them in the Tundra on the island far to the northeast.
+&+rNow go!  Return to me with the six bandit shivs and rations you
+&+rpurchased from that Tundra half-breed and you will have gained my respect.'
+~
+QA
+&+RCairme Bloodfangs devours the rations and washes it down with a mug of
+&+Rorcish ale.  He smiles and thanks you.
+~
+R C 160000
+R E 105000
+G I 13723
+G I 43143
+G I 43143
+G I 43143
+G I 43143
+D
+&+RCairme BloodFang says 'Thank you, I am off!'
+~
+S
+#43176
+S
+#43177
+M
+qc_action 50~
+&+LGrimashk smashes a shipping crate at his feet and roars in frustration.
+~
+M
+qc_action 50~
+&+LGrimashk looks outward across the oceans for a moment and sighs a breath of contentment.
+~
+MA
+hi hello~
+&+LGrimashk responds 'Greetings.  Do Grimashk a favor and bring back supply
+&+Lcrates to him.  They are scattered across the dock.  Reward in it for you!'
+~
+QA
+&+LGrimashk accepts the crate and says 'Thank you!  Your reward..'
+~
+R C 250
+G I 43101
+QA
+&+LGrimashk says 'Ahh I've been looking for this one for some time, thank you!'
+~
+R C 845
+G I 43125
+S
+#43178
+M
+qc_action 50~
+&+yBronak looks around and grunts, and continues scratching himself.
+~
+M
+qc_action 50~
+&+yBronak swats at the cloud of flies buzzing around his face.
+~
+M
+hi hello~
+&+yBronak nods at you and says '&+gI can offer this service to you.  Whichever of
+&+gthe three basic major circle totems you hand me, along with &+W50 platinum&+g, I will
+&+genchant that totem and enhance its abilities.'
+&+yBronak grins and says 'Remember, give me &+W50 platinum, and a marbled quartz totem&+L,
+&+La squat obsidian &+Ltotem, &+yor a firwood bear totem.'
+~
+Q
+~
+R I 43130
+G I 108
+G C 50000
+Q
+~
+R I 43129
+G C 50000
+G I 111
+Q
+~
+R I 43128
+G C 50000
+G I 109
+S
+#43181
+M
+qc_action 50~
+&+LFrull Thelstone looks towards a goblin hut, then peers back over at the docks.
+~
+M
+qc_action 50~
+&+LFrull Thelstone says 'Would you dare travel to the realm of man?'
+~
+MA
+hi hello yes~
+&+LFrull Thelstone nods at you and grunts.
+&+LHe says 'I need anyone's help with a ship and a sense of direction.
+&+LThere is a village in the realm of man, Winterhaven, known as Werrun.
+&+LSomewhere in the village of Werrun are cigars.  Get a box of these
+&+Lcigars for me and I will repay you greatly.   Now be off!'
+~
+Q
+&+LFrull Thelstone says 'Thank you.'
+~
+R C 66666
+G I 38314
+D
+&+LFrull Thelstone walks off.
+~
+S
+#43182
+M
+qc_action 50~
+&+LAn &+gorc&+L bartender says 'I don't want none of you cheapskates!  I'm calling in your tabs and I mean it!'
+~
+M
+qc_action 50~
+&+LAn &+gorc &+Lbartender&+L casually brings up a lot of mucous and spits into the mug he is wiping out.
+~
+M
+qc_action 50~
+&+LAn &+gorc &+Lbartender says 'I won a lot of platinum over at Cairme's the other day.'
+&+LAn &+gorc &+Lbartender boisterously laughs to himself.
+~
+S
+#43183
+M
+qc_action 80~
+&+LSeveral orc fisherman begin fighting outside, a large crowd of orcs and goblins gather around.
+~
+S
+#43184
+M
+qc_action 80~
+&+GA &+Ldrunk orc &+Gsays 'Human taste good, but elf taste better!'
+&+GA &+Ldrunk orc &+Grolls around on the floor laughing.
+~
+M
+qc_action 50~
+&+GA &+Ldrunk orc &+Gsays 'Captain the other day said they found new islands far
+&+Goff to the east!'
+&+GA &+Ldrunk orc&+G lets out a massive belch.
+&+GA &+Ldrunk orc&+G continues drinking his ale.
+~
+S
+#43187
+M
+hi hello~
+&+GBestile AxeCrack greets you and says 'I have a task for you, noble one.
+&+GThere are six potions that I require to make the ultimate concoction.
+&+GThe best thing is, you don't even need to kill anyone for these
+&+Gpotions!  They're all sold at stores!  Ready?
+&+GI need: &Na &+Wsparkling &Npotion &+Gfrom Torrhan
+           &+ya bubbling brown potion&+G from Shadowclave&N
+	   &+ca thick cyan potion &+Gfrom Bloodstone&N
+	   &+La steel grey potion &+Gfrom Ghore&N
+	   &Na pitch &+Lblack &Npotion &+Gfrom Sarmiz'Duul
+	   &+ma purple potion &+Gfrom Gold Halls&N
+&+GBestile AxeCrack grins and says 'Godspeed.  The reward will be well worth it.'
+&+GBestile AxeCrack adds 'Remember, you can buy them all!'
+~
+QA
+&+GBestile AxeCrack mixes all the potions together one giant one and quaffs it...
+&+GBestile AxeCrack says 'I feel fine..'
+&+GBestile AxeCrack shrugs and smiles.
+~
+R C 666666
+R E 100000
+R I 43144
+G I 40469
+G I 9428
+G I 11562
+G I 2800
+G I 93914
+G I 66723
+D
+&+GBestile AxeCrack suddenly starts shaking and foaming at the mouth. Suddenly
+&+Ghe turns green and becomes a giant hulk!
+&+GA giant hulk storms out of the Gutted Githzerai and runs outside, knocking over
+&+Gseveral orcs in the process.
+~
+S
+#43188
+M
+qc_action 90~
+&+LA warlock holds his hands up to the altar and utters a magical phrase.
+&+WGlowing light fills the room as the altar flares up.
+~
+S

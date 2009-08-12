@@ -1,0 +1,502 @@
+#422
+&+gTri&+Lbal &+GFor&+Lest&n~
+42374 1 0 15 25 4
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 42200 1 5 100 0 0 0
+*     east exit from "Dead End of a Deep and Narrow Canyon" to
+*     "Beggining of a Valley" - closed/secret
+*
+D 0 42201 3 5 100 0 0 0
+*     west exit from "Beggining of a Valley" to
+*     "Dead End of a Deep and Narrow Canyon" - closed/secret
+*
+D 0 42239 3 13 100 0 0 0
+*     west exit from "An Ivy Covered Forest" to
+*     "A Tight Passage Covered with Poisonous Ivy" - closed/secret/blocked
+*
+D 0 42304 1 5 100 0 0 0
+*     east exit from "A Tight Passage Covered with Poisonous Ivy" to
+*     "An Ivy Covered Forest" - closed/secret
+*
+D 0 42246 4 5 100 0 0 0
+*     up exit from "Entrance to a Forest Village" to
+*     "Inside a Hollowed Pine" - closed/secret
+*
+D 0 42268 5 5 100 0 0 0
+*     down exit from "Inside a Hollowed Pine" to
+*     "Entrance to a Forest Village" - closed/secret
+*
+D 0 42248 3 2 100 0 0 0
+*     west exit from "A Chieftains Hut" to
+*     "Inside a Dark Kitchen" - closed/locked
+*
+D 0 42249 1 2 100 0 0 0
+*     east exit from "Inside a Dark Kitchen" to
+*     "A Chieftains Hut" - closed/locked
+*
+D 0 42250 1 0 100 0 0 0
+*     east exit from "Entrance to the Women Hut" to
+*     "Western Side of a Village Square" - open
+*
+D 0 42252 3 0 100 0 0 0
+*     west exit from "Western Side of a Village Square" to
+*     "Entrance to the Women Hut" - open
+*
+D 0 42251 0 5 100 0 0 0
+*     north exit from "Inside the Women Hut" to
+*     "A Small Secret Closet" - closed/secret
+*
+D 0 42263 2 1 100 0 0 0
+*     south exit from "A Small Secret Closet" to
+*     "Inside the Women Hut" - closed
+*
+D 0 42254 0 1 100 0 0 0
+*     north exit from "A Hut of Shaman" to
+*     "Southern Side of a Village Square" - closed
+*
+D 0 42255 2 1 100 0 0 0
+*     south exit from "Southern Side of a Village Square" to
+*     "A Hut of Shaman" - closed
+*
+D 0 42254 5 6 100 0 0 0
+*     down exit from "A Hut of Shaman" to
+*     "A Hidden Cellar" - closed/locked/secret
+*
+D 0 42295 4 2 100 0 0 0
+*     up exit from "A Hidden Cellar" to
+*     "A Hut of Shaman" - closed/locked
+*
+D 0 42257 0 0 100 0 0 0
+*     north exit from "Northern Side of a Village Square" to
+*     "Entrance to Warriors Hut" - open
+*
+D 0 42265 2 0 100 0 0 0
+*     south exit from "Entrance to Warriors Hut" to
+*     "Northern Side of a Village Square" - open
+*
+D 0 42258 2 1 100 0 0 0
+*     south exit from "Southeast Corner of a Village Square" to
+*     "A Lesser Shaman's Hut" - closed
+*
+D 0 42259 0 1 100 0 0 0
+*     north exit from "A Lesser Shaman's Hut" to
+*     "Southeast Corner of a Village Square" - closed
+*
+D 0 42261 1 0 100 0 0 0
+*     east exit from "Northeast Corner of a Village Square" to
+*     "A Young Women Hut" - open
+*
+D 0 42266 3 0 100 0 0 0
+*     west exit from "A Young Women Hut" to
+*     "Northeast Corner of a Village Square" - open
+*
+D 0 42263 1 1 100 0 0 0
+*     east exit from "A Small Secret Closet" to
+*     "Western Room of Warriors Hut" - closed
+*
+D 0 42264 3 5 100 0 0 0
+*     west exit from "Western Room of Warriors Hut" to
+*     "A Small Secret Closet" - closed/secret
+*
+D 0 42277 1 5 100 0 0 0
+*     east exit from "A Small Forest Clearing at the Foot of a Giant Chestnut Tree" to
+*     "Inside the Dark Hollowed Trunk" - closed/secret
+*
+D 0 42279 3 1 100 0 0 0
+*     west exit from "Inside the Dark Hollowed Trunk" to
+*     "A Small Forest Clearing at the Foot of a Giant Chestnut Tree" - closed
+*
+D 0 42282 3 2 100 0 0 0
+*     west exit from "A Dark Cave Filled with Bones" to
+*     "A Small Treasure Cave" - closed/locked
+*
+D 0 42293 1 2 100 0 0 0
+*     east exit from "A Small Treasure Cave" to
+*     "A Dark Cave Filled with Bones" - closed/locked
+*
+D 0 42285 0 12 100 0 0 0
+*     north exit from "An Edge of the Tree Crown" to
+*     "On a Thin Branch High Above Treetops" - open/secret/blocked
+*
+D 0 42318 2 0 100 0 0 0
+*     south exit from "On a Thin Branch High Above Treetops" to
+*     "An Edge of the Tree Crown" - open
+*
+D 0 42305 1 5 100 0 0 0
+*     east exit from "A Tight Passage Covered with Poisonous Ivy" to
+*     "A Tight Passage Covered with Poisonous Ivy" - closed/secret
+*
+D 0 42314 3 1 100 0 0 0
+*     west exit from "A Tight Passage Covered with Poisonous Ivy" to
+*     "A Tight Passage Covered with Poisonous Ivy" - closed
+*
+D 0 42315 5 12 100 0 0 0
+*     down exit from "Inside a Huge Spider Web" to
+*     "Entrance to Dark Tunnels" - open/secret/blocked
+*
+D 0 42316 4 0 100 0 0 0
+*     up exit from "Entrance to Dark Tunnels" to
+*     "Inside a Huge Spider Web" - open
+*
+D 0 42322 9 12 100 0 0 0
+*     southeast exit from "Within the Mammoth Oak Tree" to
+*     "On a Thick Branch High Above Treetops" - open/secret/blocked
+*
+D 0 42319 6 0 100 0 0 0
+*     northwest exit from "On a Thick Branch High Above Treetops" to
+*     "Within the Mammoth Oak Tree" - open
+*
+D 0 42342 2 13 100 0 0 0
+*     south exit from "The Dark Tunnel Ends" to
+*     "Behind the Boulder" - closed/secret/blocked
+*
+D 0 42353 0 1 100 0 0 0
+*     north exit from "Behind the Boulder" to
+*     "The Dark Tunnel Ends" - closed
+*
+*
+O 0 42240 1 42205 100 0 0 0        * a fallen oak tree
+P 1 42205 1 42240 100 0 0 0        *   a glowing acorn
+O 0 42255 3 42217 100 0 0 0        * an iron ration
+O 0 42255 3 42217 100 0 0 0        * an iron ration
+O 0 42255 3 42217 100 0 0 0        * an iron ration
+O 0 42281 1 42219 100 0 0 0        * a spider web
+O 0 72 100 42219 100 0 0 0         * (object type not in this .obj file)
+O 0 42214 1 42220 100 0 0 0        * a half-eaten remains of a tribesman
+P 1 42219 20 42214 100 0 0 0       *   a pair of fine deerskin shoes
+O 0 42271 1 42239 100 0 0 0        * a dense vegetation
+O 0 42261 1 42254 100 0 0 0        * a shelf
+P 1 42233 1 42261 100 0 0 0        *   a burning red key
+O 0 42250 1 42256 100 0 0 0        * a small well
+O 0 42264 1 42259 100 0 0 0        * a small silver mirror
+O 0 42220 18 42263 100 0 0 0       * a deerskin skirt
+O 0 42219 20 42263 100 0 0 0       * a pair of fine deerskin shoes
+O 0 42242 1 42263 100 0 0 0        * a blanket made from wool
+O 0 42213 1 42282 100 0 0 0        * a pile of bones
+P 1 42212 1 42213 100 0 0 0        *   an old bone covered with magical runes
+O 0 42283 1 42285 100 0 0 0        * some leaves
+O 0 42209 1 42293 100 0 0 0        * a huge pile of copper coins
+O 0 42206 1 42293 100 0 0 0        * a small pile of platinum coins
+O 0 42207 1 42293 100 0 0 0        * a pile of gold coins
+O 0 42208 1 42293 100 0 0 0        * a big pile of silver coins
+O 0 42211 1 42293 100 0 0 0        * a platinum wand
+O 0 42235 1 42295 100 0 0 0        * a large amethyst orb
+O 0 42234 1 42295 100 0 0 0        * a pentagram traced with blood
+O 0 42253 1 42297 100 0 0 0        * a black rift in space
+O 0 42203 1 42300 100 0 0 0        * a pair of magical bluebird wings
+O 0 42269 1 42301 100 0 0 0        * a soft blue feather
+O 0 42270 1 42302 100 0 0 0        * a set of sharp blue claws
+O 0 42273 1 42303 100 0 0 0        * a huge pile of bones
+O 0 42274 1 42303 100 0 0 0        * two embraced skeletons
+O 0 42275 1 42303 100 0 0 0        * a few drops of blood
+O 0 42272 1 42304 100 0 0 0        * an ivy covered skeleton
+O 0 42280 1 42308 100 0 0 0        * some blood-soaked bone greaves
+O 0 42279 1 42309 100 0 0 0        * some soft demonhide leggings
+O 0 42277 1 42311 100 0 0 0        * some soft demonhide sleeves
+O 0 42278 1 42312 100 0 0 0        * some blood-soaked bone armplates
+O 0 42282 1 42315 100 0 0 0        * a web-covered floor
+O 0 42284 1 42322 100 0 0 0        * some leaves
+O 0 42295 1 42335 100 0 0 0        * a severed right hand
+O 0 42293 1 42339 100 0 0 0        * a severed left leg
+O 0 42287 1 42342 100 0 0 0        * a huge boulder
+O 0 42297 1 42346 100 0 0 0        * a severed head of a Drow Elf
+O 0 42296 1 42349 100 0 0 0        * a severed right leg
+O 0 42294 1 42352 100 0 0 0        * a severed left hand
+O 0 42292 1 42353 100 0 0 0        * a dark corner
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+P 1 42286 20 42292 50 0 0 0        *   a long feathered arrow
+O 0 42288 1 42354 100 0 0 0        * an adamantium dirk
+O 0 42290 1 42355 100 0 0 0        * the ring of destruction
+O 0 42289 3 42355 100 0 0 0        * a steel scimitar
+O 0 42289 3 42356 100 0 0 0        * a steel scimitar
+O 0 42298 1 42367 100 0 0 0        * a human carcass
+P 1 42299 1 42298 100 0 0 0        *   a skinning knife
+*
+M 0 42206 8 42202 100 0 0 0        * the tiny forest lizard
+M 0 42207 5 42203 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+G 1 42257 5 0 100 0 0 0            *    a small edible root
+M 0 42214 4 42203 100 0 0 0        * the brown spider
+M 0 42220 5 42206 100 0 0 0        * the large deer
+M 0 42215 1 42206 100 0 0 0        * the large deer
+G 1 42244 1 0 100 0 0 0            *    a piece of green spotted deerskin
+M 0 42213 4 42206 100 0 0 0        * the young poisonous ivy
+M 0 42206 8 42208 100 0 0 0        * the tiny forest lizard
+M 0 42211 2 42208 100 0 0 0        * the young vine
+M 0 42214 4 42208 100 0 0 0        * the brown spider
+M 0 42211 2 42210 100 0 0 0        * the young vine
+M 0 42210 3 42210 100 0 0 0        * the thorny vine
+M 0 42207 5 42212 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+G 1 42257 5 0 100 0 0 0            *    a small edible root
+G 1 42257 5 0 100 0 0 0            *    a small edible root
+G 1 42257 5 0 100 0 0 0            *    a small edible root
+M 0 42208 3 42217 100 0 0 0        * the tribal hunter
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42215 4 13 100 0 0 0           *   a smooth linen belt
+E 1 42237 7 16 100 0 0 0           *   a redwood spear
+M 0 42209 1 42217 100 0 0 0        * the tribal master hunter
+E 1 42218 1 5 100 0 0 0            *   a well-fitting bearhide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42215 4 13 100 0 0 0           *   a smooth linen belt
+E 1 42238 1 16 100 0 0 0           *   an enchanted redwood spear
+M 0 42206 8 42218 100 0 0 0        * the tiny forest lizard
+M 0 42214 4 42219 100 0 0 0        * the brown spider
+M 0 42214 4 42219 100 0 0 0        * the brown spider
+M 0 42217 1 42219 100 0 0 0        * the huge brown spider
+E 1 42245 1 16 100 0 0 0           *   a spider fang
+G 1 42241 1 0 100 0 0 0            *    a beautifully crafted wooden comb
+M 0 42246 2 42219 100 0 0 0        * the brown spider
+M 0 42216 1 42220 100 0 0 0        * the stout black bear
+G 1 42221 1 0 100 0 0 0            *    a twisted bone
+M 0 42206 8 42222 100 0 0 0        * the tiny forest lizard
+M 0 42241 1 42223 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42251 1 16 100 0 0 0           *   a small hoe
+M 0 42207 5 42224 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+M 0 42208 3 42224 100 0 0 0        * the tribal hunter
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42215 4 13 100 0 0 0           *   a smooth linen belt
+E 1 42237 7 16 100 0 0 0           *   a redwood spear
+M 0 42207 5 42226 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+M 0 42213 4 42226 100 0 0 0        * the young poisonous ivy
+M 0 42206 8 42228 100 0 0 0        * the tiny forest lizard
+M 0 42220 5 42229 100 0 0 0        * the large deer
+M 0 42206 8 42230 100 0 0 0        * the tiny forest lizard
+M 0 42238 6 42235 100 0 0 0        * the small trout
+M 0 42238 6 42235 100 0 0 0        * the small trout
+M 0 42239 3 42235 100 0 0 0        * the large trout
+M 0 42240 1 42235 100 0 0 0        * the tribal fisherman
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42236 1 18 100 0 0 0           *   a fishing rod
+G 1 42256 2 0 100 0 0 0            *    a cod
+G 1 42256 2 0 100 0 0 0            *    a cod
+M 0 42207 5 42236 100 0 0 0        * the tribal forager
+E 1 42216 7 5 100 0 0 0            *   a coat of animal furs
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+G 1 42257 5 0 100 0 0 0            *    a small edible root
+M 0 42206 8 42237 100 0 0 0        * the tiny forest lizard
+M 0 42208 3 42238 100 0 0 0        * the tribal hunter
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42215 4 13 100 0 0 0           *   a smooth linen belt
+E 1 42237 7 16 100 0 0 0           *   a redwood spear
+M 0 42212 5 42239 100 0 0 0        * the poisonous ivy
+M 0 42213 4 42239 100 0 0 0        * the young poisonous ivy
+M 0 42245 1 42242 100 0 0 0        * the tribal guard
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+M 0 42247 1 42246 100 0 0 0        * the tribal guard
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42266 1 11 100 0 0 0           *   a spiked oakwood shield
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42237 7 16 100 0 0 0           *   a redwood spear
+F 1 42221 3 42246 100 0 0 0        * the tribal guard (following)
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+F 1 42221 3 42246 100 0 0 0        * the tribal guard (following)
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+F 1 42221 3 42246 100 0 0 0        * the tribal guard (following)
+E 1 42217 8 5 100 0 0 0            *   a thick bear hide jacket
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+M 0 42218 1 42248 100 0 0 0        * the tribal chieftain
+E 1 42249 1 24 100 0 0 0           *   a spider badge
+E 1 42228 1 16 100 0 0 0           *   a large obsidian spiked tree
+G 1 42222 1 0 100 0 0 0            *    a bluish iron key
+M 0 42219 1 42249 100 0 0 0        * the chieftains wife
+E 1 42223 1 7 100 0 0 0            *   a pair of iron shackles
+E 1 42239 1 18 100 0 0 0           *   a large spatula
+M 0 42228 3 42250 100 0 0 0        * the young girl
+M 0 42229 2 42250 100 0 0 0        * the tribal woman
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+M 0 42229 2 42250 100 0 0 0        * the tribal woman
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+M 0 42224 1 42251 100 0 0 0        * the tribal nurse
+E 1 42225 4 5 100 0 0 0            *   a long linen robe
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+M 0 42227 3 42251 100 0 0 0        * the young boy
+M 0 42227 3 42251 100 0 0 0        * the young boy
+M 0 42228 3 42251 100 0 0 0        * the young girl
+M 0 42228 3 42251 100 0 0 0        * the young girl
+M 0 42227 3 42252 100 0 0 0        * the young boy
+M 0 42234 1 42254 100 0 0 0        * the tribal shaman
+E 1 42226 2 3 100 0 0 0            *   an amulet of Nine Hells
+E 1 42230 1 16 100 0 0 0           *   a black ironwood mace
+E 1 42229 2 18 100 0 0 0           *   an ethereal totem
+F 1 42232 1 42254 100 0 0 0        * the devil (following)
+G 1 42263 1 0 100 0 0 0            *    a small horn of a devil
+F 1 42233 1 42254 100 0 0 0        * the demon (following)
+M 0 42222 2 42256 100 0 0 0        * the tribal guard
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+M 0 42222 2 42256 100 0 0 0        * the tribal guard
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42219 20 8 100 0 0 0           *   a pair of fine deerskin shoes
+E 1 42258 7 13 100 0 0 0           *   a thick bearhide belt
+E 1 42243 6 16 100 0 0 0           *   a long wooden pike
+M 0 42235 1 42259 100 0 0 0        * the young shaman apprentice
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+G 1 42231 999 0 100 0 0 0          *    a horn of siege
+G 1 42246 1 0 100 0 0 0            *    a yellow piece of parchment
+G 1 42248 1 0 100 0 0 0            *    a vial of boiling red potion
+G 1 42247 1 0 100 0 0 0            *    a scroll of warding
+M 0 42223 3 42262 100 0 0 0        * the tired tribal warrior
+G 1 42220 18 0 100 0 0 0           *    a deerskin skirt
+G 1 42237 7 0 100 0 0 0            *    a redwood spear
+M 0 42225 1 42263 100 0 0 0        * the naked woman
+M 0 42226 1 42263 100 0 0 0        * the naked man
+M 0 42223 3 42264 100 0 0 0        * the tired tribal warrior
+G 1 42220 18 0 100 0 0 0           *    a deerskin skirt
+G 1 42237 7 0 100 0 0 0            *    a redwood spear
+M 0 42223 3 42264 100 0 0 0        * the tired tribal warrior
+G 1 42220 18 0 100 0 0 0           *    a deerskin skirt
+G 1 42237 7 0 100 0 0 0            *    a redwood spear
+M 0 42230 1 42266 100 0 0 0        * the young tribal woman
+E 1 42220 18 7 100 0 0 0           *   a deerskin skirt
+E 1 42259 1 18 100 0 0 0           *   a crude wooden comb
+M 0 42236 1 42267 100 0 0 0        * the huge ancient tree walking on giant roots
+G 1 42232 1 0 100 0 0 0            *    the scroll of Earthmother
+F 1 42237 3 42267 100 0 0 0        * the ancient tree (following)
+G 1 42267 1 0 75 0 0 0             *    an ancient and magical root
+F 1 42237 3 42267 100 0 0 0        * the ancient tree (following)
+G 1 42302 1 0 75 0 0 0             *    a soft white egg
+F 1 42237 3 42267 100 0 0 0        * the ancient tree (following)
+M 0 42231 1 42269 100 0 0 0        * the young lookout
+E 1 42227 1 19 75 0 0 0            *   a magnifying crystal
+M 0 42202 3 42272 100 0 0 0        * the white oblong worm
+M 0 42206 8 42272 100 0 0 0        * the tiny forest lizard
+M 0 42220 5 42272 100 0 0 0        * the large deer
+M 0 42202 3 42274 100 0 0 0        * the white oblong worm
+M 0 42202 3 42278 100 0 0 0        * the white oblong worm
+G 1 42202 1 0 100 0 0 0            *    a small piece of white-worm meat
+M 0 42205 1 42282 100 0 0 0        * the dracolizard
+E 1 42254 1 12 20 0 0 0            *   a cloak of raw dracolizard hide
+G 1 42210 1 0 100 0 0 0            *    a yellow bone key
+M 0 42203 2 42283 100 0 0 0        * the bluebird
+M 0 42243 2 42284 100 0 0 0        * the bluebird
+M 0 42203 2 42285 100 0 0 0        * the bluebird
+M 0 42244 2 42286 100 0 0 0        * the bluebird
+M 0 42244 2 42287 100 0 0 0        * the bluebird
+M 0 42243 2 42288 100 0 0 0        * the bluebird
+M 0 42200 1 42289 100 0 0 0        * the huge shimmering bluebird
+M 0 42201 1 42291 100 0 0 0        * the white oblong worm
+G 1 42201 1 0 100 0 0 0            *    a piece of white-worm meat
+M 0 42204 1 42293 100 0 0 0        * the black scorpion
+M 0 42242 1 42297 100 0 0 0        * the illithid wanderer
+E 1 42300 1 5 100 0 0 0            *   some robes of wisdom
+G 1 42252 1 0 100 0 0 0            *    a mindwhip
+F 1 42255 1 42297 100 0 0 0        * the enslaved vampire (following)
+M 0 42220 5 42298 100 0 0 0        * the large deer
+M 0 42210 3 42298 100 0 0 0        * the thorny vine
+M 0 42248 1 42303 100 0 0 0        * the poisonous ivy
+G 1 42276 1 0 100 0 0 0            *    a wreath of poisonous ivy
+F 1 42212 5 42303 100 0 0 0        * the poisonous ivy (following)
+F 1 42212 5 42303 100 0 0 0        * the poisonous ivy (following)
+F 1 42212 5 42303 100 0 0 0        * the poisonous ivy (following)
+M 0 42213 4 42304 100 0 0 0        * the young poisonous ivy
+M 0 42212 5 42304 100 0 0 0        * the poisonous ivy
+M 0 42249 1 42305 100 0 0 0        * the poisonous ivy
+M 0 42250 1 42305 100 0 0 0        * the poisonous ivy
+M 0 42251 1 42306 100 0 0 0        * the hellwing
+M 0 42210 3 42314 100 0 0 0        * the thorny vine
+M 0 42258 11 42315 100 0 0 0       * the huge hairy female spider
+M 0 42257 12 42315 100 0 0 0       * the huge hairy spider
+M 0 42256 1 42317 100 0 0 0        * the drow hunter
+E 1 42289 3 16 100 0 0 0           *   a steel scimitar
+M 0 42254 2 42322 100 0 0 0        * the redbird
+M 0 42253 2 42324 100 0 0 0        * the redbird
+M 0 42253 2 42325 100 0 0 0        * the redbird
+M 0 42254 2 42327 100 0 0 0        * the redbird
+M 0 42252 2 42328 100 0 0 0        * the redbird
+M 0 42252 2 42329 100 0 0 0        * the redbird
+M 0 42258 11 42333 100 0 0 0       * the huge hairy female spider
+M 0 42258 11 42333 100 0 0 0       * the huge hairy female spider
+M 0 42257 12 42333 100 0 0 0       * the huge hairy spider
+M 0 42257 12 42333 100 0 0 0       * the huge hairy spider
+M 0 42258 11 42337 100 0 0 0       * the huge hairy female spider
+M 0 42258 11 42337 100 0 0 0       * the huge hairy female spider
+M 0 42257 12 42337 100 0 0 0       * the huge hairy spider
+M 0 42257 12 42341 100 0 0 0       * the huge hairy spider
+M 0 42258 11 42341 100 0 0 0       * the huge hairy female spider
+M 0 42258 11 42341 100 0 0 0       * the huge hairy female spider
+M 0 42257 12 42343 100 0 0 0       * the huge hairy spider
+M 0 42258 11 42343 100 0 0 0       * the huge hairy female spider
+M 0 42259 1 42346 100 0 0 0        * the spider queen
+F 1 42257 12 42346 100 0 0 0       * the huge hairy spider (following)
+F 1 42257 12 42346 100 0 0 0       * the huge hairy spider (following)
+F 1 42257 12 42346 100 0 0 0       * the huge hairy spider (following)
+M 0 42257 12 42347 100 0 0 0       * the huge hairy spider
+M 0 42257 12 42347 100 0 0 0       * the huge hairy spider
+M 0 42258 11 42347 100 0 0 0       * the huge hairy female spider
+M 0 42257 12 42350 100 0 0 0       * the huge hairy spider
+M 0 42258 11 42350 100 0 0 0       * the huge hairy female spider
+M 0 42258 11 42350 100 0 0 0       * the huge hairy female spider
+M 0 42220 5 42359 100 0 0 0        * the large deer
+M 0 42246 2 42359 100 0 0 0        * the brown spider
+M 0 42261 3 42362 100 0 0 0        * a savage wolf
+M 0 42262 1 42362 100 0 0 0        * a savage wolf
+M 0 42261 3 42364 100 0 0 0        * a savage wolf
+M 0 42260 2 42365 100 0 0 0        * a fierce wolf
+M 0 42261 3 42366 100 0 0 0        * a savage wolf
+M 0 42260 2 42367 100 0 0 0        * a fierce wolf
+M 0 42263 1 42369 100 0 0 0        * a grey wolf alpha male
+M 0 42264 1 42373 100 0 0 0        * a grey wolf alpha female
+M 0 42265 4 42373 100 0 0 0        * a wolf pup
+M 0 42266 3 42373 100 0 0 0        * a young grey wolf
+M 0 42265 4 42373 100 0 0 0        * a wolf pup
+M 0 42265 4 42373 100 0 0 0        * a wolf pup
+M 0 42265 4 42373 100 0 0 0        * a wolf pup
+M 0 42266 3 42373 100 0 0 0        * a young grey wolf
+M 0 42266 3 42373 100 0 0 0        * a young grey wolf
+*
+S

@@ -1,0 +1,965 @@
+#800
+&+gRift Valley Jungle&n~
+80469 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 80077 5 5 100 0 0 0
+*     down exit from "Deep in the Rift Valley Jungle" to
+*     "Beneath the Roots of a Large Tree" - closed/secret
+*
+D 0 80195 4 1 100 0 0 0
+*     up exit from "Beneath the Roots of a Large Tree" to
+*     "Deep in the Rift Valley Jungle" - closed
+*
+D 0 80142 2 5 100 0 0 0
+*     south exit from "Along a Cliff in the Rift Valley Jungle" to
+*     "A Dark, Well-Traveled Cave" - closed/secret
+*
+D 0 80267 0 1 100 0 0 0
+*     north exit from "A Dark, Well-Traveled Cave" to
+*     "Along a Cliff in the Rift Valley Jungle" - closed
+*
+D 0 80199 3 5 100 0 0 0
+*     west exit from "A Bright Conference Room" to
+*     "A Hidden Treasure Room" - closed/secret
+*
+D 0 80200 1 1 100 0 0 0
+*     east exit from "A Hidden Treasure Room" to
+*     "A Bright Conference Room" - closed
+*
+D 0 80212 1 1 100 0 0 0
+*     east exit from "Climbing a Jodani Tree" to
+*     "A Tiny Room Inside a Jodani Tree" - closed
+*
+D 0 80213 3 1 100 0 0 0
+*     west exit from "A Tiny Room Inside a Jodani Tree" to
+*     "Climbing a Jodani Tree" - closed
+*
+D 0 80262 4 1 100 0 0 0
+*     up exit from "A Steep Cave" to
+*     "A Rocky Cave" - closed
+*
+D 0 80263 5 5 100 0 0 0
+*     down exit from "A Rocky Cave" to
+*     "A Steep Cave" - closed/secret
+*
+D 0 80264 0 1 100 0 0 0
+*     north exit from "Entryway to the Lizardman Caves" to
+*     "A Dark, Well-Traveled Cave" - closed
+*
+D 0 80267 2 5 100 0 0 0
+*     south exit from "A Dark, Well-Traveled Cave" to
+*     "Entryway to the Lizardman Caves" - closed/secret
+*
+D 0 80293 4 1 100 0 0 0
+*     up exit from "Beneath the Chieftain's Hut" to
+*     "The Central Foyer" - closed
+*
+D 0 80294 5 1 100 0 0 0
+*     down exit from "The Central Foyer" to
+*     "Beneath the Chieftain's Hut" - closed
+*
+D 0 80294 0 2 100 0 0 0
+*     north exit from "The Central Foyer" to
+*     "The Chieftain's Bedroom" - closed/locked
+*
+D 0 80295 2 2 100 0 0 0
+*     south exit from "The Chieftain's Bedroom" to
+*     "The Central Foyer" - closed/locked
+*
+D 0 80294 1 2 100 0 0 0
+*     east exit from "The Central Foyer" to
+*     "The Head Guardsman's Quarters" - closed/locked
+*
+D 0 80297 3 2 100 0 0 0
+*     west exit from "The Head Guardsman's Quarters" to
+*     "The Central Foyer" - closed/locked
+*
+D 0 80294 2 2 100 0 0 0
+*     south exit from "The Central Foyer" to
+*     "The Throne Room" - closed/locked
+*
+D 0 80296 0 2 100 0 0 0
+*     north exit from "The Throne Room" to
+*     "The Central Foyer" - closed/locked
+*
+D 0 80294 3 2 100 0 0 0
+*     west exit from "The Central Foyer" to
+*     "Some Guard's Quarters" - closed/locked
+*
+D 0 80298 1 2 100 0 0 0
+*     east exit from "Some Guard's Quarters" to
+*     "The Central Foyer" - closed/locked
+*
+D 0 80321 0 5 100 0 0 0
+*     north exit from "A Meeting of Paths" to
+*     "Some Guard's Quarters" - closed/secret
+*
+D 0 80333 2 1 100 0 0 0
+*     south exit from "Some Guard's Quarters" to
+*     "A Meeting of Paths" - closed
+*
+D 0 80343 3 1 100 0 0 0
+*     west exit from "The Path Ends Beside a Large Boulder" to
+*     "The Lieutenants' Quarters" - closed
+*
+D 0 80344 1 1 100 0 0 0
+*     east exit from "The Lieutenants' Quarters" to
+*     "The Path Ends Beside a Large Boulder" - closed
+*
+D 0 80346 0 1 100 0 0 0
+*     north exit from "On a Narrow Branch" to
+*     "In a Tidy Elven Home" - closed
+*
+D 0 80347 2 1 100 0 0 0
+*     south exit from "In a Tidy Elven Home" to
+*     "On a Narrow Branch" - closed
+*
+D 0 80369 1 1 100 0 0 0
+*     east exit from "Windstrider's Restaurant" to
+*     "Windstrider's Kitchen" - closed
+*
+D 0 80370 3 1 100 0 0 0
+*     west exit from "Windstrider's Kitchen" to
+*     "Windstrider's Restaurant" - closed
+*
+D 0 80374 1 1 100 0 0 0
+*     east exit from "On the Stump of a Low Branch" to
+*     "A Small Elven Home" - closed
+*
+D 0 80375 3 1 100 0 0 0
+*     west exit from "A Small Elven Home" to
+*     "On the Stump of a Low Branch" - closed
+*
+D 0 80379 1 1 100 0 0 0
+*     east exit from "In Front of a Small Elven Home" to
+*     "A Dusty Elven Home" - closed
+*
+D 0 80380 3 1 100 0 0 0
+*     west exit from "A Dusty Elven Home" to
+*     "In Front of a Small Elven Home" - closed
+*
+D 0 80381 0 5 100 0 0 0
+*     north exit from "Amidst Some Large Ebonwood Trees" to
+*     "A Small, Well-Furnished Elven Home" - closed/secret
+*
+D 0 80388 2 1 100 0 0 0
+*     south exit from "A Small, Well-Furnished Elven Home" to
+*     "Amidst Some Large Ebonwood Trees" - closed
+*
+D 0 80385 0 1 100 0 0 0
+*     north exit from "A Large Elven Home" to
+*     "A Pleasant Elven Bedroom" - closed
+*
+D 0 80386 2 1 100 0 0 0
+*     south exit from "A Pleasant Elven Bedroom" to
+*     "A Large Elven Home" - closed
+*
+D 0 80392 1 1 100 0 0 0
+*     east exit from "A Thick Lattice of Jodani and Ebonwood Branches" to
+*     "A Quiet Elven Home" - closed
+*
+D 0 80393 3 1 100 0 0 0
+*     west exit from "A Quiet Elven Home" to
+*     "A Thick Lattice of Jodani and Ebonwood Branches" - closed
+*
+D 0 80457 0 5 100 0 0 0
+*     north exit from "A Twisting Mountain Pass" to
+*     "Entryway to a Large Cave" - closed/secret
+*
+D 0 80461 2 1 100 0 0 0
+*     south exit from "Entryway to a Large Cave" to
+*     "A Twisting Mountain Pass" - closed
+*
+*
+O 0 80040 8 80003 100 0 0 0        * a large bromeliard
+O 0 80040 8 80008 70 0 0 0         * a large bromeliard
+O 0 80041 7 80010 50 0 0 0         * a yellow bromeliard
+O 0 80207 1 80012 100 0 0 0        * Look at me (no show)
+O 0 80046 4 80013 70 0 0 0         * a twisting vine
+O 0 80051 1 80017 100 0 0 0        * an ancient stone marker
+O 0 80033 1 80017 10 0 0 0         * a broken staff
+O 0 80046 4 80023 70 0 0 0         * a twisting vine
+O 0 80142 1 80023 30 0 0 0         * some crumpled green leaves
+O 0 80042 6 80024 40 0 0 0         * a yellow and red bromeliard
+O 0 80043 6 80025 40 0 0 0         * a rare star orchid
+O 0 80045 6 80027 40 0 0 0         * a gluka flower chain
+O 0 80047 4 80028 40 0 0 0         * a tiny red flower
+O 0 80040 8 80029 40 0 0 0         * a large bromeliard
+O 0 80034 2 80030 10 0 0 0         * a cherry wood cudgel
+O 0 80041 7 80031 40 0 0 0         * a yellow bromeliard
+O 0 80042 6 80032 40 0 0 0         * a yellow and red bromeliard
+O 0 80045 6 80037 40 0 0 0         * a gluka flower chain
+O 0 80047 4 80039 40 0 0 0         * a tiny red flower
+O 0 80043 6 80040 40 0 0 0         * a rare star orchid
+O 0 80034 2 80045 40 0 0 0         * a cherry wood cudgel
+O 0 80134 1 80046 100 0 0 0        * some thin, soft bark
+O 0 80044 6 80049 40 0 0 0         * a deep purple orchid
+O 0 80044 6 80050 40 0 0 0         * a deep purple orchid
+O 0 80043 6 80053 40 0 0 0         * a rare star orchid
+O 0 80041 7 80054 40 0 0 0         * a yellow bromeliard
+O 0 80046 4 80056 40 0 0 0         * a twisting vine
+O 0 80040 8 80057 40 0 0 0         * a large bromeliard
+O 0 80162 1 80060 100 0 0 0        * a shimmering plane of light
+O 0 80158 1 80061 100 0 0 0        * teleporter into the fire cage
+O 0 80042 6 80065 40 0 0 0         * a yellow and red bromeliard
+O 0 80045 6 80067 40 0 0 0         * a gluka flower chain
+O 0 80047 4 80068 40 0 0 0         * a tiny red flower
+O 0 80044 6 80070 40 0 0 0         * a deep purple orchid
+O 0 80164 1 80071 100 0 0 0        * teleporter into the earth cage
+O 0 80160 1 80072 100 0 0 0        * teleporter into the water cage
+O 0 80040 8 80082 40 0 0 0         * a large bromeliard
+O 0 80045 6 80083 40 0 0 0         * a gluka flower chain
+O 0 80041 7 80108 40 0 0 0         * a yellow bromeliard
+O 0 80043 6 80109 40 0 0 0         * a rare star orchid
+O 0 80042 6 80111 40 0 0 0         * a yellow and red bromeliard
+O 0 80044 6 80112 40 0 0 0         * a deep purple orchid
+O 0 80067 5 80130 25 0 0 0         * an elongated couatl egg
+O 0 80217 1 80134 100 0 0 0        * Key
+O 0 80047 4 80139 40 0 0 0         * a tiny red flower
+O 0 80045 6 80141 40 0 0 0         * a gluka flower chain
+O 0 80044 6 80142 40 0 0 0         * a deep purple orchid
+O 0 80040 8 80143 40 0 0 0         * a large bromeliard
+O 0 80041 7 80143 40 0 0 0         * a yellow bromeliard
+O 0 80067 5 80145 70 0 0 0         * an elongated couatl egg
+O 0 80040 8 80146 40 0 0 0         * a large bromeliard
+O 0 80046 4 80148 40 0 0 0         * a twisting vine
+O 0 80041 7 80149 40 0 0 0         * a yellow bromeliard
+O 0 80039 1 80150 10 0 0 0         * a tiger totem
+O 0 80042 6 80150 40 0 0 0         * a yellow and red bromeliard
+O 0 80043 6 80151 40 0 0 0         * a rare star orchid
+O 0 80067 5 80152 50 0 0 0         * an elongated couatl egg
+O 0 80044 6 80153 40 0 0 0         * a deep purple orchid
+O 0 80156 1 80155 100 0 0 0        * a slab of granite
+O 0 80045 6 80156 60 0 0 0         * a gluka flower chain
+O 0 80042 6 80157 60 0 0 0         * a yellow and red bromeliard
+O 0 80040 8 80158 60 0 0 0         * a large bromeliard
+O 0 80041 7 80158 60 0 0 0         * a yellow bromeliard
+O 0 80043 6 80160 60 0 0 0         * a rare star orchid
+O 0 80163 1 80161 100 0 0 0        * a shimmering plane of light
+O 0 80159 1 80162 100 0 0 0        * teleporter out of the fire cage
+O 0 80165 1 80163 100 0 0 0        * teleporter out of the earth cage
+O 0 80161 1 80164 100 0 0 0        * teleporter out of water cage
+O 0 80029 1 80169 100 0 0 0        * a small, old chest
+P 1 80030 4 80029 100 0 0 0        *   a platinum bar
+P 1 80027 1 80029 60 0 0 0         *   a polished ruby
+O 0 80026 1 80169 10 0 0 0         * a silver scimitar
+O 0 80074 3 80175 60 0 0 0         * a delicate purple flower
+O 0 80074 3 80176 60 0 0 0         * a delicate purple flower
+O 0 80068 5 80178 50 0 0 0         * a flowering vine
+O 0 80070 3 80179 30 0 0 0         * a rielikki flower
+O 0 80068 5 80182 60 0 0 0         * a flowering vine
+O 0 80072 5 80183 60 0 0 0         * a red weekkii fruit
+O 0 80073 4 80184 50 0 0 0         * a burst fruit
+O 0 80073 4 80184 50 0 0 0         * a burst fruit
+O 0 80073 4 80184 10 0 0 0         * a burst fruit
+O 0 80056 1 80187 100 0 0 0        * a no_show nest
+P 1 80036 1 80056 100 0 0 0        *   a chipped sapphire ring
+P 1 80035 1 80056 100 0 0 0        *   an emerald earring
+O 0 80032 1 80193 10 0 0 0         * a rusted dagger
+O 0 80067 5 80193 25 0 0 0         * an elongated couatl egg
+O 0 80030 4 80200 100 0 0 0        * a platinum bar
+O 0 80030 4 80200 100 0 0 0        * a platinum bar
+O 0 80030 4 80200 100 0 0 0        * a platinum bar
+O 0 80067 5 80200 99 0 0 0         * an elongated couatl egg
+O 0 80028 1 80201 10 0 0 0         * a chunk of mithril ore
+O 0 80031 1 80201 80 0 0 0         * a broken sword
+O 0 80068 5 80206 70 0 0 0         * a flowering vine
+O 0 80070 3 80206 60 0 0 0         * a rielikki flower
+O 0 80068 5 80207 60 0 0 0         * a flowering vine
+O 0 80069 4 80207 60 0 0 0         * an oblong fruit
+O 0 80069 4 80207 40 0 0 0         * an oblong fruit
+O 0 80072 5 80209 60 0 0 0         * a red weekkii fruit
+O 0 80072 5 80209 40 0 0 0         * a red weekkii fruit
+O 0 80073 4 80210 60 0 0 0         * a burst fruit
+O 0 80074 3 80211 60 0 0 0         * a delicate purple flower
+O 0 80069 4 80211 60 0 0 0         * an oblong fruit
+O 0 80210 1 80214 100 0 0 0        * a no_show bed
+P 1 80038 1 80210 100 0 0 0        *   a strange mithral medallion
+P 1 80037 1 80210 100 0 0 0        *   a sapphire-studded bracelet
+O 0 80070 3 80218 60 0 0 0         * a rielikki flower
+O 0 80137 1 80220 100 0 0 0        * some bright red flower petals
+O 0 80072 5 80221 60 0 0 0         * a red weekkii fruit
+O 0 80072 5 80221 40 0 0 0         * a red weekkii fruit
+O 0 80069 4 80222 60 0 0 0         * an oblong fruit
+O 0 80068 5 80223 60 0 0 0         * a flowering vine
+O 0 80152 1 80266 100 0 0 0        * a couatl-hide throne
+O 0 80112 1 80274 100 0 0 0        * an ebonwood desk
+O 0 80116 1 80274 100 0 0 0        * an ebonwood bed
+O 0 80110 1 80278 100 0 0 0        * a cracked wooden desk
+O 0 80103 1 80296 100 0 0 0        * a throne
+O 0 80104 1 80296 100 0 0 0        * a tigerskin hanging
+O 0 80105 1 80296 100 0 0 0        * a painted javelin
+O 0 80117 1 80301 100 0 0 0        * a long, rickety bar
+O 0 80111 1 80308 100 0 0 0        * an old desk
+O 0 80216 1 80319 100 0 0 0        * Look at me
+O 0 80198 1 80327 100 0 0 0        * a jodani wood desk
+O 0 80144 1 80333 100 0 0 0        * a strange parchment
+O 0 80200 1 80338 100 0 0 0        * A mithril and silver axe
+O 0 80218 1 80406 100 0 0 0        * a small sign
+O 0 80219 1 80406 100 0 0 0        * a log dam
+O 0 80212 1 80462 100 0 0 0        * a large stone table
+*
+M 0 80005 1 80021 100 0 0 0        * a drunken kenku
+E 1 80009 1 12 100 0 0 0           *   a kenku's weapons harness
+P 1 80010 3 80009 100 0 0 0        *   a granite dagger
+P 1 80010 3 80009 100 0 0 0        *   a granite dagger
+G 1 80010 3 0 100 0 0 0            *    a granite dagger
+M 0 80044 4 80034 100 0 0 0        * a vampire vine
+M 0 80046 1 80045 100 0 0 0        * a vampire orchid
+M 0 80048 2 80048 100 0 0 0        * the puffy flower
+M 0 80047 2 80067 100 0 0 0        * the quick moss
+M 0 80048 2 80069 100 0 0 0        * the puffy flower
+M 0 80044 4 80078 100 0 0 0        * a vampire vine
+M 0 80045 2 80080 100 0 0 0        * the strangle vine
+M 0 80044 4 80084 100 0 0 0        * a vampire vine
+M 0 80045 2 80085 100 0 0 0        * the strangle vine
+M 0 80073 3 80089 100 0 0 0        * a blood-worm
+M 0 80075 4 80089 100 0 0 0        * a black piranha
+M 0 80078 2 80089 100 0 0 0        * a small alligator
+M 0 80078 2 80090 100 0 0 0        * a small alligator
+M 0 80079 3 80091 100 0 0 0        * a giant alligator
+G 1 80078 30 0 100 0 0 0           *    skin of a giant alligator
+M 0 80079 3 80091 100 0 0 0        * a giant alligator
+G 1 80078 30 0 100 0 0 0           *    skin of a giant alligator
+M 0 80079 3 80091 100 0 0 0        * a giant alligator
+G 1 80078 30 0 100 0 0 0           *    skin of a giant alligator
+M 0 80073 3 80093 100 0 0 0        * a blood-worm
+M 0 80075 4 80094 100 0 0 0        * a black piranha
+M 0 80075 4 80094 100 0 0 0        * a black piranha
+M 0 80076 1 80095 100 0 0 0        * a giant turtle
+G 1 80075 1 0 100 0 0 0            *    the shell of a giant turtle
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80074 8 80096 100 0 0 0        * a red piranha
+M 0 80073 3 80097 100 0 0 0        * a blood-worm
+M 0 80075 4 80097 100 0 0 0        * a black piranha
+M 0 80077 3 80105 100 0 0 0        * a vicious red alligator
+G 1 80077 30 0 100 0 0 0           *    the skin of a red alligator
+M 0 80077 3 80105 100 0 0 0        * a vicious red alligator
+G 1 80077 30 0 100 0 0 0           *    the skin of a red alligator
+M 0 80077 3 80105 100 0 0 0        * a vicious red alligator
+G 1 80077 30 0 100 0 0 0           *    the skin of a red alligator
+M 0 80044 4 80111 100 0 0 0        * a vampire vine
+M 0 80024 1 80127 100 0 0 0        * an ugly catobelas
+M 0 80071 3 80136 100 0 0 0        * a young couatl
+M 0 80219 2 80138 100 0 0 0        * a burly wild-elf ranger
+M 0 80071 3 80138 100 0 0 0        * a young couatl
+M 0 80026 1 80144 100 0 0 0        * an army ant scout
+F 1 80025 5 80144 100 0 0 0        * an army ant (following)
+F 1 80025 5 80144 100 0 0 0        * an army ant (following)
+F 1 80025 5 80144 100 0 0 0        * an army ant (following)
+F 1 80025 5 80144 100 0 0 0        * an army ant (following)
+F 1 80025 5 80144 100 0 0 0        * an army ant (following)
+M 0 80037 1 80145 100 0 0 0        * a shambling mound
+M 0 80047 2 80147 100 0 0 0        * the quick moss
+M 0 80156 1 80152 100 0 0 0        * an unassuming woodcarver
+M 0 80209 1 80155 100 0 0 0        * an elderly woman
+M 0 80019 1 80160 100 0 0 0        * the ancient grison
+M 0 80160 1 80161 100 0 0 0        * an air elemental
+M 0 80158 1 80162 100 0 0 0        * a fire elemental
+M 0 80161 1 80163 100 0 0 0        * an earth elemental
+M 0 80159 1 80164 100 0 0 0        * a water elemental
+M 0 80060 2 80177 100 0 0 0        * a harpy eagle
+M 0 80061 1 80177 100 0 0 0        * a young harpy eagle
+M 0 80062 1 80177 100 0 0 0        * a harpy eagle
+M 0 80063 1 80177 100 0 0 0        * a harpy eagle
+M 0 80070 1 80180 100 0 0 0        * an elderly couatl
+G 1 80060 1 0 100 0 0 0            *    the thick hide of an elder couatl
+M 0 80056 2 80186 100 0 0 0        * a young monkey
+M 0 80056 2 80186 100 0 0 0        * a young monkey
+M 0 80057 2 80186 100 0 0 0        * a mother monkey
+M 0 80058 2 80186 100 0 0 0        * a monkey sentinel
+M 0 80059 1 80186 100 0 0 0        * a large male monkey
+M 0 80058 2 80186 100 0 0 0        * a monkey sentinel
+M 0 80057 2 80186 100 0 0 0        * a mother monkey
+M 0 80060 2 80187 100 0 0 0        * a harpy eagle
+M 0 80011 1 80198 100 0 0 0        * the young guard
+E 1 80016 2 16 100 0 0 0           *   a sharp stiletto
+M 0 80012 1 80198 100 0 0 0        * the half-elf guard
+E 1 80016 2 16 100 0 0 0           *   a sharp stiletto
+M 0 80009 1 80199 100 0 0 0        * a dark thief
+E 1 80014 1 15 100 0 0 0           *   a black leather wrist guard
+E 1 80017 5 16 100 0 0 0           *   a plain black dagger
+E 1 80013 4 5 100 0 0 0            *   some black leather armor
+M 0 80010 1 80199 100 0 0 0        * a sullen thief
+E 1 80017 5 16 100 0 0 0           *   a plain black dagger
+E 1 80013 4 5 100 0 0 0            *   some black leather armor
+M 0 80013 1 80199 100 0 0 0        * Juaraldo
+E 1 80018 1 9 100 0 0 0            *   Juaraldo's gloves
+E 1 80017 5 16 100 0 0 0           *   a plain black dagger
+E 1 80017 5 17 100 0 0 0           *   a plain black dagger
+E 1 80019 1 19 100 0 0 0           *   a black leather eyepatch
+E 1 80013 4 5 100 0 0 0            *   some black leather armor
+M 0 80124 2 80231 100 0 0 0        * a deadly piercer
+M 0 80124 2 80231 100 0 0 0        * a deadly piercer
+M 0 80125 2 80234 100 0 0 0        * an albino eel
+M 0 80125 2 80234 100 0 0 0        * an albino eel
+M 0 80126 6 80235 100 0 0 0        * an albino piranha
+M 0 80126 6 80235 100 0 0 0        * an albino piranha
+M 0 80126 6 80236 100 0 0 0        * an albino piranha
+M 0 80126 6 80238 100 0 0 0        * an albino piranha
+M 0 80126 6 80238 100 0 0 0        * an albino piranha
+M 0 80126 6 80238 100 0 0 0        * an albino piranha
+M 0 80127 4 80241 100 0 0 0        * an albino salamander
+M 0 80127 4 80241 100 0 0 0        * an albino salamander
+M 0 80128 2 80242 100 0 0 0        * a fisherman
+E 1 80131 3 18 100 0 0 0           *   a carefully woven net
+M 0 80127 4 80243 100 0 0 0        * an albino salamander
+M 0 80127 4 80243 100 0 0 0        * an albino salamander
+M 0 80128 2 80243 100 0 0 0        * a fisherman
+E 1 80131 3 18 100 0 0 0           *   a carefully woven net
+M 0 80129 1 80248 100 0 0 0        * a piercer
+M 0 80147 1 80249 100 0 0 0        * the lizardman engineer
+M 0 80130 1 80251 100 0 0 0        * a young child
+M 0 80131 1 80251 100 0 0 0        * a teen-age lizardman
+G 1 80132 1 0 100 0 0 0            *    a wooden figurine
+M 0 80132 2 80251 100 0 0 0        * a lizardman child
+M 0 80133 1 80251 100 0 0 0        * a lizardman hunter
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80134 1 80251 100 0 0 0        * an old lizardman woman
+M 0 80152 4 80252 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80152 4 80252 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80136 1 80253 100 0 0 0        * the lizardman painter
+M 0 80135 1 80254 100 0 0 0        * a lizardman woman
+M 0 80137 1 80254 100 0 0 0        * a lizardman priestess
+M 0 80138 2 80254 100 0 0 0        * a lizardman child
+M 0 80138 2 80254 100 0 0 0        * a lizardman child
+M 0 80132 2 80254 100 0 0 0        * a lizardman child
+M 0 80140 2 80254 100 0 0 0        * a lizardman warrior
+M 0 80140 2 80254 100 0 0 0        * a lizardman warrior
+M 0 80144 2 80255 100 0 0 0        * a sturdy fisherman
+M 0 80144 2 80255 100 0 0 0        * a sturdy fisherman
+M 0 80145 1 80255 100 0 0 0        * an elderly fisherman
+G 1 80131 3 0 100 0 0 0            *    a carefully woven net
+M 0 80146 1 80255 100 0 0 0        * a young fisherman
+M 0 80149 1 80259 100 0 0 0        * the tribal shaman
+M 0 80150 1 80259 100 0 0 0        * a lizardman shaman
+M 0 80152 4 80260 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80148 1 80261 100 0 0 0        * a leather-worker
+M 0 80141 1 80261 100 0 0 0        * a lizardman huntress
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80139 1 80261 100 0 0 0        * a lizardman warrior
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80142 1 80261 100 0 0 0        * a lizardman child
+M 0 80143 2 80261 100 0 0 0        * a lizardman child
+M 0 80143 2 80261 100 0 0 0        * a lizardman child
+M 0 80152 4 80263 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80153 2 80263 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80153 2 80264 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80151 3 80264 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80151 3 80265 100 0 0 0        * a lizardman guard
+E 1 80147 1 3 100 0 0 0            *   a collar of elven finger bones
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80151 3 80265 100 0 0 0        * a lizardman guard
+E 1 80133 12 16 100 0 0 0          *   a large hunting spear
+M 0 80155 1 80266 100 0 0 0        * the chieftain
+E 1 80150 1 16 30 0 0 0            *   golden rod of the lizardman chieftain
+E 1 80151 1 21 100 0 0 0           *   a small couatl scale
+G 1 80153 1 0 100 0 0 0            *    the bloody head of the lizardman chieftain
+F 1 80154 1 80266 100 0 0 0        * the chieftain's aid (following)
+E 1 80148 1 15 100 0 0 0           *   a stone bracer
+E 1 80149 1 16 100 0 0 0           *   an ancient, silver sword
+M 0 80098 1 80269 100 0 0 0        * a bullywug gate guard
+E 1 80085 3 5 100 0 0 0            *   some gorilla-skin armor
+E 1 80086 5 16 100 0 0 0           *   a tiger thigh bone
+M 0 80099 1 80269 100 0 0 0        * an elder bullywug guard
+E 1 80085 3 5 100 0 0 0            *   some gorilla-skin armor
+E 1 80100 2 6 100 0 0 0            *   a tiger's skull
+M 0 910 1 80269 100 0 0 0          * (mob type not in this .mob file)
+M 0 80096 4 80270 100 0 0 0        * a bullywug hunter
+E 1 80084 4 5 100 0 0 0            *   an ape-skin tunic
+E 1 80086 5 16 100 0 0 0           *   a tiger thigh bone
+M 0 80097 4 80270 100 0 0 0        * a young bullywug guard
+E 1 80086 5 16 100 0 0 0           *   a tiger thigh bone
+M 0 80087 8 80270 100 0 0 0        * a bullywug adult
+E 1 80094 2 7 100 0 0 0            *   some light cloth pants
+M 0 80087 8 80270 100 0 0 0        * a bullywug adult
+E 1 80093 3 5 100 0 0 0            *   a linen shirt
+M 0 80087 8 80271 100 0 0 0        * a bullywug adult
+M 0 80096 4 80272 100 0 0 0        * a bullywug hunter
+M 0 80097 4 80272 100 0 0 0        * a young bullywug guard
+M 0 80113 4 80273 100 0 0 0        * a shaman's apprentice
+M 0 80113 4 80273 100 0 0 0        * a shaman's apprentice
+M 0 80097 4 80273 100 0 0 0        * a young bullywug guard
+M 0 80112 1 80274 100 0 0 0        * the bullywug shaman
+E 1 80099 1 8 100 0 0 0            *   some tigerskin boots
+M 0 80114 2 80276 100 0 0 0        * a senior shaman
+M 0 80095 3 80277 100 0 0 0        * a bullywug hunter
+M 0 80095 3 80277 100 0 0 0        * a bullywug hunter
+M 0 80088 5 80277 100 0 0 0        * a young adult bullywug
+M 0 80096 4 80278 100 0 0 0        * a bullywug hunter
+M 0 80095 3 80278 100 0 0 0        * a bullywug hunter
+M 0 80113 4 80279 100 0 0 0        * a shaman's apprentice
+M 0 80088 5 80279 100 0 0 0        * a young adult bullywug
+M 0 80091 2 80280 100 0 0 0        * an elderly bullywug
+M 0 80091 2 80280 100 0 0 0        * an elderly bullywug
+M 0 80088 5 80282 100 0 0 0        * a young adult bullywug
+M 0 80113 4 80283 100 0 0 0        * a shaman's apprentice
+E 1 80092 2 3 100 0 0 0            *   a tigerbone necklace
+M 0 80114 2 80283 100 0 0 0        * a senior shaman
+E 1 80102 2 13 100 0 0 0           *   a cloth belt
+M 0 80104 3 80284 100 0 0 0        * a bullywug woman
+E 1 80093 3 5 100 0 0 0            *   a linen shirt
+M 0 80090 2 80285 100 0 0 0        * a bullywug woman
+M 0 80093 4 80285 100 0 0 0        * a bullywug child
+M 0 80093 4 80285 100 0 0 0        * a bullywug child
+M 0 80094 2 80285 100 0 0 0        * a bullywug child
+M 0 80088 5 80286 100 0 0 0        * a young adult bullywug
+M 0 80101 4 80286 100 0 0 0        * a bullywug warrior
+E 1 80085 3 5 100 0 0 0            *   some gorilla-skin armor
+E 1 80087 2 11 100 0 0 0           *   a tigerskin shield
+M 0 80101 4 80286 100 0 0 0        * a bullywug warrior
+E 1 80084 4 5 100 0 0 0            *   an ape-skin tunic
+E 1 80100 2 6 100 0 0 0            *   a tiger's skull
+M 0 80103 2 80286 100 0 0 0        * a bullywug warrior
+M 0 80103 2 80286 100 0 0 0        * a bullywug warrior
+M 0 80089 1 80287 100 0 0 0        * a bullywug matron
+F 1 80093 4 80287 100 0 0 0        * a bullywug child (following)
+F 1 80094 2 80287 100 0 0 0        * a bullywug child (following)
+F 1 80093 4 80287 100 0 0 0        * a bullywug child (following)
+M 0 80080 1 80288 100 0 0 0        * Reiwiggy
+M 0 80088 5 80289 100 0 0 0        * a young adult bullywug
+E 1 80091 3 15 100 0 0 0           *   a tigerbone bracelet
+M 0 80087 8 80290 100 0 0 0        * a bullywug adult
+M 0 80087 8 80290 100 0 0 0        * a bullywug adult
+M 0 80102 4 80291 100 0 0 0        * a young bullywug warrior
+E 1 80088 1 16 100 0 0 0           *   a hard wooden club
+M 0 80102 4 80291 100 0 0 0        * a young bullywug warrior
+E 1 80086 5 16 100 0 0 0           *   a tiger thigh bone
+M 0 80104 3 80292 100 0 0 0        * a bullywug woman
+E 1 80090 2 21 100 0 0 0           *   a tiger's tooth earring
+M 0 80092 2 80292 100 0 0 0        * an elderly bullywug
+M 0 80092 2 80292 100 0 0 0        * an elderly bullywug
+M 0 80087 8 80293 100 0 0 0        * a bullywug adult
+E 1 80094 2 7 100 0 0 0            *   some light cloth pants
+M 0 80101 4 80293 100 0 0 0        * a bullywug warrior
+E 1 80101 3 13 100 0 0 0           *   a tigerskin belt
+E 1 80089 2 20 100 0 0 0           *   a frogskin mask
+M 0 80101 4 80293 100 0 0 0        * a bullywug warrior
+E 1 80087 2 11 100 0 0 0           *   a tigerskin shield
+E 1 80086 5 16 100 0 0 0           *   a tiger thigh bone
+M 0 80086 1 80295 100 0 0 0        * a human slave
+M 0 80084 1 80296 100 0 0 0        * Earukkli
+E 1 80079 1 5 100 0 0 0            *   an alligatorskin tunic
+E 1 80108 1 7 100 0 0 0            *   some alligatorskin leggings
+E 1 80109 1 10 100 0 0 0           *   some alligatorskin sleeves
+E 1 80107 1 16 100 0 0 0           *   a spiked steel rod
+F 1 80085 1 80296 100 0 0 0        * a bullywug shaman (following)
+E 1 80106 1 18 100 0 0 0           *   an alligator tooth totem
+M 0 80083 1 80297 100 0 0 0        * Igglysquig
+E 1 80095 2 3 100 0 0 0            *   an alligatorskin collar
+E 1 80097 2 11 100 0 0 0           *   an alligatorskin shield
+E 1 80081 3 16 100 0 0 0           *   a jagged steel khopesh
+G 1 80083 1 0 100 0 0 0            *    a bone key
+M 0 80081 1 80298 100 0 0 0        * an elite bullywug guard
+E 1 80081 3 16 100 0 0 0           *   a jagged steel khopesh
+E 1 80089 2 20 50 0 0 0            *   a frogskin mask
+M 0 80082 1 80298 100 0 0 0        * an elite bullywug guard
+E 1 80096 3 15 50 0 0 0            *   an alligatorskin bracelet
+E 1 80081 3 16 100 0 0 0           *   a jagged steel khopesh
+G 1 80082 1 0 100 0 0 0            *    an ugly wooden key
+M 0 80104 3 80300 100 0 0 0        * a bullywug woman
+E 1 80098 3 8 100 0 0 0            *   some muddy cloth boots
+M 0 80102 4 80300 100 0 0 0        * a young bullywug warrior
+E 1 80101 3 13 100 0 0 0           *   a tigerskin belt
+M 0 80087 8 80300 100 0 0 0        * a bullywug adult
+E 1 80093 3 5 100 0 0 0            *   a linen shirt
+M 0 80087 8 80300 100 0 0 0        * a bullywug adult
+M 0 80115 1 80301 100 0 0 0        * a drunk halfling
+M 0 80116 1 80301 100 0 0 0        * a drunken merchant
+M 0 80117 1 80301 100 0 0 0        * a drunk human
+M 0 80119 1 80301 100 0 0 0        * a drunk bullywug
+M 0 80122 1 80301 100 0 0 0        * a human-bullywug half-breed
+M 0 80120 2 80301 100 0 0 0        * a drunk hunter
+M 0 80123 1 80301 100 0 0 0        * a bullywug bartender
+G 1 80118 999 0 100 0 0 0          *    a wooden mug
+M 0 80118 1 80302 100 0 0 0        * a dark human
+M 0 80121 4 80302 100 0 0 0        * a gambler
+G 1 80119 3 0 2 0 0 0              *    a black prince
+G 1 80120 3 0 3 0 0 0              *    the blood queen
+G 1 80126 6 0 80 0 0 0             *    a green ten
+G 1 80129 6 0 80 0 0 0             *    a yellow ten
+M 0 80121 4 80302 100 0 0 0        * a gambler
+G 1 80122 3 0 10 0 0 0             *    the blood prince
+G 1 80123 3 0 5 0 0 0              *    the black queen
+M 0 80121 4 80302 100 0 0 0        * a gambler
+G 1 80124 6 0 80 0 0 0             *    the green prince
+G 1 80125 6 0 80 0 0 0             *    the green queen
+G 1 80121 3 0 3 0 0 0              *    a blood ten
+M 0 80121 4 80302 100 0 0 0        * a gambler
+G 1 80127 6 0 80 0 0 0             *    the yellow prince
+G 1 80128 6 0 80 0 0 0             *    the yellow queen
+G 1 80130 2 0 10 0 0 0             *    a black ten
+M 0 80120 2 80302 100 0 0 0        * a drunk hunter
+M 0 80102 4 80303 100 0 0 0        * a young bullywug warrior
+E 1 80101 3 13 100 0 0 0           *   a tigerskin belt
+E 1 80090 2 21 100 0 0 0           *   a tiger's tooth earring
+M 0 80100 3 80303 100 0 0 0        * an elder bullywug hunter
+E 1 80084 4 5 100 0 0 0            *   an ape-skin tunic
+M 0 80100 3 80303 100 0 0 0        * an elder bullywug hunter
+E 1 80084 4 5 100 0 0 0            *   an ape-skin tunic
+M 0 80097 4 80303 100 0 0 0        * a young bullywug guard
+E 1 80095 2 3 80 0 0 0             *   an alligatorskin collar
+M 0 80111 1 80304 100 0 0 0        * Uiiggie
+G 1 80113 999 0 100 0 0 0          *    some raw fish
+G 1 80114 999 0 100 0 0 0          *    some smoked fish
+G 1 80115 999 0 100 0 0 0          *    a stale ration
+M 0 80096 4 80306 100 0 0 0        * a bullywug hunter
+M 0 80110 1 80308 100 0 0 0        * a rich bullywug
+M 0 80090 2 80308 100 0 0 0        * a bullywug woman
+M 0 80100 3 80308 100 0 0 0        * an elder bullywug hunter
+M 0 80109 1 80310 100 0 0 0        * a bullywug guard
+M 0 80105 4 80312 100 0 0 0        * a young bullywug
+M 0 80106 3 80312 100 0 0 0        * a young bullywug
+M 0 80107 3 80312 100 0 0 0        * a bullywug tadpole
+M 0 80108 3 80313 100 0 0 0        * a bullywug tadpole
+M 0 80108 3 80313 100 0 0 0        * a bullywug tadpole
+M 0 80105 4 80313 100 0 0 0        * a young bullywug
+M 0 80105 4 80316 100 0 0 0        * a young bullywug
+M 0 80105 4 80316 100 0 0 0        * a young bullywug
+M 0 80106 3 80318 100 0 0 0        * a young bullywug
+M 0 80106 3 80318 100 0 0 0        * a young bullywug
+M 0 80107 3 80318 100 0 0 0        * a bullywug tadpole
+M 0 80107 3 80318 100 0 0 0        * a bullywug tadpole
+M 0 80108 3 80318 100 0 0 0        * a bullywug tadpole
+M 0 80162 2 80320 100 0 0 0        * a wild-elf guard
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80162 2 80320 100 0 0 0        * a wild-elf guard
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80163 2 80320 100 0 0 0        * a wild-elf guard
+E 1 80176 1 10 70 0 0 0            *   some jodani wood sleeves
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80163 2 80320 100 0 0 0        * a wild-elf guard
+E 1 80175 1 7 70 0 0 0             *   some jodani wood leggings
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80173 1 80323 100 0 0 0        * a lieutenant
+G 1 80157 1 0 100 0 0 0            *    a large, twisted staff with a crystal head
+M 0 80170 1 80327 100 0 0 0        * Moonstone
+E 1 80178 1 6 100 0 0 0            *   a circlet of jodani wood
+F 1 80203 1 80327 100 0 0 0        * the senior lieutenant (following)
+M 0 80168 2 80328 100 0 0 0        * a wild-elf guard
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80204 1 80330 100 0 0 0        * a bored guard
+M 0 80168 2 80331 100 0 0 0        * a wild-elf guard
+M 0 80169 1 80332 100 0 0 0        * a wild-elf guard
+M 0 80171 3 80333 100 0 0 0        * a wild-elf guard
+M 0 80171 3 80333 100 0 0 0        * a wild-elf guard
+M 0 80172 1 80333 100 0 0 0        * a wild-elf guard
+M 0 80174 1 80336 100 0 0 0        * an elven shopkeeper
+G 1 80189 1 0 100 0 0 0            *    a green-hued mithril katana
+G 1 80190 1 0 100 0 0 0            *    some mithril scalemail
+G 1 80191 1 0 100 0 0 0            *    some mithril scalemail sleeves
+G 1 80192 1 0 100 0 0 0            *    some mithril scalemail leggings
+M 0 80175 1 80337 100 0 0 0        * Teglaron
+M 0 80164 4 80339 100 0 0 0        * a wild-elf guard
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+M 0 80165 4 80339 100 0 0 0        * a wild-elf scout
+E 1 80179 2 16 100 0 0 0           *   a jodani wood bow
+E 1 80180 10 18 100 0 0 0          *   a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+M 0 80171 3 80342 100 0 0 0        * a wild-elf guard
+M 0 80197 1 80347 100 0 0 0        * an elven mage
+G 1 80185 999 0 100 0 0 0          *    a bright blue potion
+G 1 80186 999 0 100 0 0 0          *    a clear potion
+G 1 80187 999 0 100 0 0 0          *    a muddy brown potion
+M 0 80164 4 80348 100 0 0 0        * a wild-elf guard
+M 0 80165 4 80348 100 0 0 0        * a wild-elf scout
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+M 0 80166 1 80349 100 0 0 0        * a wild-elf scout
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+G 1 80179 2 0 100 0 0 0            *    a jodani wood bow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+G 1 80180 10 0 100 0 0 0           *    a jodani wood arrow
+M 0 80201 1 80349 100 0 0 0        * a human merchant
+G 1 80193 1 0 100 0 0 0            *    a mithril bracelet studded with gems
+G 1 80194 1 0 100 0 0 0            *    a plain silver headband
+G 1 80195 1 0 100 0 0 0            *    a golden eagle
+M 0 80194 1 80351 100 0 0 0        * an elderly bartender
+G 1 340 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 341 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 342 9999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 80191 2 80351 100 0 0 0        * a young warrior
+M 0 80191 2 80351 100 0 0 0        * a young warrior
+M 0 80192 1 80351 100 0 0 0        * a young woman
+M 0 80189 1 80351 100 0 0 0        * a drunken warrior
+M 0 80193 1 80351 100 0 0 0        * a halfling adventurer
+M 0 80195 1 80351 100 0 0 0        * the one-armed bard
+M 0 80196 1 80352 100 0 0 0        * Summerstorm
+G 1 80154 1 0 40 0 0 0             *    Summerstorm's silver amulet
+M 0 80177 1 80354 100 0 0 0        * a poor woman
+M 0 80182 3 80358 100 0 0 0        * an elven child
+M 0 80178 1 80359 100 0 0 0        * an elven teacher
+M 0 80179 2 80359 100 0 0 0        * a young boy
+M 0 80180 1 80359 100 0 0 0        * a young girl
+M 0 80179 2 80359 100 0 0 0        * a young boy
+M 0 80181 1 80359 100 0 0 0        * a young student
+M 0 80182 3 80361 100 0 0 0        * an elven child
+M 0 80182 3 80361 100 0 0 0        * an elven child
+M 0 80176 2 80362 100 0 0 0        * an elven woman
+M 0 80167 1 80362 100 0 0 0        * a wild-elf guard
+M 0 80186 1 80364 100 0 0 0        * Brokenmoon
+G 1 80181 999 0 100 0 0 0          *    dried meat
+G 1 347 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 364 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 377 99999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 80164 4 80365 100 0 0 0        * a wild-elf guard
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+E 1 80188 1 15 100 0 0 0           *   an archer's wrist guard
+M 0 80176 2 80367 100 0 0 0        * an elven woman
+M 0 80188 1 80369 100 0 0 0        * a young waiter
+G 1 80182 999 0 100 0 0 0          *    spicy turtle soup
+G 1 80183 999 0 100 0 0 0          *    some tapir stew
+G 1 80184 999 0 100 0 0 0          *    a roast quetzel
+M 0 80206 1 80369 100 0 0 0        * a human merchant
+M 0 80207 1 80369 100 0 0 0        * a young elf
+M 0 80208 1 80369 100 0 0 0        * an elven man
+M 0 80190 1 80370 100 0 0 0        * an elven cook
+M 0 80187 1 80372 100 0 0 0        * Windstrider
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+E 1 80201 1 16 100 0 0 0           *   a longsword named "Whistler"
+M 0 80164 4 80376 100 0 0 0        * a wild-elf guard
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+M 0 80199 1 80378 100 0 0 0        * an elven bard
+M 0 80184 1 80386 100 0 0 0        * an elven infant
+M 0 80185 1 80386 100 0 0 0        * a young mother
+M 0 80198 1 80388 100 0 0 0        * an elven mage
+M 0 80165 4 80391 100 0 0 0        * a wild-elf scout
+E 1 80197 6 5 100 0 0 0            *   leather armor with elven designs
+M 0 80165 4 80393 100 0 0 0        * a wild-elf scout
+M 0 80205 1 80395 100 0 0 0        * a scarred elf
+M 0 80202 1 80397 100 0 0 0        * an elven child
+M 0 80000 5 80430 100 0 0 0        * a halfling scout
+E 1 80000 5 16 100 0 0 0           *   a crossbow
+E 1 80001 5 17 100 0 0 0           *   a blackened short sword
+M 0 80003 1 80430 100 0 0 0        * a young paladin
+E 1 80004 1 5 100 0 0 0            *   white banded mail
+E 1 80005 1 16 100 0 0 0           *   a spiked hammer
+M 0 80000 5 80430 100 0 0 0        * a halfling scout
+E 1 80000 5 16 100 0 0 0           *   a crossbow
+E 1 80001 5 17 100 0 0 0           *   a blackened short sword
+M 0 80014 4 80430 100 0 0 0        * a giant beetle
+M 0 80014 4 80430 100 0 0 0        * a giant beetle
+M 0 80014 4 80430 100 0 0 0        * a giant beetle
+M 0 80015 3 80430 100 0 0 0        * a fire beetle
+M 0 80015 3 80430 100 0 0 0        * a fire beetle
+M 0 80015 3 80430 100 0 0 0        * a fire beetle
+M 0 80014 4 80430 100 0 0 0        * a giant beetle
+M 0 80016 3 80430 100 0 0 0        * a young tapir
+M 0 80016 3 80430 100 0 0 0        * a young tapir
+M 0 80016 3 80430 100 0 0 0        * a young tapir
+M 0 80017 3 80430 100 0 0 0        * a large tapir
+M 0 80017 3 80430 100 0 0 0        * a large tapir
+M 0 80017 3 80430 100 0 0 0        * a large tapir
+M 0 80018 2 80430 100 0 0 0        * a vicious grison
+M 0 80018 2 80430 100 0 0 0        * a vicious grison
+M 0 80020 4 80430 100 0 0 0        * a wild boar
+M 0 80020 4 80430 100 0 0 0        * a wild boar
+M 0 80020 4 80430 100 0 0 0        * a wild boar
+M 0 80020 4 80430 100 0 0 0        * a wild boar
+M 0 80021 3 80430 100 0 0 0        * a scorpion spider
+E 1 80020 3 16 100 0 0 0           *   a scorpion stinger
+M 0 80021 3 80430 100 0 0 0        * a scorpion spider
+E 1 80020 3 16 100 0 0 0           *   a scorpion stinger
+M 0 80021 3 80430 100 0 0 0        * a scorpion spider
+E 1 80020 3 16 100 0 0 0           *   a scorpion stinger
+M 0 80022 2 80430 100 0 0 0        * a fuzzy spider
+M 0 80022 2 80430 100 0 0 0        * a fuzzy spider
+M 0 80023 4 80430 100 0 0 0        * a green centipede
+M 0 80023 4 80430 100 0 0 0        * a green centipede
+M 0 80023 4 80430 100 0 0 0        * a green centipede
+M 0 80023 4 80430 100 0 0 0        * a green centipede
+M 0 80027 2 80430 100 0 0 0        * an ophidian warrior
+M 0 80027 2 80430 100 0 0 0        * an ophidian warrior
+M 0 80028 3 80430 100 0 0 0        * a pandinus scorpion
+M 0 80028 3 80430 100 0 0 0        * a pandinus scorpion
+M 0 80028 3 80430 100 0 0 0        * a pandinus scorpion
+M 0 80029 3 80430 100 0 0 0        * an ant lion
+M 0 80029 3 80430 100 0 0 0        * an ant lion
+M 0 80029 3 80430 100 0 0 0        * an ant lion
+M 0 80030 4 80430 100 0 0 0        * a poisonous millipede
+M 0 80030 4 80430 100 0 0 0        * a poisonous millipede
+M 0 80030 4 80430 100 0 0 0        * a poisonous millipede
+M 0 80030 4 80430 100 0 0 0        * a poisonous millipede
+M 0 80031 3 80430 100 0 0 0        * a spotted jaguar
+M 0 80031 3 80430 100 0 0 0        * a spotted jaguar
+M 0 80031 3 80430 100 0 0 0        * a spotted jaguar
+M 0 80032 3 80430 100 0 0 0        * a black jaguar
+M 0 80032 3 80430 100 0 0 0        * a black jaguar
+M 0 80032 3 80430 100 0 0 0        * a black jaguar
+M 0 80033 2 80430 100 0 0 0        * a striped tiger
+E 1 80022 1 9 100 0 0 0            *   a tiger's claws
+M 0 80033 2 80430 100 0 0 0        * a striped tiger
+G 1 80021 4 0 100 0 0 0            *    a tiger skin
+M 0 80035 3 80430 100 0 0 0        * a striped tiger
+G 1 80021 4 0 100 0 0 0            *    a tiger skin
+M 0 80035 3 80430 100 0 0 0        * a striped tiger
+G 1 80021 4 0 100 0 0 0            *    a tiger skin
+M 0 80035 3 80430 100 0 0 0        * a striped tiger
+G 1 80021 4 0 100 0 0 0            *    a tiger skin
+M 0 80038 4 80430 100 0 0 0        * a jungle squirrel
+M 0 80038 4 80430 100 0 0 0        * a jungle squirrel
+M 0 80038 4 80430 100 0 0 0        * a jungle squirrel
+M 0 80038 4 80430 100 0 0 0        * a jungle squirrel
+M 0 80039 4 80430 100 0 0 0        * the azurian
+M 0 80039 4 80430 100 0 0 0        * the azurian
+M 0 80039 4 80430 100 0 0 0        * the azurian
+M 0 80039 4 80430 100 0 0 0        * the azurian
+M 0 80040 3 80430 100 0 0 0        * the durian cat
+M 0 80040 3 80430 100 0 0 0        * the durian cat
+M 0 80040 3 80430 100 0 0 0        * the durian cat
+M 0 80041 2 80430 100 0 0 0        * a mottled green snake
+M 0 80041 2 80430 100 0 0 0        * a mottled green snake
+M 0 80042 2 80430 100 0 0 0        * an anaconda
+M 0 80042 2 80430 100 0 0 0        * an anaconda
+M 0 80071 3 80430 100 0 0 0        * a young couatl
+G 1 80062 1 0 100 0 0 0            *    hide of a young couatl
+M 0 80219 2 80430 100 0 0 0        * a burly wild-elf ranger
+M 0 80034 1 80431 100 0 0 0        * the white tiger
+G 1 80024 1 0 100 0 0 0            *    skin of a white tiger
+M 0 80036 1 80431 100 0 0 0        * a thri-kreen adventurer
+E 1 80048 1 15 100 0 0 0           *   a trollskin wrist band
+E 1 80049 1 16 100 0 0 0           *   an obsidian gythka
+M 0 80043 3 80431 100 0 0 0        * a durian whip snake
+E 1 80050 3 16 100 0 0 0           *   a no_show whip
+M 0 80043 3 80431 100 0 0 0        * a durian whip snake
+E 1 80050 3 16 100 0 0 0           *   a no_show whip
+M 0 80043 3 80431 100 0 0 0        * a durian whip snake
+E 1 80050 3 16 100 0 0 0           *   a no_show whip
+M 0 80052 2 80431 100 0 0 0        * the orcish adventurer
+M 0 80004 2 80431 100 0 0 0        * a hardened ranger
+M 0 80000 5 80433 100 0 0 0        * a halfling scout
+E 1 80000 5 16 100 0 0 0           *   a crossbow
+E 1 80001 5 17 100 0 0 0           *   a blackened short sword
+M 0 80006 4 80433 100 0 0 0        * a bullywug scout
+E 1 80011 4 16 100 0 0 0           *   a bent club
+M 0 80006 4 80433 100 0 0 0        * a bullywug scout
+E 1 80011 4 16 100 0 0 0           *   a bent club
+M 0 80006 4 80433 100 0 0 0        * a bullywug scout
+E 1 80011 4 16 100 0 0 0           *   a bent club
+M 0 80006 4 80433 100 0 0 0        * a bullywug scout
+E 1 80011 4 16 100 0 0 0           *   a bent club
+M 0 80007 4 80433 100 0 0 0        * a bullywug hunter
+G 1 80012 4 0 100 0 0 0            *    a hunting spear
+M 0 80007 4 80433 100 0 0 0        * a bullywug hunter
+G 1 80012 4 0 100 0 0 0            *    a hunting spear
+M 0 80007 4 80433 100 0 0 0        * a bullywug hunter
+G 1 80012 4 0 100 0 0 0            *    a hunting spear
+M 0 80007 4 80433 100 0 0 0        * a bullywug hunter
+G 1 80012 4 0 100 0 0 0            *    a hunting spear
+M 0 80008 1 80433 100 0 0 0        * an outcast thief
+E 1 80017 5 16 100 0 0 0           *   a plain black dagger
+E 1 80013 4 5 100 0 0 0            *   some black leather armor
+M 0 80049 3 80433 100 0 0 0        * an ugly troll
+M 0 80049 3 80433 100 0 0 0        * an ugly troll
+M 0 80049 3 80433 100 0 0 0        * an ugly troll
+M 0 80051 1 80433 100 0 0 0        * the drunk orc
+M 0 80052 2 80433 100 0 0 0        * the orcish adventurer
+E 1 80052 1 12 100 0 0 0           *   an alligatorskin backpack
+M 0 80004 2 80435 100 0 0 0        * a hardened ranger
+E 1 80006 1 16 100 0 0 0           *   an ebonwood longbow
+G 1 80007 1 0 100 0 0 0            *    a soft quiver
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+G 1 80008 7 0 100 0 0 0            *    an ebonwood flight arrow
+M 0 80001 1 80435 100 0 0 0        * the halfling bard
+E 1 80002 1 18 100 0 0 0           *   an ebonwood mandolin
+M 0 80002 1 80435 100 0 0 0        * the lost merchant
+E 1 80003 1 5 100 0 0 0            *   a tattered robe
+M 0 80000 5 80435 100 0 0 0        * a halfling scout
+E 1 80000 5 16 100 0 0 0           *   a crossbow
+E 1 80001 5 17 100 0 0 0           *   a blackened short sword
+M 0 80000 5 80435 100 0 0 0        * a halfling scout
+E 1 80000 5 16 100 0 0 0           *   a crossbow
+E 1 80001 5 17 100 0 0 0           *   a blackened short sword
+M 0 80055 3 80440 100 0 0 0        * the stony quiren
+M 0 80055 3 80440 100 0 0 0        * the stony quiren
+M 0 80055 3 80440 100 0 0 0        * the stony quiren
+M 0 80053 5 80440 100 0 0 0        * the bright quetzel
+G 1 80053 10 0 100 0 0 0           *    a quetzel feather
+M 0 80053 5 80440 100 0 0 0        * the bright quetzel
+G 1 80053 10 0 100 0 0 0           *    a quetzel feather
+M 0 80053 5 80440 100 0 0 0        * the bright quetzel
+G 1 80053 10 0 100 0 0 0           *    a quetzel feather
+M 0 80053 5 80440 100 0 0 0        * the bright quetzel
+G 1 80054 10 0 100 0 0 0           *    a quetzel feather
+M 0 80053 5 80440 100 0 0 0        * the bright quetzel
+G 1 80054 10 0 100 0 0 0           *    a quetzel feather
+M 0 80054 3 80440 100 0 0 0        * a red quetzel
+G 1 80055 10 0 100 0 0 0           *    a quetzel feather
+M 0 80054 3 80440 100 0 0 0        * a red quetzel
+G 1 80055 10 0 100 0 0 0           *    a quetzel feather
+M 0 80054 3 80440 100 0 0 0        * a red quetzel
+G 1 80055 10 0 100 0 0 0           *    a quetzel feather
+M 0 80069 3 80440 100 0 0 0        * a dart frog
+G 1 80058 3 0 100 0 0 0            *    the poisonous skin of a dartfrog
+M 0 80069 3 80440 100 0 0 0        * a dart frog
+G 1 80058 3 0 100 0 0 0            *    the poisonous skin of a dartfrog
+M 0 80069 3 80440 100 0 0 0        * a dart frog
+G 1 80058 3 0 100 0 0 0            *    the poisonous skin of a dartfrog
+M 0 80068 3 80440 100 0 0 0        * a dark lizard
+M 0 80068 3 80440 100 0 0 0        * a dark lizard
+M 0 80068 3 80440 100 0 0 0        * a dark lizard
+M 0 80067 3 80440 100 0 0 0        * a brightly colored lizard
+M 0 80067 3 80440 100 0 0 0        * a brightly colored lizard
+M 0 80067 3 80440 100 0 0 0        * a brightly colored lizard
+M 0 80066 2 80440 100 0 0 0        * a monkey eagle
+M 0 80066 2 80440 100 0 0 0        * a monkey eagle
+M 0 80065 2 80440 100 0 0 0        * a red eagle
+M 0 80065 2 80440 100 0 0 0        * a red eagle
+M 0 80064 1 80440 100 0 0 0        * a harpy eagle
+M 0 80072 1 80441 100 0 0 0        * a drow hunter
+E 1 80065 1 15 100 0 0 0           *   a couatl-hide wrist guard
+E 1 80071 1 16 100 0 0 0           *   a drow longsword
+M 0 80210 1 80442 100 0 0 0        * Mistwalker
+M 0 80211 1 80443 100 0 0 0        * an angry elven scout
+E 1 80204 1 3 100 0 0 0            *   a jodani wood collar
+E 1 80174 6 16 100 0 0 0           *   a green longsword
+M 0 80212 1 80444 100 0 0 0        * the elemental ranger
+E 1 80173 1 16 100 0 0 0           *   a flaming javelin
+E 1 80209 1 17 100 0 0 0           *   a bright silver dagger
+G 1 80205 2 0 100 0 0 0            *    a shiny silver flask
+G 1 80166 1 0 100 0 0 0            *    a strange amulet of swirling air
+G 1 80168 1 0 100 0 0 0            *    an earthen amulet
+G 1 80170 1 0 100 0 0 0            *    a watery amulet
+G 1 80172 1 0 100 0 0 0            *    a flaming medallion
+M 0 80213 1 80453 100 0 0 0        * a huge stone giant
+M 0 80214 1 80461 100 0 0 0        * a stone giant sentinel
+E 1 80211 2 16 100 0 0 0           *   a large stone club
+M 0 80215 1 80462 100 0 0 0        * a stone giant woman
+E 1 80213 1 16 100 0 0 0           *   a large stone mortar
+M 0 80216 3 80462 100 0 0 0        * a stone giant child
+E 1 80214 2 3 100 0 0 0            *   a collar of stone spikes
+M 0 80216 3 80463 100 0 0 0        * a stone giant child
+M 0 80217 2 80463 100 0 0 0        * a stone giant hunter
+E 1 80214 2 3 100 0 0 0            *   a collar of stone spikes
+M 0 80217 2 80464 100 0 0 0        * a stone giant hunter
+E 1 80211 2 16 100 0 0 0           *   a large stone club
+M 0 80216 3 80465 100 0 0 0        * a stone giant child
+E 1 80215 1 15 100 0 0 0           *   a spiked stone bracelet
+M 0 80218 1 80465 100 0 0 0        * a stone giant elder
+*
+S

@@ -1,0 +1,60 @@
+#53200
+M
+slaves~
+The slave master turns to you and says 'Heh, the slaves. There's nothing but
+troubles with them. They all are too fragile. A bit of work, and all are dead'
+~
+M
+camp encampement~
+The slave master smiles sorely and says 'Arghh, the camp. Always the camp.
+I have nothing more in my life than the camp.'
+He spits over his left shoulder and continues - 'And I always got troubles
+with upkeeping it. Like recently, someone stolen the key I had in my pocket.
+Shall you find it, I may reward you. Or maybe not.'
+He cackles demonically and turns toward the slave pits.
+~
+Q
+The slaves master looks at the key you just brought to him -
+ - 'And where the hell you found that???'
+He peers at you suspiciously.
+After a brief moment, he decides you deserve some kind of reward.
+~
+R C 1500
+R I 53201
+G I 53200
+S
+#53201
+M
+food~
+He whispers silently 'gimme... some...'
+~
+M
+hi hello howdy greetings help quest camp orc encampenet~
+He whispers weakly 'Gim...me...some...food...or...I...die...'
+~
+Q
+He turns toward you with a glimpse of hope on his face.
+'You... brought... food... ?'
+After seeing the fresh steak, his eyes almost fall out of his skull.
+'Ahh, thank you, thank you. You just saved my life. Not for long, but you did.
+Please, take this modest gift from me. I hidden this from those ugly orcs...'
+He savagely devours the steak.
+Then suddenly, he shivers slightly, obviously poisoned.
+..................................
+He gasps, chokes, and dies.
+~
+R E 15000
+R I 53203
+G I 53201
+D
+The warm corpse sinks slowly into the rotting hay.
+'Doh!' - you think to yourself - 'I brought him poisoned food!'
+~
+Q
+The barbarian savagely devours the food you brought to him.
+After finishing, he speaks again.
+'Ahh.. twas good... ahh... but more... please... more... I am still so hungry.'
+'Bring me... please bring me... something big... large... maybe meat...'
+~
+G T 19
+S

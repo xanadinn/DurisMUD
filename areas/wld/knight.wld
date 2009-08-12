@@ -1,0 +1,956 @@
+#70900
+&+WCave Entrance~
+   There is a cave here with a wooden door latched to it. The cave door has a
+symbol painted on it, bearing a cross and sword. The door has no key hole,
+which is odd. Just about anybody could wander in-- unless whatever was in
+inside would be unhealthy for the unworthy adventurer. Some shrubbery grow to
+the side of the cave. There are no exits from here unless one intends to enter
+the cave, or go back from whence they came. An inscription glows under the
+symbol on the door.
+~
+709 33554436 1
+D0
+You see a door.
+~
+door~
+1 -1 70901
+D2
+You see a path between two mountains.
+~
+~
+0 0 639011
+E
+inscription~
+
+                         &+RThe Hall of Knighthood&N
+
+&+B                                _____
+&+B                                | * |
+&+B                       _________|___|_________
+&+B                      |_______________________|
+&+B                               |     |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               |  |  |
+&+B                               \  |  /
+&+B                                 \ /
+
+                     &+RWarning to Any Who Wish to Take
+                          &+Rthe Test of Knights!
+
+            This test is rigorous and very difficult even for
+            the most hardy adventurers. Make sure that you are
+            prepared for this test or at least, that you have
+            a LOT of help-- else, prepare to make this cave
+            your grave.
+
+	    BE FOREWARNED! ONCE YOU ENTER HERE, YOU ARE COMMITTED!
+
+		      &+RMorlanthra the Great&N.
+~
+S
+#70901
+&+WThe Hall of Knighthood~
+  The cave is lit with torches from each wall. The ground feels sturdy and cold.The cavern is completely silent. There are, however, intermittent sounds of hoofbeats echoing throughout the tunnels to the north. The cavern is solid
+granite, and the only escape from here would be south through the door, or
+north into the unknown. There is what looks like a &+Wsign&N sticking out of
+the ground in the center of the room.
+~
+709 167804996 1
+D0
+You see the tunnel continue north.
+~
+~
+0 0 70902
+D2
+You see a door.
+~
+door~
+1 -1 70900
+E
+sign~
+                    This is the &+RTest of Strength&N
+                    that gauges your abilities in
+                    the art of battle. No magic is allowed
+		    in these hallways.
+
+                    Be brave warriors! You must be able
+                    to see your way though this
+                    test with pure guts, sweat, and
+                    muscle. All true warriors will
+                    be successful if they can
+                    endure the beating taken here.
+
+                    Good luck, young apprentices to
+                    knighthood!
+
+                         &+RMorlanthra the Great&N.
+~
+S
+#70902
+&+WThe White Knight~
+   The room is completely colored in white. Surrounding the room are torches.
+Between the torches are white flags hanging from the wall, their tips aimed at
+the center of the room. On the floor are paintings of white swords pointing to
+the center of the cavern. There is a &+ggreen door&N to the north and an exit
+to the south.
+~
+709 176193736 0
+D0
+You see a green door.
+~
+green~
+3 70901 70903
+D2
+You see a cavern.
+~
+~
+0 0 70901
+S
+#70903
+&+GThe Green Knight~
+   The room looks as though it were doused in solid green paint. Torches light
+the room. Several green flags, their tips pointing to the center of the room,
+hang lifelessly. On the floor are designs of maces with spikes on them, all
+pointing to the center of the room-- following suit with the flags. A &+Wwhite
+&+Wdoor&N is south, and a &+bblue door&N is to the north.
+~
+709 176193736 0
+D0
+You see a blue door.
+~
+blue~
+3 70902 70904
+D2
+You see a white door.
+~
+white~
+3 70901 70902
+S
+#70904
+&+BThe Blue Knight~
+   In the room hang several torches, surrounded by blue glass. The entire room
+is covered in blue light from these lanterns. Painted on the center of the
+floor is a giant axe. Several axes are hung on the east and west walls. Each
+axe is designed differently. Some axes have serrated edges and other axes have
+spikes sticking out from the opposite sides. The handle of another axe is
+wrapped with brown leather rather than just bare wood. The axes are secured
+into the wall and cannot be removed. A &+ggreen door&N is to the south, and a
+&+Yyellow door&N is to the north.
+~
+709 176193736 0
+D0
+You see a yellow door.
+~
+yellow~
+3 70903 70905
+D2
+You see a green door.
+~
+green~
+3 70902 70903
+S
+#70905
+&+YThe Yellow Knight~
+   From the ceiling hang three glowing orbs, giving the room a yellow tint.
+There are two holes on the north and south side of the room. Flaming arrows
+continuously shoot from one hole to the other. One must be careful not to move
+too far east or west so that the arrows do not connect. A large statue of a
+flaming sword is in the center of the room. A &+rred door&N is to the north,
+and a &+bblue door&N is south.
+~
+709 176193736 0
+D0
+You see a red door.
+~
+red~
+3 70904 70906
+D2
+You see a blue door.
+~
+blue~
+3 70903 70904
+S
+#70906
+&+rThe Red Knight~
+   The room is surrounded by fire, making it hot and smoke-ridden. A
+morningstar is painted on the floor. Four morningstars near the wall magically
+twirl in mid air. The spinning spiked balls were carefully placed in mid air so
+that one may carefully pass through this room without getting pummeled. On the
+ceiling, holes are carved into stone allowing the smoke to escape and also
+providing oxygen to feed the flames. A &+Rcrimson door&N is to the north and a
+&+Yyellow door&N is to the south.
+~
+709 176193736 0
+D0
+You see a crimson door.
+~
+crimson~
+3 70905 70907
+D2
+You see a yellow door.
+~
+yellow~
+3 70904 70905
+S
+#70907
+&+RThe Crimson Knight~
+   Several rubies adorn the stone walls-- they are set in stone. Through the
+rubies rays of crimson light shine to the center of the room. Several whips
+hang from the ceiling magically moving or "whipping", to be exact. The sound of
+lashing leather echoes throughout. To the north is a grey, stone door, and to
+the south is a &+rred door&N.
+~
+709 176193736 0
+D0
+You see a grey door.
+~
+grey~
+3 70906 70908
+D2
+You see a red door.
+~
+red~
+3 70905 70906
+S
+#70908
+&+WThe Hall of Knighthood~
+   Finally, a room where one may rest their bones from the battles just
+recently fought! There is a chair and table here that look dusty and unused.
+Not too many wanna-be knights have gotten this far. The cavern, however, except
+for the table and chair, is characterless. The stone floor does reveal some
+footprints to the door of the next test. Apparently, there were some who have
+made it through this far. A &+Wsign&N is printed on the door to the east. There
+is a &+Rcrimson door&N to the south. A magic portal is to the west.
+~
+709 167805004 0
+D1
+~
+~
+0 0 70909
+D2
+You see a crimson door.
+~
+crimson~
+3 70906 70907
+E
+sign~
+                        &+WThe Test of Speed&N
+
+              Welcome, brave warrior, to the Test of
+              Speed. You have done well to make it this
+              far; but the test has only begun. You have
+              learned to endure and clearly understand
+              battle tactics. However, all of this will
+              do you no good unless you are quick at it.
+              You must be able to withstand trips,
+              watch for back stabbing, and dodge blows
+              to survive in any battle. Thus, you must
+              endure the next test before you. Be quick
+              about it, or death may be quicker.
+
+              Oh, and by the way, you may cast here if
+           you like-- if you can get a spell off in time!
+
+                       &+RMorlanthra the Great&N.
+~
+S
+#70909
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70927
+D1
+You see the tunnel continue.
+~
+~
+0 0 70910
+D2
+~
+~
+0 0 70926
+S
+#70910
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70928
+D1
+You see the tunnel continue.
+~
+~
+0 0 70911
+D2
+~
+~
+0 0 70929
+D3
+You see the tunnel continue.
+~
+~
+0 0 70909
+S
+#70911
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70930
+D1
+You see the tunnel continue.
+~
+~
+0 0 70912
+D2
+~
+~
+0 0 70931
+D3
+You see the tunnel continue.
+~
+~
+0 0 70910
+S
+#70912
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70932
+D1
+You see the tunnel continue.
+~
+~
+0 0 70913
+D2
+~
+~
+0 0 70933
+D3
+You see the tunnel continue.
+~
+~
+0 0 70911
+S
+#70913
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70934
+D1
+You see a door.
+~
+door~
+3 70907 70914
+D2
+~
+~
+0 0 70935
+D3
+You see the tunnel continue.
+~
+~
+0 0 70912
+S
+#70914
+&+WThe Hall of Knighthood~
+   Finally, a room where one may rest their bones from the battles just
+recently fought! There is a chair and table here that look dusty and unused.
+Not too many wanna-be knights have gotten this far. The cavern, however, except
+for the table and chair, is characterless. The stone floor does NOT reveal ANY
+footprints to the door of the next test. It seems that NOBODY has made it this
+far. A &+Wsign&N is printed on the door to the south. There is a door to the
+west.
+~
+709 167805004 0
+D2
+You see a door.
+~
+door~
+3 70908 70915
+D3
+You see a door.
+~
+door~
+3 70907 70913
+E
+sign~
+                    &+WWelcome to the Test of Truth!&N
+
+                    Congratulations on your achievements
+                    in getting you here. It is likely
+                    that this is as far as you get. Only
+                    the righteous and most good may not
+                    succumb to the attacks of the next
+                    test. Those who walk the holy path
+                    will not tolerate evil, or even neutral
+                    persons.
+
+                    Good Luck on the next test!
+
+                           &+RMorlanthra the Great&N.
+~
+S
+#70915
+&+WHoly Auditorium~
+   The room is painted white. Crosses are hung on the east and west side of the
+room. A white silk carpet, rectangular in shape, leads to the door south of
+here. A bright light, which seems to come from nowhere, shines through holes in
+the wall. These rays of light converge in the center of the room. Benches are
+also on the east and west walls, where clergymen or holy clerics may sit and
+discuss theology. Doors are south and north of here.
+~
+709 167805000 0
+D0
+You see a door.
+~
+door~
+3 70908 70914
+D2
+You see a door.
+~
+door~
+3 70909 70916
+S
+#70916
+&+WHoly Auditorium~
+   The room is painted white. Crosses are hung on the east and west side of the
+room. A white silk carpet, rectangular in shape, leads to the door south of
+here. A bright light, which seems to come from nowhere, shines through holes in
+the wall. These rays of light converge in the center of the room. Benches are
+also on the east and west walls, where clergymen or holy clerics may sit and
+discuss theology. Doors are south and north of here.
+~
+709 167805000 0
+D0
+You see a door.
+~
+door~
+3 70909 70915
+D2
+You see a door.
+~
+door~
+3 70910 70917
+S
+#70917
+&+WHoly Auditorium~
+   The room is painted white. Crosses are hung on the east and west side of the
+room. A white silk carpet, rectangular in shape, leads to the door south of
+here. A bright light, which seems to come from nowhere, shines through holes in
+the wall. These rays of light converge in the center of the room. Benches are
+also on the east and west walls, where clergymen or holy clerics may sit and
+discuss theology. Doors are south and north of here.
+~
+709 167805000 0
+D0
+You see a door.
+~
+door~
+3 70910 70916
+D2
+You see a door.
+~
+door~
+3 70911 70918
+S
+#70918
+&+WThe Hall of Knighthood~
+   Finally, a room where one may rest their bones from the battles just
+recently fought! There is a chair and table here that look dusty and unused.
+Not too many wanna-be knights have gotten this far. The cavern, however, except
+for the table and chair, is characterless. The stone floor does NOT reveal ANY
+footprints to the door of the next test. It seems that NOBODY has made it this
+far. A &+Wsign&N is printed on the door to the west. There is a door to the
+north.
+~
+709 167805004 0
+D0
+You see a door.
+~
+door~
+3 70911 70917
+D3
+You see a door.
+~
+door~
+0 70912 70919
+E
+sign~
+                  &+WWelcome to the Test of Resilience!&N
+
+                  Truly Amazing! You have surpassed
+                  many a difficult test. The fact that
+                  you have done this should give you
+                  some small hope that you will pass
+                  the next test. You must strive to
+                  withstand those spells casted
+                  against you to win any battle
+                  against foes that use sorcery
+                  against you. Therefore, it is this
+                  test that gauges your ability to do
+                  so. This test is deadly, for I,
+                  Morlanthra the Great, have taken
+                  it and nearly died. Of course, I
+                  passed-- but that's me.
+
+                        &+RMorlanthra the Great&N.
+~
+S
+#70919
+&+YConjurer Room~
+   In the center of the room is a five-pointed star painted in red. Lit candles
+are at each tip of the star. Several creatures or demons must have been
+summoned in the center of this star to attack any who entered. Several symbols
+are on the wall-- probably put there to magically contain or restrain a
+creature from leaving or lashing back at its master. Doors are east and west.
+~
+709 167805000 0
+D1
+You see a door.
+~
+door~
+3 70912 70919
+D3
+You see a door.
+~
+door~
+0 70913 70920
+S
+#70920
+&+LPaladin Room~
+   Black rings are centered in the room and levitate. They make a magical
+humming sound that reverberates throughout. Various items magically float
+around the room: ink pens, wands, a desk, runes, and a broom. The room is
+painted in black, with paintings of stars and planets on the ceiling. There
+is a magical intensity to this room. Doors are to the east and west.
+~
+709 167805000 0
+D1
+You see a door.
+~
+door~
+3 70913 70920
+D3
+You see a door.
+~
+door~
+0 70914 70921
+S
+#70921
+&+MNecromancer Room~
+   A giant skull glows a bright blue in the center of the room. Paintings of
+skulls and bones are on the walls. The room smells like someone has died here.
+The floor is covered with dead, rotted flesh. Bone dust and vials of blood are
+on a desk in the corner. A chart of a human, elf, and dwarf with pins stuck in
+them is hung on the wall. There are doors to the east and to the west.
+~
+709 167805000 0
+D1
+You see a door.
+~
+door~
+2 70914 70921
+D3
+You see a door.
+~
+door~
+0 70915 70922
+S
+#70922
+&+BSorcerer Room~
+   Lightning flashes near the ceiling. The sound of thunder echoes throughout
+the room. Some sorcerer has magically created a small thunder storm here. No
+sign of rain though. The room is also foggy, or perhaps the clouds from the
+storm are low. Magical symbols and runes are painted on each side of the wall.
+A crystal orb is sitting in the center of the room. Some of the lightning from
+the storm hits the orb. Doors are to the east and to the west.
+~
+709 167805000 0
+D1
+You see a door.
+~
+door~
+2 70915 70922
+D3
+You see a door.
+~
+door~
+3 70916 70923
+S
+#70923
+&+WPathway to the Room of Convergence~
+   This is the final resting area of the knight's test. The room, like the
+other resting rooms, has a table and chair to relax in after a rough battle. It
+smells musty and some residue of stone chips cover the floor. A small fountain
+magically begins to start running. Small mushrooms suddenly appear on the
+ground. They look tasty. There is a &+Wsign&N on the western door. There is a
+door to the east.
+~
+709 167805004 0
+D1
+You see a door.
+~
+door~
+3 70916 70922
+D3
+You see a door.
+~
+door~
+1 -1 70924
+E
+sign~
+              I, nor anyone else, do not dare to enter
+              the room next door. They say that the mortal
+              mind cannot take what lies behind it, and that
+              only the gods have a chance of passing safely
+              through. Keep in mind that some beings will
+              attack good, evil, or even neutral persons,
+              and some will not!
+
+                           That is all I know.
+
+                           &+RMorlanthra the Great&N.
+~
+S
+#70924
+&+YRoom of Convergence~
+&+Y   As soon as one puts their foot through the door, they can see that no
+&+Yfloor, wall, or ceiling exists in this room! It is as though one were in the
+&+Ysky at nighttime. Stars and universes glitter with brightness. A sun is
+&+Yactive with several planets circling it. Many plasma formations and nebulas
+&+Yare also scattered about the stars. The room has a certain completeness to
+&+Yit. The universe does not feel as though it were a bunch of scattered stars
+&+Yand galaxies...but as one thing...one being. Within the active sun, a black
+&+Ydoor is barely visible. There are no exits other than this door.
+~
+709 176193608 0
+D1
+You see a door.
+~
+door~
+1 -1 70923
+D3
+You see a &+Ysun&N door.
+~
+door~
+2 70917 70925
+S
+#70925
+&+YThe Staff of Life~
+&+W   Again, there are no ceilings, floors, or walls in this room. There is
+&+Wjust blinding, searing bright light. One may have to cover their eyes to
+&+Wadjust to the light. To the west, a small cloud hovers under the light. A
+&+Wshimmering door lies west!
+~
+709 176193608 0
+D1
+~
+door~
+1 0 70924
+D3
+~
+door~
+0 0 70900
+S
+#70926
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70909
+S
+#70927
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70909
+S
+#70928
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70910
+D3
+~
+~
+0 0 70927
+S
+#70929
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70910
+S
+#70930
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70911
+S
+#70931
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70911
+S
+#70932
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70912
+S
+#70933
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70912
+S
+#70934
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70913
+S
+#70935
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70913
+S
+#70936
+&+YPirate's Tunnel~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D2
+~
+~
+0 0 70914
+S
+#70937
+RANDOM LOAD MOBILE TRAP ROOM~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+S
+#70938
+Lobos exit~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D5
+~
+~
+0 0 70909
+S
+#70939
+Lobos Loading Room~
+   The room is dark and cold. The floor is covered with sand, making it
+difficult to run quickly or dodge. Skeletons of knights who attempted to pass
+this room lie on the floor with daggers in their backs and sides. A hardy "Aye
+matey!" echoes through the cavern and other tunnels. Small tankards of ale are
+tipped on the ground, leaking their contents in the sand. Someone or something
+was here just a minute ago, drinking the ale, but seems to be missing at the
+moment.
+~
+709 167805000 0
+D0
+~
+~
+0 0 70937
+D1
+~
+~
+0 0 70937
+D2
+~
+~
+0 0 70937
+D3
+~
+~
+0 0 70937
+D4
+~
+~
+0 0 70937
+D5
+~
+~
+0 0 70938
+S
+#70999
+&+YBookend room so all objects and mobs show up using world command~
+~
+709 0 0
+S

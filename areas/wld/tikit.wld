@@ -1,0 +1,6698 @@
+#43700
+End Of The Path~
+The path seems to end here, and before you lies a vast city, overgrown and half
+hidden by the emmense forest. Fear starts to grip you, and you wonder if you
+should turn back now, or press onward.
+To the north, you see a large monument of some sort, portruding from the
+darkness.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43701
+D2
+~
+~
+0 0 43788
+S
+#43701
+&+WThe Archway&N~
+The monument you saw from the south turns out to be a large stone archway,
+which seems to mark the entrance to this once magnificent city. Standing on
+each side of the archway is a huge stone figure of some sort, depicting some
+kind of ape-like creature you have never before laid eyes on. A huge iron gate
+protects the city from intruders.
+~
+437 33554432 3
+D0
+This large iron gate is rusted from time, though still holds its purpose well
+enough.
+~
+gate iron~
+1 0 43702
+D2
+~
+~
+0 0 43700
+S
+#43702
+&+GCity Entrance~
+As you enter the ancient, ruined city, the thick cover of trees above you
+subsides a litte, making the sky partially visable.
+All around you see many buildings falling apart, but seemingly held together
+by the vines that cover them.
+Although the city may have been abandoned long ago, it appears to have been
+re-inhabited by some ape-like creatures that are wandering around. A feeling
+of dread seems to permeate from the air, and a slight shiver runs down your
+spine.
+To your east, west, and north, overgrown roads stem out into the city.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43740
+D1
+~
+~
+0 0 43752
+D2
+~
+gate gates~
+2 0 43701
+D3
+~
+~
+0 0 43703
+S
+#43703
+&+wA Well-Traveled Street&N~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. On the north side of the street,
+you see the side of an old stone building. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43702
+D2
+~
+vine~
+7 43754 43704
+D3
+~
+~
+0 0 43705
+S
+#43704
+&+GThe Snake&N &+LPit&N~
+You have entered a very dark room that seems to be a lair of some sort. Thick
+vines and underbrush surround this area, making it pitch-black. Loud hissing
+sounds come from all around, and bright yellow eyes stare at you from deep
+darkness.
+~
+437 1 3
+D0
+~
+vine~
+3 43754 43703
+S
+#43705
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. The street continues east and
+west, while from the north, the faint sounds of laughing can be heard.
+~
+437 33554432 1
+D0
+~
+door~
+1 0 43706
+D1
+~
+~
+0 0 43703
+D3
+~
+~
+0 0 43710
+S
+#43706
+&+LEntrance To The &+bInn&N~
+This must be where all the traveling beasts take refuge. This building
+amazingly has stayed, for the most part, intact for all these years. As you
+enter the room, you instantly feel safe, and your sense of dread that haunted
+you outside disappears. The laughing you heard outside seems to be coming
+from the west and north.
+~
+437 67109000 0
+D0
+~
+~
+0 0 43735
+D1
+~
+~
+0 0 43707
+D2
+~
+door~
+1 0 43705
+D3
+~
+~
+0 0 43709
+S
+#43707
+&+bInn &+Lof &+GTikitzopl~
+This room is quiet, and fairly plain. A wooden ladder leads up into the rooms.
+A counter takes up most of the east portion of this room. Behind the counter,
+a rather tall Ape-like beast is mumbling to himself.
+~
+437 67109000 0
+D3
+~
+~
+0 0 43706
+D4
+~
+~
+0 0 43708
+S
+#43708
+&+bInn &+Lof &+GTikitzopl~
+The Inn of Tikitzopl is the only safe place in town where one can get a good
+nights rest.
+~
+437 1309311196 0
+D5
+~
+~
+0 0 43707
+S
+#43709
+&+CAhmeni's &+RBar~
+This is the inn's bar, where the citizens and travelers come for a good time,
+good food, and good drinks. You feel very comfortable and safe here. This bar
+is crowded at all times, and the room is filled with laughter and loud talk.
+The inn stretches to the east and the bar continues north.
+~
+437 0 0
+D0
+~
+~
+0 0 43736
+D1
+~
+~
+0 0 43706
+S
+#43710
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. The street continues east and
+west. The side of a large stone building runs along the north side of the road.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43705
+D3
+~
+~
+0 0 43711
+S
+#43711
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. A small
+opening in the growth to the south permits passage, if you dare go that way.
+To the north is a small building, in poor shape like most of the buildings
+around here. The street continues east and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43712
+D1
+~
+~
+0 0 43710
+D2
+~
+~
+0 0 43713
+D3
+~
+~
+0 0 43714
+S
+#43712
+&+GA Small Temple&N~
+This small building appears to be a temple of some sort. There is a stone altar
+in the middle of the room, and a large statue depicting an ape-like creature.
+This building has been cleared of all vegetation, and lit torches adorn the
+walls.
+~
+437 8 0
+D2
+~
+~
+0 0 43711
+S
+#43713
+&+WSpider Web&N~
+A spider web of beautiful silk has been spun here, filling the whole room. A
+large pile of bones is on the ground, the blood sucked out of them and the meat
+rotted off. As you enter and touch the web, many spiders descend upon you...
+~
+437 1073741833 0
+D0
+~
+~
+0 0 43711
+S
+#43714
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. The street continues east and
+west, and a lesser traveled path leads north into darkness.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43715
+D1
+~
+~
+0 0 43711
+D3
+~
+~
+0 0 43717
+S
+#43715
+&+LA dark alley~
+Sticks, plants, and other various forms of vegetation crunch benearth your
+feet as you step into this alleyway.You are surrounded by buildings on both
+sides, and the vines here have spanned the alley, forming a natural roof over
+your head. You see a road to the south, and nothing but darkness to the north.
+~
+437 1 3
+D0
+~
+~
+0 0 43716
+D2
+~
+~
+0 0 43714
+S
+#43716
+&+LA dark alley~
+Sticks, plants, and other various forms of vegetation crunch benearth your
+feet as you step into this alleyway.You are surrounded by buildings on both
+sides, and the vines here have spanned the alley, forming a natural roof over
+your head. A street lies to the north, and you see complete darkness to the
+south.
+~
+437 1 3
+D0
+~
+~
+0 0 43731
+D2
+~
+~
+0 0 43715
+S
+#43717
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. A large stone door with an
+etching of an emerald lies to the north, with a torch on each side. The street
+continues east and west.
+~
+437 33554432 1
+D0
+~
+door~
+1 0 43718
+D1
+~
+~
+0 0 43714
+D3
+~
+~
+0 0 43721
+S
+#43718
+&+YThe Jeweler's Shop&N~
+This is a fairly large building, whose roof has obviously caved in long ago.
+Many etchings of different gems and jewels cover the walls, and the shape of
+a diamond has been carved in the dirt floor.
+~
+437 0 0
+D0
+~
+~
+0 0 43719
+D2
+~
+door~
+1 0 43717
+S
+#43719
+&+YThe Jeweler's Shop&N~
+This is a very well lit area in the building, with torches all along the walls.
+A large wooden sign resembling a ruby hangs from the ceiling. On the north side
+of the room are a few locked cabinets, probably containing jewelry of some
+sort. In the corner is a large work bench, which is well worn from time.
+~
+437 0 0
+D2
+~
+~
+0 0 43718
+D3
+~
+~
+0 0 43720
+S
+#43720
+&+YThe Jeweler's Shop&N~
+This room is almost identical to the one on the south side of the building.
+Etchings all along the wall resemble jewels of all sorts. A door leads out
+north into the street.
+~
+437 0 0
+D0
+~
+door~
+1 0 43729
+D1
+~
+~
+0 0 43719
+S
+#43721
+A well-traveled street~
+The street curves north here, as the forest becomes unpenatrable to the west,
+as well as the south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43722
+D1
+~
+~
+0 0 43717
+S
+#43722
+A well-traveled street~
+You come to another curve in the road here, twisting back west and south.
+~
+437 33554432 1
+D2
+~
+~
+0 0 43721
+D3
+~
+~
+0 0 43723
+S
+#43723
+A well-traveled street~
+The long road continues along the south side of the city. Exits lie to the
+east and west.
+~
+437 33554432 1
+D0
+~
+door~
+3 43728 43724
+D1
+~
+~
+0 0 43722
+D3
+~
+~
+0 0 43725
+S
+#43724
+A Small Dwelling~
+This building must be a dwelling of one of the citizens of the city. It is
+fairly empty, save the pile of leaves in the corner, which seems to be a bed.
+Like in almost all the buildings around here, vines and moss cover the walls,
+and extend through the holes in the roof.
+~
+437 8 0
+D2
+~
+door~
+3 43728 43723
+S
+#43725
+A well-traveled street~
+You continue along the well traveled road which runs along the boundary of
+the city.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43726
+D1
+~
+~
+0 0 43723
+S
+#43726
+A well-traveled street~
+You continue along the well traveled road which runs along the boundary of
+the city.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43727
+D2
+~
+~
+0 0 43725
+S
+#43727
+An intersection of roads~
+You come to another intersection in the road. A few young apemen play on the
+road here, as their mothers chat with each other. The main road continues east
+and west, and another road branches off to the south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43728
+D2
+~
+~
+0 0 43726
+D3
+~
+~
+0 0 43811
+S
+#43728
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. Crumbling
+boulders block what used to be an entrance to an ancient building to your
+north.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43729
+D3
+~
+~
+0 0 43727
+S
+#43729
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. There is a
+stone door to your south, and another road leads off to the north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43799
+D1
+~
+~
+0 0 43730
+D2
+~
+door~
+1 0 43720
+D3
+~
+~
+0 0 43728
+S
+#43730
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. The entrance
+to a small building is to the north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43798
+D1
+~
+~
+0 0 43731
+D3
+~
+~
+0 0 43729
+S
+#43731
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. An alley
+can be seen to the south, and an overgrown path is almost hidden to the north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43797
+D1
+~
+~
+0 0 43732
+D2
+~
+~
+0 0 43716
+D3
+~
+~
+0 0 43730
+S
+#43732
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. The smell of
+bread baking comes from the north, and there is a lot of loud noise coming
+from the south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43796
+D1
+~
+~
+0 0 43733
+D2
+~
+door~
+1 0 43737
+D3
+~
+~
+0 0 43731
+S
+#43733
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. An entrance
+to a shop is north of here.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43795
+D1
+~
+~
+0 0 43734
+D3
+~
+~
+0 0 43732
+S
+#43734
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. Another
+entrance to the bar lies to the south, while to the north, the street seems to
+open up a bit into a large plaza.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43794
+D1
+~
+~
+0 0 43738
+D2
+~
+door~
+1 0 43735
+D3
+~
+~
+0 0 43733
+S
+#43735
+&+CAhmeni's &+RBar~
+This bar is big, crowded, and very loud. Many apemen sit here drinking and
+laughing, and the crowd continues to the west. It seems oddly quiet to the
+south.
+~
+437 0 0
+D0
+~
+door~
+1 0 43734
+D2
+~
+~
+0 0 43706
+D3
+~
+~
+0 0 43736
+S
+#43736
+&+CAhmeni's&+R Bar~
+Wooden tables scatter this room, with many drunken ape-men filling the chairs.
+The bar continues east, west, and south.
+~
+437 8 0
+D1
+~
+~
+0 0 43735
+D2
+~
+~
+0 0 43709
+D3
+~
+~
+0 0 43737
+S
+#43737
+&+REntrance To A Bar&N~
+Tables are filled here with many apemen having drinks and socializing. It's
+quite a bit warmer here than outside, almost cozy. The building extends to the
+east, and an exit back out to the street is to the north.
+~
+437 0 0
+D0
+~
+door~
+1 0 43732
+D1
+~
+~
+0 0 43736
+S
+#43738
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+This stretch of road seems to go on forever to the east and west. A busy
+intersection is to the east, and an archway to the south leads into a crumbling
+building. A large plaza can be seen to the north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43791
+D1
+~
+~
+0 0 43742
+D2
+~
+~
+0 0 43739
+D3
+~
+~
+0 0 43734
+S
+#43739
+&+LAn&N &+rAp&+Rot&+Yhe&+Rca&+rry~
+Judging by all the vials there are on the shelves and counters, it would appear
+that this is an apothecary. There are many holes in the ceiling of this
+crumbling building, yet due to the dense cover of trees above, very little
+light shines through.
+~
+437 67108992 0
+D0
+~
+~
+0 0 43738
+S
+#43740
+A heavily-traveled street~
+You follow what seems to be the main road leading into the heart of the city.
+Vines and other overgrowth cover all the buildings around you, as well as the
+road beneath your feet, and the trees form a cover of darkness above your head.
+Ape-like animals that really look more like humans frequent this street, eyeing
+you cautiously. The road continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43741
+D2
+~
+~
+0 0 43702
+S
+#43741
+A heavily-traveled street~
+You follow what seems to be the main road leading into the heart of the city.
+Vines and other overgrowth cover all the buildings around you, as well as the
+road beneath your feet, and the trees form a cover of darkness above your head.
+Ape-like animals that really look more like humans frequent this street, eyeing
+you cautiously. The road continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43742
+D2
+~
+~
+0 0 43740
+S
+#43742
+A busy intersection~
+This is a very busy intersection in the heart of the city. The ground here is
+for the most part cleared of all debris, probably kicked away by the large
+amount of animals walking through here. Many apemen walk by as you stand
+around. A well here taps pure water from deep beneath the soil. Roads stem out
+in all directions.
+~
+437 33685504 1
+D0
+~
+~
+0 0 43776
+D1
+~
+~
+0 0 43743
+D2
+~
+~
+0 0 43741
+D3
+~
+~
+0 0 43738
+S
+#43743
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+Thorny bushes cover the buildings which line the street. Trees which look as
+old as time itself stem forever upwards, disappearing into the sky. This
+stretch of road seems to go on forever to the east and west. A large stone
+building can be entered to the south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43744
+D2
+~
+~
+0 0 43748
+D3
+~
+~
+0 0 43742
+S
+#43744
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+Thorny bushes cover the buildings which line the street. Trees which look as
+old as time itself stem forever upwards, disappearing into the sky. This
+stretch of road seems to go on forever to the east and west. An &+marmory&N shop
+can be entered to the north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43745
+D1
+~
+~
+0 0 43751
+D3
+~
+~
+0 0 43743
+S
+#43745
+&+cThe&n &+mArmoury~
+Displayed in this room are many pieces of jewelry. Cabinets filled with rings,
+amulets and bracelets line the walls, open, but ready to be locked come
+closing. The room seems to shine from the glow emitting from the magical
+jewelry. The main room of the armory is west, a city street is south.
+~
+437 8 0
+D2
+~
+~
+0 0 43744
+D3
+~
+~
+0 0 43746
+S
+#43746
+&+cThe&N &+mArmoury~
+Many different suits of armor, of many different styles and materials adorn
+the walls of this building. Various pairs of boots and leggings, and sleeves
+and gauntlets are displayed on the ground. A row of helms line the counter
+which sits in the back of the building. A large gorialla has been carved into
+the north wall. Another room in the building is to the east, and a city street
+beckons to the west.
+~
+437 67109000 0
+D0
+~
+door~
+7 43712 43747
+D1
+~
+~
+0 0 43745
+D3
+~
+~
+0 0 43776
+S
+#43747
+&+y A store room~
+This is a small, cramped room which has been turned into a store room for the
+armory. Different pieces of valuable armor litter the ground, making it hard
+to move around. The only exit is back south into the shop.
+~
+437 8457 0
+D2
+~
+door~
+3 43712 43746
+S
+#43748
+&+cThe &+CWeaponry~
+Two large, &+Rv&+ri&+Rc&+ri&+Ro&+ru&+Rs&N looking swords form a huge &+LX&N on the back wall of this
+building. A smaller set form a little&+L X&N over the exit to the east. In the
+center of the room is a dummy, dressed in chainmail, obviously used for
+improving weapon skills on. In one of his hands is a large battle sledge, a
+spiked tower shield in the other. The rest of the shop is east, and the exit
+to the street is north.
+~
+437 8 0
+D0
+~
+~
+0 0 43743
+D1
+~
+~
+0 0 43749
+S
+#43749
+&+cThe &+CWeaponry~
+Blades of the finest steel, bows of the finest wood, and many other weapons
+line the walls of this room. Maces and hammers hang from hooks in the walls.
+Daggers and throwing knives lie neatly on a large counter in the center of the
+room. Staffs and slings are displayed on wooden racks on the north side of the
+room. The amount of weapons in this room alone is enough to equip an entire
+army. West lies the&+C weaponry&N entrance, east is the &+Rforging&+r room&N.
+~
+437 136 0
+D1
+~
+door~
+0 0 43750
+D3
+~
+~
+0 0 43748
+S
+#43750
+&+cThe&N &+RForging &+rRoom&N~
+The bulk of this room is filled with forging supplies. A huge anvil lies in
+the center of the room, occupying almost half of the space in this area.
+Forging hammers sit on tables around the room. A large &+Rf&+ri&+Rr&+re&N roars in a big
+fireplace on the east wall. A coat-of-arms hangs on the south wall. The main
+room of the &+Cweaponry&N is west.
+~
+437 8 0
+D2
+~
+door~
+7 43713 43757
+D3
+~
+~
+0 0 43749
+S
+#43751
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+Thorny bushes cover the buildings which line the street. Trees which look as
+old as time itself stem forever upwards, disappearing into the sky. This
+stretch of road seems to go on forever to the east and west. The sound of a
+flowing river can be heard east.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43766
+D3
+~
+~
+0 0 43744
+S
+#43752
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. On the north side of the street,
+you see the side of an old stone building. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43753
+D3
+~
+~
+0 0 43702
+S
+#43753
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. On the north side of the street,
+there is an entrance to a large dwelling. The street continues east and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43754
+D1
+~
+~
+0 0 43756
+D3
+~
+~
+0 0 43752
+S
+#43754
+&+wA Large Dwelling&N~
+&+RBlood&N splatters the walls here, turning the normal &+Lgrey&N stone walls&+r deep red&N.
+Cages filled with frightened cats fill this room, stacked 4 or 5 cages high,
+all along the walls. Painful cries and meuws can be heard coming from the west,
+and some blood squirts in from that direction as a flash of &+Clightning&N lights
+up the room. The street lies to the south.
+~
+437 8 0
+D2
+~
+~
+0 0 43753
+D3
+~
+~
+0 0 43755
+S
+#43755
+&+LA&+r Tort&+Rure R&+Yoom&N~
+&+RBlood&N splatters the walls here, turning the normal &+Lgrey&N stone walls&+r deep red&N.
+Cages filled with frightened cats fill this room, stacked 4 or 5 cages high,
+all along the walls. Many corpses of cats lie on the ground, some decayed with
+maggots almost done with their meal, others freshly killed. A few cat skulls
+scatter the ground, detached from the rest of their bodies. &+bB&+Br&+ba&+Bi&+bn&+Bs&N ooze down
+the walls, and pieces of fur and flesh stick to the ceiling. More carnage can
+be seen east.
+~
+437 0 0
+D1
+~
+~
+0 0 43754
+S
+#43756
+A well-traveled street~
+You are walking down an ancient street that seems well traveled. Vines and
+brush form an unpenatrable wall to the south. A bridge can be seen to the east,
+and the sound of a river also comes from that direction. The street continues
+east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43762
+D3
+~
+~
+0 0 43753
+S
+#43757
+&+cThe &+CWeaponry&N &+cStoreroom&N~
+Heaps of weapons lay in piles on the floor here. This must be the room where
+all of the displayed weapons are kept when the weapon shop is closed. The room
+is small and cramped, the walls are barren and cracked, and the only exit out
+is back into the &+Rforging&+r room&N to the north.
+~
+437 8201 0
+D0
+~
+door~
+3 43713 43750
+S
+#43758
+&+BAlong the &+GTikitzopl&+B River~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. Thick vines and brush make passage south impossible.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43759
+S
+#43759
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43760
+D2
+~
+~
+0 0 43758
+S
+#43760
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43761
+D2
+~
+~
+0 0 43759
+S
+#43761
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl &+bRiver&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. A &+ywooden bridge&N spans the river overhead.
+~
+437 33554436 6
+D0
+~
+~
+0 0 43763
+D2
+~
+~
+0 0 43760
+S
+#43762
+&+wA Narrow&N &+yWooden Bridge&N~
+A small, narrow wooden bridge crosses the&+G Tikitzopl&+b River&N here, looking rather
+worn with age. Some of the boards on the bridge are loose, and feel as though
+they could collapse if too much weight was put on them. The street west heads
+back into the main part of the city, and to the east, the street leads towards
+some citizens' homes.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43891
+D3
+~
+~
+0 0 43756
+D5
+~
+~
+0 0 43761
+S
+#43763
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43764
+D2
+~
+~
+0 0 43761
+S
+#43764
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43765
+D2
+~
+~
+0 0 43763
+S
+#43765
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. A sturdy, &+ywooden bridge&N crosses the river overhead.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43767
+D2
+~
+~
+0 0 43764
+D4
+~
+~
+0 0 43766
+S
+#43766
+A sturdy &+ywooden bridge~
+A large, sturdy wooden bridge spans the path here, as the ever flowing
+&+GTikitzopl&+b River&N runs beneath. A few apemen stand on the bridge looking over
+the side, relaxing and staring into the&+b river&N. The much used road continues
+east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43853
+D3
+~
+~
+0 0 43751
+D5
+~
+~
+0 0 43765
+S
+#43767
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D2
+~
+~
+0 0 43765
+D3
+~
+~
+0 0 43768
+S
+#43768
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43769
+D1
+~
+~
+0 0 43767
+S
+#43769
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D2
+~
+~
+0 0 43768
+D3
+~
+~
+0 0 43770
+S
+#43770
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43771
+D1
+~
+~
+0 0 43769
+S
+#43771
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D2
+~
+~
+0 0 43770
+D3
+~
+~
+0 0 43772
+S
+#43772
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43771
+D3
+~
+~
+0 0 43773
+S
+#43773
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. A large &+Lstone bridge&N can be seen overhead.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43772
+D3
+~
+~
+0 0 43777
+S
+#43774
+&+LA large stone bridge~
+A large stone bridge spans the river here, still in decent shape after all this
+time. Below is the &+GTikitzopl &+bRiver&n, flowing gently as it winds its way through
+this once great city. The street strectches north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43828
+D2
+~
+~
+0 0 43775
+D5
+~
+~
+0 0 43773
+S
+#43775
+A heavily-traveled street~
+You follow what seems to be the main road leading into the heart of the city.
+Vines and other overgrowth cover all the buildings around you, as well as the
+road beneath your feet, and the trees form a cover of darkness above your head.
+Ape-like animals that really look more like humans frequent this street, eyeing
+you cautiously. The road continues north and south, and a large plaza can be
+seen west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43774
+D2
+~
+~
+0 0 43776
+D3
+~
+~
+0 0 43792
+S
+#43776
+A heavily-traveled street~
+You follow what seems to be the main road leading into the heart of the city.
+Vines and other overgrowth cover all the buildings around you, as well as the
+road beneath your feet, and the trees form a cover of darkness above your head.
+Ape-like animals that really look more like humans frequent this street, eyeing
+you cautiously. A large plaza can be seen to the west, and they city's armory
+is to the east. The road continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43775
+D1
+~
+~
+0 0 43746
+D2
+~
+~
+0 0 43742
+D3
+~
+~
+0 0 43791
+S
+#43777
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43773
+D3
+~
+~
+0 0 43778
+S
+#43778
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43777
+D3
+~
+~
+0 0 43779
+S
+#43779
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43778
+D2
+~
+~
+0 0 43780
+S
+#43780
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43779
+D3
+~
+~
+0 0 43781
+S
+#43781
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43780
+D3
+~
+~
+0 0 43782
+S
+#43782
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. The cliffs subside a bit to the south here, as a small path meets up with
+the rivers edge.
+~
+437 33554432 6
+D1
+~
+~
+0 0 43781
+D2
+~
+~
+0 0 43797
+D3
+~
+~
+0 0 43783
+S
+#43783
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43784
+D1
+~
+~
+0 0 43782
+S
+#43784
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43785
+D2
+~
+~
+0 0 43783
+S
+#43785
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43786
+D2
+~
+~
+0 0 43784
+S
+#43786
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. A &+Lstone bridge&N crosses overhead.
+~
+437 33554432 6
+D0
+~
+~
+0 0 43787
+D2
+~
+~
+0 0 43785
+S
+#43787
+&+BAlong the &+GTikitzopl &+BRiver~
+This is the &+GTikitzopl&+b River&N, a fairly docile and narrow river that is the major
+water supply for many animals living in the surrounding area. Ruins of old
+buildings can be seen around as the river flows through the once great city of
+Tikitzopl. The waters wind their way through a deep gorge, with steep walls on
+both sides, which cuts its way through the city. The walls of the gorge are
+wet and smooth, preventing any climbing, and rarely allowing access up to the
+city. Thick vines and brush make passage north impossible.
+~
+437 33554432 6
+D2
+~
+~
+0 0 43786
+S
+#43788
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 33554432 3
+D0
+~
+~
+0 0 43700
+D2
+~
+~
+0 0 43789
+S
+#43789
+&+gA Dark Forest Path&n~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43788
+D2
+~
+~
+0 0 43790
+S
+#43790
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43789
+D1
+~
+~
+0 0 43867
+S
+#43791
+&+YThe plaza~
+This is the southeast corner of a fairly large plaza, where many of the
+citizens of this city gather after a hard darys work. The ground is cleared of
+all vegetation, leaving just a well padded dirt ground beneath your feet.
+Wooden benches can be seen around different parts of the plaza, and a large
+wooden statue of a gorilla-like animal dominates the center of the plaza. Small
+carts of various arts and crafts line the plaza, as do other stands selling
+fruits and vegetables.
+The plaza continues north and west, and some city streets lie east and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43792
+D1
+~
+~
+0 0 43776
+D2
+~
+~
+0 0 43738
+D3
+~
+~
+0 0 43794
+S
+#43792
+&+Y The plaza~
+This is the southeast corner of a fairly large plaza, where many of the
+citizens of this city gather after a hard darys work. The ground is cleared of
+all vegetation, leaving just a well padded dirt ground beneath your feet.
+Wooden benches can be seen around different parts of the plaza, and a large
+wooden statue of a gorilla-like animal dominates the center of the plaza. Small
+carts of various arts and crafts line the plaza, as do other stands selling
+fruits and vegetables. The &+GTikitzopl &+briver&N flows around this part of the plaza,
+adding even more to the serenity.
+The plaza continues south and west, and you can always jump down the steep
+cliff, into the &+briver&N to the north. A heavily-traveled street is to the
+east.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43777
+D1
+~
+~
+0 0 43775
+D2
+~
+~
+0 0 43791
+D3
+~
+~
+0 0 43793
+S
+#43793
+&+YThe plaza~
+This is the southeast corner of a fairly large plaza, where many of the
+citizens of this city gather after a hard darys work. The ground is cleared of
+all vegetation, leaving just a well padded dirt ground beneath your feet.
+Wooden benches can be seen around different parts of the plaza, and a large
+wooden statue of a gorilla-like animal dominates the center of the plaza. Small
+carts of various arts and crafts line the plaza, as do other stands selling
+fruits and vegetables. The &+GTikitzopl &+briver&N flows around this part of the plaza,
+adding even more to the serenity.
+The plaza continues south and east, and you can always jump down the steep
+cliff, into the &+briver&N to the west and north.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43778
+D1
+~
+~
+0 0 43792
+D2
+~
+~
+0 0 43794
+D3
+~
+~
+0 0 43780
+S
+#43794
+&+YThe plaza~
+This is the southeast corner of a fairly large plaza, where many of the
+citizens of this city gather after a hard darys work. The ground is cleared of
+all vegetation, leaving just a well padded dirt ground beneath your feet.
+Wooden benches can be seen around different parts of the plaza, and a large
+wooden statue of a gorilla-like animal dominates the center of the plaza. Small
+carts of various arts and crafts line the plaza, as do other stands selling
+fruits and vegetables.
+The plaza continues north and east, and the exit to the south leads back onto
+a city street.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43793
+D1
+~
+~
+0 0 43791
+D2
+~
+~
+0 0 43734
+S
+#43795
+&+cShop of general wares~
+Various tools and gidgets are scattered atop the counters in here. Cabinets
+hang from the walls, filled with trinkets and foods. The building doesnt look
+very safe, almost like it could collapse at any time.
+~
+437 67108872 0
+D2
+~
+~
+0 0 43733
+S
+#43796
+The&+y Bakery~
+The smell of fresh baked food fills the air here. Breads fill the shelves
+which line the walls of this small building. A large oven takes up most of the
+back part of the room. The only exit is back south.
+~
+437 67108872 0
+D2
+~
+~
+0 0 43732
+S
+#43797
+&+BRivers&+c edge~
+A small path here leads down to the rivers edge, providing access to the river.
+Thick underbrush makes it kind of hard to move here, and the trees provide a
+natural ceiling over your head. To the north lies a slow moving river. The
+south exit leads back to the street.
+~
+437 1 3
+D0
+~
+~
+0 0 43782
+D2
+~
+~
+0 0 43731
+S
+#43798
+&+GA small temple~
+This small building appears to be a temple of some sort. There is a stone altar
+in the middle of the room, and a large statue depicting an ape-like creature.
+This building has been cleared of all vegetation, and lit torches adorn the
+walls.
+~
+437 8 0
+D2
+~
+~
+0 0 43730
+S
+#43799
+&+LA Dark Path&N~
+This narrow path is so overgrown, it makes it very hard to move through. Old
+stones from crumbling buildings scatter the ground, trees above you block all
+light from entering.
+~
+437 8193 3
+D0
+~
+~
+0 0 43800
+D2
+~
+~
+0 0 43729
+S
+#43800
+&+LA Dark Path Along The&N &+bRiver&N~
+This narrow path is so overgrown, it makes it very hard to move through. Old
+stones from crumbling buildings scatter the ground, trees above you block all
+light from entering. The sound of flowing water can be heard to the east. The
+vines seem to open up a bit to the west.
+~
+437 1 3
+D0
+~
+~
+0 0 43801
+D2
+~
+~
+0 0 43799
+D3
+These vines look like they can be pushed apart with a bit of effort, and there
+seems to be something behind them....
+~
+vine vines~
+5 0 43818
+S
+#43801
+&+LA Dark Path Along The&N &+bRiver&N~
+This narrow path is so overgrown, it makes it very hard to move through. Old
+stones from crumbling buildings scatter the ground, trees above you block all
+light from entering. The sound of flowing water can be heard to the east.
+~
+437 8193 3
+D0
+~
+~
+0 0 43802
+D2
+~
+~
+0 0 43800
+S
+#43802
+&+LA Dark Path Along The&N &+bRiver&N~
+This narrow path is so overgrown, it makes it very hard to move through. Old
+stones from crumbling buildings scatter the ground, trees above you block all
+light from entering. The sound of flowing water can be heard to the east.
+~
+437 8193 3
+D0
+~
+~
+0 0 43803
+D2
+~
+~
+0 0 43801
+S
+#43803
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues east and west, and an
+unpenatrable wall of vines and trees blocks the way north. A dark path can
+be seen to the south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43821
+D2
+~
+~
+0 0 43802
+D3
+~
+~
+0 0 43804
+S
+#43804
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues east and west, and an
+unpenatrable wall of vines and trees blocks the way north. A fair-sized
+building is to the south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43803
+D2
+~
+~
+0 0 43819
+D3
+~
+~
+0 0 43805
+S
+#43805
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues east and south, and an
+unpenatrable wall of vines and trees blocks the way west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43804
+D2
+~
+~
+0 0 43806
+S
+#43806
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues north and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43805
+D3
+~
+~
+0 0 43807
+S
+#43807
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues east and south, and an
+unpenatrable wall of vines and trees blocks the way west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43806
+D2
+~
+~
+0 0 43808
+S
+#43808
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues north and south, and an
+unpenatrable wall of vines and trees blocks the way west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43807
+D2
+~
+~
+0 0 43809
+S
+#43809
+A lesser-traveled street~
+This road does not seem to get much use, as the forest envelops the street,
+making it harder to travel on. The street continues north and south, and an
+unpenatrable wall of vines and trees blocks the way west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43808
+D2
+~
+~
+0 0 43810
+S
+#43810
+A lesser-traveled street~
+The road here heads north and south as it wraps its way around the city. To
+the west, another road disappears into darkness.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43809
+D2
+~
+~
+0 0 43811
+D3
+~
+gates~
+1 0 43812
+S
+#43811
+A well-traveled street~
+You continue along the well traveled road which runs along the boundary of
+the city.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43810
+D1
+~
+~
+0 0 43727
+S
+#43812
+The western entrance~
+This is the western entrance to the city. A large stone archway with large
+steel gates marks the entry. An immense forest surrouds you, as the city lies
+east.
+~
+437 33554432 3
+D1
+~
+gate steel~
+1 0 43810
+D3
+~
+~
+0 0 43813
+S
+#43813
+A dark forest path~
+This is a dark, eerily silent forest path. To the east, a large, once great
+city emerges from the dense forest. To the west, the trees and vegetation form
+a wall, preventing passage in that direction.
+~
+437 33554432 3
+D1
+~
+~
+0 0 43812
+S
+#43814
+&+yAn Old Library&N~
+By the number of broken bookshelves all around, its obvious that this building
+used to be a library. A few battered books lie around, untouched for ages. This
+building has probably not seen a human visitor in a long time, though it seems
+to have become a home for some other animals..
+To the south, what used to be the entrance to this library, the wall has
+crumbled, almost blocking off the exit. It looks like it might be climbable to
+get out.
+~
+437 1 0
+D2
+~
+~
+0 0 43728
+D3
+~
+~
+0 0 43815
+S
+#43815
+&+yAn Old Library&N~
+By the number of broken bookshelves all around, its obvious that this building
+used to be a library. A few battered books lie around, untouched for ages. This
+building has probably not seen a human visitor in a long time, though it seems
+to have become a home for some other animals..
+~
+437 1 0
+D0
+~
+~
+0 0 43816
+D1
+~
+~
+0 0 43814
+S
+#43816
+&+yAn Old Library&N~
+By the number of broken bookshelves all around, its obvious that this building
+used to be a library. A few battered books lie around, untouched for ages. This
+building has probably not seen a human visitor in a long time, though it seems
+to have become a home for some other animals..
+There is a big hole in the east wall here, which heads back out into the city.
+~
+437 1 0
+D0
+~
+~
+0 0 43817
+D1
+~
+~
+0 0 43818
+D2
+~
+~
+0 0 43815
+S
+#43817
+&+yAn Old Library&N~
+By the number of broken bookshelves all around, its obvious that this building
+used to be a library. A few battered books lie around, untouched for ages. This
+building has probably not seen a human visitor in a long time, though it seems
+to have become a home for some other animals..
+~
+437 1 0
+D2
+~
+~
+0 0 43816
+S
+#43818
+A small opening in the forest~
+The ground is padded down here a bit, forming a nest of some sorts. Thorny
+bushes surround the area, and a bit of sky is barely visable through a hole
+in the cover of trees above you. A hole in the side of a building to the west
+permits access, though the structure looks almost ready to fall apart.
+~
+437 33554432 3
+D1
+~
+vine~
+1 0 43800
+D3
+~
+~
+0 0 43816
+S
+#43819
+A large dwelling~
+Various plants decorate this room, placed inbetween a number of chairs which
+line the walls. In the middle of the room is a large wooden sculpture, in a
+shape that looks like a mutated gorilla. The dwelling continues south, and to
+the north, the city beckons.
+~
+437 9 0
+D0
+~
+~
+0 0 43804
+D2
+~
+~
+0 0 43820
+S
+#43820
+A bedroom in a large dwelling~
+Stemming from the center of this room, a large tree portrudes out a hole in
+the ceiling, and extends up towards the sky. On the east side of the room, a
+bed has been made out of twigs and leaves, looking rather comfortable. On a
+stand beside the bed rests a small figurine, shaped like the sculpture in the
+other room.
+~
+437 1 0
+D0
+~
+~
+0 0 43819
+S
+#43821
+&+LA small stone bridge~
+A stone bridge spans the river here, still in decent shape after all this time.
+Below is the &+GTikitzopl &+bRiver&n, flowing gently as it winds its way through this
+once great city. The street strectches east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43822
+D3
+~
+~
+0 0 43803
+D5
+~
+~
+0 0 43786
+S
+#43822
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north, though to the south, an old theater still draws a crowd. The street
+continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43823
+D2
+~
+~
+0 0 43829
+D3
+~
+~
+0 0 43821
+S
+#43823
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north, though to the south, an old theater still draws a crowd. The street
+continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43824
+D2
+~
+~
+0 0 43830
+D3
+~
+~
+0 0 43822
+S
+#43824
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. A building in poor shape is to the south. The street continues east and
+west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43825
+D2
+~
+~
+0 0 43833
+D3
+~
+~
+0 0 43823
+S
+#43825
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43826
+D3
+~
+~
+0 0 43824
+S
+#43826
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street continues east and west, and a magic shop is to the south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43827
+D2
+~
+~
+0 0 43835
+D3
+~
+~
+0 0 43825
+S
+#43827
+An intersection of roads~
+Two roads intersect here, one leading east and west, while a much more
+frequently traveled road stretches south. A dark path leads north, deep into
+the dark forest. Wandering apemen roam around, going about their own business.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43950
+D1
+~
+~
+0 0 43837
+D2
+~
+~
+0 0 43828
+D3
+~
+~
+0 0 43826
+S
+#43828
+A heavily-traveled street~
+You follow what seems to be the main road leading into the heart of the city.
+Vines and other overgrowth cover all the buildings around you, as well as the
+road beneath your feet, and the trees form a cover of darkness above your head.
+Ape-like animals that really look more like humans frequent this street, eyeing
+you cautiously. A strong magical presence can be felt to the west, and a small
+building can be entered to the east.  The road continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43827
+D1
+~
+~
+0 0 43836
+D2
+~
+~
+0 0 43774
+D3
+~
+~
+0 0 43835
+S
+#43829
+An outdoor theater~
+Rows and rows of seats are here, all facing south towards a large stage. This
+appears to be a large theater which provides some entertainment for these new
+citizens of the city. The &+GTikitzopl &+briver&N can be heard to the west, and the
+many rows of seats continue east.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43822
+D1
+~
+~
+0 0 43830
+D2
+~
+~
+0 0 43832
+S
+#43830
+An outdoor theater~
+Rows and rows of seats are here, all facing south towards a large stage. This
+appears to be a large theater which provides some entertainment for these new
+citizens of the city. A few apemen sit here chatting with each other. The many
+rows of seats continue west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43823
+D2
+~
+~
+0 0 43831
+D3
+~
+~
+0 0 43829
+S
+#43831
+A theater stage~
+With the ever flowing &+GTikitzopl &+briver &Nsurrounding it, this stage must have
+been a magnificent spot for a play. The stage now seems to be in poor
+condition, although it still looks like it is used fairly often. Many rows of
+seats continue to the north, while the large stage stretches west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43830
+D3
+~
+~
+0 0 43832
+S
+#43832
+A theater stage~
+With the ever flowing &+GTikitzopl &+briver &Nsurrounding it, this stage must have
+been a magnificent spot for a play. The stage now seems to be in poor
+condition, although it still looks like it is used fairly often. Many rows of
+seats continue to the north, while the large stage stretches east.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43829
+D1
+~
+~
+0 0 43831
+S
+#43833
+An old jail~
+Most likey, this old building was a jail. The poor condition of it probably
+prevents any of the ape creatures to inhabit this structure. An old wooden
+desk is on the far side of the room, and an iron gate is rusted open, leading
+east into another room.
+~
+437 9 0
+D0
+~
+~
+0 0 43824
+D1
+~
+~
+0 0 43834
+S
+#43834
+An old jail~
+Here is where all the cells for the jail are. At one point in time, these cells
+were most likely filled with many criminals. Now, however, all the cell doors
+are rusted shut, and all efforts to open them turn out to be futile. Bits of
+the ceiling fall on top of you, and you wonder if you should stay here much
+longer.
+~
+437 9 0
+D3
+~
+~
+0 0 43833
+S
+#43835
+A &+Ymagic &+yshop~
+An aura of magic fills this shop of arcane wares. Wands and other magic
+paraphenilia can be seen all over this building. In the center of the room is
+a large desk, with many scrolls lying on it. On the far end of the room, a
+counter provides some workspace for the magician that runs this shop.
+Exits back to the city lie to the east and north.
+~
+437 67109000 0
+D0
+~
+~
+0 0 43826
+D1
+~
+~
+0 0 43828
+S
+#43836
+&+GA small temple~
+This small building appears to be a temple of some sort. There is a stone altar
+in the middle of the room, and a large statue depicting an ape-like creature.
+This building has been cleared of all vegetation, and lit torches adorn the
+walls.
+~
+437 8 0
+D3
+~
+~
+0 0 43828
+S
+#43837
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43838
+D3
+~
+~
+0 0 43827
+S
+#43838
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. A huge building in amazingly good shape is south. The street continues
+east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43842
+D2
+~
+~
+0 0 43839
+D3
+~
+~
+0 0 43837
+S
+#43839
+&+GA large temple~
+Carvings of many creatures line the walls of this building. The most common
+carving in these hyroglyphs is that of the same gorilla seen in carvings and
+statues all over the city. Guarding this gorilla in the carvings is another
+fierce looking creature, with&+R glowing&+r red&N eyes. The temple continues east, and
+they city lies back north.
+~
+437 8 0
+D0
+~
+~
+0 0 43838
+D1
+~
+~
+0 0 43840
+S
+#43840
+&+GA large temple~
+This large room is void of all carvings. It is void of everything for that
+matter, save two large stone sculptures; One of the revered gorilla creature,
+the other of his guardian with &+Rglowing &+rred &Neyes, just like on the walls in the
+western room. The sculptures stand near the entrance to a room south of here.
+~
+437 9 0
+D2
+~
+~
+0 0 43841
+D3
+~
+~
+0 0 43839
+S
+#43841
+&+wThe&+W meeting&+L chamber&N~
+This is where the members of the &+rHig&+Rh Co&+Yunc&+Ri&+rl&N hold there meetings about the
+condition of their city. A huge, rectangular table, made of the finest oak
+occupies the center of this room. Decorated chairs surround the table, also
+crafted from quality wood. In the middle of the table is a small wooden figure
+of the mutated gorilla whose image is seen all over. Hyroglyphs covering the
+walls tell stories of the past. The only exit is north, back into the rest of
+the temple.
+~
+437 9 0
+D0
+~
+~
+0 0 43840
+S
+#43842
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43843
+D3
+~
+~
+0 0 43838
+S
+#43843
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north or east. The street continues south and west.
+~
+437 33554432 1
+D2
+~
+~
+0 0 43844
+D3
+~
+~
+0 0 43842
+S
+#43844
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. The sides of different buildings can be seen on the south and west
+sides of this street, as it twists north and east.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43843
+D1
+~
+~
+0 0 43845
+S
+#43845
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43846
+D3
+~
+~
+0 0 43844
+S
+#43846
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north or east. The street continues south and west.
+~
+437 33554432 1
+D2
+~
+~
+0 0 43847
+D3
+~
+~
+0 0 43845
+S
+#43847
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+east. A large dwelling is to the west. The street continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43846
+D2
+~
+~
+0 0 43850
+D3
+~
+~
+0 0 43848
+S
+#43848
+A pet shop~
+Animals of the forest, common and rare alike, lie in cages here, looking
+emptily out at nothing. Snakes of all sorts, birds, horses, lions, and griffons
+are caged or tied up, all waiting to be sold. The building continues west.
+~
+437 8 0
+D1
+~
+~
+0 0 43847
+D3
+~
+~
+0 0 43849
+S
+#43849
+A pet shop~
+This room is larger than the east room. Many more cages filled with helpless
+animals are here, along with just as many others that are tied to stands along
+the walls. The only exit is back east.
+~
+437 9 0
+D1
+~
+~
+0 0 43848
+S
+#43850
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+east. The street continues north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43847
+D2
+~
+~
+0 0 43851
+S
+#43851
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+east. The street continues north and intersects with another road to the south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43850
+D2
+~
+~
+0 0 43852
+S
+#43852
+An intersection of roads~
+The main road running east and west intersects with the city's border road
+leading north. A few benches line the sides of the street, allowing tired
+apemen to rest for a bit. An entrance to a fair sized building is to the south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43851
+D1
+~
+~
+0 0 43861
+D2
+~
+~
+0 0 43859
+D3
+~
+~
+0 0 43853
+S
+#43853
+A heavily-traveled street~
+You are walking along what appears to be one of the busiest roads in the city.
+Thorny bushes cover the buildings which line the street. Trees which look as
+old as time itself stem forever upwards, disappearing into the sky. This
+stretch of road seems to go on forever to the east and west. The sound of a
+flowing river can be heard west. Entrances to buildings are on both sides of
+the street.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43854
+D1
+~
+~
+0 0 43852
+D2
+~
+~
+0 0 43857
+D3
+~
+~
+0 0 43766
+S
+#43854
+Entrance of the &+brepair shop~
+The entrance to this structure is littered with broken and damaged pieces of
+equipment, making it hard to walk through. Most of what lies in this room is
+worn-out, or bludgeoned armor of many different sorts. The roof of this
+building seems about to give at any time. More of the &+brepair shop&N is to the
+north, and they city street is back south.
+~
+437 9 0
+D0
+~
+~
+0 0 43855
+D2
+~
+~
+0 0 43853
+S
+#43855
+The &+brepair shop~
+This room is very similar to the room to the south, with the exception that
+most of the cluter here is damaged weapons, instead of armor. Damaged and dull
+axes, swords, and other weapons lie on the floor, and on the many tables in
+this room. Exits are to the south and west.
+~
+437 9 0
+D2
+~
+~
+0 0 43854
+D3
+~
+~
+0 0 43856
+S
+#43856
+The &+brepair shop~
+This spacious room is a vast contrast to the rooms leading here. Fixed weapons
+and armor are neatly organized on shelves and tables, the ground is clear of
+any debris that might get in the way, and the room actually looks well
+maintained. A workbench at the back of the room has a few weapons and tools
+lying on it.
+~
+437 9 0
+D1
+~
+~
+0 0 43855
+S
+#43857
+A large dwelling~
+Judging by the size of this building, it would appear that one of the more
+wealthy residents of the city lives here. Various plants decorate this room,
+placed inbetween a number of chairs which line the walls. In the middle of the
+room is a large wooden sculpture, in a shape that looks like a mutated gorilla.
+The dwelling continues south, and to the north, the city beckons.
+~
+437 8 0
+D0
+~
+~
+0 0 43853
+D2
+~
+~
+0 0 43858
+S
+#43858
+A large dwelling~
+The sleeping area takes up most of the southern end of this building. A bed
+made of twigs and leaves sits in the corner, looking rather comfortable. On a
+stand by the side of the bed sits a small figurine, in the same shape as the
+sculpture in the northen part of the building.
+~
+437 9 0
+D0
+~
+~
+0 0 43857
+S
+#43859
+A large dwelling~
+Judging by the size of this building, it would appear that one of the more
+wealthy residents of the city lives here. Various plants decorate this room,
+placed inbetween a number of chairs which line the walls. In the middle of the
+room is a large wooden sculpture, in a shape that looks like a mutated gorilla.
+The dwelling continues south, and to the north, the city beckons.
+~
+437 8 0
+D0
+~
+~
+0 0 43852
+D2
+~
+~
+0 0 43860
+S
+#43860
+A large dwelling~
+The sleeping area takes up most of the southern end of this building. A bed
+made of twigs and leaves sits in the corner, looking rather comfortable. On a
+stand by the side of the bed sits a small figurine, in the same shape as the
+sculpture in the northen part of the building.
+~
+437 9 0
+D0
+~
+~
+0 0 43859
+S
+#43861
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. The street forms an intersection to the west, and continues on its path
+east. A small home is south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43863
+D2
+~
+~
+0 0 43862
+D3
+~
+~
+0 0 43852
+S
+#43862
+A small home~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 8 0
+D0
+~
+~
+0 0 43861
+S
+#43863
+An outlying road~
+You continue along the well traveled road which runs along the boundary of
+the city. Walls of brush and vines aid dense trees in blocking any passage
+north. A heavy smell of &+Ybutchered&+y meat&N drifts in from the south. The street
+continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43865
+D2
+~
+~
+0 0 43864
+D3
+~
+~
+0 0 43861
+S
+#43864
+The &+YButcher shop~
+A strong smell of &+Rblood&N and freshly killed &+ymeat&n fills this building. Dead
+animals hang on hooks from the ceiling. Insects swarm around the &+ymeat&N, feeding
+off the hanging meal. Corpses of slain animals waiting to be de-skinned lie
+on the ground.
+~
+437 8 0
+D0
+~
+~
+0 0 43863
+S
+#43865
+An outlying road~
+The road running along the boundary of the city curves south and west here,
+as dense vegetation prevents passage north. Another path leads deep into the
+jungle to the east, quickly engulfed by darkness.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43866
+D2
+~
+~
+0 0 43868
+D3
+~
+~
+0 0 43863
+S
+#43866
+A dark forest path~
+The well traveled road ends here, giving way to a much less used forest path.
+Darkness surrouds this area, as the cover of trees prevents any light from
+reaching ground. The path heads east into the dark forest, and west lies a city
+street.
+~
+437 1 3
+D1
+~
+~
+0 0 43902
+D3
+~
+~
+0 0 43865
+S
+#43867
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D2
+~
+~
+0 0 43892
+D3
+~
+~
+0 0 43790
+S
+#43868
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+Exits are north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43865
+D2
+~
+~
+0 0 43869
+S
+#43869
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+Exits are north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43868
+D2
+~
+~
+0 0 43870
+S
+#43870
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+The street splits north south and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43869
+D2
+~
+~
+0 0 43871
+D3
+~
+~
+0 0 43886
+S
+#43871
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+A small temple is west. The road stretches north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43870
+D2
+~
+~
+0 0 43872
+D3
+~
+~
+0 0 43874
+S
+#43872
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+A small dwelling is west. The road stretches north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43871
+D2
+~
+~
+0 0 43873
+D3
+~
+~
+0 0 43875
+S
+#43873
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way east.
+Exits are north and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43872
+D3
+~
+~
+0 0 43876
+S
+#43874
+&+GA Small Temple&N~
+This small building appears to be a temple of some sort. There is a stone altar
+in the middle of the room, and a large statue depicting an ape-like creature.
+This building has been cleared of all vegetation, and lit torches adorn the
+walls.
+~
+437 8 0
+D1
+~
+~
+0 0 43871
+S
+#43875
+&+wA Small Dwelling&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D1
+~
+~
+0 0 43872
+S
+#43876
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way south.
+The road stretches east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43873
+D3
+~
+~
+0 0 43877
+S
+#43877
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way south.
+The road stretches east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43876
+D3
+~
+~
+0 0 43878
+S
+#43878
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The thick forest blocks the way south.
+The road stretches east north, while a small dwelling is west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43880
+D1
+~
+~
+0 0 43877
+D3
+~
+~
+0 0 43879
+S
+#43879
+&+wA Small Home&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D1
+~
+~
+0 0 43878
+S
+#43880
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. Small dwellings line the road to the
+east and west. The road stretches north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43884
+D1
+~
+~
+0 0 43882
+D2
+~
+~
+0 0 43878
+D3
+~
+~
+0 0 43881
+S
+#43881
+&+wA Small Home&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D1
+~
+~
+0 0 43880
+S
+#43882
+&+wA Small Home&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D3
+~
+~
+0 0 43880
+S
+#43883
+&+wA Small Home&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D3
+~
+~
+0 0 43884
+S
+#43884
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. Small dwellings line the road to the
+east and west. The road stretches north and south.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43890
+D1
+~
+~
+0 0 43883
+D2
+~
+~
+0 0 43880
+D3
+~
+~
+0 0 43885
+S
+#43885
+&+wA Small Home&N~
+This small building is home to one of the many citizens of this city. A bed
+of leaves is in the corner of the room, and a few plants decorate the building.
+On a small stand in the back of the room sits an idol in the shape of a gorilla.
+~
+437 0 0
+D1
+~
+~
+0 0 43884
+S
+#43886
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The road continues east and west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43870
+D3
+~
+~
+0 0 43887
+S
+#43887
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. A large dwelling is north. The road
+continues east and west.
+~
+437 33554432 1
+D0
+~
+~
+0 0 43888
+D1
+~
+~
+0 0 43886
+D3
+~
+~
+0 0 43890
+S
+#43888
+A large dwelling~
+Judging by the size of this building, it would appear that one of the more
+wealthy residents of the city lives here. Various plants decorate this room,
+placed inbetween a number of chairs which line the walls. In the middle of the
+room is a large wooden sculpture, in a shape that looks like a mutated gorilla.
+The dwelling continues east, and to the south, the city beckons.
+~
+437 8 0
+D1
+~
+~
+0 0 43889
+D2
+~
+~
+0 0 43887
+S
+#43889
+A large dwelling~
+The sleeping area takes up most of the southern end of this building. A bed
+made of twigs and leaves sits in the corner, looking rather comfortable. On a
+stand by the side of the bed sits a small figurine, in the same shape as the
+sculpture in the western part of the building.
+~
+437 9 0
+D3
+~
+~
+0 0 43888
+S
+#43890
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The road continues east, west, and
+south.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43887
+D2
+~
+~
+0 0 43884
+D3
+~
+~
+0 0 43891
+S
+#43891
+A road among the homes~
+This road runs inbetween numerous homes of these more evolved race of apes.
+Young and old apemen alike wander here, going about some kind of business, or
+just playing. Vines and branches hang down low from the trees above, and small
+dwellings line the leaf covered ground. The road continues east, and a bridge
+over a river is west.
+~
+437 33554432 1
+D1
+~
+~
+0 0 43890
+D3
+~
+~
+0 0 43762
+S
+#43892
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43867
+D1
+~
+~
+0 0 43893
+S
+#43893
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43894
+D3
+~
+~
+0 0 43892
+S
+#43894
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43895
+D3
+~
+~
+0 0 43893
+S
+#43895
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43896
+D3
+~
+~
+0 0 43894
+S
+#43896
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43897
+D2
+~
+~
+0 0 43895
+S
+#43897
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D2
+~
+~
+0 0 43898
+D3
+~
+~
+0 0 43896
+S
+#43898
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43897
+D2
+~
+~
+0 0 43899
+S
+#43899
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43898
+D2
+~
+~
+0 0 43900
+S
+#43900
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43899
+D2
+~
+~
+0 0 43901
+S
+#43901
+&+gA Dark Forest Path&N~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43900
+D3
+~
+~
+0 0 561015
+S
+#43902
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43903
+D3
+~
+~
+0 0 43866
+S
+#43903
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+The trees in this area look like they are covering up something...
+~
+trees~
+5 0 43951
+D2
+~
+~
+0 0 43904
+D3
+~
+~
+0 0 43902
+S
+#43904
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43903
+D2
+~
+~
+0 0 43905
+S
+#43905
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43904
+D1
+~
+~
+0 0 43906
+S
+#43906
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43907
+D3
+~
+~
+0 0 43905
+S
+#43907
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43908
+D3
+~
+~
+0 0 43906
+S
+#43908
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43909
+D3
+~
+~
+0 0 43907
+S
+#43909
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43910
+D3
+~
+~
+0 0 43908
+S
+#43910
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43911
+D2
+~
+~
+0 0 43909
+S
+#43911
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43912
+D2
+~
+~
+0 0 43910
+S
+#43912
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43913
+D2
+~
+~
+0 0 43911
+S
+#43913
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43914
+D3
+~
+~
+0 0 43912
+S
+#43914
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43915
+D2
+~
+~
+0 0 43913
+S
+#43915
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43916
+D2
+~
+~
+0 0 43914
+S
+#43916
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43917
+D2
+~
+~
+0 0 43915
+S
+#43917
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43918
+D2
+~
+~
+0 0 43916
+S
+#43918
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43919
+D2
+~
+~
+0 0 43917
+S
+#43919
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43920
+D2
+~
+~
+0 0 43918
+S
+#43920
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43921
+D2
+~
+~
+0 0 43919
+S
+#43921
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43922
+D2
+~
+~
+0 0 43920
+S
+#43922
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43923
+D2
+~
+~
+0 0 43921
+S
+#43923
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43924
+D2
+~
+~
+0 0 43922
+S
+#43924
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D2
+~
+~
+0 0 43923
+D3
+~
+~
+0 0 43925
+S
+#43925
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43924
+D3
+~
+~
+0 0 43926
+S
+#43926
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43925
+D2
+~
+trees~
+5 0 44019
+D3
+~
+~
+0 0 43927
+S
+#43927
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43926
+D3
+~
+~
+0 0 43928
+S
+#43928
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43927
+D3
+~
+~
+0 0 43929
+S
+#43929
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest, while to the south, some sort of gathering area can be
+seen.
+~
+437 1 3
+D1
+~
+~
+0 0 43928
+D2
+~
+~
+0 0 44037
+D3
+~
+~
+0 0 43930
+S
+#43930
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43929
+D3
+~
+~
+0 0 43931
+S
+#43931
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43930
+D3
+~
+~
+0 0 43932
+S
+#43932
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43931
+D3
+~
+~
+0 0 43933
+S
+#43933
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43932
+D3
+~
+~
+0 0 43934
+S
+#43934
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43933
+D3
+~
+~
+0 0 43935
+S
+#43935
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43934
+D3
+~
+~
+0 0 43936
+S
+#43936
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43935
+D3
+~
+~
+0 0 43937
+S
+#43937
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43936
+D3
+~
+~
+0 0 43938
+S
+#43938
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43937
+D3
+~
+~
+0 0 43939
+S
+#43939
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43938
+D3
+~
+~
+0 0 43940
+S
+#43940
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43939
+D3
+~
+~
+0 0 43941
+S
+#43941
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43940
+D3
+~
+~
+0 0 43942
+S
+#43942
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D1
+~
+~
+0 0 43941
+D2
+~
+~
+0 0 43943
+S
+#43943
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43942
+D2
+~
+~
+0 0 43944
+S
+#43944
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43943
+D2
+~
+~
+0 0 43945
+S
+#43945
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43944
+D1
+~
+~
+0 0 43946
+S
+#43946
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D2
+~
+~
+0 0 43947
+D3
+~
+~
+0 0 43945
+S
+#43947
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43946
+D2
+~
+~
+0 0 43948
+S
+#43948
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43947
+D2
+~
+~
+0 0 43949
+S
+#43949
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43948
+D2
+~
+~
+0 0 43950
+S
+#43950
+&+gA dark forest path~
+Dense woods surrounds this small path that winds though the immense jungle.
+Glowing eyes can be seen staring at you from the darkness, as if they were
+ready to attack at any moment. The trail seems to go on forever deeper and
+deeper into the forest...
+~
+437 1 3
+D0
+~
+~
+0 0 43949
+D2
+~
+~
+0 0 43827
+S
+#43951
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43952
+D2
+~
+tree trees~
+5 0 43903
+S
+#43952
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43965
+D1
+~
+~
+0 0 43957
+D2
+~
+~
+0 0 43951
+D3
+~
+~
+0 0 43953
+S
+#43953
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43966
+D1
+~
+~
+0 0 43952
+D3
+~
+~
+0 0 43954
+S
+#43954
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43967
+D1
+~
+~
+0 0 43953
+D3
+~
+~
+0 0 43955
+S
+#43955
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43968
+D1
+~
+~
+0 0 43954
+D3
+~
+~
+0 0 43956
+S
+#43956
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43969
+D1
+~
+~
+0 0 43955
+S
+#43957
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43964
+D1
+~
+~
+0 0 43958
+D3
+~
+~
+0 0 43952
+S
+#43958
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43963
+D1
+~
+~
+0 0 43959
+D3
+~
+~
+0 0 43957
+S
+#43959
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43962
+D1
+~
+~
+0 0 43960
+D3
+~
+~
+0 0 43958
+S
+#43960
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43961
+D3
+~
+~
+0 0 43959
+S
+#43961
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43978
+D2
+~
+~
+0 0 43960
+D3
+~
+~
+0 0 43962
+S
+#43962
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43977
+D1
+~
+~
+0 0 43961
+D2
+~
+~
+0 0 43959
+D3
+~
+~
+0 0 43963
+S
+#43963
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43976
+D1
+~
+~
+0 0 43962
+D2
+~
+~
+0 0 43958
+D3
+~
+~
+0 0 43964
+S
+#43964
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43975
+D1
+~
+~
+0 0 43963
+D2
+~
+~
+0 0 43957
+D3
+~
+~
+0 0 43965
+S
+#43965
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43974
+D1
+~
+~
+0 0 43964
+D2
+~
+~
+0 0 43952
+D3
+~
+~
+0 0 43966
+S
+#43966
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43973
+D1
+~
+~
+0 0 43965
+D2
+~
+~
+0 0 43953
+D3
+~
+~
+0 0 43967
+S
+#43967
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43972
+D1
+~
+~
+0 0 43966
+D2
+~
+~
+0 0 43954
+D3
+~
+~
+0 0 43968
+S
+#43968
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43971
+D1
+~
+~
+0 0 43967
+D2
+~
+~
+0 0 43955
+D3
+~
+~
+0 0 43969
+S
+#43969
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43970
+D1
+~
+~
+0 0 43968
+D2
+~
+~
+0 0 43956
+S
+#43970
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43987
+D1
+~
+~
+0 0 43971
+D2
+~
+~
+0 0 43969
+S
+#43971
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43986
+D1
+~
+~
+0 0 43972
+D2
+~
+~
+0 0 43968
+D3
+~
+~
+0 0 43970
+S
+#43972
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43985
+D1
+~
+~
+0 0 43973
+D2
+~
+~
+0 0 43967
+D3
+~
+~
+0 0 43971
+S
+#43973
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43984
+D1
+~
+~
+0 0 43974
+D2
+~
+~
+0 0 43966
+D3
+~
+~
+0 0 43972
+S
+#43974
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43983
+D1
+~
+~
+0 0 43975
+D2
+~
+~
+0 0 43965
+D3
+~
+~
+0 0 43973
+S
+#43975
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43982
+D1
+~
+~
+0 0 43976
+D2
+~
+~
+0 0 43964
+D3
+~
+~
+0 0 43974
+S
+#43976
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43981
+D1
+~
+~
+0 0 43977
+D2
+~
+~
+0 0 43963
+D3
+~
+~
+0 0 43975
+S
+#43977
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43980
+D1
+~
+~
+0 0 43978
+D2
+~
+~
+0 0 43962
+D3
+~
+~
+0 0 43976
+S
+#43978
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43979
+D2
+~
+~
+0 0 43961
+D3
+~
+~
+0 0 43977
+S
+#43979
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43996
+D2
+~
+~
+0 0 43978
+D3
+~
+~
+0 0 43980
+S
+#43980
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43995
+D1
+~
+~
+0 0 43979
+D2
+~
+~
+0 0 43977
+D3
+~
+~
+0 0 43981
+S
+#43981
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43994
+D1
+~
+~
+0 0 43980
+D2
+~
+~
+0 0 43976
+D3
+~
+~
+0 0 43982
+S
+#43982
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43993
+D1
+~
+~
+0 0 43981
+D2
+~
+~
+0 0 43975
+D3
+~
+~
+0 0 43983
+S
+#43983
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43992
+D1
+~
+~
+0 0 43982
+D2
+~
+~
+0 0 43974
+D3
+~
+~
+0 0 43984
+S
+#43984
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43991
+D1
+~
+~
+0 0 43983
+D2
+~
+~
+0 0 43973
+D3
+~
+~
+0 0 43985
+S
+#43985
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43990
+D1
+~
+~
+0 0 43984
+D2
+~
+~
+0 0 43972
+D3
+~
+~
+0 0 43986
+S
+#43986
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43989
+D1
+~
+~
+0 0 43985
+D2
+~
+~
+0 0 43971
+D3
+~
+~
+0 0 43987
+S
+#43987
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43988
+D1
+~
+~
+0 0 43986
+D2
+~
+~
+0 0 43970
+S
+#43988
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44023
+D1
+~
+~
+0 0 43989
+D2
+~
+~
+0 0 43987
+D3
+~
+~
+0 0 44026
+S
+#43989
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44020
+D1
+~
+~
+0 0 43990
+D2
+~
+~
+0 0 43986
+D3
+~
+~
+0 0 43988
+S
+#43990
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43997
+D1
+~
+~
+0 0 43991
+D2
+~
+~
+0 0 43985
+D3
+~
+~
+0 0 43989
+S
+#43991
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44002
+D1
+~
+~
+0 0 43992
+D2
+~
+~
+0 0 43984
+D3
+~
+~
+0 0 43990
+S
+#43992
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44003
+D1
+~
+~
+0 0 43993
+D2
+~
+~
+0 0 43983
+D3
+~
+~
+0 0 43991
+S
+#43993
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44008
+D1
+~
+~
+0 0 43994
+D2
+~
+~
+0 0 43982
+D3
+~
+~
+0 0 43992
+S
+#43994
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44009
+D1
+~
+~
+0 0 43995
+D2
+~
+~
+0 0 43981
+D3
+~
+~
+0 0 43993
+S
+#43995
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44014
+D1
+~
+~
+0 0 43996
+D2
+~
+~
+0 0 43980
+D3
+~
+~
+0 0 43994
+S
+#43996
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44015
+D2
+~
+~
+0 0 43979
+D3
+~
+~
+0 0 43995
+S
+#43997
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43998
+D1
+~
+~
+0 0 44002
+D2
+~
+~
+0 0 43990
+D3
+~
+~
+0 0 44020
+S
+#43998
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43999
+D1
+~
+~
+0 0 44001
+D2
+~
+~
+0 0 43997
+D3
+~
+~
+0 0 44021
+S
+#43999
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44000
+D2
+~
+~
+0 0 43998
+S
+#44000
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44005
+D2
+~
+~
+0 0 44001
+D3
+~
+~
+0 0 43999
+S
+#44001
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44000
+D1
+~
+~
+0 0 44004
+D2
+~
+~
+0 0 44002
+D3
+~
+~
+0 0 43998
+S
+#44002
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44001
+D1
+~
+~
+0 0 44003
+D2
+~
+~
+0 0 43991
+D3
+~
+~
+0 0 43997
+S
+#44003
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44004
+D1
+~
+~
+0 0 44008
+D2
+~
+~
+0 0 43992
+D3
+~
+~
+0 0 44002
+S
+#44004
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44005
+D1
+~
+~
+0 0 44007
+D2
+~
+~
+0 0 44003
+D3
+~
+~
+0 0 44001
+S
+#44005
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44006
+D2
+~
+~
+0 0 44004
+D3
+~
+~
+0 0 44000
+S
+#44006
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44011
+D2
+~
+~
+0 0 44007
+D3
+~
+~
+0 0 44005
+S
+#44007
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44006
+D1
+~
+~
+0 0 44010
+D2
+~
+~
+0 0 44008
+D3
+~
+~
+0 0 44004
+S
+#44008
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44007
+D1
+~
+~
+0 0 44009
+D2
+~
+~
+0 0 43993
+D3
+~
+~
+0 0 44003
+S
+#44009
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44010
+D1
+~
+~
+0 0 44014
+D2
+~
+~
+0 0 43994
+D3
+~
+~
+0 0 44008
+S
+#44010
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44011
+D1
+~
+~
+0 0 44013
+D2
+~
+~
+0 0 44009
+D3
+~
+~
+0 0 44007
+S
+#44011
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44012
+D2
+~
+~
+0 0 44010
+D3
+~
+~
+0 0 44006
+S
+#44012
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D1
+~
+~
+0 0 44017
+D2
+~
+~
+0 0 44013
+D3
+~
+~
+0 0 44011
+S
+#44013
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44012
+D1
+~
+~
+0 0 44016
+D2
+~
+~
+0 0 44014
+D3
+~
+~
+0 0 44010
+S
+#44014
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44013
+D1
+~
+~
+0 0 44015
+D2
+~
+~
+0 0 43995
+D3
+~
+~
+0 0 44009
+S
+#44015
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44016
+D2
+~
+~
+0 0 43996
+D3
+~
+~
+0 0 44014
+S
+#44016
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44017
+D2
+~
+~
+0 0 44015
+D3
+~
+~
+0 0 44013
+S
+#44017
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44018
+D2
+~
+~
+0 0 44016
+D3
+~
+~
+0 0 44012
+S
+#44018
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+~
+0 0 44019
+D2
+~
+~
+0 0 44017
+S
+#44019
+&+gAn ancient forest~
+This ancient forest seems to be undisturbed, and probably unseen by any man.
+A feeling of peace comes over you as you realize how safe this forest feels.
+A bit of sky can be seen through the dense cover of trees, creating a sort of
+twilight around you. Small animals skitter around the ground, apparently not
+even phased by your presense. Birds can be heard singing their songs, and
+the sounds of many other animals fills the air.
+~
+437 33554432 3
+D0
+~
+trees~
+5 0 43926
+D2
+~
+~
+0 0 44018
+S
+#44020
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44021
+D1
+~
+~
+0 0 43997
+D2
+~
+~
+0 0 43989
+D3
+~
+~
+0 0 44023
+S
+#44021
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 43998
+D2
+~
+~
+0 0 44020
+D3
+~
+~
+0 0 44022
+S
+#44022
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44021
+D2
+~
+~
+0 0 44023
+D3
+~
+~
+0 0 44024
+S
+#44023
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44022
+D1
+~
+~
+0 0 44020
+D2
+~
+~
+0 0 43988
+D3
+~
+~
+0 0 44025
+S
+#44024
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44022
+D2
+~
+~
+0 0 44025
+D3
+~
+~
+0 0 44029
+S
+#44025
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44024
+D1
+~
+~
+0 0 44023
+D2
+~
+~
+0 0 44026
+D3
+~
+~
+0 0 44028
+S
+#44026
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44025
+D1
+~
+~
+0 0 43988
+D3
+~
+~
+0 0 44027
+S
+#44027
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44028
+D1
+~
+~
+0 0 44026
+D3
+~
+~
+0 0 44032
+S
+#44028
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44029
+D1
+~
+~
+0 0 44025
+D2
+~
+~
+0 0 44027
+D3
+~
+~
+0 0 44031
+S
+#44029
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44024
+D2
+~
+~
+0 0 44028
+D3
+~
+~
+0 0 44030
+S
+#44030
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44029
+D2
+~
+~
+0 0 44031
+D3
+~
+~
+0 0 44034
+S
+#44031
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44030
+D1
+~
+~
+0 0 44028
+D2
+~
+~
+0 0 44032
+D3
+~
+~
+0 0 44033
+S
+#44032
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44031
+D1
+~
+~
+0 0 44027
+S
+#44033
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44034
+D1
+~
+~
+0 0 44031
+D3
+~
+~
+0 0 44036
+S
+#44034
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44030
+D2
+~
+~
+0 0 44033
+D3
+~
+~
+0 0 44035
+S
+#44035
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D1
+~
+~
+0 0 44034
+D2
+~
+~
+0 0 44036
+S
+#44036
+&+gA peaceful meadow~
+The trees open up here, revealing a large, peaceful meadow of grass and
+wildflowers. The sky is visible above as the cover of trees can be seen on the
+outskirts of the meadow.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44035
+D1
+~
+~
+0 0 44033
+S
+#44037
+&+RA sacrificial pit~
+This area has been cleared out of the forest, and turned into a spiritual
+gathering area. A huge pit lies in the center of the room, extending down well
+past the line of sight. Stone altars lie on 2 sides of the pit, showing this
+pit is probably meant for sacrifices. To the south, the entrance to a temple
+can be seen.
+~
+437 33554432 3
+D0
+~
+~
+0 0 43929
+D2
+~
+~
+0 0 44038
+S
+#44038
+A temple entrance~
+A stone, triangle shaped building seems to emerge from the ground, forming the
+entrance to a large underground temple. The entrance is blocked by 2 large
+stone doors with a huge, magical lock. An emblem on the door warns of imminent
+death to any that dare enter. Its probably a good idea not to go in there.
+~
+437 33554432 2
+D0
+~
+~
+0 0 44037
+D3
+~
+door~
+3 43743 44039
+S
+#44039
+&+LTemple Entrance&N~
+   Giant marble steps lead downward into the entrance of this once sacred
+temple. Having been barricaded off for so long, the steps are no longer clean
+and sparkling as they once were, but are now covered in dust and debris from
+the years of neglect this entranceway has seen. Another large door can be
+downward, while fresh open air lies to the east.
+~
+437 33554432 2
+D1
+~
+door~
+3 43743 44038
+D5
+The entrance to an ancient temple is down there.
+~
+~
+0 0 44101
+S

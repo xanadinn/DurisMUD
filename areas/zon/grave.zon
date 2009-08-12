@@ -1,0 +1,254 @@
+#84
+&+LThe &+LOld Graveyard&n~
+8603 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 8402 1 1 100 0 0 0
+*     east exit from "Before a Large Iron Gate" to
+*     "The Entrance to an Old Graveyard" - closed
+*
+D 0 8403 3 1 100 0 0 0
+*     west exit from "The Entrance to an Old Graveyard" to
+*     "Before a Large Iron Gate" - closed
+*
+D 0 8437 0 1 100 0 0 0
+*     north exit from "Along an Iron Fence in a Graveyard" to
+*     "A Small Shed" - closed
+*
+D 0 8492 2 1 100 0 0 0
+*     south exit from "A Small Shed" to
+*     "Along an Iron Fence in a Graveyard" - closed
+*
+D 0 8454 0 2 100 0 0 0
+*     north exit from "The Central Path of the Cemetery" to
+*     "A Simple Stone Tomb" - closed/locked
+*
+D 0 8542 2 2 100 0 0 0
+*     south exit from "A Simple Stone Tomb" to
+*     "The Central Path of the Cemetery" - closed/locked
+*
+D 0 8457 0 2 100 0 0 0
+*     north exit from "The Central Path of the Cemetery" to
+*     "A Simple Stone Tomb" - closed/locked
+*
+D 0 8551 2 2 100 0 0 0
+*     south exit from "A Simple Stone Tomb" to
+*     "The Central Path of the Cemetery" - closed/locked
+*
+D 0 8464 5 2 100 0 0 0
+*     down exit from "Before a Small Crypt Door" to
+*     "Entrance to a Small Mausoleum" - closed/locked
+*
+D 0 8500 4 1 100 0 0 0
+*     up exit from "Entrance to a Small Mausoleum" to
+*     "Before a Small Crypt Door" - closed
+*
+D 0 8487 5 5 100 0 0 0
+*     down exit from "Beside a Crooked Tombstone" to
+*     "In a Hidden Entryway" - closed/secret
+*
+D 0 8490 4 1 100 0 0 0
+*     up exit from "In a Hidden Entryway" to
+*     "Beside a Crooked Tombstone" - closed
+*
+D 0 8490 1 2 100 0 0 0
+*     east exit from "In a Hidden Entryway" to
+*     "A Dark Crypt" - closed/locked
+*
+D 0 8491 3 2 100 0 0 0
+*     west exit from "A Dark Crypt" to
+*     "In a Hidden Entryway" - closed/locked
+*
+D 0 8556 2 2 100 0 0 0
+*     south exit from "A Path Leading to a Large Tomb" to
+*     "A Simple Stone Tomb" - closed/locked
+*
+D 0 8561 0 2 100 0 0 0
+*     north exit from "A Simple Stone Tomb" to
+*     "A Path Leading to a Large Tomb" - closed/locked
+*
+D 0 8571 8 2 100 0 0 0
+*     northeast exit from "A Simple Stone Tomb" to
+*     "A Small Alcove in the Crypt" - closed/locked
+*
+D 0 8601 7 2 100 0 0 0
+*     southwest exit from "A Small Alcove in the Crypt" to
+*     "A Simple Stone Tomb" - closed/locked
+*
+*
+O 0 8405 1 8462 100 0 0 0          * an marble crypt key
+O 0 8400 1 8492 100 0 0 0          * a very old desk
+P 1 8401 1 8400 100 0 0 0          *   an iron crypt key
+O 0 8402 1 8518 100 0 0 0          * a coffin
+P 1 8403 1 8402 100 0 0 0          *   a mithril medallion set with diamonds
+*
+M 0 8406 16 8404 100 0 0 0         * a vampire bat
+M 0 8416 24 8405 100 0 0 0         * an angered skeleton
+M 0 8401 28 8405 100 0 0 0         * a moaning zombie
+M 0 8416 24 8407 100 0 0 0         * an angered skeleton
+M 0 8406 16 8407 100 0 0 0         * a vampire bat
+M 0 8416 24 8410 100 0 0 0         * an angered skeleton
+M 0 8401 28 8413 100 0 0 0         * a moaning zombie
+M 0 8403 8 8418 100 0 0 0          * A wailing ghost
+M 0 8401 28 8419 100 0 0 0         * a moaning zombie
+M 0 8403 8 8420 100 0 0 0          * A wailing ghost
+M 0 8402 4 8421 100 0 0 0          * A ghostly spectre
+E 1 8407 4 16 100 0 0 0            *   a petrified oak twig
+M 0 8401 28 8423 100 0 0 0         * a moaning zombie
+M 0 8403 8 8424 100 0 0 0          * A wailing ghost
+M 0 8401 28 8425 100 0 0 0         * a moaning zombie
+M 0 8401 28 8427 100 0 0 0         * a moaning zombie
+M 0 8402 4 8427 100 0 0 0          * A ghostly spectre
+E 1 8407 4 16 100 0 0 0            *   a petrified oak twig
+M 0 8403 8 8429 100 0 0 0          * A wailing ghost
+M 0 8402 4 8431 100 0 0 0          * A ghostly spectre
+E 1 8407 4 16 100 0 0 0            *   a petrified oak twig
+M 0 8401 28 8432 100 0 0 0         * a moaning zombie
+M 0 8403 8 8432 100 0 0 0          * A wailing ghost
+M 0 8416 24 8434 100 0 0 0         * an angered skeleton
+M 0 8406 16 8434 100 0 0 0         * a vampire bat
+M 0 8401 28 8435 100 0 0 0         * a moaning zombie
+M 0 8416 24 8436 100 0 0 0         * an angered skeleton
+M 0 8406 16 8437 100 0 0 0         * a vampire bat
+M 0 8416 24 8440 100 0 0 0         * an angered skeleton
+M 0 8406 16 8440 100 0 0 0         * a vampire bat
+M 0 8401 28 8441 100 0 0 0         * a moaning zombie
+M 0 8416 24 8443 100 0 0 0         * an angered skeleton
+M 0 8406 16 8443 100 0 0 0         * a vampire bat
+M 0 8401 28 8444 100 0 0 0         * a moaning zombie
+M 0 8401 28 8445 100 0 0 0         * a moaning zombie
+M 0 8406 16 8446 100 0 0 0         * a vampire bat
+M 0 8416 24 8447 100 0 0 0         * an angered skeleton
+M 0 8406 16 8448 100 0 0 0         * a vampire bat
+M 0 8406 16 8451 100 0 0 0         * a vampire bat
+M 0 8416 24 8452 100 0 0 0         * an angered skeleton
+M 0 8401 28 8452 100 0 0 0         * a moaning zombie
+M 0 8416 24 8456 100 0 0 0         * an angered skeleton
+M 0 8402 4 8456 100 0 0 0          * A ghostly spectre
+E 1 8407 4 16 100 0 0 0            *   a petrified oak twig
+M 0 8403 8 8458 100 0 0 0          * A wailing ghost
+M 0 8416 24 8460 100 0 0 0         * an angered skeleton
+M 0 8406 16 8461 100 0 0 0         * a vampire bat
+M 0 8416 24 8463 100 0 0 0         * an angered skeleton
+M 0 8401 28 8464 100 0 0 0         * a moaning zombie
+M 0 8416 24 8466 100 0 0 0         * an angered skeleton
+M 0 8416 24 8467 100 0 0 0         * an angered skeleton
+M 0 8406 16 8468 100 0 0 0         * a vampire bat
+M 0 8416 24 8470 100 0 0 0         * an angered skeleton
+M 0 8416 24 8471 100 0 0 0         * an angered skeleton
+M 0 8401 28 8471 100 0 0 0         * a moaning zombie
+M 0 8416 24 8473 100 0 0 0         * an angered skeleton
+M 0 8401 28 8474 100 0 0 0         * a moaning zombie
+M 0 8406 16 8474 100 0 0 0         * a vampire bat
+M 0 8416 24 8475 100 0 0 0         * an angered skeleton
+M 0 8416 24 8477 100 0 0 0         * an angered skeleton
+M 0 8416 24 8479 100 0 0 0         * an angered skeleton
+M 0 8401 28 8479 100 0 0 0         * a moaning zombie
+M 0 8406 16 8480 100 0 0 0         * a vampire bat
+M 0 8401 28 8482 100 0 0 0         * a moaning zombie
+M 0 8416 24 8483 100 0 0 0         * an angered skeleton
+M 0 8406 16 8483 100 0 0 0         * a vampire bat
+M 0 8401 28 8484 100 0 0 0         * a moaning zombie
+M 0 8406 16 8486 100 0 0 0         * a vampire bat
+M 0 8401 28 8486 100 0 0 0         * a moaning zombie
+M 0 8416 24 8487 100 0 0 0         * an angered skeleton
+M 0 8401 28 8488 100 0 0 0         * a moaning zombie
+M 0 8422 1 8492 100 0 0 0          * a crazed caretaker
+E 1 8411 1 16 100 0 0 0            *   a rusted shovel
+M 0 8416 24 8495 100 0 0 0         * an angered skeleton
+M 0 8401 28 8495 100 0 0 0         * a moaning zombie
+M 0 8417 3 8498 100 0 0 0          * a dire wolf
+M 0 8407 12 8503 100 0 0 0         * a mummy
+M 0 8407 12 8504 100 0 0 0         * a mummy
+M 0 8407 12 8505 100 0 0 0         * a mummy
+M 0 8407 12 8509 100 0 0 0         * a mummy
+M 0 8407 12 8510 100 0 0 0         * a mummy
+M 0 8407 12 8511 100 0 0 0         * a mummy
+M 0 8407 12 8515 100 0 0 0         * a mummy
+M 0 8407 12 8516 100 0 0 0         * a mummy
+M 0 8408 1 8517 100 0 0 0          * a large mummy
+E 1 8404 1 6 100 0 0 0             *   a silver crown
+M 0 8407 12 8520 100 0 0 0         * a mummy
+M 0 8407 12 8521 100 0 0 0         * a mummy
+M 0 8407 12 8522 100 0 0 0         * a mummy
+M 0 8407 12 8523 100 0 0 0         * a mummy
+M 0 8409 2 8525 100 0 0 0          * a zombie of a young man
+M 0 8409 2 8526 100 0 0 0          * a zombie of a young man
+M 0 8410 1 8527 100 0 0 0          * a zombie of a young girl
+M 0 8411 1 8528 100 0 0 0          * a zombie of a woman
+M 0 8412 1 8529 100 0 0 0          * a strong vampire
+E 1 8406 1 16 10 0 0 0             *   a gold-tipped broadsword named 'Ogrebane'
+M 0 8414 4 8530 100 0 0 0          * A wailing ghost
+M 0 8403 8 8531 100 0 0 0          * A wailing ghost
+M 0 8414 4 8532 100 0 0 0          * A wailing ghost
+M 0 8415 2 8533 100 0 0 0          * A wailing ghost
+M 0 8413 1 8534 100 0 0 0          * a pale vampire
+G 1 8408 1 0 100 0 0 0             *    a blood-soaked wristguard
+M 0 8415 2 8535 100 0 0 0          * A wailing ghost
+M 0 8405 3 8536 100 0 0 0          * a werewolf
+M 0 8400 8 8537 100 0 0 0          * a skeleton with tattered clothes
+M 0 8400 8 8538 100 0 0 0          * a skeleton with tattered clothes
+M 0 8406 16 8538 100 0 0 0         * a vampire bat
+M 0 8401 28 8538 100 0 0 0         * a moaning zombie
+M 0 8400 8 8539 100 0 0 0          * a skeleton with tattered clothes
+M 0 8401 28 8540 100 0 0 0         * a moaning zombie
+M 0 8405 3 8542 100 0 0 0          * a werewolf
+M 0 8400 8 8543 100 0 0 0          * a skeleton with tattered clothes
+M 0 8400 8 8544 100 0 0 0          * a skeleton with tattered clothes
+M 0 8404 3 8545 100 0 0 0          * a dire wolf
+M 0 8400 8 8546 100 0 0 0          * a skeleton with tattered clothes
+M 0 8404 3 8547 100 0 0 0          * a dire wolf
+M 0 8405 3 8548 100 0 0 0          * a werewolf
+G 1 8410 1 0 100 0 0 0             *    the claws of a werewolf
+M 0 8404 3 8549 100 0 0 0          * a dire wolf
+M 0 8400 8 8550 100 0 0 0          * a skeleton with tattered clothes
+M 0 8400 8 8552 100 0 0 0          * a skeleton with tattered clothes
+M 0 8414 4 8559 100 0 0 0          * A wailing ghost
+M 0 8424 6 8560 100 0 0 0          * a fiendish wight
+M 0 8401 28 8560 100 0 0 0         * a moaning zombie
+M 0 8424 6 8561 100 0 0 0          * a fiendish wight
+M 0 8401 28 8563 100 0 0 0         * a moaning zombie
+M 0 8424 6 8564 100 0 0 0          * a fiendish wight
+M 0 8401 28 8565 100 0 0 0         * a moaning zombie
+M 0 8424 6 8566 100 0 0 0          * a fiendish wight
+M 0 8417 3 8567 100 0 0 0          * a dire wolf
+M 0 8424 6 8568 100 0 0 0          * a fiendish wight
+M 0 8401 28 8569 100 0 0 0         * a moaning zombie
+M 0 8425 6 8569 100 0 0 0          * a vicious wraith
+M 0 8425 6 8571 100 0 0 0          * a vicious wraith
+M 0 8414 4 8571 100 0 0 0          * A wailing ghost
+M 0 8425 6 8572 100 0 0 0          * a vicious wraith
+M 0 8425 6 8573 100 0 0 0          * a vicious wraith
+M 0 8426 1 8573 100 0 0 0          * a lich
+G 1 8413 1 0 100 0 0 0             *    a small wooden key
+M 0 8403 8 8576 100 0 0 0          * A wailing ghost
+M 0 8416 24 8576 100 0 0 0         * an angered skeleton
+M 0 8401 28 8577 100 0 0 0         * a moaning zombie
+M 0 8425 6 8577 100 0 0 0          * a vicious wraith
+M 0 8421 1 8582 100 0 0 0          * a wise hunched gargoyle
+M 0 8418 3 8583 100 0 0 0          * a hunched gargoyle
+M 0 8418 3 8584 100 0 0 0          * a hunched gargoyle
+M 0 8418 3 8586 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8588 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8589 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8590 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8591 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8592 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8594 100 0 0 0          * a hunched gargoyle
+M 0 8420 4 8595 100 0 0 0          * a large hunched gargoyle
+M 0 8420 4 8596 100 0 0 0          * a large hunched gargoyle
+M 0 8420 4 8598 100 0 0 0          * a large hunched gargoyle
+M 0 8420 4 8599 100 0 0 0          * a large hunched gargoyle
+M 0 8423 1 8600 100 0 0 0          * a scared grave robber
+E 1 8412 1 16 100 0 0 0            *   a gold embossed steel dagger
+M 0 8427 1 8601 100 0 0 0          * an ancient necromancer
+E 1 8414 1 12 100 0 0 0            *   the cloak of necromancy
+M 0 8424 6 8601 100 0 0 0          * a fiendish wight
+M 0 8425 6 8601 100 0 0 0          * a vicious wraith
+M 0 8417 3 8601 100 0 0 0          * a dire wolf
+M 0 8419 8 8602 100 0 0 0          * a hunched gargoyle
+M 0 8419 8 8603 100 0 0 0          * a hunched gargoyle
+*
+S

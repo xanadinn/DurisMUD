@@ -1,0 +1,1619 @@
+#22900
+&+LBefore &+BN&+by'&+BN&+beth's &+LStronghold&n~
+&+L   Here the rough edges of this &+munderworld&+L cavern narrow as they stretch
+&+Lfarther north, until they are no wider than a large corridor.  To the north,
+&+Lthe jagged edges smooth and flatten until they are no more, giving way to an
+&+Lartificially formed hallway.  A beautiful archway can be seen to the north in
+&+Lthe dim &+Wglow&+L provided by the strange stone walls&n.
+~
+229 142639176 15
+D0
+~
+~
+0 0 22901
+D2
+~
+~
+0 0 581417
+S
+#22901
+&+LArchway Entrance to &+BN&+by'&+BN&+beth's&n~
+&+L   Here the smooth walls, hewn from a blend of strange &+munderword&+L stone,
+&+Lcome to an end in a beautiful archway.  The archway is formed by two glowing
+&+gillithium&+L pillars, coming to a nondescript completion above a wooden door.
+&+LWhat is remarkable are the two carvings of &+rdevils&+L, facing forward and
+&+Lwrithing in &+rpain&+L and &+ragony&+L from the hooks they hang impaled through
+&+Lthe back upon.  The fact that they are moving, suggests that they are some
+&+Lof &+BN&+by'&+BN&+beth's&+L dreaded &+ranimations&+L.
+~
+229 142639176 15
+D0
+~
+door~
+3 22900 22902
+D2
+~
+~
+0 0 22900
+S
+#22902
+&+LA Smooth &+yEarthen&+L Corridor&n~
+&+L   The smooth, &+yearthen&+L walls of this east west corridor are completely
+&+Ldifferent from the strange glowing stone beyond the archway to the south.
+&+LBits of &+yroot&+L stick out from parts of the ceiling and walls, as well
+&+Las projecting points of rock.  The corridor looks as though it ends just
+&+Lto the west of here.&n
+~
+229 142639176 15
+D2
+~
+door~
+3 22900 22901
+D3
+~
+~
+0 0 22903
+S
+#22903
+&+LA Smooth &+yEarthen &+LCorridor&n~
+&+L   Here the &+yearthen&+L corridor comes to its western end.  There are no
+&+Lvisible exits here, making this appear to be the end of the passage.  On the
+&+Lnorth wall of the corridor, a strange looking &+yroot&+L protrudes in a very
+&+Lsuspicious manner.  Also the air has a slight tinge of subterranian &+ggas&+L.
+~
+229 142639176 15
+D0
+~
+wall~
+5 0 22904
+D1
+~
+~
+0 0 22902
+S
+#22904
+&+LChamber of the &+rChained &+gWyrm&n~
+&+L   While here at the south end this chamber seems no wider than a typical
+&+rdungeon&+L corridor, to the north it steadily widens into a giant T shape.  The
+&+Lsmell of noxious &+ggas&+L is nearly overpowering here, as the air has little
+&+Lmovement here to allow it to disperse and escape.  While what lies to the
+&+Least and west of the T shape cannot be seen around the corners, a large
+&+ggreen&+L shape is visible against the far north wall, directly in the center.
+~
+229 142639176 15
+D0
+~
+~
+0 0 22905
+D2
+~
+wall~
+5 0 22903
+S
+#22905
+&+LAltar of the &+rChained &+gWyrm&n~
+&+L   A raised stone dias takes up much of the floor here, protruding outwards
+&+Lfrom the north wall.  Gigantic iron rings protrude from several places on
+&+Lthe north wall, from which dangle &+rchains&+L so large their individual links
+&+Lare the size of a man.  The purpose of those chains are to restrain a large,
+&+Ladult &+ggreen wyrm&+L, and are effective indeed.  The &+gwyrm&+L appears hungry
+&+Lbut healthy, and whatever &+BN&+by'&+BN&+beth's&+L reason was to restrain this beast
+&+Lhere, he appears capable of serving that purpose.
+~
+229 142639176 15
+D0
+~
+door~
+3 22901 22908
+D1
+~
+~
+0 0 22906
+D2
+~
+~
+0 0 22904
+D3
+~
+~
+0 0 22907
+S
+#22906
+&+LA &+rFiendishly &+LSlanted Side Room~
+&+L   This side corridor of the T shaped chamber has been slanted at a moderate
+&+Langle away from the &+rchained &+gwyrm&+L.  A slick &+gmoss&+L grows on the floor
+&+Lhere, making return to the center of the chamber even more difficult.  At the
+&+Lbottom of the slant lies a pile of &+Wbleached bones&+L, whether the result of
+&+Lthe &+gwyrm&+L or the source of the flitting movement from the ceiling here
+&+Lis hard to determine.&n
+~
+229 142639176 15
+D3
+~
+~
+0 0 22905
+S
+#22907
+&+LA &+rFiendishly &+LSlanted Side Room~
+&+L   This side corridor of the T shaped chamber has been slanted at a moderate
+&+Langle away from the &+rchained &+gwyrm&+L.  A slick &+gmoss&+L grows on the floor
+&+Lhere, making return to the center of the chamber even more difficult.  At the
+&+Lbottom of the slant lies a pile of &+Wbleached bones&+L, whether the result of
+&+Lthe &+gwyrm&+L or the source of the flitting movement from the ceiling here
+&+Lis hard to determine.&n
+~
+229 142639176 15
+D1
+~
+~
+0 0 22905
+S
+#22908
+&+LBefore a &+cShimmering &+LPortal&n~
+&+L   This small square chamber is made of an incredible &+gglowing&+L metal alloy.
+&+LIt radiates a sickly &+ggreen&+L light, which makes all living flesh the light
+&+Lfalls upon look &+gdiseased&+L or &+gill&+L.  A &+Cshimmering&+L portal floats in
+&+Lthe air against the north wall, and two rune inscribed doors lead out to the
+&+Least and west.  A magic mouth, looking decayed in the &+ggreen&+L light, floats
+&+Lin the center of the chamber, seeming to invade the minds of all present with
+&+Lthoughts and words...&n
+&+C"So you have braved my simple yet devious entry chamber.  Well that was only
+&+Cthe beginning.  I have devided my dungeons into three stages, each of which
+&+Cwill offer you no escape once you commit to their completion.  The first
+&+Clevel lies beyond this portal, the second lies beyond the east door, and the
+&+Cthird lies beyond the west door.  Enter the second or third without the means
+&+Cto continue you gained from the previous level, and you will find you have no
+&+Cescape, ending up as just another pile of bones left on my dungeon floors.&n
+~
+229 8388680 15
+D1
+&+LThe Second Gate of &+BN&+by'&+BNeth&n
+~
+second~
+1 0 22909
+D2
+~
+door~
+3 22901 22905
+D3
+&+LThe Third Gate of &+BN&+by'&+BN&+beth&n.
+~
+third~
+1 0 22910
+S
+#22909
+&+LBefore the second &+Cportal&n~
+&+L   This chamber is made of normal stone, and looks completely nondescript.
+&+LA &+Cshimmering &+Lportal floats in the center of the room, seeming to tug
+&+Leverything in the room towards its &+cswirling&+L and &+cpulstating&+L interior.
+&+LA single &+cthought&+L seems to echo through the chamber like a fleeting memory
+&+Lthat surfaces in the mind for only a second before it is gone to the depths
+&+Lonce more...&+c"do not venture beyond the second or third portals without
+&+cthe means to continue you gained on the previous level, or you will have no
+&+cescape, and your bones will lie scattered and forgotten on my dungeon floors..."&n
+~
+229 142639176 15
+D3
+~
+gate~
+1 0 22908
+S
+#22910
+&+LBefore the third &+Cportal&n~
+&+L   This chamber is made of normal stone, and looks completely nondescript.
+&+LA &+Cshimmering &+Lportal floats in the center of the room, seeming to tug
+&+Leverything in the room towards its &+cswirling&+L and &+cpulstating&+L interior.
+&+LA single &+cthought&+L seems to echo through the chamber like a fleeting memory
+&+Lthat surfaces in the mind for only a second before it is gone to the depths
+&+Lonce more...&+c"do not venture beyond the second or third portals without
+&+cthe means to continue you gained on the previous level, or you will have no
+&+cescape, and your bones will lie scattered and forgotten on my dungeon floors..."&n
+~
+229 142639176 15
+D1
+~
+gate~
+1 0 22908
+S
+#22930
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   This is the center of a chamber piled haphazardly with &+yboulders&+L.  Some
+&+Lof them have smooth edges, as though they are the &+ycrumbled &+L remains of
+&+Lsome kind of formal construction stones.  The shape of the rocks, and the
+&+Lrandom way they are assorted, has created a plethora of hiding places in,
+&+Lon, and around the &+yboulders&+L.  The pile slopes downward toward the walls
+&+Lof the chamber, a rather precarious journey.&n
+~
+229 33554440 0
+D0
+~
+~
+0 0 22934
+D1
+~
+~
+0 0 22932
+D2
+~
+~
+0 0 22931
+D3
+~
+~
+0 0 22933
+S
+#22931
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   This is the southern slope of a chamber piled high with &+yboulders&+L.  The
+&+Lcenter of the chamber lies to the north, where the &+yrockpile&+L seems to reach
+&+Lits apex.  Unusually large stones block off the corners of the room directly
+&+Least and west, making passage there impossible.  Shadows envelope the places
+&+Lbetween and under the rocks, making the are a perfect place to hide and lie
+&+Lin wait for a confused victim.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22930
+S
+#22932
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   This is the center of the chambers eastern wall.  Here the floor is nearly
+&+Lvisible between some of the larger rocks, making this part of the chamber
+&+Lprobably the most shallow with stones.  A pair of huge &+yboulders&+L to the
+&+Lsouth prevent passage in that direction, although the corner of the chamber
+&+Lcan be easily reached to the north.  It seems as though there might be some
+&+Lsubtle movement goin on beneath some of the rocks here.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22935
+D3
+~
+~
+0 0 22930
+S
+#22933
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   This is the center of the chambers western wall.  Here the floor is nearly
+&+Lvisible between some of the larger rocks, making this part of the chamber
+&+Lprobably the most shallow with stones.  A pair of huge &+yboulders&+L to the
+&+Lsouth prevent passage in that direction, although the corner of the chamber
+&+Lcan be easily reached to the north.  It seems as though there might be some
+&+Lsubtle movement goin on beneath some of the rocks here.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22936
+D1
+~
+~
+0 0 22930
+S
+#22934
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   Here the sloping pile of &+yboulders&+L has reached the northern wall.  To
+&+Lboth the east and west the rocks slope downward, nearly reaching the floor
+&+Lin both the northeast and northwest corners of the chamber.  One of the rocks
+&+Lto the west seems to be different somehow, as it juts into the wall at a
+&+Lfunny angle.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22935
+D2
+~
+~
+0 0 22930
+D3
+~
+~
+0 0 22936
+S
+#22935
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   This is the northeast corner of the rectangular chamber.  Directly to the
+&+Lsouthwest the apex of the &+yboulder&+L pile is visible in the center of the room.
+&+LThe footing here is especially precarious, as some of the smaller rocks have
+&+Lended up here at the corner of the pile, and constantly shift underfoot.&n
+~
+229 176193608 0
+D2
+~
+~
+0 0 22932
+D3
+~
+~
+0 0 22934
+S
+#22936
+&+LAmid a Jumble of &+yRocks &+Land &+yBoulders&n~
+&+L   Here in the northwest corner, one of the giant &+yboulders&+L seems to have
+&+Ltumbled down the pile and smashed into the northern wall.  The impact seems
+&+Lto have revealed some sort of panel, as a long smooth &+ycrack&+L can be seen
+&+Lrunning vertically down the wall.  A tiny hole can be seen alongside the
+&+Lcrack, hardly noticeable.&n
+~
+229 176193608 0
+D0
+~
+boulder~
+7 22930 22937
+D1
+~
+~
+0 0 22934
+D2
+~
+~
+0 0 22933
+S
+#22937
+&+LBefore the H&+Ba&+Lll &+Bof &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This small connecting room seems to have only one visible doorway, to the
+&+Lnorth.  Beyond the huge door strange thumping sounds can be heard, as well
+&+Las the muffled crackle of &+Blightning&+L.  A glowing &+Bzigzag &+cpattern &+Lhas
+&+Lbeen inscribed into the surface of the door with some kind of &+mmagical&+L
+&+Lbinding.  The &+cpattern&+L seems to pulse and flicker of its own accord, and
+&+La strange out of place &+yrock&+L on the western wall occasionally reflects
+&+La glint of it light.&n
+~
+229 176193612 0
+D0
+~
+door~
+1 0 22938
+D2
+~
+boulder~
+7 22930 22936
+D3
+~
+wall~
+7 22931 22948
+S
+#22938
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This is the center is&+Ble of the hall.  Giganti&+Lc pillars bracket the sides
+&+Lof the hall down its ent&+Bire length.  Between the&+L pillars, the hallway extends
+&+Lwider, providing serene &+Balcove like side area.  &+LThe stone used to create
+&+Lthe hallway is jet black&+B, with veins of pulstati&+Lng electric blue.  Although
+&+Lnot bright, these veins &+Bstill shed enough light &+Lto dimly illuminate the hall.
+&+LThe stone seems to both &+Bamplify and resist elect&+Lricity, absolutely necessary
+&+Lconsidering the nature o&+Bf the occupants.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22939
+D2
+~
+door~
+1 0 22937
+S
+#22939
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Bt&+Ba&+Lns&n~
+&+L   This is the center is&+Ble of the hall.  Giganti&+Lc pillars bracket the sides
+&+Lof the hall down its ent&+Bire length.  Between the&+L pillars, the hallway extends
+&+Lwider, providing serene &+Balcove like side area.  &+LThe stone used to create
+&+Lthe hallway is jet black&+B, with veins of pulstati&+Lng electric blue.  Although
+&+Lnot bright, these veins &+Bstill shed enough light &+Lto dimly illuminate the hall.
+&+LThe stone seems to both &+Bamplify and resist elect&+Lricity, absolutely necessary
+&+Lconsidering the nature o&+Bf the occupants.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22942
+D1
+~
+~
+0 0 22940
+D2
+~
+~
+0 0 22938
+D3
+~
+~
+0 0 22941
+S
+#22940
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+B   This is a side area of&+L the hallway, bracketed t&+Bo both the north and south
+&+Bby giant pillars of the b&+Llue veined stone.  Every &+Bfew seconds a spark of
+&+Belectricity jumps from on&+Le of the pillars to anoth&+Ber, accompanied by a sharp
+&+Bcracking sound.  The blue&+L light cast by the glowin&+Bg veins is brighter here,
+&+Bas it is caught between t&+Lhe pillars and the wall, &+Bits only escape out into
+&+Bthe main hallway.&n
+~
+229 176193608 0
+D3
+~
+~
+0 0 22939
+S
+#22941
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+B   This is a side area of&+L the hallway, bracketed t&+Bo both the north and south
+&+Bby giant pillars of the b&+Llue veined stone.  Every &+Bfew seconds a spark of
+&+Belectricity jumps from on&+Le of the pillars to anoth&+Ber, accompanied by a sharp
+&+Bcracking sound.  The blue&+L light cast by the glowin&+Bg veins is brighter here,
+&+Bas it is caught between t&+Lhe pillars and the wall, &+Bits only escape out into
+&+Bthe main hallway.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22939
+S
+#22942
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This is the center is&+Ble of the hall.  Giganti&+Lc pillars bracket the sides
+&+Lof the hall down its ent&+Bire length.  Between the&+L pillars, the hallway extends
+&+Lwider, providing serene &+Balcove like side area.  &+LThe stone used to create
+&+Lthe hallway is jet black&+B, with veins of pulstati&+Lng electric blue.  Although
+&+Lnot bright, these veins &+Bstill shed enough light &+Lto dimly illuminate the hall.
+&+LThe stone seems to both &+Bamplify and resist elect&+Lricity, absolutely necessary
+&+Lconsidering the nature o&+Bf the occupants.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22943
+D2
+~
+~
+0 0 22939
+S
+#22943
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This is the center is&+Ble of the hall.  Giganti&+Lc pillars bracket the sides
+&+Lof the hall down its ent&+Bire length.  Between the&+L pillars, the hallway extends
+&+Lwider, providing serene &+Balcove like side area.  &+LThe stone used to create
+&+Lthe hallway is jet black&+B, with veins of pulstati&+Lng electric blue.  Although
+&+Lnot bright, these veins &+Bstill shed enough light &+Lto dimly illuminate the hall.
+&+LThe stone seems to both &+Bamplify and resist elect&+Lricity, absolutely necessary
+&+Lconsidering the nature o&+Bf the occupants.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22946
+D1
+~
+~
+0 0 22944
+D2
+~
+~
+0 0 22942
+D3
+~
+~
+0 0 22945
+S
+#22944
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+B   This is a side area of&+L the hallway, bracketed t&+Bo both the north and south
+&+Bby giant pillars of the b&+Llue veined stone.  Every &+Bfew seconds a spark of
+&+Belectricity jumps from on&+Le of the pillars to anoth&+Ber, accompanied by a sharp
+&+Bcracking sound.  The blue&+L light cast by the glowin&+Bg veins is brighter here,
+&+Bas it is caught between t&+Lhe pillars and the wall, &+Bits only escape out into
+&+Bthe main hallway.&n
+~
+229 176193608 0
+D3
+~
+~
+0 0 22943
+S
+#22945
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+B   This is a side area of&+L the hallway, bracketed t&+Bo both the north and south
+&+Bby giant pillars of the b&+Llue veined stone.  Every &+Bfew seconds a spark of
+&+Belectricity jumps from on&+Le of the pillars to anoth&+Ber, accompanied by a sharp
+&+Bcracking sound.  The blue&+L light cast by the glowin&+Bg veins is brighter here,
+&+Bas it is caught between t&+Lhe pillars and the wall, &+Bits only escape out into
+&+Bthe main hallway.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22943
+S
+#22946
+&+LH&+Ba&+Lll &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This is the center is&+Ble of the hall.  Giganti&+Lc pillars bracket the sides
+&+Lof the hall down its ent&+Bire length.  Between the&+L pillars, the hallway extends
+&+Lwider, providing serene &+Balcove like side area.  &+LThe stone used to create
+&+Lthe hallway is jet black&+B, with veins of pulstati&+Lng electric blue.  Although
+&+Lnot bright, these veins &+Bstill shed enough light &+Lto dimly illuminate the hall.
+&+LThe stone seems to both &+Bamplify and resist elect&+Lricity, absolutely necessary
+&+Lconsidering the nature o&+Bf the occupants.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22947
+D2
+~
+~
+0 0 22943
+S
+#22947
+&+LThr&+Bo&+Lne R&+Bo&+Lom &+Bof the &+LT&+Bi&+Lt&+Ba&+Lns&n~
+&+L   This &+Broom&+L is magnificent, created by what &+Bmust&+L have been a truly gifted
+&+Lbeing.  &+BAll &+Lof the walls are made of jet blac&+Bk st&+Lone, marbled with lightning
+&+Lblue glowi&+Bng s&+Ltreaks.  A gigantic throne rises &+Bup f&+Lrom the floor, carved
+&+Lfrom the r&+Boom &+Litself as one continuous piece.  &+BEver&+Ly few seconds, without
+&+Lwarning, a&+B thu&+Lnderous bang fills the room as a wr&+Bithi&+Lng blast of lightning
+&+Lleaps from t&+Bhe t&+Lhrone to ricochet off the walls a&+Bnd c&+Leiling before being
+&+Labsorbed by &+Bthe &+Lstone.&n
+~
+229 176193608 0
+D2
+~
+~
+0 0 22946
+S
+#22948
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   The stench&+G he&+Lre is horrible, filled with smells to t&+Gerr&+Lible to even make
+&+Lan attempt&+G at ide&+Lntification.  Small lumps of rottin&+Gg organi&+Lc matter lie
+&+Lstrewn a&+Gbout, craw&+Lling with maggots and worms.  The &+Gnatural wa&+Llls of the
+&+Lcavern glo&+Gw with a &+Lpulsting ultr&+Gaviol&+Let light, ca&+Gsting stra&+Lnge moving shadows
+&+Leverywhere.  St&+Gra&+Lnge transluce&+Gnt forms s&+Leem to fade &+Gin&+L and out of existence
+&+Lin the deepest shadows of the cave, a&+Gnd even th&+Le shadows occasionally take
+&+Lon a humanoid form.  Definite humanoi&+Gd shap&+Les lumber about in the darkness,
+&+Llooking like mutilated frames hanging wi&+Gth&+L rotting meat.&n
+~
+229 176193608 0
+D1
+~
+wall~
+7 22931 22937
+D3
+~
+~
+0 0 22949
+S
+#22949
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   A smell of p&+Gungent rott&+Ling fl&+Gesh f&+Lills the entire cavern, so thick in
+&+Lthe air its bitte&+Gr arom&+La can b&+Ge tast&+Led.  A strange ultraviolet &+Gligh&+Lt radiates
+&+Lfrom the stone w&+Galls, il&+Llumina&+Gting s&+Ltrange translucent figu&+Gres whi&+Lch pass
+&+Lthrough the shadow&+Gs her&+Le.  U&+Gnident&+Lifiable horrors of movin&+Gg blackn&+Less lie
+&+Lin wait, fleeting glim&+Gp&+Lses o&+Gf the&+Lm in peripheral vision s&+Gend the s&+Lenses
+&+Lscreaming to the brain in primal &+Gter&+Lror.  Small chunks of ro&+Gtting, m&+Laggot
+&+Lridden flesh lie strewn about th&+Ge c&+Lavern, drained of all t&+Gheir blo&+Lod.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22948
+D3
+~
+~
+0 0 22950
+S
+#22950
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   The stench&+G he&+Lre is horrible, filled with smells to t&+Gerr&+Lible to even make
+&+Lan attempt&+G at ide&+Lntification.  Small lumps of rottin&+Gg organi&+Lc matter lie
+&+Lstrewn a&+Gbout, craw&+Lling with maggots and worms.  The &+Gnatural wa&+Llls of the
+&+Lcavern glo&+Gw with a &+Lpulsting ultr&+Gaviol&+Let light, ca&+Gsting stra&+Lnge moving shadows
+&+Leverywhere.  St&+Gra&+Lnge transluce&+Gnt forms s&+Leem to fade &+Gin&+L and out of existence
+&+Lin the deepest shadows of the cave, a&+Gnd even th&+Le shadows occasionally take
+&+Lon a humanoid form.  Definite humanoi&+Gd shap&+Les lumber about in the darkness,
+&+Llooking like mutilated frames hanging wi&+Gth&+L rotting meat.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22951
+D1
+~
+~
+0 0 22949
+S
+#22951
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   Here the cavern widen&+Gs and opens up t&+Lo the northwest, the u&+Gltraviol&+Let
+&+Llight cast by the pulsatin&+Gg walls illu&+Lminating a huge expanse.  F&+Gillin&+Lg the
+&+Lcenter of the cavern is an en&+Gourmous &+Lnatural pillar, formed by th&+Ge junc&+Ltion
+&+Lof a stalagmite and a stalagti&+Gte m&+Lillions of years ago.  The pillar p&+Gu&+Llsates
+&+Lwith the same ultraviolet ligh&+Gt cast b&+Ly the cavern walls, but at a brighter
+&+Llevel.  T&+Gher&+Le are also hints o&+Gf illith&+Lite in the stone, invading the normal
+&+Lspectru&+Gm of ul&+Ltraviolet wit&+Gh a sickly g&+Lreen cast.  The presence of this alloy
+&+Lrekno&+Gwn for its s&+Linister influ&+Gence mak&+Les the moving shadows here seem all
+&+Lthe m&+Gore men&+Lacing.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22952
+D2
+~
+~
+0 0 22950
+D3
+~
+~
+0 0 22955
+S
+#22952
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   A smell of p&+Gungent rott&+Ling fl&+Gesh f&+Lills the entire cavern, so thick in
+&+Lthe air its bitte&+Gr arom&+La can b&+Ge tast&+Led.  A strange ultraviolet &+Gligh&+Lt radiates
+&+Lfrom the stone w&+Galls, il&+Llumina&+Gting s&+Ltrange translucent figu&+Gres whi&+Lch pass
+&+Lthrough the shadow&+Gs her&+Le.  U&+Gnident&+Lifiable horrors of movin&+Gg blackn&+Less lie
+&+Lin wait, fleeting glim&+Gp&+Lses o&+Gf the&+Lm in peripheral vision s&+Gend the s&+Lenses
+&+Lscreaming to the brain in primal &+Gter&+Lror.  Small chunks of ro&+Gtting, m&+Laggot
+&+Lridden flesh lie strewn about th&+Ge c&+Lavern, drained of all t&+Gheir blo&+Lod.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22953
+D2
+~
+~
+0 0 22951
+S
+#22953
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   Here the cavern widen&+Gs and opens up t&+Lo the southwest, the u&+Gltraviol&+Let
+&+Llight cast by the pulsatin&+Gg walls illu&+Lminating a huge expanse.  F&+Gillin&+Lg the
+&+Lcenter of the cavern is an en&+Gourmous &+Lnatural pillar, formed by th&+Ge junc&+Ltion
+&+Lof a stalagmite and a stalagti&+Gte m&+Lillions of years ago.  The pillar p&+Gu&+Llsates
+&+Lwith the same ultraviolet ligh&+Gt cast b&+Ly the cavern walls, but at a brighter
+&+Llevel.  T&+Gher&+Le are also hints o&+Gf illith&+Lite in the stone, invading the normal
+&+Lspectru&+Gm of ul&+Ltraviolet wit&+Gh a sickly g&+Lreen cast.  The presence of this alloy
+&+Lrekno&+Gwn for its s&+Linister influ&+Gence mak&+Les the moving shadows here seem all
+&+Lthe m&+Gore men&+Lacing.&n
+~
+229 176193608 0
+D2
+~
+~
+0 0 22952
+D3
+~
+~
+0 0 22954
+S
+#22954
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   The stench&+G he&+Lre is horrible, filled with smells to t&+Gerr&+Lible to even make
+&+Lan attempt&+G at ide&+Lntification.  Small lumps of rottin&+Gg organi&+Lc matter lie
+&+Lstrewn a&+Gbout, craw&+Lling with maggots and worms.  The &+Gnatural wa&+Llls of the
+&+Lcavern glo&+Gw with a &+Lpulsting ultr&+Gaviol&+Let light, ca&+Gsting stra&+Lnge moving shadows
+&+Leverywhere.  St&+Gra&+Lnge transluce&+Gnt forms s&+Leem to fade &+Gin&+L and out of existence
+&+Lin the deepest shadows of the cave, a&+Gnd even th&+Le shadows occasionally take
+&+Lon a humanoid form.  Definite humanoi&+Gd shap&+Les lumber about in the darkness,
+&+Llooking like mutilated frames hanging wi&+Gth&+L rotting meat.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22953
+D3
+~
+~
+0 0 22958
+S
+#22955
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   A smell of p&+Gungent rott&+Ling fl&+Gesh f&+Lills the entire cavern, so thick in
+&+Lthe air its bitte&+Gr arom&+La can b&+Ge tast&+Led.  A strange ultraviolet &+Gligh&+Lt radiates
+&+Lfrom the stone w&+Galls, il&+Llumina&+Gting s&+Ltrange translucent figu&+Gres whi&+Lch pass
+&+Lthrough the shadow&+Gs her&+Le.  U&+Gnident&+Lifiable horrors of movin&+Gg blackn&+Less lie
+&+Lin wait, fleeting glim&+Gp&+Lses o&+Gf the&+Lm in peripheral vision s&+Gend the s&+Lenses
+&+Lscreaming to the brain in primal &+Gter&+Lror.  Small chunks of ro&+Gtting, m&+Laggot
+&+Lridden flesh lie strewn about th&+Ge c&+Lavern, drained of all t&+Gheir blo&+Lod.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22951
+D3
+~
+~
+0 0 22956
+S
+#22956
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   Here the cavern widen&+Gs and opens up t&+Lo the northeast, the u&+Gltraviol&+Let
+&+Llight cast by the pulsatin&+Gg walls illu&+Lminating a huge expanse.  F&+Gillin&+Lg the
+&+Lcenter of the cavern is an en&+Gourmous &+Lnatural pillar, formed by th&+Ge junc&+Ltion
+&+Lof a stalagmite and a stalagti&+Gte m&+Lillions of years ago.  The pillar p&+Gu&+Llsates
+&+Lwith the same ultraviolet ligh&+Gt cast b&+Ly the cavern walls, but at a brighter
+&+Llevel.  T&+Gher&+Le are also hints o&+Gf illith&+Lite in the stone, invading the normal
+&+Lspectru&+Gm of ul&+Ltraviolet wit&+Gh a sickly g&+Lreen cast.  The presence of this alloy
+&+Lrekno&+Gwn for its s&+Linister influ&+Gence mak&+Les the moving shadows here seem all
+&+Lthe m&+Gore men&+Lacing.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22957
+D1
+~
+~
+0 0 22955
+S
+#22957
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   The stench&+G he&+Lre is horrible, filled with smells to t&+Gerr&+Lible to even make
+&+Lan attempt&+G at ide&+Lntification.  Small lumps of rottin&+Gg organi&+Lc matter lie
+&+Lstrewn a&+Gbout, craw&+Lling with maggots and worms.  The &+Gnatural wa&+Llls of the
+&+Lcavern glo&+Gw with a &+Lpulsting ultr&+Gaviol&+Let light, ca&+Gsting stra&+Lnge moving shadows
+&+Leverywhere.  St&+Gra&+Lnge transluce&+Gnt forms s&+Leem to fade &+Gin&+L and out of existence
+&+Lin the deepest shadows of the cave, a&+Gnd even th&+Le shadows occasionally take
+&+Lon a humanoid form.  Definite humanoi&+Gd shap&+Les lumber about in the darkness,
+&+Llooking like mutilated frames hanging wi&+Gth&+L rotting meat.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22958
+D2
+~
+~
+0 0 22956
+S
+#22958
+&+yCavern &+Lof the &+RLiving &+LDead&n~
+&+L   Here the cavern widen&+Gs and opens up t&+Lo the southeast, the u&+Gltraviol&+Let
+&+Llight cast by the pulsatin&+Gg walls illu&+Lminating a huge expanse.  F&+Gillin&+Lg the
+&+Lcenter of the cavern is an en&+Gourmous &+Lnatural pillar, formed by th&+Ge junc&+Ltion
+&+Lof a stalagmite and a stalagti&+Gte m&+Lillions of years ago.  The pillar p&+Gu&+Llsates
+&+Lwith the same ultraviolet ligh&+Gt cast b&+Ly the cavern walls, but at a brighter
+&+Llevel.  T&+Gher&+Le are also hints o&+Gf illith&+Lite in the stone, invading the normal
+&+Lspectru&+Gm of ul&+Ltraviolet wit&+Gh a sickly g&+Lreen cast.  The presence of this alloy
+&+Lrekno&+Gwn for its s&+Linister influ&+Gence mak&+Les the moving shadows here seem all
+&+Lthe m&+Gore men&+Lacing.&n
+~
+229 176193612 0
+D1
+~
+~
+0 0 22954
+D2
+~
+~
+0 0 22957
+D3
+~
+door~
+1 0 22959
+S
+#22959
+&+LBeginning of the &+BRiver &+Lof &+RBlood&n~
+&+L   Here an underground river is joined by a small stream of brakish water
+&+Rpouring through a grate in the eastern wall.  Underneath the grate the river
+&+Litself swirls up from a completely submerged tunnel into this passage, which
+&+Rit fills more than halfway.  The water itself is a deep, dark red color,
+&+Lprobably from being rich in nutrients as it eats away at earthen banks much
+&+Rfarther upstream.  To the west, the churning water continues onward down
+&+Lthe passage.
+~
+229 176193608 0
+D1
+~
+door~
+1 0 22958
+D3
+~
+~
+0 0 22960
+S
+#22960
+&+LOn the &+BRiver &+Lof &+RBlood&n~
+&+R   Here the churning blood colored water flows swiftly through the passage.
+&+LWhat lies beneath the surface cannot be seen, but physical contact with moving
+&+Robjects assures any who pass here that they are not the only thing in the
+&+Lwater.  Several watermarks along the sides of the passage are much higher than
+&+Rthe current waterline, proof that the river often fills nearly the entire
+&+Lpassage.  Occasionally a smooth, round shape protrudes momentarily from the
+&+Rsurface, only to dart back down beneath the murky water.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22959
+D3
+~
+~
+0 0 22961
+S
+#22961
+&+LOn the &+BRiver &+Lof &+RBlood&n~
+&+R   Here the churning blood colored water flows swiftly through the passage.
+&+LWhat lies beneath the surface cannot be seen, but physical contact with moving
+&+Robjects assures any who pass here that they are not the only thing in the
+&+Lwater.  Several watermarks along the sides of the passage are much higher than
+&+Rthe current waterline, proof that the river often fills nearly the entire
+&+Lpassage.  Occasionally a smooth, round shape protrudes momentarily from the
+&+Rsurface, only to dart back down beneath the murky water.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22960
+D3
+~
+~
+0 0 22962
+S
+#22962
+&+LBend in the &+BRiver &+Lof &+RBlood&n~
+&+L   Here the blood colored river makes a sharp turn to the north.  The angle
+&+Rof the turn, combined with the swiftness of the current, causes the river
+&+Lto incline sharply onto the far wall of the curved tunnel.  Swimming here
+&+Rlooks treacherous, as the force of the water as it barrels around the curve
+&+Lappears to be easily capable of crushing a body into the wall.  Small fish
+&+Rlike shapes leap from the water, shake themselves vigorously in a spray of
+&+Lred water, and dive back into the rushing stream.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22963
+D1
+~
+~
+0 0 22961
+S
+#22963
+&+LOn the &+BRiver &+Lof &+RBlood&n~
+&+R   Here the churning blood colored water flows swiftly through the passage.
+&+LWhat lies beneath the surface cannot be seen, but physical contact with moving
+&+Robjects assures any who pass here that they are not the only thing in the
+&+Lwater.  Several watermarks along the sides of the passage are much higher than
+&+Rthe current waterline, proof that the river often fills nearly the entire
+&+Lpassage.  Occasionally a smooth, round shape protrudes momentarily from the
+&+Rsurface, only to dart back down beneath the murky water.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22964
+D2
+~
+~
+0 0 22962
+S
+#22964
+&+LCurve on the &+BRiver &+Lof &+RBlood&n~
+&+L   Here the blood colored river makes a sharp turn to the east.  The angle
+&+Rof the turn, combined with the swiftness of the current, causes the river
+&+Lto incline sharply onto the far wall of the curved tunnel.  Swimming here
+&+Rlooks treacherous, as the force of the water as it barrels around the curve
+&+Lappears to be easily capable of crushing a body into the wall.  Small fish
+&+Rlike shapes leap from the water, shake themselves vigorously in a spray of
+&+Lred water, and dive back into the rushing stream.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22965
+D2
+~
+~
+0 0 22963
+S
+#22965
+&+LOn the &+BRiver &+Lof &+RBlood&n~
+&+R   Here the churning blood colored water flows swiftly through the passage.
+&+LWhat lies beneath the surface cannot be seen, but physical contact with moving
+&+Robjects assures any who pass here that they are not the only thing in the
+&+Lwater.  Several watermarks along the sides of the passage are much higher than
+&+Rthe current waterline, proof that the river often fills nearly the entire
+&+Lpassage.  Occasionally a smooth, round shape protrudes momentarily from the
+&+Rsurface, only to dart back down beneath the murky water.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22966
+D3
+~
+~
+0 0 22964
+S
+#22966
+&+LOn the &+BRiver &+Lof &+RBlood&n~
+&+R   Here the churning blood colored water flows swiftly through the passage.
+&+LWhat lies beneath the surface cannot be seen, but physical contact with moving
+&+Robjects assures any who pass here that they are not the only thing in the
+&+Lwater.  Several watermarks along the sides of the passage are much higher than
+&+Rthe current waterline, proof that the river often fills nearly the entire
+&+Lpassage.  Occasionally a smooth, round shape protrudes momentarily from the
+&+Rsurface, only to dart back down beneath the murky water.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22967
+D3
+~
+~
+0 0 22965
+S
+#22967
+&+LEnd of the &+BRiver &+Lof &+RBlood&n~
+&+L   Here the bloody river plunges back down into the black depths of the earth.
+&+RAs it does so, it makes a slight curve, which during times of higher water
+&+Lslowly wore away at the eastern end of the tunnel.  Eventually the rock
+&+Rbegan to give way, forming a beach of red sandy stone which allows a landing
+&+Lto be made here.  A small crack in the eastern side of the tunnel above the
+&+Rbeach like sand leads out onto a wide sandy bank and a new cavern.  Perhaps
+&+Lthe savage water once flowed in that direction, creating the smooth sandy
+&+Rbeach which extends into the darkness.
+~
+229 176193608 0
+D1
+~
+~
+0 0 22968
+D3
+~
+~
+0 0 22966
+S
+#22968
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the south in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the north.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193612 0
+D0
+~
+~
+0 0 22969
+D1
+~
+~
+0 0 22970
+D3
+~
+~
+0 0 22967
+S
+#22969
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the north.  To the south, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22973
+D2
+~
+~
+0 0 22968
+S
+#22970
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the north.  To the south, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22973
+D1
+~
+~
+0 0 22971
+D3
+~
+~
+0 0 22968
+S
+#22971
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the south in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the north.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22972
+D3
+~
+~
+0 0 22970
+S
+#22972
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the north.  To the south, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D2
+~
+~
+0 0 22971
+D3
+~
+~
+0 0 22973
+S
+#22973
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the south in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the north.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22974
+D1
+~
+~
+0 0 22972
+D2
+~
+~
+0 0 22970
+D3
+~
+~
+0 0 22969
+S
+#22974
+&+rMagma &+LBridge over a &+RLava River&n~
+&+r   This magma bridge consists of a single gigantic boulder which extends
+&+rpast the entire width of the lava river.  Once blocking the majority of the
+&+ylava flow with its bulk, over the centuries the heat and relentless passage
+&+yof the melted rock has worn away entire bottom half of the magma boulder.
+&+rThe resulting crescent shaped boulder provides a natural bridge across the
+&+rliquid rock, shielding those who pass above it from heat and spray.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22975
+D2
+~
+~
+0 0 22973
+S
+#22975
+&+rMagma &+LBridge over a &+RLava River&n~
+&+r   This magma bridge consists of a single gigantic boulder which extends
+&+rpast the entire width of the lava river.  Once blocking the majority of the
+&+ylava flow with its bulk, over the centuries the heat and relentless passage
+&+yof the melted rock has worn away entire bottom half of the magma boulder.
+&+rThe resulting crescent shaped boulder provides a natural bridge across the
+&+rliquid rock, shielding those who pass above it from heat and spray.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22976
+D2
+~
+~
+0 0 22974
+S
+#22976
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the south.  To the north, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22980
+D1
+~
+~
+0 0 22977
+D2
+~
+~
+0 0 22975
+D3
+~
+~
+0 0 22978
+S
+#22977
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the north in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the south.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22981
+D3
+~
+~
+0 0 22976
+S
+#22978
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the north in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the south.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22979
+D1
+~
+~
+0 0 22976
+S
+#22979
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the south.  To the north, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22980
+D2
+~
+~
+0 0 22978
+S
+#22980
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  While the
+&+rbeach of magma sand ends to the north in a cavern wall, it disappears into
+&+ra river of flowing molten magma to the south.  The sand which forms the bed
+&+yof the magma has hardened and smoothed to a black mirror like glass, which
+&+yreflects the fiery glare of the burning lava within its dark surface.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22981
+D2
+~
+~
+0 0 22976
+D3
+~
+~
+0 0 22979
+S
+#22981
+&+yEarthen &+LBank of a &+RLava River&n~
+&+y   This is a wide beach of smooth stone pebbles, formed of magma rock worn
+&+ysmooth over the centuries by the river which once passed here.  Mixed in among
+&+rthe small sand pebbles are half melted chunks of magma rock, ejected from
+&+rthe lava river which flows past to the south.  To the north, the cavern
+&+yends the wide bank in a wall of sedimentairy stone, covered by bumpy rock
+&+yformations created by condensing evaporated water rich with minerals.&n
+~
+229 176193608 0
+D1
+~
+double~
+1 0 22982
+D2
+~
+~
+0 0 22977
+D3
+~
+~
+0 0 22980
+S
+#22982
+&+LBefore the Hall of &+bEmissaries&n~
+&+L   This e&+bxtend&+Led archway like tunne&+bl mar&+Lks the end of lava rock beach, and
+&+Lthe beginn&+bing o&+Lf a wide magnificent &+bhall &+Lto the east.  Although the floor
+&+Lis construc&+bted o&+Lf giant smooth blocks&+b of s&+Ltone, it is beginning to show signs
+&+Lof wear from&+b the &+Lconstant grinding of &+bstray&+L pebbles tracked in from the beach.
+&+LThe eastern e&+bnd of&+L this connecting hall&+bway i&+Ls bracketed by two thin yet
+&+Lmajestic pilla&+brs, c&+Lovered by arcane rune&+bs glo&+Lwing with a blue light.&n
+~
+229 176193612 0
+D1
+~
+~
+0 0 22983
+D3
+~
+double~
+1 0 22981
+S
+#22983
+&+LThe Hall of &+bEmissaries&n~
+&+L   This i&+bs the&+L center aisle of the&+b magn&+Lificent hall.  The f&+bloor &+Lis made from
+&+La black &+bstone&+L marbled with a magn&+bifice&+Lnt glowing blue, and&+b is m&+Larked down
+&+Lthe cen&+bter w&+Lith an intricate inl&+bay of&+L demons climbing ove&+br the&+L top of each
+&+Lother,&+b reac&+Lhing toward the top &+bof th&+Le pile which seems t&+bo be &+Lfarther to the
+&+Least.&+b  The&+L side walls of the h&+ballwa&+Ly which can be seen &+bin th&+Le distance to
+&+Lthe &+bnorth&+L and south look to b&+be cov&+Lered with magnificen&+bt anc&+Lient tapestries,
+&+Lspa&+bced a&+Lpart a tasteful dist&+bance &+Lfrom each other.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22985
+D1
+~
+~
+0 0 22987
+D2
+~
+~
+0 0 22984
+D3
+~
+~
+0 0 22982
+S
+#22984
+&+LThe Hall of &+bEmissaries&n~
+&+L   This is&+b the south&+L side of a&+bn enourmou&+Ls east-west hallway.&+b  The wal&+Ll here
+&+Lis covere&+bd by alter&+Lnating ancie&+bnt tapestr&+Lies and half-pilla&+brs studde&+Ld with
+&+Lrunes an&+bd precious&+L stones.  The &+btapestries&+L themselves are &+btruly mag&+Lnificent,
+&+Ldepicti&+bng scenes &+Lof great histori&+bcal signif&+Licance from lo&+bng ago.  &+LTheir value
+&+Lindivi&+bdually is &+Lnearly priceless, &+band as the&+Lre are dozen&+bs of tape&+Lstries lining
+&+Lthis &+bwall alone&+L the total value of &+bthe collec&+Ltion is im&+bmesurable.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22983
+D1
+~
+~
+0 0 22988
+S
+#22985
+&+LThe Hall of &+bEmissaries&n~
+&+L   Th&+bis is the &+Lnorth side of an eno&+burmous eas&+Lt-west hal&+blway.  The&+L wall here
+&+Lis cov&+bered by al&+Lternating ancient &+btapestries&+L and half-pi&+bllars stud&+Lded with
+&+Lrunes a&+bnd preciou&+Ls stones.  The t&+bapestries &+Lthemselves are&+b truly mag&+Lnificent,
+&+Ldepictin&+bg scenes o&+Lf great histor&+bical signi&+Lficance from lon&+bg ago.  Th&+Leir value
+&+Lindividua&+blly is nea&+Lrly priceles&+bs, and as &+Lthere are dozens o&+bf tapestri&+Les lining
+&+Lthis wall &+balone the &+Ltotal valu&+be of the c&+Lollection is immesur&+bable.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22986
+D2
+~
+~
+0 0 22983
+S
+#22986
+&+LThe Hall of &+bEmissaries&n~
+&+L   Th&+bis is the &+Lnorth side of an eno&+burmous eas&+Lt-west hal&+blway.  The&+L wall here
+&+Lis cov&+bered by al&+Lternating ancient &+btapestries&+L and half-pi&+bllars stud&+Lded with
+&+Lrunes a&+bnd preciou&+Ls stones.  The t&+bapestries &+Lthemselves are&+b truly mag&+Lnificent,
+&+Ldepictin&+bg scenes o&+Lf great histor&+bical signi&+Lficance from lon&+bg ago.  Th&+Leir value
+&+Lindividua&+blly is nea&+Lrly priceles&+bs, and as &+Lthere are dozens o&+bf tapestri&+Les lining
+&+Lthis wall &+balone the &+Ltotal valu&+be of the c&+Lollection is immesur&+bable.&n
+~
+229 176193608 0
+D1
+~
+~
+0 0 22991
+D2
+~
+~
+0 0 22987
+D3
+~
+~
+0 0 22985
+S
+#22987
+&+LThe Hall of &+bEmissaries&n~
+&+L   This i&+bs the&+L center aisle of the&+b magn&+Lificent hall.  The f&+bloor &+Lis made from
+&+La black &+bstone&+L marbled with a magn&+bifice&+Lnt glowing blue, and&+b is m&+Larked down
+&+Lthe cen&+bter w&+Lith an intricate inl&+bay of&+L demons climbing ove&+br the&+L top of each
+&+Lother,&+b reac&+Lhing toward the top &+bof th&+Le pile which seems t&+bo be &+Lfarther to the
+&+Least.&+b  The&+L side walls of the h&+ballwa&+Ly which can be seen &+bin th&+Le distance to
+&+Lthe &+bnorth&+L and south look to b&+be cov&+Lered with magnificen&+bt anc&+Lient tapestries,
+&+Lspa&+bced a&+Lpart a tasteful dist&+bance &+Lfrom each other.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22986
+D1
+~
+~
+0 0 22990
+D2
+~
+~
+0 0 22988
+D3
+~
+~
+0 0 22983
+S
+#22988
+&+LThe Hall of &+bEmissaries&n~
+&+L   This is&+b the south&+L side of a&+bn enourmou&+Ls east-west hallway.&+b  The wal&+Ll here
+&+Lis covere&+bd by alter&+Lnating ancie&+bnt tapestr&+Lies and half-pilla&+brs studde&+Ld with
+&+Lrunes an&+bd precious&+L stones.  The &+btapestries&+L themselves are &+btruly mag&+Lnificent,
+&+Ldepicti&+bng scenes &+Lof great histori&+bcal signif&+Licance from lo&+bng ago.  &+LTheir value
+&+Lindivi&+bdually is &+Lnearly priceless, &+band as the&+Lre are dozen&+bs of tape&+Lstries lining
+&+Lthis &+bwall alone&+L the total value of &+bthe collec&+Ltion is im&+bmesurable.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22987
+D1
+~
+~
+0 0 22989
+D3
+~
+~
+0 0 22984
+S
+#22989
+&+LThe Hall of &+bEmissaries&n~
+&+L   This is&+b the south&+L side of a&+bn enourmou&+Ls east-west hallway.&+b  The wal&+Ll here
+&+Lis covere&+bd by alter&+Lnating ancie&+bnt tapestr&+Lies and half-pilla&+brs studde&+Ld with
+&+Lrunes an&+bd precious&+L stones.  The &+btapestries&+L themselves are &+btruly mag&+Lnificent,
+&+Ldepicti&+bng scenes &+Lof great histori&+bcal signif&+Licance from lo&+bng ago.  &+LTheir value
+&+Lindivi&+bdually is &+Lnearly priceless, &+band as the&+Lre are dozen&+bs of tape&+Lstries lining
+&+Lthis &+bwall alone&+L the total value of &+bthe collec&+Ltion is im&+bmesurable.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22990
+D3
+~
+~
+0 0 22988
+S
+#22990
+&+LThe Hall of &+bEmissaries&n~
+&+L   This i&+bs the&+L center aisle of the&+b magn&+Lificent hall.  The f&+bloor &+Lis made from
+&+La black &+bstone&+L marbled with a magn&+bifice&+Lnt glowing blue, and&+b is m&+Larked down
+&+Lthe cen&+bter w&+Lith an intricate inl&+bay of&+L demons climbing ove&+br the&+L top of each
+&+Lother,&+b reac&+Lhing toward the top &+bof th&+Le pile which seems t&+bo be &+Lfarther to the
+&+Least.&+b  The&+L side walls of the h&+ballwa&+Ly which can be seen &+bin th&+Le distance to
+&+Lthe &+bnorth&+L and south look to b&+be cov&+Lered with magnificen&+bt anc&+Lient tapestries,
+&+Lspa&+bced a&+Lpart a tasteful dist&+bance &+Lfrom each other.&n
+~
+229 176193608 0
+D0
+~
+~
+0 0 22991
+D1
+~
+~
+0 0 22992
+D2
+~
+~
+0 0 22989
+D3
+~
+~
+0 0 22987
+S
+#22991
+&+LThe Hall of &+bEmissaries&n~
+&+L   Th&+bis is the &+Lnorth side of an eno&+burmous eas&+Lt-west hal&+blway.  The&+L wall here
+&+Lis cov&+bered by al&+Lternating ancient &+btapestries&+L and half-pi&+bllars stud&+Lded with
+&+Lrunes a&+bnd preciou&+Ls stones.  The t&+bapestries &+Lthemselves are&+b truly mag&+Lnificent,
+&+Ldepictin&+bg scenes o&+Lf great histor&+bical signi&+Lficance from lon&+bg ago.  Th&+Leir value
+&+Lindividua&+blly is nea&+Lrly priceles&+bs, and as &+Lthere are dozens o&+bf tapestri&+Les lining
+&+Lthis wall &+balone the &+Ltotal valu&+be of the c&+Lollection is immesur&+bable.&n
+~
+229 176193608 0
+D2
+~
+~
+0 0 22990
+D3
+~
+~
+0 0 22986
+S
+#22992
+&+LBefore the &+rAudience &+LChamber&n~
+&+L   Here the hallway has narrowed down as it approaches the audience room to
+&+Lthe east.  Instead of alterna&+Rting pill&+Lars and murals here, the walls are
+&+Linstead covered by incred&+Rible&+L enchant&+Red pa&+Lintings.  The paintings themselves
+&+Lare so realisting the app&+Rear&+L to &+Rbe&+L mor&+Re li&+Lke portals to other incredible
+&+Lworlds than actual painti&+Rngs.&+L  One de&+Rpict&+Ls a world of gigantic trees, while
+&+Lanother shows huge chunks of &+Rearth the&+L size of small continents floating
+&+Labout in empty space, their top surface covered by forests and grassy plains.
+&+LThe floor is laid with strange red and black marbled stone blocks, which
+&+Lwhen looked at in an abstract manner the red veins appear to form half of a
+&+Lface, its red eye seeming to stare into the room, watching.&n
+~
+229 176193612 0
+D1
+~
+~
+0 0 22993
+D3
+~
+~
+0 0 22990
+S
+#22993
+&+rAudience &+LChamber of &+BN&+by'&+BN&+beth&n~
+&+L   This is a gently angled cone s&+Bh&+Laped chamber, its point far above the level
+&+Lof the floor.  Every bit of spac&+Be o&+Ln the floor and walls are completely
+&+Lcovered with glowing blue runes&+B, cas&+Lting an eerie light into the room.  The
+&+Lshape and design of the chambe&+Br was o&+Lbviosly made for a purpose, that being
+&+Lthe containment of the dispor&+Bportionat&+Le mind that Ny'Neth has placed inside
+&+Lhis golem here.  Focusing on&+B the constr&+Luct itself causes anything peripheral
+&+Lto the viewer to blur out o&+Bf existence, &+Land the brain of the viewer to scream
+&+Lout in protest at the impo&+Bssible reality &+Lbefore it.  The actual air of the
+&+Lchamber seems to shimmer,&+B as though filled&+L with superheated air, even though
+&+Lthe temperature remains &+Bcool.  Unless focus&+Led on, the walls of the room begin
+&+Lto spin in the mind of &+Bthe viewer, the glowi&+Lng runes blending together to
+&+Lform newer and even st&+Branger moving symbols. &+L Physical objects here seem to
+&+Lphase in and out of r&+Beality, perhaps passing t&+Lhrough other plains of existence,
+&+Las they also protest&+B the impossibility that is &+Lpresented by such a massive
+&+Lmind contained with&+Bin the insufficient size of t&+Lhe construct.&n
+~
+229 176193608 0
+D2
+~
+vault~
+3 22965 22994
+D3
+~
+~
+0 0 22992
+S
+#22994
+&+LThe First Vault of &+BN&+by'&+BN&+beth&n~
+&+L   This is a small cube shaped chamber, filled with trophy cases, pedestals,
+&+Land wall mounted racks, all displaying powerful magical relics.  Although
+&+Lthey are on display, there is nothing here to indicate any kind of magical
+&+Lguardian or trap.  Apparently the objects contained here are intended to be
+&+Lsome kind of reward for any being capable of defeating the construct, as
+&+BN&+by'&+BN&+beth &+L is easily powerful enough that not even a lesser god could
+&+Lrob him of his possessions without defeating the &+mwizard&+L himself.  What
+&+Lrelics lie in his lower vaults can only be speculated on, but if the power
+&+Lof the objects here is any indication, they must be highly magical indeed.
+&+LGreed is a powerful force indeed, and any who stand here must feel the force
+&+Lof that greed burning within them, urgin them to go deeper into the stronghold.
+&+LExactly as &+BN&+by'&+BN&+beth&+L intended when he made this vault probably.&n
+~
+229 176193608 1
+D0
+~
+vault~
+3 0 22993
+S
+#22995
+Rareload room, 25% chance of loading each mob.~
+North leads to the lava river grid, while east south and west lead to the !exit
+!load room
+~
+229 176193608 0
+D0
+~
+~
+0 0 22993
+D1
+~
+~
+0 0 22975
+D2
+~
+~
+0 0 22996
+D3
+~
+~
+0 0 22996
+S
+#22996
+!load room for rareloads~
+This room is for rareloads who will not be loading onto the grid.
+~
+229 176193608 0
+S

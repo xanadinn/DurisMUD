@@ -1,0 +1,174 @@
+#40201
+scarecrow~
+&+ythe scarecrow&n~
+&+yA spindly scarecrow stands in the field here.&n~
+~
+15 5 3 0 7 0 0 0 0 0 0
+1000 0 -1 100 0 0 0 0
+1 1 100
+E
+scarecrow~
+The scarecrow really isn't very scary.  It's not doing too good a
+job of keeping the crows out at any rate.
+~
+#40202
+chest~
+a small chest~
+A small, beaten-up looking chest has been left here.~
+~
+15 6 5 50 7 0 0 1 0 0 0
+200 15 40203 250 0 0 0 0
+5 100 100
+E
+chest~
+nThe chest is simple and functional, large enough to hold a small
+scroll.
+~
+#40203
+key~
+&+Ya key of unknown use&n~
+A &+Ysmall key &nhas been left here.~
+~
+18 16 1 1 7 0 8388608 16385 0 0 0
+8 0 0 0 0 0 0 0
+1 1 100
+E
+key~
+The key is about the size of your thumb, and just by looking at it
+it is impossible to tell what it is for.
+~
+#40204
+case display~
+&+Ca decorative display case&n~
+A beautiful decorative &+Cdisplay case &nis set in the wall here.~
+~
+15 7 5 50 7 0 0 0 0 0 0
+10 5 -1 250 0 0 0 0
+1 1 100
+E
+case display~
+The display is simply but elegantly crafted.  Something of some
+importance must be inside.
+~
+#40205
+junk~
+&+Lsome junk&n~
+&+LSome junk is here.&n~
+~
+13 15 0 0 7 0 0 16385 0 0 0
+0 0 0 0 0 0 0 0
+1 1 100
+#40206
+corn~
+&+Ysome corn&n~
+A tall stalk of &+Ycorn &ngrows here, ready to be harvested.~
+~
+19 2 2 2 7 0 0 16385 0 0 0
+5 0 0 0 0 0 0 0
+1 1 100
+E
+corn~
+This is white corn, the sweet variety.  It's very good, and very
+nutritious.
+~
+#40207
+pea pod peapod~
+&+Ga peapod&n~
+A &+Gpeapod &nhangs from a vine here.~
+~
+19 2 2 2 7 0 0 16385 0 0 0
+2 0 0 0 0 0 0 0
+1 1 100
+E
+pea pod peapod~
+~
+#40208
+apple~
+&+Ran apple&n~
+An &+Rapple &nhas fallen from a tree here.~
+~
+19 2 2 2 7 0 0 16385 0 0 0
+5 0 0 0 0 0 0 0
+1 1 100
+E
+apple~
+A beautiful ruby red apple.  Just the thing for an old farmer.
+~
+#40209
+orange~
+&+yan orange&n~
+An &+yorange &nhas fallen from a tree here.~
+~
+19 2 2 2 7 0 0 16385 0 0 0
+5 0 0 0 0 0 0 0
+1 1 100
+E
+orange~
+A beautiful orange. It looks tasty and juicy.
+~
+#40210
+nest~
+&+ya crow's nest&n~
+A pair of crows have built a love nest here.~
+~
+15 5 3 0 7 0 0 1 0 0 0
+10 5 -1 100 0 0 0 0
+1 1 100
+E
+nest~
+Made of sticks and twigs and other stringy things, this is the place
+crows store the shiny things they find.
+~
+#40211
+paper wad~
+&+Wa wadded up ball of paper&n~
+A wadded up ball of paper has been discarded here.~
+~
+12 28 1 2 7 0 0 16385 0 0 0
+0 0 0 0 0 0 0 0
+1 1 100
+E
+paper wad~
+You unwad the ball of paper and carefully smooth it out to read it.
+It says:
+
+&+y+---------------------------------------+&n
+&+y:       &+RThe old farmer was here!        &+y:&n
+&+y:       &+YHe has taken the contents       &+y:&n
+&+y: &+Yof the chest into protective custody. &+y:&n
+&+y+---------------------------------------+&n
+
+Frustrated, you crumple the paper back into a wad.
+~
+#40212
+clear spring~
+&+Ba clear spring&n~
+A spring is here, shooting up from the floor.~
+~
+17 40 0 0 7 0 2 0 0 0 0
+-1 -1 0 0 0 0 0 0
+0 0 100
+E
+clear spring~
+&+BA clear spring is here, looking clean and refreshing.&n
+~
+#40213
+carapace gartham shell~
+&+ga gartham carapace&n~
+&+gThe outer shell of a gartham lies here on the ground.&n~
+~
+37 10 0 0 7 0 4096 513 0 4173708804 0
+2 1 2 5 0 0 0 0
+7 200 100
+A
+14 -10
+A
+13 4
+#40214
+rock flat~
+&+ya large flat rock~
+&+yA large flat rock lies here against the mountainside.~
+~
+29 15 3 0 5 0 0 0 0 0 0
+270 40223 1 0 0 0 0 0
+0 0 100

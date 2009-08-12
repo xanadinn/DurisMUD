@@ -1,0 +1,353 @@
+#42
+&+mIxxillikor&n~
+4398 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 4225 0 2 100 0 0 0
+*     north exit from "Outside a Large Stone Gate" to
+*     "Inside the Gates of Ixxillikor" - closed/locked
+*
+D 0 4226 2 1 100 0 0 0
+*     south exit from "Inside the Gates of Ixxillikor" to
+*     "Outside a Large Stone Gate" - closed
+*
+D 0 4235 0 1 100 0 0 0
+*     north exit from "A Narrow Pathway Bordered by Stalagmites" to
+*     "An Illithid Mansion" - closed
+*
+D 0 4331 2 1 100 0 0 0
+*     south exit from "An Illithid Mansion" to
+*     "A Narrow Pathway Bordered by Stalagmites" - closed
+*
+D 0 4236 3 1 100 0 0 0
+*     west exit from "A Narrow Pathway Bordered by Stalagmites" to
+*     "An Illithid Hovel" - closed
+*
+D 0 4330 1 1 100 0 0 0
+*     east exit from "An Illithid Hovel" to
+*     "A Narrow Pathway Bordered by Stalagmites" - closed
+*
+D 0 4237 1 1 100 0 0 0
+*     east exit from "A Narrow Pathway Bordered by Stalagmites" to
+*     "An Illithid Mansion Cut into the Cavern" - closed
+*
+D 0 4329 3 1 100 0 0 0
+*     west exit from "An Illithid Mansion Cut into the Cavern" to
+*     "A Narrow Pathway Bordered by Stalagmites" - closed
+*
+D 0 4248 0 1 100 0 0 0
+*     north exit from "Standing Before an Iron Gate" to
+*     "A Deep Cavern of Rock" - closed
+*
+D 0 4249 2 1 100 0 0 0
+*     south exit from "A Deep Cavern of Rock" to
+*     "Standing Before an Iron Gate" - closed
+*
+D 0 4268 0 1 100 0 0 0
+*     north exit from "Entryway to the Ixxillikor Slave Arena" to
+*     "A Crowded Slave Arena" - closed
+*
+D 0 4305 2 1 100 0 0 0
+*     south exit from "A Crowded Slave Arena" to
+*     "Entryway to the Ixxillikor Slave Arena" - closed
+*
+D 0 4274 0 1 100 0 0 0
+*     north exit from "Standing at the Base of an Enormous Rockspire" to
+*     "Entryway to the Spire" - closed
+*
+D 0 4275 2 1 100 0 0 0
+*     south exit from "Entryway to the Spire" to
+*     "Standing at the Base of an Enormous Rockspire" - closed
+*
+D 0 4279 3 1 100 0 0 0
+*     west exit from "A Steep and Rocky Incline" to
+*     "Approaching the Rothe Grazing Grounds" - closed
+*
+D 0 4280 1 1 100 0 0 0
+*     east exit from "Approaching the Rothe Grazing Grounds" to
+*     "A Steep and Rocky Incline" - closed
+*
+D 0 4292 1 1 100 0 0 0
+*     east exit from "Outside a Sinister Tower of Black Stone" to
+*     "Entrance to a Tower of Black Stone" - closed
+*
+D 0 4293 3 1 100 0 0 0
+*     west exit from "Entrance to a Tower of Black Stone" to
+*     "Outside a Sinister Tower of Black Stone" - closed
+*
+D 0 4343 5 5 100 0 0 0
+*     down exit from "A Clearing of Fallen Mushroom Stalks" to
+*     "A Rubble Heap" - closed/secret
+*
+D 0 4344 4 5 100 0 0 0
+*     up exit from "A Rubble Heap" to
+*     "A Clearing of Fallen Mushroom Stalks" - closed/secret
+*
+D 0 4352 3 5 100 0 0 0
+*     west exit from "A Small Cave With a Pool" to
+*     "A Hidden Cave of Moss" - closed/secret
+*
+D 0 4374 1 1 100 0 0 0
+*     east exit from "A Hidden Cave of Moss" to
+*     "A Small Cave With a Pool" - closed
+*
+D 0 4372 4 5 100 0 0 0
+*     up exit from "A Huge Web-Filled Cave" to
+*     "A Small Cave Off of the Rothe Grazing Fields" - closed/secret
+*
+D 0 4373 5 5 100 0 0 0
+*     down exit from "A Small Cave Off of the Rothe Grazing Fields" to
+*     "A Huge Web-Filled Cave" - closed/secret
+*
+D 0 4374 0 1 100 0 0 0
+*     north exit from "A Hidden Cave of Moss" to
+*     "A Tunnel Overgrown With Dense Vegetation" - closed
+*
+D 0 4375 2 5 100 0 0 0
+*     south exit from "A Tunnel Overgrown With Dense Vegetation" to
+*     "A Hidden Cave of Moss" - closed/secret
+*
+D 0 4387 5 5 100 0 0 0
+*     down exit from "A Side-Cavern of Moss" to
+*     "A Rocky Landing Full of Vegetation" - closed/secret
+*
+D 0 4390 4 5 100 0 0 0
+*     up exit from "A Rocky Landing Full of Vegetation" to
+*     "A Side-Cavern of Moss" - closed/secret
+*
+D 0 4388 5 5 100 0 0 0
+*     down exit from "A Side-Cavern of Moss" to
+*     "A Moss-Covered Landing" - closed/secret
+*
+D 0 4389 4 5 100 0 0 0
+*     up exit from "A Moss-Covered Landing" to
+*     "A Side-Cavern of Moss" - closed/secret
+*
+*
+O 0 4218 1 4274 100 0 0 0          * a warning sign
+O 0 4216 1 4306 100 0 0 0          * a stone basin
+O 0 3097 1 4325 100 0 0 0          * (object type not in this .obj file)
+O 0 4221 1 4333 100 0 0 0          * a dragonscale bodycloak
+O 0 4222 1 4334 100 0 0 0          * an armageddon crystal
+O 0 4223 1 4335 100 0 0 0          * a scabbard of finger bones
+O 0 4224 1 4335 100 0 0 0          * an arcane tome of spells
+*
+M 0 4228 5 4206 100 0 0 0          * a myconid
+M 0 4229 5 4206 100 0 0 0          * a young myconid
+M 0 4245 1 4207 100 0 0 0          * a scrawny drow
+M 0 4228 5 4210 100 0 0 0          * a myconid
+M 0 4258 2 4210 100 0 0 0          * a large myconid
+M 0 4229 5 4213 100 0 0 0          * a young myconid
+M 0 4229 5 4213 100 0 0 0          * a young myconid
+M 0 4229 5 4213 100 0 0 0          * a young myconid
+M 0 4228 5 4214 100 0 0 0          * a myconid
+M 0 4228 5 4214 100 0 0 0          * a myconid
+M 0 4230 3 4215 100 0 0 0          * a gas spore
+M 0 4230 3 4215 100 0 0 0          * a gas spore
+M 0 4228 5 4215 100 0 0 0          * a myconid
+M 0 4259 3 4218 100 0 0 0          * a strangle vine
+M 0 4249 4 4220 100 0 0 0          * a large bat
+M 0 4249 4 4220 100 0 0 0          * a large bat
+M 0 4249 4 4220 100 0 0 0          * a large bat
+M 0 4229 5 4221 100 0 0 0          * a young myconid
+M 0 4230 3 4222 100 0 0 0          * a gas spore
+M 0 4249 4 4222 100 0 0 0          * a large bat
+M 0 4257 2 4225 100 0 0 0          * a flesh golem
+E 1 4227 2 27 100 0 0 0            *   a gnarled mushroom stalk
+G 1 4226 1 0 100 0 0 0             *    an iron key
+M 0 4257 2 4225 100 0 0 0          * a flesh golem
+E 1 4227 2 27 100 0 0 0            *   a gnarled mushroom stalk
+M 0 4201 4 4227 100 0 0 0          * a flesh golem
+M 0 4201 4 4227 100 0 0 0          * a flesh golem
+M 0 4202 1 4227 100 0 0 0          * a duergar slave
+M 0 4239 3 4227 100 0 0 0          * a dwarf slave
+M 0 4217 4 4229 100 0 0 0          * an illithid
+M 0 4217 4 4229 100 0 0 0          * an illithid
+M 0 4260 3 4229 100 0 0 0          * a dominated slave
+M 0 4240 4 4232 100 0 0 0          * a human slave
+M 0 4240 4 4232 100 0 0 0          * a human slave
+M 0 4240 4 4232 100 0 0 0          * a human slave
+M 0 4218 4 4232 100 0 0 0          * an umber-hulk
+M 0 4243 2 4233 100 0 0 0          * an escaped duergar
+M 0 4260 3 4233 100 0 0 0          * a dominated slave
+M 0 4216 3 4234 100 0 0 0          * a drow slave
+M 0 4217 4 4234 100 0 0 0          * an illithid
+M 0 4217 4 4234 100 0 0 0          * an illithid
+M 0 4239 3 4236 100 0 0 0          * a dwarf slave
+M 0 4219 4 4240 100 0 0 0          * an illithid overseer
+M 0 4255 2 4240 100 0 0 0          * a rogue flesh golem
+M 0 4219 4 4246 100 0 0 0          * an illithid overseer
+M 0 4218 4 4246 100 0 0 0          * an umber-hulk
+M 0 4234 2 4248 100 0 0 0          * an umber-hulk guard
+M 0 4234 2 4248 100 0 0 0          * an umber-hulk guard
+M 0 4216 3 4248 100 0 0 0          * a drow slave
+M 0 4235 1 4254 100 0 0 0          * a fierce umber-hulk
+E 1 4225 1 16 100 0 0 0            *   a large jagged claw
+M 0 4236 3 4254 100 0 0 0          * a young umber-hulk
+M 0 4236 3 4254 100 0 0 0          * a young umber-hulk
+M 0 4236 3 4254 100 0 0 0          * a young umber-hulk
+M 0 4223 5 4255 100 0 0 0          * an illithid shopper
+M 0 4223 5 4255 100 0 0 0          * an illithid shopper
+M 0 4243 2 4255 100 0 0 0          * an escaped duergar
+M 0 4237 1 4256 100 0 0 0          * an illithid slaver
+M 0 4239 3 4257 100 0 0 0          * a dwarf slave
+M 0 4223 5 4258 100 0 0 0          * an illithid shopper
+M 0 4223 5 4259 100 0 0 0          * an illithid shopper
+M 0 4201 4 4261 100 0 0 0          * a flesh golem
+M 0 4201 4 4261 100 0 0 0          * a flesh golem
+M 0 4216 3 4263 100 0 0 0          * a drow slave
+M 0 4260 3 4264 100 0 0 0          * a dominated slave
+M 0 4224 1 4266 100 0 0 0          * an illithid auctioneer
+M 0 4223 5 4266 100 0 0 0          * an illithid shopper
+M 0 4218 4 4269 100 0 0 0          * an umber-hulk
+M 0 4241 3 4269 100 0 0 0          * an illithid
+M 0 4241 3 4269 100 0 0 0          * an illithid
+M 0 4218 4 4269 100 0 0 0          * an umber-hulk
+M 0 4255 2 4271 100 0 0 0          * a rogue flesh golem
+M 0 4240 4 4272 100 0 0 0          * a human slave
+M 0 4241 3 4272 100 0 0 0          * an illithid
+M 0 4251 2 4275 100 0 0 0          * a flesh golem
+M 0 4251 2 4275 100 0 0 0          * a flesh golem
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4210 14 4280 100 0 0 0         * a rothe
+M 0 4219 4 4281 100 0 0 0          * an illithid overseer
+M 0 4219 4 4281 100 0 0 0          * an illithid overseer
+M 0 4227 8 4282 100 0 0 0          * a white rothe
+M 0 4227 8 4282 100 0 0 0          * a white rothe
+M 0 4227 8 4282 100 0 0 0          * a white rothe
+M 0 4227 8 4282 100 0 0 0          * a white rothe
+M 0 4211 4 4284 100 0 0 0          * a scrawny goblin
+M 0 4211 4 4285 100 0 0 0          * a scrawny goblin
+M 0 4211 4 4285 100 0 0 0          * a scrawny goblin
+M 0 4211 4 4285 100 0 0 0          * a scrawny goblin
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4210 14 4286 100 0 0 0         * a rothe
+M 0 4215 2 4292 100 0 0 0          * a neogi guard
+M 0 4215 2 4292 100 0 0 0          * a neogi guard
+M 0 4231 2 4294 100 0 0 0          * a neogi
+M 0 4231 2 4294 100 0 0 0          * a neogi
+M 0 4256 2 4301 100 0 0 0          * a neogi
+M 0 4256 2 4303 100 0 0 0          * a neogi
+M 0 4213 1 4304 100 0 0 0          * the neogi queen
+M 0 4214 2 4304 100 0 0 0          * a young neogi
+M 0 4214 2 4304 100 0 0 0          * a young neogi
+M 0 4225 2 4305 100 0 0 0          * an illithid bystander
+M 0 4225 2 4305 100 0 0 0          * an illithid bystander
+M 0 4226 1 4305 100 0 0 0          * a neogi
+M 0 96433 2 4305 100 0 0 0         * (mob type not in this .mob file)
+M 0 96433 2 4305 100 0 0 0         * (mob type not in this .mob file)
+M 0 4233 1 4306 100 0 0 0          * a halfling slave
+M 0 4206 1 4307 100 0 0 0          * an illithid
+M 0 4209 4 4310 100 0 0 0          * a duergar slave
+M 0 4209 4 4310 100 0 0 0          * a duergar slave
+M 0 4252 5 4310 100 0 0 0          * a flesh golem
+M 0 4252 5 4310 100 0 0 0          * a flesh golem
+M 0 4253 3 4310 100 0 0 0          * an illithid overseer
+M 0 4207 3 4312 100 0 0 0          * a drow slave
+M 0 4253 3 4313 100 0 0 0          * an illithid overseer
+M 0 4242 1 4314 100 0 0 0          * a council-member
+G 1 4220 1 0 100 0 0 0             *    a golden colored potion
+F 1 4222 2 4314 100 0 0 0          * an elder illithid (following)
+G 1 4219 1 0 100 0 0 0             *    a githyanki index finger
+M 0 4232 2 4315 100 0 0 0          * a sickly dwarf
+M 0 4207 3 4316 100 0 0 0          * a drow slave
+M 0 4207 3 4316 100 0 0 0          * a drow slave
+M 0 4209 4 4316 100 0 0 0          * a duergar slave
+M 0 4232 2 4316 100 0 0 0          * a sickly dwarf
+M 0 4252 5 4318 100 0 0 0          * a flesh golem
+M 0 4252 5 4318 100 0 0 0          * a flesh golem
+M 0 4252 5 4318 100 0 0 0          * a flesh golem
+M 0 4209 4 4319 100 0 0 0          * a duergar slave
+M 0 4222 2 4319 100 0 0 0          * an elder illithid
+M 0 4253 3 4319 100 0 0 0          * an illithid overseer
+M 0 4203 1 4323 100 0 0 0          * Ezallixxel
+M 0 4204 1 4324 100 0 0 0          * an illithid shopkeeper
+G 1 4204 1 0 100 0 0 0             *    a long flowing robe
+G 1 4205 1 0 100 0 0 0             *    a gold band
+G 1 4206 1 0 100 0 0 0             *    a pair of spider-silk leggings
+G 1 4207 1 0 100 0 0 0             *    a necklace of chipped rock
+G 1 4208 1 0 100 0 0 0             *    a bronze mask
+G 1 4209 1 0 100 0 0 0             *    a belt of drider hair
+G 1 4210 1 0 100 0 0 0             *    a githyanki skin bracer
+G 1 4211 1 0 100 0 0 0             *    a pair of feathered slippers
+M 0 4205 1 4325 100 0 0 0          * a drow banker
+M 0 4212 1 4326 100 0 0 0          * a duergar metalsmith
+G 1 4212 1 0 100 0 0 0             *    a two-handed broadsword
+G 1 4213 1 0 100 0 0 0             *    a pair of beetle-shell sleeves
+G 1 4214 1 0 100 0 0 0             *    a pair of barbed gauntlets
+G 1 4215 1 0 100 0 0 0             *    a pair of mushroom stalk boots
+M 0 4220 2 4328 100 0 0 0          * a scrawny kobold
+M 0 4220 2 4328 100 0 0 0          * a scrawny kobold
+M 0 4227 8 4328 100 0 0 0          * a white rothe
+M 0 4227 8 4328 100 0 0 0          * a white rothe
+M 0 4227 8 4328 100 0 0 0          * a white rothe
+M 0 4227 8 4328 100 0 0 0          * a white rothe
+M 0 4244 2 4329 100 0 0 0          * an illithid
+G 1 4217 1 0 100 0 0 0             *    a glass wand
+M 0 4244 2 4330 100 0 0 0          * an illithid
+M 0 4250 1 4331 100 0 0 0          * an illithid
+M 0 4208 1 4332 100 0 0 0          * the elder brain
+F 1 4254 1 4332 100 0 0 0          * A dwarf slave (following)
+M 0 4259 3 4338 100 0 0 0          * a strangle vine
+M 0 4258 2 4339 100 0 0 0          * a large myconid
+M 0 4259 3 4339 100 0 0 0          * a strangle vine
+M 0 4261 3 4374 100 0 0 0          * a carniverous moss plant
+M 0 4263 8 4375 100 0 0 0          * a mossling
+M 0 4263 8 4375 100 0 0 0          * a mossling
+M 0 4263 8 4375 100 0 0 0          * a mossling
+M 0 4262 8 4375 100 0 0 0          * a huge mossling
+M 0 4262 8 4375 100 0 0 0          * a huge mossling
+M 0 4262 8 4375 100 0 0 0          * a huge mossling
+M 0 4263 8 4378 100 0 0 0          * a mossling
+M 0 4262 8 4378 100 0 0 0          * a huge mossling
+M 0 4264 11 4378 100 0 0 0         * a spore
+M 0 4267 10 4378 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4378 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4378 100 0 0 0         * a bipedal mossling
+M 0 4263 8 4381 100 0 0 0          * a mossling
+M 0 4263 8 4381 100 0 0 0          * a mossling
+M 0 4263 8 4381 100 0 0 0          * a mossling
+M 0 4263 8 4381 100 0 0 0          * a mossling
+M 0 4264 11 4383 100 0 0 0         * a spore
+M 0 4262 8 4383 100 0 0 0          * a huge mossling
+M 0 4262 8 4383 100 0 0 0          * a huge mossling
+M 0 4262 8 4383 100 0 0 0          * a huge mossling
+M 0 4262 8 4383 100 0 0 0          * a huge mossling
+M 0 4264 11 4384 100 0 0 0         * a spore
+M 0 4264 11 4384 100 0 0 0         * a spore
+M 0 4264 11 4386 100 0 0 0         * a spore
+M 0 4264 11 4386 100 0 0 0         * a spore
+M 0 4261 3 4387 100 0 0 0          * a carniverous moss plant
+M 0 4261 3 4388 100 0 0 0          * a carniverous moss plant
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4267 10 4393 100 0 0 0         * a bipedal mossling
+M 0 4268 2 4394 100 0 0 0          * a shambling mound
+M 0 4268 2 4394 100 0 0 0          * a shambling mound
+M 0 4265 2 4394 100 0 0 0          * a shambling mound
+M 0 4265 2 4394 100 0 0 0          * a shambling mound
+M 0 4266 2 4394 100 0 0 0          * a large shambling mound
+M 0 4266 2 4394 100 0 0 0          * a large shambling mound
+M 0 4264 11 4394 100 0 0 0         * a spore
+M 0 4264 11 4394 100 0 0 0         * a spore
+M 0 4264 11 4394 100 0 0 0         * a spore
+M 0 4264 11 4394 100 0 0 0         * a spore
+M 0 4264 11 4394 100 0 0 0         * a spore
+*
+S

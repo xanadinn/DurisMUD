@@ -1,0 +1,205 @@
+#43301
+highlord guard high lord~
+&+Wa Highlord&+C guard&n~
+&+WA Highlord&+C guard&+W brandishes his &+Cgleaming&+W longsword.&n
+~
+&+WThis strong, elite soldier of the &+CTharnadian&+W guard, stands here on
+&+Wthe causeway, eyes wary of any signs of trouble, checking out each and
+&+Weveryone in case someone or something tries to sneak by his watch.&n
+~
+1073743882 384 0 0 0 0 0 1000 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43302
+huge rat~
+&+ya HUGE rat&n~
+&+yA HUGE rat scavenges along the road.&n
+~
+&+yThis rat is considerbly larger than most the normal rats found in the
+&+ycity.  It bares is long fangs as it hunts for food, anything smaller than
+&+yit, usually cats or small dogs.&n
+~
+2120 0 0 0 0 0 0 -500 S
+A 0 1 3
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43303
+large rat~
+&+ya large rat&n~
+&+yA large rat scurries along the road.&n
+~
+&+yThis large rat scurries along the causeway, wary of the larger predators,
+&+ywhile hunting for scraps of food. &n
+~
+2248 0 0 0 0 0 0 -500 S
+A 0 0 2
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43304
+devout cleric~
+&+Wa devout &+Ccleric&n~
+&+WA devout&+C cleric &+Wwanders here, praising his god.&n
+~
+&+WThis aged &+Ccleric&+W wanders along the road, shouting praises to his god
+&+Wand singing hymns at the top of his lungs.  Most of the regular travellers
+&+Wtry their best to ignore him and keep their distance.&n
+~
+2120 0 0 0 0 0 0 600 S
+PH 0 32 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43305
+travelling merchant~
+&+Wa travelling &+cmerchant&n~
+&+WA travelling &+cmerchant&+W from &+gWoodseer&+W wanders here.&n
+~
+&+wThis halfling teacher has travelled from Woodseer in an attempt to make
+&+wsome money selling goods between the two major cities.&n
+~
+2120 0 0 0 0 0 0 0 S
+PF 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43306
+militia archer~
+&+La &+Wmilitia &+Rarcher&n~
+&+LA &+Wmilitia &+Rarcher&+L stands guard inside the bastion.&n
+~
+&+wBearing the typical insignia of the local militia, this archer stands
+&+where on guard, peering down at the causeway below through a tiny slot
+&+wcarved into the Bastion's outer wall, the archer hole lets him fire
+&+wdown at invaders without much risk to himself.&n
+~
+8 0 0 0 0 0 0 0 S
+PH 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43307
+samara young girl~
+&+LSamara&n~
+&+LA young girl has become trapped beneath the well here.&n
+~
+&+LThis faint image of a young girl floats half in and half out of the
+&+Lwell water.  Long black hair covers most of her features, though it is
+&+Lapparent she isn't very old at all.  A sheer white dress is her only
+&+Lclothing.&n
+~
+1073743882 0 0 0 0 0 0 -1000 S
+UG 0 512 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#43308
+reservoir dog~
+&+ya &+bresevoir&+y dog&n~
+&+yA &+breservoir&+y dog splashes about here.&n
+~
+&+yThe only thing worse than seeing a rat swimming about in one's drinking
+&+ywater is probably seeing a dog doing the same.  This mutt barks and yaps
+&+yas he splashes about furiously.&n
+~
+2056 0 0 0 0 0 0 0 S
+A 0 0 2
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43309
+elite guard causeway~
+&+Wa causeway guard&n~
+&+WAn elite guard protects the causeway here.&n
+~
+&+WThis warrior dutifully stands on guard here, eyes scanning the area
+&+Wfor any danger.  He is dressed in sturdy white platemail and is equipped
+&+Wwith several weapons, including a long dagger, and a large broadsword.&n
+~
+1107433546 384 0 805314600 4 0 4194304 1000 S
+PH 0 8 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43310
+water rat~
+&+Ba water rat&n~
+&+BA water rat swims around the resevoir.&n
+~
+&+BSeeing a rat in the reservoir makes one second guess trying the
+&+Bdrinking water in Tharnadia, despite all the governmental promises
+&+Bthat is clean, fresh, and safe.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43311
+elite guard bastion~
+&+Wan elite bastion guard&n~
+&+WAn elite guard watches over the causeway here.&n
+~
+&+WThis warrior dutifully stands on guard here, eyes scanning the area
+&+Wfor any danger.  He is dressed in sturdy white platemail and is equipped
+&+Wwith several weapons, including a long dagger, and a large broadsword.&n
+~
+67110922 384 0 0 0 0 0 1000 S
+PH 0 8 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43312
+guard elite~
+&+Wan elite causeway guard&n~
+&+WAn elite causeway guard looks &+rfierce &+Wstanding by the entrance.&n
+~
+&+WThis warrior dutifully stands on guard here, eyes scanning the area
+&+Wfor any danger.  He is dressed in sturdy white platemail and is equipped
+&+Wwith several weapons, including a long dagger, and a large broadsword.&n
+~
+2058 384 0 152 2048 67108864 0 890 S
+PB 0 1 4
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43313
+highlord bastion captain~
+&+Wthe bastion captain&n~
+&+WThe Highlord Bastion &+CCaptain&+W stands here vigilantly.&n
+~
+&+WThe captain of the bastion guard is in charge not only of all the causeway
+&+Wguards and soldiers but also commands all the highway patrolmen and
+&+Wmarshalls. Usually when people need the service of the Tharnadian patrols
+&+Wfor protection on the highways they need to first speak to this captain.
+~
+67143690 128 0 0 0 0 0 1000 S
+PH 0 67108864 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#43314
+elite highway patrol~
+&+Wan &+Celite&+W patrolman&n~
+&+WAn &+Celite&+W member of the Tharnadian &+Lhighway&+W patrol watches the roads.&n
+~
+~
+8 128 0 40 0 0 0 1000 S
+PH 0 2 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 1200
+8 8 1
+#43315
+elite marshall highway~
+&+Wan &+Celite&+L highway&+W marshall&n~
+&+WAn &+Celite&+W Tharnadian&+L highway &+Wmarshall patrols here.&n
+~
+~
+8 128 0 8 0 0 0 1000 S
+PH 0 2 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 2000
+8 8 1

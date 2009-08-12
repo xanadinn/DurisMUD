@@ -1,0 +1,308 @@
+#380
+&+GThetis's &+YRealm&n~
+38099 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38027 3 2 100 0 0 0
+*     west exit from "A Well Lit Room" to
+*     "A Wide Courtyard" - closed/locked
+*
+D 0 38028 1 2 100 0 0 0
+*     east exit from "A Wide Courtyard" to
+*     "A Well Lit Room" - closed/locked
+*
+D 0 38040 2 2 100 0 0 0
+*     south exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38041 0 2 100 0 0 0
+*     north exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38040 3 2 100 0 0 0
+*     west exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38042 1 2 100 0 0 0
+*     east exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38040 6 2 100 0 0 0
+*     northwest exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38043 9 2 100 0 0 0
+*     southeast exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38040 7 2 100 0 0 0
+*     southwest exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38044 8 2 100 0 0 0
+*     northeast exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38040 8 2 100 0 0 0
+*     northeast exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38045 7 2 100 0 0 0
+*     southwest exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38040 9 2 100 0 0 0
+*     southeast exit from "A Long Corridor" to
+*     "A Small Cell" - closed/locked
+*
+D 0 38046 6 2 100 0 0 0
+*     northwest exit from "A Small Cell" to
+*     "A Long Corridor" - closed/locked
+*
+D 0 38053 0 6 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "The Throne Room" - closed/locked/secret
+*
+D 0 38055 2 2 100 0 0 0
+*     south exit from "The Throne Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 38084 3 1 100 0 0 0
+*     west exit from "A Kelp Bed" to
+*     "A Forbidden City" - closed
+*
+D 0 38085 1 1 100 0 0 0
+*     east exit from "A Forbidden City" to
+*     "A Kelp Bed" - closed
+*
+*
+O 0 38034 1 38016 100 0 0 0        * a wooden treasure chest
+P 1 38001 1 38034 100 0 0 0        *   a coral earring
+P 1 38005 12 38034 100 0 0 0       *   a long silver sword
+P 1 38017 1 38034 100 0 0 0        *   a silver crown with red rubies
+P 1 38016 4 38034 100 0 0 0        *   a golden chain
+O 0 38000 1 38041 100 0 0 0        * a treasure chest
+P 1 38018 8 38000 100 0 0 0        *   a blue gem
+P 1 38018 8 38000 100 0 0 0        *   a blue gem
+P 1 38018 8 38000 100 0 0 0        *   a blue gem
+O 0 38036 1 38098 100 0 0 0        * an iron chest
+P 1 38016 4 38036 100 0 0 0        *   a golden chain
+P 1 38018 8 38036 100 0 0 0        *   a blue gem
+*
+M 0 38015 1 38001 100 0 0 0        * a hermit crab
+M 0 38036 4 38002 100 0 0 0        * a sharkman guard
+M 0 38036 4 38002 100 0 0 0        * a sharkman guard
+M 0 38000 8 38004 100 0 0 0        * a blue starfish
+M 0 38000 8 38004 100 0 0 0        * a blue starfish
+M 0 38024 10 38004 100 0 0 0       * a sea slug
+M 0 38001 5 38005 100 0 0 0        * a green starfish
+M 0 38002 6 38005 100 0 0 0        * a yellow starfish
+M 0 38024 10 38005 100 0 0 0       * a sea slug
+M 0 38004 6 38006 100 0 0 0        * a red starfish
+G 1 38018 8 0 100 0 0 0            *    a blue gem
+M 0 38011 11 38006 100 0 0 0       * a jellyfish
+M 0 38011 11 38006 100 0 0 0       * a jellyfish
+M 0 38000 8 38007 100 0 0 0        * a blue starfish
+M 0 38026 29 38007 100 0 0 0       * a sea turtle
+M 0 38030 9 38007 100 0 0 0        * a small seahorse
+M 0 38005 3 38008 100 0 0 0        * a small octopus
+E 1 38016 4 3 100 0 0 0            *   a golden chain
+G 1 38015 1 0 100 0 0 0            *    a emerald ring
+M 0 38011 11 38008 100 0 0 0       * a jellyfish
+M 0 38030 9 38009 100 0 0 0        * a small seahorse
+M 0 38004 6 38009 100 0 0 0        * a red starfish
+G 1 38018 8 0 100 0 0 0            *    a blue gem
+M 0 38026 29 38009 100 0 0 0       * a sea turtle
+M 0 38004 6 38010 100 0 0 0        * a red starfish
+G 1 38018 8 0 100 0 0 0            *    a blue gem
+M 0 38023 5 38010 100 0 0 0        * a stingray
+M 0 38017 10 38010 100 0 0 0       * a sea urchin
+M 0 38001 5 38011 100 0 0 0        * a green starfish
+M 0 38002 6 38011 100 0 0 0        * a yellow starfish
+M 0 38026 29 38011 100 0 0 0       * a sea turtle
+M 0 38011 11 38011 100 0 0 0       * a jellyfish
+M 0 38017 10 38012 100 0 0 0       * a sea urchin
+M 0 38002 6 38012 100 0 0 0        * a yellow starfish
+M 0 38003 6 38012 100 0 0 0        * a orange starfish
+M 0 38011 11 38012 100 0 0 0       * a jellyfish
+M 0 38024 10 38013 100 0 0 0       * a sea slug
+M 0 38003 6 38013 100 0 0 0        * a orange starfish
+M 0 38026 29 38013 100 0 0 0       * a sea turtle
+M 0 38030 9 38013 100 0 0 0        * a small seahorse
+M 0 38037 1 38013 100 0 0 0        * Burgadan
+E 1 38038 1 16 100 0 0 0           *   a large, blue, trident
+M 0 38007 17 38015 100 0 0 0       * a school of fish
+M 0 38024 10 38015 100 0 0 0       * a sea slug
+M 0 38006 1 38016 100 0 0 0        * a medium octopus
+G 1 38033 1 0 100 0 0 0            *    a red key
+M 0 38023 5 38017 100 0 0 0        * a stingray
+M 0 38005 3 38017 100 0 0 0        * a small octopus
+E 1 38016 4 3 100 0 0 0            *   a golden chain
+M 0 38024 10 38017 100 0 0 0       * a sea slug
+M 0 38007 17 38017 100 0 0 0       * a school of fish
+M 0 38007 17 38018 100 0 0 0       * a school of fish
+M 0 38007 17 38018 100 0 0 0       * a school of fish
+M 0 38001 5 38018 100 0 0 0        * a green starfish
+M 0 38010 3 38019 100 0 0 0        * a moray eel
+M 0 38011 11 38020 100 0 0 0       * a jellyfish
+M 0 38007 17 38020 100 0 0 0       * a school of fish
+M 0 38026 29 38020 100 0 0 0       * a sea turtle
+M 0 38024 10 38021 100 0 0 0       * a sea slug
+M 0 38026 29 38021 100 0 0 0       * a sea turtle
+M 0 38002 6 38021 100 0 0 0        * a yellow starfish
+M 0 38000 8 38021 100 0 0 0        * a blue starfish
+M 0 38026 29 38022 100 0 0 0       * a sea turtle
+M 0 38026 29 38022 100 0 0 0       * a sea turtle
+M 0 38017 10 38022 100 0 0 0       * a sea urchin
+M 0 38026 29 38023 100 0 0 0       * a sea turtle
+M 0 38026 29 38023 100 0 0 0       * a sea turtle
+M 0 38026 29 38023 100 0 0 0       * a sea turtle
+M 0 38026 29 38024 100 0 0 0       * a sea turtle
+M 0 38026 29 38024 100 0 0 0       * a sea turtle
+M 0 38026 29 38024 100 0 0 0       * a sea turtle
+M 0 38026 29 38024 100 0 0 0       * a sea turtle
+M 0 38026 29 38024 100 0 0 0       * a sea turtle
+M 0 38024 10 38024 100 0 0 0       * a sea slug
+M 0 38023 5 38024 100 0 0 0        * a stingray
+M 0 38036 4 38027 100 0 0 0        * a sharkman guard
+G 1 38014 1 0 100 0 0 0            *    a iron key
+M 0 38036 4 38027 100 0 0 0        * a sharkman guard
+M 0 38014 3 38029 100 0 0 0        * a seahorse
+M 0 38014 3 38029 100 0 0 0        * a seahorse
+M 0 38014 3 38029 100 0 0 0        * a seahorse
+M 0 38007 17 38031 100 0 0 0       * a school of fish
+M 0 38017 10 38031 100 0 0 0       * a sea urchin
+M 0 38018 14 38032 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38028 7 38033 100 0 0 0        * a medium-sized clam
+M 0 38028 7 38033 100 0 0 0        * a medium-sized clam
+G 1 38031 1 0 100 0 0 0            *    a clam shell
+M 0 38018 14 38035 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38035 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38035 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38021 3 38036 100 0 0 0        * a siren
+E 1 38003 1 19 100 0 0 0           *   a eyepatch
+M 0 38022 1 38036 100 0 0 0        * a human slave
+E 1 38004 1 20 100 0 0 0           *   a translucent mask
+M 0 38021 3 38036 100 0 0 0        * a siren
+M 0 38021 3 38036 100 0 0 0        * a siren
+M 0 38009 3 38037 100 0 0 0        * a giant squid
+M 0 38027 5 38039 100 0 0 0        * a small clam
+M 0 38028 7 38039 100 0 0 0        * a medium-sized clam
+M 0 38029 6 38039 100 0 0 0        * a large clam
+M 0 38027 5 38039 100 0 0 0        * a small clam
+M 0 38028 7 38039 100 0 0 0        * a medium-sized clam
+M 0 38029 6 38039 100 0 0 0        * a large clam
+M 0 38027 5 38039 100 0 0 0        * a small clam
+M 0 38027 5 38039 100 0 0 0        * a small clam
+M 0 38027 5 38039 100 0 0 0        * a small clam
+M 0 38028 7 38039 100 0 0 0        * a medium-sized clam
+M 0 38028 7 38039 100 0 0 0        * a medium-sized clam
+M 0 38028 7 38039 100 0 0 0        * a medium-sized clam
+M 0 38029 6 38039 100 0 0 0        * a large clam
+M 0 38018 14 38040 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+G 1 38019 1 0 100 0 0 0            *    a golden key
+M 0 38018 14 38040 100 0 0 0       * a sharkman guard
+M 0 38018 14 38040 100 0 0 0       * a sharkman guard
+M 0 38009 3 38043 100 0 0 0        * a giant squid
+M 0 38008 2 38044 100 0 0 0        * a killer whale
+M 0 38008 2 38044 100 0 0 0        * a killer whale
+M 0 38013 1 38046 100 0 0 0        * a mage prisoner
+E 1 38011 1 20 100 0 0 0           *   a mask of adamantium
+G 1 38020 1 0 100 0 0 0            *    a purple potion
+M 0 38034 2 38047 100 0 0 0        * a large clam
+M 0 38035 1 38047 100 0 0 0        * a large clam
+G 1 38032 1 0 100 0 0 0            *    a pearl on a string
+M 0 38034 2 38047 100 0 0 0        * a large clam
+M 0 38020 3 38048 100 0 0 0        * a mermaid
+E 1 38002 3 3 100 0 0 0            *   a coral necklace
+M 0 38020 3 38048 100 0 0 0        * a mermaid
+E 1 38002 3 3 100 0 0 0            *   a coral necklace
+M 0 38020 3 38048 100 0 0 0        * a mermaid
+E 1 38002 3 3 100 0 0 0            *   a coral necklace
+M 0 38025 1 38048 100 0 0 0        * a small mermaid
+M 0 38018 14 38049 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38051 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38053 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38053 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38018 14 38053 100 0 0 0       * a sharkman guard
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+M 0 38019 1 38053 100 0 0 0        * a sharkman captain
+E 1 38012 1 12 100 0 0 0           *   a kelp vest
+E 1 38005 12 16 100 0 0 0          *   a long silver sword
+G 1 38021 1 0 100 0 0 0            *    a skeleton key
+M 0 38016 1 38055 100 0 0 0        * King Thetis
+E 1 38008 1 6 100 0 0 0            *   a crown of translation
+E 1 38010 1 13 100 0 0 0           *   a coral belt
+E 1 38009 1 16 100 0 0 0           *   a stone trident
+M 0 38012 1 38055 100 0 0 0        * Celsin
+E 1 38029 1 13 100 0 0 0           *   a green sash
+E 1 38006 1 16 100 0 0 0           *   a staff of globe
+E 1 38007 1 28 100 0 0 0           *   a spellbook covered in eel-skin hide
+M 0 38018 14 38055 100 0 0 0       * a sharkman guard
+M 0 38018 14 38055 100 0 0 0       * a sharkman guard
+M 0 38010 3 38056 100 0 0 0        * a moray eel
+M 0 38009 3 38070 100 0 0 0        * a giant squid
+M 0 38031 2 38072 100 0 0 0        * a green sea dragon
+G 1 38030 1 0 100 0 0 0            *    some dragon scale leggings
+M 0 38001 5 38086 100 0 0 0        * a green starfish
+M 0 38002 6 38086 100 0 0 0        * a yellow starfish
+M 0 38003 6 38086 100 0 0 0        * a orange starfish
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38030 9 38087 100 0 0 0        * a small seahorse
+M 0 38000 8 38088 100 0 0 0        * a blue starfish
+M 0 38000 8 38088 100 0 0 0        * a blue starfish
+M 0 38007 17 38090 100 0 0 0       * a school of fish
+M 0 38007 17 38090 100 0 0 0       * a school of fish
+M 0 38007 17 38090 100 0 0 0       * a school of fish
+M 0 38032 1 38091 100 0 0 0        * a fish teacher
+M 0 38007 17 38091 100 0 0 0       * a school of fish
+M 0 38007 17 38091 100 0 0 0       * a school of fish
+M 0 38007 17 38091 100 0 0 0       * a school of fish
+M 0 38007 17 38091 100 0 0 0       * a school of fish
+M 0 38026 29 38092 100 0 0 0       * a sea turtle
+M 0 38026 29 38092 100 0 0 0       * a sea turtle
+M 0 38011 11 38092 100 0 0 0       * a jellyfish
+M 0 38011 11 38092 100 0 0 0       * a jellyfish
+M 0 38024 10 38092 100 0 0 0       * a sea slug
+M 0 38024 10 38092 100 0 0 0       * a sea slug
+M 0 38017 10 38094 100 0 0 0       * a sea urchin
+M 0 38017 10 38094 100 0 0 0       * a sea urchin
+M 0 38017 10 38094 100 0 0 0       * a sea urchin
+M 0 38017 10 38094 100 0 0 0       * a sea urchin
+M 0 38024 10 38094 100 0 0 0       * a sea slug
+M 0 38004 6 38094 100 0 0 0        * a red starfish
+G 1 38018 8 0 100 0 0 0            *    a blue gem
+M 0 38000 8 38095 100 0 0 0        * a blue starfish
+M 0 38000 8 38095 100 0 0 0        * a blue starfish
+M 0 38001 5 38095 100 0 0 0        * a green starfish
+M 0 38002 6 38095 100 0 0 0        * a yellow starfish
+M 0 38023 5 38095 100 0 0 0        * a stingray
+M 0 38026 29 38096 100 0 0 0       * a sea turtle
+M 0 38026 29 38096 100 0 0 0       * a sea turtle
+M 0 38026 29 38096 100 0 0 0       * a sea turtle
+M 0 38033 1 38097 100 0 0 0        * Salty
+G 1 38022 1 0 100 0 0 0            *    a kelp backpack
+G 1 38023 999 0 100 0 0 0          *    a purple barrel
+G 1 38024 999 0 100 0 0 0          *    a kelp burger
+G 1 38025 999 0 100 0 0 0          *    a waterproof torch
+G 1 38026 999 0 100 0 0 0          *    a sharp lance
+G 1 38027 1 0 100 0 0 0            *    spellbook
+M 0 38010 3 38098 100 0 0 0        * a moray eel
+G 1 38035 1 0 100 0 0 0            *    a green key
+*
+S

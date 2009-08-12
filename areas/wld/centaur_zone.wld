@@ -1,0 +1,2435 @@
+#93300
+&+yPass Into the Mountains&n~
+   &+yThis winding path begins a long trek, north and south, through the rocky
+&+youtskirts of the &+LBlack &+WThorne&+y mountain range.  Stone peaks begin to jut from
+&+ythe ground, some to heights in excess of two hundred feet.  The rock of the
+&+ymountain range is a dark brown, laced with ebony veins of &+Lonyx&+y.&n
+~
+933 0 5
+D0
+   The path continues higher into the mountains.
+~
+~
+0 0 93301
+D2
+~
+~
+0 0 519684
+S
+#93301
+&+yPass through the &+LBlack &+WThorne &+yMountains&n~
+   &+yThis narrow path continues to head its way north and south toward the
+&+ycenter of the &+LBlack &+WThorne&+y mountain range.  The peaks are beginning to close
+&+ytogether, and the air between them is becoming more of an illusion than
+&+yreality.  On either side of the path, steep stone walls just upward to a
+&+yheight in excess of four hundred feet.  The rock of the mountain range is a
+&+ydark brown, laced with ebony veins of &+Lonyx&+y.&n
+~
+933 0 5
+D0
+   The path moves on to the north.
+~
+~
+0 0 93302
+D2
+   The path continues to the south.
+~
+~
+0 0 93300
+S
+#93302
+&+yPass through the &+LBlack &+WThorne &+yMountains&n~
+   &+yThis narrow path continues to wind its way east and south through the
+&+ycenter of the &+LBlack &+WThorne&+y mountain range towards the &+ggrotto&+y of the centaur.
+&+yOn either side of the path, steep stone walls just upward to a height in
+&+yexcess of nine hundred feet.  The rock of the mountain range is a dark brown
+&+ylaced with ebony veins of &+Lonyx&+y.&n
+~
+933 0 5
+D1
+   The path moves on toward the east.
+~
+~
+0 0 93303
+D2
+   The path continues south.
+~
+~
+0 0 93301
+S
+#93303
+&+yPass through the &+LBlack &+WThorne &+yMountains&n~
+   &+yThis narrow path continues to wind its way north and west through the
+&+ycenter of the &+LBlack &+WThorne&+y mountain range towards the &+ggrotto&+y of the centaur.
+&+yOn either side of the path, steep stone walls jut upward to a height in
+&+yexcess of nine hundred feet.  The rock of the mountain range is a dark brown
+&+ylaced with Ebony veins of &+Lonyx&+y.&n
+~
+933 0 5
+D0
+   The path continues onward.
+~
+~
+0 0 93304
+D3
+   The path to the west turns south.
+~
+~
+0 0 93302
+S
+#93304
+&+yPath Below a Steep Incline&n~
+   &+yThis narrow path enters after a long trek from the south, through the center
+&+yof the &+LBlack &+WThorne&+y mountain range away from the &+ggrotto&+y of the centaur.  On
+&+yeither side of the path, steep stone walls poke upward to a height in excess
+&+yof nine hundred feet.  The rock that comprises the mountain range is a dark
+&+ybrown laced with ebony veins of &+Lonyx&+y.  There is a steep incline here, a
+&+ynatural ladder leads upward toward higher ground.&n
+~
+933 0 5
+D2
+   The path south turns to the west.
+~
+~
+0 0 93303
+D4
+   A natural ladder leads up to higher grounds.
+~
+~
+0 0 93305
+S
+#93305
+&+yA Steep Incline&n~
+&+y   Rocks of various sizes jut out from the cliff, creating a natural ladder to
+&+ythe paths above and below.  The stone of the mountains is a deep brown in hue,
+&+ywith slight traces of &+Lonyx&+y throughout.  The air here is clean and feels good
+&+yto inhale.&n
+~
+933 0 5
+D3
+   A large granite slab rests against the front of a cave.
+~
+~
+0 0 93397
+D4
+   The ground levels out above you.
+~
+~
+0 0 93306
+D5
+   There is a footpath below you.
+~
+~
+0 0 93304
+F
+38
+S
+#93306
+&+yPath South of the &+BRiver&n~
+&+y   On either side of the path, steep stone walls jut upward to a height in
+&+yexcess of five hundred feet.  The rock of the mountain range is a dark brown
+&+ylaced with ebony veins of &+Lonyx&+y.  There is a steep incline here, a natural
+&+yladder leads down toward the path below.  To the north, the &+BRiver of the Wind
+&+ymakes its way westward through the jagged peaks of the &+LBlack &+WThorne&+y mountains.&n
+~
+933 0 5
+D0
+   The river of the wind lies to the north.
+~
+~
+0 0 93307
+D5
+   There is a natural ladder leading down to the path below.
+~
+~
+0 0 93305
+F
+13
+S
+#93307
+&+BThe River of the Wind&n~
+   This river weaves in and out of the &+ymountains&n surrounding the grotto, its
+cool &+Bazure&n waters meandering around the steep peaks before descending into
+the &+gvalley&n below.  The stream here has forged its own path across the trail
+that leads further into the mountains.
+~
+933 0 7
+D0
+   The other bank of the river lies to the north.
+~
+~
+0 0 93308
+D2
+   The path through the Black Thorne mountain range, leads to the south.
+~
+~
+0 0 93306
+S
+#93308
+&+BThe River of the Wind&n~
+   This river has forged its own path across the trail that leads further into
+the mountains.  Its cool &+Bazure&n waters weave in and out of the &+ymountains&n
+surrounding the grotto, winding around the steep peaks before descending into
+the &+gvalley&n below.  The stream here has forged its own path across the trail
+that leads further into the mountains.
+~
+933 0 7
+D0
+   A path continues to the north, toward the grotto.
+~
+~
+0 0 93309
+D2
+   The other bank of the river lies to the south.
+~
+~
+0 0 93307
+S
+#93309
+&+yA Path Toward the &+gGrotto of the Centaur&n~
+   &+yThis narrow path continues to wind its way to the north through the center
+&+yof the &+LBlack &+WThorne&+y mountain range towards the &+ggrotto&+y of the centaur.  On
+&+yeither side of the path, steep stone walls jut upward to a height in excess
+&+yof four hundred feet.  The rock of the mountain range is a dark brown laced
+&+ywith ebony veins of &+Lonyx&+y.  The &+BRiver of the Wind&+y makes its way westward
+&+yjust to the south of you.&n
+~
+933 0 5
+D0
+   The entrance to the grotto lies to the north.
+~
+~
+0 0 93310
+D2
+   The river of the wind lies to the south.
+~
+~
+0 0 93308
+S
+#93310
+&+gEntrance to the &+GGrotto&n~
+&+G   The mountains give way to the &+gGrotto&+G of the &+YCentaur&+G, a large valley totally
+&+Gencircled by the the &+LBlack &+WThorne&+G range.  With the exception of a few peaks,
+&+Gthe valley is devoid of mountains.  To the west a dark sylvan expanse spreads
+&+Gfrom the cradle of the guardian ridge toward the plains of lost tears to the
+&+Geast.  The path here splits, heading west toward the forest and south into the
+&+LBlack &+WThorne&+G mountain range.  To the north, the path skirts some remaining
+&+Gpeaks then heads east toward the plains.&n
+~
+933 0 4
+D0
+   The path heads north around a few small peaks.
+~
+~
+0 0 93314
+D2
+   The path heads back into the Black Thorne mountains.
+~
+~
+0 0 93309
+D3
+   The path here heads east toward a dark sylvan expanse.
+~
+~
+0 0 93311
+S
+#93311
+&+yFootpath&+W Toward the &+GForest&n~
+&+y   This dirt footpath is scattered with a few pebbles and twigs deposited here
+&+yby the wind.  It is wide enough for three men and their mounts to ride side by
+&+yside without touching each other.  The path continues to the north and to the
+&+yeast.&n
+~
+933 0 4
+D0
+   The path to the north bends to the west.
+~
+~
+0 0 93312
+D1
+   The grotto entrance lies to the east.
+~
+~
+0 0 93310
+S
+#93312
+&+yFootpath&+W Toward the &+GForest&n~
+&+y   To the south, the Black Thorne mountain range encircles the valley, while a
+&+yfew renegade crags poke up from the tawny soil beneath you.  This dirt path is
+&+yscattered with a few pebbles and twigs deposited here by the wind.  It is wide
+&+yenough for three men and their mounts to ride abreast, without ever touching
+&+yeach other.  The footpath continues to the south and to the west.&n
+~
+933 0 4
+D2
+   The path to the south heads toward the grotto entrance.
+~
+~
+0 0 93311
+D3
+   The dark forests is off to the west.
+~
+~
+0 0 93313
+S
+#93313
+&+yFootpath&+W Toward the &+GForest&n~
+&+y   This dirt footpath is scattered with a few pebbles and twigs deposited here
+&+yby the wind.  The crags to the north give way as a giant forest opens up to
+&+ythe east.  Massive oaks and maples tower over the path, casting their hellish
+&+yshadow across the tawny dirt.  The path continues to the west and to the east.&n
+~
+933 0 4
+D1
+   The path heads back toward the junction at the grotto entrance.
+~
+~
+0 0 93312
+D3
+   A dark forest looms to the west.
+~
+~
+0 0 93396
+S
+#93314
+&+yFootpath &+WToward the &+YPlains&n~
+&+y   This dirt footpath is scattered with a few pebbles and tufts of grass that
+&+yhave sprout up around the area.  Because of the proximity of the mountains
+&+yflanking this path, it is narrower than the path it branched from.  The path
+&+ycontinues to the south and to the east.&n
+~
+933 0 4
+D1
+   The path to the east bends north.
+~
+~
+0 0 93315
+D2
+   The intersection, at the grotto's entrance, lies to the south.
+~
+~
+0 0 93310
+S
+#93315
+&+yFootpath &+WToward the &+YPlains&n~
+&+y   This dirt footpath is scattered with a few pebbles and tufts of grass that
+&+yhave sprout up around the area.  Peaks poke up from the ground on either side
+&+yof the path making it narrower than the paths to the south.  The mountains to
+&+ythe east form a veritable wall splitting the valley in half, while to the west
+&+ythe few crags that are their only extend partially into the grotto.  The path
+&+ycontinues to the north and to the west.&n
+~
+933 0 4
+D0
+   The path branches to the north.
+~
+~
+0 0 93316
+D3
+   The path west leads back to the grotto entrance.
+~
+~
+0 0 93314
+S
+#93316
+&+YIntersection&n of &+GPaths&n~
+&+y   This dirt footpath is scattered with a few pebbles and tufts of grass that
+&+yhave sprout up around the area.  Although it is wide enough to walk a few
+&+ypeople abreast, the peaks on each side make this path smaller than its cousin
+&+yto the south.  The path splits here to the north, east, and south.&n
+~
+933 0 4
+D0
+   The path to the north doubled back toward the forest.
+~
+~
+0 0 93318
+D1
+   This path heads under a natural arch toward the plains to the east.
+~
+~
+0 0 93317
+D2
+   The path heads toward the grotto entrance.
+~
+~
+0 0 93315
+S
+#93317
+&+yA Natural Stone Arch&n~
+&+y   The stone of the valley floor arch over your head, forming a narrow ten
+&+yfoot tunnel.  The walls are smooth and close, allowing only enough room for
+&+yone person to proceeds at a time.  Sparse tufts of lowland &+Ggrass&+y sprout beneath
+&+yyour feet, getting thicker and more frequent to the east.  The path leads back
+&+ytoward the intersection to the west, while to the east, the &+YPlains&+y of &+BLost
+&+BTears&+y opens up to the heavens.
+~
+933 8201 2
+D1
+   The Plains of Lost Tears lie to the east.
+~
+~
+0 0 93320
+D3
+   An intersection of paths lies to the west.
+~
+~
+0 0 93316
+S
+#93318
+&+yFootpath&+W Toward the &+GForest&n~
+&+y   This dirt footpath is scattered with a few pebbles and twigs deposited here
+&+yby the wind.  The mountains to the east follow the path as it turns toward the
+&+yforest to the west.  Those few crags that had been flanking the path on the
+&+ywest have terminated, allowing for the road to head into the sylvan darkness.
+&+yThe path continues to the west and to the south.&n
+~
+933 0 4
+D2
+   An intersection of paths lies to the south.
+~
+~
+0 0 93316
+D3
+   The path heads towards the sylvan expanses.
+~
+~
+0 0 93319
+S
+#93319
+&+yFootpath&+W Toward the &+GForest&n~
+&+y   This dirt footpath is scattered with a few pebbles and twigs deposited here
+&+yby the wind.  The path broadens here as it heads into the midnight gloom of
+&+ythe wilderness to the east.  The Black Thorne range is thick to the north,
+&+ywhile only a few peaks poke from the valley floor to the south.  The path
+&+ycontinues to the west and to the east.&n
+~
+933 4 4
+D1
+   The path heads back toward the intersection.
+~
+~
+0 0 93318
+D3
+   A dark forest looms over you to the west.
+~
+~
+0 0 93357
+S
+#93320
+&+WThe Entrance to the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a natural &+Ystone&n
+&+Yarch to the west, connecting the plains with the rest of the valley.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93339
+D1
+   The plains continue to the east.
+~
+~
+0 0 93321
+D3
+   There is a natural archway to the west.
+~
+~
+0 0 93317
+S
+#93321
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  There is a river to the
+&+Ynorth.  The plains continue east, south, and west.&n
+~
+933 0 2
+D0
+   There is a river to the north.
+~
+~
+0 0 93338
+D1
+   The plains continue east.
+~
+~
+0 0 93322
+D2
+   The plains continue to the south.
+~
+~
+0 0 93332
+D3
+   The plains continue to the west.
+~
+~
+0 0 93320
+S
+#93322
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a river to the
+&+Ynorth.  The plains continue east, south, and west.&n
+~
+933 0 2
+D0
+   There is a river to the north.
+~
+~
+0 0 93337
+D1
+   The plains continue east.
+~
+~
+0 0 93323
+D2
+   The plains continue south.
+~
+~
+0 0 93331
+D3
+   The plains continue west.
+~
+~
+0 0 93321
+S
+#93323
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  There is a lake to the north and
+&+Yeast.  The plains continue to the south and to the west.&n
+~
+933 0 2
+D0
+   There is a lake to the north.
+~
+~
+0 0 93336
+D1
+   There is a lake to the east.
+~
+~
+0 0 93324
+D2
+   The plains continue to the south.
+~
+~
+0 0 93330
+D3
+   The plains continue to the west.
+~
+~
+0 0 93322
+S
+#93324
+&+BThe Lake of the Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.  There are plains to the south and west, and a small
+&+Bisle to the north.  The lake continues east.&n
+~
+933 0 7
+D0
+   There is a small island to the north.
+~
+~
+0 0 93335
+D1
+   The lake continues to the east.
+~
+~
+0 0 93325
+D2
+   There are plains to the south.
+~
+~
+0 0 93329
+D3
+   There are plains to the west.
+~
+~
+0 0 93323
+S
+#93325
+&+BThe Lake of Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.  There are plains to the south and east.  The lake
+&+Bcontinues north and west.&n
+~
+933 0 7
+D0
+   The lake continues to the north.
+~
+~
+0 0 93334
+D1
+   There are plains to the east.
+~
+~
+0 0 93326
+D2
+   There are plains to the south.
+~
+~
+0 0 93328
+D3
+   The lake continues to the west.
+~
+~
+0 0 93324
+S
+#93326
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  Jutting out from the smooth
+&+Yside of the peak to the east, at about waist level, is a small jagged rock.
+&+YThere is a river to the north, and a lake to the west.  The plains continue to
+&+Ythe south.&n
+~
+933 0 2
+D0
+   There is a river to the north.
+~
+~
+0 0 93333
+D1
+   A cave entrance stands to the east.
+~
+~
+0 0 93399
+D2
+   The plains continue to the south.
+~
+~
+0 0 93327
+D3
+   There is a lake to the west.
+~
+~
+0 0 93325
+S
+#93327
+&+WSoutheast Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  The plains continue north
+&+Yand west.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93326
+D3
+   The plains continue to the west.
+~
+~
+0 0 93328
+S
+#93328
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  There is a lake to the north.
+&+YThe plains continue east and west.&n
+~
+933 0 2
+D0
+   There is a lake to the north.
+~
+~
+0 0 93325
+D1
+   The plains continue to the east.
+~
+~
+0 0 93327
+D3
+   The plains continue to the west.
+~
+~
+0 0 93329
+S
+#93329
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  There is a lake to the north.
+&+YThe plains continue east and west.&n
+~
+933 0 2
+D0
+   There is a lake to the north.
+~
+~
+0 0 93324
+D1
+   The plains continue east.
+~
+~
+0 0 93328
+D3
+   The plains continues west.
+~
+~
+0 0 93330
+S
+#93330
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  The plains continue north,
+&+Yeast, and west.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93323
+D1
+   The plains continue to the east.
+~
+~
+0 0 93329
+D3
+   The plains continue to the west.
+~
+~
+0 0 93331
+S
+#93331
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  The plains continue north,
+&+Yeast, and west.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93322
+D1
+   The plains continue to the east.
+~
+~
+0 0 93330
+D3
+   The plains continue to the west.
+~
+~
+0 0 93332
+S
+#93332
+&+WSouthwest Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  The plains continue north and
+&+Yeast.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93321
+D1
+   The plains continue to the east.
+~
+~
+0 0 93331
+S
+#93333
+&+BThe River of the Wind&n~
+&+B   This river runs through the &+LBlack &+WThorne&+y mountains&+B, weaving in and
+&+Baround the jagged peaks of the range.  It crosses the &+YPlains&+B of Lost Tears but
+&+Ba short time before returning into the &+ymountains&+B from whence it came.  The
+&+Bwater's surface is pristine and clear, allowing view of the rivers bottom and
+&+Bthe life that flourishes there.  Legend holds that the river is actually the
+&+Btears of the &+Wmoon&+B.  Wept for her hoofed children that have been trapped within
+&+Bthis &+Gvalley&+B, and cut of from the freedom of the world without.  The river
+&+Bflows from a lake to the west and into the mountains to the east.  Low lying
+&+Brocks make the journey east impossible.  There are plains to the north and
+&+Band south.&n
+~
+933 0 7
+D0
+   There are plains to the north.
+~
+~
+0 0 93350
+D2
+   There are plains to the south.
+~
+~
+0 0 93326
+D3
+   The river flows from a lake to the west.
+~
+~
+0 0 93334
+S
+#93334
+&+BThe Lake of Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.  There are plains to the north and an isle to the west.
+&+BThe lake enters from the south and pours into a river to the east.&n
+~
+933 0 7
+D0
+   There are plains to the north.
+~
+~
+0 0 93345
+D1
+   The lake becomes a river to the east.
+~
+~
+0 0 93333
+D2
+   The lake continues south.
+~
+~
+0 0 93325
+D3
+   There is a small island to the west.
+~
+~
+0 0 93335
+S
+#93335
+&+YA Small Island&n~
+&+Y   The waters, of the &+BLake &+Yof the &+BElders&+Y, wash up the sandy beach of this tiny
+&+Yisland.  With each pulse of the lake, a new shell is deposited in the sand
+&+Ywhile another is reclaimed by its owner.  A small hut dominates the north end
+&+Yof the island, resting in the shade of a large &+cke&+C't&+Wu&+Y tree.  Near the isle's
+&+Ycenter a small &+rfirepit&+Y has been dug.  The pit is filled with &+wash&+Y and &+Lcharcoal&+Y,
+&+Ythe remnants of a recent &+rbl&+Ra&+Yz&+We&+Y.&n
+~
+933 0 2
+D0
+   There is a lake to the north.
+~
+~
+0 0 93344
+D1
+   There is a lake to the east.
+~
+~
+0 0 93334
+D2
+   There is a lake to the south.
+~
+~
+0 0 93324
+D3
+   There is a lake to the west.
+~
+~
+0 0 93336
+S
+#93336
+&+BThe Lake of Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.  A river from the west empties into the lake and
+&+Bcontinues north.  There is an isle to the east and plains to the south.&n
+~
+933 0 7
+D0
+   The lake continues north.
+~
+~
+0 0 93343
+D1
+   There is a small island to the east.
+~
+~
+0 0 93335
+D2
+   There are plains to the south.
+~
+~
+0 0 93323
+D3
+   A river empties into the lake from the west.
+~
+~
+0 0 93337
+S
+#93337
+&+BThe River of the Wind&n~
+&+B   Legend holds that this river is actually the tears of the &+Wmoon&+B.  Wept for
+&+Bher hoofed children that have been trapped within this &+Gvalley&+B, and cut of from
+&+Bthe freedom of the world without.  The river runs through the &+LBlack &+WThorne
+&+Bmountains, weaving in and around the jagged peaks of the range.  It crosses
+&+Bthe &+YPlains&+B of Lost Tears but a short time before returning into the &+ymountains
+&+Bfrom whence it came.  The water's surface is pristine and clear, allowing view
+&+Bof the rivers bottom and the life that flourishes there.  The river enters
+&+Bfrom the west and empties into a lake to the east.  There are plains to the
+&+Bnorth and south.&n
+~
+933 0 6
+D0
+   There are plains to the north.
+~
+~
+0 0 93342
+D1
+   The river empties into a lake to the east.
+~
+~
+0 0 93336
+D2
+   There are plains to the south.
+~
+~
+0 0 93322
+D3
+   The river continues west.
+~
+~
+0 0 93338
+C
+5 1
+S
+#93338
+&+BThe River of the Wind&n~
+&+B   This river runs through the &+LBlack &+WThorne&+y mountains&+B, weaving in and
+&+Baround the jagged peaks of the range.  It crosses the &+YPlains&+B of Lost Tears but
+&+Ba short time before returning into the &+ymountains&+B from whence it came.  The
+&+Bwater's surface is pristine and clear, allowing view of the rivers bottom and
+&+Bthe life that flourishes there.  Legend holds that the river is actually the
+&+Btears of the &+Wmoon&+B.  Wept for her hoofed children that have been trapped within
+&+Bthis &+Gvalley&+B, and cut of from the freedom of the world without.  The river
+&+Bflows in from the north and heads out to the east.  There are plains to the
+&+Bsouth and west.&n
+~
+933 0 6
+D0
+   The river continues north.
+~
+~
+0 0 93341
+D1
+   The river continues east.
+~
+~
+0 0 93337
+D2
+   The plains are to the south.
+~
+~
+0 0 93321
+D3
+   The plains are to the west.
+~
+~
+0 0 93339
+C
+6 1
+S
+#93339
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  There is a river to the east.
+&+YThe plains continue north and south.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93340
+D1
+   There is a river to the east.
+~
+~
+0 0 93338
+D2
+   The plains continue south.
+~
+~
+0 0 93320
+S
+#93340
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  There is a river to the east.
+&+YThe plains continue north and south.&n
+~
+933 0 2
+D0
+   The plains continue to the north.
+~
+~
+0 0 93352
+D1
+   There is a river to the east.
+~
+~
+0 0 93341
+D2
+   The plains continue to the south.
+~
+~
+0 0 93339
+S
+#93341
+&+BThe River of the Wind&n~
+&+B   Legend holds that this river is actually the tears of the &+Wmoon&+B.  Wept for
+&+Bher hoofed children that have been trapped within this &+Gvalley&+B, and cut of from
+&+Bthe freedom of the world without.  The river runs through the &+LBlack &+WThorne
+&+Bmountains, weaving in and around the jagged peaks of the range.  It crosses
+&+Bthe &+YPlains&+B of Lost Tears but a short time before returning into the &+ymountains
+&+Bfrom whence it came.  The water's surface is pristine and clear, allowing view
+&+Bof the rivers bottom and the life that flourishes there.  The river enters
+&+Bfrom the north and leaves to the south.  There are plains to the east and
+&+Bwest.&n
+~
+933 0 6
+D0
+   The river continues to the north.
+~
+~
+0 0 93349
+D1
+   There are plains to the east.
+~
+~
+0 0 93342
+D2
+   The river continues to the south.
+~
+~
+0 0 93338
+D3
+   There are plains to the west.
+~
+~
+0 0 93340
+C
+7 2
+S
+#93342
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a river to the
+&+Ysouth and west, and a lake to the east.  The plains continue north.&n
+~
+933 0 2
+D0
+   The plains continue north.
+~
+~
+0 0 93348
+D1
+   There is a lake to the east.
+~
+~
+0 0 93343
+D2
+   There is a river to the south.
+~
+~
+0 0 93337
+D3
+   There is a river to the west.
+~
+~
+0 0 93341
+S
+#93343
+&+BThe Lake of the Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.   There are plains to the north and to the west.  The
+&+Blake continues to the south and east.&n
+~
+933 0 7
+D0
+   There are plains to the north.
+~
+~
+0 0 93347
+D1
+   The lake continues east.
+~
+~
+0 0 93344
+D2
+   The lake continues south.
+~
+~
+0 0 93336
+D3
+   There are plains to the west.
+~
+~
+0 0 93342
+S
+#93344
+&+BThe Lake of the Elders&n~
+&+B   Fed by the River of the Wind, this lake breaks up the monotony of the
+&+Bplains.  Its waters are deep and for the most part clear, with the exception
+&+Bof a slight &+Wet&+wh&+Ler&+we&+Wal&+B mist that seems to shift a few feet beneath the lake's
+&+Bsurface.  There is a slight tide here, which is spurred on by the currents of
+&+Bthe River of the Wind.   There is an isle to the south, and plains to the
+&+Bnorth and south.  The lake continues to the west.&n
+~
+933 0 7
+D0
+   There are plains to the north.
+~
+~
+0 0 93346
+D1
+   There are plains to the east.
+~
+~
+0 0 93345
+D2
+   There is a small island to the south.
+~
+~
+0 0 93335
+D3
+   The lake continues to the west.
+~
+~
+0 0 93343
+S
+#93345
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  There is a lake to the south and
+&+Ywest.  The plains continue north and east.&n
+~
+933 0 2
+D0
+   The plains continue north.
+~
+~
+0 0 93351
+D1
+   The plains continue east.
+~
+~
+0 0 93350
+D2
+   There is a lake to the south.
+~
+~
+0 0 93334
+D3
+   There is a lake to the west.
+~
+~
+0 0 93344
+S
+#93346
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a lake to the
+&+Ysouth.  The plains continue north, east, and west.&n
+~
+933 0 2
+D0
+   The plains continue north.
+~
+~
+0 0 93353
+D1
+   The plains continue east.
+~
+~
+0 0 93351
+D2
+   There is a lake to the south.
+~
+~
+0 0 93344
+D3
+   The plains continue west.
+~
+~
+0 0 93347
+S
+#93347
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  There is a lake to the south. The
+&+Yplains continue north, east, and west.&n
+~
+933 0 2
+D0
+   The plains continue north.
+~
+~
+0 0 93354
+D1
+   The plains continue east.
+~
+~
+0 0 93346
+D2
+   There is a lake to the south.
+~
+~
+0 0 93343
+D3
+   The plains continue west.
+~
+~
+0 0 93348
+S
+#93348
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  There is a river to the west.
+&+YThe plains continue north, east, and south.&n
+~
+933 0 2
+D0
+   The plains continue north.
+~
+~
+0 0 93355
+D1
+   The plains continue east.
+~
+~
+0 0 93347
+D2
+   The plains continue south.
+~
+~
+0 0 93342
+D3
+   There is a river to the west.
+~
+~
+0 0 93349
+S
+#93349
+&+BThe River of the Wind&n~
+&+B   This river runs through the &+LBlack &+WThorne&+y mountains&+B, weaving in and
+&+Baround the jagged peaks of the range.  It crosses the &+YPlains&+B of Lost Tears but
+&+Ba short time before returning into the &+ymountains&+B from whence it came.  The
+&+Bwater's surface is pristine and clear, allowing view of the rivers bottom and
+&+Bthe life that flourishes there.  Legend holds that the river is actually the
+&+Btears of the &+Wmoon&+B.  Wept for her hoofed children that have been trapped within
+&+Bthis &+Gvalley&+B, and cut of from the freedom of the world without.  The river
+&+Bcascades down the mountains to the northwest and flows south.  There are
+&+Bplains to the north, east and west.&n
+~
+933 0 6
+D0
+   There are plains to the north.
+~
+~
+0 0 93356
+D1
+   There are plains to the east.
+~
+~
+0 0 93348
+D2
+   The river continues south.
+~
+~
+0 0 93341
+D3
+   There are plains to the west.
+~
+~
+0 0 93352
+C
+8 2
+S
+#93350
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a river to the
+&+Ysouth.  The plains continue west.&n
+~
+933 0 2
+D2
+   There is a river to the south.
+~
+~
+0 0 93333
+D3
+   The plains continue west.
+~
+~
+0 0 93345
+S
+#93351
+&+WNortheast Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.   The plains continue west and
+&+Ysouth.&n
+~
+933 0 2
+D2
+   The plains continue to the south.
+~
+~
+0 0 93345
+D3
+   The plains continue to the west.
+~
+~
+0 0 93346
+S
+#93352
+&+WNorthwest Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a river to the
+&+Yeast.  The plains south.&n
+~
+933 0 2
+D1
+   There is a river to the east.
+~
+~
+0 0 93349
+D2
+   The plains continue to the south.
+~
+~
+0 0 93340
+S
+#93353
+&+WNortheast Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Golden knee-high grasses dance around you in the wind, as the musky odor of
+&+Ysoil greets your senses.  Ringing the plains, nine hundred foot tall &+ypeaks
+&+Yextend their solitary points toward the heavens.  A few &+gtrees&+Y can be seen from
+&+Yhere, scattered randomly throughout the plains.  The plains continue west and
+&+Ysouth.&n
+~
+933 0 2
+D2
+   The plains continue south.
+~
+~
+0 0 93346
+D3
+   The plains continue west.
+~
+~
+0 0 93354
+S
+#93354
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  The plains continue east,
+&+Ysouth, and west.&n
+~
+933 0 2
+D1
+   The plains continue east.
+~
+~
+0 0 93353
+D2
+   The plains continue south.
+~
+~
+0 0 93347
+D3
+   The plains continue west.
+~
+~
+0 0 93355
+S
+#93355
+&+YPlains &+Wof &+BLost Tears&n~
+&+Y   Nine hundred foot &+ypeaks&+Y besiege the wide expanse that is the Plains of &+BLost
+&+BTears&+Y.  With each gust of air, the golden grasses seem to take off with a life
+&+Yall their own.  An earthen scent assails you with each step, as the soil under
+&+Yyour feet sends its fragrance to the winds.  The plains continue east, south,
+&+Yand west.&n
+~
+933 0 2
+D1
+   The plains continue east.
+~
+~
+0 0 93354
+D2
+   The plains continue south.
+~
+~
+0 0 93348
+D3
+   The plains continue west.
+~
+~
+0 0 93356
+S
+#93356
+&+WNorthwest Corner of the &+YPlains &+Wof &+BLost Tears&n~
+&+Y   Enclosed by &+ymountains&+Y, the plains consist of knee-high grasses and the
+&+Yoccasional &+gtree&+Y.  The &+ysoil&+Y underfoot is soft and rich, exuding the musty
+&+Yearthen odor common to this area.  Each slight breeze sends the rich golden
+&+Ygrasses dancing in a lazy waltz across the fields.  There is a river to the
+&+Ysouth.  The plains continue east.&n
+~
+933 0 2
+D1
+   The plains continue east.
+~
+~
+0 0 93355
+D2
+   There is a river to the south.
+~
+~
+0 0 93349
+S
+#93357
+&+gEntrance to the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the thick tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  A &+ydirt&+g path enters, under the
+&+gsweeping tree boughs, to the east and splits off to the north and west.&n
+~
+933 1 3
+D0
+   There is a dead end to the north.
+~
+~
+0 0 93358
+D1
+   The path heads out of the forest to the east.
+~
+~
+0 0 93319
+D3
+   The path to the west turns north.
+~
+~
+0 0 93359
+S
+#93358
+&+gA Dead End in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being one of the few pleasantries of this forest.   The
+&+gpath enters from the south and terminates at a sheer mountain wall.&n
+~
+933 1 3
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93357
+S
+#93359
+&+gA Bend in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmaneuver the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gcontinues to intersections both to the north and east.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93360
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93357
+S
+#93360
+&+gAn Intersection in a Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path heads out to the
+&+gnorth, south, and west.&n
+~
+933 1 3
+D0
+   The path to the north bends east.
+~
+~
+0 0 93361
+D2
+   The path to the south bends east.
+~
+~
+0 0 93359
+D3
+   There is an overgrown path to the west.
+~
+~
+0 0 93363
+S
+#93361
+&+gA Bend in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being one of the few pleasantries of this forest.  The path
+&+gcontinues to an intersection to the south, and a dead end to the east.&n
+~
+933 1 3
+D1
+   There is a dead end to the east.
+~
+~
+0 0 93362
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93360
+S
+#93362
+&+gA Dead End in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+genters from the west and comes to an end against one of &+LBlack &+WThorne's&+y peaks.&n
+~
+933 1 3
+D3
+   The path to the west bends south.
+~
+~
+0 0 93361
+S
+#93363
+&+gAn Overgrown Path in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gmight have headed north in the past, but that path is now overgrown by thorny
+&+gvines.  The trail leads south and east.&n
+~
+933 1 3
+D0
+   There is an overgrown path to the north.
+~
+~
+0 0 93365
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93360
+D2
+   There is a dead end to the south.
+~
+~
+0 0 93364
+S
+#93364
+&+gA Dead End in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+genters from the north and comes ends at a tight thicket of oak trees.&n
+~
+933 1 3
+D0
+   There is an overgrown path to the north.
+~
+~
+0 0 93363
+S
+#93365
+&+GAn Overgrown Path in the &+WUnicorn &+YGlen&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path looks as if it
+&+gmight have lead south at some time, but the way is now heavily blockaded by
+&+gthick vines.  The trail heads west.&n
+~
+933 1 3
+D2
+   There is an overgrown path to the south.
+~
+~
+0 0 93363
+D3
+   There is a large clearing to the west.
+~
+~
+0 0 93366
+S
+#93366
+&+GA Large Clearing in the &+WUnicorn &+YGlen&n~
+&+G   A large circular area has been cleared here, allowing the light from the
+&+Gheavens to shine upon the ground.  A ring of small maples surrounds the area,
+&+Gand larger oaks encircle the maples.  The &+gvines&+G and shrubberies have been
+&+Ghacked away as well, creating a synthetic druids circle within the somber
+&+Grecesses of this forest.  The air here is clean, and the ground is devoid of
+&+Ldead&+G rotting leaves.  A small dip has been dug in the middle of the circle,
+&+Gpossibly for small &+rfi&+Rr&+Ye&+Ws&+G over which adventurers can cook their meals.&n
+~
+933 0 3
+D0
+   There is a dead end to the north.
+~
+~
+0 0 93367
+D1
+   There is an overgrown path to the east.
+~
+~
+0 0 93365
+D2
+   There is a dead end to the south.
+~
+~
+0 0 93368
+D3
+   There is an intersection to the west.
+~
+~
+0 0 93369
+S
+#93367
+&+GA Dead End in the &+WUnicorn &+YGlen&n~
+&+G   The murky gloom of this &+ywood&+G is almost impregnable, the thick vegetation
+&+Ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+Gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+G rays.
+&+GThe soft &+mscent&+G of blossoming &+Rflowers&+G climbs up toward the heavens, being one
+&+Gof the few pleasantries of this forest.  The path enters from the clearing to
+&+Gthe south and comes to a halt at the base of the &+LBlack &+WThorne&+y mountain&+G ridge.&n
+~
+933 1 3
+D2
+   There is a large clearing to the south.
+~
+~
+0 0 93366
+S
+#93368
+&+GA Dead End in the &+WUnicorn &+YGlen&n~
+&+G   The &+ybranches&+G overhead are so entangled and filled with leaves, that barely
+&+Gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+Gsupple maples are locked in a war for control of the &+Ysun&+G, each trying to out
+&+Gmanuever the other in a desperate bid for life.  The &+maroma&+G of blooming &+Rflowers
+&+Gwafts through the air as if carried by an army of sprites.  The path enters
+&+Gfrom the clearing to the north and ends in a tangle of vines and trees.&n
+~
+933 1 3
+D0
+   There is a large clearing to the north.
+~
+~
+0 0 93366
+S
+#93369
+&+GAn Intersection in the &+WUnicorn &+YGlen&n~
+&+G   The murky gloom of this &+ywood&+G is almost impregnable, the thick vegetation
+&+Ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+Gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+G rays.
+&+GThe soft &+mscent&+G of blossoming &+Rflowers&+G climbs up toward the heavens, being one
+&+Gof the few pleasantries of this forest.  The path continues east, south, and
+&+Gwest.&n
+~
+933 1 3
+D1
+   There is a large clearing to the east.
+~
+~
+0 0 93366
+D2
+   There is a dead end to the south.
+~
+~
+0 0 93370
+D3
+   There is an overgrown path to the west.
+~
+~
+0 0 93371
+S
+#93370
+&+GA Dead End in the &+WUnicorn &+YGlen&n~
+&+G   Enormous oak &+ytrees&+G and compete with the smaller maples for the life giving
+&+Grays of the &+Ysun&+G.  Each seemingly pushing the other aside as it reaches its
+&+Gbranches toward the sky, &+ggreen&+G leaves splayed so as not to let a single ounce
+&+Gof light slip through.  Various flora are in &+Rbloom&+G, their multicolored
+&+Gflowers giving forth a plethora of &+mfragrances&+G.  The path enters from the
+&+Gnorth and comes to a halt at a large vine entangled boulder.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93369
+S
+#93371
+&+GAn Intersection in the &+WUnicorn &+YGlen&n~
+&+G   Enormous oak &+ytrees&+G and compete with the smaller maples for the life giving
+&+Grays of the &+Ysun&+G.  Each seemingly pushing the other aside as it reaches its
+&+Gbranches toward the sky, &+ggreen&+G leaves splayed so as not to let a single ounce
+&+Gof light slip through.  Various flora are in &+Rbloom&+G, their multicolored
+&+Gflowers giving forth a plethora of &+mfragrances&+G.  The path continues to the
+&+Gnorth, east and south.&n
+~
+933 1 3
+D0
+   There is a bend in the path to the north.
+~
+~
+0 0 93372
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93369
+D2
+   The path to the south turns west.
+~
+~
+0 0 93374
+S
+#93372
+&+GA Bend in the &+WUnicorn &+YGlen&n~
+&+G   The &+ybranches&+G overhead are so entangled and filled with leaves, that barely
+&+Gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+Gsupple maples are locked in a war for control of the &+Ysun&+G, each trying to out
+&+Gmanuever the other in a desperate bid for life.  The &+maroma&+G of blooming &+Rflowers
+&+Gwafts through the air as if carried by an army of sprites.  The path continues
+&+Gto an intersection to the south, and a small clearing to the east.&n
+~
+933 1 3
+D1
+   There is a small clearing to the east.
+~
+~
+0 0 93373
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93371
+S
+#93373
+&+GA Small Clearing in the &+WUnicorn &+YGlen&n~
+&+G   An immense oak was felled here, its large &+ytrunk&+G extending across the western
+&+Gpart of the path, making further progress impossible.  However, the spot from
+&+Gwhich it fell now opens up the forest floor to the gaze of the &+Bsky&+G above.  The
+&+Garoma of freshly bloomed &+Rflowers&+G assails you, giving you a feeling of peace
+&+Gand tranquility.  The path leads west from the grounded oak toward a bend in
+&+Gthe road.  Underfoot, the tawny soil of the forest feels soft as you walk, a
+&+Gfew worms getting drawn up with each of your steps.&n
+~
+933 131076 3
+D3
+   The path to the west turns south.
+~
+~
+0 0 93372
+S
+#93374
+&+GA Bend in the &+WUnicorn &+YGlen&n~
+&+G   The murky gloom of this &+ywood&+G is almost impregnable, the thick vegetation
+&+Ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+Gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+G rays.
+&+GThe soft &+mscent&+G of blossoming &+Rflowers&+G climbs up toward the heavens, being
+&+Gone of the few pleasantries of this forest. The path heads north and west.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93371
+D3
+   There is an overgrown passage to the west.
+~
+~
+0 0 93375
+S
+#93375
+&+GAn Overgrown Path in the &+WUnicorn &+YGlen&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path looks as if it had
+&+gled south at one time, but is now completely overgrown by thick vines.  The
+&+g trail leads north and east.&n
+~
+933 1 3
+D0
+   There is a dead end to the north.
+~
+~
+0 0 93376
+D1
+   The path to the east bends north.
+~
+~
+0 0 93374
+D2
+   There is an overgrown path to the south.
+~
+~
+0 0 93377
+S
+#93376
+&+GA Dead End in the &+WUnicorn &+YGlen&n~
+&+G   The &+ybranches&+G overhead are so entangled and filled with leaves, that barely
+&+Gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+Gsupple maples are locked in a war for control of the &+Ysun&+G, each trying to out
+&+Gmanuever the other in a desperate bid for life.  The &+maroma&+G of blooming &+Rflowers
+&+Gwafts through the air as if carried by an army of sprites.  The path enters
+&+Gfrom the south and comes to a halt at the steep sides of the &+LBlack &+WThorne
+&+ymountain&+G ridge.&n
+~
+933 1 3
+D2
+   There is an overgrown path to the south.
+~
+~
+0 0 93375
+S
+#93377
+&+gAn Overgrown Path in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+glooks as if at one time it lead north, but is now completely overgrown by
+&+gvines.  You wonder what might lie beyond those thorny brambles, but shrug the
+&+gthought off.  The path heads to the west.&n
+~
+933 1 3
+D0
+   There is an overgrown path to the north.
+~
+~
+0 0 93375
+D3
+   There is an intersection to the west.
+~
+~
+0 0 93378
+S
+#93378
+&+gAn Intersection in the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path continues to the
+&+geast, south, and west.&n
+~
+933 1 3
+D1
+   There is an overgrown path to the east.
+~
+~
+0 0 93377
+D2
+   The path to the south turns east.
+~
+~
+0 0 93380
+D3
+   There is a dead end to the west.
+~
+~
+0 0 93379
+S
+#93379
+&+gA Dead End in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+g enters from the east and comes to a halt at the sheer face of a mountain.&n
+~
+933 1 3
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93378
+S
+#93380
+&+gA Bend in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+gheads to the north and to the east.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93378
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93381
+S
+#93381
+&+gAn Intersection in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gheads off to the east, south, and west.&n
+~
+933 1 3
+D1
+   There is an intersection to the west.
+~
+~
+0 0 93382
+D2
+   The path to the south turns to the east.
+~
+~
+0 0 93385
+D3
+   The path to the west turns to the north.
+~
+~
+0 0 93380
+S
+#93382
+&+gAn Intersection in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+gsplits to the north, east, and west.&n
+~
+933 1 3
+D0
+   There is a dead end to the north.
+~
+~
+0 0 93383
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93384
+D3
+   There is an intersection to the west.
+~
+~
+0 0 93381
+S
+#93383
+&+gA Dead End in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+genters from the south and comes to an abrupt halt at an overgrown thicket.&n
+~
+933 1 3
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93382
+S
+#93384
+&+gAn Intersection in the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path continues to the
+&+gnorth, south and west.&n
+~
+933 1 3
+D0
+   The path to the north turns east.
+~
+~
+0 0 93388
+D2
+   The path to the south turns west.
+~
+~
+0 0 93387
+D3
+   There is an intersection to the west.
+~
+~
+0 0 93382
+S
+#93385
+&+gA Bend in the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremecy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path continues north to an
+&+gintersection and east to a clearing.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93381
+D1
+   There is a clearing to the east.
+~
+~
+0 0 93386
+S
+#93386
+&+gA Clearing in the Dark Forest&n~
+&+g   Devoid of all flora growth, with the exception of those &+ytrees&+g encircling
+&+gthe area, this clearing is the largest in the forest.  &+GVines&+g and shrubberies,
+&+gin their eternal battle, have created a web like wall between the trees.  The
+&+gsweet scent of fresh &+Rflowers&+g permeates the area, and a small &+Bfreshwater&+g spring
+&+gwells up in the clearing's center.  There are no leaves upon the ground, as if
+&+gsome creature came out of the abyss and devoured them all.  The path heads
+&+geast and west.&n
+~
+933 0 3
+D1
+   The path to the east turns north.
+~
+~
+0 0 93387
+D3
+   The path to the west turns north.
+~
+~
+0 0 93385
+S
+#93387
+&+gA Bend in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gcontinues north to an intersection and west to a clearing.&n
+~
+933 1 3
+D0
+   There is an intersection to the north.
+~
+~
+0 0 93384
+D3
+   There is a clearing to the west.
+~
+~
+0 0 93386
+S
+#93388
+&+gA Bend in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+gcontinues to the east and to the south.&n
+~
+933 1 3
+D1
+   The path to the east bends south.
+~
+~
+0 0 93389
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93384
+S
+#93389
+&+gA Bend in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gcontinues south and west.&n
+~
+933 1 3
+D2
+   The path heads south.
+~
+~
+0 0 93390
+D3
+   The path to the west bends south.
+~
+~
+0 0 93388
+S
+#93390
+&+gA Bend in the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path continues to the
+&+gnorth and to the east.&n
+~
+933 1 3
+D0
+   The path continues north.
+~
+~
+0 0 93389
+D1
+   The path to the east bends south.
+~
+~
+0 0 93391
+S
+#93391
+&+gA Bend in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+gcontinues to the south and to the west.&n
+~
+933 1 3
+D2
+   There is an intersection to the south.
+~
+~
+0 0 93392
+D3
+   The path west bends north.
+~
+~
+0 0 93390
+S
+#93392
+&+gAn Intersection of Paths&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the large tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  The path continues to the
+&+gnorth, south and west.&n
+~
+933 1 3
+D0
+   The path to the north bends west.
+~
+~
+0 0 93391
+D2
+   The path to the south turns east.
+~
+~
+0 0 93394
+D3
+   There is a dead end to the west.
+~
+~
+0 0 93393
+S
+#93393
+&+gA Dead End in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+genters from the west and comes to a stop here.  An ancient oak blocking all
+&+gfurther progress the path might have made.&n
+~
+933 1 3
+D1
+   There is an intersection to the east.
+~
+~
+0 0 93392
+S
+#93394
+&+gA Bend in the Dark Forest&n~
+&+g   The murky gloom of this &+ywood&+g is almost impregnable, the thick vegetation
+&+ghaving blocked all light from the sky.  Moderate sized maple trees struggle to
+&+gsurvive as the larger oaks tower over them and soak up most of the &+Ysun's&+g rays.
+&+LDead&+g leaves are scattered over the floor, methodically being pulverized by the
+&+gforest fauna and passing travellers.  Heavy vines drape between the trees,
+&+gin an attempt to expand their power base over the shrubberies that compete with
+&+gthem for earthly nutrients.  The soft &+mscent&+g of blossoming &+Rflowers&+g climbs up
+&+gtoward the heavens, being on of the few pleasantries of this forest.  The path
+&+gleaves both north and east.&n
+~
+933 1 3
+D0
+   The forest path heads north.
+~
+~
+0 0 93392
+D1
+   The forest path heads east.
+~
+~
+0 0 93395
+S
+#93395
+&+gA Bend in the Dark Forest&n~
+&+g   The &+ybranches&+g overhead are so entangled and filled with leaves, that barely
+&+gany heavenly lights can reach the thick soil of the ground.  Mighty oaks and
+&+gsupple maples are locked in a war for control of the &+Ysun&+g, each trying to out
+&+gmanuever the other in a desperate bid for life.  The battle is no less obvious
+&+gon the forest floor, where shrubberies and thorny brambles contend for the
+&+gearth's nutrients.  &+LDead&+g leaves litter the area, slowly being ground into
+&+gcompost by the forest creatures and passing travellers.  The &+maroma&+g of blooming
+&+Rflowers&+g wafts through the air as if carried by an army of sprites.  The path
+&+gcontinues both to the west and to the north.&n
+~
+933 1 3
+D0
+   The forest path continues north.
+~
+~
+0 0 93396
+D3
+   The forest path continues west.
+~
+~
+0 0 93394
+S
+#93396
+&+gAn Entrance to the Dark Forest&n~
+&+g   Enormous oak &+ytrees&+g and compete with the smaller maples for the life giving
+&+grays of the &+Ysun&+g.  Each seemingly pushing the other aside as it reaches its
+&+gbranches toward the sky, &+Ggreen&+g leaves splayed so as not to let a single ounce
+&+gof light slip through.  Thick vines and small shrubberies vie for space on the
+&+gground between the thick tree trunks, in their own battle for supremacy and
+&+gpenultimately survival.  Various flora are in &+Rbloom&+g, their multicolored
+&+gflowers giving forth a plethora of &+mfragrances&+g.  A &+ydirt&+g path enters, under the
+&+gsweeping tree boughs, to the east and heads off to the south.&n
+~
+933 5 3
+D1
+   There is a path toward the grotto entrance to the east.
+~
+~
+0 0 93313
+D2
+   The forest path continues south.
+~
+~
+0 0 93395
+S
+#93397
+&+LA Murky Cave&n~
+&+L   The stygian murk of this room is almost impenetrable, even with the help of
+&+Ltorches.  Its granite walls are rough hew and close, crowding in around you
+&+Land making it possible for only one person to proceed at a time.  Strange
+&+Lnoises filter into the tunnel from the south, sending the hairs on the nape of
+&+Lyour neck to attention.  The tunnel continues to the east and to the south.&n
+~
+933 8449 13
+D1
+   There is a slab of granite in front of the cave's entrance.
+~
+~
+0 0 93305
+D2
+   A dark lair lies to the south.
+~
+~
+0 0 93398
+S
+#93398
+&+LThe Lair of Naergot the Black&n~
+&+L   This cavern is roughly circular in shape, and has a diameter of well over
+&+Lthree thousand feet.  The steep granite walls arch high overhead, doming out
+&+Lthe entire inside of this peak.  Coins and various treasures cover the floor
+&+Lof the chamber, horded over the centuries by the fierce beast that calls this
+&+Lcave home.  Several carcasses lie toward the back of the room, but you can't
+&+Lseem to tell how they got in here.  The cave to the north is much to small to
+&+Lfit a dead buffalo, let alone the creature that slew it.&n
+~
+933 8421441 13
+D0
+   The cave to the north heads east toward the surface.
+~
+~
+0 0 93397
+S
+#93399
+&+LThe Cave of Banitoor Vorsileez&n~
+&+L   This darkened cave is carved into a smooth dome, an image of a male sylvan
+&+Lcentaur and a drow woman upon the back wall.  A small wooden table sits near
+&+Lthe southern part of the room, and against the north wall is a bundle of
+&+Lsleeping furs.  The symbol of Mielikki the forest god is etched above the
+&+Lcave's entrance, the &+Wunicorn's&+L head staring majestically to the south.  The
+&+Lair here is mild and smells of a sweet jasmine incense.&n
+~
+933 131081 15
+D3
+   The plains of Lost Tears lies to the west.
+~
+~
+0 0 93326
+S

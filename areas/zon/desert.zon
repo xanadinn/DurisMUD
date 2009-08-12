@@ -1,0 +1,1636 @@
+#490
+&+YThe Desert City of Venan'Trut~
+49790 1 8 15 20 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 49000 0 1 100 0 0 0
+*     north exit from "The Common Room of the Blinking Cowl Inn" to
+*     "A Massive Bakery" - closed
+*
+D 0 49030 2 1 100 0 0 0
+*     south exit from "A Massive Bakery" to
+*     "The Common Room of the Blinking Cowl Inn" - closed
+*
+D 0 49000 1 1 100 0 0 0
+*     east exit from "The Common Room of the Blinking Cowl Inn" to
+*     "A Lightly Hued Cobblestone Road" - closed
+*
+D 0 49001 3 1 100 0 0 0
+*     west exit from "A Lightly Hued Cobblestone Road" to
+*     "The Common Room of the Blinking Cowl Inn" - closed
+*
+D 0 49004 2 1 100 0 0 0
+*     south exit from "Before the Sultan's Palace" to
+*     "The Soldiers' Barracks" - closed
+*
+D 0 49107 0 1 100 0 0 0
+*     north exit from "The Soldiers' Barracks" to
+*     "Before the Sultan's Palace" - closed
+*
+D 0 49004 7 2 100 0 0 0
+*     southwest exit from "Before the Sultan's Palace" to
+*     "A Castle Courtyard" - closed/locked
+*
+D 0 49106 8 2 100 0 0 0
+*     northeast exit from "A Castle Courtyard" to
+*     "Before the Sultan's Palace" - closed/locked
+*
+D 0 49006 0 5 100 0 0 0
+*     north exit from "Within a Ordinary White Washed Dwelling" to
+*     "A Secret Chamber of the Order of Chaos and Havoc" - closed/secret
+*
+D 0 49410 2 5 100 0 0 0
+*     south exit from "A Secret Chamber of the Order of Chaos and Havoc" to
+*     "Within a Ordinary White Washed Dwelling" - closed/secret
+*
+D 0 49006 2 1 100 0 0 0
+*     south exit from "Within a Ordinary White Washed Dwelling" to
+*     "A Winding Sand Dune Trail" - closed
+*
+D 0 49376 0 1 100 0 0 0
+*     north exit from "A Winding Sand Dune Trail" to
+*     "Within a Ordinary White Washed Dwelling" - closed
+*
+D 0 49011 0 1 100 0 0 0
+*     north exit from "Along the Desert Sea" to
+*     "A Run Down Shack" - closed
+*
+D 0 49013 2 1 100 0 0 0
+*     south exit from "A Run Down Shack" to
+*     "Along the Desert Sea" - closed
+*
+D 0 49011 2 1 100 0 0 0
+*     south exit from "Along the Desert Sea" to
+*     "A Run Down Shack" - closed
+*
+D 0 49084 0 1 100 0 0 0
+*     north exit from "A Run Down Shack" to
+*     "Along the Desert Sea" - closed
+*
+D 0 49012 1 1 100 0 0 0
+*     east exit from "The Holy Chambers of the High Priest" to
+*     "A Stairwell of Magic" - closed
+*
+D 0 49092 3 1 100 0 0 0
+*     west exit from "A Stairwell of Magic" to
+*     "The Holy Chambers of the High Priest" - closed
+*
+D 0 49014 0 1 100 0 0 0
+*     north exit from "Inside a Towering Lighthouse" to
+*     "A Crimson Cobblestone Road" - closed
+*
+D 0 49079 2 1 100 0 0 0
+*     south exit from "A Crimson Cobblestone Road" to
+*     "Inside a Towering Lighthouse" - closed
+*
+D 0 49015 3 2 100 0 0 0
+*     west exit from "Along the Beach" to
+*     "A Crimson Cobblestone Road" - closed/locked
+*
+D 0 49079 1 2 100 0 0 0
+*     east exit from "A Crimson Cobblestone Road" to
+*     "Along the Beach" - closed/locked
+*
+D 0 49016 1 1 100 0 0 0
+*     east exit from "A Massive Warehouse" to
+*     "Along the Beach" - closed
+*
+D 0 49086 3 1 100 0 0 0
+*     west exit from "Along the Beach" to
+*     "A Massive Warehouse" - closed
+*
+D 0 49016 5 1 100 0 0 0
+*     down exit from "A Massive Warehouse" to
+*     "A Dark Wine Cellar" - closed
+*
+D 0 49272 4 1 100 0 0 0
+*     up exit from "A Dark Wine Cellar" to
+*     "A Massive Warehouse" - closed
+*
+D 0 49017 2 1 100 0 0 0
+*     south exit from "The Dockmaster's Office" to
+*     "A Crimson Cobblestone Road" - closed
+*
+D 0 49079 0 1 100 0 0 0
+*     north exit from "A Crimson Cobblestone Road" to
+*     "The Dockmaster's Office" - closed
+*
+D 0 49018 2 1 100 0 0 0
+*     south exit from "Guardians of Twilight" to
+*     "Before a Circular Stairwell" - closed
+*
+D 0 49100 0 1 100 0 0 0
+*     north exit from "Before a Circular Stairwell" to
+*     "Guardians of Twilight" - closed
+*
+D 0 49024 3 1 100 0 0 0
+*     west exit from "An Arched Entrance to the High Tower" to
+*     "A Narrow Stone Corridor" - closed
+*
+D 0 49025 1 1 100 0 0 0
+*     east exit from "A Narrow Stone Corridor" to
+*     "An Arched Entrance to the High Tower" - closed
+*
+D 0 49027 3 1 100 0 0 0
+*     west exit from "The Chambers of Fhgoo Evileye" to
+*     "A Stairwell of Magic" - closed
+*
+D 0 49092 1 1 100 0 0 0
+*     east exit from "A Stairwell of Magic" to
+*     "The Chambers of Fhgoo Evileye" - closed
+*
+D 0 49028 5 1 100 0 0 0
+*     down exit from "An Arcane Workshop of the Wizard of Varmith" to
+*     "A Stairwell of Magic" - closed
+*
+D 0 49092 4 1 100 0 0 0
+*     up exit from "A Stairwell of Magic" to
+*     "An Arcane Workshop of the Wizard of Varmith" - closed
+*
+D 0 49031 2 1 100 0 0 0
+*     south exit from "An Entrance to a Large Tent" to
+*     "The Reception Area of the Lone Desert Star" - closed
+*
+D 0 49034 0 1 100 0 0 0
+*     north exit from "The Reception Area of the Lone Desert Star" to
+*     "An Entrance to a Large Tent" - closed
+*
+D 0 49032 1 1 100 0 0 0
+*     east exit from "A Large Common Room" to
+*     "The Reception Area of the Lone Desert Star" - closed
+*
+D 0 49034 3 1 100 0 0 0
+*     west exit from "The Reception Area of the Lone Desert Star" to
+*     "A Large Common Room" - closed
+*
+D 0 49033 0 1 100 0 0 0
+*     north exit from "A Cooking Kitchen" to
+*     "The Reception Area of the Lone Desert Star" - closed
+*
+D 0 49034 2 1 100 0 0 0
+*     south exit from "The Reception Area of the Lone Desert Star" to
+*     "A Cooking Kitchen" - closed
+*
+D 0 49035 2 1 100 0 0 0
+*     south exit from "The Chambers of the Commander" to
+*     "A Palace Corridor" - closed
+*
+D 0 49237 0 1 100 0 0 0
+*     north exit from "A Palace Corridor" to
+*     "The Chambers of the Commander" - closed
+*
+D 0 49036 0 1 100 0 0 0
+*     north exit from "A Lightly Pebbled Gravel Road" to
+*     "A Dirty Hovel" - closed
+*
+D 0 49492 2 1 100 0 0 0
+*     south exit from "A Dirty Hovel" to
+*     "A Lightly Pebbled Gravel Road" - closed
+*
+D 0 49052 3 1 100 0 0 0
+*     west exit from "Entrance to the One Armed Dwarf" to
+*     "A Sandy Desert Bazaar" - closed
+*
+D 0 49063 1 1 100 0 0 0
+*     east exit from "A Sandy Desert Bazaar" to
+*     "Entrance to the One Armed Dwarf" - closed
+*
+D 0 49054 0 1 100 0 0 0
+*     north exit from "The Throne Room of the Sultan" to
+*     "Before a Circular Stairwell" - closed
+*
+D 0 49100 2 1 100 0 0 0
+*     south exit from "Before a Circular Stairwell" to
+*     "The Throne Room of the Sultan" - closed
+*
+D 0 49075 2 1 100 0 0 0
+*     south exit from "A Study" to
+*     "A Large Round Foyer" - closed
+*
+D 0 49081 0 1 100 0 0 0
+*     north exit from "A Large Round Foyer" to
+*     "A Study" - closed
+*
+D 0 49076 1 1 100 0 0 0
+*     east exit from "A Study" to
+*     "A Stairwell of Magic" - closed
+*
+D 0 49080 3 1 100 0 0 0
+*     west exit from "A Stairwell of Magic" to
+*     "A Study" - closed
+*
+D 0 49081 2 1 100 0 0 0
+*     south exit from "A Large Round Foyer" to
+*     "A Study" - closed
+*
+D 0 49091 0 1 100 0 0 0
+*     north exit from "A Study" to
+*     "A Large Round Foyer" - closed
+*
+D 0 49099 2 1 100 0 0 0
+*     south exit from "At the Base of a Circular Staircase" to
+*     "A Palace Corridor" - closed
+*
+D 0 49135 0 1 100 0 0 0
+*     north exit from "A Palace Corridor" to
+*     "At the Base of a Circular Staircase" - closed
+*
+D 0 49104 2 1 100 0 0 0
+*     south exit from "A Large Alcove of Tents" to
+*     "A Dirty Hovel" - closed
+*
+D 0 49472 0 1 100 0 0 0
+*     north exit from "A Dirty Hovel" to
+*     "A Large Alcove of Tents" - closed
+*
+D 0 49106 7 1 100 0 0 0
+*     southwest exit from "A Castle Courtyard" to
+*     "A Palace Foyer" - closed
+*
+D 0 49132 8 1 100 0 0 0
+*     northeast exit from "A Palace Foyer" to
+*     "A Castle Courtyard" - closed
+*
+D 0 49135 2 1 100 0 0 0
+*     south exit from "A Palace Corridor" to
+*     "An Exquisite Hallway" - closed
+*
+D 0 49215 0 1 100 0 0 0
+*     north exit from "An Exquisite Hallway" to
+*     "A Palace Corridor" - closed
+*
+D 0 49137 3 1 100 0 0 0
+*     west exit from "A Palace Corridor" to
+*     "An Exquisite Hallway" - closed
+*
+D 0 49216 1 1 100 0 0 0
+*     east exit from "An Exquisite Hallway" to
+*     "A Palace Corridor" - closed
+*
+D 0 49138 0 1 100 0 0 0
+*     north exit from "A Dirty Hovel" to
+*     "A Winding Sand Dune Trail" - closed
+*
+D 0 49379 2 1 100 0 0 0
+*     south exit from "A Winding Sand Dune Trail" to
+*     "A Dirty Hovel" - closed
+*
+D 0 49154 0 8 100 0 0 0
+*     north exit from "Before a Collapsed Mine" to
+*     "A Treacherous Shaft" - open/blocked
+*
+D 0 49155 2 0 100 0 0 0
+*     south exit from "A Treacherous Shaft" to
+*     "Before a Collapsed Mine" - open
+*
+D 0 49160 8 5 100 0 0 0
+*     northeast exit from "A Collasped Mining Tunnel" to
+*     "A Huge Cavern filled with Phosphoric Acid" - closed/secret
+*
+D 0 49524 7 5 100 0 0 0
+*     southwest exit from "A Huge Cavern filled with Phosphoric Acid" to
+*     "A Collasped Mining Tunnel" - closed/secret
+*
+D 0 49215 2 1 100 0 0 0
+*     south exit from "An Exquisite Hallway" to
+*     "An Illustrious Ball Room" - closed
+*
+D 0 49218 0 1 100 0 0 0
+*     north exit from "An Illustrious Ball Room" to
+*     "An Exquisite Hallway" - closed
+*
+D 0 49217 1 1 100 0 0 0
+*     east exit from "A Huge Dining Room" to
+*     "An Illustrious Ball Room" - closed
+*
+D 0 49220 3 1 100 0 0 0
+*     west exit from "An Illustrious Ball Room" to
+*     "A Huge Dining Room" - closed
+*
+D 0 49223 3 1 100 0 0 0
+*     west exit from "A Lightly Pebbled Gravel Road" to
+*     "A Dirty Hovel" - closed
+*
+D 0 49500 1 1 100 0 0 0
+*     east exit from "A Dirty Hovel" to
+*     "A Lightly Pebbled Gravel Road" - closed
+*
+D 0 49237 2 1 100 0 0 0
+*     south exit from "A Palace Corridor" to
+*     "A Large Preparation Room" - closed
+*
+D 0 49240 0 1 100 0 0 0
+*     north exit from "A Large Preparation Room" to
+*     "A Palace Corridor" - closed
+*
+D 0 49237 3 1 100 0 0 0
+*     west exit from "A Palace Corridor" to
+*     "A Lightly Veiled Hallway" - closed
+*
+D 0 49257 1 1 100 0 0 0
+*     east exit from "A Lightly Veiled Hallway" to
+*     "A Palace Corridor" - closed
+*
+D 0 49257 3 1 100 0 0 0
+*     west exit from "A Lightly Veiled Hallway" to
+*     "The Room of Pleasure" - closed
+*
+D 0 49540 1 1 100 0 0 0
+*     east exit from "The Room of Pleasure" to
+*     "A Lightly Veiled Hallway" - closed
+*
+D 0 49266 0 1 100 0 0 0
+*     north exit from "A Filthy Tent of a Peasant" to
+*     "A Desert Dune" - closed
+*
+D 0 49274 2 1 100 0 0 0
+*     south exit from "A Desert Dune" to
+*     "A Filthy Tent of a Peasant" - closed
+*
+D 0 49267 2 1 100 0 0 0
+*     south exit from "A Filthy Tent of a Peasant" to
+*     "A Desert Dune" - closed
+*
+D 0 49275 0 1 100 0 0 0
+*     north exit from "A Desert Dune" to
+*     "A Filthy Tent of a Peasant" - closed
+*
+D 0 49268 0 2 100 0 0 0
+*     north exit from "Before the Gates of House Lo'Ushuur" to
+*     "A Large Shadowy Foyer" - closed/locked
+*
+D 0 49269 2 2 100 0 0 0
+*     south exit from "A Large Shadowy Foyer" to
+*     "Before the Gates of House Lo'Ushuur" - closed/locked
+*
+D 0 49268 3 1 100 0 0 0
+*     west exit from "Before the Gates of House Lo'Ushuur" to
+*     "An Armor Shoppe" - closed
+*
+D 0 49673 1 1 100 0 0 0
+*     east exit from "An Armor Shoppe" to
+*     "Before the Gates of House Lo'Ushuur" - closed
+*
+D 0 49269 0 1 100 0 0 0
+*     north exit from "A Large Shadowy Foyer" to
+*     "The Sleeping Chamber of Vernadad" - closed
+*
+D 0 49677 2 1 100 0 0 0
+*     south exit from "The Sleeping Chamber of Vernadad" to
+*     "A Large Shadowy Foyer" - closed
+*
+D 0 49294 3 1 100 0 0 0
+*     west exit from "A Small Slope in a Cliff" to
+*     "Within a Dark Dank Dunnel" - closed
+*
+D 0 49570 1 1 100 0 0 0
+*     east exit from "Within a Dark Dank Dunnel" to
+*     "A Small Slope in a Cliff" - closed
+*
+D 0 49354 0 5 100 0 0 0
+*     north exit from "Before a Sandy Beach" to
+*     "A Hidden Tunnel" - closed/secret
+*
+D 0 49516 2 5 100 0 0 0
+*     south exit from "A Hidden Tunnel" to
+*     "Before a Sandy Beach" - closed/secret
+*
+D 0 49410 0 1 100 0 0 0
+*     north exit from "A Secret Chamber of the Order of Chaos and Havoc" to
+*     "An Antechamber of Luncaster" - closed
+*
+D 0 49459 2 1 100 0 0 0
+*     south exit from "An Antechamber of Luncaster" to
+*     "A Secret Chamber of the Order of Chaos and Havoc" - closed
+*
+D 0 49410 3 1 100 0 0 0
+*     west exit from "A Secret Chamber of the Order of Chaos and Havoc" to
+*     "A Large Weapon Shoppe" - closed
+*
+D 0 49417 1 1 100 0 0 0
+*     east exit from "A Large Weapon Shoppe" to
+*     "A Secret Chamber of the Order of Chaos and Havoc" - closed
+*
+D 0 49424 0 1 100 0 0 0
+*     north exit from "A Members Meeting Area" to
+*     "A Sleeping Chamber" - closed
+*
+D 0 49425 2 1 100 0 0 0
+*     south exit from "A Sleeping Chamber" to
+*     "A Members Meeting Area" - closed
+*
+D 0 49424 1 1 100 0 0 0
+*     east exit from "A Members Meeting Area" to
+*     "A Sparring Chamber" - closed
+*
+D 0 49443 3 1 100 0 0 0
+*     west exit from "A Sparring Chamber" to
+*     "A Members Meeting Area" - closed
+*
+D 0 49424 2 1 100 0 0 0
+*     south exit from "A Members Meeting Area" to
+*     "A Sleeping Chamber" - closed
+*
+D 0 49435 0 1 100 0 0 0
+*     north exit from "A Sleeping Chamber" to
+*     "A Members Meeting Area" - closed
+*
+D 0 49529 0 1 100 0 0 0
+*     north exit from "A Hidden Abode of the Underground Merchant Dealers" to
+*     "The Members Meeting Chamber" - closed
+*
+D 0 49665 2 1 100 0 0 0
+*     south exit from "The Members Meeting Chamber" to
+*     "A Hidden Abode of the Underground Merchant Dealers" - closed
+*
+D 0 49529 1 1 100 0 0 0
+*     east exit from "A Hidden Abode of the Underground Merchant Dealers" to
+*     "A Merchant Armor Shoppe" - closed
+*
+D 0 49671 3 1 100 0 0 0
+*     west exit from "A Merchant Armor Shoppe" to
+*     "A Hidden Abode of the Underground Merchant Dealers" - closed
+*
+D 0 49529 3 1 100 0 0 0
+*     west exit from "A Hidden Abode of the Underground Merchant Dealers" to
+*     "A Sleeping Chamber" - closed
+*
+D 0 49668 1 1 100 0 0 0
+*     east exit from "A Sleeping Chamber" to
+*     "A Hidden Abode of the Underground Merchant Dealers" - closed
+*
+D 0 49606 0 1 100 0 0 0
+*     north exit from "Before a Dark Abode" to
+*     "A Nest of an Insect Queen" - closed
+*
+D 0 49607 2 1 100 0 0 0
+*     south exit from "A Nest of an Insect Queen" to
+*     "Before a Dark Abode" - closed
+*
+D 0 49675 0 1 100 0 0 0
+*     north exit from "A Large Meeting Chamber" to
+*     "A Sleeping Chamber" - closed
+*
+D 0 49683 2 1 100 0 0 0
+*     south exit from "A Sleeping Chamber" to
+*     "A Large Meeting Chamber" - closed
+*
+D 0 49675 1 1 100 0 0 0
+*     east exit from "A Large Meeting Chamber" to
+*     "A Luncheon Room" - closed
+*
+D 0 49685 3 1 100 0 0 0
+*     west exit from "A Luncheon Room" to
+*     "A Large Meeting Chamber" - closed
+*
+D 0 49675 2 1 100 0 0 0
+*     south exit from "A Large Meeting Chamber" to
+*     "A Sleeping Chamber" - closed
+*
+D 0 49684 0 1 100 0 0 0
+*     north exit from "A Sleeping Chamber" to
+*     "A Large Meeting Chamber" - closed
+*
+D 0 49784 0 1 100 0 0 0
+*     north exit from "Before a Large Encampment" to
+*     "A Desert Dune Encampment" - closed
+*
+D 0 49785 2 1 100 0 0 0
+*     south exit from "A Desert Dune Encampment" to
+*     "Before a Large Encampment" - closed
+*
+*
+O 0 49163 1 49018 100 0 0 0        * a golden chest
+P 1 49164 1 49163 100 0 0 0        *   an ablazed gold ring of fire
+P 1 49139 1 49163 100 0 0 0        *   a golden crown of the Sultan
+O 0 49174 1 49023 100 0 0 0        * a glowing runestone
+O 0 49168 1 49026 100 0 0 0        * a large warehouse
+O 0 49185 1 49031 100 0 0 0        * a large sign
+O 0 49060 1 49086 100 0 0 0        * a small post
+O 0 49000 1 49088 100 0 0 0        * a wargalleon
+O 0 49001 1 49089 100 0 0 0        * a passenger ship
+O 0 49003 1 49101 100 0 0 0        * a fresh water oasis
+O 0 49034 13 49132 100 0 0 0       * a flaring torch
+O 0 49034 13 49135 100 0 0 0       * a flaring torch
+O 0 49009 1 49139 100 0 0 0        * a large bonfire
+O 0 49010 1 49139 100 0 0 0        * a square tent
+O 0 49014 1 49141 100 0 0 0        * a large barrel of water
+O 0 49013 1 49146 100 0 0 0        * a metal shack
+O 0 49007 1 49149 100 0 0 0        * a dust covered tent
+O 0 49012 1 49150 100 0 0 0        * a large boulder
+O 0 49017 1 49154 100 0 0 0        * piles of rocks and debris
+O 0 49018 1 49156 100 0 0 0        * a pile of mining tools
+O 0 49022 1 49195 100 0 0 0        * a flowing river
+O 0 49023 1 49201 100 0 0 0        * a flowing river
+O 0 49044 1 49211 100 0 0 0        * a rope ladder
+O 0 49032 1 49217 100 0 0 0        * a huge dining room table
+O 0 49034 13 49227 100 0 0 0       * a flaring torch
+O 0 49034 13 49230 100 0 0 0       * a flaring torch
+O 0 49034 13 49232 100 0 0 0       * a flaring torch
+O 0 49034 13 49238 100 0 0 0       * a flaring torch
+O 0 49034 13 49241 100 0 0 0       * a flaring torch
+O 0 49034 13 49243 100 0 0 0       * a flaring torch
+O 0 49034 13 49246 100 0 0 0       * a flaring torch
+O 0 49034 13 49248 100 0 0 0       * a flaring torch
+O 0 49034 13 49251 100 0 0 0       * a flaring torch
+O 0 49034 13 49253 100 0 0 0       * a flaring torch
+O 0 49034 13 49256 100 0 0 0       * a flaring torch
+O 0 49036 1 49265 100 0 0 0        * a large caravan
+O 0 49035 1 49265 100 0 0 0        * a roasting fire
+O 0 49079 1 49272 100 0 0 0        * a smuggled piece of contraband
+O 0 49039 1 49331 100 0 0 0        * an oasis
+O 0 49175 1 49396 100 0 0 0        * a glowing runestone
+O 0 49046 1 49488 100 0 0 0        * a huge pool of phosphoric acid
+O 0 49062 1 49567 100 0 0 0        * a roper ladder
+O 0 49190 1 49784 100 0 0 0        * a warning 'Sign'
+O 0 49176 1 49786 100 0 0 0        * a large tent
+*
+M 0 49058 1 49000 100 0 0 0        * Ungulato
+M 0 49220 1 49000 100 0 0 0        * a mysterious white robed figure
+M 0 49060 2 49000 100 0 0 0        * a drinking patron
+M 0 49060 2 49000 100 0 0 0        * a drinking patron
+M 0 49079 1 49001 100 0 0 0        * a filthy peasant
+M 0 49005 1 49002 100 0 0 0        * a ragged peddler
+E 1 49004 1 12 100 0 0 0           *   a spotted patched cloak
+M 0 49004 5 49003 100 0 0 0        * a gate guard
+E 1 49006 4 16 100 0 0 0           *   a long steel scythe
+E 1 49006 4 17 100 0 0 0           *   a long steel scythe
+M 0 49004 5 49003 100 0 0 0        * a gate guard
+E 1 49006 4 16 100 0 0 0           *   a long steel scythe
+E 1 49006 4 17 100 0 0 0           *   a long steel scythe
+M 0 49004 5 49003 100 0 0 0        * a gate guard
+M 0 49004 5 49003 100 0 0 0        * a gate guard
+M 0 49004 5 49003 100 0 0 0        * a gate guard
+M 0 49001 1 49004 100 0 0 0        * a beastmaster
+F 1 49000 1 49004 100 0 0 0        * a HUGE scorpion (following)
+F 1 49141 1 49004 100 0 0 0        * a GIGANTIC tarantula (following)
+M 0 49154 4 49004 100 0 0 0        * an elite guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+G 1 49107 1 0 100 0 0 0            *    a small key
+M 0 49154 4 49004 100 0 0 0        * an elite guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49154 4 49004 100 0 0 0        * an elite guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49154 4 49004 100 0 0 0        * an elite guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49234 3 49005 100 0 0 0        * a pike
+M 0 49202 1 49006 100 0 0 0        * an ordinary citizen
+M 0 49045 1 49008 100 0 0 0        * a fat merchant lord
+G 1 49064 999 0 100 0 0 0          *    a scratched copper ring
+G 1 49065 1 0 100 0 0 0            *    a pair of copper leggings
+G 1 49066 1 0 100 0 0 0            *    a copper wrist protector
+G 1 49067 999 0 100 0 0 0          *    a small copper helmet
+G 1 49090 999 0 100 0 0 0          *    a pair of copper sleeves
+M 0 49234 3 49009 100 0 0 0        * a pike
+M 0 49055 1 49010 100 0 0 0        * Mathanyal
+E 1 49142 1 9 100 0 0 0            *   a pair of swordmaster gloves
+E 1 49160 2 16 100 0 0 0           *   a brilliant longsword
+E 1 49160 2 17 100 0 0 0           *   a brilliant longsword
+M 0 49074 6 49010 100 0 0 0        * a commoner
+M 0 49088 1 49012 100 0 0 0        * Nelson
+E 1 49162 1 12 100 0 0 0           *   a sacrimental religious cloak
+M 0 49096 4 49013 100 0 0 0        * a minotaur shipmate
+M 0 49096 4 49013 100 0 0 0        * a minotaur shipmate
+M 0 49075 1 49014 100 0 0 0        * Choad
+E 1 49052 1 18 100 0 0 0           *   a golden lantern
+M 0 49222 2 49014 100 0 0 0        * a lighthouse sentry
+M 0 49222 2 49014 100 0 0 0        * a lighthouse sentry
+M 0 49108 1 49015 100 0 0 0        * a seagull
+M 0 49110 1 49015 100 0 0 0        * a drunk sailor
+M 0 49107 1 49016 100 0 0 0        * a shady rogue
+E 1 49059 1 16 100 0 0 0           *   a thin steel dagger
+M 0 49029 1 49017 100 0 0 0        * Myranx
+M 0 49185 1 49018 100 0 0 0        * a terrifying ViSAgE of a sphinx
+M 0 49237 1 49018 100 0 0 0        * a terrifying ViSAgE of a sphinx
+M 0 49083 1 49024 100 0 0 0        * a dark knight
+M 0 49153 4 49024 100 0 0 0        * a guardian ward
+M 0 49153 4 49024 100 0 0 0        * a guardian ward
+M 0 49153 4 49024 100 0 0 0        * a guardian ward
+M 0 49153 4 49024 100 0 0 0        * a guardian ward
+M 0 49216 3 49026 100 0 0 0        * a fisherman
+M 0 49217 2 49026 100 0 0 0        * a large fisherman
+M 0 49216 3 49026 100 0 0 0        * a fisherman
+M 0 49218 1 49026 100 0 0 0        * a bulky fisherman
+M 0 49217 2 49026 100 0 0 0        * a large fisherman
+M 0 49216 3 49026 100 0 0 0        * a fisherman
+M 0 49086 1 49027 100 0 0 0        * Fhgoo
+E 1 49113 1 15 100 0 0 0           *   a dark religious bracer
+M 0 49120 1 49028 100 0 0 0        * Varmith
+E 1 49161 1 10 100 0 0 0           *   some stretched drow-skin sleeves
+M 0 49059 1 49030 100 0 0 0        * Grumor
+M 0 49212 2 49032 100 0 0 0        * a desert traveler
+M 0 49212 2 49032 100 0 0 0        * a desert traveler
+M 0 49213 1 49032 100 0 0 0        * a bard
+E 1 49172 1 23 100 0 0 0           *   a used denin instrument sack
+M 0 49242 2 49032 100 0 0 0        * an off-duty patrolman
+M 0 49242 2 49032 100 0 0 0        * an off-duty patrolman
+M 0 49214 1 49033 100 0 0 0        * Hoggie
+M 0 49164 1 49034 100 0 0 0        * Nox
+M 0 49099 1 49034 100 0 0 0        * an evil wizard
+M 0 49189 1 49034 100 0 0 0        * a wandering druid
+E 1 49055 1 5 100 0 0 0            *   a black robe with many bloodstains
+E 1 49140 999 18 100 0 0 0         *   a long staff of raven feathers
+M 0 49223 1 49034 100 0 0 0        * Goranon
+M 0 49225 1 49034 100 0 0 0        * Varrgle
+M 0 49224 1 49034 100 0 0 0        * Nogglin
+M 0 49236 1 49035 100 0 0 0        * Yugly
+E 1 49093 1 3 100 0 0 0            *   a polished silver medallion
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+M 0 49166 1 49038 100 0 0 0        * a cRaZy MaN
+E 1 49103 1 19 100 0 0 0           *   an eyepatch of a cRazY MaN
+E 1 49102 1 24 100 0 0 0           *   a slimy snot rag of a cRaZy MaN
+M 0 49165 1 49038 100 0 0 0        * a militia guard
+E 1 49101 1 12 100 0 0 0           *   a dusty cloak of traveling
+M 0 49177 1 49040 100 0 0 0        * a big bully
+G 1 49112 1 0 100 0 0 0            *    a stinking plaque of a sultan
+M 0 49093 3 49042 100 0 0 0        * a duergar slave
+M 0 49093 3 49042 100 0 0 0        * a duergar slave
+M 0 49093 3 49042 100 0 0 0        * a duergar slave
+M 0 49037 2 49042 100 0 0 0        * a plump merchant
+E 1 49048 3 2 100 0 0 0            *   a gold ring
+M 0 49094 3 49043 100 0 0 0        * an ogre slave
+M 0 49094 3 49043 100 0 0 0        * an ogre slave
+M 0 49094 3 49043 100 0 0 0        * an ogre slave
+M 0 49033 3 49044 100 0 0 0        * a human slave
+M 0 49033 3 49044 100 0 0 0        * a human slave
+M 0 49033 3 49044 100 0 0 0        * a human slave
+M 0 49092 3 49045 100 0 0 0        * a goblin slave
+M 0 49092 3 49045 100 0 0 0        * a goblin slave
+M 0 49092 3 49045 100 0 0 0        * a goblin slave
+M 0 49035 1 49045 100 0 0 0        * a mercenary
+E 1 49049 1 16 100 0 0 0           *   a wickedly barbed dagger
+M 0 49192 1 49045 100 0 0 0        * a burly guard
+E 1 49092 1 6 100 0 0 0            *   a dented iron helmet
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49194 2 49045 100 0 0 0        * a well dressed merchant
+E 1 49085 1 10 100 0 0 0           *   a nice pair of silk sleeves
+M 0 49030 1 49046 100 0 0 0        * an auctioneer
+E 1 49050 1 12 100 0 0 0           *   a blood stained cloak
+M 0 49036 2 49046 100 0 0 0        * a rich merchant
+E 1 49047 3 3 100 0 0 0            *   a gold necklace
+E 1 49143 1 10 100 0 0 0           *   a finely crafted pair of tharnadian sleeves
+M 0 49194 2 49046 100 0 0 0        * a well dressed merchant
+M 0 49031 3 49047 100 0 0 0        * an orc slave
+M 0 49031 3 49047 100 0 0 0        * an orc slave
+M 0 49031 3 49047 100 0 0 0        * an orc slave
+M 0 49032 3 49048 100 0 0 0        * a flind slave
+M 0 49032 3 49048 100 0 0 0        * a flind slave
+M 0 49032 3 49048 100 0 0 0        * a flind slave
+M 0 49036 2 49048 100 0 0 0        * a rich merchant
+E 1 49047 3 3 100 0 0 0            *   a gold necklace
+E 1 49047 3 4 100 0 0 0            *   a gold necklace
+M 0 49037 2 49049 100 0 0 0        * a plump merchant
+E 1 49048 3 1 100 0 0 0            *   a gold ring
+E 1 49048 3 2 100 0 0 0            *   a gold ring
+M 0 49095 3 49049 100 0 0 0        * a githyanki slave
+M 0 49095 3 49049 100 0 0 0        * a githyanki slave
+M 0 49095 3 49049 100 0 0 0        * a githyanki slave
+M 0 49193 2 49049 100 0 0 0        * a tharnadian merchant
+M 0 49034 3 49050 100 0 0 0        * a grey elf slave
+M 0 49034 3 49050 100 0 0 0        * a grey elf slave
+M 0 49034 3 49050 100 0 0 0        * a grey elf slave
+M 0 49193 2 49050 100 0 0 0        * a tharnadian merchant
+E 1 49144 1 7 100 0 0 0            *   a pair of fine leggings
+M 0 49064 1 49051 100 0 0 0        * Narggle
+E 1 49097 1 16 100 0 0 0           *   a shortsword named 'Narggle's Star'
+M 0 49061 1 49051 100 0 0 0        * a heavily cloaked figure
+E 1 49043 5 16 100 0 0 0           *   a thin steel dagger
+E 1 49043 5 17 100 0 0 0           *   a thin steel dagger
+M 0 49062 2 49051 100 0 0 0        * a patron
+M 0 49062 2 49051 100 0 0 0        * a patron
+M 0 49063 1 49051 100 0 0 0        * a barmaid
+M 0 49072 1 49052 100 0 0 0        * a burly bouncer
+M 0 49073 1 49052 100 0 0 0        * a fat bouncer
+M 0 49239 1 49053 100 0 0 0        * a gnoll witchdocter
+G 1 49182 1 0 100 0 0 0            *    a troll-skin wrist protector
+G 1 49183 1 0 100 0 0 0            *    a foul smelling rat ear
+G 1 49038 2 0 100 0 0 0            *    a necklace of herbs and spices
+G 1 49011 999 0 100 0 0 0          *    a wristband made of cameleon skin
+M 0 49074 6 49053 100 0 0 0        * a commoner
+M 0 49187 1 49054 100 0 0 0        * the Sultan
+E 1 49188 1 8 100 0 0 0            *   a golden pair of scouting boots
+G 1 49165 1 0 100 0 0 0            *    a golden key
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55285 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 49188 4 49054 100 0 0 0        * a throne room guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49188 4 49054 100 0 0 0        * a throne room guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49188 4 49054 100 0 0 0        * a throne room guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49188 4 49054 100 0 0 0        * a throne room guard
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49201 1 49056 100 0 0 0        * a keeper of the peace
+E 1 49147 1 5 100 0 0 0            *   a sand covered chain-linked suit
+F 1 49175 1 49056 100 0 0 0        * a camel (following)
+M 0 49038 1 49057 100 0 0 0        * a one-armed githyanki
+E 1 49187 1 10 100 0 0 0           *   a pair of emerald embedded sleeves
+M 0 49039 1 49057 100 0 0 0        * a three-eyed rabbit
+M 0 49040 1 49057 100 0 0 0        * a tall mountain dwarf
+E 1 49186 1 9 100 0 0 0            *   a pair of mesh gloves
+M 0 49056 1 49059 100 0 0 0        * Verdadd
+G 1 49094 999 0 100 0 0 0          *    a chipped pitch-black spear
+G 1 49095 999 0 100 0 0 0          *    a magical longsword of cold steel
+G 1 49115 999 0 100 0 0 0          *    a razor-sharp battleaxe
+G 1 49116 999 0 100 0 0 0          *    a wooden handled battle mace
+G 1 49114 999 0 100 0 0 0          *    a razor-sharp longsword of blue steel
+M 0 49044 2 49060 100 0 0 0        * a filthy peasant
+M 0 49074 6 49060 100 0 0 0        * a commoner
+M 0 49074 6 49061 100 0 0 0        * a commoner
+M 0 49041 1 49062 100 0 0 0        * a peddler
+M 0 49042 1 49062 100 0 0 0        * a gazing merchant
+M 0 49074 6 49062 100 0 0 0        * a commoner
+M 0 49043 1 49062 100 0 0 0        * a desert merchant
+M 0 49240 1 49062 100 0 0 0        * a brilliant sorcerer
+E 1 49181 1 8 100 0 0 0            *   a pair of ruby slippers
+M 0 49074 6 49064 100 0 0 0        * a commoner
+M 0 49044 2 49065 100 0 0 0        * a filthy peasant
+M 0 49084 8 49068 100 0 0 0        * an arcane student
+M 0 49084 8 49068 100 0 0 0        * an arcane student
+M 0 49195 2 49072 100 0 0 0        * a tiny desert spider
+M 0 49151 4 49073 100 0 0 0        * a filthy vagabond
+M 0 49084 8 49074 100 0 0 0        * an arcane student
+M 0 49084 8 49075 100 0 0 0        * an arcane student
+M 0 49084 8 49076 100 0 0 0        * an arcane student
+M 0 49084 8 49082 100 0 0 0        * an arcane student
+M 0 49084 8 49083 100 0 0 0        * an arcane student
+M 0 49096 4 49084 100 0 0 0        * a minotaur shipmate
+M 0 49096 4 49084 100 0 0 0        * a minotaur shipmate
+M 0 49109 1 49085 100 0 0 0        * a pelican
+M 0 49084 8 49091 100 0 0 0        * an arcane student
+M 0 49006 2 49094 100 0 0 0        * a desert vagabond
+M 0 49197 2 49094 100 0 0 0        * a small child
+M 0 49243 8 49099 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49099 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49099 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49099 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49100 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49100 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49100 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49243 8 49100 100 0 0 0        * an imperial guardian
+E 1 49124 999 11 100 0 0 0         *   an adamantium shield
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49215 1 49101 100 0 0 0        * Deraisem
+E 1 49166 1 21 100 0 0 0           *   a beautiful white rose
+G 1 49075 999 0 100 0 0 0          *    a staff made of earthen bark
+G 1 49077 999 0 100 0 0 0          *    a magical staff of spirits
+G 1 49140 999 0 100 0 0 0          *    a long staff of raven feathers
+G 1 49076 999 0 100 0 0 0          *    a tribal wand of a minotaur shaman
+G 1 49191 999 0 100 0 0 0          *    a tattered old scroll
+G 1 49192 999 0 100 0 0 0          *    an ancient glyph enscribed scroll
+G 1 49193 999 0 100 0 0 0          *    a holy scroll
+M 0 49006 2 49102 100 0 0 0        * a desert vagabond
+M 0 49196 2 49102 100 0 0 0        * an ordinary peasant
+M 0 49151 4 49103 100 0 0 0        * a filthy vagabond
+M 0 49010 4 49104 100 0 0 0        * a plump woman
+M 0 49085 1 49106 100 0 0 0        * Vernal
+E 1 49054 8 16 100 0 0 0           *   a steel longsword
+E 1 49054 8 17 100 0 0 0           *   a steel longsword
+M 0 49046 50 49107 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49107 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49108 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49108 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49109 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49109 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49110 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49110 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49111 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49111 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49112 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49112 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49113 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49113 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49114 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49114 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49115 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49115 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49116 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49116 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49117 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49117 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49118 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49118 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49119 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49119 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49120 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49120 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49121 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49121 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49122 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49122 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49123 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49123 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49124 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49124 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49125 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49125 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49126 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49126 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49127 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49127 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49128 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49128 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49129 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49129 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49130 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49130 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49131 100 0 0 0       * a sleepy soldier
+M 0 49046 50 49131 100 0 0 0       * a sleepy soldier
+M 0 49047 1 49132 100 0 0 0        * a nobleman
+M 0 49002 1 49133 100 0 0 0        * an elite guard
+E 1 49091 10 16 100 0 0 0          *   a razor-sharp steel longsword
+E 1 49091 10 17 100 0 0 0          *   a razor-sharp steel longsword
+M 0 49173 2 49134 100 0 0 0        * a servant
+M 0 49178 8 49138 100 0 0 0        * a desert dweller
+M 0 49178 8 49138 100 0 0 0        * a desert dweller
+M 0 49008 3 49139 100 0 0 0        * a ragged peasant
+M 0 49007 4 49140 100 0 0 0        * a desert peasant
+M 0 49009 1 49140 100 0 0 0        * a mule
+G 1 49051 1 0 100 0 0 0            *    a ragged bag of a peasant
+M 0 49011 3 49140 100 0 0 0        * a small child
+M 0 49017 1 49141 100 0 0 0        * a dusty gleeman
+E 1 49015 1 2 100 0 0 0            *   an exquisite garnet ring
+M 0 49018 1 49141 100 0 0 0        * a small child
+M 0 49019 2 49141 100 0 0 0        * an elderly peasant
+M 0 49008 3 49142 100 0 0 0        * a ragged peasant
+M 0 49010 4 49142 100 0 0 0        * a plump woman
+M 0 49010 4 49143 100 0 0 0        * a plump woman
+M 0 49011 3 49143 100 0 0 0        * a small child
+G 1 49096 2 0 100 0 0 0            *    a small rubber ball
+M 0 49012 1 49143 100 0 0 0        * a peasant elder
+E 1 49016 1 13 100 0 0 0           *   a black silk sash
+M 0 49015 1 49143 100 0 0 0        * a drunken peasant
+E 1 49021 1 7 100 0 0 0            *   a pair of smelly britches
+E 1 49020 1 8 100 0 0 0            *   a pair of worn traveling boots
+M 0 49016 1 49143 100 0 0 0        * a peasant
+M 0 49008 3 49144 100 0 0 0        * a ragged peasant
+M 0 49010 4 49144 100 0 0 0        * a plump woman
+M 0 49011 3 49144 100 0 0 0        * a small child
+G 1 49096 2 0 100 0 0 0            *    a small rubber ball
+M 0 49007 4 49146 100 0 0 0        * a desert peasant
+M 0 49007 4 49147 100 0 0 0        * a desert peasant
+M 0 49142 1 49147 100 0 0 0        * the wandering merchant
+G 1 49068 999 0 100 0 0 0          *    a small potion
+G 1 49069 999 0 100 0 0 0          *    a small white potion
+G 1 49070 999 0 100 0 0 0          *    a small glowing potion
+G 1 49071 999 0 100 0 0 0          *    a large potion etched with runes
+G 1 49072 999 0 100 0 0 0          *    a large glowing potion
+G 1 49073 999 0 100 0 0 0          *    a small glowing potion
+G 1 49074 999 0 100 0 0 0          *    a glowing potion
+G 1 49075 999 0 100 0 0 0          *    a staff made of earthen bark
+G 1 49076 999 0 100 0 0 0          *    a tribal wand of a minotaur shaman
+G 1 49077 999 0 100 0 0 0          *    a magical staff of spirits
+G 1 49189 999 0 100 0 0 0          *    a swirling potion
+M 0 49027 1 49150 100 0 0 0        * a miner
+M 0 49013 1 49151 100 0 0 0        * Mereer, the soothsayer
+E 1 49025 100 18 100 0 0 0         *   a speckled crystal ball
+M 0 49014 1 49152 100 0 0 0        * Morgian
+E 1 49011 999 15 100 0 0 0         *   a wristband made of cameleon skin
+M 0 49028 1 49153 100 0 0 0        * a burly miner
+E 1 49026 1 9 100 0 0 0            *   a pair of miner work gloves
+M 0 49025 1 49154 100 0 0 0        * a mining foreman
+E 1 49024 1 5 100 0 0 0            *   a black leather mining vest
+M 0 49026 1 49154 100 0 0 0        * a miner
+E 1 49080 1 19 100 0 0 0           *   some black mining goggles
+M 0 49022 9 49159 100 0 0 0        * a small worm
+M 0 49022 9 49159 100 0 0 0        * a small worm
+M 0 49022 9 49162 100 0 0 0        * a small worm
+M 0 49023 13 49162 100 0 0 0       * a large earthworm
+M 0 49021 11 49163 100 0 0 0       * a tiny cavern worm
+M 0 49022 9 49163 100 0 0 0        * a small worm
+M 0 49023 13 49163 100 0 0 0       * a large earthworm
+M 0 49022 9 49164 100 0 0 0        * a small worm
+M 0 49021 11 49165 100 0 0 0       * a tiny cavern worm
+M 0 49022 9 49165 100 0 0 0        * a small worm
+M 0 49023 13 49165 100 0 0 0       * a large earthworm
+M 0 49021 11 49166 100 0 0 0       * a tiny cavern worm
+M 0 49022 9 49166 100 0 0 0        * a small worm
+M 0 49023 13 49166 100 0 0 0       * a large earthworm
+M 0 49021 11 49167 100 0 0 0       * a tiny cavern worm
+M 0 49022 9 49167 100 0 0 0        * a small worm
+M 0 49021 11 49168 100 0 0 0       * a tiny cavern worm
+M 0 49021 11 49169 100 0 0 0       * a tiny cavern worm
+M 0 49022 9 49169 100 0 0 0        * a small worm
+M 0 49023 13 49169 100 0 0 0       * a large earthworm
+M 0 49021 11 49170 100 0 0 0       * a tiny cavern worm
+M 0 49021 11 49171 100 0 0 0       * a tiny cavern worm
+M 0 49021 11 49171 100 0 0 0       * a tiny cavern worm
+M 0 49023 13 49172 100 0 0 0       * a large earthworm
+M 0 49023 13 49173 100 0 0 0       * a large earthworm
+M 0 49023 13 49175 100 0 0 0       * a large earthworm
+M 0 49021 11 49176 100 0 0 0       * a tiny cavern worm
+M 0 49021 11 49177 100 0 0 0       * a tiny cavern worm
+M 0 49023 13 49180 100 0 0 0       * a large earthworm
+M 0 49023 13 49181 100 0 0 0       * a large earthworm
+M 0 49023 13 49182 100 0 0 0       * a large earthworm
+M 0 49023 13 49183 100 0 0 0       * a large earthworm
+M 0 49023 13 49184 100 0 0 0       * a large earthworm
+M 0 49234 3 49197 100 0 0 0        * a pike
+M 0 49020 1 49201 100 0 0 0        * a wounded miner
+M 0 49024 1 49202 100 0 0 0        * a HUGE fire wyrm
+G 1 49027 1 0 100 0 0 0            *    a writhing eyeball of a wyrm
+M 0 49076 10 49204 100 0 0 0       * an elven sailor
+M 0 49114 10 49204 100 0 0 0       * an elven sailor
+M 0 49076 10 49205 100 0 0 0       * an elven sailor
+M 0 49076 10 49205 100 0 0 0       * an elven sailor
+M 0 49114 10 49205 100 0 0 0       * an elven sailor
+M 0 49145 3 49205 100 0 0 0        * an experienced elven sailor
+M 0 49145 3 49205 100 0 0 0        * an experienced elven sailor
+M 0 49145 3 49205 100 0 0 0        * an experienced elven sailor
+M 0 49143 4 49206 100 0 0 0        * an elven sailor
+M 0 49143 4 49206 100 0 0 0        * an elven sailor
+M 0 49143 4 49206 100 0 0 0        * an elven sailor
+M 0 49076 10 49207 100 0 0 0       * an elven sailor
+M 0 49144 4 49208 100 0 0 0        * an elven sailor
+M 0 49144 4 49208 100 0 0 0        * an elven sailor
+M 0 49144 4 49208 100 0 0 0        * an elven sailor
+M 0 49114 10 49209 100 0 0 0       * an elven sailor
+M 0 49114 10 49209 100 0 0 0       * an elven sailor
+M 0 49114 10 49209 100 0 0 0       * an elven sailor
+M 0 49076 10 49212 100 0 0 0       * an elven sailor
+M 0 49053 12 49215 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+E 1 49095 999 17 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49215 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+E 1 49095 999 17 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49215 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+E 1 49095 999 17 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49215 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+E 1 49095 999 17 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49216 100 0 0 0       * an imperial guardian
+M 0 49053 12 49216 100 0 0 0       * an imperial guardian
+M 0 49053 12 49216 100 0 0 0       * an imperial guardian
+M 0 49053 12 49216 100 0 0 0       * an imperial guardian
+M 0 49051 1 49217 100 0 0 0        * a plump barbarian
+E 1 49033 1 12 100 0 0 0           *   a golden cloak of barbarian kings
+M 0 49048 1 49220 100 0 0 0        * an elven diplomat
+E 1 49029 1 12 100 0 0 0           *   a silver embroided elven cloak
+M 0 49049 1 49220 100 0 0 0        * a barbarian diplomat
+E 1 49030 1 16 100 0 0 0           *   a blue-hued barbarian tribe longsword
+M 0 49191 1 49220 100 0 0 0        * Boofukussass
+E 1 49141 1 15 100 0 0 0           *   a small jaded crystal bracer
+M 0 49050 1 49221 100 0 0 0        * a gnome diplomat
+E 1 49031 1 15 100 0 0 0           *   a gnomish lifegiving wristband
+M 0 49200 1 49222 100 0 0 0        * a religious zealot
+E 1 49146 1 3 100 0 0 0            *   a religious amulet
+G 1 49193 999 0 100 0 0 0          *    a holy scroll
+M 0 49150 2 49224 100 0 0 0        * a wretched vagabond
+M 0 49080 3 49224 100 0 0 0        * a filthy peasant
+M 0 49007 4 49224 100 0 0 0        * a desert peasant
+M 0 49173 2 49237 100 0 0 0        * a servant
+M 0 49172 1 49237 100 0 0 0        * a servant
+M 0 49186 1 49240 100 0 0 0        * Nigglenaggle
+E 1 49138 1 10 100 0 0 0           *   some gnomish sleeves of ingenuity
+M 0 49053 12 49257 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49257 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49257 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+M 0 49053 12 49257 100 0 0 0       * an imperial guardian
+E 1 49095 999 16 100 0 0 0         *   a magical longsword of cold steel
+M 0 49106 1 49261 100 0 0 0        * a minotaur emissary
+E 1 49136 1 10 100 0 0 0           *   some wolf hide sleeves
+M 0 49103 2 49261 100 0 0 0        * a hooker
+M 0 49150 2 49263 100 0 0 0        * a wretched vagabond
+M 0 49065 1 49265 100 0 0 0        * a tinker
+G 1 49130 999 0 100 0 0 0          *    a tiny amethyst ring
+G 1 49131 999 0 100 0 0 0          *    a small diamond encrusted ring
+G 1 49132 999 0 100 0 0 0          *    a pair of blue-steel tharnadian boots
+G 1 49133 999 0 100 0 0 0          *    a small square box
+G 1 49134 999 0 100 0 0 0          *    a fine pair of dwarven sleeves
+G 1 49135 999 0 100 0 0 0          *    a lost token of the mines of Khul'Lor
+G 1 49040 999 0 100 0 0 0          *    an arrow of elven ancestry
+G 1 49041 1 0 100 0 0 0            *    an ancient longbow of the elves
+G 1 49179 999 0 100 0 0 0          *    a map of Venan'Trut
+G 1 49008 999 0 100 0 0 0          *    a colorful patch of rags
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 49211 4 49266 100 0 0 0        * a desert dweller
+M 0 49211 4 49266 100 0 0 0        * a desert dweller
+M 0 49211 4 49267 100 0 0 0        * a desert dweller
+M 0 49211 4 49267 100 0 0 0        * a desert dweller
+M 0 49171 4 49268 100 0 0 0        * a burly guard
+E 1 49114 999 16 100 0 0 0         *   a razor-sharp longsword of blue steel
+E 1 49114 999 17 100 0 0 0         *   a razor-sharp longsword of blue steel
+G 1 49106 1 0 100 0 0 0            *    an iron key
+M 0 49171 4 49268 100 0 0 0        * a burly guard
+E 1 49114 999 16 100 0 0 0         *   a razor-sharp longsword of blue steel
+E 1 49114 999 17 100 0 0 0         *   a razor-sharp longsword of blue steel
+M 0 49171 4 49268 100 0 0 0        * a burly guard
+E 1 49114 999 16 100 0 0 0         *   a razor-sharp longsword of blue steel
+E 1 49114 999 17 100 0 0 0         *   a razor-sharp longsword of blue steel
+M 0 49171 4 49268 100 0 0 0        * a burly guard
+E 1 49114 999 16 100 0 0 0         *   a razor-sharp longsword of blue steel
+E 1 49114 999 17 100 0 0 0         *   a razor-sharp longsword of blue steel
+M 0 49149 1 49272 100 0 0 0        * Mijium
+E 1 49078 2 16 100 0 0 0           *   a long steel dagger
+E 1 49078 2 17 100 0 0 0           *   a long steel dagger
+M 0 49151 4 49276 100 0 0 0        * a filthy vagabond
+M 0 49057 1 49279 100 0 0 0        * a tinker woman
+E 1 49038 2 3 100 0 0 0            *   a necklace of herbs and spices
+M 0 49070 5 49281 100 0 0 0        * a large tarantula
+M 0 49068 6 49281 100 0 0 0        * a small spider
+M 0 49157 7 49283 100 0 0 0        * a scarab
+M 0 49070 5 49284 100 0 0 0        * a large tarantula
+M 0 49068 6 49284 100 0 0 0        * a small spider
+M 0 49157 7 49288 100 0 0 0        * a scarab
+M 0 49208 7 49288 100 0 0 0        * a tiny desert spider
+M 0 49069 8 49289 100 0 0 0        * a desert arachnid
+M 0 49069 8 49290 100 0 0 0        * a desert arachnid
+M 0 49208 7 49293 100 0 0 0        * a tiny desert spider
+M 0 49069 8 49295 100 0 0 0        * a desert arachnid
+M 0 49069 8 49295 100 0 0 0        * a desert arachnid
+M 0 49069 8 49299 100 0 0 0        * a desert arachnid
+M 0 49070 5 49300 100 0 0 0        * a large tarantula
+M 0 49070 5 49300 100 0 0 0        * a large tarantula
+M 0 49068 6 49301 100 0 0 0        * a small spider
+M 0 49208 7 49301 100 0 0 0        * a tiny desert spider
+M 0 49070 5 49305 100 0 0 0        * a large tarantula
+M 0 49068 6 49306 100 0 0 0        * a small spider
+M 0 49157 7 49310 100 0 0 0        * a scarab
+M 0 49068 6 49311 100 0 0 0        * a small spider
+M 0 49208 7 49320 100 0 0 0        * a tiny desert spider
+M 0 49069 8 49321 100 0 0 0        * a desert arachnid
+M 0 49208 7 49321 100 0 0 0        * a tiny desert spider
+M 0 49069 8 49326 100 0 0 0        * a desert arachnid
+M 0 49071 1 49331 100 0 0 0        * Onvon
+E 1 49054 8 16 100 0 0 0           *   a steel longsword
+E 1 49054 8 17 100 0 0 0           *   a steel longsword
+E 1 49105 1 24 100 0 0 0           *   a badge of the captain
+F 1 49098 4 49331 100 0 0 0        * a desert soldier (following)
+E 1 49054 8 16 100 0 0 0           *   a steel longsword
+E 1 49054 8 17 100 0 0 0           *   a steel longsword
+F 1 49098 4 49331 100 0 0 0        * a desert soldier (following)
+E 1 49054 8 16 100 0 0 0           *   a steel longsword
+E 1 49054 8 17 100 0 0 0           *   a steel longsword
+F 1 49098 4 49331 100 0 0 0        * a desert soldier (following)
+F 1 49098 4 49331 100 0 0 0        * a desert soldier (following)
+M 0 49067 5 49333 100 0 0 0        * a large scorpion
+M 0 49157 7 49333 100 0 0 0        * a scarab
+M 0 49157 7 49334 100 0 0 0        * a scarab
+M 0 49208 7 49334 100 0 0 0        * a tiny desert spider
+M 0 49067 5 49335 100 0 0 0        * a large scorpion
+M 0 49067 5 49337 100 0 0 0        * a large scorpion
+M 0 49208 7 49337 100 0 0 0        * a tiny desert spider
+M 0 49176 1 49338 100 0 0 0        * a disheveled barbarian
+E 1 49110 1 6 100 0 0 0            *   an iron barbarian warhelmet
+M 0 49066 4 49339 100 0 0 0        * a small scorpion
+M 0 49066 4 49344 100 0 0 0        * a small scorpion
+M 0 49066 4 49346 100 0 0 0        * a small scorpion
+M 0 49066 4 49347 100 0 0 0        * a small scorpion
+M 0 49067 5 49348 100 0 0 0        * a large scorpion
+M 0 49067 5 49352 100 0 0 0        * a large scorpion
+M 0 49155 1 49354 100 0 0 0        * a shady merchant
+M 0 49156 1 49354 100 0 0 0        * a dark sailor
+E 1 49128 1 3 100 0 0 0            *   a dark obsidian pendant
+M 0 49195 2 49355 100 0 0 0        * a tiny desert spider
+M 0 49080 3 49356 100 0 0 0        * a filthy peasant
+M 0 49114 10 49357 100 0 0 0       * an elven sailor
+M 0 49114 10 49357 100 0 0 0       * an elven sailor
+M 0 49076 10 49358 100 0 0 0       * an elven sailor
+M 0 49114 10 49358 100 0 0 0       * an elven sailor
+M 0 49076 10 49359 100 0 0 0       * an elven sailor
+M 0 49076 10 49362 100 0 0 0       * an elven sailor
+M 0 49076 10 49364 100 0 0 0       * an elven sailor
+M 0 49114 10 49367 100 0 0 0       * an elven sailor
+M 0 49159 1 49368 100 0 0 0        * a dirty peasant
+M 0 49157 7 49372 100 0 0 0        * a scarab
+M 0 49196 2 49372 100 0 0 0        * an ordinary peasant
+M 0 49151 4 49375 100 0 0 0        * a filthy vagabond
+M 0 49082 3 49375 100 0 0 0        * a ragged gypsy
+M 0 49157 7 49378 100 0 0 0        * a scarab
+M 0 49069 8 49379 100 0 0 0        * a desert arachnid
+M 0 49068 6 49379 100 0 0 0        * a small spider
+M 0 49219 1 49382 100 0 0 0        * Rubaak
+G 1 49169 1 0 100 0 0 0            *    a scaled earring
+M 0 49228 3 49393 100 0 0 0        * a scarab
+M 0 49226 1 49393 100 0 0 0        * a large desert scorpion
+M 0 49227 1 49393 100 0 0 0        * a tiny desert spider
+M 0 49228 3 49399 100 0 0 0        * a scarab
+M 0 49161 1 49413 100 0 0 0        * Eriic
+E 1 49083 1 8 100 0 0 0            *   a pair of dusty boots
+M 0 49162 1 49414 100 0 0 0        * Ruffus
+E 1 49086 1 7 100 0 0 0            *   a pair of wolf fur leggings
+M 0 49080 3 49415 100 0 0 0        * a filthy peasant
+M 0 49174 1 49415 100 0 0 0        * a shady dealer
+E 1 49109 1 7 100 0 0 0            *   a pair of charred black leggings
+M 0 49019 2 49415 100 0 0 0        * an elderly peasant
+M 0 49199 1 49415 100 0 0 0        * a brown dog
+E 1 49145 1 3 100 0 0 0            *   a dented dog collar
+M 0 49207 1 49417 100 0 0 0        * Blackfoot
+G 1 49149 999 0 100 0 0 0          *    a brilliant adamantium longsword
+G 1 49150 999 0 100 0 0 0          *    a razor-sharp dwarven battleaxe
+G 1 49151 999 0 100 0 0 0          *    a tiny curved dagger etched with runes
+G 1 49152 999 0 100 0 0 0          *    a gleaming two-handed mithril battleaxe
+G 1 49153 999 0 100 0 0 0          *    a long elven wooden staff
+M 0 49116 1 49418 100 0 0 0        * a gangleader
+G 1 49057 1 0 100 0 0 0            *    a compass
+F 1 49052 2 49418 100 0 0 0        * a gangmember (following)
+F 1 49052 2 49418 100 0 0 0        * a gangmember (following)
+M 0 49081 1 49419 100 0 0 0        * a gypsy king
+E 1 49045 1 3 100 0 0 0            *   a golden necklace of the gypsy king
+F 1 49082 3 49419 100 0 0 0        * a ragged gypsy (following)
+F 1 49082 3 49419 100 0 0 0        * a ragged gypsy (following)
+M 0 49197 2 49419 100 0 0 0        * a small child
+M 0 49228 3 49420 100 0 0 0        * a scarab
+M 0 49183 2 49425 100 0 0 0        * a sleeping member
+M 0 49183 2 49425 100 0 0 0        * a sleeping member
+M 0 49163 1 49430 100 0 0 0        * Parnn
+E 1 49100 1 16 100 0 0 0           *   a large bloody butchers blade
+M 0 49184 2 49435 100 0 0 0        * a sleeping member
+M 0 49184 2 49435 100 0 0 0        * a sleeping member
+M 0 49089 21 49436 100 0 0 0       * a small purple worm
+M 0 49118 16 49436 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49437 100 0 0 0       * a small purple worm
+M 0 49118 16 49437 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49439 100 0 0 0       * a large purple worm
+M 0 49090 28 49440 100 0 0 0       * a large purple worm
+M 0 49090 28 49441 100 0 0 0       * a large purple worm
+M 0 49090 28 49442 100 0 0 0       * a large purple worm
+M 0 49167 2 49443 100 0 0 0        * a young warrior
+M 0 49167 2 49443 100 0 0 0        * a young warrior
+M 0 49089 21 49445 100 0 0 0       * a small purple worm
+M 0 49118 16 49445 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49447 100 0 0 0       * a small purple worm
+M 0 49118 16 49447 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49448 100 0 0 0       * a large purple worm
+M 0 49091 37 49450 100 0 0 0       * a huge purple worm
+M 0 49090 28 49451 100 0 0 0       * a large purple worm
+M 0 49091 37 49451 100 0 0 0       * a huge purple worm
+M 0 49091 37 49452 100 0 0 0       * a huge purple worm
+M 0 49091 37 49453 100 0 0 0       * a huge purple worm
+M 0 49091 37 49453 100 0 0 0       * a huge purple worm
+M 0 49089 21 49454 100 0 0 0       * a small purple worm
+M 0 49091 37 49454 100 0 0 0       * a huge purple worm
+M 0 49118 16 49454 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49454 100 0 0 0       * a small purple worm
+M 0 49118 16 49454 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49455 100 0 0 0       * a small purple worm
+M 0 49089 21 49456 100 0 0 0       * a small purple worm
+M 0 49118 16 49456 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49457 100 0 0 0       * a large purple worm
+M 0 49090 28 49458 100 0 0 0       * a large purple worm
+M 0 49115 1 49459 100 0 0 0        * Luncaster
+E 1 49081 1 12 100 0 0 0           *   a long flowing silk robe
+F 1 49206 2 49459 100 0 0 0        * a burly bodyguard (following)
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+F 1 49206 2 49459 100 0 0 0        * a burly bodyguard (following)
+E 1 49115 999 16 100 0 0 0         *   a razor-sharp battleaxe
+E 1 49115 999 17 100 0 0 0         *   a razor-sharp battleaxe
+M 0 49089 21 49460 100 0 0 0       * a small purple worm
+M 0 49091 37 49460 100 0 0 0       * a huge purple worm
+M 0 49090 28 49461 100 0 0 0       * a large purple worm
+M 0 49091 37 49463 100 0 0 0       * a huge purple worm
+M 0 49091 37 49464 100 0 0 0       * a huge purple worm
+M 0 49118 16 49464 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49466 100 0 0 0       * a small purple worm
+M 0 49118 16 49466 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49467 100 0 0 0       * a large purple worm
+M 0 49090 28 49468 100 0 0 0       * a large purple worm
+M 0 49091 37 49470 100 0 0 0       * a huge purple worm
+M 0 49090 28 49471 100 0 0 0       * a large purple worm
+M 0 49178 8 49472 100 0 0 0        * a desert dweller
+M 0 49178 8 49472 100 0 0 0        * a desert dweller
+M 0 49091 37 49473 100 0 0 0       * a huge purple worm
+M 0 49091 37 49474 100 0 0 0       * a huge purple worm
+M 0 49118 16 49474 100 0 0 0       * a gargantuan purple worm
+M 0 49089 21 49476 100 0 0 0       * a small purple worm
+M 0 49118 16 49476 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49477 100 0 0 0       * a large purple worm
+M 0 49118 16 49477 100 0 0 0       * a gargantuan purple worm
+M 0 49090 28 49478 100 0 0 0       * a large purple worm
+M 0 49091 37 49479 100 0 0 0       * a huge purple worm
+M 0 49090 28 49480 100 0 0 0       * a large purple worm
+M 0 49090 28 49481 100 0 0 0       * a large purple worm
+M 0 49091 37 49483 100 0 0 0       * a huge purple worm
+M 0 49091 37 49484 100 0 0 0       * a huge purple worm
+M 0 49089 21 49486 100 0 0 0       * a small purple worm
+M 0 49090 28 49487 100 0 0 0       * a large purple worm
+M 0 49118 16 49487 100 0 0 0       * a gargantuan purple worm
+M 0 49119 1 49488 100 0 0 0        * a GREAT worm
+G 1 49089 1 0 100 0 0 0            *    a pair of wormhide skins
+M 0 49090 28 49489 100 0 0 0       * a large purple worm
+M 0 49090 28 49490 100 0 0 0       * a large purple worm
+M 0 49178 8 49492 100 0 0 0        * a desert dweller
+M 0 49178 8 49492 100 0 0 0        * a desert dweller
+M 0 49091 37 49493 100 0 0 0       * a huge purple worm
+M 0 49091 37 49494 100 0 0 0       * a huge purple worm
+M 0 49117 6 49494 100 0 0 0        * a gigantic purple worm
+M 0 49117 6 49494 100 0 0 0        * a gigantic purple worm
+M 0 49118 16 49494 100 0 0 0       * a gargantuan purple worm
+M 0 49118 16 49495 100 0 0 0       * a gargantuan purple worm
+M 0 49091 37 49495 100 0 0 0       * a huge purple worm
+M 0 49089 21 49496 100 0 0 0       * a small purple worm
+M 0 49118 16 49496 100 0 0 0       * a gargantuan purple worm
+M 0 49091 37 49498 100 0 0 0       * a huge purple worm
+M 0 49178 8 49500 100 0 0 0        * a desert dweller
+M 0 49178 8 49500 100 0 0 0        * a desert dweller
+M 0 49090 28 49501 100 0 0 0       * a large purple worm
+M 0 49090 28 49502 100 0 0 0       * a large purple worm
+M 0 49091 37 49503 100 0 0 0       * a huge purple worm
+M 0 49091 37 49504 100 0 0 0       * a huge purple worm
+M 0 49117 6 49504 100 0 0 0        * a gigantic purple worm
+M 0 49089 21 49506 100 0 0 0       * a small purple worm
+M 0 49091 37 49507 100 0 0 0       * a huge purple worm
+M 0 49091 37 49508 100 0 0 0       * a huge purple worm
+M 0 49089 21 49510 100 0 0 0       * a small purple worm
+M 0 49091 37 49513 100 0 0 0       * a huge purple worm
+M 0 49180 1 49516 100 0 0 0        * a vicious snake
+M 0 49091 37 49517 100 0 0 0       * a huge purple worm
+M 0 49091 37 49518 100 0 0 0       * a huge purple worm
+M 0 49091 37 49518 100 0 0 0       * a huge purple worm
+M 0 49091 37 49519 100 0 0 0       * a huge purple worm
+M 0 49090 28 49520 100 0 0 0       * a large purple worm
+M 0 49091 37 49520 100 0 0 0       * a huge purple worm
+M 0 49091 37 49521 100 0 0 0       * a huge purple worm
+M 0 49090 28 49522 100 0 0 0       * a large purple worm
+M 0 49091 37 49522 100 0 0 0       * a huge purple worm
+M 0 49090 28 49523 100 0 0 0       * a large purple worm
+M 0 49091 37 49523 100 0 0 0       * a huge purple worm
+M 0 49089 21 49524 100 0 0 0       * a small purple worm
+M 0 49117 6 49524 100 0 0 0        * a gigantic purple worm
+M 0 49089 21 49525 100 0 0 0       * a small purple worm
+M 0 49091 37 49525 100 0 0 0       * a huge purple worm
+M 0 49117 6 49525 100 0 0 0        * a gigantic purple worm
+M 0 49117 6 49525 100 0 0 0        * a gigantic purple worm
+M 0 49089 21 49526 100 0 0 0       * a small purple worm
+M 0 49091 37 49527 100 0 0 0       * a huge purple worm
+M 0 49091 37 49528 100 0 0 0       * a huge purple worm
+M 0 49090 28 49530 100 0 0 0       * a large purple worm
+M 0 49090 28 49531 100 0 0 0       * a large purple worm
+M 0 49089 21 49531 100 0 0 0       * a small purple worm
+M 0 49090 28 49532 100 0 0 0       * a large purple worm
+M 0 49089 21 49532 100 0 0 0       * a small purple worm
+M 0 49091 37 49532 100 0 0 0       * a huge purple worm
+M 0 49089 21 49533 100 0 0 0       * a small purple worm
+M 0 49090 28 49533 100 0 0 0       * a large purple worm
+M 0 49091 37 49533 100 0 0 0       * a huge purple worm
+M 0 49102 2 49538 100 0 0 0        * a naked tramp
+M 0 49105 1 49538 100 0 0 0        * a dwarven emissary of Kimordril
+E 1 49137 1 8 100 0 0 0            *   a pair of dwarven mithril boots
+M 0 49221 1 49538 100 0 0 0        * a jolly old merchant
+G 1 49171 1 0 100 0 0 0            *    a dusty signet ring
+F 1 49235 2 49538 100 0 0 0        * an armed bodyguard (following)
+F 1 49235 2 49538 100 0 0 0        * an armed bodyguard (following)
+M 0 49103 2 49539 100 0 0 0        * a hooker
+M 0 49104 1 49539 100 0 0 0        * a human emissary of Tharnadia
+E 1 49088 1 16 100 0 0 0           *   a tharnadian longsword dubbed 'SLaSheR'
+M 0 49101 1 49541 100 0 0 0        * an exotic dancer
+M 0 49100 1 49541 100 0 0 0        * a sexy slut
+M 0 49102 2 49541 100 0 0 0        * a naked tramp
+M 0 49111 19 49545 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49546 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49547 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49550 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49551 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49551 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49551 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49551 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49552 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49552 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49553 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49553 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49554 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49554 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49554 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49555 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49555 100 0 0 0       * a minotaur sailor
+M 0 49146 7 49555 100 0 0 0        * a minotaur sailor
+M 0 49146 7 49555 100 0 0 0        * a minotaur sailor
+M 0 49147 12 49555 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49556 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49556 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49556 100 0 0 0       * a minotaur sailor
+M 0 49146 7 49556 100 0 0 0        * a minotaur sailor
+M 0 49146 7 49556 100 0 0 0        * a minotaur sailor
+M 0 49113 13 49557 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49557 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49558 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49559 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49559 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49559 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49559 100 0 0 0       * a minotaur sailor
+M 0 49146 7 49560 100 0 0 0        * a minotaur sailor
+M 0 49146 7 49560 100 0 0 0        * a minotaur sailor
+M 0 49147 12 49560 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49561 100 0 0 0       * a minotaur sailor
+M 0 49148 8 49562 100 0 0 0        * a minotaur sailor
+M 0 49148 8 49562 100 0 0 0        * a minotaur sailor
+M 0 49147 12 49562 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49563 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49563 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49564 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49564 100 0 0 0       * a minotaur sailor
+M 0 49148 8 49564 100 0 0 0        * a minotaur sailor
+M 0 49111 19 49565 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49565 100 0 0 0       * a minotaur sailor
+M 0 49147 12 49565 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49566 100 0 0 0       * a minotaur sailor
+M 0 49111 19 49568 100 0 0 0       * a minotaur sailor
+M 0 49148 8 49568 100 0 0 0        * a minotaur sailor
+M 0 49113 13 49569 100 0 0 0       * a minotaur sailor
+M 0 49148 8 49569 100 0 0 0        * a minotaur sailor
+M 0 49148 8 49569 100 0 0 0        * a minotaur sailor
+M 0 49148 8 49569 100 0 0 0        * a minotaur sailor
+M 0 49130 6 49570 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49130 6 49571 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49130 6 49572 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49131 10 49572 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49573 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49130 6 49574 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49131 10 49574 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49576 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49577 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49577 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49133 7 49578 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49135 10 49578 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49579 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49133 7 49579 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49130 6 49580 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49131 10 49580 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49130 6 49581 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49133 7 49582 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49133 7 49582 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49135 10 49583 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49583 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49584 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49134 2 49584 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49134 2 49584 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49140 6 49587 100 0 0 0        * an insect
+M 0 49140 6 49587 100 0 0 0        * an insect
+M 0 49140 6 49587 100 0 0 0        * an insect
+M 0 49140 6 49587 100 0 0 0        * an insect
+M 0 49139 6 49588 100 0 0 0        * an insect
+M 0 49139 6 49588 100 0 0 0        * an insect
+M 0 49138 4 49589 100 0 0 0        * a thri-kreen
+M 0 49138 4 49589 100 0 0 0        * a thri-kreen
+M 0 49138 4 49590 100 0 0 0        * a thri-kreen
+M 0 49138 4 49590 100 0 0 0        * a thri-kreen
+M 0 49137 6 49591 100 0 0 0        * an insect
+M 0 49137 6 49591 100 0 0 0        * an insect
+M 0 49139 6 49593 100 0 0 0        * an insect
+M 0 49139 6 49593 100 0 0 0        * an insect
+M 0 49140 6 49594 100 0 0 0        * an insect
+M 0 49140 6 49594 100 0 0 0        * an insect
+M 0 49136 6 49595 100 0 0 0        * an insect
+M 0 49136 6 49595 100 0 0 0        * an insect
+M 0 49136 6 49596 100 0 0 0        * an insect
+M 0 49136 6 49596 100 0 0 0        * an insect
+M 0 49136 6 49597 100 0 0 0        * an insect
+M 0 49136 6 49597 100 0 0 0        * an insect
+M 0 49137 6 49597 100 0 0 0        * an insect
+M 0 49137 6 49597 100 0 0 0        * an insect
+M 0 49137 6 49598 100 0 0 0        * an insect
+M 0 49137 6 49598 100 0 0 0        * an insect
+M 0 49139 6 49599 100 0 0 0        * an insect
+M 0 49139 6 49599 100 0 0 0        * an insect
+M 0 49131 10 49600 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49600 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49600 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49601 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49601 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49601 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49601 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49131 10 49602 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49602 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49603 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49603 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49603 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49604 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49605 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49132 10 49605 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49133 7 49605 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49133 7 49605 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49132 10 49605 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49133 7 49606 100 0 0 0        * a thri-kreen tunnel dweller
+M 0 49121 1 49607 100 0 0 0        * an insect Queen
+E 1 49063 1 12 100 0 0 0           *   a royal garb laced with gold
+F 1 49122 2 49607 100 0 0 0        * a thri-kreen warrior (following)
+E 1 49056 8 16 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 17 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 25 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 26 100 0 0 0           *   a longsword made of granite
+F 1 49122 2 49607 100 0 0 0        * a thri-kreen warrior (following)
+E 1 49056 8 16 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 17 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 25 100 0 0 0           *   a longsword made of granite
+E 1 49056 8 26 100 0 0 0           *   a longsword made of granite
+M 0 49132 10 49608 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49135 10 49608 100 0 0 0       * a thri-kreen tunnel dweller
+M 0 49127 18 49609 100 0 0 0       * an insect warrior
+M 0 49127 18 49609 100 0 0 0       * an insect warrior
+M 0 49127 18 49610 100 0 0 0       * an insect warrior
+M 0 49127 18 49610 100 0 0 0       * an insect warrior
+M 0 49127 18 49610 100 0 0 0       * an insect warrior
+M 0 49190 24 49610 100 0 0 0       * an insect
+M 0 49190 24 49610 100 0 0 0       * an insect
+M 0 49190 24 49610 100 0 0 0       * an insect
+M 0 49190 24 49610 100 0 0 0       * an insect
+M 0 49128 6 49611 100 0 0 0        * an insect warrior
+M 0 49128 6 49611 100 0 0 0        * an insect warrior
+M 0 49128 6 49611 100 0 0 0        * an insect warrior
+M 0 49128 6 49611 100 0 0 0        * an insect warrior
+M 0 49129 13 49618 100 0 0 0       * an insect warrior
+M 0 49129 13 49618 100 0 0 0       * an insect warrior
+M 0 49129 13 49618 100 0 0 0       * an insect warrior
+M 0 49129 13 49618 100 0 0 0       * an insect warrior
+M 0 49190 24 49628 100 0 0 0       * an insect
+M 0 49190 24 49628 100 0 0 0       * an insect
+M 0 49190 24 49628 100 0 0 0       * an insect
+M 0 49190 24 49628 100 0 0 0       * an insect
+M 0 49126 17 49630 100 0 0 0       * an insect warrior
+M 0 49126 17 49630 100 0 0 0       * an insect warrior
+M 0 49126 17 49630 100 0 0 0       * an insect warrior
+M 0 49126 17 49632 100 0 0 0       * an insect warrior
+M 0 49126 17 49632 100 0 0 0       * an insect warrior
+M 0 49126 17 49632 100 0 0 0       * an insect warrior
+M 0 49127 18 49633 100 0 0 0       * an insect warrior
+M 0 49127 18 49633 100 0 0 0       * an insect warrior
+M 0 49123 10 49633 100 0 0 0       * an insect warrior
+M 0 49123 10 49633 100 0 0 0       * an insect warrior
+M 0 49124 6 49633 100 0 0 0        * an insect warrior
+M 0 49124 6 49633 100 0 0 0        * an insect warrior
+M 0 49190 24 49633 100 0 0 0       * an insect
+M 0 49190 24 49633 100 0 0 0       * an insect
+M 0 49190 24 49633 100 0 0 0       * an insect
+M 0 49190 24 49633 100 0 0 0       * an insect
+M 0 49209 12 49633 100 0 0 0       * an insect
+M 0 49209 12 49634 100 0 0 0       * an insect
+M 0 49209 12 49634 100 0 0 0       * an insect
+M 0 49209 12 49634 100 0 0 0       * an insect
+M 0 49209 12 49634 100 0 0 0       * an insect
+M 0 49209 12 49634 100 0 0 0       * an insect
+M 0 49127 18 49638 100 0 0 0       * an insect warrior
+M 0 49127 18 49638 100 0 0 0       * an insect warrior
+M 0 49127 18 49638 100 0 0 0       * an insect warrior
+M 0 49127 18 49639 100 0 0 0       * an insect warrior
+M 0 49127 18 49640 100 0 0 0       * an insect warrior
+M 0 49209 12 49640 100 0 0 0       * an insect
+M 0 49209 12 49640 100 0 0 0       * an insect
+M 0 49209 12 49640 100 0 0 0       * an insect
+M 0 49209 12 49640 100 0 0 0       * an insect
+M 0 49209 12 49640 100 0 0 0       * an insect
+M 0 49126 17 49641 100 0 0 0       * an insect warrior
+M 0 49123 10 49643 100 0 0 0       * an insect warrior
+M 0 49123 10 49643 100 0 0 0       * an insect warrior
+M 0 49123 10 49644 100 0 0 0       * an insect warrior
+M 0 49123 10 49644 100 0 0 0       * an insect warrior
+M 0 49123 10 49644 100 0 0 0       * an insect warrior
+M 0 49125 9 49644 100 0 0 0        * an insect warrior
+M 0 49126 17 49644 100 0 0 0       * an insect warrior
+M 0 49126 17 49644 100 0 0 0       * an insect warrior
+M 0 49126 17 49644 100 0 0 0       * an insect warrior
+M 0 49126 17 49644 100 0 0 0       * an insect warrior
+M 0 49126 17 49644 100 0 0 0       * an insect warrior
+M 0 49209 12 49644 100 0 0 0       * an insect
+M 0 49125 9 49645 100 0 0 0        * an insect warrior
+M 0 49125 9 49645 100 0 0 0        * an insect warrior
+M 0 49190 24 49645 100 0 0 0       * an insect
+M 0 49190 24 49645 100 0 0 0       * an insect
+M 0 49126 17 49646 100 0 0 0       * an insect warrior
+M 0 49126 17 49646 100 0 0 0       * an insect warrior
+M 0 49126 17 49647 100 0 0 0       * an insect warrior
+M 0 49126 17 49647 100 0 0 0       * an insect warrior
+M 0 49123 10 49649 100 0 0 0       * an insect warrior
+M 0 49125 9 49649 100 0 0 0        * an insect warrior
+M 0 49125 9 49649 100 0 0 0        * an insect warrior
+M 0 49123 10 49650 100 0 0 0       * an insect warrior
+M 0 49124 6 49650 100 0 0 0        * an insect warrior
+M 0 49124 6 49650 100 0 0 0        * an insect warrior
+M 0 49124 6 49650 100 0 0 0        * an insect warrior
+M 0 49124 6 49650 100 0 0 0        * an insect warrior
+M 0 49126 17 49650 100 0 0 0       * an insect warrior
+M 0 49127 18 49651 100 0 0 0       * an insect warrior
+M 0 49127 18 49651 100 0 0 0       * an insect warrior
+M 0 49190 24 49652 100 0 0 0       * an insect
+M 0 49190 24 49652 100 0 0 0       * an insect
+M 0 49190 24 49652 100 0 0 0       * an insect
+M 0 49190 24 49652 100 0 0 0       * an insect
+M 0 49190 24 49654 100 0 0 0       * an insect
+M 0 49190 24 49654 100 0 0 0       * an insect
+M 0 49190 24 49654 100 0 0 0       * an insect
+M 0 49190 24 49654 100 0 0 0       * an insect
+M 0 49125 9 49655 100 0 0 0        * an insect warrior
+M 0 49125 9 49655 100 0 0 0        * an insect warrior
+M 0 49125 9 49655 100 0 0 0        * an insect warrior
+M 0 49125 9 49655 100 0 0 0        * an insect warrior
+M 0 49190 24 49655 100 0 0 0       * an insect
+M 0 49128 6 49657 100 0 0 0        * an insect warrior
+M 0 49128 6 49657 100 0 0 0        * an insect warrior
+M 0 49129 13 49658 100 0 0 0       * an insect warrior
+M 0 49129 13 49658 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49129 13 49659 100 0 0 0       * an insect warrior
+M 0 49127 18 49660 100 0 0 0       * an insect warrior
+M 0 49127 18 49660 100 0 0 0       * an insect warrior
+M 0 49190 24 49660 100 0 0 0       * an insect
+M 0 49127 18 49661 100 0 0 0       * an insect warrior
+M 0 49127 18 49661 100 0 0 0       * an insect warrior
+M 0 49123 10 49662 100 0 0 0       * an insect warrior
+M 0 49169 1 49665 100 0 0 0        * Noxxon
+E 1 49129 1 2 100 0 0 0            *   a rune enscribed adamantium ring
+M 0 49179 1 49666 100 0 0 0        * a drow rogue
+E 1 49118 1 1 100 0 0 0            *   a jeweled gemstone ring
+E 1 49043 5 16 100 0 0 0           *   a thin steel dagger
+M 0 49087 1 49666 100 0 0 0        * a desert traveler
+M 0 49182 2 49668 100 0 0 0        * a sleeping merchant
+M 0 49182 2 49668 100 0 0 0        * a sleeping merchant
+M 0 49181 1 49671 100 0 0 0        * a shopkeeper
+G 1 49119 999 0 100 0 0 0          *    an adamantium ringmail suit
+G 1 49120 999 0 100 0 0 0          *    an adamantium bracer
+G 1 49121 999 0 100 0 0 0          *    a pair of adamantium leggings
+G 1 49122 999 0 100 0 0 0          *    a pair of adamantium sleeves
+G 1 49123 999 0 100 0 0 0          *    an adamantium helmet
+G 1 49124 999 0 100 0 0 0          *    an adamantium shield
+G 1 49125 999 0 100 0 0 0          *    a jeweled adamantium ring
+G 1 49126 999 0 100 0 0 0          *    a pair of adamantium boots
+G 1 49127 999 0 100 0 0 0          *    an adamantium necklace
+M 0 49111 19 49672 100 0 0 0       * a minotaur sailor
+M 0 49113 13 49672 100 0 0 0       * a minotaur sailor
+M 0 49146 7 49672 100 0 0 0        * a minotaur sailor
+M 0 49147 12 49672 100 0 0 0       * a minotaur sailor
+M 0 49148 8 49672 100 0 0 0        * a minotaur sailor
+M 0 49112 1 49672 100 0 0 0        * a minotaur captain
+E 1 49061 1 21 100 0 0 0           *   a bloody elephant ear
+M 0 49203 1 49673 100 0 0 0        * Burnn
+G 1 49154 999 0 100 0 0 0          *    a brilliant mithril plate
+G 1 49155 999 0 100 0 0 0          *    a well-worn warrior helm
+G 1 49156 999 0 100 0 0 0          *    a pair of dwarven chainmail leggings
+G 1 49157 999 0 100 0 0 0          *    a polished steel bracer
+G 1 49158 999 0 100 0 0 0          *    a pair of gnomish mesh gloves
+G 1 49159 999 0 100 0 0 0          *    a pair of dwarven mining goggles
+M 0 49170 1 49677 100 0 0 0        * Vernadad
+E 1 49148 1 2 100 0 0 0            *   a signet ring of Vernadad Lo'Ushuur
+E 1 49043 5 16 100 0 0 0           *   a thin steel dagger
+E 1 49043 5 17 100 0 0 0           *   a thin steel dagger
+F 1 49238 4 49677 100 0 0 0        * a scarred warrior (following)
+F 1 49238 4 49677 100 0 0 0        * a scarred warrior (following)
+F 1 49238 4 49677 100 0 0 0        * a scarred warrior (following)
+F 1 49238 4 49677 100 0 0 0        * a scarred warrior (following)
+M 0 49205 1 49683 100 0 0 0        * a sleeping member
+M 0 49204 1 49684 100 0 0 0        * a sleeping member
+M 0 49210 1 49685 100 0 0 0        * an eating member
+M 0 49229 1 49784 100 0 0 0        * a ferocious dog
+M 0 49230 4 49785 100 0 0 0        * a hardened desert nomad
+E 1 49116 999 16 100 0 0 0         *   a wooden handled battle mace
+M 0 49230 4 49785 100 0 0 0        * a hardened desert nomad
+E 1 49116 999 16 100 0 0 0         *   a wooden handled battle mace
+M 0 49230 4 49785 100 0 0 0        * a hardened desert nomad
+E 1 49116 999 16 100 0 0 0         *   a wooden handled battle mace
+M 0 49230 4 49785 100 0 0 0        * a hardened desert nomad
+E 1 49116 999 16 100 0 0 0         *   a wooden handled battle mace
+M 0 49231 1 49787 100 0 0 0        * Aracthos
+E 1 49180 1 8 100 0 0 0            *   a pair of adamantium warboots
+E 1 49178 1 15 100 0 0 0           *   a brilliant adamantium bracer
+F 1 49232 4 49787 100 0 0 0        * a master swordsman (following)
+E 1 49177 4 16 100 0 0 0           *   a finely crafted silver longsword
+E 1 49177 4 17 100 0 0 0           *   a finely crafted silver longsword
+F 1 49232 4 49787 100 0 0 0        * a master swordsman (following)
+E 1 49177 4 16 100 0 0 0           *   a finely crafted silver longsword
+E 1 49177 4 17 100 0 0 0           *   a finely crafted silver longsword
+F 1 49232 4 49787 100 0 0 0        * a master swordsman (following)
+F 1 49232 4 49787 100 0 0 0        * a master swordsman (following)
+M 0 49076 10 49789 100 0 0 0       * an elven sailor
+M 0 49114 10 49789 100 0 0 0       * an elven sailor
+M 0 49143 4 49789 100 0 0 0        * an elven sailor
+M 0 49144 4 49789 100 0 0 0        * an elven sailor
+M 0 49097 1 49789 100 0 0 0        * an elven navigator
+E 1 49053 1 3 100 0 0 0            *   an ancient symbol of elven ancestry
+M 0 49168 1 49790 100 0 0 0        * Jussin
+E 1 49104 1 16 100 0 0 0           *   a two-handed sword of a desert nomad
+M 0 49003 1 49790 100 0 0 0        * a heavily cloaked mercenary
+E 1 49005 1 16 100 0 0 0           *   a ruby hilted steel longsword
+*
+S

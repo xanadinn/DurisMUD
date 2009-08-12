@@ -1,0 +1,4567 @@
+#42600
+&+yLarge Entryway of a Cottage~
+&+yInside the cottage is like being inside a cathedral for those anyone smaller
+&+ythan huge. This room alone could house a whole colony of size small creatures.
+&+yThe floor of boards are solid and tightly put together but look worn out and
+&+ya bit sunken in.. Bare for an entryway, the only decorations are the
+&+ydifferent shades of the wood. The ceiling is high above with huge four foot
+&+ythick beams sparcely laid out running parrallel to the entryway. The large
+&+yroom extends in all directions including up and to the east is the exit.
+~
+426 4104 0
+D0
+The cottage continues.
+~
+~
+0 0 42601
+D1
+Back outside.
+~
+~
+0 0 42676
+D2
+The cottage continues.
+~
+~
+0 0 42602
+D3
+Toward the center of the cottage.
+~
+~
+0 0 42603
+S
+#42601
+&+yNortheast Corner of a Cottage~
+&+yThe Northeast corner, similar to the southeast, is the meeting place of
+&+ytwo different wall types mixed in together. The grains on the walls point
+&+youtwards giving the room a bit more air space and not so castrophobic. No
+&+ycobweds survive in this clear area and a spider wouldn't think of setting
+&+yup camp. Because the walls are made of thick redwood boards stacked on
+&+yeachother, one board here seems to have been pounded too much inwardly. It
+&+yhad a crease in the middle and is dented and scraped at one end.
+~
+426 4232 0
+D2
+Back near the entrance.
+~
+~
+0 0 42600
+D3
+Toward the atrium.
+~
+~
+0 0 42604
+S
+#42602
+&+ySoutheast Corner of a Cottage~
+&+ySimilar to the notheast corner, this southeast has the grain falling into the
+&+ycorners to gives you a claustraphobic feeling. It pulls you in to the very
+&+ydeep corners where the walls meet and one can see the mastery of wood that
+&+ythe constructor of this house must have. Barely visible, the corner itself
+&+yis actually round. Redwood sawdust has been tightly packed into the corner
+&+ycovering any every hole and distortion.  The ceiling above has different
+&+ysized boards coming up to meet one another at forty-five degree angles.
+~
+426 4232 0
+D0
+~
+~
+0 0 42600
+D3
+~
+~
+0 0 42605
+S
+#42603
+&+yCenter of &+cGimluk's &+yCottage~
+~
+426 0 0
+D0
+~
+~
+0 0 42604
+D1
+~
+~
+0 0 42600
+D2
+~
+~
+0 0 42605
+D3
+~
+~
+0 0 42606
+S
+#42604
+&+yBefore the &+WAtrium~
+~
+426 4108 0
+D0
+~
+~
+0 0 42623
+D1
+~
+~
+0 0 42601
+D2
+~
+~
+0 0 42603
+S
+#42605
+&+ySouth Side of a Cottage~
+~
+426 4104 0
+D0
+~
+~
+0 0 42603
+D1
+~
+~
+0 0 42602
+D3
+~
+~
+0 0 42608
+S
+#42606
+&+RInfront of a &+BHuge &+RFire&+Lplace~
+~
+426 4104 0
+D0
+~
+~
+0 0 42607
+D1
+~
+~
+0 0 42603
+D2
+~
+~
+0 0 42608
+D3
+A Metal Fireplace Grating
+~
+grate grating~
+6 42605 42619
+S
+#42607
+&+yAn &+bOgre's&N &+yKitchen~
+~
+426 4232 0
+D2
+~
+~
+0 0 42606
+D5
+Exit through a trapdoor
+~
+trap trapdoor~
+5 0 42622
+S
+#42608
+&+yBottom of a Huge Staircase~
+~
+426 4104 0
+D0
+~
+~
+0 0 42606
+D1
+~
+~
+0 0 42605
+D4
+~
+~
+0 0 42611
+S
+#42609
+&+yEnd of the &+rRed&+ywoo&+rd Ban&+yister~
+~
+426 4104 0
+D1
+~
+~
+0 0 42612
+D2
+~
+~
+0 0 42610
+S
+#42610
+&+yAlong a &+rRed&+ywoo&+rd Ban&+yister~
+~
+426 4104 0
+D0
+~
+~
+0 0 42609
+D2
+~
+~
+0 0 42611
+S
+#42611
+&+yTop of a Huge Staircase~
+~
+426 4104 0
+D0
+~
+~
+0 0 42610
+D5
+~
+~
+0 0 42608
+S
+#42612
+&+cA Plain Hallway~
+~
+426 4108 0
+D0
+~
+~
+0 0 42613
+D2
+~
+~
+0 0 42614
+D3
+~
+~
+0 0 42609
+S
+#42613
+&+CGimluk's &+BStudy~
+~
+426 4105 0
+D2
+~
+~
+0 0 42612
+S
+#42614
+&+cA Plain Hallway~
+~
+426 4104 0
+D0
+~
+~
+0 0 42612
+D1
+~
+~
+0 0 42617
+D2
+~
+~
+0 0 42615
+S
+#42615
+&+cA Plain Hallway~
+~
+426 4104 0
+D0
+~
+~
+0 0 42614
+D2
+~
+~
+0 0 42616
+S
+#42616
+&+cA Child's &+BBedroom&N~
+~
+426 4104 0
+D0
+~
+~
+0 0 42615
+D5
+An Ogre Child's Dwarf Farm
+~
+farm trap trapdoor~
+5 0 42621
+S
+#42617
+&+cGimluk's&+B Bedroom~
+~
+426 4104 0
+D2
+~
+~
+0 0 42618
+D3
+~
+~
+0 0 42614
+S
+#42618
+&+cGimluk's&+B Bedroom~
+~
+426 4104 0
+D0
+~
+~
+0 0 42617
+D1
+Gimluk's Closet
+~
+closet~
+6 42603 42620
+S
+#42619
+&+RInside a &+BHuge &+RFire&+Lplace~
+~
+426 4104 0
+D1
+~
+grate grating~
+2 0 42606
+D4
+~
+~
+0 0 42624
+S
+#42620
+&+bA hidden chamber in &+cGimluk's&+b bedroom~
+~
+426 4104 0
+D3
+~
+wall~
+3 0 42618
+S
+#42621
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4109 4
+D4
+~
+trap trapdoor farm~
+1 0 42616
+D5
+~
+~
+0 0 42709
+S
+#42622
+&+rButcher Room~
+~
+426 4104 0
+D4
+~
+trap trapdoor~
+1 0 42607
+D5
+~
+trapdoor trap~
+5 0 42707
+S
+#42623
+&+gEntrance to the &+WAtrium~
+~
+426 4198408 3
+D0
+~
+glass~
+3 42604 42637
+D1
+~
+~
+0 0 42628
+D2
+~
+~
+0 0 42604
+D3
+~
+~
+0 0 42629
+S
+#42624
+&+LBottom of the Chimney~
+Chimney
+~
+426 8193 0
+D4
+~
+~
+0 0 42625
+D5
+~
+~
+0 0 42619
+F
+3
+S
+#42625
+&+LCenter of the chimney~
+~
+426 8193 0
+D4
+~
+~
+0 0 42626
+D5
+~
+~
+0 0 42624
+F
+5
+S
+#42626
+&+LTop of the chimney~
+~
+426 8193 0
+D4
+~
+flue chimney~
+5 0 42627
+D5
+~
+~
+0 0 42625
+S
+#42627
+&+BOn top of the chimney~
+~
+426 0 5
+D0
+~
+~
+0 0 42719
+D1
+~
+~
+0 0 42722
+D2
+~
+~
+0 0 42718
+D3
+~
+~
+0 0 42721
+D5
+~
+flue chimney~
+1 0 42626
+S
+#42628
+&+gEntrance to the &+WAtrium~
+~
+426 4104 3
+D3
+~
+~
+0 0 42623
+S
+#42629
+&+gEntrance to the &+WAtrium~
+~
+426 4104 3
+D1
+~
+~
+0 0 42623
+S
+#42630
+&+gA Corner of the &+WAtrium~
+~
+426 8 3
+D0
+~
+~
+0 0 42631
+D3
+~
+~
+0 0 42637
+S
+#42631
+&+gInside of the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42632
+D2
+~
+~
+0 0 42630
+D3
+~
+~
+0 0 42636
+S
+#42632
+&+gInside of the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42633
+D2
+~
+~
+0 0 42631
+D3
+~
+~
+0 0 42635
+S
+#42633
+&+gA Corner of the &+WAtrium~
+~
+426 4108 3
+D2
+~
+~
+0 0 42632
+D3
+~
+~
+0 0 42634
+D5
+~
+bushes~
+4 0 42675
+S
+#42634
+&+gInside the &+WAtrium &+gNear a Giant &+yRed&+rwoo&+yd~
+~
+426 4104 3
+D1
+~
+~
+0 0 42633
+D2
+~
+~
+0 0 42635
+D3
+~
+~
+0 0 42641
+D4
+~
+~
+0 0 42657
+S
+#42635
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42634
+D1
+~
+~
+0 0 42632
+D2
+~
+~
+0 0 42636
+D3
+~
+~
+0 0 42640
+S
+#42636
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42635
+D1
+~
+~
+0 0 42631
+D2
+~
+~
+0 0 42637
+D3
+~
+~
+0 0 42639
+S
+#42637
+&+gInside of the &+WAtrium~
+~
+426 4100 3
+D0
+~
+~
+0 0 42636
+D1
+~
+~
+0 0 42630
+D2
+~
+glass~
+3 0 42623
+D3
+~
+~
+0 0 42638
+S
+#42638
+&+gInside the &+WAtrium&+g Near a Giant &+yRed&+rwoo&+rd~
+~
+426 4104 3
+D0
+~
+~
+0 0 42639
+D1
+~
+~
+0 0 42637
+D3
+~
+~
+0 0 42645
+D4
+~
+~
+0 0 42646
+S
+#42639
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42640
+D1
+~
+~
+0 0 42636
+D2
+~
+~
+0 0 42638
+D3
+~
+~
+0 0 42644
+S
+#42640
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42641
+D1
+~
+~
+0 0 42635
+D2
+~
+~
+0 0 42639
+D3
+~
+~
+0 0 42643
+S
+#42641
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D1
+~
+~
+0 0 42634
+D2
+~
+~
+0 0 42640
+D3
+~
+~
+0 0 42642
+S
+#42642
+&+gA Corner of the &+WAtrium~
+~
+426 4104 3
+D1
+~
+~
+0 0 42641
+D2
+~
+~
+0 0 42643
+S
+#42643
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42642
+D1
+~
+~
+0 0 42640
+D2
+~
+~
+0 0 42644
+S
+#42644
+&+gInside the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42643
+D1
+~
+~
+0 0 42639
+D2
+~
+~
+0 0 42645
+S
+#42645
+&+gA Corner of the &+WAtrium~
+~
+426 4104 3
+D0
+~
+~
+0 0 42644
+D1
+~
+~
+0 0 42638
+S
+#42646
+&+yClimbing a Giant Red&+rwood~
+~
+426 265 3
+D4
+~
+~
+0 0 42647
+D5
+~
+~
+0 0 42638
+F
+5
+S
+#42647
+&+yClimbing a Giant Red&+rwood~
+~
+426 9 3
+D4
+~
+~
+0 0 42648
+D5
+~
+~
+0 0 42646
+F
+7
+S
+#42648
+&+yClimbing a Giant Red&+rwood~
+~
+426 9 3
+D4
+~
+~
+0 0 42649
+D5
+~
+~
+0 0 42647
+F
+10
+S
+#42649
+&+yClimbing a Giant Red&+rwood~
+~
+426 9 3
+D4
+~
+~
+0 0 42650
+D5
+~
+~
+0 0 42648
+F
+13
+S
+#42650
+&+yClimbing a Giant Red&+rwood~
+~
+426 9 3
+D4
+~
+~
+0 0 42651
+D5
+~
+~
+0 0 42649
+F
+15
+S
+#42651
+&+yClimbing a Giant Red&+rwood~
+~
+426 9 3
+D4
+~
+~
+0 0 42652
+D5
+~
+~
+0 0 42650
+F
+17
+S
+#42652
+&+yTop of a Giant Red&+rwood~
+~
+426 9 3
+D0
+~
+~
+0 0 42654
+D1
+~
+~
+0 0 42655
+D2
+~
+~
+0 0 42656
+D3
+~
+~
+0 0 42653
+D5
+~
+~
+0 0 42651
+F
+20
+S
+#42653
+&+yOn a Branch of a Giant Red&+rwood~
+~
+426 9 3
+D1
+~
+~
+0 0 42652
+S
+#42654
+&+yOn a Branch of a Giant Red&+rwood~
+~
+426 9 3
+D2
+~
+~
+0 0 42652
+S
+#42655
+&+yOn a Branch of a Giant Red&+rwood~
+~
+426 9 3
+D3
+~
+~
+0 0 42652
+S
+#42656
+&+yOn a Branch of a Giant Red&+rwood~
+~
+426 9 3
+D0
+~
+~
+0 0 42652
+S
+#42657
+&+yClimbing a Giant Red&+rwood~
+~
+426 4105 3
+D4
+~
+~
+0 0 42658
+D5
+~
+~
+0 0 42634
+F
+5
+S
+#42658
+&+yClimbing a Giant Red&+rwood~
+~
+426 4105 3
+D4
+~
+~
+0 0 42659
+D5
+~
+~
+0 0 42657
+F
+10
+S
+#42659
+&+yClimbing a Giant Red&+rwood~
+~
+426 1 3
+D4
+~
+~
+0 0 42660
+D5
+~
+~
+0 0 42658
+F
+15
+S
+#42660
+&+yClimbing a Giant Red&+rwood~
+~
+426 1 3
+D4
+~
+~
+0 0 42661
+D5
+~
+~
+0 0 42659
+F
+20
+S
+#42661
+&+yClimbing a Giant Red&+rwood~
+~
+426 1 3
+D4
+~
+~
+0 0 42662
+D5
+~
+~
+0 0 42660
+F
+25
+S
+#42662
+&+yUp a Giant Redwood~
+~
+426 1 3
+D3
+~
+~
+0 0 42664
+D4
+~
+leaves~
+5 0 42663
+D5
+~
+~
+0 0 42661
+F
+30
+S
+#42663
+&+gIn the Leaves of a Giant Redwood~
+~
+426 1 3
+D5
+~
+leaves~
+5 0 42662
+F
+35
+S
+#42664
+&+yOn a Tree Branch~
+~
+426 1 3
+D1
+~
+~
+0 0 42662
+D3
+~
+~
+0 0 42665
+S
+#42665
+&+yOn a Tree Branch~
+~
+426 1 3
+D1
+~
+~
+0 0 42664
+D3
+~
+~
+0 0 42666
+S
+#42666
+&+yOn a Tree Branch~
+~
+426 1 3
+D1
+~
+~
+0 0 42665
+D3
+~
+~
+0 0 42667
+D5
+~
+~
+0 0 42669
+S
+#42667
+&+yOn a Tree Branch&N~
+~
+426 1 3
+D1
+~
+~
+0 0 42666
+D3
+~
+~
+0 0 42668
+S
+#42668
+&+yThe End of a Tree Branch&N~
+~
+426 1 3
+D1
+~
+~
+0 0 42667
+S
+#42669
+&+YInside a Wasps Nest~
+~
+426 4109 3
+D4
+~
+~
+0 0 42666
+D5
+~
+~
+0 0 42670
+S
+#42670
+&+YInside the Nest~
+~
+426 4105 3
+D0
+~
+~
+0 0 42672
+D1
+~
+~
+0 0 42671
+D2
+~
+~
+0 0 42708
+D3
+~
+~
+0 0 42673
+D4
+~
+~
+0 0 42669
+D5
+~
+~
+0 0 42674
+S
+#42671
+&+YInside the Nest~
+~
+426 4105 3
+D3
+~
+~
+0 0 42670
+S
+#42672
+&+YInside the Nest~
+~
+426 4105 3
+D2
+~
+~
+0 0 42670
+S
+#42673
+&+YInside the Nest~
+~
+426 4105 3
+D1
+~
+~
+0 0 42670
+S
+#42674
+&+YInside the Nest~
+~
+426 4105 3
+D4
+~
+~
+0 0 42670
+S
+#42675
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside The Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42675
+D4
+~
+bushes~
+0 0 42700
+S
+#42676
+&+yInfront of a Cottage~
+&+yThe entryway to the cottage is clean and large. Big enough for an elephant
+&+yto fit through, the doorway is made out of redwood sanded to almost a shine.
+&+yThe ground is very heavily packed and a flat stone rock is placed here at
+&+ythe foot of the entryway. There are tiny shrubs on either side of the doorway
+&+yand lush dark brown vines are a good contrast to the redwood. With tiny
+&+ythorns and elongated leaves, the bulbs of the vines stick out like mosquitos
+&+yon a white wall. The cottage extends to the left and right and rises above
+&+yfrom this doorway, further then u can actually see. So large that only when
+&+ythe sun rises, does any light get into this area.
+~
+426 4 3
+D0
+~
+~
+0 0 42677
+D2
+~
+~
+0 0 42766
+D3
+         &+rBefore you is&+y a large  &+rpatterned &+yand engrav&+red redwood
+         &+rdoor carved a&+ynd delicat&+rly  made w&+yith precis&+rion hands.
+         &+rSquare  at  t&+yhe bottom &+r and  roun&+yded  at th&+re top, the
+         &+rdoor  seems t&+yo  hang ju&+rst slightl&+yy off the &+rground and
+         &+ya  small   br&+reeze   can&+y   be  fel&+rt  coming &+y out  from
+         &+yunderneath it&+r. Hanging &+yin the mid&+rdle is a d&+yull, brass
+         &+ydoorknocker, &+r with  tin&+yy  patches&+r  of  rust&+y along the
+         &+yedges. The do&+rorknob is &+yhuge with &+rsmears of &+ywhat might
+         &+rbe finger pri&+ynts. Runni&+rng down th&+ye middle o&+rf the door
+         &+ris a  pattern&+y  of  cris&+rscross  tr&+yiangles.  &+rAround the
+         &+redges  are fo&+yur smooth &+rshallow  g&+yrooves in &+ra swirl. A
+         &+rbit  above mi&+ydway is a &+rsmall squa&+yre peep ho&+rle that is
+         &+rcovered by a &+ylatch from&+r the insid&+ye.
+~
+door wooden large~
+0 0 42600
+S
+#42677
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42679
+D2
+~
+~
+0 0 42676
+S
+#42678
+&+yOutside a Cottage~
+~
+426 0 3
+D1
+~
+~
+0 0 42764
+D3
+~
+~
+0 0 42699
+S
+#42679
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42680
+D2
+~
+~
+0 0 42677
+S
+#42680
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42681
+D2
+~
+~
+0 0 42679
+S
+#42681
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42682
+D2
+~
+~
+0 0 42680
+S
+#42682
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42683
+D2
+~
+~
+0 0 42681
+S
+#42683
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42684
+D2
+~
+~
+0 0 42682
+S
+#42684
+&+yOutside a &+WGreenhouse~
+&+gA clean cut path marks the way to the atrium. Flat &+Lstones &+ghave been put
+&+grather far apart, but all evenly spaced between each one. This path runs
+&+galongside the greenhouse which is a nice rich &+Ggreen &+gcolor that is rather
+&+gwarm to the touch. Small shrubs line the place, running west and south.
+&+gThey are &+ythorny &+gand have small yellow leaves. One of the bushes appears
+&+gto be thriving compared to the rest due to a trail of &+Bwater &+gthat seems to
+&+gbe seeping out of the greenhouse.
+~
+426 33554432 3
+D0
+~
+~
+0 0 42855
+D2
+~
+~
+0 0 42683
+D3
+~
+~
+0 0 42685
+S
+#42685
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42854
+D1
+~
+~
+0 0 42684
+D3
+~
+~
+0 0 42686
+S
+#42686
+&+yOutside a &+WGreenhouse~
+&+gThis section of the greenhouse is a bit strange. The window panes are not
+&+gleveled but a bit crooked. There are small cracks at the base and it seems
+&+gto be sunk into the ground a bit. Towards the top of the greenhouse, &+ywooden
+&+yboards &+ghave been used to patch up what seems to be part of the broken window.
+&+gThe ground here has been layered with small &+Lrocks&+g, a size bigger from sand
+&+gitself. This area is pretty much devoid of everything and is naturally
+&+gchilly here.
+~
+426 33554432 3
+D0
+~
+~
+0 0 42853
+D1
+~
+~
+0 0 42685
+D3
+~
+~
+0 0 42687
+S
+#42687
+&+yOutside a &+WGreenhouse~
+&+gSparkling both in the light, be it the &+Ysun&+g or &+wmoon&+g, the exterior of the
+&+ggreenhouse appears to be well kept and clean of wild growth. Even though one
+&+gcannot look into the greenhouse, its panes are clean and look new, devoid of
+&+grust. The ground is well packed of hard mud and appears to be heavily walked
+&+gapon. Small weeds grow at near the bottom and appear easy enough to pick.
+&+gThere is a small &+Lthorn &+gbush that is trying to crawl its way up, but something
+&+gor someone has trimmed it, for across its top is a nice clean leveled cut.
+~
+426 33554432 3
+D0
+~
+~
+0 0 42852
+D1
+~
+~
+0 0 42686
+D3
+~
+~
+0 0 42688
+S
+#42688
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42851
+D1
+~
+~
+0 0 42687
+D3
+~
+~
+0 0 42689
+S
+#42689
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42850
+D1
+~
+~
+0 0 42688
+D2
+~
+~
+0 0 42690
+S
+#42690
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42689
+D2
+~
+~
+0 0 42691
+S
+#42691
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42690
+D2
+~
+~
+0 0 42692
+S
+#42692
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42691
+D2
+~
+~
+0 0 42693
+S
+#42693
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42692
+D2
+~
+~
+0 0 42694
+S
+#42694
+&+yOutside a &+WGreenhouse~
+~
+426 33554432 3
+D0
+~
+~
+0 0 42693
+D1
+~
+~
+0 0 42807
+D2
+~
+~
+0 0 42808
+S
+#42695
+&+LBeside a Chimney In a Dark Corner~
+~
+426 5 3
+D0
+~
+~
+0 0 42807
+D3
+~
+~
+0 0 42808
+D5
+~
+cellar storm~
+6 0 42859
+S
+#42696
+&+yBeside a &+rChimney~
+~
+426 0 3
+D0
+~
+~
+0 0 42808
+D2
+~
+~
+0 0 42779
+S
+#42697
+&+yBeside a &+rChimney~
+~
+426 0 3
+D2
+~
+~
+0 0 42698
+D3
+~
+~
+0 0 42779
+S
+#42698
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42697
+D1
+~
+~
+0 0 42699
+S
+#42699
+&+yOutside a Cottage~
+~
+426 0 3
+D1
+~
+~
+0 0 42678
+D3
+~
+~
+0 0 42698
+S
+#42700
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml&+R R&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42701
+D4
+~
+~
+0 0 42675
+S
+#42701
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42702
+D4
+~
+~
+0 0 42675
+S
+#42702
+&+gA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42706
+D4
+~
+~
+0 0 42703
+S
+#42703
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42704
+D4
+~
+~
+0 0 42701
+S
+#42704
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42705
+D4
+~
+~
+0 0 42675
+S
+#42705
+&+GA &+MM&+Ra&+Cg&+Wi&+Bc&+Ga&+Ml &+RR&+Co&+Wo&+Bm &+gInside the Bushes~
+~
+426 1216385097 3
+D1
+~
+~
+0 0 42675
+D4
+~
+~
+0 0 42633
+S
+#42706
+&+gA Corner of the &+WAtrium~
+~
+426 1216385096 3
+D2
+~
+~
+0 0 42706
+D3
+~
+~
+0 0 42866
+D5
+~
+bushes~
+4 0 42675
+S
+#42707
+&+LTorture Room~
+~
+426 142643273 0
+D1
+~
+freezer~
+5 0 42858
+D3
+~
+freezer~
+5 0 42857
+D4
+~
+trap trapdoor~
+1 0 42622
+S
+#42708
+&+YInside the Nest~
+~
+426 4105 3
+D0
+~
+~
+0 0 42670
+S
+#42709
+&+yEntrance to a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42710
+D3
+~
+~
+0 0 42711
+D4
+~
+~
+0 0 42621
+S
+#42710
+&+yNear the surface of a &+YDwarf&+y farm.&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42712
+D3
+~
+~
+0 0 42709
+D5
+~
+~
+0 0 42763
+S
+#42711
+&+yNear the surface of a &+YDwarf&+y farm.&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42709
+D5
+~
+~
+0 0 42744
+S
+#42712
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42710
+D4
+~
+~
+0 0 42713
+S
+#42713
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42714
+D5
+~
+~
+0 0 42712
+S
+#42714
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42715
+D3
+~
+~
+0 0 42713
+S
+#42715
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42714
+D5
+~
+~
+0 0 42716
+S
+#42716
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42715
+D5
+~
+~
+0 0 42717
+S
+#42717
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42742
+D4
+~
+~
+0 0 42716
+D5
+~
+~
+0 0 42720
+S
+#42718
+&+BOn the edge of the chimney~
+~
+426 0 8
+D0
+~
+~
+0 0 42627
+D5
+~
+~
+0 0 42697
+F
+75
+S
+#42719
+&+BOn the edge of the chimney~
+~
+426 0 8
+D2
+~
+~
+0 0 42627
+D5
+~
+~
+0 0 42695
+F
+75
+S
+#42720
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42723
+D4
+~
+~
+0 0 42717
+S
+#42721
+&+BOn the edge of the chimney~
+~
+426 0 8
+D1
+~
+~
+0 0 42627
+D5
+~
+~
+0 0 42696
+F
+75
+S
+#42722
+&+BOn the edge of the chimney~
+~
+426 0 8
+D3
+~
+~
+0 0 42627
+D5
+~
+~
+0 0 42780
+F
+75
+S
+#42723
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42720
+D5
+~
+~
+0 0 42724
+S
+#42724
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4109 4
+D4
+~
+~
+0 0 42723
+D5
+~
+~
+0 0 42725
+S
+#42725
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42726
+D4
+~
+~
+0 0 42724
+S
+#42726
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42725
+D3
+~
+~
+0 0 42727
+S
+#42727
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42726
+D4
+~
+~
+0 0 42728
+S
+#42728
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42729
+D4
+~
+~
+0 0 42762
+D5
+~
+~
+0 0 42727
+S
+#42729
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42728
+D3
+~
+~
+0 0 42730
+S
+#42730
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42729
+D3
+~
+~
+0 0 42731
+S
+#42731
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42730
+D5
+~
+~
+0 0 42732
+S
+#42732
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42731
+D5
+~
+~
+0 0 42733
+S
+#42733
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42732
+D5
+~
+~
+0 0 42734
+S
+#42734
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4109 4
+D1
+~
+~
+0 0 42735
+D4
+~
+~
+0 0 42733
+S
+#42735
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42736
+D3
+~
+~
+0 0 42734
+S
+#42736
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42737
+D3
+~
+~
+0 0 42735
+S
+#42737
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42738
+D3
+~
+~
+0 0 42736
+S
+#42738
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42739
+D3
+~
+~
+0 0 42737
+S
+#42739
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42738
+D4
+~
+~
+0 0 42740
+S
+#42740
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42741
+D5
+~
+~
+0 0 42739
+S
+#42741
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42767
+D5
+~
+~
+0 0 42740
+S
+#42742
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42717
+D3
+~
+~
+0 0 42743
+S
+#42743
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 1216385097 4
+D1
+~
+~
+0 0 42742
+S
+#42744
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42711
+D5
+~
+~
+0 0 42745
+S
+#42745
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42746
+D3
+~
+~
+0 0 42748
+D4
+~
+~
+0 0 42744
+S
+#42746
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42747
+D3
+~
+~
+0 0 42745
+S
+#42747
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42746
+D4
+~
+~
+0 0 42763
+S
+#42748
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42745
+D3
+~
+~
+0 0 42749
+S
+#42749
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42748
+D4
+~
+~
+0 0 42750
+S
+#42750
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42751
+D5
+~
+~
+0 0 42749
+S
+#42751
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42750
+D5
+~
+~
+0 0 42752
+S
+#42752
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4109 4
+D4
+~
+~
+0 0 42751
+D5
+~
+~
+0 0 42753
+S
+#42753
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42752
+D5
+~
+~
+0 0 42754
+S
+#42754
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42753
+D5
+~
+~
+0 0 42755
+S
+#42755
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42756
+D4
+~
+~
+0 0 42754
+S
+#42756
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42755
+D4
+~
+~
+0 0 42757
+S
+#42757
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42758
+D5
+~
+~
+0 0 42756
+S
+#42758
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42759
+D5
+~
+~
+0 0 42757
+S
+#42759
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42760
+D3
+~
+~
+0 0 42758
+S
+#42760
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42761
+D3
+~
+~
+0 0 42759
+S
+#42761
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42762
+D3
+~
+~
+0 0 42760
+S
+#42762
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42856
+D3
+~
+~
+0 0 42761
+D5
+~
+~
+0 0 42728
+S
+#42763
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42710
+D5
+~
+~
+0 0 42747
+S
+#42764
+&+yOutside a Cottage~
+~
+426 0 3
+D1
+~
+~
+0 0 42765
+D3
+~
+~
+0 0 42678
+S
+#42765
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42766
+D3
+~
+~
+0 0 42764
+S
+#42766
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42676
+D2
+~
+~
+0 0 42765
+S
+#42767
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D3
+~
+~
+0 0 42741
+D5
+~
+~
+0 0 42768
+S
+#42768
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42767
+D5
+~
+~
+0 0 42769
+S
+#42769
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42768
+D5
+~
+~
+0 0 42770
+S
+#42770
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D4
+~
+~
+0 0 42769
+D5
+~
+~
+0 0 42771
+S
+#42771
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4109 4
+D3
+~
+~
+0 0 42772
+D4
+~
+~
+0 0 42770
+S
+#42772
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42771
+D3
+~
+~
+0 0 42773
+S
+#42773
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42772
+D3
+~
+~
+0 0 42774
+S
+#42774
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42773
+D3
+~
+~
+0 0 42775
+S
+#42775
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42774
+D3
+~
+~
+0 0 42776
+S
+#42776
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42775
+D3
+~
+~
+0 0 42777
+S
+#42777
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 4105 4
+D1
+~
+~
+0 0 42776
+D4
+~
+~
+0 0 42778
+S
+#42778
+&+yInside a &+YDwarf&N &+yFarm&N~
+~
+426 1216352329 4
+D5
+~
+~
+0 0 42777
+S
+#42779
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42696
+D1
+~
+~
+0 0 42697
+S
+#42780
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42781
+D1
+~
+~
+0 0 42784
+D2
+~
+~
+0 0 42789
+S
+#42781
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42792
+D1
+~
+~
+0 0 42782
+D2
+~
+~
+0 0 42780
+D3
+~
+~
+0 0 42793
+S
+#42782
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42783
+D1
+~
+~
+0 0 42790
+D2
+~
+~
+0 0 42784
+D3
+~
+~
+0 0 42781
+S
+#42783
+&+BOn the Rooftop&N~
+~
+426 0 4
+D1
+~
+~
+0 0 42791
+D2
+~
+~
+0 0 42782
+D3
+~
+~
+0 0 42792
+S
+#42784
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42782
+D1
+~
+~
+0 0 42785
+D2
+~
+~
+0 0 42788
+D3
+~
+~
+0 0 42780
+S
+#42785
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42790
+D1
+~
+~
+0 0 42799
+D2
+~
+~
+0 0 42786
+D3
+~
+~
+0 0 42784
+S
+#42786
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42785
+D1
+~
+~
+0 0 42787
+D2
+~
+~
+0 0 42796
+D3
+~
+~
+0 0 42788
+S
+#42787
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42799
+D2
+~
+~
+0 0 42798
+D3
+~
+~
+0 0 42786
+S
+#42788
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42784
+D1
+~
+~
+0 0 42786
+D2
+~
+~
+0 0 42794
+D3
+~
+~
+0 0 42789
+S
+#42789
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42780
+D1
+~
+~
+0 0 42788
+D2
+~
+~
+0 0 42795
+D3
+~
+~
+0 0 42797
+S
+#42790
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 0 8
+D0
+~
+~
+0 0 42791
+D2
+~
+~
+0 0 42785
+D3
+~
+~
+0 0 42782
+D5
+~
+~
+0 0 42800
+S
+#42791
+&+CAbove the Atrium&+y Entrance&N~
+~
+426 0 8
+D2
+~
+~
+0 0 42790
+D3
+~
+~
+0 0 42783
+D5
+~
+~
+0 0 42801
+S
+#42792
+&+CAbove the &+WAtrium&+C Entrance&N~
+~
+426 4 8
+D1
+~
+~
+0 0 42783
+D2
+~
+~
+0 0 42781
+D5
+~
+~
+0 0 42804
+S
+#42793
+&+BOn the Rooftop&N~
+~
+426 4 8
+D1
+~
+~
+0 0 42781
+D5
+~
+~
+0 0 42695
+S
+#42794
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42788
+D1
+~
+~
+0 0 42796
+D3
+~
+~
+0 0 42795
+S
+#42795
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D0
+~
+~
+0 0 42789
+D1
+~
+~
+0 0 42794
+D5
+~
+~
+0 0 42699
+S
+#42796
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D0
+~
+~
+0 0 42786
+D1
+~
+~
+0 0 42798
+D3
+~
+~
+0 0 42794
+D5
+~
+~
+0 0 42764
+S
+#42797
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D1
+~
+~
+0 0 42789
+D5
+~
+~
+0 0 42697
+S
+#42798
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D0
+~
+~
+0 0 42787
+D3
+~
+~
+0 0 42796
+D5
+~
+~
+0 0 42765
+S
+#42799
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D2
+~
+~
+0 0 42787
+D3
+~
+~
+0 0 42785
+D5
+~
+~
+0 0 42676
+S
+#42800
+&+BOn the Rooftop&N~
+~
+426 0 4
+D0
+~
+~
+0 0 42801
+D1
+~
+~
+0 0 42803
+D4
+~
+~
+0 0 42790
+S
+#42801
+&+BOn the Rooftop&N~
+~
+426 0 4
+D1
+~
+~
+0 0 42802
+D2
+~
+~
+0 0 42800
+D4
+~
+~
+0 0 42791
+S
+#42802
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D2
+~
+~
+0 0 42803
+D3
+~
+~
+0 0 42801
+D5
+~
+~
+0 0 42679
+S
+#42803
+&+CAbove the Side of the&+y Cottage&N~
+~
+426 4 8
+D0
+~
+~
+0 0 42802
+D3
+~
+~
+0 0 42800
+D5
+~
+~
+0 0 42677
+S
+#42804
+&+LIn a Dark Corner of the &+bRooftop&N~
+~
+426 0 3
+D3
+~
+~
+0 0 42806
+S
+#42805
+In a Large Field of &+yWeeds~
+&+yThis corner of the field seems to be heavily grazed and walked upon. Lots
+&+yof overturned earth and many animal prints on the ground. High and dense
+&+gfoliage &+yprevent you from going any further north or west, however to the south
+&+yand east, the field continues. The smell of &+Lfertilizer &+yhangs in the air and
+&+yfills your nostrils giving you an uneasy feeling in your stomach.
+~
+426 0 2
+D1
+&+ySome tall grass
+~
+~
+0 0 42809
+D2
+&+ySome tall grass
+~
+~
+0 0 42814
+S
+#42806
+&+LIn a Dark Corner of the &+bRooftop&N~
+~
+426 0 8
+D1
+~
+~
+0 0 42804
+D5
+~
+~
+0 0 42807
+S
+#42807
+&+LA Dark Corner Behind the Cottage~
+~
+426 1 3
+D2
+~
+~
+0 0 42695
+D3
+~
+~
+0 0 42694
+S
+#42808
+&+yOutside a Cottage~
+~
+426 0 3
+D0
+~
+~
+0 0 42694
+D1
+~
+~
+0 0 42695
+D2
+~
+~
+0 0 42696
+S
+#42809
+In a Large Field of &+yWeeds~
+&+yDust blows over this section of the field. Its not cultivated one bit. The
+&+yground is of a hard clay that even the few vines that hug the ground have
+&+ytrouble living in. Everything is dry and brown, small branches and leaves
+&+yjust lay without decomposing waiting for another gust of wind to take them
+&+yaway from this empty space. No where in this section is there a glint of
+&+ygreenery, but instead all all &+Lgray &+yand old.
+~
+426 0 2
+D1
+&+yThe field continues...
+~
+~
+0 0 42810
+D2
+&+yThe field continues...
+~
+~
+0 0 42815
+D3
+&+yThe field continues...
+~
+~
+0 0 42805
+S
+#42810
+In a Large Field of &+yWeeds~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 0 2
+D1
+&+yThe field continues...
+~
+~
+0 0 42811
+D2
+&+yThe field continues...
+~
+~
+0 0 42816
+D3
+&+yThe field continues...
+~
+~
+0 0 42809
+S
+#42811
+&+g Entrance to the &+yFields.~
+&+yA light &+cbreeze &+ypours in from the north as the &+Mflowers &+yand &+Ybrush &+ysway. This
+&+ylarge field extends widely to the east and west and quite a ways to the south.
+&+yYou can see that his particular area has been trampled on by something
+&+yrather large. There appears to be starving &+ggrass &+yand other &+gvegetation &+ydue to
+&+ythe lack of &+Bwater &+yin this part of the field. It appears almost as if whomever
+&+yattended the field never quite made it this far. Several small trees stand here
+&+ybroken and limp with dead &+gleaves &+ysurrounding them.
+~
+426 0 2
+D0
+&+gIn a deep and dark forest.
+~
+~
+0 0 -1
+D1
+&+yThe field continues...
+~
+~
+0 0 42812
+D2
+&+yThe field continues...
+~
+~
+0 0 42817
+D3
+&+yThe field continues...
+~
+~
+0 0 42810
+S
+#42812
+In a Large Field of &+yWeeds~
+&+yThe &+gvegetation &+yhere seems rather trampled on and eaten away. Small &+gherbs
+&+yupturned from the ground and &+Lshriveled &+yup are scattered about. The area
+&+yseems to have been heavy grazed upon for there are large patches of
+&+ymissing greenery and small patches of untouched vegetation. There are small
+&+Linsects &+ybuzzing around a towering pile of &+Lmanure&+y.
+~
+426 0 2
+D1
+&+yThe field continues...
+~
+~
+0 0 42813
+D2
+&+yThe field continues...
+~
+~
+0 0 42818
+D3
+&+yThe field continues...
+~
+~
+0 0 42811
+S
+#42813
+In a Large Field of &+yWeeds~
+&+yThis corner of the field seems to be heavily grazed and walked upon. Lots
+&+yof overturned earth and many animal prints on the ground. High and dense
+&+gfoliage &+yprevent you from going any further north or east, however to the south
+&+yand west, the field continues. The smell of &+Lfertilizer &+yhangs in the air and
+&+yfills your nostrils giving you an uneasy feeling in your stomach.
+~
+426 0 2
+D2
+~
+~
+0 0 42819
+D3
+~
+~
+0 0 42812
+S
+#42814
+In a Large Field of &+yWeeds~
+&+yGrowing peacefully and lush, the un-pastured ground throws a lovely sent of
+&+ycareful &+Yfarming &+yin this area. Void of weeds and trampled patches, there is
+&+ya sense of &+ccalmness &+ythat surrounds this area. A small round bush, neatly
+&+ytrimmed, of a dull brown color grows and sways as the &+cbreeze &+yblows through
+&+yit. Some small &+Lrocks &+ylay here in a pile, smoothed by the rain and covered
+&+yin a &+Glight &+ggreen &+gmoss&+y.
+~
+426 4 2
+D0
+~
+~
+0 0 42805
+D1
+~
+~
+0 0 42815
+D2
+~
+~
+0 0 42820
+S
+#42815
+In a Large Field of &+yWeeds~
+&+yThis section of the field seems all too familiar. Some &+gmoss&+y is creeping
+&+yalong an old splintered tree branch that lies here. Some tiny little bugs
+&+ycrawl away hiding in the dirt and other &+gcamouflaging&+y themselves along the
+&+ygrass and dead leaves. This earth is slightly more moist and gooey and
+&+ystick to your soles. All around are average size wood reeds that are there
+&+yfor no purpose then to dry in the sun. Four are upright sticking from the
+&+yground and one is tilted and oddly curved to the right appearing like a
+&+yspout for something. The &+cwind&+W blows&+y and &+cswirls&+y from all directions and
+&+yclose by to the north is the end of the field.
+~
+426 0 2
+D0
+~
+~
+0 0 42809
+D1
+~
+~
+0 0 42816
+D2
+~
+~
+0 0 42821
+D3
+~
+~
+0 0 42814
+S
+#42816
+In a Large Field of &+yWeeds~
+&+yThis section of the field seems all too familiar. &+gMoss &+ycreeps
+&+yalong an old splintered tree branch that lies here. Tiny little &+Lbugs
+&+ycrawl away hiding in the dirt and other &+gfoiliage&+y, camouflaging themselves
+&+yamongst the &+ggrass &+yand &+Ldead &+gleaves&+y. This earth is slightly more &+cmoist &+yand &+wgooey
+&+ysticking to your soles as you walk. All around are wood reeds that serve
+&+yno purpose other than to dry in the &+Ysun. &+yFour are upright, protruding from
+&+ythe ground and one is tilted and oddly curved, resembling a spout of somekind.
+&+yThe &+cwind &+wblows &+yand &+wswirls &+yfrom all directions and close
+&+yby to the north is the end of the field.
+~
+426 0 2
+D0
+~
+~
+0 0 42810
+D1
+~
+~
+0 0 42817
+D2
+~
+~
+0 0 42822
+D3
+~
+~
+0 0 42815
+S
+#42817
+In a Large Field of &+yWeeds~
+&+yThis section of the field seems all too familiar. Some &+gmoss&+y is creeping
+&+yalong an old splintered tree branch that lies here. Some tiny little bugs
+&+ycrawl away hiding in the dirt and other &+gcamouflaging&+y themselves along the
+&+ygrass and dead leaves. This earth is slightly more moist and gooey and
+&+ystick to your soles. All around are average size wood reeds that are there
+&+yfor no purpose then to dry in the sun. Four are upright sticking from the
+&+yground and one is tilted and oddly curved to the right appearing like a
+&+yspout for something. The &+cwind&+W blows&+y and &+cswirls&+y from all directions and
+&+yclose by to the north is the end of the field.
+~
+426 0 2
+D0
+~
+~
+0 0 42811
+D1
+~
+~
+0 0 42818
+D2
+~
+~
+0 0 42823
+D3
+~
+~
+0 0 42816
+S
+#42818
+In a Large Field of &+yWeeds~
+&+yThis heavy grazed pasture is chuck full of globs of dirt, partial eaten
+&+ggrass&+y and mashed &+gleaves &+yfrom the nearby trees. Many mounds and &+Lholes &+yawait
+&+yfor someone to trip them up. One particular mound has the shape of a small
+&+yporcupine with what appears to be thorns growing out the top. Upon closer
+&+yexaminiation you realize that it is nothing more then a small, decomposing,
+&+ythorn bush. The thorns are already brittle but still are sharp enough to
+&+ydraw &+rblood&+y from any unsuspecting soul who messes with it.
+~
+426 0 2
+D0
+~
+~
+0 0 42812
+D1
+~
+~
+0 0 42819
+D2
+~
+~
+0 0 42824
+D3
+~
+~
+0 0 42817
+S
+#42819
+In a Large Field of &+yWeeds~
+&+yGrowing peacefully and lush, the un-pastured ground throws a lovely sent of
+&+ycareful &+Yfarming &+yin this area. Void of weeds and trampled patches, there is
+&+ya sense of &+ccalmness &+ythat surrounds this area. A small round bush, neatly
+&+ytrimmed, of a dull brown color grows and sways as the &+cbreeze &+yblows through
+&+yit. Some small &+Lrocks &+ylay here in a pile, smoothed by the rain and covered
+&+yin a &+Glight &+ggreen &+gmoss&+y.
+~
+426 4 2
+D0
+~
+~
+0 0 42813
+D2
+~
+~
+0 0 42825
+D3
+~
+~
+0 0 42818
+S
+#42820
+&+LIn a Large Field of &+yWeeds~
+&+LHumid and dark, this part of the field has mostly been untouched except
+&+Lthe few creatures roam it. Skanky and damp, the ground sloshes with every
+&+Lstep due to the soft, dry &+ymud &+Lthat covers everything. Several dead bushes
+&+Lstill stand upright, dry and hard, waiting for a &+rfire &+Lto consume it. This
+&+Lis a part of the field where really no sun can penatrate. At night it
+&+Ldisappears from sight, quiet and peaceful to the ear, to the eye is a
+&+Ldifferent matter.
+~
+426 1 2
+D0
+~
+~
+0 0 42814
+D1
+~
+~
+0 0 42821
+D2
+~
+~
+0 0 42826
+D3
+~
+foilage~
+5 0 42870
+S
+#42821
+In a Large Field of &+yWeeds~
+&+yThis section of the field seems all too familiar. Some &+gmoss&+y is creeping
+&+yalong an old splintered tree branch that lies here. Some tiny little bugs
+&+ycrawl away hiding in the dirt and other &+gcamouflaging&+y themselves along the
+&+ygrass and dead leaves. This earth is slightly more moist and gooey and
+&+ystick to your soles. All around are average size wood reeds that are there
+&+yfor no purpose then to dry in the sun. Four are upright sticking from the
+&+yground and one is tilted and oddly curved to the right appearing like a
+&+yspout for something. The &+cwind&+W blows&+y and &+cswirls&+y from all directions and
+&+yclose by to the north is the end of the field.
+~
+426 4 2
+D0
+~
+~
+0 0 42815
+D1
+~
+~
+0 0 42822
+D2
+~
+~
+0 0 42827
+D3
+~
+~
+0 0 42820
+S
+#42822
+In a Large Field of &+yWeeds~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 0 2
+D0
+~
+~
+0 0 42816
+D1
+~
+~
+0 0 42823
+D2
+~
+~
+0 0 42828
+D3
+~
+~
+0 0 42821
+S
+#42823
+In a Large Field of &+yWeeds~
+&+yA light &+cbreeze &+ypours in from the north as the &+Mflowers &+yand &+Ybrush &+ysway. This
+&+ylarge field extends widely to the east and west and quite a ways to the south.
+&+yYou can see that his particular area has been trampled on by something
+&+yrather large. There appears to be starving &+ggrass &+yand other &+gvegetation &+ydue to
+&+ythe lack of &+Bwater &+yin this part of the field. It appears almost as if whomever
+&+yattended the field never quite made it this far. Several small trees stand here
+&+ybroken and limp with dead &+gleaves &+ysurrounding them.
+~
+426 0 2
+D0
+~
+~
+0 0 42817
+D1
+~
+~
+0 0 42824
+D2
+~
+~
+0 0 42829
+D3
+~
+~
+0 0 42822
+S
+#42824
+In a Large Field of &+yWeeds~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 4 2
+D0
+~
+~
+0 0 42818
+D1
+~
+~
+0 0 42825
+D2
+~
+~
+0 0 42830
+D3
+~
+~
+0 0 42823
+S
+#42825
+&+LIn a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42819
+D2
+~
+~
+0 0 42831
+D3
+~
+~
+0 0 42824
+S
+#42826
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42820
+D1
+~
+~
+0 0 42827
+D2
+~
+~
+0 0 42832
+S
+#42827
+&+LIn a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42821
+D1
+~
+~
+0 0 42828
+D2
+~
+~
+0 0 42833
+D3
+~
+~
+0 0 42826
+S
+#42828
+In a Large Field of &+yWeeds~
+&+yThe &+gvegetation &+yhere seems rather trampled on and eaten away. Small &+gherbs
+&+yupturned from the ground and &+Lshriveled &+yup are scattered about. The area
+&+yseems to have been heavy grazed upon for there are large patches of
+&+ymissing greenery and small patches of untouched vegetation. There are small
+&+Linsects &+ybuzzing around a towering pile of &+Lmanure&+y.
+~
+426 4 2
+D0
+~
+~
+0 0 42822
+D1
+~
+~
+0 0 42829
+D2
+~
+~
+0 0 42834
+D3
+~
+~
+0 0 42827
+S
+#42829
+In a Large Field of &+yWeeds~
+&+yDust blows over this section of the field. Its not cultivated one bit. The
+&+yground is of a hard clay that even the few vines that hug the ground have
+&+ytrouble living in. Everything is dry and brown, small branches and leaves
+&+yjust lay without decomposing waiting for another gust of wind to take them
+&+yaway from this empty space. No where in this section is there a glint of
+&+ygreenery, but instead all all &+Lgray &+yand old.
+~
+426 4 2
+D0
+~
+~
+0 0 42823
+D1
+~
+~
+0 0 42830
+D2
+~
+~
+0 0 42835
+D3
+~
+~
+0 0 42828
+S
+#42830
+&+LIn a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42824
+D1
+~
+~
+0 0 42831
+D2
+~
+~
+0 0 42836
+D3
+~
+~
+0 0 42829
+S
+#42831
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42825
+D2
+~
+~
+0 0 42837
+D3
+~
+~
+0 0 42830
+S
+#42832
+&+LDeep in a Large Field of &+yWeeds~
+&+LBits and pieces of crushed &+gleaves &+Land small mounds of &+ydirt &+Lcover this part
+&+Lof the field. Yet dark and damp, there appears to be moving things, but
+&+Lthose could be just shadows from the dark tree. The mounds are made of
+&+Lpacked rocks and &+ydirt&+L, neatly arranged in a cone like shape. They range in
+&+Lsize from knee high on a &+Chuman&+L to full height of a &+bbarbarian&+L. On top of all
+&+Lof them, there is a little compressed section that make it look somewhat
+&+Llike that of a &+rvolcano&+L. In the compression, there is nice clear &+Bwater &+Lthat
+&+Lappears to have gathered from the rains. On one of the bigger mounds, there
+&+Lare several indents in the sides but as no clues as to what they are for.
+~
+426 1 2
+D0
+~
+~
+0 0 42826
+D1
+~
+~
+0 0 42833
+D2
+~
+~
+0 0 42838
+S
+#42833
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42827
+D1
+~
+~
+0 0 42834
+D2
+~
+~
+0 0 42839
+D3
+~
+~
+0 0 42832
+S
+#42834
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42828
+D1
+~
+~
+0 0 42835
+D2
+~
+~
+0 0 42840
+D3
+~
+~
+0 0 42833
+S
+#42835
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42829
+D1
+~
+~
+0 0 42836
+D2
+~
+~
+0 0 42841
+D3
+~
+~
+0 0 42834
+S
+#42836
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42830
+D1
+~
+~
+0 0 42837
+D2
+~
+~
+0 0 42842
+D3
+~
+~
+0 0 42835
+S
+#42837
+&+LDeep in a Large Field of &+yWeeds~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 2
+D0
+~
+~
+0 0 42831
+D2
+~
+~
+0 0 42843
+D3
+~
+~
+0 0 42836
+S
+#42838
+&+yIn a Large Field of Weeds~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 1 2
+D0
+~
+~
+0 0 42832
+D1
+~
+~
+0 0 42839
+D2
+~
+~
+0 0 42844
+S
+#42839
+&+yIn a Large Field of Weeds~
+&+yDust blows over this section of the field. Its not cultivated one bit. The
+&+yground is of a hard clay that even the few vines that hug the ground have
+&+ytrouble living in. Everything is dry and brown, small branches and leaves
+&+yjust lay without decomposing waiting for another gust of wind to take them
+&+yaway from this empty space. No where in this section is there a glint of
+&+ygreenery, but instead all all &+Lgray &+yand old.
+~
+426 1 2
+D0
+~
+~
+0 0 42833
+D1
+~
+~
+0 0 42840
+D2
+~
+~
+0 0 42845
+D3
+~
+~
+0 0 42838
+S
+#42840
+&+yIn a Large Field of Weeds~
+&+yGrowing peacefully and lush, the un-pastured ground throws a lovely sent of
+&+ycareful &+Yfarming &+yin this area. Void of weeds and trampled patches, there is
+&+ya sense of &+ccalmness &+ythat surrounds this area. A small round bush, neatly
+&+ytrimmed, of a dull brown color grows and sways as the &+cbreeze &+yblows through
+&+yit. Some small &+Lrocks &+ylay here in a pile, smoothed by the rain and covered
+&+yin a &+Glight &+ggreen &+gmoss&+y.
+~
+426 1 2
+D0
+~
+~
+0 0 42834
+D1
+~
+~
+0 0 42841
+D2
+~
+~
+0 0 42846
+D3
+~
+~
+0 0 42839
+S
+#42841
+&+yIn a Large Field of Weeds~
+&+yThis corner of the field seems to be heavily grazed and walked upon. Lots
+&+yof overturned earth and many animal prints on the ground. High and dense
+&+gfoliage &+yprevent you from going any further north or east, however to the south
+&+yand west, the field continues. The smell of &+Lfertilizer &+yhangs in the air and
+&+yfills your nostrils giving you an uneasy feeling in your stomach.
+~
+426 1 2
+D0
+~
+~
+0 0 42835
+D1
+~
+~
+0 0 42842
+D2
+~
+~
+0 0 42847
+D3
+~
+~
+0 0 42840
+S
+#42842
+&+yIn a Large Field of Weeds~
+&+yThis heavy grazed pasture is chuck full of globs of dirt, partial eaten
+&+ggrass&+y and mashed &+gleaves &+yfrom the nearby trees. Many mounds and &+Lholes &+yawait
+&+yfor someone to trip them up. One particular mound has the shape of a small
+&+yporcupine with what appears to be thorns growing out the top. Upon closer
+&+yexaminiation you realize that it is nothing more then a small, decomposing,
+&+ythorn bush. The thorns are already brittle but still are sharp enough to
+&+ydraw &+rblood&+y from any unsuspecting soul who messes with it.
+~
+426 1 2
+D0
+~
+~
+0 0 42836
+D1
+~
+~
+0 0 42843
+D2
+~
+~
+0 0 42848
+D3
+~
+~
+0 0 42841
+S
+#42843
+&+yIn a Large Field of Weeds~
+&+yA light &+cbreeze &+ypours in from the north as the &+Mflowers &+yand &+Ybrush &+ysway. This
+&+ylarge field extends widely to the east and west and quite a ways to the south.
+&+yYou can see that his particular area has been trampled on by something
+&+yrather large. There appears to be starving &+ggrass &+yand other &+gvegetation &+ydue to
+&+ythe lack of &+Bwater &+yin this part of the field. It appears almost as if whomever
+&+yattended the field never quite made it this far. Several small trees stand here
+&+ybroken and limp with dead &+gleaves &+ysurrounding them.
+~
+426 1 2
+D0
+~
+~
+0 0 42837
+D2
+~
+~
+0 0 42849
+D3
+~
+~
+0 0 42842
+S
+#42844
+&+yNearing the Edge of the Field~
+&+yA light &+cbreeze &+ypours in from the north as the &+Mflowers &+yand &+Ybrush &+ysway. This
+&+ylarge field extends widely to the east and west and quite a ways to the south.
+&+yYou can see that his particular area has been trampled on by something
+&+yrather large. There appears to be starving &+ggrass &+yand other &+gvegetation &+ydue to
+&+ythe lack of &+Bwater &+yin this part of the field. It appears almost as if whomever
+&+yattended the field never quite made it this far. Several small trees stand here
+&+ybroken and limp with dead &+gleaves &+ysurrounding them.
+~
+426 1 2
+D0
+~
+~
+0 0 42838
+D1
+~
+~
+0 0 42845
+D2
+~
+~
+0 0 42850
+S
+#42845
+&+yNearing the Edge of the Field~
+&+yThe &+gvegetation &+yhere seems rather trampled on and eaten away. Small &+gherbs
+&+yupturned from the ground and &+Lshriveled &+yup are scattered about. The area
+&+yseems to have been heavy grazed upon for there are large patches of
+&+ymissing greenery and small patches of untouched vegetation. There are small
+&+Linsects &+ybuzzing around a towering pile of &+Lmanure&+y.
+~
+426 1 2
+D0
+~
+~
+0 0 42839
+D1
+~
+~
+0 0 42846
+D2
+~
+~
+0 0 42851
+D3
+~
+~
+0 0 42844
+S
+#42846
+&+yNearing the Edge of the Field~
+&+yThis corner of the field seems to be heavily grazed and walked upon. Lots
+&+yof overturned earth and many animal prints on the ground. High and dense
+&+gfoliage &+yprevent you from going any further north or east, however to the south
+&+yand west, the field continues. The smell of &+Lfertilizer &+yhangs in the air and
+&+yfills your nostrils giving you an uneasy feeling in your stomach.
+~
+426 1 2
+D0
+~
+~
+0 0 42840
+D1
+~
+~
+0 0 42847
+D2
+~
+~
+0 0 42852
+D3
+~
+~
+0 0 42845
+S
+#42847
+&+yNearing the Edge of the Field~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 1 2
+D0
+~
+~
+0 0 42841
+D1
+~
+~
+0 0 42848
+D2
+~
+~
+0 0 42853
+D3
+~
+~
+0 0 42846
+S
+#42848
+&+yNearing the Edge of the Field~
+&+yAlong the ground is some oddly shaped groves that look as if it's been dug
+&+yinto. The soil is quite loose and chunkds of dirt are scattered
+&+yeverywhere. &+gTrees &+yare overhung and &+gheavy &+ywith age, with branches that touch
+&+ythe ground feeding off the &+Gnutrients &+yof decomposing &+gleaves&+y. Some &+gcactai
+&+yremains are scattered about although not native to this part of the
+&+ycontinent. &+WSharp &+ythorns, piercing to the touch, jut out in various
+&+ydirections. &+gJuice &+yis still dripping out from a hole in its side.
+~
+426 1 2
+D0
+~
+~
+0 0 42842
+D1
+~
+~
+0 0 42849
+D2
+~
+~
+0 0 42854
+D3
+~
+~
+0 0 42847
+S
+#42849
+&+yNearing the Edge of the Field~
+&+yGrowing peacefully and lush, the un-pastured ground throws a lovely sent of
+&+ycareful &+Yfarming &+yin this area. Void of weeds and trampled patches, there is
+&+ya sense of &+ccalmness &+ythat surrounds this area. A small round bush, neatly
+&+ytrimmed, of a dull brown color grows and sways as the &+cbreeze &+yblows through
+&+yit. Some small &+Lrocks &+ylay here in a pile, smoothed by the rain and covered
+&+yin a &+Glight &+ggreen &+gmoss&+y.
+~
+426 1 2
+D0
+~
+~
+0 0 42843
+D2
+~
+~
+0 0 42855
+D3
+~
+~
+0 0 42848
+S
+#42850
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42844
+D1
+~
+~
+0 0 42851
+D2
+~
+~
+0 0 42689
+S
+#42851
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42845
+D1
+~
+~
+0 0 42852
+D2
+~
+~
+0 0 42688
+D3
+~
+~
+0 0 42850
+S
+#42852
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42846
+D1
+~
+~
+0 0 42853
+D2
+~
+~
+0 0 42687
+D3
+~
+~
+0 0 42851
+S
+#42853
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42847
+D1
+~
+~
+0 0 42854
+D2
+~
+~
+0 0 42686
+D3
+~
+~
+0 0 42852
+S
+#42854
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42848
+D1
+~
+~
+0 0 42855
+D2
+~
+~
+0 0 42685
+D3
+~
+~
+0 0 42853
+S
+#42855
+&+yA Clearing in the Field~
+~
+426 4 2
+D0
+~
+~
+0 0 42849
+D2
+~
+~
+0 0 42684
+D3
+~
+~
+0 0 42854
+S
+#42856
+&+yUgala's Sanctuary~
+~
+426 135168 4
+D3
+~
+~
+0 0 42762
+S
+#42857
+&+WAn &+YOrc &+CFreezer~
+~
+426 4104 25
+D1
+~
+freezer~
+1 0 42707
+S
+#42858
+&+WAn &+rOrc &+CFreezer~
+~
+426 4104 25
+D3
+~
+freezer~
+1 0 42707
+D5
+~
+panel~
+6 42697 42863
+S
+#42859
+&+LInside a Storm Cellar~
+~
+426 4105 0
+D0
+~
+~
+0 0 42862
+D1
+~
+~
+0 0 42860
+D4
+~
+cellar storm~
+6 0 42695
+S
+#42860
+&+LInside a Storm Cellar~
+~
+426 4105 0
+D0
+~
+~
+0 0 42861
+D3
+~
+~
+0 0 42859
+S
+#42861
+&+LInside a Storm Cellar~
+~
+426 4105 0
+D2
+~
+~
+0 0 42860
+D3
+~
+~
+0 0 42862
+D5
+~
+shelves~
+7 42697 42865
+S
+#42862
+&+LInside a Storm Cellar~
+~
+426 4105 0
+D1
+~
+~
+0 0 42861
+D2
+~
+~
+0 0 42859
+S
+#42863
+&+LInside a Secret Passage~
+~
+426 12557 3
+D0
+~
+dirt~
+5 0 42864
+D4
+~
+panel~
+6 42697 42858
+S
+#42864
+&+LInside a Secret Passage~
+~
+426 12553 3
+D2
+~
+dirt~
+5 0 42863
+D3
+~
+dirt~
+5 0 42865
+S
+#42865
+&+LInside a Secret Passage~
+~
+426 12553 3
+D1
+~
+dirt~
+5 0 42864
+D4
+~
+dirt~
+7 42697 42861
+S
+#42866
+&+gA Corner of the &+WAtrium~
+~
+426 1216385096 3
+D2
+~
+~
+0 0 42867
+D3
+~
+~
+0 0 42706
+D5
+~
+bushes~
+4 0 42675
+S
+#42867
+&+gA Corner of the &+WAtrium~
+~
+426 1216385096 3
+D2
+~
+~
+0 0 42706
+D3
+~
+~
+0 0 42868
+D5
+~
+bushes~
+4 0 42675
+S
+#42868
+&+gA Corner of the &+WAtrium~
+~
+426 1216385096 3
+D2
+~
+~
+0 0 42706
+D3
+~
+~
+0 0 42706
+D5
+~
+bushes~
+4 0 42869
+S
+#42869
+&+gA Corner of the &+WAtrium~
+~
+426 1216385096 3
+D2
+~
+~
+0 0 42706
+D3
+~
+~
+0 0 42706
+D5
+~
+bushes~
+4 0 42675
+S
+#42870
+&+LA dark dirt path through the forest~
+&+LThere are small puddles of &+ymurky &+cwater &+Lscattered about, almost as if this
+&+Lwere the center of the fields, or at least one of the lowest points.
+&+gAlgae &+Land other &+ymuck &+Lgrows almost like genetics gone wrong. Dripping &+cwater&+L,
+&+Lfrom the tree a few feet away, simply collects on the &+yhard clay &+Lground.
+&+LMoisture and darkness has turned this field into a painters landscape of
+&+Lgrays and &+rdarkened shapes &+Lthat can only be seen via &+rtor&+ychl&+Yig&+Wht&+L. A smell
+&+Lof rotting timber flows in from various directions.
+~
+426 1 3
+D1
+~
+foilage~
+5 0 42820
+D3
+~
+~
+0 0 274141
+S

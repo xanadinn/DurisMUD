@@ -1,0 +1,214 @@
+#987
+&+LThe Undead &+yOutpost&n~
+98819 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 98709 1 1 100 0 0 0
+*     east exit from "Before a Rusted Iron Gate" to
+*     "Entrance to the Mountain Outpost" - closed
+*
+D 0 98710 3 1 100 0 0 0
+*     west exit from "Entrance to the Mountain Outpost" to
+*     "Before a Rusted Iron Gate" - closed
+*
+D 0 98735 5 5 100 0 0 0
+*     down exit from "Center of the Outpost" to
+*     "Below the Well" - closed/secret
+*
+D 0 98818 4 5 100 0 0 0
+*     up exit from "Below the Well" to
+*     "Center of the Outpost" - closed/secret
+*
+D 0 98778 1 1 100 0 0 0
+*     east exit from "Eastern Guard Post" to
+*     "An Overgrown Trail" - closed
+*
+D 0 98781 3 1 100 0 0 0
+*     west exit from "An Overgrown Trail" to
+*     "Eastern Guard Post" - closed
+*
+D 0 98800 5 5 100 0 0 0
+*     down exit from "A Dead End in the Forest" to
+*     "A Filthy Rat's Hole" - closed/secret
+*
+D 0 98817 4 1 100 0 0 0
+*     up exit from "A Filthy Rat's Hole" to
+*     "A Dead End in the Forest" - closed
+*
+D 0 98808 5 5 100 0 0 0
+*     down exit from "A Dead End in the Forest" to
+*     "A Tunnel Beneath the Forest Floor" - closed/secret
+*
+D 0 98815 4 1 100 0 0 0
+*     up exit from "A Tunnel Beneath the Forest Floor" to
+*     "A Dead End in the Forest" - closed
+*
+*
+O 0 98709 1 98733 100 0 0 0        * a tattered note
+O 0 98706 1 98735 100 0 0 0        * a deep well
+O 0 98704 1 98750 100 0 0 0        * a dusty chest
+P 1 98707 1 98704 100 0 0 0        *   a pile of coins
+O 0 98703 1 98816 100 0 0 0        * a pile of crap
+*
+M 0 98711 1 98709 100 0 0 0        * a vampiric lookout
+M 0 98707 19 98710 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98710 100 0 0 0       * a limping skeleton
+M 0 98717 13 98710 100 0 0 0       * an angered swarm
+M 0 98708 14 98712 100 0 0 0       * a shaggy werewolf
+M 0 98707 19 98712 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98713 100 0 0 0       * a limping skeleton
+M 0 98709 19 98713 100 0 0 0       * a mindless ghast
+M 0 98700 35 98713 100 0 0 0       * a limping skeleton
+M 0 98717 13 98713 100 0 0 0       * an angered swarm
+M 0 98707 19 98714 100 0 0 0       * a hideous ghoul
+M 0 98709 19 98714 100 0 0 0       * a mindless ghast
+M 0 98708 14 98715 100 0 0 0       * a shaggy werewolf
+M 0 98700 35 98716 100 0 0 0       * a limping skeleton
+M 0 98709 19 98716 100 0 0 0       * a mindless ghast
+M 0 98707 19 98717 100 0 0 0       * a hideous ghoul
+M 0 98708 14 98717 100 0 0 0       * a shaggy werewolf
+M 0 98707 19 98719 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98719 100 0 0 0       * a limping skeleton
+M 0 98709 19 98719 100 0 0 0       * a mindless ghast
+M 0 98717 13 98719 100 0 0 0       * an angered swarm
+M 0 98700 35 98720 100 0 0 0       * a limping skeleton
+M 0 98708 14 98720 100 0 0 0       * a shaggy werewolf
+M 0 98700 35 98720 100 0 0 0       * a limping skeleton
+M 0 98709 19 98721 100 0 0 0       * a mindless ghast
+M 0 98700 35 98722 100 0 0 0       * a limping skeleton
+M 0 98700 35 98722 100 0 0 0       * a limping skeleton
+M 0 98717 13 98722 100 0 0 0       * an angered swarm
+M 0 98709 19 98725 100 0 0 0       * a mindless ghast
+M 0 98709 19 98726 100 0 0 0       * a mindless ghast
+M 0 98700 35 98726 100 0 0 0       * a limping skeleton
+M 0 98700 35 98727 100 0 0 0       * a limping skeleton
+M 0 98700 35 98727 100 0 0 0       * a limping skeleton
+M 0 98707 19 98729 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98731 100 0 0 0       * a limping skeleton
+M 0 98710 1 98732 100 0 0 0        * an undead cook
+E 1 98702 1 16 100 0 0 0           *   a mouldy cleaver
+M 0 98708 14 98733 100 0 0 0       * a shaggy werewolf
+M 0 98717 13 98733 100 0 0 0       * an angered swarm
+M 0 98707 19 98735 100 0 0 0       * a hideous ghoul
+M 0 98709 19 98735 100 0 0 0       * a mindless ghast
+M 0 98700 35 98736 100 0 0 0       * a limping skeleton
+M 0 98707 19 98736 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98737 100 0 0 0       * a limping skeleton
+M 0 98707 19 98737 100 0 0 0       * a hideous ghoul
+M 0 98717 13 98737 100 0 0 0       * an angered swarm
+M 0 98708 14 98739 100 0 0 0       * a shaggy werewolf
+M 0 98709 19 98739 100 0 0 0       * a mindless ghast
+M 0 98709 19 98740 100 0 0 0       * a mindless ghast
+M 0 98707 19 98740 100 0 0 0       * a hideous ghoul
+M 0 98715 1 98740 100 0 0 0        * the shade of the weaponsmaster
+M 0 98700 35 98741 100 0 0 0       * a limping skeleton
+M 0 98717 13 98741 100 0 0 0       * an angered swarm
+M 0 98700 35 98743 100 0 0 0       * a limping skeleton
+M 0 98708 14 98743 100 0 0 0       * a shaggy werewolf
+M 0 98716 1 98743 100 0 0 0        * the former armorer
+G 1 98710 1 0 100 0 0 0            *    a small shard of bone
+M 0 98709 19 98744 100 0 0 0       * a mindless ghast
+M 0 98707 19 98745 100 0 0 0       * a hideous ghoul
+M 0 98707 19 98745 100 0 0 0       * a hideous ghoul
+M 0 98717 13 98745 100 0 0 0       * an angered swarm
+M 0 98700 35 98746 100 0 0 0       * a limping skeleton
+M 0 98709 19 98747 100 0 0 0       * a mindless ghast
+M 0 98709 19 98748 100 0 0 0       * a mindless ghast
+M 0 98707 19 98749 100 0 0 0       * a hideous ghoul
+M 0 98717 13 98749 100 0 0 0       * an angered swarm
+M 0 98700 35 98750 100 0 0 0       * a limping skeleton
+M 0 98709 19 98750 100 0 0 0       * a mindless ghast
+M 0 98712 1 98750 100 0 0 0        * the zombie of a merchant
+G 1 98705 1 0 100 0 0 0            *    a rusted key
+M 0 98700 35 98751 100 0 0 0       * a limping skeleton
+M 0 98709 19 98751 100 0 0 0       * a mindless ghast
+M 0 98709 19 98752 100 0 0 0       * a mindless ghast
+M 0 98700 35 98752 100 0 0 0       * a limping skeleton
+M 0 98700 35 98754 100 0 0 0       * a limping skeleton
+M 0 98700 35 98755 100 0 0 0       * a limping skeleton
+M 0 98707 19 98755 100 0 0 0       * a hideous ghoul
+M 0 98708 14 98756 100 0 0 0       * a shaggy werewolf
+M 0 98707 19 98757 100 0 0 0       * a hideous ghoul
+M 0 98709 19 98757 100 0 0 0       * a mindless ghast
+M 0 98700 35 98758 100 0 0 0       * a limping skeleton
+M 0 98700 35 98759 100 0 0 0       * a limping skeleton
+M 0 98708 14 98759 100 0 0 0       * a shaggy werewolf
+M 0 98707 19 98760 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98761 100 0 0 0       * a limping skeleton
+M 0 98707 19 98762 100 0 0 0       * a hideous ghoul
+M 0 98708 14 98762 100 0 0 0       * a shaggy werewolf
+M 0 98717 13 98762 100 0 0 0       * an angered swarm
+M 0 98700 35 98763 100 0 0 0       * a limping skeleton
+M 0 98700 35 98765 100 0 0 0       * a limping skeleton
+M 0 98707 19 98765 100 0 0 0       * a hideous ghoul
+M 0 98700 35 98765 100 0 0 0       * a limping skeleton
+M 0 98700 35 98767 100 0 0 0       * a limping skeleton
+M 0 98708 14 98767 100 0 0 0       * a shaggy werewolf
+M 0 98700 35 98767 100 0 0 0       * a limping skeleton
+M 0 98700 35 98768 100 0 0 0       * a limping skeleton
+M 0 98717 13 98768 100 0 0 0       * an angered swarm
+M 0 98708 14 98770 100 0 0 0       * a shaggy werewolf
+M 0 98700 35 98771 100 0 0 0       * a limping skeleton
+M 0 98708 14 98771 100 0 0 0       * a shaggy werewolf
+M 0 98717 13 98772 100 0 0 0       * an angered swarm
+M 0 98707 19 98774 100 0 0 0       * a hideous ghoul
+M 0 98708 14 98774 100 0 0 0       * a shaggy werewolf
+M 0 98709 19 98774 100 0 0 0       * a mindless ghast
+M 0 98709 19 98776 100 0 0 0       * a mindless ghast
+M 0 98700 35 98777 100 0 0 0       * a limping skeleton
+M 0 98717 13 98777 100 0 0 0       * an angered swarm
+M 0 98700 35 98778 100 0 0 0       * a limping skeleton
+M 0 98701 6 98779 100 0 0 0        * a dark ghoul
+M 0 98701 6 98779 100 0 0 0        * a dark ghoul
+M 0 98701 6 98779 100 0 0 0        * a dark ghoul
+M 0 98701 6 98780 100 0 0 0        * a dark ghoul
+M 0 98701 6 98780 100 0 0 0        * a dark ghoul
+M 0 98701 6 98780 100 0 0 0        * a dark ghoul
+M 0 98702 13 98783 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98784 100 0 0 0       * a skeletal squirrel
+M 0 98705 4 98784 100 0 0 0        * a formless ghoul
+M 0 98703 8 98785 100 0 0 0        * the ghoul of a wolf
+M 0 98702 13 98786 100 0 0 0       * a skeletal squirrel
+M 0 98714 7 98787 100 0 0 0        * a jet-black raven
+M 0 98703 8 98788 100 0 0 0        * the ghoul of a wolf
+M 0 98714 7 98790 100 0 0 0        * a jet-black raven
+M 0 98702 13 98791 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98792 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98792 100 0 0 0       * a skeletal squirrel
+M 0 98703 8 98793 100 0 0 0        * the ghoul of a wolf
+M 0 98705 4 98793 100 0 0 0        * a formless ghoul
+M 0 98714 7 98794 100 0 0 0        * a jet-black raven
+M 0 98714 7 98795 100 0 0 0        * a jet-black raven
+M 0 98703 8 98796 100 0 0 0        * the ghoul of a wolf
+M 0 98702 13 98798 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98798 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98798 100 0 0 0       * a skeletal squirrel
+M 0 98705 4 98800 100 0 0 0        * a formless ghoul
+M 0 98703 8 98802 100 0 0 0        * the ghoul of a wolf
+M 0 98703 8 98804 100 0 0 0        * the ghoul of a wolf
+M 0 98714 7 98805 100 0 0 0        * a jet-black raven
+M 0 98703 8 98806 100 0 0 0        * the ghoul of a wolf
+M 0 98702 13 98807 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98809 100 0 0 0       * a skeletal squirrel
+M 0 98702 13 98809 100 0 0 0       * a skeletal squirrel
+M 0 98714 7 98810 100 0 0 0        * a jet-black raven
+M 0 98703 8 98812 100 0 0 0        * the ghoul of a wolf
+M 0 98702 13 98813 100 0 0 0       * a skeletal squirrel
+M 0 98714 7 98813 100 0 0 0        * a jet-black raven
+M 0 98705 4 98814 100 0 0 0        * a formless ghoul
+M 0 98704 1 98816 100 0 0 0        * a duergar assassin
+E 1 98700 2 16 100 0 0 0           *   a bloodstained dagger
+E 1 98700 2 17 100 0 0 0           *   a bloodstained dagger
+G 1 98701 1 0 100 0 0 0            *    Frenbar's left index finger
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98706 6 98817 100 0 0 0        * a vicious rat
+M 0 98713 1 98819 100 0 0 0        * A giant stone golem
+E 1 98708 1 2 100 0 0 0            *   a charred ring
+*
+S

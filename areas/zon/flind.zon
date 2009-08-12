@@ -1,0 +1,190 @@
+#34
+&+gThe Minor Plane of Planitude&n~
+3488 2 0 35 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 3405 2 1 100 0 0 0
+*     south exit from "Nursery" to
+*     "Stone Hallway" - closed
+*
+D 0 3464 0 1 100 0 0 0
+*     north exit from "Stone Hallway" to
+*     "Nursery" - closed
+*
+D 0 3407 2 1 100 0 0 0
+*     south exit from "Metal Chamber" to
+*     "Stone Hallway" - closed
+*
+D 0 3463 0 1 100 0 0 0
+*     north exit from "Stone Hallway" to
+*     "Metal Chamber" - closed
+*
+D 0 3419 0 1 100 0 0 0
+*     north exit from "Chamber of the Archer" to
+*     "Stone Hallway" - closed
+*
+D 0 3463 2 1 100 0 0 0
+*     south exit from "Stone Hallway" to
+*     "Chamber of the Archer" - closed
+*
+D 0 3437 1 5 100 0 0 0
+*     east exit from "Vertical Tunnel" to
+*     "Cavern Opening" - closed/secret
+*
+D 0 3438 3 5 100 0 0 0
+*     west exit from "Cavern Opening" to
+*     "Vertical Tunnel" - closed/secret
+*
+D 0 3441 0 1 100 0 0 0
+*     north exit from "Skin Covered Chamber" to
+*     "A Golden Passageway" - closed
+*
+D 0 3487 2 2 100 0 0 0
+*     south exit from "A Golden Passageway" to
+*     "Skin Covered Chamber" - closed/locked
+*
+D 0 3461 1 1 100 0 0 0
+*     east exit from "Guard Post" to
+*     "Stone Hallway" - closed
+*
+D 0 3465 3 1 100 0 0 0
+*     west exit from "Stone Hallway" to
+*     "Guard Post" - closed
+*
+D 0 3461 3 1 100 0 0 0
+*     west exit from "Guard Post" to
+*     "Stone Hallway" - closed
+*
+D 0 3463 1 1 100 0 0 0
+*     east exit from "Stone Hallway" to
+*     "Guard Post" - closed
+*
+D 0 3476 5 5 100 0 0 0
+*     down exit from "Skinning Room" to
+*     "Hatchery" - closed/secret
+*
+D 0 3480 4 1 100 0 0 0
+*     up exit from "Hatchery" to
+*     "Skinning Room" - closed
+*
+D 0 3483 5 5 100 0 0 0
+*     down exit from "Demon's Walk" to
+*     "Hatchery" - closed/secret
+*
+D 0 3484 4 1 100 0 0 0
+*     up exit from "Hatchery" to
+*     "Demon's Walk" - closed
+*
+*
+O 0 3403 1 3406 100 0 0 0          * a butcher case
+P 1 3400 999 3403 100 0 0 0        *   an ogre finger
+P 1 3401 999 3403 100 0 0 0        *   a pair of human feet
+P 1 3402 999 3403 100 0 0 0        *   a set of troll balls
+P 1 3405 999 3403 100 0 0 0        *   a pair of eyes
+P 1 3432 2 3403 100 0 0 0          *   a half-rat in a block of cheese
+O 0 3430 1 3408 100 0 0 0          * a glowing portal
+O 0 3431 1 3409 100 0 0 0          * a glowing portal
+O 0 3407 1 3417 100 0 0 0          * a portion of a corpse
+O 0 3408 1 3417 100 0 0 0          * a portion of a corpse
+O 0 3409 1 3424 100 0 0 0          * a metal box
+O 0 3427 1 3429 100 0 0 0          * a vat of innards and urine
+P 1 3437 1 3427 100 0 0 0          *   a chunk of Flind flesh
+O 0 3424 1 3431 100 0 0 0          * a demonic symbol
+O 0 3404 1 3435 100 0 0 0          * an inverted cross
+O 0 3423 1 3441 100 0 0 0          * a demonic symbol
+O 0 3417 1 3448 100 0 0 0          * a dismembered arm
+O 0 3410 1 3462 100 0 0 0          * a floating circle of fire
+O 0 3414 1 3468 100 0 0 0          * a pair of thumbscrews
+O 0 3405 999 3468 100 0 0 0        * a pair of eyes
+*
+M 0 3407 2 3400 100 0 0 0          * a gibbering mouther
+M 0 3400 2 3401 100 0 0 0          * a crucified human
+M 0 3400 2 3401 100 0 0 0          * a crucified human
+M 0 3401 2 3401 100 0 0 0          * flind cleric
+M 0 3402 1 3402 100 0 0 0          * a bound troll
+M 0 3403 1 3402 100 0 0 0          * a chained human
+M 0 3401 2 3402 100 0 0 0          * flind cleric
+M 0 3417 4 3405 100 0 0 0          * a flind cub
+M 0 3417 4 3405 100 0 0 0          * a flind cub
+M 0 3421 2 3405 100 0 0 0          * a garlyf
+M 0 3406 1 3406 100 0 0 0          * a smelly butcher
+E 1 3435 1 16 100 0 0 0            *   a notched dagger
+G 1 3400 999 0 100 0 0 0           *    an ogre finger
+G 1 3401 999 0 100 0 0 0           *    a pair of human feet
+G 1 3402 999 0 100 0 0 0           *    a set of troll balls
+G 1 3405 999 0 100 0 0 0           *    a pair of eyes
+G 1 3432 2 0 100 0 0 0             *    a half-rat in a block of cheese
+M 0 3405 1 3407 100 0 0 0          * a restrained dwarf
+M 0 3425 2 3407 100 0 0 0          * a flind magi
+E 1 3418 1 5 100 0 0 0             *   a shroom robe
+M 0 3407 2 3410 100 0 0 0          * a gibbering mouther
+M 0 3408 1 3412 100 0 0 0          * a savage Qullan
+E 1 3411 1 16 100 0 0 0            *   a blood-flecked broadsword
+G 1 3413 1 0 100 0 0 0             *    a few bottles of ale
+M 0 3409 7 3414 100 0 0 0          * a rat
+M 0 3409 7 3414 100 0 0 0          * a rat
+M 0 3421 2 3421 100 0 0 0          * a garlyf
+M 0 3432 1 3421 100 0 0 0          * a flind tutor
+E 1 3412 1 16 100 0 0 0            *   the Tutor's club
+G 1 3406 1 0 100 0 0 0             *    a leather bag dripping with blood
+M 0 3426 2 3424 100 0 0 0          * a skinned dog
+M 0 3418 1 3429 100 0 0 0          * a dirty cook
+E 1 3425 1 16 100 0 0 0            *   a small metal hammer
+M 0 3411 1 3430 100 0 0 0          * an obese flind
+M 0 3416 1 3430 100 0 0 0          * a skewered halfling
+M 0 3413 1 3430 100 0 0 0          * a flind cleric
+E 1 3422 1 16 100 0 0 0            *   a bone mace
+M 0 3414 3 3433 100 0 0 0          * a corpse cleaner
+M 0 3414 3 3433 100 0 0 0          * a corpse cleaner
+M 0 3424 3 3436 100 0 0 0          * a flind guard
+E 1 3429 1 16 100 0 0 0            *   a twisted whip
+M 0 3424 3 3436 100 0 0 0          * a flind guard
+G 1 3426 1 0 100 0 0 0             *    a hardened troll head
+M 0 3409 7 3442 100 0 0 0          * a rat
+M 0 3409 7 3442 100 0 0 0          * a rat
+M 0 3409 7 3442 100 0 0 0          * a rat
+M 0 3409 7 3442 100 0 0 0          * a rat
+M 0 3409 7 3442 100 0 0 0          * a rat
+M 0 3415 4 3443 100 0 0 0          * a cavern glider
+M 0 3415 4 3446 100 0 0 0          * a cavern glider
+M 0 3415 4 3447 100 0 0 0          * a cavern glider
+M 0 3415 4 3447 100 0 0 0          * a cavern glider
+M 0 3414 3 3448 100 0 0 0          * a corpse cleaner
+M 0 3420 1 3455 100 0 0 0          * a minor demon
+E 1 3420 1 20 100 0 0 0            *   the mask of demons
+M 0 3424 3 3461 100 0 0 0          * a flind guard
+E 1 3421 1 11 100 0 0 0            *   a shield embedded with teeth
+F 1 3425 2 3461 100 0 0 0          * a flind magi (following)
+F 1 3429 2 3461 100 0 0 0          * a decaying mage (following)
+M 0 3419 3 3462 100 0 0 0          * some living innards
+M 0 3427 1 3469 100 0 0 0          * the Serrated Demon
+E 1 3434 1 6 100 0 0 0             *   a horned demon skull
+E 1 3438 1 10 100 0 0 0            *   a pair of horned demon armguards
+E 1 3416 1 18 100 0 0 0            *   a pickled fetus
+F 1 3422 1 3469 100 0 0 0          * a goat (following)
+E 1 3440 1 3 100 0 0 0             *   a goat bell
+F 1 3423 2 3469 100 0 0 0          * a vigilante (following)
+E 1 3439 2 2 100 0 0 0             *   a ring of flames
+F 1 3423 2 3469 100 0 0 0          * a vigilante (following)
+E 1 3439 2 2 100 0 0 0             *   a ring of flames
+M 0 3417 4 3470 100 0 0 0          * a flind cub
+M 0 3417 4 3470 100 0 0 0          * a flind cub
+M 0 3412 1 3470 100 0 0 0          * a flind trainer
+E 1 3428 1 9 100 0 0 0             *   a pair of lead-filled gloves
+M 0 3426 2 3473 100 0 0 0          * a skinned dog
+M 0 3430 2 3476 100 0 0 0          * a minion
+E 1 3415 1 20 100 0 0 0            *   a mask of pulsating veins
+M 0 3419 3 3477 100 0 0 0          * some living innards
+M 0 3419 3 3482 100 0 0 0          * some living innards
+M 0 3430 2 3483 100 0 0 0          * a minion
+E 1 3433 1 21 100 0 0 0            *   a maggot-covered fetus head
+F 1 3433 1 3483 100 0 0 0          * a lesser minion (following)
+M 0 3429 2 3485 100 0 0 0          * a decaying mage
+E 1 3419 1 18 100 0 0 0            *   a screaming vial
+M 0 3428 1 3487 100 0 0 0          * a sentinel
+G 1 3436 1 0 100 0 0 0             *    a cross shaped key
+F 1 3431 1 3487 100 0 0 0          * a sentinel (following)
+*
+S

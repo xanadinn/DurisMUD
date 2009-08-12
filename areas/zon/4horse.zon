@@ -1,0 +1,569 @@
+#345
+&+LApocalypse &+mCastle&n~
+34811 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 34502 0 2 100 0 0 0
+*     north exit from "Before a Large Iron Gate" to
+*     "A Small Chamber with a Portal" - closed/locked
+*
+D 0 34503 2 2 100 0 0 0
+*     south exit from "A Small Chamber with a Portal" to
+*     "Before a Large Iron Gate" - closed/locked
+*
+D 0 34503 0 2 100 0 0 0
+*     north exit from "A Small Chamber with a Portal" to
+*     "The Vault of the Keepers" - closed/locked
+*
+D 0 34804 2 2 100 0 0 0
+*     south exit from "The Vault of the Keepers" to
+*     "A Small Chamber with a Portal" - closed/locked
+*
+D 0 34568 0 0 100 0 0 0
+*     north exit from "A Blocked Section of Maplethorpe Road" to
+*     "A Blocked Section of the Road" - open
+*
+D 0 34644 2 0 100 0 0 0
+*     south exit from "A Blocked Section of the Road" to
+*     "A Blocked Section of Maplethorpe Road" - open
+*
+D 0 34616 1 1 100 0 0 0
+*     east exit from "The End of the Hallway" to
+*     "A Large Bedroom" - closed
+*
+D 0 34617 3 1 100 0 0 0
+*     west exit from "A Large Bedroom" to
+*     "The End of the Hallway" - closed
+*
+D 0 34616 3 1 100 0 0 0
+*     west exit from "The End of the Hallway" to
+*     "A Large Bedroom" - closed
+*
+D 0 34618 1 1 100 0 0 0
+*     east exit from "A Large Bedroom" to
+*     "The End of the Hallway" - closed
+*
+D 0 34649 0 2 100 0 0 0
+*     north exit from "Before an Enormous Castle" to
+*     "On a Bridge Spanning a Black Moat" - closed/locked
+*
+D 0 34650 2 2 100 0 0 0
+*     south exit from "On a Bridge Spanning a Black Moat" to
+*     "Before an Enormous Castle" - closed/locked
+*
+D 0 34650 0 2 100 0 0 0
+*     north exit from "On a Bridge Spanning a Black Moat" to
+*     "A Vaulted Greeting Room in the Castle" - closed/locked
+*
+D 0 34651 2 2 100 0 0 0
+*     south exit from "A Vaulted Greeting Room in the Castle" to
+*     "On a Bridge Spanning a Black Moat" - closed/locked
+*
+D 0 34651 0 1 100 0 0 0
+*     north exit from "A Vaulted Greeting Room in the Castle" to
+*     "A Large Foyer" - closed
+*
+D 0 34657 2 1 100 0 0 0
+*     south exit from "A Large Foyer" to
+*     "A Vaulted Greeting Room in the Castle" - closed
+*
+D 0 34652 2 2 100 0 0 0
+*     south exit from "The Main Hallway of the Castle" to
+*     "A Large Foyer" - closed/locked
+*
+D 0 34654 0 2 100 0 0 0
+*     north exit from "A Large Foyer" to
+*     "The Main Hallway of the Castle" - closed/locked
+*
+D 0 34675 0 5 100 0 0 0
+*     north exit from "The Main Hallway of the Castle" to
+*     "A Secret Tunnel in the Castle" - closed/secret
+*
+D 0 34806 2 1 100 0 0 0
+*     south exit from "A Secret Tunnel in the Castle" to
+*     "The Main Hallway of the Castle" - closed
+*
+D 0 34675 2 1 100 0 0 0
+*     south exit from "The Main Hallway of the Castle" to
+*     "A Path Leading Around a Garden" - closed
+*
+D 0 34700 0 1 100 0 0 0
+*     north exit from "A Path Leading Around a Garden" to
+*     "The Main Hallway of the Castle" - closed
+*
+D 0 34689 0 1 100 0 0 0
+*     north exit from "A Small Hallway in the Fortress" to
+*     "The Entryway of a Large Guest Room" - closed
+*
+D 0 34692 2 1 100 0 0 0
+*     south exit from "The Entryway of a Large Guest Room" to
+*     "A Small Hallway in the Fortress" - closed
+*
+D 0 34690 0 1 100 0 0 0
+*     north exit from "A Small Hallway in the Fortress" to
+*     "The Entryway of a Large Guest Room" - closed
+*
+D 0 34691 2 1 100 0 0 0
+*     south exit from "The Entryway of a Large Guest Room" to
+*     "A Small Hallway in the Fortress" - closed
+*
+D 0 34711 0 1 100 0 0 0
+*     north exit from "A Small Path Leading up to a Small Building" to
+*     "The Groundskeepers Office" - closed
+*
+D 0 34716 2 1 100 0 0 0
+*     south exit from "The Groundskeepers Office" to
+*     "A Small Path Leading up to a Small Building" - closed
+*
+D 0 34718 1 2 100 0 0 0
+*     east exit from "A Side Hallway in the Castle" to
+*     "The Towers Hallway" - closed/locked
+*
+D 0 34719 3 2 100 0 0 0
+*     west exit from "The Towers Hallway" to
+*     "A Side Hallway in the Castle" - closed/locked
+*
+D 0 34721 3 2 100 0 0 0
+*     west exit from "A Side Hallway in the Castle" to
+*     "The Towers Hallway" - closed/locked
+*
+D 0 34724 1 2 100 0 0 0
+*     east exit from "The Towers Hallway" to
+*     "A Side Hallway in the Castle" - closed/locked
+*
+D 0 34728 0 1 100 0 0 0
+*     north exit from "The Towers Hallway" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34736 2 1 100 0 0 0
+*     south exit from "A Large Chamber Filled with Bones" to
+*     "The Towers Hallway" - closed
+*
+D 0 34730 0 1 100 0 0 0
+*     north exit from "A Large Chamber Filled with Bones" to
+*     "The Entry to a Large Stairwell" - closed
+*
+D 0 34772 2 1 100 0 0 0
+*     south exit from "The Entry to a Large Stairwell" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34739 2 1 100 0 0 0
+*     south exit from "The Towers Hallway" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34741 0 1 100 0 0 0
+*     north exit from "A Large Chamber Filled with Bones" to
+*     "The Towers Hallway" - closed
+*
+D 0 34747 2 1 100 0 0 0
+*     south exit from "A Large Chamber Filled with Bones" to
+*     "The Entry to a Large Stairwell" - closed
+*
+D 0 34780 0 1 100 0 0 0
+*     north exit from "The Entry to a Large Stairwell" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34750 0 1 100 0 0 0
+*     north exit from "The Towers Hallway" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34769 2 1 100 0 0 0
+*     south exit from "A Large Chamber Filled with Bones" to
+*     "The Towers Hallway" - closed
+*
+D 0 34752 2 1 100 0 0 0
+*     south exit from "The Towers Hallway" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34754 0 1 100 0 0 0
+*     north exit from "A Large Chamber Filled with Bones" to
+*     "The Towers Hallway" - closed
+*
+D 0 34760 2 1 100 0 0 0
+*     south exit from "A Large Chamber Filled with Bones" to
+*     "The Entry to a Large Blood Splattered Stairwell" - closed
+*
+D 0 34796 0 1 100 0 0 0
+*     north exit from "The Entry to a Large Blood Splattered Stairwell" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+D 0 34763 0 1 100 0 0 0
+*     north exit from "A Large Chamber Filled with Bones" to
+*     "The Entry to a Large Stairwell" - closed
+*
+D 0 34788 2 1 100 0 0 0
+*     south exit from "The Entry to a Large Stairwell" to
+*     "A Large Chamber Filled with Bones" - closed
+*
+*
+O 0 34503 1 34503 100 0 0 0        * a shimmering portal
+O 0 34569 1 34548 100 0 0 0        * a blue slab
+O 0 34530 1 34557 100 0 0 0        * the rotting carcass of an adventurer
+P 1 34531 1 34530 100 0 0 0        *   a tattered scroll
+O 0 34504 1 34564 100 0 0 0        * the rocks
+P 1 34505 1 34504 100 0 0 0        *   an old diamond bracelet
+O 0 34509 1 34567 100 0 0 0        * a cracked signpost
+O 0 34570 1 34568 100 0 0 0        * rubble
+O 0 34506 1 34569 100 0 0 0        * the shelf
+P 1 34507 3 34506 100 0 0 0        *   a blue bottle
+P 1 34507 3 34506 100 0 0 0        *   a blue bottle
+P 1 34507 3 34506 100 0 0 0        *   a blue bottle
+O 0 34508 1 34573 100 0 0 0        * a leaning signpost
+O 0 34521 1 34622 100 0 0 0        * a bubbling fountain
+O 0 34543 1 34661 100 0 0 0        * the tome of an ancient prophecy
+O 0 34554 1 34804 80 0 0 0         * Daganar's cloak of stealth
+O 0 34560 1 34804 100 0 0 0        * a hovering ball of ice
+O 0 34561 1 34804 100 0 0 0        * the gloves of warding
+O 0 34564 1 34804 100 0 0 0        * a darkmail breastplate
+O 0 34565 1 34804 50 0 0 0         * a pair of darkmail gauntlets
+O 0 34568 1 34804 100 0 0 0        * an enormous ruby
+O 0 360 1 34804 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 34500 1 34502 100 0 0 0        * an enormous silver golem
+E 1 34500 1 16 100 0 0 0           *   a huge silver mace
+M 0 34501 1 34502 100 0 0 0        * an enormous silver golem
+E 1 34501 1 16 100 0 0 0           *   a huge silver staff
+G 1 34502 1 0 100 0 0 0            *    a large silver key
+M 0 34502 1 34503 100 0 0 0        * the portal keeper
+M 0 34528 14 34505 100 0 0 0       * a nightmare
+M 0 34528 14 34505 100 0 0 0       * a nightmare
+M 0 34528 14 34505 100 0 0 0       * a nightmare
+M 0 34529 3 34506 100 0 0 0        * a thought eater
+M 0 34534 11 34507 100 0 0 0       * a negative elemental
+M 0 34534 11 34507 100 0 0 0       * a negative elemental
+M 0 34534 11 34507 100 0 0 0       * a negative elemental
+M 0 34530 3 34510 100 0 0 0        * a dream sequence
+M 0 34530 3 34510 100 0 0 0        * a dream sequence
+M 0 34530 3 34510 100 0 0 0        * a dream sequence
+M 0 34533 5 34514 100 0 0 0        * a small charred devil
+M 0 34533 5 34519 100 0 0 0        * a small charred devil
+M 0 34528 14 34520 100 0 0 0       * a nightmare
+M 0 34528 14 34520 100 0 0 0       * a nightmare
+M 0 34528 14 34520 100 0 0 0       * a nightmare
+M 0 34528 14 34522 100 0 0 0       * a nightmare
+M 0 34528 14 34522 100 0 0 0       * a nightmare
+M 0 34528 14 34522 100 0 0 0       * a nightmare
+M 0 34529 3 34524 100 0 0 0        * a thought eater
+M 0 34529 3 34524 100 0 0 0        * a thought eater
+M 0 34533 5 34528 100 0 0 0        * a small charred devil
+M 0 34533 5 34533 100 0 0 0        * a small charred devil
+M 0 34533 5 34535 100 0 0 0        * a small charred devil
+M 0 34534 11 34535 100 0 0 0       * a negative elemental
+M 0 34534 11 34535 100 0 0 0       * a negative elemental
+M 0 34534 11 34535 100 0 0 0       * a negative elemental
+M 0 34532 5 34536 100 0 0 0        * an energy vortex
+M 0 34532 5 34536 100 0 0 0        * an energy vortex
+M 0 34532 5 34536 100 0 0 0        * an energy vortex
+M 0 34532 5 34537 100 0 0 0        * an energy vortex
+M 0 34531 3 34538 100 0 0 0        * a mischievous imp
+E 1 34534 5 16 100 0 0 0           *   a blackrock dagger
+M 0 34531 3 34538 100 0 0 0        * a mischievous imp
+E 1 34534 5 16 100 0 0 0           *   a blackrock dagger
+M 0 34531 3 34538 100 0 0 0        * a mischievous imp
+E 1 34534 5 16 100 0 0 0           *   a blackrock dagger
+M 0 34528 14 34542 100 0 0 0       * a nightmare
+M 0 34528 14 34542 100 0 0 0       * a nightmare
+M 0 34528 14 34542 100 0 0 0       * a nightmare
+M 0 34528 14 34551 100 0 0 0       * a nightmare
+M 0 34528 14 34551 100 0 0 0       * a nightmare
+M 0 34532 5 34551 100 0 0 0        * an energy vortex
+M 0 34534 11 34558 100 0 0 0       * a negative elemental
+M 0 34534 11 34558 100 0 0 0       * a negative elemental
+M 0 34534 11 34558 100 0 0 0       * a negative elemental
+M 0 34534 11 34560 100 0 0 0       * a negative elemental
+M 0 34534 11 34560 100 0 0 0       * a negative elemental
+M 0 34569 1 34562 100 0 0 0        * a deadly vampire
+M 0 34523 20 34563 100 0 0 0       * a small skeleton
+M 0 34527 5 34563 100 0 0 0        * a vengeful ghast
+M 0 34523 20 34565 100 0 0 0       * a small skeleton
+M 0 34525 7 34565 100 0 0 0        * the wraith of a dead villager
+M 0 34523 20 34566 100 0 0 0       * a small skeleton
+M 0 34523 20 34567 100 0 0 0       * a small skeleton
+M 0 34525 7 34567 100 0 0 0        * the wraith of a dead villager
+M 0 34527 5 34567 100 0 0 0        * a vengeful ghast
+M 0 34523 20 34567 100 0 0 0       * a small skeleton
+M 0 34522 8 34568 100 0 0 0        * a vicious hellhound
+M 0 34523 20 34568 100 0 0 0       * a small skeleton
+M 0 34525 7 34568 100 0 0 0        * the wraith of a dead villager
+M 0 34548 6 34568 100 0 0 0        * a dracolich
+M 0 34522 8 34569 100 0 0 0        * a vicious hellhound
+M 0 34523 20 34569 100 0 0 0       * a small skeleton
+M 0 34506 1 34570 100 0 0 0        * an undead armorer
+E 1 34513 1 6 100 0 0 0            *   a polished dragonscale helmet
+E 1 34512 1 16 100 0 0 0           *   a rusted battleaxe
+M 0 34521 11 34570 100 0 0 0       * a wretched zombie
+M 0 34523 20 34570 100 0 0 0       * a small skeleton
+M 0 34507 1 34571 100 0 0 0        * a skeletal weaponsmith
+E 1 34516 1 7 100 0 0 0            *   ankheg-scale leggings
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+E 1 34511 4 17 100 0 0 0           *   a rusted mace
+M 0 34523 20 34571 100 0 0 0       * a small skeleton
+M 0 34527 5 34571 100 0 0 0        * a vengeful ghast
+M 0 34524 6 34572 100 0 0 0        * a lumbering ghoul
+M 0 34526 6 34572 100 0 0 0        * a wise zombie
+M 0 34525 7 34573 100 0 0 0        * the wraith of a dead villager
+M 0 34523 20 34573 100 0 0 0       * a small skeleton
+M 0 34548 6 34573 100 0 0 0        * a dracolich
+M 0 34508 1 34574 100 0 0 0        * the spectre of a baker
+E 1 34518 1 16 100 0 0 0           *   an emerald encrusted knife
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34521 11 34574 100 0 0 0       * a wretched zombie
+M 0 34522 8 34574 100 0 0 0        * a vicious hellhound
+M 0 34523 20 34575 100 0 0 0       * a small skeleton
+M 0 34527 5 34575 100 0 0 0        * a vengeful ghast
+M 0 34523 20 34575 100 0 0 0       * a small skeleton
+M 0 34522 8 34576 100 0 0 0        * a vicious hellhound
+M 0 34522 8 34577 100 0 0 0        * a vicious hellhound
+M 0 34524 6 34577 100 0 0 0        * a lumbering ghoul
+M 0 34523 20 34578 100 0 0 0       * a small skeleton
+M 0 34523 20 34581 100 0 0 0       * a small skeleton
+M 0 34526 6 34581 100 0 0 0        * a wise zombie
+M 0 34517 1 34584 100 0 0 0        * a hideous scarecrow
+E 1 34528 1 8 100 0 0 0            *   a pair of burlap slippers
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34521 11 34585 100 0 0 0       * a wretched zombie
+M 0 34523 20 34586 100 0 0 0       * a small skeleton
+M 0 34521 11 34590 100 0 0 0       * a wretched zombie
+M 0 34521 11 34591 100 0 0 0       * a wretched zombie
+M 0 34503 1 34592 100 0 0 0        * a weeping zombie
+M 0 34525 7 34594 100 0 0 0        * the wraith of a dead villager
+M 0 34523 20 34595 100 0 0 0       * a small skeleton
+M 0 34527 5 34595 100 0 0 0        * a vengeful ghast
+M 0 34522 8 34596 100 0 0 0        * a vicious hellhound
+M 0 34548 6 34596 100 0 0 0        * a dracolich
+M 0 34549 7 34596 100 0 0 0        * a dracolich
+M 0 34526 6 34598 100 0 0 0        * a wise zombie
+M 0 34521 11 34599 100 0 0 0       * a wretched zombie
+M 0 34521 11 34599 100 0 0 0       * a wretched zombie
+M 0 34522 8 34599 100 0 0 0        * a vicious hellhound
+M 0 34548 6 34599 100 0 0 0        * a dracolich
+M 0 34505 1 34601 100 0 0 0        * a zombie alchemist
+E 1 34514 1 18 100 0 0 0           *   an alchemist's totem
+M 0 34524 6 34601 100 0 0 0        * a lumbering ghoul
+M 0 34504 1 34602 100 0 0 0        * the lich of a scribe
+E 1 34515 1 10 100 0 0 0           *   bone sleeves
+M 0 34509 1 34603 100 0 0 0        * the butcher
+E 1 34519 1 13 100 0 0 0           *   a butcher's apron
+M 0 34526 6 34603 100 0 0 0        * a wise zombie
+M 0 34521 11 34604 100 0 0 0       * a wretched zombie
+M 0 34523 20 34604 100 0 0 0       * a small skeleton
+M 0 34524 6 34604 100 0 0 0        * a lumbering ghoul
+M 0 34518 1 34605 100 0 0 0        * the innkeeper
+E 1 34567 1 13 100 0 0 0           *   a sturdy electrum belt
+E 1 34529 1 24 100 0 0 0           *   a patch of zombie skin
+M 0 34521 11 34606 100 0 0 0       * a wretched zombie
+M 0 34524 6 34607 100 0 0 0        * a lumbering ghoul
+M 0 34525 7 34607 100 0 0 0        * the wraith of a dead villager
+M 0 34526 6 34607 100 0 0 0        * a wise zombie
+M 0 34523 20 34609 100 0 0 0       * a small skeleton
+M 0 34524 6 34609 100 0 0 0        * a lumbering ghoul
+M 0 34549 7 34609 100 0 0 0        * a dracolich
+M 0 34523 20 34610 100 0 0 0       * a small skeleton
+M 0 34526 6 34611 100 0 0 0        * a wise zombie
+M 0 34521 11 34612 100 0 0 0       * a wretched zombie
+M 0 34522 8 34612 100 0 0 0        * a vicious hellhound
+M 0 34523 20 34612 100 0 0 0       * a small skeleton
+M 0 34549 7 34612 100 0 0 0        * a dracolich
+M 0 34521 11 34613 100 0 0 0       * a wretched zombie
+M 0 34525 7 34619 100 0 0 0        * the wraith of a dead villager
+M 0 34510 1 34621 100 0 0 0        * a demented druid
+E 1 34533 1 6 100 0 0 0            *   a crown of leaves
+M 0 34511 2 34622 100 0 0 0        * a vicious treant
+M 0 34511 2 34624 100 0 0 0        * a vicious treant
+M 0 34512 1 34628 100 0 0 0        * the ghost of a wealthy man
+E 1 34545 1 16 40 0 0 0            *   a diamondine short spear called 'Mankiller'
+M 0 34513 1 34628 100 0 0 0        * the ghost of a wealthy woman
+E 1 34522 1 16 100 0 0 0           *   a spectral scimitar
+M 0 34514 1 34631 100 0 0 0        * an undead pagan acolyte
+E 1 34511 4 16 100 0 0 0           *   a rusted mace
+E 1 34525 1 21 100 0 0 0           *   an earring of the pagans
+M 0 34515 2 34631 100 0 0 0        * an undead cleric
+E 1 34511 4 16 100 0 0 0           *   a rusted mace
+M 0 34515 2 34631 100 0 0 0        * an undead cleric
+E 1 34511 4 16 100 0 0 0           *   a rusted mace
+M 0 34516 1 34632 100 0 0 0        * a massive horned demon
+E 1 34526 1 16 100 0 0 0           *   the claymore of hell
+M 0 34519 9 34633 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34633 100 0 0 0        * a skeletal trainee
+M 0 34520 1 34634 100 0 0 0        * the skeletal warmaster
+E 1 34532 1 11 100 0 0 0           *   the shield of the skeleton hoarde
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+G 1 34536 1 0 100 0 0 0            *    a castle gate key
+M 0 34519 9 34635 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34635 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34636 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34636 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34636 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34637 100 0 0 0        * a skeletal trainee
+M 0 34519 9 34637 100 0 0 0        * a skeletal trainee
+M 0 34538 1 34640 100 0 0 0        * a skeleton patrol leader
+F 1 34535 6 34640 100 0 0 0        * a skeleton patrolman (following)
+F 1 34535 6 34640 100 0 0 0        * a skeleton patrolman (following)
+M 0 34537 1 34643 100 0 0 0        * a skeleton patrol leader
+G 1 34535 1 0 100 0 0 0            *    a portcullis key
+F 1 34535 6 34643 100 0 0 0        * a skeleton patrolman (following)
+F 1 34535 6 34643 100 0 0 0        * a skeleton patrolman (following)
+M 0 34536 1 34646 100 0 0 0        * a skeleton patrol leader
+F 1 34535 6 34646 100 0 0 0        * a skeleton patrolman (following)
+F 1 34535 6 34646 100 0 0 0        * a skeleton patrolman (following)
+M 0 34539 1 34654 100 0 0 0        * a black knight
+E 1 34537 1 16 100 0 0 0           *   a transient double-bladed axe
+M 0 34540 1 34654 100 0 0 0        * a crimson knight
+E 1 34538 1 16 100 0 0 0           *   a transient two-handed sword
+M 0 34541 1 34654 100 0 0 0        * an emerald knight
+E 1 34539 1 16 100 0 0 0           *   a large transient club
+M 0 34542 1 34654 100 0 0 0        * a sapphire knight
+E 1 34540 1 16 100 0 0 0           *   a transient lance
+M 0 34543 1 34654 100 0 0 0        * a spectral knight
+E 1 34541 1 5 100 0 0 0            *   platemail of the maelstrom
+G 1 34542 1 0 100 0 0 0            *    a sturdy oak key
+M 0 34550 12 34660 100 0 0 0       * a patrolling doomguard
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+M 0 34551 6 34660 100 0 0 0        * a seer
+M 0 34552 13 34660 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34550 12 34663 100 0 0 0       * a patrolling doomguard
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+M 0 34550 12 34665 100 0 0 0       * a patrolling doomguard
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+M 0 34552 13 34665 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34549 7 34668 100 0 0 0        * a dracolich
+M 0 34552 13 34668 100 0 0 0       * a patrolling doomguard
+E 1 34555 1 13 100 0 0 0           *   a belt of sapphires
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34551 6 34669 100 0 0 0        * a seer
+M 0 34551 6 34671 100 0 0 0        * a seer
+M 0 34549 7 34673 100 0 0 0        * a dracolich
+M 0 34548 6 34675 100 0 0 0        * a dracolich
+M 0 34551 6 34676 100 0 0 0        * a seer
+M 0 34550 12 34677 100 0 0 0       * a patrolling doomguard
+M 0 34551 6 34679 100 0 0 0        * a seer
+G 1 34553 1 0 100 0 0 0            *    a beholder stalk
+M 0 34548 6 34680 100 0 0 0        * a dracolich
+M 0 34552 13 34680 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34550 12 34681 100 0 0 0       * a patrolling doomguard
+M 0 34552 13 34682 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34552 13 34683 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34549 7 34685 100 0 0 0        * a dracolich
+M 0 34550 12 34685 100 0 0 0       * a patrolling doomguard
+M 0 34552 13 34686 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34553 1 34699 100 0 0 0        * Izykyzz, the enslaver
+E 1 34544 1 5 100 0 0 0            *   the bloodstained chainmail of the illithids
+M 0 34554 1 34699 100 0 0 0        * Vex, temptress of hell
+E 1 34524 1 9 100 0 0 0            *   a pair of spectral gauntlets
+M 0 34555 3 34703 100 0 0 0        * an enormous wyrm
+M 0 34555 3 34706 100 0 0 0        * an enormous wyrm
+M 0 34555 3 34709 100 0 0 0        * an enormous wyrm
+M 0 34557 2 34713 100 0 0 0        * a ravenous hydra
+M 0 34557 2 34714 100 0 0 0        * a ravenous hydra
+M 0 34556 1 34716 100 0 0 0        * the castle groundskeeper
+E 1 34510 7 16 100 0 0 0           *   a rusted longsword
+E 1 34510 7 17 100 0 0 0           *   a rusted longsword
+E 1 34547 1 21 100 0 0 0           *   a wyrmskin scale
+G 1 34546 1 0 100 0 0 0            *    the groundskeepers key
+M 0 34551 6 34719 100 0 0 0        * a seer
+M 0 34549 7 34724 100 0 0 0        * a dracolich
+M 0 34552 13 34727 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34552 13 34727 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34558 6 34733 100 0 0 0        * an apostle of pestilence
+M 0 34550 12 34739 100 0 0 0       * a patrolling doomguard
+M 0 34550 12 34739 100 0 0 0       * a patrolling doomguard
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34564 6 34744 100 0 0 0        * an apostle of famine
+M 0 34552 13 34749 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34552 13 34749 100 0 0 0       * a patrolling doomguard
+E 1 34517 25 16 100 0 0 0          *   a rusted dagger
+E 1 34517 25 17 100 0 0 0          *   a rusted dagger
+M 0 34550 12 34751 100 0 0 0       * a patrolling doomguard
+M 0 34550 12 34751 100 0 0 0       * a patrolling doomguard
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34566 6 34757 100 0 0 0        * an apostle of war
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34565 6 34766 100 0 0 0        * an apostle of death
+M 0 34559 1 34771 100 0 0 0        * Argorax, the angelhunter
+E 1 34534 5 16 100 0 0 0           *   a blackrock dagger
+E 1 34534 5 17 100 0 0 0           *   a blackrock dagger
+E 1 34523 1 20 100 0 0 0           *   the mask of deceptions
+M 0 34567 1 34771 100 0 0 0        * Sslinthssz, the rakshasa prowler
+E 1 34563 1 3 100 0 0 0            *   a bone necklace of the rakshasa clan
+E 1 34562 1 8 100 0 0 0            *   a pair of tigerskin boots
+M 0 34550 12 34773 100 0 0 0       * a patrolling doomguard
+M 0 34552 13 34773 100 0 0 0       * a patrolling doomguard
+M 0 34546 1 34775 100 0 0 0        * The Horseman of Pestilence
+E 1 34558 1 20 100 0 0 0           *   the mask of the plague
+G 1 34551 1 0 100 0 0 0            *    the skull of pestilence
+F 1 34560 4 34775 100 0 0 0        * an enormous black steed (following)
+M 0 34561 8 34776 100 0 0 0        * a skeletal protector
+M 0 34561 8 34777 100 0 0 0        * a skeletal protector
+M 0 34562 4 34778 100 0 0 0        * a skeletal worshiper
+M 0 34563 4 34779 100 0 0 0        * a skeletal mage
+M 0 34550 12 34781 100 0 0 0       * a patrolling doomguard
+M 0 34552 13 34781 100 0 0 0       * a patrolling doomguard
+M 0 34545 1 34783 100 0 0 0        * The Horseman of Famine
+E 1 34557 1 15 100 0 0 0           *   a bracelet of living water
+G 1 34550 1 0 100 0 0 0            *    the skull of famine
+F 1 34560 4 34783 100 0 0 0        * an enormous black steed (following)
+M 0 34561 8 34784 100 0 0 0        * a skeletal protector
+M 0 34561 8 34785 100 0 0 0        * a skeletal protector
+M 0 34563 4 34786 100 0 0 0        * a skeletal mage
+M 0 34562 4 34787 100 0 0 0        * a skeletal worshiper
+M 0 34544 1 34791 100 0 0 0        * The Horseman of Death
+E 1 34556 1 2 100 0 0 0            *   a ring of tortured souls
+G 1 34549 1 0 100 0 0 0            *    the skull of death
+G 1 25018 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 34560 4 34791 100 0 0 0        * an enormous black steed (following)
+M 0 34563 4 34792 100 0 0 0        * a skeletal mage
+M 0 34562 4 34793 100 0 0 0        * a skeletal worshiper
+M 0 34561 8 34794 100 0 0 0        * a skeletal protector
+M 0 34561 8 34795 100 0 0 0        * a skeletal protector
+M 0 34547 1 34799 100 0 0 0        * The Horseman of War
+G 1 34559 1 0 100 0 0 0            *    a cold steel axe called 'Brainripper'
+G 1 34548 1 0 100 0 0 0            *    the skull of war
+F 1 34560 4 34799 100 0 0 0        * an enormous black steed (following)
+M 0 34561 8 34800 100 0 0 0        * a skeletal protector
+M 0 34562 4 34801 100 0 0 0        * a skeletal worshiper
+M 0 34561 8 34802 100 0 0 0        * a skeletal protector
+M 0 34563 4 34803 100 0 0 0        * a skeletal mage
+M 0 34568 1 34805 100 0 0 0        * a majestic platinum dragon
+G 1 34566 1 0 100 0 0 0            *    the heart of a platinum dragon
+M 0 34570 1 34808 100 0 0 0        * the vault keeper
+*
+S

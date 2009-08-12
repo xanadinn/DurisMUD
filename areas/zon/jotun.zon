@@ -1,0 +1,553 @@
+#960
+&+CJotunheim&n~
+96295 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 96029 3 1 100 0 0 0
+*     west exit from "Entrance to a Massive Granite Building" to
+*     "Entrance of Okalnir, the Mead Hall of Brimir" - closed
+*
+D 0 96030 1 1 100 0 0 0
+*     east exit from "Entrance of Okalnir, the Mead Hall of Brimir" to
+*     "Entrance to a Massive Granite Building" - closed
+*
+D 0 96034 5 5 100 0 0 0
+*     down exit from "Okalnir, the Mead Hall of Brimir" to
+*     "A Dank Storeroom" - closed/secret
+*
+D 0 96036 4 5 100 0 0 0
+*     up exit from "A Dank Storeroom" to
+*     "Okalnir, the Mead Hall of Brimir" - closed/secret
+*
+D 0 96101 3 5 100 0 0 0
+*     west exit from "End of a Rocky Gorge" to
+*     "A Stone Passage" - closed/secret
+*
+D 0 96102 1 5 100 0 0 0
+*     east exit from "A Stone Passage" to
+*     "End of a Rocky Gorge" - closed/secret
+*
+D 0 96152 2 1 100 0 0 0
+*     south exit from "Inside a Huge Shack" to
+*     "A Vast Plain of Farms at the Base of the Great Plateau" - closed
+*
+D 0 96153 0 1 100 0 0 0
+*     north exit from "A Vast Plain of Farms at the Base of the Great Plateau" to
+*     "Inside a Huge Shack" - closed
+*
+D 0 96160 1 5 100 0 0 0
+*     east exit from "Plains in the Shadow of the Great Plateau" to
+*     "A Hidden Stone Stairway" - closed/secret
+*
+D 0 96170 3 5 100 0 0 0
+*     west exit from "A Hidden Stone Stairway" to
+*     "Plains in the Shadow of the Great Plateau" - closed/secret
+*
+D 0 96161 2 1 100 0 0 0
+*     south exit from "A Warrior's Tent" to
+*     "A Soldier's Camp" - closed
+*
+D 0 96162 0 1 100 0 0 0
+*     north exit from "A Soldier's Camp" to
+*     "A Warrior's Tent" - closed
+*
+D 0 96172 4 5 100 0 0 0
+*     up exit from "A Hidden Stone Stairway" to
+*     "Atop a Rocky Overhang" - closed/secret
+*
+D 0 96181 5 5 100 0 0 0
+*     down exit from "Atop a Rocky Overhang" to
+*     "A Hidden Stone Stairway" - closed/secret
+*
+D 0 96175 2 1 100 0 0 0
+*     south exit from "A Large Iron Gate Set in an Earthen Rampart" to
+*     "Outside a Large Iron Gate" - closed
+*
+D 0 96176 0 1 100 0 0 0
+*     north exit from "Outside a Large Iron Gate" to
+*     "A Large Iron Gate Set in an Earthen Rampart" - closed
+*
+D 0 96182 0 5 100 0 0 0
+*     north exit from "Behind an Elegant Tent" to
+*     "Inside a Large Elegant Tent" - closed/secret
+*
+D 0 96183 2 5 100 0 0 0
+*     south exit from "Inside a Large Elegant Tent" to
+*     "Behind an Elegant Tent" - closed/secret
+*
+D 0 96183 3 1 100 0 0 0
+*     west exit from "Inside a Large Elegant Tent" to
+*     "Inside a Large Elegant Tent" - closed
+*
+D 0 96184 1 1 100 0 0 0
+*     east exit from "Inside a Large Elegant Tent" to
+*     "Inside a Large Elegant Tent" - closed
+*
+D 0 96184 0 1 100 0 0 0
+*     north exit from "Inside a Large Elegant Tent" to
+*     "A Summoning Circle in the Center of a Large Camp" - closed
+*
+D 0 96185 2 1 100 0 0 0
+*     south exit from "A Summoning Circle in the Center of a Large Camp" to
+*     "Inside a Large Elegant Tent" - closed
+*
+D 0 96189 0 2 100 0 0 0
+*     north exit from "Outside a Huge Mithril Gate" to
+*     "Chamber of the War Council" - closed/locked
+*
+D 0 96190 2 1 100 0 0 0
+*     south exit from "Chamber of the War Council" to
+*     "Outside a Huge Mithril Gate" - closed
+*
+D 0 96197 2 2 100 0 0 0
+*     south exit from "A Still River Outside a Metal Gate" to
+*     "A Fluting Metal Gate" - closed/locked
+*
+D 0 96198 0 2 100 0 0 0
+*     north exit from "A Fluting Metal Gate" to
+*     "A Still River Outside a Metal Gate" - closed/locked
+*
+D 0 96198 1 2 100 0 0 0
+*     east exit from "A Fluting Metal Gate" to
+*     "An Alchemical Storeroom" - closed/locked
+*
+D 0 96202 3 2 100 0 0 0
+*     west exit from "An Alchemical Storeroom" to
+*     "A Fluting Metal Gate" - closed/locked
+*
+D 0 96201 0 1 100 0 0 0
+*     north exit from "Bottom of a Stone Tower" to
+*     "An Alchemical Storeroom" - closed
+*
+D 0 96202 2 1 100 0 0 0
+*     south exit from "An Alchemical Storeroom" to
+*     "Bottom of a Stone Tower" - closed
+*
+D 0 96215 1 6 100 0 0 0
+*     east exit from "The Western Wall of Utgard" to
+*     "A Large Gatehouse" - closed/locked/secret
+*
+D 0 96252 3 6 100 0 0 0
+*     west exit from "A Large Gatehouse" to
+*     "The Western Wall of Utgard" - closed/locked/secret
+*
+D 0 96263 1 1 100 0 0 0
+*     east exit from "An Odd Garden in Front of the Citadel of Utgard-Loki" to
+*     "A Heavily Guarded Gatehouse" - closed
+*
+D 0 96266 3 1 100 0 0 0
+*     west exit from "A Heavily Guarded Gatehouse" to
+*     "An Odd Garden in Front of the Citadel of Utgard-Loki" - closed
+*
+D 0 96267 0 1 100 0 0 0
+*     north exit from "An Office Foyer" to
+*     "A Guard Commander's Office" - closed
+*
+D 0 96268 2 1 100 0 0 0
+*     south exit from "A Guard Commander's Office" to
+*     "An Office Foyer" - closed
+*
+D 0 96272 4 5 100 0 0 0
+*     up exit from "A Hallway Covered in Cobwebs" to
+*     "A Dark Hallway" - closed/secret
+*
+D 0 96283 5 5 100 0 0 0
+*     down exit from "A Dark Hallway" to
+*     "A Hallway Covered in Cobwebs" - closed/secret
+*
+D 0 96274 0 2 100 0 0 0
+*     north exit from "A Makeshift Prison" to
+*     "A Makeshift Cell" - closed/locked
+*
+D 0 96276 2 2 100 0 0 0
+*     south exit from "A Makeshift Cell" to
+*     "A Makeshift Prison" - closed/locked
+*
+D 0 96274 3 2 100 0 0 0
+*     west exit from "A Makeshift Prison" to
+*     "A Makeshift Cell" - closed/locked
+*
+D 0 96275 1 2 100 0 0 0
+*     east exit from "A Makeshift Cell" to
+*     "A Makeshift Prison" - closed/locked
+*
+D 0 96277 2 1 100 0 0 0
+*     south exit from "A Diplomat's Room" to
+*     "A Well-Lit Hallway" - closed
+*
+D 0 96281 0 1 100 0 0 0
+*     north exit from "A Well-Lit Hallway" to
+*     "A Diplomat's Room" - closed
+*
+D 0 96278 2 1 100 0 0 0
+*     south exit from "A Diplomat's Room" to
+*     "A Well-Lit Hallway" - closed
+*
+D 0 96282 0 1 100 0 0 0
+*     north exit from "A Well-Lit Hallway" to
+*     "A Diplomat's Room" - closed
+*
+D 0 96279 0 1 100 0 0 0
+*     north exit from "A Diplomat's Room" to
+*     "A Well-Lit Hallway" - closed
+*
+D 0 96281 2 1 100 0 0 0
+*     south exit from "A Well-Lit Hallway" to
+*     "A Diplomat's Room" - closed
+*
+D 0 96280 0 1 100 0 0 0
+*     north exit from "A Diplomat's Room" to
+*     "A Well-Lit Hallway" - closed
+*
+D 0 96282 2 1 100 0 0 0
+*     south exit from "A Well-Lit Hallway" to
+*     "A Diplomat's Room" - closed
+*
+*
+O 0 96005 1 96004 100 0 0 0        * a glowing tree
+O 0 96076 1 96072 100 0 0 0        * a clump of fireweed
+O 0 96053 1 96103 100 0 0 0        * the well of Mimir
+O 0 96081 1 96180 100 0 0 0        * a sapphire and gold bracelet
+O 0 72 100 96191 100 0 0 0         * (object type not in this .obj file)
+O 0 96054 1 96254 100 0 0 0        * a deep well
+*
+M 0 96000 5 96001 100 0 0 0        * a ratatosk
+M 0 96000 5 96005 100 0 0 0        * a ratatosk
+M 0 96000 5 96006 100 0 0 0        * a ratatosk
+M 0 96000 5 96007 100 0 0 0        * a ratatosk
+M 0 96000 5 96008 100 0 0 0        * a ratatosk
+M 0 96001 1 96009 100 0 0 0        * the ratatosk fireholder
+M 0 96009 10 96017 100 0 0 0       * a snow troll
+M 0 96010 10 96017 100 0 0 0       * an ice troll
+M 0 96006 5 96024 100 0 0 0        * a yeti
+M 0 96009 10 96024 100 0 0 0       * a snow troll
+M 0 96006 5 96025 100 0 0 0        * a yeti
+M 0 96010 10 96025 100 0 0 0       * an ice troll
+M 0 96007 5 96026 100 0 0 0        * a remorhaz
+G 1 96069 2 0 100 0 0 0            *    a pile of remorhaz scales
+M 0 96011 10 96030 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96030 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96031 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96031 100 0 0 0       * a frost giant drunkard
+M 0 96012 1 96032 100 0 0 0        * Brimir
+G 1 96023 1 0 100 0 0 0            *    a heavy tankard made of pewter
+M 0 96011 10 96033 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96033 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96034 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96034 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96035 100 0 0 0       * a frost giant drunkard
+M 0 96011 10 96037 100 0 0 0       * a frost giant drunkard
+M 0 96006 5 96038 100 0 0 0        * a yeti
+M 0 96010 10 96040 100 0 0 0       * an ice troll
+M 0 96009 10 96042 100 0 0 0       * a snow troll
+M 0 96007 5 96048 100 0 0 0        * a remorhaz
+G 1 96069 2 0 100 0 0 0            *    a pile of remorhaz scales
+M 0 96006 5 96057 100 0 0 0        * a yeti
+E 1 96022 1 12 100 0 0 0           *   a pelt of soft yeti's fur
+M 0 96008 1 96058 100 0 0 0        * a cave bear
+M 0 96002 5 96062 100 0 0 0        * a fensir
+M 0 96002 5 96063 100 0 0 0        * a fensir
+M 0 96002 5 96064 100 0 0 0        * a fensir
+M 0 96002 5 96065 100 0 0 0        * a fensir
+M 0 96002 5 96065 100 0 0 0        * a fensir
+M 0 96003 1 96066 100 0 0 0        * a rakka
+E 1 96020 1 3 100 0 0 0            *   a thick woolen scarf
+M 0 96017 1 96067 100 0 0 0        * a snowhair oread
+E 1 96024 999 21 100 0 0 0         *   an earring of polished granite
+M 0 96004 2 96073 100 0 0 0        * a fire giant
+E 1 96018 2 5 100 0 0 0            *   a suit of dull black iron chainmail
+E 1 96017 2 16 100 0 0 0           *   a huge black sword
+M 0 96004 2 96073 100 0 0 0        * a fire giant
+E 1 96019 1 2 100 0 0 0            *   a ring of protection from cold
+E 1 96018 2 5 100 0 0 0            *   a suit of dull black iron chainmail
+E 1 96017 2 16 100 0 0 0           *   a huge black sword
+M 0 96009 10 96077 100 0 0 0       * a snow troll
+M 0 96006 5 96081 100 0 0 0        * a yeti
+M 0 96009 10 96083 100 0 0 0       * a snow troll
+M 0 96009 10 96085 100 0 0 0       * a snow troll
+M 0 96009 10 96089 100 0 0 0       * a snow troll
+M 0 96010 10 96089 100 0 0 0       * an ice troll
+M 0 96007 5 96095 100 0 0 0        * a remorhaz
+M 0 96013 1 96102 100 0 0 0        * Mimir
+E 1 96015 999 19 100 0 0 0         *   a raven feather eyepatch
+M 0 96010 10 96107 100 0 0 0       * an ice troll
+M 0 96009 10 96109 100 0 0 0       * a snow troll
+M 0 96007 5 96113 100 0 0 0        * a remorhaz
+M 0 96005 1 96123 100 0 0 0        * an ancient white dragon
+G 1 96021 1 0 100 0 0 0            *    razorsharp leggings of white-dragon scalemail
+M 0 96010 10 96124 100 0 0 0       * an ice troll
+M 0 96010 10 96126 100 0 0 0       * an ice troll
+M 0 96015 5 96126 100 0 0 0        * a frost giant trapper
+M 0 96009 10 96128 100 0 0 0       * a snow troll
+M 0 96015 5 96128 100 0 0 0        * a frost giant trapper
+M 0 96015 5 96131 100 0 0 0        * a frost giant trapper
+M 0 96010 10 96132 100 0 0 0       * an ice troll
+M 0 96015 5 96132 100 0 0 0        * a frost giant trapper
+M 0 96015 5 96134 100 0 0 0        * a frost giant trapper
+M 0 96018 3 96138 100 0 0 0        * a mountain goat
+M 0 96018 3 96139 100 0 0 0        * a mountain goat
+M 0 96018 3 96140 100 0 0 0        * a mountain goat
+M 0 96010 10 96143 100 0 0 0       * an ice troll
+M 0 96014 9 96147 100 0 0 0        * a frost giant farmer
+M 0 96014 9 96148 100 0 0 0        * a frost giant farmer
+M 0 96048 9 96149 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96014 9 96152 100 0 0 0        * a frost giant farmer
+M 0 96014 9 96153 100 0 0 0        * a frost giant farmer
+M 0 96014 9 96154 100 0 0 0        * a frost giant farmer
+M 0 96048 9 96154 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96014 9 96156 100 0 0 0        * a frost giant farmer
+M 0 96014 9 96157 100 0 0 0        * a frost giant farmer
+M 0 96016 1 96157 100 0 0 0        * a small white dragon
+M 0 96014 9 96159 100 0 0 0        * a frost giant farmer
+M 0 96014 9 96160 100 0 0 0        * a frost giant farmer
+M 0 96019 1 96161 100 0 0 0        * a snoring frost giant
+E 1 96025 1 2 100 0 0 0            *   a jagged metal ring
+M 0 96022 10 96162 100 0 0 0       * a frost giant soldier
+E 1 96027 999 5 100 0 0 0          *   a leather vest studded with jagged iron spikes
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96162 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96163 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96163 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96021 1 96164 100 0 0 0        * the frost giant forge master
+M 0 96020 1 96165 100 0 0 0        * a frost giant cook
+M 0 96022 10 96165 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96166 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96166 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96022 10 96166 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96048 9 96167 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96028 14 96169 100 0 0 0       * a frost giant mage
+E 1 96036 1 14 100 0 0 0           *   an eerily glowing jade bracelet
+M 0 96023 1 96173 100 0 0 0        * the frost giant battlemaster
+E 1 96029 1 16 100 0 0 0           *   a gleaming mithril axe
+M 0 96047 4 96173 100 0 0 0        * a frost giant student
+M 0 96047 4 96173 100 0 0 0        * a frost giant student
+M 0 96047 4 96174 100 0 0 0        * a frost giant student
+M 0 96047 4 96174 100 0 0 0        * a frost giant student
+M 0 96022 10 96175 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96048 9 96176 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96028 14 96178 100 0 0 0       * a frost giant mage
+M 0 96028 14 96179 100 0 0 0       * a frost giant mage
+M 0 96028 14 96180 100 0 0 0       * a frost giant mage
+M 0 96030 1 96183 100 0 0 0        * a balor demon
+E 1 96035 1 7 100 0 0 0            *   a pair of fur leggings splattered with blood
+E 1 96038 1 16 100 0 0 0           *   a jagged lightning sword
+E 1 96039 1 17 100 0 0 0           *   a barbed whip
+M 0 96029 1 96184 100 0 0 0        * a frost giant shaman
+E 1 96008 1 3 100 0 0 0            *   an intricate golden amulet
+E 1 96037 1 11 100 0 0 0           *   a glowing shield of polished rose quartz
+M 0 96028 14 96185 100 0 0 0       * a frost giant mage
+M 0 96028 14 96185 100 0 0 0       * a frost giant mage
+M 0 96028 14 96185 100 0 0 0       * a frost giant mage
+M 0 96028 14 96186 100 0 0 0       * a frost giant mage
+M 0 96048 9 96188 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96024 2 96189 100 0 0 0        * a huge frost giant guard
+E 1 96030 2 5 100 0 0 0            *   a suit of heavy mithril platemail
+E 1 96031 2 16 100 0 0 0           *   an elaborate pike of polished mithril
+M 0 96024 2 96189 100 0 0 0        * a huge frost giant guard
+E 1 96030 2 5 100 0 0 0            *   a suit of heavy mithril platemail
+E 1 96031 2 16 100 0 0 0           *   an elaborate pike of polished mithril
+M 0 96025 1 96190 100 0 0 0        * a frost giant general
+E 1 96032 1 13 100 0 0 0           *   a mithril belt encrusted with aquamarines
+E 1 96033 1 16 100 0 0 0           *   a shining mithril broadsword
+M 0 96026 2 96190 100 0 0 0        * a frost giant jarl
+E 1 96034 1 6 100 0 0 0            *   a great horned helm
+M 0 96026 2 96190 100 0 0 0        * a frost giant jarl
+M 0 96027 1 96191 100 0 0 0        * Thrym
+E 1 96002 1 3 100 0 0 0            *   a shiny mithril torque
+E 1 96003 999 9 100 0 0 0          *   a pair of taut dwarfhide gloves
+E 1 96001 999 15 100 0 0 0         *   a thick adamantium bracelet
+E 1 96000 1 16 40 0 0 0            *   a great axe named 'Frostbite'
+G 1 55175 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 96067 1 96191 100 0 0 0        * the high priest
+E 1 96055 2 3 100 0 0 0            *   a token of allegiance to Thrym
+M 0 96045 7 96192 100 0 0 0        * a dwarf slave
+M 0 96046 7 96192 100 0 0 0        * a elven slave
+M 0 96044 4 96193 100 0 0 0        * a slave overseer
+E 1 96044 4 16 100 0 0 0           *   a long black whip
+M 0 96045 7 96193 100 0 0 0        * a dwarf slave
+M 0 96046 7 96193 100 0 0 0        * a elven slave
+M 0 96022 10 96195 100 0 0 0       * a frost giant soldier
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96028 14 96198 100 0 0 0       * a frost giant mage
+M 0 96028 14 96198 100 0 0 0       * a frost giant mage
+G 1 96006 1 0 100 0 0 0            *    a plain looking key
+M 0 96028 14 96199 100 0 0 0       * a frost giant mage
+M 0 96028 14 96199 100 0 0 0       * a frost giant mage
+M 0 96028 14 96200 100 0 0 0       * a frost giant mage
+M 0 96028 14 96200 100 0 0 0       * a frost giant mage
+M 0 96049 1 96202 100 0 0 0        * a frost giant alchemist
+E 1 96046 999 15 100 0 0 0         *   a bracelet made from leaves of nightshade
+M 0 96048 9 96204 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96048 9 96204 100 0 0 0        * a frost giant berserker
+E 1 96045 1 10 100 0 0 0           *   some leather sleeves studded with rusty iron spikes
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96045 7 96207 100 0 0 0        * a dwarf slave
+M 0 96046 7 96207 100 0 0 0        * a elven slave
+M 0 96054 1 96207 100 0 0 0        * the head overseer
+E 1 96004 1 20 100 0 0 0           *   a hideous red leather mask
+M 0 96044 4 96208 100 0 0 0        * a slave overseer
+E 1 96044 4 16 100 0 0 0           *   a long black whip
+M 0 96045 7 96208 100 0 0 0        * a dwarf slave
+M 0 96046 7 96208 100 0 0 0        * a elven slave
+M 0 96044 4 96209 100 0 0 0        * a slave overseer
+E 1 96044 4 16 100 0 0 0           *   a long black whip
+M 0 96045 7 96209 100 0 0 0        * a dwarf slave
+M 0 96046 7 96209 100 0 0 0        * a elven slave
+M 0 96045 7 96210 100 0 0 0        * a dwarf slave
+M 0 96046 7 96210 100 0 0 0        * a elven slave
+M 0 96044 4 96211 100 0 0 0        * a slave overseer
+E 1 96044 4 16 100 0 0 0           *   a long black whip
+M 0 96045 7 96211 100 0 0 0        * a dwarf slave
+M 0 96046 7 96211 100 0 0 0        * a elven slave
+M 0 96048 9 96216 100 0 0 0        * a frost giant berserker
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96034 6 96228 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96034 6 96232 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96034 6 96237 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96034 6 96241 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96060 3 96244 100 0 0 0        * a frost giant matron
+M 0 96035 4 96245 100 0 0 0        * a frost giant commoner
+M 0 96056 1 96245 100 0 0 0        * the frost giant butcher
+M 0 96034 6 96246 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96057 1 96247 100 0 0 0        * a frost giant merchant
+M 0 96059 1 96248 100 0 0 0        * a frost giant jeweler
+E 1 96048 1 19 100 0 0 0           *   a jeweler's eyepiece
+M 0 96035 4 96249 100 0 0 0        * a frost giant commoner
+M 0 96060 3 96249 100 0 0 0        * a frost giant matron
+M 0 96058 1 96250 100 0 0 0        * a frost giant blacksmith
+M 0 96032 3 96252 100 0 0 0        * a frost giant gate guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96032 3 96252 100 0 0 0        * a frost giant gate guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96032 3 96252 100 0 0 0        * a frost giant gate guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96035 4 96254 100 0 0 0        * a frost giant commoner
+M 0 96035 4 96258 100 0 0 0        * a frost giant commoner
+M 0 96060 3 96259 100 0 0 0        * a frost giant matron
+M 0 96061 3 96259 100 0 0 0        * a frost giant child
+M 0 96061 3 96259 100 0 0 0        * a frost giant child
+M 0 96034 6 96260 100 0 0 0        * a frost giant city guard
+E 1 96040 9 5 100 0 0 0            *   a suit of steel chainmail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96061 3 96260 100 0 0 0        * a frost giant child
+M 0 96064 2 96264 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96064 2 96265 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96033 3 96266 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+F 1 96033 3 96266 100 0 0 0        * a frost giant citadel guard (following)
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+F 1 96033 3 96266 100 0 0 0        * a frost giant citadel guard (following)
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96055 1 96268 100 0 0 0        * the frost giant guard commander
+E 1 96047 1 9 100 0 0 0            *   a pair of steel gauntlets studded with rusty iron spikes
+M 0 96062 1 96269 100 0 0 0        * a frost giant cook
+M 0 96063 4 96269 100 0 0 0        * a human slave
+M 0 96063 4 96269 100 0 0 0        * a human slave
+M 0 96063 4 96269 100 0 0 0        * a human slave
+M 0 96063 4 96269 100 0 0 0        * a human slave
+M 0 96065 6 96270 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96043 1 96271 100 0 0 0        * Utgard-Loki
+E 1 96043 1 6 100 0 0 0            *   a gaudy golden crown
+M 0 96065 6 96272 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96065 6 96273 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96041 1 96274 100 0 0 0        * a frost giant jailkeeper
+G 1 96014 1 0 100 0 0 0            *    a large iron key
+M 0 96042 2 96275 100 0 0 0        * a frost mage prisoner
+M 0 96042 2 96276 100 0 0 0        * a frost mage prisoner
+M 0 96050 1 96277 100 0 0 0        * a fire giant emissary
+E 1 96050 1 8 100 0 0 0            *   a heavy pair of fire giant boots
+M 0 96051 1 96278 100 0 0 0        * a drow emissary
+E 1 96051 1 20 100 0 0 0           *   a soft leather mask encrusted with garnets
+M 0 96053 1 96279 100 0 0 0        * Odin's emissary
+E 1 96052 1 13 100 0 0 0           *   a thick leather belt lined with fur
+M 0 96052 1 96280 100 0 0 0        * Hel's emissary
+E 1 96049 1 21 100 0 0 0           *   an obsidian earring shaped like a skull
+M 0 96065 6 96281 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96065 6 96283 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96065 6 96284 100 0 0 0        * a frost giant citadel guard
+E 1 96041 11 5 100 0 0 0           *   a suit of steel platemail with a mace and skull emblem
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96036 1 96286 100 0 0 0        * Silverwing
+E 1 96042 1 12 100 0 0 0           *   a cloak of deva's feathers
+M 0 96040 1 96287 100 0 0 0        * Utgard-Loki
+E 1 96010 1 2 100 0 0 0            *   a glowing electrum ring
+E 1 96011 1 5 100 0 0 0            *   ringmail emblazoned with a mace and skull emblem
+E 1 96009 1 6 100 0 0 0            *   golden crown of the frost giant kings
+E 1 96013 999 10 100 0 0 0         *   some sleeves of stretched drow-skin
+E 1 96012 999 16 100 0 0 0         *   a huge adamantium mace named 'Mistweave'
+G 1 96007 1 0 100 0 0 0            *    a key made of glowing ice
+G 1 67241 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 96037 1 96287 100 0 0 0        * a pet white dragon (following)
+F 1 96038 1 96287 100 0 0 0        * a dragon handler (following)
+F 1 96039 1 96287 100 0 0 0        * a frost giant jarl (following)
+M 0 96070 1 96288 100 0 0 0        * Ymir
+E 1 96058 1 2 100 0 0 0            *   a ring of the giantkind
+E 1 96059 1 12 100 0 0 0           *   a cloak of glittering icicles
+M 0 96076 1 96288 100 0 0 0        * an ancient remorhaz
+G 1 96071 1 0 100 0 0 0            *    a pile of ancient remorhaz scales
+M 0 96074 1 96290 100 0 0 0        * a white dragon
+G 1 96065 1 0 100 0 0 0            *    a large bag sewn from dragon-gut
+M 0 96077 1 96290 100 0 0 0        * the planetar Quelranor
+E 1 96073 1 16 100 0 0 0           *   the mace named 'Faith'
+M 0 96073 1 96291 100 0 0 0        * Barokmir the One-Eye
+E 1 96079 1 3 100 0 0 0            *   a necklace of dangling dwarven skulls
+E 1 96028 39 16 100 0 0 0          *   a heavy iron axe
+M 0 96075 1 96291 100 0 0 0        * Olaf Forkbeard
+E 1 96066 1 16 100 0 0 0           *   a double-bladed axe named 'Giantbane'
+M 0 96069 1 96292 100 0 0 0        * Sarimar
+E 1 96057 1 13 100 0 0 0           *   a belt of human skulls
+M 0 96071 1 96292 100 0 0 0        * Grishnar
+G 1 96060 1 0 100 0 0 0            *    the feathered standard of the ice trolls
+M 0 96072 1 96292 100 0 0 0        * Rashnik
+E 1 96061 1 18 100 0 0 0           *   the sacred totem of the snow trolls
+M 0 96068 1 96293 100 0 0 0        * Brunnhilde
+E 1 96056 999 16 100 0 0 0         *   a flaming sword of the valkyrie
+*
+S

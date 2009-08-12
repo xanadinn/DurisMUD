@@ -1,0 +1,313 @@
+#162
+&+CThe Transparent Tower&n~
+16299 1 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 16230 1 1 100 0 0 0
+*     east exit from "Before a Translucent Green Door" to
+*     "In an Open field" - closed
+*
+D 0 16233 3 1 100 0 0 0
+*     west exit from "In an Open field" to
+*     "Before a Translucent Green Door" - closed
+*
+D 0 16234 1 1 100 0 0 0
+*     east exit from "Before a Blood Red Door" to
+*     "The Plane of Avernus in the Nine Hells" - closed
+*
+D 0 16235 3 1 100 0 0 0
+*     west exit from "The Plane of Avernus in the Nine Hells" to
+*     "Before a Blood Red Door" - closed
+*
+D 0 16236 3 5 100 0 0 0
+*     west exit from "By a Transparent Fountain" to
+*     "Above a Long Smooth Slide" - closed/secret
+*
+D 0 16237 1 5 100 0 0 0
+*     east exit from "Above a Long Smooth Slide" to
+*     "By a Transparent Fountain" - closed/secret
+*
+D 0 16241 0 2 100 0 0 0
+*     north exit from "A Landing Draped with Green Mist" to
+*     "A Barren Alcove" - closed/locked
+*
+D 0 16248 2 2 100 0 0 0
+*     south exit from "A Barren Alcove" to
+*     "A Landing Draped with Green Mist" - closed/locked
+*
+D 0 16243 1 2 100 0 0 0
+*     east exit from "Before a Steel Door" to
+*     "A Comfortable Resting Room" - closed/locked
+*
+D 0 16244 3 2 100 0 0 0
+*     west exit from "A Comfortable Resting Room" to
+*     "Before a Steel Door" - closed/locked
+*
+D 0 16246 0 1 100 0 0 0
+*     north exit from "Before a Gray Marble Door" to
+*     "A Bloody Guest Room" - closed
+*
+D 0 16247 2 1 100 0 0 0
+*     south exit from "A Bloody Guest Room" to
+*     "Before a Gray Marble Door" - closed
+*
+D 0 16248 1 6 100 0 0 0
+*     east exit from "A Barren Alcove" to
+*     "A Colorless Storage Closet" - closed/locked/secret
+*
+D 0 16249 3 5 100 0 0 0
+*     west exit from "A Colorless Storage Closet" to
+*     "A Barren Alcove" - closed/secret
+*
+D 0 16252 0 2 100 0 0 0
+*     north exit from "A Clear Crystal Landing" to
+*     "An Elegant Sitting Room" - closed/locked
+*
+D 0 16253 2 2 100 0 0 0
+*     south exit from "An Elegant Sitting Room" to
+*     "A Clear Crystal Landing" - closed/locked
+*
+D 0 16253 0 1 100 0 0 0
+*     north exit from "An Elegant Sitting Room" to
+*     "A Dusty Bedroom" - closed
+*
+D 0 16254 2 1 100 0 0 0
+*     south exit from "A Dusty Bedroom" to
+*     "An Elegant Sitting Room" - closed
+*
+D 0 16258 2 1 100 0 0 0
+*     south exit from "Before a Door Made of Mist" to
+*     "A Vast Library" - closed
+*
+D 0 16259 0 1 100 0 0 0
+*     north exit from "A Vast Library" to
+*     "Before a Door Made of Mist" - closed
+*
+D 0 16268 5 5 100 0 0 0
+*     down exit from "In an Open field" to
+*     "A Room of Blue Mist" - closed/secret
+*
+D 0 16269 4 1 100 0 0 0
+*     up exit from "A Room of Blue Mist" to
+*     "In an Open field" - closed
+*
+D 0 16269 1 5 100 0 0 0
+*     east exit from "A Room of Blue Mist" to
+*     "Beneath a Majestic Oak Tree" - closed/secret
+*
+D 0 16270 3 1 100 0 0 0
+*     west exit from "Beneath a Majestic Oak Tree" to
+*     "A Room of Blue Mist" - closed
+*
+D 0 16278 3 2 100 0 0 0
+*     west exit from "Before an Iron Door in the Plane of Avernus" to
+*     "A Room of Stinking Yellow Mist" - closed/locked
+*
+D 0 16297 1 1 100 0 0 0
+*     east exit from "A Room of Stinking Yellow Mist" to
+*     "Before an Iron Door in the Plane of Avernus" - closed
+*
+D 0 16287 5 5 100 0 0 0
+*     down exit from "The Plane of Avernus in the Nine Hells" to
+*     "A Deep Purple Room" - closed/secret
+*
+D 0 16288 4 5 100 0 0 0
+*     up exit from "A Deep Purple Room" to
+*     "The Plane of Avernus in the Nine Hells" - closed/secret
+*
+D 0 16293 5 5 100 0 0 0
+*     down exit from "The Plane of Avernus in the Nine Hells" to
+*     "A Dark Hideout" - closed/secret
+*
+D 0 16294 4 1 100 0 0 0
+*     up exit from "A Dark Hideout" to
+*     "The Plane of Avernus in the Nine Hells" - closed
+*
+D 0 16298 1 5 100 0 0 0
+*     east exit from "A Room of Dark Shadows" to
+*     "A Room of Flowers" - closed/secret
+*
+D 0 16299 3 1 100 0 0 0
+*     west exit from "A Room of Flowers" to
+*     "A Room of Dark Shadows" - closed
+*
+*
+O 0 16201 1 16213 100 0 0 0        * a strange blue prism
+O 0 16202 1 16229 100 0 0 0        * teleport to 16256
+O 0 16207 1 16233 100 0 0 0        * teleport to 16263
+O 0 16204 1 16235 100 0 0 0        * teleporter to hell, 16271
+O 0 16260 1 16242 100 0 0 0        * a teleporter to 16298
+O 0 16255 1 16244 100 0 0 0        * an ancient guest bed
+O 0 16254 2 16245 100 0 0 0        * a drab sofa
+O 0 16254 2 16245 100 0 0 0        * a drab sofa
+O 0 16209 1 16249 100 0 0 0        * teleport to 16212
+O 0 359 1 16249 100 0 0 0          * (object type not in this .obj file)
+O 0 16249 2 16249 100 0 0 0        * a shadowy chest plate
+O 0 16267 1 16249 100 0 0 0        * a ball of yellow mist
+O 0 16269 1 16249 100 0 0 0        * a tight green cloak
+O 0 16216 1 16249 100 0 0 0        * a ring of twisted gray mist
+O 0 16270 1 16249 100 0 0 0        * a steel wire
+O 0 16273 2 16249 100 0 0 0        * a misty blue mask of gauze
+O 0 16266 1 16249 100 0 0 0        * an amber blade
+O 0 16256 1 16249 100 0 0 0        * amulet of the dead
+O 0 16244 2 16249 100 0 0 0        * the helm of light
+O 0 67276 1 16249 100 0 0 0        * (object type not in this .obj file)
+O 0 16240 1 16252 100 0 0 0        * a spear trap
+O 0 16250 1 16253 100 0 0 0        * an overstuffed chair
+P 1 16253 1 16250 100 0 0 0        *   an odd yellow gemstone
+O 0 16251 1 16253 100 0 0 0        * the elegant sofa
+P 1 16252 1 16251 100 0 0 0        *   a broken marble key
+O 0 16239 1 16255 100 0 0 0        * a white marble desk
+P 1 16241 1 16239 100 0 0 0        *   the scepter of illusion
+O 0 16237 3 16259 100 0 0 0        * no_show bookshelves
+O 0 16237 3 16260 100 0 0 0        * no_show bookshelves
+P 1 16238 1 16237 100 0 0 0        *   an ancient book
+O 0 16237 3 16261 100 0 0 0        * no_show bookshelves
+P 1 16236 1 16237 100 0 0 0        *   some magical dust
+O 0 16203 1 16262 100 0 0 0        * The book of Light and Illusion
+O 0 16208 1 16263 100 0 0 0        * a twisting green pedestal
+O 0 16257 2 16270 100 0 0 0        * another teleporter to 16228
+O 0 16205 1 16288 100 0 0 0        * a Purple obelisk
+O 0 16259 4 16294 100 0 0 0        * some stale rations
+O 0 16259 4 16294 100 0 0 0        * some stale rations
+O 0 16259 4 16294 100 0 0 0        * some stale rations
+O 0 16259 4 16294 100 0 0 0        * some stale rations
+O 0 16206 1 16297 100 0 0 0        * teleport to 16228
+O 0 16257 2 16299 100 0 0 0        * another teleporter to 16228
+O 0 16261 1 16299 100 0 0 0        * an elegant wooden desk
+*
+M 0 16200 11 16200 100 0 0 0       * the shadow fish
+M 0 16200 11 16200 100 0 0 0       * the shadow fish
+M 0 16200 11 16200 100 0 0 0       * the shadow fish
+M 0 16201 4 16201 100 0 0 0        * a swimming blob
+M 0 16201 4 16203 100 0 0 0        * a swimming blob
+M 0 16200 11 16205 100 0 0 0       * the shadow fish
+M 0 16200 11 16205 100 0 0 0       * the shadow fish
+M 0 16200 11 16205 100 0 0 0       * the shadow fish
+M 0 16201 4 16206 100 0 0 0        * a swimming blob
+M 0 16200 11 16207 100 0 0 0       * the shadow fish
+M 0 16200 11 16207 100 0 0 0       * the shadow fish
+M 0 16200 11 16210 100 0 0 0       * the shadow fish
+M 0 16200 11 16210 100 0 0 0       * the shadow fish
+M 0 16200 11 16210 100 0 0 0       * the shadow fish
+M 0 16202 1 16210 100 0 0 0        * a shadow eel
+E 1 16210 1 13 100 0 0 0           *   the skin of a shadow eel
+M 0 16201 4 16211 100 0 0 0        * a swimming blob
+M 0 16208 6 16214 100 0 0 0        * a green mist
+E 1 16212 2 16 100 0 0 0           *   a misty, green long sword
+M 0 16209 2 16214 100 0 0 0        * a yellow mist
+E 1 16214 2 16 100 0 0 0           *   a yellow spear
+M 0 16208 6 16219 100 0 0 0        * a green mist
+E 1 16212 2 16 100 0 0 0           *   a misty, green long sword
+M 0 16208 6 16221 100 0 0 0        * a green mist
+E 1 16211 3 3 100 0 0 0            *   a collar of green mist
+M 0 16208 6 16222 100 0 0 0        * a green mist
+E 1 16211 3 3 100 0 0 0            *   a collar of green mist
+M 0 16209 2 16223 100 0 0 0        * a yellow mist
+E 1 16214 2 16 100 0 0 0           *   a yellow spear
+M 0 16208 6 16227 100 0 0 0        * a green mist
+E 1 16211 3 3 100 0 0 0            *   a collar of green mist
+M 0 16228 1 16232 100 0 0 0        * a blue mist
+M 0 16211 1 16234 100 0 0 0        * a gray mist
+M 0 16230 1 16236 100 0 0 0        * a lost adventurer
+E 1 16245 1 9 100 0 0 0            *   obsidian gauntlets
+M 0 16210 1 16238 100 0 0 0        * a red mist
+E 1 16215 1 16 100 0 0 0           *   a mace of red mist
+M 0 16208 6 16239 100 0 0 0        * a green mist
+M 0 16213 1 16241 100 0 0 0        * the green fog
+E 1 16224 1 19 100 0 0 0           *   a foggy visor
+M 0 16237 1 16241 100 0 0 0        * a sickly illithid
+G 1 16271 1 0 100 0 0 0            *    a warped key
+M 0 16219 1 16242 100 0 0 0        * a mist mimic
+E 1 16223 1 10 100 0 0 0           *   some misty yellow arm plates
+M 0 16238 1 16244 100 0 0 0        * A white mist
+G 1 16272 1 0 100 0 0 0            *    a swirling key of mist
+M 0 16220 2 16245 100 0 0 0        * a mist mimic
+E 1 16222 2 7 100 0 0 0            *   some misty green leg plates
+M 0 16214 1 16247 100 0 0 0        * the blood mist
+E 1 16217 2 13 100 0 0 0           *   a belt of fresh blood
+M 0 16233 1 16248 100 0 0 0        * a pale blue mist
+E 1 16233 2 20 20 0 0 0            *   a mask of blue mist
+F 1 16236 1 16248 100 0 0 0        * a burning brown mist (following)
+M 0 16205 1 16253 100 0 0 0        * Aceralde
+E 1 16235 1 20 100 0 0 0           *   the mask of hatred
+G 1 16246 1 0 100 0 0 0            *    a strange marble key
+F 1 16232 1 16253 100 0 0 0        * a skeletal lich (following)
+E 1 16247 1 15 100 0 0 0           *   a bracelet of finger bones
+F 1 16231 1 16253 100 0 0 0        * an ugly vampire (following)
+E 1 16248 2 21 100 0 0 0           *   an earring of congealed blood
+M 0 16220 2 16258 100 0 0 0        * a mist mimic
+M 0 16212 1 16260 100 0 0 0        * a purple mist
+E 1 16213 999 15 100 0 0 0         *   a bracelet of purple mist
+M 0 16207 1 16261 100 0 0 0        * the purple librarian
+E 1 16218 1 8 100 0 0 0            *   some hazy purple boots
+M 0 16215 1 16263 100 0 0 0        * a screaming shadow giant
+E 1 16219 1 16 100 0 0 0           *   a club of shadows
+M 0 16216 1 16265 100 0 0 0        * a shadow unicorn
+E 1 16220 1 16 100 0 0 0           *   a shadow unicorn's horn
+M 0 16217 1 16267 100 0 0 0        * a shadow ki-rin
+E 1 16221 1 12 100 0 0 0           *   a long shadowy mane
+M 0 16218 1 16268 100 0 0 0        * the shadow mage
+M 0 16229 1 16269 100 0 0 0        * a blue mist dragon
+G 1 16234 1 0 100 0 0 0            *    misty blue dragon scale armor
+M 0 16203 1 16270 100 0 0 0        * Lord Gullivier
+E 1 16233 2 20 100 0 0 0           *   a mask of blue mist
+M 0 16227 1 16272 100 0 0 0        * a horned devil
+E 1 16227 1 16 100 0 0 0           *   a two-tined fork
+M 0 16224 3 16273 100 0 0 0        * a spined devil
+E 1 16230 3 16 100 0 0 0           *   a barbed whip
+M 0 16226 6 16274 100 0 0 0        * a humanoid blob
+M 0 16226 6 16274 100 0 0 0        * a humanoid blob
+M 0 16206 1 16275 100 0 0 0        * Lord Devilish
+E 1 16249 2 5 100 0 0 0            *   a shadowy chest plate
+M 0 16221 3 16276 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16226 6 16276 100 0 0 0        * a humanoid blob
+M 0 16226 6 16278 100 0 0 0        * a humanoid blob
+M 0 16221 3 16280 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16221 3 16280 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16204 1 16280 100 0 0 0        * the angry mage
+E 1 16232 1 5 100 0 0 0            *   a purple robe of stars
+M 0 16222 4 16281 100 0 0 0        * a black abishai
+E 1 16226 4 16 100 0 0 0           *   a devilish halberd
+M 0 16222 4 16281 100 0 0 0        * a black abishai
+E 1 16226 4 16 100 0 0 0           *   a devilish halberd
+M 0 16223 4 16282 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16222 4 16283 100 0 0 0        * a black abishai
+E 1 16226 4 16 100 0 0 0           *   a devilish halberd
+M 0 16222 4 16287 100 0 0 0        * a black abishai
+E 1 16226 4 16 100 0 0 0           *   a devilish halberd
+M 0 16225 2 16287 100 0 0 0        * a massive pit fiend
+E 1 16229 1 16 100 0 0 0           *   a jagged-tooth club
+M 0 16224 3 16290 100 0 0 0        * a spined devil
+E 1 16230 3 16 100 0 0 0           *   a barbed whip
+M 0 16225 2 16291 100 0 0 0        * a massive pit fiend
+E 1 16228 1 16 100 0 0 0           *   a jagged-edged bastard sword
+M 0 16226 6 16291 100 0 0 0        * a humanoid blob
+M 0 16224 3 16292 100 0 0 0        * a spined devil
+E 1 16230 3 16 100 0 0 0           *   a barbed whip
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16223 4 16292 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16223 4 16293 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16226 6 16293 100 0 0 0        * a humanoid blob
+M 0 16223 4 16295 100 0 0 0        * a red abishai
+E 1 16225 15 16 100 0 0 0          *   a devil's dagger
+E 1 16225 15 17 100 0 0 0          *   a devil's dagger
+M 0 16235 1 16298 100 0 0 0        * a shadow dragon
+M 0 16234 1 16299 100 0 0 0        * Lady Lisa
+E 1 16231 1 21 100 0 0 0           *   a large golden ring
+*
+S

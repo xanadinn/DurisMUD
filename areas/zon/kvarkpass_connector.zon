@@ -1,0 +1,431 @@
+#546
+&+LKvark's &+YGreat &+LConnector&n~
+54841 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 54602 9 5 100 0 0 0
+*     southeast exit from "A Turn in the Trail" to
+*     "A Rubble-Filled Trail" - closed/secret
+*
+D 0 54789 6 1 100 0 0 0
+*     northwest exit from "A Rubble-Filled Trail" to
+*     "A Turn in the Trail" - closed
+*
+D 0 54604 0 1 100 0 0 0
+*     north exit from "A Fork in the Pass" to
+*     "A Well-Lit Cave" - closed
+*
+D 0 54605 2 1 100 0 0 0
+*     south exit from "A Well-Lit Cave" to
+*     "A Fork in the Pass" - closed
+*
+D 0 54619 3 1 100 0 0 0
+*     west exit from "A Halt in the River" to
+*     "A Slim Cavern" - closed
+*
+D 0 54806 1 1 100 0 0 0
+*     east exit from "A Slim Cavern" to
+*     "A Halt in the River" - closed
+*
+D 0 54630 4 2 100 0 0 0
+*     up exit from "A Guard Post" to
+*     "A Vertical Tunnel" - closed/locked
+*
+D 0 54631 5 1 100 0 0 0
+*     down exit from "A Vertical Tunnel" to
+*     "A Guard Post" - closed
+*
+D 0 54632 4 1 100 0 0 0
+*     up exit from "Below a Trapdoor" to
+*     "Before a Statue of Kvark" - closed
+*
+D 0 54633 5 5 100 0 0 0
+*     down exit from "Before a Statue of Kvark" to
+*     "Below a Trapdoor" - closed/secret
+*
+D 0 54657 1 5 100 0 0 0
+*     east exit from "The Great BloodField" to
+*     "Before a Reflecting Pool" - closed/secret
+*
+D 0 54798 3 1 100 0 0 0
+*     west exit from "Before a Reflecting Pool" to
+*     "The Great BloodField" - closed
+*
+D 0 54678 0 5 100 0 0 0
+*     north exit from "A Fork in the Gloomy Mountain Trail" to
+*     "A Pitch-Black Cave" - closed/secret
+*
+D 0 54681 2 1 100 0 0 0
+*     south exit from "A Pitch-Black Cave" to
+*     "A Fork in the Gloomy Mountain Trail" - closed
+*
+D 0 54685 3 5 100 0 0 0
+*     west exit from "A Bend in a Trail of Skattered Bones" to
+*     "A Dark Corner of the Trail" - closed/secret
+*
+D 0 54796 1 1 100 0 0 0
+*     east exit from "A Dark Corner of the Trail" to
+*     "A Bend in a Trail of Skattered Bones" - closed
+*
+D 0 54704 3 5 100 0 0 0
+*     west exit from "A Small Alcove" to
+*     "Entrance to a New Settlement" - closed/secret
+*
+D 0 54705 1 1 100 0 0 0
+*     east exit from "Entrance to a New Settlement" to
+*     "A Small Alcove" - closed
+*
+D 0 54708 0 1 100 0 0 0
+*     north exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54723 2 1 100 0 0 0
+*     south exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54708 2 1 100 0 0 0
+*     south exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54722 0 1 100 0 0 0
+*     north exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54709 0 1 100 0 0 0
+*     north exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54721 2 1 100 0 0 0
+*     south exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54709 2 1 100 0 0 0
+*     south exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54724 0 1 100 0 0 0
+*     north exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54710 3 1 100 0 0 0
+*     west exit from "Before the Great House" to
+*     "Entryway to the Outpost of Clan Shatter Stone" - closed
+*
+D 0 54734 1 1 100 0 0 0
+*     east exit from "Entryway to the Outpost of Clan Shatter Stone" to
+*     "Before the Great House" - closed
+*
+D 0 54711 1 1 100 0 0 0
+*     east exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54725 3 1 100 0 0 0
+*     west exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54711 3 1 100 0 0 0
+*     west exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54726 1 1 100 0 0 0
+*     east exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54712 1 1 100 0 0 0
+*     east exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54727 3 1 100 0 0 0
+*     west exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54712 3 1 100 0 0 0
+*     west exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54728 1 1 100 0 0 0
+*     east exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54715 0 1 100 0 0 0
+*     north exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54729 2 1 100 0 0 0
+*     south exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54715 2 1 100 0 0 0
+*     south exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54730 0 1 100 0 0 0
+*     north exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54716 0 1 100 0 0 0
+*     north exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54731 2 1 100 0 0 0
+*     south exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54716 2 1 100 0 0 0
+*     south exit from "A Road Through the Settlement" to
+*     "A Duergar Miner's Home" - closed
+*
+D 0 54732 0 1 100 0 0 0
+*     north exit from "A Duergar Miner's Home" to
+*     "A Road Through the Settlement" - closed
+*
+D 0 54720 3 1 100 0 0 0
+*     west exit from "Gates to the Duergar Temple" to
+*     "The Duergar Temple" - closed
+*
+D 0 54779 1 1 100 0 0 0
+*     east exit from "The Duergar Temple" to
+*     "Gates to the Duergar Temple" - closed
+*
+D 0 54737 0 1 100 0 0 0
+*     north exit from "The War Room" to
+*     "The Barracks" - closed
+*
+D 0 54738 2 1 100 0 0 0
+*     south exit from "The Barracks" to
+*     "The War Room" - closed
+*
+D 0 54737 2 1 100 0 0 0
+*     south exit from "The War Room" to
+*     "The Tactician's Room" - closed
+*
+D 0 54741 0 1 100 0 0 0
+*     north exit from "The Tactician's Room" to
+*     "The War Room" - closed
+*
+D 0 54737 3 1 100 0 0 0
+*     west exit from "The War Room" to
+*     "Office of the Liuetenant" - closed
+*
+D 0 54740 1 1 100 0 0 0
+*     east exit from "Office of the Liuetenant" to
+*     "The War Room" - closed
+*
+D 0 54744 3 1 100 0 0 0
+*     west exit from "The Great Hall of the Clan Shatter Stone Outpost" to
+*     "The Throne Room" - closed
+*
+D 0 54745 1 1 100 0 0 0
+*     east exit from "The Throne Room" to
+*     "The Great Hall of the Clan Shatter Stone Outpost" - closed
+*
+D 0 54746 3 1 100 0 0 0
+*     west exit from "Basement of The Outpost" to
+*     "A Tight Passage" - closed
+*
+D 0 54748 1 1 100 0 0 0
+*     east exit from "A Tight Passage" to
+*     "Basement of The Outpost" - closed
+*
+D 0 54817 3 8 100 0 0 0
+*     west exit from "A Damp and Extremely Cold Network of Caves" to
+*     "A Small and Dark Tunnel" - open/blocked
+*
+D 0 54834 1 0 100 0 0 0
+*     east exit from "A Small and Dark Tunnel" to
+*     "A Damp and Extremely Cold Network of Caves" - open
+*
+D 0 54831 1 5 100 0 0 0
+*     east exit from "A Damp and Extremely Cold Network of Caves" to
+*     "A Dark and Hidden Chamber" - closed/secret
+*
+D 0 54835 3 1 100 0 0 0
+*     west exit from "A Dark and Hidden Chamber" to
+*     "A Damp and Extremely Cold Network of Caves" - closed
+*
+*
+O 0 54619 1 54733 100 0 0 0        * a mithril sign
+O 0 54605 1 54737 100 0 0 0        * a fire pit
+O 0 54620 1 54742 100 0 0 0        * a mithril plaque
+O 0 54612 1 54787 100 0 0 0        * a reflecting pool
+O 0 54609 1 54795 100 0 0 0        * a pond
+O 0 54613 1 54798 100 0 0 0        * a reflecting pool
+O 0 54615 1 54817 100 0 0 0        * a large boulder
+*
+M 0 54601 9 54601 100 0 0 0        * a bobcat
+M 0 54621 5 54602 100 0 0 0        * a mountain goat
+M 0 54601 9 54604 100 0 0 0        * a bobcat
+M 0 54621 5 54604 100 0 0 0        * a mountain goat
+M 0 54600 1 54605 100 0 0 0        * an orc merchant
+G 1 54600 2 0 100 0 0 0            *    a rough, deep-blue backpack
+G 1 54601 3 0 100 0 0 0            *    a potion made of ogre toenail cheese
+M 0 54621 5 54607 100 0 0 0        * a mountain goat
+M 0 54601 9 54609 100 0 0 0        * a bobcat
+M 0 54601 9 54610 100 0 0 0        * a bobcat
+M 0 54603 5 54612 100 0 0 0        * a small shark
+M 0 54603 5 54614 100 0 0 0        * a small shark
+M 0 54603 5 54614 100 0 0 0        * a small shark
+M 0 54603 5 54617 100 0 0 0        * a small shark
+M 0 54603 5 54617 100 0 0 0        * a small shark
+M 0 54602 7 54621 100 0 0 0        * a pack wolf
+M 0 54602 7 54621 100 0 0 0        * a pack wolf
+M 0 54601 9 54622 100 0 0 0        * a bobcat
+M 0 54602 7 54625 100 0 0 0        * a pack wolf
+M 0 54602 7 54625 100 0 0 0        * a pack wolf
+M 0 54602 7 54625 100 0 0 0        * a pack wolf
+M 0 54621 5 54627 100 0 0 0        * a mountain goat
+M 0 54604 1 54630 100 0 0 0        * a drow scout
+G 1 54602 1 0 100 0 0 0            *    a shiny black key
+M 0 54626 8 54639 100 0 0 0        * a male mountain giant
+M 0 54627 7 54639 100 0 0 0        * a female mountain giant
+M 0 54628 6 54639 100 0 0 0        * a mountain giant child
+M 0 54626 8 54664 100 0 0 0        * a male mountain giant
+M 0 54627 7 54664 100 0 0 0        * a female mountain giant
+M 0 54628 6 54664 100 0 0 0        * a mountain giant child
+M 0 54626 8 54669 100 0 0 0        * a male mountain giant
+M 0 54625 1 54681 100 0 0 0        * a ghost shopkeeper
+G 1 54600 2 0 100 0 0 0            *    a rough, deep-blue backpack
+G 1 54601 3 0 100 0 0 0            *    a potion made of ogre toenail cheese
+M 0 54622 4 54682 100 0 0 0        * a skeleton
+M 0 54622 4 54682 100 0 0 0        * a skeleton
+M 0 54623 1 54685 100 0 0 0        * a gigantic skeleton
+M 0 54622 4 54687 100 0 0 0        * a skeleton
+M 0 54622 4 54687 100 0 0 0        * a skeleton
+M 0 54601 9 54703 100 0 0 0        * a bobcat
+M 0 54621 5 54703 100 0 0 0        * a mountain goat
+M 0 54605 10 54705 100 0 0 0       * a clansdwarf
+M 0 54605 10 54705 100 0 0 0       * a clansdwarf
+M 0 54608 5 54708 100 0 0 0        * an angry miner
+M 0 54605 10 54710 100 0 0 0       * a clansdwarf
+M 0 54605 10 54710 100 0 0 0       * a clansdwarf
+M 0 54605 10 54710 100 0 0 0       * a clansdwarf
+M 0 54608 5 54711 100 0 0 0        * an angry miner
+M 0 54608 5 54715 100 0 0 0        * an angry miner
+M 0 54608 5 54716 100 0 0 0        * an angry miner
+M 0 54608 5 54718 100 0 0 0        * an angry miner
+M 0 54605 10 54719 100 0 0 0       * a clansdwarf
+M 0 54605 10 54719 100 0 0 0       * a clansdwarf
+M 0 54605 10 54720 100 0 0 0       * a clansdwarf
+M 0 54605 10 54720 100 0 0 0       * a clansdwarf
+M 0 54607 6 54721 100 0 0 0        * a stout clansdwarf miner
+M 0 54607 6 54722 100 0 0 0        * a stout clansdwarf miner
+M 0 54606 6 54723 100 0 0 0        * a clansdwarf miner
+M 0 54606 6 54724 100 0 0 0        * a clansdwarf miner
+M 0 54607 6 54725 100 0 0 0        * a stout clansdwarf miner
+M 0 54607 6 54726 100 0 0 0        * a stout clansdwarf miner
+M 0 54606 6 54727 100 0 0 0        * a clansdwarf miner
+M 0 54606 6 54728 100 0 0 0        * a clansdwarf miner
+M 0 54607 6 54729 100 0 0 0        * a stout clansdwarf miner
+M 0 54606 6 54730 100 0 0 0        * a clansdwarf miner
+M 0 54606 6 54731 100 0 0 0        * a clansdwarf miner
+M 0 54607 6 54732 100 0 0 0        * a stout clansdwarf miner
+M 0 54615 5 54734 100 0 0 0        * a clansdwarf guardsman
+M 0 54615 5 54735 100 0 0 0        * a clansdwarf guardsman
+M 0 54615 5 54735 100 0 0 0        * a clansdwarf guardsman
+M 0 54615 5 54735 100 0 0 0        * a clansdwarf guardsman
+M 0 54612 1 54737 100 0 0 0        * an off-duty soldier
+M 0 54609 5 54738 100 0 0 0        * a duergar soldier
+M 0 54609 5 54738 100 0 0 0        * a duergar soldier
+M 0 54609 5 54739 100 0 0 0        * a duergar soldier
+M 0 54609 5 54739 100 0 0 0        * a duergar soldier
+M 0 54609 5 54739 100 0 0 0        * a duergar soldier
+M 0 54610 1 54740 100 0 0 0        * Plotok, the lieutenant
+E 1 54603 1 15 100 0 0 0           *   a purple wormskin bracer studded with obsidian
+G 1 54601 3 0 100 0 0 0            *    a potion made of ogre toenail cheese
+M 0 54611 1 54741 100 0 0 0        * the duergar tactician
+E 1 54604 1 16 100 0 0 0           *   a jagged shortsword
+M 0 54605 10 54742 100 0 0 0       * a clansdwarf
+M 0 54613 4 54743 100 0 0 0        * an elite duergar guard
+M 0 54613 4 54743 100 0 0 0        * an elite duergar guard
+M 0 54613 4 54744 100 0 0 0        * an elite duergar guard
+M 0 54613 4 54744 100 0 0 0        * an elite duergar guard
+M 0 54614 1 54745 100 0 0 0        * Glonvx, the duergar commander
+E 1 54606 1 2 100 0 0 0            *   a mithril ring embossed with obsidian shards
+E 1 54607 1 16 100 0 0 0           *   a dark ebony-bladed waraxe
+M 0 54615 5 54746 100 0 0 0        * a clansdwarf guardsman
+M 0 54618 9 54750 100 0 0 0        * a young rothe
+M 0 54617 8 54751 100 0 0 0        * a large rothe
+M 0 54616 8 54752 100 0 0 0        * a huge rothe
+M 0 54617 8 54753 100 0 0 0        * a large rothe
+M 0 54617 8 54754 100 0 0 0        * a large rothe
+M 0 54617 8 54756 100 0 0 0        * a large rothe
+M 0 54616 8 54757 100 0 0 0        * a huge rothe
+M 0 54618 9 54758 100 0 0 0        * a young rothe
+M 0 54616 8 54759 100 0 0 0        * a huge rothe
+M 0 54618 9 54760 100 0 0 0        * a young rothe
+M 0 54618 9 54762 100 0 0 0        * a young rothe
+M 0 54616 8 54763 100 0 0 0        * a huge rothe
+M 0 54618 9 54763 100 0 0 0        * a young rothe
+M 0 54618 9 54764 100 0 0 0        * a young rothe
+M 0 54617 8 54765 100 0 0 0        * a large rothe
+M 0 54618 9 54766 100 0 0 0        * a young rothe
+M 0 54616 8 54767 100 0 0 0        * a huge rothe
+M 0 54616 8 54768 100 0 0 0        * a huge rothe
+M 0 54617 8 54769 100 0 0 0        * a large rothe
+M 0 54617 8 54771 100 0 0 0        * a large rothe
+M 0 54616 8 54773 100 0 0 0        * a huge rothe
+M 0 54618 9 54774 100 0 0 0        * a young rothe
+M 0 54616 8 54776 100 0 0 0        * a huge rothe
+M 0 54618 9 54777 100 0 0 0        * a young rothe
+M 0 54617 8 54778 100 0 0 0        * a large rothe
+M 0 54619 1 54779 100 0 0 0        * the duergar priest
+E 1 54608 1 21 100 0 0 0           *   a tiny earring of dried blood
+M 0 54626 8 54781 100 0 0 0        * a male mountain giant
+M 0 54627 7 54781 100 0 0 0        * a female mountain giant
+M 0 54628 6 54781 100 0 0 0        * a mountain giant child
+M 0 54627 7 54783 100 0 0 0        * a female mountain giant
+M 0 54626 8 54784 100 0 0 0        * a male mountain giant
+M 0 54626 8 54786 100 0 0 0        * a male mountain giant
+M 0 54627 7 54786 100 0 0 0        * a female mountain giant
+M 0 54628 6 54786 100 0 0 0        * a mountain giant child
+M 0 54629 1 54787 100 0 0 0        * the mountain giant elder
+G 1 54614 1 0 100 0 0 0            *    a pair of skull-faced leg plates
+M 0 54626 8 54788 100 0 0 0        * a male mountain giant
+M 0 54627 7 54788 100 0 0 0        * a female mountain giant
+M 0 54628 6 54788 100 0 0 0        * a mountain giant child
+M 0 54601 9 54790 100 0 0 0        * a bobcat
+M 0 54601 9 54792 100 0 0 0        * a bobcat
+M 0 54620 1 54795 100 0 0 0        * Baum, the grove druid
+E 1 54610 1 9 100 0 0 0            *   the woven gloves of the harvest
+M 0 54624 1 54796 100 0 0 0        * a devious shadow
+E 1 54611 1 3 100 0 0 0            *   a necklace of dancing shadows
+M 0 54626 8 54797 100 0 0 0        * a male mountain giant
+M 0 54627 7 54797 100 0 0 0        * a female mountain giant
+M 0 54628 6 54797 100 0 0 0        * a mountain giant child
+M 0 54602 7 54800 100 0 0 0        * a pack wolf
+M 0 54602 7 54800 100 0 0 0        * a pack wolf
+M 0 54601 9 54802 100 0 0 0        * a bobcat
+M 0 4430 1 54806 100 0 0 0         * (mob type not in this .mob file)
+M 0 54634 7 54812 100 0 0 0        * a slimy nest matron
+M 0 54634 7 54812 100 0 0 0        * a slimy nest matron
+M 0 54634 7 54812 100 0 0 0        * a slimy nest matron
+M 0 54630 7 54816 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54816 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54816 100 0 0 0        * an hibernating pupa
+M 0 54630 7 54818 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54818 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54818 100 0 0 0        * an hibernating pupa
+M 0 54630 7 54819 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54819 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54819 100 0 0 0        * an hibernating pupa
+M 0 54630 7 54823 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54823 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54823 100 0 0 0        * an hibernating pupa
+M 0 54630 7 54824 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54824 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54824 100 0 0 0        * an hibernating pupa
+M 0 54634 7 54827 100 0 0 0        * a slimy nest matron
+M 0 54634 7 54827 100 0 0 0        * a slimy nest matron
+M 0 54634 7 54827 100 0 0 0        * a slimy nest matron
+M 0 54630 7 54829 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54829 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54829 100 0 0 0        * an hibernating pupa
+M 0 54630 7 54830 100 0 0 0        * an hibernating pupa
+M 0 54631 7 54830 100 0 0 0        * an hibernating pupa
+M 0 54632 7 54830 100 0 0 0        * an hibernating pupa
+M 0 54634 7 54830 100 0 0 0        * a slimy nest matron
+M 0 54633 1 54835 100 0 0 0        * a ravaged soul
+*
+S

@@ -1,0 +1,418 @@
+#13200
+pixie~
+&+ca small pixie~
+&+cA small pixie rests in the Northern Tower here.&n
+~
+    This small pixie seems to live in the Northern Tower under the
+protection of Mixt.  Mixt seems to have provided a good home
+for many of the pixie kind when he realized they lived in this
+forest, and they needed a home because of all the visitors.
+~
+8 0 0 0 0 0 0 1000 S
+HF 0 1 -1
+14 15 55 14d27+84 2d5+2
+7.5.2.0 6804
+8 8 1
+#13201
+gardener off duty off-duty~
+&+yan off-duty gardener&n~
+&+yAn off-duty gardener rests in his bunk here.&n
+~
+    The gardeners of the Northern Tower seem to do all of the work
+mainting the forest and the courtyard.  These off-duty gardeners
+seem to have spent the last ten or twelve hours out digging and
+planting, and have come back to their bunks for a rest.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+17 13 45 17d35+119 3d4+2
+8.6.2.0 8262
+8 8 1
+#13202
+gardener master~
+&+ythe master gardener~
+&+yThe master gardener rests in his bunk here.&n
+~
+   The master gardener seems to be an old man, who has spent most of
+his life gardening in these beautiful gardens and forest.  He
+has a rubbery old face and short silver hair.  He is dressed
+in overalls and a shirt. He seems to have been around here
+since Mixt and Lyena were still together.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 1
+#13203
+servant~
+&+ga relaxing servant&n~
+&+gA relaxing servant enjoys the garden.&n
+~
+    After a hard day's work, this servant has come to the gardens
+of the Northern Tower to rest and relax in the sunlight.  He
+is adorned in a forest-green suit of clothes.
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 2 -1
+19 13 39 19d35+133 3d4+2
+9.7.3.0 9234
+5 5 1
+#13204
+pixie~
+&+ca relaxing pixie~
+&+cA small pixie rests in the Northern Tower here.&n
+~
+    This small pixie seems to live in the Northern Tower under the
+protection of Mixt.  Mixt seems to have provided a good home
+for many of the pixie kind when he realized they lived in this
+forest, and they needed a home because of all the visitors.
+This pixie has come up to the garden to relax.
+~
+8 0 0 0 0 0 0 1000 S
+HF 0 1 -1
+22 11 29 22d47+220 3d5+3
+4.0.5.0 19602
+8 8 1
+#13205
+dragon~
+&+ga tamed baby dragon&n~
+&+gA tamed baby dragon lies here, sleeping.
+~
+     This seems to be a baby dragon, nursed back to health by
+Blaevyna.  The dragon seems to still be in its growing stages,
+that is why it's still here.
+~
+8 0 0 0 0 0 0 0 S
+D 0 64 -1
+45 8 -17 30d65+690 3d6+4
+0.5.9.4 53460
+4 4 1
+#13206
+blaevyna druid~
+&+gBlaevyna~
+&+mThe beautiful druid, Blaevyna, rests in here chamber here.&n
+~
+     Blaevyna appears to be a grey elf, and quite beautiful.  She
+has long brown hair and a nice figure, that is why Mixt probably
+brought her here over some of the other druids to help keep
+the forest up and running.
+~
+1073743882 0 0 0 0 0 0 0 S
+PE 0 128 -1
+35 6 -12 35d77+560 4d6+7
+9.9.1.2 45360
+8 8 2
+#13207
+mixt~
+&+yMixt~
+&+yMixt, owner of the Northern Tower, rests in his chamber here.&n
+~
+   Mixt appears to be a handsome middle aged half-elf.  As the tales
+are told, Lyena and him came to this forest seeking a place to
+settle down.  Lyena didn't want to live with Mixt at the time
+so they each built themselves a tower, and each tower was
+exactly alike on the outside, and very similiar on the insides.
+For a man who has lost his greatest love Lyena, he doesn't seem
+that depressed.
+~
+1073743882 0 0 0 0 0 0 1000 S
+P2 0 2 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#13208
+ghost _nofear_~
+&+Wthe ghost of a servant&n~
+&+WThe ghost of the servant roams his former tower.&n
+~
+    This seems to be one of the former servants of the Southern Tower..
+turned into a ghost.
+~
+1073743880 1 0 0 0 0 0 -1000 S
+UG 0 1 -1
+25 11 9 25d47+250 3d5+3
+0.0.0.0 22275
+8 8 0
+#13209
+servant~
+&+Wa pale faced servant&n~
+&+WA pale faced servant cowers in fear here.&n
+~
+  This servant seems to have escaped the orcish raid, and now cowers
+in this secret chamber here.  All he can keep saying is the word
+'Lyena!'
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 0 -1
+18 13 42 18d30+90 3d4+2
+9.7.3.0 8748
+8 8 1
+#13210
+plant~
+&+ga living plant&n~
+&+gA living plant serves the shop here.&n
+~
+    This plant serves the secret little shop here.. he is unable to do
+much else.
+~
+1073743882 0 0 0 0 0 0 1000 S
+VT 0 1 -1
+10 18 67 10d21+155 2d3+1
+0.0.0.0 1296
+8 8 0
+#13211
+vampire baker~
+a vampire of &+ya baker&n~
+A vampire of &+ya baker&n stands here, grinning.&n
+~
+   The vampire of the baker sits behidn the counter, draining the life
+force of anyone who might want to come in here.  Before he was
+turned into a vampire, he was probably quite a jolly old man,
+now he is a ferocious creature of the night.
+~
+1073743882 1 0 268435608 2048 0 0 -1000 S
+UV 0 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#13212
+orc~
+&+La huge orc&n~
+&+LA huge orc rumages through Lyena's things.&n
+~
+   This huge orc grunts and rummages through Lyena's things here,
+quite content in what he's doing.  He grunts and says 'Lyena nice
+human, let me in here' as he works.
+~
+1073743882 1 0 268435600 2048 0 0 -1000 S
+HO 0 1 -1
+36 2 -15 36d95+828 4d7+10
+0.1.2.2 46656
+8 8 1
+#13213
+lyena~
+&+LLyena~
+&+LLyena stands here, surrounded in a &+rred aura&n.
+~
+   Lyena was once a beautiful women who roamed the forest picking
+flowers and was in love with Mixt.  However, something sent her into
+a jealous rage.  She now stands here, dressed in all black, preparing
+for Mixt's demise.
+~
+8 0 0 0 0 0 0 -1000 S
+PH 0 1024 -1
+36 2 -15 36d64+756 4d7+10
+0.1.2.2 46656
+8 8 2
+#13214
+warrior strong elven~
+&+ca strong elven warrior&n~
+&+cA strong elven warrior sits here, trying to work a lever!&n
+~
+  ` Lyena, the bastard, locked me in here, I'm sure of it' , he says
+to you. This elven warrior seems to have been the chief of the
+guards of the Southern Tower, but Lyena had broken the lever
+and trapped this poor grey elf in here.  He mutters the words 'Lyena'
+~
+1073743880 0 0 0 0 0 0 1000 S
+PE 0 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#13215
+monk~
+a humble monk~
+A humble monk walks the grounds here.
+~
+     This monk seems to live at the temple and is out for a daily
+walk around the gardens.  He is dressed in a simple pair of robes
+and some wooden sandles.  He smiles as people walk by.
+~
+34824 0 0 0 0 0 0 0 S
+PH 0 64 -1
+11 15 64 11d27+66 2d5+2
+5.4.1.0 5346
+8 8 1
+#13216
+priest head~
+&+Wthe head priest&n~
+&+WThe head priest of the temple stands at the altar here.
+~
+    The head priest of the temple stands at the altar here, dressed
+all in white.  He seems like a rather jolly fellow, except he has
+a great fear about the owners of the towers.
+~
+1073743882 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+37 2 -18 37d88+814 4d7+10
+0.1.2.2 47952
+8 8 1
+#13217
+priest young~
+a young priest~
+A young priest stands here, waiting at the door.
+~
+   This young priest is barely recognizable from the monks, except
+he wears white robes instead of plain robes.
+~
+10 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+12 15 61 12d25+60 2d5+2
+6.4.2.0 5832
+8 8 1
+#13218
+priest young~
+a young priest~
+A young priest stands here, wandering the gardens.
+~
+   This young priest is barely recognizable from the monks, except
+he wears white robes instead of plain robes.
+~
+10 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+14 15 55 14d25+70 2d5+2
+7.5.2.0 6804
+8 8 1
+#13219
+monk~
+&+ya very old monk&n~
+&+yA very old monk sits in meditation.&n
+~
+&+y  This monk wears the tattered robes of the greatest of monk masters
+&+yand appears to be in a perfect state of mind as he sits here in this
+&+ysmall space.  His head is bald, but his face is that of a hardened
+&+ywarrior who has obviously been in battle.
+~
+1073776650 32 0 805306520 14529 0 0 1000 S
+PH 0 64 -1
+40 2 -28 40d95+920 4d7+10
+3.3.3.3 51840
+8 8 1
+#13220
+miner duergar~
+&+La captured &+rduergar&n~
+&+LA captured &+rduergar miner&+L is chained against the wall.&n
+~
+&+LThs duergar miner is chained against the wall.  He wears the insignia of some underdark miner guild.  His face is covered with dirt as he was captured in the middle of a tunneling expedition.  Though he has been disarmed, he looks very stout and tough from years as a miner.
+~
+2058 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#13221
+halfling mercenary~
+&+ya halfling mercenary&n~
+&+yA halfling mercenary stands here, questioning the duergar.&n
+~
+This halfling mercenary is from the town of Woodseer to the north, temporarily staying in the north tower at the request of Mixt.  This halfling mercenary is dressed in jodani armor, the preferred armor type for those that live in woodseer.  This halfing seems to be very concerned about the state of the North Tower, now that a tunnel has been discovered.
+~
+1073743882 0 0 0 0 0 0 1000 S
+PF 0 16384 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#13222
+halfling councilor~
+&+ya halfling &+bcouncilor&n~
+&+yA halfling &+bcouncilor&+y stands here overseeing the patched wall.&n
+~
+The halfling councilor stands tall, for a halfling.  Being brought in by Mixt, the halfling councilor was placed here to guard the tunnel that was dug to this tower.  His guard like appearance shows as he listens intently, often with his ear to the patched wall.  His clothes are that of Woodseer nobility, with the only outstanding piece of equipment being a feathered bodycloak.
+~
+1073743882 384 0 268443800 0 0 0 1000 S
+PF 0 32 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#13223
+duergar miner~
+a duergar miner~
+A member of the duergar mining team perfects the tunnel.
+~
+This duergar miner is part of a clan that has tried to tunnel from the underdark to the surface.  However, they have met resistance from Mixt in the north tower and the priest in the temple.  Fortunately for the duergar mining team, they have found an alliance with the southern tower who has permitted them to at least get this far.  This duergar is very dirty, having spent the past many months digging without returning to his home in Khildarak.
+~
+1073743880 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#13224
+hook horror~
+a hook horror~
+A hook horror hangs from the ceiling here.
+~
+This creature hangs from the ceiling, ready to drop its spikes down into someone passing below.
+~
+2058 1 0 0 0 0 0 0 S
+A 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#13225
+leader miner duergar~
+&+rthe duergar mining leader&n~
+&+rThe duergar mining leader stands here, coordinating the efforts.&n
+~
+The duergar mining leader is the coordinator of the mining team that is trying to reach the surface.  He stands behind the tunnel, barking orders at the miners as they finish the tunnel.  He is battle scarred and carries a large axe, in case he must defend the team from intrudors.
+~
+1073743882 0 0 136 0 0 0 -1000 S
+PD 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#13226
+roper~
+a &+glarge roper&n~
+A &+glarge roper&n sleeps in its large slimy home.&n
+~
+~
+1073743946 1 0 402653336 0 0 1024 0 S
+A 0 1 4
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 2
+#13227
+pixie elder~
+&+can elder pixie&n~
+&+cAn elder pixie sits here in his study.&n
+~
+  This elder pixie sits around his study, examining various
+specimens of life that he has collected in the forest.
+Ranging from jars of small insects to various flowers, spices,
+and herbs, this elder pixie enjoys the study of nature and his
+study reflects it.
+~
+1073743882 0 0 0 0 0 0 1000 S
+HF 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#13228
+shadow~
+&+La dark shadow&n~
+&+LA dark shadow covers everything here.&n
+~
+  This shadow covers everything in the room.
+Looking at the shadow makes you feel dizzy.
+~
+1073743882 0 0 0 0 0 0 0 S
+SW 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#13229
+lord talfyn figure~
+&+LLord Talfyn&n~
+&+LA figure cloaked in an aura of &+rdread&+L stands here.&n
+~
+   &+LLord Talfyn is a mysterious figure, travelling the lands to spread&n
+&+Lhate and discontent wherever he goes. Rumor has it he sews the seeds of&n
+&+Ldespair, and then waits for them to take root. Then, he harvests his crop&n
+&+Lof sorrow. He stares at you as you approach him, waiting to make a &+Wdeal&n
+~
+8 0 0 537395352 0 0 0 0 S
+UL 0 0 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

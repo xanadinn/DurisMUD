@@ -1,0 +1,255 @@
+#98700
+limping skeleton weary~
+&+Wa limping skeleton&n~
+&+WA weary skeleton limps through the passages here.
+~
+&+WThis skeleton limps along, seemingly oblivious of the fact that its right leg
+&+Wis twisted around 180 degrees at the knee. It would charge at you and take its
+&+Wpent up aggression on the living...but its just too tired.
+~
+8 1 0 0 0 0 0 -1000 S
+SK 0 0 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98701
+ghoul guard~
+&+La dark ghoul~
+&+LA &+Wghoul of a gate guard &+Lfades into the shadows maintaining his silent vigil
+~
+&+LBefore being rudely deprived of life, this ghoul used to be part of the force
+&+Lwho guarded the eastern end of the outpost from invaders from the forest.
+&+LEven in death, the directive to stop the incursions of the mad duergar is so
+&+Lstrong as to compel this poor soul to man his post.
+~
+1140852746 1 0 0 0 0 0 -1000 S
+U 0 0 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98702
+squirrel skeleton~
+&+La &+Wskeletal &+Lsquirrel&n~
+&+LAn undead squirrel slumps against a tree branch here, &+rred eyes &+Lburning brightly.
+~
+The magic that animated the town also affected the denizens of this forest.
+Doomed to wander this forest for all of its un-life, this skeleton has
+resigned itself to its fate.
+~
+72 1 0 256 0 0 0 0 S
+SK 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98703
+ghoul wolf~
+&+Ythe ghoul of a &+Lwolf&n~
+&+YA large ghoul in the form of a &+Lwolf &+Yslavers ravenously as he approaches you.
+~
+&+LWhat was once a fierce hunter, death has merely made more powerful. Gifted
+&+Lwith the form of the undead, this wolf roams the forest looking to find and
+&+Ldismember any living being who enters its domain. Madness gleams in its eyes
+&+Land a &+Yfoam of saliva&+L dribbles out of its mouth.
+~
+2120 1 0 0 0 0 0 0 S
+U 0 0 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98704
+duergar assassin~
+&+ra duergar assassin&n~
+&+rA duergar assassin lurks here waiting for the sun to set.
+~
+&+rThis duergar has spent a hard day slaughtering and causing the mighty
+&+rto flee. To avoid the burn of the sun, he has come to this
+&+runderground hideout.
+~
+1073744074 1 0 1573144 2 0 0 -1000 S
+PD 0 8192 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98705
+ghoul~
+&+La formless ghoul~
+&+LA once dead ghoul lurks here, transparant and shapless
+~
+&+LLittle more than a dark shadow amid the tangled vegetation, this formless ghoul
+&+Lsilently moves through the area. Filled with a burning hatred for the living,
+&+Lit never pauses in its quest to bring about death.
+~
+8 1 0 0 0 0 0 -1000 S
+U 0 0 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98706
+vicious rat~
+&+ya vicious rat&n~
+&+yFresh from a feast on the undead, a vicious rat glares at you.
+~
+&+yDeprived of living flesh, these giant rats have taken to feasting on the undead
+&+ydenizens of the outpost. Nearly four feet long, and two feet high, these rats
+&+yare like no others. Perhaps they have taken on some of the necromantic power
+&+ythat animated the undead above.
+~
+72 1 0 0 0 0 0 -1000 S
+A 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98707
+hideous ghoul~
+&+La hideous ghoul&n~
+&+LA hideous ghoul seeks to feast on the living.
+~
+&+wHorribly disfigured, and covered with &+roo&+Rzi&+rng &+Lsores, this ghoul shambles about
+&+wthe outpost. The &+Grank odor &+Lalone would be enough to bring most living creatures
+&+wto their knees, where its razor sharp talons are more than enough to finish the
+&+wjob.
+~
+8 1 0 0 0 0 0 -1000 S
+U 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98708
+shaggy werewolf~
+&+ya shaggy werewolf&n~
+&+yA large werewolf lurches around, saliva dribbling from his jaws.
+~
+&+yCovered in coarse brown fur, this shaggy werewolf is right at home with the
+&+yundead who took over the outpost. Cursed to much the same fate, it roams the
+&+ymountains looking to create havoc and destruction.
+~
+8 1 0 0 0 0 0 -1000 S
+L 0 0 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98709
+mindless ghast~
+&+ma mindless ghast&n~
+&+mA mindless ghast roams the area here looking for something to feed on.
+~
+&+mThe process of animation has left this once human ghast completely mindless.
+&+mUnseeing eyes stare vacantly out at the world, but the lobotomized brain
+&+mdoesn't react. As such, this being is completely unpredictable, given to
+&+mviolent fits.
+~
+8 1 0 0 0 0 0 0 S
+U 0 0 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98710
+cook undead~
+&+Wan undead &+gcook&n~
+&+WThe rotted remains of the outpost's cook have been animated.
+~
+&+WChunks of rotting flesh drop off the form of this undead. From the worn apron
+&+Wand massive cleaver it appears as though this was once the cook of the outpost,
+&+Wand in death it continues along the same path. A wild gleam in its eyes
+&+Wtestifies to its willingness to put that cleaver to use, and it has had many
+&+Wlong years of practice.
+~
+2122 1 0 0 0 0 0 -1000 S
+ZO 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98711
+vampire lookout~
+&+ra vampiric lookout&n~
+&+rA large vampire mans the gate, eternally watching over the canyon below.
+~
+&+rOnce the outpost's lookout, this vampire continues to fix its gaze into the
+&+rcanyon below. Nothing passes this area without its knowledge. If anything,
+&+rdeath has sharpened this lookout's senses, as it now sees with the sight of the undead.
+~
+2058 1 0 0 0 0 0 -1000 S
+UV 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98712
+zombie merchant~
+&+Ythe zombie of a merchant&n~
+&+YThe broken body of a merchant has been reanimated and is filled with hate.
+~
+&+YShattered limbs hang limply from the twisted joints of this former merchant.
+&+YIt looks as though he was beaten to death in a particularly brutal manner, and
+&+Yleft here to rot for some time before being re-animated. As a result, this
+&+Yzombie looks far more dead than alive.
+~
+2058 1 0 0 0 0 0 -1000 S
+ZO 0 16 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98713
+golem stone necromancer giant~
+&+LA giant stone golem&n~
+&+LMade entirely of stone, this giant golem is NOT happy that you are here.
+~
+&+LAs you enter the room the golem's &+reyes&+L light up. "Finally! With your blood
+&+LI'll be able to return to my human form! Don't worry...this won't hurt...much"
+~
+2122 1 0 939598332 14557 0 0 -1000 S
+OG 0 1024 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98714
+black raven~
+&+La jet-black raven&n~
+&+LA large raven, the harbringer of the dead, sits in a branch here.
+~
+Covered in jet black feather, this bird melts seemlessly into the surrounding
+darkness.
+~
+131144 1 0 0 0 0 0 0 S
+B 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98715
+shade weaponsmaster~
+&+Gthe shade of the weaponsmaster&n~
+&+GThe shade of the weaponsmaster glares at anyone who disturbs him.
+~
+Tall and proud, this undead retains much of his skills, although he no longer
+hesitates to use them.
+~
+2058 1 0 0 0 0 0 -1000 S
+SA 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98716
+armorer spectre~
+&+mthe former armorer&n~
+&+MThe spectre of the armorer charges to attack.
+~
+&+mThis former shopkeeper defends his turf using whatever implements he can get
+&+mhis hands on.
+~
+1073741966 1 0 0 0 0 0 -1000 S
+SP 0 4096 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98717
+swarm angry flies~
+&+Lan angered swarm&n~
+&+LBuzzing about angrily a huge cloud of flies feeds off the corpses.
+~
+Thousands of large black flies comprise this swarm, feeding off the abundant
+carrion.
+~
+1073875016 1 0 0 0 0 0 -1000 S
+I 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

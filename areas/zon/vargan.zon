@@ -1,0 +1,93 @@
+#21
+&+LVargan&n~
+2193 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 2127 3 0 100 0 0 0
+*     west exit from " Ancient Storeroom" to
+*     " Scrag River" - open
+*
+D 0 2128 1 0 100 0 0 0
+*     east exit from " Scrag River" to
+*     " Ancient Storeroom" - open
+*
+D 0 2151 1 0 100 0 0 0
+*     east exit from " Ancient Passageway" to
+*     " Limestone Cavern" - open
+*
+D 0 2152 3 0 100 0 0 0
+*     west exit from " Limestone Cavern" to
+*     " Ancient Passageway" - open
+*
+*
+O 0 2126 2 2127 100 0 0 0          * an ancient shoulder plate
+O 0 2127 1 2152 100 0 0 0          * an ancient breast plate
+O 0 2126 2 2160 100 0 0 0          * an ancient shoulder plate
+O 0 2100 1 2163 100 0 0 0          * a glowing, ancient forge
+P 1 2101 1 2100 100 0 0 0          *   a ball of living flame
+O 0 2103 1 2166 100 0 0 0          * a half-eaten corpse of a druid
+*
+M 0 2100 5 2109 100 0 0 0          * a hobgoblin warrior
+M 0 2100 5 2110 100 0 0 0          * a hobgoblin warrior
+M 0 2100 5 2113 100 0 0 0          * a hobgoblin warrior
+G 1 2108 1 0 100 0 0 0             *    a deep red cloak
+G 1 2109 2 0 100 0 0 0             *    a large morning-star
+M 0 2100 5 2113 100 0 0 0          * a hobgoblin warrior
+M 0 2100 5 2114 100 0 0 0          * a hobgoblin warrior
+E 1 2109 2 16 100 0 0 0            *   a large morning-star
+M 0 2101 8 2120 100 0 0 0          * a savage orog
+M 0 2101 8 2122 100 0 0 0          * a savage orog
+M 0 2101 8 2125 100 0 0 0          * a savage orog
+M 0 2109 1 2127 100 0 0 0          * an orog shaman
+E 1 2106 1 10 100 0 0 0            *   a pair of drow-skin sleeves
+E 1 2114 1 15 100 0 0 0            *   a drow-skin bracelet
+M 0 2110 1 2127 100 0 0 0          * an orog rogue
+E 1 2119 1 16 100 0 0 0            *   a long-bladed dagger
+M 0 2101 8 2127 100 0 0 0          * a savage orog
+M 0 2102 8 2129 100 0 0 0          * the fierce scrag
+M 0 2102 8 2132 100 0 0 0          * the fierce scrag
+G 1 2113 4 0 100 0 0 0             *    a red diamond
+M 0 2102 8 2134 100 0 0 0          * the fierce scrag
+G 1 2113 4 0 100 0 0 0             *    a red diamond
+M 0 2102 8 2136 100 0 0 0          * the fierce scrag
+M 0 2102 8 2138 100 0 0 0          * the fierce scrag
+M 0 2102 8 2139 100 0 0 0          * the fierce scrag
+G 1 2113 4 0 100 0 0 0             *    a red diamond
+M 0 2102 8 2139 100 0 0 0          * the fierce scrag
+M 0 2103 1 2143 100 0 0 0          * Drake
+E 1 2117 1 9 100 0 0 0             *   a pair of wafer thin gloves
+E 1 2118 1 12 100 0 0 0            *   a dingy white robe
+M 0 2102 8 2146 100 0 0 0          * the fierce scrag
+G 1 2113 4 0 100 0 0 0             *    a red diamond
+M 0 2105 1 2152 100 0 0 0          * the orog leader
+E 1 2122 1 8 100 0 0 0             *   a pair of minotaur boots
+E 1 2124 1 16 100 0 0 0            *   an orog longsword
+E 1 2121 1 20 100 0 0 0            *   a mask of the minotaur
+G 1 2123 1 0 100 0 0 0             *    a suit of orog splint mail
+M 0 2101 8 2155 100 0 0 0          * a savage orog
+M 0 2101 8 2155 100 0 0 0          * a savage orog
+M 0 2101 8 2160 100 0 0 0          * a savage orog
+M 0 2101 8 2162 100 0 0 0          * a savage orog
+M 0 2104 1 2163 100 0 0 0          * Norkon Longbeard
+E 1 2116 1 6 100 0 0 0             *   an ancient dwarven battle helm
+E 1 2115 1 16 100 0 0 0            *   a rune-covered axe
+M 0 2108 2 2167 100 0 0 0          * a starved minotaur
+M 0 2108 2 2168 100 0 0 0          * a starved minotaur
+M 0 2106 6 2173 100 0 0 0          * the ravenous minotaur
+E 1 2111 4 16 100 0 0 0            *   a black sword
+E 1 2112 1 21 100 0 0 0            *   a golden, shattered skull earring
+M 0 2106 6 2174 100 0 0 0          * the ravenous minotaur
+E 1 2111 4 16 100 0 0 0            *   a black sword
+M 0 2106 6 2174 100 0 0 0          * the ravenous minotaur
+E 1 2111 4 16 100 0 0 0            *   a black sword
+M 0 2106 6 2177 100 0 0 0          * the ravenous minotaur
+M 0 2106 6 2186 100 0 0 0          * the ravenous minotaur
+E 1 2110 1 3 100 0 0 0             *   a chain of gold links
+E 1 2111 4 16 100 0 0 0            *   a black sword
+M 0 2106 6 2186 100 0 0 0          * the ravenous minotaur
+M 0 2107 1 2193 100 0 0 0          * an evil spectator
+G 1 2129 1 0 100 0 0 0             *    a shield of dragonbone
+*
+S

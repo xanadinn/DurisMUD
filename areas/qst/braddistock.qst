@@ -1,0 +1,67 @@
+#1314
+M
+hi hello help~
+When Lord Braddistock sees you trying to communicate with him,
+he smiles, walks towards you and puts out his hand for a
+handshake... But he's long dead, so the whole experience
+is somewhat unnerving.
+
+"Oh!  Tharnadia pest control's finally arrived, has it?
+My god you're late -- but better late than never I
+suppose.  I've been having a rat problem ever since
+the banquet I held a few weeks ago.  Oh, it's so
+embarassing.  I swear Lord Longbourne is responsible,
+that damn fool is a peasant in nobleman's clothing.
+Anyways, my cat, Slippers is usually good about
+getting these pests, but he's no where to be found.
+If you do find him while you work, let me know."
+~
+MA
+qc_action 80~
+&+WA Winterhaven cleric&N stands, and begins to shout at Lord
+Braddistock in a commanding voice:
+
+"The power of Lathander compels you!  Begone from this place!!!"
+
+&+bLord Braddistock&N raises his eyebrow at the &+WWinterhaven cleric.&N
+
+&+WA Winterhaven cleric&N sighs loudly.
+~
+QA
+Lord Braddistock smiles
+~
+R I 1375
+R E 150000
+G I 1340
+D
+"Well, thanks for stopping by.  You even found
+Slippers! I'll send payment to Tharnadia Pest
+Control tomorrow -- I'll even put in a good
+word for your boss!"
+
+The spirit of Lord Braddistock begins to fade away...
+~
+S
+#1316
+M
+qc_action 50~
+Meow!
+
+The jaguar gets up to try and rub itself against you.
+Its chains stop it mid-way, however.
+~
+Q
+Meeeeeeow!
+
+The jaguar tries to rub itself against you after you release him.
+It's a ghost, however, and merely passes through you.  The beast
+runs off westwards, and you hear the terrified shrieks of rats
+in the distance.  You get the feeling that Lord Braddistock's
+rat problems are soon over.
+~
+R I 1340
+G I 1334
+D
+A collar drops to the ground, and you pick it up.
+~
+S

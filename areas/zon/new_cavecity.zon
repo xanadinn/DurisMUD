@@ -1,0 +1,216 @@
+#151
+&+yNew Cave &+Lcity&n~
+15186 0 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 15103 0 2 100 0 0 0
+*     north exit from "The Gates to the Cavern of Death" to
+*     "Inside the Gates of the Cavern of Death" - closed/locked
+*
+D 0 15104 2 2 100 0 0 0
+*     south exit from "Inside the Gates of the Cavern of Death" to
+*     "The Gates to the Cavern of Death" - closed/locked
+*
+D 0 15105 3 1 100 0 0 0
+*     west exit from "The House of the Damned" to
+*     "The Caverns of Death" - closed
+*
+D 0 15186 1 1 100 0 0 0
+*     east exit from "The Caverns of Death" to
+*     "The House of the Damned" - closed
+*
+D 0 15115 3 1 100 0 0 0
+*     west exit from "The Lair of the Cleric" to
+*     "The Caverns of Death" - closed
+*
+D 0 15184 1 1 100 0 0 0
+*     east exit from "The Caverns of Death" to
+*     "The Lair of the Cleric" - closed
+*
+D 0 15116 0 2 100 0 0 0
+*     north exit from "The Guardian of the Lair" to
+*     "Inside the Home of Akabar" - closed/locked
+*
+D 0 15121 2 2 100 0 0 0
+*     south exit from "Inside the Home of Akabar" to
+*     "The Guardian of the Lair" - closed/locked
+*
+D 0 15119 3 1 100 0 0 0
+*     west exit from "The Cavern of the Dead" to
+*     "Entrance to the Dungeon of Death" - closed
+*
+D 0 15123 1 1 100 0 0 0
+*     east exit from "Entrance to the Dungeon of Death" to
+*     "The Cavern of the Dead" - closed
+*
+D 0 15133 2 1 100 0 0 0
+*     south exit from "The Caverns of Death" to
+*     "Entrance to the Library" - closed
+*
+D 0 15134 0 1 100 0 0 0
+*     north exit from "Entrance to the Library" to
+*     "The Caverns of Death" - closed
+*
+D 0 15135 2 1 100 0 0 0
+*     south exit from "The Caverns of Death" to
+*     "Quturac's Lair" - closed
+*
+D 0 15136 0 1 100 0 0 0
+*     north exit from "Quturac's Lair" to
+*     "The Caverns of Death" - closed
+*
+D 0 15138 4 1 100 0 0 0
+*     up exit from "End of the Caverns of Death" to
+*     "Top of the Stone Stairway" - closed
+*
+D 0 15147 5 1 100 0 0 0
+*     down exit from "Top of the Stone Stairway" to
+*     "End of the Caverns of Death" - closed
+*
+D 0 15144 2 2 100 0 0 0
+*     south exit from "End of the Small Tunnel" to
+*     "Entrance to Lair of the Wraith" - closed/locked
+*
+D 0 15145 0 2 100 0 0 0
+*     north exit from "Entrance to Lair of the Wraith" to
+*     "End of the Small Tunnel" - closed/locked
+*
+D 0 15150 2 0 100 0 0 0
+*     south exit from "End of the Mine Tunnel" to
+*     "The Mine Shaft" - open
+*
+D 0 15151 0 0 100 0 0 0
+*     north exit from "The Mine Shaft" to
+*     "End of the Mine Tunnel" - open
+*
+D 0 15153 2 1 100 0 0 0
+*     south exit from "The Hallway" to
+*     "Entrance to Akulab's Lair" - closed
+*
+D 0 15154 0 1 100 0 0 0
+*     north exit from "Entrance to Akulab's Lair" to
+*     "The Hallway" - closed
+*
+D 0 15158 1 2 100 0 0 0
+*     east exit from "Inside the Mine" to
+*     "The Mine Shaft" - closed/locked
+*
+D 0 15160 3 2 100 0 0 0
+*     west exit from "The Mine Shaft" to
+*     "Inside the Mine" - closed/locked
+*
+*
+O 0 15130 1 15122 100 0 0 0        * a bloodied corpse
+O 0 15135 1 15122 100 0 0 0        * a stretching table
+O 0 15139 1 15161 100 0 0 0        * an old sign
+*
+M 0 15105 8 15100 100 0 0 0        * a ghast
+M 0 15104 8 15101 100 0 0 0        * a ghoul
+M 0 15100 1 15103 100 0 0 0        * the skeleton gate guard
+E 1 15103 1 15 100 0 0 0           *   a glowing skeletal bracer
+G 1 15100 1 0 100 0 0 0            *    a deep indigo key
+M 0 15105 8 15104 100 0 0 0        * a ghast
+M 0 15123 5 15105 100 0 0 0        * an undead child
+M 0 15104 8 15105 100 0 0 0        * a ghoul
+M 0 15105 8 15105 100 0 0 0        * a ghast
+M 0 15123 5 15106 100 0 0 0        * an undead child
+M 0 15103 8 15109 100 0 0 0        * an evil-looking wight
+M 0 15107 9 15109 100 0 0 0        * an undead dragon
+M 0 15104 8 15109 100 0 0 0        * a ghoul
+M 0 15110 1 15110 100 0 0 0        * the soul of an undead wife
+M 0 15111 1 15110 100 0 0 0        * the soul of an undead husband
+G 1 15114 1 0 100 0 0 0            *    an ancient runed girth
+M 0 15123 5 15110 100 0 0 0        * an undead child
+M 0 15123 5 15111 100 0 0 0        * an undead child
+M 0 15101 6 15114 100 0 0 0        * the skeletal knight
+M 0 15104 8 15114 100 0 0 0        * a ghoul
+M 0 15101 6 15115 100 0 0 0        * the skeletal knight
+M 0 15108 1 15116 100 0 0 0        * Autexil the Guardian
+E 1 15111 1 10 100 0 0 0           *   a deep-blue set of sleeves
+E 1 15110 1 12 100 0 0 0           *   a deep-blue cape
+E 1 15143 2 16 100 0 0 0           *   a steel longsword
+E 1 15143 2 17 100 0 0 0           *   a steel longsword
+G 1 15102 1 0 100 0 0 0            *    a glowing aqua-colored key
+M 0 15104 8 15118 100 0 0 0        * a ghoul
+M 0 15102 5 15119 100 0 0 0        * a vampiric warg
+M 0 15109 1 15120 100 0 0 0        * Akabar
+E 1 15112 1 2 100 0 0 0            *   a glowing crystal ring
+E 1 15113 1 10 100 0 0 0           *   some glowing magic bracers
+M 0 15125 1 15122 100 0 0 0        * Jurtrem the Dreaded
+E 1 15121 1 5 100 0 0 0            *   a suit of bone mail
+E 1 15125 1 6 100 0 0 0            *   a black executioner's hood
+E 1 15128 1 16 100 0 0 0           *   the axe of the executioner
+M 0 15101 6 15124 100 0 0 0        * the skeletal knight
+E 1 15106 1 6 100 0 0 0            *   a glowing skeletal helm
+E 1 15105 1 8 100 0 0 0            *   a pair of indigo-plated boots
+M 0 15112 1 15126 100 0 0 0        * Ordack
+E 1 15115 1 18 100 0 0 0           *   the shard of a demon
+M 0 15101 6 15127 100 0 0 0        * the skeletal knight
+M 0 15107 9 15127 100 0 0 0        * an undead dragon
+M 0 15107 9 15128 100 0 0 0        * an undead dragon
+M 0 15102 5 15130 100 0 0 0        * a vampiric warg
+M 0 15107 9 15131 100 0 0 0        * an undead dragon
+M 0 15101 6 15133 100 0 0 0        * the skeletal knight
+M 0 15102 5 15135 100 0 0 0        * a vampiric warg
+M 0 15105 8 15136 100 0 0 0        * a ghast
+M 0 15107 9 15137 100 0 0 0        * an undead dragon
+M 0 15104 8 15138 100 0 0 0        * a ghoul
+M 0 15106 1 15139 100 0 0 0        * Quturac, the skeletal death dragon
+E 1 15108 1 5 100 0 0 0            *   a suit of crimson bloodstained scalemail
+E 1 15109 1 6 100 0 0 0            *   a spiked dragon helmet
+E 1 15107 1 16 100 0 0 0           *   a flaming-red dragon spear
+G 1 15104 1 0 100 0 0 0            *    a key made from bones
+M 0 15120 1 15141 100 0 0 0        * the undead wizard
+G 1 15119 100 0 100 0 0 0          *    a fiery red potion
+G 1 15119 100 0 100 0 0 0          *    a fiery red potion
+G 1 15119 100 0 100 0 0 0          *    a fiery red potion
+G 1 15119 100 0 100 0 0 0          *    a fiery red potion
+M 0 15127 9 15142 100 0 0 0        * a shadow lord
+M 0 15113 1 15143 100 0 0 0        * Dranum the Slayer
+E 1 15141 1 5 100 0 0 0            *   the platemail of the great wraith Dranum
+E 1 15140 1 20 100 0 0 0           *   a pitch-black leather mask
+E 1 15116 1 16 100 0 0 0           *   the sword of tormenting
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55182 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 15127 9 15143 100 0 0 0        * a shadow lord (following)
+F 1 15127 9 15143 100 0 0 0        * a shadow lord (following)
+F 1 15127 9 15143 100 0 0 0        * a shadow lord (following)
+F 1 15127 9 15143 100 0 0 0        * a shadow lord (following)
+M 0 15127 9 15143 100 0 0 0        * a shadow lord
+M 0 15127 9 15143 100 0 0 0        * a shadow lord
+M 0 15102 5 15144 100 0 0 0        * a vampiric warg
+M 0 15103 8 15144 100 0 0 0        * an evil-looking wight
+M 0 15107 9 15144 100 0 0 0        * an undead dragon
+M 0 15127 9 15145 100 0 0 0        * a shadow lord
+M 0 15127 9 15146 100 0 0 0        * a shadow lord
+M 0 15104 8 15147 100 0 0 0        * a ghoul
+M 0 15105 8 15148 100 0 0 0        * a ghast
+M 0 15105 8 15152 100 0 0 0        * a ghast
+M 0 15103 8 15153 100 0 0 0        * an evil-looking wight
+M 0 15103 8 15153 100 0 0 0        * an evil-looking wight
+M 0 15103 8 15153 100 0 0 0        * an evil-looking wight
+M 0 15114 1 15157 100 0 0 0        * Akulab the Overlord
+E 1 15118 1 7 100 0 0 0            *   a pair of shadow leggings
+E 1 15117 1 9 100 0 0 0            *   the gauntlets of power
+M 0 15115 1 15158 100 0 0 0        * Dred the Guardian of the Mine
+G 1 15122 1 0 100 0 0 0            *    a large gray sack
+P 1 15101 1 15122 100 0 0 0        *   a large grey mine key
+M 0 15103 8 15167 100 0 0 0        * an evil-looking wight
+M 0 15102 5 15173 100 0 0 0        * a vampiric warg
+M 0 15124 1 15174 100 0 0 0        * the undead boat keeper
+G 1 15142 1 0 100 0 0 0            *    a small skiff
+M 0 15126 1 15179 100 0 0 0        * the kraken
+E 1 15138 1 16 100 0 0 0           *   a pronged kraken's trident
+F 1 15116 3 15179 100 0 0 0        * a water elemental (following)
+F 1 15116 3 15179 100 0 0 0        * a water elemental (following)
+F 1 15116 3 15179 100 0 0 0        * a water elemental (following)
+M 0 15121 1 15182 100 0 0 0        * a water fiend
+E 1 15120 1 3 100 0 0 0            *   a water amulet
+M 0 15107 9 15183 100 0 0 0        * an undead dragon
+M 0 15107 9 15183 100 0 0 0        * an undead dragon
+M 0 15101 6 15184 100 0 0 0        * the skeletal knight
+M 0 15107 9 15185 100 0 0 0        * an undead dragon
+*
+S

@@ -1,0 +1,679 @@
+#97001
+M
+crew icecrag~
+He smiles and says 'It's a good job I have here at the castle, it's a bit
+far away from civilization but the pay is decent and I have lots of
+responsibilities.'
+~
+M
+responsibilities~
+He says 'For instance, I have this here key to the main Guard's Walk
+hall, its restricted access, but if I wanted to I could sell you a key.
+Thats a big responsibility I have..to avoid temptations like that.'
+~
+M
+sell~
+He glances side to side, checking to be sure nobody is looking.
+
+After assuring himself you are alone, he says 'For 10 gold I'll sell you
+a key, but don't tell me what your going to do with it, I don't want to
+know.'
+~
+Q
+He says 'Here you go, but you DIDN'T get it from me, got that?'
+~
+R I 97005
+G C 1000
+D
+He shuffles down the hall looking for something to clean.
+~
+S
+#97002
+M
+shoe shoes calf calfskin calfskin~
+He frowns and looks at you disappointingly.
+
+He says 'Did that silly, silly man sitting at the round table send you
+out here to get my shoes?  I told him, I'm not interested in selling them.
+The only think i'm concerned with right now is my work...my sculpture.
+~
+M
+work ice sculpture girl art~
+Never taking his eyes off his work he says 'She could be magnificent, if
+I could only finish her!'
+~
+M
+she magnificent finish~
+He says 'This BLASTED ice is to damn hard! Its got frost all throughout
+the core, it crumbles whenever I try to carve it, and its....its......its
+driving me CRAZY!!'
+
+The artist screams in frustration, throwing his hands up to the sky.
+
+He says 'If only I could find the correct tools to work with this
+wretched glacial ice, my problems would be menial!'
+~
+M
+tools~
+He says 'Yes...yes...tools..thats what I need!  The kind designed for
+cutting stone!'
+~
+Q
+He bounces with joy as he snatches up the hammer and chisel.
+~
+R I 97029
+R E 50000
+G I 11606
+G I 11607
+D
+He says 'Here, these old boots are WORTH these fine tools! I hope
+you find them useful.'
+~
+S
+#97006
+M
+onions onion~
+Masha glares at you, and says 'No one touches my onions!'
+~
+M
+castle icecrag~
+Masha smiles and says 'This castle is very important to me, it houses my
+kitchen, and my kitchen is everything!'
+~
+M
+strife icess~
+Masha blushes slightly.
+
+Masha says 'The Icess is a very kind woman who treats me very well.  She
+has given me a home, and a purpose...to cook!'
+
+Masha cackles maniacly as he slices and dices another onion.
+~
+M
+kitchen cook chef food~
+Masha looks up with mild interest.
+
+Masha says 'Are you a chef? I am working on a project that might interest
+you.'
+~
+M
+project interest~
+Masha cracks a smile and begins to lay out his plans.
+
+Masha says 'I am collecting foods from various cultures so I can complete
+a text for the library.  The archivist has agreed to let one of his
+assistants scribe my book for me, Im very excited!  But before I can
+begin, I need to collect samples of foods from all the major cultures of
+Toril.  All I have so far is cuisine from Ten Towns, I still need samples
+from Verzanan, Ashrumite, Ghore, Faang, Sylvandawn, Mithrill Hall, and
+Lurien.  I would be most grateful if you could help me, but be sure to
+gather a wide variety of foods from each town so I may pick just the
+right one to include in my compendium.'
+~
+M
+archivist~
+Masha smiles and says 'The Archivist is a very old, wise man.  He may be
+blind as a bat, but there is something about him that I just cannot put
+my finger on.  I doubt there is anything he does'nt know!'
+~
+M
+tar~
+Masha beams a smile at Tar.
+
+Masha says 'Tar is like a son to me.  My condition scares away the women,
+so he is all that I will ever have.  He, like me, is not accepted among
+the others.  He is'nt very smart, but he's strong as an ox!'
+~
+M
+malice~
+Masha grins evily.
+
+He says 'Malice is a fine lad! A finer warrior you will never see! If
+anyone could ever defeat Strife in combat, it could only be Malice. She
+taught him everything she learned from... umm, well needless to say he is
+quite a fierce one.'
+
+Masha coughs.
+
+He says 'He is not however, the nicest of men.  I would not disturb him
+without great reason, lest he become angry.'
+~
+Q
+Masha grins and says 'Excellent! You have gathered some truly fine
+cuisine from all over the realms! For your help in my project you will
+receive credit in my work, and plz accept these small gifts as a token of
+my appreciation.
+~
+R I 97110
+R I 97136
+R I 97136
+R I 97136
+G I 16025
+G I 15252
+G I 315
+G I 303
+G I 11519
+G I 6551
+G I 66058
+S
+#97008
+M
+siege viscount strife malice archivist masha treasury castle icecrag~
+The priest says 'Leave me alone! I must find my notes, or I'll look like
+a fool at the banquet!'
+~
+M
+speech notes~
+The priest looks very irate.
+
+The priest snarls 'Go away! Unless you have my speech notes, I do not
+have time to deal with you today!  Make an appointment for a later date,
+I _must_ find my speech notes!'
+
+The priest screams in frustration.
+
+He says 'If you should by any chance come across three sheets of paper
+with some speech notes on them, you are to bring them back to me
+immediately!  They could be anywhere in the castle by now, _anyone_ could
+have picked them up!'
+~
+Q
+The priest says 'By the grace of Auril!'
+
+The priest thanks you heartily.
+
+He says 'Here take these, its the least I can do.  They were handed down
+to me from my great grandfather who wrested them from a swamp troll down
+in the bogs south of Verzanan, during the great insurgance of 105.  They
+have been collecting dust in my room since I was 15, I was never much of one
+for the martial arts.'
+~
+R I 97139
+G I 97137
+G I 97138
+G I 97149
+D
+The priest smiles.
+
+He says 'Go with Auril'
+~
+S
+#97010
+M
+icecrag castle servant job~
+She lowers her eyes and says 'It is my place to serve the residents of
+Icecrag Castle. It is a fulfilling job, though sometimes I wonder if this
+is all there is. There must be more to life somewhere.'
+~
+M
+banquet~
+She says 'The feast will begin shortly, please seat yourself in the
+banquet hall.'
+~
+M
+more life somewhere~
+She smiles dimly, and says 'That is what led me to take on a small herd
+of cattle down in the flatlands, below the cliffs. In between social
+events, when the staff is given leave, I tend to them and sell the milk.
+It provides extra income, which really helps since I don't make much, and
+my husband makes only slightly more employed in the Guard's force here.'
+~
+M
+sell milk~
+She says 'Would you like to purchase a cask of fresh milk? The price is
+very modest at 8 gold for two casks.'
+~
+Q
+She says 'Thank you kindly, and here are your casks.'
+~
+R I 97146
+R I 97146
+G C 800
+D
+She says bless you, and may you walk in Auril's shadow.
+~
+S
+#97014
+M
+guest icecrag castle~
+He says 'Im here for the banquet of course!'
+~
+M
+banquet strife icess~
+He replies 'Strife invited me personally.'
+
+He winks knowingly at you.
+
+He says 'Im quite influential in the trade business you know, I control a
+large percentage of the specialty item trade north of Calimport.  I only
+handle large scale orders though, so please do not harass me with your
+menial requests.'
+
+The guest turns his nose up and begins to talk with another visitor.
+~
+M
+specialty trade~
+He becomes more attentive.
+
+He says 'I deal mostly in small shipments of expensive merchandise,
+primarily wine, gem stones, gold ore, and on occasion items of magic
+enchantment.'
+~
+M
+magic enchantment~
+He grins and says 'Alas, this is not one of those occasions.'
+~
+M
+gem stones gold ore~
+He frowns, looking genuinly unhappy about the situation.
+
+He says 'The mining in Ashrumite has not gone well of late, most of what
+is found is of such poor quality it cannot be used.'
+~
+M
+wine~
+The strangely intriguing man furrows his brow slightly.
+
+He says 'Interesting you should ask, a large shipment of mine was just
+stolen en route to its final destinationin Mithril Hall....you would'nt know
+anything about that WOULD YOU?'
+
+He stares at you accusingly.
+~
+M
+stolen shipment~
+He says 'Indeed, a crate full of white wine, of less then reputable
+quality, and a load of elven wine.  The elven wine was a good vintage,
+and I only purchased the white to establish repoire with the seller. It
+was however a sizeable loss and I would be interested in retrieving it.'
+
+He says 'If your interested in hiring out as a bounty hunter I do have
+some information as to what befell the caravan that was transporting it.'
+~
+M
+caravan information~
+He smiles and says 'Excellent.  The white wine, as my sources in
+Verzanan have informed me, was diverted from the caravan while passing
+through the town. Rumor has it, it was stashed in Undermountain. As for
+the Elven wine, the caravan got lost north of the city, and ended up in
+some forsaken forest where they were taken by a band of giants, if you
+can believe such folly.  I myself, have doubts but this is what I have
+been told.'
+
+He shrugs.
+
+He says 'If you can return my wine, both shipments, I'll pay you well.
+I must have at least two bottles from each shipment.  If you do it in a
+timely manner, I may even throw in something extra.'
+~
+Q
+He laughs heartily and says 'I truly did not expect to see you return!'
+
+He chuckles politely.
+
+He says 'I must say Im glad to have it back, here is your payment as
+promised.'
+~
+R C 75000
+R E 30000
+R I 97141
+G I 90017
+G I 90017
+G I 92048
+G I 92048
+D
+He smiles and says 'Again, thank you, I must have these delivered
+immediatly.'
+
+He rushes off with the wine to find his crew.
+~
+S
+#97020
+M
+icecrag castle~
+He sniffs and pulls up his coat.
+
+He says 'Aye this is Icecrag Castle, if your here for the banquet,
+proceed to the front door and speak the name of the Frostmaiden.'
+~
+M
+banquet strife icess~
+He replies 'Strife's banquet has yet to begin, this blasted storm has
+delayed many of the guests.'
+~
+M
+storm delayed guests~
+He looks annoyed.
+
+The sergeant says 'Damn storm is holding up the guests, which means me
+and my men have to stay out here in this hell forsaken wasteland of
+frost. We're freezing out here!'
+~
+M
+freezing frost cold~
+He says 'Damn straight its cold out here! Id give almost anything for a
+suit of fur right about now! Yeah...a nice jacket, some pants maybe, and
+one of those big furry hats with the flaps for your ears!'
+
+He shivers as the gusts pick up.
+
+The sergeant says 'If you can find me a three piece suit like that, and
+maybe 25 platinum coins, i'll give you my favorite knapsack! It holds
+lot's and it fits so well over your shoulder it feels like its not even
+there!
+~
+Q
+The sergeant nearly faints as you hand him the furry clothing.
+
+He hugs you, and thanks you profusely.
+
+He says 'Thank you! Thank You! You have saved my fingers and toes from
+eternal frostbite! Toss your belongings in here and you'll never know
+your carrying them! For your kindness, I threw in the key pouch. It's great
+for keeping track of keys if you have a lot like I do.'
+~
+R I 97143
+R I 97145
+G I 97041
+G I 97047
+G I 97048
+G C 25000
+D
+The sergeant runs inside to change.
+~
+S
+#97021
+M
+book~
+The commander furrows his brow, peering at you cautiously.
+
+He says 'I've lost my book whats it to you?'
+~
+M
+lost~
+He grumbles incoherently about something or other.
+
+With a sigh, the commander says 'This book I was borrowing from the
+archives has up and disappeared. Just a week ago I was reading it on my
+trek through the mountains east of Verzanan, and now its gone.'
+~
+M
+mountains trek~
+He says 'Standard exploration for future excercises, nothing you need to
+worry about.  It's just that...I can remember reading it on the most
+perfectly placed natural perch on Toril.  I could see the entire
+surrounding countryside, it was quite breathtaking.'
+
+He sighs.
+~
+M
+perch natural countryside~
+The commander replies 'Thats where I met that strange fellow, the one
+that did'nt seem to be in any condition to be wandering around the
+mountains.  Course he refused any efforts at aid, kept mumbling about the
+prophecy and the fate of all mankind and some other such non-sense.'
+~
+M
+prophecy fate nonsense non-sense~
+He looks at you strangely.
+
+The commander says 'Don't ask me, ask the loon up in the mountains.'
+~
+M
+man fellow strange~
+The glimmer of thought stirs in his eyes.
+
+He says 'I wonder if that bastard stole the book...I should really send a
+patrol after him, needs to be locked up anyway.
+~
+Q
+The commander breathes a heavy sigh of relief as you hand him the book.
+
+He says 'I knew that shifty-eyed loon stole it! Babbling like he was, he
+was bound to be a thief.  As a token of my appreciation, take this ring.
+Its half of a set I picked up on an expedition to....well never mind
+that, just take the ring.  I lost the purple one anyway.'
+~
+R I 97144
+G I 97006
+D
+He scuffles off to return the book.
+~
+S
+#97023
+M
+strife malice archivist masha treasury castle icecrag~
+The Viscount says 'Unless you have financial business to discuss, I must
+ask you to leave me alone, I am a very busy man!'
+
+The Viscount throws up his hands in disgust.
+~
+M
+financial business~
+The Viscount says 'Yes! You know...finance? Money? Currency? GOLD?'
+
+He mutters something unintelligable.
+
+The Viscount says 'Your one of those people that thinks bills pay
+themselves and money grows on trees...arent you?  You really disgust
+me...if it were'nt for my research I would surely take a header off the
+deep end and start slaughtering ignorants like you, in fact, Im feeling
+the distinct urge to strangle you at this very moment!'
+~
+M
+research~
+The Viscount seems to calm down a bit.
+
+He says 'You study alchemy as well?'
+~
+M
+alchemy~
+The Viscount looks genuinly enthused now.
+
+He says 'I've been working on a new solution that can convey certain
+powers of protection.  I can offer you a sample if you like.'
+~
+M
+sample~
+He replies 'All I ask is that you convince Masha to let me have one of
+those scrumptious onions...I have to sneak in the kitchen at night just
+to get one!  Last time I tried, that infernal dunce, Tar, caught me in
+the act and ran off to Masha blathering all about it.'
+~
+Q
+The Viscount says 'Magificent! I've been waiting quite a while for this.
+Here.....drink this and see what happens.
+~
+R I 97135
+G I 97115
+D
+The Viscount scarfs down the onion, beaming with joy as the tears roll
+down his cheek.
+
+He says 'That was simply fabulous, I must have another!'
+
+The Viscount gets up and storms out of the room.
+~
+S
+#97029
+M
+castle strife icecrag~
+He says 'Im in the employ of Strife, to organize some...well suffice it
+to say I work for her.  It has to be one of the best jobs I've had in
+quite a long time to, I have plenty of resources, no one looking over my
+shoulder, and lots of free time to pursue my own hobbies.
+~
+M
+pouch~
+The Siege Master looks up from his work and stares at you for a moment.
+
+He says 'It's a trinket I picked up somewhere in the back alleys of
+Bloodstone, although its not a trip I would recommend.  The salesmen was
+not exactly an established business owner.'
+
+He smiles inwardly.
+
+He says 'I may begin a new hobby because of it.'
+~
+M
+hobby hobbies~
+He replies 'My current hobby is collecting footwear.  I have boots,
+slippers, shoes, moccasins, almost anything you can possibly imagine to
+be worn on the foot.'
+
+He gleams with pride.
+
+The Siege Master says 'But recently I have had some trouble aquiring a
+certain pair of calf-skin shoes from that blathering idiot who spends his
+days carving ice in the garden.'
+~
+M
+artist calf skin calf-skin pair~
+The Siege Master frowns.
+
+He says 'Yes, he has a most intriguing pair of shoes and absolutly
+refuses to part with them no matter what I offer him. If he continues to
+resist, I may have to resort to more....aggressive....measures. I _want_
+those boots!'
+~
+Q
+The Siege Master grins evily.
+
+He says 'Excellent work! How did you persuade him to trade the shoes?'
+
+Suddenly the Siege Master looks disturbed.
+
+He says 'Nevermind, I don't want to know. I cannot give you any of my
+footwear in return for the shoes, so take this, I dont collect things of
+this nature and its rather hideous if you ask me.
+~
+R I 97140
+G I 97029
+D
+The Siege Master says 'Now be gone!'
+~
+S
+#97039
+MA
+qc_action 70~
+&+LMyrke the Stalker&n mumbles something about the &+LCaptain &nunder his breath.&n
+~
+M
+captain~
+&+LMyrke the Stalker &nsays to you, '&+WThat bastard &+LCaptain &+Wis making my life
+&+Wa living hell. Ever since he took charge of the &+CUpper Echelon&+W, he has
+&+Wused his militia in his personal quest to have me &+Lkilled&+W.&n'
+~
+M
+killed~
+&+LMyrke the Stalker says to you, '&+WYes, killed! Apparently him and Strife
+&+Whave something against individuals in my line of work. It's a shame that
+&+WI can't get to him myself... his guards are all to aware of my attempts
+&+Wat paying him a visit, even Strife has had her door magically sealed to
+&+Wkeep me away.'
+
+&nHe ponders for a moment and then says to you, '&+WPerhaps you are interested
+&+Win a job? It's dirty of course, but someone like you shouldn't care too
+&+Wmuch about that. Go pay the Captain and that bitch Strife a visit and
+&+Wcarve their hearts out from their bloody carcasses.&n'
+
+&+LMyrke the Stalker &ngrins wickedly, '&+WOf course, there is a reward for
+&+Wsuch services if you can prove your success..&n'
+~
+M
+bodyrush vial~
+&+LMyrke &nlooks at you and says, '&+WListen, I don't have time for your
+&+Wlittle drug habits right now. The &+LCaptain &+Whas the entire city
+&+Wmilitia out looking for me.&n'&n
+~
+QA
+&+LMyrke the Stalker &ncackles an insane glee, '&+WI can't believe you did it!
+&+WOh this will make my life much easier indeed. For your services, I offer you
+&+Wthe contents of my pockets!&n'
+~
+R C 250000
+R I 55032
+G I 97016
+G I 97017
+S
+#97063
+M
+book~
+The deranged looking fellow stares blankly at the sky for a minute or two...
+
+Suddenly he breaks into a raunchy chorus of "Ugracht Mahgor", a trollish
+song about the death of cave fungus.
+
+Finishing his concerto, he stares at a spot about an inch to the left of
+your eyes, as if his vision was slightly skewed to one side.
+
+At the very moment you are convinced he will say no more, he blurts out
+something almost incomprehensable..
+
+He says 'After speaking with the book, it was very clear he was not happy
+where he was, in that cold castle.
+I simply could'nt leave him with that barbaric bafoon!
+he did'nt even have the common courtesy to read him once in a while, a truly
+desperate situation I could not ignore. He has a new home, where he is
+loved, and kept warm! He's very old you know, he can't be exposed to the
+cold of the north anymore, lest his pages disintigrate.'
+~
+M
+commander~
+As though pondering the depth of your inquiry, he scratches his chin and
+descends into deep, deep thought.
+
+A moment later, as if struck by divine inspiration, he bellows out a
+popular dwarven tune about the peaks of the north.
+
+He sputters for a few minutes, blathering on about various dwarven root pie
+recipies and such, never quite making any sense.
+
+In a moment of clarity he says 'A complete and utter nin-kom-poop!
+Absolutley no concern for the feelings of the book, or even his health!
+Men such as that should never be charged with the protection of such value.'
+~
+M
+home~
+He says 'Home? No I dont live here, much to cold for me oh wait your
+referring'
+
+The strange fellow suddenly screams '&+GBUGS!!!&N Get them off of me!!'
+
+Waving his arms madly in the air, scratching his face and arms, he
+continues to scream about insects and bugs flying around in his head.
+
+Without skipping a beat, he ceases his ranting and continues his reply.
+He says 'to the book of course, silly of me to assume you were inquiring as
+to MY home. Thats not to say you would'nt want to come visit me, I'm a
+very social person you know.  If it were'nt for all these'
+
+The strange fellow starts running in circles again, arms flailing about
+in the air, all the while screaming 'AAARRRGGGGHHHHH I HATE BUGS!!!! GET
+THEM OFF OF ME PLEASE!!!!!!'
+
+Again, not missing a word he continues 'bugs I would have guests over all
+the time! I've been told im quite the host.'
+
+He winks at you, knowing you believe every word.
+
+He says 'So back to the original question...umm what was it again oh yes
+the books home.  Well I needed some place close by, since I cant keep him
+with me for to long, and it had to be warm. Let me see, where did I
+place him...ummm....'
+
+Blushing mildly, he says 'I appear to be at a loss. I seem to have forgotten
+where I left it! It was just here a minute ago...not that it will do you
+any good to know its location, it's mine forever!'
+~
+M
+hi hello~
+The deranged man suddenly turns to you,
+placing his mouth inches from your left ear, he shouts
+
+'You will never get it!'
+
+When the ringing in your ears stop you can vaguely hear the man singing some
+odd tune and mumbling something about a book.
+~
+S

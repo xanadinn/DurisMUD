@@ -1,0 +1,223 @@
+#10100
+myconid~
+&+ma myconid&n~
+&+MA myconid seems to blend in with the surroundings.&n
+~
+&+m  Like a walking version of the mushroom forest, this myconid has
+&+mtaken home among the lovely mushrooms, and cares for them as if they
+&+mwere a distant relative of his. He wears very little, but carries
+&+ma small pouch of herbs.
+~
+10312 0 0 0 0 0 0 -1000 S
+H 0 1 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10101
+troll ogre mutant~
+&+La &+gtroll&+L-&+bogre &+ymutant&n~
+&+LA &+gtroll&+L-&+bogre &+ymutant&n &+Lroams the mushroom forest.
+~
+  Probably the result of a wild night of lust from two of the more savage
+races of Duris, this creature appears to take the strength and durability
+of an ogre, while still retaining at least some of the trolls ability to
+regenerate.  He wears carries with him a small bag of bones, which guide
+him on his journies.  Roaming the mushroom forest, this creature is rather
+peaceful, yet is rumored to have the temper and fury of the greatest of
+all the ogres and trolls put together.
+~
+1073752136 0 0 88 0 0 0 -1000 S
+PT 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10102
+ball spore~
+&+ra flaming spore ball&n~
+&+RA flaming spore ball floats about the area.&n
+~
+&+R Bursting in flame, this spore ball floats around the area.  It is
+&+Rrumored that such a spore ball is quite a delight on the drow dinner
+&+Rtable, and that they even grow these things, but it's just a rumor.&n
+~
+1073883208 0 0 0 0 0 0 -1000 S
+A 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10103
+svirfneblin~
+&+ya svirfneblin~
+&+yA svirfneblin roams the great mushroom forest.&n
+~
+        Probably from the village of Valinhaven, this svirfneblin was
+most likely sent here to gather the delicate flaming spore balls to
+serve to the great leader of Valinhaven.  However, this svirfneblin
+appears to be looking to be a permanent resident of the mushroom forest,
+as he seems to keep rambling on about some demon in the mines..
+~
+10312 0 0 0 0 0 0 1000 S
+H 0 1 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10104
+orc lost~
+&+La lost orc&n~
+&+LA confused orc seems to have gotten lost among the mushrooms.&n
+~
+        This orc is dressed in the ceremonial garb of the Black Order of
+Shady Grove.  He has unfortunately lost his way among the mushrooms and
+is searching for a way out.  Unfortunately, he seems to have been here
+a rather long time, as his armor has gotten soiled with mushroom stains.
+~
+10312 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10105
+grell ugly~
+&+gan ugly looking grell&n~
+&+gAn ugly looking grell floats about the area.
+~
+        This grell is much like any other grell, and seems to be a large
+floating brain with tentacles instead of arms, feathers, and a large
+squaking beak.  It appears to be quite upset that it has lost its hive,
+and roams about the mushroom forest endlessly.
+~
+1073756236 0 0 134217880 2 0 0 -1000 S
+TK 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10106
+rothe~
+&+Wa rothe&n~
+&+WA rothe grazes upon the mushrooms.&n
+~
+    Like an underworld buffalo, a rothe is very similiar in all the ways
+that count, except for its whitish fur, and dulled eyesight.  This rothe
+grazes upon the mushrooms of the great mushroom forest.
+~
+10312 0 0 0 0 0 0 0 S
+A 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10107
+spider~
+&+La large spider&n~
+&+LA large spider spins a web among the mushrooms.&n
+~
+        This large black spider spins its web among the mushrooms
+of the great mushroom forest.  It has a small amount of black fur
+upon its back, and seems to keep itself well fed in this place.
+~
+10312 0 0 0 0 0 0 0 S
+I 0 0 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10108
+drow warrior~
+&+La battle scarred &+mdrow warrior&n~
+&+LA battle scarred &+mdrow warrior&n rests in his secret domain.&n
+~
+&+L  A product of the drow ghetto, this drow warrior has emerged from the
+&+Lthe outcasts of the drow town, to fight many a battle and survived.
+&+LHe wears the decorative platemail of the warriors guild, which he must
+&+Lhave quit, and wields an elven scimitar of his own design. He has a
+&+Lhuge scar running down his neck, and long silvery hair.  His eyes
+&+Lglisten of the rage that he had to endure battling the exiled clerics
+&+Land acrolas of the ghetto, only to one day emerge past the hideous
+&+Lzarbons and to end up a dragon slayer.  He also seems to have picked
+&+Lup another more darker trade than just being a warrior.  He seems
+&+Lto learned how to animate the corpses of the dragons he has slain and
+&+Lbring them under his control.  He preforms many daily sacrafices to
+&+LLolth at his shrine, and spends his days perfecting his new found art.
+~
+1073887242 1 0 805306522 309443 0 0 -1000 S
+PL 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10109
+dragon undead~
+&+Lthe undead dragon&n~
+&+LThe undead dragon follows his master's biddings.&n
+~
+&+L  This undead dragon seems to be controlled by the battle scarred
+&+Ldrow warrior. The undead dragon seems to be magically linked to a
+&+Lsmall staff the drow warrior hides under his cloak that contains
+&+La magical diamond, similiar to the ones that necromancers sometimes
+&+Luse to turn themselves into powerful liches.
+~
+14346 1 0 536871050 145603 0 0 -1000 S
+D 0 32 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10111
+bugbear~
+&+ca bugbear&n~
+&+cA bugbear scurries about the mushroom forest.&n
+~
+&+c   A former resident of Bugentolen, this bugbear has come a long ways
+&+cfrom the cozy village he used to call home.  He seems to know a little
+&+cbit of what he is as he seems to have been here for quite sometime.
+&+cHe is dressed in the village garments of Bugentolen, with of course,
+&+csome patches where his clothes have torn.  He has a doggish face,
+&+cand scruffy looking hair.
+~
+10312 0 0 0 0 0 0 -1000 S
+H 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10112
+fungus~
+&+Msome canibalizing fungus&n~
+&+MSome canibalizing fungus strikes out at you!&n
+~
+&+M   This fungus seems to have evolved to the point where it preys
+&+Mon the invaders of it's home.  It has large excreting glands used
+&+Mto paralyze its prey while it slowly eats them.
+~
+10312 1 0 0 0 0 0 -1000 S
+AC 0 1 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10113
+creature mushroom~
+&+MA HUGE mushroom creature&n~
+&+MA HUGE mushroom creature blocks the way to the unwelcome.&n
+~
+&+M  This huge mushroom creature seems actually be one of the huge
+&+Mmushroom stalks that has come to life and has taken up a sentinel
+&+Mposition to prevent the unwelcome from enterring the zone with their
+&+Melaborate skills and destroying the forest.  Seeing that it has no
+&+Mmouth or any other form of communication, all it does is block the
+&+Mpath, and won't listen to any reason.
+~
+14410 0 0 805306552 14529 0 0 -1000 S
+G 0 512 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10114
+duergar mercenary~
+&+ra duergar &+ymercenary&n~
+&+rA duergar &+ymercenary&n takes refuge in the forest.&n
+~
+&+L  This deurgar, from the town of Khildarak, has taken refuge in the
+&+Lgreat mushroom forest.  Seeing as many people can get lost in such
+&+La vast forest, he feels relatively safe here, and even safer after
+&+Lthat huge mushroom creature blocks the path to the unwelcome visitors.
+~
+1073752140 0 0 0 0 0 0 -1000 S
+PD 0 16384 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

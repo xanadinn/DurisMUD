@@ -1,0 +1,361 @@
+#10800
+spider~
+&+La gigantic &+mspider&n~
+&+LA gigantic &+mspider&n waits for its next victim.&n
+~
+   This gigantic hairy spider has made its home in a small corner of the
+haunted forest.  It spins an enormous web that nobody really sees until it
+is too late.  This spider must be at least six feet long and several feet
+wide.  Its jagged teeth can penetrate even some of the strongest platemail,
+and its web is almost magical in nature, leaving few to escape.
+~
+2122 1 0 34603008 262144 0 0 -500 S
+AS 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#10801
+orc scout~
+&+Lan old orc scout&n~
+&+LAn old orc scout sits in his old worn down hut.&n
+~
+   This old orc scout was left behind on a failed raid many years ago.
+Since then he has tried to hide out in the darkest forest he could find,
+hoping to avoid the elven patrols.  He seems weary of the haunted wood
+forest and having to trap his own food.  He seems to have made himself a
+dirty hut which he sleeps and hides in.  His clothes are worn and tattered,
+maybe they were once a fresh suit of Shady Grove guard armor, however, they
+barely protect him at all anymore from the beasts of the forest.  His last
+and only possession of worth is a bracelet he wears on his left arm.
+~
+1073744074 1 0 0 0 0 0 -1000 S
+HO 0 1 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10802
+wolverine~
+&+ya wolverine&n~
+&+yA wolverine stalks the forest for food.&n
+~
+   This wolverine stalks the forest for food, often finding a lost elf and
+feeding off the corpse for several days.  It has large fangs and sharp claws.
+Its fur is rugged and rough to the touch.  It snarls as it stalks the area.
+~
+2056 0 0 0 0 0 0 -750 S
+A 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10803
+spider~
+&+La black spider&n~
+&+LA black spider spins a web.&n
+~
+   This black spider hides in the shadows of the haunted wood forest,
+spinning itself webs to try and catch something.  It is a rather large
+and probably poisonous spider.
+~
+2056 0 0 0 0 0 0 -1000 S
+AS 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10804
+dog~
+&+ya ferocious dog&n~
+&+yA ferocious dog snarls about the area, &+Wfoaming at the mouth.&n
+~
+   This ferocious dog appears to have gone mad, and it has begun foaming
+at the mouth.  It can be heard howling at night in the forest as it tries
+to catch whatever prey it can find.
+~
+8 0 0 0 0 0 0 -1000 S
+A 0 1 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10805
+deer~
+&+ya deer&n~
+&+yA deer darts through the forest, avoiding the predators.&n
+~
+    This deer appears to just be travelling through the area.  It runs
+ quickly through the forest, trying to avoid all the predators of the
+ area.  However, every now and then it stumbles and gives a chance for one
+ of the ferocious dogs or wolverines to catch it.
+~
+136 0 0 0 0 0 0 0 S
+A 0 1 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10806
+snake~
+&+ga venomous snake&n~
+&+gA venomous snake slithers through the forest.&n
+~
+   This smooth scaled snake slithers through the forest floor.  It has a
+a colored pattern on its back, warning others of its poisonous nature.  It
+is approximately five feet in length and has a forked tongue.
+~
+2056 0 0 0 0 0 0 -1000 S
+RS 0 1 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10807
+gnoll~
+&+ca gnoll&n~
+&+cA dog-faced gnoll wanders through the forest.&n
+~
+   This dog faced humanoid wanders through the forest, stalking his dinner.
+This gnoll probably wandered from a nearby village and is only briefly
+staying within the forest.  He is equipped with a hunting kit and a spear.
+He also appears to have the scalps of several grey elves strung about his
+belt.
+~
+1073743880 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#10808
+ape~
+&+ra carniverous &+yape&n~
+&+yA large ape covered in &+rblood stains&n &+yswings through the trees.&n
+~
+   This huge ape seems to have a taste for flesh, and his hands and face
+have been bloodstained.  His teeth are especially large and pointy for an
+ape, allowing him to tear and rip into flesh.  He seems very strong and
+swings through the forest with great ease.
+~
+1073743880 0 0 0 0 0 0 -1000 S
+A 0 1 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10809
+half-orc orc~
+&+La half-orc&n~
+&+LA half-orc sells his warez to those who need it.&n
+~
+   This rough looking half-orc, probably the offspring of a human traveller
+and an orc raider, has taken it upon himself to sell canoes at this river
+crossing.  He seems quite content with this position, he harvests the wood
+from the nearby forest and builds the canoes to sell, mostly to the gnoll
+raiding parties.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10810
+gnoll nurse~
+a gnoll nurse~
+A gnoll nurse attends to the infant gnolls.
+~
+   This disgusting looking dog-faced female gnoll has been given the job of
+taking care of the infant gnolls.  The nursery appears to be a make-shift
+shelter made out of the old remains of canoes.  These gnoll nurses wear
+little clothing except an apron and dirty loin cloth.  Their main job is
+feeding and cleaning the infant gnolls.
+~
+2058 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#10811
+gnoll infant~
+a gnoll infant~
+A gnoll infant crawls around the floor here.
+~
+   This hairy little humanoid crawls around the floor of his poorly built
+nursery.  He wears nothing but a stained loint cloth and is constantly
+looking for food.  He seems to wear on the patience of the nurses here.
+In a year or two he will goto the training camp across the road.
+~
+202 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10812
+gnoll overseer~
+a gnoll overseer~
+A gnoll overseer watches his students train.
+~
+   This gnoll overseer is an accomplished gnoll warrior, and has been
+chosen to train the adolescents in the ways of spear throwing, minor sword
+fighting, daggers, and all the weapons they will need to some day go off
+and raid villages.  He wears a suit of dirty leather armor and has an
+eyepatch over his left eye.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10813
+gnoll warrior~
+a young gnoll warrior~
+A young gnoll warrior practices his techniques.
+~
+   This young gnoll warrior has attainted the age when all young gnolls are
+trained by an older warrior in the arts of war.  They go over spear use,
+sword fighting, knives, as well as hunting in the wild.  This young warrior
+is equipped with a very crude spear and is wearing a set of hides.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10814
+gnoll warrior savage~
+a savage gnoll warrior~
+A savage gnoll warrior watches over his horde of goods.
+~
+   This gnoll warrior is one of the best of the village, and he proudly
+shows it by displaying several necklaces of elven ears and a belt of centaur
+hooves.  He wears a suit of blood-stained armor and has a shiny metal spear,
+along with several other weapons.  He looks strong and agile, especially
+for a gnoll.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+HO 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10815
+guard gnoll~
+a gnoll guard~
+A gnoll guard patrols the area.
+~
+   This gnoll guard is dressed in a simple set of garments, mainly skinned
+hides of various animals with a little armor backing.  He has a short spear
+and a dagger attatched to his rope belt.  He grunts around as he patrols
+the area for signs of trouble.
+~
+1140852746 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10816
+gnoll warrior~
+a gnoll warrior~
+A gnoll warrior rests in the barracks.
+~
+   The gnoll warrior is dog-faced and dirty, he sleeps and eats in his
+own filth, and feeds on carnage.  He sleeps in his dirty tent and rarely
+comes out unless there is battle brewing.  The standard garb consists of
+a set of furs, possibly even a fur cape, loin cloth, and a hunting or
+battle spear.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10817
+chief gnoll~
+the gnoll chief&n~
+The gnoll chief rumages through his medicinal herbs.
+~
+   This gnoll stands almost six feet in height and is very strong.  He has
+lead his share of raids and plunderings and the quality of his tent reflects
+this.  He is also the shaman of his gnoll tribe, providing whatever care he
+can to the wounded or the sick.  He wears the finest furs in the entire tribe
+and generally keeps the majority of the lootings with himself in his tent.
+Whenever someone challenges his authority, he makes short work of them with
+a quick spell or two.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+HO 0 256 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10818
+guard elf~
+&+can elven guard&n~
+&+cAn elven guard stands watch.&n
+~
+   This elven guard seems to blend in with the area he is guarding, jumping
+in and out of shadows, only visible a second and then he disappears.  He
+has been hired by the inn to guard the path, creating a safe haven for
+whatever elf or centaur that might need rest at the inn.  He wears a
+standard suit of elven made leather armor and wields an elvish longsword.
+~
+1073743882 32 0 10 0 0 0 1000 S
+PE 0 2 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10819
+shopkeeper elf~
+&+gan elven shopkeeper&n~
+&+gAn elven shopkeeper tends to your needs.&n
+~
+   This elderly elvish man appears to have retired from the adventuring
+life to rest and help provide a safe haven for any elf or centaur travellers
+who might venture into these vicious woods.  He wears a simple set of
+forest-green robes and seems to not wear any valuable items at all.  He
+spends most of his time creating the armor and weapons to sell in his shop,
+as well as preparing fresh food for sale.  He has a small fountain in the
+back that he uses to fill his barrels and water skins with water.
+~
+1073743882 0 0 0 0 0 0 0 S
+PE 0 128 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10820
+receptionist~
+&+gthe receptionist&n~
+&+gThe receptionist sits at her desk waiting to show people to their room.&n
+~
+  This elven girl has been given the job of receptionist by the caretakers
+of the inn.  She has a striking resemblance to the caretakers, yet no one
+comments on their relation.  She wears a simple elven dress, brown in color.
+When there are no travellers, she often paints or draws on a canvas in the
+back of the room.
+~
+1073743882 0 0 0 0 0 0 1000 S
+PE 0 32 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#10821
+elf man thalindelil~
+&+cThalindelil&n~
+&+cAn elven man rests quietly in his rocking chair.&n
+~
+   Thalindelil seems to be of average height and build, and was probably
+once a powerful ranger.  However, he has given up his life of adventure
+to help provide a safe haven for the travellers of this dangerous forest.
+He wears a forest-green set of leather armor and wields a rather nice
+scimitar.
+~
+1140852810 0 0 16 0 0 0 1000 S
+PE 0 2 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#10822
+athowela woman elf~
+&+cAthowela&n~
+&+cA quiet elven woman paints a beautiful picture.&n
+~
+   Athowela appears to be a midle-aged elf.  She wears a very light weight
+robe and wears a set of beautiful jewelry.  She seems content on creating
+a pleasant atmosphere for the guests at the inn.  She wears a rather
+expensive looking necklace.
+~
+1140852810 0 0 0 0 0 0 1000 S
+PE 0 512 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

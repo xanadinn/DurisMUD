@@ -1,0 +1,150 @@
+#879
+The &+LStone &+yTomb &nof &+RKelek&n~
+88165 2 0 30 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 88009 2 5 100 0 0 0
+*     south exit from "A Mining Tunnel" to
+*     "An Abandoned Smithy" - closed/secret
+*
+D 0 88163 0 5 100 0 0 0
+*     north exit from "An Abandoned Smithy" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88109 0 5 100 0 0 0
+*     north exit from "A Mining Tunnel" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88150 2 5 100 0 0 0
+*     south exit from "A Mining Tunnel" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88148 3 5 100 0 0 0
+*     west exit from "A Mining Tunnel" to
+*     "A Large Chamber" - closed/secret
+*
+D 0 88158 1 5 100 0 0 0
+*     east exit from "A Large Chamber" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88156 2 5 100 0 0 0
+*     south exit from "A Mining Tunnel" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88157 0 5 100 0 0 0
+*     north exit from "A Mining Tunnel" to
+*     "A Mining Tunnel" - closed/secret
+*
+D 0 88161 5 6 100 0 0 0
+*     down exit from "A Large Chamber" to
+*     "A Huge Crypt" - closed/locked/secret
+*
+D 0 88162 4 2 100 0 0 0
+*     up exit from "A Huge Crypt" to
+*     "A Large Chamber" - closed/locked
+*
+*
+O 0 87961 1 87961 100 0 0 0        * a chunk of mithril
+*
+M 0 87950 17 87962 100 0 0 0       * a zombie of a duergar warrior
+E 1 87958 1 10 100 0 0 0           *   a pair of chainmail-linked arm plates
+M 0 87951 10 87964 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87954 9 87966 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87951 10 87968 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87961 5 87971 100 0 0 0        * a squat skeleton
+M 0 87951 10 87974 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87954 9 87976 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87950 17 87980 100 0 0 0       * a zombie of a duergar warrior
+M 0 87962 9 87983 100 0 0 0        * a fading spectre
+M 0 87951 10 87986 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87953 9 87989 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87952 12 87993 100 0 0 0       * a duergar lieutenant
+M 0 87954 9 87998 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87950 17 88000 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88001 100 0 0 0       * a duergar lieutenant
+M 0 87951 10 88004 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87953 9 88008 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87950 17 88009 100 0 0 0       * a zombie of a duergar warrior
+M 0 87954 9 88010 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87961 5 88013 100 0 0 0        * a squat skeleton
+M 0 87951 10 88015 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87952 12 88018 100 0 0 0       * a duergar lieutenant
+M 0 87953 9 88021 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87950 17 88024 100 0 0 0       * a zombie of a duergar warrior
+M 0 87962 9 88027 100 0 0 0        * a fading spectre
+M 0 87953 9 88029 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87954 9 88032 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87952 12 88035 100 0 0 0       * a duergar lieutenant
+M 0 87952 12 88038 100 0 0 0       * a duergar lieutenant
+M 0 87950 17 88041 100 0 0 0       * a zombie of a duergar warrior
+M 0 87951 10 88043 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87962 9 88045 100 0 0 0        * a fading spectre
+M 0 87952 12 88048 100 0 0 0       * a duergar lieutenant
+M 0 87954 9 88051 100 0 0 0        * a mountain dwarf battle-rager
+E 1 87955 1 5 100 0 0 0            *   some spiked armor of the Battle-Ragers
+M 0 87950 17 88054 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88057 100 0 0 0       * a duergar lieutenant
+M 0 87950 17 88060 100 0 0 0       * a zombie of a duergar warrior
+M 0 87954 9 88063 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87951 10 88066 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87961 5 88069 100 0 0 0        * a squat skeleton
+M 0 87950 17 88071 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88074 100 0 0 0       * a duergar lieutenant
+M 0 87962 9 88076 100 0 0 0        * a fading spectre
+M 0 87950 17 88079 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88081 100 0 0 0       * a duergar lieutenant
+M 0 87953 9 88084 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87950 17 88086 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88088 100 0 0 0       * a duergar lieutenant
+M 0 87962 9 88090 100 0 0 0        * a fading spectre
+M 0 87952 12 88091 100 0 0 0       * a duergar lieutenant
+E 1 87954 1 14 100 0 0 0           *   a mithril-studded bracer
+M 0 87950 17 88093 100 0 0 0       * a zombie of a duergar warrior
+M 0 87962 9 88096 100 0 0 0        * a fading spectre
+M 0 87953 9 88099 100 0 0 0        * a zombie of a mountain dwarf soldier
+E 1 87962 1 16 100 0 0 0           *   a smithy hammer
+M 0 87961 5 88102 100 0 0 0        * a squat skeleton
+M 0 87960 1 88103 100 0 0 0        * a duergar assassin
+E 1 87956 1 5 100 0 0 0            *   a suit of black leather armor lined with metal
+E 1 87957 1 16 100 0 0 0           *   a wickedly curved dagger named 'Dread'
+M 0 87962 9 88104 100 0 0 0        * a fading spectre
+M 0 87950 17 88107 100 0 0 0       * a zombie of a duergar warrior
+M 0 87954 9 88109 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87950 17 88112 100 0 0 0       * a zombie of a duergar warrior
+M 0 87950 17 88116 100 0 0 0       * a zombie of a duergar warrior
+M 0 87951 10 88118 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87962 9 88121 100 0 0 0        * a fading spectre
+M 0 87951 10 88124 100 0 0 0       * the zombie of a mountain dwarf warrior
+M 0 87953 9 88126 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87950 17 88128 100 0 0 0       * a zombie of a duergar warrior
+M 0 87953 9 88132 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87962 9 88135 100 0 0 0        * a fading spectre
+M 0 87961 5 88137 100 0 0 0        * a squat skeleton
+M 0 87950 17 88139 100 0 0 0       * a zombie of a duergar warrior
+M 0 87952 12 88142 100 0 0 0       * a duergar lieutenant
+M 0 87953 9 88146 100 0 0 0        * a zombie of a mountain dwarf soldier
+M 0 87954 9 88148 100 0 0 0        * a mountain dwarf battle-rager
+M 0 87957 3 88151 100 0 0 0        * a mountain dwarf elite guard
+E 1 87960 1 1 100 0 0 0            *   a crystalline ring
+F 1 87964 1 88151 100 0 0 0        * a gnome advisor (following)
+M 0 87957 3 88154 100 0 0 0        * a mountain dwarf elite guard
+M 0 87957 3 88156 100 0 0 0        * a mountain dwarf elite guard
+E 1 87951 1 16 100 0 0 0           *   a silver-bladed reaver
+M 0 87956 1 88157 100 0 0 0        * a dwarven cleric
+E 1 87950 1 16 100 0 0 0           *   a titanium warhammer called Deliverer
+M 0 87959 3 88158 100 0 0 0        * the agonized spirit
+M 0 87959 3 88159 100 0 0 0        * the agonized spirit
+M 0 87958 1 88161 100 0 0 0        * the lich of a long dead mage
+E 1 87953 1 8 100 0 0 0            *   a pair of black leather boots lined with metal
+G 1 87959 1 0 100 0 0 0            *    a crystalline key
+M 0 87959 3 88161 100 0 0 0        * the agonized spirit
+M 0 87955 1 88162 100 0 0 0        * the Wraith-Lord, Kelek
+E 1 87952 1 12 100 0 0 0           *   a fur-lined silk robe
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 87963 1 88163 100 0 0 0        * a duergar smith
+M 0 87965 2 88164 100 0 0 0        * a mountain dwarf elite guard
+M 0 87965 2 88164 100 0 0 0        * a mountain dwarf elite guard
+*
+S

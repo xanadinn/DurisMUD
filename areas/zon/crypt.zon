@@ -1,0 +1,814 @@
+#143
+&+LNakral's &+yCrypt&n~
+14593 1 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 14325 1 5 100 0 0 0
+*     east exit from "Narrow Trail Twisting Through the Forest" to
+*     "An Old, Barren Graveyard" - closed/secret
+*
+D 0 14370 3 5 100 0 0 0
+*     west exit from "An Old, Barren Graveyard" to
+*     "Narrow Trail Twisting Through the Forest" - closed/secret
+*
+D 0 14338 2 5 100 0 0 0
+*     south exit from "Narrow Trail Twisting Through the Forest" to
+*     "An Old, Barren Graveyard" - closed/secret
+*
+D 0 14377 0 5 100 0 0 0
+*     north exit from "An Old, Barren Graveyard" to
+*     "Narrow Trail Twisting Through the Forest" - closed/secret
+*
+D 0 14361 0 1 100 0 0 0
+*     north exit from "Before a Wooden Cabin" to
+*     "Inside a Simple Wooden Cabin" - closed
+*
+D 0 14362 2 1 100 0 0 0
+*     south exit from "Inside a Simple Wooden Cabin" to
+*     "Before a Wooden Cabin" - closed
+*
+D 0 14386 0 2 100 0 0 0
+*     north exit from "Before the Entrance to a Short Tomb" to
+*     "Inside a Musty Tomb" - closed/locked
+*
+D 0 14388 2 1 100 0 0 0
+*     south exit from "Inside a Musty Tomb" to
+*     "Before the Entrance to a Short Tomb" - closed
+*
+D 0 14388 5 8 100 0 0 0
+*     down exit from "Inside a Musty Tomb" to
+*     "Near the Top of a Damp Staircase" - open/blocked
+*
+D 0 14399 4 8 100 0 0 0
+*     up exit from "Near the Top of a Damp Staircase" to
+*     "Inside a Musty Tomb" - open/blocked
+*
+D 0 14392 3 2 100 0 0 0
+*     west exit from "Before the Entrance to a Tall Tomb" to
+*     "Inside a Musty Tomb" - closed/locked
+*
+D 0 14393 1 2 100 0 0 0
+*     east exit from "Inside a Musty Tomb" to
+*     "Before the Entrance to a Tall Tomb" - closed/locked
+*
+D 0 14393 0 5 100 0 0 0
+*     north exit from "Inside a Musty Tomb" to
+*     "Inside a Musty Tomb" - closed/secret
+*
+D 0 14395 2 5 100 0 0 0
+*     south exit from "Inside a Musty Tomb" to
+*     "Inside a Musty Tomb" - closed/secret
+*
+D 0 14395 1 1 100 0 0 0
+*     east exit from "Inside a Musty Tomb" to
+*     "Before the Entrance to a Tall Tomb" - closed
+*
+D 0 14396 3 2 100 0 0 0
+*     west exit from "Before the Entrance to a Tall Tomb" to
+*     "Inside a Musty Tomb" - closed/locked
+*
+D 0 14406 2 1 100 0 0 0
+*     south exit from "Damp Corridor" to
+*     "Northern End of a Disorganized Banquet Hall" - closed
+*
+D 0 14407 0 1 100 0 0 0
+*     north exit from "Northern End of a Disorganized Banquet Hall" to
+*     "Damp Corridor" - closed
+*
+D 0 14409 3 1 100 0 0 0
+*     west exit from "Southwestern Corner of a Disorganized Banquet Hall" to
+*     "Small, Cramped Kitchen" - closed
+*
+D 0 14414 1 1 100 0 0 0
+*     east exit from "Small, Cramped Kitchen" to
+*     "Southwestern Corner of a Disorganized Banquet Hall" - closed
+*
+D 0 14411 1 8 100 0 0 0
+*     east exit from "Southeastern Corner of a Disorganized Banquet Hall" to
+*     "An Extremely Odorous Cubbyhole" - open/blocked
+*
+D 0 14413 3 1 100 0 0 0
+*     west exit from "An Extremely Odorous Cubbyhole" to
+*     "Southeastern Corner of a Disorganized Banquet Hall" - closed
+*
+D 0 14420 3 1 100 0 0 0
+*     west exit from "Damp Corridor" to
+*     "Barracks" - closed
+*
+D 0 14425 1 1 100 0 0 0
+*     east exit from "Barracks" to
+*     "Damp Corridor" - closed
+*
+D 0 14421 3 2 100 0 0 0
+*     west exit from "Damp Corridor" to
+*     "A Small Quarters" - closed/locked
+*
+D 0 14422 1 1 100 0 0 0
+*     east exit from "A Small Quarters" to
+*     "Damp Corridor" - closed
+*
+D 0 14423 3 1 100 0 0 0
+*     west exit from "Damp Corridor" to
+*     "Small Office" - closed
+*
+D 0 14424 1 1 100 0 0 0
+*     east exit from "Small Office" to
+*     "Damp Corridor" - closed
+*
+D 0 14424 2 1 100 0 0 0
+*     south exit from "Small Office" to
+*     "Barracks" - closed
+*
+D 0 14425 0 1 100 0 0 0
+*     north exit from "Barracks" to
+*     "Small Office" - closed
+*
+D 0 14428 2 2 100 0 0 0
+*     south exit from "Damp Corridor" to
+*     "Large Quarters" - closed/locked
+*
+D 0 14430 0 1 100 0 0 0
+*     north exit from "Large Quarters" to
+*     "Damp Corridor" - closed
+*
+D 0 14429 2 1 100 0 0 0
+*     south exit from "Damp Corridor" to
+*     "The North End of a Long, Narrow Laboratory" - closed
+*
+D 0 14431 0 1 100 0 0 0
+*     north exit from "The North End of a Long, Narrow Laboratory" to
+*     "Damp Corridor" - closed
+*
+D 0 14438 0 1 100 0 0 0
+*     north exit from "Dead End" to
+*     "An Old Storage Room" - closed
+*
+D 0 14439 2 1 100 0 0 0
+*     south exit from "An Old Storage Room" to
+*     "Dead End" - closed
+*
+D 0 14440 1 2 100 0 0 0
+*     east exit from "Bend in the Corridor" to
+*     "A Non-Descript Room" - closed/locked
+*
+D 0 14441 3 1 100 0 0 0
+*     west exit from "A Non-Descript Room" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14443 2 2 100 0 0 0
+*     south exit from "Disorganized Storage Area" to
+*     "Small Storage Room" - closed/locked
+*
+D 0 14444 0 1 100 0 0 0
+*     north exit from "Small Storage Room" to
+*     "Disorganized Storage Area" - closed
+*
+D 0 14445 0 2 100 0 0 0
+*     north exit from "Disorganized Storage Area" to
+*     "Small Storage Room" - closed/locked
+*
+D 0 14446 2 1 100 0 0 0
+*     south exit from "Small Storage Room" to
+*     "Disorganized Storage Area" - closed
+*
+D 0 14449 0 1 100 0 0 0
+*     north exit from "Disorganized Storage Area" to
+*     "Small Storage Room" - closed
+*
+D 0 14450 2 1 100 0 0 0
+*     south exit from "Small Storage Room" to
+*     "Disorganized Storage Area" - closed
+*
+D 0 14457 1 5 100 0 0 0
+*     east exit from "Bend in the Corridor" to
+*     "Secret Alcove" - closed/secret
+*
+D 0 14458 3 1 100 0 0 0
+*     west exit from "Secret Alcove" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14465 1 1 100 0 0 0
+*     east exit from "Bend in the Corridor" to
+*     "Room of Iron" - closed
+*
+D 0 14466 3 1 100 0 0 0
+*     west exit from "Room of Iron" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14470 2 1 100 0 0 0
+*     south exit from "Dead End" to
+*     "Room of Obsidian" - closed
+*
+D 0 14471 0 1 100 0 0 0
+*     north exit from "Room of Obsidian" to
+*     "Dead End" - closed
+*
+D 0 14474 0 5 100 0 0 0
+*     north exit from "East-West Corridor" to
+*     "Secret Alcove" - closed/secret
+*
+D 0 14475 2 1 100 0 0 0
+*     south exit from "Secret Alcove" to
+*     "East-West Corridor" - closed
+*
+D 0 14479 0 1 100 0 0 0
+*     north exit from "Dead End" to
+*     "Small Throne Room" - closed
+*
+D 0 14480 2 1 100 0 0 0
+*     south exit from "Small Throne Room" to
+*     "Dead End" - closed
+*
+D 0 14480 0 8 100 0 0 0
+*     north exit from "Small Throne Room" to
+*     "Tunnel of Moist Earth" - open/blocked
+*
+D 0 14560 2 1 100 0 0 0
+*     south exit from "Tunnel of Moist Earth" to
+*     "Small Throne Room" - closed
+*
+D 0 14481 3 1 100 0 0 0
+*     west exit from "Dead End" to
+*     "Small Alcove" - closed
+*
+D 0 14482 1 1 100 0 0 0
+*     east exit from "Small Alcove" to
+*     "Dead End" - closed
+*
+D 0 14487 3 1 100 0 0 0
+*     west exit from "Dead End" to
+*     "An Extremely Damp Alcove" - closed
+*
+D 0 14490 1 1 100 0 0 0
+*     east exit from "An Extremely Damp Alcove" to
+*     "Dead End" - closed
+*
+D 0 14490 2 6 100 0 0 0
+*     south exit from "An Extremely Damp Alcove" to
+*     "Secret Alcove" - closed/locked/secret
+*
+D 0 14491 0 1 100 0 0 0
+*     north exit from "Secret Alcove" to
+*     "An Extremely Damp Alcove" - closed
+*
+D 0 14494 2 0 100 0 0 0
+*     south exit from "West-East Corridor" to
+*     "Cell" - open
+*
+D 0 14501 0 0 100 0 0 0
+*     north exit from "Cell" to
+*     "West-East Corridor" - open
+*
+D 0 14495 2 2 100 0 0 0
+*     south exit from "East-West Corridor" to
+*     "Cell" - closed/locked
+*
+D 0 14500 0 1 100 0 0 0
+*     north exit from "Cell" to
+*     "East-West Corridor" - closed
+*
+D 0 14496 2 2 100 0 0 0
+*     south exit from "East-West Corridor" to
+*     "Cell" - closed/locked
+*
+D 0 14499 0 1 100 0 0 0
+*     north exit from "Cell" to
+*     "East-West Corridor" - closed
+*
+D 0 14497 2 2 100 0 0 0
+*     south exit from "Dead End" to
+*     "Cell" - closed/locked
+*
+D 0 14498 0 1 100 0 0 0
+*     north exit from "Cell" to
+*     "Dead End" - closed
+*
+D 0 14504 3 1 100 0 0 0
+*     west exit from "Bend in the Corridor" to
+*     "Small Alcove" - closed
+*
+D 0 14505 1 1 100 0 0 0
+*     east exit from "Small Alcove" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14509 2 2 100 0 0 0
+*     south exit from "East-West Corridor" to
+*     "Dead End" - closed/locked
+*
+D 0 14518 0 2 100 0 0 0
+*     north exit from "Dead End" to
+*     "East-West Corridor" - closed/locked
+*
+D 0 14510 0 1 100 0 0 0
+*     north exit from "East-West Corridor" to
+*     "Room of Pumice" - closed
+*
+D 0 14513 2 1 100 0 0 0
+*     south exit from "Room of Pumice" to
+*     "East-West Corridor" - closed
+*
+D 0 14512 0 1 100 0 0 0
+*     north exit from "Dead End" to
+*     "A Vast Morgue" - closed
+*
+D 0 14514 2 1 100 0 0 0
+*     south exit from "A Vast Morgue" to
+*     "Dead End" - closed
+*
+D 0 14520 1 1 100 0 0 0
+*     east exit from "Bend in the Corridor" to
+*     "Small Alcove" - closed
+*
+D 0 14521 3 1 100 0 0 0
+*     west exit from "Small Alcove" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14526 2 1 100 0 0 0
+*     south exit from "Bend in the Corridor" to
+*     "Room of Stone" - closed
+*
+D 0 14527 0 1 100 0 0 0
+*     north exit from "Room of Stone" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14538 0 5 100 0 0 0
+*     north exit from "Bend in the Corridor" to
+*     "Secret Alcove" - closed/secret
+*
+D 0 14539 2 1 100 0 0 0
+*     south exit from "Secret Alcove" to
+*     "Bend in the Corridor" - closed
+*
+D 0 14541 3 1 100 0 0 0
+*     west exit from "Dead End" to
+*     "Small Alcove" - closed
+*
+D 0 14542 1 1 100 0 0 0
+*     east exit from "Small Alcove" to
+*     "Dead End" - closed
+*
+D 0 14549 1 5 100 0 0 0
+*     east exit from "North-South Corridor" to
+*     "Secret Alcove" - closed/secret
+*
+D 0 14550 3 1 100 0 0 0
+*     west exit from "Secret Alcove" to
+*     "North-South Corridor" - closed
+*
+D 0 14551 1 1 100 0 0 0
+*     east exit from "Dead End" to
+*     "Tiny Alcove" - closed
+*
+D 0 14552 3 1 100 0 0 0
+*     west exit from "Tiny Alcove" to
+*     "Dead End" - closed
+*
+D 0 14552 1 1 100 0 0 0
+*     east exit from "Tiny Alcove" to
+*     "Disorganized Laboratory" - closed
+*
+D 0 14553 3 1 100 0 0 0
+*     west exit from "Disorganized Laboratory" to
+*     "Tiny Alcove" - closed
+*
+D 0 14558 3 1 100 0 0 0
+*     west exit from "Corridor End" to
+*     "Small Alcove" - closed
+*
+D 0 14559 1 1 100 0 0 0
+*     east exit from "Small Alcove" to
+*     "Corridor End" - closed
+*
+*
+O 0 14300 1 14302 100 0 0 0        * a battered sign
+O 0 14302 1 14303 100 0 0 0        * a pile of charred embers
+P 1 14303 1 14302 100 0 0 0        *   a mostly-burnt note
+O 0 14332 9 14305 100 0 0 0        * the river
+O 0 14332 9 14306 100 0 0 0        * the river
+O 0 14301 1 14307 100 0 0 0        * a piece of charred timber
+O 0 14332 9 14309 100 0 0 0        * the river
+O 0 14332 9 14310 100 0 0 0        * the river
+O 0 14332 9 14311 100 0 0 0        * the river
+O 0 14304 1 14312 100 0 0 0        * a large log
+O 0 14332 9 14312 100 0 0 0        * the river
+O 0 14332 9 14313 100 0 0 0        * the river
+O 0 14332 9 14314 100 0 0 0        * the river
+O 0 14305 12 14317 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14318 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14320 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14323 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14326 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14328 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14329 100 0 0 0       * a small collection of sticks and twigs
+O 0 14305 12 14335 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14335 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14339 100 0 0 0       * a small collection of sticks and twigs
+O 0 14305 12 14342 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14343 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14344 100 0 0 0       * a small collection of sticks and twigs
+O 0 14305 12 14346 100 0 0 0       * a small collection of sticks and twigs
+O 0 14316 1 14347 100 0 0 0        * an old rusted key
+O 0 14305 12 14349 100 0 0 0       * a small collection of sticks and twigs
+O 0 14305 12 14351 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14351 100 0 0 0        * a medium-sized branch
+O 0 14305 12 14354 100 0 0 0       * a small collection of sticks and twigs
+O 0 14315 7 14356 100 0 0 0        * a medium-sized branch
+O 0 14332 9 14360 100 0 0 0        * the river
+O 0 14306 1 14362 100 0 0 0        * a tarnished brass lantern
+O 0 14307 1 14362 100 0 0 0        * a rough wooden shelf
+P 1 14308 1 14307 100 0 0 0        *   a tarnished brass sextant
+P 1 14309 1 14307 100 0 0 0        *   a squat urn made of clay
+P 1 14310 4 14309 100 0 0 0        *     a bit of cured venison
+P 1 14310 4 14309 100 0 0 0        *     a bit of cured venison
+P 1 14310 4 14309 100 0 0 0        *     a bit of cured venison
+P 1 14310 4 14309 100 0 0 0        *     a bit of cured venison
+O 0 14313 1 14362 100 0 0 0        * an old mattress
+P 1 14314 1 14313 100 0 0 0        *   a small collection of coins
+O 0 14337 1 14364 100 0 0 0        * a torn bit of clothing
+O 0 14338 1 14364 100 0 0 0        * a dented steel dagger
+O 0 14330 1 14374 100 0 0 0        * a simple daisy
+O 0 14317 1 14375 100 0 0 0        * a large marble gravemarker
+O 0 14331 1 14382 100 0 0 0        * a dead clump of marigolds
+O 0 14329 1 14384 100 0 0 0        * a wilted wreath of roses
+O 0 14328 1 14387 100 0 0 0        * a dead bouquet
+O 0 14323 1 14388 100 0 0 0        * a gargoyle head
+O 0 14324 1 14388 100 0 0 0        * a coffin mounted atop a pedestal
+P 1 14325 1 14324 100 0 0 0        *   the shrivelled corpse of a mountain dwarf
+P 1 14334 1 14324 100 0 0 0        *   a small diamond
+P 1 14335 1 14324 100 0 0 0        *   a tiny emerald
+O 0 14322 1 14393 100 0 0 0        * a coffin
+P 1 14326 1 14322 100 0 0 0        *   a tiny vial full of a clear liquid
+O 0 14336 1 14393 100 0 0 0        * the shattered remains of a coffin lid
+O 0 14321 1 14395 100 0 0 0        * a dead rat
+O 0 14327 1 14395 100 0 0 0        * a marble coffin, closed
+O 0 14318 1 14397 100 0 0 0        * a squat obsidian gravemarker
+O 0 14333 1 14399 100 0 0 0        * a loose stone
+O 0 14417 1 14403 100 0 0 0        * a dank pool of water
+O 0 14418 5 14404 100 0 0 0        * a torch
+O 0 14419 7 14407 100 0 0 0        * several torches
+O 0 14419 7 14408 100 0 0 0        * several torches
+O 0 14419 7 14409 100 0 0 0        * several torches
+O 0 14428 3 14409 100 0 0 0        * a huge oaken table
+P 1 14431 1 14428 100 0 0 0        *   a stained placemat
+O 0 14419 7 14410 100 0 0 0        * several torches
+O 0 14428 3 14410 100 0 0 0        * a huge oaken table
+P 1 14433 1 14428 100 0 0 0        *   a thick, velvet placemat
+O 0 14429 1 14410 100 0 0 0        * a plush, padded chair
+P 1 14430 1 14429 100 0 0 0        *   a small handful of coins
+O 0 14420 1 14411 100 0 0 0        * several torches
+O 0 14428 3 14411 100 0 0 0        * a huge oaken table
+P 1 14432 1 14428 100 0 0 0        *   a dented iron plate
+O 0 14419 7 14412 100 0 0 0        * several torches
+O 0 14421 1 14413 100 0 0 0        * the scat pit
+P 1 14422 3 14421 100 0 0 0        *   a huge orc turd
+P 1 14422 3 14421 100 0 0 0        *   a huge orc turd
+P 1 14422 3 14421 100 0 0 0        *   a huge orc turd
+P 1 14423 5 14421 100 0 0 0        *   a handful of mushy feces
+P 1 14423 5 14421 100 0 0 0        *   a handful of mushy feces
+P 1 14423 5 14421 100 0 0 0        *   a handful of mushy feces
+P 1 14423 5 14421 100 0 0 0        *   a handful of mushy feces
+P 1 14423 5 14421 100 0 0 0        *   a handful of mushy feces
+P 1 14424 3 14421 100 0 0 0        *   a small orc turd
+P 1 14424 3 14421 100 0 0 0        *   a small orc turd
+P 1 14424 3 14421 100 0 0 0        *   a small orc turd
+P 1 14425 1 14421 100 0 0 0        *   a rune-covered dagger
+O 0 14427 1 14413 100 0 0 0        * a pair of rusty chainmail pants
+O 0 14434 1 14414 100 0 0 0        * a pot rack
+P 1 14435 1 14434 100 0 0 0        *   a small iron saucepan
+P 1 14436 1 14434 100 0 0 0        *   a deep iron pot
+O 0 14437 1 14414 100 0 0 0        * a wood stove
+O 0 14441 1 14415 100 0 0 0        * the pantry shelves
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14442 7 14441 100 0 0 0        *   an iron plate
+P 1 14443 11 14441 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14441 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14441 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14441 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14441 100 0 0 0       *   a piece of dried meat
+O 0 14418 5 14417 100 0 0 0        * a torch
+O 0 14444 2 14418 100 0 0 0        * some slightly glowing moss
+O 0 14418 5 14420 100 0 0 0        * a torch
+O 0 14448 1 14422 100 0 0 0        * a rough straw bed
+P 1 14447 1 14448 100 0 0 0        *   a tiny iron key
+P 1 14449 1 14448 100 0 0 0        *   a small handful of coins
+O 0 14446 1 14422 100 0 0 0        * a small iron footchest
+P 1 14450 1 14446 100 0 0 0        *   a thick iron ring with jade inlays
+P 1 14451 1 14446 100 0 0 0        *   a small stack of silver coins
+O 0 14452 2 14424 100 0 0 0        * a small brass lantern hanging from a hook
+O 0 14444 2 14426 100 0 0 0        * some slightly glowing moss
+O 0 14418 5 14428 100 0 0 0        * a torch
+O 0 14418 5 14429 100 0 0 0        * a torch
+O 0 14458 1 14430 100 0 0 0        * some wooden shelves
+O 0 14459 1 14430 100 0 0 0        * a comfortable feather bed
+O 0 14452 2 14430 100 0 0 0        * a small brass lantern hanging from a hook
+O 0 55274 1 14430 50 0 0 0         * (object type not in this .obj file)
+O 0 14462 1 14431 100 0 0 0        * a mutilated human body
+O 0 14463 2 14431 100 0 0 0        * two long counters
+P 1 14464 3 14463 100 0 0 0        *   a glass vial filled with a thick black liquid
+P 1 14464 3 14463 100 0 0 0        *   a glass vial filled with a thick black liquid
+P 1 14465 2 14463 100 0 0 0        *   a worn parchment
+P 1 14465 2 14463 100 0 0 0        *   a worn parchment
+O 0 14467 1 14431 100 0 0 0        * a small wooden island
+P 1 14468 1 14467 100 0 0 0        *   Nakral's journal
+O 0 14419 7 14431 100 0 0 0        * several torches
+O 0 14470 1 14432 100 0 0 0        * a small table
+P 1 14469 1 14470 100 0 0 0        *   a piece of parchment covered with scrawls
+O 0 14463 2 14432 100 0 0 0        * two long counters
+P 1 14464 3 14463 100 0 0 0        *   a glass vial filled with a thick black liquid
+P 1 14537 1 14463 100 0 0 0        *   a vial filled with a thick green liquid
+O 0 14471 1 14432 100 0 0 0        * the body of an exceptionally beautiful elf
+O 0 14419 7 14432 100 0 0 0        * several torches
+O 0 14473 1 14439 100 0 0 0        * several wooden barrels
+P 1 14443 11 14473 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14473 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14473 100 0 0 0       *   a piece of dried meat
+O 0 14476 2 14441 100 0 0 0        * the skeleton of a hapless adventurer
+P 1 14477 1 14476 100 0 0 0        *   a small pile of coins
+P 1 14479 1 14476 100 0 0 0        *   a necklace of segmented iron
+O 0 14478 1 14442 100 0 0 0        * a small bronze plaque
+O 0 14480 2 14444 100 0 0 0        * a small wooden chest
+P 1 14481 1 14480 100 0 0 0        *   a small pile of coins
+P 1 14482 1 14480 100 0 0 0        *   a ring of black steel
+O 0 14483 1 14446 100 0 0 0        * a large wooden chest
+P 1 14411 1 14483 100 0 0 0        *   a thick-handled mace
+P 1 14484 1 14483 100 0 0 0        *   a short stack of platinum coins
+P 1 14485 1 14483 100 0 0 0        *   a tiny brass bauble
+O 0 14486 5 14450 100 0 0 0        * a stacked crate
+O 0 14486 5 14450 100 0 0 0        * a stacked crate
+P 1 14443 11 14486 100 0 0 0       *   a piece of dried meat
+O 0 14486 5 14450 100 0 0 0        * a stacked crate
+O 0 14486 5 14450 100 0 0 0        * a stacked crate
+P 1 14443 11 14486 100 0 0 0       *   a piece of dried meat
+P 1 14443 11 14486 100 0 0 0       *   a piece of dried meat
+O 0 14486 5 14450 100 0 0 0        * a stacked crate
+P 1 14492 1 14486 100 0 0 0        *   a dust bunny
+O 0 14487 1 14450 100 0 0 0        * a tilted crate
+O 0 14488 1 14450 100 0 0 0        * the remains of a crate
+P 1 14490 1 14488 100 0 0 0        *   a broken fragment of wooden plank
+P 1 14493 1 14488 100 0 0 0        *   a nine-inch nail
+O 0 14489 1 14450 100 0 0 0        * a topless crate
+P 1 14491 2 14489 100 0 0 0        *   an iron dagger
+O 0 14494 1 14458 100 0 0 0        * a small chunk of adamantite
+O 0 72 100 14466 100 0 0 0         * (object type not in this .obj file)
+O 0 14501 1 14475 100 0 0 0        * a small chunk of adamantite
+O 0 14510 1 14477 100 0 0 0        * the rotting corpse of a human
+O 0 14502 1 14480 100 0 0 0        * some torches
+O 0 14505 1 14480 100 0 0 0        * a throne made of bone
+O 0 14509 1 14483 100 0 0 0        * the rotting corpse of a troll
+O 0 14512 1 14485 100 0 0 0        * the rotting corpse of a dwarf
+P 1 14513 1 14512 100 0 0 0        *   a tiny diamond
+O 0 14514 1 14488 100 0 0 0        * the rotting corpse of an elf
+O 0 14515 1 14489 100 0 0 0        * the rotting corpse of a drow
+O 0 14480 2 14491 100 0 0 0        * a small wooden chest
+P 1 14518 1 14480 100 0 0 0        *   an ebony wand topped by a small iron globe
+P 1 14519 1 14480 100 0 0 0        *   the disembodied hand of an elf
+P 1 14521 1 14480 100 0 0 0        *   a small chunk of adamantite
+O 0 14559 1 14491 100 0 0 0        * an ancient suit of spiked stone platemail
+O 0 14523 1 14498 100 0 0 0        * a humanoid skeleton
+O 0 14524 1 14501 100 0 0 0        * some broken leg irons
+O 0 14528 1 14513 100 0 0 0        * a small chest of pumice
+P 1 14529 1 14528 100 0 0 0        *   a helm of hollowed pumice
+P 1 14530 1 14528 100 0 0 0        *   a dagger of sharpened pumice
+P 1 14410 2 14528 100 0 0 0        *   a lily-white potion
+O 0 14540 1 14539 100 0 0 0        * a small chunk of adamantite
+O 0 14536 1 14550 100 0 0 0        * a small chunk of adamantite
+O 0 14507 1 14561 100 0 0 0        * a bit of twisted metal
+O 0 14508 1 14561 100 0 0 0        * a piece of shattered bone
+O 0 14544 1 14561 100 0 0 0        * a shiny steel broach
+O 0 14554 1 14561 100 0 0 0        * a scratched gold band
+O 0 14551 1 14583 100 0 0 0        * some cracks in the walls
+P 1 14550 1 14551 100 0 0 0        *   a dirtied scrap of paper
+O 0 14547 1 14584 100 0 0 0        * a glowing orb
+O 0 14476 2 14584 100 0 0 0        * the skeleton of a hapless adventurer
+P 1 14401 1 14476 100 0 0 0        *   a ring of warding
+P 1 14549 1 14476 100 0 0 0        *   a necklace of strength
+O 0 14413 1 14593 100 0 0 0        * a gaudy fake eelskin belt
+O 0 14414 1 14593 100 0 0 0        * a feathered headband
+O 0 14415 1 14593 100 0 0 0        * a beautiful silk scarf
+*
+M 0 14300 1 14300 100 0 0 0        * a grey cottontail rabbit
+M 0 14301 1 14303 100 0 0 0        * a rabid timber wolf
+M 0 14306 5 14322 100 0 0 0        * a chipmunk
+M 0 14306 5 14334 100 0 0 0        * a chipmunk
+M 0 14305 2 14336 100 0 0 0        * a doe
+M 0 14306 5 14345 100 0 0 0        * a chipmunk
+M 0 14306 5 14349 100 0 0 0        * a chipmunk
+M 0 14305 2 14353 100 0 0 0        * a doe
+M 0 14306 5 14356 100 0 0 0        * a chipmunk
+M 0 14302 1 14362 100 0 0 0        * an old hermit
+E 1 14311 1 5 100 0 0 0            *   a tattered and dirty shirt
+E 1 14312 1 7 100 0 0 0            *   a pair of tattered and dirty pants
+M 0 14303 1 14364 100 0 0 0        * an emaciated timber wolf
+M 0 14304 1 14393 100 0 0 0        * a maggot-eaten ghoul
+E 1 14319 1 2 100 0 0 0            *   a tarnished silver ring
+E 1 14320 1 12 100 0 0 0           *   a tattered burial shroud
+M 0 14400 7 14404 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14400 7 14404 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14401 1 14413 100 0 0 0        * a straining orc
+E 1 14426 1 5 100 0 0 0            *   a rusty chainmail shirt
+E 1 14404 2 8 100 0 0 0            *   a pair of heavy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+M 0 14402 1 14414 100 0 0 0        * an orcish cook
+E 1 14439 1 2 100 0 0 0            *   a thick iron ring
+E 1 14438 1 13 100 0 0 0           *   a stained cloth apron
+E 1 14440 1 16 100 0 0 0           *   an iron soup ladle
+G 1 14445 1 0 100 0 0 0            *    a small iron key
+M 0 14400 7 14417 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14400 7 14417 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14405 4 14418 100 0 0 0        * an undead skeleton
+M 0 14405 4 14418 100 0 0 0        * an undead skeleton
+M 0 14400 7 14420 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14400 7 14420 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14400 7 14420 100 0 0 0        * an extremely dirty orc
+E 1 14407 7 8 100 0 0 0            *   a pair of shoddy leather boots
+E 1 14405 8 16 100 0 0 0           *   a slightly rusted longsword
+E 1 14406 7 5 100 0 0 0            *   a shoddy suit of full-body leather armor
+M 0 14403 1 14424 100 0 0 0        * the orc chief guard
+E 1 14453 1 3 100 0 0 0            *   a circular wooden amulet
+E 1 14404 2 8 100 0 0 0            *   a pair of heavy leather boots
+E 1 14403 1 12 100 0 0 0           *   a heavy leather cloak
+E 1 14402 1 16 100 0 0 0           *   a thick-bladed long sword
+G 1 14457 1 0 100 0 0 0            *    an old scrap of paper
+M 0 14404 4 14425 100 0 0 0        * an orcish guard
+E 1 14454 2 12 100 0 0 0           *   a loosely wrapped blanket
+M 0 14404 4 14425 100 0 0 0        * an orcish guard
+E 1 14455 2 12 100 0 0 0           *   a tightly wrapped blanket
+M 0 14404 4 14425 100 0 0 0        * an orcish guard
+E 1 14454 2 12 100 0 0 0           *   a loosely wrapped blanket
+M 0 14404 4 14425 100 0 0 0        * an orcish guard
+E 1 14455 2 12 100 0 0 0           *   a tightly wrapped blanket
+M 0 14406 2 14428 100 0 0 0        * a half-visible wraith
+G 1 14461 1 0 100 0 0 0            *    a thick iron key
+M 0 14405 4 14429 100 0 0 0        * an undead skeleton
+E 1 14472 2 16 100 0 0 0           *   a rusted steel spike
+F 1 14405 4 14429 100 0 0 0        * an undead skeleton (following)
+E 1 14472 2 16 100 0 0 0           *   a rusted steel spike
+M 0 14407 1 14430 100 0 0 0        * Nak'ral, keeper of the crypt
+E 1 14409 1 5 100 0 0 0            *   a heavy robe splattered with blood
+E 1 14460 1 15 100 0 0 0           *   a dark iron bracelet
+E 1 14408 1 18 100 0 0 0           *   a shrunken wooden staff
+G 1 14410 2 0 100 0 0 0            *    a lily-white potion
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 14408 1 14430 100 0 0 0        * an undead skeleton
+E 1 14412 1 11 100 0 0 0           *   a shield with an embossed skull crest
+E 1 14456 1 16 100 0 0 0           *   a finely sharpened bone sword
+M 0 14448 1 14430 100 0 0 0        * a half-visible wraith
+M 0 14414 8 14435 100 0 0 0        * a zombie
+M 0 14409 4 14439 100 0 0 0        * a rat
+M 0 14409 4 14439 100 0 0 0        * a rat
+M 0 14409 4 14439 100 0 0 0        * a rat
+M 0 14409 4 14439 100 0 0 0        * a rat
+M 0 14414 8 14440 100 0 0 0        * a zombie
+M 0 14440 14 14440 100 0 0 0       * a small rat
+M 0 14411 5 14441 100 0 0 0        * a quivering blob of slime
+M 0 14411 5 14441 100 0 0 0        * a quivering blob of slime
+M 0 14411 5 14441 100 0 0 0        * a quivering blob of slime
+M 0 14411 5 14441 100 0 0 0        * a quivering blob of slime
+M 0 14411 5 14441 100 0 0 0        * a quivering blob of slime
+M 0 14415 1 14446 100 0 0 0        * a vaguely humanoid ghost
+M 0 14412 5 14447 100 0 0 0        * a patrolling skeleton
+M 0 14416 1 14450 100 0 0 0        * an undead rat
+M 0 14413 3 14452 100 0 0 0        * a wandering wraith
+M 0 14414 8 14455 100 0 0 0        * a zombie
+M 0 14440 14 14456 100 0 0 0       * a small rat
+M 0 14410 1 14462 100 0 0 0        * an unusually tall skeleton
+E 1 14475 1 3 100 0 0 0            *   an ancient key
+E 1 14474 1 16 100 0 0 0           *   an ancient broadsword
+M 0 14440 14 14465 100 0 0 0       * a small rat
+M 0 14418 1 14466 100 0 0 0        * an iron golem
+E 1 14497 1 8 100 0 0 0            *   some boots of segmented iron
+E 1 14560 2 9 100 0 0 0            *   some gloves of segmented iron
+F 1 14420 1 14466 100 0 0 0        * a tiny iron butterfly (following)
+G 1 14498 1 0 100 0 0 0            *    a pair of iron butterfly wings
+M 0 14414 8 14469 100 0 0 0        * a zombie
+M 0 14440 14 14470 100 0 0 0       * a small rat
+M 0 14419 1 14471 100 0 0 0        * a black hyena
+E 1 14499 1 3 100 0 0 0            *   a collar made of pure obsidian
+F 1 14421 1 14471 100 0 0 0        * a grinning imp (following)
+G 1 14500 1 0 100 0 0 0            *    a black imp's tail
+M 0 14413 3 14474 100 0 0 0        * a wandering wraith
+M 0 14422 4 14475 100 0 0 0        * a zombie
+M 0 14422 4 14475 100 0 0 0        * a zombie
+M 0 14422 4 14475 100 0 0 0        * a zombie
+M 0 14422 4 14475 100 0 0 0        * a zombie
+M 0 14440 14 14477 100 0 0 0       * a small rat
+M 0 14423 1 14480 100 0 0 0        * a regal skeleton
+E 1 14506 1 2 100 0 0 0            *   a tiny knucklebone ring
+E 1 14504 1 5 100 0 0 0            *   some thick purple robes
+E 1 14503 1 6 100 0 0 0            *   a crown of black steel
+M 0 14424 2 14480 100 0 0 0        * a skeleton guard
+E 1 14555 2 16 100 0 0 0           *   an ancient iron mace
+M 0 14424 2 14480 100 0 0 0        * a skeleton guard
+E 1 14555 2 16 100 0 0 0           *   an ancient iron mace
+M 0 14414 8 14481 100 0 0 0        * a zombie
+M 0 14440 14 14481 100 0 0 0       * a small rat
+M 0 14426 1 14486 100 0 0 0        * the rotting zombie of an ogre
+E 1 14511 1 15 100 0 0 0           *   a stained wooden bracelet
+M 0 14412 5 14487 100 0 0 0        * a patrolling skeleton
+M 0 14440 14 14489 100 0 0 0       * a small rat
+M 0 14427 1 14490 100 0 0 0        * a lich
+E 1 14520 1 12 100 0 0 0           *   a threadbare silken cloak
+E 1 14517 1 21 100 0 0 0           *   an earring of dark ironwood
+G 1 14516 1 0 100 0 0 0            *    a key of dark ironwood
+G 1 14532 1 0 100 0 0 0            *    a small scrap of paper
+F 1 14444 2 14490 100 0 0 0        * an undead skeleton (following)
+E 1 14546 2 16 100 0 0 0           *   a glowing longsword
+F 1 14444 2 14490 100 0 0 0        * an undead skeleton (following)
+E 1 14546 2 16 100 0 0 0           *   a glowing longsword
+M 0 14414 8 14492 100 0 0 0        * a zombie
+M 0 14412 5 14496 100 0 0 0        * a patrolling skeleton
+G 1 14522 1 0 100 0 0 0            *    a long wooden key
+M 0 14440 14 14497 100 0 0 0       * a small rat
+M 0 14428 1 14500 100 0 0 0        * a chained zombie
+M 0 14440 14 14503 100 0 0 0       * a small rat
+M 0 14413 3 14504 100 0 0 0        * a wandering wraith
+M 0 14429 5 14505 100 0 0 0        * a small bat
+M 0 14429 5 14505 100 0 0 0        * a small bat
+M 0 14429 5 14505 100 0 0 0        * a small bat
+M 0 14429 5 14505 100 0 0 0        * a small bat
+M 0 14429 5 14505 100 0 0 0        * a small bat
+M 0 14440 14 14506 100 0 0 0       * a small rat
+M 0 14414 8 14508 100 0 0 0        * a zombie
+M 0 14440 14 14509 100 0 0 0       * a small rat
+M 0 14412 5 14510 100 0 0 0        * a patrolling skeleton
+M 0 14440 14 14512 100 0 0 0       * a small rat
+M 0 14430 1 14513 100 0 0 0        * a formless mass
+F 1 14431 1 14513 100 0 0 0        * a small magma devil (following)
+E 1 14527 1 2 100 0 0 0            *   a tiny ring of pumice
+G 1 14526 1 0 100 0 0 0            *    a tiny horn of hardened magma
+G 1 14525 1 0 100 0 0 0            *    a key of warm pumice
+M 0 14432 1 14516 100 0 0 0        * a dwarven conjurer
+E 1 14541 1 5 100 0 0 0            *   a robe of bleached cotton
+E 1 14491 2 16 100 0 0 0           *   an iron dagger
+M 0 14440 14 14517 100 0 0 0       * a small rat
+M 0 14450 1 14518 100 0 0 0        * a half-visible wraith
+M 0 14439 2 14522 100 0 0 0        * a ghost
+F 1 14443 1 14522 100 0 0 0        * a ghostly werebeast (following)
+G 1 14553 1 0 100 0 0 0            *    a white granite leopard totem
+M 0 14433 1 14527 100 0 0 0        * a frost dervish
+F 1 14434 1 14527 100 0 0 0        * a snow-white wolf (following)
+G 1 14534 1 0 100 0 0 0            *    a white wolf's ear
+G 1 14533 1 0 100 0 0 0            *    an iron collar studded with purple gemstones
+M 0 14439 2 14533 100 0 0 0        * a ghost
+M 0 14449 1 14535 100 0 0 0        * a chained hellhound
+E 1 14556 1 3 100 0 0 0            *   a glowing mithril collar
+M 0 14438 1 14536 100 0 0 0        * a squat statue
+M 0 14435 1 14550 100 0 0 0        * a troll-ogre mutant
+E 1 14535 1 16 100 0 0 0           *   a marble sword inscribed with purple runes
+F 1 14436 1 14550 100 0 0 0        * a tiny gnat (following)
+M 0 14447 2 14551 100 0 0 0        * an undead skeleton
+E 1 14558 2 16 100 0 0 0           *   a longsword
+F 1 14447 2 14551 100 0 0 0        * an undead skeleton (following)
+E 1 14558 2 16 100 0 0 0           *   a longsword
+M 0 14406 2 14552 100 0 0 0        * a half-visible wraith
+E 1 14543 1 16 100 0 0 0           *   a thick wooden staff inscribed with runes
+M 0 14437 1 14553 100 0 0 0        * the lich of an undead alchemist
+E 1 14400 1 6 100 0 0 0            *   a crown of tiny swords
+E 1 14538 1 18 100 0 0 0           *   a large beaker of purple liquid
+E 1 14545 1 19 100 0 0 0           *   a blackened steel eyepiece
+F 1 14307 1 14553 100 0 0 0        * a half-visible wraith (following)
+M 0 14440 14 14554 100 0 0 0       * a small rat
+M 0 14414 8 14555 100 0 0 0        * a zombie
+M 0 14412 5 14557 100 0 0 0        * a patrolling skeleton
+M 0 14417 1 14559 100 0 0 0        * an elf-bear mutant
+E 1 14495 1 5 100 0 0 0            *   an overstretched vest of green felt
+E 1 14496 1 13 100 0 0 0           *   an overstretched belt of green felt
+M 0 14425 1 14561 100 0 0 0        * a huge purple worm
+M 0 14442 4 14576 100 0 0 0        * a large pike
+M 0 14441 4 14578 100 0 0 0        * a huge catfish
+M 0 14442 4 14580 100 0 0 0        * a large pike
+M 0 14441 4 14581 100 0 0 0        * a huge catfish
+M 0 14446 1 14584 100 0 0 0        * a battle-scarred shark
+G 1 14548 1 0 100 0 0 0            *    a serrated shark's tooth
+M 0 14441 4 14587 100 0 0 0        * a huge catfish
+M 0 14442 4 14588 100 0 0 0        * a large pike
+M 0 14441 4 14589 100 0 0 0        * a huge catfish
+M 0 14442 4 14591 100 0 0 0        * a large pike
+M 0 14445 1 14593 100 0 0 0        * a misshapen gnome
+*
+S

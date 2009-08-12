@@ -1,0 +1,1013 @@
+#22400
+orc guard dock~
+an &+Lorc&n dock &+cguard&n~
+&+LAn Orc&n &+cguards&+L the &+cdocks&+L viciously.&n
+~
+&+LThis orc is one of the local guards of the docks.  His job is much
+&+Lmore important than those guards at the gates due to the sheer
+&+Lammount of traffic that comes in and out of the &+Bharbour&+L on a daily
+&+Lbasis.&n
+~
+67110920 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22401
+orc gate guard~
+an &+Lorc&n &+bgate&n &+cguard&n~
+An &+LOrc&n &+cguards&n the &+bgates&n from invaders here.
+~
+&+cThis &+Lorc&+c vigilantly watches the gates day after day, almost hoping
+&+cthat some of the good races will attempt to break in and cause some
+&+cform of excitement.  He appears stern and not too intelligent and
+&+cprobably takes great pleasure in pushing others around.&n
+~
+67108874 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22402
+orc harbour worker~
+&+Ba harbour worker&n~
+&+BAn &+LOrc&+B harbour worker runs about performing his duties.&n
+~
+&+LThis orc spends most his waking hours working in the harbour under
+&+Lthe strict supervision of the harbour master. He tends not to be
+&+Lthe most capable orc, as he looks soaked from recent spill into
+&+Lthe ocean.
+~
+2056 0 0 0 0 0 0 -500 S
+HO 0 0 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22403
+orc ship wright shipwright~
+&+yan &+Lorc&+y shipwright&n~
+&+yAn &+LOrc&+y shipwright stands here, selling ship rides across the sea.&n
+~
+&+yThis large burly orc is the local shipwright of &+WSto&+Lrm &+bPort&+y, and
+&+yfor a considerable fee he and his men will upgrade your current
+&+yship.  For those inexperienced sailors, he will sell new vessels
+&+yas well.&n
+~
+1073743882 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22404
+harbour master orc~
+&+ythe harbour master&n~
+&+yA tall &+LOrc&+y stresses over all the work to do in the harbour.&n
+~
+&+yThe harbour master has a very important job and the sheer ammount
+&+yof vessels docking here as well as the clumsiness of his employees
+&+ydoes not make it any easier.  He runs along the pier shouting orders
+&+yto the harbour workers and sailors.&n
+~
+67110920 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22405
+orc sailor~
+&+Wan &+Lorc&+W sailor&n~
+&+WAn &+LOrc&+W sailor searches for his ship along the pier.&n
+~
+&+WThis &+Lorc&+W spends most of his time aboard the various ships coming
+&+Win and out of the &+Bharbour&+W.  He is on leave now for a short while
+&+Wand wanders around the city, possibly looking for &+Lorc&+W hookers like
+&+Wmost &+Lorc&+W sailors do.
+~
+1073743880 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22406
+young warg~
+&+ya young warg&n~
+&+yA young warg scampers along the plateau.&n
+~
+&+yThis warg appears to be very young, still in training for the orcs
+&+yto put into better use.  Despite his size, the snout full of sharp teeth
+&+ycan still prove dangerous to the unwary.&n
+~
+72 0 0 0 0 0 0 -250 S
+A 0 0 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22407
+mountain manta~
+&+Wa mountain &+cmanta&n~
+&+WA mountain &+cmanta&n &+Whides in the &+yearth&+W here.&n
+~
+&+cThis manta seems to be a distant relative to the ocean type.  Instead
+&+cof swimming it drifts on small air currents while hugging the ground.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22408
+venus fly trap~
+&+ga venus fly trap&n~
+&+gA venus fly trap grows from the &+yearth &+ghere.&n
+~
+&+gThis plant looks much more dangerous than a dandylion.  It 'mouth'
+&+gis lined with sharp 'teeth' that snaps closed when it feels it has
+&+gcaught something.&n
+~
+10 0 0 0 0 0 0 -250 S
+VT 0 1 2
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22409
+duergar foreman~
+&+ra duergar foreman&n~
+&+rA Duergar foreman checks the &+Caqueduct&+r for problems.&n
+~
+&+rThis duergar has been brought in from his home town for the sole
+&+rpurpose of mantaining the aqueduct.  Although the &+Lorcs&+r will always
+&+rdisagree that they did not achieve most of the city's more amazing
+&+rstructures, the truth is they always recieved outside help, mainly
+&+rfrom duergar craftsmen.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22410
+merchant orc~
+&+Wan &+Lorc&+W merchant&n~
+&+WAn &+LOrc &+Wmerchant wanders the city, selling his wares.&n
+~
+&+WThis &+Lorc&+W wanders the street, selling anything from fresh fish to
+&+Wcutting edge weapons.  He doesn't sell to just anyone though, having
+&+Wreservations normally on his inventory and walks through the city
+&+Wto find his next buyer.&n
+~
+136 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22411
+infant orc~
+&+Wan &+Lorc&+W infant&n~
+&+WAn &+Lorc&+W infant crawls around the nursery.&n
+~
+&+WThis young hapless &+Lorc&+W crawls around the nursery drooling, and
+&+Wgenerally stinking up the place.&n
+~
+138 0 0 0 0 0 0 -500 S
+HO 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22412
+groaning zombie~
+&+La groaning zombie&n~
+&+LA groaning zombie lumbers through the graveyard here.&n
+~
+&+LThis zombie groans loudly as it shambles through the graveyard hunting
+&+Lfor living flesh to consume.  The orcs visiting the graveyard keep
+&+Ltheir distance from this gruesome undead monster.&n
+~
+12 1 0 0 0 0 0 -1000 S
+ZO 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22413
+skeleton enraged~
+&+Wan enraged skeleton&n~
+&+WAn enraged skeleton claws his way over tombstones here.&n
+~
+&+WThis skeleton roams the graveyard, howling in anguish at being raised
+&+Wby some devious &+mnecromancer. &n
+~
+8 0 0 0 0 0 0 -1000 S
+SK 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22414
+water wheel operator~
+&+ythe wheel operator&n~
+&+yThe water wheel operator spends his days working here.&n
+~
+&+yThe &+Lorc&+y works all day every day inside the water wheel. His duties
+&+yinclude properly oiling the metal joints and replacing the wood
+&+ywhen it becomes old. He seems to be rather grumpy and constantly
+&+ymutters &+Lorcish&+y curses under his breath.&n
+~
+2058 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22415
+orc anti paladin lord daagar~
+&+LDaagar, the anti-paladin lord&n~
+&+LDaagar, lord of the anti-paladins, stands here speaking with the &+remissary&+L.&n
+~
+&+LDaagar is the paramount anti-paladin of &+WSto&+Lrm&+b Port&+L.  Younger
+&+Lanti-paladins travel across the seas to come train under him,
+&+Lhoping to learn new techniques in two handed weaponry.  His face
+&+Lis scarred and he is full of hate for the paladins of light
+&+Lwho left him forever ravaged.&n
+~
+3288369162 0 0 0 0 0 0 -1000 S
+HO 0 16 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22416
+human slave~
+&+ya &+chuman&+y slave&n~
+&+yA &+cHuman&+y slave rows on the right side.&n
+~
+&+yThis &+chuman&+y hates his life, after being captured during an &+Lorc&n
+&+yraid in one of the &+chuman&+y port towns, he now spends day after
+&+yday rowing on the &+bjuggernaught.&n
+~
+2058 0 0 0 0 0 0 500 S
+PH 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22417
+gnome slave~
+&+ya &+Rgnome&+y slave&n~
+&+yA &+RGnome&+y slave rows on the left side.&n
+~
+&+yThis &+Rgnome&+y was captured long ago in a direct assault against his
+&+yhometown.  The &+Rgnome&+y defenders managed to force the &+Lorc&+y hoards back
+&+ybut several of the locals were captured.  This little guy was one
+&+yof them.&n
+~
+2058 0 0 0 0 0 0 500 S
+PG 0 1 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22418
+grey elf slave~
+&+ya &+cgrey elf&+y slave~
+&+yA &+cGrey Elf&+y slave rows on the right side.&n
+~
+&+yThis &+cgrey elf&+y has lost his will to fight back, he has been traded
+&+yfrom one slavemaster after another for so long now he can no longer
+&+yremember how he became a slave in the first place. &n
+~
+2058 0 0 0 0 0 0 1000 S
+PE 0 2 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22419
+dwarf slave~
+&+ya &+Ydwarf&+y slave~
+&+yA &+YDwarf &+yslave rows on the left side.&n
+~
+&+yThis &+Ydwarf&+y continually rants and raves at his captor, being as
+&+yloud and obnoxious as he could possibly be.  He pulls at his chains
+&+yin defiance and spits in the direction of the slave master.&n
+~
+2058 0 0 0 0 0 0 500 S
+PM 0 32 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22420
+goblin suulod~
+&+cSuulod&n~
+&+cSuulod, the &+GGoblin&+c camp leader, watches over the area here.
+~
+&+cSuulod quietly sits in her grove, practicing her meditation and
+&+cspiritual spells.  She is dressed in a long &+bblue&+c robe, and is just
+&+cabout as attractive as an &+Ggoblin&+c could possibly be.  She seems very
+&+caware of the world around here.  As well as being a talented shaman
+&+cshe is the leader of the group of &+Ggoblins&+c that have live here,
+&+caround the area of &+WSto&+Lrm&+b Port.&n
+~
+3221260298 0 0 0 0 0 0 -500 S
+HG 0 256 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22421
+orc city guard~
+&+Wan &+Lorc&+W city &+cguard&n~
+&+WAn &+LOrc&+W city &+cguard&+W walks here, most likely abusing his power.&n
+~
+&+cThis guard keeps the peace in the city, as much peace as orcs
+&+care used to at least.  He generally ignores fights and arguments
+&+cand focusses more on collecting bribes from local shop owners so
+&+cthose unique &+Lorcish&+c 'accidents' don't happen.&n
+~
+1140852744 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22422
+young orc soldier~
+&+La young orc &+rsoldier&n~
+&+LA young Orc &+rsoldier&+L wanders the city here, preparing for training.&n
+~
+&+LThis &+rsoldier&+L seems to have just graduated from the &+Bwarriors&+L guild
+&+Land is eager to put his training to use.  He wanders around town,
+&+Lpicking fights with any one who seems smaller than him. &n
+~
+1073743880 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22423
+female orc bitch~
+&+Wan &+Lorc&+W female&n~
+&+WA female &+LOrc&+W wanders the city here, bitching at the males she passes.&n
+~
+&+WThis &+Lorc&+W female appears to be quite the bitch. When she sees you
+&+Wlooking at her she begins to hurl foul mouthed insults for no apparent
+&+Wreason.  All the male &+Lorcs&+W steer clear of her path, fearful of
+&+Wthe abuse she seems all too happy to dish out.&n
+~
+2060 0 0 0 0 0 0 -500 S
+HO 0 0 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22424
+stray dog~
+&+ya stray dog&n~
+&+yA stray dog spends his days chasing rats through the back alleys.&n
+~
+&+y'Grrrr' 'Woof Woof Woof' This dog appears to have been abandoned
+&+yfor quite some time now.  He is ragged and fairly mean.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22425
+slave driver~
+&+ythe slave &+Ldriver&n~
+&+yThe cruel slave &+Ldriver&+y is here, cracking his &+Lwhip&+y to inspire terror.&n
+~
+&+yThis evil &+Lorc&+y is in charge of keeping the slaves onboard the
+&+yjuggernaught properly rowing the oars.  He seems a slight bit
+&+yover zealous about his career choice, and takes great pleasure
+&+yevery time his whip tear the flesh of a slave.&n
+~
+1073743880 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22426
+mountain goat~
+&+Wa mountain goat&n~
+&+WA mountain goat stands here, chewing on some small &+gplants.&n
+~
+&+WMountain goats are especially stupid animals.  It wanders around
+&+Wthe &+yplateau&+W, chewing on the small &+gplants&+W growing from the rocks,
+&+Wunaware of anything happening around it.&n
+~
+2056 0 0 0 0 0 0 0 S
+HO 0 0 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22427
+orc commoner~
+&+Wan&+L orc &+Wcommoner&n~
+&+WAn &+LOrc&+W commoner wanders the city here.&n
+~
+&+WThis small &+Lorc&+W commoner lazily walks around the city, doing many
+&+Wtypical &+Lorc-like&+W things including but not limited to, chasing the
+&+Lcrows&+W, kicking the &+ydogs&+W, rumaging through &+Ggarbage&+W, spitting on
+&+Wthe &+cguards&+W, and setting small &+rfires&+W for the sheer arsonic pleasure
+&+Wof it.&n
+~
+2060 0 0 0 0 0 0 -500 S
+HO 0 0 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22428
+high priest tchan~
+&+WTchan, the &+Lhigh &+Wpriest&n~
+&+WTchan, the &+Lhigh&+W priest of Sto&+Lrm &+bPort&+W sits in his monestary.&n
+~
+&+WTchan runs the small &+ymonestary&+W up on the &+yplateau&+W. He is a rather
+&+Wold, but wise &+Lorc &+Wand has lived in the city for many, many years.
+&+WPatiently he teaches new &+Lorc&+W clerics the powers they can one day
+&+Wpossess.  He seems interested in your business here and appears as if
+&+Whe has something to say.&n
+~
+1073776650 0 0 0 0 0 0 -1000 S
+HO 0 32 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22429
+orc crew man crewman~
+&+Lan orc &+bcrewman&n~
+&+LAn Orc &+bcrewman&+L performs his duties on the deck.&n
+~
+&+LThis &+bcrewmen&+L runs about the &+yfrigate&+L, so busy in his duties he hardley
+&+Lnotices anyone around him.  It is a true testament to just how hard
+&+Lsailing can be to see an orc work so hard.&n
+~
+67110920 0 0 0 0 0 0 -500 S
+HO 0 16384 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22430
+captain juggernaught orc~
+&+Lthe jugge&+Wrnaug&+Lht captain&n~
+&+LThe captain of the jugge&+Wrnaug&+Lht steers the ship from here.&n
+~
+&+LThis &+Wcaptain&+L is a strong and experienced orc &+Wsailor&+L.  Though he
+&+Lusually commands the legendary &+WSto&+Lrm&+b Port&+L juggernaught, his duties
+&+Lhave positioned him onboard a &+yfrigate&+L today, of which he looks quite
+&+Ldisappointed.&n
+~
+1140852746 0 0 0 2048 0 0 -500 S
+HO 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22431
+first mate orc~
+&+Wthe first mate&n~
+&+WThe first mate of the jugge&+Lrnaug&+Wht stay close to his captain.&n
+~
+&+LThis orc is the &+Wfirst mate&+L of the &+yfrigate&+L in harbour.  He stands
+&+Lby his &+Wcaptain&+L vigilantly listening to orders, and shouting out some
+&+Lof his own in preparation of departure.&n
+~
+1073744010 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22432
+black crow~
+&+La black crow&n~
+&+LA black crow hops through the streets, pecking at trash.&n
+~
+&+LThis crow squawks loudly and flaps its wings but does not take flight,
+&+Lso interested in whatever it has found laying in the dirt road it
+&+Lhas almost became tame.&n
+~
+8 0 0 0 0 0 0 -250 S
+B 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 1
+#22433
+death knight soldier~
+&+La de&+rath&+L knight&n~
+&+LA lumbering, re-animated &+rsoldier&+L, causes havoc throughout the graveyard.&n
+~
+&+LThis monster was once an elite orc &+Bwarrior&+L, now through some
+&+barcane&+L means, most likely &+mnecromatic&+L, he has been changed into
+&+La fearsome and deadly undead &+rdeath&+L knight.&n
+~
+1073743880 1 0 0 0 0 0 -1000 S
+U 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22434
+rend battle master orc~
+&+BRend&n~
+&+LThe Orc battle master, &+BRend&+L, teaches his pupils here.&n
+~
+&+BRend&+L is the local champion of the &+Bwarriors&+L.  He is a brutal
+&+Lhand-to-hand fighter with a just as brutal personality.  He snarls
+&+Lconstantly and shouts at his trainees, whether being the young
+&+Lnew &+Bwarrior&+L orcs, or somewhat experienced &+ymercenary&+L orc who
+&+Lhave come to master their melee skills.  &+BRend&+L cares little
+&+Labout who he teaches, as long as they pass the battle test and
+&+Lrecommend him as a tutor.&n
+~
+3288369162 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22435
+maim mercenary~
+&+yMaim&n~
+&+yMaim, the elite mercenary, stands here.&n
+~
+&+yMaim is a massive &+Lorc&+y, trained in the most deadly mercenary skills.
+&+yHigh level &+Lorc&+y mercenaries are an extremely rare thing to see, so
+&+yit pays to study this master closely for those wishing to someday
+&+ybe like him.&n
+~
+3288369162 0 0 0 0 0 0 -500 S
+HO 0 16384 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22436
+smithy smith orc~
+&+cthe city smithy&n~
+&+cThe city smithy, works hard in the foundry, shaping metal.&n
+~
+&+cThis burly &+Lorc&+c works in front of the foundry's forge, constantly
+&+chammering at metal, shaping it into its desired shape.  He occasionally
+&+cshouts orders at his assistants, but generally seems to focused on
+&+chis own work to care what others are doing.&n
+~
+1073743882 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22437
+matron mother~
+&+Wthe matron&n~
+&+WThe matron mother stands here, protecting the children.&n
+~
+&+WThis is the matron mother of the &+Lorc&+W nursery, and as expected
+&+Wbeing around several sobbing &+Lorc&+W babies all the time has turned her
+&+Wquite cranky and quite nasty.  She will also protect the young at
+&+Wany cost.&n
+~
+67110922 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22438
+troll patron~
+&+ga troll patron&n~
+A &+gTroll&n patron waits for his room here.&n
+~
+&+gAlthough trolls aren't known for their sailorman's skills, the
+&+godd one does come through town, destined to their hometown, or
+&+ga &+ymercenary&+g company on a far off company.  The usually stay at
+&+gthis inn, and always cause as much trouble as possibly when
+&+gwaiting for a room.&n
+~
+2058 0 0 0 0 0 0 -750 S
+PT 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22439
+orc sailor~
+&+Wan &+Lorc &+Wsailor&n~
+An &+LOrc&n &+Wsailor&n waits for his room here.
+~
+&+WThis &+Lorc&+L is just in town for a short while, perhaps only overnight
+&+Was his ship gets restocked and prepared for depatured. He will try
+&+Wto insight as many riots as he possibly can however and maybe even
+&+Wtry to pick up the odd hooker or two.. or three.&n
+~
+2058 0 0 0 0 0 0 -500 S
+HO 0 16384 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22440
+torn assassin~
+&+LTo&+rrn&n~
+&+LTo&+rrn&+L, the great &+rassassin&+L of &+WSto&+Lrm &+bPort&+L, stands here.&n
+~
+&+LTo&+rrn&+L is the head &+rassassin&+L of &+WSto&+Lrm&+b Port&+L, he is a ruthless and cunning
+&+Lorc with tendancies of stabbing his so called friends in the back,
+&+Lliterally, without warning.  It is best to watch your back around
+&+Lhim and fear his vicious temper.&n
+~
+3221260302 0 0 0 0 0 0 -1000 S
+HO 0 8192 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22441
+trank thief~
+&+rTra&+Lnk&n~
+&+LLord of the &+rthieves&+L, &+rTra&+Lnk, stands here.&n
+~
+&+rTra&+Lnk is a sneaky and cunning orc, moreso than even his counter
+&+Lpart, To&+rrn&+L.  He has a habit of stealing from his pupils the
+&+Lmost valuable objects they have stolen from others, breaking the
+&+Lsomewhat sacred oath that the orcs &+rthieves&+L have with the other
+&+Lorcs.&n
+~
+3288369162 0 0 0 0 0 0 -1000 S
+HO 0 4096 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22442
+orc shop keeper~
+&+La sneaky shopkeeper&n~
+&+LA villainous Orc tends to his store here.&n
+~
+&+LThis shopkeeper has stayed in business in this town purely
+&+Lby his wits.  He raises the prices upon every sail, knowing full
+&+Lwell the sailors who frequent the city have no choice but to
+&+Lpay his prices.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22443
+orc merchant mystic~
+&+Wa mystic &+Lorc&+W merchant&n~
+&+WThe &+LOrc&+W mage vendor sells his goods in the toppled tower.&n
+~
+&+WThis &+Lorc&+W sells most of the more &+barcane&+W items in the city.  He
+&+Wis ragged and old, and smiles toothlessly when he sees you are
+&+Wthinking about making a purchase.&n
+~
+10 0 0 0 0 0 0 -1000 S
+HO 0 512 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22444
+local rogue orc~
+&+Lan orc rogue&n~
+&+LA local rogue sneaks through the shadows here.&n
+~
+&+L   This is one of the local members of the rogue guild in &+WSto&+Lrm&+b Port&+L,
+&+Lwhen he isn't out thieving on the streets of the city, he holds in here,
+&+Lwith other members of his outcasted guild.&n
+~
+1073743880 0 0 0 0 0 0 -1000 S
+HO 0 8192 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22445
+rogue shop keeper shopkeeper~
+&+Lthe rogue shopkeeper&n~
+&+LThe shopkeeper of Rogue Hall sells his wares here.&n
+~
+&+LThis shady orc sells lives and works inside Rogue Hall, selling
+&+Land buying his wares to the newer rogues that have yet to learn
+&+Lthat buying from another rogue is not always a smart thing to do.&n
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 4096 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22446
+banker~
+&+Lthe banker&n~
+&+LThe &+cbanker&+L of the city stands counting coins here.&n
+~
+&+LThis obese, greasy, orc rubs his hands together in anticipation of
+&+Lhis next customers withdrawal.  Just by glancing at the greedy look
+&+Lin his eyes is almost enough to suggest to one to take ones business
+&+Lelsewhere.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22447
+emissary~
+&+Lan &+remissary&n~
+&+LAn &+remissary&+L from the Pits of &+rCerberus&+L talks with Daagar&n
+~
+&+LThis freakish looking devil has come from the Pits of &+rCerberus&+L to
+&+Ltalk with the more chaotic members of &+WSto&+Lrm &+bPort&+L.  Obviously, the
+&+LPits are planning a new campaign against any number of new locations
+&+Land are either seeking assistance from the city, or are issuing
+&+Lransom demands.&n
+~
+1140852746 0 0 0 0 0 0 -1000 S
+X 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22448
+soldier fortune~
+&+La soldier of &+Yfortune&n~
+&+LA Soldier of &+YFortune&+L stands here pondering his next move.&n
+~
+&+LThis tall man appears to be the leader of a small group of
+&+ymercenaries&+L from the &+ymercenary&+L company the Soldiers of &+YFortune&+L.
+&+LHe stands here with his comrades looking to the west, where the
+&+Lorc guards of &+WSto&+Lrm &+bPort&+L protect the gates of the city and
+&+Lpondering whether or not to ask them for permission to enter.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22449
+soldier fortune~
+&+La soldier of &+Yfortune&n~
+&+LA Soldier of &+YFortune&+L stands with his companions here.&n
+~
+&+LThis young mercenary looks to his group leader in curiosity, wondering,
+&+Ljust how much of a chance they have on being allowed into the the great
+&+Lorc city of &+WSto&+Lrm&+b Port&+L.  He nervously keeps a tight grip on his weapon,
+&+Lpredicting that if the orcs don't let them in, there could be a fight.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22450
+orc guard dock~
+an &+Lorc&n dock &+cguard&n~
+&+LAn Orc &+cdock &+Lguard rests here while off duty.&n
+~
+&+LThis is a vigilant &+cdock guard&+L, a post that is much more important than
+&+Lthe usual gate &+cguards&+L.  The &+cdocks&+L recieve nearly three times the
+&+Lammount of traffic daily as the gates do.&n
+~
+1140852746 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#22451
+king kingfish fish~
+&+ca kingfish&n~
+&+cA large kingfish swims around the reservoir here.&n
+~
+&+cThis kingfish swims around the &+breservoir&+c lazily preying on the
+&+csmaller fish and creatures that have managed to survive the
+&+Lorcs&+c monthly cleansing of the pool.  Though is quite unhealthy
+&+cfor fish to even be in the &+breservoir&+c, the locals of the city
+&+cdon't seem to care about it that much.&n
+~
+2056 0 0 0 0 0 0 -1000 S
+F 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22452
+mountain goat~
+&+Wa mountain goat&n~
+&+WAn ugly mountain goat walks about the &+yhill&+W.&n
+~
+&+WThis ugly creature seems fairly content living up along hills above
+&+WSto&+Lrm &+cPort&+W, as the orcs of the city are constantly tossing trash
+&+Weverywhere, which the goat is only too happy to chew on.&n
+~
+2056 0 0 0 0 0 0 0 S
+A 0 1 3
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22453
+orc whore~
+&+Lan orc &+Mwhore&n~
+&+LAn Orc &+Mwhore&+L stands here, waiting for a client.&n
+~
+&+LThis little lady orc looks you up and down and says.
+        &+W'Pay to play. You gotsa check in with the madam before
+        &+WI cans do my work.'&n
+~
+2058 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22454
+young orc soldier~
+&+La sleeping orc &+rsoldier&n~
+&+LA young Orc &+rsoldier&+L practices his newly learned techniques here.&n
+~
+&+LThis &+rsoldier&+L seems to have just graduated from the &+Bwarriors&+L guild
+&+Land is eager to put his training to use.  He wanders around town,
+&+Lpicking fights with any one who seems smaller than him. &n
+~
+1073743880 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22455
+orc whore~
+&+Lan orc &+Mwhore&n~
+&+LAn Orc &+Mwhore&+L is slowly getting undressed for her client.&n
+~
+&+LThis &+Mwhore&+L actually seems pleased with her work, as she methodically
+&+Lremoves her clothes while flashing a toothless smile at her next patron.&n
+~
+2058 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22456
+orc sailor~
+&+Wan &+Lorc&+W sailor&n~
+&+WAn excited &+LOrc&+W sailor hurries to pull off his pants.&n
+~
+&+LThis &+Wsailor&+L has obviously just got into port after a long time at
+&+Lsea.  As usual, the first thing on any &+Wsailor's&+L mind is how quickly
+&+Lhe can run to the brothel and spend his week's wages.&n
+~
+1073743882 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22457
+resting goblin~
+&+ga resting goblin&n~
+&+gA small &+GGoblin&+g rests at the &+ycampsite&+g here.&n
+~
+&+g   This small goblin is a temparory resident of &+WSto&+Lrm&+b Port&+g.  Since the
+&+Lorcs&+g of the city only tolerate the goblin race he is forced to live
+&+ga short ways away from the city itself, in a small campsite next to the
+&+breservoir&+g.&n
+~
+1073743880 0 0 0 0 0 0 -1000 S
+HG 0 65536 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22458
+madam~
+&+Lthe brothel &+Mmadam&n~
+&+LThe brothel &+Mmadam&+L stands here, collecting money for her girls.&n
+~
+&+LThis overwieght orc female doesn't appear to be much of the talkative
+&+Ltype.  She takes the money from the patrons and points them to their
+&+Lrooms without a change of expression.  Her long-time experience in
+&+Lwhoring is what most likely landed her the position as brothel &+Mmadam&+L.&n
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 32768 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22459
+nereid~
+&+ba &+Bne&+Wre&+bid~
+&+bA &+Bne&+Wre&+bid hides within the reservoir here.&n
+~
+&+bNot all sprites are kind and generous, as this nereid will argue.
+&+bShe is a vicious water sprite, who will attack ferociously and without
+&+bmercy if provoked.  As an elemental faerie, she possesses great mystical
+&+bpower.&n
+~
+1073743882 0 0 1048586 0 0 0 -1000 S
+EW 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22460
+orc weaponsmaster~
+&+Lan orc weaponsmaster&n~
+&+LAn Orc &+wwea&+Lponsmaster stands here, selling equipment.&n
+~
+&+LThis orc runs the local armory of the city.  He is quite eager to
+&+Ltake your money in exchange for whatever he has to offer that day.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22461
+giant verbeeg~
+&+ya &+Lgiant &+yverbeeg&n~
+&+yA &+Lgiant&+y verbeeg howls at his unfortuate inprisonment here.&n
+~
+&+yThis giantkin monster seems to have grown even more unpleasant than
+&+yusual after being trapped in the &+Lbasement&+y for so many years.  He howls
+&+yin ferocious anticipation of escape.&n
+~
+1073743882 0 0 24 0 0 0 -500 S
+G 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22462
+orc treasure hunter~
+&+Lan orc &+Ytreasure&+L hunter&n~
+&+LAn Orc &+Ytreasure&+L hunter searches through the debris here.&n
+~
+&+LThis orc appears quite distraught over the collaspe of the &+WPillar&+L as
+&+Lhe methodically searches the rubble.  When he sees you he looks up.
+        &+W'All I found is this, but I won't part with it for cheap.'&n
+~
+1073743882 0 0 0 0 0 0 -1000 S
+HO 0 8192 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22463
+rocks pile rock golem~
+&+ya rock golem&n~
+&+yA pile of rocks lies against the northern cliff here.&n
+~
+&+y   This golem appears to have been resting upon ones entrance, and
+&+yis easily confused as just a large pile of stones to the unwary.  Once
+&+yangered however, the golem can be a vicious opponent.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+OG 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22464
+human prisoner~
+&+La &+chuman&+L prisoner&n~
+&+LA &+cHuman&+L prisoner is shackled to the wall here.&n
+~
+&+LIt is hard to guess just how long this &+chuman&+L has been shackled here,
+&+Lbut it is apparent that his determination to escape has not diminished.
+&+LIn his eyes, the fire of strong will and rebellion glows vibrantly.&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+PH 0 64 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22465
+half elf prisoner~
+&+La &+chalf-&+Celf&+L prisoner&n~
+&+LA &+cHalf-&+CElf&+L prisoner is shackled to the wall here.&n
+~
+&+LThis &+cHalf-&+CElf&+L must have been captured at sea.  He looks quite tired
+&+Land in alot of pain.&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+P2 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22466
+minotaur prisoner~
+&+La &+rmino&+Ltaur prisoner&n~
+&+LA huge &+rMino&+Ltaur prisoner is shackled to the wall here.&n
+~
+&+LThough a prisoner, this &+rMino&+Ltaur doesn't appear hurt or injured in
+&+Lthe slightest, and must have been a burly warrior, and probably, still
+&+Lis.&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+MT 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22467
+savenge furylord~
+&+rSavenge&n~
+&+rSavenge, the &+r&+rFu&+Rrylo&+rrd, stands here menacing all around him.&n
+~
+~
+3221260296 0 0 8 0 0 0 -1000 S
+HO 0 1048576 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22468
+sensei orc~
+&+wthe sensei&n~
+&+wThe local &+LOrc&+w sensei, practices his martial arts here.&n
+~
+~
+3221260298 0 0 0 0 0 0 -1000 S
+HO 0 64 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22469
+sailor ticket handler~
+&+La &+Wticket&+L handler&n~
+&+LA grizzled Orc &+Wsailor&+L stands here, selling &+Wtickets&+L.&n
+~
+~
+2058 0 0 0 0 0 0 0 S
+HO 0 1 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

@@ -1,0 +1,242 @@
+#20
+&+YValley of Crushk&n~
+2088 2 0 5 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 2001 3 1 100 0 0 0
+*     west exit from "On the Rocky Trail" to
+*     "A Shady Hut" - closed
+*
+D 0 2002 1 1 100 0 0 0
+*     east exit from "A Shady Hut" to
+*     "On the Rocky Trail" - closed
+*
+D 0 2018 1 2 100 0 0 0
+*     east exit from "Before the Magic Gates" to
+*     "Before the Magic Gates" - closed/locked
+*
+D 0 2019 3 2 100 0 0 0
+*     west exit from "Before the Magic Gates" to
+*     "Before the Magic Gates" - closed/locked
+*
+D 0 2025 0 1 100 0 0 0
+*     north exit from "In the Faerie Forest" to
+*     "Inside a Tree" - closed
+*
+D 0 2030 2 1 100 0 0 0
+*     south exit from "Inside a Tree" to
+*     "In the Faerie Forest" - closed
+*
+D 0 2027 0 1 100 0 0 0
+*     north exit from "In the Faerie Forest" to
+*     "The Home of the Faerie Cleric" - closed
+*
+D 0 2032 2 1 100 0 0 0
+*     south exit from "The Home of the Faerie Cleric" to
+*     "In the Faerie Forest" - closed
+*
+D 0 2041 1 1 100 0 0 0
+*     east exit from "In the Faerie Forest" to
+*     "The Home of the Faerie Mage" - closed
+*
+D 0 2042 3 1 100 0 0 0
+*     west exit from "The Home of the Faerie Mage" to
+*     "In the Faerie Forest" - closed
+*
+D 0 2044 0 2 100 0 0 0
+*     north exit from "The Faerie King's Chambers" to
+*     "In the Faerie Forest" - closed/locked
+*
+D 0 2051 2 6 100 0 0 0
+*     south exit from "In the Faerie Forest" to
+*     "The Faerie King's Chambers" - closed/locked/secret
+*
+D 0 2046 1 1 100 0 0 0
+*     east exit from "Inside a Tree" to
+*     "In the Faerie Forest" - closed
+*
+D 0 2047 3 1 100 0 0 0
+*     west exit from "In the Faerie Forest" to
+*     "Inside a Tree" - closed
+*
+D 0 2065 3 1 100 0 0 0
+*     west exit from "Top of the Hill" to
+*     "A Small Cozy Cottage" - closed
+*
+D 0 2066 1 1 100 0 0 0
+*     east exit from "A Small Cozy Cottage" to
+*     "Top of the Hill" - closed
+*
+D 0 2086 3 1 100 0 0 0
+*     west exit from "Entrance to the Village Leader's Home" to
+*     "The Village Leader's Home" - closed
+*
+D 0 2087 1 1 100 0 0 0
+*     east exit from "The Village Leader's Home" to
+*     "Entrance to the Village Leader's Home" - closed
+*
+D 0 2087 2 2 100 0 0 0
+*     south exit from "The Village Leader's Home" to
+*     "A Small Closet" - closed/locked
+*
+D 0 2088 0 2 100 0 0 0
+*     north exit from "A Small Closet" to
+*     "The Village Leader's Home" - closed/locked
+*
+*
+O 0 2014 2 2018 100 0 0 0          * an old wooden sign
+O 0 2014 2 2020 100 0 0 0          * an old wooden sign
+*
+M 0 2038 1 2002 100 0 0 0          * Flazoh the bounty hunter
+M 0 2001 7 2003 100 0 0 0          * a furry white rabbit
+M 0 2002 8 2003 100 0 0 0          * a brown squirrel
+M 0 2003 5 2003 100 0 0 0          * a tiny sparrow
+M 0 2013 3 2003 100 0 0 0          * a deer
+M 0 2002 8 2003 100 0 0 0          * a brown squirrel
+M 0 2009 3 2004 100 0 0 0          * a seasoned warrior
+M 0 2010 1 2004 100 0 0 0          * a young cleric
+M 0 2015 1 2004 100 0 0 0          * a merchant
+M 0 2006 3 2005 100 0 0 0          * a wise old owl
+M 0 2005 4 2005 100 0 0 0          * a white wolf
+M 0 2007 3 2005 100 0 0 0          * a sneaky bandit
+M 0 2001 7 2005 100 0 0 0          * a furry white rabbit
+M 0 2014 3 2006 100 0 0 0          * a small grey fox
+M 0 2003 5 2006 100 0 0 0          * a tiny sparrow
+M 0 2004 3 2006 100 0 0 0          * a small rodent
+M 0 2002 8 2006 100 0 0 0          * a brown squirrel
+M 0 2009 3 2007 100 0 0 0          * a seasoned warrior
+M 0 2011 1 2007 100 0 0 0          * an evil magician
+M 0 2012 1 2007 100 0 0 0          * a wise, old man
+M 0 2006 3 2007 100 0 0 0          * a wise old owl
+M 0 2007 3 2008 100 0 0 0          * a sneaky bandit
+M 0 2001 7 2008 100 0 0 0          * a furry white rabbit
+M 0 2002 8 2008 100 0 0 0          * a brown squirrel
+M 0 2003 5 2008 100 0 0 0          * a tiny sparrow
+M 0 2001 7 2008 100 0 0 0          * a furry white rabbit
+M 0 2002 8 2009 100 0 0 0          * a brown squirrel
+M 0 2008 2 2009 100 0 0 0          * a wandering gypsy
+M 0 2009 3 2009 100 0 0 0          * a seasoned warrior
+M 0 2013 3 2009 100 0 0 0          * a deer
+M 0 2014 3 2011 100 0 0 0          * a small grey fox
+M 0 2001 7 2011 100 0 0 0          * a furry white rabbit
+M 0 2002 8 2011 100 0 0 0          * a brown squirrel
+M 0 2002 8 2011 100 0 0 0          * a brown squirrel
+M 0 2001 7 2012 100 0 0 0          * a furry white rabbit
+M 0 2005 4 2012 100 0 0 0          * a white wolf
+M 0 2007 3 2012 100 0 0 0          * a sneaky bandit
+M 0 2008 2 2012 100 0 0 0          * a wandering gypsy
+M 0 2001 7 2014 100 0 0 0          * a furry white rabbit
+M 0 2013 3 2014 100 0 0 0          * a deer
+M 0 2014 3 2014 100 0 0 0          * a small grey fox
+M 0 2005 4 2016 100 0 0 0          * a white wolf
+M 0 2004 3 2016 100 0 0 0          * a small rodent
+M 0 2002 8 2016 100 0 0 0          * a brown squirrel
+M 0 2003 5 2016 100 0 0 0          * a tiny sparrow
+M 0 2006 3 2017 100 0 0 0          * a wise old owl
+M 0 207 1 2017 100 0 0 0           * (mob type not in this .mob file)
+M 0 2005 4 2018 100 0 0 0          * a white wolf
+M 0 2016 10 2021 100 0 0 0         * a moon faerie
+M 0 2017 8 2022 100 0 0 0          * an iridescent faerie
+M 0 2016 10 2023 100 0 0 0         * a moon faerie
+M 0 2018 8 2023 100 0 0 0          * an opal faerie
+M 0 2022 4 2023 100 0 0 0          * a spider faerie
+M 0 2017 8 2024 100 0 0 0          * an iridescent faerie
+M 0 2019 5 2024 100 0 0 0          * a rainbow faerie
+M 0 2018 8 2025 100 0 0 0          * an opal faerie
+M 0 2018 8 2026 100 0 0 0          * an opal faerie
+M 0 2020 5 2027 100 0 0 0          * an emerald faerie
+M 0 2018 8 2029 100 0 0 0          * an opal faerie
+M 0 2021 4 2031 100 0 0 0          * a glass faerie
+M 0 2024 1 2032 100 0 0 0          * the faerie cleric
+G 1 2010 5 0 100 0 0 0             *    a cloudy elixir
+G 1 2012 5 0 100 0 0 0             *    a brown potion
+M 0 2016 10 2033 100 0 0 0         * a moon faerie
+M 0 2016 10 2034 100 0 0 0         * a moon faerie
+M 0 2018 8 2035 100 0 0 0          * an opal faerie
+M 0 2019 5 2035 100 0 0 0          * a rainbow faerie
+M 0 2016 10 2036 100 0 0 0         * a moon faerie
+M 0 2020 5 2036 100 0 0 0          * an emerald faerie
+M 0 2016 10 2037 100 0 0 0         * a moon faerie
+M 0 2017 8 2038 100 0 0 0          * an iridescent faerie
+M 0 2019 5 2038 100 0 0 0          * a rainbow faerie
+M 0 2021 4 2039 100 0 0 0          * a glass faerie
+M 0 2016 10 2040 100 0 0 0         * a moon faerie
+M 0 2022 4 2040 100 0 0 0          * a spider faerie
+M 0 2018 8 2041 100 0 0 0          * an opal faerie
+M 0 2020 5 2041 100 0 0 0          * an emerald faerie
+M 0 2022 4 2041 100 0 0 0          * a spider faerie
+M 0 2025 1 2042 100 0 0 0          * the faerie mage
+E 1 2009 3 18 100 0 0 0            *   a glowing white wand
+G 1 2001 1 0 100 0 0 0             *    a magical wooden key
+M 0 2017 8 2043 100 0 0 0          * an iridescent faerie
+M 0 2023 1 2044 100 0 0 0          * the royal king of the faeries
+E 1 2002 1 2 100 0 0 0             *   a tiny diamond ring
+M 0 2017 8 2045 100 0 0 0          * an iridescent faerie
+M 0 2018 8 2045 100 0 0 0          * an opal faerie
+M 0 2019 5 2045 100 0 0 0          * a rainbow faerie
+M 0 2017 8 2047 100 0 0 0          * an iridescent faerie
+M 0 2019 5 2047 100 0 0 0          * a rainbow faerie
+M 0 2016 10 2048 100 0 0 0         * a moon faerie
+M 0 2018 8 2049 100 0 0 0          * an opal faerie
+M 0 2020 5 2049 100 0 0 0          * an emerald faerie
+M 0 2017 8 2050 100 0 0 0          * an iridescent faerie
+M 0 2021 4 2050 100 0 0 0          * a glass faerie
+M 0 2016 10 2051 100 0 0 0         * a moon faerie
+M 0 2017 8 2052 100 0 0 0          * an iridescent faerie
+M 0 2020 5 2052 100 0 0 0          * an emerald faerie
+M 0 2021 4 2052 100 0 0 0          * a glass faerie
+M 0 2016 10 2054 100 0 0 0         * a moon faerie
+M 0 2022 4 2054 100 0 0 0          * a spider faerie
+M 0 2003 5 2055 100 0 0 0          * a tiny sparrow
+M 0 2004 3 2056 100 0 0 0          * a small rodent
+M 0 2026 1 2066 100 0 0 0          * Esroh the hermit
+E 1 2003 1 6 100 0 0 0             *   a glowing green cap
+M 0 2027 4 2072 100 0 0 0          * a village guardian
+M 0 2027 4 2072 100 0 0 0          * a village guardian
+M 0 2029 8 2073 100 0 0 0          * a village poor man
+M 0 2029 8 2073 100 0 0 0          * a village poor man
+M 0 2035 5 2073 100 0 0 0          * a village boy
+M 0 2036 5 2073 100 0 0 0          * a village girl
+M 0 2029 8 2074 100 0 0 0          * a village poor man
+M 0 2031 1 2075 100 0 0 0          * the village baker
+G 1 2016 500 0 100 0 0 0           *    a delicious pastry with icing
+G 1 2015 500 0 100 0 0 0           *    a small loaf of bread
+G 1 2017 500 0 100 0 0 0           *    a large loaf of bread
+M 0 2032 1 2076 100 0 0 0          * the village grocer
+G 1 399 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 606 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 2020 500 0 100 0 0 0           *    a black leather backpack
+G 1 2026 500 0 100 0 0 0           *    a black leather skin
+M 0 2027 4 2077 100 0 0 0          * a village guardian
+M 0 2029 8 2077 100 0 0 0          * a village poor man
+M 0 2035 5 2077 100 0 0 0          * a village boy
+M 0 2036 5 2077 100 0 0 0          * a village girl
+M 0 2033 1 2078 100 0 0 0          * the village magician
+G 1 2025 500 0 100 0 0 0           *    a small blue potion
+G 1 2021 100 0 100 0 0 0           *    a black wand
+G 1 2023 1 0 100 0 0 0             *    a tiny emerald ring
+G 1 2011 1 0 100 0 0 0             *    an oaken magician's staff
+M 0 2028 2 2079 100 0 0 0          * a village salesman
+M 0 2029 8 2079 100 0 0 0          * a village poor man
+M 0 2035 5 2080 100 0 0 0          * a village boy
+M 0 2036 5 2080 100 0 0 0          * a village girl
+M 0 2029 8 2081 100 0 0 0          * a village poor man
+M 0 2027 4 2082 100 0 0 0          * a village guardian
+M 0 2029 8 2082 100 0 0 0          * a village poor man
+M 0 2035 5 2082 100 0 0 0          * a village boy
+M 0 2036 5 2082 100 0 0 0          * a village girl
+M 0 2028 2 2084 100 0 0 0          * a village salesman
+M 0 2029 8 2084 100 0 0 0          * a village poor man
+M 0 2035 5 2084 100 0 0 0          * a village boy
+M 0 2036 5 2084 100 0 0 0          * a village girl
+M 0 2030 1 2085 100 0 0 0          * the village blacksmith
+E 1 2013 1 16 100 0 0 0            *   a blacksmith's hammer
+M 0 2034 1 2087 100 0 0 0          * the village leader
+E 1 2004 1 13 100 0 0 0            *   a dull red belt
+E 1 2005 1 18 100 0 0 0            *   a metallic blue key
+G 1 2008 1 0 100 0 0 0             *    a broadsword
+M 0 2037 1 2088 100 0 0 0          * the guardian dog
+*
+S

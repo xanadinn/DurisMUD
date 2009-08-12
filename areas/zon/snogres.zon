@@ -1,0 +1,222 @@
+#877
+&+LValley of the &+WSnow &N&+bOgres&N~
+87799 0 0 1 6 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 87717 3 13 100 0 0 0
+*     west exit from "Bloody Grotto" to
+*     "A Cleverly Concealed Entryway" - closed/secret/blocked
+*
+D 0 87718 1 5 100 0 0 0
+*     east exit from "A Cleverly Concealed Entryway" to
+*     "Bloody Grotto" - closed/secret
+*
+D 0 87745 2 5 100 0 0 0
+*     south exit from "A Frozen Marshland" to
+*     "The Abode of the Astereater" - closed/secret
+*
+D 0 87746 0 5 100 0 0 0
+*     north exit from "The Abode of the Astereater" to
+*     "A Frozen Marshland" - closed/secret
+*
+*
+O 0 87735 1 87717 100 0 0 0        * grotto switch object
+O 0 87737 1 87799 100 0 0 0        * a disgusting pile of entrails and organs
+*
+M 0 87741 1 87717 40 0 0 0         * a nefarious pit fiend from Avernus
+E 1 87733 1 16 100 0 0 0           *   a dread serrated scimitar of the blackest night
+G 1 87705 1 0 100 0 0 0            *    the face of an illithid lord
+G 1 87704 1 0 100 0 0 0            *    a gory string of cyclops eyes
+M 0 87710 15 87721 100 0 0 0       * a moor hound
+M 0 87702 3 87721 100 0 0 0        * a snow ogre tribal shaman
+M 0 87711 5 87721 100 0 0 0        * a reptilian rampager
+M 0 87713 9 87721 100 0 0 0        * a phase spider
+M 0 87737 1 87722 15 0 0 0         * an ice hydra
+G 1 87716 1 0 100 0 0 0            *    a severed head from an ice hydra
+M 0 87710 15 87723 100 0 0 0       * a moor hound
+M 0 87710 15 87723 100 0 0 0       * a moor hound
+M 0 87714 6 87723 100 0 0 0        * a swamp wraith
+M 0 87712 5 87724 100 0 0 0        * a mutated sundew plant
+M 0 87714 6 87724 100 0 0 0        * a swamp wraith
+M 0 87702 3 87725 100 0 0 0        * a snow ogre tribal shaman
+M 0 87713 9 87725 100 0 0 0        * a phase spider
+M 0 87710 15 87726 100 0 0 0       * a moor hound
+M 0 87739 1 87726 100 0 0 0        * a snow ogre search leader
+G 1 87726 1 0 100 0 0 0            *    a crude note
+F 1 87738 4 87726 100 0 0 0        * a snow ogre search party guardian (following)
+F 1 87738 4 87726 100 0 0 0        * a snow ogre search party guardian (following)
+F 1 87738 4 87726 100 0 0 0        * a snow ogre search party guardian (following)
+F 1 87738 4 87726 100 0 0 0        * a snow ogre search party guardian (following)
+F 1 87740 4 87726 100 0 0 0        * a searching snow ogre (following)
+F 1 87740 4 87726 100 0 0 0        * a searching snow ogre (following)
+F 1 87740 4 87726 100 0 0 0        * a searching snow ogre (following)
+F 1 87740 4 87726 100 0 0 0        * a searching snow ogre (following)
+M 0 87700 1 87727 15 0 0 0         * an insane snow ogre berserker
+E 1 87701 1 7 100 0 0 0            *   a pair of skin leggings with bleached skull kneepads
+E 1 87700 1 16 100 0 0 0           *   the torn-off arm of an insane snow ogre
+M 0 87714 6 87727 100 0 0 0        * a swamp wraith
+M 0 87712 5 87727 100 0 0 0        * a mutated sundew plant
+M 0 87713 9 87728 100 0 0 0        * a phase spider
+M 0 87713 9 87728 100 0 0 0        * a phase spider
+M 0 87714 6 87729 100 0 0 0        * a swamp wraith
+M 0 87712 5 87729 100 0 0 0        * a mutated sundew plant
+M 0 87712 5 87730 100 0 0 0        * a mutated sundew plant
+M 0 87711 5 87730 100 0 0 0        * a reptilian rampager
+M 0 87715 1 87730 5 0 0 0          * an ancient swamp dragon
+G 1 87718 1 0 100 0 0 0            *    a scale from an elder swamp dragon
+M 0 87710 15 87731 100 0 0 0       * a moor hound
+M 0 87710 15 87731 100 0 0 0       * a moor hound
+M 0 87710 15 87731 100 0 0 0       * a moor hound
+M 0 87710 15 87732 100 0 0 0       * a moor hound
+M 0 87718 2 87732 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87717 2 87732 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87710 15 87732 100 0 0 0       * a moor hound
+M 0 87713 9 87733 100 0 0 0        * a phase spider
+M 0 87710 15 87734 100 0 0 0       * a moor hound
+M 0 87713 9 87734 100 0 0 0        * a phase spider
+M 0 87711 5 87735 100 0 0 0        * a reptilian rampager
+M 0 87736 1 87735 20 0 0 0         * a skulking illithid enslaver
+E 1 87724 1 16 100 0 0 0           *   a whip crafted from severed roper tentacles
+G 1 87717 1 0 100 0 0 0            *    a long, writhing illithid tentacle
+M 0 87719 1 87736 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87716 3 87736 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87710 15 87736 100 0 0 0       * a moor hound
+M 0 87711 5 87736 100 0 0 0        * a reptilian rampager
+M 0 87713 9 87737 100 0 0 0        * a phase spider
+M 0 87714 6 87738 100 0 0 0        * a swamp wraith
+M 0 87716 3 87738 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87717 2 87738 100 0 0 0        * an ice goblin
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87710 15 87739 100 0 0 0       * a moor hound
+M 0 87735 1 87739 15 0 0 0         * a gigantic mutated sundew plant
+M 0 87713 9 87740 100 0 0 0        * a phase spider
+M 0 87710 15 87740 100 0 0 0       * a moor hound
+M 0 87710 15 87740 100 0 0 0       * a moor hound
+M 0 87711 5 87741 100 0 0 0        * a reptilian rampager
+M 0 87713 9 87743 100 0 0 0        * a phase spider
+M 0 87718 2 87743 100 0 0 0        * an ice goblin
+M 0 87716 3 87743 100 0 0 0        * an ice goblin
+M 0 87710 15 87743 100 0 0 0       * a moor hound
+M 0 87712 5 87743 100 0 0 0        * a mutated sundew plant
+M 0 87714 6 87744 100 0 0 0        * a swamp wraith
+M 0 87702 3 87744 100 0 0 0        * a snow ogre tribal shaman
+M 0 87725 1 87746 35 0 0 0         * an angered astereater
+G 1 87715 1 0 100 0 0 0            *    the bleeding eye of an astereater
+M 0 87724 4 87747 100 0 0 0        * a deadly remorhaz
+G 1 87725 3 0 100 0 0 0            *    a substantial chunk of remorhaz hide
+M 0 87724 4 87752 100 0 0 0        * a deadly remorhaz
+M 0 87720 5 87753 100 0 0 0        * an ice troll
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87720 5 87753 100 0 0 0        * an ice troll
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87720 5 87753 100 0 0 0        * an ice troll
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87720 5 87753 100 0 0 0        * an ice troll
+E 1 87734 10 16 25 0 0 0           *   snogres wield obj
+M 0 87720 5 87753 100 0 0 0        * an ice troll
+M 0 87721 4 87753 100 0 0 0        * an ice troll
+M 0 87721 4 87753 100 0 0 0        * an ice troll
+M 0 87721 4 87753 100 0 0 0        * an ice troll
+M 0 87721 4 87753 100 0 0 0        * an ice troll
+M 0 87722 4 87753 100 0 0 0        * a snow troll
+M 0 87722 4 87753 100 0 0 0        * a snow troll
+M 0 87722 4 87753 100 0 0 0        * a snow troll
+M 0 87722 4 87753 100 0 0 0        * a snow troll
+M 0 87723 4 87753 100 0 0 0        * a snow troll
+M 0 87723 4 87753 100 0 0 0        * a snow troll
+M 0 87723 4 87753 100 0 0 0        * a snow troll
+M 0 87723 4 87753 100 0 0 0        * a snow troll
+M 0 87724 4 87754 100 0 0 0        * a deadly remorhaz
+G 1 87725 3 0 100 0 0 0            *    a substantial chunk of remorhaz hide
+M 0 87724 4 87759 100 0 0 0        * a deadly remorhaz
+G 1 87725 3 0 100 0 0 0            *    a substantial chunk of remorhaz hide
+M 0 87701 8 87762 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87762 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87762 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87762 100 0 0 0        * a snow ogre tribal guard
+M 0 87704 1 87763 100 0 0 0        * a snow ogre death knight
+E 1 87710 1 16 100 0 0 0           *   an onyx-hilted cold-iron claymore
+G 1 87711 1 0 100 0 0 0            *    an onyx-hilted cold-iron greatsword
+F 1 87705 6 87763 100 0 0 0        * a snow ogre tribal guard (following)
+F 1 87705 6 87763 100 0 0 0        * a snow ogre tribal guard (following)
+F 1 87705 6 87763 100 0 0 0        * a snow ogre tribal guard (following)
+M 0 87701 8 87764 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87764 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87764 100 0 0 0        * a snow ogre tribal guard
+M 0 87701 8 87764 100 0 0 0        * a snow ogre tribal guard
+M 0 87705 6 87765 100 0 0 0        * a snow ogre tribal guard
+M 0 87705 6 87765 100 0 0 0        * a snow ogre tribal guard
+M 0 87705 6 87765 100 0 0 0        * a snow ogre tribal guard
+M 0 87708 7 87771 100 0 0 0        * a snow ogre elite guardian
+M 0 87731 10 87772 100 0 0 0       * a snow ogre tribesman
+M 0 87708 7 87772 100 0 0 0        * a snow ogre elite guardian
+M 0 87708 7 87772 100 0 0 0        * a snow ogre elite guardian
+M 0 87703 9 87773 100 0 0 0        * a snow ogre tribeswoman
+M 0 87703 9 87774 100 0 0 0        * a snow ogre tribeswoman
+M 0 87732 13 87774 100 0 0 0       * a wardog
+M 0 87707 4 87775 100 0 0 0        * a snow ogre tribal guardian
+M 0 87731 10 87775 100 0 0 0       * a snow ogre tribesman
+M 0 87703 9 87776 100 0 0 0        * a snow ogre tribeswoman
+M 0 87732 13 87776 100 0 0 0       * a wardog
+M 0 87703 9 87777 100 0 0 0        * a snow ogre tribeswoman
+M 0 87731 10 87778 100 0 0 0       * a snow ogre tribesman
+M 0 87703 9 87779 100 0 0 0        * a snow ogre tribeswoman
+M 0 87732 13 87779 100 0 0 0       * a wardog
+M 0 87707 4 87780 100 0 0 0        * a snow ogre tribal guardian
+M 0 87708 7 87781 100 0 0 0        * a snow ogre elite guardian
+M 0 87731 10 87781 100 0 0 0       * a snow ogre tribesman
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87732 13 87781 100 0 0 0       * a wardog
+M 0 87703 9 87782 100 0 0 0        * a snow ogre tribeswoman
+M 0 87706 3 87783 100 0 0 0        * a snow ogre shamaness
+M 0 87731 10 87783 100 0 0 0       * a snow ogre tribesman
+M 0 87708 7 87784 100 0 0 0        * a snow ogre elite guardian
+M 0 87703 9 87784 100 0 0 0        * a snow ogre tribeswoman
+M 0 87706 3 87785 100 0 0 0        * a snow ogre shamaness
+M 0 87731 10 87786 100 0 0 0       * a snow ogre tribesman
+M 0 87731 10 87786 100 0 0 0       * a snow ogre tribesman
+M 0 87703 9 87787 100 0 0 0        * a snow ogre tribeswoman
+M 0 87707 4 87788 100 0 0 0        * a snow ogre tribal guardian
+M 0 87731 10 87788 100 0 0 0       * a snow ogre tribesman
+M 0 87732 13 87788 100 0 0 0       * a wardog
+M 0 87709 1 87789 100 0 0 0        * a snow ogre champion
+M 0 87731 10 87789 100 0 0 0       * a snow ogre tribesman
+M 0 87703 9 87789 100 0 0 0        * a snow ogre tribeswoman
+M 0 87707 4 87790 100 0 0 0        * a snow ogre tribal guardian
+M 0 87706 3 87791 100 0 0 0        * a snow ogre shamaness
+M 0 87731 10 87792 100 0 0 0       * a snow ogre tribesman
+M 0 87729 1 87793 100 0 0 0        * a snow ogre tribal chieftain
+E 1 87702 1 10 100 0 0 0           *   a pair of frost-rimed cold iron vambraces
+E 1 87712 1 16 100 0 0 0           *   a wicked waraxe covered in runes
+G 1 87706 1 0 100 0 0 0            *    an intricate hourglass running in reverse
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+F 1 87727 1 87793 100 0 0 0        * a snow ogre worshipper of Kostchtchie (following)
+E 1 87707 1 13 100 0 0 0           *   an array of flesh hooks and chains
+G 1 87708 1 0 100 0 0 0            *    a gleaming skull of a Minotaur
+F 1 87708 7 87793 100 0 0 0        * a snow ogre elite guardian (following)
+F 1 87708 7 87793 100 0 0 0        * a snow ogre elite guardian (following)
+F 1 87728 1 87793 100 0 0 0        * a snow ogre worshipper of Vaprak (following)
+E 1 87709 1 13 100 0 0 0           *   the woven entrails of an unfortunate soul
+F 1 87730 1 87793 100 0 0 0        * an enraged wardog (following)
+F 1 87726 1 87793 100 0 0 0        * a snow ogre war chief (following)
+E 1 87703 1 16 100 0 0 0           *   a blacksteel volgue covered with ash
+M 0 87733 1 87798 100 0 0 0        * Lrethlamn Soel, the glacier lich
+E 1 87736 1 3 100 0 0 0            *   no show phylactery
+E 1 87714 1 12 100 0 0 0           *   a threadbare gold-trimmed black robe
+F 1 87734 1 87798 100 0 0 0        * a four-armed decaying flesh golem (following)
+*
+S

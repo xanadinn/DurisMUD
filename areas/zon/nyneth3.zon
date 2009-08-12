@@ -1,0 +1,273 @@
+#387
+&+BN&+by'&+BN&+beth's&+L Stronghold Continued&n~
+38817 0 0 40 50 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38700 0 2 100 0 0 0
+*     north exit from "Top of the Steps of Pain" to
+*     "The Steps of Pain" - closed/locked
+*
+D 0 38701 2 2 100 0 0 0
+*     south exit from "The Steps of Pain" to
+*     "Top of the Steps of Pain" - closed/locked
+*
+D 0 38807 0 2 100 0 0 0
+*     north exit from "A Smooth Hallway of Lava Rock" to
+*     "Before the Tear in Reality" - closed/locked
+*
+D 0 38808 2 2 100 0 0 0
+*     south exit from "Before the Tear in Reality" to
+*     "A Smooth Hallway of Lava Rock" - closed/locked
+*
+D 0 38809 1 6 100 0 0 0
+*     east exit from "The Lair of Ny'Neth the Dark." to
+*     "The Treasure Room" - closed/locked/secret
+*
+D 0 38811 3 2 100 0 0 0
+*     west exit from "The Treasure Room" to
+*     "The Lair of Ny'Neth the Dark." - closed/locked
+*
+*
+O 0 38700 1 38700 100 0 0 0        * An evil looking statue
+O 0 38701 1 38709 100 0 0 0        * A tear in reality
+O 0 38704 1 38710 100 0 0 0        * a demonic portal
+O 0 38756 1 38808 100 0 0 0        * the Tear
+O 0 38777 1 38811 100 0 0 0        * the winged belt of flight
+O 0 38778 1 38811 100 0 0 0        * a staff of sorcerous command
+O 0 38779 3 38811 100 0 0 0        * a potion of swashbuckling
+O 0 38779 3 38811 100 0 0 0        * a potion of swashbuckling
+O 0 38779 3 38811 100 0 0 0        * a potion of swashbuckling
+O 0 38780 1 38811 100 0 0 0        * A tear in reality
+O 0 17 1 38811 100 0 0 0           * (object type not in this .obj file)
+*
+M 0 38700 2 38700 100 0 0 0        * a shadow golem
+M 0 38700 2 38700 100 0 0 0        * a shadow golem
+M 0 38701 6 38701 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38701 6 38702 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38702 5 38703 100 0 0 0        * a Reaper
+E 1 38703 10 16 100 0 0 0          *   a shard of death
+E 1 38703 10 17 100 0 0 0          *   a shard of death
+M 0 38701 6 38704 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38702 5 38705 100 0 0 0        * a Reaper
+E 1 38703 10 16 100 0 0 0          *   a shard of death
+E 1 38703 10 17 100 0 0 0          *   a shard of death
+M 0 38701 6 38706 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38702 5 38707 100 0 0 0        * a Reaper
+E 1 38703 10 16 100 0 0 0          *   a shard of death
+E 1 38703 10 17 100 0 0 0          *   a shard of death
+M 0 38701 6 38708 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38702 5 38709 100 0 0 0        * a Reaper
+E 1 38703 10 16 100 0 0 0          *   a shard of death
+E 1 38703 10 17 100 0 0 0          *   a shard of death
+M 0 38702 5 38709 100 0 0 0        * a Reaper
+E 1 38703 10 16 100 0 0 0          *   a shard of death
+E 1 38703 10 17 100 0 0 0          *   a shard of death
+M 0 38701 6 38709 100 0 0 0        * a Betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38735 21 38712 100 0 0 0       * a FuRy
+F 1 38735 21 38712 100 0 0 0       * a FuRy (following)
+F 1 38735 21 38712 100 0 0 0       * a FuRy (following)
+M 0 38710 1 38716 100 0 0 0        * Montaleus the fallen wyrm of Astar
+G 1 38716 1 0 100 0 0 0            *    the lost staff of Astar
+M 0 38729 1 38717 100 0 0 0        * Sornfewel the ripper
+E 1 38733 1 12 100 0 0 0           *   the cloak of ripping
+G 1 38735 1 0 100 0 0 0            *    a potion of ripping
+M 0 38730 1 38717 100 0 0 0        * Lazebaaz the Pyre Lord
+E 1 38734 1 7 100 0 0 0            *   the leggings of the pyre lord
+G 1 38736 1 0 100 0 0 0            *    the rod of the pyre lord
+M 0 38734 13 38719 100 0 0 0       * a hell hound
+M 0 38734 13 38721 100 0 0 0       * a hell hound
+M 0 38708 1 38724 100 0 0 0        * Tescuuden the betrayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+G 1 38708 3 0 100 0 0 0            *    a dark vial of vampires blood
+M 0 38711 1 38728 100 0 0 0        * Desmuth the Slayer
+E 1 38702 17 16 100 0 0 0          *   a betrayers blade
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+G 1 38708 3 0 100 0 0 0            *    a dark vial of vampires blood
+M 0 38728 1 38730 100 0 0 0        * Qudisocc the Illithid lord
+E 1 38732 1 2 100 0 0 0            *   the ring of the mind flayer
+G 1 55208 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 38735 21 38734 100 0 0 0       * a FuRy
+F 1 38735 21 38734 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38734 100 0 0 0       * a FuRy (following)
+M 0 38727 1 38738 100 0 0 0        * Sebelabek the mad
+E 1 38731 1 20 100 0 0 0           *   an expression of pure madness
+M 0 38734 13 38739 100 0 0 0       * a hell hound
+M 0 38734 13 38741 100 0 0 0       * a hell hound
+M 0 38734 13 38746 100 0 0 0       * a hell hound
+G 1 38740 4 0 100 0 0 0            *    a vial of hell hound blood
+M 0 38734 13 38748 100 0 0 0       * a hell hound
+M 0 38735 21 38751 100 0 0 0       * a FuRy
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38751 100 0 0 0       * a FuRy (following)
+F 1 38735 21 38751 100 0 0 0       * a FuRy (following)
+M 0 38735 21 38752 100 0 0 0       * a FuRy
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38752 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38752 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+M 0 38734 13 38754 100 0 0 0       * a hell hound
+G 1 38740 4 0 100 0 0 0            *    a vial of hell hound blood
+M 0 38734 13 38754 100 0 0 0       * a hell hound
+G 1 38740 4 0 100 0 0 0            *    a vial of hell hound blood
+M 0 38734 13 38759 100 0 0 0       * a hell hound
+M 0 38726 1 38761 100 0 0 0        * Yrachan the chaos wyrm
+G 1 38728 1 0 100 0 0 0            *    a sinister chaos orb
+G 1 38730 1 0 100 0 0 0            *    a vial of liquid chaos
+M 0 38706 1 38764 100 0 0 0        * Corsc-Alaath the armageddon wyrm
+G 1 38710 1 0 100 0 0 0            *    a scale of the armaggedon wyrm
+M 0 38734 13 38764 100 0 0 0       * a hell hound
+G 1 38740 4 0 100 0 0 0            *    a vial of hell hound blood
+M 0 38735 21 38766 100 0 0 0       * a FuRy
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38766 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38766 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+M 0 38713 1 38769 100 0 0 0        * Kassis the watcher
+G 1 38717 1 0 100 0 0 0            *    the heart of Kassis
+M 0 38734 13 38771 100 0 0 0       * a hell hound
+M 0 38705 1 38772 100 0 0 0        * Saaloth the great FuRy
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+M 0 38735 21 38778 100 0 0 0       * a FuRy
+F 1 38735 21 38778 100 0 0 0       * a FuRy (following)
+F 1 38735 21 38778 100 0 0 0       * a FuRy (following)
+M 0 38716 1 38779 100 0 0 0        * Vathor the Slayer
+G 1 38718 1 0 100 0 0 0            *    the severed head of Vathor the Slayer
+M 0 38735 21 38789 100 0 0 0       * a FuRy
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38789 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+F 1 38735 21 38789 100 0 0 0       * a FuRy (following)
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+M 0 38720 1 38791 100 0 0 0        * Sytania the dread siren
+E 1 38724 1 16 100 0 0 0           *   a stiletto of the dread siren
+E 1 38702 17 17 100 0 0 0          *   a betrayers blade
+M 0 38704 1 38793 100 0 0 0        * Taezuul the ravener lord
+M 0 38734 13 38795 100 0 0 0       * a hell hound
+M 0 38703 1 38796 100 0 0 0        * Keth'Kel the dark imp
+E 1 38706 1 16 100 0 0 0           *   a tiny bronze dagger
+G 1 38707 1 0 100 0 0 0            *    a satchel of snatching
+M 0 38734 13 38797 100 0 0 0       * a hell hound
+M 0 38715 1 38798 100 0 0 0        * Assud the dark spirit master
+G 1 38714 1 0 100 0 0 0            *    the writhing spirit cord of Assud
+M 0 38719 1 38799 100 0 0 0        * Oesthes the death wisp
+E 1 38723 1 3 100 0 0 0            *   a nearly imperceptible death shroud
+M 0 38707 1 38802 100 0 0 0        * Lo'Taan the demonic knight
+E 1 38711 4 16 100 0 0 0           *   a massive two-handed sword
+G 1 38709 15 0 100 0 0 0           *    a potion of raging anger
+G 1 38745 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38709 1 38802 100 0 0 0        * Asgoth the undead wyrm
+G 1 38713 1 0 100 0 0 0            *    a piece of undead dragonbone
+G 1 38746 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38712 1 38802 100 0 0 0        * Lun-Val the Avenger
+G 1 38712 1 0 100 0 0 0            *    a potion of swirling red liquid
+G 1 38747 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38714 1 38802 100 0 0 0        * Sycatunn the pestilence lord
+G 1 38715 1 0 100 0 0 0            *    a potion of bubbling acid
+G 1 38748 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38723 1 38803 100 0 0 0        * Kaska, valkyrie of truth
+E 1 38725 1 16 40 0 0 0            *   a frost brand named "Stormbringer"
+G 1 38729 3 0 100 0 0 0            *    the precious elixer of life
+G 1 38749 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38724 1 38803 100 0 0 0        * Cavadd the holy avenger
+E 1 38726 1 9 100 0 0 0            *   the hands of justice
+E 1 38711 4 16 100 0 0 0           *   a massive two-handed sword
+G 1 38750 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38725 1 38803 100 0 0 0        * Retreagg, fighting high griffon
+G 1 38727 1 0 100 0 0 0            *    a beautiful griffon feather
+G 1 38751 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38731 1 38804 100 0 0 0        * Nainutom the dwarven infiltrator
+E 1 38737 2 16 100 0 0 0           *   a dirk of infiltration
+E 1 38737 2 17 100 0 0 0           *   a dirk of infiltration
+G 1 38729 3 0 100 0 0 0            *    the precious elixer of life
+G 1 38752 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38732 1 38804 100 0 0 0        * Sir Dannyk the Reverend
+E 1 38738 1 21 40 0 0 0            *   an earring of hope and enlightenment
+E 1 38711 4 16 100 0 0 0           *   a massive two-handed sword
+G 1 38729 3 0 100 0 0 0            *    the precious elixer of life
+G 1 38753 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38733 1 38804 100 0 0 0        * Lecani the angel wyrm
+E 1 38739 1 11 100 0 0 0           *   an angel wyrm scale
+G 1 38754 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38717 1 38805 100 0 0 0        * Kortheos, the fourth lord of chaos
+E 1 38719 1 16 100 0 0 0           *   a greatsword named "Lifestealer"
+G 1 38741 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38718 1 38805 100 0 0 0        * Tet'Azuul the blood god
+E 1 38720 1 3 100 0 0 0            *   a necklace of vampiric power
+G 1 38742 1 0 100 0 0 0            *    an elusive yet immortal soul
+G 1 38708 3 0 100 0 0 0            *    a dark vial of vampires blood
+M 0 38721 1 38805 100 0 0 0        * Brumen the dread knight
+E 1 38721 1 5 100 0 0 0            *   the chainmail of the dread knights
+E 1 38711 4 16 100 0 0 0           *   a massive two-handed sword
+G 1 38743 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38722 1 38805 100 0 0 0        * Nouthayk the great nightmare
+G 1 38722 1 0 100 0 0 0            *    a tail ring of nightmares
+G 1 38744 1 0 100 0 0 0            *    an elusive yet immortal soul
+M 0 38736 1 38807 100 0 0 0        * the Hunger
+M 0 38737 1 38809 100 0 0 0        * Ny'Neth the Dark
+E 1 38781 1 16 100 0 0 0           *   nyneth proc
+G 1 38758 1 0 100 0 0 0            *    the bone wand of Ny'Neth
+G 1 38757 1 0 100 0 0 0            *    the treasure room key
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 26665 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 38738 2 38809 100 0 0 0        * a guardian golem (following)
+G 1 38759 2 0 100 0 0 0            *    a potion of the guardian
+F 1 38738 2 38809 100 0 0 0        * a guardian golem (following)
+G 1 38759 2 0 100 0 0 0            *    a potion of the guardian
+F 1 38739 1 38809 100 0 0 0        * a dark entity (following)
+E 1 38760 1 16 100 0 0 0           *   a longsword named "Vampyre"
+F 1 38740 1 38809 100 0 0 0        * an ancient earth wyrm (following)
+G 1 38761 1 0 100 0 0 0            *    the shield of the earthwyrm
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38762 1 2 100 0 0 0            *   a ring of sorcerous power
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38763 1 2 100 0 0 0            *   a ring of regeneration
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38764 1 3 100 0 0 0            *   a necklace of giant strength
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38765 1 3 100 0 0 0            *   a scarf of enhanced stealth
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38766 1 6 100 0 0 0            *   the crown of doom
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38767 1 5 100 0 0 0            *   the platemail of doom
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38768 1 5 100 0 0 0            *   the robes of wizardry
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38769 1 12 100 0 0 0           *   a cloak of protection
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38770 1 9 100 0 0 0            *   the gauntlets of FuRy
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38771 1 10 100 0 0 0           *   some vambraces of holy might
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+E 1 38772 1 5 100 0 0 0            *   the legendary platemail of defense
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+G 1 38773 1 0 100 0 0 0            *    some enchanted boots
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+G 1 38774 1 0 100 0 0 0            *    a bracer of might
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+G 1 38775 1 0 100 0 0 0            *    the visor of divine vision
+M 0 38741 15 38812 100 0 0 0       * a treasure bearer
+G 1 38776 1 0 100 0 0 0            *    a dagger called 'Stealth'
+M 0 38742 2 38815 100 0 0 0        * a treasure bearer
+M 0 38742 2 38815 100 0 0 0        * a treasure bearer
+*
+S

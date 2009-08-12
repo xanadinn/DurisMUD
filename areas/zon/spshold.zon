@@ -1,0 +1,182 @@
+#226
+&+WSto&+Lrm &+bPort &+cStronghold&n~
+22664 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 22608 1 1 100 0 0 0
+*     east exit from "Before the Training Grounds" to
+*     "A Barracks Hut" - closed
+*
+D 0 22610 3 1 100 0 0 0
+*     west exit from "A Barracks Hut" to
+*     "Before the Training Grounds" - closed
+*
+D 0 22608 3 1 100 0 0 0
+*     west exit from "Before the Training Grounds" to
+*     "The Altar of Storms" - closed
+*
+D 0 22629 1 1 100 0 0 0
+*     east exit from "The Altar of Storms" to
+*     "Before the Training Grounds" - closed
+*
+D 0 22611 1 2 100 0 0 0
+*     east exit from "The Training Grounds" to
+*     "War Room of the Hunter-Killers" - closed/locked
+*
+D 0 22635 3 2 100 0 0 0
+*     west exit from "War Room of the Hunter-Killers" to
+*     "The Training Grounds" - closed/locked
+*
+D 0 22618 2 1 100 0 0 0
+*     south exit from "The Watchtower Gate" to
+*     "Base of the Watchtower" - closed
+*
+D 0 22619 0 1 100 0 0 0
+*     north exit from "Base of the Watchtower" to
+*     "The Watchtower Gate" - closed
+*
+D 0 22639 2 1 100 0 0 0
+*     south exit from "A Boarding Ramp" to
+*     "Onboard an Orcish Juggernaught" - closed
+*
+D 0 22656 0 1 100 0 0 0
+*     north exit from "Onboard an Orcish Juggernaught" to
+*     "A Boarding Ramp" - closed
+*
+D 0 22657 5 1 100 0 0 0
+*     down exit from "Onboard the Orcish Juggernaught" to
+*     "Inside the Hull of the Juggernaught" - closed
+*
+D 0 22662 4 1 100 0 0 0
+*     up exit from "Inside the Hull of the Juggernaught" to
+*     "Onboard the Orcish Juggernaught" - closed
+*
+D 0 22658 4 1 100 0 0 0
+*     up exit from "Onboard the Orcish Juggernaught" to
+*     "The Bridge" - closed
+*
+D 0 22659 5 1 100 0 0 0
+*     down exit from "The Bridge" to
+*     "Onboard the Orcish Juggernaught" - closed
+*
+*
+O 0 22615 1 22602 100 0 0 0        * a sign
+O 0 22603 1 22611 100 0 0 0        * a sign
+O 0 22617 1 22631 100 0 0 0        * a rope ladder
+O 0 22604 1 22641 100 0 0 0        * a coal furnace
+O 0 22618 1 22642 100 0 0 0        * a rope ladder
+O 0 22605 1 22647 100 0 0 0        * a coal furance
+O 0 22609 1 22663 100 0 0 0        * a coal furnace
+P 1 22610 1 22609 100 0 0 0        *   a pile of coal
+*
+M 0 22608 1 22602 100 0 0 0        * a duergar engineer
+M 0 22605 3 22603 100 0 0 0        * a stronghold guard
+E 1 22607 3 16 100 0 0 0           *   an iron warsword
+M 0 22612 6 22603 100 0 0 0        * a raven
+M 0 22609 4 22604 100 0 0 0        * a vicious warg
+M 0 22609 4 22604 100 0 0 0        * a vicious warg
+M 0 22632 1 22604 100 0 0 0        * a bloodaxe mercenary
+F 1 22635 1 22604 100 0 0 0        * a nightmare (following)
+M 0 22609 4 22605 100 0 0 0        * a vicious warg
+M 0 22609 4 22605 100 0 0 0        * a vicious warg
+M 0 22605 3 22605 100 0 0 0        * a stronghold guard
+E 1 22607 3 16 100 0 0 0           *   an iron warsword
+M 0 22612 6 22605 100 0 0 0        * a raven
+M 0 22600 3 22606 100 0 0 0        * an orc stronghold guard
+M 0 22600 3 22606 100 0 0 0        * an orc stronghold guard
+M 0 22601 1 22606 100 0 0 0        * Scarb Torntooth
+E 1 22616 4 5 100 0 0 0            *   a gale-crested combat vest
+E 1 22614 1 16 100 0 0 0           *   an iron gladius dubbed 'Hurricane'
+M 0 22600 3 22606 100 0 0 0        * an orc stronghold guard
+M 0 22605 3 22609 100 0 0 0        * a stronghold guard
+E 1 22607 3 16 100 0 0 0           *   an iron warsword
+M 0 22604 1 22612 100 0 0 0        * a rakshasa merchant
+E 1 22619 999 23 100 0 0 0         *   a storm-crested quiver
+G 1 5308 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 22619 3 22613 100 0 0 0        * a goblin trainee
+M 0 22619 3 22613 100 0 0 0        * a goblin trainee
+M 0 22619 3 22613 100 0 0 0        * a goblin trainee
+M 0 22621 1 22613 100 0 0 0        * the goblin captain
+E 1 22616 4 5 100 0 0 0            *   a gale-crested combat vest
+M 0 22613 1 22614 100 0 0 0        * the orc field marshall
+E 1 22616 4 5 100 0 0 0            *   a gale-crested combat vest
+M 0 22614 3 22614 100 0 0 0        * a training orc soldier
+M 0 22614 3 22614 100 0 0 0        * a training orc soldier
+M 0 22614 3 22614 100 0 0 0        * a training orc soldier
+M 0 22612 6 22615 100 0 0 0        * a raven
+M 0 22620 3 22615 100 0 0 0        * a stronghold guard
+M 0 22620 3 22615 100 0 0 0        * a stronghold guard
+M 0 22620 3 22615 100 0 0 0        * a stronghold guard
+M 0 22612 6 22616 100 0 0 0        * a raven
+M 0 22612 6 22616 100 0 0 0        * a raven
+M 0 22612 6 22617 100 0 0 0        * a raven
+M 0 22602 1 22622 100 0 0 0        * an orc lookout
+M 0 22603 4 22622 100 0 0 0        * an orc archer
+M 0 22603 4 22622 100 0 0 0        * an orc archer
+M 0 22607 1 22623 100 0 0 0        * a veteran orc soldier
+F 1 22606 5 22623 100 0 0 0        * a resting orc soldier (following)
+F 1 22606 5 22623 100 0 0 0        * a resting orc soldier (following)
+F 1 22606 5 22623 100 0 0 0        * a resting orc soldier (following)
+M 0 22606 5 22624 100 0 0 0        * a resting orc soldier
+M 0 22606 5 22624 100 0 0 0        * a resting orc soldier
+M 0 22603 4 22626 100 0 0 0        * an orc archer
+M 0 22603 4 22628 100 0 0 0        * an orc archer
+M 0 22628 3 22629 100 0 0 0        * an orc priest
+M 0 22628 3 22629 100 0 0 0        * an orc priest
+M 0 22628 3 22629 100 0 0 0        * an orc priest
+M 0 22622 1 22629 100 0 0 0        * the archmage
+M 0 22634 1 22631 100 0 0 0        * a stormbringer mercenary
+M 0 22633 1 22631 100 0 0 0        * a wild card mercenary
+M 0 22631 1 22631 100 0 0 0        * a blacktalon mercenary
+M 0 22616 1 22633 100 0 0 0        * a carefree pixie
+E 1 22601 1 20 100 0 0 0           *   a pixie mask
+M 0 22617 1 22634 100 0 0 0        * Decker
+M 0 22629 1 22636 100 0 0 0        * Crazt
+E 1 22630 1 15 100 0 0 0           *   the bracer of unsubstance
+M 0 22630 1 22636 100 0 0 0        * Archilon
+E 1 22631 1 8 100 0 0 0            *   the mage boots of the maelstrom
+M 0 22611 1 22638 100 0 0 0        * Rention
+E 1 22629 1 6 100 0 0 0            *   an enormous steel warhelm
+M 0 22610 1 22638 100 0 0 0        * Iromark
+E 1 22628 1 16 100 0 0 0           *   a sleek dagger of the hunter-killers
+M 0 22638 3 22640 100 0 0 0        * a crewman
+E 1 22600 2 24 100 0 0 0           *   an insignia of a cresent moon
+M 0 22638 3 22640 100 0 0 0        * a crewman
+E 1 22600 2 24 100 0 0 0           *   an insignia of a cresent moon
+M 0 22638 3 22640 100 0 0 0        * a crewman
+M 0 22636 1 22643 100 0 0 0        * the captain
+E 1 22606 2 16 100 0 0 0           *   an angelic blade
+M 0 22637 1 22646 100 0 0 0        * a watchful lookout
+E 1 22606 2 16 100 0 0 0           *   an angelic blade
+M 0 22618 1 22647 100 0 0 0        * a blazing ifrit
+G 1 22612 1 0 100 0 0 0            *    a broken furnance valve
+M 0 22623 1 22649 100 0 0 0        * the ghost of Aphantan
+E 1 22623 1 5 100 0 0 0            *   a ghostly shimmering set of armor
+G 1 22622 1 0 100 0 0 0            *    a packet of sea maps
+M 0 22643 1 22649 80 0 0 0         * the unblinking eye of aguares
+G 1 76712 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 22632 1 0 100 0 0 0            *    the stretched skin of a giant eye
+M 0 22615 5 22656 100 0 0 0        * an orc sailor
+M 0 22615 5 22656 100 0 0 0        * an orc sailor
+M 0 22625 4 22657 100 0 0 0        * an orc crewman
+M 0 22625 4 22657 100 0 0 0        * an orc crewman
+M 0 22625 4 22657 100 0 0 0        * an orc crewman
+M 0 22627 1 22658 100 0 0 0        * the first mate
+E 1 22616 4 5 100 0 0 0            *   a gale-crested combat vest
+M 0 22626 1 22659 100 0 0 0        * Hordine Scorn
+E 1 22608 1 15 100 0 0 0           *   a pirate's parrot
+G 1 22602 1 0 100 0 0 0            *    a key carved of bone
+M 0 22625 4 22660 100 0 0 0        * an orc crewman
+M 0 22624 1 22662 100 0 0 0        * the slave master
+G 1 22611 1 0 100 0 0 0            *    a black iron key
+M 0 22639 1 22662 100 0 0 0        * a human slave
+M 0 22640 1 22662 100 0 0 0        * a gnome slave
+M 0 22641 1 22662 100 0 0 0        * a grey elf slave
+M 0 22642 1 22662 100 0 0 0        * a dwarf slave
+M 0 22615 5 22663 100 0 0 0        * an orc sailor
+M 0 22615 5 22663 100 0 0 0        * an orc sailor
+M 0 22615 5 22663 100 0 0 0        * an orc sailor
+*
+S

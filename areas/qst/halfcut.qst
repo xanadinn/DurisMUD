@@ -1,0 +1,254 @@
+#27002
+M
+hi hello wounded~
+The dwarfs eyes flicker weakly.  His mouth moves, and the slightest whisper
+comes out.  "Manticores....southeast....they...poison..."  His voice trails
+off in a whisper.
+~
+M
+poison~
+He perks up a bit.  "can you.....help me?........We saw........in the wagon
+........potion.......perhaps."
+~
+Q
+Thank you.......I hope this......does the...... trick.
+
+The dwarf drinks the &+Ggreen potion&N.
+~
+R C 25000
+R E 25000
+G I 27037
+S
+#27005
+M
+mine where~
+Ya, there is some mine around here somewhere.  We got message that they were
+having problems with some giants.  So, we were sent to help.  But now we
+can't find them.  If you could find them and help them out, that would save
+us a lot of work.  More time for drinking ale.  If you do, bring us a note
+back from Bartis and we might have a little something for you.
+~
+Q
+You did it!
+
+
+Let's drink!
+
+
+Here take this for your effort.
+~
+R I 27045
+G I 27044
+D
+The sentry walks away satisfied.
+~
+S
+#27033
+M
+evils evil raid~
+"There is a party of evil raiders in the area.  I truly worried about what
+they might do to this place and to us.  Please rid us of this fear.  Bring
+me the scalp of their leader and I will have a reward for you."
+~
+Q
+"I can now get a peaceful night's sleep knowing the raiding party has
+been dealt with.  Thank you."
+~
+R I 27060
+G I 27051
+S
+#27059
+Q
+"You must have got this from &+rBartis&N he said he had these for us.
+Thank you so much."
+~
+R E 2000
+R I 27040
+G I 27039
+D
+"Here take my miner's badge back to &+rBartis&n.  He will know it was mine."
+
+The miner quaffs the &+ybrown jar&N and slowly fades into nothingness.
+~
+S
+#27060
+QA
+"OH!  Thank you!"
+
+"Now I can get out of this hole"
+
+"Here, take this back to &+rBaritis&N and tell him I will see him back in the
+village when he gets out."
+
+"You won't forget to free &+rBartis&N as well will you?"
+~
+R I 27042
+R E 2500
+G I 27039
+D
+The &+Byoung miner&N drinks the &+yjar&N and slowly fades away.
+~
+S
+#27065
+M
+worried~
+&+rBartis&N looks at you and says, "Ya, I'm real worried about my miners.
+I'm not sure how many got out, how many died, and how many are still stuck
+inside.  These giants got real pissed off when we broke into their cave.
+We told them it was a mistake.  But that did not matter."
+~
+M
+miner miners~
+&+rBartis&N seems to have an idea.
+"If you could find any left inside and free them I would be grateful and
+reward you."
+~
+M
+free~
+"I had a box of potions made for the miners to take us back to our town in
+case of danger.  I never got a chance to give the potions to the guys though.
+The box went missing in the fight with the giants."
+~
+Q
+"I'm pretty sure that would be all of them.  I saw most of the others
+running for the exit when the alarm went off.  You deserve more then this,
+but this is all I have to give you."
+~
+R I 27043
+G I 27040
+G I 27041
+G I 27042
+Q
+"I owe you so much for this I have nothing left to give you except what is
+left of my coin purse.  And my undying gratitude."
+
+
+"Now get yourself out of here before more giants come."
+~
+R C 150000
+R I 27044
+G I 27039
+D
+&+rBartis&N drinks the &+yjar&N and slowly fades away.
+~
+S
+#27071
+Q
+"You must have got this from &+rBartis&N he said he had these for us.
+Thank you so much."
+~
+R E 20000
+R I 27041
+G I 27039
+D
+"Here take my miner's badge back to &+rBartis&n.  He will know it was mine."
+
+The miner quaffs the &+ybrown jar&N and slowly fades into nothingness.
+~
+S
+#27078
+M
+worried~
+"My plans are all falling apart.  My party is fighting with each other.
+The directions I was given to the mines were wrong.  My own guard don't
+even trust me anymore.  They think I'm going to run off and leave them
+all here.  Unless I come up with a different plan now I'll never be able
+to take over the Rook mines."
+~
+M
+rook plan~
+"We got word that a very prosperous mine we have been looking at for years
+was having some troubles.  In fact almost all the miners were killed when
+they broke into a Stone Giant's cave.  We thought that this would be the
+perfect chance to bring a large raiding party in, clear out anyone that
+was left in the mine and take it over for ourselves.  But now with my party
+in pieces........well, I need help"
+~
+M
+help~
+"Well, I think the only way to do this now is to get rid of this group of
+misfits and take the mine over myself.  The first step would be to kill the
+leaders of each faction of the raid party.  Then kill both the leader of the
+mine, &+rBartis&N and the leader of the stone giants, &+BHulkuis&N.  If all
+the leaders were gone, taking the mine itself would not be difficult.  Then
+I could bring in my mining crew and strip all the worth out of these
+mountains.  Do this for me, bring me proof and I will pay you well."
+~
+Q
+"Perfect, there rest will be easy for me and my crew.  I have two options
+now, kill you or pay you.  Because I think you might come in handy in the
+future I guess I'll pay you."
+~
+R I 27059
+G I 27052
+G I 27053
+G I 27054
+G I 27055
+G I 27057
+G I 27058
+S
+#27080
+M
+goblin gumbling mad~
+"This is the last time I put up with that damn goblin.  Why I have not
+killed him long ago, I don't know.  If you go over there quietly and,
+say, place a dagger in his heart.  I'll place some coins in you hand."
+~
+Q
+"I hope no one saw you do this, and I really hope no one saw you bring
+this to me, the others will be mad.  But thank you."
+~
+R C 15000
+R E 25000
+G I 27054
+S
+#27081
+M
+orc ponder pondering something~
+"Do me a favor, do in that orc across the way before he does me in."
+~
+M
+kill~
+"Yes kill him.  Then bring me his scalp.  I'll pay you."
+~
+Q
+"That will teach him!"
+
+"Here this is for you."
+~
+R C 20000
+R E 15000
+G I 27052
+S
+#27082
+M
+duergar~
+"Damn duergars! They are all the same.  You can't trust them at all.  Not
+one little bit.  We would all be better off if there were no Duergars at
+all.  Hey now there is an idea.  Kill the duergars.  Ya, lets kill all
+the duergars.  Will you help me?"
+~
+Q
+"Now we can get on with our job without that pest getting in the way.
+Thank you."
+~
+R I 27056
+R I 25000
+G I 27055
+S
+#27083
+M
+drow mad bite~
+"That drow wont get away with it this time.  No!  I'm supposed to be the
+back stabber, not him.  Well he'll get what's coming to him.  Bring me his
+head and I'll give you something in return."
+~
+Q
+"Good that will serve him right!"
+
+"He this is for you."
+~
+R C 20000
+R E 25000
+G I 27053
+S

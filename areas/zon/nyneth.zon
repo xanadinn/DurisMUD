@@ -1,0 +1,387 @@
+#229
+&+BN&+by'&+BN&+beth&n~
+22996 1 0 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 22901 0 2 100 0 0 0
+*     north exit from "Archway Entrance to Ny'Neth's" to
+*     "A Smooth Earthen Corridor" - closed/locked
+*
+D 0 22902 2 2 100 0 0 0
+*     south exit from "A Smooth Earthen Corridor" to
+*     "Archway Entrance to Ny'Neth's" - closed/locked
+*
+D 0 22903 0 5 100 0 0 0
+*     north exit from "A Smooth Earthen Corridor" to
+*     "Chamber of the Chained Wyrm" - closed/secret
+*
+D 0 22904 2 5 100 0 0 0
+*     south exit from "Chamber of the Chained Wyrm" to
+*     "A Smooth Earthen Corridor" - closed/secret
+*
+D 0 22905 0 2 100 0 0 0
+*     north exit from "Altar of the Chained Wyrm" to
+*     "Before a Shimmering Portal" - closed/locked
+*
+D 0 22908 2 2 100 0 0 0
+*     south exit from "Before a Shimmering Portal" to
+*     "Altar of the Chained Wyrm" - closed/locked
+*
+D 0 22908 1 1 100 0 0 0
+*     east exit from "Before a Shimmering Portal" to
+*     "Before the second portal" - closed
+*
+D 0 22909 3 1 100 0 0 0
+*     west exit from "Before the second portal" to
+*     "Before a Shimmering Portal" - closed
+*
+D 0 22908 3 1 100 0 0 0
+*     west exit from "Before a Shimmering Portal" to
+*     "Before the third portal" - closed
+*
+D 0 22910 1 1 100 0 0 0
+*     east exit from "Before the third portal" to
+*     "Before a Shimmering Portal" - closed
+*
+D 0 22936 0 6 100 0 0 0
+*     north exit from "Amid a Jumble of Rocks and Boulders" to
+*     "Before the Hall of Titans" - closed/locked/secret
+*
+D 0 22937 2 6 100 0 0 0
+*     south exit from "Before the Hall of Titans" to
+*     "Amid a Jumble of Rocks and Boulders" - closed/locked/secret
+*
+D 0 22937 0 1 100 0 0 0
+*     north exit from "Before the Hall of Titans" to
+*     "Hall of the Titans" - closed
+*
+D 0 22938 2 1 100 0 0 0
+*     south exit from "Hall of the Titans" to
+*     "Before the Hall of Titans" - closed
+*
+D 0 22937 3 6 100 0 0 0
+*     west exit from "Before the Hall of Titans" to
+*     "Cavern of the Living Dead" - closed/locked/secret
+*
+D 0 22948 1 6 100 0 0 0
+*     east exit from "Cavern of the Living Dead" to
+*     "Before the Hall of Titans" - closed/locked/secret
+*
+D 0 22958 3 1 100 0 0 0
+*     west exit from "Cavern of the Living Dead" to
+*     "Beginning of the River of Blood" - closed
+*
+D 0 22959 1 1 100 0 0 0
+*     east exit from "Beginning of the River of Blood" to
+*     "Cavern of the Living Dead" - closed
+*
+D 0 22981 1 1 100 0 0 0
+*     east exit from "Earthen Bank of a Lava River" to
+*     "Before the Hall of Emissaries" - closed
+*
+D 0 22982 3 1 100 0 0 0
+*     west exit from "Before the Hall of Emissaries" to
+*     "Earthen Bank of a Lava River" - closed
+*
+D 0 22993 2 2 100 0 0 0
+*     south exit from "Audience Chamber of Ny'Neth" to
+*     "The First Vault of Ny'Neth" - closed/locked
+*
+D 0 22994 0 2 100 0 0 0
+*     north exit from "The First Vault of Ny'Neth" to
+*     "Audience Chamber of Ny'Neth" - closed/locked
+*
+*
+O 0 22902 1 22908 100 0 0 0        * a glowing portal.
+O 0 22903 1 22909 100 0 0 0        * a glowing portal.
+O 0 22904 1 22910 100 0 0 0        * a glowing portal.
+O 0 22956 1 22994 100 0 0 0        * a golden scabbard encrusted with emeralds and rubies
+O 0 22957 1 22994 100 0 0 0        * a ram horned helm of demonic allegiance
+O 0 22958 1 22994 100 0 0 0        * the winged boots of angelic movement
+O 0 22959 1 22994 100 0 0 0        * a robe of the Titan magi
+O 0 22961 1 22994 100 0 0 0        * the vambraces of the vampire lords
+O 0 22964 1 22994 100 0 0 0        * the 2nd key of Ny'Neth
+O 0 22966 2 22994 100 0 0 0        * a dark portal
+O 0 22963 1 22994 100 0 0 0        * the divine bracer of greater defense
+O 0 360 1 22994 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 22900 2 22901 100 0 0 0        * an archway golem
+M 0 22900 2 22901 100 0 0 0        * an archway golem
+G 1 22900 1 0 100 0 0 0            *    the key of Ny'Neth
+M 0 22901 3 22902 100 0 0 0        * an earth pixie
+M 0 22901 3 22903 100 0 0 0        * an earth pixie
+M 0 22901 3 22903 100 0 0 0        * an earth pixie
+M 0 22902 1 22905 100 0 0 0        * a chained wyrm
+G 1 22901 9999 0 100 0 0 0         *    a black key shaped like a green wyrm.
+M 0 22903 6 22906 100 0 0 0        * a dungeon trapper
+M 0 22903 6 22906 100 0 0 0        * a dungeon trapper
+M 0 22903 6 22906 100 0 0 0        * a dungeon trapper
+M 0 22903 6 22907 100 0 0 0        * a dungeon trapper
+M 0 22903 6 22907 100 0 0 0        * a dungeon trapper
+M 0 22903 6 22907 100 0 0 0        * a dungeon trapper
+M 0 22930 5 22930 100 0 0 0        * an earth mephit
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22930 5 22931 100 0 0 0        * an earth mephit
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22930 5 22932 100 0 0 0        * an earth mephit
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22930 5 22933 100 0 0 0        * an earth mephit
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22930 5 22934 100 0 0 0        * an earth mephit
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22931 1 22936 100 0 0 0        * a scarecrow
+E 1 22932 12 16 100 0 0 0          *   a shard of volcanic stone
+E 1 22932 12 17 100 0 0 0          *   a shard of volcanic stone
+G 1 22937 1 0 100 0 0 0            *    elixer of hunting
+G 1 22930 1 0 100 0 0 0            *    a straw key
+G 1 22946 1 0 100 0 0 0            *    a thin piece of straw
+M 0 22932 5 22938 100 0 0 0        * a Titan warlord
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22933 5 22938 100 0 0 0        * a Titan berzerker
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22932 5 22939 100 0 0 0        * a Titan warlord
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22932 5 22940 100 0 0 0        * a Titan warlord
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22933 5 22940 100 0 0 0        * a Titan berzerker
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22932 5 22941 100 0 0 0        * a Titan warlord
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22933 5 22941 100 0 0 0        * a Titan berzerker
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22932 5 22942 100 0 0 0        * a Titan warlord
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22934 5 22942 100 0 0 0        * a Titan juggernaut
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22934 5 22943 100 0 0 0        * a Titan juggernaut
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22934 5 22944 100 0 0 0        * a Titan juggernaut
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22933 5 22944 100 0 0 0        * a Titan berzerker
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22934 5 22945 100 0 0 0        * a Titan juggernaut
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22933 5 22945 100 0 0 0        * a Titan berzerker
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22934 5 22946 100 0 0 0        * a Titan juggernaut
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22936 1 22947 100 0 0 0        * a Titan king
+E 1 22962 1 16 100 0 0 0           *   the hammer of the Titans
+G 1 22948 1 0 100 0 0 0            *    a wand of lightning speed
+G 1 22931 1 0 100 0 0 0            *    a lightning key
+G 1 22947 1 0 100 0 0 0            *    a rod of electrical manipulation
+F 1 22935 2 22947 100 0 0 0        * a Titan lord (following)
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+F 1 22935 2 22947 100 0 0 0        * a Titan lord (following)
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22937 5 22948 100 0 0 0        * a horror
+G 1 22940 3 0 100 0 0 0            *    a jar of rotting flesh
+M 0 22939 5 22949 100 0 0 0        * a lifedrinker
+M 0 22937 5 22950 100 0 0 0        * a horror
+M 0 22938 3 22950 100 0 0 0        * a banshee
+G 1 22949 2 0 100 0 0 0            *    a staff of dark alliance
+G 1 22941 3 0 100 0 0 0            *    a translucent elixer
+M 0 22939 5 22951 100 0 0 0        * a lifedrinker
+G 1 22939 3 0 100 0 0 0            *    a vial of vampiric rage
+M 0 22937 5 22952 100 0 0 0        * a horror
+M 0 22939 5 22953 100 0 0 0        * a lifedrinker
+M 0 22937 5 22954 100 0 0 0        * a horror
+G 1 22940 3 0 100 0 0 0            *    a jar of rotting flesh
+M 0 22939 5 22954 100 0 0 0        * a lifedrinker
+G 1 22939 3 0 100 0 0 0            *    a vial of vampiric rage
+M 0 22938 3 22955 100 0 0 0        * a banshee
+G 1 22941 3 0 100 0 0 0            *    a translucent elixer
+M 0 22939 5 22956 100 0 0 0        * a lifedrinker
+G 1 22939 3 0 100 0 0 0            *    a vial of vampiric rage
+M 0 22937 5 22957 100 0 0 0        * a horror
+M 0 22938 3 22957 100 0 0 0        * a banshee
+G 1 22949 2 0 100 0 0 0            *    a staff of dark alliance
+G 1 22941 3 0 100 0 0 0            *    a translucent elixer
+M 0 22940 27 22959 100 0 0 0       * a swarmfish
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22959 100 0 0 0       * a swarmfish (following)
+M 0 22941 3 22960 100 0 0 0        * a sahaugin huntress
+E 1 22934 6 16 100 0 0 0           *   a reed spear
+E 1 22934 6 17 100 0 0 0           *   a reed spear
+M 0 22942 3 22961 100 0 0 0        * a sahaugin enchantress
+G 1 22942 3 0 100 0 0 0            *    an elixer of arcane resistance
+M 0 22940 27 22962 100 0 0 0       * a swarmfish
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22962 100 0 0 0       * a swarmfish (following)
+M 0 22941 3 22963 100 0 0 0        * a sahaugin huntress
+E 1 22934 6 16 100 0 0 0           *   a reed spear
+E 1 22934 6 17 100 0 0 0           *   a reed spear
+M 0 22942 3 22964 100 0 0 0        * a sahaugin enchantress
+G 1 22942 3 0 100 0 0 0            *    an elixer of arcane resistance
+M 0 22940 27 22965 100 0 0 0       * a swarmfish
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+F 1 22940 27 22965 100 0 0 0       * a swarmfish (following)
+M 0 22941 3 22966 100 0 0 0        * a sahaugin huntress
+E 1 22934 6 16 100 0 0 0           *   a reed spear
+E 1 22934 6 17 100 0 0 0           *   a reed spear
+G 1 22943 3 0 100 0 0 0            *    a vial of the depths
+M 0 22942 3 22967 100 0 0 0        * a sahaugin enchantress
+G 1 22950 1 0 100 0 0 0            *    a staff of watery command
+M 0 22949 6 22969 100 0 0 0        * an earth mephit emissary
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22950 6 22969 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22953 3 0 100 0 0 0            *    a dusty rod
+M 0 22948 6 22970 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22949 6 22971 100 0 0 0        * an earth mephit emissary
+M 0 22948 6 22972 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22951 2 0 100 0 0 0            *    a chunk of molten magma
+G 1 22940 3 0 100 0 0 0            *    a jar of rotting flesh
+M 0 22950 6 22972 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22953 3 0 100 0 0 0            *    a dusty rod
+M 0 22949 6 22973 100 0 0 0        * an earth mephit emissary
+M 0 22948 6 22974 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22950 6 22974 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22949 6 22975 100 0 0 0        * an earth mephit emissary
+M 0 22950 6 22975 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22936 8 0 100 0 0 0            *    a dusty potion
+M 0 22948 6 22976 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22944 4 0 100 0 0 0            *    a potion of liquid fire
+M 0 22949 6 22977 100 0 0 0        * an earth mephit emissary
+M 0 22950 6 22977 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22953 3 0 100 0 0 0            *    a dusty rod
+M 0 22948 6 22979 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22944 4 0 100 0 0 0            *    a potion of liquid fire
+G 1 22951 2 0 100 0 0 0            *    a chunk of molten magma
+M 0 22950 6 22979 100 0 0 0        * an earthen lord
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22949 6 22980 100 0 0 0        * an earth mephit emissary
+M 0 22948 6 22981 100 0 0 0        * a lava golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+G 1 22944 4 0 100 0 0 0            *    a potion of liquid fire
+G 1 22944 4 0 100 0 0 0            *    a potion of liquid fire
+M 0 22952 4 22983 100 0 0 0        * a sahaugin emissary
+G 1 22943 3 0 100 0 0 0            *    a vial of the depths
+G 1 22952 3 0 100 0 0 0            *    a figurine of elemental command
+M 0 22951 4 22984 100 0 0 0        * a Titan Emissary
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22953 4 22984 100 0 0 0        * a magma golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22951 4 22985 100 0 0 0        * a Titan Emissary
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22953 4 22985 100 0 0 0        * a magma golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22952 4 22986 100 0 0 0        * a sahaugin emissary
+M 0 22951 4 22987 100 0 0 0        * a Titan Emissary
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22952 4 22988 100 0 0 0        * a sahaugin emissary
+G 1 22952 3 0 100 0 0 0            *    a figurine of elemental command
+G 1 22943 3 0 100 0 0 0            *    a vial of the depths
+M 0 22951 4 22989 100 0 0 0        * a Titan Emissary
+E 1 22933 42 16 100 0 0 0          *   a lightningstone hammer
+E 1 22933 42 17 100 0 0 0          *   a lightningstone hammer
+M 0 22953 4 22989 100 0 0 0        * a magma golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22952 4 22990 100 0 0 0        * a sahaugin emissary
+G 1 22952 3 0 100 0 0 0            *    a figurine of elemental command
+G 1 22942 3 0 100 0 0 0            *    an elixer of arcane resistance
+M 0 22953 4 22991 100 0 0 0        * a magma golem
+E 1 22935 32 16 100 0 0 0          *   a smooth boulder of lava rock
+E 1 22935 32 17 100 0 0 0          *   a smooth boulder of lava rock
+M 0 22956 1 22993 100 0 0 0        * construct of Ny'Neth
+G 1 22945 1 0 100 0 0 0            *    a potion of mental toughness
+G 1 22965 1 0 100 0 0 0            *    the vault key
+F 1 22954 1 22993 100 0 0 0        * Azuzaal the executioner (following)
+G 1 22954 1 0 100 0 0 0            *    a wand of demonic hatred
+F 1 22955 1 22993 100 0 0 0        * Ravelloth (following)
+G 1 22955 1 0 100 0 0 0            *    the claw of Ravelloth
+M 0 22943 1 22995 100 0 0 0        * Vlessus
+G 1 22967 1 0 100 0 0 0            *    the horn of the harbringer of destruction
+M 0 22944 1 22995 100 0 0 0        * Tssiss
+G 1 22971 1 0 100 0 0 0            *    the elixer from the beyond
+M 0 22945 1 22995 100 0 0 0        * Drkehn
+E 1 22970 1 5 100 0 0 0            *   the ringmail of enhanced lifeforce
+M 0 22946 1 22995 100 0 0 0        * Nian
+E 1 22968 1 19 100 0 0 0           *   the third eye of the mindreaver
+G 1 22938 8 0 100 0 0 0            *    lightning in a bottle
+M 0 22947 1 22995 100 0 0 0        * Agaroch
+E 1 22969 1 12 100 0 0 0           *   the cloak of the battledancer
+*
+S

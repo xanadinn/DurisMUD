@@ -1,0 +1,246 @@
+#77713
+S
+#77718
+M
+book~
+&+WThe old Neogi tells you:'Yes I have lots of books, feel free to look around'"&n
+~
+M
+neogi~
+&+WThe old Neogi tells you:'We are an ancient race, and are quite intellectually
+&+W                         advanced compared to the likes of you!  Most of the
+&+W                         younger Neogis have terrible tempers though, and
+&+W                         will attack outsiders on sight, so be careful - ever
+&+W                         since that damn eyeball started coming around and
+&+W                         molesting their mates.'
+~
+M
+bar steel~
+
+&+WThe o&nl&+Wd &+MNe&+mo&+Lg&+ci&n nods and makes a "gimme" gesture with his hands.
+~
+Q
+
+&+LThe o&nl&+Wd &+MNe&+mo&+Lg&+Ci&n smiles happily.&n
+~
+R I 77745
+G I 77744
+S
+#77724
+M
+key tower~
+&+WThe young Neogi tells you:'Bah, I can make you a key for anything, for a price&n
+&+W                           of course.  There are shards in the towers that I&n
+&+W                           would need to make you a key for the next. Ten&n
+&+W                           plat for the first and we'll multiply by ten for&n
+&+W                           every one after that.'&n
+
+&+LThe &+MNe&+mo&+Lg&+ci&+Y shopkeeper&n winks and returns to his inventory.&n
+~
+Q
+&+WThe young Neogi tells you:'Feh, here you go, but you're crazy if you really&n
+&+W                           go into the second tower, lotsa people die there.&n
+&+W                           Well, nice knowin' ya!'&n
+~
+R I 77728
+G I 77724
+G C 10000
+Q
+&+WThe Neogi shopkeeper tells you:'Nice, thanks for the money, gotta eat you&n
+&+W                                know!'&n
+
+He turns to his key grinding tools and starts making a key out of the silver
+shard.
+
+&+R*SNAP*&n
+
+&+LThe &+MNe&+mo&+Lg&+ci&+Y shopkeeper&n quickly turns to you, he's about to piss his pants!
+~
+R I 77733
+G I 77732
+G C 100000
+D
+&+WThe Neogi shopkeeper tells you:'Ugh...damn...better leave now!'&n
+~
+S
+#77735
+M
+belt~
+&+WJadem tells you:'I can make you one just like it, I'll just need a few parts.'&n
+~
+M
+parts~
+&+WJadem tells you:'Ok, but the collecting of these will be difficult.  I will&n
+&+W                 require two mechanical chains, two special bangles, two&n
+&+W                 chunks of adamantite ore, two springs, and six gears.'&n
+~
+Q
+
+Jadem starts workingly intently on the pieces you gave him.
+~
+R I 77749
+G I 77712
+G I 77729
+G I 77712
+G I 77729
+G I 77719
+G I 77719
+G I 77742
+G I 77742
+G I 77742
+G I 77742
+G I 77748
+G I 77748
+G I 77748
+G I 77748
+G I 77748
+G I 77748
+D
+&+WJadem tells you:'Wow, you got all the pieces.  Sure did it faster than me! In&n
+&+W                 any case, here's the belt!  Saved me quite a few times.'&n
+~
+S
+#77739
+Q
+
+&+WSeltran tell you:'Here, I had stored this away for the hell of it, might help
+&+W                  you more than I.'
+~
+R I 77719
+G I 77747
+D
+The town elder briefly smiles and walks away into the ether.
+~
+Q
+
+Seltran clenches his fists and says:'Save my son and I will help you in
+return.'
+~
+G I 77747
+S
+#77740
+M
+mad~
+&+WXamael tells you:'Mad! Hell yeah!  All of the ore down here is GARBAGE!&n
+&+W                  Everything I make eventually breaks, people are starting&n
+&+W                  to think I just good for fixing things!  Xamael fix this.&n
+&+W                  Xamael fix that.  Goddamn those templars for sticking&n
+&+W                  us down here, and my backstabbing brother who stole me&n
+&+W                  swords..arrr....'&n
+~
+M
+fix~
+&+WXamael tells you:'Yeah, though I find it unnervingly boring, I can fix&n
+&+W                  most anything for ten platinum coins.  Money's kinda&n
+&+W                  rough down here, but a few of our town have made it&n
+&+W                  topside to get supplies.  There rest are too scared to go&N
+&+W                  back up.  They've spent most their damn lives down here.&n
+&+W                  Ann, well....I don't have the heart to abandon them.'&n
+~
+M
+brother~
+
+Xamael pauses and sighs.
+
+&+WXamael tells you:'That bastard backstabber, he was IN the templar order and&n
+&+W                   got me down here.  He even stole my ore and forged some&n
+&+W                   junk sword with it.  Man I wish I had that ore, I could&n
+&+W                   make something really nice with it.'&n
+~
+M
+make~
+
+Xamael grins.
+
+&+WXamael tells you:'Just for the joy of being able to forge again, I'd even&n
+&+W                  consider giving it to you.  I'd need quite a few items&n
+&+W                  to make what I wanna make tho.  Consider it a surprise.'&n
+~
+M
+items~
+Xamael scratches his head.
+
+Xamael grumbles something about a platemail.
+~
+M
+platemail~
+
+&+WXamael tells you:  'Something I had thought of, but I can't figure out how to&n
+&+W                    make it work!  My mother didn't make me smart enough I&n
+&+W                    guess!  So far though, I gather I'd need two bars of&n
+&+W                    magical steel, two bags of steel scales, and two pieces&n
+&+W                    of adamantium ore, and my design book of course.  There's
+&+W                      also a special potion of which I'd need two samples.
+&+W                      It contains the very essence of the soul.  Doubt you'll
+&+W                      ever find those though, they're rather scarce.'&n
+~
+Q
+
+&+WXamael tells you:'Here, all fixed.  Dunno what it's for tho.'
+~
+R I 77739
+G I 77733
+G C 10000
+Q
+
+&+WXamael tells you:'A fine platemail this is.  The best I have ever made.'&n
+~
+R I 77746
+G I 77745
+G I 77745
+G I 77713
+G I 77713
+G I 77750
+G I 77719
+G I 77719
+G I 77720
+G I 77724
+G I 77724
+S
+#77741
+M
+sad crying~
+&+Wthe old one-eyed woman tells you:'..oh, he left me to die, he even gave me&n
+&+W                                  hell for not dying with him, I wish that I&n
+&+W                                  weren't dead like him.  Am I dead?'&n
+~
+Q
+
+The old lady grins evilly.
+
+&+WThe old one-eyed woman tells you:'Here, the bugger had hidden this, I was&n
+&+W                                  hopin he'd be comin back to get it, but&n
+&+W                                  he didn't.  Take it.'&n
+~
+R I 77744
+G I 77741
+S
+#77742
+M
+torment~
+&+Wthe little child tells you:'..the king's dagger...stop..'&n
+~
+Q
+
+The little child turns and looks to you.
+~
+R I 77743
+G I 18309
+D
+&+WThe little child&n smiles happily, turns from his fixed gaze, and walks into
+the depths of the forest, quickly becoming transparent as he leaves.
+~
+S
+#77744
+Q
+
+&+WThe lost aberrate tells you:'My father will be pleased.  Thank you.'&n
+~
+R I 77747
+G I 77743
+D
+
+The lost aberrate stops convulsing, smiles, and nodding a thank you, vanishes
+into the dark.
+~
+S

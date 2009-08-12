@@ -1,0 +1,157 @@
+#94701
+M
+qc_action 25~
+&+rVorclauz &+Lextends his claws in a &+Wthreatening &+Lmanner and lets out a &Ncackle&+L.
+~
+S
+#94702
+M
+qc_action 25~
+&+LAbrupting its motionless stance, the &Nspectre &+Lof &+rXatawan &+Lsuddenly lifts one
+&+Lghastly &+Wboney&+L finger towards the &Nsign&+L.
+~
+S
+#94703
+M
+qc_action 25~
+&+LThe &Nvampire&+L of &+rXatawan &+Lgrins, revealing its vampiric &+Wteeth&+L.
+&+LThe &Nvampire&+L of &+rXatawan&+L raises a boney finger, pointing at the &Nsign&+L.
+~
+S
+#94704
+M
+hi hello gates truth key~
+   &+YOesh'lyn &+Wlooks up and down you and speaks, in a low and booming
+&+Wvoice '&+CIf you wish to undergo the test of truth, you must prove thyself
+&+Cworthy before you can enter the gates.&+W'
+   &+YOesh'lyn &+Wstands and gestures back towards the east.
+   &+YOesh'lyn &+Wspeaks again in his deep, resonating voice '&+CThe tunnel
+&+Cbefore you is crawling with creatures and vermin.  You must safely return
+&+Cto me &+La &+cspore &+Lof &+Mascomid &+Lfibers&+C to prove your bravery.&+W'
+   &+YOesh'lyn &+Wsays '&+CYou will go to the fungus-filled fiberous cavern
+&+Cand search for this spore that I seek to continue.&+W'
+~
+M
+qc_action 25~
+&+YOesh'lyn &+Wthe &+Csage&+W of truth &+Wraises his hands in a holy, magical gesture.
+~
+Q
+   &+YOesh'lyn &+Waccepts the item and speaks '&+CWell done, adventurer.
+&+CYou have proven thyself worthy to enter my gates.  However, let me warn
+&+Cyou, there are dangers ahead that should be taken with extreme caution.
+&+CIn your journey from here out, there will be places for you to rest and
+&+Cregain your health, if necessary.  These locations are for you to search
+&+Cout and find.&+W'
+   &+W'&+CThe next phase of your journey will take you to the titan Borthur's
+&+Ccourt where a task will be asked of you.  Take caution in your movements
+&+Cand may the hand of &+YTorm the True&+C guide you in your journey.&+W'
+~
+R I 94724
+G I 94723
+S
+#94705
+M
+hi hello quest~
+   &+WThe &+Ctitan &+Wsays 'Yes, the walls caved in on me while I was
+   &+Wplanning out a new chamber within the west wing!'
+
+   &+WThe &+Ctitan&+W sighs for a moment and continues, 'I never work
+   &+Wwith my signet ring on, but after I fell down, avoiding the
+   &+Wtoppling marble walls, I lost my ring!  Please find for me my
+   &+Wring, and I shall reward you!'
+~
+M
+qc_action 25~
+&+WThe &+Ctitan &+Wcontractor nervously scrambles through the &+yrubble&+W in search of something.
+~
+Q
+  &+WThe &+Ctitan &+Wcontracter takes the &+Yring &+Wfrom you and smiles.
+  &+W'Here you go,' he says after fumbling around.
+~
+R I 94716
+R I 94727
+R I 94727
+R I 94727
+G I 94715
+D
+   &+W'This key will open the door in the East Wing.  You have done well.'
+
+   &+WThe &+Ctitan&+W contractor continues 'Take these potions, they may
+   &+Wshield you from a &+Rflaming shield&+W in the future.  Make sure to
+   &+Wuse them wisely, for they are limited!'
+
+      &+WThe &+Ctitan&+W dusts himself off and goes on his way.
+~
+S
+#94706
+M
+hi hello borthur~
+   &+WThe image of Borthur fl&Nick&+Wer&Ns &+Wand speaks '&+GAdventurer, your
+&+Gnext journey begins here.  This is my domain, but my court is faced with
+&+Ga dilemma!  Continue your journey forward, or step back through the
+&+Gmoonwell, for this is your last chance to return to your own realm.&+W'
+~
+M
+qc_action 25~
+&+WThe &+cimage &+Wof Borthur fades in and out of existence before motioning to the &Nsign&+W.
+~
+S
+#94707
+M
+qc_action 20~
+&+WBorthur the proud says &N'Congratulations, you have reached my chamber and rescued me!&+W'
+&+W'&NYour journey is not over, however, it has just begun!  Please, read the engraving
+&Ni have prepared for you, for there are much dangers ahead in your trek.'
+~
+S
+#94738
+M
+qc_action 25~
+&+WSomething in the immediate area causes a warm and healing sensation to fill your body.
+~
+S
+#94757
+M
+hi hello~
+   &+LNahasp &Ncreeps up very close to you and whispers '&+LGreetings
+   &+Ladventurer, come closer, much closer!  You have made your way
+   &+Lthrough the mountains this far, yes? I see many adventurers come
+   &+Lthrough here, but they do not enter the grate without a special
+   &+Ckey&+L that only I can give to them.!&N'
+
+   &+LNahasp laughs for a moment and peers at you.
+~
+M
+key~
+   &+LNahasp &Nlooks at you and examines you briefly, stepping from side to
+   side eyeing up your whole being.
+
+   Finally, &+LNahasp&N speaks '&+LI see that you are strong and worthy of
+   &+Lgoing through the tunnels that lie deep within this mountain, into the
+   &+Lheart of the world.  I will give you the &+Ckey &+Lto this grate if
+   &+Lyou if you bring for me &+W10 platinum coins&+L.  Where will you find
+   &+Lthat kind of currency in this mountain?  In the pockets of the other
+   &+Ladventurers you will slay on the mountain!!'
+
+   &+LNahasp &Ncackles with insane glee for a moment, and fades back into the
+   &+Ldark corner of the cave.
+~
+M
+qc_action 25~
+&+LNahasp looks around and mutters something incoherently before returning to the grate.
+~
+Q
+   '&+LYes yes yes!! Shiny platinum for me!  You have done well adventurer.&N'
+   &+LNahasp&Ngrimmances for a moment and continues '&+LMany dangers lurk
+   &+Lwithin the tunnels beneath this mountain though.  So I give you this
+   &+Wkey &+Lwith my caution.&N'
+~
+R I 94729
+G C 10000
+S
+#94762
+M
+qc_action 30~
+&+WA tingling and warm, healing sensation is felt emanating in this room...
+~
+S

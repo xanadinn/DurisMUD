@@ -1,0 +1,393 @@
+#135
+&+YTwin Towers Forest&n~
+13599 2 0 5 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 13510 0 5 100 0 0 0
+*     north exit from "A Light and Breezy Forest" to
+*     "A Thick Forest" - closed/secret
+*
+D 0 13574 2 5 100 0 0 0
+*     south exit from "A Thick Forest" to
+*     "A Light and Breezy Forest" - closed/secret
+*
+D 0 13512 0 5 100 0 0 0
+*     north exit from "A Light and Breezy Forest" to
+*     "A Thick Forest" - closed/secret
+*
+D 0 13576 2 5 100 0 0 0
+*     south exit from "A Thick Forest" to
+*     "A Light and Breezy Forest" - closed/secret
+*
+D 0 13514 1 1 100 0 0 0
+*     east exit from "A Light and Breezy Forest" to
+*     "A Light and Breezy Forest" - closed
+*
+D 0 13515 3 9 100 0 0 0
+*     west exit from "A Light and Breezy Forest" to
+*     "A Light and Breezy Forest" - closed/blocked
+*
+D 0 13520 2 5 100 0 0 0
+*     south exit from "A Wolf Lair" to
+*     "A Light and Breezy Forest" - closed/secret
+*
+D 0 13524 0 5 100 0 0 0
+*     north exit from "A Light and Breezy Forest" to
+*     "A Wolf Lair" - closed/secret
+*
+D 0 13527 2 5 100 0 0 0
+*     south exit from "A Light and Breezy Forest" to
+*     "A Red Fox Lair" - closed/secret
+*
+D 0 13533 0 5 100 0 0 0
+*     north exit from "A Red Fox Lair" to
+*     "A Light and Breezy Forest" - closed/secret
+*
+D 0 13577 1 5 100 0 0 0
+*     east exit from "A Thick Forest" to
+*     "A Beautifully Tended Lawn" - closed/secret
+*
+D 0 13578 3 5 100 0 0 0
+*     west exit from "A Beautifully Tended Lawn" to
+*     "A Thick Forest" - closed/secret
+*
+D 0 13586 0 1 100 0 0 0
+*     north exit from "Frontyard of a Small Cottage" to
+*     "Inside the Small Cottage" - closed
+*
+D 0 13587 2 1 100 0 0 0
+*     south exit from "Inside the Small Cottage" to
+*     "Frontyard of a Small Cottage" - closed
+*
+*
+O 0 13500 1 13500 100 0 0 0        * a sign
+O 0 13582 2 13501 100 0 0 0        * a tiny bag of shimmering fairy dust
+O 0 13583 2 13501 100 0 0 0        * a tiny little wand
+O 0 13584 2 13501 100 0 0 0        * a magical yellowbird feather
+O 0 13585 2 13501 100 0 0 0        * a magical redbird feather
+O 0 13586 2 13501 100 0 0 0        * a magical bluebird feather
+O 0 13587 2 13501 100 0 0 0        * a magical greenbird feather
+O 0 13589 2 13501 100 0 0 0        * a tiny little wand
+O 0 13591 2 13501 100 0 0 0        * a tiny little wand
+O 0 13571 21 13503 100 0 0 0       * an arrow
+O 0 13569 29 13504 100 0 0 0       * an arrow
+O 0 13528 21 13509 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13509 100 0 0 0        * a pile of underbrush
+P 1 13570 23 13502 100 0 0 0       *   an arrow
+O 0 13528 21 13510 100 0 0 0       * a pile of leaves
+O 0 13528 21 13511 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+O 0 13569 29 13511 100 0 0 0       * an arrow
+O 0 13502 7 13512 100 0 0 0        * a pile of underbrush
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+P 1 13569 29 13502 100 0 0 0       *   an arrow
+O 0 13528 21 13512 100 0 0 0       * a pile of leaves
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13513 100 0 0 0        * a pile of underbrush
+O 0 13528 21 13513 100 0 0 0       * a pile of leaves
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+O 0 13569 29 13513 100 0 0 0       * an arrow
+O 0 13528 21 13514 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+O 0 13501 1 13515 100 0 0 0        * a pile of underbrush
+O 0 13528 21 13515 100 0 0 0       * a pile of leaves
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+O 0 13569 29 13516 100 0 0 0       * an arrow
+O 0 13528 21 13517 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13570 23 13517 100 0 0 0       * an arrow
+O 0 13569 29 13518 100 0 0 0       * an arrow
+O 0 13528 21 13519 100 0 0 0       * a pile of leaves
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+O 0 13528 21 13521 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13521 100 0 0 0        * a pile of underbrush
+P 1 13530 21 13502 100 0 0 0       *   an arrow
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+P 1 13570 23 13502 100 0 0 0       *   an arrow
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+P 1 13569 29 13502 100 0 0 0       *   an arrow
+O 0 13528 21 13522 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13522 100 0 0 0        * a pile of underbrush
+P 1 13530 21 13502 100 0 0 0       *   an arrow
+P 1 13569 29 13502 100 0 0 0       *   an arrow
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+O 0 13571 21 13522 100 0 0 0       * an arrow
+O 0 13528 21 13523 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13571 21 13523 100 0 0 0       * an arrow
+O 0 13528 21 13524 100 0 0 0       * a pile of leaves
+O 0 13528 21 13525 100 0 0 0       * a pile of leaves
+O 0 13528 21 13526 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13571 21 13526 100 0 0 0       * an arrow
+O 0 13528 21 13527 100 0 0 0       * a pile of leaves
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+O 0 13528 21 13528 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13528 21 13529 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13530 21 13529 100 0 0 0       * an arrow
+O 0 13528 21 13530 100 0 0 0       * a pile of leaves
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13569 29 13530 100 0 0 0       * an arrow
+O 0 13570 23 13530 100 0 0 0       * an arrow
+O 0 13528 21 13531 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13570 23 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13571 21 13528 100 0 0 0       *   an arrow
+P 1 13530 21 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13531 100 0 0 0        * a pile of underbrush
+P 1 13530 21 13502 100 0 0 0       *   an arrow
+P 1 13530 21 13502 100 0 0 0       *   an arrow
+O 0 13569 29 13531 100 0 0 0       * an arrow
+O 0 13528 21 13532 100 0 0 0       * a pile of leaves
+P 1 13569 29 13528 100 0 0 0       *   an arrow
+O 0 13502 7 13532 100 0 0 0        * a pile of underbrush
+P 1 13570 23 13502 100 0 0 0       *   an arrow
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+P 1 13571 21 13502 100 0 0 0       *   an arrow
+P 1 13530 21 13502 100 0 0 0       *   an arrow
+O 0 13569 29 13545 100 0 0 0       * an arrow
+O 0 13570 23 13549 100 0 0 0       * an arrow
+O 0 13529 2 13550 100 0 0 0        * a bird's nest
+P 1 13571 21 13529 100 0 0 0       *   an arrow
+O 0 13529 2 13552 100 0 0 0        * a bird's nest
+P 1 13530 21 13529 100 0 0 0       *   an arrow
+P 1 13569 29 13529 100 0 0 0       *   an arrow
+P 1 13570 23 13529 100 0 0 0       *   an arrow
+O 0 13504 8 13555 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13556 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13557 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13558 100 0 0 0        * a beautiful white marble bench
+O 0 13503 1 13561 100 0 0 0        * the beautiful white marble fountain
+O 0 13504 8 13564 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13565 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13567 100 0 0 0        * a beautiful white marble bench
+O 0 13504 8 13568 100 0 0 0        * a beautiful white marble bench
+O 0 13570 23 13572 100 0 0 0       * an arrow
+O 0 13569 29 13576 100 0 0 0       * an arrow
+O 0 13580 1 13580 100 0 0 0        * A Bubbling Brook
+O 0 13530 21 13582 100 0 0 0       * an arrow
+O 0 13569 29 13582 100 0 0 0       * an arrow
+O 0 13570 23 13582 100 0 0 0       * an arrow
+O 0 13571 21 13582 100 0 0 0       * an arrow
+O 0 13570 23 13584 100 0 0 0       * an arrow
+O 0 13538 2 13585 100 0 0 0        * a carrot
+O 0 13538 2 13585 100 0 0 0        * a carrot
+O 0 13539 1 13585 100 0 0 0        * some lettuce
+O 0 13540 2 13585 100 0 0 0        * a tomato
+O 0 13540 2 13585 100 0 0 0        * a tomato
+O 0 13541 1 13585 100 0 0 0        * some broccoli
+O 0 13542 1 13586 100 0 0 0        * an apple tree
+P 1 13537 7 13542 100 0 0 0        *   an apple
+P 1 13537 7 13542 100 0 0 0        *   an apple
+P 1 13537 7 13542 100 0 0 0        *   an apple
+P 1 13537 7 13542 100 0 0 0        *   an apple
+P 1 13537 7 13542 100 0 0 0        *   an apple
+O 0 13537 7 13586 100 0 0 0        * an apple
+O 0 13537 7 13586 100 0 0 0        * an apple
+O 0 13556 4 13588 100 0 0 0        * a chrysanthemum
+O 0 13564 8 13588 100 0 0 0        * a pansy
+O 0 13567 1 13588 100 0 0 0        * a daisy plant
+O 0 13568 45 13588 100 0 0 0       * a tiny little weed
+O 0 13568 45 13588 100 0 0 0       * a tiny little weed
+O 0 13568 45 13588 100 0 0 0       * a tiny little weed
+O 0 13568 45 13588 100 0 0 0       * a tiny little weed
+O 0 13560 2 13589 100 0 0 0        * an iris
+O 0 13562 2 13589 100 0 0 0        * a sunflower
+O 0 13554 4 13589 100 0 0 0        * a rose
+O 0 13555 1 13589 100 0 0 0        * a rose plant
+O 0 13568 45 13589 100 0 0 0       * a tiny little weed
+O 0 13568 45 13589 100 0 0 0       * a tiny little weed
+O 0 13568 45 13589 100 0 0 0       * a tiny little weed
+O 0 13564 8 13590 100 0 0 0        * a pansy
+O 0 13566 4 13590 100 0 0 0        * a daisy
+O 0 13568 45 13590 100 0 0 0       * a tiny little weed
+O 0 13568 45 13590 100 0 0 0       * a tiny little weed
+O 0 13568 45 13590 100 0 0 0       * a tiny little weed
+O 0 13568 45 13590 100 0 0 0       * a tiny little weed
+O 0 13564 8 13591 100 0 0 0        * a pansy
+O 0 13556 4 13591 100 0 0 0        * a chrysanthemum
+O 0 13568 45 13591 100 0 0 0       * a tiny little weed
+O 0 13568 45 13591 100 0 0 0       * a tiny little weed
+O 0 13568 45 13591 100 0 0 0       * a tiny little weed
+O 0 13568 45 13591 100 0 0 0       * a tiny little weed
+O 0 13554 4 13592 100 0 0 0        * a rose
+O 0 13552 4 13592 100 0 0 0        * an orchid
+O 0 13558 2 13592 100 0 0 0        * a tulip
+O 0 13563 1 13592 100 0 0 0        * a sunflower sprout
+O 0 13568 45 13592 100 0 0 0       * a tiny little weed
+O 0 13568 45 13592 100 0 0 0       * a tiny little weed
+O 0 13568 45 13592 100 0 0 0       * a tiny little weed
+O 0 13568 45 13592 100 0 0 0       * a tiny little weed
+O 0 13564 8 13593 100 0 0 0        * a pansy
+O 0 13566 4 13593 100 0 0 0        * a daisy
+O 0 13553 1 13593 100 0 0 0        * an orchid sprig
+O 0 13568 45 13593 100 0 0 0       * a tiny little weed
+O 0 13568 45 13593 100 0 0 0       * a tiny little weed
+O 0 13568 45 13593 100 0 0 0       * a tiny little weed
+O 0 13568 45 13593 100 0 0 0       * a tiny little weed
+O 0 13566 4 13594 100 0 0 0        * a daisy
+O 0 13564 8 13594 100 0 0 0        * a pansy
+O 0 13568 45 13594 100 0 0 0       * a tiny little weed
+O 0 13568 45 13594 100 0 0 0       * a tiny little weed
+O 0 13568 45 13594 100 0 0 0       * a tiny little weed
+O 0 13560 2 13595 100 0 0 0        * an iris
+O 0 13562 2 13595 100 0 0 0        * a sunflower
+O 0 13554 4 13595 100 0 0 0        * a rose
+O 0 13568 45 13595 100 0 0 0       * a tiny little weed
+O 0 13568 45 13595 100 0 0 0       * a tiny little weed
+O 0 13568 45 13595 100 0 0 0       * a tiny little weed
+O 0 13568 45 13595 100 0 0 0       * a tiny little weed
+O 0 13564 8 13596 100 0 0 0        * a pansy
+O 0 13556 4 13596 100 0 0 0        * a chrysanthemum
+O 0 13561 1 13596 100 0 0 0        * an iris bulb
+O 0 13557 1 13596 100 0 0 0        * a chrysanthemum plant
+O 0 13568 45 13596 100 0 0 0       * a tiny little weed
+O 0 13568 45 13596 100 0 0 0       * a tiny little weed
+O 0 13568 45 13596 100 0 0 0       * a tiny little weed
+O 0 13568 45 13596 100 0 0 0       * a tiny little weed
+O 0 13564 8 13597 100 0 0 0        * a pansy
+O 0 13556 4 13597 100 0 0 0        * a chrysanthemum
+O 0 13559 1 13597 100 0 0 0        * a tulip bulb
+O 0 13568 45 13597 100 0 0 0       * a tiny little weed
+O 0 13568 45 13597 100 0 0 0       * a tiny little weed
+O 0 13568 45 13597 100 0 0 0       * a tiny little weed
+O 0 13568 45 13597 100 0 0 0       * a tiny little weed
+O 0 13552 4 13598 100 0 0 0        * an orchid
+O 0 13558 2 13598 100 0 0 0        * a tulip
+O 0 13554 4 13598 100 0 0 0        * a rose
+O 0 13565 1 13598 100 0 0 0        * a pansy seedling
+O 0 13568 45 13598 100 0 0 0       * a tiny little weed
+O 0 13568 45 13598 100 0 0 0       * a tiny little weed
+O 0 13568 45 13598 100 0 0 0       * a tiny little weed
+O 0 13568 45 13598 100 0 0 0       * a tiny little weed
+O 0 13566 4 13599 100 0 0 0        * a daisy
+O 0 13564 8 13599 100 0 0 0        * a pansy
+O 0 13568 45 13599 100 0 0 0       * a tiny little weed
+O 0 13568 45 13599 100 0 0 0       * a tiny little weed
+O 0 13568 45 13599 100 0 0 0       * a tiny little weed
+*
+M 0 13521 4 13502 100 0 0 0        * a mischievous looking pixie
+E 1 13593 4 5 100 0 0 0            *   a jacket made of woven leaves
+E 1 13594 4 16 100 0 0 0           *   a large pointy thorn
+G 1 13582 2 0 100 0 0 0            *    a tiny bag of shimmering fairy dust
+M 0 13521 4 13502 100 0 0 0        * a mischievous looking pixie
+E 1 13593 4 5 100 0 0 0            *   a jacket made of woven leaves
+E 1 13594 4 16 100 0 0 0           *   a large pointy thorn
+G 1 13583 2 0 100 0 0 0            *    a tiny little wand
+M 0 13521 4 13502 100 0 0 0        * a mischievous looking pixie
+E 1 13593 4 5 100 0 0 0            *   a jacket made of woven leaves
+E 1 13594 4 16 100 0 0 0           *   a large pointy thorn
+G 1 13589 2 0 100 0 0 0            *    a tiny little wand
+M 0 13522 1 13502 100 0 0 0        * a magical yellowbird
+G 1 13584 2 0 100 0 0 0            *    a magical yellowbird feather
+M 0 13523 1 13502 100 0 0 0        * a magical redbird
+G 1 13585 2 0 100 0 0 0            *    a magical redbird feather
+M 0 13524 1 13502 100 0 0 0        * a magical bluebird
+G 1 13586 2 0 100 0 0 0            *    a magical bluebird feather
+M 0 13525 1 13502 100 0 0 0        * a magical greenbird
+G 1 13587 2 0 100 0 0 0            *    a magical greenbird feather
+M 0 13521 4 13502 100 0 0 0        * a mischievous looking pixie
+E 1 13593 4 5 100 0 0 0            *   a jacket made of woven leaves
+E 1 13594 4 16 100 0 0 0           *   a large pointy thorn
+G 1 13591 2 0 100 0 0 0            *    a tiny little wand
+M 0 13507 8 13504 100 0 0 0        * a tiny brown squirrel
+M 0 13507 8 13506 100 0 0 0        * a tiny brown squirrel
+M 0 13512 6 13507 100 0 0 0        * a tiny little chipmunk
+M 0 13510 6 13508 100 0 0 0        * a red-breasted robin
+M 0 13513 3 13509 100 0 0 0        * a raccoon
+M 0 13511 4 13510 100 0 0 0        * a little white bunny rabbit
+M 0 13520 1 13512 100 0 0 0        * a beautiful sprite
+E 1 13592 1 5 100 0 0 0            *   a diaphonous gown
+M 0 13518 3 13513 100 0 0 0        * a rattlesnake
+M 0 13513 3 13515 100 0 0 0        * a raccoon
+M 0 13512 6 13517 100 0 0 0        * a tiny little chipmunk
+M 0 13507 8 13518 100 0 0 0        * a tiny brown squirrel
+M 0 13511 4 13519 100 0 0 0        * a little white bunny rabbit
+M 0 13508 1 13520 100 0 0 0        * a mother wolf
+M 0 13509 4 13520 100 0 0 0        * a wolf pup
+M 0 13509 4 13520 100 0 0 0        * a wolf pup
+M 0 13509 4 13520 100 0 0 0        * a wolf pup
+M 0 13509 4 13520 100 0 0 0        * a wolf pup
+M 0 13507 8 13521 100 0 0 0        * a tiny brown squirrel
+M 0 13507 8 13522 100 0 0 0        * a tiny brown squirrel
+M 0 13513 3 13524 100 0 0 0        * a raccoon
+M 0 13514 1 13525 100 0 0 0        * a little skunk
+M 0 13510 6 13526 100 0 0 0        * a red-breasted robin
+M 0 13518 3 13528 100 0 0 0        * a rattlesnake
+M 0 13511 4 13529 100 0 0 0        * a little white bunny rabbit
+M 0 13516 2 13530 100 0 0 0        * a beautiful deer
+M 0 13518 3 13531 100 0 0 0        * a rattlesnake
+M 0 13510 6 13532 100 0 0 0        * a red-breasted robin
+M 0 13505 1 13533 100 0 0 0        * a mother fox
+M 0 13506 3 13533 100 0 0 0        * a red fox pup
+M 0 13506 3 13533 100 0 0 0        * a red fox pup
+M 0 13506 3 13533 100 0 0 0        * a red fox pup
+M 0 13507 8 13536 100 0 0 0        * a tiny brown squirrel
+M 0 13512 6 13538 100 0 0 0        * a tiny little chipmunk
+M 0 13507 8 13539 100 0 0 0        * a tiny brown squirrel
+M 0 13519 2 13541 100 0 0 0        * a bluejay
+M 0 13507 8 13543 100 0 0 0        * a tiny brown squirrel
+M 0 13512 6 13544 100 0 0 0        * a tiny little chipmunk
+M 0 13510 6 13546 100 0 0 0        * a red-breasted robin
+M 0 13512 6 13549 100 0 0 0        * a tiny little chipmunk
+M 0 13510 6 13550 100 0 0 0        * a red-breasted robin
+M 0 13519 2 13552 100 0 0 0        * a bluejay
+M 0 13504 1 13556 100 0 0 0        * a gardener
+E 1 13521 10 13 100 0 0 0          *   a gardner's belt
+M 0 13510 6 13572 100 0 0 0        * a red-breasted robin
+M 0 13501 1 13573 100 0 0 0        * Farlindel the archer
+E 1 13573 2 5 100 0 0 0            *   a buckskin jacket lined with fur
+E 1 13578 2 6 100 0 0 0            *   a raccoon cap
+E 1 13575 1 7 100 0 0 0            *   some doeskin pants
+E 1 13576 2 13 100 0 0 0           *   a snakeskin belt
+M 0 13502 1 13573 100 0 0 0        * Hanson the archer
+M 0 13516 2 13575 100 0 0 0        * a beautiful deer
+M 0 13512 6 13576 100 0 0 0        * a tiny little chipmunk
+M 0 13517 1 13580 100 0 0 0        * a graceful doe
+M 0 13511 4 13583 100 0 0 0        * a little white bunny rabbit
+M 0 13515 1 13584 100 0 0 0        * a magnificent buck
+M 0 13500 1 13586 100 0 0 0        * a farmer
+E 1 13573 2 5 100 0 0 0            *   a buckskin jacket lined with fur
+E 1 13578 2 6 100 0 0 0            *   a raccoon cap
+E 1 13574 1 8 100 0 0 0            *   some furlined deerskin boots
+E 1 13577 1 12 100 0 0 0           *   a fox fur cape
+E 1 13576 2 13 100 0 0 0           *   a snakeskin belt
+M 0 13503 1 13587 100 0 0 0        * a woman
+*
+S

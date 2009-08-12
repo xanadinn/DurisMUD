@@ -1,0 +1,331 @@
+#989
+&+LRuined T&+bemple&+L of &+rT&+Rez&+rca&+Rtl&+rip&+Ro&+rca&n~
+98999 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 98902 1 1 100 0 0 0
+*     east exit from "End of a Dark and Narrow Hallway" to
+*     "Entrance to a Private Chapel of an Ancient God" - closed
+*
+D 0 98903 3 1 100 0 0 0
+*     west exit from "Entrance to a Private Chapel of an Ancient God" to
+*     "End of a Dark and Narrow Hallway" - closed
+*
+D 0 98902 3 1 100 0 0 0
+*     west exit from "End of a Dark and Narrow Hallway" to
+*     "Entrance to a Ruined Chapel of an Ancient God" - closed
+*
+D 0 98926 1 1 100 0 0 0
+*     east exit from "Entrance to a Ruined Chapel of an Ancient God" to
+*     "End of a Dark and Narrow Hallway" - closed
+*
+D 0 98904 0 2 100 0 0 0
+*     north exit from "A Ruined Private Chapel to an Ancient God" to
+*     "The High Priest's Office" - closed/locked
+*
+D 0 98937 2 2 100 0 0 0
+*     south exit from "The High Priest's Office" to
+*     "A Ruined Private Chapel to an Ancient God" - closed/locked
+*
+D 0 98922 5 6 100 0 0 0
+*     down exit from "Sacrificial Altar Room of the Ancient God" to
+*     "Catacombs Beneath a Ruined Temple" - closed/locked/secret
+*
+D 0 98939 4 6 100 0 0 0
+*     up exit from "Catacombs Beneath a Ruined Temple" to
+*     "Sacrificial Altar Room of the Ancient God" - closed/locked/secret
+*
+D 0 98937 1 2 100 0 0 0
+*     east exit from "The High Priest's Office" to
+*     "The High Priest's Bedroom" - closed/locked
+*
+D 0 98938 3 2 100 0 0 0
+*     west exit from "The High Priest's Bedroom" to
+*     "The High Priest's Office" - closed/locked
+*
+D 0 98943 1 5 100 0 0 0
+*     east exit from "Catacombs Beneath a Ruined Temple" to
+*     "Secret Chamber Beneath a Ruined Temple" - closed/secret
+*
+D 0 98944 3 5 100 0 0 0
+*     west exit from "Secret Chamber Beneath a Ruined Temple" to
+*     "Catacombs Beneath a Ruined Temple" - closed/secret
+*
+D 0 98957 0 1 100 0 0 0
+*     north exit from "Catacombs Beneath a Ruined Temple" to
+*     "Catacombs Beneath a Ruined Temple" - closed
+*
+D 0 98962 2 1 100 0 0 0
+*     south exit from "Catacombs Beneath a Ruined Temple" to
+*     "Catacombs Beneath a Ruined Temple" - closed
+*
+*
+O 0 98900 1 98922 100 0 0 0        * a sacrificial altar
+O 0 98929 1 98922 100 0 0 0        * a corpse of a troll
+P 1 98930 1 98929 100 0 0 0        *   a soulstone scabbard
+P 1 98953 1 98929 100 0 0 0        *   a well crafted backpack
+O 0 98931 1 98937 100 0 0 0        * an obsidian desk
+P 1 98932 1 98931 100 0 0 0        *   a cobra skull badge
+O 0 98920 1 98938 100 0 0 0        * a rather large iron box
+P 1 98921 1 98920 100 0 0 0        *   an ancient grimore
+O 0 98917 1 98944 100 0 0 0        * an obsidian coffin
+P 1 98923 2 98917 100 0 0 0        *   a potion of swirling mist
+P 1 98923 2 98917 100 0 0 0        *   a potion of swirling mist
+O 0 55273 1 98974 50 0 0 0         * (object type not in this .obj file)
+O 0 359 1 98999 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 98921 4 98902 100 0 0 0        * a blood rat
+M 0 98921 4 98902 100 0 0 0        * a blood rat
+M 0 98921 4 98902 100 0 0 0        * a blood rat
+M 0 98916 2 98903 100 0 0 0        * a zombie priestess
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+F 1 98915 1 98903 100 0 0 0        * a zombie priestess (following)
+E 1 98902 5 5 100 0 0 0            *   a frayed black robe
+F 1 98914 1 98903 100 0 0 0        * a zombie priest (following)
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+F 1 98919 5 98903 100 0 0 0        * a Tezcazul (following)
+F 1 98920 5 98903 100 0 0 0        * a Tezcazul (following)
+M 0 98925 1 98904 100 0 0 0        * a zombie priestess
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+G 1 98913 1 0 100 0 0 0            *    a stone key
+F 1 98924 1 98904 100 0 0 0        * a zombie priest (following)
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+F 1 98928 1 98904 100 0 0 0        * a Tezcazul (following)
+F 1 98926 1 98904 100 0 0 0        * a Blodzul (following)
+F 1 98927 2 98904 100 0 0 0        * a Blodzul (following)
+M 0 98933 3 98905 100 0 0 0        * a zombie cultist
+M 0 98944 2 98906 100 0 0 0        * a vampire worshipper
+M 0 98920 5 98907 100 0 0 0        * a Tezcazul
+M 0 98919 5 98907 100 0 0 0        * a Tezcazul
+M 0 98936 3 98908 100 0 0 0        * a zombie cultist
+E 1 98902 5 5 100 0 0 0            *   a frayed black robe
+M 0 98944 2 98908 100 0 0 0        * a vampire worshipper
+M 0 98956 1 98908 100 0 0 0        * a death fiend
+E 1 98949 2 3 100 0 0 0            *   a necklace of halfling ears
+M 0 98933 3 98909 100 0 0 0        * a zombie cultist
+M 0 98957 2 98909 100 0 0 0        * a death fiend
+M 0 98916 2 98910 100 0 0 0        * a zombie priestess
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+F 1 98929 1 98910 100 0 0 0        * a Tezcazul (following)
+F 1 98930 1 98910 100 0 0 0        * a Tezcazul (following)
+M 0 98927 2 98911 100 0 0 0        * a Blodzul
+M 0 98920 5 98911 100 0 0 0        * a Tezcazul
+M 0 98919 5 98911 100 0 0 0        * a Tezcazul
+M 0 98950 2 98912 100 0 0 0        * a death fiend
+M 0 98909 3 98913 100 0 0 0        * a Blodzul
+M 0 98917 3 98914 100 0 0 0        * a zombie worshipper
+M 0 98943 3 98914 100 0 0 0        * a zombie worshipper
+M 0 98910 2 98915 100 0 0 0        * a Blodzul
+M 0 98917 3 98915 100 0 0 0        * a zombie worshipper
+M 0 98918 4 98915 100 0 0 0        * a zombie worshipper
+M 0 98909 3 98916 100 0 0 0        * a Blodzul
+M 0 98933 3 98917 100 0 0 0        * a zombie cultist
+M 0 98918 4 98918 100 0 0 0        * a zombie worshipper
+M 0 98943 3 98918 100 0 0 0        * a zombie worshipper
+M 0 98951 2 98919 100 0 0 0        * a death fiend
+M 0 98943 3 98921 100 0 0 0        * a zombie worshipper
+M 0 98913 1 98922 100 0 0 0        * a zombie priest
+E 1 98902 5 5 100 0 0 0            *   a frayed black robe
+G 1 98915 1 0 100 0 0 0            *    a bloody key
+F 1 98919 5 98922 100 0 0 0        * a Tezcazul (following)
+F 1 98920 5 98922 100 0 0 0        * a Tezcazul (following)
+E 1 98927 1 27 100 0 0 0           *   a cobra scale shield
+G 1 98928 1 0 100 0 0 0            *    a bloody sacrificial dagger
+F 1 98917 3 98922 100 0 0 0        * a zombie worshipper (following)
+F 1 98918 4 98922 100 0 0 0        * a zombie worshipper (following)
+M 0 98921 4 98923 100 0 0 0        * a blood rat
+M 0 98936 3 98923 100 0 0 0        * a zombie cultist
+E 1 98902 5 5 100 0 0 0            *   a frayed black robe
+M 0 98918 4 98924 100 0 0 0        * a zombie worshipper
+M 0 98912 2 98925 100 0 0 0        * a Blodzul
+M 0 98957 2 98925 100 0 0 0        * a death fiend
+M 0 98952 2 98927 100 0 0 0        * a death fiend
+M 0 98920 5 98928 100 0 0 0        * a Tezcazul
+F 1 98919 5 98928 100 0 0 0        * a Tezcazul (following)
+M 0 98911 2 98929 100 0 0 0        * a Blodzul
+M 0 98952 2 98930 100 0 0 0        * a death fiend
+M 0 98951 2 98931 100 0 0 0        * a death fiend
+M 0 98909 3 98932 100 0 0 0        * a Blodzul
+M 0 98910 2 98932 100 0 0 0        * a Blodzul
+M 0 98911 2 98932 100 0 0 0        * a Blodzul
+M 0 98912 2 98932 100 0 0 0        * a Blodzul
+M 0 98950 2 98933 100 0 0 0        * a death fiend
+M 0 98949 2 98934 100 0 0 0        * a death fiend
+M 0 98936 3 98935 100 0 0 0        * a zombie cultist
+E 1 98902 5 5 100 0 0 0            *   a frayed black robe
+M 0 98949 2 98936 100 0 0 0        * a death fiend
+M 0 98923 1 98937 100 0 0 0        * Arkturas The Ancient Blood Priest
+E 1 98908 1 2 100 0 0 0            *   a blodzul soul ring
+E 1 98909 1 3 100 0 0 0            *   a soulstone amulet
+E 1 98905 1 5 100 0 0 0            *   some unholy robes of Tezcatlipoca
+E 1 98906 1 8 100 0 0 0            *   some cobra scale boots
+G 1 98907 1 0 100 0 0 0            *    a bloody flanged mace
+G 1 98912 1 0 100 0 0 0            *    a bone key
+F 1 98937 1 98937 100 0 0 0        * a Tezcazul (following)
+F 1 98938 1 98937 100 0 0 0        * a Blodzul (following)
+E 1 98924 1 7 100 0 0 0            *   some soulstone leggings
+M 0 98939 5 98939 100 0 0 0        * a blood rat
+M 0 98945 1 98939 100 0 0 0        * a zombie cultist
+M 0 98939 5 98940 100 0 0 0        * a blood rat
+M 0 98941 1 98940 100 0 0 0        * a shadow cultist
+E 1 98926 1 3 100 0 0 0            *   a spiked soulstone collar
+M 0 98939 5 98941 100 0 0 0        * a blood rat
+M 0 98935 3 98942 100 0 0 0        * a vampire cultist
+E 1 98925 1 21 100 0 0 0           *   a zanthium ear stud
+M 0 98939 5 98942 100 0 0 0        * a blood rat
+M 0 98939 5 98943 100 0 0 0        * a blood rat
+M 0 98940 1 98944 100 0 0 0        * Vargher, The Shadow Spawn of Muinroht
+E 1 98919 1 13 100 0 0 0           *   a zanthium belt
+E 1 98960 1 15 100 0 0 0           *   a brimstone bracelet
+E 1 98922 1 27 100 0 0 0           *   a soulstone claymore
+E 1 98918 1 28 100 0 0 0           *   an obsidian key
+M 0 98935 3 98944 100 0 0 0        * a vampire cultist
+M 0 98935 3 98944 100 0 0 0        * a vampire cultist
+M 0 98980 5 98945 100 0 0 0        * a tortured soul
+M 0 98948 2 98946 100 0 0 0        * a death fiend
+M 0 98931 1 98947 100 0 0 0        * a shadow cultist
+E 1 98916 1 6 100 0 0 0            *   a soulstone helm
+F 1 98932 1 98947 100 0 0 0        * a shadow priestess (following)
+E 1 98903 6 5 100 0 0 0            *   a bloody black hooded robe
+M 0 98900 1 98949 100 0 0 0        * a Night Crawler
+G 1 67280 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 98901 1 98949 100 0 0 0        * a Night Crawler (following)
+E 1 98954 1 20 100 0 0 0           *   the mask of Darkness
+F 1 98902 1 98949 100 0 0 0        * a Night Crawler (following)
+F 1 98903 1 98949 100 0 0 0        * a Night Crawler (following)
+F 1 98904 1 98949 100 0 0 0        * a Night Crawler (following)
+E 1 98914 2 16 100 0 0 0           *   a bloody talon of a night crawler
+E 1 98914 2 17 100 0 0 0           *   a bloody talon of a night crawler
+F 1 98905 1 98949 100 0 0 0        * a Night Crawler (following)
+F 1 98906 1 98949 100 0 0 0        * a Night Crawler (following)
+F 1 98907 1 98949 100 0 0 0        * a Night Crawler (following)
+F 1 98908 1 98949 100 0 0 0        * a Night Crawler (following)
+M 0 98968 3 98950 100 0 0 0        * a lost soul
+M 0 98947 3 98951 100 0 0 0        * a death fiend
+M 0 98972 4 98952 100 0 0 0        * a death stalker
+M 0 98968 3 98953 100 0 0 0        * a lost soul
+M 0 98947 3 98954 100 0 0 0        * a death fiend
+M 0 98973 4 98954 100 0 0 0        * a death stalker
+M 0 98964 2 98955 100 0 0 0        * a vampire priest
+M 0 98948 2 98956 100 0 0 0        * a death fiend
+M 0 98971 4 98956 100 0 0 0        * a death stalker
+M 0 98963 3 98957 100 0 0 0        * a death fiend
+E 1 98949 2 3 100 0 0 0            *   a necklace of halfling ears
+M 0 98966 4 98958 100 0 0 0        * a lost soul
+G 1 98955 5 0 100 0 0 0            *    a chipped soulstone dagger
+M 0 98942 1 98959 100 0 0 0        * a shadow reaper
+E 1 98933 1 5 100 0 0 0            *   a robe of tattered souls
+G 1 98934 1 0 100 0 0 0            *    a totem of shadows
+M 0 98967 3 98960 100 0 0 0        * a lost soul
+M 0 98953 2 98962 100 0 0 0        * a death fiend
+M 0 98954 2 98962 100 0 0 0        * a vampire cultist
+M 0 98974 3 98962 100 0 0 0        * a Tezcazul
+M 0 98975 4 98962 100 0 0 0        * a Tezcazul
+M 0 98969 4 98963 100 0 0 0        * a vampire cultist
+M 0 98946 2 98963 100 0 0 0        * a vampire worshipper
+E 1 98936 1 19 100 0 0 0           *   a soulstone visor
+M 0 98955 3 98964 100 0 0 0        * a vampire cultist
+M 0 98976 4 98964 100 0 0 0        * a Tezcazul
+M 0 98959 1 98974 100 0 0 0        * Bard Faust, The Lord of Darkness
+E 1 98943 1 3 100 0 0 0            *   a spiked zanthium collar
+E 1 98941 1 5 100 0 0 0            *   the armor of Darkness
+E 1 98952 1 8 100 0 0 0            *   some boots of dread
+E 1 98945 1 9 100 0 0 0            *   some spiked zanthium gloves
+E 1 98944 1 15 100 0 0 0           *   a spiked zanthium bracer
+G 1 98940 1 0 100 0 0 0            *    an onyx potion
+F 1 98960 1 98974 100 0 0 0        * Vorphalack, The Consumer of Souls (following)
+E 1 98950 2 2 100 0 0 0            *   a spiked ring
+E 1 98951 1 19 100 0 0 0           *   a dreadveil visor
+E 1 98937 1 20 100 0 0 0           *   a mask of lost souls
+F 1 98961 1 98974 100 0 0 0        * Diabolus, The Dragon of Darkness (following)
+G 1 98942 1 0 100 0 0 0            *    the black opal Eye of Diabolus
+G 1 98959 1 0 100 0 0 0            *    a scale of pulsating darkness
+G 1 20255 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 98962 2 98974 100 0 0 0        * a vampire priest (following)
+E 1 98956 1 8 100 0 0 0            *   a pair of faded skullstone boots
+F 1 98966 4 98974 100 0 0 0        * a lost soul (following)
+G 1 98955 5 0 100 0 0 0            *    a chipped soulstone dagger
+F 1 98969 4 98974 100 0 0 0        * a vampire cultist (following)
+F 1 98970 4 98974 100 0 0 0        * a death stalker (following)
+E 1 98961 1 21 100 0 0 0           *   a pulsating gemstone earring
+F 1 98971 4 98974 100 0 0 0        * a death stalker (following)
+F 1 98972 4 98974 100 0 0 0        * a death stalker (following)
+E 1 98950 2 2 100 0 0 0            *   a spiked ring
+F 1 98973 4 98974 100 0 0 0        * a death stalker (following)
+M 0 98947 3 98975 100 0 0 0        * a death fiend
+M 0 98978 5 98975 100 0 0 0        * a tortured soul
+M 0 98980 5 98975 100 0 0 0        * a tortured soul
+M 0 98964 2 98976 100 0 0 0        * a vampire priest
+M 0 98977 4 98976 100 0 0 0        * a Tezcazul
+M 0 98966 4 98977 100 0 0 0        * a lost soul
+G 1 98955 5 0 100 0 0 0            *    a chipped soulstone dagger
+M 0 98969 4 98978 100 0 0 0        * a vampire cultist
+M 0 98978 5 98978 100 0 0 0        * a tortured soul
+M 0 98954 2 98979 100 0 0 0        * a vampire cultist
+M 0 98973 4 98979 100 0 0 0        * a death stalker
+M 0 98967 3 98980 100 0 0 0        * a lost soul
+M 0 98965 2 98981 100 0 0 0        * a vampire priest
+M 0 98979 5 98981 100 0 0 0        * a tortured soul
+M 0 98965 2 98982 100 0 0 0        * a vampire priest
+M 0 98974 3 98982 100 0 0 0        * a Tezcazul
+M 0 98975 4 98982 100 0 0 0        * a Tezcazul
+M 0 98967 3 98983 100 0 0 0        * a lost soul
+M 0 98976 4 98983 100 0 0 0        * a Tezcazul
+M 0 98977 4 98983 100 0 0 0        * a Tezcazul
+M 0 98978 5 98983 100 0 0 0        * a tortured soul
+M 0 98962 2 98984 100 0 0 0        * a vampire priest
+M 0 98946 2 98984 100 0 0 0        * a vampire worshipper
+M 0 98922 1 98985 100 0 0 0        * Raism Blood Devil of Arkturas
+E 1 98910 1 5 100 0 0 0            *   a spiked suit of fluted dragonscale
+E 1 98963 1 10 100 0 0 0           *   a pair of faded skullstone sleeves
+E 1 98957 1 23 100 0 0 0           *   a faded dragonscale quiver
+E 1 98911 1 27 100 0 0 0           *   a huge zanthium broad sword
+F 1 98934 1 98985 100 0 0 0        * a vampire cultist (following)
+M 0 98966 4 98986 100 0 0 0        * a lost soul
+G 1 98955 5 0 100 0 0 0            *    a chipped soulstone dagger
+M 0 98972 4 98986 100 0 0 0        * a death stalker
+M 0 98970 4 98987 100 0 0 0        * a death stalker
+M 0 98979 5 98987 100 0 0 0        * a tortured soul
+M 0 98971 4 98988 100 0 0 0        * a death stalker
+M 0 98981 1 98989 100 0 0 0        * Verethorn, Greater Daemon of Tezcatlipoca
+E 1 98958 1 10 100 0 0 0           *   some sleeves bearing the seal of Verethorn
+E 1 98901 1 16 80 0 0 0            *   a blood dagger of Tezcatlipoca
+M 0 98970 4 98989 100 0 0 0        * a death stalker
+M 0 98979 5 98989 100 0 0 0        * a tortured soul
+M 0 98974 3 98989 100 0 0 0        * a Tezcazul
+M 0 98969 4 98990 100 0 0 0        * a vampire cultist
+M 0 98976 4 98990 100 0 0 0        * a Tezcazul
+M 0 98979 5 98990 100 0 0 0        * a tortured soul
+M 0 98963 3 98991 100 0 0 0        * a death fiend
+M 0 98977 4 98991 100 0 0 0        * a Tezcazul
+M 0 98953 2 98992 100 0 0 0        * a death fiend
+M 0 98975 4 98992 100 0 0 0        * a Tezcazul
+M 0 98978 5 98992 100 0 0 0        * a tortured soul
+M 0 98955 3 98993 100 0 0 0        * a vampire cultist
+M 0 98980 5 98993 100 0 0 0        * a tortured soul
+M 0 98963 3 98994 100 0 0 0        * a death fiend
+M 0 98973 4 98994 100 0 0 0        * a death stalker
+M 0 98955 3 98995 100 0 0 0        * a vampire cultist
+M 0 98972 4 98995 100 0 0 0        * a death stalker
+M 0 98977 4 98995 100 0 0 0        * a Tezcazul
+M 0 98980 5 98995 100 0 0 0        * a tortured soul
+M 0 98968 3 98996 100 0 0 0        * a lost soul
+M 0 98976 4 98996 100 0 0 0        * a Tezcazul
+M 0 98970 4 98997 100 0 0 0        * a death stalker
+M 0 98975 4 98997 100 0 0 0        * a Tezcazul
+M 0 98978 5 98997 100 0 0 0        * a tortured soul
+M 0 98971 4 98998 100 0 0 0        * a death stalker
+M 0 98979 5 98998 100 0 0 0        * a tortured soul
+M 0 98958 1 98999 100 0 0 0        * Taurtheim, The Thrice Damned
+E 1 98935 1 5 100 0 0 0            *   a black hooded robe
+E 1 98962 1 20 100 0 0 0           *   a mask of shadows
+E 1 98947 1 21 100 0 0 0           *   an emerald nose ring
+E 1 98948 1 37 100 0 0 0           *   a Karthian tail spike
+E 1 98946 1 40 100 0 0 0           *   a bloody cloth
+G 1 98938 1 0 100 0 0 0            *    a dagger of twisted souls
+G 1 98939 1 0 100 0 0 0            *    a glowing azure potion
+M 0 98980 5 98999 100 0 0 0        * a tortured soul
+*
+S

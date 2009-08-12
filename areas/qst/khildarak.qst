@@ -1,0 +1,116 @@
+#17059
+M
+khildarak hammer enchantress bone mine~
+A look of pride comes over the clan elders face at the mention of Khildarak
+and his hammer. "I fought side by side with Khildarak in many battles, a
+fierce warrior was he. I have seen with my own eyes the wonderment that his
+hammer created, it seemed to make him invinceable. The mines in which he was
+killed are rumored to be below the stronghold somewhere. The duergar that
+know where the entrance to these mines is located are tight lipped indeed,
+as the ones that have entered them have never returned. Most think that the
+mines are now inaccesible due to the great cave in. The excitment for the
+hunt of the bone that unlocks the case of the hammer has faded with time.
+The last I heard the only living duergar to speak of the mines was a member
+of clan Spore Seeder. I can tell you no more."
+~
+S
+#17118
+M
+mine mines entrance~
+The duergars attention snaps to you at the mention of the mine entrance.
+"You seek the mine entrance? Have you not heard that those that have found
+it and entered have never returned? I do not know where the entrance is but
+I might know someone that can set you in the right direction. It seems my
+memory has faded, maybe if you retrieve an item for me it might help me
+remember just who it is you seek."
+~
+M
+item retrieve retreive~
+The duergars eyes light up as she speaks. "I am working on a very special
+recipe that requires an item I am not able to obtain myself. Bring me the
+egg sack of a steeder and I shall give you all the information I have on
+the lost mine entrance. I will even give you a small sum for your trouble."
+
+The duergar turns away again devoting her attention to her craft.
+~
+Q
+The young female duergar bounces around the room excitedly. "A steeders egg
+sack!! Now I can make that special recipe for the elder and gain favor over
+my favored sister. Here is the pay I promised you. As for the lost mine
+information, I was relaxing one day in the house of Clan Potent Brew and
+overheard a drunken clansdwarf bragging that he knew the location of the
+entrance to the lost mine. I know not his name but he bore the tatoo of a
+large eye enclosed in a circle on his forehead. That is all I know. I must
+go now and prepare my special recipe for the elder!"
+
+The young duergar quickly turns and continues her work.
+~
+R C 5000
+G I 17074
+S
+#17248
+M
+bones bone mine~
+The Kuo-Tao priest looks puzzled and thinks for a few moments. "I have found
+some old mine tunnels on my way to this place, they appear to have once been
+above the water, but now are submerged. There was one area in particular that
+had many bones lying about the bottom. I could not determine the race of the
+creatures that the bones belonged to and indeed did take a small piece of a
+bone in hopes one of the more experienced member of my tribe may be able to
+tell. Your interest in my piece of bone suprises me, as it seems very common
+and ordinary to me. I would be willing to part with the bone if you will do
+a task that would aid me and my commorades."
+~
+M
+hello hi greetings~
+The Kuo-Tao priest looks relieved at your words. "Greetings strange looking
+being. I was so affraid that you were not friendly, having to fight in this
+cramped cavern would only add more grief to our already grief filled journey.
+We have been trapped here for a long time, unable to return to our village."
+~
+M
+journey trapped~
+The Kuo-Tao priest lets a small sigh escape from its huge fish mouth. "We left
+our village some time ago on a small expedition of exploration. We encountered
+a cavern full of giant Kraken and had to flee past them as they had blocked
+the way we had came. We then encountered a small tribe of ixitxachitl and chose
+to fight on through their home tunnels rather than go back and face the kraken.
+When we found this small cavern we were near death, we have been here ever
+since trying to think of a way to get back to our village."
+~
+M
+kraken krakens~
+The Kuo-Tao priest nods his head slightly. "We found this giant cavern we
+thought to be previously undiscovered. In our excitement we entered the
+cavern without first scouting it for safety. The kraken attacked quickly,
+I believe there were two of them, I cannot be sure. We were caught near the
+opposite wall that we had entered and were forced to flee in this direction.
+Be very carefull when exploring this area."
+~
+M
+task~
+The Kuo-Tao priest lowers his head slightly as he speaks. "I am affraid the
+task I require is a great one, the prize of this small piece of bone is hardly
+worthy of the greatness that would be required to complete it. However, our
+situation is desparate, as we long to be home in our village. We can make it
+through the ixitxachitls on our own, but would be weakened severly by the
+time we reach the cavern of the krakens. The risk of trying to swim quickly
+across the cavern to the exit that will take us back to our village is to
+great. If you can find a way to destroy the krakens and allow us to go home
+I will gladly give you the piece of bone you requested. Bring me proof that
+the krakens have indeed been killed and the bone shall be yours. We have
+blocked the tunnel that leads to the kraken cavern with a large rock, you
+must shove this rock out of the way to unblock the passage to the cavern.
+May your gods be with you, I hope to see you again."
+~
+Q
+The Kuo-Tao priest looks at you in amazement and says "You have killed the
+Krakens! Now we can finally get back to our village, for this we are most
+gratefull. Here is the object I promised you, though I do not understand
+why you would want such an ordinary object in return for a great deed. It
+has been an honor to deal with a creature such as yourself. May the gods
+look upon thee in favor on all your adventures."
+~
+R I 17020
+G I 17022
+S

@@ -1,0 +1,316 @@
+#42200
+M
+hi hello forest you going target~
+&+bA huge &+Bshimmering&+b bluebird looks around searching for some food,&n
+&+b obviously ignoring everything you try to tell to it.&n
+~
+M
+food~
+&+bA huge &+Bshimmering&+b bluebird peers at you warily.
+~
+Q
+&+bA huge &+Bshimmering&+b bluebird pecks the grain with its large beak.&n
+&+bFinally satiated, it looks at you kindly and handles you some of its feathers.&n
+~
+R I 42200
+R E 80000
+G I 42265
+Q
+&+bA huge &+Bshimmering&+b bluebird pecks the meat with its large beak.&n
+&+bLooking half-satiated, it looks at you kindly and handles you a small nest.&n
+~
+R I 42204
+R E 33000
+G I 42202
+Q
+&+bThe huge shimmering bluebird refuses to take the piece of whiteworm meat.
+&+bIt seems that this piece of meat, although tasty, is too large to go through
+&+bbirds narrow beak. You will have to look for some other way of feeding it.
+~
+R I 42201
+G I 42201
+S
+#42209
+MA
+bluebirds birds bird~
+"Aye, so you have heard that tale too?"
+"There is a story which tells that within this forest there is a magical tree,
+where large birds all in the color blue are living. There is one person who
+says he have seen them, but he could not find his way through forest maze to
+show us the magical tree. Yet, some time ago, I decided to try to look for
+bluebirds. I prepared some special oat grains, very nutritient for birds, to
+bait them. But I did not succed. If you'd like to look for said birds,
+I could give you that grains. But not for free. First you would have to bring
+me something I could bait a bear with. What shall it be is up to you."
+~
+Q
+"A piece of whiteworm meat? Nah, I have tried this before, to no result."
+"Or wait, this comes from the HUGE white worm? I have thought they are long
+gone from our forest, seems they just hidden deep in the forest maze.
+Very well, I shall try this, here is your grain."
+
+After saying that, the tribal master hunter handles you some oat grain.
+~
+R I 42265
+R E 50000
+G I 42201
+S
+#42219
+M
+hi hello gretings~
+&+cUpon hearing you talking to her she starts crying over her lost freedom, and
+&+cany further dialogue seems to be almost impossible.
+~
+M
+husban boss chief chieftain prison imprisonment kitchen~
+&+c"He... He... He imprisoned me... He keeps me here in his kitchen...
+&+c Like a slave... Please... Please... Bring me freedom..."
+
+&+c"I suppose you could... well... eliminate him... And bring me the key for the
+&+c shackles... he put them... on my legs..."
+
+&+c"Also, please... bring me something normal... to wear... something... I could
+&+c use... to disguise myself and blend... into society... untill all settles"
+
+&+c"That is... if you want to help me..."
+~
+Q
+&+c"What's that? A key? A key! Let me see it..."
+
+&+cFor s brief while she fiddles with the lock on her shackles
+
+&+c"Yes! Finally free! With my husband dead I can now return to the social life of
+&+c my village! New chieftain will have new wife, and hopefuly he will treat her
+&+c better. Now, I do not have much to give you for that save for my best thanks.
+&+c Well, maybe you will accept this skirt I have been working on during my years
+&+c of inprisonment."
+~
+R I 42268
+G I 42222
+G I 42219
+G I 42220
+G I 42242
+D
+&+CShe waves you goodbye and leaves.
+~
+S
+#42230
+M
+hi hello greetings~
+A young tribal woman turns to you and says "Hello there. Did you see my comb?"
+
+Than quickly turns back to you and returns to her search.
+~
+M
+comb~
+She turns to you with a hopeful look in her eyes.
+"Comb, yes comb. Have you seen it?  Ahh, no.  Damnation, none of our young
+boys will want to look at me, not to mention sleeping with me, if I don't
+comb my hair. And with this crude comb I managed to find it's nearly
+impossible.  Ahh, where is that beautifully crafted smooth wooden comb I had?
+Lost it somewhere in the forest..."
+
+She blushes slightly, than continues.
+"Shall you find my old good comb, i'll reward you greatly.
+You will do it, will you?"
+
+Than she quickly turns away from you and continues her search.
+~
+Q
+A young tribal woman stares at the comb for a while, than exclaims.
+"Yes, Finally, my good comb! Yes! Now I can camp my hair and become attractive
+once again. Thank you! Thank you, thankyouthankyouthankyou!
+Here's the reward. A brooch of some sort. I've been given it by my mother,
+but it doesn't suit me. It does not match with the color of my eyes, you see.
+Take it, and may it serve you well."
+
+She gives you a brooch of some sort, then promptly starts combing her hair.
+~
+R I 42260
+R E 250000
+G I 42241
+S
+#42234
+M
+hi hello greetings quest~
+&+cHis head turns towards you and he speaks 'Nah, no time to waste.'
+&+cAfter a brief pause he continues 'But maybe you need some work?'
+&+cAfter yet another pause he adds 'Ask me for details if you are interested'
+~
+M
+work details~
+&+cHe smiles happily and starts telling you all the details.
+&+cIt's something about magical ingredients, demons, devils, and his experiments,
+&+call mixed and formed into definitely not understandable pulp.
+&+cHowever, being clever as you are, you manage to understand he simply wants you
+&+cto get for him some special piece of animal fur infested with some fungus.
+&+cWhat a stupid job for such a great adventurer as you are.
+~
+M
+another~
+&+cThe tribal shaman turns to you once more.
+
+&+c"Another work? The last one was not enough? Or maybe you are stupid enough to
+&+c believe in that 'true adventurer' bullcrap, heh?"
+
+&+cThe tribal shaman chuckles politely, then continues.
+
+&+c"Anyway, by strange coincidence I do have another work for you.
+&+c Not a long time ago, I have found an ancient tome, where a way of producing
+&+c magical scrying devices was described. I do not need any, yet I am damn
+&+c curious about this recepture, and would like to check it. Unfortunately,
+&+c I do not have enough time to gather all needed components. Some I already
+&+c have, other you will have to gather. This is what you are supposed to get,
+&+c and listen carefuly, will not repeat!
+&+c
+&+c  - horn, preferably of magical nature
+&+c  - a fresh humanoid bone
+&+c  - a dried-up bone, preferably already enchanted
+&+c  - a piece of clear crystal
+&+c  - something that is well connected with nature, I have no idea what it might
+&+c     be, but the condition is it must be really old and magical.
+&+c
+&+c Gather them all, and I shall reward you.
+&+c Fail, and I shall send my hellish slaves to get you!
+&+c Tell anyone about this recepture, and you soul will fry in hell forever, and
+&+c  your body will also receive its share of roasting here on earth!"
+&+c
+&+cAfter saying that, he nudges you to go and start your quest.
+~
+Q
+&+cUpon seeing the piece of funny deerskin you brought to him, the tribal shaman
+&+csmiles broadly and begins speaking very fast:
+&+C'Ahh, yes, yes, it is, you fond it, yes, ahh, yes. Heh, yea, it is. Great.'
+&+C'Yes, yes, this is the &+c<here he starts mumbling some strange words, and he does
+&+c that for quite a while>&+C I was looking for. Ahh, yea, here, keep the reward.'
+&+cHe handles you an amulet made from soft bearskin.
+&+cOww, so this is it? No gold? No fame? Just this piece of fur?
+~
+R I 42224
+G I 42244
+Q
+&+c"So you succeded! I knew I could count on you! Good work!
+&+c Now, let me have a look at these, hmm..."
+
+&+cThe tribal shaman starts preparing his experiment.
+&+cHe grinds all components (except crystal). He mixes powders together, adds some
+&+cfresh dragon blood, adds a pint of sulphur, adds an olive, chants some evil
+&+cincantation, and pours it all over the crystal. A black smoke fills the room,
+&+cbut after it clears, before you lies the same clear crystal you brought, but
+&+cthis time it glows magically."
+
+&+c"It worked! Hell if I know why, but it worked! Now I have to investigate the
+&+c process of enchanting, hrm, but I will need this crystal no more. Please take
+&+cit as your payment if you wish."
+~
+R I 42262
+G I 42221
+G I 42227
+G I 42212
+G I 42263
+G I 42267
+S
+#42256
+MA
+hello greeting greetings~
+&+mA Drow Elf &+Lintroduces himself as &+YXazapath&+L, &+Lthe &+rhuntsmaster&+L of house &+MMaaz&+L.
+
+
+&+YXazapath&+g says &+G'&+LDo you think you could help me? I would &+Rreward&+L you.&+G'
+~
+M
+help job work~
+&+YXazapath&+L eyes you for a brief while, then lowers his voice down to whisper and
+&+Lbegins telling you his story.
+
+&+L"I was born within house &+MMaaz&+L, and served there as their huntsmaster for last
+&+L four hundred years. Usualy it was rather dull work of providing fresh meat to
+&+L my house. From time to time it was getting more interesting, most notably
+&+L when our house was starting a war with some other clan. Such wars must be
+&+L quick and silent. Otherwise Council orders all other houses to wipe out the
+&+L unfortunate attacker. So with each of that wars, there was much need for my
+&+L stealthy hunting skills. And it was no different with the last one."
+
+&+YXazapath&+L stops for a moment, then continues.
+
+&+L"I was given the task to assassinate the head mage of the enemy house Zar'Azz.
+&+r I failed.&+L He dodged my arrows, he escaped my thrown blade, he lived and
+&+L warned his house. So to say, they managed to defend themselves. What happened
+&+L later, I do not know, but I can imagine. All remaining nobles from my old
+&+L house must have been slain, all remaining troops sold. But I didn't see that,
+&+L becouse I was still on the track of that goddamned mage! I was chasing him,
+&+L and he was running. He made it out of Arachdrachnos, with me on his back.
+&+L He was running for good three weeks, and for that three weeks I was chasing.
+&+L He run into upper parts of underdark, into tunnels freshly created by some
+&+L earthquake, not mapped by anyone. Finally he made his was into these tunnels.
+&+r Here he met his destiny.&+L Sadly, it was not my blade that ended his misery.
+&+L He got poisoned to death by a huge spiders dwelling these tunnels.
+&+L Beasts cut his corpse into several parts. I gathered some of them, but I must
+&+L gather more so I can offer them to &+rLloth&+L, gain her forgiveness, and return
+&+L to my beloved Arachdrachnos. There I will offer service to some other house,
+&+L hopefuly stronger than the one I was born in."
+
+&+LHe finishes his talk and turns to polishing his blade. After a few moments he
+&+Lseems to notice you again.
+
+&+L"&+WNow what the hell you are still doing here!?!? GO! Go and gather all the parts
+&+W of drowish corpse you can find withing these tunnels. Go NOW, till I still
+&+W have patience! Success - reward. Failure - death. Even such simple being as
+&+W yourself can understand that, I hope.&+L"
+~
+M
+reward~
+&+L"&+YWHAT!?&+L You, so far you have done nothing for me yet you demand reward?
+&+L Go away, or I shall draw by blade and cut you into little pieces!"
+~
+Q
+&+L"Ahh, you did it! But then, why it too you so long? You should be faster!"
+
+&+YXazapath&+L pauses for a moment, then continues.
+
+&+L"Now, now i'll be able to gain Lloth's forgiveness and return to my beloved
+&+L homeland. As a reward... bleah, you are not worth to even touch any drow-made
+&+L equipement, you would only destroy it with your clumsy hands."
+
+&+LAfter pondering this matter for a brief while, he seems to have found solution.
+
+&+LHe then turns to the corner of his hideout, searches there for a while, and
+&+Lfinally takes something from there.
+
+&+L"Here, take this bow and quiver. Its craftsmanship should be enough for you.
+&+L I wanted to take it back with me, to show it to other drow elves for their
+&+L amusement, so they see how inept in crafts are surface dwellers. I found both
+&+L this bow and quiver in a rotting corpse of one surface dweller who also got
+&+L killed by spiders."
+~
+R I 42285
+R I 42291
+G I 42293
+G I 42294
+G I 42295
+G I 42296
+G I 42297
+D
+&+YXazapath&+L bids you farewell and is gone in moments notice.
+~
+S
+#42259
+M
+hi hello greetings welcome~
+&+L   The spider queen hisses at you, then gets back to her never-ending task of
+&+Ltaking care of her eggs.
+~
+M
+egg eggs missing~
+&+g   The spider queen jumps forth upon hearing this word, eyes you carefuly, but
+&+gseeing you have none of her missing eggs she returns to her corner.
+~
+Q
+&+gThe spider queen watches you silently with her dozens of eyes.
+&+gThen, noticing her egg, she promptly jumps forth to take it from you.
+&+gBefore withdrawing, in a sign gratitude, she handles you some old looking ring.
+~
+R E 250000
+R I 42301
+G I 42302
+S

@@ -1,0 +1,284 @@
+#381
+&+rFort &+RBoyard&n~
+38176 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38101 5 8 100 0 0 0
+*     down exit from "A Shady Path" to
+*     "A Dark Cellar" - open/blocked
+*
+D 0 38102 4 0 100 0 0 0
+*     up exit from "A Dark Cellar" to
+*     "A Shady Path" - open
+*
+D 0 38108 2 2 100 0 0 0
+*     south exit from "A Small Wooden Pier" to
+*     "A Storage Facility" - closed/locked
+*
+D 0 38109 0 2 100 0 0 0
+*     north exit from "A Storage Facility" to
+*     "A Small Wooden Pier" - closed/locked
+*
+D 0 38122 0 2 100 0 0 0
+*     north exit from "Before the Fort Boyard" to
+*     "The Entry Hallway of the Fort" - closed/locked
+*
+D 0 38123 2 1 100 0 0 0
+*     south exit from "The Entry Hallway of the Fort" to
+*     "Before the Fort Boyard" - closed
+*
+D 0 38132 5 13 100 0 0 0
+*     down exit from "The Altar of Life" to
+*     "A Dark Cellar" - closed/secret/blocked
+*
+D 0 38137 4 5 100 0 0 0
+*     up exit from "A Dark Cellar" to
+*     "The Altar of Life" - closed/secret
+*
+D 0 38138 3 8 100 0 0 0
+*     west exit from "A Dark Cellar" to
+*     "The Lair of Ciuto" - open/blocked
+*
+D 0 38139 1 0 100 0 0 0
+*     east exit from "The Lair of Ciuto" to
+*     "A Dark Cellar" - open
+*
+D 0 38142 3 1 100 0 0 0
+*     west exit from "The Preparation Room" to
+*     "A Storage Pantry" - closed
+*
+D 0 38144 1 1 100 0 0 0
+*     east exit from "A Storage Pantry" to
+*     "The Preparation Room" - closed
+*
+D 0 38148 1 1 100 0 0 0
+*     east exit from "The Entry Hall of the Fort" to
+*     "The Guest Bedroom" - closed
+*
+D 0 38150 3 1 100 0 0 0
+*     west exit from "The Guest Bedroom" to
+*     "The Entry Hall of the Fort" - closed
+*
+D 0 38148 3 1 100 0 0 0
+*     west exit from "The Entry Hall of the Fort" to
+*     "A Guest Bedroom" - closed
+*
+D 0 38151 1 1 100 0 0 0
+*     east exit from "A Guest Bedroom" to
+*     "The Entry Hall of the Fort" - closed
+*
+D 0 38152 0 1 100 0 0 0
+*     north exit from "The Top of a Large Staircase" to
+*     "The Hallway of the Library" - closed
+*
+D 0 38153 2 1 100 0 0 0
+*     south exit from "The Hallway of the Library" to
+*     "The Top of a Large Staircase" - closed
+*
+*
+O 0 38143 1 38100 100 0 0 0        * some thick brush
+O 0 38100 1 38101 100 0 0 0        * a dark boulder
+O 0 38102 2 38105 100 0 0 0        * a large shipping crate
+P 1 38117 9 38102 100 0 0 0        *   a cucumber
+P 1 38117 9 38102 100 0 0 0        *   a cucumber
+P 1 38117 9 38102 100 0 0 0        *   a cucumber
+O 0 38103 5 38105 100 0 0 0        * a small shipping crate
+P 1 38104 1 38103 100 0 0 0        *   a note from the shipping captain
+P 1 38116 9 38103 100 0 0 0        *   a green pepper
+P 1 38116 9 38103 100 0 0 0        *   a green pepper
+P 1 38116 9 38103 100 0 0 0        *   a green pepper
+O 0 38103 5 38106 100 0 0 0        * a small shipping crate
+O 0 38103 5 38106 100 0 0 0        * a small shipping crate
+O 0 43014 1 38106 100 0 0 0        * (object type not in this .obj file)
+O 0 38105 1 38107 100 0 0 0        * a large desk
+P 1 38108 1 38105 100 0 0 0        *   a metallic key
+O 0 38102 2 38108 100 0 0 0        * a large shipping crate
+O 0 38109 1 38109 100 0 0 0        * a small canoe
+O 0 38119 1 38132 100 0 0 0        * a large marble altar
+O 0 38122 5 38135 100 0 0 0        * a carrot
+O 0 38122 5 38135 100 0 0 0        * a carrot
+O 0 38123 1 38135 100 0 0 0        * the top of a carrot
+O 0 38131 5 38149 100 0 0 0        * a large torch
+O 0 38131 5 38149 100 0 0 0        * a large torch
+O 0 38131 5 38152 100 0 0 0        * a large torch
+O 0 38131 5 38152 100 0 0 0        * a large torch
+O 0 38131 5 38158 100 0 0 0        * a large torch
+O 0 38103 5 38163 100 0 0 0        * a small shipping crate
+P 1 38114 8 38103 100 0 0 0        *   a ripe tomato
+P 1 38114 8 38103 100 0 0 0        *   a ripe tomato
+O 0 38103 5 38163 100 0 0 0        * a small shipping crate
+P 1 38122 5 38103 100 0 0 0        *   a carrot
+P 1 38122 5 38103 100 0 0 0        *   a carrot
+P 1 38122 5 38103 100 0 0 0        *   a carrot
+O 0 72 100 38172 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 38100 1 38102 100 0 0 0        * the ghost of a servant boy
+M 0 38101 2 38103 100 0 0 0        * a black-tailed squirrel
+G 1 38101 2 0 100 0 0 0            *    a black squirrel's tail
+M 0 38103 4 38104 100 0 0 0        * A pier hand
+M 0 38103 4 38106 100 0 0 0        * A pier hand
+M 0 38102 1 38107 100 0 0 0        * Clome
+E 1 38106 1 3 100 0 0 0            *   a wooden amulet
+E 1 38107 1 13 100 0 0 0           *   a red sash
+M 0 38103 4 38108 100 0 0 0        * A pier hand
+M 0 38103 4 38108 100 0 0 0        * A pier hand
+M 0 38104 1 38110 100 0 0 0        * Maiya
+E 1 38111 1 13 100 0 0 0           *   a small belt of rope
+E 1 38110 1 18 100 0 0 0           *   a golden compass of navigation
+M 0 38101 2 38120 100 0 0 0        * a black-tailed squirrel
+G 1 38101 2 0 100 0 0 0            *    a black squirrel's tail
+M 0 38105 2 38122 100 0 0 0        * An elite guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+F 1 38106 1 38122 100 0 0 0        * a dark panther (following)
+M 0 38105 2 38122 100 0 0 0        * An elite guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+G 1 38113 1 0 100 0 0 0            *    the stone key of the fort
+M 0 38107 3 38123 100 0 0 0        * A gate guard
+M 0 38107 3 38123 100 0 0 0        * A gate guard
+M 0 38107 3 38123 100 0 0 0        * A gate guard
+M 0 38118 7 38123 100 0 0 0        * a servant boy
+M 0 38117 14 38124 100 0 0 0       * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38118 7 38126 100 0 0 0        * a servant boy
+M 0 38117 14 38127 100 0 0 0       * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38108 3 38128 100 0 0 0        * a strange tomato plant
+E 1 38114 8 18 100 0 0 0           *   a ripe tomato
+M 0 38108 3 38128 100 0 0 0        * a strange tomato plant
+E 1 38114 8 18 100 0 0 0           *   a ripe tomato
+M 0 38108 3 38128 100 0 0 0        * a strange tomato plant
+E 1 38114 8 18 100 0 0 0           *   a ripe tomato
+M 0 38118 7 38129 100 0 0 0        * a servant boy
+M 0 38111 3 38130 100 0 0 0        * a cucumber vine
+E 1 38117 9 18 100 0 0 0           *   a cucumber
+M 0 38111 3 38130 100 0 0 0        * a cucumber vine
+E 1 38117 9 18 100 0 0 0           *   a cucumber
+M 0 38111 3 38130 100 0 0 0        * a cucumber vine
+E 1 38117 9 18 100 0 0 0           *   a cucumber
+M 0 38110 3 38131 100 0 0 0        * a green pepper plant
+E 1 38116 9 18 100 0 0 0           *   a green pepper
+M 0 38110 3 38131 100 0 0 0        * a green pepper plant
+E 1 38116 9 18 100 0 0 0           *   a green pepper
+M 0 38110 3 38131 100 0 0 0        * a green pepper plant
+E 1 38116 9 18 100 0 0 0           *   a green pepper
+M 0 38112 1 38132 100 0 0 0        * Rovsi
+E 1 38118 1 15 100 0 0 0           *   a bracelet of ivy
+F 1 38113 2 38132 100 0 0 0        * A gardener of the fort (following)
+F 1 38113 2 38132 100 0 0 0        * A gardener of the fort (following)
+M 0 38118 7 38132 100 0 0 0        * a servant boy
+M 0 38109 3 38134 100 0 0 0        * a head of lettuce
+G 1 38115 3 0 100 0 0 0            *    a leaf of lettuce
+M 0 38109 3 38134 100 0 0 0        * a head of lettuce
+G 1 38115 3 0 100 0 0 0            *    a leaf of lettuce
+M 0 38109 3 38134 100 0 0 0        * a head of lettuce
+G 1 38115 3 0 100 0 0 0            *    a leaf of lettuce
+M 0 38116 6 38137 100 0 0 0        * a black spider
+M 0 38116 6 38137 100 0 0 0        * a black spider
+M 0 38116 6 38137 100 0 0 0        * a black spider
+M 0 38115 1 38138 100 0 0 0        * the ghost of a servant girl
+G 1 38124 1 0 100 0 0 0            *    a jeweled eyepatch of Boyard
+M 0 38116 6 38138 100 0 0 0        * a black spider
+M 0 38114 1 38139 100 0 0 0        * Ciuto
+G 1 38120 1 0 100 0 0 0            *    some boots of dragonscale
+G 1 38121 1 0 100 0 0 0            *    some dragonscale gloves
+M 0 38118 7 38140 100 0 0 0        * a servant boy
+M 0 38117 14 38141 100 0 0 0       * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38120 10 38141 100 0 0 0       * a servant girl
+M 0 38120 10 38141 100 0 0 0       * a servant girl
+M 0 38120 10 38142 100 0 0 0       * a servant girl
+M 0 38119 1 38143 100 0 0 0        * Akal
+E 1 38126 1 6 100 0 0 0            *   a chef's hat
+E 1 38125 1 13 100 0 0 0           *   a spotted apron
+E 1 38144 1 18 100 0 0 0           *   a marble-handled spatula
+M 0 38116 6 38144 100 0 0 0        * a black spider
+M 0 38116 6 38144 100 0 0 0        * a black spider
+M 0 38121 2 38147 100 0 0 0        * An elite guard
+E 1 38127 1 11 100 0 0 0           *   a jeweled shield
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+M 0 38121 2 38147 100 0 0 0        * An elite guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38117 14 38148 100 0 0 0       * A royal guard
+M 0 38117 14 38149 100 0 0 0       * A royal guard
+M 0 38123 1 38150 100 0 0 0        * an old elven mage
+E 1 38130 1 21 100 0 0 0           *   an earring of crystal
+M 0 38122 1 38151 100 0 0 0        * An ogre mercenary
+E 1 38129 1 2 100 0 0 0            *   a shiny diamond ring
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+E 1 38128 1 21 100 0 0 0           *   an earring of jade
+M 0 38125 7 38153 100 0 0 0        * a servant boy of the library
+M 0 38125 7 38153 100 0 0 0        * a servant boy of the library
+M 0 38127 1 38155 100 0 0 0        * Alleb
+E 1 38134 1 3 100 0 0 0            *   a dark amulet of gems
+M 0 38125 7 38155 100 0 0 0        * a servant boy of the library
+M 0 38126 1 38156 100 0 0 0        * Shamla
+E 1 38133 1 3 100 0 0 0            *   an amulet of ancient shaman runes
+M 0 38125 7 38156 100 0 0 0        * a servant boy of the library
+M 0 38125 7 38157 100 0 0 0        * a servant boy of the library
+M 0 38124 1 38158 100 0 0 0        * Hirsch
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+E 1 38132 1 20 100 0 0 0           *   the mask of illumination
+E 1 38112 27 25 100 0 0 0          *   a rusty old sword
+E 1 38112 27 26 100 0 0 0          *   a rusty old sword
+M 0 38125 7 38158 100 0 0 0        * a servant boy of the library
+M 0 38125 7 38158 100 0 0 0        * a servant boy of the library
+M 0 38117 14 38159 100 0 0 0       * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38117 14 38161 100 0 0 0       * A royal guard
+M 0 38117 14 38161 100 0 0 0       * A royal guard
+M 0 38130 4 38162 100 0 0 0        * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38130 4 38162 100 0 0 0        * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38120 10 38162 100 0 0 0       * a servant girl
+M 0 38117 14 38163 100 0 0 0       * A royal guard
+M 0 38120 10 38165 100 0 0 0       * a servant girl
+M 0 38120 10 38165 100 0 0 0       * a servant girl
+M 0 38128 1 38165 100 0 0 0        * Mistress Seriana
+E 1 38135 1 3 100 0 0 0            *   a necklace of ogre bones
+M 0 38117 14 38165 100 0 0 0       * A royal guard
+M 0 38117 14 38165 100 0 0 0       * A royal guard
+M 0 38129 1 38166 100 0 0 0        * Fontan
+E 1 38136 1 16 100 0 0 0           *   a diamond-tipped dagger
+M 0 38120 10 38167 100 0 0 0       * a servant girl
+M 0 38120 10 38168 100 0 0 0       * a servant girl
+M 0 38130 4 38169 100 0 0 0        * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38130 4 38169 100 0 0 0        * A royal guard
+E 1 38112 27 16 100 0 0 0          *   a rusty old sword
+E 1 38112 27 17 100 0 0 0          *   a rusty old sword
+M 0 38118 7 38169 100 0 0 0        * a servant boy
+M 0 38117 14 38171 100 0 0 0       * A royal guard
+M 0 38117 14 38171 100 0 0 0       * A royal guard
+M 0 38117 14 38171 100 0 0 0       * A royal guard
+M 0 38118 7 38171 100 0 0 0        * a servant boy
+M 0 38131 1 38172 100 0 0 0        * Master Boyard
+E 1 38137 1 5 100 0 0 0            *   the armor of Boyard
+E 1 38139 1 7 100 0 0 0            *   a pair of chainmail leggings
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55173 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 38132 1 38172 100 0 0 0        * Queen Zida
+E 1 38138 1 8 100 0 0 0            *   a pair of ruby-lined slippers
+E 1 38140 1 10 100 0 0 0           *   some silken red sleeves
+M 0 38120 10 38172 100 0 0 0       * a servant girl
+M 0 38120 10 38172 100 0 0 0       * a servant girl
+M 0 38134 2 38174 100 0 0 0        * An elite guard
+M 0 38134 2 38174 100 0 0 0        * An elite guard
+M 0 38133 1 38175 100 0 0 0        * Magib
+E 1 38141 1 18 100 0 0 0           *   a small prayer symbol
+M 0 38135 1 38176 100 0 0 0        * Moro
+E 1 38142 1 19 100 0 0 0           *   a royal observer's eye glasses
+*
+S

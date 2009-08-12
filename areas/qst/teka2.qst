@@ -1,0 +1,57 @@
+#75500
+M
+qc_action 80~
+$n sighs, '&+WMost magic-users try to expand their knowledge too rapidly.&n'
+$n says, '&+WThey will learn the basics of a spell, and then try to stack the knowledge of more powerful magics onto that unfinished base.&n'
+~
+M
+qc_action 80~
+$n continues, '&+WTo truly master your art, the foundations of your knowledge must be complete.&n'
+~
+M
+qc_action 80~
+$n says excitedly, '&+WMastery over the basics lends itself to allowing you not to fumble the more advanced components as well!&n'
+~
+M
+spell fail~
+Aerlyn nods and says "I am trying to locate a lost relic that I need."
+~
+M
+relic~
+Aerlyn puts her spellbook away.
+She turns to you and says, "Fine... if you must know,  I have
+commissioned a group of miners below the tower.  They are mining
+for a lost rhinestone of the great archmage who ruled this
+tower before me.  It is rumored that this rhinestone may
+grant me extra powers which I desire.  Before the archmage
+died, he hid that rhinestone somewhere in this tower.  I have
+not been able to find it.  Bring me that rhinestone... and
+I might have the powers to give you something special."
+Aerlyn grabs her spellbook and returns her work.
+~
+Q
+Aerlyn blinks at you not believing.
+She exclaims "Finally after all these years. Now I can complete
+the task I have long awaited to finish. I can now raise the long
+dead mage of the Ruzdo!  He shall help me in my plans."
+She shakes your hand and thanks you.
+~
+R I 75560
+R I 75561
+G I 75559
+D
+&+BAerlyn starts casting a spell.&N
+&+BAerlyn fades into nothing and is gone.&N
+~
+S
+#75535
+M
+lost relic aerlyn~
+&+YIlbe nods and shouts "Stop fooling around! Dig! Dig! Dig!"&N
+&+YIlbe turns to you and says "We've been working here and&N
+&+Ystill we have had no such luck finding this lost rhinestone."&N
+&+YIlbe continues "If you should find it, please give us the word&N
+&+Ysuch that we may stop operations here."&N
+&+YIlbe turns and continues leading the dig.&N
+~
+S

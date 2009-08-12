@@ -1,0 +1,242 @@
+#676
+Taliccicopiid~
+67755 2 0 10 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 67627 5 1 100 0 0 0
+*     down exit from "Deep Within a Ravine" to
+*     "A Long Narrow Shaft" - closed
+*
+D 0 67636 4 1 100 0 0 0
+*     up exit from "A Long Narrow Shaft" to
+*     "Deep Within a Ravine" - closed
+*
+D 0 67686 3 2 100 0 0 0
+*     west exit from "Twisting Tunnels of the Wild Underdark" to
+*     "Twisting Tunnels of the Wild Underdark" - closed/locked
+*
+D 0 67687 1 2 100 0 0 0
+*     east exit from "Twisting Tunnels of the Wild Underdark" to
+*     "Twisting Tunnels of the Wild Underdark" - closed/locked
+*
+D 0 67754 5 5 100 0 0 0
+*     down exit from "A Steep Sloping Tunnel" to
+*     "A Dark Niche in the Winding Tunnels" - closed/secret
+*
+D 0 67755 4 1 100 0 0 0
+*     up exit from "A Dark Niche in the Winding Tunnels" to
+*     "A Steep Sloping Tunnel" - closed
+*
+*
+O 0 67603 1 67600 100 0 0 0        * a large cabin
+O 0 67605 1 67602 100 0 0 0        * a rotting corpse
+P 1 67606 1 67605 100 0 0 0        *   a long flowing missionary robe
+P 1 67618 1 67605 100 0 0 0        *   some smooth silk leggings
+O 0 67600 1 67713 100 0 0 0        * a large cave
+O 0 67601 1 67744 100 0 0 0        * a large fire
+*
+M 0 67656 3 67602 100 0 0 0        * a flesh eatting ant
+M 0 67656 3 67602 100 0 0 0        * a flesh eatting ant
+M 0 67656 3 67602 100 0 0 0        * a flesh eatting ant
+M 0 67658 1 67603 100 0 0 0        * a terrified missionary
+E 1 67612 1 3 100 0 0 0            *   a holy silver medallion
+E 1 67608 2 7 100 0 0 0            *   some white leggings
+E 1 67611 2 8 100 0 0 0            *   a pair of shoes
+E 1 67619 1 9 100 0 0 0            *   a pair of sparkled mesh gloves
+E 1 67607 2 12 100 0 0 0           *   a white robe
+M 0 67657 1 67604 100 0 0 0        * a surviving missionary
+E 1 67608 2 7 100 0 0 0            *   some white leggings
+E 1 67611 2 8 100 0 0 0            *   a pair of shoes
+E 1 67610 1 9 100 0 0 0            *   some soft white gloves
+E 1 67607 2 12 100 0 0 0           *   a white robe
+E 1 67609 1 15 100 0 0 0           *   a bracelet of ivory
+E 1 67620 1 21 100 0 0 0           *   a crucifix marbled earring
+M 0 67653 3 67605 100 0 0 0        * a small squirrel
+M 0 67653 3 67605 100 0 0 0        * a small squirrel
+M 0 67654 2 67606 100 0 0 0        * an old owl
+G 1 67634 1 0 100 0 0 0            *    an owl feather
+M 0 67653 3 67607 100 0 0 0        * a small squirrel
+M 0 67654 2 67608 100 0 0 0        * an old owl
+G 1 67635 1 0 100 0 0 0            *    an owl feather
+M 0 67652 1 67609 100 0 0 0        * a thri-kreen scout
+E 1 67617 1 10 100 0 0 0           *   a pair of spiked leather sleeves
+M 0 67611 3 67611 100 0 0 0        * a chimp
+M 0 67612 3 67611 100 0 0 0        * an ape
+M 0 67613 3 67611 100 0 0 0        * a parrot
+M 0 67614 3 67611 100 0 0 0        * a gigantic anaconda
+M 0 67613 3 67612 100 0 0 0        * a parrot
+M 0 67602 2 67612 100 0 0 0        * a fire ant
+M 0 67612 3 67613 100 0 0 0        * an ape
+M 0 67610 3 67613 100 0 0 0        * a gnat
+M 0 67603 4 67613 100 0 0 0        * an earthly beetle
+M 0 67604 3 67613 100 0 0 0        * a HuGE BumbleBEE
+M 0 67605 3 67613 100 0 0 0        * a blood sucking mosquitoe
+M 0 67606 4 67613 100 0 0 0        * a tsetse fly
+M 0 67611 3 67615 100 0 0 0        * a chimp
+M 0 67610 3 67615 100 0 0 0        * a gnat
+M 0 67602 2 67615 100 0 0 0        * a fire ant
+M 0 67609 2 67615 100 0 0 0        * a black fly
+M 0 67608 2 67616 100 0 0 0        * a blow fly
+M 0 67610 3 67616 100 0 0 0        * a gnat
+M 0 67611 3 67616 100 0 0 0        * a chimp
+M 0 67612 3 67616 100 0 0 0        * an ape
+M 0 67613 3 67616 100 0 0 0        * a parrot
+M 0 67614 3 67616 100 0 0 0        * a gigantic anaconda
+M 0 67609 2 67617 100 0 0 0        * a black fly
+M 0 67603 4 67618 100 0 0 0        * an earthly beetle
+M 0 67606 4 67618 100 0 0 0        * a tsetse fly
+M 0 67607 4 67618 100 0 0 0        * a crane fly
+M 0 67603 4 67619 100 0 0 0        * an earthly beetle
+M 0 67607 4 67619 100 0 0 0        * a crane fly
+M 0 67603 4 67619 100 0 0 0        * an earthly beetle
+M 0 67607 4 67619 100 0 0 0        * a crane fly
+M 0 67604 3 67620 100 0 0 0        * a HuGE BumbleBEE
+M 0 67606 4 67620 100 0 0 0        * a tsetse fly
+M 0 67605 3 67622 100 0 0 0        * a blood sucking mosquitoe
+M 0 67659 1 67622 100 0 0 0        * a slimy snail
+M 0 67606 4 67622 100 0 0 0        * a tsetse fly
+M 0 67607 4 67622 100 0 0 0        * a crane fly
+M 0 67608 2 67622 100 0 0 0        * a blow fly
+M 0 67604 3 67623 100 0 0 0        * a HuGE BumbleBEE
+M 0 67614 3 67623 100 0 0 0        * a gigantic anaconda
+M 0 67605 3 67623 100 0 0 0        * a blood sucking mosquitoe
+M 0 67655 1 67625 100 0 0 0        * a large bass
+G 1 67625 1 0 100 0 0 0            *    a blue scale
+M 0 67619 6 67629 100 0 0 0        * a thri-kreen
+M 0 67618 4 67630 100 0 0 0        * a thri-kreen warrior
+M 0 67618 4 67630 100 0 0 0        * a thri-kreen warrior
+M 0 67650 1 67631 100 0 0 0        * a hearty mule
+M 0 67651 1 67631 100 0 0 0        * a cow
+M 0 67649 1 67632 100 0 0 0        * a thri-kreen sentry
+E 1 67622 3 7 100 0 0 0            *   a pair of spiked leather leggings
+E 1 67621 2 10 100 0 0 0           *   a pair of leather sleeves
+E 1 67631 1 19 100 0 0 0           *   a battle visor made of adamantium
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67664 6 67633 100 0 0 0        * a thri-kreen warrior
+M 0 67601 1 67634 100 0 0 0        * a thri-kreen scout
+E 1 67622 3 7 100 0 0 0            *   a pair of spiked leather leggings
+M 0 67627 10 67640 100 0 0 0       * a thri-kreen worker
+M 0 67627 10 67645 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67645 100 0 0 0        * a large cave worm
+M 0 67627 10 67648 100 0 0 0       * a thri-kreen worker
+M 0 67628 7 67648 100 0 0 0        * a burly thri-kreen worker
+M 0 67662 9 67649 100 0 0 0        * a large cave worm
+M 0 67628 7 67651 100 0 0 0        * a burly thri-kreen worker
+M 0 67662 9 67652 100 0 0 0        * a large cave worm
+M 0 67628 7 67656 100 0 0 0        * a burly thri-kreen worker
+M 0 67628 7 67657 100 0 0 0        * a burly thri-kreen worker
+M 0 67628 7 67660 100 0 0 0        * a burly thri-kreen worker
+M 0 67662 9 67660 100 0 0 0        * a large cave worm
+M 0 67627 10 67662 100 0 0 0       * a thri-kreen worker
+M 0 67628 7 67664 100 0 0 0        * a burly thri-kreen worker
+M 0 67627 10 67667 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67667 100 0 0 0        * a large cave worm
+M 0 67627 10 67671 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67675 100 0 0 0        * a large cave worm
+M 0 67627 10 67677 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67677 100 0 0 0        * a large cave worm
+M 0 67627 10 67679 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67681 100 0 0 0        * a large cave worm
+M 0 67627 10 67683 100 0 0 0       * a thri-kreen worker
+M 0 67662 9 67683 100 0 0 0        * a large cave worm
+M 0 67628 7 67684 100 0 0 0        * a burly thri-kreen worker
+M 0 67627 10 67685 100 0 0 0       * a thri-kreen worker
+M 0 67629 2 67686 100 0 0 0        * a thri-kreen warrior
+G 1 67633 1 0 100 0 0 0            *    an iron key
+M 0 67629 2 67686 100 0 0 0        * a thri-kreen warrior
+M 0 67632 1 67689 100 0 0 0        * an evil ward
+M 0 67630 2 67690 100 0 0 0        * a thri-kreen sentry
+M 0 67661 2 67694 100 0 0 0        * a small cave worm
+M 0 67661 2 67697 100 0 0 0        * a small cave worm
+M 0 67622 1 67698 100 0 0 0        * a large earth worm
+M 0 67623 1 67700 100 0 0 0        * a large earth worm
+M 0 67624 1 67702 100 0 0 0        * a large earth worm
+M 0 67619 6 67704 100 0 0 0        * a thri-kreen
+M 0 67619 6 67705 100 0 0 0        * a thri-kreen
+M 0 67619 6 67706 100 0 0 0        * a thri-kreen
+M 0 67619 6 67707 100 0 0 0        * a thri-kreen
+M 0 67619 6 67708 100 0 0 0        * a thri-kreen
+M 0 67665 1 67710 100 0 0 0        * Fongg
+M 0 67617 2 67710 100 0 0 0        * a sleeping thri-kreen
+M 0 67617 2 67710 100 0 0 0        * a sleeping thri-kreen
+M 0 67630 2 67711 100 0 0 0        * a thri-kreen sentry
+M 0 67625 1 67712 100 0 0 0        * the Queen
+E 1 67630 2 12 100 0 0 0           *   a royal robe garb lined with gold
+M 0 67634 1 67712 100 0 0 0        * a thri-kreen warrior
+M 0 67643 1 67713 100 0 0 0        * a thri-kreen detention sentry
+E 1 67623 1 6 100 0 0 0            *   a severely dented battle helmet
+E 1 67622 3 7 100 0 0 0            *   a pair of spiked leather leggings
+E 1 67621 2 10 100 0 0 0           *   a pair of leather sleeves
+M 0 67621 2 67714 100 0 0 0        * a slimy mold
+M 0 67620 2 67714 100 0 0 0        * a slimy mold
+M 0 67600 1 67715 100 0 0 0        * a duergar assassin
+E 1 67628 3 16 100 0 0 0           *   a wickedly curved dagger
+M 0 67621 2 67716 100 0 0 0        * a slimy mold
+M 0 67660 2 67719 100 0 0 0        * a thri-kreen warrior
+M 0 67660 2 67719 100 0 0 0        * a thri-kreen warrior
+M 0 67618 4 67720 100 0 0 0        * a thri-kreen warrior
+M 0 67618 4 67720 100 0 0 0        * a thri-kreen warrior
+M 0 67620 2 67721 100 0 0 0        * a slimy mold
+M 0 67616 1 67724 100 0 0 0        * a junk dealer
+G 1 67613 999 0 100 0 0 0          *    a steel longsword
+G 1 67614 999 0 100 0 0 0          *    a steel flail
+G 1 67615 999 0 100 0 0 0          *    a steel hammer
+G 1 67616 999 0 100 0 0 0          *    a steel mace
+G 1 260 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 256 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 254 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 209 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 211 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 214 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 215 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 217 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 221 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 226 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 384 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 347 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 67646 1 67727 100 0 0 0        * a barbarian slave
+M 0 67645 1 67728 100 0 0 0        * a half-elf slave
+M 0 67644 1 67729 100 0 0 0        * a halfling slave
+M 0 67647 1 67729 100 0 0 0        * a centaur slave
+M 0 67648 1 67732 100 0 0 0        * a thri-kreen taskmaster
+E 1 67624 1 16 100 0 0 0           *   a bloody leather whip
+M 0 67626 1 67738 100 0 0 0        * the King
+E 1 67630 2 12 100 0 0 0           *   a royal robe garb lined with gold
+M 0 67633 1 67738 100 0 0 0        * a thri-kreen warrior
+M 0 67663 4 67740 100 0 0 0        * a HUGE cave worm
+M 0 67636 3 67741 100 0 0 0        * a tunnel dweller
+M 0 67636 3 67742 100 0 0 0        * a tunnel dweller
+M 0 67636 3 67743 100 0 0 0        * a tunnel dweller
+M 0 67635 1 67744 100 0 0 0        * a thri-kreen chef
+E 1 67629 1 13 100 0 0 0           *   a toolbelt with ingredient pouches
+M 0 67615 1 67745 100 0 0 0        * Slipper
+M 0 67640 1 67746 100 0 0 0        * a grey elf slave
+M 0 67641 1 67746 100 0 0 0        * a gnome slave
+M 0 67642 1 67746 100 0 0 0        * a human slave
+M 0 67637 1 67747 100 0 0 0        * a goblin slave
+M 0 67638 1 67747 100 0 0 0        * a orcish slave
+M 0 67639 1 67747 100 0 0 0        * a derro slave
+M 0 67663 4 67748 100 0 0 0        * a HUGE cave worm
+M 0 67663 4 67752 100 0 0 0        * a HUGE cave worm
+M 0 67663 4 67753 100 0 0 0        * a HUGE cave worm
+M 0 67631 1 67755 100 0 0 0        * a drow rogue
+E 1 67626 1 3 100 0 0 0            *   an unholy medallion of the serpent
+E 1 67628 3 16 100 0 0 0           *   a wickedly curved dagger
+E 1 67628 3 17 100 0 0 0           *   a wickedly curved dagger
+E 1 67627 1 20 100 0 0 0           *   a glowing rune covered mask
+*
+S

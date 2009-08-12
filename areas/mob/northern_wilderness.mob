@@ -1,0 +1,283 @@
+#12200
+squirt bug~
+the squirt bug~
+A disgusting squirt bug is flying here, its nozzle-like snout ready to spray.
+~
+It looks something like a black piece of volcanic rock, with black wings,
+and a black snout.
+~
+134 1 0 0 0 0 0 -375 S
+I 0 0 -1
+6 18 80 6d18+21 2d3+1
+0.0.0.0 777
+11 11 0
+#12201
+hare white~
+&+wa &+Wwhite&+w hare&n~
+&+wA&+W white&+w hare hops along the ground here.&n
+~
+Gosh, it's a cute little thing.
+~
+2112 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 1
+#12202
+lunatic raving man~
+&+wa lunatic&n~
+&+wA raving lunatic hides behind the gravel here.&n
+~
+He's got quite the wild look in his eyes, which is rather aesthetically
+complimented by his ragged beard and long, unkempt hair.
+~
+70 1 0 32 0 0 0 -500 S
+H 0 0 -1
+15 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 1
+#12203
+wolf small~
+&+La small wolf&n~
+&+LA small wolf is prancing around the area.&n
+~
+This wolf has a dark brown fur, unkept and dirty, and a strong jaw for
+biting down his meals.  He isn't fully grown but not quite a child either,
+left alone in the wild to fend for himself.
+~
+2056 1 0 0 0 0 0 -1000 S
+A 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12204
+barbarian primitive~
+&+ya primitive barbarian&n~
+&+yA primitive looking barbarian is here, tending to a fire.&n
+~
+This barbarian is quite large, his muscles very apparent and he only wears
+a loincloth about his waist.  Language isn't one of his strong points, as
+he grunts in your direction.
+~
+2122 0 0 0 0 0 0 0 S
+PB 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12205
+battle scarred warrior~
+&+wa&+b battle scarred warrior&n~
+&+wA&+b battle scarred warrior&+w awaits his next competition.&n
+~
+This warrior has obviously been in many fights, scars can be found along
+his arms, legs, and upon his face - there's no telling what lies beneath
+his loose fitting clothing.  His only choice of weapon is a heavy
+longsword.  He stands about, awaiting a fight.
+~
+1073743880 0 0 0 0 0 0 -1000 S
+PH 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12206
+knight young~
+&+wa&+W young knight&n~
+&+wA&+W young knight&+w awaits his first battle.&n
+~
+This young knight has come to the valley for the first time for a test
+of strength.  He attempts to appear confident and self assured, masking
+his face in one of indifference.
+~
+2248 0 0 0 0 0 0 0 S
+PH 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12207
+quiet mage~
+&+wa&+m quiet mage&n~
+&+wA&+m quiet mage&+w observes the area with caution.&n
+~
+It's difficult to tell whether this mage is here to watch the proceedings
+or to participate.  He wanders the area observing all that goes on around
+him, draped in a black cloak and staff.
+~
+1073743944 0 0 0 0 0 0 0 S
+PH 0 2048 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12208
+mercenary scowling~
+&+ya scowling mercenary&n~
+&+yA scowling mercenary picks a fight with anybody he can.&n
+~
+His face wears a scowl at all times, as he shoves people out of the way
+and spits at their feet, attempting to provoke them.
+~
+2124 0 0 0 0 0 0 -1000 S
+PB 0 16384 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12209
+coyote~
+&+ya coyote&n~
+&+yA coyote moves through the canyon in search of food.&n
+~
+The coyote looks as if he hasn't eaten in some time.  He wanders through
+the canyon, scavanging any food he can find.
+~
+2120 0 0 0 0 0 0 0 S
+A 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12210
+bat small~
+&+La small bat&n~
+&+LA small bat sleeps here.&n
+~
+The bat doesn't notice your entry, content to sleep the days away in
+this small cave.
+~
+74 4 0 0 0 0 0 -1000 S
+B 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 0
+#12211
+slime green~
+&+La&+g green&+L slime&n~
+&+LA&+g green&+L slime moves along the tunnel walls.&n
+~
+   This slime looks to be nothing more than a clump of ooziness, moving
+along the tunnel walls without care on what it moves over.
+~
+72 0 0 0 0 0 0 -1000 S
+SL 0 0 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#12212
+bobcat young~
+&+ya young bobcat&n~
+&+yA young bobcat attempts to hide in a nearby bush.&n
+~
+   This young bobcat is still learning the ways of the world, and more
+importantly, the ways of hunting.  He attempts to blend into a nearby
+bush, waiting for the perfect time to jump out at his prey.
+~
+2120 0 0 36 0 0 0 0 S
+A 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12213
+snake~
+&+La snake&n~
+&+LA snake moves quietly along the ground here.&n
+~
+This long snake is not a foe to mess with, his scales a dark black in
+color to blend in with the chasm very well.
+~
+1073743944 0 0 0 0 0 0 -1000 S
+RS 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#12214
+owl brown~
+&+ya brown owl&n~
+&+yA brown owl perches upon a nearby tree.&n
+~
+&+y   This owl is a light brown in color and only comes out in the night,
+&+ywatching the area closely for his prey.&n
+~
+2120 0 0 134324268 0 0 0 0 S
+B 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12215
+deer female~
+&+ya female deer&n~
+&+yA female deer is here, nervously looking about.&n
+~
+The female deer looks very nervous but the reason for this is unknown,
+perhaps she's lost her young or she senses danger nearby.
+~
+2120 0 0 536944652 0 0 0 0 S
+A 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#12216
+ferret small~
+&+wa small ferret&n~
+&+wA small and harmless looking ferret is playing here.&n
+~
+It resembles a squirrel in some respects, except that it is very friendly
+and a bit smaller.
+~
+2248 0 0 0 0 0 0 0 S
+B 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#12217
+boar wild~
+&+ya wild boar&n~
+&+yA wild boar&+w roams about here, grunting and pawing the earth.&n
+~
+With a large barrel like body and long snout filled with razor sharp teeth,
+this hidious looking beast is ugly to behold.  Its fierceness matches its
+reputation quite well.
+~
+72 0 0 0 0 0 0 -1000 S
+A 0 0 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12218
+buffalo huge regal~
+&+ya huge buffalo&n~
+&+yA huge and regal looking buffalo&+w is grazing here.&n
+~
+With a thick brown coat and small sharp hornes, this huge beast is truely
+a sight to behold.  Its body would be enough meat to feed a family several
+weeks, if they were tough enough to bring him down.
+~
+72 0 0 300 28 0 0 250 S
+A 0 1 3
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12219
+horse wild~
+&+ya wild horse&n~
+&+yA wild horse&+w is grazing here, keeping a watchful eye on you.&n
+~
+It is a beautiful looking beast, standing six feet at the shoulder with a
+brown coat and black mane.  Its powerful front legs and muscled chest
+indicate that this horse can probably run quite fast.
+~
+134219848 0 0 0 0 0 0 0 S
+A 0 1 3
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#12220
+goat mountain~
+&+Wa mountain goat&n~
+&+WA mountain goat&+w is standing here, eyeing you with caution.&n
+~
+With white fur and an elongated snout, it looks like a normal goat in most
+respects, except in that it has two very long horns.  It is a gentle looking
+animal, feeding on the plants and foliage that grows at this altitude.
+~
+2120 0 0 0 0 0 0 0 S
+A 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

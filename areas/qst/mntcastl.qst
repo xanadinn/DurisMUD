@@ -1,0 +1,300 @@
+#37100
+M
+fool~
+Lord Du'Maathe chuckles politely.
+
+Lord Du'Maathe says 'My foolish friend, in these dark times
+one can be quite useful, or in my case quite repentant.
+Would a fool help another fool?.'
+~
+M
+help~
+Lord Du'Maathe says 'Yes, help.  I need someone such as
+yourself, for a task only one such as yourself is more than
+qualified.  You see in order that I can try and reverse my
+mistake, I must remove a problem.  Hiding somewhere in my
+lands is a great sapphire wyrm.  I would see its demise, and
+in return you shall not only aid me, but prove yourself
+worthy of mine intentions.  Of course on the other hand you
+could prove yourself dead.'
+
+Lord Du'Maathe chuckles politely.
+~
+M
+talent~
+Lord Du'Maathe smiles happily.
+
+Lord Du'Maathe says 'Well I am pleased to be able to use your
+services.  My friend the next task I set will not be easy I
+am afraid.  I will need you to find me the location of a small
+gem that I have lost.  It belongs to my key, is my belief.'
+
+Lord Du'Maathe fingers a key on a chain about his neck.
+
+Lord Du'Maathe says 'It is said that the key will unlock the
+secrets of the past, yet I have found no use of it in my stay
+here.  It is however missing a small gem from it.  It is my
+belief that the missing gem may hold the power to the key.
+Find me this gem, and perhapse you can aid me in unlocking
+the past.'
+~
+M
+hero~
+Lord Du'Maathe nods.
+
+Lord Du'Maathe says 'You know I was once called a hero, and
+in return I was awarded titles and this very castle in which
+you now stand.  A hero indeed.  Well as you can see even a
+hero can be defeated.  It is not uncommon in this day for
+anyone to claim to be such, I myself am skeptical, maybe due
+to age or just my own complacency.  I know not which.'
+
+Lord Du'Maathe sighs loudly.
+
+Lord Du'Maathe says 'Well I mean not to doubt you friend, but
+I will require some proof of the stature you claim.  Will you
+provide me with this proof?.
+~
+M
+proof~
+Lord Du'Maathe says 'Ah yes proof.  Well rather than send you
+on some major journey or ask to see any great feats, I will
+set you a task close to home, and a problem that I have.  I
+know it may sound selfish, but that is one of the few things
+I will or am still able to endulge.  I need a potion.  The
+potion I require is a fairly potent one, and one which may aid
+in my rehabilitation to an extent.  The potion I require is a
+'granular potion'.  Should you bring this to me, I will
+consider you worthy of the title you claim.'
+~
+Q
+Lord Du'Maathe says 'Well my foolish friend we meet again, and
+you have brought proof of your deeds, not a total fool I see.'
+
+Lord Du'Maathe chuckles politely.
+
+Lord Du'Maathe says 'Here is a small reward for your troubles,
+not much I know but a little more than I can afford.  I am
+pleased by your resourcefulness, and obvious cunning.  Can I
+offer the opportunity to put your talent to the test ?.'
+~
+R C 200000
+G I 37103
+Q
+Lord Du'Maathe smiles happily.
+
+Lord Du'Maathe says 'I extend to you my gratitude,
+whilst I feel a pang of guilt toward you for not
+warning you fully of the dangers involved.  I offer
+you this, a pitance, but more than I can afford at
+this point.'
+
+Lord Du'Maathe quaffs the potion.
+
+Lord Du'Maathe seems vitalized.
+
+Lord Du'Maathe says 'In my younger days I often
+travelled to gain the ingredients for the potion myself,
+yet as time has taken its toll on me I was simply no
+longer able.  Knowing the dangers involved, I am more
+inclined to believe your claim of heroism.  Tell me my
+friend, would you like to show me your talent further?'
+~
+R C 200000
+G I 37105
+Q
+Lord Du'Maathe grins wickedly.
+
+Lord Du'Maathe says 'Well it seems as though nothing is
+beyond you.  The past brought back to the present.'
+
+Lord Du'Maathe flips the small tooth in his hand.
+
+Lord Du'Maathe says 'A small tooth for all that trouble,
+it seems as though there is to be no easy answer to my
+troubles, I had hoped to live to see the day my realm was
+rid of this evil infestation.  Instead I shall die a sorry
+and lonely man.'
+
+&+RA burst of fire engulfs Lord Du'Maathe seering your skin!&n
+
+Lord Du'Maathe screams in pain.
+
+&+rThe fires slowly disapate.&n
+
+Lord Du'Maathe says 'I have seen the way to salvation, ask
+no questions as to how.  Take this key, and with it you will
+be able to defeat the plague of this my realm.  If you
+succeed you have my gratitude, if you fail, then I shall
+soon follow you into  the realm of death.'
+
+Lord Du'Maathe beams a smile at you.
+
+Lord Du'Maathe says 'Go now, and good luck.'
+~
+R I 37115
+G I 37114
+Q
+Lord Du'Maathe says 'It seems as though you cant dissappoint me.
+The gem is one of similar size to the key.  Let us see what is
+revealed.'
+
+Lord Du'Maathe stops using a necklace from which a small golden
+key hangs.
+
+Taking the gem, Lord Du'Maathe places it upon the key.
+
+&+WA bright flash sends your head reeling.&n
+
+As your vision clears, you see Lord Du'Maathe holding a small
+key with a black gem.
+
+Lord Du'Maathe says 'It seems as though it is indeed the right
+gem.  Here take this key and see what you can find.  I fear I
+am to old to have much use for the secrets it may unlock.'
+~
+R I 37100
+G I 37104
+S
+#37102
+M
+granular~
+&+LA &+wfrail man &+Lsays '&+WAh a &+ygr&+wanul&+yar &+Wpotion.  This I have not made
+&+Win quite sometime.  It is made of fairly common ingredients,
+&+Wmost of which are in plentiful supply.  The only problem is
+&+Wthat the final ingredient, a &+wfine &+ysand&+W, has been extremely
+&+Wscarce in supply.
+
+&+WHrmmm, since it's been such a long time since I last made
+&+Wthe &+ygr&+wanul&+yar &+Wpotion, I will also require you to bring me the
+&+Lrecipe &+Wfor it. Heavens! Sometimes I think I'd forget my own
+&+Wname if it didn't write it down...
+
+&+WBut should you find me that last ingredient and the &+Lrecipe&+W,
+&+WI will be happy to make the potion for you.'
+~
+M
+frost~
+&+LA &+wfrail man &+Lsays '&+WNow this is a potion I was fortunate enough
+&+Wto be able to discover how to make, yet since that day I have
+&+Wnever made another.  You see the main ingredient is that of a
+&+Wwhite dragon.  Whilst I need not explain to you the obvious
+&+Wdanger in obtaining this ingredient, I should tell you that
+&+WI would dearly like to make the potion again.&+L'&n
+~
+M
+protective~
+&+LA &+wfrail man &+Lsays '&+WThis potion is quite a powerful one indeed.
+&+WIt combines the forces of the known races together to form a
+&+Wprotective web about the user.  For this potion I will require
+&+Wa rod of &+ciron&+W, easy you may think but there is a twist.  The
+&+Wrod must be taken from a magical construct, in order that the
+&+Wpotion shall succeed.  The where abouts of such a creature
+&+Wis unknown to me.  The iron will form the basis of the
+&+Wpotion and lend it the strength require to protect the user.
+&+WIt is a task not without its risks, and one would be advised
+&+Wto exercise extreme caution whislt questing for it.&+L'&n
+~
+M
+hello hi howdy~
+&+LA &+wfrail man &+Lsays '&+WHello, yes I am the village conjurer though
+&+WI fear I am more an old man now.  I handle the day to day needs
+&+Wof the village so far as their magical needs go.  I make &+Lpotions
+&+Wand salves for them, and enchant their tools and weapons.&+L'
+
+&+LA &+wfrail man &+Lsmiles happily.&n
+~
+M
+potion potions~
+&+LA &+wfrail man &+Lsays '&+WAh yes potions.  I specialize in four potions,
+&+Wthose being: &+yGr&+wanul&+yar&+W, &+cFr&+wo&+cst&+W, &+mPro&+rtec&+ytive &+Wand &+yHomely &+Wpotions.  I
+&+Wwill gladly make any for you, should you provide the essential
+&+Wingrediants I am lacking.&+L'
+~
+M
+homely~
+&+LA &+wfrail man &+Lsays '&+WThis potion has been one that I have never been
+&+Wable to perfect.&+L'
+
+&+LA &+wfrail man &+Lsighs loudly.
+
+&+LA &+wfrail man &+Lsays '&+WI will still make it for you though, but its
+&+Wside effects in my opinion, outway its usefulness.  For me to
+&+Wmake it for you, I will need you to bring me a small white
+&+Wflower.&+L'&n
+~
+M
+recipe~
+&+LA &+wfrail man &+Lsays to you, '&+WYes, the recipe for the &+ygr&+wanul&+yar
+&+Wpotion is something that was given to me more than a decade
+&+Wago from a &+ghumble &+Yhermit&+W. I believe that old man has retired
+&+Wand now lives on an island somewhere on &+bLake Kilfray&+W.&+L'&n
+~
+M
+qc_action 80~
+&+LA &+wfrail man &+Lsmiles at you and says, '&+WWhy hello there young man.&+L'&n
+~
+Q
+A frail man says, 'Welcome back young traveler. I see you have
+collected the pieces I needed. So lets see! Ahhh yes, thats how
+you make it, now I remember...'
+
+A frail man quickly stirs together some strange ingredients and
+sprinkles the sand over the vial.
+
+A stinging sensation hits your skin as a fine spray of sand
+fills the room.
+
+A frail man says 'Well that is it I hope it serves you well.'
+~
+R I 37105
+G I 37106
+G I 97903
+Q
+A frail man says 'Ah, I must confess I did not expect to see
+you again.  Give me a few moments while I prepare the potion
+ingrediants.'
+
+A frail man gets various components from his shelves and grinds
+them into a paste.
+
+Taking the dragon horn, a frail man dips it into the potion paste.
+
+&+CA cold burst fills the room with numbing force.&n
+
+A frail man says 'My thanks to you for giving me the opportunity
+to make this potion again, may it serve you well.'
+~
+R I 37109
+G I 37108
+Q
+A frail man says 'Well it seems as though you have returned with
+the metal I need for the potion.  I wont be but a moment.'
+
+A frail man takes the curved rod and utters a few words.
+
+The curved rod turns to rust and flakes over the potion ingredients.
+
+A feeling of being protected washes over you and fades.
+
+A frail man says 'Well that is it, I hope that its use serves you well.'
+~
+R I 37111
+G I 37110
+Q
+A frail man says 'I must warn ye again that this potion has
+undesirable side effects that I have not been able to remove,
+but I will make it for you.'
+
+A frail man grinds a small white flower to paste.
+
+Adding to the paste a fine powder, the frail man utters some words.
+
+A feeling of home fills the room, and fades slowly away.
+
+A frail man says 'Use this carefully, and I have warned you
+of its bad side effects, I cant do anymore than that.'
+~
+R I 37122
+G I 37121
+S

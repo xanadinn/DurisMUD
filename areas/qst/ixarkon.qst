@@ -1,0 +1,127 @@
+#96419
+M
+hi hello~
+Ixaruuk turns to face you and addresses you thusly: 'Good day
+novice.  I presume that since you are in my tower you wish to
+assist me in my arcane studies correct?'
+~
+M
+arcane studies~
+Ixaruuk tells you 'I don't get out as much as I may once have.  I
+am beginning to lack in some of the essential spell components I
+need.'
+~
+M
+components~
+Ixaruuk tells you 'Yes.. I am running a bit short. If you could
+find me a mushroom spore, it would allow me to complete this
+spell that I have been working on.'
+~
+Q
+Ixaruuk turns to you and tells you 'Ah wonderful, I had begun to
+thought you had forgotten all about me.'
+Ixaruuk takes the mushroom spore from your hands.
+Ixaruuk tells you 'Exxxcccelllentt.'
+Ixaruuk grins evilly.
+Ixaruuk tells you 'Take this for your help.'
+~
+R C 25000
+R E 50000
+G I 96431
+S
+#96423
+M
+hi hello~
+The elder turns to you and tells you 'I am far to busy for
+pleasantries right now.'
+~
+M
+pleasantries busy~
+The elder exclaims 'Yes we are in the middle of a crisis!'
+~
+M
+crisis~
+The elder exclaims 'Yes.. we are at imminent war with
+Menzoberranzan. They will crush us unless we appease them, I do
+not think even Ilsensine could help us defeat such a powerful
+foe.'
+~
+M
+appease~
+The elder tells you 'It seems one of our slaving raids captured
+an important drow noble, and Menzoberranzan is quite upset over
+the whole affair.  They are willing to drop the issue if we
+return the important talisman that had been in his possession.'
+~
+M
+talisman~
+The elder tells you 'Yes some kind of token to that spider god of
+their's Lloth.  I have no idea where it is; it seems to have
+disappeared into the city somewhere.  I would reward you
+handsomely for finding this token.'
+~
+Q
+The elder takes the spider amulet from you, and seems to exhale a
+great sigh of relief.
+The elder tells you 'Hopefully this will avert the war against
+Menzoberranzan.'
+The elder tells you 'Take this as my reward for your service.'
+~
+R E 5500
+R I 96435
+G I 96434
+S
+#96436
+M
+hi hello~
+The drow sneers at you and says 'Unless you have business to
+undertake with me, begone.'
+~
+M
+business~
+The drow says 'Yes I eke out my existence here working as a
+banker to my oppressors.'
+~
+M
+menzoberranzan menzo~
+The drow exclaims 'Alas Menzoberranzan! It has been many years
+since I have seen my fair home.'
+~
+M
+drow~
+The drow whispers 'A few of my kind are taken as slaves by the
+mindflayers.  I do what I can to help, but I must be careful.'
+~
+M
+slaves slave~
+The drow whispers 'I saw my own brother being led through the
+tunnels of Ixarkon, and was nearly powerless to help him.  One
+thing I did manage though, was to secret away the amulet of Lloth
+that was in his possession.
+~
+M
+amulet~
+The drow whispers 'It is some holy relic, I know not what it
+does.  I for one have little faith in the Spider Queen.  I would
+part with the item only at a very dear cost.'
+~
+M
+cost~
+The drow whispers 'My price for the relic is two-fold. Kill the
+mindflayer responsible for mine and my brother's capture; I hear
+that he wears a red skullcap.  Bring this to me as proof.  Two, I
+wish 1000 platinum coins as payment that I may try to bribe my
+way to freedom.'
+~
+Q
+The drow whispers 'Yes.. this was the agreed upon price, I shall
+keep my end of the bargain.  My thanks for striking down that
+hated mindflayer.. I shall use this money to try and make my way
+back to Menzoberranzan.  If I hear you tell anyone of our deal,
+you shall not live long after the fact I swear it.'
+~
+R I 96434
+R E 50000
+G I 96414
+G C 1000000
+S

@@ -1,0 +1,295 @@
+#11200
+&+mCenter of the Arena&n~
+The center of the &+Marena&N is dominated by the view of the huge stone
+vat that contains the amorphous, &+MElder Brain&n.  Hard stone stretches
+out into the arena in every direction.  A tall, conical plateu has been
+erected in the center of this area, the steep slopes leading upward
+at an angle barely climbable.
+~
+112 32768 0
+D0
+~
+~
+0 0 11204
+D1
+~
+~
+0 0 11201
+D2
+~
+~
+0 0 11205
+D3
+~
+~
+0 0 11206
+D4
+~
+~
+0 0 11209
+S
+#11201
+&+mEastern Edge of the Arena&n~
+To the west a tall plateau rises out of the arena floor.  To the north
+and south the arena continues.
+~
+112 32768 0
+D0
+~
+~
+0 0 11202
+D2
+~
+~
+0 0 11203
+D3
+~
+~
+0 0 11200
+S
+#11202
+&+mNortheast Corner of the Arena&n~
+A small depression in the ground contains runoff from the damp walls
+in the northeastern corner of hte arena.  A slight trickle of water
+can be heard.  The sound has a somewhat soothing affect in this place
+of ritual violence.
+~
+112 32768 0
+D2
+~
+~
+0 0 11201
+D3
+~
+~
+0 0 11204
+S
+#11203
+&+mSoutheastern Corner of the Arena&n~
+The arena comes to a sharp, angular corner here.  The line where
+the southern, and eastern walls meet is jagged an uneven.
+~
+112 32768 0
+D0
+~
+~
+0 0 11201
+D3
+~
+~
+0 0 11205
+S
+#11204
+&+mNorth end of the Arena&n~
+The arena stretches out to the south from here.  The northern wall is made
+of smooth, black stone.  To the south a tall plateu stretches up above
+the floor of the arena.
+~
+112 32768 0
+D1
+~
+~
+0 0 11202
+D2
+~
+~
+0 0 11200
+D3
+~
+~
+0 0 11207
+S
+#11205
+&+mSouth End of the Arena&n~
+The southern wall of the arena stretches up into the darkness above.  To the
+north a tall plateau rises from the cavern floor.  The arena lies to the
+north, east, and west from here.
+~
+112 32768 0
+D0
+~
+~
+0 0 11200
+D1
+~
+~
+0 0 11203
+D3
+~
+~
+0 0 11208
+S
+#11206
+&+mWestern wall of the Arena&n~
+To the east, the arena continues.  The historical combat plateau of the
+illithids rises from the floor, up towards the &+MElder Brain&n.  A small
+tunnel in the west wall can be made out.
+~
+112 32768 0
+D0
+~
+~
+0 0 11207
+D1
+~
+~
+0 0 11200
+D2
+~
+~
+0 0 11208
+D3
+~
+~
+0 0 11210
+S
+#11207
+&+mNorthwest Corner of the Arena&n~
+The arena stretches out to the east and south from here. A bizarre
+patchwork scuplture of hundreds of illithid heads forms the twisted,
+rounded section that makes up the corner.
+~
+112 32768 0
+D1
+~
+~
+0 0 11204
+D2
+~
+~
+0 0 11206
+S
+#11208
+&+mSouthwest Corner of the Arena&n~
+The southwestern corner of the arena is strangely cooler than the rest of
+the arena.  The floor is rough, and a small outline or seam can be just
+made out.  The arena strethces out to the north and east from here.
+~
+112 32768 0
+D0
+~
+~
+0 0 11206
+D1
+~
+~
+0 0 11205
+D5
+~
+~
+5 0 11212
+S
+#11209
+&+mPlateau&N~
+The top of the plateau is approximately 15 feet across, with steep slopes
+leading down into the floor level of the arena.  The awesome intellect
+that is the &+MElder Brain&n lies above, creating an almost detectable
+static of power in the air.
+~
+112 32768 0
+D5
+~
+~
+0 0 11200
+S
+#11210
+&+mA Dark Tunnel~
+The tunnel is round and smooth, making footing difficult.  To the east
+the cavern of the great arena opens up, while to the west the tunnel
+continues into the darkness.
+~
+112 40960 0
+D1
+~
+~
+0 0 11206
+D3
+~
+~
+0 0 11211
+S
+#11211
+&+mA black room&n~
+This room is completely devoid of features.
+~
+112 2129920 0
+D0
+~
+~
+0 0 11213
+D1
+~
+~
+0 0 11210
+D2
+~
+~
+0 0 11214
+D3
+~
+~
+0 0 11215
+S
+#11212
+&+mPit Under the Arena&n~
+This dark hole is void of features.  A stone slab looks as if it could
+be wriggled into place above.  The ledge of the pet is just in reach,
+and could be climbed out of.
+~
+112 32768 0
+D4
+~
+secret~
+5 0 11208
+S
+#11213
+&+mA dead end&n~
+The tunnel dead ends into nothing in particular.
+~
+112 32768 0
+D2
+~
+~
+0 0 11211
+S
+#11214
+&+mA dead end&n~
+The tunnel dead ends into nothing in particualr.
+~
+112 32768 0
+D0
+~
+~
+0 0 11211
+S
+#11215
+&+mA dead end&n~
+The tunnel narrows farther into this dead end.
+~
+112 40960 0
+D1
+~
+~
+0 0 11211
+S
+#11216
+&+mArena Combatant Room 1&m~
+~
+112 0 0
+D5
+~
+~
+0 0 11200
+E
+default~
+~
+S
+#11217
+&+mArena Combatant Room 2&n~
+~
+112 0 0
+D5
+~
+~
+0 0 11200
+S

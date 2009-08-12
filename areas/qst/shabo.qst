@@ -1,0 +1,107 @@
+#32827
+M
+default hi hello quest~
+The filthy slave look at you, still a hint of recognition in his eyes.
+"Hello", he says, "it has been a long, long time since I have seen someone
+like you in these parts.  You don't carry the stench of the aboleth about
+you."
+~
+M
+aboleth slave illithid~
+The slave shudders.
+
+"Yes", he says, "the aboleth are horrible creatures.  I studied them
+for a long time before they finally caught me spying on them in from
+the shores of the Sunless Sea."
+
+"Did you know, at the heart of this city, they are building a huge
+tower of domination?"
+~
+M
+tower domination heart~
+"Yes, I had studied it for some time.  The Aboleth are using energy
+from four different types of magic, Alteration, Necromancy, Summoning,
+and Enchantment, and combining them with they're own Domination magics
+in the center, to form a magical energy that will project they're Domination
+over the land, enslaving much of the world"
+
+"The towers themselves are guarded by powerful magical wards, and hideous
+creatures and servants of the dark aboleth.  To enter the complex, one
+must know the proper entry phrase.  I used to have it, but I lost my
+notes when I was captured."
+~
+M
+notes phrase secret~
+The salve ponders you for a moment.
+
+"If you could retrieve my notes, I suspect that I could find out
+what the entry phrase to the tower complex was.  I'm sure my notes
+are lost within the city somewhere..."
+~
+Q
+"Ah...yes, these are my notes of study with the aboleth."
+
+He rifles through the notes momentarily...
+
+"Yes, here it is, &+LDarlakanand&N.  I know not what it means, but
+it has invoked fear in everyone I have mentioned it to here."
+~
+G I 32812
+S
+#32842
+M
+darkaland~
+"Greetings.  I am &+RPallistren&N, representative to Shaboath.  It is obvious
+that you are no friends of the aboleth, and are here under less than welcome
+circumstances.  Oh, don't worry, I won't alert the aboleth, they are
+more than capable of taking care of themselves."
+
+"I care little of what goes on on this plane, but the weaving of the magical
+arts that are taking place in the great towers of this city intigue me.  To
+date I have been unable to scry into them, however.  Unfortunately, I have
+not yet figured out how to enter them, to examine the magical undergoings
+more closely myself."
+~
+M
+default~
+Pallistren throws his head back and laughs.
+
+"Of course!", he exclaims, "I should have known.  Well, I thank you for
+the information.  For your help, I will allow you to live for a few years
+longer."
+~
+S
+#32878
+M
+hi hello quest~
+The ghost moans at you, "I was captured, enslaved, and sacrificed long ago
+by the evil aboleth, your destruction of the priests in this tower has
+released me.  Upon my death, I was granted a task by unseen powers to
+provide the means of entrance to the lair of the horrible creatures above.
+
+Bring me the essenses of the magics of each of the other four towers within
+this place, with them I may weaken the force which holds the passage to
+the top closed, and you may gain entry.  Be warned though, the opening
+will not last long..."
+~
+Q
+&+L  "I am amazed at your success and daring!  To win through
+&+L   to get the spheres is amazing, here, let me see them!"
+
+The ghost takes the spheres and fiddles with them for a moment,
+breathing small cantrips as its fingers twirl around the spheres.
+After a moment, a small hum vibrates the air and the ghost looks up..
+
+&+L  "Ahhh it was a success, here.. take this key, it leads up
+&+L  to the beginning of this evil.  Destroy the Grand Savant
+&+L  and all that is up in his vaults shall be yours."
+~
+R I 32847
+G I 32842
+G I 32843
+G I 32844
+G I 32845
+D
+The ghost fades away....
+~
+S

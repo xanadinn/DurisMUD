@@ -1,0 +1,442 @@
+#947
+&+LThe Deep &N&+yRavine&+L of Passage&N~
+94878 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 94714 1 8 100 0 0 0
+*     east exit from "Below a Wooden Bridge in a Fertile Ravine" to
+*     "A Dark and Secluded Lair" - open/blocked
+*
+D 0 94716 3 0 100 0 0 0
+*     west exit from "A Dark and Secluded Lair" to
+*     "Below a Wooden Bridge in a Fertile Ravine" - open
+*
+D 0 94726 5 2 100 0 0 0
+*     down exit from "A Small and Misty Cave" to
+*     "A Misty and Aphotic Tunnel" - closed/locked
+*
+D 0 94748 4 1 100 0 0 0
+*     up exit from "A Misty and Aphotic Tunnel" to
+*     "A Small and Misty Cave" - closed
+*
+D 0 94763 1 1 100 0 0 0
+*     east exit from "A Dark Chamber with Symbols of Truth and Runes of Chaos" to
+*     "The Tunnel of Darkness" - closed
+*
+D 0 94767 3 1 100 0 0 0
+*     west exit from "The Tunnel of Darkness" to
+*     "A Dark Chamber with Symbols of Truth and Runes of Chaos" - closed
+*
+D 0 94763 3 1 100 0 0 0
+*     west exit from "A Dark Chamber with Symbols of Truth and Runes of Chaos" to
+*     "The Tunnel of Light" - closed
+*
+D 0 94764 1 1 100 0 0 0
+*     east exit from "The Tunnel of Light" to
+*     "A Dark Chamber with Symbols of Truth and Runes of Chaos" - closed
+*
+D 0 94766 3 1 100 0 0 0
+*     west exit from "Before a Large Door in the Tunnel of Light" to
+*     "The Precious Gates of Ivory" - closed
+*
+D 0 94819 1 1 100 0 0 0
+*     east exit from "The Precious Gates of Ivory" to
+*     "Before a Large Door in the Tunnel of Light" - closed
+*
+D 0 94769 1 1 100 0 0 0
+*     east exit from "Before a Large Door in the Tunnel of Darkness" to
+*     "The Gateway To Annihilation" - closed
+*
+D 0 94770 3 1 100 0 0 0
+*     west exit from "The Gateway To Annihilation" to
+*     "Before a Large Door in the Tunnel of Darkness" - closed
+*
+D 0 94780 1 8 100 0 0 0
+*     east exit from "A Room of Paintings in the Labyrinth of Xatawan" to
+*     "A Dark Antechamber Before a Spiral" - open/blocked
+*
+D 0 94791 3 0 100 0 0 0
+*     west exit from "A Dark Antechamber Before a Spiral" to
+*     "A Room of Paintings in the Labyrinth of Xatawan" - open
+*
+D 0 94785 5 8 100 0 0 0
+*     down exit from "A Collapsed Dead-End of Rubble" to
+*     "A Cramped and Secret Labyrinth Tunnel" - open/blocked
+*
+D 0 94788 4 0 100 0 0 0
+*     up exit from "A Cramped and Secret Labyrinth Tunnel" to
+*     "A Collapsed Dead-End of Rubble" - open
+*
+D 0 94803 2 5 100 0 0 0
+*     south exit from "A Very Mossy Portion of the Web-Filled Tunnel" to
+*     "A Huge Damp and Web-Filled Cavern" - closed/secret
+*
+D 0 94805 0 1 100 0 0 0
+*     north exit from "A Huge Damp and Web-Filled Cavern" to
+*     "A Very Mossy Portion of the Web-Filled Tunnel" - closed
+*
+D 0 94819 0 2 100 0 0 0
+*     north exit from "The Precious Gates of Ivory" to
+*     "A Moonwell Through the Precious Gates of Ivory" - closed/locked
+*
+D 0 94820 2 2 100 0 0 0
+*     south exit from "A Moonwell Through the Precious Gates of Ivory" to
+*     "The Precious Gates of Ivory" - closed/locked
+*
+D 0 94840 5 8 100 0 0 0
+*     down exit from "A Collapsed Portion of the West Wing" to
+*     "A Rocky Cave-In in a Large Meeting Hall" - open/blocked
+*
+D 0 94842 4 8 100 0 0 0
+*     up exit from "A Rocky Cave-In in a Large Meeting Hall" to
+*     "A Collapsed Portion of the West Wing" - open/blocked
+*
+D 0 94845 0 2 100 0 0 0
+*     north exit from "An Exquisite Hallway Before a Massive Door" to
+*     "The Inner Sanctum of Borthur the Proud" - closed/locked
+*
+D 0 94846 2 1 100 0 0 0
+*     south exit from "The Inner Sanctum of Borthur the Proud" to
+*     "An Exquisite Hallway Before a Massive Door" - closed
+*
+D 0 94871 9 5 100 0 0 0
+*     southeast exit from "Corner of a Magma-Filled Cavern Littered With Rubble" to
+*     "A Rubble-Filled Cave-in" - closed/secret
+*
+D 0 94875 6 5 100 0 0 0
+*     northwest exit from "A Rubble-Filled Cave-in" to
+*     "Corner of a Magma-Filled Cavern Littered With Rubble" - closed/secret
+*
+D 0 94873 1 1 100 0 0 0
+*     east exit from "A Rocky Landing West of a Runed Wall" to
+*     "A Strange Runed Door In a Tunnel" - closed
+*
+D 0 94878 3 1 100 0 0 0
+*     west exit from "A Strange Runed Door In a Tunnel" to
+*     "A Rocky Landing West of a Runed Wall" - closed
+*
+*
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94708 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94709 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94710 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94711 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94712 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94713 100 0 0 0       * an exotic tropical flower
+O 0 94700 1 94714 100 0 0 0        * a large moss-covered rock
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94714 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94721 80 94715 100 0 0 0       * an exotic tropical flower
+O 0 94702 1 94725 100 0 0 0        * a huge tropical tree
+O 0 23616 1 94729 100 0 0 0        * (object type not in this .obj file)
+O 0 94720 1 94746 100 0 0 0        * bits of bones
+O 0 94703 1 94763 100 0 0 0        * a silver plaque
+O 0 94704 1 94763 100 0 0 0        * an obsidian plaque
+O 0 94705 1 94771 100 0 0 0        * a swirling portal of darkness
+O 0 94706 1 94772 100 0 0 0        * a swirling portal of darkness
+O 0 94707 1 94772 100 0 0 0        * a small obsidian sign
+O 0 94708 1 94785 100 0 0 0        * some rubble
+O 0 94709 1 94790 100 0 0 0        * an obsidian lever
+O 0 94741 1 94791 100 0 0 0        * a dark swirling portal
+O 0 94742 1 94792 100 0 0 0        * a dark swirling portal
+O 0 94711 1 94803 100 0 0 0        * some moss
+O 0 94717 1 94820 100 0 0 0        * a silver-colored moonwell
+O 0 94712 1 94821 100 0 0 0        * a small marble sign
+O 0 94718 1 94821 100 0 0 0        * a silver-colored moonwell
+O 0 94713 1 94840 100 0 0 0        * a huge pile of rocks and debris
+O 0 94714 1 94842 100 0 0 0        * a huge pile of rocks and debris
+O 0 94715 1 94843 100 0 0 0        * a titan's signet ring
+O 0 94719 1 94846 100 0 0 0        * a blazing portal
+O 0 94743 1 94847 100 0 0 0        * a blazing portal
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94855 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94723 26 94862 100 0 0 0       * a spore of ascomid fibers
+O 0 94725 1 94877 100 0 0 0        * a giant ivory altar
+*
+M 0 94726 4 94708 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94725 2 94709 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94727 2 94710 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94726 4 94711 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94725 2 94712 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94726 4 94713 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94727 2 94714 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94726 4 94715 100 0 0 0        * a tropical treant sapling
+G 1 94722 8 0 100 0 0 0            *    an exotic tropical flower
+M 0 94700 1 94716 100 0 0 0        * a displacer beast
+E 1 94701 1 15 100 0 0 0           *   a braid of black and blue fur
+M 0 94728 1 94722 100 0 0 0        * an exhausted thri-kreen
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94714 1 94723 100 0 0 0        * a minotaur
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94715 1 94723 100 0 0 0        * a short minotaur
+M 0 94724 1 94725 100 0 0 0        * a tired minotaur
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94757 1 94726 100 0 0 0        * Nahasp, the hermit
+M 0 94716 1 94744 100 0 0 0        * a relaxed tohr-kreen
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94717 2 94744 100 0 0 0        * a thri-kreen
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94717 2 94744 100 0 0 0        * a thri-kreen
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+M 0 94722 1 94747 100 0 0 0        * a harpy mother
+G 1 94730 7 0 100 0 0 0            *    a small coin pouch
+G 1 94731 1 0 100 0 0 0            *    some harpy claws
+M 0 94723 3 94747 100 0 0 0        * a baby harpy
+M 0 94723 3 94747 100 0 0 0        * a baby harpy
+M 0 94723 3 94747 100 0 0 0        * a baby harpy
+M 0 94730 3 94748 100 0 0 0        * a troglodyte
+M 0 94731 3 94750 100 0 0 0        * a troglodyte
+M 0 94731 3 94752 100 0 0 0        * a troglodyte
+M 0 94730 3 94757 100 0 0 0        * a troglodyte
+M 0 94731 3 94759 100 0 0 0        * a troglodyte
+M 0 94730 3 94761 100 0 0 0        * a troglodyte
+M 0 94729 1 94763 100 0 0 0        * a muscular troglodyte hunter
+E 1 94732 1 13 100 0 0 0           *   a thri-kreen carapace belt
+E 1 94733 1 16 100 0 0 0           *   a feathered stone axe
+M 0 94701 1 94770 100 0 0 0        * Vorclauz, guardian of annihilation
+M 0 94702 1 94772 100 0 0 0        * the spectre of Xatawan
+E 1 94728 1 16 100 0 0 0           *   a bone splinter stiletto
+M 0 94747 2 94776 100 0 0 0        * a blood red ooze
+M 0 94748 2 94776 100 0 0 0        * a nearly-invisible gheist
+M 0 94746 2 94779 100 0 0 0        * an undead minotaur
+M 0 94746 2 94780 100 0 0 0        * an undead minotaur
+M 0 94749 1 94782 100 0 0 0        * a horrified thri-kreen
+M 0 94745 2 94784 100 0 0 0        * a fomorian giant
+M 0 94748 2 94784 100 0 0 0        * a nearly-invisible gheist
+M 0 94743 3 94785 100 0 0 0        * a disgusting maggot
+M 0 94743 3 94785 100 0 0 0        * a disgusting maggot
+M 0 94743 3 94785 100 0 0 0        * a disgusting maggot
+M 0 94744 4 94785 100 0 0 0        * a tiny purple maggot
+M 0 94744 4 94785 100 0 0 0        * a tiny purple maggot
+M 0 94744 4 94785 100 0 0 0        * a tiny purple maggot
+M 0 94744 4 94785 100 0 0 0        * a tiny purple maggot
+M 0 94747 2 94785 100 0 0 0        * a blood red ooze
+M 0 94745 2 94787 100 0 0 0        * a fomorian giant
+M 0 94703 1 94791 100 0 0 0        * the vampire of Xatawan
+E 1 94739 1 3 100 0 0 0            *   a thick and bloodstained cowl
+M 0 94753 3 94792 100 0 0 0        * a large black spider
+M 0 94755 3 94793 100 0 0 0        * a huge black drider
+M 0 94755 3 94795 100 0 0 0        * a huge black drider
+M 0 94753 3 94797 100 0 0 0        * a large black spider
+M 0 94751 3 94799 100 0 0 0        * a screeching vampire bat
+M 0 94754 3 94801 100 0 0 0        * a thorny moss vine
+M 0 94752 1 94803 100 0 0 0        * a patch of moss
+M 0 94754 3 94803 100 0 0 0        * a thorny moss vine
+M 0 94754 3 94804 100 0 0 0        * a thorny moss vine
+M 0 94753 3 94805 100 0 0 0        * a large black spider
+M 0 94756 3 94807 100 0 0 0        * a vicious magenta drider
+M 0 94755 3 94810 100 0 0 0        * a huge black drider
+M 0 94756 3 94811 100 0 0 0        * a vicious magenta drider
+M 0 94756 3 94816 100 0 0 0        * a vicious magenta drider
+M 0 94750 1 94816 100 0 0 0        * a huge black spider
+M 0 94751 3 94816 100 0 0 0        * a screeching vampire bat
+M 0 94751 3 94818 100 0 0 0        * a screeching vampire bat
+M 0 94704 1 94819 100 0 0 0        * Oesh'lyn, the sage of truth
+M 0 94706 1 94821 100 0 0 0        * the image of Borthur
+M 0 94734 3 94822 100 0 0 0        * a titan guardsman
+M 0 94736 3 94824 100 0 0 0        * a young titan
+M 0 94735 2 94826 100 0 0 0        * a titan commoner
+M 0 94737 2 94828 100 0 0 0        * a frenzied air elemental
+M 0 94736 3 94829 100 0 0 0        * a young titan
+M 0 94734 3 94829 100 0 0 0        * a titan guardsman
+M 0 94736 3 94830 100 0 0 0        * a young titan
+M 0 94737 2 94836 100 0 0 0        * a frenzied air elemental
+M 0 94732 2 94836 100 0 0 0        * a storming air sylph
+M 0 94732 2 94837 100 0 0 0        * a storming air sylph
+M 0 94735 2 94837 100 0 0 0        * a titan commoner
+M 0 94734 3 94840 100 0 0 0        * a titan guardsman
+M 0 94705 1 94843 100 0 0 0        * a titan contracter
+M 0 94733 1 94845 100 0 0 0        * a titan bodyguard
+E 1 94736 1 11 100 0 0 0           *   a magnificent white marble shield
+M 0 94707 1 94846 100 0 0 0        * Borthur the Proud
+E 1 94737 1 15 100 0 0 0           *   a marble and ivory bracer
+M 0 94739 7 94849 100 0 0 0        * a fiery cave wyrm
+M 0 94741 4 94852 100 0 0 0        * a flame bat
+M 0 94739 7 94853 100 0 0 0        * a fiery cave wyrm
+M 0 94739 7 94856 100 0 0 0        * a fiery cave wyrm
+M 0 94741 4 94856 100 0 0 0        * a flame bat
+M 0 94739 7 94856 100 0 0 0        * a fiery cave wyrm
+M 0 94741 4 94859 100 0 0 0        * a flame bat
+M 0 94742 3 94859 100 0 0 0        * a lava beast
+M 0 94739 7 94859 100 0 0 0        * a fiery cave wyrm
+M 0 94740 3 94860 100 0 0 0        * a magma man
+M 0 94741 4 94860 100 0 0 0        * a flame bat
+M 0 94758 2 94862 100 0 0 0        * a vegepygmy
+M 0 94759 2 94862 100 0 0 0        * an elder vegepygmy
+M 0 94759 2 94862 100 0 0 0        * an elder vegepygmy
+M 0 94758 2 94862 100 0 0 0        * a vegepygmy
+M 0 94760 1 94862 100 0 0 0        * an ancient vegepygmy
+G 1 94734 1 0 100 0 0 0            *    some moss and fungus-covered sleeves
+M 0 94739 7 94866 100 0 0 0        * a fiery cave wyrm
+M 0 94742 3 94866 100 0 0 0        * a lava beast
+M 0 94739 7 94866 100 0 0 0        * a fiery cave wyrm
+M 0 94740 3 94867 100 0 0 0        * a magma man
+M 0 94740 3 94868 100 0 0 0        * a magma man
+M 0 94742 3 94868 100 0 0 0        * a lava beast
+M 0 94763 1 94871 100 0 0 0        * a minotaur adventurer
+E 1 94740 1 20 100 0 0 0           *   a harpy feather mask
+M 0 94738 1 94872 100 0 0 0        * a spirit of an archaic dwarven cleric
+M 0 94708 1 94875 100 0 0 0        * a scheming pech miner
+G 1 94738 1 0 100 0 0 0            *    a rare fire opal
+G 1 53610 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 53610 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94709 6 94876 100 0 0 0        * a mountain eagle
+M 0 94710 6 94876 100 0 0 0        * a rock spider
+M 0 94712 6 94876 100 0 0 0        * a mountain goat
+M 0 94719 6 94876 100 0 0 0        * a rock lizard
+M 0 94720 6 94876 100 0 0 0        * a black stag
+M 0 94721 6 94876 100 0 0 0        * a large black stag
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94713 5 94876 100 0 0 0        * a small harpy
+M 0 94713 5 94876 100 0 0 0        * a small harpy
+M 0 94713 5 94876 100 0 0 0        * a small harpy
+M 0 94713 5 94876 100 0 0 0        * a small harpy
+M 0 94713 5 94876 100 0 0 0        * a small harpy
+M 0 94718 4 94876 100 0 0 0        * a harpy
+M 0 94718 4 94876 100 0 0 0        * a harpy
+M 0 94718 4 94876 100 0 0 0        * a harpy
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94711 9 94876 100 0 0 0        * a young thri-kreen
+M 0 94718 4 94876 100 0 0 0        * a harpy
+M 0 94762 1 94877 100 0 0 0        * a titan holyman
+E 1 94735 1 3 100 0 0 0            *   an ivory titan holy cross
+*
+S

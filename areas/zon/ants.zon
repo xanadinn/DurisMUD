@@ -1,0 +1,130 @@
+#109
+&+CAnt &+WForest&n~
+10940 2 0 30 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 10903 0 5 100 0 0 0
+*     north exit from "Within a Dark Snowy Forest" to
+*     "Within a Dark Snowy Forest" - closed/secret
+*
+D 0 10904 2 1 100 0 0 0
+*     south exit from "Within a Dark Snowy Forest" to
+*     "Within a Dark Snowy Forest" - closed
+*
+D 0 10903 3 5 100 0 0 0
+*     west exit from "Within a Dark Snowy Forest" to
+*     "A Path Within a Dark Snowy Forest" - closed/secret
+*
+D 0 10905 1 1 100 0 0 0
+*     east exit from "A Path Within a Dark Snowy Forest" to
+*     "Within a Dark Snowy Forest" - closed
+*
+D 0 10904 5 13 100 0 0 0
+*     down exit from "Within a Dark Snowy Forest" to
+*     "A Tunnel of Frosty Ice" - closed/secret/blocked
+*
+D 0 10908 4 0 100 0 0 0
+*     up exit from "A Tunnel of Frosty Ice" to
+*     "Within a Dark Snowy Forest" - open
+*
+D 0 10910 5 5 100 0 0 0
+*     down exit from "A Tunnel of Frosty Ice" to
+*     "An Enclave in the Tunnel of Frosty Ice" - closed/secret
+*
+D 0 10916 4 1 100 0 0 0
+*     up exit from "An Enclave in the Tunnel of Frosty Ice" to
+*     "A Tunnel of Frosty Ice" - closed
+*
+D 0 10915 0 0 100 0 0 0
+*     north exit from "A Tunnel of Frosty Ice" to
+*     "A Tunnel of Melting Ice" - open
+*
+D 0 10917 2 0 100 0 0 0
+*     south exit from "A Tunnel of Melting Ice" to
+*     "A Tunnel of Frosty Ice" - open
+*
+D 0 10917 5 5 100 0 0 0
+*     down exit from "A Tunnel of Melting Ice" to
+*     "A Foul Smelling Rift" - closed/secret
+*
+D 0 10938 4 1 100 0 0 0
+*     up exit from "A Foul Smelling Rift" to
+*     "A Tunnel of Melting Ice" - closed
+*
+*
+O 0 10900 1 10904 100 0 0 0        * a broken ant leg
+O 0 10901 1 10904 100 0 0 0        * a butchered ant corpse
+O 0 10902 1 10916 100 0 0 0        * a handprint
+*
+M 0 10900 1 10901 100 0 0 0        * the frost ant warrior
+M 0 10901 15 10903 100 0 0 0       * a little snow hare
+M 0 10901 15 10903 100 0 0 0       * a little snow hare
+M 0 10901 15 10905 100 0 0 0       * a little snow hare
+M 0 10901 15 10907 100 0 0 0       * a little snow hare
+M 0 10901 15 10907 100 0 0 0       * a little snow hare
+M 0 10901 15 10907 100 0 0 0       * a little snow hare
+M 0 10902 20 10908 100 0 0 0       * the frost ant worker
+M 0 10902 20 10909 100 0 0 0       * the frost ant worker
+M 0 10902 20 10910 100 0 0 0       * the frost ant worker
+M 0 10902 20 10911 100 0 0 0       * the frost ant worker
+M 0 10902 20 10912 100 0 0 0       * the frost ant worker
+M 0 10902 20 10913 100 0 0 0       * the frost ant worker
+M 0 10902 20 10914 100 0 0 0       * the frost ant worker
+M 0 10902 20 10915 100 0 0 0       * the frost ant worker
+M 0 10903 1 10916 100 0 0 0        * the ant supervisor
+M 0 10904 8 10923 100 0 0 0        * the larvae handler
+M 0 10905 24 10923 100 0 0 0       * a frozen larva
+M 0 10905 24 10923 100 0 0 0       * a frozen larva
+M 0 10905 24 10923 100 0 0 0       * a frozen larva
+M 0 10904 8 10924 100 0 0 0        * the larvae handler
+M 0 10905 24 10924 100 0 0 0       * a frozen larva
+M 0 10905 24 10924 100 0 0 0       * a frozen larva
+M 0 10905 24 10924 100 0 0 0       * a frozen larva
+M 0 10904 8 10925 100 0 0 0        * the larvae handler
+M 0 10905 24 10925 100 0 0 0       * a frozen larva
+M 0 10905 24 10925 100 0 0 0       * a frozen larva
+M 0 10905 24 10925 100 0 0 0       * a frozen larva
+M 0 10904 8 10926 100 0 0 0        * the larvae handler
+M 0 10905 24 10926 100 0 0 0       * a frozen larva
+M 0 10905 24 10926 100 0 0 0       * a frozen larva
+M 0 10905 24 10926 100 0 0 0       * a frozen larva
+M 0 10904 8 10927 100 0 0 0        * the larvae handler
+M 0 10905 24 10927 100 0 0 0       * a frozen larva
+M 0 10905 24 10927 100 0 0 0       * a frozen larva
+M 0 10905 24 10927 100 0 0 0       * a frozen larva
+M 0 10904 8 10928 100 0 0 0        * the larvae handler
+M 0 10905 24 10928 100 0 0 0       * a frozen larva
+M 0 10905 24 10928 100 0 0 0       * a frozen larva
+M 0 10905 24 10928 100 0 0 0       * a frozen larva
+M 0 10904 8 10929 100 0 0 0        * the larvae handler
+M 0 10905 24 10929 100 0 0 0       * a frozen larva
+M 0 10905 24 10929 100 0 0 0       * a frozen larva
+M 0 10905 24 10929 100 0 0 0       * a frozen larva
+M 0 10906 8 10929 100 0 0 0        * the ant colony keeper
+M 0 10904 8 10930 100 0 0 0        * the larvae handler
+M 0 10905 24 10930 100 0 0 0       * a frozen larva
+M 0 10905 24 10930 100 0 0 0       * a frozen larva
+M 0 10905 24 10930 100 0 0 0       * a frozen larva
+M 0 10908 16 10931 100 0 0 0       * the arctic panther
+M 0 10908 16 10931 100 0 0 0       * the arctic panther
+M 0 10908 16 10932 100 0 0 0       * the arctic panther
+M 0 10908 16 10932 100 0 0 0       * the arctic panther
+M 0 10908 16 10933 100 0 0 0       * the arctic panther
+M 0 10908 16 10933 100 0 0 0       * the arctic panther
+M 0 10908 16 10934 100 0 0 0       * the arctic panther
+M 0 10908 16 10935 100 0 0 0       * the arctic panther
+M 0 10908 16 10936 100 0 0 0       * the arctic panther
+M 0 10908 16 10937 100 0 0 0       * the arctic panther
+M 0 10908 16 10937 100 0 0 0       * the arctic panther
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10907 6 10938 100 0 0 0        * a pool of nauseous slime
+M 0 10906 8 10939 100 0 0 0        * the ant colony keeper
+E 1 10903 1 6 100 0 0 0            *   a crown of ethereal frost
+*
+S

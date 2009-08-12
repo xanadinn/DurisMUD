@@ -1,0 +1,151 @@
+#!/usr/bin/env ruby
+#
+# This script renumbers the vnums of a duris world file
+# any any exits to the same map
+#
+# October 2007 - Torgal
+#
+# syntax: renumber <filename> <new starting vnum>
+# outputs: <filename>.out
+
+def get_room_vnums(filename)
+  puts "Reading vnums..."
+  state = 0
+  dir_state = 0
+  vnums = []
+  
+  File.open(filename, "r") do |infile|
+    while (line = infile.gets)
+      case state
+      when 0
+        vnum = line.scan(/^#(\d+)$/)[0][0].to_i
+        vnums << vnum          
+        state = 1
+      when 1
+        state = 2
+      when 2
+        state = 3 if line =~ /^~$/
+      when 3
+        state = 4
+      when 4
+        if line =~ /^S$/
+          state = 0
+        else
+          case dir_state
+          when 0
+            dir_state = 1
+          when 1
+            dir_state = 2
+          when 2
+            dir_state = 3
+          when 3
+            dir_state = 0
+          end
+        end
+      end
+    end
+  end
+  
+  return vnums
+end
+
+def get_vnum_map(vnums, start)
+  puts "Generating vnum map..."
+  vnum_map = {}
+  next_vnum = start
+  vnums.each do |vnum|
+    vnum_map[vnum.to_i] = next_vnum
+    next_vnum += 1
+  end
+  return vnum_map
+end
+
+# 0: read room vnum
+# 1: room name ~
+# 2: room desc, new line, ~
+# 3: flags
+# 4: room exits S
+#
+# room exit:
+#  direction
+#  string ~
+#  string ~
+#  int, int, to_room
+#
+
+def convert_vnums(filename, start)
+  puts "Converting vnums..."
+  state = 0
+  dir_state = 0
+  exits_changed = 0
+
+  orig_vnums = get_room_vnums(filename)
+  
+  puts "#{orig_vnums.size} rooms"
+
+  vnum_map = get_vnum_map(orig_vnums, start)
+  
+  File.open(filename, "r") do |infile|
+    File.open(filename+".out", "w+") do |outfile|
+      while (line = infile.gets)
+        case state
+        when 0
+          vnum = line.scan(/^#(\d+)$/)[0][0].to_i
+          
+          unless vnum_map[vnum].nil?
+            line.gsub!(/#{vnum}/, vnum_map[vnum].to_s)
+          end
+          
+          state = 1
+          outfile.puts line
+        when 1
+          state = 2
+          outfile.puts line
+        when 2
+          state = 3 if line =~ /^~$/
+          outfile.puts line
+        when 3
+          state = 4
+          outfile.puts line
+        when 4
+          if line =~ /^S$/
+            state = 0
+            outfile.puts line
+          else
+            case dir_state
+            when 0
+              outfile.puts line
+              dir_state = 1
+            when 1
+              outfile.puts line
+              dir_state = 2
+            when 2
+              outfile.puts line
+              dir_state = 3
+            when 3
+              vnum = line.scan(/^(\d+) (\d+) (\d+)$/)[0][2].to_i
+              
+              unless vnum_map[vnum].nil?
+                line.gsub!(/#{vnum}/, vnum_map[vnum].to_s)
+                exits_changed += 1
+              end
+              
+              outfile.puts line
+              dir_state = 0
+            end
+          end
+        end
+      end
+    end
+  end
+  
+  puts "#{exits_changed} exits changed"
+end
+
+if ARGV.size != 2
+  puts "renumber takes a duris wld file and renumbers the vnums and any internal exits"
+  puts "syntax: renumber <filename.wld> <new starting vnum>"
+  exit
+else
+  convert_vnums(ARGV[0], ARGV[1].to_i)
+end

@@ -1,0 +1,68 @@
+#261
+&+rThe Lair of the &+gSw&+mam&+gp Troll &+rKing&n~
+26134 0 0 35 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 26100 5 2 100 0 0 0
+*     down exit from "Quicksand" to
+*     "Beneath the Sand" - closed/locked
+*
+D 0 26101 4 2 100 0 0 0
+*     up exit from "Beneath the Sand" to
+*     "Quicksand" - closed/locked
+*
+D 0 26101 5 2 100 0 0 0
+*     down exit from "Beneath the Sand" to
+*     "A Large Dirty Tunnel" - closed/locked
+*
+D 0 26102 4 2 100 0 0 0
+*     up exit from "A Large Dirty Tunnel" to
+*     "Beneath the Sand" - closed/locked
+*
+D 0 26132 1 2 100 0 0 0
+*     east exit from "A Large Chamber" to
+*     "The King's Chambers" - closed/locked
+*
+D 0 26133 3 2 100 0 0 0
+*     west exit from "The King's Chambers" to
+*     "A Large Chamber" - closed/locked
+*
+*
+O 0 359 1 26133 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 26003 1 26100 100 0 0 0        * (mob type not in this .mob file)
+M 0 26004 19 26103 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26106 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26109 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26112 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26115 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26117 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26118 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26119 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26120 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26120 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26122 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26123 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26124 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26124 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26126 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26128 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26129 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26129 100 0 0 0       * (mob type not in this .mob file)
+M 0 26004 19 26130 100 0 0 0       * (mob type not in this .mob file)
+M 0 26005 3 26132 100 0 0 0        * (mob type not in this .mob file)
+G 1 26011 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 26005 3 26132 100 0 0 0        * (mob type not in this .mob file)
+M 0 26005 3 26132 100 0 0 0        * (mob type not in this .mob file)
+M 0 26006 1 26133 100 0 0 0        * (mob type not in this .mob file)
+G 1 67238 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 26012 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 26014 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 26013 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 55185 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 26011 2 26133 100 0 0 0        * (mob type not in this .mob file)
+M 0 26011 2 26133 100 0 0 0        * (mob type not in this .mob file)
+*
+S

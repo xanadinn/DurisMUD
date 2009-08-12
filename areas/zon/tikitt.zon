@@ -1,0 +1,483 @@
+#441
+&+WLo&+wst &+WTe&+wmple of &+GTikitzopl&n~
+44334 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 44101 5 5 100 0 0 0
+*     down exit from "Entrance to an Ancient Temple" to
+*     "A Tight Passage" - closed/secret
+*
+D 0 44102 4 1 100 0 0 0
+*     up exit from "A Tight Passage" to
+*     "Entrance to an Ancient Temple" - closed
+*
+D 0 44102 5 5 100 0 0 0
+*     down exit from "A Tight Passage" to
+*     "A Cramped Room" - closed/secret
+*
+D 0 44113 4 1 100 0 0 0
+*     up exit from "A Cramped Room" to
+*     "A Tight Passage" - closed
+*
+D 0 44113 5 5 100 0 0 0
+*     down exit from "A Cramped Room" to
+*     "A Tiny Room" - closed/secret
+*
+D 0 44144 4 1 100 0 0 0
+*     up exit from "A Tiny Room" to
+*     "A Cramped Room" - closed
+*
+D 0 44118 2 5 100 0 0 0
+*     south exit from "A Small Hallway Deep in the Temple" to
+*     "A Long, Dark Hallway" - closed/secret
+*
+D 0 44122 0 5 100 0 0 0
+*     north exit from "A Long, Dark Hallway" to
+*     "A Small Hallway Deep in the Temple" - closed/secret
+*
+D 0 44144 5 5 100 0 0 0
+*     down exit from "A Tiny Room" to
+*     "A Hidden Passage" - closed/secret
+*
+D 0 44205 4 1 100 0 0 0
+*     up exit from "A Hidden Passage" to
+*     "A Tiny Room" - closed
+*
+D 0 44149 3 5 100 0 0 0
+*     west exit from "A Short Hallway Within the Temple" to
+*     "A Long Hallway Deeper in the Temple" - closed/secret
+*
+D 0 44153 1 5 100 0 0 0
+*     east exit from "A Long Hallway Deeper in the Temple" to
+*     "A Short Hallway Within the Temple" - closed/secret
+*
+D 0 44157 2 5 100 0 0 0
+*     south exit from "A Long Hallway Deeper in the Temple" to
+*     "The Hall of Elements" - closed/secret
+*
+D 0 44169 0 5 100 0 0 0
+*     north exit from "The Hall of Elements" to
+*     "A Long Hallway Deeper in the Temple" - closed/secret
+*
+D 0 44205 5 5 100 0 0 0
+*     down exit from "A Hidden Passage" to
+*     "Temple of Necromancy" - closed/secret
+*
+D 0 44309 4 1 100 0 0 0
+*     up exit from "Temple of Necromancy" to
+*     "A Hidden Passage" - closed
+*
+D 0 44209 0 6 100 0 0 0
+*     north exit from "A Blazing Inferno" to
+*     "A Smooth Corridor of Stone" - closed/locked/secret
+*
+D 0 44214 2 5 100 0 0 0
+*     south exit from "A Smooth Corridor of Stone" to
+*     "A Blazing Inferno" - closed/secret
+*
+D 0 44214 0 5 100 0 0 0
+*     north exit from "A Smooth Corridor of Stone" to
+*     "A Long Corridor of Marble" - closed/secret
+*
+D 0 44230 2 5 100 0 0 0
+*     south exit from "A Long Corridor of Marble" to
+*     "A Smooth Corridor of Stone" - closed/secret
+*
+D 0 44240 2 5 100 0 0 0
+*     south exit from "A Long Corridor of Marble" to
+*     "A Hall of Gold" - closed/secret
+*
+D 0 44254 0 5 100 0 0 0
+*     north exit from "A Hall of Gold" to
+*     "A Long Corridor of Marble" - closed/secret
+*
+D 0 44257 2 6 100 0 0 0
+*     south exit from "A Hall of Gold" to
+*     "Entrance to the Kings Chambers" - closed/locked/secret
+*
+D 0 44286 0 1 100 0 0 0
+*     north exit from "Entrance to the Kings Chambers" to
+*     "A Hall of Gold" - closed
+*
+D 0 44265 1 6 100 0 0 0
+*     east exit from "A Hall of Gold" to
+*     "Entrance to the Guards Chambers" - closed/locked/secret
+*
+D 0 44291 3 2 100 0 0 0
+*     west exit from "Entrance to the Guards Chambers" to
+*     "A Hall of Gold" - closed/locked
+*
+D 0 44290 5 14 100 0 0 0
+*     down exit from "Altar of the Kings" to
+*     "Treasure Room" - closed/locked/secret/blocked
+*
+D 0 44296 4 2 100 0 0 0
+*     up exit from "Treasure Room" to
+*     "Altar of the Kings" - closed/locked
+*
+D 0 44298 2 6 100 0 0 0
+*     south exit from "A Huge Treasure Room" to
+*     "A Barren Room" - closed/locked/secret
+*
+D 0 44322 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Huge Treasure Room" - closed/locked
+*
+D 0 44310 5 5 100 0 0 0
+*     down exit from "Temple of Necromancy" to
+*     "A Hidden Chamber" - closed/secret
+*
+D 0 44313 4 1 100 0 0 0
+*     up exit from "A Hidden Chamber" to
+*     "Temple of Necromancy" - closed
+*
+D 0 44322 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44327 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44327 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44328 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44328 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44329 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44329 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44330 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44330 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44331 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44331 2 2 100 0 0 0
+*     south exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+D 0 44332 0 2 100 0 0 0
+*     north exit from "A Barren Room" to
+*     "A Barren Room" - closed/locked
+*
+*
+O 0 44104 1 44205 100 0 0 0        * a few coins
+O 0 44100 1 44290 100 0 0 0        * a majestic altar
+O 0 44184 1 44294 100 0 0 0        * a rack
+P 1 44185 3 44184 100 0 0 0        *   a yellow vial
+P 1 44185 3 44184 100 0 0 0        *   a yellow vial
+O 0 44186 1 44294 100 0 0 0        * a cot
+P 1 44189 1 44186 100 0 0 0        *   a key made of gems and gold
+O 0 44161 1 44299 100 0 0 0        * a royal dagger of platinum
+O 0 44163 1 44299 100 0 0 0        * the cloak of Kings
+O 0 44194 1 44299 100 0 0 0        * the boots of a MaDMaN
+O 0 44160 1 44299 100 0 0 0        * the royal sword of platinum
+O 0 44162 1 44300 100 0 0 0        * a small pile of coins
+O 0 44193 1 44313 100 0 0 0        * journal
+O 0 44165 1 44333 100 0 0 0        * a high altar
+P 1 44164 1 44165 100 0 0 0        *   the magical Orb of Insanity
+O 0 44190 1 44333 100 0 0 0        * a dazzling array of lights
+O 0 44195 1 44333 100 0 0 0        * the frayed ends of sanity
+O 0 44196 1 44333 100 0 0 0        * the great helm of mysticism
+O 0 44185 3 44333 100 0 0 0        * a yellow vial
+O 0 360 1 44333 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 44113 7 44102 100 0 0 0        * an undead guard
+M 0 44102 2 44103 100 0 0 0        * a ghast
+M 0 44104 2 44104 100 0 0 0        * a rotting zombie
+E 1 44142 6 16 100 0 0 0           *   a sharp piece of stone
+M 0 44103 5 44106 100 0 0 0        * a skeleton
+M 0 44103 5 44110 100 0 0 0        * a skeleton
+M 0 44106 1 44111 100 0 0 0        * an evil mage
+E 1 44126 1 21 100 0 0 0           *   an earring of power
+E 1 44105 1 24 100 0 0 0           *   the emblem of knowledge
+F 1 44107 34 44111 100 0 0 0       * an undead guard (following)
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44108 1 44112 100 0 0 0        * a traitorous warrior
+E 1 44127 1 21 100 0 0 0           *   an earring of courage
+E 1 44106 1 24 100 0 0 0           *   the emblem of strength
+F 1 44107 34 44112 100 0 0 0       * an undead guard (following)
+G 1 44144 21 0 100 0 0 0           *    a standard issue sword
+M 0 44109 2 44113 100 0 0 0        * a skeleton
+M 0 44169 2 44113 100 0 0 0        * a skeleton
+M 0 44104 2 44115 100 0 0 0        * a rotting zombie
+M 0 44105 1 44117 100 0 0 0        * a Ghost
+M 0 44113 7 44119 100 0 0 0        * an undead guard
+M 0 44113 7 44122 100 0 0 0        * an undead guard
+M 0 44103 5 44125 100 0 0 0        * a skeleton
+M 0 44111 7 44126 100 0 0 0        * a rotting zombie
+M 0 44103 5 44130 100 0 0 0        * a skeleton
+M 0 44102 2 44132 100 0 0 0        * a ghast
+M 0 44111 7 44136 100 0 0 0        * a rotting zombie
+M 0 44111 7 44137 100 0 0 0        * a rotting zombie
+M 0 44107 34 44138 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44114 1 44139 100 0 0 0        * a dark assassin
+E 1 44140 1 16 100 0 0 0           *   a royal copper dagger
+G 1 44141 1 0 100 0 0 0            *    a jagged stone shard
+F 1 44107 34 44139 100 0 0 0       * an undead guard (following)
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44107 34 44140 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44115 1 44141 100 0 0 0        * a humungous warrior
+E 1 44139 1 16 100 0 0 0           *   a huge chunk of wall
+G 1 44138 1 0 100 0 0 0            *    a royal sword of silver
+M 0 44107 34 44141 100 0 0 0       * an undead guard
+G 1 44144 21 0 100 0 0 0           *    a standard issue sword
+M 0 44107 34 44142 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44116 1 44143 100 0 0 0        * a troll warrior
+E 1 44136 1 11 100 0 0 0           *   a spiked tower shield
+E 1 44137 1 16 100 0 0 0           *   a long scythe
+F 1 44107 34 44143 100 0 0 0       * an undead guard (following)
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44149 3 44144 100 0 0 0        * a wraith
+M 0 44113 7 44145 100 0 0 0        * an undead guard
+M 0 44111 7 44146 100 0 0 0        * a rotting zombie
+M 0 44113 7 44149 100 0 0 0        * an undead guard
+M 0 44113 7 44153 100 0 0 0        * an undead guard
+M 0 44113 7 44157 100 0 0 0        * an undead guard
+M 0 44110 2 44164 100 0 0 0        * a ghast
+M 0 44111 7 44165 100 0 0 0        * a rotting zombie
+M 0 44109 2 44167 100 0 0 0        * a skeleton
+M 0 44103 5 44168 100 0 0 0        * a skeleton
+M 0 44118 6 44169 100 0 0 0        * a royal guard
+M 0 44107 34 44171 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44118 6 44172 100 0 0 0        * a royal guard
+E 1 44146 5 16 100 0 0 0           *   a royal guard scimitar
+F 1 44107 34 44172 100 0 0 0       * an undead guard (following)
+M 0 44122 5 44174 100 0 0 0        * an elder mage
+M 0 44119 5 44178 100 0 0 0        * a royal guard
+E 1 44152 6 15 100 0 0 0           *   a glistening bracelet
+F 1 44107 34 44178 100 0 0 0       * an undead guard (following)
+M 0 44122 5 44181 100 0 0 0        * an elder mage
+M 0 44107 34 44183 100 0 0 0       * an undead guard
+M 0 44120 5 44184 100 0 0 0        * a royal guard
+F 1 44107 34 44184 100 0 0 0       * an undead guard (following)
+M 0 44122 5 44186 100 0 0 0        * an elder mage
+M 0 44121 6 44190 100 0 0 0        * a royal guard
+F 1 44107 34 44190 100 0 0 0       * an undead guard (following)
+M 0 44107 34 44191 100 0 0 0       * an undead guard
+M 0 44124 1 44193 100 0 0 0        * a huge earth elemental
+F 1 44123 5 44193 100 0 0 0        * a huge earth elemental (following)
+M 0 44123 5 44194 100 0 0 0        * a huge earth elemental
+F 1 44125 1 44194 100 0 0 0        * a huge earth elemental (following)
+M 0 44126 1 44195 100 0 0 0        * the guardian of the altar
+G 1 44117 1 0 100 0 0 0            *    a shard of stone
+F 1 44123 5 44195 100 0 0 0        * a huge earth elemental (following)
+M 0 44128 1 44196 100 0 0 0        * a huge water elemental
+F 1 44127 4 44196 100 0 0 0        * a huge water elemental (following)
+M 0 44127 4 44197 100 0 0 0        * a huge water elemental
+F 1 44129 2 44197 100 0 0 0        * a huge water elemental (following)
+M 0 44130 1 44198 100 0 0 0        * the guardian of the altar
+G 1 44118 1 0 100 0 0 0            *    a shard of water
+F 1 44129 2 44198 100 0 0 0        * a huge water elemental (following)
+M 0 44132 2 44199 100 0 0 0        * a fire elemental
+F 1 44131 3 44199 100 0 0 0        * a fire elemental (following)
+M 0 44133 2 44200 100 0 0 0        * a fire elemental
+F 1 44131 3 44200 100 0 0 0        * a fire elemental (following)
+M 0 44134 1 44201 100 0 0 0        * the guardian of the altar
+G 1 44115 1 0 100 0 0 0            *    a shard of fire
+F 1 44131 3 44201 100 0 0 0        * a fire elemental (following)
+M 0 44136 2 44202 100 0 0 0        * an air elemental
+F 1 44135 3 44202 100 0 0 0        * an air elemental (following)
+M 0 44135 3 44203 100 0 0 0        * an air elemental
+F 1 44137 2 44203 100 0 0 0        * an air elemental (following)
+M 0 44138 1 44204 100 0 0 0        * the guardian of the altar
+G 1 44116 1 0 100 0 0 0            *    a shard of wind
+F 1 44135 3 44204 100 0 0 0        * an air elemental (following)
+M 0 44100 1 44205 100 0 0 0        * a large golem
+G 1 44103 1 0 100 0 0 0            *    a flaming key
+M 0 44142 1 44206 100 0 0 0        * a huge lizard
+E 1 44180 1 19 100 0 0 0           *   a lizards eye
+M 0 44143 1 44207 100 0 0 0        * a Sun Worshipper
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+E 1 44144 21 17 100 0 0 0          *   a standard issue sword
+E 1 44144 21 25 100 0 0 0          *   a standard issue sword
+E 1 44144 21 26 100 0 0 0          *   a standard issue sword
+G 1 44156 1 0 100 0 0 0            *    a ray of light
+M 0 44139 1 44208 100 0 0 0        * a beast of fire
+E 1 44181 1 20 100 0 0 0           *   a mask of burning flesh
+M 0 44146 1 44209 100 0 0 0        * a huge demon
+E 1 44157 1 18 100 0 0 0           *   a burning flame
+M 0 44140 1 44210 100 0 0 0        * a huge yeti
+E 1 44182 1 8 100 0 0 0            *   a pair of snowshoes
+M 0 44145 1 44211 100 0 0 0        * Bigfoot
+E 1 44142 6 16 100 0 0 0           *   a sharp piece of stone
+E 1 44154 1 18 100 0 0 0           *   a snowflake
+M 0 44141 1 44212 100 0 0 0        * a great white shark
+E 1 44183 1 13 100 0 0 0           *   a sharkskin belt
+M 0 44144 1 44213 100 0 0 0        * an obsessed mage
+E 1 44155 1 18 100 0 0 0           *   a solidified drop of water
+M 0 44148 2 44215 100 0 0 0        * an undead assassin
+E 1 44142 6 16 100 0 0 0           *   a sharp piece of stone
+E 1 44142 6 17 100 0 0 0           *   a sharp piece of stone
+M 0 44150 3 44219 100 0 0 0        * a lich of a guardsman
+M 0 44111 7 44220 100 0 0 0        * a rotting zombie
+M 0 44147 3 44221 100 0 0 0        * a nasty vampire
+M 0 44150 3 44225 100 0 0 0        * a lich of a guardsman
+M 0 44112 1 44227 100 0 0 0        * a ghost
+M 0 44121 6 44230 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+F 1 44107 34 44230 100 0 0 0       * an undead guard (following)
+M 0 44120 5 44233 100 0 0 0        * a royal guard
+F 1 44107 34 44233 100 0 0 0       * an undead guard (following)
+M 0 44111 7 44234 100 0 0 0        * a rotting zombie
+M 0 44167 2 44235 100 0 0 0        * a ghast
+M 0 44119 5 44236 100 0 0 0        * a royal guard
+G 1 44152 6 0 100 0 0 0            *    a glistening bracelet
+F 1 44107 34 44236 100 0 0 0       * an undead guard (following)
+M 0 44118 6 44239 100 0 0 0        * a royal guard
+E 1 44146 5 16 100 0 0 0           *   a royal guard scimitar
+F 1 44107 34 44239 100 0 0 0       * an undead guard (following)
+M 0 44148 2 44240 100 0 0 0        * an undead assassin
+E 1 44142 6 16 100 0 0 0           *   a sharp piece of stone
+E 1 44142 6 17 100 0 0 0           *   a sharp piece of stone
+M 0 44118 6 44242 100 0 0 0        * a royal guard
+M 0 44121 6 44243 100 0 0 0        * a royal guard
+M 0 44119 5 44245 100 0 0 0        * a royal guard
+F 1 44107 34 44245 100 0 0 0       * an undead guard (following)
+M 0 44147 3 44246 100 0 0 0        * a nasty vampire
+M 0 44120 5 44248 100 0 0 0        * a royal guard
+F 1 44107 34 44248 100 0 0 0       * an undead guard (following)
+M 0 44149 3 44249 100 0 0 0        * a wraith
+M 0 44121 6 44251 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+M 0 44118 6 44254 100 0 0 0        * a royal guard
+E 1 44146 5 16 100 0 0 0           *   a royal guard scimitar
+F 1 44107 34 44254 100 0 0 0       * an undead guard (following)
+M 0 44119 5 44260 100 0 0 0        * a royal guard
+F 1 44107 34 44260 100 0 0 0       * an undead guard (following)
+M 0 44110 2 44261 100 0 0 0        * a ghast
+M 0 44120 5 44262 100 0 0 0        * a royal guard
+F 1 44107 34 44262 100 0 0 0       * an undead guard (following)
+M 0 44121 6 44268 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+M 0 44122 5 44272 100 0 0 0        * an elder mage
+M 0 44147 3 44273 100 0 0 0        * a nasty vampire
+M 0 44121 6 44274 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+F 1 44107 34 44274 100 0 0 0       * an undead guard (following)
+M 0 44120 5 44277 100 0 0 0        * a royal guard
+M 0 44150 3 44278 100 0 0 0        * a lich of a guardsman
+M 0 44119 5 44280 100 0 0 0        * a royal guard
+E 1 44152 6 15 100 0 0 0           *   a glistening bracelet
+F 1 44107 34 44280 100 0 0 0       * an undead guard (following)
+M 0 44118 6 44283 100 0 0 0        * a royal guard
+M 0 44122 5 44285 100 0 0 0        * an elder mage
+M 0 44152 2 44286 100 0 0 0        * a royal guard
+E 1 44146 5 16 100 0 0 0           *   a royal guard scimitar
+F 1 44153 7 44286 100 0 0 0        * a royal guard (following)
+E 1 44152 6 15 100 0 0 0           *   a glistening bracelet
+M 0 44155 3 44287 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+F 1 44154 4 44287 100 0 0 0        * a royal guard (following)
+M 0 44173 1 44288 100 0 0 0        * Queen Arkan'non
+E 1 44150 1 10 100 0 0 0           *   the sleeves of Arkan'non
+M 0 44172 1 44289 100 0 0 0        * King Arkan'non
+E 1 44151 1 7 100 0 0 0            *   the leggings of Arkan'non
+E 1 44159 1 16 100 0 0 0           *   a royal sword of gold
+M 0 44174 1 44289 100 0 0 0        * Quilno, the jester
+E 1 44119 1 16 100 0 0 0           *   a royal dagger of gold
+E 1 44120 1 17 100 0 0 0           *   a royal dagger of silver
+M 0 44152 2 44292 100 0 0 0        * a royal guard
+E 1 44146 5 16 100 0 0 0           *   a royal guard scimitar
+F 1 44153 7 44292 100 0 0 0        * a royal guard (following)
+E 1 44152 6 15 100 0 0 0           *   a glistening bracelet
+M 0 44155 3 44294 100 0 0 0        * a royal guard
+E 1 44148 6 27 100 0 0 0           *   a large claymore
+F 1 44154 4 44294 100 0 0 0        * a royal guard (following)
+M 0 44151 1 44295 100 0 0 0        * the master of arms
+G 1 44122 1 0 100 0 0 0            *    a delicate glass key
+M 0 44175 1 44296 100 0 0 0        * the king's pet
+M 0 44107 34 44301 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44153 7 44302 100 0 0 0        * a royal guard
+M 0 44153 7 44303 100 0 0 0        * a royal guard
+F 1 44153 7 44303 100 0 0 0        * a royal guard (following)
+M 0 44160 1 44304 100 0 0 0        * Krahn'gon the High Cleric
+E 1 44130 1 21 100 0 0 0           *   an earring of prayer
+E 1 44111 1 24 100 0 0 0           *   the emblem of prayer
+F 1 44153 7 44304 100 0 0 0        * a royal guard (following)
+E 1 44152 6 15 100 0 0 0           *   a glistening bracelet
+F 1 44107 34 44304 100 0 0 0       * an undead guard (following)
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44153 7 44305 100 0 0 0        * a royal guard
+M 0 44162 1 44307 100 0 0 0        * Krahn'krayv, the High Conjurer
+E 1 44121 1 5 100 0 0 0            *   the armor of the elements
+F 1 44154 4 44307 100 0 0 0        * a royal guard (following)
+M 0 44161 1 44308 100 0 0 0        * Krahn'moor, the High Sorcerer
+E 1 44129 1 21 100 0 0 0           *   an earring of meditation
+E 1 44110 1 24 100 0 0 0           *   the emblem of meditation
+F 1 44154 4 44308 100 0 0 0        * a royal guard (following)
+M 0 44107 34 44309 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44149 3 44309 100 0 0 0        * a wraith
+M 0 44168 1 44310 100 0 0 0        * a spectre
+M 0 44170 1 44310 100 0 0 0        * a rotting zombie
+M 0 44169 2 44310 100 0 0 0        * a skeleton
+M 0 44167 2 44311 100 0 0 0        * a ghast
+M 0 44165 1 44311 100 0 0 0        * a wraith
+M 0 44164 1 44311 100 0 0 0        * a lich of a guardsman
+M 0 44163 1 44312 100 0 0 0        * Krahn'ehk, the High Necromancer
+E 1 44134 1 21 100 0 0 0           *   an earring of life
+E 1 44114 1 24 100 0 0 0           *   the emblem of life
+F 1 44171 1 44312 100 0 0 0        * Krahn'ehks pet (following)
+M 0 44101 1 44313 100 0 0 0        * a crafty magician
+E 1 44187 1 18 100 0 0 0           *   a magical tome
+M 0 44107 34 44314 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44159 1 44315 100 0 0 0        * a drow warrior
+E 1 44123 1 3 100 0 0 0            *   a four-leaf clover
+E 1 44131 1 21 100 0 0 0           *   an earring of nimbleness
+E 1 44109 1 24 100 0 0 0           *   the emblem of agility
+F 1 44107 34 44315 100 0 0 0       * an undead guard (following)
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44107 34 44316 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44158 1 44317 100 0 0 0        * Zynar
+E 1 44128 1 21 100 0 0 0           *   an earring of deftness
+E 1 44112 1 24 100 0 0 0           *   the emblem of dexterity
+M 0 44155 3 44317 100 0 0 0        * a royal guard
+M 0 44107 34 44318 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44157 1 44319 100 0 0 0        * O'Gallagher
+E 1 44132 1 21 100 0 0 0           *   an earring of luck
+E 1 44108 1 24 100 0 0 0           *   the emblem of luck
+M 0 44107 34 44320 100 0 0 0       * an undead guard
+E 1 44144 21 16 100 0 0 0          *   a standard issue sword
+M 0 44156 1 44321 100 0 0 0        * a beautiful drow elf
+E 1 44133 1 21 100 0 0 0           *   an earring of charisma
+E 1 44107 1 24 100 0 0 0           *   the emblem of charming
+M 0 44133 2 44323 100 0 0 0        * a fire elemental
+F 1 44132 2 44323 100 0 0 0        * a fire elemental (following)
+M 0 44127 4 44324 100 0 0 0        * a huge water elemental
+F 1 44127 4 44324 100 0 0 0        * a huge water elemental (following)
+M 0 44136 2 44325 100 0 0 0        * an air elemental
+F 1 44137 2 44325 100 0 0 0        * an air elemental (following)
+M 0 44123 5 44326 100 0 0 0        * a huge earth elemental
+F 1 44123 5 44326 100 0 0 0        * a huge earth elemental (following)
+*
+S

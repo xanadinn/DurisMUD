@@ -1,0 +1,454 @@
+#20300
+Narrow Strip of Land~
+   The little strip of land bends to the east and the south here. Sparse weeds
+are the only things growing on the volcanic rock. Waves lap gently at the sides
+of the strip.
+~
+203 0 4
+D1
+The land comes to an end.
+~
+~
+0 0 20301
+D2
+Closer to the volcano.
+~
+~
+0 0 20302
+S
+#20301
+Tip of the Strip of Land~
+   The cooled black rock of the ancient volcano supports no life. Little
+puddles of water, however, do contain small shellfish washed ashore by the
+action of the water. To the east, one of the larger islands comprising the
+Moonshaes can be seen a mere hundred yards away.
+~
+203 0 3
+D1
+The Timeless Sea is there.
+~
+~
+0 0 148782
+D3
+Further onto the island.
+~
+~
+0 0 20300
+S
+#20302
+Strip of Land~
+   This north-south strip of land has a smattering of weeds, along with a
+species of vivid purple grass.
+~
+203 0 3
+D0
+Out along the strip of land.
+~
+~
+0 0 20300
+D2
+Onto the main part of the island.
+~
+~
+0 0 20304
+S
+#20303
+Steam Vents~
+   Steam rises from several cracks in the rock here, testaments to the once-
+mighty volcanic activity around here. The air smells rank and sulphurous.
+~
+203 0 4
+D1
+The island extends around the base of the volcano to the east.
+~
+~
+0 0 20304
+D2
+More vegetation is visible.
+~
+~
+0 0 20307
+S
+#20304
+Base of Volcano~
+   The volcano disappears into the mists overhead. However, slick volcanic
+glass quickly dissipates any thoughts of ascent.
+~
+203 0 4
+D0
+A narrow strip of land juts out into the ocean.
+~
+~
+0 0 20302
+D1
+More volcanic rock.
+~
+~
+0 0 20305
+D3
+Steam can be seen to the west.
+~
+~
+0 0 20303
+S
+#20305
+Base of Volcano~
+   The volcanic glass has broken into shards here, making walking both
+difficult and painful. The ocean lies to the east and north.
+~
+203 0 5
+D3
+The terrain is less jagged.
+~
+~
+0 0 20304
+S
+#20306
+Fields of the Endu~
+   The forces of erosion have succeeded at breaking the volcanic rock here down
+to rich and fertile soil, which the villagers to the south put to good use,
+growing a variety of starchy tubers and a small blue fruit known as patu.
+~
+203 0 2
+D1
+Light woods.
+~
+~
+0 0 20307
+D2
+Small wooden houses.
+~
+~
+0 0 20310
+S
+#20307
+Light Woods~
+   Small, thin aspen trees abound on this slope of ash and thick topsoil.
+Ascent to the east is barred by a precipitous cliff.
+~
+203 0 3
+D0
+Steam rises to the north.
+~
+~
+0 0 20303
+D2
+Depressions in the earth can be seen.
+~
+~
+0 0 20311
+D3
+Fields of crops.
+~
+~
+0 0 20306
+S
+#20308
+Haunted Woods~
+   Thick banks of fog obscure vision on all sides. Faint rustling sounds are
+audible, but the direction is unclear.
+~
+203 0 3
+D2
+The fog reveals nothing.
+~
+~
+0 0 20314
+S
+#20309
+Small Dock~
+   An ancient dock creaks and moans as the waves rock it back and forth.
+Several richly-decorated canoes are tied to wooden posts. A larger, less
+watertight craft is partially submerged to the south.
+~
+203 0 2
+D1
+The Endu village.
+~
+~
+0 0 20310
+D2
+A large ship of some kind.
+~
+~
+0 0 20315
+S
+#20310
+The Fishmonger Stand~
+   A variety of water-going creatures are for sale here at the stand. The air
+is filled with pungent, fishy odors. Various knives, hooks, and nets adorn the
+walls: tools of the trade.
+~
+203 0 0
+D0
+Fields of crops.
+~
+~
+0 0 20306
+D1
+A large idol of some sort.
+~
+~
+0 0 20311
+D2
+Small domiciles.
+~
+~
+0 0 20316
+D3
+The boating dock.
+~
+~
+0 0 20309
+S
+#20311
+The Large Idol~
+   A large idol dominates the scenery here, presumably the god of the village.
+It is carved from a native wood to resemble a squat Endu, but its face is in
+a perpetual scowl and its hair is of stylized flame. Small offerings of fish,
+incense, and brightly-colored flowers surround the idol.
+~
+203 0 2
+D0
+A group of trees.
+~
+~
+0 0 20307
+D1
+A wooden fence with a small gate serves as boundary of the village.
+~
+gate~
+2 -1 20312
+D2
+More of the village.
+~
+~
+0 0 20317
+D3
+A small stand of some sort.
+~
+~
+0 0 20310
+E
+fence wooden~
+Upon closer inspection, it appears the fence supports a small sign that says:
+			BEWARE THE EVIL FOG
+~
+S
+#20312
+Haunted Woods~
+   The mist is very thick here, cloaking everything. Shadows and half-seen
+forms play tricks on the senses.
+~
+203 4 3
+D1
+Deeper into the fog.
+~
+~
+0 0 20313
+D3
+A fence marks the boundary of the Endu village. An off-center gate is the only
+way through into light.
+~
+gate~
+2 -1 20311
+S
+#20313
+Haunted Woods~
+   The fog is thoroughly disorienting. No sunlight penetrates through the
+shroud of vapor, and everything is dark and distorted by the lack of light.
+~
+203 1 3
+D1
+Into the fog.
+~
+~
+0 0 20314
+D2
+Into the fog.
+~
+~
+0 0 20318
+D3
+Into the fog.
+~
+~
+0 0 20312
+S
+#20314
+Haunted Woods~
+   Shrieks and sighs come from all sides. The fog reveals nothing, but water
+laps at the shore to one side.
+~
+203 0 3
+D0
+Into the fog.
+~
+~
+0 0 20308
+D2
+Into the fog.
+~
+~
+0 0 20319
+D3
+Into the fog.
+~
+~
+0 0 20313
+S
+#20315
+Shipwreck~
+   This aged, dilapidated ship long ago brought the Endu here from their
+faraway home. Since then, it has become the symbol of continued life and
+prosperity for their village. They maintain the ship as best they can, for
+their witch doctor has promised times of plenty as long as they continue the
+ship's upkeep.
+~
+203 0 1
+D0
+The landing dock.
+~
+~
+0 0 20309
+S
+#20316
+Endu Village~
+   Small wooden shacks serve as shelter for the Endu. The village is
+prosperous and lively, and the villagers enjoy happy, fulfilling lives under
+the watchful eye of the witch doctor.
+~
+203 0 1
+D0
+A small stand.
+~
+~
+0 0 20310
+D1
+A hut on stilts.
+~
+~
+0 0 20317
+D2
+Braying and lowing.
+~
+gate south~
+2 -1 20320
+S
+#20317
+Base of Witch Doctor's Hut~
+   The witch doctor's abode rises on stilts, standing four heights of a man
+off the ground. A hemp rope ladder leads upward.
+~
+203 0 1
+D0
+A large idol.
+~
+~
+0 0 20311
+D2
+Shallow depressions in the ground.
+~
+~
+0 0 20321
+D3
+The main part of the village.
+~
+~
+0 0 20316
+D4
+The hut itself.
+~
+~
+0 0 20322
+E
+ladder hemp rope~
+Made of some local weed, it appears sturdy enough to support weight.
+~
+S
+#20318
+Haunted Woods~
+   The mists here have fallen to knee-height, allowing a view of withered
+trees and grey, shriveled little plants.
+~
+203 0 3
+D0
+Into the fog.
+~
+~
+0 0 20313
+D1
+Into the fog.
+~
+~
+0 0 20319
+S
+#20319
+Haunted Woods~
+   All is eerily silent here in the fog, giving the strong impression of
+SOMETHING waiting just around the next turn.
+~
+203 0 3
+D0
+Into the fog.
+~
+~
+0 0 20314
+D3
+Into the fog.
+~
+~
+0 0 20318
+S
+#20320
+Livestock Pen~
+   Various animals are kept in a large pen here, serving as livestock for the
+villagers. The stench of manure is heavy and permeates everything.
+~
+203 0 2
+D0
+The main part of the village.
+~
+gate north~
+2 -1 20316
+D1
+Shallow depressions in the ground.
+~
+gate east~
+2 -1 20321
+S
+#20321
+Village Cemetery~
+   Two dozen grave markers attest to the occasional hardships of life on
+Nhavan Island. A large anchor to one side catches the eye.
+~
+203 4 2
+D0
+A hut on stilts.
+~
+~
+0 0 20317
+D3
+Sounds of farm animals.
+~
+gate west~
+2 -1 20320
+E
+anchor~
+Here lies Urtu--brave captain who saw his people to the good life.
+~
+S
+#20322
+Witch Doctor's Hut~
+   The walls are decorated with trinkets and baubles: fish teeth, birds'
+claws, assorted skulls and feathers. In the center of the room is a woven mat,
+brightly painted in red and yellow. The scent of incense is strong in the air,
+and candles are placed at the corners of an eight-pronged mandala to one side.
+~
+203 4 0
+D5
+Down to ground level.
+~
+~
+0 0 20317
+S

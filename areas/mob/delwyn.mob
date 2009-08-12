@@ -1,0 +1,1363 @@
+#82800
+agent inspection human~
+&+gan &+Winspection agent&n~
+&+gAn &+Winspection agent&+g checks incoming traffic for contraband.&n
+~
+&+g   This tall human is charged with making sure no illegal contraband enters&n
+&+gthe castle.  He is also responsible for watching who enters the city, and&n
+&+greports any suspicious characters to the guards.&n
+~
+2122 128 0 24 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82801
+officer customs human~
+&+ga &+Wcustoms officer&n~
+&+gA &+Wcustoms officer&n &+gis here calculating a merchant's tariff.&n
+~
+&+W   This poor human is one of the most hated men in the castle for he is&n
+&+Wcharged with the job of fining incoming merchants.  He checks all cargo,&n
+&+Wthen calculates a fee based upon a small percentage of the estimated worth.&n
+~
+2126 128 0 24 0 0 0 0 S
+PH 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82802
+dwarven mountain dwarf merchant~
+&+ga &+Ydwarven&n &+Cmerchant&n~
+&+gA &+Ydwarven&n &+Cmerchant&n &+gcomplains loudly about the tariffs.&n
+~
+&+Y   Fresh off the beaten path, this merchant has just arrived from the&n
+&+Ydwarven stronghold Kimordril.  He is currently being charged a tariff on&n
+&+Yhis goods, an idea that doesn't please him very well, and as such he is&n
+&+Yarguing loudly and complaining to anyone who will listen.&n
+~
+2126 128 0 24 0 0 0 0 S
+PM 5 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82803
+bailey apothecary grey elf~
+&+mthe bailey &+Mapothecary&n~
+&+mThe bailey &+Mapothecary&n &+mstands here mixing a potion.&n
+~
+&+M   This elf is the apothecary of the bailey, and as such he creates many&n
+&+Mpotions and other magical items from natural ingredients.  Mixing a little&n
+&+Mof nature with a little of magic provides the results so often desired but&n
+&+Mso rarely attained in the potions he creates.&n
+~
+2122 0 0 0 0 0 0 400 S
+PE 0 32 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82804
+bartender halfling rotund~
+&+ga rotund &+yhalfling &+gbartender&n~
+&+gA rotund &+yhalfling &+gstands here tending bar.&n
+~
+&+y   This small halfling grins as he looks about the room.  His ample girth&n
+&+yjiggles as he walks, and his bushy eyebrows nearly cover his eyes.  He picks&n
+&+yhis nose furiously then giggles.&n
+~
+2126 0 0 0 0 0 0 400 S
+PF 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82805
+ranger exhausted half-elf elf~
+&+gan exhausted &+Granger&n~
+&+gAn exhausted &+Granger&n &+grelaxes with an ale after a long day.&n
+~
+&+g   This diminutive half-elf is extremely tired after a long journey through&n
+&+gthe wilderness nearby.  His hands are filthy, and his face is caked in mud.&n
+&+gHe stands against the bar relaxing as drinks one of the fine ales.&n
+~
+2126 0 0 0 0 0 0 900 S
+P2 0 2 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82806
+hosteler towering barbarian~
+&+ya towering &+bhosteler&n~
+&+yA towering &+bhosteler &+ystands here with arms crossed.&n
+~
+&+b   This enormous barbarian is actually somewhat civized for one of his type.&n
+&+bHe is not clad in furs but in a fine red robe, although his massive arms&n
+&+bshow he is no stranger to hard work.&n
+~
+2126 0 0 0 0 0 0 0 S
+PB 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82807
+prostitute sleazy half -orc~
+&+ga sleazy half-orc &+Lprostitute&n~
+&+gA sleazy half-orc &+Lprostitute &+gwaits for next customer.&n
+~
+&+g   This hairy woman has absolutely no skills beyond her ability to sell
+&+gherself for silver.  A mild stench arises from her body and she grunts
+&+gloudly.  Obviously, she is only for those with either little taste or
+&+glittle money.&n
+~
+134219854 0 0 0 0 0 0 -400 S
+H 0 4096 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82808
+miller bailey human~
+&+gthe bailey&n &+Lmiller&n~
+&+gThe bailey&n &+Lmiller&n &+gcurses as he attempts to fix the mill.&n
+~
+&+g   This rather ugly human is the miller of the castle, his job that of&n
+&+ggrinding wheat into meal.  His mill, at present, is non-operational and he&n
+&+glooks quite unhappy as he tries to fix it.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82809
+fishmonger foul smelling foul-smelling gnome~
+&+ga foul-smelling &+Cfishmonger&n~
+&+gA foul-smelling &+Cfishmonger&n &+gstands here hawking his goods.&n
+~
+&+g   This rather grubby gnome is one of the peddlers in the grocer's&n
+&+gquarter.  His hairy arms are covered in the scales and entrails of fish,&n
+&+gfor he not only sells freshly-caught fish but fillets and pre-cut meats.&n
+~
+2126 0 0 0 0 0 0 800 S
+PG 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82810
+filthy poulterer half-elf~
+&+ya filthy &+Ypoulterer&n~
+&+yA filthy &+Ypoulterer&n &+ystands here selling her products.&n
+~
+&+y   This rather skinny half-elf is extremely dirty.  She is the bailey&n
+&+ypoulterer, selling chickens, duck, geese and pheasant to the local&n
+&+ypopulation, alive and dead.&n
+~
+2126 0 0 0 0 0 0 400 S
+P2 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82811
+baker overweight human~
+&+yan overweight &+Ybaker&n~
+&+yAn overweight &+Ybaker&n &+yis taking a break from the cooking.&n
+~
+&+y   This rather large and rotund human is the bailey baker.  He cooks almost&n
+&+yall of the bread eaten in the castle, and also makes quite a large volume&n
+&+yof his food for outside sale.  His plump belly shows he is very fond of his&n
+&+yown cooking.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82812
+saucemaker bailey sauce maker human~
+&+Cthe bailey &+Ls&+ra&+Rucemak&+re&+Lr&n~
+&+CThe bailey &+Ls&+ra&+Rucemak&+re&+Lr &+Cstands here cooking up some delicacies.&n
+~
+&+Y   This tall and handsome human is the finest chef in the entire castle.&n
+&+YHis talent for creating fine foods, and especially fine sauces, has preceded&n
+&+Yhim from one town to the next.  Only due to the offer of a very impressive
+&+Ysalary does he stay in this Duchy.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82813
+hangman bailey barbarian~
+&+ythe bailey &+Lhangman&n~
+&+yThe bailey &+Lhangman&n &+ywanders about wringing his hands.&n
+~
+&+y   This rather large barbarian is the castle executioner.  Charged with the&n
+&+yduty of maked sure all criminals found guilty of a capital crime are hanged,&n
+&+yhe wanders the city at other times as deterrent for would-be criminals.&n
+~
+67111112 0 0 0 0 0 0 0 S
+PB 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82814
+herbalist grey elf delicate~
+&+ga delicate &+Gherbalist&n~
+&+gA delicate &+Gherbalist&n &+gwatches over her store.&n
+~
+&+g   This small and diminutive elf is the owner of the bailey herbalist's&n
+&+gshop.  Her immense skills at creating balms and natural cure-alls from the&n
+&+gpieces of nature at her disposal are incredible, all the more so because&n
+&+gshe uses no magic at all.&n
+~
+1073743950 0 0 0 0 0 0 850 S
+PE 0 2 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82815
+small gnomish clockmaker gnome~
+&+ca small gnomish &+Cclockmaker&n~
+&+cA small gnomish &+Cclockmaker&n &+ctinkers about with some gears.&n
+~
+&+c   This tiny gnome is the incredible genius responsible for creating the&n
+&+cimpressive mechanical clocks found around the region.  He is currently&n
+&+cworking on finishing a grand masterpiece, however he grumbles on and on&n
+&+cabout missing a certain part.&n
+~
+2126 0 0 0 0 0 0 0 S
+PG 0 524288 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82816
+bookbinder book binder handsome half-elven half-elf~
+&+ya handsome &+Ybookbinder&n~
+&+yA handsome half-elven &+Ybookbinder&n &+yis threading the spine of a large tome.&n
+~
+&+y   This incredibly handsome half-elf smiles as he works on his chores for&n
+&+ythe day.  His radiant skin and golden hair, along with his swept-back
+&+ylobeless ears give his face a dignified and intelligent look.  His hands are&n
+&+ynimble and spry from hours at work.&n
+~
+2126 0 0 0 0 0 0 0 S
+P2 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82817
+scrivener short dwarven mountain dwarf~
+&+ya short dwarven &+Yscrivener&n~
+&+yA short dwarven &+Yscrivener&n &+ystudies the book in front of him.&n
+~
+&+y   This short dwarf is the bailey scrivener.  His job is to copy books, for&n
+&+yprinting presses are still both incredibly rare and prone to breaking.&n
+&+yHis large beard is split and tucked up over his shoulders, where it is&n
+&+ytied in a large knot.&n
+~
+1073743948 0 0 0 0 0 0 0 S
+PM 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82818
+glazier one eyed one-eyed elven elf grey~
+&+wa one-eyed elven &+Wglazier&n~
+&+wA one-eyed elven &+Wglazier&n &+wis creating some beautiful glasswork.&n
+~
+&+W   This tall elf is the glazier of the castle.  His occupation demands that
+&+Whe provide the necessary glasswork for the bailey, which is no small task.
+&+WHis left eye no longer functions after a glob of molten silicon was quite&n
+&+Waccidentally flicked into it long ago.&n
+~
+1073743950 0 0 0 0 0 0 800 S
+PE 0 2 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82819
+cutler bearded human~
+&+ca bearded &+Wcutler&n~
+&+cA bearded &+Wcutler&n &+cstands here watching over his store.&n
+~
+&+c   This human is the cutler of the castle, spending his days making fine&n
+&+ctableware.  His hands are both strong and nimble, both traits required&n
+&+cto make the fine cutlery that he sells.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82820
+well built well-built knife grinder knifegrinder human~
+&+ya well-built &+Yknifegrinder&n~
+&+yA well-built &+Yknifegrinder&n &+yis sharpening an expensive blade.&n
+~
+&+y   This well-muscled human spends his days sharpening knives, with the&n
+&+yoccasional sword or axe to break the monotony.  His arms are deeply cut&n
+&+ywith muscle from holding weapons still as the grinding wheels spin past.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82821
+dyer bailey~
+&+cthe bailey &+Bdyer&n~
+&+cThe bailey &+Bdyer&n &+cis rinsing the dye of a newly coloured garment.&n
+~
+&+B   This small gnome is a dyer by profession, coloring cloth before it is&n
+&+Bsewn into clothing.  Using the many chemicals at his disposal he is able to&n
+&+Bcreate a vast array of shades and tints.&n
+~
+2126 0 0 0 0 0 0 0 S
+PG 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82822
+haberdasher elven finely-dressed grey elf~
+&+ca finely-dressed elven &+Whaberdasher&n~
+&+cA finely-dressed elven &+Whaberdasher&n &+cis tidying up his shop.&n
+~
+&+C   This elf is the bailey haberdasher, selling different sewing related&n
+&+Carticles to the members of the castle.  With the thriving clothing trade&n
+&+Cin the artisans' quarter he is doing a brisk business selling to the&n
+&+Cmerchants of the city.&n
+~
+2126 0 0 0 0 0 0 0 S
+PE 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82823
+seamstress beautiful human~
+&+ya beautiful &+Wseamstress&n~
+&+yA beautiful &+Wseamstress&n &+yis sewing a fine garment.&n
+~
+&+c   This incredibly gorgeous young human lass is sewing a fine garment of&n
+&+cvelvet.  Her long and nimble fingers weave in and out with a needle, and&n
+&+cher beautiful green eyes gleam as she peers about the room.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82824
+weaver plain looking plain-looking grey elf~
+&+ca plain-looking &+Cweaver&n~
+&+cA plain-looking &+Cweaver&n &+cis working the large loom.&n
+~
+&+W   This elf is actually quite ordinary looking, not quite as beautiful as&n
+&+Wmost elven maidens.  Her hands are quite skilled though, and she runs her&n
+&+Whands across the large loom very gracefully.&n
+~
+2126 0 0 0 0 0 0 0 S
+PE 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82825
+spinner elderly human~
+&+can elderly &+gspinner&n~
+&+cAn elderly &+gspinner &+cis turning a wool fleece into yarn.&n
+~
+&+W   This old lady has done alot of textiles work in her day, however the only&n
+&+Wthing she can really handle now is spinning.  Her gnarled hands work the&n
+&+Wwool back and forth as her small legs pump at the pedals of the spinning&n
+&+Wwheel.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82826
+cobbler dwarven mountain dwarf red bearded red-bearded~
+&+yA red-bearded dwarven &+gcobbler&n~
+&+yA red-bearded dwarven &+gcobbler &+yis pounding on the sole of a boot.&n
+~
+&+c   This elderly dwarf huffs and puffs as he works on a pair of boots.  He&n
+&+cspends his days repairing shoes and boots, although occasionally he can be&n
+&+cpersuaded to create a new pair.&n
+~
+1073743950 0 0 0 0 0 0 800 S
+PM 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82827
+fuller gap toothed gap-toothed half-elf~
+&+ca gap-toothed &+Bfuller&n~
+&+cA gap-toothed &+Bfuller&n &+cworks on creating some felt.&n
+~
+&+c   This rather ugly half-elf is quite strong and fierce looking, all the&n
+&+cmore so by the huge gap between his front teeth.  He leers as he looks about&n
+&+cthe room, then grins widely.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+P2 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82828
+wheelwright wheel wright broad chested broad-chested human~
+&+ya broad-chested &+Ywheelwright&n~
+&+yA broad-chested &+Ywheelwright&n &+yis fixing the spokes of a wheel.&n
+~
+&+y   This rather large human is the bailey wheelwright.  With the great amount&n
+&+yof commerce in the bailey, many wagons are in need of repair.  His enormous&n
+&+yskill at this particular task has enabled him to lead a comfortable life.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82829
+ironmonger iron monger charismatic~
+&+ca charismatic&+W ironmonger&n~
+&+cA charismatic&n &+Wironmonger&n &+cis hawking the smithys' goods.&n
+~
+&+c   This rather small human is the hired representative of the smith's&n
+&+cguild.  With no actual skill at the forge himself, his only task is to sell&n
+&+cthe goods that the smithys make every day.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82830
+wiredrawer wire drawer burly barbarian~
+&+ya burly &+Lwiredrawer&n~
+&+yA burly &+Lwiredrawer&n &+ystands here coiling a length of cable.&n
+~
+&+L   This large barbarian is the bailey wiredrawer.  Given a rod of metal he&n
+&+Ldraws it over and over through successively smaller holes, resulting finally&n
+&+Lin a long length of wire, hopefully not too brittle or weak.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PB 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82831
+farrier bare chested bare-chested human~
+&+ya bare-chested &+bfarrier&n~
+&+yA bare-chested &+bfarrier &+yis hammering on some horseshoes.&n
+~
+&+B   Large for a human, this farrier spends his days at the forge making&n
+&+Bhorseshoes.  With the constant rtaffic of merchants to and from the castle,&n
+&+Bhe is always in demand as the horses wear out their shoes.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82832
+limeburner lime burner disfigured human~
+&+ya disfigured &+Glimeburner&n~
+&+yA disfigured &+Glimeburner&n &+yis making lime for mortar.&n
+~
+&+g   This human is the limeburner of the bailey; making lime which is in&n
+&+gturn used in making mortar.  His face is horribly disfigured, a result of&n
+&+gan accident with a cauldron of molten rock at an early age.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82833
+bellfounder bell founder barrel chested barrel-chested~
+&+ya barrel-chested &+Wbellfounder&n~
+&+yA barrel-chested &+Wbellfounder&n &+yis pouring molten steel.
+~
+&+W   This dwarf, while rather short, is incredibly muscled from days at the&n
+&+Wforge.  His function as bellfounder is a steady one, whether he is making&n
+&+Wsmall bells for clocks or large bells for churches.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PM 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82834
+bladesmith smith blade master human~
+&+ya master &+Cbladesmith&n~
+&+yA master &+Cbladesmith&n &+yis demonstrating the balance of a weapon.&n
+~
+&+c   Tall and lithe, this darkskinned human is a master bladesmith.  Not a&n
+&+cmaker of bulk weapons for armies and such, he custom creates fine weaponry&n
+&+cthat is well-balanced and superior to most other arms.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82835
+tanner bailey~
+&+ythe bailey &+rtanner&n~
+&+yThe bailey &+rtanner &+yis hanging a hide to dry.&n
+~
+&+y   This rather ugly human is the tanner of the castle.  His function is that&n
+&+yof taking animals hides and tanning them, although more often than not he&n
+&+yis the one who actually skins the animal as well.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82836
+bricklayer brick layer burly~
+&+ya burly &+Ybricklayer&n~
+&+yA burly &+Ybricklayer&n &+ystrolls though the streets of the bailey.&n
+~
+&+y   Enjoying his time off from work, this bricklayer wanders about the city&n
+&+yaimlessly.  His skin is deeply sunburned from working outside nearly every&n
+&+yday.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82837
+beggar one armed one-armed~
+&+ya one-armed &+Lbeggar&n~
+&+yA one-armed &+Lbeggar&n &+yis begging pitifully for copper.&n
+~
+&+y   This poor soul is one of the unfortunate people with no home.  He spends&n
+&+yhis days begging for even the smallest coin or scrap of food.&n
+~
+2252 0 0 0 0 0 0 0 S
+PH 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82838
+barber well groomed well-groomed gnome~
+&+ya well-groomed &+Bbarber&n~
+&+yA well-groomed &+Bbarber&n &+ywanders the streets of the bailey.&n
+~
+&+y   This rather small gnome is actually quite well-groomed for one of his&n
+&+yrace.  The normally hairy ears have been snipped and the usual tufts of&n
+&+yhair billowing out of the nose are nonexistent.&n
+~
+2124 0 0 0 0 0 0 0 S
+PG 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82839
+woodturner wood turner halfling small~
+&+ya small halfling &+Ywoodturner&n~
+&+yA small halfling &+Ywoodturner&n &+ypaces about the area slowly.&n
+~
+&+y   This tiny creature is a skilled artisan with woodwork.  As operator of a&n
+&+ylathe his skills are quite excellent and his work commands quite a steep&n
+&+yprice.&n
+~
+2124 0 0 0 0 0 0 0 S
+PF 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82840
+teamster frowning human~
+&+ya frowning &+gteamster&n~
+&+yA frowning &+gteamster &+yglares as he walks about the bailey.&n
+~
+&+y   This tall and skinny human is a teamster, hauling goods by wagon and by&n
+&+ycart from one city or twon to the next.  His hair is bleached white from&n
+&+ynumerous days on the road underneath the sun.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82841
+swineherd swine herd country human~
+&+ya country &+Yswineherd&n~
+&+yA country &+Yswineherd &+ygawks at the sights around him.&n
+~
+&+y   This country bumpkin has never seen the great sights of a castler the&n
+&+ysize of this one, and is quite obviously in awe.  Several small pigs follow&n
+&+yhim closely, unaware that he leads them to their slaughter.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+23 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82842
+hog grunting~
+&+ga grunting &+Lhog&n~
+&+gA grunting &+Lhog&+g follows the young swineherd about.&n
+~
+&+g   This rather revolting animal grunts and snorts loudly, and looks about&n
+&+gwildly for a means of escape.  The only familiar object to it however is the&n
+&+gswineherd, so it follows him closely.&n
+~
+2126 0 0 0 0 0 0 0 S
+A 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#82843
+fisherman fisher man elf grey elven~
+&+ya small elven &+Bfisherman~
+&+yA small elven &+Bfisherman&n &+yis wandering the markets of the bailey.&n
+~
+&+y   This rather short elf is a fisherman and as such brings in his catch&n
+&+yonce a week to be sold at the markets in the bailey.  His rather frail&n
+&+ylooking body is quite tanned.&n
+~
+2124 0 0 0 0 0 0 0 S
+PE 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82844
+brewer over weight overweight~
+&+yan overweight&n &+Ybrewer&n~
+&+yAn overweight&n &+Ybrewer&n &+yis strolling through on his way to work.&n
+~
+&+y   This rather tubby man is a brewer, using his skills at the local pub in&n
+&+yorder to make a quilaity drink for the owner.  His skill at brewing is&n
+&+yalmost legendary; at least in his own mind.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82845
+mason heavily build heavily-built barbarian~
+&+ya heavily-built &+Lmason&n~
+&+yA heavily-built &+Lmason&n &+yis strolling through the bailey streets.&n
+~
+&+y   This burly barbarian is extremely strong, no doubt from his job building&n
+&+ybrick and stone.  His large arms are as wide as his thighs, although he&n
+&+yhas a large belly from too much ale.&n
+~
+2124 0 0 0 0 0 0 0 S
+PB 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82846
+locksmith lock smith master human~
+&+ya master &+blocksmith&n~
+&+yA master &+blocksmith &+ywanders the streets of the bailey.&n
+~
+&+y   This talented human is well reputed to make locks that are unpickable&n
+&+yexcept by the most talented of thieves.  His nimble fingers and quick&n
+&+ydarting eyes reinforce his reputation as a possible reformed criminal.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82847
+minter finely dressed finely-dressed~
+&+ya finely-dressed &+mminter&n~
+&+yA finely-dressed &+mminter &+yholds his chin up pompously.&n
+~
+&+y   Dressed in nobleman's clothing, this minter frowns as he peers about the&n
+&+yarea.  His well-manicured hands look never to have seen a hard days work,&n
+&+yalthough his eyes are dark and unblinking.&n
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82848
+sheather grinning human~
+&+ya grinning &+Bsheather&n~
+&+yA grinning &+Bsheather &+ywinks at the passers-by on the streets.&n
+~
+&+y   This fine artisan makes scabbards and fine knife sheaths for the soldiers&n
+&+yof the castle.  His work is quality handworkmanship and is never cheap.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+23 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82849
+limner grumpy human~
+&+ya grumpy &+Wlimner&n~
+&+yA grumpy &+Wlimner&n &+yis grumbling about the condition of the streets.&n
+~
+&+y   This painter seems to spend more time moaning and complaining than&n
+&+yactually practicing his art.  His hands are stained different colors and&n
+&+yhis nose has a dab of green paint upon it.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82850
+cordwainer cord wainer travelling half-elf~
+&+ya travelling &+gcordwainer&n~
+&+yA travelling &+gcordwainer &+ywanders the districts of the bailey.&n
+~
+&+y   This half-elf is a maker of shoes.  Not a residient of the bailey, he is&n
+&+yvisiting merely to appraise whether or not he'd like to move here or not.&n
+~
+2124 0 0 0 0 0 0 0 S
+P2 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82851
+embroiderer petite human~
+&+ya petite &+Cembroiderer&n~
+&+yA petite &+Cembroiderer&n &+yis walking the streets of the bailey.&n
+~
+&+y   This small human is a fine artisan, doing decorative stitching on fabrics&n
+&+yof any kind.  Her embellishments are often the final touch to a beautiful&n
+&+ygarment, and her work is of the highest quality.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82852
+shepherd humble~
+&+ya humble &+gshepherd&n~
+&+yA humble &+gshepherd &+yis strolling about, eyes downcast.&n
+~
+&+y   This poor and humble peasant is a shepherd, following a flock of sheep&n
+&+yabout the countryside.  When the sheep are fully grown and have produced a&n
+&+ynew generation of lambs they are taken to town, where they are sheared and
+&+yslaughtered.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82853
+sheep rambouillet~
+&+ya rambouillet &+Wsheep&n~
+&+yA ramboiullet &+Wsheep&n &+yfollows the shepherd about the town.&n
+~
+&+y   This fine sheep is of a breed well-known for their fine wool.  A small&n
+&+ybrand on the right rear flank reads 30-Bar.&n
+~
+2122 0 0 0 0 0 0 0 S
+A 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82854
+girdler skinny~
+&+ya skinny &+Wgirdler&n~
+&+yA skinny &+Wgirdler&n &+yis exploring the different districts.&n
+~
+&+y   A maker of fine belts and girdles, this man is quite skinny.   His long&n
+&+yarms and thin legs seem very unstable as he walks about awkwardly.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 1 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82855
+vintner red nosed red-nosed~
+&+ya red-nosed &+Mvintner&n~
+&+yA red-nosed &+Mvintner&n &+ystumbles about after a day of testing his product.&n
+~
+&+y   A maker of fine wines, this vintner has obviously sampled more than just&n
+&+ya little of his own product.  His bright red nose is a sure sign of his&n
+&+yalcoholic tendencies and his large belly jiggles as he walks.&n
+~
+2124 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82856
+astrologer short gnome~
+&+ya short &+Wastrologer&n~
+&+yA short &+Wastrologer&n &+yis strolling about the bailey.&n
+~
+&+y   This rather short gnome is small even for one of his kind.  His bushy&n
+&+yeyebrows nearly cover his eyes, which both have dark rings about them from&n
+&+ybeing pressed against a telecope too often.&n
+~
+2124 0 0 0 0 0 0 0 S
+PG 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82857
+quarrier burly barbarian~
+&+ya burly &+Lquarrier&n~
+&+yA burly &+Lquarrier&n &+yis strolling through on his way home.&n
+~
+&+y   This rather large barbarian has found a use for his massive size,&n
+&+yquarrying rock.  His dark suntanned skin is like leather, with his enormous&n
+&+ymuscles bulging beneath.&n
+~
+2124 0 0 0 0 0 0 0 S
+PB 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82858
+sheriff bailey human~
+&+ythe bailey &+Wsheriff&n~
+&+yThe bailey &+Wsheriff&n &+yis wandering about, looking for troublemakers.&n
+~
+&+y   This large human is the sheriff of the bailey.  His responsibilities&n
+&+yinclude arresting those who break the castle laws, as well as protecting the&n
+&+ydenizens of the castle from bodily harm.&n
+~
+1140852812 0 0 0 0 0 0 0 S
+PH 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82859
+man-at-arms man at arms imposing human~
+&+yan imposing &+gman-at-arms&n~
+&+yAn imposing &+gman-at-arms &+yis strolling about, looking for trouble.&n
+~
+&+y   One of the sheriff's law officers, this man helps keep the denizens of the&n
+&+ycastle from breaking any laws.  His job is to detain, arrest or in extreme&n
+&+ycases to kill, anyone breaking the laws or threatening the general populace.&n
+~
+1140865100 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82860
+footman heavy~
+&+ya heavy &+Yfootman&n~
+&+yA heavy &+Yfootman&n &+ystands ready to operate the mangonel.&n
+~
+&+y   This rather large human is a member of the catapult firing squad, and as&n
+&+ysuch is highly trained in the usage of the engine.  All footmen are trained
+&+yequally in every function necessary to fire such a weapon, so that in the event
+&+yof an injury in combat someone else can take the wounded man's place.&n
+~
+67110986 0 0 0 0 0 0 0 S
+PH 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82861
+lieutenant ballista crew guard human~
+&+ythe &+Ylieutenant&n &+yof the ballista crew&n~
+&+yThe &+Ylieutenant&n &+yof the ballista crew is checking over the machine.&n
+~
+&+y   This lieutenant is the chief in charge of the ballista crew.  He is the&n
+&+yone given all of the responsibility of ensuring his ballista can fire both&n
+&+ypromptly and accurately and he drills his team constantly.&n
+~
+1140852810 0 0 0 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82862
+longbowman long bow man tall human~
+&+ya tall &+Ylongbowman&n~
+&+yA tall &+Ylongbowman&n &+yis walking his daily patrol on the platform.&n
+~
+&+y   This tall and lithe human is trained in the use of the longbow, designed&n
+&+yto rain death upon a foe below.  His skill with the weapon is not as great&n
+&+yas the fabled elves or the rangers of the woods, but it is still impressive.&n
+~
+67110988 0 0 0 0 0 0 0 S
+PH 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82863
+nailsmith nail smith heavily-bearded heavily bearded human~
+&+ya heavily-bearded &+Lnailsmith&n~
+&+yA heavily-bearded &+Lnailsmith&n &+yis wandering about the smithys' quarter.&n
+~
+&+y   This large man is a nailsmith, a specialist in the art of making nails.&n
+&+yHis heavy red beard flows half-way down his chest, stopping just above a&n
+&+ylarge and ample belly.&n
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82864
+tinker rotund human~
+&+ya rotund &+Ctinker&n~
+&+yA rotund &+Ctinker&n &+yis wandering the alleys of the bailey.&n
+~
+&+y   This rather plump human is a tinker; he travels about the region&n
+&+yrepairing pots and pans.  While not a highpaying job, it has the benefits&n
+&+yand drawbacks of a profession that travels frequently.&n
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82865
+ploughman plough man bulky barbarian~
+&+ya bulky &+Bploughman&n~
+&+yA bulky &+Bploughman&n &+yis admiring the sights of the bailey.&n
+~
+&+y   This huge barbarian is visiting the city from his farm in the country
+&+yand is quite amazed by the various sites which he sees.  His massive arms
+&+yand legs speak to a lifetime behind the plough.&n
+~
+2124 0 0 0 0 0 0 0 S
+PB 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82866
+sergeant guard human~
+&+ythe&n &+Ysergeant&n &+yof the guard&n~
+&+yThe&n &+Ysergeant&n &+yof the guard is walking the platforms of the palisade.&n
+~
+&+y   One of the highest ranked, this man walks the platform not as a part of his
+&+yroutine, but more as a way of checking up on his men.  His striped shirt announces
+&+yhis authority and the other men walk lightly around him.&n
+~
+1140852812 0 0 0 0 0 0 0 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82867
+private grumbling~
+&+ya grumbling &+Yprivate&n~
+&+yA grumbling &+Yprivate&n &+yis muttering about manning the cauldrons.&n
+~
+&+y   This large man is of the lowest rank in the military structure of the&n
+&+ycastle.  His function is that of manning the oil cauldrons at the gates to&n
+&+ythe bailey, ready to pour scalding death on invaders below.&n
+~
+1140852812 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82868
+chef tubby human~
+&+ga tubby &+Wchef&n~
+&+gA tubby &+Wchef&n &+gis slicing and dicing an onion.&n
+~
+&+y   This man is a gourmet chef, charged with providing the extremely well-&n
+&+ymade meals for the castle nobility.  He is reputedly the finest chef in the&n
+&+yregion and his haughty attitude shows he is aware of his reputation.&n
+~
+1073743946 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82869
+guard lazy human~
+&+ga lazy &+Lguard&n~
+&+gA lazy &+Lguard&n &+gis snoring loudly as he shirks his duty.&n
+~
+&+g   This rotten sod is shirking his duty, a capital offense in the army of&n
+&+gthe duchy.  His smallish arms and legs also reveal he has been neglecting&n
+&+ghis exercise; he is a sorry excuse for a soldier.&n
+~
+1073743946 0 0 0 0 0 0 0 S
+PH 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#82870
+servant meek human~
+&+ga meek &+yservant&n~
+&+gA meek &+yservant &+gshuffles about the castle sweeping up dust.&n
+~
+&+g   This small and meek servant is destined for a life of drudgery.  Her&n
+&+gskill with a broom is phenomenal, however this is the only skill she has&n
+&+gever acquired.&n
+~
+2248 0 0 0 0 0 0 0 S
+PH 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82871
+servant off-duty off duty human~
+&+gan off-duty &+yservant&n~
+&+gAn off-duty &+yservant &+gis engaged in a game of darts.&n
+~
+&+g   This smallish human is another of the castle servants, relaxing as he&n
+&+genjoys his time between shifts.  Currently engaged in a game of darts, he&n
+&+gseems preoccupied with the dartboard mounted upon the wall.&n
+~
+2122 0 0 0 0 0 0 0 S
+PH 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82872
+servant worried looking worried-looking human~
+&+ga worried-looking &+yservant&n~
+&+gA worried-looking &+yservant &+gis practicing different openings in chess.&n
+~
+&+y   Brows furrowed in concentration, this human is practicing his opening&n
+&+ymaneuvers in chess.  He is currently working on variations of the English&n
+&+yopening, traditionaly started by moving the pawn at C2 to C4 and the Knight&n
+&+yat B1 to C3.&n
+~
+2122 0 0 0 0 0 0 0 S
+PH 0 1 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82873
+servant exhausted human~
+&+gan exhausted &+yservant&n~
+&+gAn exhausted &+yservant &+gis almost asleep after a grueling day of work.&n
+~
+&+g   This poor servant has spent the entire day cleaning and is only now&n
+&+gable to relax.  Pale skin shows she has not seen much sun in the recent past&n
+&+gand her eyes are set within sunken sockets.&n
+~
+1073743946 0 0 0 0 0 0 0 S
+PH 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 2
+#82874
+captain off-duty off duty human~
+&+gan off-duty &+Lcaptain&n~
+&+gAn off-duty &+Lcaptain&n &+gis muttering under his breath.&n
+~
+&+g   This meticulously dressed captain is winding down after a day on duty.&n
+&+gHis fine uniform is hardly dirty and his boots are highly shined black.  He
+&+gmutters something under his breath about the chess players.&n
+~
+1073743946 0 0 0 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82875
+corporal burly human~
+&+ga burly &+Lcorporal&n~
+&+gA burly &+Lcorporal&n &+gis relaxing between shifts of duty.&n
+~
+&+g   This corporal is a member of the castles guard and is one of the few&n
+&+genlisted men with any sort of rank.  Currently off-duty, he is cleaning up&n
+&+ghis weapons rack, not content to merely sleep as do most of his men.&n
+~
+67110986 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82876
+archbishop arch bishop human~
+&+gthe &+Warchbishop&n~
+&+gThe &+Warchbishop&n &+gof the keep kneels here, deep in prayer.&n
+~
+&+g   This small and diminutive human is the archbishop of a small religious&n
+&+gsect devoted to the god of battle.  He spends most of his days praying for&n
+&+gthe soldiers of the keep and as such is very popular with them.&n
+~
+1140852810 0 0 16 32768 0 0 0 S
+PH 0 32 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82877
+disciple arch bishop~
+&+ga &+Wdisciple&n &+gto the archbishop&n~
+&+gA &+Wdisciple&n &+gto the archbishop is watching the area closely.&n
+~
+&+g   This large and rather well-muscled human is officially titled as the&n
+&+gdisciple to the archbishop, however his role is more of bodyguard.  He has&n
+&+gno firm religious beliefs, however the gold he is paid ensures his feigned
+&+gpiety.&n
+~
+67110986 0 0 0 0 0 0 0 S
+PH 0 64 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82878
+delwyn duke human~
+&+CDuke Delwyn&n~
+&+CDuke Delwyn&n &+gis standing here, presiding over his court.&n
+~
+&+g   The duke is a rather large man, said by some to have been a fearsome&n
+&+gwarrior at one time.  Certainly he has the scars to prove it, as large&n
+&+gcuts run down both arms and a single gash across the bridge of his nose&n
+&+gglows a dark red.  His eyes are firm yet compassionate, suggesting he is
+&+gjust man unafraid of using violence to enforce his will.&n
+~
+1174419530 0 0 805380152 45248 0 0 1000 S
+PH 0 8 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82879
+herald elven grey elf~
+&+gan elven &+Yherald&n~
+&+gAn elven &+Yherald&n &+gawaits an audience with the duke.&n
+~
+&+g   This tall elf is a herald and an experienced courtier.  Unusual for
+&+gmembers of his race, he is not skilled in the ways of the woods nor the ways
+&+gof magic.  Also unusual is his interest in the affairs of the mostly human
+&+gcastle.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PE 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82880
+churl sun burned sunburned human~
+&+ga sunburned &+cchurl&n~
+&+gA sunburned &+cchurl &+gawaits his turn at court.&n
+~
+&+g   A farmer of some wealth, this man is a churl.  His farms in the country&n
+&+gcome under the jurisdiction of the Duke, which in turn means he is&n
+&+gsubject to taxation by the Duke.  It is this last of which brings him to&n
+&+gcourt, to argue his position against the increase of taxes.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82881
+page weasel faced weasel-faced human~
+&+ga weasel-faced &+Bpage&n~
+&+gA weasel-faced &+Bpage&n &+gis waiting on the Duke's every wish.&n
+~
+&+g   This rather ugly human is the Duke's personal servant.  He is always&n
+&+gnear the Duke, ready to follow whatever commands the Duke has for him.  It&n
+&+gis said that he is also trained as a bodyguard, although he is on first&n
+&+glook quite skinny and frail.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82882
+dignitary dwarven dwarf mountain~
+&+ga dwarven &+Ydignitary&n~
+&+gA dwarven &+Ydignitary&n &+gis presenting his greetings to the court.&n
+~
+&+g   An ambassador from the dwarven cities, this rotund and barrel-chested&n
+&+gindividual has a hard time adjusting to the etiquette required in such a&n
+&+gplace as the Duke's court.  He appears ready to slam his fist into a wall&n
+&+gor yell at the top of his lungs just to break the solemn atmosphere.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PM 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82883
+representative guild human~
+&+ga guild &+Wrepresentative&n~
+&+gA &+Wrepresentative&n &+gof one of the many guilds is working at a desk.&n
+~
+&+g   One of the representatives of a guild quite prominent in the local&n
+&+gregion, this human is quite important.  He has come to negotiate a trade&n
+&+groute past the castle and is even now researching his facts and figures.&n
+~
+1073743950 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82884
+duchess flabby barbarian~
+&+gthe flabby &+CDuchess&n~
+&+gThe flabby &+CDuchess&n &+gstands here searching for something.&n
+~
+&+c   The wife of the Duke of the county, she is almost three houndred pounds&n
+&+cin weight.  Her rolls of blubber jiggle as she walks and she seems to be&n
+&+csearching for something in the room.&n
+~
+2126 0 0 0 0 0 0 0 S
+PB 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82885
+mistress gorgeous human~
+&+gan gorgeous &+Wmistress&n~
+&+gA gorgeous &+Wmistress&n &+gis hiding from the Duchess.&n
+~
+&+g   This extremely beautiful woman is the Duke's mistress.  She is currently&n
+&+gtrying to keep from being spotted by the Duchess.  Her firmly shaped body&n
+&+gis covered only by an exotic velvet skirt, her chest bare and her feet&n
+&+guncovered.&n
+~
+2126 0 0 1572864 0 0 0 0 S
+PH 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82886
+watchman watch man elite human~
+&+gan elite &+Lwatchman&n~
+&+gAn elite &+Lwatchman&n &+gis standing guard outside the duke's quarters.&n
+~
+&+g   This elite soldier has been specially chosen to be in the Duke's own&n
+&+gpersonal guard.  His current assignment is that of guarding the Duke's&n
+&+gquarters, one he does not appear to take lightly.&n
+~
+67110990 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82887
+watchman watch man elite human~
+&+gan elite &+Lwatchman&n~
+&+gAn elite &+Lwatchman&n &+gis standing guard outside the archbishop's quarters.&n
+~
+&+g   This guard is a member of the elite gaurd of the keep.  His function is&n
+&+gcurrently to keep any and all intruders from the archbishop's quarters.&n
+~
+67110990 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82888
+diplomat guild human~
+&+ga guild &+Wdiplomat&n~
+&+gA guild &+Wdiplomat&n &+gis relaxing after a long day of negotiations.&n
+~
+&+g   This lithe human is a diplomat for the haulers guild, here to negotiate&n
+&+gwith representatives of the duchy.  His weasel-face and darting eyes give&n
+&+ghim a look that belies trust.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82889
+arbitrator stout human~
+&+ga stout &+Barbitrator&n~
+&+gA stout &+Barbitrator&n &+gis resting between sessions of negotiations.&n
+~
+&+g   This man is supposedly impartial, listening to the merits of the cases&n
+&+gof both the guilds and the government of the duchy.  His reputation for&n
+&+gfairness is well-deserved, having successfully arbitrated many contracts.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82890
+halfling skulking~
+&+La skulking &+yhalfling&n~
+&+LA skulking &+yhalfling &+Lis trying to hide in the shadows.&n
+~
+&+L   This tiny halfling is obviously not supposed to be here.  He is trying to&n
+&+Levade detection, however he also seems to be searching for something in the&n
+&+LDuke's study.&n
+~
+2126 0 0 1572864 0 0 0 0 S
+PF 0 8192 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82891
+footman foot man heavy~
+&+ga heavy &+Lfootman&n~
+&+gA heavy &+Lfootman&n &+gis patrolling the keep, watching for trouble.&n
+~
+&+g   This heavily armored soldier is dressed in he fine mail of the elite&n
+&+gguard of the castle.  In addition, several small tattoos on his right&n
+&+gshoulder indicate his prowess in battle, a mark for every kill.&n
+~
+67110988 0 0 0 0 0 0 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82892
+lookout lithe human tall~
+&+ga tall &+Clookout&n~
+&+gA tall &+Clookout&n &+gis watching the horizon for invaders.&n
+~
+&+g   This tall human is one of many lookouts stationed upon the roof of the&n
+&+gkeep.  He is assigned a specific area to watch, and is always on the watch&n
+&+gfor anything that might mean trouble to the castle.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82893
+warden rooftop roof top human~
+&+ga rooftop &+Lwarden&n~
+&+gA rooftop &+Lwarden&n &+gis watching for trouble on the roof of the keep.&n
+~
+&+g   This human's job is to protect the rooftop from attack, whether by&n
+&+gconventional or less mundane assault.  His arms bear many battle scars and&n
+&+git is evident he knows one end of a sword from the other.&n
+~
+67110988 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82894
+observer specially trained human~
+&+ga specially trained &+Yobserver&n~
+&+gA specially trained &+Yobserver&n &+gis using the telescope, watching the horizon.&n
+~
+&+g   This observer has been trained well in the use of the telescope, in order&n
+&+gto detect far-off threats before they approach the castle.  His eyes both&n
+&+gbear large rings about them from having them pressed to the eyepiece of the&n
+&+gtelescope.&n
+~
+2126 0 0 0 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82895
+magician keep gnome~
+&+gthe keep &+Mmagician&n~
+&+gThe keep &+Mmagician&n &+glevitates here, frowning deeply.&n
+~
+&+g   This hairy gnome is the magician of the keep.  His great magics are&n
+&+gprimarily offensive in nature, however he also knows other types of more&n
+&+galtruistic incantations.  He glares about and frowns as he looks at the&n
+&+gflagpole.&n
+~
+1073789134 0 0 134217728 0 0 0 0 S
+PG 0 4194304 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

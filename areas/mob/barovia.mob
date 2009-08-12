@@ -1,0 +1,946 @@
+#91000
+human messenger vistani~
+&+La &+cVistani &+Lmessenger&N~
+&+LA human &+cmessenger&+L stands here, darkly cloaked and fast on his feet.
+~
+   &+LThis human wears black garments everywhere on his bloody, with
+&+La small pin of a &+Wfang&+L pinned to the collar of his long, flowing
+&+Lblack cloak.  He walks and speaks very quickly, always with an eye
+&+Lpeering over his shoulder.  A diplomat man whose words make you very
+&+Lintrigued on what he has to say.
+~
+2250 0 0 67633304 0 0 4194304 -800 S
+PH 0 8192 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91001
+quiet tired inn patron~
+&+La quiet and tired inn patron&N~
+&+LA quiet and tired inn patron &Nslowly sips his drink.
+~
+   &+LThis human has travelled quite far and has now, like the others
+&+Lwho commute this distance, has taken refuge in this portion of the
+&+Lforest, the Weary Horse Inn.  He slowly sips his drink, seated at a
+&+Lsmall table in the Inn.
+~
+2250 0 0 67109000 0 0 4194304 0 S
+PH 0 16384 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91002
+bartender~
+&+Wthe bartender&N~
+&+WThe bartender of the Weary Horse Inn stands here, &Nnervously peering out of a window.
+~
+   &+WThis older human stands here with a large apron on.  He is quite
+&+Wshort with an average build.  A worried face sits square in one of
+&+Wthe windows of this inn as he silently watches the fog consume the
+&+Wforest as he experiences the darkest nightfall the Weary Horse Inn
+&+Whas ever seen.
+~
+2250 0 0 67109016 0 0 4194304 0 S
+PH 0 0 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91003
+infectious zombie~
+&+Gan &+ginfectious &+Gzombie&N~
+&+GA mindless &+gzombie&+G, infected with &+Mdisease&+G lumbers here.
+~
+   &+GChunks of flesh hang from rotting bones off this once long-dead
+&+Gcorpse that has been since reanimated from the terrible evil
+&+Gthat currently plagues Barovia.
+~
+1140850760 1 0 67109016 0 0 4194304 -1000 S
+zo 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91004
+carcass eater~
+&+ra &+Mc&+ra&+Mr&+rc&+Ma&+rs&+Ms &+re&+Ma&+rt&+Me&+rr&N~
+&+rA &+Mc&+ra&+Mr&+rc&+Ma&+rs&+Ms &+reater &+Mhunches over the remains of a corpse, &+rfeasting.
+~
+   &+RThis gore-streaked terrible monstrosity has four legs and
+&+rhunches over the remains of a carcass, devouring chunks of flesh
+&+Rbite-by-bite.  This creature looks like an over-sized half rat,
+&+rhalf wolf.  Its jaws are extraordinarily large, eyes glittering
+&+rwith rabid fury.
+~
+1073743946 1 0 67109016 0 262144 4194304 -850 S
+X 0 1048577 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91005
+deathlock undead~
+&+La &+rd&+Lea&+rt&+Lhlo&+rck&N~
+&+LA gruesome &+rundead &+Ldeathlock &Nshambles through here, moaning.
+~
+   &+LThis undead monstrosity was once one of the proud villagers
+&+Lof Barovia and has since been &+ginfected &+Lwith the blaspheme
+&+Lthat currently corrupts Barovia.  This corpse is skeletally thin.
+&+LIts cadaverous eyes sizzle with cursed power, and deadly spells
+&+Ldance on its fingertips.  Like the zombies, this creature was animated
+&+Lfrom the long dead corpse of a Barovia villager.  However, the
+&+Lindividual who provided this corpse was a powerful spellcaster, one
+&+Lof the few in Barovia history, who retains the original magical
+&+Lprowess of its former life.
+~
+1073744072 1 0 67109016 0 0 4194304 -1000 S
+wr 0 513 3
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91006
+ashlyn hunter lightbringer~
+&+WAshlyn, the &+Yundead &+Whunter&N~
+&+WAshlyn, the &+Yundead &+Whunter, a lightbringer of P&+Ye&+Wl&+Yo&+Wr&N walks here, attacking the undead.
+~
+   &+WAshlyn is a human woman wearing shining half plate-mail on
+&+Wwhich a holy symbol is emblazoned.  She calls out aid for "The
+&+WLight" while trying to put down the zombie uprising.  Ashlyn
+&+Wreveres a deity known as Pelor, God of Lightbringers and Hunter
+&+Wof undeath.
+~
+2248 0 0 67109016 0 0 4194304 1000 S
+PH 0 67108864 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91007
+bildrath~
+&+MBildrath~
+&+MBildrath stands here, nervously looking over his belongings.
+~
+   &+MBildrath is a middle aged human.  He wears simple cloth clothing
+&+Malong with numerous accessories including a vibrant necklace and
+&+Ma pair of deep sapphire bracelets.  He nervously watches his belongings,
+&+Mstartled by the nearby zombie incursion outside the nailed and barricaded
+&+Mentrance to his home.  Bildrath replenishes his stock through trade
+&+Mwith the far-roving &+cVistani&+M.  His prices are high, but the people
+&+Mof Barovia rely on the mercantile for hard-to-come-by items.  However,
+&+MBildrath closed shop when the zombie invasion began, and he will not
+&+Mopen it again to regular business until the infestation is quelled.
+~
+2250 0 0 67109016 0 0 4194304 0 S
+PH 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91008
+wolf vicious black dire~
+&+La vicious black dire wolf&N~
+&+LA vicious black dire wolf hunts here&N stalking through the forest.
+~
+   &+LThis wolf has a shiny, thick coat.  It is much larger than a
+&+Lregular wolf, weighing in at most likely one-fifty to two-hundred
+&+Lpounds.  Glowing red eyes stare from deep within the skull of this
+&+Lbeast, lips curled back revealing black gums and razor sharp
+&+Lteeth with a chilling snarl.
+~
+1073743944 1 0 67109016 0 0 4194304 0 S
+A 0 1 4
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91009
+vistani assassin~
+&+La stealthy &+cVistani &+Lassassin&N~
+&+LA stealthy &+cVistani &+Lassassin sneaks through the shadows, &+ron the hunt..
+~
+   &+LDressed in tight, yet movable leather and cloth garments that have
+&+Lbeen dyed black and red, this member of the Barovia crime syndicate and
+&+Lpersonal surveillance squad of Strahd Von Zarovich himself - The Vistani.
+&+LKnown to follow and keep close tabs on the visitors of Barovia, this Vistani
+&+Lhas been given another mission - to kill.  All it takes is the wrong words
+&+Lout of the mouth of a visitor to warrant a knife in his back in Barovia.
+~
+1073744072 1 0 68681880 0 0 4194304 -1000 S
+PH 0 8192 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91010
+arik barkeep~
+&+GArik the barkeep&N~
+&+GArik the barkeep stands behind the bar&+g, wiping clean mugs and pitchers.
+~
+   &+GArik is a simple middle-aged human man who has taken up the
+&+Glife of a bartender here within the heart of Barovia.  Although
+&+Gnormally &+RThe Blood of the Vine&+G Tavern is a local hot-spot
+&+Gfor late night gambling, drinking, and tension-releasing from
+&+Gthe hard days, Arik now stands over his newly-transformed bunker
+&+Grather than a bar.  Only a little bit of sweat rolling down the
+&+Gforehead of this man can demonstrate the fear and uneasiness in his
+&+Geyes, as he mindlessly swabs down the bar, cleans out mugs and
+&+Gother glassware, and otherwise just waits.
+~
+2058 0 0 67109016 0 0 4194304 300 S
+PH 1 1 3
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91011
+ismark lesser~
+&+mIsmark the lesser&N~
+&+mIsmark the Lesser sits here in a shadowy corner, &+Lquietly sipping wine.
+~
+   &+mIsmark the Lesser is the son of the town's burgomaster.  He sits
+&+min a shadowed corner of the bar, apart from the others.  He sips a
+&+mdark red wine from a goblet.  He wears very fine nobleman clothes,
+&+mwhich are currently stained with mud and dirt, hinting at some possibility
+&+mof an escape through the rain and muddy surroundings of Barovia during
+&+mthe zombie incursion.
+~
+2122 0 0 67109016 0 0 4194304 550 S
+PH 0 32769 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91012
+ireena kolyana~
+&+WIreena Kolyana&N~
+&+WIreena Kolyana, daughter of the burgomaster, weeps over her father's body.
+~
+   &+WIreena Kolyana is a well-dressed and wealthy noble woman.  She
+&+Whas beautiful blonde hair and a firm, yet voluptuous body.  Currently,
+&+WIreena Kolyana weeps over the poisoned, lifeless body of her father,
+&+Wthe burgomaster of Barovia.
+~
+2122 0 0 67109016 0 0 4194304 1000 S
+PH 1 33 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91013
+orbitian mystic~
+&+LOrbitian the mystic&N~
+&+LOrbitian the mystic stands here, oblivious to the zombie invasion.
+~
+   &+LThis cloaked figure seems to be elven, but of which breed no one can
+&+Lbe sure other than himself.  Orbitian stands somewhat taller than the
+&+Lhumans of Barovia, but has made a place for himself in this business
+&+Ldistrict, setting up a shop of arcana.  Apparently, however, the shop
+&+Lhas been barricaded from the zombie incursion.
+~
+268437578 0 0 67109016 0 0 4194304 300 S
+PE 0 517 4
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91014
+giant dire maggot~
+&+Wa &+Lgiant&N &Nd&+Wi&Nr&+We &Nm&+Wa&Ng&+Wg&No&+Wt&N~
+&+LA giant &Ndi&+Wre &Nma&+Wgg&Not &+Wwr&Nig&+Wgl&Nes &+Wfo&Nrt&+Wh, &+Lmoving towards you.
+~
+   This disgusting four-foot long pigment-less worm wriggles here like a
+giant slug, except much quicker.  This toothless maggot feeds by sucking
+flesh into its mouth and dissolving it, effectively drinking its victims
+alive.  The &+gdark green &Ngoo the dire maggot releases from its gaping
+maw can &+Lparalyze&N as well as &+Lpoison&N its unfortunate victims.
+~
+526410 1 0 67109016 0 0 4194304 -850 S
+AP 0 1 2
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91015
+vargouille head~
+&+Ya vargouille&N~
+&+YA distorted tendril-covered head floats here, &+Geyes glowing green with lust.
+~
+   &+yThis horrible creature resembles a humanoid head.  However in place of
+&+yhair are dozens of &+Rwrithing tendrils&+y.  The eyes of this monstrosity
+&+yglow with a &+Gdeep green&+y that seem to &+Gfl&+Yare &+Gup &+ywhen the vargouille
+&+ylunges forth with an attack.  Two leathery wings, resembling those of
+&+ya &+Lbat &+yextend from the sides of this head, beating as quickly
+&+yas a birds.
+~
+1073743946 1 0 67109016 0 0 4194304 -1000 S
+BH 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91016
+entomber zombie~
+&+Lan en&+yto&+Lmber&N~
+&+LAn en&+rt&No&+Lmber &+rzombie&+L lumbers here, &+greeking of soiled earth.
+~
+   &+LThis undead monstrosity is like a shrunken zombie, disguised to
+&+Lthe point where it is hard to classify it as a bipedal.  This corpse
+&+Lis encrusted with years of grave-dirt, and moves with a rapidity
+&+Lregular zombies lack.  It wields a grave-born &+cpower&+L to push its
+&+Lfoes into a premature, shallow &+mgrave&+L.
+~
+67110984 1 0 67109016 24 0 4194304 -1000 S
+zo 0 1 5
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91017
+fiery-eyed ghast~
+&+Ga &+rfiery-eyed &+Gghast&N~
+&+GA fiery eyed ghast walks here, &+Rburning with a horrible evil.
+~
+   &+rThis foul creature appears to be more or less humanoid
+&+rin origin, but it has mottled, decaying flesh drawn tight
+&+racross clearly visible bones.  Mostly hairless, this ghast
+&+rhas huge carnivorous &+Wteeth&+R, and eyes that &+Rburn&+r like hot
+&+rcoals within shrunken sockets.  This creature, a more formidable
+&+rvariety of a &+Wghoul&+r is cursed with an undeath life, driven
+&+ronly to kill and eat.
+~
+1073744970 1 0 67109016 0 0 4194304 0 S
+U 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91018
+parriwimple nephew~
+&+YParriwimple&N~
+&+YParriwimple, the nephew of Bildrath, works here fortifying the barricade.
+~
+   &+YThis young man is most likely stronger than his uncle, as he works
+&+Ydiligently to repair the barricade on the outer door of his uncle's
+&+Yshop.  Parriwimple is able-bodied and determined.  He follows every
+&+Ycommand from his uncle Bildrath.
+~
+2122 0 0 67109016 0 0 4194304 800 S
+PH 1 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91019
+dismembered zombie~
+&+Ga dis&+ymem&+rbe&+yr&+red &+Gzombie&N~
+&+GA zombie that has been dis&+ymem&+rbe&+yr&+red &+Gstands here groaning.
+~
+   &+GChunks of flesh hang from rotting bones off this once long-dead
+&+Gcorpse that has been since reanimated from the terrible evil
+&+Gthat currently plagues Barovia.
+~
+1074268234 1 0 67109016 0 0 4194304 -1000 S
+zo 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91020
+deathlock undead~
+&+La d&+rea&+Lt&+rhlo&+Lck&N~
+&+LA gruesome &+rundead &+Ldeathlock &Nshambles through here, moaning.
+~
+   &+LThis undead monstrosity was once one of the proud villagers
+&+Lof Barovia and has since been &+ginfected &+Lwith the blaspheme
+&+Lthat currently corrupts Barovia.  This corpse is skeletally thin.
+&+LIts cadaverous eyes sizzle with cursed power, and deadly spells
+&+Ldance on its fingertips.  Like the zombies, this creature was animated
+&+Lfrom the long dead corpse of a Barovia villager.  However, the
+&+Lindividual who provided this corpse was a powerful spellcaster, one
+&+Lof the few in Barovia history, who retains the original magical
+&+Lprowess of its former life.
+~
+1342179530 1 0 67109016 0 0 37748736 -1000 S
+wr 0 513 3
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91021
+terrified gate guard city~
+&+La terrified &Ngate guard&N~
+&+LA terrified &Ncity guard&+L hides in the corner from the incursion.
+~
+  &+LThis guard has been trained to simply to inspect wagons and
+&+Lcargo that move in and out of Barovia daily in search of contraband,
+&+Lbut he rarely does that anyway.  When this guard's occupation is
+&+Lpushed to its fullest, in full combat against undead, it is no wonder
+&+Lhe has taken the cowards way out, hiding scared crapless in a small
+&+Lguard post to which only he has the key.
+~
+2186 0 0 67109016 0 0 4194304 1000 S
+PH 1 1 3
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91022
+zombie bloody defeated~
+&+Ga &+rbloody&+G and nearly-&+Ldefeated &+Gzombie&N~
+&+GCrawling towards you, this &+rbloodied &+Gand nearly&+L-defeated&+G zombie rages on.
+~
+   &+GChunks of flesh hang from rotting bones off this once long-dead
+&+Gcorpse that has been since reanimated from the terrible evil
+&+Gthat currently plagues Barovia.  &+GThis zombie lies here, armless,
+&+Ghaving been dismembered by Ashlyn.
+~
+1074268234 1 0 67109016 0 0 4194304 -1000 S
+U 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91023
+lone draft horse~
+&+La lone draft horse&N~
+&+LA lone draft horse stands here silently, &Nswatting its tail.
+~
+   &+LThis draft horse is about average size for a horse.  It has a thick black
+&+Lmane and stands here, lassoed to the stall.  This horse was most likely
+&+Lone of an adventurer who was either forced indoors or who did not have
+&+Lan opportunity to flee.  Either way, this horse is free for the taking.
+~
+134217866 0 0 201851032 2 0 4194304 0 S
+AE 0 1 4
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91024
+zombie stram etush~
+&+Rthe zombie of Stram Etush&N~
+&+RThe &+Wfreshly-risen &+Rzombie of Stram Etush, former store clerk, &Nlooms here.
+~
+   &+RStram Etush, once a respected store owner and clergy member of Barovia,
+&+Rhas recently been bittened by an infected zombie, and taken in the &+Ginfection
+&+Rhimself.  Eyes paled and wandering with fresh, open bite-wounds adorn
+&+Rthis man's face.  His skin has paled over and his arms twitch as the muscles
+&+Rin his body spasm.  A putrid stench fills his breath as he hisses, violently
+&+Rmoving forward to taste flesh, and spread the infection.
+~
+1342721098 1 0 335544472 1 0 4194304 -1000 S
+zo 0 33 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91025
+infected zombie female~
+&+Lan &+ginfected &+Lzombie&N~
+&+LFormerly a &+Chuman female&+L, this recently-&+ginfected&+L zombie&N stands here gnawing on &+Rflesh&N.
+~
+   &+LThis recently-infected zombie is that of a human female.
+&+LShe recently has been bitten and has quickly turned into
+&+La zombie herself.  She currently gnaws on the unrisen
+&+Lcorpse of a &+Wsmall child &+Lbeside her, most likely her
+&+Lown young.
+~
+1074268234 1 0 67109272 0 0 4194304 -1000 S
+zo 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91026
+zombie elax berak baker~
+&+Cthe zombie of Elax Berak&N~
+&+CFormerly the baker of Barovia, the recently-infected Elax Berak stands here groaning.
+~
+   &+CFormerly the master baker of Barovia as well as respected novelist,
+&+Cthis articulate individual's fate is not of that and pastries and
+&+Cliterature, but now of &+rblood&+C and &+mguts&+C.  Still clutched tightly
+&+Cin his right hand is a large rolling pin.  Head down, the zombie of Elax
+&+CBerak groans as it shuffles across the bloodstained, flour-covered bakery
+&+Cfloor.  A long wisp of black drool dangles from the bottom lip of Elax,
+&+Conly to be whisked across an oven tray.
+~
+1074284618 1 0 67109016 1 0 4194304 0 S
+zo 0 513 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91027
+zombie~
+&+Ga zombie&N~
+&+Ga vicious zombie stands here, &+rdrooling with &+Lblack poison.
+~
+   &+GChunks of flesh hang from rotting bones off this once long-dead
+&+Gcorpse that has been since reanimated from the terrible evil
+&+Gthat currently plagues Barovia.
+~
+1141377098 1 0 67109016 0 0 4194304 -1000 S
+zo 0 16385 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91028
+ghoul venomous black~
+&+La v&+ge&+Ln&+go&+Lm&+gou&+Ls black &+gghoul&N~
+&+LA black &+gghoul&+L lumbers here, mouth &Nreeking&+L of &+gv&+Le&+gn&+Lo&+gm&+L.
+~
+   &+LThese ghouls are &+Wnot part&+L of the &+gzombie incursion&+L.
+&+LMuch more intelligent then their mindless zombie cousins, these
+&+Lghouls move systematically from house to house, unless of course
+&+Lthey happen to spot or sense a living creature on the way, in search
+&+Lof valuable and still-living creatures.  These &+gghouls&+L are so
+&+Lhungry that they are even devouring chunks of the infected zombies.
+~
+1075317834 1 0 67109016 0 0 4194304 -1000 S
+U 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91029
+zombie~
+&+Ya zombie&N~
+&+Ga vicious zombie stands here, &+rdrooling with &+Lblack poison.
+~
+   &+GChunks of flesh hang from rotting bones off this once long-dead
+&+Gcorpse that has been since reanimated from the terrible evil
+&+Gthat currently plagues Barovia.
+~
+1074268234 1 0 67109016 0 0 4194304 -1000 S
+zo 0 16385 4
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91030
+danovich fallen priest~
+&+WDanovich the Fallen Priest~
+&+WKneeling behind the altar, Danovich &Nsobs while mumbling disjointed prayers
+~
+   &+WDanovich is very old and frail, yet he is still quite powerful.
+&+WBlack circles surround his blood-shot eyes.  He twitches and moves
+&+Wwith a delirious panic as he continues spouting off the same prayer
+&+Wto his son Doru.  Clutched within his hands are an ancient &+Lstone
+&+Ltablet&+W, marked with arcane and unhuman etchings.
+   &+WDanovich currently kneels behind the altar, rocking back and forth
+&+Wwhile mumbling prayers with tears running down his face.  He looks
+&+Wvery malnourished and quite sick, living in this dilapidated and
+&+Wzombie-infested church.
+~
+1067210 0 0 67109016 0 0 4194304 -1000 S
+PH 0 33 3
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91031
+doru infectious blaspheme~
+&+LD&+ro&+Lr&+ru&+L, the &+ginf&+Le&+gc&+Lt&+gi&+Lous &+rbla&+Ls&+rp&+Lh&+re&+Lme~
+&+LD&+ro&+Lr&+ru&+L, the &+ginf&+Lec&+gt&+Li&+go&+Lus &+rblaspheme&+L stands here, &Nradiating &+Linfectious corruption.
+~
+   &+LPerhaps the only feature to D&+ro&+Lr&+ru&+L that can still make him somewhat
+&+Lleast resembling of &+WDanovich's&+L son is the single &nscar&+L on the forehead
+&+Lof this beast, from his mortal days.  This creature appears like a
+&+Lcorpse, &+rsurgically&+L modified by a &+Rlunatic&+L.  Sk&+We&+Ll&+We&+Lt&+Wa&+Ll&+Wl&+Ly thin, its arms
+&+Lare too long, while its head is wide and wedge-shaped with a mouth
+&+Lsplit &+Ro&+Lpe&+Rn&+L at the sides, able to open many times wider than a normal
+&+Lhuman mouth.  Black teeth shi&Nn&+We&+L between the pale lifeless, &+ychewed &+mlips
+&+Lof this beast, frozen like black ice while giving off a venomous
+&+Lblack steam ready to gnash into the &+rflesh&+L of the living.
+~
+1091586122 1 0 603979920 47296 0 12583936 -1000 S
+X 0 1025 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91032
+thendrick baneguard~
+&+WTh&Ne&+rnd&+Lrick &+rthe baneguard&N~
+&+WFormerly a &+Ylight&+Wbringer, Then&Nd&+rri&+Lck &+rhas risen into a baneguard.
+~
+   &+WWearing the glorious white garments with silver chainmail of Pelor,
+&+Wthis former &+YLight&+Wbringer has since fallen to the undead and
+&+Whas since risen into a &+rbaneguard&+L, servant of the blaspheme and
+&+Wfeaster of good souls.  Thendrick's face has gone unharmed, giving him
+&+Wan otherworldly aura in a humanoid form.  Still wielding with him his
+&+Wholy avenger, this ironic foe stands ready to kill the living.
+~
+17303626 1 0 201326744 47296 0 4194304 -1000 S
+X 0 16777232 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91033
+mathilda deathlock~
+&+WMat&Nh&+mil&+Lda&+m the deathlock&N~
+&+WOnce a proud warrioress, Mat&Nh&+mil&+Lda &+mhas risen into an infected deathlock.
+~
+   &+WAshlyn the Lightbringer talked about Mathilda as her warrioress
+&+Wsister.  An excellent woman with a sword and, although not a lightbringer
+&+Wor paladin, a holy warrior none-the-less.  Now, however, Mathilda has
+&+Wbeen slain by the undead and infected by Doru, the source of the blaspheme,
+&+Wpersonally.  A dark and ancient magic has corrupted and possessed the once
+&+Wmagnificent body of Mathilda, forcing her into undeath as a deathlock,
+&+Wa foe both vicious in magic and combat.
+~
+16780362 1 0 67109016 47296 0 4194304 -1000 S
+X 0 16777729 4
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91034
+vargouille head~
+&+ya vargouille&N~
+&+yA distorted tendril-covered head floats here, &+Geyes glowing green with lust.
+~
+   &+yThis horrible creature resembles a humanoid head.  However in place of
+&+yhair are dozens of &+Rwrithing tendrils&+y.  The eyes of this monstrosity
+&+yglow with a &+Gdeep green&+y that seem to &+Gfl&+Yare &+Gup &+ywhen the vargouille
+&+ylunges forth with an attack.  Two leathery wings, resembling those of
+&+ya &+Lbat &+yextend from the sides of this head, beating as quickly
+&+yas a birds.
+~
+1140852808 1 0 67109016 0 0 4194304 -1000 S
+BH 0 5 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91035
+stinking ghast~
+&+Ga s&+gt&+Gi&+gn&+Gk&+gi&+Gn&+gg &+Gg&+gh&+Ga&+gs&+Gt&N~
+&+GA st&+gink&+Ging &+ggha&+Gst c&+graw&+Gls t&+ghro&+Gugh &+gthe &+Ggho&+gul g&+Grav&+ge.
+~
+   &+rThis foul creature appears to be more or less humanoid
+&+rin origin, but it has mottled, decaying flesh drawn tight
+&+racross clearly visible bones.  Mostly hairless, this ghast
+&+rhas huge carnivorous &+Wteeth&+R, and eyes that &+Rburn&+r like hot
+&+rcoals within shrunken sockets.  This creature, a more formidable
+&+rvariety of a &+Wghoul&+r is cursed with an undeath life, driven
+&+ronly to kill and eat.
+~
+1073744968 1 0 67109016 0 0 4194304 0 S
+U 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91036
+ghoul harpy gravetouched~
+&+La grave&+gtouched &+Gghoul &+Lharpy&N~
+&+LA grave&+gtouched &+Gghoul &+Lharpy walks here, &+Gscreeching a strange song.
+~
+   &+gThis gravetouched ghoul harpy screeches forth a captivating song
+&+gwhich seems to echo on forever.  The beginning and endings of the
+&+gghoul harpies &+Wscreeches&+g run together in a fashion that makes the
+&+gscreech so long and continuous in a wavering set of tones.  This
+&+gcreature looks like an &+Levil-faced&+g old human with mottled decaying
+&+gflesh.  Its lower body, legs, and wings are all &+Greptilian&+g.  What
+&+gremains of its &+Lhair&+g is tangled and knotted with &+rblood&+g and &+ydirt&+g.
+~
+1074268360 1 0 67109016 0 0 4194304 -1000 S
+R 0 1 2
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91037
+inka gravetouched ghoul monk~
+&+YI&+Gn&+gk&+La, the &+ggrave&+Ltouched &+Gghoul &+Lmonk&N~
+&+YI&+Gn&+gk&+La, the &+ggrave&+Ltouched &+Gghoul&+L monk stalks here, &Nnimble and ferocious.
+~
+   &+YI&+Gn&+gk&+La is an ancient &+Gghoul&+g with a wiry, tight
+&+gbody. Covering the hands and legs of &+YI&+Gn&+gk&+La are tiny barbs.
+&+YI&+Gn&+gk&+La walks on his hands and legs at the same pace,
+&+Lalmost like an insect of some sort.  A low haw with many sharp,
+&+Lbrilliant &+Wwhite&+L teeth breathes forth a deadly poison, as
+&+Lwell as a &+gfoul stench&+L.
+~
+1093159114 1 0 335544472 12481 0 4194304 -1000 S
+zo 0 16777281 6
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91038
+infected zombie rat~
+&+Lan infected zombie &+Wrat&N~
+&+LAn infected zombie &+Wrat &+Lscurries here&N, spreading the blaspheme.
+~
+&+LThis disgusting rat has decreased in size, but quadrupled in overall
+&+Lnastiness.  Its beady little eyes are vacant and filled with ants and
+&+Lmaggots.  Bits of bone protrude from gaps in the decaying flesh of this
+&+Lvermin.  A grotesque black v&+ge&+Ln&+go&+Lm drips from its mouth.
+~
+1073743944 1 0 67109016 0 0 4194304 -1000 S
+zo 0 1 2
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91039
+vistani brigand~
+&+La &+cVistani &+Lbrigand&N~
+&+LA member of the &+cVistani &+Lsyndicate sits here impatiently at a table.
+~
+   &+LDressed in an all black tunic, this brigand is a member of the
+&+Lcrime syndicate known as the &+cVistani&+L.  He sits here within
+&+Lthe &+RBlood of the Vine &+LTavern, protected from the zombie
+&+Lincursion.  He seems to always have his eyes on the door and whoever
+&+Lcomes in it.
+~
+1073743946 0 0 67109016 0 0 4194304 -850 S
+PH 0 16384 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91040
+ghouray slaughterer~
+&+RGho&+ru&+Rr&+ray&+L, the &+rs&+Rl&+ra&+Ru&+rg&+Rh&+rt&+Re&+rr&+Re&+rr&N~
+&+RGhou&+rray&+L, the &+rslaughterer&+L chops apart flesh, &+Wfeasting like a cannibal.
+~
+   &+rFormerly the butcher of Barovia, Ghouray has fallen to the zombie
+&+rincursion while working in the slaughterhouse of Barovia.  Still
+&+rclutching meat cleavers in his hands, this newly-risen infected
+&+rzombie Ghouray is much deadlier than the first, mindlessly killing
+&+rand feeding all he can.
+~
+1090537546 1 0 201326744 2049 0 4194304 -1000 S
+U 0 1048577 6
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91041
+tall shifty eyed shifty-eyed vistani~
+&+La tall, shifty-eyed &+cVistani&N~
+&+LA tall, shifty-eyed &+cVistani&+L outlines his hand with a knife on the table.
+~
+   &+LDressed in an all black tunic, this brigand is a member of the
+&+Lcrime syndicate known as the &+cVistani&+L.  He sits here within
+&+Lthe &+RBlood of the Vine &+LTavern, protected from the zombie
+&+Lincursion.  He seems to always have his eyes on the door and whoever
+&+Lcomes in it.
+~
+1073743946 0 0 67109016 0 0 4194304 -850 S
+PH 0 16384 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91042
+horrified villager~
+&+La &+Whorrified &+Lvillager&N~
+&+LA villager of Barovia huddles here with the others, &Ntaking refuge from the zombies.
+~
+   &+LThis villager wears rather common clothing.  He currently rests
+&+Lhere in the Blood of the Vine Tavern, taking refuge in the barricaded,
+&+Ltwo-story inn from the zombies invading the streets and slaughtering
+&+Lor infecting the townspeople.
+~
+2250 0 0 67108992 0 0 4194304 0 S
+PH 0 0 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91043
+young villager~
+&+La &Nyoung&+L villager&N~
+&+LA young villager sits here, huddled in fear.
+~
+   &+LThis villager wears rather common clothing.  He currently rests
+&+Lhere in the Blood of the Vine Tavern, taking refuge in the barricaded,
+&+Ltwo-story inn from the zombies invading the streets and slaughtering
+&+Lor infecting the townspeople.
+~
+2250 0 0 67108992 0 0 4194304 0 S
+PH 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91044
+ascending spirit~
+&+Wan &Nascending &+cspirit&N~
+&+WAscending up to the east towards Castle Ravenloft, a spirit floats past.
+~
+   &+WThis particular spirit is of a noble knight.  When approaching
+&+Wthis spirit to get a better look, it seems to dematerialize.  This
+&+Wknight of old appears to be several generations old, using the old
+&+Wsteel platemail found in the archaic city of Waterdeep.  Sword in
+&+Whand, this spirit silently walks through the air upwards, into the
+&+Wdirection of Castle Ravenloft.
+~
+202 0 0 67109016 0 0 4194304 0 S
+UG 0 32 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91045
+vistani rogue~
+&+Ba grinning &+cVistani &+Brogue&N~
+&+BA grinning &+cVistani &+Brogue stalks here&N, ready to &+rambush!
+~
+   &+BThis vistani rogue waits here with the rest of the ambush
+&+Bparty.  Exact intentions at this point are completely unknown
+&+Bexcept that this rogue, and the others like him, have waited
+&+Bhere and are trying to murder you.
+~
+1140852936 1 0 67633304 0 0 4194304 -1000 S
+PE 0 8192 3
+57 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91046
+hossa ambush leader~
+&+BHossa the Ambush Leader&N~
+&+BHossa, the &+cVistani &+BAmbush Leader waits here, &+Wdaggers&+B in hand.
+~
+   &+BHossa, the leader of the &+cVistani &+Bambush has waited
+&+Bhere with his troops, ready to attack anyone, or so it seems.
+&+BHossa wields twin daggers, both sharpened to deadly edges.
+&+BA vile grin corrupts the face of this &+cVistani &+Bassassin
+&+Bas he knows that the kill will be soon, as his bloodlust will
+&+Bbe momentarily sated.  Deep down, however, he knows it will
+&+Bonly make him hungrier for more.
+~
+1090537674 1 0 67633304 0 0 4194304 -1000 S
+PH 0 8193 4
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91047
+bloodthirsty assassin~
+&+Ba &+rbloodthirsty &+Bassassin&N~
+&+BA &+rbloodthirsty &+Bassassin stands here &+Rhungry for a kill.
+~
+   &+BThis assassin waits here, quietly poisoned with a delicate
+&+Band precise accuracy, ready to snap out and slay his opponents
+&+Bin the blink of an eye.  A sharp eye and a quick blade are the
+&+Btwo best friends of this maniacal &+cVistani &+Bassassin,
+&+Bhired here to kill anyone and everyone.
+~
+1073760458 1 0 201326744 0 0 4194304 -1000 S
+PH 0 8192 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91048
+valesta vistani saboteur~
+&+BValesta the &+cVistani &+BSaboteur&n~
+&+BValesta, the &+cVistani &+BSaboteur waits here, &+Lradiating with shadow magic.
+~
+   &+BThis &+cVistani &+Bassassin is one of the few that are
+&+Bfemale.  Dazzling to the eyes, this gorgeous black-haired
+&+Bassassin of the &+cVistani&+B waits here, cloaked behind
+&+Bpowerful shadow magic.  A white, toothy smile shines beneath
+&+Bthe shadows of her cloaked face as she awaits the next kill
+&+Bof the &+cVistani&+B as well as the profit that it will gain.
+~
+1358973128 1 0 2551709848 39104 16777216 46138368 -1000 S
+PE 0 513 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91049
+banshee spectre~
+&+Ma banshee spectre&N~
+&+MFloating in circles, a banshee spectre &+Wscreams&+M in a tortuous voice.
+~
+   &+MThis banshee spectre, although &+Wnot part &+Mof the zombie
+&+Mincursion, fits in very well amongst the undead that currently
+&+Mcorrupt Barovia.  Attracted to the foray by the evil blaspheme
+&+Mthat corrupts Barovia, this normally solitary undead creature
+&+Mhas become drawn to perch here, haunting this windmill.
+~
+268437706 1 0 134217880 2049 0 4194304 -1000 S
+sp 0 16777729 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91050
+ephon arbury guard man~
+&+GEphon Arbury the guard&N~
+&+GAn old man named Ephon Arbury, head guard of Barovia, sits here fidgeting nervously.
+~
+   &+GThis old guardsman, Ephon Arbury, has been the guard of
+&+GBarovia for some time.  Although the villagers of the town
+&+Ghave sort of learned to take care of themselves, they still
+&+Gallow this veteran protector of the city to unlock the gates
+&+Gof Barovia every morning, and lock them every night.  However,
+&+Gat this point in the zombie incursion, poor Ephon has not
+&+Ggone forth with his duties as he has taken the liberty to
+&+Gbarricade himself into the guard post, impenetrable from all
+&+Gsides.
+~
+2250 0 0 152 0 0 4194304 1000 S
+PH 0 1 3
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91051
+hulking treant~
+&+La hulking treant&N~
+&+LA hulking treant, given unnatural life, barrels through the Svalich woods.
+~
+   &+LThis massive treant was once a proud tree in the Svalich
+&+Lwoods, but has since taken on a deep and unholy life through
+&+Lpowerful magic and corruption in this area.  This treant
+&+Lcurrently stomps through the forest, violently rampaging.
+~
+2248 1 0 152 2048 0 4194304 -400 S
+VT 0 1 6
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91052
+mad mary~
+&+MMad Mary&N~
+&+MSobbing here in her home, Mad Mary stumbles about, &Nnearly hysterical.
+~
+   &+MDressed in elegant clothing that does not seem to have
+&+Mbeen changed or washed in a number of days, this poor woman
+&+Mresides here in her barricaded home, crying over her daughter.
+&+M'Gertruda! Gertruda!' she continues to yell.
+~
+2248 0 0 128 0 0 4194304 400 S
+PH 0 513 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#91053
+huge dire wolf~
+&+La huge dire wolf&N~
+&+LA huge black dire wolf stalks here&N showing its &+Wteeth.
+~
+   &+LThis wolf has a shiny, thick coat.  It is much larger than a
+&+Lregular wolf, weighing in at most likely one-fifty to two-hundred
+&+Lpounds.  Glowing red eyes stare from deep within the skull of this
+&+Lbeast, lips curled back revealing black gums and razor sharp
+&+Lteeth with a chilling snarl.
+~
+1073743944 1 0 67109016 0 0 4194304 0 S
+A 0 1 5
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#91054
+shambling mound~
+&+La &+ms&+Lh&+ma&+Lm&+mb&+Ll&+mi&+Ln&+mg &+Lm&+mo&+Lu&+mn&+Ld&N~
+&+LA &+mshambling &+Lmound &+mroams here, churning with dark &+Lvegetation.
+~
+   &+LThis large monstrosity of earth and vegetation of the
+&+LSvalich woods moves slowly through the forest, aggressive
+&+Lto the humanoids who so frequently trample the earth that
+&+Lmakes up this creature.
+~
+1141376072 1 0 16777368 14528 0 4194304 -600 S
+VT 0 1 6
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91055
+chugthergunaxl abomination~
+&+LCh&+ru&+Lg&+rth&+Rer&+rg&+Run&+rax&+Rl&+L, the &+rab&+Rom&+rin&+Rat&+rio&+Rn&N~
+&+rChug&+Rther&+Lgu&+Rn&+La&+rxl, the abo&+Rmin&+rati&+Ron &+Llumbers here, looking to feast on flesh.
+~
+   &+RThis horrific flesh golem lives with a life of its
+&+Rown, mindlessly lumbering through this area in search
+&+Rof food.  Given life by powerful arcane incantations
+&+Rand the infectious blaspheme that plagues Barovia, this
+&+Rhorrific creature of flesh and guts lives only to kill.
+~
+1073743944 1 0 152 2048 0 4194304 -1000 S
+OG 0 1 6
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#91056
+keldar southbreeze fallen hero~
+&+YK&+Gel&+gdar South&+cBreeze&+L, the fallen hero&N~
+&+YK&+Gel&+gdar &+LSouth&+cBreeze&+L, once a mighty king, &+rlurks the streets for blood.
+~
+   &+LOnce a great and magnificent king in the realm of &+MMedievia&+L, this
+&+Lpowerful warrior and blademaster is even stronger in &+Mundeath&+L.  Two
+&+Leyes of &+Rfire&+L burn brightly in the withered, blotchy cloaked form
+&+Lthat makes up the head of this undead beast.
+   &+LThe story of Keldar and his old companion Muldar is a great one.  These
+&+Ltwo adventurers have conquered many lands and many seas, feared by most,
+&+Lhated by even more.  The risen corpseform of Keldar stands before you,
+&+Lready to share his new life of undeath with you.
+~
+1090669768 1 0 402653336 39064 0 4194304 -1000 S
+U 0 2097153 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

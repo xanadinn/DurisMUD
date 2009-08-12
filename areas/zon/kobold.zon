@@ -1,0 +1,357 @@
+#14
+&+GKobold &+gSettlement&n~
+1546 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 1409 1 1 100 0 0 0
+*     east exit from "Guard's Post of the Eastern Settlement" to
+*     "Chief Guard's Office" - closed
+*
+D 0 1410 3 1 100 0 0 0
+*     west exit from "Chief Guard's Office" to
+*     "Guard's Post of the Eastern Settlement" - closed
+*
+D 0 1425 0 2 100 0 0 0
+*     north exit from "Shaman's Mound" to
+*     "Inside the Shaman's Mound" - closed/locked
+*
+D 0 1456 2 2 100 0 0 0
+*     south exit from "Inside the Shaman's Mound" to
+*     "Shaman's Mound" - closed/locked
+*
+D 0 1433 0 2 100 0 0 0
+*     north exit from "A Paved Road" to
+*     "Inside a Large, Comfortable House" - closed/locked
+*
+D 0 1434 2 2 100 0 0 0
+*     south exit from "Inside a Large, Comfortable House" to
+*     "A Paved Road" - closed/locked
+*
+D 0 1436 5 1 100 0 0 0
+*     down exit from "The Pantry" to
+*     "End of a Dark Tunnel" - closed
+*
+D 0 1455 4 1 100 0 0 0
+*     up exit from "End of a Dark Tunnel" to
+*     "The Pantry" - closed
+*
+D 0 1449 1 8 100 0 0 0
+*     east exit from "End of a Dark Tunnel" to
+*     "A Secret Passageway Behind the Cave-In" - open/blocked
+*
+D 0 1470 3 1 100 0 0 0
+*     west exit from "A Secret Passageway Behind the Cave-In" to
+*     "End of a Dark Tunnel" - closed
+*
+D 0 1462 0 2 100 0 0 0
+*     north exit from "Before a Giant Wooden Fence" to
+*     "On the Trail Behind the Wooden Fence" - closed/locked
+*
+D 0 1468 2 2 100 0 0 0
+*     south exit from "On the Trail Behind the Wooden Fence" to
+*     "Before a Giant Wooden Fence" - closed/locked
+*
+D 0 1463 0 8 100 0 0 0
+*     north exit from "Along the Perimeter of the Fence" to
+*     "Behind the Fence" - open/blocked
+*
+D 0 1469 2 8 100 0 0 0
+*     south exit from "Behind the Fence" to
+*     "Along the Perimeter of the Fence" - open/blocked
+*
+D 0 1481 1 2 100 0 0 0
+*     east exit from "The Altar of the Dark Kobolds" to
+*     "The Tomb of Tyxru" - closed/locked
+*
+D 0 1482 3 1 100 0 0 0
+*     west exit from "The Tomb of Tyxru" to
+*     "The Altar of the Dark Kobolds" - closed
+*
+*
+O 0 1464 1 1406 100 0 0 0          * a weapon rack
+P 1 1409 15 1464 100 0 0 0         *   a tiny dagger
+P 1 1406 3 1464 100 0 0 0          *   a bronze sword
+O 0 1426 2 1446 100 0 0 0          * a flickering torch
+O 0 1427 1 1449 100 0 0 0          * a flickering torch
+O 0 1426 2 1451 100 0 0 0          * a flickering torch
+O 0 1416 1 1456 100 0 0 0          * a large desk
+P 1 1418 1 1416 100 0 0 0          *   a stack of gold coins
+P 1 1439 1 1416 100 0 0 0          *   a crumpled note
+O 0 1417 1 1456 100 0 0 0          * a bonefinger key
+O 0 1420 4 1462 100 0 0 0          * a giant wooden fence
+O 0 1422 1 1462 100 0 0 0          * a wobbly sign
+O 0 1421 1 1463 100 0 0 0          * a giant wooden fence
+O 0 1420 4 1464 100 0 0 0          * a giant wooden fence
+O 0 1420 4 1465 100 0 0 0          * a giant wooden fence
+O 0 1423 1 1465 100 0 0 0          * a rusty saw
+O 0 1420 4 1466 100 0 0 0          * a giant wooden fence
+O 0 1425 1 1469 100 0 0 0          * a giant wooden fence
+O 0 1463 1 1476 100 0 0 0          * a freshly slain human corpse
+P 1 1433 1 1463 100 0 0 0          *   the silver wire frames of a pair of broken spectacles
+P 1 1437 1 1463 100 0 0 0          *   a journal entitled 'Notes on the Kobold Language'
+O 0 1445 1 1477 100 0 0 0          * a beaten copper bowl
+O 0 1435 1 1482 100 0 0 0          * a stone sarcophagus
+P 1 1446 1 1435 100 0 0 0          *   the treasure of Tyxru's tomb
+P 1 1444 1 1435 100 0 0 0          *   a lustrous golden-red ring
+P 1 1459 1 1435 100 0 0 0          *   an ancient stone tablet
+O 0 358 1 1482 100 0 0 0           * (object type not in this .obj file)
+O 0 1450 1 1489 100 0 0 0          * a pile of junk
+O 0 1449 1 1498 100 0 0 0          * an ironshod mining cart
+O 0 1460 1 1536 100 0 0 0          * scattered bones
+*
+M 0 1420 1 1406 100 0 0 0          * Szxvu, the kobold blacksmith
+E 1 1428 1 21 100 0 0 0            *   a thick loop of gold
+E 1 1411 1 16 100 0 0 0            *   a hammer of black adamantite
+M 0 1404 2 1407 100 0 0 0          * a kobold wet nurse
+M 0 1404 2 1407 100 0 0 0          * a kobold wet nurse
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1403 6 1407 100 0 0 0          * a baby kobold
+M 0 1410 8 1409 100 0 0 0          * a kobold guard
+E 1 1409 15 16 100 0 0 0           *   a tiny dagger
+M 0 1410 8 1409 100 0 0 0          * a kobold guard
+M 0 1411 4 1409 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1412 1 1410 100 0 0 0          * The kobold chief guard
+E 1 1408 1 13 100 0 0 0            *   a girth of thick rawhide
+E 1 283 99999 16 100 0 0 0         *   (object type not in this .obj file)
+M 0 1431 4 1413 100 0 0 0          * a kobold female
+M 0 1432 4 1414 100 0 0 0          * a kobold male
+M 0 1413 1 1415 100 0 0 0          * a kobold maid
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+G 1 1413 999 0 100 0 0 0           *    a cup of marshwater tea
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3100 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 1423 6 1415 100 0 0 0          * an old kobold warrior
+M 0 1423 6 1415 100 0 0 0          * an old kobold warrior
+M 0 1421 1 1416 100 0 0 0          * a kobold war master
+M 0 1426 3 1416 100 0 0 0          * a kobold trainee
+E 1 3021 50 16 100 0 0 0           *   (object type not in this .obj file)
+M 0 1426 3 1416 100 0 0 0          * a kobold trainee
+E 1 3021 50 16 100 0 0 0           *   (object type not in this .obj file)
+M 0 1426 3 1416 100 0 0 0          * a kobold trainee
+E 1 3021 50 16 100 0 0 0           *   (object type not in this .obj file)
+M 0 1410 8 1418 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+E 1 1409 15 16 100 0 0 0           *   a tiny dagger
+M 0 1410 8 1418 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1411 4 1418 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1416 1 1419 100 0 0 0          * a kobold warrior
+E 1 3075 4 6 100 0 0 0             *   (object type not in this .obj file)
+E 1 1406 3 16 100 0 0 0            *   a bronze sword
+M 0 1419 1 1420 100 0 0 0          * a kobold baker
+G 1 1403 999 0 100 0 0 0           *    a loaf of dark bread
+M 0 1415 5 1422 100 0 0 0          * a kobold treasure seeker
+M 0 1415 5 1422 100 0 0 0          * a kobold treasure seeker
+M 0 1415 5 1423 100 0 0 0          * a kobold treasure seeker
+M 0 1415 5 1423 100 0 0 0          * a kobold treasure seeker
+M 0 1414 1 1423 100 0 0 0          * a kobold hunter
+M 0 1402 2 1424 100 0 0 0          * a kobold fisherman
+M 0 1402 2 1424 100 0 0 0          * a kobold fisherman
+M 0 1422 9 1426 100 0 0 0          * a kobold youth
+M 0 1422 9 1426 100 0 0 0          * a kobold youth
+M 0 1422 9 1426 100 0 0 0          * a kobold youth
+M 0 1400 1 1427 100 0 0 0          * the kobold shaman
+E 1 1404 1 12 100 0 0 0            *   a mottled brown cloak
+E 1 1400 1 18 100 0 0 0            *   a shadow staff
+G 1 1415 1 0 100 0 0 0             *    a key of quartz
+M 0 1422 9 1428 100 0 0 0          * a kobold youth
+M 0 1422 9 1428 100 0 0 0          * a kobold youth
+M 0 1422 9 1428 100 0 0 0          * a kobold youth
+M 0 1422 9 1429 100 0 0 0          * a kobold youth
+M 0 1422 9 1429 100 0 0 0          * a kobold youth
+M 0 1422 9 1429 100 0 0 0          * a kobold youth
+M 0 1417 1 1435 100 0 0 0          * the mistress Islie
+E 1 1407 1 15 100 0 0 0            *   a finely woven bracelet of silver
+M 0 1401 1 1436 100 0 0 0          * Gwark, the kobold clan leader
+E 1 1405 1 2 100 0 0 0             *   a ring of crystal
+G 1 1419 1 0 100 0 0 0             *    a key made of heavy iron
+M 0 1408 1 1437 100 0 0 0          * a bull
+M 0 1406 5 1438 100 0 0 0          * a pig
+M 0 1406 5 1438 100 0 0 0          * a pig
+M 0 1406 5 1438 100 0 0 0          * a pig
+M 0 1406 5 1438 100 0 0 0          * a pig
+M 0 1406 5 1438 100 0 0 0          * a pig
+M 0 1425 4 1440 100 0 0 0          * a kobold farmhand
+M 0 1425 4 1440 100 0 0 0          * a kobold farmhand
+M 0 1425 4 1440 100 0 0 0          * a kobold farmhand
+M 0 1428 2 1440 100 0 0 0          * a kobold farm taskmaster
+M 0 1428 2 1440 100 0 0 0          * a kobold farm taskmaster
+M 0 1405 3 1441 100 0 0 0          * a cow
+M 0 1405 3 1441 100 0 0 0          * a cow
+M 0 1405 3 1441 100 0 0 0          * a cow
+M 0 1409 4 1441 100 0 0 0          * a donkey
+M 0 1409 4 1441 100 0 0 0          * a donkey
+M 0 1409 4 1441 100 0 0 0          * a donkey
+M 0 1409 4 1441 100 0 0 0          * a donkey
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1407 6 1442 100 0 0 0          * a chicken
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+M 0 1430 1 1443 100 0 0 0          * Grumbiter, the innkeeper
+G 1 1410 999 0 100 0 0 0           *    a chicken egg
+G 1 1412 999 0 100 0 0 0           *    a bottle of kobold whiskey
+G 1 3002 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3100 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 1423 6 1443 100 0 0 0          * an old kobold warrior
+M 0 1423 6 1443 100 0 0 0          * an old kobold warrior
+M 0 1424 4 1443 100 0 0 0          * a kobold patron of Grumbiters Inn
+M 0 1424 4 1443 100 0 0 0          * a kobold patron of Grumbiters Inn
+M 0 1424 4 1443 100 0 0 0          * a kobold patron of Grumbiters Inn
+M 0 1424 4 1443 100 0 0 0          * a kobold patron of Grumbiters Inn
+M 0 1410 8 1444 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+E 1 1409 15 16 100 0 0 0           *   a tiny dagger
+M 0 1410 8 1444 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1411 4 1444 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1410 8 1452 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+E 1 1409 15 16 100 0 0 0           *   a tiny dagger
+M 0 1410 8 1452 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1411 4 1452 100 0 0 0          * a kobold guard
+E 1 3043 40 5 100 0 0 0            *   (object type not in this .obj file)
+M 0 1431 4 1453 100 0 0 0          * a kobold female
+M 0 1432 4 1453 100 0 0 0          * a kobold male
+M 0 1432 4 1454 100 0 0 0          * a kobold male
+M 0 1427 7 1458 100 0 0 0          * a shifty ferret
+M 0 1427 7 1459 100 0 0 0          * a shifty ferret
+M 0 1427 7 1460 100 0 0 0          * a shifty ferret
+M 0 1427 7 1460 100 0 0 0          * a shifty ferret
+M 0 1429 1 1461 100 0 0 0          * a master kobold fisherman
+E 1 1414 1 8 100 0 0 0             *   some boots of water-walking
+M 0 1434 4 1471 100 0 0 0          * a kobold sentry
+E 1 1429 3 16 100 0 0 0            *   a dagger of carved bone
+M 0 1434 4 1473 100 0 0 0          * a kobold sentry
+E 1 1430 3 5 100 0 0 0             *   a leather jerkin
+E 1 1429 3 16 100 0 0 0            *   a dagger of carved bone
+M 0 1434 4 1473 100 0 0 0          * a kobold sentry
+E 1 1430 3 5 100 0 0 0             *   a leather jerkin
+M 0 1434 4 1473 100 0 0 0          * a kobold sentry
+E 1 1430 3 5 100 0 0 0             *   a leather jerkin
+M 0 1435 6 1474 100 0 0 0          * a guard of the dark kobolds temple
+M 0 1435 6 1475 100 0 0 0          * a guard of the dark kobolds temple
+M 0 1435 6 1476 100 0 0 0          * a guard of the dark kobolds temple
+M 0 1457 1 1476 100 0 0 0          * a guard of the dark kobolds temple
+E 1 1406 3 16 100 0 0 0            *   a bronze sword
+E 1 1429 3 17 100 0 0 0            *   a dagger of carved bone
+M 0 1445 4 1477 100 0 0 0          * a kobold worshiper of the dark magics
+M 0 1445 4 1477 100 0 0 0          * a kobold worshiper of the dark magics
+M 0 1435 6 1478 100 0 0 0          * a guard of the dark kobolds temple
+M 0 1433 1 1478 100 0 0 0          * a black demon statue
+E 1 1431 1 19 100 0 0 0            *   the gem eyes of the demon statue
+M 0 1435 6 1479 100 0 0 0          * a guard of the dark kobolds temple
+M 0 1445 4 1480 100 0 0 0          * a kobold worshiper of the dark magics
+M 0 1445 4 1480 100 0 0 0          * a kobold worshiper of the dark magics
+M 0 1437 1 1481 100 0 0 0          * Jkyl, the kobold high priest
+E 1 1443 1 20 100 0 0 0            *   a black death mask
+G 1 1440 1 0 100 0 0 0             *    a crisp piece of parchment
+M 0 1439 2 1481 100 0 0 0          * a guard of the dark kobolds temple
+E 1 1441 1 7 100 0 0 0             *   a set of silver-plated leg plates
+M 0 1439 2 1481 100 0 0 0          * a guard of the dark kobolds temple
+E 1 1442 1 10 100 0 0 0            *   a set of silver-plated arm plates
+M 0 1438 2 1482 100 0 0 0          * a stone golem
+M 0 1438 2 1482 100 0 0 0          * a stone golem
+G 1 1434 1 0 100 0 0 0             *    a stone key
+M 0 1436 1 1484 100 0 0 0          * a summoned tako demon
+E 1 1452 1 9 100 0 0 0             *   a glowing, clawed talon of a tako demon
+G 1 1436 1 0 100 0 0 0             *    an ancient stone tablet
+M 0 1442 5 1488 100 0 0 0          * a kobold miner
+M 0 1444 3 1492 100 0 0 0          * a kobold miner on his break
+M 0 1444 3 1492 100 0 0 0          * a kobold miner on his break
+M 0 1444 3 1492 100 0 0 0          * a kobold miner on his break
+M 0 1442 5 1493 100 0 0 0          * a kobold miner
+M 0 1442 5 1494 100 0 0 0          * a kobold miner
+M 0 1441 5 1495 100 0 0 0          * a kobold miner
+G 1 1447 5 0 100 0 0 0             *    a small nugget of silver
+M 0 1441 5 1495 100 0 0 0          * a kobold miner
+M 0 1443 2 1495 100 0 0 0          * a kobold mine leader
+G 1 1447 5 0 100 0 0 0             *    a small nugget of silver
+M 0 1442 5 1496 100 0 0 0          * a kobold miner
+M 0 1441 5 1498 100 0 0 0          * a kobold miner
+G 1 1447 5 0 100 0 0 0             *    a small nugget of silver
+M 0 1441 5 1498 100 0 0 0          * a kobold miner
+G 1 1447 5 0 100 0 0 0             *    a small nugget of silver
+M 0 1441 5 1498 100 0 0 0          * a kobold miner
+M 0 1443 2 1498 100 0 0 0          * a kobold mine leader
+G 1 1447 5 0 100 0 0 0             *    a small nugget of silver
+M 0 1452 2 1512 100 0 0 0          * a drider scout
+E 1 1461 1 5 100 0 0 0             *   a torn drow chainmail shirt
+M 0 1448 5 1512 100 0 0 0          * a HUGE piercer
+M 0 1450 6 1513 100 0 0 0          * a piercer
+M 0 1450 6 1514 100 0 0 0          * a piercer
+M 0 1449 5 1515 100 0 0 0          * a piercer
+M 0 1447 4 1516 100 0 0 0          * an experienced kobold surveyor
+M 0 1447 4 1516 100 0 0 0          * an experienced kobold surveyor
+M 0 1447 4 1516 100 0 0 0          * an experienced kobold surveyor
+M 0 1450 6 1516 100 0 0 0          * a piercer
+M 0 1453 4 1517 100 0 0 0          * a blood mist
+M 0 1451 6 1519 100 0 0 0          * a scrawny kobold miner
+M 0 1451 6 1519 100 0 0 0          * a scrawny kobold miner
+M 0 1451 6 1519 100 0 0 0          * a scrawny kobold miner
+M 0 1451 6 1519 100 0 0 0          * a scrawny kobold miner
+M 0 1450 6 1519 100 0 0 0          * a piercer
+M 0 1448 5 1521 100 0 0 0          * a HUGE piercer
+M 0 1449 5 1523 100 0 0 0          * a piercer
+M 0 1448 5 1524 100 0 0 0          * a HUGE piercer
+M 0 1453 4 1526 100 0 0 0          * a blood mist
+M 0 1450 6 1526 100 0 0 0          * a piercer
+M 0 1446 6 1527 100 0 0 0          * a kobold miner
+M 0 1446 6 1527 100 0 0 0          * a kobold miner
+M 0 1446 6 1527 100 0 0 0          * a kobold miner
+M 0 1446 6 1527 100 0 0 0          * a kobold miner
+M 0 1448 5 1527 100 0 0 0          * a HUGE piercer
+M 0 1453 4 1527 100 0 0 0          * a blood mist
+M 0 1453 4 1528 100 0 0 0          * a blood mist
+M 0 1449 5 1528 100 0 0 0          * a piercer
+M 0 1451 6 1528 100 0 0 0          * a scrawny kobold miner
+M 0 1446 6 1528 100 0 0 0          * a kobold miner
+M 0 1451 6 1529 100 0 0 0          * a scrawny kobold miner
+M 0 1446 6 1529 100 0 0 0          * a kobold miner
+M 0 1448 5 1529 100 0 0 0          * a HUGE piercer
+M 0 1449 5 1532 100 0 0 0          * a piercer
+M 0 1418 1 1532 100 0 0 0          * a stronad golem
+M 0 1452 2 1534 100 0 0 0          * a drider scout
+E 1 1462 1 14 100 0 0 0            *   a dull spider bracelet
+M 0 1447 4 1534 100 0 0 0          * an experienced kobold surveyor
+M 0 1449 5 1534 100 0 0 0          * a piercer
+M 0 1450 6 1535 100 0 0 0          * a piercer
+M 0 1454 1 1542 100 0 0 0          * a drider
+M 0 1455 8 1543 100 0 0 0          * a miner
+M 0 1455 8 1543 100 0 0 0          * a miner
+M 0 1456 8 1543 100 0 0 0          * a strong miner
+M 0 1456 8 1543 100 0 0 0          * a strong miner
+M 0 1455 8 1544 100 0 0 0          * a miner
+M 0 1455 8 1544 100 0 0 0          * a miner
+M 0 1456 8 1544 100 0 0 0          * a strong miner
+M 0 1456 8 1544 100 0 0 0          * a strong miner
+M 0 1455 8 1545 100 0 0 0          * a miner
+M 0 1455 8 1545 100 0 0 0          * a miner
+M 0 1456 8 1545 100 0 0 0          * a strong miner
+M 0 1456 8 1545 100 0 0 0          * a strong miner
+M 0 1455 8 1546 100 0 0 0          * a miner
+M 0 1455 8 1546 100 0 0 0          * a miner
+M 0 1456 8 1546 100 0 0 0          * a strong miner
+M 0 1456 8 1546 100 0 0 0          * a strong miner
+*
+S

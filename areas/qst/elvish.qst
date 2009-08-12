@@ -1,0 +1,110 @@
+#35800
+MA
+life quest~
+      &+LThis old looking half spider looks up and you and smiles a bit though this seems a bit weird to you.
+
+      &+c Oh hello, I was not always like this...
+
+        &+L Once I was a great &+bfighter&+g...
+
+       &+c But now I live like this, this is was not what I had in mind even in my wildest &+bdreams &+gor &+rnightmares.
+~
+MA
+fighter great~
+    &+gYes for a great house I was a teacher and great weaponsmaster, then I came to live here in this castle and made it my home, yet now that life never existed, there is no &+rhelp for me.
+~
+MA
+help past~
+    &+m"That is in the past this is the now my life is almost over."
+
+       &+c"Yet to go out like this?!"
+
+        &+b"Might thou please truely help if though might?"
+            &+B"A simple yes or no?"
+~
+M
+yes~
+    &+g"Bring me the the petals of the &+ygolden &+Wivy &+gin this region and the tail feathers of the &+rred &+gbreasted &+yrobin&+g and I shall make it worth your while."
+~
+MA
+no~
+   &+r"Then be gone with you never come back into this sanctum again!!"
+
+       &+m"for the next time we meet we may not be as well finished with this matter."
+~
+QA
+    &+LThe drider looks at you with a forelorn look and starts to speak to you though its voice seems to be
+fading a bit.
+
+    &+c "Finally I can lift this spell and die as I should be with honor, thank you brave traveler and adventurer."
+
+       &+m "May &+CCorellon &+gbless your days on this plane and bring you good forture along the way."
+
+               &+lWith that he hands you a key then takes the potion quaffs it and turns into a fralile old elf.
+
+
+
+                           &+M "Onward to Arvandor!" he rejoices.
+~
+R I 35820
+R E 50000
+G I 35813
+D
+    &+LIn that he start's to walk off and begins to disappear through the hall.
+~
+QA
+    &+g "Ah yes these are the right things."  he exclaims as as you hand him the two items.
+
+    &+m Then he reaches down and and grabs a few strange looking statues out of the corner pile of rubbish, one resembling a dragon and the other a half lion half monster looking thing.
+
+      &+cHe then starts to pour some strange mixure into the statues and then with a loud BOOOOM! he drops the items into them and they make a small mushroom cloud of smoke.
+
+      &+L  "take these to the old man that lives near by and he shall know what is needed.
+            &+CAs he hands you a dragon and manticore statue.
+~
+R I 35816
+R I 35814
+G I 35817
+G I 35818
+S
+#35801
+MA
+spiders spider key~
+  &+g"Yes and they seem as though they are guarding something if only I could
+get a hold of a few of there eggs."
+~
+QA
+    &+yThe old man looks up at you as you draw closer to him and he starts to speak but instead lets out a huge burrrrp...
+
+     &+G"sorry about that" as he wipes his face clean of debris from the food that he was inhaling from his ravenous hunger. "oh, did you find something? eggs? what? that's it? weird that would guard them so... wonder why the would guard them with such zest, one nearly took my finger off not 2 days ago." Kalaban reaches out and shows you his gnawed on finger "little bastard bite down good too!"
+
+
+      &+g "mmhhhmmp" Kalaban mutters to himself as he examines the eggs over a bit "oh yes these must be why, weird this one seems a bit heavy." as he wiegh's it up and down in his hands "wait this doesn't seem right."
+
+         &+CKalaban rattles the eggs around a bit more, then drops it to the ground as it shatters with a heavy clankKKKKK!!!. Then reaches down and picks it up and hands a strange looking metal spider to you.
+
+            &+c"maybe you can find a use for that, who knows what the heck that could be lookes like it might be some kinda key of sorts to where who knows."
+
+             &+BThen he reaches back down for his dinner and starts to chow down again, "you need something else? can't ya see I have guests for dinner would you please go about your business" as he points to the two rats in the corner cringing from your presence.
+~
+R I 35824
+R E 30000
+G I 35812
+G I 35812
+G I 35812
+G I 35812
+QA
+&+g The old man looks back up at you from his somewhat drunken state and begins to speak as he does a small field mouse runs out of his pant leg...
+
+   &+g"what u again? what do you want here I thought we were done my guests stayed a bit longer then planed and I was about to see them off ya..." watches the mouse scurry across the room.
+
+    &+g"A what? A Drider you say oh he must need this."
+
+     &+mKalaban starts to recite&+L some &+MArcane words&+L and begins to pour the 2 potions together in a new container, a LARGE cloud of &+cSmoke&+L rises at the too liquids form together, then in and unsteadied fasion he hands you a small &+Ygolden container with little dragons engraved on it.
+
+       &+g "That should be what he needs hope it works."
+~
+R I 35813
+G I 35814
+G I 35816
+S

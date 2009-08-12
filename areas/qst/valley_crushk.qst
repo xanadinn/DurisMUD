@@ -1,0 +1,21 @@
+#2038
+M
+qc_action 55~
+&+yFlazoh the &+Lbounty hunter&+y jumps at the sound of a stick breaking outside.
+~
+MA
+hi hello~
+&+yFlazoh says '$N! You gotta help me!  I promised to take the bounty on
+&+ya few bandits, thinking I could find someone to take care of them for me
+&+ybefore they found out, but now they know who I am and I am out of options!
+&+yPlease, I will pay you what I was promised, four platinum a kill, of those
+&+yhorrible &+rhuman bandits&+y lurking the wilderness.  Show me you've
+&+ykilled them by returning to me their dirks, bounty hunter.'
+&+yFlazoh grins at $N.
+~
+QA
+&+yFlazoh says 'Excellent!  Your bounty, sir!'
+~
+R C 4000
+G I 43143
+S

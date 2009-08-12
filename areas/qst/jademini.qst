@@ -1,0 +1,46 @@
+#77202
+Q
+&+W	"Here you go!"
+~
+R I 76676
+G C 50000
+S
+#77203
+Q
+~
+R I 77201
+G I 76670
+S
+#77206
+M
+qc_action 30~
+$n charges across the deck, dodging arrows.
+~
+S
+#77210
+M
+qc_action 30~
+$n shouts out loudly 'Save the princess!'
+$n ducks and dodges an arrow with ease.
+~
+S
+#77214
+Q
+~
+R I 77205
+G I 77204
+D
+&+mThe weary princess stands after you unlock and remove her shackles.&n
+&+W	"How can I ever repay you for rescuing me?
+&+W	You have saved my life, now I must return to the
+&+W	Palace, please if you arrive before me, give this
+&+W	to my father, to show him I am now safe, and I
+&+W	owe it all to you."&n
+&+mAnd with that, she runs off.
+~
+S
+#77218
+Q
+~
+G I 22622
+S

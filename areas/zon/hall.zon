@@ -1,0 +1,549 @@
+#777
+The Hall of the Ancients~
+77946 0 8 30 45 6
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 77721 3 9 100 0 0 0
+*     west exit from "In a Cavern of Glowing Crucifix" to
+*     "A Passage Chiselled in Stone" - closed/blocked
+*
+D 0 77734 1 0 100 0 0 0
+*     east exit from "A Passage Chiselled in Stone" to
+*     "In a Cavern of Glowing Crucifix" - open
+*
+D 0 77740 3 6 100 0 0 0
+*     west exit from "The Base of a Tunnel of Sharp Hooks" to
+*     "A Carved Tunnel" - closed/locked/secret
+*
+D 0 77741 1 2 100 0 0 0
+*     east exit from "A Carved Tunnel" to
+*     "The Base of a Tunnel of Sharp Hooks" - closed/locked
+*
+D 0 77802 1 1 100 0 0 0
+*     east exit from "Within the Stone House" to
+*     "Within the Stone House" - closed
+*
+D 0 77806 3 1 100 0 0 0
+*     west exit from "Within the Stone House" to
+*     "Within the Stone House" - closed
+*
+D 0 77802 3 1 100 0 0 0
+*     west exit from "Within the Stone House" to
+*     "Before the Stone House" - closed
+*
+D 0 77803 1 1 100 0 0 0
+*     east exit from "Before the Stone House" to
+*     "Within the Stone House" - closed
+*
+D 0 77804 1 1 100 0 0 0
+*     east exit from "Within the Stone House" to
+*     "Within the Stone House" - closed
+*
+D 0 77805 3 1 100 0 0 0
+*     west exit from "Within the Stone House" to
+*     "Within the Stone House" - closed
+*
+D 0 77842 3 1 100 0 0 0
+*     west exit from "A Stone Path Away from the Quay" to
+*     "Within the Fishing Master's Office" - closed
+*
+D 0 77843 1 1 100 0 0 0
+*     east exit from "Within the Fishing Master's Office" to
+*     "A Stone Path Away from the Quay" - closed
+*
+D 0 77845 1 2 100 0 0 0
+*     east exit from "Before a Set of Huge Steel Gates" to
+*     "The West Gates of Neogtom" - closed/locked
+*
+D 0 77846 3 2 100 0 0 0
+*     west exit from "The West Gates of Neogtom" to
+*     "Before a Set of Huge Steel Gates" - closed/locked
+*
+D 0 77847 1 1 100 0 0 0
+*     east exit from "Wall Road" to
+*     "Inside a Small Stone House" - closed
+*
+D 0 77853 3 1 100 0 0 0
+*     west exit from "Inside a Small Stone House" to
+*     "Wall Road" - closed
+*
+D 0 77848 1 1 100 0 0 0
+*     east exit from "Wall Road" to
+*     "The Neogi Magick Shop" - closed
+*
+D 0 77856 3 1 100 0 0 0
+*     west exit from "The Neogi Magick Shop" to
+*     "Wall Road" - closed
+*
+D 0 77859 1 2 100 0 0 0
+*     east exit from "A Bend In Jenevren Road" to
+*     "Within the Northern Tower" - closed/locked
+*
+D 0 77860 3 2 100 0 0 0
+*     west exit from "Within the Northern Tower" to
+*     "A Bend In Jenevren Road" - closed/locked
+*
+D 0 77862 3 1 100 0 0 0
+*     west exit from "Jenevren Road" to
+*     "In the Shop of Thieves" - closed
+*
+D 0 77864 1 1 100 0 0 0
+*     east exit from "In the Shop of Thieves" to
+*     "Jenevren Road" - closed
+*
+D 0 77870 2 2 100 0 0 0
+*     south exit from "Gate Road Leading Into Neoghtom Square" to
+*     "Inside a Quaint Little Home" - closed/locked
+*
+D 0 77874 0 2 100 0 0 0
+*     north exit from "Inside a Quaint Little Home" to
+*     "Gate Road Leading Into Neoghtom Square" - closed/locked
+*
+D 0 77871 2 2 100 0 0 0
+*     south exit from "Gate Road Leading Into Neoghtom Square" to
+*     "Inside a Rather Large Home" - closed/locked
+*
+D 0 77875 0 2 100 0 0 0
+*     north exit from "Inside a Rather Large Home" to
+*     "Gate Road Leading Into Neoghtom Square" - closed/locked
+*
+D 0 77872 0 1 100 0 0 0
+*     north exit from "Gate Road Leading Into Neoghtom Square" to
+*     "In the Central Neoghtom Inn" - closed
+*
+D 0 77873 2 1 100 0 0 0
+*     south exit from "In the Central Neoghtom Inn" to
+*     "Gate Road Leading Into Neoghtom Square" - closed
+*
+D 0 77879 1 2 100 0 0 0
+*     east exit from "A Bend In Illadren Road" to
+*     "Within the Southern Tower" - closed/locked
+*
+D 0 77881 3 2 100 0 0 0
+*     west exit from "Within the Southern Tower" to
+*     "A Bend In Illadren Road" - closed/locked
+*
+D 0 77884 0 2 100 0 0 0
+*     north exit from "Gate Road Leading Towards a Silver Tower" to
+*     "In the Foyer of the Great Cathedral of Aan" - closed/locked
+*
+D 0 77888 2 2 100 0 0 0
+*     south exit from "In the Foyer of the Great Cathedral of Aan" to
+*     "Gate Road Leading Towards a Silver Tower" - closed/locked
+*
+D 0 77885 1 6 100 0 0 0
+*     east exit from "Gate Road Beside a Silver Tower" to
+*     "Within the Eastern Tower" - closed/locked/secret
+*
+D 0 77886 3 2 100 0 0 0
+*     west exit from "Within the Eastern Tower" to
+*     "Gate Road Beside a Silver Tower" - closed/locked
+*
+D 0 77890 0 5 100 0 0 0
+*     north exit from "A Hallway in the Great Cathedral of Aan" to
+*     "The Chamber of Judgement in the Great Cathedral of Aan" - closed/secret
+*
+D 0 77891 2 1 100 0 0 0
+*     south exit from "The Chamber of Judgement in the Great Cathedral of Aan" to
+*     "A Hallway in the Great Cathedral of Aan" - closed
+*
+D 0 77893 5 9 100 0 0 0
+*     down exit from "Within the Great Cathedral of Aan" to
+*     "In a Chamber of Deadly Shadows" - closed/blocked
+*
+D 0 77944 4 9 100 0 0 0
+*     up exit from "In a Chamber of Deadly Shadows" to
+*     "Within the Great Cathedral of Aan" - closed/blocked
+*
+D 0 77901 5 5 100 0 0 0
+*     down exit from "A Dead End in The Mountain Trail" to
+*     "Within a Secret Grotto" - closed/secret
+*
+D 0 77902 4 1 100 0 0 0
+*     up exit from "Within a Secret Grotto" to
+*     "A Dead End in The Mountain Trail" - closed
+*
+D 0 77904 4 5 100 0 0 0
+*     up exit from "In the Pit of Sacrifice" to
+*     "In the Center of a Small Town" - closed/secret
+*
+D 0 77905 5 1 100 0 0 0
+*     down exit from "In the Center of a Small Town" to
+*     "In the Pit of Sacrifice" - closed
+*
+D 0 77905 0 2 100 0 0 0
+*     north exit from "In the Center of a Small Town" to
+*     "Inside the Town Hall" - closed/locked
+*
+D 0 77906 2 2 100 0 0 0
+*     south exit from "Inside the Town Hall" to
+*     "In the Center of a Small Town" - closed/locked
+*
+D 0 77907 0 1 100 0 0 0
+*     north exit from "A Path Through the Small Town" to
+*     "Within the Home of Xamael the Blacksmith" - closed
+*
+D 0 77908 2 1 100 0 0 0
+*     south exit from "Within the Home of Xamael the Blacksmith" to
+*     "A Path Through the Small Town" - closed
+*
+D 0 77909 0 1 100 0 0 0
+*     north exit from "A Path Through the Small Town" to
+*     "Inside a Large Community Hostel" - closed
+*
+D 0 77910 2 1 100 0 0 0
+*     south exit from "Inside a Large Community Hostel" to
+*     "A Path Through the Small Town" - closed
+*
+*
+O 0 77700 1 77702 100 0 0 0        * a shiny plaque
+O 0 77703 1 77705 100 0 0 0        * a bag of torn canvas
+P 1 77704 1 77703 100 0 0 0        *   a pile of dust
+P 1 77705 1 77703 100 0 0 0        *   a razor sharp hook
+O 0 77701 1 77720 100 0 0 0        * a rusty lever
+O 0 77706 3 77738 100 0 0 0        * the razor sharp hooks
+O 0 77706 3 77739 100 0 0 0        * the razor sharp hooks
+O 0 77706 3 77740 100 0 0 0        * the razor sharp hooks
+O 0 77707 1 77802 100 0 0 0        * the wooden table
+O 0 77709 1 77806 100 0 0 0        * a small fireplace
+P 1 77710 4 77709 100 0 0 0        *   a pile of soot
+P 1 77710 4 77709 100 0 0 0        *   a pile of soot
+P 1 77710 4 77709 100 0 0 0        *   a pile of soot
+P 1 77710 4 77709 100 0 0 0        *   a pile of soot
+P 1 77711 1 77709 100 0 0 0        *   a soot-covered book
+O 0 77714 1 77812 100 0 0 0        * the entrance to the waterfall
+O 0 77715 1 77816 100 0 0 0        * a mask of watery ice
+O 0 77719 2 77845 100 0 0 0        * an adamantium rock
+O 0 77721 1 77860 100 0 0 0        * glyph trap
+O 0 77731 1 77881 100 0 0 0        * glyph trap 2
+O 0 77737 1 77887 100 0 0 0        * swirling vortex
+O 0 77752 1 77891 100 0 0 0        * a large pile of coins
+O 0 930 1 77894 100 0 0 0          * (object type not in this .obj file)
+O 0 77748 1 77928 50 0 0 0         * a tiny jagged ring
+*
+M 0 77701 32 77707 100 0 0 0       * the transparent cube
+M 0 77701 32 77707 100 0 0 0       * the transparent cube
+M 0 77701 32 77708 100 0 0 0       * the transparent cube
+M 0 77701 32 77709 100 0 0 0       * the transparent cube
+M 0 77701 32 77713 100 0 0 0       * the transparent cube
+M 0 77701 32 77713 100 0 0 0       * the transparent cube
+M 0 77700 4 77714 100 0 0 0        * the ball of flesh and blood
+M 0 77701 32 77715 100 0 0 0       * the transparent cube
+M 0 77701 32 77715 100 0 0 0       * the transparent cube
+M 0 77700 4 77717 100 0 0 0        * the ball of flesh and blood
+M 0 77701 32 77717 100 0 0 0       * the transparent cube
+M 0 77701 32 77717 100 0 0 0       * the transparent cube
+M 0 77701 32 77719 100 0 0 0       * the transparent cube
+M 0 77701 32 77719 100 0 0 0       * the transparent cube
+M 0 77701 32 77720 100 0 0 0       * the transparent cube
+M 0 77701 32 77720 100 0 0 0       * the transparent cube
+M 0 77701 32 77722 100 0 0 0       * the transparent cube
+M 0 77701 32 77722 100 0 0 0       * the transparent cube
+M 0 77701 32 77723 100 0 0 0       * the transparent cube
+M 0 77701 32 77723 100 0 0 0       * the transparent cube
+M 0 77700 4 77724 100 0 0 0        * the ball of flesh and blood
+M 0 77701 32 77724 100 0 0 0       * the transparent cube
+M 0 77701 32 77725 100 0 0 0       * the transparent cube
+M 0 77701 32 77725 100 0 0 0       * the transparent cube
+M 0 77700 4 77727 100 0 0 0        * the ball of flesh and blood
+M 0 77701 32 77727 100 0 0 0       * the transparent cube
+M 0 77701 32 77727 100 0 0 0       * the transparent cube
+M 0 77701 32 77727 100 0 0 0       * the transparent cube
+M 0 77701 32 77727 100 0 0 0       * the transparent cube
+M 0 77701 32 77728 100 0 0 0       * the transparent cube
+M 0 77701 32 77728 100 0 0 0       * the transparent cube
+M 0 77701 32 77728 100 0 0 0       * the transparent cube
+M 0 77701 32 77729 100 0 0 0       * the transparent cube
+M 0 77701 32 77729 100 0 0 0       * the transparent cube
+M 0 77701 32 77730 100 0 0 0       * the transparent cube
+M 0 77701 32 77731 100 0 0 0       * the transparent cube
+M 0 77702 1 77734 100 0 0 0        * the stone statue
+M 0 77703 4 77735 100 0 0 0        * the raging jelly
+M 0 77703 4 77736 100 0 0 0        * the raging jelly
+M 0 77703 4 77737 100 0 0 0        * the raging jelly
+M 0 77703 4 77739 100 0 0 0        * the raging jelly
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77766 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77767 100 0 0 0       * the gorgon
+M 0 77705 50 77771 100 0 0 0       * the gorgon
+M 0 77705 50 77771 100 0 0 0       * the gorgon
+M 0 77705 50 77771 100 0 0 0       * the gorgon
+M 0 77705 50 77774 100 0 0 0       * the gorgon
+M 0 77705 50 77778 100 0 0 0       * the gorgon
+M 0 77705 50 77778 100 0 0 0       * the gorgon
+M 0 77705 50 77778 100 0 0 0       * the gorgon
+M 0 77705 50 77779 100 0 0 0       * the gorgon
+M 0 77705 50 77782 100 0 0 0       * the gorgon
+M 0 77705 50 77783 100 0 0 0       * the gorgon
+M 0 77705 50 77785 100 0 0 0       * the gorgon
+M 0 77705 50 77787 100 0 0 0       * the gorgon
+M 0 77705 50 77787 100 0 0 0       * the gorgon
+M 0 77705 50 77792 100 0 0 0       * the gorgon
+M 0 77705 50 77793 100 0 0 0       * the gorgon
+M 0 77705 50 77798 100 0 0 0       * the gorgon
+M 0 77705 50 77798 100 0 0 0       * the gorgon
+M 0 77706 1 77805 100 0 0 0        * the angry warrior
+E 1 77708 1 3 100 0 0 0            *   a circlet of dark granite
+F 1 77707 1 77805 100 0 0 0        * the naked woman (following)
+M 0 77708 1 77805 100 0 0 0        * the young daughter
+E 1 77712 1 3 100 0 0 0            *   a necklace of tiny steel links
+M 0 77709 1 77806 100 0 0 0        * the young warrior
+G 1 77713 1 0 100 0 0 0            *    a bag full of gorgon scales
+M 0 77704 1 77810 100 0 0 0        * the child with green eyes
+E 1 77702 1 1 100 0 0 0            *   a tiny ring
+F 1 77710 1 77810 100 0 0 0        * an infant silver dragon (following)
+M 0 77711 1 77815 100 0 0 0        * the soul of the great waterfall
+M 0 77713 49 77818 100 0 0 0       * an infant morkoth
+M 0 77713 49 77818 100 0 0 0       * an infant morkoth
+M 0 77713 49 77818 100 0 0 0       * an infant morkoth
+M 0 77712 1 77819 80 0 0 0         * Anaem
+G 1 77716 1 0 100 0 0 0            *    a feather of fire
+M 0 77713 49 77820 100 0 0 0       * an infant morkoth
+E 1 77717 4 16 100 0 0 0           *   a razor sharp seashell
+E 1 77717 4 17 100 0 0 0           *   a razor sharp seashell
+M 0 77713 49 77820 100 0 0 0       * an infant morkoth
+M 0 77713 49 77820 100 0 0 0       * an infant morkoth
+M 0 77713 49 77821 100 0 0 0       * an infant morkoth
+M 0 77713 49 77821 100 0 0 0       * an infant morkoth
+M 0 77713 49 77821 100 0 0 0       * an infant morkoth
+M 0 77713 49 77822 100 0 0 0       * an infant morkoth
+M 0 77713 49 77822 100 0 0 0       * an infant morkoth
+M 0 77713 49 77822 100 0 0 0       * an infant morkoth
+M 0 77713 49 77823 100 0 0 0       * an infant morkoth
+M 0 77713 49 77823 100 0 0 0       * an infant morkoth
+M 0 77713 49 77823 100 0 0 0       * an infant morkoth
+M 0 77713 49 77824 100 0 0 0       * an infant morkoth
+M 0 77713 49 77824 100 0 0 0       * an infant morkoth
+M 0 77713 49 77824 100 0 0 0       * an infant morkoth
+M 0 77713 49 77825 100 0 0 0       * an infant morkoth
+M 0 77713 49 77825 100 0 0 0       * an infant morkoth
+M 0 77713 49 77825 100 0 0 0       * an infant morkoth
+M 0 77713 49 77826 100 0 0 0       * an infant morkoth
+M 0 77713 49 77826 100 0 0 0       * an infant morkoth
+M 0 77713 49 77826 100 0 0 0       * an infant morkoth
+M 0 77713 49 77827 100 0 0 0       * an infant morkoth
+M 0 77713 49 77827 100 0 0 0       * an infant morkoth
+M 0 77713 49 77827 100 0 0 0       * an infant morkoth
+M 0 77713 49 77828 100 0 0 0       * an infant morkoth
+M 0 77713 49 77828 100 0 0 0       * an infant morkoth
+M 0 77713 49 77828 100 0 0 0       * an infant morkoth
+M 0 77713 49 77829 100 0 0 0       * an infant morkoth
+E 1 77717 4 16 100 0 0 0           *   a razor sharp seashell
+E 1 77717 4 17 100 0 0 0           *   a razor sharp seashell
+M 0 77713 49 77829 100 0 0 0       * an infant morkoth
+M 0 77713 49 77829 100 0 0 0       * an infant morkoth
+M 0 77713 49 77830 100 0 0 0       * an infant morkoth
+M 0 77713 49 77830 100 0 0 0       * an infant morkoth
+M 0 77713 49 77830 100 0 0 0       * an infant morkoth
+M 0 77713 49 77831 100 0 0 0       * an infant morkoth
+M 0 77713 49 77831 100 0 0 0       * an infant morkoth
+M 0 77713 49 77831 100 0 0 0       * an infant morkoth
+M 0 77713 49 77832 100 0 0 0       * an infant morkoth
+M 0 77713 49 77835 100 0 0 0       * an infant morkoth
+M 0 77713 49 77835 100 0 0 0       * an infant morkoth
+M 0 77713 49 77835 100 0 0 0       * an infant morkoth
+M 0 77713 49 77836 100 0 0 0       * an infant morkoth
+M 0 77713 49 77836 100 0 0 0       * an infant morkoth
+M 0 77713 49 77836 100 0 0 0       * an infant morkoth
+M 0 77713 49 77837 100 0 0 0       * an infant morkoth
+M 0 77713 49 77837 100 0 0 0       * an infant morkoth
+M 0 77713 49 77837 100 0 0 0       * an infant morkoth
+M 0 77714 1 77838 100 0 0 0        * the mother morkoth
+G 1 77736 1 0 100 0 0 0            *    a rusty old key
+M 0 77715 1 77843 100 0 0 0        * Ssidrn
+G 1 77720 1 0 100 0 0 0            *    a small book covered with seaweed
+F 1 77719 12 77843 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77843 100 0 0 0       * the umber hulk slave (following)
+M 0 77716 8 77845 100 0 0 0        * the Neogi soldier
+M 0 77716 8 77845 100 0 0 0        * the Neogi soldier
+M 0 77716 8 77845 100 0 0 0        * the Neogi soldier
+G 1 77751 1 0 100 0 0 0            *    a HUGE key
+M 0 77716 8 77845 100 0 0 0        * the Neogi soldier
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77749 5 77846 100 0 0 0        * the Neogi assassin
+E 1 77726 24 16 100 0 0 0          *   a stone dagger
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+E 1 77726 24 25 100 0 0 0          *   a stone dagger
+E 1 77726 24 26 100 0 0 0          *   a stone dagger
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77846 100 0 0 0       * the Neogi militia guard
+M 0 77749 5 77848 100 0 0 0        * the Neogi assassin
+E 1 77726 24 16 100 0 0 0          *   a stone dagger
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+G 1 77726 24 0 100 0 0 0           *    a stone dagger
+G 1 77726 24 0 100 0 0 0           *    a stone dagger
+M 0 77723 14 77849 100 0 0 0       * the Neogi militia guard
+M 0 77723 14 77852 100 0 0 0       * the Neogi militia guard
+M 0 77717 4 77854 100 0 0 0        * the Neogi child
+G 1 77742 1 0 100 0 0 0            *    a coiled wire
+M 0 77718 1 77856 100 0 0 0        * the old Neogi
+F 1 77719 12 77856 100 0 0 0       * the umber hulk slave (following)
+M 0 77723 14 77859 100 0 0 0       * the Neogi militia guard
+M 0 77720 1 77860 100 0 0 0        * the tower guardian
+F 1 77716 8 77860 100 0 0 0        * the Neogi soldier (following)
+F 1 77716 8 77860 100 0 0 0        * the Neogi soldier (following)
+M 0 77721 1 77861 100 0 0 0        * Rasdarn
+E 1 77722 1 1 100 0 0 0            *   a ring of the Neogi Lords
+E 1 77718 1 3 100 0 0 0            *   an amulet of the Neogi Lords
+G 1 77724 1 0 100 0 0 0            *    a tiny ebony shard
+F 1 77719 12 77861 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77861 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77861 100 0 0 0       * the umber hulk slave (following)
+M 0 77749 5 77863 100 0 0 0        * the Neogi assassin
+E 1 77726 24 16 100 0 0 0          *   a stone dagger
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+E 1 77726 24 25 100 0 0 0          *   a stone dagger
+E 1 77726 24 26 100 0 0 0          *   a stone dagger
+M 0 77722 1 77864 100 0 0 0        * Kikkrn
+E 1 77725 1 16 100 0 0 0           *   Silence, the dagger of anguish
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+E 1 77726 24 25 100 0 0 0          *   a stone dagger
+E 1 77726 24 26 100 0 0 0          *   a stone dagger
+F 1 77719 12 77864 100 0 0 0       * the umber hulk slave (following)
+M 0 77723 14 77865 100 0 0 0       * the Neogi militia guard
+M 0 77724 1 77865 100 0 0 0        * the Neogi shopkeeper
+G 1 77726 24 0 100 0 0 0           *    a stone dagger
+G 1 77727 1 0 100 0 0 0            *    a crystal lockpick
+M 0 77723 14 77867 100 0 0 0       * the Neogi militia guard
+M 0 77727 1 77867 100 0 0 0        * the captain of the guard
+E 1 77729 1 14 100 0 0 0           *   the bangle of the Dreamer
+F 1 77716 8 77867 100 0 0 0        * the Neogi soldier (following)
+F 1 77716 8 77867 100 0 0 0        * the Neogi soldier (following)
+M 0 77749 5 77869 100 0 0 0        * the Neogi assassin
+E 1 77726 24 16 100 0 0 0          *   a stone dagger
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+E 1 77726 24 25 100 0 0 0          *   a stone dagger
+E 1 77726 24 26 100 0 0 0          *   a stone dagger
+M 0 77717 4 77871 100 0 0 0        * the Neogi child
+M 0 77725 1 77873 100 0 0 0        * the Neogi Innkeeper
+M 0 77726 1 77873 100 0 0 0        * the drunken Neogi
+E 1 77723 1 9 100 0 0 0            *   a set of glassteel gloves
+M 0 77717 4 77874 100 0 0 0        * the Neogi child
+M 0 77749 5 77878 100 0 0 0        * the Neogi assassin
+E 1 77726 24 16 100 0 0 0          *   a stone dagger
+E 1 77726 24 17 100 0 0 0          *   a stone dagger
+G 1 77726 24 0 100 0 0 0           *    a stone dagger
+G 1 77726 24 0 100 0 0 0           *    a stone dagger
+M 0 77729 1 77881 100 0 0 0        * the demon watcher
+F 1 77730 2 77881 100 0 0 0        * the cyanide spider (following)
+F 1 77730 2 77881 100 0 0 0        * the cyanide spider (following)
+M 0 77728 1 77882 100 0 0 0        * Sakkaet
+E 1 77730 1 16 100 0 0 0           *   a blood red axe
+G 1 77732 1 0 100 0 0 0            *    a tiny silver shard
+F 1 77719 12 77882 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77882 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77882 100 0 0 0       * the umber hulk slave (following)
+M 0 77717 4 77883 100 0 0 0        * the Neogi child
+M 0 77731 1 77886 100 0 0 0        * the apprentice druid
+F 1 77719 12 77886 100 0 0 0       * the umber hulk slave (following)
+F 1 77719 12 77886 100 0 0 0       * the umber hulk slave (following)
+M 0 77732 1 77887 100 0 0 0        * Sajjess, holy watcher of Aan
+F 1 77733 1 77887 100 0 0 0        * the Aanish priest (following)
+M 0 77750 1 77892 100 0 0 0        * the human maiden
+M 0 77734 1 77894 100 0 0 0        * Aan, the dragonlord of the Sacred Hells
+E 1 77734 1 9 30 0 0 0             *   the sacred stone claws of Aan
+E 1 77740 1 19 100 0 0 0           *   a frost dragon's eye
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 67201 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 77735 1 77899 100 0 0 0        * the manifestation of Jadem
+M 0 77736 1 77903 100 0 0 0        * the angry beholder
+M 0 77737 5 77904 100 0 0 0        * the carrion spider
+M 0 77737 5 77904 100 0 0 0        * the carrion spider
+M 0 77737 5 77904 100 0 0 0        * the carrion spider
+M 0 77737 5 77904 100 0 0 0        * the carrion spider
+M 0 77737 5 77904 100 0 0 0        * the carrion spider
+M 0 77738 1 77905 100 0 0 0        * the old aberrate
+G 1 77741 1 0 100 0 0 0            *    a tarnished golden ring
+M 0 77739 1 77906 100 0 0 0        * Seltran, the town elder
+M 0 77740 1 77908 100 0 0 0        * Xamael, the town blacksmith
+M 0 77741 1 77910 100 0 0 0        * an old one-eyed woman
+M 0 77742 1 77911 100 0 0 0        * a little child
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77913 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77914 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77915 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77743 50 77916 100 0 0 0       * Creeping Death
+M 0 77744 1 77916 100 0 0 0        * the lost aberrate
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77743 50 77917 100 0 0 0       * Creeping Death
+M 0 77745 10 77918 100 0 0 0       * the vile wretch
+M 0 77745 10 77920 100 0 0 0       * the vile wretch
+M 0 77745 10 77923 100 0 0 0       * the vile wretch
+M 0 77745 10 77924 100 0 0 0       * the vile wretch
+M 0 77745 10 77926 100 0 0 0       * the vile wretch
+M 0 77746 2 77927 100 0 0 0        * the convulsing mass
+G 1 77719 2 0 50 0 0 0             *    an adamantium rock
+M 0 77747 1 77928 100 0 0 0        * Akckx, the collector of souls
+M 0 77745 10 77930 100 0 0 0       * the vile wretch
+M 0 77745 10 77931 100 0 0 0       * the vile wretch
+M 0 77745 10 77933 100 0 0 0       * the vile wretch
+M 0 77745 10 77934 100 0 0 0       * the vile wretch
+M 0 77745 10 77936 100 0 0 0       * the vile wretch
+M 0 77746 2 77937 100 0 0 0        * the convulsing mass
+M 0 77754 1 77938 100 0 0 0        * the demon Aruyka
+E 1 77735 1 6 100 0 0 0            *   the winged crown of the demon thieves
+M 0 77751 1 77944 100 0 0 0        * the Shadow of Death
+M 0 77752 1 77944 100 0 0 0        * the Shadow of Sin
+M 0 77753 1 77944 100 0 0 0        * the Shadow of Strife
+*
+S

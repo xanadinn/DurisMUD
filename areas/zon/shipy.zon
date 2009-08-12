@@ -1,0 +1,935 @@
+#431
+&+yThe Ship Yards&n~
+43328 2 0 0 168 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 43101 0 1 100 0 0 0
+*     north exit from "The Gates of Canderthal Harbor" to
+*     "A Muddy Road Through Canderthal Harbor" - closed
+*
+D 0 43235 2 1 100 0 0 0
+*     south exit from "A Muddy Road Through Canderthal Harbor" to
+*     "The Gates of Canderthal Harbor" - closed
+*
+D 0 43104 3 1 100 0 0 0
+*     west exit from "The Main Dock of Canderthal Harbor" to
+*     "The Bank of Canderthal Harbor" - closed
+*
+D 0 43105 1 1 100 0 0 0
+*     east exit from "The Bank of Canderthal Harbor" to
+*     "The Main Dock of Canderthal Harbor" - closed
+*
+D 0 43112 2 1 100 0 0 0
+*     south exit from "The Main Dock of Canderthal Harbor" to
+*     "The Bar of Endless Seas" - closed
+*
+D 0 43220 0 1 100 0 0 0
+*     north exit from "The Bar of Endless Seas" to
+*     "The Main Dock of Canderthal Harbor" - closed
+*
+D 0 43113 2 1 100 0 0 0
+*     south exit from "The Main Dock of Canderthal Harbor" to
+*     "Safi's Slashers" - closed
+*
+D 0 43114 0 1 100 0 0 0
+*     north exit from "Safi's Slashers" to
+*     "The Main Dock of Canderthal Harbor" - closed
+*
+D 0 43115 1 1 100 0 0 0
+*     east exit from "The Main Dock of Canderthal Harbor" to
+*     "Pol's Poles" - closed
+*
+D 0 43116 3 1 100 0 0 0
+*     west exit from "Pol's Poles" to
+*     "The Main Dock of Canderthal Harbor" - closed
+*
+D 0 43141 0 1 100 0 0 0
+*     north exit from "The Spiked Gates of Thur'Gurax Port" to
+*     "The Stake-Lined Thur'Gurax Concourse" - closed
+*
+D 0 43278 2 1 100 0 0 0
+*     south exit from "The Stake-Lined Thur'Gurax Concourse" to
+*     "The Spiked Gates of Thur'Gurax Port" - closed
+*
+D 0 43144 3 1 100 0 0 0
+*     west exit from "The Main Dock of Thur'Gurax Port" to
+*     "The Bank of Thur'Gurax Port" - closed
+*
+D 0 43145 1 1 100 0 0 0
+*     east exit from "The Bank of Thur'Gurax Port" to
+*     "The Main Dock of Thur'Gurax Port" - closed
+*
+D 0 43152 2 1 100 0 0 0
+*     south exit from "The Main Dock of Thur'Gurax Port" to
+*     "The Tavern of Cairme BloodFang" - closed
+*
+D 0 43221 0 1 100 0 0 0
+*     north exit from "The Tavern of Cairme BloodFang" to
+*     "The Main Dock of Thur'Gurax Port" - closed
+*
+D 0 43153 2 1 100 0 0 0
+*     south exit from "The Main Dock of Thur'Gurax Port" to
+*     "Mahii's Weapon Hut" - closed
+*
+D 0 43154 0 1 100 0 0 0
+*     north exit from "Mahii's Weapon Hut" to
+*     "The Main Dock of Thur'Gurax Port" - closed
+*
+D 0 43155 1 1 100 0 0 0
+*     east exit from "The Main Dock of Thur'Gurax Port" to
+*     "Ponit's Supply Hut" - closed
+*
+D 0 43156 3 1 100 0 0 0
+*     west exit from "Ponit's Supply Hut" to
+*     "The Main Dock of Thur'Gurax Port" - closed
+*
+D 0 43181 0 1 100 0 0 0
+*     north exit from "The Great Doors of Fenaline Shipyard" to
+*     "A Grassy Road Through Fenaline" - closed
+*
+D 0 43255 2 1 100 0 0 0
+*     south exit from "A Grassy Road Through Fenaline" to
+*     "The Great Doors of Fenaline Shipyard" - closed
+*
+D 0 43184 3 1 100 0 0 0
+*     west exit from "The Main Dock of the Fenaline Shipyard" to
+*     "The Bank of Fenaline" - closed
+*
+D 0 43185 1 1 100 0 0 0
+*     east exit from "The Bank of Fenaline" to
+*     "The Main Dock of the Fenaline Shipyard" - closed
+*
+D 0 43192 2 1 100 0 0 0
+*     south exit from "The Main Dock of the Fenaline Shipyard" to
+*     "Martinek's Clam House" - closed
+*
+D 0 43222 0 1 100 0 0 0
+*     north exit from "Martinek's Clam House" to
+*     "The Main Dock of the Fenaline Shipyard" - closed
+*
+D 0 43193 2 1 100 0 0 0
+*     south exit from "The Main Dock of the Fenaline Shipyard" to
+*     "Fatira's Weaponry" - closed
+*
+D 0 43194 0 1 100 0 0 0
+*     north exit from "Fatira's Weaponry" to
+*     "The Main Dock of the Fenaline Shipyard" - closed
+*
+D 0 43195 1 1 100 0 0 0
+*     east exit from "The Main Dock of the Fenaline Shipyard" to
+*     "Jad's Fishery" - closed
+*
+D 0 43196 3 1 100 0 0 0
+*     west exit from "Jad's Fishery" to
+*     "The Main Dock of the Fenaline Shipyard" - closed
+*
+D 0 43220 5 1 100 0 0 0
+*     down exit from "The Bar of Endless Seas" to
+*     "A Musky Wine Cellar" - closed
+*
+D 0 43233 4 1 100 0 0 0
+*     up exit from "A Musky Wine Cellar" to
+*     "The Bar of Endless Seas" - closed
+*
+D 0 43221 5 1 100 0 0 0
+*     down exit from "The Tavern of Cairme BloodFang" to
+*     "A Musky Wine Cellar" - closed
+*
+D 0 43234 4 1 100 0 0 0
+*     up exit from "A Musky Wine Cellar" to
+*     "The Tavern of Cairme BloodFang" - closed
+*
+D 0 43224 0 1 100 0 0 0
+*     north exit from "A Halfling Ship Pier" to
+*     "The Bar of the Halfling Heart" - closed
+*
+D 0 43229 2 1 100 0 0 0
+*     south exit from "The Bar of the Halfling Heart" to
+*     "A Halfling Ship Pier" - closed
+*
+D 0 43229 5 1 100 0 0 0
+*     down exit from "The Bar of the Halfling Heart" to
+*     "A Dark Cellar" - closed
+*
+D 0 43230 4 1 100 0 0 0
+*     up exit from "A Dark Cellar" to
+*     "The Bar of the Halfling Heart" - closed
+*
+D 0 43234 3 5 100 0 0 0
+*     west exit from "A Musky Wine Cellar" to
+*     "The Top of a Secret Staircase" - closed/secret
+*
+D 0 43320 1 1 100 0 0 0
+*     east exit from "The Top of a Secret Staircase" to
+*     "A Musky Wine Cellar" - closed
+*
+D 0 43236 3 1 100 0 0 0
+*     west exit from "A Bend in a Muddy Road" to
+*     "A Fisherman's Home" - closed
+*
+D 0 43253 1 1 100 0 0 0
+*     east exit from "A Fisherman's Home" to
+*     "A Bend in a Muddy Road" - closed
+*
+D 0 43243 3 1 100 0 0 0
+*     west exit from "A Muddy Road Through Canderthal Harbor" to
+*     "A Fisherman's Home" - closed
+*
+D 0 43254 1 1 100 0 0 0
+*     east exit from "A Fisherman's Home" to
+*     "A Muddy Road Through Canderthal Harbor" - closed
+*
+D 0 43244 3 1 100 0 0 0
+*     west exit from "A Muddy Road Through Canderthal Harbor" to
+*     "The Fisherman's Hutch" - closed
+*
+D 0 43249 1 1 100 0 0 0
+*     east exit from "The Fisherman's Hutch" to
+*     "A Muddy Road Through Canderthal Harbor" - closed
+*
+D 0 43249 0 1 100 0 0 0
+*     north exit from "The Fisherman's Hutch" to
+*     "The Kitchen" - closed
+*
+D 0 43252 2 1 100 0 0 0
+*     south exit from "The Kitchen" to
+*     "The Fisherman's Hutch" - closed
+*
+D 0 43261 0 1 100 0 0 0
+*     north exit from "A Bend in the Grassy Road" to
+*     "A Fisherman's Home" - closed
+*
+D 0 43270 2 1 100 0 0 0
+*     south exit from "A Fisherman's Home" to
+*     "A Bend in the Grassy Road" - closed
+*
+D 0 43262 2 1 100 0 0 0
+*     south exit from "A Bend in the Grassy Road" to
+*     "A Fisherman's Home" - closed
+*
+D 0 43271 0 1 100 0 0 0
+*     north exit from "A Fisherman's Home" to
+*     "A Bend in the Grassy Road" - closed
+*
+D 0 43266 3 1 100 0 0 0
+*     west exit from "A Bend in the Grassy Road" to
+*     "The Wind's Breath Inn" - closed
+*
+D 0 43272 1 1 100 0 0 0
+*     east exit from "The Wind's Breath Inn" to
+*     "A Bend in the Grassy Road" - closed
+*
+D 0 43283 0 1 100 0 0 0
+*     north exit from "A Thur'Gurash Courtyard" to
+*     "Within a Messy Hut" - closed
+*
+D 0 43304 2 1 100 0 0 0
+*     south exit from "Within a Messy Hut" to
+*     "A Thur'Gurash Courtyard" - closed
+*
+D 0 43283 1 1 100 0 0 0
+*     east exit from "A Thur'Gurash Courtyard" to
+*     "Within a Messy Hut" - closed
+*
+D 0 43302 3 1 100 0 0 0
+*     west exit from "Within a Messy Hut" to
+*     "A Thur'Gurash Courtyard" - closed
+*
+D 0 43284 2 1 100 0 0 0
+*     south exit from "A Thur'Gurash Courtyard" to
+*     "Within a Messy Hut" - closed
+*
+D 0 43303 0 1 100 0 0 0
+*     north exit from "Within a Messy Hut" to
+*     "A Thur'Gurash Courtyard" - closed
+*
+D 0 43284 3 1 100 0 0 0
+*     west exit from "A Thur'Gurash Courtyard" to
+*     "Within a Messy Hut" - closed
+*
+D 0 43305 1 1 100 0 0 0
+*     east exit from "Within a Messy Hut" to
+*     "A Thur'Gurash Courtyard" - closed
+*
+D 0 43289 3 1 100 0 0 0
+*     west exit from "The Northwest Corner of Banner Square" to
+*     "The Witchdoctor's Hut" - closed
+*
+D 0 43310 1 1 100 0 0 0
+*     east exit from "The Witchdoctor's Hut" to
+*     "The Northwest Corner of Banner Square" - closed
+*
+D 0 43291 1 2 100 0 0 0
+*     east exit from "The Northeast Corner at the Barracks Gates" to
+*     "The Thur'Gurax Barracks" - closed/locked
+*
+D 0 43306 3 1 100 0 0 0
+*     west exit from "The Thur'Gurax Barracks" to
+*     "The Northeast Corner at the Barracks Gates" - closed
+*
+D 0 43295 2 1 100 0 0 0
+*     south exit from "The Southwest Corner of Banner Square" to
+*     "The Gutted Githzerai Inn" - closed
+*
+D 0 43312 0 1 100 0 0 0
+*     north exit from "The Gutted Githzerai Inn" to
+*     "The Southwest Corner of Banner Square" - closed
+*
+D 0 43308 2 1 100 0 0 0
+*     south exit from "The Second Level of the hur'Gurax Barracks" to
+*     "The Barracks Office" - closed
+*
+D 0 43309 0 1 100 0 0 0
+*     north exit from "The Barracks Office" to
+*     "The Second Level of the hur'Gurax Barracks" - closed
+*
+*
+O 0 43103 1 43100 100 0 0 0        * a LARGE sign
+O 0 43101 42 43102 100 0 0 0       * a shipping crate
+O 0 43101 42 43103 100 0 0 0       * a shipping crate
+O 0 43101 42 43103 100 0 0 0       * a shipping crate
+O 0 43101 42 43103 100 0 0 0       * a shipping crate
+O 0 3097 999 43105 100 0 0 0       * (object type not in this .obj file)
+O 0 43101 42 43107 100 0 0 0       * a shipping crate
+O 0 43101 42 43107 100 0 0 0       * a shipping crate
+O 0 43101 42 43108 100 0 0 0       * a shipping crate
+O 0 43112 1 43112 100 0 0 0        * a sign reading 'Bar of Endless Seas'
+O 0 43101 42 43113 100 0 0 0       * a shipping crate
+O 0 43113 1 43113 100 0 0 0        * a sign reading 'Safi's Slashers'
+O 0 43101 42 43114 100 0 0 0       * a shipping crate
+O 0 43101 42 43114 100 0 0 0       * a shipping crate
+O 0 43114 1 43115 100 0 0 0        * a sign reading 'Pol's Poles'
+O 0 43101 42 43116 100 0 0 0       * a shipping crate
+O 0 43104 1 43140 100 0 0 0        * a LARGE sign
+O 0 43101 42 43142 100 0 0 0       * a shipping crate
+O 0 43101 42 43142 100 0 0 0       * a shipping crate
+O 0 43101 42 43143 100 0 0 0       * a shipping crate
+O 0 43101 42 43143 100 0 0 0       * a shipping crate
+O 0 43101 42 43143 100 0 0 0       * a shipping crate
+O 0 3097 999 43145 100 0 0 0       * (object type not in this .obj file)
+O 0 43101 42 43147 100 0 0 0       * a shipping crate
+O 0 43101 42 43147 100 0 0 0       * a shipping crate
+O 0 43101 42 43147 100 0 0 0       * a shipping crate
+O 0 43134 1 43152 100 0 0 0        * a sign reading 'Cairme BloodFang's'
+O 0 43101 42 43154 100 0 0 0       * a shipping crate
+O 0 43101 42 43154 100 0 0 0       * a shipping crate
+O 0 43101 42 43155 100 0 0 0       * a shipping crate
+O 0 43101 42 43155 100 0 0 0       * a shipping crate
+O 0 43101 42 43156 100 0 0 0       * a shipping crate
+O 0 43101 42 43156 100 0 0 0       * a shipping crate
+O 0 43101 42 43158 100 0 0 0       * a shipping crate
+O 0 43101 42 43159 100 0 0 0       * a shipping crate
+O 0 43101 42 43159 100 0 0 0       * a shipping crate
+O 0 43102 1 43180 100 0 0 0        * a LARGE sign
+O 0 43101 42 43182 100 0 0 0       * a shipping crate
+O 0 43101 42 43183 100 0 0 0       * a shipping crate
+O 0 43101 42 43183 100 0 0 0       * a shipping crate
+O 0 43101 42 43183 100 0 0 0       * a shipping crate
+O 0 3097 999 43185 100 0 0 0       * (object type not in this .obj file)
+O 0 43101 42 43187 100 0 0 0       * a shipping crate
+O 0 43101 42 43187 100 0 0 0       * a shipping crate
+O 0 43122 1 43192 100 0 0 0        * a sign reading 'Martinek's Clam House'
+O 0 43101 42 43193 100 0 0 0       * a shipping crate
+O 0 43119 1 43193 100 0 0 0        * a sign reading 'Fatira's Weaponry'
+O 0 43121 1 43195 100 0 0 0        * a sign reading 'Jad's Fishery'
+O 0 43101 42 43220 100 0 0 0       * a shipping crate
+O 0 43101 42 43220 100 0 0 0       * a shipping crate
+O 0 43101 42 43224 100 0 0 0       * a shipping crate
+O 0 43101 42 43224 100 0 0 0       * a shipping crate
+O 0 43115 1 43233 100 0 0 0        * a cask of Canderthal spirits
+O 0 43101 42 43233 100 0 0 0       * a shipping crate
+O 0 43101 42 43233 100 0 0 0       * a shipping crate
+O 0 43101 42 43233 100 0 0 0       * a shipping crate
+O 0 43125 2 43234 100 0 0 0        * an old, reinforced shipping crate
+O 0 43125 2 43234 100 0 0 0        * an old, reinforced shipping crate
+O 0 43108 1 43240 100 0 0 0        * a massive anchor
+O 0 43109 1 43244 100 0 0 0        * a sign reading 'The Fisherman's Hutch'
+O 0 43110 1 43246 100 0 0 0        * a small sign
+O 0 43117 1 43256 100 0 0 0        * the statue of Silvanos
+O 0 43118 1 43266 100 0 0 0        * a sign reading 'Wind's Breath Inn'
+O 0 43126 1 43289 100 0 0 0        * a sign reading 'Witchdoctor'
+O 0 43127 1 43295 100 0 0 0        * a sign reading 'The Gutted Githzerai'
+O 0 43132 1 43317 100 0 0 0        * the altar of storms
+O 0 23620 1 43320 100 0 0 0        * (object type not in this .obj file)
+*
+M 0 43100 8 43101 100 0 0 0        * a burly Winterhaven guard
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43100 8 43101 100 0 0 0        * a burly Winterhaven guard
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43100 8 43101 100 0 0 0        * a burly Winterhaven guard
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43140 6 43101 100 0 0 0        * a Canderthal watcher
+M 0 43140 6 43101 100 0 0 0        * a Canderthal watcher
+M 0 43114 8 43102 100 0 0 0        * a Winterhaven harbor watchman
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43114 8 43102 100 0 0 0        * a Winterhaven harbor watchman (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43114 8 43102 100 0 0 0        * a Winterhaven harbor watchman (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43131 8 43102 100 0 0 0        * a young fisherman
+M 0 43132 8 43102 100 0 0 0        * a merchant
+M 0 43137 25 43102 100 0 0 0       * a seagull
+M 0 43140 6 43102 100 0 0 0        * a Canderthal watcher
+E 1 43116 4 16 100 0 0 0           *   an iron longsword
+M 0 43140 6 43102 100 0 0 0        * a Canderthal watcher
+E 1 43116 4 16 100 0 0 0           *   an iron longsword
+M 0 43101 1 43105 100 0 0 0        * Mazi
+M 0 43137 25 43106 100 0 0 0       * a seagull
+M 0 43131 8 43108 100 0 0 0        * a young fisherman
+M 0 43132 8 43108 100 0 0 0        * a merchant
+M 0 43138 1 43108 100 0 0 0        * Gelden the Shaman
+M 0 43131 8 43111 100 0 0 0        * a young fisherman
+M 0 43139 1 43111 100 0 0 0        * Chundel the Harbor Master
+M 0 43102 1 43114 100 0 0 0        * Safi
+G 1 676 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 677 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 699 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 256 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 280 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 286 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 367 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 43103 1 43116 100 0 0 0        * Pol
+G 1 66709 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43137 25 43117 100 0 0 0       * a seagull
+M 0 43104 1 43118 100 0 0 0        * Tyric
+M 0 43132 8 43119 100 0 0 0        * a merchant
+M 0 43109 5 43141 100 0 0 0        * a tough Thur'Gurax warrior
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43109 5 43141 100 0 0 0        * a tough Thur'Gurax warrior
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43109 5 43141 100 0 0 0        * a tough Thur'Gurax warrior
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43109 5 43141 100 0 0 0        * a tough Thur'Gurax warrior
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43109 5 43141 100 0 0 0        * a tough Thur'Gurax warrior
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43115 5 43142 100 0 0 0        * an orc grunt
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43115 5 43142 100 0 0 0        * an orc grunt (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43115 5 43142 100 0 0 0        * an orc grunt (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43115 5 43142 100 0 0 0        * an orc grunt (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43110 1 43145 100 0 0 0        * Tazi
+M 0 43115 5 43150 100 0 0 0        * an orc grunt
+M 0 43177 1 43151 100 0 0 0        * Grimashk the Dock Lord
+F 1 43172 7 43151 100 0 0 0        * a black wolf (following)
+M 0 43111 1 43154 100 0 0 0        * Mahii
+G 1 699 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 677 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 676 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 280 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 286 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 256 999 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 43172 7 43154 100 0 0 0        * a black wolf (following)
+M 0 43112 1 43156 100 0 0 0        * Ponit
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 385 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 43172 7 43156 100 0 0 0        * a black wolf (following)
+M 0 43113 1 43158 100 0 0 0        * Yric
+M 0 43100 8 43181 100 0 0 0        * a burly Winterhaven guard
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43100 8 43181 100 0 0 0        * a burly Winterhaven guard
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+M 0 43141 6 43181 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43141 6 43181 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43114 8 43182 100 0 0 0        * a Winterhaven harbor watchman
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43114 8 43182 100 0 0 0        * a Winterhaven harbor watchman (following)
+E 1 43100 20 16 100 0 0 0          *   a two-handed silver sword
+F 1 43114 8 43182 100 0 0 0        * a Winterhaven harbor watchman (following)
+G 1 43100 20 0 100 0 0 0           *    a two-handed silver sword
+M 0 43141 6 43182 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43141 6 43182 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43159 5 43184 100 0 0 0        * a fisherman
+M 0 43108 1 43185 100 0 0 0        * Bendira the Banker
+M 0 43137 25 43186 100 0 0 0       * a seagull
+M 0 43152 6 43188 100 0 0 0        * a merchant
+M 0 43158 6 43188 100 0 0 0        * a young sailor
+M 0 43137 25 43189 100 0 0 0       * a seagull
+M 0 43152 6 43191 100 0 0 0        * a merchant
+M 0 43158 6 43191 100 0 0 0        * a young sailor
+M 0 43158 6 43193 100 0 0 0        * a young sailor
+M 0 43159 5 43193 100 0 0 0        * a fisherman
+M 0 43107 1 43194 100 0 0 0        * Fatira the Weaponsmith
+G 1 256 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 280 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 286 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 699 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 676 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 677 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43105 1 43196 100 0 0 0        * Jad the Shopkeeper
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 384 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 43120 1 0 100 0 0 0            *    a fine elven fishing pole
+M 0 43137 25 43197 100 0 0 0       * a seagull
+M 0 43106 1 43198 100 0 0 0        * Bruto
+M 0 43152 6 43199 100 0 0 0        * a merchant
+M 0 43133 2 43220 100 0 0 0        * a seasoned sailor
+M 0 43133 2 43220 100 0 0 0        * a seasoned sailor
+M 0 43134 2 43220 100 0 0 0        * a noble sailor
+G 1 40441 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43134 2 43220 100 0 0 0        * a noble sailor
+G 1 40441 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43135 1 43220 100 0 0 0        * Gringash the Barkeep
+M 0 43174 1 43221 100 0 0 0        * Cairme BloodFang
+M 0 43175 2 43221 100 0 0 0        * a seasoned sailor
+M 0 43175 2 43221 100 0 0 0        * a seasoned sailor
+M 0 43176 2 43221 100 0 0 0        * a drunk sailor
+M 0 43176 2 43221 100 0 0 0        * a drunk sailor
+M 0 43153 1 43222 100 0 0 0        * Martinek
+M 0 43154 2 43222 100 0 0 0        * a high elven sailor
+M 0 43154 2 43222 100 0 0 0        * a high elven sailor
+M 0 43155 2 43222 100 0 0 0        * a hungry patron
+M 0 43155 2 43222 100 0 0 0        * a hungry patron
+M 0 43126 1 43222 100 0 0 0        * Crendethyl
+M 0 43114 8 43223 100 0 0 0        * a Winterhaven harbor watchman
+M 0 43114 8 43225 100 0 0 0        * a Winterhaven harbor watchman
+M 0 43100 8 43226 100 0 0 0        * a burly Winterhaven guard
+M 0 43100 8 43227 100 0 0 0        * a burly Winterhaven guard
+M 0 43100 8 43228 100 0 0 0        * a burly Winterhaven guard
+M 0 43116 1 43229 100 0 0 0        * Taneeha
+E 1 43105 1 3 100 0 0 0            *   a beautiful medallion
+M 0 43117 3 43229 100 0 0 0        * An elite dock guard
+M 0 43117 3 43229 100 0 0 0        * An elite dock guard
+M 0 43117 3 43229 100 0 0 0        * An elite dock guard
+M 0 43118 1 43230 100 0 0 0        * Jid
+E 1 43106 1 18 100 0 0 0           *   a halfling-crafted harp
+M 0 43136 1 43233 100 0 0 0        * Krintis the Rogue
+G 1 45018 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 45018 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43132 8 43235 100 0 0 0        * a merchant
+M 0 43137 25 43235 100 0 0 0       * a seagull
+M 0 43131 8 43236 100 0 0 0        * a young fisherman
+M 0 43119 1 43238 100 0 0 0        * Bindra
+E 1 43107 1 13 100 0 0 0           *   a red towel
+M 0 43132 8 43240 100 0 0 0        * a merchant
+M 0 43140 6 43240 100 0 0 0        * a Canderthal watcher
+E 1 43116 4 16 100 0 0 0           *   an iron longsword
+M 0 43140 6 43240 100 0 0 0        * a Canderthal watcher
+E 1 43116 4 16 100 0 0 0           *   an iron longsword
+M 0 43137 25 43241 100 0 0 0       * a seagull
+M 0 43137 25 43241 100 0 0 0       * a seagull
+M 0 43137 25 43241 100 0 0 0       * a seagull
+M 0 43132 8 43242 100 0 0 0        * a merchant
+M 0 43132 8 43242 100 0 0 0        * a merchant
+M 0 43132 8 43242 100 0 0 0        * a merchant
+M 0 43131 8 43243 100 0 0 0        * a young fisherman
+M 0 43137 25 43243 100 0 0 0       * a seagull
+M 0 43131 8 43245 100 0 0 0        * a young fisherman
+M 0 43131 8 43245 100 0 0 0        * a young fisherman
+M 0 43131 8 43245 100 0 0 0        * a young fisherman
+M 0 43127 3 43248 100 0 0 0        * a fisherman
+M 0 43127 3 43248 100 0 0 0        * a fisherman
+M 0 43127 3 43248 100 0 0 0        * a fisherman
+M 0 43128 2 43248 100 0 0 0        * a tanned fisherman
+M 0 43128 2 43248 100 0 0 0        * a tanned fisherman
+M 0 43120 1 43249 100 0 0 0        * a huge bartender
+E 1 43111 1 16 100 0 0 0           *   an heavy stein
+M 0 43121 2 43249 100 0 0 0        * a drunk fisherman
+M 0 43121 2 43249 100 0 0 0        * a drunk fisherman
+M 0 43122 2 43249 100 0 0 0        * a sailor
+M 0 43122 2 43249 100 0 0 0        * a sailor
+M 0 43123 2 43251 100 0 0 0        * a sleepy fisherman
+M 0 43123 2 43251 100 0 0 0        * a sleepy fisherman
+M 0 43124 3 43251 100 0 0 0        * a tired sailor
+M 0 43124 3 43251 100 0 0 0        * a tired sailor
+M 0 43124 3 43251 100 0 0 0        * a tired sailor
+M 0 43125 1 43252 100 0 0 0        * Voshen the Chef
+M 0 43129 2 43253 100 0 0 0        * a halfling fisherman
+M 0 43129 2 43253 100 0 0 0        * a halfling fisherman
+M 0 43130 2 43254 100 0 0 0        * a dwarven fisherman
+M 0 43130 2 43254 100 0 0 0        * a dwarven fisherman
+M 0 43142 3 43256 100 0 0 0        * an elven worshipper
+M 0 43142 3 43256 100 0 0 0        * an elven worshipper
+M 0 43142 3 43256 100 0 0 0        * an elven worshipper
+M 0 43152 6 43258 100 0 0 0        * a merchant
+M 0 43158 6 43258 100 0 0 0        * a young sailor
+M 0 43137 25 43258 100 0 0 0       * a seagull
+M 0 43159 5 43259 100 0 0 0        * a fisherman
+M 0 43158 6 43260 100 0 0 0        * a young sailor
+M 0 43159 5 43261 100 0 0 0        * a fisherman
+M 0 43137 25 43262 100 0 0 0       * a seagull
+M 0 43152 6 43263 100 0 0 0        * a merchant
+M 0 43137 25 43263 100 0 0 0       * a seagull
+M 0 43141 6 43264 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43141 6 43264 100 0 0 0        * a Fenaline guard
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43137 25 43264 100 0 0 0       * a seagull
+M 0 43151 1 43265 100 0 0 0        * Austugus the Fenaline Captain
+E 1 43124 7 16 100 0 0 0           *   an elven longsword
+M 0 43158 6 43266 100 0 0 0        * a young sailor
+M 0 43159 5 43266 100 0 0 0        * a fisherman
+M 0 43152 6 43267 100 0 0 0        * a merchant
+M 0 43156 1 43268 100 0 0 0        * Shaenae the Mystic
+M 0 43157 3 43268 100 0 0 0        * a robed grey elf
+M 0 43157 3 43268 100 0 0 0        * a robed grey elf
+M 0 43157 3 43268 100 0 0 0        * a robed grey elf
+M 0 43143 2 43270 100 0 0 0        * an elven fisherman
+M 0 43143 2 43270 100 0 0 0        * an elven fisherman
+M 0 43144 2 43271 100 0 0 0        * a half-elven fisherman
+M 0 43144 2 43271 100 0 0 0        * a half-elven fisherman
+M 0 43145 1 43272 100 0 0 0        * Elthindeal the Bartender
+M 0 43146 2 43272 100 0 0 0        * an experienced sailor
+M 0 43146 2 43272 100 0 0 0        * an experienced sailor
+M 0 43147 2 43272 100 0 0 0        * a well-dressed sailor
+G 1 40442 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43147 2 43272 100 0 0 0        * a well-dressed sailor
+G 1 40442 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43148 1 43273 100 0 0 0        * Trismerk the Hunter
+M 0 43149 2 43275 100 0 0 0        * a tired sailor
+M 0 43149 2 43275 100 0 0 0        * a tired sailor
+M 0 43150 2 43275 100 0 0 0        * an exhausted sailor
+M 0 43150 2 43275 100 0 0 0        * an exhausted sailor
+M 0 43160 1 43277 100 0 0 0        * a spirit avatar of Silvanos
+E 1 43123 1 5 100 0 0 0            *   a suit of elven chainmail
+M 0 43171 2 43291 100 0 0 0        * a barracks guard
+F 1 43172 7 43291 100 0 0 0        * a black wolf (following)
+M 0 43171 2 43291 100 0 0 0        * a barracks guard
+F 1 43172 7 43291 100 0 0 0        * a black wolf (following)
+M 0 43181 1 43292 100 0 0 0        * Frull Thelstone
+F 1 43172 7 43292 100 0 0 0        * a black wolf (following)
+M 0 43167 1 43293 100 0 0 0        * Kruth'Urgur the Crier
+M 0 43163 1 43301 100 0 0 0        * Ayden Stoneheart
+M 0 43162 4 43302 100 0 0 0        * a goblin fisherman
+M 0 43162 4 43302 100 0 0 0        * a goblin fisherman
+M 0 43161 4 43303 100 0 0 0        * an orc fisherman
+M 0 43161 4 43303 100 0 0 0        * an orc fisherman
+M 0 43162 4 43304 100 0 0 0        * a goblin fisherman
+M 0 43162 4 43304 100 0 0 0        * a goblin fisherman
+M 0 43161 4 43305 100 0 0 0        * an orc fisherman
+M 0 43161 4 43305 100 0 0 0        * an orc fisherman
+M 0 43168 5 43306 100 0 0 0        * a Thur'Gurax warrior
+M 0 43168 5 43306 100 0 0 0        * a Thur'Gurax warrior
+M 0 43169 5 43306 100 0 0 0        * a huge ogre warrior
+M 0 43169 5 43306 100 0 0 0        * a huge ogre warrior
+M 0 43168 5 43307 100 0 0 0        * a Thur'Gurax warrior
+M 0 43168 5 43307 100 0 0 0        * a Thur'Gurax warrior
+M 0 43168 5 43307 100 0 0 0        * a Thur'Gurax warrior
+M 0 43169 5 43308 100 0 0 0        * a huge ogre warrior
+M 0 43169 5 43308 100 0 0 0        * a huge ogre warrior
+M 0 43169 5 43308 100 0 0 0        * a huge ogre warrior
+M 0 43170 1 43309 100 0 0 0        * Vrash Steelclaw the Sergeant
+M 0 43179 1 43310 100 0 0 0        * a troll shopkeeper
+G 1 111 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 108 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 109 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 93914 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 80186 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 53 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 412 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 43180 5 43310 100 0 0 0        * a troll henchman
+M 0 43180 5 43310 100 0 0 0        * a troll henchman
+M 0 43178 1 43311 100 0 0 0        * Bronak the Witchdoctor
+M 0 43180 5 43311 100 0 0 0        * a troll henchman
+M 0 43180 5 43311 100 0 0 0        * a troll henchman
+M 0 43180 5 43311 100 0 0 0        * a troll henchman
+M 0 43182 1 43312 100 0 0 0        * an orc bartender
+M 0 43183 2 43312 100 0 0 0        * a goblin patron
+M 0 43183 2 43312 100 0 0 0        * a goblin patron
+M 0 43184 2 43312 100 0 0 0        * a drunk orc
+M 0 43184 2 43312 100 0 0 0        * a drunk orc
+M 0 43187 1 43313 100 0 0 0        * Bestile AxeCrack
+F 1 43172 7 43313 100 0 0 0        * a black wolf (following)
+M 0 43185 2 43315 100 0 0 0        * a tired sailor
+M 0 43185 2 43315 100 0 0 0        * a tired sailor
+M 0 43186 2 43315 100 0 0 0        * a sleepy sailor
+M 0 43186 2 43315 100 0 0 0        * a sleepy sailor
+M 0 43188 3 43317 100 0 0 0        * an orc warlock
+E 1 43131 3 3 100 0 0 0            *   a lightning bolt charm
+M 0 43188 3 43317 100 0 0 0        * an orc warlock
+E 1 43131 3 3 100 0 0 0            *   a lightning bolt charm
+M 0 43188 3 43317 100 0 0 0        * an orc warlock
+E 1 43131 3 3 100 0 0 0            *   a lightning bolt charm
+M 0 43189 1 43319 100 0 0 0        * an avatar spirit of Ferrik BloodyFist
+E 1 43133 1 5 100 0 0 0            *   some ringmail bearing the crest of Clan BloodyFist
+M 0 43190 5 43321 100 0 0 0        * a fisherman
+M 0 43190 5 43321 100 0 0 0        * a fisherman
+M 0 43190 5 43321 100 0 0 0        * a fisherman
+M 0 43190 5 43321 100 0 0 0        * a fisherman
+M 0 43190 5 43321 100 0 0 0        * a fisherman
+M 0 43166 5 43321 100 0 0 0        * a young fisherman
+M 0 43166 5 43321 100 0 0 0        * a young fisherman
+M 0 43166 5 43321 100 0 0 0        * a young fisherman
+M 0 43166 5 43321 100 0 0 0        * a young fisherman
+M 0 43166 5 43321 100 0 0 0        * a young fisherman
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43165 6 43321 100 0 0 0        * a vicious warg
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43137 25 43321 100 0 0 0       * a seagull
+M 0 43164 5 43321 100 0 0 0        * a hulking troll watchman
+E 1 43135 5 16 100 0 0 0           *   a bone broadsword
+M 0 43164 5 43321 100 0 0 0        * a hulking troll watchman
+E 1 43135 5 16 100 0 0 0           *   a bone broadsword
+M 0 43164 5 43321 100 0 0 0        * a hulking troll watchman
+E 1 43135 5 16 100 0 0 0           *   a bone broadsword
+M 0 43164 5 43321 100 0 0 0        * a hulking troll watchman
+E 1 43135 5 16 100 0 0 0           *   a bone broadsword
+M 0 43164 5 43321 100 0 0 0        * a hulking troll watchman
+E 1 43135 5 16 100 0 0 0           *   a bone broadsword
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43173 7 43321 100 0 0 0        * a muscular sailor
+M 0 43191 5 43321 100 0 0 0        * an angry orc
+M 0 43191 5 43321 100 0 0 0        * an angry orc
+M 0 43191 5 43321 100 0 0 0        * an angry orc
+M 0 43191 5 43321 100 0 0 0        * an angry orc
+M 0 43191 5 43321 100 0 0 0        * an angry orc
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43192 15 43322 100 0 0 0       * a snapjaw turtle
+G 1 43137 15 0 100 0 0 0           *    a snapjaw turtle shell
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+E 1 43138 19 18 100 0 0 0          *   a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+E 1 43138 19 18 100 0 0 0          *   a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+E 1 43138 19 18 100 0 0 0          *   a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+G 1 43138 19 0 100 0 0 0           *    a fire gland
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+M 0 43193 20 43323 100 0 0 0       * a stonescale pyrolisk
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43194 20 43324 100 0 0 0       * a sand viper
+G 1 43139 20 0 100 0 0 0           *    a sand viper venom sac
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43195 22 43325 100 0 0 0       * a tundra panther
+E 1 43140 22 16 100 0 0 0          *   a sharp panther fang
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43196 8 43326 100 0 0 0        * a highland samurai
+E 1 43141 8 16 100 0 0 0           *   a jade katana
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43197 17 43327 100 0 0 0       * a green hydralisk
+G 1 43142 17 0 100 0 0 0           *    a green hydralisk gland
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+M 0 43198 11 43328 100 0 0 0       * a human bandit
+G 1 43143 11 0 100 0 0 0           *    a bandit shiv
+*
+S

@@ -1,0 +1,330 @@
+#968
+&+BDirk'nspire &+bStronghold&n~
+96885 2 0 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 96820 3 1 100 0 0 0
+*     west exit from "A Slime Covered Passage" to
+*     "Inside the Freedman's Ghetto" - closed
+*
+D 0 96821 1 5 100 0 0 0
+*     east exit from "Inside the Freedman's Ghetto" to
+*     "A Slime Covered Passage" - closed/secret
+*
+D 0 96821 3 1 100 0 0 0
+*     west exit from "Inside the Freedman's Ghetto" to
+*     "Outside the Gate to the Freedman's Ghetto" - closed
+*
+D 0 96831 1 1 100 0 0 0
+*     east exit from "Outside the Gate to the Freedman's Ghetto" to
+*     "Inside the Freedman's Ghetto" - closed
+*
+D 0 96823 2 2 100 0 0 0
+*     south exit from "Liberation Road" to
+*     "A Dingy Abode" - closed/locked
+*
+D 0 96854 0 2 100 0 0 0
+*     north exit from "A Dingy Abode" to
+*     "Liberation Road" - closed/locked
+*
+D 0 96826 3 1 100 0 0 0
+*     west exit from "A Bend in Liberation Road" to
+*     "A Disheveled Hovel" - closed
+*
+D 0 96855 1 1 100 0 0 0
+*     east exit from "A Disheveled Hovel" to
+*     "A Bend in Liberation Road" - closed
+*
+D 0 96828 0 0 100 0 0 0
+*     north exit from "Liberation Road" to
+*     "The Groaning Goblin Tavern" - open
+*
+D 0 96856 2 0 100 0 0 0
+*     south exit from "The Groaning Goblin Tavern" to
+*     "Liberation Road" - open
+*
+D 0 96836 0 1 100 0 0 0
+*     north exit from "A Bend in the Path of Honour" to
+*     "Entrance to Clan Swifthammer" - closed
+*
+D 0 96859 2 1 100 0 0 0
+*     south exit from "Entrance to Clan Swifthammer" to
+*     "A Bend in the Path of Honour" - closed
+*
+D 0 96836 3 2 100 0 0 0
+*     west exit from "A Bend in the Path of Honour" to
+*     "An Ornate Hallway" - closed/locked
+*
+D 0 96867 1 2 100 0 0 0
+*     east exit from "An Ornate Hallway" to
+*     "A Bend in the Path of Honour" - closed/locked
+*
+D 0 96838 1 1 100 0 0 0
+*     east exit from "A Bend in the Path of Honour" to
+*     "Entrance to Clan Broken Will" - closed
+*
+D 0 96869 3 1 100 0 0 0
+*     west exit from "Entrance to Clan Broken Will" to
+*     "A Bend in the Path of Honour" - closed
+*
+D 0 96846 1 2 100 0 0 0
+*     east exit from "An Elegant Intersection" to
+*     "The Gates of Dirk'nspire" - closed/locked
+*
+D 0 96848 3 2 100 0 0 0
+*     west exit from "The Gates of Dirk'nspire" to
+*     "An Elegant Intersection" - closed/locked
+*
+D 0 96847 1 1 100 0 0 0
+*     east exit from "An Arched Vestibule" to
+*     "Morgana's Brothel Reception Area" - closed
+*
+D 0 96850 3 1 100 0 0 0
+*     west exit from "Morgana's Brothel Reception Area" to
+*     "An Arched Vestibule" - closed
+*
+D 0 96847 3 1 100 0 0 0
+*     west exit from "An Arched Vestibule" to
+*     "Bofak's Temple of Virtue" - closed
+*
+D 0 96852 1 1 100 0 0 0
+*     east exit from "Bofak's Temple of Virtue" to
+*     "An Arched Vestibule" - closed
+*
+D 0 96849 1 1 100 0 0 0
+*     east exit from "The Path of Honour" to
+*     "Flyrr's General Store" - closed
+*
+D 0 96885 3 1 100 0 0 0
+*     west exit from "Flyrr's General Store" to
+*     "The Path of Honour" - closed
+*
+D 0 96856 1 1 100 0 0 0
+*     east exit from "The Groaning Goblin Tavern" to
+*     "A Rest Room" - closed
+*
+D 0 96857 3 1 100 0 0 0
+*     west exit from "A Rest Room" to
+*     "The Groaning Goblin Tavern" - closed
+*
+D 0 96863 0 1 100 0 0 0
+*     north exit from "An Ornate Hallway" to
+*     "The Barracks" - closed
+*
+D 0 96864 2 1 100 0 0 0
+*     south exit from "The Barracks" to
+*     "An Ornate Hallway" - closed
+*
+D 0 96865 3 1 100 0 0 0
+*     west exit from "An Ornate Hallway" to
+*     "Clan Priest's Chamber" - closed
+*
+D 0 96866 1 1 100 0 0 0
+*     east exit from "Clan Priest's Chamber" to
+*     "An Ornate Hallway" - closed
+*
+D 0 96867 3 0 100 0 0 0
+*     west exit from "An Ornate Hallway" to
+*     "Firb Derstl's Private Chambers" - open
+*
+D 0 96868 1 0 100 0 0 0
+*     east exit from "Firb Derstl's Private Chambers" to
+*     "An Ornate Hallway" - open
+*
+D 0 96872 0 1 100 0 0 0
+*     north exit from "An Onyx Hallway" to
+*     "Slave Pens" - closed
+*
+D 0 96873 2 1 100 0 0 0
+*     south exit from "Slave Pens" to
+*     "An Onyx Hallway" - closed
+*
+D 0 96872 2 1 100 0 0 0
+*     south exit from "An Onyx Hallway" to
+*     "Slave Pens" - closed
+*
+D 0 96874 0 1 100 0 0 0
+*     north exit from "Slave Pens" to
+*     "An Onyx Hallway" - closed
+*
+D 0 96876 1 1 100 0 0 0
+*     east exit from "An Onyx Hallway" to
+*     "Kitchen" - closed
+*
+D 0 96877 3 1 100 0 0 0
+*     west exit from "Kitchen" to
+*     "An Onyx Hallway" - closed
+*
+D 0 96880 0 1 100 0 0 0
+*     north exit from "An Onyx Hallway" to
+*     "Barracks" - closed
+*
+D 0 96881 2 1 100 0 0 0
+*     south exit from "Barracks" to
+*     "An Onyx Hallway" - closed
+*
+D 0 96880 2 1 100 0 0 0
+*     south exit from "An Onyx Hallway" to
+*     "Clan Priest's Chambers" - closed
+*
+D 0 96882 0 1 100 0 0 0
+*     north exit from "Clan Priest's Chambers" to
+*     "An Onyx Hallway" - closed
+*
+D 0 96883 2 1 100 0 0 0
+*     south exit from "An Onyx Hallway" to
+*     "Clan Elder's Chamber" - closed
+*
+D 0 96884 0 1 100 0 0 0
+*     north exit from "Clan Elder's Chamber" to
+*     "An Onyx Hallway" - closed
+*
+*
+O 0 96800 1 96802 100 0 0 0        * a pile of bat guano
+P 1 96801 1 96800 100 0 0 0        *   an axe called 'Drow Cleaver'
+P 1 96802 1 96800 100 0 0 0        *   a tattered piece of silk-paper
+O 0 96804 4 96803 100 0 0 0        * an inviting pool
+O 0 96804 4 96804 100 0 0 0        * an inviting pool
+O 0 96809 1 96807 100 0 0 0        * a mithril sign
+O 0 96804 4 96807 100 0 0 0        * an inviting pool
+O 0 96804 4 96808 100 0 0 0        * an inviting pool
+O 0 96805 1 96808 100 0 0 0        * a large boulder
+O 0 96807 1 96811 100 0 0 0        * a pool of urine
+O 0 96824 1 96821 100 0 0 0        * a slime covered well
+O 0 96828 1 96830 100 0 0 0        * a dumpster
+P 1 96827 2 96828 100 0 0 0        *   a pile of trash
+P 1 96820 4 96828 100 0 0 0        *   some loose change
+O 0 96827 2 96830 100 0 0 0        * a pile of trash
+O 0 96842 1 96834 100 0 0 0        * an ivory pool
+O 0 96811 1 96847 100 0 0 0        * an onyx sign
+O 0 96806 2 96848 100 0 0 0        * a skeleton
+O 0 96818 3 96850 100 0 0 0        * a mushroomstalk desk
+O 0 96819 1 96850 100 0 0 0        * a plush couch
+P 1 96820 4 96819 100 0 0 0        *   some loose change
+O 0 96815 3 96851 100 0 0 0        * a money box
+P 1 96817 1 96815 100 0 0 0        *   a pile of coins
+O 0 96816 1 96851 100 0 0 0        * a svirfneblin hide rug
+O 0 96822 1 96852 100 0 0 0        * an altar
+O 0 96821 1 96852 100 0 0 0        * a water basin
+O 0 96806 2 96854 100 0 0 0        * a skeleton
+O 0 96839 1 96854 100 0 0 0        * a pool of blood
+O 0 96831 1 96857 100 0 0 0        * a scat-filled toilet
+P 1 96832 1 96831 100 0 0 0        *   a dark obsidian band
+O 0 96815 3 96868 100 0 0 0        * a money box
+P 1 96845 1 96815 100 0 0 0        *   a sealed document
+O 0 96818 3 96868 100 0 0 0        * a mushroomstalk desk
+P 1 96820 4 96818 100 0 0 0        *   some loose change
+O 0 96815 3 96884 100 0 0 0        * a money box
+P 1 96820 4 96815 100 0 0 0        *   some loose change
+P 1 96803 1 96815 100 0 0 0        *   a belt of drow scalps
+O 0 96818 3 96884 100 0 0 0        * a mushroomstalk desk
+*
+M 0 96801 3 96802 100 0 0 0        * a small bat
+M 0 96801 3 96802 100 0 0 0        * a small bat
+M 0 96800 1 96802 100 0 0 0        * a large bat
+M 0 96802 6 96803 100 0 0 0        * a small lizard
+M 0 96802 6 96805 100 0 0 0        * a small lizard
+M 0 96802 6 96805 100 0 0 0        * a small lizard
+M 0 96802 6 96807 100 0 0 0        * a small lizard
+M 0 96803 1 96810 100 0 0 0        * a Deep Dwarf
+E 1 96808 2 12 100 0 0 0           *   a lizard's bladder flask
+M 0 96802 6 96812 100 0 0 0        * a small lizard
+M 0 96802 6 96812 100 0 0 0        * a small lizard
+M 0 96801 3 96813 100 0 0 0        * a small bat
+M 0 96829 1 96813 100 0 0 0        * Balith, Emissary of Ghore
+E 1 96843 1 24 100 0 0 0           *   a scarab of Ghore
+M 0 96805 4 96815 100 0 0 0        * a skeletal rat
+M 0 96806 3 96815 100 0 0 0        * a skeletal rat
+M 0 96805 4 96816 100 0 0 0        * a skeletal rat
+M 0 96806 3 96816 100 0 0 0        * a skeletal rat
+M 0 96805 4 96818 100 0 0 0        * a skeletal rat
+M 0 96805 4 96818 100 0 0 0        * a skeletal rat
+M 0 96806 3 96819 100 0 0 0        * a skeletal rat
+M 0 96812 1 96821 100 0 0 0        * a corpulent guard
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96826 1 11 100 0 0 0           *   a silver-rimmed tower shield
+E 1 96833 5 16 100 0 0 0           *   a highborn claymore
+E 1 96825 1 20 100 0 0 0           *   a moss mask
+M 0 96813 1 96824 100 0 0 0        * a street cleaner
+E 1 96830 1 18 100 0 0 0           *   a toothbrush
+M 0 96820 1 96827 100 0 0 0        * a homeless wemic
+E 1 96840 1 19 100 0 0 0           *   a ragged blindfold
+M 0 96824 1 96828 100 0 0 0        * a drunk goblin
+E 1 96841 1 21 100 0 0 0           *   a tarnished snakeskull earring
+M 0 96819 2 96830 100 0 0 0        * a thri-kreen
+E 1 96829 1 21 100 0 0 0           *   a polished obsidian earring
+M 0 96825 5 96834 100 0 0 0        * a Dirk'nspire guard
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96833 5 16 100 0 0 0           *   a highborn claymore
+M 0 96835 3 96834 100 0 0 0        * a derro commoner
+M 0 96836 5 96834 100 0 0 0        * a derro commoner
+M 0 96825 5 96835 100 0 0 0        * a Dirk'nspire guard
+M 0 96836 5 96835 100 0 0 0        * a derro commoner
+M 0 96836 5 96836 100 0 0 0        * a derro commoner
+M 0 96835 3 96837 100 0 0 0        * a derro commoner
+M 0 96837 3 96837 100 0 0 0        * a derro commoner
+G 1 96844 4 0 100 0 0 0            *    a box of Questos Cereal
+M 0 96825 5 96838 100 0 0 0        * a Dirk'nspire guard
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96833 5 16 100 0 0 0           *   a highborn claymore
+M 0 96837 3 96839 100 0 0 0        * a derro commoner
+G 1 96844 4 0 100 0 0 0            *    a box of Questos Cereal
+M 0 96825 5 96840 100 0 0 0        * a Dirk'nspire guard
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96833 5 16 100 0 0 0           *   a highborn claymore
+M 0 96836 5 96841 100 0 0 0        * a derro commoner
+M 0 96835 3 96843 100 0 0 0        * a derro commoner
+M 0 96825 5 96844 100 0 0 0        * a Dirk'nspire guard
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96833 5 16 100 0 0 0           *   a highborn claymore
+M 0 96836 5 96845 100 0 0 0        * a derro commoner
+M 0 96804 1 96848 100 0 0 0        * a Granite Golem
+G 1 96810 1 0 100 0 0 0            *    a bloodstone key
+M 0 96837 3 96849 100 0 0 0        * a derro commoner
+G 1 96844 4 0 100 0 0 0            *    a box of Questos Cereal
+M 0 96809 1 96850 100 0 0 0        * the brothel receptionist
+M 0 96810 1 96850 100 0 0 0        * a brothel patron
+M 0 96808 1 96851 100 0 0 0        * Morgana Strongheart
+E 1 96813 1 12 100 0 0 0           *   a leather harness
+M 0 96807 1 96851 100 0 0 0        * Bofak Purefinger
+E 1 96812 1 5 100 0 0 0            *   a dwarven alb
+E 1 96814 1 16 100 0 0 0           *   a mailed fist
+M 0 96811 1 96852 100 0 0 0        * a derro initiate
+E 1 96823 1 12 100 0 0 0           *   a chasuble of initiation
+M 0 96821 2 96853 100 0 0 0        * a drow commoner
+M 0 96819 2 96854 100 0 0 0        * a thri-kreen
+E 1 96837 4 16 100 0 0 0           *   a serrated durithalite dagger
+E 1 96837 4 17 100 0 0 0           *   a serrated durithalite dagger
+M 0 96823 1 96855 100 0 0 0        * an orc female
+M 0 96822 1 96855 100 0 0 0        * an orc child
+M 0 96814 1 96856 100 0 0 0        * Gartuk, Bartender Extraordinaire
+M 0 96815 1 96856 100 0 0 0        * a drunk orc patron
+M 0 96818 1 96856 100 0 0 0        * a tired troll
+E 1 96838 1 19 100 0 0 0           *   a troglodyteskin eyepatch
+M 0 96817 1 96857 100 0 0 0        * an irate duergar
+E 1 96837 4 16 100 0 0 0           *   a serrated durithalite dagger
+M 0 96821 2 96858 100 0 0 0        * a drow commoner
+M 0 96833 2 96862 100 0 0 0        * a derro cook
+M 0 96832 1 96866 100 0 0 0        * a clan priest
+M 0 96816 1 96868 100 0 0 0        * Firb Derstl, Burrow Warden of Dirk'nspire
+E 1 96834 6 7 100 0 0 0            *   a derro kilt
+E 1 96836 1 8 100 0 0 0            *   a pair of drowhide military boots
+E 1 96835 1 16 100 0 0 0           *   'B'ardingol', The Foe Hammer
+M 0 96826 3 96873 100 0 0 0        * a drow slave
+M 0 96827 2 96873 100 0 0 0        * an orc slave
+M 0 96828 1 96873 100 0 0 0        * a thri-kreen slave
+M 0 96826 3 96874 100 0 0 0        * a drow slave
+M 0 96826 3 96874 100 0 0 0        * a drow slave
+M 0 96827 2 96874 100 0 0 0        * an orc slave
+M 0 96830 1 96875 100 0 0 0        * a goblin slave
+M 0 96833 2 96877 100 0 0 0        * a derro cook
+M 0 96831 1 96882 100 0 0 0        * a clan priest
+M 0 96834 1 96884 100 0 0 0        * the clan elder
+M 0 96838 1 96885 100 0 0 0        * Flyrr Pharthing
+E 1 96837 4 16 100 0 0 0           *   a serrated durithalite dagger
+G 1 96844 4 0 100 0 0 0            *    a box of Questos Cereal
+G 1 96808 2 0 100 0 0 0            *    a lizard's bladder flask
+*
+S

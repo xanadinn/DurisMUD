@@ -1,0 +1,37 @@
+# Move world script. --MIAX
+echo
+echo "Kris's cool little utility to move tworld files to world files."
+echo
+if [ -w tworld.wld ]; then
+  echo "Moving world file."; mv tworld.wld world.wld
+else
+  echo "New world file not found, not moved."
+fi
+if [ -w tworld.mob ]; then
+  echo "Moving mob file."; mv tworld.mob world.mob
+else
+  echo "New mob file not found, not moved."
+fi
+if [ -w tworld.obj ]; then
+  echo "Moving object file."; mv tworld.obj world.obj
+else
+  echo "New object file not found, not moved."
+fi
+if [ -w tworld.zon ]; then
+  echo "Moving zone file."; mv tworld.zon world.zon
+else
+  echo "New zone file not found, not moved."
+fi
+if [ -w tworld.qst ]; then
+  echo "Moving quest file."; mv tworld.qst world.qst
+else
+  echo "New quest file not found, not moved."
+fi
+if [ -w tworld.shp ]; then
+  echo "Moving shop file."; mv tworld.shp world.shp
+else
+  echo "New shop file not found, not moved."
+fi
+echo
+echo "File conversion complete."
+echo

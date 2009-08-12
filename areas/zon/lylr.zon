@@ -1,0 +1,208 @@
+#822
+Lylr-Meop~
+82263 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 82208 3 5 100 0 0 0
+*     west exit from "The forest of Lylrstas" to
+*     "Inside A Large Tree" - closed/secret
+*
+D 0 82209 1 5 100 0 0 0
+*     east exit from "Inside A Large Tree" to
+*     "The forest of Lylrstas" - closed/secret
+*
+D 0 82213 2 4 100 0 0 0
+*     south exit from "Before A Wooden Fence" to
+*     "Within The Gates Of Lylrstas" - open/secret
+*
+D 0 82214 0 0 100 0 0 0
+*     north exit from "Within The Gates Of Lylrstas" to
+*     "Before A Wooden Fence" - open
+*
+D 0 82215 0 1 100 0 0 0
+*     north exit from "The Main Street Of Lylrstas" to
+*     "A Small Elven Home" - closed
+*
+D 0 82227 2 1 100 0 0 0
+*     south exit from "A Small Elven Home" to
+*     "The Main Street Of Lylrstas" - closed
+*
+D 0 82223 1 1 100 0 0 0
+*     east exit from "The End Of A Coobelstone Road" to
+*     "The Village Leaders Home" - closed
+*
+D 0 82224 3 1 100 0 0 0
+*     west exit from "The Village Leaders Home" to
+*     "The End Of A Coobelstone Road" - closed
+*
+D 0 82232 0 2 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 82237 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "A Dark Hallway" - closed/locked
+*
+D 0 82232 2 2 100 0 0 0
+*     south exit from "A Dark Hallway" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 82238 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "A Dark Hallway" - closed/locked
+*
+D 0 82233 0 2 100 0 0 0
+*     north exit from "A Dark Hall" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 82235 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "A Dark Hall" - closed/locked
+*
+D 0 82233 2 2 100 0 0 0
+*     south exit from "A Dark Hall" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 82236 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "A Dark Hall" - closed/locked
+*
+D 0 82234 0 2 100 0 0 0
+*     north exit from "The End Of A Dark Hall" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 82239 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "The End Of A Dark Hall" - closed/locked
+*
+*
+O 0 82213 1 82221 100 0 0 0        * a white marble fountain
+O 0 82215 1 82229 100 0 0 0        * a sturdy chest
+P 1 82216 1 82215 100 0 0 0        *   a pile of coins
+P 1 82221 1 82215 100 0 0 0        *   a twisted iron staff
+O 0 82226 1 82247 100 0 0 0        * a white marble fountain
+*
+M 0 82203 6 82200 100 0 0 0        * A squirrel
+M 0 82200 5 82201 100 0 0 0        * A rattlesnake
+M 0 82209 3 82202 100 0 0 0        * A bluejay
+M 0 82200 5 82203 100 0 0 0        * A rattlesnake
+M 0 82203 6 82203 100 0 0 0        * A squirrel
+M 0 82201 4 82203 100 0 0 0        * Venmar, the dragon
+M 0 82214 2 82204 100 0 0 0        * A cottontail rabbit
+M 0 82214 2 82205 100 0 0 0        * A cottontail rabbit
+M 0 82213 2 82207 100 0 0 0        * A brown bear
+M 0 82209 3 82208 100 0 0 0        * A bluejay
+M 0 82202 1 82211 100 0 0 0        * BBryt
+E 1 82201 1 16 20 0 0 0            *   a gleaming dagger
+G 1 82217 1 0 100 0 0 0            *    an ogre's scalp
+M 0 82205 2 82214 100 0 0 0        * A thin guard
+E 1 82205 3 7 100 0 0 0            *   a pair of squirrel skin leggings
+E 1 82206 6 16 100 0 0 0           *   a jagged bone shard
+M 0 82205 2 82214 100 0 0 0        * A thin guard
+E 1 82205 3 7 100 0 0 0            *   a pair of squirrel skin leggings
+E 1 82206 6 16 100 0 0 0           *   a jagged bone shard
+M 0 82206 2 82214 100 0 0 0        * an apprentice
+E 1 82207 2 16 100 0 0 0           *   the staff of the half-elves
+M 0 82206 2 82214 100 0 0 0        * an apprentice
+E 1 82207 2 16 100 0 0 0           *   the staff of the half-elves
+M 0 82211 2 82215 100 0 0 0        * A half-elf child
+M 0 82212 4 82215 100 0 0 0        * A small dog
+M 0 82208 1 82217 100 0 0 0        * The barkeep
+G 1 82208 999 0 100 0 0 0          *    a bottle of spring water
+G 1 82210 1 0 100 0 0 0            *    a glass of Mulberry wine
+G 1 82211 1 0 100 0 0 0            *    a mug of dark ale
+M 0 82216 1 82217 100 0 0 0        * Grandpa
+E 1 82220 1 3 100 0 0 0            *   a handknit scarf
+M 0 82212 4 82218 100 0 0 0        * A small dog
+M 0 82204 1 82220 100 0 0 0        * Cionvra
+G 1 82202 50 0 100 0 0 0           *    an eagle feather backpack
+G 1 82203 1 0 100 0 0 0            *    a freshly baked blueberry muffin
+G 1 82204 1 0 100 0 0 0            *    a magical torch
+G 1 82212 50 0 100 0 0 0           *    a cyan colored potion
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 82210 2 82222 100 0 0 0        * A half-elf commoner
+M 0 82207 1 82224 100 0 0 0        * Lylrstas, the village leader
+E 1 82209 1 5 100 0 0 0            *   a suit of gleaming silver platemail
+E 1 82214 1 16 100 0 0 0           *   a silver bastard sword
+F 1 82225 2 82224 100 0 0 0        * A thin guard (following)
+E 1 82206 6 16 100 0 0 0           *   a jagged bone shard
+E 1 82206 6 17 100 0 0 0           *   a jagged bone shard
+F 1 82225 2 82224 100 0 0 0        * A thin guard (following)
+E 1 82206 6 16 100 0 0 0           *   a jagged bone shard
+E 1 82206 6 17 100 0 0 0           *   a jagged bone shard
+M 0 82203 6 82225 100 0 0 0        * A squirrel
+M 0 82210 2 82225 100 0 0 0        * A half-elf commoner
+M 0 82209 3 82226 100 0 0 0        * A bluejay
+M 0 82211 2 82226 100 0 0 0        * A half-elf child
+M 0 82215 1 82227 100 0 0 0        * Grandma
+E 1 82218 1 9 100 0 0 0            *   a pair of ragged gloves
+E 1 82219 1 16 100 0 0 0           *   a walking cane
+M 0 82224 1 82228 100 0 0 0        * Sakthris the banker
+M 0 82217 1 82230 100 0 0 0        * A prison guard
+G 1 82205 3 0 100 0 0 0            *    a pair of squirrel skin leggings
+M 0 82223 1 82234 100 0 0 0        * A bored guard
+E 1 82222 1 5 100 0 0 0            *   some dented platemail
+G 1 82223 1 0 100 0 0 0            *    a rusty key
+M 0 82219 1 82235 100 0 0 0        * An illithid prisoner
+M 0 82220 1 82236 100 0 0 0        * A goblin prisoner
+M 0 82221 1 82237 100 0 0 0        * A ogre prisoner
+M 0 82222 1 82238 100 0 0 0        * A troll prisoner
+M 0 82218 1 82239 100 0 0 0        * A grey elf prisoner
+M 0 82227 3 82241 100 0 0 0        * A furry white rabbit
+M 0 82233 5 82241 100 0 0 0        * a town fool
+E 1 82229 3 6 100 0 0 0            *   a cap of the fool
+M 0 82203 6 82242 100 0 0 0        * A squirrel
+M 0 82226 2 82243 100 0 0 0        * A city guard
+E 1 82224 2 16 100 0 0 0           *   an old sword
+M 0 82226 2 82243 100 0 0 0        * A city guard
+E 1 82224 2 16 100 0 0 0           *   an old sword
+M 0 82228 4 82245 100 0 0 0        * A street cleaner
+G 1 82225 3 0 100 0 0 0            *    a small wooden broom
+M 0 82228 4 82247 100 0 0 0        * A street cleaner
+G 1 82225 3 0 100 0 0 0            *    a small wooden broom
+M 0 82227 3 82247 100 0 0 0        * A furry white rabbit
+M 0 82233 5 82247 100 0 0 0        * a town fool
+E 1 82229 3 6 100 0 0 0            *   a cap of the fool
+M 0 82228 4 82249 100 0 0 0        * A street cleaner
+G 1 82225 3 0 100 0 0 0            *    a small wooden broom
+M 0 82233 5 82249 100 0 0 0        * a town fool
+E 1 82229 3 6 100 0 0 0            *   a cap of the fool
+M 0 82229 1 82250 100 0 0 0        * Hylga, the barkeep
+E 1 82228 1 3 100 0 0 0            *   a green scarf
+M 0 82230 3 82250 100 0 0 0        * an old drunken orc
+G 1 82227 5 0 100 0 0 0            *    a glass of Orcish brew
+G 1 82227 5 0 100 0 0 0            *    a glass of Orcish brew
+M 0 82230 3 82250 100 0 0 0        * an old drunken orc
+G 1 82227 5 0 100 0 0 0            *    a glass of Orcish brew
+M 0 82230 3 82251 100 0 0 0        * an old drunken orc
+M 0 82231 1 82251 100 0 0 0        * an angry commoner
+M 0 82232 3 82252 100 0 0 0        * an old drunken orc
+G 1 82227 5 0 100 0 0 0            *    a glass of Orcish brew
+M 0 82232 3 82252 100 0 0 0        * an old drunken orc
+G 1 82227 5 0 100 0 0 0            *    a glass of Orcish brew
+M 0 82232 3 82252 100 0 0 0        * an old drunken orc
+M 0 82228 4 82253 100 0 0 0        * A street cleaner
+M 0 82234 6 82254 100 0 0 0        * a black spider
+M 0 82234 6 82254 100 0 0 0        * a black spider
+M 0 82234 6 82254 100 0 0 0        * a black spider
+M 0 82233 5 82254 100 0 0 0        * a town fool
+M 0 82212 4 82255 100 0 0 0        * A small dog
+M 0 82213 2 82257 100 0 0 0        * A brown bear
+M 0 82203 6 82258 100 0 0 0        * A squirrel
+M 0 82203 6 82258 100 0 0 0        * A squirrel
+M 0 82227 3 82259 100 0 0 0        * A furry white rabbit
+M 0 82212 4 82261 100 0 0 0        * A small dog
+M 0 82235 2 82262 100 0 0 0        * a crying baby
+E 1 82230 2 13 100 0 0 0           *   a cloth baby diaper
+M 0 82235 2 82262 100 0 0 0        * a crying baby
+E 1 82230 2 13 100 0 0 0           *   a cloth baby diaper
+M 0 82233 5 82262 100 0 0 0        * a town fool
+M 0 82234 6 82263 100 0 0 0        * a black spider
+M 0 82234 6 82263 100 0 0 0        * a black spider
+M 0 82234 6 82263 100 0 0 0        * a black spider
+*
+S

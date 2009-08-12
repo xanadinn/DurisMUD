@@ -1,0 +1,446 @@
+#780
+&+yTribal &+CO&+Gasi&+Cs&n~
+78303 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 78064 1 1 100 0 0 0
+*     east exit from "A Path Before the Mayor's Home" to
+*     "The Mayor's Living Room" - closed
+*
+D 0 78065 3 1 100 0 0 0
+*     west exit from "The Mayor's Living Room" to
+*     "A Path Before the Mayor's Home" - closed
+*
+D 0 78092 4 2 100 0 0 0
+*     up exit from "The Warrior's Tower" to
+*     "The Second Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78093 5 2 100 0 0 0
+*     down exit from "The Second Floor of the Warrior's Tower" to
+*     "The Warrior's Tower" - closed/locked
+*
+D 0 78093 0 2 100 0 0 0
+*     north exit from "The Second Floor of the Warrior's Tower" to
+*     "A Tower Stairwell" - closed/locked
+*
+D 0 78095 2 2 100 0 0 0
+*     south exit from "A Tower Stairwell" to
+*     "The Second Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78096 3 2 100 0 0 0
+*     west exit from "The Third Floor of the Warrior's Tower" to
+*     "A Tower Stairwell" - closed/locked
+*
+D 0 78097 1 2 100 0 0 0
+*     east exit from "A Tower Stairwell" to
+*     "The Third Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78098 2 2 100 0 0 0
+*     south exit from "The Fourth Floor of the Warrior's Tower" to
+*     "A Tower Stairwell" - closed/locked
+*
+D 0 78099 0 2 100 0 0 0
+*     north exit from "A Tower Stairwell" to
+*     "The Fourth Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78100 1 2 100 0 0 0
+*     east exit from "The Fifth Floor of the Warrior's Tower" to
+*     "A Tower Stairwell" - closed/locked
+*
+D 0 78101 3 2 100 0 0 0
+*     west exit from "A Tower Stairwell" to
+*     "The Fifth Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78102 0 2 100 0 0 0
+*     north exit from "The Sixth Floor of the Warrior's Tower" to
+*     "The Knight's Treasure Room" - closed/locked
+*
+D 0 78103 2 2 100 0 0 0
+*     south exit from "The Knight's Treasure Room" to
+*     "The Sixth Floor of the Warrior's Tower" - closed/locked
+*
+D 0 78194 1 2 100 0 0 0
+*     east exit from "Before the Royal Chambers" to
+*     "The Hallway of Royalty" - closed/locked
+*
+D 0 78195 3 2 100 0 0 0
+*     west exit from "The Hallway of Royalty" to
+*     "Before the Royal Chambers" - closed/locked
+*
+D 0 78295 0 2 100 0 0 0
+*     north exit from "A Massive Natural Cavern" to
+*     "A Large Tomb" - closed/locked
+*
+D 0 78303 2 2 100 0 0 0
+*     south exit from "A Large Tomb" to
+*     "A Massive Natural Cavern" - closed/locked
+*
+*
+O 0 78044 1 78046 100 0 0 0        * a lotus blossum
+O 0 78017 2 78047 100 0 0 0        * a rose petal
+O 0 78017 2 78047 100 0 0 0        * a rose petal
+O 0 78018 2 78048 100 0 0 0        * an orchid petal
+O 0 78019 2 78048 100 0 0 0        * a strange weed
+O 0 78019 2 78048 100 0 0 0        * a strange weed
+O 0 78018 2 78048 100 0 0 0        * an orchid petal
+O 0 78039 1 78103 100 0 0 0        * a beautiful emerald
+O 0 78038 1 78103 100 0 0 0        * a suit of golden platemail
+O 0 78015 3 78119 100 0 0 0        * some pungent fungus
+O 0 78015 3 78137 100 0 0 0        * some pungent fungus
+O 0 78021 1 78140 100 0 0 0        * a decaying skeleton
+P 1 78014 1 78021 100 0 0 0        *   a staff of the plague
+P 1 78022 1 78021 100 0 0 0        *   a pair of mantis-hide gloves
+O 0 78015 3 78161 100 0 0 0        * some pungent fungus
+O 0 78041 2 78173 100 0 0 0        * a glowing patch of moss
+O 0 78027 1 78201 100 0 0 0        * a black rift of swirling mass
+O 0 78051 5 78221 100 0 0 0        * a small diamond
+O 0 78051 5 78227 100 0 0 0        * a small diamond
+O 0 78051 5 78240 100 0 0 0        * a small diamond
+O 0 78051 5 78245 100 0 0 0        * a small diamond
+O 0 78055 6 78251 100 0 0 0        * a large diamond
+O 0 78055 6 78256 100 0 0 0        * a large diamond
+O 0 78055 6 78261 100 0 0 0        * a large diamond
+O 0 78051 5 78264 100 0 0 0        * a small diamond
+O 0 78055 6 78266 100 0 0 0        * a large diamond
+O 0 78055 6 78269 100 0 0 0        * a large diamond
+O 0 78041 2 78271 100 0 0 0        * a glowing patch of moss
+O 0 78055 6 78272 100 0 0 0        * a large diamond
+O 0 78057 1 78279 100 0 0 0        * a dirty and frightened young girl
+O 0 78062 4 78282 100 0 0 0        * a huge diamond
+O 0 78062 4 78286 100 0 0 0        * a huge diamond
+O 0 78062 4 78297 100 0 0 0        * a huge diamond
+O 0 78062 4 78299 100 0 0 0        * a huge diamond
+*
+M 0 78014 10 78005 100 0 0 0       * a patrolling guard
+M 0 78016 11 78006 100 0 0 0       * An oasis village commoner
+M 0 78016 11 78007 100 0 0 0       * An oasis village commoner
+M 0 78016 11 78009 100 0 0 0       * An oasis village commoner
+M 0 78014 10 78010 100 0 0 0       * a patrolling guard
+M 0 78015 2 78012 100 0 0 0        * a patrolling sergeant
+F 1 78014 10 78012 100 0 0 0       * a patrolling guard (following)
+M 0 78017 6 78012 100 0 0 0        * A female village commoner
+M 0 78005 8 78013 100 0 0 0        * a relaxing guard
+M 0 78005 8 78013 100 0 0 0        * a relaxing guard
+M 0 78004 8 78014 100 0 0 0        * a lookout guard
+M 0 78004 8 78014 100 0 0 0        * a lookout guard
+M 0 78012 1 78015 100 0 0 0        * the archery teacher
+M 0 78013 3 78015 100 0 0 0        * an archery student
+M 0 78013 3 78015 100 0 0 0        * an archery student
+M 0 78013 3 78015 100 0 0 0        * an archery student
+M 0 78017 6 78019 100 0 0 0        * A female village commoner
+M 0 78016 11 78019 100 0 0 0       * An oasis village commoner
+M 0 78014 10 78020 100 0 0 0       * a patrolling guard
+M 0 78014 10 78023 100 0 0 0       * a patrolling guard
+M 0 78016 11 78023 100 0 0 0       * An oasis village commoner
+M 0 78005 8 78025 100 0 0 0        * a relaxing guard
+M 0 78005 8 78025 100 0 0 0        * a relaxing guard
+M 0 78004 8 78026 100 0 0 0        * a lookout guard
+M 0 78004 8 78026 100 0 0 0        * a lookout guard
+M 0 78017 6 78028 100 0 0 0        * A female village commoner
+M 0 78018 8 78028 100 0 0 0        * a young teenager
+M 0 78018 8 78030 100 0 0 0        * a young teenager
+M 0 78018 8 78034 100 0 0 0        * a young teenager
+M 0 78016 11 78034 100 0 0 0       * An oasis village commoner
+M 0 78016 11 78038 100 0 0 0       * An oasis village commoner
+M 0 78018 8 78039 100 0 0 0        * a young teenager
+M 0 78019 3 78045 100 0 0 0        * A village inhabitant
+M 0 78020 2 78045 100 0 0 0        * A female villager
+M 0 78021 4 78047 100 0 0 0        * a young child
+M 0 78021 4 78047 100 0 0 0        * a young child
+M 0 78021 4 78048 100 0 0 0        * a young child
+M 0 78021 4 78048 100 0 0 0        * a young child
+M 0 78020 2 78049 100 0 0 0        * A female villager
+M 0 78019 3 78050 100 0 0 0        * A village inhabitant
+M 0 78018 8 78051 100 0 0 0        * a young teenager
+M 0 78016 11 78052 100 0 0 0       * An oasis village commoner
+M 0 78017 6 78054 100 0 0 0        * A female village commoner
+M 0 78018 8 78056 100 0 0 0        * a young teenager
+M 0 78016 11 78057 100 0 0 0       * An oasis village commoner
+M 0 78007 1 78058 100 0 0 0        * Bargor's assistant
+G 1 78046 999 0 100 0 0 0          *    a pair of iron sleeves
+G 1 78047 999 0 100 0 0 0          *    a pair of iron leggings
+M 0 78006 1 78059 100 0 0 0        * Bargor
+E 1 78001 1 16 100 0 0 0           *   a hammer with a platinum head
+M 0 78008 1 78060 100 0 0 0        * A weapons shopkeeper
+G 1 78002 999 0 100 0 0 0          *    a diamond-tipped hunting spear
+G 1 78003 999 0 100 0 0 0          *    a diamond-tipped dagger
+M 0 78009 1 78061 100 0 0 0        * Jallev, the arms master
+M 0 78002 1 78062 100 0 0 0        * Goltyrn, the adventurer
+M 0 78003 1 78062 100 0 0 0        * Goltyrn's assistant
+G 1 78048 999 0 100 0 0 0          *    a piece of jerky
+G 1 78049 999 0 100 0 0 0          *    a fishgut waterskin
+G 1 78050 999 0 100 0 0 0          *    a platinum flute
+M 0 78000 1 78063 100 0 0 0        * the village grocer
+M 0 78001 1 78063 100 0 0 0        * the village butcher
+M 0 78010 1 78066 100 0 0 0        * the village mayor
+M 0 78011 1 78067 100 0 0 0        * the captain of the guards
+E 1 78000 1 16 100 0 0 0           *   a massive bastard sword
+M 0 78015 2 78068 100 0 0 0        * a patrolling sergeant
+F 1 78014 10 78068 100 0 0 0       * a patrolling guard (following)
+M 0 78016 11 78069 100 0 0 0       * An oasis village commoner
+M 0 78014 10 78071 100 0 0 0       * a patrolling guard
+M 0 78017 6 78072 100 0 0 0        * A female village commoner
+M 0 78014 10 78073 100 0 0 0       * a patrolling guard
+M 0 78018 8 78074 100 0 0 0        * a young teenager
+M 0 78017 6 78074 100 0 0 0        * A female village commoner
+M 0 78014 10 78077 100 0 0 0       * a patrolling guard
+M 0 78016 11 78078 100 0 0 0       * An oasis village commoner
+M 0 78014 10 78081 100 0 0 0       * a patrolling guard
+M 0 78005 8 78082 100 0 0 0        * a relaxing guard
+M 0 78005 8 78082 100 0 0 0        * a relaxing guard
+M 0 78005 8 78083 100 0 0 0        * a relaxing guard
+M 0 78005 8 78083 100 0 0 0        * a relaxing guard
+M 0 78004 8 78084 100 0 0 0        * a lookout guard
+M 0 78004 8 78084 100 0 0 0        * a lookout guard
+M 0 78004 8 78085 100 0 0 0        * a lookout guard
+M 0 78004 8 78085 100 0 0 0        * a lookout guard
+M 0 78018 8 78086 100 0 0 0        * a young teenager
+M 0 78019 3 78086 100 0 0 0        * A village inhabitant
+M 0 78058 1 78087 100 0 0 0        * a weeping villager stands here.
+M 0 78022 1 78088 100 0 0 0        * a halfling villager
+E 1 78004 1 2 100 0 0 0            *   a small diamond ring
+M 0 78023 1 78090 100 0 0 0        * A Centaur villager
+E 1 78005 1 37 100 0 0 0           *   a diamond-studded tail ring
+M 0 78024 1 78092 100 0 0 0        * the tower overseer
+M 0 78025 1 78093 100 0 0 0        * the green knight
+E 1 78012 4 16 100 0 0 0           *   a sharp longsword
+G 1 78006 1 0 100 0 0 0            *    a small emerald key
+M 0 78054 4 78094 100 0 0 0        * a practicing warrior
+M 0 78054 4 78094 100 0 0 0        * a practicing warrior
+M 0 78054 4 78094 100 0 0 0        * a practicing warrior
+M 0 78054 4 78094 100 0 0 0        * a practicing warrior
+M 0 78026 1 78096 100 0 0 0        * the blue knight
+E 1 78012 4 16 100 0 0 0           *   a sharp longsword
+G 1 78008 1 0 100 0 0 0            *    a small sapphire key
+M 0 78027 1 78098 100 0 0 0        * the gold knight
+E 1 78012 4 16 100 0 0 0           *   a sharp longsword
+G 1 78009 1 0 100 0 0 0            *    a small golden key
+M 0 78028 1 78100 100 0 0 0        * the red knight
+E 1 78012 4 16 100 0 0 0           *   a sharp longsword
+G 1 78010 1 0 100 0 0 0            *    a small ruby key
+M 0 78029 1 78102 100 0 0 0        * the obsidian knight
+G 1 78013 1 0 100 0 0 0            *    a diamondine axe covered in blood
+G 1 78011 1 0 100 0 0 0            *    a small obsidian key
+M 0 78030 1 78104 100 0 0 0        * an elderly gnome
+M 0 78031 15 78109 100 0 0 0       * a large bi-pedal insect
+M 0 78031 15 78110 100 0 0 0       * a large bi-pedal insect
+M 0 78031 15 78112 100 0 0 0       * a large bi-pedal insect
+M 0 78031 15 78113 100 0 0 0       * a large bi-pedal insect
+M 0 78035 11 78115 100 0 0 0       * a patrolling mantis
+M 0 78035 11 78117 100 0 0 0       * a patrolling mantis
+M 0 78036 5 78118 100 0 0 0        * a mature mantis
+M 0 78035 11 78119 100 0 0 0       * a patrolling mantis
+M 0 78034 24 78121 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78121 100 0 0 0       * a young mantis
+M 0 78034 24 78122 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78122 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78123 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78123 100 0 0 0       * a young mantis
+M 0 78034 24 78124 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78124 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78125 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78125 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78125 100 0 0 0       * a young mantis
+M 0 78034 24 78126 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78126 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78127 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78127 100 0 0 0       * a young mantis
+M 0 78034 24 78128 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78128 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78129 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78129 100 0 0 0       * a young mantis
+M 0 78032 2 78130 100 0 0 0        * an enormous female mantis
+E 1 78020 1 7 100 0 0 0            *   some mantis leggings
+M 0 78033 17 78130 100 0 0 0       * a young mantis
+M 0 78034 24 78130 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78130 100 0 0 0       * a hatchling mantis
+M 0 78035 11 78133 100 0 0 0       * a patrolling mantis
+M 0 78036 5 78134 100 0 0 0        * a mature mantis
+M 0 78035 11 78135 100 0 0 0       * a patrolling mantis
+M 0 78035 11 78137 100 0 0 0       * a patrolling mantis
+M 0 78036 5 78139 100 0 0 0        * a mature mantis
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78037 8 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78038 6 78140 100 0 0 0        * a buzzing locust
+M 0 78039 4 78140 100 0 0 0        * a buzzing locust
+M 0 78039 4 78140 100 0 0 0        * a buzzing locust
+M 0 78039 4 78140 100 0 0 0        * a buzzing locust
+M 0 78039 4 78140 100 0 0 0        * a buzzing locust
+M 0 78040 4 78140 100 0 0 0        * a buzzing locust
+M 0 78040 4 78140 100 0 0 0        * a buzzing locust
+M 0 78040 4 78140 100 0 0 0        * a buzzing locust
+M 0 78040 4 78140 100 0 0 0        * a buzzing locust
+M 0 78035 11 78141 100 0 0 0       * a patrolling mantis
+M 0 78035 11 78143 100 0 0 0       * a patrolling mantis
+M 0 78033 17 78145 100 0 0 0       * a young mantis
+M 0 78031 15 78145 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78145 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78145 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78146 100 0 0 0       * a young mantis
+M 0 78033 17 78146 100 0 0 0       * a young mantis
+M 0 78034 24 78146 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78147 100 0 0 0       * a young mantis
+M 0 78034 24 78147 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78147 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78148 100 0 0 0       * a young mantis
+M 0 78033 17 78149 100 0 0 0       * a young mantis
+M 0 78033 17 78149 100 0 0 0       * a young mantis
+M 0 78036 5 78149 100 0 0 0        * a mature mantis
+M 0 78031 15 78150 100 0 0 0       * a large bi-pedal insect
+M 0 78031 15 78150 100 0 0 0       * a large bi-pedal insect
+M 0 78033 17 78151 100 0 0 0       * a young mantis
+M 0 78034 24 78151 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78151 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78151 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78152 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78152 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78153 100 0 0 0       * a large bi-pedal insect
+M 0 78034 24 78153 100 0 0 0       * a hatchling mantis
+M 0 78034 24 78153 100 0 0 0       * a hatchling mantis
+M 0 78031 15 78153 100 0 0 0       * a large bi-pedal insect
+M 0 78033 17 78154 100 0 0 0       * a young mantis
+M 0 78031 15 78154 100 0 0 0       * a large bi-pedal insect
+M 0 78035 11 78155 100 0 0 0       * a patrolling mantis
+M 0 78033 17 78156 100 0 0 0       * a young mantis
+M 0 78032 2 78157 100 0 0 0        * an enormous female mantis
+E 1 78023 1 10 100 0 0 0           *   some mantis sleeves
+M 0 78034 24 78157 100 0 0 0       * a hatchling mantis
+M 0 78033 17 78157 100 0 0 0       * a young mantis
+M 0 78035 11 78159 100 0 0 0       * a patrolling mantis
+M 0 78035 11 78160 100 0 0 0       * a patrolling mantis
+M 0 78036 5 78161 100 0 0 0        * a mature mantis
+M 0 78042 8 78163 100 0 0 0        * an elite mantis guard
+M 0 78042 8 78164 100 0 0 0        * an elite mantis guard
+M 0 78042 8 78165 100 0 0 0        * an elite mantis guard
+M 0 78042 8 78166 100 0 0 0        * an elite mantis guard
+M 0 78043 9 78168 100 0 0 0        * a mantis soldier
+M 0 78041 1 78169 100 0 0 0        * a mantis general
+G 1 78024 1 0 100 0 0 0            *    a jagged titanium boomerang
+G 1 78025 1 0 100 0 0 0            *    a cuirass emblazoned with the mantis sigil
+G 1 78026 1 0 100 0 0 0            *    the royal emblem of the mantis
+M 0 78043 9 78170 100 0 0 0        * a mantis soldier
+M 0 78043 9 78172 100 0 0 0        * a mantis soldier
+M 0 78043 9 78172 100 0 0 0        * a mantis soldier
+M 0 78043 9 78172 100 0 0 0        * a mantis soldier
+M 0 78043 9 78172 100 0 0 0        * a mantis soldier
+M 0 78043 9 78172 100 0 0 0        * a mantis soldier
+M 0 78043 9 78174 100 0 0 0        * a mantis soldier
+M 0 78043 9 78176 100 0 0 0        * a mantis soldier
+M 0 78044 6 78177 100 0 0 0        * a wise mantis shaman
+M 0 78044 6 78179 100 0 0 0        * a wise mantis shaman
+M 0 78044 6 78181 100 0 0 0        * a wise mantis shaman
+M 0 78044 6 78184 100 0 0 0        * a wise mantis shaman
+M 0 78042 8 78186 100 0 0 0        * an elite mantis guard
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78045 7 78187 100 0 0 0        * a feeding mantis
+M 0 78046 2 78187 100 0 0 0        * a ravenous mantis
+M 0 78046 2 78187 100 0 0 0        * a ravenous mantis
+M 0 78044 6 78188 100 0 0 0        * a wise mantis shaman
+M 0 78042 8 78190 100 0 0 0        * an elite mantis guard
+M 0 78042 8 78193 100 0 0 0        * an elite mantis guard
+M 0 78042 8 78193 100 0 0 0        * an elite mantis guard
+M 0 78044 6 78193 100 0 0 0        * a wise mantis shaman
+M 0 78047 2 78197 100 0 0 0        * a royal mantis advisor
+M 0 78047 2 78197 100 0 0 0        * a royal mantis advisor
+G 1 78037 1 0 100 0 0 0            *    a massive tome
+M 0 78049 2 78198 100 0 0 0        * a mantis royal guard
+E 1 78034 1 11 100 0 0 0           *   a mantis skin shield
+M 0 78048 2 78198 100 0 0 0        * a mantis royal guard
+E 1 78031 1 16 100 0 0 0           *   a heavenly mace
+M 0 78050 2 78198 100 0 0 0        * a mantis royal guard
+M 0 78049 2 78199 100 0 0 0        * a mantis royal guard
+E 1 78033 1 16 100 0 0 0           *   a gold plated hand axe
+M 0 78048 2 78199 100 0 0 0        * a mantis royal guard
+M 0 78050 2 78199 100 0 0 0        * a mantis royal guard
+G 1 78032 1 0 100 0 0 0            *    the robe of sorcery
+M 0 78051 1 78200 100 0 0 0        * the queen of the mantis
+E 1 78029 1 18 100 0 0 0           *   a swirling translucent orb
+G 1 78030 1 0 100 0 0 0            *    the massive, still-beating heart of the mantis queen
+M 0 78052 1 78202 100 0 0 0        * an illithid emissary
+E 1 78028 1 6 100 0 0 0            *   the helmet of agony
+E 1 78059 1 8 100 0 0 0            *   boots of brain golem skin
+F 1 78053 3 78202 100 0 0 0        * an illithid bodyguard (following)
+E 1 78035 1 21 100 0 0 0           *   an anti-matter earring
+F 1 78053 3 78202 100 0 0 0        * an illithid bodyguard (following)
+F 1 78053 3 78202 100 0 0 0        * an illithid bodyguard (following)
+E 1 78036 1 21 100 0 0 0           *   an anti-matter earring
+M 0 78055 1 78212 100 0 0 0        * the mine foreman
+E 1 78053 1 13 100 0 0 0           *   a miner's belt encrusted with a diamond
+E 1 78052 5 16 100 0 0 0           *   a sharp pickaxe
+M 0 78056 3 78215 100 0 0 0        * a diamond miner
+E 1 78052 5 16 100 0 0 0           *   a sharp pickaxe
+M 0 78056 3 78218 100 0 0 0        * a diamond miner
+E 1 78052 5 16 100 0 0 0           *   a sharp pickaxe
+M 0 78056 3 78227 100 0 0 0        * a diamond miner
+E 1 78052 5 16 100 0 0 0           *   a sharp pickaxe
+M 0 78057 1 78235 100 0 0 0        * a concerned diamond miner
+E 1 78052 5 16 100 0 0 0           *   a sharp pickaxe
+M 0 78059 17 78239 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78241 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78243 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78245 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78247 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78249 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78251 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78251 100 0 0 0       * the zombie of a miner
+E 1 78056 1 19 100 0 0 0           *   a diamond eyepiece
+M 0 78059 17 78253 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78255 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78258 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78261 100 0 0 0       * the zombie of a miner
+M 0 78060 4 78262 100 0 0 0        * a fearsome spectre
+G 1 78054 4 0 100 0 0 0            *    a sharp steel dagger
+M 0 78059 17 78265 100 0 0 0       * the zombie of a miner
+M 0 78060 4 78266 100 0 0 0        * a fearsome spectre
+E 1 78054 4 16 100 0 0 0           *   a sharp steel dagger
+M 0 78059 17 78268 100 0 0 0       * the zombie of a miner
+M 0 78059 17 78270 100 0 0 0       * the zombie of a miner
+M 0 78060 4 78271 100 0 0 0        * a fearsome spectre
+E 1 78054 4 16 100 0 0 0           *   a sharp steel dagger
+M 0 78059 17 78272 100 0 0 0       * the zombie of a miner
+M 0 78060 4 78274 100 0 0 0        * a fearsome spectre
+E 1 78054 4 16 100 0 0 0           *   a sharp steel dagger
+E 1 78058 1 17 100 0 0 0           *   a short sword of diamonds
+M 0 78059 17 78275 100 0 0 0       * the zombie of a miner
+M 0 78061 9 78282 100 0 0 0        * a vicious vampire
+M 0 78061 9 78285 100 0 0 0        * a vicious vampire
+M 0 78064 1 78287 100 0 0 0        * a massive demon
+E 1 78061 1 27 100 0 0 0           *   a demonic spiked mace
+M 0 78061 9 78288 100 0 0 0        * a vicious vampire
+M 0 78061 9 78290 100 0 0 0        * a vicious vampire
+M 0 78061 9 78291 100 0 0 0        * a vicious vampire
+M 0 78063 4 78294 100 0 0 0        * a charmed lich
+E 1 78060 1 6 100 0 0 0            *   a golden crown set with diamonds
+M 0 78063 4 78296 100 0 0 0        * a charmed lich
+M 0 78061 9 78298 100 0 0 0        * a vicious vampire
+M 0 78061 9 78298 100 0 0 0        * a vicious vampire
+M 0 78061 9 78298 100 0 0 0        * a vicious vampire
+M 0 78061 9 78298 100 0 0 0        * a vicious vampire
+M 0 78063 4 78300 100 0 0 0        * a charmed lich
+M 0 78063 4 78302 100 0 0 0        * a charmed lich
+M 0 78062 1 78303 100 0 0 0        * the ambassador of Hell
+E 1 78065 1 15 100 0 0 0           *   a bracelet of influence
+E 1 78064 1 20 100 0 0 0           *   a mask of hades
+G 1 78063 1 0 100 0 0 0            *    a bloody wing of the demon ambassador
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55180 1 0 100 0 0 0            *    (object type not in this .obj file)
+*
+S

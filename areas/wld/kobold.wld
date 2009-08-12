@@ -1,0 +1,3262 @@
+#1400
+&+gA Game Trail~
+   This is a track of sorts treading through the dark forest.  The
+trail looks used and might possibly be a game trail of some sort.
+Perhaps you'll find some happy hunting...
+~
+14 1 3
+D0
+The game trail leads north through the dense forest, you think you
+might see a fence through the dense forest up ahead
+~
+~
+0 0 1462
+D2
+The game trail leads south through the dense forest
+~
+~
+0 0 622130
+S
+#1401
+&+gA Trail~
+   You tread through the deep, dark forest on a game trail.  The
+forest here seems less dense than to the south.  Looking more closely
+at the trail it can be seen that perhaps this isn't a game trail but
+just a track made by people a lot shorter than yourself.  Northward
+the faint outline of a settlement can be seen.  To the south is the
+large wooden fence surrounding the settlement.
+~
+14 1 3
+D0
+The trail leads to a settlement.
+~
+~
+0 0 1402
+D2
+The trail leads south through the dense forest, towards the giant,
+wooden perimeter fence.
+~
+~
+0 0 1468
+S
+#1402
+&+gEntrance to the &+GKobold&n &+gSettlement~
+   You stand at the entrance to the kobold settlement.  The settlement
+seems to be a loose sprawl of mud, wood and stone huts connecting off
+various muddy pathways.  A rank stench hangs in the air like too many
+unwashed kobolds trying to live together in one place.  An ill-kept
+trail leads east and west from here winding through among the squat
+mud and stick huts of the kobolds.  A &+ysign&n has been planted here in
+the mucky ground.&n
+~
+14 0 1
+D1
+To the east runs an ill-kept trail.
+~
+~
+0 0 1403
+D2
+To the south you see a game trail which leads to a dense forest.
+~
+~
+0 0 1401
+D3
+To the west runs an ill-kept trail.
+~
+~
+0 0 1417
+E
+sign~
+The sign reads in crudely scrawled letters:
+
+  &+WGwark's Clan, bug off stranger (NO ELves, HuMiNs, or Dworves)&n
+~
+S
+#1403
+&+yAn Ill-Kept Trail~
+   You stand on an ill-kept trail, the busiest pathway in all of the
+settlement.  The trail, although used heavily, seem to be in dire need
+of repair.  At some point it looks like a kobold tried laying some
+paving stones on the path but either got bored or died, as the job is
+woefully incomplete, causing one to stumble about the trail, one foot
+sinking in the mud of the trail the other tripping over a stone.  The
+trail continues to the east and west while to the north lies the food
+supply.
+~
+14 0 3
+D0
+An abbandoned supply hut lies to the north.
+~
+~
+0 0 1404
+D1
+To the east runs the trail.
+~
+~
+0 0 1405
+D3
+To the west you see the entrance to the settlement.
+~
+~
+0 0 1402
+S
+#1404
+&+yAn Abbandoned Supply Hut~
+   This hut looks to have served as a spot to store supplies at some
+point, but now the shelves are bare, the clay pots broken, and the mud
+and stick hut itself slowly dissolving back into the ground.  The exit
+out of this ruined hut is to the south.
+~
+14 4104 0
+D2
+The only exit lies to the south.
+~
+~
+0 0 1403
+S
+#1405
+&+yAn Ill-Kept Trail~
+   This as an badly kept trail running through a kobold camp.  The
+trail is heavily used but in very bad condition.  Debris lies on the
+wayside of the path in heaps:  bones, refuse, rotting food... Moving
+along the trail is some chore.
+~
+14 0 3
+D0
+Stone steps lead to a weaponry and armory.
+~
+~
+0 0 1406
+D1
+To the east runs the trail.
+~
+~
+0 0 1408
+D2
+To the south lies a nursery.
+~
+~
+0 0 1407
+D3
+To the west runs the trail.
+~
+~
+0 0 1403
+S
+#1406
+&+BThe Blacksmith's Hut~
+   This hut, unlike most of the other kobold huts, is made of sturdy
+stone and mortar.  A forge lies &+Rblazing&n in the western wall, with
+hammers and tongs, and all assorted blacksmith equipment hanging from
+the walls.  Weapons and armor lie around the room, ready to be sold
+for profit by the greedy kobold blacksmith.&n
+~
+14 4104 0
+D2
+The only exit lies to the south.
+~
+~
+0 0 1405
+E
+forge~
+The heat emanating from the forge is making you sweat a bit.  It's
+also making Szxvu sweat more than a bit, making the whole place smell
+far worse than can be described in bits.
+~
+S
+#1407
+&+yA Cubs Den~
+   The den is filled with baby kobolds, carefully being watched over
+by kobold nurses.  The hut is fairly roomy but stinks of decaying
+feces.  Straw litters the floor, trying to cover up the mud and stink
+of the room.  The only way out of the hut lies to the north.
+~
+14 4104 0
+D0
+The only exit lies to the north.
+~
+~
+0 0 1405
+S
+#1408
+&+yA Bend in the Trail~
+   The trail bends to the south of here.  The trail seems to get a bit
+better to the south, simply because it doesn't seem to be used as
+often.  To the east is a small path leading towards a &+Wlarge stone hut&n
+among the trees of the forest surrounding the settlement.&n
+~
+14 0 3
+D1
+A large, stone hut lies to the east.  A sign reads 'Guards Post'.
+~
+~
+0 0 1409
+D2
+To the south runs a trail.
+~
+~
+0 0 1411
+D3
+To the west runs an ill-kept trail.
+~
+~
+0 0 1405
+S
+#1409
+&+yGuard's Post of the Eastern Settlement~
+   The hut serves as a post for the kobold guards of the eastern side
+of settlement.  The post is a large hut made of stone and mortar,
+roomy yet littered with piles of garbage.  The guards of the post seem
+tougher than the average kobold, yet even they instill little fear in
+you.  A doorway leads to the east, into the chief guard's office.
+~
+14 4104 0
+D1
+A door offers passage to the office of the chief guard.
+~
+door~
+1 0 1410
+D3
+To the west you can see an ill-kept trail.
+~
+~
+0 0 1408
+S
+#1410
+&+rChief Guard's&n &+yOffice~
+   You stand inside the hut of the chief guard, the police
+protectorate of Gwarks's Settlement.  The chief guard has sworn to
+protect the settlement from all intruders with his life, and so eyes
+you suspiciously.  A door to the west leads to the outer room of the
+guard's post.
+~
+14 4104 0
+D3
+A door offers passage to the guard's post.
+~
+door~
+1 0 1409
+S
+#1411
+&+yA Less Used Trail~
+   This is an overgrown trail leading through a kobold settlement.
+The trail is a bit easier to walk on, less muddy, and more stable.
+The forest looms around the trail as it wanders through the kobold
+camp.  Mud huts can be seen to the south of here.  To the east the
+sounds of combat can be heard.
+~
+14 0 1
+D0
+To the north is a bend in the trail.
+~
+~
+0 0 1408
+D1
+The guard's training grounds lies to the east.
+~
+~
+0 0 1416
+D2
+To the south runs an overgrown trail.
+~
+~
+0 0 1412
+S
+#1412
+&+yA Less Used Trail~
+   The trail leads through the kobold camp disappearing every once in
+awhile to overgrown bushes or grass.  The mud and stick huts of
+kobolds can be seen to the east and west of here.  To the south is a
+meeting hall for kobolds to gather and socialize with each other.
+~
+14 0 1
+D0
+To the north runs an overgrown trail.
+~
+~
+0 0 1411
+D1
+The private dwelling of a kobold lies to the east.
+~
+~
+0 0 1414
+D2
+The gathering hall of the kobolds
+~
+~
+0 0 1415
+D3
+You spy the private dwelling of a kobold to the west.
+~
+~
+0 0 1413
+S
+#1413
+&+yA Kobold Den~
+   This is the inside of a den, a small hut built mostly into ground
+which serves as the proper dwelling place for kobolds.  The hut is
+furnished very simply with small wooden chairs and tables.  A mat lies
+on the ground to be used for sleeping, and clay pots lie against the
+wall holding food and water.  The only exit lies to the east.
+~
+14 4104 0
+D1
+The only exit lies to the east.
+~
+~
+0 0 1412
+S
+#1414
+&+yA Kobold Den~
+   You are inside a den, a hut built mostly into the ground which
+serves as the proper dwelling place for kobolds.  As you look around
+this private abode, you feel as if you were intruding and so quickly
+cover your eyes.  The only exit lies to the west.
+~
+14 4104 0
+D3
+The only exit lies to the west.
+~
+~
+0 0 1412
+S
+#1415
+&+gThe Kobold Gathering Place~
+   This is a large wooden structure, built to serve as a gathering
+place for kobolds to socialize and perform religious ceremonies.  The
+ceiling of the building is made of animal skin and can be rolled back
+so at night the kobolds can perform their dances and dark rites,
+beneath the starry night, among the bonfires built within the
+structure.  Right now, however, only a few kobolds are here talking
+amicably among themselves, with a kobold maid walking among them
+offering drinks.
+~
+14 4104 0
+D0
+The only exit lies to the north.
+~
+~
+0 0 1412
+S
+#1416
+&+yKobold Guards Training Grounds~
+   The kobold training grounds make a mob look like an organized
+military platoon.  Every which way you turn you see kobold trainees at
+the prime of their youth.  A wizened old kobold, skilled in the art of
+combat meets your gaze and spits.  His intent seems hostile, but he
+makes no move.  The grounds themselves have been cleared from the
+trees and shrubbery of the forest, and large &+ywooden dummies&n have been
+set out for the trainees to hack and slash at ferverously.  The only
+exit out of the grounds lies to the west.&n
+~
+14 4104 0
+D3
+The only exit lies to the west.
+~
+~
+0 0 1411
+E
+wooden dummy dummies~
+Fashioned into crude humanoid forms with some bearing the signs
+"HumIN" and "Elv" or "Dw0rf" over their heads
+~
+S
+#1417
+&+yAn Ill-Kept Trail~
+   This is an ill-kept trail running through a kobold encampment.  The
+trail is used often, but little has been done to keep it in travelable
+shape.  Paving stones seem to have been laid down at one time to make
+traveling easier, but now only make you trip and fall in the muck of
+the trail.  Giant ruts in the trail threaten to swallow your leg whole
+if one is not to careful.  To the north, a small stream can be seen.
+To the south is a wooden hut.  The trail continues to the east and west.
+~
+14 0 3
+D1
+To the east you see the entrance to the settlement.
+~
+~
+0 0 1402
+D2
+A large, imposing building lies to the south.  A sign reads 'Guard's Post'.
+~
+~
+0 0 1418
+D3
+To the west runs an ill-kept trail.
+~
+~
+0 0 1419
+S
+#1418
+&+yGuard's Post of the Bridge~
+   The post is a small hut built overlooking the trail to the north.
+The hut is built up onto the bank of a small mound, giving a good &+cview&n
+of the area from here.  The kobold guards sit within the hut looking
+bored.&n
+~
+14 4104 0
+D0
+The exit out of the hut lies to the north.
+~
+~
+0 0 1417
+E
+view~
+From here you can see the trail to the north moving in an east-west
+direction.  A bridge can be seen to the distant north, crossing over a
+small stream flowing along the ill-kept trail.
+~
+S
+#1419
+&+yAn Ill-Kept Trail~
+   The ill-kept trail continues east and west of here.  To the north
+is a large stone bridge offering dry passage over the muddy stream.
+To the south is a stone and wood hut, with the smells of baked goods
+drifting from it.  The trail continues to be a nuisance to any
+traveler to the east and west of here.
+~
+14 0 3
+D0
+A bridge offers dry passage across the murky, muddy stream.
+~
+~
+0 0 1430
+D1
+To the east runs the ill-kept trail.
+~
+~
+0 0 1417
+D2
+You see the settlement bakers shop.
+~
+~
+0 0 1420
+D3
+To the west runs the ill-kept trail.
+~
+~
+0 0 1421
+S
+#1420
+&+yThe Baker's Den~
+   The hut here is made of stone and wood, with a plastering of mud on
+the walls for affect.  The walls are lined with sacks of grain, some
+of which are beginning to mold due to the soggy nature of the floor of
+the hut.  The south of the hut is devoted to an enormous pig iron oven
+which has roots dating back to ancient antiquity.  Tables in the back
+of the room are stacked with bread, cooling.  Bread ready to be sold
+have been stored on the shelves, tempting the weary traveler.
+~
+14 4104 0
+D0
+The only exit is to the north.
+~
+~
+0 0 1419
+S
+#1421
+&+yAn Ill-Kept and Muddy Trail~
+   The murky stream to the north takes a sudden swing to the south of
+here.  A giant slab of granite has been placed on the trail, over the
+stream, to give travelers the luxury of not getting their boots wet
+while crossing the stream to follow the trail.  Regardless of the
+attempt to keep stream and trail separate, the path has become a muddy
+mire, making traveling no easy business.  A small pathway breaks off
+of the trail here to follow the murky stream to the south.  To the
+west is a large mound, which looks to be a dwelling of sorts.
+~
+14 0 3
+D1
+To the east runs the ill-kept trail.
+~
+~
+0 0 1419
+D2
+An entrance to the stream lies to the south.
+~
+~
+0 0 1422
+D3
+A small hill to the west blocks your view.
+~
+~
+0 0 1425
+S
+#1422
+&+yFollowing the Murky Stream~
+   The terrain here inclines downward to the south, creating a gentle
+slope.  The murky stream gurgles and splashes as it winds its way down
+the slope towards what looks to be a large pond at the base of the
+incline.  Kobolds are here poking around the stream panning for
+precuous metals in their hopes of finding riches among the murky
+waters of the stream.  The path continues up to the north and down to
+the south.
+~
+14 0 2
+D0
+You see a muddy quagmire posing as a trail to the north.
+~
+~
+0 0 1421
+D2
+Down the slope towards the pond.
+~
+~
+0 0 1423
+S
+#1423
+&+yFollowing the Murky Stream~
+   The path becomes a little tricky here as it winds down the now
+steep slope.  Kobolds are here wading among the waters of the stream
+looking for nuggets of precious metals or trying to catch a snack.
+The path continues to the north and south.
+~
+14 0 2
+D0
+~
+~
+0 0 1422
+D2
+The large pond
+~
+~
+0 0 1424
+S
+#1424
+&+yThe Bank of a Large Pond~
+   The murky stream tumbles down to meet a large pond at the base of
+the slope.  The pond itself seems pretty murky, but kobolds seem to be
+fishing the waters looking for food.  There is a hole going down into
+the ground not too far away from here, traveling beneath the
+settlement.  One can paddle out into the middle of the pond to the
+south.
+~
+14 0 2
+D0
+~
+~
+0 0 1423
+D2
+You can go onto the small pond in that direction.
+~
+~
+0 0 1461
+D5
+A dark, muddy hole traveling beneath the kobold settlement.
+~
+~
+0 0 1445
+S
+#1425
+&+YShaman's Mound~
+   This is a large grassy mound, which appears to be the dwelling of
+the settlement's shaman.  There is a dark wooden door to the north
+leading into the mound, with runes and animal bones arrayed around
+it... symbols of protection and warding of evil spirits.  The trail
+ends here, but access to a large, overgrown field lies to the west of
+here.
+~
+14 0 4
+D0
+The door to the shaman's mound
+~
+door~
+2 1415 1456
+D1
+To the east runs ill-kept trail.
+~
+~
+0 0 1421
+D3
+You see an overgrown field to the west.
+~
+~
+0 0 1427
+S
+#1426
+&+gNorthern End of an Overgrown Field~
+   You stand in a overgrown field--nothing to get too excited about.
+The field extends toward the south and the west.  To the east you see
+the shamans mound.
+~
+14 0 2
+D1
+A small mounds to the east blocks your view.
+~
+~
+0 0 1425
+D2
+You see a overgrown field.
+~
+~
+0 0 1427
+D3
+You see a overgrown field.
+~
+~
+0 0 1429
+S
+#1427
+&+gAn Overgrown Field~
+   You stand in the center of a overgrown field.  The field looks like
+it once was used as cropland, but has long since been abandoned.  The
+forest now slowly encroaches in on the wasted land, where only the
+tall grass and weeds flurish.
+~
+14 0 2
+D0
+You see a overgrown field.
+~
+~
+0 0 1426
+D1
+A small mound to the east blocks your view.
+~
+~
+0 0 1425
+D2
+You see a overgrown field.
+~
+~
+0 0 1428
+D3
+You see a overgrown field.
+~
+~
+0 0 1429
+S
+#1428
+&+gSouthern End of an Overgrown Field~
+   You stand in a overgrown field--nothing to get too excited about.
+The field extends toward the north and the west.  To the east you see
+the shaman mound.
+~
+14 0 2
+D0
+You see an overgrown field.
+~
+~
+0 0 1427
+D1
+A small hill to the east blocks your view.
+~
+~
+0 0 1425
+D3
+You see an overgrown field.
+~
+~
+0 0 1429
+S
+#1429
+&+gWestern End of an Overgrown Field~
+   You stand in a overgrown field--nothing to get too excited about.
+The field extends every which way but west.  To the west lies the dark
+forest which surrounds the settlement, slowly taking over the old used
+up cropland which used to be this now overgrown field.
+~
+14 0 2
+D0
+You see an overgrown field.
+~
+~
+0 0 1426
+D1
+You see an overgrown field.
+~
+~
+0 0 1427
+D2
+You see an overgrown field.
+~
+~
+0 0 1428
+S
+#1430
+&+cA Large Stone Bridge~
+   The bridge is made of gigantic slabs of granite bound together with
+heavy iron spikes.  The bridge crosses over a murky stream flowing
+east and west of here.  High grasses and reeds have grown up along the
+soggy banks of the stream, creating a thick barrier of vegetation
+flanking the stream to the north and south.  Annoying little insects
+buzz around you in an incessant hum.  To the north lies a road which
+looks to actually be in pretty good shape.  To the south lies the
+ill-kept trail.
+~
+14 0 1
+D0
+You see nice little road.
+~
+~
+0 0 1431
+D2
+To the south runs an ill-kept trail.
+~
+~
+0 0 1419
+S
+#1431
+&+cA Paved Road~
+   The stretch of road here has actually been paved, doubtless by some
+kobold whipped into action to actually get the road fixed up.  The
+area here seems to be better kept, an overall more upper class sector
+of the kobold settlement.  To the east stands a tall building of stone
+and wood, looking to be some sort of inn.  To the west is access on to
+a grassy field.  The road continues north, while to the south is the
+granite bridge crossing the murky stream.
+~
+14 0 1
+D0
+A paved road.
+~
+~
+0 0 1432
+D1
+The building looks to be an inn, the words:  "Grumbiters Inn", can be
+seen on a large wooden sign hanging above the open door.
+~
+~
+0 0 1443
+D2
+The granite slab bridge means less water on your boots.
+~
+~
+0 0 1430
+D3
+You see a grassy field.
+~
+~
+0 0 1437
+S
+#1432
+&+cA Paved Road~
+   The road runs through a better kept sector of the kobold settle-
+ment; a sign of this is the fact that the road is actually paved.  To
+the east stands a kobold guard post.  A ways up the road to the north
+lies a rather gigantic stone hut.  The road continues to the north and
+south.
+~
+14 0 1
+D0
+You see a paved road.
+~
+~
+0 0 1433
+D1
+A small hut of stone built mostly in the ground, looking to be the
+guards post of this sector of the settlement.
+~
+~
+0 0 1444
+D2
+A paved road leading through the kobold settlement.
+~
+~
+0 0 1431
+S
+#1433
+&+cA Paved Road~
+   This paved road runs through this small, nicely kept, borough of
+the settlement.  The road comes to an end to the north, leading to the
+front door of rather &+Cimpressive stone building&n.  The outside of the
+tall house (for kobold standards) is adorned with silver lamps and
+window frames; obviously a sign that the kobold living here is of some
+wealth.&n
+~
+14 0 1
+D0
+There is a large, round door leading into the house.
+~
+door~
+3 1419 1434
+D2
+A paved road running through the kobold settlement.
+~
+~
+0 0 1432
+E
+house building~
+The house is built up of finely cut granite and built halfway into the
+ground of a small mound.  Bits of silver adorn the window panes of
+the house and the lamp fixtures on the outside
+~
+S
+#1434
+&+CInside a Large, Comfortable House~
+   The house is comfortably furnished with pillowed chairs and carved
+wooden tables; a palace by kobold standards.  The floor of the house
+actually has one or two prize carpets lain across its swept earth
+surface.  This is obviously the house of the kobold clan leader,
+Gwark.  To the east there seems to be a pantry, to the west a
+cozy bedroom.
+~
+14 4104 0
+D1
+Looks like a well stocked pantry.
+~
+~
+0 0 1436
+D2
+The beginning of the paved road leading through the kobold settlement
+~
+door~
+3 1419 1433
+D3
+You see a bedroom.  It looks like the beds have recently been slept in.
+~
+~
+0 0 1435
+S
+#1435
+&+mGwark's Bedroom~
+   This is Gwark's cozy bedroom.  The room has a rather small bed
+piled with valued pillows and blankets.  The room has swept, earthen
+floor and a small window to the south, trimmed in silver.  By the
+rumbled blankets and tossed pillows on the bed, and the smell of hot
+kobold flesh, the room looks to have been, (ahem), used recently.  Gross,
+don't think about it too much...
+~
+14 4104 0
+D1
+Through the doorway you see the main room of Gwark's house.
+~
+~
+0 0 1434
+S
+#1436
+&+CThe Pantry~
+   A large table dominates the room used for the multi-purpose task of
+seating many people and preparing food.  Large cupboards line the
+walls containing all sorts of food stuffs.  Strings of dried
+vegetables line the earthen walls of the room.  There seems to be a
+trapdoor leading down from the room.
+~
+14 4104 0
+D3
+Beyond the door you see the main room of Gwark's House.
+~
+~
+0 0 1434
+D5
+It's anyone's guess as to where the trapdoor leads.  It looks like it
+was made as an emergency escape route if Gwark's faithful followers
+were to ever lose their faith.
+~
+door trapdoor~
+1 0 1455
+S
+#1437
+&+gA Grassy Field~
+   You stand upon a overgrown field.  A bull stands grazing not far away and
+out of the corner of your eye you can see him considering you.  The sound
+of animals fill the air from the north.  To the south you see a pig pen.
+~
+14 0 2
+D0
+You see a animal hold.
+~
+~
+0 0 1441
+D1
+You see a paved road.
+~
+~
+0 0 1431
+D2
+A rather large pig pen is to the south.
+~
+~
+0 0 1438
+S
+#1438
+&+yPig Pen~
+   You feel your boots sinking into the mud.  Numerous pigs roam
+about, oblivious to your company.  A overgrown field is to the north
+while you see a small path winding to the west.  Kobolds love the
+taste of roasted pig.
+~
+14 0 1
+D0
+You see a grassy field.
+~
+~
+0 0 1437
+D3
+A small path winds its way westward.
+~
+~
+0 0 1439
+S
+#1439
+&+cA Stony Path~
+   This is a stony path which leads to a small residence to the north.
+The path looks remarkably well tended as compared to other various
+roadway you have tripped through to get here.  The noisy oinking of
+pigs can be heard to the east.
+~
+14 0 1
+D0
+To the north is the kobold farmer.
+~
+~
+0 0 1440
+D1
+A rather large pig pen is to the east.
+~
+~
+0 0 1438
+S
+#1440
+&+CKobold Collective Farmhouse~
+   This is a large mud and stick hut used as a common sleeping room
+for the many kobolds which work in the fields and take care of the
+farm chores.  Kobolds are sitting around here relaxing after a hard
+days work.
+~
+14 4104 0
+D2
+You see a small path winding its way southward.
+~
+~
+0 0 1439
+S
+#1441
+&+yAnimal Hold~
+   Animals of every sort fill the small hold made of hardened mud and
+sticks.  You feel the hot breath of horses and cows on your neck and
+you feel the sudden need for fresh air.  Other than that, you feel
+cozy and protected and don't mind staying for a bit longer.  To the
+north is an opening which leads into a chicken yard.  To the south is
+a grassy field.  Through an opening in the west lies the fields of the
+kobold farmers.
+~
+14 4108 0
+D0
+You see a chicken yard to the north.
+~
+~
+0 0 1442
+D2
+You see an overgrown field.
+~
+~
+0 0 1437
+D3
+The opening leads out into the wheat fields of the kobolds
+~
+~
+0 0 1457
+S
+#1442
+&+yA Chicken Yard~
+   You stand inside a rather crowded chicken coop.  The cackle of hens
+fill the air.  The yard is fenced in on all sides except to the south,
+which leads into the animal hold.
+~
+14 4104 0
+D2
+You see a hut of hardened mud and sticks.
+~
+~
+0 0 1441
+S
+#1443
+&+CGrumbiter's Inn~
+   Welcome to the Grumbiter's Inn, the undisputed leader in the art of
+innkeeping.  A rather charming and friendly hostess stands to the side,
+ready to offer you food and drink.  While most of the patrons are kobold
+locals, you spy an occasional human or two.  As you listen more closely
+to the conversations that fill the inn, you hear the tales of great and
+seasoned adventurers as well as the usual gossip.  You feel as if you've
+found your second home in Grumbiter's Inn.
+~
+14 528392 0
+D3
+You see a paved road.
+~
+~
+0 0 1431
+S
+#1444
+&+yGuard's Post of the Northern Sector~
+   This hut of stone is built like a bunker; most of the building lies
+in the ground.  The earthen floor has been swept dry, and the room is
+fairly clean for a kobold dwelling.  The guards here stand looking at
+you, giving you suspicious stares.  Obviously strangers are not too
+welcome among the guard posts of the kobold camp.
+~
+14 4104 0
+D3
+You see a paved road.
+~
+~
+0 0 1432
+S
+#1445
+&+bA Dark Tunnel~
+   You stand inside a small underground tunnel.  The ceiling is so low
+that you must crouch to avoid hitting your head.  You see light from a
+small hole in the ceiling while to the east you see nothing but
+darkness.
+~
+14 9 1
+D1
+You see a dark tunnel.
+~
+~
+0 0 1446
+D4
+You see a hole in the ceiling which leads up to the surface.
+~
+~
+0 0 1424
+S
+#1446
+&+bA Dark Tunnel~
+   You stand inside a small underground tunnel.  The ceiling is so low
+that you must crouch to avoid hitting your head.  The tunnel continues
+east and west.  All you can see is darkness.
+~
+14 8 1
+D1
+You see a dark tunnel.
+~
+~
+0 0 1447
+D3
+You see a dark tunnel.
+~
+~
+0 0 1445
+S
+#1447
+&+bA Dark Tunnel~
+   You stand inside a small underground tunnel.  The ceiling is so low
+that you must crouch to avoid hitting your head.  The tunnel continues
+east and west.  All you can see is darkness.
+~
+14 9 1
+D1
+You see a dark tunnel.
+~
+~
+0 0 1448
+D2
+Too dark to see...
+~
+~
+0 0 1485
+D3
+You see a dark tunnel.
+~
+~
+0 0 1446
+S
+#1448
+&+bA Three Way Intersection~
+   You stand at an intersection.  The tunnel continues east and west
+while to the north you can barely make out a smaller trail.
+~
+14 9 1
+D0
+You see a dark tunnel.
+~
+~
+0 0 1450
+D1
+You see a dark tunnel.
+~
+~
+0 0 1449
+D3
+You see a dark tunnel.
+~
+~
+0 0 1447
+S
+#1449
+&+bEnd of a Dark Tunnel~
+   You stand at the end of a dark tunnel.  The underground tunnel
+continues to the west.  A large cave-in has occurred here at one
+point, blocking any further passage on down the corridor to the east.
+~
+14 9 1
+D1
+~
+rubble~
+9 0 1470
+D3
+You see a dark tunnel.
+~
+~
+0 0 1448
+S
+#1450
+&+bA Dark Tunnel~
+   You stand inside a small underground tunnel.  The ceiling is so low
+that you must crouch to avoid hitting your head.  The tunnel continues
+north and south.  To the west you see a guard's post while to the east
+lies a small home.  All you can see is darkness.
+~
+14 9 1
+D0
+You see a dark tunnel.
+~
+~
+0 0 1451
+D1
+You see a kobold hole.
+~
+~
+0 0 1453
+D2
+You see a dark tunnel.
+~
+~
+0 0 1448
+D3
+The guard's post of the kobold tunnels.
+~
+~
+0 0 1452
+S
+#1451
+&+bA Dark Tunnel~
+   You stand inside a small underground tunnel.  The ceiling is so low
+that you must crouch to avoid hitting your head.  The tunnel continues
+north and south.  To the west lies a small home.  All you can see is
+darkness.
+~
+14 8 1
+D0
+You see a dark tunnel.
+~
+~
+0 0 1455
+D2
+You see a dark tunnel.
+~
+~
+0 0 1450
+D3
+You see a kobold hole.
+~
+~
+0 0 1454
+S
+#1452
+&+bGuard's Post of the Kobold Tunnels~
+   This post is a room which is high enough to stand in.  The ceiling
+of the room is supported by sturdy wooden timbers braced across the
+ceiling.  The guards eye you suspiciously, wondering what a humanoid is
+wandering among the dark tunnels of their settlement.
+~
+14 4105 0
+D1
+You see a dark tunnel.
+~
+~
+0 0 1450
+S
+#1453
+&+bA Kobold Hole~
+   You stand inside a rather crudely built kobold hole.  The many
+passageways and winding paths remind you of a rodent's lair.  The air
+is musty and damp and you feel the need for fresh air.
+~
+14 4105 0
+D3
+You see a dark tunnel.
+~
+~
+0 0 1450
+S
+#1454
+&+bA Kobold Hole~
+   You stand inside a rather crudely built kobold hole.  The many
+passageways and winding paths remind you of a rodent's lair.  The air
+is musty and damp and you feel the need for fresh air.
+~
+14 4105 0
+D1
+You see a dark tunnel.
+~
+~
+0 0 1451
+S
+#1455
+&+bEnd of a Dark Tunnel~
+   You are at one end of a dark tunnel.  The ceiling is low and the
+earthen walls of the tunnel are moist and somewhat muddy.  The tunnel
+continues to the south while on the ceiling you can make out a
+trapdoor.
+~
+14 9 1
+D2
+You see a dark tunnel.
+~
+~
+0 0 1451
+D4
+A trapdoor on the ceiling reveals a passageway.
+~
+door trapdoor~
+1 0 1436
+E
+trapdoor~
+A trapdoor.  It leads up.  What, do you need more instruction?
+~
+S
+#1456
+&+BInside the Shaman's Mound~
+   The mound is a one room house built right into the heart of the
+small hill.  The room is filled with assorted magic artifacts and
+talismans which the shaman uses with his magics.  A musty smell
+permiates the dwelling, like that of things stuffed in jars left to
+mold and decay.  A large desk sits in the room, largely uncluttered by
+the scads of magical items.
+~
+14 4104 0
+D2
+The door leads out into the light of day
+~
+door~
+2 1415 1425
+E
+desk~
+It looks to be where the settlement's shaman studies. There is a
+rather large drawer in the desk.
+~
+S
+#1457
+&+yA Field of Wheat~
+  This is a large field which has been cleared from the forest and
+planted with wheat.  The collective kobold workers of the farm tend to
+the crops to support the livelihood of the settlement.  The animal
+hold lies to the east.  The wheat field spreads out to the north and
+west of here.
+~
+14 0 2
+D0
+The field continues to the north
+~
+~
+0 0 1458
+D1
+Into the animal hold
+~
+~
+0 0 1441
+D3
+The field continues to the west
+~
+~
+0 0 1459
+S
+#1458
+&+yA Field of Wheat~
+  This is a large field which has been cleared from the forest and
+planted with wheat.  The collective kobold workers of the farm tend to
+the crops to support the livelihood of the settlement.  The cackling
+of chickens can be heard coming faintly beyond the heavy brush of the
+forest to the east.
+~
+14 0 2
+D2
+The field continues to the south
+~
+~
+0 0 1457
+D3
+The field continues to the west
+~
+~
+0 0 1460
+S
+#1459
+&+yA Field of Wheat~
+  This is a large field which has been cleared from the forest and
+planted with wheat.  The collective kobold workers of the farm tend to
+the crops to support the livelihood of the settlement.
+~
+14 0 2
+D0
+The field continues to the north
+~
+~
+0 0 1460
+D1
+The field continues to the east
+~
+~
+0 0 1457
+S
+#1460
+&+yA Field of Wheat~
+  This is a large field which has been cleared from the forest and
+planted with wheat.  The collective kobold workers of the farm tend to
+the crops to support the livelihood of the settlement.
+~
+14 0 2
+D1
+The field continues to the east
+~
+~
+0 0 1458
+D2
+The field continues to the south
+~
+~
+0 0 1459
+S
+#1461
+&+YOn the Murky Pond~
+   It's impossible to see how deep the pond actually goes given fact
+you can't see very far into its depths.  Lilys and leaves float
+serenely along the ponds surface.  Ducks paddle along the pond,
+quacking contently.
+~
+14 0 7
+D0
+On the shore of the pond
+~
+~
+0 0 1424
+S
+#1462
+&+YBefore a Giant Wooden Fence~
+   A giant wooden fence has been erected to the north of here,
+blocking anyone from traveling north along the path.  The fence looks
+to have been built not too long ago as the scent of fresh cut tree
+still lingers about the area as well as sawdust and chunks of wood
+shavings.  There is a &+Wgate&n of solid iron in the fence to the north,
+unfortunately the gate has a massive lock upon it.  It looks possible
+to follow the perimeter of the fence to the west and east of here,
+cutting through the forest underbrush.&n
+~
+14 0 3
+D0
+The iron gate to the north looks fairly unmovable, unless you have a
+key to get past
+~
+iron gate~
+2 1419 1468
+D1
+It looks possible to travel along the perimeter of the fence to the
+east...
+~
+~
+0 0 1465
+D2
+Down the trail to the south
+~
+~
+0 0 1400
+D3
+It looks possible to be able to make it through gap between the
+underbrush and the fence to the west...
+~
+~
+0 0 1463
+E
+iron gate~
+It looks crudely wrought, but very solid.  It also looks locked.
+~
+S
+#1463
+&+YAlong the Perimeter of the Fence~
+   The fence spans out to the west and east with not much of an end in
+sight.  The traveling along here is a bit harder as you are having to
+fight through the underbrush of the forest to follow the perimeter of
+the fence.  The dark forest blots out most of the light here, making
+it very dark.  It looks possible to continue to the west, following
+the fence, or go back onto the trail to the east.
+~
+14 1 4
+D0
+The fence
+~
+fence~
+9 0 1469
+D1
+Back onto the trail
+~
+~
+0 0 1462
+D3
+Following the fence
+~
+~
+0 0 1464
+S
+#1464
+&+YAlong the Perimeter of the Fence~
+   The fence spans out to the east and west, blocking travel to the
+north.  It looks fairly impossible to keep traveling further to the
+west; getting through the thick forest underbrush seems to be nearly
+impossible.  The ground here is soft, and somewhat muddy, making
+walking along the fence a hard endeavor.  Almost all light is blotted
+out by the towering trees above you.  The possible travel is to the
+east.
+~
+14 1 5
+D1
+Following the fence to the east
+~
+~
+0 0 1463
+S
+#1465
+&+YAlong the Perimeter of the Fence~
+   The fence spans out to the east and west, blocking travel to the
+north.  Bits of debris lie around here, signs that the fence has not
+been errected too long ago.  A &+rrusty tools&n lie around as well,
+obviously the workers either forgot about them or were too lazy to
+come back for them.  It looks possible to continue following the
+fence to the east although the vegetation looks considerably thicker,
+and much darker.&n
+~
+14 0 2
+D1
+Following the fence perimeter
+~
+~
+0 0 1466
+D3
+Back onto the trail
+~
+~
+0 0 1462
+E
+tools~
+Worthless to you, leave them behind.
+~
+S
+#1466
+&+YAlong the Fence Perimeter&n~
+   The fence spans out to the east and west, blocking all travel to
+the north.  The forest is dark here and encroaches right up against
+the fence, leaving little room to walk about.  Continuing to follow
+the fence to the east is not possible due to the heavy vegetation.
+~
+14 1 4
+D3
+Following the fence to the west... the only way travelable
+~
+~
+0 0 1465
+S
+#1467
+&+gSmall Clearing Behind the Fence~
+   The wooden fence lies to the south, surrounding the kobold
+settlement from invaders.  The small clearing here seems to serve as a
+place where kobold guards can sit and watch for intruders or let their
+own kind in.  The ashes of a campfire lie scattered here along with a
+few wooden stools, all unused at the moment.  The trail leading in and
+out of the kobold village lies to the west.
+~
+14 0 2
+D3
+Onto the trail
+~
+~
+0 0 1468
+E
+stools~
+Very small, and roughly made--perfect for a kobold
+~
+E
+ashes campfire~
+The remains of the guards campfire,... perhaps a night watch.
+~
+S
+#1468
+&+yOn the Trail Behind the Wooden Fence~
+   The fence which blocks intruders from coming into the kobold
+encampment lies directly to the south.  A large iron gate has been set
+in the wall to allow kobolds in and out, but none others.  A small
+path leads off to the east.  It also looks possible to follow the
+fence to the west, into the forest.  The trail continues north,
+heading for the kobold settlement.
+~
+14 0 2
+D0
+Following the trail north
+~
+~
+0 0 1401
+D1
+Looks to be a small clearing behind the fence
+~
+~
+0 0 1467
+D2
+The iron gate in the fence blocks the way south, unless you have the
+right key
+~
+iron gate~
+2 1419 1462
+D3
+It looks possible to follow the fence into the forest to the west
+~
+~
+0 0 1469
+S
+#1469
+&+gBehind the Fence~
+   The forest blots out almost all light and the space is a bit
+cramped, with vegetation spilling in on all sides.  The fence lies
+directly to the south, large and imposing.  The only perceivable way
+to go is to the east.
+~
+14 1 3
+D1
+A trail
+~
+~
+0 0 1468
+D2
+The fence
+~
+fence~
+9 0 1463
+S
+#1470
+&+BA Secret Passageway Behind the Cave-In~
+   You've stumbled upon a secret passage!  This room was cleverly
+hidden behind the cave-in wall by the kobolds.  One wonders if even
+many of the kobolds know about the existence of this tunnel.  The air
+seems musty, as if little fresh air finds its way down here.  The room
+is somewhat circular, with much rubble and dirt lying around in large
+clods.  It looks like the passage continues to the east, where the way
+has been laid down with well cut stones.  The way back to the main
+tunnels lies to the west.
+~
+14 32777 2
+D1
+The secret passageway continues...
+~
+~
+0 0 1471
+D3
+The way back to the main kobold tunnels
+~
+wall~
+1 0 1449
+S
+#1471
+&+BA Paved Tunnel~
+   Roughly cut stones have been laid down along the floor of the
+tunnel in random patterns.  Large columns of stone supports have been
+placed along the walls of the tunnel to keep the ceiling of dirt and
+clay from collapsing.  The air smells old and musty, like that of a
+tomb.  Darkness seems to eat up the pool of light around you like a
+hungry beast.  The tunnel continues down a set of stone stairs to the
+east.  To the west lies the passage entrance.
+~
+14 32781 1
+D3
+The secret room behind the cave-in...
+~
+~
+0 0 1470
+D5
+Down the staircase, into the depths of the tunnels
+~
+~
+0 0 1472
+S
+#1472
+&+BA Dark, Cold Tunnel~
+   The tunnel seems to be unnaturally cold, like some cold, unseen
+wind is moving through the tunnel.  At the same time, the air is
+becoming chokingly musty.  The walls of the tunnel are made of rough
+dry stone; it looks like the tunnel has been delved through solid
+stone.  The floor of the tunnel is paved with bizarly shaped patterns
+of flat stones.  The dark tunnel continues to the east, and up a
+flight of stone stairs to the west.
+~
+14 32777 1
+D1
+Down the dark tunnel
+~
+~
+0 0 1473
+D4
+Up the stone stairs
+~
+~
+0 0 1471
+E
+floor~
+The shapes of the flat stones seem to create an intricate weave of
+cracks and swirls on the floor of the tunnel.  What they might mean is
+beyond your understanding.
+~
+S
+#1473
+&+BA Dark, Cold Tunnel~
+   The oppressive nature of the tunnel is becoming more and more
+obvious.  Evil seems to flow around the tunnel like a living force,
+cold and biting.  The musty air is seeming more and more like a tomb.
+The tunnel slants steeply down to the east, and continues to the west.
+~
+14 32781 1
+D3
+The dark tunnel..
+~
+~
+0 0 1472
+D5
+Just looking down into the darkness of the tunnel gives you shivers,
+evil lurks down there...
+~
+~
+0 0 1474
+S
+#1474
+&+GKobold Temple of the Unholy~
+   This is the secret temple of the dark kobolds.  A secret sect of
+kobolds still worship the primal magics of their ancient past; dark
+rites are practiced here which even the kobolds themselves had
+outlawed as their civilization moved on.  The temple is a huge cavern,
+carved out in the depths below Gwark's settlement.  The walls of the
+cavern are made out of the bones of kobolds which have been spirited
+away down here to be sacrificed to the demons which the high priest
+invokes from the dark magic.  The air is chill with the presence of
+evil.  A large, dark pit in the cavern floor gapes to the east of
+here, a huge and dominating presence.  Across from the pit, through
+the gloom of the cavern, you think you can see a giant altar of sorts.
+It looks possible to climb down into the pit, though why one would
+want to is boggling.  One can follow the temple walls around the pit
+to the north and south of here.
+~
+14 32777 1
+D0
+Following the temple walls to the north..
+~
+~
+0 0 1478
+D2
+Following the temple walls to the south..
+~
+~
+0 0 1475
+D4
+Up the steeply slanting tunnel, away from this perverse evil
+~
+~
+0 0 1473
+D5
+Down into the depths of the sacrificial pit
+~
+~
+0 0 1483
+E
+pit floor~
+The pit yawns like a giant, gaping mouth, ready to be fed.  Currents
+of fetid rise from the pit, ghostly vapors swirling about.
+~
+E
+walls wall bones~
+The walls are gruesome to behold.  The bones of thousands upon
+thousands of kobolds lie plastered into the wall of the temple like
+ornamental decoration.  Many of the bones look old and cracked,
+perhaps dating back hundreds of years.
+~
+S
+#1475
+&+GKobold Temple of the Unholy~
+   The temple is carved out of the very bedrock beneath Gwark's
+settlement.  The temple harkens back to a time when the kobolds
+practiced sinister magic.  Very few kobolds know of this past, and
+fewer know of this temple.  The walls of the temple are a mix of
+plaster and kobold bones, and are gruesome to behold.  It's possible
+to continue following the temple walls to the east and north of here,
+skirting the giant, yawning sacrificial pit in the center of the
+temple floor.
+~
+14 32777 1
+D0
+Following the temple walls to the north..
+~
+~
+0 0 1474
+D1
+Following the temple walls to the east..
+~
+~
+0 0 1476
+E
+walls wall bones~
+The walls are gruesome to behold.  The bones of thousands upon
+thousands of kobolds lie plastered into the wall of the temple like
+ornamental decoration.  Many of the bones look old and cracked,
+perhaps dating back hundreds of years.
+~
+S
+#1476
+&+GKobold Temple of the Unholy~
+   The temple is carved out of the bedrock deep beneath the kobold
+settlement.  Statues of strange demons made from both stone and bone
+stand in rows along the walls of the temple.  The walls themselves are
+hideous to look at, made from the sacrificial bones of long dead
+kobolds.  To the north lies a giant, yawning pit--apparently where the
+kobold sacrifices are made.  It's possible to walk to the east and
+west of here, skirting the treacherous maw of the pit to the north.
+To the east the sounds of chanting can be heard echoing softly off the
+cavern wall...
+~
+14 32777 1
+D1
+Following the temple wall to the east..
+~
+~
+0 0 1477
+D3
+Following the temple wall to the west..
+~
+~
+0 0 1475
+E
+walls wall bones~
+The walls are gruesome to behold.  The bones of thousands upon
+thousands of kobolds lie plastered into the wall of the temple like
+ornamental decoration.  Many of the bones look old and cracked,
+perhaps dating back hundreds of years.
+~
+E
+demons demon statue statues~
+Creatures with large twisted bodies made of both bone and rock.  Gems
+have been placed within each of the demons, making their eyes seem to
+glitter in pale illumination of your light source.  You take a wide
+berth in walking near the statues, so fearful are their visages.
+~
+S
+#1477
+&+GKobold Temple of the Unholy~
+   Many worshipers of the old magic are here praying and chanting in
+unison, knealing before a large altar which lies on a dais to the
+north.  Scattered about the room are steaming pots of &+Rblood&n, standing
+on tripods over hot coals.  The smell is simply awful.  Your skin
+crawls with revulsion and horror at the thought of entering upon the
+dais to see firsthand the grisly rites of the high kobold priest.&n
+~
+14 32777 1
+D0
+Onto the dais, where the high kobold priest stands..
+~
+~
+0 0 1481
+D3
+Following the temple wall to the west..
+~
+~
+0 0 1476
+E
+pots blood~
+The pots contain blood of the sacrificial victims along with bitter
+smelling incense and herbs--serving what purpose in their rituals you
+have no idea.  The smell brings bile to your mouth, and you wonder if
+you are going to throw up.
+~
+S
+#1478
+&+GKobold Temple of the Unholy~
+   The temple lies deep beneath the ground, carved out of the very
+bedrock of the kobold settlement.  The walls of the temple are made of
+both bone and plaster, and seem to not follow any straight lines.
+A large statue of a jewel eyed demon stands here, carved out of the
+blackest granite.  The room seems a bit hotter than the tunnels from
+which you entered, but unfelt drafts chill you to the bone from time
+to time.  It's possible to continue to the east and south, following
+the temple walls.
+~
+14 32777 1
+D1
+Following the temple wall to the east..
+~
+~
+0 0 1479
+D2
+~
+~
+0 0 1474
+E
+walls wall bones~
+The walls are gruesome to behold.  The bones of thousands upon
+thousands of kobolds lie plastered into the wall of the temple like
+ornamental decoration.  Many of the bones look old and cracked,
+perhaps dating back hundreds of years.
+~
+S
+#1479
+&+GKobold Temple of the Unholy~
+   The temple lies deep below Gwark's settlement and is the nexus for
+the dark kobolds to practice their forbidden rituals.  The large pit
+in the center of the temple floor comes alarmingly close to the
+northern wall here, making movement to the east and west tricky.
+~
+14 32777 2
+D1
+Following the temple wall to the east..
+~
+~
+0 0 1480
+D3
+Following the temple wall to the west..
+~
+~
+0 0 1478
+E
+pit floor~
+The pit yawns like a giant, gaping mouth, ready to be fed.  Currents
+of fetid rise from the pit, ghostly vapors swirling about.
+~
+S
+#1480
+&+GKobold Temple of the Unholy~
+   Dark chants can be heard whispering around the temple from the far
+room.  To the south lies a large dais and altar upon which the high
+priest of these dark kobolds makes sacrifices to the demons invoked.
+The darkness of the temple seems to enfold you, slowly crushing your
+senses.  Everythings seems out of focus and blury.
+~
+14 32777 2
+D2
+The altar of sacrifice..
+~
+~
+0 0 1481
+D3
+Following the temple wall to the west..
+~
+~
+0 0 1479
+S
+#1481
+&+GThe&n &+YAltar&n &+Gof the Dark Kobolds~
+   The altar lies on top of a large elevated dias, upon which hundreds
+of &+Wblack candles&n have been lit.  The altar is gruesome to behold; it
+is completely black from the stained &+rblood&n of countless victims which
+had been sacraficed upon it.  To the north and south lies the rest of
+the dark temple.  To the west, is a small ledge from which the bodies
+of the sacrificial victims are hurled into the gaping pit below.  The
+east wall of the temple is dominated by a &+Wlarge, door made completely
+of bone&n.  Chanting can be heard coming to the south by kobold
+worshipers.  The high priest stands here aghast at your interruption of
+their sacred ceremony; perhaps you will become the next offering to
+their great demons...&n
+~
+14 8421388 2
+D0
+The temple
+~
+~
+0 0 1480
+D1
+A large door made completely of bone, lies within a small enclave to
+the east
+~
+door bone i>|uub~
+2 -2 1482
+D2
+The temple... chanting can be heard
+~
+~
+0 0 1477
+D3
+A nice dive into the sacrificial pit...
+~
+~
+0 0 1484
+E
+altar~
+The gruesome thing stands about 3 feet off of the ground, and contains
+slightly raised in the middle.  Nitches have been cut into the alter
+for the spilt blood of the kobolds victims to pour into copper bowls
+placed around the altar.
+~
+E
+candles~
+They are thick and black, giving off a smoky flame.  A heady smell of
+ritualistic incense can be smelt rising from the hundreds of candles
+surrounding the dais, making you slightly nausous.
+~
+E
+door bone~
+The door stands about nine feet tall and about five feet wide,
+standing within a slight enclave to the east.  The door seems to have
+no handle, nor any keyhole.  The surface of the door seems to be made
+entirely of bone, with each bone having been fit in a bizarre geometric
+shape.  A slight magical aura surrounds the door... meaning that it
+has most likely been sealed magicly.
+~
+S
+#1482
+&+RThe Tomb of Tyxru~
+   The room is dark and musty... seemingly undisturbed for many, many
+years.  The center of the room is dominated by a giant sarcophagus.
+Two stone golems stand watch over the sarcophagus, everlasting
+sentries guarding against its defilement.  Dusty treasures surround
+the sarcophagus, as offerings to the kobolds former, great leader
+Tyxru.  The way out of the tomb is through a giant door of bone lying
+to the west.
+~
+14 32841 2
+D3
+~
+door bone i>|uub~
+1 -1 1481
+E
+golems~
+Big, nasty,... created to make sure that people such as you don't
+defile Tyxru's tomb and live to tell about it.
+~
+E
+treasure treasures~
+Old, dusty, and in some cases slowly rotting away.  It's really hard
+to tell what may lie under all the dust in the room...
+~
+S
+#1483
+&+GWall of the Sacrificial Pit~
+   The pit seems to be shaped like a cone, spiraling ever downward
+into the misty murk below.  Strange smells have started rising up from
+the pit bottom, somewhere below you.  Gases and misty vapors swirl
+around you in strange dances.  The smell is simply awful... like that
+of rotting meat and smouldering compost.  One can continue down the
+pit to see what might lie at the bottom, although why one would want
+to do something so profoundly stupid is boggling.  The temple of dark
+kobolds lies upwards.  The phrase 'rock and a hard place' comes to
+mind...
+~
+14 32781 3
+D4
+The temple of dark kobolds
+~
+~
+0 0 1474
+D5
+Down into the pit...
+~
+~
+0 0 1484
+S
+#1484
+&+RThe Sacrificial Pit~
+   The floor of the pit is filled thigh-high with bones and rotting
+body parts.  Strange gases swirl around the pit making it impossible
+to determine how large the room might be; breathing is becoming
+increasingly difficult.  A giant, constant rumbling can be felt,
+something alive and very large is present in the room...
+~
+14 9 2
+D4
+Up and out...
+~
+~
+0 0 1483
+E
+bones body parts~
+The heaps of mauled and destroyed flesh and bones lay sprawled about
+the pit, creating a reek which is incredible.
+~
+S
+#1485
+&+bA Freshly Dug Tunnel~
+   The tunnel looks to have been created fairly recently, as there is
+still a lot of debris and clods of loose dirt lying around in heaps.
+Wooden supports made from the trunks of trees have been used to keep
+the ceiling up it.  Is very dark all around, and little can be seen.
+There is large wooden ladder descending down a dark hole to south end
+of the tunnel from which the sound of clanging picks and voices can be
+heard.
+~
+14 9 1
+D0
+Too dark to see...
+~
+~
+0 0 1447
+D5
+Down the ladder into the tunnels below
+~
+~
+0 0 1486
+S
+#1486
+&+bOn the Ladder~
+   The tunnel is a sheer drop down, with the ladder being the only safe
+way up or down the tunnel.  A small rope pully can be seen dimly in your
+light, used to haul small loads of ore up to the surface.  The sounds
+of picks cracking rocks can be heard echoing through the tunnels
+beneath you, the signs that going down will eventually lead to the
+kobold mines.
+~
+14 13 1
+D4
+Up the ladder
+~
+~
+0 0 1485
+D5
+Down the ladder into the kobold mines
+~
+~
+0 0 1487
+S
+#1487
+&+bOn the Ladder~
+   The tunnel is a sheer drop down, with the ladder being the only safe
+way up or down the tunnel.  A small rope dangles along the side of the
+ladder, presumably to haul up the mined ore.  The sounds of kobolds
+somewhere beneath you is a lot closer, although sounds echoing through
+the dark tunnels can distort distances.
+~
+14 9 1
+D4
+Up the ladder
+~
+~
+0 0 1486
+D5
+Down the ladder, to the floor of the kobold mines
+~
+~
+0 0 1488
+S
+#1488
+&+bBeneath the Ladder in the Kobold Mines~
+   The mines of the kobolds have been cut out of the bedrock deep
+below the settlement.  Its very dark down here, only the slightest
+trace of light can be seen.  The tunnel leads off to the north and
+south where the voices of kobolds can be heard along with the clanging
+sounds of pick axes hitting solid rock.  To the east is a little
+alcove which looks like it used for storage supplies.
+~
+14 9 1
+D0
+Following the tunnel
+~
+~
+0 0 1496
+D1
+Into the alcove
+~
+~
+0 0 1489
+D2
+Following the tunnel
+~
+~
+0 0 1490
+D4
+Up the ladder, out of the mines
+~
+~
+0 0 1487
+S
+#1489
+&+bNiche in the Wall~
+   This small recess in the rock wall of the tunnel is used to store
+supplies for the kobold miners.  It doesn't look like very much effort
+has been made to keep things in order.  The only way out is back to
+the west.
+~
+14 9 1
+D3
+The kobold mines
+~
+~
+0 0 1488
+S
+#1490
+&+bA Three-Way Intersection in the Mines~
+   The mines passages split off to the east and west, with the main
+tunnel leading to the north.  The walls of the mine are dark and solid
+rock.  It is bitterly cold down in the dark depths of these mines.
+~
+14 9 1
+D0
+North into the dark mines...
+~
+~
+0 0 1488
+D1
+East into the dark mines...
+~
+~
+0 0 1493
+D3
+West into the dark mines...
+~
+~
+0 0 1491
+S
+#1491
+&+bAn Abandoned Passage~
+   The passage is fairly narrow and no sounds of work can be heard
+echoing among the dark, rock walls here.  Some old, broken mining
+equipment lies by the wayside here rustying in the damp mine tunnels.
+The passage continues to the east and west.
+~
+14 9 2
+D1
+East down the dark mine...
+~
+~
+0 0 1490
+D3
+West down the abandoned mine... it looks like some light can be seen
+flickering off the walls
+~
+~
+0 0 1492
+E
+broken equipment~
+Old, broken and rusty, of no value to you.
+~
+S
+#1492
+&+bDead End in an Abandoned Mine~
+   The passage comes to an end here to the east where the passage runs
+into a giant bank of sand.  Whatever the kobolds had been mining for,
+they weren't going to find it in this wall of sand.  Several kobold
+miners have come here to talk and eat while on a break from their
+toilsome picking at rock.
+~
+14 8 2
+D1
+Down the passage to the east
+~
+~
+0 0 1491
+S
+#1493
+&+bA &+BTight&n &+bMine Passage~
+   The mine walls come fairly close together here, bending and
+turning in the dark.  Some iron tracks look to have been laid down at
+some point to perhaps move carts along through the tunnels.  The
+tunnel bends and winds its way to the west and south.
+~
+14 8201 2
+D2
+Down the dark passage to the south
+~
+~
+0 0 1494
+D3
+Down the dark passage to the west
+~
+~
+0 0 1490
+S
+#1494
+&+bA &+BTight&n &+bMine Passage~
+   The mine walls come fairly close together here, bending and
+turning in the dark.  Some iron tracks look to have been laid down at
+some point to perhaps move carts along through the tunnels.  The
+tunnel bends and winds its way to the north and east.
+~
+14 8201 2
+D0
+Down the dark passage to the north
+~
+~
+0 0 1493
+D1
+Down the dark passage to the east
+~
+~
+0 0 1495
+S
+#1495
+&+bEnd of the Passage~
+   The tight tunnel comes to end here where kobolds are still digging
+into the hard rock of the tunnels... searching for some precious ore.
+The only way out is to the west.
+~
+14 9 2
+D3
+Back down the dark passage to the west
+~
+~
+0 0 1494
+D5
+~
+~
+4 0 1499
+S
+#1496
+&+bIn the Kobold Mines~
+   The tunnel is fairly large and cleared of most hindering debris.
+Iron tracks have been laid down on the floor of the tunnel at some
+point to move carts along.  The tunnels are bitterly cold and very
+dark.  The wide tunnel continues to the north and south.
+~
+14 9 1
+D0
+North down the tunnel
+~
+~
+0 0 1497
+D2
+South down the tunnel
+~
+~
+0 0 1488
+S
+#1497
+&+bBend in the Mine Tunnel~
+   The wide tunnel bends to the east and south here.  Kobold miners
+are all around, belaborously picking at the rock tunnel walls around
+them with seemingly little purpose or enthusiasm.  The clanging of
+pick axes and many voices can be heard excitedly coming to the east.
+~
+14 9 1
+D1
+It seems there is a large cluster of kobold miners there
+~
+~
+0 0 1498
+D2
+South down the tunnel
+~
+~
+0 0 1496
+S
+#1498
+&+bEnd of the Mine Tunnel~
+   Apparently the kobolds have hit upon a &+Csilver vein&n.  There is a
+large cart here filled with the raw ores of &+Csilver&n being filled
+rapidly by the kobold workers who are being frenzied into action by
+their mine leader.  The tunnel comes to an end here and the only way
+back is to the west.&n
+~
+14 9 1
+D3
+Blah
+~
+~
+0 0 1497
+S
+#1499
+&+LEnd of a Dark Tunnel~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D1
+~
+~
+0 0 1500
+D4
+~
+~
+4 0 1495
+S
+#1500
+&+LA Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D1
+~
+~
+0 0 1501
+D3
+~
+~
+0 0 1499
+S
+#1501
+&+LA Bend in a Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D0
+~
+~
+0 0 1502
+D3
+~
+~
+0 0 1500
+S
+#1502
+&+LAbove a &+mGloomy &+LShaft&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D2
+~
+~
+0 0 1501
+D5
+~
+~
+0 0 1503
+S
+#1503
+&+LA &+mGloomy &+LShaft&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D4
+~
+~
+0 0 1502
+D5
+~
+~
+0 0 1504
+S
+#1504
+&+mBelow a Shaft, Opening to a Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D1
+~
+~
+0 0 1505
+D4
+~
+~
+0 0 1503
+S
+#1505
+&+mA Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D1
+~
+~
+0 0 1506
+D3
+~
+~
+0 0 1504
+S
+#1506
+&+gA Bend in a Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D2
+~
+~
+0 0 1507
+D3
+~
+~
+0 0 1505
+S
+#1507
+&+LA Dark Tunnel, Before a Huge Cavern&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D0
+~
+~
+0 0 1506
+D2
+~
+~
+0 0 1508
+S
+#1508
+&+mA Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D0
+~
+~
+0 0 1507
+D2
+~
+~
+0 0 1509
+S
+#1509
+&+mA Turn in a Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D0
+~
+~
+0 0 1508
+D1
+~
+~
+0 0 1510
+S
+#1510
+&+LA Dark Tunnel&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 1 13
+D1
+~
+~
+0 0 1511
+D3
+~
+~
+0 0 1509
+S
+#1511
+&+LAbove a Hole in a Cave&N~
+   &+LThis dark, seemingly-natural tunnel burrows deep beneath a mining
+&+Lcomplex and spews outwards before a cavern of piercers.  There are
+&+Lseveral torch sconces mounted on the walls, hinting that this place
+&+Lmust have once been populated by some sort of cognitive creatures.
+&+LNow, however, the tunnel is dark, and ancient.
+~
+14 5 13
+D3
+~
+~
+0 0 1510
+D5
+~
+1521~
+0 0 1520
+S
+#1512
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1535
+D3
+~
+~
+0 0 1513
+S
+#1513
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1534
+D1
+~
+~
+0 0 1512
+D3
+~
+~
+0 0 1517
+S
+#1514
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D1
+~
+~
+0 0 1515
+D2
+~
+~
+0 0 1519
+S
+#1515
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D1
+~
+~
+0 0 1516
+D2
+~
+~
+0 0 1520
+D3
+~
+~
+0 0 1514
+S
+#1516
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D2
+~
+~
+0 0 1521
+D3
+~
+~
+0 0 1515
+S
+#1517
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1533
+D1
+~
+~
+0 0 1513
+D3
+~
+~
+0 0 1518
+S
+#1518
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1532
+D1
+~
+~
+0 0 1517
+D2
+~
+~
+0 0 1522
+S
+#1519
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1514
+D1
+~
+~
+0 0 1520
+D2
+~
+~
+0 0 1524
+S
+#1520
+&+LBelow a Hole in the Ceiling of the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1515
+D1
+~
+~
+0 0 1521
+D2
+~
+~
+0 0 1525
+D3
+~
+~
+0 0 1519
+D4
+~
+~
+0 0 1511
+S
+#1521
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1516
+D2
+~
+~
+0 0 1526
+D3
+~
+~
+0 0 1520
+S
+#1522
+&+LA Rocky Tunnel Before the Entrance of &+LS&+rt&+Lr&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 5 13
+D0
+~
+~
+0 0 1518
+D2
+~
+~
+0 0 1531
+S
+#1523
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D1
+~
+~
+0 0 1524
+D2
+~
+~
+0 0 1528
+S
+#1524
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1519
+D1
+~
+~
+0 0 1525
+D2
+~
+~
+0 0 1529
+D3
+~
+~
+0 0 1523
+S
+#1525
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1520
+D1
+~
+~
+0 0 1526
+D2
+~
+~
+0 0 1530
+D3
+~
+~
+0 0 1524
+S
+#1526
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1521
+D3
+~
+~
+0 0 1525
+S
+#1527
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D1
+~
+~
+0 0 1528
+D2
+~
+~
+0 0 1532
+S
+#1528
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1523
+D1
+~
+~
+0 0 1529
+D2
+~
+~
+0 0 1533
+D3
+~
+~
+0 0 1527
+S
+#1529
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1524
+D1
+~
+~
+0 0 1530
+D2
+~
+~
+0 0 1534
+D3
+~
+~
+0 0 1528
+S
+#1530
+&+LA Mine &+yOpening&+L in the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 5 13
+D0
+~
+~
+0 0 1525
+D2
+~
+~
+0 0 1535
+D3
+~
+~
+0 0 1529
+D5
+~
+~
+0 0 1546
+S
+#1531
+&+LA Turn in the Rocky Tunnel&N~
+   &+LThis long, rocky tunnel twists through the underdark.  Large drider
+&+Lwebs that have settled to the floor make the ground sticky and revolting.
+&+Lthe ceiling here is about mid-level, but seems to open the further west-
+&+Lward this rocky tunnel leads.
+~
+14 1 13
+D0
+~
+~
+0 0 1522
+D1
+~
+~
+0 0 1536
+S
+#1532
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1527
+D1
+~
+~
+0 0 1533
+D2
+~
+~
+0 0 1518
+S
+#1533
+&+LA Rocky &+yMine &+Lin the Cavern S&+rtr&+Lo&+rn&+Lad&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 5 13
+D0
+~
+~
+0 0 1528
+D1
+~
+~
+0 0 1534
+D2
+~
+~
+0 0 1517
+D3
+~
+~
+0 0 1532
+D5
+~
+~
+0 0 1543
+S
+#1534
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1529
+D1
+~
+~
+0 0 1535
+D2
+~
+~
+0 0 1513
+D3
+~
+~
+0 0 1533
+S
+#1535
+&+LDeep Within the Cavern Str&+ro&+Ln&+ra&+Ld&N~
+   &+LThis massive cavern, known as Str&+ro&+Ln&+ra&+Ld to the inhabitants of
+&+Lthe Underdark, stretches out far, ending by abrupt cavern walls.  Several small
+&+Llow-ceilinged mining fissures have been dug throughout the cave, acting as
+&+Lpopular mining sites for those that wish to venture into Str&+ro&+Ln&+ra&+Ld.  There
+&+Lare dozens of large stalagmites that reach so far down they nearly touch the
+&+Lfloor, as well as many vicious piercers, just waiting for the right body to
+&+Limpale.
+~
+14 1 13
+D0
+~
+~
+0 0 1530
+D2
+~
+~
+0 0 1512
+D3
+~
+~
+0 0 1534
+S
+#1536
+&+LA Rocky Tunnel&N~
+   &+LThis long, rocky tunnel twists through the underdark.  Large drider
+&+Lwebs that have settled to the floor make the ground sticky and revolting.
+&+Lthe ceiling here is about mid-level, but seems to open the further west-
+&+Lward this rocky tunnel leads.
+~
+14 1 13
+D1
+~
+~
+0 0 1537
+D3
+~
+~
+0 0 1531
+S
+#1537
+&+LA Rocky Tunnel&N~
+   &+LThis long, rocky tunnel twists through the underdark.  Large drider
+&+Lwebs that have settled to the floor make the ground sticky and revolting.
+&+Lthe ceiling here is about mid-level, but seems to open the further west-
+&+Lward this rocky tunnel leads.
+~
+14 1 13
+D1
+~
+~
+0 0 1538
+D3
+~
+~
+0 0 1536
+S
+#1538
+&+LA Rocky Tunnel&N~
+   &+LThis long, rocky tunnel twists through the underdark.  Large drider
+&+Lwebs that have settled to the floor make the ground sticky and revolting.
+&+Lthe ceiling here is about mid-level, but seems to open the further west-
+&+Lward this rocky tunnel leads.
+~
+14 5 13
+D2
+~
+~
+0 0 1539
+D3
+~
+~
+0 0 1537
+S
+#1539
+&+mA Sticky Underground Cavern&N~
+   &+mThis large, underground cavern is sticky with webbing and drider feces.
+&+mThe cavern itself has a high ceiling and a large tunnel that feeds out to
+&+mthe north.  There is also a second exit leading out into the Urusi tunnels
+&+mto the east.  This dark, underground cavern has been claimed by a drider
+&+min the recent past.
+~
+14 1 13
+D0
+~
+~
+0 0 1538
+D1
+~
+~
+0 0 1540
+D2
+~
+~
+0 0 1541
+S
+#1540
+&+mA Sticky Underground Cavern&N~
+   &+mThis large, underground cavern is sticky with webbing and drider feces.
+&+mThe cavern itself has a high ceiling and a large tunnel that feeds out to
+&+mthe north.  There is also a second exit leading out into the Urusi tunnels
+&+mto the east.  This dark, underground cavern has been claimed by a drider
+&+min the recent past.
+~
+14 1 13
+D2
+~
+~
+0 0 1542
+D3
+~
+~
+0 0 1539
+S
+#1541
+&+mA Sticky Underground Cavern&N~
+   &+mThis large, underground cavern is sticky with webbing and drider feces.
+&+mThe cavern itself has a high ceiling and a large tunnel that feeds out to
+&+mthe north.  There is also a second exit leading out into the Urusi tunnels
+&+mto the east.  This dark, underground cavern has been claimed by a drider
+&+min the recent past.
+~
+14 1 13
+D0
+~
+~
+0 0 1539
+D1
+~
+~
+0 0 1542
+S
+#1542
+&+mA Sticky Underground Cavern&N~
+   &+mThis large, underground cavern is sticky with webbing and drider feces.
+&+mThe cavern itself has a high ceiling and a large tunnel that feeds out to
+&+mthe north.  There is also a second exit leading out into the Urusi tunnels
+&+mto the east.  This dark, underground cavern has been claimed by a drider
+&+min the recent past.
+~
+14 1 13
+D0
+~
+~
+0 0 1540
+D1
+~
+~
+0 0 816080
+D3
+~
+~
+0 0 1541
+S
+#1543
+&+yA Mining Fissure&N~
+   &+yThis rocky fissure, deep within the Cavern of Stronad, has been dug out
+&+yfrom many years and many hands of mining.  This fissure has small wodden
+&+yplanks, giving level ground below, as further junctions are being dug out
+&+yby the miners deep within this place.  This fissure has been cut through
+&+ythe central junction of the cavern Stronad.
+~
+14 1 13
+D1
+~
+~
+0 0 1544
+D4
+~
+~
+0 0 1533
+S
+#1544
+&+yA Mining Fissure&N~
+   &+yThis rocky fissure, deep within the Cavern of Stronad, has been dug out
+&+yfrom many years and many hands of mining.  This fissure has small wodden
+&+yplanks, giving level ground below, as further junctions are being dug out
+&+yby the miners deep within this place.  This fissure has been cut through
+&+ythe central junction of the cavern Stronad.
+~
+14 1 13
+D0
+~
+~
+0 0 1545
+D3
+~
+~
+0 0 1543
+S
+#1545
+&+yA Mining Fissure&N~
+   &+yThis rocky fissure, deep within the Cavern of Stronad, has been dug out
+&+yfrom many years and many hands of mining.  This fissure has small wodden
+&+yplanks, giving level ground below, as further junctions are being dug out
+&+yby the miners deep within this place.  This fissure has been cut through
+&+ythe central junction of the cavern Stronad.
+~
+14 1 13
+D1
+~
+~
+0 0 1546
+D2
+~
+~
+0 0 1544
+S
+#1546
+&+yA Mining Fissure&N~
+   &+yThis rocky fissure, deep within the Cavern of Stronad, has been dug out
+&+yfrom many years and many hands of mining.  This fissure has small wodden
+&+yplanks, giving level ground below, as further junctions are being dug out
+&+yby the miners deep within this place.  This fissure has been cut through
+&+ythe central junction of the cavern Stronad.
+~
+14 1 13
+D3
+~
+~
+0 0 1545
+D4
+~
+~
+0 0 1530
+S

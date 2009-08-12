@@ -1,0 +1,159 @@
+#5506
+M
+hi help hello tharnadia~
+The man looks up from his map.  Sizing you up for a brief moment, he smiles
+
+"If you think you're getting inside the twin keeps, think again.  We aren't
+letting anyone pass until the city is clear.  We've taken Tharnadia proper,
+but need help with the &+Wold quarter&N and &+WBraddistock&N.  Before I
+give access, you will have to complete BOTH tasks.&N
+
+He sighs...
+
+"There is also the matter of the &+Wcathedral&N, I might as well tell
+you..."
+~
+M
+old quarter~
+The leader nods
+
+"Some time ago, a skeletal necromancer decided to make the old quarter
+his home.  Masses of undead are proliferating there, and we're concerned
+that the evil will spread elsewhere.  You've got to help us.  Take out
+the necromancer and bring me his remains!
+
+Before that, I require you to show proof that you will stand a chance
+against this deadly foe.  You must clear the entire old quarter in
+addition to showing me proof that Lord Braddistock is gone.  I require
+the following:
+
+Proof that Lord Braddistock is gone.
+
+The remains of all the former guildmasters of Tharnadia.  They are found
+in Tharnadia's old quarter.
+
+The remains of the zombie beast found in the old mansion in the northern
+part of Tharnadia's old quarter."
+~
+M
+braddistock~
+The leader sighs
+
+"We want to occupy the mansion, but the spirit of Lord Braddistock won't
+let us stay!  None of our clerics have been able to banish the apparition.
+Lord Braddistock keeps muttering something about a 'rat problem' and about
+'pest control'.  Think you could do anything to help us?  Bring me proof
+that Lord Braddistock is gone."
+~
+M
+cathedral~
+"Winterhaven sealed it decades ago after a fool of a necromancer raised
+a hideous skeletal knight there.  It's locked by an ethereal key held by
+Lord Perrin at the Winterhaven Outpost.  If Perrin judges you worthy to
+have the key and if you go inside, beware the skeletal knight's death
+howl.  Rumour is, it strikes such fear in men that merely hearing it
+causes those of lower constitution to die instantly..."
+~
+Q
+The expeditionary force leader smiles broadly.  He is very
+impressed.
+
+"Milord, you've done Winterhaven a great service.  Retaking
+Tharnadia is going to happen -- I know it!"
+
+"Here's the key to the twin keeps.  We don't know what, exactly, is
+inside, as none of our scouts have returned.  Get in there,
+investigate the problem, and KILL it at its source!  You
+are Tharnadia's only hope -- go!!!"
+~
+R I 5504
+G I 66201
+Q
+The &+ypatrol leader&n grins
+
+"Well done.  Here's the key to the armoury in the &+Wold quarter&N.
+Good luck!"
+~
+R I 66200
+R E 275000
+R C 300000
+G I 1375
+G I 66225
+G I 66226
+G I 66227
+G I 66230
+S
+#5514
+Q
+Freeing this spirit may not bring Duris closer to world peace, but there
+is something satisfying about putting this person to rest after all of
+these years.
+~
+R E 75000
+G I 5513
+D
+The spirit fades out of existence...
+~
+S
+#5528
+M
+hi hello help quest~
+Whether you be human or orc, dwarf or duergar, I care not.  I seek your
+help, adventurer, in clearing this city of the beasts that have it made
+it home.  It's essential to my people that proof of such be delivered to
+me, NOT the expeditionary force.  Ask me about &+WBraddistock
+Mansion&N and the &+WOld Quarter&N if you're interested.
+~
+M
+braddistock mansion~
+The man nods
+
+"Lord Braddistock must be removed from this plane, but the power that
+binds him here is too great for any cleric to banish him.  Go to the
+mansion, speak with Lord Braddistock, and see what you can do.  I'll
+require proof that he is gone if you are successful."
+~
+M
+old quarter~
+"A vile skeletal necromancer has made his home in the old quarter.  This
+beast is responsible for the undead that have proliferated within that
+part of the city.  I have the key to the armoury where he resides, but
+first I require proof that you would stand a chance against him.  Bring
+me the following:
+
+Proof that Lord Braddistock is gone.
+
+The remains of the zombie noble that resides in the mansion in the
+northern part of the old quarter.
+
+The remains of all the former guildmasters."
+~
+Q
+Excellent!  The key is now yours.  Proceed now, adventurer, and good
+luck!
+~
+R I 66200
+R C 300000
+R E 275000
+G I 1375
+G I 66225
+G I 66226
+G I 66227
+G I 66230
+QA
+~
+R I 5504
+G I 66201
+D
+You've done my people and invaluable service, and I am indebted to you.
+I have no treasure to offer you, but I do have valuable advice about the
+cathedral in this city that was magically sealed by Winterhaven's Holy
+Order of Clerics:
+
+A horrific skeletal nightmare resides within that cathedral.  It's
+rumored that its howl alone can strike such fear in men that it can
+cause many of lower constitution to instantly expire.  Lord Perrin of
+the Winterhaven outpost is the only one with the means to enter the
+cathedral, and he will give that access to no one.
+~
+S

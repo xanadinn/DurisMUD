@@ -1,0 +1,73 @@
+#203
+&+cNhavan &+gIsland&n~
+20322 2 0 25 35 1
+*
+* Zone edited with dikuEdit v2.98h
+*
+*
+D 0 20311 1 1 100 0 0 0
+*     east exit from "The Large Idol" to
+*     "Haunted Woods" - closed
+*
+D 0 20312 3 1 100 0 0 0
+*     west exit from "Haunted Woods" to
+*     "The Large Idol" - closed
+*
+D 0 20316 2 1 100 0 0 0
+*     south exit from "Endu Village" to
+*     "Livestock Pen" - closed
+*
+D 0 20320 0 1 100 0 0 0
+*     north exit from "Livestock Pen" to
+*     "Endu Village" - closed
+*
+D 0 20320 1 1 100 0 0 0
+*     east exit from "Livestock Pen" to
+*     "Village Cemetery" - closed
+*
+D 0 20321 3 1 100 0 0 0
+*     west exit from "Village Cemetery" to
+*     "Livestock Pen" - closed
+*
+*
+*
+M 0 20300 7 20306 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20300 7 20307 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20304 1 20308 100 0 0 0        * the fiendish puck
+M 0 20300 7 20309 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20303 1 20310 100 0 0 0        * the fishmonger Pantu
+E 1 20301 3 16 100 0 0 0           *   a boning blade
+G 1 20302 100 0 100 0 0 0          *    a prawn
+G 1 20303 100 0 100 0 0 0          *    a sea bass
+G 1 20304 100 0 100 0 0 0          *    a pair of turtle legs
+G 1 20305 100 0 100 0 0 0          *    a dragonfish fillet
+M 0 20305 3 20313 100 0 0 0        * the will-o'-the-wisp
+M 0 20300 7 20316 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20300 7 20317 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20305 3 20318 100 0 0 0        * the will-o'-the-wisp
+M 0 20305 3 20319 100 0 0 0        * the will-o'-the-wisp
+M 0 20300 7 20320 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20302 6 20320 100 0 0 0        * the braying vrang
+M 0 20306 4 20320 100 0 0 0        * the oongawa
+M 0 20306 4 20320 100 0 0 0        * the oongawa
+M 0 20306 4 20320 100 0 0 0        * the oongawa
+M 0 20306 4 20320 100 0 0 0        * the oongawa
+M 0 20300 7 20321 100 0 0 0        * the Endu villager
+E 1 20300 7 16 100 0 0 0           *   a sleek shiv
+M 0 20301 1 20322 100 0 0 0        * the Endu witch doctor
+E 1 20307 1 18 100 0 0 0           *   a wooden rattle
+E 1 20306 1 20 100 0 0 0           *   a stylized teakwood mask
+G 1 20308 1 0 100 0 0 0            *    a scarlet gourd
+*
+S

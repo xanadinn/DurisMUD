@@ -1,0 +1,200 @@
+#78006
+M
+qc_action 45~
+&+LThe piercing sound of metal ringing on metal echoes throughout the forge.&n
+~
+M
+qc_action 45~
+&+LBargor &nsays, 'So, have ye come to learn the secrets to enchant?
+&+LBargor &nfurrows his brow for a moment.
+~
+Q
+Pure torrents of energy bombard the room, coalescing into a small,
+inconspicuous scroll.
+~
+R I 407
+G I 32490
+G I 26614
+G I 402
+S
+#78009
+M
+doombringer~
+"Ahhhhh yes, quite a fabulous sword," Jallev muses, "I have sought that weapon
+for many years, but I have not been able to claim it.  I have heard that it
+has the ability to allow its wielder to swing the blade with unmatched ferocity
+and accuracy.  It would be quite a prize to any who can harness its power."
+~
+M
+avernus~
+"Avernus is the finest and most vile weapon I have ever had the chance to
+hold in my hands.  The wielder becomes an extension of the sword itself.  Hard
+to believe, but I think that Avernus is a living entity.  It never can shed
+enough blood to satisfy it.  It gives the wielder a sense of immortality.  Only
+the most powerful warriors could ever hope to contain its awesome power.  I
+have even heard rumors that the sword is inhabited by a powerful demon which
+was trapped within the sword aeons ago.  It is truly a remarkable weapon."
+~
+S
+#78010
+M
+concerned troubles trouble concern help~
+"Oh I am sorry, I didn't notice you standing there.  Lately I have had a lot
+on my mind, with the insect raids, and the mine troubles, I don't have much
+time to concentrate on anything else.  Please accept my apologies."
+~
+M
+mine~
+"As if the troubles with the insect beasts weren't enough, it seems that some
+of our miners in the diamond caves have begun to disappear as well.  If you
+have the time, please investigate this matter for me.  But.. be careful."
+~
+M
+insect raids raid~
+"Oh, they're horrible beasts.  They look like large grasshoppers with many legs
+but they're as large as a full grown man.  It seems almost daily that they
+come into the village and attack the first villager they find and drag them
+off.  I have tried to increase the guard patrols, but they cannot find where
+the beasts are getting past the walls.  If you think you can help, please talk
+to the captain of the guards.  He has a house in the southern part of the
+village.  I have put him in charge of the situation."
+~
+QA
+"Ahhh well done!  You have helped out our village tremendously.  I mourn for
+the loss of life we have suffered over the past weeks, but your intervention
+has prevented the loss of further life.  The village thanks you and in return
+for your tireless efforts, please accept these items.  They will be of better
+use to you adventurous types than myself!  Good luck in your journies and know
+that you are always welcome in the Oasis village."
+~
+R I 78066
+R I 78067
+G I 78030
+G I 78063
+S
+#78011
+M
+trouble troubled troubles help~
+"I am sorry, but I don't think you can help me."
+~
+M
+insects raid raid insect~
+"Hmmmm, the mayor told you to talk to me did he?  Well, if he has faith in
+you, then that is good enough for me.  These insects seem to be able to get
+inside the walls somehow, but I have been unable to find any cracks in the
+walls around the village.  I believe they must have burrowed in from below
+the ground.  Please, take a look around the village and look for anything
+that would suggest that the ground has been hollowed out.  I have, as of yet,
+been unsuccessful in finding anything.  If you find their lair, proceed with
+caution.  I have fought with one of these beasts, and it was an incredibly
+fearsome opponent, able to strike many times in a round.  Be careful.  If you
+are able to kill off these beasts, I am sure the village would find some way
+to reward you."
+~
+S
+#78024
+M
+challenge~
+"Hah, so you think you have what it takes eh?  Very well, pay me the 100 plat
+fee to try your luck, and I'll give you the first key.  Be sure to keep the
+keys safe if you happen to make it past the first gladiator.  It would be a
+shame if your bodies dissolved in the tower."
+~
+Q
+The overseer hands you a key and wishes you luck.
+~
+R I 78007
+G C 100000
+S
+#78030
+M
+ingredients potion potions~
+"Well, I recently found some interesting fungus along the southern wall of the
+village.  I don't know how it got there, but I was able to create a very useful
+potion from the ingredient.  If you can find some of this fungus, I'll gladly
+make you a potion which fills the body with much needed adrenaline, which
+can be especially useful on long trips, or when running from those ugly ogres."
+
+The gnome leans over, whispering: "You know, I heard they EAT gnomes!  Can you
+imagine?! I hope I never run into one."
+
+"ahhh one other thing.. there are all kinds of ingredients in this area that
+may be useful, if you are able to find some, bring them back to me and I'll
+mix up something special for you.  I can't guarantee the usefulness of some,
+or.. the safety."
+~
+Q
+"Ahhhh yes, this is a very nice sample.  Here, enjoy this, and remember...
+save it for when the ogres are around!"
+~
+R I 78016
+G I 78015
+Q
+"well, here ya go... strange looking brew I made. Hopefully it wont kill ya!"
+The gnome nearly falls over laughing.  Once he has composed himself, he hands
+you the strange green vial.
+~
+R I 78040
+G I 78019
+G I 78041
+G I 78018
+Q
+"Here ya go, hell if I know what it does!"
+~
+R I 78042
+G I 78017
+G I 78018
+Q
+"Where do you find this weird crap?  Well, it worked.. but I don't have a clue
+that it will do!  do me a favor and quaff it here, so I can see for myself?"
+The gnome chuckles to himself, then hands over his newest creation.
+~
+R I 78043
+G I 78041
+G I 78019
+G I 78017
+Q
+"You certainly are a strange bunch, but I do appreciate you testing out my
+potions for me.  I haven't had a potion tester since that one... errr ohhh
+nevermind him."
+~
+R I 78045
+G I 78044
+G I 78017
+S
+#78055
+M
+mine troubles happenings miners~
+"Hello there!  You must be the adventurers that the mayor sent down here.  Well
+we could sure use yer help.  Lately some of the miners have been disappearing.
+It seems that it only happens in the deepest shafts.  Unfortunately, that
+is where all the best diamonds can be found...  If you're able to find out the
+cause of the troubles, you will have my thanks and also that of the village.
+Hey! Maybe Bargor will even make a statue in yer likenesses! Har!  If you want
+to get to the lower mines, take the south vein and follow it down.  Good luck
+I think you'l need it."
+~
+S
+#78057
+M
+mine troubles happenings miners noise listen~
+"I heard some strange noises come from below.  If you are brave enough, I'd
+check that way..."
+~
+S
+#78058
+M
+crying kara~
+*sniff* "My little girl is missing.  I can't find her anywhere.  She likes to
+play near the mines, but I haven't seen here there.  If you find her, please
+bring her home to me!"
+~
+Q
+"Words cannot express my gratitude, adventurers.  I thank you for bringing
+back my daughter.  Please, take this ring.  I have had it for many years, and
+I know it is magical.  What it does, you will have to discover on your own.
+Thankyou again!"
+~
+R I 78068
+G I 78057
+S

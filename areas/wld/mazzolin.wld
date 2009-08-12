@@ -1,0 +1,2517 @@
+#21300
+&+LA Basalt Cave&N~
+   This cave is lined with rich basalt that has softly crumbled into a myriad
+of shapes upon the ground and a fine sand through the middle of the passage.
+It runs from north to south with the Great Llzazan cavern to the north and
+darkness to the south.
+~
+213 142639169 13
+D0
+The tunnel continues to the south.
+~
+~
+0 0 21301
+D2
+The Llzazan Ghetto is to the North.
+~
+~
+0 0 803053
+D3
+~
+~
+0 0 802652
+S
+#21301
+&+LA Basalt Cave&N~
+   The basalt here has crumbled from above to form a fine sand in the bottom
+of the cave. It is very still and quiet as it runs form north to south
+connecting eventually to the north to the Great Llzazan cavern. A strange
+hall begins to the south.
+~
+213 142639169 13
+D0
+There is a strange hall to the south.
+~
+~
+0 0 21302
+D2
+The tunnel continues.
+~
+~
+0 0 21300
+S
+#21302
+&+LA Hall of Golems&N~
+   This most unusual hall is lined with eight strong and tall golems that are
+fashioned after mighty drow warriors. The baslat here has been polished to a
+high gloss to allow the reflections of the mighty warriors to glint
+flawlessly off the floor.
+~
+213 142639169 15
+D0
+The hall continues.
+~
+~
+0 0 21303
+D2
+A rough tunnel continues.
+~
+~
+0 0 21301
+S
+#21303
+&+LA Long Polished Basalt Hallway&N~
+   This hallway has a plished basalt floor and walls with a rough cavernous
+ceiling rising high overhead. There are numerous trappings and paintings on
+the wall each depicting a different scene in the conquest of the drow of
+Mazzolin over the illithids of Izaraka.
+~
+213 142639169 15
+D0
+The hall continues.
+~
+~
+0 0 21304
+D2
+The hall continues.
+~
+~
+0 0 21302
+S
+#21304
+&+LA Long Polished Basalt Hallway&N~
+   This hallway has a plished basalt floor and walls with a rough cavernous
+ceiling rising high overhead. There are numerous trappings and paintings on
+the wall each depicting a different scene in the conquest of the drow of
+Mazzolin over the illithids of Izaraka.
+~
+213 142639169 15
+D0
+The hall continues.
+~
+~
+0 0 21305
+D2
+The hall continues.
+~
+~
+0 0 21303
+S
+#21305
+&+LA Long Polished Basalt Hallway&N~
+   This hallway has a plished basalt floor and walls with a rough cavernous
+ceiling rising high overhead. There are numerous trappings and paintings on
+the wall each depicting a different scene in the conquest of the drow of
+Mazzolin over the illithids of Izaraka.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21306
+D2
+The hall continues.
+~
+~
+0 0 21304
+S
+#21306
+&+rBefore a Great Stairway&N~
+   The hall ends abruptly here in a graceful stairway leading upward to the
+south. Some finished hallways also lead off to the east and west from here.
+The stairway is coted with a rich crimson rotheskin rug, and the hallways
+are left bare to demostrate the high polish of their basalt floors.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21360
+D2
+~
+~
+0 0 21305
+D3
+~
+~
+0 0 21367
+D4
+~
+~
+0 0 21307
+S
+#21307
+&+rTop of the Grand Stairs&N~
+   A rich stairway leads down to the north and a huge throne room of some
+sort opens to the south. The walls of the top of the stairs here are richly
+annointed with durithalite marbled obsidian glass. There is a dome above the
+stairs from which hangs a huge spike.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21308
+D5
+~
+~
+0 0 21306
+S
+#21308
+&+LThe Throne Room of &+BMazzolin&N~
+&+L   This grand throne room could comfortably house an adult shadow dragon.
+&+LLuckily for the nobles of Mazzolin it does not. The court assembles
+&+Lhere to develop schemes to eradicate the Illithid of the underworld. A
+&+Llarge brainlike mass is projected onto the north wall with depictions
+&+Lof troops around it striking at the creature viciously with obvious
+&+Lintent to destroy. A large basalt throne with rich blue rothe hide
+&+Lseatings sits in the southern half of the hall flanked by two smaller
+&+Lthrones. A table extends east to west before the throne dais and is
+&+Llined on the north side by a simple row of chairs. A huge stone pillar
+&+Lwith chains is between the thrones and the table on the east side of
+&+Lthe hall, and the west displays a large basin for augury.
+&+LBehind the table towards the north end of the hall, row after row of basalt
+&+Lbenches that could easily accomodate over 500 troops are evenly spaced. The
+&+Lceiling of this room is vaulted towards the middle and buttressed along
+&+Lthe east and west side. The extreme south end of the room is a mural made of
+&+Lsmooth polished basalt stone with a great durithalite web etched across its
+&+Lsurface, the mural of the web has a shimmering blue spider in the middle and
+&+Lis obviously of duergar craftsmanship. Also in the south behind the throne
+&+Lend engraved in the floor is an incomplete city map marked with numerous
+&+Lred x's.
+~
+213 142639169 15
+D1
+The Council of Inquisition presides to the east.
+~
+door adamantine~
+1 0 21376
+D2
+~
+~
+0 0 21307
+D3
+The chamber of augury is to the west.
+~
+door adamantine~
+1 0 21374
+D5
+A trapdoor heads down from the throne room.
+~
+map trapdoor _nobash_ mazzolin~
+7 -2 21309
+E
+map floor~
+The map is very rough and doesn't show anything useful to one not familiar
+with it. The edges of the map form a circle however and there seems to be a
+gap between the map and the rest of the floor tiles.
+~
+S
+#21309
+&+BAnteroom to Ze'rila's Private Quarters&N~
+   This simple room has a floor and a ceiling made of rough basalt and blue
+dyed rotheskin drapes lining the walls. The floor slopes inward slightly
+towards a small grating.
+~
+213 142639169 15
+D0
+A cutain separates the personal quarters of the Queen of Mazzolin from the
+anteroom.
+~
+curtain~
+1 0 21310
+D4
+~
+trapdoor _nobash_~
+3 0 21308
+D5
+The grate leads to the sewers.
+~
+grate~
+2 0 21311
+S
+#21310
+&+BZe'rila's Private Quarters&N~
+    Lavishness befitting only the Queen of Mazzolin adorns this great room.
+Rich silk curtians hang from the ceiling to drape across the polished
+obsidian walls. The floor is made of soft lichens, making it very sensual
+to walk upon. There is a huge bed against the east wall and a private bathing
+area on the west. To the north, an altar to Lolth is present.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21411
+D2
+There is a curtain to the anteroom.
+~
+curtain~
+1 0 21309
+S
+#21311
+&+gThe Sewer Entrance&N~
+   The sewer here has many blood red stains on the walls, possibly from blood
+of victims of the Queen of Mazzolin. The sewer flows southward from here
+towards darkness and some horrible stenches.
+~
+213 142639169 15
+D2
+~
+~
+0 0 21312
+D4
+A grate leads up to the anteroom.
+~
+grate~
+2 -1 21309
+S
+#21312
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21311
+D1
+~
+~
+0 0 21358
+D2
+~
+~
+0 0 21313
+S
+#21313
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21312
+D3
+~
+~
+0 0 21314
+S
+#21314
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21313
+D3
+~
+~
+0 0 21315
+S
+#21315
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21314
+D2
+~
+~
+0 0 21316
+S
+#21316
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21315
+D2
+~
+~
+0 0 21317
+S
+#21317
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21316
+D1
+~
+~
+0 0 21318
+S
+#21318
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21343
+D2
+~
+~
+0 0 21319
+D3
+~
+~
+0 0 21317
+S
+#21319
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21318
+D2
+~
+~
+0 0 21320
+S
+#21320
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21319
+D3
+~
+~
+0 0 21321
+S
+#21321
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21320
+D2
+~
+~
+0 0 21322
+S
+#21322
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21321
+D5
+~
+~
+0 0 21323
+S
+#21323
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21324
+D3
+~
+~
+0 0 21338
+D4
+~
+~
+0 0 21322
+S
+#21324
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21323
+D5
+~
+~
+0 0 21325
+S
+#21325
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D2
+~
+~
+0 0 21332
+D3
+~
+~
+0 0 21326
+D4
+~
+~
+0 0 21324
+S
+#21326
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21325
+D3
+~
+~
+0 0 21327
+S
+#21327
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21326
+D2
+~
+~
+0 0 21328
+S
+#21328
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21327
+D5
+~
+~
+0 0 21329
+S
+#21329
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21328
+D5
+~
+~
+0 0 21330
+S
+#21330
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21331
+D4
+~
+~
+0 0 21329
+S
+#21331
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21330
+S
+#21332
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21325
+D5
+~
+~
+0 0 21333
+S
+#21333
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21332
+D5
+~
+~
+0 0 21334
+S
+#21334
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21333
+D5
+~
+~
+0 0 21335
+S
+#21335
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21336
+D4
+~
+~
+0 0 21334
+S
+#21336
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21337
+D3
+~
+~
+0 0 21335
+S
+#21337
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21422
+D3
+~
+~
+0 0 21336
+S
+#21338
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21323
+D3
+~
+~
+0 0 21339
+S
+#21339
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21338
+D5
+~
+~
+0 0 21340
+S
+#21340
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21341
+D4
+~
+~
+0 0 21339
+S
+#21341
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D2
+~
+~
+0 0 21340
+D5
+~
+~
+0 0 21342
+S
+#21342
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21341
+S
+#21343
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21344
+D3
+~
+~
+0 0 21318
+S
+#21344
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21343
+D5
+~
+~
+0 0 21345
+S
+#21345
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D2
+~
+~
+0 0 21346
+D4
+~
+~
+0 0 21344
+S
+#21346
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21345
+D2
+~
+~
+0 0 21347
+S
+#21347
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21346
+D1
+~
+~
+0 0 21348
+S
+#21348
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D2
+~
+~
+0 0 21349
+D3
+~
+~
+0 0 21347
+S
+#21349
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D0
+~
+~
+0 0 21348
+D5
+~
+~
+0 0 21350
+S
+#21350
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D1
+~
+~
+0 0 21351
+D4
+~
+~
+0 0 21349
+S
+#21351
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21350
+D5
+~
+~
+0 0 21352
+S
+#21352
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21351
+D5
+~
+~
+0 0 21353
+S
+#21353
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21352
+D5
+~
+~
+0 0 21354
+S
+#21354
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21353
+D5
+~
+~
+0 0 21355
+S
+#21355
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21354
+D5
+~
+~
+0 0 21356
+S
+#21356
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D4
+~
+~
+0 0 21355
+D5
+~
+~
+0 0 21357
+S
+#21357
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D2
+~
+grate~
+1 0 21421
+D4
+~
+~
+0 0 21356
+S
+#21358
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639173 15
+D1
+~
+~
+0 0 21359
+D3
+~
+~
+0 0 21312
+S
+#21359
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21358
+D4
+~
+grate~
+3 0 21362
+S
+#21360
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D1
+~
+~
+0 0 21361
+D3
+~
+~
+0 0 21306
+S
+#21361
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21362
+D3
+~
+~
+0 0 21360
+S
+#21362
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground. A small grate has been cut in
+the floor.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21363
+D2
+~
+~
+0 0 21361
+D3
+~
+~
+0 0 21434
+D5
+A foul smell emanates from below.
+~
+grate~
+3 0 21359
+S
+#21363
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21364
+D2
+~
+~
+0 0 21362
+S
+#21364
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21365
+D2
+~
+~
+0 0 21363
+D3
+~
+~
+0 0 21435
+S
+#21365
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21366
+D2
+~
+~
+0 0 21364
+S
+#21366
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D2
+~
+~
+0 0 21365
+D3
+~
+~
+0 0 21436
+S
+#21367
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D1
+~
+~
+0 0 21306
+D3
+~
+~
+0 0 21368
+S
+#21368
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21369
+D1
+~
+~
+0 0 21367
+S
+#21369
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21370
+D1
+~
+~
+0 0 21424
+D2
+~
+~
+0 0 21368
+D3
+~
+~
+0 0 21423
+S
+#21370
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21371
+D1
+~
+~
+0 0 21426
+D2
+~
+~
+0 0 21369
+D3
+~
+~
+0 0 21425
+S
+#21371
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21372
+D1
+~
+~
+0 0 21428
+D2
+~
+~
+0 0 21370
+D3
+~
+~
+0 0 21427
+S
+#21372
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21373
+D1
+~
+~
+0 0 21430
+D2
+~
+~
+0 0 21371
+D3
+~
+~
+0 0 21429
+S
+#21373
+&+BA Lavish Hallway&N~
+   This lavish hallway is exquisitely decorated and elegant in every respect.
+It has numerous illithid skull trophies dotting the hallways serving as torch
+holders to illuminate dimly the architecture of the keep. The floors are made
+of polished basalt as are the walls. The ceiling is vaulted high and not a
+trace of the apex can be seen from the ground.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21433
+D1
+~
+~
+0 0 21432
+D2
+~
+~
+0 0 21372
+D3
+~
+~
+0 0 21431
+S
+#21374
+&+MChamber of the Augurist&N~
+   This chamber is very simple and stoic yet is bristling with some cryptic
+source of energy. The floor, walls, and ceiling are made of slate with
+lines drawn across them forming triangles pentagrams and concentric circles.
+A woven hammock is strung in one corner of the room and a small basin with
+a functional pot for bodily wastes in the other.
+~
+213 176193600 15
+D1
+~
+door adamantine~
+1 0 21308
+S
+#21376
+&+LCouncil of the Drowish Inquisition&N~
+   A squat circular table sits in the middle of this large circular room.
+four stone chairs surround the table the northern of which is fitted with
+irons, shackles, and bands. A heavy stone door has be set in the north
+wall.
+~
+213 176193600 15
+D0
+~
+stone door~
+1 0 21377
+D3
+~
+door adamantine~
+1 0 21308
+S
+#21377
+&+LEntrance to the Dungeons of Mazzolin&N~
+   The floor of this room is covered with the blood of many an
+Illithid. The room seems to be bristing with some sort of magic
+noise making concentration nearly impossible. There is a heavy
+stone door to the south and an even heavier looking admantine
+door to the south.
+~
+213 176193732 15
+D2
+The stone door leads to the Council of the Drowish Inquisition.
+~
+stone door~
+1 -1 21376
+D5
+~
+~
+0 0 21378
+S
+#21378
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21379
+D1
+~
+~
+0 0 21393
+D3
+~
+~
+0 0 21392
+S
+#21379
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21394
+D1
+~
+~
+0 0 21395
+D2
+~
+~
+0 0 21378
+D3
+~
+~
+0 0 21380
+S
+#21380
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21396
+D1
+~
+~
+0 0 21379
+D2
+~
+~
+0 0 21381
+D3
+~
+~
+0 0 21397
+S
+#21381
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21380
+D3
+~
+~
+0 0 21398
+D5
+~
+~
+0 0 21382
+S
+#21382
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21399
+D1
+~
+~
+0 0 21383
+D2
+~
+~
+0 0 21400
+S
+#21383
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21384
+D1
+~
+~
+0 0 21401
+D2
+~
+~
+0 0 21402
+D3
+~
+~
+0 0 21382
+S
+#21384
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21403
+D1
+~
+~
+0 0 21404
+D2
+~
+~
+0 0 21383
+D3
+~
+~
+0 0 21385
+S
+#21385
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21405
+D1
+~
+~
+0 0 21384
+D2
+~
+~
+0 0 21406
+D5
+~
+~
+0 0 21386
+S
+#21386
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21408
+D2
+~
+~
+0 0 21387
+D3
+~
+~
+0 0 21407
+S
+#21387
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21386
+D1
+~
+~
+0 0 21388
+D2
+~
+~
+0 0 21409
+D3
+~
+~
+0 0 21391
+S
+#21388
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193600 15
+D0
+~
+~
+0 0 21389
+D2
+~
+~
+0 0 21390
+D3
+~
+~
+0 0 21387
+D5
+~
+~
+0 0 21410
+S
+#21389
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21388
+S
+#21390
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21388
+S
+#21391
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21387
+S
+#21392
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21378
+S
+#21393
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D3
+~
+~
+0 0 21378
+S
+#21394
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21379
+S
+#21395
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D3
+~
+~
+0 0 21379
+S
+#21396
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21380
+S
+#21397
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21380
+S
+#21398
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21381
+S
+#21399
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21382
+S
+#21400
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21382
+S
+#21401
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D3
+~
+~
+0 0 21383
+S
+#21402
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21383
+S
+#21403
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21384
+S
+#21404
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D3
+~
+~
+0 0 21384
+S
+#21405
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D2
+~
+~
+0 0 21385
+S
+#21406
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21385
+S
+#21407
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D1
+~
+~
+0 0 21386
+S
+#21408
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D3
+~
+~
+0 0 21386
+S
+#21409
+&+LThe Dungeons of Mazzolin&N~
+   The dungeons of Mazzolin are feared throughout the realms as because of
+their horrid reputation for being a place of death. No one has ever escaped
+from the dungeons. A magical humming can be heard from everywhere making
+any type of concentration impossible. The walls of the dungeon are rough
+cut from the basalt rock of this portion of the underworld and are drier
+than the wine casks of House Llzazan.
+~
+213 176193728 15
+D0
+~
+~
+0 0 21387
+S
+#21410
+&+LThe Pit of Lost Hope&N~
+   This room at the deepest depths of the dungeons of Mazzolin is also
+probably the most infamous. It is where all prisoners finally wander to
+die when they lose all hope of ever being free again. A thick layer of bone
+dust carpets the floor of this room.
+~
+213 176193600 15
+S
+#21411
+&+mShrine of the Spider Queen&N~
+&+L                    .                      .
+&+L                    .                      .
+&+L               .    .                      .    .
+&+L               .    .                      .    .
+&+L               .    .                      .    .
+&+L               .    o                      o    .
+&+L               .    o       &+B OOOOOO&+L        o    .
+&+L               o     o     &+BOO&+mOOOOOO&+BOO&+L     o     o
+&+L                o     o   &+BOOOO&+mOOOO&+BOOOO&+L   o     o
+&+L                 oo    o  &+BOOOOO&+mOO&+BOOOOO&+L  o    oo
+&+L                   ooo  oo &+BOOO&+mOOOO&+BOOO&+L oo  ooo
+&+L                      ooo oo&+BO&+mOOOOOO&+BO&+Loo ooo
+&+L                         oooo&+BOOOOOO&+Loooo
+&+L                           ooo&+BOOOO&+Looo
+&+L                        ooo  oo&+BOO&+Loo   ooo
+&+L                     ooo   oo &+BOOOO&+L oo   ooo
+&+L                   oo    oo  &+BOOOOOO&+L  oo    oo
+&+L                  o     o     &+BOOOO&+L     o     o
+&+L                  .     o    / &+R<>&+L \    o     .
+&+L                  .     .    \    /    .     .
+&+L                  .      .            .      .
+&+L                  .       .          .       .
+&+L
+~
+213 176193728 15
+D2
+~
+~
+0 0 21412
+S
+#21412
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21414
+D1
+~
+~
+0 0 21415
+D2
+~
+~
+0 0 21413
+D3
+~
+~
+0 0 21416
+S
+#21413
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21412
+D1
+~
+~
+0 0 21418
+D2
+~
+~
+0 0 21414
+D3
+~
+~
+0 0 21417
+S
+#21414
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21413
+D1
+~
+~
+0 0 21420
+D2
+~
+~
+0 0 21412
+D3
+~
+~
+0 0 21419
+S
+#21415
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21420
+D1
+~
+~
+0 0 21416
+D2
+~
+~
+0 0 21418
+D3
+~
+~
+0 0 21412
+S
+#21416
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21419
+D1
+~
+~
+0 0 21412
+D2
+~
+~
+0 0 21417
+D3
+~
+~
+0 0 21415
+S
+#21417
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21416
+D1
+~
+~
+0 0 21413
+D2
+~
+~
+0 0 21419
+D3
+~
+~
+0 0 21418
+S
+#21418
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21415
+D1
+~
+~
+0 0 21417
+D2
+~
+~
+0 0 21420
+D3
+~
+~
+0 0 21413
+S
+#21419
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21417
+D1
+~
+~
+0 0 21414
+D2
+~
+~
+0 0 21416
+D3
+~
+~
+0 0 21420
+S
+#21420
+&+rA Blasted Plain of Rock&N~
+   A bright red sun covers half the sky above and the obsidian plain takes on
+a rich burnt shade. The plane itself is made of loose black sand pockmarked
+by craters and strewn with bolders. The plane is incredibly hot. So hot that
+some of the rocks seem to be burning.
+~
+213 1250201664 11
+D0
+~
+~
+0 0 21418
+D1
+~
+~
+0 0 21419
+D2
+~
+~
+0 0 21415
+D3
+~
+~
+0 0 21414
+S
+#21421
+&+LA Festering Whirpool&N~
+   A festering whirlpool of filth swirld inside the room as the sewers drain
+into a small fissure in the bottom of this circular room. The walls are
+splattered with blood and feces and a few bones have been lodged in the
+cracks in the walls of the rooms and a putrid smell chokes the air.
+~
+213 1249935424 13
+D0
+~
+grate~
+1 0 21357
+S
+#21422
+&+LThe Sewers of Mazzolin&N~
+   A stange sludge mixed of blood and excrement oozes through a channel in
+the middle of the floor. The walls of the sewer are rough cut from raw
+basalt and the level of filth in the sewer has eroded away at the bottom of
+the walls during periods of high activity. The floor is slick with filth.
+~
+213 142639169 15
+D3
+~
+~
+0 0 21337
+S
+#21423
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21369
+S
+#21424
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D3
+~
+~
+0 0 21369
+S
+#21425
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21370
+S
+#21426
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D3
+~
+~
+0 0 21370
+S
+#21427
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21371
+S
+#21428
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D3
+~
+~
+0 0 21371
+S
+#21429
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21372
+S
+#21430
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D3
+~
+~
+0 0 21372
+S
+#21431
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21373
+S
+#21432
+&+BA Barracks&N~
+   This room is very plain save the four cots in it, one along each wall
+respctively. This is where the soldiers of Mazzolin make their bed and
+spend their few leisure hours together. The hallway passes by the open
+doorway.
+~
+213 1250201664 15
+D3
+~
+~
+0 0 21373
+S
+#21433
+&+LThe Coloseum&N~
+   Ampitheatre seating rims the outside of this large chamber. The ground in
+the middle is made of a hard clay. A few strnage lines have bisected the
+clay into sections. The whole middle of this chamber is round, causing the
+overall effect to resemble spokes on a large wheel.
+~
+213 1250201664 15
+D2
+~
+~
+0 0 21373
+S
+#21434
+&+BA Mess Hall&N~
+   Benches and tables are arranged in lines across this room where the
+warriors of Mazzolin feed. Illithid skulls line the walls of the room
+and it is easy to imagine the feasts upon the carcasses of the slain
+illithid that occured here.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21362
+S
+#21435
+&+BA Common Temple&N~
+   Rows of pews circle a low flat altar in the middle of the room. It is here
+where the warriors of Mazzolin pray to their goddess, the demon queen of
+spiders. The walls are extremely dark and pastel reflecting no light.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21364
+S
+#21436
+&+yA Communal Privy&N~
+   This room reeks, as it should. There are eight holes cut in a bench on
+the far side of the room and thinly sliced mushroom stalks next to each hole.
+Modesty is not a concern for the warriors of Mazzolin. Pirging their hearty
+meals is however.
+~
+213 1250201664 15
+D1
+~
+~
+0 0 21366
+S

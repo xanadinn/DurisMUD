@@ -1,0 +1,83 @@
+#21012
+M
+looking something hi help~
+   A metal I seek, it is strange and not of this world. It is rumored that
+a great white dragon has it and I would give anything for it. Have you
+heard of its whereabouts?
+~
+Q
+   Heh heh, I guess I do owe you something... I'll give you some information.
+Take chips of adamantite and mithril and give them to Givnab the Conjurer
+who lives deep in this mine. He'll enchant them and you can give them
+to Sorlag the dwarven smith who lives yet in another part of this mine
+and you can get a fantastic weapon forged to slay evil.
+~
+R E 10000
+G I 21000
+S
+#21014
+M
+enchant help~
+The dwarf peers at you once more and smiles. "Yeah I'll help you just
+gimme something worth enchanting"
+~
+Q
+   Alright leave me alone for a few moments and it'll be much better
+~
+R I 21009
+G I 21002
+S
+#21025
+M
+join~
+   Gulik smiles at you 'So you wish to join our order? Good we are
+running out of fighters. In order to become a full member you must
+complete a quest. Long ago this mountain was used as a settlement where
+people actually lived peacefully. Of course it didn't last for who would
+stay sane in a pit like this? Finally much fighting broke out and we
+have been separated since then. Although you yourself could not solve
+this problem we must put you on a quest. A thief long ago stole 2 objects
+from our order. This halfling stole a serpentine dagger and a suit of
+black magical armor. Although the dagger is rumored to be destroyed all
+we need is the black leather armor. It is rumored he hides in another
+cavernous dungeon near a foul orc town. Good luck getting it'
+
+   After that long winded speech he finally turns away.
+~
+Q
+   Gulik chuckles when you present him the armor 'I never thought it
+possible. Very well here is a key that gives access to the armoury. There
+is a suit of very fine armor waiting for you there. Be warned however there
+is several false suits that have traps loaded to kill those who steal
+from the armoury. You will recognize it by the third one. Good luck
+in your travels'
+~
+R I 21027
+G I 93001
+S
+#21028
+Q
+   Sorlag's eyes widen as you present him the objects 'Incredible! You
+have slayed the ethereal demon and acquired all the keys from the
+leaders! You are truly a great warrior and I will work on this right
+now!'
+
+   A good deal of time later Sorlag finishes. His eyes glint as he peers
+at the finished weapon. 'Aye this be the greatest weapon I've ever made.
+You are lucky to have it'
+~
+R I 21026
+G I 21009
+G I 21008
+G I 21025
+S
+#21029
+M
+join~
+   The knight grins at you and says 'So you wish to join us eh? Gulik
+could use your type. If you ask him about it he will set you on a
+quest. Only then can you join our order"
+
+The knight then glances back to his holy altar and nods you to leave.
+~
+S

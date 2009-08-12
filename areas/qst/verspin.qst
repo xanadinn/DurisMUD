@@ -1,0 +1,357 @@
+#28116
+M
+qc_action 35~
+&+mTottan &Nsighs loudly and shakes his head, looking rather &+Lunhappy&N.
+~
+M
+hi hello~
+&+mTottan&N says '&+MHello, I would talk to you but I am not a happy man.
+&+MEver since that group of gnomes came into town!&N'
+~
+M
+gnomes gnome~
+&+mTottan &Nnods and continues '&+MI have nothing against the Gnomish race,
+&+Mbut a band of five shamans has come to the village and is stealing all
+&+Mthe excitement!  Nobody wants to spend money on the circus anymore when
+&+Mthere are these shamans turning tricks and controlling animals in the
+&+Mstreets!  Please bring me their five &+Ltotems&+M so that I know they have
+&+Mstopped stealing my business!&N'
+~
+QA
+&+mTottan &Ndoes a dance of joy.
+&+mTottan&N says '&+MThank you very much!  Now people can once again enjoy
+&+Mmy circus!  Take this as a token of my appreciation!&N'
+~
+R I 28145
+R E 65000
+G I 28144
+G I 28144
+G I 28144
+G I 28144
+G I 28144
+S
+#28120
+M
+qc_action 35~
+&+mA woman of Verspin &Nlooks at the sky and says '&+mAh what a beautiful day!&N'
+~
+S
+#28126
+Q
+
+&+W   Ahh, thank you very much! Take this bone, my pet lion loves it!
+&+WShe might even give up her collar, if the price was right...
+~
+R I 28113
+G I 28112
+S
+#28128
+Q
+The lion appears overcome with joy upon receiving the bone, as it
+begins to lick and gnaw at the bone with a fury heretofore
+unseen by mortal man.  As it does so, its collar slips off.  You
+quickly bend down and pick it up.
+~
+R I 28114
+G I 28113
+D
+After a few seconds of chewing, the lion suddenly grips the bone
+tightly between its jaws and runs off to gnaw at the prize
+somewhere in peace.
+~
+S
+#28134
+S
+#28138
+M
+qc_action 37~
+&+cThe loud shopper&N yells '&+cHEY!  WHERE'S THE GOOD DEALS?!&N'
+~
+S
+#28143
+M
+qc_action 37~
+The &+bboatman &Nrows through the grand &+Bwaterway&N, a smile on his face.
+~
+S
+#28144
+Q
+~
+R I 28128
+G I 28112
+G C 10000
+Q
+~
+R I 28126
+G I 28112
+G C 10000
+G I 28116
+Q
+~
+R I 28127
+G C 20000
+G I 28107
+Q
+~
+R I 28129
+G C 5000
+G I 28124
+G I 28124
+G I 28125
+G I 28125
+Q
+~
+R I 28130
+G C 6000
+G I 28124
+G I 28124
+G I 28124
+G I 28124
+S
+#28145
+M
+hi hello~
+&+MVulm &Nsays 'Hello, I have stopped selling my precious gems until I can
+trust the people around me!  Someone stole &+Ma rare uncut amethyst&N from me!
+I know he has left the great city of Verspin and to one of the neighboring
+cities.  Possibly the one northwest of here with those vile crabmen.  Please,
+find my gem and I will repay you!&N'
+~
+Q
+&+MVulm&N cheerfully shakes your hand, takes the gem, and rewards you.
+~
+R I 223
+R I 224
+R I 225
+R E 50000
+G I 28146
+S
+#28146
+M
+qc_action 65~
+&+mSmall purplish flames &Ndance around the fingers of &+ma mage in training.&N
+~
+M
+qc_action 64~
+&+mA mage in training&N proudly chants the words '&+LKlatu, Verata, Niktu!&N'
+~
+M
+qc_action 67~
+&+RBOOOOOOOOOOOOOOOOOOOOOOM&N!  A stray &+rfireball&N explodes right by your feet!
+&+mA mage in training&N apologizes to you, face red with embarrasment.
+~
+S
+#28147
+M
+qc_action 31~
+&+WA pleasant, healing aura, is felt circulating through the area.
+~
+M
+qc_action 36~
+   &+cThe holyman&N paces through his &+Lchamber&N with a worried look on his face.
+~
+M
+qc_action 48~
+&+cThe holyman&N sighs and shakes his head in an expression of grief.
+~
+M
+hi hello~
+&+cThe holyman&N looks at you and responds '&+cHello noble sir.  Normally I
+&+cam a much happier man.  However, five clerics from Tharnadia came to my
+&+cshrine here and they each took with them a holy symbol.  Now these are good
+&+cmen, and I'm sure you can reason with them.  They are wandering all over
+&+cthe city, please.. bring back my five holy symbols.&N'
+~
+QA
+   &+cThe holyman&N smiles and says '&+cOh thank you adventurer, I knew you
+&+ccould persuade them to return the holy symbols back to their rightful
+&+cplace.&N'
+~
+R I 28139
+R E 50000
+G I 28138
+G I 28138
+G I 28138
+G I 28138
+G I 28138
+D
+   &+cThe holyman&N says '&+cNow I have to go, but thank you again sir.  Take this pair of eyeglasses as payment!&N'
+~
+S
+#28148
+S
+#28153
+M
+qc_action 35~
+&+MVespus&N smiles at her students, directing them in a sorcerous &+mmagic&N.
+~
+M
+qc_action 32~
+&+MVespus&N smiles and says '&+MHave you come here to learn?&N'
+~
+M
+qc_action 50~
+&+LPOOF!  &NSuddenly &+MVespus&N is gone.
+You feel a tap on your shoulder, and &+MVespus&N is standing behind you, giggling to herself.
+~
+S
+#28154
+M
+qc_action 36~
+&+YBrachik &Ngrins and says '&+YCome here to learn the ways of the warrior?&N'
+~
+M
+qc_action 46~
+&+CCLANG!  &+WCLASH&N!  &+cBANG!  &NThe sounds of swordplay and combat is heard from the practice chamber.
+~
+M
+qc_action 49~
+&+YBrachik &Nsends you sprawling with a powerful bash, and then helps you back up.
+~
+S
+#28155
+M
+qc_action 34~
+&+LTranso &Ndunks a glass mug into some water and continues &+Wwiping&N it clean.
+~
+M
+hi hello~
+   &+LTranso &Neyes you up and down and says '&+LHow are ya?  Come to see the
+&+Lfight?&N'
+~
+M
+fight~
+   &+LTranso &Nnods and continues '&+LYep, these gladiators train for months
+&+Lon end before coming to these pit fights.  I hear the reward is pretty
+&+Lnice too.  Ramous used to attend these events personally, but ever since
+&+Lhis amulets were missing, he has stopped trusting the townspeople who come
+&+Lthis way.&N'
+~
+M
+ramous amulets~
+&N'&+LRamous had three amulets all together:  1 black, 1 red, and 1 green.
+&+LHe took a snooze down on the Street of &+bProfessions&+L one day and they
+&+Lwere all lifted right off his neck.  How he loved this amulets, I believe
+&+Lthey were symbols of accomplishment back from when he saved his birth
+&+Lvillage of Pine Hollow.&n'
+   &+LTranso &Nleans in closer and says '&+LAnyway, I know a couple of guys
+&+Lwho would pay me an awful lot for those three amulets.  Bring them back to me
+&+Land I'll make it worth yer while.&N'
+
+&+LTranso&N winks at you, and continues bartending.
+~
+QA
+   &+LTranso&N grins and says '&+LThank you very much.  I'm going to get a lot
+&+Lof platinum for these.&N'
+&+LTranso&N eyes you up and down, continuing '&+LYou look like quite the able
+&+Ladventurer.. here, take this belt, you've earned it.&N'
+~
+R I 28141
+R E 70000
+G I 28123
+G I 28124
+G I 28125
+S
+#28157
+M
+qc_action 42~
+&+LA flamboyant &+Ypatron&N leans over the bar and yells '&+YHow about another?&+L'
+~
+M
+qc_action 61~
+&+WSMASH!  &NA mug of &+yale &Nfalls to the ground breaking from &+La flamboyant &+Ypatron&N's clumsiness.&N
+~
+M
+qc_action 46~
+&+LA flamboyant &+Ypatron&N burps loudly! *BELCH*
+~
+S
+#28158
+M
+qc_action 41~
+&+LThe &+cVerspin &+Lshowgoer&N yells '&+LGet him!!&N'
+~
+S
+#28159
+M
+qc_action 44~
+&+LThe seasoned &+cVerspin &+Lshowgoer&N says '&+LI knew he'd do that!&N'
+&+LThe seasoned &+cVerspin &+Lshowgoer&N laughs to himself.
+~
+S
+#28160
+M
+qc_action 44~
+&+LThe young showgoer&N ponders and says '&+LI wonder why he didn't attack there..&N'
+~
+M
+qc_action 38~
+The sound of swords &+Wclanging&N and &+Lgladiators&N yelling can be heard below.&N
+~
+S
+#28161
+M
+qc_action 32~
+&+LThe strong &+rsecurity&+L guard&N says '&+rYou can stop right there.&+L'
+~
+M
+qc_action 34~
+&+LThe strong &+rsecurity &+Lguard&N says '&+rYou are not allowed down there.&+L'
+~
+S
+#28162
+M
+qc_action 33~
+&+WA strong feeling of &+Yhonor&N and &+Cnobility&+W fills your body in the
+&+Wpresence of the statue of Siamorphe.
+~
+M
+qc_action 46~
+As you pass, &+WRosman&N touches your head and says '&+WNobility be with you.&N'
+~
+S
+#28171
+M
+qc_action 32~
+&+LThe &+rsecurity &+Lguard &Nsays '&+LThere is a fight in progress.&N'
+~
+M
+qc_action 34~
+&+LThe &+rsecurity &+Lguard&N says '&+rNone shall pass!&+L'
+~
+S
+#28173
+M
+hi hello~
+&+WThe &+Ymonk &Nresponds 'Hello noble adventurer.  I trust you are having
+a pleasant day.  Would you care to do something pleasant?'
+~
+M
+yes pleasant~
+&+WThe &+Ymonk&N replies 'Good!  Every adventurer has heard of the great
+and foreboding city of Bloodstone.  There has been a new tower erected
+somewhere in that city.  This tower is created of &+Ldarkstone&N and
+within it lurks an evil wizard who defies nature.  He has three apprentices
+with him that carry an evil &+csigil&N that corrupts the adventurers they
+lure there!  Please, bring me back this &+csigil&N so the corruption may
+finally end!&N'
+~
+QA
+&+WThe &+Ymonk &Ntakes the &+csigil &Nand utters a magic phrase.. within seconds
+the &+csigil &Ncrumbles to &+ydust&N!
+&+WThe &+YMonk &Nsays 'Thank you dearly, you have provided your worth and
+friendship of our brotherhood.  Shinjin will be very pleased with you.
+Take this as an offering of our thanks!.'
+~
+R I 28153
+R E 85000
+G I 74298
+S
+#28178
+M
+qc_action 45~
+&+YThe &+Winnkeeper&N smiles and says '&+YWill you be staying at the
+&+YInn of the &+WNoble Heart?&N'
+&+YThe &+Winnkeeper&N continues tending to his reception duties.
+~
+S

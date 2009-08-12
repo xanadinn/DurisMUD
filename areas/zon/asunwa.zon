@@ -1,0 +1,185 @@
+#353
+&+LLair of the A&+Gs&+Lun&+Gw&+La J&+Ga&+Lgu&+Ga&+Lr&n~
+35407 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 35335 2 1 100 0 0 0
+*     south exit from "A Long, Featureless Cavern" to
+*     "A Dark Circular Cavern" - closed
+*
+D 0 35336 0 1 100 0 0 0
+*     north exit from "A Dark Circular Cavern" to
+*     "A Long, Featureless Cavern" - closed
+*
+D 0 35349 2 6 100 0 0 0
+*     south exit from "Middle of the Southern End of the Pool" to
+*     "A Small Hill in a Large Clearing" - closed/locked/secret
+*
+D 0 35405 0 1 100 0 0 0
+*     north exit from "A Small Hill in a Large Clearing" to
+*     "Middle of the Southern End of the Pool" - closed
+*
+D 0 35395 6 5 100 0 0 0
+*     northwest exit from "A Very Dark, Featureless Tunnel" to
+*     "A Secret Passage" - closed/secret
+*
+D 0 35399 9 6 100 0 0 0
+*     southeast exit from "A Secret Passage" to
+*     "A Very Dark, Featureless Tunnel" - closed/locked/secret
+*
+D 0 35401 0 5 100 0 0 0
+*     north exit from "A Secret Passage" to
+*     "In a Deep Dark Chasm" - closed/secret
+*
+D 0 35402 2 5 100 0 0 0
+*     south exit from "In a Deep Dark Chasm" to
+*     "A Secret Passage" - closed/secret
+*
+*
+O 0 35302 1 35311 100 0 0 0        * a large emerald
+O 0 35307 1 35334 100 0 0 0        * a jade jaguar statue
+O 0 35315 1 35396 100 0 0 0        * an ancient scroll
+*
+M 0 35300 10 35300 100 0 0 0       * a massive jaguar-man guard
+E 1 35301 999 5 100 0 0 0          *   some jaguar claw armor
+E 1 35300 1 16 100 0 0 0           *   a jade handled longsword
+M 0 35300 10 35300 100 0 0 0       * a massive jaguar-man guard
+M 0 35300 10 35300 100 0 0 0       * a massive jaguar-man guard
+M 0 35300 10 35300 100 0 0 0       * a massive jaguar-man guard
+M 0 35300 10 35301 100 0 0 0       * a massive jaguar-man guard
+M 0 35300 10 35301 100 0 0 0       * a massive jaguar-man guard
+M 0 35301 3 35301 100 0 0 0        * a red flowered liana vine
+M 0 35302 3 35301 100 0 0 0        * a white flowered liana vine
+M 0 35303 3 35301 100 0 0 0        * a yellow flowered liana vine
+M 0 35301 3 35302 100 0 0 0        * a red flowered liana vine
+M 0 35302 3 35302 100 0 0 0        * a white flowered liana vine
+M 0 35303 3 35302 100 0 0 0        * a yellow flowered liana vine
+M 0 35306 7 35302 100 0 0 0        * A speckled ocelot
+M 0 35301 3 35303 100 0 0 0        * a red flowered liana vine
+M 0 35302 3 35303 100 0 0 0        * a white flowered liana vine
+M 0 35303 3 35303 100 0 0 0        * a yellow flowered liana vine
+M 0 35300 10 35304 100 0 0 0       * a massive jaguar-man guard
+M 0 35304 9 35304 100 0 0 0        * A bristling snow leopard
+M 0 35304 9 35306 100 0 0 0        * A bristling snow leopard
+M 0 35300 10 35307 100 0 0 0       * a massive jaguar-man guard
+M 0 35304 9 35308 100 0 0 0        * A bristling snow leopard
+M 0 35305 6 35309 100 0 0 0        * A young jaguar
+M 0 35305 6 35310 100 0 0 0        * A young jaguar
+M 0 35305 6 35310 100 0 0 0        * A young jaguar
+M 0 35307 1 35310 100 0 0 0        * Anair
+E 1 35303 2 16 100 0 0 0           *   a shimmering staff
+M 0 35300 10 35311 100 0 0 0       * a massive jaguar-man guard
+M 0 35305 6 35311 100 0 0 0        * A young jaguar
+M 0 35304 9 35313 100 0 0 0        * A bristling snow leopard
+M 0 35306 7 35314 100 0 0 0        * A speckled ocelot
+M 0 35306 7 35314 100 0 0 0        * A speckled ocelot
+M 0 35308 1 35314 100 0 0 0        * Riana
+E 1 35304 999 8 100 0 0 0          *   a pair of tiger fur boots
+M 0 35306 7 35315 100 0 0 0        * A speckled ocelot
+M 0 35300 10 35316 100 0 0 0       * a massive jaguar-man guard
+M 0 35306 7 35316 100 0 0 0        * A speckled ocelot
+M 0 35305 6 35317 100 0 0 0        * A young jaguar
+M 0 35304 9 35319 100 0 0 0        * A bristling snow leopard
+M 0 35304 9 35319 100 0 0 0        * A bristling snow leopard
+M 0 35304 9 35320 100 0 0 0        * A bristling snow leopard
+M 0 35306 7 35320 100 0 0 0        * A speckled ocelot
+M 0 35305 6 35321 100 0 0 0        * A young jaguar
+M 0 35306 7 35321 100 0 0 0        * A speckled ocelot
+M 0 35304 9 35322 100 0 0 0        * A bristling snow leopard
+M 0 35309 8 35324 100 0 0 0        * a river nymph
+M 0 35309 8 35325 100 0 0 0        * a river nymph
+M 0 35309 8 35326 100 0 0 0        * a river nymph
+M 0 35309 8 35327 100 0 0 0        * a river nymph
+M 0 35310 1 35328 100 0 0 0        * Hytar
+E 1 35305 1 6 100 0 0 0            *   a dark blue crystal crown
+F 1 35311 1 35328 100 0 0 0        * Tylara (following)
+E 1 35306 1 6 100 0 0 0            *   a light blue crystal crown
+M 0 35309 8 35329 100 0 0 0        * a river nymph
+M 0 35309 8 35330 100 0 0 0        * a river nymph
+M 0 35309 8 35331 100 0 0 0        * a river nymph
+M 0 35309 8 35332 100 0 0 0        * a river nymph
+M 0 35312 4 35336 100 0 0 0        * a gigantic bat
+M 0 35312 4 35337 100 0 0 0        * a gigantic bat
+M 0 35312 4 35338 100 0 0 0        * a gigantic bat
+M 0 35312 4 35339 100 0 0 0        * a gigantic bat
+M 0 35313 5 35340 100 0 0 0        * a mermaid
+M 0 35314 7 35340 100 0 0 0        * a merman
+E 1 35309 2 16 100 0 0 0           *   a black and gold trident
+M 0 35314 7 35341 100 0 0 0        * a merman
+M 0 35314 7 35342 100 0 0 0        * a merman
+M 0 35313 5 35343 100 0 0 0        * a mermaid
+M 0 35313 5 35344 100 0 0 0        * a mermaid
+E 1 35308 1 3 100 0 0 0            *   a mermaid scale necklace
+M 0 35314 7 35344 100 0 0 0        * a merman
+M 0 35314 7 35345 100 0 0 0        * a merman
+M 0 35318 9 35346 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35347 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35313 5 35348 100 0 0 0        * a mermaid
+M 0 35313 5 35349 100 0 0 0        * a mermaid
+M 0 35314 7 35349 100 0 0 0        * a merman
+M 0 35314 7 35350 100 0 0 0        * a merman
+E 1 35309 2 16 100 0 0 0           *   a black and gold trident
+M 0 35318 9 35352 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35315 8 35353 100 0 0 0        * a gorilla
+M 0 35315 8 35354 100 0 0 0        * a gorilla
+M 0 35317 10 35354 100 0 0 0       * A Monkey
+M 0 35315 8 35355 100 0 0 0        * a gorilla
+M 0 35315 8 35356 100 0 0 0        * a gorilla
+M 0 35315 8 35357 100 0 0 0        * a gorilla
+M 0 35317 10 35357 100 0 0 0       * A Monkey
+M 0 35316 7 35359 100 0 0 0        * a panda bear
+M 0 35317 10 35361 100 0 0 0       * A Monkey
+M 0 35317 10 35361 100 0 0 0       * A Monkey
+M 0 35316 7 35362 100 0 0 0        * a panda bear
+M 0 35318 9 35367 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35368 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35369 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35371 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35372 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35318 9 35373 100 0 0 0        * a guard in training
+E 1 35311 999 16 100 0 0 0         *   a blacksteel sword
+M 0 35320 1 35374 100 0 0 0        * Anan
+G 1 35311 999 0 100 0 0 0          *    a blacksteel sword
+G 1 35304 999 0 100 0 0 0          *    a pair of tiger fur boots
+G 1 35301 999 0 100 0 0 0          *    some jaguar claw armor
+M 0 35316 7 35375 100 0 0 0        * a panda bear
+E 1 35310 1 13 100 0 0 0           *   a bamboo belt
+M 0 35317 10 35375 100 0 0 0       * A Monkey
+M 0 35317 10 35376 100 0 0 0       * A Monkey
+M 0 35316 7 35377 100 0 0 0        * a panda bear
+M 0 35317 10 35378 100 0 0 0       * A Monkey
+M 0 35316 7 35379 100 0 0 0        * a panda bear
+M 0 35317 10 35379 100 0 0 0       * A Monkey
+M 0 35316 7 35380 100 0 0 0        * a panda bear
+M 0 35316 7 35384 100 0 0 0        * a panda bear
+M 0 35315 8 35385 100 0 0 0        * a gorilla
+M 0 35317 10 35385 100 0 0 0       * A Monkey
+M 0 35315 8 35386 100 0 0 0        * a gorilla
+M 0 35315 8 35387 100 0 0 0        * a gorilla
+M 0 35317 10 35387 100 0 0 0       * A Monkey
+M 0 35319 1 35388 100 0 0 0        * Balgar
+E 1 35303 2 16 100 0 0 0           *   a shimmering staff
+G 1 35313 1 0 100 0 0 0            *    an ancient jade plaque
+M 0 35323 1 35389 100 0 0 0        * Sajana
+E 1 35316 1 2 100 0 0 0            *   a jade ring
+F 1 35324 3 35389 100 0 0 0        * a half-grown jaguar cub (following)
+F 1 35324 3 35389 100 0 0 0        * a half-grown jaguar cub (following)
+F 1 35324 3 35389 100 0 0 0        * a half-grown jaguar cub (following)
+E 1 35317 1 3 100 0 0 0            *   a jade studded collar
+M 0 35322 1 35396 100 0 0 0        * Irom
+E 1 35314 1 12 100 0 0 0           *   an ebony bodycloak
+M 0 35321 1 35405 100 0 0 0        * Asunwa
+G 1 35312 1 0 100 0 0 0            *    a tiny jade key
+M 0 35304 9 35406 100 0 0 0        * A bristling snow leopard
+*
+S

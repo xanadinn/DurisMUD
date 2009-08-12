@@ -1,0 +1,146 @@
+#24021
+M
+hi hello~
+   &+mHaz'on'wyz &Nsimply ignores you.
+~
+M
+draknah~
+   &+mHaz'on'wyz&N stops his invocation and peers at you.
+   '&+LWhat do you know of my master?&N' he asks with a rude and abrupt tone.
+~
+M
+master~
+   &+mHaz'on'wyz &Npeers his eyes further, almost sneering at you.
+   '&+LYes, Draknah has been my master for several years, although he is
+   &+Lold and his powers have grown week.&n'
+~
+M
+weak~
+   '&+LThe old fool is weak and constantly drinking.  He does not deserve
+   &+Lthe title of master conjurer!   Bring me the his precious &+Ygoblet&+L and
+   &+LI will reward you.  Until then, leave this place!'
+      &+mHaz'on'wyz &Nrudely gestures for you to begone, and continues his
+    powerful magic.
+~
+Q
+   &+mHaz'on'wyz&N takes the &+Ygoblet&N and cackles delightfully.
+      '&+LExcellent.  Take this &+Wpiece of amulet&+L.  I stole it from one
+     &+Lof the Zarbonesti warriors while they were foolishly counting
+     &+Ltheir platinum.&N'
+~
+R I 24013
+G I 1515
+D
+   &+mHaz'on'wyz&N continues '&+LCombnied with its other half, this amulet
+   &+Lwields a great power, precious to the Zarbonesti.  If, in your travels
+   &+Lyou encounter a drow named Ozman'dyzus, do not tell him that I gave you
+   &+Lthis.&N'
+
+   &+mHaz'on'wyz&N utter several strange magical phrases, and a massive
+   pillar of &+Rflame&N engulfs him, and he is gone...
+~
+S
+#24022
+M
+haz'on'wyz~
+   &+mOzman'dyzus &Nshrugs at you and says '&+LI know nothing of that name.&n'
+~
+M
+hi hello~
+   &+mOzman'dyzus&N peers at you and says '&+LLeave me be, peasant.&n'
+~
+M
+house~
+   &+mOzman'dyzus &Npauses his travel for a moment and looks at you.
+   He asks '&+LHouse?  Which house do you represent?&N'
+~
+M
+zochra slin ilith olipth sa'zarn sazarn~
+   &+mOzman'dyzus &Nsmirks briefly and whispers '&+LYour house is of no
+   &+Limportance to me. Begone.&N'
+~
+M
+zarbonesti~
+   &+mOzman'Dyzus &Nlooks you up and down very intentl.
+   '&+LYou do not appear to be from my house, Zarbonesti.  However, our
+   &+Llady priestess has informed us that there are many spies and to
+   &+Lconceal ourselves in disguise.&N' &+mOzman'Dyzus&N says.
+
+      '&+LAs you know, our fellow houses can not be trusted.  Ever since
+   &+Lhalf of our amulet of zarbonesti was stolen, we have become much
+   &+Lmore wary about our brothers intentions.  That is why I am attempting
+   &+Lto find a more suitable place for the other half of so that it
+   &+Lcan be properly hidden and protected.  I believe I have found such
+   &+La place, deep in the rocks, past an underground river.   A ruthless
+   &+Lking named Bregnar dwells there currently, however.&N'
+~
+M
+bregnar~
+   &+mOzman'dyzus&N nods at you and continues, '&+LYes this duergar king
+   &+Lmust be assassinated so that we may claim his grounds.  His forces
+   &+Lare not that strong, but their location within the underdark is
+   &+Lheavily fortified and will be difficult to breech.  That is why
+   &+LI would like you, brother Zarbonesti, to infiltrate Bregnar's
+   &+Lsettlement, gain access to his throne room, and kill him.  Bring
+   &+Lforth to me his bracelet, and you will have proven your worth and
+   &+Ldedication to our house.  I will entrust the other half of the amulet
+   &+Lto you, and alert our lady priestss of this success!&N'
+~
+Q
+   &+mOzman'Dyzus &Nsmiles and thanks you.
+   '&+LThe other half of this amulet was stolen by a very powerful drow
+   &+Lmagus.  I'm afraid that is all the information I know.&N'
+      '&+LKryz'Kyssik, the prophetized hunter roams these caverns as well.
+      &+LHe holds great power to Zarbonesti and would be able to help.
+      &+LIf you ever come across the other half of this amulet, take both
+      &+Lpieces to him.&N'
+~
+R I 24014
+R C 150000
+G I 4660
+D
+   &+mOzman'Dyzus &Ndisappears into the shadows.
+~
+S
+#24023
+M
+hi hello~
+   &+mKryz'Kyssik&N raises an eyebrow at you and continues his &+rhunt&N.
+~
+M
+hunt hunting stalking~
+   &+mKryz'Kyssik&N pauses momentarily and whispers, '&+LYes I am on a hunt.
+   &+LThere is a drow who walks among us, unloyal and deviant to the spider
+   &+Lqueen.  Unfortunately I know nothing of this drow except that he has
+   &+Lstolen half of an ancient amulet that belongs to House Zarbonesti.&N'
+~
+M
+zarbonesti amulet~
+   &+mKryz'Kyssik&N nods and says, '&+LOzman'Dyzus was entrusted half of this
+   &+Lamulet, while the other half was stolen by one of the unaligned
+   &+Lmages, probably a neutral apprentice.  Nevertheless, the sanctity
+   &+Lof House Zarbonesti has been defiled until this other half of our
+   &+Lamulet is returned!  I will restore the order of &+Wpower&+L to House
+   &+LZarbonesti when both halves of this &+mamulet &+Lare given to me.&N'
+      '&+LUntil then' &+mKryz'Kyssik &Ncontinues, '&+LThe hunt shall continue.&N'
+~
+QA
+   &+mKryz'Kyssik&N accepts the halves of the amulet and grins, showing
+   his ivory-colored teeth.
+      '&+LYou have done well.&N' he says, as he puts the amulet halves into
+    his cloak.
+      '&+LTake this seal as your reward.  It is my personal crest in House
+    &+LZarbonesti.  Also, accept these weapons, and let them find their way
+    &+Linto the hearts of your enemies.&N'
+~
+R I 24016
+R I 24018
+R I 24017
+R E 35000
+G I 24013
+G I 24014
+D
+   &+mKryz'Kyssik &Ngrins wickedly and raises one hand into the air.
+   He mutters a magical phrase, makes a single gesture, and he is gone...
+~
+S

@@ -1,0 +1,117 @@
+#425
+&+MLair of the &+mPu&+Mr&+mple Worm&n~
+42598 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 42500 0 1 100 0 0 0
+*     north exit from "A Large Crack In the Cavern Wall" to
+*     "The Great Tracks of the Gargantuan Purple Worm" - closed
+*
+D 0 42501 2 1 100 0 0 0
+*     south exit from "The Great Tracks of the Gargantuan Purple Worm" to
+*     "A Large Crack In the Cavern Wall" - closed
+*
+D 0 42510 7 1 100 0 0 0
+*     southwest exit from "A Small Circular Tunnel" to
+*     "A Large Cave" - closed
+*
+D 0 42511 8 1 100 0 0 0
+*     northeast exit from "A Large Cave" to
+*     "A Small Circular Tunnel" - closed
+*
+D 0 42563 9 1 100 0 0 0
+*     southeast exit from "A Small Circular Tunnel" to
+*     "A Large Cave" - closed
+*
+D 0 42564 6 1 100 0 0 0
+*     northwest exit from "A Large Cave" to
+*     "A Small Circular Tunnel" - closed
+*
+*
+*
+M 0 42500 18 42504 100 0 0 0       * a purple worm
+M 0 42500 18 42508 100 0 0 0       * a purple worm
+M 0 42500 18 42509 100 0 0 0       * a purple worm
+M 0 42500 18 42510 100 0 0 0       * a purple worm
+M 0 42501 6 42511 100 0 0 0        * an infant purple worm
+M 0 42501 6 42511 100 0 0 0        * an infant purple worm
+M 0 42501 6 42511 100 0 0 0        * an infant purple worm
+M 0 42502 21 42514 100 0 0 0       * a large purple worm
+M 0 42500 18 42516 100 0 0 0       * a purple worm
+M 0 42502 21 42516 100 0 0 0       * a large purple worm
+M 0 42502 21 42518 100 0 0 0       * a large purple worm
+M 0 42500 18 42521 100 0 0 0       * a purple worm
+M 0 42502 21 42522 100 0 0 0       * a large purple worm
+M 0 42500 18 42526 100 0 0 0       * a purple worm
+M 0 42502 21 42528 100 0 0 0       * a large purple worm
+M 0 42500 18 42529 100 0 0 0       * a purple worm
+M 0 42500 18 42535 100 0 0 0       * a purple worm
+M 0 42502 21 42535 100 0 0 0       * a large purple worm
+M 0 42505 7 42536 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42505 7 42537 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42500 18 42539 100 0 0 0       * a purple worm
+M 0 42502 21 42541 100 0 0 0       * a large purple worm
+M 0 42500 18 42544 100 0 0 0       * a purple worm
+M 0 42502 21 42546 100 0 0 0       * a large purple worm
+M 0 42500 18 42548 100 0 0 0       * a purple worm
+M 0 42500 18 42549 100 0 0 0       * a purple worm
+M 0 42502 21 42549 100 0 0 0       * a large purple worm
+M 0 42504 1 42551 100 0 0 0        * the mouth of the gargantuan worm
+M 0 42500 18 42552 100 0 0 0       * a purple worm
+M 0 42502 21 42552 100 0 0 0       * a large purple worm
+M 0 42502 21 42554 100 0 0 0       * a large purple worm
+M 0 42500 18 42557 100 0 0 0       * a purple worm
+M 0 42502 21 42558 100 0 0 0       * a large purple worm
+M 0 42500 18 42560 100 0 0 0       * a purple worm
+M 0 42500 18 42561 100 0 0 0       * a purple worm
+M 0 42500 18 42563 100 0 0 0       * a purple worm
+M 0 42501 6 42564 100 0 0 0        * an infant purple worm
+M 0 42501 6 42564 100 0 0 0        * an infant purple worm
+M 0 42501 6 42564 100 0 0 0        * an infant purple worm
+M 0 42502 21 42565 100 0 0 0       * a large purple worm
+M 0 42502 21 42567 100 0 0 0       * a large purple worm
+M 0 42502 21 42569 100 0 0 0       * a large purple worm
+M 0 42502 21 42570 100 0 0 0       * a large purple worm
+M 0 42502 21 42572 100 0 0 0       * a large purple worm
+M 0 42502 21 42573 100 0 0 0       * a large purple worm
+M 0 42502 21 42575 100 0 0 0       * a large purple worm
+M 0 42502 21 42575 100 0 0 0       * a large purple worm
+M 0 42502 21 42577 100 0 0 0       * a large purple worm
+M 0 42503 4 42579 100 0 0 0        * a HUGE purple worm
+M 0 42503 4 42582 100 0 0 0        * a HUGE purple worm
+M 0 42503 4 42585 100 0 0 0        * a HUGE purple worm
+M 0 42503 4 42587 100 0 0 0        * a HUGE purple worm
+M 0 42505 7 42589 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42505 7 42590 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42505 7 42591 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42505 7 42592 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+M 0 42505 7 42593 100 0 0 0        * a segment of the gargantuan worm
+G 1 42500 7 0 100 0 0 0            *    some gargantuan worm hide
+G 1 42503 1 0 100 0 0 0            *    the corpse of Drakhov
+P 1 42502 1 42503 100 0 0 0        *   the family amulet of Drakhov
+P 1 42515 1 42503 100 0 0 0        *   a polished sapphire ring
+M 0 42506 1 42594 65 0 0 0         * Draknahov, the purple worm slayer
+E 1 42514 1 21 100 0 0 0           *   a bat-tooth earring
+E 1 42501 1 16 100 0 0 0           *   a huge bloodstained battleaxe
+M 0 42508 1 42594 65 0 0 0         * a mutated purple worm
+E 1 42505 1 5 100 0 0 0            *   a fine suit of purple worm hide armor
+E 1 42506 1 16 100 0 0 0           *   a jagged sword made of purple worm jaws
+M 0 42509 1 42594 65 0 0 0         * the great goblin warrior
+E 1 42507 1 15 100 0 0 0           *   intestines wrapped as a bracer
+E 1 42508 1 16 100 0 0 0           *   a large chipped-bone sword
+M 0 42510 1 42596 100 0 0 0        * a shadow dragon
+G 1 42512 1 0 100 0 0 0            *    the cloak of the shadow dragon
+M 0 42507 1 42596 100 0 0 0        * a sly battle-scarred assassin
+E 1 42511 1 8 100 0 0 0            *   some boots of cavern wall climbing
+E 1 42509 1 16 100 0 0 0           *   a wicked-looking stiletto
+E 1 42510 1 17 100 0 0 0           *   a nasty-looking stiletto
+*
+S

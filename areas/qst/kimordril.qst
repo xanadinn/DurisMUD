@@ -1,0 +1,59 @@
+#95508
+M
+hi hello~
+She doesn't seem to notice you.
+~
+M
+help busy~
+She stops for a moment and eyes you warily before saying, 'Oh, yes, I am
+so busy trying to finish cleanin up this place. Pretty soon it'll be time
+fer supper and I haven't gone to the square yet to get food!' She frowns,
+then rubs her beard, watching you. She continues, 'Hmm, if you would
+be so kind as to get some vegetables for me, and a new cutting knife, I'll
+pay ya for your kindness.' She then smiles and hurries off to finish her
+housework.
+~
+M
+vegetables carrot potato~
+She turns towards you and says, 'What about em? They're in the guild square.'
+~
+Q
+She beams a wide smile at you from underneath her beard and says, 'Thank you,
+thank you, thank you, this is just what I needed.'
+~
+R C 60
+R E 100
+G I 95506
+G I 95508
+G I 95507
+D
+
+The woman bustles off on some unseen errand.
+~
+S
+#95512
+M
+hi hello~
+He nods at you in greeting.
+~
+M
+skin skins boar goat money~
+He grins and says, 'Sure, I'll give ya money fer some animal skins if ya
+gots em.'
+~
+Q
+He smiles and says, 'Thanks! Here ya go.'
+~
+R C 30
+G I 95512
+Q
+He grins at you and says, 'Thanks! Here you go.'
+~
+R C 35
+G I 95513
+Q
+He grins at you and says, 'Thanks! Here you go.'
+~
+R C 20
+G I 95514
+S

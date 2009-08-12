@@ -1,0 +1,456 @@
+#825
+&+MMyrabolus&n~
+82683 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 82518 0 1 100 0 0 0
+*     north exit from "Ancients Avenue" to
+*     "Roland's House" - closed
+*
+D 0 82519 2 1 100 0 0 0
+*     south exit from "Roland's House" to
+*     "Ancients Avenue" - closed
+*
+D 0 82521 0 1 100 0 0 0
+*     north exit from "Ancients Avenue" to
+*     "Ajax's Arena" - closed
+*
+D 0 82522 2 1 100 0 0 0
+*     south exit from "Ajax's Arena" to
+*     "Ancients Avenue" - closed
+*
+D 0 82528 0 2 100 0 0 0
+*     north exit from "The Palace Gates" to
+*     "In the Halls of the Ziggurat Palace" - closed/locked
+*
+D 0 82529 2 2 100 0 0 0
+*     south exit from "In the Halls of the Ziggurat Palace" to
+*     "The Palace Gates" - closed/locked
+*
+D 0 82532 4 5 100 0 0 0
+*     up exit from "Inside the Hull of a Fallen SpellJammer" to
+*     "Crash Site of a Fallen SpellJammer" - closed/secret
+*
+D 0 82584 5 5 100 0 0 0
+*     down exit from "Crash Site of a Fallen SpellJammer" to
+*     "Inside the Hull of a Fallen SpellJammer" - closed/secret
+*
+D 0 82545 1 1 100 0 0 0
+*     east exit from "Aphantan Avenue" to
+*     "Foyer of the Home of the Holy" - closed
+*
+D 0 82571 3 1 100 0 0 0
+*     west exit from "Foyer of the Home of the Holy" to
+*     "Aphantan Avenue" - closed
+*
+D 0 82550 2 2 100 0 0 0
+*     south exit from "The Observatory" to
+*     "A Swirling Portal" - closed/locked
+*
+D 0 82627 0 2 100 0 0 0
+*     north exit from "A Swirling Portal" to
+*     "The Observatory" - closed/locked
+*
+D 0 82551 2 1 100 0 0 0
+*     south exit from "Ancients Avenue" to
+*     "A Plush Living Room" - closed
+*
+D 0 82552 0 1 100 0 0 0
+*     north exit from "A Plush Living Room" to
+*     "Ancients Avenue" - closed
+*
+D 0 82553 0 1 100 0 0 0
+*     north exit from "Ancients Avenue" to
+*     "Flagar's Room" - closed
+*
+D 0 82554 2 1 100 0 0 0
+*     south exit from "Flagar's Room" to
+*     "Ancients Avenue" - closed
+*
+D 0 82555 2 1 100 0 0 0
+*     south exit from "Ancients Avenue" to
+*     "Ethan's House" - closed
+*
+D 0 82556 0 1 100 0 0 0
+*     north exit from "Ethan's House" to
+*     "Ancients Avenue" - closed
+*
+D 0 82562 3 1 100 0 0 0
+*     west exit from "Skylight Lane" to
+*     "A Sitting Room" - closed
+*
+D 0 82563 1 1 100 0 0 0
+*     east exit from "A Sitting Room" to
+*     "Skylight Lane" - closed
+*
+D 0 82575 0 1 100 0 0 0
+*     north exit from "Rising Sun Corridor" to
+*     "A Rented Room" - closed
+*
+D 0 82580 2 1 100 0 0 0
+*     south exit from "A Rented Room" to
+*     "Rising Sun Corridor" - closed
+*
+D 0 82576 0 1 100 0 0 0
+*     north exit from "Rising Sun Corridor" to
+*     "A Rented Room" - closed
+*
+D 0 82579 2 1 100 0 0 0
+*     south exit from "A Rented Room" to
+*     "Rising Sun Corridor" - closed
+*
+D 0 82577 0 1 100 0 0 0
+*     north exit from "Rising Sun Corridor" to
+*     "A Rented Room" - closed
+*
+D 0 82578 2 1 100 0 0 0
+*     south exit from "A Rented Room" to
+*     "Rising Sun Corridor" - closed
+*
+D 0 82606 1 5 100 0 0 0
+*     east exit from "In the Halls of the Ziggurat Palace" to
+*     "Walkway to the Magistrate's Hidden SpellJammer" - closed/secret
+*
+D 0 82612 3 5 100 0 0 0
+*     west exit from "Walkway to the Magistrate's Hidden SpellJammer" to
+*     "In the Halls of the Ziggurat Palace" - closed/secret
+*
+D 0 82607 4 6 100 0 0 0
+*     up exit from "The Ziggurat Palace Hall of the Tri-Lords" to
+*     "The Treasure Room" - closed/locked/secret
+*
+D 0 82626 5 6 100 0 0 0
+*     down exit from "The Treasure Room" to
+*     "The Ziggurat Palace Hall of the Tri-Lords" - closed/locked/secret
+*
+D 0 82614 5 1 100 0 0 0
+*     down exit from "The Bridge of the Sunweaver" to
+*     "The High Magistrate's Quarters" - closed
+*
+D 0 82618 4 1 100 0 0 0
+*     up exit from "The High Magistrate's Quarters" to
+*     "The Bridge of the Sunweaver" - closed
+*
+D 0 82631 1 5 100 0 0 0
+*     east exit from "The Trail Ends" to
+*     "The Western Beach" - closed/secret
+*
+D 0 82644 3 5 100 0 0 0
+*     west exit from "The Western Beach" to
+*     "The Trail Ends" - closed/secret
+*
+D 0 82634 2 1 100 0 0 0
+*     south exit from "A Wagon Stop" to
+*     "The Travelling Hound Dog Tavern" - closed
+*
+D 0 82641 0 1 100 0 0 0
+*     north exit from "The Travelling Hound Dog Tavern" to
+*     "A Wagon Stop" - closed
+*
+D 0 82638 1 1 100 0 0 0
+*     east exit from "Before the Pier" to
+*     "The Harbour Master's Station" - closed
+*
+D 0 82671 3 1 100 0 0 0
+*     west exit from "The Harbour Master's Station" to
+*     "Before the Pier" - closed
+*
+D 0 82638 2 1 100 0 0 0
+*     south exit from "Before the Pier" to
+*     "The Gates of the Myrabolan Docks" - closed
+*
+D 0 82653 0 1 100 0 0 0
+*     north exit from "The Gates of the Myrabolan Docks" to
+*     "Before the Pier" - closed
+*
+D 0 82645 2 5 100 0 0 0
+*     south exit from "The Myrabolan Dock Road" to
+*     "Off the Road" - closed/secret
+*
+D 0 82656 0 5 100 0 0 0
+*     north exit from "Off the Road" to
+*     "The Myrabolan Dock Road" - closed/secret
+*
+D 0 82672 1 5 100 0 0 0
+*     east exit from "A Dark Forest Trail" to
+*     "A Su-Monster Den" - closed/secret
+*
+D 0 82673 3 5 100 0 0 0
+*     west exit from "A Su-Monster Den" to
+*     "A Dark Forest Trail" - closed/secret
+*
+*
+O 0 82505 1 82515 100 0 0 0        * a hunter's fountain
+O 0 82557 1 82519 100 0 0 0        * a golden plated chest
+P 1 82517 1 82557 100 0 0 0        *   a wrinkled piece of parchment
+O 0 82544 1 82579 100 0 0 0        * a dresser drawer
+P 1 82543 1 82544 100 0 0 0        *   a small letter
+O 0 82510 1 82588 100 0 0 0        * an old, wooden, crate
+P 1 82558 1 82510 100 0 0 0        *   an ancient gold tinted key
+O 0 3097 1 82600 100 0 0 0         * (object type not in this .obj file)
+O 0 82521 1 82626 100 0 0 0        * the armor of balance
+O 0 82524 1 82626 100 0 0 0        * an irridescent blue mask
+O 0 72 100 82626 100 0 0 0         * (object type not in this .obj file)
+O 0 2267 1 82626 100 0 0 0         * (object type not in this .obj file)
+O 0 82539 1 82627 100 0 0 0        * a swirling portal
+O 0 82541 1 82636 100 0 0 0        * a fire pit
+O 0 82546 1 82662 100 0 0 0        * a small life raft
+O 0 82550 1 82673 100 0 0 0        * a wad of tree sap
+*
+M 0 82554 1 82501 100 0 0 0        * an elite guard
+M 0 82505 1 82501 100 0 0 0        * a veteran pikeman
+M 0 82531 9 82502 100 0 0 0        * a half-orc commoner
+M 0 82503 9 82503 100 0 0 0        * a myrabolan hunter guard
+E 1 82503 5 16 100 0 0 0           *   a myrabolan shortsword
+F 1 82504 5 82503 100 0 0 0        * a black panther (following)
+M 0 82534 8 82504 100 0 0 0        * a pretty woman
+M 0 82534 8 82505 100 0 0 0        * a pretty woman
+M 0 82520 5 82506 100 0 0 0        * a minotaur townsperson
+M 0 82512 7 82507 100 0 0 0        * a pigeon
+M 0 82501 5 82507 100 0 0 0        * an archer
+M 0 82512 7 82508 100 0 0 0        * a pigeon
+M 0 82512 7 82508 100 0 0 0        * a pigeon
+M 0 82501 5 82508 100 0 0 0        * an archer
+M 0 82550 5 82509 100 0 0 0        * a visiting grey elf
+M 0 82563 1 82510 100 0 0 0        * a soldier of fortune
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82531 9 82511 100 0 0 0        * a half-orc commoner
+M 0 82552 1 82511 100 0 0 0        * a logger from desolate
+E 1 82540 1 10 100 0 0 0           *   some tree bark sleeves
+M 0 82531 9 82512 100 0 0 0        * a half-orc commoner
+M 0 82551 4 82512 100 0 0 0        * a high elf citizen
+E 1 82536 1 21 100 0 0 0           *   a golden earring of elven nobility
+M 0 82534 8 82513 100 0 0 0        * a pretty woman
+M 0 82551 4 82514 100 0 0 0        * a high elf citizen
+M 0 82514 1 82515 100 0 0 0        * a celestial white dragon
+G 1 82542 1 0 100 0 0 0            *    a huge celestial dragon scale
+M 0 82503 9 82516 100 0 0 0        * a myrabolan hunter guard
+E 1 82509 4 24 100 0 0 0           *   a symbol of a sword thrust through a cresent moon
+R 1 82524 3 82516 100 0 0 0        * a whitetiger (being ridden)
+M 0 82530 9 82517 100 0 0 0        * a myrabolan commoner
+M 0 82551 4 82518 100 0 0 0        * a high elf citizen
+M 0 82503 9 82520 100 0 0 0        * a myrabolan hunter guard
+E 1 82509 4 24 100 0 0 0           *   a symbol of a sword thrust through a cresent moon
+F 1 82504 5 82520 100 0 0 0        * a black panther (following)
+M 0 82535 3 82521 100 0 0 0        * a halfling trickster
+M 0 82529 1 82522 100 0 0 0        * Ajax
+E 1 82516 1 16 100 0 0 0           *   a wicked red-shafted battle axe
+F 1 82533 3 82522 100 0 0 0        * a knight in training (following)
+F 1 82533 3 82522 100 0 0 0        * a knight in training (following)
+F 1 82533 3 82522 100 0 0 0        * a knight in training (following)
+M 0 82512 7 82523 100 0 0 0        * a pigeon
+M 0 82562 4 82523 100 0 0 0        * a kitty
+M 0 82512 7 82525 100 0 0 0        * a pigeon
+M 0 82502 4 82528 100 0 0 0        * a palace guard
+G 1 82537 1 0 100 0 0 0            *    a palace key
+M 0 82502 4 82528 100 0 0 0        * a palace guard
+M 0 82551 4 82530 100 0 0 0        * a high elf citizen
+M 0 82530 9 82531 100 0 0 0        * a myrabolan commoner
+M 0 82562 4 82531 100 0 0 0        * a kitty
+M 0 82513 1 82532 100 0 0 0        * the ruiner
+E 1 82512 1 9 100 0 0 0            *   the claws of the ruiner
+M 0 82512 7 82533 100 0 0 0        * a pigeon
+M 0 82501 5 82534 100 0 0 0        * an archer
+E 1 82503 5 16 100 0 0 0           *   a myrabolan shortsword
+E 1 82504 2 17 100 0 0 0           *   an elitist compound bow
+M 0 82534 8 82535 100 0 0 0        * a pretty woman
+E 1 82534 1 18 100 0 0 0           *   the drums of dignity
+M 0 82501 5 82537 100 0 0 0        * an archer
+E 1 82503 5 16 100 0 0 0           *   a myrabolan shortsword
+E 1 82504 2 17 100 0 0 0           *   an elitist compound bow
+M 0 82512 7 82537 100 0 0 0        * a pigeon
+M 0 82530 9 82538 100 0 0 0        * a myrabolan commoner
+M 0 82531 9 82539 100 0 0 0        * a half-orc commoner
+M 0 82503 9 82540 100 0 0 0        * a myrabolan hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+R 1 82524 3 82540 100 0 0 0        * a whitetiger (being ridden)
+M 0 82530 9 82541 100 0 0 0        * a myrabolan commoner
+M 0 82550 5 82542 100 0 0 0        * a visiting grey elf
+M 0 82530 9 82543 100 0 0 0        * a myrabolan commoner
+M 0 82503 9 82543 100 0 0 0        * a myrabolan hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82520 5 82544 100 0 0 0        * a minotaur townsperson
+M 0 82520 5 82545 100 0 0 0        * a minotaur townsperson
+M 0 82531 9 82546 100 0 0 0        * a half-orc commoner
+M 0 82532 3 82548 100 0 0 0        * a young warlock
+M 0 82532 3 82548 100 0 0 0        * a young warlock
+M 0 82532 3 82548 100 0 0 0        * a young warlock
+M 0 82507 1 82550 100 0 0 0        * Xavier
+E 1 82507 1 5 100 0 0 0            *   the robes of equality
+E 1 82508 1 16 100 0 0 0           *   a pale white staff etched with a cresent moon
+M 0 82520 5 82551 100 0 0 0        * a minotaur townsperson
+M 0 82530 9 82553 100 0 0 0        * a myrabolan commoner
+M 0 82550 5 82555 100 0 0 0        * a visiting grey elf
+M 0 82534 8 82557 100 0 0 0        * a pretty woman
+M 0 82531 9 82558 100 0 0 0        * a half-orc commoner
+M 0 82517 1 82559 100 0 0 0        * Simon
+M 0 82530 9 82559 100 0 0 0        * a myrabolan commoner
+M 0 82534 8 82560 100 0 0 0        * a pretty woman
+M 0 82550 5 82561 100 0 0 0        * a visiting grey elf
+M 0 82530 9 82562 100 0 0 0        * a myrabolan commoner
+M 0 82503 9 82564 100 0 0 0        * a myrabolan hunter guard
+E 1 82503 5 16 100 0 0 0           *   a myrabolan shortsword
+E 1 82509 4 24 100 0 0 0           *   a symbol of a sword thrust through a cresent moon
+F 1 82504 5 82564 100 0 0 0        * a black panther (following)
+M 0 82534 8 82565 100 0 0 0        * a pretty woman
+M 0 82535 3 82566 100 0 0 0        * a halfling trickster
+M 0 82503 9 82567 100 0 0 0        * a myrabolan hunter guard
+F 1 82504 5 82567 100 0 0 0        * a black panther (following)
+M 0 82520 5 82568 100 0 0 0        * a minotaur townsperson
+M 0 82531 9 82568 100 0 0 0        * a half-orc commoner
+M 0 82576 1 82569 100 0 0 0        * a myrabolan guard hunter captain
+M 0 82575 2 82569 100 0 0 0        * a Myrabolan hunter guard
+M 0 82575 2 82569 100 0 0 0        * a Myrabolan hunter guard
+M 0 82574 1 82569 100 0 0 0        * a wounded myrabolan hunter guard
+M 0 82530 9 82570 100 0 0 0        * a myrabolan commoner
+M 0 82543 1 82570 100 0 0 0        * a monkey hunter
+M 0 82562 4 82570 100 0 0 0        * a kitty
+M 0 82509 1 82572 100 0 0 0        * Michal Valentyne
+E 1 82549 1 16 100 0 0 0           *   a whitestone broadsword
+G 1 82519 1 0 100 0 0 0            *    one half of the keystone
+M 0 82510 3 82573 100 0 0 0        * an off-duty militia guard
+M 0 82510 3 82573 100 0 0 0        * an off-duty militia guard
+M 0 82510 3 82573 100 0 0 0        * an off-duty militia guard
+M 0 82511 1 82573 100 0 0 0        * a duergar bartender
+M 0 82531 9 82581 100 0 0 0        * a half-orc commoner
+M 0 82535 3 82583 100 0 0 0        * a halfling trickster
+M 0 82562 4 82583 100 0 0 0        * a kitty
+M 0 82550 5 82585 100 0 0 0        * a visiting grey elf
+E 1 82535 1 2 100 0 0 0            *   a silver ring embossed with a cresent moon
+M 0 82531 9 82586 100 0 0 0        * a half-orc commoner
+M 0 82503 9 82587 100 0 0 0        * a myrabolan hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+F 1 82524 3 82587 100 0 0 0        * a whitetiger (following)
+M 0 82515 1 82589 100 0 0 0        * Rico
+G 1 82529 1 0 100 0 0 0            *    a bottle of Jack Dinklys
+G 1 82527 1 0 100 0 0 0            *    a magic 8 ball
+G 1 82526 1 0 100 0 0 0            *    a deck of cards, all aces
+G 1 82525 1 0 100 0 0 0            *    a pair of studded black leather chaps
+M 0 82519 3 82590 100 0 0 0        * a half-orc assistant
+M 0 82519 3 82590 100 0 0 0        * a half-orc assistant
+M 0 82519 3 82590 100 0 0 0        * a half-orc assistant
+M 0 82518 1 82590 100 0 0 0        * Andryn
+M 0 82516 1 82591 100 0 0 0        * Random
+M 0 82548 1 82596 100 0 0 0        * the leader of squad 58
+E 1 82533 1 3 100 0 0 0            *   the service tags of the squad
+F 1 82549 4 82596 100 0 0 0        * a rebellious ranger (following)
+F 1 82549 4 82596 100 0 0 0        * a rebellious ranger (following)
+F 1 82549 4 82596 100 0 0 0        * a rebellious ranger (following)
+F 1 82549 4 82596 100 0 0 0        * a rebellious ranger (following)
+M 0 82521 1 82600 100 0 0 0        * Dutch
+M 0 82522 1 82601 100 0 0 0        * Decker
+M 0 82523 1 82602 100 0 0 0        * Shantil
+G 1 82513 1 0 100 0 0 0            *    a set of myrabolan lockpicks
+G 1 82514 999 0 100 0 0 0          *    a myrabolan spellbook
+G 1 82502 1 0 100 0 0 0            *    a myrabolan backpack
+G 1 82501 1 0 100 0 0 0            *    a purple quill
+G 1 82506 999 0 100 0 0 0          *    a dietary supplement
+G 1 82531 99 0 100 0 0 0           *    a myrabolan arrow
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 54 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 336 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 82502 4 82607 100 0 0 0        * a palace guard
+M 0 82502 4 82607 100 0 0 0        * a palace guard
+M 0 82544 1 82608 100 0 0 0        * the Tri-Lord of Spirits
+E 1 82532 1 18 100 0 0 0           *   the totem of the Tri-Lord
+M 0 82546 1 82609 100 0 0 0        * the Tri-Lord of Time
+M 0 82545 1 82610 100 0 0 0        * the Tri-Lord of Gravity
+M 0 82501 5 82611 100 0 0 0        * an archer
+M 0 82539 5 82613 100 0 0 0        * a first class hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82539 5 82614 100 0 0 0        * a first class hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82540 4 82614 100 0 0 0        * a hunter guard constable
+M 0 82539 5 82615 100 0 0 0        * a first class hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82540 4 82615 100 0 0 0        * a hunter guard constable
+M 0 82539 5 82616 100 0 0 0        * a first class hunter guard
+M 0 82540 4 82617 100 0 0 0        * a hunter guard constable
+E 1 82523 1 15 100 0 0 0           *   a spiked purple steel bracer
+M 0 82538 1 82618 100 0 0 0        * Markam, the High Magistrate
+M 0 82539 5 82619 100 0 0 0        * a first class hunter guard
+E 1 82515 8 16 100 0 0 0           *   a purple-hued scimitar
+M 0 82540 4 82619 100 0 0 0        * a hunter guard constable
+M 0 82525 3 82620 100 0 0 0        * a whitetiger
+M 0 82525 3 82620 100 0 0 0        * a whitetiger
+M 0 82525 3 82620 100 0 0 0        * a whitetiger
+M 0 82526 2 82620 100 0 0 0        * a black warhorse
+M 0 82526 2 82620 100 0 0 0        * a black warhorse
+M 0 82527 8 82621 100 0 0 0        * a shock troop
+M 0 82527 8 82621 100 0 0 0        * a shock troop
+M 0 82527 8 82621 100 0 0 0        * a shock troop
+M 0 82527 8 82621 100 0 0 0        * a shock troop
+M 0 82527 8 82622 100 0 0 0        * a shock troop
+M 0 82527 8 82622 100 0 0 0        * a shock troop
+M 0 82527 8 82622 100 0 0 0        * a shock troop
+M 0 82527 8 82622 100 0 0 0        * a shock troop
+M 0 82528 3 82624 100 0 0 0        * a resting hunter guard
+M 0 82528 3 82624 100 0 0 0        * a resting hunter guard
+M 0 82528 3 82624 100 0 0 0        * a resting hunter guard
+M 0 82537 1 82625 100 0 0 0        * Alexis
+M 0 82541 1 82626 100 0 0 0        * the forsaken guardian
+M 0 82553 1 82627 100 0 0 0        * a soldier of fortune
+M 0 82566 3 82628 100 0 0 0        * a wandering half-elf
+M 0 82567 4 82629 100 0 0 0        * a playful squirrel
+M 0 82567 4 82629 100 0 0 0        * a playful squirrel
+M 0 82571 3 82632 100 0 0 0        * a seagull
+M 0 82555 2 82634 100 0 0 0        * a myrabolan commoner
+M 0 82555 2 82634 100 0 0 0        * a myrabolan commoner
+M 0 82566 3 82634 100 0 0 0        * a wandering half-elf
+M 0 82564 2 82636 100 0 0 0        * an archer
+E 1 82509 4 24 100 0 0 0           *   a symbol of a sword thrust through a cresent moon
+M 0 82564 2 82636 100 0 0 0        * an archer
+M 0 82568 3 82637 100 0 0 0        * a small doe
+M 0 82568 3 82637 100 0 0 0        * a small doe
+M 0 82568 3 82637 100 0 0 0        * a small doe
+M 0 82566 3 82637 100 0 0 0        * a wandering half-elf
+M 0 82534 8 82637 100 0 0 0        * a pretty woman
+M 0 82503 9 82639 100 0 0 0        * a myrabolan hunter guard
+E 1 82503 5 16 100 0 0 0           *   a myrabolan shortsword
+F 1 82504 5 82639 100 0 0 0        * a black panther (following)
+M 0 82556 2 82641 100 0 0 0        * an off-duty militia guard
+M 0 82556 2 82641 100 0 0 0        * an off-duty militia guard
+M 0 82570 1 82641 100 0 0 0        * a shapely waitress
+M 0 82536 1 82642 100 0 0 0        * Flagar
+E 1 82548 1 19 100 0 0 0           *   some polished chrome-coloured sunglasses
+M 0 82571 3 82643 100 0 0 0        * a seagull
+M 0 82571 3 82644 100 0 0 0        * a seagull
+M 0 82557 1 82645 100 0 0 0        * a first class hunter guard
+M 0 82567 4 82649 100 0 0 0        * a playful squirrel
+M 0 82567 4 82649 100 0 0 0        * a playful squirrel
+M 0 82506 3 82653 100 0 0 0        * a myrabolan gate guard
+M 0 82506 3 82653 100 0 0 0        * a myrabolan gate guard
+M 0 82506 3 82653 100 0 0 0        * a myrabolan gate guard
+M 0 82560 3 82655 100 0 0 0        * a hunter guard
+M 0 82560 3 82655 100 0 0 0        * a hunter guard
+M 0 82560 3 82655 100 0 0 0        * a hunter guard
+M 0 82561 1 82655 100 0 0 0        * a hunter guard captain
+M 0 82558 6 82658 100 0 0 0        * a su-monster
+M 0 82558 6 82658 100 0 0 0        * a su-monster
+M 0 82558 6 82659 100 0 0 0        * a su-monster
+M 0 82558 6 82659 100 0 0 0        * a su-monster
+M 0 82565 1 82661 100 0 0 0        * an orc naval officer
+M 0 82559 3 82663 100 0 0 0        * a su-monster
+M 0 82559 3 82663 100 0 0 0        * a su-monster
+M 0 82559 3 82665 100 0 0 0        * a su-monster
+M 0 82547 1 82667 100 0 0 0        * Ethan
+E 1 82545 1 23 100 0 0 0           *   the masters quiver
+E 1 82559 1 16 100 0 0 0           *   the masters longbow
+G 1 13321 4 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 13321 4 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 13321 4 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 13321 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 82500 1 82667 100 0 0 0        * Roland
+E 1 82560 1 13 100 0 0 0           *   a black leather belt embossed with a silver cresent moon.
+E 1 82500 1 16 100 0 0 0           *   a black double-edged shortsword dubbed, Huntsmaster
+M 0 82569 1 82669 100 0 0 0        * Balance
+M 0 82573 1 82670 100 0 0 0        * the dock master
+M 0 82558 6 82672 100 0 0 0        * a su-monster
+M 0 82558 6 82672 100 0 0 0        * a su-monster
+M 0 82572 1 82673 100 0 0 0        * a huge su-monster
+E 1 82556 1 13 100 0 0 0           *   a strip of su-monster skin
+G 1 82561 1 0 100 0 0 0            *    a su-monster pelt
+*
+S

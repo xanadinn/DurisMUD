@@ -1,0 +1,661 @@
+#73
+&+LThe Prisons of &+mCarthapia&n~
+7498 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 7300 0 2 100 0 0 0
+*     north exit from "The Main Foyer" to
+*     "An Inspection Chamber" - closed/locked
+*
+D 0 7303 2 2 100 0 0 0
+*     south exit from "An Inspection Chamber" to
+*     "The Main Foyer" - closed/locked
+*
+D 0 7303 0 2 100 0 0 0
+*     north exit from "An Inspection Chamber" to
+*     "A Small Chamber" - closed/locked
+*
+D 0 7304 2 2 100 0 0 0
+*     south exit from "A Small Chamber" to
+*     "An Inspection Chamber" - closed/locked
+*
+D 0 7304 0 2 100 0 0 0
+*     north exit from "A Small Chamber" to
+*     "The Inmate Interrogation Room" - closed/locked
+*
+D 0 7305 2 2 100 0 0 0
+*     south exit from "The Inmate Interrogation Room" to
+*     "A Small Chamber" - closed/locked
+*
+D 0 7310 0 2 100 0 0 0
+*     north exit from "|The|Minimum|Security|Block|" to
+*     "A Tidy Intersection" - closed/locked
+*
+D 0 7311 2 2 100 0 0 0
+*     south exit from "A Tidy Intersection" to
+*     "|The|Minimum|Security|Block|" - closed/locked
+*
+D 0 7314 3 2 100 0 0 0
+*     west exit from "Along the West Cell Blocks" to
+*     "A Well Kept Cell" - closed/locked
+*
+D 0 7315 1 2 100 0 0 0
+*     east exit from "A Well Kept Cell" to
+*     "Along the West Cell Blocks" - closed/locked
+*
+D 0 7316 3 2 100 0 0 0
+*     west exit from "Along the West Cell Blocks" to
+*     "An Empty Cell" - closed/locked
+*
+D 0 7317 1 2 100 0 0 0
+*     east exit from "An Empty Cell" to
+*     "Along the West Cell Blocks" - closed/locked
+*
+D 0 7318 3 2 100 0 0 0
+*     west exit from "Along the West Cell Blocks" to
+*     "A Damp Cell" - closed/locked
+*
+D 0 7319 1 2 100 0 0 0
+*     east exit from "A Damp Cell" to
+*     "Along the West Cell Blocks" - closed/locked
+*
+D 0 7320 3 2 100 0 0 0
+*     west exit from "Along the West Cell Blocks" to
+*     "A Plain Cell" - closed/locked
+*
+D 0 7321 1 2 100 0 0 0
+*     east exit from "A Plain Cell" to
+*     "Along the West Cell Blocks" - closed/locked
+*
+D 0 7322 3 2 100 0 0 0
+*     west exit from "Along the West Cell Blocks" to
+*     "A Vandalized Cell" - closed/locked
+*
+D 0 7323 1 2 100 0 0 0
+*     east exit from "A Vandalized Cell" to
+*     "Along the West Cell Blocks" - closed/locked
+*
+D 0 7333 1 2 100 0 0 0
+*     east exit from "Along the East Cell Blocks" to
+*     "A Small Cell" - closed/locked
+*
+D 0 7334 3 2 100 0 0 0
+*     west exit from "A Small Cell" to
+*     "Along the East Cell Blocks" - closed/locked
+*
+D 0 7335 1 2 100 0 0 0
+*     east exit from "Along the East Cell Blocks" to
+*     "A Decorated Cell" - closed/locked
+*
+D 0 7336 3 2 100 0 0 0
+*     west exit from "A Decorated Cell" to
+*     "Along the East Cell Blocks" - closed/locked
+*
+D 0 7337 1 2 100 0 0 0
+*     east exit from "Along the East Cell Blocks" to
+*     "A Smooth Cell" - closed/locked
+*
+D 0 7338 3 2 100 0 0 0
+*     west exit from "A Smooth Cell" to
+*     "Along the East Cell Blocks" - closed/locked
+*
+D 0 7339 1 2 100 0 0 0
+*     east exit from "Along the East Cell Blocks" to
+*     "A Moldy Cell" - closed/locked
+*
+D 0 7340 3 2 100 0 0 0
+*     west exit from "A Moldy Cell" to
+*     "Along the East Cell Blocks" - closed/locked
+*
+D 0 7341 1 2 100 0 0 0
+*     east exit from "Along the East Cell Blocks" to
+*     "A Shadowy Cell" - closed/locked
+*
+D 0 7342 3 2 100 0 0 0
+*     west exit from "A Shadowy Cell" to
+*     "Along the East Cell Blocks" - closed/locked
+*
+D 0 7355 2 2 100 0 0 0
+*     south exit from "|Maximum|Security|Block|" to
+*     "A Winding Corridor" - closed/locked
+*
+D 0 7356 0 2 100 0 0 0
+*     north exit from "A Winding Corridor" to
+*     "|Maximum|Security|Block|" - closed/locked
+*
+D 0 7358 3 8 100 0 0 0
+*     west exit from "A Sloping Shaft" to
+*     "A Secret Passage" - open/blocked
+*
+D 0 7482 1 4 100 0 0 0
+*     east exit from "A Secret Passage" to
+*     "A Sloping Shaft" - open/secret
+*
+D 0 7370 0 2 100 0 0 0
+*     north exit from "|Southwest|Maximum|Security|Blocks|" to
+*     "A Large Gash in the Granite" - closed/locked
+*
+D 0 7372 2 2 100 0 0 0
+*     south exit from "A Large Gash in the Granite" to
+*     "|Southwest|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7370 2 2 100 0 0 0
+*     south exit from "|Southwest|Maximum|Security|Blocks|" to
+*     "A Large Gash in the Granite" - closed/locked
+*
+D 0 7371 0 2 100 0 0 0
+*     north exit from "A Large Gash in the Granite" to
+*     "|Southwest|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7377 0 2 100 0 0 0
+*     north exit from "|Southeast|Maximum|Security|Blocks|" to
+*     "A Large Gash in the Granite" - closed/locked
+*
+D 0 7378 2 2 100 0 0 0
+*     south exit from "A Large Gash in the Granite" to
+*     "|Southeast|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7377 2 2 100 0 0 0
+*     south exit from "|Southeast|Maximum|Security|Blocks|" to
+*     "A Large Gash in the Granite" - closed/locked
+*
+D 0 7379 0 2 100 0 0 0
+*     north exit from "A Large Gash in the Granite" to
+*     "|Southeast|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7385 0 2 100 0 0 0
+*     north exit from "A Glowing Intersection" to
+*     "Before a Shimmering Gateway" - closed/locked
+*
+D 0 7386 2 2 100 0 0 0
+*     south exit from "Before a Shimmering Gateway" to
+*     "A Glowing Intersection" - closed/locked
+*
+D 0 7389 0 2 100 0 0 0
+*     north exit from "|Northwest|Maximum|Security|Blocks|" to
+*     "A Pulsing Cave" - closed/locked
+*
+D 0 7390 2 2 100 0 0 0
+*     south exit from "A Pulsing Cave" to
+*     "|Northwest|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7389 2 2 100 0 0 0
+*     south exit from "|Northwest|Maximum|Security|Blocks|" to
+*     "A Rancid Chamber" - closed/locked
+*
+D 0 7391 0 2 100 0 0 0
+*     north exit from "A Rancid Chamber" to
+*     "|Northwest|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7395 0 2 100 0 0 0
+*     north exit from "|Northeast|Maximum|Security|Blocks|" to
+*     "An Earthen Cell" - closed/locked
+*
+D 0 7397 2 2 100 0 0 0
+*     south exit from "An Earthen Cell" to
+*     "|Northeast|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7395 2 2 100 0 0 0
+*     south exit from "|Northeast|Maximum|Security|Blocks|" to
+*     "A Smoke Filled Lair" - closed/locked
+*
+D 0 7396 0 2 100 0 0 0
+*     north exit from "A Smoke Filled Lair" to
+*     "|Northeast|Maximum|Security|Blocks|" - closed/locked
+*
+D 0 7397 0 5 100 0 0 0
+*     north exit from "An Earthen Cell" to
+*     "A Secret Tunnel" - closed/secret
+*
+D 0 7398 2 5 100 0 0 0
+*     south exit from "A Secret Tunnel" to
+*     "An Earthen Cell" - closed/secret
+*
+D 0 7429 5 6 100 0 0 0
+*     down exit from "Southwest Corner of the Detention Center" to
+*     "An Earthen Tomb" - closed/locked/secret
+*
+D 0 7447 4 6 100 0 0 0
+*     up exit from "An Earthen Tomb" to
+*     "Southwest Corner of the Detention Center" - closed/locked/secret
+*
+D 0 7430 5 6 100 0 0 0
+*     down exit from "Southeast Corner of the Dentention Center" to
+*     "Entrance to the Lair of the Great Dragon, Smaug" - closed/locked/secret
+*
+D 0 7438 4 6 100 0 0 0
+*     up exit from "Entrance to the Lair of the Great Dragon, Smaug" to
+*     "Southeast Corner of the Dentention Center" - closed/locked/secret
+*
+D 0 7450 1 2 100 0 0 0
+*     east exit from "A Reinforced Gateway" to
+*     "Entrance to the Oubliette" - closed/locked
+*
+D 0 7451 3 2 100 0 0 0
+*     west exit from "Entrance to the Oubliette" to
+*     "A Reinforced Gateway" - closed/locked
+*
+D 0 7456 6 2 100 0 0 0
+*     northwest exit from "Limbo" to
+*     "The Edge of a Deep Pool" - closed/locked
+*
+D 0 7469 9 2 100 0 0 0
+*     southeast exit from "The Edge of a Deep Pool" to
+*     "Limbo" - closed/locked
+*
+D 0 7457 0 2 100 0 0 0
+*     north exit from "Limbo" to
+*     "A Solid Bank of Fog" - closed/locked
+*
+D 0 7467 2 2 100 0 0 0
+*     south exit from "A Solid Bank of Fog" to
+*     "Limbo" - closed/locked
+*
+D 0 7458 8 2 100 0 0 0
+*     northeast exit from "Limbo" to
+*     "A Swirling Mass" - closed/locked
+*
+D 0 7470 7 2 100 0 0 0
+*     southwest exit from "A Swirling Mass" to
+*     "Limbo" - closed/locked
+*
+D 0 7459 3 2 100 0 0 0
+*     west exit from "Limbo" to
+*     "The Edge of the Mist" - closed/locked
+*
+D 0 7466 1 2 100 0 0 0
+*     east exit from "The Edge of the Mist" to
+*     "Limbo" - closed/locked
+*
+D 0 7461 1 2 100 0 0 0
+*     east exit from "Limbo" to
+*     "A Landmass of Pure Obsidian" - closed/locked
+*
+D 0 7468 3 2 100 0 0 0
+*     west exit from "A Landmass of Pure Obsidian" to
+*     "Limbo" - closed/locked
+*
+D 0 7462 7 2 100 0 0 0
+*     southwest exit from "Limbo" to
+*     "A Towering Pillar of Fire" - closed/locked
+*
+D 0 7472 8 2 100 0 0 0
+*     northeast exit from "A Towering Pillar of Fire" to
+*     "Limbo" - closed/locked
+*
+D 0 7464 9 2 100 0 0 0
+*     southeast exit from "Limbo" to
+*     "A Desert of Rock" - closed/locked
+*
+D 0 7471 6 2 100 0 0 0
+*     northwest exit from "A Desert of Rock" to
+*     "Limbo" - closed/locked
+*
+D 0 7481 0 2 100 0 0 0
+*     north exit from "A Nexus" to
+*     "The Center of the Nexus" - closed/locked
+*
+D 0 7498 2 2 100 0 0 0
+*     south exit from "The Center of the Nexus" to
+*     "A Nexus" - closed/locked
+*
+D 0 7482 3 8 100 0 0 0
+*     west exit from "A Secret Passage" to
+*     "A Secret Shrine" - open/blocked
+*
+D 0 7483 1 4 100 0 0 0
+*     east exit from "A Secret Shrine" to
+*     "A Secret Passage" - open/secret
+*
+*
+O 0 7349 1 7353 100 0 0 0          * a hole full of scat
+P 1 7350 1 7349 100 0 0 0          *   a large turd
+P 1 7372 1 7349 100 0 0 0          *   a tarnished coin
+O 0 7353 16 7356 100 0 0 0         * a lit torch
+O 0 7353 16 7357 100 0 0 0         * a lit torch
+O 0 7353 16 7358 100 0 0 0         * a lit torch
+O 0 7353 16 7359 100 0 0 0         * a lit torch
+O 0 7353 16 7360 100 0 0 0         * a lit torch
+O 0 7353 16 7362 100 0 0 0         * a lit torch
+O 0 7353 16 7363 100 0 0 0         * a lit torch
+O 0 7354 1 7364 100 0 0 0          * a lit torch
+O 0 7353 16 7365 100 0 0 0         * a lit torch
+O 0 7353 16 7366 100 0 0 0         * a lit torch
+O 0 7353 16 7368 100 0 0 0         * a lit torch
+O 0 7353 16 7373 100 0 0 0         * a lit torch
+O 0 7353 16 7376 100 0 0 0         * a lit torch
+O 0 7353 16 7381 100 0 0 0         * a lit torch
+O 0 7353 16 7384 100 0 0 0         * a lit torch
+O 0 7337 1 7386 100 0 0 0          * a shimmering gateway
+O 0 7355 1 7387 100 0 0 0          * a lit torch
+O 0 7353 16 7388 100 0 0 0         * a lit torch
+O 0 7353 16 7394 100 0 0 0         * a lit torch
+O 0 7336 1 7465 100 0 0 0          * a shimmering gateway
+O 0 7360 1 7466 100 0 0 0          * a wall of mist
+O 0 7361 1 7467 100 0 0 0          * a wall of fog
+O 0 7363 1 7468 100 0 0 0          * a solid wall of obsidian
+O 0 7351 1 7469 100 0 0 0          * a large pool of water
+O 0 7362 1 7470 100 0 0 0          * a swirling gust of air
+O 0 7364 1 7471 100 0 0 0          * the earth
+O 0 7359 1 7472 100 0 0 0          * a wall of flames
+O 0 7333 1 7478 100 0 0 0          * a desk
+P 1 7335 1 7333 100 0 0 0          *   a glass key
+O 0 7371 1 7481 100 0 0 0          * a portal
+O 0 358 1 7498 100 0 0 0           * (object type not in this .obj file)
+O 0 55183 1 7498 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 7301 2 7300 100 0 0 0          * a large minotaur guard
+E 1 7300 50 18 100 0 0 0           *   a ring of silver keys
+E 1 7316 1 39 100 0 0 0            *   a silver nosering
+F 1 7300 4 7300 100 0 0 0          * a prison guard (following)
+E 1 7305 4 5 100 0 0 0             *   a shabby scalemail suit
+E 1 7304 4 16 100 0 0 0            *   a large halberd
+F 1 7300 4 7300 100 0 0 0          * a prison guard (following)
+E 1 7305 4 5 100 0 0 0             *   a shabby scalemail suit
+E 1 7304 4 16 100 0 0 0            *   a large halberd
+F 1 7300 4 7300 100 0 0 0          * a prison guard (following)
+E 1 7305 4 5 100 0 0 0             *   a shabby scalemail suit
+E 1 7304 4 16 100 0 0 0            *   a large halberd
+F 1 7300 4 7300 100 0 0 0          * a prison guard (following)
+E 1 7305 4 5 100 0 0 0             *   a shabby scalemail suit
+E 1 7304 4 16 100 0 0 0            *   a large halberd
+M 0 7302 1 7301 100 0 0 0          * a visiting drow elf
+M 0 7303 1 7301 100 0 0 0          * a visiting duergar
+M 0 7304 1 7301 100 0 0 0          * a shadowy figure
+M 0 7305 1 7302 100 0 0 0          * a stalky human
+M 0 7306 1 7302 100 0 0 0          * a visiting gnome
+M 0 7307 1 7302 100 0 0 0          * a visiting halfling
+M 0 7308 2 7303 100 0 0 0          * a prison sentry
+M 0 7308 2 7303 100 0 0 0          * a prison sentry
+M 0 7309 2 7304 100 0 0 0          * a prison sentry
+M 0 7309 2 7304 100 0 0 0          * a prison sentry
+M 0 7310 1 7305 100 0 0 0          * the interrogator
+E 1 7306 1 16 100 0 0 0            *   a small pike
+E 1 7308 1 17 100 0 0 0            *   a heavy stick
+E 1 7309 1 18 100 0 0 0            *   a strange wand
+E 1 7310 1 20 100 0 0 0            *   a spiked mask
+M 0 7311 1 7305 100 0 0 0          * a drow inmate
+M 0 7312 1 7305 100 0 0 0          * a terrified orc
+M 0 7313 2 7310 100 0 0 0          * a prison sentry
+M 0 7313 2 7310 100 0 0 0          * a prison sentry
+E 1 7301 50 18 100 0 0 0           *   a small key
+M 0 7316 6 7311 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7314 6 7313 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7314 6 7313 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7314 6 7313 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7315 2 7313 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7328 2 18 100 0 0 0            *   a bloostained holy symbol
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7316 6 7314 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7318 1 7315 100 0 0 0          * a petty thief
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7319 1 7317 100 0 0 0          * a fraudulent miracle worker.
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7316 6 7318 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7320 1 7319 100 0 0 0          * an ogre rapist
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7321 1 7319 100 0 0 0          * a duergar male
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7322 1 7321 100 0 0 0          * a renegade
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7323 1 7323 100 0 0 0          * a young revolutionary
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7316 6 7325 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7317 1 7328 100 0 0 0          * the Warden's assistant
+E 1 7302 50 3 100 0 0 0            *   a golden ring of keys
+E 1 7317 1 18 100 0 0 0            *   a granite totem
+M 0 7316 6 7333 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7324 1 7334 100 0 0 0          * a duergar smuggler
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7325 1 7336 100 0 0 0          * a menacing githyanki
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7316 6 7337 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7326 1 7338 100 0 0 0          * an Illithid
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7327 1 7340 100 0 0 0          * a troll drunkard
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7328 1 7342 100 0 0 0          * an angry assassin
+E 1 7312 2 16 100 0 0 0            *   a jagged piece of stone
+E 1 7312 2 17 100 0 0 0            *   a jagged piece of stone
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7345 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7345 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7347 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7347 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7348 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7348 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7349 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7349 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7330 4 7349 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7331 1 7350 100 0 0 0          * the prison cook
+E 1 7320 1 13 100 0 0 0            *   a greasy apron
+E 1 7319 1 16 100 0 0 0            *   a knife
+E 1 7318 1 18 100 0 0 0            *   a hot spatula
+M 0 7329 12 7351 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7351 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7330 4 7351 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7329 12 7352 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7329 12 7352 100 0 0 0         * a hungry inmate
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7330 4 7352 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7330 4 7353 100 0 0 0          * a patrolling guard
+E 1 7313 10 5 100 0 0 0            *   a rusty set of ringmail
+E 1 7315 10 11 100 0 0 0           *   a rusty shield
+E 1 7314 10 16 100 0 0 0           *   a rusty longsword
+M 0 7332 1 7355 100 0 0 0          * a guardian
+E 1 7321 1 12 100 0 0 0            *   a flowing white robe
+E 1 7303 1 18 100 0 0 0            *   a large silver key
+F 1 7301 2 7355 100 0 0 0          * a large minotaur guard (following)
+E 1 7322 1 37 100 0 0 0            *   a sapphire ring
+M 0 7368 3 7370 100 0 0 0          * an elite guard
+M 0 7367 3 7370 100 0 0 0          * an elite guard
+G 1 7376 1 0 100 0 0 0             *    a mithril key
+M 0 7341 1 7371 100 0 0 0          * a human outcast
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7342 1 7371 100 0 0 0          * a dwarven outcast
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7343 1 7371 100 0 0 0          * a halfling outcast
+E 1 7348 2 16 100 0 0 0            *   a rusty kitchen knife
+E 1 7348 2 17 100 0 0 0            *   a rusty kitchen knife
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7344 1 7372 100 0 0 0          * the Siniore leader
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7345 3 7372 100 0 0 0          * a Siniore henchman (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7345 3 7372 100 0 0 0          * a Siniore henchman (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7345 3 7372 100 0 0 0          * a Siniore henchman (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7335 5 7375 100 0 0 0          * an elite guard
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+M 0 7335 5 7375 100 0 0 0          * an elite guard
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+M 0 7334 5 7375 100 0 0 0          * an elite guard
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+E 1 7332 5 16 100 0 0 0            *   a gleaming claymore
+M 0 7334 5 7375 100 0 0 0          * an elite guard
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+E 1 7332 5 16 100 0 0 0            *   a gleaming claymore
+M 0 7367 3 7377 100 0 0 0          * an elite guard
+M 0 7368 3 7377 100 0 0 0          * an elite guard
+G 1 7375 1 0 100 0 0 0             *    a mithril key
+M 0 7346 2 7378 100 0 0 0          * a manes
+M 0 7346 2 7378 100 0 0 0          * a manes
+M 0 7338 1 7379 100 0 0 0          * Ogre
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7337 1 7379 100 0 0 0          * Githyanki (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7339 1 7379 100 0 0 0          * Drow Elf (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7340 1 7379 100 0 0 0          * Troll (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+F 1 7336 1 7379 100 0 0 0          * Githyanki (following)
+E 1 7311 35 5 100 0 0 0            *   a prison uniform
+M 0 7367 3 7389 100 0 0 0          * an elite guard
+M 0 7369 2 7389 100 0 0 0          * a guardian
+G 1 7373 1 0 100 0 0 0             *    a mithril key
+M 0 7350 1 7390 100 0 0 0          * an intellect devourer
+G 1 7347 1 0 100 0 0 0             *    a ring of thought
+M 0 7349 1 7391 100 0 0 0          * a harpy queen
+M 0 7348 3 7391 100 0 0 0          * a filthy harpy
+M 0 7348 3 7391 100 0 0 0          * a filthy harpy
+M 0 7348 3 7391 100 0 0 0          * a filthy harpy
+M 0 7335 5 7393 100 0 0 0          * an elite guard
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+M 0 7335 5 7393 100 0 0 0          * an elite guard
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+M 0 7334 5 7393 100 0 0 0          * an elite guard
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+E 1 7332 5 16 100 0 0 0            *   a gleaming claymore
+M 0 7334 5 7393 100 0 0 0          * an elite guard
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+E 1 7332 5 16 100 0 0 0            *   a gleaming claymore
+M 0 7369 2 7395 100 0 0 0          * a guardian
+G 1 7374 1 0 100 0 0 0             *    a mithril key
+M 0 7368 3 7395 100 0 0 0          * an elite guard
+M 0 7347 1 7396 100 0 0 0          * Siatra, the Great Gorgon
+E 1 7346 1 40 100 0 0 0            *   the horns of Siatra, the Gorgon
+M 0 7351 1 7437 100 0 0 0          * captain of the guard
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7339 1 40 100 0 0 0            *   horns of ivory
+G 1 7340 1 0 100 0 0 0             *    an obsidian key
+F 1 7334 5 7437 100 0 0 0          * an elite guard (following)
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+E 1 7332 5 16 100 0 0 0            *   a gleaming claymore
+F 1 7335 5 7437 100 0 0 0          * an elite guard (following)
+E 1 7331 6 11 100 0 0 0            *   a reflective shield
+E 1 7330 6 16 100 0 0 0            *   a well polished longsword
+E 1 7329 10 5 100 0 0 0            *   a suit of shiny platemail
+M 0 7353 1 7443 100 0 0 0          * the Great Dragon, Smaug
+G 1 7342 1 0 100 0 0 0             *    some scales of the Great Dragon Smaug
+G 1 7343 1 0 100 0 0 0             *    some scales of the Great Dragon Smaug
+G 1 7344 1 0 100 0 0 0             *    some scales of the Great Dragon Smaug
+M 0 7352 1 7454 100 0 0 0          * a crazed beholder
+G 1 7341 1 0 100 0 0 0             *    the eye of the beholder
+M 0 7354 1 7460 100 0 0 0          * a robed figure
+G 1 7338 1 0 100 0 0 0             *    the key of the elements
+G 1 7377 1 0 100 0 0 0             *    A swirling Nexus key
+F 1 7355 2 7460 100 0 0 0          * a gargoyle (following)
+F 1 7355 2 7460 100 0 0 0          * a gargoyle (following)
+F 1 7366 2 7460 100 0 0 0          * a gargoyle (following)
+F 1 7366 2 7460 100 0 0 0          * a gargoyle (following)
+M 0 7314 6 7473 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7314 6 7473 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7314 6 7473 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7327 6 11 100 0 0 0            *   a bloody spiked shield
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7315 2 7473 100 0 0 0          * a riot guard
+E 1 7324 8 5 100 0 0 0             *   a bloodstained breastplate
+E 1 7325 8 7 100 0 0 0             *   some bloodstained leggings
+E 1 7326 8 16 100 0 0 0            *   a bloodstained riotstick
+E 1 7328 2 18 100 0 0 0            *   a bloostained holy symbol
+E 1 7323 8 6 100 0 0 0             *   a bloodstained faceplate
+M 0 7333 1 7478 100 0 0 0          * the Warden
+G 1 7334 1 0 100 0 0 0             *    a small wooden cylinder
+M 0 7356 1 7480 100 0 0 0          * the Morkoth
+E 1 7352 1 6 100 0 0 0             *   the band of focusing
+M 0 7357 1 7483 100 0 0 0          * the prison chaplain
+E 1 7358 1 5 100 0 0 0             *   the ancient robes of Ganj'Ananda
+E 1 7356 1 8 100 0 0 0             *   a pair of bone sandals
+E 1 7357 1 13 100 0 0 0            *   a garland of flowers
+M 0 7358 1 7485 100 0 0 0          * Amaimon
+E 1 7365 1 16 100 0 0 0            *   a flaming axe of the Azer
+F 1 7359 2 7485 100 0 0 0          * an azer (following)
+F 1 7359 2 7485 100 0 0 0          * an azer (following)
+M 0 7360 1 7487 100 0 0 0          * a greater Shedu
+E 1 7366 1 12 100 0 0 0            *   the wings of the Shedu
+M 0 7365 1 7489 100 0 0 0          * The Legendary Tarrasque
+E 1 7370 1 5 100 0 0 0             *   carapace of the Legendary Tarrasque
+M 0 7361 1 7491 100 0 0 0          * a Ki-Rin
+E 1 7367 1 5 100 0 0 0             *   the coat of the Ki-Rin
+M 0 7371 2 7491 100 0 0 0          * a living vortex
+M 0 7371 2 7491 100 0 0 0          * a living vortex
+M 0 7362 1 7493 100 0 0 0          * an erinyes devil
+E 1 7368 1 16 100 0 0 0            *   a caustic dagger
+M 0 7363 5 7493 100 0 0 0          * an erinyes devil
+M 0 7363 5 7493 100 0 0 0          * an erinyes devil
+M 0 7364 1 7495 100 0 0 0          * a powerful Xaren
+E 1 7369 1 10 100 0 0 0            *   a pair of stone sleeves
+M 0 7370 1 7495 100 0 0 0          * a rock eater
+*
+S

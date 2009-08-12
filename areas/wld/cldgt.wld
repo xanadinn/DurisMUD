@@ -1,0 +1,3627 @@
+#99500
+&+yA Rocky Trail~
+   This rocky trail cuts through a small wooded area towards the
+center of the valley where a fairly nice settlement has been
+established this far away from the powerful kingdoms of Tharnadia.
+There are many sounds in the area, including those of people hard
+at work and children playing. The village can be seen just off
+to the north here.
+~
+995 33554436 5
+D0
+~
+~
+0 0 99501
+D2
+~
+~
+0 0 553314
+S
+#99501
+&+yOutside Some Flimsy Wooden Gates~
+  This seems to be where the town starts, where these poorly
+constructed gates stand aproximatly fifteen feet high. The gates
+are made out of only timber, and not the best timber at that.
+The mountains seem to have made this area a little bit colder
+than the rest of the area. There is much snowfall during the year,
+however, the peasants seem to have been able to grow quit a
+plentiful crop.
+~
+995 33554432 1
+D0
+~
+gates~
+1 0 99502
+D2
+~
+~
+0 0 99500
+S
+#99502
+&+yInside The Tall Wooden Gates~
+  Inside these gates opens a vast village that flourishes from
+many different kinds of crops. There are several people walking
+around the city pulling crates of fresh vegetables and fruits
+along with them. From this point of view, the gates look at tiny
+bit more sturdy. The wood used to make these gates was probably cut
+down from one of the local forest to the valley, and seems to be
+of a very sturdy condition.  Small engravings have been engraved
+upon the gate during the time it was built.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99503
+D2
+~
+gates~
+1 0 99501
+S
+#99503
+&+YA Pleasant Village Path~
+  This path runs through the farming lands of the town, and is
+nothing more than a dirt road where wagon trails have been worn
+into the ground. The gates of the small village are short ways
+off to the south, and there are farm lands all around.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99504
+D1
+~
+door~
+0 0 99518
+D2
+~
+~
+0 0 99502
+D3
+~
+door~
+1 0 99516
+S
+#99504
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D1
+~
+~
+0 0 99505
+D2
+~
+~
+0 0 99503
+D3
+~
+door~
+1 0 99522
+S
+#99505
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99506
+D1
+~
+door~
+1 0 99514
+D3
+~
+~
+0 0 99504
+S
+#99506
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99507
+D2
+~
+~
+0 0 99505
+S
+#99507
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D1
+~
+door~
+1 0 99512
+D2
+~
+~
+0 0 99506
+D3
+~
+~
+0 0 99508
+S
+#99508
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99509
+D1
+~
+~
+0 0 99507
+D3
+~
+door~
+1 0 99520
+S
+#99509
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99510
+D2
+~
+~
+0 0 99508
+S
+#99510
+&+YA Pleasant Village Path~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99511
+D1
+~
+door~
+1 0 99524
+D2
+~
+~
+0 0 99509
+S
+#99511
+&+yA Brick Road~
+  This small brick road leads into the small village and has
+been put together very well. The bricks have been formed to
+fit in a particular manner to paint an unusually beautiful picture
+accross the road. To the south lies a path that stretches out
+through the farms, and there is a large mountain very close to
+the north of the village.
+~
+995 33554436 1
+D0
+~
+~
+0 0 99526
+D2
+~
+~
+0 0 99510
+S
+#99512
+&+GA Farmer's Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554432 0
+D2
+The barn is that way.
+~
+barn~
+1 0 99513
+D3
+~
+door~
+1 0 99507
+S
+#99513
+&+yA Large Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The barn is that way.
+~
+barn~
+1 0 99512
+S
+#99514
+&+gA Small Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554432 0
+D2
+The barn is that way.
+~
+barn~
+1 0 99515
+D3
+~
+door~
+1 0 99505
+S
+#99515
+&+yA Small Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is north.
+~
+barn~
+1 0 99514
+S
+#99516
+&+yA Farmer's Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554432 0
+D1
+~
+door~
+1 0 99503
+D2
+The barn is there.
+~
+barn~
+1 0 99517
+S
+#99517
+&+gA Smelly Old Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is there.
+~
+barn~
+1 0 99516
+S
+#99518
+&+yA Quiet Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554448 0
+D2
+The barn is south.
+~
+barn~
+1 0 99519
+D3
+~
+~
+0 0 99503
+S
+#99519
+&+mA Stuffy Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is north.
+~
+barn~
+1 0 99518
+S
+#99520
+&+mA Peaceful Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554432 0
+D1
+~
+door~
+1 0 99508
+D2
+The barn is south.
+~
+barn~
+1 0 99521
+S
+#99521
+&+RA Noisy Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is north.
+~
+barn~
+1 0 99520
+S
+#99522
+&+gA Small Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds.
+~
+995 33554432 0
+D1
+~
+door~
+1 0 99504
+D2
+The barn is to the south.
+~
+barn~
+1 0 99523
+S
+#99523
+&+mA Quiet Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is north.
+~
+barn~
+1 0 99522
+S
+#99524
+&+yA Fancy Cottage~
+  This cottage is surrounded by fields of animals and fields of
+produce. There are many barrels of freshly picked vegetables lined
+up against the house, and there is a barn at the back of the house.
+The village's maint pathway is close by outside the farmer's property.
+A ways off to the east there is a huge mountain that soars high
+up into the clouds. This cottage looks a lot better than the rest with
+its fancy furniture.
+~
+995 33554432 0
+D2
+The barn is south.
+~
+barn~
+1 0 99525
+D3
+~
+door~
+1 0 99510
+S
+#99525
+&+mA Very Large Barn~
+  This barn is very large and fits many small animals in it.
+The farmer's kids can often be seen working in here, milking
+the cows and sheering the goats. There is a large stack of straw
+at the top of the barn that acts like a silo. Often in one of
+the corner's of the barn lies a pile of fertilizer that adds
+a certain smell to the room.
+~
+995 33554432 0
+D0
+The cottage is north.
+~
+barn~
+1 0 99524
+S
+#99526
+&+yA Brick Road~
+  This small brick road leads into the small village and has
+been put together very well. The bricks have been formed to
+fit in a particular manner to paint a beautiful picture
+accross the road. To the south lies a path that stretches out
+through the farms, and there is a large mountain very close to
+the north of the village.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99527
+D2
+~
+~
+0 0 99511
+S
+#99527
+&+yA Brick Road~
+  This small brick road leads into the small village and has
+been put together very well. The bricks have been formed to
+fit in a particular manner to paint an unusually beautiful picture
+accross the road. To the south lies a path that stretches out
+through the farms, and there is a large mountain very close to
+the north of the village.
+~
+995 33554436 1
+D0
+~
+~
+0 0 99528
+D2
+~
+~
+0 0 99526
+S
+#99528
+&+yA Brick Road~
+  This small brick road leads into the small village and has
+been put together very well. The bricks have been formed to
+fit in a particular manner to paint a beautiful picture
+accross the road. To the south lies a path that stretches out
+through the farms, and there is a large mountain very close to
+the north of the village.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99529
+D2
+~
+~
+0 0 99527
+S
+#99529
+&+yTown Square~
+&+y  This seems to be the common square where people are put in
+&+ybird cages and the like when they break the town rules. There
+&+yis a very large well, that seems to be under repair at the
+&+ymoment, and is not operational right now. Since the well is
+&+ybeing repaired, the young lads of the town have to travel to
+&+ythe river or the lake to get their water for their families.
+&+yA statue stands in the center here, with a small garden growing
+&+yabout it.
+~
+995 33554436 1
+D0
+~
+~
+0 0 99530
+D1
+~
+~
+0 0 99572
+D2
+~
+~
+0 0 99528
+D3
+~
+~
+0 0 99536
+S
+#99530
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D0
+~
+~
+0 0 99531
+D1
+~
+~
+0 0 99532
+D2
+~
+~
+0 0 99529
+D3
+~
+~
+0 0 99533
+S
+#99531
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D0
+~
+~
+0 0 99538
+D1
+~
+~
+0 0 99534
+D2
+~
+~
+0 0 99530
+D3
+~
+~
+0 0 99535
+S
+#99532
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D0
+~
+~
+0 0 99534
+D3
+~
+~
+0 0 99530
+S
+#99533
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D0
+~
+~
+0 0 99535
+D1
+~
+~
+0 0 99530
+S
+#99534
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D2
+~
+~
+0 0 99532
+D3
+~
+~
+0 0 99531
+S
+#99535
+&+BOn A Small Lake~
+&+b  This lake is relatively small, and only spans a few hundred yards
+&+bin diamter. Many animals and villagers come here to get there water,
+&+bdue to the fact that it is fresh water. However, the villagers still
+&+bheat their water due to the fact of all the bugs and animals that
+&+bcome to bathe in these waters. The lake comes up against the mountain
+&+bon the north side.
+~
+995 33554432 7
+D1
+~
+~
+0 0 99531
+D2
+~
+~
+0 0 99533
+S
+#99536
+&+LA Back Alley~
+  This small alley simply separates two large brick buildings,
+which look well constructed.  The alley is more of a small street,
+but is not even close to the size of Tharnadia. There is a large
+door to the south, and a smaller one to the north.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99537
+D1
+~
+~
+0 0 99529
+D2
+~
+~
+0 0 99562
+S
+#99537
+&+yThe &+WFur &+yTrader's Building~
+&+y This building is lined with all sorts of pelts and there
+&+yis a grinning man hard at work here, busy mending the pelts
+&+yand preparing different garbs for the towns folk. There is
+&+ya simple sign on the door that mentions something about
+&+yyeti hide pelts being worth a great deal and he could make
+&+ysomething very intresting out of them.
+~
+995 33554432 0
+D2
+~
+~
+0 0 99536
+S
+#99538
+&+yAt The Base of a Mountain~
+&+y The mountain here comes down to meet the lake at the village.
+&+yTo the east and to the west are some small trails that seem to
+&+ylead up into the mountain. To the south is the center of the
+&+ysmall town and the lake.
+~
+995 33554436 5
+D0
+The secret is hidden very well.
+~
+boulder~
+3 99505 99561
+D1
+~
+~
+0 0 99540
+D2
+~
+~
+0 0 99531
+D3
+~
+~
+0 0 99539
+D4
+~
+~
+0 0 99591
+S
+#99539
+&+yA Steep Mountain Trail~
+   This mountain trail comes off of small shore and up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99538
+D4
+~
+~
+0 0 99541
+S
+#99540
+&+yA Steep Mountain Trail~
+   This mountain trail comes off of small shore and up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99543
+D3
+~
+~
+0 0 99538
+S
+#99541
+&+yA Steep Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D3
+~
+~
+0 0 99542
+D5
+~
+~
+0 0 99539
+S
+#99542
+&+yA Steep Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99541
+D3
+~
+cave~
+5 0 99577
+D4
+~
+~
+0 0 99545
+S
+#99543
+&+yA Steep Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D3
+~
+~
+0 0 99540
+D4
+~
+~
+0 0 99544
+S
+#99544
+&+yA Steep Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+cave~
+5 0 99575
+D3
+~
+~
+0 0 99548
+D5
+~
+~
+0 0 99543
+S
+#99545
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D4
+~
+~
+0 0 99546
+D5
+~
+~
+0 0 99542
+S
+#99546
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D3
+~
+~
+0 0 99547
+D5
+~
+~
+0 0 99545
+S
+#99547
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99546
+D3
+The cave is that way.
+~
+cave~
+5 0 99573
+D4
+~
+~
+0 0 99552
+S
+#99548
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99544
+D4
+~
+~
+0 0 99549
+S
+#99549
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99550
+D5
+~
+~
+0 0 99548
+S
+#99550
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D3
+~
+~
+0 0 99549
+D4
+~
+~
+0 0 99551
+S
+#99551
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D4
+~
+~
+0 0 99556
+D5
+~
+~
+0 0 99550
+S
+#99552
+&+yA Mountail Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D4
+~
+~
+0 0 99553
+D5
+~
+~
+0 0 99547
+S
+#99553
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+The cave is east.
+~
+cave~
+5 0 99554
+D5
+~
+~
+0 0 99552
+S
+#99554
+&+LA Dark Cave~
+   This cave is covered with snow and is very cold, there
+are many foot prints along the cave, and some old bones
+of humans are laying about. The back part of the cave seems
+like it would move.
+~
+995 33554432 5
+D1
+The curtain seems to be made of animal skins.
+~
+curtain~
+1 0 99555
+D3
+The mountain is west.
+~
+cave~
+1 0 99553
+S
+#99555
+&+WA Yeti Lair~
+   In this room lies the infamous yeti, that seems to pray on
+mountain goats. This part of the cave is curvered by an animal
+skin to keep some of the snow out. There are several bones
+about the cave, including what looks to be a complete skeleton
+of a dwarf.
+~
+995 33554432 0
+D3
+The curtain is made of animal skins.
+~
+curtain~
+1 0 99554
+S
+#99556
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D3
+~
+~
+0 0 99557
+D5
+~
+~
+0 0 99551
+S
+#99557
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+~
+~
+0 0 99556
+D4
+~
+~
+0 0 99558
+S
+#99558
+&+yA Mountain Trail~
+   This mountain trail is very rocky and rises up into the
+mountain range. The path seems well traveled like there must
+be something living up in the mountains, sine the trail is very
+well traveled.  The mountains stretch as far up as they eye
+can see, and well up into the clouds. The trail comes up on
+a rise here, and stretches on to the east.
+~
+995 33554432 5
+D1
+The cave is east.
+~
+cave~
+5 0 99559
+D5
+~
+~
+0 0 99557
+S
+#99559
+&+LA Dark Cave~
+   This cave is covered with snow and is very cold, there
+are many foot prints along the cave, and some old bones
+of humans are laying about. The back part of the cave seems
+like it would move.
+~
+995 33554432 5
+D1
+~
+cave~
+1 0 99560
+D3
+The mountain is west.
+~
+cave~
+1 0 99558
+S
+#99560
+&+WA Yeti Lair~
+   In this room lies the infamous yeti, that seems to pray on
+mountain goats. This part of the cave is curvered by an animal
+skin to keep some of the snow out. There are several bones
+about the cave, including what looks to be a complete skeleton
+of a dwarf.
+~
+995 33554432 5
+D3
+The curtain is made of animal hides.
+~
+cave~
+1 0 99559
+S
+#99561
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33554432 0
+D2
+The secret is very well hidden.
+~
+secret~
+6 99505 99538
+D4
+~
+~
+0 0 99563
+D5
+The secret seems VERY large.
+~
+secret~
+5 0 99570
+S
+#99562
+&+YThe Village Leader's Hut~
+&+y This hut seems to be fashioned with many different types of fur
+&+yand has tons of exotic furniture. There are several totems about
+&+ythe area of the local spirit animals. Near the rear of the hut sits
+&+ya small bed made of animal furs, which lies just below a small window.
+&+yA fox fur rug spawns the floor, and similiar animal hides have been
+&+ymade into lovely drapes.
+~
+995 33554432 0
+D0
+~
+~
+0 0 99536
+S
+#99563
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33562624 0
+D4
+~
+~
+0 0 99564
+D5
+~
+~
+0 0 99561
+S
+#99564
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33562624 0
+D4
+~
+~
+0 0 99565
+D5
+~
+~
+0 0 99563
+S
+#99565
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33562624 0
+D4
+~
+~
+0 0 99566
+D5
+~
+~
+0 0 99564
+S
+#99566
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33562624 0
+D4
+~
+~
+0 0 99567
+D5
+~
+~
+0 0 99565
+S
+#99567
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33554432 0
+D3
+~
+door~
+5 0 99568
+D4
+~
+~
+0 0 99569
+D5
+~
+~
+0 0 99566
+S
+#99568
+&+WA Misty Look Out~
+   A look out over the clouds seems to have been etched in the mountain
+here, and clouds are visible as far as the eye can see. The misty shaft
+is close by to the east, and the small village is far down below this
+towering mountain. This little look out, is a misty filled room, that
+seems to glow with light. The whole cave is extremely huge, and smooth,
+with a small pile of frosty leaves as what looks like a bed in the far
+corner of the cave.
+~
+995 37748736 0
+D1
+~
+door~
+1 0 99567
+S
+#99569
+&+WA Misty Shaft~
+&+L This shaft travels up into the mountain, extending as far as
+&+Lthe eye can see. The shaft seems to be very large like some kind
+&+Lof giant would be able to travel up it. There are many different
+&+Lmists floating around the area, and seem to be traveling upwards,
+&+Lmaking it very easy to just go with the flow. The rocks are all
+&+Lvery smooth for this area, and there seems to be a light a ways
+&+Loff over head.
+~
+995 33554432 0
+D0
+~
+cave~
+1 0 99571
+D1
+~
+boulder~
+1 0 99601
+D4
+~
+~
+0 0 99602
+D5
+~
+~
+0 0 99567
+S
+#99570
+&+LA Shadowy Cave~
+  One of the greatest cloud giants has made this hidden little cave his
+home. He has on the walls paintings of his greatests battles with some
+of the evilist enemies back when the duergar were first born, and before
+they went down into the Underdark for hiding. There is a huge bed at the
+far back of the cave, right next to a stack of books.
+~
+995 33554432 0
+D4
+The secret seems to be VERY large.
+~
+secret~
+5 0 99561
+S
+#99571
+&+WA Misty Chamber~
+  This chamber is filled with mist, and is the home of one of the
+cloud giant elders. There is huge rock seat at the back of the
+chamber, with a huge window just to the east of that. The floor is
+barely visible through all of the mist, however there seems to be
+a marble picture under the mist.
+~
+995 33554432 0
+D2
+~
+cave~
+1 0 99569
+S
+#99572
+&+LA Back Alley~
+  This small alley simply separates two large brick buildings,
+which look well constructed.  The alley is more of a small street,
+but is not even close to the size of Tharnadia. There is a large
+door to the south, and a smaller one to the north.
+~
+995 33554432 1
+D0
+~
+~
+0 0 99580
+D1
+~
+~
+0 0 99579
+D3
+~
+~
+0 0 99529
+S
+#99573
+&+LA Dark Cave~
+   This cave is covered with snow and is very cold, there
+are many foot prints along the cave, and some old bones
+of humans are laying about. The back part of the cave seems
+like it would move.
+~
+995 33554432 5
+D1
+~
+cave~
+1 0 99547
+D3
+The curtain seems to be made out of animal furs.
+~
+curtain~
+1 0 99574
+S
+#99574
+&+WA Yeti Lair~
+   In this room lies the infamous yeti, that seems to pray on
+mountain goats. This part of the cave is curvered by an animal
+skin to keep some of the snow out. There are several bones
+about the cave, including what looks to be a complete skeleton
+of a dwarf.
+~
+995 33554432 0
+D1
+The curtain seems to be made out of animal hides.
+~
+curtain~
+1 0 99573
+S
+#99575
+&+LA Dark Cave~
+   This cave is covered with snow and is very cold, there
+are many foot prints along the cave, and some old bones
+of humans are laying about. The back part of the cave seems
+like it would move.
+~
+995 33554432 5
+D1
+~
+curtain~
+1 0 99576
+D3
+~
+cave~
+1 0 99544
+S
+#99576
+&+WA Yeti Lair~
+   In this room lies the infamous yeti, that seems to pray on
+mountain goats. This part of the cave is curvered by an animal
+skin to keep some of the snow out. There are several bones
+about the cave, including what looks to be a complete skeleton
+of a dwarf.
+~
+995 33554432 0
+D3
+~
+door~
+1 0 99575
+S
+#99577
+&+LA Dark Cave~
+   This cave is covered with snow and is very cold, there
+are many foot prints along the cave, and some old bones
+of humans are laying about. The back part of the cave seems
+like it would move.
+~
+995 33554432 5
+D1
+~
+cave~
+1 0 99542
+D3
+~
+curtain~
+1 0 99578
+S
+#99578
+&+WA Large Yeti Lair~
+   In this room lies the infamous yeti, that seems to pray on
+mountain goats. This part of the cave is curvered by an animal
+skin to keep some of the snow out. There are several bones
+about the cave, including what looks to be a complete skeleton
+of a dwarf.
+~
+995 33554432 0
+D1
+~
+door~
+1 0 99577
+S
+#99579
+Entrance to a Grave Yard~
+&+L This spooky place looks much unlike the rest of the town, and it looks
+&+Llike people only come here very rarely when people die of old age, or
+&+Lif there is a big battle with the evils, and people need to be burried.
+&+LThere are tall black gates that stay open all of the time, and look
+&+Llike they have rusted that way. Beyond the gates lies a field of graves
+&+Lwith huge crypts in some places.
+~
+995 33554436 3
+D1
+~
+~
+0 0 99581
+D3
+~
+~
+0 0 99572
+S
+#99580
+&+mThe Sorcerer's Hut~
+  The sorcerer's hut is a fairly large hut, and there is a huge sign on the
+door that catches most people's attention as they walk in. He hardly
+talks to anyone or does anything but research spells, scrolls, and magical
+items all day long. There are several odd looking things about the hut,
+and this place has a strange smell to it.
+~
+995 33554432 0
+D2
+~
+~
+0 0 99572
+S
+#99581
+A Grave Yard~
+&+L This grave yard seems very gloomy and looks like it hasn't been gone
+&+Linto for quite some period of time. There are many signs of old age to
+&+Lthe area, and it looks like that when only the oldest of the farmers
+&+Ldie, do people come in here. The graves are very large, and cut of
+&+Lvery fine marble. Off to the east lies a huge shed.
+~
+995 33554432 2
+D0
+~
+~
+0 0 99582
+D1
+~
+~
+0 0 99584
+D2
+~
+~
+0 0 99583
+D3
+~
+~
+0 0 99579
+S
+#99582
+A Grave Yard~
+&+L This grave yard seems very gloomy and looks like it hasn't been gone
+&+Linto for quite some period of time. There are many signs of old age to
+&+Lthe area, and it looks like that when only the oldest of the farmers
+&+Ldie, do people come in here. The graves are very large, and cut of
+&+Lvery fine marble. Off to the east lies a huge shed.
+~
+995 33554432 2
+D0
+~
+~
+0 0 99588
+D2
+~
+~
+0 0 99581
+S
+#99583
+A Grave Yard~
+&+L This grave yard seems very gloomy and looks like it hasn't been gone
+&+Linto for quite some period of time. There are many signs of old age to
+&+Lthe area, and it looks like that when only the oldest of the farmers
+&+Ldie, do people come in here. The graves are very large, and cut of
+&+Lvery fine marble. Off to the east lies a huge shed.
+~
+995 33554432 2
+D0
+~
+~
+0 0 99581
+D1
+~
+~
+0 0 99586
+S
+#99584
+&+LA Dark Shed~
+&+L This dark shed seems to be at the top of a small hill within the
+&+Lgrave yard. There are several tools lining up against the shed.
+&+LThis shed looks extremely large, however, and seems to be able to
+&+Lwithstand any kind of storm. There are no windows to the shed, and
+&+Lit looks like it's always dark inside.
+~
+995 33554432 3
+D3
+~
+~
+0 0 99581
+D5
+~
+secret~
+1 0 99585
+S
+#99585
+A Secret Room~
+&+r  This room is filled with dried blood, blood splattered objects, and
+&+rhuge piles of bones from killed humans, and elves. There are several
+&+rscraps of rotten flesh about this small cave, that seem to bring a
+&+runquie stench to the area. Along the walls lie huge piles of yeti
+&+rfur that seem to be used as beds.
+~
+995 33554432 0
+D4
+~
+secret~
+1 0 99584
+S
+#99586
+&+LA Dark Shed~
+&+L This dark shed seems to be at the top of a small hill within the
+&+Lgrave yard. There are several tools lining up against the shed.
+&+LThis shed looks extremely large, however, and seems to be able to
+&+Lwithstand any kind of storm. There are no windows to the shed, and
+&+Lit looks like it's always dark inside.
+~
+995 33554432 0
+D3
+~
+~
+0 0 99583
+D5
+~
+secret~
+1 0 99587
+S
+#99587
+A Secret Lair~
+&+r  This room is filled with dried blood, blood splattered objects, and
+&+rhuge piles of bones from killed humans, and elves. There are several
+&+rscraps of rotten flesh about this small cave, that seem to bring a
+&+runquie stench to the area. Along the walls lie huge piles of yeti
+&+rfur that seem to be used as beds.
+~
+995 33554432 0
+D4
+~
+secret~
+1 0 99586
+S
+#99588
+A Grave Yard~
+&+L This grave yard seems very gloomy and looks like it hasn't been gone
+&+Linto for quite some period of time. There are many signs of old age to
+&+Lthe area, and it looks like that when only the oldest of the farmers
+&+Ldie, do people come in here. The graves are very large, and cut of
+&+Lvery fine marble. Off to the east lies a huge shed.
+~
+995 33554432 2
+D1
+~
+~
+0 0 99589
+D2
+~
+~
+0 0 99582
+S
+#99589
+&+LA Dark Shed~
+&+L This dark shed seems to be at the top of a small hill within the
+&+Lgrave yard. There are several tools lining up against the shed.
+&+LThis shed looks extremely large, however, and seems to be able to
+&+Lwithstand any kind of storm. There are no windows to the shed, and
+&+Lit looks like it's always dark inside.
+~
+995 33554432 0
+D3
+~
+~
+0 0 99588
+D5
+~
+secret~
+1 0 99590
+S
+#99590
+&+LA Dark Lair~
+&+r  This room is filled with dried blood, blood splattered objects, and
+&+rhuge piles of bones from killed humans, and elves. There are several
+&+rscraps of rotten flesh about this small cave, that seem to bring a
+&+runquie stench to the area. Along the walls lie huge piles of yeti
+&+rfur that seem to be used as beds.
+~
+995 33554432 0
+D4
+~
+secret~
+1 0 99589
+S
+#99591
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 8
+D0
+~
+~
+0 0 99592
+D1
+~
+~
+0 0 99593
+D3
+~
+~
+0 0 99594
+D4
+~
+~
+0 0 99595
+D5
+~
+~
+0 0 99538
+S
+#99592
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 0
+D2
+~
+~
+0 0 99591
+S
+#99593
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 0
+D3
+~
+~
+0 0 99591
+S
+#99594
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 0
+D1
+~
+~
+0 0 99591
+S
+#99595
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 8
+D0
+~
+~
+0 0 99596
+D1
+~
+~
+0 0 99598
+D2
+~
+~
+0 0 99597
+D3
+~
+~
+0 0 99599
+D4
+~
+~
+0 0 99600
+D5
+~
+~
+0 0 99591
+S
+#99596
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 0
+D2
+~
+~
+0 0 99595
+S
+#99597
+Mir Air~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 0
+D0
+~
+~
+0 0 99595
+S
+#99598
+Mid Air~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 0
+D3
+~
+~
+0 0 99595
+S
+#99599
+Mir Air~
+  This path roams through the fields here with farm houses all around,
+and the main part of town is still a ways off in the distance. The
+gates of the village are a ways back to the south, and a huge mountain
+at the edge of the valley rises in the sky over towards the east.
+~
+995 33554432 0
+D1
+~
+~
+0 0 99595
+S
+#99600
+Mid Air~
+   This area is nothing but open air, as it goes up the mountain side.
+There are beautiful skies all around, and huge mountains to the north
+and to the east. From this view point, a small band of evils can be
+seen near the Faang Pass.
+~
+995 33554432 8
+D5
+~
+~
+0 0 99595
+S
+#99601
+&+WA Holy Shrine&n~
+   The mountain comes to a climax here where the cloud giants of
+this mountain have set up a holy shrine to their god.  Several
+cloud giants can be seen praying and offering sacrafices on a
+daily base.  The whole area seems to be filled with a healing
+power.  When one of the villagers is attacked or killed, they
+come up here to be blessed.
+~
+995 33554432 5
+D3
+~
+boulder~
+1 0 99569
+S
+#99602
+&+yThe Top of a Mountain&n~
+   The misty shaft opens up to the top of the cloudy
+mountain here.  This is the first of a series of mountains
+that stretch on up into the sky further and further.  To
+the north is a pathway along the peaks of the mountain. The
+path to the north is cloudy and visibility is slightly
+limited.  The sounds of giants can be heard.
+~
+995 0 5
+D0
+~
+~
+0 0 99603
+D5
+~
+~
+0 0 99569
+S
+#99603
+&+yA &+WMisty Path&+y Along the Mountain Tops&n~
+   The path continues along the mountain top here.
+This area is right in the cloud line and it is very
+difficult to see very far down the path.  Every now
+and then, the clouds open up for a moment allowing
+more of the path to be visible.  The area is worn
+very deep from what looks like cloud giant tracks.
+~
+995 0 5
+D0
+~
+~
+0 0 99604
+D2
+~
+~
+0 0 99602
+S
+#99604
+&+yA &+WMisty Path&+y Along the Mountain Tops&n~
+   The path continues along the mountain top here.
+This area is right in the cloud line and it is very
+difficult to see very far down the path.  Every now
+and then, the clouds open up for a moment allowing
+more of the path to be visible.  The area is worn
+very deep from what looks like cloud giant tracks.
+~
+995 0 5
+D0
+~
+~
+0 0 99605
+D2
+~
+~
+0 0 99603
+S
+#99605
+&+yA &+WMisty Path&+y Along the Mountain Tops&n~
+   The path continues along the mountain top here.
+This area is right in the cloud line and it is very
+difficult to see very far down the path.  Every now
+and then, the clouds open up for a moment allowing
+more of the path to be visible.  The area is worn
+very deep from what looks like cloud giant tracks.
+~
+995 0 5
+D0
+~
+~
+0 0 99606
+D2
+~
+~
+0 0 99604
+S
+#99606
+&+WBefore a the Gates of &+CCastle Selanis&n~
+   The path continues along the mountain top here.
+This area is right in the cloud line and it is very
+difficult to see very far down the path.  Every now
+and then, the clouds open up for a moment allowing
+more of the path to be visible.  The area is worn
+very deep from what looks like cloud giant tracks.
+~
+995 4 5
+D0
+~
+gate~
+1 0 99607
+D2
+~
+~
+0 0 99605
+S
+#99607
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99610
+D1
+~
+~
+0 0 99611
+D2
+~
+gate~
+1 0 99606
+D3
+~
+~
+0 0 99608
+S
+#99608
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99609
+D1
+~
+~
+0 0 99607
+S
+#99609
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99610
+D2
+~
+~
+0 0 99608
+D3
+~
+door~
+1 0 99617
+S
+#99610
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99613
+D1
+~
+~
+0 0 99612
+D2
+~
+~
+0 0 99607
+D3
+~
+~
+0 0 99609
+S
+#99611
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99612
+D3
+~
+~
+0 0 99607
+S
+#99612
+&+LThe Grand Foyer of &+CCastle Selanis&n~
+  This foyer is the grand entry way to the great
+Castle Selanis.  This castle appears to be incredibly
+old, having sat in these mountains and witnessed
+many civilizations rise and fall in the surrounding
+areas.  The stone of the castle has been carved
+directly out of the mountain peak.  The surrounding
+clouds around the castle seep in through windows
+and fill the rooms with a fine mist.
+~
+995 1107296256 0
+D1
+~
+door~
+1 0 99614
+D2
+~
+~
+0 0 99611
+D3
+~
+~
+0 0 99610
+S
+#99613
+&+cStairs to the Second Floor&n~
+  The grand foyer leads up to a large stair case
+to the second floor of Castle Selanis.  The stairs,
+like the rest of the castle, have been carved directly
+into the mountain.  The stairs are quite worn and
+appear to have replacements installed over the years.
+~
+995 1107296260 0
+D2
+~
+~
+0 0 99610
+D4
+~
+~
+0 0 99660
+S
+#99614
+&+CThe East Hall&n~
+   The east hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99637
+D1
+~
+~
+0 0 99615
+D2
+~
+~
+0 0 99638
+D3
+~
+door~
+1 0 99612
+S
+#99615
+&+CThe East Hall&n~
+   The east hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99639
+D1
+~
+~
+0 0 99616
+D2
+~
+door~
+1 0 99646
+D3
+~
+~
+0 0 99614
+S
+#99616
+&+CThe East Hall&n~
+   The east hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99640
+D1
+~
+door~
+1 0 99631
+D2
+~
+~
+0 0 99641
+D3
+~
+~
+0 0 99615
+S
+#99617
+&+CThe West Hall&n~
+   The west hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99635
+D1
+~
+door~
+1 0 99609
+D2
+~
+~
+0 0 99636
+D3
+~
+~
+0 0 99618
+S
+#99618
+&+CThe West Hall&n~
+   The west hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99653
+D1
+~
+~
+0 0 99617
+D2
+~
+~
+0 0 99634
+D3
+~
+~
+0 0 99619
+S
+#99619
+&+CThe West Hall&n~
+   The west hall of the great Castle Selanis
+is little more than a tunnel dug out in the
+mountain.  To the north and south are rooms,
+like caves, also carved into the mountain.  The
+floor has a slightly mist floating about one foot
+off of the ground.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99632
+D1
+~
+~
+0 0 99618
+D2
+~
+~
+0 0 99633
+D3
+~
+door~
+1 0 99620
+S
+#99620
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99621
+D1
+~
+door~
+1 0 99619
+S
+#99621
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99622
+D1
+~
+~
+0 0 99643
+D2
+~
+~
+0 0 99620
+S
+#99622
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99623
+D1
+~
+~
+0 0 99642
+D2
+~
+~
+0 0 99621
+S
+#99623
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99624
+D2
+~
+~
+0 0 99622
+S
+#99624
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99625
+D2
+~
+~
+0 0 99671
+D3
+~
+~
+0 0 99623
+S
+#99625
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296260 0
+D1
+~
+~
+0 0 99626
+D2
+~
+~
+0 0 99673
+D3
+~
+~
+0 0 99624
+S
+#99626
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296260 0
+D1
+~
+~
+0 0 99627
+D2
+~
+~
+0 0 99674
+D3
+~
+~
+0 0 99625
+S
+#99627
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99628
+D2
+~
+~
+0 0 99672
+D3
+~
+~
+0 0 99626
+S
+#99628
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99629
+D3
+~
+~
+0 0 99627
+S
+#99629
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99628
+D2
+~
+~
+0 0 99630
+D3
+~
+~
+0 0 99644
+S
+#99630
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99629
+D2
+~
+~
+0 0 99631
+D3
+~
+~
+0 0 99645
+S
+#99631
+&+yA Rugged Back Hallway&n~
+  This dark hallway curves around the back of the
+castle.  The hallway is a very poorly dug tunnel
+that goes deeper into the mountain side. There are
+occiaionsal rooms, or caves, that have been carved
+off to the side of the tunnel. This area is free of
+the mist on the floor, and in its place a small amount
+of water has gathered in little pools.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99630
+D3
+~
+door~
+1 0 99616
+S
+#99632
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99619
+S
+#99633
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99619
+S
+#99634
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99618
+S
+#99635
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99617
+S
+#99636
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99617
+S
+#99637
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99614
+S
+#99638
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99614
+S
+#99639
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99615
+S
+#99640
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99616
+S
+#99641
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99616
+S
+#99642
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D3
+~
+~
+0 0 99622
+S
+#99643
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D3
+~
+~
+0 0 99621
+S
+#99644
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99629
+S
+#99645
+&+LA Guest's Quarters&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99630
+S
+#99646
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D0
+~
+door~
+1 0 99615
+D1
+~
+~
+0 0 99651
+D2
+~
+~
+0 0 99647
+D3
+~
+~
+0 0 99649
+S
+#99647
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99646
+D1
+~
+~
+0 0 99650
+D2
+~
+~
+0 0 99652
+D3
+~
+~
+0 0 99648
+S
+#99648
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99649
+D1
+~
+~
+0 0 99647
+S
+#99649
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99646
+D2
+~
+~
+0 0 99648
+S
+#99650
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99651
+D3
+~
+~
+0 0 99647
+S
+#99651
+&+WWithin the &+CSelanis Dining Hall&n~
+  This is a gigantic dining hall in the Castle
+Selanis.  The hall can fit at least 20 full sized
+cloud giants or many other type of races who may
+be visiting the cloud giants of the city.  The area
+has been carved out of a marble deposit in the mountain,
+and the tables are in fact part of the mountain.  There
+are tall pillars with a diameter of twenty feet supporting
+the room and its ceiling.  There is a large fire pit in
+the center of the dining hall.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99650
+D3
+~
+~
+0 0 99646
+S
+#99652
+&+RThe Kitchen of the &+CSelanis Dining Hall&n~
+  The dining hall for Castle Selanis can seat about
+wenty cloud giants or many other races.  To accomodate
+a full dining hall, the castle's staff must be able
+to produce a very large amount of food.  The kitchen
+for the castle is deep within the mountain where the
+temperature is very cool, and stacks of meat, vegetables,
+and wines can be stored for long periods of time.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99647
+S
+#99653
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427332 0
+D0
+~
+~
+0 0 99656
+D1
+~
+~
+0 0 99657
+D2
+~
+~
+0 0 99618
+D3
+~
+~
+0 0 99654
+S
+#99654
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427328 0
+D0
+~
+~
+0 0 99655
+D1
+~
+~
+0 0 99653
+S
+#99655
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427328 0
+D1
+~
+~
+0 0 99656
+D2
+~
+~
+0 0 99654
+S
+#99656
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427328 0
+D0
+~
+~
+0 0 99659
+D1
+~
+~
+0 0 99658
+D2
+~
+~
+0 0 99653
+D3
+~
+~
+0 0 99655
+S
+#99657
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427328 0
+D0
+~
+~
+0 0 99658
+D3
+~
+~
+0 0 99653
+S
+#99658
+&+cWithin the &+CTemple of Stronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427328 0
+D2
+~
+~
+0 0 99657
+D3
+~
+~
+0 0 99656
+S
+#99659
+&+WThe Altar to &+CStronmaus&n~
+&+W  The Castle Selanis contains a large temple to
+&+WStronmaus, god of storm and cloud giants, sun, sky
+&+Wweather and joy.  This group of cloud giants happens
+&+Wto be the good aligned type and has made a large
+&+Wtemple to their god.  There is a sky light that
+&+Wshines down white lign into the room, which has
+&+Wbeen carved of a white marble deposit.
+~
+995 1107427332 0
+D2
+~
+~
+0 0 99656
+S
+#99660
+&+cTop of the Stairs&n~
+  The stairs of the castle stand before
+the throne of Stronmar here.  Down the
+stairs, the bustling grand foyer can be
+seen.  The stairs are carved into the
+mountain, and spiral up along the wall
+that is shared between the back of the
+foyer and the back of the throne room.
+~
+995 1107427332 0
+D2
+~
+~
+0 0 99662
+D5
+~
+~
+0 0 99613
+S
+#99661
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D1
+~
+~
+0 0 99662
+D2
+~
+~
+0 0 99664
+S
+#99662
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99660
+D1
+~
+~
+0 0 99663
+D2
+~
+~
+0 0 99665
+D3
+~
+~
+0 0 99661
+S
+#99663
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D2
+~
+~
+0 0 99666
+D3
+~
+~
+0 0 99662
+S
+#99664
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99661
+D1
+~
+~
+0 0 99665
+D2
+~
+~
+0 0 99667
+S
+#99665
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99662
+D1
+~
+~
+0 0 99666
+D2
+~
+~
+0 0 99668
+D3
+~
+~
+0 0 99664
+S
+#99666
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99663
+D2
+~
+~
+0 0 99669
+D3
+~
+~
+0 0 99665
+S
+#99667
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99664
+D1
+~
+~
+0 0 99668
+S
+#99668
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99665
+D1
+~
+~
+0 0 99669
+D2
+~
+~
+0 0 99670
+D3
+~
+~
+0 0 99667
+S
+#99669
+&+LThe Royal Court of &+cStronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99666
+D3
+~
+~
+0 0 99668
+S
+#99670
+&+cThe Throne of Stronmar&n~
+&+L   The royal court of Stronmar is the throne room
+&+Lof the great king of the cloud giants.  The court is
+&+Lan enormous sized room that could easily fit several
+&+Ltribes of cloud giants.  There are huge pillars
+&+Lsupporting this giant room in two lines of three. The
+&+Lthrone is a ways off to the south, and the stairs to
+&+Lfoyer are on the north side of the room.
+~
+995 1107296260 0
+D0
+~
+~
+0 0 99668
+S
+#99671
+&+LA Guest's Chambers&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99624
+S
+#99672
+&+LA Guest's Room&n~
+  This room serves as guest quarters for those
+visiting Castle Selinas.  Essentially this is a
+small cave in the mountain that has been carved out
+by the cloud giants when they created their castle.
+The rock of the mountain appears very malleable
+under the right amount of pressure, which the cloud
+giants can supply.  The quarters have been nicely
+decorated with a bed, desk, and book shelf.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99627
+S
+#99673
+&+LThe &+cCloud Giant&+L Barracks&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99625
+D1
+~
+~
+1 0 99674
+D2
+~
+~
+0 0 99675
+D3
+~
+door~
+1 0 99678
+S
+#99674
+&+LThe &+cCloud Giant &+LBarracks&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296260 0
+D0
+~
+~
+0 0 99626
+D1
+~
+door~
+1 0 99677
+D2
+~
+~
+0 0 99676
+D3
+~
+door~
+1 0 99673
+S
+#99675
+&+LThe &+cCloud Giant &+LBarracks&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99673
+D1
+~
+~
+0 0 99676
+D2
+~
+door~
+1 0 99680
+S
+#99676
+&+LThe &+cCloud Giant &+LBarracks&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D0
+~
+~
+0 0 99674
+D2
+~
+door~
+1 0 99679
+D3
+~
+~
+0 0 99675
+S
+#99677
+&+LSleeping Quarters&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D3
+~
+door~
+1 0 99674
+S
+#99678
+&+LThe Sleeping Quarters&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296260 0
+D1
+~
+door~
+1 0 99673
+S
+#99679
+&+LThe Weaponmaster's Room&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D0
+~
+door~
+1 0 99676
+S
+#99680
+&+LThe Sergeant's Quarters&n~
+  The barracks of the cloud giants is a giant
+area where the giants can come and sleep, spar,
+fix armor, and rest after battles.  The barracks
+contains a number of weapon racks, sleeping quarters,
+and a large fire pit in the center of the room.
+Several cloud giant warriors can be seen moving
+about the barracks at any time of the day.
+~
+995 1107296256 0
+D0
+~
+door~
+1 0 99675
+S

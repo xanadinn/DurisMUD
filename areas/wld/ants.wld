@@ -1,0 +1,939 @@
+#10900
+&+gWithin a &+LDark &+WSnowy &+gForest&n~
+&+W   Populated mostly by conifers, this forest smells of fresh pine and sweet&n
+&+Wleaves.  The sun filters down in beautiful channels when it can, creating a&n
+&+Wdancing pattern of lights on the needle laden floor of this forest.  Little&n
+&+Wcritters run about freely, scouring for food where they can.  A soft melody&n
+&+Wsung by the wind whistling through the pines creates a gentle, relaxing
+&+Watmosphere.  &n
+~
+109 4 25
+D0
+~
+~
+0 0 10901
+D3
+~
+~
+0 0 526267
+S
+#10901
+&+gWithin a &+LDark &+WSnowy &+gForest&n~
+&+W   Populated mostly by conifers, this forest smells of fresh pine and sweet&n
+&+Wleaves.  The sun filters down in beautiful channels when it can, creating a&n
+&+Wdancing pattern of lights on the needle laden floor of this forest.  Little&n
+&+Wcritters run about freely, scouring for food where they can.  A soft melody&n
+&+Wsung by the wind whistling through the pines creates a gentle, relaxing
+&+Watmosphere.  &n
+~
+109 0 25
+D2
+~
+~
+0 0 10900
+D3
+~
+~
+0 0 10902
+S
+#10902
+&+gWithin a &+LDark &+WSnowy &+gForest&n~
+&+W   Populated mostly by conifers, this forest smells of fresh pine and sweet&n
+&+Wleaves.  The sun filters down in beautiful channels when it can, creating a&n
+&+Wdancing pattern of lights on the needle laden floor of this forest.  Little&n
+&+Wcritters run about freely, scouring for food where they can.  A soft melody&n
+&+Wsung by the wind whistling through the pines creates a gentle, relaxing
+&+Watmosphere.  &n
+~
+109 0 25
+D0
+~
+~
+0 0 10903
+D1
+~
+~
+0 0 10901
+S
+#10903
+&+gWithin a &+LDark &+WSnowy &+gForest&n~
+&+W   Populated mostly by conifers, this forest smells of fresh pine and sweet&n
+&+Wleaves.  The sun filters down in beautiful channels when it can, creating a&n
+&+Wdancing pattern of lights on the needle laden floor of this forest.  Little&n
+&+Wcritters run about freely, scouring for food where they can.  A soft melody&n
+&+Wsung by the wind whistling through the pines creates a gentle, relaxing
+&+Watmosphere.  &n
+~
+109 0 25
+D0
+A thick pile of vegetation impedes further travel.
+~
+foliage~
+5 0 10904
+D2
+~
+~
+0 0 10902
+D3
+&+WA large bank of snow formed by the wind drift.&n
+~
+snowpile~
+5 0 10905
+S
+#10904
+&+gWithin a &+LDark&+W Snowy &+gForest&n~
+&+W   Populated mostly by conifers, this forest smells of fresh pine and sweet&n
+&+Wleaves.  The sun filters down in beatiful channels when it can, creating a&n
+&+Wdancing pattern of lights on the needle laden floor of this forest.  Little&n
+&+Wcritters run about freely, scouring for food where they can.  A soft melody&n
+&+Wsung by the wind whistling through the pines creates a gentle, relaxing
+&+Watmosphere.  &n
+~
+109 1073741824 25
+D2
+~
+foliage~
+1 0 10903
+D5
+&+WA &nclear&+W slab of &+Cice&+W covered in snow.&n
+~
+secret~
+13 0 10908
+S
+#10905
+&+WA &+CPath&+W Within a &+LDark &+WSnowy &+gForest&n~
+&+W   This solemn path winds through a wonderful variety of &+gtrees&+G.&+W  The wind&n
+&+Wgently carries a sweet scented breeze out and about the vale.  A crystal&n
+&+cclear &+Csky &+Wintermittently shows itself through the wading trees above.  A thin&n
+&+Wflurry of snow quickly dances about, displaying its arabesque course&n
+&+Wbeautifully about the snow on the ground.&n
+~
+109 0 25
+D0
+~
+~
+0 0 10906
+D1
+~
+snowpile~
+1 0 10903
+S
+#10906
+&+WA &+CPath &+WWithin a &+LDark &+WSnowy &+gForest&n~
+&+W   This solemn path winds through a wonderful variety of &+gtrees&+G.&+W  The wind&n
+&+Wgently carries a sweet scented breeze out and about the vale.  A crystal&n
+&+cclear &+Csky &+Wintermittently shows itself through the wading trees above.  A thin&n
+&+Wflurry of snow quickly dances about, displaying its arabesque course&n
+&+Wbeautifully about the snow on the ground.&n
+~
+109 0 25
+D1
+~
+~
+0 0 10907
+D2
+~
+~
+0 0 10905
+S
+#10907
+&+WA &+CPath &+WWithin a &+LDark&+W Snowy &+gForest&n~
+&+W   This solemn path winds through a wonderful variety of &+gtrees&+G.&+W  The wind&n
+&+Wgently carries a sweet scented breeze out and about the vale.  A crystal&n
+&+cclear &+Csky &+Wintermittently shows itself through the wading trees above.  A thin&n
+&+Wflurry of snow quickly dances about, displaying its arabesque course&n
+&+Wbeautifully about the snow on the ground.&n
+~
+109 0 25
+D0
+~
+~
+0 0 10931
+D3
+~
+~
+0 0 10906
+S
+#10908
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 1107296256 25
+D0
+~
+~
+0 0 10909
+D4
+~
+~
+1 0 10904
+S
+#10909
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 1107296256 25
+D0
+~
+~
+0 0 10910
+D2
+~
+~
+0 0 10908
+S
+#10910
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D1
+~
+~
+0 0 10911
+D2
+~
+~
+0 0 10909
+D5
+~
+secret~
+5 0 10916
+S
+#10911
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D1
+~
+~
+0 0 10912
+D2
+~
+~
+0 0 10913
+D3
+~
+~
+0 0 10910
+S
+#10912
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D3
+~
+~
+0 0 10911
+D5
+~
+~
+0 0 10918
+S
+#10913
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10911
+D1
+~
+~
+0 0 10914
+S
+#10914
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10915
+D3
+~
+~
+0 0 10913
+S
+#10915
+&+WA Tunnel of &+CFrosty &+cIce~
+&+c   Breath stills gently into dissipating clouds of vapor inside this frosty&n
+&+ctunnel.  Walls of snow-laden ice, they race violently northwards, icy spikes&n
+&+cand jutting snow protruding from everywhere.  The air is perfectly still,&n
+&+cand one can hear the faintest echo perfectly - hence the relentless sound&n
+&+cof waterdrops that rings inside these walls.&n
+~
+109 33554432 25
+D0
+A few cubes of snow are neatly packed to conceal a second tunnel here.
+~
+secret~
+13 0 10917
+D2
+~
+~
+0 0 10914
+S
+#10916
+&+cAn &nEnclave&+c in the &+WTunnel of &+CFrosty&+c Ice~
+&+c   Somehow, a portion of ice has been melted away from the tunnel above to&n
+&+cform this quaint little enclave.  Walls of thick ice, it is unfathomable as&N
+&+cto what may have caused this deformity in the tunnel.  A series of etchings&n
+&+care scratched into the ice walls.  Randomly interspersed, they don't seem to&n
+&+chave any fixed pattern - but they are there nonetheless.  Whoever made them&n
+&+csurely had some intended purpose for them.  Most notably, a large
+&+chandprint trigger is found in the wall here, begging to be
+&+ctouched.&N
+~
+109 2097152 25
+D4
+~
+secret~
+1 0 10910
+E
+etchings~
+&+cL II   N
+&+c    LE                            QRT
+&+c                                                H U
+&+c    X                       L                        NGR  Y
+&+c
+&+c
+&+c           RE      N                I
+&+c             TWA
+~
+E
+liilen~
+&+c   Seems like a name etched into the ice.  There is a strange handprint&n
+&+cdepressed into the ice next to the name.&n
+~
+S
+#10917
+&+WA Tunnel of &+BMelt&+bing &+cIce~
+&+B   Water flows down uniformly along the edge of these tunnel walls, clear&n
+&+Band untainted, this natural ice cavity must have long gone undisturbed.&n
+&+BThe water flows down into a little whirlpool that is located a few steps&n
+&+Bto the north.  The ice on the floor makes little crackling sounds under&N
+&+Bpressure, which must be indicative of its strength.&n
+~
+109 33554436 25
+D2
+~
+~
+1 0 10915
+D5
+It's a slimy grate made of chiseled stone.
+~
+grate~
+5 0 10938
+S
+#10918
+&+WDown Into the &+cIce &+CTunnels~
+&+c   Lower still into the endless ice, this tunnel seems to give onto an&n
+&+cadjacent set of burrows carved into the frozen walls.  There are a few to&n
+&+cthe north, and a few more to the south.  These are most likely habitats,&n
+&+cbut what inhabits them isn't readily apparent.  A deep whistle echoes&n
+&+cabout as the drafts above scurry past the cylindrical opening that leads&n
+&+cupwards.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10919
+D2
+~
+~
+0 0 10921
+D4
+~
+~
+0 0 10912
+S
+#10919
+&+WAmidst Some &+cBurrows&+W In the &+CIce~
+&+c   Large spherical globes have been carved into the facets of either side&n
+&+cof this underground ice tunnel.  Ingeniously designed, there are shafts of&N
+&+cice that ascend to the surface that lead all the way down into the spheres;&n
+&+cthe latter carry sunlight down into these lodgings from the surface -&n
+&+cproviding it is daytime of course.  Extremely chilly, whoever lives there&n
+&+cmust have a terribly well tempered endurance for cold. &n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10920
+D1
+~
+~
+0 0 10926
+D2
+~
+~
+0 0 10918
+D3
+~
+~
+0 0 10925
+S
+#10920
+&+WAmidst Some &+cBurrows&+W In the &+CIce~
+&+c   Large spherical globes have been carved into the facets of either side&n
+&+cof this underground ice tunnel.  Ingeniously designed, there are shafts of&N
+&+cice that ascend to the surface that lead all the way down into the spheres;&n
+&+cthe latter carry sunlight down into these lodgings from the surface -&n
+&+cproviding it is daytime of course.  Extremely chilly, whoever lives there&n
+&+cmust have a terribly well tempered endurance for cold. &n
+~
+109 33554432 25
+D1
+~
+~
+0 0 10924
+D2
+~
+~
+0 0 10919
+D3
+~
+~
+0 0 10923
+S
+#10921
+&+WAmidst Some &+cBurrows&+W In the &+CIce~
+&+c   Large spherical globes have been carved into the facets of either side&n
+&+cof this underground ice tunnel.  Ingeniously designed, there are shafts of&N
+&+cice that ascend to the surface that lead all the way down into the spheres;&n
+&+cthe latter carry sunlight down into these lodgings from the surface -&n
+&+cproviding it is daytime of course.  Extremely chilly, whoever lives there&n
+&+cmust have a terribly well tempered endurance for cold. &n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10918
+D1
+~
+~
+0 0 10930
+D2
+~
+~
+0 0 10922
+D3
+~
+~
+0 0 10927
+S
+#10922
+&+WAmidst Some &+cBurrows&+W In the &+CIce~
+&+c   Large spherical globes have been carved into the facets of either side&n
+&+cof this underground ice tunnel.  Ingeniously designed, there are shafts of&N
+&+cice that ascend to the surface that lead all the way down into the spheres;&n
+&+cthe latter carry sunlight down into these lodgings from the surface -&n
+&+cproviding it is daytime of course.  Extremely chilly, whoever lives there&n
+&+cmust have a terribly well tempered endurance for cold. &n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10921
+D1
+~
+~
+0 0 10929
+D3
+~
+~
+0 0 10928
+S
+#10923
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits eastwards onto the central tunnel.&n
+~
+109 1107296256 25
+D1
+~
+~
+0 0 10920
+S
+#10924
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits westwards onto the central tunnel.&n
+~
+109 1107296256 25
+D3
+~
+~
+0 0 10920
+S
+#10925
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits eastwards onto the central tunnel.&n
+~
+109 1107296256 25
+D1
+~
+~
+0 0 10919
+S
+#10926
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits westwards onto the central tunnel.&n
+~
+109 1107296256 25
+D3
+~
+~
+0 0 10919
+S
+#10927
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits eastwards onto the central tunnel.&n
+~
+109 1107296256 25
+D1
+~
+~
+0 0 10921
+S
+#10928
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits eastwards onto the central tunnel.&n
+~
+109 1107296256 25
+D1
+~
+~
+0 0 10922
+S
+#10929
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits westwards onto the central tunnel.&n
+~
+109 1241513984 25
+D3
+~
+~
+0 0 10922
+S
+#10930
+&+WWithin an &+cIcy &+CBurrow~
+&+W   This spherical hovel is polished to a near perfect smoothness.  Rather&n
+&+Wlarge in diameter, it must house a faily big being.  A strange sort of&n
+&+Mslimy &+mmuck&+W covers the bottom of the sphere, its origin or composition&n
+&+Wunknown.  It is odorless and feels like gelatin more than anything else.&n
+&+WThe niche exits westwards onto the central tunnel.&n
+~
+109 1107296256 25
+D3
+~
+~
+0 0 10921
+S
+#10931
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10932
+D1
+~
+~
+0 0 10932
+D2
+~
+~
+0 0 10907
+D3
+~
+~
+0 0 10934
+D6
+~
+~
+0 0 10932
+D7
+~
+~
+0 0 10934
+D8
+~
+~
+0 0 10933
+D9
+~
+~
+0 0 10933
+S
+#10932
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10933
+D1
+~
+~
+0 0 10935
+D2
+~
+~
+0 0 10931
+D3
+~
+~
+0 0 10931
+D6
+~
+~
+0 0 10934
+D7
+~
+~
+0 0 10931
+D8
+~
+~
+0 0 10933
+D9
+~
+~
+0 0 10934
+S
+#10933
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10934
+D1
+~
+~
+0 0 10931
+D2
+~
+~
+0 0 10931
+D3
+~
+~
+0 0 10934
+D6
+~
+~
+0 0 10932
+D7
+~
+~
+0 0 10932
+D8
+~
+~
+0 0 10931
+D9
+~
+~
+0 0 10934
+S
+#10934
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10935
+D1
+~
+~
+0 0 10933
+D2
+~
+~
+0 0 10931
+D3
+~
+~
+0 0 10935
+D6
+~
+~
+0 0 10932
+D7
+~
+~
+0 0 10933
+D8
+~
+~
+0 0 10933
+D9
+~
+~
+0 0 10931
+S
+#10935
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10936
+D1
+~
+~
+0 0 10932
+D2
+~
+~
+0 0 10934
+D3
+~
+~
+0 0 10934
+D6
+~
+~
+0 0 10934
+D7
+~
+~
+0 0 10932
+D8
+~
+~
+0 0 10937
+D9
+~
+~
+0 0 10936
+S
+#10936
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10934
+D1
+~
+~
+0 0 10933
+D2
+~
+~
+0 0 10935
+D3
+~
+~
+0 0 10934
+D6
+~
+~
+0 0 10933
+D7
+~
+~
+0 0 10931
+D8
+~
+~
+0 0 10935
+D9
+~
+~
+0 0 10932
+S
+#10937
+&+WAn Arctic Plain~
+&+W   The wind blows firmly across the several mounds of snow that are&n
+&+Wcurvaceously carved with the snow drifts as they settle.  Polar critters&N
+&+Wrefuge here in this lofty maze of ice and snow, their burrows and tunnels&n
+&+Wkeeping them warm in an otherwise frozen atmosphere.  The sun reflects&n
+&+Wfiercely here, and shines for months on end.  The plain extends rather far in&n
+&+Wevery direction, save to the south where the path returns to the miniature&n
+&+Wvale.&n
+~
+109 33554432 25
+D0
+~
+~
+0 0 10931
+D1
+~
+~
+0 0 10933
+D2
+~
+~
+0 0 10931
+D3
+~
+~
+0 0 10935
+D6
+~
+~
+0 0 10932
+D7
+~
+~
+0 0 10935
+D8
+~
+~
+0 0 10933
+D9
+~
+~
+0 0 10935
+S
+#10938
+&+LA Foul Smelling Rift&n~
+&+L   Water flows quickly and quietly down the edges of this serrated tunnel,&n
+&+Lthe floor of which is covered in a thick gelatinous substance.  There are&n
+&+Lant carcasses lain across this enclave, most of which are half digested and&n
+&+Lcovered with a nauseating puple muck.  This room reeks of bacteria and decay,&n
+&+Land seems to offer just the same.  Staying here too long is definitely not&n
+&+Ladvised.&n
+~
+109 1107296256 25
+D4
+~
+grate~
+1 0 10917
+S
+#10939
+Void~
+VOID
+~
+109 1241546816 25
+D1
+~
+~
+0 0 10940
+D5
+~
+~
+0 0 10938
+S
+#10940
+Void~
+VOID
+~
+109 1249935360 25
+S

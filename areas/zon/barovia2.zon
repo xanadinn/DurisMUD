@@ -1,0 +1,502 @@
+#588
+&+LThe Realm of Barovia Continued&N~
+58996 0 0 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 58837 2 5 100 0 0 0
+*     south exit from "A Wooded Cliffside Overlooking Ravenloft Crag" to
+*     "A Nymph Hideaway" - closed/secret
+*
+D 0 58961 0 1 100 0 0 0
+*     north exit from "A Nymph Hideaway" to
+*     "A Wooded Cliffside Overlooking Ravenloft Crag" - closed
+*
+D 0 58850 1 1 100 0 0 0
+*     east exit from "On a Stone Staircase Before a Curtain of Beads" to
+*     "The Inner Sanctum of Madam Eva" - closed
+*
+D 0 58855 3 1 100 0 0 0
+*     west exit from "The Inner Sanctum of Madam Eva" to
+*     "On a Stone Staircase Before a Curtain of Beads" - closed
+*
+D 0 58889 1 5 100 0 0 0
+*     east exit from "Below a Steep Rise" to
+*     "A Tight Passage Between Rocks" - closed/secret
+*
+D 0 58892 3 5 100 0 0 0
+*     west exit from "A Tight Passage Between Rocks" to
+*     "Below a Steep Rise" - closed/secret
+*
+D 0 58894 3 2 100 0 0 0
+*     west exit from "A Cave-Crossing in a Concealed Vistani Den" to
+*     "The Private Chamber of Madam Eva" - closed/locked
+*
+D 0 58895 1 2 100 0 0 0
+*     east exit from "The Private Chamber of Madam Eva" to
+*     "A Cave-Crossing in a Concealed Vistani Den" - closed/locked
+*
+D 0 58941 2 8 100 0 0 0
+*     south exit from "The Dilapidated Domain of Baba Zelenna" to
+*     "A Hidden Collapse, Below the Top" - open/blocked
+*
+D 0 58962 0 0 100 0 0 0
+*     north exit from "A Hidden Collapse, Below the Top" to
+*     "The Dilapidated Domain of Baba Zelenna" - open
+*
+D 0 58954 1 5 100 0 0 0
+*     east exit from "A Whirlpool Waterfall Base" to
+*     "A Repulsive Lair of Corpses" - closed/secret
+*
+D 0 58960 3 1 100 0 0 0
+*     west exit from "A Repulsive Lair of Corpses" to
+*     "A Whirlpool Waterfall Base" - closed
+*
+D 0 58975 1 9 100 0 0 0
+*     east exit from "The Blackrock Gates of Kashtrakis" to
+*     "Entryway to Kashtrakis, the Hall of Chernovog" - closed/blocked
+*
+D 0 58977 3 5 100 0 0 0
+*     west exit from "Entryway to Kashtrakis, the Hall of Chernovog" to
+*     "The Blackrock Gates of Kashtrakis" - closed/secret
+*
+D 0 58980 0 1 100 0 0 0
+*     north exit from "An Ominous Corridor Before the Lair of Chernovog" to
+*     "Kashtrakis, the Hall of the Devil God Chernovog" - closed
+*
+D 0 58983 2 1 100 0 0 0
+*     south exit from "Kashtrakis, the Hall of the Devil God Chernovog" to
+*     "An Ominous Corridor Before the Lair of Chernovog" - closed
+*
+D 0 58984 4 2 100 0 0 0
+*     up exit from "A Throne Room Enshrouded by Darkness" to
+*     "A Burning Rift" - closed/locked
+*
+D 0 58995 5 2 100 0 0 0
+*     down exit from "A Burning Rift" to
+*     "A Throne Room Enshrouded by Darkness" - closed/locked
+*
+D 0 58989 5 8 100 0 0 0
+*     down exit from "A Vortex of Darkness" to
+*     "Vortex of Darkness" - open/blocked
+*
+D 0 58990 4 8 100 0 0 0
+*     up exit from "Vortex of Darkness" to
+*     "A Vortex of Darkness" - open/blocked
+*
+*
+O 0 5722 1 58802 100 0 0 0         * (object type not in this .obj file)
+O 0 58804 1 58838 100 0 0 0        * a freshly-killed corpse
+P 1 94336 2 58804 100 0 0 0        *   (object type not in this .obj file)
+P 1 94336 2 58804 100 0 0 0        *   (object type not in this .obj file)
+O 0 58801 1 58845 100 0 0 0        * a Vistani flag
+O 0 58803 1 58855 100 0 0 0        * a small crystal ball
+O 0 58841 1 58855 100 0 0 0        * several large pillows
+O 0 58839 1 58856 100 0 0 0        * an old wooden sign
+O 0 91012 1 58858 100 0 0 0        * (object type not in this .obj file)
+O 0 58832 1 58895 100 0 0 0        * a storage chest
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+P 1 97097 10 58832 100 0 0 0       *   (object type not in this .obj file)
+O 0 58800 1 58897 100 0 0 0        * a wavering portal
+O 0 58818 1 58941 100 0 0 0        * some old books and clothing
+O 0 91005 1 58960 100 0 0 0        * (object type not in this .obj file)
+O 0 58819 1 58963 100 0 0 0        * a pentagram
+O 0 58820 3 58985 100 0 0 0        * a swirling rift
+O 0 58820 3 58986 100 0 0 0        * a swirling rift
+O 0 58820 3 58987 100 0 0 0        * a swirling rift
+O 0 58831 1 58995 100 0 0 0        * a burning rift
+*
+M 0 58830 6 58800 100 0 0 0        * a field mouse
+M 0 91009 5 58801 100 0 0 0        * (mob type not in this .mob file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58827 6 58802 100 0 0 0        * an antelope
+M 0 58830 6 58811 100 0 0 0        * a field mouse
+M 0 58801 14 58816 100 0 0 0       * a blood eel
+M 0 58801 14 58816 100 0 0 0       * a blood eel
+M 0 58826 5 58823 100 0 0 0        * a scared human
+M 0 58802 7 58825 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58801 14 58825 100 0 0 0       * a blood eel
+M 0 58801 14 58825 100 0 0 0       * a blood eel
+M 0 58802 7 58825 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58801 14 58826 100 0 0 0       * a blood eel
+M 0 58801 14 58826 100 0 0 0       * a blood eel
+M 0 58801 14 58827 100 0 0 0       * a blood eel
+M 0 58801 14 58827 100 0 0 0       * a blood eel
+M 0 58801 14 58828 100 0 0 0       * a blood eel
+M 0 58801 14 58828 100 0 0 0       * a blood eel
+M 0 58802 7 58828 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58802 7 58828 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58801 14 58829 100 0 0 0       * a blood eel
+M 0 58801 14 58829 100 0 0 0       * a blood eel
+M 0 58801 14 58830 100 0 0 0       * a blood eel
+M 0 58801 14 58830 100 0 0 0       * a blood eel
+M 0 58802 7 58831 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58802 7 58831 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58802 7 58831 100 0 0 0        * a strangle vine
+E 1 58837 7 16 100 0 0 0           *   vine proc 1
+M 0 58800 1 58832 100 0 0 0        * The Drowned Lady
+E 1 58847 1 18 100 0 0 0           *   a staff of gnarled roots
+E 1 58824 1 19 100 0 0 0           *   an old, cloudy glass eye
+G 1 58853 1 0 100 0 0 0            *    a spherical chunk of the swamp fane runestone
+M 0 58827 6 58835 100 0 0 0        * an antelope
+M 0 58824 10 58846 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58846 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58847 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58825 4 58847 100 0 0 0        * a camp overseer
+E 1 58840 8 16 100 0 0 0           *   a Vistani rapier
+E 1 58840 8 17 100 0 0 0           *   a Vistani rapier
+M 0 58824 10 58848 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58825 4 58848 100 0 0 0        * a camp overseer
+E 1 58840 8 16 100 0 0 0           *   a Vistani rapier
+E 1 58840 8 17 100 0 0 0           *   a Vistani rapier
+E 1 58845 1 24 100 0 0 0           *   a badge of the Vistani
+M 0 58824 10 58851 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58851 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58825 4 58851 100 0 0 0        * a camp overseer
+E 1 58840 8 16 100 0 0 0           *   a Vistani rapier
+E 1 58840 8 17 100 0 0 0           *   a Vistani rapier
+M 0 58824 10 58852 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58852 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58853 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58824 10 58853 100 0 0 0       * a vistani camp guard
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58825 4 58854 100 0 0 0        * a camp overseer
+E 1 58840 8 16 100 0 0 0           *   a Vistani rapier
+E 1 58840 8 17 100 0 0 0           *   a Vistani rapier
+M 0 58812 1 58855 100 0 0 0        * Madam Eva
+E 1 58843 1 1 100 0 0 0            *   a spider ring
+E 1 58842 1 2 100 0 0 0            *   a spider ring
+G 1 58833 1 0 100 0 0 0            *    a tiny key
+G 1 58852 1 0 100 0 0 0            *    a twisted wand of influence
+F 1 58848 2 58855 100 0 0 0        * an advanced ogre (following)
+E 1 58851 4 16 100 0 0 0           *   a huge curved sword
+E 1 58851 4 17 100 0 0 0           *   a huge curved sword
+F 1 58848 2 58855 100 0 0 0        * an advanced ogre (following)
+E 1 58851 4 16 100 0 0 0           *   a huge curved sword
+E 1 58851 4 17 100 0 0 0           *   a huge curved sword
+M 0 58804 1 58857 100 0 0 0        * Sir Urik
+M 0 58803 6 58857 100 0 0 0        * a murk
+M 0 58803 6 58857 100 0 0 0        * a murk
+M 0 58803 6 58857 100 0 0 0        * a murk
+M 0 58803 6 58857 100 0 0 0        * a murk
+M 0 58826 5 58858 100 0 0 0        * a scared human
+M 0 58827 6 58860 100 0 0 0        * an antelope
+M 0 58830 6 58863 100 0 0 0        * a field mouse
+M 0 58816 5 58864 100 0 0 0        * a Vistani scout
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58814 4 0 100 0 0 0            *    a smoke bomb potion
+M 0 58816 5 58864 100 0 0 0        * a Vistani scout
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58818 1 58864 100 0 0 0        * Shresta the Shadowmage
+E 1 58811 1 16 100 0 0 0           *   a rune-covered svalich wood quarterstaff
+F 1 58817 2 58864 100 0 0 0        * a strong Vistani bodyguard (following)
+F 1 58817 2 58864 100 0 0 0        * a strong Vistani bodyguard (following)
+M 0 58830 6 58873 100 0 0 0        * a field mouse
+M 0 91009 5 58881 100 0 0 0        * (mob type not in this .mob file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58826 5 58882 100 0 0 0        * a scared human
+M 0 58821 1 58891 100 0 0 0        * an enormous blood red dragon
+G 1 58809 1 0 100 0 0 0            *    a fire dragon egg
+M 0 58820 5 58893 100 0 0 0        * an elite spy
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58814 4 0 100 0 0 0            *    a smoke bomb potion
+M 0 58819 4 58894 100 0 0 0        * a special saboteur
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+E 1 58844 1 24 100 0 0 0           *   the mark of the saboteur
+G 1 58808 4 0 100 0 0 0            *    a potion of bubbling goo
+M 0 58819 4 58894 100 0 0 0        * a special saboteur
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58808 4 0 100 0 0 0            *    a potion of bubbling goo
+M 0 58820 5 58894 100 0 0 0        * an elite spy
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58820 5 58894 100 0 0 0        * an elite spy
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58820 5 58896 100 0 0 0        * an elite spy
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58819 4 58897 100 0 0 0        * a special saboteur
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58808 4 0 100 0 0 0            *    a potion of bubbling goo
+M 0 58819 4 58897 100 0 0 0        * a special saboteur
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58808 4 0 100 0 0 0            *    a potion of bubbling goo
+M 0 58820 5 58897 100 0 0 0        * an elite spy
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58833 1 58898 100 0 0 0        * a Vistani drakerider
+E 1 58815 1 10 100 0 0 0           *   a shoulder drape of emerald dragonscale
+R 1 58834 1 58898 100 0 0 0        * a drake (being ridden)
+M 0 58831 18 58903 100 0 0 0       * a blacktooth piranha
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58903 100 0 0 0       * a blacktooth piranha (following)
+M 0 58832 2 58905 100 0 0 0        * a cursed nebree
+M 0 58832 2 58905 100 0 0 0        * a cursed nebree
+G 1 58816 1 0 100 0 0 0            *    a large sack of stitched nebree skin
+M 0 58827 6 58912 100 0 0 0        * an antelope
+M 0 58826 5 58913 100 0 0 0        * a scared human
+M 0 58830 6 58915 100 0 0 0        * a field mouse
+M 0 58822 1 58922 100 0 0 0        * Mirkodesiuska the Crystal Dragon
+M 0 58816 5 58923 100 0 0 0        * a Vistani scout
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58814 4 0 100 0 0 0            *    a smoke bomb potion
+M 0 58816 5 58923 100 0 0 0        * a Vistani scout
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+G 1 58814 4 0 100 0 0 0            *    a smoke bomb potion
+M 0 58816 5 58923 100 0 0 0        * a Vistani scout
+E 1 58813 52 16 100 0 0 0          *   a jet-black dagger
+E 1 58813 52 17 100 0 0 0          *   a jet-black dagger
+M 0 58827 6 58923 100 0 0 0        * an antelope
+M 0 58813 8 58927 100 0 0 0        * a crazed witch
+E 1 58850 1 18 100 0 0 0           *   a staff of beasts
+F 1 58814 8 58927 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58928 100 0 0 0        * a crazed witch
+F 1 58814 8 58928 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58929 100 0 0 0        * a crazed witch
+F 1 58814 8 58929 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58931 100 0 0 0        * a crazed witch
+F 1 58814 8 58931 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58935 100 0 0 0        * a crazed witch
+F 1 58814 8 58935 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58936 100 0 0 0        * a crazed witch
+F 1 58814 8 58936 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58937 100 0 0 0        * a crazed witch
+F 1 58814 8 58937 100 0 0 0        * a crazed witch (following)
+M 0 58813 8 58940 100 0 0 0        * a crazed witch
+F 1 58814 8 58940 100 0 0 0        * a crazed witch (following)
+M 0 58815 1 58941 100 0 0 0        * Baba Zelenna
+E 1 58848 1 16 80 0 0 0            *   the rod of summoning
+G 1 58817 1 0 100 0 0 0            *    a tiny locket on a platinum chain
+M 0 58807 6 58943 100 0 0 0        * a vampire spawn
+M 0 58807 6 58943 100 0 0 0        * a vampire spawn
+M 0 91009 5 58944 100 0 0 0        * (mob type not in this .mob file)
+G 1 58813 52 0 100 0 0 0           *    a jet-black dagger
+G 1 58813 52 0 100 0 0 0           *    a jet-black dagger
+M 0 91009 5 58945 100 0 0 0        * (mob type not in this .mob file)
+G 1 58813 52 0 100 0 0 0           *    a jet-black dagger
+G 1 58813 52 0 100 0 0 0           *    a jet-black dagger
+M 0 58808 6 58946 100 0 0 0        * a wraith
+M 0 58808 6 58946 100 0 0 0        * a wraith
+M 0 58831 18 58954 100 0 0 0       * a blacktooth piranha
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+F 1 58831 18 58954 100 0 0 0       * a blacktooth piranha (following)
+M 0 58828 1 58960 100 0 0 0        * Varikov the Trapper
+E 1 58806 1 3 100 0 0 0            *   a string of human teeth and beastial fangs
+E 1 58805 3 16 100 0 0 0           *   a rusty battle-axe
+E 1 58805 3 17 100 0 0 0           *   a rusty battle-axe
+F 1 58829 1 58960 100 0 0 0        * Farkash the dire wolf (following)
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58805 1 58961 100 0 0 0        * Valicia the Nymph
+E 1 58802 1 12 100 0 0 0           *   a blue mantle embroided with symbols of fortune
+F 1 58806 3 58961 100 0 0 0        * a giant black werewolf (following)
+F 1 58806 3 58961 100 0 0 0        * a giant black werewolf (following)
+F 1 58806 3 58961 100 0 0 0        * a giant black werewolf (following)
+M 0 58840 4 58964 100 0 0 0        * a quasit
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58841 4 58965 100 0 0 0        * a nalfeshnee
+M 0 58841 4 58966 100 0 0 0        * a nalfeshnee
+M 0 58840 4 58967 100 0 0 0        * a quasit
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58842 3 58968 100 0 0 0        * an obsidian devil
+M 0 58842 3 58969 100 0 0 0        * an obsidian devil
+M 0 58842 3 58970 100 0 0 0        * an obsidian devil
+M 0 58840 4 58971 100 0 0 0        * a quasit
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58841 4 58972 100 0 0 0        * a nalfeshnee
+M 0 58840 4 58973 100 0 0 0        * a quasit
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 34534 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58841 4 58975 100 0 0 0        * a nalfeshnee
+M 0 58844 3 58977 100 0 0 0        * a kashtraki spawn
+M 0 58845 1 58978 100 0 0 0        * a MASSIVE ghargatula
+E 1 58828 1 19 100 0 0 0           *   devil eyes of the ghargatula
+M 0 58844 3 58979 100 0 0 0        * a kashtraki spawn
+M 0 58843 2 58981 100 0 0 0        * a ghargatula
+M 0 58844 3 58982 100 0 0 0        * a kashtraki spawn
+M 0 58843 2 58983 100 0 0 0        * a ghargatula
+M 0 58835 1 58984 100 0 0 0        * Chernovog the Devil God of Kashtrakis
+E 1 58827 1 5 100 0 0 0            *   a blazing suit of devil platemail
+E 1 58829 1 12 100 0 0 0           *   a long, flowing cape of hellfire
+E 1 58836 1 16 100 0 0 0           *   chernovog proc 2
+E 1 58835 1 17 100 0 0 0           *   chernovog proc 1
+G 1 58830 1 0 100 0 0 0            *    a shard of hellfire
+G 1 58834 1 0 100 0 0 0            *    a grotesque black devil's heart
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 16242 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 58838 6 58985 100 0 0 0        * a tortured soul
+M 0 58838 6 58985 100 0 0 0        * a tortured soul
+M 0 58838 6 58986 100 0 0 0        * a tortured soul
+M 0 58838 6 58986 100 0 0 0        * a tortured soul
+M 0 58838 6 58987 100 0 0 0        * a tortured soul
+M 0 58838 6 58987 100 0 0 0        * a tortured soul
+M 0 58839 3 58988 100 0 0 0        * a bebilith
+F 1 58839 3 58988 100 0 0 0        * a bebilith (following)
+F 1 58839 3 58988 100 0 0 0        * a bebilith (following)
+M 0 58803 6 58988 100 0 0 0        * a murk
+M 0 58803 6 58988 100 0 0 0        * a murk
+M 0 58837 2 58989 100 0 0 0        * a HUGE marilith
+E 1 58821 6 16 100 0 0 0           *   a jagged, massive demon sword
+E 1 58821 6 17 100 0 0 0           *   a jagged, massive demon sword
+M 0 58837 2 58989 100 0 0 0        * a HUGE marilith
+E 1 58821 6 16 100 0 0 0           *   a jagged, massive demon sword
+E 1 58821 6 17 100 0 0 0           *   a jagged, massive demon sword
+M 0 58836 2 58991 50 0 0 0         * a grinning imp
+G 1 58823 2 0 100 0 0 0            *    a burning scroll
+M 0 58836 2 58991 100 0 0 0        * a grinning imp
+G 1 58822 1 0 100 0 0 0            *    a burning scroll
+G 1 58823 2 0 100 0 0 0            *    a burning scroll
+M 0 58811 5 58996 100 0 0 0        * a red-eyed werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58811 5 58996 100 0 0 0        * a red-eyed werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58811 5 58996 100 0 0 0        * a red-eyed werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58811 5 58996 100 0 0 0        * a red-eyed werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58807 6 58996 100 0 0 0        * a vampire spawn
+M 0 58807 6 58996 100 0 0 0        * a vampire spawn
+M 0 58807 6 58996 100 0 0 0        * a vampire spawn
+M 0 58808 6 58996 100 0 0 0        * a wraith
+M 0 58808 6 58996 100 0 0 0        * a wraith
+M 0 58808 6 58996 100 0 0 0        * a wraith
+M 0 58807 6 58996 100 0 0 0        * a vampire spawn
+M 0 58808 6 58996 100 0 0 0        * a wraith
+M 0 58810 5 58996 100 0 0 0        * a werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58810 5 58996 100 0 0 0        * a werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58810 5 58996 100 0 0 0        * a werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58810 5 58996 100 0 0 0        * a werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58810 5 58996 100 0 0 0        * a werewolf
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58823 5 58996 100 0 0 0        * a wereboar
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58823 5 58996 100 0 0 0        * a wereboar
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58823 5 58996 100 0 0 0        * a wereboar
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58823 5 58996 100 0 0 0        * a wereboar
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 58823 5 58996 100 0 0 0        * a wereboar
+E 1 58807 39 16 100 0 0 0          *   a bloody claw
+E 1 58807 39 17 100 0 0 0          *   a bloody claw
+M 0 91009 5 58996 100 0 0 0        * (mob type not in this .mob file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 91049 6 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58809 5 58996 100 0 0 0        * a bloodmote cloud
+E 1 58838 10 16 100 0 0 0          *   bloodmote proc 1
+E 1 58838 10 17 100 0 0 0          *   bloodmote proc 1
+G 1 44464 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58809 5 58996 100 0 0 0        * a bloodmote cloud
+E 1 58838 10 16 100 0 0 0          *   bloodmote proc 1
+E 1 58838 10 17 100 0 0 0          *   bloodmote proc 1
+G 1 44464 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58809 5 58996 100 0 0 0        * a bloodmote cloud
+E 1 58838 10 16 100 0 0 0          *   bloodmote proc 1
+E 1 58838 10 17 100 0 0 0          *   bloodmote proc 1
+G 1 44464 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58809 5 58996 100 0 0 0        * a bloodmote cloud
+E 1 58838 10 16 100 0 0 0          *   bloodmote proc 1
+E 1 58838 10 17 100 0 0 0          *   bloodmote proc 1
+G 1 44464 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58809 5 58996 100 0 0 0        * a bloodmote cloud
+E 1 58838 10 16 100 0 0 0          *   bloodmote proc 1
+E 1 58838 10 17 100 0 0 0          *   bloodmote proc 1
+G 1 44464 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 58826 5 58996 100 0 0 0        * a scared human
+M 0 58827 6 58996 100 0 0 0        * an antelope
+M 0 58830 6 58996 100 0 0 0        * a field mouse
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 91053 6 58996 100 0 0 0        * (mob type not in this .mob file)
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58847 6 58996 100 0 0 0        * a zombie
+M 0 58811 5 58996 100 0 0 0        * a red-eyed werewolf
+*
+S

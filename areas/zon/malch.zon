@@ -1,0 +1,356 @@
+#236
+&+gMalch'Hor Ganl &+Lthe &+GGoblin &N&+gCity&N~
+23760 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 23604 0 1 100 0 0 0
+*     north exit from "In Front of the Gates of Malch'hor Ganl" to
+*     "Inside the Great Iron Gates of Malch'hor Ganl" - closed
+*
+D 0 23605 2 1 100 0 0 0
+*     south exit from "Inside the Great Iron Gates of Malch'hor Ganl" to
+*     "In Front of the Gates of Malch'hor Ganl" - closed
+*
+D 0 23615 2 1 100 0 0 0
+*     south exit from "Gabbuk'Jul Square" to
+*     "Large Meeting Chamber of Malch'hor Ganl" - closed
+*
+D 0 23616 0 1 100 0 0 0
+*     north exit from "Large Meeting Chamber of Malch'hor Ganl" to
+*     "Gabbuk'Jul Square" - closed
+*
+D 0 23623 2 1 100 0 0 0
+*     south exit from "Togak'Hogak, Guild of Goblin Thieves" to
+*     "The Guild Masters Chamber of the Thogak'Hogak" - closed
+*
+D 0 23626 0 1 100 0 0 0
+*     north exit from "The Guild Masters Chamber of the Thogak'Hogak" to
+*     "Togak'Hogak, Guild of Goblin Thieves" - closed
+*
+D 0 23624 4 1 100 0 0 0
+*     up exit from "Edge of a Large Cavern" to
+*     "Dark and Filthy End to a Tunnel" - closed
+*
+D 0 23646 5 1 100 0 0 0
+*     down exit from "Dark and Filthy End to a Tunnel" to
+*     "Edge of a Large Cavern" - closed
+*
+D 0 23635 5 1 100 0 0 0
+*     down exit from "Above the Worst Smelling Area of Malch'hor Ganl" to
+*     "The Center of the Towns Dump and Cemetary" - closed
+*
+D 0 23647 4 1 100 0 0 0
+*     up exit from "The Center of the Towns Dump and Cemetary" to
+*     "Above the Worst Smelling Area of Malch'hor Ganl" - closed
+*
+D 0 23716 3 5 100 0 0 0
+*     west exit from "A Dead-End in the Tunnel" to
+*     "A Dark, Hidden Tunnel" - closed/secret
+*
+D 0 23717 1 1 100 0 0 0
+*     east exit from "A Dark, Hidden Tunnel" to
+*     "A Dead-End in the Tunnel" - closed
+*
+D 0 23720 0 1 100 0 0 0
+*     north exit from "End of a Hidden Tunnel" to
+*     "A Dark Low Cavern" - closed
+*
+D 0 23721 2 1 100 0 0 0
+*     south exit from "A Dark Low Cavern" to
+*     "End of a Hidden Tunnel" - closed
+*
+D 0 23733 0 1 100 0 0 0
+*     north exit from "A Dark, Caved-In Tunnel" to
+*     "A Small Caved-In Chamber" - closed
+*
+D 0 23734 2 1 100 0 0 0
+*     south exit from "A Small Caved-In Chamber" to
+*     "A Dark, Caved-In Tunnel" - closed
+*
+D 0 23758 0 8 100 0 0 0
+*     north exit from "A Hidden Passageway" to
+*     "A Hidden Gambling Chamber" - open/blocked
+*
+D 0 23759 2 8 100 0 0 0
+*     south exit from "A Hidden Gambling Chamber" to
+*     "A Hidden Passageway" - open/blocked
+*
+*
+O 0 23600 1 23606 100 0 0 0        * a filthy fountain
+O 0 23607 1 23626 100 0 0 0        * a sturdy desk
+P 1 23608 1 23607 100 0 0 0        *   an ivory shard
+O 0 23601 1 23631 100 0 0 0        * a dusty bookcase
+P 1 23602 1 23601 100 0 0 0        *   a small book
+P 1 23604 2 23601 100 0 0 0        *   a quill
+O 0 23616 1 23725 100 0 0 0        * a half-buried sack of coins
+O 0 53610 2 23738 100 0 0 0        * (object type not in this .obj file)
+O 0 53610 2 23739 100 0 0 0        * (object type not in this .obj file)
+O 0 23617 1 23745 100 0 0 0        * a small sign
+O 0 23620 5 23754 100 0 0 0        * a torch
+O 0 23620 5 23755 100 0 0 0        * a torch
+O 0 23620 5 23756 100 0 0 0        * a torch
+O 0 23618 1 23758 100 0 0 0        * a huge round rock
+O 0 23619 1 23759 100 0 0 0        * a tapestry
+O 0 23620 5 23759 100 0 0 0        * a torch
+O 0 23620 5 23760 100 0 0 0        * a torch
+*
+M 0 23603 38 23600 100 0 0 0       * a small bat
+M 0 23605 33 23602 100 0 0 0       * a black spider
+M 0 23609 15 23603 100 0 0 0       * a goblin child
+M 0 23600 4 23604 100 0 0 0        * a goblin guard
+M 0 23600 4 23604 100 0 0 0        * a goblin guard
+M 0 23600 4 23604 100 0 0 0        * a goblin guard
+M 0 23600 4 23604 100 0 0 0        * a goblin guard
+M 0 23605 33 23605 100 0 0 0       * a black spider
+M 0 23606 21 23605 100 0 0 0       * a goblin commoner
+M 0 23607 10 23606 100 0 0 0       * a goblin patrol
+M 0 23603 38 23607 100 0 0 0       * a small bat
+M 0 23605 33 23608 100 0 0 0       * a black spider
+M 0 23606 21 23608 100 0 0 0       * a goblin commoner
+M 0 23609 15 23608 100 0 0 0       * a goblin child
+M 0 23603 38 23609 100 0 0 0       * a small bat
+M 0 23609 15 23609 100 0 0 0       * a goblin child
+M 0 23605 33 23610 100 0 0 0       * a black spider
+M 0 23606 21 23610 100 0 0 0       * a goblin commoner
+M 0 23609 15 23611 100 0 0 0       * a goblin child
+M 0 23605 33 23613 100 0 0 0       * a black spider
+M 0 23607 10 23613 100 0 0 0       * a goblin patrol
+M 0 23605 33 23614 100 0 0 0       * a black spider
+M 0 23607 10 23614 100 0 0 0       * a goblin patrol
+M 0 23606 21 23615 100 0 0 0       * a goblin commoner
+M 0 23609 15 23615 100 0 0 0       * a goblin child
+M 0 23618 13 23615 100 0 0 0       * a goblin woman
+M 0 23618 13 23615 100 0 0 0       * a goblin woman
+M 0 23626 1 23615 100 0 0 0        * Shablem the High Priest
+M 0 23605 33 23616 100 0 0 0       * a black spider
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23603 38 23619 100 0 0 0       * a small bat
+M 0 23605 33 23619 100 0 0 0       * a black spider
+M 0 23605 33 23619 100 0 0 0       * a black spider
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23603 38 23620 100 0 0 0       * a small bat
+M 0 23606 21 23620 100 0 0 0       * a goblin commoner
+M 0 23606 21 23620 100 0 0 0       * a goblin commoner
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23603 38 23621 100 0 0 0       * a small bat
+M 0 23605 33 23621 100 0 0 0       * a black spider
+M 0 23605 33 23623 100 0 0 0       * a black spider
+M 0 23605 33 23623 100 0 0 0       * a black spider
+M 0 23612 5 23623 100 0 0 0        * a goblin thief
+M 0 23603 38 23624 100 0 0 0       * a small bat
+M 0 23612 5 23624 100 0 0 0        * a goblin thief
+M 0 23612 5 23625 100 0 0 0        * a goblin thief
+M 0 23612 5 23625 100 0 0 0        * a goblin thief
+M 0 23613 1 23626 100 0 0 0        * The goblin guildmaster
+E 1 23615 4 16 100 0 0 0           *   a silver dagger
+M 0 23612 5 23627 100 0 0 0        * a goblin thief
+M 0 23616 5 23628 100 0 0 0        * a cleric in training
+M 0 23603 38 23630 100 0 0 0       * a small bat
+M 0 23605 33 23630 100 0 0 0       * a black spider
+M 0 23616 5 23630 100 0 0 0        * a cleric in training
+M 0 23617 1 23630 100 0 0 0        * Maglo
+M 0 23616 5 23631 100 0 0 0        * a cleric in training
+M 0 23616 5 23632 100 0 0 0        * a cleric in training
+M 0 23616 5 23632 100 0 0 0        * a cleric in training
+M 0 23605 33 23633 100 0 0 0       * a black spider
+M 0 23605 33 23633 100 0 0 0       * a black spider
+M 0 23606 21 23633 100 0 0 0       * a goblin commoner
+M 0 23607 10 23633 100 0 0 0       * a goblin patrol
+M 0 23618 13 23633 100 0 0 0       * a goblin woman
+M 0 23618 13 23633 100 0 0 0       * a goblin woman
+M 0 23603 38 23634 100 0 0 0       * a small bat
+M 0 23609 15 23634 100 0 0 0       * a goblin child
+M 0 23607 10 23635 100 0 0 0       * a goblin patrol
+M 0 23618 13 23635 100 0 0 0       * a goblin woman
+M 0 23618 13 23635 100 0 0 0       * a goblin woman
+M 0 23606 21 23636 100 0 0 0       * a goblin commoner
+M 0 23609 15 23636 100 0 0 0       * a goblin child
+M 0 23606 21 23637 100 0 0 0       * a goblin commoner
+M 0 23605 33 23638 100 0 0 0       * a black spider
+M 0 23605 33 23639 100 0 0 0       * a black spider
+M 0 23603 38 23639 100 0 0 0       * a small bat
+M 0 23602 1 23641 100 0 0 0        * a stone guardian
+M 0 23606 21 23641 100 0 0 0       * a goblin commoner
+M 0 23605 33 23643 100 0 0 0       * a black spider
+M 0 23605 33 23646 100 0 0 0       * a black spider
+M 0 23603 38 23648 100 0 0 0       * a small bat
+M 0 23604 36 23648 100 0 0 0       * A slimy maggot
+M 0 23604 36 23648 100 0 0 0       * A slimy maggot
+M 0 23604 36 23648 100 0 0 0       * A slimy maggot
+M 0 23604 36 23649 100 0 0 0       * A slimy maggot
+M 0 23604 36 23651 100 0 0 0       * A slimy maggot
+M 0 23604 36 23652 100 0 0 0       * A slimy maggot
+M 0 23604 36 23652 100 0 0 0       * A slimy maggot
+M 0 23603 38 23653 100 0 0 0       * a small bat
+M 0 23604 36 23653 100 0 0 0       * A slimy maggot
+M 0 23604 36 23653 100 0 0 0       * A slimy maggot
+M 0 23604 36 23653 100 0 0 0       * A slimy maggot
+M 0 23604 36 23654 100 0 0 0       * A slimy maggot
+M 0 23604 36 23654 100 0 0 0       * A slimy maggot
+M 0 23604 36 23654 100 0 0 0       * A slimy maggot
+M 0 23604 36 23655 100 0 0 0       * A slimy maggot
+M 0 23604 36 23655 100 0 0 0       * A slimy maggot
+M 0 23604 36 23655 100 0 0 0       * A slimy maggot
+M 0 23604 36 23657 100 0 0 0       * A slimy maggot
+M 0 23604 36 23657 100 0 0 0       * A slimy maggot
+M 0 23604 36 23657 100 0 0 0       * A slimy maggot
+M 0 23603 38 23658 100 0 0 0       * a small bat
+M 0 23604 36 23659 100 0 0 0       * A slimy maggot
+M 0 23604 36 23659 100 0 0 0       * A slimy maggot
+M 0 23604 36 23660 100 0 0 0       * A slimy maggot
+M 0 23604 36 23660 100 0 0 0       * A slimy maggot
+M 0 23604 36 23662 100 0 0 0       * A slimy maggot
+M 0 23603 38 23663 100 0 0 0       * a small bat
+M 0 23604 36 23663 100 0 0 0       * A slimy maggot
+M 0 23604 36 23665 100 0 0 0       * A slimy maggot
+M 0 23604 36 23665 100 0 0 0       * A slimy maggot
+M 0 23604 36 23665 100 0 0 0       * A slimy maggot
+M 0 23604 36 23665 100 0 0 0       * A slimy maggot
+M 0 23604 36 23666 100 0 0 0       * A slimy maggot
+M 0 23604 36 23666 100 0 0 0       * A slimy maggot
+M 0 23603 38 23668 100 0 0 0       * a small bat
+M 0 23604 36 23668 100 0 0 0       * A slimy maggot
+M 0 23604 36 23669 100 0 0 0       * A slimy maggot
+M 0 23604 36 23670 100 0 0 0       * A slimy maggot
+M 0 23604 36 23671 100 0 0 0       * A slimy maggot
+M 0 23604 36 23671 100 0 0 0       * A slimy maggot
+M 0 23609 15 23672 100 0 0 0       * a goblin child
+M 0 23603 38 23673 100 0 0 0       * a small bat
+M 0 23606 21 23673 100 0 0 0       * a goblin commoner
+M 0 23606 21 23673 100 0 0 0       * a goblin commoner
+M 0 23607 10 23673 100 0 0 0       * a goblin patrol
+M 0 23605 33 23674 100 0 0 0       * a black spider
+M 0 23609 15 23674 100 0 0 0       * a goblin child
+M 0 23618 13 23674 100 0 0 0       * a goblin woman
+M 0 23618 13 23674 100 0 0 0       * a goblin woman
+M 0 23609 15 23676 100 0 0 0       * a goblin child
+M 0 23618 13 23676 100 0 0 0       * a goblin woman
+M 0 23618 13 23676 100 0 0 0       * a goblin woman
+M 0 23607 10 23677 100 0 0 0       * a goblin patrol
+M 0 23605 33 23678 100 0 0 0       * a black spider
+M 0 23605 33 23678 100 0 0 0       * a black spider
+M 0 23606 21 23679 100 0 0 0       * a goblin commoner
+M 0 23606 21 23679 100 0 0 0       * a goblin commoner
+M 0 23609 15 23679 100 0 0 0       * a goblin child
+M 0 23618 13 23679 100 0 0 0       * a goblin woman
+M 0 23618 13 23679 100 0 0 0       * a goblin woman
+M 0 23603 38 23680 100 0 0 0       * a small bat
+M 0 23606 21 23680 100 0 0 0       * a goblin commoner
+M 0 23609 15 23680 100 0 0 0       * a goblin child
+M 0 23607 10 23681 100 0 0 0       * a goblin patrol
+M 0 23607 10 23681 100 0 0 0       * a goblin patrol
+M 0 23606 21 23682 100 0 0 0       * a goblin commoner
+M 0 23618 13 23682 100 0 0 0       * a goblin woman
+M 0 23603 38 23683 100 0 0 0       * a small bat
+M 0 23609 15 23683 100 0 0 0       * a goblin child
+M 0 23605 33 23684 100 0 0 0       * a black spider
+M 0 23605 33 23684 100 0 0 0       * a black spider
+M 0 23606 21 23684 100 0 0 0       * a goblin commoner
+M 0 23607 10 23684 100 0 0 0       * a goblin patrol
+M 0 23609 15 23685 100 0 0 0       * a goblin child
+M 0 23601 1 23687 100 0 0 0        * Jaga'Gook
+G 1 23603 1 0 100 0 0 0            *    a goblin made backpack
+G 1 23604 2 0 100 0 0 0            *    a quill
+G 1 23605 1 0 100 0 0 0            *    a spellbook
+G 1 23606 1 0 100 0 0 0            *    a brown dirk
+G 1 23609 1 0 100 0 0 0            *    a goblin made waterskin
+M 0 23605 33 23689 100 0 0 0       * a black spider
+M 0 23605 33 23689 100 0 0 0       * a black spider
+M 0 23603 38 23690 100 0 0 0       * a small bat
+M 0 23615 9 23690 100 0 0 0        * a goblin warrior
+M 0 23615 9 23690 100 0 0 0        * a goblin warrior
+M 0 23606 21 23691 100 0 0 0       * a goblin commoner
+M 0 23615 9 23693 100 0 0 0        * a goblin warrior
+M 0 23615 9 23693 100 0 0 0        * a goblin warrior
+M 0 23605 33 23694 100 0 0 0       * a black spider
+M 0 23615 9 23695 100 0 0 0        * a goblin warrior
+M 0 23605 33 23696 100 0 0 0       * a black spider
+M 0 23605 33 23696 100 0 0 0       * a black spider
+M 0 23603 38 23697 100 0 0 0       * a small bat
+M 0 23614 1 23697 100 0 0 0        * Sulog
+M 0 23615 9 23697 100 0 0 0        * a goblin warrior
+M 0 23615 9 23699 100 0 0 0        * a goblin warrior
+M 0 23615 9 23699 100 0 0 0        * a goblin warrior
+M 0 23615 9 23700 100 0 0 0        * a goblin warrior
+M 0 23606 21 23701 100 0 0 0       * a goblin commoner
+M 0 23605 33 23702 100 0 0 0       * a black spider
+M 0 23605 33 23702 100 0 0 0       * a black spider
+M 0 23603 38 23704 100 0 0 0       * a small bat
+M 0 23605 33 23706 100 0 0 0       * a black spider
+M 0 23605 33 23706 100 0 0 0       * a black spider
+M 0 23611 5 23706 100 0 0 0        * A goblin student
+M 0 23611 5 23706 100 0 0 0        * A goblin student
+M 0 23611 5 23707 100 0 0 0        * A goblin student
+M 0 23608 1 23707 100 0 0 0        * Gobo
+G 1 23610 1 0 100 0 0 0            *    a silver totem
+G 1 23611 1 0 100 0 0 0            *    an sapphire totem
+G 1 23612 1 0 100 0 0 0            *    a moldy totem
+G 1 23613 1 0 100 0 0 0            *    a stone panther
+M 0 23611 5 23708 100 0 0 0        * A goblin student
+M 0 23611 5 23709 100 0 0 0        * A goblin student
+M 0 23606 21 23710 100 0 0 0       * a goblin commoner
+M 0 23606 21 23712 100 0 0 0       * a goblin commoner
+M 0 23609 15 23712 100 0 0 0       * a goblin child
+M 0 23610 1 23714 100 0 0 0        * the goblin cook
+G 1 23614 999 0 100 0 0 0          *    a fried mushroom
+M 0 23619 1 23724 100 0 0 0        * a Malch'Hor Ganl outcast
+E 1 23615 4 16 100 0 0 0           *   a silver dagger
+E 1 23615 4 17 100 0 0 0           *   a silver dagger
+M 0 4410 1 23729 100 0 0 0         * (mob type not in this .mob file)
+M 0 4404 18 23734 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23734 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23735 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23735 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23735 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23735 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23736 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23736 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23736 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23737 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23737 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23737 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23738 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23738 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23739 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23739 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23740 100 0 0 0        * (mob type not in this .mob file)
+M 0 4404 18 23740 100 0 0 0        * (mob type not in this .mob file)
+M 0 15213 4 23750 100 0 0 0        * (mob type not in this .mob file)
+M 0 15213 4 23750 100 0 0 0        * (mob type not in this .mob file)
+M 0 15213 4 23750 100 0 0 0        * (mob type not in this .mob file)
+M 0 15213 4 23751 100 0 0 0        * (mob type not in this .mob file)
+M 0 23620 6 23754 100 0 0 0        * a pirate
+M 0 23620 6 23754 100 0 0 0        * a pirate
+M 0 23621 3 23754 100 0 0 0        * a goblin pirate
+M 0 23620 6 23755 100 0 0 0        * a pirate
+M 0 23620 6 23755 100 0 0 0        * a pirate
+M 0 23621 3 23755 100 0 0 0        * a goblin pirate
+M 0 23620 6 23756 100 0 0 0        * a pirate
+M 0 23620 6 23756 100 0 0 0        * a pirate
+M 0 23621 3 23756 100 0 0 0        * a goblin pirate
+M 0 23622 1 23756 100 0 0 0        * Threzik One-Eye the Pirate
+E 1 23622 1 6 100 0 0 0            *   Threzik One-Eye's pirate hat
+E 1 23621 1 19 100 0 0 0           *   an eyepatch set with a bloodstone
+G 1 40474 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 23623 1 23759 100 0 0 0        * Snarg SkagTooth
+M 0 23624 1 23759 100 0 0 0        * Gisdan Flegidigo
+M 0 23625 2 23759 100 0 0 0        * a goblin
+M 0 23625 2 23759 100 0 0 0        * a goblin
+*
+S

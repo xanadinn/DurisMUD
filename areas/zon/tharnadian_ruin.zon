@@ -1,0 +1,323 @@
+#55
+&+LThe &+WTharnadian &+LRuin~
+5678 1 0 20 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 5500 3 1 100 0 0 0
+*     west exit from "An Abandoned Storefront" to
+*     "The Tharnadia-Keats Intersection" - closed
+*
+D 0 5548 1 1 100 0 0 0
+*     east exit from "The Tharnadia-Keats Intersection" to
+*     "An Abandoned Storefront" - closed
+*
+D 0 5505 3 1 100 0 0 0
+*     west exit from "Road Beneath the Gate Tower" to
+*     "The Remains of a Commoner's Dwelling" - closed
+*
+D 0 5506 1 1 100 0 0 0
+*     east exit from "The Remains of a Commoner's Dwelling" to
+*     "Road Beneath the Gate Tower" - closed
+*
+D 0 5507 0 1 100 0 0 0
+*     north exit from "A Bend in the Wall Road" to
+*     "The Former Bank of Tharnadia" - closed
+*
+D 0 5508 2 1 100 0 0 0
+*     south exit from "The Former Bank of Tharnadia" to
+*     "A Bend in the Wall Road" - closed
+*
+D 0 5511 5 5 100 0 0 0
+*     down exit from "A Burned-out Home" to
+*     "Collapsed Entrance Hallway to the Guild of Rogues" - closed/secret
+*
+D 0 5528 4 1 100 0 0 0
+*     up exit from "Collapsed Entrance Hallway to the Guild of Rogues" to
+*     "A Burned-out Home" - closed
+*
+D 0 5540 0 2 100 0 0 0
+*     north exit from "Before a Gothic Cathedral" to
+*     "Inside the Cathedral" - closed/locked
+*
+D 0 5541 2 2 100 0 0 0
+*     south exit from "Inside the Cathedral" to
+*     "Before a Gothic Cathedral" - closed/locked
+*
+D 0 5554 0 1 100 0 0 0
+*     north exit from "Road Under the Southern Tower" to
+*     "The Remains of a Commoner's Dwelling" - closed
+*
+D 0 5555 2 1 100 0 0 0
+*     south exit from "The Remains of a Commoner's Dwelling" to
+*     "Road Under the Southern Tower" - closed
+*
+D 0 5562 2 1 100 0 0 0
+*     south exit from "The Great Fountain of Tharnadia, Now in Ruins" to
+*     "The Devastated Remains of The Ogre's Foot Inn" - closed
+*
+D 0 5563 0 1 100 0 0 0
+*     north exit from "The Devastated Remains of The Ogre's Foot Inn" to
+*     "The Great Fountain of Tharnadia, Now in Ruins" - closed
+*
+D 0 5564 0 0 100 0 0 0
+*     north exit from "Tharnadian Way" to
+*     "An Abandoned Storefront" - open
+*
+D 0 5591 2 0 100 0 0 0
+*     south exit from "An Abandoned Storefront" to
+*     "Tharnadian Way" - open
+*
+D 0 5566 0 1 100 0 0 0
+*     north exit from "Tharnadian Way" to
+*     "The Remains of the Tharnadian Armoury" - closed
+*
+D 0 5600 2 1 100 0 0 0
+*     south exit from "The Remains of the Tharnadian Armoury" to
+*     "Tharnadian Way" - closed
+*
+D 0 5578 0 1 100 0 0 0
+*     north exit from "A Bend in the Road Wall" to
+*     "An Abandoned Apartment" - closed
+*
+D 0 5593 2 1 100 0 0 0
+*     south exit from "An Abandoned Apartment" to
+*     "A Bend in the Road Wall" - closed
+*
+D 0 5585 0 1 100 0 0 0
+*     north exit from "Road Beneath the Gate Tower" to
+*     "A Ruined Living Room" - closed
+*
+D 0 5596 2 1 100 0 0 0
+*     south exit from "A Ruined Living Room" to
+*     "Road Beneath the Gate Tower" - closed
+*
+D 0 5598 1 1 100 0 0 0
+*     east exit from "A Hallway" to
+*     "What's Left of The Bedroom" - closed
+*
+D 0 5599 3 1 100 0 0 0
+*     west exit from "What's Left of The Bedroom" to
+*     "A Hallway" - closed
+*
+D 0 5671 1 2 100 0 0 0
+*     east exit from "Deep Inside a Tunnel of Living Rock" to
+*     "Deep Inside a Tunnel of Living Rock" - closed/locked
+*
+D 0 5672 3 2 100 0 0 0
+*     west exit from "Deep Inside a Tunnel of Living Rock" to
+*     "Deep Inside a Tunnel of Living Rock" - closed/locked
+*
+*
+O 0 5515 6 5506 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5519 6 5506 100 0 0 0          * ancient Tharnadian currency
+O 0 5520 1 5508 100 0 0 0          * the MASSIVE bank vault safe
+P 1 5522 1 5520 100 0 0 0          *   Jackpot!  A large pile of ancient Tharnadian coins is here
+O 0 5506 9 5509 100 0 0 0          * glowing rubble
+O 0 5535 2 5513 100 0 0 0          * fresh war party tracks
+O 0 5531 8 5534 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5531 8 5536 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5531 8 5538 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5531 8 5539 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5519 6 5539 100 0 0 0          * ancient Tharnadian currency
+O 0 5500 1 5544 100 0 0 0          * the skeletal remains of a necromancer
+O 0 5501 1 5544 100 0 0 0          * a bloody abbatoir
+P 1 5502 1 5501 100 0 0 0          *   a gold tablet entitled "The Holy Code of Honor"
+P 1 5503 1 5501 100 0 0 0          *   the terrifying shroud of undead power
+O 0 5506 9 5553 100 0 0 0          * glowing rubble
+O 0 5515 6 5555 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5519 6 5555 100 0 0 0          * ancient Tharnadian currency
+O 0 5531 8 5557 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5531 8 5560 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5506 9 5562 100 0 0 0          * glowing rubble
+O 0 5506 9 5563 100 0 0 0          * glowing rubble
+O 0 5506 9 5569 100 0 0 0          * glowing rubble
+O 0 5506 9 5583 100 0 0 0          * glowing rubble
+O 0 5507 2 5588 100 0 0 0          * a sign
+O 0 5531 8 5589 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5531 8 5590 100 0 0 0          * rubble from a Scorpion ballista
+O 0 5510 1 5591 100 0 0 0          * a stone dual hearth
+O 0 5515 6 5593 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5519 6 5593 100 0 0 0          * ancient Tharnadian currency
+O 0 5514 1 5594 100 0 0 0          * a pair of polished steel gauntlets
+O 0 5512 1 5599 100 0 0 0          * broken furniture
+O 0 5513 1 5599 100 0 0 0          * a small black key
+O 0 5516 1 5601 100 0 0 0          * several weapon racks
+O 0 5517 1 5601 100 0 0 0          * an electrum plated footman's mace
+O 0 5518 1 5601 100 0 0 0          * an ornate mithril-tipped steel pike
+O 0 5507 2 5616 100 0 0 0          * a sign
+O 0 5506 9 5620 100 0 0 0          * glowing rubble
+O 0 5506 9 5626 100 0 0 0          * glowing rubble
+O 0 5506 9 5644 100 0 0 0          * glowing rubble
+O 0 5515 6 5653 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5515 6 5654 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5519 6 5654 100 0 0 0          * ancient Tharnadian currency
+O 0 5515 6 5655 100 0 0 0          * centuries-old trash from a commoner's dwelling
+O 0 5519 6 5656 100 0 0 0          * ancient Tharnadian currency
+O 0 5508 1 5660 100 0 0 0          * a sex rack
+P 1 5509 1 5508 100 0 0 0          *   the skeletal remains of a slack-jawed prostitute
+O 0 5536 1 5662 100 0 0 0          * coin repop stop
+O 0 5535 2 5665 100 0 0 0          * fresh war party tracks
+O 0 5530 1 5671 100 0 0 0          * a stone door
+O 0 5529 1 5672 100 0 0 0          * a stone door
+O 0 5526 1 5678 100 0 0 0          * the ancient, preserved corpse of a shitting youth
+*
+M 0 5512 8 5506 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5518 3 5508 100 0 0 0          * a young bandit fighter
+M 0 5518 3 5508 100 0 0 0          * a young bandit fighter
+M 0 5518 3 5508 100 0 0 0          * a young bandit fighter
+M 0 5519 1 5508 100 0 0 0          * the bandit leader
+E 1 5533 1 5 100 0 0 0             *   a full set of fine chimeran leather armor
+G 1 14821 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 5509 1 5518 100 0 0 0          * the patrol leader
+F 1 5510 3 5518 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5510 3 5518 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5510 3 5518 100 0 0 0          * a Winterhaven expeditionary force member (following)
+M 0 5528 1 5528 100 0 0 0          * a mysterious cloaked humanoid
+M 0 5527 2 5539 100 0 0 0          * a severely wounded demon
+M 0 5502 11 5541 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5541 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5541 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5541 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5542 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5542 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5542 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5502 11 5542 100 0 0 0         * the rotted undead remains of a paladin
+M 0 5503 1 5544 100 0 0 0          * a fifty foot skeletal knight
+G 1 5534 1 0 100 0 0 0             *    the fifty foot skeletal knight's bone white skull
+F 1 5502 11 5544 100 0 0 0         * the rotted undead remains of a paladin (following)
+F 1 5502 11 5544 100 0 0 0         * the rotted undead remains of a paladin (following)
+F 1 5502 11 5544 100 0 0 0         * the rotted undead remains of a paladin (following)
+M 0 5500 6 5549 100 0 0 0          * the patrol leader
+F 1 5501 18 5549 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5549 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5549 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5500 6 5550 100 0 0 0          * the patrol leader
+F 1 5501 18 5550 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5550 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5550 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5512 8 5555 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5526 9 5555 100 0 0 0          * a young bandit fighter
+M 0 5527 2 5560 100 0 0 0          * a severely wounded demon
+E 1 5532 1 16 100 0 0 0            *   a clerical channeling staff
+M 0 5500 6 5565 100 0 0 0          * the patrol leader
+F 1 5501 18 5565 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5565 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5565 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5506 1 5568 100 0 0 0          * the leader of the expeditionary force
+G 1 5505 1 0 100 0 0 0             *    a small leather key pouch
+P 1 5504 1 5505 100 0 0 0          *   the gate key
+F 1 5507 1 5568 100 0 0 0          * a Winterhaven battle-mage (following)
+F 1 5508 3 5568 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5508 3 5568 100 0 0 0          * a Winterhaven expeditionary force member (following)
+M 0 5508 3 5568 100 0 0 0          * a Winterhaven expeditionary force member
+M 0 5500 6 5574 100 0 0 0          * the patrol leader
+F 1 5501 18 5574 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5574 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5574 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5500 6 5577 100 0 0 0          * the patrol leader
+F 1 5501 18 5577 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5577 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5577 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5504 1 5588 100 0 0 0          * the patrol leader
+F 1 5505 4 5588 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5505 4 5588 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5505 4 5588 100 0 0 0          * a Winterhaven expeditionary force member (following)
+F 1 5505 4 5588 100 0 0 0          * a Winterhaven expeditionary force member (following)
+M 0 5512 8 5593 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5511 1 5594 100 0 0 0          * a GIANT tarantula
+M 0 5526 9 5595 100 0 0 0          * a young bandit fighter
+M 0 5526 9 5595 100 0 0 0          * a young bandit fighter
+M 0 5513 1 5599 100 0 0 0          * a lost gibberling
+M 0 5517 6 5600 100 0 0 0          * a small and weakened earth elemental
+M 0 5517 6 5600 100 0 0 0          * a small and weakened earth elemental
+M 0 5517 6 5600 100 0 0 0          * a small and weakened earth elemental
+M 0 5517 6 5601 100 0 0 0          * a small and weakened earth elemental
+M 0 5517 6 5601 100 0 0 0          * a small and weakened earth elemental
+M 0 5517 6 5601 100 0 0 0          * a small and weakened earth elemental
+M 0 5500 6 5630 100 0 0 0          * the patrol leader
+F 1 5501 18 5630 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5630 100 0 0 0         * a Winterhaven expeditionary force member (following)
+F 1 5501 18 5630 100 0 0 0         * a Winterhaven expeditionary force member (following)
+M 0 5526 9 5633 100 0 0 0          * a young bandit fighter
+M 0 5526 9 5633 100 0 0 0          * a young bandit fighter
+M 0 5512 8 5633 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5512 8 5635 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5526 9 5635 100 0 0 0          * a young bandit fighter
+M 0 5515 8 5638 100 0 0 0          * a massive green reptile
+M 0 5515 8 5638 100 0 0 0          * a massive green reptile
+M 0 5516 3 5638 100 0 0 0          * a massive red reptile
+M 0 5515 8 5640 100 0 0 0          * a massive green reptile
+M 0 5516 3 5640 100 0 0 0          * a massive red reptile
+M 0 5515 8 5641 100 0 0 0          * a massive green reptile
+M 0 93015 4 5641 100 0 0 0         * (mob type not in this .mob file)
+M 0 5515 8 5643 100 0 0 0          * a massive green reptile
+M 0 93015 4 5643 100 0 0 0         * (mob type not in this .mob file)
+M 0 5515 8 5645 100 0 0 0          * a massive green reptile
+M 0 5515 8 5646 100 0 0 0          * a massive green reptile
+M 0 5515 8 5647 100 0 0 0          * a massive green reptile
+M 0 5516 3 5647 100 0 0 0          * a massive red reptile
+M 0 5512 8 5650 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5526 9 5650 100 0 0 0          * a young bandit fighter
+M 0 93015 4 5652 100 0 0 0         * (mob type not in this .mob file)
+M 0 93015 4 5653 100 0 0 0         * (mob type not in this .mob file)
+M 0 5512 8 5655 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5526 9 5655 100 0 0 0          * a young bandit fighter
+M 0 5512 8 5656 100 0 0 0          * a masked rogue
+E 1 5511 8 16 100 0 0 0            *   masked rogue's dagger
+M 0 5526 9 5656 100 0 0 0          * a young bandit fighter
+M 0 5514 1 5660 100 0 0 0          * the spirit of a slack-jawed prostitute
+M 0 5520 1 5661 100 0 0 0          * the spirit of Sarn, the banker
+G 1 5521 1 0 100 0 0 0             *    the Tharnadian Bank safe key
+M 0 5521 1 5663 100 0 0 0          * a drow war cleric
+E 1 5525 1 10 100 0 0 0            *   Drow-made adamantium vambraces of eminent quality
+F 1 5522 2 5663 100 0 0 0          * a drow fighter (following)
+F 1 5522 2 5663 100 0 0 0          * a drow fighter (following)
+F 1 5523 1 5663 100 0 0 0          * a drow master assassin (following)
+E 1 5523 1 9 100 0 0 0             *   magical gloves of slayer's accuracy
+E 1 5524 2 16 100 0 0 0            *   assassins dagger not for players
+E 1 5524 2 17 100 0 0 0            *   assassins dagger not for players
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 5525 17 5666 100 0 0 0         * a small earth elemental
+M 0 23803 4 5667 100 0 0 0         * (mob type not in this .mob file)
+M 0 5524 11 5667 100 0 0 0         * a large xorn
+M 0 5524 11 5667 100 0 0 0         * a large xorn
+M 0 5524 11 5667 100 0 0 0         * a large xorn
+M 0 23803 4 5670 100 0 0 0         * (mob type not in this .mob file)
+M 0 5524 11 5671 100 0 0 0         * a large xorn
+G 1 5527 1 0 100 0 0 0             *    key-shaped earth
+M 0 5524 11 5671 100 0 0 0         * a large xorn
+M 0 5525 17 5671 100 0 0 0         * a small earth elemental
+M 0 5525 17 5671 100 0 0 0         * a small earth elemental
+M 0 5525 17 5671 100 0 0 0         * a small earth elemental
+M 0 5525 17 5671 100 0 0 0         * a small earth elemental
+M 0 5525 17 5671 100 0 0 0         * a small earth elemental
+M 0 5524 11 5671 100 0 0 0         * a large xorn
+M 0 23803 4 5674 100 0 0 0         * (mob type not in this .mob file)
+M 0 23803 4 5674 100 0 0 0         * (mob type not in this .mob file)
+M 0 5524 11 5675 100 0 0 0         * a large xorn
+G 1 5528 1 0 100 0 0 0             *    key-shaped earth
+M 0 5525 17 5675 100 0 0 0         * a small earth elemental
+M 0 5525 17 5675 100 0 0 0         * a small earth elemental
+M 0 5525 17 5675 100 0 0 0         * a small earth elemental
+M 0 5525 17 5675 100 0 0 0         * a small earth elemental
+M 0 5525 17 5675 100 0 0 0         * a small earth elemental
+M 0 5524 11 5675 100 0 0 0         * a large xorn
+M 0 5524 11 5675 100 0 0 0         * a large xorn
+M 0 5524 11 5675 100 0 0 0         * a large xorn
+M 0 5524 11 5675 100 0 0 0         * a large xorn
+*
+S

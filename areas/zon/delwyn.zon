@@ -1,0 +1,403 @@
+#828
+The &+LMotte &nand &+yBailey &nof Duke &+CDelwyn&n~
+83006 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 82800 2 1 100 0 0 0
+*     south exit from "A Customs and Tariff Station at the Front Gate of the Bailey" to
+*     "In Front of the Massive Iron Gate of the Bailey" - closed
+*
+D 0 82805 0 1 100 0 0 0
+*     north exit from "In Front of the Massive Iron Gate of the Bailey" to
+*     "A Customs and Tariff Station at the Front Gate of the Bailey" - closed
+*
+D 0 82829 0 1 100 0 0 0
+*     north exit from "A Guardhouse at the Bottom of the Road Leading up the Motte" to
+*     "Along the Path up the Motte Approaching the Keep" - closed
+*
+D 0 82913 2 1 100 0 0 0
+*     south exit from "Along the Path up the Motte Approaching the Keep" to
+*     "A Guardhouse at the Bottom of the Road Leading up the Motte" - closed
+*
+D 0 82914 0 1 100 0 0 0
+*     north exit from "Along the Path Up the Motte Approaching the Keep" to
+*     "At the Top of the Motte Before the Keep" - closed
+*
+D 0 82915 2 1 100 0 0 0
+*     south exit from "At the Top of the Motte Before the Keep" to
+*     "Along the Path Up the Motte Approaching the Keep" - closed
+*
+D 0 82915 0 1 100 0 0 0
+*     north exit from "At the Top of the Motte Before the Keep" to
+*     "A Finely Crafted Spiral Staircase in the Foyer of the Keep" - closed
+*
+D 0 82973 2 1 100 0 0 0
+*     south exit from "A Finely Crafted Spiral Staircase in the Foyer of the Keep" to
+*     "At the Top of the Motte Before the Keep" - closed
+*
+D 0 82941 1 1 100 0 0 0
+*     east exit from "A Heavy Stone Platform on the Western Tower" to
+*     "A Musky Hallway Within the Keep" - closed
+*
+D 0 82958 3 1 100 0 0 0
+*     west exit from "A Musky Hallway Within the Keep" to
+*     "A Heavy Stone Platform on the Western Tower" - closed
+*
+D 0 82946 2 1 100 0 0 0
+*     south exit from "A Heavy Stone Platform on the Northern Tower" to
+*     "A Dank and Gloomy Hallway Within the Keep" - closed
+*
+D 0 82963 0 1 100 0 0 0
+*     north exit from "A Dank and Gloomy Hallway Within the Keep" to
+*     "A Heavy Stone Platform on the Northern Tower" - closed
+*
+D 0 82951 3 1 100 0 0 0
+*     west exit from "A Heavy Stone Platform on the Eastern Tower" to
+*     "A Musky Hallway Through The Keep" - closed
+*
+D 0 82962 1 1 100 0 0 0
+*     east exit from "A Musky Hallway Through The Keep" to
+*     "A Heavy Stone Platform on the Eastern Tower" - closed
+*
+D 0 82959 0 1 100 0 0 0
+*     north exit from "A Musky Hallway With the Keep" to
+*     "A Large Meeting Table in the Keep" - closed
+*
+D 0 82964 2 1 100 0 0 0
+*     south exit from "A Large Meeting Table in the Keep" to
+*     "A Musky Hallway With the Keep" - closed
+*
+D 0 82959 2 1 100 0 0 0
+*     south exit from "A Musky Hallway With the Keep" to
+*     "A Small Study in the Luxurious Guest Chambers" - closed
+*
+D 0 82969 0 1 100 0 0 0
+*     north exit from "A Small Study in the Luxurious Guest Chambers" to
+*     "A Musky Hallway With the Keep" - closed
+*
+D 0 82964 3 1 100 0 0 0
+*     west exit from "A Large Meeting Table in the Keep" to
+*     "The Duke's Private Study Within the Keep" - closed
+*
+D 0 82965 1 1 100 0 0 0
+*     east exit from "The Duke's Private Study Within the Keep" to
+*     "A Large Meeting Table in the Keep" - closed
+*
+D 0 82966 1 1 100 0 0 0
+*     east exit from "Outside of the Duke's Bedroom Chamber" to
+*     "The Private Sleeping Chamber of the Duke" - closed
+*
+D 0 82967 3 1 100 0 0 0
+*     west exit from "The Private Sleeping Chamber of the Duke" to
+*     "Outside of the Duke's Bedroom Chamber" - closed
+*
+D 0 82971 1 1 100 0 0 0
+*     east exit from "Outside of the Archbishop's Sleeping Chamber" to
+*     "The Archbishop's Modest Bedchamber" - closed
+*
+D 0 82972 3 1 100 0 0 0
+*     west exit from "The Archbishop's Modest Bedchamber" to
+*     "Outside of the Archbishop's Sleeping Chamber" - closed
+*
+D 0 82977 0 1 100 0 0 0
+*     north exit from "A Well-Cleaned Hallway in the Servant's Wing of the Keep" to
+*     "The Massive Kitchen of the Keep" - closed
+*
+D 0 82978 2 1 100 0 0 0
+*     south exit from "The Massive Kitchen of the Keep" to
+*     "A Well-Cleaned Hallway in the Servant's Wing of the Keep" - closed
+*
+D 0 82978 0 1 100 0 0 0
+*     north exit from "The Massive Kitchen of the Keep" to
+*     "A Crowded and Unorganized Pantry" - closed
+*
+D 0 82979 2 1 100 0 0 0
+*     south exit from "A Crowded and Unorganized Pantry" to
+*     "The Massive Kitchen of the Keep" - closed
+*
+D 0 82980 0 1 100 0 0 0
+*     north exit from "A Recreation Area for the Keep Servants" to
+*     "The Common Quarters of the Keep Servants" - closed
+*
+D 0 82981 2 1 100 0 0 0
+*     south exit from "The Common Quarters of the Keep Servants" to
+*     "A Recreation Area for the Keep Servants" - closed
+*
+D 0 82982 1 1 100 0 0 0
+*     east exit from "A Dusty Hallway in the Soldier's Wing of the Keep" to
+*     "The Officers' Barracks of the Soldiers' Wing" - closed
+*
+D 0 82983 3 1 100 0 0 0
+*     west exit from "The Officers' Barracks of the Soldiers' Wing" to
+*     "A Dusty Hallway in the Soldier's Wing of the Keep" - closed
+*
+D 0 82984 1 1 100 0 0 0
+*     east exit from "A Dusty Hallway in the Soldier's Wing of the Keep" to
+*     "The Enlisted Mens' Quarters In The Soldier's Wing" - closed
+*
+D 0 82985 3 1 100 0 0 0
+*     west exit from "The Enlisted Mens' Quarters In The Soldier's Wing" to
+*     "A Dusty Hallway in the Soldier's Wing of the Keep" - closed
+*
+D 0 82986 1 1 100 0 0 0
+*     east exit from "End of the Dusty Hallway in the Soldier's Wing of the Keep" to
+*     "A Small Shrine to the God of Battle" - closed
+*
+D 0 82987 3 1 100 0 0 0
+*     west exit from "A Small Shrine to the God of Battle" to
+*     "End of the Dusty Hallway in the Soldier's Wing of the Keep" - closed
+*
+D 0 82988 0 1 100 0 0 0
+*     north exit from "Top of the Finely Crafted Staircase Leading the Roof of the Keep" to
+*     "The Base of a Large Observation Tower on the Keep Roof" - closed
+*
+D 0 82989 2 1 100 0 0 0
+*     south exit from "The Base of a Large Observation Tower on the Keep Roof" to
+*     "Top of the Finely Crafted Staircase Leading the Roof of the Keep" - closed
+*
+*
+O 0 82812 1 82836 100 0 0 0        * a fountain of polished ivory
+O 0 82800 1 82847 100 0 0 0        * a rotting gallows
+O 0 82804 1 82849 100 0 0 0        * a large iron oven
+O 0 82803 1 82854 100 0 0 0        * a dark oaken bar
+O 0 82802 1 82858 100 0 0 0        * a large oaken desk
+O 0 82801 1 82859 100 0 0 0        * a grandfather clock
+O 0 82807 1 82869 100 0 0 0        * several dye-filled vats
+O 0 82808 1 82872 100 0 0 0        * a large loom
+O 0 82806 1 82873 100 0 0 0        * a straw target
+O 0 82805 1 82878 100 0 0 0        * a large steel anvil
+O 0 82809 7 82882 100 0 0 0        * a heavy ballista
+O 0 82810 7 82882 100 0 0 0        * a solid oaken mangonel
+O 0 82811 1 82886 100 0 0 0        * a cauldron of boiling oil
+O 0 82809 7 82890 100 0 0 0        * a heavy ballista
+O 0 82810 7 82890 100 0 0 0        * a solid oaken mangonel
+O 0 82809 7 82898 100 0 0 0        * a heavy ballista
+O 0 82810 7 82898 100 0 0 0        * a solid oaken mangonel
+O 0 82809 7 82906 100 0 0 0        * a heavy ballista
+O 0 82810 7 82906 100 0 0 0        * a solid oaken mangonel
+O 0 82809 7 82941 100 0 0 0        * a heavy ballista
+O 0 82810 7 82941 100 0 0 0        * a solid oaken mangonel
+O 0 82809 7 82946 100 0 0 0        * a heavy ballista
+O 0 82810 7 82946 100 0 0 0        * a solid oaken mangonel
+O 0 82809 7 82951 100 0 0 0        * a heavy ballista
+O 0 82810 7 82951 100 0 0 0        * a solid oaken mangonel
+O 0 82814 1 82965 100 0 0 0        * a finely-crafted ebony desk
+P 1 82822 1 82814 100 0 0 0        *   an assessment of the duchy's military
+O 0 82813 1 82980 100 0 0 0        * a red and blue dartboard
+O 0 82815 1 83004 100 0 0 0        * an expensive telescope
+*
+M 0 82800 1 82800 100 0 0 0        * an inspection agent
+M 0 82801 1 82800 100 0 0 0        * a customs officer
+M 0 82802 1 82800 100 0 0 0        * a dwarven merchant
+M 0 82840 1 82801 100 0 0 0        * a frowning teamster
+M 0 82841 1 82803 100 0 0 0        * a country swineherd
+F 1 82842 2 82803 100 0 0 0        * a grunting hog (following)
+F 1 82842 2 82803 100 0 0 0        * a grunting hog (following)
+M 0 82859 10 82804 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82843 1 82806 100 0 0 0        * a small elven fisherman
+M 0 82844 1 82808 100 0 0 0        * an overweight brewer
+M 0 82845 1 82810 100 0 0 0        * a heavily-built mason
+M 0 82846 1 82812 100 0 0 0        * a master locksmith
+M 0 82857 1 82813 100 0 0 0        * a burly quarrier
+M 0 82856 1 82815 100 0 0 0        * a short astrologer
+M 0 82855 1 82817 100 0 0 0        * a red-nosed vintner
+M 0 82859 10 82818 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82854 1 82819 100 0 0 0        * a skinny girdler
+M 0 82852 1 82821 100 0 0 0        * a humble shepherd
+F 1 82853 1 82821 100 0 0 0        * a rambouillet sheep (following)
+G 1 82816 1 0 100 0 0 0            *    the fleece of a sheep
+M 0 82851 1 82824 100 0 0 0        * a petite embroiderer
+M 0 82850 1 82826 100 0 0 0        * a travelling cordwainer
+M 0 82859 10 82827 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82849 1 82828 100 0 0 0        * a grumpy limner
+M 0 82848 1 82830 100 0 0 0        * a grinning sheather
+M 0 82859 10 82831 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82847 1 82832 100 0 0 0        * a finely-dressed minter
+M 0 82836 1 82833 100 0 0 0        * a burly bricklayer
+M 0 82837 1 82835 100 0 0 0        * a one-armed beggar
+M 0 82858 1 82836 100 0 0 0        * the bailey sheriff
+E 1 82837 1 7 100 0 0 0            *   a pleated red and yellow kilt
+M 0 82838 1 82837 100 0 0 0        * a well-groomed barber
+M 0 82839 1 82839 100 0 0 0        * a small halfling woodturner
+M 0 82859 10 82840 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82863 1 82841 100 0 0 0        * a heavily-bearded nailsmith
+M 0 82864 1 82844 100 0 0 0        * a rotund tinker
+M 0 82859 10 82846 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82813 1 82847 100 0 0 0        * the bailey hangman
+M 0 82811 1 82849 100 0 0 0        * an overweight baker
+M 0 82812 1 82850 100 0 0 0        * the bailey saucemaker
+M 0 82809 1 82851 100 0 0 0        * a foul-smelling fishmonger
+M 0 82810 1 82852 100 0 0 0        * a filthy poulterer
+M 0 82808 1 82853 100 0 0 0        * the bailey miller
+M 0 82804 1 82854 100 0 0 0        * a rotund halfling bartender
+M 0 82805 1 82854 100 0 0 0        * an exhausted ranger
+M 0 82807 1 82854 100 0 0 0        * a sleazy half-orc prostitute
+M 0 82806 1 82855 100 0 0 0        * a towering hosteler
+M 0 82803 1 82856 100 0 0 0        * the bailey apothecary
+M 0 82816 1 82857 100 0 0 0        * a handsome bookbinder
+M 0 82817 1 82858 100 0 0 0        * a short dwarven scrivener
+M 0 82815 1 82859 100 0 0 0        * a small gnomish clockmaker
+M 0 82814 1 82860 100 0 0 0        * a delicate herbalist
+M 0 82826 1 82862 100 0 0 0        * A red-bearded dwarven cobbler
+M 0 82865 1 82863 100 0 0 0        * a bulky ploughman
+M 0 82827 1 82864 100 0 0 0        * a gap-toothed fuller
+M 0 82818 1 82866 100 0 0 0        * a one-eyed elven glazier
+M 0 82819 1 82867 100 0 0 0        * a bearded cutler
+M 0 82820 1 82868 100 0 0 0        * a well-built knifegrinder
+M 0 82821 1 82869 100 0 0 0        * the bailey dyer
+M 0 82822 1 82870 100 0 0 0        * a finely-dressed elven haberdasher
+M 0 82823 1 82871 100 0 0 0        * a beautiful seamstress
+M 0 82824 1 82872 100 0 0 0        * a plain-looking weaver
+M 0 82825 1 82872 100 0 0 0        * an elderly spinner
+M 0 82834 1 82873 100 0 0 0        * a master bladesmith
+M 0 82835 1 82874 100 0 0 0        * the bailey tanner
+M 0 82828 1 82875 100 0 0 0        * a broad-chested wheelwright
+M 0 82830 1 82876 100 0 0 0        * a burly wiredrawer
+M 0 82831 1 82877 100 0 0 0        * a bare-chested farrier
+M 0 82833 1 82879 100 0 0 0        * a barrel-chested bellfounder
+G 1 82828 1 0 100 0 0 0            *    a small iron bell
+M 0 82832 1 82880 100 0 0 0        * a disfigured limeburner
+M 0 82829 1 82881 100 0 0 0        * a charismatic ironmonger
+M 0 82860 7 82882 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82882 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82884 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82866 1 82886 100 0 0 0        * the sergeant of the guard
+E 1 82836 1 19 100 0 0 0           *   a finely-woven mesh eyepatch
+M 0 82867 2 82886 100 0 0 0        * a grumbling private
+E 1 82835 2 9 100 0 0 0            *   a pair of thick hydra-hide gloves
+M 0 82867 2 82886 100 0 0 0        * a grumbling private
+E 1 82835 2 9 100 0 0 0            *   a pair of thick hydra-hide gloves
+M 0 82862 12 82888 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82890 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82890 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82892 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82862 12 82896 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82898 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82898 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82900 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82862 12 82904 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82906 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82906 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82908 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82862 12 82911 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82859 10 82913 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82859 10 82919 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82859 10 82925 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82859 10 82931 100 0 0 0       * an imposing man-at-arms
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82862 12 82937 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82941 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82941 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82943 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82946 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82946 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82949 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82860 7 82951 100 0 0 0        * a heavy footman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82861 7 82951 100 0 0 0        * the lieutenant of the ballista crew
+E 1 82834 7 8 100 0 0 0            *   a pair of dark ostriche-hide boots
+M 0 82862 12 82955 100 0 0 0       * a tall longbowman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82891 4 82958 100 0 0 0        * a heavy footman
+E 1 82839 4 6 100 0 0 0            *   a helm of spiked rhemoraz-hide
+M 0 82870 2 82961 100 0 0 0        * a meek servant
+M 0 82891 4 82962 100 0 0 0        * a heavy footman
+G 1 82839 4 0 100 0 0 0            *    a helm of spiked rhemoraz-hide
+M 0 82889 1 82964 100 0 0 0        * a stout arbitrator
+M 0 82890 1 82965 100 0 0 0        * a skulking halfling
+E 1 82823 1 14 100 0 0 0           *   a deep blue braid of rank
+M 0 82886 2 82966 100 0 0 0        * an elite watchman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+M 0 82886 2 82966 100 0 0 0        * an elite watchman
+E 1 82832 14 5 100 0 0 0           *   a tunic woven of hardened reed
+M 0 82884 1 82967 100 0 0 0        * the flabby Duchess
+M 0 82885 1 82967 100 0 0 0        * an gorgeous mistress
+M 0 82883 1 82969 100 0 0 0        * a guild representative
+M 0 82888 1 82970 100 0 0 0        * a guild diplomat
+M 0 82887 2 82971 100 0 0 0        * an elite watchman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82887 2 82971 100 0 0 0        * an elite watchman
+E 1 82833 9 10 100 0 0 0           *   sleeves of pleated seal-skin
+M 0 82879 1 82974 100 0 0 0        * an elven herald
+M 0 82880 1 82974 100 0 0 0        * a sunburned churl
+M 0 82878 1 82975 100 0 0 0        * Duke Delwyn
+E 1 82840 1 16 100 0 0 0           *   a massive broad-bladed claymore
+F 1 82881 1 82975 100 0 0 0        * a weasel-faced page (following)
+M 0 82882 1 82975 100 0 0 0        * a dwarven dignitary
+M 0 82870 2 82976 100 0 0 0        * a meek servant
+M 0 82891 4 82977 100 0 0 0        * a heavy footman
+E 1 82839 4 6 100 0 0 0            *   a helm of spiked rhemoraz-hide
+M 0 82868 1 82978 100 0 0 0        * a tubby chef
+M 0 82869 1 82979 100 0 0 0        * a lazy guard
+M 0 82871 1 82980 100 0 0 0        * an off-duty servant
+M 0 82872 1 82980 100 0 0 0        * a worried-looking servant
+G 1 82826 1 0 100 0 0 0            *    a carved ivory knight
+M 0 82873 1 82981 100 0 0 0        * an exhausted servant
+M 0 82874 1 82983 100 0 0 0        * an off-duty captain
+M 0 82875 1 82985 100 0 0 0        * a burly corporal
+M 0 82891 4 82986 100 0 0 0        * a heavy footman
+E 1 82839 4 6 100 0 0 0            *   a helm of spiked rhemoraz-hide
+M 0 82876 1 82987 100 0 0 0        * the archbishop
+F 1 82877 1 82987 100 0 0 0        * a disciple to the archbishop (following)
+M 0 82893 2 82990 100 0 0 0        * a rooftop warden
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82892 4 82992 100 0 0 0        * a tall lookout
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82893 2 82995 100 0 0 0        * a rooftop warden
+E 1 82838 12 16 100 0 0 0          *   a heavy oaken shillelagh
+M 0 82892 4 82996 100 0 0 0        * a tall lookout
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82892 4 83000 100 0 0 0        * a tall lookout
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82892 4 83002 100 0 0 0        * a tall lookout
+E 1 82831 16 7 100 0 0 0           *   a pair of cotton-weave greaves
+M 0 82894 1 83004 100 0 0 0        * a specially trained observer
+M 0 82895 1 83006 100 0 0 0        * the keep magician
+*
+S

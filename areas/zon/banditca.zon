@@ -1,0 +1,334 @@
+#148
+&+yBandit Camp&n~
+14926 2 0 10 15 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 14814 5 1 100 0 0 0
+*     down exit from "A Path Around the Outside of the Camp" to
+*     "Inside a Small Tunnel" - closed
+*
+D 0 14816 4 1 100 0 0 0
+*     up exit from "Inside a Small Tunnel" to
+*     "A Path Around the Outside of the Camp" - closed
+*
+D 0 14818 4 1 100 0 0 0
+*     up exit from "Inside a Small Tunnel" to
+*     "Along the Wall of a Bandit Camp" - closed
+*
+D 0 14859 5 1 100 0 0 0
+*     down exit from "Along the Wall of a Bandit Camp" to
+*     "Inside a Small Tunnel" - closed
+*
+D 0 14833 1 2 100 0 0 0
+*     east exit from "Inside the Home of the Bandit Leader" to
+*     "A Path Leading to the Center of a Bandit Camp" - closed/locked
+*
+D 0 14834 3 2 100 0 0 0
+*     west exit from "A Path Leading to the Center of a Bandit Camp" to
+*     "Inside the Home of the Bandit Leader" - closed/locked
+*
+D 0 14841 2 1 100 0 0 0
+*     south exit from "Inside Fancy Living Quarters" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14851 0 1 100 0 0 0
+*     north exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside Fancy Living Quarters" - closed
+*
+D 0 14845 2 1 100 0 0 0
+*     south exit from "Inside a Slave Pen" to
+*     "A Path Near a Slave Pen" - closed
+*
+D 0 14855 0 1 100 0 0 0
+*     north exit from "A Path Near a Slave Pen" to
+*     "Inside a Slave Pen" - closed
+*
+D 0 14846 2 1 100 0 0 0
+*     south exit from "Inside a Wooden Structure" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14856 0 1 100 0 0 0
+*     north exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Wooden Structure" - closed
+*
+D 0 14850 2 1 100 0 0 0
+*     south exit from "Inside a Small Tent" to
+*     "A Path Leading to the Center of the Bandit Camp" - closed
+*
+D 0 14860 0 1 100 0 0 0
+*     north exit from "A Path Leading to the Center of the Bandit Camp" to
+*     "Inside a Small Tent" - closed
+*
+D 0 14857 2 1 100 0 0 0
+*     south exit from "Inside a Small Tent" to
+*     "A Path Leading to the Center of the Bandit Camp" - closed
+*
+D 0 14867 0 1 100 0 0 0
+*     north exit from "A Path Leading to the Center of the Bandit Camp" to
+*     "Inside a Small Tent" - closed
+*
+D 0 14870 1 1 100 0 0 0
+*     east exit from "Inside a Small Tent" to
+*     "A Path Near the Center of a Bandit Camp" - closed
+*
+D 0 14871 3 1 100 0 0 0
+*     west exit from "A Path Near the Center of a Bandit Camp" to
+*     "Inside a Small Tent" - closed
+*
+D 0 14876 1 1 100 0 0 0
+*     east exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Small Tent" - closed
+*
+D 0 14877 3 1 100 0 0 0
+*     west exit from "Inside a Small Tent" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14880 1 1 100 0 0 0
+*     east exit from "Inside a Small Tent" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14881 3 1 100 0 0 0
+*     west exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Small Tent" - closed
+*
+D 0 14881 2 1 100 0 0 0
+*     south exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Wooden Structure" - closed
+*
+D 0 14891 0 1 100 0 0 0
+*     north exit from "Inside a Wooden Structure" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14886 1 1 100 0 0 0
+*     east exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Smoky Tent" - closed
+*
+D 0 14887 3 1 100 0 0 0
+*     west exit from "Inside a Smoky Tent" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14886 2 1 100 0 0 0
+*     south exit from "A Path Near the Center of the Bandit Camp" to
+*     "Inside a Wooden Structure" - closed
+*
+D 0 14896 0 1 100 0 0 0
+*     north exit from "Inside a Wooden Structure" to
+*     "A Path Near the Center of the Bandit Camp" - closed
+*
+D 0 14904 1 1 100 0 0 0
+*     east exit from "Inside a Cattle Pen" to
+*     "A Heavily Travelled Road to the Center of the Camp" - closed
+*
+D 0 14905 3 1 100 0 0 0
+*     west exit from "A Heavily Travelled Road to the Center of the Camp" to
+*     "Inside a Cattle Pen" - closed
+*
+*
+O 0 14800 2 14806 100 0 0 0        * a bottle of ale
+O 0 14811 1 14817 100 0 0 0        * a magical torch
+O 0 14818 2 14832 100 0 0 0        * a fire
+O 0 14823 1 14834 100 0 0 0        * a small wooden sign
+O 0 14804 18 14836 100 0 0 0       * a leather hammock
+O 0 14804 18 14836 100 0 0 0       * a leather hammock
+O 0 14804 18 14837 100 0 0 0       * a leather hammock
+O 0 14804 18 14837 100 0 0 0       * a leather hammock
+O 0 14812 1 14837 100 0 0 0        * a large metal chest
+P 1 14813 1 14812 100 0 0 0        *   a thick black leather belt
+P 1 14801 9 14812 100 0 0 0        *   an iron longsword
+O 0 14820 1 14842 100 0 0 0        * a massive oaken desk
+P 1 14822 1 14820 100 0 0 0        *   Isoril's diary
+P 1 14828 1 14820 100 0 0 0        *   a key for shackles
+O 0 14819 1 14843 100 0 0 0        * a fancy bed
+O 0 14804 18 14847 100 0 0 0       * a leather hammock
+O 0 14804 18 14847 100 0 0 0       * a leather hammock
+O 0 14817 1 14851 100 0 0 0        * a small wooden sign
+O 0 14814 1 14856 100 0 0 0        * a small wooden sign
+O 0 14818 2 14864 100 0 0 0        * a fire
+O 0 14832 1 14864 100 0 0 0        * a massive steel chest
+P 1 14834 1 14832 100 0 0 0        *   a small pile of metal Calimshan currency
+P 1 14826 1 14832 70 0 0 0         *   an ornate gold ring
+O 0 14807 1 14881 100 0 0 0        * a small wooden sign
+O 0 14808 1 14886 100 0 0 0        * a small wooden sign
+O 0 14804 18 14890 100 0 0 0       * a leather hammock
+O 0 14804 18 14890 100 0 0 0       * a leather hammock
+O 0 14802 2 14892 100 0 0 0        * a feeding trough
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+O 0 14804 18 14897 100 0 0 0       * a leather hammock
+O 0 14804 18 14897 100 0 0 0       * a leather hammock
+O 0 14804 18 14900 100 0 0 0       * a leather hammock
+O 0 14804 18 14900 100 0 0 0       * a leather hammock
+O 0 14805 2 14900 100 0 0 0        * a large metal chest
+P 1 14806 1 14805 100 0 0 0        *   a black leather mask
+P 1 14801 9 14805 100 0 0 0        *   an iron longsword
+O 0 14804 18 14901 100 0 0 0       * a leather hammock
+O 0 14804 18 14901 100 0 0 0       * a leather hammock
+O 0 14802 2 14902 100 0 0 0        * a feeding trough
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+P 1 14803 11 14802 100 0 0 0       *   a length of hay
+O 0 14804 18 14906 100 0 0 0       * a leather hammock
+O 0 14804 18 14906 100 0 0 0       * a leather hammock
+O 0 14804 18 14907 100 0 0 0       * a leather hammock
+O 0 14804 18 14907 100 0 0 0       * a leather hammock
+O 0 14805 2 14907 100 0 0 0        * a large metal chest
+P 1 14809 1 14805 100 0 0 0        *   a thin metal gorget
+P 1 14810 1 14805 50 0 0 0         *   a tiny diamond
+O 0 14824 4 14920 100 0 0 0        * a metallic gong
+O 0 14824 4 14922 100 0 0 0        * a metallic gong
+O 0 14824 4 14924 100 0 0 0        * a metallic gong
+O 0 14824 4 14926 100 0 0 0        * a metallic gong
+*
+M 0 14801 1 14806 100 0 0 0        * a mercenary sorcerer
+F 1 14800 2 14806 100 0 0 0        * a mercenary guard (following)
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+E 1 14800 2 18 100 0 0 0           *   a bottle of ale
+F 1 14800 2 14806 100 0 0 0        * a mercenary guard (following)
+M 0 14820 1 14808 100 0 0 0        * a paladin warrior
+E 1 14830 1 16 100 0 0 0           *   a fine steel parrying dagger
+M 0 14802 1 14810 100 0 0 0        * a human slave
+M 0 14812 15 14819 100 0 0 0       * a vicious giant rat
+M 0 14822 11 14819 100 0 0 0       * a human bandit
+M 0 14812 15 14820 100 0 0 0       * a vicious giant rat
+M 0 14822 11 14821 100 0 0 0       * a human bandit
+M 0 14812 15 14822 100 0 0 0       * a vicious giant rat
+M 0 14822 11 14823 100 0 0 0       * a human bandit
+M 0 14812 15 14826 100 0 0 0       * a vicious giant rat
+M 0 14812 15 14826 100 0 0 0       * a vicious giant rat
+M 0 14812 15 14828 100 0 0 0       * a vicious giant rat
+M 0 14811 1 14830 100 0 0 0        * a bandit officer
+E 1 14816 1 16 100 0 0 0           *   a fine steel kryss
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14807 2 14835 100 0 0 0        * a group of emaciated slaves
+M 0 14808 2 14835 100 0 0 0        * a huge cockroach
+M 0 14808 2 14835 100 0 0 0        * a huge cockroach
+M 0 14823 2 14835 100 0 0 0        * a bandit guard
+E 1 14831 2 18 100 0 0 0           *   a shackle key
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14826 1 14836 100 0 0 0        * an experienced bandit warrior
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14828 2 14837 100 0 0 0        * an experienced bandit warrior
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14813 1 14842 100 0 0 0        * Isoril the bandit leader
+E 1 14825 1 13 100 0 0 0           *   a segmented iron belt covered with symbols
+M 0 14824 1 14843 100 0 0 0        * a young half-elven woman
+M 0 14822 11 14844 100 0 0 0       * a human bandit
+M 0 14807 2 14845 100 0 0 0        * a group of emaciated slaves
+M 0 14823 2 14845 100 0 0 0        * a bandit guard
+E 1 14831 2 18 100 0 0 0           *   a shackle key
+M 0 14828 2 14847 100 0 0 0        * an experienced bandit warrior
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14812 15 14848 100 0 0 0       * a vicious giant rat
+M 0 14812 15 14849 100 0 0 0       * a vicious giant rat
+M 0 14810 3 14850 100 0 0 0        * a half-orc slaver
+M 0 14818 6 14853 100 0 0 0        * a merchant
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14818 6 14854 100 0 0 0        * a merchant
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14816 8 14854 100 0 0 0        * a rich merchant
+M 0 14822 11 14856 100 0 0 0       * a human bandit
+M 0 14809 1 14857 100 0 0 0        * a troll slaver
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+E 1 14815 1 22 100 0 0 0           *   a faintly glowing stud
+M 0 14829 1 14862 100 0 0 0        * an auction guard
+E 1 14829 1 1 100 0 0 0            *   an iron ring of lesser physical resistance
+F 1 14817 8 14862 100 0 0 0        * an auction guard (following)
+F 1 14817 8 14862 100 0 0 0        * an auction guard (following)
+M 0 14818 6 14863 100 0 0 0        * a merchant
+M 0 14817 8 14863 100 0 0 0        * an auction guard
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14816 8 14863 100 0 0 0        * a rich merchant
+M 0 14814 1 14864 100 0 0 0        * the auctioneer
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+G 1 14833 1 0 100 0 0 0            *    an ornate steel key
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+F 1 14817 8 14864 100 0 0 0        * an auction guard (following)
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+F 1 14817 8 14864 100 0 0 0        * an auction guard (following)
+M 0 14815 1 14864 100 0 0 0        * an ogre slave
+M 0 14816 8 14864 100 0 0 0        * a rich merchant
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14816 8 14864 100 0 0 0        * a rich merchant
+M 0 14816 8 14864 100 0 0 0        * a rich merchant
+M 0 14816 8 14864 100 0 0 0        * a rich merchant
+M 0 14816 8 14865 100 0 0 0        * a rich merchant
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14817 8 14866 100 0 0 0        * an auction guard
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14822 11 14867 100 0 0 0       * a human bandit
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14812 15 14868 100 0 0 0       * a vicious giant rat
+M 0 14810 3 14870 100 0 0 0        * a half-orc slaver
+M 0 14818 6 14872 100 0 0 0        * a merchant
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14818 6 14872 100 0 0 0        * a merchant
+M 0 14818 6 14874 100 0 0 0        * a merchant
+M 0 14816 8 14874 100 0 0 0        * a rich merchant
+M 0 14817 8 14875 100 0 0 0        * an auction guard
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14825 2 14877 100 0 0 0        * a visiting slaver
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14812 15 14879 100 0 0 0       * a vicious giant rat
+M 0 14810 3 14880 100 0 0 0        * a half-orc slaver
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14817 8 14884 100 0 0 0        * an auction guard
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14825 2 14887 100 0 0 0        * a visiting slaver
+M 0 14822 11 14888 100 0 0 0       * a human bandit
+M 0 14805 4 14890 100 0 0 0        * an inexperienced guard
+M 0 14805 4 14891 100 0 0 0        * an inexperienced guard
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14803 5 14892 100 0 0 0        * a large cow
+M 0 14803 5 14892 100 0 0 0        * a large cow
+M 0 14803 5 14892 100 0 0 0        * a large cow
+M 0 14821 5 14893 100 0 0 0        * a small cow
+M 0 14821 5 14893 100 0 0 0        * a small cow
+M 0 14804 2 14893 100 0 0 0        * a slave farmer
+M 0 14822 11 14895 100 0 0 0       * a human bandit
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14827 2 14896 100 0 0 0        * an experienced bandit warrior
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14806 2 14897 100 0 0 0        * an experienced bandit warrior
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14812 15 14898 100 0 0 0       * a vicious giant rat
+M 0 14805 4 14900 100 0 0 0        * an inexperienced guard
+M 0 14805 4 14901 100 0 0 0        * an inexperienced guard
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14803 5 14902 100 0 0 0        * a large cow
+M 0 14803 5 14902 100 0 0 0        * a large cow
+M 0 14804 2 14902 100 0 0 0        * a slave farmer
+M 0 14821 5 14903 100 0 0 0        * a small cow
+M 0 14821 5 14903 100 0 0 0        * a small cow
+M 0 14821 5 14903 100 0 0 0        * a small cow
+M 0 14822 11 14905 100 0 0 0       * a human bandit
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14827 2 14906 100 0 0 0        * an experienced bandit warrior
+M 0 14806 2 14907 100 0 0 0        * an experienced bandit warrior
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+G 1 14835 17 0 5 0 0 0             *    a bag filled with platinum, gold, and silver
+M 0 14822 11 14908 100 0 0 0       * a human bandit
+M 0 14812 15 14909 100 0 0 0       * a vicious giant rat
+M 0 14812 15 14911 100 0 0 0       * a vicious giant rat
+M 0 14812 15 14916 100 0 0 0       * a vicious giant rat
+M 0 14822 11 14917 100 0 0 0       * a human bandit
+M 0 14812 15 14918 100 0 0 0       * a vicious giant rat
+M 0 14819 4 14920 100 0 0 0        * a patrolling guard
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+E 1 14821 12 24 100 0 0 0          *   a blood red tear insignia
+M 0 14819 4 14922 100 0 0 0        * a patrolling guard
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+M 0 14819 4 14924 100 0 0 0        * a patrolling guard
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+M 0 14819 4 14926 100 0 0 0        * a patrolling guard
+E 1 14801 9 16 100 0 0 0           *   an iron longsword
+*
+S

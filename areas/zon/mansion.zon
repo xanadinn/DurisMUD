@@ -1,0 +1,372 @@
+#35
+The &+LForgotten Mansion~
+3675 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 3506 5 1 100 0 0 0
+*     down exit from "Amidst a Beautiful Garden" to
+*     "a Dusty Basement" - closed
+*
+D 0 3508 4 1 100 0 0 0
+*     up exit from "a Dusty Basement" to
+*     "Amidst a Beautiful Garden" - closed
+*
+D 0 3507 0 2 100 0 0 0
+*     north exit from "Before the Abandoned Mansion" to
+*     "A Large Marble covered Foyer" - closed/locked
+*
+D 0 3509 2 1 100 0 0 0
+*     south exit from "A Large Marble covered Foyer" to
+*     "Before the Abandoned Mansion" - closed
+*
+D 0 3510 0 1 100 0 0 0
+*     north exit from "A Formal Dining Room" to
+*     "A Simple Kitchen" - closed
+*
+D 0 3516 2 1 100 0 0 0
+*     south exit from "A Simple Kitchen" to
+*     "A Formal Dining Room" - closed
+*
+D 0 3515 1 6 100 0 0 0
+*     east exit from "A Large Dark Library" to
+*     "Entrance to a Dark Cavern" - closed/locked/secret
+*
+D 0 3540 3 6 100 0 0 0
+*     west exit from "Entrance to a Dark Cavern" to
+*     "A Large Dark Library" - closed/locked/secret
+*
+D 0 3518 5 1 100 0 0 0
+*     down exit from "A Small Pantry" to
+*     "A Rat-infested Cellar" - closed
+*
+D 0 3519 4 1 100 0 0 0
+*     up exit from "A Rat-infested Cellar" to
+*     "A Small Pantry" - closed
+*
+D 0 3520 0 1 100 0 0 0
+*     north exit from "A Cozy Den" to
+*     "A Large Garden" - closed
+*
+D 0 3630 2 1 100 0 0 0
+*     south exit from "A Large Garden" to
+*     "A Cozy Den" - closed
+*
+D 0 3521 0 1 100 0 0 0
+*     north exit from "A Plain Hallway Leading to the Guest's Quarters" to
+*     "A Cyan Guest Room" - closed
+*
+D 0 3526 2 1 100 0 0 0
+*     south exit from "A Cyan Guest Room" to
+*     "A Plain Hallway Leading to the Guest's Quarters" - closed
+*
+D 0 3521 2 1 100 0 0 0
+*     south exit from "A Plain Hallway Leading to the Guest's Quarters" to
+*     "A Scarlet Guest Room" - closed
+*
+D 0 3527 0 1 100 0 0 0
+*     north exit from "A Scarlet Guest Room" to
+*     "A Plain Hallway Leading to the Guest's Quarters" - closed
+*
+D 0 3522 0 2 100 0 0 0
+*     north exit from "The End of the Corridor" to
+*     "A Green Guest Room" - closed/locked
+*
+D 0 3523 2 1 100 0 0 0
+*     south exit from "A Green Guest Room" to
+*     "The End of the Corridor" - closed
+*
+D 0 3522 2 1 100 0 0 0
+*     south exit from "The End of the Corridor" to
+*     "A Blue Guest Room" - closed
+*
+D 0 3524 0 1 100 0 0 0
+*     north exit from "A Blue Guest Room" to
+*     "The End of the Corridor" - closed
+*
+D 0 3533 1 1 100 0 0 0
+*     east exit from "A Carpeted Hallway" to
+*     "Northwest Corner of the Master Bedroom" - closed
+*
+D 0 3536 3 1 100 0 0 0
+*     west exit from "Northwest Corner of the Master Bedroom" to
+*     "A Carpeted Hallway" - closed
+*
+D 0 3535 0 1 100 0 0 0
+*     north exit from "A Carpeted Hallway" to
+*     "An Infants Room" - closed
+*
+D 0 3576 2 1 100 0 0 0
+*     south exit from "An Infants Room" to
+*     "A Carpeted Hallway" - closed
+*
+D 0 3604 0 2 100 0 0 0
+*     north exit from "Entrance to a Brick Building" to
+*     "An Entryway to a Small Cathedral" - closed/locked
+*
+D 0 3650 2 2 100 0 0 0
+*     south exit from "An Entryway to a Small Cathedral" to
+*     "Entrance to a Brick Building" - closed/locked
+*
+D 0 3660 6 6 100 0 0 0
+*     northwest exit from "An Alcove in the Cathedral" to
+*     "A Magma Covered Tunnel" - closed/locked/secret
+*
+D 0 3665 9 2 100 0 0 0
+*     southeast exit from "A Magma Covered Tunnel" to
+*     "An Alcove in the Cathedral" - closed/locked
+*
+D 0 3661 0 2 100 0 0 0
+*     north exit from "Bishop Gaultair's Antechamber" to
+*     "The Bedroom of Bishop Gaultair" - closed/locked
+*
+D 0 3662 2 2 100 0 0 0
+*     south exit from "The Bedroom of Bishop Gaultair" to
+*     "Bishop Gaultair's Antechamber" - closed/locked
+*
+D 0 3664 2 2 100 0 0 0
+*     south exit from "The Entrance to the Englehardt Vault" to
+*     "A Large Vault Chamber" - closed/locked
+*
+D 0 3671 0 2 100 0 0 0
+*     north exit from "A Large Vault Chamber" to
+*     "The Entrance to the Englehardt Vault" - closed/locked
+*
+D 0 3668 0 1 100 0 0 0
+*     north exit from "A Magma Covered Chamber" to
+*     "The Enormous Throne Room of Tyrlos, Prince of demons." - closed
+*
+D 0 3669 2 1 100 0 0 0
+*     south exit from "The Enormous Throne Room of Tyrlos, Prince of demons." to
+*     "A Magma Covered Chamber" - closed
+*
+D 0 3673 2 2 100 0 0 0
+*     south exit from "A Large Vault Chamber" to
+*     "A Large Vault Chamber" - closed/locked
+*
+D 0 3674 0 2 100 0 0 0
+*     north exit from "A Large Vault Chamber" to
+*     "A Large Vault Chamber" - closed/locked
+*
+D 0 3674 2 2 100 0 0 0
+*     south exit from "A Large Vault Chamber" to
+*     "The Treasure Room of the Englehardt Family" - closed/locked
+*
+D 0 3675 0 2 100 0 0 0
+*     north exit from "The Treasure Room of the Englehardt Family" to
+*     "A Large Vault Chamber" - closed/locked
+*
+*
+O 0 3500 1 3508 100 0 0 0          * a small wooden chest
+O 0 3501 1 3508 100 0 0 0          * a sturdy wooden desk
+P 1 3502 1 3501 100 0 0 0          *   a small jodani key
+O 0 3542 1 3519 100 0 0 0          * a silver lined belt
+O 0 3504 1 3538 100 0 0 0          * a large elegant desk
+P 1 3505 1 3504 100 0 0 0          *   an old piece of paper
+O 0 3510 1 3618 100 0 0 0          * a humanoid skeleton
+P 1 3509 1 3510 100 0 0 0          *   a simple rattle
+O 0 3519 1 3659 100 0 0 0          * a large podium
+P 1 3520 1 3519 100 0 0 0          *   a large red key
+O 0 72 100 3669 100 0 0 0          * (object type not in this .obj file)
+O 0 359 1 3675 100 0 0 0           * (object type not in this .obj file)
+O 0 3553 1 3675 100 0 0 0          * the devil crown of Bar'zuul
+O 0 3552 1 3675 100 0 0 0          * a pair of demon-bone leggings
+*
+M 0 3504 1 3502 100 0 0 0          * an elderly gardener
+M 0 3535 16 3509 100 0 0 0         * a tormented ghost
+M 0 3535 16 3509 100 0 0 0         * a tormented ghost
+M 0 3535 16 3509 100 0 0 0         * a tormented ghost
+M 0 3535 16 3509 100 0 0 0         * a tormented ghost
+M 0 3535 16 3509 100 0 0 0         * a tormented ghost
+M 0 3535 16 3511 100 0 0 0         * a tormented ghost
+M 0 3535 16 3512 100 0 0 0         * a tormented ghost
+M 0 3536 5 3515 100 0 0 0          * a zombie servant
+M 0 3535 16 3516 100 0 0 0         * a tormented ghost
+M 0 3536 5 3516 100 0 0 0          * a zombie servant
+M 0 3535 16 3517 100 0 0 0         * a tormented ghost
+M 0 3535 16 3518 100 0 0 0         * a tormented ghost
+M 0 3535 16 3519 100 0 0 0         * a tormented ghost
+M 0 3531 31 3519 100 0 0 0         * a large undead rat
+M 0 3531 31 3519 100 0 0 0         * a large undead rat
+M 0 3531 31 3519 100 0 0 0         * a large undead rat
+M 0 3531 31 3519 100 0 0 0         * a large undead rat
+M 0 3531 31 3519 100 0 0 0         * a large undead rat
+M 0 3505 1 3520 100 0 0 0          * a faint corporeal image
+M 0 3535 16 3521 100 0 0 0         * a tormented ghost
+M 0 3535 16 3522 100 0 0 0         * a tormented ghost
+M 0 3509 1 3523 100 0 0 0          * the ghost of an insane ranger
+E 1 3514 1 16 100 0 0 0            *   a silver katana
+M 0 3536 5 3525 100 0 0 0          * a zombie servant
+M 0 3536 5 3526 100 0 0 0          * a zombie servant
+M 0 3536 5 3528 100 0 0 0          * a zombie servant
+M 0 3535 16 3530 100 0 0 0         * a tormented ghost
+M 0 3535 16 3532 100 0 0 0         * a tormented ghost
+M 0 3535 16 3535 100 0 0 0         * a tormented ghost
+M 0 3500 1 3538 100 0 0 0          * A lithe human assassin
+E 1 3503 2 16 100 0 0 0            *   a shard of glass
+E 1 3503 2 17 100 0 0 0            *   a shard of glass
+M 0 3532 23 3540 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3540 100 0 0 0         * a large undead rat
+M 0 3532 23 3541 100 0 0 0         * a wandering skeleton
+M 0 3533 6 3541 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+G 1 3551 1 0 100 0 0 0             *    a bright green key
+M 0 3532 23 3543 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3545 100 0 0 0         * a large undead rat
+M 0 3532 23 3545 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3547 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3547 100 0 0 0         * a wandering skeleton
+M 0 3533 6 3548 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+M 0 3531 31 3549 100 0 0 0         * a large undead rat
+M 0 3501 1 3551 100 0 0 0          * an ancient lich
+E 1 3506 1 18 100 0 0 0            *   a jade crystal
+M 0 3502 2 3551 100 0 0 0          * a guardian skeleton
+E 1 3507 2 16 100 0 0 0            *   a club carved from granite
+M 0 3502 2 3551 100 0 0 0          * a guardian skeleton
+E 1 3507 2 16 100 0 0 0            *   a club carved from granite
+M 0 3503 1 3551 100 0 0 0          * a zombie acolyte
+E 1 3508 1 3 100 0 0 0             *   a ruby amulet
+M 0 3532 23 3552 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3553 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3554 100 0 0 0         * a large undead rat
+M 0 3533 6 3554 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+M 0 3532 23 3555 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3555 100 0 0 0         * a wandering skeleton
+M 0 3533 6 3557 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+M 0 3532 23 3558 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3559 100 0 0 0         * a large undead rat
+M 0 3532 23 3559 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3561 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3561 100 0 0 0         * a large undead rat
+M 0 3532 23 3563 100 0 0 0         * a wandering skeleton
+M 0 3533 6 3564 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+M 0 3532 23 3565 100 0 0 0         * a wandering skeleton
+M 0 3532 23 3566 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3568 100 0 0 0         * a large undead rat
+M 0 3533 6 3569 100 0 0 0          * a sneaky skeleton
+E 1 3541 6 16 100 0 0 0            *   a pumice dagger
+M 0 3532 23 3570 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3572 100 0 0 0         * a large undead rat
+M 0 3532 23 3574 100 0 0 0         * a wandering skeleton
+M 0 3506 1 3576 100 0 0 0          * the spectre of a handmaid
+M 0 3531 31 3579 100 0 0 0         * a large undead rat
+M 0 3531 31 3581 100 0 0 0         * a large undead rat
+M 0 3515 10 3582 100 0 0 0         * a large demon warrior
+M 0 3531 31 3583 100 0 0 0         * a large undead rat
+M 0 3532 23 3583 100 0 0 0         * a wandering skeleton
+M 0 3515 10 3585 100 0 0 0         * a large demon warrior
+M 0 3516 7 3585 100 0 0 0          * a tall demon acolyte
+M 0 3531 31 3586 100 0 0 0         * a large undead rat
+M 0 3515 10 3587 100 0 0 0         * a large demon warrior
+M 0 3516 7 3587 100 0 0 0          * a tall demon acolyte
+M 0 3540 4 3587 100 0 0 0          * a demon mage
+M 0 3515 10 3589 100 0 0 0         * a large demon warrior
+M 0 3516 7 3589 100 0 0 0          * a tall demon acolyte
+M 0 3514 3 3589 100 0 0 0          * a small demon spawn
+M 0 3531 31 3590 100 0 0 0         * a large undead rat
+M 0 3532 23 3590 100 0 0 0         * a wandering skeleton
+M 0 3515 10 3592 100 0 0 0         * a large demon warrior
+M 0 3532 23 3592 100 0 0 0         * a wandering skeleton
+M 0 3515 10 3593 100 0 0 0         * a large demon warrior
+G 1 3547 1 0 100 0 0 0             *    an obsidian key
+M 0 3515 10 3595 100 0 0 0         * a large demon warrior
+M 0 3531 31 3595 100 0 0 0         * a large undead rat
+M 0 3515 10 3597 100 0 0 0         * a large demon warrior
+M 0 3531 31 3597 100 0 0 0         * a large undead rat
+M 0 3531 31 3598 100 0 0 0         * a large undead rat
+M 0 3531 31 3600 100 0 0 0         * a large undead rat
+M 0 3532 23 3601 100 0 0 0         * a wandering skeleton
+M 0 3515 10 3602 100 0 0 0         * a large demon warrior
+M 0 3531 31 3602 100 0 0 0         * a large undead rat
+M 0 3540 4 3603 100 0 0 0          * a demon mage
+G 1 3550 1 0 100 0 0 0             *    a demon skin book
+M 0 3531 31 3604 100 0 0 0         * a large undead rat
+M 0 3531 31 3604 100 0 0 0         * a large undead rat
+M 0 3516 7 3607 100 0 0 0          * a tall demon acolyte
+M 0 3514 3 3607 100 0 0 0          * a small demon spawn
+M 0 3515 10 3607 100 0 0 0         * a large demon warrior
+M 0 3532 23 3608 100 0 0 0         * a wandering skeleton
+M 0 3531 31 3610 100 0 0 0         * a large undead rat
+M 0 3540 4 3610 100 0 0 0          * a demon mage
+M 0 3531 31 3611 100 0 0 0         * a large undead rat
+M 0 3516 7 3612 100 0 0 0          * a tall demon acolyte
+M 0 3514 3 3612 100 0 0 0          * a small demon spawn
+M 0 3540 4 3613 100 0 0 0          * a demon mage
+M 0 3516 7 3614 100 0 0 0          * a tall demon acolyte
+M 0 3531 31 3615 100 0 0 0         * a large undead rat
+M 0 3531 31 3616 100 0 0 0         * a large undead rat
+M 0 3531 31 3617 100 0 0 0         * a large undead rat
+M 0 3531 31 3618 100 0 0 0         * a large undead rat
+M 0 3507 1 3620 100 0 0 0          * an enormous pit worm
+G 1 3546 1 0 100 0 0 0             *    a bracer of pit worm scales
+M 0 3511 1 3621 100 0 0 0          * a solemn thri-kreen warrior
+G 1 3518 1 0 100 0 0 0             *    a crystal gythka
+M 0 3513 1 3621 100 0 0 0          * a minotaur adventurer
+E 1 3516 1 20 100 0 0 0            *   a mask of wyvern skin
+E 1 3517 1 21 100 0 0 0            *   a tiny sapphire earring
+M 0 3510 1 3637 100 0 0 0          * a centaur adventurer
+E 1 3515 1 5 100 0 0 0             *   a silver breastplate of the centaur tribe
+M 0 3517 1 3642 100 0 0 0          * Jalharoth, the fallen angel
+E 1 3544 1 21 100 0 0 0            *   an emerald earring
+E 1 3545 1 16 100 0 0 0            *   the blade of heaven
+M 0 3508 1 3642 100 0 0 0          * Death
+E 1 3543 1 5 100 0 0 0             *   the cloak of styx
+M 0 3516 7 3650 100 0 0 0          * a tall demon acolyte
+M 0 3522 2 3651 100 0 0 0          * a large demon Bodyguard
+E 1 3525 2 16 100 0 0 0            *   an enchanted flesh sword
+M 0 3522 2 3651 100 0 0 0          * a large demon Bodyguard
+E 1 3525 2 16 100 0 0 0            *   an enchanted flesh sword
+M 0 3523 3 3654 100 0 0 0          * a praying demon
+M 0 3530 3 3656 100 0 0 0          * a praying demon
+E 1 3524 1 9 100 0 0 0             *   some gauntlets of cooled magma
+M 0 3530 3 3656 100 0 0 0          * a praying demon
+M 0 3530 3 3656 100 0 0 0          * a praying demon
+M 0 3523 3 3657 100 0 0 0          * a praying demon
+M 0 3523 3 3658 100 0 0 0          * a praying demon
+M 0 3519 1 3661 100 0 0 0          * Xrylok, war advisor to Gaultair
+E 1 3533 1 16 100 0 0 0            *   a shortened granite trident
+M 0 3512 1 3662 100 0 0 0          * the evil bishop, Gaultair
+E 1 3530 1 8 100 0 0 0             *   devil's hide boots
+E 1 3531 1 9 100 0 0 0             *   the claws of a wyvern
+E 1 3526 1 18 100 0 0 0            *   the totem of the demon prince, Tyrlos
+G 1 3521 1 0 100 0 0 0             *    a living magma key
+G 1 3529 1 0 100 0 0 0             *    the bloody head of Gaultair
+M 0 3520 1 3662 100 0 0 0          * a lich bodyguard
+E 1 3527 1 16 100 0 0 0            *   a staff of living flesh
+M 0 3521 1 3662 100 0 0 0          * a demon assassin
+E 1 3528 1 16 100 0 0 0            *   a blood-soaked granite dagger called 'Anger'
+M 0 3518 1 3664 100 0 0 0          * the spectre of Lord Englehardt
+M 0 3528 3 3666 100 0 0 0          * a rampant fire elemental
+M 0 3529 1 3666 100 0 0 0          * a dark fire elemental
+E 1 3532 1 11 100 0 0 0            *   a magma shield
+M 0 3528 3 3666 100 0 0 0          * a rampant fire elemental
+M 0 3528 3 3666 100 0 0 0          * a rampant fire elemental
+M 0 3527 2 3668 100 0 0 0          * a towering demon sentry
+E 1 3522 1 16 100 0 0 0            *   a huge granite sword covered in magma
+M 0 3527 2 3668 100 0 0 0          * a towering demon sentry
+E 1 3523 1 16 100 0 0 0            *   a huge granite axe covered in magma
+M 0 3524 1 3669 100 0 0 0          * Tyrlos, prince of demons
+E 1 3538 1 2 100 0 0 0             *   a jade ring
+E 1 3536 1 12 100 0 0 0            *   the cloak of the demon kings
+E 1 3537 1 19 100 0 0 0            *   a bone visor
+G 1 3539 1 0 100 0 0 0             *    the horn of Tyrlos
+G 1 67203 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 3525 1 3669 100 0 0 0          * a vicious hell hound
+E 1 3535 1 3 100 0 0 0             *   a magma collar
+M 0 3526 1 3669 100 0 0 0          * an undead magic advior
+E 1 3534 1 16 100 0 0 0            *   a dagger of the vampires
+M 0 3537 2 3671 100 0 0 0          * a copper golem
+M 0 3537 2 3671 100 0 0 0          * a copper golem
+M 0 3539 1 3673 100 0 0 0          * a red dragon
+G 1 3548 1 0 100 0 0 0             *    a golden key
+M 0 3538 1 3674 100 0 0 0          * an immense golden dragon
+G 1 3549 1 0 100 0 0 0             *    a platinum key
+M 0 3541 1 3675 100 0 0 0          * a phantasm dragon
+G 1 55415 1 0 100 0 0 0            *    (object type not in this .obj file)
+*
+S

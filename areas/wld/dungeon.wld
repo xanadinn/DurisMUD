@@ -1,0 +1,2453 @@
+#93000
+&+yA Strange Entranceway~
+   The entrance is nearly undectable from the vast amount of &+gshrubbery &Nand
+&+ggrass &Ncovering the trapdoor. The entrance appears to be circular in shape
+and about 5 feet in diameter.
+   The &+gforest &+wseems to become silent as you peer into the darkness of the
+trapdoor. The &+ytrapdoor &+witself looks to be made of &+yoak about 3 inches wide
+&+wand is covered with &+gvines &+wmaking opening the door slightly difficult from
+the sheer weight of the trapdoor.
+    Back north is the &+gforest &+wwhile up seems to be a cliff which leads to
+the top of the mountain this cave is in, however there are no handholds or
+ladders to get up there.
+~
+930 33554432 3 0
+D0
+The Forest
+~
+~
+0 0 93115
+D4
+The Cliff
+~
+~
+0 0 93083
+D5
+A Cramped Passageway
+~
+trapdoor~
+1 0 93001
+S
+#93001
+&+LInside the Dungeon~
+   &+LIt's very dark in here&N. The room is also very narrow, you can hardly
+squeeze through. The walls are covered in &+wvines and you can see scratched on
+the wall the words "&+cNothing here&+w". The graffiti continues as you see the
+words "&+cYeah, I'm here!&+w" and it ends with someone writing "&+cAw shut up Krog&+w".
+   The tunnel seems clear of life as if this tunnel was shaped by humanoids
+not naturally. Up leads back to the entrance of the cave.
+~
+930 33562632 0 0
+D4
+The Forest
+~
+trapdoor door oaken~
+1 0 93000
+D5
+Deeper in the Cave
+~
+~
+0 0 93002
+S
+#93002
+&+LDead End in the Cave~
+   The path seems to end here. The walls and floor are surprisingly just
+made of &+ydirt &+wand &+gvines &+wand there is a very real danger that this room could
+cave in killing you, but the room fortunately doesn't seem to be moving at
+all or have a chance of caving in for awhile.
+   Although the path seems to end here, the floor has very loose &+ydirt &+win
+it and might even be concealing a hidden trapdoor.
+~
+930 33554440 0 0
+D4
+A Tunnel
+~
+~
+0 0 93001
+D5
+&+LDown into the darkness
+~
+trapdoor~
+1 0 93003
+E
+vines~
+&+gSome vines hang loosely from the wall here.
+~
+E
+dirt~
+&+ySandy dirt covers the floor of the cave.
+~
+S
+#93003
+&+LPast the Hidden Entrance~
+   The air inside here is very stale as if this place hasn't been discovered
+in years. The walls have changed back from &+ydirt &+wto stone and you can see
+exits to the north and south. You also hear a low continuous inhuman growling
+sound from the north. To the south lies yet more &+Ldarkness &Nin this strange
+cave which seems to be getting darker at each step.
+~
+930 33554444 0 0
+D0
+A Lit Passageway
+~
+~
+0 0 93004
+D2
+A Dark Corridor
+~
+~
+0 0 93005
+D4
+Up towards the surface
+~
+trapdoor~
+1 0 93002
+S
+#93004
+A &+WBright Passageway~
+This room has torches on either side and the torches seem to glow with
+a &+bbluish &+Wlight&N. Strangely enough, the walls glow with a &+bblue &+waura and
+seem to flicker every now and then showing that a sorcerer has very obviously
+made his mark here and might even still be living here. A bright light lies
+to the north while south leaves you back into the eerie &+Ldarkness&+w.
+~
+930 33554440 0 0
+D0
+A Strange Library
+~
+~
+0 0 93006
+D2
+A Cave Junction
+~
+~
+0 0 93003
+S
+#93005
+&+LDown a &+LDark Tunnel~
+   The tunnel is very &+bdark &+wand seems to go on forever south when to
+the north is a junction where you can faintly see some light.
+   The floor is littered with bones of humans and ogres and rusty weapons.
+There must of been a terrible fight here long ago.
+   You see a trap which seems to of been disturbed recently since there is
+fresh &+Rblood &Nall over the trap. The trail of &+rblood &+wleaves &Nto the
+south.
+~
+930 33562888 0 0
+D0
+A Cave Junction
+~
+~
+0 0 93003
+D2
+A Cave Junction
+~
+~
+0 0 93007
+S
+#93006
+&+mA Strange Library~
+   The walls are covered in shelves which have hundreds of books on them
+some of which look very old.
+   On the corners of the room are beacons enchanted by some sorcerer to glow
+with a light bright enough to cover the room. There is a desk at the north
+end of the room which is covered with scrolls and books about strange
+topics.
+   The room only has a height of 5 feet, and is only 15 square feet across
+making it difficult to move around. On the ground is a very old looking
+skeleton with a dusty and tattered looking &+yscroll &+wbeside it.
+~
+930 33685512 0 0
+D2
+A Lit Passageway
+~
+~
+0 0 93004
+E
+scroll~
+You pick up a dusty looking scroll from the ground and unravel it to read
+its contents.
+
+-------------------------------------------------------------------------
+
+Greetings,
+
+   This dungeon is very dangerous with my last dying breath I write to
+warn you of its danger. I have been over come by a Red Dragon and
+escaped to this library to write my last words. Please reader, do not
+continue any further to this dungeon.
+
+Throk, used to be great adventurer of Verzanen
+
+--------------------------------------------------------------------------
+~
+S
+#93007
+&+LA &+LCave Junction~
+   To the south through a small entranceway you can make out noises of some
+humanoids moving around when down is a ladder made of steel which leads
+deeper into this mysterious place.  Down is &+Ldarkness &Nwhich doesn't
+seem to end but very faintly you can make
+out the floor when south you can faintly make out some light most likely
+from the settlement. It would appear to be a primitive settlement where some
+danger could lie if the creatures that lived in it were aggressive to
+outsiders.
+~
+930 33554440 0 0
+D0
+A Tunnel
+~
+~
+0 0 93005
+D2
+Near A Settlement
+~
+~
+0 0 93008
+D5
+Down a Rusty Ladder
+~
+~
+0 0 93021
+S
+#93008
+&+yNear a &+ySettlement~
+   South you can hear growling and yelling and the &+Wlight gets brighter &Nas
+you approach it. North is the cave junction and also leads to the way to the
+entrance of the cave home.
+   You see the words "&+rGoblins&N" scratched on the wall in very large
+letters. This unfortunately appears to be the settlement of goblins not an
+intelligent race or friendly race to most other races.
+~
+930 33554444 0 0
+D0
+A Cave Junction
+~
+~
+0 0 93007
+D2
+An Intersection
+~
+~
+0 0 93009
+S
+#93009
+&+LAn Intersection in the &+LCaves~
+   This room is very large compared to other parts of the cave about 30
+square feet. The walls are also dripping with &+ggreen slime&N.
+   To east and west of you, you see nothing but &+Ldarkness &Nwhen south you
+can see a faint light. The north leads back near the cave junction. The
+walls are now covered with tattered &+yfurs &Nand other goblin decor since
+this is the entrance to the goblin settlement.
+~
+930 33554440 0 0
+D0
+Exiting the Settlement
+~
+~
+0 0 93008
+D1
+A Dark Corridor
+~
+~
+0 0 93017
+D2
+A Bright Hall
+~
+~
+0 0 93014
+D3
+A Dark Corridor
+~
+~
+0 0 93010
+S
+#93010
+&+LIn a &+LDark Corridor~
+   Passing through here you note little of interest although the walls remain
+covered with tattered and dirty furs.
+   The ceiling drips with a dangerous looking &+ggreen acid &Nwhich burns
+whatever it lands on making travel through this area mildly dangerous.
+~
+930 33554440 0 0
+D1
+An Intersection
+~
+~
+0 0 93009
+D3
+A Dark Corridor
+~
+~
+0 0 93011
+S
+#93011
+&+LA Dark Corridor~
+   This room is not lit by any torches or magical light making it a haven
+for dungeons dwellers who live by seeing in the dark.
+   To the south you can see a tunnel which looks like you could probably
+squeeze through with some trouble and the corridor continues to the east.
+~
+930 33554440 0 0
+D1
+A Dark Corridor
+~
+~
+0 0 93010
+D2
+A Small Tunnel
+~
+~
+0 0 93012
+S
+#93012
+&+LA Small Tunnel~
+   This passageway is very small, you can hardly squeeze through. What makes
+travel worse is that a strange &+gacid &Nlike substance is dripping from
+the tunnel burning through anything it hits.
+   To the south you can see a faint outline of a table and north leads to a
+more comfortable and spacious area.
+~
+930 33554696 0 0
+D0
+A Dark Corridor
+~
+~
+0 0 93011
+D2
+War Room
+~
+~
+0 0 93013
+S
+#93013
+&+YMeeting Room~
+   This room is surrounded by &+Ldarkness &Ncovering up the whole room. A
+large &+yoak table &Nis in the middle of the room and on it, is a large
+tattered &+ymap &Nof the cave.
+   The floor is well kept and the room actually looks clean in a goblin sort
+of way. The goblins must take pride in their tactics when fighting.
+~
+930 33554440 0 0
+D0
+A Small Tunnel
+~
+~
+0 0 93012
+E
+map~
+The &+ymap &+wis tattered and ripped beyond comprehension. You cannot see anything
+important on the map.
+~
+S
+#93014
+&+LDown a &+LDark Hall~
+   There are no lights in the room here. The hallway continues north
+and the south leads into a large room. The walls are covered still with more
+dirty furs. The ceiling fortunately does not drip with the strange deadly
+&+gacid &Nlike other rooms did.
+~
+930 33554440 0 0
+D0
+An Intersection
+~
+~
+0 0 93009
+D2
+Down the Lit Hall
+~
+~
+0 0 93015
+S
+#93015
+&+LDown a Dark Hall~
+   There are no lights in the room here. The hallway continues north and the
+south leads into a large room. The walls are covered still with more dirty
+furs.You see a &+ysign &Nstuck on the wall near to the south.
+~
+930 33554440 0 0
+D0
+Down A Brightly Lit Hall
+~
+~
+0 0 93014
+D2
+The Goblin King's Lair
+~
+~
+0 0 93016
+E
+sign~
+The &+ysign &+wreads:
+
+
+&+y-----------------------------------------------------------------------
+&+y|                                                                     |
+&+y|                                                                     |
+&+y|          Bosses                                                     |
+&+y|                Room                                                 |
+&+y|                    Keep                                             |
+&+y|                        Out!                                         |
+&+y|                                                                     |
+&+y|                                                                     |
+&+y|                                                                     |
+&+y|                                                                     |
+&+y-----------------------------------------------------------------------
+~
+S
+#93016
+&+rThe Leader's Lair~
+   This room is very &+Ldirty&N. &+WBones &Nof numerous animals lie on the
+ground and you can see a large throne made of some huge animal &+Wbone
+&Ncovered with dirty furs on the top of a small platform at the south end
+of the room.
+   On the walls are crude paintings of goblins killing humans, and other
+creatures. With an area of about 40 square feet moving through here is
+quite easy for even a dragon to travel through.
+~
+930 33554440 0 0
+D0
+A Hallway
+~
+~
+0 0 93015
+S
+#93017
+&+LA Dark &+LCorridor~
+   This room also has the ceiling dripping with strange &+gacid like &+Gslime.
+ The walls are carpeted with dirty furs still and you can faintly see a bend
+to the south from here.
+   The &+gacid &Nhas left many cracks and holes on the ground making wading
+through here difficult as you have to leap over small holes in the ground.
+~
+930 33554440 0 0
+D1
+A Bend in the Corridor
+~
+~
+0 0 93018
+D3
+An Intersection
+~
+~
+0 0 93009
+S
+#93018
+&+LA Cave Junction~
+   The room is covered with green &+gslime&N, seemingly even more then
+before. It's also dark and you see a large &+ysign &Nstuck on the wall
+here. The path casually bends to the south here where you can see yet more
+acid like &+Gslime&N.
+~
+930 33554440 0 0
+D2
+A Passage
+~
+~
+0 0 93019
+D3
+A Corridor
+~
+~
+0 0 93017
+E
+sign~
+The sign reads:
+
+&+y-------------
+&+y| this is   |
+&+y| goblin    |
+&+y| sleep area|
+&+y| keep out! |
+&+y-------------
+&+y     |
+&+y     |
+&+y     |
+&+y     |
+~
+S
+#93019
+A &+gPassageway~
+   This corridor has a tall ceiling of about 20 feet. It surprisingly isn't
+wide, and you find yourself barely squeezing through the passageway.
+   The walls are covered in more &+gslime &Nin a larger amount then ever
+before. To the north you see the amount of slime decreasing.
+~
+930 33562636 0 0
+D0
+A Bend in the Passageway
+~
+~
+0 0 93018
+D2
+Acid Worm's Lair
+~
+~
+0 0 93020
+S
+#93020
+The &+gAcid Worms Lair~
+This room is covered in &+gslime&N. The walls have nearly melted away from the
+&+gacid slime &Nmaking a cave in a danger. Wading through the muck has become
+a dangerous job as this &+gacid &Nis everywhere and can burn through nearly
+anything. A large stone door is to the east.
+~
+930 33554440 0 0
+D0
+A Passage
+~
+~
+0 0 93019
+D1
+Goblin Abodes
+~
+door~
+1 0 93031
+S
+#93021
+Down A &+yRusty &+wSteel Ladder~
+   This ladder must of been placed here by explorers years ago. You feel
+the ladder creaking under your weight. It's best that you get down soon!
+~
+930 33562632 0 0
+D4
+A Cave Junction
+~
+~
+0 0 93007
+D5
+Down A Rusty Ladder
+~
+~
+0 0 93022
+S
+#93022
+Down a &+yRusty &+wLadder~
+   As you step down you notice that nearly all the rungs on the ladder have
+rusted away and are useless! Getting back up will be very difficult if
+not impossible! Even if you could jump to reach the ladder it would
+probably collapse from the sudden weight.
+~
+930 33554444 0 0
+D4
+A Rusty Ladder
+~
+~
+0 0 93021
+D5
+The Bottom
+~
+~
+0 0 93023
+F
+20
+S
+#93023
+&+LAt the Bottom of the Ladder~
+   The room has a very straight shape and is 10 feet in height. Considering
+the smoothness of the walls and ground this part of the cave must of been
+shapened by master craftsmen long ago.
+   You can make out a rusty ladder hanging in the air. Travelling on it does
+not look like a good idea.
+~
+930 33554444 0 0
+D1
+A Strange Den
+~
+~
+0 0 93024
+D4
+A Rusty Ladder
+~
+~
+0 0 93022
+S
+#93024
+In a Strange &+gDen~
+   The floor is littered with rotten &+ymeat&+w, &Nbones &+wand &+yrusty &Nweapons and armor.
+It looks as though you are near a &+gdragon&+w's lair or some tribe of primitive
+people. You see scratched on the wall "&+Lkill&N". The writing is very crude
+as if it was pounded in by a rock.
+   The room also has a nearly unbearable stench to it, fortunately it is
+quite large giving you a little extra breathing space to prevent you from
+throwing up from the terrible smell.
+~
+930 33554440 0 0
+D2
+A Strange Den
+~
+~
+0 0 93025
+D3
+Bottom of A Ladder
+~
+~
+0 0 93023
+S
+#93025
+In a Strange &+gDen~
+   The floor is littered with rotten &+ymeat&+w, &Nbones &+wand &+yrusty &Nweapons and armor.
+It looks as though you are near a &+gdragon&+w's lair or some tribe of primitive
+people. You see scratched on the wall "&+Lkill&N". The writing is very crude
+as if it was pounded in by a rock.
+   The room also has a nearly unbearable stench to it, fortunately it is
+quite large giving you a little extra breathing space to prevent you from
+throwing up from the terrible smell.
+~
+930 33554440 0 0
+D0
+A Strange Den
+~
+~
+0 0 93024
+D1
+A Strange Den
+~
+~
+0 0 93026
+D2
+A Dark Corridor
+~
+~
+0 0 93029
+S
+#93026
+In a Strange &+gDen~
+   The floor is littered with rotten &+ymeat&+w, &Nbones &+wand &+yrusty &Nweapons and armor.
+It looks as though you are near a &+gdragon&+w's lair or some tribe of primitive
+people. You see scratched on the wall "&+Lkill&N". The writing is very crude
+as if it was pounded in by a rock.
+   The room also has a nearly unbearable stench to it, fortunately it is
+quite large giving you a little extra breathing space to prevent you from
+throwing up from the terrible smell.
+~
+930 33554440 0 0
+D0
+A Strange Den
+~
+~
+0 0 93027
+D3
+A Strange Den
+~
+~
+0 0 93025
+S
+#93027
+In a Strange &+gDen~
+   The floor is littered with rotten &+ymeat&+w, &Nbones &+wand &+yrusty &Nweapons and armor.
+It looks as though you are near a &+gdragon&+w's lair or some tribe of primitive
+people. You see scratched on the wall "&+Lkill&N". The writing is very crude
+as if it was pounded in by a rock.
+   The room also has a nearly unbearable stench to it, fortunately it is
+quite large giving you a little extra breathing space to prevent you from
+throwing up from the terrible smell.
+~
+930 33554440 0 0
+D2
+A Strange Den
+~
+~
+0 0 93026
+D3
+The Lizardman's Lair
+~
+~
+0 0 93028
+S
+#93028
+In the &+gLizardman&+w's Lair~
+   This room is alot cleaner then others. You can actually see the walls are
+made of &+Wstone &Nnot dirt and muck.
+   Ornate looking &+Lswords &Nadorn the walls and there is a throne made of
+&+Wdragonbone &Non the west side. The furs that cover it are surprisingly
+clean compared to the rest of this place. The &+gLizardmen &Nmust take
+pride in their leader.
+~
+930 33554440 0 0
+D1
+A Strange Den
+~
+~
+0 0 93027
+S
+#93029
+A &+LCorridor~
+   To the north you can see a strange &+gden &Nand to the south is &+Ldarkness&+w.
+You also here a low growling sound from the south which shows that there is
+some kind huge animal that lives there.
+   The walls are clean as if no living thing has passed through here in
+months making travel revelatively easy.
+~
+930 33554444 0 0
+D0
+A Strange Den
+~
+~
+0 0 93025
+D2
+End of the Corridor
+~
+~
+0 0 93030
+S
+#93030
+End of a &+LCorridor~
+   The corridor ends here. Although there is no ladder to go down you can
+see small handholds which can help you get down.
+   You can faintly make the floor when you look down there. The cliff down
+is very large so getting down any other way is impossible.
+~
+930 33554440 0 0
+D0
+A Dark Corridor
+~
+~
+0 0 93029
+D5
+A Wall Covered with Handholds
+~
+~
+0 0 93033
+S
+#93031
+&+GThe Goblin Homes~
+   The &+gslime has disap&+wpeared into a dirty floor covered with &+Wbones.
+ To the north and south of you are goblin homes where numerous goblins are
+sleeping. There is a large stone door to the west which leads out of this
+area.
+~
+930 33554444 0 0
+D0
+Barracks
+~
+~
+0 0 93046
+D1
+Goblin Homes
+~
+~
+0 0 93034
+D2
+Barracks
+~
+~
+0 0 93032
+D3
+Acid Worm's Lair
+~
+door~
+1 0 93020
+S
+#93032
+&+gA Guards Barracks~
+   The room has an empty weapons rack lining all sides of this room. An
+oak table is in the far corner of this room and on it are several scrolls
+and maps written in a goblin language.
+   There also is a very intimidating picture of a &+rdemigod &Non the east
+side of the room.
+~
+930 33554440 0 0
+D0
+The Goblin Homes
+~
+~
+0 0 93031
+S
+#93033
+&+gOn a Wall~
+   The handholds on this wall are few and far between making passage a little
+dangerous.
+   The walls are covered in &+gacid &Nfrom &+gacid worms &Nor other creatures
+which melt walls. That shows that the handholds were probably not made
+from an intelligent race but were carved in by the acid worms or other things
+that can melt stone.
+~
+930 33554440 0 0
+D4
+End Of a Corridor
+~
+~
+0 0 93030
+D5
+A Cave Junction
+~
+~
+0 0 93047
+S
+#93034
+&+GThe Goblin Homes~
+   &+WBones &Nof numerous animals litter the ground. From the strange shape of
+the walls, it seems that some animal like an acid worm came through
+here to carve this part of the cave and after it passed, the goblins
+came and moved in. &+gGoblin &Nabodes are to the north and south of you.
+~
+930 33554440 0 0
+D0
+A Goblin Home
+~
+~
+0 0 93045
+D1
+Path Through the Homes
+~
+~
+0 0 93036
+D2
+A Goblin Home
+~
+~
+0 0 93035
+D3
+Path Through the Homes
+~
+~
+0 0 93031
+S
+#93035
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D0
+Path Through the Caves
+~
+~
+0 0 93034
+S
+#93036
+&+GThe Goblin Homes~
+   &+WBones &Nof numerous animals litter the ground. From the strange shape of
+the walls, it seems that some animal like an acid worm came through
+here to carve this part of the cave and after it passed, the goblins
+came and moved in. &+gGoblin &Nabodes are to the north and south of you.
+~
+930 33554440 0 0
+D0
+A Goblin Home
+~
+~
+0 0 93044
+D1
+Path Through the Homes
+~
+~
+0 0 93038
+D2
+A Goblin Home
+~
+~
+0 0 93037
+D3
+Path Through the Homes
+~
+~
+0 0 93034
+S
+#93037
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D0
+Path Through the Caves
+~
+~
+0 0 93036
+S
+#93038
+&+GThe Goblin Homes~
+   &+WBones &Nof numerous animals litter the ground. From the strange shape of
+the walls, it seems that some animal like an acid worm came through
+here to carve this part of the cave and after it passed, the goblins
+came and moved in. &+gGoblin &Nabodes are to the north and south of you.
+~
+930 33554440 0 0
+D0
+A Goblin Home
+~
+~
+0 0 93043
+D1
+Path Through the Homes
+~
+~
+0 0 93040
+D2
+A Goblin Home
+~
+~
+0 0 93039
+D3
+Path Through the Homes
+~
+~
+0 0 93036
+S
+#93039
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D0
+Path Through the Homes
+~
+~
+0 0 93038
+S
+#93040
+&+GThe Goblin Homes~
+   &+WBones &Nof numerous animals litter the ground. From the strange shape of
+the walls, it seems that some animal like an acid worm came through
+here to carve this part of the cave and after it passed, the goblins
+came and moved in. &+gGoblin &Nabodes are to the north and south of you.
+~
+930 33554440 0 0
+D0
+A Goblin Home
+~
+~
+0 0 93042
+D2
+A Goblin Home
+~
+~
+0 0 93041
+D3
+Path Through The Homes
+~
+~
+0 0 93038
+S
+#93041
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D0
+Path through the Homes
+~
+~
+0 0 93040
+S
+#93042
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D2
+Path Through the Homes
+~
+~
+0 0 93040
+S
+#93043
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D2
+Path Through the Homes
+~
+~
+0 0 93038
+S
+#93044
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D2
+Path Through the Caves
+~
+~
+0 0 93036
+S
+#93045
+&+RA Goblin Abode~
+   Nothing to note lies in this room. It is very dirty and about 20 square
+feet making living cramped.
+   The room has a foul stench to it of rotten &+ymeat &+was if the meat was
+several weeks old. Furs line the floor as makeshift rugs and in the middle
+of the room is a small cooking &+Rfire&N. To prevent the goblins from
+choking on the smoke they have placed the fire under a small hole which
+seems to absorb the smoke making the area smokefree. A baby &+gacid &+wworm must
+of drilled its way out of the mountain by doing that.
+~
+930 33554440 0 0
+D2
+Path Through the Caves
+~
+~
+0 0 93034
+S
+#93046
+&+gA Guards Barrack~
+   The room has an empty weapons rack lining all sides of this room. An
+oak table is in the far corner of this room and on it are several scrolls
+and maps written in a goblin language.
+   There also is a very intimidating picture of a &+rdemigod &Non the east
+side of the room.
+~
+930 33554440 0 0
+D2
+The Goblin Homes
+~
+~
+0 0 93031
+S
+#93047
+&+LA Cave Junction~
+   This room is pretty wide giving you plenty of room to move around. You
+can climb up the wall on the handholds that are there at your own risk
+or you can leave west or east. To the west you faintly feel &+Rheat&+w.
+~
+930 33554440 0 0
+D1
+A Stairway
+~
+~
+0 0 93064
+D3
+A Passage
+~
+~
+0 0 93048
+D4
+A Wall Covered with Handholds
+~
+~
+0 0 93033
+S
+#93048
+&+LA Passage~
+   This passageway looks newly cut about 3 or 4 days old. It looks as though
+the passageway was &+gmelted &Ninto existence not made by humanoids,
+a very large group of &+gacid &Nworms must of been here. With no light this place
+is very dark. You can still feel some faint &+Rheat &Nfrom the west. You can
+make out a trapdoor on the ground.
+~
+930 33554440 0 0
+D1
+A Cave Junction
+~
+~
+0 0 93047
+D3
+A Passage
+~
+~
+0 0 93049
+S
+#93049
+&+LA Small Path~
+   This passageway looks newly cut about 3 or 4 days old. It looks as though
+the passageway was &+gmelted &Ninto existence not made by humanoids,
+a very large group of &+gacid &Nworms must of been here. With no light this place
+is very dark. You can still feel some faint &+Rheat &Nfrom the west.
+~
+930 33554440 0 0
+D1
+A Passage
+~
+~
+0 0 93048
+D3
+Near a Tunnel
+~
+~
+0 0 93050
+S
+#93050
+&+LEntrance to a Small &+LTunnel~
+   To the south you can see a very small 2 foot tunnel. Getting through
+it looks like a tough job indeed and getting stuck in there would be
+a fate worse then death.
+The east leads back to more spacious areas. You can feel faint blasts of
+&+Rheat &Nfrom the tunnel too which makes going into the tunnel less fun by
+the minute with the chance that the blast of &+Rheat &Ncould burn you.
+~
+930 33554444 0 0
+D1
+A Passage
+~
+~
+0 0 93049
+D2
+In A Tunnel
+~
+~
+0 0 93051
+S
+#93051
+&+LInside a Dark Tunnel~
+   The tunnel walls are very cold and as you drag yourself through them you
+shiver at each step. Considering that the tunnel is only 2 feet tall,
+moving through here requires quite an effort.
+   Turning back either way would be incredibly hard since you would not be
+able to turn around and would be stuck crawling backwards.
+~
+930 33562888 0 0
+D0
+Entrance to the Tunnel
+~
+~
+0 0 93050
+D1
+In A Tunnel
+~
+~
+0 0 93052
+S
+#93052
+&+LInside a Dark Tunnel~
+   The tunnel walls are very cold and as you drag yourself through them you
+shiver at each step. Considering that the tunnel is only 2 feet tall,
+moving through here requires quite an effort.
+   Turning back either way would be incredibly hard since you would not be
+able to turn around and would be stuck crawling backwards.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93053
+D3
+In A Tunnel
+~
+~
+0 0 93051
+S
+#93053
+&+LInside a Dark Tunnel~
+   The tunnel walls are very cold and as you drag yourself through them you
+shiver at each step. Considering that the tunnel is only 2 feet tall,
+moving through here requires quite an effort.
+   Turning back either way would be incredibly hard since you would not be
+able to turn around and would be stuck crawling backwards.
+~
+930 33562888 0 0
+D2
+In A Tunnel
+~
+~
+0 0 93054
+D3
+In A Tunnel
+~
+~
+0 0 93052
+S
+#93054
+&+LInside a Dark Tunnel~
+   This tunnel is very cool and the air smells very musty. It's very cramped
+inside and if you have to flee from some monster then fleeing through
+this cramped area would be a precarious job.
+   You can feel the unnatural blasts of &+Rheat &Ncontinuing from the south
+at greater intensity. The walls are clean which shows that nothing has
+passed here recently.
+~
+930 33562888 0 0
+D0
+In A Tunnel
+~
+~
+0 0 93053
+D2
+In A Tunnel
+~
+~
+0 0 93055
+S
+#93055
+&+LInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job.
+   You also can feel the heat blasting even more as if there was a huge fire
+very near to you. The walls appear surprisingly charred. You must be very
+close to the source of the heat now.
+~
+930 33562888 0 0
+D0
+In A Tunnel
+~
+~
+0 0 93054
+D3
+In A Tunnel
+~
+~
+0 0 93056
+S
+#93056
+&+LInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job.
+   You also can feel the heat blasting even more as if there was a huge fire
+very near to you. The walls appear surprisingly charred. You must be very
+close to the source of the heat now.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93055
+D3
+In A Tunnel
+~
+~
+0 0 93057
+S
+#93057
+&+LInside A Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job.
+   You also can feel the heat blasting even more as if there was a huge fire
+very near to you. The walls appear surprisingly charred. You must be very
+close to the source of the heat now.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93056
+D3
+In A Tunnel
+~
+~
+0 0 93058
+S
+#93058
+&+LInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job.
+   You also can feel the heat blasting even more as if there was a huge fire
+very near to you. The walls appear surprisingly charred. You must be very
+close to the source of the heat now.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93057
+D3
+In A Tunnel
+~
+~
+0 0 93059
+S
+#93059
+&+LInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job. The heat is increasing in greater
+intensity making you cringe at each blast of &+Rheat&+w.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93058
+D2
+In A Tunnel
+~
+~
+0 0 93060
+S
+#93060
+&+RInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job. The heat is increasing in greater
+intensity making you cringe at each blast of &+Rheat&+w.
+~
+930 33562888 0 0
+D0
+In A Tunnel
+~
+~
+0 0 93059
+D3
+In A Tunnel
+~
+~
+0 0 93061
+S
+#93061
+&+RInside a Dark Tunnel~
+   The room has no lights so it's very dark inside. It's incredibly cramped
+squeezing through is a very tough job. The heat is increasing in greater
+intensity making you cringe at each blast of &+Rheat&+w.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93060
+D3
+In A Tunnel
+~
+~
+0 0 93062
+S
+#93062
+&+RNear the &+gDragons &+RLair~
+   You feel and see &+Rheat &Nto the south. The heat is nearly burning you and
+getting out of this cramped area would be a very wise idea area fast.
+   You see a small &+rsign &+won the wall perhaps you should read it before
+you continue on if it warns you of any danger the heat could be causing.
+~
+930 33562888 0 0
+D1
+In A Tunnel
+~
+~
+0 0 93061
+D2
+Dragon's Lair
+~
+~
+0 0 93063
+E
+sign~
+The sign reads:
+
+
+&+r-----------------
+&+r|               |
+&+r|  DRAGON       |
+&+r|  KEEP         |
+&+r|  OUT!!!       |
+&+r|               |
+&+r-----------------
+~
+S
+#93063
+The &+gDragons &+wLair~
+   This room is huge nearly 100 feet high. You notice lots of &+yrusty &+warmor
+and &+yweapons&+w. Many people must of been here and never returned. This
+place seems more dangerous by the minute. North leads back to the tunnel, to
+safety. There is a very large hole at the top of the ceiling. It looks like
+the dragon came through there.
+~
+930 33554432 5 0
+D0
+In A Tunnel
+~
+~
+0 0 93062
+D4
+Up On a Mountain
+~
+~
+0 0 93070
+S
+#93064
+&+LEntrance to a Stairway~
+   You cannot see anything down the stairs they seem to go on forever. The
+steps are very big too as if giants live down there.
+   Inscribed on the wall are the words "don't enter". You can faintly hear
+something crashing from downstairs too.
+~
+930 33554440 0 0
+D3
+A Cave Junction
+~
+~
+0 0 93047
+D5
+On A Stairway
+~
+~
+0 0 93065
+S
+#93065
+&+LDown the Stairs~
+   These stairs are made of a strange &+Lblack &Nsubstance which leaves black
+dust on whatever it touches. Several more steps up leads to the top of
+the stairs when down descends into darkness.
+~
+930 33554440 0 0
+D4
+The Top of the Stairs
+~
+~
+0 0 93064
+D5
+On A Stairway
+~
+~
+0 0 93066
+S
+#93066
+&+LOn The Stairs~
+   These stairs are made of a strange &+Lblack &Nsubstance which leaves black
+dust on whatever it touches. Several more steps up leads to the top of
+the stairs when down descends into darkness.
+~
+930 33554440 0 0
+D4
+Near the Top
+~
+~
+0 0 93065
+D5
+On the Stairway
+~
+~
+0 0 93067
+S
+#93067
+&+LOn the Stairs~
+   These stairs seem to go on forever! When you look up or down all you see
+is &+Ldarkness&N, you must of travelled a long way.
+   Also the fact that the steps are very large and that a huge creature
+could be living here is not heart warming at all.
+~
+930 33554440 0 0
+D4
+On the Stairs
+~
+~
+0 0 93066
+D5
+On the Stairs
+~
+~
+0 0 93068
+S
+#93068
+&+LUp the Stairs~
+   Down is the bottom of the stairs where the crashing sound is getting louder,
+when up leaves back into the comforting &+Ldarkness&N. You feel a shiver go up
+your spine at every crash, it sounds like something's being tortured.
+~
+930 33554440 0 0
+D4
+On the Stairway
+~
+~
+0 0 93067
+D5
+The Bottom of the Stairs
+~
+~
+0 0 93069
+S
+#93069
+&+LThe Bottom of the Stairs~
+   At the bottom of the stairs the crashing noise has gotten really loud
+and is quite worrysome. A huge stone door lies to the east and if you can
+open it, you might find the source of that crashing noise.
+   Written on the door is the word "&+ROGRES&N".
+~
+930 33554444 0 0
+D1
+Entrance to an Ogre Settlement
+~
+door stone~
+1 0 93084
+D3
+~
+~
+0 0 810962
+D4
+On The Stairway
+~
+~
+0 0 93068
+S
+#93070
+&+WA Mountain Pass~
+   This is how the dragon got in! No dragon would crawl through an entire
+dragon instead they just pound their way in.
+   You see endless &+Wsnow &Neverywhere and its really &+bcold&N. You can leave down into the dragons lair or continue
+exploring the mountain. Continuing exploring the mountain sounds like a much
+wiser idea then risking your life in a dragons lair since there is a very
+high risk the dragon could be there already.
+~
+930 33554436 5 0
+D0
+On A Mountain
+~
+~
+0 0 93071
+D5
+Dragon's Lair
+~
+~
+0 0 93063
+S
+#93071
+&+WA Mountain Pass~
+   You see nothing around you but endless dunes of &+Wsnow&N. There is a
+large hole to the south when north leads up the mountains maybe even
+considering the direction you're going, back to the entrance of the dungeon.
+Walking through here is very boring but most of all very &+Bcold&N.
+~
+930 33554432 5 0
+D0
+On A Mountain
+~
+~
+0 0 93072
+D2
+On A Mountain
+~
+~
+0 0 93070
+S
+#93072
+&+WPath in the Mountains~
+   The snow has gotten heavier and is in larger amounts now. To the east there
+is a path which leads up the mountains.
+   There is no trees or animals here since the snow has killed everything
+off. The cold is nearly unbearable now as you shiver with every step.
+You're very sure now that north leads back to the entrance of the caves!
+~
+930 33554432 5 0
+D1
+On A Mountain
+~
+~
+0 0 93073
+D2
+On A Mountain
+~
+~
+0 0 93071
+S
+#93073
+&+WA Path on the Mountains~
+   The snow has gotten heavier and is in larger amounts now. Up is a path which
+leads higher up the mountains.
+   There is no trees or animals here since the snow has killed everything
+off. Your body is getting &+Wnumb &Nto the &+Bcold &Nnow and the pain of the cold is
+no longer of notice to you. You have a danger of getting frostbite it would
+be wise to continue on.
+~
+930 33554432 5 0
+D3
+On A Mountain
+~
+~
+0 0 93072
+D4
+Climbing The Mountain
+~
+~
+0 0 93074
+S
+#93074
+&+WUp the Mountain~
+   There are numerous handholds and platforms to rest on here making travel
+upwards relatively easy. Even then when you look down it is still a very
+terrifying way down and if you were to lose your grip the fall would
+scare almost anyone.
+~
+930 33554432 5 0
+D4
+Climbing the Mountain
+~
+~
+0 0 93075
+D5
+The Bottom
+~
+~
+0 0 93073
+F
+5
+S
+#93075
+&+WThe Summit~
+   You have made it to the summit of the mountain. A look downwards shows a
+beautiful and terrifying view of the &+gforest&N.
+   You can leave back down the mountain or continue north which seems to be
+getting closer to the entrance of the cave. You can see for sure now the
+entrance to this wretched cave.
+~
+930 33554432 5 0
+D0
+The Summit
+~
+~
+0 0 93076
+D5
+Climbing the Mountain
+~
+~
+0 0 93074
+S
+#93076
+&+WThe Summit~
+   &+WSnow &+wremains all around you. Nothing here is to note since snow
+covers all the secrets that could be here. The beautiful view of the &+gforest
+remains and it's like you could stay here forever watching the view.
+The entrance of the cave can be clearly seen from here.
+~
+930 33554432 5 0
+D0
+A Path on the Summit
+~
+~
+0 0 93077
+D2
+A Path on the Summit
+~
+~
+0 0 93075
+S
+#93077
+&+WThe Summit~
+   &+WSnow &+wremains all around you. Nothing here is to note since snow
+covers all the secrets that could be here. The beautiful view of the &+gforest
+remains and it's like you could stay here forever watching the view.
+The entrance of the cave can be clearly seen from here.
+~
+930 33554432 5 0
+D0
+A Path on the Summit
+~
+~
+0 0 93078
+D2
+A Path on the Summit
+~
+~
+0 0 93076
+S
+#93078
+&+WThe Summit~
+   &+WSnow &+wremains all around you. Nothing here is to note since snow
+covers all the secrets that could be here. The beautiful view of the &+gforest
+remains and it's like you could stay here forever watching the view.
+The entrance of the cave can be clearly seen from here.
+~
+930 33554432 5 0
+D2
+A Path on the Summit
+~
+~
+0 0 93077
+D3
+A Path on the Summit
+~
+~
+0 0 93079
+S
+#93079
+&+WThe Summit~
+   &+WSnow &+wremains all around you. Nothing here is to note since snow
+covers all the secrets that could be here. The beautiful view of the &+gforest
+remains and it's like you could stay here forever watching the view.
+The entrance of the cave can be clearly seen from here.
+~
+930 33554432 5 0
+D1
+A Path on the Summit
+~
+~
+0 0 93078
+D3
+Near a Large Cliff
+~
+~
+0 0 93080
+S
+#93080
+&+WNear the Entrance of the &+LCave~
+   Down you can make out the &+gforest &Nand the entrance to this dangerous
+cave. In order to get down though you'd have to jump since there is no
+handholds or anything to climb down with.
+~
+930 33554432 5 0
+D1
+A Path on the Summit
+~
+~
+0 0 93079
+D5
+Midair
+~
+~
+0 0 93081
+S
+#93081
+&+LMidair~
+There are no handholds here nothing to hold onto just &+Wair&N! You can see
+the entrance to this place at the bottom.
+~
+930 33554436 5 0
+D4
+Midair
+~
+~
+0 0 93080
+D5
+Midair
+~
+~
+0 0 93082
+F
+100
+S
+#93082
+&+LMidair~
+There are no handholds here nothing to hold onto just &+Wair&N! You can see
+the entrance to this place at the bottom.
+~
+930 33554436 5 0
+D4
+Midair
+~
+~
+0 0 93081
+D5
+Midair
+~
+~
+0 0 93083
+F
+100
+S
+#93083
+&+LMidair~
+There are no handholds here nothing to hold onto just &+Wair&N! You can see
+the entrance to this place at the bottom.
+~
+930 33554436 5 0
+D4
+Midair
+~
+~
+0 0 93082
+D5
+Cave Entrance
+~
+~
+0 0 93000
+F
+100
+S
+#93084
+Entrance to the &+ROgres &+wHomes~
+   This area is very large as so it will fit for ogres.To the north and
+south you see small guard posts when west lets you out of this strange area.
+The crashing sound still continues from the east. There are no torches or
+anything to provide light here.
+~
+930 33554436 0 0
+D0
+A Guard Post
+~
+~
+0 0 93086
+D1
+Path To Ogre Homes
+~
+~
+0 0 93087
+D2
+A Guard Post
+~
+~
+0 0 93085
+D3
+Near the Stairway
+~
+door stone~
+1 0 93069
+S
+#93085
+A Guard &+LPost~
+   This room is very primitive looking with huge &+yclubs &Nleaning against the
+wall and animal furs on the ground.
+   It's pretty big too about 20 square feet so several ogres can fit in here
+and stand guard against intruders who'd accidently entered the ogre tribes
+lair.
+   Considering the plain decor of the room. The ogres who stay here don't
+really care about the room at all.
+~
+930 33554440 0 0
+D0
+Near the Ogre Homes
+~
+~
+0 0 93084
+S
+#93086
+A Guard &+LPost~
+   This room is very primitive looking with huge &+yclubs &Nleaning against the
+wall and animal furs on the ground.
+   It's pretty big too about 20 square feet so several ogres can fit in here
+and stand guard against intruders who'd accidently entered the ogre tribes
+lair.
+   Considering the plain decor of the room. The ogres who stay here don't
+really care about the room at all.
+~
+930 33554440 0 0
+D2
+Near the Ogre Homes
+~
+~
+0 0 93084
+S
+#93087
+&+RPathway to Ogre Homes~
+   This big passageway separates the &+gmilitary &Narea from the homes. You hear the
+loud crashing sound from the east very loudly. To the west is eerie darkness
+and silence. Tattered furs adorn the walls as does &+rblood &Nand other body
+fluids.
+~
+930 33554444 0 0
+D1
+The Ogre Homes
+~
+~
+0 0 93088
+D3
+Near the Guard Posts
+~
+~
+0 0 93084
+S
+#93088
+&+RThe Ogre Homes~
+   This area is the source of the crashing sound. At each house an ogre is
+going &+rberserk&N, smashing their own stuff to satisfy their destructive
+personality.
+   You see some ogres hitting each other and laughing out loud
+with pleasure when they feel the pain. You'd best move on before one of
+the ogres trys to smash you!
+~
+930 33554440 0 0
+D0
+The Ogre Homes
+~
+~
+0 0 93089
+D1
+An Ogre Home
+~
+~
+0 0 93112
+D2
+The Ogre Homes
+~
+~
+0 0 93091
+D3
+Path out of Ogre Homes
+~
+~
+0 0 93087
+S
+#93089
+&+RThe Ogre Homes~
+   This area is the source of the crashing sound. At each house an ogre is
+going &+rberserk&N, smashing their own stuff to satisfy their destructive
+personality.
+   You see some ogres hitting each other and laughing out loud
+with pleasure when they feel the pain. You'd best move on before one of
+the ogres trys to smash you!
+~
+930 33554440 0 0
+D0
+Path Through the Homes
+~
+~
+0 0 93090
+D1
+An Ogre Home
+~
+~
+0 0 93113
+D2
+Path Through the Homes
+~
+~
+0 0 93088
+S
+#93090
+&+RThe Ogre Homes~
+   This area is the source of the crashing sound. At each house an ogre is
+going &+rberserk&N, smashing their own stuff to satisfy their destructive
+personality.
+   You see some ogres hitting each other and laughing out loud
+with pleasure when they feel the pain. You'd best move on before one of
+the ogres trys to smash you!
+~
+930 33554440 0 0
+D1
+Path Through the Homes
+~
+~
+0 0 93095
+D2
+Path Through the Homes
+~
+~
+0 0 93089
+S
+#93091
+&+RThe Ogre Homes~
+   This area is the source of the crashing sound. At each house an ogre is
+going &+rberserk&N, smashing their own stuff to satisfy their destructive
+personality.
+   You see some ogres hitting each other and laughing out loud
+with pleasure when they feel the pain. You'd best move on before one of
+the ogres trys to smash you!
+~
+930 33554440 0 0
+D0
+The Ogre Homes
+~
+~
+0 0 93088
+D2
+Path Through the Ogre Homes
+~
+~
+0 0 93092
+S
+#93092
+&+RThe Ogre Homes~
+   This area is the source of the crashing sound. At each house an ogre is
+going &+rberserk&N, smashing their own stuff to satisfy their destructive
+personality.
+   You see some ogres hitting each other and laughing out loud
+with pleasure when they feel the pain. You'd best move on before one of
+the ogres trys to smash you!
+~
+930 33554440 0 0
+D0
+Path Through the Ogre Homes
+~
+~
+0 0 93091
+D1
+Path Through the Ogre Homes
+~
+~
+0 0 93093
+D2
+An Ogre Home
+~
+~
+0 0 93114
+S
+#93093
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93094
+D3
+The Ogre Homes
+~
+~
+0 0 93092
+S
+#93094
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93099
+D2
+An Ogre Home
+~
+~
+0 0 93109
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93093
+S
+#93095
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D0
+An Ogre Home
+~
+~
+0 0 93110
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93096
+D3
+The Ogre Homes
+~
+~
+0 0 93090
+S
+#93096
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93097
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93095
+S
+#93097
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D0
+An Ogre Home
+~
+~
+0 0 93111
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93098
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93096
+S
+#93098
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+Entrance to the Ogre Chief's Path
+~
+~
+0 0 93102
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93097
+S
+#93099
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93100
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93094
+S
+#93100
+&+mThe Ogre Homes~
+   The crashing noise begins to die off as you enter a quieter part of the
+homes. Pictures of &+mOgre gods &Nadorn the rooms intimidating you and the hard
+stone floor has been replaced with soft dirty furs.
+   It seems the more east you go the higher the class of ogres it reaches.
+The ogres surprisingly seem to hold their gods in higher respect then other
+ogre tribes, there must be powerful shamans and acolytes that live here.
+~
+930 33554440 0 0
+D1
+The Upperclass Ogre Homes
+~
+~
+0 0 93101
+D2
+An Ogre Home
+~
+~
+0 0 93108
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93099
+S
+#93101
+&+LA Quiet Pathway~
+   This room is strangely quiet. All the noise from the ogre homes has totally
+died off leaving the room with an eerie silence.
+   The walls are bare and have no ogre adornments on them. The quiet is very
+strange as if no one has discovered this place.. Or no ogre would dare go
+here.
+~
+930 33554440 0 0
+D0
+Path To the Chief
+~
+~
+0 0 93105
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93100
+S
+#93102
+&+LAn Ogre Pathway~
+   This room is strangely quiet. All the noise from the ogre homes has totally
+died off leaving the room with an eerie silence.
+   The walls are bare and have no ogre adornments on them. The quiet is very
+strange as if no one has discovered this place.. Or no ogre would dare go
+here.
+~
+930 33554440 0 0
+D2
+The Ogre Chief's Path
+~
+~
+0 0 93103
+D3
+The Upperclass Ogre Homes
+~
+~
+0 0 93098
+S
+#93103
+&+LAn Ogre Pathway~
+   This room is strangely quiet. All the noise from the ogre homes has totally
+died off leaving the room with an eerie silence.
+   The walls are bare and have no ogre adornments on them. The quiet is very
+strange as if no one has discovered this place.. Or no ogre would dare go
+here.
+~
+930 33554440 0 0
+D0
+Exiting the Ogre Chief's Path
+~
+~
+0 0 93102
+D2
+Path to the Ogre Chief
+~
+~
+0 0 93104
+S
+#93104
+&+LAn Ogre Pathway~
+   This room is strangely quiet. All the noise from the ogre homes has totally
+died off leaving the room with an eerie silence.
+   The walls are bare and have no ogre adornments on them. The quiet is very
+strange as if no one has discovered this place.. Or no ogre would dare go
+here.
+~
+930 33554440 0 0
+D0
+Path to the Ogre Chief
+~
+~
+0 0 93103
+D2
+The Entrance to the Ogre Chief's Cave
+~
+~
+0 0 93106
+S
+#93105
+&+LA Quiet Pathway~
+   This room is strangely quiet. All the noise from the ogre homes has totally
+died off leaving the room with an eerie silence.
+   The walls are bare and have no ogre adornments on them. The quiet is very
+strange as if no one has discovered this place.. Or no ogre would dare go
+here.
+~
+930 33554440 0 0
+D0
+Pathway to the Chief
+~
+~
+0 0 93106
+D2
+Exiting the Ogre Chief's Pathway
+~
+~
+0 0 93101
+S
+#93106
+&+rEntrance to Chief's Cave~
+   You can tell this is the entrance to the leaders home, because there is a
+&+ysign &Non the east side of the room that says "&+gChief home, go away&N".
+   You can either enter the home or leave back to the smashing noises north
+and south, there is no sound from the Ogre Chief's home which adds a feeling
+of danger to entering his home.
+~
+930 33554444 0 0
+D0
+A Quiet Pathway
+~
+~
+0 0 93104
+D1
+The Chief's Home
+~
+~
+0 0 93107
+D2
+A Quiet Pathway
+~
+~
+0 0 93105
+S
+#93107
+&+rThe Home of the Ogre Chief~
+   A huge picture of an &+Rogre &Ngod adorns the east side of the room. Pictures
+of other races being pounded out of existence by ogres are on the other
+sides of the room.
+   This house is bigger then other Ogre homes and this is the only home that
+has shelves. The shelves contain bottles of &+yfoul smelling liquid &Nthat looks
+very &+gpoisonous &Nshowing the chief must be an alchemist or something
+similar to that. From the size of the room, this home could nearly
+fit up to 15 ogres. The chief must be a highly respected (or feared) man.
+~
+930 33554440 0 0
+D3
+Entrance to the Chief's Home
+~
+~
+0 0 93106
+S
+#93108
+&+mAn Ogre Home~
+   This home looks much more &+cornate &Nthen the normal ogres home. In the center
+is an altar to an &+Rogre &Ngod and the ground is carpeted with soft furs.
+Like all homes there is a small cooking fire at the far end of the room and
+a very tough looking stone table. This room could also fit a considerably
+larger amount of ogres then any normal home.
+~
+930 33554440 0 0
+D0
+The Upperclass Ogre Homes
+~
+~
+0 0 93100
+S
+#93109
+&+mAn Ogre Home~
+   This home looks much more &+cornate &Nthen the normal ogres home. In the center
+is an altar to an &+Rogre &Ngod and the ground is carpeted with soft furs.
+Like all homes there is a small cooking fire at the far end of the room and
+a very tough looking stone table. This room could also fit a considerably
+larger amount of ogres then any normal home.
+~
+930 33554440 0 0
+D0
+The Upperclass Ogre Homes
+~
+~
+0 0 93094
+S
+#93110
+&+mAn Ogre Home~
+   This home looks much more &+cornate &Nthen the normal ogres home. In the center
+is an altar to an &+Rogre &Ngod and the ground is carpeted with soft furs.
+Like all homes there is a small cooking fire at the far end of the room and
+a very tough looking stone table. This room could also fit a considerably
+larger amount of ogres then any normal home.
+~
+930 33554440 0 0
+D2
+The Upperclass Ogre Homes
+~
+~
+0 0 93095
+S
+#93111
+&+mAn Ogre Home~
+   This home looks much more &+cornate &Nthen the normal ogres home. In the center
+is an altar to an &+Rogre &Ngod and the ground is carpeted with soft furs.
+Like all homes there is a small cooking fire at the far end of the room and
+a very tough looking stone table. This room could also fit a considerably
+larger amount of ogres then any normal home.
+~
+930 33554440 0 0
+D2
+The Upperclass Ogre Homes
+~
+~
+0 0 93097
+S
+#93112
+&+rAn Ogre Home~
+   &+yJunk &Nlitters the ground of this 30 foot dwelling. You see a small cooking
+fire at the far end of the room and a &+Wstone &Ntable in the middle of the room.
+Judging from all the nicks and cracks in it, much weight or force has been
+put on it.
+   This home looks like it could hold 3-4 ogres but even then it
+would be cramped badly. Outside leads back to the mainstreet where much
+shouting can be heard.
+~
+930 33554440 0 0
+D3
+Path In the Ogre Caves
+~
+~
+0 0 93088
+S
+#93113
+&+rAn Ogre Home~
+   &+yJunk &Nlitters the ground of this 30 foot dwelling. You see a small cooking
+fire at the far end of the room and a &+Wstone &Ntable in the middle of the room.
+Judging from all the nicks and cracks in it, much weight or force has been
+put on it.
+   This home looks like it could hold 3-4 ogres but even then it
+would be cramped badly. Outside leads back to the mainstreet where much
+shouting can be heard.
+~
+930 33554440 0 0
+D3
+Path in the Caves
+~
+~
+0 0 93089
+S
+#93114
+&+rAn Ogre Home~
+   &+yJunk &Nlitters the ground of this 30 foot dwelling. You see a small cooking
+fire at the far end of the room and a &+Wstone &Ntable in the middle of the room.
+Judging from all the nicks and cracks in it, much weight or force has been
+put on it.
+   This home looks like it could hold 3-4 ogres but even then it
+would be cramped badly. Outside leads back to the mainstreet where much
+shouting can be heard.
+~
+930 33554440 0 0
+D0
+Path in the Ogre Caves
+~
+~
+0 0 93092
+S
+#93115
+&+yThe Forest Trail~
+&+y   Nearing the edge of the forest the noise of wildlife and the amount of
+&+yplants seem to die off. You can make out a clump of shrubbery to the south
+&+ywhich seems to be strangely hiding something when west returns you to the
+&+ymain path.
+~
+930 33554432 3 0
+D2
+The Forest
+~
+~
+0 0 93000
+D3
+The Forest
+~
+~
+0 0 36004
+S

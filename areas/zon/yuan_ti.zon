@@ -1,0 +1,231 @@
+#805
+&+LThe Temple to &+YSkrentherlog&n~
+80599 0 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 80515 3 5 100 0 0 0
+*     west exit from "At the Base of a Sinister Temple" to
+*     "A Narrow Path Through the Thick Jungle" - closed/secret
+*
+D 0 80516 1 5 100 0 0 0
+*     east exit from "A Narrow Path Through the Thick Jungle" to
+*     "At the Base of a Sinister Temple" - closed/secret
+*
+D 0 80526 0 1 100 0 0 0
+*     north exit from "In the Serpent's Mouth" to
+*     "The Top of a Dark Stairway" - closed
+*
+D 0 80527 2 1 100 0 0 0
+*     south exit from "The Top of a Dark Stairway" to
+*     "In the Serpent's Mouth" - closed
+*
+D 0 80530 1 1 100 0 0 0
+*     east exit from "A Short Green Hallway" to
+*     "Some Priest's Quarters" - closed
+*
+D 0 80531 3 1 100 0 0 0
+*     west exit from "Some Priest's Quarters" to
+*     "A Short Green Hallway" - closed
+*
+D 0 80534 1 2 100 0 0 0
+*     east exit from "A Wide Landing" to
+*     "A Bloody Antechamber" - closed/locked
+*
+D 0 80535 3 2 100 0 0 0
+*     west exit from "A Bloody Antechamber" to
+*     "A Wide Landing" - closed/locked
+*
+D 0 80534 2 2 100 0 0 0
+*     south exit from "A Wide Landing" to
+*     "A Large, Carpeted Room" - closed/locked
+*
+D 0 80537 0 2 100 0 0 0
+*     north exit from "A Large, Carpeted Room" to
+*     "A Wide Landing" - closed/locked
+*
+D 0 80534 3 2 100 0 0 0
+*     west exit from "A Wide Landing" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 80539 1 2 100 0 0 0
+*     east exit from "A Prison Cell" to
+*     "A Wide Landing" - closed/locked
+*
+D 0 80542 1 2 100 0 0 0
+*     east exit from "The Stairway Ends" to
+*     "Skrentherlog's Lair" - closed/locked
+*
+D 0 80543 3 2 100 0 0 0
+*     west exit from "Skrentherlog's Lair" to
+*     "The Stairway Ends" - closed/locked
+*
+D 0 80544 1 6 100 0 0 0
+*     east exit from "Skrentherlog's Lair" to
+*     "A Golden Treasure Room" - closed/locked/secret
+*
+D 0 80545 3 1 100 0 0 0
+*     west exit from "A Golden Treasure Room" to
+*     "Skrentherlog's Lair" - closed
+*
+*
+O 0 80580 1 80500 100 0 0 0        * a sign made from skulls
+O 0 80500 1 80501 100 0 0 0        * a serpentine idol
+O 0 80504 2 80505 100 0 0 0        * a stone bench
+O 0 80506 1 80506 100 0 0 0        * an unadorned stone bench
+O 0 80505 1 80507 100 0 0 0        * a serpent demon idol
+O 0 80507 4 80509 100 0 0 0        * a rotting wood bench
+O 0 80507 4 80509 100 0 0 0        * a rotting wood bench
+O 0 80517 1 80511 100 0 0 0        * a serpentine bench
+O 0 80518 1 80512 100 0 0 0        * a snake idol
+O 0 80504 2 80512 100 0 0 0        * a stone bench
+O 0 80507 4 80513 100 0 0 0        * a rotting wood bench
+O 0 80519 1 80514 100 0 0 0        * a mysterious idol
+P 1 80520 1 80519 100 0 0 0        *   an elven skull covered with rotting flesh
+O 0 80507 4 80515 100 0 0 0        * a rotting wood bench
+O 0 80521 2 80519 100 0 0 0        * a purple orchid
+O 0 80521 2 80519 100 0 0 0        * a purple orchid
+O 0 80522 1 80520 100 0 0 0        * a sturdy table
+P 1 80524 1 80522 100 0 0 0        *   some bubbling green water
+P 1 80525 1 80522 100 0 0 0        *   some bubbling green water
+O 0 80523 1 80520 100 0 0 0        * a rotting corpse
+O 0 80530 1 80525 100 0 0 0        * A serpentine altar
+O 0 80531 1 80529 100 0 0 0        * A glowing mural
+O 0 80532 1 80531 100 0 0 0        * an ebonwood chest
+P 1 80536 1 80532 100 0 0 0        *   a pile of coins
+P 1 80537 1 80532 100 0 0 0        *   a belt of soft feathers
+P 1 80538 1 80532 100 0 0 0        *   a gold, serpent-shaped scepter
+O 0 80534 1 80531 100 0 0 0        * a painting
+O 0 80535 1 80531 100 0 0 0        * a painting
+O 0 80540 1 80532 100 0 0 0        * some gold and silver coins
+O 0 80541 1 80532 100 0 0 0        * a multifaceted ruby
+O 0 80542 1 80532 100 0 0 0        * a shimmering sapphire
+O 0 80543 1 80532 100 0 0 0        * a shimmering sapphire
+O 0 80546 1 80534 100 0 0 0        * a flaming brazier
+O 0 80545 1 80535 100 0 0 0        * a blood-soaked rug
+O 0 80547 1 80536 100 0 0 0        * an ivory statue
+O 0 80548 1 80536 100 0 0 0        * a tazten wood chest
+P 1 80552 1 80548 100 0 0 0        *   some gold and silver coins
+O 0 80549 1 80536 100 0 0 0        * a iron banded chest
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80553 6 80549 100 0 0 0        *   a bar of platinum
+P 1 80554 1 80549 100 0 0 0        *   a snakeskin mask
+P 1 80556 1 80549 100 0 0 0        *   a hammer named "Drowcrusher"
+P 1 80573 1 80549 100 0 0 0        *   a silvery amulet
+O 0 80550 1 80536 100 0 0 0        * a heavy iron chest
+P 1 80555 1 80550 100 0 0 0        *   some gold and platinum coins
+P 1 80558 1 80550 100 0 0 0        *   the scepter of the damned
+P 1 80559 1 80550 100 0 0 0        *   a headband of snake fangs
+P 1 80561 1 80550 100 0 0 0        *   an iron, dragon-shaped amulet
+O 0 80562 1 80542 100 0 0 0        * a yellow mosaic
+O 0 80565 1 80543 100 0 0 0        * a crumpled tapestry
+O 0 80566 3 80543 100 0 0 0        * a bolt of silk
+O 0 80566 3 80543 100 0 0 0        * a bolt of silk
+O 0 80566 3 80543 100 0 0 0        * a bolt of silk
+O 0 80563 1 80545 100 0 0 0        * a large, rough stone
+O 0 80571 1 80545 100 0 0 0        * a huge pile of coins
+O 0 80577 1 80545 100 0 0 0        * a kinked wand
+O 0 80578 1 80545 100 0 0 0        * a heavy stone staff
+O 0 80567 1 80545 100 0 0 0        * a gem-studded mace
+O 0 80569 1 80545 100 0 0 0        * platemail of the Dragonslayer
+O 0 359 1 80546 100 0 0 0          * (object type not in this .obj file)
+O 0 80575 1 80546 100 0 0 0        * some poisonous leggings
+O 0 80576 1 80546 100 0 0 0        * some poisonous sleeves
+O 0 80568 1 80546 100 0 0 0        * amulet of Wind and Fire
+O 0 80574 1 80546 100 0 0 0        * boots of ether
+O 0 80579 1 80546 100 0 0 0        * a golden hammer named "Squelcher"
+*
+M 0 80500 1 80502 100 0 0 0        * a twisted Yuan-ti
+E 1 80503 1 21 100 0 0 0           *   a snake fang earring
+M 0 80501 1 80502 100 0 0 0        * a Yuan-ti warrior
+E 1 80501 1 16 100 0 0 0           *   a jagged-edged khopesh
+M 0 80502 1 80503 100 0 0 0        * a Yuan-ti sorcerer
+E 1 80502 1 13 100 0 0 0           *   a belt of red snakeskin
+M 0 80513 5 80504 100 0 0 0        * a small red snake
+M 0 80504 1 80505 100 0 0 0        * an elite Yuan-ti
+E 1 80509 1 3 100 0 0 0            *   a snakebone collar
+G 1 80510 1 0 100 0 0 0            *    a huge granite club
+M 0 80505 1 80506 100 0 0 0        * an elite Yuan-ti
+E 1 80511 1 3 100 0 0 0            *   a red snakeskin collar
+M 0 80513 5 80506 100 0 0 0        * a small red snake
+M 0 80514 7 80506 100 0 0 0        * a banded snake
+M 0 80503 1 80507 100 0 0 0        * a Yuan-ti merchant
+E 1 80508 1 3 100 0 0 0            *   a snakeskin collar
+M 0 80506 3 80507 100 0 0 0        * a Yuan-ti commoner
+E 1 80513 1 16 100 0 0 0           *   an ugly bone knife
+M 0 80514 7 80507 100 0 0 0        * a banded snake
+M 0 80509 1 80508 100 0 0 0        * a young Yuan-ti
+E 1 80515 1 3 100 0 0 0            *   a silver serpent
+M 0 80514 7 80508 100 0 0 0        * a banded snake
+M 0 80506 3 80509 100 0 0 0        * a Yuan-ti commoner
+M 0 80508 1 80509 100 0 0 0        * a young Yuan-ti
+M 0 80513 5 80509 100 0 0 0        * a small red snake
+M 0 80507 1 80510 100 0 0 0        * a Yuan-ti guard
+E 1 80514 1 16 100 0 0 0           *   the leg of a green dragon
+G 1 80516 1 0 100 0 0 0            *    a glowing flask
+M 0 80511 2 80510 100 0 0 0        * a Yuan-ti commoner
+M 0 80510 1 80511 100 0 0 0        * a young true-blood
+E 1 80526 1 2 100 0 0 0            *   a band of snakeskin
+M 0 80514 7 80511 100 0 0 0        * a banded snake
+M 0 80514 7 80511 100 0 0 0        * a banded snake
+M 0 80512 1 80512 100 0 0 0        * a greedy kenku
+E 1 80527 1 16 100 0 0 0           *   a dagger of flowing water
+M 0 80514 7 80512 100 0 0 0        * a banded snake
+M 0 80513 5 80513 100 0 0 0        * a small red snake
+M 0 80511 2 80514 100 0 0 0        * a Yuan-ti commoner
+M 0 80506 3 80515 100 0 0 0        * a Yuan-ti commoner
+M 0 80513 5 80515 100 0 0 0        * a small red snake
+M 0 80514 7 80516 100 0 0 0        * a banded snake
+M 0 80515 1 80518 100 0 0 0        * a strange guardian
+M 0 80516 1 80520 100 0 0 0        * a hooded Yuan-ti
+E 1 80529 1 6 100 0 0 0            *   a cobra's hood
+E 1 80528 1 18 100 0 0 0           *   an emerald snake totem
+G 1 80551 1 0 100 0 0 0            *    a heavy iron key
+M 0 80517 1 80520 30 0 0 0         * a tortured elven ranger
+M 0 80518 1 80524 100 0 0 0        * a brown-skinned true-blood
+M 0 80519 2 80525 100 0 0 0        * a lizardine golem
+M 0 80523 1 80525 100 0 0 0        * a Yuan-ti priest
+M 0 80519 2 80525 100 0 0 0        * a lizardine golem
+M 0 80520 2 80529 100 0 0 0        * a lizardine golem
+M 0 80520 2 80529 100 0 0 0        * a lizardine golem
+M 0 80524 1 80531 100 0 0 0        * a small priest
+E 1 80539 1 12 100 0 0 0           *   a robe of elven skin
+G 1 80533 1 0 100 0 0 0            *    an ebonwood key
+M 0 80525 1 80532 100 0 0 0        * a living idol
+M 0 80521 4 80534 100 0 0 0        * a lizardine golem
+M 0 80521 4 80534 100 0 0 0        * a lizardine golem
+M 0 80521 4 80534 100 0 0 0        * a lizardine golem
+M 0 80521 4 80534 100 0 0 0        * a lizardine golem
+M 0 80526 1 80536 100 0 0 0        * the chief priest
+M 0 80540 1 80536 100 0 0 0        * the Githyanki Ambassador
+M 0 80528 1 80537 100 0 0 0        * a Yuan-ti priest
+M 0 80529 1 80537 100 0 0 0        * a Yuan-ti priest
+M 0 80530 1 80538 100 0 0 0        * a true-blood Yuan-ti warrior
+G 1 80544 1 0 100 0 0 0            *    the serpent key
+G 1 80560 1 0 100 0 0 0            *    a prison key
+M 0 80531 1 80538 100 0 0 0        * a Yuan-ti guard
+M 0 80532 1 80538 100 0 0 0        * a Yuan-ti guard
+M 0 80533 3 80539 100 0 0 0        * a human slave
+M 0 80536 1 80539 100 0 0 0        * a crying girl
+M 0 80533 3 80539 100 0 0 0        * a human slave
+M 0 80534 1 80540 100 0 0 0        * an elven woman
+M 0 80535 1 80540 100 0 0 0        * a screaming drow
+M 0 80533 3 80540 100 0 0 0        * a human slave
+M 0 80537 2 80542 100 0 0 0        * a gray-skinned guard
+E 1 80564 1 11 100 0 0 0           *   a gold-trimmed granite shield
+M 0 80537 2 80542 100 0 0 0        * a gray-skinned guard
+M 0 80522 3 80543 100 0 0 0        * a lizardine golem
+M 0 80522 3 80543 100 0 0 0        * a lizardine golem
+M 0 80522 3 80543 100 0 0 0        * a lizardine golem
+M 0 80538 1 80544 100 0 0 0        * Skrentherlog
+G 1 80570 1 0 100 0 0 0            *    blood of Skrentherlog
+G 1 80581 1 0 100 0 0 0            *    a key of yuan-ti bone
+G 1 55177 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 80539 1 80544 100 0 0 0        * Skrentherlog's attendant (following)
+*
+S

@@ -1,0 +1,5523 @@
+#67301
+A &+GSeaweed Covered &+LGrate&N~
+     A small cave seems to have formed in the coral here. The bright red
+substance occurs everywhere but down, where a seaweed covered grate lays,
+apparently forgotten. Perhaps the coral has grown over whatever may have
+once laid here. A long-sunken ship perhaps? The only obvious exit is down.
+~
+673 33554432 10
+D4
+~
+coral _nobash_ graendiae~
+7 -2 67568
+D5
+~
+latch~
+1 0 67302
+E
+coral wall up~
+There is a faint etching upon the coral wall.
+~
+E
+etching~
+********************************
+     To enter or leave,
+   One must only remember
+  To speak the name of the
+    city these dwellers
+         hold dear.
+********************************
+~
+S
+#67302
+A Tunnel Through Some &+RCoral&N~
+     Though constantly used, this tunnel still has a few snags along its
+walls, as though the mysterious creatures that create this protective
+sheath where somehow trying to repair the flaw in their masterpiece. An
+intricately worked iron grate lies above, apparently taken from a ship
+that sank in these waters long ago. The tunnel leads down.
+~
+673 33554432 9
+D4
+~
+grate~
+1 0 67301
+D5
+~
+~
+0 0 67303
+S
+#67303
+A Tunnel Through Some &+RCoral&N~
+     A slight movement of water courses through the latticework of coral
+that encompasses all directions but up and down. The once-smooth walls
+are bumpy again, as though something or someone has been attempting to
+close in the gap that now exists.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67566
+D4
+~
+~
+0 0 67302
+D5
+~
+~
+0 0 67304
+S
+#67304
+A &+WSilver-Worked&N &+LGrate&N~
+     Made of a lusterous material that seems never to tarnish, this silver-
+worked grate bridges the gap between the coral walls, as though it alone can
+manage to keep the passage open. About three inches thick, the wrought metal
+can keep all but the smallest creatures from entering what may lie underneath
+it. The tunnrl leads up.
+~
+673 33554432 9
+D4
+~
+~
+0 0 67303
+D5
+~
+grate~
+5 0 67305
+S
+#67305
+Central Square of &+BG&+Cra&+Ben&+Cdi&+Bae&N~
+     A cavern deep in the heart of the coral reef, this is the meeting spot
+that the learned men come to to contemplate and philisophilize on matters
+of little or no importance. It is also one of the major intersections on
+The Crescent Current, Graendiae's main north-south waterway. To the east and
+west lies the Path of Friendship. Swimming down leads to the Waterways and
+its various shops.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67317
+D1
+~
+~
+0 0 67328
+D2
+~
+~
+0 0 67306
+D3
+~
+~
+0 0 67339
+D4
+~
+grate~
+5 0 67304
+D5
+~
+~
+0 0 67497
+C
+1 2
+S
+#67306
+The &+CCrescent Current&N~
+     The coral has grown downward here, making this passage seem like a
+rather tall tunnel. Various small sea plants grow in the nooks and crannies
+that are an intergral part of the structure. It is obvious that the aquatics
+take care not to harm their fragile coral home unless the creatures that
+create the red material encrouch too much on the aquatics space. That may be
+just the case here in a few dozen decades. To the south lies the Crescent
+Current, while to the north a large cavern opens up into the Central Square
+of Graendiae.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67305
+D2
+~
+~
+0 0 67307
+C
+1 2
+S
+#67307
+The &+CCrescent Current&N~
+     Small irridecent fish flutter by with no regard to the goings on about
+them. The current is very minimal here, only visible by the slight fluttering
+on the opalencent grasses that look like thin shards of glass. The wide
+tunnel continues on to the north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67306
+D2
+~
+~
+0 0 67308
+C
+1 2
+S
+#67308
+Above &+GMarket Square&N~
+     Loud noises can be heard from below, as can well be expected. The
+flicker of numerous aquatics can be seen through the squarish opening in
+the coral below. Pale pink is the coral here, like the flush of a young
+lady's cheek. The current continues to move to the east.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67307
+D1
+~
+~
+0 0 67309
+D5
+~
+~
+0 0 67488
+C
+3 1
+S
+#67309
+The &+CCrescent Current&N~
+     The chasm begins to bend more noticeable here, giving the chasm its
+crescent shape for which it is named. Glittering shards bend with the flow
+of the current as it passes along the coral floor. The coarse walls cause
+various fluctuations in the pattern of the flow, which has caused Mmernlan
+Current to the east. The Crescent Current continues on the south and west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67474
+D2
+~
+~
+0 0 67310
+D3
+~
+~
+0 0 67308
+C
+5 2
+S
+#67310
+The &+CCrescent Current&N~
+     The tunnel narrows more here, causing the water current to quicken
+sharply. The path seems to be far less traveled here than to the north,
+though there is no obvious reason why. The chasm continues to bend around
+to the north and east.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67309
+D1
+~
+~
+0 0 67311
+S
+#67311
+The &+CCrescent Current&N~
+     The chasm begins to bend more noticeable here, giving the chasm its
+crescent shape for which it is named. Glittering shards bend with the flow
+of the current as it passes along the coral floor. The coarse walls cause
+various fluctuations in the pattern of the flow of water, which in turn has
+caused the coarsness to become more defined. The Crescent Current continues
+on the south and west.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67312
+D3
+~
+~
+0 0 67310
+C
+10 2
+S
+#67312
+The &+CCrescent Current&N~
+     The path continues on to the east, but it definately has a southwardly
+bend to it. A few aquatics can be seen swimming about, though they are
+obviously not as well off as those who dwell to the north. The current moves
+swiftly on to the east.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67311
+D1
+~
+~
+0 0 67313
+C
+15 1
+S
+#67313
+The &+CCrescent Current&N~
+     The current moves swiftly to the east, smoothing the coral walls to
+almost an unsanded wooden table feel. Other than that, not much distinguishes
+this part of the current form any other as it leads from east to west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67314
+D2
+~
+~
+0 0 67569
+D3
+~
+~
+0 0 67312
+C
+25 1
+S
+#67314
+The &+CCrescent Current&N~
+     The current moves swiftly to the east, smoothing the coral walls to
+almost an unsanded wooden table feel. Other than that, not much distinguishes
+this part of the current form any other as it leads from east to west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67315
+D3
+~
+~
+0 0 67313
+C
+30 1
+S
+#67315
+The &+CCrescent Current&N~
+     The current is very swift here, flowing to the south at a speed that
+makes it difficult to swim upstream. Those aquatics who dwell this far south
+in the town are very fit, having incredible leg and arm muscles. those who
+here usually return via another route. the current ends shortly to the south.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67316
+D3
+~
+~
+0 0 67314
+C
+35 2
+S
+#67316
+The &+CCrescent Current&N~
+     This is the end of the Crescent Current as it flows through the town
+town of Graendiae. It exits via a large openning in the sothern wall of the
+coral. the Graendiaen Enginnering Group has placed a tight-wired grate over
+the openning so as to provide for the safety of its inhabitants. Laughter's
+Edge begins just below, through a tight opening in the floor.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67315
+D5
+~
+~
+0 0 67389
+C
+50 2
+S
+#67317
+The &+CCrescent Current&N~
+     The coral has grown downward here, making this passage seem like a
+rather tall tunnel. Various small sea plants grow in the nooks and crannies
+that are an intergral part of the structure. It is obvious that the aquatics
+take care not to harm their fragile coral home unless the creatures that
+create the red material encrouch too much on the aquatics space. That may be
+just the case here in a few dozen decades. To the north lies the Crescent
+Current. To the south a Large Cavern opens up into the Central Square of
+Graendiae.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67318
+D2
+~
+~
+0 0 67305
+C
+1 2
+S
+#67318
+The &+CCrescent Current&N~
+     The coral has grown downward here, making this passage seem like a
+rather tall tunnel. Various small sea plants grow in the nooks and crannies
+that are an intergral part of the structure. It is obvious that the aquatics
+take care not to harm their fragile coral home unless the creatures that
+create the red material encrouch on the aquatics space. That seems to have
+happened here. There are signs of freshly broken coral littering the red
+floor. To the north and south continues the Crescent Current. To the east
+lies Seaweed Surprise, Graendiae's favorite hangout if its younger crowd.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67319
+D2
+~
+~
+0 0 67317
+D3
+~
+~
+0 0 67494
+C
+1 2
+S
+#67319
+The &+CCrescent Current&N~
+     Small fish dart in and out of the small passages that worm their way
+through the coral walls. Sand has wafted through the holes and settled to the
+tunnel's floor. Freshly removed coral bits have intermixed with the sand. The
+tunnel curves gently to the east, signalling that the northern curve of the
+crescent has begun.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67320
+D2
+~
+~
+0 0 67318
+C
+1 2
+S
+#67320
+The &+CCrescent Current&N~
+     The tunnel is wider here, showing signs of increading even more in size
+to the north, while narrowing to the west. The current seems to pull towards
+the north.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67321
+D3
+~
+~
+0 0 67319
+C
+1 3
+S
+#67321
+The &+CCrescent Current&N~
+     Loose bits of seaweed float along in the current, pulled along by the
+force of nature. Sea anenomes bloom in the deep red walls, their colorful
+tentacles swaying with a musical tempo. The ravine opens to the east and
+high above. It appears to get somewhat shallower to the south. To the west
+lies a small pocket in the wall, like an alcove.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67322
+D2
+~
+~
+0 0 67320
+D3
+~
+~
+0 0 67505
+D4
+~
+~
+0 0 67511
+C
+1 2
+S
+#67322
+The &+CCrescent Current&N~
+     The pathway curves from north to west, creating the top portion of
+this chasm aptly named the 'Crescent Current'. The aquatic elves that
+dwell here have affectionately named it 'The C'. Being the major north-
+south passage through town, it is highly traversed. Because of this, the
+Graendiae Enginnering Group has gone to great pains to extend the height
+to alleviate the traffic.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67323
+D3
+~
+~
+0 0 67321
+D4
+~
+~
+0 0 67510
+C
+3 3
+S
+#67323
+The &+CCrescent Current&N~
+     The pathway curves from east to south, creating the top portion of
+this chasm aptly named the 'Crescent Current'. The aquatic elves that
+dwell here have affectionately named it 'The C'. Being the major north-
+south passage through town, it is highly traversed. Because of this, the
+Graendiae Enginnering Group has gone to great pains to extend the height
+to alleviate the traffic.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67324
+D2
+~
+~
+0 0 67322
+D4
+~
+~
+0 0 67504
+C
+5 2
+S
+#67324
+The &+CCrescent Current&N~
+     The pathway  has a distinct nothward curve, though this stretch does
+run from east to west, creating the very top portion of the chasm aptly named
+the 'Crescent Current'. The aquatic elves that dwell here have affectionately
+named it 'The C'. Being the major north-south passage through town, it is
+highly traversed. Because of this, the Graendiaen Enginnering Group has gone
+to great pains to extend the height to alleviate the traffic.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67325
+D3
+~
+~
+0 0 67323
+D4
+~
+~
+0 0 67508
+C
+10 3
+S
+#67325
+The &+CCrescent Current&N~
+     The coral here has a rich, vibrant hue of rose, with streaks of bright
+orange coarsing through it like marbling veins. To the south, sea grass grows
+on the rocky floor. To the east, west, and up lies the top portion of the
+Crescent Current.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67326
+D2
+~
+~
+0 0 67348
+D3
+~
+~
+0 0 67324
+D4
+~
+~
+0 0 67507
+C
+15 3
+S
+#67326
+The &+CCrescent Current&N~
+     To the north lies the last stretch of the northern part of the Crescent
+Current. High above lies an alternate route when traffic backs up so close
+to the main inn of Graendiae.  The path is highly maintained so that even
+the this grasses that grow in the various crannies are carefully cultivated.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67327
+D3
+~
+~
+0 0 67325
+D4
+~
+~
+0 0 67506
+C
+20 3
+S
+#67327
+The &+CCrescent Current&N~
+     This is the very beginning of the Crescent Current's course through the
+city of Graendiae. A small openning to the north funnels the swift water
+through, thus not allowing passage out through it. Straight up lies the
+Anteroom of the Flowering Anenome. to the south begins the small town.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67326
+D4
+~
+~
+0 0 67502
+C
+40 2
+S
+#67328
+&+wFlow of Friendship~
+     The eastern half of the low of friendship begins here, and eventually
+leads to the Coral Chasm. It is evident that those who dwell here are rather
+well off, as the walls are smooth and highly maintained. The path leads to
+the east or to the west, where the Central of Graendiae lies.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67329
+D3
+~
+~
+0 0 67305
+C
+12 3
+S
+#67329
+&+wFlow of Friendship~
+     Know as one of the wealthiest sections of Graendiae, the eastern half of
+the Flow of Friendship continues on to the east and west. A small glowing orb
+floats near the ceiling, lending its light to the slightly dark expanse of
+travel here.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67332
+D3
+~
+~
+0 0 67328
+C
+12 3
+S
+#67330
+A &+LAbandoned&N &+yApartment&n~
+     Ransacked belongings lies more or less upon the rocky ground. The sleeve
+of a rotten shirt floats half-heartedly in the mostly stagnant water. An
+opening in the northern wall leads to the Flow of Friendship.
+~
+673 1107296264 10
+D0
+~
+~
+0 0 67346
+S
+#67331
+Dispursement Room (&+WMain&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67518
+D1
+~
+~
+0 0 67564
+D2
+~
+~
+0 0 67564
+D3
+~
+~
+0 0 67518
+D4
+~
+~
+0 0 67514
+D5
+~
+~
+0 0 67514
+S
+#67332
+&+wFlow of Friendship~
+     The path curves sharply from west upwards, and it is evident that those
+who do not pay attention tend to find themselves face to face with the
+smooth scarlet walls.
+~
+673 33554432 10
+D3
+~
+~
+0 0 67329
+D4
+~
+~
+0 0 67333
+C
+12 4
+S
+#67333
+&+wFlow of Friendship~
+     The path curves from down to up, and thus anyone swimming in from the
+bottom must be careful not to bonk their head on the ceiling. If one were to
+look closely at the ceiling however, numerous indentions can be seen, though
+they have been carefully sanded down.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67334
+D5
+~
+~
+0 0 67332
+C
+10 0
+S
+#67334
+&+wFlow of Friendship~
+     The Flow of Friendship curves gently from south to east here as it
+winds through the eastern side of town. The walls are smooth and highly
+maintained.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67335
+D2
+~
+~
+0 0 67333
+C
+7 1
+S
+#67335
+&+wFlow of Friendship~
+     The smooth scarlet walls demonstrate the prosperity of the inhabitants
+here. In Graendiae, the highest expense is maintainance of the city. If they
+were to lack in that, they city would quite simply, become overgrown as the
+creatures that magically create the coral would hasten to reclaim their
+property. The path goes on to the east and west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67336
+D3
+~
+~
+0 0 67334
+C
+6 1
+S
+#67336
+&+wFlow of Friendship~
+     Children can be seen playing on the litter-free streets of this well-off
+sector. It is here that the pjworn herders reside, close to their flock.
+Obviously, the chowder industry is doing well for this area to be so well
+maintained. The path leads to the south and west. To the north lies a
+herder's residence.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67352
+D2
+~
+~
+0 0 67337
+D3
+~
+~
+0 0 67335
+C
+6 2
+S
+#67337
+&+wFlow of Friendship~
+     Children can be seen playing on the litter-free streets of this well-off
+sector. It is here that the pjworn herders reside, close to their flock.
+Obviously, the chowder industry is doing well for this area to be so well
+maintained. The path leads to the north and east.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67336
+D1
+~
+~
+0 0 67338
+C
+4 1
+S
+#67338
+&+wFlow of Friendship&n~
+     The is the end of the Flow of Friendship of the eastern side of town. To
+the south a tunnel that connects with Mmernlan Current. Down lead to the
+Coral Chasm, and eventually to the Pjworn Fields.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67544
+D3
+~
+~
+0 0 67337
+D5
+~
+~
+0 0 67547
+C
+4 6
+S
+#67339
+&+wFlow of Friendship~
+     Here begins the western portion of the Flow of Friendship. Though not
+nearly as well of as the eastern half, the inhabitants here are just as
+happy. Though sometimes considered the rougher part of town, it does not stop
+people from visiting. Upwards continues the path, while to the east lies
+the Central Square of Graendiae.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67305
+D4
+~
+~
+0 0 67340
+C
+12 4
+S
+#67340
+&+wFlow of Friendship~
+     This path is rarely usued by the inhabitants of this town. Narrow
+tunnels and a lack of funds and desire has caused this area to become even
+more desilute. Rumor has it that the shadowy Gril'ha gang traffics illegal
+goods nearby, but this is only a rumor and should be taken as such. The path
+leads north and down.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67341
+D5
+~
+~
+0 0 67339
+C
+11 0
+S
+#67341
+&+wFlow of Friendship~
+     The flicker of the glowing bauble near the tunnel's ceiling casts
+strange shadows upon the algae that grows greedily upon the umber coral.
+The path has a hairpin turn here, the coral growing in sporadic bursts,
+causing the way to turn from south to down at a nearly impossible angle.
+~
+673 33554432 9
+D2
+~
+~
+0 0 67340
+D5
+~
+~
+0 0 67344
+C
+14 5
+S
+#67342
+Dispursement Room (&+WMain&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67518
+D1
+~
+~
+0 0 67564
+D2
+~
+~
+0 0 67564
+D3
+~
+~
+0 0 67518
+D4
+~
+~
+0 0 67514
+D5
+~
+~
+0 0 67514
+S
+#67343
+Dispursement Room (&+WMain&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67518
+D1
+~
+~
+0 0 67564
+D2
+~
+~
+0 0 67564
+D3
+~
+~
+0 0 67518
+D4
+~
+~
+0 0 67514
+D5
+~
+~
+0 0 67514
+S
+#67344
+&+wFlow of Friendship~
+     The faint glow of a bauble high above aides the greedy algae as it tries
+desperately to grow on any surface it can find. Small, brightly colored fish
+frighten easily at the slightest movement they perceive to be around them. A
+small opening in the rocky tunnel floor leads to the Waterways, while the
+Flow of Friendship bends from up to west.
+~
+673 33554432 9
+D3
+~
+~
+0 0 67345
+D4
+~
+~
+0 0 67341
+D5
+~
+~
+0 0 67543
+C
+9 3
+S
+#67345
+&+wFlow of Friendship~
+     A gentle curve in the path helps funnel the barely evident current so
+that the waste that is produced by the azure algae aids in stunting the
+growth of the umbre coral. Though effetive, this technique is not rountinely
+used, if only for aesthetic reasons. In this rarely used area, however, the
+benefits outway the downside. The path leads south and east.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67344
+D2
+~
+~
+0 0 67346
+M
+0 8
+C
+8 2
+S
+#67346
+&+wFlow of Friendship~
+     To the west lies the end of the Flow of Friendship, as it intersects
+with the Path of Redemption. To the north the Flow of Friendship leads back
+to the center of Graendiae. A small deserted apartment lies to the south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67345
+D2
+~
+~
+0 0 67330
+D3
+~
+~
+0 0 67347
+C
+6 3
+S
+#67347
+&+wFriendship &+gand &+mRedemption &+gIntersection~
+     The Flow of Friendship ends here in a t-intersection with the Path of
+Redemption. A gentle current wafts through the thick coral to the west, while
+the wall of the south seems unusually cracked, propbably because of how old
+this sector is. The Flow of Friendship leads back to the east.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67413
+D1
+~
+~
+0 0 67346
+D2
+~
+secret~
+5 0 67409
+D3
+~
+secret~
+5 0 67462
+S
+#67348
+Path of &+GGrasses&N~
+     A thin covering of grass grow along the floor and walls of the coral
+tunnel here, thus giving it its name. To the north lies the main north-south
+waterway of Graendiae, the Crescent Current, while this path slopes downward
+at a forty-five degree angle.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67325
+D5
+~
+~
+0 0 67349
+C
+5 5
+S
+#67349
+Path of &+GGrasses&N~
+     A thin layering of grass covers this small path that leads to the Pjworn
+Fields, where Graendiea's finest are bred and fed before becoming chowder.
+To the south lies one of the entrances to the Waterways, the lower level
+of connecting tunnels. A ways to the north can be found the luxurious Inn of
+the Flowering Anenome.
+~
+673 33554432 9
+D2
+~
+~
+0 0 67542
+D4
+~
+~
+0 0 67348
+D5
+~
+~
+0 0 67350
+S
+#67350
+Path of &+GGrasses&N~
+     The grasses sway in the gentle current that moves almost imperceptably
+along the path as it slopes downward towards the Pjworn Fields. The coral
+walls begin to give way to greyish rock that is sleek and smooth. The path
+leads up and down.
+~
+673 33554432 9
+D4
+~
+~
+0 0 67349
+D5
+~
+~
+0 0 67351
+S
+#67351
+Path of &+GGrasses~
+     Sleek grey rock creates the walls here, a stark contrast to the coral
+found throughout the rest of the city. To the east opens up a large cavern
+where the pjworns are bred and harvested. Upwards lies the Path of Grass,
+which eventually leads to the Waterways, Crescent Current, and Inn of the
+Flowering Anenome.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67383
+D4
+~
+~
+0 0 67350
+S
+#67352
+A &+YHerder's Residence&N~
+     The smell of cooking chowder can cause even the most full stomach to
+growl in hunger. The walls are smooth, only occasionally covered by a family
+portait. The one on the far wall shows a young aquatic, newly married, with
+his bride. The Flow of Friendship lies to the south.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67336
+S
+#67353
+Pjworn Fields~
+     The sandy bottom of this large cavern creates the home for the pjworn.
+The slippery grey walls of the rock walls create a rounded corner here,
+to aid in the prevention of injury to these creatures as they are bred for
+Graendiae's famous Pjworn Chowder, known throughout the realms as the finest
+seafood delicacy available.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67354
+D2
+~
+~
+0 0 67359
+S
+#67354
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67355
+D2
+~
+~
+0 0 67360
+D3
+~
+~
+0 0 67353
+S
+#67355
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67356
+D2
+~
+~
+0 0 67361
+D3
+~
+~
+0 0 67354
+S
+#67356
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67357
+D2
+~
+~
+0 0 67362
+D3
+~
+~
+0 0 67355
+S
+#67357
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67358
+D2
+~
+~
+0 0 67363
+D3
+~
+~
+0 0 67356
+S
+#67358
+Pjworn Fields~
+     The sandy bottom of this large cavern creates the home for the pjworn.
+The slippery grey walls of the rock walls create a rounded corner here,
+to aid in the prevention of injury to these creatures as they are bred for
+Graendiae's famous Pjworn Chowder, known throughout the realms as the finest
+seafood delicacy available.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67364
+D3
+~
+~
+0 0 67357
+S
+#67359
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67353
+D1
+~
+~
+0 0 67360
+D2
+~
+~
+0 0 67365
+S
+#67360
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67354
+D1
+~
+~
+0 0 67361
+D2
+~
+~
+0 0 67366
+D3
+~
+~
+0 0 67359
+S
+#67361
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67355
+D1
+~
+~
+0 0 67362
+D2
+~
+~
+0 0 67367
+D3
+~
+~
+0 0 67360
+S
+#67362
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67356
+D1
+~
+~
+0 0 67363
+D2
+~
+~
+0 0 67368
+D3
+~
+~
+0 0 67361
+S
+#67363
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67357
+D1
+~
+~
+0 0 67364
+D2
+~
+~
+0 0 67369
+D3
+~
+~
+0 0 67362
+S
+#67364
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67358
+D2
+~
+~
+0 0 67370
+D3
+~
+~
+0 0 67363
+S
+#67365
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67359
+D1
+~
+~
+0 0 67366
+D2
+~
+~
+0 0 67371
+S
+#67366
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67360
+D1
+~
+~
+0 0 67367
+D2
+~
+~
+0 0 67372
+D3
+~
+~
+0 0 67365
+S
+#67367
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67361
+D1
+~
+~
+0 0 67368
+D2
+~
+~
+0 0 67373
+D3
+~
+~
+0 0 67366
+S
+#67368
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67362
+D1
+~
+~
+0 0 67369
+D2
+~
+~
+0 0 67374
+D3
+~
+~
+0 0 67367
+S
+#67369
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67363
+D1
+~
+~
+0 0 67370
+D2
+~
+~
+0 0 67375
+D3
+~
+~
+0 0 67368
+S
+#67370
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67364
+D2
+~
+~
+0 0 67376
+D3
+~
+~
+0 0 67369
+S
+#67371
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+pjworn fields~
+0 0 67365
+D1
+~
+~
+0 0 67372
+D2
+~
+~
+0 0 67377
+S
+#67372
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67366
+D1
+~
+~
+0 0 67373
+D2
+~
+~
+0 0 67378
+D3
+~
+~
+0 0 67371
+S
+#67373
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67367
+D1
+~
+~
+0 0 67374
+D2
+~
+~
+0 0 67379
+D3
+~
+~
+0 0 67372
+S
+#67374
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67368
+D1
+~
+~
+0 0 67375
+D2
+~
+~
+0 0 67380
+D3
+~
+~
+0 0 67373
+S
+#67375
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67369
+D1
+~
+~
+0 0 67376
+D2
+~
+~
+0 0 67381
+D3
+~
+~
+0 0 67374
+S
+#67376
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67370
+D2
+~
+~
+0 0 67382
+D3
+~
+~
+0 0 67375
+S
+#67377
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67371
+D1
+~
+~
+0 0 67378
+D2
+~
+~
+0 0 67383
+S
+#67378
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67372
+D1
+~
+~
+0 0 67379
+D2
+~
+~
+0 0 67384
+D3
+~
+~
+0 0 67377
+S
+#67379
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67373
+D1
+~
+~
+0 0 67380
+D2
+~
+~
+0 0 67385
+D3
+~
+~
+0 0 67378
+S
+#67380
+Pjworn Fields~
+     A few rocks poke up from the otherwise sandy bottom where the pjworn
+reside. When they feel that their hiding spot is threatened, they move. It
+seems sometimes that the pjworns feel that they are constantly being
+threatened as whole groups get up out of their sandy homes and relocate a few
+feet away. The caverns continue to the north, south, east, and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67374
+D1
+~
+~
+0 0 67381
+D2
+~
+~
+0 0 67386
+D3
+~
+~
+0 0 67379
+S
+#67381
+Pjworn Fields~
+     The sand from the bottom of the cave is constantly attempting to
+infiltrate every nook and cranny in the area, be it walls, eyes, or bodily
+openings. The rich brown and tan color was designed so as to give the pjworns
+a sense of being free, as opposed to the pasture that it truly is. It is here
+that the pjworns are bred and raised before becoming chowder for people the
+world over. In fact, pjworn chowder is one of Graendiae's most luctrative
+exports. The caverns continue to the north, south, east and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67375
+D1
+~
+~
+0 0 67382
+D2
+~
+~
+0 0 67387
+D3
+~
+~
+0 0 67380
+S
+#67382
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67376
+D2
+~
+~
+0 0 67388
+D3
+~
+~
+0 0 67381
+S
+#67383
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise. The Path of
+Grasses lies to the west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67377
+D1
+~
+~
+0 0 67384
+D3
+~
+~
+0 0 67351
+S
+#67384
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise. A small crawlspace
+is barely visible to the south, apparently where the herders enter from
+during harvest time.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67378
+D1
+~
+~
+0 0 67385
+D2
+~
+~
+0 0 67550
+D3
+~
+~
+0 0 67383
+S
+#67385
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67379
+D1
+~
+~
+0 0 67386
+D3
+~
+~
+0 0 67384
+S
+#67386
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67380
+D1
+~
+~
+0 0 67387
+D3
+~
+~
+0 0 67385
+S
+#67387
+Pjworn Fields~
+     Grey walls create the parameter of the Pjworn Fields. Small sea anenomes
+grown in the small pockets along its surface, as well as a luminescent
+algae that gives the caverns a strange reddish-green glow. The sandy bottom
+is stirred up occationally as a pjworn gets its exercise.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67381
+D1
+~
+~
+0 0 67388
+D3
+~
+~
+0 0 67386
+S
+#67388
+Pjworn Fields~
+     The sandy bottom of this large cavern creates the home for the pjworn.
+The slippery grey walls of the rock walls create a rounded corner here,
+to aid in the prevention of injury to these creatures as they are bred for
+Graendiae's famous Pjworn Chowder, known throughout the realms as the finest
+seafood delicacy available.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67382
+D3
+~
+~
+0 0 67387
+S
+#67389
+&+YLaughter's Edge~
+     Water makes a gurgling sound as some of it filters up through the tight
+hole in the ceiling, only to get sucked away by the swiftness of the Crescent
+Curent above. The path leads to the west or up.
+~
+673 33554432 10
+D3
+~
+~
+0 0 67390
+D4
+~
+~
+0 0 67316
+S
+#67390
+&+YLaughter's Edge~
+     The current is rather still along this tunnel, slowed down by the
+various outcroppings of coral from the rough umbre walls. Few people
+traverse these parts, as it is the sector where the less monetarily inclined
+aquatics live. The path goes on to the east and west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67389
+D3
+~
+~
+0 0 67391
+S
+#67391
+&+YLaughter's Edge~
+     The name of this road has become a joke to the inhabitants of Graendiae.
+Once the proud workforce of the Shipwreck and Dive Recycling Center dwelled
+here, the richest aquatics in the entire now. Now their company has gone
+out of business, and with it, the prosperity that was once enjoyed here.
+People have been forced simply by lack of income, to allow their homes to
+become smaller and smaller as the  coral reclaims lost space. Formerly
+lucrative homes are now no bigger than pockets of closets. The path goes on
+to the east and up, while one of these small pockets is to the south.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67390
+D2
+~
+~
+0 0 67570
+D4
+~
+~
+0 0 67392
+S
+#67392
+&+YLaughter's Edge~
+     A vertical shaft in the once-prosperous Laughter's Edge Community, it
+connects, a ways down the road, to the maze-like caverns that were once a
+popular hang-out spot. Down below is the stretch that eventually connects
+to the Crecent Current.
+~
+673 33554432 9
+D4
+~
+~
+0 0 67393
+D5
+~
+~
+0 0 67391
+S
+#67393
+&+YLaughter's Edge~
+     The name of this road has become a joke to the inhabitants of Graendiae.
+Once the proud workforce of the Shipwreck and Dive Recycling Center dwelled
+here, the richest aquatics in the entire now. Now their company has gone
+out of business, and with it, the prosperity that was once enjoyed here.
+People have been forced simply by lack of income, to allow their homes to
+become smaller and smaller as the  coral reclaims lost space. Formerly
+lucrative homes are now no bigger than pockets of closets. The path goes on
+to the north and down.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67394
+D5
+~
+~
+0 0 67392
+S
+#67394
+&+YLaughter's Edge~
+     Small rooms pock the coral walls like a life-threatening disease. While
+once large homes, they have become overgrown by the coral that once housed
+them. Now their dwelling are no more than the size of a closet, and laughter
+is rarely heard on Laughter's Edge anymore. Indeed, the end for it here has
+come. The path goes on to the south and west.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67393
+D3
+~
+~
+0 0 67395
+S
+#67395
+&+YLaughter's Edge~
+     The walls, ceiling, and floor of this coral tunnel catch on anything
+they possibly can. The inhabitants of Laughter's Edge have not been able
+to keep up the cost of maintainance. Eventually, if nothing is done, this
+whole area will be reclaimed by the coral. The path goes on to the east and
+west while south is a small dwelling.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67394
+D2
+~
+~
+0 0 67398
+D3
+~
+~
+0 0 67396
+S
+#67396
+&+YLaughter's Edge~
+     The walls and floor of this coral tunnel catch on anything
+they possibly can. The inhabitants of Laughter's Edge have not been able
+to keep up the cost of maintainance. Eventually, if nothing is done, this
+whole area will be reclaimed by the coral. The path goes on to the east and
+curves up.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67395
+D4
+~
+~
+0 0 67397
+S
+#67397
+&+YLaughter's Edge~
+     To the west lies the once-popular hang-out of the Laughter's Edge
+inhabitants. But now it lies unused, as the population slowly dwindles
+from the area seeking jobs elsewhere. The path goes to the west and down.
+~
+673 33554432 9
+D3
+~
+~
+0 0 67399
+D5
+~
+~
+0 0 67396
+S
+#67398
+A &+LSmall Pocket&N~
+     A table can be seen sticking out of the eastern wall, slowly enveloped
+by the quickly recovering coral. Ironic how as one form of recovery was
+replaced by another. To the north lies the way laughter's Edge.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67395
+S
+#67399
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67404
+D1
+~
+~
+0 0 67397
+D3
+~
+~
+0 0 67400
+S
+#67400
+&+RCoral Caverns&N~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67399
+D3
+~
+~
+0 0 67401
+S
+#67401
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67402
+D1
+~
+~
+0 0 67400
+D3
+~
+~
+0 0 67400
+S
+#67402
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67403
+D2
+~
+~
+0 0 67401
+D3
+~
+~
+0 0 67400
+S
+#67403
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67405
+D1
+~
+~
+0 0 67404
+D3
+~
+~
+0 0 67402
+S
+#67404
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67399
+D3
+~
+~
+0 0 67403
+S
+#67405
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67410
+D2
+~
+~
+0 0 67403
+D3
+~
+~
+0 0 67406
+S
+#67406
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67407
+D1
+~
+~
+0 0 67405
+D3
+~
+~
+0 0 67410
+S
+#67407
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67412
+D2
+~
+~
+0 0 67406
+D3
+~
+~
+0 0 67408
+S
+#67408
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67409
+D1
+~
+~
+0 0 67407
+S
+#67409
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+coral~
+1 0 67347
+D2
+~
+~
+0 0 67408
+S
+#67410
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67411
+D3
+~
+~
+0 0 67405
+S
+#67411
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67410
+D3
+~
+~
+0 0 67412
+S
+#67412
+&+RCoral Caverns~
+     As the coral grew, it created this labyrinth-like matrix here at the
+southwestern corner of Graendiae. The rough walls cling greedily, like the
+hands of a poor child starving for food and affection. The entire cavern is
+in the hue of crimson, and is disorienting to get through except for the
+most adept traveler.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67411
+D3
+~
+~
+0 0 67411
+S
+#67413
+&+mPath of Redemption~
+     Magenta coral walls line the path that leads to the Temple of Janinae.
+It is there that the aquatic elves go to worship their motherly goddess.
+Glowing baubles line the way near the edges of the ceiling on both sides,
+as though lighting the way. The path leads north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67414
+D2
+~
+~
+0 0 67347
+S
+#67414
+&+mPath of Redemption~
+     Magenta coral walls line the path that leads to the Temple of Janinae.
+It is there that the aquatic elves go to worship their motherly goddess.
+Glowing baubles line the way near the edges of the ceiling on both sides,
+as though lighting the way. The path slopes upward at an eighty-four degree
+angle, more or less, or else leads back south.
+~
+673 33554432 10
+D2
+~
+~
+0 0 67413
+D4
+~
+~
+0 0 67415
+S
+#67415
+&+mPath of Redemption~
+     Magenta coral walls line the path that leads to the Temple of Janinae.
+It is there that the aquatic elves go to worship their motherly goddess.
+Glowing baubles line the way near the edges of the ceiling on both sides,
+as though lighting the way. The path slopes at an eighty-four degree
+angle, more or less. To the west lies Llandrian Way.
+~
+673 33554432 9
+D3
+~
+~
+0 0 67417
+D4
+~
+~
+0 0 67416
+D5
+~
+~
+0 0 67414
+S
+#67416
+&+mPath of Redemption~
+     Directly north lies the Temple of Janinae, the aquatic elves worshipful
+matronly goddess. Glowing baubles continue to line the magenta coral near the
+edges of the ceiling on both sides, as though lighting the way. The path
+leads north and down.
+~
+673 33554432 9
+D0
+~
+~
+0 0 67463
+D5
+~
+~
+0 0 67415
+S
+#67417
+&+BLlandrian Lane~
+     The water seems to be a dark shade of blue here. Even the temperature
+seems cooler. The walls are dark as well, not allowing for mush light. The
+coral is bare and course, as though this path were recently carved out of
+the protective coral. The path leads west, while directly to the east lies
+the Path of Redemption.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67415
+D3
+~
+~
+0 0 67418
+S
+#67418
+&+BLlandrian Lane~
+     The water seems to be a dark shade of blue here. Even the temperature
+seems cooler. The walls are dark as well, not allowing for mush light. The
+coral is bare and course, as though this path were recently carved out of
+the protective coral. The path leads east and west.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67417
+D3
+~
+~
+0 0 67419
+S
+#67419
+&+BLlandrian Lane~
+     The water seems to be a dark shade of blue here. Even the temperature
+seems cooler. The walls are dark as well, not allowing for mush light. The
+coral is bare and course, as though this path were recently carved out of
+the protective coral. The path leads east and down.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67418
+D5
+~
+~
+0 0 67420
+S
+#67420
+&+BLlandrian Lane~
+     The water seems to be a dark shade of blue here. Even the temperature
+seems cooler. The walls are dark as well, not allowing for mush light. The
+coral is bare and course, as though this path were recently carved out of
+the protective coral. The path leads up and west.
+~
+673 33554432 10
+D3
+~
+~
+0 0 67421
+D4
+~
+~
+0 0 67419
+S
+#67421
+&+BLlandrian Lane~
+     Directly below lies the Path of Guilds, with its numerous houses of
+training. To the east leads the Llandrian Lane, whose only purpose is to
+connect the guilds with the Path of Redemption at the far end of the tunnel.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67420
+D5
+~
+~
+0 0 67422
+S
+#67422
+&+WPath of Guilds~
+     Yellow coral walls line both sides of this wide tunnel. Along this
+corridor lie the guilds of Graendiae. Though highly traveled, it is
+constantly kept clean, and civic assistance is always appreciated. the path
+leads north and south, while their is an opening in the ceiling.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67423
+D2
+~
+~
+0 0 67426
+D4
+~
+~
+0 0 67421
+S
+#67423
+&+WPath of Guilds~
+     Yellow coral walls line both sides of this wide tunnel. Along this
+corridor lie the guilds of Graendiae. Though highly traveled, it is
+constantly kept clean, and civic assistance is always appreciated. the path
+leads north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67424
+D2
+~
+~
+0 0 67422
+S
+#67424
+&+WPath of Guilds~
+     Yellow coral walls line both sides of this wide tunnel. Along this
+corridor lie the guilds of Graendiae. Though highly traveled, it is
+constantly kept clean, and civic assistance is always appreciated. the path
+leads north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67425
+D2
+~
+~
+0 0 67423
+S
+#67425
+&+WPath of Guilds~
+     The yellow coral ends here abruptly. To the east lies the cleric's
+guild, along with the city's hospital. To the west stands the
+magician's union, reputed by all to be the most powerful and finiky group
+in the land. The Path of Guilds continues back to the south.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67429
+D2
+~
+~
+0 0 67424
+D3
+~
+~
+0 0 67435
+S
+#67426
+&+WPath of Guilds~
+     Yellow coral walls line both sides of this wide tunnel. Along this
+corridor lie the guilds of Graendiae. Though highly traveled, it is
+constantly kept clean, and civic assistance is always appreciated. the path
+leads north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67422
+D2
+~
+~
+0 0 67427
+S
+#67427
+&+WPath of Guilds~
+     Yellow coral walls line both sides of this wide tunnel. Along this
+corridor lie the guilds of Graendiae. Though highly traveled, it is
+constantly kept clean, and civic assistance is always appreciated. the path
+leads north and south.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67426
+D2
+~
+~
+0 0 67428
+S
+#67428
+&+WPath of Guilds~
+     The citrine walls rapidaly fade to scarlet towards the south. It is
+there that the entrance to the warrior's guild lies. Shouts can be heard, as
+well as the clang of metal. The Path of Guilds leads north.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67427
+D2
+~
+~
+0 0 67441
+D5
+~
+secret~
+5 0 67448
+S
+#67429
+&+YCleric's Haven~
+     Neatly framed artwork hangs upon the smooth light-colored walls.
+Everything is arranged to be asthetically pleasing to the eye and soothing
+to the mind. A fine vegetation grows on the floor, like a living carpet.
+It is easy to see how many find it difficult to leave. The path leads north
+and west.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67430
+D3
+~
+~
+0 0 67425
+S
+#67430
+&+YCleric's Haven~
+     Neatly framed artwork hangs upon the smooth light-colored walls.
+Everything is arranged to be asthetically pleasing to the eye and soothing
+to the mind. A fine vegetation grows on the floor, like a living carpet.
+It is easy to see how many find it difficult to leave. The path leads east
+and south.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67431
+D2
+~
+~
+0 0 67429
+S
+#67431
+&+YCleric's Haven~
+     Neatly framed artwork hangs upon the smooth light-colored walls.
+Everything is arranged to be asthetically pleasing to the eye and soothing
+to the mind. A fine vegetation grows on the floor, like a living carpet.
+It is easy to see how many find it difficult to leave. The path leads north
+and west.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67432
+D3
+~
+~
+0 0 67430
+S
+#67432
+&+YCleric's Haven~
+     To the east lies the hospital commonly known as 'Nature's Cure', while
+to the west stands a small little shop. It is quiet and peaceful here. An
+old oriental fan from the surface has been encased in glass and hangs upon
+the wall. Its luminous colors have faded over time, and it appears near the
+end of its life. Yet somehow it also seems fresh and new. The path leads to
+the south.
+~
+673 33554440 10
+D1
+~
+seaweed~
+1 0 67434
+D2
+~
+~
+0 0 67431
+D3
+~
+seaweed~
+1 0 67433
+S
+#67433
+&+YHaerlian's Cure~
+     Upon the oval table in the center of the room lay numerous pestles and
+mortars of various shapes and sizes. Brightly colored herbs grow within the
+alabaster walls, protected by the small pockets the reside in. Empty bottles
+float in the small room, posing no threat. The only exit is to the east.
+~
+673 33554440 9
+D1
+~
+seaweed~
+1 0 67432
+S
+#67434
+&+YNature's Cure~
+     The sound of crickets chirping and wind rustling through trees fills
+the room. So hypnotic is the sound that it allows the mind to rest, and with
+it, the body to allow for mending. Only sound fills the room and nothing
+more. The doorway leads to the west.
+~
+673 33685512 9
+D3
+~
+seaweed~
+1 0 67432
+S
+#67435
+&+MMagician's Denizen~
+     The magenta walls vibrate with a strong magical power, as though they
+have somehow absorbed some of the magics that are practiced and taught
+within these thick, coarse walls. the sound is almost like a musical hum,
+varying in it pitch and intensity. The hall curves to the north, while to the
+east lies the Path of Guilds.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67436
+D1
+~
+~
+0 0 67425
+S
+#67436
+&+MMagician's Denizen~
+     The magenta walls vibrate with a strong magical power, as though they
+have somehow absorbed some of the magics that are practiced and taught
+within these thick, coarse walls. the sound is almost like a musical hum,
+varying in it pitch and intensity. The hall curves to the south and west.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67435
+D3
+~
+~
+0 0 67437
+S
+#67437
+&+MMagician's Denizen~
+     The magenta walls vibrate with a strong magical power, as though they
+have somehow absorbed some of the magics that are practiced and taught
+within these thick, coarse walls. the sound is almost like a musical hum,
+varying in it pitch and intensity. The hall curves to the north and east.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67438
+D1
+~
+~
+0 0 67436
+S
+#67438
+&+MMagician's Denizen~
+     The magenta walls vibrate with a strong magical power, as though they
+have somehow absorbed some of the magics that are practiced and taught
+within these thick, coarse walls. the sound is almost like a musical hum,
+varying in it pitch and intensity. A study lies to the east. To the west
+stands a small shop, while the guildhall leads back to the south.
+~
+673 33554440 10
+D1
+~
+~
+1 0 67440
+D2
+~
+~
+0 0 67437
+D3
+~
+~
+1 0 67439
+S
+#67439
+&+MSparking Wands~
+     It is common knowledge that the boy who is a shopkeeper here is an
+orphan. It is also common knowledge that he doesn't like fighting. Probably
+why he took of the family trade of selling magical goods. The business was
+left to him by his father, who died in a magician's duel. Needless to say,
+the boy has a bit of a temper. A doorway to the east leads back to the halls
+of the guild.
+~
+673 33554440 10
+D1
+~
+~
+1 0 67438
+S
+#67440
+&+MXaerlin's Study&N~
+     Tables upon tables are heaped to overflowing with ancient tomes near
+the point of disintegration. An old man carefully flips through these
+treasured pages at the only semi-clear desk in the back northeastern corner.
+He rescribes the information onto flarstic, using the blood of a sahugin,
+known for its staying properties. The only exit from the cluttered room is
+to the west.
+~
+673 33554440 10
+D3
+~
+~
+1 0 67438
+S
+#67441
+&+rWarrior's Guild~
+     The sound of clashing weapons is loud here. On the east and west are
+the practice rooms, and it is from hear that the deafening sound comes.
+Even during occasional silence the very walls seem to echo the sound. To
+the north lies the Path of Guilds. To the south continues the guildhall.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67428
+D1
+~
+seaweed~
+1 0 67444
+D2
+~
+~
+0 0 67442
+D3
+~
+seaweed~
+1 0 67443
+S
+#67442
+&+rWarrior's Guild~
+     Shouts can be heard coming from the Drunken Brawl to the east. To the
+west lies a small shop dealing with the toold of the warrior's trade.
+Plarstin, Head Warrior and Trainer of Graendiae, has his office to the south.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67441
+D1
+~
+door~
+1 0 67445
+D2
+~
+door~
+1 0 67447
+D3
+~
+door~
+1 0 67446
+S
+#67443
+&+rPractice Room~
+     Stuffed dummies hang from the rafters, moved by an intricate pully
+system to simulate swimming. The young warriors practice with these dummies
+using the various weapons that aquatics are known to be masters with,
+especially the trident. The only exit lies to the east.
+~
+673 33554440 10
+D1
+~
+seaweed~
+1 0 67441
+S
+#67444
+&+rPractice Room~
+     Stuffed dummies hang from the rafters, moved by an intricate pully
+system to simulate swimming. The young warriors practice with these dummies
+using the various weapons that aquatics are known to be masters with,
+especially the trident. The only exit lies to the west.
+~
+673 33554440 10
+D3
+~
+seaweed~
+1 0 67441
+S
+#67445
+&+rThe Drunken Brawl~
+     Tables, chairs, and a bar are the only adornments in this tavern. Its
+owner firmly believes in the philosophy that his patrons come to drink,
+not to gaze at idle clutter. The guildhall lies to the west.
+~
+673 33554440 10
+D3
+~
+door~
+1 0 67442
+S
+#67446
+&+rKarlaen's Shop of Horrors~
+     Pickled hearts and taxonomy enhanged stuffed sahugin fill the room. The
+disembowled body of a human fisherman stands enshrined in a copper-trimmed
+glass case. Karlean believes that all who come to his shop should leave with
+new ideas for their next opponent. The only egress is to the east.
+~
+673 33554440 10
+D1
+~
+door~
+1 0 67442
+S
+#67447
+&+rPlarstin's Challenge~
+     Trophies of all sorts hang upon the walls. Some are of various Sahuagin
+from long ago wars, others of worthy aquautic opponents that Plarstin has
+honoured by displaying their broken weapon. In all, it is very much military.
+To the north lies the warrior's guildhall.
+~
+673 176455880 10
+D0
+~
+door~
+1 0 67442
+S
+#67448
+&+LHustler's Tunnel~
+     The Ghil'ha Gang has gone to great trouble to conceal this narrow
+passage frm prying eyes. Looked down upon by the other aquatics, these
+elves have turned to a life of crime. Some by necessity, many for the
+sheer thrill it gives them. The coral tunnel that leads to down abruptly
+begins to become rocky.
+~
+673 33554433 9
+D4
+~
+secret~
+5 0 67428
+D5
+~
+~
+0 0 67449
+S
+#67449
+&+LHustler's Tunnel~
+     A naturally formed vertical shaft in the grey, rock walls must have
+been formed hundreds of thousands of years ago. Strange luminous plankton
+fill the tunnel, looking like hundreds of pieces of glitter blown into the
+wind. The tunnel leads up and down, both into complete darkness.
+~
+673 33554433 9
+D4
+~
+~
+0 0 67448
+D5
+~
+~
+0 0 67450
+S
+#67450
+&+LHustler's Tunnel~
+     The Ghil'ha Gang has gone to great trouble to conceal this narrow
+passage from prying eyes. Looked down upon by the other aquatics, these
+elves have turned to a life of crime. Some by necessity, many for the
+sheer thrill it gives them. Here the coral gives way to rocky walls, which
+allow for more concealment and deaden any sound that may give the existence
+of this passage away. The tunnel takes a sharp turn upward or leads to the
+east.
+~
+673 33554433 10
+D1
+~
+~
+0 0 67451
+D4
+~
+~
+0 0 67449
+S
+#67451
+&+LHustler's Tunnel~
+     Smooth walls glisten as though doused in a greasy oil. The sleek grey-
+black looks almost like a shark's tough skin. An occasional break in the
+uniform surface disrupts the dark ambiance. the tunnel continues in both east
+and west directions.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67452
+D3
+~
+~
+0 0 67450
+S
+#67452
+&+LHustler's Tunnel&N~
+     Smooth walls glisten as though doused in a greasy oil. The sleek grey-
+black looks almost like a shark's tough skin. An occasional break in the
+uniform surface disrupts the dark ambiance. the tunnel continues in both east
+and west directions, while a grate has been placed in the floor.
+~
+673 33554433 10
+D1
+~
+~
+0 0 67458
+D3
+~
+~
+0 0 67451
+D5
+~
+grate~
+1 0 67453
+S
+#67453
+&+LSmuggler's Den~
+     An unusual silence fills the whole area, as though someone were trying
+to block whoever may be near from hearing anything, no matter how
+insignificant. The path leads up to a grate or to the east.
+~
+673 33554457 10
+D1
+~
+~
+0 0 67454
+D4
+~
+grate~
+1 0 67452
+S
+#67454
+&+LSmuggler's Den~
+     An unusual silence fills the whole area, as though someone were trying
+to block whoever may be near from hearing anything, no matter how
+insignificant. The path leads east and west. Sslin, the leader of Ghil'ra,
+has an office directly below.
+~
+673 33554449 9
+D1
+~
+~
+0 0 67457
+D3
+~
+~
+0 0 67453
+D5
+~
+~
+0 0 67455
+S
+#67455
+&+LSslins's Office~
+     Decorated with thick velvet and delicate plants, Sslin's office is a
+shrine to tackiness and bad taste. The helm of a ship hangs upon the far
+wall. Next to it, an intricate silk embroidery, very fine and delicate, has
+been framed in a gaudy, thick faux copper that could never have been called
+well made. The office entrance leads up.
+~
+673 33554433 10
+D1
+~
+coral~
+5 67301 67456
+D4
+~
+~
+0 0 67454
+S
+#67456
+&+YTreasure Room~
+     Just your typical treasure room. Dark, dank, musty, and in bad need of
+some dusting.
+~
+673 33554441 10
+D3
+~
+coral~
+5 67301 67455
+S
+#67457
+&+LSmuggler's Den~
+     An unusual silence fills the whole area, as though someone were trying
+to block whoever may be near from hearing anything, no matter how
+insignificant. The path leads west.
+~
+673 33554457 10
+D3
+~
+~
+0 0 67454
+S
+#67458
+&+LHustler's Tunnel~
+     Smooth walls glisten as though doused in a greasy oil. The sleek grey-
+black looks almost like a shark's tough skin. An occasional break in the
+uniform surface disrupts the dark ambiance. the tunnel continues in both east
+and west directions.
+~
+673 33554433 10
+D1
+~
+~
+0 0 67459
+D3
+~
+~
+0 0 67452
+S
+#67459
+&+LHustler's Tunnel~
+     The Ghil'ha Gang has gone to great trouble to conceal this narrow
+passage from prying eyes. Looked down upon by the other aquatics, these
+elves have turned to a life of crime. Some by necessity, many for the
+sheer thrill it gives them. Here the coral gives way to rocky walls, which
+allow for more concealment and deaden any sound that may give the existence
+of this passage away. The tunnel takes a sharp turn upward or leads to the
+west.
+~
+673 33554433 10
+D3
+~
+~
+0 0 67458
+D4
+~
+~
+0 0 67460
+S
+#67460
+&+LHustler's Tunnel~
+     A naturally formed vertical shaft in the grey, rock walls must have
+been formed hundreds of thousands of years ago. Strange luminous plankton
+fill the tunnel, looking like hundreds of pieces of glitter blown into the
+wind. The tunnel leads up and down, both into complete darkness.
+~
+673 33554433 10
+D4
+~
+~
+0 0 67461
+D5
+~
+~
+0 0 67459
+S
+#67461
+&+LHustler's Tunnel~
+     The Ghil'ha Gang has gone to great trouble to conceal this narrow
+passage from prying eyes. Looked down upon by the other aquatics, these
+elves have turned to a life of crime. Some by necessity, many for the
+sheer thrill it gives them. Here the coral gives way to rocky walls, which
+allow for more concealment and deaden any sound that may give the existence
+of this passage away. The tunnel takes a sharp turn downward or leads to the
+east.
+~
+673 33554433 10
+D1
+~
+~
+0 0 67462
+D5
+~
+~
+0 0 67460
+S
+#67462
+&+LHustler's Tunnel~
+     The Ghil'ha Gang has gone to great trouble to conceal this narrow
+passage frm prying eyes. Looked down upon by the other aquatics, these
+elves have turned to a life of crime. Some by necessity, many for the
+sheer thrill it gives them. The coral tunnel that leads to the west abruptly
+begins to become rocky.
+~
+673 1 10
+D1
+~
+secret~
+5 0 67347
+D3
+~
+~
+0 0 67461
+S
+#67463
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+or flames nearby to the north. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+north, east, and west. The Path of Redemption lies to the south.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67464
+D1
+~
+~
+0 0 67471
+D2
+~
+~
+0 0 67416
+D3
+~
+~
+0 0 67466
+S
+#67464
+&+CFo&+cun&+Cta&+cin &+wof &+WJaninae~
+     Magically contained, lava shoots ten feet into the air, like the grand
+finale in a fireworks spectacular. 'Liquid fire' as the aquatics call it, the
+heat generated is held in high esteem. It is believed that the immortal
+Janinae gave the aquatics the power to harvest this great force. Others
+believe it was a gnome scientist's bargain for his life. Of course, those
+individuals are sought after as heretics. Needless to say, they speak their
+opinion very loudly. The ceiling peaks here in a cathedral-like point.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67465
+D1
+~
+~
+0 0 67470
+D2
+~
+~
+0 0 67463
+D3
+~
+~
+0 0 67467
+D4
+~
+~
+0 0 67472
+S
+#67465
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+of flames nearby to the south. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+south, east, and west.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67469
+D2
+~
+~
+0 0 67464
+D3
+~
+~
+0 0 67468
+S
+#67466
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+of flames nearby to the northeast. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+north and east.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67467
+D1
+~
+~
+0 0 67463
+S
+#67467
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+of flames nearby to the east. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+north, south, and east.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67468
+D1
+~
+~
+0 0 67464
+D2
+~
+~
+0 0 67466
+S
+#67468
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+of flames nearby to the southeast. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+south and east.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67465
+D2
+~
+~
+0 0 67467
+S
+#67469
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+or flames nearby to the southwest. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+south and west.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67470
+D3
+~
+~
+0 0 67465
+S
+#67470
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+or flames nearby to the west. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+north, south, and west.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67469
+D2
+~
+~
+0 0 67471
+D3
+~
+~
+0 0 67464
+S
+#67471
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+or flames nearby to the northwest. This temple is just an incredibly large
+cavern encased within the coral reef. Along the alabaster stone walls are
+stained sea glass pictures. Colorful as they are, one can only seem to see
+an image when one is not directly looking at them. The room opens to the
+north and west.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67470
+D3
+~
+~
+0 0 67463
+S
+#67472
+&+WTemple of Janinae~
+     The faint sound of bubbling water can be heard coming from the fountain
+of flames nearby below. This is the peak in the center of the incredibly
+large cavern that houses the Temple of Janinae. Along the alabaster stone
+walls are stained sea glass pictures. Colorful as they are, one can only
+seem to see an image when one is not directly looking at them. A room
+branches off to the west.
+~
+673 33554440 9
+D3
+~
+~
+0 0 67473
+D5
+~
+~
+0 0 67464
+S
+#67473
+&+BAltar&+W of Janinae~
+     Seculded somewhat from the rest of the cavern, the Altar to Janinae
+stands here, made completely out of irridescent seashells held together by
+multi-colored glass. Truly a work of art, it was crafted within the flames
+of the fountain below. People come here and leave behind offers of items
+crafted in the flames in hopes that the immortal will look upon them
+favorably and keep them from harm.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67472
+S
+#67474
+&+MMmernlan Current~
+     The Crescent Current lies just to the west. Above is a small abode,
+typical of the many homes that lie along this path. Mmernaln Current is
+known for its serpentine curves as it winds through dense coral like a
+lamprey worming its way through skin.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67475
+D3
+~
+~
+0 0 67309
+D4
+~
+~
+0 0 67483
+C
+6 3
+S
+#67475
+&+MMmernlan Current~
+     Florescent algae grown upon the scarlet walls, so thin as to tickle the
+skin of any passer-by. A few holes in the walls are big enough to fit even
+an ogre's fist through, though even an ogre would have a difficult time
+breaking through these steel-like walls. The current curves from west
+upwards.
+~
+673 33554432 10
+D3
+~
+~
+0 0 67474
+D4
+~
+~
+0 0 67476
+C
+8 3
+S
+#67476
+&+MMmernlan Current~
+     Florescent algae grown upon the scarlet walls, so thin as to tickle the
+skin of any passer-by. A few holes in the walls are big enough to fit even
+an ogre's fist through, though even an ogre would have a difficult time
+breaking through these steel-like walls. The current curves from east
+downwards.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67477
+D5
+~
+~
+0 0 67475
+C
+15 5
+S
+#67477
+&+MMmernlan Current~
+     The serpentine tunnel continues to wind its way unsteadily through the
+thick coral. A glowing orb sits near the ceiling at the sharp corener that
+exits here. Upwards lies a common residence, while the tunnel leads north
+and west.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67478
+D3
+~
+~
+0 0 67476
+D4
+~
+~
+0 0 67484
+C
+10 3
+S
+#67478
+&+MMmernlan Current~
+     Florescent algae grown upon the scarlet walls, so thin as to tickle the
+skin of any passer-by. A few holes in the walls are big enough to fit even
+an ogre's fist through, though even an ogre would have a difficult time
+breaking through these steel-like walls. The current curves from south
+downwards.
+~
+673 33554432 9
+D2
+~
+~
+0 0 67477
+D5
+~
+~
+0 0 67479
+C
+9 2
+S
+#67479
+&+MMmernlan Current~
+     Florescent algae grown upon the scarlet walls, so thin as to tickle the
+skin of any passer-by. A few holes in the walls are big enough to fit even
+an ogre's fist through, though even an ogre would have a difficult time
+breaking through these steel-like walls. The current curves from north
+upwards.
+~
+673 33554432 10
+D1
+~
+~
+0 0 67480
+D4
+~
+~
+0 0 67478
+C
+7 4
+S
+#67480
+&+MMmernlan Current~
+     As the current winds its way unsteadily through the pocked coral walls,
+it has created a strange, weaving pattern. Here the path winds from south to
+west. A room has been crafted into the northern wall, obviously a residence
+of some sort.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67485
+D2
+~
+~
+0 0 67481
+D3
+~
+~
+0 0 67479
+C
+15 3
+S
+#67481
+&+MMmernlan Current~
+     A bend in the Mmernlan Current has caused the southwestern corner of the
+scarlet walls to be rubbed down and smooth, while the opposite side has
+become overgrown, making the curve that much more pronounced. The path leads
+from north to east.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67480
+D1
+~
+~
+0 0 67482
+C
+13 0
+S
+#67482
+&+MMmernlan Current~
+     Mmernlan Current adjoins a connecting tunnel which leads to the Flow
+of Friendship just to the north. To the west continues the lazy current as
+it slowly flows into the Crescent Current. Just above is a small dwelling.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67545
+D3
+~
+~
+0 0 67481
+D4
+~
+~
+0 0 67486
+C
+14 3
+S
+#67483
+A Common Abode~
+     A few bits of violet algae grown upon the walls, carefully cultivated
+to produce a pleasing asthetic ambiance in the peaceful, circular room. Thin,
+golden wire was been twisted intricately to form the container for a
+sapphire-colored plant that hangs from the ceiling. A hole in the floor leads
+back to Mmernlan Current.
+~
+673 33554440 9
+D5
+~
+~
+0 0 67474
+S
+#67484
+&+YA Rectangular Home~
+     An unusual rectangular shape, the resident obviously goes to great pains
+to keep it so. The corners are crisp and the walls seem to have been measured
+thoroughly. Even the few pieces of furniture conform to the same shape. The
+only exit is down.
+~
+673 33554440 9
+D5
+~
+~
+0 0 67477
+S
+#67485
+&+CA Cluttered Home~
+     Knick-knacks of all different sorts lie upon the tapestry-covered floor.
+Those not heavy enough float half-heartedly, as though not wanting to make
+the effort to escape. A colorful fish has been caught within a helm of some
+sort. Its rainbow hued snout pokes through the slits in the face plate.
+Mmernlan Current lies to the south.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67480
+S
+#67486
+&+BA Tidy Living Room~
+     A round table is anchored from the ceiling on long, thin, iron-like
+poles. Several clamps and hooks has been crafted on the table surface to
+allow for food to be set on the table without floating away. Four swings hang
+down, allowing individuals to anchor themselves down for meals. The floor
+has been neatly swept and the coral walls scrubbed clean. The only exits
+from the room and east and down.
+~
+673 33554440 9
+D1
+~
+seaweed~
+1 0 67487
+D5
+~
+~
+0 0 67482
+S
+#67487
+&+BA Small Bedroom~
+     A mural has been painted on the northern wall, obviously by a young,
+aspiring artist. Though not very clean, it shows promising talent with its
+variance of color and surface textures. A bed of some kind hangs from the
+ceiling, allowing the artist to anchor themself and not float into walls
+or other such things while slumbering or engaging in other extracurricular
+activities. The only exit is to the west.
+~
+673 33554440 10
+D3
+~
+seaweed~
+1 0 67486
+S
+#67488
+Center of &+GMarket Square~
+     This is the common courtyard of several shops that line the area. It is
+here that most of Graendiae's wheeling and dealing goes on. The sound of
+bartering can be felt in the waves of the water, going deep to resonate
+loudly in bone. And yet, there is a certain known peacefulness as well. The
+only exit that does not lead to a shop is down into the Waterways.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67489
+D1
+~
+~
+0 0 67492
+D2
+~
+~
+0 0 67491
+D3
+~
+~
+0 0 67490
+D4
+~
+~
+0 0 67308
+D5
+~
+~
+0 0 67537
+S
+#67489
+&+yCrispy Crunchies~
+     A cylindrical sphere in the northwestern corner keeps the boiling water
+produced by lava from filling the whole area. Only aquatic elf engineers
+could devise a way to harvest such an awesome power for the sole purpose of
+cooking. To the south lies Market Square.
+~
+673 33554440 9
+D2
+~
+~
+0 0 67488
+S
+#67490
+&+GPraelie's Garments~
+     Plush, rich garments are intermixed with thin, flimsy ones. Obviously
+the proprietor does not concern herself with seasonal styles. A few nitches
+have been carved in the amnethyst-colored walls, and curtains hang over the
+openings. A sign above them reads 'Fitting Rooms'. The doorway to the west
+leads to Market Square.
+~
+673 176197704 10
+D1
+~
+~
+0 0 67488
+S
+#67491
+The &+BMain Graendiaen Armory~
+     Armor of various styles and materials lines the walls, housed in
+protective tempered glass cases. Behind a counter along the southern wall
+stands the armorer, ready to sell her wares. A small passage to the east
+leads to the tannery.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67488
+D1
+~
+~
+0 0 67496
+S
+#67492
+&+LTavern of the&N &+rBroken Promise~
+     The Tavern of the Broken Promise rarely seems to find customers. Whether
+it be from the fact that tight-fisted merchants are difficult to pry a copper
+from or whether the name has some connection has been a conversation topic
+in Graendiae for quite some time. In any case, the matter has yet to be
+resolved, in either direction. The inn lies to the east, while Market Square
+is just to the west.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67493
+D3
+~
+~
+0 0 67488
+S
+#67493
+&+LInn&N of the &+rBroken Promise~
+     Used mainly by merchants so that they can spend the night close to
+their wares, it is not designed to accomidate sight-seeing visitors as its
+sister inn is at the northern end of Graendiae. A tavern to the west stands
+mostly unused.
+~
+673 33554440 10
+D3
+~
+~
+0 0 67492
+S
+#67494
+&+GSeaweed Surprise&N~
+     Several tables fill the small, irregularly-shaped room. Chairs have
+been bolted down to the smooth coral floor to ensure that they do not
+float away. The walls are covered with the etchings of graffiti, courtesy
+of the young patrons who frequent here. The Crescent Current lies to the
+east, while the kitchen is to the west.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67318
+D3
+~
+~
+0 0 67495
+S
+#67495
+&+RKitchen&N of &+GSeaweed Surprise~
+     Various vegetation grows in columns along the prisine coral walls.
+Carefully cultivated, they appear to bloom year-round. A long obscidion
+table is loaded down with various freshly-harvested good. A small, thin
+knife lies amongst the vegetatables, ready to slice them into the next
+mouth-watering meal. The Seaweed Surprise restaurant lies to the east.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67494
+S
+#67496
+&+rArmor &+yTannery&n~
+     Hides of all sorts are sorted out into various slots carved into the
+thick coral walls. A table stands in the center of the room. Upon it lay all
+the tools of the trader that a tanner could need. An exit to the west leads
+back to the armory.
+~
+673 33554440 10
+D3
+~
+~
+0 0 67491
+S
+#67497
+The &+cWaterways~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67519
+D2
+~
+~
+0 0 67527
+D3
+~
+~
+0 0 67498
+D4
+~
+~
+0 0 67305
+C
+3 0
+S
+#67498
+The &+cWaterways~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 0 10
+D1
+~
+~
+0 0 67497
+D3
+~
+~
+0 0 67499
+C
+3 0
+S
+#67499
+The &+cWaterways~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67498
+D3
+~
+~
+0 0 67543
+D4
+~
+~
+0 0 67500
+C
+3 1
+S
+#67500
+The &+cWaterways~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554696 0
+D2
+~
+~
+0 0 67536
+D3
+~
+~
+0 0 67499
+D4
+~
+~
+0 0 67501
+D5
+~
+~
+0 0 67499
+S
+#67501
+&+cWaterway Latrines~
+     For the sake of common curtsey, it is here that the aquatics go to
+releave themselves of excess bodily fluids. This spot was chosen for its
+noticeable current that leaves the city through a foot-wide opening in the
+northeastern corner.
+~
+673 33554440 9
+D5
+~
+~
+0 0 67500
+F
+5
+C
+10 5
+S
+#67502
+&+WAnteroom&+w of the &+GFlo&+Ywe&+Gring&N &+gAnenome~
+     Sea anenomes of various hues are carefully cultivated in carefully
+chiseled hollows along the rose-colored coral walls. Wide veins of bright
+orange vibrate from the textured walls as though alive. A six-starred hole
+in the floor, shaped likethemouth of an anenome, leads to the Crescent
+Current as it moves swiftly through the city of Graendiae. To the west lies
+the main inn of the town.
+~
+673 33554440 10
+D3
+~
+~
+0 0 67503
+D5
+~
+~
+0 0 67327
+S
+#67503
+&+WInn&N &+wof the &+GFlo&+Ywe&+Gring&N &+gAnenome~
+&+BWelcome                 &+W \&N    &+G |&N  &+W /&N
+ &+C To                 &+R {&N   &+W\&N   &+G |&N  &+W/&N  &+R }&N
+ &+BThe                   &+R {&N  &+W\&N    &+G /&N  &+R }&N &+Y *&N
+  &+CInn                 &+Y *&N &+R {&N &+W _/\_&N  &+R}&N
+    &+B  of              &+G----&N &+W_\&+C O&N &+W /_&N  &+G ----&N
+   &+C The                &+Y *&N  &+W /_  _\&N   &+Y *&N
+                     &+B*&N    &+R {&N  &+W\/&N  &+R }&N    &+B *&N
+  &+GFlo&+Ywe&+Gring             &+R {&N  &+W /&N  &+W \&N  &+R }&N
+      &+gAnenome         &+R {&N   &+W /&N &+G |&N &+W \&N   &+R }&N
+                          &+W /&N  &+G |&N  &+W \&N
+~
+673 33554440 10
+D1
+~
+~
+0 0 67502
+S
+#67504
+&+RA Coral Alcove~
+     The room exudes a peacefulness that is lacking in the rest of the town.
+Even the walls seem somehow softer and less coarse here. For this reason, the
+natives have come to treat this as a sanctified place, even placing a
+delicate statuette here in honor of their goddess, whom they feel has blessed
+this enclosed area.
+~
+673 1249935561 9
+D5
+~
+~
+0 0 67323
+S
+#67505
+&+GSeaweed-Covered &+RCoral&N~
+     Seaweed thickly covers the walls like a think, stringy wallpaper.
+Numerous corpses of fish are entwined in the thick grasses. The water
+is stagnant, the current to the east moving too swiftly to bother entering
+the small alcove.
+~
+673 33554440 9
+D1
+~
+~
+0 0 67321
+S
+#67506
+The &+CCrescent Current&N~
+     The extended portion of the Crescent Chasm ends here. Apparently the
+Graendian Engineering Group ran out of funds as they neared the end of the
+crevice. Or perhaps the inn near here simply woupld not sign the release to
+have a few of their walls torn down. The rose walls here pulse brightly with
+the orange veins. The path leads to the west and down.
+~
+673 33554432 9
+D3
+~
+~
+0 0 67507
+D5
+~
+~
+0 0 67326
+C
+2 3
+S
+#67507
+The &+CCrescent Current&N~
+     The coral here has a rich, vibrant hue of rose, with streaks of bright
+orange coursing through it like marbling veins. To the east, west, and down
+lies the top portion of the Crescent Current.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67506
+D3
+~
+~
+0 0 67508
+D5
+~
+~
+0 0 67325
+C
+5 5
+S
+#67508
+The &+CCrescent Current&N~
+     The pathway curves from east to south, creating the top portion of
+this chasm aptly named the 'Crescent Current'. The aquatic elves that
+dwell here have affectionately named it 'The C'. Being the major north-
+south passage through town, it is highly traversed. Because of this, the
+Graendiaen Enginnering Group has gone to great pains to create this alternate
+route to divert traffic.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67507
+D2
+~
+~
+0 0 67509
+D5
+~
+~
+0 0 67324
+C
+3 2
+S
+#67509
+The &+CCrescent Current&N~
+     The pathway curves from north to west, creating the top portion of
+this chasm aptly named the 'Crescent Current'. The aquatic elves that
+dwell here have affectionately named it 'The C'. Being the major north-
+south passage through town, it is highly traversed. Because of this, the
+Graendiaen Enginnering Group has gone to great pains to create this alternate
+route to divert traffic.
+~
+673 33554432 10
+D0
+~
+~
+0 0 67508
+D3
+~
+~
+0 0 67510
+C
+1 3
+S
+#67510
+The &+CCrescent Current&N~
+     The pathway leads from east to west here, sepearting itself somewhat
+from the direction below. The north is blocked by the usual coral walls, but
+this one is a bit different in its texture. The elves here believe that
+because of this, the room beyond it is sacred. Many go their to pray,
+treating it as a sanctified area. The coral walls here seem to the south and
+up however, seem to have been recently sheered. This is in accordance with
+the task of the Graendiaen Enginnering Group to widen the path of the
+Crescent Current, also known to the natives here as 'The C'.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67509
+D3
+~
+~
+0 0 67511
+D5
+~
+~
+0 0 67322
+C
+2 5
+S
+#67511
+The &+CCrescent Curent&N~
+     Loose bits of seaweed float along in the current, pulled along by the
+force of nature. Sea anenomes bloom in the deep red walls, their colorful
+tentacles swaying with a musical tempo. The ravine opens to the east and
+below. The coral walls to the south slopes downward quickly. The very
+top of some sort of alcove near below lies to the east.
+~
+673 33554432 9
+D1
+~
+~
+0 0 67510
+D5
+~
+~
+0 0 67321
+C
+3 5
+S
+#67512
+Dispursement Room #1 (&+CCrescent Current&N)~
+~
+673 178290704 9
+D0
+~
+~
+0 0 67513
+D1
+~
+~
+0 0 67306
+D2
+~
+~
+0 0 67514
+D3
+~
+~
+0 0 67308
+D4
+~
+~
+0 0 67310
+D5
+~
+~
+0 0 67551
+S
+#67513
+Dispursement Room #2 (&+CCrescent Current&N)~
+~
+673 178290696 0
+D0
+~
+~
+0 0 67322
+D1
+~
+~
+0 0 67514
+D2
+~
+~
+0 0 67506
+D3
+~
+~
+0 0 67512
+D4
+~
+~
+0 0 67511
+D5
+~
+~
+0 0 67509
+S
+#67514
+The &+LVoid&N~
+~
+673 178290688 9
+S
+#67515
+Dispursment Room #1 (Flow of Friendship)~
+~
+673 178257921 9
+D0
+~
+~
+0 0 67514
+D2
+~
+~
+0 0 67328
+D3
+~
+~
+0 0 67333
+D4
+~
+~
+0 0 67516
+D5
+~
+~
+0 0 67517
+S
+#67516
+Dispursement Room #2 (Flow of Friendship)~
+~
+673 178290688 9
+D0
+~
+~
+0 0 67335
+D1
+~
+~
+0 0 67514
+D2
+~
+~
+0 0 67337
+D3
+~
+~
+0 0 67339
+D4
+~
+~
+0 0 67341
+D5
+~
+~
+0 0 67513
+S
+#67517
+Dispursement Room #3 (Flow of Friendship)~
+~
+673 178290688 9
+D1
+~
+~
+0 0 67347
+D2
+~
+~
+0 0 67345
+D3
+~
+~
+0 0 67346
+D4
+~
+~
+0 0 67515
+D5
+~
+~
+0 0 67514
+S
+#67518
+Dispursement Room #1 (General)~
+~
+673 144736264 9
+D0
+~
+~
+0 0 67512
+D1
+~
+~
+0 0 67552
+D2
+~
+~
+0 0 67515
+D3
+~
+~
+0 0 67553
+D4
+~
+~
+0 0 67561
+D5
+~
+~
+0 0 67564
+S
+#67519
+The &+cWaterways&N~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67520
+D3
+~
+~
+0 0 67497
+S
+#67520
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 9
+D3
+~
+~
+0 0 67519
+D5
+~
+~
+0 0 67521
+S
+#67521
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets. The bank lies to the west.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67522
+D3
+~
+~
+0 0 67523
+D4
+~
+~
+0 0 67520
+D5
+~
+~
+0 0 67524
+S
+#67522
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67525
+D2
+~
+~
+0 0 67521
+S
+#67523
+&+YBank&N of &+BG&+Cra&+Ben&+Cdi&+Bae&N~
+     A safe has been crafted into the stone wall at the back of the room. The
+coral ends about midway through the room. then grows around the excavated
+boulder that comprises the safe. A natural counter stands at the midway
+mark. To the south lie the Waterways.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67521
+S
+#67524
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets. Illicit goods are traded nearby to the east.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67526
+D4
+~
+~
+0 0 67521
+S
+#67525
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets. To the north lies the general store, while the
+stables are to the south.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67538
+D1
+~
+~
+0 0 67541
+D2
+~
+~
+0 0 67539
+D3
+~
+~
+0 0 67522
+S
+#67526
+The &+LBlack Market&N~
+     A small opening in the western wall leads to this dark, chilly room.
+It is here that some of the more illicit goods can be bought or traded for.
+Of course, no respectable aquatic would allow himself to be caught here. Not,
+of course, without a reason.
+~
+673 33554440 10
+D3
+~
+~
+0 0 67524
+S
+#67527
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 9
+D0
+~
+~
+0 0 67497
+D5
+~
+~
+0 0 67528
+S
+#67528
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67529
+D4
+~
+~
+0 0 67527
+S
+#67529
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets. A sign directly above reads 'Work in Progress'.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67530
+D3
+~
+~
+0 0 67528
+S
+#67530
+The &+cWaterways&N~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67529
+D3
+~
+~
+0 0 67531
+S
+#67531
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets. The Museum of Graendiae is directly above.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67530
+D2
+~
+~
+0 0 67537
+D4
+~
+~
+0 0 67532
+S
+#67532
+&+LMuseum&N of &+BG&+Cra&+Ben&+Cdi&+Bae&N~
+     Precise glass cases line the walls, keeping safe the delicate treasures
+within them. A few display cases float in the center of the room, kept still
+by an unknown force. It is here that children come to broaden their minds and
+learn more about the world around them, espicially what life is truly like
+(in the eyes of aquatics) on the surface. An artifacts room is to the west,
+and the rest of the museum is up.
+~
+673 33554444 9
+D3
+~
+~
+0 0 67534
+D4
+~
+~
+0 0 67533
+D5
+~
+~
+0 0 67531
+S
+#67533
+&+LMuseum of &+BG&+Cra&+Ben&+Cdi&+Bae&N~
+     Precise glass cases line the walls, keeping safe the delicate treasures
+within them. A few display cases float in the center of the room, kept still
+by an unknown force. It is here that children come to broaden their minds and
+learn more about the world around them, espicially what life is truly like
+(in the eyes of aquatics) on the surface. It is whispered on the Path of
+Guilds that a brilliant man turned down the opportunity of being a guild
+leader to curate here, and no one understands why. The rest of the museum
+lies down through the star-like openning.
+~
+673 33554440 9
+D5
+~
+~
+0 0 67532
+S
+#67534
+&+LArtifacts Room&N~
+     Behind thick glass stand numerous artifacts that havre recently been
+restored in the laboratory to the south. Since, however, some materials are
+unavailable in the ocean, the corrections are less than perfect. The main
+museum is to the west.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67532
+D2
+~
+seaweed~
+1 0 67535
+S
+#67535
+&+LArtifacts Laboratory&N~
+     Within this room priceless artifacts are repaired, more or less, to
+their original state. The Graendiaen officials spend much money to purchase
+goods from the air-breathers to repair damage done to these objects. Yet
+still it is not always enough, and a little 'ingenuity' must be used. Various
+viles and molds rest upon the dozens or shelves that line the walls. The
+arifacts room is to the south.
+~
+673 33554440 10
+D0
+~
+seaweed~
+1 0 67534
+S
+#67536
+&+wMa&+Lg&+waz&+Li&+wne&n &+yStand&n~
+     While in the latrines of the Waterways, many elves like to look through
+some literature. To appease this demand, a very money-oriented individual
+was smart enough to create this stand. Packed with the latest issues of,
+well, just about anything, it is quite the money-maker.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67500
+S
+#67537
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67531
+D4
+~
+~
+0 0 67488
+S
+#67538
+The &+WGeneral&N &+yStore&n~
+     Various tools and equipment used everyday hangs upon pegs spliced into
+the vermillion walls. A table hangs from the ceiling, apparently the counter.
+The exit to the south leads back to the Waterways.
+~
+673 33554440 10
+D2
+~
+~
+0 0 67525
+S
+#67539
+&+GCreature &+WRental&N~
+     A sign upon the wall reads:
+                'For fast and steady mounts,
+                 Reliable and true,
+                 Trust nothing but the best,
+                 From My store to You.'
+~
+673 33554440 10
+D0
+~
+~
+0 0 67525
+S
+#67540
+&+GStables&N of &+BG&+Cra&+Ben&+Cdi&+Bae&N~
+~
+673 1249935581 9
+S
+#67541
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67542
+D3
+~
+~
+0 0 67525
+S
+#67542
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67349
+D2
+~
+~
+0 0 67541
+S
+#67543
+The &+cWaterways&n~
+     Crafted by the Graendiaen Enginnering Group, the Waterways were created
+as an alternate and faster route to moved about the crowded city. Now, it
+seems, that all the traffic is here, below the town, as opposed to actually
+on the original streets.
+~
+673 33554440 10
+D1
+~
+~
+0 0 67499
+D4
+~
+~
+0 0 67344
+S
+#67544
+&+RConnecting Tunnel&N~
+     A narrow tunnel, this stretch connects the Flow of Friendship, nearby
+to the north, with Mmernlan Current, a short distance to the south. The
+Graendiaen Enginnering Group put this short path in not long ago, finally
+listening to the inhabitants complaints. Like a typical governmental agency
+it only took it five generations of complaints before action was taken.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67338
+D2
+~
+~
+0 0 67545
+S
+#67545
+&+RConnecting Tunnel&N~
+     Recently constructed by the Graendiaen Enginnering Group, this short
+tunnel connects the two popular waterways, the Flow of Friendship, a short
+ways to the north, with Mmernlan Current, nearby to the south.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67544
+D2
+~
+~
+0 0 67482
+S
+#67546
+Dispurement Room #5 (fishies)~
+~
+673 169902088 9
+D0
+~
+~
+0 0 67527
+D1
+~
+~
+0 0 67513
+D2
+~
+~
+0 0 67541
+D3
+~
+~
+0 0 67532
+D4
+~
+~
+0 0 67431
+D5
+~
+~
+0 0 67530
+S
+#67547
+&+RCoral Chasm&N~
+     The bright orange walls of the Coral Chasm make it easily
+distinguishable from the most subtle hues of the rest of Graendiae. They
+appear almost to have been painted with some sort of substance that changes
+color woth the seasons. The chasm leads down while the Flow of Friendship is
+upwards.
+~
+673 33554440 9
+D4
+~
+~
+0 0 67338
+D5
+~
+~
+0 0 67548
+S
+#67548
+&+RCoral Chasm&N~
+     The bright orange walls of the Coral Chasm make it easily
+distinguishable from the most subtle hues of the rest of Graendiae. They
+appear almost to have been painted with some sort of substance that changes
+color woth the seasons. The chasm leads up and down.
+~
+673 33554440 9
+D4
+~
+~
+0 0 67547
+D5
+~
+~
+0 0 67549
+S
+#67549
+&+RCoral Chasm&N~
+     Sand has managed to filter in through the crawlspace to the north that
+leads to the Pjworn Fields. It attempts to cover the rough coral walls, but
+with no success. The bright orange color clashes sharply with the brownish-
+tan of the dirt, making it almost painful to look at. The chasm leads
+upwards.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67550
+D4
+~
+~
+0 0 67548
+S
+#67550
+&+LNarrow Crawlspace&N~
+     A narrow crawlspace to the north leads to the Pjworn Fields. It is
+through this opening that the herders enter during harvest season. It seems
+to lower the fishs' paranoia. To the south lies the Coral Chasm.
+~
+673 33562892 10
+D0
+~
+~
+0 0 67384
+D2
+~
+~
+0 0 67549
+S
+#67551
+Dispursement Room #3 (&+CCresent Current&N)~
+~
+673 178290696 0
+D0
+~
+~
+0 0 67312
+D1
+~
+~
+0 0 67316
+D2
+~
+~
+0 0 67314
+D3
+~
+~
+0 0 67318
+D4
+~
+~
+0 0 67512
+D5
+~
+~
+0 0 67320
+S
+#67552
+Dispursement Room (&+GPath of Grasses&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67348
+D2
+~
+~
+0 0 67350
+D3
+~
+~
+0 0 67353
+D4
+~
+~
+0 0 67514
+S
+#67553
+Dispursement Room #1 (Pjworn Fields)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67362
+D1
+~
+~
+0 0 67358
+D2
+~
+~
+0 0 67554
+D3
+~
+~
+0 0 67360
+D4
+~
+~
+0 0 67354
+D5
+~
+~
+0 0 67356
+S
+#67554
+Dispursement Room #2 (Pjworn Fields)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67373
+D1
+~
+~
+0 0 67378
+D2
+~
+~
+0 0 67382
+D3
+~
+~
+0 0 67369
+D4
+~
+~
+0 0 67364
+D5
+~
+~
+0 0 67555
+S
+#67555
+Dispursement Room #3 (Pjworn Fields)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67385
+D1
+~
+~
+0 0 67387
+D2
+~
+~
+0 0 67554
+D3
+~
+~
+0 0 67514
+D4
+~
+~
+0 0 67382
+D5
+~
+~
+0 0 67356
+S
+#67556
+Dispursement Room (&+YLaughter's Edge&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67390
+D1
+~
+~
+0 0 67393
+D2
+~
+~
+0 0 67514
+D3
+~
+~
+0 0 67395
+D4
+~
+~
+0 0 67397
+S
+#67557
+Dispursement Room (&+RCoral Caverns&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67400
+D1
+~
+~
+0 0 67406
+D2
+~
+~
+0 0 67403
+D3
+~
+~
+0 0 67409
+D4
+~
+~
+0 0 67412
+D5
+~
+~
+0 0 67514
+S
+#67558
+Dispursement Room (&+mRedemption/&+BLlandrian&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67421
+D1
+~
+~
+0 0 67417
+D2
+~
+~
+0 0 67514
+D3
+~
+~
+0 0 67419
+D4
+~
+~
+0 0 67413
+D5
+~
+~
+0 0 67415
+S
+#67559
+Dispursement Room (&+WGuilds/&+MMmernlan&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67423
+D1
+~
+~
+0 0 67428
+D2
+~
+~
+0 0 67425
+D3
+~
+~
+0 0 67475
+D4
+~
+~
+0 0 67479
+D5
+~
+~
+0 0 67482
+S
+#67560
+Dispursement Room (&+LHustler's Tunnel&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67514
+D1
+~
+~
+0 0 67450
+D2
+~
+~
+0 0 67448
+D3
+~
+~
+0 0 67453
+D4
+~
+~
+0 0 67457
+D5
+~
+~
+0 0 67461
+S
+#67561
+Dispursement Room (&+WTemple/&+RTunnel/Chasm&N)~
+~
+673 144736264 9
+D0
+~
+~
+0 0 67464
+D1
+~
+~
+0 0 67544
+D2
+~
+~
+0 0 67467
+D3
+~
+~
+0 0 67547
+D4
+~
+~
+0 0 67549
+D5
+~
+~
+0 0 67469
+S
+#67562
+Dispursement Room (&+cWaterways&n)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67498
+D1
+~
+~
+0 0 67521
+D2
+~
+~
+0 0 67501
+D3
+~
+~
+0 0 67519
+D4
+~
+~
+0 0 67563
+D5
+~
+~
+0 0 67514
+S
+#67563
+Dispursement Room (&+cWaterways&n)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67523
+D2
+~
+~
+0 0 67526
+D3
+~
+~
+0 0 67533
+D4
+~
+~
+0 0 67538
+D5
+~
+~
+0 0 67542
+S
+#67564
+Dispursement Room #2 (General)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67557
+D1
+~
+~
+0 0 67559
+D2
+~
+~
+0 0 67558
+D3
+~
+~
+0 0 67560
+D4
+~
+~
+0 0 67556
+D5
+~
+~
+0 0 67562
+S
+#67565
+Dispursement Room (&+WMain&N)~
+~
+673 178290696 9
+D0
+~
+~
+0 0 67518
+D1
+~
+~
+0 0 67564
+D2
+~
+~
+0 0 67564
+D3
+~
+~
+0 0 67518
+D4
+~
+~
+0 0 67514
+D5
+~
+~
+0 0 67514
+S
+#67566
+A Tunnel Through Some &+RCoral&N~
+     Living creatures dart in aand out of the small openings in the
+coral. It is difficult to discern whether this tunnel could have formed
+naturally or whether it was put here by other hands. The tunnel leads to
+the north and south.
+~
+673 134230280 10
+D0
+~
+~
+0 0 67567
+D2
+~
+~
+0 0 67303
+C
+3 0
+S
+#67567
+A &+LDead-End&N~
+     The tunnel stops here abruptly. Perhaps it did form naturally. Or
+was it to throw wandering eyes away from a greater treasure? The tunnel
+leads back to the south.
+~
+673 134226176 10
+D2
+~
+~
+0 0 67566
+S
+#67568
+Along a &+RCoral Reef&n of &+BG&+Cra&+Ben&+Cdi&+Bae&n~
+     Tiny creatures dart in and out of the magnificent coral reef. The
+small creatures that created this grandious structure dare not show their
+faces, hiding deep within its recesses. Mostly bright red in hue, the color
+shifts with the current, ranging from a pale pink at one moment to a deep
+scarlet the next. A part of the coral looks abit different than the rest.
+It is a perfectly round slab that melts almost perfectly into the rest of
+the coral.
+~
+673 0 9
+D1
+~
+~
+0 0 219820
+D2
+~
+~
+0 0 220119
+D3
+~
+~
+0 0 219818
+D5
+~
+slab coral _nobash_ graendiae~
+7 -2 67301
+E
+coral~
+A faint etching can be seen on the coral wall.
+~
+E
+etching~
+**************************
+      Remember,
+    Only the name
+  That these dwellers
+    Will allow you
+       passage
+    To the realms
+       beyond.
+**************************
+~
+S
+#67569
+A &+LMe&+wss&+yy Ap&+Car&+rtme&+Bnt&N~
+     Wreckage of various ships have contributed to the wood that makes up
+most of the home-crafted furniture here. A helm hangs on the eastern wall,
+lending a nautical air to the entire room. Poorly made clothes lie strewn
+about. The Crescent Current lies to the north.
+~
+673 0 10
+D0
+~
+~
+0 0 67313
+S
+#67570
+A &+rTiny Dwelling&n~
+     No bigger than most closests, a family of 5 has been forced to live here
+ever since the recycling mill closed down a decade ago. Aparently, it had
+been costing the company too many lives to go and recycle old shipwrecks, and
+now many aquatics are unemployed and forced to float on streetcorners begging
+for food and work. The only exit is to the north.
+~
+673 33554440 10
+D0
+~
+~
+0 0 67391
+S

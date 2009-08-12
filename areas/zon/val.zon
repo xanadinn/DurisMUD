@@ -1,0 +1,648 @@
+#384
+The &+LValo&+cis&+Cian Ca&+cst&+Lle~
+38586 1 0 70 80 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38400 1 1 100 0 0 0
+*     east exit from "First Floor of a Grand Staircase" to
+*     "A Majestic Hallway" - closed
+*
+D 0 38401 3 1 100 0 0 0
+*     west exit from "A Majestic Hallway" to
+*     "First Floor of a Grand Staircase" - closed
+*
+D 0 38402 1 1 100 0 0 0
+*     east exit from "The Entrance to the Throne Room" to
+*     "The Throne Room" - closed
+*
+D 0 38403 3 1 100 0 0 0
+*     west exit from "The Throne Room" to
+*     "The Entrance to the Throne Room" - closed
+*
+D 0 38405 2 1 100 0 0 0
+*     south exit from "The Throne Room" to
+*     "Inside the Private Royal Gardens" - closed
+*
+D 0 38416 0 1 100 0 0 0
+*     north exit from "Inside the Private Royal Gardens" to
+*     "The Throne Room" - closed
+*
+D 0 38408 0 1 100 0 0 0
+*     north exit from "The Throne Room" to
+*     "Inside the Public Royal Gardens" - closed
+*
+D 0 38409 2 1 100 0 0 0
+*     south exit from "Inside the Public Royal Gardens" to
+*     "The Throne Room" - closed
+*
+D 0 38411 4 5 100 0 0 0
+*     up exit from "Inside the Public Royal Gardens" to
+*     "A Garden Balcony" - closed/secret
+*
+D 0 38462 5 5 100 0 0 0
+*     down exit from "A Garden Balcony" to
+*     "Inside the Public Royal Gardens" - closed/secret
+*
+D 0 38418 4 5 100 0 0 0
+*     up exit from "Inside the Private Royal Gardens" to
+*     "An Ivy Covered Wooden Ladder" - closed/secret
+*
+D 0 38478 5 5 100 0 0 0
+*     down exit from "An Ivy Covered Wooden Ladder" to
+*     "Inside the Private Royal Gardens" - closed/secret
+*
+D 0 38425 0 1 100 0 0 0
+*     north exit from "A Majestic Hallway" to
+*     "The Royal Weapon Shop" - closed
+*
+D 0 38487 2 1 100 0 0 0
+*     south exit from "The Royal Weapon Shop" to
+*     "A Majestic Hallway" - closed
+*
+D 0 38425 1 1 100 0 0 0
+*     east exit from "A Majestic Hallway" to
+*     "The Royal Armor Shop" - closed
+*
+D 0 38490 3 1 100 0 0 0
+*     west exit from "The Royal Armor Shop" to
+*     "A Majestic Hallway" - closed
+*
+D 0 38427 3 1 100 0 0 0
+*     west exit from "A Majestic Hallway" to
+*     "A Servant Access Hallway" - closed
+*
+D 0 38430 1 1 100 0 0 0
+*     east exit from "A Servant Access Hallway" to
+*     "A Majestic Hallway" - closed
+*
+D 0 38429 2 2 100 0 0 0
+*     south exit from "Inside the Royal Gates" to
+*     "Outside the Massive Castle Gates" - closed/locked
+*
+D 0 38552 0 2 100 0 0 0
+*     north exit from "Outside the Massive Castle Gates" to
+*     "Inside the Royal Gates" - closed/locked
+*
+D 0 38431 0 1 100 0 0 0
+*     north exit from "A Servant Access Hallway" to
+*     "A Servant's Room" - closed
+*
+D 0 38432 2 1 100 0 0 0
+*     south exit from "A Servant's Room" to
+*     "A Servant Access Hallway" - closed
+*
+D 0 38431 2 1 100 0 0 0
+*     south exit from "A Servant Access Hallway" to
+*     "A Servant's Room" - closed
+*
+D 0 38433 0 1 100 0 0 0
+*     north exit from "A Servant's Room" to
+*     "A Servant Access Hallway" - closed
+*
+D 0 38434 2 1 100 0 0 0
+*     south exit from "A Servant Access Hallway" to
+*     "A Servant's Room" - closed
+*
+D 0 38435 0 1 100 0 0 0
+*     north exit from "A Servant's Room" to
+*     "A Servant Access Hallway" - closed
+*
+D 0 38437 0 1 100 0 0 0
+*     north exit from "A Massive Stone Kitchen" to
+*     "A Massive Bakery" - closed
+*
+D 0 38551 2 1 100 0 0 0
+*     south exit from "A Massive Bakery" to
+*     "A Massive Stone Kitchen" - closed
+*
+D 0 38437 1 1 100 0 0 0
+*     east exit from "A Massive Stone Kitchen" to
+*     "A Hallway lined with Suits of Armor" - closed
+*
+D 0 38438 3 1 100 0 0 0
+*     west exit from "A Hallway lined with Suits of Armor" to
+*     "A Massive Stone Kitchen" - closed
+*
+D 0 38438 0 1 100 0 0 0
+*     north exit from "A Hallway lined with Suits of Armor" to
+*     "A Regal Banquet Room" - closed
+*
+D 0 38439 2 1 100 0 0 0
+*     south exit from "A Regal Banquet Room" to
+*     "A Hallway lined with Suits of Armor" - closed
+*
+D 0 38443 0 1 100 0 0 0
+*     north exit from "Second Floor of a Grand Staircase" to
+*     "A Hallway lined with Exquisite Tapestries" - closed
+*
+D 0 38444 2 1 100 0 0 0
+*     south exit from "A Hallway lined with Exquisite Tapestries" to
+*     "Second Floor of a Grand Staircase" - closed
+*
+D 0 38446 2 0 100 0 0 0
+*     south exit from "A Hallway lined with Exquisite Tapestries" to
+*     "An Ambassador's Private Room" - open
+*
+D 0 38447 0 0 100 0 0 0
+*     north exit from "An Ambassador's Private Room" to
+*     "A Hallway lined with Exquisite Tapestries" - open
+*
+D 0 38450 1 0 100 0 0 0
+*     east exit from "A Hallway lined with Exquisite Tapestries" to
+*     "An Ambassador's Private Room" - open
+*
+D 0 38451 3 0 100 0 0 0
+*     west exit from "An Ambassador's Private Room" to
+*     "A Hallway lined with Exquisite Tapestries" - open
+*
+D 0 38454 0 0 100 0 0 0
+*     north exit from "A Hallway lined with Exquisite Tapestries" to
+*     "An Ambassador's Private Room" - open
+*
+D 0 38455 2 0 100 0 0 0
+*     south exit from "An Ambassador's Private Room" to
+*     "A Hallway lined with Exquisite Tapestries" - open
+*
+D 0 38456 2 0 100 0 0 0
+*     south exit from "A Hallway lined with Exquisite Tapestries" to
+*     "An Ambassador's Private Room" - open
+*
+D 0 38457 0 0 100 0 0 0
+*     north exit from "An Ambassador's Private Room" to
+*     "A Hallway lined with Exquisite Tapestries" - open
+*
+D 0 38460 3 1 100 0 0 0
+*     west exit from "The Meeting Room" to
+*     "Entrance to the Meeting Room" - closed
+*
+D 0 38461 1 1 100 0 0 0
+*     east exit from "Entrance to the Meeting Room" to
+*     "The Meeting Room" - closed
+*
+D 0 38464 0 1 100 0 0 0
+*     north exit from "An Intersection of Hallways" to
+*     "The King's Private Bedchambers" - closed
+*
+D 0 38465 2 1 100 0 0 0
+*     south exit from "The King's Private Bedchambers" to
+*     "An Intersection of Hallways" - closed
+*
+D 0 38466 1 1 100 0 0 0
+*     east exit from "A Hallway of Wooden Panels" to
+*     "The Queen's Private Bedchambers" - closed
+*
+D 0 38467 3 1 100 0 0 0
+*     west exit from "The Queen's Private Bedchambers" to
+*     "A Hallway of Wooden Panels" - closed
+*
+D 0 38469 2 0 100 0 0 0
+*     south exit from "A Hallway of Wooden Panels" to
+*     "A Plush Guest Bedroom" - open
+*
+D 0 38470 0 0 100 0 0 0
+*     north exit from "A Plush Guest Bedroom" to
+*     "A Hallway of Wooden Panels" - open
+*
+D 0 38471 0 0 100 0 0 0
+*     north exit from "A Hallway of Wooden Panels" to
+*     "Princess Dyneen's Bedroom" - open
+*
+D 0 38473 2 0 100 0 0 0
+*     south exit from "Princess Dyneen's Bedroom" to
+*     "A Hallway of Wooden Panels" - open
+*
+D 0 38471 3 0 100 0 0 0
+*     west exit from "A Hallway of Wooden Panels" to
+*     "Prince Karyn's Bedroom" - open
+*
+D 0 38472 1 0 100 0 0 0
+*     east exit from "Prince Karyn's Bedroom" to
+*     "A Hallway of Wooden Panels" - open
+*
+D 0 38474 0 1 100 0 0 0
+*     north exit from "A Hallway lined with Royal Portraits" to
+*     "A Small Dining Area" - closed
+*
+D 0 38475 2 1 100 0 0 0
+*     south exit from "A Small Dining Area" to
+*     "A Hallway lined with Royal Portraits" - closed
+*
+D 0 38476 2 1 100 0 0 0
+*     south exit from "A Hallway lined with Royal Portraits" to
+*     "The Royal Library" - closed
+*
+D 0 38477 0 1 100 0 0 0
+*     north exit from "The Royal Library" to
+*     "A Hallway lined with Royal Portraits" - closed
+*
+D 0 38479 0 1 100 0 0 0
+*     north exit from "A Cobblestone Road" to
+*     "Inside the Royal Stables" - closed
+*
+D 0 38494 2 1 100 0 0 0
+*     south exit from "Inside the Royal Stables" to
+*     "A Cobblestone Road" - closed
+*
+D 0 38484 0 2 100 0 0 0
+*     north exit from "Before the Du'kel Mansion" to
+*     "A Beautiful Courtyard" - closed/locked
+*
+D 0 38495 2 2 100 0 0 0
+*     south exit from "A Beautiful Courtyard" to
+*     "Before the Du'kel Mansion" - closed/locked
+*
+D 0 38489 0 1 100 0 0 0
+*     north exit from "Along the Highest Wall" to
+*     "Bren's Weapon Shop" - closed
+*
+D 0 38549 2 1 100 0 0 0
+*     south exit from "Bren's Weapon Shop" to
+*     "Along the Highest Wall" - closed
+*
+D 0 38489 2 1 100 0 0 0
+*     south exit from "Along the Highest Wall" to
+*     "A Large Courtyard" - closed
+*
+D 0 38518 0 1 100 0 0 0
+*     north exit from "A Large Courtyard" to
+*     "Along the Highest Wall" - closed
+*
+D 0 38489 3 1 100 0 0 0
+*     west exit from "Along the Highest Wall" to
+*     "Garbleyarble's Shop of This and That" - closed
+*
+D 0 38550 1 1 100 0 0 0
+*     east exit from "Garbleyarble's Shop of This and That" to
+*     "Along the Highest Wall" - closed
+*
+D 0 38492 2 1 100 0 0 0
+*     south exit from "The Kitchen" to
+*     "The Common Room of the Wailing Griffon" - closed
+*
+D 0 38493 0 1 100 0 0 0
+*     north exit from "The Common Room of the Wailing Griffon" to
+*     "The Kitchen" - closed
+*
+D 0 38493 1 1 100 0 0 0
+*     east exit from "The Common Room of the Wailing Griffon" to
+*     "A Blue-Hued Brick Road" - closed
+*
+D 0 38586 3 1 100 0 0 0
+*     west exit from "A Blue-Hued Brick Road" to
+*     "The Common Room of the Wailing Griffon" - closed
+*
+D 0 38495 0 1 100 0 0 0
+*     north exit from "A Beautiful Courtyard" to
+*     "A Grand Entryway" - closed
+*
+D 0 38496 2 1 100 0 0 0
+*     south exit from "A Grand Entryway" to
+*     "A Beautiful Courtyard" - closed
+*
+D 0 38497 3 1 100 0 0 0
+*     west exit from "A Massive Staircase leading Upwards" to
+*     "An Elegant Library" - closed
+*
+D 0 38498 1 1 100 0 0 0
+*     east exit from "An Elegant Library" to
+*     "A Massive Staircase leading Upwards" - closed
+*
+D 0 38502 0 1 100 0 0 0
+*     north exit from "A Whitewashed Hallway" to
+*     "A Plush Bedroom" - closed
+*
+D 0 38507 2 1 100 0 0 0
+*     south exit from "A Plush Bedroom" to
+*     "A Whitewashed Hallway" - closed
+*
+D 0 38502 2 1 100 0 0 0
+*     south exit from "A Whitewashed Hallway" to
+*     "A Plush Bedroom" - closed
+*
+D 0 38506 0 1 100 0 0 0
+*     north exit from "A Plush Bedroom" to
+*     "A Whitewashed Hallway" - closed
+*
+D 0 38503 0 1 100 0 0 0
+*     north exit from "A Whitewashed Hallway" to
+*     "A Cozy Sitting Room" - closed
+*
+D 0 38505 2 1 100 0 0 0
+*     south exit from "A Cozy Sitting Room" to
+*     "A Whitewashed Hallway" - closed
+*
+D 0 38503 2 1 100 0 0 0
+*     south exit from "A Whitewashed Hallway" to
+*     "A Cozy Sitting Room" - closed
+*
+D 0 38504 0 1 100 0 0 0
+*     north exit from "A Cozy Sitting Room" to
+*     "A Whitewashed Hallway" - closed
+*
+D 0 38518 2 2 100 0 0 0
+*     south exit from "A Large Courtyard" to
+*     "A Black Onyx Hall" - closed/locked
+*
+D 0 38524 0 2 100 0 0 0
+*     north exit from "A Black Onyx Hall" to
+*     "A Large Courtyard" - closed/locked
+*
+D 0 38525 5 2 100 0 0 0
+*     down exit from "A Massive Tiled Kitchen" to
+*     "A Dark Wine Cellar" - closed/locked
+*
+D 0 38526 4 2 100 0 0 0
+*     up exit from "A Dark Wine Cellar" to
+*     "A Massive Tiled Kitchen" - closed/locked
+*
+D 0 38530 3 1 100 0 0 0
+*     west exit from "The Second Floor" to
+*     "A Bedroom lined with Silky Wall Hangings" - closed
+*
+D 0 38533 1 1 100 0 0 0
+*     east exit from "A Bedroom lined with Silky Wall Hangings" to
+*     "The Second Floor" - closed
+*
+D 0 38531 2 1 100 0 0 0
+*     south exit from "A Hallway" to
+*     "A Bedroom lined with Silky Wall Hangings" - closed
+*
+D 0 38532 0 1 100 0 0 0
+*     north exit from "A Bedroom lined with Silky Wall Hangings" to
+*     "A Hallway" - closed
+*
+D 0 38534 0 1 100 0 0 0
+*     north exit from "A Circular Fountain in a Lush Courtyard" to
+*     "The Entrance to the Oakencrest Mansion" - closed
+*
+D 0 38535 2 1 100 0 0 0
+*     south exit from "The Entrance to the Oakencrest Mansion" to
+*     "A Circular Fountain in a Lush Courtyard" - closed
+*
+D 0 38542 0 0 100 0 0 0
+*     north exit from "The Second Floor" to
+*     "A Large Bedroom" - open
+*
+D 0 38547 2 0 100 0 0 0
+*     south exit from "A Large Bedroom" to
+*     "The Second Floor" - open
+*
+D 0 38542 1 0 100 0 0 0
+*     east exit from "The Second Floor" to
+*     "A Large Bedroom" - open
+*
+D 0 38548 3 0 100 0 0 0
+*     west exit from "A Large Bedroom" to
+*     "The Second Floor" - open
+*
+D 0 38543 0 1 100 0 0 0
+*     north exit from "The Second Floor" to
+*     "Master Bedroom of General Oakencrest" - closed
+*
+D 0 38545 2 1 100 0 0 0
+*     south exit from "Master Bedroom of General Oakencrest" to
+*     "The Second Floor" - closed
+*
+D 0 38543 1 1 100 0 0 0
+*     east exit from "The Second Floor" to
+*     "The Study of General Oakencrest" - closed
+*
+D 0 38544 3 1 100 0 0 0
+*     west exit from "The Study of General Oakencrest" to
+*     "The Second Floor" - closed
+*
+D 0 38543 3 1 100 0 0 0
+*     west exit from "The Second Floor" to
+*     "A Balcony" - closed
+*
+D 0 38546 1 1 100 0 0 0
+*     east exit from "A Balcony" to
+*     "The Second Floor" - closed
+*
+D 0 38571 0 1 100 0 0 0
+*     north exit from "Before an Old Tavern" to
+*     "An Old Tavern" - closed
+*
+D 0 38572 2 1 100 0 0 0
+*     south exit from "An Old Tavern" to
+*     "Before an Old Tavern" - closed
+*
+*
+O 0 38427 1 38411 100 0 0 0        * a pond
+O 0 38443 1 38489 100 0 0 0        * a merchant caravan
+O 0 38442 1 38495 100 0 0 0        * some beautiful roses
+O 0 38424 1 38526 100 0 0 0        * some bottled wine
+O 0 38401 1 38534 100 0 0 0        * a circular fountain
+*
+M 0 38470 2 38400 100 0 0 0        * a guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38470 2 38400 100 0 0 0        * a guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38433 2 38401 100 0 0 0        * a servant
+M 0 38435 2 38402 100 0 0 0        * an throne room guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38435 2 38402 100 0 0 0        * an throne room guard
+M 0 38473 1 38403 100 0 0 0        * a champion
+E 1 38446 1 16 100 0 0 0           *   a brilliant two-handed longsword
+M 0 38423 1 38404 100 0 0 0        * an elven diplomat
+E 1 38419 1 15 100 0 0 0           *   a bracelet of woven leafs
+M 0 38426 1 38405 100 0 0 0        * a hearty mountain dwarf
+M 0 38424 1 38406 100 0 0 0        * a gnome emissary
+E 1 38422 1 6 100 0 0 0            *   a magical pointy top hat
+M 0 38425 1 38408 100 0 0 0        * a barbarian tribesman
+E 1 38423 1 12 100 0 0 0           *   a fur skin cloak of the tundra
+M 0 38430 4 38410 100 0 0 0        * a fluffy rabbit
+M 0 38431 2 38410 100 0 0 0        * a little squirrel
+M 0 38430 4 38412 100 0 0 0        * a fluffy rabbit
+M 0 38430 4 38417 100 0 0 0        * a fluffy rabbit
+M 0 38431 2 38418 100 0 0 0        * a little squirrel
+M 0 38430 4 38422 100 0 0 0        * a fluffy rabbit
+M 0 38433 2 38423 100 0 0 0        * a servant
+M 0 38432 2 38428 100 0 0 0        * a servant
+M 0 38415 2 38429 100 0 0 0        * an elite soldier
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38415 2 38429 100 0 0 0        * an elite soldier
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38441 2 38431 100 0 0 0        * a servant
+M 0 38469 6 38432 100 0 0 0        * a servant
+M 0 38469 6 38432 100 0 0 0        * a servant
+M 0 38469 6 38433 100 0 0 0        * a servant
+M 0 38469 6 38433 100 0 0 0        * a servant
+M 0 38469 6 38435 100 0 0 0        * a servant
+M 0 38469 6 38435 100 0 0 0        * a servant
+M 0 38441 2 38436 100 0 0 0        * a servant
+M 0 38443 1 38437 100 0 0 0        * a cook
+M 0 38444 1 38439 100 0 0 0        * the chamberlain
+E 1 38433 1 2 100 0 0 0            *   a silver ring
+F 1 38445 2 38439 100 0 0 0        * an royal guard (following)
+E 1 38410 3 16 100 0 0 0           *   a battle mace
+F 1 38445 2 38439 100 0 0 0        * an royal guard (following)
+E 1 38410 3 16 100 0 0 0           *   a battle mace
+M 0 38462 2 38443 100 0 0 0        * a powerful guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38462 2 38443 100 0 0 0        * a powerful guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38461 2 38445 100 0 0 0        * a patrolling pikeman
+E 1 38409 4 16 100 0 0 0           *   a huge polearm
+M 0 38460 1 38446 100 0 0 0        * a porter
+M 0 38466 1 38447 100 0 0 0        * a barbarian ambassador
+E 1 38437 1 18 100 0 0 0           *   a barbarian tundra tribe totem
+M 0 38461 2 38449 100 0 0 0        * a patrolling pikeman
+E 1 38409 4 16 100 0 0 0           *   a huge polearm
+M 0 38463 1 38451 100 0 0 0        * an elven ambassador
+M 0 38458 1 38454 100 0 0 0        * a porter
+M 0 38459 1 38454 100 0 0 0        * a porter
+G 1 38438 1 0 100 0 0 0            *    an elvish note
+M 0 38464 1 38455 100 0 0 0        * a halfling ambassador
+E 1 38440 1 20 100 0 0 0           *   a magical maple leaf
+M 0 38465 1 38457 100 0 0 0        * a gnome ambassador
+E 1 38441 1 16 100 0 0 0           *   a magical flaming rod
+M 0 38474 1 38458 100 0 0 0        * a loyal retainer
+E 1 38447 1 3 100 0 0 0            *   a serpentine medallion
+M 0 38457 1 38460 100 0 0 0        * Turnuckle
+E 1 38436 1 3 100 0 0 0            *   a necklace of flowing mist
+M 0 38446 2 38461 100 0 0 0        * an ambassadorial guard
+E 1 38408 5 16 100 0 0 0           *   a steel broadsword
+M 0 38446 2 38461 100 0 0 0        * an ambassadorial guard
+E 1 38408 5 16 100 0 0 0           *   a steel broadsword
+M 0 38437 2 38463 100 0 0 0        * an elite guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38437 2 38463 100 0 0 0        * an elite guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38432 2 38464 100 0 0 0        * a servant
+M 0 38436 1 38464 100 0 0 0        * a patrolling pikeman
+E 1 38409 4 16 100 0 0 0           *   a huge polearm
+M 0 38422 1 38465 100 0 0 0        * King Ulgris
+M 0 38477 1 38465 100 0 0 0        * Yuppi
+M 0 38485 1 38467 100 0 0 0        * a handmaiden
+M 0 38456 1 38470 100 0 0 0        * a plump guest
+E 1 38435 1 21 100 0 0 0           *   a long gemstone earring
+M 0 38428 1 38472 100 0 0 0        * prince Karyn
+G 1 38430 1 0 100 0 0 0            *    the seal of prince Karyn
+M 0 38429 1 38473 100 0 0 0        * princess Dyneen
+G 1 38431 1 0 100 0 0 0            *    the seal of princess Dyneen
+M 0 38438 1 38475 100 0 0 0        * Queen Napolia
+M 0 38442 1 38477 100 0 0 0        * an old monk
+E 1 38426 1 5 100 0 0 0            *   an old robe of an astute monk
+M 0 38475 2 38484 100 0 0 0        * a swordsman
+E 1 38448 2 16 100 0 0 0           *   a crimson-hued steel longsword
+G 1 38454 1 0 100 0 0 0            *    a crimson key
+M 0 38475 2 38484 100 0 0 0        * a swordsman
+E 1 38448 2 16 100 0 0 0           *   a crimson-hued steel longsword
+M 0 38471 1 38485 100 0 0 0        * a wandering bard
+E 1 38444 1 23 100 0 0 0           *   a glowing bard sack
+M 0 38416 1 38487 100 0 0 0        * the weaponsmith
+G 1 38410 3 0 100 0 0 0            *    a battle mace
+G 1 38408 5 0 100 0 0 0            *    a steel broadsword
+G 1 38409 4 0 100 0 0 0            *    a huge polearm
+M 0 38417 2 38488 100 0 0 0        * a blacksmith
+E 1 38405 1 9 100 0 0 0            *   a pair of royal blacksmith gloves
+M 0 38472 1 38489 100 0 0 0        * a tall merchant
+M 0 38480 1 38489 100 0 0 0        * a highlord
+E 1 38452 2 2 100 0 0 0            *   a golden signet ring
+M 0 38418 1 38490 100 0 0 0        * an armorsmith
+G 1 38414 1 0 100 0 0 0            *    some steel leggings
+G 1 38413 1 0 100 0 0 0            *    some steel sleeves
+G 1 38412 1 0 100 0 0 0            *    some leather-studded armor
+M 0 38417 2 38491 100 0 0 0        * a blacksmith
+E 1 38411 1 10 100 0 0 0           *   a pair of royal blacksmith sleeves
+M 0 38403 1 38492 100 0 0 0        * a kitchen cook
+M 0 38404 1 38492 100 0 0 0        * an indentured servant
+M 0 38402 1 38493 100 0 0 0        * the barkeep
+M 0 38401 2 38493 100 0 0 0        * a lively drunkard
+M 0 38401 2 38493 100 0 0 0        * a lively drunkard
+M 0 38427 1 38493 100 0 0 0        * a stealthy figure
+M 0 38481 1 38493 100 0 0 0        * a mercenary
+M 0 38408 1 38494 100 0 0 0        * Licub
+M 0 38407 4 38494 100 0 0 0        * a horse
+M 0 38407 4 38494 100 0 0 0        * a horse
+M 0 38407 4 38494 100 0 0 0        * a horse
+M 0 38407 4 38494 100 0 0 0        * a horse
+M 0 38409 2 38496 100 0 0 0        * a servant
+M 0 38420 1 38496 100 0 0 0        * lord Du'kel
+G 1 38416 1 0 100 0 0 0            *    Lord Du'kel's signet ring
+M 0 38467 1 38498 100 0 0 0        * an apprentice
+M 0 38450 2 38499 100 0 0 0        * a cook
+M 0 38451 6 38500 100 0 0 0        * a dining guest
+M 0 38451 6 38500 100 0 0 0        * a dining guest
+M 0 38409 2 38503 100 0 0 0        * a servant
+M 0 38453 4 38504 100 0 0 0        * a stout guest
+M 0 38453 4 38504 100 0 0 0        * a stout guest
+M 0 38453 4 38505 100 0 0 0        * a stout guest
+M 0 38453 4 38505 100 0 0 0        * a stout guest
+M 0 38451 6 38506 100 0 0 0        * a dining guest
+M 0 38451 6 38506 100 0 0 0        * a dining guest
+M 0 38452 2 38507 100 0 0 0        * a sleeping guest
+M 0 38452 2 38507 100 0 0 0        * a sleeping guest
+M 0 38414 2 38518 100 0 0 0        * an onyx griffon
+G 1 38407 1 0 100 0 0 0            *    an ancient key
+M 0 38414 2 38518 100 0 0 0        * an onyx griffon
+M 0 38412 2 38525 100 0 0 0        * a servant
+M 0 38439 1 38525 100 0 0 0        * the vineyard keeper
+G 1 38429 1 0 100 0 0 0            *    a vineyard key
+M 0 38421 1 38525 100 0 0 0        * Lord Berani
+G 1 38417 1 0 100 0 0 0            *    Lord Berani's signet ring
+M 0 38455 1 38527 100 0 0 0        * a dance instructor
+E 1 38434 1 13 100 0 0 0           *   an exquisite silk sash
+M 0 38454 2 38529 100 0 0 0        * a dining guest
+M 0 38454 2 38529 100 0 0 0        * a dining guest
+M 0 38412 2 38530 100 0 0 0        * a servant
+M 0 38440 2 38530 100 0 0 0        * a servant
+M 0 38440 2 38531 100 0 0 0        * a servant
+M 0 38447 8 38532 100 0 0 0        * a sleeping guest
+M 0 38447 8 38532 100 0 0 0        * a sleeping guest
+M 0 38447 8 38533 100 0 0 0        * a sleeping guest
+M 0 38447 8 38533 100 0 0 0        * a sleeping guest
+M 0 38483 1 38534 100 0 0 0        * a former soldier
+E 1 38451 1 24 100 0 0 0           *   a white rose
+M 0 38484 1 38534 100 0 0 0        * a noble lord
+E 1 38452 2 2 100 0 0 0            *   a golden signet ring
+M 0 38405 2 38535 100 0 0 0        * a servant
+M 0 38406 1 38536 100 0 0 0        * the weaponsmaster
+E 1 38402 1 16 100 0 0 0           *   a scimitar of Oakencrest
+M 0 38451 6 38537 100 0 0 0        * a dining guest
+M 0 38451 6 38537 100 0 0 0        * a dining guest
+M 0 38450 2 38538 100 0 0 0        * a cook
+M 0 38405 2 38540 100 0 0 0        * a servant
+M 0 38468 2 38541 100 0 0 0        * a warrior
+M 0 38468 2 38541 100 0 0 0        * a warrior
+M 0 38448 1 38544 100 0 0 0        * an architect
+M 0 38419 1 38545 100 0 0 0        * lord Oakencrest
+G 1 38415 1 0 100 0 0 0            *    Lord Oakencrest's signet ring
+M 0 38449 1 38546 100 0 0 0        * madam Oakencrest
+M 0 38447 8 38547 100 0 0 0        * a sleeping guest
+M 0 38447 8 38547 100 0 0 0        * a sleeping guest
+M 0 38447 8 38548 100 0 0 0        * a sleeping guest
+M 0 38447 8 38548 100 0 0 0        * a sleeping guest
+M 0 38411 1 38549 100 0 0 0        * Bren
+E 1 38404 1 16 100 0 0 0           *   a large mithril battle-axe
+M 0 38482 1 38549 100 0 0 0        * Nanz
+M 0 38410 1 38550 100 0 0 0        * Garbleyarble
+E 1 38403 1 18 100 0 0 0           *   a gnomish life giving gadget
+M 0 38434 1 38551 100 0 0 0        * a cook
+M 0 38413 2 38552 100 0 0 0        * an armed guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+G 1 38406 1 0 100 0 0 0            *    a steel key
+M 0 38413 2 38552 100 0 0 0        * an armed guard
+E 1 38400 11 16 100 0 0 0          *   a one-handed steel longsword
+M 0 38476 1 38552 100 0 0 0        * a powerful barbarian shaman
+E 1 38449 1 3 100 0 0 0            *   a tribal necklace of royal authority
+M 0 38488 1 38552 100 0 0 0        * an elven ranger
+E 1 38450 1 15 100 0 0 0           *   an elven bracelet of precision
+M 0 38489 1 38552 100 0 0 0        * a dwarven warrior
+E 1 38445 1 6 100 0 0 0            *   a dwarven helmet of knocking
+M 0 38400 2 38567 100 0 0 0        * a dusty guard
+E 1 38408 5 16 100 0 0 0           *   a steel broadsword
+M 0 38400 2 38567 100 0 0 0        * a dusty guard
+E 1 38408 5 16 100 0 0 0           *   a steel broadsword
+M 0 38479 1 38567 100 0 0 0        * Hugo
+M 0 38486 1 38572 100 0 0 0        * Stokely
+M 0 38487 2 38572 100 0 0 0        * a patron
+M 0 38487 2 38572 100 0 0 0        * a patron
+M 0 38492 1 38581 100 0 0 0        * Handerly
+M 0 38490 1 38581 100 0 0 0        * a nomad
+G 1 38453 1 0 100 0 0 0            *    a gold studded horse saddle
+*
+S

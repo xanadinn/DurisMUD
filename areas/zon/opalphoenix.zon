@@ -1,0 +1,131 @@
+#708
+&+gEnclave of the O&+Lpa&+gl Ph&+goe&+Ln&+gi&+Lx&n~
+70876 2 0 10 11 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 70846 3 1 100 0 0 0
+*     west exit from "The Private Chambers of the Archmage" to
+*     "A Hallway of Living Branches" - closed
+*
+D 0 70847 1 1 100 0 0 0
+*     east exit from "A Hallway of Living Branches" to
+*     "The Private Chambers of the Archmage" - closed
+*
+D 0 70849 3 1 100 0 0 0
+*     west exit from "A Hallway of Living Branches" to
+*     "The Bed Chamber of the High Druid" - closed
+*
+D 0 70852 1 1 100 0 0 0
+*     east exit from "The Bed Chamber of the High Druid" to
+*     "A Hallway of Living Branches" - closed
+*
+D 0 70854 2 1 100 0 0 0
+*     south exit from "A Hallway of Living Branches" to
+*     "A Sparsely Furnished and Undecorated Bedroom" - closed
+*
+D 0 70857 0 1 100 0 0 0
+*     north exit from "A Sparsely Furnished and Undecorated Bedroom" to
+*     "A Hallway of Living Branches" - closed
+*
+D 0 70855 2 1 100 0 0 0
+*     south exit from "A Hallway of Living Branches" to
+*     "A Peaceful and Spacious Meditation Room" - closed
+*
+D 0 70856 0 1 100 0 0 0
+*     north exit from "A Peaceful and Spacious Meditation Room" to
+*     "A Hallway of Living Branches" - closed
+*
+D 0 70860 0 1 100 0 0 0
+*     north exit from "The Private Quarters of Breandan, the High Ranger" to
+*     "A Hallway of Living Branches" - closed
+*
+D 0 70861 2 1 100 0 0 0
+*     south exit from "A Hallway of Living Branches" to
+*     "The Private Quarters of Breandan, the High Ranger" - closed
+*
+D 0 70861 1 1 100 0 0 0
+*     east exit from "A Hallway of Living Branches" to
+*     "Alazia's Adventurer Supply Shop" - closed
+*
+D 0 70876 3 1 100 0 0 0
+*     west exit from "Alazia's Adventurer Supply Shop" to
+*     "A Hallway of Living Branches" - closed
+*
+*
+O 0 70810 1 70845 100 0 0 0        * a cherry wood desk
+P 1 70812 1 70810 100 0 0 0        *   an eagle feather quill
+O 0 70816 1 70851 100 0 0 0        * a small wooden chest
+P 1 70822 1 70816 100 0 0 0        *   a leafy mask of Silvanos
+O 0 70824 1 70875 100 0 0 0        * a HUGE sign
+*
+M 0 70814 11 70801 100 0 0 0       * an enclave guard
+M 0 70814 11 70803 100 0 0 0       * an enclave guard
+M 0 70814 11 70805 100 0 0 0       * an enclave guard
+M 0 70814 11 70807 100 0 0 0       * an enclave guard
+M 0 70814 11 70809 100 0 0 0       * an enclave guard
+M 0 70814 11 70811 100 0 0 0       * an enclave guard
+M 0 70814 11 70816 100 0 0 0       * an enclave guard
+M 0 70814 11 70817 100 0 0 0       * an enclave guard
+M 0 70814 11 70820 100 0 0 0       * an enclave guard
+M 0 70814 11 70821 100 0 0 0       * an enclave guard
+M 0 70814 11 70822 100 0 0 0       * an enclave guard
+M 0 70813 12 70825 100 0 0 0       * a stoic guard
+M 0 70813 12 70826 100 0 0 0       * a stoic guard
+M 0 70813 12 70829 100 0 0 0       * a stoic guard
+M 0 70813 12 70830 100 0 0 0       * a stoic guard
+M 0 70813 12 70833 100 0 0 0       * a stoic guard
+M 0 70813 12 70834 100 0 0 0       * a stoic guard
+M 0 70813 12 70837 100 0 0 0       * a stoic guard
+M 0 70813 12 70838 100 0 0 0       * a stoic guard
+M 0 70813 12 70839 100 0 0 0       * a stoic guard
+M 0 70813 12 70840 100 0 0 0       * a stoic guard
+M 0 70813 12 70841 100 0 0 0       * a stoic guard
+M 0 70813 12 70842 100 0 0 0       * a stoic guard
+M 0 70802 1 70845 100 0 0 0        * a student
+M 0 70803 1 70845 100 0 0 0        * a student
+M 0 70804 1 70845 100 0 0 0        * a student
+M 0 70805 1 70846 100 0 0 0        * Lahoneth
+E 1 70813 1 12 100 0 0 0           *   opalescent robes of the archmagi
+M 0 70807 4 70851 100 0 0 0        * a druidic acolyte
+M 0 70807 4 70851 100 0 0 0        * a druidic acolyte
+M 0 70807 4 70851 100 0 0 0        * a druidic acolyte
+M 0 70807 4 70851 100 0 0 0        * a druidic acolyte
+M 0 70806 1 70852 100 0 0 0        * Azalea
+E 1 70818 1 18 100 0 0 0           *   a staff of woodland vigor
+G 1 70821 1 0 100 0 0 0            *    a small talisman of birchwood
+M 0 70812 4 70856 100 0 0 0        * an acolyte of the fist
+M 0 70812 4 70856 100 0 0 0        * an acolyte of the fist
+M 0 70812 4 70856 100 0 0 0        * an acolyte of the fist
+M 0 70812 4 70856 100 0 0 0        * an acolyte of the fist
+M 0 70811 1 70857 100 0 0 0        * Ionathe
+E 1 70815 1 15 100 0 0 0           *   a set of opal prayer beads
+M 0 70809 2 70859 100 0 0 0        * a martial arts student
+M 0 70809 2 70859 100 0 0 0        * a martial arts student
+M 0 70810 2 70859 100 0 0 0        * a martial arts student
+M 0 70810 2 70859 100 0 0 0        * a martial arts student
+M 0 70808 1 70860 100 0 0 0        * Breandan
+E 1 70814 1 8 100 0 0 0            *   boots of endurance
+M 0 70817 3 70864 100 0 0 0        * a gentle doe
+M 0 70816 2 70865 100 0 0 0        * a black bear
+G 1 70819 1 0 100 0 0 0            *    the intestines of a bear
+M 0 70817 3 70866 100 0 0 0        * a gentle doe
+M 0 70818 1 70868 100 0 0 0        * a black bear
+M 0 70815 1 70870 100 0 0 0        * an old woman
+M 0 70817 3 70872 100 0 0 0        * a gentle doe
+M 0 70816 2 70874 100 0 0 0        * a black bear
+M 0 70801 1 70876 100 0 0 0        * Alazia
+G 1 70801 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70802 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70803 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70804 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70805 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70806 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70807 999 0 100 0 0 0          *    a stylish silken backpack
+G 1 70808 999 0 100 0 0 0          *    a small leaf shaped earring
+G 1 70809 999 0 100 0 0 0          *    a silken belt with a stylized iron buckle
+G 1 70811 999 0 100 0 0 0          *    a midnight blue tome with silver bindings
+G 1 70817 999 0 100 0 0 0          *    a silvery potion
+*
+S

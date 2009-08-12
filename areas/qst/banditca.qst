@@ -1,0 +1,188 @@
+#14800
+MA
+qc_action 80~
+&+yThe mercenary guard&N looks at you and says 'Ey! Wud ar' yoo lookin'
+at!'
+
+&+yThe mercenary guard hiccups loudly. *HIC*
+~
+MA
+qc_action 81~
+&+yThe mercenary guard&N says 'Move along, move along...'
+~
+S
+#14801
+MA
+qc_action 80~
+&+mA mercenary sorcerer&N flips through the pages of the book he holds,
+searching for something.
+~
+MA
+qc_action 81~
+&+mA mercenary sorcerer&N stares off into the distance, a pensive look
+on his face.
+~
+MA
+qc_action 83~
+&+mA mercenary sorcerer&N sighs as his drunken comrades' argument
+escalates into a shoving match.
+~
+S
+#14807
+MA
+qc_action 55~
+&+yThe slaves&N begin to shout excitedly when they see you.
+
+'The key! The guard has the key to our shackles!  Slay him!'
+~
+Q
+The slaves cheer in delight at the sight of the key.
+
+"Isoril, that scum!  We've been kept here ever since his
+bandits raided our village three months ago.  Half our
+original group has already been sold by the auctioneer -
+thank you SO much for saving us hero!
+
+Are you seeking Perrin's son and daughter?  Perrin's
+daughter is in Isoril's quarters.  But we don't know
+what happened to Perrin's son, in fact, the other night
+we heard terrible screams that sounded like Perrin's son
+coming from one of the barracks.  It might be too late.
+
+Again, thank you for saving us."
+~
+R E 10000
+G I 14831
+D
+The slaves run southwards out of the cage. For emaciated
+slaves, they sure are moving fast!
+~
+S
+#14814
+MA
+qc_action 80~
+&+gThe auctioneer&N shouts 'Bidding starts at ten platinum coins for
+this fine ogre slave!'
+~
+MA
+qc_action 81~
+&+gThe auctioneer&N looks at you and grins.
+
+'Interested in placing a bid?'
+~
+MA
+qc_action 83~
+&+gThe auctioneer&N scans the room, seemingly looking for someone in
+particular.
+~
+S
+#14815
+MA
+qc_action 80~
+&+bThe ogre slave&N looks at his chains and sighs loudly.
+~
+MA
+qc_action 81~
+Someone from the crowd shouts out a bid, and the &+bogre slave&N begins
+to scan the crowd, looking to assess his potential new master.
+~
+S
+#14820
+M
+hi hello quest help hail~
+The paladin smiles at you sadly
+"The bandit scum found here have troubled Winterhaven for some time
+now and their latest acts -- kidnapping the son and daughter of a
+Winterhaven lord prompted the decision to raid this camp.  I was
+commissioned to lead that raid.  But the foul bandits number too many
+and their leader, Isoril, is too powerful.  Rather than risk the life of
+more of my men, I ordered them to withdraw back to Winterhaven.
+
+For me to return to Winterhaven as well is unthinkable -- living with
+such a blow to my honor is a fate worse than death.
+
+Adventurer you can help!  You can enter the camp under the guise of a slave
+trader.  The bandits won't recognize you as a threat and you will be able
+to move freely within the camp.
+
+I have three missions for you:  Rescue the &+Wboy&N and rescue the &+Wgirl&N.
+I have a &+Wkill&N task for you as well.  Ask me about either of these
+missions for more information.
+~
+M
+boy~
+The son of Winterhaven Lord Perrin was kidnapped several weeks
+ago by Isoril with a ransom demand of 4000 platinum coins.  The ransom
+was not paid and I fear the worst, particularly after the failed raid.
+Enter the camp, find where he is being held captive and bring him to me.
+It may be too late -- if it is, at least show me proof.  Give me his ring.
+The ring is pure gold, very ornate and very valuable.  Perhaps  the
+bandits are still keeping it in their possession.  Go!  You will be well
+rewarded.
+~
+M
+girl~
+Lord Perrin's daughter was kidnapped several weeks ago
+along with Perrin's son.  I have learned that Perrin's daughter may still
+be alive and may be prisoner in Isoril's personal quarters!  Isoril is
+an anti-paladin of incredible power.  You will not be able to defeat him,
+but, if you possess skills of stealth then you don't have to!  Try sneaking
+into his quarters and see if Perrin's daughter is being held there.  If she
+is, unlock her shackles and set her free.  I am sure Isoril keeps the key
+to her shackles somewhere in his quarters, possibly his desk...
+~
+M
+kill~
+The full members of Isoril's inner circle identify themselves
+with a blood red tear insignia.  If these members were slain, it would
+cause chaos with Isoril's ranks and possibly leave them open to a raid
+that would wipe out the bandit camp for good.  Slay these full members
+and bring me their insignias as proof.  You will be rewarded.
+~
+MA
+qc_action 80~
+The &+Wpaladin warrior&N sizes you up with a quick glance, then smiles.
+~
+MA
+qc_action 81~
+The &+Wpaladin warrior&N asks 'Adventurer, could you &+Whelp&N me?'
+~
+Q
+When the paladin sees the ring he smiles faintly and sighs.
+"Thank you so much for giving me this. I do not look forward to giving
+Perrin the news. You have been successful adventurer and this is
+your reward."
+~
+R I 14827
+G I 14826
+Q
+The paladin grins
+"Thank you adventurer.  Here is your reward."
+~
+R C 5000
+G I 14821
+S
+#14823
+MA
+qc_action 80~
+&+rThe bandit guard&N looks you up and down and smirks.
+
+'Gonna try something?  Bring it on!'
+~
+S
+#14824
+Q
+When you unlock the shackle attached to her wrist, she smiles faintly and
+begins to cry.
+
+"Thank you so much for saving me from the evil Isoril. You are a kind hero
+and I thank you for that. It will be a simple matter for me to escape
+through the secret tunnel located on the west side of the camp. Again I
+thank you for saving me."
+~
+R E 125000
+G I 14828
+D
+The woman then leaves northwards.
+~
+S

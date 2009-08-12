@@ -1,0 +1,745 @@
+#29400
+gardener gnome~
+&+Ga gardener&n~
+A &+Ggardener&n tending to the vegtables.
+~
+A student gardener under the instruction of Merill. While his instructor is a bit strict, he understands it is because of his love and pride of the gardens.
+~
+8 0 0 0 0 0 0 0 S
+PG 0 128 2
+20 0 0 1d1+1 1d1+1
+20.20.20.3 0
+6 6 1
+#29401
+tomato veggie~
+&+Ra tomato&n~
+A yummy &+Rtomato&n ready to be plucked from the vine.
+~
+A yummy tomato hanging on a vine, ready to be plucked!
+~
+8388618 0 0 0 0 0 0 0 S
+VT 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29402
+merill gardener gnome~
+&+Ga gardener&n~
+Merill, the head &+gg&+Ga&+gr&+Gd&+ge&+Gn&+ge&+Gr&n oversees the students.
+~
+  Merill is the head gardener and also the instructor to the students learning
+the gardening trade. He instructs the best ways to grow and fertilize flowers,
+fruits and vegtables. Most of the fresh goods served at Harrow are from this
+garden.
+~
+10 0 0 0 0 0 0 1000 S
+PG 0 256 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#29403
+cucumber veggie~
+&+Ga cucumber &n~
+A ripe &+gcucumber&n waits to be picked from the vine.
+~
+A ripe cucumber waiting to be picked from the vine!
+~
+16394 0 0 0 0 0 0 0 S
+VT 0 0 0
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29404
+lomya crafter woman lady gnome~
+&+bLom&+wy&+ba&n the crafter~
+&+bLom&ny&+ba&n the master &+yleather crafter&n sells her wares.
+~
+  Lomya is an expert leather crafter. She has made some very lovely
+containers to sell to contribute to her leather fund. She is adorned
+with various leather garments.
+~
+2058 0 1048576 0 0 0 0 0 S
+PG 0 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.7 0
+8 8 2
+#29405
+bird~
+&+Gsinging&n &+Bbird&n~
+A beautiful &+gs&+Wi&+gn&+Wg&+gi&+Wn&+gg&n &+Rbird&n is here.
+~
+A beautiful singing bird, spreading his song to all who will listen!
+~
+147466 0 0 0 0 0 0 0 S
+B 0 0 1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29406
+gnome child~
+&+Ya small child&n~
+&+YA small child learning to sew sits here.&n
+~
+A small gnome child learning to sew. He wants to make beautiful garments like his parents.
+~
+10 0 0 0 0 0 0 1000 S
+PG 0 1 2
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#29407
+gnome child~
+a small child~
+&+YA small child learning to sew sits here.&n
+~
+A small gnome child learning to sew. She wants to make beautiful dresses like her mother makes.
+~
+10 0 0 0 0 0 0 1000 S
+PG 0 8192 2
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#29408
+carrot veggie~
+&+ya carrot&n~
+A large &+ycarrot&n, ready for the shredder is in the ground here.
+~
+A large orange carrot ready to be pulled out and shredded into a healthy salad!
+~
+10 0 0 0 0 0 0 0 S
+AC 0 1 1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29409
+rose flower~
+&+Ra rose&n~
+A beautiful &+Mr&+mo&+Ms&+me&n &+gbush&n is here.
+~
+  A beautiful bush full of roses with huge perfect petals and sharp thorns.
+~
+10 0 0 0 8192 0 0 0 S
+AC 0 4096 1
+14 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29410
+sunflower flower~
+&+Ya sunflower&n~
+A huge &+Ysunflower&n towers over most of the &+Ygnomes&n.
+~
+A huge &+Ysunflowers towers over most of the gnomes of the colony.
+~
+10 0 0 0 8192 0 0 0 S
+AC 0 4096 1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29411
+cat kitten~
+a fluffy &+Wwhite&n kitten~
+A &+Wfluffy&n kitten curled up against some laundry.
+~
+ &+M ^&n_____&+M^&n
+ (/     \)
+ ( &+Co&+L .&+C o&n )
+  \_____/
+   | | |
+  (|-|-|)=-
+  ''-'-''
+~
+10 0 0 0 0 0 0 0 S
+A 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#29412
+mob root~
+a &+yroot&n~
+A &+rroot&n, hanging from the garden above.
+~
+A root from the garden below hangs here, deep in the dirt.
+~
+151562 0 0 0 0 0 0 -1000 S
+AH 0 0 2
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29413
+womo woman seamstress merchant~
+&+RW&+ro&+Rmo&n the seamstress~
+&+RW&+ro&+Rmo&n the &+gseamstress&n dazzles you with her &+Ggreenish-&+Bblue&n eyes.
+~
+  &+RWomo is a smug dressmaker who wears too much cosmetics and has sandy hair&n
+&+Rand greenish blue eyes. Her talent as a dressmaker is not quite as notorius&n
+&+Ras the others in her group, but she is an excellent salesperson.&n
+~
+10 128 0 0 0 0 0 0 S
+PG 7 32768 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.5000 0
+8 8 2
+#29414
+visitor~
+a &+Cwandering visitor&n~
+A &+Cwandering visitor&n looks at all the booths.
+~
+A visitor to the commune wanders though the various stalls and exibits, enjoying what he sees.
+~
+8 0 0 0 0 0 0 0 S
+PE 0 1 3
+20 0 0 1d1+1 1d1+1
+11.32.76.7000 0
+8 8 1
+#29415
+visitor~
+a &+Cwandering visitor&n~
+A &+Cwandering visitor&n looks at all the booths.
+~
+  A visitor to the commune, he  wanders though the various stalls and
+exibits, enjoying what he sees.
+~
+8 0 0 0 0 0 0 0 S
+PE 0 1 3
+20 0 0 1d1+1 1d1+1
+11.32.76.7000 0
+8 8 1
+#29416
+chipmunk~
+a &+ychipmunk&n~
+A cute little &+ychipmunk&n plays on the pathway.
+~
+A cute little chipmunk bouncing his way down the path.
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29417
+artisan human~
+a &+Chuman&n &+Mart&+misan&n~
+An &+Mart&+misan&n, wandering and looking at exhibits.&n
+~
+This human has traveled to enjoy the arts of the Harrow Commune. His arms
+are full of purchases.
+~
+2120 0 0 8 0 0 0 0 S
+PH 1 1 3
+25 0 0 1d1+1 1d1+1
+0.0.0.5 0
+8 8 1
+#29418
+young girl~
+a &+Myoung girl&n~
+&+MA young girl, looking for something she lost.&n
+~
+  A young girl looks upset and is brushing away tears. She is looking
+for something she's lost. Surely a person who helps her locate the missing
+object will be rewarded in some way.
+~
+74 0 0 0 0 0 0 1000 S
+PG 8 512 1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#29419
+art student~
+&+mart student&n~
+An &+mart student&n tries to find his way around.
+~
+  An art student who has recently joined the Harrow Artisan Colony to
+further their love and understanding of art.
+~
+10 0 0 0 0 0 0 1000 S
+PG 8 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.3 0
+8 8 1
+#29420
+art student~
+&+Mart student&n~
+An &+Mart student&n tries to find the class.
+~
+ An art student who has recently joined the Harrow Artisan Commune in order to further their love and understanding of art.
+~
+10 0 0 0 0 0 0 1000 S
+PG 4 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.3 0
+8 8 1
+#29421
+alorka crafter head~
+&+MA&+mlorka&n~
+&+MA&+mlorka&n, the head crafter of &+cH&+wa&+yrr&+co&+Cw&n stands here.
+~
+  Alorka is the head crafter at the Harrow Artist Commune. He crafts,
+paints and tinkers with a great number of things. What makes him a favorite
+with the locals is his approach to making items for people who want only the
+best. As long as you bring him the items, he'll be happy to make you objects
+of beauty.
+~
+74 0 0 134217864 0 0 0 1000 S
+PG 7 524288 2
+55 0 0 1d1+1 1d1+1
+0.0.0.20 0
+8 8 1
+#29422
+bard gnome~
+a lonely &+bb&+war&+bd&n~
+A lonely &+bb&+war&+bd&n, playing a sad melody.
+~
+  A lone bard who walks around the small area playing ballads of lost
+loves. He once was engaged to this gnome artist and often sings about her.
+~
+8 0 0 0 0 0 0 1000 S
+PG 8 32768 2
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#29423
+bard gnome sleeping~
+&+ba tired bard&n~
+A sleeping &+bbard lies here in bed.&n
+~
+  The young tired bard lays here exhausted from a night of creative story
+telling and singing. He would be very angry if woke up!
+~
+8 0 0 0 0 0 0 1000 S
+PG 7 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#29424
+bard gnome storyteller~
+a &+Lb&+bar&+Ld&n~
+A &+Lb&+bar&+Ld&n, telling a story to the captive audience.
+~
+A tall charismatic man, with dark hair and sparkling eyes. Visitors from miles around come to hear the colorful tales he has to tell.
+~
+67110920 0 0 0 0 0 0 1000 S
+PG 8 32768 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 8 1
+#29425
+grey visitor~
+&+Ca visitor &n~
+A visitor listens to the &+bstoryteller&n spin his tale.
+~
+  A beautiful young &+Ggnome&n that has traveled from a distance land to hear the stories of the reknown storyteller.
+~
+67110920 0 0 0 0 0 0 1000 S
+PG 8 1 2
+20 0 0 1d1+1 1d1+1
+0.0.0.5 0
+6 6 2
+#29426
+human visitor~
+&+Ca visitor &n~
+A visitor listens to the &+bstoryteller&n spin a tale.
+~
+A beautiful young &+CHuman &nthat has traveled from Tharnadia to hear the stories of the reknown Storyteller.
+~
+67110920 0 0 0 0 0 0 1000 S
+PH 8 1 2
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#29427
+halfling visitor~
+a &+yhalfling&n &+Cvisitor &n~
+A &+yhalfling&n visitor listens to the &+bstoryteller.&n
+~
+A distinguished looking &+yHalfling &nthat has traveled to hear the stories of the storyteller.
+~
+67110920 0 0 0 0 0 0 1000 S
+PF 7 1 2
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#29428
+instructor teacher~
+an &+mart &ninstructor~
+An &+mart instructor,&n arranging &+Rflowers&n in a &+bvase&n.
+~
+  A young and lively gnome that has a deep passion for the arts. She is
+new to &+cH&+wa&+yrr&+co&+Cw&n and is still trying to get to know
+all the students. She is a well known artist in other areas. Today she is
+going to have the students sketch the flowers in the vase.
+~
+34830 0 0 134217880 0 0 0 1000 S
+PG 8 32768 3
+40 0 0 1d1+1 1d1+1
+0.0.0.7 0
+8 8 2
+#29429
+shopkeeper keeper torker knotwood male gnome~
+a &+Mshopkeeper&n~
+&+BT&+bork&+Ber&n &+GKn&+gotw&+Good&n &+msells &+Cmagic&n &+mand &+Cart&n &+mitems.&n
+~
+A tired shopkeeper who passes his time drawing in his sketch book. He looks at you and asks, "What ya want?"
+~
+133134 0 0 0 0 0 8192 1000 S
+PG 7 512 2
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#29430
+cook~
+the cook~
+The &+bcook&n stands here stirring a &+rpot&n at the busy stove.
+~
+A plump cook, stirring a pot for tonight's dinner.
+~
+2058 0 0 128 0 0 8192 0 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.5 0
+8 8 1
+#29431
+spider~
+&+Lpoisonous spider&n~
+&+LA poisonous spider crawls here.&n
+~
+A hairy poisonous spider that searches around for pray.
+~
+10 1 0 256 0 4194304 2 -1000 S
+AS 0 1 1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29432
+art student~
+&+wan art student&n~
+&+wAn &+Mart&n student, hanging out with friends here. &n
+~
+  An art student who has recently joined the Harrow Artisan colony to
+further their love and understanding of art. He loves to draw and paint.
+~
+8 0 0 0 0 0 0 1000 S
+PG 8 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.3 0
+8 8 1
+#29433
+glassblower glass gnome~
+a &+Cresting &+cgla&+Cssblo&+cwer&n~
+&+CA &+cgla&+Cssblo&+cwer&n rests here after working hard on a project.&n
+~
+  A young glassblower, tired from the hard work of spending hours on his
+trade. The long hours of the hot flame can often takes its tole.
+~
+2058 0 0 0 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#29434
+glassblower glass brwra~
+&+Chead &+cgla&+Cssblo&+cwer&n~
+&+CBrwra&n, the head &+cgla&+Cssblo&+cwer&n teaches students his craft.
+~
+Brwra is a hardworking man who has been perfecting his craft for many many years. He resides here now teaching the craft to the students.
+~
+2058 0 0 16777216 0 0 0 1000 S
+PG 8 1 2
+45 0 0 1d1+1 1d1+1
+0.0.0.8 0
+8 8 0
+#29435
+gnome sleeping seamstress~
+a sleeping &+Yseamstress &n~
+A &+yseamstress&n lies in her bed &+Cdreaming&n of beautiful gowns.&n
+~
+A sleeping young girl who is training to be a seamstress. Making beautiful garments is her dream.
+~
+10 0 0 0 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#29436
+gnome sleeping tailor boy~
+sleeping &+ytailor &n~
+A young boy dreams of being a respected &+ytailor&n one day.
+~
+A sleeping young boy who is training to be a tailor. Making beautiful garments is his dream.
+~
+10 0 0 0 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#29437
+lidda seamstress head~
+&+BLidda&n, the head seamstress~
+&+BLidda&n the head seamstress instructs new students how to sew.
+~
+Lidda is the Head Seamstress at the Commune. While sewing is not as glamorous
+as some of the other arts, it is a very important craft and a real art to make
+beautiful garments.
+~
+2314 128 0 16777344 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.8 0
+8 8 2
+#29438
+artist gnome sleeping~
+sleeping &+Martist&n~
+A sleeping &+Martist&n lies here still splattered with &+Rpaint.&n
+~
+A young artist who is so tired he has fallen asleep covered in paint.
+~
+10 0 0 0 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#29439
+alullyra painter head gnome~
+head &+Mpainter&n~
+&+MA&+mlullyra&n, the head &+Bp&+bai&+Bnter&n eyes a near finished project.
+~
+Alullyra is the head painter of the commune and gained the respect of
+the students and others long before coming here.
+~
+2058 0 0 16777344 0 0 0 1000 S
+PG 8 1 2
+45 0 0 1d1+1 1d1+1
+0.0.0.8 0
+8 8 2
+#29440
+artist gnome sleeping~
+&+man artist&n~
+An &+martist&n who is working very quietly on a near finished &+Bpainting&n.
+~
+  A young artist who is so passionate about his work, he is staying up
+to finish the painting he was waiting on.
+~
+10 0 0 0 0 0 0 1000 S
+PG 8 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 8 1
+#29441
+stag grazing~
+&+ya &+ggrazing&n &+ystag&n~
+&+yA stag &+ggrazes&n &+yhere in the forest.&n
+~
+~
+74 0 0 0 0 0 0 0 S
+A 0 0 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29442
+blind fish~
+a &+bbl&ni&+bnd&n &+cfish&n~
+A &+cfish&n swims &+Lbl&ni&+Lndly&n around the &+Blake&n.
+~
+~
+8 4 0 0 0 0 0 0 S
+F 0 0 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29443
+warty toad~
+a &+gwarty&n &+Ltoad&n~
+A &+gwarty&n &+Ltoad&n hops around in the &+ymud&n.
+~
+~
+10 0 0 0 0 0 0 0 S
+F 0 0 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29444
+gnome gnomish fisherman man bom fitherwood~
+&+BBom &+gFitherwood&n~
+&+BBom&n &+gFitherwood, the &+Rgnome&n sits here &+Gfishing&n.
+~
+  &+BBom&n &+gFitherwood&n is a happy gnome who spends most of his time by the
+lake fishing his days away. He is a great lover of art and good food. He
+enjoys talking about fishing too, just ask him!
+~
+10 0 0 0 0 0 0 0 S
+PG 7 128 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.5 0
+6 6 1
+#29445
+otter~
+a playful &+yotter&n~
+An &+yotter&n swims playfully through the water.
+~
+~
+10 0 0 0 0 0 0 0 S
+A 0 0 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29446
+gipie gippie gip gnome maker male~
+&+GG&+gip&+Gie&n the &+ybaker&n~
+&+GG&+gip&+Gie&n is a charming &+Wbaker&n with &+Rred&n hair.
+~
+&+GG&+gip&+Gie&n is a charming &+Wbaker&n with &+Rred&n hair and &+Lblack&n eyes, who keeps a &+ypet&n snake.
+He uses his artist abilities with food that look as good as they taste. He
+bakes treats, stews up meals and grills up foods that make the mind spin.
+~
+10 0 0 0 0 0 0 0 S
+PG 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.5500 0
+8 8 1
+#29447
+tree giant~
+&+ga giant tree full of leaves&n~
+A giant &+gtree&n with leaves bigger than most &+Rgnomes&n.
+~
+~
+10 5 0 0 0 0 0 0 S
+VT 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29448
+tree giant~
+&+ya giant tree with massive roots&n~
+A &+yhuge tree&n with roots rising up out of the &+Lmud&n.
+~
+~
+10 0 0 0 0 0 0 0 S
+VT 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29449
+fish goldfish~
+a &+ygoldf&+Yis&+yh&n~
+A &+ygoldf&+Yis&+Yh&n swims &+rquickly&n through the &+bwater&n.
+~
+~
+262152 0 0 2048 0 0 0 0 S
+F 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29450
+whale~
+a &+Lwhale&n~
+A large &+Lwhale&n swims around here.
+~
+~
+286734 1 0 256 0 0 0 0 S
+F 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29451
+aqua aquakitty fish kitty cat~
+&+Can &+Ca&+cq&+wu&+ca&+C-k&+yi&+Ytt&+cy&n~
+An &+Ca&+cq&+wu&+ca&+C-k&+yi&+Ytt&+cy&n swims around and rubs against your leg.
+~
+A cute little aquakitty swims around snuggling up to others in the water. Where did they find this mutant of a fish?
+~
+262152 0 0 2048 0 0 0 0 S
+F 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29452
+vetrix jeweler gnome male~
+&+YV&+yetr&+Yix&n the jeweler~
+&+YV&+yetr&+Yix&n the &+ccha&+Crisma&+ctic&n jeweler with &+wsilver&n hair and &+yamber&n eyes.
+~
+&+YV&+yetr&+Yix&n woes the ladies with his charm and dazzles them with the
+gems and jewelry. He has been making unique creations for years and is even
+a bit leary of letting anyone else know his trade secrets.
+~
+10 0 0 0 0 0 0 0 S
+PG 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.5888 0
+8 8 1
+#29453
+klemo gnome toymaker~
+&+yKl&+ce&+ymo&n the &+Yt&+yo&+Yy&n &+Ym&+ya&+Yker&n~
+&+yKl&+ce&+ymo&n sells his &+yhandmade&n &+Yt&+yo&+Yys&n with an honest &+csm&+Ci&+cle&n.
+~
+Klemo has always kept to himself and learned a trade of woodworking. He began
+making toys to give to children to make them smile. His gifts are some of the
+most popular around.
+~
+10 0 0 0 262144 0 0 0 S
+PG 0 2 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#29454
+leprechaun~
+&+ga leprechaun&n~
+&+gA &+GLepr&+gecha&+Gun&n stands here &+Lsmoking&n his &+ypipe&n.
+~
+~
+8 768 0 0 0 0 0 0 S
+HF 0 2 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.12 0
+8 8 1
+#29455
+hamster~
+&+La&n &+yh&+wa&+ym&+ws&+yt&+we&+yr&n~
+&+LA&n &+yh&+wa&+ym&+ws&+yt&+we&+yr&n &+Lrolls around in his &+Rball&+L, bumping into everything.&n
+~
+     __.---.__
+     }/ . . \{
+     (  =o=  )
+      \__Y__/
+     /~ _ _ ~\
+     \m/   \m/
+      |_   _|
+     (_ | | _)
+     |m_|-|_m|
+~
+200 0 0 0 0 0 0 0 S
+A 0 64 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#29456
+henna merchant gnome girl lady~
+&+BHenna&n the flower seller~
+&+BH&+me&+Bnna&n stands here selling flowers and handblown glass vases.
+~
+~
+10 0 0 0 0 0 0 0 S
+PG 0 128 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#29457
+fiona seller masks merchant~
+&+MF&+miona&n the &+cceramic&n mask seller~
+&+mF&+Miona stands here selling her &+cceramic&n masks.
+~
+~
+10 0 0 0 0 0 0 0 S
+PG 0 32768 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#29458
+mandar merchant crafter gnome~
+&+bM&+Ba&+bnd&+Ba&+br&n the &+yins&+Ytrume&+ynt&n &+Ccrafter&n~
+&+bM&+Ba&+bnd&+Ba&+br&n stands here selling and crafting &+yins&+Ytrume&+ynts&n.
+~
+~
+10 128 0 0 0 0 0 0 S
+PG 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

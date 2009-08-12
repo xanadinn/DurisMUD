@@ -1,0 +1,1898 @@
+#1700
+&+LA Steep, Rocky Passage&N~
+&n   This steep passage leads down to the caverns of the underdark and
+climbs gradually upward toward the surface.  The tunnel has clearly seen
+heavy use as it has been cleared of all stalagmites and other debris, and
+has been widened in some places in order to be allow passage of wagons and
+carts.  The heavy traffic has also gotten rid of most of the more
+dangerous creatures that would often plague a tunnel such as this.&n
+~
+17 1 14
+D4
+~
+~
+0 0 1701
+D5
+~
+~
+0 0 850045
+S
+#1701
+&+LA Steep, Rocky Passage&N~
+&n   Rough rocks and broken stalagmites have been stacked along the sides of
+the passageway has it heads upward to the surface and downwards into the
+underdark.  Ruts in the stone show that heavy carts have been taken up and
+down this tunnel.  The area is clean, with the exception of a few
+flourescent lichen that cling to the walls.&n
+~
+17 1 14
+D4
+~
+~
+0 0 1702
+D5
+~
+~
+0 0 1700
+S
+#1702
+&+LA Wide, Sloping Tunnel&N~
+&n   The slope of the tunnel here is not as steep as to the north and south
+where they climb is a bit abrupt and difficult to manage.  The passageway
+is wider here, and there are spots where it appears workers have rested
+while carting heavy loads up and down the tunnel.  A large sign is on the
+eastern wall.&n
+~
+17 1 14
+D4
+~
+~
+0 0 1703
+D5
+~
+~
+0 0 1701
+S
+#1703
+&+LA Steep, Well-Tended Tunnel&N~
+&n   Deep ruts in the stone mark the passage of many heavy carts that have
+traveled in both directions along this steep passage down to the vast
+caverns of the underdark.  The tunnel has been kept smooth and clean, so
+that loads aren't ruined by slipping down the slope to quickly.  The
+tunnel continues its climb to the north and drops down sharply to the
+south.&n
+~
+17 1 14
+D4
+~
+~
+0 0 1704
+D5
+~
+~
+0 0 1702
+S
+#1704
+&+LThe Top of a Steep Tunnel&N~
+&n   A wide, steep tunnel dives downward toward the underdark here.  The
+passageway is wide and well-tended, and marked with the ruts of heavy
+carts that have passed through here.  A heavy stone door is right above,
+presumably exiting the tunnel to the surface.  Metal chains along the
+southern wall hint at a complex mechanism of some sort that must be used
+to move carts and crates from the tunnel to the room above.&n
+~
+17 1 14
+D4
+~
+door trapdoor stone~
+1 0 1705
+D5
+~
+~
+0 0 1703
+S
+#1705
+&+LA Gigantic Stone Warehouse&N~
+&n   This massive stone warehouse extends well off to the east, showing a
+size and space unmatched by most free-standing buildings.  The building
+itself, like most of Quietus Quay, has been carved directly out of
+mountains near the ocean shore.  A large stone trapdoor is in the floor
+here, along with a complex set of machinery that appears to be designed
+for moving around large, heavy crates.&n
+~
+17 9 15
+D1
+~
+~
+0 0 1706
+D5
+~
+stone trapdoor~
+1 0 1704
+S
+#1706
+&+LA Gigantic Stone Warehouse&N~
+&n   Stone shelves line the high walls, with ladders and ropes used to raise
+and lower crates to the elevated heights.  Without the shelves the
+warehouse is likely to be one of the largest in the world.  There is
+enough space on the floor alone to hold the cargo of fifty large ships.
+Crates of every size and shape dot the room, many split into 'lots' based
+on their owner.  The massive warehouse extends to the east and west and a
+large set of double doors is to the south.&n
+~
+17 9 15
+D1
+~
+~
+0 0 1707
+D2
+~
+door doors double stone~
+1 0 1709
+D3
+~
+~
+0 0 1705
+S
+#1707
+&+LA Gigantic Stone Warehouse&N~
+&n   Stone shelves line the high walls, with ladders and ropes used to raise
+and lower crates to the elevated heights.  Without the shelves the
+warehouse is likely to be one of the largest in the world.  There is
+enough space on the floor alone to hold the cargo of fifty large ships.
+Crates of every size and shape dot the room, many split into 'lots' based
+on their owner.  The massive warehouse extends to the east and west.&n
+~
+17 9 15
+D1
+~
+~
+0 0 1708
+D3
+~
+~
+0 0 1706
+S
+#1708
+&+LA Gigantic Stone Warehouse&N~
+&n   Stone shelves line the high walls, with ladders and ropes used to raise
+and lower crates to the elevated heights.  Without the shelves the
+warehouse is likely to be one of the largest in the world.  There is
+enough space on the floor alone to hold the cargo of fifty large ships.
+Crates of every size and shape dot the room, many split into 'lots' based
+on their owner.  The massive warehouse extends to the west.&n
+~
+17 9 15
+D3
+~
+~
+0 0 1707
+S
+#1709
+&+yThe Docks of &+LQuietus Quay&N~
+&n   A high, rocky ceiling encloses this small harbor.  Quietus Quay began
+as a secret pirate's port, but since its take-over by the Darvanu
+mercenary house it has grown considerably, taking legal as well as illegal
+shipments and goods.  A set of double doors to the north leads into a
+gigantic stone warehouse that has been carved from the side of the
+mountain and the stone walkway of the dock continues to the east and west.&n
+~
+17 4097 14
+D0
+~
+door doors double stone~
+1 0 1706
+D1
+~
+~
+0 0 1714
+D3
+~
+~
+0 0 1710
+S
+#1710
+&+yThe Docks of &+LQuietus Quay&N~
+&n   This small ocean inlet burrowed itself beneath the mountains many years
+ago and has created a perfect, hidden harbor for the docking and unloading
+of ships.  Once a pirate's haven, the port has been taken over by the
+Darvanu mercenary house, one of the most powerful organizations in the
+world.  Ships carrying both legal and illegal goods now land here whenever
+they please.  While in port the ships are safe from attack, once they
+leave they are on their own.  The stone walkways of the docks continue to
+the east and west.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1709
+D3
+~
+~
+0 0 1711
+S
+#1711
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The docks of Quietus Quay lead off to the south and east, while a wide
+path has been carved through the mountain to the north.  The path travels
+past a massive warehouse that has been carved from the mountain and
+appears to enter a wide cavern.  The docks have been carved from the rock
+that surrounds a natural ocean inlet that has formed beneath the mountain.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1728
+D1
+~
+~
+0 0 1710
+D2
+~
+~
+0 0 1712
+S
+#1712
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The stone walkways of the docks extend a short ways to the south where
+they end near the mouth of the cavern that encloses this small harbor and
+to the north where they turn east along the front of a gigantic warehouse.
+It appears that ships of all sizes can dock almost anywhere along the
+docks in order to offload their goods.&n
+~
+17 1052673 14
+D0
+~
+~
+0 0 1711
+D1
+~
+~
+0 0 1721
+D2
+~
+~
+0 0 1713
+S
+#1713
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The western branch of the docks comes to an end here near the mouth of
+the cavern that encloses the harbor.  Although the harbor isn't very
+large, it is well-protected from the elements and is considered fairly
+safe, despite its reputation as a haven for pirates.  The eastern docks on
+the other side of the cavern are slightly longer, but this point affords a
+clear view of the harbor and makes a perfect spot for the harbor master to
+watch over the port.&n
+~
+17 1052673 14
+D0
+~
+~
+0 0 1712
+D1
+~
+~
+0 0 1720
+S
+#1714
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The massive warehouse to the north, and the very docks themselves have
+all been carved directly out of the stone of the mountain that encloses
+this small harbor.  The ocean here is calm, protected from the wind and
+weather by the mountain overhead.  The docks continue to the east and
+west.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1715
+D3
+~
+~
+0 0 1709
+S
+#1715
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The stone of the docks has been warn smooth by the passage of many
+feet, as well as the loading and movement of cargo.  Once known only for
+the pirates that docked here, this port has become a nearly legitimate
+place of business.  The Darvanu mercenary house now runs this port and
+allows all ships to dock here for loading and unloading, providing they
+pay the proper fees.  Water from the ocean laps up against the docks which
+run to the east and west.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1716
+D3
+~
+~
+0 0 1714
+S
+#1716
+&+yThe Docks of &+LQuietus Quay&N~
+&n   A stone door to the east leads into a small building built along the
+docks.  The dock itself continues to the west along the wall of a massive
+warehouse, and south along the eastern edge of the protected harbor.  A
+number of workers can be seen roaming the docks, along with a few Darvanu
+mercenaries who seem to be keeping a fairly careful eye on everyone.&n
+~
+17 4097 14
+D1
+~
+door stone~
+1 0 1717
+D2
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 1715
+S
+#1717
+&+LA Gray Stone Office&N~
+&n   This would appear to be the office of the harbor master, though it
+would appear he doesn't use it much.  Names of ships, along with their
+times of arrival and cargoes are listed on the eastern wall, along with a
+map of the harbor and where certain ships are presently docked.  A heavy
+stone desk stands beneath the list, facing outwards to the rest of the
+room.  A plain stone door leads back out of the office to the west.&n
+~
+17 9 15
+D3
+~
+door stone~
+1 0 1716
+S
+#1718
+&+yThe Docks of &+LQuietus Quay&N~
+&n   This is one of the shallowest regions of the harbor in which one can
+actually dock a ship.  Larger ships need to be docked somewhat further to
+the south.  The stone docks are sturdy and well-made, apparently carved
+from the walls of the mountain that encloses this small harbor.  Sailors,
+dockhands and some Darvanu mercenaries march back and forth along the dock
+going about their duties.&n
+~
+17 1052673 14
+D0
+~
+~
+0 0 1716
+D2
+~
+~
+0 0 1719
+D3
+~
+~
+0 0 1726
+S
+#1719
+&+yThe Docks of &+LQuietus Quay&N~
+&n   The dock ends here as it approaches the mouth of the cavern that
+encloses this small harbor.  A number of ships can be docked along both
+the eastern and western edges of the port, and usually are.  This
+well-protected inlet was once a haven for pirates, and still is, but it
+has now come under control of the Darvanu mercenary house, the exhiled
+Duergar house that has become as powerful and feared as many kingdoms.&n
+~
+17 1052673 14
+D0
+~
+~
+0 0 1718
+D3
+~
+~
+0 0 1727
+S
+#1720
+&+bQuietus Quay Harbor&N~
+&n   The ocean laps up against stone to the south and a wide stone dock to
+the east.  Just to the west a southerly opening to the cavern can be seen.
+Some freak of nature has created an inlet beneath a large mountain.  The
+water is deep enough for even large ships, and protected from the elements
+by the mountain overhead.  The eastern part of the harbor has more space
+for the docking of ships.&n
+~
+17 4097 12
+D0
+~
+~
+0 0 1721
+D1
+~
+~
+0 0 1723
+D3
+~
+~
+0 0 1713
+S
+#1721
+&+bQuietus Quay Harbor&N~
+&n   The enclosed harbor extends to the south and east with room for ships
+to dock just to the west.  The mountain overhead makes the area dark and
+difficult to navigate, but also protects against storms and wind making
+this a perfect port for the loading and unloading of goods.&n
+~
+17 4097 12
+D1
+~
+~
+0 0 1722
+D2
+~
+~
+0 0 1720
+D3
+~
+~
+0 0 1712
+S
+#1722
+&+bQuietus Quay Harbor&N~
+&n   The mountain overhead protects the harbor from the winds and weather
+that woudl bother most ports.  Docks have been carved into the walls along
+the northern, western and eastern walls, with the eastern and western
+docks providing room for ships to dock.  To the south the harbor exits
+directly into the Darkblade Ocean, with little or nothing in the way of
+markers for the ship captains to navigate with.&n
+~
+17 4097 12
+D1
+~
+~
+0 0 1725
+D2
+~
+~
+0 0 1723
+D3
+~
+~
+0 0 1721
+S
+#1723
+&+bQuietus Quay Harbor&N~
+&n   The mountain overhead protects the harbor from the winds and weather
+that woudl bother most ports.  Docks have been carved into the walls along
+the northern, western and eastern walls, with the eastern and western
+docks providing room for ships to dock.  To the south the harbor exits
+directly into the Darkblade Ocean, with little or nothing in the way of
+markers for the ship captains to navigate with.&n
+~
+17 4097 12
+D0
+~
+~
+0 0 1722
+D1
+~
+~
+0 0 1724
+D2
+~
+~
+0 0 636555
+D3
+~
+~
+0 0 1720
+S
+#1724
+&+bQuietus Quay Harbor&N~
+&n   The mountain overhead protects the harbor from the winds and weather
+that woudl bother most ports.  Docks have been carved into the walls along
+the northern, western and eastern walls, with the eastern and western
+docks providing room for ships to dock.  To the south the harbor exits
+directly into the Darkblade Ocean, with little or nothing in the way of
+markers for the ship captains to navigate with.&n
+~
+17 4097 12
+D0
+~
+~
+0 0 1725
+D1
+~
+~
+0 0 1727
+D3
+~
+~
+0 0 1723
+S
+#1725
+&+bQuietus Quay Harbor&N~
+&n   The mountain overhead protects the harbor from the winds and weather
+that woudl bother most ports.  Docks have been carved into the walls along
+the northern, western and eastern walls, with the eastern and western
+docks providing room for ships to dock.  To the south the harbor exits
+directly into the Darkblade Ocean, with little or nothing in the way of
+markers for the ship captains to navigate with.&n
+~
+17 4097 12
+D1
+~
+~
+0 0 1726
+D2
+~
+~
+0 0 1724
+D3
+~
+~
+0 0 1722
+S
+#1726
+&+bQuietus Quay Harbor&N~
+&n   This well-protected inlet ends here along a stone dock, but extends to
+the east toward a docking area and west along the edges of the harbor to
+another docking pier.  The protected harbor exits to the ocean to the
+south.&n
+~
+17 4097 12
+D1
+~
+~
+0 0 1718
+D2
+~
+~
+0 0 1727
+D3
+~
+~
+0 0 1725
+S
+#1727
+&+bQuietus Quay Harbor&N~
+&n   The protected harbor heads out to see to the south, while a docking
+area for ships is to the east, and another further to the west.  The
+mountain overhead blocks out all light, but also protects the harbor from
+wind and storms.&n
+~
+17 4097 12
+D0
+~
+~
+0 0 1726
+D1
+~
+~
+0 0 1719
+D3
+~
+~
+0 0 1724
+S
+#1728
+&+LBefore the Docks of Quietus Quay&N~
+&n   The famous stone docks of Quietus Quay lie just to the south.  The
+take-over of this small port by the Darvanu has led to much heavier use,
+even by legitimate businesses.  The path here is wide enough to almost be
+considered a roadway leading through the mountain.  It is wide enough for
+large, heavy wagons to be drawn through.&n
+~
+17 4101 14
+D0
+~
+~
+0 0 1729
+D2
+~
+~
+0 0 1711
+S
+#1729
+&+mBroad Street&N~
+&n   Broad Street is the single major road that passes through the cavern
+that encloses the buildings and shops of Quietus Quay.  It is wide enough
+for wagons and large cargoes to be transported through with relative ease.
+The street leads through a slightly narrower tunnel to the south before
+reaching the port itself, and continues north through an open cavern
+containing a number of small buildings.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1730
+D2
+~
+~
+0 0 1728
+S
+#1730
+&+mBroad Street&N~
+&n   Broad Street is the single major road that passes through the cavern
+that encloses the buildings and shops of Quietus Quay.  It is wide enough
+for wagons and large cargoes to be transported through with relative ease.
+A small bar of some sort lies to the east and a supply shop is close by to
+the west.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1731
+D1
+~
+~
+0 0 1734
+D2
+~
+~
+0 0 1729
+D3
+~
+~
+0 0 1735
+S
+#1731
+&+mBroad Street&N~
+&n   Broad Street is the single major road that passes through the cavern
+that encloses the buildings and shops of Quietus Quay.  It is wide enough
+for wagons and large cargoes to be transported through with relative ease.
+The street continues to the north were it eventually exits the cavern and
+heads south toward the port.  A small, non-descript inn lies to the east.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1732
+D1
+~
+~
+0 0 1736
+D2
+~
+~
+0 0 1730
+S
+#1732
+&+mBroad Street&N~
+&n   Broad Street is the single major road that passes through the cavern
+that encloses the buildings and shops of Quietus Quay.  It is wide enough
+for wagons and large cargoes to be transported through with relative ease.
+Another street wanders off into the cavern as it extends to the east,
+winding past a number of small stone buildings.  The exit to the cavern
+lies further to the north.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1733
+D1
+~
+~
+0 0 1738
+D2
+~
+~
+0 0 1731
+S
+#1733
+&+mBroad Street&N~
+&n   Broad Street is the single major road that passes through the cavern
+that encloses the buildings and shops of Quietus Quay.  It is wide enough
+for wagons and large cargoes to be transported through with relative ease.
+The wide entrance to the cavern lies just to the north, and Broad Street
+continues to the south.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1737
+D2
+~
+~
+0 0 1732
+S
+#1734
+&+LA Dark Tavern&N~
+&n   The mood here is as subdued as the lighting, which is virtually
+non-existant.  The sailors and workers here have gotten so completely
+inebriated that they all seem to sag against the bar.  The bar itself is
+simple and non-descript, having few of the details that make taverns
+pleasant to visit.&n
+~
+17 9 15
+D3
+~
+~
+0 0 1730
+S
+#1735
+&+gBlierthro's Supplies&N~
+&n   Colorful green granite shelves hold a number of fine goods here, all of
+which are for sale at outrageous prices.  This shop seems to buy and sell
+almost anything, acting more like a fence than anything else.  Then, in
+Quietus Quay there are no illegal goods.&n
+~
+17 9 15
+D1
+~
+~
+0 0 1730
+S
+#1736
+&+bThe Sharkbait Inn&N~
+&n   The open jaws and strung teeth of a number of large sharks decorate the
+walls of this tiny inn.  Merchants and sailor sometimes stay here while
+waiting for goods, or while waiting for bad weather to pass.  The inn is
+clean, and appears to be well-guarded from theft or robbery, something
+somewhat surprising in a small port town such as this.&n
+~
+17 9 15
+D3
+~
+~
+0 0 1731
+S
+#1737
+&+LThe Wide Entrance to a Large Cavern&N~
+&n   A rocky overhang above makes even this wide entrance into the mountains
+somewhat hidden and difficult to find.  It is clear that a number of large
+wagons have traveled this path before, and that it is still in heavy use.
+A trail heads out of the mountains to the north and a large cavern is to
+the south.&n
+~
+17 33554432 1
+D0
+~
+~
+0 0 635755
+D2
+~
+~
+0 0 1733
+S
+#1738
+&+gA Small Square&N~
+&n   Smooth stone floors here are coated with some sort of thin green lichen
+that has a faint luminescence to it.  A small fountain has been placed
+here in the square, the splashing water seems to be what supports the
+growth of the lichen.  A small, nameless road winds off to the east
+through the cavern and the main road through the cavern to the port lies
+to the west.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1739
+D3
+~
+~
+0 0 1732
+S
+#1739
+&+yA Nameless Path&N~
+&n   This nameless path passes through Quietus Quay winding through small
+stone buildings and open-roofed shacks.  Many of the buildings look far
+sturdier than they should need to be when protected from the elements by
+the surrounding cavern.  A small shack lies to the north and an open door
+leads into a sturdy stone building to the south.&n
+~
+17 4097 14
+D0
+~
+door~
+1 0 1740
+D1
+~
+~
+0 0 1742
+D2
+~
+~
+0 0 1741
+D3
+~
+~
+0 0 1738
+S
+#1740
+&+yA Small Wooden Shack&N~
+&n   The wooden walls support no ceiling, simply provide a little bit of
+privacy for whoever lives here.  Three small cots line the eastern wall,
+and are seemingly the only pieces of furniture here.  The people living
+here must store their money and spare clothing someplace else because
+there aren't even any dressers or chests here for storing anything.&n
+~
+17 9 15
+D2
+~
+door~
+1 0 1739
+S
+#1741
+&+LA Small Bank&N~
+&n   A small, but sturdy, vault has been set into the thick stone wall to
+the west.  The Darvanu set up this small bank when they took over Quietus
+Quay to make it easier for merchants and pirates to channel their money
+through here.  The more wealth and goods that pass through Quietus Quay,
+the more wealth flows to the Darvanu as well.&n
+~
+17 9 15
+D0
+~
+~
+0 0 1739
+S
+#1742
+&+yA Nameless Path&N~
+&n   This nameless, yet heavily used, path winds through the vast cavern
+containing Quietus Quay passing small stone buildings and wooden shacks.
+Quietus Quay is a heavily used port, but has few permanent residents other
+than those that work the docks or provide supplies to those that travel
+through.  A sturdy stone building stands to the north and the collapsed
+ruins of a small stone building lie to the east.  The path itself
+continues to the west and winds to the south.&n
+~
+17 4097 14
+D0
+~
+door stone~
+1 0 1743
+D1
+~
+~
+0 0 1744
+D2
+~
+~
+0 0 1745
+D3
+~
+~
+0 0 1739
+S
+#1743
+&+LA Sturdy Stone Building&N~
+&n   This building bears the design of a simple barracks. There is no
+kitchen, nor even a table to eat at.  A few simple wooden chairs dot the
+room but it is otherwise full of beds and cots.  Stone pegs along the door
+were clearly designed for hanging clothing and weapons, and several large
+chests next to a few of the beds hint that this really is some sort of
+barracks for the Darvanu mercenaries that perform guard duties in Quietus
+Quay.&n
+~
+17 9 15
+D2
+~
+door stone~
+1 0 1742
+S
+#1744
+&+LThe Collapsed Ruins of a Stone Building&N~
+&n   A poorly built stone building once stood here, but its lack of decent
+construction has allowed it to fall to the ground leaving nothing but
+rubble and debris.  The rocks it was made from don't appear to have come
+from the caverns, or even the mountains nearby.  Anyone spending the
+effort to bring stone in from elsewhere only to build a shoddy home must
+have been foolish indeed.&n
+~
+17 4097 14
+D3
+~
+~
+0 0 1742
+S
+#1745
+&+yA Nameless Path&N~
+&n   The cavern floor here must have started out relatively flat and stable,
+and years of wear and tear have worn it smooth.  The path itself is made
+of a light brown dirt that has worn away from the stone and seeped or
+blown into the cavern from outside.  The path appears to split just to
+the south where it moves through a collection of stone and wooden
+buildings.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1742
+D2
+~
+~
+0 0 1746
+S
+#1746
+&+yA Split in the Path&N~
+&n   The small port town of Quietus Quay must not be deemed large enough to
+require signs or markers for the paths that wind through it.  Only the
+dock hands and mercenary guards actually seem to live here, though a fair
+number of merchants can often be seen wandering the streets.  Since the
+Darvanu mercenary house took over the town it has grown considerably, the
+thriving commerce attracting wanted as well as un-wanted attention.  A
+long stone building stands to the west and the path forks off to the
+north, south, and east.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1745
+D1
+~
+~
+0 0 1793
+D2
+~
+~
+0 0 1750
+D3
+~
+door stone~
+1 0 1747
+S
+#1747
+&+gA Long Stone Barracks&N~
+&n   The stone building extends to the north and south, providing room
+enough for a large number of people.  A number of cots and bunk-beds have
+been spread around this room and the room to the north while a kitchen of
+some sort lies to the south.  It is clear that a majority of the
+dockhands must live here, sharing their living space to save money for
+other purposes.  A single stone door leads out of the building to the west
+and the room extends to the north and south.&n
+~
+17 9 15
+D0
+~
+~
+0 0 1748
+D1
+~
+door stone~
+1 0 1746
+D2
+~
+~
+0 0 1749
+S
+#1748
+&+gA Long Stone Barracks&N~
+&n   The plain stone walls have a greenish tint to them, a natural color
+within the stone rather than something added after the construction of the
+building.  A number of cots, chests, and footlockers dot the room.  This
+is clearly a heavily used barracks that has been occupied by a number of
+dock workers.&n
+~
+17 9 15
+D2
+~
+~
+0 0 1747
+S
+#1749
+&+gA Large Kitchen&N~
+&n   Most of the cooking equipment, and even the utensils, have been made of
+stone.  The variety of stones used for the stoves and ovens contrasts with
+the pale green walls of the stone building.  Some of the stone appears to
+be porous so that it cools down and heats up quickly, while certain large
+pots and kettles have been made of a dense gray stone that looks has heavy
+and sturdy as the finest steel.  Several tables and chairs stand along the
+northern edge of the room as it stretches into the main part of the
+barracks.&n
+~
+17 0 0
+D0
+~
+~
+0 0 1747
+S
+#1750
+&+yA Nameless Path&N~
+&n   The stony path is covered with a thin layer of gravel and dirt as it
+winds its way southward deeper into the cavern.  Sounds of dripping water
+mingle with the echos of voices bouncing off the distant walls of the
+cavern.  The path continues to the north where it forks in several
+directions and to the south where it turns east.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1746
+D2
+~
+~
+0 0 1751
+S
+#1751
+&+yA Nameless Path&N~
+&n   The twisting, turning paths in Quietus Quay bear no markers or names,
+it would seem that anyone traveling here must have some sort of idea of
+where they are going.  It is not as if the port village is large enough to
+get lost in, but it does seem to have its darker and more ominous paths.
+A stately wood frame building has been constructed to the south and the
+path continues to the north and east.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1750
+D1
+~
+~
+0 0 1753
+D2
+~
+door~
+1 0 1752
+S
+#1752
+&+YAn Elegant Home&N~
+&n   This wooden home has been constructed of imported woods from all around
+the world.  Both the construction and the materials are of the highest
+quality.  A number of small decorations throughout the small home hint
+that its owner must be a wealthy merchant sailor that makes their living
+transferring goods from place to place over the oceans of Duris.  A
+solid wood door leads back out of the home to the north.&n
+~
+17 9 15
+D0
+~
+door~
+1 0 1751
+S
+#1753
+&+yA Nameless Path&N~
+&n   The path is fairly wide here as it passes between the bases of two
+large stalagmites.  The tops of the stalagmites themselves were broken off
+long ago to reduce the number of hiding places for the cavern creatures
+that used to make this place their home.  The path continues to the east
+and west where it passes by a few buildings on its meandering way through
+the cavern that encloses Quietus Quay.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1754
+D3
+~
+~
+0 0 1751
+S
+#1754
+&+yA Nameless Path&N~
+&n   A squat stone building to the north has a simple sign over the doorway
+that says '&+gPotions&N'.  The collapsed remains of a stone building stand
+tohe south and the winding path continues to the east and west.  Sounds of
+dripping water echo through the cavern along with an occasional shout or
+scream.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1755
+D1
+~
+~
+0 0 1757
+D2
+~
+~
+0 0 1756
+D3
+~
+~
+0 0 1753
+S
+#1755
+&+LA Strange Shop&N~
+&n   Shelves line the walls holding a wide variety of glass and pottery
+vials and flasks.  None of the vials or flasks are labeled, and those that
+do contain something, contain viscous solutions that seem to roll in upon
+themselves with a life of their own.  It would appear that a few of the
+potions are for sale, but it would take a brave individual to explore
+which of those being sold might actually be worth the outrageous prices
+they are being sold for.&n
+~
+17 9 15
+D2
+~
+~
+0 0 1754
+S
+#1756
+&+LAn Old, Ruined Building&N~
+&n   The broken and crumbled stone of the walls, and what was once the roof
+of the building, fill the space making it almost impassable.  Blackened
+spots on some of the stone suggests that this building didn't simply
+collapse on its own.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1754
+E
+stone rocks~
+Blackened edges to some of the rocks and stones suggest that they were
+shattered apart by lightning bolts or some sort of great magical fire.  A
+few of the stones near the bottom of the heap of rubble appear to be
+somewhat melted.  There are gaps and openings in the rubble, but it isn't
+likely that there is anything of value left behind in the years since the
+building was destroyed.
+~
+S
+#1757
+&+yA Nameless Path&N~
+&n   Squat stone buildings stand to the north and south.  Both buildings
+have been made of the same rough-hewn stone that appears to come from
+someplace within the cavern.  Heavy wooden doors have been placed into the
+entryway of each, but the doors do not appear to have any locks.  The
+winding path continues to the east and west winding past large boulders
+and old stalagmites as it meanders through the cavern.&n
+~
+17 4097 14
+D0
+~
+door~
+1 0 1758
+D1
+~
+~
+0 0 1760
+D2
+~
+door~
+1 0 1759
+D3
+~
+~
+0 0 1754
+S
+#1758
+&+LWithin a Squat, Stone Building&N~
+&n   Paintings have been made directly upon the stone walls.  The eastern
+wall depicts a large black dragon that has been captured and chained to
+the ground.  The western wall has been painted to depict a vast cavern
+within the underdark while the northern wall has been painted with the
+emblem of the Darvanu mercenaries.  Though the paintings are somewhat
+rough and abstract in places, they show a high level of skill and
+patience.  A small bed stands beneath the dragon to the east and a heavy
+door leads out of the room to the south.&n
+~
+17 9 15
+D2
+~
+door~
+1 0 1757
+S
+#1759
+&+LA Small Building&N~
+&n   The small room has been packed with cots and chests, leaving almost no
+room to walk.  Pegs line the walls, clearly designed to hold tools or
+weapons of some sort.  The room appears to see some fairly heavy use and,
+though cluttered and cramped, has been kept quite clean.  A heavy wooden
+door leads back out of the room to the north.&n
+~
+17 9 14
+D0
+~
+door~
+1 0 1757
+S
+#1760
+&+yA Nameless Path&N~
+&n   The sound of dripping water bounces its way through the cavern.  Sound
+carries differently in caverns such as this, the dripping water could be
+mere feet away, or as far as the furthest part of the cavern.  Strangely,
+the constant plop of the dripping water sounds crystal clear here.  A
+solid building made of marble stands to the south and a large open area is
+just to the north.  The nameless path through the cavern continues to the
+east and west.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1764
+D1
+~
+~
+0 0 1765
+D2
+~
+door marble~
+1 0 1761
+D3
+~
+~
+0 0 1757
+S
+#1761
+&+LThe Home of Quietus&N~
+&n   Fine silk draperies hand down the marble walls, adding color and
+elegance to the large room while also adding a distinct sign of wealth. A
+heavy marble door leads back out of the building to the north and
+additional rooms can be seen to the southeast and southwest.  Several
+large sofas and plush chairs have been set around the room, all facing
+toward a low table that stands in the center.  The room is both functional
+and elegant, its decorations showing a great deal of wealth and power
+without being gaudy.&n
+~
+17 9 15
+D0
+~
+door marble~
+1 0 1760
+D7
+~
+~
+0 0 1763
+D9
+~
+~
+0 0 1762
+S
+#1762
+&+bA Small Office&N~
+&n   Deep blue marble with thin white veins lines the walls here,
+highlighting several small paintings that have been framed with dark
+ebonwood frames.  A sturdy desk faces outward toward the door with several
+chairs in front of it for guests to sit at.  Sheer, white silk draperies
+hang from the ceiling in each corner of the room adding a ghostly,
+mystical touch to the other decorations here.&n
+~
+17 137 15
+D6
+~
+~
+0 0 1761
+S
+#1763
+&+WAn Elegant Bedroom&N~
+&n   A massive circular bed stands in the center of the room covered with
+fine white linens and soft silk sheets.  Down pillows have been spread out
+all over the bed, covered with silk pillowcases of various colors.  A
+large dresser lines the western wall and a small nightstand is in the
+southwestern corner.  A narrow doorway leads back to the main room of the
+home to the northeast.&n
+~
+17 9 15
+D8
+~
+~
+0 0 1761
+S
+#1764
+&+LA Small Clearing&N~
+&n   A small pool of water has formed in the center of this small, rocky
+clearing.  It would appear that the space was originally cleared to make
+space for a building that has never been constructed.  The softer dirt
+in the area shows a few small tracks that likely belong to some of the
+cave lizards that roam the cavern.  A small path of some sort lies to the
+south.&n
+~
+17 4097 14
+D2
+~
+~
+0 0 1760
+S
+#1765
+&+yA Nameless Path&N~
+&n   A stately wood-frame home stands to the east and a large boulder blocks
+the way to the north.  A winding path bends its way to the south and west
+as it continues its meandering way past the buildings that have been built
+here within the cavern.  Voices and sounds that echo throughout the cavern
+seem particularily loud here, but this part of Quietus Quay seems quite
+quiet and safe.&n
+~
+17 4097 14
+D1
+~
+door~
+1 0 1766
+D2
+~
+~
+0 0 1767
+D3
+~
+~
+0 0 1760
+S
+#1766
+&+yAn Elegant, Wooden Home&N~
+&n   Gaudy displays of wealth dot the small room, marking it as the house of
+a merchant sailor or pirate of some sort.  Small gold statues line shelves
+on the wall and brightly colored paintings hang immediately above them.
+The openly displayed items don't appear to be protected in any fashion,
+yet thieves have not run off with any of them.  The bright colors of the
+paintings, as well as the bright silk coverings on the furniture in the
+room, clash in an almost painful fashion, making it quite clear that they
+are displayed only to be a sign of wealth.&n
+~
+17 9 15
+D3
+~
+door~
+1 0 1765
+S
+#1767
+&+yA Nameless Path&N~
+&n   The squeaks and shuffles of a few restless bats floats in from
+someplace nearby, mixing with the faint echo of voices and dripping water.
+Quietus Quay is not a large town, but it is fairly heavily traveled due
+to the wide variety of goods that come through it.  The winding path bends
+to the north and east as it winds past several large stalagmites.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1765
+D1
+~
+~
+0 0 1768
+S
+#1768
+&+yA Nameless Path&N~
+&n   A massive stone building stands to the south and a small wood-frame
+home is to the north.  Beautiful stone work marks the door and doorway of
+the building to the south, marking it as something somewhat special.
+Other than the doorway, the rest of the building is made of plain, thick,
+sturdy granite.  The wood-frame house to the north has a flat roof, there
+is no rain or other weather to protect from inside the cavern.  The wood
+is of high quality, but has not been decorated in any way.  The path
+continues to the east and west.&n
+~
+17 4097 14
+D0
+~
+door~
+1 0 1769
+D1
+~
+~
+0 0 1771
+D2
+~
+door~
+1 0 1770
+D3
+~
+~
+0 0 1767
+S
+#1769
+&+yA Tiny Wood Home&N~
+&n   The low ceiling, and small furniture show that the owner of this home
+must be somewhat short.  The house itself is extremely small, there is
+barely enough room to hold the small chair and table and the bed seems to
+have been stuffed into the entire western half of the home.  A small wood
+door leads back out of the home to the south.&n
+~
+17 9 15
+D2
+~
+door~
+1 0 1768
+S
+#1770
+&+LOfficer's Quarters&N~
+&N   Thick, heavy granite has been used to make sturdy walls for this large
+building.  A great deal of wasted space separates areas with beds and
+dressers where several of the Darvanu officers must sleep.  There are
+curtains that could be used to provide some privacy, but all the curtains
+stand open right now.  A tiny kitchen stands in the southwestern corner,
+while three beds dot the other corners of the building and a few chairs
+and sofas stand in the middle of the room.&n
+~
+17 9 15
+D0
+~
+door~
+1 0 1768
+S
+#1771
+&+yA Nameless Path&N~
+&n   The edge of the cavern closes in to the south and east while the path
+itself winds back through the village to the north and west.  A small pool
+of water has formed along the eastern wall of the cavern, fed by water
+that drips in from above.  The air is a bit humid here and smells slightly
+of bat guano.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1772
+D3
+~
+~
+0 0 1768
+S
+#1772
+&+yA Nameless Path&N~
+&n   The dark walls of the cavern loom to the east while buildings of
+various sizes can be seen throughout the cavern as it stretches to the
+north, south and west.  A large stalagmite blocks the way west while the
+path continues to the north and south.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1773
+D2
+~
+~
+0 0 1771
+E
+stalagmite~
+A tiny emblem of a large 'D' encircling a warhammer and a dagger has been
+carved into the stone of the stalagmite.
+~
+S
+#1773
+&+yBefore a Quiet Tavern&N~
+&n   An open doorway to the west leads into a large stone building.  There
+is clearly a tavern within where people are talking, drinking, and even
+dancing, yet not one single sounds comes out of the tavern itself. The
+cavern walls are just to the east and the path continues to the north and
+south.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1776
+D2
+~
+~
+0 0 1772
+D3
+~
+~
+0 0 1774
+S
+#1774
+&+YThe Golden Lyre&N~
+&n   A picture of a huge golden lyre has been painted on the wall behind the
+bar and various paintings of battles and instruments line the other walls.
+The bar itself is to the north while a stage is to the south.  It is
+rumored that magic has been used to insure that the noises of the tavern
+don't leak out into the cavern and cause strange echoes.  A number of
+tables dot the room, some in use by gamblers, others just held by people
+watching the bards that have come to perform.  An open doorway heads back
+out to the east.&n
+~
+17 9 15
+D1
+~
+~
+0 0 1773
+D3
+A painting of a tall bard has been made on the wall.
+~
+painting wall~
+5 0 1775
+S
+#1775
+&+mA Small Room Full of Instruments&N~
+&n   This well-hidden room is full of instruments, most of which appear to
+be for sale.  The wide variety of instruments here suggests that a master
+bard must own and tend this store.  A number of small magical runes line
+every wall, possibly designed to dampen sound from both coming into the
+room as well as going out.  A small panel in the eastern wall opens out
+to The Golden Lyre.&n
+~
+17 8388745 15
+D1
+~
+wall panel~
+1 0 1774
+S
+#1776
+&+yA Nameless Path&N~
+&n   The rough stone of the cavern wall blocks the way to the east and a
+small wooden home is to the west.  The stench of bat guano hangs heavily
+in the humid air despite the fact that there are no droppings in evidence
+here.  A narrow path continues to the north and south winding through
+Quietus Quay.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1782
+D1
+~
+wall stone rock~
+5 0 1778
+D2
+~
+~
+0 0 1773
+D3
+~
+door~
+1 0 1777
+S
+#1777
+&+yA Cozy Home&N~
+&n   There is no kitchen in this small home, suggesting that whoever lives
+here must only stay for short periods of time.  Waves have been painted
+along the bottom of all the walls, and a number of broken pieces of ships
+and boats have been hung on the wall like trophies.  It is an easy guess
+that the owner of the home prefers to spend their time on the ocean.  A
+wooden door leads back out of the home to the east.&n
+~
+17 9 15
+D1
+~
+door~
+1 0 1776
+S
+#1778
+&+LA Dark, Narrow Cave&N~
+&n   Bats chitter and rustle along the ceiling high above and droppings line
+the floor.  The cavern reeks of guano and the peculiar stench of bats.  A
+well-hidden part of the cavern wall opens out to the west and the cavern
+itself continues to the east.  One would guess that there are smaller
+openings for the bats to escape through along the high, narrow ceiling but
+nothing can be seen from this vantage point.&n
+~
+17 4097 13
+D1
+~
+~
+0 0 1779
+D3
+~
+wall stone rock~
+1 0 1776
+S
+#1779
+&+LA Dark Cave Full of Bats&N~
+&n   The small cave widens here as it comes to an end.  Thousands of bats
+cling to the ceiling and walls guarding what appear to be tiny tunnels
+that lead out of the cave, and possibly even out of the mountain.  The
+bats appear to be slightly more aggressive here, screaching and circling
+when people enter their domain, possibly because there are so many young
+nesting here.  The cave extends to the west but all other exits appear to
+be only large enough for the bats that live here.&n
+~
+17 4097 13
+D3
+~
+~
+0 0 1778
+S
+#1780
+Random load-Bat~
+&n   This is a random load mob room, if you are here, petition a god.
+~
+17 142643393 0
+D0
+~
+~
+0 0 1781
+D1
+~
+~
+0 0 1781
+D2
+~
+~
+0 0 1781
+D3
+~
+~
+0 0 1779
+D4
+~
+~
+0 0 1781
+D5
+~
+~
+0 0 1781
+S
+#1781
+Mob Trap Room~
+&n   This is a mob trap room, mobs here got their chance to load and made
+the wrong decision.  If you are here, petition for a god.
+~
+17 209748169 0
+S
+#1782
+&+yA Nameless Path&N~
+&n   The path bends to the south and west here as it winds its way through
+Quietus Quay.  Moisture hangs in the air, along with the stench of bat
+guano, and sounds of all types echo through the cavern.  A small stone
+building stands to the north, somehow looking both non-descript and
+important at the same time.&n
+~
+17 4097 14
+D0
+~
+door~
+1 0 1783
+D2
+~
+~
+0 0 1776
+D3
+~
+~
+0 0 1785
+S
+#1783
+&+LA Spartan Home&N~
+&n   The decorations make it clear that a warrior of great power and history
+lives here.  Weapons of all makes and designs have been firmly attached to
+the walls.  Elven longswords and dwarven warhammers have been mounted like
+trophies alongside weapons that defy description or understanding.
+Several giant-sized weapons that could barely be lifted by an ogre, let
+alone wielded effectively also line the wall.  Despite these decorations,
+the rest of the home is somewhat plain and devoid of the displays of
+wealth that one might expect.  The owner of the home seems to enjoy
+warfare and fighting far more than the wealth it has brought him.&n
+~
+17 9 15
+D2
+~
+door~
+1 0 1782
+S
+#1784
+Captain's Load Room~
+&nThe mercenary captain chooses whether or not to load from here.  If you
+are here, petition a god.&n
+~
+17 209748161 0
+D0
+~
+~
+0 0 1781
+D1
+~
+~
+0 0 1781
+D2
+~
+~
+0 0 1781
+D3
+~
+~
+0 0 1781
+D5
+~
+~
+0 0 1783
+S
+#1785
+&+yA Nameless Path&N~
+&n   This winding path travels through most of Quietus Quay past the
+quarters of the laborers and some of the small homes that a few of the
+merchants and pirates keep here.  There are also buildings that house the
+warriors and guards of the Darvanu mercenaries who now control the town
+and its docks.  The path continues to the east and west.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1782
+D3
+~
+~
+0 0 1786
+S
+#1786
+&+yA Nameless Path&N~
+&n   Sounds of dripping water and echoing, distorted voices filter their way
+through the cavern.  A number of small dwellings dot this region of the
+cavern with this narrow, nameless path winding its way through all of
+them.  A long, narrow building stands to the south and the ruins of a
+stone building lie to the north.  The path continues to the east and west.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1787
+D1
+~
+~
+0 0 1785
+D2
+~
+door~
+1 0 1788
+D3
+~
+~
+0 0 1789
+S
+#1787
+&+LSome Rocky Ruins&N~
+&n   The collapsed building is a testament to the length of time this large
+cavern has been used as a refuge.  It is clear that the stones were once
+mortared together in some forgotten time and that the building finally
+collapsed with the mortar succumbed to age.  The walls are almost
+completely collapsed and the broken stone that lines the floor came from a
+ceiling that must have covered the building long ago.&n
+~
+17 4097 14
+D2
+~
+~
+0 0 1786
+S
+#1788
+&+gA Worker's Barracks&N~
+&n   This room houses 8 beds that have been lined up with just enough space
+for people to walk between, and no more.  Dock workers in towns such as
+this are usually here to make as much money as they can before leaving for
+a more friendly place.  Nothing of value can be seen anywhere in the room,
+the works that live here must hide their wealth well, or use the bank that
+has been provided in town.&n
+~
+17 9 15
+D0
+~
+door~
+1 0 1786
+S
+#1789
+&+yA Nameless Path&N~
+&n   Rough rocks and other rubble have been dumped to the north creating an
+impassable barrier.  A large, elegant home made of heavy black palm stands
+to the south, a testament to some merchant's wealth.  The home, like most
+in this cavern, has no windows but it does have a very sturdy wooden door.
+The path continues to the east and west winding past buildings and
+stalagmites as it makes its way through the cavern.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1786
+D2
+~
+door _nobash_~
+2 0 1790
+D3
+~
+~
+0 0 1791
+S
+#1790
+&+WAn Elegant Home&N~
+&n   Black palm is a heavy wood with a distinct black and white vein pattern
+that distinguishes it from many other woods.  The wood makes for somewhat
+odd-looking walls, but is horribly heavy and expensive to move and is very
+difficult to work with.  It would appear that the choice of wood for the
+home was made more to show off wealth than for the sturdy, fire-retardent
+properties of the lumber.  A number of niches in the walls hold small
+ivory and gold statues which appear to have been magically protected from
+theft.  A few small, but well-made paintings hang on the walls and several
+pieces of well made furniture dot the room.  The only theme to the decor
+appears to be outright display of wealth and power.&n
+~
+17 9 15
+D0
+~
+door~
+1 0 1789
+S
+#1791
+&+yA Nameless Path&N~
+&N   Bending from south to east here the path winds around a large home made
+of black palm to the southeast and past a massive stalagmite to the west.
+Sounds from as far away as the docks themselves echo through the cavern,
+but the sounds are muted and distorted, subdued by their constant bouncing
+off rough stone surfaces.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1789
+D2
+~
+~
+0 0 1792
+S
+#1792
+&+yA Nameless Path&N~
+&n   The path seems almost an alley here, passing along the back of one
+building to the south, and the side of another to the east.  It is quiet
+here, despite the muffled echos and voices that float in from various
+directions, yet it doesn't seem altogether safe.  The path continues to
+the north and west while the walls of buildings block the way to the south
+and east.&n
+~
+17 4097 14
+D0
+~
+~
+0 0 1791
+D3
+~
+~
+0 0 1793
+S
+#1793
+&+yA Nameless Path&N~
+&n   This portion of the nameless path that winds its way through Quietus
+Quay seems to be more of an alley.  The wall of a ruined building stands
+to the north and a massive stalagmite is to the south.  The path continues
+to the east where it winds past the blind side of several buildings, and
+to the west where it meets an intersection.&n
+~
+17 4097 14
+D1
+~
+~
+0 0 1792
+D3
+~
+~
+0 0 1746
+S
+#1794
+Aresliean's load room~
+&N   This is a random load room for a mob or set of mobs, if you are here,
+petition for a god.
+~
+17 1 0
+D0
+~
+~
+0 0 1781
+D1
+~
+~
+0 0 1781
+D2
+~
+~
+0 0 -1
+D3
+~
+~
+0 0 -1
+D4
+~
+~
+0 0 1781
+D5
+~
+~
+0 0 1781
+D6
+~
+~
+0 0 1781
+D8
+~
+~
+0 0 1781
+S

@@ -1,0 +1,160 @@
+#196
+&+LTiamat&n~
+19638 0 0 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 19600 1 5 100 0 0 0
+*     east exit from "Before a Large Gate" to
+*     "West End of Vaulted Cavern" - closed/secret
+*
+D 0 19604 3 1 100 0 0 0
+*     west exit from "West End of Vaulted Cavern" to
+*     "Before a Large Gate" - closed
+*
+D 0 19602 0 6 100 0 0 0
+*     north exit from "North Edge of the Huge Cavern" to
+*     "In a Large Chamber" - closed/locked/secret
+*
+D 0 19615 2 2 100 0 0 0
+*     south exit from "In a Large Chamber" to
+*     "North Edge of the Huge Cavern" - closed/locked
+*
+D 0 19603 0 2 100 0 0 0
+*     north exit from "Northeast Corner of the Cavern" to
+*     "A Huge Chamber" - closed/locked
+*
+D 0 19613 2 2 100 0 0 0
+*     south exit from "A Huge Chamber" to
+*     "Northeast Corner of the Cavern" - closed/locked
+*
+D 0 19606 1 6 100 0 0 0
+*     east exit from "Eastern Wall of the Cavern" to
+*     "Entrance to the Lair of Tiamat" - closed/locked/secret
+*
+D 0 19610 3 2 100 0 0 0
+*     west exit from "Entrance to the Lair of Tiamat" to
+*     "Eastern Wall of the Cavern" - closed/locked
+*
+D 0 19608 2 6 100 0 0 0
+*     south exit from "South End of the Cavern" to
+*     "In a Vast Chamber" - closed/locked/secret
+*
+D 0 19616 0 2 100 0 0 0
+*     north exit from "In a Vast Chamber" to
+*     "South End of the Cavern" - closed/locked
+*
+D 0 19609 2 2 100 0 0 0
+*     south exit from "Southeast Corner of the Cavern" to
+*     "In a Vast Chamber" - closed/locked
+*
+D 0 19614 0 2 100 0 0 0
+*     north exit from "In a Vast Chamber" to
+*     "Southeast Corner of the Cavern" - closed/locked
+*
+D 0 19610 0 2 100 0 0 0
+*     north exit from "Entrance to the Lair of Tiamat" to
+*     "Large Side Chamber" - closed/locked
+*
+D 0 19618 2 2 100 0 0 0
+*     south exit from "Large Side Chamber" to
+*     "Entrance to the Lair of Tiamat" - closed/locked
+*
+D 0 19610 1 6 100 0 0 0
+*     east exit from "Entrance to the Lair of Tiamat" to
+*     "A Dark Passage" - closed/locked/secret
+*
+D 0 19622 3 2 100 0 0 0
+*     west exit from "A Dark Passage" to
+*     "Entrance to the Lair of Tiamat" - closed/locked
+*
+D 0 19610 2 2 100 0 0 0
+*     south exit from "Entrance to the Lair of Tiamat" to
+*     "A Vast Side Chamber" - closed/locked
+*
+D 0 19619 0 2 100 0 0 0
+*     north exit from "A Vast Side Chamber" to
+*     "Entrance to the Lair of Tiamat" - closed/locked
+*
+D 0 19617 2 6 100 0 0 0
+*     south exit from "Throne Room of Avernus" to
+*     "Before the Vault of Avernus" - closed/locked/secret
+*
+D 0 19620 0 1 100 0 0 0
+*     north exit from "Before the Vault of Avernus" to
+*     "Throne Room of Avernus" - closed
+*
+*
+O 0 19600 1 19615 100 0 0 0        * a hidden opening
+O 0 66 1 19620 100 0 0 0           * (object type not in this .obj file)
+O 0 360 1 19620 100 0 0 0          * (object type not in this .obj file)
+O 0 25106 999 19632 100 0 0 0      * (object type not in this .obj file)
+O 0 80831 999 19634 100 0 0 0      * (object type not in this .obj file)
+O 0 26661 999 19635 100 0 0 0      * (object type not in this .obj file)
+O 0 51004 999 19637 100 0 0 0      * (object type not in this .obj file)
+*
+M 0 19600 2 19600 100 0 0 0        * a huge golem
+M 0 19600 2 19600 100 0 0 0        * a huge golem
+M 0 19602 6 19601 100 0 0 0        * a fierce dragon
+M 0 19602 6 19603 100 0 0 0        * a fierce dragon
+M 0 19602 6 19605 100 0 0 0        * a fierce dragon
+M 0 19602 6 19606 100 0 0 0        * a fierce dragon
+M 0 19602 6 19607 100 0 0 0        * a fierce dragon
+M 0 19602 6 19609 100 0 0 0        * a fierce dragon
+M 0 19611 1 19610 100 0 0 0        * a shadow dragon
+G 1 19626 1 0 100 0 0 0            *    a key fragment
+F 1 19612 1 19610 100 0 0 0        * a brilliant white wyrm (following)
+G 1 19627 1 0 100 0 0 0            *    a key fragment
+M 0 19616 1 19611 100 0 0 0        * an oddly clothed man
+M 0 19601 4 19612 100 0 0 0        * a dragonian worshiper
+G 1 19601 1 0 100 0 0 0            *    a dark key
+M 0 19601 4 19612 100 0 0 0        * a dragonian worshiper
+M 0 19601 4 19612 100 0 0 0        * a dragonian worshiper
+M 0 19601 4 19612 100 0 0 0        * a dragonian worshiper
+M 0 19603 3 19613 100 0 0 0        * an ancient black wyrm
+G 1 19617 1 0 100 0 0 0            *    a key fragment
+F 1 19604 1 19613 100 0 0 0        * an ancient blue wyrm (following)
+G 1 19616 1 0 100 0 0 0            *    a key fragment
+M 0 19608 1 19614 100 0 0 0        * an ancient blue wyrm
+G 1 19618 1 0 100 0 0 0            *    a key fragment
+F 1 19619 1 19614 100 0 0 0        * an ancient red wyrm (following)
+G 1 19619 1 0 100 0 0 0            *    a key fragment
+M 0 19606 1 19615 100 0 0 0        * an ancient green wyrm
+G 1 19608 1 0 100 0 0 0            *    a fragment of a ruby encrusted key
+F 1 19618 2 19615 100 0 0 0        * an ancient green wyrm (following)
+G 1 19609 1 0 100 0 0 0            *    a fragment of a ruby encrusted key
+F 1 19618 2 19615 100 0 0 0        * an ancient green wyrm (following)
+G 1 19610 1 0 100 0 0 0            *    a fragment of a ruby encrusted key
+M 0 19607 5 19616 100 0 0 0        * an ancient red wyrm
+G 1 19621 1 0 100 0 0 0            *    a key fragment
+F 1 19609 2 19616 100 0 0 0        * an ancient white wyrm (following)
+G 1 19622 1 0 100 0 0 0            *    a key fragment
+F 1 19609 2 19616 100 0 0 0        * an ancient white wyrm (following)
+G 1 19623 1 0 100 0 0 0            *    a key fragment
+M 0 19700 2 19617 100 0 0 0        * (mob type not in this .mob file)
+G 1 19606 1 0 100 0 0 0            *    a translucent crystal key
+G 1 19641 1 0 33 0 0 0             *    some bits and pieces from Tiamat's cadaver
+G 1 19642 1 0 10 0 0 0             *    the immaterial spirit of Tiamat
+G 1 51006 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 19614 1 19617 100 0 0 0        * a brilliant white wyrm (following)
+F 1 19615 1 19617 100 0 0 0        * an ancient black wyrm (following)
+M 0 19610 2 19618 100 0 0 0        * an ancient white wyrm
+G 1 19629 1 0 100 0 0 0            *    a key fragment
+F 1 19603 3 19618 100 0 0 0        * an ancient black wyrm (following)
+G 1 19631 1 0 100 0 0 0            *    a key fragment
+F 1 19605 2 19618 100 0 0 0        * an ancient green wyrm (following)
+G 1 19632 1 0 100 0 0 0            *    a key fragment
+M 0 19610 2 19619 100 0 0 0        * an ancient white wyrm
+G 1 19636 1 0 100 0 0 0            *    a key fragment
+F 1 19603 3 19619 100 0 0 0        * an ancient black wyrm (following)
+G 1 19633 1 0 100 0 0 0            *    a key fragment
+F 1 19605 2 19619 100 0 0 0        * an ancient green wyrm (following)
+G 1 19635 1 0 100 0 0 0            *    a key fragment
+M 0 19613 1 19621 100 0 0 0        * a dragonian worshiper
+M 0 19617 1 19624 100 0 0 0        * a pitiful slave
+G 1 32019 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 32019 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 32019 3 0 100 0 0 0            *    (object type not in this .obj file)
+*
+S

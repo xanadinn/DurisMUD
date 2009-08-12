@@ -1,0 +1,592 @@
+#995
+&+WCloud &+LGiant &+WKingdom&n~
+99680 1 0 25 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 99501 0 1 100 0 0 0
+*     north exit from "Outside Some Flimsy Wooden Gates" to
+*     "Inside The Tall Wooden Gates" - closed
+*
+D 0 99502 2 1 100 0 0 0
+*     south exit from "Inside The Tall Wooden Gates" to
+*     "Outside Some Flimsy Wooden Gates" - closed
+*
+D 0 99503 3 1 100 0 0 0
+*     west exit from "A Pleasant Village Path" to
+*     "A Farmer's Cottage" - closed
+*
+D 0 99516 1 1 100 0 0 0
+*     east exit from "A Farmer's Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99504 3 1 100 0 0 0
+*     west exit from "A Pleasant Village Path" to
+*     "A Small Cottage" - closed
+*
+D 0 99522 1 1 100 0 0 0
+*     east exit from "A Small Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99505 1 1 100 0 0 0
+*     east exit from "A Pleasant Village Path" to
+*     "A Small Cottage" - closed
+*
+D 0 99514 3 1 100 0 0 0
+*     west exit from "A Small Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99507 1 1 100 0 0 0
+*     east exit from "A Pleasant Village Path" to
+*     "A Farmer's Cottage" - closed
+*
+D 0 99512 3 1 100 0 0 0
+*     west exit from "A Farmer's Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99508 3 1 100 0 0 0
+*     west exit from "A Pleasant Village Path" to
+*     "A Peaceful Cottage" - closed
+*
+D 0 99520 1 1 100 0 0 0
+*     east exit from "A Peaceful Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99510 1 1 100 0 0 0
+*     east exit from "A Pleasant Village Path" to
+*     "A Fancy Cottage" - closed
+*
+D 0 99524 3 1 100 0 0 0
+*     west exit from "A Fancy Cottage" to
+*     "A Pleasant Village Path" - closed
+*
+D 0 99512 2 1 100 0 0 0
+*     south exit from "A Farmer's Cottage" to
+*     "A Large Barn" - closed
+*
+D 0 99513 0 1 100 0 0 0
+*     north exit from "A Large Barn" to
+*     "A Farmer's Cottage" - closed
+*
+D 0 99514 2 1 100 0 0 0
+*     south exit from "A Small Cottage" to
+*     "A Small Barn" - closed
+*
+D 0 99515 0 1 100 0 0 0
+*     north exit from "A Small Barn" to
+*     "A Small Cottage" - closed
+*
+D 0 99516 2 1 100 0 0 0
+*     south exit from "A Farmer's Cottage" to
+*     "A Smelly Old Barn" - closed
+*
+D 0 99517 0 1 100 0 0 0
+*     north exit from "A Smelly Old Barn" to
+*     "A Farmer's Cottage" - closed
+*
+D 0 99518 2 1 100 0 0 0
+*     south exit from "A Quiet Cottage" to
+*     "A Stuffy Barn" - closed
+*
+D 0 99519 0 1 100 0 0 0
+*     north exit from "A Stuffy Barn" to
+*     "A Quiet Cottage" - closed
+*
+D 0 99520 2 1 100 0 0 0
+*     south exit from "A Peaceful Cottage" to
+*     "A Noisy Barn" - closed
+*
+D 0 99521 0 1 100 0 0 0
+*     north exit from "A Noisy Barn" to
+*     "A Peaceful Cottage" - closed
+*
+D 0 99522 2 1 100 0 0 0
+*     south exit from "A Small Cottage" to
+*     "A Quiet Barn" - closed
+*
+D 0 99523 0 1 100 0 0 0
+*     north exit from "A Quiet Barn" to
+*     "A Small Cottage" - closed
+*
+D 0 99524 2 1 100 0 0 0
+*     south exit from "A Fancy Cottage" to
+*     "A Very Large Barn" - closed
+*
+D 0 99525 0 1 100 0 0 0
+*     north exit from "A Very Large Barn" to
+*     "A Fancy Cottage" - closed
+*
+D 0 99538 0 2 100 0 0 0
+*     north exit from "At The Base of a Mountain" to
+*     "A Misty Shaft" - closed/locked
+*
+D 0 99561 2 2 100 0 0 0
+*     south exit from "A Misty Shaft" to
+*     "At The Base of a Mountain" - closed/locked
+*
+D 0 99542 3 1 100 0 0 0
+*     west exit from "A Steep Mountain Trail" to
+*     "A Dark Cave" - closed
+*
+D 0 99577 1 1 100 0 0 0
+*     east exit from "A Dark Cave" to
+*     "A Steep Mountain Trail" - closed
+*
+D 0 99544 1 1 100 0 0 0
+*     east exit from "A Steep Mountain Trail" to
+*     "A Dark Cave" - closed
+*
+D 0 99575 3 1 100 0 0 0
+*     west exit from "A Dark Cave" to
+*     "A Steep Mountain Trail" - closed
+*
+D 0 99547 3 1 100 0 0 0
+*     west exit from "A Mountain Trail" to
+*     "A Dark Cave" - closed
+*
+D 0 99573 1 1 100 0 0 0
+*     east exit from "A Dark Cave" to
+*     "A Mountain Trail" - closed
+*
+D 0 99553 1 1 100 0 0 0
+*     east exit from "A Mountain Trail" to
+*     "A Dark Cave" - closed
+*
+D 0 99554 3 1 100 0 0 0
+*     west exit from "A Dark Cave" to
+*     "A Mountain Trail" - closed
+*
+D 0 99554 1 1 100 0 0 0
+*     east exit from "A Dark Cave" to
+*     "A Yeti Lair" - closed
+*
+D 0 99555 3 1 100 0 0 0
+*     west exit from "A Yeti Lair" to
+*     "A Dark Cave" - closed
+*
+D 0 99558 1 1 100 0 0 0
+*     east exit from "A Mountain Trail" to
+*     "A Dark Cave" - closed
+*
+D 0 99559 3 1 100 0 0 0
+*     west exit from "A Dark Cave" to
+*     "A Mountain Trail" - closed
+*
+D 0 99559 1 1 100 0 0 0
+*     east exit from "A Dark Cave" to
+*     "A Yeti Lair" - closed
+*
+D 0 99560 3 1 100 0 0 0
+*     west exit from "A Yeti Lair" to
+*     "A Dark Cave" - closed
+*
+D 0 99561 5 1 100 0 0 0
+*     down exit from "A Misty Shaft" to
+*     "A Shadowy Cave" - closed
+*
+D 0 99570 4 1 100 0 0 0
+*     up exit from "A Shadowy Cave" to
+*     "A Misty Shaft" - closed
+*
+D 0 99567 3 1 100 0 0 0
+*     west exit from "A Misty Shaft" to
+*     "A Misty Look Out" - closed
+*
+D 0 99568 1 1 100 0 0 0
+*     east exit from "A Misty Look Out" to
+*     "A Misty Shaft" - closed
+*
+D 0 99569 0 1 100 0 0 0
+*     north exit from "A Misty Shaft" to
+*     "A Misty Chamber" - closed
+*
+D 0 99571 2 1 100 0 0 0
+*     south exit from "A Misty Chamber" to
+*     "A Misty Shaft" - closed
+*
+D 0 99569 1 1 100 0 0 0
+*     east exit from "A Misty Shaft" to
+*     "A Holy Shrine" - closed
+*
+D 0 99601 3 1 100 0 0 0
+*     west exit from "A Holy Shrine" to
+*     "A Misty Shaft" - closed
+*
+D 0 99573 3 1 100 0 0 0
+*     west exit from "A Dark Cave" to
+*     "A Yeti Lair" - closed
+*
+D 0 99574 1 1 100 0 0 0
+*     east exit from "A Yeti Lair" to
+*     "A Dark Cave" - closed
+*
+D 0 99575 1 1 100 0 0 0
+*     east exit from "A Dark Cave" to
+*     "A Yeti Lair" - closed
+*
+D 0 99576 3 1 100 0 0 0
+*     west exit from "A Yeti Lair" to
+*     "A Dark Cave" - closed
+*
+D 0 99577 3 1 100 0 0 0
+*     west exit from "A Dark Cave" to
+*     "A Large Yeti Lair" - closed
+*
+D 0 99578 1 1 100 0 0 0
+*     east exit from "A Large Yeti Lair" to
+*     "A Dark Cave" - closed
+*
+D 0 99584 5 5 100 0 0 0
+*     down exit from "A Dark Shed" to
+*     "A Secret Room" - closed/secret
+*
+D 0 99585 4 1 100 0 0 0
+*     up exit from "A Secret Room" to
+*     "A Dark Shed" - closed
+*
+D 0 99586 5 5 100 0 0 0
+*     down exit from "A Dark Shed" to
+*     "A Secret Lair" - closed/secret
+*
+D 0 99587 4 1 100 0 0 0
+*     up exit from "A Secret Lair" to
+*     "A Dark Shed" - closed
+*
+D 0 99589 5 5 100 0 0 0
+*     down exit from "A Dark Shed" to
+*     "A Dark Lair" - closed/secret
+*
+D 0 99590 4 1 100 0 0 0
+*     up exit from "A Dark Lair" to
+*     "A Dark Shed" - closed
+*
+D 0 99606 0 1 100 0 0 0
+*     north exit from "Before a the Gates of Castle Selanis" to
+*     "The Grand Foyer of Castle Selanis" - closed
+*
+D 0 99607 2 1 100 0 0 0
+*     south exit from "The Grand Foyer of Castle Selanis" to
+*     "Before a the Gates of Castle Selanis" - closed
+*
+D 0 99609 3 1 100 0 0 0
+*     west exit from "The Grand Foyer of Castle Selanis" to
+*     "The West Hall" - closed
+*
+D 0 99617 1 1 100 0 0 0
+*     east exit from "The West Hall" to
+*     "The Grand Foyer of Castle Selanis" - closed
+*
+D 0 99612 1 1 100 0 0 0
+*     east exit from "The Grand Foyer of Castle Selanis" to
+*     "The East Hall" - closed
+*
+D 0 99614 3 1 100 0 0 0
+*     west exit from "The East Hall" to
+*     "The Grand Foyer of Castle Selanis" - closed
+*
+D 0 99615 2 1 100 0 0 0
+*     south exit from "The East Hall" to
+*     "Within the Selanis Dining Hall" - closed
+*
+D 0 99646 0 1 100 0 0 0
+*     north exit from "Within the Selanis Dining Hall" to
+*     "The East Hall" - closed
+*
+D 0 99616 1 1 100 0 0 0
+*     east exit from "The East Hall" to
+*     "A Rugged Back Hallway" - closed
+*
+D 0 99631 3 1 100 0 0 0
+*     west exit from "A Rugged Back Hallway" to
+*     "The East Hall" - closed
+*
+D 0 99619 3 1 100 0 0 0
+*     west exit from "The West Hall" to
+*     "A Rugged Back Hallway" - closed
+*
+D 0 99620 1 1 100 0 0 0
+*     east exit from "A Rugged Back Hallway" to
+*     "The West Hall" - closed
+*
+D 0 99673 1 1 100 0 0 0
+*     east exit from "The Cloud Giant Barracks" to
+*     "The Cloud Giant Barracks" - closed
+*
+D 0 99674 3 1 100 0 0 0
+*     west exit from "The Cloud Giant Barracks" to
+*     "The Cloud Giant Barracks" - closed
+*
+D 0 99673 3 1 100 0 0 0
+*     west exit from "The Cloud Giant Barracks" to
+*     "The Sleeping Quarters" - closed
+*
+D 0 99678 1 1 100 0 0 0
+*     east exit from "The Sleeping Quarters" to
+*     "The Cloud Giant Barracks" - closed
+*
+D 0 99674 1 1 100 0 0 0
+*     east exit from "The Cloud Giant Barracks" to
+*     "Sleeping Quarters" - closed
+*
+D 0 99677 3 1 100 0 0 0
+*     west exit from "Sleeping Quarters" to
+*     "The Cloud Giant Barracks" - closed
+*
+D 0 99675 2 1 100 0 0 0
+*     south exit from "The Cloud Giant Barracks" to
+*     "The Sergeant's Quarters" - closed
+*
+D 0 99680 0 1 100 0 0 0
+*     north exit from "The Sergeant's Quarters" to
+*     "The Cloud Giant Barracks" - closed
+*
+D 0 99676 2 1 100 0 0 0
+*     south exit from "The Cloud Giant Barracks" to
+*     "The Weaponmaster's Room" - closed
+*
+D 0 99679 0 1 100 0 0 0
+*     north exit from "The Weaponmaster's Room" to
+*     "The Cloud Giant Barracks" - closed
+*
+*
+O 0 99524 1 99529 100 0 0 0        * the statue of Anne, the savior
+*
+M 0 99531 4 99501 100 0 0 0        * a village guard
+M 0 99531 4 99501 100 0 0 0        * a village guard
+M 0 99510 17 99504 100 0 0 0       * a rooster
+M 0 99511 16 99504 100 0 0 0       * a piglet
+M 0 99512 16 99504 100 0 0 0       * a chicken
+M 0 99519 5 99506 100 0 0 0        * a village guard
+M 0 99510 17 99507 100 0 0 0       * a rooster
+M 0 99511 16 99507 100 0 0 0       * a piglet
+M 0 99512 16 99507 100 0 0 0       * a chicken
+M 0 99531 4 99509 100 0 0 0        * a village guard
+M 0 99519 5 99511 100 0 0 0        * a village guard
+M 0 99513 1 99512 100 0 0 0        * a very tired farmer
+E 1 99502 4 16 100 0 0 0           *   a large hoe
+M 0 99510 17 99513 100 0 0 0       * a rooster
+M 0 99510 17 99513 100 0 0 0       * a rooster
+M 0 99511 16 99513 100 0 0 0       * a piglet
+M 0 99511 16 99513 100 0 0 0       * a piglet
+M 0 99512 16 99513 100 0 0 0       * a chicken
+M 0 99512 16 99513 100 0 0 0       * a chicken
+M 0 99514 1 99514 100 0 0 0        * a female farmer
+M 0 99510 17 99515 100 0 0 0       * a rooster
+M 0 99511 16 99515 100 0 0 0       * a piglet
+M 0 99512 16 99515 100 0 0 0       * a chicken
+M 0 99510 17 99515 100 0 0 0       * a rooster
+M 0 99511 16 99515 100 0 0 0       * a piglet
+M 0 99512 16 99515 100 0 0 0       * a chicken
+M 0 99517 1 99516 100 0 0 0        * a diseased farmer
+G 1 99519 2 0 100 0 0 0            *    the scalp of a troll
+G 1 99531 1 0 100 0 0 0            *    an onyx colored note
+M 0 99510 17 99517 100 0 0 0       * a rooster
+M 0 99511 16 99517 100 0 0 0       * a piglet
+M 0 99512 16 99517 100 0 0 0       * a chicken
+M 0 99510 17 99517 100 0 0 0       * a rooster
+M 0 99510 17 99517 100 0 0 0       * a rooster
+M 0 99511 16 99517 100 0 0 0       * a piglet
+M 0 99512 16 99517 100 0 0 0       * a chicken
+M 0 99516 1 99518 100 0 0 0        * the quiet farmer
+G 1 99505 2 0 100 0 0 0            *    a shining silvery key
+G 1 99525 1 0 100 0 0 0            *    a small note with writing on it
+M 0 99510 17 99519 100 0 0 0       * a rooster
+M 0 99511 16 99519 100 0 0 0       * a piglet
+M 0 99512 16 99519 100 0 0 0       * a chicken
+M 0 99510 17 99519 100 0 0 0       * a rooster
+M 0 99511 16 99519 100 0 0 0       * a piglet
+M 0 99512 16 99519 100 0 0 0       * a chicken
+M 0 99509 1 99520 100 0 0 0        * a strong farmer
+E 1 99502 4 16 100 0 0 0           *   a large hoe
+M 0 99510 17 99521 100 0 0 0       * a rooster
+M 0 99511 16 99521 100 0 0 0       * a piglet
+M 0 99512 16 99521 100 0 0 0       * a chicken
+M 0 99510 17 99521 100 0 0 0       * a rooster
+M 0 99511 16 99521 100 0 0 0       * a piglet
+M 0 99512 16 99521 100 0 0 0       * a chicken
+M 0 99515 1 99522 100 0 0 0        * a tanned farmer
+G 1 99502 4 0 100 0 0 0            *    a large hoe
+M 0 99510 17 99523 100 0 0 0       * a rooster
+M 0 99511 16 99523 100 0 0 0       * a piglet
+M 0 99512 16 99523 100 0 0 0       * a chicken
+M 0 99510 17 99523 100 0 0 0       * a rooster
+M 0 99511 16 99523 100 0 0 0       * a piglet
+M 0 99512 16 99523 100 0 0 0       * a chicken
+M 0 99504 1 99524 100 0 0 0        * a short farmer
+E 1 99502 4 16 100 0 0 0           *   a large hoe
+M 0 99510 17 99525 100 0 0 0       * a rooster
+M 0 99511 16 99525 100 0 0 0       * a piglet
+M 0 99512 16 99525 100 0 0 0       * a chicken
+M 0 99511 16 99525 100 0 0 0       * a piglet
+M 0 99510 17 99525 100 0 0 0       * a rooster
+M 0 99512 16 99525 100 0 0 0       * a chicken
+M 0 99519 5 99526 100 0 0 0        * a village guard
+M 0 99520 1 99529 100 0 0 0        * Anne, the savior
+E 1 99517 1 18 100 0 0 0           *   a dark magenta orb
+F 1 99521 2 99529 100 0 0 0        * Anne's spirit guard (following)
+E 1 99530 1 9 100 0 0 0            *   a pair of spirit gloves
+F 1 99521 2 99529 100 0 0 0        * Anne's spirit guard (following)
+E 1 99527 1 16 100 0 0 0           *   a flaming broadsword
+M 0 99531 4 99529 100 0 0 0        * a village guard
+M 0 99518 13 99530 100 0 0 0       * a large razor fish
+M 0 99518 13 99530 100 0 0 0       * a large razor fish
+M 0 99518 13 99530 100 0 0 0       * a large razor fish
+M 0 99518 13 99531 100 0 0 0       * a large razor fish
+M 0 99518 13 99531 100 0 0 0       * a large razor fish
+M 0 99518 13 99532 100 0 0 0       * a large razor fish
+M 0 99518 13 99532 100 0 0 0       * a large razor fish
+M 0 99518 13 99533 100 0 0 0       * a large razor fish
+M 0 99518 13 99533 100 0 0 0       * a large razor fish
+M 0 99518 13 99534 100 0 0 0       * a large razor fish
+M 0 99518 13 99534 100 0 0 0       * a large razor fish
+M 0 99518 13 99535 100 0 0 0       * a large razor fish
+M 0 99518 13 99535 100 0 0 0       * a large razor fish
+M 0 99519 5 99536 100 0 0 0        * a village guard
+M 0 99501 1 99537 100 0 0 0        * the fur trader
+G 1 99513 1 0 100 0 0 0            *    a warm fur scarf
+G 1 99514 1 0 100 0 0 0            *    a warm fur cap
+G 1 99515 1 0 100 0 0 0            *    a pair of fur lined boots
+M 0 99503 3 99555 100 0 0 0        * a huge mountain yeti
+G 1 99509 5 0 100 0 0 0            *    a yeti pelt
+M 0 99503 3 99560 100 0 0 0        * a huge mountain yeti
+G 1 99509 5 0 100 0 0 0            *    a yeti pelt
+M 0 99507 4 99561 100 0 0 0        * a cloud giant warrior
+E 1 99508 1 5 100 0 0 0            *   a suit of giant platemail
+E 1 99510 1 13 100 0 0 0           *   a thick leather strap
+M 0 99508 1 99562 100 0 0 0        * the village leader
+E 1 99511 1 5 100 0 0 0            *   a full suit of studded leather
+G 1 99505 2 0 100 0 0 0            *    a shining silvery key
+G 1 99526 1 0 100 0 0 0            *    a half burnt note
+M 0 99507 4 99567 100 0 0 0        * a cloud giant warrior
+M 0 99502 1 99568 100 0 0 0        * a sneaky cloud giant
+E 1 99512 1 16 100 0 0 0           *   a razored-black stiletto
+E 1 99500 1 21 100 0 0 0           *   a tiny golden hoop
+M 0 99507 4 99569 100 0 0 0        * a cloud giant warrior
+M 0 99506 1 99570 100 0 0 0        * a cloud giant hero
+E 1 99504 1 8 100 0 0 0            *   a pair of duergar-hide boots
+M 0 99507 4 99571 100 0 0 0        * a cloud giant warrior
+M 0 99519 5 99572 100 0 0 0        * a village guard
+M 0 99505 2 99574 100 0 0 0        * a huge hairy yeti
+G 1 99509 5 0 100 0 0 0            *    a yeti pelt
+M 0 99505 2 99576 100 0 0 0        * a huge hairy yeti
+G 1 99509 5 0 100 0 0 0            *    a yeti pelt
+M 0 99503 3 99578 100 0 0 0        * a huge mountain yeti
+G 1 99509 5 0 100 0 0 0            *    a yeti pelt
+M 0 99522 1 99580 100 0 0 0        * Gilmorock, the village sorcerer
+E 1 99521 2 18 100 0 0 0           *   the scalp of a drow
+G 1 99528 1 0 100 0 0 0            *    a shiny glowing bracelet
+M 0 99523 4 99581 100 0 0 0        * a HUGE bat
+M 0 99523 4 99581 100 0 0 0        * a HUGE bat
+M 0 99523 4 99582 100 0 0 0        * a HUGE bat
+M 0 99523 4 99583 100 0 0 0        * a HUGE bat
+M 0 99524 1 99585 100 0 0 0        * a battle scarred Duergar
+G 1 99518 1 0 100 0 0 0            *    the scalp of a duergar
+F 1 99525 1 99585 100 0 0 0        * a battle scarred Troll (following)
+G 1 99519 2 0 100 0 0 0            *    the scalp of a troll
+F 1 99527 1 99585 100 0 0 0        * a battle scarred Ogre (following)
+G 1 99520 1 0 100 0 0 0            *    the scalp of an ogre
+G 1 99532 1 0 100 0 0 0            *    a torn batskin mask
+M 0 99529 1 99587 100 0 0 0        * a battle scarred Orc
+G 1 99523 1 0 100 0 0 0            *    the scalp of an Orc
+F 1 99528 1 99587 100 0 0 0        * a battle scarred Drow (following)
+E 1 99521 2 18 100 0 0 0           *   the scalp of a drow
+M 0 99526 1 99590 100 0 0 0        * a battle scarred Illithid
+G 1 99522 1 0 100 0 0 0            *    the scalp of an Illithid
+G 1 99533 1 0 100 0 0 0            *    a chipped jade ring
+M 0 99530 1 99600 100 0 0 0        * the great flying giant
+E 1 99529 1 19 100 0 0 0           *   a feathered leather eyepatch
+M 0 99500 1 99601 100 0 0 0        * the cloud giant priest
+E 1 99506 999 3 100 0 0 0          *   a necklace of holly berries
+E 1 99501 1 6 100 0 0 0            *   a glowing silk headband
+E 1 99507 999 12 100 0 0 0         *   a fine silken bodycloak
+M 0 99532 3 99606 100 0 0 0        * a cloud giant guard
+M 0 99532 3 99606 100 0 0 0        * a cloud giant guard
+M 0 99532 3 99606 100 0 0 0        * a cloud giant guard
+M 0 99548 1 99607 100 0 0 0        * Nonstros, the cloud giant bard
+E 1 99536 1 3 100 0 0 0            *   a fine silk shawl
+M 0 99549 7 99607 100 0 0 0        * a servant of the castle
+M 0 99551 4 99607 100 0 0 0        * an elven merchant
+M 0 99547 4 99608 100 0 0 0        * a cloud giant guard
+M 0 99550 3 99608 100 0 0 0        * a halfling merchant
+M 0 99551 4 99608 100 0 0 0        * an elven merchant
+M 0 99547 4 99609 100 0 0 0        * a cloud giant guard
+M 0 99549 7 99610 100 0 0 0        * a servant of the castle
+M 0 99550 3 99610 100 0 0 0        * a halfling merchant
+M 0 99551 4 99610 100 0 0 0        * an elven merchant
+M 0 99533 2 99613 100 0 0 0        * a cloud giant stair guard
+M 0 99533 2 99613 100 0 0 0        * a cloud giant stair guard
+M 0 99546 5 99614 100 0 0 0        * a cloud giant guard
+M 0 99549 7 99614 100 0 0 0        * a servant of the castle
+M 0 99545 6 99617 100 0 0 0        * a cloud giant guard
+M 0 99549 7 99618 100 0 0 0        * a servant of the castle
+M 0 99546 5 99620 100 0 0 0        * a cloud giant guard
+M 0 99545 6 99623 100 0 0 0        * a cloud giant guard
+M 0 99545 6 99625 100 0 0 0        * a cloud giant guard
+M 0 99546 5 99628 100 0 0 0        * a cloud giant guard
+M 0 99545 6 99631 100 0 0 0        * a cloud giant guard
+M 0 99536 2 99632 100 0 0 0        * a guest of the cloud giants
+M 0 99537 2 99633 100 0 0 0        * a guest of the cloud giants
+M 0 99536 2 99634 100 0 0 0        * a guest of the cloud giants
+M 0 99535 2 99635 100 0 0 0        * a guest of the cloud giants
+M 0 99534 2 99636 100 0 0 0        * a guest of the cloud giants
+M 0 99540 2 99637 100 0 0 0        * a guest of the cloud giants
+M 0 99538 2 99638 100 0 0 0        * a guest of the cloud giants
+M 0 99535 2 99639 100 0 0 0        * a guest of the cloud giants
+M 0 99534 2 99640 100 0 0 0        * a guest of the cloud giants
+M 0 99537 2 99641 100 0 0 0        * a guest of the cloud giants
+M 0 99539 6 99642 100 0 0 0        * a guest of the cloud giants
+M 0 99538 2 99643 100 0 0 0        * a guest of the cloud giants
+M 0 99540 2 99644 100 0 0 0        * a guest of the cloud giants
+M 0 99539 6 99645 100 0 0 0        * a guest of the cloud giants
+M 0 99550 3 99646 100 0 0 0        * a halfling merchant
+M 0 99551 4 99646 100 0 0 0        * an elven merchant
+M 0 99545 6 99648 100 0 0 0        * a cloud giant guard
+M 0 99539 6 99649 100 0 0 0        * a guest of the cloud giants
+M 0 99539 6 99649 100 0 0 0        * a guest of the cloud giants
+M 0 99546 5 99650 100 0 0 0        * a cloud giant guard
+M 0 99547 4 99651 100 0 0 0        * a cloud giant guard
+M 0 99562 1 99652 100 0 0 0        * a cloud giant cook
+M 0 99557 2 99654 100 0 0 0        * a disciple of Stronmaus
+M 0 99558 2 99654 100 0 0 0        * a disciple of Stronmaus
+M 0 99559 2 99654 100 0 0 0        * a disciple of Stronmaus
+M 0 99557 2 99657 100 0 0 0        * a disciple of Stronmaus
+M 0 99558 2 99657 100 0 0 0        * a disciple of Stronmaus
+M 0 99559 2 99657 100 0 0 0        * a disciple of Stronmaus
+M 0 99560 1 99659 100 0 0 0        * Ankha, the cloud giant priest
+E 1 99542 1 16 100 0 0 0           *   a mystical scepter enshrouded with mist
+F 1 99561 1 99659 100 0 0 0        * the assistant priest to Ankha (following)
+M 0 99556 1 99661 100 0 0 0        * a dwarven cleric
+E 1 99541 1 9 100 0 0 0            *   a pair of mithril gauntlets lined with granite
+M 0 99549 7 99662 100 0 0 0        * a servant of the castle
+M 0 99539 6 99662 100 0 0 0        * a guest of the cloud giants
+M 0 99546 5 99664 100 0 0 0        * a cloud giant guard
+M 0 99545 6 99665 100 0 0 0        * a cloud giant guard
+M 0 99539 6 99665 100 0 0 0        * a guest of the cloud giants
+M 0 99547 4 99666 100 0 0 0        * a cloud giant guard
+M 0 99549 7 99667 100 0 0 0        * a servant of the castle
+M 0 99549 7 99668 100 0 0 0        * a servant of the castle
+M 0 99555 1 99669 100 0 0 0        * a cloud giant artist
+E 1 99540 1 15 100 0 0 0           *   an emerald bracelet studded with amethysts
+M 0 99552 1 99670 100 0 0 0        * Stronmar, the cloud giant king
+E 1 99537 1 9 100 0 0 0            *   a fine pair of gloves studded with amethysts
+E 1 99538 1 10 100 0 0 0           *   a pair of sleeves woven from mist
+F 1 99553 2 99670 100 0 0 0        * a royal guard (following)
+F 1 99553 2 99670 100 0 0 0        * a royal guard (following)
+F 1 99554 1 99670 100 0 0 0        * Selanis, the queen (following)
+E 1 99539 1 21 100 0 0 0           *   a tiny amethyst earring
+M 0 99544 3 99674 100 0 0 0        * a cloud giant warrior
+M 0 99544 3 99675 100 0 0 0        * a cloud giant warrior
+M 0 99544 3 99676 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99677 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99677 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99677 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99678 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99678 100 0 0 0        * a cloud giant warrior
+M 0 99541 6 99678 100 0 0 0        * a cloud giant warrior
+M 0 99542 1 99679 100 0 0 0        * the cloud giant weaponmaster
+G 1 99535 1 0 100 0 0 0            *    a huge two-handed sword of the cloud giants
+M 0 99543 1 99680 100 0 0 0        * the cloud giant sergeant
+E 1 99534 1 6 100 0 0 0            *   a brilliant-white crown of the cloud giants
+*
+S

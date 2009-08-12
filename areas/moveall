@@ -1,0 +1,11 @@
+# shitty little piece of trash to move tworld files to world files
+
+  echo "Moving world file."; mv tworld.wld world.wld
+  echo "Moving mob file."; mv tworld.mob world.mob
+  echo "Moving object file."; mv tworld.obj world.obj
+  echo "Moving zone file."; mv tworld.zon world.zon
+  echo "Moving quest file."; mv tworld.qst world.qst
+  echo "Moving shop file."; mv tworld.shp world.shp
+echo
+echo "File conversion complete."
+echo

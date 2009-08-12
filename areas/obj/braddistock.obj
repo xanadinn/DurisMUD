@@ -1,0 +1,917 @@
+#1301
+book old worn~
+an old &+yworn&N book~
+an old &+yworn&N book lies in the corner collecting dust.~
+~
+8 28 2 5 7 0 8388608 16385 0 0 0
+0 0 0 0 0 0 0 0
+1 500 100
+E
+book old worn~
+This book is entitled "The Magical Properties of Gemstones" by Mage Tenser.
+~
+#1302
+old musty book~
+a &+ymusty book&N~
+a &+ymusty book&N lies in the corner.~
+~
+8 28 2 5 7 0 8388608 16385 0 0 0
+0 0 0 0 0 0 0 0
+1 500 100
+E
+old musty book~
+This book has the title "The Magical Properties of Herbs and Flowers"
+by Mage Tenser.
+~
+#1303
+old book text tome~
+an old &+btome&N~
+an old thick &+btome&N lies in the corner.~
+~
+15 28 2 5 7 0 8388608 16385 0 0 0
+10 5 -1 100 0 0 0 0
+5 550 100
+E
+old tome book~
+This book has the title "The Metaphysics of Mathematics" by Mage Nystul.
+~
+#1304
+note~
+a &+Wnote&N~
+a note lies in between the pages of this book.~
+~
+8 29 1 1 7 0 8454144 16385 0 0 0
+0 0 0 0 0 0 0 0
+1 1 100
+E
+note~
+This note was obviously torn from a larger sheet of parchment.  It
+contains a few lines of text scrawled in the common tongue.  It has been
+spoiled by damp so that only two words are still legible:
+      "......beyond skeletons......"
+~
+#1305
+broken desk drawer~
+&+ya broken desk~
+&+ya broken desk&N with a large drawer lies against the wall.~
+~
+15 6 3 0 7 0 0 0 0 0 0
+50 13 0 100 0 0 0 0
+300 1 100
+E
+desk broken~
+   The keyhole on the drawer looks very misshapen and damaged.
+~
+#1306
+potion rose watery _id_~
+a &+bwatery &+Rrose-colored&N potion~
+a &+bwatery &+Rrose-colored&N potion is here.~
+~
+10 7 2 4 7 0 4096 1 64 0 0
+20 43 43 -1 0 0 0 0
+2 3972 100
+E
+_id_name_~
+potion curing
+~
+E
+_id_short_~
+&+Ra potion of curing&n
+~
+#1307
+trash refuse pile~
+a pile of refuse~
+a &+Cpile&N of &+Lrefuse&N lies in the south east corner.~
+~
+15 5 3 0 7 0 0 0 0 0 0
+10 0 -1 100 0 0 0 0
+10 0 100
+#1308
+shiny gold earring~
+a &+Wshiny&+Y gold&N earring~
+a &+Wshiny&N &+Ygold earring&N, long forgotten, lies here.~
+~
+9 24 1 1 7 0 4096 524289 64 0 0
+0 0 0 3 0 0 0 0
+1 2000 100
+A
+18 1
+A
+19 1
+#1309
+gem amethyst stone~
+an &+Yamethyst&N~
+an &+Yamethyst&N is carefully concealed here.~
+~
+20 26 0 0 7 0 4096 1 0 0 0
+0 0 0 50 0 0 0 0
+2 1 100
+#1310
+ring protection~
+a &+Wring&N of &+bprotection&N~
+a valuable &+Wring&N of &+bprotection&N is here.~
+~
+9 16 1 1 7 0 0 3 64 0 0
+0 1 0 3 0 0 0 0
+1 2393 100
+A
+24 -2
+A
+17 -20
+#1311
+small metal box~
+a &+Lsmall metal&N box~
+a &+Lsmall metal&N box was carefully hidden here.~
+~
+15 16 3 0 7 0 4096 16385 0 0 0
+10 5 0 100 0 0 0 0
+5 100 100
+E
+box lock metal small~
+This small box has an old rusty lock.  You can sense that if you want
+to open it you will have to pick it, or find the key -- if one exists.
+~
+#1312
+cracked old leather boots~
+a pair of &+yold cracked leather boots&N~
+a pair of &+yold cracked leather boots&N lies here aging with time.~
+~
+9 13 3 8 7 0 0 65 0 0 0
+3 6 1 3 0 0 0 0
+4 100 100
+#1313
+dirty ragged stained cloak~
+a &+rragged&N &+Yst&+yai&+cned&N cloak~
+a &+rragged&N, dirty &+Yst&+yain&+Yed&N cloak lies here discarded.~
+~
+9 3 3 8 7 0 0 1025 0 0 0
+4 9 1 3 0 0 0 0
+3 100 100
+#1314
+fire place fireplace~
+&+Ra large fireplace&N~
+a large &+Rfireplace&N lies along the western wall.~
+~
+15 11 3 0 7 0 0 0 0 0 0
+100 0 0 100 0 0 0 0
+500 1 100
+E
+fireplace fire huge~
+This used to be a warm fireplace, but it hasn't been used in some time.
+~
+#1315
+crystal chunk fist-sized~
+&+Ca fist-sized chunk of&N &+Wcrystal&N~
+&+Ca fist-sized chunk of&N &+Wcrystal&N is here.~
+~
+20 8 0 0 7 0 262144 16385 0 0 0
+0 0 0 65 0 0 0 0
+5 1 100
+E
+chunk crystal~
+   &+WThis chunk of crystal glows brightly as you hold it.  You feel it would
+&+Wmake a nice light source if needed, plus would fetch a nice value at a
+&+Wstore.&N
+~
+#1316
+key scratched~
+a &+Lscratched&N key~
+a &+Lscratched&N key is here.~
+~
+18 16 1 1 7 0 8392704 16385 0 0 0
+1 0 0 0 0 0 0 0
+1 1 100
+#1317
+dagger assassin sharp~
+a &+Wsharp&N &+rassassin's&N dagger~
+a &+Wsharp&N &+rassassins&N dagger rests here.~
+~
+5 16 2 3 7 0 0 8193 0 4194697632 0
+2 1 7 0 0 0 0 0
+3 962 100
+E
+dagger sharp~
+This dagger looks extremely sharp, and very effective for an assassins
+use.
+~
+A
+19 1
+A
+18 3
+#1318
+large wooden chest~
+a large &+ywooden chest&N~
+a large &+ywooden chest&N, its timbers split, lies here.~
+~
+15 6 5 50 7 0 0 0 0 0 0
+100 5 0 250 0 0 0 0
+400 1 100
+#1320
+small diamond~
+a small &+Wdiamond&N~
+a small &+Wdiamond&N lies here.  It looks fairly valueable.~
+~
+20 8 0 0 7 0 4096 16385 0 0 0
+0 0 0 55 0 0 0 0
+1 1 100
+#1321
+mildew mildewed sack~
+a &+Ymil&+ydewed&N &+csack&N~
+a &+Ymil&+ydewed&N &+csack&N rots on the ground.~
+~
+15 3 3 10 7 0 0 16385 0 0 0
+25 0 0 100 0 0 0 0
+1 10 100
+E
+sack mildew mildewed large~
+   &+yThis sack looks like it hasn't been used in a long time.  A few holes
+&+ycover the bottom of the sack along with various spots of mold and mildew.
+&+yAll in all this doesn't look to be a very long-term type of container.
+~
+#1322
+nest stirges~
+a stirges &+ynest&N~
+a &+ynest&N for the &+Lstirges&N was made here.~
+~
+15 5 3 0 7 0 0 0 0 0 0
+10 0 0 100 0 0 0 0
+100 1 100
+E
+nest~
+This is a nest made from twigs and sticks.
+~
+#1323
+silverish ring~
+a &+Wsil&+Cver&+cish&N ring~
+a &+Wsil&+Cver&+cish&N ring is here &+Wglinting&N in the sun.~
+~
+9 16 1 1 10 0 4096 3 64 0 0
+0 1 0 3 0 0 0 0
+1 229 100
+E
+ring silverish~
+This ring is absolutely beautiful.
+~
+A
+1 9
+A
+2 9
+#1324
+corpse warrior~
+a &+bwarrior's&N corpse~
+the &+Wcorpse&N of a &+bdead warrior&N is here.~
+~
+15 2 3 30 7 0 0 0 0 0 0
+100 0 -1 100 0 0 0 0
+150 1 100
+E
+corpse warrior~
+The corpse is that of a fighting man, dead a few weeks.
+His belt pouch has been sliced open and emptied.  It looks like he
+died from multiple stab wounds.  His face is twisted in a grisly mask
+of pain and horror.
+~
+#1325
+plate mail suit~
+an enchanted suit of &+Wplate mail&N~
+a suit of &+Wplate mail&N is lying on the ground.~
+~
+9 16 0 0 12 0 0 9 64 4173708804 0
+40 3 1 3 0 0 0 0
+20 200000 100
+E
+plate mail platemail suit~
+This plate mail is obviously magical, and where normal plate mail
+might weigh a lot, this mail is almost weightless.
+~
+A
+5 9
+A
+23 -3
+#1326
+long sword jagged longsword~
+a &+yja&+bgg&+ced&N &+Llongsword&N~
+a &+yja&+bgg&+ced&N &+Llongsword&N is lying on the ground waiting to be picked up.~
+~
+5 16 3 10 7 0 1024 8193 66 87572571 0
+5 2 4 3 0 0 0 0
+10 392 100
+E
+long sword jagged longsword~
+This sword is just about weightless, and along one of the edges instead
+of a fine blade, are jagged teeth making this sword very sharp,
+and _very_ effective.
+~
+A
+18 1
+A
+19 1
+#1327
+shield dented~
+a de&+Rnt&Ned &+Wshield&N~
+a round de&+Rnt&Ned &+Wshield&N is lying on the ground.~
+~
+37 16 3 15 7 0 0 513 0 4173708804 0
+2 1 2 57 2 0 0 0
+10 500 100
+#1328
+dagger jagged~
+a &+yja&+bgg&+ced&N &+Ldagger&N~
+a &+yja&+bgg&+ced&N &+Ldagger&N lies on the ground.~
+~
+5 16 2 3 7 0 0 8193 64 4194697632 0
+2 1 6 11 0 0 0 0
+5 187 100
+E
+dagger jagged~
+This dagger is marked by one edge of its blade having jagged "teeth".
+This looks very painful.
+~
+A
+19 1
+A
+18 1
+#1329
+backpack cracked leather bp~
+a c&+yrack&Ned &+yleather&N backpack~
+a c&+yrack&Ned &+yleather&N backpack is here ready to store things for you.~
+~
+15 13 3 10 7 0 0 17409 0 0 0
+45 5 -1 100 0 0 0 0
+5 1000 100
+E
+backpack cracked leather~
+Somewhat worse for wear, this backpack still looks functional.
+~
+#1330
+water skin cracked leather~
+a c&+yrack&Ned &+yleather&N waterskin~
+a c&+yrack&Ned &+yleather&N waterskin is on the ground.~
+~
+17 12 3 8 7 0 8192 16385 0 0 0
+10 6 17 0 0 0 0 0
+1 500 100
+E
+cracked leather waterskin water skin~
+This waterskin looks functional, though it has seen better days.
+~
+#1333
+throne~
+&+Wthe Rat Lord's throne&N~
+&+WAn ornate throne surrounded by humanoid bones rests here.&N~
+~
+15 15 3 0 7 0 0 0 0 0 0
+100 0 0 100 0 0 0 0
+0 0 100
+E
+throne~
+This throne, with its ornate silver designwork, is out
+of place in this wretched cavern.  There appears to be
+something hidden under the seat...
+~
+#1334
+key~
+&+ca silver key&N~
+&+cA silver key rests here.&N~
+~
+13 15 3 0 7 0 16384 1 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#1335
+book philosophers stone~
+a book entitled "&+RYe Secret of Ye Philosopher's Stone&N"~
+a book entitled "&+RYe Secret of Ye Philosopher's Stone&N" is here.~
+~
+8 11 2 5 7 0 8388608 16385 0 0 0
+0 0 0 0 0 0 0 0
+4 321 100
+E
+book philosophers stone philosopher's~
+The book is filled with obscure methods of trying to turn normal base
+metals into gold by using something called a philosopher's stone.
+You wonder if any such stone really exists.
+~
+#1336
+golden human skull~
+a &+Ygolden&N human &+Wskull&N~
+a &+Ygolden&N human &+Wskull&N is here.~
+~
+20 24 0 0 7 0 8388608 16385 0 0 0
+0 0 0 40 0 0 0 0
+25 1 100
+E
+skull human golden~
+This was obviously a result of some chemical reaction.  You do know
+that it _is_ pure gold though.
+~
+#1337
+golden apple~
+a &+Ygolden&N &+rapple&N~
+a &+Ygolden&N &+rapple&N is here.~
+~
+20 24 0 0 7 0 8388608 16385 0 0 0
+0 0 0 44 0 0 0 0
+4 1 100
+E
+golden apple~
+This was obviously a result of some chemical reaction.  You do know
+that it _is_ pure gold though.
+~
+#1338
+golden rose~
+a &+Ygolden&N &+Rrose&N~
+a &+Ygolden&N &+Rrose&N is here.~
+~
+20 24 0 0 7 0 8388608 16385 0 0 0
+0 0 0 20 0 0 0 0
+3 1 100
+E
+golden rose~
+This was obviously a result of some chemical reaction.  You do know
+that it _is_ pure gold though.
+~
+#1339
+set five small golden balance weights~
+a set of &+bfive&N small &+Ygolden&N &+gbalance weights&N~
+a set of &+bfive&N small &+Ygolden&N &+gbalance weights&N is here.~
+~
+20 24 0 0 7 0 8388608 16385 0 0 0
+0 0 0 55 0 0 0 0
+5 1 100
+E
+golden small five set balance weights~
+This was obviously a result of some chemical reaction.  You do know
+that it _is_ pure gold though.
+~
+#1340
+collar~
+&+Ba collar with an inscription, "Slippers"&N~
+&+BA collar lies here.&N~
+~
+13 15 3 0 7 0 0 1 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+collar~
+A jaguar named "Slippers." Interesting...
+~
+#1341
+table alchemists~
+an &+balchemist's&N &+ytable&N~
+an &+balchemist's&N &+ytable&N is here, covered with alchemy contraptions.~
+~
+15 5 3 0 7 0 0 0 0 0 0
+150 0 0 100 0 0 0 0
+300 1 100
+E
+table~
+This table looks like it was where the alchemist did all his
+experiments from.
+~
+#1342
+smooth ovoid pebble~
+a &+Wsm&+Coo&+cth&N &+Movoid&N &+Ypeb&+Wble&N~
+a &+Wsm&+Coo&+cth&N &+Movoid&N &+Lpebble&N is on the ground shining in the sun's light.~
+~
+8 11 0 0 7 0 327809 16385 64 0 0
+0 0 0 0 0 0 0 0
+1 1 100
+E
+stone ovoid pebble smooth~
+This is a smooth ovoid pebble about 4 ounces in weight and it has a
+lustrous pale gold color.
+~
+A
+19 -2
+A
+18 -2
+#1343
+scroll alchemist _id_~
+an &+balchemist's&N &+gscroll&N~
+an &+balchemist's&N &+gscroll&N is lying here.~
+~
+2 29 1 2 7 0 1024 16385 64 4197892 0
+25 92 -1 -1 0 0 0 0
+1 291 100
+E
+_id_name_~
+scroll detect magic
+~
+E
+_id_short_~
+&+ya scroll of detect magic&n
+~
+#1344
+medium wooden table~
+a medium &+ywooden table&N~
+a medium &+ywooden table&N stands against the east wall.~
+~
+15 6 3 0 7 0 0 0 0 0 0
+50 0 0 100 0 0 0 0
+150 1 100
+#1345
+corpse remains skeletal thief~
+&+Lthe corpse of a thief&N~
+&+LThe skeletal remains of a thief lie here.&N~
+~
+15 15 3 0 7 0 0 0 0 0 0
+100 0 0 100 0 0 0 0
+0 0 100
+#1346
+scroll green glowing _id_~
+a &+Wglowing&N &+Ggreen&N scroll~
+a &+Wglowing&N &+Ggreen&N scroll is lying here.~
+~
+2 29 1 2 7 0 5121 16385 64 4197892 0
+15 32 -1 -1 0 0 0 0
+1 213 100
+E
+_id_name_~
+scroll magic missile
+~
+E
+_id_short_~
+&+ba scroll of &+Bmagic missile&n
+~
+#1347
+small iron strongbox strong~
+a small &+Liron&N strongbox~
+a small &+Liron&N strongbox is on the ground.~
+~
+15 15 3 0 7 0 4096 16385 0 0 0
+15 13 1351 100 0 0 0 0
+10 500 100
+E
+iron strongbox~
+This small box looks like it can be used to hold a small number of items
+safely.
+~
+#1348
+pale yellow potion _id_~
+a &+Wpale&N &+Yyellow&N potion~
+a &+Wpale&N &+Yyellow&N potion is here.~
+~
+10 7 2 4 7 0 65536 16385 64 0 0
+15 16 16 -1 0 0 0 0
+1 373 100
+E
+_id_name_~
+potion curing
+~
+E
+_id_short_~
+&+Ya potion of curing&n
+~
+#1349
+deep green potion _id_~
+a &+gdeep green&N potion~
+a &+gdeep green&N potion is here.~
+~
+10 7 2 4 7 0 65536 16385 64 0 0
+50 73 -1 -1 0 0 0 0
+1 100 100
+E
+_id_name_~
+potion dexterity
+~
+E
+_id_short_~
+&+ga potion of dexterity&n
+~
+#1350
+rod iron _id_~
+&+can iron rod&n~
+&+cAn iron rod is here.~
+~
+5 15 3 4 7 0 9216 8193 64 4197892 0
+10 3 3 7 0 0 0 0
+2 3012 100
+E
+_id_name_~
+rod smiting
+~
+E
+_id_short_~
+a &+brod&n of &+rsm&+Liting&n
+~
+A
+19 2
+A
+18 1
+#1351
+small iron key~
+a small &+Liron&N key~
+a small &+Liron&N key is on the round here.~
+~
+18 15 1 1 7 0 8392704 16385 0 0 0
+1347 0 0 0 0 0 0 0
+1 1 100
+#1352
+rusty battle axe~
+a &+yrusty&N &+Lbattle&N &+Waxe&N~
+A &+yrusty&N &+Lbattle&N &+Waxe&N is on the ground here.~
+~
+5 15 3 8 7 0 1024 8193 0 87572571 0
+1 1 5 3 0 0 0 0
+13 50 100
+#1353
+boat glowing blue~
+a &+Wgl&+Cow&+Wing&N boat~
+a &+Wgl&+Cow&+Wing&N boat is on the ground here.~
+~
+22 6 0 0 7 0 270337 16385 64 0 0
+0 0 0 0 0 0 0 0
+70 138 100
+E
+boat glowing~
+Supposedly this boat should be heavy, but in reality it's almost
+weightless!
+~
+#1354
+large golden hoop earring~
+a large &+Ygolden&N &+Choop&N earring~
+a large &+Ygolden&N &+Choop&N earring is on the ground here.~
+~
+9 24 1 1 7 0 0 524289 64 0 0
+2 14 0 3 0 0 0 0
+1 329 100
+A
+13 5
+#1355
+lucky charm necklace~
+a '&+Glucky&N &+gcharm&N' &+Rnecklace&N~
+a '&+Glucky&N &+gcharm&N' &+Rnecklace&N is lying here.~
+~
+9 15 3 2 7 0 8192 5 66 0 0
+2 2 0 3 0 0 0 0
+1 317 100
+A
+18 1
+#1356
+breath taking emerald breathtaking~
+a &+Wbreath&+Mtaking&N &+Gemerald&N~
+a &+Wbreath&+Mtaking&N &+Gemerald&N is on the ground!  Pick it up!~
+~
+20 32 0 0 7 0 0 16385 64 0 0
+0 0 0 125 0 0 0 0
+1 1 100
+E
+emerald breathtaking breath~
+This gem is so beautiful you almost hate to sell it.
+~
+#1357
+dull pale gold bracelet~
+a &+cdull&N &+Wpale&N &+Ygold&N bracelet~
+a &+cdull&N &+Wpale&N &+Ygold&N bracelet is rolling around on the ground.~
+~
+9 24 3 3 7 0 0 4097 64 0 0
+3 11 24 3 0 0 0 0
+2 319 100
+A
+5 2
+A
+24 -1
+#1358
+pair mage boots~
+a &+Lpair&N of &+Mmage&N boots~
+a &+Lpair&N of &+Mmage&N boots is sitting on the ground.~
+~
+9 14 3 8 7 0 1024 65 64 4197892 0
+5 6 1 3 0 0 0 0
+1 2971 100
+E
+pair mage boots~
+These boots were made for a mage.
+~
+A
+3 4
+#1359
+arm chair armchair broken~
+&+La broken armchair&N~
+an &+Barmchair&N, once &+Rbeautiful&N, lies &+ybroken and forgotten here.&N~
+~
+13 6 3 8 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+50 0 100
+E
+arm chair armchair broken~
+This once beautiful chair has since been destroyed.  Only the frame can
+hint at what this chair must have been like in its day.
+~
+#1360
+table broken wood~
+&+Wa broken table&N~
+pieces of &+ywood&N that used to be a &+ytable&N, lie here in the corner.~
+~
+13 6 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+70 0 100
+E
+table broken wood~
+This table might once have been a serviceable desk used for writing or study.
+Now, however, it is merely hunks of wood torn apart, lying in the corner.
+~
+#1361
+sink cracked discolored~
+a &+ycracked and discolored sink&N~
+a &+rcracked&N and &+Wdi&+Yscolor&+yed&N &+Wsink&N stands here.~
+~
+13 9 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+100 0 100
+E
+cracked sink discolored~
+Once a pearl colored sink, now spots of brown and yellow occupy the finish.
+Traces of mold of various colors are noticeable as well.
+~
+#1362
+cooking implements~
+&+ycooking equipment&N~
+various &+Mcooking implements&N are attached to the walls.~
+~
+13 15 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+35 0 100
+E
+cooking implements various~
+The cooking equipment is all unusable.
+~
+#1363
+rotten timber heap~
+&+yrotten timber&N~
+a heap of &+yro&+Ytt&+yen&N &+ytimber&N lies in the northeast corner.~
+~
+13 5 0 0 7 0 0 1 0 0 0
+0 0 0 0 0 0 0 0
+150 1 100
+E
+rotten timber heap~
+This looks like it used to be part of the staircase.  The wood is the same
+type that was used, only this wood is all rotted from age and neglect.
+~
+#1364
+rubbish pile~
+pile of &+yrubbish&N~
+&+yrubbish&N is strewn all over the floor.~
+~
+13 5 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+100 0 100
+E
+rubbish pile~
+Yuck!  You can't identify half of what this stuff is, but either way, you
+know it's been here a long time.
+~
+#1365
+two large sacks~
+&+Wtwo large sacks~
+two large &+ysacks&N are lying here on the floor.~
+~
+15 3 3 0 7 0 0 0 0 0 0
+10 0 0 100 0 0 0 0
+0 0 100
+E
+two large sacks~
+The sacks themselves are torn in most areas.  They contain old clothing and
+rags, but otherwise nothing of value in either one.
+~
+#1366
+tiny red mushrooms~
+&+rtiny red mushrooms&N~
+a clump of &+rtiny red&N mushrooms has sprouted through the floor.~
+~
+13 2 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#1367
+intact fireplace fire place~
+an intact &+rfireplace&N~
+an intact &+Rfireplace&N is in the middle of the southern wall.~
+~
+13 11 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+intact fireplace fire~
+The fires that burned here long ago must have been grand indeed.  Now
+it just stands without warmth or use.
+~
+#1368
+grand bed four poster four-poster~
+&+Wa four-poster bed&N~
+a once &+Wgrand&N &+cbed&N lies here mostly destroyed.~
+~
+13 6 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+300 0 100
+#1369
+bundle clothing~
+&+Wa bundle of clothing&N~
+a bundle of &+bclothing&N is on the ground.~
+~
+13 3 3 8 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+30 0 100
+#1370
+wooden chair splinters~
+&+ya wooden chair&N~
+a broken &+ywooden chair&N lies here.~
+~
+13 6 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+100 0 100
+E
+chair wooden broken~
+These chairs once looked like they were comfortable.  Now they are broken
+and unusable.
+~
+#1371
+copper boiler large~
+&+ya large copper boiler&N~
+a large &+ycopper&N &+rboiler&N is on the ground here.~
+~
+13 21 0 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+100 0 100
+#1372
+maul titans sledge hammer _id_~
+&+La jet-black maul of the &+rtitans&N~
+&+La massive looking sledge has been left here.&N~
+~
+5 16 4 8 7 0 3289089 8193 66 0 0
+4 2 5 6 0 0 0 0
+20 10000 100
+E
+maul~
+One feels powerful when merely hold this fine weapon. However,  that
+power will increase tenfold if one proclaims the name of the race that
+created it when charging into battle.
+~
+A
+18 4
+A
+19 3
+#1373
+racks bottle wooden~
+&+ywooden bottle racks&N~
+&+ywooden&N bottle racks line the walls of this room.~
+~
+13 7 1 2 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+100 0 100
+E
+wooden bottle racks wine~
+These used to hold the wine and spirits.
+~
+#1374
+searing sword lightning~
+&+Ya searing two-handed sword of lightning&N~
+&+Ya sword made from electricity is here.&N~
+~
+5 16 4 10 7 0 4194305 8193 66 0 0
+5 3 5 3 0 30 41 30
+1 10000 100
+E
+_room_msg~
+&+WTerrifying &+belectrical&+W power begins to course through $n's
+&+Wweapon...&N
+~
+E
+_victim_msg~
+&+WTerrifying &+belectrical&+W power begins to course through $n's
+&+Wweapon as it strikes you!&N
+~
+E
+_char_msg~
+&+WYour weapon begins to crackle with tremendous &+belectrical&N
+&+Wenergy...&N
+~
+A
+18 4
+A
+19 5
+#1375
+remains lord braddistock~
+the remains of Lord Braddistock~
+Ghastly remains of a humanoid lie here.~
+~
+13 15 3 0 7 0 0 1 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#1376
+diseased proc1~
+diseased rat proc~
+An unnamed object lies here, looking lonely and forelorn.~
+~
+5 15 3 0 7 0 524290 8192 0 0 0
+9 6 6 0 0 186 30 30
+0 0 100
+E
+_victim_msg~
+&N$n&+W's disgusting yellow teeth sink into your flesh and you
+&+Wimmediately feel ill.&N
+~
+E
+_room_msg~
+&N$N&+W looks very ill after being bitten by $n&+W.&N
+~

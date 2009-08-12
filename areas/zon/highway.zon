@@ -1,0 +1,415 @@
+#413
+Southern Coastal Highway~
+41838 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 41375 2 0 100 0 0 0
+*     south exit from "A Dusty Highway" to
+*     "Abandoned Waystation" - open
+*
+D 0 41398 0 0 100 0 0 0
+*     north exit from "Abandoned Waystation" to
+*     "A Dusty Highway" - open
+*
+D 0 41539 4 5 100 0 0 0
+*     up exit from "Twist in the Massive Cave" to
+*     "A Slight Ridge" - closed/secret
+*
+D 0 41548 5 5 100 0 0 0
+*     down exit from "A Slight Ridge" to
+*     "Twist in the Massive Cave" - closed/secret
+*
+D 0 41559 5 8 100 0 0 0
+*     down exit from "An Ancient Chamber of Unknown Use" to
+*     "In the Well, beneath a Statue" - open/blocked
+*
+D 0 41584 4 0 100 0 0 0
+*     up exit from "In the Well, beneath a Statue" to
+*     "An Ancient Chamber of Unknown Use" - open
+*
+D 0 41583 1 0 100 0 0 0
+*     east exit from "Treasure Room" to
+*     "In the Well, beneath a Statue" - open
+*
+D 0 41584 3 8 100 0 0 0
+*     west exit from "In the Well, beneath a Statue" to
+*     "Treasure Room" - open/blocked
+*
+D 0 41586 2 0 100 0 0 0
+*     south exit from "Secret Treasure Room" to
+*     "Closet" - open
+*
+D 0 41588 0 0 100 0 0 0
+*     north exit from "Closet" to
+*     "Secret Treasure Room" - open
+*
+D 0 41589 2 0 100 0 0 0
+*     south exit from "Living Room" to
+*     "Small Passageway" - open
+*
+D 0 41592 0 0 100 0 0 0
+*     north exit from "Small Passageway" to
+*     "Living Room" - open
+*
+D 0 41657 1 1 100 0 0 0
+*     east exit from "Church Road" to
+*     "Church Aisle" - closed
+*
+D 0 41659 3 1 100 0 0 0
+*     west exit from "Church Aisle" to
+*     "Church Road" - closed
+*
+D 0 41661 0 1 100 0 0 0
+*     north exit from "Church Pews" to
+*     "Confessional" - closed
+*
+D 0 41662 2 1 100 0 0 0
+*     south exit from "Confessional" to
+*     "Church Pews" - closed
+*
+D 0 41665 1 1 100 0 0 0
+*     east exit from "Church Altar" to
+*     "Bishop of Volheru's Room" - closed
+*
+D 0 41672 3 1 100 0 0 0
+*     west exit from "Bishop of Volheru's Room" to
+*     "Church Altar" - closed
+*
+D 0 41675 2 1 100 0 0 0
+*     south exit from "Steps to Heaven" to
+*     "Inside the Palace Gates" - closed
+*
+D 0 41677 0 1 100 0 0 0
+*     north exit from "Inside the Palace Gates" to
+*     "Steps to Heaven" - closed
+*
+D 0 41690 5 2 100 0 0 0
+*     down exit from "Mound" to
+*     "Esterra's Cavern" - closed/locked
+*
+D 0 41691 4 2 100 0 0 0
+*     up exit from "Esterra's Cavern" to
+*     "Mound" - closed/locked
+*
+D 0 41693 0 6 100 0 0 0
+*     north exit from "Esterra's Cavern" to
+*     "Waterfall" - closed/locked/secret
+*
+D 0 41703 2 1 100 0 0 0
+*     south exit from "Waterfall" to
+*     "Esterra's Cavern" - closed
+*
+D 0 41701 3 2 100 0 0 0
+*     west exit from "Esterra's Cavern" to
+*     "Esterra's Room" - closed/locked
+*
+D 0 41702 1 1 100 0 0 0
+*     east exit from "Esterra's Room" to
+*     "Esterra's Cavern" - closed
+*
+D 0 41703 0 2 100 0 0 0
+*     north exit from "Waterfall" to
+*     "Small Pond" - closed/locked
+*
+D 0 41705 2 1 100 0 0 0
+*     south exit from "Small Pond" to
+*     "Waterfall" - closed
+*
+D 0 41705 0 2 100 0 0 0
+*     north exit from "Small Pond" to
+*     "Inside the Tree" - closed/locked
+*
+D 0 41706 2 2 100 0 0 0
+*     south exit from "Inside the Tree" to
+*     "Small Pond" - closed/locked
+*
+D 0 41787 1 5 100 0 0 0
+*     east exit from "Thief Camp" to
+*     "Shrubbery" - closed/secret
+*
+D 0 41788 3 5 100 0 0 0
+*     west exit from "Shrubbery" to
+*     "Thief Camp" - closed/secret
+*
+D 0 41804 3 5 100 0 0 0
+*     west exit from "Mountains" to
+*     "Entryway" - closed/secret
+*
+D 0 41805 1 1 100 0 0 0
+*     east exit from "Entryway" to
+*     "Mountains" - closed
+*
+D 0 41806 3 5 100 0 0 0
+*     west exit from "Round Room" to
+*     "The Black Knight's Room" - closed/secret
+*
+D 0 41810 1 1 100 0 0 0
+*     east exit from "The Black Knight's Room" to
+*     "Round Room" - closed
+*
+*
+O 0 41421 1 41457 100 0 0 0        * a damaged sloop
+O 0 41359 1 41479 100 0 0 0        * a nest
+O 0 41360 1 41533 100 0 0 0        * a corpse
+O 0 41334 1 41540 100 0 0 0        * the golden staff of magic immunity
+O 0 41345 4 41540 100 0 0 0        * a stack of gold coins
+O 0 41345 4 41540 100 0 0 0        * a stack of gold coins
+O 0 41347 2 41540 100 0 0 0        * a pile of silver coins
+O 0 41347 2 41540 100 0 0 0        * a pile of silver coins
+O 0 41348 1 41540 100 0 0 0        * an emerald chalice
+O 0 41343 1 41540 100 0 0 0        * an odd, tree-shaped key
+O 0 41350 1 41540 100 0 0 0        * wand of wonder
+O 0 41915 1 41540 100 0 0 0        * (object type not in this .obj file)
+O 0 41361 1 41552 100 0 0 0        * skeleton
+O 0 41351 1 41559 100 0 0 0        * an onyx statue
+O 0 41352 1 41559 100 0 0 0        * a well
+O 0 41412 1 41561 100 0 0 0        * an organ
+O 0 41372 1 41567 100 0 0 0        * a torch
+O 0 41353 1 41583 100 0 0 0        * chest
+P 1 41354 1 41353 100 0 0 0        *   an odd contraption
+P 1 41355 1 41353 100 0 0 0        *   a stick of light
+P 1 41356 1 41353 100 0 0 0        *   a suit of strange armor
+P 1 41357 1 41353 100 0 0 0        *   an unusual helm, with black glass covering the face
+P 1 41358 1 41353 100 0 0 0        *   a map
+P 1 41917 1 41353 100 0 0 0        *   (object type not in this .obj file)
+O 0 41363 1 41586 100 0 0 0        * a chest
+P 1 41345 4 41363 100 0 0 0        *   a stack of gold coins
+P 1 41345 4 41363 100 0 0 0        *   a stack of gold coins
+O 0 41368 1 41587 100 0 0 0        * pallet
+P 1 41364 1 41368 100 0 0 0        *   a small key
+P 1 41369 1 41368 100 0 0 0        *   a fur
+O 0 41365 1 41588 100 0 0 0        * a dresser
+P 1 41366 1 41365 100 0 0 0        *   a pair of orcan rags
+P 1 41367 1 41365 100 0 0 0        *   an orcan cloak
+O 0 41341 1 41648 100 0 0 0        * a rotted sign
+O 0 41407 1 41683 100 0 0 0        * an iron crown of King Vinzor
+O 0 41342 1 41735 100 0 0 0        * a dull red sign
+O 0 41415 1 41838 10 0 0 0         * a harpy tooth
+*
+M 0 41354 4 41307 100 0 0 0        * a merchant
+E 1 41384 3 16 100 0 0 0           *   a jeweled blade
+M 0 41354 4 41315 100 0 0 0        * a merchant
+E 1 41384 3 16 100 0 0 0           *   a jeweled blade
+M 0 41360 1 41433 100 0 0 0        * a tired artifact collector
+M 0 41324 5 41476 100 0 0 0        * the hill giant
+E 1 41310 2 5 100 0 0 0            *   a yellow loin cloth
+M 0 41340 1 41479 100 0 0 0        * a gigantic eagle
+M 0 41356 1 41479 100 0 0 0        * the hill giant leader
+E 1 41402 1 5 100 0 0 0            *   a red spotted yellow loin cloth
+E 1 41404 1 23 100 0 0 0           *   a well-crafted slingshot bag
+E 1 41401 1 16 100 0 0 0           *   a two-handed club of chaos
+G 1 41389 1 0 100 0 0 0            *    a crude leather sling
+G 1 41392 1 0 100 0 0 0            *    a simple leather bag
+M 0 41324 5 41480 100 0 0 0        * the hill giant
+E 1 41310 2 5 100 0 0 0            *   a yellow loin cloth
+M 0 41324 5 41484 100 0 0 0        * the hill giant
+M 0 41324 5 41484 100 0 0 0        * the hill giant
+M 0 41324 5 41486 100 0 0 0        * the hill giant
+M 0 41338 1 41540 100 0 0 0        * a red dragon
+M 0 41357 1 41566 100 0 0 0        * Sir Montel
+E 1 41409 1 10 100 0 0 0           *   some blue dragonscale sleeves
+E 1 41410 2 16 100 0 0 0           *   a thin steel scimitar
+E 1 41410 2 17 100 0 0 0           *   a thin steel scimitar
+E 1 41408 1 20 100 0 0 0           *   a cloth mask
+M 0 41300 4 41567 100 0 0 0        * a stocky orcan warrior
+M 0 41300 4 41567 100 0 0 0        * a stocky orcan warrior
+M 0 41300 4 41567 100 0 0 0        * a stocky orcan warrior
+M 0 41300 4 41567 100 0 0 0        * a stocky orcan warrior
+M 0 41301 1 41567 100 0 0 0        * a stocky orcan warrior
+M 0 41363 1 41583 100 0 0 0        * a hooded guard
+E 1 41303 2 16 100 0 0 0           *   a black shimmering sword
+M 0 41362 10 41601 100 0 0 0       * a sturdy mountain horse
+M 0 41362 10 41601 100 0 0 0       * a sturdy mountain horse
+M 0 41362 10 41601 100 0 0 0       * a sturdy mountain horse
+M 0 41361 1 41601 100 0 0 0        * Xalinor the horse merchant
+M 0 41325 6 41602 100 0 0 0        * the billygoat
+M 0 41325 6 41602 100 0 0 0        * the billygoat
+M 0 41325 6 41603 100 0 0 0        * the billygoat
+M 0 41325 6 41603 100 0 0 0        * the billygoat
+M 0 41326 6 41622 100 0 0 0        * the sheep
+M 0 41326 6 41622 100 0 0 0        * the sheep
+M 0 41326 6 41629 100 0 0 0        * the sheep
+M 0 41326 6 41629 100 0 0 0        * the sheep
+M 0 41325 6 41637 100 0 0 0        * the billygoat
+M 0 41325 6 41637 100 0 0 0        * the billygoat
+M 0 41326 6 41638 100 0 0 0        * the sheep
+M 0 41326 6 41638 100 0 0 0        * the sheep
+M 0 41336 4 41649 100 0 0 0        * the salmon
+M 0 41336 4 41649 100 0 0 0        * the salmon
+M 0 41335 2 41649 100 0 0 0        * the trout
+M 0 41336 4 41651 100 0 0 0        * the salmon
+M 0 41336 4 41651 100 0 0 0        * the salmon
+M 0 41335 2 41651 100 0 0 0        * the trout
+M 0 41333 4 41653 100 0 0 0        * the priest
+E 1 41331 4 12 100 0 0 0           *   the priestly robes of sacrifice
+E 1 41313 4 16 100 0 0 0           *   the mauler
+M 0 41333 4 41653 100 0 0 0        * the priest
+E 1 41331 4 12 100 0 0 0           *   the priestly robes of sacrifice
+E 1 41313 4 16 100 0 0 0           *   the mauler
+M 0 41333 4 41653 100 0 0 0        * the priest
+E 1 41331 4 12 100 0 0 0           *   the priestly robes of sacrifice
+M 0 41333 4 41653 100 0 0 0        * the priest
+E 1 41331 4 12 100 0 0 0           *   the priestly robes of sacrifice
+M 0 41330 6 41654 100 0 0 0        * the holy woman
+M 0 41330 6 41654 100 0 0 0        * the holy woman
+M 0 41330 6 41654 100 0 0 0        * the holy woman
+M 0 41330 6 41654 100 0 0 0        * the holy woman
+M 0 41329 5 41655 100 0 0 0        * the holy man
+E 1 41311 5 8 100 0 0 0            *   a pair of holy sandals
+M 0 41329 5 41655 100 0 0 0        * the holy man
+E 1 41311 5 8 100 0 0 0            *   a pair of holy sandals
+M 0 41329 5 41655 100 0 0 0        * the holy man
+E 1 41311 5 8 100 0 0 0            *   a pair of holy sandals
+M 0 41334 4 41658 100 0 0 0        * the priestess
+E 1 41313 4 16 100 0 0 0           *   the mauler
+M 0 41334 4 41658 100 0 0 0        * the priestess
+E 1 41313 4 16 100 0 0 0           *   the mauler
+M 0 41334 4 41658 100 0 0 0        * the priestess
+M 0 41334 4 41658 100 0 0 0        * the priestess
+M 0 41332 3 41665 100 0 0 0        * the altar boy
+E 1 41324 3 18 100 0 0 0           *   a candle
+M 0 41332 3 41665 100 0 0 0        * the altar boy
+E 1 41324 3 18 100 0 0 0           *   a candle
+M 0 41332 3 41665 100 0 0 0        * the altar boy
+E 1 41324 3 18 100 0 0 0           *   a candle
+M 0 41328 1 41669 100 0 0 0        * the hunchback
+M 0 41330 6 41670 100 0 0 0        * the holy woman
+E 1 41311 5 8 100 0 0 0            *   a pair of holy sandals
+M 0 41330 6 41670 100 0 0 0        * the holy woman
+E 1 41311 5 8 100 0 0 0            *   a pair of holy sandals
+M 0 41329 5 41671 100 0 0 0        * the holy man
+E 1 41329 2 3 100 0 0 0            *   a necklace of holy beads
+M 0 41329 5 41671 100 0 0 0        * the holy man
+E 1 41329 2 3 100 0 0 0            *   a necklace of holy beads
+M 0 41327 1 41672 100 0 0 0        * the Bishop
+E 1 41327 1 16 100 0 0 0           *   an anti-orc scimitar
+E 1 41326 1 18 100 0 0 0           *   the cross of blessed death
+M 0 41310 1 41676 100 0 0 0        * the angel
+E 1 41308 1 8 100 0 0 0            *   a pair of white sandals
+E 1 41306 1 12 100 0 0 0           *   heavenly robes
+E 1 41307 1 18 100 0 0 0           *   the harp of faith
+M 0 41311 2 41677 100 0 0 0        * the cherub
+M 0 41311 2 41677 100 0 0 0        * the cherub
+M 0 41316 1 41677 100 0 0 0        * the ghost
+M 0 41317 1 41677 100 0 0 0        * the spirit
+M 0 41303 1 41683 100 0 0 0        * King Viznor
+E 1 41309 1 16 100 0 0 0           *   a large white spear with a single red gem
+M 0 41306 1 41690 100 0 0 0        * Sir Ector
+E 1 41339 1 12 100 0 0 0           *   a cape of light
+E 1 41340 1 16 100 0 0 0           *   a black spiked mace
+G 1 41414 1 0 100 0 0 0            *    a rusty key
+M 0 41355 1 41701 100 0 0 0        * Sir Lamerok
+E 1 41397 1 2 100 0 0 0            *   a shiny signet ring
+E 1 41400 1 16 100 0 0 0           *   a huge two-handed claymore
+M 0 41313 1 41702 100 0 0 0        * Esterra
+E 1 41318 1 5 100 0 0 0            *   the tethered robe of the universe
+E 1 41317 1 18 100 0 0 0           *   the purple rain of death
+G 1 41396 1 0 100 0 0 0            *    a plain iron key
+M 0 41314 1 41704 100 0 0 0        * Nynevena
+E 1 41319 1 18 100 0 0 0           *   the wand of fiery death
+G 1 41395 1 0 100 0 0 0            *    a transparent key
+M 0 41315 1 41706 100 0 0 0        * Morlanthra
+E 1 41321 1 21 100 0 0 0           *   a magical rune earring
+E 1 41320 1 16 100 0 0 0           *   the staff of all mages
+M 0 41323 4 41708 100 0 0 0        * the alligator
+M 0 41323 4 41709 100 0 0 0        * the alligator
+M 0 41321 3 41710 100 0 0 0        * the swamp fiend
+M 0 41323 4 41710 100 0 0 0        * the alligator
+M 0 41321 3 41711 100 0 0 0        * the swamp fiend
+M 0 41321 3 41712 100 0 0 0        * the swamp fiend
+M 0 41323 4 41712 100 0 0 0        * the alligator
+M 0 41305 1 41715 100 0 0 0        * Sir Palomides
+E 1 41337 1 13 100 0 0 0           *   a belt of immunity
+E 1 41338 1 16 100 0 0 0           *   a sword of the ancestors
+M 0 41320 4 41715 100 0 0 0        * the slimy muck
+M 0 41320 4 41715 100 0 0 0        * the slimy muck
+M 0 41319 4 41716 100 0 0 0        * the mist monster
+M 0 41319 4 41716 100 0 0 0        * the mist monster
+M 0 41319 4 41718 100 0 0 0        * the mist monster
+M 0 41320 4 41721 100 0 0 0        * the slimy muck
+M 0 41319 4 41721 100 0 0 0        * the mist monster
+M 0 41320 4 41722 100 0 0 0        * the slimy muck
+M 0 41302 1 41724 100 0 0 0        * the Kearonor Beast
+E 1 41411 1 12 100 0 0 0           *   the spotted hide of the kearonor beast
+G 1 41305 1 0 100 0 0 0            *    a leopard claw
+M 0 41337 4 41736 100 0 0 0        * the leper
+E 1 41314 5 5 100 0 0 0            *   some diseased rags
+M 0 41337 4 41736 100 0 0 0        * the leper
+E 1 41314 5 5 100 0 0 0            *   some diseased rags
+M 0 41337 4 41736 100 0 0 0        * the leper
+E 1 41314 5 5 100 0 0 0            *   some diseased rags
+M 0 41337 4 41736 100 0 0 0        * the leper
+E 1 41314 5 5 100 0 0 0            *   some diseased rags
+M 0 41312 2 41749 100 0 0 0        * the rabbit
+M 0 41308 1 41749 100 0 0 0        * Sir Gamlot the Invisible Knight
+E 1 41406 1 2 100 0 0 0            *   an adamantium hoop
+E 1 41302 1 5 100 0 0 0            *   a black onyx breastplate
+E 1 41303 2 16 100 0 0 0           *   a black shimmering sword
+R 1 41309 1 41749 100 0 0 0        * a black invisible horse (being ridden)
+M 0 41312 2 41751 100 0 0 0        * the rabbit
+M 0 41307 1 41751 100 0 0 0        * Sir Peryne de Mounte Belyarde
+E 1 41301 1 15 100 0 0 0           *   the bracer of archery
+E 1 41300 1 16 100 0 0 0           *   a great ranger dagger
+M 0 41304 1 41766 100 0 0 0        * Sir Percy
+E 1 41335 1 12 100 0 0 0           *   a cape of health
+E 1 41336 1 16 100 0 0 0           *   a green-hilted long blade
+M 0 41354 4 41769 100 0 0 0        * a merchant
+E 1 41384 3 16 100 0 0 0           *   a jeweled blade
+M 0 41348 9 41770 100 0 0 0        * the thief
+M 0 41348 9 41771 100 0 0 0        * the thief
+M 0 41348 9 41774 100 0 0 0        * the thief
+M 0 41348 9 41774 100 0 0 0        * the thief
+M 0 41351 1 41787 100 0 0 0        * the thief captain
+E 1 41383 1 5 100 0 0 0            *   a captain's leather jacket
+E 1 41388 1 16 100 0 0 0           *   a dirk called 'intimidator'
+M 0 41348 9 41788 100 0 0 0        * the thief
+E 1 41385 1 5 100 0 0 0            *   an initiate's leather jacket
+E 1 41386 5 16 100 0 0 0           *   an initiate's dagger
+M 0 41354 4 41789 100 0 0 0        * a merchant
+M 0 41346 1 41806 100 0 0 0        * Berthol the Dwarf
+E 1 41381 1 16 100 0 0 0           *   a bloodstained hand axe
+M 0 41344 3 41806 100 0 0 0        * the green goblin
+E 1 41377 3 5 100 0 0 0            *   a suit of gob plate
+E 1 41376 3 16 100 0 0 0           *   a gob club
+M 0 41344 3 41806 100 0 0 0        * the green goblin
+E 1 41377 3 5 100 0 0 0            *   a suit of gob plate
+E 1 41376 3 16 100 0 0 0           *   a gob club
+M 0 41344 3 41806 100 0 0 0        * the green goblin
+E 1 41377 3 5 100 0 0 0            *   a suit of gob plate
+E 1 41376 3 16 100 0 0 0           *   a gob club
+M 0 41345 6 41806 100 0 0 0        * the ogre
+E 1 41379 1 5 100 0 0 0            *   a yellow spotted loincloth
+E 1 41380 1 16 100 0 0 0           *   an ogre tusk
+E 1 41378 1 17 100 0 0 0           *   a long heavy warclub
+M 0 41345 6 41806 100 0 0 0        * the ogre
+M 0 41345 6 41809 100 0 0 0        * the ogre
+M 0 41345 6 41809 100 0 0 0        * the ogre
+M 0 41345 6 41809 100 0 0 0        * the ogre
+M 0 41345 6 41809 100 0 0 0        * the ogre
+M 0 41343 1 41810 100 0 0 0        * the Black Knight
+E 1 41375 1 3 100 0 0 0            *   an ankh of the black sword
+R 1 41347 1 41810 100 0 0 0        * the black stallion (being ridden)
+E 1 41316 1 19 100 0 0 0           *   a transparent horse visor
+G 1 41315 3 0 100 0 0 0            *    a transparent saddle
+G 1 41315 3 0 100 0 0 0            *    a transparent saddle
+M 0 41348 9 41832 100 0 0 0        * the thief
+E 1 41386 5 16 100 0 0 0           *   an initiate's dagger
+M 0 41348 9 41832 100 0 0 0        * the thief
+E 1 41386 5 16 100 0 0 0           *   an initiate's dagger
+M 0 41349 1 41832 100 0 0 0        * the thief master
+E 1 41387 1 16 100 0 0 0           *   a master's blade
+M 0 41348 9 41834 100 0 0 0        * the thief
+E 1 41386 5 16 100 0 0 0           *   an initiate's dagger
+M 0 41348 9 41834 100 0 0 0        * the thief
+E 1 41386 5 16 100 0 0 0           *   an initiate's dagger
+M 0 41350 1 41834 100 0 0 0        * the thief lieutenant
+E 1 41382 1 16 100 0 0 0           *   a jeweled dagger of Breale
+M 0 41358 1 41838 100 0 0 0        * a stout harpy
+G 1 41416 1 0 20 0 0 0             *    the hair from a harpy
+M 0 41359 3 41838 100 0 0 0        * a young harpy
+M 0 41359 3 41838 100 0 0 0        * a young harpy
+M 0 41359 3 41838 100 0 0 0        * a young harpy
+*
+S

@@ -1,0 +1,551 @@
+#808
+&+bCeothia&n~
+81094 2 0 45 55 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 80893 3 1 100 0 0 0
+*     west exit from "A Bluestone Street Called Cyraes Way" to
+*     "The Entryway to the Lord of Ceothia's Manor" - closed
+*
+D 0 80975 1 1 100 0 0 0
+*     east exit from "The Entryway to the Lord of Ceothia's Manor" to
+*     "A Bluestone Street Called Cyraes Way" - closed
+*
+D 0 80943 1 5 100 0 0 0
+*     east exit from "A Dimly Lit Alley Way" to
+*     "The Guild Room of the Red Shadow Thieves" - closed/secret
+*
+D 0 80998 3 1 100 0 0 0
+*     west exit from "The Guild Room of the Red Shadow Thieves" to
+*     "A Dimly Lit Alley Way" - closed
+*
+D 0 80959 0 5 100 0 0 0
+*     north exit from "A Dark and Smelly Alley Way" to
+*     "The Violet Death Thieves Guild" - closed/secret
+*
+D 0 80999 2 1 100 0 0 0
+*     south exit from "The Violet Death Thieves Guild" to
+*     "A Dark and Smelly Alley Way" - closed
+*
+D 0 80980 0 2 100 0 0 0
+*     north exit from "A Large Audience Chamber Within the Manor" to
+*     "The Vault Room of Lord Lenbrea" - closed/locked
+*
+D 0 81094 2 2 100 0 0 0
+*     south exit from "The Vault Room of Lord Lenbrea" to
+*     "A Large Audience Chamber Within the Manor" - closed/locked
+*
+D 0 80980 3 2 100 0 0 0
+*     west exit from "A Large Audience Chamber Within the Manor" to
+*     "A Dark and Musty Storeroom Within the Manor" - closed/locked
+*
+D 0 80981 1 6 100 0 0 0
+*     east exit from "A Dark and Musty Storeroom Within the Manor" to
+*     "A Large Audience Chamber Within the Manor" - closed/locked/secret
+*
+*
+O 0 80801 1 80810 100 0 0 0        * a wooden sign
+O 0 80802 1 80843 100 0 0 0        * a wooden sign
+O 0 80824 1 80845 100 0 0 0        * a merchant wagon
+P 1 80826 2 80824 100 0 0 0        *   a large oaken crate
+P 1 80826 2 80824 100 0 0 0        *   a large oaken crate
+O 0 80820 1 80852 100 0 0 0        * a wooden sign
+O 0 80819 1 80896 100 0 0 0        * a wooden sign
+O 0 80800 1 80898 100 0 0 0        * the fountain of Ceothia
+O 0 80822 1 80900 100 0 0 0        * a wooden sign
+O 0 80823 1 80902 100 0 0 0        * a wooden sign
+O 0 80821 1 80904 100 0 0 0        * a wooden sign
+O 0 80816 1 80981 100 0 0 0        * a shimmering portal
+O 0 62 1 81094 100 0 0 0           * (object type not in this .obj file)
+*
+M 0 80811 4 80805 100 0 0 0        * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80811 4 80805 100 0 0 0        * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80811 4 80805 100 0 0 0        * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80811 4 80805 100 0 0 0        * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80807 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80807 100 0 0 0       * an elite Ceothian guard
+M 0 80906 15 80810 100 0 0 0       * an elite Ceothian guard
+M 0 80805 29 80811 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80814 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80905 4 80814 100 0 0 0        * a local farmer
+M 0 80805 29 80824 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80826 100 0 0 0       * a scavenging dog
+M 0 80805 29 80827 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80828 100 0 0 0       * an elite Ceothian guard
+M 0 80908 16 80830 100 0 0 0       * a scavenging dog
+M 0 80805 29 80831 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80836 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80836 100 0 0 0       * a scavenging dog
+M 0 80805 29 80840 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80840 100 0 0 0       * a scavenging dog
+M 0 80906 15 80843 100 0 0 0       * an elite Ceothian guard
+M 0 80872 3 80845 100 0 0 0        * a bored merchant guard
+M 0 80872 3 80845 100 0 0 0        * a bored merchant guard
+G 1 80827 1 0 100 0 0 0            *    a tiny iron key
+M 0 80872 3 80845 100 0 0 0        * a bored merchant guard
+M 0 80805 29 80846 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80847 100 0 0 0       * a scavenging dog
+M 0 80905 4 80848 100 0 0 0        * a local farmer
+M 0 80805 29 80851 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80851 100 0 0 0       * a scavenging dog
+M 0 80805 29 80855 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80858 100 0 0 0       * a scavenging dog
+M 0 80805 29 80859 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80859 100 0 0 0       * a scavenging dog
+M 0 80805 29 80863 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80863 100 0 0 0       * a scavenging dog
+M 0 80908 16 80867 100 0 0 0       * a scavenging dog
+M 0 80805 29 80868 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80873 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80905 4 80874 100 0 0 0        * a local farmer
+M 0 80908 16 80874 100 0 0 0       * a scavenging dog
+M 0 80805 29 80875 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80875 100 0 0 0       * an elite Ceothian guard
+M 0 80908 16 80878 100 0 0 0       * a scavenging dog
+M 0 80805 29 80879 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80882 100 0 0 0       * an elite Ceothian guard
+M 0 80908 16 80883 100 0 0 0       * a scavenging dog
+M 0 80805 29 80884 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80885 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80888 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80890 100 0 0 0       * a scavenging dog
+M 0 80805 29 80892 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80892 100 0 0 0       * an elite Ceothian guard
+M 0 80805 29 80893 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80905 4 80897 100 0 0 0        * a local farmer
+M 0 80805 29 80898 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80898 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80898 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80898 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80906 15 80898 100 0 0 0       * an elite Ceothian guard
+M 0 80906 15 80898 100 0 0 0       * an elite Ceothian guard
+M 0 80908 16 80902 100 0 0 0       * a scavenging dog
+M 0 80906 15 80904 100 0 0 0       * an elite Ceothian guard
+M 0 80805 29 80906 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80805 29 80908 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80857 1 80910 100 0 0 0        * a bored looking clerk
+M 0 80805 29 80913 100 0 0 0       * a Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+M 0 80908 16 80915 100 0 0 0       * a scavenging dog
+M 0 80817 2 80917 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80817 2 80917 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80819 2 80919 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80819 2 80919 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80820 2 80921 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80820 2 80921 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80802 1 80923 100 0 0 0        * the leader of the jade wyrm thieves
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+E 1 80806 994 24 100 0 0 0         *   the badge of the jade wyrm thief guild
+G 1 80804 102 0 100 0 0 0          *    a black steel dagger
+G 1 80804 102 0 100 0 0 0          *    a black steel dagger
+M 0 80821 2 80923 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80821 2 80923 100 0 0 0        * a jade wyrm thief
+M 0 80818 2 80925 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80818 2 80925 100 0 0 0        * a jade wyrm thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80812 2 80926 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80812 2 80926 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80813 2 80929 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80813 2 80929 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80814 2 80932 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80814 2 80932 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80815 2 80933 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80815 2 80933 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80801 1 80935 100 0 0 0        * the leader of the moonstone thieves
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+E 1 80805 994 24 100 0 0 0         *   the badge of the moonstone thief guild
+M 0 80816 2 80935 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80816 2 80935 100 0 0 0        * a moonstone thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80828 2 80936 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80828 2 80936 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80829 2 80938 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80829 2 80938 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80830 2 80940 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80830 2 80940 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80831 2 80943 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80831 2 80943 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80822 2 80947 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80822 2 80947 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80823 2 80949 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80823 2 80949 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80826 2 80953 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80826 2 80953 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80825 2 80957 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80825 2 80957 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80824 2 80961 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80824 2 80961 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80837 16 80964 100 0 0 0       * a poor male commoner
+M 0 80838 16 80964 100 0 0 0       * a poor female commoner
+M 0 80840 11 80964 100 0 0 0       * a dirty young girl
+M 0 80838 16 80965 100 0 0 0       * a poor female commoner
+M 0 80837 16 80965 100 0 0 0       * a poor male commoner
+M 0 80840 11 80965 100 0 0 0       * a dirty young girl
+M 0 80838 16 80966 100 0 0 0       * a poor female commoner
+M 0 80837 16 80966 100 0 0 0       * a poor male commoner
+M 0 80839 10 80966 100 0 0 0       * a dirty young boy
+M 0 80837 16 80967 100 0 0 0       * a poor male commoner
+M 0 80838 16 80967 100 0 0 0       * a poor female commoner
+M 0 80837 16 80968 100 0 0 0       * a poor male commoner
+M 0 80838 16 80968 100 0 0 0       * a poor female commoner
+M 0 80839 10 80968 100 0 0 0       * a dirty young boy
+M 0 80839 10 80968 100 0 0 0       * a dirty young boy
+M 0 80800 1 80969 100 0 0 0        * a leather-worker
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80837 16 80970 100 0 0 0       * a poor male commoner
+M 0 80838 16 80970 100 0 0 0       * a poor female commoner
+M 0 80840 11 80970 100 0 0 0       * a dirty young girl
+M 0 80838 16 80971 100 0 0 0       * a poor female commoner
+M 0 80837 16 80971 100 0 0 0       * a poor male commoner
+M 0 80839 10 80971 100 0 0 0       * a dirty young boy
+M 0 80837 16 80972 100 0 0 0       * a poor male commoner
+M 0 80838 16 80972 100 0 0 0       * a poor female commoner
+M 0 80840 11 80972 100 0 0 0       * a dirty young girl
+M 0 80838 16 80973 100 0 0 0       * a poor female commoner
+M 0 80837 16 80973 100 0 0 0       * a poor male commoner
+M 0 80839 10 80973 100 0 0 0       * a dirty young boy
+M 0 80840 11 80973 100 0 0 0       * a dirty young girl
+M 0 80844 11 80974 100 0 0 0       * a wealthy man
+M 0 80845 11 80974 100 0 0 0       * a wealthy woman
+M 0 80847 9 80974 100 0 0 0        * a well dressed young boy
+M 0 80846 9 80974 100 0 0 0        * a well dressed young girl
+M 0 80806 14 80975 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 80975 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 80975 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 80975 100 0 0 0       * an elite Ceothian guard
+M 0 80848 2 80976 100 0 0 0        * a manor servant
+M 0 80850 1 80976 100 0 0 0        * a Du'Maathe castle guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80849 1 80978 100 0 0 0        * a young scholar
+M 0 80848 2 80979 100 0 0 0        * a manor servant
+M 0 80803 1 80980 100 0 0 0        * Lord Lenbrea
+E 1 80807 1 16 100 0 0 0           *   a polished bluestone sword
+M 0 80804 1 80980 100 0 0 0        * Lady Amrea
+E 1 80809 1 3 100 0 0 0            *   a thin golden chain with a bluestone pendant
+M 0 80806 14 80980 100 0 0 0       * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80806 14 80980 100 0 0 0       * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80806 14 80980 100 0 0 0       * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80806 14 80980 100 0 0 0       * an elite Ceothian guard
+E 1 80808 47 16 100 0 0 0          *   a blackened steel longsword
+E 1 80808 47 17 100 0 0 0          *   a blackened steel longsword
+M 0 80845 11 80982 100 0 0 0       * a wealthy woman
+M 0 80844 11 80982 100 0 0 0       * a wealthy man
+M 0 80847 9 80982 100 0 0 0        * a well dressed young boy
+M 0 80846 9 80982 100 0 0 0        * a well dressed young girl
+M 0 80837 16 80983 100 0 0 0       * a poor male commoner
+M 0 80840 11 80983 100 0 0 0       * a dirty young girl
+M 0 80840 11 80983 100 0 0 0       * a dirty young girl
+M 0 80837 16 80984 100 0 0 0       * a poor male commoner
+M 0 80838 16 80984 100 0 0 0       * a poor female commoner
+M 0 80840 11 80984 100 0 0 0       * a dirty young girl
+M 0 80838 16 80985 100 0 0 0       * a poor female commoner
+M 0 80837 16 80985 100 0 0 0       * a poor male commoner
+M 0 80839 10 80985 100 0 0 0       * a dirty young boy
+M 0 80845 11 80986 100 0 0 0       * a wealthy woman
+M 0 80844 11 80986 100 0 0 0       * a wealthy man
+M 0 80847 9 80986 100 0 0 0        * a well dressed young boy
+M 0 80844 11 80987 100 0 0 0       * a wealthy man
+M 0 80845 11 80987 100 0 0 0       * a wealthy woman
+M 0 80846 9 80987 100 0 0 0        * a well dressed young girl
+M 0 80847 9 80987 100 0 0 0        * a well dressed young boy
+M 0 80837 16 80988 100 0 0 0       * a poor male commoner
+M 0 80838 16 80988 100 0 0 0       * a poor female commoner
+M 0 80839 10 80988 100 0 0 0       * a dirty young boy
+M 0 80840 11 80988 100 0 0 0       * a dirty young girl
+M 0 80844 11 80989 100 0 0 0       * a wealthy man
+M 0 80845 11 80989 100 0 0 0       * a wealthy woman
+M 0 80847 9 80989 100 0 0 0        * a well dressed young boy
+M 0 80838 16 80990 100 0 0 0       * a poor female commoner
+M 0 80837 16 80990 100 0 0 0       * a poor male commoner
+M 0 80840 11 80990 100 0 0 0       * a dirty young girl
+M 0 80834 1 80991 100 0 0 0        * an apprentice blacksmith
+M 0 80837 16 80992 100 0 0 0       * a poor male commoner
+M 0 80838 16 80992 100 0 0 0       * a poor female commoner
+M 0 80839 10 80992 100 0 0 0       * a dirty young boy
+M 0 80845 11 80993 100 0 0 0       * a wealthy woman
+M 0 80844 11 80993 100 0 0 0       * a wealthy man
+M 0 80846 9 80993 100 0 0 0        * a well dressed young girl
+M 0 80847 9 80993 100 0 0 0        * a well dressed young boy
+M 0 80898 1 80994 100 0 0 0        * a young shop assistant
+M 0 80851 1 80995 100 0 0 0        * a withered old woman
+M 0 80837 16 80996 100 0 0 0       * a poor male commoner
+M 0 80838 16 80996 100 0 0 0       * a poor female commoner
+M 0 80839 10 80996 100 0 0 0       * a dirty young boy
+M 0 80840 11 80996 100 0 0 0       * a dirty young girl
+M 0 80838 16 80997 100 0 0 0       * a poor female commoner
+M 0 80839 10 80997 100 0 0 0       * a dirty young boy
+M 0 80807 1 80998 100 0 0 0        * the leader of the red shadow thieves
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+E 1 80810 994 24 100 0 0 0         *   the badge of the red shadow thief guild
+M 0 80832 2 80998 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80832 2 80998 100 0 0 0        * a red shadow thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80827 4 80999 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80827 4 80999 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80808 1 81001 100 0 0 0        * the leader of the violet death thieves
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+E 1 80811 994 24 100 0 0 0         *   the badge of the violet death thief guild
+G 1 80804 102 0 100 0 0 0          *    a black steel dagger
+G 1 80804 102 0 100 0 0 0          *    a black steel dagger
+M 0 80827 4 81001 100 0 0 0        * a violet death thief
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80827 4 81001 100 0 0 0        * a violet death thief
+M 0 80809 1 81003 100 0 0 0        * a withered old bard
+E 1 80812 1 18 100 0 0 0           *   an old set of reed pipes
+M 0 80868 3 81003 100 0 0 0        * a common man
+M 0 80868 3 81003 100 0 0 0        * a common man
+M 0 80868 3 81003 100 0 0 0        * a common man
+M 0 80869 1 81003 100 0 0 0        * a mysterious woman
+M 0 80867 1 81004 100 0 0 0        * a drunken merchant
+M 0 80870 1 81004 100 0 0 0        * a smiling young barmaid
+M 0 80904 11 81007 100 0 0 0       * a sleeping guest
+M 0 80904 11 81007 100 0 0 0       * a sleeping guest
+M 0 80904 11 81009 100 0 0 0       * a sleeping guest
+M 0 80904 11 81009 100 0 0 0       * a sleeping guest
+M 0 80810 1 81010 100 0 0 0        * Giblien
+M 0 80891 1 81011 100 0 0 0        * a sly looking innkeeper
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80863 2 81012 100 0 0 0        * a merchant guard
+M 0 80863 2 81012 100 0 0 0        * a merchant guard
+M 0 80864 3 81012 100 0 0 0        * a merchant guard
+M 0 80864 3 81013 100 0 0 0        * a merchant guard
+M 0 80864 3 81013 100 0 0 0        * a merchant guard
+M 0 80890 1 81013 100 0 0 0        * a plump barmaid
+M 0 80904 11 81016 100 0 0 0       * a sleeping guest
+M 0 80904 11 81018 100 0 0 0       * a sleeping guest
+M 0 80884 1 81019 100 0 0 0        * Steren
+M 0 80885 1 81019 100 0 0 0        * a massive half-ogre
+M 0 80886 1 81020 100 0 0 0        * a drunk noble of Tharnadia
+M 0 80887 3 81020 100 0 0 0        * a merchant trader
+M 0 80887 3 81020 100 0 0 0        * a merchant trader
+M 0 80887 3 81020 100 0 0 0        * a merchant trader
+M 0 80888 1 81021 100 0 0 0        * a beautiful young barmaid
+M 0 80889 1 81021 100 0 0 0        * a young entertainer
+M 0 80904 11 81026 100 0 0 0       * a sleeping guest
+M 0 80865 1 81027 100 0 0 0        * the innkeeper of the Red Garter
+M 0 80866 1 81027 100 0 0 0        * a massive bodyguard
+E 1 80825 1 16 100 0 0 0           *   a notched oaken cudgel
+M 0 80852 5 81028 100 0 0 0        * a drunken patron
+M 0 80852 5 81028 100 0 0 0        * a drunken patron
+M 0 80852 5 81028 100 0 0 0        * a drunken patron
+M 0 80852 5 81028 100 0 0 0        * a drunken patron
+M 0 80852 5 81028 100 0 0 0        * a drunken patron
+M 0 80853 1 81028 100 0 0 0        * a buxom young woman
+M 0 80854 1 81029 100 0 0 0        * a shady young man
+M 0 80855 1 81029 100 0 0 0        * a dirty traveller
+M 0 80856 1 81029 100 0 0 0        * an aging barmaid
+M 0 80904 11 81032 100 0 0 0       * a sleeping guest
+M 0 80833 1 81035 100 0 0 0        * a sweaty blacksmith
+M 0 80835 1 81036 100 0 0 0        * an apprentice tailor
+M 0 80836 1 81037 100 0 0 0        * a tailor
+M 0 80844 11 81038 100 0 0 0       * a wealthy man
+M 0 80845 11 81038 100 0 0 0       * a wealthy woman
+M 0 80846 9 81038 100 0 0 0        * a well dressed young girl
+M 0 80845 11 81039 100 0 0 0       * a wealthy woman
+M 0 80844 11 81039 100 0 0 0       * a wealthy man
+M 0 80847 9 81039 100 0 0 0        * a well dressed young boy
+M 0 80846 9 81039 100 0 0 0        * a well dressed young girl
+M 0 80844 11 81040 100 0 0 0       * a wealthy man
+M 0 80845 11 81040 100 0 0 0       * a wealthy woman
+M 0 80846 9 81040 100 0 0 0        * a well dressed young girl
+M 0 80847 9 81040 100 0 0 0        * a well dressed young boy
+M 0 80880 1 81041 100 0 0 0        * a lithe waiter
+M 0 80881 1 81041 100 0 0 0        * a regal young man
+M 0 80882 1 81041 100 0 0 0        * a regal young woman
+M 0 80883 1 81041 100 0 0 0        * a wealthy old merchant
+M 0 80879 1 81042 100 0 0 0        * a rotund cook
+M 0 80844 11 81043 100 0 0 0       * a wealthy man
+M 0 80845 11 81043 100 0 0 0       * a wealthy woman
+M 0 80847 9 81043 100 0 0 0        * a well dressed young boy
+M 0 80846 9 81043 100 0 0 0        * a well dressed young girl
+M 0 80844 11 81044 100 0 0 0       * a wealthy man
+M 0 80845 11 81044 100 0 0 0       * a wealthy woman
+M 0 80846 9 81044 100 0 0 0        * a well dressed young girl
+M 0 80899 1 81045 100 0 0 0        * an ancient looking man
+M 0 80842 1 81046 100 0 0 0        * a scarred weaponsmith
+M 0 80897 1 81049 100 0 0 0        * a begemmed woman
+M 0 80862 1 81051 100 0 0 0        * a bloody butcher
+M 0 80858 1 81052 100 0 0 0        * a rotund man
+M 0 80859 1 81053 100 0 0 0        * a flour covered baker
+M 0 80860 1 81054 100 0 0 0        * a regal looking woman
+M 0 80861 1 81055 100 0 0 0        * a homely woman
+M 0 80906 15 81056 100 0 0 0       * an elite Ceothian guard
+M 0 80906 15 81056 100 0 0 0       * an elite Ceothian guard
+M 0 80907 1 81056 100 0 0 0        * the captain of the Ceothian Guard
+E 1 80829 1 19 100 0 0 0           *   a blackened eyepatch of the minotaur
+M 0 80906 15 81056 100 0 0 0       * an elite Ceothian guard
+M 0 80906 15 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80906 15 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80806 14 81057 100 0 0 0       * an elite Ceothian guard
+M 0 80900 1 81063 100 0 0 0        * a dwarven armorsmith
+M 0 80841 1 81064 100 0 0 0        * a dye-maker
+M 0 80843 6 81067 100 0 0 0        * a lowly peasant
+M 0 80843 6 81067 100 0 0 0        * a lowly peasant
+M 0 80843 6 81068 100 0 0 0        * a lowly peasant
+M 0 80843 6 81068 100 0 0 0        * a lowly peasant
+M 0 80843 6 81069 100 0 0 0        * a lowly peasant
+M 0 80843 6 81069 100 0 0 0        * a lowly peasant
+M 0 80892 1 81070 100 0 0 0        * Slineten
+M 0 80893 1 81070 100 0 0 0        * a copper skinned man
+E 1 80828 1 16 100 0 0 0           *   a strange curved dagger
+M 0 80894 2 81071 100 0 0 0        * a exotic patron
+M 0 80894 2 81071 100 0 0 0        * a exotic patron
+M 0 80895 1 81072 100 0 0 0        * a plump barmaid
+M 0 80896 1 81072 100 0 0 0        * a drunken merchant
+M 0 80903 1 81078 100 0 0 0        * Clineer
+M 0 80901 2 81079 100 0 0 0        * a local farmer
+M 0 80901 2 81079 100 0 0 0        * a local farmer
+M 0 80902 1 81080 100 0 0 0        * a young barmaid
+M 0 80904 11 81083 100 0 0 0       * a sleeping guest
+M 0 80904 11 81085 100 0 0 0       * a sleeping guest
+M 0 80877 1 81086 100 0 0 0        * Ferenal
+M 0 80878 1 81086 100 0 0 0        * a shady looking man
+E 1 80804 102 16 100 0 0 0         *   a black steel dagger
+E 1 80804 102 17 100 0 0 0         *   a black steel dagger
+M 0 80871 3 81087 100 0 0 0        * a hardened man
+M 0 80871 3 81087 100 0 0 0        * a hardened man
+M 0 80871 3 81087 100 0 0 0        * a hardened man
+M 0 80876 1 81087 100 0 0 0        * a working woman
+M 0 80873 1 81088 100 0 0 0        * a tired barmaid
+M 0 80874 1 81088 100 0 0 0        * a wrinkled old man
+M 0 80875 1 81088 100 0 0 0        * a merchant guard
+M 0 80904 11 81091 100 0 0 0       * a sleeping guest
+M 0 80909 1 81094 100 0 0 0        * a Ceothian vault guard
+*
+S

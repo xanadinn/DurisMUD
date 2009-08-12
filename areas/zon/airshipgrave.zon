@@ -1,0 +1,445 @@
+#775
+&+yThe Mountain Valley of &+YDawndale&n~
+77650 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 77501 3 5 100 0 0 0
+*     west exit from "A Winding, Rocky, Mountain Trail" to
+*     "A Passage Behind Earthen Debris" - closed/secret
+*
+D 0 77544 1 5 100 0 0 0
+*     east exit from "A Passage Behind Earthen Debris" to
+*     "A Winding, Rocky, Mountain Trail" - closed/secret
+*
+D 0 77508 0 5 100 0 0 0
+*     north exit from "At a Pair of Golden Gates" to
+*     "A Steep Mountain Slope" - closed/secret
+*
+D 0 77631 2 5 100 0 0 0
+*     south exit from "A Steep Mountain Slope" to
+*     "At a Pair of Golden Gates" - closed/secret
+*
+D 0 77508 1 2 100 0 0 0
+*     east exit from "At a Pair of Golden Gates" to
+*     "The Dawndale Centrum" - closed/locked
+*
+D 0 77516 3 2 100 0 0 0
+*     west exit from "The Dawndale Centrum" to
+*     "At a Pair of Golden Gates" - closed/locked
+*
+D 0 77512 5 5 100 0 0 0
+*     down exit from "At a Huge Wreckage Site" to
+*     "The Buried Skeleton of the Astral Dancer" - closed/secret
+*
+D 0 77535 4 5 100 0 0 0
+*     up exit from "The Buried Skeleton of the Astral Dancer" to
+*     "At a Huge Wreckage Site" - closed/secret
+*
+D 0 77524 0 1 100 0 0 0
+*     north exit from "The Golden Cliffs" to
+*     "The Cultural Spire" - closed
+*
+D 0 77558 2 1 100 0 0 0
+*     south exit from "The Cultural Spire" to
+*     "The Golden Cliffs" - closed
+*
+D 0 77525 0 1 100 0 0 0
+*     north exit from "The Golden Gates of the Capital Spire" to
+*     "The Smithworks" - closed
+*
+D 0 77603 2 1 100 0 0 0
+*     south exit from "The Smithworks" to
+*     "The Golden Gates of the Capital Spire" - closed
+*
+D 0 77525 1 2 100 0 0 0
+*     east exit from "The Golden Gates of the Capital Spire" to
+*     "The Foyer of the Capital Spire" - closed/locked
+*
+D 0 77526 3 2 100 0 0 0
+*     west exit from "The Foyer of the Capital Spire" to
+*     "The Golden Gates of the Capital Spire" - closed/locked
+*
+D 0 77529 1 0 100 0 0 0
+*     east exit from "The Door to the Museum" to
+*     "The Museum Halls" - open
+*
+D 0 77530 3 0 100 0 0 0
+*     west exit from "The Museum Halls" to
+*     "The Door to the Museum" - open
+*
+D 0 77533 1 2 100 0 0 0
+*     east exit from "The Museum Halls" to
+*     "Inside the Museum Habitat" - closed/locked
+*
+D 0 77534 3 2 100 0 0 0
+*     west exit from "Inside the Museum Habitat" to
+*     "The Museum Halls" - closed/locked
+*
+D 0 77537 5 5 100 0 0 0
+*     down exit from "The Buried Skeleton of the Astral Dancer" to
+*     "An Old, Buried Cargo Hold" - closed/secret
+*
+D 0 77538 4 5 100 0 0 0
+*     up exit from "An Old, Buried Cargo Hold" to
+*     "The Buried Skeleton of the Astral Dancer" - closed/secret
+*
+D 0 77542 1 12 100 0 0 0
+*     east exit from "A Winding, Rocky, Mountain Trail" to
+*     "An Obscure, Descending Trail" - open/secret/blocked
+*
+D 0 77634 3 12 100 0 0 0
+*     west exit from "An Obscure, Descending Trail" to
+*     "A Winding, Rocky, Mountain Trail" - open/secret/blocked
+*
+D 0 77551 1 5 100 0 0 0
+*     east exit from "The Bellows" to
+*     "A Cramped Tunnel" - closed/secret
+*
+D 0 77553 3 5 100 0 0 0
+*     west exit from "A Cramped Tunnel" to
+*     "The Bellows" - closed/secret
+*
+D 0 77563 3 1 100 0 0 0
+*     west exit from "The Golden Cliffs" to
+*     "The Educational Spire" - closed
+*
+D 0 77564 1 1 100 0 0 0
+*     east exit from "The Educational Spire" to
+*     "The Golden Cliffs" - closed
+*
+D 0 77569 1 1 100 0 0 0
+*     east exit from "The Golden Cliffs" to
+*     "The Moon-Elf Camp" - closed
+*
+D 0 77602 3 1 100 0 0 0
+*     west exit from "The Moon-Elf Camp" to
+*     "The Golden Cliffs" - closed
+*
+D 0 77569 2 1 100 0 0 0
+*     south exit from "The Golden Cliffs" to
+*     "The Military Spire" - closed
+*
+D 0 77570 0 1 100 0 0 0
+*     north exit from "The Military Spire" to
+*     "The Golden Cliffs" - closed
+*
+D 0 77571 3 1 100 0 0 0
+*     west exit from "The Golden Cliffs" to
+*     "The Medical Spire" - closed
+*
+D 0 77572 1 1 100 0 0 0
+*     east exit from "The Medical Spire" to
+*     "The Golden Cliffs" - closed
+*
+D 0 77589 0 1 100 0 0 0
+*     north exit from "The Buried Wreckage of the Dlalargava" to
+*     "The Treasure Hold" - closed
+*
+D 0 77590 2 1 100 0 0 0
+*     south exit from "The Treasure Hold" to
+*     "The Buried Wreckage of the Dlalargava" - closed
+*
+D 0 77595 4 2 100 0 0 0
+*     up exit from "The Northern Spiral" to
+*     "The Chancellor's Office" - closed/locked
+*
+D 0 77596 5 2 100 0 0 0
+*     down exit from "The Chancellor's Office" to
+*     "The Northern Spiral" - closed/locked
+*
+D 0 77596 0 2 100 0 0 0
+*     north exit from "The Chancellor's Office" to
+*     "An Elf Gate" - closed/locked
+*
+D 0 77604 2 2 100 0 0 0
+*     south exit from "An Elf Gate" to
+*     "The Chancellor's Office" - closed/locked
+*
+*
+O 0 77511 1 77519 100 0 0 0        * a massive statue
+O 0 77502 4 77530 100 0 0 0        * a righteous golden statue
+O 0 77502 4 77531 100 0 0 0        * a righteous golden statue
+O 0 77502 4 77532 100 0 0 0        * a righteous golden statue
+O 0 77502 4 77533 100 0 0 0        * a righteous golden statue
+O 0 77509 2 77538 100 0 0 0        * a cargo crate
+P 1 77531 4 77509 100 0 0 0        *   a pile of coins
+O 0 77509 2 77539 100 0 0 0        * a cargo crate
+P 1 77531 4 77509 100 0 0 0        *   a pile of coins
+O 0 77541 1 77542 100 0 0 0        * noshow rocks
+O 0 77556 1 77576 100 0 0 0        * a bucket of rank pool water
+O 0 77546 1 77587 100 0 0 0        * a dark altar
+O 0 77505 1 77590 100 0 0 0        * a large treasure chest
+P 1 77531 4 77505 100 0 0 0        *   a pile of coins
+P 1 77531 4 77505 100 0 0 0        *   a pile of coins
+O 0 77521 1 77604 100 0 0 0        * an elf gate
+O 0 193 3 77617 100 0 0 0          * (object type not in this .obj file)
+O 0 77513 1 77622 100 0 0 0        * a nest of rockworm larvae
+O 0 77508 2 77624 100 0 0 0        * a fossilized crystal
+O 0 193 3 77624 100 0 0 0          * (object type not in this .obj file)
+O 0 193 3 77626 100 0 0 0          * (object type not in this .obj file)
+O 0 77539 1 77631 100 0 0 0        * a chunk of solid electrum
+O 0 77542 1 77634 100 0 0 0        * noshow rocks
+O 0 77544 1 77640 100 0 0 0        * a captive firbolg
+P 1 77555 1 77544 100 0 0 0        *   a leather blindfold
+*
+M 0 77503 9 77504 100 0 0 0        * a mountain goat
+M 0 77503 9 77504 100 0 0 0        * a mountain goat
+M 0 77503 9 77504 100 0 0 0        * a mountain goat
+M 0 77503 9 77504 100 0 0 0        * a mountain goat
+M 0 77501 1 77511 33 0 0 0         * an exiled moon-elf
+M 0 77503 9 77514 100 0 0 0        * a mountain goat
+M 0 77503 9 77514 100 0 0 0        * a mountain goat
+M 0 77502 1 77515 100 0 0 0        * an orc treasure-hunter
+M 0 77515 3 77518 100 0 0 0        * a moon-elf labourer
+M 0 77515 3 77518 100 0 0 0        * a moon-elf labourer
+M 0 77556 1 77518 100 0 0 0        * a high-elf taskmaster
+G 1 77528 1 0 100 0 0 0            *    the capital spire key
+M 0 77531 6 77521 100 0 0 0        * a young private
+M 0 77531 6 77521 100 0 0 0        * a young private
+M 0 77531 6 77521 100 0 0 0        * a young private
+M 0 77531 6 77521 100 0 0 0        * a young private
+M 0 77553 1 77522 100 0 0 0        * the drider matron mother
+E 1 77538 1 16 100 0 0 0           *   a chiseled naga spine
+E 1 77537 1 18 100 0 0 0           *   some thick drider webbing
+M 0 77541 1 77528 100 0 0 0        * a master hunter
+G 1 77517 1 0 100 0 0 0            *    a splintered hunter's bow
+F 1 77542 3 77528 100 0 0 0        * a high-elf hunter (following)
+F 1 77542 3 77528 100 0 0 0        * a high-elf hunter (following)
+F 1 77542 3 77528 100 0 0 0        * a high-elf hunter (following)
+M 0 77513 9 77530 100 0 0 0        * a high-elf lancer
+M 0 77513 9 77530 100 0 0 0        * a high-elf lancer
+M 0 77513 9 77530 100 0 0 0        * a high-elf lancer
+M 0 77519 5 77537 100 0 0 0        * an undead shipmate
+M 0 77519 5 77537 100 0 0 0        * an undead shipmate
+M 0 77519 5 77537 100 0 0 0        * an undead shipmate
+M 0 77519 5 77539 100 0 0 0        * an undead shipmate
+M 0 77522 1 77539 100 0 0 0        * the undead cargo handler
+E 1 77534 1 9 100 0 0 0            *   some thick cargo gloves
+M 0 77507 4 77539 100 0 0 0        * a spectre of a githzerai crewman
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77519 5 77539 100 0 0 0        * an undead shipmate
+M 0 77511 1 77541 100 0 0 0        * a refugee
+F 1 77512 2 77541 100 0 0 0        * a refugee (following)
+F 1 77512 2 77541 100 0 0 0        * a refugee (following)
+M 0 77504 1 77542 100 0 0 0        * a dwarven rockcutter
+M 0 77510 1 77544 100 0 0 0        * a harpy geomancer
+E 1 77512 1 3 100 0 0 0            *   a feathered talisman
+M 0 77506 1 77546 100 0 0 0        * a harpy courier
+M 0 77509 4 77546 100 0 0 0        * a harpy matador
+E 1 77504 4 16 100 0 0 0           *   a barbed lancet
+M 0 77508 6 77547 100 0 0 0        * a harpy commoner
+M 0 77509 4 77547 100 0 0 0        * a harpy matador
+M 0 77508 6 77547 100 0 0 0        * a harpy commoner
+M 0 77508 6 77548 100 0 0 0        * a harpy commoner
+M 0 77508 6 77548 100 0 0 0        * a harpy commoner
+M 0 77505 1 77549 50 0 0 0         * Keenfeather
+E 1 77506 1 10 100 0 0 0           *   the armlet of destiny
+E 1 77504 4 16 100 0 0 0           *   a barbed lancet
+M 0 77509 4 77549 100 0 0 0        * a harpy matador
+E 1 77504 4 16 100 0 0 0           *   a barbed lancet
+M 0 77509 4 77549 100 0 0 0        * a harpy matador
+E 1 77504 4 16 100 0 0 0           *   a barbed lancet
+M 0 77507 4 77550 100 0 0 0        * a spectre of a githzerai crewman
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77507 4 77550 100 0 0 0        * a spectre of a githzerai crewman
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+M 0 77507 4 77550 100 0 0 0        * a spectre of a githzerai crewman
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+M 0 77514 1 77551 100 0 0 0        * a phantom engineer
+M 0 77557 1 77552 100 0 0 0        * a spectre of a githzerai crewman
+E 1 77530 1 16 100 0 0 0           *   a cursed githzerai dagger
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77516 3 77555 100 0 0 0        * a spectre of a githyanki
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77516 3 77555 100 0 0 0        * a spectre of a githyanki
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77516 3 77555 100 0 0 0        * a spectre of a githyanki
+E 1 77510 13 16 100 0 0 0          *   a rotting wooden splinter
+E 1 77510 13 17 100 0 0 0          *   a rotting wooden splinter
+M 0 77508 6 77556 100 0 0 0        * a harpy commoner
+M 0 77508 6 77556 100 0 0 0        * a harpy commoner
+M 0 77554 1 77562 100 0 0 0        * the curator
+G 1 77522 1 0 100 0 0 0            *    a gold-framed portrait
+M 0 77513 9 77563 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77513 9 77563 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77513 9 77563 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77513 9 77563 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77528 4 77564 100 0 0 0        * a high-elf student
+M 0 77528 4 77564 100 0 0 0        * a high-elf student
+M 0 77561 1 77568 35 0 0 0         * the lense-crafter
+E 1 77561 1 19 100 0 0 0           *   the golden monocle of Dawndale
+M 0 77530 4 77570 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77513 9 77570 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77513 9 77570 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77530 4 77570 100 0 0 0        * a high-elf lancer
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77515 3 77572 100 0 0 0        * a moon-elf labourer
+M 0 77526 3 77573 100 0 0 0        * a naga huntress
+M 0 77526 3 77573 100 0 0 0        * a naga huntress
+M 0 77526 3 77573 100 0 0 0        * a naga huntress
+M 0 77545 3 77574 100 0 0 0        * a drider
+M 0 77545 3 77574 100 0 0 0        * a drider
+M 0 77545 3 77574 100 0 0 0        * a drider
+M 0 77524 5 77575 100 0 0 0        * a naga myrmidon
+M 0 77525 1 77576 100 0 0 0        * the naga pool queen
+E 1 77527 1 18 100 0 0 0           *   the totem of the naga queen
+G 1 77564 1 0 100 0 0 0            *    a rough naga bone
+M 0 77524 5 77576 100 0 0 0        * a naga myrmidon
+M 0 77524 5 77576 100 0 0 0        * a naga myrmidon
+M 0 77524 5 77577 100 0 0 0        * a naga myrmidon
+M 0 77524 5 77577 100 0 0 0        * a naga myrmidon
+M 0 77549 1 77581 35 0 0 0         * the collector
+E 1 77529 1 9 100 0 0 0            *   some webspinner claws
+M 0 77548 3 77582 100 0 0 0        * a drider webspinner
+M 0 77548 3 77583 100 0 0 0        * a drider webspinner
+M 0 77548 3 77583 100 0 0 0        * a drider webspinner
+M 0 77523 3 77586 100 0 0 0        * a bloodthirsty undead
+M 0 77523 3 77586 100 0 0 0        * a bloodthirsty undead
+M 0 77523 3 77586 100 0 0 0        * a bloodthirsty undead
+M 0 77533 1 77587 100 0 0 0        * the former doctor
+G 1 77508 2 0 100 0 0 0            *    a fossilized crystal
+G 1 77514 5 0 100 0 0 0            *    a vial of dark black liquid
+G 1 77514 5 0 100 0 0 0            *    a vial of dark black liquid
+G 1 77514 5 0 100 0 0 0            *    a vial of dark black liquid
+G 1 77514 5 0 100 0 0 0            *    a vial of dark black liquid
+G 1 77514 5 0 100 0 0 0            *    a vial of dark black liquid
+M 0 77517 1 77590 100 0 0 0        * the undead captain of the astral dancer
+E 1 77507 2 16 100 0 0 0           *   an astral greatsword
+M 0 77518 1 77590 100 0 0 0        * the undead captain of the dlalgarvara
+E 1 77507 2 16 100 0 0 0           *   an astral greatsword
+M 0 77540 2 77592 100 0 0 0        * a medicinal student
+G 1 368 4 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77540 2 77592 100 0 0 0        * a medicinal student
+G 1 368 4 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77520 1 77593 100 0 0 0        * the high chemist
+E 1 77533 1 18 100 0 0 0           *   a rod of sunshine
+G 1 77515 3 0 100 0 0 0            *    a vial of liquid sunlight
+G 1 77515 3 0 100 0 0 0            *    a vial of liquid sunlight
+G 1 77515 3 0 100 0 0 0            *    a vial of liquid sunlight
+G 1 369 2 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 369 2 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77539 2 77593 100 0 0 0        * a medicinal student
+G 1 368 4 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77539 2 77593 100 0 0 0        * a medicinal student
+G 1 368 4 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77521 4 77595 100 0 0 0        * a royal guard
+M 0 77521 4 77595 100 0 0 0        * a royal guard
+M 0 77521 4 77595 100 0 0 0        * a royal guard
+G 1 77560 1 0 100 0 0 0            *    the office key
+M 0 77521 4 77595 100 0 0 0        * a royal guard
+M 0 77552 1 77596 100 0 0 0        * the chancellor
+E 1 77536 1 2 100 0 0 0            *   the signet ring of Dawndale
+E 1 77535 1 11 100 0 0 0           *   the golden shield of Dawndale
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+G 1 77540 1 0 100 0 0 0            *    the gate key
+F 1 77551 2 77596 100 0 0 0        * a royal guard (following)
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+F 1 77551 2 77596 100 0 0 0        * a royal guard (following)
+E 1 77503 11 16 100 0 0 0          *   a golden falchion
+M 0 77528 4 77599 100 0 0 0        * a high-elf student
+M 0 77528 4 77599 100 0 0 0        * a high-elf student
+M 0 77529 4 77600 100 0 0 0        * a high-elf scholar
+M 0 77529 4 77600 100 0 0 0        * a high-elf scholar
+M 0 77568 1 77600 50 0 0 0         * a high-elf scholar
+G 1 77551 1 0 100 0 0 0            *    a witchcraft study guide
+M 0 77555 1 77601 100 0 0 0        * the master professor
+E 1 77526 1 18 100 0 0 0           *   a thick high-elven tome
+G 1 77532 1 0 100 0 0 0            *    a scholar's fountain pen
+M 0 77529 4 77601 100 0 0 0        * a high-elf scholar
+M 0 77529 4 77601 100 0 0 0        * a high-elf scholar
+M 0 77543 1 77603 100 0 0 0        * a high-elven smith
+M 0 77534 3 77605 100 0 0 0        * a drow wizard
+M 0 77534 3 77605 100 0 0 0        * a drow wizard
+M 0 77534 3 77605 100 0 0 0        * a drow wizard
+M 0 77536 3 77607 100 0 0 0        * an angry drow
+M 0 77535 2 77608 100 0 0 0        * a drow wizard
+M 0 77535 2 77609 100 0 0 0        * a drow wizard
+M 0 77536 3 77609 100 0 0 0        * an angry drow
+M 0 77536 3 77609 100 0 0 0        * an angry drow
+M 0 77527 1 77610 100 0 0 0        * Drandagger
+E 1 77554 1 21 100 0 0 0           *   an earring of Lloth
+M 0 77532 2 77611 100 0 0 0        * a high-elf lieutenant
+M 0 77531 6 77611 100 0 0 0        * a young private
+M 0 77531 6 77611 100 0 0 0        * a young private
+M 0 77550 1 77612 100 0 0 0        * the captain of the guard
+E 1 77519 1 16 100 0 0 0           *   a gold-plated crossbow
+G 1 77520 1 0 100 0 0 0            *    a gold-plated belt holster
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+G 1 77565 6 0 100 0 0 0            *    a gold crossbow bolt
+M 0 77532 2 77612 100 0 0 0        * a high-elf lieutenant
+M 0 77530 4 77612 100 0 0 0        * a high-elf lancer
+M 0 77530 4 77612 100 0 0 0        * a high-elf lancer
+M 0 77544 5 77617 100 0 0 0        * a rockworm
+M 0 77544 5 77617 100 0 0 0        * a rockworm
+M 0 77544 5 77617 100 0 0 0        * a rockworm
+M 0 77544 5 77617 100 0 0 0        * a rockworm
+M 0 77544 5 77617 100 0 0 0        * a rockworm
+M 0 77538 5 77620 100 0 0 0        * a large rockworm
+M 0 77538 5 77620 100 0 0 0        * a large rockworm
+M 0 77538 5 77620 100 0 0 0        * a large rockworm
+M 0 77538 5 77620 100 0 0 0        * a large rockworm
+M 0 77538 5 77620 100 0 0 0        * a large rockworm
+M 0 77569 1 77621 100 0 0 0        * a cave monkey
+G 1 77557 1 0 100 0 0 0            *    a clump of cave monkey fur
+M 0 77537 1 77622 100 0 0 0        * a massive rockworm
+M 0 77546 3 77630 100 0 0 0        * an off-duty guard
+M 0 77546 3 77630 100 0 0 0        * an off-duty guard
+G 1 77518 1 0 100 0 0 0            *    the museum key
+M 0 77546 3 77630 100 0 0 0        * an off-duty guard
+M 0 77547 1 77630 100 0 0 0        * a grim soldier
+M 0 77558 1 77633 100 0 0 0        * a lost storm giant
+M 0 77559 1 77635 100 0 0 0        * Red Star
+E 1 77543 1 24 100 0 0 0           *   a tattoo of the northwind tribe
+M 0 77503 9 77636 100 0 0 0        * a mountain goat
+M 0 77503 9 77636 100 0 0 0        * a mountain goat
+M 0 77503 9 77636 100 0 0 0        * a mountain goat
+M 0 77560 3 77637 100 0 0 0        * a mountain manta
+M 0 77560 3 77637 100 0 0 0        * a mountain manta
+M 0 77560 3 77637 100 0 0 0        * a mountain manta
+M 0 77562 2 77638 100 0 0 0        * a firbolg scout
+M 0 77562 2 77638 100 0 0 0        * a firbolg scout
+M 0 77564 1 77640 100 0 0 0        * Mctarvian
+M 0 77563 6 77641 100 0 0 0        * a firbolg sentry
+M 0 77563 6 77643 100 0 0 0        * a firbolg sentry
+M 0 77563 6 77643 100 0 0 0        * a firbolg sentry
+M 0 77563 6 77644 100 0 0 0        * a firbolg sentry
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77565 6 77645 100 0 0 0        * a firbolg warmonger
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+M 0 77567 1 77646 100 0 0 0        * a firbolg shaman
+G 1 77549 1 0 100 0 0 0            *    some shamanistic rune stones
+M 0 77566 1 77647 100 0 0 0        * a firbolg warchief
+E 1 77553 1 12 100 0 0 0           *   the mantle of the warchief
+E 1 77545 7 16 100 0 0 0           *   a club of mountain rock
+G 1 77547 1 0 100 0 0 0            *    a sack of plunder
+P 1 77550 1 77547 100 0 0 0        *   a pile of treasure
+M 0 77563 6 77647 100 0 0 0        * a firbolg sentry
+M 0 77563 6 77647 100 0 0 0        * a firbolg sentry
+*
+S

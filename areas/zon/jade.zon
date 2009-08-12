@@ -1,0 +1,821 @@
+#766
+&n&+gThe &+GJade&n&+g Empire&n~
+76940 1 0 40 80 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 76601 0 1 100 0 0 0
+*     north exit from "The Jade Gates" to
+*     "The Grand Plaza" - closed
+*
+D 0 76602 2 1 100 0 0 0
+*     south exit from "The Grand Plaza" to
+*     "The Jade Gates" - closed
+*
+D 0 76610 2 1 100 0 0 0
+*     south exit from "The Grand Plaza" to
+*     "The Jade Gates" - closed
+*
+D 0 76612 0 1 100 0 0 0
+*     north exit from "The Jade Gates" to
+*     "The Grand Plaza" - closed
+*
+D 0 76619 1 1 100 0 0 0
+*     east exit from "A Well-Used Road" to
+*     "A Small Mission" - closed
+*
+D 0 76891 3 1 100 0 0 0
+*     west exit from "A Small Mission" to
+*     "A Well-Used Road" - closed
+*
+D 0 76623 3 1 100 0 0 0
+*     west exit from "The Corniche" to
+*     "Foyer of the Shimmering Sai" - closed
+*
+D 0 76648 1 1 100 0 0 0
+*     east exit from "Foyer of the Shimmering Sai" to
+*     "The Corniche" - closed
+*
+D 0 76628 2 1 100 0 0 0
+*     south exit from "The Blooming Lotus Intersection" to
+*     "A Wheelhouse" - closed
+*
+D 0 76630 0 1 100 0 0 0
+*     north exit from "A Wheelhouse" to
+*     "The Blooming Lotus Intersection" - closed
+*
+D 0 76629 1 1 100 0 0 0
+*     east exit from "The Way of the Emerald Bull" to
+*     "The Shipworks Guild" - closed
+*
+D 0 76859 3 1 100 0 0 0
+*     west exit from "The Shipworks Guild" to
+*     "The Way of the Emerald Bull" - closed
+*
+D 0 76631 1 1 100 0 0 0
+*     east exit from "The Storm Port District Gates" to
+*     "The Storm Port District" - closed
+*
+D 0 76632 3 1 100 0 0 0
+*     west exit from "The Storm Port District" to
+*     "The Storm Port District Gates" - closed
+*
+D 0 76639 1 1 100 0 0 0
+*     east exit from "The Storm Port District" to
+*     "Inside the Storm Dojo" - closed
+*
+D 0 76640 3 1 100 0 0 0
+*     west exit from "Inside the Storm Dojo" to
+*     "The Storm Port District" - closed
+*
+D 0 76643 2 1 100 0 0 0
+*     south exit from "The Storm Port District" to
+*     "The Workers Quarters" - closed
+*
+D 0 76647 0 1 100 0 0 0
+*     north exit from "The Workers Quarters" to
+*     "The Storm Port District" - closed
+*
+D 0 76644 0 1 100 0 0 0
+*     north exit from "Before a Watchtower" to
+*     "The Base of a Watchtower" - closed
+*
+D 0 76645 2 1 100 0 0 0
+*     south exit from "The Base of a Watchtower" to
+*     "Before a Watchtower" - closed
+*
+D 0 76650 1 2 100 0 0 0
+*     east exit from "The Way of the Emerald Bull" to
+*     "Entry Hall of the Assassin Guild" - closed/locked
+*
+D 0 76666 3 2 100 0 0 0
+*     west exit from "Entry Hall of the Assassin Guild" to
+*     "The Way of the Emerald Bull" - closed/locked
+*
+D 0 76652 1 1 100 0 0 0
+*     east exit from "The Way of the Emerald Bull" to
+*     "The Metalworks Guild" - closed
+*
+D 0 76860 3 1 100 0 0 0
+*     west exit from "The Metalworks Guild" to
+*     "The Way of the Emerald Bull" - closed
+*
+D 0 76653 1 1 100 0 0 0
+*     east exit from "The Way of the Emerald Bull" to
+*     "The Samurai Guild" - closed
+*
+D 0 76835 3 1 100 0 0 0
+*     west exit from "The Samurai Guild" to
+*     "The Way of the Emerald Bull" - closed
+*
+D 0 76671 1 1 100 0 0 0
+*     east exit from "The Western Thoroughfare" to
+*     "The Local Metalsmith" - closed
+*
+D 0 76677 3 1 100 0 0 0
+*     west exit from "The Local Metalsmith" to
+*     "The Western Thoroughfare" - closed
+*
+D 0 76673 2 1 100 0 0 0
+*     south exit from "The Southern Palisades" to
+*     "Cherry Blossom Bank" - closed
+*
+D 0 76800 0 1 100 0 0 0
+*     north exit from "Cherry Blossom Bank" to
+*     "The Southern Palisades" - closed
+*
+D 0 76679 3 1 100 0 0 0
+*     west exit from "The Western Thoroughfare" to
+*     "The Rice Fields" - closed
+*
+D 0 76680 1 1 100 0 0 0
+*     east exit from "The Rice Fields" to
+*     "The Western Thoroughfare" - closed
+*
+D 0 76684 0 1 100 0 0 0
+*     north exit from "The Palisades" to
+*     "The Guardian Monestary" - closed
+*
+D 0 76694 2 1 100 0 0 0
+*     south exit from "The Guardian Monestary" to
+*     "The Palisades" - closed
+*
+D 0 76692 1 13 100 0 0 0
+*     east exit from "The North Beach" to
+*     "A Hidden Stretch of Beach" - closed/secret/blocked
+*
+D 0 76929 3 13 100 0 0 0
+*     west exit from "A Hidden Stretch of Beach" to
+*     "The North Beach" - closed/secret/blocked
+*
+D 0 76698 3 1 100 0 0 0
+*     west exit from "The Rice Fields" to
+*     "The Borderland" - closed
+*
+D 0 76703 1 1 100 0 0 0
+*     east exit from "The Borderland" to
+*     "The Rice Fields" - closed
+*
+D 0 76711 3 5 100 0 0 0
+*     west exit from "The Jade Jungle" to
+*     "A Darkened Section of Jungle" - closed/secret
+*
+D 0 76837 1 5 100 0 0 0
+*     east exit from "A Darkened Section of Jungle" to
+*     "The Jade Jungle" - closed/secret
+*
+D 0 76712 3 1 100 0 0 0
+*     west exit from "The Jade Jungle" to
+*     "A Hunter's Hut" - closed
+*
+D 0 76714 1 1 100 0 0 0
+*     east exit from "A Hunter's Hut" to
+*     "The Jade Jungle" - closed
+*
+D 0 76718 5 5 100 0 0 0
+*     down exit from "The Jade Marsh" to
+*     "A Damp Tunnel" - closed/secret
+*
+D 0 76764 4 5 100 0 0 0
+*     up exit from "A Damp Tunnel" to
+*     "The Jade Marsh" - closed/secret
+*
+D 0 76739 5 5 100 0 0 0
+*     down exit from "The Jade Marsh" to
+*     "A Hydra Lair" - closed/secret
+*
+D 0 76827 4 5 100 0 0 0
+*     up exit from "A Hydra Lair" to
+*     "The Jade Marsh" - closed/secret
+*
+D 0 76759 4 5 100 0 0 0
+*     up exit from "The Assassin Guild Arena" to
+*     "A Dark Attic" - closed/secret
+*
+D 0 76760 5 5 100 0 0 0
+*     down exit from "A Dark Attic" to
+*     "The Assassin Guild Arena" - closed/secret
+*
+D 0 76777 5 5 100 0 0 0
+*     down exit from "A Deadend" to
+*     "A Decaying Tunnel" - closed/secret
+*
+D 0 76778 4 5 100 0 0 0
+*     up exit from "A Decaying Tunnel" to
+*     "A Deadend" - closed/secret
+*
+D 0 76787 0 13 100 0 0 0
+*     north exit from "A Deadend" to
+*     "A Hidden Cavern of Armageddon" - closed/secret/blocked
+*
+D 0 76788 2 13 100 0 0 0
+*     south exit from "A Hidden Cavern of Armageddon" to
+*     "A Deadend" - closed/secret/blocked
+*
+D 0 76790 1 1 100 0 0 0
+*     east exit from "The Palace Gates" to
+*     "The Main Floor of the Palace" - closed
+*
+D 0 76792 3 1 100 0 0 0
+*     west exit from "The Main Floor of the Palace" to
+*     "The Palace Gates" - closed
+*
+D 0 76802 3 1 100 0 0 0
+*     west exit from "The Daimyo's Office" to
+*     "The Main Floor of the Palace" - closed
+*
+D 0 76803 1 1 100 0 0 0
+*     east exit from "The Main Floor of the Palace" to
+*     "The Daimyo's Office" - closed
+*
+D 0 76802 5 5 100 0 0 0
+*     down exit from "The Daimyo's Office" to
+*     "The Palace Basement" - closed/secret
+*
+D 0 76806 4 5 100 0 0 0
+*     up exit from "The Palace Basement" to
+*     "The Daimyo's Office" - closed/secret
+*
+D 0 76809 5 5 100 0 0 0
+*     down exit from "A Deadend" to
+*     "A Tunnel of Rot" - closed/secret
+*
+D 0 76810 4 5 100 0 0 0
+*     up exit from "A Tunnel of Rot" to
+*     "A Deadend" - closed/secret
+*
+D 0 76838 3 6 100 0 0 0
+*     west exit from "The Tigerlily Tavern" to
+*     "A Shady Backroom of the Tavern" - closed/locked/secret
+*
+D 0 76854 1 6 100 0 0 0
+*     east exit from "A Shady Backroom of the Tavern" to
+*     "The Tigerlily Tavern" - closed/locked/secret
+*
+D 0 76871 5 5 100 0 0 0
+*     down exit from "The Cellar Store-Rooms" to
+*     "An Old, Forgotten Tunnel" - closed/secret
+*
+D 0 76914 4 5 100 0 0 0
+*     up exit from "An Old, Forgotten Tunnel" to
+*     "The Cellar Store-Rooms" - closed/secret
+*
+D 0 76874 1 13 100 0 0 0
+*     east exit from "The Cellar Store-Rooms" to
+*     "A Hidden Escape Tunnel" - closed/secret/blocked
+*
+D 0 76876 3 5 100 0 0 0
+*     west exit from "A Hidden Escape Tunnel" to
+*     "The Cellar Store-Rooms" - closed/secret
+*
+D 0 76897 4 5 100 0 0 0
+*     up exit from "The Palatial Staircase" to
+*     "The Palace Rooftop" - closed/secret
+*
+D 0 76903 5 5 100 0 0 0
+*     down exit from "The Palace Rooftop" to
+*     "The Palatial Staircase" - closed/secret
+*
+D 0 76898 3 1 100 0 0 0
+*     west exit from "The Palace Residences" to
+*     "A Palatial Home" - closed
+*
+D 0 76904 1 1 100 0 0 0
+*     east exit from "A Palatial Home" to
+*     "The Palace Residences" - closed
+*
+D 0 76900 1 2 100 0 0 0
+*     east exit from "The Audience Chamber" to
+*     "The Emperor's Room" - closed/locked
+*
+D 0 76901 3 2 100 0 0 0
+*     west exit from "The Emperor's Room" to
+*     "The Audience Chamber" - closed/locked
+*
+D 0 76906 1 1 100 0 0 0
+*     east exit from "The Palace Residences" to
+*     "A Palatial Home" - closed
+*
+D 0 76907 3 1 100 0 0 0
+*     west exit from "A Palatial Home" to
+*     "The Palace Residences" - closed
+*
+D 0 76906 3 1 100 0 0 0
+*     west exit from "The Palace Residences" to
+*     "A Palatial Home" - closed
+*
+D 0 76908 1 1 100 0 0 0
+*     east exit from "A Palatial Home" to
+*     "The Palace Residences" - closed
+*
+*
+O 0 76641 7 76604 100 0 0 0        * a flowerbed
+P 1 76691 5 76641 20 0 0 0         *   some snapdragon seeds
+O 0 76674 2 76607 100 0 0 0        * some wildflowers
+O 0 76602 1 76609 100 0 0 0        * a serpent monument
+O 0 76674 2 76611 100 0 0 0        * some wildflowers
+O 0 76641 7 76614 100 0 0 0        * a flowerbed
+O 0 76603 1 76617 100 0 0 0        * a broken rickshaw
+O 0 76641 7 76621 100 0 0 0        * a flowerbed
+P 1 76691 5 76641 20 0 0 0         *   some snapdragon seeds
+O 0 76640 5 76622 100 0 0 0        * a cherry tree
+P 1 76669 5 76640 20 0 0 0         *   a cherry seed
+O 0 76640 5 76624 100 0 0 0        * a cherry tree
+P 1 76669 5 76640 20 0 0 0         *   a cherry seed
+O 0 76640 5 76626 100 0 0 0        * a cherry tree
+P 1 76669 5 76640 20 0 0 0         *   a cherry seed
+O 0 76601 1 76627 100 0 0 0        * a sign
+O 0 76618 3 76629 100 0 0 0        * a bonzai tree
+P 1 76692 3 76618 20 0 0 0         *   a bonzai tree seed
+O 0 76621 1 76646 100 0 0 0        * a toolshed
+O 0 76618 3 76651 100 0 0 0        * a bonzai tree
+P 1 76692 3 76618 20 0 0 0         *   a bonzai tree seed
+O 0 76618 3 76653 100 0 0 0        * a bonzai tree
+P 1 76692 3 76618 20 0 0 0         *   a bonzai tree seed
+O 0 76673 1 76654 100 0 0 0        * some cargo crates
+O 0 76672 1 76659 100 0 0 0        * some cargo crates
+O 0 76640 5 76662 100 0 0 0        * a cherry tree
+P 1 76669 5 76640 20 0 0 0         *   a cherry seed
+O 0 76641 7 76670 100 0 0 0        * a flowerbed
+P 1 76691 5 76641 20 0 0 0         *   some snapdragon seeds
+O 0 76641 7 76672 100 0 0 0        * a flowerbed
+P 1 76691 5 76641 20 0 0 0         *   some snapdragon seeds
+O 0 76661 4 76673 100 0 0 0        * a lilac bush
+P 1 76693 4 76661 20 0 0 0         *   some lilac seeds
+O 0 76661 4 76675 100 0 0 0        * a lilac bush
+P 1 76693 4 76661 20 0 0 0         *   some lilac seeds
+O 0 76641 7 76679 100 0 0 0        * a flowerbed
+P 1 76691 5 76641 20 0 0 0         *   some snapdragon seeds
+O 0 76640 5 76682 100 0 0 0        * a cherry tree
+P 1 76669 5 76640 20 0 0 0         *   a cherry seed
+O 0 76641 7 76683 100 0 0 0        * a flowerbed
+O 0 76661 4 76685 100 0 0 0        * a lilac bush
+P 1 76693 4 76661 20 0 0 0         *   some lilac seeds
+O 0 76661 4 76687 100 0 0 0        * a lilac bush
+P 1 76693 4 76661 20 0 0 0         *   some lilac seeds
+O 0 76709 1 76692 100 0 0 0        * noshow pillars
+O 0 76612 1 76694 100 0 0 0        * a donation plate
+O 0 76608 8 76695 20 0 0 0         * a rice harvest
+O 0 76608 8 76696 20 0 0 0         * a rice harvest
+O 0 76608 8 76697 20 0 0 0         * a rice harvest
+O 0 76608 8 76698 20 0 0 0         * a rice harvest
+O 0 76608 8 76699 20 0 0 0         * a rice harvest
+O 0 76608 8 76700 20 0 0 0         * a rice harvest
+O 0 76608 8 76701 20 0 0 0         * a rice harvest
+O 0 76608 8 76702 20 0 0 0         * a rice harvest
+O 0 76653 1 76703 100 0 0 0        * a sign
+O 0 76642 5 76706 100 0 0 0        * some orchids
+P 1 76690 5 76642 20 0 0 0         *   some wild orchid seeds
+O 0 76650 4 76709 100 0 0 0        * some bamboo stalks
+O 0 76650 4 76711 100 0 0 0        * some bamboo stalks
+O 0 76650 4 76713 100 0 0 0        * some bamboo stalks
+P 1 76670 1 76650 20 0 0 0         *   a wood sprite
+O 0 76650 4 76717 100 0 0 0        * some bamboo stalks
+O 0 76642 5 76729 100 0 0 0        * some orchids
+P 1 76690 5 76642 20 0 0 0         *   some wild orchid seeds
+O 0 76642 5 76733 100 0 0 0        * some orchids
+P 1 76690 5 76642 20 0 0 0         *   some wild orchid seeds
+O 0 76642 5 76735 100 0 0 0        * some orchids
+P 1 76690 5 76642 20 0 0 0         *   some wild orchid seeds
+O 0 76642 5 76738 100 0 0 0        * some orchids
+P 1 76690 5 76642 20 0 0 0         *   some wild orchid seeds
+O 0 76657 3 76760 50 0 0 0         * a solid bar of electrum
+O 0 76657 3 76760 50 0 0 0         * a solid bar of electrum
+O 0 359 1 76760 100 0 0 0          * (object type not in this .obj file)
+O 0 76657 3 76760 50 0 0 0         * a solid bar of electrum
+O 0 55170 1 76760 100 0 0 0        * (object type not in this .obj file)
+O 0 76609 1 76787 100 0 0 0        * noshow stones
+O 0 76610 1 76788 100 0 0 0        * noshow stones
+O 0 76614 1 76799 100 0 0 0        * a black storage bin
+P 1 76615 1 76614 100 0 0 0        *   an armageddon signet ring
+P 1 76647 1 76614 100 0 0 0        *   a blood-stained booklet
+O 0 76645 1 76799 100 0 0 0        * a scrying mirror
+O 0 6081 1 76800 100 0 0 0         * (object type not in this .obj file)
+O 0 76632 1 76823 100 0 0 0        * a pile of bones
+P 1 76654 1 76632 100 0 0 0        *   a family heirloom
+O 0 76622 1 76844 100 0 0 0        * a series of metal shelves
+P 1 76623 1 76622 100 0 0 0        *   a dull utility knife
+P 1 76660 1 76622 33 0 0 0         *   an iron weapon template
+O 0 76646 1 76862 100 0 0 0        * a scrying mirror
+O 0 76685 4 76871 100 0 0 0        * some storage racks
+O 0 76685 4 76872 100 0 0 0        * some storage racks
+O 0 76685 4 76873 100 0 0 0        * some storage racks
+O 0 76686 1 76874 100 0 0 0        * some storage racks
+O 0 76685 4 76875 100 0 0 0        * some storage racks
+O 0 76694 1 76888 100 0 0 0        * a crack in the wall
+O 0 76664 1 76900 100 0 0 0        * some emerald roses
+P 1 76678 1 76664 20 0 0 0         *   some emerald rose seeds
+O 0 76679 1 76910 33 0 0 0         * an iron armor template
+O 0 76698 1 76922 100 0 0 0        * a crack in the wall
+O 0 76715 1 76929 100 0 0 0        * noshow pillars
+*
+M 0 76671 2 76601 100 0 0 0        * a keisatsu-kan samurai
+M 0 76672 2 76601 100 0 0 0        * a jade lancer
+E 1 76637 999 16 100 0 0 0         *   an emerald-tipped pike
+M 0 76635 1 76604 100 0 0 0        * Zhang Liu
+E 1 76627 1 6 100 0 0 0            *   the headdress of the Hammer
+M 0 76655 2 76604 100 0 0 0        * a martial arts student
+M 0 76655 2 76604 100 0 0 0        * a martial arts student
+M 0 76608 3 76605 100 0 0 0        * a fanatical zealot
+M 0 76665 1 76608 100 0 0 0        * a tharnadian thief-hunter
+M 0 76671 2 76612 100 0 0 0        * a keisatsu-kan samurai
+M 0 76672 2 76612 100 0 0 0        * a jade lancer
+E 1 76637 999 16 100 0 0 0         *   an emerald-tipped pike
+M 0 76615 2 76613 100 0 0 0        * a rickshaw worker
+F 1 76616 2 76613 100 0 0 0        * a rickshaw (following)
+M 0 76615 2 76614 100 0 0 0        * a rickshaw worker
+F 1 76616 2 76614 100 0 0 0        * a rickshaw (following)
+M 0 76633 1 76615 100 0 0 0        * a high-elf
+E 1 76716 1 3 100 0 0 0            *   a golden elven necklace
+M 0 76634 1 76615 100 0 0 0        * a grey elf
+M 0 76602 6 76616 100 0 0 0        * a yoriki samurai
+M 0 76602 6 76616 100 0 0 0        * a yoriki samurai
+M 0 76646 2 76622 100 0 0 0        * a street urchin
+M 0 76646 2 76622 100 0 0 0        * a street urchin
+M 0 76656 1 76623 100 0 0 0        * an elderly gardener
+M 0 76628 4 76624 100 0 0 0        * a young child
+M 0 76628 4 76624 100 0 0 0        * a young child
+M 0 76628 4 76624 100 0 0 0        * a young child
+M 0 76618 1 76626 100 0 0 0        * an elegant geisha
+E 1 76662 1 18 100 0 0 0           *   a decorated paper fan
+M 0 76621 1 76631 100 0 0 0        * an orc lieutanant
+E 1 76701 2 5 100 0 0 0            *   a gale-crested combat vest
+E 1 76702 2 16 100 0 0 0           *   an iron warsword
+M 0 76601 1 76631 100 0 0 0        * Chang
+E 1 76701 2 5 100 0 0 0            *   a gale-crested combat vest
+E 1 76634 1 13 100 0 0 0           *   the sash of the maelstrom
+M 0 76661 6 76632 100 0 0 0        * a naval crewman
+M 0 76661 6 76632 100 0 0 0        * a naval crewman
+M 0 76662 2 76633 100 0 0 0        * a warg
+M 0 76661 6 76636 100 0 0 0        * a naval crewman
+M 0 76661 6 76636 100 0 0 0        * a naval crewman
+M 0 76662 2 76637 100 0 0 0        * a warg
+M 0 76661 6 76638 100 0 0 0        * a naval crewman
+M 0 76661 6 76638 100 0 0 0        * a naval crewman
+M 0 76619 1 76640 100 0 0 0        * an orc bladedancer
+M 0 76620 1 76640 100 0 0 0        * an orc bladedancer
+M 0 76642 1 76641 100 0 0 0        * Vile
+M 0 76648 1 76643 100 0 0 0        * an orc shaman
+M 0 76663 4 76647 100 0 0 0        * an exhausted worker
+M 0 76663 4 76647 100 0 0 0        * an exhausted worker
+M 0 76663 4 76647 100 0 0 0        * an exhausted worker
+M 0 76663 4 76647 100 0 0 0        * an exhausted worker
+M 0 76664 1 76647 100 0 0 0        * a shifty-eyed orc
+E 1 76702 2 16 100 0 0 0           *   an iron warsword
+G 1 76629 1 0 100 0 0 0            *    a dice-shaped key
+G 1 6109 1 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 76637 1 76649 100 0 0 0        * Yoko
+M 0 76684 1 76653 100 0 0 0        * a sobbing woman
+M 0 76698 1 76654 100 0 0 0        * a silver legion captain
+M 0 76694 2 76654 100 0 0 0        * a legionaire
+M 0 76694 2 76654 100 0 0 0        * a legionaire
+M 0 76692 4 76656 100 0 0 0        * a dock worker
+M 0 76692 4 76656 100 0 0 0        * a dock worker
+M 0 76692 4 76657 100 0 0 0        * a dock worker
+M 0 76692 4 76657 100 0 0 0        * a dock worker
+M 0 76734 1 76659 100 0 0 0        * Magumi
+M 0 76719 3 76662 100 0 0 0        * a flock of pigeons
+M 0 76719 3 76662 100 0 0 0        * a flock of pigeons
+M 0 76719 3 76662 100 0 0 0        * a flock of pigeons
+M 0 76603 1 76665 100 0 0 0        * a fisherman
+G 1 336 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 76629 1 76667 100 0 0 0        * a master chef
+M 0 76602 6 76670 100 0 0 0        * a yoriki samurai
+M 0 76602 6 76670 100 0 0 0        * a yoriki samurai
+M 0 76651 1 76672 100 0 0 0        * a street performer
+E 1 76724 1 3 100 0 0 0            *   a simple necktie
+M 0 76691 1 76677 100 0 0 0        * a local metalsmith
+G 1 76616 999 0 100 0 0 0          *    an emerald katana
+G 1 76637 999 0 100 0 0 0          *    an emerald-tipped pike
+G 1 76643 999 0 100 0 0 0          *    a green-steel wakazashi
+G 1 253 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 252 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 76613 3 76678 100 0 0 0        * a young woman
+M 0 76613 3 76678 100 0 0 0        * a young woman
+M 0 76613 3 76678 100 0 0 0        * a young woman
+M 0 76641 1 76679 100 0 0 0        * a village champion
+M 0 76630 1 76680 100 0 0 0        * a crop runner
+M 0 76668 1 76681 100 0 0 0        * a beast tamer
+F 1 76667 1 76681 100 0 0 0        * a painted elephant (following)
+F 1 76643 1 76681 100 0 0 0        * a panda bear (following)
+M 0 76608 3 76682 100 0 0 0        * a fanatical zealot
+M 0 76628 4 76682 100 0 0 0        * a young child
+M 0 76608 3 76683 100 0 0 0        * a fanatical zealot
+M 0 76602 6 76684 100 0 0 0        * a yoriki samurai
+M 0 76602 6 76684 100 0 0 0        * a yoriki samurai
+M 0 76625 1 76686 100 0 0 0        * a jade vendor
+G 1 76639 999 0 100 0 0 0          *    a decorated paper lantern
+G 1 76630 999 0 100 0 0 0          *    a firecracker
+M 0 76689 6 76687 100 0 0 0        * a commoner
+M 0 76689 6 76687 100 0 0 0        * a commoner
+M 0 76689 6 76687 100 0 0 0        * a commoner
+M 0 76689 6 76687 100 0 0 0        * a commoner
+M 0 76689 6 76688 100 0 0 0        * a commoner
+M 0 76689 6 76688 100 0 0 0        * a commoner
+M 0 76623 1 76690 100 0 0 0        * a resident kite-flyer
+M 0 76724 3 76690 100 0 0 0        * a seagull
+M 0 76723 1 76692 100 0 0 0        * a seagull
+M 0 76724 3 76693 100 0 0 0        * a seagull
+M 0 76604 3 76695 100 0 0 0        * a water ox
+M 0 76614 2 76696 100 0 0 0        * a rice farmer
+M 0 76614 2 76696 100 0 0 0        * a rice farmer
+M 0 76604 3 76698 100 0 0 0        * a water ox
+M 0 76604 3 76701 100 0 0 0        * a water ox
+M 0 76605 3 76702 100 0 0 0        * a water ox
+M 0 76605 3 76702 100 0 0 0        * a water ox
+M 0 76605 3 76702 100 0 0 0        * a water ox
+M 0 76650 7 76704 100 0 0 0        * a bog beast
+M 0 76650 7 76704 100 0 0 0        * a bog beast
+M 0 76626 5 76707 100 0 0 0        * a pygmie warrior
+M 0 76607 1 76709 100 0 0 0        * an ebriham tribesman
+E 1 76727 1 10 100 0 0 0           *   the vambraces of the Ebriham
+M 0 76611 7 76710 100 0 0 0        * a wild boar
+G 1 76619 4 0 100 0 0 0            *    a strip of fresh boar meat
+M 0 76611 7 76711 100 0 0 0        * a wild boar
+G 1 76619 4 0 100 0 0 0            *    a strip of fresh boar meat
+M 0 76611 7 76711 100 0 0 0        * a wild boar
+M 0 76611 7 76712 100 0 0 0        * a wild boar
+G 1 76619 4 0 100 0 0 0            *    a strip of fresh boar meat
+M 0 76611 7 76712 100 0 0 0        * a wild boar
+M 0 76606 1 76714 100 0 0 0        * a hunter
+M 0 76627 4 76716 100 0 0 0        * a su-monster
+M 0 76627 4 76716 100 0 0 0        * a su-monster
+M 0 76627 4 76716 100 0 0 0        * a su-monster
+M 0 76627 4 76716 100 0 0 0        * a su-monster
+M 0 76679 1 76721 100 0 0 0        * the high priest
+M 0 76680 1 76721 100 0 0 0        * an attendant
+M 0 76647 4 76723 100 0 0 0        * a worshipper
+M 0 76647 4 76723 100 0 0 0        * a worshipper
+M 0 76647 4 76723 100 0 0 0        * a worshipper
+M 0 76647 4 76723 100 0 0 0        * a worshipper
+M 0 76658 1 76727 100 0 0 0        * an entangled seaturtle
+M 0 76724 3 76727 100 0 0 0        * a seagull
+M 0 76612 6 76734 100 0 0 0        * a marsh viper
+M 0 76612 6 76734 100 0 0 0        * a marsh viper
+M 0 76699 1 76736 100 0 0 0        * a legionaire
+M 0 76612 6 76738 100 0 0 0        * a marsh viper
+M 0 76612 6 76738 100 0 0 0        * a marsh viper
+M 0 76701 10 76741 100 0 0 0       * a red robe
+M 0 76704 6 76743 100 0 0 0        * a blue robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+M 0 76704 6 76743 100 0 0 0        * a blue robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+M 0 76704 6 76743 100 0 0 0        * a blue robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+M 0 76701 10 76746 100 0 0 0       * a red robe
+M 0 76703 6 76750 100 0 0 0        * a yellow robe
+M 0 76703 6 76750 100 0 0 0        * a yellow robe
+M 0 76703 6 76750 100 0 0 0        * a yellow robe
+M 0 76701 10 76751 100 0 0 0       * a red robe
+M 0 76701 10 76751 100 0 0 0       * a red robe
+M 0 76702 6 76755 100 0 0 0        * a black robe
+E 1 76681 4 16 100 0 0 0           *   a blacksteel tanto
+E 1 76604 12 17 100 0 0 0          *   a blacksteel katar
+M 0 76702 6 76755 100 0 0 0        * a black robe
+E 1 76681 4 16 100 0 0 0           *   a blacksteel tanto
+E 1 76604 12 17 100 0 0 0          *   a blacksteel katar
+M 0 76702 6 76755 100 0 0 0        * a black robe
+E 1 76681 4 16 100 0 0 0           *   a blacksteel tanto
+M 0 76701 10 76756 100 0 0 0       * a red robe
+E 1 76668 1 16 100 0 0 0           *   a set of electrum-linked numchucks
+M 0 76701 10 76756 100 0 0 0       * a red robe
+M 0 76683 1 76759 100 0 0 0        * Kobe Chi
+E 1 76638 1 16 100 0 0 0           *   a razor-bladed fan of electrum knives
+G 1 76687 1 0 100 0 0 0            *    the mark of the mankillers
+G 1 67212 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 76701 10 76762 100 0 0 0       * a red robe
+M 0 76701 10 76762 100 0 0 0       * a red robe
+M 0 76702 6 76763 100 0 0 0        * a black robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+E 1 76604 12 17 100 0 0 0          *   a blacksteel katar
+M 0 76703 6 76763 100 0 0 0        * a yellow robe
+M 0 76704 6 76763 100 0 0 0        * a blue robe
+M 0 76617 6 76767 100 0 0 0        * a swamp spawn
+M 0 76617 6 76767 100 0 0 0        * a swamp spawn
+M 0 76612 6 76769 100 0 0 0        * a marsh viper
+M 0 76612 6 76769 100 0 0 0        * a marsh viper
+M 0 76636 6 76773 100 0 0 0        * a stirge swarm
+M 0 76636 6 76773 100 0 0 0        * a stirge swarm
+M 0 76636 6 76773 100 0 0 0        * a stirge swarm
+M 0 76636 6 76773 100 0 0 0        * a stirge swarm
+M 0 76622 7 76774 100 0 0 0        * a troll BeRSeRkeR
+M 0 76622 7 76774 100 0 0 0        * a troll BeRSeRkeR
+M 0 76622 7 76774 100 0 0 0        * a troll BeRSeRkeR
+M 0 76650 7 76783 100 0 0 0        * a bog beast
+M 0 76650 7 76783 100 0 0 0        * a bog beast
+M 0 76650 7 76783 100 0 0 0        * a bog beast
+M 0 76720 1 76786 100 0 0 0        * Brother Mande
+G 1 76728 1 0 100 0 0 0            *    the blood-stained robes of Brother Mande
+M 0 76624 2 76790 100 0 0 0        * a jade lancer
+E 1 76637 999 16 100 0 0 0         *   an emerald-tipped pike
+M 0 76624 2 76790 100 0 0 0        * a jade lancer
+E 1 76637 999 16 100 0 0 0         *   an emerald-tipped pike
+M 0 76657 1 76793 100 0 0 0        * a grinding wheel
+M 0 76653 3 76794 100 0 0 0        * an orc priest
+M 0 76653 3 76794 100 0 0 0        * an orc priest
+M 0 76653 3 76794 100 0 0 0        * an orc priest
+M 0 76639 4 76796 100 0 0 0        * an orc warlord
+M 0 76639 4 76796 100 0 0 0        * an orc warlord
+M 0 76639 4 76796 100 0 0 0        * an orc warlord
+M 0 76639 4 76796 100 0 0 0        * an orc warlord
+M 0 76631 1 76799 100 0 0 0        * Scralack
+E 1 76655 1 20 100 0 0 0           *   the mask of armageddon
+G 1 76613 1 0 100 0 0 0            *    the severed head of Scralack
+G 1 76611 1 0 100 0 0 0            *    a blood-red key
+M 0 76652 1 76799 100 0 0 0        * an orc major
+M 0 76669 1 76802 100 0 0 0        * the city daimyo
+M 0 76710 8 76804 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76804 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76804 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76805 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76805 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76805 100 0 0 0        * a palatial samurai guard
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76707 10 76806 100 0 0 0       * a watchcat
+M 0 76707 10 76806 100 0 0 0       * a watchcat
+M 0 76632 5 76808 100 0 0 0        * a troll gladiator
+M 0 76632 5 76808 100 0 0 0        * a troll gladiator
+M 0 76622 7 76809 100 0 0 0        * a troll BeRSeRkeR
+M 0 76622 7 76809 100 0 0 0        * a troll BeRSeRkeR
+M 0 76622 7 76809 100 0 0 0        * a troll BeRSeRkeR
+M 0 76650 7 76812 100 0 0 0        * a bog beast
+M 0 76650 7 76812 100 0 0 0        * a bog beast
+M 0 76632 5 76813 100 0 0 0        * a troll gladiator
+M 0 76622 7 76813 100 0 0 0        * a troll BeRSeRkeR
+M 0 76617 6 76813 100 0 0 0        * a swamp spawn
+M 0 76617 6 76813 100 0 0 0        * a swamp spawn
+M 0 76632 5 76816 100 0 0 0        * a troll gladiator
+M 0 76632 5 76816 100 0 0 0        * a troll gladiator
+M 0 76638 1 76823 100 0 0 0        * the hive mother
+G 1 76656 1 0 100 0 0 0            *    a wad of spawn goo
+M 0 76644 4 76823 100 0 0 0        * a swamp spawn hatchling
+M 0 76644 4 76823 100 0 0 0        * a swamp spawn hatchling
+M 0 76644 4 76823 100 0 0 0        * a swamp spawn hatchling
+M 0 76644 4 76823 100 0 0 0        * a swamp spawn hatchling
+M 0 76626 5 76826 100 0 0 0        * a pygmie warrior
+M 0 76626 5 76826 100 0 0 0        * a pygmie warrior
+M 0 76626 5 76826 100 0 0 0        * a pygmie warrior
+M 0 76626 5 76826 100 0 0 0        * a pygmie warrior
+M 0 76640 1 76827 100 0 0 0        * a swamp hydra
+G 1 76665 1 0 100 0 0 0            *    a still-beating heart of a hydra
+G 1 76631 1 0 100 0 0 0            *    a hydra scale
+M 0 76649 1 76830 100 0 0 0        * a native thri-kreen
+E 1 76721 1 3 100 0 0 0            *   a spiked bamboo collar
+E 1 76643 999 16 100 0 0 0         *   a green-steel wakazashi
+E 1 76643 999 17 100 0 0 0         *   a green-steel wakazashi
+M 0 76645 2 76833 100 0 0 0        * an orc archer
+M 0 76645 2 76833 100 0 0 0        * an orc archer
+M 0 76721 3 76835 100 0 0 0        * a training samurai
+E 1 76643 999 16 100 0 0 0         *   a green-steel wakazashi
+M 0 76721 3 76835 100 0 0 0        * a training samurai
+E 1 76643 999 16 100 0 0 0         *   a green-steel wakazashi
+M 0 76721 3 76835 100 0 0 0        * a training samurai
+E 1 76643 999 16 100 0 0 0         *   a green-steel wakazashi
+M 0 76659 1 76838 100 0 0 0        * a well-dressed barman
+M 0 76660 1 76838 100 0 0 0        * a soldier of fortune
+M 0 76673 2 76838 100 0 0 0        * a tired traveller
+M 0 76673 2 76838 100 0 0 0        * a tired traveller
+M 0 76654 1 76843 100 0 0 0        * a jade mystic
+E 1 76633 2 3 100 0 0 0            *   a mystic emerald broach
+M 0 76707 10 76845 100 0 0 0       * a watchcat
+M 0 76707 10 76845 100 0 0 0       * a watchcat
+M 0 76707 10 76846 100 0 0 0       * a watchcat
+M 0 76707 10 76846 100 0 0 0       * a watchcat
+M 0 76707 10 76847 100 0 0 0       * a watchcat
+M 0 76707 10 76847 100 0 0 0       * a watchcat
+M 0 76675 5 76850 100 0 0 0        * a vicious razorback
+M 0 76675 5 76850 100 0 0 0        * a vicious razorback
+M 0 76675 5 76850 100 0 0 0        * a vicious razorback
+M 0 76675 5 76850 100 0 0 0        * a vicious razorback
+M 0 76675 5 76850 100 0 0 0        * a vicious razorback
+M 0 76674 1 76851 100 0 0 0        * an alpha male razorback
+M 0 76670 1 76854 100 0 0 0        * a ronin
+M 0 76681 2 76854 100 0 0 0        * a pirate
+M 0 76695 1 76854 100 0 0 0        * Feng Cho
+E 1 76671 1 21 100 0 0 0           *   a dangling skull and crossbones earring
+G 1 76666 1 0 100 0 0 0            *    a severed index finger
+M 0 76696 1 76854 100 0 0 0        * an outcast
+E 1 76677 1 16 100 0 0 0           *   a bone-handled warhatchet
+M 0 76681 2 76854 100 0 0 0        * a pirate
+M 0 76710 8 76855 100 0 0 0        * a palatial samurai guard
+E 1 76695 1 6 100 0 0 0            *   a kabuto helm
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76710 8 76855 100 0 0 0        * a palatial samurai guard
+E 1 76696 1 10 100 0 0 0           *   a pair of oda-gote sleeves
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+M 0 76731 1 76856 100 0 0 0        * the local sensei
+E 1 76718 1 13 100 0 0 0           *   a beautiful green silk belt
+E 1 76616 999 16 100 0 0 0         *   an emerald katana
+E 1 76616 999 17 100 0 0 0         *   an emerald katana
+M 0 76730 2 76856 100 0 0 0        * a training samurai
+M 0 76730 2 76856 100 0 0 0        * a training samurai
+M 0 76706 1 76857 100 0 0 0        * a giant wild boar
+G 1 76620 1 0 100 0 0 0            *    the hide of an enormous boar
+M 0 76611 7 76857 100 0 0 0        * a wild boar
+M 0 76611 7 76857 100 0 0 0        * a wild boar
+G 1 76619 4 0 100 0 0 0            *    a strip of fresh boar meat
+M 0 76690 1 76860 100 0 0 0        * an elder metalworker
+M 0 76700 1 76860 100 0 0 0        * a metalurgy student
+M 0 76686 3 76861 100 0 0 0        * a lounging blacksmith
+M 0 76687 3 76861 100 0 0 0        * a steel melder
+M 0 76686 3 76861 100 0 0 0        * a lounging blacksmith
+M 0 76687 3 76861 100 0 0 0        * a steel melder
+M 0 76686 3 76861 100 0 0 0        * a lounging blacksmith
+M 0 76687 3 76861 100 0 0 0        * a steel melder
+M 0 76717 1 76864 100 0 0 0        * the metaphysical projection of agaures
+E 1 76680 1 5 100 0 0 0            *   the warplate of the Sixth Legion
+G 1 76708 1 0 100 0 0 0            *    the holy relic of the east
+M 0 76676 4 76865 100 0 0 0        * a mental projection of agaures
+M 0 76676 4 76865 100 0 0 0        * a mental projection of agaures
+M 0 76676 4 76865 100 0 0 0        * a mental projection of agaures
+M 0 76676 4 76865 100 0 0 0        * a mental projection of agaures
+M 0 76677 3 76869 100 0 0 0        * an exhausted dock worker
+M 0 76678 3 76869 100 0 0 0        * a tired shipbuilder
+M 0 76677 3 76869 100 0 0 0        * an exhausted dock worker
+M 0 76678 3 76869 100 0 0 0        * a tired shipbuilder
+M 0 76677 3 76869 100 0 0 0        * an exhausted dock worker
+M 0 76678 3 76869 100 0 0 0        * a tired shipbuilder
+M 0 76707 10 76870 100 0 0 0       * a watchcat
+M 0 76707 10 76870 100 0 0 0       * a watchcat
+M 0 76636 6 76890 100 0 0 0        * a stirge swarm
+M 0 76617 6 76890 100 0 0 0        * a swamp spawn
+M 0 76636 6 76890 100 0 0 0        * a stirge swarm
+M 0 76617 6 76890 100 0 0 0        * a swamp spawn
+M 0 76688 1 76891 100 0 0 0        * Saint Macavor
+E 1 76706 1 13 100 0 0 0           *   a laced, white silk belt
+P 1 76705 5 76706 100 0 0 0        *   a glass ampoule of holy water
+P 1 76705 5 76706 100 0 0 0        *   a glass ampoule of holy water
+P 1 76705 5 76706 100 0 0 0        *   a glass ampoule of holy water
+P 1 76705 5 76706 100 0 0 0        *   a glass ampoule of holy water
+P 1 76705 5 76706 100 0 0 0        *   a glass ampoule of holy water
+M 0 76610 1 76891 100 0 0 0        * a young monk
+M 0 76609 1 76891 100 0 0 0        * a missionary
+M 0 76715 1 76893 100 0 0 0        * a delegate from bloodstone
+M 0 76716 1 76894 100 0 0 0        * a tradesman from desolate
+M 0 76713 1 76894 100 0 0 0        * a member of the trade guild
+M 0 76714 1 76895 100 0 0 0        * an emissary from du'maathe
+M 0 76697 1 76900 100 0 0 0        * an elite bushi
+M 0 76711 1 76901 100 0 0 0        * the emperor
+M 0 76693 1 76901 100 0 0 0        * the emperor's chamberlain
+M 0 76708 1 76902 60 0 0 0         * an ambassador
+E 1 76675 1 20 100 0 0 0           *   the pipe of wisdom
+M 0 76718 1 76902 100 0 0 0        * an ambassador
+M 0 76709 1 76903 100 0 0 0        * a legionaire
+M 0 76705 1 76908 100 0 0 0        * a princess of jade
+E 1 76605 1 12 100 0 0 0           *   an elegant kimono with an emerald-inlay
+M 0 76682 1 76909 100 0 0 0        * a stowaway
+M 0 76701 10 76911 100 0 0 0       * a red robe
+E 1 76606 3 15 100 0 0 0           *   a wristbow
+M 0 76702 6 76911 100 0 0 0        * a black robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+E 1 76681 4 17 100 0 0 0           *   a blacksteel tanto
+M 0 76703 6 76911 100 0 0 0        * a yellow robe
+E 1 76625 1 16 100 0 0 0           *   an electrum-bladed halberd
+M 0 76704 6 76911 100 0 0 0        * a blue robe
+E 1 76606 3 15 100 0 0 0           *   a wristbow
+M 0 76701 10 76911 100 0 0 0       * a red robe
+E 1 76683 1 12 100 0 0 0           *   the robe of the Red Dragons
+M 0 76703 6 76911 100 0 0 0        * a yellow robe
+E 1 76684 1 8 100 0 0 0            *   some bamboo sandals
+E 1 76682 1 11 100 0 0 0           *   a spiked bamboo shield
+M 0 76702 6 76911 100 0 0 0        * a black robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+M 0 76704 6 76911 100 0 0 0        * a blue robe
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+M 0 76712 1 76915 100 0 0 0        * Kyan Itsu
+E 1 76688 1 3 100 0 0 0            *   the medallion of vengence
+E 1 76606 3 15 100 0 0 0           *   a wristbow
+E 1 76604 12 16 100 0 0 0          *   a blacksteel katar
+E 1 76604 12 17 100 0 0 0          *   a blacksteel katar
+M 0 76685 1 76917 100 0 0 0        * the great celestial jade wyrm
+G 1 76658 1 0 100 0 0 0            *    a solid chunk of adamantium
+G 1 76697 1 0 25 0 0 0             *    a giant scale of a jade wyrm
+G 1 55025 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 76735 2 76917 100 0 0 0        * a youngling wyrm
+M 0 76735 2 76917 100 0 0 0        * a youngling wyrm
+M 0 76722 1 76925 100 0 0 0        * a jade mystic
+E 1 76633 2 3 100 0 0 0            *   a mystic emerald broach
+M 0 76726 3 76934 100 0 0 0        * a brigand sentry
+M 0 76726 3 76934 100 0 0 0        * a brigand sentry
+M 0 76726 3 76936 100 0 0 0        * a brigand sentry
+M 0 76728 4 76936 100 0 0 0        * a ruffian
+M 0 76727 1 76937 100 0 0 0        * an exiled ronin
+E 1 76719 1 15 100 0 0 0           *   a spiked electrum bracer
+M 0 76732 1 76937 100 0 0 0        * an exiled outcast
+M 0 76733 1 76937 100 0 0 0        * a brigand sentry
+M 0 76725 1 76938 100 0 0 0        * Marn One-Eye
+E 1 76717 1 19 100 0 0 0           *   a skull-shaped glass eye
+G 1 76710 1 0 100 0 0 0            *    the brig key
+M 0 76666 1 76939 100 0 0 0        * a phantom mindbreaker
+E 1 76714 1 9 100 0 0 0            *   the gloves of the mind
+M 0 76728 4 76940 100 0 0 0        * a ruffian
+M 0 76728 4 76940 100 0 0 0        * a ruffian
+M 0 76728 4 76940 100 0 0 0        * a ruffian
+*
+S

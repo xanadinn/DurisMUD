@@ -1,0 +1,1492 @@
+#88800
+&+yAlong A Dirt Road&n~
+   This little-travelled dirt road leads down a hill here toward the coast,
+and connects to the main path to the north.  A column of smoke trails up to
+the sky from somewhere below.
+~
+888 0 4
+D0
+That way lies the main path.
+~
+~
+0 0 88864
+D5
+Down towards the coast.
+~
+~
+0 0 88801
+S
+#88801
+&+yAlong A Dirt Road&n~
+   The dirt road has many bumps and ruts and is not well-tended, leading to
+the obvious conclusion that it does not see much traffic.  Down the hill, a
+small seaside village is visible.
+~
+888 0 2
+D2
+The dirt road continues at a gently downward-sloping angle.
+~
+~
+0 0 88806
+D4
+The dirt road continues up the hill.
+~
+~
+0 0 88800
+S
+#88802
+&+yPotato Fields&n~
+   These fields seem mainly to be pasture for the various domesticated animals
+seen grazing here and there.  A fence blocks passage north and west.
+~
+888 0 2
+D1
+The fields continue.
+~
+~
+0 0 88803
+D2
+The fields continue.
+~
+~
+0 0 88808
+S
+#88803
+&+gGrassy Fields&n~
+   These fields seem mainly to be pasture for the various domesticated animals
+seen grazing here and there.  A fence blocks passage north.
+~
+888 0 2
+D1
+A small garden of some sort lies that way.
+~
+~
+0 0 88804
+D2
+The fields continue.
+~
+~
+0 0 88809
+D3
+The fields continue.
+~
+~
+0 0 88802
+S
+#88804
+&+GHerbal&+g Garden&n~
+   Various herbs have been cultivated here, presumably by the occupants of the
+farmhouse to the east.  A variety of plants in different shapes, sizes, and
+colors abound.
+~
+888 0 2
+D1
+The door leads into the farmhouse.
+~
+door~
+1 0 88805
+D2
+The fields continue.
+~
+~
+0 0 88810
+D3
+The fields continue.
+~
+~
+0 0 88803
+S
+#88805
+&+yInside a Farmhouse&n~
+   This one-room farmhouse is nothing to speak of.  There are some straw-
+stuffed mattresses in once corner, and a table and two chairs in another.  A
+small brazier provides a bit of heat.  Doors lead out to the west and south.
+~
+888 8 0
+D2
+Outside.
+~
+door~
+1 0 88811
+D3
+Outside.
+~
+door~
+1 0 88804
+S
+#88806
+&+yAlong A Dirt Road&n~
+   The view of the village is obscured here by some small trees.  The road
+continues to the south and north.
+~
+888 0 3
+D0
+The dirt road continues at a generally upward slant.
+~
+~
+0 0 88801
+D2
+The road continues to the south, heading down the gentle slope.
+~
+~
+0 0 88814
+S
+#88807
+&+yOn a Small&+L Cliff&n~
+   This small cliff provides a nice view of the ocean and the beach below.
+A small wooden bench has been placed here for contemplation.  A wooden railing
+prevents any of the nearby livestock from plunging to their deaths on the rocks
+below.
+~
+888 0 4
+D1
+The fields lie that way.
+~
+~
+0 0 88808
+E
+bench~
+It looks fairly weatherbeaten and very heavy.
+~
+E
+railing~
+It would not be wise to climb over the railing, as the sea mist makes the rocks
+beyond very slippery.
+~
+S
+#88808
+&+gGrassy Fields&n~
+   These fields seem mainly to be pasture for the various domesticated animals
+seen grazing here and there.  A fence blocks passage south.
+~
+888 0 2
+D0
+The fields continue.
+~
+~
+0 0 88802
+D1
+The fields continue.
+~
+~
+0 0 88809
+D3
+There's a small cliff that way.
+~
+~
+0 0 88807
+S
+#88809
+&+gGrassy Fields&n~
+   These fields seem mainly to be pasture for the various domesticated animals
+seen grazing here and there.  Some uncultivated land lies south.
+~
+888 0 2
+D0
+The fields continue.
+~
+~
+0 0 88803
+D1
+The fields continue.
+~
+~
+0 0 88810
+D2
+Some sort of green plantlife covers the ground that way.
+~
+~
+0 0 88815
+D3
+The fields continue.
+~
+~
+0 0 88808
+S
+#88810
+&+gGrassy Fields&n~
+   These fields seem mainly to be pasture for the various domesticated animals
+seen grazing here and there.  The fields extend to the east and west.  A small
+garden is visible to the north, and a small farmhouse lies south.
+~
+888 0 2
+D0
+A small garden is visible in that direction.
+~
+~
+0 0 88804
+D1
+The fields continue.
+~
+~
+0 0 88811
+D2
+Into the farmhouse.
+~
+~
+0 0 88816
+D3
+The fields continue.
+~
+~
+0 0 88809
+S
+#88811
+&+yPotato Fields&n~
+   Potato plants grow here in neat, well-tended rows, but it appears as though
+they are still too immature to eat.  A farmhouse lies north, and the fields
+continue around here.
+~
+888 0 2
+D0
+Into the farmhouse.
+~
+door~
+1 0 88805
+D1
+The fields continue.
+~
+~
+0 0 88812
+D2
+The fields continue.
+~
+~
+0 0 88817
+D3
+The fields continue.
+~
+~
+0 0 88810
+S
+#88812
+&+yPotato Fields&n~
+   It appears that the potato fields are, in fact, quite extensive, and are
+probably a staple crop of the townsfolk.  A fence blocks passage north, but
+other directions, the fields continue.
+~
+888 0 2
+D1
+The fields continue.
+~
+~
+0 0 88813
+D2
+The fields continue.
+~
+~
+0 0 88818
+D3
+The fields continue.
+~
+~
+0 0 88811
+S
+#88813
+&+yPotato Fields at the Foot of a Cliff&n~
+   The potato fields halt here against an abrupt rock cliff here, atop which
+the dirt road is barely visible.  The cliff runs north-south on the west here,
+and a fence blocks passage north onto a pile of rubble, evidently from a
+landslide of sorts.
+~
+888 0 2
+D2
+The fields continue.
+~
+~
+0 0 88819
+D3
+The fields continue.
+~
+~
+0 0 88812
+S
+#88814
+&+yA Bend in the Dirt Road&n~
+   The dirt road bends from north to west here.  The village below is visible
+from this vantage point, and looks sleepy and rustic, with thatched-roof houses
+and farmers' fields.  The air carries the pleasant smell of the ocean.
+~
+888 0 2
+D0
+The dirt road continues, heading up the hill.
+~
+~
+0 0 88806
+D3
+The dirt road continues toward the village.
+~
+~
+0 0 88820
+S
+#88815
+&+gA Patch of Clover&n~
+   The clover covers the ground here in profusion, filling the air with a sweet
+scent.  Bees buzz about collecting pollen.  A farmhouse lies to the east, the
+road continues to the south, a cliff drops away to the west, and fields are to
+the north.
+~
+888 0 2
+D0
+A field lies that way.
+~
+~
+0 0 88809
+D1
+The inside of the farmhouse.
+~
+door~
+1 0 88816
+D2
+The road lies in that direction.
+~
+~
+0 0 88821
+S
+#88816
+&+yInside a Small Farmhouse&n~
+   This farmhouse is very run-down, barely providing shelter for its
+inhabitants.  Such people live on a day-to-day basis, at the razor's edge of
+starvation.  A wooden door leads out to the east, and a hole in the wall leads
+out to the north.
+~
+888 8 0
+D0
+Outside.
+~
+~
+0 0 88810
+D3
+The door leads outside to the west.
+~
+door~
+1 0 88815
+S
+#88817
+&+yAt the Edge of the&+g Fields&n~
+   Extensive fields lie to the north and east, with vegetation appearing in
+neatly cultivated rows.  These fields must be a main source of food for the
+villagers.  A small, stagnant pond, ensconced by thick reeds, prevents passage
+to the east.  The road lies to the south.
+~
+888 0 2
+D0
+The fields continue.
+~
+~
+0 0 88811
+D1
+The fields continue.
+~
+~
+0 0 88818
+D2
+The road lies in that direction.
+~
+~
+0 0 88822
+S
+#88818
+&+yFallow Ground&n~
+   This part of the fields has not been planted this season, allowing the soil
+to recover from the previous growing season's depletion.  More fallow ground
+is to the east, and a fence blocks passage south.  The fields continue north
+and west.
+~
+888 0 2
+D0
+The fields continue.
+~
+~
+0 0 88812
+D1
+More fallow ground.
+~
+~
+0 0 88819
+D3
+The fields continue.
+~
+~
+0 0 88817
+S
+#88819
+&+yFallow Ground at the Base of a Cliff&n~
+   The ground here has been left fallow to recover for the next growing season.
+A rock cliff looms overhead to the west, preventing passage in that direction.
+A fence prevents travel south.
+~
+888 0 2
+D0
+The fields continue.
+~
+~
+0 0 88813
+D3
+More fallow ground.
+~
+~
+0 0 88818
+S
+#88820
+&+yAlong A Dirt Road&n~
+   The dirt road here is muddy in spots, presumably because of the damp seaside
+climate.  Even worse, the hill becomes steeper here, forcing careful placement
+of one's footsteps.  The road continues east up the hill and down toward the
+village.
+~
+888 0 4
+D1
+The road continues east up the hill.
+~
+~
+0 0 88814
+D5
+The road descends toward the village.
+~
+~
+0 0 88825
+S
+#88821
+&+bMain Road&n~
+   The main road comes to an end here.  Fields lie to the north, and the ocean
+is visible below as a cliff drops away to the west and south.  A small dock can
+be seen on the beach below and south of here.
+~
+888 0 1
+D0
+A lush patch of vegetation is there.
+~
+~
+0 0 88815
+D1
+The road continues.
+~
+~
+0 0 88822
+S
+#88822
+&+bMain Road Adjacent the Fields&n~
+   A small patch of pretty yellow flowers has sprung up on either side of the
+road here, which bends from south to west.  Fields lie to the north.
+~
+888 0 1
+D0
+Into some fields.
+~
+~
+0 0 88817
+D2
+The road continues to the south.
+~
+~
+0 0 88828
+D3
+The road continues to the west.
+~
+~
+0 0 88821
+S
+#88823
+&+LThe&+y Oak&+L and&+g Ragged&+y Staff&n~
+   The pub is decorated in fine fashion:  animal hides and shields on the wall,
+a stuffed bear in the corner, a wool rug covering part of the wooden floor.  A
+fire blazes in a small fireplace to one side, providing warmth in an otherwise
+chill environment.  The exit lies south.
+~
+888 8 0
+D2
+Back out into the cold.
+~
+door~
+1 0 88829
+E
+animal hides~
+One is that of a giant hunting cat, another that of a black wolf.  Various
+smaller pelts are also visible.
+~
+E
+shield shields~
+Emblazoned on the shield is a red X on a white background, with a rearing horse
+in the upper left corner and a sun in the lower right one.
+~
+E
+stuffed bear~
+It stands about half again the height of a man, and looks to have been somewhat
+ferocious in its day.  Of course, ALL stuffed bears are made to look like they
+were somewhat ferocious in their days, so it's difficult to make a real
+judgment about this one...
+~
+S
+#88824
+&+mMemson&+y's Wares&n~
+   This shop is not very large, having only one small window and the door
+south. However, the shop is cluttered with a variety of farming equipment
+and articles of clothing, presented both for maximal display and minimal
+space usage.  A pleasant seascape hangs on one wall.
+~
+888 8 0
+D2
+Back outside.
+~
+door~
+1 0 88830
+E
+seascape~
+Painted mostly in blues and grays, it depicts a fishing ship outracing a
+looming stormfront.
+~
+S
+#88825
+&+bEntrance to Menden-on-the-Deep&n~
+   A wooden arch has been built here over the road, creating a rough gateway
+to the village extending to the west.  Small wooden houses, fields, and farm
+animals speckle the hills to the north and south.  The dirt road continues up
+the hill and westward into the village.
+   A small wooden sign is posted beside the arch.
+~
+888 0 1
+D3
+Into the village.
+~
+~
+0 0 88830
+D4
+The road continues up the hill.
+~
+~
+0 0 88820
+E
+sign~
+The sign declares:  "Welcome to the village of Menden-on-the-Deep."
+~
+E
+arch archway~
+It is solidly constructed from a heavy blond wood.  It is functional rather
+than artistic, and lacks woodwork and other such elaborations.
+~
+S
+#88826
+&+yRocky Beach&n~
+   Here the beach abuts against a rocky cliff towering high overhead, and
+blocking passage north and east.  The ocean lies to the west, and the beach
+extends to the south.
+~
+888 131072 2
+D2
+The beach continues in that direction.
+~
+~
+0 0 88833
+S
+#88827
+&+WA Small Temple&n~
+   Judging by the mishmash of assorted religious icons, the locals have taken
+their preferences from a variety of religions, combining them to form their
+own special polytheism.  The room is very small, standing room only, and the
+only exit is east.
+~
+888 8 0
+D0
+~
+~
+0 0 88859
+D1
+Back outside.
+~
+door~
+1 0 88828
+E
+icon icons religious~
+Recognizable ones include a trident, symbol of Valkur, god of the seas, and an
+inverted triangle, symbol of AO, god of gods.
+~
+M
+0 10
+S
+#88828
+&+bA Bend in the Main Road&n~
+   A small, plain-looking temple lies to the west.  Very little decoration
+adorns its exterior.  The road bends north to east.
+~
+888 0 1
+D0
+The road continues.
+~
+~
+0 0 88822
+D1
+The road continues.
+~
+~
+0 0 88829
+D3
+The temple lies that way.
+~
+door~
+1 0 88827
+S
+#88829
+&+bFork in The Main Road&n~
+   The main road forks here, leading west, south and east.  To the west, the
+village continues.  To the south, the road continues over a tiny bridge and
+onward for some distance.  To the east, the road heads toward the entrance to
+town.  The Oak and Ragged Staff pub lies to the north.
+~
+888 0 1
+D0
+The Oak and Ragged Staff pub lies that way.
+~
+door~
+1 0 88823
+D1
+The road continues toward the entrance to town.
+~
+~
+0 0 88830
+D2
+The road continues over a little bridge.
+~
+~
+0 0 88834
+D3
+The road continues through the village.
+~
+~
+0 0 88828
+S
+#88830
+&+bMain Road&n~
+   This road runs through the heart of Menden-on-the-Deep, continuing west
+further into the village and east toward the entrance.  A small shop called
+"Memson's Wares" lies to the north.
+~
+888 0 1
+D0
+Into Memson's Wares.
+~
+door~
+1 0 88824
+D1
+Toward the entrance to Menden-on-the-Deep.
+~
+~
+0 0 88825
+D3
+The main road continues.
+~
+~
+0 0 88829
+S
+#88831
+&+gGrassy&+y Hillside&n~
+   The hillside here is grassy and speckled with pale blue wildflowers.  A
+brook flows by to the north and west, blocking passage.
+~
+888 0 4
+D1
+The grassy slope continues.
+~
+~
+0 0 88832
+D2
+The grassy slope continues, sloping gently downward.
+~
+~
+0 0 88836
+S
+#88832
+&+gGrassy&+y Hillside&n~
+   The grassy hillside is somewhat steep here, making climbing difficult and
+footing tenuous.  However, the local villagers and farm animals ascend these
+slopes daily with little difficulty, inspiring some envy.  A gently flowing
+brook flows around the hillside to the north and east, preventing travel in
+those directions.
+~
+888 0 4
+D2
+The grassy slopes continue.
+~
+~
+0 0 88837
+D3
+The grassy slopes continue.
+~
+~
+0 0 88831
+S
+#88833
+&+yRocky Beach&n~
+   The surf crashes here noisily, leaving small puddles which quickly sink into
+the sand and rocks.  Small sand crabs scuttle here and there among the dunes,
+generally heading from the direction of the sea into the green-brown grasses
+which hug the edge of the eastern cliff.  The beach continues to the north and
+south.
+~
+888 0 2
+D0
+The rocky beach continues.
+~
+~
+0 0 88826
+D2
+The rocky beach continues.
+~
+~
+0 0 88839
+S
+#88834
+&+yWooden Bridge Over a&+b Small Stream&n~
+   A small but sturdy wooden bridge has been built here, fording the quiet
+stream which flows beneath it.  Handrails on either side prevent passersby
+from falling into the water below.  The center of town lies north, the road
+continues to the south, and a thatched-roof farmhouse is to the east.
+~
+888 0 1
+D0
+The heart of Menden-on-the-Deep.
+~
+~
+0 0 88829
+D1
+A thatched-roof farmhouse.
+~
+door~
+1 0 88835
+D2
+The road continues.
+~
+~
+0 0 88841
+S
+#88835
+&+yLeaking Farmhouse&n~
+   The roof in here leaks profusely, probably with the remnants of the most
+recent rainstorm.  The locals find it necessary to perpetually rethatch their
+roofs, as native birds like to steal the thatching to make their own nests in
+the seaside cliffs.
+   The farmhouse itself is nothing to speak of, lacking decorations apart from
+a small trident-and-triangle on the wall.  Two doors in the west and south
+walls lead outside.
+~
+888 8 0
+D2
+The door leads outside.
+~
+door~
+1 0 88842
+D3
+This door leads back toward the main road.
+~
+door~
+1 0 88834
+E
+trident triangle~
+Carved from wood, the icons appear to represent Valkur, god of the oceans, and
+AO, god of all gods.
+~
+S
+#88836
+&+yBeside A&+L Rock Formation&n~
+   A large rock formation dominates the scenery here.  It looks like a cross
+between a marsh dog and a kel-cat, but the villagers have given it the nickname
+"Ye Olde Twiltfurf" for no apparent reason (probably a joke in the local
+dialect).  The formation blocks passage to the west.
+~
+888 0 4
+D0
+The grassy slopes continue.
+~
+~
+0 0 88831
+D1
+The grassy slopes continue.
+~
+~
+0 0 88837
+D2
+The grassy slopes continue.
+~
+~
+0 0 88843
+S
+#88837
+&+yHillside with&+g Scattered Grass&n~
+   The hillside here is much more rocky, with grass occupying shallow
+depressions in the rock.  Sparse thorny bushes also provide some greenery.
+The slopes abound in all directions.
+~
+888 0 4
+D0
+The slopes continue.
+~
+~
+0 0 88832
+D1
+The terrain becomes steeper in that direction.
+~
+~
+0 0 88838
+D2
+The slopes continue that way.
+~
+~
+0 0 88844
+D3
+A large rock formation lies in that direction.
+~
+~
+0 0 88836
+S
+#88838
+&+LRocky Ground&n~
+   The ground here has become very rocky, with little in the way of vegetation.
+The cliff wall looms overhead to the east and north, blocking movement.  Some
+barely visible symbols have been scrawled on the cliff here.
+~
+888 0 5
+D2
+More rocks.
+~
+~
+0 0 88845
+D3
+Toward gentler terrain.
+~
+~
+0 0 88837
+E
+symbols~
+
+"BEWARE OF XEXOS!"
+~
+S
+#88839
+&+yRocky Beach&n~
+   The beach here is broken up by many large rocks, leading to the conclusion
+that this part of the world is not very new, geographically speaking.  The
+many rocks make traveling difficult, although the view is still lovely.  The
+beach continues north and south.
+~
+888 0 2
+D0
+The rocky beach continues.
+~
+~
+0 0 88833
+D2
+The rocky beach continues, and there's some sort of structure jutting into the
+water.
+~
+~
+0 0 88847
+S
+#88840
+&+GJennis' Goods Shoppe&n~
+   This is a fairly sizable one-room shop which has the feel of a general
+store:  foodstuffs in barrels and crates, leather goods, sacks, etc.  A wooden
+door leads outside.
+~
+888 8 0
+D1
+Back outside to the main road.
+~
+door~
+1 0 88841
+S
+#88841
+&+bMain Road&n~
+   The road here is well-tended and in good repair, indicating a certain
+prosperity for the shop to the west, over which hangs a sign proclaiming,
+"Jennis Goods Shoppe."  The road continues north and south.
+~
+888 0 1
+D0
+The road continues.
+~
+~
+0 0 88834
+D2
+The road continues.
+~
+~
+0 0 88849
+D3
+Jennis Goods Shoppe.
+~
+door~
+1 0 88840
+S
+#88842
+&+LSlaughtering Block&n~
+   A large, bloodstained stone slab here serves as a slaughtering block for
+the sheep to the south, whose stench carries for quite a distance.  The slab
+is pitted with many marks, but appears on the whole undamaged.  The sheep pen
+lies to the south, and a field is to the east.  A small door leads into the
+farmhouse to the north.
+~
+888 0 2
+D0
+Into the farmhouse.
+~
+door~
+1 0 88835
+D1
+A grassy slope.
+~
+~
+0 0 88843
+D2
+The sheep pen lies that way.
+~
+gate~
+1 0 88850
+S
+#88843
+&+gGrassy&+y Hillside&n~
+   The grass is sparse in patches due to overgrazing by zealous farmers.
+However, lack of recent tracks indicates either rainfall or wise planning on
+the farmers' part.  Given the rural setting, the former choice would seem to be
+indicated.
+~
+888 0 4
+D0
+The grassy hillside continues.
+~
+~
+0 0 88836
+D1
+~
+~
+0 0 88844
+D2
+Some sort of structure can be seen there.
+~
+~
+0 0 88851
+D3
+A stone slab is visible that way.
+~
+~
+0 0 88842
+D4
+The slope takes a sharp rise there.
+~
+~
+0 0 88844
+S
+#88844
+&+yA Steep Hillside&n~
+   The grassy slope drops away sharply to the south and west, but otherwise
+this area has nothing to recommend it beyond a six-finger-width covering of
+grass.
+~
+888 0 5
+D0
+The grassy slope continues.
+~
+~
+0 0 88837
+D1
+The terrain is much more barren.
+~
+~
+0 0 88845
+D2
+The slope drops away sharply, but appears descendable.
+~
+~
+0 0 88852
+D3
+The slope drops away sharply, but appears descendable.
+~
+~
+0 0 88843
+S
+#88845
+&+LMelted Ground&n~
+   The ground here is glassy and black, perforated by the remnants of many
+tiny bubbles.  Either there was a lava flow here recently or someone was
+playing fast and loose with fire magic.  The cliff blocks passage east and
+south.
+~
+888 0 5
+D0
+More rocky ground.
+~
+~
+0 0 88838
+D3
+Greener pastures.
+~
+~
+0 0 88844
+S
+#88846
+&+yA Small Pier&n~
+   This small pier serves as the docking point for the village fishing ships
+when they return from their months-long voyages.  Shore lies to the east.
+~
+888 1048576 1
+D1
+~
+~
+0 0 88847
+D2
+~
+~
+0 0 550725
+D3
+~
+~
+0 0 550324
+S
+#88847
+&+yBase of the Cliff Near a Pier&n~
+   The trail down the cliff ends here at a rocky beach extending north and
+south.  The rocks underfoot are partially made of volcanic rock, and are rather
+crumbly, making footing difficult.  A small pier extends onto the water to the
+west.
+~
+888 4 4
+D0
+The rocky beach continues.
+~
+~
+0 0 88839
+D2
+The rocky beach continues.
+~
+~
+0 0 88853
+D3
+A small pier juts out onto the water.
+~
+~
+0 0 88846
+D4
+The trail leads up the side of the cliff.
+~
+~
+0 0 88848
+S
+#88848
+&+yCliff Trail to the Beach&n~
+   This narrow trail leads up to the village and down toward the beach.  Some
+shrubs obscure the view of what is below, although the ocean seems lovely.
+The occasional cry of a gull can be heard in the distance.
+~
+888 8192 5
+D1
+~
+~
+0 0 88849
+D5
+The trail leads down to the beach.
+~
+~
+0 0 88847
+S
+#88849
+&+bMain Road&n~
+   A small trail leads down the cliff to the beach to the west here.  The road
+continues north and south.
+~
+888 0 1
+D0
+The road continues.
+~
+~
+0 0 88841
+D2
+The road comes to an end there.
+~
+~
+0 0 88855
+D3
+The trail leads down the side of the cliff.
+~
+~
+0 0 88848
+S
+#88850
+&+yThe&+W Sheep&+y Pen&n~
+   The ground here is covered with sheep manure, bits of wool, and mud.  The
+space is very tight, and the sheep must be packed in here with little or no
+room to move around.
+~
+888 0 2
+D0
+The slaughtering block lies that way.
+~
+gate~
+1 0 88842
+S
+#88851
+Stone Ruins~
+   The outline of an ancient stone building can be seen here rising from the
+ground.  Various rectangular stones, now smoothed with weather and time, litter
+the ground.  The cliff blocks passage to the west and south.
+~
+888 0 4
+D0
+The grassy hillside continues.
+~
+~
+0 0 88843
+D1
+The grassy hillside continues, rising somewhat.
+~
+~
+0 0 88852
+S
+#88852
+&+gGrassy&+y Hillside&n~
+   The grass here grows verdant and thick, enjoying the benefits of rich soil
+and a seaside climate.  The sheltering cliff blocks passage east and south.
+~
+888 0 4
+D0
+The hillside takes a sharp rise in that direction.
+~
+~
+0 0 88844
+D3
+Some sort of structure is visible in that direction.
+~
+~
+0 0 88851
+S
+#88853
+&+yRocky Beach&n~
+   Surprisingly, a lone palm tree has managed to thrive here among the volcanic
+rock, despite the relatively cool climate.  Brown grasses blow gently in the
+sea breeze.  The cliff blocks passage to the east and south.  The beach extends
+to the north.  Little glints of sunlight reflect from the surfaces of the rock.
+~
+888 131072 2
+D0
+The beach continues.
+~
+~
+0 0 88847
+S
+#88854
+&+yA Wooden Shack&n~
+   Constructed from low-grade timber, this rickety shack has clearly been
+abandoned for some time.  Bits of cloth lie here and there, but there are
+otherwise no signs of life here.
+~
+888 8 0
+D1
+Back outside.
+~
+door~
+1 0 88855
+S
+#88855
+&+LEnd of the&+b Main Road&n~
+   The main road comes to an end here, with a decrepit-looking shack on the
+west, a rich-looking house on the east, and the local cemetery to the south.
+The road continues to the north.
+~
+888 0 1
+D0
+The road continues.
+~
+~
+0 0 88849
+D1
+A strange yet rich-looking house.
+~
+door serpent~
+2 -2 88856
+D2
+The village cemetery.
+~
+~
+0 0 88857
+D3
+The decrepit-looking shack.
+~
+door~
+1 0 88854
+S
+#88856
+&+mA Well Kept House&n~
+   This one-room house is decorated somewhat elaborately, contrary to the
+spartan standards normal to Menden-on-the-Deep.  A mural depicting a green sea
+serpent attacking a ship decorates one wall.  The mural has a legend below it.
+Other furnishings include a carved furniture set, with a table and four chairs,
+and a heavy-looking ceramic vase.  Glyphs are painted on the walls and floors,
+leading to the conclusion that the owner must have some magical knowledge.
+~
+888 12615752 0
+D3
+Back outside.
+~
+door serpent~
+2 -2 88855
+D5
+The wooden staircase leads into an underground chamber.
+~
+~
+0 0 88858
+E
+mural serpent ship~
+The serpent is green and scaly, and bites through the ship's hull as sailors
+seek desperately to flee.
+~
+E
+vase ceramic~
+It is eggshell white and decorated in shades of blue in a floral pattern.
+~
+E
+legend~
+
+                    THE TERROR OF THE SERPENT OF THE DEEP
+~
+E
+furniture set table chair chairs carved~
+Elaborate woodwork inlaid with gold.  Unfortunately, they seem unmovable.
+~
+E
+glyph glyphs~
+Nothing that is recognizable to known schools of magic.  The owner must be
+very powerful indeed.
+~
+M
+0 25
+S
+#88857
+&+LThe Village Cemetery&n~
+   Various stone slabs stick up from and lay on the ground here.  Most of the
+names have worn away into illegibility, but a few are readable here and there.
+~
+888 262148 2
+D0
+Out of the cemetery onto the main road.
+~
+~
+0 0 88855
+E
+stone slabs slab name names~
+Here lies Ulf Hempnert - killed in a fist fight
+
+Kateri Mullno - a loving wife
+
+Atlos - always a pain in the ass
+~
+S
+#88858
+&+LBasement of&+m A Well Kept House&n~
+   The magus performs some of his most dangerous magical acts here,
+where he is immured within earthen walls to protect him from ethereal
+attacks.  A pentagram is inscribed on the bare wooden floor, and small
+magical wards have been inscribed on the walls.  A wooden staircase
+leads up to ground level.
+~
+888 8683593 0
+D4
+The staircase leads up to ground level.
+~
+~
+0 0 88856
+S
+#88859
+&+WA Small Temple&n~
+&+WThis room of the temple glows with a magic white aura that gives
+&+Woff a sense of vast timeless power.  A glowing white pool rest in the
+&+Wcenter of the room.
+~
+888 12619852 0
+D2
+~
+~
+0 0 88827
+S
+#88860
+&+WChamber of Life&N~
+&+WThis glowing sphere has no walls, everywhere you look there is nothing
+&+Wbut a white light.  The rooms seems to glow with life itself.
+~
+888 12619852 0
+S
+#88861
+&+LRoad Through&+g Dragonsfall Forest&n~
+   The road bends here to the east and south, cutting a path through
+Dragonsfall Forest.
+~
+888 4 3
+D1
+The road continues through the forest.
+~
+~
+0 0 88862
+D2
+The road continues through the forest.
+~
+~
+0 0 88866
+S
+#88862
+&+LRoad Through&+g Dragonsfall Forest&n~
+   The road runs west and east here, cutting a path through
+Dragonsfall Forest.
+~
+888 4 3
+D1
+The road continues through the forest.
+~
+~
+0 0 88863
+D3
+The road continues through the forest.
+~
+~
+0 0 88861
+S
+#88863
+&+LRoad Through&+g Dragonsfall Forest&n~
+   The road bends here from west to south, cutting a path through
+Dragonsfall Forest.
+~
+888 4 3
+D0
+The road continues.
+~
+~
+0 0 549925
+D2
+The road continues through the forest.
+~
+~
+0 0 88867
+D3
+The road continues through the forest.
+~
+~
+0 0 88862
+S
+#88864
+&+LSide Path Between Rock Walls&n~
+   This narrow gap in the rock face has allowed a small path to be
+carved which connects the road through Dragonsfall Forest to the east
+with a dirt road leading down toward the coast to the south.
+~
+888 8196 5
+D1
+East is the road through Dragonsfall Forest.
+~
+~
+0 0 88865
+D2
+A dirt road leads down the slope.
+~
+~
+0 0 88800
+S
+#88865
+&+LEnd of Road through &+gDragonsfall Forest&n~
+   The road through the forest to the east comes to an end here in a
+grassy field peppered with wildflowers of assorted colors.  A wall of
+rock bounds the clearing, but to the west a path has been carved
+through the rockface, creating a rougher version of the road.
+~
+888 4 3
+D1
+The road enters the forest.
+~
+~
+0 0 88866
+D3
+Into the rockface.
+~
+~
+0 0 88864
+S
+#88866
+&+LRoad Through&+g Dragonsfall Forest&n~
+   The road cuts a path through the forest to the north and leads to a
+clearing west of here.
+~
+888 4 3
+D0
+The road continues through the forest.
+~
+~
+0 0 88861
+D3
+There is a clearing there.
+~
+~
+0 0 88865
+S
+#88867
+&+LRoad Through &+gDragonsfall Forest&n~
+   The road cuts a path through the forest to the north and east of
+here.
+~
+888 4 3
+D0
+The road continues through the forest.
+~
+~
+0 0 88863
+D1
+The road continues through the forest.
+~
+~
+0 0 88868
+S
+#88868
+&+LRoad Through &+gDragonsfall Forest&n~
+   The road cuts a path through the forest to the west and east of
+here.
+~
+888 4 3
+D1
+The road continues through the forest.
+~
+~
+0 0 88869
+D3
+The road continues through the forest.
+~
+~
+0 0 88867
+S
+#88869
+&+LRoad Through &+gDragonsfall Forest&n~
+   The road cuts a path through the forest to the west and east of
+here.
+~
+888 4 3
+D1
+The road continues through the forest.
+~
+~
+0 0 88870
+D3
+The road continues through the forest.
+~
+~
+0 0 88868
+S
+#88870
+&+LRoad Through &+gDragonsfall Forest&n~
+   The road leads out of the forest to the east and further into the
+forest to the west.
+~
+888 4 3
+D1
+The road leads out of the forest.
+~
+~
+0 0 550326
+D3
+The road leads further into the forest.
+~
+~
+0 0 88869
+S

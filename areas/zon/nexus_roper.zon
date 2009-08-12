@@ -1,0 +1,80 @@
+#1304
+&+LThe Reliquary &+rN&+Re&+rx&+Ru&+r &+Lof the &+gRoper Den&n~
+130424 0 0 40 50 4
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 130400 3 5 100 0 0 0
+*     west exit from "The Mouth of A Moss Covered Cave" to
+*     "A Secret Cave" - closed/secret
+*
+D 0 130424 1 5 100 0 0 0
+*     east exit from "A Secret Cave" to
+*     "The Mouth of A Moss Covered Cave" - closed/secret
+*
+*
+*
+M 0 130400 8 130401 100 0 0 0      * a young roper
+M 0 130401 8 130401 100 0 0 0      * an mature roper
+M 0 130402 8 130401 100 0 0 0      * a baby roper
+M 0 130400 8 130403 100 0 0 0      * a young roper
+M 0 130401 8 130403 100 0 0 0      * an mature roper
+M 0 130402 8 130403 100 0 0 0      * a baby roper
+M 0 130400 8 130404 100 0 0 0      * a young roper
+M 0 130401 8 130404 100 0 0 0      * an mature roper
+M 0 130402 8 130404 100 0 0 0      * a baby roper
+M 0 130400 8 130405 100 0 0 0      * a young roper
+M 0 130401 8 130405 100 0 0 0      * an mature roper
+M 0 130402 8 130405 100 0 0 0      * a baby roper
+M 0 130400 8 130407 100 0 0 0      * a young roper
+M 0 130401 8 130407 100 0 0 0      * an mature roper
+M 0 130402 8 130407 100 0 0 0      * a baby roper
+M 0 130400 8 130408 100 0 0 0      * a young roper
+M 0 130401 8 130408 100 0 0 0      * an mature roper
+M 0 130402 8 130408 100 0 0 0      * a baby roper
+M 0 130406 7 130409 100 0 0 0      * a colossal roper
+G 1 130400 4 0 100 0 0 0           *    an ancient roper tentacle
+M 0 130405 8 130409 100 0 0 0      * an ancient roper
+M 0 130405 8 130409 100 0 0 0      * an ancient roper
+M 0 130404 11 130409 100 0 0 0     * an elder roper
+M 0 130404 11 130409 100 0 0 0     * an elder roper
+M 0 130404 11 130409 100 0 0 0     * an elder roper
+M 0 130403 6 130409 100 0 0 0      * a large roper
+M 0 130403 6 130409 100 0 0 0      * a large roper
+M 0 130406 7 130411 100 0 0 0      * a colossal roper
+G 1 130400 4 0 100 0 0 0           *    an ancient roper tentacle
+M 0 130405 8 130411 100 0 0 0      * an ancient roper
+M 0 130405 8 130411 100 0 0 0      * an ancient roper
+M 0 130404 11 130411 100 0 0 0     * an elder roper
+M 0 130404 11 130411 100 0 0 0     * an elder roper
+M 0 130404 11 130411 100 0 0 0     * an elder roper
+M 0 130403 6 130411 100 0 0 0      * a large roper
+M 0 130403 6 130411 100 0 0 0      * a large roper
+M 0 130400 8 130413 100 0 0 0      * a young roper
+M 0 130401 8 130413 100 0 0 0      * an mature roper
+M 0 130402 8 130413 100 0 0 0      * a baby roper
+M 0 130400 8 130414 100 0 0 0      * a young roper
+M 0 130401 8 130414 100 0 0 0      * an mature roper
+M 0 130402 8 130414 100 0 0 0      * a baby roper
+M 0 130406 7 130415 100 0 0 0      * a colossal roper
+G 1 130400 4 0 100 0 0 0           *    an ancient roper tentacle
+M 0 130405 8 130415 100 0 0 0      * an ancient roper
+M 0 130405 8 130415 100 0 0 0      * an ancient roper
+M 0 130404 11 130415 100 0 0 0     * an elder roper
+M 0 130404 11 130415 100 0 0 0     * an elder roper
+M 0 130404 11 130415 100 0 0 0     * an elder roper
+M 0 130403 6 130415 100 0 0 0      * a large roper
+M 0 130403 6 130415 100 0 0 0      * a large roper
+M 0 130406 7 130416 100 0 0 0      * a colossal roper
+G 1 130400 4 0 100 0 0 0           *    an ancient roper tentacle
+M 0 130405 8 130416 100 0 0 0      * an ancient roper
+M 0 130405 8 130416 100 0 0 0      * an ancient roper
+M 0 130406 7 130416 100 0 0 0      * a colossal roper
+M 0 130406 7 130416 100 0 0 0      * a colossal roper
+M 0 130406 7 130416 100 0 0 0      * a colossal roper
+M 0 130404 11 130416 100 0 0 0     * an elder roper
+M 0 130404 11 130416 100 0 0 0     * an elder roper
+M 0 130407 1 130424 100 0 0 0      * Sebastian Lodehammer
+*
+S

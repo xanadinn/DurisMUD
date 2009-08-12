@@ -1,0 +1,171 @@
+#47
+&+gAlterian Region - Wilderness&n~
+4919 2 8 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 4752 5 0 100 0 0 0
+*     down exit from "Small Humid Cavern" to
+*     "Narrow Vertical Cavern" - open
+*
+D 0 4753 4 0 100 0 0 0
+*     up exit from "Narrow Vertical Cavern" to
+*     "Small Humid Cavern" - open
+*
+D 0 4806 0 1 100 0 0 0
+*     north exit from "End of a Gravely Dirt Road" to
+*     "Front Yard" - closed
+*
+D 0 4807 2 1 100 0 0 0
+*     south exit from "Front Yard" to
+*     "End of a Gravely Dirt Road" - closed
+*
+D 0 4812 3 1 100 0 0 0
+*     west exit from "Corn Field" to
+*     "Large Wooden Shed" - closed
+*
+D 0 4814 1 1 100 0 0 0
+*     east exit from "Large Wooden Shed" to
+*     "Corn Field" - closed
+*
+D 0 4815 0 1 100 0 0 0
+*     north exit from "Large Front Porch" to
+*     "Living Room" - closed
+*
+D 0 4816 2 1 100 0 0 0
+*     south exit from "Living Room" to
+*     "Large Front Porch" - closed
+*
+*
+O 0 4801 1 4758 100 0 0 0          * the glowing magical portal
+O 0 4802 1 4759 100 0 0 0          * the glowing magical portal
+O 0 4813 1 4808 100 0 0 0          * the well
+O 0 4815 1 4814 100 0 0 0          * the huge corn bin
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+P 1 4814 10 4815 100 0 0 0         *   an ear of corn
+O 0 4812 1 4843 100 0 0 0          * a small pond
+*
+M 0 4823 5 4754 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4823 5 4755 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4823 5 4756 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4823 5 4757 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4823 5 4758 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4834 4 4759 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4834 4 4759 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4834 4 4760 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4834 4 4760 100 0 0 0          * (mob type not in this .mob file)
+G 1 4803 9 0 100 0 0 0             *    a steel javelin
+M 0 4831 1 4760 100 0 0 0          * (mob type not in this .mob file)
+G 1 4800 1 0 100 0 0 0             *    a black iron key
+G 1 4804 1 0 100 0 0 0             *    a spiked steel morning star
+M 0 4824 2 4809 100 0 0 0          * (mob type not in this .mob file)
+M 0 4829 2 4810 100 0 0 0          * (mob type not in this .mob file)
+M 0 4825 1 4811 100 0 0 0          * (mob type not in this .mob file)
+G 1 4808 1 0 100 0 0 0             *    a dirty metal hoe
+M 0 4829 2 4813 100 0 0 0          * (mob type not in this .mob file)
+M 0 4826 1 4815 100 0 0 0          * (mob type not in this .mob file)
+M 0 4824 2 4816 100 0 0 0          * (mob type not in this .mob file)
+M 0 4828 1 4817 100 0 0 0          * (mob type not in this .mob file)
+M 0 4827 2 4820 100 0 0 0          * (mob type not in this .mob file)
+M 0 4827 2 4820 100 0 0 0          * (mob type not in this .mob file)
+M 0 4805 8 4823 100 0 0 0          * a prarie dog
+M 0 4803 3 4824 100 0 0 0          * a red haired fox
+M 0 4801 2 4825 100 0 0 0          * a large hawk
+M 0 4801 2 4825 100 0 0 0          * a large hawk
+M 0 4805 8 4826 100 0 0 0          * a prarie dog
+M 0 4804 6 4828 100 0 0 0          * a small furry mole
+M 0 4804 6 4830 100 0 0 0          * a small furry mole
+M 0 4803 3 4831 100 0 0 0          * a red haired fox
+M 0 4804 6 4831 100 0 0 0          * a small furry mole
+M 0 4805 8 4832 100 0 0 0          * a prarie dog
+M 0 4805 8 4832 100 0 0 0          * a prarie dog
+M 0 4803 3 4835 100 0 0 0          * a red haired fox
+M 0 4805 8 4836 100 0 0 0          * a prarie dog
+M 0 4811 6 4840 100 0 0 0          * a racoon
+M 0 4816 3 4840 100 0 0 0          * a bobcat
+M 0 4811 6 4842 100 0 0 0          * a racoon
+M 0 4808 2 4843 100 0 0 0          * a duck
+M 0 4808 2 4843 100 0 0 0          * a duck
+M 0 4809 5 4843 100 0 0 0          * a duckling
+M 0 4809 5 4843 100 0 0 0          * a duckling
+M 0 4809 5 4843 100 0 0 0          * a duckling
+M 0 4809 5 4843 100 0 0 0          * a duckling
+M 0 4809 5 4843 100 0 0 0          * a duckling
+M 0 4811 6 4845 100 0 0 0          * a racoon
+M 0 4814 3 4846 100 0 0 0          * a ferocious wolverine
+M 0 4833 3 4848 100 0 0 0          * (mob type not in this .mob file)
+M 0 4833 3 4849 100 0 0 0          * (mob type not in this .mob file)
+M 0 4816 3 4850 100 0 0 0          * a bobcat
+M 0 4833 3 4850 100 0 0 0          * (mob type not in this .mob file)
+M 0 4814 3 4852 100 0 0 0          * a ferocious wolverine
+M 0 4816 3 4853 100 0 0 0          * a bobcat
+M 0 4811 6 4855 100 0 0 0          * a racoon
+M 0 4814 3 4860 100 0 0 0          * a ferocious wolverine
+M 0 4815 10 4863 100 0 0 0         * a squirrel
+M 0 4815 10 4864 100 0 0 0         * a squirrel
+M 0 4817 4 4864 100 0 0 0          * (mob type not in this .mob file)
+M 0 4815 10 4866 100 0 0 0         * a squirrel
+M 0 4815 10 4868 100 0 0 0         * a squirrel
+M 0 4811 6 4869 100 0 0 0          * a racoon
+M 0 4815 10 4869 100 0 0 0         * a squirrel
+M 0 4800 2 4870 100 0 0 0          * a huge brown bear
+M 0 4815 10 4871 100 0 0 0         * a squirrel
+M 0 4830 1 4871 100 0 0 0          * (mob type not in this .mob file)
+G 1 4810 1 0 100 0 0 0             *    a potion of farseeing
+G 1 4811 1 0 100 0 0 0             *    some boots of the plains
+G 1 4809 10 0 100 0 0 0            *    a silver lamp
+M 0 4807 1 4874 100 0 0 0          * a wild boar
+M 0 4817 4 4875 100 0 0 0          * (mob type not in this .mob file)
+M 0 4815 10 4876 100 0 0 0         * a squirrel
+M 0 4815 10 4878 100 0 0 0         * a squirrel
+M 0 4815 10 4880 100 0 0 0         * a squirrel
+M 0 4817 4 4880 100 0 0 0          * (mob type not in this .mob file)
+M 0 4800 2 4882 100 0 0 0          * a huge brown bear
+M 0 4811 6 4882 100 0 0 0          * a racoon
+M 0 4815 10 4884 100 0 0 0         * a squirrel
+M 0 4817 4 4885 100 0 0 0          * (mob type not in this .mob file)
+M 0 4805 8 4889 100 0 0 0          * a prarie dog
+M 0 4804 6 4890 100 0 0 0          * a small furry mole
+M 0 4805 8 4891 100 0 0 0          * a prarie dog
+M 0 4804 6 4892 100 0 0 0          * a small furry mole
+M 0 4804 6 4893 100 0 0 0          * a small furry mole
+M 0 4805 8 4894 100 0 0 0          * a prarie dog
+M 0 4810 14 4897 100 0 0 0         * a huge buffalo
+M 0 4810 14 4898 100 0 0 0         * a huge buffalo
+M 0 4806 3 4899 100 0 0 0          * a wild horse
+M 0 4810 14 4900 100 0 0 0         * a huge buffalo
+M 0 4810 14 4901 100 0 0 0         * a huge buffalo
+M 0 4810 14 4901 100 0 0 0         * a huge buffalo
+M 0 4810 14 4902 100 0 0 0         * a huge buffalo
+M 0 4810 14 4905 100 0 0 0         * a huge buffalo
+M 0 4810 14 4905 100 0 0 0         * a huge buffalo
+M 0 4820 3 4905 100 0 0 0          * (mob type not in this .mob file)
+M 0 4810 14 4907 100 0 0 0         * a huge buffalo
+M 0 4820 3 4908 100 0 0 0          * (mob type not in this .mob file)
+M 0 4810 14 4909 100 0 0 0         * a huge buffalo
+M 0 4810 14 4909 100 0 0 0         * a huge buffalo
+M 0 4806 3 4910 100 0 0 0          * a wild horse
+M 0 4820 3 4910 100 0 0 0          * (mob type not in this .mob file)
+M 0 4810 14 4912 100 0 0 0         * a huge buffalo
+M 0 4806 3 4913 100 0 0 0          * a wild horse
+M 0 4810 14 4913 100 0 0 0         * a huge buffalo
+M 0 4810 14 4914 100 0 0 0         * a huge buffalo
+*
+S

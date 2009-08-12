@@ -1,0 +1,554 @@
+#11300
+brahvinos gatekeeper man~
+Brahvinos, the gatekeeper&n~
+A quiet little man sits before the gates, guarding them.
+~
+   This humble little man appears to hold the key to the gates of the
+tower.  Although small, he appears to have the strength of ten men.  He
+sits in quiet meditation for most of the day, standing and opening the
+gates for the members of the tower's guild.  He wears a set of black
+robes with a red sash.  His most prized possesion seems to be a sparkling
+wristband that he wears constantly.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PH 0 64 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11301
+lion~
+a fierce mountain lion~
+A fierce mountain lion sits atop a large rock.
+~
+   This shaggy beast appears to be a native species to this great
+mountain.  He appears to feed one some of the smaller animals that
+wander up from the field to the mountains.  He also seems to have
+the distinct liking for mountain goats.
+~
+1073743880 0 0 0 0 0 0 0 S
+A 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11302
+goat~
+a large mountain goat~
+A large mountain goat hops up the mountain trail.
+~
+   This large mountain goat appears to be adept at climbing this tall
+mountain.  It makes its way up through the mountain trail and eating
+whatever small grasses it can find. Only sometimes does it get caught
+by the vicious mountain lion.
+~
+1073743880 0 0 0 0 0 0 0 S
+A 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11303
+giant stone~
+a stone giant~
+A huge stone giant gnaws on a killed mountain goat.
+~
+   This large pale giant seems to live in a cave in the mountains.  He
+seems to be strong enough to hurl large boulders great distances.  His
+cave is very quaint and is quite suitable for all of his uses.  He
+eats mainly the mountain lions and goats.
+~
+2058 0 0 0 0 0 0 -1000 S
+G 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11304
+aleilinal~
+&+WAleilinal&n~
+&+WAleilinal &+Grests in her quiet grove.&n
+~
+  Aleilinal appears to be a middle-aged elven huntress, especially adept
+in the ways of animal training and friendship.  She appears to have made
+this grove as a sanctuary to any who might be adventuring to stop the
+evil fiends of the tower.  She wears a simple set of forest robes, which
+almost blend her into the woods.  The only item of value on her seems to
+be a small scarlet ring.
+~
+1073743882 128 0 152 2048 0 0 1000 S
+PE 0 2 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#11305
+bear brown~
+&+ya brown bear&n~
+&+yA brown bear sleeps quitely behind a rock.&n
+~
+   This large brown bear appears to be the companion of Aleilinal,
+the elven huntress.   This bear appears to be middle-aged, and was
+probably raised from a cub by Aleilinal.  It has a thick coat of warm
+brown fur.  It sleeps upon a large rock in the alpine grove.
+~
+2058 0 0 0 0 0 0 0 S
+A 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 1
+#11306
+flog troll guardian~
+&+gFlog, the troll guardian&n~
+&+gFlog, the troll guardian sits in his small room.&n
+~
+   This large troll warrior is the guardian of the first floor.  He
+appears to be an accomplished warrior of the tower, and has retired
+to a quiet, yet still honorable, position of being the first line of
+defense against any raid against the Outcasts' Tower.  He appears to
+be very large and powerful, even for a troll.
+~
+1073743882 0 0 144 0 0 0 -1000 S
+PT 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11307
+guard~
+a patrolling guard~
+A patrolling guard walks through the halls of the tower.&n
+~
+   This simple patrolling guard represents the second half of the
+dark alliance between the heretic humans and their evil race companions.
+This anti-paladin appears to have the lowly rank of a patrolling guard
+in the tower.  He wears a set of simple armor, probably one originally
+bought in Tharnadia and then painted a blood red.
+~
+1140852744 0 0 144 0 0 0 -1000 S
+PH 0 16 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11308
+apprentice~
+a young apprentice~
+A young apprentice of this dark order rests after sparring.
+~
+   This young apprentice appears to be a troll warrior, and a fine one
+at that.  Probably an original inhabitant of Ghore, this troll has come
+a long way to become part of this dark legion of the tower.  He wears
+little more than a few skins and wields a small wooden club.  He has
+several wounds all over his body from the constant sparring in this
+training room.
+~
+2058 0 0 144 0 0 0 -1000 S
+PT 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11309
+beast warbeast~
+&+ra bloody warbeast&n~
+&+rA bloody warbeast devours the corpses of the failed trainees.&n
+~
+   This huge beast appears to be a cross between that of a dog and
+some sort of reptile.  The result is a disgusting mix with little fur,
+and lots of scales. It's tale appears to be shaggy like a dogs, except
+for the long spike at the end.  The jaws of this animal are the worst,
+and can rip through most armor.
+~
+1073743882 1 0 152 0 0 0 -1000 S
+A 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11310
+ogre initiate~
+an ogre initiate~
+An ogre initiate rests in the filth after a heated match.
+~
+   This huge ogre seems to be quiet skilled in whatever art he practices,
+which doesn't say much considering he's an ogre.  He seems to have taken
+liking to this particular training room of the tower.  These ogres are
+not particularily assigned to this room, rather they just sort of all
+flock together as a part of tradition.  He wears a simple hide loincloth
+and wields a spike stone club.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PO 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11311
+swordsman _spec1_~
+a young swordsman~
+A young swordsman practices his skills here.
+~
+   This young drow warrior, or possibly scout, is training in the mystical
+arts of wielding a sword.  The sword of choice for these young lads
+appears to be either a short sword or long sword.  The ones wielding the
+longswords seem to be the best fighters, while the ones wieldling the
+shortswords appear to be sly and more devious than the others.  Besides
+the poor rusty weapons, they wear a simple set of black sparring clothes.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PL 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11312
+talon punisher~
+&+LTalon, the punisher&n~
+&+LTalon, the punisher of the weak, polishes his chains and whips.&n
+~
+   This huge human warrior has taken the path of the darkside, and joined
+the evil races in their quest for rulers of the world.  He has been
+given the job of punishing those who set back this great quest.  He
+wears a suit of black-leather armor and is equipped with only the most
+vile of whips, chains, and rods.
+~
+1073744010 0 0 268435608 2049 0 0 -1000 S
+PH 0 8192 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11313
+initiate punished~
+a punished initiate~
+A punnished initiate cringes on the floor.
+~
+   This punished initiate seems to have failed miserably in the eyes of
+not only Talon, but several of the other high warriors of the guild.  He
+has been stripped of all but a bloody loincloth, and sent here to be
+punished by Talon.
+~
+2058 0 0 0 0 0 0 -1000 S
+PH 0 64 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11314
+guard kuo~
+&+ga vicious kuo-toan guard&n~
+&+gA vicious kuo-toan guard protects the pool.&n
+~
+   This kuo-toan guard appears to be a member of the Kuo-Toan Village in
+the underdark.  However, he seems to have a stronger urge to go off and
+adventure for the sake of the constant raidings against his home village.
+He has been employed by the powers that be of the tower, to guard this
+slimy muck pool, that only he and the elders know where it leads.
+~
+1073743882 0 0 152 0 0 0 -1000 S
+PT 0 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11315
+duergar guard~
+a large duergar stair guard~
+A large duergar stair guard blocks passage upward.
+~
+   This former resident of Khildarak is a stout and hefty duergar warrior.
+He has been given the glorious task of keeping the unwanted out of the
+way of the larger warriors on the higher levels of the tower.  He appears
+to be quite strong and has earned his name in battle.
+~
+1073743882 1 0 144 0 0 0 -1000 S
+PD 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11316
+ogre guard~
+a burly ogre guard~
+A burly ogre guard patrols the second floor.
+~
+   This burly ogre guard stands well over seven feet tall, and must weigh
+several hundred pounds.  He is a very adept warrior and appears to have the
+skills to prove it.  He wears a suit of black hide armor, and wields an
+enormous two-handed club, used for beating down any who might stray upwards
+into the tower.
+~
+1073743882 1 0 152 2048 0 0 -1000 S
+PO 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11317
+aracnalis~
+&+mAracnalis&n~
+&+mAracnalis teaches his techniqures to his students.&n
+~
+   Aracnalis appears to be a slender drow, about midle aged, and of about
+average weight and height.  He is dressed in a series of black robes with
+little magenta streaks in them.  He sits in the center of a magical circle,
+drawn with his own blood upon the floor.  He wears no shoes and rarely
+sits down, except for memorization.  He teaches his best pupils in this
+room.
+~
+1073743882 1 0 152 0 0 0 -1000 S
+PL 0 512 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11318
+apprentice~
+a young apprentice~
+A young apprentice studies the art of magic.
+~
+   This young apprentice is dressed in a poorly-made set of black garments,
+consisting of a robe that is too small for him, and pants that are too big
+for him.  He wears a pair of small sandles, which probably do more harm than
+good.  Although he is still young and inexperienced, he has been chosen to
+be a worthy apprentice in the tower.
+~
+1140852746 1 0 144 0 0 0 -1000 S
+PL 0 512 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11319
+trankula orc necromancer~
+&+LTrankula, the orc necromancer&n~
+&+LTrankula, the orc necromancer&n displays the proper form in raising undead.&n
+~
+   Trankula is one of the many orc necromances in the tower.  He seems
+physicially strong, as well as extremely intelligent.  He wears various
+pieces of equipment, almost all made out of body parts.  He only has two
+students in this room, because it takes a real evil person to raise the
+dead.  He has made an agreement with one of the tower shamans to open up
+portals after great battles, and bring the looted corpses back to his
+room, where he might teach his students the proper techniques in controlling
+hordes of undead.
+~
+1073743882 1 0 152 0 0 0 -1000 S
+HO 0 1024 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11320
+young necromancer~
+a young necromancer~
+A young necromancer tries to control his undead
+~
+   This young necromancer is trying to follow in the foot steps of one of
+the great masters, Trankula.  He wears a simple set of garments, composing
+of a set of well-made robes, some black-steel greaves, and a hat with a
+bloodstain on it.  He tries to control his undead best he can, in hopes
+he can join the rest of his brothers in an enormous duel one day.
+~
+1140852746 1 0 0 0 0 0 -1000 S
+HO 0 1024 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11321
+lerinsacia drow priestess~
+&+mLerinsacia, the drow priestess&n~
+&+mLerinsacia, the drow priestess&n offers sacrafice to Lolth.&n
+~
+   Lerinsacia is the great drow priestess of the tower, and her duty of
+offering sacrafice to Lolth is the greatest duty she can possibly imagine.
+She is dressed in a black garments, with the designs of spiders and other
+arachnids.  She is about average height for a drow elf, and probably weighs
+less than one hundred pounds.  For a drow elf, she might be attractive, if
+she wasn't often covered in the blood of small infants.
+~
+1073743882 1 0 268435608 2049 0 0 -1000 S
+PL 0 32 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#11322
+drow cleric~
+a young drow cleric~
+A young drow cleric rests, observing the ceremony.
+~
+   This young drow female has taken her role in society as a priestess,
+which most of the females often do.  She wears a fine set of garments,
+composing of a black dress.  She is very young, and has yet to master
+the skills as the priestess who is preforming the ceremony.  She sits
+and watches the ceremony take place.
+~
+1140852746 1 0 152 0 0 0 -1000 S
+PL 0 32 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#11323
+duergar priest~
+a duergar priest~
+A duergar priest heals the sick and wounded.
+~
+   This aging priest is rather old, and has seen many battles.  He was
+in fact a war priest, and lead several expeditions against the race of
+the sun, as they call them.  He wears a suit of platemail, most likely
+obtained on a raid.  He has a full beard and devious little eyes.  His
+most prized possession appears to be a small ring on his left hand.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+PD 0 32 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11324
+cleric young~
+a young cleric~
+A young cleric practices with the battle priest.&n
+~
+   This young duergar cleric has strived to be a battle priest, and lead
+the duergar and orcish hordes against the humans and elves.  He seems to
+be quite intent on accomplishing this goal, and often comes to this shrine
+to practice with the elder.
+~
+1140852746 1 0 0 0 0 0 -1000 S
+PD 0 32 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11325
+bpollobop kuo guard~
+&+gBpollobop, the kuo-toan guard&n~
+&+gBpollobop, the kuo-toan guard&n rests in his moist room.&n
+~
+    Bpollobop appears to be a great guard from the kuo-toan pools of the
+underdark.  He has managed to leave that area, and live in this tower,
+directly above the swamp.  Several times a day, he leaves his room and heads
+into the swamp, leaving the ogre guards of the second floor in charge.  He
+seems quite content living this life in the tower.
+~
+1073743882 1 0 152 0 0 0 -1000 S
+PT 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11326
+troll guard~
+a large troll stair guard~
+A large troll stair guard blocks passage to the top level of the tower.
+~
+    This large troll stair guard is very strong, and guards the top
+level of the tower from those who might have beaten through the
+defenses this far.  He is equipped like a true warrior, with sword
+and shield, and a fine suit of armor.  He seems quite large, and
+exceptionally skilled.
+~
+2058 1 0 152 0 0 0 -1000 S
+PT 0 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11327
+vinxinor goblin~
+&+cVinxinor&n~
+&+cVinxinor, the goblin master&n rests after a long battle.&n
+~
+   Vinxinor is the great goblin master, commander of the goblin and
+orcish hordes, and great tactics advisor to the army.  He is a slender
+goblin fellow, and has the ability to dodge many of the enemies attacks.
+He is about middle-aged, yet he is full of vigor and energy.  He has
+slain many an elf and human, and his room displays all his trophies.
+~
+1073743880 1 0 939589788 309443 0 0 -1000 S
+HG 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11328
+arcanusinil drow sorcerer~
+&+mArcanusinil&n~
+&+mArcanusinil, the great drow sorcerer&n meditates in his study.&n
+~
+   Arcanusinil is a great drow sorcerer, and blood brother of Arcanusin,
+who is currently out on mission.  He is dressed in a series of robes
+dedicated to the goddess Lolth.  He seems to share the affection of Lolth
+that the priestess on the lower level does.  He has earned his status
+through battle against the races of light, which he quiet often defeats.
+The majority of his time is spent either out on raids, or directing the
+conduct of the tower.
+~
+1073743880 1 0 805306522 14529 0 0 -1000 S
+PL 0 512 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11329
+ogre guard~
+an enormous ogre guard~
+An enormous ogre guard protects the foyer.
+~
+   This enormous ogre guard would be a master himself, but he has chosen
+that he can not handle the burdens of leadership, and therefor has devoted
+his life as a bodyguard.  He stands guard here at the intersection of
+the master's quarters, prepared to defend them whatever the cost might be.
+~
+1073743882 1 0 152 2048 0 0 -1000 S
+PO 0 1 -1
+58 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11330
+grolanthantor troll mercenary~
+&+gGrolanthantor&n~
+&+gGrolanthantor, the troll mercenary&n stands here, waiting for the next battle.
+~
+   Grolanthantor is an enormous troll mercenary, natorious for his many
+battles, where his legendary skills conquered the races of the light.  He
+is extremely large, almost the size of an ogre, and his skills out match
+any warrior in the tower.  He wears several different types of armor at
+once for maximum protection, while still having maximum movement
+possible.  He is indeed the great troll mercenary.
+~
+1073743880 1 0 268435608 2049 0 0 -1000 S
+PT 0 16384 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11331
+lich psionic ximixix~
+&+MXimixix, the psionic lich&n~
+&+MXimixix, the psionic lich &+Wuses his powers to control the entire tower, and the dragon.&n
+~
+   Ximixix appears to be either a psionic lich of either an extremely
+intelligent drow elf, or a very devious illithid.  In either case, he
+has developed his powers to the ability to control, or at least influnece,
+all of the forces in the tower.  Although most would want to be part of
+this army, they are fanatically bound to service through Ximixix's great
+influence.  In addition, he also fears for his life, which is why he has
+either befriended, or controlled, a shadow dragon.  Almost everything
+about Ximixix is hard to understand because he is a master of illusion,
+and whether his control is genuine or illusion, the fact is that he has
+organized this tower for the sole purpose of creating a stronghold for
+the races of darkness, admist the lands of the races of light.
+~
+1090521098 1 0 957939866 309443 0 0 -1000 S
+MF 0 4 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#11332
+dragon shadow~
+&+La fierce shadow dragon&n~
+&+LA fierce shadow dragon protects his master.&n
+~
+   This fierce shadow dragon is the protector of Ximixix, and sits in his
+illusionary throne room.  This dragon isn't quite an ancient wyrm, however,
+it is definitly not a hatchling.  Ximixix was wise in chosing the shadow
+dragon, being one of the most deadly dragons in the realm.
+~
+1141901322 1 0 190 2049 0 0 -1000 S
+D 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#11333
+alligator~
+&+ga huge alligator&n~
+&+gA huge alligator makes his home in the swamp.&n
+~
+    This huge alligator is home to the swamp behind the tower, and is
+quite large.  It is constant competition with another family of alligators.
+The only food they see are very small fish, people thrown out of the tower,
+mountain goats who fall off the mountain trails into the swamp, and any
+adventurers who might come and disturb them.
+~
+1073743882 0 0 144 0 0 0 0 S
+R 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

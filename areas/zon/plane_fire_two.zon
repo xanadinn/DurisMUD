@@ -1,0 +1,485 @@
+#252
+&+rPlane of Fire, &+RBr&+rass&n~
+25370 1 0 25 35 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 25201 0 1 100 0 0 0
+*     north exit from "The Mighty Gates Of The City Of Brass" to
+*     "Royal Way" - closed
+*
+D 0 25202 2 1 100 0 0 0
+*     south exit from "Royal Way" to
+*     "The Mighty Gates Of The City Of Brass" - closed
+*
+D 0 25205 0 1 100 0 0 0
+*     north exit from "Imix Avenue" to
+*     "The Royal Magi Guild" - closed
+*
+D 0 25233 2 1 100 0 0 0
+*     south exit from "The Royal Magi Guild" to
+*     "Imix Avenue" - closed
+*
+D 0 25205 2 1 100 0 0 0
+*     south exit from "Imix Avenue" to
+*     "Entrance to the Royal Efreeti Warriors Guild" - closed
+*
+D 0 25206 0 1 100 0 0 0
+*     north exit from "Entrance to the Royal Efreeti Warriors Guild" to
+*     "Imix Avenue" - closed
+*
+D 0 25207 2 0 100 0 0 0
+*     south exit from "Warriors Bar" to
+*     "The Royal Practice Room" - open
+*
+D 0 25208 0 0 100 0 0 0
+*     north exit from "The Royal Practice Room" to
+*     "Warriors Bar" - open
+*
+D 0 25213 3 1 100 0 0 0
+*     west exit from "Long Hallway" to
+*     "The Guild-Masters Quarters" - closed
+*
+D 0 25214 1 1 100 0 0 0
+*     east exit from "The Guild-Masters Quarters" to
+*     "Long Hallway" - closed
+*
+D 0 25214 0 1 100 0 0 0
+*     north exit from "The Guild-Masters Quarters" to
+*     "Guild Armory" - closed
+*
+D 0 25215 2 1 100 0 0 0
+*     south exit from "Guild Armory" to
+*     "The Guild-Masters Quarters" - closed
+*
+D 0 25219 2 1 100 0 0 0
+*     south exit from "Intersection of Imix Avenue and Merchants Street" to
+*     "South West Watch Tower" - closed
+*
+D 0 25220 0 1 100 0 0 0
+*     north exit from "South West Watch Tower" to
+*     "Intersection of Imix Avenue and Merchants Street" - closed
+*
+D 0 25219 3 1 100 0 0 0
+*     west exit from "Intersection of Imix Avenue and Merchants Street" to
+*     "The Royal Tax Office" - closed
+*
+D 0 25221 1 1 100 0 0 0
+*     east exit from "The Royal Tax Office" to
+*     "Intersection of Imix Avenue and Merchants Street" - closed
+*
+D 0 25222 1 1 100 0 0 0
+*     east exit from "Census Bureau" to
+*     "Merchants Street" - closed
+*
+D 0 25223 3 1 100 0 0 0
+*     west exit from "Merchants Street" to
+*     "Census Bureau" - closed
+*
+D 0 25236 0 1 100 0 0 0
+*     north exit from "Grand Stairway" to
+*     "The Great Magi Library" - closed
+*
+D 0 25237 2 1 100 0 0 0
+*     south exit from "The Great Magi Library" to
+*     "Grand Stairway" - closed
+*
+D 0 25237 1 1 100 0 0 0
+*     east exit from "The Great Magi Library" to
+*     "Magi Observation Tower" - closed
+*
+D 0 25238 3 1 100 0 0 0
+*     west exit from "Magi Observation Tower" to
+*     "The Great Magi Library" - closed
+*
+D 0 25241 2 1 100 0 0 0
+*     south exit from "Grand Magi's Laboratory" to
+*     "Grand Magi's Chamber" - closed
+*
+D 0 25242 0 1 100 0 0 0
+*     north exit from "Grand Magi's Chamber" to
+*     "Grand Magi's Laboratory" - closed
+*
+D 0 25248 3 1 100 0 0 0
+*     west exit from "Intersection of Merchants Street and the Road of Wisdom" to
+*     "House Anone" - closed
+*
+D 0 25253 1 1 100 0 0 0
+*     east exit from "House Anone" to
+*     "Intersection of Merchants Street and the Road of Wisdom" - closed
+*
+D 0 25249 3 1 100 0 0 0
+*     west exit from "Merchants Street" to
+*     "House Flamnari" - closed
+*
+D 0 25252 1 1 100 0 0 0
+*     east exit from "House Flamnari" to
+*     "Merchants Street" - closed
+*
+D 0 25250 3 1 100 0 0 0
+*     west exit from "Merchants Street" to
+*     "House Saranti" - closed
+*
+D 0 25251 1 1 100 0 0 0
+*     east exit from "House Saranti" to
+*     "Merchants Street" - closed
+*
+D 0 25254 1 1 100 0 0 0
+*     east exit from "House Tilama" to
+*     "Merchants Street" - closed
+*
+D 0 25257 3 1 100 0 0 0
+*     west exit from "Merchants Street" to
+*     "House Tilama" - closed
+*
+D 0 25255 1 1 100 0 0 0
+*     east exit from "House Onitalri" to
+*     "Merchants Street" - closed
+*
+D 0 25258 3 1 100 0 0 0
+*     west exit from "Merchants Street" to
+*     "House Onitalri" - closed
+*
+D 0 25256 1 1 100 0 0 0
+*     east exit from "House Wujalia" to
+*     "Intersection of the Way of Heroes and Merchants Street" - closed
+*
+D 0 25259 3 1 100 0 0 0
+*     west exit from "Intersection of the Way of Heroes and Merchants Street" to
+*     "House Wujalia" - closed
+*
+D 0 25259 0 1 100 0 0 0
+*     north exit from "Intersection of the Way of Heroes and Merchants Street" to
+*     "North West Watch Tower" - closed
+*
+D 0 25260 2 1 100 0 0 0
+*     south exit from "North West Watch Tower" to
+*     "Intersection of the Way of Heroes and Merchants Street" - closed
+*
+D 0 25332 0 2 100 0 0 0
+*     north exit from "Intersection of High Street and The Way of Heroes" to
+*     "North East Watch Tower" - closed/locked
+*
+D 0 25333 2 2 100 0 0 0
+*     south exit from "North East Watch Tower" to
+*     "Intersection of High Street and The Way of Heroes" - closed/locked
+*
+*
+O 0 61 1 25214 100 0 0 0           * (object type not in this .obj file)
+O 0 2097 30 25296 100 0 0 0        * (object type not in this .obj file)
+*
+M 0 25400 2 25201 100 0 0 0        * (mob type not in this .mob file)
+M 0 25400 2 25201 100 0 0 0        * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25202 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25203 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25203 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25203 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25203 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25203 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25204 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25204 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25204 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25204 100 0 0 0       * (mob type not in this .mob file)
+M 0 25205 47 25204 100 0 0 0       * an efreeti commoner
+M 0 25000 30 25204 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25205 47 25205 100 0 0 0       * an efreeti commoner
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25205 100 0 0 0       * (mob type not in this .mob file)
+M 0 25211 1 25206 100 0 0 0        * the warrior guild guardian
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25206 100 0 0 0       * an efreeti warrior
+M 0 25190 57 25207 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25207 100 0 0 0       * an efreeti commoner
+M 0 25212 1 25207 100 0 0 0        * altona the bartend
+M 0 25213 28 25207 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25207 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25208 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25208 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25208 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25208 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25208 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25211 100 0 0 0       * an efreeti warrior
+M 0 25214 1 25214 100 0 0 0        * the warrior master of the efreeti
+E 1 25102 2 16 100 0 0 0           *   a flaming saber
+E 1 25102 2 17 100 0 0 0           *   a flaming saber
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25213 28 25214 100 0 0 0       * an efreeti warrior
+M 0 25205 47 25216 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25217 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25219 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25220 100 0 0 0       * an efreeti noble
+M 0 25200 60 25220 100 0 0 0       * an efreeti noble
+M 0 25219 1 25221 100 0 0 0        * the efreeti tax collector
+M 0 25220 1 25222 100 0 0 0        * efreeti census taker
+M 0 25190 57 25223 100 0 0 0       * an efreeti commoner
+M 0 25221 1 25225 100 0 0 0        * an efreeti armorer
+M 0 25222 1 25226 100 0 0 0        * an efreeti weapon-smith
+M 0 25223 1 25227 100 0 0 0        * saladeem the efreeti clothier
+M 0 25224 1 25228 100 0 0 0        * Yodono the efreeti magi shop owner
+M 0 25225 1 25229 100 0 0 0        * Groyana the efreeti gemoligist.
+M 0 25226 1 25230 100 0 0 0        * Tila Banto
+M 0 25227 1 25231 100 0 0 0        * Grand Hurloo
+M 0 25190 57 25232 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25232 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25232 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25232 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25232 100 0 0 0       * an efreeti commoner
+M 0 25215 1 25233 100 0 0 0        * the efreeti magi guardian
+M 0 25216 22 25234 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25234 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25234 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25234 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+M 0 25216 22 25235 100 0 0 0       * effretti magi
+M 0 25216 22 25237 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25237 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25237 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25237 100 0 0 0       * effretti magi
+M 0 25216 22 25238 100 0 0 0       * effretti magi
+M 0 25216 22 25238 100 0 0 0       * effretti magi
+M 0 25217 10 25239 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25239 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25239 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25239 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25240 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25240 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25240 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25240 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25241 100 0 0 0       * an efreeti acolyte magi
+M 0 25217 10 25241 100 0 0 0       * an efreeti acolyte magi
+M 0 25216 22 25241 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25241 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25242 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25242 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25242 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25216 22 25242 100 0 0 0       * effretti magi
+E 1 25108 17 18 100 0 0 0          *   wand of flames
+M 0 25218 1 25242 100 0 0 0        * Caltoon the efreeti magi master
+E 1 25113 1 7 100 0 0 0            *   leggings of red flames
+E 1 25111 1 15 100 0 0 0           *   bracelet of blue flames
+G 1 67244 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 25112 1 0 100 0 0 0            *    the flaming head of Caltoon
+M 0 25190 57 25243 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25244 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25245 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25245 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25247 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25248 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25249 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25250 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25251 100 0 0 0       * an efreeti noble
+M 0 25200 60 25251 100 0 0 0       * an efreeti noble
+M 0 25200 60 25251 100 0 0 0       * an efreeti noble
+M 0 25200 60 25252 100 0 0 0       * an efreeti noble
+M 0 25200 60 25252 100 0 0 0       * an efreeti noble
+M 0 25200 60 25252 100 0 0 0       * an efreeti noble
+M 0 25200 60 25253 100 0 0 0       * an efreeti noble
+M 0 25200 60 25253 100 0 0 0       * an efreeti noble
+M 0 25200 60 25253 100 0 0 0       * an efreeti noble
+M 0 25200 60 25254 100 0 0 0       * an efreeti noble
+M 0 25200 60 25254 100 0 0 0       * an efreeti noble
+M 0 25200 60 25254 100 0 0 0       * an efreeti noble
+M 0 25200 60 25254 100 0 0 0       * an efreeti noble
+M 0 25190 57 25254 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25254 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25254 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25255 100 0 0 0       * an efreeti noble
+M 0 25200 60 25255 100 0 0 0       * an efreeti noble
+M 0 25200 60 25255 100 0 0 0       * an efreeti noble
+M 0 25200 60 25255 100 0 0 0       * an efreeti noble
+M 0 25200 60 25256 100 0 0 0       * an efreeti noble
+M 0 25200 60 25256 100 0 0 0       * an efreeti noble
+M 0 25200 60 25256 100 0 0 0       * an efreeti noble
+M 0 25205 47 25257 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25258 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25259 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25259 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25260 100 0 0 0       * an efreeti noble
+M 0 25200 60 25260 100 0 0 0       * an efreeti noble
+M 0 25190 57 25262 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25262 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25262 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25262 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25262 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25262 100 0 0 0       * an efreeti noble
+M 0 25200 60 25262 100 0 0 0       * an efreeti noble
+M 0 25200 60 25262 100 0 0 0       * an efreeti noble
+M 0 25200 60 25262 100 0 0 0       * an efreeti noble
+M 0 25190 57 25263 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25265 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25265 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25266 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25267 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25268 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25269 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25270 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25271 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25272 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25272 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25273 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25274 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25275 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25277 100 0 0 0       * an efreeti commoner
+M 0 25000 30 25278 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25278 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25278 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25278 100 0 0 0       * (mob type not in this .mob file)
+M 0 25205 47 25278 100 0 0 0       * an efreeti commoner
+M 0 25229 1 25279 100 0 0 0        * an efreeti hotel receptionist
+M 0 25000 30 25280 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25280 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25280 100 0 0 0       * (mob type not in this .mob file)
+M 0 25000 30 25280 100 0 0 0       * (mob type not in this .mob file)
+M 0 25205 47 25281 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25282 100 0 0 0       * an efreeti commoner
+M 0 25230 1 25283 100 0 0 0        * a green basilisk
+M 0 25205 47 25283 100 0 0 0       * an efreeti commoner
+M 0 25105 1 25284 100 0 0 0        * a HUGE beholder
+E 1 25109 1 19 100 0 0 0           *   a dead eyestalk
+M 0 25190 57 25284 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25292 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25295 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25295 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25295 100 0 0 0       * an efreeti commoner
+M 0 25228 1 25296 100 0 0 0        * talosoa the efreeti banker
+M 0 25190 57 25297 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25298 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25298 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25299 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25300 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25302 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25303 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25304 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25305 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25306 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25307 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25308 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25309 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25310 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25311 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25312 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25312 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25313 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25314 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25315 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25315 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25316 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25317 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25318 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25319 100 0 0 0       * an efreeti commoner
+M 0 25101 2 25320 100 0 0 0        * An Iron Golem
+M 0 25101 2 25320 100 0 0 0        * An Iron Golem
+M 0 25102 7 25321 100 0 0 0        * An efreeti temple guard
+M 0 25102 7 25321 100 0 0 0        * An efreeti temple guard
+M 0 25102 7 25321 100 0 0 0        * An efreeti temple guard
+M 0 25102 7 25321 100 0 0 0        * An efreeti temple guard
+M 0 25102 7 25321 100 0 0 0        * An efreeti temple guard
+M 0 25103 9 25322 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25103 9 25322 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25107 9 25322 100 0 0 0        * an efreeti acolyte
+M 0 25107 9 25322 100 0 0 0        * an efreeti acolyte
+M 0 25103 9 25323 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25103 9 25323 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25107 9 25323 100 0 0 0        * an efreeti acolyte
+M 0 25107 9 25323 100 0 0 0        * an efreeti acolyte
+M 0 25103 9 25324 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25103 9 25324 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25107 9 25324 100 0 0 0        * an efreeti acolyte
+M 0 25107 9 25324 100 0 0 0        * an efreeti acolyte
+M 0 25103 9 25325 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25103 9 25325 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25103 9 25325 100 0 0 0        * an efreeti acolyte
+E 1 25107 9 3 100 0 0 0            *   prayer beads of kossuth
+M 0 25107 9 25325 100 0 0 0        * an efreeti acolyte
+M 0 25107 9 25325 100 0 0 0        * an efreeti acolyte
+M 0 25107 9 25325 100 0 0 0        * an efreeti acolyte
+M 0 25104 1 25326 100 0 0 0        * Latisia the supreme efreeti clerist
+E 1 25101 2 3 100 0 0 0            *   the medallion of kossuth
+E 1 25114 1 10 100 0 0 0           *   lengths of pure eldrich fire
+M 0 25102 7 25326 100 0 0 0        * An efreeti temple guard
+M 0 25102 7 25326 100 0 0 0        * An efreeti temple guard
+M 0 25108 2 25326 100 0 0 0        * An efreeti temple guard
+M 0 25108 2 25326 100 0 0 0        * An efreeti temple guard
+M 0 25190 57 25330 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25331 100 0 0 0       * an efreeti commoner
+M 0 25106 3 25332 100 0 0 0        * An efreeti watch tower guard
+M 0 25106 3 25332 100 0 0 0        * An efreeti watch tower guard
+G 1 25115 1 0 100 0 0 0            *    a blazing key
+M 0 25190 57 25332 100 0 0 0       * an efreeti commoner
+M 0 25106 3 25332 100 0 0 0        * An efreeti watch tower guard
+M 0 25205 47 25332 100 0 0 0       * an efreeti commoner
+M 0 25200 60 25333 100 0 0 0       * an efreeti noble
+M 0 25200 60 25333 100 0 0 0       * an efreeti noble
+M 0 25200 60 25333 100 0 0 0       * an efreeti noble
+M 0 25190 57 25333 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25334 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25335 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25336 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25337 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25339 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25340 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25340 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25341 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25341 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25350 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25353 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25354 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25360 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25361 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25362 100 0 0 0       * an efreeti commoner
+M 0 25205 47 25363 100 0 0 0       * an efreeti commoner
+M 0 25190 57 25366 100 0 0 0       * an efreeti commoner
+*
+S

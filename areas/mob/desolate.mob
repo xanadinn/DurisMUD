@@ -1,0 +1,1731 @@
+#22200
+traveller bloodstone~
+&+La traveller from &+rbloodstone&n~
+&+LA weary traveller from &+rBloodstone&+L makes &+Ycamp&+L here.&n
+~
+&+LThis traveller has made a journey with his companions all the way
+&+Lfrom &+rBloodstone&+L.  It is unclear just how far they have travelled
+&+Ltoday, but he looks quite tired and is eager to get some sleep.&n
+~
+2058 0 0 8 0 0 0 -500 S
+PH 12 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22201
+adventurer tharnadia~
+&+Lan &+yadventurer&+L from &+Wtharnadia&n~
+&+LAn &+yadventurer&+L from &+WTharnadia&+L sits with his companions.&n
+~
+&+LThis &+yadventurer&+L has come all the way from &+WTharnadia&+L with his
+&+Lgroup of companions.  Most likely they are just stopping by the
+&+Ycamping&+y grounds&+L this evening and will head out the next day.  It
+&+Lis clear by the look on his face he is not too impressed with the
+&+Lnoise the other &+Ycampers&+L are making.&n
+~
+2058 0 0 8 0 0 0 0 S
+PH 1 16384 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22202
+thri kreen traveller~
+&+La &+Ythri-&+Gkreen&n &+Ltraveller&n~
+&+LA &+YThri-&+GKreen&+L traveller tries to stay warm here.&n
+~
+&+LThis &+YThri-&+Gkreen&+L looks painfully cold.&n
+        &+W'I'm used to the desert.'  &+LHe chitters.&n
+        &+W'Not some cold forest surrounded by rude campers.'&n
+~
+2058 0 0 8 0 0 0 0 S
+TK 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22203
+patrol leader~
+&+ca &+Wpatrol&+c leader&n~
+&+cA &+Wpatrol&+c leader stands here, arguing with the &+MMyrabolan&+c.&n
+~
+&+cThe &+Wpatrol&+c leader sighs.&n
+     &+W'We have rules here in Desolate, no magic.
+     &+WBeregan knows magic can cause problems, so we
+     &+Whave to keep it out.'&n
+~
+67110922 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22204
+patrol guard~
+&+ca &+Wpatrol&+c guard&n~
+&+cA &+Wpatrol&+c guard watches the &+Lroad&+c here.&n
+~
+&+cThis is one of the regulars in the Desolate militia.  He is a stern,
+&+cwell trained guard whose duties involve &+Wpatrolling&+c the &+Lroad&+c and
+&+ckeeping it clear of any evil trespassers.&n
+~
+67110922 32 0 0 0 0 0 1000 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22205
+myrabolan traveller~
+&+ca &+Mmyrabolan&+c traveller&n~
+&+cA traveller from &+MMyrabolus&+c bickers with a local &+Wpatrol&+c guard.&n
+~
+&+cThe traveller mutters angrily.&n
+        &+W'He won't let me in with my spellbook!
+        &+WBut I'm a ranger, I need my book with me.'&n
+~
+67110922 0 0 0 0 0 0 0 S
+PH 0 2 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22206
+patrol leader~
+&+ca &+Wpatrol&+c leader&n~
+&+cA &+Wpatrol&+c leader protects the &+Lroad&+c and watches for invaders.&n
+~
+&+cThis &+Wpatrol&+c leader commands a small group of the local militia
+&+cfrom the village.  He appears quite imposing and seems to know
+&+ccombat from the looks of the scars across his hands and face.&n
+~
+67110920 32 0 8 0 0 0 1000 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22207
+elf camper grey~
+&+can angry elven camper&n~
+&+cA Grey Elf from Charing tries to make his &+Ycamp&+c here.&n
+~
+&+cThis elf appears to have a headache.  He rubs his fingers on his
+&+ctemples and mutters something under his breath about rude &+Ycampers&+c.&n
+~
+67110922 0 0 0 0 0 0 1000 S
+PE 0 128 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22208
+elf tired~
+&+ca tired elven camper&n~
+&+cA tired, frustrated Grey Elf, tries to get some sleep here.&n
+~
+&+cThis elf is trying desperately to get some sleep but knows it
+&+cprobably won't be happening soon.&n
+        &+W'Will someone please shut those idiots up?'&n
+~
+67110922 0 0 0 0 0 0 1000 S
+PE 0 2 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22209
+garth~
+&+yGarth&n~
+&+yGarth, the &+cDesolate &+Lgate&+y guard, patrols here.&n
+~
+&+yGarth is &+cBeal's&+y best friend.  Together with &+WBeregan&+y they helped
+&+yto found the village of &+cDesolate&+y a long time ago.  Though both are
+&+yadmittedly not the smartest when it comes to city planning, the
+&+ydecided &+WBeregan&+y should run the village itself, while the two of
+&+ythem handled all matters military.&n
+~
+67110920 0 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22210
+beal~
+&+cBeal&n~
+&+cBeal, fellow &+Lgate&+c guard of Desolate, patrols here vigilantly.&n
+~
+&+cBeal is &+yGarth's&+c best friend.  He is a stocky human warrior that
+&+chelps to run the local militia.  Like &+yGarth&+c, one of his primary
+&+cduties involve keeping magic out of the village.  He has a rather
+&+cstern look on his face and handles his locally made long sword
+&+cwith confidence.&n
+~
+67110920 0 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22211
+orc loud~
+&+La loud orc&n~
+&+LA loud Orc from &+WStorm &+cPo&+Crt&+L hoots and hollers here.&n
+~
+&+LThis orc is from the port city of &+WStorm &+cPo&+Crt&+L.  The orcs of that
+&+Lcity consider themselves to be of a higher class than most other
+&+Lorcs, but this one seems to be an exception.  He belches loudly
+&+Land shouts at his companions across the fire to bring him more
+&+yale&+L.&n
+~
+1140852746 0 0 8 0 0 0 -1000 S
+HO 0 64 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22212
+goblin annoying~
+&+gan annoying goblin~
+&+LAn annoying &+GGoblin&+L is singing off-key here.&n
+~
+&+gThis ugly green goblin sits with a pair of orcs and drinks some
+&+grather foul smelling drink.  It appears he has most likely had far
+&+gtoo many as his singing of some old goblin folk-song is becoming
+&+gincreasingly worse on the ears.&n
+~
+2058 0 0 0 0 0 0 -1000 S
+HG 0 65536 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22213
+drunk orc~
+&+La drunk orc&n~
+&+LA drunken Orc from &+wShady &+gGrove&+L is being quite noisey here.&n
+~
+&+LThe orc howls in drunken laughter.
+        &+W'Bwahaha. When them elvessss fallss asleep.
+        &+WWe be shavin them headssss. Bwahahahah.
+        &+WEr. Sssssh. Don't tells them.'&n
+~
+1073743882 0 0 8 0 0 0 -1000 S
+HO 13 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22214
+squire~
+&+ya squire&n~
+&+yA squire for one of the knights stands here.&n
+~
+&+yThis is a squire for one of the jousting knights, though it is hard
+&+yto tell for which one.  He is dressed in plain brown leather, and
+&+yappears fairly young, though he is trained well enough to be hold his
+&+yown in a fight.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22215
+squire black~
+&+ya squire&n~
+&+yA squire for the &+LBlack Knight&+y stands here.&n
+~
+&+yThis squire is dedicated to the &+LBlack Knight&+y.  He is dressed in plain
+&+ybrown leather, and appears fairly young, though he is trained well
+&+yenough to be hold his own in a fight.  He firmly believes that
+&+yserving the &+LBlack Knight&+y at the competition loyally will earn him
+&+yhis own knighthood.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22216
+squire blue~
+&+ya squire&n~
+&+yA squire for the &+bBlue Knight&+y stands here.&n
+~
+&+yThis is one of the squires for the &+bBlue Knight&+y. He is dressed in plain
+&+ybrown leather, and &+yappears fairly young, though he is trained well
+&+yenough to be hold his &+yown in a fight.  He patiently waits for his
+&+ymentor to ask something from him so he can carry out his tasks.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22217
+blue knight~
+&+bthe blue knight&n~
+&+bThe Blue Knight prepares to battle his archrival here.&n
+~
+&+bThe Blue Knight is the challenger during this part of the competition.
+&+bThough he is just one of the many jousters participating in the tournament,
+&+bhe has attracted many fans, and some believe he has a good chance at
+&+bbeating &+bthe champion, the &+LBlack Knight.&n
+~
+67110922 0 0 8 0 0 0 1000 S
+PH 0 8 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22218
+black knight~
+&+Lthe black knight&n~
+&+LThe Black Knight eagerly awaits to win yet another trophy.&n
+~
+&+LThe Black Knight is a fearsome opponent and the current champion
+&+Lof the jousting competition for quite some time.  Very few can
+&+Lmatch his ruthlessness in combat, and some say he can almost
+&+Lpredict what his opponent's next move will be.  His lance is
+&+Lthe standard of the competition, and painted with &+rred&+L and black.
+&+LThough it is hard to see past the full helmet he wears on his
+&+Lface, it is certain he displays a look of utter confidence.&n
+~
+2058 0 0 8 0 0 0 -1000 S
+PH 0 16 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22219
+figure cloaked jandar~
+&+yJandar&n~
+&+yA &+Lcloaked&+y figure with &+Geyes&+y of blazing &+Ggreen&+y stands here.&n
+~
+&+yJandar is t&+Lhe eldest and wisest of all the &+gHunters&+y.  He has lived
+&+yin seclusion for many many y&+Lears, acting here, as a sort of sentry
+&+yfor whatever lies below this tent.  He has been a&+Lway from the rest
+&+yof t&+Lhe &+gHunters&+L for quite some t&+yime, and is often referred to by
+&+ythem as the lo&+Lst &+gHunter&+L, lost but never forgott&+yon.  Whenever someone
+&+yof the group seeks any sort o&+Lf advice, they come here, to ask
+&+yJandar, the great sage, to lay his bless&+Ling of infinite wisdom upon
+&+ythem.&n
+~
+1073776650 0 0 152 2048 0 8192 1000 S
+PH 0 512 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22220
+obese gambler~
+&+Lan &+Yobese&+L gambler&n~
+&+LAn extremely &+Yobese&+L gambler takes bets on the match here.&n
+~
+&+LThis fat man chortles when he sees anyone approaching him.  He
+&+Lrubs his greasy fingers over some &+Ygold&+L coins and attempts to
+&+Lwager with some half-chewed chicken in his mouth.&n
+        &+W'You wanna place a bet eh, I'll give you 5:1 on the Blue
+        &+WKnight. Feeling lucky boy...? Gwahahaha.'&n
+~
+18442 0 0 8 0 0 0 -500 S
+PH 0 1 4
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22221
+pretty woman~
+&+ma pretty woman&n~
+&+mA pretty woman from &+MMyrabolus&+m watches the match here.&n
+~
+&+mThis woman has travelled all the way from &+MMyrabolus&+m to watch
+&+mthe match.  She seems quite taken with the regal &+bBlue Knight&+m.&n
+~
+1073743880 0 0 0 0 0 0 1000 S
+PH 0 32768 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22222
+camp warden~
+&+Lthe &+Ycamp&+L warden&n~
+&+LThe warden of the &+Ycamp &+ygrounds&+L tries his best to make the peace.&n
+~
+&+LThe &+Ycamp&+L warden seems to be in a rather foul mood today.&n
+        &+W'I hate my job, all I do is pick up after other people.
+        &+WPeople are so messy.
+        &+WThose orcs and that goblin are giving me a headache too.'&n
+~
+1140852744 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22223
+teka spectator~
+&+Wa &+Mtekan &+cspectator&n~
+&+WA &+cspectator&+W from &+MTeka&+W stands here.
+~
+&+cThis spectator has travelled all the way from &+MTeka&+c.  He seems quite
+&+cimpressed with the match so far but is apparently annoyed with some
+&+cof the other fans.  He is torn between glaring in anger at the rude
+&+LOrc&+c wandering the row and actually watching the knights prepare.
+~
+1073743880 0 0 0 0 0 0 1000 S
+PH 0 8 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22224
+logger old~
+&+Wa logger&n~
+&+WAn old &+ylogger&+W sits in his &+ycabin&+W here.&n
+~
+&+yThe old logger smiles at the sight of company.&n
+        &+W'Nice of you to stop by...it reminds me of time long ago,
+        &+WI cut down three hundred trees in one hour, and they
+        &+Wwere big trees too, twice as big as the biggest tree
+        &+Wthey have today, maybe three times, so there I was...
+        &+Wchopping trees...'
+&+yHe continues to ramble on, unimportantly.&n
+~
+1073743882 0 0 8 0 0 0 0 S
+PH 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22225
+tired halfling~
+&+wa tired &+Yhalfling&n~
+&+wA tired &+YHalfling&+w rests on the side of the road here.
+~
+&+wThis &+Yhalfling&+w is resting by the side of the road, underneath a
+&+wlarge tree for shade.&n
+         &+W'I didn't realize how out of shape I have become.' &+wHe says.&n
+         &+W'Walking up this hill really tired me out, and made me quite
+         &+Wthirsty.'&n
+~
+2058 0 0 8 0 0 0 1000 S
+PF 7 32 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22226
+orc loud~
+&+La loud orc&n~
+&+LA loud Orc shouts at the knights and annoys the other &+cspectators&+L.&n
+~
+&+LThis orc stands on &+cSpectators Row&+L shouting at hollering at the
+&+Lcompetitors.  He ignores the hateful glares the other &+cspectators&+L
+&+Lcontinue to toss his direction and instead focuses on how he can
+&+Ldistract the &+bBlue Knight&+L enough so the Black Knight would be sure
+&+Lto win.&n
+~
+1073743880 0 0 8 0 0 0 -1000 S
+HO 0 64 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22227
+minotaur large~
+&+La &+rmino&+Ltaur&n~
+&+LA large &+rMino&+Ltaur searches through the filth here.&n
+~
+&+LThis minotaur seems quite distressed.&n
+        &+W'I was camping here the other day and lost my brother's
+        &+Wfavorite chain.  He's gonna kill me if I don't find
+        &+Wit.  He's the biggest Minotaur in my village!'&n
+~
+1073743882 0 0 8 0 0 0 0 S
+MT 0 16384 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22228
+fan black knight~
+&+ca fan&n~
+&+cA fan of the &+LBlack Knight&+c shouts for victory.&n
+~
+&+cThe fan hops up and down in excitement.&n
+        &+W'The Black Knight is gonna whop some ass!'&n
+~
+1073743880 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22229
+fan blue knight~
+&+ca fan&n~
+&+cAn excited fan of the &+bBlue Knight&+c cheers on his hero.&n
+~
+&+cThe fan shouts out encouragement to the Blue Knight.&n
+        &+W'You can do it! Kick his ass!'&n
+~
+1073743880 0 0 0 0 0 0 0 S
+PH 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22230
+carrion crawler~
+&+La carrion &+rcrawler&n~
+&+LAn ugly carrion &+rcrawler&+L squirms through the &+Wgarbage&+L.&n
+~
+&+LThis grotesque giant worm is crawling through the garbage looking
+&+Lfor anything edible.  If it doesn't find anything close by, it
+&+Lhas no problems in killing for its meals.&n
+~
+2056 1 0 1048584 0 0 0 -1000 S
+AP 0 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22231
+soldier fortune~
+&+La soldier of &+Yfortune&n~
+&+LA Soldier of &+YFortune&+L stands here, watching the match intently.&n
+~
+&+LThis &+ymercenary&+L is from the Soldiers of &+YFortune&+L guild.  Though he
+&+Lactually came to this forest for a meeting with members of other
+&+Lguilds, he finds watching the &+cjousting&+L match considerably more
+&+Lentertaining.&n
+~
+1073743880 0 0 8 0 0 0 0 S
+PH 0 16384 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22232
+wild card mercenary~
+&+ya &+Ww&+Li&+Wl&+Ld &+Wc&+La&+Wr&+Ld &+ymercenary&n~
+&+LA &+WW&+Li&+Wl&+Ld &+WC&+La&+Wr&+Ld &+ymercenary&+L stands chatting with his comrades here.&n
+~
+&+yThis mercenary is from the &+WWild &+LCard&+y guild.   The &+WWild &+LCards&+y are
+&+yprobably the second most reknowned mercenary guild around, next
+&+yonly to the &+LSoldiers of &+YFortune&+y.  This one appears quite laid back,
+&+yrelaxing in the forest and talking to the other mercenaries. He
+&+yis dressed in the standard uniform of the guild, with a pair of
+&+rred&+L-tinted sunglasses&+y protecting his eyes from the glare of the
+&+Ysun&+y.&n
+~
+1140852746 0 0 8 0 0 0 0 S
+PH 0 16384 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22233
+soldier fortune mercenary~
+&+La soldier of &+Yfortune&n~
+&+LA Soldier of &+YFortune&+L &+ymercenary&+L talks about his girlfriend here.&n
+~
+&+LThis &+ymercenary&+L relaxes in the small forest clearing with the members
+&+Lof several other guilds.  He wears a dark black jumpsuit, with the
+&+Lcrest of the Soldiers of &+YFortune&+L on the back.  Instead of chatting
+&+Labout important issues to the worlds mercenary guilds, he seems
+&+Lto be in the middle of telling a crude joke.&n
+~
+1140852746 0 0 8 0 0 0 0 S
+PH 0 16384 -1
+49 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22234
+eclipse mercenary~
+&+Lan ecl&+wip&+Wse&n &+ymercenary&n~
+&+LAn Ecl&+wip&+Wse &+ymercenary&+L complains about the price of &+yale&+L here.&n
+~
+&+LThis &+ymercenary&+L, from the &+LEcl&+wip&+Wse&+L guild, seems quite relaxed and
+&+Llaid back at the moment.  He doesn't seem to be talking as much
+&+Las the others, just drinks from his tankard and occasionally mutters
+&+Lsomething about how expensive a keg of &+yale&+L has become lately.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PB 0 16384 -1
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22235
+wild card mercenary bored~
+&+La &+Ww&+Li&+Wl&+Ld &+Wc&+La&+Wr&+Ld &+ymercenary&n~
+&+LA bored &+WW&+Li&+Wl&+Ld &+WC&+La&+Wr&+Ld &+ymercenary&+L rests against a large &+Gtree&+L here.&n
+~
+&+yThe &+WW&+Li&+Wl&+Ld &+WC&+La&+Wr&+Ld&+y mercenary company has a habit of being reckless
+&+yand over zealous.  They do their work with an iron fist and alot
+&+yof action, thus as a personality trait, tend to get quite bored
+&+yquite easy, like this one, who obviously wishes he was off
+&+ybattling with the &+Larmy of &+rarmageddon&+y than standing around in
+&+ythe forest chatting.&n
+~
+1140852746 0 0 8 0 0 0 0 S
+PH 0 16384 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22236
+empyrean dawn mercenary~
+&+Lan &+cem&+wpy&+yrean &+Ydawn &+ymercenary&n~
+&+LAn &+cEm&+wpy&+yrean &+YDawn&+y mercenary&+L stands here, looking lost.&n
+~
+&+yThis mercenary is one is part of the&n &+cEm&+wpy&+yrean &+YDawn&+y guild, the guild
+&+ythat controls the legendary airship, the &+cEm&+wpy&+yrean &+YDrifter&+y.  The
+&+yguild of which he belongs is much more oriented towards ingenious
+&+yplanning and intelligent members, unlike the other major mercenary
+&+yguilds who rely more on force.  Despite their differences though,
+&+ythey all get along fine. At the moment, this mercenary seems to
+&+ybe somewhat lost as he wanders the road with a puzzled look on his
+&+yface.&n
+~
+1073743882 0 0 8 0 0 0 0 S
+P2 0 16384 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22237
+wood nymph~
+&+ya wood nymph&n~
+&+yA beautiful wood nymph blends in with her surroundings here.&n
+~
+&+yThis wood nymph blends extremely well into her surrounds, the
+&+ycolour of her skin seems to darken and lighten depending on whether
+&+yshe is beside a &+gtall tree&+y or in &+Lheavy shadows&+y.  Once one sees her,
+&+yhowever, it is hard to take one's eyes off such great beauty.&n
+~
+1073743882 0 0 1048584 0 0 0 0 S
+HF 0 128 2
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22238
+monkey man~
+&+ya &+Ymonkey&+y hunter&n~
+&+yA frantic man searches for his &+Ymonkey&+y.&n
+~
+&+yThis man seems very upset. He looks at you and asks :&n
+
+        &+W'I had a monkey! Then I looked down and my monkey was gone!'
+        &+W'Oh where did my monkey go?'&n
+&n
+~
+2056 0 0 0 0 0 0 0 S
+PH 0 32768 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22239
+orc scout~
+&+Lan orc s&+wcou&+Lt&n~
+&+LAn Orc s&+wcou&+Lt from the army of &+rarmageddon&+L sneaks down the road.&n
+~
+&+LThis dangerous orc s&+wcou&+Lt belongs to the Army of &+rArmageddon&+L, the
+&+Lorc hoarde transformed into an organized and dangerous assault force
+&+Lby Ma&+bver&+Lick, the evil, renegade &+gHunter&+L.  Though the main base of the
+&+LArmy of &+rArmageddon&+L is quite a ways a way, s&+wcou&+Lts are always being
+&+Lsent out to find suitable locations for first strike offensives.&n
+~
+1073743880 0 0 1572874 0 0 0 -1000 S
+HO 0 8192 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22240
+wolf~
+&+wa startled wolf&n~
+&+wA startled wolf fights to protect her cubs.&n
+~
+&+wThis large mother wolf is obviously startled by the intrusion on
+&+wher den. She fights to protect her cubs viciously.&n
+~
+67110922 1 0 8 0 0 0 0 S
+A 0 1 2
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22241
+wolf cub~
+&+wa wolf cub&n~
+&+wA small wolf cub yelps in fright.&n
+~
+&+wThis is just a young wolf cub but still can be quite a threat,
+&+wespecially when it is cornered, like it is now.  Its gray fur is
+&+wstanding up on its back in fright.&n
+~
+67111050 0 0 1048584 0 0 0 0 S
+A 0 0 2
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22242
+unicorn noble~
+&+Wa &+Cuni&+cco&+Wrn&n~
+&+WA noble &+Cuni&+cco&+Wrn is the mount of choice of the &+bBlue Knight&+W.&n
+~
+&+CUni&+cco&+Wrns are quite rare within the prime material plane and it
+&+Wis not often to see one being used as a mount.  The &+bKnight&+W who rides
+&+Wthis majestic creature must have befriended it at a very young
+&+Wage to have gained its trust so completely over the years.&n
+~
+134219786 0 0 8 0 0 0 1000 S
+AE 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22243
+nightmare~
+&+La night&+rmare&n~
+&+LA deadly night&+rmare&+L acts a mount for the Black Knight.&n
+~
+&+LThis night&+rmare&+L stands almost a foot taller then the usual mounts
+&+Lthe anti-paladins use.  Its eyes seem to glow with heat, and mist
+&+Lor smoke errupts when it stamps its feet upon the earth.&n
+~
+134219786 0 0 8 0 0 0 -1000 S
+AE 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22244
+young lumberjack~
+&+Wa &+ylumberjack&n~
+&+WA young &+ylumberjack&+W stands here, looking exhausted after a long day.&n
+~
+&+WThe young &+ylumberjack&+W waves hello.&n
+         &+W'Good day traveller.  The forest is nice today isn't it?
+         &+W Ah, there is no need to head north of here, nothing
+         &+W up there but a creepy old man in a tent.' &n
+~
+1073743882 0 0 8 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22245
+willow tree~
+&+ya &+Wwillow&+y tree&n~
+&+yA tall &+Wwillow&+y tree grows on the side of the road here.&n
+~
+&+yThis &+Wwillow&+y tree grows on the side of the road, just on the edge
+&+yof the &+gforest&+y enough to cast shadows over the gravel road when the
+&+Ysun&+y is right.&n
+~
+10 0 0 0 0 0 0 0 S
+VT 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#22246
+draft horse~
+&+ya draft horse&n~
+&+yA draft horse stands here, looking rather timid.&n
+~
+&+yThis strong draft horse has been unbridled from the wagon since
+&+ythe accident.  The owner doesn't feel like taking the time of tying
+&+ythe horse to a tree and feels comfortable knowing that it won't
+&+ywander too far too off.  Indeed, the horse just remains in a single
+&+yspot, chewing at the &+Ggrass&+y along the edge of the &+Lroad&+y.&n
+~
+2058 0 0 0 0 0 0 0 S
+AE 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22247
+draft horse~
+&+ya draft horse&n~
+&+yA draft horse &+ggrazes&+y on the side of the &+Lroad&+y here.&n
+~
+&+yThis draft horse has wandered away from the wagon and its owner
+&+yjust up ahead while the poor man tried to fix the wheel.  The horse
+&+yitself seems to be quite a strong animal and able to pull alot
+&+yof wieght, though not that bright at all.&n
+~
+134219786 0 0 0 0 0 0 0 S
+AE 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22248
+wagon driver~
+&+Lthe &+ywagon&+L driver&n~
+&+LThe driver of the &+ywagon&+L stands here, looking frustrated and upset.&n
+~
+&+LThis &+ywagon&+L driver is nearly pulling out his hair in frustration.
+&+LHe keeps muttering under his breath while staring at his broken
+&+ywagon&+L. What must have happened was while he was coming around the
+&+Lcorner on the way to &+cDesolate&+L, the &+ywagon&+L must have hit a large
+&+Lrock, resulting in a missing &+ywheel&+L and a broken &+ywagon&+L.&n
+~
+67110922 0 0 0 0 0 0 1000 S
+PH 0 32768 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22249
+patrol guard off~
+&+ca &+Wpatrol&+c guard&n~
+&+cAn off-duty &+Wpatrol&+c guard rests up against a &+gtree&+c here.&n
+~
+&+cThis is one of the regulars in the Desolate militia.  He seems to be
+&+ctaking a short break from his usual &+Wpatrols&+c up and down the &+Lroad&+c.  He
+&+cseems to be nearly half-asleep, which is quite a feat considering
+&+cthe ammount of noise around him.&n
+~
+1140852746 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22250
+beregan mayor~
+&+WBeregan&n~
+&+wThe &+Wmayor&+w of &+cDesolate&+w, &+WBeregan&+w, conducts his business here.&n
+~
+&+yThe elderly &+Wmayor&+y of &+cDesolate&+y seems to have too much work to do
+&+yand too little time.  He mutters something under his breath.
+        &+W'Damn these delegates.  I got Orcs on my beach and I
+        &+Wgot thieves hiding in my forests, I don't have time
+        &+Wfor this paperwork, I need to solve my main problems
+        &+Wfirst..'&n
+~
+1140852746 0 0 8 0 0 0 1000 S
+PH 0 64 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22251
+gate guard~
+&+ya &+Lgate&+y guard&n~
+&+yA &+Lgate&+y guard of &+cDesolate&+y stands on watch here.&n
+~
+&+yThis is one of the regular soldiers in the &+cDesolate&+y militia.  His
+&+yjob is to protect the &+Lgates&+y from invaders and check people coming into
+&+ythe village.   He is equipped in standard &+cDesolate&+y equipment.  The
+&+Lgate&+y guards reports directly to Garth in case of emergency.&n
+~
+67110922 32 0 8 0 0 0 1000 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22252
+archer bowmaster elite~
+&+yan &+Warcher&n~
+&+yAn elite &+Wbowmaster&+y watches for invaders from in the guard &+Wtowers&+y.&n
+~
+&+yThis is an &+Warcher&+y of the &+cDesolate&+y militia.  He stands on full alert
+&+yup on his stations in the &+Wwatch towers&+y.  Though trouble is rare,
+&+ythe mayor of village insists that everyone be on guard, problems can
+&+yarise in moments and its a dangerous world out there.&n
+~
+1140852746 0 0 0 0 0 0 1000 S
+PH 0 2 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22253
+archer captain bowmaster~
+&+yan &+Warcher&+y captain&n~
+&+yA &+Wbowmaster&+y captain stands on lookout from the sky &+Wbridge&+y here.&n
+~
+&+yThis &+Warcher&+y is the &+Wcaptain&+y of the other members of the gate patrol,
+&+yincluding the guards and the other archers.  He is talented archer
+&+yand quite adept at his job.  In emergencies he will seek out Garth
+&+yand &+cBeal&+y.&n
+~
+1140852746 0 0 8 0 0 0 1000 S
+PH 0 2 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22254
+ethereal knight~
+&+Wan et&+wherea&+Wl knight&n~
+&+wAn et&+Where&+wal &+Wknight&+w stands ready to &+Wtest&+w here.
+~
+&+wThis ethereal knight is a holy phantasm acting as the &+WTest of
+&+WEndurance&+w, he shimmers in and out of existence and accepts the
+&+wchallenge of any who approach him.&n
+~
+16394 1 0 73864 47296 1048704 8192 1000 S
+G 0 8 3
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22255
+ethereal rogue~
+&+Lan e&+wthe&+Lreal r&+wo&+Lgue&n~
+&+LAn e&+wthe&+Lreal r&+wo&+Lgue prow&+wls here, ye&+Larning for a challenge.&n
+~
+&+LThis rogue shimmers in and out of existence with a strange ethereal
+&+Lquality.  Unfortuately, even when this being is phased out, it still
+&+Lhurts.  It is one of the &+WTests of Speed&+L.&n
+~
+1073743880 1 0 1572872 0 0 0 -1000 S
+U 0 8192 3
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22256
+robin~
+&+ya robin&n~
+&+yA little robin hops through the &+gforest&+y here.&n
+~
+&+yThis little robin hops through the &+gforest&+y searching for worms to
+&+ytake back to her nest.  Though she does most of her hunting on the
+&+yground, she flutters off quickly whenever anyone comes to close.&n
+~
+200 0 0 0 0 0 0 0 S
+B 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22257
+rabbit bunny~
+&+Wa rabbit&n~
+&+WA cute little bunny rabbit wanders on the &+Lpath&+W here.&n
+~
+&+WThis little bunny is hopping through the forest, playfully chasing
+&+Wafter field mice.  It's so cute you just wanna pick it up and squeeze
+&+Wit.&n
+~
+200 0 0 0 0 0 0 0 S
+A 0 0 2
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22258
+squirrel~
+&+ya squirrel&n~
+&+yA cute little squirrel is busy collecting nuts here.&n
+~
+&+yThis playful squirrel busily scampers about the road in search of
+&+ynuts and berries to take back to his nest.  He has a big bushy tail
+&+yand moves extremely quickly.&n
+~
+200 0 0 0 0 0 0 0 S
+A 0 0 2
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22259
+delegate ice crag~
+&+Wa delegate from &+cice crag&n~
+&+WA delegate from &+cIce Crag&+W waits for an audience with the mayor.&n
+~
+&+cThe delegate looks at you and fans himself quickly.&n
+        &+W'Boy, it sure is hot here.  No one told me it was this
+        &+Wwarm.  I hope that Beregan hurries up, I wanna get this
+        &+Wover with and head home.'&n
+~
+1073743882 0 0 8 0 0 0 -1000 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22260
+werrun delegate~
+&+ya delegate from &+cwerrun&n~
+&+yA delegate from &+cWerrun&+y talks with the &+Wmayor&+y here.&n
+~
+&+yThe delegate talks with the mayor intently, ignoring you completely.&n
+        &+W'What I purpose is a trade route between our city and
+        &+Wyours...'&n
+~
+1073743882 0 0 8 0 0 0 0 S
+PH 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22261
+delegate verspin~
+&+Wa delegate from &+cverspin&n~
+&+WA delegate from &+cVerspin&+W has come to the &+ctown&+W for business.&n
+~
+&+cThis &+Wdelegate&+c has come all the way from the frozen tundra around
+&+cthe great city of Verspin.  He eagerly awaits to speak to the &+Wmayor&n
+&+cof a proposed cargo route between the two towns.&n
+~
+1073743880 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22262
+city guard~
+&+ya &+cdesolate&+y city &+Lguard&n~
+&+yA city &+Lguard&+y of &+cDesolate&+y patrols the streets here.&n
+~
+&+yThis is a regular patrol &+Lguard&+y of the village of &+cDesolate&+y.  He
+&+yis in charge of keeping the streets clear of problems and keeping
+&+ymagic out of the city.&n
+~
+1140852744 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22263
+city guard~
+&+ya &+cdesolate&+y city &+Lguard&n~
+&+yA city &+Lguard&+y of &+cDesolate&+y patrols the streets here.&n
+~
+&+yThis is a regular patrol &+Lguard&+y of the village of &+cDesolate&+y.  He
+&+yis in charge of keeping the streets clear of problems and keeping
+&+ymagic out of the city.&n
+~
+1140852744 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22264
+city guard~
+&+ya &+cdesolate&+y city &+Lguard&n~
+&+yA city &+Lguard&+y of &+cDesolate&+y patrols the streets here.&n
+~
+&+yThis is a regular patrol &+Lguard&+y of the village of &+cDesolate&+y.  He
+&+yis in charge of keeping the streets clear of problems and keeping
+&+ymagic out of the city.&n
+~
+1140852744 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22265
+city guard~
+&+ya &+cdesolate&+y city &+Lguard&n~
+&+yA city &+Lguard&+y of &+cDesolate&+y patrols the streets here.&n
+~
+&+yThis is a regular patrol &+Lguard&+y of the village of &+cDesolate&+y.  He
+&+yis in charge of keeping the streets clear of problems and keeping
+&+ymagic out of the city.&n
+~
+1140852744 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22266
+delegate myrabolus~
+&+ca delegate from &+Mmyrabolus&n~
+&+cAn impatient delegate from &+MMyrabolus&+c wanders here.&n
+~
+&+cThis delegate seems quite upset with having to wait so long for the
+&+cmayor.&n
+           &+W'Beregan won't believe me and the Tri-Lords don't believe me.
+           &+WBut Markam knows, the army of armageddon is real, and they
+           &+Ware close...
+           &+WOh if only there was a way to prove it to him the threat
+           &+Wis for real.' &n
+~
+1073743880 0 0 8 0 0 0 1000 S
+PH 0 2 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22267
+grizzly bear~
+&+ya large bear~
+&+yA large grizzly bear raises up on its hind legs and attacks.&n
+~
+&+yThis bear is nearly nine feet in hieght after it raises up on its
+&+yhind legs.  The grizzly bear is extremely vicious and dangerous, as
+&+ynot only can it slash and bite with its sharp teeth and claws, but
+&+yhas enough wieght to crush a man with its mass.&n
+~
+2058 1 0 0 0 0 0 -1000 S
+AC 0 1 4
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22268
+patron bar~
+&+ca &+ybar &+cpatron&n~
+&+cA &+ypatron&+c of the &+yLustful Logger Bar&+c sits here drinking and singing.
+~
+&+yThis is one of the commoners of &+cDesolate&+y and patrons of the local
+&+ybar, the Lustful Logger.  It is quite obvious by his glazed eyes
+&+yand slurred speach he has been in the pub far too long. He seems quite
+&+yhappy though as he waves his tankard of &+Yale&+y through the air in time
+&+ywith the drinking song he sings.&n
+~
+1073743882 0 0 8 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22269
+scotson blacksmith~
+&+ythe village &+Lblacksmith&n~
+&+cScotson&+y, the village &+Lblacksmith&+y, is hard at work here.&n
+~
+&+cScotson&+y is the local &+Lblacksmith&+y of &+cDesolate&+y.  He came to the village
+&+yin search of an apprenticeship, which he soon acquired, and after many
+&+yyears of hard work he became the sole metalworker.  When he isn't
+&+yin the armory working, he is with his wife, &+WSharyn&+y, in their quaint
+&+yhome on the eastern side of &+cDesolate&+y.  &+cScotson&+y is quite a talented
+&+yand capable metalworker specializing in &+Csteel&+y, but he doesn't work
+&+yfor free.&n
+~
+2058 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22270
+halfling observer~
+&+wa &+Yhalfling&+w observer&n~
+&+wA &+YHalfling&+w from &+cWoodseer&+w has come to observe &+ylogging&+w techniques.&n
+~
+&+wThis is one of the &+YHalfling &+yloggers&+w that work under &+cWoodseer&+w in
+&+wthe rift valley.  He is quite a sturdy and well built &+YHalfling&+w and
+&+whas come to the &+cDesolate&+w forest in search of new techniques for
+&+wcutting lumber.&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+PF 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22271
+logger pinehollow~
+&+wa &+ylogger&+w from &+ypinehollow&n~
+&+wA &+ylogger&+w from &+yPinehollow&+w checks the quality of the &+gtrees&+w here.&n
+~
+&+wThis &+ylogger&+w has travelled all the way from &+yPinehollow&+w to view
+&+wthe techniques of the &+cDesolate &+ylumberjacks&+w, reknowned for their
+&+wwood cutting skills.  The &+ylogger&+w from &+yPinehollow&+w also seems quite
+&+winterested in the types of &+gtrees&+w that grow here.
+~
+67110922 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22272
+tired high elf~
+&+Ya tired high-elf&n~
+&+yA tired &+YHigh-Elf&+y tries to get some sleep under a &+gtree&+y here.&n
+~
+&+yThis &+YHigh-Elf&+y has probably travelled quite a distance to reach
+&+ythe &+cDesolate&+y area.  &+YHigh-Elves&+y are fairly uncommon in most places and
+&+yit is rare to see one alone.  Like others of his race he is quite
+&+yarrogant, believing themselves to be the higher evolved of the elven
+&+yspieces.  At the moment he rests in the shade under a large tree.&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+PE 0 512 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22273
+retired soldier~
+&+ya retired soldier&n~
+&+yAn old, retired soldier, sits here and drinks his &+Yale&+y.&n
+~
+&+yThis was once a vibrant soldier in the &+cDesolate&+y militia, but due
+&+yto his waning age was forced into retirement.  With little else
+&+yto do for the elderly, he now spends most his time in the Lustful
+&+yLogger pub.&n
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22274
+waitress~
+&+ca waitress&n~
+&+cA waitress of the &+yLustful Logger&+c takes orders here.&n
+~
+&+yThe &+cwaitress&+y smirks as she listens to the old soldier's stories.
+        &+W'Sure you did, old fella.. sure you did.'&n
+&+yShe can't help but smile at him while she continues to take drink
+&+yorders.&n
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 2 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22275
+flagar~
+&+cFl&+Lag&+car&n~
+&+cFl&+Lag&+car sits quietly here, flipping through the pages of a &+Wmagazine&+c.&n
+~
+&+cFl&+Lag&+car, one of the legendary Hunters, sits here reading a dirty
+&+Wmagazine&+c.  He is so enthralled by it he hardley pays any attention
+&+cto what is happening around him.  He is probably on his way back
+&+cto &+MMyrabolus&+c and just resting for the night.  He is an adept
+&+cranger and can cross a long distance in a short period of time,
+&+cprobably even faster than you.&n
+~
+67110922 0 0 8 0 0 0 0 S
+PE 0 2 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22276
+ethereal behemoth~
+&+man e&+wthe&+mrea&+wl be&+mhem&+woth&n~
+&+mA t&+werrif&+mying e&+wthe&+mreal b&+wehemo&+mth str&+wikes f&+mear in&+wto all.
+~
+&+wThe &+mbehemoth&+w is never a creature to be taken lightly, and this
+&+wone, an entity from another plane, is even stronger and smarter
+&+wthan its cousins, and as its fearsome visage strikes fear into
+&+wthe hearts of all, it makes a suitable challenge for the &+WTest
+&+Wof Courage.&n
+~
+10 1 0 8 0 0 0 -1000 S
+DK 0 512 5
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22277
+celestial dragon~
+&+Wa ce&+Clest&+cial &+Wdragon&n~
+&+WA ce&+Clest&+cial &+Wdragon serves as the final challenge.&n
+~
+&+WThis heavenly dragon has come from the &+CHome&+W of the &+CDivine&+W itself
+&+Wto test those willing to challenge the Master's Test.  This great
+&+Wcosmic entity acts as the final stage between the the challengers
+&+Wand the reward.&n
+~
+1048586 1 0 136 0 0 0 1000 S
+D 0 32 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22278
+porcupine~
+&+ya porcupine&n~
+&+yA prickly porcupine wanders the &+gforest&+y.&n
+~
+&+yThis porcupine isn't all that vicious, however, just be getting
+&+yclose to it startles it enough to cause it to unleash a volley
+&+yof needles.  Unfortuately, the only way to deal with this poor
+&+ycritter is to kill it.  Have mercy.&n
+~
+2184 1 0 0 0 0 0 -1000 S
+A 0 1 2
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22279
+hungry wolf~
+&+wa hungry wolf&n~
+&+wA hungry wolf hunts through the &+gforest&+w here.&n
+~
+&+wThis wolf attacks more of hunger than viciousness, though they
+&+whave been known to attack any number of reasons and food is quite
+&+wabundant in this area, it is odd for the animals of the &+cDesolate
+&+warea to attack anyone for they are known to be on the most part
+&+wquite tame.&n
+~
+1073743880 1 0 0 0 0 0 -1000 S
+A 0 1 3
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22280
+lynx~
+&+ya lynx&n~
+&+yA powerful lynx prowls the &+gforest&+y here.&n
+~
+&+yThe lynx is usually found in more mountainous regions, but it is
+&+ynot uncommon to them to venture down from the hills to search for
+&+yfood in the forests.  They are actually quite aggressive animals
+&+yand should be avoided.&n
+~
+1073743880 1 0 0 0 0 0 -1000 S
+A 0 1 3
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22281
+receptionist woman~
+&+ya &+creceptionist&n~
+&+yA woman &+creceptionist&+y of the Lustful Logger works here.&n
+~
+&+yThe &+creceptionist&+y smiles when she notices you and asks
+&+ypolitely: &n
+        &+W'How long will you be checking in for?'&n
+~
+1073743882 0 0 0 0 0 0 1000 S
+PH 0 2 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22282
+travelling merchant~
+&+ya travelling &+Ymerchant&n~
+&+yA travelling &+Ymerchant&+y stands here, trying to sell his wares.&n
+~
+&+yThe &+Ymerchant&+y shakes his head.&n
+        &+W'This is worth 10 platium at least. How can
+        &+WI go any lower?  If I went any lower I would
+        &+Wbe giving it away!'&n
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 32768 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22283
+citizen~
+&+ya &+ccitizen&n~
+&+yA &+ccitizen&+y of &+cDesolate&+y barters with a &+Ymerchant&+y here.&n
+~
+&+yThe &+ccitizen&+y grumbles while trying to barter with the stubborn
+&+Ymerchant&+y.&n
+        &+W'I will pay 5 platium for that, no more.
+        &+WNo, no, no, I think thats plenty.'&n
+~
+67110922 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22284
+commoner~
+&+ya &+ccommoner&n~
+&+yA &+ccommoner&+y of the village strolls the streets here.&n
+~
+&+yThis is one of the residents of the village of &+cDesolate&+y.  Like most
+&+yof the people in the village, he is most likely a logger.  When he
+&+yisn't wasting his time and money in the local pub, he is working or,
+&+ylike now, just wandering about.&n
+~
+2056 0 0 0 0 0 0 0 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22285
+shaggy dog~
+&+ya shaggy &+Ldog&n~
+&+yA shaggy, ratty-looking &+Ldog&+y searches for scraps of food.&n
+~
+&+yThis dog looks to be in poor shape. He looks quite hungry and ratty,
+&+ylike he hasn't been washed or fed in awhile.  The look in his eyes
+&+ysuggest he isn't the brightest animal either.&n
+~
+2056 0 0 0 0 0 0 0 S
+A 0 1 2
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22286
+citizen~
+&+ya &+ccitizen&n~
+&+yA &+ccitizen&+y from &+cDesolate&+y wanders down the &+Lroad&+y here.&n
+~
+&+yThis &+ccitizen&+y from &+cDesolate&+y is wandering down the &+Lroad&+y enjoying
+&+ythe &+gforest&+y and the fresh air.  Most likely he is a logger that
+&+yworks around the village, and is taking some time off from his
+&+yjob.&n
+~
+2056 0 0 0 0 0 0 0 S
+PH 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22287
+monk quiet~
+&+wa m&+Lon&+wk&n~
+&+wA quiet m&+Lon&+wk sits here deep in meditation.&n
+~
+&+wThis monk sits in the temple with his head bowed in quiet prayer.
+&+wHe is dressed in the usual simple leather robes that is common to
+&+whis profession.&n
+~
+1140852744 0 0 0 0 0 0 1000 S
+PH 0 64 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#22288
+thoughtful cleric~
+&+ca cleric&n~
+&+cA thoughtful cleric kneels here in prayer.&n
+~
+&+cThis cleric is praying and practicing his magic here instead of in
+&+cthe village because they won't allow him to cast inside Desolate.
+&+cOnce he is done his prayers for the day he will return to his home
+&+cin the village.&n
+~
+1140852744 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#22289
+spectral titan~
+&+La sp&+Cectr&+Lal ti&+Ctan&n~
+&+LAn en&+Cormo&+Lus spe&+Cctral t&+Litan prep&+Cares f&+Lor the test.&n
+~
+&+LThis titan acts as the &+WTest of Strength&+L.  Like the previous tests
+&+Lhe seems to shimmer in an out of existence, and his giant size is
+&+Limposing enough to strike fear into the heartiest of warriors.&n
+~
+2058 1 0 24 2049 0 524288 0 S
+G 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22290
+trinket vendor~
+&+ya &+Ytrinket&+y vendor&n~
+&+yA &+Ytrinket&+y vendor displays his wares to travellers.&n
+~
+&+yThis &+Yvendor&+y is a ederly man trying desperately to sell whatever
+&+yhe has collected on his own travels, or bought from others.  He
+&+yappears to be quite desperate and it is obvious he isn't making
+&+yas much money as the others vendors in the market.&n
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 32 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22291
+commoner sleeping~
+&+ya sleeping&+c commoner&n~
+&+yA &+ccommoner&+y of the village sleeps soundly here.&n
+~
+&+yThis commoner of &+cDesolate&+y is trying to get some rest after a
+&+ylong, hard day, most likely cutting lumber, as their isn't much
+&+yelse to do here in the village.&n
+~
+1073743880 0 0 0 0 0 0 0 S
+PH 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#22292
+vendor myrabolan~
+&+ca &+Mmyrabolan&+c vendor&n~
+&+cA vendor from &+MMyrabolus&+c tries to sell his wares here.&n
+~
+&+cThis vendor has travelled all the way from &+MMyrabolus&+c in attempt
+&+cto sell his goods here in the Desolate marketplace. He believes
+&+cwhat won't sell back home, may sell on the road, and for higher
+&+cprices.&n
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 0 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22293
+alley cat~
+&+Lan alley cat&n~
+&+LAn alley cat saunters down the road here.&n
+~
+&+LThis little black cat wanders through the village, mewing at
+&+Lthe locals for attention.  It looks kind of neglected, but other
+&+Lwise just another cute little kitty.&n
+~
+136 0 0 0 0 0 0 0 S
+A 0 0 2
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22294
+seraphim angel~
+&+Wa &+Cse&+cra&+Wphim &+Can&+Wgel&n~
+&+WA beautiful &+Cse&+cra&+Wphim &+Cang&+Wel keels here in prayer.&n
+~
+&+WThis heavenly creature stands here, undetected by the locals of
+&+cDesolate&+W and the &+LOrcs&+W on the beach below.  She watches the activity
+&+Wof the &+LOrcs&+W with great interest and turns to speak when she notices
+&+Wyour presence.
+&+W        'As a soldier from the Home of the Divine I cannot
+&+W        interfere on mortal matters.  I will suggest though that
+&+W        a fight against evil lies not here, or even inside the
+&+W        diabolical cities those creatures live in, instead,
+&+W        perhaps, seek it out with the help of the Hunters of
+&+W        Myrabolus, for surely they will know.'&n
+~
+1073874954 0 0 1048650 0 0 0 1000 S
+H 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 2
+#22295
+old soldier~
+&+ya retired soldier&n~
+&+yAn old, drunk soldier sits here, talking to the &+cwaitress&+y.&n
+~
+&+yThe old soldier nods and continues to talk with the waitress.&n
+        &+W'Yes, its true, I've used the Soulsword plenty of times.
+        &+WI killed at least a hundred demons with it, by myself
+        &+Wmind you.  Its very sharp you know, and shoots magic
+        &+Wbeams of light from the tip... quite a weapon.. but then
+        &+Wagain I was quite a soldier...'&n
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22296
+criminal outcast~
+&+La vengeful &+routcast&n~
+&+LA criminal &+routcast&+L plots further revenge against the village.&n
+~
+&+LThis &+routcast&+L has been hard at work plundering the goods from the
+&+Llocal village.  Stealing from his hometown is just one of the ways
+&+Lhe feels better about himself after being punished for his criminal
+&+Lbehavoir.  Currently he hides with his companions, spliting the loot
+&+Lfrom their latest heist.  He wears the best &+Cequipment&+L he could
+&+Lsteal from the armory of &+cDesolate&+L.&n
+~
+1140852746 0 0 24 2048 0 0 -1000 S
+PH 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22297
+banker~
+&+ythe banker&n~
+&+yThe local banker of &+cDesolate&+y works here.&n
+~
+&+yThis is the local &+cbanker&+y of &+cDesolate&+y.  He is a rather old gentleman
+&+ythat seems constantly annoyed with the paperwork he has to fill out.
+&+ySince he is the only moneylender in the town, he is responsible for
+&+yevery local's finacial security.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+PH 0 0 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22298
+sharyn wife artist~
+&+ythe &+Lblacksmith's &+ywife&n~
+&+WSharyn&+y, a local artist, stands here working on a new painting.&n
+~
+&+WSharyn&+y is &+cScotson's&+y loyal wife.  She is quite beautiful to look at
+&+yand is quite a talented artist.  Her work is quite valued here in
+&+ythe village and many of her paintings can be seen in many of the
+&+ylocal shops.&n
+~
+8 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22299
+orc beach guard~
+&+Lan orc &+Ybeach&+L guard&n~
+&+LA strong Orc guards the &+Ybeach&+L here.&n
+~
+&+LThis Orc vigilanty guards his post at the only access point to
+&+Lthe &+Ybeach&+L that &+WStorm &+CPo&+crt&+L has declared their property.  Though
+&+Lfairly racist towards just about every race, even Orcs not from
+&+Lfrom the capital city itself, the guard will allow a select
+&+Lfew to pass unhindered.&n
+~
+67110922 8 0 0 0 0 0 -500 S
+HO 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22300
+lady shopper~
+&+ya &+clady&+y shopper&n~
+&+yA &+clady&+y shopper wanders through the village here.&n
+~
+&+yIt is hard to tell whether this &+cwoman&+y is a local of the village or
+&+ya traveller just spending time here. In either case she seems to
+&+yenjoy spending most her time browsing through the &+Yvendors&+y in the
+&+ymarket.&n
+~
+2184 0 0 0 0 0 0 250 S
+PH 0 0 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#22301
+local vendor~
+&+ya &+clocal&+y vendor&n~
+&+yA &+clocal&+y vendor barters his wares.&n
+~
+&+yThis is one the local vendors of &+cDesolate&+y and doesn't sell much
+&+yof anything worthwhile to anyone other than those interested in
+&+ybuying a bunch of useless ornaments.&n
+~
+1073743882 0 0 8 0 0 0 0 S
+PH 0 32 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22302
+citizen~
+&+ya &+ccitizen&n~
+&+yA &+ccitizen&+y of &+cDesolate&+y argues with the vendor here.&n
+~
+&+yThe &+ccitizen&+y throws his hands up in disgust, tired from all the
+&+yarguing.&n
+        &+W'Why is everyone trying to rip me off. I live here, they
+        &+Wshould be ripping off the tourists!'&n
+~
+1073743882 0 0 0 0 0 0 0 S
+PH 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22303
+orc lieutenant~
+&+Lan orc &+Ylieutenant&n~
+&+LAn Orc &+Ylieutenant&+L from &+WStorm &+CPo&+crt&+L barks out orders here.&n
+~
+&+LThis is a unusually tall orc and strong orc who is responible for
+&+Lmost everything going on around the &+Ybeach&+L area.  The orcs of &+WStorm&n
+&+CPo&+crt&+L are considerably more intelligent and crafty than those both
+&+Lfrom the Army of &+rArmageddon&+L and Shady &+gGrove&+L.  The &+Ylieutenant&+L here
+&+Lis both a cunning tactician and sturdy warrior.&n
+~
+1140852746 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22304
+patrol leader~
+&+ca &+Wpatrol&+c leader&n~
+&+cA &+Wpatrol&+c leader stands here, muttering about something.&n
+~
+&+cThis &+Wpatrol&+c leader seems quite annoyed.  He turns and points
+&+cto the &+Ybeach&+c to the north.&n
+        &+W'Those damn orcs down there are really grinding me.
+        &+WThe worst part is there isn't a damned thing we can
+        &+Wdo about them.'&n
+~
+67110922 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22305
+patrol guard~
+&+ca &+Wpatrol&+c guard&n~
+&+cA &+Wpatrol&+c guard warns travellers not to go any further.&n
+~
+&+cThis is one of the regulars in the Desolate militia.  At the moment
+&+che stands with his &+Wpatrol&+c leader, gazing down at the &+Ybeach&+c below,
+&+cfrustrated by what he is seeing.  He turns to offer travellers a
+&+cwarning not to proceed any further whenever he can.&n
+~
+1140852746 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22306
+orc captain~
+&+Lthe orc &+Wcaptain&n~
+&+LThe Orc &+Wcaptain&+L plots new naval strageties for the glory of &+WStorm &+CPo&+crt&+L.&n
+~
+&+LThis Orc is not only the &+Wcaptain&+L of a mighty juggernaught, but
+&+Lalso the commander of the entire landing party on the the &+cDesolate
+&+Ybeach&+L.  Though he lets his staff take care of most of the details
+&+Lhere, he will get involved if there is a problem needing immediate
+&+Laction.  He wields a mighty sword as a testament to his high rank
+&+Lin the reknowned navy.&n
+~
+1140852746 0 0 8 0 0 0 -500 S
+HO 0 16 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22307
+bodyguard guard~
+&+La bodyguard&n~
+&+LThe &+Wcaptain's&+L bodyguard stands here vigilanty.&n
+~
+&+LThis is one of the elite soldiers in the &+WStorm &+CPo&+crt&+L navy dedicated
+&+Lsolely to protecting his commander.  He uses his weapon with adept
+&+Lconfidence and watches anyone around with suspicious eyes. Where
+&+Lthe &+Wcaptain&+L goes, so does the bodyguard.&n
+~
+1140852746 0 0 8 0 0 0 -500 S
+HO 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22308
+orc soldier~
+&+Lan orc soldier&n~
+&+LAn Orc soldier patrols the &+Ybeach&+L here.&n
+~
+&+LThis Orc is one of the loyal soldiers of &+WStorm &+CPo&+crt&+L and interested
+&+Lonly in conquest.  At the moment he patrols the &+Ybeach&+L head and
+&+Lprotects the ships coming in and out of the small harbour.&n
+~
+67110920 8 0 8 0 0 0 -500 S
+HO 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22309
+orc soldier~
+&+Lan orc soldier&n~
+&+LAn Orc soldier rests in the &+ytent&+L here.&n
+~
+&+LThis Orc soldier is off-duty for now and tries to get some much
+&+Lneeded rest. The Orcs of the &+WStorm &+CPo&+crt&+L navy work their soldiers
+&+Land Sailors extremely hard, so when they actually get the chance
+&+Lto rest, they deserve it.&n
+~
+1140852746 0 0 8 0 0 0 -500 S
+HO 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#22310
+orc sailor~
+&+Lan orc &+Wsailor&n~
+&+LAn Orc &+Wsailor&+L hurries about his work here.&n
+~
+&+LThis &+Wsailor&+L works both on and around the ships that come into to
+&+Ldock at the &+cDesolate&+L area pier.  Usually the Orc &+Wsailors&+L from
+&+WStorm &+CPo&+crt&+L are those that tried out for the navy and didn't get
+&+Lin or those still waiting to be recruited.&n
+~
+1073743884 0 0 0 0 0 0 -500 S
+HO 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22311
+nomadic merchant~
+&+ya &+Ynomadic&+y merchant&n~
+&+yA &+Ynomadic&+y merchant sells his goods from the &+YSavannah&+y.&n
+~
+&+yThis merchant is used to travelling throughout the &+YSavannah of
+&+YSorrow&+y, and has travelled quite a ways to peddle his meager goods
+&+yin the village.  Unfortuately, anyone who isn't either a woman or
+&+ystupid would spend money on what he has to offer.&n
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#22312
+patrol guard off~
+&+ca &+Wpatrol&+c guard&n~
+&+cAn off-duty &+Wpatrol&+c guard sleeps in his &+ybunk&+c here.&n
+~
+&+cThis &+Wpatrol&+c guard is resting after working his long shift.  During
+&+chis waking hours he spends his time patrolling the road to Desolate.
+&+cNow, all he is interested in is snoozing.&n
+~
+1140852746 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#22313
+hunter guard~
+&+ca &+ghunter&+c guard&n~
+&+cA &+MMyrabolan &+ghunter&+c guard scouts the area here.&n
+~
+&+cThis &+ghunter&+c guard from &+MMyrabolus&+c is here strictly on business. His
+&+csuperiors sent him here in order to determine just how high of a risk
+&+cthe &+LOrcs&+c of &+WStorm &+CPo&+crt are to be considered.  Once he gathers enough
+&+cinformation he will return home and report to the &+RT&+Yr&+Gi&+L-Lords&+c.&n
+~
+1073743880 0 0 524296 0 0 0 0 S
+PH 0 2 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

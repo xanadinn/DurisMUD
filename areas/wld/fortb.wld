@@ -1,0 +1,1566 @@
+#38100
+&+LA Shady Path&N~
+&+g   A small pathway can be barely seen cutting through this dense
+&+gforest.  It extends further in a direction to the north.  A darkness
+&+gcovers the entire area.  The canopy of the trees above block out all
+&+glight from above.  In all directions, a very dense growth of different
+&+gtypes plant life can be observed.  There are sounds of branches
+&+gbreaking in the distance.  There are two exits leading away from
+&+gthis point.
+~
+381 5 3
+D0
+~
+~
+0 0 38101
+D1
+~
+~
+0 0 562320
+S
+#38101
+&+LA Shady Path&N~
+&+g   A small pathway lined with branches and small round rocks can be
+&+gbarely seen cutting through this dense forest.  It extends further
+&+gthrough the forest.  A small boulder sits along the western edge
+&+gof the path here.  A darkness covers the entire area.  The canopy of
+&+gthe trees above block out all light from above.  In all directions,
+&+ga very dense growth of different types plant life can be observed.
+&+gThere are two exits leading away from this point.
+~
+381 1 3
+D0
+~
+~
+0 0 38103
+D2
+~
+~
+0 0 38100
+D5
+~
+~
+8 0 38102
+S
+#38102
+&+LA Dark Cellar&N~
+&+L   The cellar here has been formed out of the earth.  It is lined
+&+Lwith wooden planks and support beams.  The floor is covered in a
+&+Ldense growth of various types of plants.  These plants have forced
+&+Ltheir way through the floor boards.  The room here is dark and has
+&+La very damp feel to it.
+~
+381 1 0
+D4
+~
+~
+0 0 38101
+S
+#38103
+&+LA Shady Path&N~
+&+g   A small pathway lined with branches and small round rocks can be
+&+gbarely seen cutting through this dense forest.  It extends further
+&+gthrough the forest.  The sounds of water from some sort of river can
+&+gheard echoing through out the area.  Just to the north, the beginning
+&+ga small pier can be seen.   A darkness covers the entire area.  The
+&+gthick plant growth has limited the amount of light entering the area.
+&+gThere are two exits leading away from this point.
+~
+381 1 3
+D0
+~
+~
+0 0 38104
+D2
+~
+~
+0 0 38101
+S
+#38104
+&+yA Small Wooden Pier&N~
+&+y   A wooden pier has been built here along the banks of the
+&+yriver Sema.   The pier has started to show signs of its age
+&+yas the sounds of wood giving way under your weight resonate
+&+ythroughout the area.  The pier extends further west.
+~
+381 0 1
+D2
+~
+~
+0 0 38103
+D3
+~
+~
+0 0 38105
+S
+#38105
+&+yA Small Wooden Pier&N~
+&+y   The wooden pier has crates of various sizes and makes
+&+yalong this part of the pier.   Many of these crates have
+&+ybeen locked with shiny platinum locks.  This part of the pier
+&+yobviously serves as a storage facility of sorts.  The pier
+&+yhere has been reinforced with new wooden planks.  The pier
+&+yextends further in two directions.
+~
+381 0 1
+D1
+~
+~
+0 0 38104
+D3
+~
+~
+0 0 38106
+S
+#38106
+&+yBefore a Small Office&N~
+&+y   The wooden pier continues further along the river Sema.
+&+yA small office sits along the south bank of the pier here.
+&+yAlong the pier many crates of various sizes and makes line
+&+ythis part of the pier.   Many of these crates have been
+&+ylocked with shiny platinum locks.  This part of the pier
+&+yobviously serves as a storage facility of sorts.  The pier
+&+yhere has been reinforced with new wooden planks.  The pier
+&+yextends further in two directions.
+~
+381 0 1
+D1
+~
+~
+0 0 38105
+D2
+~
+~
+0 0 38107
+D3
+~
+~
+0 0 38108
+S
+#38107
+&+yThe Office of the Shipping Captain&N~
+&+y   This is the shipping office of the fort.  Many orders,
+&+yreceipts and other shipping labels come through this office
+&+yand are counter signed by the captain.  The office here
+&+yhas a large desk along the western wall.  On this desk,
+&+ythere is a large stack of papers.  There is only one
+&+yexit out of this office.
+~
+381 0 0
+D0
+~
+~
+0 0 38106
+S
+#38108
+&+yA Small Wooden Pier&N~
+&+y   The wooden pier has crates of various sizes and makes
+&+yalong this part of the pier.   Many of these crates have
+&+ybeen locked with shiny platinum locks.  This part of the pier
+&+yobviously serves as a storage facility of sorts.  The pier
+&+yhere has been reinforced with new wooden planks.  The pier
+&+yextends further in two directions.
+~
+381 0 1
+D1
+~
+~
+0 0 38106
+D2
+A storage facility lies to the south.
+~
+storage~
+3 38108 38109
+D3
+~
+~
+0 0 38110
+S
+#38109
+&+yA Storage Facility&N~
+&+y   A storage facility has been recently built here along the
+&+ypier.  Many items of value are stored within this establishment
+&+yfrom time to time.  The room is also constructed from wooden
+&+yplanks.  There room is immaculately clean.  There is only
+&+yone exit from this room.
+~
+381 0 0
+D0
+The pier lies just beyond this door.
+~
+storage~
+3 38108 38108
+S
+#38110
+&+yThe End of the Pier&N~
+&+y   The wooden pier provides access to the river Sema here.
+&+yThe sounds of rushing rapids fill your soul with excitement.
+&+yA wooden pier has been built here along the banks of the
+&+yriver Sema.   The pier here has started to show signs of its
+&+yage as the sounds of wood giving way under your weight resonate
+&+ythroughout the area.  The pier extends further east.
+~
+381 0 1
+D0
+~
+~
+0 0 38111
+D1
+~
+~
+0 0 38108
+S
+#38111
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D1
+~
+~
+0 0 38113
+D2
+~
+~
+0 0 38110
+D3
+~
+~
+0 0 38112
+S
+#38112
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D1
+~
+~
+0 0 38111
+D6
+~
+~
+0 0 38114
+S
+#38113
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D3
+~
+~
+0 0 38111
+S
+#38114
+&+bA Bend in the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D0
+~
+~
+0 0 38115
+D9
+~
+~
+0 0 38112
+S
+#38115
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D2
+~
+~
+0 0 38114
+D6
+~
+~
+0 0 38116
+S
+#38116
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D3
+~
+~
+0 0 38117
+D9
+~
+~
+0 0 38115
+S
+#38117
+&+bOn the River Sema&N~
+&+b   This is the river Sema.  The rapids of this river flow
+&+bvery rapidly in certain parts.   The waters of this river
+&+bare very clear.  The river bed can be seen.  It is littered
+&+bwith different skeletons and other pieces of debris.  The
+&+briver continues in two directions from this point.
+~
+381 0 7
+D1
+~
+~
+0 0 38116
+D3
+~
+~
+0 0 38118
+S
+#38118
+&+bA Calm Pool of the River Sema&N~
+&+b   The waters of the River Sema have come to a calm halt in this
+&+bcollecting pool.  The waters here are a little bit cloudy.  Many
+&+bdifferent types of contaminats and debris are brought to this
+&+bpart of the river.  The debris at the bottom of this pool here
+&+bappear to be covered with a layer of dark sediment.   There is
+&+bsome sort of landing to the north.
+~
+381 0 7
+D0
+~
+~
+0 0 38119
+D1
+~
+~
+0 0 38117
+S
+#38119
+&+yAn Earthen Landing&N~
+&+y   The earth has been formed into a sloped landing where many
+&+yvisitors have left their ships and boats.   The ground here is
+&+yof fresh sand which is free from sharp rocks and other sorts of
+&+yunwanted debris.  There is a set of marble stairs at the far end
+&+yof the landing here which lead up.
+~
+381 0 2
+D2
+~
+~
+0 0 38118
+D4
+~
+~
+0 0 38120
+S
+#38120
+&+LThe Great Stone Walkway of the Fort&N~
+&+L   Large granite slabs of rock, form this great stone walkway
+&+Lof the fort.  The interlocking network of stones provide a firm
+&+Lsurface on which secure footing may be placed.  In the distance,
+&+La large stone fort can be seen rising many feet above the ground.
+&+LThe sounds of a river can be heard in the near distance.  There
+&+Lare two exits leading away from this point.
+~
+381 0 1
+D0
+~
+~
+0 0 38121
+D2
+~
+~
+0 0 38119
+S
+#38121
+&+LThe Great Stone Walkway of the Fort&N~
+&+L   This great stone walkway of the fort is formed from Large
+&+Lgranite slabs of rock.  Some of which have started to crack
+&+Las result of the frequent stresses placed upon their surfaces.
+&+LAlthough starting to show signs of age, they provide a firm
+&+Lsurface on which secure footing may be placed.  Just ahead,
+&+La large stone fort can be seen rising many feet above the ground.
+&+LThe sounds of a river can be heard in the near distance.  There
+&+Lare two exits leading away from this point.
+~
+381 0 1
+D0
+~
+~
+0 0 38122
+D1
+~
+~
+0 0 43041
+D2
+~
+~
+0 0 38120
+S
+#38122
+&+LBefore the Fort Boyard&N~
+&+L  The infamous Fort Boyard lies just beyond the gates.  It
+&+Lrises many feet above the ground here.  Many windows can be
+&+Lseen opening onto the surrounding areas.  The fort houses
+&+Lmany who have choses to serve the master Boyard for life.
+&+LThere are two exits leading away from this point.
+~
+381 0 1
+D0
+The gates of the fort block the exit to the north.
+~
+gates~
+3 38113 38123
+D2
+~
+~
+0 0 38121
+S
+#38123
+&+LThe Entry Hallway of the Fort&N~
+&+L   This is the main entry hallway of the fort.  It is
+&+Lcarpeted with a red rug which continues further to the
+&+Lnorth.  The walls of the hallway here are adorned with
+&+Lbeautiful satin banners.  The hallway continues further
+&+Lto the north while the outside of the fort can be reached
+&+Ljust to the south.
+~
+381 8 0
+D0
+~
+~
+0 0 38124
+D2
+The outside of the fort lies beyond this door.
+~
+gates~
+2 38113 38122
+D4
+~
+~
+0 0 38145
+S
+#38124
+&+LThe Entry Hall of the Fort&N~
+&+L   The main entry hallway of the fort continues here.
+&+LIt is carpeted with a red rug which continues further to
+&+Ltwo directions.  The hallway here provides access to two
+&+Lhallways which branch to the east and west from this point.
+&+LJust to the west, the sounds of chatter can be heard.
+&+LThere are exits all over leading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38148
+D1
+~
+~
+0 0 38126
+D2
+~
+~
+0 0 38123
+D3
+~
+~
+0 0 38125
+S
+#38125
+&+cThe Hallway to the Dining Room&N~
+   This connecting hallway joins the main entry hallway
+to the dining room of the fort.  Just ahead, there is a
+large dining room.  The hallway here is lined with a dark
+blue carpet.  There is a small room of servants just to
+the south.  There are exits all around leading deeper
+into the fort.
+~
+381 8 0
+D1
+~
+~
+0 0 38124
+D2
+~
+~
+0 0 38140
+D3
+~
+~
+0 0 38141
+S
+#38126
+&+gThe Green Hallway of Life&N~
+   This part of the fort is decorated with symbols and paintings.
+The master of the fort has collected many items from near and afar.
+All of these objects share the common theme of life.  Along the
+northern wall, there is a tapestry depicting a large farm with a
+bountiful supply of crops.   The southern wall is adorned with a
+druidic symbol attached to a horn of some sorts.  The hallway
+extends in two directions form this point.
+~
+381 8 0
+D1
+~
+~
+0 0 38127
+D3
+~
+~
+0 0 38124
+S
+#38127
+&+gThe Green Hallway of Life&N~
+   This hallway of life is decorated with different symbols and
+paintings.  The master of the fort has collected many items from
+near and afar.  Along the northern wall, there is a large map.
+It appears to be in good condition.  On the southern wall, there
+a tapestry depicting a newborn baby in the hands of its mother.
+Just to the east, the sounds of birds chirping can be heard.
+There are two exits leading deeper into the fort from this point.
+~
+381 8 0
+D1
+~
+~
+0 0 38134
+D3
+~
+~
+0 0 38126
+S
+#38128
+&+gThe Sacred Garden of the Fort&N~
+&+g   In this corner of the  sacred garden of the fort, the
+&+ggardeners have planted tomato plants.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering these tomato
+&+gplants.  These plants are very fragile and need to be
+&+gtended to daily.  There are exits all over leading deeper
+&+ginto the garden.
+~
+381 0 2
+D1
+~
+~
+0 0 38129
+D2
+~
+~
+0 0 38131
+S
+#38129
+&+gThe Sacred Garden of the Fort&N~
+&+g   This is the sacred garden of the fort.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering the grounds.
+&+gThere are exits all over leading deeper into the garden.
+&+gA large marble altar lies just south of here.
+~
+381 0 2
+D1
+~
+~
+0 0 38130
+D2
+~
+~
+0 0 38132
+D3
+~
+~
+0 0 38128
+S
+#38130
+&+gThe Sacred Garden of the Fort&N~
+&+g   In this corner of the  sacred garden of the fort, the
+&+ggardeners have planted cucumber vines.  The gardeners have
+&+gingeniously designed small gates for these vines to grow on.
+&+gIt is here that the chef gets fresh produce to supply food
+&+gfor the master. Many gardeners can be seen weeding and
+&+gwatering these cucumber vines.  These plants are very
+&+gfragile and need to be tended to daily.  There are exits
+&+gall over leading deeper into the garden.
+~
+381 0 2
+D2
+~
+~
+0 0 38133
+D3
+~
+~
+0 0 38129
+S
+#38131
+&+gThe Sacred Garden of the Fort&N~
+&+g   In part of the sacred garden of the fort, the
+&+ggardeners have planted pepper plants.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering these pepper
+&+gplants.  These plants are very fragile and need to be
+&+gtended to daily.  There are exits all over leading deeper
+&+ginto the garden.
+~
+381 0 2
+D0
+~
+~
+0 0 38128
+D1
+~
+~
+0 0 38132
+D2
+~
+~
+0 0 38134
+S
+#38132
+&+WThe Altar of Life&N~
+   A large marble altar has been erected in the center of this
+sacred garden of the fort.  It is adorned with many druidic symbols
+and relics.  It has a strange white aura which illuminates the
+surrounding area.   There are exits in all directions leading
+to different parts of the sacred garden of the fort.
+~
+381 0 2
+D0
+~
+~
+0 0 38129
+D1
+~
+~
+0 0 38133
+D2
+~
+~
+0 0 38135
+D3
+~
+~
+0 0 38131
+D5
+There is a room down below the altar.
+~
+secret~
+13 0 38137
+S
+#38133
+&+gThe Sacred Garden of the Fort&N~
+&+g   This is the sacred garden of the fort.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering the grounds.
+&+gThere are exits all over leading deeper into the garden.
+&+gThere is large marble altar just west of this portion
+&+gof the garden.  It shines a strange white light in
+&+gthis direction.
+~
+381 0 2
+D0
+~
+~
+0 0 38130
+D2
+~
+~
+0 0 38136
+D3
+~
+~
+0 0 38132
+S
+#38134
+&+gThe Sacred Garden of the Fort&N~
+&+g   In this corner of the sacred garden of the fort, the
+&+ggardeners have planted many heads of lettuce.  It is here
+&+gthat the chef gets fresh produce to supply food for the
+&+gmaster. Many gardeners can be seen weeding and watering
+&+gthese lettuce heads.  These plants are very fragile and
+&+gneed to be tended to daily.  There are exits all over
+&+gleading deeper into the garden.
+~
+381 0 2
+D0
+~
+~
+0 0 38131
+D1
+~
+~
+0 0 38135
+D3
+~
+~
+0 0 38127
+S
+#38135
+&+gThe Sacred Garden of the Fort&N~
+&+g   This is the sacred garden of the fort.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering the grounds.
+&+gThere are exits all over leading deeper into the garden.
+&+gThe exit to the west leads back into the fort.
+~
+381 0 2
+D0
+~
+~
+0 0 38132
+D1
+~
+~
+0 0 38136
+D3
+~
+~
+0 0 38134
+S
+#38136
+&+gThe Sacred Garden of the Fort&N~
+&+g   This is the sacred garden of the fort.  It is here that
+&+gthe chef gets fresh produce to supply food for the master.
+&+gThe garden is well kept by the many hired hands.  Many
+&+ggardeners can be seen weeding and watering the grounds.
+&+gThere are exits all over leading deeper into the garden.
+&+gThe exit to the west leads back into the fort.
+~
+381 0 2
+D0
+~
+~
+0 0 38133
+D3
+~
+~
+0 0 38135
+S
+#38137
+&+LA Dark Cellar&N~
+&+L   The cellar here lies just below the altar of life.  Just
+&+Labove the ground here, the gardens of the fort lie.  It is
+&+Lthere that many different types of produce grow for the
+&+Lmaster of the fort.  Down below in this cellar, there are
+&+Lrats and other animals who have sought refuge.  They feast
+&+Lupon the cache of different foods.  There is an exit leading
+&+Lto the north.
+~
+381 8 0
+D0
+~
+~
+0 0 38138
+D4
+The garden lies above this door.
+~
+secret~
+5 0 38132
+S
+#38138
+&+LA Dark Cellar&N~
+&+L   The cellar here lies just below the altar of life.  Just
+&+Labove the ground here, the gardens of the fort lie.  It is
+&+Lthere that many different types of produce grow for the
+&+Lmaster of the fort.  Down below in this cellar, there are
+&+Lrats and other animals who have sought refuge.  They feast
+&+Lupon the cache of different foods.  There is an exit leading
+&+Lto the north.
+~
+381 8 0
+D2
+~
+~
+0 0 38137
+D3
+~
+~
+8 0 38139
+S
+#38139
+&+LThe Lair of &+mCiuto&N~
+&+L   The lair of Ciuto is a large cavern carved out of
+&+Ldark granite rock.  The walls of the cavern are smooth to
+&+Ltouch.  The grounds of the cavern are covered in the corpses
+&+Lof many adventurers who have attempted to enter these
+&+Lquarters of the Ciuto.  There is only one exit out of this
+&+Lroom.
+~
+381 8 0
+D1
+~
+~
+0 0 38138
+S
+#38140
+&+rA Resting Room for Servants&N~
+   The room here serves as a resting room where many
+servants have come to escape their assigned duties in the
+fort.  The room has several large cots where a servant can
+always be found sound asleep.  The room is kept warm by
+the little fireplace along the south wall.  There is only
+one exit leading to the north.
+~
+381 8 0
+D0
+~
+~
+0 0 38125
+S
+#38141
+&+cA Large Dining Room&N~
+   It is in this room, the large dining room of the fort, that
+many come to enjoy a good meal prepared by Akal, the master chef.
+In the center of the room, there is a large oaken table with enough
+room to seat twenty people.  At the head of the table, there is a
+large elaborate seat.  One can probably assume that this chair
+belongs to the master of the fort.  There are exits all around
+leading deeper into the fort.
+~
+381 8 0
+D1
+~
+~
+0 0 38125
+D2
+~
+~
+0 0 38142
+S
+#38142
+&+cThe Preparation Room&N~
+   Different items to be served in the dining room are
+first prepared for display within this room.  After
+preparing the display, they are then moved into the
+dining room to be feasted upon.  There is a large table
+on which different plates of different sizes are stacked.
+There are exits all around leading into different parts
+of the fort.
+~
+381 0 0
+D0
+~
+~
+0 0 38141
+D2
+~
+~
+0 0 38143
+D3
+The storage pantry is beyond this door.
+~
+pantry door~
+1 0 38144
+S
+#38143
+&+cThe Kitchen of the Chef&N~
+    In this the kitchen of the fort, the chef prepares many
+cooked delights for all to enjoy.   The room is constructed
+out of large stone blocks.  There is a large brick oven along
+the south wall next to a large oval shaped window.  There
+is a large table along the west wall.  There is only one
+exit leading out of this room.
+~
+381 8 0
+D0
+~
+~
+0 0 38142
+S
+#38144
+&+LA Storage Pantry&N~
+   This is the storage pantry of the chef.  He stores many
+spices and canned foods within the storage shelves of this
+room.  The room is immacuately clean and free from humidity.
+There are signs of small critters feasting upon the goods
+within the room here.  There is only one exit out of this
+room.
+~
+381 8 0
+D1
+The kitchen is beyond this door.
+~
+pantry door~
+1 0 38142
+S
+#38145
+&+yA Wooden Ladder&N~
+   Higher above the entrance hallway, the ladder leads up to
+to what looks to be an observatory of sorts.  The ladder is of
+a hard elven oak.   Some of the wooden planks appear to have
+been replaced on the ladder.  There are two directions of choice
+from this point on the ladder.
+~
+381 8 0
+D4
+~
+~
+0 0 38146
+D5
+~
+~
+0 0 38123
+S
+#38146
+&+yA Wooden Ladder&N~
+   Higher above the entrance hallway, the ladder leads up to
+to what looks to be an observatory of sorts.  The ladder is of
+a hard elven oak.   Some of the wooden planks appear to have
+been replaced on the ladder.  There are two directions of choice
+from this point on the ladder.
+~
+381 8 0
+D4
+~
+~
+0 0 38147
+D5
+~
+~
+0 0 38145
+S
+#38147
+&+LThe Guard's Observatory&N~
+&+L   From this vantage point, with the aid of the barred window in the wall,
+&+Lthe guards can watch all who enter the fort via the main gate.  The room
+&+Lis furnished only with several torch sconces and a water barrel in one &N
+&+Lcorner.  There is a stool next to the top of the ladder, however it looks
+&+Lrather uncomfortable.  The ceiling here is lower than normal giving the
+&+Lroom a cramped feeling.  There is only one exit out of this room.
+~
+381 8 0
+D5
+~
+~
+0 0 38146
+S
+#38148
+&+LThe Entry Hall of the Fort&N~
+&+L   The main entry hallway of the fort continues here
+&+Lleading deeper into the fort.  It is carpeted with a
+&+Lred rug which continues in two directions from this
+&+Lpart of the hallway.   The hallway here provides access
+&+Lto two guest rooms which are located to the east and west
+&+Lfrom this part of the hallway.  There are exits all over
+&+Lleading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38149
+D1
+Just beyond this guest door lies a small bedroom.
+~
+guest door~
+1 0 38150
+D2
+~
+~
+0 0 38124
+D3
+Just beyond this guest door lies a small guest bedroom.
+~
+guest door~
+1 0 38151
+S
+#38149
+&+LThe Bottom of a Large Staircase&N~
+&+L   The main entry hallway leads up this a large marble
+&+Lstaircase.  The red carpeting continues up the stairs
+&+Lonto the next floor.  There are two large torches on
+&+Lwestern and eastern walls which illuminate the room with
+&+La yellow glow.  The faint sounds of chatter can be heard
+&+Lin the near distance.   There are exits all around leading
+&+Ldeeper into the fort.
+~
+381 8 0
+D1
+~
+~
+0 0 43000
+D2
+~
+~
+0 0 38148
+D4
+~
+~
+0 0 38152
+S
+#38150
+&+RThe Guest Bedroom&N~
+&+y  This room is well furnished.  A medium sized bed takes up most
+&+yof the room on the north side.  Spread out on a large wood dresser
+&+yin the southern part of the room, are various pieces of clothing and
+&+ygarmentry leaving the impression that the room is currently occupied.
+&+yA small mirror hangs in front of a vanity on the eastern wall.&N
+&+yThe only exit is to the west back into the main entry hallway.&N
+~
+381 8 0
+D3
+Just beyond this door lies the fort.
+~
+guest door~
+1 0 38148
+S
+#38151
+&+RA Guest Bedroom&N~
+&+r   This guest bedroom is very different than others in the fort.
+&+rThe bed has been shredded, leaving stuffing and straw all over the
+&+rfloor.  What was once a chest of drawers, now lies in a pile of
+&+rscrap wood in the corner.  Perhaps most disturbing about the
+&+rdestruction here, is the mutilation of some poor soul whose
+&+rrace is not even identifiable due to the extensive damage to
+&+rthe body.  Blood stains most of the floor and the walls and
+&+reven the ceiling to some extent.  There is only one exit
+&+rout of this room.
+~
+381 8 0
+D1
+Beyond this guest door lies the fort.
+~
+guest door~
+1 0 38148
+S
+#38152
+&+LThe Top of a Large Staircase&N~
+&+L   This is the main staircase which leads back to main
+&+Lentry hall of the fort.  Continuing from the bottom floor,
+&+Lthe red carpeting continues here leading to the south.
+&+LThis floor of the fort is lined doors leading in different
+&+Ldirections to parts of the fort.  There are two large torches
+&+Lon western and eastern walls which illuminate the room with
+&+La yellow glow.  The faint sounds of chatter can be heard
+&+Lin the near distance.   There are exits all around leading
+&+Ldeeper into the fort.
+~
+381 8 0
+D0
+The library door closes the library enterance off.
+~
+library door~
+1 0 38153
+D1
+~
+~
+0 0 38164
+D2
+~
+~
+0 0 38159
+D3
+~
+~
+0 0 38163
+D5
+~
+~
+0 0 38149
+S
+#38153
+&+bThe Hallway of the Library&N~
+    This is the main hallway of the library.  It provides
+access to the main rooms of research and laboratories of
+practice that can be found within these quarters.  The
+hallways here are lined with large bookshelves along the
+western and eastern walls.  The hallway continues in
+a northern direction from this advantage point.  The
+fort lies south just beyond the door.
+~
+381 0 0
+D0
+~
+~
+0 0 38154
+D2
+The fort lies just beyond this door.
+~
+library door~
+1 0 38152
+S
+#38154
+&+bThe Hallway of the Library&N~
+    This main hallway of the library provides access to
+the main rooms of research and laboratories of practice
+that can be found within these quarters.  The hallways
+here are lined with large bookshelves along the western
+and eastern walls.  There are sounds of work taking
+place from the laboratories to the east and west from
+this point in the hallway.  There exits in all
+directions leading deeper into the libarary.
+~
+381 8 0
+D0
+~
+~
+0 0 38157
+D1
+~
+~
+0 0 38155
+D2
+~
+~
+0 0 38153
+D3
+~
+~
+0 0 38156
+S
+#38155
+&+mThe Laboratory of Arcane Magic&N~
+   This large circular room provides service to the library as
+an area where many come to practice spells and incantations of
+all sorts.  There is a large circular table in the center of the
+room where many test tubes and beakers of all shapes and sizes
+can be found. A large candle in the center of the table illuminates
+a large text placed in the center of the table.  There is only
+one exit leading out of this room.
+~
+381 8 0
+D3
+~
+~
+0 0 38154
+S
+#38156
+&+rThe Laboratory of Earthly Magic&N~
+   This large circular room provides service to the library as
+an area where many come to practice spells and incantations of
+all sorts.  There is a large circular table in the center of the
+room where many test tubes and beakers of all shapes and sizes
+can be found. A large candle in the center of the table illuminates
+a large text placed in the center of the table.  There is only
+one exit leading out of this room.
+~
+381 8 0
+D1
+~
+~
+0 0 38154
+S
+#38157
+&+bThe Hallway of the Library&N~
+    This main hallway of the library provides access to
+the main rooms of research and laboratories of practice
+that can be found within these quarters.  The hallways
+here are lined with large bookshelves along the western
+and eastern walls.  The hallway continues in two directions
+from this advantage point.  Further up ahead, there is a
+large rotunda of books.
+~
+381 8 0
+D0
+~
+~
+0 0 38158
+D2
+~
+~
+0 0 38154
+S
+#38158
+&+bThe Rotunda of Books&N~
+    This is the rotunda of the library.   Shelves line this
+circular room in all directions.   All precious items of the
+library are stored within this room.  There are a variety
+of different magical tomes and textbooks which can be found
+along some of the many shelves here.  The room is immaculately
+clean and is illuminated by a large torch in the center of
+the room.  There is only one exit out of this room.
+~
+381 8 0
+D2
+~
+~
+0 0 38157
+S
+#38159
+&+RA Royal Hallway&N~
+&+r   This is the royal hallway of the fort.  It is lined
+&+rwith a red carpet.  The edges of the red carpet here is lined
+&+rwith fibers of gold.  This hallway unlike the others is
+&+rmagically illuminated from some unknown source.  The magical
+&+rglow provides an erie white glow upon everything. Further to
+&+rthe south, there appears to be some sort of assembly of guards.
+&+rThe faint sounds of chatter can be heard in the near distance.
+&+rThere are exits all around leading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38152
+D2
+~
+~
+0 0 38160
+S
+#38160
+&+RThe Royal Hallway&N~
+&+r   This royal hallway of the fort is not travelled by
+&+ranyone without proper authority.  Only designated personnel
+&+rdirectly serving the master travel via this hallway. It is
+&+rlined with a red carpet with the edges lined with fibers of
+&+rgold.  This hallway unlike the others is magically illuminated
+&+rfrom some unknown source.  The magical glow provides an erie
+&+rwhite glow upon everything. Further to the south, there appears
+&+rto be some sort of assembly of guards. The faint sounds of
+&+rchatter can be heard in the near distance. There are exits
+&+rall around leading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38159
+D2
+~
+~
+0 0 38161
+S
+#38161
+&+RThe Royal Hallway&N~
+&+r   This royal hallway of the fort is not travelled by
+&+ranyone without proper authority.  Only designated personnel
+&+rdirectly serving the master travel via this hallway. It is
+&+rlined with a red carpet with the edges lined with fibers of
+&+rgold.  This hallway unlike the others is magically illuminated
+&+rfrom some unknown source.  The magical glow provides an erie
+&+rwhite glow upon everything. To the east and west of this room,
+&+rone can find the royal observatory.  Further to the south, there
+&+rappears to be some sort of assembly of guards. The faint sounds of
+&+rchatter can be heard in the near distance. There are exits
+&+rall around leading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38160
+D1
+~
+~
+0 0 38167
+D2
+~
+~
+0 0 38162
+D3
+~
+~
+0 0 38168
+S
+#38162
+&+RBefore a Royal Staircase&N~
+&+r   This royal hallway of the fort, lined with a red carpet,
+&+rcomes to end at a royal staircase.  The staircase has
+&+rwhite marble banasters lining both sides.  The edges of
+&+rthe red carpet here is lined with a magical glowing fiber
+&+rthat pulses with a magical aura. This hallway unlike the
+&+rothers in the fort is magically illuminated by some unknown
+&+rsource.  The magical glow provides an erie white glow upon
+&+reverything. There are exits all around leading deeper
+&+rinto the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38161
+D4
+~
+~
+0 0 38169
+S
+#38163
+&+yA Storage Room&N~
+&+y   The room here is an old storage room.  Many small crates fill
+&+ythe room here.  The room is lighted by torch light from the
+&+yadjacent room.  There are signs of someone trying to fiddle with
+&+ysome of the crates.  Unsuccessful attempts at unlocking these
+&+ycrates can be noted with signs of broken lockpicks all over
+&+ythe room.  There are two exits out of the room.
+~
+381 8 0
+D1
+~
+~
+0 0 38152
+D3
+~
+~
+0 0 38166
+S
+#38164
+&+cThe Room of Judgement&N~
+   The walls of this room are draped in magenta war banners
+highlighted in gold.  There are other various banners strung on
+the south wall sewn in some cryptic language of the half-elfs.
+There are plaques depicting an ancient ritual on the partially
+covered polished granite walls.  The room is illuminated by a
+large torch on the northern wall.  There are two exits leading
+out of this room.
+~
+381 8 0
+D1
+~
+~
+0 0 38165
+D3
+~
+~
+0 0 38152
+S
+#38165
+&+gThe Bedroom of Mistress Seriana&N~
+   The bedroom here is lavishly decorated.   Many items of decor
+line the north wall of this bedroom.   Mistress Seriana has chosen
+to hang stuffed heads of centaurs and grey elfs from the ceiling.
+A large bed takes up the majority of the room.  There is a large
+plush red rug in the center of the room.  There is only one
+exit out of this room.
+~
+381 8 0
+D3
+~
+~
+0 0 38164
+S
+#38166
+&+yA Shelved Storage Room&N~
+&+y   The storage room here is different that the previous room.
+&+yUnlike the previous, there are no storage crates in this room.
+&+yThe room here is lined with lots of shelves.  Many different
+&+yitems have been placed on the shelves here.  Some areas on the
+&+yshelf have been untouched for ages and are now lined with a
+&+ycoating of dust and dirt.  There is only one exit leading out
+&+yof this storage room.
+~
+381 8 0
+D1
+~
+~
+0 0 38163
+S
+#38167
+&+rA Royal Observatory&N~
+   This room here provides a senic view over the surrounding
+area.  From the large oval shaped window,  the local landscape
+can really be appreciated.   Above the thick forest growth,
+many types of birds and other animals can be seen perched in
+the branches.   Farther in the distance,  there appears to be
+a fire of some sorts.  There is a fire with smoke which is
+clearly visible.  There is only one exit out of this room.
+~
+381 8 0
+D3
+~
+~
+0 0 38161
+S
+#38168
+&+rA Royal Observatory&N~
+   This room here provides a senic view over the surrounding
+area.  From the large oval shaped window,  the local shipping
+traffic can be seen.   There appears to be a group of trolls
+running in the near distant horizon.  From the looks of them,
+they appear to be chasing a small band of humans.  There is
+the site of local city along the western horizon.  There is
+only one exit out of this room.
+~
+381 8 0
+D1
+~
+~
+0 0 38161
+S
+#38169
+&+RAbove a Royal Staircase&N~
+&+r   On the third level of the fort, this royal hallway,
+&+rlined with a red carpet, continues leading deeper into
+&+rthe fort.  The staircase has white marble banasters lining
+&+rboth sides.  The edges of the red carpet here is lined with
+&+ra magical glowing fiber that pulses with a magical aura. This
+&+rhallway unlike the others in the fort is magically illuminated
+&+rby some unknown source.  The magical glow provides an erie
+&+rwhite glow upon everything. There are exits all around
+&+rleading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38170
+D5
+~
+~
+0 0 38162
+S
+#38170
+&+RThe Royal Hallway of the Fort&N~
+&+r   This royal hallway of the fort is not travelled by
+&+ranyone without proper authority.  Only designated personnel
+&+rdirectly serving the master travel via this hallway. It is
+&+rlined with a red carpet with the edges lined with fibers of
+&+rgold.  This hallway unlike the others is magically illuminated
+&+rfrom some unknown source.  The magical glow provides an erie
+&+rwhite glow upon everything.  There is a prayer room to one side
+&+rof the hallway and another observatory along the other side.
+&+rThere are exits all around leading deeper into the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38171
+D1
+~
+~
+0 0 38176
+D2
+~
+~
+0 0 38169
+D3
+~
+~
+0 0 38173
+S
+#38171
+&+RThe Royal Hallway of the Fort&N~
+&+r   This royal hallway of the fort is not travelled by
+&+ranyone without proper authority.  Only designated personnel
+&+rdirectly serving the master travel via this hallway. It is
+&+rlined with a red carpet with the edges lined with fibers of
+&+rgold.  This hallway unlike the others is magically illuminated
+&+rfrom some unknown source.  The magical glow provides an erie
+&+rwhite glow upon everything.  Chatter can be heard in the near
+&+rdistance. There are exits all around leading deeper
+&+rinto the fort.
+~
+381 8 0
+D0
+~
+~
+0 0 38172
+D2
+~
+~
+0 0 38170
+S
+#38172
+&+RThe Throne Room of Master Boyard&N~
+&+r   This large rotunda serves as the throne room of the fort.
+&+rThere is a large golden throne that sits along the northern
+&+raspect of the room. It is there where Master Boyard sits and
+&+rrules over his fort. Next to his large throne, a smaller
+&+rmarble throne for his queen sits.  The room is decorated
+&+rwith many beautiful tapestries of artists from all across
+&+rthe realms.  Above the two thrones,  there is a large
+&+rtapestry.  On this large tapestry, an artist has depicted
+&+rthe wedding of the master.  There is only one exit out of
+&+rthis room.
+~
+381 8 0
+D2
+~
+~
+0 0 38171
+S
+#38173
+&+LA Room of Prayer&N~
+&+L   The room here is decorated with beautiful tapestries.
+&+LOne tapestry along the northern wall is filled with religious
+&+Lsymbols.  Another tapestry along the southern wall depicts the
+&+Lgarden and the altar of life just outside the fort.  The room
+&+Lhere is quiet and has very dim light.  There are two exits
+&+Lleading out of this room.
+~
+381 8 0
+D1
+~
+~
+0 0 38170
+D3
+~
+~
+0 0 38174
+S
+#38174
+&+LA Room of Prayer&N~
+&+L   This prayer room of the fort is decorated with many
+&+Lbeautiful tapestries and religious relics.  One tapestry which
+&+Lhands along the western  wall depicts Bishop Magib in front
+&+Lof the fort.  Another tapestry along the southern wall depicts
+&+Lthe scene from a religious war. The room here is quiet and has
+&+Lvery dim light.  There are two exits leading out of this room.
+~
+381 8 0
+D0
+~
+~
+0 0 38175
+D1
+~
+~
+0 0 38173
+S
+#38175
+&+LThe Inner Sanctum of&N &+bMagib&N~
+&+L   The inner sanctum of Magib is a lightly decorated room.
+&+LThe only piece of furniture within his quarters is a large
+&+Lbed which sits along the northern wall.  The bed is covered
+&+Lwith a beautiful green silk sheet.  There is a small altar
+&+Lalong the western wall.  There is only one exit out of this
+&+Linner sanctum.
+~
+381 8 0
+D2
+~
+~
+0 0 38174
+S
+#38176
+&+rThe Royal Observatory&N~
+   This room here provides a senic view over the surrounding
+area.  From the large oval shaped window,  the local landscape
+can really be appreciated.   Above the thick forest growth,
+many types of birds and other animals can be seen perched in
+the branches.   Farther in the distance,  there appears to be
+a fire of some sorts.  There is a fire with smoke which is
+clearly visible.  There is only one exit out of this room.
+~
+381 8 0
+D3
+~
+~
+0 0 38170
+S

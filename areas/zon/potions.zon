@@ -1,0 +1,37 @@
+#307
+&+WThe Potion &+YTreasure &+WVault&n~
+30714 0 0 40 50 1
+*
+* Zone edited with dikuEdit v2.98h
+*
+*
+*
+*O 0 25106 999 30701 100 0 0 0      * (object not in this .OBJ file)
+*O 0 80831 999 30702 100 0 0 0      * (object not in this .OBJ file)
+*O 0 51004 999 30703 100 0 0 0      * (object not in this .OBJ file)
+*O 0 26661 999 30704 100 0 0 0      * (object not in this .OBJ file)
+*O 0 25106 999 30706 100 0 0 0      * (object not in this .OBJ file)
+*O 0 80831 999 30708 100 0 0 0      * (object not in this .OBJ file)
+*O 0 26661 999 30711 100 0 0 0      * (object not in this .OBJ file)
+*O 0 25759 999 30712 100 0 0 0      * (object not in this .OBJ file)
+*O 0 25759 999 30713 100 0 0 0      * (object not in this .OBJ file)
+*O 0 80831 999 30714 100 0 0 0      * (object not in this .OBJ file)
+*O 0 171 999 25087 100 0 0 0       * monolith
+*O 0 171 999 26860 100 0 0 0       * monolith
+*O 0 171 999 25922 100 0 0 0       * monolith
+*O 0 171 999 81094 100 0 0 0       * monolith
+*O 0 171 999 45718 100 0 0 0       * monolith
+*O 0 171 999 34804 100 0 0 0       * monolith
+*
+M 0 30701 1 30700 100 0 0 0        * a vault guardian (brass)
+*G 1 25106 999 0 100 0 0 0          *    (object not in this .OBJ file)
+*G 1 25106 999 0 100 0 0 0          *    (object not in this .OBJ file)
+M 0 30700 1 30707 100 0 0 0        * a Ceothian vault guard
+*G 1 80831 999 0 100 0 0 0          *    (object not in this .OBJ file)
+*G 1 51004 999 0 100 0 0 0          *    (object not in this .OBJ file)
+*M 0 26645 1 26861 100 0 0 0        * a dire stalker (negative)
+*E 1 26617 50 16 100 0 0 0          *   a dire stalker's dagger
+*E 1 26617 50 17 100 0 0 0          *   a dire stalker's dagger
+*G 1 26661 10 0 100 0 0 0           *    a glowing potion
+*
+S

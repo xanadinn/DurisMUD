@@ -1,0 +1,438 @@
+#994
+&+wVarathorn &+LKeep&n~
+99499 2 0 8 13 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 99400 1 1 100 0 0 0
+*     east exit from "Ruined Gates of Varathorn Keep" to
+*     "Bone Laden Ruined Hall" - closed
+*
+D 0 99401 3 1 100 0 0 0
+*     west exit from "Bone Laden Ruined Hall" to
+*     "Ruined Gates of Varathorn Keep" - closed
+*
+D 0 99406 5 8 100 0 0 0
+*     down exit from "Blood Stained Dead End" to
+*     "Diabolical Dungeon of Vlakmortes" - open/blocked
+*
+D 0 99418 4 8 100 0 0 0
+*     up exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Blood Stained Dead End" - open/blocked
+*
+D 0 99417 4 1 100 0 0 0
+*     up exit from "A Twisted Marble Staircase" to
+*     "Torment Twisted Twilight Tower of Shairak" - closed
+*
+D 0 99472 5 1 100 0 0 0
+*     down exit from "Torment Twisted Twilight Tower of Shairak" to
+*     "A Twisted Marble Staircase" - closed
+*
+D 0 99420 2 8 100 0 0 0
+*     south exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Embalming Chamber" - open/blocked
+*
+D 0 99463 0 8 100 0 0 0
+*     north exit from "Embalming Chamber" to
+*     "Diabolical Dungeon of Vlakmortes" - open/blocked
+*
+D 0 99426 2 1 100 0 0 0
+*     south exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Dismal Torture Chamber" - closed
+*
+D 0 99427 0 1 100 0 0 0
+*     north exit from "Dismal Torture Chamber" to
+*     "Diabolical Dungeon of Vlakmortes" - closed
+*
+D 0 99435 3 1 100 0 0 0
+*     west exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Dung Filled Slave Pen" - closed
+*
+D 0 99436 1 1 100 0 0 0
+*     east exit from "Dung Filled Slave Pen" to
+*     "Diabolical Dungeon of Vlakmortes" - closed
+*
+D 0 99440 3 1 100 0 0 0
+*     west exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Chamber of Impalement" - closed
+*
+D 0 99441 1 1 100 0 0 0
+*     east exit from "Chamber of Impalement" to
+*     "Diabolical Dungeon of Vlakmortes" - closed
+*
+D 0 99443 1 1 100 0 0 0
+*     east exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Shackle Filled Room" - closed
+*
+D 0 99444 3 1 100 0 0 0
+*     west exit from "Shackle Filled Room" to
+*     "Diabolical Dungeon of Vlakmortes" - closed
+*
+D 0 99446 0 1 100 0 0 0
+*     north exit from "Diabolical Dungeon of Vlakmortes" to
+*     "Bone and Blood Strewn Chamber" - closed
+*
+D 0 99447 2 1 100 0 0 0
+*     south exit from "Bone and Blood Strewn Chamber" to
+*     "Diabolical Dungeon of Vlakmortes" - closed
+*
+D 0 99448 0 1 100 0 0 0
+*     north exit from "Nocturnal Tomb of Thyrane" to
+*     "Nocturnal Catacombs of Nrohtereb" - closed
+*
+D 0 99449 2 1 100 0 0 0
+*     south exit from "Nocturnal Catacombs of Nrohtereb" to
+*     "Nocturnal Tomb of Thyrane" - closed
+*
+D 0 99462 0 1 100 0 0 0
+*     north exit from "Nocturnal Catacombs of Nrohtereb" to
+*     "Embalming Chamber" - closed
+*
+D 0 99463 2 1 100 0 0 0
+*     south exit from "Embalming Chamber" to
+*     "Nocturnal Catacombs of Nrohtereb" - closed
+*
+D 0 99467 1 1 100 0 0 0
+*     east exit from "Nocturnal Catacombs of Nrohtereb" to
+*     "Mummification Chamber" - closed
+*
+D 0 99468 3 1 100 0 0 0
+*     west exit from "Mummification Chamber" to
+*     "Nocturnal Catacombs of Nrohtereb" - closed
+*
+D 0 99470 0 1 100 0 0 0
+*     north exit from "Nocturnal Catacombs of Nrohtereb" to
+*     "Nocturnal Chamber of Nrohtereb" - closed
+*
+D 0 99471 2 1 100 0 0 0
+*     south exit from "Nocturnal Chamber of Nrohtereb" to
+*     "Nocturnal Catacombs of Nrohtereb" - closed
+*
+D 0 99482 1 1 100 0 0 0
+*     east exit from "Torment Twisted Twilight Tower of Shairak" to
+*     "Sinister Study of Shairak" - closed
+*
+D 0 99483 3 1 100 0 0 0
+*     west exit from "Sinister Study of Shairak" to
+*     "Torment Twisted Twilight Tower of Shairak" - closed
+*
+D 0 99486 5 1 100 0 0 0
+*     down exit from "Torment Twisted Twilight Tower of Shairak" to
+*     "Dreary Dismal Oubilette" - closed
+*
+D 0 99487 4 1 100 0 0 0
+*     up exit from "Dreary Dismal Oubilette" to
+*     "Torment Twisted Twilight Tower of Shairak" - closed
+*
+D 0 99490 4 1 100 0 0 0
+*     up exit from "Torment Twisted Twilight Tower of Shairak" to
+*     "Top of The Torment Twisted Twilight Tower of Shairak" - closed
+*
+D 0 99491 5 1 100 0 0 0
+*     down exit from "Top of The Torment Twisted Twilight Tower of Shairak" to
+*     "Torment Twisted Twilight Tower of Shairak" - closed
+*
+*
+O 0 99400 1 99406 100 0 0 0        * a large boulder
+O 0 99401 1 99418 100 0 0 0        * a glowing stone
+O 0 99405 1 99420 100 0 0 0        * an image
+O 0 99409 5 99453 100 0 0 0        * some rotted leather armor
+O 0 99430 1 99463 100 0 0 0        * an ossuary
+O 0 99402 999 99483 100 0 0 0      * an old bookshelf
+P 1 99403 1 99402 100 0 0 0        *   a dark bound tome
+P 1 99445 999 99402 100 0 0 0      *   a majestic bluejay feather
+*
+M 0 99462 1 99400 100 0 0 0        * a nefarious warrior
+E 1 99409 5 5 100 0 0 0            *   some rotted leather armor
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99402 6 99401 100 0 0 0        * a vorblot
+M 0 99458 4 99401 100 0 0 0        * a vornite
+M 0 99459 4 99401 100 0 0 0        * a svartnort
+M 0 99460 4 99401 100 0 0 0        * a huge centipede
+M 0 99402 6 99402 100 0 0 0        * a vorblot
+M 0 99406 3 99402 100 0 0 0        * a skeletal knight
+E 1 99409 5 5 100 0 0 0            *   some rotted leather armor
+M 0 99403 5 99403 100 0 0 0        * a dorblot
+M 0 99404 6 99403 100 0 0 0        * a ranvok
+M 0 99459 4 99403 100 0 0 0        * a svartnort
+M 0 99460 4 99403 100 0 0 0        * a huge centipede
+M 0 99461 3 99403 100 0 0 0        * some brown mold
+M 0 99405 3 99404 100 0 0 0        * a skeletal sentry
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99406 3 99404 100 0 0 0        * a skeletal knight
+E 1 99409 5 5 100 0 0 0            *   some rotted leather armor
+M 0 99407 2 99404 100 0 0 0        * a decayed knight
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99458 4 99404 100 0 0 0        * a vornite
+M 0 99458 4 99405 100 0 0 0        * a vornite
+M 0 99460 4 99405 100 0 0 0        * a huge centipede
+M 0 99408 5 99406 100 0 0 0        * a maggot
+M 0 99409 8 99406 100 0 0 0        * a maggot
+M 0 99409 8 99406 100 0 0 0        * a maggot
+M 0 99408 5 99406 100 0 0 0        * a maggot
+M 0 99404 6 99407 100 0 0 0        * a ranvok
+M 0 99459 4 99407 100 0 0 0        * a svartnort
+M 0 99408 5 99408 100 0 0 0        * a maggot
+M 0 99409 8 99408 100 0 0 0        * a maggot
+M 0 99408 5 99408 100 0 0 0        * a maggot
+M 0 99408 5 99408 100 0 0 0        * a maggot
+M 0 99460 4 99408 100 0 0 0        * a huge centipede
+M 0 99402 6 99409 100 0 0 0        * a vorblot
+M 0 99402 6 99409 100 0 0 0        * a vorblot
+M 0 99406 3 99409 100 0 0 0        * a skeletal knight
+E 1 99409 5 5 100 0 0 0            *   some rotted leather armor
+M 0 99458 4 99409 100 0 0 0        * a vornite
+M 0 99403 5 99410 100 0 0 0        * a dorblot
+M 0 99403 5 99410 100 0 0 0        * a dorblot
+M 0 99405 3 99410 100 0 0 0        * a skeletal sentry
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99459 4 99410 100 0 0 0        * a svartnort
+M 0 99403 5 99411 100 0 0 0        * a dorblot
+M 0 99404 6 99411 100 0 0 0        * a ranvok
+M 0 99461 3 99411 100 0 0 0        * some brown mold
+M 0 99402 6 99412 100 0 0 0        * a vorblot
+M 0 99405 3 99412 100 0 0 0        * a skeletal sentry
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99461 3 99412 100 0 0 0        * some brown mold
+M 0 99403 5 99413 100 0 0 0        * a dorblot
+M 0 99407 2 99413 100 0 0 0        * a decayed knight
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99404 6 99414 100 0 0 0        * a ranvok
+M 0 99404 6 99415 100 0 0 0        * a ranvok
+M 0 99404 6 99416 100 0 0 0        * a ranvok
+M 0 99457 5 99418 100 0 0 0        * a large maggot
+M 0 99414 5 99419 100 0 0 0        * a shadow warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99418 6 99419 100 0 0 0        * a slavork
+M 0 99415 2 99423 100 0 0 0        * a flesh fiend
+M 0 99454 5 99423 100 0 0 0        * a large ranvok
+M 0 99416 3 99425 100 0 0 0        * a dragazhar
+M 0 99420 5 99425 100 0 0 0        * a svartnort
+M 0 99427 1 99427 100 0 0 0        * Sir Shraknar
+E 1 99434 1 8 100 0 0 0            *   a pair of dull obsidian sabatons
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99420 5 99428 100 0 0 0        * a svartnort
+M 0 99454 5 99429 100 0 0 0        * a large ranvok
+M 0 99420 5 99430 100 0 0 0        * a svartnort
+M 0 99454 5 99430 100 0 0 0        * a large ranvok
+M 0 99418 6 99430 100 0 0 0        * a slavork
+M 0 99414 5 99431 100 0 0 0        * a shadow warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99454 5 99432 100 0 0 0        * a large ranvok
+M 0 99409 8 99432 100 0 0 0        * a maggot
+M 0 99416 3 99433 100 0 0 0        * a dragazhar
+M 0 99419 2 99433 100 0 0 0        * a rabid ranvok
+M 0 99454 5 99434 100 0 0 0        * a large ranvok
+M 0 99420 5 99434 100 0 0 0        * a svartnort
+M 0 99417 3 99435 100 0 0 0        * a shadow knight
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99429 1 99436 100 0 0 0        * a human woman
+M 0 99430 1 99436 100 0 0 0        * a human man
+M 0 99431 1 99436 100 0 0 0        * a human child
+M 0 99409 8 99436 100 0 0 0        * a maggot
+M 0 99409 8 99436 100 0 0 0        * a maggot
+M 0 99457 5 99436 100 0 0 0        * a large maggot
+M 0 99457 5 99436 100 0 0 0        * a large maggot
+M 0 99414 5 99437 100 0 0 0        * a shadow warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99418 6 99437 100 0 0 0        * a slavork
+M 0 99414 5 99439 100 0 0 0        * a shadow warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99420 5 99439 100 0 0 0        * a svartnort
+M 0 99419 2 99440 100 0 0 0        * a rabid ranvok
+M 0 99414 5 99440 100 0 0 0        * a shadow warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99425 1 99441 100 0 0 0        * Lord Vrados
+E 1 99418 1 11 100 0 0 0           *   a large spiked stone shield
+E 1 99424 1 16 100 0 0 0           *   a twisted bone dagger
+M 0 99415 2 99442 100 0 0 0        * a flesh fiend
+M 0 99418 6 99442 100 0 0 0        * a slavork
+M 0 99402 6 99443 100 0 0 0        * a vorblot
+M 0 99409 8 99443 100 0 0 0        * a maggot
+M 0 99418 6 99443 100 0 0 0        * a slavork
+M 0 99437 1 99444 100 0 0 0        * a halfling slave
+M 0 99439 1 99444 100 0 0 0        * a dwarven slave
+M 0 99440 1 99444 100 0 0 0        * a gnome slave
+M 0 99457 5 99444 100 0 0 0        * a large maggot
+M 0 99457 5 99444 100 0 0 0        * a large maggot
+M 0 99416 3 99445 100 0 0 0        * a dragazhar
+M 0 99418 6 99445 100 0 0 0        * a slavork
+M 0 99426 1 99447 100 0 0 0        * the undead executioner
+E 1 99428 1 16 100 0 0 0           *   a large blood soaked executioner's axe
+M 0 99421 1 99448 100 0 0 0        * Thyrane, Tyrant of Torment
+E 1 99431 1 6 100 0 0 0            *   a faded obsidian helm
+E 1 99441 1 8 100 0 0 0            *   a pair of bloody obsidian boots
+E 1 99427 1 19 100 0 0 0           *   a dull obsidian visor
+M 0 99443 4 99449 100 0 0 0        * a doden warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99446 2 99450 100 0 0 0        * a vampire guard
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99442 2 12 100 0 0 0           *   a cloak of rotted hydrascale
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99448 5 99450 100 0 0 0        * a large hairy spider
+M 0 99449 7 99450 100 0 0 0        * a vorblot
+M 0 99452 4 99450 100 0 0 0        * a whisper spider
+M 0 99449 7 99451 100 0 0 0        * a vorblot
+M 0 99450 3 99451 100 0 0 0        * a sinister
+M 0 99446 2 99452 100 0 0 0        * a vampire guard
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99442 2 12 100 0 0 0           *   a cloak of rotted hydrascale
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99449 7 99452 100 0 0 0        * a vorblot
+M 0 99444 4 99454 100 0 0 0        * a doden knight
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99444 4 13 100 0 0 0           *   a torn obsidian belt
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99443 4 99454 100 0 0 0        * a doden warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99409 8 99454 100 0 0 0        * a maggot
+M 0 99444 4 99455 100 0 0 0        * a doden knight
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99444 4 13 100 0 0 0           *   a torn obsidian belt
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99447 7 99455 100 0 0 0        * a hairy spider
+M 0 99448 5 99455 100 0 0 0        * a large hairy spider
+M 0 99449 7 99455 100 0 0 0        * a vorblot
+M 0 99445 3 99456 100 0 0 0        * a vampire guardian
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99417 3 99457 100 0 0 0        * a shadow knight
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99447 7 99457 100 0 0 0        * a hairy spider
+M 0 99449 7 99457 100 0 0 0        * a vorblot
+M 0 99443 4 99459 100 0 0 0        * a doden warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99448 5 99459 100 0 0 0        * a large hairy spider
+M 0 99449 7 99459 100 0 0 0        * a vorblot
+M 0 99452 4 99459 100 0 0 0        * a whisper spider
+M 0 99417 3 99460 100 0 0 0        * a shadow knight
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99444 4 99461 100 0 0 0        * a doden knight
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99444 4 13 100 0 0 0           *   a torn obsidian belt
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99450 3 99461 100 0 0 0        * a sinister
+M 0 99443 4 99462 100 0 0 0        * a doden warrior
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99445 3 99462 100 0 0 0        * a vampire guardian
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99447 7 99462 100 0 0 0        * a hairy spider
+M 0 99452 4 99462 100 0 0 0        * a whisper spider
+M 0 99424 1 99463 100 0 0 0        * Lord Quaden
+E 1 99433 1 5 100 0 0 0            *   a suit of splintbone chainmail
+E 1 99422 1 16 100 0 0 0           *   a curved bloody longsword
+E 1 99406 15 17 100 0 0 0          *   a spiked stone mace
+M 0 99452 4 99464 100 0 0 0        * a whisper spider
+M 0 99444 4 99465 100 0 0 0        * a doden knight
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99444 4 13 100 0 0 0           *   a torn obsidian belt
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99447 7 99465 100 0 0 0        * a hairy spider
+M 0 99448 5 99465 100 0 0 0        * a large hairy spider
+M 0 99447 7 99466 100 0 0 0        * a hairy spider
+M 0 99449 7 99466 100 0 0 0        * a vorblot
+M 0 99445 3 99467 100 0 0 0        * a vampire guardian
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+E 1 99439 24 17 100 0 0 0          *   a cracked obsidian club
+M 0 99447 7 99467 100 0 0 0        * a hairy spider
+M 0 99450 3 99467 100 0 0 0        * a sinister
+M 0 99428 1 99468 100 0 0 0        * Kastar, The Trice Cursed
+E 1 99413 1 15 100 0 0 0           *   a spiked leather bracer
+M 0 99447 7 99469 100 0 0 0        * a hairy spider
+M 0 99448 5 99470 100 0 0 0        * a large hairy spider
+M 0 99401 1 99471 100 0 0 0        * Nrohtereb
+E 1 99414 1 2 100 0 0 0            *   a snake skull ring
+E 1 99407 1 7 100 0 0 0            *   a pair of spectral leggings
+E 1 99440 1 10 100 0 0 0           *   a pair of faded emerald sleeves
+E 1 99448 1 24 100 0 0 0           *   a daemonic serpent insignia
+G 1 99429 1 0 100 0 0 0            *    the opal eye of Nrohtereb
+M 0 99410 2 99472 100 0 0 0        * a zombie guardian
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99411 5 99473 100 0 0 0        * a zombie servant
+M 0 99413 5 99473 100 0 0 0        * a zombie sentry
+M 0 99412 4 99475 100 0 0 0        * a skeletal servant
+M 0 99411 5 99476 100 0 0 0        * a zombie servant
+M 0 99413 5 99477 100 0 0 0        * a zombie sentry
+M 0 99413 5 99479 100 0 0 0        * a zombie sentry
+M 0 99400 2 99480 100 0 0 0        * a zombie guard
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99413 5 99481 100 0 0 0        * a zombie sentry
+M 0 99412 4 99482 100 0 0 0        * a skeletal servant
+M 0 99410 2 99484 100 0 0 0        * a zombie guardian
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99439 24 16 100 0 0 0          *   a cracked obsidian club
+M 0 99412 4 99484 100 0 0 0        * a skeletal servant
+M 0 99412 4 99486 100 0 0 0        * a skeletal servant
+M 0 99422 1 99487 100 0 0 0        * a noctambulant
+E 1 99436 1 20 100 0 0 0           *   a chipped skull mask
+E 1 99425 1 23 100 0 0 0           *   a black leather quiver
+M 0 99400 2 99488 100 0 0 0        * a zombie guard
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99406 15 16 100 0 0 0          *   a spiked stone mace
+M 0 99411 5 99488 100 0 0 0        * a zombie servant
+M 0 99411 5 99489 100 0 0 0        * a zombie servant
+M 0 99413 5 99489 100 0 0 0        * a zombie sentry
+M 0 99411 5 99490 100 0 0 0        * a zombie servant
+M 0 99453 1 99491 100 0 0 0        * Varathorn, The Forsaken One
+M 0 99435 1 99492 100 0 0 0        * Dicalk, Man at Arms
+E 1 99408 16 11 100 0 0 0          *   a spiked stone shield
+E 1 99426 1 13 100 0 0 0           *   a belt bearing the seal of Shairak
+E 1 99411 1 16 100 0 0 0           *   a chipped sword
+E 1 99404 1 28 100 0 0 0           *   a stone key
+M 0 99436 1 99493 100 0 0 0        * Sir Slordlak
+E 1 99437 7 5 100 0 0 0            *   a faded suit of obsidian plate
+E 1 99415 1 27 100 0 0 0           *   a black leather backpack
+M 0 99432 1 99494 100 0 0 0        * Lord Svartos
+E 1 99410 7 8 100 0 0 0            *   some black leather boots
+E 1 99423 1 10 100 0 0 0           *   a pair of spiked leather sleeves
+E 1 99421 1 21 100 0 0 0           *   an emerald ear stud
+M 0 99441 2 99494 100 0 0 0        * an escaped dwarven slave
+M 0 99438 3 99494 100 0 0 0        * an escaped halfling slave
+M 0 99442 1 99494 100 0 0 0        * an escaped gnome slave
+M 0 99455 2 99494 100 0 0 0        * a large flesh fiend
+M 0 99455 2 99494 100 0 0 0        * a large flesh fiend
+M 0 99456 2 99494 100 0 0 0        * a dragazhar
+M 0 99433 1 99495 100 0 0 0        * Sir Vraklask
+E 1 99438 1 7 100 0 0 0            *   a pair of faded obsidian leggings
+E 1 99416 1 9 100 0 0 0            *   a pair of spiked leather gloves
+M 0 99438 3 99495 100 0 0 0        * an escaped halfling slave
+M 0 99438 3 99495 100 0 0 0        * an escaped halfling slave
+M 0 99441 2 99495 100 0 0 0        * an escaped dwarven slave
+M 0 99456 2 99495 100 0 0 0        * a dragazhar
+M 0 99423 1 99496 100 0 0 0        * Zarthos, The Vampire Hunter
+E 1 99417 1 5 100 0 0 0            *   the holy armor of Zarthos
+E 1 99432 1 27 100 0 0 0           *   the claymore of Zarthos the vampire hunter
+M 0 99451 3 99496 100 0 0 0        * a sinister
+M 0 99451 3 99497 100 0 0 0        * a sinister
+M 0 99434 1 99498 100 0 0 0        * Volordles, The Mystical Knight
+E 1 99420 1 3 100 0 0 0            *   a stone talisman
+E 1 99435 1 5 100 0 0 0            *   a thick black hooded robe
+E 1 99443 1 6 100 0 0 0            *   a tarnished emerald crown
+G 1 99412 1 0 100 0 0 0            *    a raven feather quill
+M 0 99451 3 99498 100 0 0 0        * a sinister
+*
+S

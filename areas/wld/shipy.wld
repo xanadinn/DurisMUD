@@ -1,0 +1,4886 @@
+#43100
+&+LA &+yMuddy &+LRoad&N~
+&+y   The field opens up onto this small dirt pathway.  It
+&+yappears as though heavy travel has eroded the natural plant
+&+ygrowth of this land.  In this pathway, there are small
+&+yfootprints and various markings of different vehicles. Just
+&+yto the north is a large ship yard.  There are exits in
+&+ytwo directions.
+~
+431 32768 2
+D2
+~
+~
+0 0 545743
+D3
+~
+~
+0 0 43101
+S
+#43101
+&+LThe Gates of &+WCanderthal Harbor&N~
+&+y   A large wooden wall seals off the ship yard from the
+&+ythe surrounding area.  The wall towers above the surrounding
+&+yarea.  At the top of the wall,  there are guards watching
+&+yfrom their post.  A large metal gate seals off the exit
+&+yto the north.  There are exits leading away in two
+&+ydirections.
+~
+431 32768 0
+D0
+~
+gates~
+1 0 43235
+D1
+~
+~
+0 0 43100
+S
+#43102
+&+WThe Center of the &+yMain Dock&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls of many sizes and
+&+yshapes.   The sounds of hammers and chatter echo throughout
+&+ythis area.  Many ships can be seen docked along the piers which
+&+yare to the north and the west.  There are exits all around
+&+yleading to different parts of the pier.
+~
+431 32768 1
+D0
+The passenger pier is to the north.
+~
+~
+0 0 43109
+D1
+The main dock of the ship yard stretches to the east.
+~
+~
+0 0 43112
+D2
+~
+~
+0 0 43243
+D3
+The main dock of the ship yard stretches to the west.
+~
+~
+0 0 43103
+S
+#43103
+&+LThe &+yMain Dock&+L of &+WCanderthal Harbor&N~
+&+y   Along this part of the main dock, many shipping vessel
+&+ycaptains have unloaded some of their crates for temporary
+&+ystorage here.  The crates are stacked along the large wooden
+&+ywall. Farther to the  east side of the dock, many workers
+&+ycan be seen constructing hulls.  Along the piers to the
+&+ynorth and to the east, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43102
+D3
+~
+~
+0 0 43104
+S
+#43104
+&+LThe &+yMain Dock&+L of &+WCanderthal Harbor&N~
+&+y   The western portion of the main dock of this ship yard
+&+ycomes to an end at the intersection of the northern pier.
+&+yConstructed from large planks of imported wood,  the dock
+&+ystretches to the east from this point.  Along the northern
+&+yand eastern piers, many ships can be seen docked along the
+&+ypier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D0
+~
+~
+0 0 43106
+D1
+~
+~
+0 0 43103
+D3
+A bank lies beyond this door.
+~
+door~
+1 0 43105
+S
+#43105
+&+LThe &+CBank &+Lof &+WCanderthal Harbor&N~
+&+y   This small office serves as the bank for the ship yard.
+&+ySimilarly constructed out of wood,  this establishment is
+&+yalways filled with customers. It is here that many sorts
+&+yof different bank transactions take place.  There is a
+&+ysmall counter along the north wall.  Along the south wall,
+&+ya large wooden desk rests. On this desk, there are many
+&+ydifferent papers of all shapes and sizes.  There is only
+&+yone exit out of the bank.
+~
+431 32768 0
+D1
+The ship yard lies beyond this door.
+~
+door~
+1 0 43104
+S
+#43106
+&+WThe Northern Pier&N~
+&+y   On the northern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues further to the north.
+~
+431 1081344 1
+D0
+The northern pier continues to the north.
+~
+~
+0 0 43107
+D1
+~
+~
+0 0 43121
+D2
+The main dock is to the south.
+~
+~
+0 0 43104
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43120
+S
+#43107
+&+WThe Northern Pier&N~
+&+y   Here along the northern pier,  many travellers can
+&+ybe seen entering the sea-worthy vessels.  Some large
+&+ycrates have been stacked along this part of the pier.
+&+yMany large beautiful ships can always be found docked
+&+yalong both sides of the pier.  The pier here is also
+&+yconstructed from imported wooden planks. The pier here
+&+yis kept clean by a hardworking crew of dock hands. The
+&+ynorthern pier continues in two directions from this
+&+yadvantage point.
+~
+431 1081344 1
+D0
+The northern pier continues north.
+~
+~
+0 0 43108
+D1
+~
+~
+0 0 43125
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43106
+D3
+~
+~
+0 0 43124
+S
+#43108
+&+WEnd of the Northern Pier&N~
+&+y   At the end of the northern pier,  the ocean can be seen
+&+yall the way to the horizon.  A few large ships can be seen
+&+ysailing off in the far distance.   Some of these large ships
+&+ycan always be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues just to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43133
+D1
+~
+~
+0 0 43129
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43107
+D3
+~
+~
+0 0 43128
+S
+#43109
+&+yA Passenger Pier&N~
+&+y  This part of the passenger pier is reinforced with
+&+ywith green wooden planks.  Many of the wooden planks
+&+ydemonstrate signs of deterioration.  Under the stresses
+&+yof the weight of the many passengers who use this pier,
+&+ysome of the planks creak and bend.   The pier here is
+&+yfilled with many passenger vessels.  The pier stretches
+&+yin a northward direction from this advantage point.
+~
+431 1081344 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43110
+D1
+~
+~
+0 0 43122
+D2
+The main dock is to the south.
+~
+~
+0 0 43102
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43121
+S
+#43110
+&+yA Passenger Pier&N~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 1081344 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43111
+D1
+~
+~
+0 0 43126
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43109
+D3
+~
+~
+0 0 43125
+S
+#43111
+&+yEnd of a Passenger Pier&N~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43135
+D1
+~
+~
+0 0 43130
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43110
+D3
+~
+~
+0 0 43129
+S
+#43112
+&+LThe &+yMain Dock&+L of &+WCanderthal Harbor&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43113
+D2
+~
+door~
+1 0 43220
+D3
+~
+~
+0 0 43102
+S
+#43113
+&+LThe &+yMain Dock &+Lof &+WCanderthal Harbor~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43115
+D2
+~
+door~
+1 0 43114
+D3
+~
+~
+0 0 43112
+S
+#43114
+&+CSafi's &+cSlashers&N~
+&+y   This large establishment is the shop of weapons of the
+&+yship yard.  It is within this shop that patrons can buy
+&+yvarious sorts of weapons to arm their shipping vessels.
+&+yThere are lots of pictures of various sorts of weapons
+&+yhanging from the south wall of this shop.  Under each
+&+ypicture, there is a small written description and a
+&+yprice quote.  Along the west wall, there is a pile of
+&+ycannon balls and chains.  There is only one exit out
+&+yof this store.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43113
+S
+#43115
+&+LThe &+yMain Dock&+L of &+WCanderthal Harbor&N~
+&+y   The eastern portion of the main dock of this ship yard
+&+ycomes to an end here at the intersection of the pier of
+&+yhull construction.  Constructed from large planks of
+&+yimported wood,  the dock stretches to the west from this
+&+ypoint.  Along the pier to the north, many workers can be
+&+yseen building ship hulls.  There are exits all around
+&+yleading to different parts of the pier.
+~
+431 32768 1
+D0
+~
+~
+0 0 43117
+D1
+~
+door~
+1 0 43116
+D3
+~
+~
+0 0 43113
+S
+#43116
+&+YPol's Poles&N~
+&+y   In this large establishment, one may get the opportunity
+&+yto purchase sails for their vessels.  There are various
+&+ysamples of different materials on the large table in the
+&+ycenter of the room.  Also on this table, there are small
+&+ystacks of different texts of sailing.  There is only one
+&+yexit out of this store.
+~
+431 32768 0
+D3
+~
+door~
+1 0 43115
+S
+#43117
+&+yThe Pier &+cof &+CHull &+LConstruction~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43118
+D2
+~
+~
+0 0 43115
+D3
+~
+~
+0 0 43123
+S
+#43118
+&+yThe Pier &+cof &+CHull &+LConstruction~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43119
+D2
+~
+~
+0 0 43117
+D3
+~
+~
+0 0 43127
+S
+#43119
+&+yEnd of the Pier &+cof &+CHull &+LConstruction&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43138
+D2
+The pier stretches to the south.
+~
+~
+0 0 43118
+D3
+~
+~
+0 0 43131
+S
+#43120
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43124
+D1
+~
+~
+0 0 43106
+D3
+~
+~
+0 0 157323
+S
+#43121
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43125
+D1
+~
+~
+0 0 43109
+D3
+~
+~
+0 0 43106
+S
+#43122
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43126
+D1
+~
+~
+0 0 43123
+D3
+~
+~
+0 0 43109
+S
+#43123
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43127
+D1
+~
+~
+0 0 43117
+D3
+~
+~
+0 0 43122
+S
+#43124
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43128
+D1
+~
+~
+0 0 43107
+D2
+~
+~
+0 0 43120
+S
+#43125
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43129
+D1
+~
+~
+0 0 43110
+D2
+~
+~
+0 0 43121
+D3
+~
+~
+0 0 43107
+S
+#43126
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43130
+D1
+~
+~
+0 0 43127
+D2
+~
+~
+0 0 43122
+D3
+~
+~
+0 0 43110
+S
+#43127
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43131
+D1
+~
+~
+0 0 43118
+D2
+~
+~
+0 0 43123
+D3
+~
+~
+0 0 43126
+S
+#43128
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43132
+D1
+~
+~
+0 0 43108
+D2
+~
+~
+0 0 43124
+S
+#43129
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43134
+D1
+~
+~
+0 0 43111
+D2
+~
+~
+0 0 43125
+D3
+~
+~
+0 0 43108
+S
+#43130
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43136
+D1
+~
+~
+0 0 43131
+D2
+~
+~
+0 0 43126
+D3
+~
+~
+0 0 43111
+S
+#43131
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43137
+D1
+~
+~
+0 0 43119
+D2
+~
+~
+0 0 43127
+D3
+~
+~
+0 0 43130
+S
+#43132
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43133
+D2
+~
+~
+0 0 43128
+S
+#43133
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43134
+D2
+~
+~
+0 0 43108
+D3
+~
+~
+0 0 43132
+S
+#43134
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43135
+D2
+~
+~
+0 0 43129
+D3
+~
+~
+0 0 43133
+S
+#43135
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43136
+D2
+~
+~
+0 0 43111
+D3
+~
+~
+0 0 43134
+S
+#43136
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43139
+D1
+~
+~
+0 0 43137
+D2
+~
+~
+0 0 43130
+D3
+~
+~
+0 0 43135
+S
+#43137
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43138
+D2
+~
+~
+0 0 43131
+D3
+~
+~
+0 0 43136
+S
+#43138
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D2
+~
+~
+0 0 43119
+D3
+~
+~
+0 0 43137
+S
+#43139
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 544943
+D1
+~
+~
+0 0 545344
+D2
+~
+~
+0 0 43136
+S
+#43140
+&+LA &+rStake-Lined &+LPathway&N~
+&+y   The field opens up onto this small dirt pathway.  It
+&+yappears as though heavy travel has eroded the natural plant
+&+ygrowth of this land.  In this pathway, there are small
+&+yfootprints and various markings of different vehicles. Just
+&+yto the north is a large ship yard.  There are exits in
+&+ytwo directions.
+~
+431 33587200 2
+D0
+There is a ship yard to the north.
+~
+~
+0 0 43141
+D1
+~
+~
+0 0 616947
+S
+#43141
+&+LThe Spiked &+yGates &+Lof &+rThur'Gurax Port&N~
+&+y   A large wooden wall seals off the ship yard from the
+&+ythe surrounding area.  The wall towers above the surrounding
+&+yarea.  At the top of the wall,  there are guards watching
+&+yfrom their post.  A large metal gate seals off the exit
+&+yto the north.  There are exits leading away in two
+&+ydirections.
+~
+431 33587200 1
+D0
+~
+gates~
+1 0 43278
+D2
+The small dirt path is to the south.
+~
+~
+0 0 43140
+S
+#43142
+&+rThe &+WCenter&+r of the &+RThur'Gurax &+rDock~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls of many sizes and
+&+yshapes.   The sounds of hammers and chatter echo throughout
+&+ythis area.  Many ships can be seen docked along the piers which
+&+yare to the north and the west.  There are exits all around
+&+yleading to different parts of the pier.
+~
+431 33587200 1
+D0
+The passenger pier is to the north.
+~
+~
+0 0 43149
+D1
+The main dock of the ship yard stretches to the east.
+~
+~
+0 0 43152
+D2
+The main gates of the ship yard are to the south.
+~
+~
+0 0 43298
+D3
+The main dock of the ship yard stretches to the west.
+~
+~
+0 0 43143
+S
+#43143
+&+gThe &+WMain Dock&+g of &+rThur'Gurax Port&N~
+&+y   Along this part of the main dock, many shipping vessel
+&+ycaptains have unloaded some of their crates for temporary
+&+ystorage here.  The crates are stacked along the large wooden
+&+ywall. Farther to the  east side of the dock, many workers
+&+ycan be seen constructing hulls.  Along the piers to the
+&+ynorth and to the east, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 33587200 1
+D1
+~
+~
+0 0 43142
+D3
+~
+~
+0 0 43144
+S
+#43144
+&+gThe &+WMain Dock &+gof &+rThur'Gurax Port&N~
+&+y   The western portion of the main dock of this ship yard
+&+ycomes to an end at the intersection of the northern pier.
+&+yConstructed from large planks of imported wood,  the dock
+&+ystretches to the east from this point.  Along the northern
+&+yand eastern piers, many ships can be seen docked along the
+&+ypier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 33587200 1
+D0
+~
+~
+0 0 43146
+D1
+~
+~
+0 0 43143
+D3
+A bank lies beyond this door.
+~
+door~
+1 0 43145
+S
+#43145
+&+rThe &+CBank &+rof Thur'Gurax Port&N~
+&+y   This small office serves as the bank for the ship yard.
+&+ySimilarly constructed out of wood,  this establishment is
+&+yalways filled with customers. It is here that many sorts
+&+yof different bank transactions take place.  There is a
+&+ysmall counter along the north wall.  Along the south wall,
+&+ya large wooden desk rests. On this desk, there are many
+&+ydifferent papers of all shapes and sizes.  There is only
+&+yone exit out of the bank.
+~
+431 33587200 0
+D1
+The ship yard lies beyond this door.
+~
+door~
+1 0 43144
+S
+#43146
+&+WThe &+gNorthern &+WPier&N~
+&+y   On the northern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues further to the north.
+~
+431 34635776 1
+D0
+The northern pier continues to the north.
+~
+~
+0 0 43147
+D1
+~
+~
+0 0 43161
+D2
+The main dock is to the south.
+~
+~
+0 0 43144
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43160
+S
+#43147
+&+WThe &+gNorthern &+WPier&N~
+&+y   Here along the northern pier,  many travellers can
+&+ybe seen entering the sea-worthy vessels.  Some large
+&+ycrates have been stacked along this part of the pier.
+&+yMany large beautiful ships can always be found docked
+&+yalong both sides of the pier.  The pier here is also
+&+yconstructed from imported wooden planks. The pier here
+&+yis kept clean by a hardworking crew of dock hands. The
+&+ynorthern pier continues in two directions from this
+&+yadvantage point.
+~
+431 34635776 1
+D0
+The northern pier continues north.
+~
+~
+0 0 43148
+D1
+~
+~
+0 0 43165
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43146
+D3
+~
+~
+0 0 43164
+S
+#43148
+&+WEnd of the &+gNorthern &+WPier&N~
+&+y   At the end of the northern pier,  the ocean can be seen
+&+yall the way to the horizon.  A few large ships can be seen
+&+ysailing off in the far distance.   Some of these large ships
+&+ycan always be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues just to the south.
+~
+431 34635776 1
+D0
+~
+~
+0 0 43173
+D1
+~
+~
+0 0 43169
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43147
+D3
+~
+~
+0 0 43168
+S
+#43149
+&+gA &+WPassenger &+gPier&N~
+&+y  This part of the passenger pier is reinforced with
+&+ywith green wooden planks.  Many of the wooden planks
+&+ydemonstrate signs of deterioration.  Under the stresses
+&+yof the weight of the many passengers who use this pier,
+&+ysome of the planks creak and bend.   The pier here is
+&+yfilled with many passenger vessels.  The pier stretches
+&+yin a northward direction from this advantage point.
+~
+431 34635776 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43150
+D1
+~
+~
+0 0 43162
+D2
+The main dock is to the south.
+~
+~
+0 0 43142
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43161
+S
+#43150
+&+gA &+WPassenger &+gPier&N~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 34635776 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43151
+D1
+~
+~
+0 0 43166
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43149
+D3
+~
+~
+0 0 43165
+S
+#43151
+&+gEnd of a &+WPassenger &+gPier&N~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 34635776 1
+D0
+~
+~
+0 0 43175
+D1
+~
+~
+0 0 43170
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43150
+D3
+~
+~
+0 0 43169
+S
+#43152
+&+gThe &+WMain Dock &+gof &+rThur'Gurax Port&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 33587200 1
+D1
+~
+~
+0 0 43153
+D2
+~
+door~
+1 0 43221
+D3
+~
+~
+0 0 43142
+S
+#43153
+&+gThe &+WMain Dock &+gof &+rThur'Gurax Port&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 33587200 1
+D1
+~
+~
+0 0 43155
+D2
+~
+door~
+1 0 43154
+D3
+~
+~
+0 0 43152
+S
+#43154
+&+BMahii's &+rWeapon &+BHut&N~
+&+y   This large establishment is the shop of weapons of the
+&+yship yard.  It is within this shop that patrons can buy
+&+yvarious sorts of weapons to arm their shipping vessels.
+&+yThere are lots of pictures of various sorts of weapons
+&+yhanging from the south wall of this shop.  Under each
+&+ypicture, there is a small written description and a
+&+yprice quote.  Along the west wall, there is a pile of
+&+ycannon balls and chains.  There is only one exit out
+&+yof this store.
+~
+431 33587200 0
+D0
+~
+door~
+1 0 43153
+S
+#43155
+&+gThe &+WMain Dock &+gof &+rThur'Gurax Port&N~
+&+y   The eastern portion of the main dock of this ship yard
+&+ycomes to an end here at the intersection of the pier of
+&+yhull construction.  Constructed from large planks of
+&+yimported wood,  the dock stretches to the west from this
+&+ypoint.  Along the pier to the north, many workers can be
+&+yseen building ship hulls.  There are exits all around
+&+yleading to different parts of the pier.
+~
+431 33587200 1
+D0
+~
+~
+0 0 43157
+D1
+~
+door~
+1 0 43156
+D3
+~
+~
+0 0 43153
+S
+#43156
+&+YPonit's &+gSupply &+WHut&N~
+&+y   In this large establishment, one may get the opportunity
+&+yto purchase sails for their vessels.  There are various
+&+ysamples of different materials on the large table in the
+&+ycenter of the room.  Also on this table, there are small
+&+ystacks of different texts of sailing.  There is only one
+&+yexit out of this store.
+~
+431 33587200 0
+D3
+~
+door~
+1 0 43155
+S
+#43157
+&+gThe &+WConstruction Pier&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 34635776 1
+D0
+~
+~
+0 0 43158
+D2
+~
+~
+0 0 43155
+D3
+~
+~
+0 0 43163
+S
+#43158
+&+gThe &+WConstruction Pier&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 34635776 1
+D0
+~
+~
+0 0 43159
+D2
+~
+~
+0 0 43157
+D3
+~
+~
+0 0 43167
+S
+#43159
+&+gEnd of the &+WConstruction Pier&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 34635776 1
+D0
+~
+~
+0 0 43178
+D2
+The pier stretches to the south.
+~
+~
+0 0 43158
+D3
+~
+~
+0 0 43171
+S
+#43160
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43164
+D1
+~
+~
+0 0 43146
+S
+#43161
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43165
+D1
+~
+~
+0 0 43149
+D3
+~
+~
+0 0 43146
+S
+#43162
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43166
+D1
+~
+~
+0 0 43163
+D3
+~
+~
+0 0 43149
+S
+#43163
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43167
+D1
+~
+~
+0 0 43157
+D3
+~
+~
+0 0 43162
+S
+#43164
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43168
+D1
+~
+~
+0 0 43147
+D2
+~
+~
+0 0 43160
+S
+#43165
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43169
+D1
+~
+~
+0 0 43150
+D2
+~
+~
+0 0 43161
+D3
+~
+~
+0 0 43147
+S
+#43166
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43170
+D1
+~
+~
+0 0 43167
+D2
+~
+~
+0 0 43162
+D3
+~
+~
+0 0 43150
+S
+#43167
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43171
+D1
+~
+~
+0 0 43158
+D2
+~
+~
+0 0 43163
+D3
+~
+~
+0 0 43166
+S
+#43168
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43172
+D1
+~
+~
+0 0 43148
+D2
+~
+~
+0 0 43164
+S
+#43169
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43174
+D1
+~
+~
+0 0 43151
+D2
+~
+~
+0 0 43165
+D3
+~
+~
+0 0 43148
+S
+#43170
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43176
+D1
+~
+~
+0 0 43171
+D2
+~
+~
+0 0 43166
+D3
+~
+~
+0 0 43151
+S
+#43171
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43177
+D1
+~
+~
+0 0 43159
+D2
+~
+~
+0 0 43167
+D3
+~
+~
+0 0 43170
+S
+#43172
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D1
+~
+~
+0 0 43173
+D2
+~
+~
+0 0 43168
+S
+#43173
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D1
+~
+~
+0 0 43174
+D2
+~
+~
+0 0 43148
+D3
+~
+~
+0 0 43172
+S
+#43174
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D1
+~
+~
+0 0 43175
+D2
+~
+~
+0 0 43169
+D3
+~
+~
+0 0 43173
+S
+#43175
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D1
+~
+~
+0 0 43176
+D2
+~
+~
+0 0 43151
+D3
+~
+~
+0 0 43174
+S
+#43176
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 43179
+D1
+~
+~
+0 0 43177
+D2
+~
+~
+0 0 43170
+D3
+~
+~
+0 0 43175
+S
+#43177
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D1
+~
+~
+0 0 43178
+D2
+~
+~
+0 0 43171
+D3
+~
+~
+0 0 43176
+S
+#43178
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D2
+~
+~
+0 0 43159
+D3
+~
+~
+0 0 43177
+S
+#43179
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 33587200 12
+D0
+~
+~
+0 0 616546
+D2
+~
+~
+0 0 43176
+D3
+~
+~
+0 0 616945
+S
+#43180
+&+gA &+GGrassy &+gPathway&N~
+&+y   The field opens up onto this small dirt pathway.  It
+&+yappears as though heavy travel has eroded the natural plant
+&+ygrowth of this land.  In this pathway, there are small
+&+yfootprints and various markings of different vehicles. Just
+&+yto the north is a large ship yard.  There are exits in
+&+ytwo directions.
+~
+431 32768 2
+D0
+There is a ship yard to the north.
+~
+~
+0 0 43181
+D2
+~
+~
+0 0 529227
+S
+#43181
+&+cThe &+yGreat Doors&+c of Fenaline Shipyard&N~
+&+y   A large wooden wall seals off the ship yard from the
+&+ythe surrounding area.  The wall towers above the surrounding
+&+yarea.  At the top of the wall,  there are guards watching
+&+yfrom their post.  A large metal gate seals off the exit
+&+yto the north.  There are exits leading away in two
+&+ydirections.
+~
+431 32768 1
+D0
+~
+door~
+1 0 43255
+D2
+The small dirt path is to the south.
+~
+~
+0 0 43180
+S
+#43182
+&+CThe Center of the &+cFenaline Shipyard&N~
+   &+cThis shipyard center gives access to the passenger pier, the northern
+&+cpier, and the construction pier where the great elven ships are created.
+&+cThere are numerous races of all people making use of these great
+&+celven docks, be it for rest during a treacherous sea journey or
+&+csimply just to take in the culture of this rich elven outpost.
+~
+431 32768 1
+D0
+The passenger pier is to the north.
+~
+~
+0 0 43189
+D1
+The main dock of the ship yard stretches to the east.
+~
+~
+0 0 43192
+D2
+The main gates of the ship yard are to the south.
+~
+~
+0 0 43269
+D3
+The main dock of the ship yard stretches to the west.
+~
+~
+0 0 43183
+S
+#43183
+&+cThe &+CMain Dock &+cof the &+CFenaline Shipyard&N~
+&+y   Along this part of the main dock, many shipping vessel
+&+ycaptains have unloaded some of their crates for temporary
+&+ystorage here.  The crates are stacked along the large wooden
+&+ywall. Farther to the  east side of the dock, many workers
+&+ycan be seen constructing hulls.  Along the piers to the
+&+ynorth and to the east, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43182
+D3
+~
+~
+0 0 43184
+S
+#43184
+&+CThe Main Dock &+cof the Fenaline Shipyard&N~
+&+y   The western portion of the main dock of this ship yard
+&+ycomes to an end at the intersection of the northern pier.
+&+yConstructed from large planks of imported wood,  the dock
+&+ystretches to the east from this point.  Along the northern
+&+yand eastern piers, many ships can be seen docked along the
+&+ypier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D0
+~
+~
+0 0 43186
+D1
+~
+~
+0 0 43183
+D3
+A bank lies beyond this door.
+~
+door~
+1 0 43185
+S
+#43185
+&+GThe Bank of &+CFenaline&N~
+&+y   This small office serves as the bank for the ship yard.
+&+ySimilarly constructed out of wood,  this establishment is
+&+yalways filled with customers. It is here that many sorts
+&+yof different bank transactions take place.  There is a
+&+ysmall counter along the north wall.  Along the south wall,
+&+ya large wooden desk rests. On this desk, there are many
+&+ydifferent papers of all shapes and sizes.  There is only
+&+yone exit out of the bank.
+~
+431 32768 0
+D1
+The ship yard lies beyond this door.
+~
+door~
+1 0 43184
+S
+#43186
+&+CThe Northern Pier&N~
+&+y   On the northern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues further to the north.
+~
+431 1081344 1
+D0
+The northern pier continues to the north.
+~
+~
+0 0 43187
+D1
+~
+~
+0 0 43201
+D2
+The main dock is to the south.
+~
+~
+0 0 43184
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43200
+S
+#43187
+&+CThe Northern Pier&N~
+&+y   Here along the northern pier,  many travellers can
+&+ybe seen entering the sea-worthy vessels.  Some large
+&+ycrates have been stacked along this part of the pier.
+&+yMany large beautiful ships can always be found docked
+&+yalong both sides of the pier.  The pier here is also
+&+yconstructed from imported wooden planks. The pier here
+&+yis kept clean by a hardworking crew of dock hands. The
+&+ynorthern pier continues in two directions from this
+&+yadvantage point.
+~
+431 1081344 1
+D0
+The northern pier continues north.
+~
+~
+0 0 43188
+D1
+~
+~
+0 0 43205
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43186
+D3
+~
+~
+0 0 43204
+S
+#43188
+&+CEnd of the Northern Pier&N~
+&+y   At the end of the northern pier,  the ocean can be seen
+&+yall the way to the horizon.  A few large ships can be seen
+&+ysailing off in the far distance.   Some of these large ships
+&+ycan always be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe northern pier continues just to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43213
+D1
+~
+~
+0 0 43209
+D2
+The northern pier continues to the south.
+~
+~
+0 0 43187
+D3
+~
+~
+0 0 43208
+S
+#43189
+&+cA Passenger Pier&N~
+&+y  This part of the passenger pier is reinforced with
+&+ywith green wooden planks.  Many of the wooden planks
+&+ydemonstrate signs of deterioration.  Under the stresses
+&+yof the weight of the many passengers who use this pier,
+&+ysome of the planks creak and bend.   The pier here is
+&+yfilled with many passenger vessels.  The pier stretches
+&+yin a northward direction from this advantage point.
+~
+431 1081344 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43190
+D1
+~
+~
+0 0 43202
+D2
+The main dock is to the south.
+~
+~
+0 0 43182
+D3
+The ship yard harbor is west.
+~
+~
+0 0 43201
+S
+#43190
+&+cA Passenger Pier~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 1081344 1
+D0
+The passenger pier stretches to the north.
+~
+~
+0 0 43191
+D1
+~
+~
+0 0 43206
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43189
+D3
+~
+~
+0 0 43205
+S
+#43191
+&+cEnd of a Passenger Pier~
+&+y  This passenger pier is also constructed from wooden
+&+yplanks. Some of the wooden planks have begun to show signs
+&+yof deterioration.  Under the stresses of the weight of the
+&+ymany passengers use this pier, some of the planks have begun
+&+yto creak and bend.   The pier here is filled with many
+&+ypassenger vessels.  The pier continues to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43215
+D1
+~
+~
+0 0 43210
+D2
+The passenger pier stretches to the south.
+~
+~
+0 0 43190
+D3
+~
+~
+0 0 43209
+S
+#43192
+&+cThe Main Dock &+Cof the Fenaline Shipyard&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43193
+D2
+~
+door~
+1 0 43222
+D3
+~
+~
+0 0 43182
+S
+#43193
+&+cThe Main Dock &+Cof the Fenaline Shipyard&N~
+&+y   This is the main dock of this ship yard.  Constructed from
+&+ylarge planks of imported wood,  the dock stretches in two
+&+ydirections along the coast.  Along the east side of the dock,
+&+ymany workers can be seen constructing hulls.  Just to the
+&+ynorth and to the west, many ships can be seen docked along
+&+ythe pier.  There are exits all around leading to different
+&+yparts of the pier.
+~
+431 32768 1
+D1
+~
+~
+0 0 43195
+D2
+~
+door~
+1 0 43194
+D3
+~
+~
+0 0 43192
+S
+#43194
+&+WFatira's &+LWeaponry&N~
+&+y   This large establishment is the shop of weapons of the
+&+yship yard.  It is within this shop that patrons can buy
+&+yvarious sorts of weapons to arm their shipping vessels.
+&+yThere are lots of pictures of various sorts of weapons
+&+yhanging from the south wall of this shop.  Under each
+&+ypicture, there is a small written description and a
+&+yprice quote.  Along the west wall, there is a pile of
+&+ycannon balls and chains.  There is only one exit out
+&+yof this store.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43193
+S
+#43195
+&+cThe Main Dock &+Cof the Fenaline Shipyard~
+&+y   The eastern portion of the main dock of this ship yard
+&+ycomes to an end here at the intersection of the pier of
+&+yhull construction.  Constructed from large planks of
+&+yimported wood,  the dock stretches to the west from this
+&+ypoint.  Along the pier to the north, many workers can be
+&+yseen building ship hulls.  There are exits all around
+&+yleading to different parts of the pier.
+~
+431 32768 1
+D0
+~
+~
+0 0 43197
+D1
+~
+door~
+1 0 43196
+D3
+~
+~
+0 0 43193
+S
+#43196
+&+cJad's &+YFishery&N~
+&+y   In this large establishment, one may get the opportunity
+&+yto purchase sails for their vessels.  There are various
+&+ysamples of different materials on the large table in the
+&+ycenter of the room.  Also on this table, there are small
+&+ystacks of different texts of sailing.  There is only one
+&+yexit out of this store.
+~
+431 32768 0
+D3
+~
+door~
+1 0 43195
+S
+#43197
+&+LThe &+CHull Construction &+cPier&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43198
+D2
+~
+~
+0 0 43195
+D3
+~
+~
+0 0 43203
+S
+#43198
+&+LThe &+CHull Construction &+cPier&N~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43199
+D2
+~
+~
+0 0 43197
+D3
+~
+~
+0 0 43207
+S
+#43199
+&+LEnd of the &+CHull Construction &+cPier~
+&+y   Along the pier here many workers can be seen constructing
+&+yhulls of all shapes and sizes.  The sounds of hammers and
+&+ychatter fill the local area here.  All the work seems to be
+&+yunder control of the one man.  He seems to direct all the
+&+yaction and shouts orders out loud.  The pier stretches
+&+yto the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43218
+D2
+The pier stretches to the south.
+~
+~
+0 0 43198
+D3
+~
+~
+0 0 43211
+S
+#43200
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43204
+D1
+~
+~
+0 0 43186
+S
+#43201
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43205
+D1
+~
+~
+0 0 43189
+D3
+~
+~
+0 0 43186
+S
+#43202
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43206
+D1
+~
+~
+0 0 43203
+D3
+~
+~
+0 0 43189
+S
+#43203
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43207
+D1
+~
+~
+0 0 43197
+D3
+~
+~
+0 0 43202
+S
+#43204
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43208
+D1
+~
+~
+0 0 43187
+D2
+~
+~
+0 0 43200
+S
+#43205
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43209
+D1
+~
+~
+0 0 43190
+D2
+~
+~
+0 0 43201
+D3
+~
+~
+0 0 43187
+S
+#43206
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43210
+D1
+~
+~
+0 0 43207
+D2
+~
+~
+0 0 43202
+D3
+~
+~
+0 0 43190
+S
+#43207
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43211
+D1
+~
+~
+0 0 43198
+D2
+~
+~
+0 0 43203
+D3
+~
+~
+0 0 43206
+S
+#43208
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43212
+D1
+~
+~
+0 0 43188
+D2
+~
+~
+0 0 43204
+S
+#43209
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43214
+D1
+~
+~
+0 0 43191
+D2
+~
+~
+0 0 43205
+D3
+~
+~
+0 0 43188
+S
+#43210
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43216
+D1
+~
+~
+0 0 43211
+D2
+~
+~
+0 0 43206
+D3
+~
+~
+0 0 43191
+S
+#43211
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43217
+D1
+~
+~
+0 0 43199
+D2
+~
+~
+0 0 43207
+D3
+~
+~
+0 0 43210
+S
+#43212
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43213
+D2
+~
+~
+0 0 43208
+S
+#43213
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43214
+D2
+~
+~
+0 0 43188
+D3
+~
+~
+0 0 43212
+S
+#43214
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43215
+D2
+~
+~
+0 0 43209
+D3
+~
+~
+0 0 43213
+S
+#43215
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43216
+D2
+~
+~
+0 0 43191
+D3
+~
+~
+0 0 43214
+S
+#43216
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 43219
+D1
+~
+~
+0 0 43217
+D2
+~
+~
+0 0 43210
+D3
+~
+~
+0 0 43215
+S
+#43217
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D1
+~
+~
+0 0 43218
+D2
+~
+~
+0 0 43211
+D3
+~
+~
+0 0 43216
+S
+#43218
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D2
+~
+~
+0 0 43199
+D3
+~
+~
+0 0 43217
+S
+#43219
+&+bThe Ship Yard Harbor&N~
+   This is the harbor of the ship yard. The waters here are
+shallow.  There are exits all around leading into various
+directions.
+~
+431 32768 12
+D0
+~
+~
+0 0 528427
+D2
+~
+~
+0 0 43216
+D3
+~
+~
+0 0 528826
+S
+#43220
+&+BThe Bar of Endless Seas&N~
+   The bar here serves many ocean travellers.  It is within these
+walls that they drink to their heart's content and share stories
+from far off lands. The room is lightly decorated with a few
+stools next to the bar. There are large windows along the north
+wall which provide views of the ship yards.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43112
+D5
+~
+hatch~
+1 0 43233
+S
+#43221
+&+LThe Tavern of &+RCairme BloodFang~
+   The bar here serves many ocean travellers.  It is within these
+walls that they drink to their heart's content and share stories
+from far off lands. The room is lightly decorated with a few
+stools next to the bar. There are large windows along the north
+wall which provide views of the ship yards.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43152
+D5
+~
+hatch~
+1 0 43234
+S
+#43222
+&+RMartinek's &+WClam House&N~
+   The bar here serves many ocean travellers.  It is within these
+walls that they drink to their heart's content and share stories
+from far off lands. The room is lightly decorated with a few
+stools next to the bar. There are large windows along the north
+wall which provide views of the ship yards.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43192
+S
+#43223
+&+yA Halfling Ship Pier&N~
+&+y   Constructed from the finest hardwood, this pier south of
+&+ymain halfling town.  To the south lies the great Ocean of
+&+yDespair.  In the distance, you can see little ship sailing
+&+ywest toward the Tharnadian coast.  The pier continues in
+&+ytwo directions from this advantage point.
+~
+431 1081344 1
+D1
+~
+~
+0 0 43231
+D3
+~
+~
+0 0 43224
+S
+#43224
+&+yA Halfling Ship Pier&N~
+&+y   Constructed from the finest hardwood, this pier south of
+&+ymain halfling town.  To the south lies the great Ocean of
+&+yDespair.  In the distance, you can see little ship sailing
+&+ywest toward the Tharnadian coast.  The pier continues in
+&+ytwo directions from this advantage point.
+~
+431 1081344 1
+D0
+A door blocks this exit.
+~
+door~
+1 0 43229
+D1
+~
+~
+0 0 43223
+D2
+~
+~
+0 0 43226
+D3
+~
+~
+0 0 43225
+S
+#43225
+&+yA Halfling Ship Pier&N~
+&+y   Constructed from the finest hardwood, this pier south of
+&+ymain halfling town.  To the south lies the great Ocean of
+&+yDespair.  In the distance, you can see little ship sailing
+&+ywest toward the Tharnadian coast.  The pier continues in
+&+ytwo directions from this advantage point.
+~
+431 1081344 1
+D1
+~
+~
+0 0 43224
+D3
+~
+~
+0 0 154877
+S
+#43226
+&+yThe Great Halfling Pier&N~
+&+y   On the southern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe southern pier continues further to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43224
+D2
+~
+~
+0 0 43227
+S
+#43227
+&+yThe Great Halfling Pier&N~
+&+y   On the southern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe southern pier continues further to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43226
+D2
+~
+~
+0 0 43228
+S
+#43228
+&+yThe Great Halfling Pier&N~
+&+y   On the southern pier,  many large beautiful ships can
+&+yalways be found docked along both sides of the pier.  The
+&+ypier here is also constructed from imported wooden planks.
+&+yThe pier here is kept clean by a hardworking crew of dock
+&+yhands.   These dock hands keep the area free from debris.
+&+yThe southern pier continues further to the south.
+~
+431 1081344 1
+D0
+~
+~
+0 0 43227
+D2
+~
+~
+0 0 154978
+S
+#43229
+&+rThe Bar of the Halfling &+RHeart&N~
+&+W   This large room is painted brightly.  There are many
+&+Wlarge candles which keep this bar lighted 24hours a day.
+&+WMany travellers from far off lands stop by this bar for
+&+Wa little rest and relaxation before continuing their
+&+Wjourney.  Many different attractions can be found
+&+Wwithin the vicinity which always seems to keep
+&+Wa chuckle on the visitors.
+~
+431 32776 0
+D2
+A door blocks this exit.
+~
+door~
+1 0 43224
+D5
+A trapdoor leads down.
+~
+trapdoor~
+1 0 43230
+S
+#43230
+&+LA Dark Cellar&N~
+&+L   The cellar here is dark and cool.  The sounds of
+&+Locean can be hear nearby.  The cellar smells of
+&+Lrotting fish.  There is a large wine rack along the
+&+Lnorth wall of the cellar.  A small puddle of stagnant
+&+Lwater seems to be collecting along the south-west
+&+Lcorner of the room.
+~
+431 0 0
+D4
+A trapdoor leads up.
+~
+trapdoor~
+1 0 43229
+S
+#43231
+&+gA Jungle Thicket&N~
+&+g  The jungle has not been disturbed in these parts.
+&+gThe foiliage is thick and limits the light penetration
+&+gto the ground.   The area is cool and damp.  It reeks
+&+gdecaying material.  Vaguely, there are footsteps
+&+gforming a path to the north.
+~
+431 1 3
+D3
+~
+~
+0 0 43223
+D8
+~
+~
+0 0 43232
+S
+#43232
+&+gA Jungle Thicket&N~
+&+g  The jungle has not been disturbed in these parts.
+&+gThe foiliage is thick and limits the light penetration
+&+gto the ground.   The area is cool and damp.  It reeks
+&+gdecaying material.  Vaguely, there are footsteps
+&+gforming a path to the north.
+~
+431 1 3
+D7
+~
+~
+0 0 43231
+S
+#43233
+&+LA Musky &+yWine Cellar&N~
+   &+LThis large wine cellar sits below the inn.  There are large racks
+&+Lof wine on the walls and two enormous wooden barrels in the center
+&+Lof the room.  Two huge faucet-like spouts come out the fronts of
+&+Lthese barrels, dripping steadily over large wooden bucket.  There
+&+Lis very little light down here, causing ones vision to easily
+&+Lbecome impaired.  Furthermore, the dripping sound in the darkness
+&+Lmakes it somewhat hard to focus in such a foreboding place.
+~
+431 0 0
+D4
+~
+hatch~
+1 0 43220
+S
+#43234
+&+LA Musky &+yWine Cellar&N~
+   &+LThis large wine cellar sits below the inn.  There are large racks
+&+Lof wine on the walls and two enormous wooden barrels in the center
+&+Lof the room.  Two huge faucet-like spouts come out the fronts of
+&+Lthese barrels, dripping steadily over large wooden bucket.  There
+&+Lis very little light down here, causing ones vision to easily
+&+Lbecome impaired.  Furthermore, the dripping sound in the darkness
+&+Lmakes it somewhat hard to focus in such a foreboding place.
+~
+431 0 0
+D3
+~
+secret~
+5 0 43320
+D4
+~
+hatch~
+1 0 43221
+S
+#43235
+&+LA &+yMuddy Road &+LThrough &+WCanderthal Harbor&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D0
+~
+~
+0 0 43236
+D2
+~
+gates~
+1 0 43101
+S
+#43236
+&+LA Bend in a &+yMuddy Road~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D1
+~
+~
+0 0 43240
+D2
+~
+~
+0 0 43235
+D3
+~
+door~
+1 0 43253
+S
+#43237
+&+yThe Halfling Beach&N~
+&+y   The thick brush seems to form a large wall that runs
+&+yalong the coast here.   The trees rise almost 100 feet
+&+ywith thick underbrush.   The area farther east from
+&+ythese trees is covered with soft sand. The crystal
+&+yblue water of the Ocean of Despair hit the shore in
+&+yan almost rhythmic patter.    Many people can be seen
+&+ytraversing this area.  The beach lies in all directions
+&+yfrom this advantage point.
+~
+431 0 2
+D0
+~
+~
+0 0 43238
+D2
+~
+~
+0 0 43239
+S
+#43238
+&+yThe Halfling Beach&N~
+&+y   The thick brush seems to form a large wall that runs
+&+yalong the coast here.   The trees rise almost 100 feet
+&+ywith thick underbrush.   The area farther east from
+&+ythese trees is covered with soft sand. The crystal
+&+yblue water of the Ocean of Despair hit the shore in
+&+yan almost rhythmic patter.    Many people can be seen
+&+ytraversing this area.  The beach lies in all directions
+&+yfrom this advantage point.
+~
+431 0 2
+D2
+~
+~
+0 0 43237
+S
+#43239
+&+yThe Halfling Beach&N~
+&+y   The thick brush seems to form a large wall that runs
+&+yalong the coast here.   The trees rise almost 100 feet
+&+ywith thick underbrush.   The area farther east from
+&+ythese trees is covered with soft sand. The crystal
+&+yblue water of the Ocean of Despair hit the shore in
+&+yan almost rhythmic patter.    Many people can be seen
+&+ytraversing this area.  The beach lies in all directions
+&+yfrom this advantage point.
+~
+431 0 2
+D0
+~
+~
+0 0 43237
+S
+#43240
+&+WAn Anchor-Marked Crossing~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+   &+yAs the road splits north towards the main docks and east around the
+&+yfront of The Fisherman's Hutch, the inn of Canderthal.
+~
+431 32768 0
+D0
+~
+~
+0 0 43243
+D1
+~
+~
+0 0 43241
+D3
+~
+~
+0 0 43236
+S
+#43241
+&+yA Muddy Road &+LAlongside &+ya Large Building&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D1
+~
+~
+0 0 43242
+D3
+~
+~
+0 0 43240
+S
+#43242
+&+LA Bend in a &+yMuddy Road&+L Around a &+yLarge Building&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D0
+~
+~
+0 0 43244
+D3
+~
+~
+0 0 43241
+S
+#43243
+&+LA &+yMuddy Road &+LThrough &+WCanderthal Harbor&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D0
+~
+~
+0 0 43102
+D2
+~
+~
+0 0 43240
+D3
+~
+door~
+1 0 43254
+S
+#43244
+&+LA &+yMuddy Road &+LThrough &+WCanderthal Harbor&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D0
+~
+~
+0 0 43245
+D2
+~
+~
+0 0 43242
+D3
+~
+door~
+1 0 43249
+S
+#43245
+&+LA Turn in the &+yMuddy Road&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D1
+~
+~
+0 0 43246
+D2
+~
+~
+0 0 43244
+S
+#43246
+&+yEnd of the Road at the Sand Dunes&N~
+   &+yThis long dirt road stretches through Canderthal Harbor, ending on
+&+ynorth side at the main dock where the various piers of the port village
+&+yreach out into the sea.  There are always seagulls flying about here,
+&+ystopping to feed on scraps of food and live off the current humanoids.
+&+yThere are a few different fishing locations near the main docks, as well
+&+yas numerous buildings along the main dock in particular.
+~
+431 32768 0
+D1
+~
+~
+0 0 43247
+D3
+~
+~
+0 0 43245
+S
+#43247
+&+yA Sm&+ga&+yl&+gl G&+yr&+ga&+yss&+gy &+yDune~
+   &+yThis small grassy dune stretches out slightly before hitting some
+&+ylarge rocks that have been piled up as jetties to prevent the dock
+&+yarea from ever flooding.  There is a small dirt pathway marked with
+&+yslender torch posts out onto a narrow fisherman's jetty north of here.
+~
+431 32768 2
+D0
+~
+~
+0 0 43248
+D3
+~
+~
+0 0 43246
+S
+#43248
+&+LA Long, Narrow Fishing Jetty~
+   &+LOne after another, large boulder-like rocks have been piled to make
+&+La long jetty out into the sea here.  The spaces between the larger
+&+Lrocks have been filled with smaller rocks, piled in to fill the
+&+Lgaps in this long jetty out into the water.  As waves crash against
+&+Lthe rocks below, pools of water fill between tight spaces between.
+&+LOften enough a small starfish will find its way onto the side of
+&+Lone of the jetty rocks.
+~
+431 32768 6
+D2
+~
+~
+0 0 43247
+S
+#43249
+The Fisherman's Hutch&N~
+   This establishment is by far the largest building in Canderthal Harbor.
+There is a large dining area set up with dozens of tables surrounded by
+wooden chairs.  A large fireplace rests at the center of the room,
+warming it with a heavy flame.  An archway behind the bar leads to
+the kitchen in the back of the inn, where the famed delicacy, the
+pike fillet, is born. A lavish, large wooden staircase leads upstairs
+towards the sleeping quarters of the Fisherman's Hutch.  This inn
+is mostly used by seafarers who are sleeping after a long ride, or
+before an even longer one.  The sleeping area on the upstairs of this
+Inn is set up with several large beds spread out in the room, military
+style.  It is clear that the designer of this architecture in Canderthal
+worked during the time period of one of the great wars, where virtually
+all buildings were designed with military use in mind.
+~
+431 557056 0
+D0
+~
+kitchen door~
+1 0 43252
+D1
+~
+door~
+1 0 43244
+D4
+~
+~
+0 0 43250
+S
+#43250
+The &+LSecond Floor&N of the Fisherman's Hutch~
+   This establishment is by far the largest building in Canderthal Harbor.
+There is a large dining area set up with dozens of tables surrounded by
+wooden chairs.  A large fireplace rests at the center of the room,
+warming it with a heavy flame.  An archway behind the bar leads to
+the kitchen in the back of the inn, where the famed delicacy, the
+pike fillet, is born. A lavish, large wooden staircase leads upstairs
+towards the sleeping quarters of the Fisherman's Hutch.  This inn
+is mostly used by seafarers who are sleeping after a long ride, or
+before an even longer one.  The sleeping area on the upstairs of this
+Inn is set up with several large beds spread out in the room, military
+style.  It is clear that the designer of this architecture in Canderthal
+worked during the time period of one of the great wars, where virtually
+all buildings were designed with military use in mind.
+~
+431 32768 0
+D0
+~
+~
+0 0 43251
+D5
+~
+~
+0 0 43249
+S
+#43251
+&+LA Dormitory of The Fisherman's Hutch~
+   This establishment is by far the largest building in Canderthal Harbor.
+There is a large dining area set up with dozens of tables surrounded by
+wooden chairs.  A large fireplace rests at the center of the room,
+warming it with a heavy flame.  An archway behind the bar leads to
+the kitchen in the back of the inn, where the famed delicacy, the
+pike fillet, is born. A lavish, large wooden staircase leads upstairs
+towards the sleeping quarters of the Fisherman's Hutch.  This inn
+is mostly used by seafarers who are sleeping after a long ride, or
+before an even longer one.  The sleeping area on the upstairs of this
+Inn is set up with several large beds spread out in the room, military
+style.  It is clear that the designer of this architecture in Canderthal
+worked during the time period of one of the great wars, where virtually
+all buildings were designed with military use in mind.
+~
+431 32768 0
+D2
+~
+~
+0 0 43250
+S
+#43252
+&+WThe Kitchen&N~
+   This establishment is by far the largest building in Canderthal Harbor.
+There is a large dining area set up with dozens of tables surrounded by
+wooden chairs.  A large fireplace rests at the center of the room,
+warming it with a heavy flame.  An archway behind the bar leads to
+the kitchen in the back of the inn, where the famed delicacy, the
+pike fillet, is born. A lavish, large wooden staircase leads upstairs
+towards the sleeping quarters of the Fisherman's Hutch.  This inn
+is mostly used by seafarers who are sleeping after a long ride, or
+before an even longer one.  The sleeping area on the upstairs of this
+Inn is set up with several large beds spread out in the room, military
+style.  It is clear that the designer of this architecture in Canderthal
+worked during the time period of one of the great wars, where virtually
+all buildings were designed with military use in mind.
+~
+431 32768 0
+D2
+~
+kitchen door~
+1 0 43249
+S
+#43253
+&+LA &+gFisherman's &+LHome&N~
+   &+LThis small dwelling is big enough for a single fisherman and that's
+&+Labout it.  More like a shack built off-side the central road through
+&+Lthis port, this home has been hashed up by a low-wage carpenter to
+&+Lhouse a fisherman who resides in this port.
+~
+431 32768 0
+D1
+~
+door~
+1 0 43236
+S
+#43254
+&+LA &+gFisherman's &+LHome&N~
+   &+LThis small dwelling is big enough for a single fisherman and that's
+&+Labout it.  More like a shack built off-side the central road through
+&+Lthis port, this home has been hashed up by a low-wage carpenter to
+&+Lhouse a fisherman who resides in this port.
+~
+431 32768 0
+D1
+~
+door~
+1 0 43243
+S
+#43255
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43256
+D2
+~
+door~
+1 0 43181
+S
+#43256
+&+WThe Statue of Silvanos&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43258
+D2
+~
+~
+0 0 43255
+D3
+~
+~
+0 0 43257
+S
+#43257
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43256
+D3
+~
+~
+0 0 43262
+S
+#43258
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43259
+D3
+~
+~
+0 0 43256
+S
+#43259
+&+gA Bend in the Grassy Road&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43260
+D1
+~
+~
+0 0 43268
+D3
+~
+~
+0 0 43258
+S
+#43260
+&+gA Grassy Road Through &+cFenaline&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43261
+D2
+~
+~
+0 0 43259
+S
+#43261
+&+gA Bend in the Grassy Road&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+door~
+1 0 43270
+D2
+~
+~
+0 0 43260
+D3
+~
+~
+0 0 43263
+S
+#43262
+&+gA Bend in the Grassy Road&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43267
+D1
+~
+~
+0 0 43257
+D2
+~
+door~
+1 0 43271
+S
+#43263
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43261
+D3
+~
+~
+0 0 43264
+S
+#43264
+&+CA Silver&+gLeaf &+WCrossing&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43269
+D1
+~
+~
+0 0 43263
+D3
+~
+~
+0 0 43265
+S
+#43265
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43264
+D3
+~
+~
+0 0 43266
+S
+#43266
+&+gA Bend in the Grassy Road&N~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D1
+~
+~
+0 0 43265
+D2
+~
+~
+0 0 43267
+D3
+~
+door~
+1 0 43272
+S
+#43267
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43266
+D2
+~
+~
+0 0 43262
+S
+#43268
+&+CThe Fenaline Moonwell&N~
+   &+CThis great moonwell of Fenaline serves as a rejuvenation
+&+Cplace of immense power for the grey elves.  The silvery-
+&+Ccolored pool sitting amongst a bed of large slabs of moonstone
+&+Cmake up this majestic, magical moonwell.  The moonwell rests
+&+Cin a peaceful, beautiful glen of silverleaf trees.  A dancing
+&+Cmagical glow eminates from the moonwell's surface.
+~
+431 32768 2
+D3
+~
+~
+0 0 43259
+S
+#43269
+&+gA Grassy Road Through &+cFenaline~
+   &+gThis grassy road winds over the few steep hillsides in which
+&+gFenaline exists.  Small glowing lanterns line this road as well
+&+gas the planked boardwalk of the Fenaline docks, to which this
+&+gpath ultimately leads.  The grassy road is well kept, and often
+&+gin solid condition, as much of the elves using this port are
+&+geither flying, or walk carefully enough as to not damage the
+&+gearth.  Small glens of trees grow at the center of scattered
+&+gsilverleaf trees as the road winds its way towards the dock.
+~
+431 32768 2
+D0
+~
+~
+0 0 43182
+D2
+~
+~
+0 0 43264
+S
+#43270
+&+CA &+cFisherman's &+CHome&N~
+   &+LThis small dwelling is big enough for a single fisherman and that's
+&+Labout it.  More like a shack built off-side the central road through
+&+Lthis port, this home has been hashed up by a low-wage carpenter to
+&+Lhouse a fisherman who resides in this port.
+~
+431 32768 0
+D2
+~
+door~
+1 0 43261
+S
+#43271
+&+CA &+cFisherman's &+CHome&N~
+   &+LThis small dwelling is big enough for a single fisherman and that's
+&+Labout it.  More like a shack built off-side the central road through
+&+Lthis port, this home has been hashed up by a low-wage carpenter to
+&+Lhouse a fisherman who resides in this port.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43262
+S
+#43272
+&+WThe Wind's &+CBreath &+cInn&N~
+   &+CThis elegant elven inn houses all sorts of fisherman and travellers
+&+Calike.  The main front chamber of the inn is where a large elegant
+&+Cmoorwood bar is located, while south of the bar area a large eating
+&+Cand gathering area is located, fitting with several benches and
+&+Cchairs.  Upstairs from the dining chamber leads to the sleeping
+&+Cchambers of the inn.
+~
+431 557056 0
+D1
+~
+door~
+1 0 43266
+D2
+~
+~
+0 0 43273
+S
+#43273
+&+WThe Wind's &+CBreath &+cDining Chamber&N~
+   &+CThis elegant elven inn houses all sorts of fisherman and travellers
+&+Calike.  The main front chamber of the inn is where a large elegant
+&+Cmoorwood bar is located, while south of the bar area a large eating
+&+Cand gathering area is located, fitting with several benches and
+&+Cchairs.  Upstairs from the dining chamber leads to the sleeping
+&+Cchambers of the inn.
+~
+431 32768 0
+D0
+~
+~
+0 0 43272
+D4
+~
+~
+0 0 43274
+S
+#43274
+&+cThe Second Floor of &+WThe Wind's &+CBreath &+cInn&N~
+   &+CThis elegant elven inn houses all sorts of fisherman and travellers
+&+Calike.  The main front chamber of the inn is where a large elegant
+&+Cmoorwood bar is located, while south of the bar area a large eating
+&+Cand gathering area is located, fitting with several benches and
+&+Cchairs.  Upstairs from the dining chamber leads to the sleeping
+&+Cchambers of the inn.
+~
+431 32768 0
+D0
+~
+~
+0 0 43275
+D5
+~
+~
+0 0 43273
+S
+#43275
+&+WThe Wind's &+CBreath &+LSleeping Chamber&N~
+   &+CThis elegant elven inn houses all sorts of fisherman and travellers
+&+Calike.  The main front chamber of the inn is where a large elegant
+&+Cmoorwood bar is located, while south of the bar area a large eating
+&+Cand gathering area is located, fitting with several benches and
+&+Cchairs.  Upstairs from the dining chamber leads to the sleeping
+&+Cchambers of the inn.
+~
+431 32768 0
+D2
+~
+~
+0 0 43274
+S
+#43276
+&+LA Glen of &+CSilver&+Gleaf &+LTrees&N~
+   &+GThis glorious and ancestral elvish glen is highly spiritual,
+&+Gexisting beyond conciousness and the physical realm.  Tall
+&+Gsilverleaf trees encircle everything around here, so dense
+&+Gthat is impossible to traverse this mystical forested hideaway.
+&+GGlorious magical sparkles fleckle and make their way through
+&+Gthe air in this elvish spirit zone.
+~
+431 32768 3
+D0
+~
+~
+0 0 43277
+D2
+~
+~
+0 0 43256
+S
+#43277
+&+LA &+cSpirit &+LCircle of &+CSilver&+gLeafs~
+   &+GThis glorious and ancestral elvish glen is highly spiritual,
+&+Gexisting beyond conciousness and the physical realm.  Tall
+&+Gsilverleaf trees encircle everything around here, so dense
+&+Gthat is impossible to traverse this mystical forested hideaway.
+&+GGlorious magical sparkles fleckle and make their way through
+&+Gthe air in this elvish spirit zone.
+~
+431 32768 3
+D2
+~
+~
+0 0 43276
+S
+#43278
+&+LThe Stake-Lined &+rThur'Gurax &+LConcourse&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43279
+D2
+~
+gates~
+1 0 43141
+S
+#43279
+&+LA Turn in the &+rThur'Gurax &+LConcourse&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D1
+~
+~
+0 0 43280
+D2
+~
+~
+0 0 43278
+S
+#43280
+&+LA Turn in the &+rThur'Gurax &+LConcourse&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43281
+D3
+~
+~
+0 0 43279
+S
+#43281
+&+LAn Intersection &+WMarked with a Spear of Skewered Skulls&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D1
+~
+~
+0 0 43299
+D2
+~
+~
+0 0 43280
+D3
+~
+~
+0 0 43285
+S
+#43282
+&+LA &+rThur'Gurash &+LCourtyard&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43286
+D1
+~
+~
+0 0 43283
+D2
+~
+~
+0 0 43284
+S
+#43283
+&+LA &+rThur'Gurash &+LCourtyard&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+door~
+1 0 43304
+D1
+~
+door~
+1 0 43302
+D2
+~
+~
+0 0 43285
+D3
+~
+~
+0 0 43282
+S
+#43284
+&+LA &+rThur'Gurash &+LCourtyard&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43282
+D1
+~
+~
+0 0 43285
+D2
+~
+door~
+1 0 43303
+D3
+~
+door~
+1 0 43305
+S
+#43285
+&+LA &+rThur'Gurash &+LCourtyard&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43283
+D1
+~
+~
+0 0 43281
+D3
+~
+~
+0 0 43284
+S
+#43286
+&+LA Stake-Lined &+rThur'Gurax &+LConcourse&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43287
+D2
+~
+~
+0 0 43282
+S
+#43287
+&+LA Bend in the &+rThur'Gurax &+LConcourse&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D1
+~
+~
+0 0 43288
+D2
+~
+~
+0 0 43286
+S
+#43288
+&+LA Turn Into a Square&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43296
+D3
+~
+~
+0 0 43287
+S
+#43289
+&+LThe Northwest Corner of &+cBanner &+LSquare&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D1
+~
+~
+0 0 43290
+D2
+~
+~
+0 0 43292
+D3
+~
+door~
+1 0 43310
+S
+#43290
+&+LA Clearing Surrounded by &+cStandards&+L and &+rBanners&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43298
+D1
+~
+~
+0 0 43291
+D2
+~
+~
+0 0 43293
+D3
+~
+~
+0 0 43289
+S
+#43291
+&+LThe Northeast Corner at the &+rBarracks &+LGates&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D1
+~
+gate~
+2 0 43306
+D2
+~
+~
+0 0 43294
+D3
+~
+~
+0 0 43290
+S
+#43292
+&+LA Clearing Surrounded by &+cStandards&+L and &+rBanners&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43289
+D1
+~
+~
+0 0 43293
+D2
+~
+~
+0 0 43295
+S
+#43293
+&+RThe Center of Thur'Gurax&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43290
+D1
+~
+~
+0 0 43294
+D2
+~
+~
+0 0 43296
+D3
+~
+~
+0 0 43292
+S
+#43294
+&+LA Clearing Surrounded by &+cStandards&+L and &+rBanners&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43291
+D2
+~
+~
+0 0 43297
+D3
+~
+~
+0 0 43293
+S
+#43295
+&+LThe Southwest Corner of &+cBanner &+LSquare&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43292
+D1
+~
+~
+0 0 43296
+D2
+~
+door~
+1 0 43312
+S
+#43296
+&+LA Clearing Surrounded by &+cStandards&+L and &+rBanners&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43293
+D1
+~
+~
+0 0 43297
+D2
+~
+~
+0 0 43288
+D3
+~
+~
+0 0 43295
+S
+#43297
+&+LThe Southeast Corner of &+cBanner &+LSquare&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43294
+D1
+~
+~
+0 0 43316
+D3
+~
+~
+0 0 43296
+S
+#43298
+&+LA &+yPlanked &+LWalkway to the Docks&N~
+   &+LThis roadway through the horde port settlement Thur'Gurax winds
+&+Lnorthward into the dock area of the port settlement.  This hilly,
+&+Loceanside area in which Thur'Gurax has been settled is grassy with
+&+Llarge rocky bluffs.  It seems like the only constant ground one
+&+Lcan travel is through this roadway that winds up and dwon the
+&+Larea perfectly until the docks at the ocean.
+~
+431 32768 1
+D0
+~
+~
+0 0 43142
+D2
+~
+~
+0 0 43290
+S
+#43299
+&+gThe &+LBase &+gof a &+LWatchtower&N~
+   &+yThis large watchtower is made of hardwood.  A large ramp grants
+&+yaccess up to a small chamber atop the fortified tower in which
+&+yarchers or spear-throwers may watch from above, protecting the
+&+ysettlement from intruders.  The ramp goes up two levels before
+&+yentering the chamber on the top, which has a bone floor and
+&+ywide, but short windows look out onto the swamps and across
+&+ythe ocean from either side.
+~
+431 32768 0
+D3
+~
+~
+0 0 43281
+D4
+~
+~
+0 0 43300
+S
+#43300
+&+yA Wooden Ramp in a &+LWatch Tower&N~
+   &+yThis large watchtower is made of hardwood.  A large ramp grants
+&+yaccess up to a small chamber atop the fortified tower in which
+&+yarchers or spear-throwers may watch from above, protecting the
+&+ysettlement from intruders.  The ramp goes up two levels before
+&+yentering the chamber on the top, which has a bone floor and
+&+ywide, but short windows look out onto the swamps and across
+&+ythe ocean from either side.
+~
+431 32768 0
+D4
+~
+~
+0 0 43301
+D5
+~
+~
+0 0 43299
+S
+#43301
+&+rThe Top of a Thur'Gurax &+LWatchtower&N~
+   &+yThis large watchtower is made of hardwood.  A large ramp grants
+&+yaccess up to a small chamber atop the fortified tower in which
+&+yarchers or spear-throwers may watch from above, protecting the
+&+ysettlement from intruders.  The ramp goes up two levels before
+&+yentering the chamber on the top, which has a bone floor and
+&+ywide, but short windows look out onto the swamps and across
+&+ythe ocean from either side.
+~
+431 32768 0
+D5
+~
+~
+0 0 43300
+S
+#43302
+&+LWithin a &+gMessy &+LHut&N~
+   &+LThis hut, like many in Thur'Gurax, is quite small and has been
+&+Lindependantly comissioned by an independant orc or goblin most
+&+Llikely.  There are articles of clothing and bones from meat haunches
+&+Llaying strewn about the room haphazardly.  This hut is reinforced
+&+Lby massive bone ribs of some sort of great beast, draped over by
+&+Lstitched leather.
+~
+431 32768 0
+D3
+~
+door~
+1 0 43283
+S
+#43303
+&+LWithin a &+gMessy &+LHut&N~
+   &+LThis hut, like many in Thur'Gurax, is quite small and has been
+&+Lindependantly comissioned by an independant orc or goblin most
+&+Llikely.  There are articles of clothing and bones from meat haunches
+&+Llaying strewn about the room haphazardly.  This hut is reinforced
+&+Lby massive bone ribs of some sort of great beast, draped over by
+&+Lstitched leather.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43284
+S
+#43304
+&+LWithin a &+gMessy &+LHut&N~
+   &+LThis hut, like many in Thur'Gurax, is quite small and has been
+&+Lindependantly comissioned by an independant orc or goblin most
+&+Llikely.  There are articles of clothing and bones from meat haunches
+&+Llaying strewn about the room haphazardly.  This hut is reinforced
+&+Lby massive bone ribs of some sort of great beast, draped over by
+&+Lstitched leather.
+~
+431 32768 0
+D2
+~
+door~
+1 0 43283
+S
+#43305
+&+LWithin a &+gMessy &+LHut&N~
+   &+LThis hut, like many in Thur'Gurax, is quite small and has been
+&+Lindependantly comissioned by an independant orc or goblin most
+&+Llikely.  There are articles of clothing and bones from meat haunches
+&+Llaying strewn about the room haphazardly.  This hut is reinforced
+&+Lby massive bone ribs of some sort of great beast, draped over by
+&+Lstitched leather.
+~
+431 32768 0
+D1
+~
+door~
+1 0 43284
+S
+#43306
+&+LTh&+re T&+Lhu&+rr'G&+Lur&+rax &+LBa&+rrr&+Lac&+rks&N~
+   &+LThese barracks of the port village Thur'Gurax house the troops of
+&+Lthis horde city as well as the equipment center these warriors dress
+&+Lin.  Within the sleeping chambers are large cots several large hide
+&+Lblankets on each bunkbed.  These beds are lined up, allowing many
+&+Lorcs to sleep in this chamber at once.  Within the training and
+&+Lequipment chambers are suits of armor and racks of swords and axes
+&+Llined up.
+~
+431 32768 0
+D0
+~
+~
+0 0 43307
+D3
+~
+door~
+1 0 43291
+S
+#43307
+&+LA Weapons &+rTraining &+LArea&N~
+   &+LThese barracks of the port village Thur'Gurax house the troops of
+&+Lthis horde city as well as the equipment center these warriors dress
+&+Lin.  Within the sleeping chambers are large cots several large hide
+&+Lblankets on each bunkbed.  These beds are lined up, allowing many
+&+Lorcs to sleep in this chamber at once.  Within the training and
+&+Lequipment chambers are suits of armor and racks of swords and axes
+&+Llined up.
+~
+431 32768 0
+D2
+~
+~
+0 0 43306
+D4
+~
+~
+0 0 43308
+S
+#43308
+&+LThe Second Level of the &+rhur'Gurax Barracks&N~
+   &+LThese barracks of the port village Thur'Gurax house the troops of
+&+Lthis horde city as well as the equipment center these warriors dress
+&+Lin.  Within the sleeping chambers are large cots several large hide
+&+Lblankets on each bunkbed.  These beds are lined up, allowing many
+&+Lorcs to sleep in this chamber at once.  Within the training and
+&+Lequipment chambers are suits of armor and racks of swords and axes
+&+Llined up.
+~
+431 32768 0
+D2
+~
+door~
+1 0 43309
+D5
+~
+~
+0 0 43307
+S
+#43309
+&+LThe &+rBarracks &+LOffice&N~
+   &+LThese barracks of the port village Thur'Gurax house the troops of
+&+Lthis horde city as well as the equipment center these warriors dress
+&+Lin.  Within the sleeping chambers are large cots several large hide
+&+Lblankets on each bunkbed.  These beds are lined up, allowing many
+&+Lorcs to sleep in this chamber at once.  Within the training and
+&+Lequipment chambers are suits of armor and racks of swords and axes
+&+Llined up.
+~
+431 32768 0
+D0
+~
+door~
+1 0 43308
+S
+#43310
+&+gThe Witchdoctor's Hut&N~
+   &+GThis large hut is one of a few of the bigger ones, built on the
+&+Gnorthern side of Thur'Gurax.  This hut has a large stone counter,
+&+Gpropped up on two huge carved stone statuesque totems.  There are
+&+Gall sorts of bone and spice regeants bottled up around the room
+&+Gor hanging from the ceiling.  A thick hide carpet rests on the
+&+Gfloor.  On the northern side of the chamber a walled entryway
+&+Gleads to a small living chamber.
+~
+431 32768 0
+D1
+~
+door~
+1 0 43289
+D4
+~
+~
+0 0 43311
+S
+#43311
+&+WA Loft in the Witchdoctor's Hut&N~
+   &+GThis large hut is one of a few of the bigger ones, built on the
+&+Gnorthern side of Thur'Gurax.  This hut has a large stone counter,
+&+Gpropped up on two huge carved stone statuesque totems.  There are
+&+Gall sorts of bone and spice regeants bottled up around the room
+&+Gor hanging from the ceiling.  A thick hide carpet rests on the
+&+Gfloor.  On the northern side of the chamber a walled entryway
+&+Gleads to a small living chamber.
+~
+431 32768 0
+D5
+~
+~
+0 0 43310
+S
+#43312
+&+LThe &+rGu&+Rt&+rt&+Re&+rd &+GGith&+Wzerai &+LInn&N~
+   &+LThis inn is freuqnented by the orc sailors who deal with the goblins
+&+Land orcs of Thur'Gurax the most.  On the lower floor a large bar
+&+Lstretches out for the patrons of the inn to drink at, while a large
+&+Ldining area behind that also has stairs leading to the second
+&+Lfloor, which is the sleeping area of the Gutted Githzerai.
+~
+431 557056 0
+D0
+~
+door~
+1 0 43295
+D2
+~
+~
+0 0 43313
+S
+#43313
+&+LA &+RDining Area&N~
+   &+LThis inn is freuqnented by the orc sailors who deal with the goblins
+&+Land orcs of Thur'Gurax the most.  On the lower floor a large bar
+&+Lstretches out for the patrons of the inn to drink at, while a large
+&+Ldining area behind that also has stairs leading to the second
+&+Lfloor, which is the sleeping area of the Gutted Githzerai.
+~
+431 32768 0
+D0
+~
+~
+0 0 43312
+D4
+~
+~
+0 0 43314
+S
+#43314
+&+LSecond Floor of the &+rGut&+Rted &+GGith&+Wzerai&N~
+   &+LThis inn is freuqnented by the orc sailors who deal with the goblins
+&+Land orcs of Thur'Gurax the most.  On the lower floor a large bar
+&+Lstretches out for the patrons of the inn to drink at, while a large
+&+Ldining area behind that also has stairs leading to the second
+&+Lfloor, which is the sleeping area of the Gutted Githzerai.
+~
+431 32768 0
+D0
+~
+~
+0 0 43315
+D5
+~
+~
+0 0 43313
+S
+#43315
+&+LA Sleeping Chamber&N~
+   &+LThis inn is freuqnented by the orc sailors who deal with the goblins
+&+Land orcs of Thur'Gurax the most.  On the lower floor a large bar
+&+Lstretches out for the patrons of the inn to drink at, while a large
+&+Ldining area behind that also has stairs leading to the second
+&+Lfloor, which is the sleeping area of the Gutted Githzerai.
+~
+431 32768 0
+D2
+~
+~
+0 0 43314
+S
+#43316
+&+CA Path Before an &+YAltar&N~
+   &+LThis path turns southward here, leading to a great stone altar
+&+Lsurrounded by hooded orcs.  This path overlooks the great altar of
+&+Lstorms, a deeply spiritual site of Thur'Gurax, connecting it west
+&+Lto the banner square.  Several spears are stuck in the ground,
+&+Llining this trail.
+~
+431 32768 1
+D2
+~
+~
+0 0 43317
+D3
+~
+~
+0 0 43297
+S
+#43317
+&+CThe &+YAltar &+Cof Storms&N~
+   &+CThis large stone altar sits atop a stone platform with several wide
+&+Csteps reaching upward.  There are torches surrounding this platform
+&+Cand hooded orcs surrounding the altar, making dark chants to their
+&+Cgods.  Tbe altar seems to glow with energy at the touch of the orcs.
+~
+431 32768 1
+D0
+~
+~
+0 0 43316
+S
+#43318
+&+LA &+rBloodyFist &+LBurial Site&N~
+   &+LThis magical den sparkles and glows with wonderous
+&+Lmagic.  This mystical burial chamber exists in another plane
+&+Lof existence, as reality is warped and fluctuates in this
+&+Lworld.  This dark burial chamber, furthermore, appears to
+&+Lbe that of a great orcish king from the BloodyFist lineage.
+&+LThe air and everything around ripples and floats in a
+&+Ldream-like experience.
+~
+431 32768 0
+D0
+~
+~
+0 0 43319
+D2
+~
+~
+0 0 43317
+S
+#43319
+&+WA Sarcophagus in the &+rBloodyFist &+WBurial Site&N~
+   &+LThis magical den sparkles and glows with wonderous
+&+Lmagic.  This mystical burial chamber exists in another plane
+&+Lof existence, as reality is warped and fluctuates in this
+&+Lworld.  This dark burial chamber, furthermore, appears to
+&+Lbe that of a great orcish king from the BloodyFist lineage.
+&+LThe air and everything around ripples and floats in a
+&+Ldream-like experience.
+~
+431 32768 0
+D2
+~
+~
+0 0 43318
+S
+#43320
+&+LThe Top of a Secret Staircase&N~
+   &+LThis secret staircase is located down a small, hidden passageway
+&+Lthrough the bottom of a hatch found in the wine cellar of Cairme
+&+LBloodFang's Tavern.  There are spider webs hanging down from the
+&+Lceiling here, and rats scurrying across the rocky tunnel floor.
+&+LThis staircase leads down into a dark corridor, lined by torches.
+~
+431 32768 0
+D1
+~
+secret~
+1 0 43234
+D5
+~
+~
+0 0 23760
+S
+#43321
+&+LThur'Gurax Disp Room&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 43293
+D2
+~
+~
+0 0 43280
+D3
+~
+~
+0 0 43287
+D4
+~
+~
+0 0 43151
+D6
+~
+~
+0 0 43148
+D7
+~
+~
+0 0 43284
+D8
+~
+~
+0 0 43159
+D9
+~
+~
+0 0 43300
+S
+#43322
+&+LSnapjaw Turtle Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 633831
+D1
+~
+~
+0 0 630645
+D2
+~
+~
+0 0 630632
+D3
+~
+~
+0 0 633442
+S
+#43323
+&+LStonescale Pyrolisk Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 580614
+D1
+~
+~
+0 0 278216
+D3
+~
+~
+0 0 577410
+S
+#43324
+&+LSand Viper Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 577710
+D1
+~
+~
+0 0 576520
+D2
+~
+~
+0 0 573713
+D3
+~
+~
+0 0 507725
+S
+#43325
+&+LTundra Panther Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 527113
+D1
+~
+~
+0 0 525123
+D2
+~
+~
+0 0 525113
+D3
+~
+~
+0 0 527123
+S
+#43326
+&+LHighland Samurai Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 642892
+S
+#43327
+&+LGreen Hydralisk Disp&N~
+~
+431 1249935360 0
+D0
+~
+~
+0 0 609015
+D1
+~
+~
+0 0 610220
+D2
+~
+~
+0 0 607821
+D3
+~
+~
+0 0 607824
+S
+#43328
+&+LBandit Disp&N~
+~
+431 1249935360 0
+D0
+~
+547312~
+0 0 547312
+D1
+~
+~
+0 0 546519
+D2
+~
+~
+0 0 544913
+S

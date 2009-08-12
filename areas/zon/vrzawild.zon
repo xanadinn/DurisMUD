@@ -1,0 +1,128 @@
+#370
+Crystalspyre Mountains~
+37099 2 0 10 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 37086 1 1 100 0 0 0
+*     east exit from "Before the Warming Hut" to
+*     "Inside the Warming Hut" - closed
+*
+D 0 37087 3 1 100 0 0 0
+*     west exit from "Inside the Warming Hut" to
+*     "Before the Warming Hut" - closed
+*
+D 0 37087 1 1 100 0 0 0
+*     east exit from "Inside the Warming Hut" to
+*     "Before the Warming Hut" - closed
+*
+D 0 37088 3 1 100 0 0 0
+*     west exit from "Before the Warming Hut" to
+*     "Inside the Warming Hut" - closed
+*
+*
+O 0 37002 1 37087 100 0 0 0        * a roaring fire
+O 0 37001 1 37090 100 0 0 0        * a huge durithalite slab
+*
+M 0 37001 8 37001 100 0 0 0        * a dire wolf
+M 0 37002 7 37004 100 0 0 0        * a dire wolf
+M 0 37002 7 37005 100 0 0 0        * a dire wolf
+M 0 37001 8 37007 100 0 0 0        * a dire wolf
+M 0 37001 8 37007 100 0 0 0        * a dire wolf
+M 0 37002 7 37008 100 0 0 0        * a dire wolf
+M 0 37002 7 37009 100 0 0 0        * a dire wolf
+M 0 37001 8 37011 100 0 0 0        * a dire wolf
+M 0 37001 8 37013 100 0 0 0        * a dire wolf
+M 0 37003 7 37019 100 0 0 0        * a dire wolf
+M 0 37003 7 37021 100 0 0 0        * a dire wolf
+M 0 37003 7 37022 100 0 0 0        * a dire wolf
+M 0 37003 7 37026 100 0 0 0        * a dire wolf
+M 0 37003 7 37028 100 0 0 0        * a dire wolf
+M 0 37002 7 37030 100 0 0 0        * a dire wolf
+M 0 37001 8 37031 100 0 0 0        * a dire wolf
+M 0 37001 8 37034 100 0 0 0        * a dire wolf
+M 0 37001 8 37035 100 0 0 0        * a dire wolf
+M 0 37004 2 37036 100 0 0 0        * a dire wolf
+M 0 37003 7 37042 100 0 0 0        * a dire wolf
+M 0 37005 1 37043 100 0 0 0        * a fiery ice dragon
+G 1 37000 1 0 100 0 0 0            *    an ice shield
+M 0 37002 7 37044 100 0 0 0        * a dire wolf
+M 0 37004 2 37045 100 0 0 0        * a dire wolf
+M 0 37003 7 37046 100 0 0 0        * a dire wolf
+M 0 37002 7 37047 100 0 0 0        * a dire wolf
+M 0 37000 3 37049 100 0 0 0        * a dire wolf
+M 0 37000 3 37051 100 0 0 0        * a dire wolf
+M 0 37000 3 37053 100 0 0 0        * a dire wolf
+M 0 37010 2 37056 100 0 0 0        * a frost worm
+M 0 37010 2 37056 100 0 0 0        * a frost worm
+M 0 37009 2 37059 100 0 0 0        * a frost worm
+M 0 37009 2 37059 100 0 0 0        * a frost worm
+M 0 37008 3 37068 100 0 0 0        * a frost worm
+M 0 37008 3 37068 100 0 0 0        * a frost worm
+M 0 37008 3 37068 100 0 0 0        * a frost worm
+M 0 37007 10 37070 100 0 0 0       * a frost worm
+M 0 37007 10 37072 100 0 0 0       * a frost worm
+M 0 37006 13 37072 100 0 0 0       * a frost worm
+M 0 37006 13 37072 100 0 0 0       * a frost worm
+M 0 37006 13 37072 100 0 0 0       * a frost worm
+M 0 37007 10 37073 100 0 0 0       * a frost worm
+M 0 37006 13 37073 100 0 0 0       * a frost worm
+M 0 37006 13 37073 100 0 0 0       * a frost worm
+M 0 37006 13 37073 100 0 0 0       * a frost worm
+M 0 37007 10 37075 100 0 0 0       * a frost worm
+M 0 37007 10 37075 100 0 0 0       * a frost worm
+M 0 37007 10 37075 100 0 0 0       * a frost worm
+M 0 37007 10 37075 100 0 0 0       * a frost worm
+M 0 37007 10 37077 100 0 0 0       * a frost worm
+M 0 37007 10 37077 100 0 0 0       * a frost worm
+M 0 37007 10 37077 100 0 0 0       * a frost worm
+M 0 37006 13 37078 100 0 0 0       * a frost worm
+M 0 37006 13 37078 100 0 0 0       * a frost worm
+M 0 37006 13 37078 100 0 0 0       * a frost worm
+M 0 37006 13 37081 100 0 0 0       * a frost worm
+M 0 37006 13 37081 100 0 0 0       * a frost worm
+M 0 37006 13 37083 100 0 0 0       * a frost worm
+M 0 37006 13 37085 100 0 0 0       * a frost worm
+M 0 37011 3 37087 100 0 0 0        * the bloodguard
+E 1 37003 3 5 100 0 0 0            *   some light bloodmail
+E 1 37007 3 12 100 0 0 0           *   a black wolfskin cloak
+E 1 37005 1 15 100 0 0 0           *   a durithalite bracelet
+E 1 37004 1 16 100 0 0 0           *   a cunning rapier
+E 1 37006 1 17 100 0 0 0           *   a dragonstooth dagger
+F 1 37011 3 37087 100 0 0 0        * the bloodguard (following)
+E 1 37003 3 5 100 0 0 0            *   some light bloodmail
+E 1 37010 1 8 100 0 0 0            *   the boots of the rose glacier
+E 1 37008 1 11 100 0 0 0           *   the shield bladebreaker
+E 1 37007 3 12 100 0 0 0           *   a black wolfskin cloak
+G 1 37009 1 0 100 0 0 0            *    a crimson war axe
+F 1 37011 3 37087 100 0 0 0        * the bloodguard (following)
+E 1 37003 3 5 100 0 0 0            *   some light bloodmail
+E 1 37012 1 9 100 0 0 0            *   some fine chainmail gloves
+E 1 37007 3 12 100 0 0 0           *   a black wolfskin cloak
+G 1 37011 1 0 100 0 0 0            *    a jagged halberd
+M 0 37015 3 37098 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+M 0 37015 3 37098 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+M 0 37015 3 37098 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+M 0 37016 3 37098 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+M 0 37012 1 37099 100 0 0 0        * Zikata
+E 1 37013 1 6 100 0 0 0            *   the crown of opposition
+F 1 37013 1 37099 100 0 0 0        * Yin (following)
+F 1 37014 1 37099 100 0 0 0        * Yang (following)
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 37016 3 37099 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+M 0 37016 3 37099 100 0 0 0        * A minion of Zikata
+E 1 37014 12 16 100 0 0 0          *   a tiny tentamort spine
+E 1 37014 12 17 100 0 0 0          *   a tiny tentamort spine
+*
+S

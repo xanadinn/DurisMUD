@@ -1,0 +1,362 @@
+#710
+&N&+LThe &N&+yFields&N&+L Between&N~
+71153 2 0 60 120 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 71045 1 5 100 0 0 0
+*     east exit from "The Overgrown Area Near a Break in the Foliage" to
+*     "A Path Hidden in the Grasses" - closed/secret
+*
+D 0 71046 3 5 100 0 0 0
+*     west exit from "A Path Hidden in the Grasses" to
+*     "The Overgrown Area Near a Break in the Foliage" - closed/secret
+*
+D 0 71107 2 2 100 0 0 0
+*     south exit from "In the Tangles at the Tower" to
+*     "Inside the Tower to Honor Zooox" - closed/locked
+*
+D 0 71108 0 2 100 0 0 0
+*     north exit from "Inside the Tower to Honor Zooox" to
+*     "In the Tangles at the Tower" - closed/locked
+*
+D 0 71111 3 1 100 0 0 0
+*     west exit from "Climbing the Tower Stairwell" to
+*     "The Study inside the Tower" - closed
+*
+D 0 71114 1 1 100 0 0 0
+*     east exit from "The Study inside the Tower" to
+*     "Climbing the Tower Stairwell" - closed
+*
+D 0 71113 2 1 100 0 0 0
+*     south exit from "Climbing the Tower Stairwell" to
+*     "The Laboratory Inside the Tower" - closed
+*
+D 0 71116 0 1 100 0 0 0
+*     north exit from "The Laboratory Inside the Tower" to
+*     "Climbing the Tower Stairwell" - closed
+*
+D 0 71117 1 1 100 0 0 0
+*     east exit from "Climbing the Tower Stairwell" to
+*     "The Tower Kitchen and Mess Hall" - closed
+*
+D 0 71119 3 1 100 0 0 0
+*     west exit from "The Tower Kitchen and Mess Hall" to
+*     "Climbing the Tower Stairwell" - closed
+*
+D 0 71121 1 1 100 0 0 0
+*     east exit from "At the Top of the Tower" to
+*     "Domicile of the Wildmage of Nature" - closed
+*
+D 0 71122 3 1 100 0 0 0
+*     west exit from "Domicile of the Wildmage of Nature" to
+*     "At the Top of the Tower" - closed
+*
+D 0 71121 3 1 100 0 0 0
+*     west exit from "At the Top of the Tower" to
+*     "Domicile of the Wildmage of Elements" - closed
+*
+D 0 71123 1 1 100 0 0 0
+*     east exit from "Domicile of the Wildmage of Elements" to
+*     "At the Top of the Tower" - closed
+*
+D 0 71124 1 1 100 0 0 0
+*     east exit from "At the Top of the Tower" to
+*     "Domicile of the Wildmage of Creatures" - closed
+*
+D 0 71125 3 1 100 0 0 0
+*     west exit from "Domicile of the Wildmage of Creatures" to
+*     "At the Top of the Tower" - closed
+*
+D 0 71124 3 1 100 0 0 0
+*     west exit from "At the Top of the Tower" to
+*     "Domicile of the Wildmage of Space and Time" - closed
+*
+D 0 71126 1 1 100 0 0 0
+*     east exit from "Domicile of the Wildmage of Space and Time" to
+*     "At the Top of the Tower" - closed
+*
+D 0 71127 2 2 100 0 0 0
+*     south exit from "Outside the Chambers of the Great Wildmage" to
+*     "Chambers of the Great Wildmage" - closed/locked
+*
+D 0 71128 0 2 100 0 0 0
+*     north exit from "Chambers of the Great Wildmage" to
+*     "Outside the Chambers of the Great Wildmage" - closed/locked
+*
+D 0 71150 1 1 100 0 0 0
+*     east exit from "Nearing the Hut of the Raider Leader, Grog" to
+*     "The Hut of Grog" - closed
+*
+D 0 71151 3 1 100 0 0 0
+*     west exit from "The Hut of Grog" to
+*     "Nearing the Hut of the Raider Leader, Grog" - closed
+*
+*
+O 0 71001 1 71014 100 0 0 0        * the beat up farmhouse
+O 0 71002 1 71104 100 0 0 0        * the door
+O 0 71030 1 71126 100 0 0 0        * a small circular rift
+O 0 359 1 71128 100 0 0 0          * (object type not in this .obj file)
+O 0 71031 1 71153 100 0 0 0        * a gateway back
+*
+M 0 71001 6 71003 100 0 0 0        * a hungry field mouse
+M 0 71007 6 71003 100 0 0 0        * a disgustingly large slug
+M 0 71003 6 71003 100 0 0 0        * a large curious ferret
+M 0 71009 5 71003 100 0 0 0        * a hulking bluebird
+M 0 71002 6 71004 100 0 0 0        * a very hungry field mouse
+M 0 71008 6 71004 100 0 0 0        * a big mean slug
+M 0 71004 6 71004 100 0 0 0        * the very large curious ferret
+M 0 71003 6 71005 100 0 0 0        * a large curious ferret
+M 0 71009 5 71005 100 0 0 0        * a hulking bluebird
+M 0 71005 6 71005 100 0 0 0        * a big happy rabbit
+M 0 71004 6 71006 100 0 0 0        * the very large curious ferret
+M 0 71010 5 71006 100 0 0 0        * a truly hulking bluebird
+M 0 71006 6 71006 100 0 0 0        * a very big happy rabbit
+M 0 71007 6 71006 100 0 0 0        * a disgustingly large slug
+M 0 71008 6 71007 100 0 0 0        * a big mean slug
+M 0 71004 6 71007 100 0 0 0        * the very large curious ferret
+M 0 71010 5 71007 100 0 0 0        * a truly hulking bluebird
+M 0 71007 6 71008 100 0 0 0        * a disgustingly large slug
+M 0 71003 6 71008 100 0 0 0        * a large curious ferret
+M 0 71009 5 71008 100 0 0 0        * a hulking bluebird
+M 0 71001 6 71008 100 0 0 0        * a hungry field mouse
+M 0 71006 6 71009 100 0 0 0        * a very big happy rabbit
+M 0 71002 6 71009 100 0 0 0        * a very hungry field mouse
+M 0 71008 6 71009 100 0 0 0        * a big mean slug
+M 0 71006 6 71009 100 0 0 0        * a very big happy rabbit
+M 0 71005 6 71010 100 0 0 0        * a big happy rabbit
+M 0 71001 6 71010 100 0 0 0        * a hungry field mouse
+M 0 71007 6 71010 100 0 0 0        * a disgustingly large slug
+M 0 71009 5 71011 100 0 0 0        * a hulking bluebird
+M 0 71005 6 71011 100 0 0 0        * a big happy rabbit
+M 0 71001 6 71011 100 0 0 0        * a hungry field mouse
+M 0 71010 5 71012 100 0 0 0        * a truly hulking bluebird
+M 0 71006 6 71012 100 0 0 0        * a very big happy rabbit
+M 0 71002 6 71012 100 0 0 0        * a very hungry field mouse
+M 0 71004 6 71012 100 0 0 0        * the very large curious ferret
+M 0 71001 6 71013 100 0 0 0        * a hungry field mouse
+M 0 71007 6 71013 100 0 0 0        * a disgustingly large slug
+M 0 71003 6 71013 100 0 0 0        * a large curious ferret
+M 0 71002 6 71014 100 0 0 0        * a very hungry field mouse
+M 0 71008 6 71014 100 0 0 0        * a big mean slug
+M 0 71004 6 71014 100 0 0 0        * the very large curious ferret
+M 0 71008 6 71014 100 0 0 0        * a big mean slug
+M 0 71006 6 71015 100 0 0 0        * a very big happy rabbit
+M 0 71002 6 71015 100 0 0 0        * a very hungry field mouse
+M 0 71008 6 71015 100 0 0 0        * a big mean slug
+M 0 71003 6 71015 100 0 0 0        * a large curious ferret
+M 0 71002 6 71015 100 0 0 0        * a very hungry field mouse
+M 0 71005 6 71016 100 0 0 0        * a big happy rabbit
+M 0 71001 6 71016 100 0 0 0        * a hungry field mouse
+M 0 71007 6 71016 100 0 0 0        * a disgustingly large slug
+M 0 71010 5 71016 100 0 0 0        * a truly hulking bluebird
+M 0 71004 6 71017 100 0 0 0        * the very large curious ferret
+M 0 71010 5 71017 100 0 0 0        * a truly hulking bluebird
+M 0 71006 6 71017 100 0 0 0        * a very big happy rabbit
+M 0 71003 6 71018 100 0 0 0        * a large curious ferret
+M 0 71009 5 71018 100 0 0 0        * a hulking bluebird
+M 0 71005 6 71018 100 0 0 0        * a big happy rabbit
+M 0 71005 6 71018 100 0 0 0        * a big happy rabbit
+M 0 71016 8 71022 100 0 0 0        * a fifty foot purple snake
+M 0 71011 10 71022 100 0 0 0       * a bloodthirsty badger
+M 0 71020 8 71022 100 0 0 0        * a boy-sized praying mantis
+M 0 71012 6 71023 100 0 0 0        * a bleeding badger
+M 0 71017 8 71023 100 0 0 0        * a mutated warthog
+M 0 71019 6 71023 100 0 0 0        * a man-sized praying mantis
+M 0 71013 9 71023 100 0 0 0        * a fox covered with scales
+M 0 71013 9 71024 100 0 0 0        * a fox covered with scales
+M 0 71018 9 71024 100 0 0 0        * an ugly mutated warthog
+M 0 71011 10 71024 100 0 0 0       * a bloodthirsty badger
+M 0 71018 9 71027 100 0 0 0        * an ugly mutated warthog
+M 0 71013 9 71027 100 0 0 0        * a fox covered with scales
+M 0 71016 8 71027 100 0 0 0        * a fifty foot purple snake
+M 0 71014 5 71027 100 0 0 0        * a large fox covered with scales
+M 0 71017 8 71028 100 0 0 0        * a mutated warthog
+M 0 71012 6 71028 100 0 0 0        * a bleeding badger
+M 0 71015 6 71028 100 0 0 0        * a forty foot purple snake
+M 0 71016 8 71029 100 0 0 0        * a fifty foot purple snake
+M 0 71011 10 71029 100 0 0 0       * a bloodthirsty badger
+M 0 71014 5 71029 100 0 0 0        * a large fox covered with scales
+M 0 71020 8 71029 100 0 0 0        * a boy-sized praying mantis
+M 0 71015 6 71030 100 0 0 0        * a forty foot purple snake
+M 0 71020 8 71030 100 0 0 0        * a boy-sized praying mantis
+M 0 71013 9 71030 100 0 0 0        * a fox covered with scales
+M 0 71020 8 71031 100 0 0 0        * a boy-sized praying mantis
+M 0 71018 9 71031 100 0 0 0        * an ugly mutated warthog
+M 0 71011 10 71032 100 0 0 0       * a bloodthirsty badger
+M 0 71016 8 71032 100 0 0 0        * a fifty foot purple snake
+M 0 71019 6 71032 100 0 0 0        * a man-sized praying mantis
+M 0 71018 9 71037 100 0 0 0        * an ugly mutated warthog
+M 0 71013 9 71037 100 0 0 0        * a fox covered with scales
+M 0 71016 8 71037 100 0 0 0        * a fifty foot purple snake
+M 0 71018 9 71037 100 0 0 0        * an ugly mutated warthog
+M 0 71017 8 71038 100 0 0 0        * a mutated warthog
+M 0 71012 6 71038 100 0 0 0        * a bleeding badger
+M 0 71011 10 71039 100 0 0 0       * a bloodthirsty badger
+M 0 71014 5 71039 100 0 0 0        * a large fox covered with scales
+M 0 71011 10 71048 100 0 0 0       * a bloodthirsty badger
+M 0 71018 9 71048 100 0 0 0        * an ugly mutated warthog
+M 0 71013 9 71050 100 0 0 0        * a fox covered with scales
+M 0 71019 6 71050 100 0 0 0        * a man-sized praying mantis
+M 0 71015 6 71050 100 0 0 0        * a forty foot purple snake
+M 0 71018 9 71052 100 0 0 0        * an ugly mutated warthog
+M 0 71014 5 71052 100 0 0 0        * a large fox covered with scales
+M 0 71020 8 71052 100 0 0 0        * a boy-sized praying mantis
+M 0 71017 8 71053 100 0 0 0        * a mutated warthog
+M 0 71013 9 71053 100 0 0 0        * a fox covered with scales
+M 0 71019 6 71053 100 0 0 0        * a man-sized praying mantis
+M 0 71013 9 71053 100 0 0 0        * a fox covered with scales
+M 0 71016 8 71054 100 0 0 0        * a fifty foot purple snake
+M 0 71012 6 71054 100 0 0 0        * a bleeding badger
+M 0 71018 9 71054 100 0 0 0        * an ugly mutated warthog
+M 0 71012 6 71054 100 0 0 0        * a bleeding badger
+M 0 71015 6 71055 100 0 0 0        * a forty foot purple snake
+M 0 71011 10 71055 100 0 0 0       * a bloodthirsty badger
+M 0 71017 8 71055 100 0 0 0        * a mutated warthog
+M 0 71015 6 71056 100 0 0 0        * a forty foot purple snake
+M 0 71011 10 71056 100 0 0 0       * a bloodthirsty badger
+M 0 71020 8 71057 100 0 0 0        * a boy-sized praying mantis
+M 0 71016 8 71057 100 0 0 0        * a fifty foot purple snake
+M 0 71012 6 71057 100 0 0 0        * a bleeding badger
+M 0 71011 10 71058 100 0 0 0       * a bloodthirsty badger
+M 0 71017 8 71058 100 0 0 0        * a mutated warthog
+M 0 71013 9 71058 100 0 0 0        * a fox covered with scales
+M 0 71019 6 71058 100 0 0 0        * a man-sized praying mantis
+M 0 71018 9 71060 100 0 0 0        * an ugly mutated warthog
+M 0 71020 8 71060 100 0 0 0        * a boy-sized praying mantis
+M 0 71011 10 71061 100 0 0 0       * a bloodthirsty badger
+M 0 71017 8 71061 100 0 0 0        * a mutated warthog
+M 0 71015 6 71061 100 0 0 0        * a forty foot purple snake
+M 0 71020 8 71062 100 0 0 0        * a boy-sized praying mantis
+M 0 71016 8 71062 100 0 0 0        * a fifty foot purple snake
+M 0 71017 8 71062 100 0 0 0        * a mutated warthog
+M 0 71019 6 71063 100 0 0 0        * a man-sized praying mantis
+M 0 71014 5 71063 100 0 0 0        * a large fox covered with scales
+M 0 71021 8 71066 100 0 0 0        * an ostrich with arms
+M 0 71022 6 71066 100 0 0 0        * a rhinocerous with wings
+M 0 71023 7 71068 100 0 0 0        * a lion drooling rainbows
+M 0 71024 8 71068 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71070 100 0 0 0       * the boa constrictor with legs
+M 0 71021 8 71070 100 0 0 0        * an ostrich with arms
+M 0 71021 8 71071 100 0 0 0        * an ostrich with arms
+M 0 71022 6 71071 100 0 0 0        * a rhinocerous with wings
+M 0 71022 6 71072 100 0 0 0        * a rhinocerous with wings
+M 0 71023 7 71072 100 0 0 0        * a lion drooling rainbows
+M 0 71023 7 71073 100 0 0 0        * a lion drooling rainbows
+M 0 71024 8 71073 100 0 0 0        * a bear with a trout head
+M 0 71024 8 71074 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71074 100 0 0 0       * the boa constrictor with legs
+M 0 71023 7 71074 100 0 0 0        * a lion drooling rainbows
+M 0 71025 10 71075 100 0 0 0       * the boa constrictor with legs
+M 0 71021 8 71075 100 0 0 0        * an ostrich with arms
+M 0 71024 8 71079 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71079 100 0 0 0       * the boa constrictor with legs
+M 0 71023 7 71083 100 0 0 0        * a lion drooling rainbows
+M 0 71024 8 71083 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71085 100 0 0 0       * the boa constrictor with legs
+M 0 71021 8 71085 100 0 0 0        * an ostrich with arms
+M 0 71021 8 71086 100 0 0 0        * an ostrich with arms
+M 0 71022 6 71086 100 0 0 0        * a rhinocerous with wings
+M 0 71022 6 71087 100 0 0 0        * a rhinocerous with wings
+M 0 71023 7 71087 100 0 0 0        * a lion drooling rainbows
+M 0 71024 8 71088 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71088 100 0 0 0       * the boa constrictor with legs
+M 0 71024 8 71089 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71089 100 0 0 0       * the boa constrictor with legs
+M 0 71025 10 71090 100 0 0 0       * the boa constrictor with legs
+M 0 71021 8 71090 100 0 0 0        * an ostrich with arms
+M 0 71024 8 71094 100 0 0 0        * a bear with a trout head
+M 0 71025 10 71094 100 0 0 0       * the boa constrictor with legs
+M 0 71022 6 71097 100 0 0 0        * a rhinocerous with wings
+M 0 71023 7 71097 100 0 0 0        * a lion drooling rainbows
+M 0 71025 10 71100 100 0 0 0       * the boa constrictor with legs
+M 0 71021 8 71100 100 0 0 0        * an ostrich with arms
+M 0 71065 1 71104 10 0 0 0         * a rather upset looking mouse
+M 0 71026 2 71105 100 0 0 0        * a living wall of thorn
+M 0 71026 2 71106 100 0 0 0        * a living wall of thorn
+M 0 71027 1 71107 100 0 0 0        * a sorcerer walrus-giant
+G 1 71003 1 0 100 0 0 0            *    the thorny key
+M 0 71030 2 71108 100 0 0 0        * the human with a giant's head
+M 0 71063 2 71109 100 0 0 0        * an upset mound
+M 0 71031 2 71110 100 0 0 0        * a middle-aged mutated reaver turtle
+M 0 71064 2 71111 100 0 0 0        * the angry set of platemail
+M 0 71029 2 71112 100 0 0 0        * an elephant in a dress
+M 0 71063 2 71113 100 0 0 0        * an upset mound
+M 0 71028 1 71114 100 0 0 0        * a horde of semi-intelligent monkeys
+E 1 71005 1 11 100 0 0 0           *   the manuscript written by monkeys
+E 1 71004 3 16 100 0 0 0           *   lots of quills
+E 1 71004 3 17 100 0 0 0           *   lots of quills
+E 1 71004 3 25 100 0 0 0           *   lots of quills
+M 0 71064 2 71115 100 0 0 0        * the angry set of platemail
+M 0 71056 1 71116 100 0 0 0        * the wildhaired professor
+M 0 71031 2 71117 100 0 0 0        * a middle-aged mutated reaver turtle
+M 0 71030 2 71118 100 0 0 0        * the human with a giant's head
+M 0 71067 1 71118 100 0 0 0        * a globulous dimensional rift
+M 0 71041 1 71119 100 0 0 0        * an octopus whirling knives
+G 1 71016 1 0 100 0 0 0            *    a clump of overipe bannanas
+M 0 71062 1 71119 100 0 0 0        * a very hungry ape
+M 0 71029 2 71121 100 0 0 0        * an elephant in a dress
+M 0 71047 1 71122 100 0 0 0        * the wildmage of nature
+G 1 71011 1 0 100 0 0 0            *    the head of a wildmage
+M 0 71046 1 71123 100 0 0 0        * the wildmage of the elements
+G 1 71010 1 0 100 0 0 0            *    the head of a wildmage
+M 0 71048 1 71125 100 0 0 0        * the wildmage of creatures
+G 1 71012 1 0 100 0 0 0            *    the head of a wildmage
+M 0 71049 1 71126 100 0 0 0        * the wildmage of space and time
+G 1 71013 1 0 100 0 0 0            *    the head of a wildmage
+M 0 71042 1 71127 100 0 0 0        * a tree that wants to party
+M 0 71043 1 71127 100 0 0 0        * a water elemental playing the banjo
+M 0 71044 1 71127 100 0 0 0        * a vampire serving drinks
+G 1 71026 1 0 100 0 0 0            *    the spiral key
+M 0 71045 1 71127 100 0 0 0        * an illithid twirling glowing sticks
+M 0 71050 1 71128 100 0 0 0        * the great wildmage
+E 1 71015 1 12 100 0 0 0           *   a tangle of magical vine
+G 1 71014 1 0 100 0 0 0            *    the head of a great wildmage
+M 0 71032 2 71129 100 0 0 0        * an ogre raider lookout
+E 1 71006 2 16 100 0 0 0           *   a nasty dagger
+M 0 71032 2 71129 100 0 0 0        * an ogre raider lookout
+E 1 71006 2 16 100 0 0 0           *   a nasty dagger
+M 0 71060 3 71130 100 0 0 0        * the annoyed troll raider
+M 0 71033 3 71131 100 0 0 0        * a drunken troll raider
+M 0 71055 1 71132 100 0 0 0        * the giant torturer
+G 1 71022 1 0 100 0 0 0            *    an open ended box making crunching sounds
+M 0 71033 3 71133 100 0 0 0        * a drunken troll raider
+M 0 71058 2 71134 100 0 0 0        * a wildmage being forced to attack
+M 0 71058 2 71134 100 0 0 0        * a wildmage being forced to attack
+M 0 71059 1 71134 100 0 0 0        * the raider prison master
+E 1 71025 1 11 100 0 0 0           *   the writhing shield of arms
+M 0 71034 3 71135 100 0 0 0        * a bullied orc shaman
+M 0 71035 1 71136 100 0 0 0        * a hobgoblin ruffian
+G 1 71007 1 0 100 0 0 0            *    orders from Grog
+M 0 71053 2 71136 100 0 0 0        * the drunk troll raider
+M 0 71053 2 71136 100 0 0 0        * the drunk troll raider
+M 0 71060 3 71137 100 0 0 0        * the annoyed troll raider
+M 0 71033 3 71138 100 0 0 0        * a drunken troll raider
+M 0 71052 1 71139 100 0 0 0        * the hobgoblin cook
+G 1 71008 1 0 100 0 0 0            *    the body of a young boy
+M 0 71054 2 71139 100 0 0 0        * the very hungry ogre
+M 0 71054 2 71139 100 0 0 0        * the very hungry ogre
+M 0 71061 2 71140 100 0 0 0        * the bored ogre raider
+M 0 71034 3 71141 100 0 0 0        * a bullied orc shaman
+M 0 71060 3 71143 100 0 0 0        * the annoyed troll raider
+M 0 71061 2 71144 100 0 0 0        * the bored ogre raider
+M 0 71034 3 71145 100 0 0 0        * a bullied orc shaman
+M 0 71037 1 71147 100 0 0 0        * a drunk, yet bored troll
+M 0 71036 1 71148 100 0 0 0        * Grox
+E 1 71029 1 5 100 0 0 0            *   a sloppy shirt made from dragonscales
+M 0 71051 1 71149 100 0 0 0        * the weaponsmith of the raiders
+G 1 71021 1 0 33 0 0 0             *    a bar of the alloy, dark mithril
+M 0 71057 1 71150 100 0 0 0        * the giant two-headed dog
+M 0 71038 1 71151 100 0 0 0        * Grog
+E 1 71018 1 16 100 0 0 0           *   the serrated raider longsword
+E 1 71019 1 19 100 0 0 0           *   Grog's eyepatch
+G 1 71009 1 0 100 0 0 0            *    the head of Grog
+F 1 71039 2 71151 100 0 0 0        * a burly ogre bodyguard (following)
+F 1 71039 2 71151 100 0 0 0        * a burly ogre bodyguard (following)
+F 1 71040 1 71151 100 0 0 0        * the orc shaman bodyguard (following)
+M 0 71066 1 71152 100 0 0 0        * the mother in despair
+M 0 71068 1 71153 100 0 0 0        * a dark shadowy beast
+G 1 71032 1 0 100 0 0 0            *    a coil of darkness
+*
+S

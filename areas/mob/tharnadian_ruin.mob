@@ -1,0 +1,466 @@
+#5500
+patrol officer leader~
+&+Cthe patrol leader&N~
+&+CA Winterhaven patrol officer leads his troops through the ruins.&N
+~
+   Decked out in the same standard issue plate armor as his troops,
+this man is distinguished as an officer from the way he conducts himself,
+his bright red cloak, and his two-handed sword.  He and his men are
+here to slaughter any evil they find, and to take back the city.
+~
+1140852808 128 0 8 0 0 0 800 S
+PH 0 8 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5501
+expeditionary force member~
+&+Wa Winterhaven expeditionary force member&N~
+&+WA Winterhaven expeditionary force member patrols the ruins.&N
+~
+   Dressed head to toe in plate and chain and carrying a wicked looking
+pike, this man is ready for battle.  He is here as part of a Winterhaven
+expeditionary force that is attempting to retake Tharnadia for human use.
+One would not want to cross this man, as he is ready, willing and able to
+annihilate his foes.
+~
+1140852810 128 0 0 0 0 0 800 S
+PH 0 16384 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5502
+humanoid fiery rotted undead paladin~
+&+Rthe rotted undead remains of a paladin&N~
+&+RAn undead being dressed in chainmail with &+rfiery&+R red eyes rushes towards you.&N
+~
+   This being's armor is in perfect condition -- chain coif, leggings and
+sleeves with a platemail breastplate.  It wields a gleaming steel broadsword
+in one hand and holds a round metal kite shield in the other.  One look at
+its face, however, and it becomes patently obvious that this thing is undead.
+Without hesitation, it charges to the attack. It will keep fighting until
+either you, or it, is destroyed.
+~
+74 1 0 40 0 0 0 -1000 S
+ZO 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5503
+fifty foot skeletal knight gigantic~
+&+Wa fifty foot skeletal knight&N~
+&+WA horrific, fifty foot skeletal knight prepares itself to conquer Duris.&N
+~
+   This _thing_ is huge.  It's torso, legs and arms are covered in a
+pitch black armor made from an inmaterial substance.  It wields a
+terrifying giant black two-handed sword.  It's deep black eyes tear into
+your soul, or so it seems. Now that you've released the seal on the
+cathedral, it is free to ravage the world, unless you can stop it!
+~
+1125150794 1 0 536944680 0 67371072 37761536 -1000 S
+SK 0 272 7
+62 199 -200 10d10+3500 7d7+40
+0.0.0.0 500000
+8 8 0
+#5504
+patrol officer leader~
+&+Cthe patrol leader&N~
+&+CA Winterhaven patrol leader guards the entrance to the old quarter.&N
+~
+   Decked out in the same standard issue plate armor as his troops,
+this man is distinguished as an officer from the way he conducts himself,
+his bright red cloak, and his two-handed sword.  He and his men are
+here to slaughter any evil they find, and to take back the city.  In
+particular, this officer is assigned to guard the entrance to the
+old quarter of Tharnadia, and slay any undead that might pass through
+the gates.
+~
+1140852810 0 0 8 0 0 0 800 S
+PH 0 8 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5505
+expeditionary force member~
+&+Wa Winterhaven expeditionary force member&N~
+&+WA Winterhaven expeditionary force member stands here, ready for battle.&N
+~
+   Dressed head to toe in plate and chain and carrying a wicked looking
+pike, this man is ready for battle.  He is here as part of a Winterhaven
+expeditionary force that is attempting to retake Tharnadia for human use.
+One would not want to cross this man, as he is ready, willing and able to
+annihilate his foes.  This man has been assigned to guard the entrance
+to the old quarter, where undead have proliferated.
+~
+1140852810 0 0 0 0 0 0 800 S
+PH 0 16384 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5506
+leader man~
+&+Ythe leader of the expeditionary force&N~
+&+YA man dressed in gold-tinged plate stands here, reviewing a map.&N
+~
+   Dressed in ornate, gold-tinted armor, and wearing a striking cloak.
+It is patently obvious that this man is in charge of the Winterhaven
+expeditionary force.  He is of very high rank in the Winterhaven guard,
+perhaps even a general.  He has a pensive look on his face, and pours
+over a map of the city.  Clearly, this man could use your help.
+~
+67110986 128 0 40 32768 0 0 1000 S
+PH 0 2 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5507
+mage battle robes human~
+&+ra Winterhaven battle-mage&N~
+&+rA human mage magically enlarged to giant proportions stands here.&N
+~
+   This man is human for all intensive purposes.  A magical enchantment
+has increased his size to giant proportions -- done purposely to aid
+in battle so that he may avoid being knocked to the ground.  He wears
+the azure robes of a Winterhaven battle mage and holds a spellbook in his
+hands.  He stares off westwards into the distance and is silent.
+~
+67110986 128 0 40 0 0 0 800 S
+PH 0 512 6
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5508
+expeditionary force member~
+&+Wa Winterhaven expeditionary force member&N~
+&+WA Winterhaven expeditionary force member guards the gate.&N
+~
+   Dressed head to toe in plate and chain and carrying a wicked looking
+pike, this man is ready for battle.  He is here as part of a Winterhaven
+expeditionary force that is attempting to retake Tharnadia for human use.
+One would not want to cross this man, as he is ready, willing and able to
+annihilate his foes.  He stands here, guarding the gate to the twin
+keeps.
+~
+67110986 128 0 0 0 0 0 800 S
+PH 0 16384 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5509
+patrol officer leader~
+&+Cthe patrol leader&N~
+&+CA Winterhaven patrol officer surveys the area.&N
+~
+   Decked out in the same standard issue plate armor as his troops,
+this man is distinguished as an officer from the way he conducts himself,
+his bright red cloak, and his two-handed sword.  He and his men are
+here to slaughter any evil they find, and to take back the city.  This
+particular officer has been assigned to guard the fissure.
+
+&+cThe patrol leader&N says in common "Now, don't be a fool and walk
+a step to the north.  Not unless you have wings!"
+
+&+CThe patrol leader&N chuckles to himself.
+~
+67110986 128 0 8 0 0 0 800 S
+PH 0 8 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5510
+expeditionary force member~
+&+Wa Winterhaven expeditionary force member&N~
+&+WA Winterhaven expeditionary force member marvels at the fissure's size.&N
+~
+   Dressed head to toe in plate and chain and carrying a wicked looking
+pike, this man is ready for battle.  He is here as part of a Winterhaven
+expeditionary force that is attempting to retake Tharnadia for human use.
+One would not want to cross this man, as he is ready, willing and able to
+annihilate his foes.  This man has been assigned to secure the fissure.
+~
+67110986 128 0 0 0 0 0 800 S
+PH 0 16384 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5511
+tarantula~
+a &+LGIANT tarantula&N~
+&+LMandibles clacking, a hideous tarantula turns towards you.&N
+~
+   This disgusting spider is covered in long coarse hairs, and has giant
+&+rcrimson&N multi-faceted eyes.  Each of its eight legs ends in a tuft
+of hairs, which hide sharp serrated hooks.  Over the years, some unknown
+power has caused it to grow to a horrendous size.
+~
+1073743882 1 0 0 0 0 0 0 S
+as 0 1 3
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5512
+masked man rogue~
+&+Wa masked rogue&N~
+&+WA masked man sifting through the rubble is startled by your presence.&N
+~
+   Decked out in tight black clothes and wearing a cloth mask that
+covers his entire face, this man is clearly up to no good.  He wields a
+dagger in one hand, and a small buckler in the other.  He is probably
+here to search through the rubble for treasure.
+~
+1073743882 1 0 0 0 0 0 -500 S
+PH 0 4096 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5513
+gibberling~
+&+La lost gibberling&N~
+&+LA black gibberling shambles about here, looking for food.&N
+~
+   Gibberlings resemble hunchbacked humanoids -- a thick mane of black
+hair crosses this beast's head, back and chin.  It is very aggressive,
+and very hungry.  Large sharp teeth and a wild, animal look covers this
+beast's face.  Normally a pack creature, this particular gibberling has
+been separated from its horde.
+~
+1073743882 1 0 0 0 0 0 -500 S
+AC 0 0 2
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5514
+spirit slack jawed prostitute slack-jawed~
+the &+Wspirit&N of a &+cslack-jawed&N &+Cprostitute&N~
+The &+Wspirit&N of a &+cslack-jawed&+C prostitute&N floats here.&N
+~
+  A visage of a big lipped, bare breasted nymphette is before you.  This
+being must have worked in here before the invasion.  She isn't exactly
+attractive, but she was probably very busy back in the day.  Her wrists
+are shackled, as if she were still bound to the sex rack.
+~
+2122 0 0 2 0 0 0 0 S
+ug 0 1 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#5515
+reptile massive green~
+&+ga massive green reptile&N~
+&+gA massive four-legged reptile moves about, scavenging.&N
+~
+  This beast is well over seven feet in length.  Its thick scales and
+sharp claws make it a formidable opponent.  It doesn't appear to be
+particularly aggressive, however, and it gives you a bored glance before
+moving on.  Why or how it got here is anyone's best guess.
+~
+2056 0 0 0 0 0 0 0 S
+r 0 1 4
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5516
+reptile red~
+&+Ra massive red reptile&N~
+&+RA massive red reptile moves about at a fast pace.&N
+~
+   Identical in most respects to his green counterpart, this reptile is
+smaller, and faster.  And, unlike the green reptiles, this beast is
+aggressive.  One would be well-advised to make a wide berth around this
+creature.
+~
+1073743944 1 0 0 0 0 0 -600 S
+r 0 1 3
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5517
+earth elemental~
+&+ya small and weakened earth elemental&N~
+&+yA weakened and small earth elemental makes its way across the room.&N
+~
+   At one time, this earth elemental probably stood over 20 feet tall
+and wielded tremendous physical power.  Its connection to the prime
+material plane has grown weak, however, and it fights at a
+fraction of its previous strength.  Likely, this being was summoned to
+assist in the razing of Tharnadia, but for some unknown reason, was not
+banished back to the Plane of Earth after its use.  It retains its
+hatred of humanoids, however, and will strike out at whomever it can.
+~
+2058 1 0 40 0 0 0 -800 S
+EE 0 1 2
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5518
+young bandit~
+&+ya young bandit fighter&N~
+&+yA young bandit fighter wielding a longsword watches the area.&N
+~
+   Possibly a member of Isoril's camp, this man is here searching for
+treasure in the Tharnadian ruins with his friends.  He watches the area,
+ensuring they are not ambushed while his comrade attempts to open the
+bank safe.
+~
+2122 1 0 0 0 0 0 -700 S
+PH 0 1 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5519
+leader bandit~
+&+Wthe bandit leader&N~
+&+WThe leader of the bandit group is here, crouched over the safe.&N
+~
+   Distinguished from his subordinates by his somewhat higher quality
+leather armor and sword, this man is currently trying to figure out the
+combination to the Tharnadian bank vault safe.  He is not having much
+luck, however, and curses loudly every now and then as he fiddles with
+the safe's dial.
+~
+16779278 1 0 0 0 0 0 -800 S
+PH 0 1 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5520
+banker sarn spirit~
+the &+Wspirit&N of &+GSarn&N, &+gthe banker&N~
+The &+Wspirit&N of a furious-looking banker looms over the bandits.&N
+~
+   Dressed in the small black cap and white dress shirt he probably wore
+when he lived centuries ago, this man appears normal in most respects
+except for one small problem -- he's a translucent ghost.  He stands
+over the bandits, furious at their intrusion. Not realizing that he is
+now undead, and with power that could easily crush the bandits, however,
+he does nothing.
+~
+2120 0 0 2 0 0 0 0 S
+UG 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5521
+female drow cleric battle~
+&+La &+mdrow&N &+Lwar cleric&N~
+A female &+mDrow&N dressed in chain surveys the area.&N
+~
+   Her ebony skin and fine elven features brand her as a Drow, one of
+the most vile races on Duris.  She is a battle cleric, as identified by
+her black mace, platemail and holy symbol.  Undoubtedly, she will attack
+her enemies on sight and not stop attacking until they are vanquished.
+Her superiors have learned Winterhaven might have sent an expeditionary
+force here, and she is part of the scouting party that will investigate.
+~
+67110920 64 0 40 0 0 0 -1000 S
+PL 0 32 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#5522
+drow male fighter~
+a &+mdrow&N fighter&N~
+A male &+mDrow&N dressed in black leather stands here looking very much alert.&N
+~
+   Dressed in black leather and wielding a blackened adamantium
+longsword, this Drow means business.  He is part of the scouting party
+that is here to investigate Winterhaven's activities in Tharnadia.  He
+will slay any good race being he sees on sight.
+~
+67110922 64 0 16 0 0 0 -750 S
+PL 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5523
+drow rogue master assassin~
+a &+mdrow&N master assassin~
+A &+mDrow&N decked out head-to-toe in black tries to hide here.&N
+~
+   Few see these Drow, and even fewer live to tell about their
+encounter.  This Drow has trained to be a slayer for many, many years.
+He or she is the elite of the elite, a grandmaster killer.  If this Drow
+decides to attack you, you will be in for the fight of your life.
+~
+83888266 64 0 1572920 0 0 0 -1000 S
+PL 0 12288 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5524
+xorn~
+&+ya large &+Yxorn&N~
+&+YA large xorn moves through the rock, a hostile expression on its face.&N
+~
+   This being native to the elemental plane of earth does not look happy
+to be here.  Some unknown power prevents it from returning home.  It
+will attack living prime material plane creatures (such as yourself) on
+sight.
+~
+2120 1 0 8 0 0 0 -700 S
+EE 0 1 4
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5525
+small earth elemental~
+&+ya small earth elemental&N~
+&+yA small earth elemental is here, burrowing through the rock.&N
+~
+   This being, native to the elemental plane of earth, has been
+permanently bound here by some unknown power.  It is not as strong as
+its other more mature earth elemental counterparts, but will put up a
+formidable fight if given the chance.  It hates living beings from the
+prime material plane and will slay them on sight.
+~
+2120 1 0 0 0 0 0 -700 S
+EE 0 1 3
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5526
+young bandit fighter~
+&+ya young bandit fighter&N~
+&+yA young bandit fighter is here, searching for loot to plunder.&N
+~
+   Possibly part of Isoril's band, this bandit shadowed the Winterhaven
+expeditionary force, and is searching the newly secured city for loot.
+He wears leather armor and wields a short sword in one hand, and a metal
+buckler in the other.  He will put up quite a fight if needed.
+~
+2122 1 0 0 0 0 0 -800 S
+PH 0 1 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#5527
+demon wretched bloody humanoid~
+&+La severely wounded &+Rdemon&N~
+&+LA wretched, bloody humanoid with horns on its head sits here.&N
+~
+   Closer inspection of this being reveals it to be a demon.  At one
+time, it wielded enough power to decimate dozens of men, someone or
+something has crippled it.  Perhaps this being was even part of the
+invasion force.  It howls in pain, turns towards you and hisses.  Brace
+yourself -- it hasn't lost its hatred of prime material planar beings.
+~
+16779274 1 0 8 0 0 0 -975 S
+X 0 32 4
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#5528
+cloaked figure humanoid~
+&+La mysterious cloaked humanoid&N~
+&+LA tall being disguised in a full length cloak stands here, motionless.&N
+~
+   Who this man is and why he's here is anyone's best guess.  His full
+length black cloak disguises his identity, and any weapon he might be
+holding.  Just by looking at him, one knows he is not one to be
+provoked.
+~
+1073743946 0 0 10 0 0 0 -500 S
+PH 0 516 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

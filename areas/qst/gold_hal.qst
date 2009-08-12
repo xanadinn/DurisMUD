@@ -1,0 +1,323 @@
+#40404
+M
+shield buckler drow~
+   He pauses from his teaching and looks at you for a moment.
+   &+W"&+cI have not told many people this, but yes, I am interested in
+   &+ca drow-elven buckler.  I'm not sure why, but their craftsmanship
+   &+con such shields are exceptional and I feel that my people should
+   &+cmimic their use of these defensive guards.&+W"
+~
+Q
+   &+C"&NSuch a masterly crafted shield! Thank you ever so kindly..&+C"
+   &NThe &+Wmaster knight teacher&N ponders for a moment.
+   &+C"&NThis is all I have at the moment to give you&+C"
+~
+R I 40501
+G I 40500
+S
+#40406
+M
+directions~
+   &+LThe Captain &+Wtells you 'Ah yes that Hazk needs directions still eh?  I thank
+&+Wye for your help.'
+&+LThe Captain&N turns to his desk and writes up a note, then rests back
+&Nwaiting for his shift to end so he can deliver the note.
+~
+Q
+The captain smiles and thanks you heartily.
+~
+R C 50000
+G I 40422
+G I 40427
+S
+#40407
+M
+hide hides~
+   &+YHazk&N nods.
+   &+YHazk&N holds up his money pouch, then points up two fingers with his
+   left hand, followed by five fingers with his right hand, and grunts.
+~
+Q
+   &+YHazk&N jumps up and cheers!
+   &+YHazk&N thanks you in a strange language, and gets &+La small &+Wkey&N from his pocket.
+~
+R I 40424
+G I 40403
+Q
+&+YHazk&N grins, taking the hides and stuffing them in his pocket.
+~
+R I 40497
+G I 40493
+G I 40494
+G C 25000
+S
+#40409
+M
+qc_action 30~
+$n tosses a variety of objects into, catching them with impressive speed.
+~
+M
+qc_action 45~
+$n chitters 'Chk-chk-chk- Wary adventurers, be careful below this inn...'
+~
+M
+inn careful~
+$n responds '&+GYes, I love my juggling.. I juggle all night long.  Sometimes I
+&+Gsee a barbarian &+Wshoving &+Ghis bed in the night and venturing into the
+&+Gdarkness&N'
+~
+Q
+   &+LThe &+gthri&+G-&+Ykreen&N chitters to you something very strange
+   and totally uncomprehendable..
+~
+R I 40502
+G I 40501
+S
+#40410
+M
+qc_action 55~
+$n looks over at the adventurers and says 'Alright boys keep it down.  Ya wouldn't want Wasephius deporting ya from his hall now would ya?'
+~
+M
+wasephius~
+$n says 'Oh yes Wasephius, he is of royal blood.  These are his golden halls too ya know.  I heard he had a brother once too, quite an adventurer that one.'
+~
+M
+brother~
+$n nods and says &N'Well it might not be his brother, but he's always around him.  Kaladron I think his name was.  Haven't seen him in quite some time, but I do remember he stayed at this inn before he went missing.'
+$n &Nshrugs and goes back to her work.
+~
+S
+#40411
+M
+qc_action 55~
+$n &Nswings his mug into the air and yells 'Hey barkeep, how bout another?'
+~
+M
+qc_action 65~
+Loud laughter with slurred profanity is heard as $n &Nlaughs it up with his friends.
+~
+M
+qc_action 75~
+$n &Ngets into a heated argument with his companions regarding something about the 'Truth of NewHaven.'  Moments later they continue their laughing and remarks to the bartender.
+~
+M
+qc_action 59~
+For a moment, $n &Nsings a song about the Inn of the Golden Faith before stumbling over his words, aborting the melody.
+~
+S
+#40417
+M
+kaladron~
+   &+C"&+LAh yes, Kaladron.  A dear friend of mine he is.  As a matter of
+&+Lfact, the old boy has been visiting me recently.  Now that I think of
+&+Lit, I haven't seem him recently, I hope he didn't get lost.&+C"
+
+&+bWasephius&N scratches his head and ponders.
+~
+Q
+   &+C"&+LMy God, it is stained with the blood of dear sweet Kaladron!..
+&+LYou must find who has done this to my comrade.. bring me three
+&+Lthings that can proove to me what has been happening.&+C"
+~
+G I 40456
+Q
+   &+C"&+LThe goblin filth, inhabitting the very land below my keep!?
+&+LA stop must be brought to this!&+C"
+&+bWasephius&N jumps to his feet.
+~
+R I 40496
+G I 40495
+G I 40483
+G I 40465
+D
+   &+bWasephius&N charges towards the door, and departs.
+~
+S
+#40427
+M
+peryton~
+   &+C"&+cAh yes, I have one back home.  A fierce bird unless you know
+&+chow to handle it&+C"...
+&NThe delegate clenches his fist and grins.
+   &+C"&+cBeautiful feather's on them too..&+c"
+~
+M
+feathers~
+   &+C"&+cYes.. Green in hue, but not too green.  In fact, I have a very
+&+cstylish headband made only out of peryton feathers.&+C"
+~
+M
+headband~
+   &+C"&+cAll I require is the wing feather's of a peryton.. but alas, the
+&+cnearest peryton I could possibly think of is at least a hundred leagues
+&+csouth of the docks, back on Bloodstone.  In addition to its feathers,
+&+cI would also require some sort of strip of animal hide to bind it
+&+ctogether... and maybe twenty platinum for my troubles..&+C"
+&NThe delegate grins and continues waiting for the Prince.
+~
+Q
+   &NThe delegate turns his back to you and hastily removes a few tools
+from his pack. Within seconds he turns, facing you, and rewards you.
+&+C"&+cTruely remarkable you could find the feathers of such a bird, may
+&+cthis headband live up to your expectations.&+C"
+~
+R I 40492
+G I 40490
+G I 40491
+G C 20000
+S
+#40431
+M
+qc_action 45~
+$n &Npeers through the hall, sweeping up even the smallest amount of debris to please his prince.
+~
+S
+#40433
+M
+what~
+&+YThe &+Wchef tells you 'Don't know why I bother!!.. The criminals
+&+WWasephius let's into here...'
+&+YThe &+Wchef&N goes back to his work, muttering as he goes.&N
+~
+M
+criminal criminals~
+&+YThe &+Wchef tells you 'Yes the criminals that I spend my bloody time
+&+Wfeeding decide to walk off with my silverware!'
+&+YThe &+Wchef&N throws up his hands in disgust!
+~
+M
+silverware~
+&+YThe &+Wchef tells you 'Aye, hand crafted out of &+Csilver&+W it is...&N.&+L.'
+&+YThe &+Wchef&N sighs deeply, and continues cooking.
+~
+Q
+Completely astonished, the &+Wchef&N shakes your hand and thanks you.  He
+makes this strange sickly cough sound and spits into the chalice, then wipes
+it out and smiles proudly at the shine.
+
+&+YThe &+Wchef&N says 'I have nothing really to give you but information..
+
+&+cDownstairs there is an inn.. Ah yes very comfortable beds there, for
+&+ca fair price indeed.. anyway, I've seen a very suspicious acting
+&+cbarbarian carrying huge metal weapons into that inn at nights and come
+&+cout with nothing.. sure they have locker space down there, but tis only
+&+cbig enough for a backpack perhaps, don't attempt anything unless
+&+cour overgrown friend is asleep, he'll be sure to run you through
+&+cotherwise...&+C.&+c.
+
+&+YThe &+Wchef&N shakes your hand again, and goes back to his work..&N.&+L.
+~
+G I 40407
+S
+#40449
+Q
+   &NThe &+Mdrow priestess&N takes the ring, and drops it into a fold
+   in her cloak.  She smiles a wicked grin at you.
+~
+R I 40500
+G I 40499
+S
+#40452
+M
+totem~
+   &+C"&NYes I can make a totem for you.  It will require the components
+   for such a totem, and about twenty platinum coins as well.&+C"
+~
+M
+components~
+   &+C"&NI specialize in totems of the earth, so I will require two
+   'grown' things to forge the power from.  A hollowed out gord and a
+   small earthen statue would do nicely.&+C"
+~
+Q
+   The &+Cshaman&N grins as he takes the gourd and the statue from you.
+   He starts chanting in a strange bullywug tongue after placing the
+   statue into the gourd, and forms a small totem.
+~
+R I 40498
+G I 40426
+G I 40497
+G C 20000
+S
+#40459
+Q
+   As she unlocks herself, &NThe &+CHalf&N-&+cElf &Nwoman thanks you and
+instantly starts casting a spell..
+~
+R E 75000
+R I 40463
+G I 40463
+D
+   &NThe &+CHalf&N-&+cElf &Nwoman &+Wcompletes her spell.
+   &NThe &+CHalf&N-&+cElf &Nwoman says one word and disappears.
+~
+S
+#40460
+Q
+   &NAs you give the &+cGrey Elf&N woman the key, she thanks you.
+   The &+cGrey Elf&N woman &+Wtells you 'My name is Pearla, that disgusting
+   &+Wcreature killed my whole family. I thank you for saving me, although
+   &+WI have nothing on me except this.. you may have it in return..
+   &+WPeace be with you..&N.&+W.'
+
+   &NPearls starts casting a spell.
+~
+R I 40465
+G I 40463
+D
+   &NPearla &+Wcompletes her spell.
+   &NPearls utters one word and disappears.
+~
+S
+#40463
+Q
+   &+GGlakkabb&N gasps at the craftsmanship of the totem!
+   &+GGlakkabb&N grins at you, and rewards you for such a piece.
+~
+R I 40499
+G I 40498
+S
+#40464
+M
+qc_action 45~
+$n &Nlooks at his ruthless master Glakkabb with fear in his eyes, obeying the shaman's every will.
+~
+S
+#40477
+M
+keys~
+   &+LThe &+yKenku &Nwhispers to you 'I would be most grateful if you could
+&Nfree me from this horrible life of imprisonment.  If you could just get for
+&+Nme the keys to unlock my shackles, I would be able to escape..'
+~
+Q
+   &+LThe &+yKenku &+Wtells you 'I thank you. After unlocking myself I will
+&+Wreturn to you these keys you so bravely faught for.'
+~
+R E 60000
+R I 40479
+G I 40479
+D
+   &+LThe &+yKenku&N stands up and stretches. He looks out both sides of
+the prison door and sneaks off.
+~
+S
+#40482
+M
+glakkabb~
+   &+C"&NYes that shaman bothers me.  There is no room in our civilization
+   for such a pointless practice, if only I had proof of his demise.&+C"
+   &+GYield&N ponders for a moment, and stops you before you leave.
+   &+C"&NThere is also something else that I require.  I had in my
+   &Nposession an amulet given to me from a long lost friend, in my
+   sleep the amulet was taken from me and I've been looking for it ever
+   since, your help would be greatly appreciated.&+C"
+~
+Q
+   &+C"&NMagnificent.  You have done very well, here is your reward.&+C"
+~
+R I 40483
+G I 40470
+G I 40502
+S

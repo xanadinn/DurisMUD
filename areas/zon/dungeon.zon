@@ -1,0 +1,229 @@
+#930
+Treasure Caves~
+93115 2 0 10 12 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 93000 5 1 100 0 0 0
+*     down exit from "A Strange Entranceway" to
+*     "Inside the Dungeon" - closed
+*
+D 0 93001 4 1 100 0 0 0
+*     up exit from "Inside the Dungeon" to
+*     "A Strange Entranceway" - closed
+*
+D 0 93002 5 9 100 0 0 0
+*     down exit from "Dead End in the Cave" to
+*     "Past the Hidden Entrance" - closed/blocked
+*
+D 0 93003 4 1 100 0 0 0
+*     up exit from "Past the Hidden Entrance" to
+*     "Dead End in the Cave" - closed
+*
+D 0 93020 1 1 100 0 0 0
+*     east exit from "The Acid Worms Lair" to
+*     "The Goblin Homes" - closed
+*
+D 0 93031 3 1 100 0 0 0
+*     west exit from "The Goblin Homes" to
+*     "The Acid Worms Lair" - closed
+*
+D 0 93069 1 1 100 0 0 0
+*     east exit from "The Bottom of the Stairs" to
+*     "Entrance to the Ogres Homes" - closed
+*
+D 0 93084 3 1 100 0 0 0
+*     west exit from "Entrance to the Ogres Homes" to
+*     "The Bottom of the Stairs" - closed
+*
+*
+O 0 93023 1 93002 100 0 0 0        * some loose vines
+O 0 93008 1 93063 100 0 0 0        * the dragon's hoard
+O 0 93009 1 93107 100 0 0 0        * a large iron chest
+P 1 93006 1 93009 100 0 0 0        *   a small brass figurine
+O 0 93017 1 93107 100 0 0 0        * the shelf
+P 1 93018 3 93017 100 0 0 0        *   a murky green potion
+P 1 93018 3 93017 100 0 0 0        *   a murky green potion
+P 1 93018 3 93017 100 0 0 0        *   a murky green potion
+*
+M 0 93000 1 93000 100 0 0 0        * the black crow
+M 0 93002 3 93005 100 0 0 0        * the sickly green goblin
+M 0 93003 7 93005 100 0 0 0        * a small rat
+M 0 93003 7 93005 100 0 0 0        * a small rat
+M 0 93001 1 93006 100 0 0 0        * the thief
+E 1 93000 1 16 100 0 0 0           *   the serpentine dagger
+E 1 93001 1 5 100 0 0 0            *   a suit of black leather armor
+M 0 93004 6 93007 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93004 6 93007 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93004 6 93009 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93004 6 93009 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93025 18 93009 100 0 0 0       * a small bat
+M 0 93009 7 93010 100 0 0 0        * an inexperienced goblin guard
+M 0 93009 7 93010 100 0 0 0        * an inexperienced goblin guard
+M 0 93004 6 93011 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93003 7 93012 100 0 0 0        * a small rat
+M 0 93029 3 93012 100 0 0 0        * a huge guard
+E 1 93021 3 11 100 0 0 0           *   a shiny metallic shield
+M 0 93025 18 93013 100 0 0 0       * a small bat
+M 0 93029 3 93013 100 0 0 0        * a huge guard
+E 1 93021 3 11 100 0 0 0           *   a shiny metallic shield
+M 0 93029 3 93013 100 0 0 0        * a huge guard
+E 1 93021 3 11 100 0 0 0           *   a shiny metallic shield
+M 0 93007 2 93013 100 0 0 0        * the goblin acolyte
+M 0 93007 2 93013 100 0 0 0        * the goblin acolyte
+M 0 93009 7 93014 100 0 0 0        * an inexperienced goblin guard
+M 0 93009 7 93015 100 0 0 0        * an inexperienced goblin guard
+M 0 93002 3 93015 100 0 0 0        * the sickly green goblin
+M 0 93005 1 93016 100 0 0 0        * the goblin leader
+E 1 93005 1 5 100 0 0 0            *   a black steel breastplate
+E 1 93003 1 16 100 0 0 0           *   a black sword covered with wicked barbs
+E 1 93004 1 6 100 0 0 0            *   a black spiked helm
+M 0 93006 2 93016 100 0 0 0        * a goblin slave
+M 0 93006 2 93016 100 0 0 0        * a goblin slave
+M 0 93003 7 93016 100 0 0 0        * a small rat
+M 0 93025 18 93016 100 0 0 0       * a small bat
+M 0 93003 7 93017 100 0 0 0        * a small rat
+M 0 93009 7 93017 100 0 0 0        * an inexperienced goblin guard
+M 0 93004 6 93018 100 0 0 0        * a goblin guard
+E 1 93002 6 16 100 0 0 0           *   a rusty metal club
+M 0 93025 18 93018 100 0 0 0       * a small bat
+M 0 93010 5 93019 100 0 0 0        * an elite goblin guard
+M 0 93008 1 93020 100 0 0 0        * the acid worm
+M 0 93003 7 93020 100 0 0 0        * a small rat
+M 0 93025 18 93023 100 0 0 0       * a small bat
+M 0 93025 18 93024 100 0 0 0       * a small bat
+M 0 93015 7 93025 100 0 0 0        * a vicious lizardman
+E 1 93015 1 16 100 0 0 0           *   a steel trident
+M 0 93003 7 93025 100 0 0 0        * a small rat
+M 0 93015 7 93026 100 0 0 0        * a vicious lizardman
+M 0 93015 7 93027 100 0 0 0        * a vicious lizardman
+M 0 93015 7 93027 100 0 0 0        * a vicious lizardman
+M 0 93016 1 93028 100 0 0 0        * the lizard king
+E 1 93007 1 16 100 0 0 0           *   a shining blue shortsword
+M 0 93015 7 93028 100 0 0 0        * a vicious lizardman
+M 0 93015 7 93028 100 0 0 0        * a vicious lizardman
+M 0 93015 7 93028 100 0 0 0        * a vicious lizardman
+M 0 93025 18 93029 100 0 0 0       * a small bat
+M 0 93028 3 93030 100 0 0 0        * a massive underground lizard
+M 0 93009 7 93032 100 0 0 0        * an inexperienced goblin guard
+M 0 93010 5 93032 100 0 0 0        * an elite goblin guard
+R 1 93030 3 93032 100 0 0 0        * a massive warg (being ridden)
+M 0 93018 6 93033 100 0 0 0        * some green slime
+M 0 93010 5 93034 100 0 0 0        * an elite goblin guard
+M 0 93030 3 93034 100 0 0 0        * a massive warg
+M 0 93013 4 93035 100 0 0 0        * a goblin baby
+M 0 93014 4 93035 100 0 0 0        * a tough male goblin
+M 0 93010 5 93036 100 0 0 0        * an elite goblin guard
+M 0 93011 4 93037 100 0 0 0        * a small goblin child
+M 0 93012 4 93037 100 0 0 0        * a female goblin
+M 0 93013 4 93039 100 0 0 0        * a goblin baby
+M 0 93014 4 93039 100 0 0 0        * a tough male goblin
+M 0 93010 5 93040 100 0 0 0        * an elite goblin guard
+R 1 93030 3 93040 100 0 0 0        * a massive warg (being ridden)
+M 0 93011 4 93041 100 0 0 0        * a small goblin child
+M 0 93012 4 93041 100 0 0 0        * a female goblin
+M 0 93013 4 93042 100 0 0 0        * a goblin baby
+M 0 93014 4 93042 100 0 0 0        * a tough male goblin
+M 0 93011 4 93043 100 0 0 0        * a small goblin child
+M 0 93012 4 93043 100 0 0 0        * a female goblin
+M 0 93013 4 93044 100 0 0 0        * a goblin baby
+M 0 93014 4 93044 100 0 0 0        * a tough male goblin
+M 0 93011 4 93045 100 0 0 0        * a small goblin child
+M 0 93012 4 93045 100 0 0 0        * a female goblin
+M 0 93002 3 93046 100 0 0 0        * the sickly green goblin
+M 0 93009 7 93046 100 0 0 0        * an inexperienced goblin guard
+M 0 93018 6 93047 100 0 0 0        * some green slime
+M 0 93025 18 93047 100 0 0 0       * a small bat
+M 0 93018 6 93047 100 0 0 0        * some green slime
+M 0 93028 3 93047 100 0 0 0        * a massive underground lizard
+M 0 93033 2 93047 100 0 0 0        * some red slime
+M 0 93025 18 93047 100 0 0 0       * a small bat
+M 0 93018 6 93049 100 0 0 0        * some green slime
+M 0 93028 3 93049 100 0 0 0        * a massive underground lizard
+M 0 93033 2 93049 100 0 0 0        * some red slime
+M 0 93025 18 93050 100 0 0 0       * a small bat
+M 0 93017 1 93063 100 0 0 0        * the red dragon
+E 1 93011 1 5 100 0 0 0            *   a gem studded dragon hide
+M 0 93034 1 93063 100 0 0 0        * the red dragon
+M 0 93018 6 93064 100 0 0 0        * some green slime
+M 0 93025 18 93064 100 0 0 0       * a small bat
+M 0 93018 6 93065 100 0 0 0        * some green slime
+M 0 93025 18 93066 100 0 0 0       * a small bat
+M 0 93025 18 93066 100 0 0 0       * a small bat
+M 0 93025 18 93068 100 0 0 0       * a small bat
+M 0 93025 18 93068 100 0 0 0       * a small bat
+M 0 93035 17 93071 100 0 0 0       * a small bat
+M 0 93035 17 93071 100 0 0 0       * a small bat
+M 0 93035 17 93071 100 0 0 0       * a small bat
+M 0 93035 17 93071 100 0 0 0       * a small bat
+M 0 93035 17 93071 100 0 0 0       * a small bat
+M 0 93035 17 93073 100 0 0 0       * a small bat
+M 0 93035 17 93073 100 0 0 0       * a small bat
+M 0 93035 17 93073 100 0 0 0       * a small bat
+M 0 93035 17 93073 100 0 0 0       * a small bat
+M 0 93035 17 93075 100 0 0 0       * a small bat
+M 0 93035 17 93075 100 0 0 0       * a small bat
+M 0 93035 17 93075 100 0 0 0       * a small bat
+M 0 93035 17 93076 100 0 0 0       * a small bat
+M 0 93035 17 93076 100 0 0 0       * a small bat
+M 0 93035 17 93076 100 0 0 0       * a small bat
+M 0 93035 17 93076 100 0 0 0       * a small bat
+M 0 93035 17 93076 100 0 0 0       * a small bat
+M 0 93025 18 93084 100 0 0 0       * a small bat
+M 0 93019 2 93085 100 0 0 0        * an ogre sentinel
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+M 0 93019 2 93086 100 0 0 0        * an ogre sentinel
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+M 0 93024 3 93088 100 0 0 0        * a crazed ogre
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+M 0 93024 3 93089 100 0 0 0        * a crazed ogre
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+M 0 93025 18 93089 100 0 0 0       * a small bat
+M 0 93024 3 93090 100 0 0 0        * a crazed ogre
+M 0 93032 3 93093 100 0 0 0        * a huge ogre warrior
+E 1 93019 2 16 100 0 0 0           *   a massive spiked club
+M 0 93025 18 93096 100 0 0 0       * a small bat
+M 0 93031 1 93096 100 0 0 0        * a huge troll
+E 1 93020 1 14 100 0 0 0           *   a dull iron bracelet
+M 0 93032 3 93096 100 0 0 0        * a huge ogre warrior
+M 0 93032 3 93100 100 0 0 0        * a huge ogre warrior
+E 1 93019 2 16 100 0 0 0           *   a massive spiked club
+M 0 93020 1 93107 100 0 0 0        * the ogre chief
+E 1 93022 1 5 100 0 0 0            *   a suit of rusted ringmail
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+E 1 93010 8 17 100 0 0 0           *   a large wooden club
+G 1 93016 1 0 100 0 0 0            *    an iron key
+M 0 93027 1 93107 100 0 0 0        * the ogre chieftess
+M 0 93026 4 93108 100 0 0 0        * an ogre acolyte
+E 1 93013 4 3 100 0 0 0            *   an unholy symbol
+M 0 93026 4 93109 100 0 0 0        * an ogre acolyte
+E 1 93013 4 3 100 0 0 0            *   an unholy symbol
+M 0 93026 4 93110 100 0 0 0        * an ogre acolyte
+E 1 93013 4 3 100 0 0 0            *   an unholy symbol
+M 0 93026 4 93111 100 0 0 0        * an ogre acolyte
+E 1 93013 4 3 100 0 0 0            *   an unholy symbol
+M 0 93021 6 93112 100 0 0 0        * an ogre boy
+M 0 93022 3 93112 100 0 0 0        * a female ogre
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+G 1 93012 2 0 100 0 0 0            *    a bloodied apron
+M 0 93023 3 93112 100 0 0 0        * an ogre male
+M 0 93021 6 93112 100 0 0 0        * an ogre boy
+M 0 93021 6 93113 100 0 0 0        * an ogre boy
+M 0 93022 3 93113 100 0 0 0        * a female ogre
+M 0 93023 3 93113 100 0 0 0        * an ogre male
+M 0 93021 6 93113 100 0 0 0        * an ogre boy
+M 0 93021 6 93114 100 0 0 0        * an ogre boy
+M 0 93022 3 93114 100 0 0 0        * a female ogre
+E 1 93010 8 16 100 0 0 0           *   a large wooden club
+G 1 93012 2 0 100 0 0 0            *    a bloodied apron
+M 0 93023 3 93114 100 0 0 0        * an ogre male
+E 1 93014 1 16 100 0 0 0           *   a morningstar
+M 0 93021 6 93114 100 0 0 0        * an ogre boy
+*
+S

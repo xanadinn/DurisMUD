@@ -1,0 +1,1971 @@
+#83105
+M
+qc_action 55~
+&+WThe StoneBrew cook chops into a haunch of meat.
+~
+MA
+hi hello~
+&+WThe Stone&+YBrew cook &+Wturns to $N and says 'Howdy!  This caribou meat
+&+Wis getting awfully old, I want something fresh to cook!  Maybe one of the
+&+Wother Inns or kitchens in Alatorin has a more tender meat that I could
+&+Wcook...'
+&+WThe Stone&+YBrew &+Wcook shrugs his shoulders and continues hacking.
+For a moment again he pauses and says '&+WBoy Howdy, I could really use
+&+Whelp with a really important, really special recipe'.
+~
+MA
+recipe~
+&+WThe Stone&+Ybrew &+Wcook says 'Okay for the special recipe that I will bring
+&+Wto the King himself will need the following: some garlic, &+ga green herb&+W,
+&+W&+ya small clam&+W, and an &+Rapple&+W'
+&+WThe Stone&+Ybrew &+Wcook grins and says 'I know it sounds a little weird, but
+&+Wtrust me!'  He snaps his fingers 'It will be perfect!'
+~
+QA
+&+WThe Stone&+Ybrew &+Wcook claps and says 'Perfect!  My specialty!'
+~
+R I 83143
+R I 83143
+R I 83143
+R E 10000
+G I 83116
+QA
+&+WThe Stone&+Ybrew &+Wcook takes the ingredients, chops them up and throws
+&+Wthem in a pot.  In a few moments he adds a few several large handfulls of
+&+Ycheese&+W and lets it melt across the top.
+&+R...the food looks delicious
+~
+R I 83168
+R E 40000
+G I 334
+G I 2657
+G I 823
+G I 826
+S
+#83106
+M
+qc_action 150~
+&N$n smiles and wipes out a &+Ystein &Nwith an old &+Wrag&N.
+~
+S
+#83114
+MA
+hi hello~
+&+yThe emissary says to $N 'Greetings.  I noticed you when you walked in, $N.'
+&+yThe emissary eyes $N up and down.
+&+y'Please $N, save the race of my people.  The mind of our leader Ogremoch
+&+yhas become corrupt.  He feasts upon his children like a spider.  It is
+&+ya greater power controlling his mind, but he must be stopped!  Bring me
+&+ythe essence of Ogremoch so that he may be reborn.'
+~
+QA
+&+yThe emissary accepts the &+Yessence.
+~
+R C 1000000
+G I 55198
+D
+&+yThe emissary says 'Take this.'
+&+yAs the emissary becomes one with the &+Yessence&+y, he begins growing into
+&+ya massive EaRtHeN FoRM!!
+&+yWith a deafening &-L&+RROAR&+y, the ground splits and the emissary is sucked away.
+~
+S
+#83115
+MA
+hi hello imix kossuth~
+&+rThe &+Rflaming &+remissary &+Rflares up and says &+Y'$N you must protect
+&+Ythe kingdom of Kossuth!  Imix is getting too powerful and will overthrow
+&+Yhis father if we do not act!  Bring me the essence of &+MImix&+Y!!'
+~
+QA
+&+rThe flaming &+Remissary accepts the &+Messence and &+Rbursts into a massive
+&+rball of FIRE!
+~
+R C 1000000
+G I 55199
+D
+&+RA horrible &+Lvisage &+Rof &+MImix &+Lfloats off in a puff of smoke..
+~
+S
+#83116
+MA
+hi hello akadi yan-c-bin~
+&+CThe living &+Wtornado &+Lroars '&+CAkadi is threatened!  Return me the essence of Yan-c-Bin!'
+~
+Q
+~
+R C 1000000
+G I 55200
+S
+#83117
+MA
+hi hello olhydra poseidon~
+&+cThe &+Bwater &+cdwarf says &+B'Olhydra is going to flood the world if we do not
+&+Bact quickly!  Bring me her essence!'
+~
+QA
+&+cThe &+Bwater &+cdwarf accepts the essence and &+Mmelds &+Bwith it...
+~
+R C 1000000
+G I 55202
+D
+&+cSuddenly &+Bthe water dwarf disappears in a massive &+WSPLASH!
+~
+S
+#83118
+MA
+hi hello menzellon~
+&+LThe &+Rrunaway &nservant &+Lsays 'Demogorgon threatens our realm!  Yggradsil will burn!  Bring me the essence of Demogorgon to end this destruction!'
+~
+QA
+&+L'Thank you $N!' &NThe servant exclaims.
+~
+R C 1000000
+G I 55203
+D
+&+LIn an explosion of darkness, the &Nastral servant is gone&+L, sucked away by the will of &+GDemogorgon&+L...
+~
+S
+#83119
+MA
+hi hello menzellon~
+&+L$n &+Lstares at $N and you hear the words...
+&+L'Menzellon threatens our entire plane consorting with Aramus.  Kill our king, Menzellon.'
+&+L'This cannot be performed by his own people.  It must be you.  Return to me
+&+Lwith his essence.'
+~
+QA
+&n$n &+Lreaches a hand into its mysterious cloak.
+~
+R C 1000000
+G I 55201
+D
+&n$n &+Ldisappears instantly.
+~
+S
+#83125
+M
+qc_action 200~
+&N$n &+Lweaves a ball of &n&+rburning &+Yfire &+Lout of thin air.
+&+RThe flames burn higher, growing into a huge sphere.
+&n&+rThe flaming &+Rorb &n&+rexplodes, illuminating the cavern and &+Ysinging &+Rthe air.
+~
+M
+qc_action 300~
+&N$n &Nwinks at you and fades out of reality.
+Moments later, a &+rbloodied $n &Ntaps you on the shoulder.
+After a pause of total concentration, a wave of &+Wwhite energy&N flows from $n's head.
+&nGrinning as his &+rwounds &Nclose up, &n &nnonchalantly puts something mysterious into his pack.
+~
+M
+qc_action 180~
+&N$n &+Lsays &N'Greetings traveler.  Have you come to learn the ways of the pyrokinetic?  The ultimate of mind and fire, together in one cognisence..'
+&nAs he speaks, $n's &Neyes begin to &+Yburn&N.
+~
+MA
+hi hello~
+&N$n smiles and nods at $N.
+&N'Greetings,' the &N&+ctraveler&N says, 'What brings you through the Caverns of Time, to me?'
+&N$n sizes $N up and down and says 'I am a &+Wteacher&N of &+Ypyrokinetics&N you know..'
+~
+MA
+pyrokinetic pyrokinetics~
+&N$n smiles at $N and says 'Do you wish to learn the ways of pyrokinetics?  An experienced &N&+bpsionicist&N can turn his powers into great firestarting devestation if he so wishes.'
+&n$n's &+Rhands start to &+Yblaze!!
+~
+MA
+psionicist teacher~
+&N$n grins at &Nand says '&+bPsionic &+W'Master,'&n at your service&N' with a bow.
+&N$n looks over his shoulders and his &+Weyes &Npeer over $N.  &nIf there is something else you want from me..'
+After pausing for a moment, $n clears his voice and continues 'You do look like an able adventurer, if you have gotten &+ythis &Nfar.. Perhaps you have seen any &+Ygith&+Wyanki&N in your adventures?'
+~
+MA
+githyanki githyankis~
+&N$n raises an eyebrow and straightens his back, sticking out his chest.
+&N$n he looks over $N and says '$N, the feud between the githzerai and the githyanki is none of your concern.'
+&NHe coughs and continues 'The githyankis wield their silver weapons, which they have used to cut down our people.  Perhaps the great equalizer handed to the githyanki gods, the Gith, from above?  We must &+Rburn &Nthese tools of murder!'
+&N'Bring me the silverish weapons, one sword and staff, as we have seen are the most common of these deadly weapons.  You will be rewarded, $N.'
+~
+Q
+&N$n &nsmiles with perhaps the widest, toothiest smile he has ever exhibited!
+&nSnatching the &+Csilverish weapons&N from $N, &N$n cackles &Nwith delight and then turns back to $N.
+His eyes closed, $n stares forward in quiet concentration, a &+Rflame emerging from his body.
+&+RA burning &+Yhalo &+Rappears above the head of $n!
+~
+R I 83299
+G I 18
+G I 19
+S
+#83126
+MA
+hi hello~
+&N$n looks at $N and smiles.
+&+g'Greetings' he says in his dwarvish voice.  'Are thee looking to join the Adventurer's guild?'
+~
+MA
+no~
+&N$n nods at $N and says &+g'Well then off with thee!'&N
+~
+MA
+yes~
+&N$n exclaims &+g'Ah yes!  Good!  Very good!  Well in that case you happen to apply at just the right time..'
+&N$n leans in towards $N and says &+g'Word has it through some of my constituents that there is a &Nsh&+Wie&Nld &+Ydwarf &N&+gin this very city who is on a quest to kill me!'
+&NWith a sigh, he continues &+g'They say it is because I am not of pure blood, but damn it!  I am!  Anyway, the conspirator is a leader of a military group.'
+~
+MA
+leader military group conspirator~
+&N$n nods at $N and continues &+g'The &Nsh&+Wie&Nld &+Ydwarf &N&+gafter my blood is &+WClund &+YHammer&+Whelm&N&+g.  Defeat him before he can defeat me, $N!  The adventurers of &N&+cAlatorin &N&+gare here for a reason, and I will be damned if we will fall by a fool's bigotry!'
+~
+MA
+clund hammerhelm~
+&N$n nods at $N and says &+g'&+WClund &+YHammer&+Whelm&n&+g, you will find him in his Military District.  Return to me with the &N&+rhead &N&+gof my assinator, and I will reward you..'
+~
+QA
+&N$n cheers and hugs $N, exclaming &+g'You saved me!  You saved me!'
+&N$n pauses suddenly, and takes out a long, &+Csharp &N&+cknife&n.
+&N$n begins &+Rdi&N&+rggi&+Rng &nthe &+Cknife &Ninto the &+Weye&+L-socket of the head, causing &N&+rblood&N to &+rgush&N out, running down his hands.
+&n$n struggles, working the &+Cblade&N &naround in the &+rga&+Lpi&N&+rng &+Rhole&N&+r, and pops the &+Weye&N out.
+~
+R I 83347
+R I 83250
+G I 83345
+D
+&N$n chuckles and says &N&+g'You see?   &+WClund &+YHammer&+Whelm &nwas cursed from the beginning with that &+Rdemon&n-&+Weye&N'
+~
+S
+#83130
+M
+qc_action 50~
+&+YA giraffe leans down several feet and grazes briefly on some grass.
+~
+S
+#83134
+M
+qc_action 50~
+&+yA small prairie dog shakes little clumps of dirt from its head down to its tail.
+~
+M
+qc_action 60~
+The distant roar of a lion is heard rumbling across the savannah grass.
+~
+S
+#83136
+M
+qc_action 50~
+&+WA savannah &+Ylioness &+Wpaces back and forth, looking jolted and concerned.
+~
+M
+qc_action 150~
+&+WA savannah &+Ylioness &+Wsays 'Oh my..'
+~
+MA
+hi hello cub~
+&+WThe &+Ylioness &+Wstops pacing for a moment and approaches $N.
+&+W'My cub has gone missing, please find her... she has a habit of
+&+Wcrawling into tight spaces.'
+&+WThe &+Ylioness &+Wsays nothing of her magic ability to speak.
+~
+QA
+&+WThe savannah &+Ylioness &+Wthanks $N.
+~
+R E 185000
+R C 150000
+G I 83129
+D
+&+WThe lioness prowls off with her cub.
+~
+S
+#83138
+M
+qc_action 100~
+&NWith a puff of dust, $n invokes a gesture of &+Yelemental &N&+yearth&N.
+~
+S
+#83144
+M
+qc_action 300~
+&N&+rA fire elemental and &+Ba water elemental &+Lbegin circling each other, agitated by one anothers presence.
+~
+M
+qc_action 300~
+&+yThe ground churns as nearby earth elementals begin merging with one another, exchanging huge slabs of granite and chunks of rock.
+~
+M
+qc_action 300~
+&NGusts of wind blowing through the area sweep up dirt and crackles of magic as an &+Cair elemental &Nswirls in the form of a tornado.
+~
+M
+qc_action 300~
+&+LMagical energy &-L&+Bzaps &N&+Lthrough the area as the &+Yelementals &+Ldominate the channeling ground.
+~
+S
+#83146
+M
+qc_action 60~
+&n$n says 'I come from a place called &+WUltarium&N, where many scholars and intellectuals reside.'
+&N$n says 'From the cloudy escapes to the climb of the oracle, &+WUltarium &Nis the pinnacle of the world.'
+~
+M
+qc_action 60~
+&n$n says 'My name was not always $n&N  I changed it some years ago in &+WUltarium &Nat a shady individual named &+LGrudat&n.'
+&N$n says 'What was my original name?'
+&N$n lets out a billowing laugh.
+&N$n says 'That's for me to know.'
+~
+MA
+hi hello~
+&N$n smiles and nods at $N.
+~
+MA
+ultarium~
+&N$n says 'Yes $N, Ultarium, the Cosmic City, the City of the Star Council, Star City, The Kingdom of the Cosmos, The Constellation Station, Star Central, ahh.. it has so many names!'
+~
+S
+#83147
+M
+qc_action 300~
+&N$n says &+Y'Look at them.. Magnificent!  They are stronger and faster then ever!'
+His commanders nod in agreement.
+~
+M
+qc_action 300~
+&N$n says &+Y'The new spiked armor will be the best armament for the best fighters!'
+&N$n lets out a huge, bellowing laugh filled with pride.
+~
+M
+qc_action 300~
+&N$n &+Lslides small &N&+yfigurines &+Lacross a &N&+gmodel map&+L.
+~
+M
+qc_action 300~
+&N$n says 'Bring forth the next battle!  Can you hear me men!?  Victory for the Seige!'
+~
+MA
+hi hello~
+&N$n says 'Greetings, you must be $N.  I watched you walk in,' pointing at the door from this vantage point.
+After thoroughly $N up and down, $n raises his eyebrows and says 'You could be Seige Army material, and we do accept others outside of shield dwarven blood..'
+'You see $N,' he continues, pacing, 'The Seige Army is the most fearsome force of Alatorin, and all of our warriors have to go on a task to prove their strength.  Since we are the only army of Alatorin, except for the BrightAxe army..'
+~
+MA
+brightaxe~
+&N$n says 'The BrightAxe army..'  He cringes and continues 'They still house the throne of the King and are the self-proclaimed 'King's Army'.. Hah!  We are the dwarves in the front lines of every battle!  We are the dwarves who win the King's wars!'
+&N'With great dismay' he says 'we cannot do anything to rid ourselves of these cocky, arrogant dwarves..' He looks up at $N and says '.. but you Can!'
+With a grin on his face, $n says 'The BrightAxe dwarves are easily distinguished by their trademark silver axes.  Yes, quite uncharacteristic of any dwarf to use such a bright, gaudy metal!'
+&N$n snorts and says 'Regardless!  Return to me $N, with seven of these silver axes!  You will have earned the admiration of the Seige Dwarves!'
+~
+QA
+&N greedily takes the axes, tossing them into a huge crate.
+'Well done.. Well done!' $n exclaims excitedly.
+'As a token of our appreciation, accept this &+Cmedal!'
+~
+R I 83250
+G I 83177
+G I 83177
+G I 83177
+G I 83177
+G I 83177
+G I 83177
+G I 83177
+S
+#83148
+M
+qc_action 500~
+&+LA shield dwarf blacksmith bangs a heavy &+chammer &+Lagainst a glowing metal shard atop the &+YGreat Anvil.
+~
+M
+qc_action 500~
+&+L*CLANK* *CLANK* *CLANK* *CLANK*
+~
+S
+#83149
+M
+qc_action 55~
+&+YR&+Ra&+rgd&+Lagan &+Lflips a &+cmining pick &+Lin his hands and grins.
+~
+M
+qc_action 600~
+&+LA procession of &N&+rdwarven blacksmiths &+Lfollowed by several &+Rgnomish &+Wti&+Gnk&+Ber&+Rs &+Lwalk by - a perfect example of the great diversity of &N&+cAlatorin&+L.
+~
+S
+#83150
+MA
+hi hello~
+&N$n smiles happily and says &+G'Greetings, $N!'
+&+G'Welcome to my home!  Sorry it is cluttered,' &N&+cDweefniggle &Nsays, giggling to himself.
+&+G'You know, one of my favorite ways to invent something useful is by combining two other things.  Like boot knives!'
+&NWith a grin on his face, &+cDweefniggle &Ncontinues &+G'There are what are commonly referred to as 'random objects' throughout the lands.  This could be anything from &Na &+Wm&+Ya&+Wg&+Yi&+Wc&+Ya&+Wl &+Rgem &N&+ymonolith&+G to &+La strange &+Wsharp &N&+rrubin&+G to &Na piece of &N&+bsapphire&+G!  I'll take it all!'
+After clearing his voice, $n continues 'Give me ten items and I'll give you a piece of a token of &n&+ycollecting!&+W'
+&N$n pauses for a moment, grabs $N's shirt, and says 'Wait $N!  Before you go, I have to ask you for a favor.'
+~
+M
+qc_action 200~
+&N$n fidgets with a couple strange glass and acrylic &+Rgi&+Yz&+Bmos&N.
+~
+M
+qc_action 200~
+&N$n says to his crew '&+RTry again, don't give up!'
+~
+MA
+favor~
+&N$n nods at $N and says &+W'One of my tinkerer cousins here is a big fan of Barlow's brew.  Well, he overheard some of those brewers say they were looking to..' he gulps and continues &+W'Try to my tinkerers!'
+&NHe scoffs and continues &+W'Well, we'll have to get them before they get us, eh $N?'
+&+W'Return to me with eight of their badges, and I'll know the deed is done'&n, $n whispers with &+rbloodlust&N in his eyes.
+~
+QA
+&N$n grins and says 'Thanks!  Remember, just give me ten of those pieces and I'll give ya a whole token!'
+~
+R I 83245
+G I 1252
+QA
+&N$n says 'Thanks!  Remember, just give me ten of those pieces and I'll give ya a whole token!'
+~
+R I 83245
+G I 1250
+QA
+&n$n says 'Thanks!  Remember, just give me ten of those pieces and I'll give ya a whole token!'
+~
+R I 83245
+G I 1254
+QA
+&N$n says 'Excellent work $N!  All ten pieces!  Here is your token!  Now you know where you take these right?  All commendation tokens to &+CCourt Hall.&+W'
+~
+R I 83246
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+G I 83245
+QA
+&N$n gasps and says &+W'Oh thank you $N!  You saved my life!  As a token of my appreciation I will give you this medal of &+Chonor&+W, which I was given a long time ago by Taark Shanat himself.  They say you can trade in a bunch of these medals for a key to the Alatorin Hall of Kings!'
+~
+R I 83250
+G I 83274
+G I 83274
+G I 83274
+G I 83274
+G I 83274
+G I 83274
+G I 83274
+G I 83274
+S
+#83151
+M
+qc_action 90~
+&+GGlab'grol &+Lyells out '&+gCome one come all, the Alatorin Auction is about to begin.'
+&+GGlab'grol &+Lgrins wickedly.
+~
+S
+#83155
+M
+qc_action 60~
+&+cSilwynthel &+Gsings a beautiful song of &+ynature &+Gand &+celven spirits...
+~
+M
+hi hello~
+&+cSilwenthyl &+Gsmiles at &+Y$n.
+~
+S
+#83156
+M
+hi hello~
+&+mSithrezyn &+Lignores you.
+~
+S
+#83168
+MA
+hi hello~
+&+WThe &+CBrightAxe &+Wcook looks at you and says 'Greetings, I bet you have
+&+Wdone your fair share of cooking in the past now haven't you?'
+&+WThe &+CBrightAxe scoffs out a laugh and begins laughing more until he
+&+Cbegins to choke.
+&+W'The men are sick of this caribou meat, they have eaten these snow deers for
+&+Wover two weeks now.  If you could get me enough meat, maybe some nice theezak
+&+Wmeat, to feed this whole army then I will surely let you have your fair share,
+&+Wfree of price, because I know you aren't in the BrightAxe military.'
+&+WThe &+CBrightAxe &+Wcook winks at $N.
+&+WThe &+CBrightAxe &+Wcook nods at $N and continues &+W'There is another thing,
+&+WI have gotten wind that the other cooks are trying to win the King's tastes
+&+Wwith their fancy cooking!  I will have no part of it, because I have my very
+&+Wown recipe that will sure to beat them.  Help me with my recipe, $N!.'
+~
+M
+qc_action 60~
+&+WThe &+CBrightAxe &+Wcook chops away at a chunk of &+rbloody &+Rm&+ye&+Ra&+yt&+W.
+~
+MA
+recipe~
+&+WThe &+CBrightAxe &+Wcook nods at $n and says 'Ok here goes, what I need is
+&+Wa &+clarge pike&N, &+ya mandrake root&N, &+Wsome garlic&N, &+yand an orange&+W.'
+&+WThe &+CBrightAxe &+Wcook says 'Just trust meon this one.'
+&+WWith a wink, he goes back to chopping &+Rmeat&+W.
+~
+Q
+&+WThe &+CBrightAxe &+Wcook cheers and takes the &+rhaunch of meat &+Wover his shoulder.
+&+WWith a few massive, speedy and &+Rgorey &+Wchops, the chunks are tossed onto
+&+Wthe fire.
+&+LMoments later...&+Wit's finished!
+~
+R I 83169
+R I 83169
+R I 83169
+R E 10000
+G I 83117
+QA
+&+WThe &+CBrightAxe &+Wcook takes the ingredients and gleefully whips up
+&+Wsomething ridiculous looking!
+~
+R I 83170
+R E 40000
+G I 2658
+G I 318
+G I 822
+G I 823
+S
+#83173
+M
+qc_action 150~
+&N$n notices a couple of his &N&+ybrewers&N engaged in a heated argument.
+Making his way over, $n stumbles over his feet and falls on his face.
+The &N&+ybrewers&N erupt in boisterous laughter and make amends, $n
+nods in content.
+~
+M
+hi hello~
+&N$n smiles heartily at $N and says 'Greetings!  Welcome to my brewery.  Are you here for a drink, or here for lore?'
+~
+MA
+drink~
+&N$n chuckles at $N and says 'Well then see the bartender!  Out with you!'
+~
+MA
+lore yes~
+&n$n says 'The lore of our people is that a smaller race, such as ourselves, would one day threaten our own existence!  Well, $N, we have just joined alliances with both the goblins and the gnomes.'
+&N$n sighs, stares upwards, then continues 'There haven't been too many goblins wandering around, besides the occasional mage or two, but they mostly stick to themselves.'
+'It's the gnomes, and you know where they are ganging up, working on their evil idols?  Their forsaken witchcraft!?  Down under the great anvil!  Those tinkerers of Dweefniggles!' $n exclaims, as he spits on the ground.
+~
+MA
+dweefniggle dweefniggles tinkerer tinkerers gnome gnomes~
+&N$n nods at $N and says 'Dweefniggle's gnome tinkerers down under the Great Anvil.  They are evil, we just know it up here!  Bring me eight of their badges, and I will give you a symbol of my honor!'
+~
+QA
+&N$n says 'Excellent work $N.  It is foor the good of the dwarven people, always remember that if you ever have second thoughts about what you have done here today.  The blood is on your hands, $N.'
+~
+R I 83250
+G I 83302
+G I 83302
+G I 83302
+G I 83302
+G I 83302
+G I 83302
+G I 83302
+G I 83302
+S
+#83174
+M
+qc_action 200~
+&N$n &+rgrins at the furious, armored shield dwarves below, admiring their imposing appearance.
+~
+MA
+hi hello~
+&N$n looks at $N, then looks away.
+~
+M
+qc_action 200~
+&N$n &+rsays 'Their barbed swords, vicious!'
+&N$n's eyes fill with BloodLust!
+~
+S
+#83176
+MA
+rringlor noroth wyrmskull throne~
+&+RTaark Shanat &+Wlooks upon you and with his piercing eyes fixed on yours
+&+Whe says '&+RThe blue dragons, lead by Rringlor Noroth.  That is the story
+&+Rnot only me, but the entire city of Alatorin, $N.'
+&+RTaark Shanat &+Wlicks his lips and continues &+R'Some hundred years ago,
+&+Rthe shield dwarves lived outside of the great mountain in which Alatorin
+&+Rexists today.  The dwarves lived deep underground on what just became
+&+Rknown as the land of Winterhaven, but were under constant assault by
+&+Rthe blue dragons of Gormoroth, the former name of what is now known
+&+Ras Shanatar.  These dragons were lead by the greater blue wyrm, Rringlor
+&+RNoroth.  This particular dragon had two identical heads, both equally
+&+Ras vicious.  I was captured along with a band of others and taken back
+&+Rto Mount Gormoroth where the dragons would toy with us before eating us,
+&+Ror at lleast thats what they thought.'
+&+RTaark Shanat &+Wgrins and gestures to the &+yW&+gy&+yr&+gm&+Wskull &+Wthrone.
+&+RTaark Shanat &+Wcontinues &+R'Not only did we defeat the beasts, but we also
+&+Rfound a new home, secluded from the evil around us, in what was the den
+&+Rof these dragons.'
+&+RTaark shanat &+Wsmiles and nods at &N$N.
+~
+MA
+hi hello~
+&+RTaark Shanat &+Wlooks at $N, nods, and smiles.
+~
+MA
+dragon dragons dragonslayer taark~
+&+RTaark Shanat&+W, interested in the subject of dragons, turns to $N and
+&+Wsays &-L&+RBEASTS!!&N&+R For every dragon you kill, gather one of their
+&+Lscales&+R.  Proove to me you can be a Dragonslayer and return to me ten
+&+Ldragon scales&+R of dragons you have killed and I will give you my
+&+Rcommendation.'
+&+RTaark Shanat &+Wnods proudly at $N.
+~
+MA
+scale scales~
+&+RTaark Shanat &+Wnods and says to $N &+R'Yes dragon scales.  Bring me ten
+&+Rof them and I will give you my commendation for dragonslaying.'
+~
+MA
+queen bellethra ring~
+&N$n smiles at $N.
+His eyes drift to out to his attendant's office across the throne room and nervously rubs his unringed finger as his face sours to a frown.
+~
+QA
+&+RTaark Shanat &+Wsnaps his finger and a nearby attendant happily collects
+&+Rthe &+Ldragon scales &+Wand carries them off.
+&+RTaark Shanat &+Wsmiles and says &+R'Excellent work $N.  You truly may
+&+Rbecome a dragonslayer.'
+~
+R I 83178
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+G I 392
+QA
+&N$n gasps in astonishment.
+He quickly takes the &+Yband&N from $N and twists it onto his finger, flexing his hands afterwards.
+&+Y'I have never seen you in my Citadel before, $N.. but I thank you for returning my ring.'
+~
+R I 83250
+G I 83249
+QA
+&N$n accepts the letter and tears it open.  He unscrolls it fully, stretching it
+&nto it's limits.
+&N$n's eyes shift back and forth down the scroll and he nods.
+&N$n crumbles up the letter in his massive fist into a bit of dust, which he draws to his face, puckers his lips, and blows into nothingness in the air.
+&N$n turns to $N and says 'A bit of bad news, from the military council.  It appears that the blue drakes that we have held captive in our royal, secret prison have began to exhibit signs of extraordinary power.'
+&N$n raises his eyebros, shakes his head, and continues 'Thank you for bringing this top secret message to me, $N.  Take this medal as a sign of my and all of &N&+cAlatorin&N's appreciatoin.
+~
+R I 83250
+R C 600000
+G I 83272
+S
+#83178
+M
+qc_action 200~
+&N$n says &+C'BrightAxe, the King's Company!  Hail King Taark!  Long live the King!'
+~
+MA
+hi hello~
+&N$n says 'Greetings $N.  Hail King Taark.  Long live the King.'
+~
+MA
+king taark shanat~
+&NWith a smile, $n says 'Hail King Taark Shanat!' to $N, patting him on the back.
+'The BrightAxe dwarved have guarded the Wyrmskull Throne since the dawn of Alatorin
+and the conquest of the shield dwarves.  It is the BrightAxe army who is the most
+honored and therefor valuable to Alatorin and our people!'
+&N$n sighs and continues 'The Seige Army has become getting stronger, so right now
+we just hope we can maintain King Taark's first-choice approval.
+~
+MA
+seige siege~
+&N$n frowns at $N and says 'The Seige Army has begun winning the King's approval
+with their brutal tactics.  It is a frowned on by our people and disgraced by the
+dwarves of Kilmordril!  Please $N!  Help us solidify our position as the King's
+Army by quelling the Seige Army.  We have seen all of their warriors wielding the
+same barbed swords.   If you can somehow infiltrate their guild and take their
+weapons, then the King will have no choice!'
+&nWith a grin, $n continues 'I saw seven of them in a batallion against the troll
+raids three months past.. and just last week seven were performing drills at the
+ward statue!'  &n smiles and says 'Return to me with seven of their swords, that
+should cripple an entire unit.  Do this and you will have gained my admiration.'
+~
+QA
+&N$n directs a two nearby &+CBrightAxe &Nrecruits to take the swords.
+After gathering them from $N, the recruits return to their duties.
+'With my gratitude, please accept this medal of honor, $N' $n says, bowing deeply before $N.
+~
+R I 83250
+G I 83175
+G I 83175
+G I 83175
+G I 83175
+G I 83175
+G I 83175
+G I 83175
+S
+#83180
+MA
+hi hello~
+&+LSharsta smiles at $N and says 'Be careful...'
+~
+S
+#83183
+M
+qc_action 400~
+&N&+LA &n&+ggoblin &+mwi&+Mld&N&+mma&+Mge &+Lperforms a magical gesture, and a &+Rhaze &+Lof &n&+rCh&+RA&N&+ro&+RTi&N&+rC &+REn&n&+rE&+RRG&N&+ry &+Lsurrounds him.
+~
+S
+#83186
+M
+qc_action 500~
+&N$n begins to surround with a thick &+Ggreen haze.
+&+GMoments later, the biofeedback around $n &+Gsolidifies into an impenetrable &+Bsolid &+Gbarrier!
+~
+MA
+hi hello~
+&N$n smiles at $N and says 'Greetings, adventerous one.  Drink from the pools, gain the foresight of &+Ytime..&N'
+&NAfter making a gesture, $n continues 'A presence has threatened us, $N, and we can speak no further until this threat has been abolished.  The mages of the Mystic Ward have recently challenged the livelyhood of the hooded, the very dwarves who generate the power of the caverns!' $n says, throwing his hands up in disgust.
+&N$n says, clearing his throat 'It is unfortunate that it has come to this, but bring me eight &N&+cAl&+Cator&N&+cin &+Lapprentice robes&N, worn by their mages.  We did not want it to come to this, but pre-emptive war is what we have foreseen.'
+~
+QA
+&N$n thanks $N heartidly, much unusual behavior for such an immensely-powerful individual.
+'Take this medal, $N' $n says with a bright smile.
+~
+R I 83250
+R E 250000
+G I 83184
+G I 83184
+G I 83184
+G I 83184
+G I 83184
+G I 83184
+G I 83184
+G I 83184
+S
+#83187
+M
+qc_action 65~
+&n$n dips a couple small chunks of &+Yore &+Linto the &N&+rfurnace&N.
+&n$n pulls a medium chunk of &+Yore &+Lfrom the &N&+rfurnace&N.
+~
+M
+qc_action 70~
+&n$n says in dwarven 'Ahh, perfect cinder, glowing crisp.'
+~
+MA
+hi hello~
+&N$n looks up at $N and says 'Greetings $N, welcome to my shop.'
+&N$n swirls around a scoop of hot &+Rmolten &Nmetal.
+&n$n says 'See if there is anything ya like out front.  Shields and swords are my specialty,' with a grin.
+&n$n says '&+YSmelting &Nservices also available.'
+~
+MA
+smelting smelt~
+&n$n says to $N '&+YSmelting &Nhappens to be my specialty!'
+&n$n claps his hands, smiling.
+&n$n says 'I can take two small pieces of the same ore and make them a medium. I can also take two medium pieces of the same ore and make it a large.  Same price for either smelt!  &+W10 platinum &Nfor &+ciron&n, &+Csteel&N, &+ycopper&N, or silver.  &+W50 platinum &Nfor &+Ygold&N, &+Wplatinum&n, or &+mmithril&N.'
+~
+MA
+mundorno~
+&n$n looks at $N with wide eyes and says &+W'Mundorno is a dear friend of mine.  I will protect him and his name until my last breath.'
+~
+QA
+&n&n &+RSMELTS &Nthe &+ciron&N!
+~
+R I 196
+G I 194
+G I 194
+G C 10000
+QA
+&N$n &+RSMELTS&N the &+Csteel&N!
+~
+R I 199
+G I 198
+G I 198
+G C 10000
+QA
+&N$n &+RSMELTS&N the &+ycopper&N!
+~
+R I 202
+G I 201
+G I 201
+G C 10000
+QA
+&N$n &+RSMELTS&N the silver!
+~
+R I 221
+G I 220
+G I 220
+G C 10000
+QA
+&n$n &+RSMELTS&N some &+Ygold&N!
+~
+R I 224
+G I 223
+G I 223
+G C 50000
+QA
+&N$n &+RSMELTS&N some &+Wplatinum&N!
+~
+R I 229
+G I 226
+G I 226
+G C 50000
+QA
+&N$n &+RSMELTS &Nsome &+mmithril&N!
+~
+R I 232
+G I 231
+G I 231
+G C 50000
+QA
+&n$n &+RSMELTS &Nsome &+ciron&N!
+~
+R I 197
+G I 196
+G I 196
+G C 10000
+QA
+&n$n &+RSMELTS&N some &+Csteel&N!
+~
+R I 200
+G I 199
+G I 199
+G C 10000
+QA
+&N$n &+RSMELTS&N some &+ycopper&N!
+~
+R I 219
+G I 202
+G I 202
+G C 10000
+QA
+&N$N &+RSMELTS&N some silver!
+~
+R I 222
+G I 221
+G I 221
+G C 10000
+QA
+&N$n &+RSMELTS&N some &+Ygold&N!
+~
+R I 225
+G I 224
+G I 224
+G C 50000
+QA
+&N$n &+RSMELTS&N some &+Wplatinum&N!
+~
+R I 230
+G I 229
+G I 229
+G C 50000
+QA
+&N$n &+RSMELTS&N some &+mmithril&N!
+~
+R I 233
+G I 232
+G I 232
+G C 50000
+S
+#83189
+M
+qc_action 165~
+&N$n smiles and admires her &+Bwonderous &Ndwelling.
+~
+MA
+hi hello~
+&N$n smiles at $N and says 'Hello!'
+&NIn a staggering display of power, all of the &+yfurniture &Nin the room shifts and turns to directly face $N.
+&N$n says 'Have you come to the world of enchantment about Alatorin's epidemic?'
+~
+MA
+alatorin epidemic alatorins yes yeah~
+&N$n frowns at $N and says &+L'Alatorin is in the middle of a grave epidemic - as long as those evil &+Chooded &+Ldwarves &N&+gPOLLUTE &+Lthe caverns of time!' &Nslamming her fist onto the table, which winces in pain.
+Stroking the table forgivingly, $n continues 'Bring me eight of those &+Mevil-doer's &+Choods&N&+m and you will have gained my appreciation.'
+~
+M
+qc_action 250~
+&N$+bThe elementals &+rthroughout &+Cthe area &N&+ystare motionless &N&+bat the strange &+rbehavior of &+Cthe furniture&N &+yin this chamber.
+~
+QA
+&n$n grins, her eyes &+Rglowing &Nwith &n&+rBloodLust&N.
+&NAccepting the &+Choods&N, $n says 'Thank you $N.  Take this medal of &+cAlatorin&N as a token of my appreciation.'
+'You can learn more about medals like these, and even commendation tokens, at Court Hall,' she says with a grin.
+~
+R I 83250
+G I 120007
+G I 120007
+G I 120007
+G I 120007
+G I 120007
+G I 120007
+G I 120007
+G I 120007
+S
+#83190
+M
+qc_action 90~
+&+yA wooden stool clatters around the room, marching with two legs at a time.
+~
+S
+#83191
+M
+qc_action 90~
+&+yA broom swings back and forth on its own, blowing back gusts of &Ndust&+y.
+~
+S
+#83192
+M
+qc_action 90~
+&+WA large arm chair leaps across the chamber like a gazelle.
+~
+S
+#83193
+M
+qc_action 60~
+&N$n &+Cfloats up on a cloud of &+Lsmoke &+Cand turns to face you.
+~
+S
+#83194
+M
+qc_action 60~
+&+BDunobious floats high on a massive &+Wchurning &+Bbed of water.
+~
+S
+#83198
+M
+qc_action 60~
+&n$n looks warily back and forth, peering out into the Military Ward.
+~
+M
+qc_action 60~
+&NA large procession of &+Ydwarves&N are seen marching in a huge unit in the distance.
+~
+MA
+hi hello~
+&N$n says in heavily-accented common 'Okay, ya caught me!  I'm not really part of Hammerhelm's Army.  I ain't even a shield dwarf at all!  My cousin Megosh dared me to sneak in here and grab something juicy but.. I'm in over my head, and I want out!'
+&NLooking wearily around, $n continues 'Tell ya what, I'll give you the key to this place and I'll get the heck outta here!  Give it to ya for 20 &+Wplatinum!&N'
+~
+QA
+&N$n says 'Thanks, I can't wait to get outta here.  Take the key!'
+~
+R I 83198
+G C 20000
+D
+&N$n runs off.
+~
+S
+#83204
+M
+qc_action 200~
+&N$n punches a huge sand bag several times before letting out one huge grunt and throwing a sloppy haymaker.
+~
+M
+qc_action 200~
+&N$n lands a heavy kick dead center on a bullseye painted onto a fighting dummy.
+~
+S
+#83205
+MA
+hi hello~
+&N$n smiles at $N and says &+W'Greetings, $N!' in a mighty voice.
+&+W'I have heart about you through Istban.  Word travels fast 'round here, you know.' he says with a chuckle.
+~
+MA
+uncle istban~
+&+W'"Uncle" Istban as they'd call him' $n says, 'He tells me that you are looking for treasure and magical items, or at least that you had that look to you.'
+With a hefty inhale, $n continues &+W'Tell ya what, I will give you a niece piece of &+YHammer&+Whelm treasure - the very best, if you do &+YHammer&+Whelm a favor.'
+~
+MA
+yes~
+&N&+W'"Yes" what?' $n says, confused.
+&+W'You mean about a favor?'
+~
+MA
+no~
+&N$n looks puzzled and says '"No" what?  How bout a favor?'
+~
+MA
+favor hammerhelm treasure~
+&N$n says '&+YHammer&+Whelm would be in great debt if you helped improve the &&N&+cAlatorin &+Yempire.  You see, &N&+cAlatorin &+Wwas raised by &Nsh&+Wie&Nld &+Ydwarves&+W, this it should remain run by &Nsh&+Wie&Nld &+Ydwarves&+W.  There is a member of the high council running the Hall of Adventurers.  You may have heard his name murmured among the less refined citizens of Alatorin as 'Short Stack.'
+&N$n rolls his eyes, and continues 'Remove Brudo from his command.  I will know the task is complete when you return to me with his &N&+memerald shortsword&n. &+WHis feeble mind has attributed his leadership to the finding of this blade and we, at &+YHammer&+Whelm believe he is not of fit &N&+rblood &+Wfor an honor among &Nsh&+Wie&Nld &+Ydwarwves!&N'
+~
+MA
+short stack brudo mcfuggens emerald shortsword~
+&N$n groans and says 'Brudo "Short Stack" McFuggens is a mix of mountain and duergar dwarven blood because his mother was a whore and his father was a shield dwarf slave.  Such blood should not be permitted in the council of &N&+cAlatorin&N!  Return to me with Brudo's &N&+gemerald shortsword&N, from which he has dazzled his weak-minded onlookers, and you will have proven your value to &+YHammer&+Whelm&N!'
+~
+QA
+&N$n exclaims 'Great work today $N!  Take these as a token of our honor.'
+~
+R I 83250
+R I 83346
+G I 83344
+S
+#83207
+M
+qc_action 50~
+&N$n swings a sharp &+Ccleaver&N down onto a leg of flesh, severing it in two.
+~
+M
+qc_action 50~
+&N$n chops up a bit of parslay, his hand becoming a blur.
+~
+MA
+hi hello~
+&N$n smiles and says 'Hail.  If you don't mind $N I am trying to cook!  I have many mouths to feed, hungry from training!'
+&N$n pauses for a moment and says 'The lion meat every day.. tastes like metal if you ask me!'
+&N$n guffaws.
+Collecting himself, $n continues 'Bring me some &+colyx&N meat, that stuff is delicious!  We can make some ribs out of a haunch of that!  Oh and also, if you are looking to help me find the ingredients of my recipe, let me know.'
+~
+MA
+recipe~
+&N$n says 'Yes there is a special recipe with a secret ingredient that will surely savor to the kingly tastes of Taark!  Are you ready?  I need one each of the following:  &+Wsome garlic&N, &+Ya banana&N, &+ra &+Rside&N&+r of &Nboar&n, and &+ra few drops of dragons blood&N to really give it some bite!'
+~
+QA
+&N$n &+rhacks and &Nchops &+rthe &+Rha&+Wun&+Rch &N&+rinto an even bloodier
+&+rmess and then collects all the ribs and tosses them onto his grill.
+$n says 'Thanks, these are turning out great!  For your troubles have a few on the house..
+~
+R E 10000
+R I 83222
+R I 83222
+R I 83222
+G I 83220
+QA
+&N$n tosses the ingredients onto the table and &+Rhacks &Nthem up with blinding speed.
+&N$n continues chopping until it is all a fine &+Rmash&N, which he then builds into a huge loaf, covers with &+Rsauces&N and &+yseasonings&N and stuffs into his oven.
+&NA few moments later, it is done.
+'Thank you greatly!  Here, take a few loafs for yourself. 'He says, happily.
+~
+R I 83225
+G I 823
+G I 825
+G I 83223
+G I 22017
+S
+#83226
+M
+qc_action 55~
+&N$n says 'There are a great many wonders in these lands if you know the right places to look.'
+&N$n smiles and slowly shambles about the temple.
+~
+M
+qc_action 50~
+&N$n says &+W'Welcome to the Temple of Dumathoin.  Dumathoin welcomes all, just as the Shield Dwarves welcome all to Alatorin.  Dumathoin looks over the explorers of the adventurers' hall!'
+~
+M
+qc_action 55~
+&N$n says 'Can you see the magic on the altar?  That is the luck and splendor of Dumathoin blessing his temple.'
+&N$n smiles and says, 'You know, there are some very powerful &+Waltars&N around the realm.  In fact, it is rumored that there are two &+Waltars&N that will &+Wunspecialize&N you and one &+Waltar &Nthat will &+Wunmulticlass &Nyou!'
+~
+MA
+hi hello~
+&N$n smiles at you and says 'Hello, $N.'
+~
+MA
+altar altars unspecialize unmulticlass~
+&N$n says 'Yes, $N, there are two altars you can unspecialize at and one you can unmulticlass at.'
+&N$n says 'The ancient altars that have been fortified with the great magic of the land have granted people the undoing of their specialization when prayed upon.  One of these altars can be found in the &+RL&N&+ra&+Rv&N&+ra &+LTubes&N, and the other in the &N&+bSea Caves&N at an altar made of coral.'
+&N$n says 'A third great altar, infused with the great elemental powers of undoing, can be found deep past the throne room of an ancient temple &+GTik&N&+gitz&+Gopl&N.'
+&N$n sizes $N up, grins, and continues 'Make sure you have an epic skill point to spend, little one.'
+&N$n continues 'Also the ancient &+yAltar of Rememberance&N that had been seized by the villainous &+gT&+ror&+gg &N has the power to pull a &+Ymountain dwarf&N or &+rduergar dwarf&N into the ancient state of a &+Rba&n&+rtt&+Rle&N&+rra&+Rge&N&+rr.'
+~
+S
+#83233
+M
+qc_action 60~
+&n$n leaps in the air and clangs his swords together twice, causing huge &+Ysparks &Nto erupt, before doing three flips and landing perfectly on his toes.
+~
+S
+#83236
+M
+qc_action 60~
+&N$n does a backflip and momentarily his body begins to blur.
+&N$n leaps out and does a flurry of blows in the spaces just around your head.
+&N$n flips back into his fighting stance and bows.
+~
+S
+#83237
+M
+qc_action 90~
+&N$n leaps up and lands several swift blows on a dummy before landing many feet away from it.
+&N$n nods.
+&N$n says 'Your turn.'
+~
+S
+#83239
+M
+qc_action 50~
+&N$n swings his &+Ccleaver&N into a &N&+yflank&n, hacking off a chunk.
+~
+M
+qc_action 50~
+&N$n juggles potatoes and carrots, letting them kerplunk one-by-one into a bubbling pot.
+~
+MA
+hi hello~
+&N$n smiles at $N and says 'Hello!  Are you looking for work?'
+&N$n &Nsizes $N up and down and nods.
+&N$n &Nsays 'I have to cook for the guild and they just got back from a huge expedition, and I know they brought back a hardier appetite then before!'
+&N$n sighs and continues 'The guys were getting sick of the same shipment of olyx meat we have been getting for years and I wanna get them something a bit stronger.  Lion stronger!  Find me some &+Ylion &+Rmeat&N , they'll love that!'
+&N$n says 'Now if you'll excuse me, kid, I gotta finish this meal, and then the BIG recipe!'
+&N$n hurries back off to work, slicing and dicing.
+~
+MA
+recipe~
+&N$n nods at $N and says 'My recipe for the king will beat the other cooks, I know it!  Are you ready?  I will need &+Wsome garlic&N, &N&+ya mandrake root&N, &+ra &+Rside &N&+rof &nboar, and &N&+msome faerie dust&N to give it a little zing!'
+~
+QA
+&N$n accepts the &+Rhaunch&N and chops it up in a hurry...
+&+RIn a few splatters of blood and &+Rgore&N&+r, the entire leg is portioned into small, bite-size chunks.
+&N$n tosses the &+rchunks&N onto the &+Lgrill&N over the &+rfirepit&N, &+Rsauces &Nthem up a few times with his own ancient dwarven seasonings and lets them cook.
+&N$n says 'Thanks a lot.  Here, take a few for yourself!'
+~
+R I 83221
+R E 10000
+R I 83221
+R I 83221
+G I 83201
+QA
+&N$n &Ntosses the ingredients into a huge already-&+Rbubbling &Nvat.
+&NAfter stirring for a few minutes, it is complete!
+&N$n says 'A few batches on the house, thanks!'
+~
+R I 83224
+G I 824
+G I 823
+G I 822
+G I 83223
+S
+#83240
+M
+qc_action 90~
+&N$n takes several steps towards the door, turns, and takes several steps back.
+&NWith a deep sigh, $n stares up towards the top of the cavern ceiling and pulls his hands across his forehead, sleeking his sweaty hair back.
+~
+M
+qc_action 90~
+&N$n &Nmutters 'Dear oh dear.. what am I going to do?'
+&n$n &N sighs and whispers to himself 'There's no time!' shaking his head.
+~
+MA
+time~
+&N$n &-LSCREAMS&N at $N '&-L&+rTIME!?&N'
+~
+MA
+yes no~
+&N$n raises his eyebrow at $N.
+~
+M
+qc_action 90~
+&NAt the sound of footsteps, $n &Nleaps to the door and peaks outside.
+&N$n &Nlets out a momentary sigh of relief.
+~
+M
+qc_action 300~
+&+MA well-dressed dignitary equipped in elaborate glowing platemail walks between a procession of masked guards past the doorway, down the corridor.
+~
+M
+qc_action 900~
+&+cAkadi the emisary of air walks by in a billowing ever-fluctuating maelstrom of storm wind and lightning.
+&+cWithout a moments notice, the phantasmal being is wooshed away in a loud, huge burst of gusting winds.
+~
+MA
+hi hello~
+&n$n throws his hands up in disgust in the face of $N and keeps walking without saying a word.
+~
+MA
+banquet~
+&n$n quickly snaps his head to $N and says 'The Banquet!  It is scheduled in three moons and we have no food preparations made!'
+&N$n sighs and continues 'What are we going to do?  I still need to be presented with recipes!'
+&N$n looks frustrated and nearly pulls his hair out.
+'Bring me a sample of some special recipes of the cooks you find in Alatorin, make my life much easier!' $n pleads with $N.
+~
+MA
+recipe recipes cook cooks~
+&N$n peers at $N and says 'You mean for the banquet?'
+~
+MA
+queen bellethra ring~
+&N$n peers at $N and says 'You can get to the queen?  If you can, would you find the King's wedding band in the Queen's office without her detecting you?  King Taark informed me it has gone missing and to go find it, but I have so much to worry about here with the banquet for the emissaries coming up!'
+&N$n says 'If you do retrieve the ring, bring it back to me so I may bring it forth to the king myself, as the task was given to me originally!'
+~
+QA
+&+W'Mmmmm that tastes excellent, I believe this will be our appetizer!' $n says with a smile.
+~
+R I 83227
+G I 83170
+QA
+&N&n says 'Delicious!  This will be our warmer-upper!'
+~
+R I 83227
+G I 83168
+QA
+&N$n says 'Oh god that's delicious.  We'll have that as the main course.'
+~
+R I 83227
+G I 83224
+QA
+&N$n says 'Save the best for last, mouth-watering!'
+~
+R I 83227
+G I 83225
+QA
+&N$n says 'Thank you!  Glory to thee!  I shall bring it to the king at once!'
+&+W'Here!' &Nhe says, &+W'Take this!'
+&N$n hands $N a &N&+ysack of coins.
+~
+R C 333000
+G I 83249
+S
+#83241
+M
+qc_action 300~
+&N$n suddenly turns &+Ggreener &nand &+yvomits everywhere!  Yuck!
+~
+M
+qc_action 300~
+&N$n says in goblin '&+gHhgyhey!!  What are YOOUU lookijghin ahgt!!?&N'
+~
+M
+qc_action 300~
+&N$n says in goblin 'Those dwarfvers sure make some h-ic!... Some h-ic!..  some heavy drank!'
+~
+M
+qc_action 300~
+&N$n says in goblin 'Hey man, when I got out of New Hoummm nope.. when I ran away, they got me.' *Hic!*
+&NThe &+ggoblin &Nstumbles about for a while and falls.
+~
+S
+#83244
+M
+qc_action 100~
+&N$n &+Yextends fingers out over the flower bed, and a dim &+Clight &+Yemits from her finger tips.
+~
+M
+qc_action 100~
+&N$n &+Ysmiles.
+~
+MA
+hi hello~
+&N$n says 'Greetings $N.'
+The &+Ymystic gardener&N smiles, closes her eyes and continues communing with the garden.
+~
+MA
+flower flower~
+&N$n says 'You like them?  They have been growing for over four hundred years you know!'
+&N$n smiles and continues &N'These are what are called flowers of the ether, or ethereal flowers.'
+~
+MA
+ethereal ether~
+&+YShe nods at $N and continues '&+YEthereal flowers, flowers of ether, are said to grow very rarely in extra-planar existence.  These flowers can be altered and twisted, like all ethereal reality, and thus live a prolonged life of ever-changing beauty and elegance!'
+&N$n sighs in happiness and says '&+YIf you ever come across any flowers of ethereal existence, like any &N&+gstrange-looking &+Reth&N&+rer&+Real r&N&+rose&+Rs&+Y, &+Leth&N&+cer&+Leal lotus, &+Wdre&Nam&+Lfoils&+W, and et&+Ch&+We&+Cre&+Wa&+Cl &N&+clilys&+Y, pay me another visit, any of them would grow beautifully in these gardens.'
+&+Y$n &ngrins and says 'I'm sure you'll be able to enter the Citadel of the King again if you were able to enter today so easily.'
+&+Y$n &Nwinks at $N.
+~
+MA
+rose roses~
+&+Y$n &nsays '&+Reth&N&+rer&+Real &+Rr&N&+rose&+Res &+Yare quite rare.  They grow only in the ethereal forest of the Fortress of Dreams.'
+~
+MA
+lily lilys~
+&+Y$n smiles and says '&+YI have seen a few ethereal lilys in my life.'
+&+YWith a quick gesture, a beautiful green-stemmed ethereal lily grows to twenty times larger!
+&+Y'These beautiful flowers are found only in the murky &N&+rDreggan Woods&+Y.'
+~
+MA
+dreamfoil dreamfoils dream foil~
+&+Y'Ahh yes, &+Wdr&Nea&+Mmfoil&+Y, a beautiful herb with vibrant petals..'
+&+Y$n &Nsmiles and continues '&+WDre&Namf&+Loil &+Ygrows in the &+WDr&+Cif&N&+cti&+Cng &+WRealm.'&N
+~
+MA
+lotus lotuses loti~
+&+Y$n frowns and her boisterous express &+Lmelts into a scowl.
+&N&+Y'Beautiful flowers,' she says 'but horrific place.  I would be eternally grateful to see one..  they are so rare, that there is only one garden in which they still grow.  This garden of which I speak sits on the tallest peak of the &N&+yAlduran Mountains&+Y, in the &+Lshadow&+Y of &+LCastle &N&+rRavenloft&+Y.'
+&+Y$n cries on $N's shoulders at merely speaking of the terrible castle of ill-repute.
+~
+MA
+volo~
+&NA huge smile graces the face of $n.
+&'Volo!' he says excitedly, 'the legendary traveler..'
+~
+QA
+&NWith a great smile on his face, $n says 'Excellent work, $N!'
+&NHe takes the different &+Lethereal &+Wflowers&N and tucks them away carefully into a leather case.
+&NA moment later, he removes his robe and reveals a magical cloak beneath.
+The &+Ygardener $npromptly removes his cloak and smiles at $N.
+~
+R I 83285
+G I 32627
+G I 83282
+G I 83283
+G I 83284
+D
+&NAs he smiles, $n says 'Keep that cloak, $N.  I received it a long time ago from one named &N&+cV+Lo&n&+cl&+Lo.  And now it is yours.'
+~
+S
+#83248
+M
+qc_action 150~
+&L$n &+Leyes you up and down, raises an eyebrow and ponders for a moment, then grins.
+~
+M
+qc_action 100~
+&N&+cA small procession of highly-ranked royal guards marches quickly through the doorway, in search of an invader.
+~
+MA
+hi hello~
+&N$n says 'Hello, $N.  You do not look like a shield dwarf..'
+$n ponders for a moment, grins, and says 'Makes sense now with all the guards in the Citadel.'
+&N'How you managed to avoid the defenses of Shanat has impressed me, $N.  You may be of some use to me.  Do you wish to assist?'
+~
+MA
+no nope nah~
+&N$n nods at $n and says 'Then I have another mission for you, find someone who can and wishes to achieve glory!'
+~
+MA
+yes yeah assist~
+&n$n nods, smiles, and says 'Excellent, $N.  The shield dwarves are not a cruel or violent people, but we do have enemies.  Some of these enemies have alienated themselves with terrible crimes against our people, so we have removed some of their freedoms.  Below Shanat Citadel is a prison..'
+~
+MA
+taark shanat~
+&N$n smiles and says 'Taark Shanat, Slayer of the Noroth Wyrm and savior of Alatorin!  My husband, and Shanat Citadel - our home.'
+~
+MA
+document leniance~
+&N$n says 'Document?  Leniance?  I have no idea!  I stay out of those matters.'
+~
+MA
+alatorin~
+&N$n smiles and says 'Ah Alatorin, what a glorious city.'
+~
+MA
+prison~
+&N$n gulps.
+'Rringlor Noroth was slain, but she did manage to have three eggs before she died.  One of the eggs was burned by the war-crazed dwarves, but the other two they took, kept, held secret, and hatched some thousand years ago.  These spawn of Noroth, these drakes, have grown to enormous size in their young lives and I fear they will grow out of our control and destroy the city we so love and cherish!  Kill these two remaining drakes and bring me their hearts!' The Queen screams in delight.
+~
+QA
+&NWith a smile on her face, $n graciously accepts the bloody, messy hearts.
+'Thank you,' she says to $N, placing a key in $N's hand.
+~
+R I 83307
+G I 83305
+G I 83306
+D
+&n$n says 'This key opens our private quarters.  Please, go see what you can find, take anything!'
+~
+S
+#83250
+MA
+hi hello~
+&N$n smiles and nods at $N.
+~
+S
+#83251
+M
+qc_action 600~
+&N&+gA &+Rgnomish &N&+gtinkerer works away at a craftsman's table.
+~
+S
+#83252
+MA
+tokens~
+&N$n smiles at $N and says 'In Alatorin, you may earn different tokens for displaying your mastery in different professions.  These &+Ytokens &+Ware given to you by different people here Alatorin.  You can exchange a certain number of these tokens, depending on the type of profession, for incredible awards!'
+&N$n gestures towards the &+Wsign.
+'This sign shows the number of &+Ytokens&N for each profession it takes to receive their reward item.  Just give that many of that &+Ytoken &Nto me and I'll give you your reward!'
+~
+S
+#83262
+M
+qc_action 150~
+&N$n clenches his &+raxes &Nhard, the &+mveins &Nbulging in his forearms.
+~
+MA
+hi hello~
+&N$n says 'Greetings $N.  Do you have honor for the duergar empire?  We are beginning to question whether these shield dwarves do.'
+&N$n grimmaces and says 'It is the mountain dwarves!  The fact that they have a presence here is foul!  Kill their General, Chungy Taskgulch.  Bring me his head!'
+~
+QA
+&N$n roars with excitement and says 'Well done, $N!'
+~
+R I 83287
+G I 83286
+D
+&N$n says 'Take this,' and dissappears.
+~
+S
+#83263
+M
+qc_action 150~
+&N$n takes a deep breath, the &+mmithril plates &Nover his chest shifting by his expanding trunk.
+~
+MA
+hi hello~
+&N$n smiles, exposing several &+Ygolden teeth&N.
+&n'Greetings $N,' he says.  'Alatorin is a glorious place, is it not?  The dwarves of Kimordril have taken a great apprecation of our shield dwarve cousins.'
+He sighs for a moment and continues 'We have other cousins, however, that we do not trust.  The duergar - they still seek genocide against the mountain dwarven race.  There is one in the very walls of this Citadel, Frahzel Thunderfist, the younger brother of the notorious Fizz Thunderfist.'
+&nHis brow furrows and he $n says 'Kill Fizz Thunderfist, $N!'
+~
+QA
+&N$n says 'It is unfortunate it has to come to these violent measures - but it is for the good of me and my men.  Had we not taken action first, he would certainly have seeken our destruction.'
+~
+R I 83289
+G I 83288
+D
+'You have done well, $N,' $n says.
+~
+S
+#83271
+M
+qc_action 150~
+&N$n approaches a long bookshelf and fingers through a few books.
+&NHe grumbles and throws his hands up, then storms further down the hallway.
+~
+M
+qc_action 150~
+&N$n walks slowly through the few simple rows of ancient tomes, talking to himself in quiet obsession.
+~
+MA
+hi hello~
+&N$n looks for a moment and then comes to a stop.
+He turns and says 'Hello.. $N.. have you seen my books?'
+~
+MA
+books~
+&N$n nods and says 'There are three books that have gone missing from my library and I have vowed to get them back.'
+&N$n takes a step closer and says 'Sol, Magic Missiles, and Jedd's book'
+&N$n sighs and shrugs his shoulders.
+&N'Oh well,' he says before turning and walking down the hallway.
+~
+QA
+&N$n smiles and his eyes light up 'You got them!'
+He lunges forward and snatches all three from $N's hands.
+'Thank you!  Take this medal of Alatorin that I received many years ago by Taark Shanat himself,' he says.
+~
+R I 83267
+G I 83268
+G I 83269
+G I 83270
+D
+&+L...a strange power fluctuates through the area.
+~
+S
+#83276
+MA
+hi hello~
+&N$n says 'Hello.'
+~
+MA
+taark shanat~
+&N$n says 'Taark Shanat is a good man.  He is a great leader and a true friend.'
+&N$n sighs and continues 'Taark and I go back a long way, when I was a child
+and he was only -kind of- old.'
+&N$n chuckles for a moments and nods, then says 'Thanks,' his bald head glistening.
+~
+M
+qc_action 600~
+&N$n says &+R'Legionnaires!  Stomachs in!  Shoulders back!  Chest out!'
+~
+M
+qc_action 600~
+&N$n yells &+R'SOUND OFF!'
+&N&+rHis &+Ylegionnaire &N&+rrecruits yell back 'ANGRY!'
+&N$n yells &+R'SOUND ON!'
+&N&+rHis minions respond 'LEGION!'
+&n$n yells &+R'SOUND OFF SOUND ON!!'
+&N&+rHis &+Glegionnaire &N&+rminions respond 'ANGRY DWARF LEGIONNAIRES!'
+~
+M
+qc_action 600~
+&N$n hears a sound in the hallway and jumps to is feet.
+&NThe nearest &+rleg&+Yi&N&+ron&+Ynai&N&+rre &+Linstantly kneels and offers $n his &+Csword.
+~
+M
+qc_action 600~
+&N$n twirls a tiny &+cdagger &Nbetween his knuckles.
+~
+M
+qc_action 600~
+&+rAfter a thunderous roar from his troops, $n yells to his men &+R'Today we fight.. Tomorrow we DIE!!!'
+~
+M
+qc_action 600~
+&+LA deep and thunderous roar from somewhere deep below the citadel shakes the very pillars on which it rests.
+~
+M
+qc_action 600~
+&N$n cracks his knuckles and grins at a nearby &+rle&+Yg&n&+rio&+Ynna&n&+yire&N.
+&N&+rThe le&+Ygi&N&+rio&+Yn&N&+rnaire responds with a nervous smile and several beads of &N&+csweat.
+~
+MA
+graddakk~
+&N$n bursts into the tears at the sound of the name of his former lover, &+rGraddakk.
+~
+S
+#83283
+M
+qc_action 500~
+&+LA strange &N&+mgloomwing &+Lflies by in a distant darkness, leaving a trail of &N&+bblack haze&+L behind it.
+~
+S
+#83284
+M
+qc_action 600~
+&+LA strange &N&+mgloomwing &+Lflies by in a distant darkness, leaving a trail of &N&+bblack haze&+L behind it.
+~
+S
+#83290
+M
+qc_action 200~
+&+LA &+Ydwarf &+Lminer &Nrigorously &+Lshakes many broken stones in a large &N&+cmetal &+Lgrating.
+~
+S
+#83291
+M
+qc_action 160~
+&N$n swings his &+chammer&N, pounding a rare piece of &+More&N, sending &+Ymagical &+Bsparks &Nflying.
+~
+M
+qc_action 160~
+&N$n grins as he begins shaping a strange piece of &+More &Nwith his &+chammering &+Lprocess&N.
+~
+M
+qc_action 600~
+&n&+LOutside the distant walls of &N&+cAlatorin&+L, the thunderous roar of a dragon resonates through the atmosphere.
+~
+MA
+hi hello~
+&N$n smiles at $N and says 'Greetings.'
+&NHe continues a few more deep &N&+msmashes &Nwith his thick-handled &+chammer&N and turns, facing &N to speak.
+'I would say that you have traveled a great distance to &+cAlatorin&N just as I have, $N.  I am a traveler as well, perhaps we can benefit from one another?' He says he with a grin.
+'I am seeking rare and precious ore, and I'm not talking about platinum or mithril' he says, smirking, 'There are precious metals that are rare found in these realms, do you know much of ore?'
+~
+MA
+ore ores~
+&NA serious look on his face, $n says 'There are three types of precious ore that I seek, that can be found by such an able-bodied traveler like yourself $N.'
+some &Nen&+Wdu&Nri&Num &+Lore&N
+&+Csome &+Lblackrock &+Core&N
+&+Lsome &+Mnether &+Lore&N
+'The Twin Worlds,' &n says, his eyes growing wider, 'These ores can only be found through the barrier between the Twin Worlds.  If, in your most impressive and experienced travels, you come across any of this ore, you now know who to think of first!.'
+&N$n grins, shakes hands with $N, and continues with his work during his limited stay in &N&+cAlatorin&N.
+~
+MA
+alatorin~
+&N$n says 'Alatorin!'
+Smiling at $N, $n continues 'I love my shield dwarf cousins here.'
+~
+MA
+bracelet bracelets~
+&N$n smils at $N and shakes his shiny, elaborate &+Wbracelets &Nin $N's face.
+&N$n says 'I make these bracelets myself out of a few select, rare ores!'
+~
+QA
+&N$n gracious takes the ore and works away, creating a beautiful masterpiece.
+~
+R I 83314
+G I 78422
+QA
+&N$n accepts the ore and crafts a beautiful, masterfully-crafted creation!
+~
+R I 83315
+G I 78463
+QA
+&N$n quickly forges the &+More&N, crafting a master creation.
+~
+R I 83316
+G I 78485
+S
+#83294
+M
+qc_action 200~
+&NA &Nstrong dwarf &+Lminer heaves a massive hammer down, smashing huge rocks into bits.
+~
+S
+#83295
+M
+qc_action 200~
+&N$n hammers and shapes some &+Yore&N, his hammering hand moving with a &N&+bblur &nof speed.
+~
+MA
+hi hello~
+&+Y'Greetings,' &N$n says, &+Y'Are you interested in the designs and teachings of the master blacksmith?'
+With a boasting smile, $n chuckles and continues &+Y'If you wish to learn the ways and gain the graces of me, $N, you will need to complete a task.'
+&+Y'Have you mined the lands of Duris?  The realms pose some of the finest ore right from the ground.  You may also unearth some &N&+yrolled up parchment &+Yin your travels.  These &N&+yparchments &+Ycontain ancient knowledge.  Bring me &+Wten &+Yof these parchments and I will reward you with a token of your accomplishments.'
+~
+QA
+&N$n graciously scoops up the stack of &+yparchments &Nand thanks $N in appreciation.
+~
+R I 83317
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+G I 251
+S
+#83296
+M
+qc_action 250~
+&N$n dunks a huge metal ladel of contained &+Yore &Ninto the &+Rsmelting pot&+L, black smoke &Nsizzles &+Lout.
+~
+M
+qc_action 250~
+&N$n mixes several different &+Yores &Ntogether, melting them into a strange combination.
+~
+M
+qc_action 300~
+&+LLoud clanking and shattering can be heard echoing throughout the bowels of Alatorin.
+~
+MA
+hi hello~
+&N$n grins at &N and says 'Greetings.  Have your gods brought you to me to learn the ways of smelting?  Well they actually begin with the ways of &+Lmining&N!  I am experimenting with the mixing of several ores, but my needs are quite voluminous.'
+&NWith a sigh, $n continues 'Return to me with a &+Llarge &+Yore&N, one each of: &+ciron&+y, copper&N, silver&+Y, gold&N, &+Wplatinum&N, and &+mmithril&+L.
+~
+QA
+&NHungrily gathering up the &+Yore&N, $n graciously hands $N his token of appreciation.
+~
+R I 83318
+G I 233
+G I 230
+G I 225
+G I 222
+G I 219
+G I 197
+S
+#83297
+M
+qc_action 250~
+&N&+LA &Nsmug&+L bartender looks over both shoulders for a moment, then leans in and &Nspits &+Linto a &N&+cmug&+L, proceding to wipe it out.
+~
+S
+#83300
+M
+qc_action 250~
+&N$n sniffs, sighs, and wipes a &N&+ctear &Nfrom his eye.
+~
+MA
+hi hello~
+&N$n says 'Hello $N,' sniffling.
+&NHe continues 'We used to have so many from Hammerhelm here.  Sometimes the entire Hammer and Shield would be full of cadets after they would return from their training!  Now, not so much $N..'
+With a sigh, he continues 'Now Hammerhelm is different.'
+~
+MA
+hammerhelm different~
+&N$n nods at $N and says 'Hammerhelm used to be a fun place for the cadets, but now they are locked in - and they don't even want to leave!  You know why?  It's that swamp troll!'
+$n spits on the ground.
+'Ever since they captured that damned monster,' he adds, 'the Hammerhelm Dojo has been the hotspot for almost all of their troops, and a whole lot of our business!'
+~
+MA
+swamp troll~
+&N$n says 'Precisely, $N!  The swamp troll shackled up in Hammerhelm!  Once we, purify the Dojo, so to speak, I can start playing for an audience and my baritone-blowin' cousin won't have to pick up the slack!'
+'Bring me the gored tongue of the swamp troll, so that I know it is dead and fresh, and I will reward you.'
+~
+QA
+&N$n says 'Excellent, you did it!  The Hammerhelm crowd will once again enter the walls of the Hammer and Shield, where their fathers spent their time and so did their fathers!  It is a dwarven traditoin, here in Alatorin!'
+$n flashes a wicked grin and turns to $N.
+~
+R C 200000
+R E 100000
+G I 83322
+S
+#83301
+M
+qc_action 250~
+&N$n fries up a few juicy chunks of &+rbloody &+Yosquip &+Rflesh&N, &+ybrowning &Nthem to perfection.
+~
+MA
+hi hello~
+&NThe &n&+rcook &+Lsays 'Hello $N!  If yer here to try the &+Yosquip&N, we are runnin a little low!'
+~
+MA
+yes osquip osquips~
+&N$n nods at $N and says 'Well we are almost out.  Seems our supplier has gone out of commission.  Just look at all the osquips walkin around town, too!  It's prety frustrating, aye.  Could you help, $N?  Each freshly-killed osquip could probably yield enough for two steaks.  I'll give ya one free of charge if ya bring me a fresh one!'
+~
+QA
+&+LThe &N&+rcook &+Lsays 'Well done!'
+&+LAccepting the osquip, he quickly skewers it and moments later, it is cooked and ready to eat.
+~
+R I 120035
+G I 120051
+S
+#83302
+M
+qc_action 250~
+&N$n scans the area, his white caps blowing behind his graceful, yet stout dwarvish form.
+~
+MA
+hi hello~
+&NAfter a moment of glancing at $N, $n says 'It seems you have seen your fair share of blades in the day, perhaps you have saved any of these?  My name is $n, and I am interested in your swords.'
+~
+MA
+sword swords blade blades~
+&N$n says 'Your weapons truly are of great interest to me, and, perhaps, the ones you can 'gather' for me.'
+With a sigh, $n says 'You see $N, I am seeking to remove all weapons from this world so all dwarves can live in peace and harmony with each other.  Our people must control their blood, for our warriors have all but vanished as a result!  There is no more a need for us to bare arms.;
+&N$n continues 'There are a few particular weapons. I will give you a list of them..'
+&+WWinterhaven longswords, wielded by those fancy-looking watchman on the roads of Winterhaven.  Winterhaven should be the first to lower their swords.
+&+LOrcish-forged swords from those fowl Orcs of Shady Grove.  We have encountered spiritual orcs and believe that to turn the brutes, we must start with their brutish weapons.
+&+LOne of a member's official daggers of the crime group, the &N&+cVistani&+L.
+&+gThe straight-bladed swords of &+Gj&N&+ga&+Gd&N&+ge, wielded by the highlanders outside the Jade city.
+&+YSerrated &n&+ystone daggers, notoriously wielded by the caverns of the bandit camp of Evermeet, located on the tip of Neverwind Mountains.
+&+LBlack &N&+csteel &+Ldaggers, or blackened &n&+csteel&+L longswords from the rogues of Ceothia.
+&+LAnd finally, the adamantite weapons the githzerai are popularizing in this world again.  A.. well.. 'visit' to their Venan'Trut outpost revealed an array of adamantite weapons.
+&N'Return to me with any of these weapons and I will pay you for your assistance, $N' $n says, nodding his head.
+~
+MA
+ulster~
+&N$n looks at $N and says &+W'Ulster is a powerful warrior and a dwarf not to be reckoned with', chuckling.
+~
+QA
+&N$n says 'Excellent work, here you are!'
+~
+R C 25957
+G I 91049
+QA
+&N'Excellent work, here you are!'
+~
+R C 11682
+G I 44404
+QA
+&N$n says 'Excellent work, here you are!'
+~
+R C 11484
+G I 44407
+QA
+&N$n says 'Great work, here you is!'
+~
+R C 25602
+G I 44410
+QA
+&N$n says 'Great work, $N!'
+~
+R C 10200
+G I 80804
+QA
+&N$n says 'Thanks $N!'`
+~
+R C 13362
+G I 81403
+QA
+&N$n says 'Great work $N!  You did it!'
+~
+R C 9108
+G I 98505
+QA
+&N$n nods at $N.
+~
+R C 11088
+G I 43141
+QA
+&N$n says 'Way to go $N!'
+~
+R C 4434
+G I 500009
+QA
+&N$n says 'Thank you thanks thankie thank $N!'
+~
+R C 5594
+G I 97549
+QA
+&N$n says 'Glorious!'
+~
+R C 7782
+G I 80808
+S
+#83306
+MA
+hi hello~
+&N$n peers over at $N, his &+Ggreen &N&+geyes &+Lpiercing through the darkness with a faint &+Wsparkle&+L.
+~
+MA
+green eyes eye~
+&N$n grins at $N and says &+G'You have taken a liking to these eyes?  They did not start out as my own, you know..'
+As $n approachs, $N is overwelmed by the powerful presence of the dark &+Ydwarf&+L.
+&+G'What do you know of the precious rock called jade?'
+~
+MA
+jade~
+After some discussion between $n and $N about their experiences with jade, $n says 'The Jade Empire, as it has been called, or so I've overheard, by orcs on the Sea Stalker.'
+$n sighs, and continues &+G'I am not a violent man, $N, but the citizens of the Jade Empire are monopolizing this precious stone.  You are so impressed by these &+Geyes &Nbecause they are of a rock you so rarely see!'
+&+G'There are certain highlanders that patrol the island of &n&+gJade&+G.  These highlanders force out all excavation operations that are not immediately affiliated with the &N&+gJade &+GEmpire.  Well, it is unfortunate that it has come to this, but we have no choice but to force the weapons from the hands of these samurai and dismantle their threat to our projects,' $n says.
+&+G'I will reward you for each jade katana you recover from these highland samurai, $N' he says with a bow, and a solemn nod.
+~
+QA
+&n$n smiles and says 'Excellent work $N.  It is unfortunate that we have had to take these actions, but at least you did not harm them, right $N?'
+A deeply, &+Wgrave &Nlook sours $n's face.
+~
+R C 45000
+G I 43141
+S
+#83335
+M
+qc_action 200~
+&+LThrough the darkness, two &N&+rrred &+Leyes peer from the head of &N&+rKirrb Faktl.
+~
+MA
+hi hello~
+&N$n grins at $N and says in his raspy, low voice '&+rGreetings brother.  You look like you could be of some use to Clan Stealth Hunter.  How are you with those fiendish creatures, orcs?'
+~
+MA
+orcs orc~
+&N$n nods at $N and mutters '&+rFilthy creatures..&N'
+'&+rThere are some beastly orcs that lurk in a land unlike this.  A second realm, a &n&+ctwin world&N&+r!  There, in this strange realm, in the tallest most jagged peaks of the Alteran Mountains is a deep valley in which a tribe of &+Lorcs &N&+rlive in the brutal cold.&n'
+~
+MA
+frostsharn alteran twin worlds valley~
+&n$n grimmaces and continues '&+rFour of the FrostSharn orcs in Alteran Valley that roam the valley floor have disgraced my Clan and killed our brethren!  Riker Firstfang, Thresh Blackmane, Grimmar Stonebrow, and Axelon Clawgrip.. the hunters of the Alteran Valley.  Bring me their &+RHEARTS&N&+r, $N!'
+~
+QA
+&NA look of glee fills $n's eyes.
+~
+R I 83372
+R C 50000
+G I 78442
+G I 78443
+G I 78444
+G I 78445
+D
+&N$n mutters at $N 'Excellent.  Now that these foul orcs are killed, our conquest of the twin world will commense.  But how can I repay you?'
+&n$n ponders for a moment, and then pulls some goggles off his head lobe.
+&N'&+rTake this.&n'
+~
+S
+#83342
+M
+qc_action 300~
+&N$n &+Lslams a hammer onto a &+Wsil&+Cv&N&+cer dragonscale&+L forged upon a &N&+mmithril &+Cfaceplate&+L of a helmet.
+~
+M
+faceplate~
+&N$n chuckles at $N and says '&+CFaceplates are common amongst dwarven helmets, $N.'
+~
+MA
+silver dragon scale scales chromium dragonscales dragonscale~
+&n$n turns to $N, grins and says '&+WGreetings.  I will forge your tempered &+Mmithril &+Wleg plates, arm plates, breastplate, or helmet into a scaled masterpiece.'
+&NCracking his knuckles, $n continues '&+WI work in three types of scale - &Nc&+Wh&+Cr&+Rom&+Ci&+Wu&Nm &+Ldragon&N&+cscale&+W, which can be found amongst the rare chromium dragons around the realms, special &+Wsil&+Cv&N&+cer dragonscales &+Wfound from the &+Csilver dragons &+Wof &N&+yShan&+La&n&+yt&+La&N&+yr&+W, as well as common &+Ldragon scales &+Wfound on any dragon.'
+&N$n spits on his hands, rubs them together, and grips his hammer.
+&+W'I forge these scales with my hammer, here, onto tempered mithril that Steelgrip makes.'
+~
+MA
+hi hello~
+&N$n says '&+WGreetings.  With a piece of &N&+mte&+Mmp&N&+mer&N&+med mithril &+Warmor and some particular &+Ldragon&N&+csc&+Lal&N&+ces&+W, I can forge you some very powerful equipment.'
+~
+M
+forge equipment mithril breastplate platemail arm leg plates helmet~
+&n$n nods at $N and says &+W'Simply give me one of the following:
+&+Mso&N&+mme te&+Mmper&N&+med &+Cmithril &n&+ma&+Mrm plates&N
+&+Mso&N&+mme te&+Mmper&N&+med &+Cmithril &N&+ml&+Meg plates&N
+&+Ma &N&+mtemp&+Mered &+Cmithril &+Mhel&N&+cmet&N
+&N&+ma te&+Mmp&N&+mer&+Med &+Cmithril &N&+mbr&+Mea&N&+mst&+Mpl&N&+mate&N
+
+&+W...and one of the following:
+&+Lsome &+Wc&Nh&+Cr&+Rom&+Ci&+Wu&Nm &+Ld&+Cr&+La&+Cg&+Lo&+Cn&n&+cscales&N
+&+Wsome sil&+Cv&N&+cer dragonscales&N
+&+La dragon scale&N
+
+&+W...and 500 platinum coins for my smithing fee, and I will imbue that &N&+mmi&+Mthr&N&+mil &+Warmament with that &+Ldragon&+Cs&N&+cc&+Ca&N&+cl&+Ce&+W.
+~
+MA
+steelgrip~
+&N$n smiles at $N and says &+W'Steelgrip saved my life during the fourth war of &N&+yShan&+La&N&+yt&+La&N&+yr&n.  &+WIt was in the smelting chamber though, that I saw his true powers.'
+~
+M
+qc_action 300~
+&n$n &+Lholds a piece of &N&+mte&+Mmper&N&+med &+Cmithril &+Lemblazoned with &n&+csil&+Cver &N&+cdragonscales &+Lhigh in admiration.
+~
+MA
+blacksmith smith~
+&N$n nods at $N and says &+W'You may have heard of me for my dragonscale craft.'
+~
+QA
+&N$n takes the &+Wscales &N&+mand tosses the &+Cmithril &N&+marmor &ninto the forge.
+~
+R I 83312
+G I 83313
+G C 500000
+G I 83189
+QA
+&N$n &+Rsmelts the &+mmithril&+L, emblazoning it with the &+Wscales&+L.
+~
+R I 83311
+G I 83313
+G C 500000
+G I 83188
+QA
+&N$n smelts the &N&+mtempered &+Cmithril&+L, emblazoning it with &+Cdragonscales.
+~
+R I 83211
+G I 83313
+G C 500000
+G I 83191
+QA
+&N$n smelts the &N&+mtempered &+Cmithril&+L, and emblazons it with &+Cdragonscales.
+~
+R I 83210
+G I 83313
+G C 500000
+G I 83190
+QA
+&n$n melts down the &+Csilver &+Land emblazons it with &+Cthe dragonscales.
+~
+R I 83378
+G I 83377
+G C 500000
+G I 83190
+QA
+&N$n melts down the &+Csilver &Nore a bit and &+Lemblazons it with &+Cdragonscale.
+~
+R I 96021
+G I 83377
+G C 500000
+G I 83191
+QA
+&N$n smelts down the &N&+csilver &+Land emblazons it with &+Cdragonscales.
+~
+R I 83380
+G I 83377
+G C 500000
+G I 83189
+QA
+&N$n melts down the &+mmithril and emblazons it with &+Cdragonscales.
+~
+R I 90018
+G I 83377
+G C 500000
+G I 83188
+QA
+&N$n smelts the mithril and emblazons it with a few dragonscales.
+~
+R I 83382
+G I 392
+G C 500000
+G I 83191
+QA
+&N$n smelts the mithril and &+Lemblazons it with the dragonscales.
+~
+R I 83381
+G I 392
+G C 500000
+G I 83190
+QA
+&N$n smelts the mithril and &+Lemblazons it with the &+Cdragonscales.
+~
+R I 83383
+G I 392
+G C 500000
+G I 83189
+QA
+&N$n smelts the mithril and &+Lemblazons it with &+Cdragonscales.
+~
+R I 83384
+G I 392
+G C 500000
+G I 83188
+S

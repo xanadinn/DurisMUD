@@ -1,0 +1,1164 @@
+#2730
+&+gApproaching a&n &+LMassive Iron Portcullis&n~
+&+g   A dirt road cuts through the area heading off east into the countryside&n
+&+gand west towards a massive walled city.  Thick plumes of dark smoke are&n
+&+grising steadily from behind the walls as if something were burning almost&n
+&+gcontinuously.  A thick smell of sulfur also invades the nostrils as a fresh&n
+&+gbreeze rises from the west.  Bones on the side of the road seem to indicate&n
+&+gthat this is most definitely not a safe place to have a picnic.&n
+~
+27 4 2
+D0
+~
+~
+0 0 595783
+D3
+~
+~
+0 0 2731
+S
+#2731
+&+gBefore a&n &+LMassive Iron Portcullis&n~
+&+g   A huge iron portcullis has been erected as a gateway into and out of the&n
+&+gcity of Zalkapfaan.  A team of several experienced mages took three months&n
+&+gto complete the intricate workings that operate the device, although it&n
+&+gworks exactly as required.  A simple turn of a key now raises the portcullis&n
+&+galmost instantly, a device which weighs several tonnes and would require&n
+&+gnormally a team of twenty draft horses to accomplish.&n
+~
+27 1216380996 1
+D1
+~
+~
+0 0 2730
+D3
+~
+portcullis~
+3 2732 2732
+S
+#2732
+&+gThe Central Intersection of&n &+LZalkapfaan&n~
+&+g   This large and expansive intersection marks the crossing of the two major&n
+&+groads of Zalkapfaan.  One runs from the giant magical portcullis int the&n
+&+geast to some gigantic buildings in the west.  The other road seems to lead&n
+&+gto an immense wharf in the north and to a small gathering of canvas tents&n
+&+gto the south.  The roads themselves are filthy and cracked, and several&n
+&+glarge holes are visible from missing rocks in the cobblestone.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2733
+D1
+~
+portcullis~
+2 2732 2731
+D2
+~
+~
+0 0 2744
+D3
+~
+~
+0 0 2754
+S
+#2733
+&+YApproaching the Docks of&n &+LZalkapfaan&n~
+&+g   The road continues from the south before ending at the footsteps of a&n
+&+gmassive oaken wharf.  The construction methods used seem to be several times&n
+&+gmore extensive than any other wharf, as if designed to hold immense loads&n
+&+gof weight on them.  Unlike the roads the dock is in immaculate condition&n
+&+gand has been kept under excellent maintenance for the duration of its&n
+&+gexistence.  The result is a structure well worn from use but no less in its&n
+&+gfunctionality from the time it was created.&n
+~
+27 142639172 1
+D0
+~
+~
+0 0 2734
+D2
+~
+~
+0 0 2732
+S
+#2734
+&+YThe Huge Oaken Docks of &+LZalkapfaan&n~
+&+y   The massive oaken planks of the wharf are well worn with the constant&n
+&+yshuffling of soldiers and supplies as the fleet prepares for another naval&n
+&+yinvasion of its enemies.  Crates of supplies are stacked up neatly in&n
+&+ypiles along the side, and thick ropes along the side of the dock keep&n
+&+ysupplies from being pushed over the side by heavy waves.  Many of the&n
+&+ycrates are waterlogged as if having been in the water at some point,&n
+&+yalthough their solid construction has kept any of the contents from being&n
+&+yexposed to the corrosive sea water.&n
+~
+27 142639168 1
+D0
+~
+gangplank plank~
+1 0 2735
+D2
+~
+~
+0 0 2733
+D3
+~
+~
+0 0 2738
+S
+#2735
+&+cThe Main Deck of a Massive&n &+BTrireme&n~
+&+b   This massive vessel is the flagship of the fleet, designed to carry over&n
+&+bthree hundred soldiers from one port to another.  While it has little of the&n
+&+bweaponry found on other vessels it is always under maximum protection due&n
+&+bto its carrying the commodore of the flotilla.  The decks of the ship are&n
+&+bscrubbed meticulously clean, although the cleaning cannot conceal dark&n
+&+bsplotches that appear to be from a great deal of blood being spilt onboard.&n
+~
+27 142639168 1
+D1
+~
+door~
+1 0 2736
+D2
+~
+gangplank plank~
+1 0 2734
+D3
+~
+~
+0 0 2737
+S
+#2736
+&+cThe Captain's Cabin Aboard a Massive&n &+BTrireme&n~
+&+b   Large and spacious, this room serves a double purpose.  Its large table&n
+&+band extensive collection of maps allow it first of all to serve as the&n
+&+bplannig center for the commodore and his officers for the operations of the&n
+&+bfleet as it sails about the world.  Its second purpose is that of a state-&n
+&+broom for the commodore himself, and a large rack has been erected along one&n
+&+bwall.  A large window in the rear allows a fantastic view of the area,&n
+&+balthough it is surprisingly vulnerable to attack from without.&n
+~
+27 142639176 0
+D3
+~
+door~
+1 0 2735
+S
+#2737
+&+cAn Archery Station on the Bow of a Massive&n &+BTrireme&n~
+&+b   Lacking the large ballistas of the other ships, this vessel none-the-less&n
+&+bhas its own means of defense.  A huge archery platform has been constructed&n
+&+bhere, and is doubtlessly manned by the finest shots in the fleet.  While&n
+&+blacking the heavy punch of the bigger weapons, the sheer number of arrows&n
+&+band bolts capable of being launched from here is enough to decimate the&n
+&+branks of an opposing ships crew.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2735
+S
+#2738
+&+YAlong the Huge Oaken Docks of&n &+LZalkapfaan&n~
+&+y   Thick lines of rope lie coiled in neat piles alongside the dock, used by&n
+&+ythe sailors in the fleet to move supplies from the docks to the ships of the&n
+&+yinvasion fleet.  The flotilla of warships is currently in port, being&n
+&+yprepared for yet another attack by sea.  The massive vessels are the work&n
+&+yof many years construction, although a drydock or other construction&n
+&+yfacility is nowhere in sight.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2734
+D3
+~
+~
+0 0 2739
+S
+#2739
+&+YA Turn in the Huge Oaken Docks of &+LZalkapfaan&n~
+&+y   The large oaken wharf takes a sharp turn here, necesary in order to allow&n
+&+yspace in the harbour for the giant warships currently docked.  The harbour&n
+&+yitself is secluded from the rolling seas, but the occasional heavy wave&n
+&+ycrashes noisily upon the dock.  Safety lines lead from the dock and are&n
+&+yavailable in case anyone falls into the deep blue waters below.  Small&n
+&+ypieces of driftwood float lazily upon the waters below.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2740
+D1
+~
+~
+0 0 2738
+S
+#2740
+&+YA &+yWeapons Storage Depot&n &+Yon the Docks of&n &+LZalkapfaan&n~
+&+y   A large hut at the end of the wharf contains most of the supplies&n
+&+ycurrently scheduled for loading onto the warfleet, and include items ranging&n
+&+yfrom the mundane to the exotic.  Lines of weapons are leaned neatly against&n
+&+ythe walls barrels of fresh water are nearby for the long journeys among the&n
+&+ysalty sea water of the ocean.  Crates of salted beef are also stacked here,&n
+&+yas well as kegs of ale for the sailors of the fleet.&n
+~
+27 142639168 1
+D2
+~
+~
+0 0 2739
+D3
+~
+gangplank plank~
+1 0 2741
+S
+#2741
+&+cLoading Dock of a Titanic&n &+BWar Galley&n~
+&+b   This vessel is designed for one primary purpose: the utter destruction&n
+&+bof any ship that dares face it in naval combat.  Loaded to the gunwhales &n
+&+bwith enough weaponry to siege a castle it has been used to both sink naval&n
+&+bcrafts and attack shore based installations from the safety of the seas.&n
+&+bThe long lines of oars on the side indicate that many slaves are required&n
+&+bto propel it, although with its firepower obtaining slaves is not a problem.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2743
+D1
+~
+gangplank plank~
+1 0 2740
+D2
+~
+~
+0 0 2742
+S
+#2742
+&+cAn Enormous Ballista at the Stern of a&n &+BWar Galley&n~
+&+b   A fascinating device on the rear of the ship allows the huge crossbow-&n
+&+blike ballista to be swiveled so that it can be fired to either port or&n
+&+bstarboard as well to the stern.  Many sets of blocks and tackles rig lines&n
+&+bthat the sailors can pull to exactly position the elevation and direction&n
+&+bof the war engine, and a well trained crew has been drilled repeatedly in&n
+&+bits operation as a killing device.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2741
+S
+#2743
+&+cA Huge &+LIron Ramming Spike&n &+con the Bow of a &+BWar Galley&n~
+&+b   The front of this ship is curiously devoid of weaponry, save a large iron&n
+&+bramming spike attached to the bow.  Firmly rooted to the heavy ship the&n
+&+bspike can crush a ship in two when struck at full speed.  Large scorch marks&n
+&+bon the planking betray the use of magic nearby, and intricate symbols have&n
+&+bbeen carved into most of the wood.  Perhaps the weaponry here is less&n
+&+bmundane than expected but no less deadly ..&n
+~
+27 142639168 1
+D2
+~
+~
+0 0 2741
+S
+#2744
+&+gApproaching the Soldiers Camp of&n &+LZalkapfaan&n~
+&+g   The cobblestone road fades into grass and dirt, hard-packed ground from&n
+&+gthe constant running of an army across it.  The road is rutted like most&n
+&+gdirt thouroughfares however instead of the usual two wagon tracks there are&n
+&+gten ruts from well-disciplined legions of troops marching side by side in&n
+&+gperfect drill form.  A rotting corpse on the side of the road is still&n
+&+gdressed in the uniform of the local militia, it appears not everyone can&n
+&+gkeep up with the regorous training regimen.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2732
+D2
+~
+~
+0 0 2745
+S
+#2745
+&+gA Fork in the Road Through the Soldiers Camp of &+LZalkapfaan&n~
+&+g   The well-worn dirt road splits in two here, branching off to the south&n
+&+gtowards some ramshackle buildings, and west to what appears to be some sort&n
+&+gof construction facility.  To the north looms the large buildings of the&n
+&+gmain part of the city, and the masts of several ships in the harbour can&n
+&+gbe seen plainly.  Most of the plantlife here has been killed, trodden by&n
+&+gthe relentless training of the headless horde.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2744
+D2
+~
+~
+0 0 2748
+D3
+~
+~
+0 0 2746
+S
+#2746
+&+gA Massive&n &+YConstruction Yard&n &+gfor Assembling&n &+LWar Engines&n~
+&+g   Neat stacks of thick lumber are piled along the side of the road here,&n
+&+gand barrels full of various sundry building materials are stacked nearby.&n
+&+gSeveral war engines are in various states of construction as the technical&n
+&+gbranch of the army builds its siege machines.  Ballistas, catapults, siege&n
+&+gtowers, and battering rams are all built here before being taken along on&n
+&+gthe many invasions.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2745
+D3
+~
+~
+0 0 2747
+S
+#2747
+&+gA Massive&n &+LQuarry&n &+gat the Edge of&n &+LZalkapfaan&n~
+&+g   A great gaping pit in the side of the hill shows where the headless get&n
+&+gthe ammunition for their catapults and rocktossers.  The rock is also used&n
+&+gfor the construction of the bigger buildings in town like the cathedral, and&n
+&+gof course a sizable amount was used in the making of the keep, visible in&n
+&+gthe distance.  The slippery shale combined with the thick haze in the air&n
+&+gcombine to make very dangerous working conditions for the quarrymen.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2746
+S
+#2748
+&+gA Drill Area in the&n &+LSoldiers&n &+gCamp&n~
+&+g   This parade ground is used for a variety of purposes, not the least of&n
+&+gwhich is the grueling battle practices.   Entire units engage others in&n
+&+gfights that while ostensibly are for training, often end in bloody messes&n
+&+gwith one side decimated permanently.  This, while quite gruesome, weeds out&n
+&+gthe weak from the army, and has thus been largely ignored by the commanding&n
+&+gofficers of the militia.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2745
+D2
+~
+~
+0 0 2751
+D3
+~
+~
+0 0 2749
+S
+#2749
+&+gA Large Sprawling&n &+YObstacle Course&n~
+&+g   A grueling obstacle course has been laid out here, complete with traps&n
+&+gdesigned to reward the vigilant and obliterate the stupid and weak.  Pits&n
+&+gfilled with thick wooden stakes are swung over on ropes, and several impaled&n
+&+gcorpses attest to the difficulty of the feat.  Another obstacle consists of&n
+&+ga large tank filled with piranha, and a small slip in balance results in a&n
+&+gsplash, an explosion of watery fury, and a slowly spreading red haze.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2748
+D3
+~
+~
+0 0 2750
+S
+#2750
+&+gA Boulder Tossing Target Range in the &+LSoldiers Camp&n~
+&+g   A large target range has been constructed here for the sole purpose of&n
+&+gtraining the elite rocktosser units of the army.  Large granite rocks are&n
+&+gselected for weight as well as size and grip, and are hurled about with&n
+&+gdeadly accuracy.  Several large stakes have been driven into the ground,&n
+&+gand slaves and prisoners have been tied to them to give the troopers a feel&n
+&+gfor aiming at live targets.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2749
+S
+#2751
+&+gA Sparring Arena Within the &+LSoldiers Camp&n~
+&+g   Designed for one-on-one combat, this small arena is covered in dark&n
+&+gsplotches from where fights have gotten overly violent.  Since brutality&n
+&+gand excessive use of violence is a quality thought highly of in the horde&n
+&+gthis is allowed to continue.  A large corpse in the side of the arena is&n
+&+gslowly being picked to pieces by a small flock of black birds, the wounds&n
+&+gcausing the fatality lost to the ravages of time and nature.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2748
+D2
+~
+door~
+1 0 2753
+D3
+~
+~
+0 0 2752
+S
+#2752
+&+gA Stinking Messhall within the &+LSoldiers Camp&n~
+&+g   Grime has accumulated in every corner of this tent, and thick grease&n
+&+gstains run down the heavy canvas walls.  A large vat in the corner bubbles&n
+&+gslowly, and heavy iron ladles are nearby.  Even headless require sustenance,&n
+&+gand this is accomplished by pouring hot liquid gruel down the gaping holes&n
+&+gin their necks.  A rank odor from outside the tent indicates what happens&n
+&+gto the gruel after consumption is no different than from normal beings.&n
+~
+27 142639176 0
+D1
+~
+~
+0 0 2751
+S
+#2753
+&+gAn Enormous Barracks within the&n &+LSoldiers Camp&n~
+&+g   Unlike the rest of the tents this one is kept in immaculate condition,&n
+&+gprobably more from fear of punishment than any cleanliness habits of the&n
+&+ginhabitants.  Several rows of racks in the immense tent are stacked two high&n
+&+gand covered in thick woolen robes.  Iron footlockers at the end of each rack&n
+&+gare wide open, and it is clear nothing of value is kept inside.&n
+~
+27 142639176 0
+D0
+~
+door~
+1 0 2751
+S
+#2754
+&+gAlong the Central Avenue of&n &+LZalkapfaan&n~
+&+g   The immense boulevard stretches from the gates in the east westward,&n
+&+gcurving south in the distance towards a massive black-rock keep.  The small&n
+&+gstones used in the road are well-orn from both the passage of wagons, as&n
+&+gwell as the endless marching of the army.  The gutters on the side of the&n
+&+groad are filled with viscous yellow liquid, acrid with small tendrils of&n
+&+gsteam rising off.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2755
+D1
+~
+~
+0 0 2732
+D2
+~
+~
+0 0 2756
+D3
+~
+~
+0 0 2757
+S
+#2755
+&+gA Massive &+LIron Foundry&n &+gfor Forging Weapons and Armor&n~
+&+g   Sweltering heat from the forges blasts out in waves as the headless&n
+&+gartisans craft the armor and weapons for the next invasion.  Piles of sword&n
+&+gblanks are on one side while at the other are neatly arranged final versions&n
+&+gof weaponry.  Pieces of armor are also stacked here and there, with&n
+&+gseemingly no order to the arrangement.  A large funnel clears smoke out of&n
+&+gthe room, although why smoke would bother the headless is debatable.&n
+~
+27 142639176 0
+D2
+~
+~
+0 0 2754
+S
+#2756
+&+gThe &+cBounty Office&n &+gof &+LZalkapfaan&n~
+&+g   This large room is decorated with many trophies of conquest, being mainly&n
+&+gthe skulls of the races that the headless have enslaved or killed.  An&n
+&+gentire wall is devoted to human ears, with over eight hundred pairs nailed&n
+&+gto the wall.  Other races on display range from grey elves and dwarfs to&n
+&+gorcs and drow elves, to tentacles of the dreaded illithids.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2754
+S
+#2757
+&+gAlong the Central Avenue of&n &+LZalkapfaan&n~
+&+g   This huge road travels from one end of the city to the other, and every&n
+&+gbuilding is on a road that leads off of it.  From the soldiers camps and&n
+&+gnaval docks in the east to the cathedral and keep in the west, everything is&n
+&+gvisible from here.  The road itself is thick, heavy cobblestone, with two&n
+&+gsmall gutters on the side.  These gutters contain a viscous yellow liquid&n
+&+gthat boild and sends off small tendrils of steam.&n
+~
+27 142639168 1
+D0
+~
+~
+0 0 2759
+D1
+~
+~
+0 0 2754
+D2
+~
+~
+0 0 2758
+D3
+~
+~
+0 0 2767
+S
+#2758
+&+LA&n &+rBurned Out&n &+LGranite Building&n~
+&+L   Once a fine showroom, this building is now a scarred hulk.  An immensely&n
+&+Lhot fire raged through here, and it is said that this is where a small group&n
+&+Lof fire giants made their last stand after being captured and escaping.&n
+&+LHowever, there is no mercy in Zalkapfaan, and several battlemages were&n
+&+Lbrought in to destroy the building.  A massive ice storm was created that&n
+&+Lrained down upon the building for several days, then the building exploded&n
+&+Lmysteriously, leveling the building.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2757
+S
+#2759
+&+gA Cobblestone Road Leading off the Main Avenue of &+LZalkapfaan&n~
+&+g   This small path leads off of the main avenue of the city, and takes a&n
+&+gturn towards a large stone building to the west.  From here it seems as if&n
+&+gthe building actually absorbs light, the rock dull and flat.  A single large&n
+&+gspire can be seen rising off the building, towering incredibly high into&n
+&+gthe sky.  A look to the south shows the rest of the city, the giant keep&n
+&+gin the distance, and the soldier camp as well.&n
+~
+27 142639172 1
+D2
+~
+~
+0 0 2757
+D3
+~
+~
+0 0 2760
+S
+#2760
+&+LBefore a Massive Stone-Rock&n &+cCathedral&n~
+&+L   Incredibly immense, this cathedral towers off into the sky with its huge&n
+&+Lgranite spire.  The dark rock of the cathedral is dull and cracked, and&n
+&+Lseems to draw in light, capturing it into he very essence of the building,&n
+&+Lin way that warps and distorts the light reflected.  The massive oaken gate&n
+&+Lis heavily charred, although still quite strong.  A look at the the door&n
+&+Lshatters any hope of smashing it down, however no lock is visible.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2759
+D3
+~
+door~
+1 0 2761
+S
+#2761
+&+cA&n &+rBloodied Altar&n &+cWithin the &+LCathedral&n~
+&+L   A dark room, the area is dominated by a giant altar in the center.  Dark&n
+&+Lstreaks of red run down the dark iron sides, and a small pool of blood on  &n
+&+Lthe top of the altar indicates it gets used quite frequently.  The surface &n
+&+Lof the altar is covered with heavy scratches, as if something tried to claw&n
+&+Lits way off -or onto- the altar.  Several small receptacles are designed to&n
+&+Lfill with blood as the sacrificial rites commence, but are empty now.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2762
+D1
+~
+door~
+1 0 2760
+D2
+~
+~
+0 0 2766
+S
+#2762
+&+cApproaching the shrine to &+rKaan&n~
+&+L   Dark and gloomy, this corridor leads to misery.  A pulsing red flash at&n
+&+Lthe west end of the hall shifts in and out of the visible spectrum so slowly&n
+&+Las to be hardly noticeable.  The walls are greasy and slick to the touch, and&n
+&+Ldried pool of blood in the corner says violence has been done here recently.&n
+&+LThe spinal column of some poor humanoid hangs from the wall.&n
+~
+27 142639176 0
+D2
+~
+~
+0 0 2761
+D3
+~
+~
+0 0 2763
+S
+#2763
+&+cA Pagan Shrine to&n &+rKaan&n~
+&+r   A large statue lies in the center of the room, a figure of misery and&n
+&+rfear.  The dark red jaws of the statue seem ready to snap and the bloody&n
+&+rcrimson eyes pulse slowly as if something is alive inside.  The shrine seems&n
+&+rready to awaken, the room itself alive with the emotions of hatred.  Small&n
+&+rpools of blood about the room are still damp, not yet coagulated or dry.&n
+~
+27 142901320 0
+D1
+~
+~
+0 0 2762
+D2
+~
+door~
+3 2749 2764
+S
+#2764
+&+mThe Last Bastion of&n &+CLost Souls&n~
+&+c   A very neat and tidy room, this area has what seems at first to be a&n
+&+cstiff breeze, but upon closer inspection are wisps of life itself.  The&n
+&+cshadowy figures dart about, low moans emanating from them, as if some&n
+&+cgrievious wrong has been committed here or nearby.  Dull wisps of smoke&n
+&+cdrift around near the floor and a single candle burns dimly.  A piece&n
+&+cof writing on the wall is dedicated to the worship of the&n &+CTwo-Faced God.&n
+~
+27 142639176 0
+D0
+~
+door~
+3 2749 2763
+D2
+~
+door~
+3 2750 2765
+D3
+~
+wall malra-kaan~
+7 -2 2783
+E
+two faced god two-faced~
+&+L    ...two-fac...  . ... omposed of both Gods.  The rite of joini..  ... ..&n
+&+L    ith the Blessing of Malra herse..  ...  . and the Rage of Kaan. ..  . .&n
+&+L    Togethe.. .he gods are superi..  . ..  gether they are the two-fac.. od&n
+~
+S
+#2765
+&+cA Corrupted Shrine to &+WMalra&n~
+&+W   A large ivory statue in the center of the groom glows brightly, a slight&n
+&+Whaze of brilliant white light around it.  The face on the statue is one of &n
+&+Wextreme peace and contentment, although the garb worn by the figure is&n
+&+Wcracked and chipping in places.  Several oil sconces on the walls provide&n
+&+Willumination to the shrine, and as a whole the area is very well kept.&n
+~
+27 142770248 0
+D0
+~
+door~
+3 2750 2764
+D1
+~
+~
+0 0 2766
+S
+#2766
+&+cApproaching the Shrine to&n &+WMalra&n~
+&+C   Suprisingly clean, this hall takes a sharp bend to the west, where a&n
+&+Cwell-lit room in the distance can be seen.  The tiles of the corridor are&n
+&+Cshiny and buffed to a neat shine, and the walls are free of any dirt or&n
+&+Cgrease spot.  A small trickle of blood flows in from the altar to the north&n
+&+Csoiling what otherwise would be a remarkably nice room.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2761
+D3
+~
+~
+0 0 2765
+S
+#2767
+&+gBefore the &+yDrawbridge&n &+gof a Huge&n &+LGranite Keep&n~
+&+g   The central road of Zalkapfaan ends here before a massive drawbridge.&n
+&+gJust beyond the drawbridge lies the huge granite keep, a foreboding and &n
+&+gimposing sight.  A large banner can be seen flapping in the breeze over &n
+&+gthe keep, a conglomeration of crimson and black in a violent pattern with&n
+&+gmany sharp angles.  Several pikes are also driven into the ground, each&n
+&+gwith the head of a humanoid on it, those deemed unworthy of becoming a&n
+&+gmember of the headless horde.&n
+~
+27 142639168 1
+D1
+~
+~
+0 0 2757
+D2
+~
+~
+0 0 2768
+S
+#2768
+&+gAtop a Great&n &+YOaken Drawbridge&n &+gin Front of the Huge&n &+LGranite Keep&n~
+&+y   A full eighty yards across, this drawbridge crosses the murky water&n
+&+ybelow.  In times of war the drawbridge is closed due to several attempts&n
+&+yin the past to infiltrate the area with magically diguised spies.  It is&n
+&+ysaid that several creatures have added to the moat to ensure no-one is&n
+&+yfool-hardy enough to try swimming across it.  On the south side of the&n
+&+ydrawbridge lies the enormous gates allowing entry into the keep.&n
+~
+27 142639172 1
+D0
+~
+~
+0 0 2767
+D2
+~
+gate~
+3 2767 2771
+D3
+~
+~
+0 0 2769
+S
+#2769
+&+bIn the Murky Moat Outside the&n &+LKeep&n~
+&+b   The dark blue waters of the moat roll heavily, and small chunks of&n
+&+brubbish are tossed around easily.  The water itself smells of sewage,&n
+&+bperhaps the headless use it for more than simply defense.  To the east&n
+&+blies the drawbridge to the keep, while to the west is a haze of fog, a dull&n
+&+bthrobbing emanating from it.&n
+~
+27 142639168 6
+D1
+~
+~
+0 0 2768
+D3
+~
+~
+0 0 2770
+C
+15 3
+S
+#2770
+&+bIn the Murky Moat Outside the&n &+LKeep&n~
+&+b   A dark blue haze settles over the moat here although from where the haze&n
+&+bemanates is not obvious.  The water itself rolls heavily, and the bones of&n
+&+ban unfortunate soul are on the north bank.  A bloated, half-eaten corpse&n
+&+bbobs about, the upper torso snapped off by one of the creatures of the moat.&n
+&+bA small pipe from the keep has raw sewage flowing from it, the smell quite&n
+&+bawful, even with the stench of death about.&n
+~
+27 142639168 6
+D1
+~
+~
+0 0 2769
+S
+#2771
+&+yA Dark and Gloomy Hallway Within the&n &+LKeep&n~
+&+y   This dank and dark hallway stretches down from one end of the keep to the&n
+&+yother, snaking around many corners.  The dark rock walls glisten with some&n
+&+ysort of moisture, not water, something darker, thicker.  The solid rock&n
+&+yfloor is well-worn from the endless patrols of the guards and the ceiling&n
+&+yis covered in the cobwebs of a host of arachnids.&n
+~
+27 142639176 0
+D0
+~
+gate~
+3 2767 2768
+D3
+~
+~
+0 0 2772
+S
+#2772
+&+yAlong the Dark Hallway Within the&n &+LKeep&n~
+&+y   The hallway contines deeper into the keep, the floor grimy and muddy from&n
+&+ythe tracks of the patrolling guards.  A large mass of piping runs along the&n
+&+yceiling and the sounds of fluids running within them can be clearly heard.&n
+&+ySeveral large oil sconces provide illumination for the area, the shadows&n
+&+ydancing wildly across the hall.&n
+~
+27 142639176 0
+D1
+~
+~
+0 0 2771
+D3
+~
+~
+0 0 2773
+S
+#2773
+&+yA Sharp Bend in the Hallway Within the&n &+LKeep&n~
+&+y   The filthy hallway takes a sudden turn here, breaking sharply as it heads&n
+&+ydeeper into the bowels of the large keep.  Many of the oil sconces on the&n
+&+ywalls are extinguished, and those that are still lit provide little in the&n
+&+yway of illumination.  Several ratty tapestries adorn the walls, and a statue&n
+&+yof a beautiful maiden has been defaced, literally, as the ivory head has&n
+&+ybeen ripped off the beautiful shoulders.&n
+~
+27 142639176 0
+D1
+~
+~
+0 0 2772
+D2
+~
+~
+0 0 2774
+S
+#2774
+&+yOutside a Pair of Massive&n &+YOaken Doors&n~
+&+y   The normally filthy hallway seems cleaner here than elsewhere, as the&n
+&+yhallway approaches a massive set of oaken doors.  The massive wooden planks&n
+&+yused for the door are precisely cut, resulting in a door as solidly built&n
+&+yas is possible discluding the use of magic.  Unlike the rest of the hallway&n
+&+yvery few footprints lead through the doors, marking it as an area of much&n
+&+yless traffic than the others.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2773
+D1
+~
+door~
+3 2773 2782
+D2
+~
+~
+0 0 2775
+S
+#2775
+&+yA Sharp Turn Within the Hallway in the&n &+LKeep&n~
+&+y   The hallway takes another sharp turn here, its corridors dark and musky&n
+&+ywith a think, rank smell.  Several tracks in the grime indicate something, &n
+&+yor someone, has been dragged through here recently, and another set of&n
+&+ytracks are from some sort of beast with more than four legs.  The oil flasks&n
+&+ydimly light the area, casting flickering shadows upon the entire area.&n
+~
+27 142639176 0
+D0
+~
+~
+0 0 2774
+D1
+~
+~
+0 0 2776
+S
+#2776
+&+yA Long Hallway in the&n &+LKeep&+y, Doors on Both Sides&n~
+&+y   The hallway narrows here, and several large oaken doors on each side lead&n
+&+yto rooms within the keep.  The doors are made of solid planks of thick oak,&n
+&+ythe kind usually reserved for boat building.  A large crystal chandelier&n
+&+yhangs from the ceiling here, although none of its candles are lit.&n
+&+yWhether this means the headless have some other means of sight beyond the&n
+&+ypurely visual is pure speculation.&n
+~
+27 142639176 0
+D0
+~
+door~
+3 2773 2782
+D1
+~
+~
+0 0 2777
+D2
+~
+door~
+1 0 2780
+D3
+~
+~
+0 0 2775
+S
+#2777
+&+yEnd of a Dark and Gloomy Hallway Within the&n &+LKeep&n~
+&+y   The dark hallway comes to an abrupt end here, with two thick doors on&n
+&+yeach side of the corridor.  Large scratch marks adorn each door, and a thick&n
+&+yputrid smell emanates from behind them mingled with a scent of death.  The&n
+&+ystone of the side walls is the same as that used for the internal walls of&n
+&+ythe keep, however the end wall is composed of the dark granite of which&n
+&+ythe outer walls of the keep are made up of.&n
+~
+27 142639176 0
+D0
+~
+door~
+1 0 2778
+D2
+~
+door~
+1 0 2779
+D3
+~
+~
+0 0 2776
+S
+#2778
+&+LA Training Pit for the&n &+CXorn&n~
+&+c   Used as the Xorn training area, this is where mature Xorn are taught the&n
+&+ccombat techniques they use when in combat with the headless.  Several large&n
+&+ctargets are scattered about the area, all showing incredible bit marks and&n
+&+call nearly torn in half by the mighty muscles of a Xorn.  A large wooden&n
+&+cstump in the middle of the room is used by the Xorn to vent their anger&n
+&+capon, as often their are not enough slaves to provide live sport for all of&n
+&+cthe trainees.&n
+~
+27 142639176 0
+D2
+~
+door~
+1 0 2777
+S
+#2779
+&+LA Putrid&n &+CXorn&n &+LNest&n~
+&+c   This room reeks of death, pure concentrated death.  Used as a nest for&n
+&+cthe Xorn queens, several dozen hatchlings a year are raised here until they&n
+&+care near the age where they can start to be trained.  Their ferocious&n
+&+cinstincts are enough to guide them through this time as they savagely&n
+&+cdevour anything that cannot defend itself.  Judging by the many large piles&n
+&+cof bones they are fed all too often, and their food is not always dead&n
+&+cwhen it served.&n
+~
+27 142639176 0
+D0
+~
+door~
+1 0 2777
+S
+#2780
+&+gOutside the&n &+CForce Commander&+g's Study~
+&+C   This room is filled with fine, luxurious furniture, the finest of which&n
+&+Cis a large cedar table, covered in maps and scrolls.  Used as a meeting area&n
+&+Cfor those the force commander deems worthy of meeting with, entry into this&n
+&+Croom is viewed as a sign of extreme prestige and rank by the normally&n
+&+Cpolitically inert headless.  To the west is a large door, framed in a&n
+&+Cglowing purple light of obvious magical origin.&n
+~
+27 142639176 0
+D0
+~
+door~
+1 0 2776
+D3
+~
+door kal-zerr~
+3 -2 2781
+S
+#2781
+&+gThe&n &+CForce Commander&+g's Personal Study&n~
+&+c   Used as a study area for the force commander, currently Kal-Zerr, this&n
+&+carea is covered with various books and scrolls.  How the headless read these&n
+&+cartifacts is not immediately clear, although in all probability the use of&n
+&+csome sort of magic is required, be it clerical or sorcerous.  Several&n
+&+cimpressive war trophys adorn the walls of the study, a shriveled grey elf&n
+&+chead here, an dessicated ogre face there, and many others besides.&n
+~
+27 142639176 0
+D1
+~
+door kal-zerr~
+3 -2 2780
+S
+#2782
+&+gA Massive&n &+rWar-Room&n &+gFor Planning Invasions&n~
+&+c   The walls of this room are covered in several large maps, with several&n
+&+cmarkers denoting the positions of various forces within the headless horde.&n
+&+cAlthough the bulk of the army is currently in Zalkapfaan it is obvious that&n
+&+cthe horde is scouting out several areas for invasion, including such&n
+&+cstrongholds as Tharnadia, Woodseer, Khildarak, and even the fabled drow&n
+&+ccity of Aracdrathos.  While universally agreed upon as evil the headless&n
+&+cby no means prey upon the righteous alone ..&n
+~
+27 142639176 0
+D2
+~
+door~
+3 2773 2776
+D3
+~
+door~
+3 2773 2774
+S
+#2783
+&+LA Glorious Temple to the &+WSoul&n-&+rTaker&n~
+&+M   This large area is the great soul void, enchanted against death itself.&n
+&+MCreatures killed here are denied final rest, and their souls are left to&n
+&+Mwander aimlessly about the area.  This is the source of the headless horde,&n
+&+Mfor after decapitation, while the souls are in retreat and the bodies still&n
+&+Mwarm is the great animation magic imparted.  Every headless in the city has&n
+&+Mpassed through this room, every one of them a living breathing creature&n
+&+Mreduced to an automaton that while still capable of thought, has no true&n
+&+Mfree will.&n
+~
+27 1216381000 0
+D1
+~
+wall malra-kaan~
+7 -2 2764
+S
+#2784
+Mob Loading Room #1~
+   Mobs in this room should have a 1/16 Chance of loading.
+~
+27 142639296 0
+D1
+~
+~
+0 0 2785
+D2
+~
+~
+0 0 2789
+D4
+~
+~
+0 0 2784
+S
+#2785
+Mob Loading Room #2~
+   Mobs in this room should have a 1/8 chance of loading.
+~
+27 142639296 0
+D1
+~
+~
+0 0 2786
+D2
+~
+~
+0 0 2789
+S
+#2786
+Mob Loading Room #3~
+   Mobs in this room should have a 1/4 chance of loading.
+~
+27 142639296 0
+D1
+~
+~
+0 0 2787
+D2
+~
+~
+0 0 2789
+S
+#2787
+Mob Loading Room #4~
+   Mobs in this room should have a 1/2 chance of loading.
+~
+27 142639296 0
+D1
+~
+~
+0 0 2788
+D2
+~
+~
+0 0 2789
+S
+#2788
+Mob Staging Area~
+   From here mobs load randomly into different areas within the zone.
+~
+27 142639296 0
+D0
+~
+~
+0 0 2740
+D1
+~
+~
+0 0 2751
+D2
+~
+~
+0 0 2732
+D3
+~
+~
+0 0 2736
+D4
+~
+~
+0 0 2761
+D5
+~
+~
+0 0 2775
+D6
+~
+~
+0 0 2782
+D7
+~
+~
+0 0 2767
+D8
+~
+~
+0 0 2781
+D9
+~
+~
+0 0 2730
+S
+#2789
+Mob Holding Room~
+   This is where mobs go when they don't load.
+~
+27 142639296 0
+D4
+~
+~
+0 0 2789
+S

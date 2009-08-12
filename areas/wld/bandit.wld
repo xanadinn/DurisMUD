@@ -1,0 +1,1477 @@
+#98500
+&+gThick Bushes Off the Path&N~
+   There is a east-west path through the thick bushes that line the path.
+This would make the ideal spot for an ambush, with the &+ydry brush&N providing
+plenty of hiding places for the highwayman.  An opening to the west is narrow
+and concealed, a well-traveled path leads east.
+~
+985 134250500 5
+D2
+~
+~
+0 0 536467
+D3
+~
+~
+0 0 98501
+S
+#98501
+&+gWide Path through Scrub&N~
+   The path through the &+gthorny bushes&N is wide and well-traveled. Prints in
+the &+ydried mud&N tell of horses, men and something humanoid, but larger than
+human known to inhabit these parts. The path descends into a canyon to the
+east and narrows into a thick group of bushes to the west.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98500
+D5
+~
+~
+0 0 98502
+S
+#98502
+&+rMessy Campsite&N~
+   The canyon here is bare except for a few &+ydying trees&N.  A burnt out
+&+rcampfire&N is surrounded by a few &+ylogs&N to sit on, discarded rags, small bits
+of kindling and animal &+Wbones&N.  A path leads up to the west while the canyon
+winds eastwards from here.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98503
+D4
+~
+~
+0 0 98501
+S
+#98503
+&+yCanyon Path&N~
+   The walls of the canyon rise higher as the trail descends deeper into the
+canyon. The &+gvegetation&N here benefits from a &+Bstream&N flowing to the south, where
+a branch ravine diverges. A path marked by many hoof-prints leads south, while
+one well traveled by booted feet makes its &+ymuddy&N way to the east.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98507
+D2
+~
+~
+0 0 98504
+D3
+~
+~
+0 0 98502
+S
+#98504
+Pleasant &+YMeadow&N in A &+yBox Canyon&N~
+   This large flat &+Ymeadow&N is sheltered from the elements by the canyon walls
+and is quite pleasant, if a little marshy from a &+Bspring&N in the western wall.
+A few &+gaspen trees&N provide &+Lshade&N and the grass is quite lush and &+ggreen&N. A gap
+in a low &+Wstone wall&N leads west, while a squat &+ylog cabin&N with &+Wsmoke&N pouring
+from the &+rchimney&N lies to the south.
+~
+985 134250496 2
+D0
+~
+~
+0 0 98503
+D2
+The entrance to a small log cabin.
+~
+door~
+1 0 98506
+D3
+~
+gate~
+1 0 98505
+S
+#98505
+&+yBox Canyon Corral&N~
+   A narrow, steep sided &+ybox canyon&N runs east-west here.  The narrow exit to
+the east has been made narrower by a low &+Wstone wall&N. The ground has been
+churned by livestock and little of the &+ggrass&N remains in the &+ymuddy&N mess.
+The air smells earthy, a mix of &+gmanure&N, &+Yhay&N, and animals.
+~
+985 134250496 5
+D1
+~
+gate~
+1 0 98504
+S
+#98506
+&+LBlacksmith's Cabin&N~
+   This &+Lsoot&N encrusted cabin is obviously belongs to a smithy.  An anvil and
+tools clutter the west end of the place while a &+Wcot&N and crude &+ytable&N lie to
+the east. The place is illuminated by the dull &+Rred glow&N of the &+rkiln&N and thick
+&+Lblack smoke&N leaks from the &+rchimney&N, clouding the room.
+~
+985 134250504 1
+D0
+The door.
+~
+door~
+1 0 98504
+S
+#98507
+&+yMuddy Basin&N~
+   A &+Bstream&N flows from the west, dispersing itself into the ground. The
+ground has been walked on, turning the damp ground into a morass of foot
+deep &+ymud&N. The basin continues to the north, while sloping down to a depression
+east. To the south lies a higher and drier branch of the canyon.
+~
+985 134250496 4
+D0
+~
+~
+0 0 98510
+D1
+~
+~
+0 0 98511
+D2
+~
+~
+0 0 98508
+D3
+~
+~
+0 0 98503
+S
+#98508
+&+yMess-Hall Canyon&N~
+   This part of the canyon appears to serve as a mess-hall to the bandits.
+Trees have been felled to serve as seats and a crude pavilion of a tarp
+hoisted on a few poles serves to shield an area large enough to seat about
+8 or 10.  A squat dugout &+ycabin&N lies to the south.
+~
+985 134250496 2
+D0
+~
+~
+0 0 98507
+D2
+The entrance t a log cabin.
+~
+door~
+1 0 98509
+S
+#98509
+&+yA Large Cabin&N~
+   This low cabin is dug into the wall of the canyon.  The ceiling is only
+six feet high, with bundles of &+gvegetables&N hanging from the rafters.  A couple
+of stout &+ytables&N with extensive chopping marks crowd the room. Discarded
+scraps of &+rmeat&N, bits of &+gvegetables&N and &+Wbaking flour&N make the floor slippery.
+~
+985 134250504 0
+D0
+~
+door~
+1 0 98508
+S
+#98510
+&+yMuddy Basin&N~
+   The ground in this wide flat area in the canyon is saturated by water
+seeping in from the south.  Foot traffic has churned the earth, making it
+a rough surface of six inch deep much.  The ground to the north is higher
+and drier, while the basin continues to the east and south. The steep wall
+of the canyon rises to the west.
+~
+985 134250496 5
+D0
+~
+~
+0 0 98515
+D1
+~
+~
+0 0 98512
+D2
+~
+~
+0 0 98507
+S
+#98511
+&+LFighting Pit&N~
+   This depression is filled with about 3 feet of &+ymuddy water&N. The northern side
+of the depression is shored up with boards, creating a wall of sorts. &+yMuddy&N
+slopes lead east and west.  The steep wall of the canyon rises to the south.
+In the center of the &+ymuddy water&N stands several thick poles. A few &+Wbones&N
+lie at the edge of the pool.
+~
+985 134250500 6
+D1
+~
+~
+0 0 98514
+D3
+~
+~
+0 0 98507
+S
+#98512
+&+yMuddy Basin&N~
+   The ground here is a muddy and has been churned into a sucking morass by
+the heavy foot traffic. The &+ymud&N here is deep and makes movement difficult.
+The ground drops sharply to the south, the mud held back by a wall of wooden
+planks.  The basin continues to the west and east, sloping down slightly,
+while the steep wall of the canyon rises to the north.
+~
+985 134250496 4
+D1
+~
+~
+0 0 98513
+D3
+~
+~
+0 0 98510
+S
+#98513
+&+yMuddy Basin&N~
+   This part of the basin is lower than other parts, the water starts to
+coalesce into a couple small streams flowing eastward to a small &+Bpond&N. The
+&+ymud&N is nearly a foot deep in some places. A series of &+yboards&N makes the area
+more passable, with "bridges" leading east and west. Clumps of &+ggrass&N and &+Gbushes&N
+grow on the banks of the small streams and the area is pleasant in a swampy
+sort of way. Thick bushes and wet marshland block the ways to the north and
+south.
+~
+985 134250500 5
+D0
+~
+bush~
+1 0 98550
+D1
+~
+~
+0 0 98532
+D3
+~
+~
+0 0 98512
+S
+#98514
+&+gA Gathering Place&N~
+   In the center of this flat &+ggrassy&N area is a huge &+rfirepit&N, about twenty
+feet in diameter.  Many animal &+Wbones&N lie in the ashes. A flat slab of dark
+stone with chalk markings fills the center of the area, covered with empty
+bottles and trash. The cavern branches to the south and west. The canyon
+wall rises up high to the north and &+yboulders&N from a landslide block the way
+east.
+~
+985 134250496 2
+D1
+~
+boulder~
+1 0 98523
+D2
+~
+~
+0 0 98522
+D3
+~
+~
+0 0 98511
+E
+flat stone slab~
+The scrawlings are barely legible, but from what you understand, it outlines
+a plan for an attack on the a caravan camp to the south on the main road. The
+plan appears to quite cunning, with a feint by cavalry combined with some sort
+of 5th column attack by traitors within the caravan guards.
+~
+S
+#98515
+&+LBandit Camp&N~
+   This part of the canyon is filled with scrubby bushes. It appears to
+be a camp of some kind, with scattered campfires, blankets and bedrolls.
+Lines for drying clothes hang between the bushes and small animal bones
+litter the place.  A tent stands half-finished, abandoned, with small holes
+burned into it. A muddy, open area lies to the south.
+~
+985 134250500 2
+D2
+~
+~
+0 0 98510
+D3
+~
+brush~
+1 0 98516
+S
+#98516
+&+gThick Brush&N in a &+yCanyon&N~
+   The brush grows thick in this area of the canyon, but it is clear that
+extra branches and shrubs have been cut somewhere else and brought here.
+These branches and shrubs are in various shades of green to yellow as they
+wither.  It is a poor camouflage, but it provides plenty of cover for an
+ambush. Openings in the brush lead east and west. An odor of smoke and
+some foul stench combine here.
+~
+985 134250496 2
+D1
+~
+brush~
+1 0 98515
+D3
+~
+~
+0 0 98517
+S
+#98517
+A &+YPool&N of &+LFilth&N~
+   This section of the canyon stinks of rotting flesh and human filth. This
+area has been used a dump by somebody and it shows.  Bones and bloated human
+corpses show despite a half-hearted attempt to bury them. Human wastes on the
+eastern end combine with the sick odor of death to turn the stomach. The
+canyon walls rise to the north and south, while the canyon continues to the
+east and west.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98516
+D3
+~
+~
+0 0 98518
+S
+#98518
+&+LGarbage Filled Canyon&N~
+   A few scattered aspens and pines cover the floor and walls of the canyon
+here as it curves from north to east. A few pieces of trash litter the canyon,
+and a well traveled path meanders along the floor, swerving around the boulders
+that line the canyon. An awful stench is faint in the air here, spoiling the
+scenic beauty of the place. A narrow gap in the wall to the north is filled
+by a blanket of vegetation with long, sharp &+gthorns&N. Its obvious the area is
+used as a dump as trash and garbage is piled half way up the canyon wall.
+~
+985 134250496 5
+D0
+~
+thorns~
+1 0 98519
+D1
+~
+~
+0 0 98517
+S
+#98519
+Start of a &+LBlack&+gthorn&N Forest~
+   The canyon walls rise high to the east and west around the small forest
+at the mouth of this canyon. A path leads north and south through the aspens
+and pines.  The path is narrow but looks well-traveled. It rises out of the
+canyon to the north while descending to the south into a small gap in the
+canyone walls. A thick blaket of thorns fills the gap.
+~
+985 134250500 3
+D0
+~
+~
+0 0 98520
+D2
+~
+thorns~
+1 0 98518
+S
+#98520
+&+LBlack&+gthorn Forest&N~
+   This forest is a mixture of aspen, pine, and the unique &+Lblack&+gthorn&N tree.
+The &+Lblack&+gthorn&N tree is a tough deciduous tree with a deep black colored wood
+like mahogany and is valued as furniture wood. The aspens and pines show
+signs of wood cutting, with dead limbs being harvested for fires most likely.
+To the north and east lie a deep ravine which blocks passage.
+~
+985 134250496 3
+D2
+~
+~
+0 0 98519
+D3
+~
+~
+0 0 98521
+S
+#98521
+&+LBlack&+gthorn Forest&N~
+   This forest is a mixture of aspens, pines and the unique &+Lblack&+gthorn&N trees.
+The &+Lblack&+gthorn&N tree is ugly on the outside, covered with large thorns, but its
+wood is a lustrous black like mahogany and is much prized for furniture. The
+aspens and pines show evidence of being cut, with some trees missing branches
+and a scattering of stumps show evidence of logging. Trails lead north and
+west but become vague enough to disappear here.  Progress to the south is
+block by a cliff that rises steeply.
+~
+985 134250496 3
+D1
+~
+~
+0 0 98520
+D3
+~
+~
+0 0 98568
+S
+#98522
+&+LBandit Camp&N~
+   This canyon is contained within high walls to the east and west. The place
+is an offense to the eyes, with bright scraps of cloth hanging from bushes
+and trees.  A rubbish pile of bones, bedding, and paper scraps lies along
+the western wall.  Rats dart about, feeding on the scraps and a some crows
+have built a nest in one of the pine trees. A campfire smolders in the middle
+of the canyon.
+~
+985 134250496 2
+D0
+~
+~
+0 0 98514
+S
+#98523
+&+yNarrow Canyon&N~
+   Boulders have fallen from the canyon walls to make this area quite narrow.
+As a result the canyon varies between thirty and five feet in width. A fire
+burns near the narrowest part of the canyon and a couple of logs have been
+made into simple benches. A wooded area lies to the east.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98524
+D3
+~
+boulder~
+1 0 98514
+S
+#98524
+&+yWooded Canyon&N~
+   This canyon is half-wooded with pine trees. The other half have been cut
+down and only stumps remain.  East is a huge lodge house made of rough-hewn
+pine logs. It spans the width of the canyon and stands about twenty feet tall
+at the peak.  A door of iron banded oak sits in the middle of the building.
+The forest is quiet here except for the occasional voice to be heard within
+the lodge.
+~
+985 134250496 5
+D1
+~
+door~
+2 0 98525
+D3
+~
+~
+0 0 98523
+S
+#98525
+&+yA Large Cabin&N~
+   This area is dimly lit by torches and the embers of a fire glow in a pit,
+illuminating the red haze floating in the air. The lodge is made of rough
+hewn logs and some holes can be seen in the high roof.  The floor is merely
+hard packed dirt. The hall continues to the east, while doorways can be
+seen to the north and south.  The northern one is covered with a dirty
+cow hide, the southern by a tattered carpet.
+~
+985 134250504 0
+D0
+~
+hide~
+1 0 98526
+D1
+~
+~
+0 0 98528
+D2
+~
+carpet~
+1 0 98527
+D3
+~
+door~
+2 0 98524
+S
+#98526
+&+YGuest Room&N~
+   The dominant feature of this small room is a huge bed.  Ten feet in
+length and five feet across, it has been assembled out of the trunks of
+young aspen trees crudely lashed together.  It takes up half the room.
+Piles of over-sized dirty clothes, empty bottles, small barrels, broken
+crockery, and discarded animal bones fill up what little room remains
+besides the bed. Interesting designs in muddy clay adorn the walls.
+The sole exit is a doorway to the south covered by a dirty cowhide.
+~
+985 134250505 0
+D2
+~
+door~
+1 0 98525
+S
+#98527
+&+WA Large Bedroom&N~
+   This bedchamber is the model of neatness.  The bed is neatly made,
+covers folded back across one corner.  A set of shelves lies along one
+wall, coins neatly stacked in piles of five. A moth-eaten but clean rug
+graces the floor and two drawings and a painting adorn the walls.
+~
+985 134250505 0
+D0
+~
+door~
+1 0 98525
+E
+drawing painting~
+The painting shows a lithe young warrior with a rapier battling a
+Plains barbarian. It is quite crude and simple. Both drawings are done
+in charcoal, one a landscape of a castle on an isolated bluff, the
+second is a still life of human skeleton slumped against a log.
+~
+S
+#98528
+&+yBackroom of a Large Cabin&N~
+   The roof rises to a peak and smokes languidly rises through the smoke
+hole there.  A large table made of &+Lblack&+gthorn&N wood, ruined by vandalous
+carving and unknown stains sits in the middle of the room. Various
+baubles, trinkets and knick-knacks clutter the table, all quite worthless.
+A large wooden bookshelf, also defaced with carvings of various kinds, sits
+against the east wall. The hall continues west, and bead curtained doorway
+lies north.  A plain wooden door can be seen in the south wall.
+~
+985 134250504 0
+D0
+~
+beads bead~
+1 0 98529
+D1
+~
+~
+0 0 98531
+D2
+~
+door~
+1 0 98530
+D3
+~
+~
+0 0 98525
+S
+#98529
+&+YGuest Room&N~
+   This room is furnished in good taste and with wealth bordering on
+opulence. Tapestries cover two of the walls, and a large portrait
+dominates the third.  Unlike like the rest of the lodge, the room
+boasts a wooden floor, covered by a rug of southern design.  The bed
+is covered with sheets rather than the mere blankets one would
+expect in such rough quarters.
+~
+985 134250504 0
+D2
+~
+beads bead~
+1 0 98528
+E
+portrait painting~
+This painting in oil depicts a raven haired woman in her mid-thirties.
+She stares at the painter with a determined, haughty look in her eyes.
+She is standing in front of a waterfall, one hand drawing her sword
+half way out of its sheath, the elbow of the other arm resting on a tall
+rock.
+~
+E
+tapestry tapestries~
+The first tapestry is a geometric design of black and red diamonds while
+the second tells a tale of a knight questing after a lost lover kidnapped
+by an evil baron.
+~
+S
+#98530
+&+LStorage Room&N~
+   This large storage room two simple cots and little else. The bare pine
+log walls are only interrupted by a dart board.  A bed roll has been lain
+on the dirt floor the space between the two cots. The room is generally
+neat, except for a few oily rags for polishing weapons hanging from the
+rafters. An open doorway leads north.
+~
+985 134250505 0
+D0
+~
+door~
+1 0 98528
+S
+#98531
+&+rMeeting Room&N~
+   Leather adorns most of this room.  The walls and roof are covered with
+some kind of unknown hide and an array of leather cuirasses, hoods, cuffs,
+and other garments hang on sharp hooks.  A small leather working workshop
+lies in the northern part of the room, while a cot lies against the south
+wall. The building terminates to the east, where you can see bits of rock
+protruding that aren't covered by leather.
+~
+985 134250504 0
+D3
+~
+~
+0 0 98528
+E
+leather hide wall~
+The hides seem to be a patchwork.  Some are identifiable animals such as cows,
+horses, and even a couple of pigs.  Others you are less certain about....
+~
+S
+#98532
+&+ySmall Brown Pond&N~
+   A path leads around the shore of this small pond.  Reeds grow about the
+edges, and water insects scurry over the surface of the water.  Clay stains
+the water, giving it a reddish brown hue.  The &+Glimestone&N walls of the ravine
+rise to the north and south.  The canyon opens up broadly to the west, while
+a small creek drains off the &+Bpond&N to the east.
+~
+985 134250496 5
+D1
+~
+~
+0 0 98533
+D3
+~
+~
+0 0 98513
+S
+#98533
+&+BLaundry Filled Canyon&N~
+   This canyon curves from east to north.  A creek lined with reeds and water-
+cress follows the bed of the canyon, babbling as the &+Bwater&N is carried swirly
+along.  Ropes criss-cross the canyon and upon the ropes hang laundry. The
+laundry must be that of at least two score men. A small &+yshack&N lies to the
+east while the canyon continues north and west.
+~
+985 134250496 5
+D0
+~
+~
+0 0 98534
+D1
+~
+door~
+1 0 98561
+D3
+~
+~
+0 0 98532
+S
+#98534
+&+BCurving Creek&N~
+   A creek curves from south to east here, babbling merrily along. Reeds, wild
+mallow, and watercress line the banks.  Several flat stones can also be seen,
+and few bars of soap lying discarded nearby.  The water is relatively clean,
+with only a slight reddish brown cast being visible. To the east the creek
+joins a larger, faster and deeper stream.
+~
+985 134250500 5
+D1
+~
+~
+0 0 98535
+D2
+~
+~
+0 0 98533
+S
+#98535
+&+BStream&N in a &+GLimestone Canyon&N~
+   A fast flowing stream has carved out a deep narrow canyon in the limestone
+here.  The stream flows north from here, curving around from the east. A few
+scraggly pines cling to the steep walls of the canyon and some unidentifiable
+fish swim swiftly about in the water.
+~
+985 134250496 7
+D0
+~
+~
+0 0 98536
+D3
+~
+~
+0 0 98534
+S
+#98536
+&+BStream&N in a &+GLimestone Canyon&N~
+   A swift stream has cut a narrow steep canyon in the limestone here.  The
+wall rise high to the east and west. A few scraggly pines cling for life on
+the walls and some small fish dart around under the surface. The stream flows
+north, where the distant roar of water can be heard.
+~
+985 134250500 7
+D0
+~
+~
+0 0 98537
+D2
+~
+~
+0 0 98535
+S
+#98537
+&+BStream&N in &+GLimestone Canyon&N~
+   A swift flowing stream has carved out a steep narrow cayon in the limestone
+here.  A few scraggly pines cling for life on the high walls and small fish
+dart about in the water.  The stream flows from the south to north, where the
+roar of crashing water can be heard.
+~
+985 134250496 7
+D0
+~
+~
+0 0 98538
+D2
+~
+~
+0 0 98536
+S
+#98538
+&+WRock Crowded &+BStream&N~
+   Numerous rocks jut up from the water, providing a boatsman an anchor against
+the swift current.  The sound of crashing water from the north is deafening,
+and the top of a waterfall may be seen before it plummets an unknown height.
+A small ledge lies along the eastern shore and it runs north, allowing one
+to bypass the waterfall.
+~
+985 134250496 7
+D0
+~
+~
+0 0 98539
+D1
+~
+~
+0 0 98540
+D2
+~
+~
+0 0 98537
+C
+10 0
+S
+#98539
+Top of a Crashing &+BWater&+Wfall&N~
+   The stream drops off steeply here, crashing to a foamy end some distance
+below.  The current is quite swift here, and with nothing to hold onto, a
+boatsman would surely be swept off the edge to a watery death below. The view
+is quite beautiful, and the stream can be seen to join a river farther north.
+~
+985 134250500 7
+D2
+~
+~
+0 0 98538
+D5
+~
+~
+0 0 98549
+F
+10
+C
+20 5
+S
+#98540
+&+yThin Ledge&N Above a &+BStream&N~
+   This thin ledge lies about five feet above the swift flowing stream. On the
+northern end of the ledge, near the waterfall, there are enough ledges, cracks,
+handholds and small trees for a brave climber to make their way down the cliff
+a bit.  From here it can be seen that to travel north of the stream would
+mean a certain plunge off the edge of the waterfall.
+~
+985 134250500 5
+D3
+~
+~
+0 0 98538
+D5
+~
+~
+0 0 98541
+S
+#98541
+&+yPrecarious Cliff Face&N~
+   There are barely enough grippable surfaces here for a brave climber to make
+their way up or down the cliff beside the waterfall.  What toe and hand holds
+existing are covered with slimy algae and lichen, making the climb quite
+precarious indeed.  Luckily a few small pine shrubs have eked out an existence
+here in the cracks, providing a few relatively dry and secure supports.
+~
+985 134250496 5
+D4
+~
+~
+0 0 98540
+D5
+~
+~
+0 0 98542
+S
+#98542
+&+yPrecarious Cliff&N~
+   This cliff provides barely enough handholds for the bravest of climbers.
+Even these small ledges and cracks are made more dangerous by the slimy algae
+and lichen which coat the limestone cliff face. Luckily a few small shrubs
+grow in the cracks of the wall to give extra support.  The waterfall roars
+along parallel the cliff.  Both reach an end about twenty feet below.
+~
+985 134250496 5
+D4
+~
+~
+0 0 98541
+D5
+~
+~
+0 0 98543
+F
+20
+S
+#98543
+&+yBase of Cliff&N Near a &+BWater&+Wfall&N~
+   This area is a small flat area near the base of a crashing waterfall. The
+roar is deafening and the entire area is obscured by a fine mist. Ferns and
+mosses grow amongst the rocks, combining in this idyllic area.  The water is
+about ten feet below, down a steep, smooth incline. The cliff looks barely
+climbable and a path, covered with large vaguely humanoid footprints, leads
+north down to the water.
+~
+985 134250496 5
+D0
+~
+~
+0 0 98544
+D4
+~
+~
+0 0 98542
+S
+#98544
+&+BIdyllic Bank of Stream&N~
+   This eastern bank of this stream is covered in ferns, moss, and few small
+willow trees.  The canyon walls make the area shady and a beautiful if a bit
+terrifying waterfall can be seen to the south.  Some mist drifts north from
+the waterfall over the now languid waters of the stream and diffuses amongst
+the bushes and trees.  The stream appears to join a sizable river north.
+~
+985 134250496 5
+D2
+~
+~
+0 0 98543
+D3
+~
+~
+0 0 98545
+S
+#98545
+&+LLanguid &+BStream&N~
+   North of the waterfall the turbulent waters have broadened and calmed,
+and the surface of the water is calm and a bit sluggish.  The limestone walls
+of the canyon still rise high here and lichens abound, thriving on the mist
+that the waterfall gives off.  This same mist obscures the area south of here,
+making it difficult to make out detail. All that is certain is the deafening
+roar which the water produces
+~
+985 134250500 7
+D1
+~
+~
+0 0 98544
+D2
+~
+~
+0 0 98546
+S
+#98546
+&+WMisty&N Base of a &+BWater&+Wfall&N~
+   The water here is a turbulent confusion of eddies and undertows, made more
+dangerous still by the limited visibility due to the mist. The stream to the
+north is calmer.  The entrance to a cave can barely be seen through the mist
+to the west.
+~
+985 134250496 7
+D0
+~
+~
+0 0 98545
+D3
+~
+~
+0 0 98547
+D4
+~
+~
+0 0 98549
+S
+#98547
+&+BHalf-Submerged&N &+LCave Mouth&N~
+   This tubular cave is about twelve feet in diameter. A couple of feet of
+water fill the bottom of the cave. Limestone walls are covered with moss
+and unidentifiable slime.  A few shiny rocks have been wedged into the cracks
+by some entity, and a bizarre cairn of small skulls lies in the shallow
+water at the western section of this part of the cave.  Beyond the cairn
+the tunnel continues west, while the bottom of the roaring waterfall is
+east.
+~
+985 134250509 0
+D1
+~
+~
+0 0 98546
+D3
+~
+~
+0 0 98548
+E
+cairn skulls~
+This pile of skulls is about three feet tall and four feet in diameter.  The
+skulls are those of fish and small mammals for the most part. Two cow skulls
+and one human tell of something more dangerous.
+~
+S
+#98548
+&+gAlligator &+LCave&N~
+   This limestone cave is filled with whole fish, rotting fish, half-eaten
+fish and fish skeletons.  The stench is overpowering. Many of the fish
+appear to have been chewed on by something very large, with twenty pound
+trout apparently eaten in two bites.  The area has been decorated with the
+fish carcasses.  The skeletons has been plastered to the walls with an unknown
+paste, and the floor is covered with a mosaic-like design of dead fish.
+~
+985 134250505 0
+D1
+~
+~
+0 0 98547
+S
+#98549
+Halfway Down a &+BWater&+Wfall&N~
+   Halfway down a waterfall, the water rushes by.  Above, the lip of the fall
+can be seen, while below the water crashes to a misty, turbulent end. The
+water sparkles as it falls, catching the light and looking much like a sheet
+of diamonds. A cave mouth can be dimly seen farther down on the western wall
+of the canyon.
+~
+985 134250496 8
+D4
+~
+~
+0 0 98539
+D5
+~
+~
+0 0 98546
+F
+10
+C
+50 5
+S
+#98550
+Entrance to a &+rBandit Encampment&N~
+   This part of the canyon appears to be used for some sort of encampment.
+The floor of the canyon is scattered with &+rcampfires&N, tents and bedrolls,
+while the &+gvegetation&N has been stripped for kindling. The ground is littered
+with empty bottles, discarded clothes and tattered bits of paper. The
+&+Glimestone&N walls rise high to the east and west, and the canyon broadens to
+the north and narrows into thick bushes to the south.
+~
+985 134250496 5
+D0
+~
+~
+0 0 98551
+D2
+~
+bush~
+1 0 98513
+S
+#98551
+&+rBandit Encampment&N~
+   This part of the canyon appears to be used for a an encampment. The floor
+of the canyon is covered with tents, bedrolls, and &+rcampfires&N.  The &+gvegetation&N
+has been stripped for kindling. The ground is littered with empty bottles,
+discarded clothes and tattered bits of paper. The &+Glimestone&N walls rise high,
+with openings in the north, south, east  and west.
+~
+985 134250496 2
+D0
+~
+~
+0 0 98552
+D1
+~
+~
+0 0 98553
+D2
+~
+~
+0 0 98550
+D3
+~
+~
+0 0 98554
+S
+#98552
+&+rBandit Encampment&N~
+   This box canyon obviously serves as some sort of encampment. The floor is
+covered with tents, &+rcampfires&N and bedrolls. Empty bottles, discarded clothes,
+and small animal bones litter the place. The &+Glimestone&N walls of the canyon
+rise high to the north, east, and west while the sole exit lies to the south
+where the canyon opens up considerably.
+~
+985 134250496 2
+D2
+~
+~
+0 0 98551
+S
+#98553
+&+bStorage Canyon&N~
+   This dead-end canyon appears to be used a storage area for ill-gotten
+loot. It is filled with a &+L*LARGE*&n &+Ypile of loot&N that is isn't worth protecting.
+The walls of the canyon are lined with bales of cloth, sacks, barrels,
+ingots of raw iron and bronze, and chests. Despite the crowding, this
+area of the canyon is in pristine condition, the ground clean and the
+vegetation healthy.  Tall &+Glimestone&N walls rise to all sides except the
+west, where a path leads out.
+~
+985 134250496 2
+D3
+~
+~
+0 0 98551
+S
+#98554
+&+rBandit Encampment&N~
+   This part of the canyon has apparently come into recent use as an
+encampment. A few two-man tents lie around a campfire, and while the
+vegetation shows some evidence of having been stripped for kindling or
+harvested for firewood, the place is still pleasant. The &+Glimestone&N walls
+of the canyon rise high to the north and south, while paths lead east
+and west.
+~
+985 134250496 2
+D1
+~
+~
+0 0 98551
+D3
+~
+~
+0 0 98555
+S
+#98555
+&+yWooded Canyon&N~
+   The floor of this canyon is filled with stunted &+gpine&N trees. Clearly the
+soil isn't very good and the cliff walls block out much of the &+Ysunlight&N.
+A few of the trees have been chopped down, and a path leading east gives
+evidence of humanoid activity here. The canyon curves from north to east
+here, its steep walls making a hairpin turn.
+~
+985 134250500 3
+D0
+~
+~
+0 0 98556
+D1
+~
+~
+0 0 98554
+S
+#98556
+&+yWooded Canyon&N~
+   The floor is this canyon is covered with stunted &+gpines&N, their growth
+held back by the poor soil and lack of sunlight. Between the pines, the
+ground is &+yrocky&N, with &+gmoss&N and &+Rlichen&N growing along the path of a small
+&+Bstream&N that springs from the western wall. A &+Lraven&N's nest nestles on the
+eastern wall, and the cries of fledglings can be heard.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98557
+D2
+~
+~
+0 0 98555
+S
+#98557
+&+gFern Canyon&N~
+   The walls and floor of this canyon are crowded with &+gemerald green ferns&N.
+&+BWater&N seeps from the cliffs, dribbling down the surface, staining it with
+&+rreddish&N iron stains and promoting the growth of &+Rbright orange lichens&N. The
+stream that enters from the north diffuses here, losings its way amidst the
+ferns. The ground is damp and the smell of earth and moisture is in the air.
+~
+985 134250496 2
+D0
+~
+~
+0 0 98558
+D2
+~
+~
+0 0 98556
+S
+#98558
+&+LBurnt Canyon&N~
+   The vegetation of this canyon is burnt and what few large trees remain
+have been chopped down.  The area bears many footprints in the muddy ash
+of the soil.  Water flows from a few diffuse rivulets in the north, curving
+around to the west, where these small flows join to form a small creek that
+weaves its way through a narrow part of the canyon that slopes down steeply.
+~
+985 134250496 5
+D2
+~
+~
+0 0 98557
+D5
+~
+~
+0 0 98559
+S
+#98559
+&+BCreek in Steep Narrow Canyon&N~
+   The walls of the canyon crowd around this creek filled canyon. The creek
+fills almost the entire canyon, and one would have to stay on the walls to
+avoid getting one's feet wet. A small fall descends into a &+Bpool&N, where the
+canyon broadens.  The canyon ascends to the east, also opening up.
+~
+985 134250500 5
+D4
+~
+~
+0 0 98558
+D5
+~
+~
+0 0 98560
+S
+#98560
+&+BPool at Base of Small Waterfall&N~
+  A small &+Bwaterfall&N emerges from a crack in the wall to the east. It falls
+about four feet to a small pool.  The rim of the pool is lined with water
+grasses and water bugs scurry on the surface.  The &+Glimestone&N walls of the
+canyon rise up preventing travel in any direction except up the canyon wall.
+A large pile of clothes sits near the edge of the pool.
+~
+985 134250496 5
+D4
+~
+~
+0 0 98559
+S
+#98561
+&+WLaundry Shack&N~
+   This shoddy shack sports a tarp covered roof.  A few lines covered with
+clothes finer than one would expect criss-cross the room.  A fire burns in
+the middle of the room, providing heat to dry the clothes.  A few piles of
+rags seem to serve as beds for the unfortunate wretches who live here. Bars
+of soap lie scattered about and the air smells fresh from the burning pine.
+~
+985 134250496 0
+D3
+~
+door~
+1 0 98533
+S
+#98562
+&+LBlack&+gthorn Forest&N~
+   This area is a mix of aspen, pine and the unique &+Lblack&+gthorn&N trees. Though
+ugly on the outside, with black-green leaves and long sharp thorns on the
+bark, the wood of the tree is famed for its mahogany-like luster.  The aspen
+and pine trees look to have been cut for kindling and firewood, but the
+&+Lblack&+gthorn&N trees are unharmed.  The thorn trees to the north are quite thick
+and impassable and a path curves from the west to the south here. A steep
+canyon drops off to the east.
+~
+985 134250496 3
+D2
+~
+~
+0 0 98568
+D3
+~
+~
+0 0 98563
+S
+#98563
+&+LBlack&+gthorn Forest&N~
+   This area is a mix of aspen, pine and the unique &+Lblack&+gthorn&N trees. Though
+ugly on the outside, with black-green leaves and long sharp thorns on the
+bark, the deep mahogony-like wood is much prized. The pines and aspens show
+some evidence of having been cut for kindling and firewood. Thick stands of
+&+Lblack&+gthorn&N trees block passage west and south, and a path curves from north
+to east.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98564
+D1
+~
+~
+0 0 98562
+D2
+~
+~
+0 0 98567
+D3
+~
+~
+0 0 98566
+S
+#98564
+&+LBlack&+gthorn Forest&N~
+   This forest is a mix of aspen, pine and the unique &+Lblack&+gthorn&N trees. Though
+ugly on the outside, with black-green leaves and a sharp thorns on the bark,
+the wood has a much prized mahogony-like luster that is much prized. The pines
+and the aspens show evidence of having been cut for kindling and firewood.
+Thick stands of thorn trees block passage to the east, while paths lead north,
+south, and west.
+~
+985 134250496 3
+D2
+~
+~
+0 0 98563
+D3
+~
+~
+0 0 98565
+S
+#98565
+&+LBlack&+gthorn Forest&N~
+   This forest is a mix of aspen, pine and the unique &+Lblack&+gthorn&N trees. Though
+ugly on the outside, with black-green leaves and sharp thorns on the bark, the
+wood has a deep mahogany-like luster which is much prized. The aspens and the
+pines show some signs of being cut for kindling and firewood. The forest is
+light here and paths lead east and south.  Passage to the west is blocked by
+a low stone wall.
+~
+985 134250496 3
+D1
+~
+~
+0 0 98564
+D2
+~
+~
+0 0 98566
+S
+#98566
+&+LBlack&+gthorn Forest&N~
+   This light forest is a mix of aspen, pine and the unique &+Lblack&+gthorn&N tree.
+Though ugly on the outside, with black-green leaves and sharp thorns on the
+bark, the wood is a deep-mahogany color and is much prized for furniture and
+such.  The pines and aspens show signs of cutting for kindling and firewood,
+while the &+Lblack&+gthorn&Ns are untouched. A thick stand of &+Lblack&+gthorn&Ns blocks
+passage east and a gate in a low stone wall blocks passage west.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98565
+D1
+~
+~
+0 0 98563
+D2
+~
+~
+0 0 98569
+D3
+~
+gate~
+1 0 98571
+S
+#98567
+&+LBlack&+gthorn Forest&N~
+   This light forest is a mix of pines, aspens, and the unique &+Lblack&+gthorn&N tree.
+Though ugly on the outside, with black-green leaves and sharp thorns on the
+bark, the wood of the tree is like mahogany and shines a lustrous black when
+polished. The pines and aspens show signs of cutting for kindling and firewood.
+Paths diverge in all directions.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98563
+D1
+~
+~
+0 0 98568
+D2
+~
+~
+0 0 98573
+D3
+~
+~
+0 0 98569
+S
+#98568
+&+LBlack&+gthorn Forest&N~
+   This light forest is a mix of pine, aspen and &+Lblack&+gthorn&N trees. Dense
+groves of thorn trees block passage to the north and south, while a barely
+visible trail runs east-west here. The pines and aspens here are mere saplings
+and the multitude of stumps testify to concerted logging some time ago.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98562
+D1
+~
+~
+0 0 98521
+D2
+~
+~
+0 0 98574
+D3
+~
+~
+0 0 98567
+S
+#98569
+&+LBlack&+gthorn Forest&N~
+   This light forest is a mix of aspen, pine and the unique &+Lblack&+gthorn&N tree.
+Ugly on the outside, with black-green leaves and sharply thorned bark, the
+wood has a mahogany like character much prized by merchants. The pines and
+aspen show some signs of cutting for kindling and firewood. Paths diverge to
+the north, east and south.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98566
+D1
+~
+~
+0 0 98567
+D2
+~
+~
+0 0 98570
+S
+#98570
+&+LBlack&+gthorn Forest&N~
+   This dense forest is a mix of aspen, pine and &+Lblack&+gthorn&N trees. The trail
+that entered from the north dissipates here, losing its way amongst the close
+trees. It is probably just as well, for weaving between the thorny trees would
+be quite painful.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98569
+D1
+~
+~
+0 0 98573
+S
+#98571
+Before a &+yLog Cabin&N~
+   The canyon walls close to a V-shape as they run east to west. A cabin
+constructed from &+LBlack&+gthorn&N &+ylogs&N fills the gap fully. A short but stout
+stone wall runs east and west along the front of the cabin separating it
+from the thick &+LBlack&+gthorn&N forest to the south. &+WSmoke&N billows from the cabins
+chimney. A door can be seen to the west.
+~
+985 134250500 3
+D1
+~
+gate~
+1 0 98566
+D3
+~
+door~
+1 0 98572
+S
+#98572
+&+yA Woodsmans Cabin&N~
+   This cabin is simple in design, containing a single room. The north side of
+the cabin is full of woodworking equipment. A large stone fireplace is built
+into the north wall. The southern section of the cabin is more traditional with
+areas for meal preparation and sleeping. A single door can be seen in the east
+wall.
+~
+985 134250504 0
+D1
+~
+door~
+1 0 98571
+S
+#98573
+&+LBlack&+gthorn Forest&N~
+   This dense forest is a mix of aspen, pine and &+Lblack&+gthorn&N trees. The trail
+that entered from the north dissipates here, losing its way amongst the close
+trees. It is probably just as well, for weaving between the thorny trees would
+be quite painful.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98567
+D1
+~
+~
+0 0 98574
+D3
+~
+~
+0 0 98570
+S
+#98574
+&+LBlack&+gthorn Forest&N~
+   This dense forest is a mix of aspen, pine and &+Lblack&+gthorn&N trees. The trail
+that entered from the north dissipates here, losing its way amongst the close
+trees. It is probably just as well, for weaving between the thorny trees would
+be quite painful.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98568
+D3
+~
+~
+0 0 98573
+S
+#98575
+&+LBlack&+gthorn Forest&N~
+   This dense forest is a mix of aspen, pine and &+Lblack&+gthorn&N trees. The trail
+that entered from the north dissipates here, losing its way amongst the close
+trees. It is probably just as well, for weaving between the thorny trees would
+be quite painful.
+~
+985 134250496 3
+D0
+~
+~
+0 0 98568
+D3
+~
+~
+0 0 98573
+S

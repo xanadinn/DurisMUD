@@ -1,0 +1,255 @@
+#1
+&+yHalfcut &+gHills&n~
+27235 2 0 20 50 1
+*
+* Zone edited with dikuEdit v2.98i
+*
+*
+D 0 27062 0 1 100 0 0 0
+*     north exit from "A Dead End in the Hills" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27131 2 1 100 0 0 0
+*     south exit from "A Cramped Tunnel" to
+*     "A Dead End in the Hills" - closed
+*
+D 0 27118 1 1 100 0 0 0
+*     east exit from "The Banks of a Stream" to
+*     "Inside a Shanty" - closed
+*
+D 0 27122 3 1 100 0 0 0
+*     west exit from "Inside a Shanty" to
+*     "The Banks of a Stream" - closed
+*
+D 0 27119 1 1 100 0 0 0
+*     east exit from "The Banks of a Stream" to
+*     "Inside a Shack" - closed
+*
+D 0 27121 3 1 100 0 0 0
+*     west exit from "Inside a Shack" to
+*     "The Banks of a Stream" - closed
+*
+D 0 27139 1 1 100 0 0 0
+*     east exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27143 3 1 100 0 0 0
+*     west exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27144 0 1 100 0 0 0
+*     north exit from "A Cramped Tunnel" to
+*     "A Small Room" - closed
+*
+D 0 27145 2 1 100 0 0 0
+*     south exit from "A Small Room" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27147 0 1 100 0 0 0
+*     north exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27148 2 1 100 0 0 0
+*     south exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27161 3 1 100 0 0 0
+*     west exit from "A Cramped Tunnel" to
+*     "A Small Chamber" - closed
+*
+D 0 27162 1 1 100 0 0 0
+*     east exit from "A Small Chamber" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27178 2 1 100 0 0 0
+*     south exit from "A Narrow Passage" to
+*     "A Hidden Chamber" - closed
+*
+D 0 27186 0 1 100 0 0 0
+*     north exit from "A Hidden Chamber" to
+*     "A Narrow Passage" - closed
+*
+D 0 27183 2 1 100 0 0 0
+*     south exit from "A Narrow Passage" to
+*     "A Comfortable Room" - closed
+*
+D 0 27184 0 1 100 0 0 0
+*     north exit from "A Comfortable Room" to
+*     "A Narrow Passage" - closed
+*
+D 0 27185 0 1 100 0 0 0
+*     north exit from "An Extravagent Room" to
+*     "A Hidden Chamber" - closed
+*
+D 0 27186 2 1 100 0 0 0
+*     south exit from "A Hidden Chamber" to
+*     "An Extravagent Room" - closed
+*
+*
+O 0 27004 1 27003 100 0 0 0        * a wagon
+P 1 27005 1 27004 100 0 0 0        *   a tattered map
+O 0 27001 1 27046 100 0 0 0        * a tree
+O 0 27002 1 27057 100 0 0 0        * a skull
+O 0 27003 1 27120 100 0 0 0        * a cooking fire
+O 0 27009 1 27161 100 0 0 0        * a broken skull
+O 0 27017 1 27186 100 0 0 0        * a large chest
+P 1 27018 1 27017 100 0 0 0        *   a treasure horde
+*
+M 0 27039 1 27113 100 0 0 0        * a manticore
+M 0 27005 1 27114 100 0 0 0        * a sentry dwarf
+E 1 27008 1 16 100 0 0 0           *   a steel pike
+M 0 27003 2 27117 100 0 0 0        * a dwarf
+M 0 27003 2 27118 100 0 0 0        * a dwarf
+M 0 27004 1 27120 100 0 0 0        * a dwarf
+M 0 27001 1 27121 100 0 0 0        * an old dwarf
+M 0 27002 1 27122 100 0 0 0        * a wounded dwarf
+M 0 27006 26 27131 100 0 0 0       * a kobold
+M 0 27006 26 27132 100 0 0 0       * a kobold
+M 0 27006 26 27133 100 0 0 0       * a kobold
+M 0 27007 10 27134 100 0 0 0       * a kobold
+M 0 27008 15 27135 100 0 0 0       * a kobold
+M 0 27008 15 27135 100 0 0 0       * a kobold
+M 0 27006 26 27135 100 0 0 0       * a kobold
+M 0 27006 26 27135 100 0 0 0       * a kobold
+M 0 27006 26 27137 100 0 0 0       * a kobold
+M 0 27006 26 27138 100 0 0 0       * a kobold
+M 0 27007 10 27140 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27009 1 27142 100 0 0 0        * a kobold
+G 1 27010 1 0 100 0 0 0            *    a light crossbow
+G 1 27011 1 0 100 0 0 0            *    a quiver
+M 0 27011 1 27145 100 0 0 0        * Simt
+E 1 27014 1 18 100 0 0 0           *   a limestone totem
+M 0 27007 10 27147 100 0 0 0       * a kobold
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27010 1 27150 100 0 0 0        * Krinda
+E 1 27013 1 11 100 0 0 0           *   a hide shield
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27150 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27006 26 27151 100 0 0 0       * a kobold
+M 0 27006 26 27151 100 0 0 0       * a kobold
+M 0 27021 1 27152 100 0 0 0        * a kobold
+M 0 27006 26 27153 100 0 0 0       * a kobold
+M 0 27006 26 27155 100 0 0 0       * a kobold
+M 0 27007 10 27156 100 0 0 0       * a kobold
+M 0 27008 15 27157 100 0 0 0       * a kobold
+M 0 27008 15 27157 100 0 0 0       * a kobold
+M 0 27008 15 27158 100 0 0 0       * a kobold
+M 0 27008 15 27158 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27007 10 27173 100 0 0 0       * a kobold
+M 0 27007 10 27173 100 0 0 0       * a kobold
+M 0 27017 1 27175 100 0 0 0        * Falu
+M 0 27006 26 27176 100 0 0 0       * a kobold
+M 0 27016 1 27177 100 0 0 0        * Slurg
+M 0 27018 1 27181 100 0 0 0        * Rogget
+M 0 27006 26 27182 100 0 0 0       * a kobold
+M 0 27006 26 27182 100 0 0 0       * a kobold
+M 0 27012 1 27184 100 0 0 0        * Grindor
+E 1 27015 1 2 100 0 0 0            *   a blackened ring
+M 0 27013 2 27185 100 0 0 0        * a kobold guard
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27013 2 27185 100 0 0 0        * a kobold guard
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27014 1 27185 100 0 0 0        * Karfec
+E 1 27016 1 16 100 0 0 0           *   a skull on a stick
+M 0 27015 1 27186 100 0 0 0        * an enraged ape
+M 0 27019 1 27187 100 0 0 0        * Karfoc
+E 1 27019 1 16 100 0 0 0           *   a black wavy dagger
+M 0 27020 1 27187 100 0 0 0        * Krimor
+E 1 27026 1 16 100 0 0 0           *   a bone broadsword
+G 1 27027 1 0 100 0 0 0            *    a pair of silver tips
+M 0 27033 1 27189 100 0 0 0        * Remi Threepockets
+M 0 27034 1 27189 100 0 0 0        * Gird
+M 0 27035 1 27189 100 0 0 0        * A'den the Bard
+M 0 27036 1 27189 100 0 0 0        * Silverlinks
+E 1 27028 2 16 100 0 0 0           *   a silver dagger
+E 1 27028 2 17 100 0 0 0           *   a silver dagger
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27025 2 27189 100 0 0 0        * a bullette
+M 0 27025 2 27189 100 0 0 0        * a bullette
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27027 3 27189 100 0 0 0        * a hill giant
+M 0 27027 3 27189 100 0 0 0        * a hill giant
+M 0 27027 3 27189 100 0 0 0        * a hill giant
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27029 1 27189 100 0 0 0        * a ghoul
+M 0 27030 1 27189 100 0 0 0        * a wight
+M 0 27037 3 27189 100 0 0 0        * a carniverous ape
+M 0 27037 3 27189 100 0 0 0        * a carniverous ape
+M 0 27037 3 27189 100 0 0 0        * a carniverous ape
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27040 11 27196 100 0 0 0       * a manticore
+M 0 27040 11 27197 100 0 0 0       * a manticore
+M 0 27040 11 27199 100 0 0 0       * a manticore
+M 0 27040 11 27200 100 0 0 0       * a manticore
+M 0 27040 11 27201 100 0 0 0       * a manticore
+M 0 27040 11 27202 100 0 0 0       * a manticore
+M 0 27040 11 27203 100 0 0 0       * a manticore
+M 0 27040 11 27204 100 0 0 0       * a manticore
+M 0 27040 11 27205 100 0 0 0       * a manticore
+M 0 27040 11 27206 100 0 0 0       * a manticore
+M 0 27040 11 27207 100 0 0 0       * a manticore
+M 0 27043 5 27208 100 0 0 0        * a manticore
+M 0 27044 2 27209 100 0 0 0        * a manticore
+M 0 27043 5 27212 100 0 0 0        * a manticore
+M 0 27041 1 27212 100 0 0 0        * a manticore
+M 0 27043 5 27213 100 0 0 0        * a manticore
+M 0 27043 5 27214 100 0 0 0        * a manticore
+M 0 27043 5 27215 100 0 0 0        * a manticore
+M 0 27044 2 27216 100 0 0 0        * a manticore
+M 0 27045 9 27219 100 0 0 0        * a harpy
+M 0 27045 9 27219 100 0 0 0        * a harpy
+M 0 27046 4 27221 100 0 0 0        * a harpy
+M 0 27045 9 27222 100 0 0 0        * a harpy
+M 0 27045 9 27223 100 0 0 0        * a harpy
+M 0 27046 4 27225 100 0 0 0        * a harpy
+M 0 27045 9 27226 100 0 0 0        * a harpy
+M 0 27045 9 27227 100 0 0 0        * a harpy
+M 0 27045 9 27227 100 0 0 0        * a harpy
+M 0 27045 9 27229 100 0 0 0        * a harpy
+M 0 27045 9 27231 100 0 0 0        * a harpy
+M 0 27046 4 27233 100 0 0 0        * a harpy
+M 0 27046 4 27235 100 0 0 0        * a harpy
+*
+S

@@ -1,0 +1,16 @@
+#
+# Searchs input file for the "target" room
+# Prints room number and line matching "target"
+#
+# Invocation : gawk -f lookup.gawk target=<value> <input file> > output file
+#
+# nawk can be used for gawk.
+#
+BEGIN     { IGNORECASE = 1 }
+/#[0-9]+/    { prev = $0 
+	       getline
+	       if ($0 ~ target) {
+	          printf "%s %s\n", prev, $0;
+               }
+             }
+	{}

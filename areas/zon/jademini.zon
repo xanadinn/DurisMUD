@@ -1,0 +1,117 @@
+#772
+&+yThe &+WRice&+y Fields&n~
+77262 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 77221 1 1 100 0 0 0
+*     east exit from "The Central Mast of the Oberon" to
+*     "The Bridge of the Oberon" - closed
+*
+D 0 77228 3 1 100 0 0 0
+*     west exit from "The Bridge of the Oberon" to
+*     "The Central Mast of the Oberon" - closed
+*
+D 0 77235 5 2 100 0 0 0
+*     down exit from "The Helm of the Lacedon" to
+*     "A Narrow Corridor" - closed/locked
+*
+D 0 77239 4 2 100 0 0 0
+*     up exit from "A Narrow Corridor" to
+*     "The Helm of the Lacedon" - closed/locked
+*
+D 0 77239 1 2 100 0 0 0
+*     east exit from "A Narrow Corridor" to
+*     "The Brig" - closed/locked
+*
+D 0 77240 3 2 100 0 0 0
+*     west exit from "The Brig" to
+*     "A Narrow Corridor" - closed/locked
+*
+D 0 77246 2 5 100 0 0 0
+*     south exit from "Deep Beneath the Ocean" to
+*     "Inside the Cargo Hold" - closed/secret
+*
+D 0 77247 0 5 100 0 0 0
+*     north exit from "Inside the Cargo Hold" to
+*     "Deep Beneath the Ocean" - closed/secret
+*
+D 0 77261 5 6 100 0 0 0
+*     down exit from "Diving Below the Ocean Surface" to
+*     "The Ocean Floor" - closed/locked/secret
+*
+D 0 77262 4 6 100 0 0 0
+*     up exit from "The Ocean Floor" to
+*     "Diving Below the Ocean Surface" - closed/locked/secret
+*
+*
+O 0 77203 1 77223 100 0 0 0        * a long plank
+O 0 77202 1 77236 100 0 0 0        * a long plank
+O 0 77210 1 77262 100 0 0 0        * a treasure chest
+P 1 77212 2 77210 100 0 0 0        *   a pile of coins
+P 1 77212 2 77210 100 0 0 0        *   a pile of coins
+P 1 77211 1 77210 100 0 0 0        *   some jeweled flippers
+P 1 77213 1 77210 100 0 0 0        *   a glittering jeweled scepter
+P 1 77214 1 77210 100 0 0 0        *   some golden, jeweled gauntlets
+*
+M 0 77205 3 77202 100 0 0 0        * a mosquito swarm
+M 0 77205 3 77202 100 0 0 0        * a mosquito swarm
+M 0 77205 3 77202 100 0 0 0        * a mosquito swarm
+M 0 77200 6 77204 100 0 0 0        * a water ox
+M 0 77200 6 77204 100 0 0 0        * a water ox
+M 0 77200 6 77204 100 0 0 0        * a water ox
+M 0 77204 1 77206 100 0 0 0        * a packer
+M 0 77200 6 77209 100 0 0 0        * a water ox
+M 0 77200 6 77209 100 0 0 0        * a water ox
+M 0 77200 6 77209 100 0 0 0        * a water ox
+M 0 77201 6 77210 100 0 0 0        * a huge olyx
+M 0 77201 6 77210 100 0 0 0        * a huge olyx
+M 0 77201 6 77210 100 0 0 0        * a huge olyx
+M 0 77202 1 77213 100 0 0 0        * a halfling adventurer
+M 0 77201 6 77215 100 0 0 0        * a huge olyx
+G 1 77200 1 0 100 0 0 0            *    a half-digested money bag
+M 0 77201 6 77215 100 0 0 0        * a huge olyx
+M 0 77201 6 77215 100 0 0 0        * a huge olyx
+M 0 77203 1 77216 100 0 0 0        * a canner
+M 0 77212 1 77220 100 0 0 0        * the first mate
+M 0 77206 3 77221 100 0 0 0        * an oberon crewman
+M 0 77206 3 77221 100 0 0 0        * an oberon crewman
+M 0 77206 3 77221 100 0 0 0        * an oberon crewman
+M 0 77210 1 77222 100 0 0 0        * an emperor's guardsman
+M 0 77218 1 77224 100 0 0 0        * the oberon helmsman
+M 0 77207 1 77225 100 0 0 0        * an oberon crewman
+M 0 77208 1 77228 100 0 0 0        * the captain of the oberon
+M 0 77216 2 77231 100 0 0 0        * a pirate archer
+M 0 77209 4 77232 100 0 0 0        * a pirate
+M 0 77209 4 77232 100 0 0 0        * a pirate
+M 0 77209 4 77232 100 0 0 0        * a pirate
+M 0 77209 4 77232 100 0 0 0        * a pirate
+M 0 77215 2 77233 100 0 0 0        * a shady rascal
+M 0 77215 2 77233 100 0 0 0        * a shady rascal
+M 0 77211 1 77235 100 0 0 0        * Miu Pai
+E 1 77208 1 2 100 0 0 0            *   a silver-skull ring
+E 1 77206 1 16 100 0 0 0           *   a blacksteel cutlass
+G 1 77204 1 0 100 0 0 0            *    a set of keys
+M 0 77217 1 77235 100 0 0 0        * a shady rascal
+M 0 77216 2 77237 100 0 0 0        * a pirate archer
+M 0 77214 1 77240 100 0 0 0        * a captive princess of jade
+M 0 77213 8 77242 100 0 0 0        * a reef shark
+M 0 77213 8 77242 100 0 0 0        * a reef shark
+M 0 77213 8 77243 100 0 0 0        * a reef shark
+M 0 77213 8 77243 100 0 0 0        * a reef shark
+M 0 77213 8 77243 100 0 0 0        * a reef shark
+M 0 77219 4 77248 100 0 0 0        * a pirate
+M 0 77219 4 77248 100 0 0 0        * a pirate
+G 1 77209 1 0 100 0 0 0            *    a torn treasure map
+M 0 77219 4 77248 100 0 0 0        * a pirate
+M 0 77219 4 77248 100 0 0 0        * a pirate
+M 0 77213 8 77254 100 0 0 0        * a reef shark
+M 0 77213 8 77254 100 0 0 0        * a reef shark
+M 0 77213 8 77258 100 0 0 0        * a reef shark
+M 0 38026 2 77258 100 0 0 0        * (mob type not in this .mob file)
+M 0 38026 2 77258 100 0 0 0        * (mob type not in this .mob file)
+M 0 38011 2 77259 100 0 0 0        * (mob type not in this .mob file)
+M 0 38011 2 77259 100 0 0 0        * (mob type not in this .mob file)
+*
+S

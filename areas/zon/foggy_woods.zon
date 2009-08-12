@@ -1,0 +1,207 @@
+#900
+&+CThe Fog Enshrouded Wood&n~
+90220 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 90012 3 2 100 0 0 0
+*     west exit from "In the Logging Camp" to
+*     "The Logging Camp General Store" - closed/locked
+*
+D 0 90013 1 2 100 0 0 0
+*     east exit from "The Logging Camp General Store" to
+*     "In the Logging Camp" - closed/locked
+*
+D 0 90013 5 5 100 0 0 0
+*     down exit from "The Logging Camp General Store" to
+*     "A Hidden Staircase" - closed/secret
+*
+D 0 90030 4 1 100 0 0 0
+*     up exit from "A Hidden Staircase" to
+*     "The Logging Camp General Store" - closed
+*
+D 0 90017 0 1 100 0 0 0
+*     north exit from "Before a Large Cabin" to
+*     "The Camp Barracks" - closed
+*
+D 0 90018 2 1 100 0 0 0
+*     south exit from "The Camp Barracks" to
+*     "Before a Large Cabin" - closed
+*
+D 0 90018 1 1 100 0 0 0
+*     east exit from "The Camp Barracks" to
+*     "Front Sleeping Quarters" - closed
+*
+D 0 90019 3 1 100 0 0 0
+*     west exit from "Front Sleeping Quarters" to
+*     "The Camp Barracks" - closed
+*
+D 0 90021 3 1 100 0 0 0
+*     west exit from "Far West Side of Camp" to
+*     "Storage Shed" - closed
+*
+D 0 90022 1 1 100 0 0 0
+*     east exit from "Storage Shed" to
+*     "Far West Side of Camp" - closed
+*
+D 0 90080 5 5 100 0 0 0
+*     down exit from "Base of a Fallen Tree" to
+*     "Inside a Small Burrow" - closed/secret
+*
+D 0 90081 4 1 100 0 0 0
+*     up exit from "Inside a Small Burrow" to
+*     "Base of a Fallen Tree" - closed
+*
+D 0 90120 2 5 100 0 0 0
+*     south exit from "Within the Ashen Fog" to
+*     "Pathway of Spears" - closed/secret
+*
+D 0 90218 0 5 100 0 0 0
+*     north exit from "Pathway of Spears" to
+*     "Within the Ashen Fog" - closed/secret
+*
+D 0 90160 0 2 100 0 0 0
+*     north exit from "Within the Misty Forest" to
+*     "Inside a Trapper's Hut" - closed/locked
+*
+D 0 90161 2 2 100 0 0 0
+*     south exit from "Inside a Trapper's Hut" to
+*     "Within the Misty Forest" - closed/locked
+*
+D 0 90207 2 14 100 0 0 0
+*     south exit from "A Rocky Passageway" to
+*     "Side Cavern Storage Area" - closed/locked/secret/blocked
+*
+D 0 90208 0 6 100 0 0 0
+*     north exit from "Side Cavern Storage Area" to
+*     "A Rocky Passageway" - closed/locked/secret
+*
+D 0 90208 5 5 100 0 0 0
+*     down exit from "Side Cavern Storage Area" to
+*     "A Cramped Split in the Floor" - closed/secret
+*
+D 0 90214 4 1 100 0 0 0
+*     up exit from "A Cramped Split in the Floor" to
+*     "Side Cavern Storage Area" - closed
+*
+*
+O 0 90032 1 90005 100 0 0 0        * a moorwood sign
+O 0 90005 1 90033 100 0 0 0        * a mangled dog corpse
+O 0 90008 1 90072 100 0 0 0        * a hawk's nest
+P 1 90007 1 90008 100 0 0 0        *   a speckled hawk egg
+O 0 90031 1 90080 100 0 0 0        * a wooden sign
+O 0 90011 1 90084 100 0 0 0        * some gold ore
+O 0 90004 1 90131 100 0 0 0        * a star ruby monocle
+O 0 90028 1 90181 100 0 0 0        * a blood splattered ash tree
+O 0 90009 4 90204 100 0 0 0        * a gigantic torch
+O 0 90009 4 90206 100 0 0 0        * a gigantic torch
+O 0 90009 4 90207 100 0 0 0        * a gigantic torch
+O 0 90012 1 90208 100 0 0 0        * a heavy wooden crate
+P 1 90017 2 90012 100 0 0 0        *   a bottle of cheap white wine
+P 1 90017 2 90012 100 0 0 0        *   a bottle of cheap white wine
+O 0 90013 1 90208 100 0 0 0        * a heavy wooden crate
+P 1 90016 2 90013 100 0 0 0        *   a flask of dwarven ale
+P 1 90016 2 90013 100 0 0 0        *   a flask of dwarven ale
+O 0 90014 1 90208 100 0 0 0        * a woven silvery net
+O 0 90015 1 90208 100 0 0 0        * a silvermesh basket
+O 0 90009 4 90209 100 0 0 0        * a gigantic torch
+O 0 90010 1 90210 100 0 0 0        * a gigantic torch
+O 0 90022 1 90213 100 0 0 0        * a mineral encrusted chest
+P 1 90026 1 90022 100 0 0 0        *   a stash of gold coins
+O 0 90023 1 90213 100 0 0 0        * a mineral covered brass key
+*
+M 0 90021 2 90001 100 0 0 0        * a large gray squirrel
+M 0 90024 2 90002 100 0 0 0        * a large gray squirrel
+M 0 90024 2 90004 100 0 0 0        * a large gray squirrel
+M 0 90021 2 90005 100 0 0 0        * a large gray squirrel
+M 0 90001 10 90012 100 0 0 0       * a huge black wolf
+M 0 90000 21 90015 100 0 0 0       * a huge grey timber wolf
+M 0 90003 1 90020 100 0 0 0        * a huge white wolf
+M 0 90004 1 90028 100 0 0 0        * a boring beetle
+M 0 90022 1 90031 100 0 0 0        * Ulon the shopkeeper
+M 0 90000 21 90032 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90032 100 0 0 0       * a huge black wolf
+M 0 90028 1 90033 100 0 0 0        * the spirit mastiff
+E 1 90006 1 3 100 0 0 0            *   a spiked mastiff collar
+M 0 90029 1 90033 100 0 0 0        * a huge grey timber wolf
+M 0 90030 1 90033 100 0 0 0        * a huge black wolf
+M 0 90001 10 90039 100 0 0 0       * a huge black wolf
+M 0 90002 1 90042 100 0 0 0        * a huge grey timber wolf
+M 0 90000 21 90045 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90052 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90056 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90061 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90062 100 0 0 0       * a huge black wolf
+M 0 90000 21 90063 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90067 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90068 100 0 0 0       * a huge grey timber wolf
+M 0 90025 1 90072 100 0 0 0        * a red-tailed hawk
+M 0 90012 1 90084 100 0 0 0        * the aurumvorax
+M 0 90000 21 90085 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90088 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90089 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90090 100 0 0 0       * a huge black wolf
+M 0 90001 10 90092 100 0 0 0       * a huge black wolf
+M 0 90000 21 90098 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90107 100 0 0 0       * a huge black wolf
+M 0 90000 21 90110 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90119 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90123 100 0 0 0       * a huge black wolf
+M 0 90000 21 90126 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90128 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90131 100 0 0 0       * a huge black wolf
+M 0 90000 21 90133 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90141 100 0 0 0       * a huge grey timber wolf
+M 0 90001 10 90142 100 0 0 0       * a huge black wolf
+M 0 90000 21 90143 100 0 0 0       * a huge grey timber wolf
+M 0 90000 21 90149 100 0 0 0       * a huge grey timber wolf
+M 0 90009 3 90160 100 0 0 0        * a mihstu
+M 0 90013 1 90161 100 0 0 0        * the grizzled trapper
+E 1 90027 1 12 100 0 0 0           *   a warm flannel jacket
+M 0 90010 2 90162 100 0 0 0        * a muskrat
+M 0 90009 3 90164 100 0 0 0        * a mihstu
+M 0 90010 2 90164 100 0 0 0        * a muskrat
+M 0 90008 1 90166 100 0 0 0        * the crimson death
+G 1 90029 1 0 100 0 0 0            *    a yellow ring of chrysoberyl
+M 0 90011 2 90168 100 0 0 0        * a muskrat
+M 0 90009 3 90198 100 0 0 0        * a mihstu
+M 0 90011 2 90199 100 0 0 0        * a muskrat
+M 0 90026 1 90200 100 0 0 0        * a fog giant scout
+M 0 90017 1 90203 100 0 0 0        * the fog giant matron
+E 1 90021 1 2 100 0 0 0            *   an engraved silver ring
+M 0 90018 3 90203 100 0 0 0        * a young fog giant
+M 0 90023 2 90203 100 0 0 0        * a young fog giant
+M 0 90023 2 90203 100 0 0 0        * a young fog giant
+M 0 90015 2 90204 100 0 0 0        * a fog giant guard
+G 1 90020 4 0 100 0 0 0            *    a huge stone club
+M 0 90016 2 90204 100 0 0 0        * a fog giant guard
+G 1 90020 4 0 100 0 0 0            *    a huge stone club
+M 0 90014 1 90205 100 0 0 0        * the fog giant shaman
+E 1 90019 1 3 100 0 0 0            *   a silver beaded necklace
+E 1 90018 1 5 100 0 0 0            *   a silver-studded suit of white dragon scalemail
+G 1 90024 1 0 100 0 0 0            *    a huge wooden key
+M 0 90031 1 90205 100 0 0 0        * a fog giant guard
+M 0 90015 2 90206 100 0 0 0        * a fog giant guard
+G 1 90020 4 0 100 0 0 0            *    a huge stone club
+M 0 90016 2 90206 100 0 0 0        * a fog giant guard
+G 1 90020 4 0 100 0 0 0            *    a huge stone club
+M 0 90018 3 90207 100 0 0 0        * a young fog giant
+M 0 90018 3 90210 100 0 0 0        * a young fog giant
+M 0 90027 1 90211 100 0 0 0        * a fog giant
+M 0 90019 4 90214 100 0 0 0        * a large gray rat
+M 0 90019 4 90215 100 0 0 0        * a large gray rat
+M 0 90019 4 90216 100 0 0 0        * a large gray rat
+M 0 90019 4 90216 100 0 0 0        * a large gray rat
+M 0 90020 1 90217 100 0 0 0        * a vapor rat
+G 1 90030 1 0 100 0 0 0            *    a plumed griffon's feather helm and visor
+M 0 90007 2 90219 100 0 0 0        * a guardian skull
+M 0 90007 2 90219 100 0 0 0        * a guardian skull
+M 0 90005 1 90220 100 0 0 0        * the Beastmaster
+E 1 90002 1 8 100 0 0 0            *   some boots of the northlands
+E 1 90003 1 12 100 0 0 0           *   a black silken panther skin
+G 1 90000 1 0 100 0 0 0            *    a book of runes bound in animal hide
+G 1 90001 1 0 100 0 0 0            *    the ashen spear of the BeastMaster
+M 0 90006 1 90220 100 0 0 0        * the spirit wolf guardian
+*
+S

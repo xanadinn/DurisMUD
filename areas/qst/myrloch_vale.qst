@@ -1,0 +1,77 @@
+#26411
+M
+quest quests~
+He perks up and looks at you deep into your eyes.
+There are many of soul that venture into the under-realms,
+but there are none that venture out. If you are brave enough
+and your will and heart is good, get together a big group and
+travel there........but you must first discover the secrets
+of the shrine...............ohhhh...also...if you by chance
+find any of my old items down there bring them to me. I might
+be able to tell you what it is that they do.................
+Begin your quest at the elder, and ask him about the chest he
+found over one hundred years ago. He might be able to help you
+.............................................................
+He goes silent for a few moments then says 'good luck'.
+~
+M
+head warlord fire~
+He says 'ohhh yesss, the warlord of fire, in the under-realms,
+I have heard stories about him/it/her for centuries, if the
+elder requests his head, by all means......bring it to him'.
+~
+M
+qc_action 50~
+$n sighs loudly.
+$n says, '&+WIf only I could get this bloody warlord.&n'
+~
+Q
+He says 'Thank you for returning the old key. Here, I shall
+repay you. Take this key, it will open the locked door that
+blocked your way.'
+~
+R I 26409
+G I 26417
+Q
+He says 'Thank you!  I lost my bracelet long ago, I thought
+it was lost forever!  As a reward, I will give you this new
+one.  It may help you in your endeavors.'
+~
+R I 26421
+G I 26420
+Q
+My dagger! My most prized possesion! THANK YOU! The master
+gives you a big hug. For THIS being returned to me I shall
+give you this twisted sphere. It seems very arcane, but it
+will serve you well.
+~
+R I 26434
+G I 26433
+D
+Then he waves good-bye and says, thank you.
+~
+S
+#26417
+M
+chest~
+Ahh he says, 'this chest was actually given to me by my father
+who's forefather had it before him. This chest has passed from
+generation to generation, and there is a reason why. He clears
+his voice and says 'only when the warlord of fire's head is
+sacraficed to the shrine by the current elder, then and only
+then will we be able to open the chest of the under-realms and
+release the power within it'. If you think you can find, let
+alone kill the beast, bring his head to me and I shall reward
+thee greatly.
+~
+Q
+The elder holds the head of the warlord up high and says 'thank you
+m'friends. You may have this key, it is for the chest, and the contents
+of it is all yours. He then says 'thank you for everything'.
+~
+R I 26406
+G I 26418
+D
+Then he waves goodbye, and heads out to sacrifice the head to the gods.
+~
+S

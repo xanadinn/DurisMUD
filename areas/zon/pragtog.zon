@@ -1,0 +1,213 @@
+#106
+&+yPragtog's Domain&n~
+10693 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 10600 0 1 100 0 0 0
+*     north exit from "Small Tunnel" to
+*     "Entryway" - closed
+*
+D 0 10601 2 1 100 0 0 0
+*     south exit from "Entryway" to
+*     "Small Tunnel" - closed
+*
+D 0 10601 0 1 100 0 0 0
+*     north exit from "Entryway" to
+*     "Dark Hallway" - closed
+*
+D 0 10603 2 1 100 0 0 0
+*     south exit from "Dark Hallway" to
+*     "Entryway" - closed
+*
+D 0 10608 0 1 100 0 0 0
+*     north exit from "Bend in a Dark Hallway" to
+*     "Small Room" - closed
+*
+D 0 10614 2 1 100 0 0 0
+*     south exit from "Small Room" to
+*     "Bend in a Dark Hallway" - closed
+*
+D 0 10609 5 6 100 0 0 0
+*     down exit from "Meat Room" to
+*     "End of a Bloody Tunnel" - closed/locked/secret
+*
+D 0 10616 4 6 100 0 0 0
+*     up exit from "End of a Bloody Tunnel" to
+*     "Meat Room" - closed/locked/secret
+*
+D 0 10614 3 1 100 0 0 0
+*     west exit from "Small Room" to
+*     "Sleeping Area" - closed
+*
+D 0 10615 1 1 100 0 0 0
+*     east exit from "Sleeping Area" to
+*     "Small Room" - closed
+*
+D 0 10619 1 5 100 0 0 0
+*     east exit from "Dead End" to
+*     "Small Alcove" - closed/secret
+*
+D 0 10621 3 5 100 0 0 0
+*     west exit from "Small Alcove" to
+*     "Dead End" - closed/secret
+*
+D 0 10624 3 1 100 0 0 0
+*     west exit from "Wide Hallway" to
+*     "Shaman's Quarters" - closed
+*
+D 0 10625 1 1 100 0 0 0
+*     east exit from "Shaman's Quarters" to
+*     "Wide Hallway" - closed
+*
+D 0 10634 1 1 100 0 0 0
+*     east exit from "Slave Room" to
+*     "A Tiny Cell" - closed
+*
+D 0 10637 3 1 100 0 0 0
+*     west exit from "A Tiny Cell" to
+*     "Slave Room" - closed
+*
+D 0 10655 1 2 100 0 0 0
+*     east exit from "A Large Chamber" to
+*     "A Small Storage Room" - closed/locked
+*
+D 0 10656 3 2 100 0 0 0
+*     west exit from "A Small Storage Room" to
+*     "A Large Chamber" - closed/locked
+*
+D 0 10691 0 5 100 0 0 0
+*     north exit from "Waterfall Room" to
+*     "Behind a Waterfall" - closed/secret
+*
+D 0 10692 2 1 100 0 0 0
+*     south exit from "Behind a Waterfall" to
+*     "Waterfall Room" - closed
+*
+*
+O 0 10607 3 10609 100 0 0 0        * some rotting meat
+O 0 10607 3 10609 100 0 0 0        * some rotting meat
+O 0 10607 3 10609 100 0 0 0        * some rotting meat
+O 0 10609 1 10609 100 0 0 0        * a bloodstained hammer
+O 0 10608 1 10609 100 0 0 0        * a bloody butcher knife
+O 0 10613 1 10617 100 0 0 0        * a pool of blood
+O 0 10614 1 10618 100 0 0 0        * a small patch of fungi
+O 0 10615 1 10619 100 0 0 0        * a small patch of fungi
+O 0 10616 1 10621 100 0 0 0        * a small niche
+P 1 10617 1 10616 100 0 0 0        *   a piece of paper
+O 0 10634 1 10621 100 0 0 0        * a burnt spellbook
+O 0 10635 1 10621 100 0 0 0        * a skeletal corpse
+O 0 10623 1 10623 100 0 0 0        * a tall, dark statue
+O 0 10621 1 10625 100 0 0 0        * a bone altar
+O 0 10620 1 10625 100 0 0 0        * a large glowing rock
+O 0 10625 3 10630 100 0 0 0        * a broken chair
+O 0 10625 3 10630 100 0 0 0        * a broken chair
+O 0 10627 1 10631 100 0 0 0        * a large table
+O 0 10636 2 10632 100 0 0 0        * a bone
+O 0 10626 2 10632 100 0 0 0        * some rotting food
+O 0 10626 2 10633 100 0 0 0        * some rotting food
+O 0 10625 3 10633 100 0 0 0        * a broken chair
+O 0 10643 5 10644 100 0 0 0        * a small green mushroom
+O 0 10643 5 10644 100 0 0 0        * a small green mushroom
+O 0 10644 4 10644 100 0 0 0        * a large red mushroom
+O 0 10644 4 10645 100 0 0 0        * a large red mushroom
+O 0 10643 5 10646 100 0 0 0        * a small green mushroom
+O 0 10644 4 10646 100 0 0 0        * a large red mushroom
+O 0 10642 1 10647 100 0 0 0        * a small pool
+O 0 10643 5 10647 100 0 0 0        * a small green mushroom
+O 0 10643 5 10647 100 0 0 0        * a small green mushroom
+O 0 10644 4 10647 100 0 0 0        * a large red mushroom
+O 0 10645 1 10648 100 0 0 0        * a glowing circle of stone runes
+O 0 10649 1 10656 100 0 0 0        * a glowing red wand
+O 0 10624 1 10656 100 0 0 0        * a dusty potion
+O 0 10657 1 10665 100 0 0 0        * a warped blue shield
+O 0 10650 1 10669 100 0 0 0        * the ebony skeleton of a demon
+P 1 10651 1 10650 100 0 0 0        *   a black demon's tooth
+O 0 10658 2 10690 100 0 0 0        * a small clear stream
+O 0 10659 1 10691 100 0 0 0        * a clear waterfall
+O 0 10658 2 10691 100 0 0 0        * a small clear stream
+*
+M 0 10600 1 10600 100 0 0 0        * a huge orc guard
+G 1 10600 1 0 100 0 0 0            *    a suit of rotting leather armor
+G 1 10601 1 0 100 0 0 0            *    a stone club
+M 0 10601 2 10602 100 0 0 0        * a smelly orc guard
+E 1 10603 2 11 100 0 0 0           *   a wooden buckler
+E 1 10602 2 16 100 0 0 0           *   a small rusty sword
+M 0 10601 2 10602 100 0 0 0        * a smelly orc guard
+E 1 10603 2 11 100 0 0 0           *   a wooden buckler
+E 1 10602 2 16 100 0 0 0           *   a small rusty sword
+M 0 10602 1 10605 100 0 0 0        * a lost gnome
+E 1 10605 1 5 100 0 0 0            *   a torn shirt
+E 1 10606 1 7 100 0 0 0            *   a pair of patched breeches
+G 1 10611 1 0 100 0 0 0            *    a small key made of stone
+M 0 10603 1 10611 100 0 0 0        * a fat orcish cook
+E 1 10610 1 12 100 0 0 0           *   a stained and smelly apron
+M 0 10604 2 10615 100 0 0 0        * an orcish warrior
+M 0 10604 2 10615 100 0 0 0        * an orcish warrior
+M 0 10605 1 10617 100 0 0 0        * a drevch
+G 1 10612 1 0 100 0 0 0            *    a drevch shell ring
+M 0 10606 1 10625 100 0 0 0        * an orcish shaman
+E 1 10622 1 3 100 0 0 0            *   a bone amulet
+E 1 10619 1 5 100 0 0 0            *   a tattered robe
+E 1 10618 1 18 100 0 0 0           *   a rune covered book
+M 0 10608 3 10629 100 0 0 0        * an orc guard
+E 1 10629 2 5 100 0 0 0            *   a suit of rusty banded mail
+M 0 10613 2 10629 100 0 0 0        * a hungry orc
+M 0 10607 4 10630 100 0 0 0        * a drunk orc
+M 0 10607 4 10630 100 0 0 0        * a drunk orc
+M 0 10608 3 10631 100 0 0 0        * an orc guard
+E 1 10629 2 5 100 0 0 0            *   a suit of rusty banded mail
+E 1 10628 2 16 100 0 0 0           *   a short sword
+M 0 10607 4 10632 100 0 0 0        * a drunk orc
+M 0 10613 2 10632 100 0 0 0        * a hungry orc
+E 1 10636 2 18 100 0 0 0           *   a bone
+M 0 10607 4 10633 100 0 0 0        * a drunk orc
+M 0 10608 3 10633 100 0 0 0        * an orc guard
+E 1 10628 2 16 100 0 0 0           *   a short sword
+M 0 10610 4 10634 100 0 0 0        * a derro slave
+M 0 10610 4 10634 100 0 0 0        * a derro slave
+M 0 10612 2 10634 100 0 0 0        * a gnome slave
+M 0 10609 1 10634 100 0 0 0        * Rekrok the slavemaster
+E 1 10633 1 13 100 0 0 0           *   a dark leather loincloth
+E 1 10630 1 15 100 0 0 0           *   a heavily spiked bracer
+E 1 10631 1 16 100 0 0 0           *   a barbed bullwhip
+G 1 10632 1 0 100 0 0 0            *    a large iron key
+M 0 10617 3 10636 100 0 0 0        * an orc female
+M 0 10617 3 10636 100 0 0 0        * an orc female
+M 0 10617 3 10636 100 0 0 0        * an orc female
+M 0 10615 1 10636 100 0 0 0        * Chief Pragtog
+E 1 10639 1 5 100 0 0 0            *   a suit of heavy stone-plate armor
+E 1 10637 1 16 100 0 0 0           *   the dagger of bloodlust
+E 1 10638 1 17 100 0 0 0           *   a heavy broadsword
+M 0 10610 4 10637 100 0 0 0        * a derro slave
+M 0 10610 4 10637 100 0 0 0        * a derro slave
+M 0 10611 2 10637 100 0 0 0        * a goblin slave
+M 0 10611 2 10637 100 0 0 0        * a goblin slave
+M 0 10612 2 10637 100 0 0 0        * a gnome slave
+M 0 10618 2 10638 100 0 0 0        * an evil orc
+E 1 10641 1 16 100 0 0 0           *   a long black whip
+M 0 10619 2 10638 100 0 0 0        * a goblin slave
+M 0 10619 2 10639 100 0 0 0        * a goblin slave
+M 0 10616 3 10640 100 0 0 0        * a dwarf slave
+E 1 10640 1 16 100 0 0 0           *   a mining pick
+M 0 10616 3 10641 100 0 0 0        * a dwarf slave
+M 0 10616 3 10641 100 0 0 0        * a dwarf slave
+M 0 10618 2 10641 100 0 0 0        * an evil orc
+M 0 10614 1 10642 100 0 0 0        * a deadly basilisk
+M 0 10620 1 10647 100 0 0 0        * a small mimic
+M 0 10621 1 10648 100 0 0 0        * a guardian spirit
+E 1 10646 1 3 100 0 0 0            *   a necklace of sparkling pearls
+M 0 10624 1 10658 100 0 0 0        * a lurking thief
+E 1 10652 1 16 100 0 0 0           *   a black steel dagger
+E 1 10653 1 18 100 0 0 0           *   a small black bag
+P 1 10654 1 10653 100 0 0 0        *   a large ruby
+P 1 10655 3 10653 100 0 0 0        *   a stone lockpick
+P 1 10655 3 10653 100 0 0 0        *   a stone lockpick
+P 1 10655 3 10653 100 0 0 0        *   a stone lockpick
+P 1 10656 1 10653 100 0 0 0        *   a small stone figurine
+M 0 10622 1 10665 100 0 0 0        * an umber hulk
+M 0 10623 1 10668 100 0 0 0        * a trapped ghost
+M 0 10625 1 10680 100 0 0 0        * a duergar slave
+*
+S

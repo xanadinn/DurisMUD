@@ -1,0 +1,131 @@
+#886
+&+bMorg's &+yPlace&n~
+88629 2 0 20 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 88600 1 1 100 0 0 0
+*     east exit from "Before a Large Door" to
+*     "A Large Chamber" - closed
+*
+D 0 88604 3 1 100 0 0 0
+*     west exit from "A Large Chamber" to
+*     "Before a Large Door" - closed
+*
+D 0 88603 1 1 100 0 0 0
+*     east exit from "A Large Chamber" to
+*     "An Anteroom before the Proprietor's Quarters" - closed
+*
+D 0 88627 3 1 100 0 0 0
+*     west exit from "An Anteroom before the Proprietor's Quarters" to
+*     "A Large Chamber" - closed
+*
+D 0 88608 2 1 100 0 0 0
+*     south exit from "A Large Chamber" to
+*     "A Private Room" - closed
+*
+D 0 88626 0 1 100 0 0 0
+*     north exit from "A Private Room" to
+*     "A Large Chamber" - closed
+*
+D 0 88609 1 1 100 0 0 0
+*     east exit from "A Large Chamber" to
+*     "A Private Room" - closed
+*
+D 0 88624 3 1 100 0 0 0
+*     west exit from "A Private Room" to
+*     "A Large Chamber" - closed
+*
+D 0 88609 2 1 100 0 0 0
+*     south exit from "A Large Chamber" to
+*     "A Private Room" - closed
+*
+D 0 88625 0 1 100 0 0 0
+*     north exit from "A Private Room" to
+*     "A Large Chamber" - closed
+*
+D 0 88613 5 5 100 0 0 0
+*     down exit from "A Back Room" to
+*     "A Hidden Stone Passageway" - closed/secret
+*
+D 0 88614 4 5 100 0 0 0
+*     up exit from "A Hidden Stone Passageway" to
+*     "A Back Room" - closed/secret
+*
+D 0 88616 3 5 100 0 0 0
+*     west exit from "The Wine Cellar" to
+*     "A Filthy Nest" - closed/secret
+*
+D 0 88618 1 5 100 0 0 0
+*     east exit from "A Filthy Nest" to
+*     "The Wine Cellar" - closed/secret
+*
+*
+*
+M 0 88600 1 88600 100 0 0 0        * the Morg's Tavern bouncer
+M 0 88602 9 88601 100 0 0 0        * a troll patron
+M 0 88602 9 88601 100 0 0 0        * a troll patron
+M 0 88608 10 88602 100 0 0 0       * a drunken ogre
+M 0 88608 10 88602 100 0 0 0       * a drunken ogre
+M 0 88602 9 88603 100 0 0 0        * a troll patron
+M 0 88607 5 88604 100 0 0 0        * an ogress serving wench
+M 0 88608 10 88604 100 0 0 0       * a drunken ogre
+M 0 88601 2 88605 100 0 0 0        * an ogre bouncer
+M 0 88602 9 88605 100 0 0 0        * a troll patron
+M 0 88611 1 88606 100 0 0 0        * the bartender
+M 0 88607 5 88606 100 0 0 0        * an ogress serving wench
+M 0 88607 5 88606 100 0 0 0        * an ogress serving wench
+M 0 88602 9 88607 100 0 0 0        * a troll patron
+M 0 88602 9 88607 100 0 0 0        * a troll patron
+M 0 88608 10 88608 100 0 0 0       * a drunken ogre
+M 0 88608 10 88608 100 0 0 0       * a drunken ogre
+M 0 88602 9 88609 100 0 0 0        * a troll patron
+M 0 88602 9 88609 100 0 0 0        * a troll patron
+M 0 88601 2 88610 100 0 0 0        * an ogre bouncer
+M 0 88608 10 88613 100 0 0 0       * a drunken ogre
+M 0 88608 10 88613 100 0 0 0       * a drunken ogre
+M 0 88610 3 88615 100 0 0 0        * an ogre guard
+M 0 88610 3 88617 100 0 0 0        * an ogre guard
+M 0 88606 3 88618 100 0 0 0        * an ugly wererat
+M 0 88614 5 88619 100 0 0 0        * a smelly wererat
+M 0 88614 5 88619 100 0 0 0        * a smelly wererat
+M 0 88614 5 88619 100 0 0 0        * a smelly wererat
+M 0 88614 5 88619 100 0 0 0        * a smelly wererat
+M 0 88617 3 88619 100 0 0 0        * an ugly wererat
+M 0 88618 3 88619 100 0 0 0        * an ugly wererat
+M 0 88617 3 88619 100 0 0 0        * an ugly wererat
+M 0 88618 3 88619 100 0 0 0        * an ugly wererat
+M 0 88606 3 88620 100 0 0 0        * an ugly wererat
+M 0 88616 4 88620 100 0 0 0        * an ugly wererat
+M 0 88616 4 88620 100 0 0 0        * an ugly wererat
+M 0 88616 4 88620 100 0 0 0        * an ugly wererat
+M 0 88615 3 88620 100 0 0 0        * an ugly wererat
+M 0 88615 3 88620 100 0 0 0        * an ugly wererat
+M 0 88617 3 88620 100 0 0 0        * an ugly wererat
+M 0 88618 3 88620 100 0 0 0        * an ugly wererat
+M 0 88614 5 88621 100 0 0 0        * a smelly wererat
+M 0 88613 1 88621 100 0 0 0        * the wererat pack leader
+M 0 88606 3 88622 100 0 0 0        * an ugly wererat
+M 0 88615 3 88622 100 0 0 0        * an ugly wererat
+M 0 88616 4 88622 100 0 0 0        * an ugly wererat
+M 0 88609 3 88623 100 0 0 0        * a duergar dwarf
+M 0 88605 5 88623 100 0 0 0        * an angry derro
+M 0 88605 5 88623 100 0 0 0        * an angry derro
+M 0 88602 9 88624 100 0 0 0        * a troll patron
+M 0 88608 10 88624 100 0 0 0       * a drunken ogre
+M 0 88605 5 88625 100 0 0 0        * an angry derro
+M 0 88605 5 88625 100 0 0 0        * an angry derro
+M 0 88609 3 88625 100 0 0 0        * a duergar dwarf
+M 0 88609 3 88625 100 0 0 0        * a duergar dwarf
+M 0 88605 5 88626 100 0 0 0        * an angry derro
+M 0 88607 5 88626 100 0 0 0        * an ogress serving wench
+M 0 88610 3 88627 100 0 0 0        * an ogre guard
+M 0 88603 1 88628 100 0 0 0        * Morg
+M 0 88604 1 88628 100 0 0 0        * Morg's mate
+M 0 88612 1 88629 100 0 0 0        * an elegant drow
+M 0 88608 10 88629 100 0 0 0       * a drunken ogre
+M 0 88608 10 88629 100 0 0 0       * a drunken ogre
+M 0 88607 5 88629 100 0 0 0        * an ogress serving wench
+*
+S

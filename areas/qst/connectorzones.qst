@@ -1,0 +1,222 @@
+#53637
+M
+hello hi dark moor moors~
+   &+WThe druid looks at you and says &N'Hello, I am a storm druid.  I do not
+care for the forests as many druids do, but I still respect and proect them
+till my dying breath.  If you find any trace of the forest being &+Lburnt&N or
+threatened, bring it to me and I shall reward you!&N'
+~
+Q
+   &+WThe druid&N gasps at the brutality done to one of the neighboring
+trees!
+   &+W'&NI shall find whoever has done this!  Thank you, take these coins
+for your findings&+W' the druid says.
+~
+R C 20000
+G I 53625
+D
+   &+WThe druid&N sneaks off into the mountains.
+~
+S
+#53640
+M
+hi hello feathers craft feather feathered~
+   &+yThe barbarian looks at you and says '&NYes.  I make all sorts of
+things from feathers!  I trying to rest now though so I can make
+nothing too big!  Bring me, four &+yeagle &+Wfeathers&N and I make for you
+a mask!&+y'
+   &+yThe barbarian thinks for a moment, '&nAlso bring me ten &+Wplatinum&N coins
+for my work!  I do not work for free!&+y'
+~
+Q
+~
+R I 53623
+G I 53622
+G I 53622
+G I 53622
+G I 53622
+G C 10000
+S
+#53658
+M
+qc_action 45~
+&+cChauseis&n prays intently at the alter.
+&+cChauseis&n' eyes meet yours for a moment, and she manages a weak smile.
+~
+M
+qc_action 48~
+&+cChauseis&+W, the high elf priestess&n says 'The power to fill yourself with the wisdom of the ages is within the grasp of all of us. We simply need to wait
+for our own abilities to blossom and flower."
+&+cChauseis&n smiles happily.
+~
+Q
+A soft glowing, yet powerful, ray of light permeates the area, and suddenly
+focuses before you. When it subsides, what remains seems to be a small scroll.
+~
+R I 410
+G I 32490
+G I 26614
+G I 402
+S
+#53700
+M
+kraken~
+&+mAhanz &+Llooks at you and says, 'The Kraken? The Kraken are a foul
+&+Land disgusting race. They are an abomination! Those who ally
+&+Lthemselves with the Kraken are doomed to face my blades.'
+
+&+L'If you wish to consider yourself worthy of my presence, you
+&+Lwill need to bring me both heads of the Kraken royals. Otherwide,
+&+Lget out of my sight!'
+~
+Q
+~
+R I 53646
+G I 53643
+G I 53644
+D
+&+mAhanz &+Lcackles an insane glee as you hand him the heads
+&+Lof his enemies.
+
+&+L'Excellent! You have proven yourself a worthy hunter.
+&+LWith those two out of the way, I can get back to puring
+&+Ltheir kind from this world.'
+
+&+L'Perhaps you can find a good use for this wand. May it
+&+Laid in your hunting.'
+~
+S
+#53702
+M
+tomb~
+&+LA fallen shadow says to you, '&nOnly the key given by the &+Lpowerful &+mmy&+rst&+mic
+&nis able to defeat the magical locks that protect this tomb.&+L'&n
+~
+M
+powerful mystic~
+&+LA fallen shadow says to you, '&nThe &+Lpowerful &+mmy&+rst&+mic &+Lof which you speak
+&nresides at &+Lthe Center of an &+yAncient &+LCrater&n. Go to her.&+L'&n
+~
+S
+#53704
+M
+hi greetings~
+&+L   A once great adventurer smiles warmly at you and begins
+&+Lto tell you something.
+
+&+L'Thank goodness for your efforts, young one. I have been
+&+Lstuck in this god forsaken place for decades. That swine
+&+BAceralde &+Ldeserves the fate you brought upon him!'
+
+&+L'As promised, I will help forge an item of great power
+&+Lfor you before I leave. While I was inside the tower, I
+&+Llearned a great deal about how to meld their equipment
+&+Linto more powerful forms.'
+
+&+L'If I remember correctly, I could forge you a powerful piece
+&+Lfor either a &+Wpriest&+L, a &+Wmage&+L, or a &+Wwarrior&+L.'
+
+&+L'There is a legend that tells of a &+Yw&+Wis&+Ye &+RGn&+romi&+Rsh &+Yco&+Wsm&+Yomanc&+Wer
+&+Lthat can use this item to forge artifacts of unimaginable &+rpo&+Rw&+rer&+L!
+&+LNobody has seen this man in nearly a decade, but rumors have
+&+Lit that he has built an observatory near the &+WCity of &+YTorrhan&+L.'&n
+~
+M
+priest~
+&+L   A once great &+yadventurer &+Lsays, 'For a priest, I can make you
+&+La piece that is part of a very powerful crown.'
+
+&+L'However, this item comes at a cost. It requires that you
+&+Lbring me the following pieces. It is only when these pieces
+&+Lhave been taken apart that they can brought back together
+&+Lin another form...'
+
+&+L'I require the skin of the shadow eel, &+ga tight green cloak&+L,
+&+Ythe helm of light&+L, &+Ga foggy visor &+Land &+Mthe mask of hatred&+L.'
+
+&+L'Bring me these items, and this item will be yours.'&n
+~
+M
+mage~
+&+L   A once great &+yadventurer &+Lsays, 'For a mage, I can make you
+&+La piece that is part of a very powerful staff.'
+
+&+L'However, this item comes at a cost. It requires that you
+&+Lbring me the following pieces. It is only when these pieces
+&+Lhave been taken apart that they can be brought back together
+&+Lin another form...'
+
+&+L'I require the skin of the shadow eel, &+ga tight green cloak&+L,
+&+Ga foggy visor&+L, a shadowy chest plate, and lastly, &+ma purple
+&+mrobe of &+Wstars&+L.'
+
+&+L'Bring me these items, and this item will be yours.'
+~
+M
+warrior~
+&+L   A once great &+yadventurer &+Lsays, 'For a warrior, I can make
+&+Lyou a piece that is part of a very powerful platemail.'
+
+&+L'However, this item comes at a cost. It requires that you
+&+Lbring me the following pieces. It is only when these pieces
+&+Lhave been taken apart that they can brought back together
+&+Lin another form...'
+
+&+L'I require the skin of the shadow eel, &+ga tight green cloak&+L,
+&+ran earring of congealed blood&+L, a shadowy chest plate, and a
+&+Bmisty blue dragon scale armor&+L.'
+
+&+L'Bring me these items, and this item will be yours.'&n
+~
+Q
+~
+R I 53650
+R I 53660
+G I 16210
+G I 16269
+G I 16224
+G I 16249
+G I 16232
+D
+&+L   A once great adventurer grins wickedly and says, 'So
+&+Lyou chose the item for your one of your mages, eh? Well,
+&+Lyou will not be disappointed! Bring this item to the &+RGn&+romi&+Rsh
+&+Yco&+Wsm&+Yomanc&+Wer &+Lwho resides near the &+WCity of &+YTorrhan&+L, once all
+&+Lthe pieces are together, he will craft you something that is
+&+Lwell worth the effort.'
+~
+Q
+~
+R I 53652
+R I 53660
+G I 16210
+G I 16269
+G I 16248
+G I 16249
+G I 16234
+D
+&+L   A once great adventurer grins wickedly and says, 'So
+&+Lyou chose the item for your one of your warriors, eh? Well,
+&+Lyou will not be disappointed! Bring this item to the &+RGn&+romi&+Rsh
+&+Yco&+Wsm&+Yomanc&+Wer &+Lwho resides near the &+WCity of &+YTorrhan&+L, once all
+&+Lthe pieces are together, he will craft you something that is
+&+Lwell worth the effort.'
+~
+Q
+~
+R I 53651
+R I 53660
+G I 16210
+G I 16269
+G I 16244
+G I 16235
+G I 16224
+D
+&+L   A once great adventurer grins wickedly and says, 'So
+&+Lyou chose the item for your one of your priests, eh? Well,
+&+Lyou will not be disappointed! Bring this item to the &+RGn&+romi&+Rsh
+&+Yco&+Wsm&+Yomanc&+Wer &+Lwho resides near the &+WCity of &+YTorrhan&+L, once all
+&+Lthe pieces are together, he will craft you something that is
+&+Lwell worth the effort.'
+~
+S

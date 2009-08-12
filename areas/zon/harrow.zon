@@ -1,0 +1,362 @@
+#294
+&+cH&n&+wa&n&+yrr&n&+co&n&+Cw&n &+c-&n&+LThe &+RGnome&n &+cVillage&n~
+29482 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 29400 0 1 100 0 0 0
+*     north exit from "Artist Colony of Harrow" to
+*     "Pathway in the Artist Colony of Harrow" - closed
+*
+D 0 29401 2 1 100 0 0 0
+*     south exit from "Pathway in the Artist Colony of Harrow" to
+*     "Artist Colony of Harrow" - closed
+*
+D 0 29413 2 1 100 0 0 0
+*     south exit from "Before An Artist Home" to
+*     "Inside An Artist Home" - closed
+*
+D 0 29445 0 1 100 0 0 0
+*     north exit from "Inside An Artist Home" to
+*     "Before An Artist Home" - closed
+*
+D 0 29416 2 1 100 0 0 0
+*     south exit from "Before An Artist Home" to
+*     "Inside the Sewing Home" - closed
+*
+D 0 29442 0 1 100 0 0 0
+*     north exit from "Inside the Sewing Home" to
+*     "Before An Artist Home" - closed
+*
+D 0 29418 1 1 100 0 0 0
+*     east exit from "Before An Artist House " to
+*     "Inside A Bards Home" - closed
+*
+D 0 29419 3 1 100 0 0 0
+*     west exit from "Inside A Bards Home" to
+*     "Before An Artist House " - closed
+*
+D 0 29420 0 1 100 0 0 0
+*     north exit from "Before The Art Center" to
+*     "Main Entry" - closed
+*
+D 0 29424 2 1 100 0 0 0
+*     south exit from "Main Entry" to
+*     "Before The Art Center" - closed
+*
+D 0 29422 3 1 100 0 0 0
+*     west exit from "Before A Glassblowers Home" to
+*     "Inside A Glassblowers Home" - closed
+*
+D 0 29423 1 1 100 0 0 0
+*     east exit from "Inside A Glassblowers Home" to
+*     "Before A Glassblowers Home" - closed
+*
+D 0 29425 3 1 100 0 0 0
+*     west exit from "A Large Kitchen" to
+*     "Entrance To A Lovely Garden" - closed
+*
+D 0 29426 1 1 100 0 0 0
+*     east exit from "Entrance To A Lovely Garden" to
+*     "A Large Kitchen" - closed
+*
+D 0 29430 5 1 100 0 0 0
+*     down exit from "A Lush Full Garden" to
+*     "A Dark Tunnel" - closed
+*
+D 0 29448 4 1 100 0 0 0
+*     up exit from "A Dark Tunnel" to
+*     "A Lush Full Garden" - closed
+*
+D 0 29433 3 1 100 0 0 0
+*     west exit from "A Lush Full Garden" to
+*     "Green House" - closed
+*
+D 0 29434 1 1 100 0 0 0
+*     east exit from "Green House" to
+*     "A Lush Full Garden" - closed
+*
+D 0 29437 0 1 100 0 0 0
+*     north exit from "Art And Magic Supply Store" to
+*     "The Art Room" - closed
+*
+D 0 29438 2 1 100 0 0 0
+*     south exit from "The Art Room" to
+*     "Art And Magic Supply Store" - closed
+*
+D 0 29442 2 1 100 0 0 0
+*     south exit from "Inside the Sewing Home" to
+*     "Artisan Workroom" - closed
+*
+D 0 29444 0 1 100 0 0 0
+*     north exit from "Artisan Workroom" to
+*     "Inside the Sewing Home" - closed
+*
+D 0 29447 4 1 100 0 0 0
+*     up exit from "Sleeping Area " to
+*     "An Attic Playroom" - closed
+*
+D 0 29482 5 1 100 0 0 0
+*     down exit from "An Attic Playroom" to
+*     "Sleeping Area " - closed
+*
+*
+O 0 29445 8 29402 100 0 0 0        * a stall
+O 0 29445 8 29403 100 0 0 0        * a stall
+O 0 29445 8 29404 100 0 0 0        * a stall
+O 0 29445 8 29405 100 0 0 0        * a stall
+O 0 29445 8 29406 100 0 0 0        * a stall
+O 0 29445 8 29407 100 0 0 0        * a stall
+O 0 29445 8 29408 100 0 0 0        * a stall
+O 0 29445 8 29409 100 0 0 0        * a stall
+O 0 29423 1 29410 100 0 0 0        * a sparkling fountain
+O 0 29405 1 29428 100 0 0 0        * a sapphire ring
+O 0 29430 1 29440 100 0 0 0        * a portal
+O 0 29436 1 29442 100 0 0 0        * a sewing contraption
+O 0 29441 1 29443 100 0 0 0        * a fishbowl teleporter
+O 0 29433 1 29445 100 0 0 0        * a colorful painting
+O 0 29410 1 29451 100 0 0 0        * spider silk
+O 0 29425 1 29469 100 0 0 0        * no_show waterfall
+O 0 29484 1 29470 100 0 0 0        * a patch of moss
+P 1 29483 1 29484 100 0 0 0        *   an anti-poison potion
+O 0 29431 1 29471 100 0 0 0        * a portal
+O 0 29461 1 29471 100 0 0 0        * a telescope for stargazing
+O 0 29442 1 29472 100 0 0 0        * inside a bowl of water
+O 0 29460 2 29473 100 0 0 0        * fish food
+O 0 29460 2 29475 100 0 0 0        * fish food
+*
+M 0 29419 7 29401 100 0 0 0        * art student
+M 0 29420 9 29401 100 0 0 0        * art student
+M 0 29417 3 29402 100 0 0 0        * a human artisan
+M 0 29456 1 29402 100 0 0 0        * Henna the flower seller
+G 1 29469 999 0 100 0 0 0          *    a vase filled with violets
+G 1 29470 999 0 100 0 0 0          *    a vase filled with daisies
+G 1 29471 999 0 100 0 0 0          *    a vase filled with roses
+G 1 29472 999 0 100 0 0 0          *    a single violet
+G 1 29473 999 0 100 0 0 0          *    a single rose
+G 1 29474 999 0 100 0 0 0          *    a single daisy
+M 0 29417 3 29403 100 0 0 0        * a human artisan
+M 0 29458 1 29403 100 0 0 0        * Mandar the instrument crafter
+G 1 29479 999 0 100 0 0 0          *    multi-colored glass flute of harmony
+G 1 29480 999 0 100 0 0 0          *    the horn of the dragonslayer
+G 1 29481 999 0 100 0 0 0          *    the mandolin of sight
+M 0 29417 3 29404 100 0 0 0        * a human artisan
+M 0 29414 5 29404 100 0 0 0        * a wandering visitor
+M 0 29413 1 29404 100 0 0 0        * Womo the seamstress
+G 1 29450 1 0 100 0 0 0            *    scarlet cavalier's cloak
+G 1 29451 999 0 100 0 0 0          *    shimmering scarf
+G 1 29452 1 0 100 0 0 0            *    a silk vest
+G 1 29487 1 0 100 0 0 0            *    a flowing black skirt
+M 0 29404 1 29405 100 0 0 0        * Lomya the crafter
+G 1 29411 1 0 100 0 0 0            *    a leather saddle
+G 1 29401 1 0 100 0 0 0            *    a big big bag for a little person
+G 1 29404 1 0 100 0 0 0            *    lucky alchemist sack
+G 1 29412 1 0 100 0 0 0            *    a soft leather belt
+G 1 29400 999 0 100 0 0 0          *    leather alchemist sack
+M 0 29457 1 29406 100 0 0 0        * Fiona the ceramic mask seller
+G 1 29468 1 0 100 0 0 0            *    a ceramic mask painted like a tiger
+G 1 29475 1 0 100 0 0 0            *    a ceramic mask painted with flower designs
+G 1 29476 1 0 100 0 0 0            *    a ceramic mask painted to resemble an ogre
+G 1 29477 1 0 100 0 0 0            *    a ceramic mask painted to resemble a kitten
+G 1 29478 1 0 100 0 0 0            *    a ceramic mask painted like a faerie
+M 0 29414 5 29407 100 0 0 0        * a wandering visitor
+M 0 29453 1 29407 100 0 0 0        * Klemo the toy maker
+G 1 29443 999 0 100 0 0 0          *    a hand-carved yo-yo
+G 1 29447 999 0 100 0 0 0          *    a wooden toy box
+G 1 29449 999 0 100 0 0 0          *    a chiseled statue of Tiamat
+G 1 29448 999 0 100 0 0 0          *    a sailboat
+M 0 29414 5 29408 100 0 0 0        * a wandering visitor
+M 0 29415 6 29408 100 0 0 0        * a wandering visitor
+M 0 29452 1 29408 100 0 0 0        * Vetrix the jeweler
+G 1 29459 1 0 100 0 0 0            *    a choker with red, white and a blue gems
+G 1 29458 1 0 100 0 0 0            *    a pair of silver earrings with red rubies
+G 1 29457 1 0 100 0 0 0            *    a silver band with blue stones
+G 1 29456 1 0 100 0 0 0            *    a gold ring with diamonds
+M 0 29446 1 29409 100 0 0 0        * Gipie the baker
+G 1 29462 999 0 100 0 0 0          *    a plate of eel sushi
+G 1 29463 999 0 100 0 0 0          *    a pork harvest stew
+G 1 29464 999 0 100 0 0 0          *    a cornish meat pie
+G 1 29465 999 0 100 0 0 0          *    fresh clover honey sticks
+G 1 29466 999 0 100 0 0 0          *    a gourmet fungus salad
+M 0 29414 5 29410 100 0 0 0        * a wandering visitor
+M 0 29414 5 29410 100 0 0 0        * a wandering visitor
+M 0 29416 4 29411 100 0 0 0        * a chipmunk
+M 0 29416 4 29411 100 0 0 0        * a chipmunk
+M 0 29415 6 29412 100 0 0 0        * a wandering visitor
+M 0 29405 4 29412 100 0 0 0        * singing bird
+M 0 29405 4 29413 100 0 0 0        * singing bird
+M 0 29405 4 29414 100 0 0 0        * singing bird
+M 0 29416 4 29414 100 0 0 0        * a chipmunk
+M 0 29405 4 29415 100 0 0 0        * singing bird
+M 0 29406 2 29416 100 0 0 0        * a small child
+G 1 29413 2 0 100 0 0 0            *    scrap of cloth
+M 0 29407 2 29416 100 0 0 0        * a small child
+E 1 29435 3 16 100 0 0 0           *   sewing needle
+M 0 29416 4 29417 100 0 0 0        * a chipmunk
+M 0 29422 1 29418 100 0 0 0        * a lonely bard
+E 1 29407 1 18 100 0 0 0           *   a stylish horn
+M 0 29424 1 29419 100 0 0 0        * a bard
+E 1 29429 1 6 100 0 0 0            *   the cap of storytelling
+E 1 29403 1 16 100 0 0 0           *   an ivory handled dagger
+M 0 29425 1 29419 100 0 0 0        * a visitor 
+M 0 29426 1 29419 100 0 0 0        * a visitor 
+M 0 29427 1 29419 100 0 0 0        * a halfling visitor 
+M 0 29432 3 29420 100 0 0 0        * an art student
+M 0 29432 3 29420 100 0 0 0        * an art student
+M 0 29432 3 29420 100 0 0 0        * an art student
+M 0 29434 1 29423 100 0 0 0        * head glassblower
+E 1 29428 2 5 100 0 0 0            *   a leather crafters apron
+E 1 29432 2 27 100 0 0 0           *   a gnomish toolbox
+G 1 29414 1 0 100 0 0 0            *    a scrap of glass
+M 0 29433 5 29423 100 0 0 0        * a resting glassblower
+M 0 29433 5 29423 100 0 0 0        * a resting glassblower
+M 0 29419 7 29424 100 0 0 0        * art student
+M 0 29420 9 29424 100 0 0 0        * art student
+M 0 29419 7 29424 100 0 0 0        * art student
+M 0 29420 9 29424 100 0 0 0        * art student
+M 0 29430 1 29425 100 0 0 0        * the cook
+M 0 29409 3 29427 100 0 0 0        * a rose
+M 0 29409 3 29427 100 0 0 0        * a rose
+M 0 29409 3 29427 100 0 0 0        * a rose
+M 0 29410 3 29428 100 0 0 0        * a sunflower
+M 0 29410 3 29428 100 0 0 0        * a sunflower
+M 0 29410 3 29428 100 0 0 0        * a sunflower
+M 0 29400 1 29430 100 0 0 0        * a gardener
+M 0 29408 3 29430 100 0 0 0        * a carrot
+M 0 29408 3 29430 100 0 0 0        * a carrot
+M 0 29408 3 29430 100 0 0 0        * a carrot
+M 0 29401 3 29431 100 0 0 0        * a tomato
+M 0 29401 3 29431 100 0 0 0        * a tomato
+M 0 29401 3 29431 100 0 0 0        * a tomato
+M 0 29418 1 29431 100 0 0 0        * a young girl
+M 0 29403 4 29432 100 0 0 0        * a cucumber 
+M 0 29403 4 29432 100 0 0 0        * a cucumber 
+M 0 29403 4 29432 100 0 0 0        * a cucumber 
+M 0 29403 4 29432 100 0 0 0        * a cucumber 
+M 0 29402 1 29434 100 0 0 0        * a gardener
+M 0 29420 9 29435 100 0 0 0        * art student
+M 0 29419 7 29435 100 0 0 0        * art student
+M 0 29420 9 29435 100 0 0 0        * art student
+M 0 29420 9 29436 100 0 0 0        * art student
+M 0 29419 7 29436 100 0 0 0        * art student
+M 0 29420 9 29436 100 0 0 0        * art student
+M 0 29415 6 29436 100 0 0 0        * a wandering visitor
+M 0 29429 1 29437 100 0 0 0        * a shopkeeper
+G 1 29409 999 0 100 0 0 0          *    a bolt of cloth
+G 1 29408 999 0 100 0 0 0          *    a thick sketchbook
+G 1 29402 999 0 100 0 0 0          *    faerie dust
+G 1 5 1 0 100 0 0 0                *    (object type not in this .obj file)
+G 1 29420 2 0 100 0 0 0            *    a paint set
+G 1 29422 2 0 100 0 0 0            *    a pin cushion
+G 1 29435 3 0 100 0 0 0            *    sewing needle
+G 1 29432 2 0 100 0 0 0            *    a gnomish toolbox
+G 1 29446 1 0 100 0 0 0            *    a wet potion
+M 0 29428 1 29438 100 0 0 0        * an art instructor
+E 1 29426 1 3 100 0 0 0            *   a daisy necklace
+E 1 29415 2 12 100 0 0 0           *   a simple robe
+M 0 29419 7 29438 100 0 0 0        * art student
+M 0 29420 9 29438 100 0 0 0        * art student
+M 0 29419 7 29438 100 0 0 0        * art student
+M 0 29420 9 29438 100 0 0 0        * art student
+M 0 29415 6 29439 100 0 0 0        * a wandering visitor
+M 0 29415 6 29439 100 0 0 0        * a wandering visitor
+M 0 29415 6 29439 100 0 0 0        * a wandering visitor
+M 0 29421 1 29440 100 0 0 0        * Alorka
+E 1 29437 1 19 100 0 0 0           *   goggles of the tinkerer
+E 1 29424 1 21 100 0 0 0           *   a gnomish ear amplifier
+M 0 29423 3 29441 100 0 0 0        * a tired bard
+M 0 29423 3 29441 100 0 0 0        * a tired bard
+M 0 29423 3 29441 100 0 0 0        * a tired bard
+M 0 29437 1 29442 100 0 0 0        * Lidda, the head seamstress
+E 1 29422 2 15 100 0 0 0           *   a pin cushion
+M 0 29406 2 29442 100 0 0 0        * a small child
+G 1 29413 2 0 100 0 0 0            *    scrap of cloth
+M 0 29407 2 29442 100 0 0 0        * a small child
+E 1 29435 3 16 100 0 0 0           *   sewing needle
+M 0 29435 2 29443 100 0 0 0        * a sleeping seamstress 
+M 0 29436 2 29443 100 0 0 0        * sleeping tailor 
+M 0 29435 2 29443 100 0 0 0        * a sleeping seamstress 
+M 0 29436 2 29443 100 0 0 0        * sleeping tailor 
+M 0 29411 1 29445 100 0 0 0        * a fluffy white kitten
+E 1 29427 1 3 100 0 0 0            *   leather collar
+M 0 29439 1 29445 100 0 0 0        * head painter
+E 1 29420 2 18 100 0 0 0           *   a paint set
+E 1 29421 1 21 100 0 0 0           *   a platinum stud
+M 0 29438 2 29446 100 0 0 0        * sleeping artist
+G 1 29440 2 0 100 0 0 0            *    a near finished painting
+M 0 29438 2 29446 100 0 0 0        * sleeping artist
+G 1 29419 1 0 100 0 0 0            *    a pretty doll
+M 0 29440 1 29446 100 0 0 0        * an artist
+G 1 29440 2 0 100 0 0 0            *    a near finished painting
+M 0 29433 5 29447 100 0 0 0        * a resting glassblower
+M 0 29433 5 29447 100 0 0 0        * a resting glassblower
+M 0 29433 5 29447 100 0 0 0        * a resting glassblower
+M 0 29412 7 29448 100 0 0 0        * a root
+M 0 29431 6 29448 100 0 0 0        * poisonous spider
+M 0 29412 7 29449 100 0 0 0        * a root
+M 0 29431 6 29449 100 0 0 0        * poisonous spider
+M 0 29412 7 29449 100 0 0 0        * a root
+M 0 29431 6 29449 100 0 0 0        * poisonous spider
+M 0 29412 7 29450 100 0 0 0        * a root
+M 0 29431 6 29450 100 0 0 0        * poisonous spider
+M 0 29431 6 29450 100 0 0 0        * poisonous spider
+M 0 29412 7 29450 100 0 0 0        * a root
+M 0 29412 7 29451 100 0 0 0        * a root
+M 0 29431 6 29451 100 0 0 0        * poisonous spider
+M 0 29412 7 29451 100 0 0 0        * a root
+M 0 29447 12 29452 100 0 0 0       * a giant tree full of leaves
+M 0 29441 4 29453 100 0 0 0        * a grazing stag
+M 0 29447 12 29453 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29454 100 0 0 0       * a giant tree full of leaves
+M 0 29441 4 29455 100 0 0 0        * a grazing stag
+M 0 29447 12 29455 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29455 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29455 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29456 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29456 100 0 0 0       * a giant tree full of leaves
+M 0 29448 8 29456 100 0 0 0        * a giant tree with massive roots
+M 0 29441 4 29457 100 0 0 0        * a grazing stag
+M 0 29447 12 29457 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29457 100 0 0 0       * a giant tree full of leaves
+M 0 29448 8 29457 100 0 0 0        * a giant tree with massive roots
+M 0 29441 4 29459 100 0 0 0        * a grazing stag
+M 0 29447 12 29459 100 0 0 0       * a giant tree full of leaves
+M 0 29447 12 29459 100 0 0 0       * a giant tree full of leaves
+M 0 29448 8 29459 100 0 0 0        * a giant tree with massive roots
+M 0 29443 2 29460 100 0 0 0        * a warty toad
+M 0 29448 8 29460 100 0 0 0        * a giant tree with massive roots
+M 0 29448 8 29460 100 0 0 0        * a giant tree with massive roots
+M 0 29443 2 29461 100 0 0 0        * a warty toad
+M 0 29444 1 29461 100 0 0 0        * Bom Fitherwood
+E 1 29439 1 16 100 0 0 0           *   a collapsable fishing pole
+E 1 29438 1 18 100 0 0 0           *   some animated bait
+M 0 29448 8 29461 100 0 0 0        * a giant tree with massive roots
+M 0 29448 8 29462 100 0 0 0        * a giant tree with massive roots
+M 0 29448 8 29462 100 0 0 0        * a giant tree with massive roots
+M 0 29442 9 29463 100 0 0 0        * a blind fish
+M 0 29445 3 29463 100 0 0 0        * a playful otter
+M 0 29442 9 29464 100 0 0 0        * a blind fish
+M 0 29442 9 29465 100 0 0 0        * a blind fish
+M 0 29442 9 29466 100 0 0 0        * a blind fish
+M 0 29442 9 29466 100 0 0 0        * a blind fish
+M 0 29445 3 29466 100 0 0 0        * a playful otter
+M 0 29442 9 29467 100 0 0 0        * a blind fish
+M 0 29442 9 29467 100 0 0 0        * a blind fish
+M 0 29442 9 29468 100 0 0 0        * a blind fish
+M 0 29442 9 29468 100 0 0 0        * a blind fish
+M 0 29445 3 29468 100 0 0 0        * a playful otter
+M 0 29449 5 29472 100 0 0 0        * a goldfish
+M 0 29451 4 29472 100 0 0 0        * an aqua-kitty
+M 0 29449 5 29473 100 0 0 0        * a goldfish
+M 0 29449 5 29473 100 0 0 0        * a goldfish
+M 0 29449 5 29474 100 0 0 0        * a goldfish
+M 0 29450 1 29474 100 0 0 0        * a whale
+G 1 29444 1 0 100 0 0 0            *    a pot of gold
+M 0 29449 5 29475 100 0 0 0        * a goldfish
+M 0 29454 1 29477 100 0 0 0        * a leprechaun
+E 1 29455 1 6 100 0 0 0            *   tam o'shanter
+E 1 29454 1 18 100 0 0 0           *   a smoking pipe
+M 0 29455 1 29482 100 0 0 0        * a hamster
+*
+S

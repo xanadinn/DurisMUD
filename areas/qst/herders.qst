@@ -1,0 +1,407 @@
+#94319
+M
+hello hi~
+   &+RThe flaming skeleton ignores you.
+~
+S
+#94320
+M
+hi hello~
+ &+LZugle&N snarls at you.
+~
+M
+viscerith~
+   &+LViscerith was my personal behemoth at one point, although he grew
+&+Ltoo violent and was untamable.  He is forever damned to stay in that
+&+Lfoul cage of his!
+~
+S
+#94321
+M
+hi hello zugle~
+   &+L"&+mYes waiting for master Zugle to finsih plans with the
+   &+mhighlord.  He is discussing joining forces, the &+LBehemoth Rirders
+   &+mand the &+RFlaming Horde&+m together at last!&+L"
+~
+M
+behemoth riders~
+   &+L"&+mYes Zugle is the warlord in charge of the behemoth riders.
+   &+mNow leave me alone, killing this gnome slowly is more important to
+   &+n&+mme right now then talking to the likes of you!&+L"
+~
+M
+flaming horde~
+   &+L"&+mYes the flaming horde live deep within &+WMount Olympus&+L.  I
+   &+N&+mdo not believe our tunnels have reached there yet but we are still
+   &+mdigging with the &+Yp&+Ry&+rro&+Mbeast&+L."
+~
+M
+pyrobeast~
+   &+L"&+mYes the &+Yp&+Ry&+rro&+mbeast&+L.&+m  One of the only ones of its
+   &+mkind I assume.  It is kept hidden at all times while digging its
+   &+mholes so that introduers or spies may never find it, for we would never
+   &+mknow where to start to find a new one, now leave me alone!&+L"
+~
+S
+#94322
+M
+hi hello~
+   &+L"&+WSave me!  His wand! Give it to me!&+L"
+~
+Q
+   The &+Rgnome&N snaps the wand over his knee.
+   &+L"&+WThank you!&+L" he says.
+~
+R E 90000
+G I 94311
+D
+   &+LThe &+Rgnome&+L runs off.
+~
+S
+#94323
+MA
+hi hello~
+ &+LGrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr.........
+~
+S
+#94340
+M
+sleeves arm armplates~
+   &+LI will create some arm-plates for you.  I require:
+   &+Lsleeves sme&+Rar&+Led wi&+Rth&+L bloo&+Rd&N
+   [4] &+Wpieces of a bone fragment&N
+   and &+W20 platinum &Ncoins.
+~
+M
+leggings legplates legs~
+   &+LYes I can make some legplates for you, I will require:
+   &+Lleggings &+Rs&+Lmea&+Rred &+Lwit&+Rh &+Lblo&+Rod&N
+   [4] &+Wpieces of a bone fragment
+   and 20 &+Wplatinum&N coins
+~
+M
+eyepatch~
+   &+LYes I can make you an &+Weyepatch&+L.  I specialize in scales of dragons
+&+Land great reptilian beasts!  Bring me:
+
+    &+LA small leather eyepatch
+    And three &+Ltiny drag&+ro&+Lnkin scales&N
+
+    and I shall set them together and craft you an amazing eyepatch!
+~
+M
+armor breastplate breast plate chest~
+    &+LYes I can make some armor fit for a knight of the hellspawn.
+    I will require:
+
+     4 &+Wlarge pieces of bone
+     and &+W20 platinum coins
+~
+M
+diorite~
+   &+LDiorite&N is quite a substance.  It is like basalt, only lighter
+and stronger!  Boots crafted from &+Ldiorite&N could be extremely strong
+and at the same time very light on your feet!
+
+Bring me:
+&+Lsome scales of diorite&N
+2 &+Wlarge pieces of bone&N
+and 3 &+Wpieces of a bone fragment
+
+
+
+And about 35 &+Wplatinum&N and I will reward you with some boots!
+~
+M
+boots~
+   Bah!  Out of &+Wbone&N?!  That is a waste of my time!  Find a better
+substance and I shall consider it!
+~
+Q
+   &+LThe shopkeeper uses arcane shadow magic to fuse the bones onto the
+&+Lsleeves, forming armplates.
+~
+R I 94328
+G I 94318
+G I 94305
+G I 94305
+G I 94305
+G I 94305
+G C 20000
+Q
+   &+LThe undead fuses the bone fragments to the leggings with powerful
+&+Lshadow magic.
+~
+R I 94329
+G I 94319
+G I 94305
+G I 94305
+G I 94305
+G I 94305
+G C 20000
+Q
+~
+R I 94341
+G I 94335
+G I 94309
+G I 94309
+G I 94309
+Q
+~
+R I 94342
+G I 94306
+G I 94306
+G I 94306
+G I 94306
+G C 20000
+QA
+   &+LArgle&N takes the different pieces of &+Wbone&N and the &+Lscales&N and
+begins to fashion them.  He separates the scales and &+Mmagically &+Nbinds them
+together in two separate forms.  Then, taking the large pieces of &+Wbone&N fashions
+the heels of the nearly formed boots.
+
+   For the next several minutes he carefully carves the fragments of &+Wbone&N into
+tiny spikes and &+bbinds&N them to all sorts of places of the boots, thus
+reinforcing them and making them quite deadly.
+
+&+R'Here you are!'&N he says, and hands you your boots.
+~
+R I 94379
+G I 94378
+G I 94306
+G I 94306
+G I 94305
+G I 94305
+G I 94305
+G C 35000
+S
+#94360
+M
+mount viscerith zugle~
+   &+LThat beast!  He has killed many of the undead horde just from trying
+   &+Lto finally contain him!
+~
+M
+zugle~
+   &+LZugle hates that creature.
+~
+S
+#94364
+MA
+choke~
+   &+BYes this is the great choke of &+LShizmaah&+B.  This is what gives
+&+Bthe cavern its unique hourglass shape.
+~
+S
+#94375
+M
+hi hello~
+   &+LThe shade takes a phy&Nsi&+Wcal substance and speaks...
+   &+r'Greetings, I hope you are interested in what I have to say, for
+  &+rmy place is not among these vile creatures that Hell itself has
+  &+rrefused, it is within the water.  My &+Mlifeforce&+r has been taken
+  &+rfrom me though...'&N
+~
+M
+lifeforce~
+   &+r'Yes.  Many centuries before this cavern was inhabited by the undead,
+ &+rShizmaah used to be an elegant subterranean pasture of growth and life.
+ &+rThey have polluted it, though, and turned it into their Behemoth
+ &+rCapture grounds.  I may have had a chance to escape before they came
+ &+rhere, but there was a far greater force than the undead that damned
+ &+rme eternally to be bound to it.   A great black dragon with two heads
+ &+rhas stolen my &+Mlifeforce&+r and I can not go too far from it or
+ &+rI will be purged from existence.  Oh adventurer, please release me
+ &+rfrom his clutches.  I can not remember when exactly, but a very long
+ &+rtime ago, before the age of the undead, this dragon stole my lifeforce
+ &+rand watched me die.  I did not continue on to any afterlife, however,
+ &+ras my &+Mlifeforce&+r was still in tact.  Many years passed and the
+ &+rundead came and I regained the body of a shade, the body of an undead!
+ &+rI have become one of that which I have hated most because this dragon
+ &+rhas kept my lifeforce and never returned.  He must be in these caves
+ &+rstill.  &+WPlease!  Find the dragon and return my lifeforce to me!&+r'
+
+&+WThe sha&Nde fa&+Ldes back into his spectral state and waits.
+~
+QA
+   &+LThe sh&Nade &+Wtakes the &+Mlifeforce &+Wand absorbs it...
+
+As his body gains shape and he becomes one with the &+Bwaters, &Nthe
+&+Wne&+Bre&+bid speaks...
+
+&+C'Ah I have become whole again, Thank you and take this as payment
+&+Cfor my salvation!'
+~
+R I 94386
+G I 94385
+D
+    Upon handing you the &+Ccrystal&N, the &+Wne&+Bre&+bid &+Nforms into the
+ &+Bwater&N, finally at &+Wpeace.
+~
+S
+#94376
+M
+zugle viscerith~
+   &+WZugle was my former pupil, and then he got power-hungry with
+&+WWhis pet &+LViscerith&+W!  I have been condemned and sentenced to spend
+&+Wthe rest of my unnatural life in this misty cavern, for I can no
+&+Wlonger see because of the mist!  Those two, Zugle and Viscerith, are
+&+Wthe cause of my destruction!  Although I still have powers of battle-
+&+Wforging, I have nothing to forge and nothing to offer!
+
+ &+LArchazel also turned his back on me...
+~
+MA
+archazel~
+   &+WYes &+LArchazel&+L also turned his back on me.  He was once a fearsome
+&+Wwarrior, flowing into battle with the speed of a viper.  Now he guards
+&+Wthe choke.  The choke.. I wish I could choke him!  But my body is weak
+&+Wwithered and useless.
+
+
+&+RDrakasyth &Nponders a moment...
+
+&+WBring to me that bastard's huge bone broadsword...
+
+&+RDrakasyth&N gains an &+revil red stare&N in his eyes...
+
+&+WAlso pull the &Nsoul of &+LViscerith&+W from his body and bring me that
+&+Was well, and I shall forge for you a sword of great destruction!
+~
+M
+beholder beholders~
+   &+LDrakasyth &Nlooks up from beneath his cowl and whispers '&+rBeholders
+&+rare foul creatures.  I have sensed for some time now that the
+&+rfools Archazel and Zugle have brought their evil into the
+&+rstronghold.  It is no bother on how protective they are of
+&+rtheir stronghold, but the beholders might as well be slain.&n'
+
+   '&+rBring me &Nfive &+Lundead b&+ge&+Lh&+go&+Lld&+ge&+Lr &+Wce&Nn&+rt&Nr&+Wal &+Leyes&N'
+   '&+rFor their extermination I shall craft you something special&N'
+~
+QA
+   &+LYES YES YESSS!!! THEY HAVE BEEN DESTROYED!
+~
+R I 94351
+G I 94343
+G I 94340
+QA
+   &+LDrakasyth &Ntakes the eyes and with master skill strings them together
+into a disgusting &+Wnecklace&N!!
+~
+R I 94393
+G I 94392
+G I 94392
+G I 94392
+G I 94392
+G I 94392
+S
+#94403
+M
+hello hi~
+   &+RThe flaming skeleton ignores you.
+~
+S
+#94404
+M
+hello hi~
+   &+RThe flaming skeleton ignores you.
+~
+S
+#94413
+QA
+   As you cut the &+ybounds&N on the &+cGrey Elf&n, she quickly reaches for
+the &+Winfant.
+   The &+cGrey Elf&N quickly wipes thes the blood and dirt off of her
+daughter and infuses &+Chealing salve &+Linto the babies wounds, who
+appears to give excellent results to the &+bmagic&+L and starts healing
+instantly.
+   The &+cGrey Elf&N introduces herself as Pearls.
+   '&+WI don't know how I get myself in these situations&N,' she says.
+   '&+WFirst &+GGalban &+Wcaptures me, and now this! I gave away my
+   &+Wlast &+Ygold hair pin&+W but here, let my magic fill you...&N'
+
+   Pearls places her hands on your body and they begin to &+Mglow&N...
+~
+R E 100000
+G I 94366
+D
+   &+LYour body feels &+Wextremely satisfied&N...
+
+   Pearls smiles, and with baby in hand, utters a single word and disappears.
+~
+S
+#94429
+M
+hi hello~
+   &+L'&+RGreetings.  I would not be talking to you if I did not think you could
+&+Rnot aid me&+L' the warlock says to you in a very deep voice.
+
+&+LBefore he can speak again, the &+crevenant &+Lsnarls and &+Wpins you &+Lagainst
+&+Lthe wall.
+
+&+LThe warlock's eyes glow a &+rblood red&+L as he says something in an
+&+Larcane tongue at the &+crevenant&+L who releases you and backs down
+&+Llike a scolded dog.
+
+&+L'&+RForgive him, he is agitated easily.   Now, do want to help me with
+&+Rmy adversaries or not?&+L' the warlock speaks with a very deep and
+&+Lconvincing manor.  The sound of his voice alone allures you to him.
+~
+M
+adversaries~
+   &+L'&+RYes.  It has been of the request of Zugle that I am to assist the
+&+Rgreat phantom farseers&+L.'  The warlock speaks with great sarcasm when
+&+Lmentioning the farseers.
+~
+M
+farseers~
+   &+LThe warlock's &+Wfangs &+Lextend as he speaks with an angry tone,
+&+L'&+RWhy should I have to help them!?  They should be the ones helping
+&+RME!!!  Their pathetic mind games.... they are nothing!&+L'
+
+&+LThe warlock's &+Wfangs &+Lretract and he regains his composure.
+&+L'&+RFind them and destroy them.  Their is one located in each of
+&+Rthe northern and southern spires just east of here!  It is guarded
+&+Rby yet another, but he is just as worthless as they!  I'll show Zugle
+&+Rwhat it means to aid them, Mwahahaha!  Bring me their minds!&+L'
+
+&+LThe warlock cackles and points to the east.
+~
+QA
+   &+LThe warlock takes one of the &+revil &+Mminds&+L in each hand and his
+&+Leyes glow &+rblood red&+L.  He tosses the fluctuating forces into the air which
+&+Lseem to hover for a minute as a &+CBRIGHT BLUE RAY&+L streaks from his mouth and
+&+Linstantly destroys him.
+
+&+LAs the &+Cblue light se&+cttles and &+Bdies down&+L, the warlock seems to have grown
+&+Lboth in size and power!!
+
+&+LThe warlock, having drained the energy of the phantom mind power, now stands
+&+Lover eight feet tall.  His &+crevenant &+Lbodyguard now cowers like never before
+&+Las the warlock speaks, &+L'&+RSuch incredible power!!  I am no longer of this
+&+Rplane!! Mwahahaha!!  You have done well!!&+L'
+~
+R I 94374
+G I 94344
+G I 94345
+D
+   &+LAfter viciously &+rtearing &+Lthem out and handing you them, the great
+&+Lwarlock speaks speaks with an echoing voice that rumbles the trenches,
+&+L'&+RTake my fangs, I am now a creature of pure energy and shall spend no
+&+Rmore years on this primative plane!!&+L'
+
+&+LWith a grin on his face, the warlock fades&N from exi&+Wstence.
+~
+S
+#94441
+M
+diorite~
+   &+LYes I work in diorite!  I can craft anything, even from the smallest
+&+Lscales I can craft a statue!
+~
+Q
+~
+R I 94395
+G I 94378
+S

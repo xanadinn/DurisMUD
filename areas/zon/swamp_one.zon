@@ -1,0 +1,48 @@
+#260
+&+gSw&+mam&+gp&n~
+26036 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 26017 1 5 100 0 0 0
+*     east exit from "A Trail Through the Shadow Swamp" to
+*     "In the Weeds" - closed/secret
+*
+D 0 26036 3 1 100 0 0 0
+*     west exit from "In the Weeds" to
+*     "A Trail Through the Shadow Swamp" - closed
+*
+*
+O 0 26008 1 26019 100 0 0 0        * a sign
+O 0 26006 1 26036 100 0 0 0        * a decomposing corpse
+O 0 26007 1 26036 100 0 0 0        * a dirty key
+*
+M 0 26009 10 26002 100 0 0 0       * a huge dragon fly
+M 0 26007 10 26004 100 0 0 0       * a large eight-eyed bug
+M 0 26007 10 26005 100 0 0 0       * a large eight-eyed bug
+M 0 26009 10 26008 100 0 0 0       * a huge dragon fly
+M 0 26007 10 26009 100 0 0 0       * a large eight-eyed bug
+M 0 26009 10 26012 100 0 0 0       * a huge dragon fly
+M 0 26007 10 26014 100 0 0 0       * a large eight-eyed bug
+M 0 26012 1 26014 100 0 0 0        * a powerful centaur
+E 1 26016 1 35 100 0 0 0           *   a polished black leather saddle
+M 0 26007 10 26015 100 0 0 0       * a large eight-eyed bug
+M 0 26009 10 26016 100 0 0 0       * a huge dragon fly
+M 0 26009 10 26018 100 0 0 0       * a huge dragon fly
+M 0 26001 1 26020 100 0 0 0        * the druid Korbin
+E 1 26001 1 16 100 0 0 0           *   the staff of the druid
+E 1 26002 1 18 100 0 0 0           *   a swamp root
+M 0 26008 5 26022 100 0 0 0        * a large snake
+M 0 26008 5 26023 100 0 0 0        * a large snake
+M 0 26008 5 26027 100 0 0 0        * a large snake
+M 0 26010 5 26028 100 0 0 0        * a vicious fish
+M 0 26010 5 26029 100 0 0 0        * a vicious fish
+M 0 26010 5 26031 100 0 0 0        * a vicious fish
+M 0 26010 5 26033 100 0 0 0        * a vicious fish
+M 0 26002 1 26035 100 0 0 0        * the great witch Phyla
+E 1 26003 1 6 100 0 0 0            *   a hat of witchcraft
+E 1 26004 1 12 100 0 0 0           *   a cape of shadows
+E 1 26005 1 18 100 0 0 0           *   a dingy key
+*
+S

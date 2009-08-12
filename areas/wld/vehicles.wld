@@ -1,0 +1,477 @@
+#47000
+&+yInside A Wooden Cart&N~
+   The floor of this cart is made from wooden boards, the boards are worn and
+dirty from use, splintering in several places. There is room to carry lots of
+stuff in this cart. The side boards rise up a foot off the floor keeping the
+carts load secure.
+~
+470 33554432 2
+S
+#47001
+&+yInside Of A Carriage&N~
+   The inside of this carriage can carry four average humans comfortably,
+two on each of the two benches built on opposite sides. The sides and top
+of the carriage are covered by a thick cloth, three metal ribs support the
+cloth and give it shape. Flaps cut into the sides allow access in and out.
+~
+470 33554440 0
+S
+#47002
+&+yInside A Large Coach&N~
+   This coach interior is quite large, allowing six normal sized humans to
+ride in relative comfort. There are benches on each end of the coach, with
+plenty of floor space in between for legroom and a few carry-on packages.
+The entire coach is built from wood will full side and roof coverage to
+protect the passengers from the element or attacks. Doors have been built
+into each side of the coach.
+~
+470 33554440 0
+S
+#47003
+&+yThe Passenger Deck of the &+WWave&+BDancer&n~
+&+y   This is the main deck of the&+W Wave&+BDancer&+y, where the passengers can
+&+yspend the trip watching the seas roll by and feel the fresh salt air
+&+ybreeze through their hair. From here all the other locations of the ship
+&+ycan be reached, including the docking platforms, the second deck below,
+&+yand the bridge up a short ladder.
+~
+470 167804928 1
+D0
+~
+~
+0 0 47008
+D1
+~
+~
+0 0 47004
+D2
+~
+~
+0 0 47009
+D3
+~
+~
+0 0 47007
+D5
+~
+~
+0 0 47012
+S
+#47004
+&+yThe Passenger Deck of the &+WWave&+BDancer&n~
+&+y   This is the main deck of the&+W Wave&+BDancer&+y, where the passengers can
+&+yspend the trip watching the seas roll by and feel the fresh salt air
+&+ybreeze through their hair. From here all the other locations of the ship
+&+ycan be reached, including the docking platforms, the second deck below,
+&+yand the bridge up a short ladder.
+~
+470 167804928 1
+D0
+~
+~
+0 0 47010
+D1
+~
+~
+0 0 47005
+D2
+~
+~
+0 0 47011
+D3
+~
+~
+0 0 47003
+D4
+~
+~
+0 0 47006
+S
+#47005
+&+yThe Stern of the &+WWave&+BDancer&n~
+&+y   This is the rear, or stern of the ship, where one can watch the wake of
+&+yfoam as the &+WWave&+BDancer&+y plows across the bay. Like the bow, the inner hull
+&+yhas been lined with benches so people can sit here and enjoy the fresh
+&+yair.
+~
+470 167804928 1
+D3
+~
+~
+0 0 47004
+S
+#47006
+&+yThe Bridge of the &+WWave&+BDancer&n~
+&+y   This is the bridge, where the captain pilots the ship. It is built a second floor
+&+yup from the main deck so he can scan the area. Though the captain grasps the wheel
+&+yof the ship with vigor there also seems to be a strange contraption that is tied
+&+yto wheel, buzzing and whirling, and probably would help steer the &+WWave&+BDancer&+y if some-
+&+ything horrible was to happen to the captain.
+~
+470 167804928 1
+D5
+~
+~
+0 0 47004
+S
+#47007
+&+yThe Bow of the &+WWave&+BDancer&n~
+&+y   The bow of this great ship is a perfect location for those wishing
+&+yto watch the waves roll and feel the crisp breeze as the &+WWave&+BDancer
+&+yraces across the ocean. Benches have been set up along the bow's inner
+&+yhull, so people can sit and relax here, enjoy a picnic, or whatever
+&+ythey wish.
+~
+470 167804928 1
+D1
+~
+~
+0 0 47003
+S
+#47008
+&+yThe Passenger Deck of the &+WWave&+BDancer&n~
+&+y   This is the main deck of the&+W Wave&+BDancer&+y, where the passengers can
+&+yspend the trip watching the seas roll by and feel the fresh salt air
+&+ybreeze through their hair. From here all the other locations of the ship
+&+ycan be reached, including the docking platforms, the second deck below,
+&+yand the bridge up a short ladder.
+~
+470 167804928 1
+D1
+~
+~
+0 0 47010
+D2
+~
+~
+0 0 47003
+S
+#47009
+&+yThe Passenger Deck of the &+WWave&+BDancer&n~
+&+y   This is the main deck of the&+W Wave&+BDancer&+y, where the passengers can
+&+yspend the trip watching the seas roll by and feel the fresh salt air
+&+ybreeze through their hair. From here all the other locations of the ship
+&+ycan be reached, including the docking platforms, the second deck below,
+&+yand the bridge up a short ladder.
+~
+470 167804928 1
+D0
+~
+~
+0 0 47003
+D1
+~
+~
+0 0 47011
+S
+#47010
+&+yThe Passenger Deck of the &+WWave&+BDancer&n~
+&+y   This is the main deck of the&+W Wave&+BDancer&+y, where the passengers can
+&+yspend the trip watching the seas roll by and feel the fresh salt air
+&+ybreeze through their hair. From here all the other locations of the ship
+&+ycan be reached, including the docking platforms, the second deck below,
+&+yand the bridge up a short ladder.
+~
+470 167804928 1
+D2
+~
+~
+0 0 47004
+D3
+~
+~
+0 0 47008
+S
+#47011
+&+yThe Boarding Platform of the &+WWave&+BDancer&n~
+&+y   This is the boarding platform of the&+W Wave&+BDancer&+y, where the passengers can
+&+yget off and on the ship while its docked. The &+Wticket&+y handler is here too,
+&+ywhere people can purchase their tickets for the voyage, and without a ticket,
+&+yone won't be allowed to stay.
+~
+470 167804928 1
+D0
+~
+~
+0 0 47004
+D3
+~
+~
+0 0 47009
+S
+#47012
+&+yBelow Deck on the &+WWave&+BDancer&n~
+&+y   This is the lower deck of the &+WWave&+BDancer&+y, where the passenger cabins,
+&+Wgalley&+y, and cargo hold can be found. The hallway here is simple, yet
+&+yclean, decorated with the odd painting or two, and well lit. A large
+&+yporthole at the end of the hallway allows people to gaze outside and
+&+ywatch the wake of the boat as she sails throughout the bay.
+~
+470 167804936 1
+D0
+~
+door~
+1 0 47019
+D1
+~
+~
+0 0 47013
+D2
+~
+~
+0 0 47023
+D4
+~
+~
+0 0 47003
+S
+#47013
+&+yBelow Deck on the &+WWave&+BDancer&n~
+&+y   This is the lower deck of the &+WWave&+BDancer&+y, where the passenger cabins,
+&+Wgalley&+y, and cargo hold can be found. The hallway here is simple, yet
+&+yclean, decorated with the odd painting or two, and well lit. A large
+&+yporthole at the end of the hallway allows people to gaze outside and
+&+ywatch the wake of the boat as she sails throughout the bay.
+~
+470 167804936 1
+D0
+~
+door~
+1 0 47020
+D1
+~
+~
+0 0 47014
+D3
+~
+~
+0 0 47012
+S
+#47014
+&+yBelow Deck on the &+WWave&+BDancer&n~
+&+y   This is the lower deck of the &+WWave&+BDancer&+y, where the passenger cabins,
+&+Wgalley&+y, and cargo hold can be found. The hallway here is simple, yet
+&+yclean, decorated with the odd painting or two, and well lit. A large
+&+yporthole at the end of the hallway allows people to gaze outside and
+&+ywatch the wake of the boat as she sails throughout the bay.
+~
+470 167804936 1
+D0
+~
+door~
+1 0 47021
+D1
+~
+~
+0 0 47015
+D3
+~
+~
+0 0 47013
+S
+#47015
+&+yBelow Deck on the &+WWave&+BDancer&n~
+&+y   This is the lower deck of the &+WWave&+BDancer&+y, where the passenger cabins,
+&+Wgalley&+y, and cargo hold can be found. The hallway here is simple, yet
+&+yclean, decorated with the odd painting or two, and well lit. A large
+&+yporthole at the end of the hallway allows people to gaze outside and
+&+ywatch the wake of the boat as she sails throughout the bay.
+~
+470 167804940 1
+D0
+~
+door~
+1 0 47022
+D2
+~
+cargo~
+1 0 47016
+D3
+~
+~
+0 0 47014
+S
+#47016
+&+yThe Cargo Hold of the &+WWave&+BDancer&n~
+&+y   The cargo hold is where the bulk of the shipments destined for ports
+&+yaround the bay are kept. There are a multitude of different things stored
+&+yhere, from mail to ale and swords to silk, and even though the&+W Wave&+BDancer
+&+yis a lawful and upright ship, even contraband has been known to have been
+&+yfound down here, though the crew always pleads ignorance of the matter.
+~
+470 167804936 1
+D0
+~
+cargo~
+1 0 47015
+D3
+~
+~
+0 0 47017
+S
+#47017
+&+yThe Cargo Hold of the &+WWave&+BDancer&n~
+&+y   The cargo hold is where the bulk of the shipments destined for ports
+&+yaround the bay are kept. There are a multitude of different things stored
+&+yhere, from mail to ale and swords to silk, and even though the&+W Wave&+BDancer
+&+yis a lawful and upright ship, even contraband has been known to have been
+&+yfound down here, though the crew always pleads ignorance of the matter.
+~
+470 167804936 1
+D1
+~
+~
+0 0 47016
+D3
+~
+~
+0 0 47018
+S
+#47018
+&+yThe Cargo Hold of the &+WWave&+BDancer&n~
+&+y   The cargo hold is where the bulk of the shipments destined for ports
+&+yaround the bay are kept. There are a multitude of different things stored
+&+yhere, from mail to ale and swords to silk, and even though the&+W Wave&+BDancer
+&+yis a lawful and upright ship, even contraband has been known to have been
+&+yfound down here, though the crew always pleads ignorance of the matter.
+~
+470 167804936 1
+D1
+~
+~
+0 0 47017
+S
+#47019
+&+yA Passenger Cabin&n~
+&+y   This is one of the cozy passenger cabins onboard the&+W Wave&+BDancer&+y. It
+&+yis rather simple, but comfortable, with a small bed, desk and chair
+&+yso passengers can nap or study during the trip if they wish. There
+&+yis a porthole on the far wall so those wishing to, can look outside
+&+yas the waves rush by.
+~
+470 167804936 1
+D2
+~
+door~
+1 0 47012
+S
+#47020
+&+yA Passenger Cabin&n~
+&+y   This is one of the cozy passenger cabins onboard the&+W Wave&+BDancer&+y. It
+&+yis rather simple, but comfortable, with a small bed, desk and chair
+&+yso passengers can nap or study during the trip if they wish. There
+&+yis a porthole on the far wall so those wishing to, can look outside
+&+yas the waves rush by.
+~
+470 167804936 1
+D2
+~
+door~
+1 0 47013
+S
+#47021
+&+yA Passenger Cabin&n~
+&+y   This is one of the cozy passenger cabins onboard the&+W Wave&+BDancer&+y. It
+&+yis rather simple, but comfortable, with a small bed, desk and chair
+&+yso passengers can nap or study during the trip if they wish. There
+&+yis a porthole on the far wall so those wishing to, can look outside
+&+yas the waves rush by.
+~
+470 167804936 1
+D2
+~
+door~
+1 0 47014
+S
+#47022
+&+yA Passenger Cabin&n~
+&+y   This is one of the cozy passenger cabins onboard the&+W Wave&+BDancer&+y. It
+&+yis rather simple, but comfortable, with a small bed, desk and chair
+&+yso passengers can nap or study during the trip if they wish. There
+&+yis a porthole on the far wall so those wishing to, can look outside
+&+yas the waves rush by.
+~
+470 167804936 1
+D2
+~
+door~
+1 0 47015
+S
+#47023
+&+yThe &+WWave&+BDancer &+WGalley&n~
+&+y   This is the ship's&+W galley&+y and mess hall, where the meals for the
+&+ycrew and passengers are both prepared and served. There is a large oven
+&+yand stove near the back of the room where the &+Wgalley chef&+y does her
+&+ycooking and several small tables set up where people can eat though
+&+ymost passengers prefer to take their meals back to their cabins.
+~
+470 167936008 1
+D0
+~
+~
+0 0 47012
+S
+#47024
+&+yAboard A Rickety Ferry&n~
+This ferry must have seen alot of bad weather, because there are obvious signs
+of rot in every board and plank. A strange gnomish contraption whirrs to itself quietly
+on one side of the boat.
+~
+470 167772224 0
+D1
+~
+~
+0 0 47027
+D3
+~
+~
+0 0 47028
+S
+#47025
+&+yAboard the &+bSe&+Cas&+Wp&+Cra&+by~
+This small ferry specializes in short trips around the world of Duris, sailing quickly
+through both friendly and enemy waters. A gnomish contraption whirrs to itself quietly
+on one side of the ship.
+~
+470 167772224 0
+D0
+~
+~
+0 0 47026
+S
+#47026
+&+yAboard the &+bSe&+Cas&+Wp&+Cra&+by~
+This small ferry specializes in short trips around the world of Duris, sailing quickly
+through both friendly and enemy waters. A gnomish contraption whirrs to itself quietly
+on one side of the ship.
+~
+470 167772224 0
+D2
+~
+~
+0 0 47025
+S
+#47027
+&+LA Small Cabin&N~
+This ferry must have seen alot of bad weather, because there are obvious signs
+of rot in every board and plank. A strange gnomish contraption whirrs to itself quietly
+on one side of the boat.
+~
+470 167772224 0
+D3
+~
+~
+0 0 47024
+S
+#47028
+&+LA Small Cabin&N~
+This ferry must have seen alot of bad weather, because there are obvious signs
+of rot in every board and plank. A strange gnomish contraption whirrs to itself quietly
+on one side of the boat.
+~
+470 167772224 0
+D1
+~
+~
+0 0 47024
+S

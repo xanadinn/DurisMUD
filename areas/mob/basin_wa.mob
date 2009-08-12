@@ -1,0 +1,213 @@
+#34000
+beetle death leaves~
+&+La death watch beetle&n~
+&+LA pile of dead leaves blows in the wind.&N
+~
+&+LThe death watch beetle is a rather interesting species of insect.  The
+&+Loutside of the beetle's carapace excretes a sticky substance which makes
+&+Lthe debris of the surrounding land stick to it as a natural form of
+&+Lcamouflage.  The beetle itself is enormous in size and has a pair of
+&+Lrazor-sharp mandibles which extend outwards some two feet from the rest
+&+Lof its body.&N
+~
+72 1 0 16 0 0 0 0 S
+i 0 1 2
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#34001
+beetle slicer large~
+&+bthe slicer beetle&n~
+&+bA terrifyingly large beetle wanders around looking for food.&N
+~
+The beetle has huge mandibles that click very, VERY loudly.  They look
+really sharp as well.
+~
+72 1 0 16 0 262144 1048576 0 S
+I 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34002
+beetle giant~
+&+ya giant beetle&n~
+&+bA beetle the size of a human wanders about aimlessly.&N
+~
+The beetle is nondescript, a totally normal beetle, save for one thing --
+it is roughly the size of a full grown St.Bernard.  It also seems hungry.
+~
+72 1 0 16 0 32768 1048576 0 S
+I 0 1 3
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#34003
+beetle fire~
+&+Ra fire beetle&n~
+&+RA large glowing beetle crawls along the ground.&N
+~
+The insect has very large mandibles.  There appear to be two glowing spots
+on its body, one near the back of its head and one on the end of its abdomen.
+~
+104 0 0 16 1 0 1049600 0 S
+I 0 0 3
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34004
+beetle rhinoceros~
+&+ca rhinoceros beetle&n~
+&+cA beetle with an enormous horn on its head scuttles around.&N
+~
+The beetle tramples everything in its path as it goes about in search of
+food.  The horn protruding from its head is about six feet long and looks
+exceedingly sharp and pointed.
+~
+526408 0 0 16 0 0 1052672 0 S
+I 0 16384 3
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34005
+beetle stag~
+&+ya stag beetle&n~
+&+yA beetle the size of a moose munches on the rocks on the ground.&N
+~
+The twin horns adorning this insect's head give it the appearance of a moose
+but its mandibles, since it feeds on grains, are relatively small.
+~
+23624 0 0 16 1024 786432 0 0 S
+I 0 1 4
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#34006
+lizard fire reptilian~
+&+Ya &+rf&+Ri&+rr&+Re &+Ylizard&n~
+&+YA small reptilian suns itself upon a rock.&N
+~
+The lizard's body is mostly gray, with patches of red on its back and belly.
+It appears to be rather lazy, barely sparing you a glance.
+~
+3176 0 0 0 0 67108864 8192 0 S
+dk 0 1 2
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34007
+lizard giant~
+&+ga giant lizard&n~
+A mammoth-sized lizard scampers through the area here.
+~
+It appears to be, in every aspect, a normal lizard ... as seen through
+a microscope.  The thing is freaking *huge* about 15 feet from tip to
+tail.  And it is actually one of the smaller creatures wandering these
+wastes ...
+~
+3144 0 0 0 0 0 0 0 S
+dk 0 0 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#34008
+lizard minotaur~
+&+ca minotaur lizard&n~
+&+cAn enormous, hungry looking lizard is hunting around and hiding.&N
+~
+The creature is about forty feet long ... and has a huge gaping mouth
+that looks able to swallow a full grown man whole.  Its jaw is outfitted
+with jagged teeth that look strong enough to munch metal.
+~
+2376 0 0 1048576 0 0 0 0 S
+dk 0 0 4
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34009
+giant snake tree trunk~
+&+Ga giant snake&n~
+&+GWhat looks to be a thick tree trunk lies on the ground here.&N
+~
+The smooth bark of the trunk looks like it would be comfortable to
+rest upon after a long, weary day.  Wait a moment ... it has a snake's
+head at one end!  Ye gads!  The enormous thing is a snake!!
+~
+2120 0 0 16 1024 524288 4096 0 S
+rs 0 0 5
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#34010
+stone golem stones~
+&+ba stone golem&n~
+&+bA large pile of stones huddles on the ground here.&N
+~
+Apparently the pile of rock is actually a stone golem!  It seems to be
+miserable, squatting on the ground.  It notices you looking at it.  'Go
+away,' it says.
+~
+2120 0 0 128 0 0 0 0 S
+og 0 32 6
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 171500
+8 8 0
+#34011
+bombardier beetle~
+&+Ba bombardier beetle&n~
+A beetle with an exceptionally strong carapace chitters here.
+~
+The beetle is sleek, slick and black.  Its inhuman eyes regard you
+impassively, as if you were a rock on the ground ... or perhaps food.
+~
+8390729 1 0 16 0 0 4096 0 S
+I 0 0 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34012
+dragon sakaslan black~
+&+LSakaslan, the destroyer&n~
+&+LA massive black dragon with &+Ygold eyes &+Lprowls the wastes.&N
+~
+This huge, ancient dragon is the color of midnight, except for his eyes, which
+burn golden, alight with malice and intelligence, afire with unholy joy as he
+turns to attack.
+~
+1363050344 1 0 973185214 45278 1074528384 667956736 -1000 S
+D 0 1072 7
+62 0 -500 1d1+1 1d1+1
+0.0.0.10000 0
+8 8 1
+#34013
+witch hunchbacked woman hag~
+&+ban old witch~
+&+bAn old hunchbacked woman searches the ground here.&n
+~
+&+b   This old woman is so senile she seems to be falling apart. Her back is so
+&+bcurved it looks like it should have broken a long time ago. Her entire body
+&+bis shaking slightly as she moves, yet there is some feeling of certainty
+&+bin her moves.
+~
+1073776712 0 0 134217740 28 0 0 0 S
+PH 12 512 2
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#34014
+wolf spider huge hairy elite _block_east_~
+&+ra &+Lwo&+rlf &+Lsp&+rid&+Ler&n~
+&+rA huge, hairy, black spider nearly blends in with the rocks here.&n
+~
+&+r   Monstrous spiders like this one only live to be this large when they
+&+rhave lived for several generations.  Helped by the natural box canyon, this
+&+rparticular spider has lured prey into a deadly trap for centuries, all the
+&+rwhile growing in size, power and cunning.  Thick black hairs stand out from
+&+rits abdomen and legs, making it appear much larger than it might truly be.
+&+rThe rather tiny head it has is equipped with an impressive set of mandibles,
+&+rhowever.&n
+~
+30730 1 0 840016188 274654 68157440 33558528 -500 S
+AS 0 1 6
+61 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

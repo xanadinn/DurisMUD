@@ -1,0 +1,281 @@
+#53200
+&+GA Muddy Path &+gLeading to &+rSlave &+RCamp&n~
+&+g   Here the muddy path begins. It leads from west to east, or from east to
+&+gwest as other would say. As those who go east never return, unless someone
+&+gdecides to drag their corpses this path. As east from here, there is a great
+&+gorcish slave camp, resource of fresh slaves for Split Shield village.
+&+g The path itself looks rather dull and not interessing at all.
+&+gWest from here, the path joins wider road.
+~
+1 33554432 2
+D1
+~
+~
+0 0 53201
+D3
+~
+~
+0 0 10327
+E
+path~
+   Well, i said already that the path is dull and uninteresting, didn't I?
+Listen, if you are going to check every possible item in every possible room
+in the world, you'll eventually end up buried under landslide caused by a small
+stone you picked up to check what it is.
+   And now some vocabulary lesson. Do you know the word 'intuition'?
+This is a wonderful thing that lets you distinguish things interesting from
+rather dull and noninteresting without actually looking at them.
+Of course, it may fail, but overall netto sum is positive.
+Ahh, why i bother saying this. You DID look at the path, so most probably you
+do not have any intuition at all.          &+MPity, isn't it?&n
+~
+S
+#53201
+&+gBefore a &+rSlave &+RCamp&n~
+&+g   Here the path ends, and a large slave camp can be seen to the east.
+&+gWest from here, the path continues, joining some wider road in some distance.
+&+gNorth and south, the way is blocked by piles of rubble coming from nearby
+&+gobsidian mines. There are many fresh footprints in the mud here, meaning a new
+&+gtransport of slaves has just arrived.
+~
+1 33554432 2
+D1
+~
+~
+0 0 53202
+D3
+~
+~
+0 0 53200
+E
+mud~
+   There are some footprints in the mud. In fact, quite a lot of them.
+For a brief moment you catch a glimne of something shiny buried in the mud.
+Or maybe it was just an illusion.
+~
+E
+path~
+   You just HAD to do that, didn't you? Ok, here the path continues.
+Still dull and uninteresting. Full of mud. And footprints. And whatnot.
+And if you search hard enough there might be something buried in the mud.
+Just dont blame me if you cause a landslide.
+~
+S
+#53202
+&+yInside the &+rSlave &+yEncampement&n~
+&+y   This is the main square of the slave encampement. In all directions except
+&+ywest, there are barracks ment to keep various races locked together.
+&+yTo the north, there are elves and half-elves. To the east, humans and gnomes
+&+yare being kept. Barbarians and dwarves are locked just south from here.
+&+yA muddy path, obviously the only connection between the encampement and the
+&+yobsidian mines, starts just west from here.
+&+yThere's a small well in the center of the square.
+~
+1 33554432 2
+D0
+~
+~
+0 0 53203
+D1
+~
+~
+0 0 53209
+D2
+~
+~
+0 0 53204
+D3
+~
+~
+0 0 53201
+D5
+~
+trapdoor~
+6 53200 53212
+S
+#53203
+&+yBetween Nothern Slave Cells&n~
+&+y   This is the inside of one of slave barracks. This barrack is dedicated to
+&+ykeep elven races inside. Namely elves, called 'treehuggers' by some orcs, and
+&+yhalf-elves. The first are located west from here, the others are to the east.
+&+yClosed wooden doors smeared with tar block the sight inside their rooms.
+&+yThe central square of the encampement lies just south from here.
+~
+1 33558528 2
+D1
+~
+door~
+1 0 53208
+D2
+~
+~
+0 0 53202
+D3
+~
+door~
+1 0 53207
+S
+#53204
+&+yBetween Southern Slave Cells&n~
+&+y   This is the inside of one of slave barracks. This barrack is dedicated to
+&+ykeep barbarians and gnomes. The first are located west from here, the others
+&+yare to the east. Closed wooden doors block the sigh inside their rooms.
+&+yThe central square of the encampement lies just north from here.
+~
+1 33558528 2
+D0
+~
+~
+0 0 53202
+D1
+~
+door~
+1 0 53206
+D3
+~
+door~
+1 0 53205
+S
+#53205
+A Slave Pen~
+&+L   Still dark and stinking, this room serves as a prison cell for barbarian
+&+Lslaves captured by orcs. Although dirty and moist, it is kept in a bit better
+&+Lcondition than other clells in this slave camp. Walls are made from pine wood
+&+Lcovered with black tar.
+&+LThe floor is a raw soil, with a heap of rotting hay thrown over it.
+&+LThere are wooden doors leading east from this room.
+~
+1 33558528 0
+D1
+~
+door~
+1 0 53204
+S
+#53206
+A Slave Pen~
+&+L   Moist and stinking, this dark room serves as a prison cell for dwarven
+&+Lslaves captured by orcs. Walls are made from pine wood covered with black
+&+Ltar. Several iron chains are fetched to the eastern with one end, and to
+&+Lslaves with other. The floor is a raw soil, with a heap of rotting hay
+&+Lthrown over it. There are wooden doors leading west away from this room.
+~
+1 33558528 0
+D3
+~
+door~
+1 0 53204
+S
+#53207
+A Slave Pen~
+&+L   Dark and moist, this room serves as a prison cell for elven prisoners
+&+Lcaptured by orcs. Walls are made from pine wood covered with black tar.
+&+LSeveral iron chains connect slaves with northern wall.
+&+LThe floor is a raw soil, with a heap of rotting hay thrown over it.
+&+LThere are wooden doors leading east from this room.
+~
+1 33558528 0
+D1
+~
+door~
+1 0 53203
+S
+#53208
+A Slave Pen~
+&+L   Dark and stinking, this room serves as a prison cell for half-elven slaves
+&+Lcaptured by orcs. Walls are made from pine wood covered with black tar.
+&+LSeveral iron chains are protruding from western wall, connected to slaves with
+&+Lother ends. The floor is a raw soil, with a heap of rotting hay thrown over it.
+&+LThere are wooden doors leading west.
+~
+1 33558528 0
+D3
+~
+door~
+1 0 53203
+S
+#53209
+&+yBetween Eastern Slave Cells&n~
+&+y   This is the inside of one of slave barracks. This barrack is dedicated to
+&+ykeep humans and gnomes locked tightly. Becouse those races breed rather
+&+yexplosively compared to other good ones, this barrack is slightly bigger
+&+ythan the rest in this camp. Human cells are located north from here, while
+&+y gnomes are kept to the south. Closed wooden doors block the sigh, so it's
+&+yimpossible to peer into their rooms. The central square of the encampement
+&+ylies just west from here, while a small wooden door is visible in the east
+&+ywall.
+~
+1 33558528 2
+D0
+~
+door~
+1 0 53210
+D1
+A closed wooden door.
+~
+door~
+1 0 53213
+D2
+~
+door~
+1 0 53211
+D3
+~
+~
+0 0 53202
+S
+#53210
+A Slave Pen~
+&+L   Dark and stinking, this small room serves as a prison cell for human slaves
+&+Lcaptured by orcs. Walls are made from pine wood covered with black tar.
+&+LSeveral iron chains are protruding from western wall, connected to slaves with
+&+Lother ends. The floor is a raw soil, with a heap of rotting hay thrown over it.
+&+LThere are wooden doors leading south.
+~
+1 33558528 0
+D2
+~
+door~
+1 0 53209
+S
+#53211
+A Slave Pen~
+&+L  Dark and stinking, this small room serves as a prison cell for gnomish slaves
+&+Lcaptured by orcs. The walls are made of pine wood covered with black tar.
+&+LSeveral iron chains are protruding from western wall, connected to slaves with
+&+Lother ends. The floor is a raw soil, with a heap of rotting hay thrown over it.
+&+LThere are wooden doors leading north.
+~
+1 33558528 0
+D0
+~
+door~
+1 0 53209
+S
+#53212
+&+LA Cell of Death&n~
+&+L   This is the death-sentence cell in the orcish slave camp. Except for the
+&+Llarge heap of completely rotten hay covering the floor with one yard layer,
+&+Lthe room is completely empty. The walls are barren. There's a trapdoor up
+&+Labove, but there's no ladder leading to it. Whover once gets thrown in here,
+&+Lwill starve to death.
+~
+1 266241 0
+D4
+~
+trapdoor~
+2 53200 53202
+S
+#53213
+&+yDogs Pen&n~
+&+y   This fence-surrounded place behind slaves barracks is a living area for a
+&+yhuge dog, private property and puppy of the orcish camp master. He drags old or
+&+yweak slaves here, for his dog to devour them. &+rThat's why all the ground is
+&+rblodstained and there are pieces of torn clothing and smashed bones&+y scattered
+&+yall around here.
+~
+1 33558528 2
+D3
+~
+door~
+1 0 53209
+S

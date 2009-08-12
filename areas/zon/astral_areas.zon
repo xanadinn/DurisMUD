@@ -1,0 +1,156 @@
+#198
+&+gAstral Plane, Side Areas&n~
+19886 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 19826 4 2 100 0 0 0
+*     up exit from "An Astral Rift in Space" to
+*     "Astral Sanctuary" - closed/locked
+*
+D 0 19827 5 2 100 0 0 0
+*     down exit from "Astral Sanctuary" to
+*     "An Astral Rift in Space" - closed/locked
+*
+D 0 19833 0 2 100 0 0 0
+*     north exit from "Main Gates To The Githyanki Fortress" to
+*     "Courtyard" - closed/locked
+*
+D 0 19840 2 2 100 0 0 0
+*     south exit from "Courtyard" to
+*     "Main Gates To The Githyanki Fortress" - closed/locked
+*
+D 0 19840 0 1 100 0 0 0
+*     north exit from "Courtyard" to
+*     "Inside the Githyanki Tower" - closed
+*
+D 0 19843 2 1 100 0 0 0
+*     south exit from "Inside the Githyanki Tower" to
+*     "Courtyard" - closed
+*
+D 0 19853 5 1 100 0 0 0
+*     down exit from "Main Audience Chamber" to
+*     "Crypt" - closed
+*
+D 0 19854 4 1 100 0 0 0
+*     up exit from "Crypt" to
+*     "Main Audience Chamber" - closed
+*
+D 0 19858 0 2 100 0 0 0
+*     north exit from "Tiny Hallway" to
+*     "Tiny Staircase" - closed/locked
+*
+D 0 19859 2 2 100 0 0 0
+*     south exit from "Tiny Staircase" to
+*     "Tiny Hallway" - closed/locked
+*
+D 0 19860 2 2 100 0 0 0
+*     south exit from "Top of the Tower" to
+*     "Huge Room at the Top of the Tower" - closed/locked
+*
+D 0 19861 0 2 100 0 0 0
+*     north exit from "Huge Room at the Top of the Tower" to
+*     "Top of the Tower" - closed/locked
+*
+D 0 19863 0 1 100 0 0 0
+*     north exit from "Rocky Hillside" to
+*     "Small Cave" - closed
+*
+D 0 19864 2 1 100 0 0 0
+*     south exit from "Small Cave" to
+*     "Rocky Hillside" - closed
+*
+D 0 19879 0 1 100 0 0 0
+*     north exit from "Outside a Huge Sphere of Rock" to
+*     "Entrance to a Circular Chamber" - closed
+*
+D 0 19882 2 1 100 0 0 0
+*     south exit from "Entrance to a Circular Chamber" to
+*     "Outside a Huge Sphere of Rock" - closed
+*
+*
+O 0 19700 1 19827 100 0 0 0        * (object type not in this .obj file)
+O 0 19860 1 19842 100 0 0 0        * (object type not in this .obj file)
+O 0 19790 1 19847 100 0 0 0        * (object type not in this .obj file)
+O 0 19795 1 19847 100 0 0 0        * (object type not in this .obj file)
+O 0 19800 1 19848 100 0 0 0        * (object type not in this .obj file)
+O 0 19810 1 19850 100 0 0 0        * (object type not in this .obj file)
+P 1 19879 1 19810 100 0 0 0        *   (object type not in this .obj file)
+P 1 19815 1 19810 100 0 0 0        *   (object type not in this .obj file)
+O 0 19820 1 19850 100 0 0 0        * (object type not in this .obj file)
+O 0 19850 1 19855 100 0 0 0        * (object type not in this .obj file)
+P 1 19855 1 19850 100 0 0 0        *   (object type not in this .obj file)
+P 1 19840 1 19855 100 0 0 0        *     (object type not in this .obj file)
+O 0 19861 1 19856 100 0 0 0        * (object type not in this .obj file)
+O 0 19865 1 19857 100 0 0 0        * (object type not in this .obj file)
+P 1 19885 1 19865 100 0 0 0        *   (object type not in this .obj file)
+O 0 19890 1 19861 100 0 0 0        * (object type not in this .obj file)
+P 1 19770 1 19890 100 0 0 0        *   (object type not in this .obj file)
+O 0 64 1 19861 100 0 0 0           * (object type not in this .obj file)
+O 0 359 1 19861 100 0 0 0          * (object type not in this .obj file)
+O 0 19920 1 19864 100 0 0 0        * (object type not in this .obj file)
+O 0 19935 5 19868 100 0 0 0        * (object type not in this .obj file)
+O 0 19935 5 19871 100 0 0 0        * (object type not in this .obj file)
+O 0 19930 1 19876 100 0 0 0        * (object type not in this .obj file)
+O 0 19935 5 19877 100 0 0 0        * (object type not in this .obj file)
+O 0 19935 5 19878 100 0 0 0        * (object type not in this .obj file)
+O 0 19935 5 19881 100 0 0 0        * (object type not in this .obj file)
+*
+M 0 19900 2 19826 100 0 0 0        * (mob type not in this .mob file)
+G 1 19870 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19900 2 19826 100 0 0 0        * (mob type not in this .mob file)
+M 0 19790 4 19833 100 0 0 0        * (mob type not in this .mob file)
+G 1 19871 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19790 4 19833 100 0 0 0        * (mob type not in this .mob file)
+M 0 19770 15 19835 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19836 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19839 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19841 100 0 0 0       * (mob type not in this .mob file)
+M 0 19780 8 19842 100 0 0 0        * (mob type not in this .mob file)
+M 0 19780 8 19842 100 0 0 0        * (mob type not in this .mob file)
+M 0 19780 8 19842 100 0 0 0        * (mob type not in this .mob file)
+M 0 19780 8 19842 100 0 0 0        * (mob type not in this .mob file)
+M 0 19770 15 19843 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19843 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19845 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19845 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19847 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19847 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19848 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19848 100 0 0 0       * (mob type not in this .mob file)
+M 0 19780 8 19849 100 0 0 0        * (mob type not in this .mob file)
+M 0 19780 8 19849 100 0 0 0        * (mob type not in this .mob file)
+M 0 19885 1 19850 100 0 0 0        * (mob type not in this .mob file)
+G 1 19873 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 19960 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 19835 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19770 15 19852 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19852 100 0 0 0       * (mob type not in this .mob file)
+M 0 19770 15 19853 100 0 0 0       * (mob type not in this .mob file)
+M 0 19910 1 19853 100 0 0 0        * (mob type not in this .mob file)
+G 1 19877 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 19980 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19780 8 19857 100 0 0 0        * (mob type not in this .mob file)
+M 0 19780 8 19857 100 0 0 0        * (mob type not in this .mob file)
+M 0 19790 4 19860 100 0 0 0        * (mob type not in this .mob file)
+M 0 19790 4 19860 100 0 0 0        * (mob type not in this .mob file)
+G 1 19875 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19800 1 19861 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19869 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19869 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19872 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19873 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19874 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19879 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19881 100 0 0 0        * (mob type not in this .mob file)
+M 0 19810 8 19883 100 0 0 0        * (mob type not in this .mob file)
+M 0 19820 1 19884 100 0 0 0        * (mob type not in this .mob file)
+G 1 19950 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19702 1 19885 100 0 0 0        * (mob type not in this .mob file)
+G 1 19703 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 19704 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 19703 2 19885 100 0 0 0        * (mob type not in this .mob file) (following)
+F 1 19703 2 19885 100 0 0 0        * (mob type not in this .mob file) (following)
+*
+S

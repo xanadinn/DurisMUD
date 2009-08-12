@@ -1,0 +1,550 @@
+#270
+&+yThe Halfcut Hills&n~
+27470 2 0 20 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 27042 1 5 100 0 0 0
+*     east exit from "A Trail Through the Halfcut Hills" to
+*     "A Dead End in the Hill Giant's Cavern" - closed/secret
+*
+D 0 27434 3 5 100 0 0 0
+*     west exit from "A Dead End in the Hill Giant's Cavern" to
+*     "A Trail Through the Halfcut Hills" - closed/secret
+*
+D 0 27046 3 13 100 0 0 0
+*     west exit from "A Split in the Trail" to
+*     "A Small Dark Cave" - closed/secret/blocked
+*
+D 0 27374 1 1 100 0 0 0
+*     east exit from "A Small Dark Cave" to
+*     "A Split in the Trail" - closed
+*
+D 0 27062 0 1 100 0 0 0
+*     north exit from "A Dead End in the Hills" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27131 2 1 100 0 0 0
+*     south exit from "A Cramped Tunnel" to
+*     "A Dead End in the Hills" - closed
+*
+D 0 27110 5 5 100 0 0 0
+*     down exit from "End of the Trail" to
+*     "Tunnel in Winship's Crypt" - closed/secret
+*
+D 0 27451 4 5 100 0 0 0
+*     up exit from "Tunnel in Winship's Crypt" to
+*     "End of the Trail" - closed/secret
+*
+D 0 27118 1 1 100 0 0 0
+*     east exit from "The Banks of a Stream" to
+*     "Inside a Shanty" - closed
+*
+D 0 27122 3 1 100 0 0 0
+*     west exit from "Inside a Shanty" to
+*     "The Banks of a Stream" - closed
+*
+D 0 27119 1 1 100 0 0 0
+*     east exit from "The Banks of a Stream" to
+*     "Inside a Shack With a lot of Beds" - closed
+*
+D 0 27121 3 1 100 0 0 0
+*     west exit from "Inside a Shack With a lot of Beds" to
+*     "The Banks of a Stream" - closed
+*
+D 0 27139 1 1 100 0 0 0
+*     east exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27143 3 1 100 0 0 0
+*     west exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27144 0 1 100 0 0 0
+*     north exit from "A Cramped Tunnel" to
+*     "A Small Room" - closed
+*
+D 0 27145 2 1 100 0 0 0
+*     south exit from "A Small Room" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27147 0 1 100 0 0 0
+*     north exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27148 2 1 100 0 0 0
+*     south exit from "A Cramped Tunnel" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27161 3 1 100 0 0 0
+*     west exit from "A Cramped Tunnel" to
+*     "A Small Chamber" - closed
+*
+D 0 27162 1 1 100 0 0 0
+*     east exit from "A Small Chamber" to
+*     "A Cramped Tunnel" - closed
+*
+D 0 27178 2 1 100 0 0 0
+*     south exit from "A Narrow Passage" to
+*     "A Hidden Chamber" - closed
+*
+D 0 27186 0 1 100 0 0 0
+*     north exit from "A Hidden Chamber" to
+*     "A Narrow Passage" - closed
+*
+D 0 27183 2 1 100 0 0 0
+*     south exit from "A Narrow Passage" to
+*     "A Comfortable Room" - closed
+*
+D 0 27184 0 1 100 0 0 0
+*     north exit from "A Comfortable Room" to
+*     "A Narrow Passage" - closed
+*
+D 0 27185 0 1 100 0 0 0
+*     north exit from "An Extravagant Room" to
+*     "A Hidden Chamber" - closed
+*
+D 0 27186 2 1 100 0 0 0
+*     south exit from "A Hidden Chamber" to
+*     "An Extravagant Room" - closed
+*
+D 0 27387 0 5 100 0 0 0
+*     north exit from "At a Rock Pile" to
+*     "Inside a Partially Collapsed Mine" - closed/secret
+*
+D 0 27388 2 5 100 0 0 0
+*     south exit from "Inside a Partially Collapsed Mine" to
+*     "At a Rock Pile" - closed/secret
+*
+D 0 27390 1 5 100 0 0 0
+*     east exit from "Inside a Partially Collapsed Mine" to
+*     "Behind a Large Slab of Rock" - closed/secret
+*
+D 0 27415 3 5 100 0 0 0
+*     west exit from "Behind a Large Slab of Rock" to
+*     "Inside a Partially Collapsed Mine" - closed/secret
+*
+D 0 27396 0 5 100 0 0 0
+*     north exit from "Inside a Partially Collapsed Mine" to
+*     "The Mines Head office" - closed/secret
+*
+D 0 27433 2 1 100 0 0 0
+*     south exit from "The Mines Head office" to
+*     "Inside a Partially Collapsed Mine" - closed
+*
+D 0 27409 3 5 100 0 0 0
+*     west exit from "Inside a Partially Collapsed Mine" to
+*     "Behind a Large Slab of Rock" - closed/secret
+*
+D 0 27416 1 5 100 0 0 0
+*     east exit from "Behind a Large Slab of Rock" to
+*     "Inside a Partially Collapsed Mine" - closed/secret
+*
+D 0 27414 0 1 100 0 0 0
+*     north exit from "Inside a Partially Collapsed Mine" to
+*     "In a More Natural Looking Cavern" - closed
+*
+D 0 27417 2 1 100 0 0 0
+*     south exit from "In a More Natural Looking Cavern" to
+*     "Inside a Partially Collapsed Mine" - closed
+*
+D 0 27431 3 9 100 0 0 0
+*     west exit from "The Stone Giant Leader's Office" to
+*     "A Bed Chamber for Halkuis and His Bride" - closed/blocked
+*
+D 0 27432 1 1 100 0 0 0
+*     east exit from "A Bed Chamber for Halkuis and His Bride" to
+*     "The Stone Giant Leader's Office" - closed
+*
+D 0 27440 1 1 100 0 0 0
+*     east exit from "Inside the Hill Giant's Cavern" to
+*     "Entrance Cave to the Hill Giant's Cavern" - closed
+*
+D 0 27450 3 2 100 0 0 0
+*     west exit from "Entrance Cave to the Hill Giant's Cavern" to
+*     "Inside the Hill Giant's Cavern" - closed/locked
+*
+D 0 27452 2 1 100 0 0 0
+*     south exit from "Just Outside Winship's Crypt Chamber" to
+*     "Inside Winship's Crypt Chamber" - closed
+*
+D 0 27453 0 1 100 0 0 0
+*     north exit from "Inside Winship's Crypt Chamber" to
+*     "Just Outside Winship's Crypt Chamber" - closed
+*
+*
+O 0 27004 1 27003 100 0 0 0        * a wagon
+P 1 27005 1 27004 100 0 0 0        *   a tattered map
+P 1 27037 1 27004 100 0 0 0        *   a green potion
+O 0 27001 1 27046 100 0 0 0        * a tree
+O 0 27020 1 27046 100 0 0 0        * switch no-show rope
+O 0 27002 1 27057 100 0 0 0        * a skull
+O 0 27035 1 27110 100 0 0 0        * a marble slab
+O 0 27003 1 27120 100 0 0 0        * a cooking fire
+O 0 27009 1 27161 100 0 0 0        * a broken skull
+O 0 27017 1 27186 100 0 0 0        * a large chest
+P 1 27018 1 27017 100 0 0 0        *   a treasure horde
+O 0 27050 1 27187 100 0 0 0        * an emerald earring
+O 0 27024 1 27374 100 0 0 0        * a polished black stone
+O 0 27025 1 27374 100 0 0 0        * a polished black stone
+O 0 27029 1 27423 100 0 0 0        * the well
+O 0 27031 1 27431 100 0 0 0        * No show switch lever
+*
+M 0 27046 17 27048 100 0 0 0       * a harpy
+M 0 27039 1 27113 100 0 0 0        * a manticore
+M 0 27005 1 27114 100 0 0 0        * a sentry dwarf
+E 1 27008 1 16 100 0 0 0           *   a steel pike
+M 0 27003 2 27117 100 0 0 0        * a dwarf
+M 0 27003 2 27118 100 0 0 0        * a dwarf
+M 0 27004 1 27120 100 0 0 0        * a dwarf
+M 0 27001 1 27121 100 0 0 0        * an old dwarf
+M 0 27002 1 27122 100 0 0 0        * a wounded dwarf
+M 0 27072 1 27130 100 0 0 0        * the dwarf supplier
+G 1 27006 999 0 100 0 0 0          *    a golden nugget
+G 1 27010 999 0 100 0 0 0          *    a light crossbow
+G 1 27011 999 0 100 0 0 0          *    a quiver
+G 1 27046 999 0 100 0 0 0          *    a flaming green potion
+G 1 27047 999 0 100 0 0 0          *    a dark potion
+G 1 27048 999 0 100 0 0 0          *    a tightly rolled parchment
+M 0 27006 26 27131 100 0 0 0       * a kobold
+M 0 27006 26 27132 100 0 0 0       * a kobold
+M 0 27006 26 27133 100 0 0 0       * a kobold
+M 0 27007 10 27134 100 0 0 0       * a kobold
+M 0 27008 15 27135 100 0 0 0       * a kobold
+M 0 27008 15 27135 100 0 0 0       * a kobold
+M 0 27006 26 27135 100 0 0 0       * a kobold
+M 0 27006 26 27135 100 0 0 0       * a kobold
+M 0 27006 26 27137 100 0 0 0       * a kobold
+M 0 27006 26 27138 100 0 0 0       * a kobold
+M 0 27007 10 27140 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27008 15 27141 100 0 0 0       * a kobold
+M 0 27009 1 27142 100 0 0 0        * a kobold
+G 1 27010 999 0 100 0 0 0          *    a light crossbow
+G 1 27011 999 0 100 0 0 0          *    a quiver
+M 0 27011 1 27145 100 0 0 0        * Simt
+E 1 27014 1 18 100 0 0 0           *   a limestone totem
+M 0 27007 10 27147 100 0 0 0       * a kobold
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27149 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27010 1 27150 100 0 0 0        * Krinda
+E 1 27013 1 11 100 0 0 0           *   a hide shield
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27007 10 27150 100 0 0 0       * a kobold
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27006 26 27151 100 0 0 0       * a kobold
+M 0 27006 26 27151 100 0 0 0       * a kobold
+M 0 27021 1 27152 100 0 0 0        * a kobold
+M 0 27006 26 27153 100 0 0 0       * a kobold
+M 0 27006 26 27155 100 0 0 0       * a kobold
+M 0 27007 10 27156 100 0 0 0       * a kobold
+M 0 27008 15 27157 100 0 0 0       * a kobold
+M 0 27008 15 27157 100 0 0 0       * a kobold
+M 0 27008 15 27158 100 0 0 0       * a kobold
+M 0 27008 15 27158 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27159 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27008 15 27160 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27006 26 27168 100 0 0 0       * a kobold
+M 0 27007 10 27173 100 0 0 0       * a kobold
+M 0 27007 10 27173 100 0 0 0       * a kobold
+M 0 27017 1 27175 100 0 0 0        * Falu
+M 0 27006 26 27176 100 0 0 0       * a kobold
+M 0 27016 1 27177 100 0 0 0        * Slurg
+M 0 27018 1 27181 100 0 0 0        * Rogget
+M 0 27006 26 27182 100 0 0 0       * a kobold
+M 0 27006 26 27182 100 0 0 0       * a kobold
+M 0 27012 1 27184 100 0 0 0        * Grindor
+E 1 27015 1 2 100 0 0 0            *   a blackened ring
+M 0 27013 2 27185 100 0 0 0        * a kobold guard
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27013 2 27185 100 0 0 0        * a kobold guard
+E 1 27012 7 16 100 0 0 0           *   a jagged sword
+M 0 27014 1 27185 100 0 0 0        * Karfec
+E 1 27016 1 16 100 0 0 0           *   a skull on a stick
+M 0 27015 1 27186 100 0 0 0        * an enraged ape
+M 0 27019 1 27187 100 0 0 0        * Karfoc
+E 1 27019 1 16 100 0 0 0           *   a black wavy dagger
+M 0 27020 1 27187 100 0 0 0        * Krimor
+E 1 27026 1 16 100 0 0 0           *   a bone broadsword
+G 1 27027 1 0 100 0 0 0            *    a pair of silver tips
+M 0 27033 1 27189 100 0 0 0        * Remi Threepockets
+M 0 27034 1 27189 100 0 0 0        * Gird
+M 0 27035 1 27189 100 0 0 0        * A'den the Bard
+E 1 27049 1 18 100 0 0 0           *   an orb of shimmering light
+M 0 27036 1 27189 100 0 0 0        * Silverlinks
+E 1 27028 2 16 100 0 0 0           *   a silver dagger
+E 1 27028 2 17 100 0 0 0           *   a silver dagger
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27022 3 27189 100 0 0 0        * a giant spider
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27023 3 27189 100 0 0 0        * a carrion crawler
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27024 3 27189 100 0 0 0        * a sabertooth tiger
+M 0 27025 2 27189 100 0 0 0        * a bullette
+M 0 27025 2 27189 100 0 0 0        * a bullette
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27026 3 27189 100 0 0 0        * a kobold hunter
+M 0 27027 4 27189 100 0 0 0        * a hill giant
+M 0 27027 4 27189 100 0 0 0        * a hill giant
+M 0 27027 4 27189 100 0 0 0        * a hill giant
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27028 4 27189 100 0 0 0        * a goblin
+M 0 27029 1 27189 100 0 0 0        * a ghoul
+M 0 27030 1 27189 100 0 0 0        * a wight
+M 0 27037 3 27189 100 0 0 0        * a carnivorous ape
+M 0 27037 3 27189 100 0 0 0        * a carnivorous ape
+M 0 27037 3 27189 100 0 0 0        * a carnivorous ape
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27038 3 27189 100 0 0 0        * a leucrotta
+M 0 27040 11 27196 100 0 0 0       * a manticore
+M 0 27040 11 27197 100 0 0 0       * a manticore
+M 0 27040 11 27199 100 0 0 0       * a manticore
+M 0 27040 11 27200 100 0 0 0       * a manticore
+M 0 27040 11 27201 100 0 0 0       * a manticore
+M 0 27040 11 27202 100 0 0 0       * a manticore
+M 0 27040 11 27203 100 0 0 0       * a manticore
+M 0 27040 11 27204 100 0 0 0       * a manticore
+M 0 27040 11 27205 100 0 0 0       * a manticore
+M 0 27040 11 27206 100 0 0 0       * a manticore
+M 0 27040 11 27207 100 0 0 0       * a manticore
+M 0 27043 5 27208 100 0 0 0        * a manticore
+M 0 27044 2 27209 100 0 0 0        * a manticore
+M 0 27043 5 27212 100 0 0 0        * a manticore
+M 0 27041 1 27212 100 0 0 0        * a manticore
+M 0 27043 5 27213 100 0 0 0        * a manticore
+M 0 27043 5 27214 100 0 0 0        * a manticore
+M 0 27043 5 27215 100 0 0 0        * a manticore
+M 0 27044 2 27216 100 0 0 0        * a manticore
+M 0 27045 9 27219 100 0 0 0        * a harpy
+M 0 27045 9 27219 100 0 0 0        * a harpy
+M 0 27046 17 27221 100 0 0 0       * a harpy
+M 0 27045 9 27222 100 0 0 0        * a harpy
+M 0 27045 9 27223 100 0 0 0        * a harpy
+M 0 27046 17 27224 100 0 0 0       * a harpy
+M 0 27046 17 27224 100 0 0 0       * a harpy
+M 0 27046 17 27225 100 0 0 0       * a harpy
+M 0 27045 9 27226 100 0 0 0        * a harpy
+M 0 27045 9 27227 100 0 0 0        * a harpy
+M 0 27045 9 27227 100 0 0 0        * a harpy
+M 0 27045 9 27229 100 0 0 0        * a harpy
+M 0 27046 17 27230 100 0 0 0       * a harpy
+M 0 27046 17 27230 100 0 0 0       * a harpy
+M 0 27045 9 27231 100 0 0 0        * a harpy
+M 0 27046 17 27231 100 0 0 0       * a harpy
+M 0 27046 17 27232 100 0 0 0       * a harpy
+M 0 27046 17 27233 100 0 0 0       * a harpy
+M 0 27046 17 27233 100 0 0 0       * a harpy
+M 0 27046 17 27234 100 0 0 0       * a harpy
+M 0 27046 17 27235 100 0 0 0       * a harpy
+M 0 27046 17 27235 100 0 0 0       * a harpy
+M 0 27046 17 27235 100 0 0 0       * a harpy
+M 0 27046 17 27235 100 0 0 0       * a harpy
+M 0 27046 17 27235 100 0 0 0       * a harpy
+M 0 27032 14 27238 100 0 0 0       * a large earth elemental
+M 0 27032 14 27240 100 0 0 0       * a large earth elemental
+M 0 27047 3 27241 100 0 0 0        * a large air elemental
+M 0 27048 2 27242 100 0 0 0        * a dustdeviler
+E 1 27021 1 10 100 0 0 0           *   some armplates of dust
+M 0 27047 3 27243 100 0 0 0        * a large air elemental
+M 0 27032 14 27244 100 0 0 0       * a large earth elemental
+M 0 27047 3 27245 100 0 0 0        * a large air elemental
+M 0 27032 14 27246 100 0 0 0       * a large earth elemental
+M 0 27049 1 27263 100 0 0 0        * a small red dragon
+E 1 27022 1 2 100 0 0 0            *   a deep red ring
+M 0 27050 13 27265 100 0 0 0       * a small air elemental
+M 0 27051 12 27265 100 0 0 0       * a medium air elemental
+M 0 27052 9 27265 100 0 0 0        * a large air elemental
+M 0 27053 8 27265 100 0 0 0        * a large air elemental
+M 0 27054 8 27265 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27054 8 27266 100 0 0 0        * a huge air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27053 8 27267 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27052 9 27268 100 0 0 0        * a large air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27051 12 27269 100 0 0 0       * a medium air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27050 13 27270 100 0 0 0       * a small air elemental
+M 0 27055 13 27295 100 0 0 0       * a tiny air elemental
+M 0 27054 8 27295 100 0 0 0        * a huge air elemental
+M 0 27053 8 27295 100 0 0 0        * a large air elemental
+M 0 27052 9 27295 100 0 0 0        * a large air elemental
+M 0 27051 12 27295 100 0 0 0       * a medium air elemental
+M 0 27050 13 27295 100 0 0 0       * a small air elemental
+M 0 27051 12 27295 100 0 0 0       * a medium air elemental
+M 0 27050 13 27295 100 0 0 0       * a small air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27055 13 27300 100 0 0 0       * a tiny air elemental
+M 0 27056 1 27373 100 0 0 0        * a VERYOLD air elemental
+E 1 27023 1 2 100 0 0 0            *   a ring of endless light
+M 0 27032 14 27376 100 0 0 0       * a large earth elemental
+M 0 27032 14 27377 100 0 0 0       * a large earth elemental
+M 0 27032 14 27378 100 0 0 0       * a large earth elemental
+M 0 27032 14 27378 100 0 0 0       * a large earth elemental
+M 0 27032 14 27379 100 0 0 0       * a large earth elemental
+M 0 27048 2 27380 100 0 0 0        * a dustdeviler
+M 0 27032 14 27381 100 0 0 0       * a large earth elemental
+M 0 27032 14 27382 100 0 0 0       * a large earth elemental
+M 0 27032 14 27382 100 0 0 0       * a large earth elemental
+M 0 27032 14 27383 100 0 0 0       * a large earth elemental
+M 0 27032 14 27384 100 0 0 0       * a large earth elemental
+M 0 27057 1 27389 100 0 0 0        * a large stone giant
+M 0 27058 8 27391 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27396 100 0 0 0        * a wandering stone giant
+G 1 27038 1 0 100 0 0 0            *    a simple wooden box
+P 1 27039 4 27038 100 0 0 0        *   a brown jar
+P 1 27039 4 27038 100 0 0 0        *   a brown jar
+P 1 27039 4 27038 100 0 0 0        *   a brown jar
+P 1 27039 4 27038 100 0 0 0        *   a brown jar
+M 0 27058 8 27397 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27403 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27404 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27405 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27411 100 0 0 0        * a wandering stone giant
+M 0 27058 8 27414 100 0 0 0        * a wandering stone giant
+M 0 27059 1 27415 100 0 0 0        * the old miner
+M 0 27071 1 27416 100 0 0 0        * the old miner
+M 0 27061 10 27419 100 0 0 0       * a large stone giant
+M 0 27061 10 27419 100 0 0 0       * a large stone giant
+M 0 27061 10 27421 100 0 0 0       * a large stone giant
+M 0 27061 10 27421 100 0 0 0       * a large stone giant
+M 0 27061 10 27422 100 0 0 0       * a large stone giant
+M 0 27061 10 27425 100 0 0 0       * a large stone giant
+M 0 27061 10 27425 100 0 0 0       * a large stone giant
+M 0 27061 10 27427 100 0 0 0       * a large stone giant
+M 0 27061 10 27427 100 0 0 0       * a large stone giant
+M 0 27061 10 27427 100 0 0 0       * a large stone giant
+M 0 27060 1 27429 100 0 0 0        * the young miner
+M 0 27062 2 27430 100 0 0 0        * a large stone giant
+M 0 27062 2 27430 100 0 0 0        * a large stone giant
+M 0 27063 1 27431 100 0 0 0        * Hulkuis
+E 1 27030 1 20 100 0 0 0           *   a stone mask
+G 1 27058 1 0 100 0 0 0            *    Hulkuis' scalp
+M 0 27064 1 27432 100 0 0 0        * Guikis
+E 1 27032 1 24 100 0 0 0           *   a beautiful rose
+M 0 27065 1 27433 100 0 0 0        * Bartis
+G 1 27057 1 0 100 0 0 0            *    Bartis' scalp
+M 0 27067 4 27434 100 0 0 0        * a large hill giant
+M 0 27027 4 27444 100 0 0 0        * a hill giant
+M 0 27066 5 27444 100 0 0 0        * a hill giant
+M 0 27066 5 27444 100 0 0 0        * a hill giant
+M 0 27066 5 27444 100 0 0 0        * a hill giant
+M 0 27066 5 27444 100 0 0 0        * a hill giant
+M 0 27066 5 27444 100 0 0 0        * a hill giant
+M 0 27067 4 27447 100 0 0 0        * a large hill giant
+M 0 27067 4 27448 100 0 0 0        * a large hill giant
+M 0 27067 4 27449 100 0 0 0        * a large hill giant
+M 0 27068 1 27450 100 0 0 0        * a hill giant guard
+E 1 27034 1 16 100 0 0 0           *   a large, jagged, deadly looking sword
+G 1 27033 1 0 100 0 0 0            *    a LARGE key
+M 0 27070 2 27452 100 0 0 0        * the large skeleton
+M 0 27070 2 27452 100 0 0 0        * the large skeleton
+M 0 27069 1 27453 100 0 0 0        * Winship's Lich
+G 1 27036 1 0 100 0 0 0            *    a vial of Windship's life
+M 0 27074 5 27460 100 0 0 0        * a Drow Elf
+M 0 27074 5 27460 100 0 0 0        * a Drow Elf
+M 0 27074 5 27460 100 0 0 0        * a Drow Elf
+M 0 27074 5 27460 100 0 0 0        * a Drow Elf
+M 0 27074 5 27460 100 0 0 0        * a Drow Elf
+M 0 27073 5 27461 100 0 0 0        * a Duergar Dwarf
+M 0 27073 5 27461 100 0 0 0        * a Duergar Dwarf
+M 0 27073 5 27461 100 0 0 0        * a Duergar Dwarf
+M 0 27073 5 27461 100 0 0 0        * a Duergar Dwarf
+M 0 27073 5 27461 100 0 0 0        * a Duergar Dwarf
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27076 6 27462 100 0 0 0        * an Orc
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27075 6 27463 100 0 0 0        * a Goblin
+M 0 27077 4 27464 100 0 0 0        * a large Ogre
+M 0 27077 4 27464 100 0 0 0        * a large Ogre
+M 0 27077 4 27464 100 0 0 0        * a large Ogre
+M 0 27077 4 27464 100 0 0 0        * a large Ogre
+M 0 27078 1 27465 100 0 0 0        * the raid leader
+G 1 27051 1 0 100 0 0 0            *    the leader's scalp
+M 0 27079 2 27465 100 0 0 0        * a Troll guard
+M 0 27079 2 27465 100 0 0 0        * a Troll guard
+M 0 27083 1 27466 100 0 0 0        * the head Duergar
+G 1 27055 1 0 100 0 0 0            *    the duergar's scalp
+M 0 27082 1 27467 100 0 0 0        * the Drow leader
+G 1 27053 1 0 100 0 0 0            *    the drow's scalp
+M 0 27081 1 27468 100 0 0 0        * the head Goblin
+G 1 27054 1 0 100 0 0 0            *    the goblin's scalp
+M 0 27080 1 27469 100 0 0 0        * the head Orc
+G 1 27052 1 0 100 0 0 0            *    the orc's scalp
+*
+S

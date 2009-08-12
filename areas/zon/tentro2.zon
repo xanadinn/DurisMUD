@@ -1,0 +1,841 @@
+#690
+The Mountain Village of Tentro~
+69293 2 0 10 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 69066 3 1 100 0 0 0
+*     west exit from "In the Dark Troglodyte Caves" to
+*     "In the Dark Hidden Passage of the Troglodyte Caves" - closed
+*
+D 0 69067 1 1 100 0 0 0
+*     east exit from "In the Dark Hidden Passage of the Troglodyte Caves" to
+*     "In the Dark Troglodyte Caves" - closed
+*
+D 0 69078 0 2 100 0 0 0
+*     north exit from "Approaching the End of the Troglodyte Caves" to
+*     "In the Troglodyte Chieftains Throne Room." - closed/locked
+*
+D 0 69079 2 2 100 0 0 0
+*     south exit from "In the Troglodyte Chieftains Throne Room." to
+*     "Approaching the End of the Troglodyte Caves" - closed/locked
+*
+D 0 69094 0 1 100 0 0 0
+*     north exit from "Before the City Gates" to
+*     "The Central Path of Tentro" - closed
+*
+D 0 69095 2 1 100 0 0 0
+*     south exit from "The Central Path of Tentro" to
+*     "Before the City Gates" - closed
+*
+D 0 69097 1 1 100 0 0 0
+*     east exit from "On the Main Pathway In Front of the Pub of the Golden Dragon" to
+*     "Inside the Pub of the Golden Dragon" - closed
+*
+D 0 69120 3 1 100 0 0 0
+*     west exit from "Inside the Pub of the Golden Dragon" to
+*     "On the Main Pathway In Front of the Pub of the Golden Dragon" - closed
+*
+D 0 69098 3 1 100 0 0 0
+*     west exit from "In Front of the Large Double Doors of the Holy Cathedral" to
+*     "Inside the Holy Cathedral of the Gods" - closed
+*
+D 0 69112 1 1 100 0 0 0
+*     east exit from "Inside the Holy Cathedral of the Gods" to
+*     "In Front of the Large Double Doors of the Holy Cathedral" - closed
+*
+D 0 69119 1 1 100 0 0 0
+*     east exit from "Dark Alleyway Between the Buildings of the City" to
+*     "A Very Dirty Abandoned Building" - closed
+*
+D 0 69129 3 1 100 0 0 0
+*     west exit from "A Very Dirty Abandoned Building" to
+*     "Dark Alleyway Between the Buildings of the City" - closed
+*
+D 0 69125 2 1 100 0 0 0
+*     south exit from "Matafana Street In Front of a Home" to
+*     "Inside a Private Residence" - closed
+*
+D 0 69128 0 1 100 0 0 0
+*     north exit from "Inside a Private Residence" to
+*     "Matafana Street In Front of a Home" - closed
+*
+D 0 69130 3 1 100 0 0 0
+*     west exit from "Green Plum Avenue in Front of the Mayors Office" to
+*     "Inside the Mayors Office" - closed
+*
+D 0 69135 1 1 100 0 0 0
+*     east exit from "Inside the Mayors Office" to
+*     "Green Plum Avenue in Front of the Mayors Office" - closed
+*
+D 0 69135 2 1 100 0 0 0
+*     south exit from "Inside the Mayors Office" to
+*     "The Mayors Meeting Room" - closed
+*
+D 0 69136 0 1 100 0 0 0
+*     north exit from "The Mayors Meeting Room" to
+*     "Inside the Mayors Office" - closed
+*
+D 0 69137 1 1 100 0 0 0
+*     east exit from "Along Green Plum Avenue" to
+*     "Inside the Waiting Room of the Bank of Tentro" - closed
+*
+D 0 69148 3 1 100 0 0 0
+*     west exit from "Inside the Waiting Room of the Bank of Tentro" to
+*     "Along Green Plum Avenue" - closed
+*
+D 0 69142 1 1 100 0 0 0
+*     east exit from "The Intersection of All Saints Boulevard and Longbow Avenue" to
+*     "Near the Eastern Wall of Tentro" - closed
+*
+D 0 69219 3 1 100 0 0 0
+*     west exit from "Near the Eastern Wall of Tentro" to
+*     "The Intersection of All Saints Boulevard and Longbow Avenue" - closed
+*
+D 0 69147 3 1 100 0 0 0
+*     west exit from "Nearing the End of Longbow Avenue" to
+*     "Inside Tentro's Only Greenhouse" - closed
+*
+D 0 69150 1 1 100 0 0 0
+*     east exit from "Inside Tentro's Only Greenhouse" to
+*     "Nearing the End of Longbow Avenue" - closed
+*
+D 0 69166 5 1 100 0 0 0
+*     down exit from "Underwater in the Tentro Bath House" to
+*     "Underwater in the Twisting Tunnels Beneath Tentro" - closed
+*
+D 0 69168 4 1 100 0 0 0
+*     up exit from "Underwater in the Twisting Tunnels Beneath Tentro" to
+*     "Underwater in the Tentro Bath House" - closed
+*
+D 0 69177 4 1 100 0 0 0
+*     up exit from "A Dead End in the Underwater Tunnels" to
+*     "Inside a Secret Chamber in Tentro" - closed
+*
+D 0 69178 5 1 100 0 0 0
+*     down exit from "Inside a Secret Chamber in Tentro" to
+*     "A Dead End in the Underwater Tunnels" - closed
+*
+D 0 69184 1 1 100 0 0 0
+*     east exit from "Along the Wide Attraction Lane" to
+*     "Holding Cell of a Phouka" - closed
+*
+D 0 69204 3 1 100 0 0 0
+*     west exit from "Holding Cell of a Phouka" to
+*     "Along the Wide Attraction Lane" - closed
+*
+D 0 69184 3 1 100 0 0 0
+*     west exit from "Along the Wide Attraction Lane" to
+*     "Holding Cell of the Simurgh" - closed
+*
+D 0 69203 1 1 100 0 0 0
+*     east exit from "Holding Cell of the Simurgh" to
+*     "Along the Wide Attraction Lane" - closed
+*
+D 0 69185 1 1 100 0 0 0
+*     east exit from "Wide Path in Front of the Cells of the Manticore and Chimera" to
+*     "Holding Cell of the Viscious Manticore" - closed
+*
+D 0 69189 3 1 100 0 0 0
+*     west exit from "Holding Cell of the Viscious Manticore" to
+*     "Wide Path in Front of the Cells of the Manticore and Chimera" - closed
+*
+D 0 69185 3 1 100 0 0 0
+*     west exit from "Wide Path in Front of the Cells of the Manticore and Chimera" to
+*     "Holding Cell of the Chimera" - closed
+*
+D 0 69188 1 1 100 0 0 0
+*     east exit from "Holding Cell of the Chimera" to
+*     "Wide Path in Front of the Cells of the Manticore and Chimera" - closed
+*
+D 0 69186 1 1 100 0 0 0
+*     east exit from "Wide Boulevard Between the Cells of the Lamia and Satyr" to
+*     "Holding Cell of the Satyr" - closed
+*
+D 0 69191 3 1 100 0 0 0
+*     west exit from "Holding Cell of the Satyr" to
+*     "Wide Boulevard Between the Cells of the Lamia and Satyr" - closed
+*
+D 0 69186 3 1 100 0 0 0
+*     west exit from "Wide Boulevard Between the Cells of the Lamia and Satyr" to
+*     "Cell of the Lamia" - closed
+*
+D 0 69190 1 1 100 0 0 0
+*     east exit from "Cell of the Lamia" to
+*     "Wide Boulevard Between the Cells of the Lamia and Satyr" - closed
+*
+D 0 69187 1 1 100 0 0 0
+*     east exit from "Boulevard Between the Holding Cells of the Barak and Diatryma" to
+*     "The Holding Cell of the Barak" - closed
+*
+D 0 69194 3 1 100 0 0 0
+*     west exit from "The Holding Cell of the Barak" to
+*     "Boulevard Between the Holding Cells of the Barak and Diatryma" - closed
+*
+D 0 69187 3 1 100 0 0 0
+*     west exit from "Boulevard Between the Holding Cells of the Barak and Diatryma" to
+*     "Holding Cell of the Diatryma" - closed
+*
+D 0 69193 1 1 100 0 0 0
+*     east exit from "Holding Cell of the Diatryma" to
+*     "Boulevard Between the Holding Cells of the Barak and Diatryma" - closed
+*
+D 0 69192 0 1 100 0 0 0
+*     north exit from "Wide Avenue of the Park" to
+*     "Park Office" - closed
+*
+D 0 69195 2 1 100 0 0 0
+*     south exit from "Park Office" to
+*     "Wide Avenue of the Park" - closed
+*
+D 0 69192 5 2 100 0 0 0
+*     down exit from "Wide Avenue of the Park" to
+*     "Entrance to the Cells of the Dangerous Creatures" - closed/locked
+*
+D 0 69196 4 2 100 0 0 0
+*     up exit from "Entrance to the Cells of the Dangerous Creatures" to
+*     "Wide Avenue of the Park" - closed/locked
+*
+D 0 69197 0 2 100 0 0 0
+*     north exit from "Dark Hallway Between the Cells of the Gryphon" to
+*     "The Dark Holding Cell of the Gryphon" - closed/locked
+*
+D 0 69198 2 2 100 0 0 0
+*     south exit from "The Dark Holding Cell of the Gryphon" to
+*     "Dark Hallway Between the Cells of the Gryphon" - closed/locked
+*
+D 0 69197 2 2 100 0 0 0
+*     south exit from "Dark Hallway Between the Cells of the Gryphon" to
+*     "Dark Holding Cell of a Gryphon" - closed/locked
+*
+D 0 69199 0 2 100 0 0 0
+*     north exit from "Dark Holding Cell of a Gryphon" to
+*     "Dark Hallway Between the Cells of the Gryphon" - closed/locked
+*
+D 0 69200 0 2 100 0 0 0
+*     north exit from "Dark Hallway Between the Cells of the Enormous Roc" to
+*     "A Dark Roc Cell" - closed/locked
+*
+D 0 69201 2 2 100 0 0 0
+*     south exit from "A Dark Roc Cell" to
+*     "Dark Hallway Between the Cells of the Enormous Roc" - closed/locked
+*
+D 0 69200 2 2 100 0 0 0
+*     south exit from "Dark Hallway Between the Cells of the Enormous Roc" to
+*     "A Dark Cell of a Roc" - closed/locked
+*
+D 0 69202 0 2 100 0 0 0
+*     north exit from "A Dark Cell of a Roc" to
+*     "Dark Hallway Between the Cells of the Enormous Roc" - closed/locked
+*
+D 0 69205 0 2 100 0 0 0
+*     north exit from "Dark Passageway Between the Cells of a Hobyah and a Trow" to
+*     "Dark Holding Cell of a Hobyah" - closed/locked
+*
+D 0 69206 2 2 100 0 0 0
+*     south exit from "Dark Holding Cell of a Hobyah" to
+*     "Dark Passageway Between the Cells of a Hobyah and a Trow" - closed/locked
+*
+D 0 69205 2 2 100 0 0 0
+*     south exit from "Dark Passageway Between the Cells of a Hobyah and a Trow" to
+*     "Holding Cell of a Trow" - closed/locked
+*
+D 0 69207 0 2 100 0 0 0
+*     north exit from "Holding Cell of a Trow" to
+*     "Dark Passageway Between the Cells of a Hobyah and a Trow" - closed/locked
+*
+D 0 69205 5 2 100 0 0 0
+*     down exit from "Dark Passageway Between the Cells of a Hobyah and a Trow" to
+*     "A Small Room Beneath the Trapdoor" - closed/locked
+*
+D 0 69208 4 2 100 0 0 0
+*     up exit from "A Small Room Beneath the Trapdoor" to
+*     "Dark Passageway Between the Cells of a Hobyah and a Trow" - closed/locked
+*
+D 0 69209 0 2 100 0 0 0
+*     north exit from "Black Room Used to Summon Evil Spirits" to
+*     "Magically Sealed Cell of the Incubus" - closed/locked
+*
+D 0 69212 2 2 100 0 0 0
+*     south exit from "Magically Sealed Cell of the Incubus" to
+*     "Black Room Used to Summon Evil Spirits" - closed/locked
+*
+D 0 69209 1 2 100 0 0 0
+*     east exit from "Black Room Used to Summon Evil Spirits" to
+*     "Holding Cell of a Bean Si" - closed/locked
+*
+D 0 69211 3 2 100 0 0 0
+*     west exit from "Holding Cell of a Bean Si" to
+*     "Black Room Used to Summon Evil Spirits" - closed/locked
+*
+D 0 69209 3 2 100 0 0 0
+*     west exit from "Black Room Used to Summon Evil Spirits" to
+*     "Dark Cell of a Barquest" - closed/locked
+*
+D 0 69210 1 2 100 0 0 0
+*     east exit from "Dark Cell of a Barquest" to
+*     "Black Room Used to Summon Evil Spirits" - closed/locked
+*
+D 0 69209 5 2 100 0 0 0
+*     down exit from "Black Room Used to Summon Evil Spirits" to
+*     "Shrine and Summoning Mirror of Demons" - closed/locked
+*
+D 0 69217 4 2 100 0 0 0
+*     up exit from "Shrine and Summoning Mirror of Demons" to
+*     "Black Room Used to Summon Evil Spirits" - closed/locked
+*
+D 0 69213 0 2 100 0 0 0
+*     north exit from "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" to
+*     "Dark Cell of a Scrag" - closed/locked
+*
+D 0 69214 2 2 100 0 0 0
+*     south exit from "Dark Cell of a Scrag" to
+*     "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" - closed/locked
+*
+D 0 69213 2 2 100 0 0 0
+*     south exit from "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" to
+*     "Holding Cell of a Svirfnebli" - closed/locked
+*
+D 0 69215 0 2 100 0 0 0
+*     north exit from "Holding Cell of a Svirfnebli" to
+*     "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" - closed/locked
+*
+D 0 69213 3 2 100 0 0 0
+*     west exit from "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" to
+*     "Golden Horde of Nu" - closed/locked
+*
+D 0 69216 1 2 100 0 0 0
+*     east exit from "Golden Horde of Nu" to
+*     "Dark Hallway Between the Cells of the Scrag and the Svirfnebli" - closed/locked
+*
+D 0 69217 2 2 100 0 0 0
+*     south exit from "Shrine and Summoning Mirror of Demons" to
+*     "Labratory of the Park" - closed/locked
+*
+D 0 69218 0 2 100 0 0 0
+*     north exit from "Labratory of the Park" to
+*     "Shrine and Summoning Mirror of Demons" - closed/locked
+*
+D 0 69235 1 1 100 0 0 0
+*     east exit from "In Front of the Fence to the Corn Field" to
+*     "In the Northern End of the Corn Field" - closed
+*
+D 0 69251 3 1 100 0 0 0
+*     west exit from "In the Northern End of the Corn Field" to
+*     "In Front of the Fence to the Corn Field" - closed
+*
+D 0 69236 3 1 100 0 0 0
+*     west exit from "In Front of a Farmers Home" to
+*     "Inside the House of a Farmer" - closed
+*
+D 0 69288 1 1 100 0 0 0
+*     east exit from "Inside the House of a Farmer" to
+*     "In Front of a Farmers Home" - closed
+*
+D 0 69242 3 1 100 0 0 0
+*     west exit from "On the Dirt Path In Front of a Large Corn Field" to
+*     "The Entrance to a Large Corn Field" - closed
+*
+D 0 69247 1 1 100 0 0 0
+*     east exit from "The Entrance to a Large Corn Field" to
+*     "On the Dirt Path In Front of a Large Corn Field" - closed
+*
+D 0 69243 1 1 100 0 0 0
+*     east exit from "On the Dirt Road In Front of the Radish Patch" to
+*     "In a Large Radish Patch" - closed
+*
+D 0 69267 3 1 100 0 0 0
+*     west exit from "In a Large Radish Patch" to
+*     "On the Dirt Road In Front of the Radish Patch" - closed
+*
+D 0 69246 0 1 100 0 0 0
+*     north exit from "In Front of the Fence to the Potato Patch" to
+*     "The Entrance to the Potato Field" - closed
+*
+D 0 69258 2 1 100 0 0 0
+*     south exit from "The Entrance to the Potato Field" to
+*     "In Front of the Fence to the Potato Patch" - closed
+*
+D 0 69257 3 1 100 0 0 0
+*     west exit from "Near the Fence of the Potato Field" to
+*     "Near the Fence of the Potato Patch of Salol" - closed
+*
+D 0 69263 1 1 100 0 0 0
+*     east exit from "Near the Fence of the Potato Patch of Salol" to
+*     "Near the Fence of the Potato Field" - closed
+*
+D 0 69275 1 1 100 0 0 0
+*     east exit from "The Southern Entrance to the Radish Patch" to
+*     "Near a Fence to the Radish Patch" - closed
+*
+D 0 69276 3 1 100 0 0 0
+*     west exit from "Near a Fence to the Radish Patch" to
+*     "The Southern Entrance to the Radish Patch" - closed
+*
+D 0 69290 0 2 100 0 0 0
+*     north exit from "Mob Holding Room" to
+*     "Dubars Secret Room of Monkey Fun and Paraphenalia" - closed/locked
+*
+D 0 69292 2 2 100 0 0 0
+*     south exit from "Dubars Secret Room of Monkey Fun and Paraphenalia" to
+*     "Mob Holding Room" - closed/locked
+*
+*
+O 0 69000 1 69038 100 0 0 0        * a small pond
+O 0 69001 1 69038 100 0 0 0        * a small pond
+O 0 69081 1 69068 100 0 0 0        * a battered human corpse
+O 0 69009 1 69079 100 0 0 0        * a large throne
+P 1 69010 1 69009 100 0 0 0        *   the longsword of Halp
+O 0 69036 1 69096 100 0 0 0        * a simple fountain
+O 0 69013 1 69121 100 0 0 0        * the long bar
+O 0 69035 1 69136 100 0 0 0        * a bookcase
+O 0 69025 1 69195 100 0 0 0        * a wooden desk
+P 1 69022 1 69025 100 0 0 0        *   a order form
+P 1 69040 1 69025 100 0 0 0        *   a simple key
+O 0 69047 1 69216 100 0 0 0        * a moldy helm
+O 0 69048 1 69216 100 0 0 0        * a dirty brown sundial attached to a leather thong
+O 0 69050 1 69216 100 0 0 0        * some coins
+O 0 69054 5 69247 100 0 0 0        * a corn plant
+O 0 69054 5 69248 100 0 0 0        * a corn plant
+O 0 69054 5 69249 100 0 0 0        * a corn plant
+O 0 69082 1 69249 100 0 0 0        * a large pile of corn husks
+O 0 69054 5 69250 100 0 0 0        * a corn plant
+O 0 69054 5 69251 100 0 0 0        * a corn plant
+O 0 69056 12 69258 100 0 0 0       * a potato
+O 0 69056 12 69258 100 0 0 0       * a potato
+O 0 69056 12 69259 100 0 0 0       * a potato
+O 0 69056 12 69260 100 0 0 0       * a potato
+O 0 69056 12 69260 100 0 0 0       * a potato
+O 0 69056 12 69260 100 0 0 0       * a potato
+O 0 69056 12 69261 100 0 0 0       * a potato
+O 0 69056 12 69262 100 0 0 0       * a potato
+O 0 69056 12 69263 100 0 0 0       * a potato
+O 0 69056 12 69266 100 0 0 0       * a potato
+O 0 69056 12 69266 100 0 0 0       * a potato
+O 0 69056 12 69266 100 0 0 0       * a potato
+O 0 69057 2 69267 100 0 0 0        * a dirt clump
+O 0 69057 2 69272 100 0 0 0        * a dirt clump
+O 0 69055 7 69272 100 0 0 0        * a radish
+O 0 69055 7 69272 100 0 0 0        * a radish
+O 0 69055 7 69273 100 0 0 0        * a radish
+O 0 69055 7 69273 100 0 0 0        * a radish
+O 0 69055 7 69273 100 0 0 0        * a radish
+O 0 69055 7 69274 100 0 0 0        * a radish
+O 0 69055 7 69275 100 0 0 0        * a radish
+*
+M 0 69000 18 69000 100 0 0 0       * a large buffalo
+M 0 69000 18 69000 100 0 0 0       * a large buffalo
+M 0 69001 12 69001 100 0 0 0       * a prairie dog
+M 0 69001 12 69001 100 0 0 0       * a prairie dog
+M 0 69001 12 69002 100 0 0 0       * a prairie dog
+M 0 69000 18 69002 100 0 0 0       * a large buffalo
+M 0 69009 9 69003 100 0 0 0        * a wild horse
+M 0 69009 9 69004 100 0 0 0        * a wild horse
+M 0 69009 9 69004 100 0 0 0        * a wild horse
+M 0 69006 8 69005 100 0 0 0        * a young buffalo
+M 0 69007 8 69005 100 0 0 0        * a small rabbit
+M 0 69000 18 69006 100 0 0 0       * a large buffalo
+M 0 69006 8 69007 100 0 0 0        * a young buffalo
+M 0 69006 8 69007 100 0 0 0        * a young buffalo
+M 0 69004 5 69008 100 0 0 0        * a field mouse
+M 0 69003 4 69008 100 0 0 0        * a sparrow
+M 0 69104 7 69008 100 0 0 0        * a killer mosquito
+M 0 69007 8 69009 100 0 0 0        * a small rabbit
+M 0 69007 8 69009 100 0 0 0        * a small rabbit
+M 0 69009 9 69010 100 0 0 0        * a wild horse
+M 0 69000 18 69010 100 0 0 0       * a large buffalo
+M 0 69045 1 69010 100 0 0 0        * a hunter from Tentro
+M 0 69008 5 69011 100 0 0 0        * a black wolf
+M 0 69000 18 69012 100 0 0 0       * a large buffalo
+M 0 69001 12 69012 100 0 0 0       * a prairie dog
+M 0 69002 6 69012 100 0 0 0        * a filthy vulture
+M 0 69006 8 69013 100 0 0 0        * a young buffalo
+M 0 69007 8 69013 100 0 0 0        * a small rabbit
+M 0 69008 5 69013 100 0 0 0        * a black wolf
+M 0 69000 18 69014 100 0 0 0       * a large buffalo
+M 0 69001 12 69015 100 0 0 0       * a prairie dog
+M 0 69000 18 69015 100 0 0 0       * a large buffalo
+M 0 69002 6 69015 100 0 0 0        * a filthy vulture
+M 0 69104 7 69015 100 0 0 0        * a killer mosquito
+M 0 69005 1 69016 100 0 0 0        * a female buffalo
+M 0 69104 7 69016 100 0 0 0        * a killer mosquito
+M 0 69000 18 69017 100 0 0 0       * a large buffalo
+M 0 69006 8 69017 100 0 0 0        * a young buffalo
+M 0 69001 12 69018 100 0 0 0       * a prairie dog
+M 0 69008 5 69019 100 0 0 0        * a black wolf
+M 0 69008 5 69019 100 0 0 0        * a black wolf
+M 0 69002 6 69020 100 0 0 0        * a filthy vulture
+M 0 69002 6 69020 100 0 0 0        * a filthy vulture
+M 0 69004 5 69021 100 0 0 0        * a field mouse
+M 0 69003 4 69021 100 0 0 0        * a sparrow
+M 0 69000 18 69022 100 0 0 0       * a large buffalo
+M 0 69001 12 69022 100 0 0 0       * a prairie dog
+M 0 69001 12 69023 100 0 0 0       * a prairie dog
+M 0 69001 12 69023 100 0 0 0       * a prairie dog
+M 0 69000 18 69024 100 0 0 0       * a large buffalo
+M 0 69001 12 69024 100 0 0 0       * a prairie dog
+M 0 69007 8 69024 100 0 0 0        * a small rabbit
+M 0 69004 5 69025 100 0 0 0        * a field mouse
+M 0 69004 5 69025 100 0 0 0        * a field mouse
+M 0 69004 5 69026 100 0 0 0        * a field mouse
+M 0 69007 8 69026 100 0 0 0        * a small rabbit
+M 0 69007 8 69026 100 0 0 0        * a small rabbit
+M 0 69001 12 69027 100 0 0 0       * a prairie dog
+M 0 69002 6 69027 100 0 0 0        * a filthy vulture
+M 0 69003 4 69027 100 0 0 0        * a sparrow
+M 0 69003 4 69029 100 0 0 0        * a sparrow
+M 0 69000 18 69029 100 0 0 0       * a large buffalo
+M 0 69000 18 69029 100 0 0 0       * a large buffalo
+M 0 69000 18 69030 100 0 0 0       * a large buffalo
+M 0 69008 5 69031 100 0 0 0        * a black wolf
+M 0 69009 9 69031 100 0 0 0        * a wild horse
+M 0 69009 9 69031 100 0 0 0        * a wild horse
+M 0 69000 18 69032 100 0 0 0       * a large buffalo
+M 0 69006 8 69032 100 0 0 0        * a young buffalo
+M 0 69009 9 69032 100 0 0 0        * a wild horse
+M 0 69006 8 69033 100 0 0 0        * a young buffalo
+M 0 69007 8 69033 100 0 0 0        * a small rabbit
+M 0 69002 6 69034 100 0 0 0        * a filthy vulture
+M 0 69009 9 69034 100 0 0 0        * a wild horse
+M 0 69104 7 69034 100 0 0 0        * a killer mosquito
+M 0 69001 12 69035 100 0 0 0       * a prairie dog
+M 0 69006 8 69035 100 0 0 0        * a young buffalo
+M 0 69009 9 69039 100 0 0 0        * a wild horse
+M 0 69000 18 69039 100 0 0 0       * a large buffalo
+M 0 69104 7 69039 100 0 0 0        * a killer mosquito
+M 0 69000 18 69040 100 0 0 0       * a large buffalo
+M 0 69000 18 69040 100 0 0 0       * a large buffalo
+M 0 69012 1 69043 100 0 0 0        * a HUGE stone golem
+E 1 69003 1 20 100 0 0 0           *   the morbid face of a stone golem
+M 0 69017 16 69044 100 0 0 0       * a troglodyte sentinel
+E 1 69004 5 16 100 0 0 0           *   a troglodyte sword
+M 0 69017 16 69045 100 0 0 0       * a troglodyte sentinel
+E 1 69004 5 16 100 0 0 0           *   a troglodyte sword
+M 0 69017 16 69045 100 0 0 0       * a troglodyte sentinel
+E 1 69005 1 16 100 0 0 0           *   a stone battle axe
+M 0 69016 5 69047 100 0 0 0        * a troglodyte female
+M 0 69107 5 69047 100 0 0 0        * a troglodyte berserker
+M 0 69017 16 69048 100 0 0 0       * a troglodyte sentinel
+M 0 69108 6 69049 100 0 0 0        * a troglodyte female
+M 0 69017 16 69050 100 0 0 0       * a troglodyte sentinel
+M 0 69018 3 69051 100 0 0 0        * a troglodyte mother
+M 0 69020 7 69051 100 0 0 0        * a troglodyte child
+M 0 69020 7 69051 100 0 0 0        * a troglodyte child
+M 0 69016 5 69053 100 0 0 0        * a troglodyte female
+M 0 69017 16 69053 100 0 0 0       * a troglodyte sentinel
+M 0 69106 3 69054 100 0 0 0        * a troglodyte male
+M 0 69016 5 69056 100 0 0 0        * a troglodyte female
+M 0 69020 7 69056 100 0 0 0        * a troglodyte child
+M 0 69020 7 69056 100 0 0 0        * a troglodyte child
+M 0 69018 3 69056 100 0 0 0        * a troglodyte mother
+M 0 69106 3 69058 100 0 0 0        * a troglodyte male
+M 0 69108 6 69058 100 0 0 0        * a troglodyte female
+M 0 69109 4 69058 100 0 0 0        * a troglodyte assassin
+E 1 69080 4 16 100 0 0 0           *   a troglodyte dagger
+M 0 69017 16 69059 100 0 0 0       * a troglodyte sentinel
+M 0 69017 16 69061 100 0 0 0       * a troglodyte sentinel
+M 0 69108 6 69061 100 0 0 0        * a troglodyte female
+M 0 69018 3 69062 100 0 0 0        * a troglodyte mother
+M 0 69020 7 69062 100 0 0 0        * a troglodyte child
+M 0 69020 7 69062 100 0 0 0        * a troglodyte child
+M 0 69020 7 69062 100 0 0 0        * a troglodyte child
+M 0 69017 16 69063 100 0 0 0       * a troglodyte sentinel
+M 0 69017 16 69063 100 0 0 0       * a troglodyte sentinel
+M 0 69107 5 69063 100 0 0 0        * a troglodyte berserker
+M 0 69016 5 69066 100 0 0 0        * a troglodyte female
+M 0 69106 3 69068 100 0 0 0        * a troglodyte male
+M 0 69107 5 69068 100 0 0 0        * a troglodyte berserker
+M 0 69108 6 69068 100 0 0 0        * a troglodyte female
+M 0 69017 16 69069 100 0 0 0       * a troglodyte sentinel
+M 0 69017 16 69069 100 0 0 0       * a troglodyte sentinel
+M 0 69015 1 69070 100 0 0 0        * a troglodyte princess
+E 1 69063 1 21 100 0 0 0           *   a troglodyte earring
+M 0 69109 4 69070 100 0 0 0        * a troglodyte assassin
+E 1 69080 4 16 100 0 0 0           *   a troglodyte dagger
+M 0 69107 5 69071 100 0 0 0        * a troglodyte berserker
+M 0 69017 16 69072 100 0 0 0       * a troglodyte sentinel
+M 0 69017 16 69072 100 0 0 0       * a troglodyte sentinel
+M 0 69016 5 69073 100 0 0 0        * a troglodyte female
+M 0 69108 6 69073 100 0 0 0        * a troglodyte female
+M 0 69109 4 69073 100 0 0 0        * a troglodyte assassin
+E 1 69080 4 16 100 0 0 0           *   a troglodyte dagger
+M 0 69108 6 69075 100 0 0 0        * a troglodyte female
+M 0 69107 5 69076 100 0 0 0        * a troglodyte berserker
+M 0 69042 1 69077 100 0 0 0        * a shifty eyed troglodyte
+E 1 69004 5 16 100 0 0 0           *   a troglodyte sword
+M 0 69013 2 69078 100 0 0 0        * a troglodyte warrior
+E 1 69004 5 16 100 0 0 0           *   a troglodyte sword
+E 1 69079 1 18 100 0 0 0           *   a troglodyte key
+M 0 69017 16 69078 100 0 0 0       * a troglodyte sentinel
+E 1 69012 5 16 100 0 0 0           *   a troglodyte javelin
+M 0 69017 16 69078 100 0 0 0       * a troglodyte sentinel
+E 1 69012 5 16 100 0 0 0           *   a troglodyte javelin
+M 0 69013 2 69078 100 0 0 0        * a troglodyte warrior
+E 1 69004 5 16 100 0 0 0           *   a troglodyte sword
+M 0 69109 4 69078 100 0 0 0        * a troglodyte assassin
+E 1 69080 4 16 100 0 0 0           *   a troglodyte dagger
+M 0 69014 1 69079 100 0 0 0        * the troglodyte chieftain
+E 1 69062 1 2 100 0 0 0            *   a troglodyte spiked ring
+E 1 69007 1 13 100 0 0 0           *   a fancy troglodyte belt
+E 1 69006 1 18 100 0 0 0           *   the totem of the troglodyte chieftain
+E 1 69008 2 28 100 0 0 0           *   a piece of steel
+M 0 69019 2 69079 100 0 0 0        * a troglodyte bodyguard
+E 1 69012 5 16 100 0 0 0           *   a troglodyte javelin
+M 0 69019 2 69079 100 0 0 0        * a troglodyte bodyguard
+E 1 69012 5 16 100 0 0 0           *   a troglodyte javelin
+M 0 53642 2 69083 100 0 0 0        * (mob type not in this .mob file)
+M 0 53612 2 69086 100 0 0 0        * (mob type not in this .mob file)
+M 0 53612 2 69086 100 0 0 0        * (mob type not in this .mob file)
+M 0 53642 2 69089 100 0 0 0        * (mob type not in this .mob file)
+M 0 53619 1 69091 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 1 69092 100 0 0 0        * (mob type not in this .mob file)
+M 0 69036 1 69095 100 0 0 0        * an old guard
+M 0 69046 1 69096 100 0 0 0        * an apprentice priest
+M 0 69035 7 69097 100 0 0 0        * a commoner
+M 0 69028 1 69099 100 0 0 0        * Thesaloneous
+E 1 69024 4 5 100 0 0 0            *   a suit of blessed platemail
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+M 0 69035 7 69099 100 0 0 0        * a commoner
+M 0 69037 1 69103 100 0 0 0        * a small rat
+G 1 69021 1 0 100 0 0 0            *    a rats tail
+M 0 69030 1 69105 100 0 0 0        * Anguaine
+E 1 69024 4 5 100 0 0 0            *   a suit of blessed platemail
+M 0 69035 7 69105 100 0 0 0        * a commoner
+M 0 69025 3 69112 100 0 0 0        * a church follower
+M 0 69025 3 69113 100 0 0 0        * a church follower
+M 0 69025 3 69114 100 0 0 0        * a church follower
+M 0 69110 1 69115 100 0 0 0        * the church priest
+M 0 69029 1 69117 100 0 0 0        * Dandimarton
+E 1 69066 1 16 100 0 0 0           *   a great white bow
+E 1 69024 4 5 100 0 0 0            *   a suit of blessed platemail
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+R 1 69077 1 69117 100 0 0 0        * a great white steed (being ridden)
+M 0 69103 1 69117 100 0 0 0        * a meek shaman
+M 0 69022 1 69121 100 0 0 0        * the bartender
+M 0 69024 1 69122 100 0 0 0        * a short gnome
+M 0 69038 1 69122 100 0 0 0        * a drunk dwarf
+M 0 69023 1 69123 100 0 0 0        * a drunk human
+M 0 69031 1 69127 100 0 0 0        * Anatolian
+E 1 69024 4 5 100 0 0 0            *   a suit of blessed platemail
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+G 1 69073 10 0 100 0 0 0           *    a strong arrow
+M 0 69034 2 69128 100 0 0 0        * a citizen of Tentro
+M 0 69026 1 69129 100 0 0 0        * a dirty bum
+E 1 69064 2 20 100 0 0 0           *   a filthy gag
+M 0 69079 1 69130 100 0 0 0        * an elderly landscaper
+E 1 69018 1 16 100 0 0 0           *   a gardeners shears
+M 0 69102 1 69132 100 0 0 0        * an unemployed hemp farmer
+E 1 69058 3 6 100 0 0 0            *   a farmers hat
+E 1 69072 1 7 100 0 0 0            *   a pair of hemp pants
+M 0 69035 7 69133 100 0 0 0        * a commoner
+M 0 69039 1 69135 100 0 0 0        * the mayors personal assistant
+M 0 69033 1 69136 100 0 0 0        * the mayor of Tentro
+M 0 69041 2 69146 100 0 0 0        * a Tentro street sweeper
+M 0 69034 2 69146 100 0 0 0        * a citizen of Tentro
+M 0 69040 1 69149 100 0 0 0        * a bank teller
+M 0 69048 1 69151 100 0 0 0        * the blind caretaker
+G 1 69034 1 0 100 0 0 0            *    a green book
+M 0 69041 2 69153 100 0 0 0        * a Tentro street sweeper
+M 0 69035 7 69153 100 0 0 0        * a commoner
+M 0 69035 7 69155 100 0 0 0        * a commoner
+M 0 69035 7 69155 100 0 0 0        * a commoner
+M 0 69043 1 69158 100 0 0 0        * a halfling merchant
+G 1 69026 999 0 100 0 0 0          *    a slender flute
+G 1 69077 999 0 100 0 0 0          *    a simple harp
+M 0 69111 1 69159 100 0 0 0        * a barbarian merchant
+G 1 69027 999 0 100 0 0 0          *    an iron wristband
+G 1 69028 999 0 100 0 0 0          *    an iron cap
+G 1 69029 999 0 100 0 0 0          *    an iron mask
+G 1 69030 999 0 100 0 0 0          *    an iron shield
+G 1 69031 999 0 100 0 0 0          *    an iron dagger
+G 1 69037 999 0 100 0 0 0          *    a triangular shield
+G 1 69033 999 0 100 0 0 0          *    an iron locket
+M 0 69112 1 69160 100 0 0 0        * a bankrupt merchant
+M 0 69044 2 69162 100 0 0 0        * a bath house prostitute
+M 0 69044 2 69164 100 0 0 0        * a bath house prostitute
+M 0 69047 1 69164 100 0 0 0        * a male prostitute
+M 0 69078 1 69178 100 0 0 0        * an ancient elf
+E 1 69068 1 18 100 0 0 0           *   a Tentro-made spellbook
+E 1 69017 1 23 100 0 0 0           *   an elven quiver
+M 0 69051 1 69180 100 0 0 0        * a village guard
+E 1 69028 999 6 100 0 0 0          *   an iron cap
+E 1 69027 999 15 100 0 0 0         *   an iron wristband
+G 1 69030 999 0 100 0 0 0          *    an iron shield
+M 0 69073 1 69186 100 0 0 0        * A popcorn seller
+G 1 69042 999 0 100 0 0 0          *    a bag of popcorn
+M 0 69074 1 69187 100 0 0 0        * a bouncing clown
+G 1 69043 999 0 100 0 0 0          *    a big blue balloon
+G 1 69044 999 0 100 0 0 0          *    a big red balloon
+M 0 69053 1 69188 100 0 0 0        * a chimera
+M 0 69054 1 69189 100 0 0 0        * a manticore
+M 0 69055 1 69190 100 0 0 0        * a lamia
+M 0 69056 1 69191 100 0 0 0        * a satyr
+M 0 69058 1 69193 100 0 0 0        * a diatryma
+M 0 69057 1 69194 100 0 0 0        * a large barak
+M 0 69052 1 69195 100 0 0 0        * Nu
+E 1 69076 1 5 100 0 0 0            *   a simple vest
+P 1 69075 1 69076 100 0 0 0        *   a wooden desk key
+M 0 69060 1 69197 100 0 0 0        * the dungeon keeper
+G 1 69039 1 0 100 0 0 0            *    a blue cell key
+M 0 69059 2 69198 100 0 0 0        * a gryphon
+M 0 69059 2 69199 100 0 0 0        * a gryphon
+M 0 69061 2 69201 100 0 0 0        * a large roc
+M 0 69061 2 69202 100 0 0 0        * a large roc
+M 0 69062 1 69203 100 0 0 0        * a simurgh
+M 0 69063 1 69204 100 0 0 0        * a phouka
+M 0 69066 1 69205 100 0 0 0        * a ghost
+G 1 69046 2 0 100 0 0 0            *    a key of shadows
+M 0 69064 1 69206 100 0 0 0        * a hobyah
+M 0 69065 1 69207 100 0 0 0        * a trow
+M 0 69068 1 69210 100 0 0 0        * a barquest
+E 1 69014 1 37 100 0 0 0           *   tailpiece of the barquest
+M 0 69071 1 69211 100 0 0 0        * a bean si
+E 1 69015 1 20 100 0 0 0           *   mask of the bean si
+M 0 69067 1 69212 100 0 0 0        * a incubus
+G 1 69041 1 0 100 0 0 0            *    the devils key
+M 0 69069 1 69214 100 0 0 0        * a sea scrag
+M 0 69070 1 69215 100 0 0 0        * a svirfnebli prisoner
+E 1 69064 2 20 100 0 0 0           *   a filthy gag
+M 0 69072 1 69217 100 0 0 0        * a yochlol
+G 1 69046 2 0 100 0 0 0            *    a key of shadows
+M 0 69075 1 69218 100 0 0 0        * a deranged surgeon
+E 1 69051 1 16 100 0 0 0           *   a scalpel
+E 1 69052 1 21 100 0 0 0           *   a surgeon's silver earring
+G 1 69053 1 0 100 0 0 0            *    the head of the surgeon
+M 0 69076 1 69218 100 0 0 0        * an enormous two-headed-ettin
+E 1 69065 1 16 100 0 0 0           *   en ettin-made whip
+M 0 69105 1 69218 100 0 0 0        * a half turtle, half sheep
+M 0 69080 26 69223 100 0 0 0       * a bumble bee
+M 0 69080 26 69223 100 0 0 0       * a bumble bee
+M 0 69081 9 69223 100 0 0 0        * a robin
+M 0 69082 7 69223 100 0 0 0        * a black mouse
+M 0 69083 6 69224 100 0 0 0        * a stray cat
+M 0 69080 26 69224 100 0 0 0       * a bumble bee
+M 0 69080 26 69225 100 0 0 0       * a bumble bee
+M 0 69084 7 69225 100 0 0 0        * a small girl
+M 0 69086 2 69226 100 0 0 0        * a family dog
+M 0 69087 8 69226 100 0 0 0        * a teenage girl
+M 0 69088 4 69226 100 0 0 0        * a dairy cow
+M 0 69080 26 69226 100 0 0 0       * a bumble bee
+M 0 69086 2 69227 100 0 0 0        * a family dog
+M 0 69085 1 69227 100 0 0 0        * a little boy
+M 0 69080 26 69228 100 0 0 0       * a bumble bee
+M 0 69081 9 69228 100 0 0 0        * a robin
+M 0 69096 4 69229 100 0 0 0        * a large sparrow
+M 0 69096 4 69229 100 0 0 0        * a large sparrow
+M 0 69092 9 69229 100 0 0 0        * a young farmer
+M 0 69087 8 69230 100 0 0 0        * a teenage girl
+M 0 69088 4 69230 100 0 0 0        * a dairy cow
+M 0 69089 1 69232 100 0 0 0        * a farmers wife
+M 0 69090 2 69232 100 0 0 0        * a gnome merchant
+M 0 69104 7 69232 100 0 0 0        * a killer mosquito
+M 0 69084 7 69233 100 0 0 0        * a small girl
+M 0 69084 7 69233 100 0 0 0        * a small girl
+M 0 69084 7 69233 100 0 0 0        * a small girl
+M 0 69080 26 69234 100 0 0 0       * a bumble bee
+F 1 69093 2 69234 100 0 0 0        * an old woman (following)
+M 0 69080 26 69234 100 0 0 0       * a bumble bee
+M 0 69083 6 69235 100 0 0 0        * a stray cat
+M 0 69082 7 69235 100 0 0 0        * a black mouse
+M 0 69104 7 69236 100 0 0 0        * a killer mosquito
+M 0 69093 2 69237 100 0 0 0        * an old woman
+M 0 69081 9 69237 100 0 0 0        * a robin
+M 0 69081 9 69237 100 0 0 0        * a robin
+M 0 69094 2 69238 100 0 0 0        * a large work horse
+M 0 69096 4 69238 100 0 0 0        * a large sparrow
+M 0 69096 4 69238 100 0 0 0        * a large sparrow
+M 0 69094 2 69239 100 0 0 0        * a large work horse
+M 0 69081 9 69240 100 0 0 0        * a robin
+M 0 69081 9 69240 100 0 0 0        * a robin
+M 0 69081 9 69240 100 0 0 0        * a robin
+M 0 69080 26 69241 100 0 0 0       * a bumble bee
+M 0 69080 26 69241 100 0 0 0       * a bumble bee
+M 0 69080 26 69241 100 0 0 0       * a bumble bee
+M 0 69095 5 69243 100 0 0 0        * a small red ant
+M 0 69095 5 69243 100 0 0 0        * a small red ant
+M 0 69080 26 69243 100 0 0 0       * a bumble bee
+M 0 69082 7 69244 100 0 0 0        * a black mouse
+M 0 69082 7 69244 100 0 0 0        * a black mouse
+M 0 69081 9 69244 100 0 0 0        * a robin
+M 0 69081 9 69244 100 0 0 0        * a robin
+M 0 69084 7 69245 100 0 0 0        * a small girl
+M 0 69083 6 69246 100 0 0 0        * a stray cat
+M 0 69083 6 69246 100 0 0 0        * a stray cat
+M 0 69092 9 69249 100 0 0 0        * a young farmer
+E 1 69058 3 6 100 0 0 0            *   a farmers hat
+E 1 69059 3 8 100 0 0 0            *   a pair of boots
+M 0 69092 9 69249 100 0 0 0        * a young farmer
+E 1 69059 3 8 100 0 0 0            *   a pair of boots
+E 1 69060 3 15 100 0 0 0           *   a leather bracer
+M 0 69091 2 69249 100 0 0 0        * an elderly farmer
+E 1 69060 3 15 100 0 0 0           *   a leather bracer
+M 0 69113 1 69249 100 0 0 0        * a member of the Winterhaven militia
+M 0 69087 8 69254 100 0 0 0        * a teenage girl
+M 0 69092 9 69254 100 0 0 0        * a young farmer
+M 0 69087 8 69256 100 0 0 0        * a teenage girl
+M 0 69092 9 69256 100 0 0 0        * a young farmer
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69080 26 69257 100 0 0 0       * a bumble bee
+M 0 69097 10 69258 100 0 0 0       * a potato bug
+M 0 69092 9 69258 100 0 0 0        * a young farmer
+E 1 69058 3 6 100 0 0 0            *   a farmers hat
+E 1 69060 3 15 100 0 0 0           *   a leather bracer
+M 0 69091 2 69258 100 0 0 0        * an elderly farmer
+E 1 69059 3 8 100 0 0 0            *   a pair of boots
+M 0 69097 10 69259 100 0 0 0       * a potato bug
+M 0 69097 10 69259 100 0 0 0       * a potato bug
+M 0 69097 10 69260 100 0 0 0       * a potato bug
+M 0 69097 10 69260 100 0 0 0       * a potato bug
+M 0 69097 10 69260 100 0 0 0       * a potato bug
+M 0 69097 10 69261 100 0 0 0       * a potato bug
+M 0 69097 10 69261 100 0 0 0       * a potato bug
+M 0 69097 10 69265 100 0 0 0       * a potato bug
+M 0 69097 10 69266 100 0 0 0       * a potato bug
+M 0 69080 26 69269 100 0 0 0       * a bumble bee
+M 0 69080 26 69269 100 0 0 0       * a bumble bee
+M 0 69088 4 69269 100 0 0 0        * a dairy cow
+M 0 69088 4 69269 100 0 0 0        * a dairy cow
+M 0 69095 5 69270 100 0 0 0        * a small red ant
+M 0 69095 5 69270 100 0 0 0        * a small red ant
+M 0 69095 5 69270 100 0 0 0        * a small red ant
+M 0 69080 26 69271 100 0 0 0       * a bumble bee
+M 0 69090 2 69271 100 0 0 0        * a gnome merchant
+M 0 69092 9 69274 100 0 0 0        * a young farmer
+M 0 69092 9 69274 100 0 0 0        * a young farmer
+M 0 69087 8 69274 100 0 0 0        * a teenage girl
+M 0 69087 8 69276 100 0 0 0        * a teenage girl
+M 0 69084 7 69276 100 0 0 0        * a small girl
+M 0 69084 7 69276 100 0 0 0        * a small girl
+M 0 69083 6 69276 100 0 0 0        * a stray cat
+M 0 69083 6 69276 100 0 0 0        * a stray cat
+M 0 69082 7 69277 100 0 0 0        * a black mouse
+M 0 69082 7 69277 100 0 0 0        * a black mouse
+M 0 69080 26 69277 100 0 0 0       * a bumble bee
+M 0 69080 26 69277 100 0 0 0       * a bumble bee
+M 0 69080 26 69277 100 0 0 0       * a bumble bee
+M 0 69087 8 69282 100 0 0 0        * a teenage girl
+M 0 69080 26 69282 100 0 0 0       * a bumble bee
+M 0 69080 26 69282 100 0 0 0       * a bumble bee
+M 0 69082 7 69282 100 0 0 0        * a black mouse
+M 0 69087 8 69283 100 0 0 0        * a teenage girl
+M 0 69092 9 69283 100 0 0 0        * a young farmer
+M 0 69098 1 69288 100 0 0 0        * an elderly woman
+E 1 69061 1 2 100 0 0 0            *   a small golden ring
+M 0 69010 1 69289 100 0 0 0        * a half-elf explorer
+E 1 69002 1 27 100 0 0 0           *   a buffalo-hide backpack
+M 0 69101 1 69293 100 0 0 0        * an outraged troglodyte
+E 1 69071 1 20 100 0 0 0           *   a troglodyte mask
+E 1 69012 5 16 100 0 0 0           *   a troglodyte javelin
+*
+S

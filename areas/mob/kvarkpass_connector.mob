@@ -1,0 +1,540 @@
+#54600
+orc merchant~
+&+Lan orc merchant&n~
+&+LA traveling orc merchant has setup shop here.&n
+~
+  This orc merchant has temporarily setup shop here while he is
+travelling the lands.  He is dressed in simple leather garments of
+Shady Grove and carries a large over-flowing sack of warez that he
+peddles wherever he can.
+~
+74 0 0 8 0 0 0 -1000 S
+HO 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54601
+bobcat cat bob~
+&+ya bobcat~
+&+yAn angry-looking bobcat scales the rocks here&n.
+~
+Slightly larger than a cat, but very deadly, the bobcat
+looks for something to eat here in the mountains.
+~
+1073743944 1 0 0 0 0 0 0 S
+A 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54602
+wolf pack~
+&+La pack wolf&n~
+&+LA pack wolf snarls over a fresh kill&n.
+~
+A vicious pack wolf stands here.
+~
+1073743882 1 0 152 0 0 0 0 S
+A 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54603
+shark small~
+&+ca small shark&n~
+&+cA small shark swims through here, looking for prey.&n
+~
+A small shark, neat eh?
+~
+1073743882 1 0 8 0 0 0 0 S
+F 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54604
+scout drow~
+&+ma drow scout&n~
+A drow scout keeps watch of the secret entrance&n.
+~
+This tough-looking drow scout is dressed in camoflauge-like armor.
+~
+1073743882 0 0 268437656 0 67108864 0 -1000 S
+PL 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54605
+clansdwarf duergar guard~
+a &+rclansdwarf&n~
+A &+rclansdwarf&n patrols the settlement.
+~
+    This duergar guard is a member of the House
+of Clan Shatter Stone, and has been dispatched from
+Khildarak to help prepare the new settlement for the
+Clan.  He is dressed in a basic set of purple wormskin
+armor that his clan often wears.
+~
+67110920 8 0 8 0 0 0 -1000 S
+PD 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54606
+miner clansdwarf duergar~
+a &+Wclansdwarf miner&n~
+A &+Wclansdwarf miner&n rests comfortably in his home.
+~
+   This clansdwarf is a proud duergar in the House of
+Clan Shatter Stone.  While the clan is mainly located in
+Khildarak, this expedition has started a new settlement
+here.  The clansdwarf looks very tired and is resting
+after a long day of digging and refining the settlment. He
+is dressed in a simple set of overalls with a couple
+pick axes tied to his belt.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54607
+clansdwarf stout miner duergar~
+a &+Lstout clansdwarf miner&n~
+A &+Lstout clansdwarf&n is getting ready for work.&n
+~
+   This clansdwarf is a proud duergar in the House of
+Clan Shatter Stone.  While the clan is mainly located in
+Khildarak, this expedition has started a new settlement
+here.  The clansdwarf looks very tired and is resting
+after a long day of digging and refining the settlment. He
+is dressed in a simple set of overalls with a couple
+pick axes tied to his belt.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+37 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54608
+miner angry duergar~
+an angry miner~
+An angry miner, upset about something, stomps down the road.
+~
+   This clansdwarf is a proud duergar in the House of
+Clan Shatter Stone.  While the clan is mainly located in
+Khildarak, this expedition has started a new settlement
+here.  The clansdwarf looks very tired and is resting
+after a long day of digging and refining the settlment. He
+is dressed in a simple set of overalls with a couple
+pick axes tied to his belt.
+~
+2056 1 0 0 0 0 0 -1000 S
+PD 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54609
+soldier duergar~
+&+ra duergar soldier&n~
+&+rA duergar soldier rests comfortably in the barracks&n.
+~
+    This duergar guard is a member of the House
+of Clan Shatter Stone, and has been dispatched from
+Khildarak to help prepare the new settlement for the
+Clan.  He is dressed in a basic set of purple wormskin
+armor that his clan often wears.
+~
+67110922 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54610
+plotok duergar lieutenant~
+&+gPlotok, the lieutenant&n~
+&+gPlotok, the lieutenant of the outpost stands here, preparing his armor for battle.&n
+~
+   Plotok is the lieutenant of the outpost, and an obviously
+valuable asset to the clan.  His office is more like his own
+prep-room for war.  Amongst the various armor and weapons
+organized around the room are skeletons and other trophies from
+his many victories in defending the outpost from the undead.
+~
+1073743883 1 0 268435608 0 0 0 -1000 S
+PD 0 16384 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54611
+duergar tactician~
+&+Lthe duergar tactician&n~
+&+LThe duergar tactician is &+yworking on a hide&+L.
+~
+   This duergar is one of the rare bards of the land,
+and while he does play the battle drums, he is the
+tactician for the clan's outpost. He seems to have
+developed a slight affinity with the magical arts, yet
+still retained a fair amount of his warrior skills.
+~
+1073743882 0 0 134217880 2048 0 0 -1000 S
+PD 0 32768 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54612
+soldier off off-duty duergar~
+&+yan off-duty soldier&n~
+&+yAn off-duty soldier rests by &+rthe fire&n.
+~
+    This duergar guard is a member of the House
+of Clan Shatter Stone, and has been dispatched from
+Khildarak to help prepare the new settlement for the
+Clan.  He is dressed in a basic set of purple wormskin
+armor that his clan often wears.
+~
+1073743882 0 0 0 0 0 0 -1000 S
+PD 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54613
+elite guard duergar~
+&+Ran elite duergar guard&n~
+&+RAn elite duergar guard protects the great hall&n.
+~
+    This duergar guard is a member of the House
+of Clan Shatter Stone, and has been dispatched from
+Khildarak to help prepare the new settlement for the
+Clan.  He is dressed in a basic set of purple wormskin
+armor that his clan often wears.
+~
+1140852746 1 0 268435608 0 67108992 0 -1000 S
+PD 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54614
+glonvx duergar commander~
+&+LGlonvx, the duergar commander&n~
+&+LGlonvx, the duergar commander, sits upon his throne.&n
+~
+   Glonvx is the duergar commander, and it shows.
+He looks like his bare fists could shatter stone
+themselves.  His forehead is gnarled, the cranial
+ridge bulging out an inch.  While his armor is
+nothing special - some black colored platemail, he
+wields a very large black axe, and a sparkle can
+be seen from one of his fingers.
+~
+1073743882 1 0 134217880 268437505 67108992 1024 -1000 S
+PD 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54615
+guard clansdwarf duergar guardsman~
+&+Ra clansdwarf guardsman&n~
+&+RA clansdwarf guardsman patrols the area&n.
+~
+    This duergar guard is a member of the House
+of Clan Shatter Stone, and has been dispatched from
+Khildarak to help prepare the new settlement for the
+Clan.  He is dressed in a basic set of purple wormskin
+armor that his clan often wears.
+~
+1073743880 320 0 0 0 0 0 -1000 S
+PD 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54616
+rothe huge~
+&+Wa huge rothe&n~
+&+WA huge rothe moves slowly through the cavern.&n
+~
+  Like a huge buffalo, the rothe is a large hairy beast that
+roams the underworld and grazes on small plants.
+~
+1073743880 0 0 144 0 0 0 0 S
+A 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54617
+rothe large~
+&+ya large rothe&n~
+&+yA large rothe is grazing here&n.
+~
+  Like a huge buffalo, the rothe is a large hairy beast that
+roams the underworld and grazes on small plants.
+~
+8 0 0 144 0 0 0 0 S
+A 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54618
+rothe young~
+&+Ya young rothe&n~
+&+YA young rothe frolicks in the mushrooms&n.
+~
+  Like a huge buffalo, the rothe is a large hairy beast that
+roams the underworld and grazes on small plants.
+~
+1073743880 0 0 144 0 0 0 0 S
+A 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#54619
+duergar priest~
+&+Mthe duergar priest&n~
+&+MThe duergar priest stands at the altar, worshiping.&n
+~
+   Dressed in ceremonial robes, this duergar priest offers homage
+to his god.  He has been working hard on the temple, and has
+apparently gotten it blessed by the gods.  He carries a small
+set of herbs to help increase the healing of those who stay
+at the temple.
+~
+1073743882 0 0 144 0 0 0 -1000 S
+PD 0 32 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54620
+baum grove druid~
+&+GBaum&+g, the grove druid&n~
+&+GBaum&+g the druid tends his grove as he keeps watch.&n
+~
+&+WBaum tells you 'Is everything in balance?'&n
+
+&+gBaum is a half-elf druid of moderate height and build.  He
+&+glives up here in this small hidden thicket of forest as a
+&+gdistanct observer of the struggle between the undead and
+&+gthe evil races in the land.  He has a symbol on his roads,
+&+gnot easily readable, but probably means he is here on
+&+gassignment from the larger druid community.  Baum appears
+&+gto be in his prime.
+~
+1073743882 0 0 268435608 2048 67108864 0 0 S
+P2 0 128 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54621
+goat mountain~
+a mountain goat~
+A mountain goat scales the rocks, looking for grass to eat.
+~
+   This mountain goat has grey fur and two quite
+large horns.  For eating grasses, he does okay.
+~
+2056 0 0 0 0 0 0 0 S
+A 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54622
+skeleton~
+&+Wa skeleton&n~
+&+WA skeleton with &+rfiery eyes&n stands here.
+~
+An animated skeleton with eyes of fireballs stares at you.
+~
+1073743882 1 0 144 0 0 0 -1000 S
+U 0 1 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54623
+skeleton gigantic~
+&+Wa gigantic skeleton&n~
+&+WA gigantic skeleton blocks the trail!&n
+~
+This skeleton is a collection of smaller skeletons formed into one
+giant-sized skeleton.  It appears to be wielding a harpoon as its
+weapon.  Now and then, a flame can be seen in its chest.
+~
+2058 1 0 268435608 0 67108864 0 -1000 S
+G 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54624
+shadow~
+&+La devious shadow&n~
+&+LA faint outline of a shadow is here.&n
+~
+A blanket of shadow...
+~
+1074792458 1 0 270008474 2048 67108864 1024 -1000 S
+SH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54625
+ghost~
+a ghost shopkeeper~
+A travelling ghost sells his warez.
+~
+A ghost of a travelling salesman now wanders the lands endlessly
+continuing his business.
+~
+2058 0 0 0 0 0 0 0 S
+U 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54626
+giant mountain male~
+&+ca male mountain giant&n~
+&+cA male mountain giant walks around the cave.&n
+~
+    This giant is a little bigger than a hill
+giant, standing almost twenty feet tall.  Though
+not as muscular and proportioned as other giants,
+the mountain is extremely strong.  The mountain
+giants of this area are fair skinned.
+~
+1073743880 0 0 152 0 0 0 0 S
+G 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54627
+giant mountain female~
+&+ca female mountain giant&n~
+&+cA female giant sits comfortably here.
+~
+    This giant is a little bigger than a hill
+giant, standing almost twenty feet tall.  Though
+not as muscular and proportioned as other giants,
+the mountain is extremely strong.  The mountain
+giants of this area are fair skinned.
+~
+1073743880 0 0 152 0 0 0 0 S
+G 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#54628
+giant child mountain~
+&+ca mountain giant child~
+&+cA mountain giant child skips through the cave.&n
+~
+    This giant is a little bigger than a hill
+giant, standing almost twenty feet tall.  Though
+not as muscular and proportioned as other giants,
+the mountain is extremely strong.  The mountain
+giants of this area are fair skinned.
+~
+2056 0 0 144 0 0 0 0 S
+G 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54629
+giant mountain elder~
+&+cthe mountain giant elder&n~
+&+cThe mountain giant elder rests comfortably in his home.&n
+~
+    This giant is a little bigger than a hill
+giant, standing almost twenty feet tall.  Though
+not as muscular and proportioned as other giants,
+the mountain is extremely strong.  The mountain
+giants of this area are fair skinned.
+~
+1073743882 0 0 152 2048 67108864 0 0 S
+G 0 256 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#54630
+hibernating pupa~
+&+Lan &+bhibernating &+Lpupa&n~
+&+LA large pupa &+bhibernates &+Lin the dark caves while it slowly develops.&n
+~
+&+L   This large pupa has grown into a fat blob of tissue and
+&+Lorgans. For the next year of its life, it will slowly begin
+&+Lto change into a carnivorous beetle. The outer layer of this
+&+Lcreature is composed of thousands of small cells that secrete
+&+La frosty liquid. Not only does the liquid cool and slow their
+&+Lmetabolism which conserves energy, they also use it to cool
+&+Ldown the surroundings, which helps keep bacteria and diseases
+&+Lwithin minimal levels.&n
+~
+2056 0 0 0 0 0 0 0 S
+i 0 1 1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54631
+hibernating pupa~
+&+Lan &+Bhibernating &+Lpupa&n~
+&+LA large pupa &+Bhibernates &+Lin the dark caves while it slowly develops.&n
+~
+&+L   This large pupa has grown into a fat blob of tissue and
+&+Lorgans. For the next year of its life, it will slowly begin
+&+Lto change into a carnivorous beetle. The outer layer of this
+&+Lcreature is composed of thousands of small cells that secrete
+&+La frosty liquid. Not only does the liquid cool and slow their
+&+Lmetabolism which conserves energy, they also use it to cool
+&+Ldown the surroundings, which helps keep bacteria and diseases
+&+Lwithin minimal levels.&n
+~
+2056 0 0 0 0 0 0 0 S
+i 0 1 1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54632
+hibernating pupa~
+&+Lan &+Ghibernating &+Lpupa&n~
+&+LA &+Ghibernating &+Lpupa slowly develops in the dark caves.&n
+~
+&+L   This large pupa has grown into a fat blob of tissue and
+&+Lorgans. For the next year of its life, it will slowly begin
+&+Lto change into a carnivorous beetle. The outer layer of this
+&+Lcreature is composed of thousands of small cells that secrete
+&+La frosty liquid. Not only does the liquid cool and slow their
+&+Lmetabolism which conserves energy, they also use it to cool
+&+Ldown the surroundings, which helps keep bacteria and diseases
+&+Lwithin minimal levels.&n
+~
+2056 0 0 0 0 0 0 0 S
+i 0 1 1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54633
+ravaged soul~
+&+La &+rravaged &+Lsoul&n~
+&+LA soul floats here, mourning over some &+wtragedy&+L.&n
+~
+&+L   This soul floats in the air and it is obvious that whatever
+&+Lended this beings life as a mortal, it was not a friendly course.
+&+LIt seems to be crying to you, asking you for help.&n
+~
+10 0 0 0 0 2097152 0 0 S
+ug 0 0 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#54634
+slimy nest matron~
+&+La &+Gslimy &+gnest matron&N~
+&+LA &+Gslimy &+gnest matron&+L undulates here, &+yreleasing ooze &+Lonto the young pupas.
+~
+   &+gThis large multi-legged worm has a frontal section that stands
+&+gerect, almost like the torso of a centaur.  A shiny black head on
+&+gthis massive grub bares no eyes, but rather moves from large, thin
+&+gcilia that reach out from its head.  Several large openings on the
+&+gscales of the underbelly of this matron occasionally squirt out
+&+gblasts of ooze upon hibernating pupas, keeping them wet and moist
+&+gso that they may grow to be stronger.
+~
+67110984 0 0 0 0 0 0 0 S
+AC 0 1 2
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

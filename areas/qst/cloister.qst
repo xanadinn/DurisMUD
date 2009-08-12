@@ -1,0 +1,274 @@
+#67100
+Q
+~
+R I 67129
+G I 76728
+D
+	&+W"It is a sad day here in the Cloister, with this proof
+	&+Wof our slain brother, alas, it had to be, and though he was
+	&+Wonce a good friend, and a good priest, his time had come
+	&+Wand I thank you for releasing him, hopefully he can find
+	&+Wsolace in the afterlife and tonight I shall pray that the
+	&+Wgood lord forgives his wrongdoings."
+~
+S
+#67102
+M
+what looking~
+   &+RMahr &+greplies to you, "&+WDo not tell anyone this, but I have gone
+        &+Wbehind my master's back to search for someone.  One of
+        &+Wthe disciples told me they saw a very small, shadowy
+        &+Wfigure sneak into our halls, emitting an aura of evil.&+g"
+   &+RMahr &+gstops the conversation for a moment, wiping a bit of sweat
+   &+gfrom his forehead and continues, "&+WFind for me some evidence that
+        &+Wyou have found this intruder, and I shall reward you.&+g"
+~
+M
+qc_action 45~
+$n &Ncautiously walks through the cloister, keeping his eyes peeled as he looks for something.
+~
+M
+qc_action 50~
+$n &Npauses for a moment and lifts up a large &+Wpillow&N, only to mutter something and toss it back down.
+~
+Q
+   &+RMahr &+gsmiles, accepting the letter.
+   &+g"&+WThank you&+g" he says with a wide smile on his face.
+~
+R I 67101
+G I 67100
+D
+   &+RMahr &+gdashes off to show his master.
+~
+S
+#67103
+M
+qc_action 70~
+$n smiles and says, '&+WGreetings my children!&n'
+~
+M
+qc_action 70~
+$n says, '&+WThe secret to true meditation is not merely learning to focus on the mind, but also learning to forget the body.&n'
+$n continues, '&+WMost learn the first part, but never master the second.&n'
+$n asks, '&+WDo you wish to learn how to accomplish this?&n'
+~
+M
+bakarakh~
+   &+WFather &+CTel&+g sighs and nods.
+   &+g"&+WI saw the tablet Mahr gave me.&+g" He sighs again, and continues,
+   &+g"&+WI fear not only for my safety now, but for the safety of all of
+   &+Wthose living in this cloister.  If there was only some way I could be
+   &+Wreassured that this menace, &+rBakarakh&+W, is dealt with.&+g"
+~
+M
+qc_action 45~
+With a grimace on his face, $n &Npauses his conversation with his assistant to peer over his shoulders.
+~
+Q
+   &+WFather &+CTel&N &+ggasps and says to you, "&+WI wish that it didn't have to
+   &+Wcome to these means, but the safety of my brother's takes precedence.&+g"
+
+   &+g"&+WPlease, take this as a reward for your heroism and efforts.&+g"
+~
+R I 67104
+G I 67102
+Q
+   &NFather &+cTel &Nlooks at for you a moment and a frown taints his face.
+   &+c"&+WYou are not one of the students!  You must have stolen this note
+   &+Wsomehow.  Return it to whoever you stole it from with an apology
+   &+Wat once!&+c"
+   &NFather &+cTel&N sighs and continues his work.
+~
+R I 67101
+G I 67101
+S
+#67104
+M
+hi hello~
+   &+rBakarakh&N ignores you completely.
+~
+M
+elder elders~
+   &+R"&+rI am an elder, and this is my clan.  I gained my position fair
+   &+rand square.  If you don't like it, well then....&+R"
+
+   &+rGeneral Bakarakh&N shifts his position a moment, revealing a long
+   &+Wdagger&N concealed behind his forearm, and quickly hides it again with
+   a grin.
+~
+M
+ring~
+   &+rGeneral Bakarakh&N almost chokes as you mention something about a ring.
+   He quickly catches his breath and eyes you over.
+
+   &+rGeneral Bakarakh&N sneers at you in contempt.
+~
+M
+qc_action 220~
+&N$n paces back and forth, muttering something about his memoirs.
+~
+MA
+kirrb faktl~
+&+L$n raises a rare eyebrow to $N and says &n&+r'Kirrb Faktl is my brother.  I have not seen him for many years.  The rumors that my advisors have told me about is that after he stole my tome, he took to the high seas before being rescued by the shield dwarves..'
+With a heavy sigh, $n continues &+r'I no longer care for my brother, but I would like my tome retrieved.'
+~
+MA
+tome~
+&N$n says &+r'The memoirs of Clan Stealth Hunter, the great story of the most feared assassination group in all of Khildarak history.. and it is gone.  Taken by my own brother Kirrb Faktl.'
+~
+QA
+&N$n grins, his eyes full of &+RBloodlust&N and his voice full of glee..
+&+r'Excellent' &+Lthe &N&+rduergar general &+Lwhispers, &+r'It has been returned.'
+~
+R I 67130
+G I 83374
+S
+#67107
+M
+hello hi~
+   &+gThe disciple looks up for a moment, sighs, and says to you "&+WH..hi&+g"
+   &+gHe wipes off a tear from the corner of his eye.
+   &+g"&+WY-y-you must be new here.&+g" He says with a struggle.
+   &+g"&+WI've lived here all my life, but j-j-just received a terrible
+   &+Wrejection.&+g"
+~
+M
+rejection~
+   &+g"&+WBrother Mahr was my instructor, I had worked so hard for him
+   &+Wto try to get accepted as a brother myself, but he turned me down.&+g"
+
+   &+g"&+WHe is terribly stern.&+g" He says, and lets out a cough.
+~
+M
+mahr~
+   &+g"&+WYes Brother Mahr.  I was his disciple for so long.  I know from
+   &+Whis past students that it is very hard to receive his letter.&+g"
+~
+M
+letter~
+   &+g"&+WHis letter of recommendation to our Father Tel.  It is the only
+   &+Wway in which Father Tel would invite you into the order, with a formal
+   &+Wrecommendation from one's designated Brother.  I, however, failed my
+   &+Wtests.  There is no way I could get my hands on a letter on my own at
+   &+Wthis point.&+g"
+~
+M
+qc_action 45~
+$n &Nlet's out a long wail, crying and grumbling miserably about something.
+~
+M
+qc_action 47~
+$n &Nmutters 'It's just not fair, I have learned so many techniques!'
+$n &Nthrows a pillow to the side and continues pouting.
+~
+Q
+   &+gThe disciple thanks you and smiles.
+   &+g"&+WI am sorry that I have nothing of value I could give you at
+   &+Wthe moment, only knowledge.  I have heard rumors from the other
+   &+Wdisciples that within the bowels of our Earth lies an enormous
+   &+Wcity of evil, underworld dwarves; and that an outpost for one of
+   &+Wtheir strongest assassin clan's has been established near a tunnel
+   &+Wto the surface world.  I have no knowledge of which tunnel or the
+   &+Wclan's identity, however.  I hope you can find something out.&+g"
+~
+R E 15000
+G I 67101
+D
+   &+gThe disciple shakes your hand, stands up, and walks off.&N
+~
+S
+#67109
+M
+disciple~
+   &+g"&+WI wish that bloody disciple would take it elsewhere, some people
+   &+Ware trying to pray!&+g" He mutters.
+~
+M
+qc_action 45~
+$n &Nglares at the weeping &+Ymonk&N and says to him 'Calm down already! Argh!&N'
+$n &Nstruggles to relax on his pillow, having a tough time entering his meditation.
+~
+S
+#67114
+M
+dragon egg~
+   &+r"&+LI have been hunting for the egg of a black dragon for quite some
+   &+Ltime now.  I have figured out the way to unlock the magical force
+   &+Lfrom within.&+r" &+LThe &+rclansdwarf &+cpriest&+L grunts and looks down.
+~
+M
+podium~
+   &+LThe &+rpriest&+L looks up for a moment and stares at you like you are
+   &+Lsome kind of moron.
+
+   &+L"&+RWhat about the podium?  If you have a problem with the way the
+   &+RClan works, then leave.&+L"
+~
+Q
+   &+r"&+LAhh, it is such a marvel to behold.  I thank you.&+r"
+~
+R I 67117
+G I 67116
+D
+   &+LThe &+rclansdwarf &+cpriest&+L stands up and chants in a low voice
+   &+Lsome unknown &+mmag&+Mical&+L phrases toward the egg.  The egg starts to &+Mglow
+   &+Lbut then with a &+Yflash &Nof&+b darkness&+L, the &+cpriest&+L and the &+Wegg &+Lare gone.
+~
+S
+#67120
+M
+hi hello~
+   &+LThe &+rclansdwarf &+Cadvisor&+L looks at you for a moment, then lets out a
+  &+Lgrunt and turns, ignoring you.
+~
+M
+elder bakarakh~
+   &+r"&+LYou know of my elder?  He was my lord and master, until I
+   &+Lfigured out he has deceived me.&+r"
+~
+M
+deceived deceive~
+   &+r"&+LWhile in our home city of Khildarak, I was employed in the
+   &+Lprosperous Clan Packed Pipe.  I was the personal advisor to the elder
+   &+Lthere, but one night a mysterious clansdwarf assassinated my master,
+   &+Land set fire to my home.  It was a mystery of who the identity of
+   &+Lthe killer was until I saw the ring.&+r"
+~
+M
+ring~
+   &+r"&+LAye.  A beautiful ring my elder of Clan Packed Pipe had worn
+   &+Lhis entire life.  It was a ring of the purest and most priceless
+   &+Lcrimson coral; an unforgettable piece.  I saw the general wearing
+   &+Lthe same exact ring three days ago, I know who our deceiver was.
+   &+LThe only thing that I need now is assistance.&+r"
+~
+M
+assistance~
+   &+r"&+LHere is my plan.  The operations of this clan are very secret
+   &+Lbut I know this much, we have sent a clansdwarf to some monastery
+   &+Lfar off on the surface with a vial of our deadliest poison.  To fill
+   &+Lthe vial it took a very long time tracking down the proper ingredients.
+   &+LWhat I want of you is to find that poison if it was not used yet
+   &+Land bring it back to me.  One drop of that stuff will kill the general
+   &+Lten times over.  I also want my old master's ring back as well.  Bring
+   &+Lme the poison, and the ring, and you shall be rewarded.&+r"
+~
+Q
+   &+LThe &+rclansdwarf &+Cadvisor&+L takes both items from you.
+   &+r"&+LThank you.  My elder will not have died in vein.&+r"
+
+   He reaches in between a fold in his armor and robe, and pulls out a small
+   case.  He quickly unlocks the case, revealing a &+Wrib bone&N.
+      &+r"&+LThis rib bone has been passed along to Clan Stealth Hunter,
+      &+Lfor we are the keepers of Khildarak Strongstone's war helmet.  I
+      &+Lhave never seen the helmet before, but I know it lies within these
+      &+Lwalls.  This magical rib bone of Khildarak will unlock the case that
+      &+Lguards the helmet.&+r"
+~
+R I 67111
+G I 67113
+G I 67103
+D
+   &+LThe &+rclansdwarf &+Cadvisor&+L sneaks west.
+~
+S

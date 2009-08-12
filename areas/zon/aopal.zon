@@ -1,0 +1,103 @@
+#433
+&+WThe &+CTharnadian &+WCauseway&n~
+43344 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 43303 0 1 100 0 0 0
+*     north exit from "Before the Outer Keep" to
+*     "Inside the Bastion" - closed
+*
+D 0 43316 2 1 100 0 0 0
+*     south exit from "Inside the Bastion" to
+*     "Before the Outer Keep" - closed
+*
+D 0 43308 1 1 100 0 0 0
+*     east exit from "Above the Causeway" to
+*     "Inside a Unused Guard Post" - closed
+*
+D 0 43325 3 1 100 0 0 0
+*     west exit from "Inside a Unused Guard Post" to
+*     "Above the Causeway" - closed
+*
+D 0 43308 2 1 100 0 0 0
+*     south exit from "Above the Causeway" to
+*     "The Well Room" - closed
+*
+D 0 43324 0 1 100 0 0 0
+*     north exit from "The Well Room" to
+*     "Above the Causeway" - closed
+*
+D 0 43324 5 5 100 0 0 0
+*     down exit from "The Well Room" to
+*     "Inside the Well" - closed/secret
+*
+D 0 43334 4 5 100 0 0 0
+*     up exit from "Inside the Well" to
+*     "The Well Room" - closed/secret
+*
+D 0 43340 1 1 100 0 0 0
+*     east exit from "Inside the Bastion" to
+*     "The Captain's Station" - closed
+*
+D 0 43341 3 1 100 0 0 0
+*     west exit from "The Captain's Station" to
+*     "Inside the Bastion" - closed
+*
+D 0 43341 1 1 100 0 0 0
+*     east exit from "The Captain's Station" to
+*     "Inside the Bastion" - closed
+*
+D 0 43344 3 1 100 0 0 0
+*     west exit from "Inside the Bastion" to
+*     "The Captain's Station" - closed
+*
+*
+O 0 43302 1 43306 100 0 0 0        * a wagon
+O 0 43303 1 43306 100 0 0 0        * a large sign
+O 0 43301 1 43323 100 0 0 0        * a large sign
+*
+M 0 43302 2 43301 100 0 0 0        * a HUGE rat
+M 0 43303 4 43301 100 0 0 0        * a large rat
+M 0 43303 4 43301 100 0 0 0        * a large rat
+M 0 43304 2 43301 100 0 0 0        * a devout cleric
+M 0 6116 1 43301 100 0 0 0         * (mob type not in this .mob file)
+M 0 445 2 43301 100 0 0 0          * (mob type not in this .mob file)
+M 0 43302 2 43302 100 0 0 0        * a HUGE rat
+M 0 43303 4 43302 100 0 0 0        * a large rat
+M 0 43303 4 43302 100 0 0 0        * a large rat
+M 0 43304 2 43302 100 0 0 0        * a devout cleric
+M 0 43301 1 43303 100 0 0 0        * a Highlord guard
+M 0 43305 4 43303 100 0 0 0        * a travelling merchant
+M 0 43305 4 43303 100 0 0 0        * a travelling merchant
+M 0 43305 4 43304 100 0 0 0        * a travelling merchant
+M 0 43305 4 43304 100 0 0 0        * a travelling merchant
+M 0 43308 5 43314 100 0 0 0        * a resevoir dog
+M 0 43308 5 43314 100 0 0 0        * a resevoir dog
+M 0 43308 5 43314 100 0 0 0        * a resevoir dog
+M 0 43308 5 43314 100 0 0 0        * a resevoir dog
+M 0 43308 5 43314 100 0 0 0        * a resevoir dog
+M 0 43310 4 43315 100 0 0 0        * a water rat
+M 0 43310 4 43315 100 0 0 0        * a water rat
+M 0 43310 4 43315 100 0 0 0        * a water rat
+M 0 43310 4 43315 100 0 0 0        * a water rat
+M 0 43309 2 43322 100 0 0 0        * a causeway guard
+M 0 43309 2 43322 100 0 0 0        * a causeway guard
+M 0 445 2 43322 100 0 0 0          * (mob type not in this .mob file)
+M 0 43306 6 43327 100 0 0 0        * a militia archer
+M 0 43306 6 43327 100 0 0 0        * a militia archer
+M 0 43306 6 43327 100 0 0 0        * a militia archer
+M 0 43306 6 43332 100 0 0 0        * a militia archer
+M 0 43306 6 43332 100 0 0 0        * a militia archer
+M 0 43306 6 43332 100 0 0 0        * a militia archer
+M 0 43307 1 43337 100 0 0 0        * Samara
+G 1 43304 1 0 100 0 0 0            *    a transparent, soaking wet white dress
+M 0 43313 1 43341 100 0 0 0        * the bastion captain
+E 1 43305 1 12 100 0 0 0           *   the mantle of the Highlords
+F 1 43311 2 43341 100 0 0 0        * an elite bastion guard (following)
+F 1 43311 2 43341 100 0 0 0        * an elite bastion guard (following)
+M 0 43314 1 43342 100 0 0 0        * an elite patrolman
+M 0 43315 1 43342 100 0 0 0        * an elite highway marshall
+*
+S

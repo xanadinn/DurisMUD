@@ -1,0 +1,35 @@
+#22428
+M
+hi hello~
+&+W   'Hello traveller.  I am pleased you take interest in our city.
+        &+WI feel it has lost the magic over time, the wonder us orcs put
+        &+Winto this vast city once, and has now become too military.
+        &+WAs a will of good faith, if you bring me four objects, proving
+        &+Wyour knowledge of Storm Port, I shall reward you.'&n
+
+&+W   'Or have you perhaps been given a &+Ltask&+W you cannot complete?'
+~
+Q
+~
+R I 22435
+G I 22431
+G I 22433
+G I 22432
+G I 22434
+S
+#22436
+Q
+&+c'Ho ho ho! I can make a mighty fine shield with this..One second..'
+&+cHe slams the pieces together quickly '... ... ... Here you go!'&n
+~
+R I 22407
+G I 22406
+G I 22405
+S
+#22469
+M
+qc_action 30~
+&+W"Best ya hold on to your ticket until after we disembark or I be thinking you be a stowaway!"
+$n &+Lsnarls gruffly.
+~
+S

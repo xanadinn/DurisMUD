@@ -1,0 +1,256 @@
+#458
+&+LOr&+yo&+Lg Encampment&n~
+45923 2 4 25 50 4
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 45841 0 1 100 0 0 0
+*     north exit from "Entrance to the Orog Encampment" to
+*     "Alongside the Tall Bulwark" - closed
+*
+D 0 45873 2 1 100 0 0 0
+*     south exit from "Alongside the Tall Bulwark" to
+*     "Entrance to the Orog Encampment" - closed
+*
+D 0 45842 0 1 100 0 0 0
+*     north exit from "Entrance to the Orog Encampment" to
+*     "Alongside the Tall Bulwark" - closed
+*
+D 0 45843 2 1 100 0 0 0
+*     south exit from "Alongside the Tall Bulwark" to
+*     "Entrance to the Orog Encampment" - closed
+*
+D 0 45865 0 1 100 0 0 0
+*     north exit from "Alongside the Tall Bulwark" to
+*     "Inside the Weaponmasters Hut" - closed
+*
+D 0 45918 2 1 100 0 0 0
+*     south exit from "Inside the Weaponmasters Hut" to
+*     "Alongside the Tall Bulwark" - closed
+*
+D 0 45877 1 1 100 0 0 0
+*     east exit from "Alongside the Tall Bulwark" to
+*     "Inside the Blacksmith's Foundry" - closed
+*
+D 0 45916 3 1 100 0 0 0
+*     west exit from "Inside the Blacksmith's Foundry" to
+*     "Alongside the Tall Bulwark" - closed
+*
+D 0 45881 2 1 100 0 0 0
+*     south exit from "Alongside the Tall Bulwark" to
+*     "The Witchdoctor's Hut" - closed
+*
+D 0 45917 0 1 100 0 0 0
+*     north exit from "The Witchdoctor's Hut" to
+*     "Alongside the Tall Bulwark" - closed
+*
+D 0 45895 0 1 100 0 0 0
+*     north exit from "Below the Pallisades" to
+*     "Inside the Orog Command Compound" - closed
+*
+D 0 45900 2 1 100 0 0 0
+*     south exit from "Inside the Orog Command Compound" to
+*     "Below the Pallisades" - closed
+*
+D 0 45920 1 2 100 0 0 0
+*     east exit from "Mounts" to
+*     "Mounts store room - Imms only" - closed/locked
+*
+D 0 45921 3 2 100 0 0 0
+*     west exit from "Mounts store room - Imms only" to
+*     "Mounts" - closed/locked
+*
+*
+O 0 45804 4 45800 100 0 0 0        * an orog banner
+O 0 45805 5 45803 100 0 0 0        * a fiery brazier
+O 0 45804 4 45807 100 0 0 0        * an orog banner
+O 0 45805 5 45809 100 0 0 0        * a fiery brazier
+O 0 45805 5 45812 100 0 0 0        * a fiery brazier
+O 0 45805 5 45819 100 0 0 0        * a fiery brazier
+O 0 45804 4 45822 100 0 0 0        * an orog banner
+O 0 45804 4 45829 100 0 0 0        * an orog banner
+O 0 45805 5 45833 100 0 0 0        * a fiery brazier
+O 0 45802 2 45841 100 0 0 0        * a statue of Gruumsh
+O 0 45802 2 45842 100 0 0 0        * a statue of Gruumsh
+O 0 3097 1 45922 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 45834 1 45841 100 0 0 0        * an orog ragelord
+E 1 45800 999 16 100 0 0 0         *   a vicious looking spear
+M 0 45835 2 45841 100 0 0 0        * an orog spearmaster
+E 1 45800 999 16 100 0 0 0         *   a vicious looking spear
+M 0 45836 1 45841 100 0 0 0        * an orog priest
+E 1 45801 999 16 100 0 0 0         *   a mace of prayer
+M 0 45800 7 45841 100 0 0 0        * an orog ragelord
+M 0 45835 2 45841 100 0 0 0        * an orog spearmaster
+M 0 45800 7 45842 100 0 0 0        * an orog ragelord
+E 1 45803 999 16 100 0 0 0         *   a bloodstained spear
+M 0 45801 9 45842 100 0 0 0        * an orog spearmaster
+E 1 45800 999 16 100 0 0 0         *   a vicious looking spear
+M 0 45802 5 45842 100 0 0 0        * an orog priest
+E 1 45801 999 16 100 0 0 0         *   a mace of prayer
+M 0 45800 7 45842 100 0 0 0        * an orog ragelord
+M 0 45801 9 45842 100 0 0 0        * an orog spearmaster
+M 0 45826 6 45882 100 0 0 0        * an Orog archer
+M 0 45826 6 45882 100 0 0 0        * an Orog archer
+M 0 45826 6 45886 100 0 0 0        * an Orog archer
+M 0 45826 6 45886 100 0 0 0        * an Orog archer
+M 0 45826 6 45890 100 0 0 0        * an Orog archer
+M 0 45826 6 45890 100 0 0 0        * an Orog archer
+M 0 45804 10 45891 100 0 0 0       * an orog soldier
+M 0 45804 10 45895 100 0 0 0       * an orog soldier
+M 0 45804 10 45895 100 0 0 0       * an orog soldier
+M 0 45804 10 45899 100 0 0 0       * an orog soldier
+M 0 45824 2 45900 100 0 0 0        * an elite orog doomguard
+M 0 45824 2 45900 100 0 0 0        * an elite orog doomguard
+M 0 45801 9 45902 100 0 0 0        * an orog spearmaster
+M 0 45801 9 45902 100 0 0 0        * an orog spearmaster
+M 0 45825 8 45903 100 0 0 0        * an orog doomguard
+M 0 45825 8 45903 100 0 0 0        * an orog doomguard
+M 0 45825 8 45903 100 0 0 0        * an orog doomguard
+M 0 45825 8 45903 100 0 0 0        * an orog doomguard
+M 0 45803 12 45903 100 0 0 0       * an orog soldier
+M 0 45803 12 45903 100 0 0 0       * an orog soldier
+M 0 45803 12 45903 100 0 0 0       * an orog soldier
+M 0 45825 8 45904 100 0 0 0        * an orog doomguard
+M 0 45825 8 45904 100 0 0 0        * an orog doomguard
+M 0 45825 8 45904 100 0 0 0        * an orog doomguard
+M 0 45825 8 45904 100 0 0 0        * an orog doomguard
+M 0 45803 12 45904 100 0 0 0       * an orog soldier
+M 0 45803 12 45904 100 0 0 0       * an orog soldier
+M 0 45803 12 45904 100 0 0 0       * an orog soldier
+M 0 45820 1 45905 100 0 0 0        * an ancient Orog bladesman
+M 0 45821 1 45906 100 0 0 0        * an ancient Orog priest
+M 0 45822 1 45908 100 0 0 0        * the Orog chieftain
+E 1 45807 1 16 100 0 0 0           *   the spear of the chieftain
+M 0 45816 8 45908 100 0 0 0        * an orog doomguard
+E 1 45800 999 16 100 0 0 0         *   a vicious looking spear
+E 1 45800 999 17 100 0 0 0         *   a vicious looking spear
+M 0 45816 8 45908 100 0 0 0        * an orog doomguard
+E 1 45800 999 16 100 0 0 0         *   a vicious looking spear
+E 1 45800 999 17 100 0 0 0         *   a vicious looking spear
+M 0 45823 2 45908 100 0 0 0        * an elite orog doomguard
+E 1 45806 999 16 100 0 0 0         *   a leather-wrapped stone warhammer
+M 0 45823 2 45908 100 0 0 0        * an elite orog doomguard
+E 1 45806 999 16 100 0 0 0         *   a leather-wrapped stone warhammer
+M 0 45808 5 45909 100 0 0 0        * a cave viper
+M 0 45808 5 45909 100 0 0 0        * a cave viper
+M 0 45808 5 45909 100 0 0 0        * a cave viper
+M 0 45808 5 45909 100 0 0 0        * a cave viper
+M 0 45808 5 45909 100 0 0 0        * a cave viper
+M 0 45809 5 45909 100 0 0 0        * a wolf spider
+M 0 45809 5 45909 100 0 0 0        * a wolf spider
+M 0 45809 5 45909 100 0 0 0        * a wolf spider
+M 0 45809 5 45909 100 0 0 0        * a wolf spider
+M 0 45809 5 45909 100 0 0 0        * a wolf spider
+M 0 45810 5 45909 100 0 0 0        * a whip-tail scorpion
+M 0 45810 5 45909 100 0 0 0        * a whip-tail scorpion
+M 0 45810 5 45909 100 0 0 0        * a whip-tail scorpion
+M 0 45810 5 45909 100 0 0 0        * a whip-tail scorpion
+M 0 45810 5 45909 100 0 0 0        * a whip-tail scorpion
+M 0 45811 5 45909 100 0 0 0        * a vampyr
+M 0 45811 5 45909 100 0 0 0        * a vampyr
+M 0 45811 5 45909 100 0 0 0        * a vampyr
+M 0 45811 5 45909 100 0 0 0        * a vampyr
+M 0 45811 5 45909 100 0 0 0        * a vampyr
+M 0 45805 5 45910 100 0 0 0        * an adolescent orog
+M 0 45805 5 45910 100 0 0 0        * an adolescent orog
+M 0 45805 5 45910 100 0 0 0        * an adolescent orog
+M 0 45805 5 45910 100 0 0 0        * an adolescent orog
+M 0 45805 5 45910 100 0 0 0        * an adolescent orog
+M 0 45812 5 45910 100 0 0 0        * an ogre worker
+M 0 45812 5 45910 100 0 0 0        * an ogre worker
+M 0 45812 5 45910 100 0 0 0        * an ogre worker
+M 0 45812 5 45910 100 0 0 0        * an ogre worker
+M 0 45812 5 45910 100 0 0 0        * an ogre worker
+M 0 45800 7 45910 100 0 0 0        * an orog ragelord
+M 0 45800 7 45910 100 0 0 0        * an orog ragelord
+M 0 45800 7 45910 100 0 0 0        * an orog ragelord
+M 0 45800 7 45910 100 0 0 0        * an orog ragelord
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45803 12 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45804 10 45911 100 0 0 0       * an orog soldier
+M 0 45806 5 45912 100 0 0 0        * a six-legged strider
+M 0 45806 5 45912 100 0 0 0        * a six-legged strider
+M 0 45806 5 45912 100 0 0 0        * a six-legged strider
+M 0 45806 5 45912 100 0 0 0        * a six-legged strider
+M 0 45806 5 45912 100 0 0 0        * a six-legged strider
+M 0 45807 5 45912 100 0 0 0        * a hairy cave rat
+M 0 45807 5 45912 100 0 0 0        * a hairy cave rat
+M 0 45807 5 45912 100 0 0 0        * a hairy cave rat
+M 0 45807 5 45912 100 0 0 0        * a hairy cave rat
+M 0 45807 5 45912 100 0 0 0        * a hairy cave rat
+M 0 45801 9 45912 100 0 0 0        * an orog spearmaster
+M 0 45801 9 45912 100 0 0 0        * an orog spearmaster
+M 0 45801 9 45912 100 0 0 0        * an orog spearmaster
+M 0 45801 9 45912 100 0 0 0        * an orog spearmaster
+M 0 45801 9 45912 100 0 0 0        * an orog spearmaster
+M 0 45828 4 45913 100 0 0 0        * a carrion crawler
+M 0 45828 4 45913 100 0 0 0        * a carrion crawler
+M 0 45828 4 45913 100 0 0 0        * a carrion crawler
+M 0 45828 4 45913 100 0 0 0        * a carrion crawler
+M 0 45802 5 45913 100 0 0 0        * an orog priest
+M 0 45802 5 45913 100 0 0 0        * an orog priest
+M 0 45802 5 45913 100 0 0 0        * an orog priest
+M 0 45802 5 45913 100 0 0 0        * an orog priest
+M 0 45813 3 45914 100 0 0 0        * an orog commander
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+M 0 45813 3 45914 100 0 0 0        * an orog commander
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+M 0 45813 3 45914 100 0 0 0        * an orog commander
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+F 1 45814 6 45914 100 0 0 0        * an orog legionnaire (following)
+M 0 45815 3 45915 100 0 0 0        * an orog shadowpriest
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+M 0 45815 3 45915 100 0 0 0        * an orog shadowpriest
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+M 0 45815 3 45915 100 0 0 0        * an orog shadowpriest
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+F 1 45816 8 45915 100 0 0 0        * an orog doomguard (following)
+M 0 45817 5 45916 100 0 0 0        * a blacksmith
+M 0 45817 5 45916 100 0 0 0        * a blacksmith
+M 0 45817 5 45916 100 0 0 0        * a blacksmith
+M 0 45817 5 45916 100 0 0 0        * a blacksmith
+M 0 45817 5 45916 100 0 0 0        * a blacksmith
+M 0 45818 1 45917 100 0 0 0        * an orog Witchdoctor
+M 0 45829 1 45918 100 0 0 0        * a nasty looking Orog
+G 1 254 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 260 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 258 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 263 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 255 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 288 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 286 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 280 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 267 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 289 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 45832 1 45919 100 0 0 0        * an enterprising drow elf merchant
+G 1 385 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 386 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 393 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 376 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 367 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 191 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 45831 1 45920 100 0 0 0        * the Orog Beastmaster
+M 0 45819 1 45921 100 0 0 0        * a shadowhowler
+M 0 45833 1 45922 100 0 0 0        * a skaven moneylender
+M 0 45830 1 45923 100 0 0 0        * a rather short Orog innkeep
+*
+S

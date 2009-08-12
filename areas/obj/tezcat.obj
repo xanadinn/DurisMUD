@@ -1,0 +1,1159 @@
+#98900
+altar sacrificial blood~
+&+La&+r s&+La&+rcr&+Li&+rf&+Li&+rc&+Lia&+rl a&+Llt&+ra&+Lr&n~
+&+LA &+rS&+La&+rcr&+Li&+rf&+Li&+rc&+Lia&+rl A&+Llt&+ra&+Lr presides here.&n~
+~
+8 2 5 0 15 100 99328 0 64 0 0
+0 0 0 0 0 0 0 0
+666 666000 100
+E
+altar sacrificial blood~
+   &+LMany a &+rblood&+L stain adorns the surface and far beneath of this altar.  So&n
+&+Lmany lives and dreams have ended here.  The altar has no damage to it what so&n
+&+Lever.  Not even a small chip from a dagger, or scratch marks from its victims.&n
+&+LThis altar is evil if such a thing truly exists in this world.  You start to&n
+&+Limagine yourself ending up as a victim to some unknown god or lord.&n
+~
+#98901
+blood dagger tezcatlipoca tezcat~
+&+ra bl&+Ro&+ro&+Rd &+Ldagger &+Lof &+rT&+Re&+rz&+Rc&+ra&+Rt&+rl&+Ri&+rp&+Ro&+rc&+Ra&n~
+&+LA &+rbl&+Ro&+ro&+Rd &+Lstained dagger lays on the ground here.&n~
+~
+5 18 3 0 15 80 20063504 8396801 67 2224131 0
+2 2 6 11 0 71103 56 35
+6 88000 100 65576 0 0 0
+E
+blood dagger tezcatlipoca tezcat~
+&+r   Blood &+Lengulfs the blade and some &+rstains&+L have dripped down to the hilt.  So&n
+&+Lmany lives must of been ended at this blades end.  You wonder how many &+Cso&+culs&n
+&+Lhave felt the ungodly sting of this unholy dagger.  As you grasp the dagger you&n
+&+Lfeel a strong urge to kill come over you.  You wish more than anything to      &n
+&+Lplunge this dagger into someone's back.  You truly could care if you killed a  &n
+&+Lfriend or a foe, as long as you kill soon.  You &+rheart&+L starts to race for a     &n
+&+Lmoment then you feel almost normal again.                                      &n
+~
+E
+_char_msg~
+&+LYou feel a &+cf&+Ca&+ci&+Cn&+ct &+Ltinge in your hand coming from $q.&n
+~
+E
+_victim_msg~
+&+LSuddenly, the air around $n grows &+We&+Cx&+Wt&+Cr&+We&+Cm&+Wl&+Cy &+Wc&+Co&+Wl&+Cd&+L. &+RD&+re&+Rm&+ro&+Rn&+ri&+Rc &+re&+Rn&+re&+Rrg&+rie&+Rs &+Lswirl about his $q, travelling up the length of his arm, and into his body. His pupils dialate, and he turns a &+Cso&+cul&+Ces&+cs &+Cg&+ca&+cz&+Ce &+Lin your direction. The next thing you feel is the &+bcold&+L, deep stabbing sensation as he thrusts his $q into your &+rflesh&+L. The sensation is momentarily delicious, but then you let out a screaming howl as the energies sap the life from your &+Cs&+co&+Cu&+cl&+L!'&n
+~
+E
+_room_msg~
+&+LA &+Cs&+cu&+Cp&+ce&+Crn&+ca&+Ct&+cu&+Cr&+ca&+Cl &+cmist &+Lforms around $n's $q, and begins to travel up his arm, and into his body. He further presses his attack on $N, truly enjoying the pain he is inflicting. As he slips past $n's defenses and manages to land a blow, a forlorn &+wf&+Wu&+wn&+We&+wr&+Wa&+wl &+wfog &+Lflows forth from his $q, permeating $N's &+Cs&+co&+Cu&+Cl&+L!'&n
+~
+A
+18 3
+A
+19 3
+#98902
+frayed robe black~
+a &+yfrayed&+L black robe&n~
+&+LA frayed black robe lays on the ground here gathering &+wdust&+L.&N~
+~
+9 43 3 0 8 9 8192 16393 0 0 0
+13 0 0 4 0 0 0 0
+0 43000 81
+E
+frayed robe black~
+&+L   This robe has been ripped in many places.  It seems to of been some sort of&n
+&+La priest's robe.&n
+~
+A
+13 13
+A
+22 -3
+#98903
+bloody black hooded robe~
+a &+rbloody &+Lblack hooded robe&n~
+&+LA hooded black robe lays on the ghastly ground here.&N~
+~
+9 43 3 0 11 44 8192 16393 2 4227727370 26880
+15 0 0 4 0 0 0 0
+0 81000 100
+E
+bloody black hooded robe~
+&+L   This black hooded robe has many patches of &+Rblood&+L on it.  No doubt from past&n
+&+Lvictims or offerings.&n
+~
+A
+13 21
+A
+24 -3
+#98904
+death ring tezcatlipoca unique~
+&+La death ring of &+bT&+Le&+bz&+bc&+La&+bt&+Llipoca&n~
+&+LA strange ring rests upon the gloomy ghastly ground here.&N~
+~
+9 35 3 0 15 70 271593480 3 66 4167306894 2048
+8 0 0 5 0 0 0 0
+0 33330 100 65664 24 0 0
+E
+death ring tezcatlipoca~
+&+L   This ring seems to be constructed from living nightmares.  Spikes of
+&+Ldemon spawned fright protrude from the center.  Stains from those who
+&+Ldared to stand in the way of &+bT&+Le&+bzc&+La&+bt&+Llipoca mark the item.
+&+LCrimson &+Rd&+rre&+Ra&+rd&+L, symbols from mortal fools long since
+&+Ldead.  Screams drowned out by long ago, dreams cast into the realm broken.
+&+LNever to know frigid reality, feeble fantasies forever dashed. Pleas for
+&+Lmercy met with fatal &+wforlorn &+Lfury.  Slayed, hacked, mangled, burned&N
+&+Lat the stake, all this for his pleasure.  The ancient one, tormentor of
+&+Cso&+cul&+Cs lost, lives taken and tossed.  Time shattered by the
+&+Lsadistic &+Bchill &+Lof death.&N
+~
+A
+18 4
+A
+20 -3
+#98905
+robe unholy robes tezcatlipoca~
+&Nsome &+Wu&+wnh&+Wo&+wl&+Wy&+w r&+Wo&+wb&+We&+ws&+W &+Lof &+WT&+we&+Wz&+wc&+Wa&+wt&+Wl&+wi&+Wp&+wo&+Wc&+wa&n~
+&+LA grand looking &+Wr&+wo&+Wb&+we &+Lrests on the ground amongst the dirt.&n~
+~
+9 43 3 0 15 48 139264 16393 66 4248567819 0
+24 0 0 5 0 0 0 0
+3 27000 100 65536 0 0 0
+E
+robe unholy robes tezcatlipoca~
+&+L   These ancient robes bear the &+WU&+wnh&+Wo&+wl&+Wy &+Lsymbol of &+WT&+we&+Wz&+wc&+Wa&+wt&+Wl&+wi&+Wp&+wo&+Wc&+wa&+L.  They seem&n
+&+Lolder than time itself.  Yet at the same time are in brand new condition. As&n
+&+Lif time has no effect upon these &+wR&+Wo&+wb&+We&+ws&+L.  They seem almost flawless in there&n
+&+Lmaking, not even a stray thread.  Some ancient &+rBlood&+L stains adorn areas of the&n
+&+Lrobes.  No doubt from countless Sacrifices to the &+rancient &+LGod.  The material&n
+&+Lalso is rather thick and seems like it could absorb some damage.&n
+~
+A
+13 30
+A
+24 -4
+#98906
+serpentine cobra scale boots~
+some &+gc&+Go&+gbr&+Ga &+gsc&+Ga&+gl&+Ge &+gb&+Goo&+gts&n~
+&+LSome &+gs&+Ge&+grp&+Ge&+gnt&+Gi&+gn&+Ge &+gb&+Goo&+gts&n &+Lrest upon the gloomy ground here.&n~
+~
+9 47 3 0 6 66 8192 16449 66 0 0
+9 0 0 5 0 0 0 0
+0 33330 100 0 8192 0 0
+E
+serpentine cobra scale boots~
+&+L   These &+gb&+Goo&+gts&+L seem to be made from some sort of &+gs&+Ge&+grp&+Ge&+gnt&+Gi&+gn&+Ge&+g &+Lcreature.  They&n
+&+Lseem to be rather sturdy and in perfect condition.&n
+~
+A
+13 18
+A
+20 -2
+#98907
+bloody flanged mace~
+a &+rbl&+Loo&+rd&+Ly &+Lfl&+ra&+Lng&+re&+Ld &+rm&+La&+rc&+Le&N~
+&+LA &+rbl&+Loo&+rd&+Ly fl&+ra&+Lng&+re&+Ld &+rm&+La&+rc&+Le lays on the ground here.&n~
+~
+5 19 3 0 7 59 8192 8413185 67 0 0
+3 3 4 6 0 0 0 0
+4 81000 100
+E
+bloody flanged mace~
+  &+r Blood &+Ladorns the smash head of this fl&+ra&+Lng&+re&+Ld m&+ra&+Lc&+re&+L.  It seems as if it has&n
+&+Llaid many a foe to rest.  The &+ycraftsmanship &+Lseems to be of a high quality and&n
+&+Lthe weapon is in nearly perfect condition.  Some strange &+mrunes&+L are etched into&n
+&+Lthe &+yhandle&+L.&n
+~
+A
+18 4
+A
+19 3
+#98908
+blodzul soul ring glowing~
+a &+rbl&+Lo&+rdz&+Lu&+rl &+Cso&+cul &+Lring&n~
+&+LA &+Cglo&+cwi&+Cng&+L ring lays on the ground here.&N~
+~
+9 8 3 0 13 50 1056769 8404995 66 0 0
+5 0 0 5 0 0 0 0
+0 21000 100
+E
+blodzul soul ring~
+&+L   This ring contains the captured &+Cso&+cul &+Lof a hapless &+rBl&+Lo&+rdz&+Lu&+rl&+L.  Forced to serve&n
+&+Lthe &+rancient &+LGod against its will.  Brutually murdered and then raised to serve&n
+&+Lthe lord it would not serve in life.  Its &+Cso&+cul&+L captured in this Unholy ring   &n
+&+Lfor all eternity.  The strange &+Cst&+con&+Ce&+L in this ring seems to change colors and&n
+&+Lmove.  It has a really odd luster to it that you can't quite explain.&n
+~
+A
+13 25
+A
+20 -3
+#98909
+glowing soul soulstone amulet~
+a &+Cso&+cul&+Cst&+cone &+Ra&+rm&+Ru&+rl&+Re&+rt&n~
+&+LA &+Cglo&+cwi&+Cng&n &+Lamulet rests on the ground here.&n~
+~
+9 39 3 0 14 50 8192 16389 66 0 0
+8 0 0 4 0 0 0 0
+3 27000 100 32768 0 0 0
+E
+glowing soul soulstone amulet~
+   &+LThis &+Ra&+rm&+Ru&+rl&+Re&+rt&+L does not seem to be from this world.  The &+ycraftsmanship &+Lseems&n
+&+Lbetter than any you have ever seen before.  The &+Cst&+con&+Ce &+Lseems to reflect and  &n
+&+Lrefract light at the same time.  Still at the same time your eyes seem to   &n
+&+Lpenetrate the surface of the &+Cst&+con&+Ce&+L.  Revealing what almost seems to be a &+Cso&+cul&n
+&+Ltrapped within it.  Perhaps the &+Cso&+cul&+L you see is truly your own.  Or it may be&N
+&+Lanother victim of the &+rancient &+LGod.&N
+~
+A
+13 18
+A
+1 9
+#98910
+fluted fanged dragonscale suit~
+a &+Lsp&+ri&+Lk&+re&+Ld &+rs&+Lui&+rt o&+Lf &+rfl&+Lu&+rt&+Le&+rd &+Ldr&+ra&+Lg&+ro&+Lnsc&+ra&+Ll&+re&n~
+&+LA sp&+ri&+Lk&+re&+Ld &+rs&+Lui&+rt &+ro&+Lf &+rfl&+Lu&+rt&+Le&+rd &+Ldr&+ra&+Lg&+ro&+Lnsc&+ra&+Ll&+re &+Llays on the ground in a heep.&n~
+~
+9 35 3 0 13 81 8192 16393 66 0 0
+20 0 0 5 1 0 0 0
+8 81000 100 32768 0 0 0
+E
+fluted fanged dragonscale suit~
+&+L   This sp&+ri&+Lk&+re&+Ld &+rs&+Lui&+rt o&+Lf &+rfl&+Lu&+rt&+Le&+rd&+L dr&+ra&+Lg&+ro&+Lnsc&+ra&+Ll&+re&+L seems to be made from some of the  &n
+&+Lfinest scales.  The armor seems to be very strong and durable why at the same&n
+&+Ltime being rather light.  Perhaps this armor was forged in the &+Cso&+cul bu&+Crn&+cing &n
+&+rHel&+Rlfi&+rre&+L of the dark &+RAbyss&+L.  Most likely this was not forged by simplistic  &n
+&+Lmortals.  The spikes on this armor are &+rs&+Roa&+rk&+Re&+rd&+L in the &+rblood&+L of many races.   &n
+&+LThick plates cover the entire torso area, leaving nothing open to attack.  The&n
+&+Larmor gives off a strange eerie blackish shine.  Most likely this was made &n
+&+Lfrom the scales of some &+rancient &+Lblack dragon.&n
+~
+A
+35 5
+A
+20 -3
+#98911
+huge zanthium broad sword~
+&+La huge &+rz&+Ra&+rnth&+Riu&+rm &+Lbr&+coa&+Ld&+c sw&+Lor&+cd&n~
+&+LA huge br&+coa&+Ld &+csw&+Lor&+cd&+L lays on the ground here amongst the garbage.&n~
+~
+5 35 3 0 15 65 88089872 4202497 67 87572507 0
+13 6 4 3 0 0 0 0
+9 69000 100 0 128 0 0
+E
+huge zanthium broad sword~
+&+L   This br&+coa&+Ld &+csw&+Lor&+cd &+Lis made of an odd &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  Light reflects off it in&n
+&+La rather strange way.  Seems to shine why at the same moment remains very dull.&n
+&+LThe blade of this &+csw&+Lor&+cd&+L is rather sharp indeed and could easily cut a head off&n
+&+Lin one swing.  The &+rh&+Ri&+rlt&+L of this &+csw&+Lor&+cd&+L seems to be made from the same metal as&n
+&+Lthe blade.  You have a strange &+ygrounding&+L sensation whenever you wield this&n
+&+Lweapon.  You almost feel safe in a rather off &+ckey &+Lsort of way.&n
+~
+A
+18 5
+A
+19 5
+#98912
+bone key~
+a &+Wbone &+Ykey&n~
+&+LA &+Wbone &+Ykey &+Lis on the ground here.&N~
+~
+18 10 3 0 7 9 4096 8404993 0 0 0
+0 0 0 0 0 0 0 0
+3 33 100
+E
+bone key~
+   &+LThis key is made of &+Wbone &+Land has small notches on the side of it.&n
+~
+#98913
+stone key~
+a &+Lstone &+wkey&n~
+&+LA &+Lstone &+ykey &+Lis on the ground here.&N~
+~
+18 11 3 0 7 15 4096 8404993 1 0 0
+0 0 0 0 0 0 0 0
+6 1 100
+E
+stone key~
+   &+LIt seems to be a rather crudely made stone key.&n
+~
+#98914
+bloody talon night crawler~
+&+ra bloody &+rt&+Ra&+rl&+Ro&+rn &+Lof a n&+bi&+Lght cr&+ba&+Lwl&+be&+Lr&n~
+&+LA &+rbloody &+Ltalon rests on the gloomy ground here.&n~
+~
+5 34 3 0 9 29 16789776 8193 67 0 0
+2 3 3 11 0 0 0 0
+3 181000 100
+E
+bloody talon night crawler~
+&+L   This seems to be a &+Rbloody &+Ltalon of some strange creature.  After seeing&n
+&+Lthis talon you really do not wanna see the rest of this creature.  It seems to&n
+&+Lbe almsot razor sharp and rather light.&n
+~
+A
+18 3
+A
+19 3
+#98915
+bloody key~
+a &+rbloody &+Ykey&n~
+&+LA &+rbloody &+Ykey &+Lis on the ground here.&n~
+~
+18 18 3 0 7 15 8388608 8404993 1 0 0
+0 100 0 0 0 0 0 0
+3 5000 100
+E
+bloody key~
+   &+LA key thats covered in dry &+Rblood&+L.&n
+~
+#98916
+soul stone helm soulstone~
+&na &+Cso&+cul&+Cst&+con&+Ce &+Lhelm&n~
+&+LA &+Cso&+cul&+Cst&+con&+Ce &+Lhelm is on the gloomy ground here.&n~
+~
+9 39 3 0 7 55 3153920 16401 66 4173696644 0
+13 0 0 5 0 0 0 0
+1 66000 100 32768 0 0 0
+E
+soul stone helm soulstone~
+&+L   This helm does not appear to be made out of anything you have ever seen&n
+&+Lbefore.  It seems to be some strange &+Cst&+con&+Ce&+L like substance, yet is very light.&n
+&+LAt the same time however it seems to be rather thick and strong.  This does&n
+&+Lnot seem like it comes from this world.&n
+~
+A
+18 3
+A
+13 24
+#98917
+coffin obsidian large~
+&+Lan obsidian coffin&n~
+&+LA rather large and foreboding obsidian coffin is on the ground here.&n~
+~
+15 36 3 0 15 100 1 16385 67 0 0
+999 29 98918 666 0 0 0 0
+666 666000 100 0 1024 0 0
+E
+coffin obsidian large~
+   &+LThis coffin looks to be older than time itself.  It is very cold to the&n
+&+Ltouch you feel the &+Bchill&+L of &+rdeath&+L.  As you look closer you can faintly see what&n
+&+Lseems to be &+Wwriting&+L.  It says something about being the final resting place of&n
+&+rT&+Re&+rz&+Rc&+ra&+Rt&+rl&+Ri&+rp&+Ro&+rc&+Ra&+L.&n
+~
+A
+22 -3
+A
+34 5
+#98918
+obsidian key~
+an &+Lobsidian key&n~
+&+LAn obsidian key is on the ground here.&N~
+~
+18 36 3 0 11 21 16781568 8404993 1 0 0
+0 0 0 0 0 0 0 0
+1 9000 100
+E
+obsidian key~
+   &+LA rigid key made out of obsidian.&n
+~
+#98919
+belt zanthium~
+a &+rz&+Ra&+rnth&+Riu&+rm &+Lbelt&n~
+&+LA &+rz&+Ra&+rnth&+Riu&+rm &+Lbelt is on the ground here.&n~
+~
+9 35 3 0 7 50 8192 18433 64 0 0
+9 0 0 5 0 0 0 0
+0 18000 100 0 128 0 0
+E
+belt zanthium~
+&+L   This belt seems to be made out of a strong &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  It is very thick&n
+&+Lyet surpisingly it is also rather flexible.  You have never seen or touched&n
+&+Lanything quite like it before.&n
+~
+A
+18 3
+A
+36 5
+#98920
+iron box large~
+a&+L rather large iron box&n~
+&+LA rather large iron box is on the ground here.&n~
+~
+15 15 3 0 9 13 0 16385 0 0 0
+69 15 0 9 0 0 0 0
+69 18000 100
+E
+iron box large~
+&+L   This box seems like its been here for ages or at the very least a century.&n
+&+LIt seems to be made rather well and surpisingly is in perfect condition.  You&n
+&+Lnotice a small keyhole in the side of the box.&n
+~
+#98921
+ancient grimore book~
+&nan &+rancient &+Lgrimore&n~
+&+LA rather &+rancient &+Llooking grimore is on the ground here gathering dust.&n~
+~
+33 43 3 0 15 21 67117057 8404993 66 0 0
+0 0 333 0 0 0 0 0
+0 37892 100
+E
+ancient grimore book~
+&+L   This grimore seems to be older than time itself.  Its cover has strange&n
+&+crunes &+Lon it that seem to be important.  Unfortunetly you can't figure them out&n
+&+Lat all.  The pages seem to be stronger than they appear.  You try to tear one&n
+&+Lof the pages out and have no success.  This should make a rather good&n
+&+Lspellbook you think to yourself.&N
+~
+#98922
+sword clay claymore soulstone~
+&na &+Cso&+cul&+Cst&+con&+Ce &+ccl&+Ca&+cymo&+Cr&+ce&n~
+&+LA &+Cso&+cul&+Cst&+con&+Ce &+ccl&+Ca&+cymo&+Cr&+ce &+Lis on the ground here.&n~
+~
+5 19 3 0 10 73 23078160 4218881 67 87572507 0
+13 6 6 3 0 0 0 0
+1 66000 100 32768 0 0 0
+E
+soul stone claymore sword~
+&+L   This sword does not appear to be made out of anything you have ever seen&n
+&+Lbefore.  It seems to be some strange &+Cst&+con&+Ce&+L like substance, yet is very light.&n
+&+LAt the same time however it seems to be rather sharp and strong.  This does&n
+&+Lnot seem like it comes from this world.&n
+~
+A
+18 6
+A
+19 6
+#98923
+potion mist swirling~
+&na &+cpotion &+Lof swirling &+Cmist&n~
+&+LA potion is on the ground here collectiong dust.&N~
+~
+10 1 3 0 11 11 73729 8404993 64 0 0
+55 232 131 84 9 0 0 0
+0 90000 100 0 16 0 0
+E
+potion mist swirling~
+&+L   Swirling &+Cmists &+Lmake up this strange &+cpotion&+L.  Its like that of which you have&n
+&+Lnever laid eyes on before.&n
+~
+#98924
+soul stone leggings soulstone~
+&nsome &+Cso&+cul&+Cst&+con&+Ce &+Lleggings&n~
+&+LSome &+Cso&+cul&+Cst&+con&+Ce &+Lleggings are on the ground here.&n~
+~
+9 39 3 0 10 81 9216 16417 64 87585883 83968
+15 0 0 5 0 0 0 0
+1 39000 100
+E
+soul stone leggings soulstone~
+&+L   These leggings do not appear to be made out of anything you have ever seen&n
+&+Lbefore.  It seems to be some strange &+Cst&+con&+Ce&+L like substance, yet is very light.&n
+&+LAt the same time however it seems to be rather thick and strong.  This does&n
+&+Lnot seem like it comes from this world.&n
+~
+A
+19 2
+A
+24 -2
+#98925
+ear stud zanthium~
+a &+rz&+Ra&+rnth&+Riu&+rm &+Lear stud&n~
+&+LA &+rz&+Ra&+rnth&+Riu&+rm &+Lear stud is on the ground here.&n~
+~
+9 35 3 0 15 50 8192 540673 66 4198895524 0
+5 0 0 5 0 0 0 0
+0 33000 100 0 128 0 0
+E
+ear stud zanthium~
+&+L   This stud seems to be made out of a strong &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  It is very thick&n
+&+Lyet surpisingly it is also rather flexible.  You have never seen or touched&n
+&+Lanything quite like it before.&n
+~
+A
+18 3
+A
+19 2
+#98926
+spiked soulstone collar stone~
+a &+Lspiked &+Cso&+cul&+Cst&+cone &+Lcollar&n~
+&+La spiked &+Cso&+cul&+Cst&+cone &+Lcollar lays on the ground here.&n~
+~
+9 39 3 0 10 50 1056768 16389 66 4198895524 0
+9 0 0 5 1 0 0 0
+0 33000 100 32768 0 0 0
+E
+spiked stone soulstone collar~
+   &+LThis collar does not seem to be from this world.  The &+ycraftsmanship &+Lseems&n
+&+Lbetter than any you have ever seen before.  The &+Cst&+con&+Ce &+Lseems to reflect and  &n
+&+Lrefract light at the same time.  Still at the same time your eyes seem to   &n
+&+Lpenetrate the surface of the &+Cst&+con&+Ce&+L.  Revealing what almost seems to be a &+Cso&+cul&n
+&+Ltrapped within it.  Sharp spikes petrude from this collar making it rather&n
+&+Ldeadly.&n
+~
+A
+19 3
+A
+18 1
+#98927
+shield cobra scale~
+a &+gc&+Go&+gbr&+Ga &+gsc&+Ga&+gl&+Ge &+gsh&+Gie&+gld&n~
+&+LA &+gc&+Go&+gbr&+Ga &+gsc&+Ga&+gl&+Ge &+gsh&+Gie&+gld&n &+Lrests here.&n~
+~
+37 47 3 0 7 66 9216 4211201 66 96071707 0
+1 1 4 177 5 1 0 0
+29 55000 100 0 8192 0 0
+E
+shield cobra scale~
+&+L   This &+gsh&+Gie&+gld&+L seems to be made from some sort of &+gs&+Ge&+grp&+Ge&+gnt&+Gi&+gn&+Ge&+g &+Lcreature.  The&n
+&+Lshield is spiked and seems to be in perfect condition.&n
+~
+A
+19 2
+A
+20 -3
+#98928
+bloody sacrificial dagger blood~
+&na &+rbloody &+Lsacrificial dagger&n~
+&+LA dagger with dried &+rblood &+Lupon its blade is on the ground here.&n~
+~
+5 22 3 0 11 33 9216 8396801 67 93974545 10240
+2 2 3 11 0 0 0 0
+2 33000 100
+E
+bloody sacrificial dagger blood~
+&+L   This dagger is used to sacrifice &+Cso&+cul&+Cs &+Lto the &+rancient &+LGod.  Dried &+rblood&+L is&n
+&+Levident on the blade and also the hilt.&n
+~
+A
+18 3
+A
+19 3
+#98929
+unfortunate troll corpse~
+&na &+Lcorpse of a &+gtroll&n~
+&+LA corpse of some unfortunate &+gTroll &+Lis stretched across the altar.&n~
+~
+15 2 3 0 11 0 0 0 0 0 0
+666 0 0 666 0 0 0 0
+460 1 100
+E
+troll corpse unfortunate~
+   &+LThis is a corpse of some poor unfortunate &+gTroll&+L.  &+LNo doubt soon to be&n
+&+Lraised to serve the &+rancient &+LGod.  The throat seems to of been cut and chest&n
+&+Lpenetrated by a dagger.  It seems they bleed their sacrifices before they kill&n
+&+Lthem.  This poor &+Cso&+cul&+L must of regenerated only to die again and again.  How&n
+&+Llong this was done for is anybodies guess.  Still a look of utter horror&n
+&+Lremains on his face even in death.  You almost feel sorry for the poor &+Cso&+cul&+L.&n
+~
+#98930
+soulstone scabbard sheath~
+&na &+Cso&+cul&+Cst&+con&+Ce &+csc&+Ca&+cbb&+Ca&+crd&n~
+&+LA &+Cso&+cul&+Cst&+con&+Ce &+csc&+Ca&+cbb&+Ca&+crd &+Lis on the ground here.&n~
+~
+36 19 3 0 11 35 13312 14696449 66 87650395 0
+0 0 0 0 0 0 0 0
+0 21000 100 32768 0 0 0
+E
+soulstone scabbard sheath~
+&+L   This scabbard does not appear to be made out of anything you have ever seen&n
+&+Lbefore.  It seems to be some strange &+Cst&+con&+Ce&+L like substance, yet is very light.&n
+&+LAt the same time however it seems to be rather riggid and strong.  This does&n
+&+Lnot seem like it comes from this world.&n
+~
+A
+19 1
+A
+20 -2
+#98931
+desk hate obsidian~
+&+Lan obsidian desk&N~
+&+LA desk of hate is pressed against a wall of fate.&N~
+~
+15 36 3 0 11 100 0 0 66 4160749568 0
+666 0 0 666 0 0 0 0
+666 333000 100
+E
+desk hate obsidian black~
+&+L   This desk seems to be made from cold obsidian stone.  Strange symbols of the&n
+&+revil &+Lone are etched into it.  It seems to radiate an odd feeling of hate into&n
+&+Lyour &+Cso&+cul&+L.&N
+~
+A
+14 -80
+A
+22 -1
+#98932
+cobra skull badge~
+&na &+gc&+Go&+gbr&+Ga &+Wskull &+Lbadge&N~
+&+LA rather ominous &+gc&+Go&+gbr&+Ga &+Wskull &+Lis on the ground here.&N~
+~
+11 47 3 0 11 9 12288 2113537 66 4173630980 0
+0 0 0 0 0 0 0 0
+0 1976 100
+E
+cobra skull badge~
+   &+LThis is a rather large &+gc&+Go&+gbr&+Ga &+Wskull &+Lthats been crafted into a badge.&N
+~
+A
+26 3
+A
+2 5
+#98933
+robe tattered souls fabric~
+&na &+Lrobe of &+ct&+Ca&+ctt&+Ce&+cr&+Ce&+cd &+Cso&+cul&+Cs&N~
+&+LA robe made from the fabric of &+ct&+Ca&+ctt&+Ce&+cr&+Ce&+cd &+Cso&+cul&+Cs &+Lis on the ground here.&n~
+~
+9 23 3 0 7 35 1187840 17417 66 4227727361 0
+25 0 0 5 0 0 0 0
+0 81000 100 0 64 0 0
+E
+robe tattered souls fabric~
+&+LThe &+ct&+Ca&+ctt&+Ce&+cr&+Ce&+cd &+Lremains of lost &+Cso&+cul&+Cs &+Lhave been strewn into this robe.  You can&n
+&+Lalmost feel their torment as you touch and stare at the garment.  This item&n
+&+Lwas most assuredly not made in this world of feeble men.&n
+~
+A
+13 28
+A
+20 -4
+#98934
+totem shadows swirling~
+&na &+Lt&+bo&+Lt&+be&+Lm &+bo&+Lf &+Lsh&+ba&+Ld&+bo&+Lws&N~
+&+LA &+Lt&+bo&+Lt&+be&+Lm &+bo&+Lf &+Lsw&+bi&+Lrl&+bi&+Lng &+Lsh&+ba&+Ld&+bo&+Lws is on the ground here.&N~
+~
+34 36 3 0 14 43 9216 16385 66 256 0
+63 0 0 0 0 0 0 0
+1 80880 100
+E
+totem shadows swirling~
+&+L   This &+Lt&+bo&+Lt&+be&+Lm is made from a strange sh&+ba&+Ld&+bo&+Lwy &+bst&+Lo&+bn&+Le.  It is in the shape of a&n
+&+Lgiant raven.&N
+~
+A
+34 4
+#98935
+black hooded robe~
+a &+Lblack hooded robe&n~
+&+LA hooded black robe lays on the ground here.&N~
+~
+9 12 3 0 13 41 8192 16393 66 4227727360 26880
+18 0 0 5 0 0 0 0
+0 33000 100
+E
+black hooded robe~
+&+L   This black hooded robe has been very well made.  It seems to be made from&n
+&+Lsome sort of animals &+yhide&+L.&N
+~
+A
+20 -3
+A
+24 -4
+#98936
+soul stone visor soulstone~
+&na &+Cso&+cul&+Cst&+con&+Ce &+cv&+Ci&+cs&+Co&+cr&N~
+&+LA very nice looking &+cv&+Ci&+cs&+Co&+cr &+Lis on the ground here collection &+Wdust&+L.&N~
+~
+9 35 3 0 12 70 2106368 147457 66 87584859 0
+6 0 0 5 0 0 0 0
+0 9000 100
+E
+soul stone visor soulstone~
+&+L   This &+cv&+Ci&+cs&+Co&+cr &+Lseems to be very well made.  It is both very strong and you can&n
+&+Lalso see through it.  It seems to be made of a substance not known to you very&n
+&+Lwell.  The &+Cst&+con&+Ce &+Lboth reflects and refracts light at the same time.&n
+~
+A
+24 -3
+A
+18 2
+#98937
+strange mask lost souls~
+&na &+cmask &+Lof lost &+Cso&+cul&+Cs&N~
+&+LA rather strange looking &+cmask &+Lis laying on the ground here.&n~
+~
+9 35 3 0 7 80 9216 278529 64 87584859 0
+8 0 0 5 0 0 0 0
+0 99000 100
+E
+strange mask lost souls~
+&+L   This &+cmask &+Lseems like it was forged by living &+Cso&+cul&+Cs&+L.  You can almost see the&n
+&+Cso&+cul&+Cs &+Las you gaze at the surface of the &+cmask&+L.  You realize this was not forged&N
+&+Lin this world.&N
+~
+A
+18 3
+A
+24 -2
+#98938
+twisted dagger souls~
+a&+L dagger of &+ctwisted &+Cso&+cul&+Cs&n~
+&+LA &+ctwisted &+Llooking dagger is laying on the ground here.&n~
+~
+5 22 3 0 12 55 16851216 8396801 67 0 0
+2 2 6 11 0 0 0 0
+1 55000 100
+E
+twisted dagger souls~
+&+L   This dagger seems like it was made by twisting &+Cso&+cul&+Cs &+Ltogether.  It is unlike&n
+&+Lanything you have ever seen before in your life.  The blade seems very sharp&n
+&+Land the dagger is very light.&n
+~
+A
+18 4
+A
+19 4
+#98939
+glowing azure potion~
+&na &+Bglowing &+bazure &+Bpotion&N~
+&+LA &+Bglowing &+bazure &+Bpotion &+Lis on the ground here.&N~
+~
+10 1 3 0 11 11 77825 8404993 64 0 0
+55 84 2 66 40 0 0 0
+0 181000 100 0 16 0 0
+E
+potion glowing azure~
+&+L   Swirling &+bazure &+Lmake up this strange &+Bpotion&+L.  Its like that of which you have&n
+&+Lnever laid eyes on before.&n
+~
+#98940
+onyx potion~
+&+Lan onyx&+m potion&n~
+&+LA potion is on the ground here collectiong dust.&N~
+~
+10 1 3 0 11 11 73729 8404993 64 0 0
+55 56 19 84 9 0 0 0
+0 90000 100 0 16 0 0
+E
+potion onyx~
+&+L   Swirling mists &+Lmake up this strange &+mpotion&+L.  Its like that of which you have&n
+&+Lnever laid eyes on before.&n
+~
+#98941
+armor darkness~
+&Nthe &+Larmor of &+LD&+barkne&+Lss&N~
+&+LSome dark and nasty looking armor is on the ground here.&N~
+~
+9 35 3 0 15 85 3154944 16393 64 85475345 548864
+33 0 0 5 1 0 0 0
+5 111000 100 8 8 0 0
+E
+armor darkness~
+   &+LThis armor seems like it was forged by d&+barkne&+Lss.  It is unlike anything&N
+&+Lyou have ever laid eyes on before.  Its a strange blackish &+bblue &+Lthat seems to&n
+&+Lalmost fade out of view.  This does not seem to be from this world, more likely&n
+&+Lforged in some demonic dimension.  The armor is very thick and very light at&N
+&+Lthe same time.  It seems like it can take a fair amount of damage and is very&n
+&+Lwell crafted to say the least.  You notice when you wear the armor you feel&n
+&+Lstronger in a way you have not felt before.&N
+~
+A
+31 6
+#98942
+black opal eye diabolus~
+&+Lthe black opal Eye of &+mDiabolus&N~
+&+LThe Black Opal Eye of &+mDiabolus &+Lis on the ground here.&n~
+~
+8 35 3 0 15 80 1060864 16385 66 0 0
+0 0 0 0 0 0 0 0
+1 99000 100 536870916 0 0 0
+E
+black opal eye diabolus~
+&+L   This Opal Eye is a deep black that you have never seen before.  It almost&n
+&+Ldestroys all the light it comes in contact with.  The eye is very smooth and&N
+&+Lpleasing to the touch.  Just holding it makes you feel like you have more&n
+&+Lvitality.&n
+~
+A
+13 30
+A
+24 -3
+#98943
+spiked zanthium collar~
+a &+Lspiked &+rz&+Ra&+rnth&+Riu&+rm &+Lcollar&n~
+&+LA spiked &+rz&+Ra&+rnth&+Riu&+rm &+Lcollar is on the ground here.&n~
+~
+9 35 3 0 11 80 8192 16389 66 4198895524 10240
+9 0 0 5 1 0 0 0
+0 33000 100 0 192 0 0
+E
+collar spiked zanthium~
+&+L   This collar seems to be made out of a strong &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  It's very thick&n
+&+Lyet surpisingly it is also rather flexible.  You have never seen or touched&n
+&+Lanything quite like it before.&n
+~
+A
+18 2
+A
+19 3
+#98944
+spiked zanthium bracer~
+a &+Lspiked &+rz&+Ra&+rnth&+Riu&+rm &+Lbracer&n~
+&+LA spiked &+rz&+Ra&+rnth&+Riu&+rm &+Lbracer is on the ground here.&n~
+~
+9 35 3 0 12 80 8192 20481 66 4198895524 0
+9 0 0 5 1 0 0 0
+0 33000 100 0 128 0 0
+E
+bracer spiked zanthium~
+&+L   This bracer seems to be made out of a strong &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  It's very thick&n
+&+Lyet surpisingly it is also rather flexible.  You have never seen or touched&n
+&+Lanything quite like it before.&n
+~
+A
+18 2
+A
+19 3
+#98945
+spiked zanthium gloves~
+some &+Lspiked &+rz&+Ra&+rnth&+Riu&+rm &+Lgloves&n~
+&+LSome spiked &+rz&+Ra&+rnth&+Riu&+rm &+Lgloves are on the ground here.&n~
+~
+9 35 3 0 15 80 8192 16513 66 4198895524 0
+12 0 0 5 1 0 0 0
+0 55000 100 0 128 0 0
+E
+gloves spiked zanthium~
+&+L   This gloves seems to be made out of a strong &+rr&+Re&+rdd&+Ri&+rsh&+L metal.  It's very thick&n
+&+Lyet surpisingly it is also rather flexible.  You have never seen or touched&n
+&+Lanything quite like it before.&n
+~
+A
+18 4
+A
+19 3
+#98946
+bloody cloth~
+&na &+rbloody &ncloth&n~
+&+LA &+rbloody &ncloth &+Lis on the ground here collecting dust.&n~
+~
+9 3 3 0 9 19 8192 134234113 2 0 0
+5 0 0 4 0 0 0 0
+0 9000 100
+E
+bloody cloth~
+   &+LThis is a thick &+rbloody &ncloth&+L.&N
+~
+A
+19 3
+A
+13 15
+#98947
+emerald nose ring~
+&nan &+Ge&+gme&+Gr&+gal&+Gd&+L nose ring&N~
+&+LAn &+Ge&+gme&+Gr&+gal&+Gd &+Lnose ring is on the ground here.&N~
+~
+9 32 3 0 13 21 8192 76038145 66 4163109002 24576
+5 0 0 4 0 0 0 0
+0 69000 100
+E
+emerald nose ring~
+&+L   This nose ring seems to be made from &+Ge&+gme&+Gr&+gal&+Gd&+L.  It also seems to be rather&n
+&+Lwell made.&N
+~
+A
+20 -3
+A
+24 -3
+#98948
+karthian tail spike~
+&Na &+rK&+Ra&+rrth&+Ria&+rn &+Ltail spike&N~
+&+LA &+rK&+Ra&+rrth&+Ria&+rn &+Ltail spike is on the ground here.&N~
+~
+9 35 3 0 11 80 8192 33570817 66 0 0
+3 0 0 5 1 0 0 0
+1 33000 100
+E
+karthian tail spike~
+&+L   This is a very well made &+rK&+Ra&+rrth&+Ria&+rn &+Ltail spike.  Dried &+rblood &+Lis evident on&n
+&+Lthis item.  No doubt the blood of victims long since past.&N
+~
+A
+19 2
+A
+13 20
+#98949
+necklace halfling ears~
+&Na &+Lnecklace of &+yhalfling &+Lears&N~
+&+LA necklace of &+yhalfling &+Lears is on the ground here.&N~
+~
+9 2 3 0 11 18 8192 16389 2 0 0
+7 0 0 3 0 0 0 0
+0 9000 100
+E
+necklace ears~
+&+L   This necklace was made by tightly stringing the ears of &+yhalflings &+Ltogether.&n
+&+LIt seems to be rather well made and is very light.&n
+~
+A
+19 2
+A
+32 5
+#98950
+spiked ring~
+&na &+mspiked &+Lring&N~
+&+LA &+mspiked &+Lring is on the ground here collecting dust.&N~
+~
+9 18 3 0 10 70 8192 16387 0 0 0
+5 0 0 5 1 0 0 0
+0 9000 100
+E
+spiked ring~
+   &+LThis seems to be a well made &+mspiked &+Lring.  The words &+w"&+LDeath is my sanctuary&n
+&+LI seek it with pleasure&+w" &+Lhave been &+retched &+Linto it &N
+~
+A
+18 2
+A
+19 3
+#98951
+evil visor dreadveil veil~
+&na &+Ldr&+re&+Lad&+rv&+Le&+ril &+Lvisor&n~
+&+LA rather &+revil &+Llooking visor is on the ground here.&N~
+~
+9 18 3 0 11 81 8200 147457 66 0 0
+8 0 0 5 0 0 0 0
+0 9000 100
+E
+visor dreadveil veil~
+&+L   This visor seems to be made from a rather strong metal.  It seems to be well&n
+&+Lcrafted and pretty damage resistent.&n
+~
+A
+13 20
+A
+18 2
+#98952
+boots dread~
+&nsome &+Lboots of &+rd&+Lr&+read&N~
+&+LSome boots are on the ground here collecting dust.&N~
+~
+9 19 3 0 11 77 8192 16449 66 4227727360 64
+12 0 0 5 0 0 0 0
+0 33000 100
+E
+boots dread~
+&+L   These boots seem to be rather well made.  They are very thick and are very&n
+&+Llight at the same time.  They seem like they were made by a good crafstman.&N
+~
+E
+dead~
+&+L   This creature is rather tall probably close to nine feet in height.  He is&n
+&+Lvery skinny, with &+Wpowder &+Lwhite skin.  His face is pale and gives off a cold&n
+&+Bchill &+Lof the dead.  His eyes are an unnatural &+Rglowing &+rred &+Lthat fills the air&n
+&+Lwith morbid dread.  Patches of a raven blackness are evident below the unholy&n
+&+Leyes.  His hair is a pitch black that runs well past his shoulders and down his&n
+&+Lback.  This being does not seem like he is from this world, or maybe he is no&n
+&+Llonger alive.&n
+~
+A
+19 3
+A
+13 15
+#98953
+well crafted backpack bp~
+&na &+ywell crafted backpack&N~
+&+LA rather &+ywell crafted backpack &+Lis on the ground here.&N~
+~
+15 12 3 0 12 21 12288 4210689 66 0 0
+450 1 0 450 0 0 0 0
+0 9000 100
+E
+well crafted backpack bp~
+   &+yThis backpack seems to be rather well crafted.&N
+~
+A
+14 21
+A
+22 -3
+#98954
+mask darkness~
+&nthe &+Lmask of D&+barkne&+Lss&N~
+&+LThe great and powerfull mask of d&+barkne&+Lss &+Lis on the ground.~
+~
+9 35 3 0 15 88 70430728 278529 66 4196663786 8192
+9 0 0 4 0 0 0 0
+0 125000 100 2048 12288 0 0
+E
+mask darkness~
+&+L   This mask seems like it was forged by d&+barkne&+Lss.  It is unlike anything&N
+&+Lyou have ever laid eyes on before.  Its a strange blackish &+bblue &+Lthat seems to&n
+&+Lalmost fade out of view.  This does not seem to be from this world, more likely&n
+&+Lforged in some demonic dimension.  The mask is very thick and very light at&N
+&+Lthe same time.  It seems like it can take a fair amount of damage and is very&n
+&+Lwell crafted to say the least.&N
+~
+A
+19 3
+A
+13 33
+#98955
+chipped soulstone dagger~
+&na &+Lchipped &+Cso&+cul&+Cst&+con&+Ce &+Ldagger&n~
+&+LA chipped &+Cso&+cul&+Cst&+con&+Ce &+Ldagger rests upon the ground here.&n~
+~
+5 19 3 0 11 33 8192 8413185 67 0 0
+2 2 4 11 0 0 0 0
+0 33000 100
+E
+dagger chipped soulstone~
+&+L   This dagger does not appear to be made out of anything you have ever seen&n
+&+Lbefore.  It seems to be some strange &+Cst&+con&+Ce&+L like substance, yet is very light.&n
+&+LAt the same time however it seems to be rather riggid and sharp.  This does&n
+&+Lnot seem like it comes from this world.&n
+~
+A
+18 3
+A
+19 3
+#98956
+boots skullstone~
+&Na &+Lpair of faded &+wskull&+Lstone boots&N~
+&+LA pair of &+wskull&+Lstone boots rests upon the ground here.&N~
+~
+9 11 3 0 14 69 8192 16449 66 0 0
+9 0 0 5 0 0 0 0
+3 33000 100
+E
+boots skullstone~
+&+L   These boots once were polished and proper, now they are faded and flawed.&N
+&+LS&+be&+Lrp&+be&+Lnt&+bi&+Ln&+be &+Lsymbols spiral upwards from the demon spun eternal night.  Feelings&N
+&+Lof fright flow into your &+Wspine&+L, causing you to feel far from fine.  The number&N
+&+Lnine burned into horrid dismal heel.  Forged in &+wph&+Wa&+wnt&+Wo&+wm fl&+Wa&+wm&+We&+ws &+Lby &+WT&+we&+Wz&+wc&+Wa&+wt&+Wl&+wi&+Wp&+wo&+Wc&+wa&N
+&+Lhe who is spawned from the &+wunlight&+L.&N
+~
+A
+24 -4
+A
+12 23
+#98957
+quiver faded foom~
+&Na &+Lfaded &+Ldr&+ra&+Lg&+ro&+Lnsc&+ra&+Ll&+re &+Lquiver&N~
+&+LA faded dr&+ra&+Lg&+ro&+Lnsc&+ra&+Ll&+re &+Lquiver rests upon the ground here.&N~
+~
+30 35 3 0 15 88 8192 1048577 66 4207804544 0
+66 1 1 33 0 0 0 0
+0 33000 100
+E
+quiver faded~
+&+L   This once grand quiver now is only a faded sh&+ba&+Ld&+bo&+Lw of what it once was.  The&N
+&+Lsands of time have worn away luminated luster.  Symbols spiral downward into&N
+&+Lthe void of desolution.  Figures of fright, adorning dragon forged &+Ct&+cw&+Ci&+cl&+Ci&+cg&+Ch&+ct&+L.&N
+~
+A
+20 -2
+A
+24 -2
+#98958
+sleeves verethorn~
+&+wsome &+Lsleeves bearing the seal of &+WV&+we&+Wr&+we&+Wt&+wh&+Wo&+wr&+Wn&N~
+&+LSome sleeves bearing the seal of &+WV&+we&+Wr&+we&+Wt&+wh&+Wo&+wr&+Wn &+Lrest upon the forlorn ground.&N~
+~
+9 35 3 0 15 81 3284992 257 0 4171530442 8256
+13 0 0 5 0 0 0 0
+0 81000 100 0 88 0 0
+E
+sleeves verethorn~
+&+L   These sleeves have been crafted from a material that seems to resemble that&N
+&+Lof dragonscale.  The object shines with a strange &+Wwhite &+Land &+wgrey &+Lluster, almost&N
+&+Lmoving like a &+Wp&+wha&+Wn&+wto&+Wm &+Lin the wind.  &+WV&+we&+Wr&+we&+Wt&+wh&+Wo&+wr&+Wn&+w, &+LThe Forlorn, never to be reborn,&N
+&+Lcast eternal into oblivion.  You start to realize that &+rT&+Re&+rz&+Rc&+ra&+Rt&+rl&+Ri&+rp&+Ro&+rc&+Ra &+Lhas created&N
+&+Lthis item from his &+bdark &+Lpowers.  As you continue to gaze, images start to fill&N
+&+Lyour mortal mind.  Children slayed, their mothers by their sides, the smell of&N
+&+Ldeath is real.  Then you hear a voice start to speak to you, the words say an&N
+&+Leerie message &+w'&+bMercyful Fate&+w' &+Lover and over again...&N
+~
+A
+13 23
+A
+20 -3
+#98959
+scale darkness pulsating earring~
+&+wa &+Lscale of pulsating d&+barkne&+Lss&N~
+&+LA pulsating scale of pure d&+barkne&+Lss rests upon the gloomy ground here.&N~
+~
+9 35 1 0 15 81 12288 524289 0 0 0
+6 0 0 4 0 0 0 0
+0 8585 100
+E
+scale darkness pulsating~
+&+L   This pulsating scale seems like it has been fabricated from living d&+barkne&+Lss.&N
+&+LIt seems like it would make a pretty good earring.  Perhaps this item was once&N
+&+Lpart of a dragon or some sort of demon &+Rspawned &+Lcreature of the &+wunlight&+L.&N
+~
+A
+24 -1
+A
+33 2
+#98960
+brimstone bracelet~
+&+wa &+Lbrimstone bracelet&N~
+&+LA brimstone bracelet rests upon the ground here gathering &+wdust&+L.&N~
+~
+9 36 3 0 15 88 0 4097 0 0 0
+8 0 0 5 0 0 0 0
+2 91100 100
+E
+brimstone bracelet~
+&+L   This bracelet has been crafted from a fine grade of brimstone.  The object&N
+&+Lwas most likely crafted by demonic beings of the &+wunlight&+L.  Bringers of noctural&N
+&+Lnever ending fright.&N
+~
+A
+12 33
+A
+24 -3
+#98961
+pulsating gemstone earring~
+&+wa &+Mp&+mu&+Ml&+ms&+Ma&+mt&+Mi&+mn&+Mg &+Rg&+re&+Rm&+rs&+Rt&+ro&+Rn&+re &+Learring&N~
+&+LA &+Mp&+mu&+Ml&+ms&+Ma&+mt&+Mi&+mn&+Mg &+Rg&+re&+Rm&+rs&+Rt&+ro&+Rn&+re &+Learring rests here sparkling.&N~
+~
+9 26 1 0 15 81 8192 524289 0 0 0
+5 0 0 5 0 0 0 0
+0 81000 100
+E
+pulsating gemstone earring~
+&+L   This &+Mp&+mu&+Ml&+ms&+Ma&+mt&+Mi&+mn&+Mg &+Rg&+re&+Rm&+rs&+Rt&+ro&+Rn&+re &+Learring seems like it was not crafted in this world&N
+&+Lof simpleton mortals.  The luster of this object is unmatched by anything you&N
+&+Lhave ever seen in your entire miserable life.  For some reason you ponder the&N
+&+Lreason for your existence.  Perhaps that means you have gained some wisdom or&N
+&+Lsome other kind of insight.  Berethorn images invade, causing untold despair&N
+&+Lwithin your &+Cs&+co&+Cu&+cl&+L.&N
+~
+A
+34 2
+A
+20 -1
+#98962
+mask shadows swirling~
+&na &+Lm&+ba&+Ls&+bk &+Lo&+bf &+bs&+Lh&+ba&+Ld&+bo&+Lw&+bs&N~
+&+LA &+Lm&+ba&+Ls&+bk &+Lo&+bf &+Lsw&+bi&+Lrl&+bi&+Lng &+bs&+Lh&+ba&+Ld&+bo&+Lw&+bs &+Lis on the ground here.&N~
+~
+9 36 3 0 14 54 8192 262145 66 0 0
+8 0 0 4 0 0 0 0
+1 81989 100
+E
+mask shadows swirling~
+&+L   This &+bm&+La&+bs&+Lk has been constructed from a strange shadowy &+bstone&+L.  Swirling and&N
+&+Ltwisting images seem to form upon the surface of this object.&N
+~
+A
+12 33
+A
+24 -3
+#98963
+sleeves skullstone~
+&Na &+Lpair of faded &+wskull&+Lstone sleeves&N~
+&+LA pair of &+wskull&+Lstone sleeves rests upon the ground here.&N~
+~
+9 11 3 0 15 81 8192 16641 66 0 0
+8 0 0 5 0 0 0 0
+3 69000 100
+E
+sleeves skullstone~
+&+L   These sleeves once were polished and proper, now they are faded and flawed.&N
+&+LS&+be&+Lrp&+be&+Lnt&+bi&+Ln&+be &+Lsymbols spiral upwards from the demon spun eternal night.  Feelings&N
+&+Lof fright flow into your &+Wspine&+L, causing you to feel far from fine.  The number&N
+&+Lnine burned into horrid dismal seal.  Forged in &+wph&+Wa&+wnt&+Wo&+wm fl&+Wa&+wm&+We&+ws &+Lby &+WT&+we&+Wz&+wc&+Wa&+wt&+Wl&+wi&+Wp&+wo&+Wc&+wa&N
+&+Lhe who is spawned from the &+wunlight&+L.&N
+~
+A
+24 -3
+A
+12 33

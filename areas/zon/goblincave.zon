@@ -1,0 +1,88 @@
+#190
+&N&+LThe &N&+gGagga'Jobo Cave&N&+L System&N~
+19022 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 19010 5 1 100 0 0 0
+*     down exit from "In the Cave That Leads to the Pootata Pens" to
+*     "The Center of the Pootata Pens" - closed
+*
+D 0 19012 4 1 100 0 0 0
+*     up exit from "The Center of the Pootata Pens" to
+*     "In the Cave That Leads to the Pootata Pens" - closed
+*
+D 0 19017 1 1 100 0 0 0
+*     east exit from "In Front of the Iron Gate of the Chothe Pens" to
+*     "The Entrance To the Chothe Pens" - closed
+*
+D 0 19018 3 1 100 0 0 0
+*     west exit from "The Entrance To the Chothe Pens" to
+*     "In Front of the Iron Gate of the Chothe Pens" - closed
+*
+*
+O 0 19001 1 19007 100 0 0 0        * a butcher table
+P 1 19003 6 19001 100 0 0 0        *   a piece of chothe meat
+P 1 19004 5 19001 100 0 0 0        *   some pootata meat
+O 0 19003 6 19007 100 0 0 0        * a piece of chothe meat
+*
+M 0 19009 5 19000 100 0 0 0        * a goblin warrior
+M 0 19009 5 19001 100 0 0 0        * a goblin warrior
+M 0 19009 5 19003 100 0 0 0        * a goblin warrior
+M 0 19009 5 19003 100 0 0 0        * a goblin warrior
+M 0 19002 1 19004 100 0 0 0        * a goblin worker
+E 1 19002 1 27 100 0 0 0           *   a meat pack
+P 1 19003 6 19002 100 0 0 0        *   a piece of chothe meat
+P 1 19003 6 19002 100 0 0 0        *   a piece of chothe meat
+P 1 19003 6 19002 100 0 0 0        *   a piece of chothe meat
+P 1 19003 6 19002 100 0 0 0        *   a piece of chothe meat
+P 1 19004 5 19002 100 0 0 0        *   some pootata meat
+P 1 19004 5 19002 100 0 0 0        *   some pootata meat
+P 1 19004 5 19002 100 0 0 0        *   some pootata meat
+P 1 19004 5 19002 100 0 0 0        *   some pootata meat
+M 0 19009 5 19005 100 0 0 0        * a goblin warrior
+M 0 19003 1 19007 100 0 0 0        * a chained chothe
+M 0 19004 1 19007 100 0 0 0        * the goblin butcher
+E 1 19000 2 16 100 0 0 0           *   a goblin knife
+E 1 19005 1 24 100 0 0 0           *   a symbol of Malch'hor Ganl
+M 0 19005 1 19008 100 0 0 0        * a goblin leatherworker
+G 1 19007 1 0 100 0 0 0            *    a pair of leather shoes
+G 1 19008 1 0 100 0 0 0            *    a goblin-made leather shirt
+G 1 19009 1 0 100 0 0 0            *    a chothe hide backpack
+G 1 19010 1 0 100 0 0 0            *    a pair of goblin-made gloves
+M 0 19007 1 19008 100 0 0 0        * an apprentice leather worker
+E 1 19000 2 16 100 0 0 0           *   a goblin knife
+M 0 19006 1 19011 100 0 0 0        * a goblin bone-worker
+G 1 19014 1 0 100 0 0 0            *    a goblin earring
+M 0 19001 5 19012 100 0 0 0        * a large Pootata
+G 1 19013 5 0 100 0 0 0            *    a strip of pootata flesh
+M 0 19001 5 19013 100 0 0 0        * a large Pootata
+G 1 19013 5 0 100 0 0 0            *    a strip of pootata flesh
+M 0 19001 5 19014 100 0 0 0        * a large Pootata
+G 1 19013 5 0 100 0 0 0            *    a strip of pootata flesh
+M 0 19001 5 19015 100 0 0 0        * a large Pootata
+G 1 19013 5 0 100 0 0 0            *    a strip of pootata flesh
+M 0 19001 5 19016 100 0 0 0        * a large Pootata
+G 1 19013 5 0 100 0 0 0            *    a strip of pootata flesh
+M 0 19000 6 19018 100 0 0 0        * a large chothe
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+M 0 19000 6 19019 100 0 0 0        * a large chothe
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+M 0 19000 6 19019 100 0 0 0        * a large chothe
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+M 0 19008 1 19019 100 0 0 0        * a goblin worker
+M 0 19000 6 19020 100 0 0 0        * a large chothe
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+M 0 19000 6 19021 100 0 0 0        * a large chothe
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+M 0 19000 6 19022 100 0 0 0        * a large chothe
+G 1 19006 6 0 100 0 0 0            *    a strip of chothe hide
+G 1 19011 6 0 100 0 0 0            *    a chothe bone
+*
+S

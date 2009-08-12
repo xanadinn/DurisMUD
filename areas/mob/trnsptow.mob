@@ -1,0 +1,615 @@
+#16200
+fish~
+the shadow fish~
+&+LA small, thin, shadowy fish glides through the water.&N
+~
+Though long and thin, this odd fish looks like more of an amorphous shadow
+than anything else.  Its scales have a dull, light absorbing cast to them that
+makes clear study of it quite difficult.  Though small, it has enough teeth
+to ward off all but the most determined of attackers.
+~
+1074006088 1 0 2072 0 0 0 -400 S
+F 0 0 -1
+8 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 0
+#16201
+blob~
+&+ba swimming blob&N~
+&+BA blob swims slowly through the water.&N
+~
+It is unclear what this creature once was, some strange magic has mutated it
+beyond recognition.  Four or five eyes seem spread out across its odd-shaped
+globular body, eyes which rotate to study everything around them.  Disgusting
+pseudopods help propel it through the water at a surprisingly quick pace.
+Generally though, it is content to simply float through the water studying
+everything it passes by.
+~
+1074006216 0 0 2220 262144 0 0 0 S
+F 0 0 -1
+25 11 19 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#16202
+eel~
+&+La shadow eel&N~
+&+LA shadow eel gracefully slips through the water.&N
+~
+This strange eel has had all the color drained from it somehow.  In fact, it
+has so little color that it is difficult to see, even when it is only an arms
+length away.  It has a huge mouth filled with dull gray teeth that have clearly
+seen a great deal of use.  Its piercing black eyes and sleek body make it look
+more like an intelligent dagger than a simple beast.  Its size alone is its
+protection, there is little foolish enough to attack such a creature.
+~
+1107560520 0 0 1574968 262272 0 0 -400 S
+F 0 0 -1
+35 6 -12 35d70+525 4d6+7
+0.0.0.0 45360
+8 8 0
+#16203
+sage man gullivier~
+&+GLord Gullivier&N~
+&+GAn elderly sage sits here at peace with the forest.&N
+~
+This gentle old man has great wisdom written in the lines of his face.
+Wrinkles line his eyes and hands making him look droopy and tired, but there
+is an inner power that shows through from within him.  Unless he has some
+great unknown power, he is as trapped here as anyone else.  The smile on his
+face suggests he knows secrets that the rest of us have forgotten, perhaps he
+even knows the secrets of this tower.
+~
+1107298382 0 0 188 0 0 0 500 S
+PH 0 2048 -1
+60 -10 -132 60d96+6180 7d6+35
+6.6.9.7 243000
+8 8 1
+#16204
+mage angry~
+&+rthe angry mage&N~
+&+rAn angry mage paces here, pondering great mysteries of magic&N
+~
+Trapped among the devils for far to long, he has certainly garnered their
+respect for none of them attack him.  His dark brown hair and piercing eyes
+add to the angry set of his face and tension in his body to create a truly
+imposing image.  It is clear that he has been trapped in this strange place
+and has been unable to determine a way out of here.  His contemplations of
+the tower, and how to get back there from this part of hell, tend to distract
+him, he barely notices when people come and go.
+~
+1073743950 0 0 268435644 2049 0 0 0 S
+PH 0 512 -1
+60 -7 -114 56d96+5768 7d6+35
+1.3.8.6 226800
+8 8 1
+#16205
+aceralde lich~
+&+BAceralde&N~
+&+BAceralde, master of the tower, cackles insanely here.&N
+~
+Aceralde looks older than any human has a right to.  Tattoos of skulls and
+strange glyphs line his wrinkled cheeks, and a long green serpent has been
+tattooed along his left forearm.  His hair has turned so white that it looks
+almost translucent, and his skin is so pale that long purple veins can be
+seen through its surface.  His eyes are dark though, showing an intelligence
+that borders on complete insanity, it is clear that he has lived many
+centuries through the mastery of the dark magic of necromancy.
+~
+1074857994 1 0 65720 264192 67108864 0 -1000 S
+UL 0 1024 -1
+60 -10 -152 25000d1+500 7d7+45
+6.6.9.22 486000
+8 8 1
+#16206
+lord devilish devil~
+&+rLord Devilish&N~
+&+rA massive pit fiend named &+RLord Devilish&+r paces here.&N
+~
+Tremendous muscles line his massive body, rippling as he walks back and
+forth.  His power and strength are unmistakeable, even the other pit fiends
+stay away from him, respecting his power.  One of his horns has been marked
+with a gold ring, and both of his fangs have been tattoed with a strange
+symbol.  Something about the way he paces back and forth suggests that he too
+is a prisoner here, though how or why is a bit of a mystery.
+~
+1073743886 0 0 302055612 309442 0 0 -1000 S
+Y 0 16 -1
+60 -10 -147 60d143+6720 7d6+35
+6.6.4.10 243000
+8 8 1
+#16207
+librarian purple _nofear_~
+&+mthe purple librarian&N~
+&+mAn odd librarian with purple skin tends the books.&N
+~
+It is clear that this man, if he is a man, is quite confused.  His odd purple
+skin radiates a strange faint magical aura, which may have been brought about
+by the odd purple mists that cling to everything in the area.  At times he
+too looks almost misty in appearance, though he looks quite solid and real
+right now.  He should be tending the books, but all of them have collapsed
+into dust despite his best efforts so now he just wanders the library with a
+confused look on his face.
+~
+1073743886 0 0 168 2048 0 0 0 S
+UG 0 512 -1
+50 -3 -105 50d80+2650 6d6+25
+0.0.0.0 121500
+8 8 1
+#16208
+mist green _nofear_~
+&+Ga green mist&N~
+&+GA green mist floats here, struggling to take some sort of form.&N
+~
+The strange mist twists and swirls, looking as if it is trying to take a
+particular form.  At times a twisted face forms within it, when it does it
+howls in pain and rage as it struggles to form into something solid.  It is
+almost as if the mist is really fragments of tormented souls that have
+somehow been trapped here and are struggling to escape.
+~
+1073875020 1 0 738197688 14528 0 0 -1000 S
+UG 0 1 -1
+54 -5 -117 54d131+4590 7d6+30
+0.0.0.0 218700
+8 8 0
+#16209
+mist yellow _nofear_~
+&+Ya yellow mist&N~
+&+YA yellow mist floats along the walls and pillers.&N
+~
+Slowly swirling along the pillars and floors, this strange mist makes a
+concerted effort to take the form of a large barbarian, only to collapse back
+into swirling mist with a tormented cry.  There is a rage to the spiraling
+mist, a fury borne of centuries of captivity and torture.  Whatever the spirit
+of this creature might once have been, there is nothing remaining but pain and
+anger.
+~
+1073874956 1 0 603979960 14528 0 0 -1000 S
+UG 0 4096 -1
+40 2 -38 40d80+840 4d7+10
+0.0.0.0 51840
+8 8 0
+#16210
+mist red _nofear_~
+&+Ra red mist&N~
+&+RA strange red mist swirls angrily against everything it its path.&N
+~
+Curling into itself and pushing against everything in its path, this red mist
+has an intelligence that has been tainted by madness and chaos.  At times, a
+dwarven face is formed by the mist, but its features are twisted and collapse
+into a small eddy with a quiet sigh.  Anger flows from the red color in waves,
+a tangible manifestation of its own hatred and rage.
+~
+1073875020 1 0 754974904 276672 0 0 -1000 S
+UG 0 32 -1
+56 -7 -124 56d132+5824 7d6+35
+0.0.0.0 226800
+8 8 0
+#16211
+mist gray _nofear_~
+&+La gray mist&N~
+&+LSome gray mist floats here, blocking clear view of anything in the room.&N
+~
+The mist just floats here.  It makes no intelligent actions, yet there is
+something threatening about it that leads one to avoid it.  It may be nothing
+more than a nuisance, but less threatening things have been far more
+dangerous.
+~
+1073875020 1 0 738263224 14528 0 0 -1000 S
+UG 0 512 -1
+46 -3 -82 46d80+2438 6d6+25
+0.0.0.0 111780
+8 8 0
+#16212
+mist purple _nofear_~
+&+ma purple mist&N~
+&+mPurple mist clings to the bookshelves, cloaking everything in purple haze.&N
+~
+Hanging curtain-like from the ceiling down to the floor, the odd purple mist
+flows with a current of its own, acting like some sort of mindless guardian
+for the books that became naught but piles of dust many years ago.
+~
+1073875020 1 0 738197560 276672 0 0 -1000 S
+UG 0 16 -1
+58 -7 -135 58d143+6090 7d6+35
+0.0.0.0 234900
+8 8 0
+#16213
+fog green _nofear_~
+&+Gthe green fog&N~
+&+GSome green fog hangs heavily in the air.&N
+~
+The fog is so thick and heavy that it looks as solid as a stone wall.  Sparks
+can be seen flashing from deep within it, suggesting a strange and powerful
+magic.  Despite its simple, amorphous appearance, it moves with a speed and
+intelligence that are frightening to behold.
+~
+1073875022 1 0 754974908 307392 0 0 -1000 S
+UG 0 128 -1
+59 -7 -138 59d132+6136 7d6+35
+0.0.0.0 238950
+8 8 0
+#16214
+mist blood _nofear_~
+&+rthe blood mist&N~
+&+rA living, bloody mist searches for victims.&N
+~
+It is as if blood was splattered into a fine mist that simply swirls in the
+air in a current of its own making.  There is an anger and speed to this
+creature that are frightening to behold.  The coppery tang of fresh blood
+fills the air, tickling one's nostrils with hints of doom.
+~
+1073875022 1 0 218103992 309440 0 0 -1000 S
+UV 0 1 -1
+59 -7 -128 59d143+6195 7d6+35
+4.5.9.6 238950
+8 8 0
+#16215
+shadow giant _nofear_~
+&+La screaming shadow giant&N~
+&+LA shadow giant stands here screaming in agony.&N
+~
+Made entirely of shadows and mists, this strange giant screams like a soul in
+eternal torment.  Its pain transcends mortal bounds and seems to have lasted
+for an eternity.  This twisted soul unfortunately attempts to set itself free
+of its pain and torment by destroying anything in its reach.
+~
+1140869196 1 0 16777360 2048 0 0 -500 S
+UG 0 256 -1
+60 -5 -108 51d121+4284 7d6+30
+0.0.0.0 206550
+8 8 0
+#16216
+shadow unicorn _nofear_~
+&+La shadow unicorn&N~
+&+LA shadow unicorn prances angrily through the fields.&N
+~
+Unlike the unicorns in tales told by bards in peaceful, smokey taverns.  This
+creature, and its incredibly sharp horn, is made entirely of dark shadows and
+mystery.  Though elegant and beautiful when it prances along, there is an
+anger and tension that runs through its sleek form.  True unicorns are often
+respected, or scorned, for their majesty and beauty, this creature has
+received neither of those intangible benefits, yet it demands respect based
+upon its strength alone.
+~
+1073743948 1 0 524472 2048 0 0 -1000 S
+UG 0 8192 -1
+60 -3 -105 50d100+2650 6d6+25
+0.0.0.0 121500
+8 8 0
+#16217
+shadow ki ki-rin _nofear_~
+&+La shadow ki-rin&N~
+&+LA shadow ki-rin struggles to return to its home.&N
+~
+Unlike the luminous gold coat legends claim they wear, this beautiful
+creature has a think coat of dark shadows with hooves and a single horn made
+of a much darker and more solid material.  Its flowing mane glistens despite
+its dark material, and its bright violet eyes show intelligence as well as
+fear.
+~
+1073743948 1 0 738197560 47296 0 0 1000 S
+UG 0 32 -1
+60 -7 -138 59d132+6136 7d6+35
+0.0.0.0 238950
+8 8 0
+#16218
+shadow man _nofear_~
+&+Lthe shadow mage&N~
+&+LThe twisted shadow of a human stretches across the grass.&N
+~
+Long, thin, and spread out, it is clearly the shadow of a human being, yet
+the creature that must be casting the shadow can't be seen.  It is as if the
+soul and essence of some person has been stripped from them and trapped in
+this strange shadow that is devoid of all color.
+~
+1073743948 1 0 536871096 14528 0 0 -1000 S
+UG 0 512 -1
+60 -3 -82 46d80+2438 6d6+25
+0.0.0.0 111780
+8 8 1
+#16219
+mist unicorn _nofear_~
+&+Ya mist mimic&N~
+&+YA unicorn formed of strange yellow mist stands here.&N
+~
+Though the details of the unicorn are quite well done, it is clear that this
+misty creature is only a copy of a true unicorn.  Why or how it has taken
+this form is impossible to determine, but nothing about its movements or
+attitude are anything like what one would expect from a true unicorn.
+~
+1073875020 1 0 738197688 274624 0 0 -1000 S
+UG 0 1 -1
+54 -5 -117 54d131+4590 7d6+30
+0.0.0.0 218700
+8 8 0
+#16220
+mist unicorn _nofear_~
+&+Ga mist mimic&N~
+&+gA unicorn made of a hazy green mist stands here.&N
+~
+Strange, dark green mist has been forced into the form of a unicorn.  Most of
+the details are ALMOST right, yet it is clear that it is only the image of a
+unicorn and nothing more.  The color of the mist is uniform throughout the
+creature's length showing that even a greater depth of the stuff neither
+lightens nor darkens its color.
+~
+1073875020 1 0 738197688 274624 0 0 -1000 S
+UG 0 1 -1
+60 -5 -117 54d131+4590 7d6+30
+0.0.0.0 218700
+8 8 0
+#16221
+abishai red devil~
+&+ra red abishai&N~
+&+rA red-skinned abishai is here ignoring everything around it.&N
+~
+Its skin is a pale reddish color that gets darker as it extends along its
+leathery wings and down to the end of its barbed tail.  Everything about this
+creature exudes a certain evil and power, but then devils are known for the
+darkness that surrounds them.
+~
+1140983884 1 0 671154360 276673 0 0 -1000 S
+Y 0 8192 -1
+60 2 -43 40d80+1120 4d7+10
+3.3.4.4 51840
+8 8 0
+#16222
+abishai black devil~
+&+La black abishai&N~
+&+LA black abishai is here laughing at foolish visitors.&N
+~
+Though a minor devil, this abishai has clearly had enough strength and wits
+to survive in this plane of hell.  Its smooth, leathery skin is an even ebony
+color that changes to a fainter gray as it reaches the end of its barbed
+tail.  The small leathery wings it has clearly aren't functional, but its
+talons and teeth are certainly frightening to behold.
+~
+1174538316 0 0 536871096 47297 0 0 -1000 S
+Y 0 1 -1
+60 -3 -110 50d119+3100 6d6+25
+0.3.9.6 121500
+8 8 0
+#16223
+abishai red devil~
+&+ra red abishai&N~
+&+rA red-skinned abishai cackles madly as it attacks everything in sight.&N
+~
+Blood of other devils, as well as tortured souls, drip from its bright red
+talons.  Devils are known for their ficklness and random acts of terror and
+pain, and this creature is certainly in a mood for killing and torture.
+~
+1073743948 1 0 806879416 14528 0 0 -1000 S
+Y 0 8192 -1
+60 -1 -80 44d90+2200 6d6+12
+4.9.4.5 106920
+8 8 0
+#16224
+spined devil~
+&+La spined devil&N~
+&+LA spined devil is here, meekly serving more powerful devils.&N
+~
+Being much smaller than many of the other devils here, this creatures wings
+are actually powerful enough to allow it to fly.  Despite that ability, and
+the strange burning spikes that line its tail, it is nowhere near as powerful
+as the larger devils that abound here and has been forced to serve them as
+well as it can.
+~
+1073875020 1 0 939524280 14529 0 0 -1000 S
+Y 0 16384 -1
+60 -1 -74 42d107+2184 6d6+12
+2.8.2.5 102060
+8 8 0
+#16225
+pit pit-fiend devil~
+&+La massive pit fiend&N~
+&+LA tremendous pit fiend is here, directing lesser devils.&N
+~
+Simply one of the most powerful and dark creatures to exist on any plane,
+this devil is perfectly willing to torture and slay ANY creature it feels
+like attacking.  Even the most powerful of devil lords respect such
+creatures, and are unlikely to attack them alone.  His long fangs have no
+markings on them but his horns have small runes carved into them, runes which
+may or may not have any real meaning.
+~
+1073743884 1 0 268501176 309441 0 0 -1000 S
+X 0 16 -1
+60 -7 -143 59d143+6608 7d6+35
+4.5.4.9 358425
+8 8 1
+#16226
+humanoid blob~
+&+La humanoid blob&N~
+&+LA vaguely humanoid blob walks about mindlessly.&N
+~
+This creature howls periodically, as devils randomly strike it for no
+particular reason.  Whatever mind it once may have had has been tortured or
+beaten out of it.  The only thing it understands is pain and hunger.
+~
+1140852812 1 0 268435512 2049 0 0 -1000 S
+H 0 2 -1
+60 11 19 25d47+250 3d5+3
+6.2.6.1 22275
+8 8 0
+#16227
+horned devil~
+&+La horned devil&N~
+&+LA horned devil called &+r'Retch'&+L snarls here.&N
+~
+The massive horns sprouting from this odd creature's head are noticeable from
+quite a distance.  It is clear he hates the other devils around him, yet
+fears the more powerful pit fiends and even some of the more tenacious
+abishai.
+~
+1073743948 1 0 536936632 14529 0 0 -1000 S
+Y 0 16384 -1
+60 -1 -80 44d107+2288 6d6+12
+4.9.4.5 106920
+8 8 0
+#16228
+blue mist _nofear_~
+&+Ba blue mist&N~
+&+BA blue mist hangs in the air here.&N
+~
+This deep blue mist has an inner brightness, that, though dim, makes it
+appear to be quite alive.  It has no particular form, shifting shapes often
+but still clinging together and remaining cohesive.
+~
+1073874958 1 0 738197688 12480 0 0 -1000 S
+UG 0 257 -1
+60 -3 -105 50d119+2750 6d6+25
+0.0.0.0 121500
+8 8 0
+#16229
+dragon blue mist~
+&+Ba blue mist dragon&N~
+&+BA small blue dragon formed of mist hovers here.&N
+~
+The mist of its body swirls and flows, yet it is clearly solid and real.  The
+awe-inspiring form of a blue dragon emerges and, though dark and evil in
+nature, the grace and majesty of its form can only be admired.  Whether this
+is a true dragon, or simply the tormented soul of one is hard to determine.
+In any case, the creature is deadly and far more powerful than its
+translucent, misty form suggests.
+~
+1073875278 1 0 202375356 12480 0 0 -1000 S
+D 0 512 -1
+60 -10 -152 60d96+6780 7d6+35
+6.6.9.22 486000
+8 8 0
+#16230
+adventurer~
+a lost adventurer~
+&+MA lost adventurer wanders the tower searching for an exit.&N
+~
+His long face droops and sags in deep depression as he wanders the tower
+searching in vain for an exit.  Most of the colors have been drained from his
+face, and even his clothing, and he has lost so much weight that he looks
+more like some sort of dehydrated zombie than a human being.
+~
+1140852940 1 0 402653242 2048 0 0 0 S
+PH 0 2049 -1
+60 -7 -128 59d143+6195 7d6+35
+4.5.9.6 238950
+8 8 1
+#16231
+vampire~
+&+ran ugly vampire&N~
+&+rAn ugly vampire is here serving its master.&N
+~
+Clearly one of the more vicious and terrible undead creature the world has
+ever seen, this vampire carefully protects its master from the attacks of
+others.  His long fangs and guant face show that he has not fed in a LONG
+time and is eager to quench its thirst.
+~
+1073743950 1 0 67109048 264192 0 0 -1000 S
+UV 0 1 -1
+60 -5 -107 54d131+4590 7d6+30
+9.1.7.6 218700
+8 8 0
+#16232
+lich~
+&+Wa skeletal lich&N~
+&+WA skeletal lich stands here serving its master.&N
+~
+The magical knowledge this creature once had has been added to in its
+terrifying creation.  Few necromancers are powerful enough to create such a
+horror, fewer still can control one.  Even so, this skeletal creature remains
+in the service of its creator and master.
+~
+1073743950 1 0 65594 2048 0 0 -1000 S
+U 0 512 -1
+60 -7 -125 58d96+5974 7d6+35
+0.0.0.0 234900
+8 8 0
+#16233
+mist blue _nofear_~
+&+Ca pale blue mist&N~
+&+CSome pale blue mist hangs in the air.&N
+~
+Mist swirls in eddies throughout its transparent body, there is something
+ominous about this creature, if indeed it is alive at all.  There is a power
+within it that speaks of death, and torture.  It floats through the air like
+a guardian assigned to some eternal duty.
+~
+1073875018 1 0 739770558 12480 0 0 -1000 S
+UG 0 1024 -1
+60 -5 -111 52d88+4316 7d6+30
+0.0.0.0 210600
+8 8 0
+#16234
+mage lisa~
+&+MLady Lisa&N~
+&+MA beautiful woman paces here, deep in concentration.&N
+~
+There is a serene peacefulness about her as she calmly contemplates her
+imprisonment.  Though her face and body are those of a young, and beautiful,
+woman, her eyes carry a depth of knowledge and wisdom that can only have come
+from years of deep contemplation.  All her knowledge can't have done her very
+much good though, she is as trapped here as anyone else.
+~
+1073743950 0 0 188 0 0 0 0 S
+PH 0 512 -1
+56 -7 -114 56d96+5768 7d6+35
+1.3.8.6 226800
+8 8 1
+#16235
+dragon shadow _nofear_~
+&+La shadow dragon&N~
+&+LA small, shadowy dragon floats here, looking very dead.&N
+~
+   More the ghost of a dragon than a true dragon, this creature has certainly
+not lost any of its foulness.  One would hope that it is at least weaker in
+death than it was in life, but that may simply be a foolish wish.  It acts as
+though it is guarding something, but its generally wicked demeanor is hard to
+interpret.
+~
+1108498510 1 0 772800698 276672 0 0 -1000 S
+UG 0 1 -1
+60 -10 -142 60d143+6300 7d6+35
+0.0.0.0 243000
+8 8 0
+#16236
+mist brown _nofear_~
+&+ya &+Ybu&+Rrni&+Yng&+y brown mist&N~
+&+yAn angry brown mist hides here, trying to escape.&N
+~
+   This angry swirling mist has a rage and anger all its own.  The spirit
+or spirits that make it up have lost all sense and form, they wish only to
+escape the horror of being trapped here in the tower.
+~
+1140983882 1 0 772800698 274625 0 0 0 S
+UG 0 257 7
+60 -7 -124 56d143+5880 7d6+35
+0.0.0.0 226800
+8 8 0
+#16237
+illithid _size_none_~
+&+Ma sickly illithid&N~
+&+MA pale illithid wanders here.&N
+~
+Its writhing tentacles look withered and spent.  It has been powerful
+enough to survive here, but can't find anything to feed on.  Despite
+its power it has been trapped by the magic of the tower like everything
+else here, and struggles to escape before it dies.
+~
+1107298378 1 0 754974910 274652 0 0 -1000 S
+MF 0 516 7
+60 -10 -132 60d132+6240 7d6+35
+6.6.9.7 243000
+8 8 0
+#16238
+white mist~
+&+WA white mist~
+&+WWhite mist coalesces into a shadowy form, ready to strike.
+~
+White mist swirls about the room, drifting about on currents unseen. Although it may appear random,
+the mist seems to come together in the form of a giant creature, tormenting with the nearness of
+escape. Trapped in this hideous place for so many years, it has come this far, only to be stopped by
+a lack of sufficient magic to break free. What it lacks in magic, however, it more than makes up
+with deceptive physical strength.
+~
+1107982414 1 0 268509500 6144 67108864 0 -1000 S
+EA 0 64 6
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

@@ -1,0 +1,592 @@
+#95400
+&+LOutside the Torture Compound&n~
+   The main complex gate towers above, securely fastened.  Even
+through the thick gate putrid odors and chilling shrieks come forth.
+The horrid conditions here strike fear into the strongest of
+adventurers.  A beat up &+Wsign &nhangs on the gate.
+~
+954 1 15
+D0
+~
+~
+0 0 11529
+D2
+The prison gate towers ominously.
+~
+gate~
+1 0 95401
+E
+sign~
+&+WThe sign reads: ALL DA TOURS ARE POSTPOONED!  PRISONERS BE BAD..&n
+~
+S
+#95401
+&+W Greeting Chamber~
+   &+mThis room gives all the new prisoners a warm welcome to the Ghore
+&+mtorture complex; hard steel and a bad headache.  Veteran prisoners
+&+mknow better than to stick around to be beaten and shackled.  A deep
+&+mshaft in the center of the room serves as an exit to the hard labor area
+&+mfor those who can't behave.  The main walk runs south.&n
+~
+954 4101 15
+D0
+The prison gate towers ominously.
+~
+gate~
+1 0 95400
+D2
+The main prison walk begins.
+~
+~
+0 0 95411
+D5
+A long dark shaft heads down into the bowels of the earth.
+~
+~
+0 0 95402
+S
+#95402
+&+LA Deep Shaft&n~
+   A crude stone staircase descends into the &+rhellish &nslave
+labor area below.  An endless dripping of water from above induces
+madness, and creates a slippery death trap for the weary troll.
+~
+954 4101 15
+D4
+The greeting area looms above.
+~
+~
+0 0 95401
+D5
+The shaft continues.
+~
+~
+0 0 95403
+F
+10
+S
+#95403
+&+LA Deep Shaft&n~
+   A crude stone staircase descends into the &+rhellish &nslave
+labor area below.  An endless dripping of water from above induces
+madness, and creates a slippery death trap for the weary troll.
+A cry of anguish echoes from below.
+~
+954 4097 15
+D4
+The shaft continues.
+~
+~
+0 0 95402
+D5
+The shaft continues.
+~
+~
+0 0 95404
+S
+#95404
+&+LBottom of a Shaft&n~
+   The shaft ends on a rocky plateau, with jagged steps leading
+east to a rough tunnel created by the slaves.  A mess of iron bars
+support the ceiling keeping cave-in casualties at a mininum.
+~
+954 4097 15
+D1
+A rough tunnel heads east.
+~
+~
+0 0 95405
+D4
+The shaft continues upwards.
+~
+~
+0 0 95403
+S
+#95405
+&+LA Rough Tunnel&n~
+   This tunnel was created through the sweat and blood of the slave
+labor.  Not exactly good work, but functional.  The groans and cries
+of the laborers becomes increasingly louder.
+~
+954 4097 15
+D1
+The tunnel continues into the hard labor area.
+~
+~
+0 0 95406
+D3
+The bottom of a long shaft.
+~
+~
+0 0 95404
+S
+#95406
+&+RHard Labor Area&n~
+   This area is under construction, with no long term goals evident.
+Rock chips lie haphazardly all over the place, waiting to be hauled
+off.  Blood and other waste make the rock slippery and hazardous;
+prisoners that fall are immediately taken back up the shaft to be
+tortured.  The harsh realities here are indiscriminate to race or
+alignment.
+~
+954 4097 13
+D1
+The slave labor area continues.
+~
+~
+0 0 95407
+D3
+The tunnel continues.
+~
+~
+0 0 95405
+S
+#95407
+&+RHard Labor Area&n~
+   This area is under construction, with no long term goals evident.
+Rock chips lie haphazardly all over the place, waiting to be hauled
+off.  Blood and other waste make the rock slippery and hazardous;
+prisoners that fall are immediately taken back up the shaft to be
+tortured.  The harsh realities here are indiscriminate to race or
+alignment.
+~
+954 4097 13
+D0
+The slave labor area continues.
+~
+~
+0 0 95408
+D1
+A crude guard post.
+~
+~
+0 0 95410
+D2
+A large heap of rock.
+~
+~
+0 0 95409
+D3
+The tunnel continues.
+~
+~
+0 0 95406
+S
+#95408
+&+RHard Labor Area&n~
+   This area is under construction, with no long term goals evident.
+Rock chips lie haphazardly all over the place, waiting to be hauled
+off.  Blood and other waste make the rock slippery and hazardous;
+prisoners that fall are immediately taken back up the shaft to be
+tortured.  The harsh realities here are indiscriminate to race or
+alignment.
+~
+954 4097 13
+D2
+The main slave labor junction.
+~
+~
+0 0 95407
+S
+#95409
+&+yA Rock Heap&n~
+   &+LThis cavern is almost filled with debris, with a rock heap
+&+Lalmost twelve yards high.  Strange whispering sounds echo through
+&+Lthe area.&n
+~
+954 4097 15
+D0
+The main slave labor junction.
+~
+~
+0 0 95407
+S
+#95410
+&+LA Crude Guard Post&n~
+   &+WThis small post is somewhat unkempt, but provides much needed
+&+Wrefuge for the guards.  Crude stone blocks surround an imported
+&+Wwooden table covered with various sized dice.&n
+~
+954 4097 15
+D3
+The main slave labor junction.
+~
+~
+0 0 95407
+S
+#95411
+On the Main Walk~
+   &+LThe main walk is made up of a thick iron grating, and below
+&+Lurine and other secrements fester.  Loud shrieks can be heard echoing
+&+Lfrom the torture chambers, and the roaring of the crematory is barely
+&+Laudible.&n
+~
+954 4097 15
+D0
+The new prisoner reception.
+~
+~
+0 0 95401
+D1
+A gory storage closet.
+~
+door~
+1 0 95422
+D2
+The main prison walk continues.
+~
+~
+0 0 95412
+D3
+A kicked in entry, leading to a cell block.
+~
+~
+0 0 95415
+S
+#95412
+On the Main Walk~
+   &+LThe main walk is made up of a thick iron grating, and below
+&+Lurine and other secrements fester.  Loud shrieks can be heard echoing
+&+Lfrom the torture chambers, and the roaring of the crematory is barely
+&+Laudible.&n
+~
+954 4097 15
+D0
+The main prison walk.
+~
+~
+0 0 95411
+D1
+A bone workshop.
+~
+~
+0 0 95425
+D2
+The main prison walk.
+~
+~
+0 0 95413
+D3
+The scalping room.
+~
+~
+0 0 95427
+S
+#95413
+On the Main Walk~
+   &+LThe main walk is made up of a thick iron grating, and below
+&+Lurine and other secrements fester.  Loud shrieks can be heard echoing
+&+Lfrom the torture chambers, and the roaring of the crematory is barely
+&+Laudible.  A large &+Mpit &+Lis visible to the west.&n
+~
+954 4097 15
+D0
+The main prison walk.
+~
+~
+0 0 95412
+D1
+A crude forge.
+~
+~
+0 0 95424
+D2
+The main prison walk.
+~
+~
+0 0 95414
+D3
+A very deep pit.
+~
+~
+0 0 95426
+S
+#95414
+&+WCompound Junction&n~
+   &+mThis is the main junction of the compound, with exits in all
+&+mdirections.  The main complex walk connects to this huge stone slab
+&+mby heavy iron hooks.  Guards barking orders can be heard from the
+&+msouth, while cries of agony ring out from all other directions.&n
+~
+954 4097 15
+D0
+The main prison hallway continues.
+~
+~
+0 0 95413
+D1
+A large mess hall.
+~
+~
+0 0 95419
+D2
+A small guard post.
+~
+~
+0 0 95420
+D3
+A nasty looking prison block.
+~
+portculis~
+1 0 95417
+S
+#95415
+&+RA Holding Block~
+   &+mThis cell block is very rowdy, and bloody.  The guards have
+&+mlittle to do in this partition; the prisoners are ripping each
+&+mapart in a total panic before the torturer gets them.
+~
+954 4097 15
+D1
+The main prison turnpike.
+~
+~
+0 0 95411
+D3
+The mean cell block continues.
+~
+~
+0 0 95416
+S
+#95416
+&+RA Torture Chamber&n~
+   &+rThis chamber is used to knock sense into unruly prisoners.
+&+rSeveral means of torture are available, including the rack,
+&+rhead-whacker, tooth-ripper, and eye-sticker.
+~
+954 4097 15
+D1
+A mean prison continues.
+~
+~
+0 0 95415
+D5
+A solitary cell lies below.
+~
+hatch~
+1 0 95421
+S
+#95417
+&+RA Holding Block&n~
+   &+mThis cell block is very rowdy, and bloody.  The guards have
+&+mlittle to do in this partition; the prisoners are ripping each
+&+mapart in a total panic before the torturer gets them.
+~
+954 4097 15
+D1
+The main prison hallway.
+~
+portculis~
+1 0 95414
+D3
+A large torture chamber.
+~
+~
+0 0 95418
+S
+#95418
+&+RTorture Chamber&n~
+   &+rThis chamber is used to knock sense into unruly prisoners.
+&+rSeveral means of torture are available, including the rack,
+&+rhead-whacker, tooth-ripper, and eye-sticker.
+~
+954 4097 15
+D1
+The mean cell block continues.
+~
+~
+0 0 95417
+S
+#95419
+&+WThe Mess Hall&n~
+   This is where the slaves receive their meager daily rations of &+Lrat
+guts &nand &+yrothe turd.  &nThe large stone table in the center has a long
+crack down it, perhaps made by an unlucky forehead.  The guards use
+their full effort to keep things in order.
+~
+954 4097 15
+D3
+The main prison walk.
+~
+~
+0 0 95414
+S
+#95420
+&+WA Guard Post&n~
+   This is the main guard post inside the compound.  Crude weapons
+hang on the walls, along with shackles and chains.  The stone is
+finely worked here, probably by duergar slaves.  &+r"Wanted" &netchings
+adorn the south wall, useless to the unpracticed eye.
+~
+954 4097 15
+D0
+The main prison hallway.
+~
+~
+0 0 95414
+S
+#95421
+&+YSpecial Treatment&n~
+   &+RThis room is for very bad trolls, that count too well or speak
+&+Rhooman.  They require the special attention of the torturer for
+&+Rmany long hours until they repent.&n
+~
+954 8392837 0
+D4
+A mean prison is above.
+~
+hatch~
+1 0 95416
+S
+#95422
+&+rCorpse Storage&n~
+   This is where the dead are brought before cremation.  The smell
+is unbelievable, and &+Wmaggots &ndrip off the ceiling.  One of the
+corpses still twitches..  Extremely hot air rises from the &+rinferno&N
+below, and the roar of the fire is deafening.
+~
+954 4097 15
+D3
+The main prison walk.
+~
+door~
+1 0 95411
+D5
+A white hot inferno blazes below.
+~
+grate~
+1 0 95423
+S
+#95423
+&+RThe Crematory&n~
+   &+rNothing is visible except the leaping flames licking the room.&n
+~
+954 4097 11
+D4
+The corpse storage area.
+~
+grate~
+1 0 95422
+S
+#95424
+&+WA Crude Forge&n~
+   &+BThis forge with manned by skilled slaves, who work nonstop on
+&+Bmaking clubs for the guards.  Those who cannot cut it here are sent
+&+Bto the pit or to be tortured.&n
+~
+954 4097 15
+D3
+The main complex walk.
+~
+~
+0 0 95413
+S
+#95425
+&+WA Slave Workshop&n~
+   &+BThis workshop is for the making of bone tools and weapons to be
+&+Bsold in the thriving marketplaces of Ghore.  The work on no sleep
+&+Band little food, but can be quickly replaced.  A &+Wsign &+Bhangs on the
+&+Bwall.&n
+~
+954 4097 15
+D3
+The main complex walk.
+~
+~
+0 0 95412
+E
+sign~
+&+WALL SLACKERS WILL BE PROMPLY TORTURED!!!&n
+~
+S
+#95426
+&+LA Very Deep Pit&n~
+   &+MThis pit is easily a good 200 feet, making for a quick and easy
+&+Mdeath.  Some sort of pit fiend is barely visible below, keeping the
+&+Mbottom clean.  The sides are finely smoothed through the wonder of
+&+Mduergar slave labor, making resistance to falling futile.  A thin
+&+Mrim encirles the pit, for guard spectators to peer down below at
+&+Mfeeding times.&n
+~
+954 4101 15
+D1
+The main prison walk.
+~
+~
+0 0 95413
+D5
+The pit continues.
+~
+~
+0 0 95428
+F
+20
+S
+#95427
+&+RScalping Room&n~
+   &+rThis is where surface dwellers are scalped for their fine hair
+&+rsold as trophies at a premium for twinkie trolls who can't get their
+&+rown.  The floor and walls are splattered with &+Rblood.&n
+~
+954 4097 15
+D1
+The main complex walk.
+~
+~
+0 0 95412
+S
+#95428
+&+LA Very Deep Pit&n~
+   &+MThis pit is easily a good 200 feet, making for a quick and easy
+&+Mdeath.  Some sort of pit fiend is barely visible below, keeping the
+&+Mbottom clean.  The sides are finely smoothed through the wonder of
+&+Mduergar slave labor, making resistance to falling futile.&n
+~
+954 4097 15
+D4
+The pits end.
+~
+~
+0 0 95426
+D5
+The pit continues.
+~
+~
+0 0 95429
+F
+10
+S
+#95429
+&+LA Very Deep Pit&n~
+   &+MThis pit is easily a good 200 feet, making for a quick and easy
+&+Mdeath.  Some sort of pit fiend is barely visible below, keeping the
+&+Mbottom clean.  The sides are finely smoothed through the wonder of
+&+Mduergar slave labor, making resistance to falling futile.&n
+~
+954 4097 15
+D4
+The pit's end is far above.
+~
+~
+0 0 95428
+D5
+The pit continues.
+~
+~
+0 0 95430
+F
+5
+S
+#95430
+&+LBottom of the Pit&n~
+   &+MThe bottom of the pit is littered with bones and blood, but
+&+Mvery little flesh.  Climbing up without the aid of wings of magic
+&+Mis impossible.&n
+~
+954 4097 15
+D4
+The pit's end is far above.
+~
+~
+0 0 95429
+S

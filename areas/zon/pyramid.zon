@@ -1,0 +1,208 @@
+#204
+Neverwind Valley~
+20598 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 20409 0 5 100 0 0 0
+*     north exit from "The Two Walls Meet" to
+*     "A Small Cave in the Eastern Wall" - closed/secret
+*
+D 0 20470 2 1 100 0 0 0
+*     south exit from "A Small Cave in the Eastern Wall" to
+*     "The Two Walls Meet" - closed
+*
+D 0 20437 1 1 100 0 0 0
+*     east exit from "Inside a Small Cottage in the Forest" to
+*     "Before a Home in a Dense Forest" - closed
+*
+D 0 20438 3 1 100 0 0 0
+*     west exit from "Before a Home in a Dense Forest" to
+*     "Inside a Small Cottage in the Forest" - closed
+*
+D 0 20467 0 5 100 0 0 0
+*     north exit from "By a Rocky Cave-In" to
+*     "Inside a Small Hideout" - closed/secret
+*
+D 0 20469 2 1 100 0 0 0
+*     south exit from "Inside a Small Hideout" to
+*     "By a Rocky Cave-In" - closed
+*
+D 0 20471 1 5 100 0 0 0
+*     east exit from "A Sharp Turn to the North" to
+*     "Before a Dark Staircase" - closed/secret
+*
+D 0 20473 3 1 100 0 0 0
+*     west exit from "Before a Dark Staircase" to
+*     "A Sharp Turn to the North" - closed
+*
+D 0 20478 2 1 100 0 0 0
+*     south exit from "Inside the Large Pyramid of Drunun" to
+*     "Before the Gates of a Great Pyramid" - closed
+*
+D 0 20491 0 2 100 0 0 0
+*     north exit from "Before the Gates of a Great Pyramid" to
+*     "Inside the Large Pyramid of Drunun" - closed/locked
+*
+D 0 20522 5 5 100 0 0 0
+*     down exit from "A Dark and Winding Tunnel" to
+*     "A Tunnel Beneath the Pyramid" - closed/secret
+*
+D 0 20588 4 1 100 0 0 0
+*     up exit from "A Tunnel Beneath the Pyramid" to
+*     "A Dark and Winding Tunnel" - closed
+*
+D 0 20589 1 5 100 0 0 0
+*     east exit from "A Tunnel Beneath the Pyramid" to
+*     "A Secret Chamber Beneath the Pyramid" - closed/secret
+*
+D 0 20590 3 1 100 0 0 0
+*     west exit from "A Secret Chamber Beneath the Pyramid" to
+*     "A Tunnel Beneath the Pyramid" - closed
+*
+*
+O 0 20401 3 20477 100 0 0 0        * a sarcophagus
+P 1 20400 3 20401 100 0 0 0        *   a small section of wood
+O 0 20420 1 20489 100 0 0 0        * a small steel chest
+P 1 20419 1 20420 100 0 0 0        *   an apology letter
+O 0 20402 4 20498 100 0 0 0        * a bird's nest
+P 1 20406 1 20402 100 0 0 0        *   a brown egg
+O 0 20402 4 20499 100 0 0 0        * a bird's nest
+P 1 20403 1 20402 100 0 0 0        *   a speckled egg
+O 0 20402 4 20500 100 0 0 0        * a bird's nest
+P 1 20404 1 20402 100 0 0 0        *   a blue egg
+O 0 20402 4 20501 100 0 0 0        * a bird's nest
+P 1 20405 1 20402 100 0 0 0        *   a white egg
+O 0 20401 3 20587 100 0 0 0        * a sarcophagus
+P 1 20400 3 20401 100 0 0 0        *   a small section of wood
+O 0 20401 3 20590 100 0 0 0        * a sarcophagus
+P 1 20400 3 20401 100 0 0 0        *   a small section of wood
+*
+M 0 20408 10 20401 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20416 7 20402 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20417 7 20403 100 0 0 0        * an adolescent gypsy
+M 0 20416 7 20404 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20414 8 20407 100 0 0 0        * A furry rabbit
+M 0 20417 7 20408 100 0 0 0        * an adolescent gypsy
+M 0 20416 7 20409 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20414 8 20411 100 0 0 0        * A furry rabbit
+M 0 20408 10 20412 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20414 8 20413 100 0 0 0        * A furry rabbit
+M 0 20415 8 20416 100 0 0 0        * a gypsy scout
+M 0 20416 7 20417 100 0 0 0        * a large deer
+M 0 20408 10 20418 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20414 8 20419 100 0 0 0        * A furry rabbit
+M 0 20408 10 20420 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20418 6 20421 100 0 0 0        * a small bluejay
+M 0 20417 7 20422 100 0 0 0        * an adolescent gypsy
+M 0 20408 10 20423 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20416 7 20424 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20408 10 20425 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20414 8 20426 100 0 0 0        * A furry rabbit
+M 0 20415 8 20427 100 0 0 0        * a gypsy scout
+M 0 20408 10 20428 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20414 8 20430 100 0 0 0        * A furry rabbit
+M 0 20417 7 20431 100 0 0 0        * an adolescent gypsy
+M 0 20417 7 20433 100 0 0 0        * an adolescent gypsy
+M 0 20418 6 20434 100 0 0 0        * a small bluejay
+M 0 20408 10 20435 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20400 1 20437 100 0 0 0        * Drinstan
+M 0 20418 6 20438 100 0 0 0        * a small bluejay
+M 0 20415 8 20439 100 0 0 0        * a gypsy scout
+M 0 20416 7 20440 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20414 8 20442 100 0 0 0        * A furry rabbit
+M 0 20415 8 20443 100 0 0 0        * a gypsy scout
+M 0 20414 8 20444 100 0 0 0        * A furry rabbit
+M 0 20415 8 20446 100 0 0 0        * a gypsy scout
+M 0 20418 6 20447 100 0 0 0        * a small bluejay
+M 0 20418 6 20448 100 0 0 0        * a small bluejay
+M 0 20418 6 20451 100 0 0 0        * a small bluejay
+M 0 20417 7 20452 100 0 0 0        * an adolescent gypsy
+M 0 20416 7 20453 100 0 0 0        * a large deer
+G 1 20421 6 0 100 0 0 0            *    a chunk of deer meat
+M 0 20415 8 20454 100 0 0 0        * a gypsy scout
+M 0 20408 10 20457 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20415 8 20458 100 0 0 0        * a gypsy scout
+M 0 20415 8 20460 100 0 0 0        * a gypsy scout
+M 0 20408 10 20461 100 0 0 0       * a gypsy hunter
+E 1 20411 10 16 100 0 0 0          *   A wooden spear with a stone tip
+M 0 20417 7 20463 100 0 0 0        * an adolescent gypsy
+M 0 20412 4 20465 100 0 0 0        * a vampire bat
+M 0 20412 4 20467 100 0 0 0        * a vampire bat
+M 0 20412 4 20467 100 0 0 0        * a vampire bat
+M 0 20412 4 20468 100 0 0 0        * a vampire bat
+M 0 20419 1 20472 100 0 0 0        * an elemental of blazing light
+G 1 20422 1 0 100 0 0 0            *    a band of bright light
+M 0 20407 5 20480 100 0 0 0        * a gypsy man
+E 1 20408 5 16 100 0 0 0           *   a hunting knife
+M 0 20406 5 20480 100 0 0 0        * a gypsy woman
+E 1 20407 5 16 100 0 0 0           *   an iron skillet
+M 0 20407 5 20481 100 0 0 0        * a gypsy man
+E 1 20408 5 16 100 0 0 0           *   a hunting knife
+M 0 20406 5 20481 100 0 0 0        * a gypsy woman
+E 1 20407 5 16 100 0 0 0           *   an iron skillet
+M 0 20407 5 20483 100 0 0 0        * a gypsy man
+E 1 20408 5 16 100 0 0 0           *   a hunting knife
+M 0 20406 5 20483 100 0 0 0        * a gypsy woman
+E 1 20407 5 16 100 0 0 0           *   an iron skillet
+M 0 20413 1 20484 100 0 0 0        * Maern
+M 0 20407 5 20486 100 0 0 0        * a gypsy man
+E 1 20408 5 16 100 0 0 0           *   a hunting knife
+M 0 20406 5 20486 100 0 0 0        * a gypsy woman
+E 1 20407 5 16 100 0 0 0           *   an iron skillet
+M 0 20406 5 20487 100 0 0 0        * a gypsy woman
+E 1 20407 5 16 100 0 0 0           *   an iron skillet
+M 0 20407 5 20487 100 0 0 0        * a gypsy man
+E 1 20408 5 16 100 0 0 0           *   a hunting knife
+M 0 20410 1 20489 100 0 0 0        * Krodn
+E 1 20409 1 15 100 0 0 0           *   a glowing gypsy bracelet
+E 1 20410 1 16 100 0 0 0           *   a small stone hammer
+M 0 20405 5 20490 100 0 0 0        * a gypsy baby
+M 0 20405 5 20490 100 0 0 0        * a gypsy baby
+M 0 20405 5 20490 100 0 0 0        * a gypsy baby
+M 0 20405 5 20490 100 0 0 0        * a gypsy baby
+M 0 20405 5 20490 100 0 0 0        * a gypsy baby
+M 0 20401 9 20503 100 0 0 0        * a skeleton
+M 0 20401 9 20507 100 0 0 0        * a skeleton
+M 0 20401 9 20511 100 0 0 0        * a skeleton
+M 0 20401 9 20515 100 0 0 0        * a skeleton
+M 0 20401 9 20519 100 0 0 0        * a skeleton
+M 0 20401 9 20523 100 0 0 0        * a skeleton
+M 0 20401 9 20529 100 0 0 0        * a skeleton
+M 0 20401 9 20533 100 0 0 0        * a skeleton
+M 0 20401 9 20537 100 0 0 0        * a skeleton
+M 0 20402 6 20545 100 0 0 0        * a zombie
+M 0 20402 6 20547 100 0 0 0        * a zombie
+M 0 20403 3 20549 100 0 0 0        * a spectre
+E 1 20416 3 16 100 0 0 0           *   a chipped piece of stone
+M 0 20402 6 20553 100 0 0 0        * a zombie
+M 0 20402 6 20555 100 0 0 0        * a zombie
+M 0 20402 6 20557 100 0 0 0        * a zombie
+M 0 20403 3 20568 100 0 0 0        * a spectre
+E 1 20416 3 16 100 0 0 0           *   a chipped piece of stone
+M 0 20402 6 20571 100 0 0 0        * a zombie
+M 0 20403 3 20573 100 0 0 0        * a spectre
+E 1 20416 3 16 100 0 0 0           *   a chipped piece of stone
+M 0 20404 1 20587 100 0 0 0        * a wraith
+M 0 20411 1 20592 100 0 0 0        * an elven adventurer
+E 1 20413 1 21 100 0 0 0           *   a black stone earring
+E 1 20415 1 16 100 0 0 0           *   a frosted axe
+G 1 20414 1 0 100 0 0 0            *    a magical torch
+M 0 20409 1 20596 100 0 0 0        * Goar
+*
+S

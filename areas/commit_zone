@@ -1,0 +1,2 @@
+#!/bin/bash
+svn ci obj/$1.obj mob/$1.mob zon/$1.zon qst/$1.qst shp/$1.shp wld/$1.wld

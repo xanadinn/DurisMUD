@@ -1,0 +1,574 @@
+#150000
+dryad female woman~
+&+ythe beautiful dryad~
+&+yA beautiful dryad is here, observing you shyly.
+~
+Her exquisite features, delicate and finely chiselled, make her look
+somewhat akin to an elf maiden. She has high cheek bones and violet
+eyes, with golden-red hair that seems to almost sparkle. Her light-tan
+skin is dotted with a greenish tint.
+~
+205 0 0 4194336 0 0 0 0 S
+H 0 0 -1
+20 13 35 20d30+100 3d4+2
+0.9.3.0 9720
+8 8 2
+#150001
+forest ranger~
+&+gthe forest ranger~
+&+gA forest ranger is passing through the area here, dressed in green.
+~
+He is dressed from head to toe in green leather armor, and resembles a
+half-elf in appearance. He has blackish hair and striking violet eyes, and
+stands about six feet tall. From his appearance, this rangers definitely
+knows his way about these forests.
+~
+1074006092 0 0 148 0 0 0 1000 S
+H 0 2 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 1
+#150002
+wizard maelron mage~
+&+mMaelron&n~
+&+mMaelron&n &+Lthe wandering wizard, searches for his long lost friend.&n
+~
+   Maelron the wandering wizard appears the be a human of advanced years with
+long grey hair and wrinkled skin.  Dressed in a loose fitting grey robe wearing
+leather sandals he looks rather unimposing except for power that seems to
+radiate from the man.
+~
+1107429448 0 0 570433576 2048 0 0 0 S
+PH 0 512 -1
+50 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1
+#150003
+arcane merchant~
+&+Ban arcane merchant&n~
+&+BAn arcane merchant rests here on his way to Tharnadia.&n
+~
+   This 12 foot tall lanky blue-skinned humanoid with a elongated face and
+thin fingers is wearing just a simple lite-blue robe with a small belt and
+buckle.  He is a merchant and like all of his race deals only in magical items
+and potions.
+~
+1107364040 0 0 570425512 2112 0 0 0 S
+G 0 512 -1
+60 -3 -95 50d80+25000 6d6+25
+0.3.1.5 121500
+6 5 1
+#150100
+patrol leader _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Gwarrior&+L is scanning the landscape.&n
+~
+&+L   Not very tall compare to other guards and wearing a &+Ggreen chainmail&+L, this
+&+Lman seem to be one with nature. He bears the insignia of the &+WTharnadian
+&+RPatrol Leader&+L upon his &+Lchainmail.&n
+~
+67110987 2432 0 268435608 0 0 0 1000 S
+PH 1 2 -1
+55 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#150101
+leader patrol _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Wwarrior&+L is scanning the road.&n
+~
+&+L   Standing a bit more than six feet tall, this man look like a holy warrior.
+&+LYou can see the symbol of his god carve into his shield. The look in his eyes
+&+Lmake a lot of person think twice before raising there sword against him. He
+&+Lbears the insignia of the &+WTharnadian&+R Patrol Leader&+L upon his platemail.&n
+~
+67110987 2432 0 8344 4 0 0 1000 S
+PH 1 8 -1
+55 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#150102
+guard patrol _patrol_guard_~
+a &+Lpatrol &+Wguard&n~
+&+LA &+Wwarrior&+L is scanning the landscape.&n
+~
+&+L   Standing six feet tall with broad shoulders and a neck the size of a small
+&+gtree&+L, this guard is all business. He bears the insignia of the &+WTharnadian
+&+RPatrol&+L upon his &+Lbreastplate.&n
+~
+67110987 2432 0 8 0 0 0 750 S
+PH 1 1 -1
+50 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#150105
+hellaranin nomad~
+&+YHellaranin, &+ythe nomad~
+&+YHellaranin, &+ythe nomad roams the sands here.
+~
+  Hellaranin stands six feet in height and seems to be making out quite well.
+He wears a lot of snakeskin clothes and hasn't shaved in years. He is quite
+old.
+~
+1073743944 0 0 0 0 0 0 0 S
+PH 0 2 -1
+36 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#150106
+patrol leader _patrol_leader_~
+a &+Lpatrol &+Wleader&n~
+&+LA tough looking &+Gwarrior&+L is guarding the town's gate.&n
+~
+&+L   Not very tall compare to other guards and wearing a &+Ggreen chainmail&+L, this
+&+Lman seem to be one with nature. He bears the insignia of the &+WTharnadian
+&+RPatrol Leader&+L upon his &+Lchainmail.&n
+~
+67110987 2432 0 268435608 0 0 0 1000 S
+PH 1 8 -1
+60 -5 -100 60d119+2750 6d6+25
+0.3.1.5 151500
+8 8 1
+#150107
+guard patrol _patrol_guard_~
+a &+Lpatrol &+Wguard&n~
+&+LA &+Wwarrior&+L is scanning the landscape.&n
+~
+&+L   Standing six feet tall with broad shoulders and a neck the size of a small
+&+gtree&+L, this guard is all business. He bears the insignia of the &+WTharnadian
+&+RPatrol&+L upon his &+Lbreastplate.&n
+~
+67110987 2432 0 152 0 0 0 750 S
+PH 1 1 -1
+55 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#150108
+tharnadian soldier guard~
+&+wa &+Wtharnadian&+L soldier&n~
+&+wA &+WTharnadian &+Lsoldier&+w protects the the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150109
+ugta soldier guard~
+&+wa &+Bbarbarian &+Lsoldier&n~
+&+wA &+Lsoldier&+w from &+BUgta&+w protects the the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PB 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150110
+gnomish soldier guard~
+&+wa &+Rgnomish&+L soldier&n~
+&+wA &+Lsoldier&+w from &+RAshrumite&+W patrols&+w the countryside here.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PG 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150111
+soldier woodseer patrol guard~
+&+wa &+yhalfling&+L soldier&n~
+&+wA &+Lsoldier&+w of the &+yWoodseer&+c guard&+W patrols&+w the area.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PF 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150112
+dwarven soldier guard~
+&+wa &+Ydwarven &+Lsoldier&n~
+&+wA &+Lsoldier &+wfrom &+YKimordril&+w watches the area here.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PM 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150113
+elven soldier guard~
+&+wa &+celven &+Lsoldier&n~
+&+wA &+Lsoldier&+w from &+cCharing&+w protects the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+PE 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150114
+soldier marigot guard~
+&+wa &+gcen&+Ltaur &+Lsoldier&n~
+&+wA &+Lsoldier&+w from &+MMarigot&+w scans the countryside.&n
+~
+&+wThis sturdy soldier patrols the country side around his hometown.
+&+wStern and competant, this soldier is eager to face off against the
+&+wforces of evil.&n
+~
+67110984 2432 0 134217728 0 0 0 1000 S
+CT 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150115
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150116
+soldier elite ugta guard~
+&+wan &+Welite &+Bbarbarian&+L soldier&n~
+&+wAn &+Lelite &+Wsoldier&+w from &+BUgta&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PB 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150117
+soldier woodseer patrol guard elite~
+&+wan &+Welite &+yhalfling&+L soldier&n~
+&+wAn &+Welite soldier&+w of the &+yWoodseer&+c guard&+w scans the the area.&n
+~
+&+wThis strong soldier watches the land around his city vigilantly for
+&+wintruders.  He seems eager to jump into battle, and quite adept with
+&+wat combat.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PF 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150118
+elite gnomish soldier guard~
+&+wan &+Welite &+Rgnomish&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+RAshrumite&+w watches over the countryside.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PG 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150119
+elite dwarven soldier guard~
+&+wan &+Welite &+Ydwarven&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+YKimordril&+W patrols&+w here.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150122
+captain guard tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150123
+captain guard ugta~
+&+wa &+Lcaptain&+w of the &+Bbarbarian&+w &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+Bbarbarian&+W guard &+wpatrols the area here.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PB 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150124
+guard captain gnomish ashrumite~
+&+wa &+Lcaptain &+wof the &+Rgnomish &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Rgnomish&+W guard &+wpatrols the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PG 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150125
+captain guard woodseer~
+&+wa &+Lcaptain &+wof the &+yhalfling &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+yWoodseer&n &+Wguard&+w watches the land intently.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PF 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150126
+captain guard warrior dwarven kimordril~
+&+wa &+Lcaptain&+w of the &+Ydwarven &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Ydwarven&n &+Wguard &+wprotects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PM 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150129
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150130
+tharnadian soldier elite guard~
+&+wan &+Lelite &+Wtharnadian&+L soldier&n~
+&+wAn &+Lelite &+WTharnadian &+Lsoldier&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150131
+captain guard warrior tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150132
+captain guard warrior tharnadia tharnadian~
+&+wa &+Lcaptain &+wof the &+WTharnadian guard&n~
+&+wA &+Lcaptain&+w of the &+WTharnadian &+Wguard&+w protects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PH 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150133
+elite gnomish soldier guard~
+&+wan &+Welite &+Rgnomish&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+RAshrumite&+w watches over the countryside.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PG 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150134
+guard captain gnomish ashrumite warrior~
+&+wa &+Lcaptain &+wof the &+Rgnomish &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Rgnomish&+W guard &+wpatrols the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PG 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150135
+captain guard warrior ugta~
+&+wa &+Lcaptain&+w of the &+Bbarbarian&+w &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+Bbarbarian&+W guard &+wpatrols the area here.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PB 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150136
+soldier elite ugta guard~
+&+wan &+Welite &+Bbarbarian&+L soldier&n~
+&+wAn &+Lelite &+Wsoldier&+w from &+BUgta&+w watches for invaders.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PB 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150137
+captain guard woodseer warrior~
+&+wa &+Lcaptain &+wof the &+yhalfling &+Wguard&n~
+&+wA &+Lcaptain&+w of the &+yWoodseer&n &+Wguard&+w watches the land intently.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PF 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150138
+soldier woodseer patrol guard elite~
+&+wan &+Welite &+yhalfling&+L soldier&n~
+&+wAn &+Welite soldier&+w of the &+yWoodseer&+c guard&+w scans the the area.&n
+~
+&+wThis strong soldier watches the land around his city vigilantly for
+&+wintruders.  He seems eager to jump into battle, and quite adept with
+&+wat combat.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PF 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150139
+elite dwarven soldier guard~
+&+wan &+Welite &+Ydwarven&+L soldier&n~
+&+wAn &+Welite &+Lsoldier&+w from &+YKimordril&+W patrols&+w here.&n
+~
+&+wThis soldier is one of the more elite warriors from the main city.
+&+wHe is much more experienced than the younger guards that wander the
+&+wcountryside, and quite adept at battling against the tides of evil.&n
+~
+1140852810 2432 0 134217736 0 0 0 1000 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150140
+captain guard warrior dwarven kimordril~
+&+wa &+Lcaptain&+w of the &+Ydwarven &+Wguard&n~
+&+wA &+Lcaptain &+wof the &+Ydwarven&n &+Wguard &+wprotects the area.&n
+~
+&+wThis warrior is the most elite of all the countryside patrol guard.
+&+wHe stands here strong and proud, gazing across the land, always watching
+&+wfor signs of trouble for when he will be called to protect and serve
+&+wthe lesser people.&n
+~
+1140852810 2432 0 134217788 0 0 0 1000 S
+PM 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#150141
+graelma necromancer~
+&+mGraelma&n~
+&+mGraelma the necromancer wanders here, reeking of death.&n
+~
+&+LThis darkly cloaked necromancer wanders the countryside, the stench of death surrounding him.&n
+~
+1107429449 0 0 570433576 2048 0 0 -1000 S
+PH 0 1024 -1
+52 -3 -95 50d80+2650 6d6+25
+0.3.1.5 121500
+8 8 1

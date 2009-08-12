@@ -1,0 +1,234 @@
+#355
+&+LThe Underground&n&+r Lava &+LCaves&n~
+35642 1 2 35 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 35537 3 9 100 0 0 0
+*     west exit from "The Lake of Fire" to
+*     "The Shaft to the Dwarven Mine" - closed/blocked
+*
+D 0 35637 1 1 100 0 0 0
+*     east exit from "The Shaft to the Dwarven Mine" to
+*     "The Lake of Fire" - closed
+*
+D 0 35580 2 0 100 0 0 0
+*     south exit from "A Gateway to the Training Arena" to
+*     "A Training Arena" - open
+*
+D 0 35582 0 0 100 0 0 0
+*     north exit from "A Training Arena" to
+*     "A Gateway to the Training Arena" - open
+*
+D 0 35581 1 5 100 0 0 0
+*     east exit from "A Barracks" to
+*     "The Instructor's Barrack" - closed/secret
+*
+D 0 35636 3 1 100 0 0 0
+*     west exit from "The Instructor's Barrack" to
+*     "A Barracks" - closed
+*
+D 0 35605 9 5 100 0 0 0
+*     southeast exit from "The Great Gate of the Keep" to
+*     "The Stone Hall" - closed/secret
+*
+D 0 35606 6 1 100 0 0 0
+*     northwest exit from "The Stone Hall" to
+*     "The Great Gate of the Keep" - closed
+*
+D 0 35620 1 2 100 0 0 0
+*     east exit from "The Entrance to the Dark Prison" to
+*     "The Cellblock" - closed/locked
+*
+D 0 35621 3 1 100 0 0 0
+*     west exit from "The Cellblock" to
+*     "The Entrance to the Dark Prison" - closed
+*
+D 0 35621 2 0 100 0 0 0
+*     south exit from "The Cellblock" to
+*     "A Dark Cell" - open
+*
+D 0 35629 0 0 100 0 0 0
+*     north exit from "A Dark Cell" to
+*     "The Cellblock" - open
+*
+D 0 35622 2 1 100 0 0 0
+*     south exit from "The Cellblock" to
+*     "A Dark Cell" - closed
+*
+D 0 35630 0 1 100 0 0 0
+*     north exit from "A Dark Cell" to
+*     "The Cellblock" - closed
+*
+D 0 35623 2 1 100 0 0 0
+*     south exit from "The Cellblock" to
+*     "A Dark Cell" - closed
+*
+D 0 35631 0 1 100 0 0 0
+*     north exit from "A Dark Cell" to
+*     "The Cellblock" - closed
+*
+D 0 35624 2 1 100 0 0 0
+*     south exit from "The Cellblock" to
+*     "A Dark Cell" - closed
+*
+D 0 35632 0 1 100 0 0 0
+*     north exit from "A Dark Cell" to
+*     "The Cellblock" - closed
+*
+D 0 35625 2 1 100 0 0 0
+*     south exit from "The Cellblock" to
+*     "A Dark Cell" - closed
+*
+D 0 35633 0 1 100 0 0 0
+*     north exit from "A Dark Cell" to
+*     "The Cellblock" - closed
+*
+*
+O 0 35592 1 35537 100 0 0 0        * a cracked wall
+*
+M 0 35501 1 35501 100 0 0 0        * a huge flaming rock
+M 0 35505 3 35507 100 0 0 0        * a lava beast
+M 0 35534 2 35510 100 0 0 0        * a fiery stalactite
+M 0 35507 3 35511 100 0 0 0        * a fire horror
+M 0 35512 3 35512 100 0 0 0        * a small fire scorpion
+M 0 35502 3 35516 100 0 0 0        * a lava monster
+M 0 35509 3 35518 100 0 0 0        * a fire bat
+M 0 35503 2 35520 100 0 0 0        * a wall of fire
+M 0 35505 3 35521 100 0 0 0        * a lava beast
+M 0 35510 3 35524 100 0 0 0        * a gigantic flaming roc
+M 0 35502 3 35525 100 0 0 0        * a lava monster
+M 0 35504 2 35527 100 0 0 0        * a flame
+M 0 35533 2 35529 100 0 0 0        * a fiery stalagmite
+M 0 35507 3 35531 100 0 0 0        * a fire horror
+M 0 35508 2 35532 100 0 0 0        * a massive blast of fire
+M 0 35506 2 35536 100 0 0 0        * a fire nightmare
+M 0 35533 2 35537 100 0 0 0        * a fiery stalagmite
+M 0 35512 3 35538 100 0 0 0        * a small fire scorpion
+M 0 35510 3 35542 100 0 0 0        * a gigantic flaming roc
+M 0 35511 3 35544 100 0 0 0        * a gigantic flaming rat
+M 0 35509 3 35546 100 0 0 0        * a fire bat
+M 0 35505 3 35547 100 0 0 0        * a lava beast
+M 0 35511 3 35551 100 0 0 0        * a gigantic flaming rat
+M 0 35503 2 35553 100 0 0 0        * a wall of fire
+M 0 35504 2 35558 100 0 0 0        * a flame
+M 0 35507 3 35559 100 0 0 0        * a fire horror
+M 0 35512 3 35561 100 0 0 0        * a small fire scorpion
+M 0 35502 3 35563 100 0 0 0        * a lava monster
+M 0 35510 3 35565 100 0 0 0        * a gigantic flaming roc
+M 0 35534 2 35566 100 0 0 0        * a fiery stalactite
+M 0 35509 3 35567 100 0 0 0        * a fire bat
+M 0 35511 3 35570 100 0 0 0        * a gigantic flaming rat
+M 0 35506 2 35572 100 0 0 0        * a fire nightmare
+M 0 35508 2 35573 100 0 0 0        * a massive blast of fire
+M 0 35528 2 35581 100 0 0 0        * a goblin warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35521 2 35584 100 0 0 0        * a githyanki warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35525 2 35585 100 0 0 0        * a wererat warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35532 2 35587 100 0 0 0        * a dwarven warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35522 2 35588 100 0 0 0        * a minotaur warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35525 2 35590 100 0 0 0        * a wererat warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35530 2 35592 100 0 0 0        * an ogre warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35529 2 35593 100 0 0 0        * a lizardman warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35532 2 35594 100 0 0 0        * a dwarven warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35528 2 35596 100 0 0 0        * a goblin warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35530 2 35598 100 0 0 0        * an ogre warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35521 2 35600 100 0 0 0        * a githyanki warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35531 1 35601 100 0 0 0        * an elite human warrior
+E 1 35521 3 16 100 0 0 0           *   a sparkling lightning sword
+M 0 35529 2 35602 100 0 0 0        * a lizardman warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35522 2 35604 100 0 0 0        * a minotaur warrior
+E 1 35519 14 16 100 0 0 0          *   a rusty curved scimitar
+M 0 35523 1 35605 100 0 0 0        * the Dark Knight
+E 1 35510 1 2 100 0 0 0            *   a black marble ring
+E 1 35509 1 3 100 0 0 0            *   a black pentagram
+E 1 35508 1 4 100 0 0 0            *   a devilish talisman
+E 1 35514 1 5 100 0 0 0            *   a black platemail
+E 1 35512 1 6 100 0 0 0            *   a dark horned helmet
+E 1 35522 1 7 100 0 0 0            *   some darkplate leggings
+E 1 35520 1 9 100 0 0 0            *   a pair of minotaur combat gloves
+E 1 35511 1 12 100 0 0 0           *   a dark black cape
+E 1 35507 1 19 100 0 0 0           *   a black knight's ViSoR
+E 1 35513 1 16 100 0 0 0           *   a black hilted longsword
+M 0 35542 1 35615 100 0 0 0        * a sentry to the Library
+E 1 35589 4 18 100 0 0 0           *   a glass oil lamp
+M 0 35541 1 35615 100 0 0 0        * a sentry to the Library
+E 1 35589 4 18 100 0 0 0           *   a glass oil lamp
+M 0 35543 1 35615 100 0 0 0        * a sentry to the Library
+E 1 35589 4 18 100 0 0 0           *   a glass oil lamp
+M 0 35544 1 35615 100 0 0 0        * a sentry to the Library
+E 1 35589 4 18 100 0 0 0           *   a glass oil lamp
+M 0 35540 1 35616 100 0 0 0        * the alchemist manufacturer
+G 1 35582 1 0 100 0 0 0            *    a vial of glowing water
+G 1 35590 1 0 100 0 0 0            *    a flask of cold slime
+G 1 35591 1 0 100 0 0 0            *    a flask of red substance
+M 0 35524 3 35619 100 0 0 0        * a wandering ghost
+M 0 35524 3 35619 100 0 0 0        * a wandering ghost
+M 0 35524 3 35619 100 0 0 0        * a wandering ghost
+M 0 35520 3 35619 100 0 0 0        * a hell hound
+M 0 35520 3 35619 100 0 0 0        * a hell hound
+M 0 35520 3 35619 100 0 0 0        * a hell hound
+M 0 35519 1 35620 100 0 0 0        * a minotaur gatekeeper
+E 1 35518 2 16 100 0 0 0           *   a stone halberd
+G 1 35505 1 0 100 0 0 0            *    a heavy iron key
+M 0 35518 3 35621 100 0 0 0        * a minotaur guard
+E 1 35517 3 5 100 0 0 0            *   a suit of red plate armor
+E 1 35516 3 16 100 0 0 0           *   an iron barbed flail
+M 0 35518 3 35624 100 0 0 0        * a minotaur guard
+E 1 35517 3 5 100 0 0 0            *   a suit of red plate armor
+E 1 35516 3 16 100 0 0 0           *   an iron barbed flail
+M 0 35518 3 35626 100 0 0 0        * a minotaur guard
+E 1 35517 3 5 100 0 0 0            *   a suit of red plate armor
+E 1 35516 3 16 100 0 0 0           *   an iron barbed flail
+M 0 35536 1 35627 100 0 0 0        * a minotaur torturer
+E 1 35504 1 16 100 0 0 0           *   a bone knife
+M 0 35537 1 35627 100 0 0 0        * a burned body
+M 0 35517 1 35628 100 0 0 0        * a minotaur lieutenant
+E 1 35502 1 9 100 0 0 0            *   a pair of ornately designed gauntlets
+E 1 35529 1 39 100 0 0 0           *   a magical jaguar tooth
+E 1 35518 2 16 100 0 0 0           *   a stone halberd
+M 0 35527 1 35629 100 0 0 0        * a half-eaten person
+M 0 35515 1 35630 100 0 0 0        * a gnome prisoner
+E 1 35503 1 27 40 0 0 0            *   a large travelling backpack
+M 0 35514 1 35631 100 0 0 0        * a tortured mindflayer prisoner
+E 1 35523 1 5 100 0 0 0            *   an illithid-skin robe
+M 0 35516 1 35632 100 0 0 0        * a half-elf prisoner
+E 1 35530 1 20 100 0 0 0           *   a wooden mask
+M 0 35513 1 35633 100 0 0 0        * a large poisonous spider
+E 1 35506 1 5 100 0 0 0            *   a hard poisonous carapace
+M 0 35535 1 35635 100 0 0 0        * a seasoned adventurer
+M 0 35526 1 35636 100 0 0 0        * Mharag the battle instructor
+E 1 35542 1 21 100 0 0 0           *   a demon bone earring
+G 1 35524 1 0 24 0 0 0             *    a key of black onyx
+F 1 35538 1 35636 100 0 0 0        * a brainless fighter (following)
+F 1 35539 1 35636 100 0 0 0        * a frost giant fighter (following)
+M 0 35548 3 35637 100 0 0 0        * a dwarven guardian
+E 1 35593 3 16 100 0 0 0           *   a large dwarven battle axe
+M 0 35548 3 35637 100 0 0 0        * a dwarven guardian
+E 1 35593 3 16 100 0 0 0           *   a large dwarven battle axe
+M 0 35548 3 35637 100 0 0 0        * a dwarven guardian
+E 1 35593 3 16 100 0 0 0           *   a large dwarven battle axe
+M 0 35545 3 35639 100 0 0 0        * a dwarven miner
+M 0 35546 3 35639 100 0 0 0        * a dwarven miner
+M 0 35547 3 35639 100 0 0 0        * a dwarven miner
+M 0 35545 3 35641 100 0 0 0        * a dwarven miner
+M 0 35546 3 35641 100 0 0 0        * a dwarven miner
+M 0 35547 3 35641 100 0 0 0        * a dwarven miner
+M 0 35545 3 35642 100 0 0 0        * a dwarven miner
+M 0 35546 3 35642 100 0 0 0        * a dwarven miner
+M 0 35547 3 35642 100 0 0 0        * a dwarven miner
+*
+S

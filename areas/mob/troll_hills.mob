@@ -1,0 +1,278 @@
+#1800
+troll ugly~
+an ugly troll~
+An ugly looking troll stands here with drool dripping down its chin.
+~
+Its frame is thin and frail looking, belying its true strength.  Its
+arms and legs are long and ungainly, with huge clawed hands and feet.
+This is one of the most disgusting humanoids you have ever seen..
+~
+1140852813 1 0 33554432 0 0 0 -500 S
+PO 0 1 -1
+16 18 80 6d21+33 2d3+1
+3.2.0.0 777
+8 8 0
+#1801
+troll two headed~
+the two-headed troll~
+A large two-headed troll is here, searching the swamp for food.
+~
+It looks like a ferocious troll/ettin crossbreed with mottled greenish
+brown skin.  Dressed in moth eaten rags and animal skins, this disgusting
+being looks very dangerous.
+~
+1140852813 1 0 33554432 0 0 0 -1000 S
+PT 0 1 -1
+25 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 0
+#1802
+troll giant~
+the giant troll~
+A giant troll is standing here, growling.
+~
+It resembles a hideous hill giant/troll crossbreed, with the appearance
+of a troll and the size of a giant.  Its skin is reddish brown and it
+has red-rimmed eyes.
+~
+1140852813 25 0 33554432 0 0 0 -1000 S
+PT 0 1 5
+25 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#1803
+troll spectral shadow~
+the spectral troll~
+A shadowy spectral troll is floating here, fading in and out.
+~
+It resembles a normal troll in all respects except in coloring, which
+is jet black allowing them to fade into the shadows.  It looks very much
+like a wraith, with red tormented-looking eyes and stubs for feet.
+~
+1140852746 25 0 33554432 0 0 0 -1000 S
+U 0 4096 -1
+30 8 3 30d55+330 3d6+4
+0.0.0.0 26730
+8 8 0
+#1804
+ogre magi~
+the ogre magi~
+An ogre magi is standing here, preparing to cast a spell.
+~
+The ogre magi is BIG, standing some ten feet tall, with a body the
+size of a bear.  Its massive fists and sharp fangs make it look
+extremely deadly.
+~
+1140852872 1 0 33554496 0 0 0 -1000 S
+PO 0 256 -1
+35 6 -12 35d77+560 4d6+7
+9.9.1.2 45360
+8 8 1
+#1805
+ogre female huge~
+the ogre~
+A female ogre is standing here, dangerously wielding her club.
+~
+Her skin colors range from dead yellow to a dull black-brown, with huge
+arms and a pointy nose.  She has long greasy hair and orange fangs.
+The odor emanating off her is similar to that spoiled milk.
+~
+1140852812 1 0 33554432 0 0 0 -1000 S
+PO 0 1 -1
+25 11 19 25d47+250 3d5+3
+6.2.6.1 22275
+8 8 2
+#1806
+boar wild~
+a wild boar~
+A wild boar roams about here, catches notice of you, and charges!
+~
+With a large barrel like body and long snout filled with razor sharp teeth,
+this hideous looking beast is ugly to behold.  Its fierceness matches its
+reputation quite well.
+~
+1140852808 1 0 0 0 0 0 -1000 S
+A 0 0 -1
+20 18 80 6d18+21 2d3+1
+0.0.0.0 777
+8 8 0
+#1807
+boa constrictor snake~
+the huge boa constrictor~
+A huge boa-constrictor is slithering around in the water here.
+~
+The huge snake is ten to twelve feet long and nearly six inches around in
+diameter.  Its head is large, sporting a pair of two inch fangs.
+~
+1140852746 1 0 0 0 0 0 0 S
+A 0 0 -1
+14 20 83 5d15+17 1d5+0
+0.0.0.0 648
+8 8 0
+#1808
+giant fly dragonfly~
+the giant dragonfly~
+A giant dragonfly is buzzing around here.
+~
+It resembles a normal dragonfly in most respects except in that it is
+nearly two feet long, with sharp mandibles that could tear flesh easily.
+~
+1140850888 1 0 134217728 0 0 0 0 S
+I 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 0
+#1809
+frog giant~
+the giant frog~
+A giant frog is here, popping up halfway out of the water.
+~
+Its body is at least four feet long and two feet wide.  It has slimy
+green skin and yellowish eyes.
+~
+1141114890 1 0 2048 0 0 0 0 S
+A 0 0 -1
+9 18 71 9d18+31 2d3+1
+0.0.0.0 1166
+8 8 0
+#1810
+human terrified adventurer~
+the terrified adventurer~
+A terrified looking human adventurer is lost here, cowering in fear.
+~
+He looks like a merchant or tradesman who accidentally wandered off the
+main path, and got lost in the hills here.  The look on his face is one of
+abject terror.
+~
+1140850908 0 0 0 0 0 0 1000 S
+H 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#1811
+zombie undead~
+the zombie~
+An undead zombie wanders the field here.
+~
+This horrible looking wretch appears to have been dead a long time, with
+flesh decaying and rotting all about its body.  The look of misery and pain
+on its face for being kept alive well explains why it would hate everyone
+thing living.
+~
+1140852808 1 0 0 0 0 0 0 S
+ZO 0 1 -1
+18 18 67 10d21+55 2d3+1
+0.0.0.0 1296
+8 8 0
+#1812
+skeleton undead~
+the undead skeleton~
+The undead skeleton of a humanoid is standing here, wandering aimlessly.
+~
+The skeleton is stark white in color, picked clean of any remaining flesh.
+Aside from a few missing bones, the undead thing is almost completely
+intact.
+~
+1140852808 1 0 0 0 0 0 0 S
+SK 0 1 -1
+23 18 77 7d21+38 2d3+1
+0.0.0.0 907
+8 8 0
+#1813
+ghoul undead~
+a horrid ghoul~
+A horrid looking ghoul is here, searching for human flesh to devour.
+~
+It looks absolutely disgusting, and vaguely resembles a human in some
+respects.  Its hair has grown long and shaggy, and has sharp claw-like
+nails and slimy skin.
+~
+1140852808 1 0 0 0 0 0 -1000 S
+U 0 1 -1
+26 15 51 15d27+90 2d5+2
+0.0.0.0 7290
+8 8 0
+#1814
+shadow undead~
+the undead shadow~
+A shadowy apparition floats along here, totally silent.
+~
+It vaguely resembles a large humanoid, though is completely black and
+partially translucent.  It looks so much like a shadow, that you
+almost can't see it.
+~
+67110984 1 0 67108930 0 0 0 -1000 S
+SW 0 0 -1
+31 11 19 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#1815
+lizard man~
+a lizard man~
+A lizard man is standing here, looking alarmed and very angry.
+~
+The lizard man stands about six feet tall, with green scaly skin,
+and red eyes.  Its hands and feet are webbed, and it wears a
+brown leathery looking vest.
+~
+2058 1 0 33554436 0 0 0 -1000 S
+H 0 1 -1
+24 11 23 24d47+240 3d5+3
+6.1.6.0 21384
+8 8 0
+#1816
+serpent undead~
+the undead serpent~
+An undead serpent floats on top of the water here.
+~
+Once a huge ten foot long swamp serpent, the undead thing is now
+horribly decayed and has a grayish skin tone.  The undead thing doesn't
+look very aggressive.
+~
+1140852746 1 0 0 0 0 0 0 S
+U 0 0 -1
+28 11 19 25d40+200 3d5+3
+0.0.0.0 22275
+8 8 0
+#1817
+frog huge poisonous~
+the huge poisonous frog~
+A huge poisonous frog is resting in the pool here.
+~
+The frog is a three feet long with slimy puke-green skin and red eyes.
+A white puss oozes from many large pores on its back, smelling much
+like stale milk.
+~
+1140852746 25 0 0 0 0 0 0 S
+A 0 0 -1
+24 11 23 24d40+192 3d5+3
+0.0.0.0 21384
+8 8 0
+#1818
+skeleton giant undead~
+the giant skeleton~
+A giant skeleton stands here, peering through the fog with glowing red eyes.
+~
+It looks like the animated skeletal corpse of a hill giant, or some
+other stocky giant.  Its eyes glow red with magical fire, looking all
+around as if searching for something.
+~
+1140852808 25 0 128 0 0 0 0 S
+SK 0 1 -1
+35 8 3 30d65+390 3d6+4
+0.0.0.0 26730
+8 8 0
+#1819
+troll half massive~
+the massive half-breed troll~
+A massive half human/half troll beast stands here, guarding the bridge.
+~
+The disgusting thing has a few human features, but looks primarily troll
+in appearance.  It stares back at you with a greedy expression, and
+appears to be more intelligent than the average troll.
+~
+67110927 1 0 128 0 0 0 -1000 S
+PT 0 1 -1
+40 2 -28 40d95+920 4d7+10
+3.3.3.3 51840
+8 8 1

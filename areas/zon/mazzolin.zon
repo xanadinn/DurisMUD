@@ -1,0 +1,291 @@
+#213
+&+BMazzolin&n~
+21436 1 0 30 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 21308 1 1 100 0 0 0
+*     east exit from "The Throne Room of Mazzolin" to
+*     "Council of the Drowish Inquisition" - closed
+*
+D 0 21376 3 1 100 0 0 0
+*     west exit from "Council of the Drowish Inquisition" to
+*     "The Throne Room of Mazzolin" - closed
+*
+D 0 21308 3 1 100 0 0 0
+*     west exit from "The Throne Room of Mazzolin" to
+*     "Chamber of the Augurist" - closed
+*
+D 0 21374 1 1 100 0 0 0
+*     east exit from "Chamber of the Augurist" to
+*     "The Throne Room of Mazzolin" - closed
+*
+D 0 21308 5 6 100 0 0 0
+*     down exit from "The Throne Room of Mazzolin" to
+*     "Anteroom to Ze'rila's Private Quarters" - closed/locked/secret
+*
+D 0 21309 4 2 100 0 0 0
+*     up exit from "Anteroom to Ze'rila's Private Quarters" to
+*     "The Throne Room of Mazzolin" - closed/locked
+*
+D 0 21309 0 1 100 0 0 0
+*     north exit from "Anteroom to Ze'rila's Private Quarters" to
+*     "Ze'rila's Private Quarters" - closed
+*
+D 0 21310 2 1 100 0 0 0
+*     south exit from "Ze'rila's Private Quarters" to
+*     "Anteroom to Ze'rila's Private Quarters" - closed
+*
+D 0 21309 5 2 100 0 0 0
+*     down exit from "Anteroom to Ze'rila's Private Quarters" to
+*     "The Sewer Entrance" - closed/locked
+*
+D 0 21311 4 2 100 0 0 0
+*     up exit from "The Sewer Entrance" to
+*     "Anteroom to Ze'rila's Private Quarters" - closed/locked
+*
+D 0 21357 2 1 100 0 0 0
+*     south exit from "The Sewers of Mazzolin" to
+*     "A Festering Whirpool" - closed
+*
+D 0 21421 0 1 100 0 0 0
+*     north exit from "A Festering Whirpool" to
+*     "The Sewers of Mazzolin" - closed
+*
+D 0 21359 4 2 100 0 0 0
+*     up exit from "The Sewers of Mazzolin" to
+*     "A Lavish Hallway" - closed/locked
+*
+D 0 21362 5 2 100 0 0 0
+*     down exit from "A Lavish Hallway" to
+*     "The Sewers of Mazzolin" - closed/locked
+*
+D 0 21376 0 1 100 0 0 0
+*     north exit from "Council of the Drowish Inquisition" to
+*     "Entrance to the Dungeons of Mazzolin" - closed
+*
+D 0 21377 2 1 100 0 0 0
+*     south exit from "Entrance to the Dungeons of Mazzolin" to
+*     "Council of the Drowish Inquisition" - closed
+*
+*
+O 0 21319 4 21381 100 0 0 0        * a hematite orb
+O 0 21319 4 21385 100 0 0 0        * a hematite orb
+O 0 21319 4 21388 100 0 0 0        * a hematite orb
+O 0 21319 4 21410 100 0 0 0        * a hematite orb
+O 0 21306 1 21411 100 0 0 0        * a spider-shaped obsidian altar
+O 0 21318 1 21412 100 0 0 0        * a pool of acid
+O 0 21317 1 21419 100 0 0 0        * a pool of tar
+*
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21300 10 21302 100 0 0 0       * a drow golem
+E 1 21300 16 16 100 0 0 0          *   a heavy basalt longsword
+E 1 21300 16 17 100 0 0 0          *   a heavy basalt longsword
+M 0 21304 6 21307 100 0 0 0        * an elite guard
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21304 6 21307 100 0 0 0        * an elite guard (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21304 6 21307 100 0 0 0        * an elite guard (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21304 6 21307 100 0 0 0        * an elite guard (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+M 0 21301 1 21308 100 0 0 0        * Ze'rila
+E 1 21301 1 5 100 0 0 0            *   a blue spidersilk halter
+E 1 21302 1 7 100 0 0 0            *   a blue spidersilk skirt
+E 1 21303 1 16 100 0 0 0           *   a mace named "squidbane"
+G 1 21313 1 0 100 0 0 0            *    a hematite shard
+F 1 21302 1 21308 100 0 0 0        * Arl'Karoth (following)
+F 1 21303 1 21308 100 0 0 0        * Zanzilanen (following)
+F 1 21304 6 21308 100 0 0 0        * an elite guard (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21304 6 21308 100 0 0 0        * an elite guard (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+M 0 21305 3 21309 100 0 0 0        * a Mazzolin stormtrooper
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21305 3 21309 100 0 0 0        * a Mazzolin stormtrooper (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+F 1 21305 3 21309 100 0 0 0        * a Mazzolin stormtrooper (following)
+E 1 21304 9 16 100 0 0 0           *   a Mazzolin longsword
+M 0 21308 14 21314 100 0 0 0       * a white blugrul
+M 0 21306 15 21317 100 0 0 0       * a black blugrul
+M 0 21309 12 21320 100 0 0 0       * an iridescent blugrul
+M 0 21307 14 21323 100 0 0 0       * a red blugrul
+M 0 21307 14 21325 100 0 0 0       * a red blugrul
+M 0 21308 14 21328 100 0 0 0       * a white blugrul
+M 0 21306 15 21331 100 0 0 0       * a black blugrul
+M 0 21308 14 21331 100 0 0 0       * a white blugrul
+G 1 21312 1 0 100 0 0 0            *    a hematite shard
+M 0 21306 15 21334 100 0 0 0       * a black blugrul
+M 0 21308 14 21336 100 0 0 0       * a white blugrul
+M 0 21308 14 21337 100 0 0 0       * a white blugrul
+M 0 21306 15 21338 100 0 0 0       * a black blugrul
+M 0 21307 14 21341 100 0 0 0       * a red blugrul
+M 0 21310 8 21342 100 0 0 0        * a green blugrul
+M 0 21310 8 21345 100 0 0 0        * a green blugrul
+M 0 21308 14 21348 100 0 0 0       * a white blugrul
+M 0 21307 14 21350 100 0 0 0       * a red blugrul
+M 0 21309 12 21352 100 0 0 0       * an iridescent blugrul
+M 0 21306 15 21355 100 0 0 0       * a black blugrul
+M 0 21307 14 21357 100 0 0 0       * a red blugrul
+M 0 21336 14 21360 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21361 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21362 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21363 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21364 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21365 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21366 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21367 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21368 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21369 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21370 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21371 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21372 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21336 14 21373 100 0 0 0       * a patroling Mazzolin guard
+E 1 21315 14 12 100 0 0 0          *   some blue platemail
+E 1 21314 14 16 100 0 0 0          *   a blue longsword
+M 0 21311 1 21374 100 0 0 0        * the augurist
+M 0 21312 1 21376 100 0 0 0        * an inquisitor
+F 1 21313 1 21376 100 0 0 0        * a torturer (following)
+E 1 21307 2 16 100 0 0 0           *   a dagger
+E 1 21307 2 17 100 0 0 0           *   a dagger
+F 1 21314 1 21376 100 0 0 0        * an executioner (following)
+M 0 21300 10 21377 100 0 0 0       * a drow golem
+M 0 21300 10 21377 100 0 0 0       * a drow golem
+M 0 21316 5 21378 100 0 0 0        * an undead illithid
+M 0 21316 5 21378 100 0 0 0        * an undead illithid
+M 0 21316 5 21378 100 0 0 0        * an undead illithid
+M 0 21316 5 21378 100 0 0 0        * an undead illithid
+M 0 21316 5 21378 100 0 0 0        * an undead illithid
+M 0 21317 8 21378 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21317 8 21382 100 0 0 0        * an undead illithid
+M 0 21318 7 21382 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21318 7 21386 100 0 0 0        * an undead illithid
+M 0 21319 1 21386 100 0 0 0        * an illithid ghost
+M 0 21315 1 21410 100 0 0 0        * Zantilanis the Rouge Elf
+G 1 21311 1 0 100 0 0 0            *    a hematite shard
+M 0 21320 3 21410 100 0 0 0        * a vampire illithid
+M 0 21320 3 21410 100 0 0 0        * a vampire illithid
+M 0 21320 3 21410 100 0 0 0        * a vampire illithid
+M 0 21323 1 21411 100 0 0 0        * Aeirayne
+M 0 21337 1 21411 100 0 0 0        * a death widow
+M 0 21338 1 21411 100 0 0 0        * a death widow
+M 0 21324 3 21413 100 0 0 0        * a death widow
+M 0 21322 3 21413 100 0 0 0        * a death widow
+M 0 21321 3 21413 100 0 0 0        * a death widow
+M 0 21324 3 21416 100 0 0 0        * a death widow
+M 0 21322 3 21416 100 0 0 0        * a death widow
+M 0 21321 3 21416 100 0 0 0        * a death widow
+M 0 21324 3 21420 100 0 0 0        * a death widow
+M 0 21322 3 21420 100 0 0 0        * a death widow
+M 0 21321 3 21420 100 0 0 0        * a death widow
+M 0 21325 2 21421 100 0 0 0        * a mentenozan tentamort
+G 1 21309 1 0 100 0 0 0            *    a hematite shard
+M 0 21325 2 21421 100 0 0 0        * a mentenozan tentamort
+M 0 21326 3 21421 100 0 0 0        * a mentenozan tentamort
+M 0 21326 3 21421 100 0 0 0        * a mentenozan tentamort
+M 0 21326 3 21421 100 0 0 0        * a mentenozan tentamort
+M 0 21327 1 21421 100 0 0 0        * a mentenozan tentamort
+M 0 21328 1 21422 100 0 0 0        * a sludge dragon
+G 1 21310 1 0 100 0 0 0            *    a hematite shard
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 21333 11 21423 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21423 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21423 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21423 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21424 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21424 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21424 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21424 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21425 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21425 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21425 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21425 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21426 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21426 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21426 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21426 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21427 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21427 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21427 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21427 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21428 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21428 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21428 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21428 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21429 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21429 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21429 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21429 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21430 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21430 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21430 100 0 0 0       * A Mazzolin Warrior
+M 0 21333 11 21430 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21431 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21431 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21431 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21431 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21432 100 0 0 0       * A Mazzolin Warrior
+M 0 21331 17 21432 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21432 100 0 0 0       * A Mazzolin Warrior
+M 0 21332 12 21432 100 0 0 0       * A Mazzolin Warrior
+M 0 21330 1 21433 100 0 0 0        * A Mazzolin Gladiator
+*
+S

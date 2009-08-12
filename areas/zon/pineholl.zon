@@ -1,0 +1,447 @@
+#160
+&+WPine &+gHollow&n~
+16165 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 16101 0 1 100 0 0 0
+*     north exit from "The End of a Dirt Road" to
+*     "A Neatly Furnished Home" - closed
+*
+D 0 16102 2 1 100 0 0 0
+*     south exit from "A Neatly Furnished Home" to
+*     "The End of a Dirt Road" - closed
+*
+D 0 16103 0 1 100 0 0 0
+*     north exit from "A Dirt Road Along the Stockade Wall" to
+*     "In a Huge Log Cabin" - closed
+*
+D 0 16105 2 1 100 0 0 0
+*     south exit from "In a Huge Log Cabin" to
+*     "A Dirt Road Along the Stockade Wall" - closed
+*
+D 0 16112 2 1 100 0 0 0
+*     south exit from "Between Two Log Cabins" to
+*     "In a Blue Cabin" - closed
+*
+D 0 16113 0 1 100 0 0 0
+*     north exit from "In a Blue Cabin" to
+*     "Between Two Log Cabins" - closed
+*
+D 0 16114 0 2 100 0 0 0
+*     north exit from "Before Some Sturdy Cabins" to
+*     "The Entrance to a Dark Mine" - closed/locked
+*
+D 0 16116 2 2 100 0 0 0
+*     south exit from "The Entrance to a Dark Mine" to
+*     "Before Some Sturdy Cabins" - closed/locked
+*
+D 0 16114 2 1 100 0 0 0
+*     south exit from "Before Some Sturdy Cabins" to
+*     "A Storage Chamber" - closed
+*
+D 0 16115 0 1 100 0 0 0
+*     north exit from "A Storage Chamber" to
+*     "Before Some Sturdy Cabins" - closed
+*
+D 0 16119 0 1 100 0 0 0
+*     north exit from "On a Dirt Road" to
+*     "A Well-Lit Cabin" - closed
+*
+D 0 16120 2 1 100 0 0 0
+*     south exit from "A Well-Lit Cabin" to
+*     "On a Dirt Road" - closed
+*
+D 0 16121 0 1 100 0 0 0
+*     north exit from "Before a Huge Building" to
+*     "A Storage Room" - closed
+*
+D 0 16122 2 1 100 0 0 0
+*     south exit from "A Storage Room" to
+*     "Before a Huge Building" - closed
+*
+D 0 16122 0 2 100 0 0 0
+*     north exit from "A Storage Room" to
+*     "A Smelting Room" - closed/locked
+*
+D 0 16123 2 2 100 0 0 0
+*     south exit from "A Smelting Room" to
+*     "A Storage Room" - closed/locked
+*
+D 0 16124 1 1 100 0 0 0
+*     east exit from "On a Dusty Dirt Road" to
+*     "A Smokey Bar" - closed
+*
+D 0 16125 3 1 100 0 0 0
+*     west exit from "A Smokey Bar" to
+*     "On a Dusty Dirt Road" - closed
+*
+D 0 16129 1 1 100 0 0 0
+*     east exit from "Before a Well-Made Cabin" to
+*     "In an Elegant Cabin" - closed
+*
+D 0 16130 3 1 100 0 0 0
+*     west exit from "In an Elegant Cabin" to
+*     "Before a Well-Made Cabin" - closed
+*
+D 0 16143 5 5 100 0 0 0
+*     down exit from "A Brightly Lit Cavern" to
+*     "A Dark and Narrow Shaft" - closed/secret
+*
+D 0 16153 4 1 100 0 0 0
+*     up exit from "A Dark and Narrow Shaft" to
+*     "A Brightly Lit Cavern" - closed
+*
+D 0 16153 5 5 100 0 0 0
+*     down exit from "A Dark and Narrow Shaft" to
+*     "A Dark Corridor" - closed/secret
+*
+D 0 16154 4 1 100 0 0 0
+*     up exit from "A Dark Corridor" to
+*     "A Dark and Narrow Shaft" - closed
+*
+D 0 16155 1 5 100 0 0 0
+*     east exit from "A Dark Room" to
+*     "A Large Hidden Room" - closed/secret
+*
+D 0 16156 3 1 100 0 0 0
+*     west exit from "A Large Hidden Room" to
+*     "A Dark Room" - closed
+*
+D 0 16159 1 1 100 0 0 0
+*     east exit from "Before a Heavy Stone Door" to
+*     "The Clan Leader's Room" - closed
+*
+D 0 16160 3 1 100 0 0 0
+*     west exit from "The Clan Leader's Room" to
+*     "Before a Heavy Stone Door" - closed
+*
+*
+O 0 16000 1 16020 100 0 0 0        * an ancient fountain
+O 0 16001 1 16020 100 0 0 0        * the corpse of a doe
+O 0 16002 1 16020 100 0 0 0        * the corpse of a sparrow
+O 0 16003 1 16059 100 0 0 0        * the corpse of a logger
+P 1 16004 1 16003 100 0 0 0        *   a broken ax
+O 0 16064 1 16111 100 0 0 0        * a plain well
+O 0 16062 1 16116 100 0 0 0        * a pc killing trap
+O 0 16063 2 16123 100 0 0 0        * an ore bin
+O 0 16063 2 16123 100 0 0 0        * an ore bin
+O 0 16058 1 16140 100 0 0 0        * a duergar corpse
+P 1 16059 50 16058 100 0 0 0       *   iron slave chains
+O 0 16070 1 16160 100 0 0 0        * a human skull
+O 0 16072 1 16160 100 0 0 0        * a massive stone desk
+P 1 16071 1 16072 100 0 0 0        *   a false marble eye
+*
+M 0 16019 7 16000 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16019 7 16001 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16009 1 16003 100 0 0 0        * a large hawk
+G 1 16018 1 0 100 0 0 0            *    a red feathered hood
+M 0 16010 2 16004 100 0 0 0        * the mother hawk
+M 0 16004 1 16005 100 0 0 0        * an elderly mage
+E 1 16012 1 16 100 0 0 0           *   an ornate staff
+M 0 16025 1 16007 100 0 0 0        * an owlbear
+M 0 16014 10 16009 100 0 0 0       * a small fawn
+M 0 16015 6 16009 100 0 0 0        * a gentle doe
+M 0 16014 10 16009 100 0 0 0       * a small fawn
+M 0 16016 2 16009 100 0 0 0        * a young stag
+M 0 16014 10 16012 100 0 0 0       * a small fawn
+M 0 16014 10 16012 100 0 0 0       * a small fawn
+M 0 16015 6 16012 100 0 0 0        * a gentle doe
+M 0 16018 2 16012 100 0 0 0        * the small brown bear
+M 0 16017 2 16012 100 0 0 0        * the huge stag
+M 0 16008 1 16013 100 0 0 0        * the great horned owl
+E 1 16017 1 20 100 0 0 0           *   a mask of white feathers
+M 0 16022 4 16014 100 0 0 0        * a spotted bobcat
+G 1 16022 4 0 100 0 0 0            *    a spotted bobcat skin
+M 0 16023 1 16017 100 0 0 0        * a vicious wolverine
+E 1 16023 1 9 100 0 0 0            *   some wolverine claws
+M 0 16024 4 16018 100 0 0 0        * a large badger
+G 1 16024 4 0 100 0 0 0            *    a badger pelt
+M 0 16030 2 16021 100 0 0 0        * the old red pine
+G 1 16027 2 0 100 0 0 0            *    a circlet of red pine
+M 0 16015 6 16022 100 0 0 0        * a gentle doe
+M 0 16016 2 16022 100 0 0 0        * a young stag
+M 0 16017 2 16022 100 0 0 0        * the huge stag
+M 0 16014 10 16022 100 0 0 0       * a small fawn
+M 0 16030 2 16022 100 0 0 0        * the old red pine
+G 1 16027 2 0 100 0 0 0            *    a circlet of red pine
+M 0 16031 3 16023 100 0 0 0        * the elderly white pine
+M 0 16020 3 16023 100 0 0 0        * the black bear
+E 1 16020 3 12 100 0 0 0           *   a black bear skin
+M 0 16029 1 16023 100 0 0 0        * an elven woman
+E 1 16033 1 5 100 0 0 0            *   green chainmail
+E 1 16035 1 16 100 0 0 0           *   a plain long sword
+M 0 16018 2 16024 100 0 0 0        * the small brown bear
+M 0 16015 6 16024 100 0 0 0        * a gentle doe
+M 0 16031 3 16024 100 0 0 0        * the elderly white pine
+G 1 16028 1 0 100 0 0 0            *    a strange twisted ring of pine
+M 0 16010 2 16024 100 0 0 0        * the mother hawk
+M 0 16019 7 16025 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16024 4 16026 100 0 0 0        * a large badger
+G 1 16024 4 0 100 0 0 0            *    a badger pelt
+M 0 16019 7 16027 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16036 1 16027 100 0 0 0        * the young druid
+E 1 16037 1 12 100 0 0 0           *   a robe of pine needles
+E 1 16036 1 15 100 0 0 0           *   a bracelet of pine needles
+E 1 16034 1 16 100 0 0 0           *   an engraved scimitar
+M 0 16020 3 16029 100 0 0 0        * the black bear
+E 1 16020 3 12 100 0 0 0           *   a black bear skin
+M 0 16022 4 16029 100 0 0 0        * a spotted bobcat
+G 1 16022 4 0 100 0 0 0            *    a spotted bobcat skin
+M 0 16014 10 16030 100 0 0 0       * a small fawn
+M 0 16031 3 16035 100 0 0 0        * the elderly white pine
+M 0 16020 3 16036 100 0 0 0        * the black bear
+E 1 16020 3 12 100 0 0 0           *   a black bear skin
+M 0 16013 3 16036 100 0 0 0        * the black squirrel
+M 0 16037 1 16037 100 0 0 0        * the young adventurer
+E 1 16038 1 2 100 0 0 0            *   a gold signet ring
+E 1 16040 1 8 100 0 0 0            *   some shiny white boots
+M 0 16013 3 16038 100 0 0 0        * the black squirrel
+M 0 16014 10 16038 100 0 0 0       * a small fawn
+M 0 16014 10 16038 100 0 0 0       * a small fawn
+M 0 16015 6 16038 100 0 0 0        * a gentle doe
+M 0 16019 7 16039 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16027 1 16039 100 0 0 0        * the barbarian adventurer
+E 1 16026 1 12 100 0 0 0           *   a long fur
+E 1 16009 1 18 100 0 0 0           *   an oak bear totem
+G 1 16011 1 0 100 0 0 0            *    a runed boar tusk
+M 0 16000 1 16039 100 0 0 0        * an ugly logger
+E 1 16039 1 2 100 0 0 0            *   a dented ring
+E 1 16005 3 5 100 0 0 0            *   a red and black shirt
+E 1 16006 3 7 100 0 0 0            *   some dark pants
+M 0 16021 1 16040 100 0 0 0        * a large black bear
+G 1 16021 1 0 100 0 0 0            *    a huge bear skin
+M 0 16002 1 16041 100 0 0 0        * a brutal logger
+E 1 16005 3 5 100 0 0 0            *   a red and black shirt
+E 1 16006 3 7 100 0 0 0            *   some dark pants
+E 1 16007 2 16 100 0 0 0           *   a logger's ax
+M 0 16022 4 16042 100 0 0 0        * a spotted bobcat
+G 1 16022 4 0 100 0 0 0            *    a spotted bobcat skin
+M 0 16024 4 16044 100 0 0 0        * a large badger
+G 1 16024 4 0 100 0 0 0            *    a badger pelt
+M 0 16019 7 16045 100 0 0 0        * the brown bear
+M 0 16024 4 16048 100 0 0 0        * a large badger
+G 1 16024 4 0 100 0 0 0            *    a badger pelt
+M 0 16001 1 16049 100 0 0 0        * a young logger
+E 1 16005 3 5 100 0 0 0            *   a red and black shirt
+E 1 16006 3 7 100 0 0 0            *   some dark pants
+E 1 16007 2 16 100 0 0 0           *   a logger's ax
+M 0 16014 10 16050 100 0 0 0       * a small fawn
+M 0 16014 10 16050 100 0 0 0       * a small fawn
+M 0 16015 6 16050 100 0 0 0        * a gentle doe
+M 0 16019 7 16051 100 0 0 0        * the brown bear
+E 1 16019 6 12 100 0 0 0           *   a brown bear skin
+M 0 16013 3 16051 100 0 0 0        * the black squirrel
+M 0 16032 1 16052 100 0 0 0        * an ancient spruce
+G 1 16029 1 0 100 0 0 0            *    a globe of spruce
+M 0 16022 4 16055 100 0 0 0        * a spotted bobcat
+G 1 16022 4 0 100 0 0 0            *    a spotted bobcat skin
+M 0 16035 1 16055 100 0 0 0        * a village guard
+M 0 16033 1 16059 100 0 0 0        * the ancient red pine
+G 1 16030 1 0 100 0 0 0            *    the heart of an ancient red pine
+M 0 16034 5 16059 100 0 0 0        * a powerful tree root
+M 0 16034 5 16059 100 0 0 0        * a powerful tree root
+M 0 16034 5 16059 100 0 0 0        * a powerful tree root
+M 0 16034 5 16059 100 0 0 0        * a powerful tree root
+M 0 16034 5 16059 100 0 0 0        * a powerful tree root
+M 0 16007 3 16067 100 0 0 0        * a small sparrow
+M 0 16011 3 16070 100 0 0 0        * a red-breasted robin
+M 0 16038 4 16074 100 0 0 0        * a grass snake
+M 0 16026 4 16074 100 0 0 0        * a crafty red fox
+G 1 16025 4 0 100 0 0 0            *    a red fox pelt
+M 0 16006 1 16077 100 0 0 0        * Auriam
+G 1 16016 1 0 100 0 0 0            *    a broken mithral lance
+G 1 16015 1 0 100 0 0 0            *    a gold dragon scale
+M 0 16038 4 16078 100 0 0 0        * a grass snake
+M 0 16026 4 16079 100 0 0 0        * a crafty red fox
+G 1 16025 4 0 100 0 0 0            *    a red fox pelt
+M 0 16011 3 16080 100 0 0 0        * a red-breasted robin
+M 0 16005 1 16081 100 0 0 0        * a cruel warrior
+E 1 16014 1 5 100 0 0 0            *   a full suit of black platemail
+E 1 16013 1 16 100 0 0 0           *   a black sword
+M 0 16003 1 16084 100 0 0 0        * a young mage
+E 1 16008 1 5 100 0 0 0            *   a purple robe
+M 0 16038 4 16086 100 0 0 0        * a grass snake
+M 0 16012 2 16088 100 0 0 0        * a brown squirrel
+M 0 16011 3 16089 100 0 0 0        * a red-breasted robin
+M 0 16007 3 16089 100 0 0 0        * a small sparrow
+M 0 16007 3 16089 100 0 0 0        * a small sparrow
+M 0 16026 4 16090 100 0 0 0        * a crafty red fox
+G 1 16025 4 0 100 0 0 0            *    a red fox pelt
+M 0 16012 2 16090 100 0 0 0        * a brown squirrel
+M 0 16028 1 16090 100 0 0 0        * the dwarven holy man
+E 1 16031 1 5 100 0 0 0            *   a mithral breast plate
+E 1 16032 1 16 100 0 0 0           *   a smooth-headed mace
+M 0 16026 4 16093 100 0 0 0        * a crafty red fox
+G 1 16025 4 0 100 0 0 0            *    a red fox pelt
+M 0 16045 3 16098 100 0 0 0        * a village guard
+G 1 215 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 228 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 245 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 283 99999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 16046 1 16098 100 0 0 0        * a village guard
+G 1 215 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 228 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 245 99999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 283 99999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 16047 1 16098 100 0 0 0        * a scarred mercenary
+M 0 16045 3 16101 100 0 0 0        * a village guard
+M 0 16043 1 16105 100 0 0 0        * a stout cook
+E 1 16046 1 6 100 0 0 0            *   a chef's hat
+M 0 16055 1 16107 100 0 0 0        * the village witch
+E 1 16010 1 18 100 0 0 0           *   an onyx totem
+M 0 16038 4 16108 100 0 0 0        * a grass snake
+M 0 16042 1 16109 100 0 0 0        * the village hag
+E 1 16045 1 3 100 0 0 0            *   a necklace of hawk feet
+M 0 16051 2 16109 100 0 0 0        * a small toddler
+E 1 16055 2 13 100 0 0 0           *   a wet diaper
+M 0 16080 1 16110 100 0 0 0        * Darlene
+M 0 16040 1 16111 100 0 0 0        * a village woman
+E 1 16043 1 5 100 0 0 0            *   a slinky dress
+M 0 16041 1 16112 100 0 0 0        * a plain village woman
+E 1 16044 99 5 100 0 0 0           *   a yellow dress
+M 0 16060 1 16113 100 0 0 0        * the captain of the guard
+E 1 16056 1 16 100 0 0 0           *   a heavy khopesh
+G 1 16060 99 0 100 0 0 0           *    a heavy green key
+G 1 16061 99 0 100 0 0 0           *    a dull iron key
+M 0 16048 1 16114 100 0 0 0        * a tough mercenary
+E 1 16053 1 2 100 0 0 0            *   a red hawk signet ring
+M 0 16061 1 16114 100 0 0 0        * a village guard
+G 1 16060 99 0 100 0 0 0           *    a heavy green key
+M 0 16062 4 16114 100 0 0 0        * the mercenary guard
+M 0 16063 1 16115 100 0 0 0        * the fat village guard
+G 1 16060 99 0 100 0 0 0           *    a heavy green key
+M 0 16064 3 16115 100 0 0 0        * the burly village guard
+M 0 16064 3 16116 100 0 0 0        * the burly village guard
+G 1 16060 99 0 100 0 0 0           *    a heavy green key
+M 0 16062 4 16116 100 0 0 0        * the mercenary guard
+M 0 16049 1 16117 100 0 0 0        * a tired merchant
+G 1 16047 1 0 100 0 0 0            *    a soft sack
+M 0 16050 1 16117 100 0 0 0        * a young girl
+M 0 16065 1 16122 100 0 0 0        * the hefty mercenary
+G 1 16061 99 0 100 0 0 0           *    a dull iron key
+M 0 16064 3 16122 100 0 0 0        * the burly village guard
+M 0 16066 1 16123 100 0 0 0        * the overseer
+E 1 16057 5 16 100 0 0 0           *   an ugly black whip
+F 1 16072 2 16123 100 0 0 0        * a duergar slave (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+F 1 16072 2 16123 100 0 0 0        * a duergar slave (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+M 0 16062 4 16123 100 0 0 0        * the mercenary guard
+M 0 16062 4 16123 100 0 0 0        * the mercenary guard
+M 0 16039 1 16124 100 0 0 0        * a portly logger
+E 1 16042 1 8 100 0 0 0            *   stiff leather boots
+E 1 16041 1 16 100 0 0 0           *   a pitted ax
+M 0 16051 2 16124 100 0 0 0        * a small toddler
+E 1 16055 2 13 100 0 0 0           *   a wet diaper
+M 0 16079 1 16125 100 0 0 0        * the huge bartender
+M 0 16057 1 16125 100 0 0 0        * a drunk mercenary
+M 0 16058 1 16125 100 0 0 0        * a drunk villager
+M 0 16059 1 16125 100 0 0 0        * a drunk villager
+M 0 16045 3 16126 100 0 0 0        * a village guard
+M 0 16052 4 16127 100 0 0 0        * a village guard
+M 0 16052 4 16127 100 0 0 0        * a village guard
+M 0 16052 4 16127 100 0 0 0        * a village guard
+M 0 16052 4 16127 100 0 0 0        * a village guard
+M 0 16053 4 16128 100 0 0 0        * a village guard
+M 0 16053 4 16128 100 0 0 0        * a village guard
+M 0 16053 4 16128 100 0 0 0        * a village guard
+M 0 16053 4 16128 100 0 0 0        * a village guard
+M 0 16056 1 16130 100 0 0 0        * an elegant woman
+M 0 16054 1 16130 100 0 0 0        * the village mayor
+E 1 16054 1 15 100 0 0 0           *   a blue steel bracelet
+M 0 16081 4 16140 100 0 0 0        * an exhausted duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+M 0 16081 4 16140 100 0 0 0        * an exhausted duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+M 0 16081 4 16140 100 0 0 0        * an exhausted duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+M 0 16081 4 16140 100 0 0 0        * an exhausted duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+M 0 16083 1 16143 100 0 0 0        * the brutal overseer
+G 1 16057 5 0 100 0 0 0            *    an ugly black whip
+F 1 16082 2 16143 100 0 0 0        * the slave guard (following)
+F 1 16084 2 16143 100 0 0 0        * an enslaved duergar miner (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+F 1 16082 2 16143 100 0 0 0        * the slave guard (following)
+F 1 16084 2 16143 100 0 0 0        * an enslaved duergar miner (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16070 1 16145 100 0 0 0        * the brutal overseer
+E 1 16057 5 16 100 0 0 0           *   an ugly black whip
+F 1 16069 1 16145 100 0 0 0        * the slave guard (following)
+F 1 16073 2 16145 100 0 0 0        * an enslaved duergar miner (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+F 1 16073 2 16145 100 0 0 0        * an enslaved duergar miner (following)
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16151 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16067 2 16151 100 0 0 0        * the overseer
+E 1 16057 5 16 100 0 0 0           *   an ugly black whip
+M 0 16071 8 16151 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16151 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16151 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16068 3 16151 100 0 0 0        * the slave guard
+M 0 16068 3 16151 100 0 0 0        * the slave guard
+M 0 16067 2 16152 100 0 0 0        * the overseer
+E 1 16057 5 16 100 0 0 0           *   an ugly black whip
+M 0 16068 3 16152 100 0 0 0        * the slave guard
+M 0 16071 8 16152 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16152 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16152 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16071 8 16152 100 0 0 0        * a duergar slave
+E 1 16059 50 15 100 0 0 0          *   iron slave chains
+E 1 16069 12 16 100 0 0 0          *   a plain miner's pick
+M 0 16074 2 16156 100 0 0 0        * the duergar warrior
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16067 5 16 100 0 0 0           *   a blue steel battle-ax
+M 0 16074 2 16156 100 0 0 0        * the duergar warrior
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16067 5 16 100 0 0 0           *   a blue steel battle-ax
+M 0 16075 1 16157 100 0 0 0        * a duergar warrior
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16067 5 16 100 0 0 0           *   a blue steel battle-ax
+M 0 16076 1 16158 100 0 0 0        * the duergar blacksmith
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16065 1 16 100 0 0 0           *   a blacksmith's hammer
+M 0 16077 2 16159 100 0 0 0        * the duergar guard
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16067 5 16 100 0 0 0           *   a blue steel battle-ax
+M 0 16077 2 16159 100 0 0 0        * the duergar guard
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16067 5 16 100 0 0 0           *   a blue steel battle-ax
+M 0 16078 1 16160 100 0 0 0        * the clan leader
+E 1 16066 7 5 100 0 0 0            *   a suit of blue steel platemail
+E 1 16068 1 16 100 0 0 0           *   a spiked blue steel mace
+M 0 16085 1 16161 100 0 0 0        * Nuriem
+G 1 16078 1 0 100 0 0 0            *    an emerald choker
+G 1 16076 1 0 100 0 0 0            *    a green-hued gold dragon scale
+M 0 16086 1 16161 100 0 0 0        * Altrucali
+G 1 16079 1 0 100 0 0 0            *    a dragon mace
+G 1 16077 1 0 100 0 0 0            *    the brown-hued scale of an elder gold dragon
+M 0 16087 1 16161 100 0 0 0        * the dark shaman
+G 1 16080 1 0 100 0 0 0            *    the totem of dark spirits
+*
+S

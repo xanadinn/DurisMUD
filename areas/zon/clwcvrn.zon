@@ -1,0 +1,242 @@
+#807
+The Clawed Caverns~
+80788 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 80736 1 5 100 0 0 0
+*     east exit from "A Sharp Turn" to
+*     "A Hidden Path" - closed/secret
+*
+D 0 80742 3 1 100 0 0 0
+*     west exit from "A Hidden Path" to
+*     "A Sharp Turn" - closed
+*
+D 0 80739 4 5 100 0 0 0
+*     up exit from "A Crystal Grove" to
+*     "Beside a Crystal Altar" - closed/secret
+*
+D 0 80740 5 1 100 0 0 0
+*     down exit from "Beside a Crystal Altar" to
+*     "A Crystal Grove" - closed
+*
+D 0 80743 1 2 100 0 0 0
+*     east exit from "Before the Crystal Gates" to
+*     "A Crystal Foyer" - closed/locked
+*
+D 0 80744 3 1 100 0 0 0
+*     west exit from "A Crystal Foyer" to
+*     "Before the Crystal Gates" - closed
+*
+D 0 80745 1 1 100 0 0 0
+*     east exit from "Before a Crystal Door" to
+*     "A Crystal Closet" - closed
+*
+D 0 80746 3 1 100 0 0 0
+*     west exit from "A Crystal Closet" to
+*     "Before a Crystal Door" - closed
+*
+D 0 80752 2 2 100 0 0 0
+*     south exit from "Before an Amber Vault" to
+*     "An Amber Vault" - closed/locked
+*
+D 0 80753 0 1 100 0 0 0
+*     north exit from "An Amber Vault" to
+*     "Before an Amber Vault" - closed
+*
+D 0 80753 3 6 100 0 0 0
+*     west exit from "An Amber Vault" to
+*     "A Hidden Vault" - closed/locked/secret
+*
+D 0 80754 1 1 100 0 0 0
+*     east exit from "A Hidden Vault" to
+*     "An Amber Vault" - closed
+*
+D 0 80755 4 5 100 0 0 0
+*     up exit from "The Top of a Crystal Stairway" to
+*     "Some Wizard's Quarters" - closed/secret
+*
+D 0 80761 5 1 100 0 0 0
+*     down exit from "Some Wizard's Quarters" to
+*     "The Top of a Crystal Stairway" - closed
+*
+D 0 80757 0 5 100 0 0 0
+*     north exit from "The Hallway Bends" to
+*     "A Hidden Alcove" - closed/secret
+*
+D 0 80758 2 1 100 0 0 0
+*     south exit from "A Hidden Alcove" to
+*     "The Hallway Bends" - closed
+*
+D 0 80761 1 5 100 0 0 0
+*     east exit from "Some Wizard's Quarters" to
+*     "A Hidden Library" - closed/secret
+*
+D 0 80762 3 1 100 0 0 0
+*     west exit from "A Hidden Library" to
+*     "Some Wizard's Quarters" - closed
+*
+D 0 80773 3 12 100 0 0 0
+*     west exit from "A Dark, Wet Cavern" to
+*     "A Narrow Stone Passage" - open/secret/blocked
+*
+D 0 80774 1 0 100 0 0 0
+*     east exit from "A Narrow Stone Passage" to
+*     "A Dark, Wet Cavern" - open
+*
+*
+O 0 80716 2 80703 100 0 0 0        * a long, green crystal
+O 0 80712 2 80704 100 0 0 0        * a violet crystal
+O 0 80703 1 80705 100 0 0 0        * an umber hulk corpse
+O 0 80704 1 80709 100 0 0 0        * a tiny emerald
+O 0 80705 9 80711 100 0 0 0        * a pale white crystal
+O 0 80705 9 80711 100 0 0 0        * a pale white crystal
+O 0 80705 9 80711 100 0 0 0        * a pale white crystal
+O 0 80705 9 80712 100 0 0 0        * a pale white crystal
+O 0 80705 9 80712 100 0 0 0        * a pale white crystal
+O 0 80705 9 80713 100 0 0 0        * a pale white crystal
+O 0 80705 9 80713 100 0 0 0        * a pale white crystal
+O 0 80705 9 80714 100 0 0 0        * a pale white crystal
+O 0 80705 9 80714 100 0 0 0        * a pale white crystal
+O 0 80706 3 80715 100 0 0 0        * some underworld moss
+O 0 80706 3 80716 100 0 0 0        * some underworld moss
+O 0 80706 3 80717 100 0 0 0        * some underworld moss
+O 0 80708 1 80728 100 0 0 0        * a large, flat, blue crystal
+O 0 80712 2 80729 100 0 0 0        * a violet crystal
+O 0 80710 1 80730 100 0 0 0        * a small, jagged crystal
+O 0 80713 1 80731 100 0 0 0        * a mound of rubble
+P 1 80738 2 80713 100 0 0 0        *   a tiny sapphire
+O 0 80714 1 80732 100 0 0 0        * tiny amber crystals
+O 0 80716 2 80738 100 0 0 0        * a long, green crystal
+O 0 80753 1 80750 100 0 0 0        * a crystal throne
+O 0 80738 2 80753 100 0 0 0        * a tiny sapphire
+O 0 80739 1 80753 100 0 0 0        * a chipped sapphire
+O 0 80740 1 80753 100 0 0 0        * a small ruby
+O 0 80701 1 80753 100 0 0 0        * an amber shard
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80741 7 80754 100 0 0 0        * a pure white crystal
+O 0 80742 1 80754 100 0 0 0        * a thin crystal
+O 0 80726 1 80761 100 0 0 0        * a book bound in black leather
+O 0 80743 1 80761 100 0 0 0        * a crystal desk
+O 0 80744 1 80761 100 0 0 0        * some no-show shelves
+P 1 80745 1 80744 100 0 0 0        *   a crystal vial
+O 0 80746 1 80768 100 0 0 0        * a swirling pool of water
+O 0 80754 1 80768 100 0 0 0        * a flowing crystal shard
+O 0 80729 1 80773 100 0 0 0        * a pile of trash
+O 0 80749 1 80776 100 0 0 0        * blue crystal shards
+P 1 80737 1 80749 100 0 0 0        *   blue crystal legplates
+O 0 80750 1 80776 100 0 0 0        * a heavy stone table
+O 0 80751 1 80776 100 0 0 0        * a rotting book
+O 0 80752 1 80776 100 0 0 0        * an ornate carpet
+O 0 80747 1 80785 100 0 0 0        * a searing hot crystal
+*
+M 0 80739 1 80700 100 0 0 0        * a giant stone golem
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 827 15 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 80713 2 80701 100 0 0 0        * a wandering chrysloin
+M 0 80701 3 80702 100 0 0 0        * a pale spider
+M 0 80708 2 80703 100 0 0 0        * a green chrysloin
+E 1 80717 2 16 100 0 0 0           *   a thin crystal sword
+M 0 80701 3 80706 100 0 0 0        * a pale spider
+M 0 80704 2 80709 100 0 0 0        * a cave fisher
+M 0 80703 3 80712 100 0 0 0        * an elongated worm
+M 0 80703 3 80713 100 0 0 0        * an elongated worm
+M 0 80703 3 80714 100 0 0 0        * an elongated worm
+M 0 80711 1 80714 100 0 0 0        * a drow adventurer
+E 1 80719 1 18 100 0 0 0           *   an old mandolin
+M 0 80702 5 80715 100 0 0 0        * a white millipede
+M 0 80702 5 80715 100 0 0 0        * a white millipede
+M 0 80702 5 80717 100 0 0 0        * a white millipede
+M 0 80702 5 80717 100 0 0 0        * a white millipede
+M 0 80702 5 80717 100 0 0 0        * a white millipede
+M 0 80710 1 80719 100 0 0 0        * a chrysloin shaman
+M 0 80704 2 80720 100 0 0 0        * a cave fisher
+M 0 80701 3 80720 100 0 0 0        * a pale spider
+M 0 80700 1 80721 100 0 0 0        * an umber hulk
+M 0 80712 2 80723 100 0 0 0        * a duergar adventurer
+E 1 80720 2 3 100 0 0 0            *   an obsidian pendant
+M 0 80706 1 80729 100 0 0 0        * a violet chrysloin
+M 0 80713 2 80733 100 0 0 0        * a wandering chrysloin
+E 1 80721 1 15 100 0 0 0           *   a crystal bracelet
+M 0 80705 2 80737 100 0 0 0        * an albino salamander
+M 0 80712 2 80737 100 0 0 0        * a duergar adventurer
+E 1 80720 2 3 100 0 0 0            *   an obsidian pendant
+M 0 80708 2 80738 100 0 0 0        * a green chrysloin
+E 1 80717 2 16 100 0 0 0           *   a thin crystal sword
+M 0 80709 1 80739 100 0 0 0        * a red chrysloin
+M 0 80705 2 80740 100 0 0 0        * an albino salamander
+M 0 80707 1 80741 100 0 0 0        * a blue chrysloin
+M 0 80715 2 80743 100 0 0 0        * a burly chrysloin guard
+M 0 80715 2 80743 100 0 0 0        * a burly chrysloin guard
+G 1 80700 1 0 100 0 0 0            *    a glowing crystal shard
+M 0 80716 2 80744 100 0 0 0        * a chrysloin guard
+E 1 80724 1 16 100 0 0 0           *   a broadsword of amber crystal
+M 0 80724 1 80750 100 0 0 0        * the chrysloin king
+E 1 80722 1 5 100 0 0 0            *   a breastplate of blue crystal
+E 1 80723 1 6 100 0 0 0            *   a blue crystal helm
+F 1 80721 1 80750 100 0 0 0        * a chrysloin shaman (following)
+F 1 80722 1 80750 100 0 0 0        * a chrysloin warrior (following)
+E 1 80725 1 2 100 0 0 0            *   a small crystal ring
+F 1 80723 1 80750 100 0 0 0        * a chrysloin warrior (following)
+M 0 80725 1 80750 100 0 0 0        * the svirfneblin abassador
+M 0 80717 2 80752 100 0 0 0        * a vault guard
+M 0 80717 2 80752 100 0 0 0        * a vault guard
+G 1 80702 1 0 100 0 0 0            *    a crystal key
+M 0 80718 1 80753 100 0 0 0        * a crystal golem
+M 0 80716 2 80755 100 0 0 0        * a chrysloin guard
+M 0 80719 2 80756 100 0 0 0        * a chrysloin worker
+M 0 80719 2 80757 100 0 0 0        * a chrysloin worker
+M 0 80720 2 80758 100 0 0 0        * a chrysloin worker
+M 0 80720 2 80759 100 0 0 0        * a chrysloin worker
+M 0 80726 1 80762 100 0 0 0        * a drow mage
+G 1 80727 1 0 100 0 0 0            *    some purple robes
+M 0 80736 4 80768 100 0 0 0        * a hungry yarguza
+M 0 80736 4 80769 100 0 0 0        * a hungry yarguza
+M 0 80736 4 80769 100 0 0 0        * a hungry yarguza
+M 0 80737 2 80770 100 0 0 0        * a vicious rockbiter
+M 0 80737 2 80771 100 0 0 0        * a vicious rockbiter
+M 0 80738 5 80772 100 0 0 0        * a durian bat
+M 0 80738 5 80772 100 0 0 0        * a durian bat
+M 0 80732 1 80773 100 0 0 0        * a crystal golem
+E 1 80736 1 10 100 0 0 0           *   armplates of blue crystal
+M 0 80733 1 80773 100 0 0 0        * a crystal golem
+M 0 80734 1 80774 100 0 0 0        * a crystal golem
+M 0 80735 1 80775 100 0 0 0        * a crystal guardian
+E 1 80735 1 19 100 0 0 0           *   a jagged crystal eyepatch
+G 1 80733 1 0 100 0 0 0            *    a rainbow crystal key
+M 0 80736 4 80777 100 0 0 0        * a hungry yarguza
+M 0 80738 5 80779 100 0 0 0        * a durian bat
+M 0 80738 5 80780 100 0 0 0        * a durian bat
+M 0 80738 5 80782 100 0 0 0        * a durian bat
+M 0 80728 4 80783 100 0 0 0        * a crystal bat
+M 0 80729 3 80783 100 0 0 0        * a crystal shard
+M 0 80729 3 80784 100 0 0 0        * a crystal shard
+M 0 80727 1 80785 100 0 0 0        * a svirfneblin sage
+E 1 80748 1 2 100 0 0 0            *   a simple silver band
+M 0 80729 3 80785 100 0 0 0        * a crystal shard
+M 0 80730 1 80786 100 0 0 0        * a crystal spinner
+M 0 80728 4 80787 100 0 0 0        * a crystal bat
+M 0 80728 4 80788 100 0 0 0        * a crystal bat
+M 0 80728 4 80788 100 0 0 0        * a crystal bat
+M 0 80731 1 80788 100 0 0 0        * a dull crystal
+*
+S

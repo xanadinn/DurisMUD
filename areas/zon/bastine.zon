@@ -1,0 +1,493 @@
+#76
+&+YBastine &+WCastle&n~
+7728 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 7601 2 0 100 0 0 0
+*     south exit from "Guard's Quarters" to
+*     "Entryway to the Castle" - open
+*
+D 0 7602 0 0 100 0 0 0
+*     north exit from "Entryway to the Castle" to
+*     "Guard's Quarters" - open
+*
+D 0 7602 2 0 100 0 0 0
+*     south exit from "Entryway to the Castle" to
+*     "Guard's Quarters" - open
+*
+D 0 7603 0 0 100 0 0 0
+*     north exit from "Guard's Quarters" to
+*     "Entryway to the Castle" - open
+*
+D 0 7609 3 1 100 0 0 0
+*     west exit from "Kitchen" to
+*     "Storage Room" - closed
+*
+D 0 7610 1 1 100 0 0 0
+*     east exit from "Storage Room" to
+*     "Kitchen" - closed
+*
+D 0 7613 2 1 100 0 0 0
+*     south exit from "Branch Hallway" to
+*     "The Training Room" - closed
+*
+D 0 7614 0 1 100 0 0 0
+*     north exit from "The Training Room" to
+*     "Branch Hallway" - closed
+*
+D 0 7615 2 1 100 0 0 0
+*     south exit from "Accounts Room" to
+*     "Branch Hallway" - closed
+*
+D 0 7616 0 1 100 0 0 0
+*     north exit from "Branch Hallway" to
+*     "Accounts Room" - closed
+*
+D 0 7619 2 1 100 0 0 0
+*     south exit from "Main Hall" to
+*     "Morlanthra's Bedroom" - closed
+*
+D 0 7620 0 1 100 0 0 0
+*     north exit from "Morlanthra's Bedroom" to
+*     "Main Hall" - closed
+*
+D 0 7626 1 1 100 0 0 0
+*     east exit from "Throne of King Volheru, Lord of the Bastine Knights" to
+*     "King's Bedroom" - closed
+*
+D 0 7628 3 1 100 0 0 0
+*     west exit from "King's Bedroom" to
+*     "Throne of King Volheru, Lord of the Bastine Knights" - closed
+*
+D 0 7628 1 1 100 0 0 0
+*     east exit from "King's Bedroom" to
+*     "Secret Chamber" - closed
+*
+D 0 7629 3 1 100 0 0 0
+*     west exit from "Secret Chamber" to
+*     "King's Bedroom" - closed
+*
+D 0 7721 4 2 100 0 0 0
+*     up exit from "Tower Stairs" to
+*     "Prisoner's Tower" - closed/locked
+*
+D 0 7722 5 2 100 0 0 0
+*     down exit from "Prisoner's Tower" to
+*     "Tower Stairs" - closed/locked
+*
+*
+O 0 7656 100 7610 100 0 0 0        * some bread
+O 0 7656 100 7610 100 0 0 0        * some bread
+O 0 7656 100 7610 100 0 0 0        * some bread
+O 0 7656 100 7610 100 0 0 0        * some bread
+O 0 7656 100 7610 100 0 0 0        * some bread
+O 0 7657 100 7610 100 0 0 0        * a salt shaker
+O 0 7658 100 7610 100 0 0 0        * a pepper shaker
+O 0 7661 100 7610 100 0 0 0        * a carrot
+O 0 7661 100 7610 100 0 0 0        * a carrot
+O 0 7661 100 7610 100 0 0 0        * a carrot
+O 0 7661 100 7610 100 0 0 0        * a carrot
+O 0 7661 100 7610 100 0 0 0        * a carrot
+O 0 7667 1 7664 100 0 0 0          * a desk
+P 1 7601 1 7667 100 0 0 0          *   a tower key
+P 1 7668 1 7667 100 0 0 0          *   a note
+*
+M 0 7623 20 7601 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7601 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7601 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7601 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7602 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7602 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7602 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7602 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7624 5 7602 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7627 5 18 100 0 0 0            *   a jester's flute
+M 0 7623 20 7603 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7603 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7603 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7603 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7624 5 7604 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7627 5 18 100 0 0 0            *   a jester's flute
+M 0 7630 10 7604 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7630 10 7604 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7628 4 7604 100 0 0 0          * the white horse
+M 0 7628 4 7604 100 0 0 0          * the white horse
+M 0 7628 4 7604 100 0 0 0          * the white horse
+M 0 7628 4 7604 100 0 0 0          * the white horse
+M 0 7629 5 7604 100 0 0 0          * the horse
+M 0 7629 5 7604 100 0 0 0          * the horse
+M 0 7629 5 7604 100 0 0 0          * the horse
+M 0 7629 5 7604 100 0 0 0          * the horse
+M 0 7629 5 7604 100 0 0 0          * the horse
+M 0 7607 1 7604 100 0 0 0          * Sir Lagarias
+E 1 7635 1 2 100 0 0 0             *   ring of the highest seal of the order of the bastine knights
+E 1 7636 1 13 100 0 0 0            *   the belt of truth
+E 1 7637 1 16 100 0 0 0            *   a neverending lance
+M 0 7609 1 7604 100 0 0 0          * Sir Lyonel
+E 1 7641 1 9 100 0 0 0             *   the gloves of the Knights of the Rose
+E 1 7642 1 16 100 0 0 0            *   the bludgeon club
+M 0 7624 5 7605 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7627 5 18 100 0 0 0            *   a jester's flute
+M 0 7630 10 7605 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7630 10 7605 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7623 20 7606 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7606 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7630 10 7608 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7630 10 7608 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7627 1 7609 100 0 0 0          * the court cook
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7619 1 16 100 0 0 0            *   a cooking ladle
+M 0 7625 9 7610 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7625 9 7611 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7619 1 7611 100 0 0 0          * Sir Accolon
+E 1 7607 1 12 100 0 0 0            *   a cloak of ages
+M 0 7623 20 7612 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7612 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7625 9 7612 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7625 9 7614 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7626 10 7614 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7620 1 7614 100 0 0 0          * Sir Ladynas
+E 1 7609 1 16 100 0 0 0            *   the jouster
+M 0 7621 1 7614 100 0 0 0          * Sir Gracian
+E 1 7611 1 6 100 0 0 0             *   a helm of the archnalmuth people
+E 1 7612 1 16 100 0 0 0            *   a sword of the four elven kings
+M 0 7616 1 7614 100 0 0 0          * Sir Bantin
+E 1 7662 1 16 100 0 0 0            *   a double-edged sword of swiftness
+G 1 7663 1 0 100 0 0 0             *    the rammer
+M 0 7617 1 7614 100 0 0 0          * Sir Bantan
+E 1 7664 1 5 100 0 0 0             *   a black-dyed leather jumpsuit
+E 1 7665 1 8 100 0 0 0             *   the boots of speed
+E 1 7666 1 16 100 0 0 0            *   the backstabber
+M 0 7625 9 7615 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7626 10 7615 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7612 1 7615 100 0 0 0          * Sir Ulphius the Chamberlain
+E 1 7652 1 16 100 0 0 0            *   a razor sharp dagger with an ivory handle
+E 1 7651 1 24 100 0 0 0            *   the badge of the chamberlain
+M 0 7622 1 7615 100 0 0 0          * Gwenbaus the Clerk
+E 1 7613 1 5 100 0 0 0             *   clerical garments
+M 0 7630 10 7616 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7630 10 7616 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7623 20 7617 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7617 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7625 9 7618 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7630 10 7618 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7623 20 7619 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7623 20 7619 100 0 0 0         * the castle guard
+E 1 7625 20 5 100 0 0 0            *   a standard volheru vest
+E 1 7626 20 7 100 0 0 0            *   a pair of standard volheru leggings
+E 1 7638 20 16 100 0 0 0           *   a castle sword
+M 0 7624 5 7619 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7627 5 18 100 0 0 0            *   a jester's flute
+M 0 7625 9 7619 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7626 10 7620 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7603 1 7620 100 0 0 0          * Victor the Apprentice
+E 1 7647 1 5 100 0 0 0             *   an apprentice's robe
+E 1 7644 1 7 100 0 0 0             *   a pair of magic leggings
+E 1 7643 1 18 100 0 0 0            *   a sputtering wand
+M 0 7626 10 7621 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7626 10 7622 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7638 1 7622 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7680 1 18 100 0 0 0            *   a jester's horn
+M 0 7625 9 7623 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7626 10 7623 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7605 1 7623 100 0 0 0          * Sir Gareth
+E 1 7622 1 16 100 0 0 0            *   a long wooden lance with a blue handle
+M 0 7606 1 7623 100 0 0 0          * Sir Gaheris
+E 1 7623 1 11 100 0 0 0            *   the blockader
+E 1 7624 1 16 100 0 0 0            *   a white smooth-edged sword
+M 0 7608 1 7623 100 0 0 0          * Sir Golahy
+E 1 7639 1 11 100 0 0 0            *   a kingly shield
+E 1 7640 1 16 100 0 0 0            *   the sword of straunge gurdyls
+M 0 7615 1 7623 100 0 0 0          * Sir Gryfflette
+E 1 7659 1 7 100 0 0 0             *   a pair of silver leggings
+E 1 7655 1 8 100 0 0 0             *   a pair of hip boots
+E 1 7660 1 16 100 0 0 0            *   a silver long sword
+E 1 7671 1 23 100 0 0 0            *   a light quiver
+M 0 7618 1 7623 100 0 0 0          * Sir Bagdemagus
+E 1 7602 1 8 100 0 0 0             *   the old man's shoes
+E 1 7603 1 16 100 0 0 0            *   an overpowering axe
+M 0 7604 1 7623 100 0 0 0          * Sir Gowell
+E 1 7678 1 7 100 0 0 0             *   greaves of avoidance
+E 1 7621 1 9 100 0 0 0             *   shining metallic gauntlets dyed yellow
+E 1 7677 1 20 100 0 0 0            *   mask of battles past
+M 0 7626 10 7625 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7624 5 7626 100 0 0 0          * the court jester
+E 1 7618 6 5 100 0 0 0             *   a pair of neon tights
+E 1 7627 5 18 100 0 0 0            *   a jester's flute
+M 0 7626 10 7626 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7630 10 7626 100 0 0 0         * the noble
+E 1 7631 10 5 100 0 0 0            *   a noble's shirt
+E 1 7632 10 7 100 0 0 0            *   a pair of noble's pants
+E 1 7633 10 8 100 0 0 0            *   a pair of noble's shoes
+E 1 7634 10 16 100 0 0 0           *   a fencing blade
+M 0 7600 1 7626 100 0 0 0          * King Mrotha
+E 1 7600 1 2 100 0 0 0             *   the ring of power
+E 1 7605 1 16 100 0 0 0            *   the sword of kings
+G 1 7604 1 0 100 0 0 0             *    a scepter of barriers
+M 0 7601 1 7626 100 0 0 0          * Duke of Tintegil
+E 1 7606 1 5 100 0 0 0             *   a jeweled robe
+E 1 7608 1 13 100 0 0 0            *   a ruby sash
+E 1 7610 1 16 100 0 0 0            *   a jeweled sword
+M 0 7602 1 7626 100 0 0 0          * Queen Bessandra
+E 1 7676 1 6 100 0 0 0             *   a gnomish crown of superiority
+E 1 7615 1 16 100 0 0 0            *   an ice mace
+E 1 7614 1 21 100 0 0 0            *   a beautiful crystal earring
+M 0 7610 1 7626 100 0 0 0          * Sir Lucasio the Butler
+E 1 7646 1 5 100 0 0 0             *   a red velvet robe
+E 1 7645 1 19 100 0 0 0            *   a pair of wide-rimmed spectacles
+M 0 7613 1 7626 100 0 0 0          * Sir Dagonet
+E 1 7653 1 16 100 0 0 0            *   a green-tipped morningstar
+M 0 7611 1 7626 100 0 0 0          * Sir Badovin the Constable
+E 1 7649 1 11 100 0 0 0            *   the stone wall shield
+E 1 7650 1 16 100 0 0 0            *   a sword of might
+G 1 7648 1 0 100 0 0 0             *    a police badge
+M 0 7614 1 7626 100 0 0 0          * Sir Mellyagraunce
+E 1 7654 1 16 100 0 0 0            *   a triple-edged longsword
+M 0 7625 9 7627 100 0 0 0          * the castle maid
+E 1 7628 100 13 100 0 0 0          *   a white apron
+E 1 7629 9 16 100 0 0 0            *   a fluffy duster
+M 0 7626 10 7627 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7626 10 7628 100 0 0 0         * the castle butler
+E 1 7630 100 16 100 0 0 0          *   a drink tray
+M 0 7634 20 7631 100 0 0 0         * a cavern creature
+M 0 7634 20 7632 100 0 0 0         * a cavern creature
+M 0 7634 20 7635 100 0 0 0         * a cavern creature
+M 0 7634 20 7637 100 0 0 0         * a cavern creature
+M 0 7634 20 7639 100 0 0 0         * a cavern creature
+M 0 7634 20 7642 100 0 0 0         * a cavern creature
+M 0 7634 20 7644 100 0 0 0         * a cavern creature
+M 0 7634 20 7645 100 0 0 0         * a cavern creature
+M 0 7634 20 7646 100 0 0 0         * a cavern creature
+M 0 7634 20 7647 100 0 0 0         * a cavern creature
+M 0 7634 20 7649 100 0 0 0         * a cavern creature
+M 0 7634 20 7651 100 0 0 0         * a cavern creature
+M 0 7634 20 7652 100 0 0 0         * a cavern creature
+M 0 7634 20 7653 100 0 0 0         * a cavern creature
+M 0 7634 20 7654 100 0 0 0         * a cavern creature
+M 0 7634 20 7655 100 0 0 0         * a cavern creature
+M 0 7634 20 7656 100 0 0 0         * a cavern creature
+M 0 7634 20 7657 100 0 0 0         * a cavern creature
+M 0 7634 20 7658 100 0 0 0         * a cavern creature
+M 0 7634 20 7659 100 0 0 0         * a cavern creature
+M 0 7635 2 7662 100 0 0 0          * a suit of armor
+M 0 7635 2 7662 100 0 0 0          * a suit of armor
+M 0 7637 2 7663 100 0 0 0          * a suit of armor
+M 0 7637 2 7663 100 0 0 0          * a suit of armor
+M 0 7631 36 7667 100 0 0 0         * the trout
+M 0 7631 36 7667 100 0 0 0         * the trout
+M 0 7631 36 7668 100 0 0 0         * the trout
+M 0 7631 36 7668 100 0 0 0         * the trout
+M 0 7631 36 7670 100 0 0 0         * the trout
+M 0 7631 36 7670 100 0 0 0         * the trout
+M 0 7631 36 7672 100 0 0 0         * the trout
+M 0 7631 36 7672 100 0 0 0         * the trout
+M 0 7631 36 7674 100 0 0 0         * the trout
+M 0 7631 36 7674 100 0 0 0         * the trout
+M 0 7631 36 7676 100 0 0 0         * the trout
+M 0 7631 36 7676 100 0 0 0         * the trout
+M 0 7631 36 7678 100 0 0 0         * the trout
+M 0 7631 36 7678 100 0 0 0         * the trout
+M 0 7631 36 7680 100 0 0 0         * the trout
+M 0 7631 36 7680 100 0 0 0         * the trout
+M 0 7631 36 7682 100 0 0 0         * the trout
+M 0 7631 36 7682 100 0 0 0         * the trout
+M 0 7636 1 7683 100 0 0 0          * a giant octopus
+M 0 7631 36 7684 100 0 0 0         * the trout
+M 0 7631 36 7684 100 0 0 0         * the trout
+M 0 7631 36 7686 100 0 0 0         * the trout
+M 0 7631 36 7686 100 0 0 0         * the trout
+M 0 7631 36 7688 100 0 0 0         * the trout
+M 0 7631 36 7688 100 0 0 0         * the trout
+M 0 7631 36 7690 100 0 0 0         * the trout
+M 0 7631 36 7690 100 0 0 0         * the trout
+M 0 7631 36 7692 100 0 0 0         * the trout
+M 0 7631 36 7692 100 0 0 0         * the trout
+M 0 7631 36 7694 100 0 0 0         * the trout
+M 0 7631 36 7694 100 0 0 0         * the trout
+M 0 7631 36 7695 100 0 0 0         * the trout
+M 0 7631 36 7696 100 0 0 0         * the trout
+M 0 7631 36 7696 100 0 0 0         * the trout
+M 0 7632 11 7710 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7710 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7710 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7710 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7716 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7716 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7716 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7633 1 7722 100 0 0 0          * the Prince Prisoner
+G 1 7673 1 0 100 0 0 0             *    the bloody head of a werewolf
+M 0 7632 11 7728 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7728 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7728 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+M 0 7632 11 7728 100 0 0 0         * the archer
+E 1 7669 11 16 100 0 0 0           *   a crossbow
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+G 1 7672 33 0 100 0 0 0            *    a light quarrel
+*
+S

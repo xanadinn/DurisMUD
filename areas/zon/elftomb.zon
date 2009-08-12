@@ -1,0 +1,225 @@
+#206
+Barrow of the Quiosho~
+20806 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 20602 4 5 100 0 0 0
+*     up exit from "On an Underground River" to
+*     "Down the Drain" - closed/secret
+*
+D 0 20805 5 1 100 0 0 0
+*     down exit from "Down the Drain" to
+*     "On an Underground River" - closed
+*
+D 0 20650 2 5 100 0 0 0
+*     south exit from "On an Ancient Battlefield" to
+*     "Amongst the Weeds" - closed/secret
+*
+D 0 20710 0 1 100 0 0 0
+*     north exit from "Amongst the Weeds" to
+*     "On an Ancient Battlefield" - closed
+*
+D 0 20685 3 1 100 0 0 0
+*     west exit from "In Front of a Straw Hut" to
+*     "In a Poorly Made Straw Hut" - closed
+*
+D 0 20686 1 1 100 0 0 0
+*     east exit from "In a Poorly Made Straw Hut" to
+*     "In Front of a Straw Hut" - closed
+*
+D 0 20771 0 2 100 0 0 0
+*     north exit from "Before a Large Wooden Door" to
+*     "In a Large Pillared Hall" - closed/locked
+*
+D 0 20772 2 2 100 0 0 0
+*     south exit from "In a Large Pillared Hall" to
+*     "Before a Large Wooden Door" - closed/locked
+*
+D 0 20802 0 1 100 0 0 0
+*     north exit from "Before the Royal Crypt" to
+*     "The Royal Crypt" - closed
+*
+D 0 20803 2 1 100 0 0 0
+*     south exit from "The Royal Crypt" to
+*     "Before the Royal Crypt" - closed
+*
+D 0 20802 5 5 100 0 0 0
+*     down exit from "Before the Royal Crypt" to
+*     "Down the Drain" - closed/secret
+*
+D 0 20805 4 1 100 0 0 0
+*     up exit from "Down the Drain" to
+*     "Before the Royal Crypt" - closed
+*
+*
+O 0 20603 1 20655 100 0 0 0        * a pile of skulls
+P 1 20604 1 20603 100 0 0 0        *   a glass eye
+O 0 20605 1 20686 100 0 0 0        * a chest made of dark wood.
+P 1 20607 1 20605 100 0 0 0        *   a pile of coins
+P 1 20609 1 20605 100 0 0 0        *   a pile of scrap metal
+O 0 20608 1 20686 100 0 0 0        * a desk of dark wood
+O 0 20617 14 20774 100 0 0 0       * a coffin
+P 1 20619 2 20617 100 0 0 0        *   the bloody head of the elven king
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20776 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20779 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20781 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+P 1 20627 1 20617 100 0 0 0        *   an elven longsword
+O 0 20617 14 20784 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+P 1 20624 1 20617 100 0 0 0        *   a suit of elven chainmail
+O 0 20617 14 20786 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20789 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20791 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20794 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20796 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+P 1 20623 1 20617 100 0 0 0        *   a pair of thorn leggings
+O 0 20617 14 20799 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+O 0 20617 14 20801 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+P 1 20622 1 20617 100 0 0 0        *   the boots of the living forest
+O 0 20617 14 20802 100 0 0 0       * a coffin
+P 1 20621 1 20617 100 0 0 0        *   some fine elven barding
+P 1 20620 1 20617 100 0 0 0        *   the corpse of a warhorse
+O 0 20617 14 20803 100 0 0 0       * a coffin
+P 1 20618 13 20617 100 0 0 0       *   an elven corpse
+P 1 20619 2 20617 100 0 0 0        *   the bloody head of the elven king
+*
+M 0 20600 10 20601 100 0 0 0       * a sightless fish
+M 0 20600 10 20602 100 0 0 0       * a sightless fish
+M 0 20600 10 20603 100 0 0 0       * a sightless fish
+M 0 20600 10 20605 100 0 0 0       * a sightless fish
+M 0 20600 10 20606 100 0 0 0       * a sightless fish
+M 0 20600 10 20607 100 0 0 0       * a sightless fish
+M 0 20600 10 20609 100 0 0 0       * a sightless fish
+M 0 20600 10 20610 100 0 0 0       * a sightless fish
+M 0 20600 10 20611 100 0 0 0       * a sightless fish
+M 0 20600 10 20613 100 0 0 0       * a sightless fish
+M 0 20602 8 20629 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20630 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20631 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20632 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20633 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20634 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20635 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20636 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20637 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20638 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20639 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20603 1 20640 100 0 0 0        * the regal swan
+E 1 20601 1 7 100 0 0 0            *   a feathery band
+M 0 20602 8 20643 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20644 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20645 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20646 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20647 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20602 8 20648 100 0 0 0        * a large white swan
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20601 10 20649 100 0 0 0       * a spoon-billed duck
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20606 10 20650 100 0 0 0       * a goblin scavenger
+M 0 20606 10 20651 100 0 0 0       * a goblin scavenger
+M 0 20606 10 20653 100 0 0 0       * a goblin scavenger
+E 1 20613 1 6 100 0 0 0            *   a rusty iron helm
+M 0 20610 4 20655 100 0 0 0        * the spirit of an orcish warrior
+M 0 20606 10 20657 100 0 0 0       * a goblin scavenger
+E 1 20614 1 12 100 0 0 0           *   a tattered elven cloak
+M 0 20606 10 20659 100 0 0 0       * a goblin scavenger
+M 0 20606 10 20669 100 0 0 0       * a goblin scavenger
+M 0 20610 4 20682 100 0 0 0        * the spirit of an orcish warrior
+M 0 20606 10 20684 100 0 0 0       * a goblin scavenger
+M 0 20610 4 20685 100 0 0 0        * the spirit of an orcish warrior
+M 0 20605 1 20686 100 0 0 0        * Borrix, the goblin trader
+E 1 20610 1 16 100 0 0 0           *   a jagged piece of metal
+G 1 20606 1 0 100 0 0 0            *    a wrought-iron key
+M 0 20606 10 20688 100 0 0 0       * a goblin scavenger
+M 0 20606 10 20698 100 0 0 0       * a goblin scavenger
+E 1 20611 1 8 100 0 0 0            *   a pair of metal studded boots
+M 0 20610 4 20700 100 0 0 0        * the spirit of an orcish warrior
+M 0 20606 10 20702 100 0 0 0       * a goblin scavenger
+E 1 20612 1 9 100 0 0 0            *   a pair of spiked gloves
+M 0 20607 1 20710 100 0 0 0        * the old orcish warrior
+M 0 20612 8 20711 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20719 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20730 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20740 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20754 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20761 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20766 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20612 8 20768 100 0 0 0        * a wild boar
+G 1 20602 999999 0 100 0 0 0       *    a bloody piece of meat
+M 0 20609 4 20771 100 0 0 0        * a guardian spirit
+G 1 20616 1 0 100 0 0 0            *    a glowing wooden key
+M 0 20609 4 20771 100 0 0 0        * a guardian spirit
+M 0 20614 11 20772 100 0 0 0       * a green slime
+M 0 20614 11 20773 100 0 0 0       * a green slime
+G 1 20626 1 0 100 0 0 0            *    a vial of green liquid
+M 0 20614 11 20773 100 0 0 0       * a green slime
+M 0 20608 12 20774 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20775 100 0 0 0       * a green slime
+M 0 20608 12 20776 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20777 100 0 0 0       * a green slime
+M 0 20614 11 20778 100 0 0 0       * a green slime
+M 0 20608 12 20779 100 0 0 0       * the spirit of an elven warrior
+M 0 20608 12 20781 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20782 100 0 0 0       * a green slime
+M 0 20614 11 20783 100 0 0 0       * a green slime
+M 0 20608 12 20784 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20785 100 0 0 0       * a green slime
+M 0 20608 12 20786 100 0 0 0       * the spirit of an elven warrior
+M 0 20613 1 20787 100 0 0 0        * Will-o-the-Wisp
+G 1 20625 1 0 100 0 0 0            *    a deep blue sapphire
+M 0 20608 12 20789 100 0 0 0       * the spirit of an elven warrior
+M 0 20608 12 20791 100 0 0 0       * the spirit of an elven warrior
+M 0 20608 12 20794 100 0 0 0       * the spirit of an elven warrior
+M 0 20608 12 20796 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20798 100 0 0 0       * a green slime
+M 0 20608 12 20799 100 0 0 0       * the spirit of an elven warrior
+M 0 20614 11 20800 100 0 0 0       * a green slime
+M 0 20608 12 20801 100 0 0 0       * the spirit of an elven warrior
+M 0 20609 4 20802 100 0 0 0        * a guardian spirit
+M 0 20609 4 20802 100 0 0 0        * a guardian spirit
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20611 6 20803 100 0 0 0        * a giant maggot
+M 0 20604 1 20804 100 0 0 0        * the swanmay
+E 1 20600 1 2 100 0 0 0            *   a feathery band
+*
+S

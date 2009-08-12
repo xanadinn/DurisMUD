@@ -1,0 +1,559 @@
+#910
+&+LThe Realm of Barovia&N~
+91167 0 0 45 65 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 91022 1 1 100 0 0 0
+*     east exit from "The Weary Horse Inn" to
+*     "A Road Before a Large Tavern in the Forest" - closed
+*
+D 0 91023 3 1 100 0 0 0
+*     west exit from "A Road Before a Large Tavern in the Forest" to
+*     "The Weary Horse Inn" - closed
+*
+D 0 91065 0 1 100 0 0 0
+*     north exit from "Before the Iron Gates of Barovia" to
+*     "A Guard Post at the Iron Gates of Barovia" - closed
+*
+D 0 91066 2 1 100 0 0 0
+*     south exit from "A Guard Post at the Iron Gates of Barovia" to
+*     "Before the Iron Gates of Barovia" - closed
+*
+D 0 91066 1 2 100 0 0 0
+*     east exit from "A Guard Post at the Iron Gates of Barovia" to
+*     "A Stone Guard House at the Gates of Barovia" - closed/locked
+*
+D 0 91068 3 1 100 0 0 0
+*     west exit from "A Stone Guard House at the Gates of Barovia" to
+*     "A Guard Post at the Iron Gates of Barovia" - closed
+*
+D 0 91066 3 0 100 0 0 0
+*     west exit from "A Guard Post at the Iron Gates of Barovia" to
+*     "A Vacated Guard House at the Gates of Barovia" - open
+*
+D 0 91067 1 0 100 0 0 0
+*     east exit from "A Vacated Guard House at the Gates of Barovia" to
+*     "A Guard Post at the Iron Gates of Barovia" - open
+*
+D 0 91078 1 2 100 0 0 0
+*     east exit from "Markovia Street" to
+*     "Bildrath's Mercantile" - closed/locked
+*
+D 0 91117 3 1 100 0 0 0
+*     west exit from "Bildrath's Mercantile" to
+*     "Markovia Street" - closed
+*
+D 0 91081 3 0 100 0 0 0
+*     west exit from "Bogdan Road" to
+*     "The Village Well of Barovia" - open
+*
+D 0 91141 1 0 100 0 0 0
+*     east exit from "The Village Well of Barovia" to
+*     "Bogdan Road" - open
+*
+D 0 91084 3 2 100 0 0 0
+*     west exit from "Bogdan Road" to
+*     "The Blood of the Vine Tavern" - closed/locked
+*
+D 0 91118 1 1 100 0 0 0
+*     east exit from "The Blood of the Vine Tavern" to
+*     "Bogdan Road" - closed
+*
+D 0 91095 2 2 100 0 0 0
+*     south exit from "Chapel Hill Street" to
+*     "Mad Mary's Townhouse" - closed/locked
+*
+D 0 91132 0 1 100 0 0 0
+*     north exit from "Mad Mary's Townhouse" to
+*     "Chapel Hill Street" - closed
+*
+D 0 91096 1 2 100 0 0 0
+*     east exit from "Dilapidated Iron Gates At the End of Chapel Hill Street" to
+*     "The Mansion of Burgomaster Kolyana" - closed/locked
+*
+D 0 91134 3 2 100 0 0 0
+*     west exit from "The Mansion of Burgomaster Kolyana" to
+*     "Dilapidated Iron Gates At the End of Chapel Hill Street" - closed/locked
+*
+D 0 91099 8 8 100 0 0 0
+*     northeast exit from "A Bend in a Leaf-Covered Road Between Light Trees" to
+*     "A Tree-Lined Hillside" - open/blocked
+*
+D 0 91147 7 4 100 0 0 0
+*     southwest exit from "A Tree-Lined Hillside" to
+*     "A Bend in a Leaf-Covered Road Between Light Trees" - open/secret
+*
+D 0 91101 3 0 100 0 0 0
+*     west exit from "A Bend in a Leaf-Covered Road Between Light Trees" to
+*     "A Recently-Breeched Home" - open
+*
+D 0 91143 1 0 100 0 0 0
+*     east exit from "A Recently-Breeched Home" to
+*     "A Bend in a Leaf-Covered Road Between Light Trees" - open
+*
+D 0 91106 0 2 100 0 0 0
+*     north exit from "Zarovich Way" to
+*     "Orbitian's Chamber of Arcana" - closed/locked
+*
+D 0 91142 2 2 100 0 0 0
+*     south exit from "Orbitian's Chamber of Arcana" to
+*     "Zarovich Way" - closed/locked
+*
+D 0 91108 0 2 100 0 0 0
+*     north exit from "Zarovich Way" to
+*     "Inside a Lookout Post" - closed/locked
+*
+D 0 91157 2 1 100 0 0 0
+*     south exit from "Inside a Lookout Post" to
+*     "Zarovich Way" - closed
+*
+D 0 91111 3 0 100 0 0 0
+*     west exit from "A Stone Road Before the Windmill of Barovia" to
+*     "The Creeky Interior of the Windmill of Barovia" - open
+*
+D 0 91135 1 0 100 0 0 0
+*     east exit from "The Creeky Interior of the Windmill of Barovia" to
+*     "A Stone Road Before the Windmill of Barovia" - open
+*
+D 0 91115 3 1 100 0 0 0
+*     west exit from "Before the Svalich Wood Doors of the Barovia Church" to
+*     "The Church of Barovia" - closed
+*
+D 0 91122 1 1 100 0 0 0
+*     east exit from "The Church of Barovia" to
+*     "Before the Svalich Wood Doors of the Barovia Church" - closed
+*
+D 0 91122 3 1 100 0 0 0
+*     west exit from "The Church of Barovia" to
+*     "The Cemetary of Barovia" - closed
+*
+D 0 91126 1 1 100 0 0 0
+*     east exit from "The Cemetary of Barovia" to
+*     "The Church of Barovia" - closed
+*
+D 0 91122 5 6 100 0 0 0
+*     down exit from "The Church of Barovia" to
+*     "A Hidden Church Basement" - closed/locked/secret
+*
+D 0 91123 4 1 100 0 0 0
+*     up exit from "A Hidden Church Basement" to
+*     "The Church of Barovia" - closed
+*
+D 0 91123 3 5 100 0 0 0
+*     west exit from "A Hidden Church Basement" to
+*     "A Well Concealed Containment Cell" - closed/secret
+*
+D 0 91124 1 5 100 0 0 0
+*     east exit from "A Well Concealed Containment Cell" to
+*     "A Hidden Church Basement" - closed/secret
+*
+D 0 91126 5 8 100 0 0 0
+*     down exit from "The Cemetary of Barovia" to
+*     "An Earthen Tunnel" - open/blocked
+*
+D 0 91127 4 0 100 0 0 0
+*     up exit from "An Earthen Tunnel" to
+*     "The Cemetary of Barovia" - open
+*
+D 0 91136 0 2 100 0 0 0
+*     north exit from "The Northern Gates of Barovia" to
+*     "Inside the Northern Village Gates" - closed/locked
+*
+D 0 91162 2 1 100 0 0 0
+*     south exit from "Inside the Northern Village Gates" to
+*     "The Northern Gates of Barovia" - closed
+*
+D 0 91148 0 1 100 0 0 0
+*     north exit from "A Leafy Enclosure Before a Cottage" to
+*     "A Grassy Garden Clearing" - closed
+*
+D 0 91150 2 1 100 0 0 0
+*     south exit from "A Grassy Garden Clearing" to
+*     "A Leafy Enclosure Before a Cottage" - closed
+*
+D 0 91150 0 0 100 0 0 0
+*     north exit from "A Grassy Garden Clearing" to
+*     "The Foyer of a Small Farm House" - open
+*
+D 0 91152 2 0 100 0 0 0
+*     south exit from "The Foyer of a Small Farm House" to
+*     "A Grassy Garden Clearing" - open
+*
+D 0 91164 0 2 100 0 0 0
+*     north exit from "A Burrow Before a Gateway" to
+*     "A Dimensional Corridor" - closed/locked
+*
+D 0 91166 2 1 100 0 0 0
+*     south exit from "A Dimensional Corridor" to
+*     "A Burrow Before a Gateway" - closed
+*
+D 0 91165 0 2 100 0 0 0
+*     north exit from "A Burrow Before a Gateway" to
+*     "A Dimensional Corridor" - closed/locked
+*
+D 0 91167 2 1 100 0 0 0
+*     south exit from "A Dimensional Corridor" to
+*     "A Burrow Before a Gateway" - closed
+*
+*
+O 0 91064 1 91012 100 0 0 0        * a hidden opening
+O 0 91013 9 91067 100 0 0 0        * debris and dismembered limbs
+O 0 91000 1 91070 100 0 0 0        * a dilapidated wooden sign
+O 0 91005 7 91070 100 0 0 0        * the remnants of a corpse
+O 0 91005 7 91071 100 0 0 0        * the remnants of a corpse
+O 0 91013 9 91071 100 0 0 0        * debris and dismembered limbs
+O 0 91012 2 91074 100 0 0 0        * an overturned wagon
+O 0 91013 9 91075 100 0 0 0        * debris and dismembered limbs
+O 0 91005 7 91077 100 0 0 0        * the remnants of a corpse
+O 0 91001 1 91078 100 0 0 0        * a wooden sign reading 'Bildrath's Mercantile'
+O 0 91013 9 91081 100 0 0 0        * debris and dismembered limbs
+O 0 91003 1 91084 100 0 0 0        * a battered wooden sign reading 'Blood of the Vine Tavern'
+O 0 91005 7 91088 100 0 0 0        * the remnants of a corpse
+O 0 91013 9 91094 100 0 0 0        * debris and dismembered limbs
+O 0 91005 7 91098 100 0 0 0        * the remnants of a corpse
+O 0 91024 1 91099 100 0 0 0        * a wrecked cart
+O 0 91005 7 91103 100 0 0 0        * the remnants of a corpse
+O 0 91013 9 91104 100 0 0 0        * debris and dismembered limbs
+O 0 91009 1 91106 100 0 0 0        * a sign reading 'Arcana'
+O 0 91013 9 91112 100 0 0 0        * debris and dismembered limbs
+O 0 91012 2 91114 100 0 0 0        * an overturned wagon
+O 0 91015 1 91116 100 0 0 0        * a silver horse shoe
+O 0 91017 1 91122 100 0 0 0        * the church altar
+P 1 91016 1 91017 100 0 0 0        *   a holy bible scribbled with notes
+P 1 91018 1 91017 100 0 0 0        *   a gold chalice
+P 1 91019 2 91017 100 0 0 0        *   a bottle of healing salve
+P 1 91019 2 91017 100 0 0 0        *   a bottle of healing salve
+O 0 91043 1 91125 100 0 0 0        * a golden compass locket
+O 0 91004 1 91126 100 0 0 0        * a half-buried coffin
+P 1 91005 7 91004 100 0 0 0        *   the remnants of a corpse
+P 1 91006 1 91004 100 0 0 0        *   a slender wooden baton
+O 0 91008 1 91126 100 0 0 0        * a stone grave marker of Mihail Lactu
+O 0 91013 9 91131 100 0 0 0        * debris and dismembered limbs
+O 0 91010 1 91134 100 0 0 0        * the dead body of Kolyan Indirovich
+P 1 91022 1 91010 100 0 0 0        *   a note from Kolyan Indirovich
+O 0 91027 1 91135 100 0 0 0        * a diamond engagement ring
+O 0 91013 9 91143 100 0 0 0        * debris and dismembered limbs
+O 0 91026 1 91151 100 0 0 0        * a rare engraved electrum coin
+O 0 91025 1 91155 100 0 0 0        * a pulsing orb
+*
+M 0 91002 1 91022 100 0 0 0        * the bartender
+M 0 91001 2 91022 100 0 0 0        * a quiet and tired inn patron
+M 0 91001 2 91022 100 0 0 0        * a quiet and tired inn patron
+M 0 91000 1 91022 100 0 0 0        * a Vistani messanger
+M 0 91006 1 91067 100 0 0 0        * Ashlyn, the undead hunter
+G 1 91011 1 0 100 0 0 0            *    a small journal bearing the symbol of Pelor
+M 0 91022 1 91067 100 0 0 0        * a bloody and nearly-defeated zombie
+M 0 91021 1 91068 100 0 0 0        * a terrified gate guard
+M 0 91020 3 91070 100 0 0 0        * a deathlock
+F 1 91019 2 91070 100 0 0 0        * a dismembered zombie (following)
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+F 1 91019 2 91070 100 0 0 0        * a dismembered zombie (following)
+E 1 91056 11 16 100 0 0 0          *   zombie proc 2
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91004 6 91070 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91052 5 17 100 0 0 0           *   carcass eater proc 2
+M 0 91004 6 91070 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91052 5 17 100 0 0 0           *   carcass eater proc 2
+M 0 91014 6 91071 100 0 0 0        * a giant dire maggot
+M 0 91014 6 91071 100 0 0 0        * a giant dire maggot
+M 0 91015 3 91071 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+G 1 91060 3 0 100 0 0 0            *    blood of the vargouille
+M 0 91015 3 91071 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+G 1 91060 3 0 100 0 0 0            *    blood of the vargouille
+M 0 91015 3 91071 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+G 1 91060 3 0 100 0 0 0            *    blood of the vargouille
+M 0 91004 6 91077 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91052 5 17 100 0 0 0           *   carcass eater proc 2
+M 0 91004 6 91077 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91014 7 17 100 0 0 0           *   carcass eater proc 1
+M 0 91017 2 91077 100 0 0 0        * a fiery-eyed ghast
+M 0 91017 2 91077 100 0 0 0        * a fiery-eyed ghast
+M 0 91028 2 91077 100 0 0 0        * a venomous black ghoul
+M 0 91028 2 91077 100 0 0 0        * a venomous black ghoul
+M 0 91014 6 91088 100 0 0 0        * a giant dire maggot
+M 0 91014 6 91088 100 0 0 0        * a giant dire maggot
+M 0 91027 2 91088 100 0 0 0        * a zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91029 2 91088 100 0 0 0        * a zombie
+E 1 91057 10 16 100 0 0 0          *   zombie proc 3
+E 1 91055 13 17 100 0 0 0          *   zombie proc 1
+M 0 91014 6 91098 100 0 0 0        * a giant dire maggot
+M 0 91004 6 91098 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91052 5 17 100 0 0 0           *   carcass eater proc 2
+M 0 91014 6 91103 100 0 0 0        * a giant dire maggot
+M 0 91004 6 91103 100 0 0 0        * a carcass eater
+E 1 91014 7 16 100 0 0 0           *   carcass eater proc 1
+E 1 91052 5 17 100 0 0 0           *   carcass eater proc 2
+M 0 91023 1 91116 100 0 0 0        * a lone draft horse
+M 0 91007 1 91117 100 0 0 0        * Bildrath
+M 0 91018 1 91117 100 0 0 0        * Parriwimple
+M 0 91010 1 91118 100 0 0 0        * Arik the barkeep
+M 0 91041 1 91118 100 0 0 0        * a tall, shifty-eyed Vistani
+F 1 91039 2 91118 100 0 0 0        * a Vistani brigand (following)
+F 1 91039 2 91118 100 0 0 0        * a Vistani brigand (following)
+M 0 91011 1 91119 100 0 0 0        * Ismark the lesser
+M 0 91042 4 91120 100 0 0 0        * a horrified villager
+M 0 91042 4 91120 100 0 0 0        * a horrified villager
+M 0 91043 6 91120 100 0 0 0        * a young villager
+M 0 91043 6 91120 100 0 0 0        * a young villager
+M 0 91043 6 91120 100 0 0 0        * a young villager
+M 0 91042 4 91121 100 0 0 0        * a horrified villager
+M 0 91042 4 91121 100 0 0 0        * a horrified villager
+M 0 91043 6 91121 100 0 0 0        * a young villager
+M 0 91043 6 91121 100 0 0 0        * a young villager
+M 0 91043 6 91121 100 0 0 0        * a young villager
+M 0 91020 3 91122 100 0 0 0        * a deathlock
+F 1 91027 2 91122 100 0 0 0        * a zombie (following)
+E 1 91056 11 16 100 0 0 0          *   zombie proc 2
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+F 1 91029 2 91122 100 0 0 0        * a zombie (following)
+E 1 91056 11 16 100 0 0 0          *   zombie proc 2
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+F 1 91020 3 91122 100 0 0 0        * a deathlock (following)
+M 0 91030 1 91122 100 0 0 0        * Danovich the Fallen Priest
+E 1 91059 1 16 100 0 0 0           *   danovich proc
+G 1 91002 1 0 100 0 0 0            *    a small and dirty iron key
+M 0 91031 1 91124 100 0 0 0        * Doru, the infectious blaspheme
+G 1 91036 1 0 100 0 0 0            *    the heart of blaspheme
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 360 3 0 100 0 0 0              *    (object type not in this .obj file)
+F 1 91032 1 91124 100 0 0 0        * Thendrick the baneguard (following)
+E 1 91063 1 5 100 0 0 0            *   a suit of platinum plate bearing the crest of Pelor
+E 1 91058 2 16 100 0 0 0           *   a massive blood-stained holy avenger
+F 1 91033 1 91124 100 0 0 0        * Mathilda the deathlock (following)
+E 1 91021 1 24 100 0 0 0           *   a small bloody holy symbol brooch
+E 1 91058 2 16 100 0 0 0           *   a massive blood-stained holy avenger
+M 0 91044 1 91126 100 0 0 0        * an ascending spirit
+M 0 91036 4 91128 100 0 0 0        * a gravetouched ghoul harpy
+M 0 91035 4 91128 100 0 0 0        * a stinking ghast
+G 1 91007 1 0 100 0 0 0            *    a set of gem-studded gold cufflinks
+M 0 91040 1 91131 100 0 0 0        * Ghouray, the slaughterer
+E 1 91048 1 7 100 0 0 0            *   a pair of blood-stained wyrm scale leggings
+E 1 91023 4 16 100 0 0 0           *   a blood-soaked cleaver
+E 1 91023 4 17 100 0 0 0           *   a blood-soaked cleaver
+G 1 91023 4 0 100 0 0 0            *    a blood-soaked cleaver
+G 1 91023 4 0 100 0 0 0            *    a blood-soaked cleaver
+M 0 91052 1 91133 100 0 0 0        * Mad Mary
+M 0 91012 1 91134 100 0 0 0        * Ireena Kolyana
+M 0 91049 1 91135 100 0 0 0        * a banshee spectre
+M 0 91026 1 91137 100 0 0 0        * the zombie of Elax Berak
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+G 1 91046 1 0 100 0 0 0            *    a silver spoon
+M 0 91024 1 91138 100 0 0 0        * the zombie of Stram Etush
+E 1 91056 11 16 100 0 0 0          *   zombie proc 2
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+G 1 91042 1 0 100 0 0 0            *    a golden wrench
+M 0 91013 1 91142 100 0 0 0        * Orbitian the mystic
+E 1 91032 1 1 20 0 0 0             *   a serpentine diorite band
+E 1 91033 1 2 20 0 0 0             *   a spider-shaped diorite ring
+E 1 91030 1 14 20 0 0 0            *   a carved diorite bracer
+E 1 91031 1 15 20 0 0 0            *   a carved diorite bracer
+E 1 91029 1 21 20 0 0 0            *   a tiny diorite ear stud
+G 1 91034 1 0 20 0 0 0             *    a hammer-headed wand
+M 0 91025 1 91143 100 0 0 0        * an infected zombie
+E 1 91057 10 16 100 0 0 0          *   zombie proc 3
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91035 4 91144 100 0 0 0        * a stinking ghast
+G 1 91044 1 0 100 0 0 0            *    a small delicate bell
+M 0 91036 4 91144 100 0 0 0        * a gravetouched ghoul harpy
+M 0 91037 1 91144 100 0 0 0        * Inka, the gravetouched ghoul monk
+G 1 38715 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 38715 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 91035 4 91145 100 0 0 0        * a stinking ghast
+M 0 91036 4 91145 100 0 0 0        * a gravetouched ghoul harpy
+M 0 91035 4 91146 100 0 0 0        * a stinking ghast
+M 0 91036 4 91146 100 0 0 0        * a gravetouched ghoul harpy
+M 0 91045 9 91150 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91150 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91048 1 91151 100 0 0 0        * Valesta the Vistani Saboteur
+E 1 91040 1 13 100 0 0 0           *   a utility belt of poisoning agents
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+E 1 91045 1 24 100 0 0 0           *   a thin adamantium hair pin
+M 0 91045 9 91152 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91152 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91152 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91153 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91153 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91154 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91045 9 91154 100 0 0 0        * a grinning Vistani rogue
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+M 0 91047 5 91156 100 0 0 0        * a bloodthirsty assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91047 5 91156 100 0 0 0        * a bloodthirsty assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91047 5 91156 100 0 0 0        * a bloodthirsty assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91047 5 91156 100 0 0 0        * a bloodthirsty assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91047 5 91156 100 0 0 0        * a bloodthirsty assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91046 1 91156 100 0 0 0        * Hossa the Ambush Leader
+E 1 91041 1 5 100 0 0 0            *   some bandedmail bearing a cloak and dagger crest
+E 1 91050 1 16 100 0 0 0           *   a diorite shard named 'Seeker'
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+G 1 91038 1 0 100 0 0 0            *    a note and ambush plan
+M 0 91050 1 91157 100 0 0 0        * Ephon Arbury the guard
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+F 1 91008 10 91158 100 0 0 0       * a vicious black dire wolf (following)
+F 1 91008 10 91158 100 0 0 0       * a vicious black dire wolf (following)
+F 1 91008 10 91158 100 0 0 0       * a vicious black dire wolf (following)
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91009 5 91158 100 0 0 0        * a stealthy Vistani assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91009 5 91158 100 0 0 0        * a stealthy Vistani assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91051 3 91158 100 0 0 0        * a hulking treant
+M 0 91051 3 91158 100 0 0 0        * a hulking treant
+M 0 91051 3 91158 100 0 0 0        * a hulking treant
+M 0 91054 4 91158 100 0 0 0        * a shambling mound
+M 0 91054 4 91158 100 0 0 0        * a shambling mound
+M 0 91054 4 91158 100 0 0 0        * a shambling mound
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+M 0 91054 4 91158 100 0 0 0        * a shambling mound
+M 0 91053 6 91158 100 0 0 0        * a huge dire wolf
+M 0 91008 10 91158 100 0 0 0       * a vicious black dire wolf
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91055 13 17 100 0 0 0          *   zombie proc 1
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91056 11 16 100 0 0 0          *   zombie proc 2
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91055 13 17 100 0 0 0          *   zombie proc 1
+M 0 91005 5 91159 100 0 0 0        * a deathlock
+M 0 91005 5 91159 100 0 0 0        * a deathlock
+M 0 91005 5 91159 100 0 0 0        * a deathlock
+M 0 91005 5 91159 100 0 0 0        * a deathlock
+M 0 91005 5 91159 100 0 0 0        * a deathlock
+M 0 91009 5 91159 100 0 0 0        * a stealthy Vistani assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91009 5 91159 100 0 0 0        * a stealthy Vistani assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91009 5 91159 100 0 0 0        * a stealthy Vistani assassin
+E 1 91049 40 16 100 0 0 0          *   a Vistani dagger
+E 1 91049 40 17 100 0 0 0          *   a Vistani dagger
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91038 8 91159 100 0 0 0        * an infected zombie rat
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91056 11 17 100 0 0 0          *   zombie proc 2
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91016 7 91159 100 0 0 0        * an entomber
+E 1 91053 14 16 100 0 0 0          *   entomber proc
+E 1 91053 14 17 100 0 0 0          *   entomber proc
+M 0 91003 8 91159 100 0 0 0        * an infectous zombie
+E 1 91055 13 16 100 0 0 0          *   zombie proc 1
+E 1 91057 10 17 100 0 0 0          *   zombie proc 3
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91034 7 91159 100 0 0 0        * a vargouille
+E 1 91054 20 16 100 0 0 0          *   vargouillie proc
+E 1 91054 20 17 100 0 0 0          *   vargouillie proc
+M 0 91055 1 91160 100 0 0 0        * Chugthergunaxl, the abomination
+G 1 91051 1 0 100 0 0 0            *    a diorite cross wrapped in skin
+M 0 91056 1 91160 100 0 0 0        * Keldar SouthBreeze, the fallen hero
+E 1 91062 1 3 100 0 0 0            *   a studded dragonscale neckguard
+E 1 91061 2 16 100 0 0 0           *   a bloody black steel rapier
+E 1 91061 2 17 100 0 0 0           *   a bloody black steel rapier
+*
+S

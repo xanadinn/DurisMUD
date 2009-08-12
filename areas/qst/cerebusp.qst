@@ -1,0 +1,109 @@
+#22006
+Q
+'Eeek blah blah ek ek blah!'
+~
+R I 22028
+G I 22013
+G I 22015
+G I 22015
+G I 22017
+G I 22017
+Q
+'Eeeeeek! Blah blah blah blah ek!'
+~
+R I 22061
+G I 22014
+G I 22014
+G I 22014
+G I 22014
+G I 22017
+Q
+'Ek blah blah!!'
+~
+R I 22062
+G I 22013
+G I 22015
+G I 22014
+G I 22014
+G I 22016
+S
+#22007
+M
+hello~
+&+LThe Mercenary smiles when you greet him.  He waves his hand over
+&+Lthe fields as he begins to reply.&n
+&+W"Hello fellow travellers, welcome to the &+YSavannah&+W.  We are travelling
+&+Wfrom &+MMyrabolus&+W in search of &+Ytreasure&+W.  We heard rumors that one of
+&+Wthe &+LPits&+W contains much more wealth than the others, but the entrance
+&+Wis atop the mountain peak hidden within the rocks so we brought
+&+Wthis large &+Lprybar&+W.  We would gladly exchange the &+Lprybar&+W but don't
+&+Wwish to go home empty handed, perhaps a trade for &+Ytreasure&+W would be
+&+Win order."&n
+~
+M
+treasure~
+&+LThe Soldier of &+YFortune&+L nods.&n
+&+W"If you wish to trade us for the &+Lprybar&+W we would ask for the
+&+Ytreasure&+W from two of the other &+LPits&+W.  Maybe the rumored &+yscepter&+W,
+&+Wor the &+Bgauntlets&+W, or even the &+Bbrazier&+W.  Any of the three will do."&n
+~
+Q
+&n'Thanks. As promised, take this &+Lprybar&n.'
+~
+R I 22009
+G I 22021
+Q
+&n'Thanks. As promised, take this &+Lprybar&n.'
+~
+R I 22009
+G I 22004
+Q
+&n'Thanks. As promised, take this &+Lprybar&n.'
+~
+R I 22009
+G I 22045
+S
+#22029
+M
+hello~
+'Oh please no hurt me! Me crafty imp, me make what you want. What you
+want? Maybe key? Maybe not key, what other goods then?'
+~
+M
+key~
+'Oh please don't hurt me! I will make a key for you good, but I need
+some things. Some strong things. Maybe rope things. I will make
+key yes, but no hurt imp!'
+~
+M
+goods~
+'Hm me thinks I could put something together, but me would need something
+very &+Wlong&n and very &+Wstrong&n, and of course me will need to tie it all,
+yes.'
+~
+Q
+'That good key I made for you yes, it will open rock for you, maybe break
+maybe not.'
+~
+R I 22024
+G I 22023
+G I 22022
+G I 22025
+Q
+'Ah yes yes, me make you good thing, enjoy nicely yes.'
+~
+R I 22048
+G I 22046
+G I 22047
+S
+#22048
+Q
+&+LThe golem's hand grasp the four badges, crushing them. When
+&+Lhis granite hand reopens there is a key in its palm.&n
+~
+R I 22042
+G I 22038
+G I 22039
+G I 22040
+G I 22041
+S

@@ -1,0 +1,91 @@
+#21514
+M
+weep weeping~
+"I am weeping because I cannot &+Wwake&n up the &+gT&+ro&+gr&n. They are powerful
+dryads, you know. They are sentient, but now that intelligence sleeps deep
+within them and cannot be reached.  I fear something is wrong with the &+rking&n,
+and that sickness is spreading to the prime tree.  Once the prime tree became
+corrupted, all of &+gAravne&n reflects the perversion inside the tree in various
+ways. I have managed to steal the two most powerful magics from the &+rking&n,
+his sword and gloves.  I will hold them safe here until I can gain &+Rproof&n
+of the evils eradication.  Will you find me that &+Rproof&n? In return I will
+give you the objects I have stolen.  They contain great magic.
+Furthermore, I will grant you access to the throne room of the King of
+Aravne!"
+~
+M
+proof~
+"Excellent.  Here is the proof I require - the bloody heart of the following
+creatures and people who have been corrupted.  They are:
+
+  Enzekail the bandit, the prime male weretor, the prime female weretor,
+  the material projection of Auruos, the material projection of Solos,
+  the lich Barbrathos, the gladiator Grgak, the gladiator Akethis, the
+  ki-rin Akiniere.
+
+Bring me all of their hearts and the sword and gloves are yours."
+~
+M
+hi hello quest crying~
+&+gAnasenthe&N ignores you and continues to &+Wweep&N.
+~
+Q
+"Excellent.  The shadows of hatred and evil have been cleansed!"&n
+
+"I have something that will be of immense interest to you.  Behold,
+the key to the throne room of the King of Aravne!  Slay the King and
+his advisors, and return their hearts to me.  You will be well
+rewarded!"
+~
+R I 21663
+R E 250000
+G I 21649
+G I 21650
+G I 21651
+G I 21652
+G I 21653
+G I 21654
+G I 21655
+G I 21656
+G I 21657
+Q
+"Adventurer, you have done it!  The curse upon this glorious land is now
+closer than ever to being lifted.  You well deserve this reward --
+hero!"
+~
+R I 21661
+R I 21662
+R E 300000
+G I 21658
+G I 21659
+G I 21660
+S
+#21535
+M
+qc_action 45~
+&+yBabedo &nstretches his hairy toes for a moment.
+&+yBabedo &nnods at a fellow patron.
+&+yBabedo &nrolls on the floor laughing.
+~
+M
+qc_action 48~
+&+yBabedo&n looks at you for a moment, sizing you up.
+&+yBabedo&n says in halfling 'Heh, you seem like one of them types. You know,
+the lucky sort.'
+&+yBabedo&n snickers softly.
+~
+M
+qc_action 48~
+&+yBabedo&n says in halfling 'Eh? I can show you how to use yer luck. It's
+gotten me out of many a tight spot!'
+&+yBabedo&n shivers for a moment.
+~
+Q
+You feel as though things are finally going your way. Suddenly, a scroll pops
+into your hands!
+~
+R I 409
+G I 32490
+G I 26614
+G I 402
+S

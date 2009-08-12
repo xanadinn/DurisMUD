@@ -1,0 +1,91 @@
+#545
+&+LThe Tunnels of Cyric the Destroyer~
+54581 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 54506 2 8 100 0 0 0
+*     south exit from "A Rocky Cave-in" to
+*     "A Rocky Cave-in" - open/blocked
+*
+D 0 54507 0 8 100 0 0 0
+*     north exit from "A Rocky Cave-in" to
+*     "A Rocky Cave-in" - open/blocked
+*
+D 0 54519 5 10 100 0 0 0
+*     down exit from "A Large Stone Clearing with a Statue" to
+*     "A Dark Staircase" - closed/locked/blocked
+*
+D 0 54562 4 1 100 0 0 0
+*     up exit from "A Dark Staircase" to
+*     "A Large Stone Clearing with a Statue" - closed
+*
+D 0 54535 2 2 100 0 0 0
+*     south exit from "A Runed Tunnel Before a Dark Chamber Door" to
+*     "A Dark Chamber of Sacrifice" - closed/locked
+*
+D 0 54537 0 1 100 0 0 0
+*     north exit from "A Dark Chamber of Sacrifice" to
+*     "A Runed Tunnel Before a Dark Chamber Door" - closed
+*
+D 0 54580 0 1 100 0 0 0
+*     north exit from "A Pillowed Chamber Before the Altar of Cyric" to
+*     "The Stone Altar of Cyric the Destroyer" - closed
+*
+D 0 54581 2 1 100 0 0 0
+*     south exit from "The Stone Altar of Cyric the Destroyer" to
+*     "A Pillowed Chamber Before the Altar of Cyric" - closed
+*
+*
+O 0 54500 1 54506 100 0 0 0        * several rocks
+O 0 54501 1 54507 100 0 0 0        * several rocks
+O 0 54502 1 54519 100 0 0 0        * a statue of Cyric the Destroyer
+O 0 54506 1 54565 100 0 0 0        * a dark silver plaque
+O 0 54507 1 54576 100 0 0 0        * a large fountain of blood
+*
+M 0 54502 6 54509 100 0 0 0        * a large bat
+M 0 54502 6 54512 100 0 0 0        * a large bat
+M 0 54501 4 54521 100 0 0 0        * a flaming skeleton
+M 0 54501 4 54523 100 0 0 0        * a flaming skeleton
+M 0 54501 4 54523 100 0 0 0        * a flaming skeleton
+M 0 54501 4 54529 100 0 0 0        * a flaming skeleton
+M 0 54502 6 54531 100 0 0 0        * a large bat
+M 0 54505 3 54531 100 0 0 0        * a decaying zombie
+M 0 54502 6 54534 100 0 0 0        * a large bat
+M 0 54503 3 54534 100 0 0 0        * a wandering zombie
+M 0 54503 3 54534 100 0 0 0        * a wandering zombie
+M 0 54500 2 54535 100 0 0 0        * a decaying zombie sentry
+G 1 54503 1 0 100 0 0 0            *    a small diorite key
+M 0 54503 3 54535 100 0 0 0        * a wandering zombie
+M 0 54507 2 54536 100 0 0 0        * a dark spectre
+M 0 54507 2 54536 100 0 0 0        * a dark spectre
+M 0 54500 2 54537 100 0 0 0        * a decaying zombie sentry
+M 0 54504 1 54539 100 0 0 0        * a fanatical necromancer
+E 1 54505 1 6 100 0 0 0            *   a dark runed hood
+E 1 54504 1 18 100 0 0 0           *   a runed key
+M 0 54508 2 54540 100 0 0 0        * a partially decayed zombie
+M 0 54506 2 54541 100 0 0 0        * a skeleton of a humanoid
+M 0 54506 2 54543 100 0 0 0        * a skeleton of a humanoid
+M 0 54508 2 54544 100 0 0 0        * a partially decayed zombie
+M 0 54505 3 54548 100 0 0 0        * a decaying zombie
+M 0 54505 3 54550 100 0 0 0        * a decaying zombie
+M 0 54502 6 54556 100 0 0 0        * a large bat
+M 0 54502 6 54559 100 0 0 0        * a large bat
+M 0 54514 1 54563 100 0 0 0        * a tormented spirit
+M 0 54510 3 54566 100 0 0 0        * a maniacal worshipper
+M 0 54510 3 54566 100 0 0 0        * a maniacal worshipper
+M 0 54510 3 54568 100 0 0 0        * a maniacal worshipper
+M 0 54509 3 54571 100 0 0 0        * a maniacal worshipper
+M 0 54509 3 54575 100 0 0 0        * a maniacal worshipper
+M 0 54509 3 54577 100 0 0 0        * a maniacal worshipper
+M 0 54511 3 54580 100 0 0 0        * an entranced follower
+M 0 54511 3 54580 100 0 0 0        * an entranced follower
+M 0 54511 3 54580 100 0 0 0        * an entranced follower
+M 0 54512 1 54581 100 0 0 0        * the high priest of Cyric
+E 1 54509 1 15 100 0 0 0           *   a wristband of suffering
+F 1 54513 1 54581 100 0 0 0        * an imp servant (following)
+E 1 54508 1 16 100 0 0 0           *   a bloody sacrimental dagger
+M 0 54515 1 54581 100 0 0 0        * an imp servant
+*
+S

@@ -1,0 +1,188 @@
+#5750
+M
+waittress~
+&+WThe dishwashers pauses before saying, 'She's supposed to share her tips with&n
+&+Wthe dishwasher.. But does she? Noooo she's too good for that!'&n
+~
+Q
+&+cThe dishwasher laughs and says, 'I don't know how you got this but I&n
+&+cappreciate your helping me out.  Did you know the owner of this tavern&n
+&+cis a notorious&n &+Ccutpurse&+c?'&n
+~
+G I 5750
+S
+#5767
+S
+#5786
+S
+#5797
+M
+bastard driedel~
+&+WA groaning spirit tells you, 'King Driedel brought fire and ruin upon
+&+Wus all! We did not deserve to die! Now, begone and leave me to my agony.'
+~
+S
+#5800
+M
+driedel~
+&+L"This post is my existance and my life, even after death. That fool
+&+LKing Driedel, he ruined us all and our beloved city, far before our
+&+Ltime. In defiance of his mockish dealings with the forces of darkness,
+&+LI shall stand my post for all eternity!"
+~
+M
+worach~
+&+LThe knight buckles over in pain upon hearing his former name. He
+&+Lregains his composure quickly and fixes on you with a stern gaze.
+
+&+W"Yes, that is my true name! It saddens me greatly to hear it once again.
+&+WI have stood at this horrid post for far too long! Freedom is all I can
+&+Whope for in these lonely days. Please, find a way to free my soul! If
+&+Wyou can bring me proof that my soul can finally rest, I shall reward
+&+Wyou kindly. Start your quest in the dungeons below the city. There you
+&+Wwill find a labyrinth. The safest way through is: east,south,east,
+&+Weast,west,south,east,east. Good luck...
+~
+Q
+Worach slowely reads the parchment. After he is done, he looks up at
+you with &+Rburning red&N eyes.
+&+W"You have released me. Take this, it may aid you in your quest."
+~
+R I 5794
+G I 5804
+D
+&+LA dark aura overcomes Worach, as he is dragged away my unseen powers.
+~
+S
+#5801
+M
+driedel~
+&+w"King Driedel single-handedly destroyed this city and all of his loyal
+&+wminions. Even in death, some cannot forgive him. A good king such as he
+&+wshould not have meddled with such dark forces he did not understand.
+&+wTzultaire was once a prospering city with much to offer before all this
+&+wpresent destruction came about."
+~
+Q
+&+w"Ah yes, these are pieces of the Great sword known as &+BMajik&+w, I
+&+wremember them well. I shall now join them for you..."
+~
+R I 5805
+G I 5793
+G I 5794
+G I 5795
+G I 5806
+D
+After completing the sword, the old man grins at you and runs into the forest.
+The foliage seems to part as he approaches and flows shut behind him.
+~
+S
+#5813
+M
+qc_action 50~
+&+RThrulmar &+Gglows brightly with a hazy green aura.
+~
+M
+qc_action 50~
+&+RThrulmar &+Lfades in and out of existence.
+~
+M
+qc_action 50~
+&+RThrulmar's voice enters your head 'Greetings traveller.  My intensions are
+&+Rpurer then my appearance.'
+~
+MA
+hi hello~
+   &+RThrulmar's voice pounds itself into your brain 'Greetings traveller. I am
+&+RField Marshall Thrulmar, commander of the third batallion for the Tharnadian
+&+RAlliance.  The rocks of this Black Mountain has been my cage for the past
+&+Rseveral thousand years.  These mountains aren't the only thing corrupting
+&+Rthis land, however.  There is a blood red rock that grows into shards that
+&+Rform what are  called blood gems.'
+~
+MA
+blood gem shards~
+&+RThe undead apparition of Thrulmar nods and his voice continues
+&+R'I can extract the power from those evil shards into my own purgatorial
+&+Rprison!  I can then further craft for you any of the five following types
+&+Bof equipment, simply ask me what is needed for the following:'
+&+Wlegplates
+&+Warmplates
+&+Wgloves
+&+Wboots
+~
+M
+legplates~
+&+RThrulmar's voice commands:
+&+WI will require:
+&+Wsome ghostly leggings
+&+W5x &+ra huge &+Rblood crystal
+&+W400 platinum coins
+~
+M
+armplates~
+&+RI will require:
+&+Wsome ghostly sleeves
+&+W5x &+ra huge &+Rblood crystal
+&+W400 platinum
+~
+M
+gloves~
+&+RI will require:
+&+Wsome ghostly gloves
+&+W5x &+ra huge &+Rblood crystal&N
+&+W400 platinum
+~
+M
+boots~
+&+RI will require:
+&+Wsome ghostly boots&N
+&+W5x &+ra huge &+Rblood crystal&N
+&+W400 platinum
+~
+Q
+&+RThrulmar takes the ingredients and before you realize it, he hands you
+&+Ryour reward...
+~
+R I 5815
+G I 5811
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G C 400000
+Q
+&+RBefore you can react, Thrulmar hands you your reward...
+~
+R I 5816
+G I 5812
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G C 400000
+Q
+&+RBefore you know it, Thrulmar hands you your reward...
+~
+R I 5817
+G I 5813
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G C 400000
+Q
+&+RThrulmar returns your reward almost as fast as you give him the agents.
+~
+R I 5818
+G I 5814
+G C 400000
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+G I 500025
+S

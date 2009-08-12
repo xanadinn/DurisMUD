@@ -1,0 +1,402 @@
+#96900
+beetle~
+&+La beetle&N~
+&+LA beetle slowly crawls around here.&N
+~
+   This beetle is as big as a baby troll, and eats various fungus that reside
+in this part of the caves.  The beetle is peaceful and smell funny as to give
+warning to the other wildlife here that it doesn't taste very good.
+~
+72 0 0 0 0 0 0 0 S
+I 0 0 -1
+2 20 93 2d15+7 1d5+0
+0.0.0.0 259
+8 8 0
+#96901
+fungus~
+&+Yan insect-eating fungus&N~
+A &+Yslimy fungus&N drips, looking to find an unsuspecting insect.&N
+~
+   This fungus is unusual as it digests insects should they fall into the
+fungus.  The insect-eating fungus is a species related to the slimes found
+in the hotter sections of this cave.
+~
+8 0 0 0 0 0 0 0 S
+I 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#96902
+slime green~
+&+Ga green slime&N~
+&+GA green slime pours itself across the room.&N
+~
+   &+GThis green slime is a derivative of a fungus, evolved to hunt various
+&+Gsmall insects and feed on the rotting corpses of bigger animals.  The slime
+&+Ghas no regard for life and takes over everything.
+~
+74 1 0 33554464 0 0 0 0 S
+A 0 0 -1
+4 20 87 4d15+14 1d5+0
+0.0.0.0 518
+8 8 0
+#96903
+slime red~
+&+ra red slime&N~
+&+rA red slime pours itself across the room.&N
+~
+   &+rThis red slime is a derivative of a fungus, evolved to hunt various
+&+rsmall insects and feed on the rotting corpses of bigger animals.  The slime
+&+rhas no regard for life and takes over everything.
+~
+2122 1 0 33554464 0 0 0 0 S
+A 0 0 -1
+6 18 80 6d18+21 2d3+1
+0.0.0.0 777
+8 8 0
+#96904
+slime metal~
+&+La metal slime&N~
+&+LA metal slime pours itself across the room.&N
+~
+   &+LThis metal slime is a derivative of a fungus, evolved to hunt various
+&+Lsmall insects and feed on the rotting corpses of bigger animals.  The slime
+&+Lhas no regard for life and takes over everything.  They evolved their metal
+&+Lcapacity from the strange organic metals molten in nearby lava caves.
+~
+74 1 0 33554464 0 0 0 0 S
+A 0 0 -1
+10 18 67 10d18+35 2d3+1
+0.0.0.0 1296
+8 8 0
+#96905
+gnome~
+&+Ra small gnome&N~
+&+RA small outcasted mountain gnome stands here staring in disbelief.&N
+~
+   &+RThis gnome was outcasted from his town and now lives in these caves in
+&+Rorder to escape persecution.  He is hardly clothed and his skin is wrinkled
+&+Rfrom his hardships in the caves.  Although small and weak, he is fast and
+&+Rvery intellegent.
+~
+10 1 0 33554440 0 0 0 -1000 S
+PG 0 512 -1
+16 13 48 16d24+80 3d4+2
+8.6.2.0 7776
+8 8 1
+#96906
+troll slave~
+&+ga small troll slave&N~
+&+gA slaved troll stands here protecting her master.&N
+~
+   This child troll was enslaved by her master to help mine the rocks around
+the cave.  The troll is frightened by the awesome sight of magic and is
+deathly afraid of the magic used to enslave her.
+~
+8 1 0 0 0 0 0 -1000 S
+PT 10 1 -1
+13 15 58 13d27+78 2d5+2
+6.5.2.0 6318
+8 8 2
+#96907
+swamp fish~
+&+Ga swamp fish&N~
+&+GA swamp fish swims here waiting to attack anything that moves.&N
+~
+   This &+Gswamp fish&N is a carnivorous fish that eats small insects as well
+as larger dead animals.  Very aggressive, this fish will defend its territory
+with a vengeance.
+~
+262280 1 0 33556480 0 0 0 0 S
+F 0 0 -1
+7 18 77 7d18+24 2d3+1
+0.0.0.0 907
+12 12 0
+#96908
+lizard~
+&+ga GIGANTIC water lizard&N~
+&+gA GIGANTIC water lizard swims here protecting her young.&N
+~
+   This water lizard is absolutely huge in proportions.  Bigger than two adult
+ogres, this lizard defends her nest with a deadly aggressive attitude.
+~
+262154 1 0 33556512 0 0 0 0 S
+R 0 0 -1
+25 -1 -69 45d90+1935 6d6+12
+0.0.0.0 109350
+12 12 2
+#96909
+centipede blue~
+&+Ba strangely blue centipede&N~
+&+BA blue centipede crawls around here.&N
+~
+   &+BA blue centipede has large pincers as well as hundreds of legs.  Hardly
+&+Bbig at all, this insect is an easy kill.
+~
+8 0 0 0 0 0 0 0 S
+I 0 0 -1
+2 20 93 2d15+7 1d5+0
+0.0.0.0 259
+8 8 0
+#96910
+snake~
+&+ga small snake&N~
+&+gA small snake slithers around.&N
+~
+   This snake is small and could hardly hurt a child; however, the snake is
+fairly poisonous evident from the diamond markings all over it.
+~
+8 0 0 0 0 0 0 0 S
+RS 0 0 -1
+5 20 83 5d15+17 1d5+0
+0.0.0.0 648
+8 8 0
+#96911
+mosquitoes swarm~
+&+Ra steaming swarm of mosquitoes&N~
+&+RA swarm of hot mosquitoes fly around looking to suck some blood.&N
+~
+   These mosquitoes are adapted to the hot environment with tough but light
+exoskeletons.  The mosquitoes are huge and very quick.
+~
+10 1 0 0 0 0 0 0 S
+I 0 0 -1
+7 18 77 7d18+24 2d3+1
+0.0.0.0 907
+8 8 0
+#96912
+lizard~
+&+Ga large lizard&N~
+&+GA large lizard stands here looking for some food.&N
+~
+   This lizard enjoys the hot environment and seems to be more energetic
+because of the heat.
+~
+8 0 0 0 0 0 0 0 S
+R 0 0 -1
+4 20 87 4d15+14 1d5+0
+0.0.0.0 518
+8 8 0
+#96913
+ogre outlaw~
+&+ban ogre outlaw&N~
+&+bAn ogre outlaw stares at you in disbelief.&N
+~
+   &+BThis young ogre is an outlaw of his town and has taken a home here in
+&+Bthe caves to escape persecution for his crimes.  He enjoys eating troll
+&+Bchildren who stray from their parents.
+~
+10 1 0 33554432 0 0 0 -1000 S
+PO 0 1 -1
+19 13 39 19d35+133 3d4+2
+9.7.3.0 9234
+8 8 1
+#96914
+swamp rat~
+&+ga small swamp rat&N~
+&+gA swamp rat scurries around in the dark.&N
+~
+   This rat has strange webbed feet made for traveling in the watery swamps.
+With large beady eyes and very sharp teeth, this rat hisses at everything in
+sight.  The rat is paranoid and aggressive.
+~
+136 1 0 32 0 0 0 0 S
+A 0 0 -1
+6 18 80 6d18+21 2d3+1
+0.0.0.0 777
+8 8 0
+#96915
+shaman troll~
+&+ga young troll shaman&N~
+&+gA troll shaman stands here trying to meditate.&N
+~
+   This troll has just started learning his prayers.  He comes here for
+solitude and to practice his prayers and seems to be annoyed at any
+disturbance.
+~
+10 1 0 10 0 0 0 -900 S
+PT 10 256 -1
+17 13 45 17d33+102 3d4+2
+8.6.2.0 8262
+8 8 1
+#96916
+hraaf troll blacksmith~
+&+gHraaf, the troll blacksmith&N~
+&+gHraaf, a weapons blacksmith&N is pounding on an anvil.
+~
+   Hraaf is a troll blacksmith that specializes in weapons made of precious
+rocks and stones.  She has huge bulging muscles and is as smart and wise as
+she is strong.  She is able to bless her creations as she makes them.
+~
+2058 72 0 65544 2048 0 0 -900 S
+PT 10 32 -1
+47 -3 -75 47d110+2538 6d6+25
+7.0.0.5 114210
+8 8 2
+#96917
+snake~
+&+ga small snake&N~
+&+gA small snake slithers around.&N
+~
+   This snake is small and could hardly hurt a child; however, the snake is
+fairly poisonous evident from the diamond markings all over it.
+~
+8 1 0 0 0 0 0 0 S
+RS 0 0 -1
+8 18 74 8d18+28 2d3+1
+0.0.0.0 1036
+8 8 0
+#96918
+lizard~
+&+Ga large lizard&N~
+&+GA large lizard stands here looking for some food.&N
+~
+   This lizard enjoys the hot environment and seems to be more energetic
+because of the heat.
+~
+8 1 0 0 0 0 0 0 S
+R 0 0 -1
+10 18 67 10d18+35 2d3+1
+0.0.0.0 1296
+8 8 0
+#96919
+troll foreman~
+&+ga troll mining foreman&N~
+&+gA troll mining foreman&N stands here glaring at you.
+~
+   This &+gtroll&N heads the mining expedition in these caves.  Very bitter,
+he's intensely jealous of any strangers wandering in his caves.  He suspects
+everyone of stealing and guards himself accordingly.
+~
+10 1 0 0 0 0 0 -1000 S
+PT 10 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#96920
+troll miner~
+&+ga troll miner&N~
+&+gA troll miner&N stands here studying the rocks.
+~
+   This &+gtroll&N is an expert at minerals and precious rocks.  He looks
+dirty and seems to have been working here for years.  His hands are huge and
+his feet are swollen, but he experiences no pain.
+~
+8 1 0 0 0 0 0 -1000 S
+PT 10 1 -1
+8 18 74 8d21+44 2d3+1
+4.2.0.0 1036
+8 8 1
+#96921
+troll miner~
+&+ga troll miner&N~
+&+gA troll miner&N stands here studying the rocks.
+~
+   This &+gtroll&N is an expert at minerals and precious rocks.  He looks
+dirty and seems to have been working here for years.  His hands are huge and
+his feet are swollen, but he experiences no pain.
+~
+8 1 0 0 0 0 0 -1000 S
+PT 10 1 -1
+15 15 51 15d27+90 2d5+2
+7.6.2.0 7290
+8 8 1
+#96922
+swamp fish~
+&+Ga swamp fish&N~
+&+GA swamp fish swims here waiting to attack anything that moves.&N
+~
+   This &+Gswamp fish&N is a carnivorous fish that eats small insects as well
+as larger dead animals.  Very aggressive, this fish will defend its territory
+with a vengeance.
+~
+262280 1 0 33556480 0 0 0 0 S
+F 0 0 -1
+12 15 61 12d23+48 2d5+2
+0.0.0.0 5832
+12 12 0
+#96923
+thief~
+&+Lan outlawed thief&N~
+&+LAn outlawed thief stands here with a grinning smirk.&n
+~
+   This thief is incredibly cruel and was outlawed from the evil towns of
+Ghore and Faang because of his evil tactics.  Although young and somewhat
+inexperienced, he is the purest of evils.  He has gained special spells and
+skills through treachery and cheating, and he uses them without discipline
+or regards to himself or others.
+~
+1073741832 1 0 1572912 2048 0 0 -1000 S
+PT 0 8192 -1
+20 13 35 20d30+100 3d4+2
+0.9.3.0 9720
+8 8 1
+#96924
+blue spider~
+&+Ba blue spider&n~
+A &+Bblue spider&n spins its web in these trees.
+~
+   This &+Bblue spider&n is huge and has large pincers.  The web it creates
+is gigantic and covers whole trees at a time.  The &+Bspider&n has strange
+&+Yyellow spots&n on its body.  The &+Bspider&n moves with precise speed and
+measurement as its web is created methodically and carefully.  There are
+several insects wrapped up that are as big as an ogre's fist and are stuck
+onto the web.
+~
+10 1 0 32 0 0 0 0 S
+I 0 0 -1
+11 15 64 11d23+44 2d5+2
+0.0.0.0 5346
+8 8 0
+#96925
+shaman master guremgh~
+&+gGuremgh, the troll shaman master&n~
+&+gGuremgh, the troll shaman master&n, stands here looking impatient.
+~
+   &+gGuremgh, the troll shaman master&n, has a large build but skinny arms
+and legs.  He is covered with strange erotic hides and has clearly travelled
+the world.  He has settled here to live the rest of his life in harmony with
+his religion.  The crest tatooed to his arm is that of an outlawed shaman clan
+known for their blessing spells.  Rumor has it that there are only three such
+shamans surviving and that each could multiply the effectiveness of a weapon
+by ten-fold.  Only the highest conjurers of the realms can do better than this
+troll.  &+gGuremgh&n looks tired and is wise beyond his years.  He has embraced
+the craft and looks forward to death.
+~
+33589274 0 0 73772 14528 0 0 -100 S
+PT 10 256 -1
+48 -3 -78 48d110+2592 6d6+25
+8.1.0.5 116640
+8 8 1
+#96926
+farghan jeweler~
+&+gFarghan, the troll jeweler&n~
+&+gFarghan, the troll jeweler&n, stands here looking at some jaspers.
+~
+   &+gFarghan, the troll jeweler&n, cannot get away from all the greedy trolls
+and ogres that want his jewelry.  Besides making jewelry cheaply, he has
+uncanny magic spells that can magically alter his jewelry and gems.  He
+considers his job an art so he has hidden himself away in order to slave over
+his art.  Once a thief, he has acquired magical spells to become a jeweler and
+has retired from his stealing days.  Because he use to be a great thief, he
+has an uncanny ability to spot valuable objects and gems.
+~
+2058 0 0 40 0 0 0 -500 S
+PT 10 4096 -1
+44 -1 -65 44d90+1892 6d6+12
+4.9.8.3 106920
+8 8 1
+#96927
+scrag bandit~
+&+ga s&+Gc&+Gr&+ga&+Gg &+ybandit&N~
+&+GA &+gscrag &+ybandit &+Lwades in the &+Gslime&N, basking in its &+gvis&+Lcosi&+gity&+L.
+~
+   &+LThis scrag troll, or water troll, spends most of its time soaking its
+&+Lskin and oozing slime.  Basking here, most likely after a large smuggling
+&+Lpayoff, this bandit grins and moans.
+~
+2058 0 0 0 0 0 0 -450 S
+pt 0 1 4
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1

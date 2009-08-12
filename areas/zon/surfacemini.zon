@@ -1,0 +1,170 @@
+#979
+&+LThe &+YMinizones &+Lof the &+WSurface&n~
+98017 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 97903 1 8 100 0 0 0
+*     east exit from "A Bloody Kitchen" to
+*     "Rubbish Chute" - open/blocked
+*
+D 0 97904 3 0 100 0 0 0
+*     west exit from "Rubbish Chute" to
+*     "A Bloody Kitchen" - open
+*
+D 0 97904 5 2 100 0 0 0
+*     down exit from "Rubbish Chute" to
+*     "A Dark Hole" - closed/locked
+*
+D 0 97905 4 2 100 0 0 0
+*     up exit from "A Dark Hole" to
+*     "Rubbish Chute" - closed/locked
+*
+D 0 97973 3 1 100 0 0 0
+*     west exit from "Below a Jagged Ascent" to
+*     "An Old Ricketty Hut Made of Wood and Debris" - closed
+*
+D 0 97974 1 1 100 0 0 0
+*     east exit from "An Old Ricketty Hut Made of Wood and Debris" to
+*     "Below a Jagged Ascent" - closed
+*
+D 0 97991 3 5 100 0 0 0
+*     west exit from "An Open Mountain Clearing" to
+*     "Back Corner of a Huge Cave" - closed/secret
+*
+D 0 97996 1 5 100 0 0 0
+*     east exit from "Back Corner of a Huge Cave" to
+*     "An Open Mountain Clearing" - closed/secret
+*
+D 0 98000 4 8 100 0 0 0
+*     up exit from "A Mountain Trail Littered with Rocks and Debris" to
+*     "A Spacious Landing" - open/blocked
+*
+D 0 98003 5 0 100 0 0 0
+*     down exit from "A Spacious Landing" to
+*     "A Mountain Trail Littered with Rocks and Debris" - open
+*
+*
+O 0 97901 1 97903 100 0 0 0        * a wooden table
+O 0 97902 1 97904 100 0 0 0        * a dirty grate
+O 0 97906 1 97907 100 0 0 0        * a straw-covered bed
+O 0 97907 3 97913 100 0 0 0        * a bubbling spring
+O 0 97908 3 97913 100 0 0 0        * a coconut palm
+O 0 97907 3 97925 100 0 0 0        * a bubbling spring
+O 0 97908 3 97925 100 0 0 0        * a coconut palm
+O 0 97907 3 97936 100 0 0 0        * a bubbling spring
+O 0 97908 3 97936 100 0 0 0        * a coconut palm
+O 0 97909 1 97952 100 0 0 0        * a Gnomish telescope
+O 0 97911 1 98000 100 0 0 0        * some huge rocks
+O 0 55326 1 98015 100 0 0 0        * (object type not in this .obj file)
+O 0 55278 1 98015 100 0 0 0        * (object type not in this .obj file)
+*
+M 0 97900 1 97902 100 0 0 0        * Gorblaat
+E 1 97918 1 3 100 0 0 0            *   a necklace of fangs
+G 1 97900 1 0 100 0 0 0            *    a small bone key
+M 0 97901 1 97907 100 0 0 0        * a humble hermit
+E 1 97905 1 3 100 0 0 0            *   a woven neberihide necklace
+E 1 97904 1 6 100 0 0 0            *   a birdfeather headdress
+M 0 97906 9 97909 100 0 0 0        * a sun beetle
+M 0 97905 8 97911 100 0 0 0        * a translucent sand scorpion
+M 0 97906 9 97911 100 0 0 0        * a sun beetle
+M 0 97903 6 97913 100 0 0 0        * a desert vulture
+M 0 97903 6 97913 100 0 0 0        * a desert vulture
+M 0 97904 6 97913 100 0 0 0        * a sand monkey
+M 0 97904 6 97913 100 0 0 0        * a sand monkey
+M 0 97905 8 97915 100 0 0 0        * a translucent sand scorpion
+M 0 97906 9 97916 100 0 0 0        * a sun beetle
+M 0 97906 9 97920 100 0 0 0        * a sun beetle
+M 0 97905 8 97922 100 0 0 0        * a translucent sand scorpion
+M 0 97906 9 97923 100 0 0 0        * a sun beetle
+M 0 97903 6 97925 100 0 0 0        * a desert vulture
+M 0 97903 6 97925 100 0 0 0        * a desert vulture
+M 0 97904 6 97925 100 0 0 0        * a sand monkey
+M 0 97904 6 97925 100 0 0 0        * a sand monkey
+M 0 97906 9 97927 100 0 0 0        * a sun beetle
+M 0 97905 8 97929 100 0 0 0        * a translucent sand scorpion
+M 0 97905 8 97929 100 0 0 0        * a translucent sand scorpion
+M 0 97906 9 97930 100 0 0 0        * a sun beetle
+M 0 97905 8 97934 100 0 0 0        * a translucent sand scorpion
+M 0 97903 6 97936 100 0 0 0        * a desert vulture
+M 0 97903 6 97936 100 0 0 0        * a desert vulture
+M 0 97904 6 97936 100 0 0 0        * a sand monkey
+M 0 97904 6 97936 100 0 0 0        * a sand monkey
+M 0 97906 9 97937 100 0 0 0        * a sun beetle
+M 0 97906 9 97938 100 0 0 0        * a sun beetle
+M 0 97905 8 97939 100 0 0 0        * a translucent sand scorpion
+M 0 97905 8 97940 100 0 0 0        * a translucent sand scorpion
+M 0 97902 9 97941 100 0 0 0        * a large sand lion
+M 0 97902 9 97942 100 0 0 0        * a large sand lion
+M 0 97902 9 97943 100 0 0 0        * a large sand lion
+M 0 97902 9 97944 100 0 0 0        * a large sand lion
+M 0 97902 9 97945 100 0 0 0        * a large sand lion
+M 0 97902 9 97946 100 0 0 0        * a large sand lion
+M 0 97902 9 97947 100 0 0 0        * a large sand lion
+M 0 97902 9 97948 100 0 0 0        * a large sand lion
+M 0 97902 9 97949 100 0 0 0        * a large sand lion
+M 0 97907 1 97952 100 0 0 0        * a Gnomish cosmomancer
+M 0 97908 1 97958 100 0 0 0        * Gleb Shnieebly the pyro-mage
+M 0 53612 7 97961 100 0 0 0        * (mob type not in this .mob file)
+M 0 97914 9 97962 100 0 0 0        * a rock beetle
+M 0 53612 7 97966 100 0 0 0        * (mob type not in this .mob file)
+M 0 53612 7 97969 100 0 0 0        * (mob type not in this .mob file)
+M 0 53612 7 97972 100 0 0 0        * (mob type not in this .mob file)
+M 0 97914 9 97972 100 0 0 0        * a rock beetle
+M 0 97914 9 97972 100 0 0 0        * a rock beetle
+M 0 53639 7 97973 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97973 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97973 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97973 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97973 100 0 0 0        * (mob type not in this .mob file)
+M 0 97909 1 97974 100 0 0 0        * a strange old hermit
+M 0 53612 7 97978 100 0 0 0        * (mob type not in this .mob file)
+M 0 97910 1 97979 100 0 0 0        * a cave fisher
+M 0 53612 7 97981 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97981 100 0 0 0        * (mob type not in this .mob file)
+M 0 53643 2 97983 100 0 0 0        * (mob type not in this .mob file)
+M 0 97914 9 97985 100 0 0 0        * a rock beetle
+M 0 97914 9 97985 100 0 0 0        * a rock beetle
+M 0 53612 7 97987 100 0 0 0        * (mob type not in this .mob file)
+M 0 53619 3 97990 100 0 0 0        * (mob type not in this .mob file)
+M 0 53619 3 97991 100 0 0 0        * (mob type not in this .mob file)
+M 0 53639 7 97991 100 0 0 0        * (mob type not in this .mob file)
+M 0 53619 3 97994 100 0 0 0        * (mob type not in this .mob file)
+M 0 97914 9 97995 100 0 0 0        * a rock beetle
+M 0 97914 9 97995 100 0 0 0        * a rock beetle
+M 0 97914 9 97995 100 0 0 0        * a rock beetle
+M 0 97914 9 97996 100 0 0 0        * a rock beetle
+M 0 53611 2 97998 100 0 0 0        * (mob type not in this .mob file)
+G 1 53610 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 53611 2 97998 100 0 0 0        * (mob type not in this .mob file)
+M 0 97916 1 98001 100 0 0 0        * a mountain farseer
+E 1 97914 1 5 100 0 0 0            *   a cured leather tunic lined with fur
+E 1 97912 1 8 100 0 0 0            *   some fur-cuffed cured leather boots
+E 1 97913 1 9 100 0 0 0            *   some fur-cuffed cured leather gloves
+E 1 97917 1 12 100 0 0 0           *   an elven cloak
+E 1 97916 1 16 100 0 0 0           *   an elven shortsword
+E 1 97915 1 18 100 0 0 0           *   a ram's horn bugle
+R 1 97915 7 98001 100 0 0 0        * a magnificent griffon (being ridden)
+M 0 53643 2 98002 100 0 0 0        * (mob type not in this .mob file)
+M 0 97911 6 98008 100 0 0 0        * a glorious eagle
+M 0 97911 6 98008 100 0 0 0        * a glorious eagle
+M 0 97911 6 98008 100 0 0 0        * a glorious eagle
+M 0 97911 6 98008 100 0 0 0        * a glorious eagle
+M 0 97912 3 98008 100 0 0 0        * a young nestling
+M 0 97912 3 98008 100 0 0 0        * a young nestling
+M 0 97912 3 98008 100 0 0 0        * a young nestling
+M 0 97913 1 98008 100 0 0 0        * the mother eagle
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97911 6 98010 100 0 0 0        * a glorious eagle
+M 0 97911 6 98010 100 0 0 0        * a glorious eagle
+M 0 97915 7 98010 100 0 0 0        * a magnificent griffon
+M 0 97917 1 98014 100 0 0 0        * a strange being
+M 0 55239 1 98015 100 0 0 0        * (mob type not in this .mob file)
+M 0 97920 1 98017 100 0 0 0        * Mugflog, the shaman
+*
+S

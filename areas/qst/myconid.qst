@@ -1,0 +1,23 @@
+#2320
+M
+specific~
+The myconid &+Galchemist&n says, '&+LOh, hello, in your travels you haven't happened
+&+Lto have seen any &+Mgiant mushrooms&+L, have you?'
+~
+M
+giant mushrooms mushroom~
+The myconid &+Galchemist&n looks thoughtful for a second.
+
+  &+L"The &+mgiant mushrooms&+L used to grow all over the Underdark, but
+   &+Lthese days most of them have died out."
+
+  &+L"They are very important to me because I use their spores as reagents
+   &+Lin my potions. If you can find a &+mgiant mushroom&+L and bring me back
+   &+Lsome of its spores, I will reward you handsomely."
+~
+QA
+The myconid &+Galchemist&n says, "&+LOh! Thank you SO much! Here is a little reward.&n"
+~
+R C 50000
+G I 88502
+S

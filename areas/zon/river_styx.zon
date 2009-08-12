@@ -1,0 +1,133 @@
+#907
+&+mThe River Styx&n~
+90799 2 0 30 40 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 90716 3 5 100 0 0 0
+*     west exit from "Upon the River Styx" to
+*     "Behind the Mossy Wall" - closed/secret
+*
+D 0 90717 1 5 100 0 0 0
+*     east exit from "Behind the Mossy Wall" to
+*     "Upon the River Styx" - closed/secret
+*
+D 0 90717 5 5 100 0 0 0
+*     down exit from "Behind the Mossy Wall" to
+*     "A Festering Cess Pit" - closed/secret
+*
+D 0 90718 4 5 100 0 0 0
+*     up exit from "A Festering Cess Pit" to
+*     "Behind the Mossy Wall" - closed/secret
+*
+D 0 90759 3 6 100 0 0 0
+*     west exit from "A Ledge Enshrouded in Reddish Mists" to
+*     "The Room of Bloodflow" - closed/locked/secret
+*
+D 0 90760 1 2 100 0 0 0
+*     east exit from "The Room of Bloodflow" to
+*     "A Ledge Enshrouded in Reddish Mists" - closed/locked
+*
+*
+O 0 90700 1 90700 100 0 0 0        * a finely crafted bone horn
+O 0 90719 1 90718 100 0 0 0        * a pitch-black and blood-red ring
+O 0 90701 1 90732 100 0 0 0        * a finely crafted bone horn
+O 0 90713 1 90747 100 0 0 0        * a purplish-black stone
+P 1 90722 1 90713 100 0 0 0        *   a shard of purplish-black stone
+O 0 90703 1 90760 100 0 0 0        * a huge, blood-filled fountain of emerald
+O 0 90704 1 90761 100 0 0 0        * a huge, slime-filled fountain of black opal
+O 0 90707 1 90761 100 0 0 0        * a glowing pool of black and green slime
+O 0 90705 1 90761 100 0 0 0        * a huge, saltwater-filled fountain of garnet
+O 0 90709 1 90761 100 0 0 0        * a glowing pool of brackish saltwater
+O 0 90706 1 90761 100 0 0 0        * a huge, pearl fountain filled with dark ale
+O 0 90711 1 90761 100 0 0 0        * a glowing pool of dark ale
+O 0 90708 1 90762 100 0 0 0        * a glowing portal of green and black slime
+O 0 90710 1 90763 100 0 0 0        * a glowing portal of seawater
+O 0 90712 1 90764 100 0 0 0        * a glowing portal of dark ale
+O 0 90714 1 90779 100 0 0 0        * a clutch of black, slime-covered eggs
+O 0 90715 1 90779 100 0 0 0        * a decaying devil corpse
+P 1 90716 1 90715 100 0 0 0        *   a black slime-covered pitchfork
+O 0 90702 1 90799 100 0 0 0        * a rune-covered adamantium key
+*
+M 0 90702 3 90700 100 0 0 0        * a black abishai devil
+M 0 90701 20 90701 100 0 0 0       * an amnizu devil
+M 0 90705 5 90702 100 0 0 0        * a blue abishai devil
+M 0 90701 20 90704 100 0 0 0       * an amnizu devil
+M 0 90704 4 90705 100 0 0 0        * a red abishai devil
+M 0 90701 20 90708 100 0 0 0       * an amnizu devil
+M 0 90703 3 90711 100 0 0 0        * a green abishai devil
+M 0 90707 1 90711 100 0 0 0        * a shadow beast
+M 0 90706 6 90713 100 0 0 0        * a white abishai devil
+M 0 90701 20 90714 100 0 0 0       * an amnizu devil
+M 0 90701 20 90716 100 0 0 0       * an amnizu devil
+M 0 90704 4 90717 100 0 0 0        * a red abishai devil
+M 0 90705 5 90717 100 0 0 0        * a blue abishai devil
+M 0 90711 2 90717 100 0 0 0        * a black abishai devil
+M 0 90712 2 90717 100 0 0 0        * a green abishai devil
+M 0 90704 4 90718 100 0 0 0        * a red abishai devil
+M 0 90706 6 90718 100 0 0 0        * a white abishai devil
+M 0 90711 2 90718 100 0 0 0        * a black abishai devil
+G 1 90718 1 0 100 0 0 0            *    some gloves sewn with human bones
+M 0 90712 2 90718 100 0 0 0        * a green abishai devil
+M 0 90701 20 90720 100 0 0 0       * an amnizu devil
+M 0 90702 3 90722 100 0 0 0        * a black abishai devil
+M 0 90704 4 90724 100 0 0 0        * a red abishai devil
+M 0 90701 20 90725 100 0 0 0       * an amnizu devil
+M 0 90709 2 90725 100 0 0 0        * a charonadaemon
+M 0 90701 20 90726 100 0 0 0       * an amnizu devil
+M 0 90703 3 90728 100 0 0 0        * a green abishai devil
+M 0 90701 20 90731 100 0 0 0       * an amnizu devil
+M 0 90702 3 90732 100 0 0 0        * a black abishai devil
+M 0 90705 5 90732 100 0 0 0        * a blue abishai devil
+M 0 90701 20 90736 100 0 0 0       * an amnizu devil
+M 0 90701 20 90740 100 0 0 0       * an amnizu devil
+M 0 90706 6 90741 100 0 0 0        * a white abishai devil
+M 0 90701 20 90743 100 0 0 0       * an amnizu devil
+M 0 90718 3 90745 100 0 0 0        * a shadow shade
+M 0 90700 2 90746 100 0 0 0        * a soulrender shade
+M 0 90718 3 90746 100 0 0 0        * a shadow shade
+M 0 90700 2 90747 100 0 0 0        * a soulrender shade
+M 0 90718 3 90747 100 0 0 0        * a shadow shade
+M 0 90703 3 90749 100 0 0 0        * a green abishai devil
+M 0 90706 6 90750 100 0 0 0        * a white abishai devil
+M 0 90710 9 90751 100 0 0 0        * a hydrodaemon
+M 0 90701 20 90752 100 0 0 0       * an amnizu devil
+M 0 90705 5 90754 100 0 0 0        * a blue abishai devil
+M 0 90701 20 90756 100 0 0 0       * an amnizu devil
+M 0 90714 1 90762 100 0 0 0        * a mammoth maelephant guardian
+E 1 90717 1 7 100 0 0 0            *   some glowing black greaves
+M 0 90715 1 90763 100 0 0 0        * a beautiful erinyes devil
+E 1 90721 1 16 100 0 0 0           *   a wavy black dagger
+E 1 90720 1 18 100 0 0 0           *   a glowing ruby rod
+M 0 90710 9 90765 100 0 0 0        * a hydrodaemon
+M 0 90705 5 90766 100 0 0 0        * a blue abishai devil
+M 0 90701 20 90768 100 0 0 0       * an amnizu devil
+M 0 90706 6 90769 100 0 0 0        * a white abishai devil
+M 0 90710 9 90772 100 0 0 0        * a hydrodaemon
+M 0 90706 6 90773 100 0 0 0        * a white abishai devil
+M 0 90701 20 90774 100 0 0 0       * an amnizu devil
+M 0 90717 3 90776 100 0 0 0        * an enormous green slime worm
+M 0 90717 3 90777 100 0 0 0        * an enormous green slime worm
+M 0 90717 3 90778 100 0 0 0        * an enormous green slime worm
+M 0 90716 2 90779 100 0 0 0        * a gigantic black slime worm
+M 0 90716 2 90779 100 0 0 0        * a gigantic black slime worm
+M 0 90701 20 90784 100 0 0 0       * an amnizu devil
+M 0 90710 9 90785 100 0 0 0        * a hydrodaemon
+M 0 90701 20 90787 100 0 0 0       * an amnizu devil
+M 0 90710 9 90788 100 0 0 0        * a hydrodaemon
+M 0 90701 20 90790 100 0 0 0       * an amnizu devil
+M 0 90709 2 90790 100 0 0 0        * a charonadaemon
+M 0 90701 20 90795 100 0 0 0       * an amnizu devil
+M 0 90710 9 90795 100 0 0 0        * a hydrodaemon
+M 0 90710 9 90797 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90797 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90797 100 0 0 0        * a hydrodaemon
+M 0 90710 9 90798 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90798 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90798 100 0 0 0        * a hydrodaemon
+M 0 90710 9 90799 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90799 100 0 0 0        * a hydrodaemon
+M 0 90713 6 90799 100 0 0 0        * a hydrodaemon
+*
+S

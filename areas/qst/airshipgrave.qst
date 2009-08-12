@@ -1,0 +1,191 @@
+#77501
+Q
+~
+R I 77501
+G C 250000
+S
+#77502
+Q
+~
+R E 250000
+R I 77562
+G I 77550
+D
+&+W        "Oh kickass, this plunder is sure to make my brother
+&+W        horribly jealous. That's basically the only reason
+&+W        I do this anyways, I never usually ever find anything.
+&+W        I'm going to head back to the city to gloat, thanks!"
+~
+S
+#77504
+Q
+&+yThe &+Ydwarf&+y appears extremely impressed by your find. His face lights up with
+&+ya smile.
+        &+W"Aye! A grand find, tho me can't do much with this meself,
+        &+Wme just a rockcutter, ye should take this to me cousin, up
+        &+Wby the Ultarium mountain range."
+~
+R I 77508
+G I 77508
+Q
+&+yYou pass the handful of rocks to the dwarf, who eyes them curiously.
+&+W        "Ye have some rocks of sulfer and limestone mixed with
+&+W        some gemstones, I'll pay ye for the gemstones, but I have
+&+W        no use for the other bits here."
+~
+R C 250000
+R I 77524
+G I 77523
+S
+#77505
+Q
+&+W        "Thank you very much for taking care of those
+&+W        hunters, as promised, here is my armlet."
+~
+R I 77516
+G I 77517
+S
+#77511
+Q
+&+W        "Dawndale is around here, that is great news, however
+&+W        they wouldn't much like our kind there, would they.
+&+W        We all appreciate you helping us, take these stones
+&+W        we found around the mountain, perhaps they can help
+&+W        to find a way to our new home, of course, I dunno how
+&+W        we will even be able to enter Dawndale, or go if we
+&+W        manage to get inside."
+~
+R I 77523
+G I 77522
+QA
+~
+R I 34464
+R I 77563
+G I 77501
+G I 77525
+D
+&+W        "Excellent, we can use this device to blast through the
+&+W        debris behind the Moon-Elf camp, we can settle there and
+&+W        hopefully remain out of the way of the High-Elves, and
+&+W        this key, you are so generous, it must have been quite
+&+W        difficult to come by. I will go on ahead, sneak into the
+&+W        city, and prepare the camp, please take this, it is all
+&+W        we have left, but you have given us so much more - a new
+&+W        home."
+&+yAnd with that, he runs off.
+&+yAlmost on cue, a distant, ear-shattering, 'BOOM' echoes throughout
+&+ythe mountainside just a few short minutes later and you can't help
+&+ybut smile.
+~
+S
+#77514
+QA
+&+LAs you relate the story of the refugees to the tormented spirit, you
+&+Lcan see the fire in his eyes begin to lessen.
+&+W        "Perhaps by helping souls lost as myself, the curse
+&+W        here can be lifted for me." &+LHe says as he takes the
+&+L        combustable rock powder.
+&+LAfter several minutes of fiddling he hands you back a device.
+&+W        "This will cause a controlled explosion, enough to
+&+W        blast through the rock and debris and clear a passage
+&+W        for the refugees."
+~
+R I 77525
+G I 77524
+D
+&+LSoul at peace by helping those in need the curse is lifted and the
+&+Lengineer quickly fades away into nothingness.
+~
+S
+#77517
+Q
+~
+R I 77548
+G I 77515
+G I 77515
+G I 77524
+G I 77556
+G I 77549
+G I 77551
+G I 77557
+S
+#77518
+Q
+~
+R I 77558
+G I 77515
+G I 77515
+G I 77524
+G I 77556
+G I 77557
+G I 77551
+G I 77549
+S
+#77527
+M
+hi hello help assistance~
+&+MDrandagger&N says 'I've heard that there may be something in the
+rock worm tunnels of assistance to us.  Go there, and bring back
+whatever you can find.'
+~
+Q
+&+W        "It is good us Drow live for so very long, we shall
+&+W        be patient, hide them from the guards, and urge these
+&+W        young rockworms to burrow a tunnel away from this
+&+W        wretched place. You have my thanks and take this with
+&+W        you, something I have hid from the guards for quite
+&+W        some time now."
+~
+R E 250000
+R I 77552
+G I 77513
+S
+#77543
+M
+lens telescope~
+&+yA &+Yhigh-elven &+ysmith says to you, '&+WWhy yes, I could have a lens
+&+Wcrafted for you. It's not difficult, but I'm running low on supplies to
+&+Wmake it. If you could bring me 25 platinum and a &+ypile of fine &+Ysand &+WI
+&+Wwill be more than happy to help you.&+y'&n
+~
+M
+pile fine sand~
+&+yA &+Yhigh-elven &+ysmithy says to you, '&+WYes, the &+Ysand &+Witself comes the nearby
+&+Wcity of Aravne, taken from the body of a &+Ysand &+yelemental&+W. Don't
+&+Wworry too much about having to fight, they are weak creatures,
+&+Wbut the difficulty comes in finding them. They are generally
+&+Wfound near the &+Lcity &+rghetto&+W, but are usually hidden from view.&+L'&n
+~
+Q
+&+yA &+Yhigh-elven &+ysmithy says to you, '&+WOh wonderful. Hold on
+&+Wone second while I get this lens crafted for you.&+y'
+
+&+yA &+Yhigh-elven &+ysmithy briefly leaves the room. After a moment
+&+yhe returns with an &+yimmaculately forged &+Wlens&+y.&n
+~
+R I 77566
+G I 21673
+G C 25000
+S
+#77558
+M
+metal~
+&+W        "My special metal? I hid it just a few rooms away
+&+W        after I realized I was lost, sure, you can take
+&+W        it to Emition for me if you wish. I would be most
+&+W        grateful if you return the item to me after he
+&+W        has finished. Just tell him its for Whetstone, he
+&+W        will know what to do."
+~
+Q
+~
+R I 40779
+G I 40778
+D
+&+W	"A flute??!! What the hell am I supposed to do
+&+W	with a flute. I'm gonna go find Emition myself
+&+W	and give him trouble for this!"
+
+&+WAs Whetstone marches off in a huff he leaves the flute behind.
+~
+S

@@ -1,0 +1,589 @@
+#368
+&+LDomain of &+WLost &+CS&+co&+Cul&+cs&n~
+36899 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 36801 1 8 100 0 0 0
+*     east exit from "A Highly Detailed Relief" to
+*     "A Spacious Cavern" - open/blocked
+*
+D 0 36802 3 8 100 0 0 0
+*     west exit from "A Spacious Cavern" to
+*     "A Highly Detailed Relief" - open/blocked
+*
+D 0 36803 1 2 100 0 0 0
+*     east exit from "Before the Skeletal Gate" to
+*     "The Grand Foyer" - closed/locked
+*
+D 0 36804 3 2 100 0 0 0
+*     west exit from "The Grand Foyer" to
+*     "Before the Skeletal Gate" - closed/locked
+*
+D 0 36806 2 1 100 0 0 0
+*     south exit from "An Eerie Hallway" to
+*     "Dingy Barracks" - closed
+*
+D 0 36827 0 1 100 0 0 0
+*     north exit from "Dingy Barracks" to
+*     "An Eerie Hallway" - closed
+*
+D 0 36809 3 2 100 0 0 0
+*     west exit from "A Bend in an Eerie Hallway" to
+*     "A Elegant Library" - closed/locked
+*
+D 0 36826 1 2 100 0 0 0
+*     east exit from "A Elegant Library" to
+*     "A Bend in an Eerie Hallway" - closed/locked
+*
+D 0 36825 0 2 100 0 0 0
+*     north exit from "An Eerie Hallway" to
+*     "A Granite Staircase" - closed/locked
+*
+D 0 36828 2 2 100 0 0 0
+*     south exit from "A Granite Staircase" to
+*     "An Eerie Hallway" - closed/locked
+*
+D 0 36843 0 0 100 0 0 0
+*     north exit from "A Gloomy Hallway" to
+*     "A Ransacked Bedroom" - open
+*
+D 0 36844 2 0 100 0 0 0
+*     south exit from "A Ransacked Bedroom" to
+*     "A Gloomy Hallway" - open
+*
+D 0 36844 3 5 100 0 0 0
+*     west exit from "A Ransacked Bedroom" to
+*     "A Secret Chamber" - closed/secret
+*
+D 0 36845 1 1 100 0 0 0
+*     east exit from "A Secret Chamber" to
+*     "A Ransacked Bedroom" - closed
+*
+D 0 36850 1 2 100 0 0 0
+*     east exit from "A Bend in a Gloomy Hallway" to
+*     "A Granite Staircase" - closed/locked
+*
+D 0 36859 3 2 100 0 0 0
+*     west exit from "A Granite Staircase" to
+*     "A Bend in a Gloomy Hallway" - closed/locked
+*
+D 0 36855 1 1 100 0 0 0
+*     east exit from "A Bend in a Gloomy Hallway" to
+*     "A Rubble-filled Kitchen" - closed
+*
+D 0 36858 3 1 100 0 0 0
+*     west exit from "A Rubble-filled Kitchen" to
+*     "A Bend in a Gloomy Hallway" - closed
+*
+D 0 36861 0 2 100 0 0 0
+*     north exit from "A Dismal and Foreboding Hallway" to
+*     "An Archaic Alchemist Laboratory" - closed/locked
+*
+D 0 36873 2 2 100 0 0 0
+*     south exit from "An Archaic Alchemist Laboratory" to
+*     "A Dismal and Foreboding Hallway" - closed/locked
+*
+D 0 36866 2 1 100 0 0 0
+*     south exit from "A Dismal and Foreboding Hallway" to
+*     "The Throne Room" - closed
+*
+D 0 36894 0 1 100 0 0 0
+*     north exit from "The Throne Room" to
+*     "A Dismal and Foreboding Hallway" - closed
+*
+D 0 36868 3 2 100 0 0 0
+*     west exit from "A Bend in a Dismal and Foreboding Hallway" to
+*     "A Warrior's Bedchamber" - closed/locked
+*
+D 0 36892 1 2 100 0 0 0
+*     east exit from "A Warrior's Bedchamber" to
+*     "A Bend in a Dismal and Foreboding Hallway" - closed/locked
+*
+D 0 36869 1 5 100 0 0 0
+*     east exit from "A Bend in a Dismal and Foreboding Hallway" to
+*     "A Sleek Marbled Hallway" - closed/secret
+*
+D 0 36895 3 5 100 0 0 0
+*     west exit from "A Sleek Marbled Hallway" to
+*     "A Bend in a Dismal and Foreboding Hallway" - closed/secret
+*
+D 0 36870 1 2 100 0 0 0
+*     east exit from "A Dismal and Foreboding Hallway" to
+*     "The War Chamber" - closed/locked
+*
+D 0 36893 3 2 100 0 0 0
+*     west exit from "The War Chamber" to
+*     "A Dismal and Foreboding Hallway" - closed/locked
+*
+D 0 36877 0 5 100 0 0 0
+*     north exit from "A Phantasmagoric Garden" to
+*     "A Gigantic Circular Chamber" - closed/secret
+*
+D 0 36899 2 5 100 0 0 0
+*     south exit from "A Gigantic Circular Chamber" to
+*     "A Phantasmagoric Garden" - closed/secret
+*
+*
+O 0 36800 1 36801 100 0 0 0        * a human spine
+O 0 36801 1 36802 100 0 0 0        * a human skull
+O 0 36814 1 36804 100 0 0 0        * some bloodstains
+O 0 36819 2 36826 100 0 0 0        * a bookshelf
+P 1 36822 1 36819 100 0 0 0        *   a book entitled 'Domain of Souls'
+P 1 36821 1 36819 100 0 0 0        *   a tome of unhuman flesh
+O 0 36823 1 36827 100 0 0 0        * a stone washbasin
+O 0 36825 1 36827 100 0 0 0        * a devil's tooth key
+O 0 36827 1 36828 100 0 0 0        * a distinctive bloodstain
+O 0 36828 1 36828 100 0 0 0        * a burnt and bloodied corpse
+P 1 36829 18 36828 100 0 0 0       *   a durethium helm
+P 1 36830 18 36828 100 0 0 0       *   some durethium boots
+O 0 36826 1 36845 100 0 0 0        * a full-length mirror
+O 0 36838 1 36845 100 0 0 0        * a golden statue of an erinyes
+O 0 36840 1 36852 100 0 0 0        * some footprints
+O 0 36819 2 36873 100 0 0 0        * a bookshelf
+P 1 36845 1 36819 100 0 0 0        *   an onyx vial
+P 1 36844 1 36819 100 0 0 0        *   a tarnished silver vial
+O 0 55272 1 36873 50 0 0 0         * (object type not in this .obj file)
+O 0 36843 8 36874 100 0 0 0        * a vine covered angel
+O 0 36843 8 36875 100 0 0 0        * a vine covered angel
+O 0 36843 8 36876 100 0 0 0        * a vine covered angel
+O 0 36843 8 36877 100 0 0 0        * a vine covered angel
+O 0 36843 8 36878 100 0 0 0        * a vine covered angel
+O 0 36843 8 36879 100 0 0 0        * a vine covered angel
+O 0 36843 8 36880 100 0 0 0        * a vine covered angel
+O 0 36843 8 36881 100 0 0 0        * a vine covered angel
+O 0 36841 1 36882 100 0 0 0        * an exquisite well
+O 0 36865 1 36889 100 0 0 0        * a sunken chest
+P 1 36883 1 36865 100 0 0 0        *   a shark engraved bone ring
+P 1 36884 1 36865 100 0 0 0        *   a sacrificial blood dagger of Kvasir
+O 0 72 100 36889 100 0 0 0         * (object type not in this .obj file)
+O 0 36874 1 36891 100 0 0 0        * a rusted steel ladder
+O 0 36867 1 36892 100 0 0 0        * an elaborate tapestry
+O 0 36882 1 36892 100 0 0 0        * a shield of Kvasir
+O 0 36868 1 36893 100 0 0 0        * an oak table
+O 0 36869 1 36893 100 0 0 0        * an ancient map
+O 0 36870 1 36894 100 0 0 0        * a dematite well
+O 0 36871 1 36894 100 0 0 0        * an ivory statue of Tavril
+O 0 36842 1 36899 100 0 0 0        * a natural pool
+*
+M 0 36800 1 36803 100 0 0 0        * Tar'l, the minotaur gate keeper
+E 1 36805 4 12 100 0 0 0           *   a torn frost cloak
+E 1 36803 3 39 100 0 0 0           *   a durethium nose ring
+G 1 36804 6 0 100 0 0 0            *    a durethium axe
+G 1 36810 1 0 100 0 0 0            *    an illithid-skin sack
+P 1 36808 4 36810 100 0 0 0        *   some human brains
+P 1 36809 5 36810 100 0 0 0        *   some human brains
+P 1 36808 4 36810 100 0 0 0        *   some human brains
+P 1 36809 5 36810 100 0 0 0        *   some human brains
+P 1 36808 4 36810 100 0 0 0        *   some human brains
+P 1 36809 5 36810 100 0 0 0        *   some human brains
+P 1 36808 4 36810 100 0 0 0        *   some human brains
+P 1 36809 5 36810 100 0 0 0        *   some human brains
+G 1 36813 1 0 100 0 0 0            *    a twisted bone key
+M 0 36801 2 36804 100 0 0 0        * a minotaur gladiator
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36868 18 36804 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36839 21 36805 100 0 0 0       * a castle rat
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36803 4 36806 100 0 0 0        * an undead dire wolf
+F 1 36804 4 36806 100 0 0 0        * an undead dire wolf (following)
+F 1 36805 6 36806 100 0 0 0        * an undead dire wolf (following)
+M 0 36869 5 36806 100 0 0 0        * a minotaur gladiator
+G 1 36804 6 0 100 0 0 0            *    a durethium axe
+M 0 36839 21 36808 100 0 0 0       * a castle rat
+M 0 36802 2 36809 100 0 0 0        * a minotaur gladiator
+E 1 36803 3 39 100 0 0 0           *   a durethium nose ring
+G 1 36816 3 0 100 0 0 0            *    a large bloodstained halberd
+M 0 36839 21 36809 100 0 0 0       * a castle rat
+M 0 36839 21 36809 100 0 0 0       * a castle rat
+M 0 36839 21 36809 100 0 0 0       * a castle rat
+M 0 36839 21 36809 100 0 0 0       * a castle rat
+M 0 36806 3 36811 100 0 0 0        * a Sin Bearer
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36838 11 36811 100 0 0 0       * a rabid rat
+M 0 36869 5 36812 100 0 0 0        * a minotaur gladiator
+G 1 36804 6 0 100 0 0 0            *    a durethium axe
+M 0 36862 4 36813 2 0 0 0          * a penanggalan
+M 0 36803 4 36814 100 0 0 0        * an undead dire wolf
+F 1 36804 4 36814 48 0 0 0         * an undead dire wolf (following)
+F 1 36805 6 36814 100 0 0 0        * an undead dire wolf (following)
+M 0 36838 11 36814 100 0 0 0       * a rabid rat
+M 0 36839 21 36814 100 0 0 0       * a castle rat
+M 0 36806 3 36815 100 0 0 0        * a Sin Bearer
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36839 21 36816 100 0 0 0       * a castle rat
+M 0 36839 21 36816 100 0 0 0       * a castle rat
+M 0 36839 21 36816 100 0 0 0       * a castle rat
+M 0 36803 4 36818 100 0 0 0        * an undead dire wolf
+F 1 36805 6 36818 100 0 0 0        * an undead dire wolf (following)
+M 0 36802 2 36820 100 0 0 0        * a minotaur gladiator
+G 1 36816 3 0 100 0 0 0            *    a large bloodstained halberd
+M 0 36806 3 36823 100 0 0 0        * a Sin Bearer
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36866 9 36824 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36807 1 36825 100 0 0 0        * a skeletal knight
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+M 0 36839 21 36826 100 0 0 0       * a castle rat
+M 0 36814 1 36827 100 0 0 0        * a Sin Bearer
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36815 1 36827 100 0 0 0        * a Sin Bearer (following)
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+G 1 36816 3 0 100 0 0 0            *    a large bloodstained halberd
+F 1 36816 1 36827 100 0 0 0        * a Sin Bearer (following)
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36808 6 36830 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+F 1 36866 9 36830 100 0 0 0        * a zombie cleric (following)
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36862 4 36831 100 0 0 0        * a penanggalan
+M 0 36863 2 36831 100 0 0 0        * a soul reaper
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+G 1 36835 5 0 100 0 0 0            *    a soul scythe
+M 0 36809 4 36832 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36839 21 36832 100 0 0 0       * a castle rat
+M 0 36838 11 36832 100 0 0 0       * a rabid rat
+M 0 36870 6 36833 100 0 0 0        * a minotaur gladiator
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36808 6 36834 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36863 2 36835 100 0 0 0        * a soul reaper
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+G 1 36835 5 0 100 0 0 0            *    a soul scythe
+M 0 36870 6 36835 100 0 0 0        * a minotaur gladiator
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36805 6 36836 100 0 0 0        * an undead dire wolf
+F 1 36803 4 36836 100 0 0 0        * an undead dire wolf (following)
+F 1 36804 4 36836 100 0 0 0        * an undead dire wolf (following)
+F 1 36804 4 36836 100 0 0 0        * an undead dire wolf (following)
+M 0 36808 6 36838 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36838 11 36841 100 0 0 0       * a rabid rat
+M 0 36838 11 36841 100 0 0 0       * a rabid rat
+M 0 36838 11 36841 100 0 0 0       * a rabid rat
+M 0 36839 21 36841 100 0 0 0       * a castle rat
+M 0 36839 21 36841 100 0 0 0       * a castle rat
+M 0 36865 12 36841 100 0 0 0       * a soul reaper
+M 0 36865 12 36841 100 0 0 0       * a soul reaper
+M 0 36866 9 36841 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36809 4 36844 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36801 2 36844 100 0 0 0        * a minotaur gladiator
+E 1 36803 3 39 100 0 0 0           *   a durethium nose ring
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+G 1 55037 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 36861 3 36844 100 0 0 0        * a penanggalan
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+M 0 36865 12 36844 100 0 0 0       * a soul reaper
+M 0 36868 18 36844 100 0 0 0       * a keep guardian
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36811 1 36845 100 0 0 0        * an angered erinyes
+G 1 36837 1 0 100 0 0 0            *    a dagger called 'Domination'
+M 0 36808 6 36846 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36810 1 36848 100 0 0 0        * a soul reaper
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+G 1 36835 5 0 100 0 0 0            *    a soul scythe
+M 0 36861 3 36849 100 0 0 0        * a penanggalan
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+M 0 36864 3 36849 100 0 0 0        * a soul reaper
+M 0 36813 1 36850 100 0 0 0        * an undead knight
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+G 1 36849 2 0 100 0 0 0            *    a durethium mace
+G 1 36846 1 0 100 0 0 0            *    a minotaur horn key
+G 1 36850 1 0 100 0 0 0            *    a frost ring covered in blood
+M 0 36838 11 36850 100 0 0 0       * a rabid rat
+M 0 36805 6 36850 100 0 0 0        * an undead dire wolf
+M 0 36809 4 36851 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36808 6 36851 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36866 9 36851 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36868 18 36851 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36868 18 36851 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36868 18 36851 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36867 12 36852 100 0 0 0       * a blood fiend
+M 0 36870 6 36852 100 0 0 0        * a minotaur gladiator
+G 1 36815 9 0 100 0 0 0            *    a redsplint dirk
+M 0 36839 21 36853 100 0 0 0       * a castle rat
+M 0 36839 21 36853 100 0 0 0       * a castle rat
+M 0 36838 11 36853 100 0 0 0       * a rabid rat
+M 0 36838 11 36853 100 0 0 0       * a rabid rat
+M 0 36866 9 36853 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36808 6 36854 100 0 0 0        * a death knight
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36868 18 36855 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36869 5 36855 100 0 0 0        * a minotaur gladiator
+G 1 36804 6 0 100 0 0 0            *    a durethium axe
+M 0 36809 4 36856 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36812 1 36858 100 0 0 0        * an undead cook
+E 1 36866 1 3 100 0 0 0            *   a tarnished marble medallion
+G 1 36839 1 0 100 0 0 0            *    a bloodied icepick
+M 0 36839 21 36858 100 0 0 0       * a castle rat
+M 0 36862 4 36858 100 0 0 0        * a penanggalan
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+G 1 55037 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 36862 4 36858 100 0 0 0        * a penanggalan
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+M 0 36865 12 36858 50 0 0 0        * a soul reaper
+G 1 36835 5 0 100 0 0 0            *    a soul scythe
+M 0 36865 12 36859 100 0 0 0       * a soul reaper
+M 0 36868 18 36860 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36860 100 0 0 0       * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36860 50 0 0 0        * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36860 100 0 0 0       * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36860 100 0 0 0       * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36817 1 36861 100 0 0 0        * a Rotted knight
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+G 1 36849 2 0 100 0 0 0            *    a durethium mace
+F 1 36818 1 36861 100 0 0 0        * a sickly knight (following)
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+G 1 36851 4 0 100 0 0 0            *    a two-handed durethium cudgel covered in blood
+F 1 36848 1 36861 100 0 0 0        * a sickly knight (following)
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+G 1 36851 4 0 100 0 0 0            *    a two-handed durethium cudgel covered in blood
+M 0 36865 12 36861 100 0 0 0       * a soul reaper
+F 1 36864 3 36861 100 0 0 0        * a soul reaper (following)
+M 0 36868 18 36861 35 0 0 0        * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36868 18 36861 50 0 0 0        * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36858 3 36862 100 0 0 0        * a zombie priestess
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+F 1 36857 3 36862 100 0 0 0        * a zombie priest (following)
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36865 12 36862 100 0 0 0       * a soul reaper
+M 0 36867 12 36862 100 0 0 0       * a blood fiend
+M 0 36820 1 36863 100 0 0 0        * Targos, the minotaur Blood Lord
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+E 1 36853 1 20 100 0 0 0           *   a mask called 'Frost'
+E 1 36861 2 40 100 0 0 0           *   a blood encrusted horn cap
+G 1 36851 4 0 100 0 0 0            *    a two-handed durethium cudgel covered in blood
+G 1 55037 3 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 36821 1 36863 100 0 0 0        * a githyanki anti-paladin (following)
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36855 1 20 100 0 0 0           *   an illithid tentacle mask
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36867 12 36863 100 0 0 0       * a blood fiend
+M 0 36868 18 36864 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36864 100 0 0 0       * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36868 18 36864 100 0 0 0       * a keep guardian (following)
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36822 1 36865 100 0 0 0        * Sir Boadwyn, Lord of the Keep
+E 1 36857 1 6 100 0 0 0            *   a crown of Baal
+E 1 36858 1 12 100 0 0 0           *   a cloak of Eldros
+F 1 36836 1 36865 100 0 0 0        * Sir LeBaum, the court advisor (following)
+E 1 36854 3 2 100 0 0 0            *   a ring of despair
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36802 3 6 100 0 0 0            *   a dreadveil helm
+M 0 36857 3 36865 100 0 0 0        * a zombie priest
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36857 3 36865 100 0 0 0        * a zombie priest
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36866 9 36865 100 0 0 0        * a zombie cleric
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36867 12 36865 50 0 0 0        * a blood fiend
+M 0 36867 12 36865 100 0 0 0       * a blood fiend
+M 0 36865 12 36866 100 0 0 0       * a soul reaper
+F 1 36866 9 36866 100 0 0 0        * a zombie cleric (following)
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36865 12 36866 100 0 0 0       * a soul reaper
+M 0 36867 12 36866 100 0 0 0       * a blood fiend
+M 0 36868 18 36866 100 0 0 0       * a keep guardian
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+F 1 36846 4 36866 50 0 0 0         * a keep guard (following)
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+G 1 36817 50 0 100 0 0 0           *    a splint sword
+M 0 36824 1 36867 100 0 0 0        * Azaz'lberith, the githyanki Death Lord
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36834 7 12 100 0 0 0           *   a torn ebon cloak
+G 1 36862 1 0 100 0 0 0            *    the sword of Azaz'lberith
+F 1 36823 1 36867 100 0 0 0        * a minotaur anti-paladin (following)
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36805 4 12 100 0 0 0           *   a torn frost cloak
+E 1 36861 2 40 100 0 0 0           *   a blood encrusted horn cap
+G 1 36851 4 0 100 0 0 0            *    a two-handed durethium cudgel covered in blood
+M 0 36858 3 36868 100 0 0 0        * a zombie priestess
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36858 3 36868 88 0 0 0         * a zombie priestess
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36867 12 36868 100 0 0 0       * a blood fiend
+M 0 36867 12 36868 100 0 0 0       * a blood fiend
+M 0 36826 1 36869 100 0 0 0        * a zombie priest
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+F 1 36825 1 36869 100 0 0 0        * a zombie priestess (following)
+E 1 36833 21 16 100 0 0 0          *   a heavily decayed mace
+M 0 36861 3 36870 100 0 0 0        * a penanggalan
+M 0 36849 1 36871 100 0 0 0        * Ihsahn, the drow swashbuckler
+E 1 36890 1 5 100 0 0 0            *   a suit of drow chainmail
+E 1 36891 1 13 100 0 0 0           *   Ihsahn, the drow swashbuckler's legacy braid
+E 1 36892 2 28 100 0 0 0           *   a twisted stone key
+F 1 36850 1 36871 100 0 0 0        * Kvolg, the duergar cleric (following)
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+M 0 36819 1 36873 100 0 0 0        * a minotaur beastmaster
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36805 4 12 100 0 0 0           *   a torn frost cloak
+E 1 36831 9 27 100 0 0 0           *   a two-handed durethium warhammer
+E 1 36852 1 39 100 0 0 0           *   a dangling lizardskull nose ring
+G 1 36809 5 0 100 0 0 0            *    some human brains
+F 1 36840 1 36873 100 0 0 0        * a kilarian beast (following)
+F 1 36841 1 36873 100 0 0 0        * a kilarian beast (following)
+F 1 36842 1 36873 100 0 0 0        * a kilarian beast (following)
+M 0 36830 1 36876 100 0 0 0        * a beautiful erinyes
+E 1 36885 1 7 100 0 0 0            *   some angel feather leggings
+E 1 36824 1 21 100 0 0 0           *   a bloody onyx ear stud
+M 0 36855 1 36877 100 0 0 0        * Euronymous, Devil Prince of Anti-paladins
+E 1 36854 3 2 100 0 0 0            *   a ring of despair
+E 1 36893 1 5 100 0 0 0            *   the armor of Hellfire
+E 1 36802 3 6 100 0 0 0            *   a dreadveil helm
+E 1 36895 1 19 100 0 0 0           *   an eyepatch of despair
+E 1 36812 1 23 100 0 0 0           *   a tarnished dematite quiver
+G 1 36894 1 0 100 0 0 0            *    a huge double-bladed axe called 'Skull Splitter'
+G 1 67235 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55179 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 55281 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 36854 1 36877 100 0 0 0        * Erebus, greater devil of Bartakhis (following)
+E 1 36897 1 3 100 0 0 0            *   a symbol of Baphomet
+E 1 36896 1 12 100 0 0 0           *   a cloak of Erebus
+G 1 36898 1 0 100 0 0 0            *    a soul sceptre
+F 1 36856 1 36877 100 0 0 0        * Kyeril, the frost dragon (following)
+G 1 36899 1 0 100 0 0 0            *    the heart of Kyeril
+G 1 36811 1 0 100 0 0 0            *    a fine dragonscale belt
+M 0 36829 1 36879 100 0 0 0        * a beautiful erinyes
+E 1 36820 1 10 100 0 0 0           *   some polished sleeves of Dagon
+E 1 36886 1 19 100 0 0 0           *   an eyepatch of Dagon
+M 0 36828 1 36881 100 0 0 0        * a beautiful erinyes
+E 1 36818 1 7 100 0 0 0            *   some polished blasbain leggings
+E 1 36887 1 21 100 0 0 0           *   a dangling dematite earring
+M 0 36835 3 36883 100 0 0 0        * an enormous carp
+M 0 36834 3 36883 100 0 0 0        * a slaytanian eel
+M 0 36835 3 36884 100 0 0 0        * an enormous carp
+M 0 36833 2 36885 100 0 0 0        * a tiger shark
+G 1 36873 2 0 100 0 0 0            *    a bloodstained serrated shark tooth
+M 0 36827 3 36885 100 0 0 0        * a brain squid
+G 1 36864 6 0 100 0 0 0            *    a squid's tentacle bone
+M 0 36834 3 36886 100 0 0 0        * a slaytanian eel
+M 0 36827 3 36887 100 0 0 0        * a brain squid
+G 1 36864 6 0 100 0 0 0            *    a squid's tentacle bone
+M 0 36831 2 36888 100 0 0 0        * a ravenous blacktail shark
+G 1 36872 1 0 100 0 0 0            *    a key of underworld kind
+M 0 36832 1 36888 100 0 0 0        * a deep sea angler
+M 0 36834 3 36889 100 0 0 0        * a slaytanian eel
+M 0 36827 3 36889 100 0 0 0        * a brain squid
+G 1 36864 6 0 100 0 0 0            *    a squid's tentacle bone
+M 0 36831 2 36889 100 0 0 0        * a ravenous blacktail shark
+M 0 36833 2 36890 100 0 0 0        * a tiger shark
+G 1 36873 2 0 100 0 0 0            *    a bloodstained serrated shark tooth
+M 0 36835 3 36890 100 0 0 0        * an enormous carp
+M 0 36843 1 36892 100 0 0 0        * Samoth, the Blood Knight of Kvasir
+E 1 36877 1 5 100 0 0 0            *   some blood armor of Kvasir
+E 1 36802 3 6 100 0 0 0            *   a dreadveil helm
+E 1 36879 1 8 100 0 0 0            *   a pair of blasbain boots
+E 1 36878 3 9 100 0 0 0            *   some durethium gauntlets
+E 1 36805 4 12 100 0 0 0           *   a torn frost cloak
+E 1 36880 1 27 100 0 0 0           *   a blood sword of Kvasir
+F 1 36844 1 36892 100 0 0 0        * Lord Dragas (following)
+E 1 36881 1 6 100 0 0 0            *   a blasbain helm
+F 1 36845 1 36892 100 0 0 0        * Sir Nargel, the royal advisor (following)
+E 1 36854 3 2 100 0 0 0            *   a ring of despair
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+M 0 36847 1 36893 100 0 0 0        * a bronze cyclops golem
+E 1 36889 1 2 100 0 0 0            *   a ring of Sekhmet
+E 1 36888 1 9 100 0 0 0            *   some gauntlets of rending
+M 0 36837 1 36894 100 0 0 0        * Bal Sagoth, the self-proclaimed epopt of Midgard.
+E 1 36875 1 3 100 0 0 0            *   a cloak secured by a celtic knot broach
+E 1 36876 1 6 100 0 0 0            *   a platinum crown encrusted with emeralds
+M 0 36852 2 36894 100 0 0 0        * a blood fiend
+M 0 36851 1 36895 100 0 0 0        * a penanggalan
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+M 0 36859 1 36896 100 0 0 0        * a Rotted knight
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+F 1 36860 1 36896 89 0 0 0         * a sickly knight (following)
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36863 6 10 100 0 0 0           *   some durethium armplates
+M 0 36852 2 36898 100 0 0 0        * a blood fiend
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+M 0 36853 4 36898 100 0 0 0        * a blood fiend
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+E 1 36878 3 9 100 0 0 0            *   some durethium gauntlets
+M 0 36853 4 36898 100 0 0 0        * a blood fiend
+E 1 36806 6 5 100 0 0 0            *   a Belialian tunic
+E 1 36878 3 9 100 0 0 0            *   some durethium gauntlets
+M 0 36853 4 36899 100 0 0 0        * a blood fiend
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36832 15 5 100 0 0 0           *   a suit of durethium chainmail
+E 1 36829 18 6 100 0 0 0           *   a durethium helm
+E 1 36830 18 8 100 0 0 0           *   some durethium boots
+M 0 36853 4 36899 100 0 0 0        * a blood fiend
+E 1 36807 9 3 100 0 0 0            *   a hangman's noose
+E 1 36847 7 5 100 0 0 0            *   some durethium scalemail
+*
+S

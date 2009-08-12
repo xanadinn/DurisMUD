@@ -1,0 +1,791 @@
+#96400
+goblin slave~
+&+ra goblin slave&N~
+&+rA goblin slave wanders around watching the herds.&N
+~
+&+rA short, squat, ugly humanoid; a wretched stench exudes from the
+&+rgoblin.  Captured in one of the slaving raids by the illithids
+&+rhis mind is virtually extinct under their domination.  He has
+&+rbeen set to watch over the herds of rothes on the island and will
+&+rno doubt wind up as a morsel for some bored illithid in the
+&+rfuture.
+~
+12 0 0 0 2 0 0 -1000 S
+HG 0 1 -1
+5 20 83 5d17+27 1d5+0
+3.1.0.0 648
+8 8 1
+#96401
+kobold slave~
+&+ga kobold slave&N~
+&+gA kobold slave watches the herd with his dull black eyes.&N
+~
+&+gA green scaly humanoid, the mischievous kobold barely stands
+&+gthree feet high.  His dull black eyes betray no emotion; he is
+&+gpowerless to think for himself under the mental domination of the
+&+gillithids.  He has been set to watch over the vast herds of
+&+grothes that serve as a food supply to the city of Ixarkon.
+~
+12 0 0 0 2 0 0 -1000 S
+H 0 1 -1
+3 20 90 3d17+17 1d5+0
+2.1.0.0 388
+8 8 1
+#96402
+duergar slave~
+&+La duergar slave&N~
+&+LA duergar slave listlessly watches the herds.&N
+~
+&+LThis slave looks like a short, stocky dwarf with a totally grey,
+&+Lpallid appearance.  He's one of the duergar, an evil race of
+&+LUnderdark dwarves.  A dull glint in his eyes betrays no emotion
+&+Lat his present situation; slave to the illithids, watching over
+&+Ltheir herds.
+~
+12 64 0 0 2 0 0 -1000 S
+PD 0 1 -1
+8 18 74 8d21+44 2d3+1
+4.2.0.0 1036
+8 8 1
+#96403
+illithid mindflayer overseer~
+&+Man illithid overseer&N~
+&+MAn illithid overseer keeps a close eye on the slaves.&N
+~
+&+MSlime covered pinkish skin and four grasping tendrils mark the
+&+Moverseer as a member of the illithid, or mindflayer race.  Rather
+&+Mlowly in status, he has been assigned by the community to
+&+Msupervise the slaves of Herd Island, and to shepherd them back
+&+Mand forth between the herdlands and the slave holding pens.
+~
+2060 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+18 13 42 18d33+108 3d4+2
+9.7.3.0 8748
+8 8 0
+#96404
+illithid mindflayer overseer axonokar~
+&+MAxonokar&N~
+&+MAn elegantly dressed illithid sits in his gazebo.&N
+~
+&+MThis illithid seems particularly vain; his clothing is of
+&+Mimpeccable taste and of the finest materials.  Assorted trinkets
+&+Madorn his body, as well as a fez-like hat.  He makes himself
+&+Mknown as Axonokar, head overseer of the operations of Herd
+&+MIsland.  Rumors in the city place say he deals in weapons on the
+&+Msly, but he denies such rumors.
+~
+2062 64 0 56 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96405
+goblin slave~
+&+ra goblin slave&N~
+&+rA goblin slave wanders aimlessly in the slave pens.&N
+~
+&+rA short, squat, ugly humanoid; a wretched stench exudes from the
+&+rgoblin.  Captured in one of the slaving raids by the illithids
+&+rhis mind is virtually extinct under their domination. While not
+&+routside watching the herds, the goblin is tossed into these dank
+&+rslave pens.
+~
+14 0 0 0 2 0 0 -1000 S
+HG 0 1 -1
+4 20 87 4d17+22 1d5+0
+2.1.0.0 518
+8 8 1
+#96406
+kobold slave~
+&+ga kobold slave&N~
+&+gA kobold slave grubs for his share of the food.&N
+~
+&+gA green scaly humanoid, the mischievous kobold barely stands
+&+gthree feet high.  His dull black eyes betray no emotion; he is
+&+gpowerless to think for himself under the mental domination of the
+&+gillithids.  When not watching the rothes that are the towns main
+&+gfood supply, he sits in this dank slave pen waiting for his next
+&+gmeal.
+~
+14 0 0 0 2 0 0 -1000 S
+H 0 1 -1
+2 20 93 2d17+11 1d5+0
+1.0.0.0 259
+8 8 1
+#96407
+duergar slave~
+&+La duergar slave&N~
+&+LA duergar slave stares with a dull glint in his eyes.&N
+~
+&+LThis slave looks like a short, stocky dwarf with a totally grey,
+&+Lpallid appearance.  He's one of the duergar, an evil race of
+&+LUnderdark dwarves.  A dull glint in his eyes betrays no emotion
+&+Lat his present situation; slave to the illithids, watching over
+&+Ltheir herds.  The duergar is tossed into the slave pens whenever
+&+Lhe's not outside doing his programmed duty.
+~
+14 0 0 0 2 0 0 -1000 S
+PD 0 1 -1
+7 18 77 7d21+38 2d3+1
+3.2.0.0 907
+8 8 1
+#96408
+goblin slave~
+&+ra goblin slave&N~
+&+rA goblin slave stands here, being led to the slave markets.&N
+~
+&+rA short, squat, ugly humanoid; the wretched odor of goblin wafts
+&+rfrom his body although he seems to have been cleaned up a little
+&+rin order to fetch a good price at the slave markets.
+~
+14 0 0 0 2 0 0 -1000 S
+HG 0 1 -1
+6 18 80 6d21+33 2d3+1
+3.2.0.0 777
+8 8 1
+#96409
+kobold slave~
+&+ga kobold slave&N~
+&+gA kobold slave stands here, being led to the slave markets.&N
+~
+&+gA green scaly humanoid, the mischievous kobold barely stands
+&+gthree feet high.  His dull black eyes betray no emotion; he is
+&+gpowerless to think for himself under the mental domination of the
+&+gillithids.  The kobold has been cleaned up slightly in an effort
+&+gto mask his grime; no doubt some ploy to fetch a higher price in
+&+gthe slave markets.
+~
+14 0 0 0 2 0 0 -1000 S
+H 0 1 -1
+4 20 87 4d17+22 1d5+0
+2.1.0.0 518
+8 8 1
+#96410
+duergar slave~
+&+La duergar slave&N~
+&+LA duergar slave stands here, being led to the slave markets.&N
+~
+&+LThis slave looks like a short, stocky dwarf with a totally grey,
+&+Lpallid appearance.  He's one of the duergar, an evil race of
+&+LUnderdark dwarves.  A dull glint in his eyes betrays no emotion
+&+Lat his present situation; he is soon to be sold in the slave
+&+Lmarkets for another menial position, or worse, for some rich
+&+Lillithid's buffet.
+~
+14 0 0 0 2 0 0 -1000 S
+PD 0 1 -1
+9 18 71 9d21+49 2d3+1
+4.3.0.0 1166
+8 8 1
+#96411
+human slave~
+&+Ca human slave&N~
+&+CA human slave stands here, being led to the slave markets.&N
+~
+&+CRelatively rare in Ixarkon, this slave is sure to fetch a
+&+Ccommanding price in the slave markets.  Faint sweat trickles down
+&+Cthe slaves face; humans are better able to resist the illithids
+&+Cmental domination.  Their greater intelligence allows them to
+&+Cperform more complicated tasks for their masters, but they also
+&+Cmust be watched more closely for any sign of resistance.
+~
+14 0 0 0 0 0 0 200 S
+PH 0 1 -1
+12 15 61 12d27+72 2d5+2
+6.4.2.0 5832
+8 8 1
+#96412
+drow slave~
+&+ma drow slave&N~
+&+mA drow slave stands here, being led to the slave markets.&N
+~
+&+mThe drow are one of the most prized slaves in all of Ixarkon.
+&+mHard to come by, and extremely talented, they fetch the best
+&+mprices of all in the slave markets.  A distant, cold fire in the
+&+mdrow's eyes seems to show he can comprehend the horror of his
+&+msituation, yet he is unable to do anything about it.  Dominating
+&+ma drow requires vigilant work by the illithid; only the Elder
+&+mBrain is able to control them with ease.
+~
+14 0 0 0 2 0 0 -1000 S
+PL 0 1024 -1
+15 15 51 15d18+60 2d5+2
+7.6.2.0 7290
+8 8 1
+#96413
+illithid merchant mindflayer~
+&+Man illithid merchant&N~
+&+MA richly dressed illithid leads his slaves to the market.&N
+~
+&+MThis illithid's finely embroidered clothing and aloof manner mark
+&+Mhim as one of the city's rich merchants.  While not a slaver
+&+Mhimself, he grows fat off the profits of the slave trade.  The
+&+Mmerchant leads his slaves from the holding pens on Herd Island to
+&+Mthe auction blocks for sale.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+18 13 42 18d33+108 3d4+2
+9.7.3.0 8748
+8 8 0
+#96414
+brain golem~
+&+Ma brain golem&N~
+&+MA hulking golem made from brain tissue surveys the area.&N
+~
+&+MStanding nearly fifteen feet tall, the brain golems are awesome
+&+Mconstructs of the illithids.  The golem is made from bits and
+&+Mpieces of various brain tissues. For a golem it is frighteningly
+&+Mintelligent and able to follow complex orders.  The golems
+&+Moversee the caverns of Ixarkon, making sure that nothing attempts
+&+Mto harm the illithid or their property.
+~
+1073743880 64 0 40 2 0 0 -1000 S
+OG 0 4 -1
+55 -5 -111 55d121+4620 7d6+30
+0.2.7.6 222750
+8 8 0
+#96415
+fish glowing~
+&+Wa glowing fish&N~
+&+WA glowing, translucent fish swims around in the water here.&N
+~
+&+WThis strange fish is about two feet long and covered with very
+&+Wthin, translucent scales.  Light seems to emit from several
+&+Wglands scattered about the fish's body shedding a little light in
+&+Wthe dark, watery cavern.  Stalks a few inches in length end in
+&+Wlarge watery orbs; apparently the fish's eyes.
+~
+8 0 0 2048 0 0 0 0 S
+F 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#96416
+critter bug insect centipede crawling~
+&+ga crawling bug&N~
+&+gA chitinous crawling bug wanders its way around the caverns.&N
+~
+&+gOnly about two inches long, this insect is covered with a hard
+&+glayer of chitin to protect the bug's fleshy interior.  The insect
+&+gis somewhat like a centipede; long, with many legs.  The bug
+&+gappears to be a scavenger, looking for dead bits of matter to
+&+gfeed on.
+~
+8 0 0 0 2 0 0 0 S
+I 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#96417
+young pech~
+&+ca young pech&N~
+&+cA young pech scrounges about the cavern for food.&N
+~
+&+cA short grayish-blue humanoid with large whitish eyes.  The pech
+&+care mostly harmless, feeding mostly on food they gather in
+&+cvarious caverns.  In tune with the earth, the pech seem to be
+&+cable to communicate on some basic level with the stone around
+&+cthem.  This pech appears to be a younger member of their
+&+ccommunity.
+~
+140 0 0 524328 2 0 0 300 S
+H 0 0 -1
+10 18 67 10d18+35 2d3+1
+5.3.0.0 1296
+8 8 1
+#96418
+elder pech~
+&+can elder pech&N~
+&+cAn elder pech gathers food growing wildly in the cavern.&N
+~
+&+cA short grayish-blue humanoid with large whitish eyes.  The pech
+&+care mostly harmless, feeding on food they gather in various
+&+ccaverns throughout the Underdark.  In tune with the earth, the
+&+cpech seem to be able to communicate on some basic level with the
+&+cstone around them. This pech has a wizened air about him; he
+&+cseems to be an elder of their community.
+~
+140 0 0 524328 2 0 0 300 S
+H 0 0 -1
+15 15 51 15d23+60 2d5+2
+7.6.2.0 7290
+8 8 1
+#96419
+mindflayer illithid sage ixaruuk~
+&+mthe sage Ixaruuk&N~
+&+mIxaruuk sits serenely amid the clutter of his study.&N
+~
+Ixaruuk is known as one of the most powerful illithid's in the
+settlement.  One of the ulitharid's, he is slightly taller than
+the average illithid and possesses six rather than four grasping
+tentacles.  He has spent a lifetime collecting knowledge on all
+matters arcane; for a price he may be willing to part with some
+of his vast knowledge.
+~
+2062 64 0 56 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96420
+mindflayer illithid sage ixaraak~
+&+mthe sage Ixaraak&N~
+&+mIxaraak sits serenely amid his scrying devices.&N
+~
+Ixaraak is known as one of the most powerful illithid's in the
+settlement.  One of the ulitharid's, he is slightly taller than
+the average illithid and possesses six rather than four grasping
+tentacles.  He is the most knowledgeable inhabitant of Ixarkon
+when it comes to matters of the outside world; he spends many an
+hour staring at his vast array  of scrying devices.
+~
+2062 192 0 56 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96421
+brain golem guard justice~
+&+Ma brain golem&N~
+&+MA hulking golem made from brain tissue guards the Rockspire.&N
+~
+&+MStanding nearly fifteen feet tall, the brain golems are awesome
+&+Mconstructs of the illithids.  The golem is made from bits and
+&+Mpieces of various brain tissues. For a golem it is frighteningly
+&+Mintelligent and able to follow complex orders.  The golems
+&+Moversee the caverns of Ixarkon, making sure that nothing attempts
+&+Mto harm the illithid or their property.
+~
+1140852746 64 0 40 2 0 0 -1000 S
+OG 0 4 -1
+55 -5 -111 55d121+4620 7d6+30
+0.2.7.6 222750
+8 8 0
+#96422
+elder illithid mindflayer~
+&+Lan elder&+m illithid&N~
+&+LAn elder&+m illithid&+L patiently communes with his peers.&N
+~
+&+BThis tall illithid is of slight build, with voluminous robes
+&+Bdraping over its thin frame.  Its mauve skin is accentuated
+&+Bby the cut of his clothing and the many pieces of jewelry it
+&+Bwears.  One of the elders of the city, it has come to the
+&+BRockspire to set the policy for Ixarkon.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+30 8 3 30d60+360 3d6+4
+0.5.7.1 26730
+8 8 0
+#96423
+elder illithid mindflayer pacer~
+&+Lan elder&+m illithid&N~
+&+LAn elder&+m illithid&+L paces around intently.&N
+~
+&+BThis tall illithid is of slight build, with voluminous robes
+&+Bdraping over its thin frame.  Its mauve skin is accentuated
+&+Bby the cut of his clothing and the many pieces of jewelry it
+&+Bwears.  One of the elders of the city, it has come to the
+&+BRockspire to set the policy for Ixarkon.  It seems quite
+&+Bagitated about some issue before the council.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+32 6 -2 32d77+512 4d6+7
+6.8.0.2 41472
+8 8 0
+#96424
+drow slave attendant~
+&+ma drow slave&+L attendant&N~
+&+mA drow slave&+L attends to the Elder Brain.&N
+~
+&+mA glazed look covers the drow's visage as he attends to the
+&+mwelfare of the Elder Brain. Prized for their dexterity, the drow
+&+mare some of the only slaves present within the Rockspire.
+&+mAlthough quite intelligent, no drow is able to resist the force
+&+mof the Elder Brain.
+~
+76 0 0 56 2 0 0 -900 S
+PL 0 1 -1
+13 15 58 13d27+78 2d5+2
+6.5.2.0 6318
+8 8 1
+#96425
+illithid attendant mindflayer~
+&+man illithid attendant&N~
+&+mAn illithid quietly observes a service to Maanzencorian.&N
+~
+&+yA well-dressed illithid quietly observes the rituals of
+&+yMaanzencorian in this modest temple in the Rockspire.  Few of
+&+ythe faithful in Ixarkon come to observe these rituals, but the
+&+yfew who do are known for their learning and sagacity.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+17 13 45 17d33+102 3d4+2
+8.6.2.0 8262
+8 8 0
+#96426
+illithid petitioner mindflayer&n~
+&+man illithid&+L petitioner&N~
+&+mAn illithid sits watching the rituals of Ilsensine.&N
+~
+&+yOne of the many inhabitants of Ixarkon, this illithid has
+&+ycome to this amphitheater dedicated to Ilsensine to
+&+ywitness the strange rituals of its race.  The current rituals
+&+ybeing enacted seem to have something to do with the slave raids
+&+ythe city has recently made.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+15 15 51 15d25+75 2d5+2
+7.6.2.0 7290
+8 8 0
+#96427
+illithid mindflayer priest~
+&+mthe illithid&+g high priest&N~
+&+gThe high priest of Maanzencorian attends to the faithful.&N
+~
+&+MA aged-looking illithid, it has served its current role as
+&+Mhigh priest of Maanzencorian in Ixarkon for decades, and is
+&+Mone of the devout faithul of his good.  A wise, learned air
+&+Msurrounds this illithid.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+41 -1 -56 41d99+1804 6d6+12
+1.7.6.3 99630
+8 8 0
+#96428
+illithid mindflayer priest~
+&+mthe illithid priest&N~
+&+rA devout follower of Ilsensine conducts some strange ritual.&N
+~
+&+RThis illithid has a wild look in its eyes as it conducts some
+&+Rfrenetic ritual dedicated to the Creator, Ilsensine.  Mostly
+&+Rignored by his deity, it has decided to serve him nonetheless,
+&+Rand eagerly urges on the many slaving raids the city undertakes.
+~
+1073743886 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+41 -1 -56 41d99+1804 6d6+12
+1.7.6.3 99630
+8 8 0
+#96429
+illithid receptionist mindflayer~
+&+mthe illithid&+y receptionist&n~
+&+yAn illithid stands here patiently waiting for customers.&N
+~
+&+yA moderately well-dressed illithid, this entrepeneur has
+&+yopened a small inn dedicated to serving the few traveling
+&+yillithid who occasionally stop by in Ixarkon from the many
+&+yother illithid cities spread throughout the Underdark. For a
+&+ymodest price it will provide sleeping quarters for a night.
+~
+1073743886 192 0 40 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96430
+ogre slave~
+&+ban ogre slave&N~
+&+bAn ogre slave works diligently here, digging new caverns.&N
+~
+&+bA huge brute, this stupid beast easily folds under the mental
+&+bsuggestions of his illithid captors.  Useful for their great
+&+bstrength the ogres are primarily the miners of the city.  They
+&+bare working here to expand the caverns of the city.
+~
+14 0 0 33554432 0 0 0 -800 S
+PO 0 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 2
+#96431
+commoner well-dressed illithid mindflayer~
+a well-dressed commoner~
+A well-dressed &+millithid&N commoner travels the city.
+~
+Wearing expensive clothing, this commoner travels around the
+city of Ixarkon running errands, shopping at the markets, and
+doing who knows else what.
+~
+1073743948 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+16 13 48 16d33+96 3d4+2
+8.6.2.0 7776
+8 8 0
+#96432
+commoner poorly-dressed illithid mindflayer~
+a poorly-dressed commoner~
+A poorly-dressed &+millithid&N commoner travels the city.
+~
+&+LThis illithid wears somewhat threadbare clothing, and has yet to
+&+Lmake a fortune for himself by participating in the slaving raids
+&+Lof the city or setting up a successful business.
+~
+1073743948 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+14 15 55 14d25+70 2d5+2
+7.5.2.0 6804
+8 8 0
+#96433
+fight fighting slave~
+&+ya slave fighter&N~
+&+yA burly slave fights under control of the illithids&N
+~
+&+rRibbons of blood streak across the body of this slave, as he
+&+rfights other slaves in the pits for the amusement of the
+&+rsurrounding illithids.  The slave seems to be of some humanoid
+&+rrace, but it isnt readily apparent which.
+~
+14 64 0 33554432 0 0 0 -500 S
+H 0 0 -1
+22 11 29 22d40+176 3d5+3
+4.0.5.0 19602
+8 8 1
+#96434
+illithid mindflayer auctioneer~
+&+Ban auctioneer&N~
+&+BAn &+millithid&+B auctioneer oversees the slave markets.&N
+~
+&+BA finely dressed illithid stands atop a platform in the middle
+&+Bof the markets, and oversees all the transactions involving the
+&+Bslave markets.  He silently takes any bids from the illithids in
+&+Battendance.
+~
+1073743886 64 0 56 2 0 0 -1000 S
+MF 0 4 -1
+28 8 10 28d60+336 3d6+4
+8.3.7.1 24948
+8 8 0
+#96435
+illithid merchant mindflayer~
+&+Man illithid merchant&N~
+&+MA richly dressed illithid browses the market.&N
+~
+&+MThis illithid's finely embroidered clothing and aloof manner mark
+&+Mhim as one of the city's rich merchants.  It is surveying the
+&+Mmarkets looking for things to purchase or possibly hoping to set
+&+Mup a business for itself.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+17 13 45 17d33+102 3d4+2
+8.6.2.0 8262
+8 8 0
+#96436
+drow banker~
+&+ma drow&+Y banker&N~
+&+wAn aged&+m drow&N inhabits this small cave.
+~
+&+mAn aged drow, he has managed to keep a tenuous hold on his
+&+mfreedom in Ixarkon for quite some time.  He provides a service to
+&+mthe illithids of the city, that of a neutral third party to serve
+&+mas banker for the town.  He is only allowed his freedom as long
+&+mas he is useful in this regard.
+~
+14 0 0 40 2 0 0 -1000 S
+PL 0 1 -1
+50 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#96437
+merchant illithid mindflayer food-merchant~
+&+yAn &+millithid&+y food merchant&N~
+&+yAn illithid merchant stands among his wares.&N
+~
+&+YThis enterprising illithid has set up a small stall on the edge
+&+Yof the markets, and provides food for the poorer inhabitants of
+&+Ythe city.  His small fair include the stupid cattle-like rothe,
+&+Yand a few scrawny looking goblins.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+40 2 -28 40d88+880 4d7+10
+3.3.3.3 51840
+8 8 0
+#96438
+merchant illithid mindflayer provisions-merchant~
+&+yAn &+millithid&+y provisions merchant&N~
+&+yAn illithid merchant stands among his wares.&N
+~
+&+LThis enterprising illithid has set up a small stall on the edge
+&+Lof the markets, and provides provisions for illithids wishing to
+&+Lbrave the wilds of the Underdark or participate in one of the
+&+Lslaving raids.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+40 2 -28 40d88+880 4d7+10
+3.3.3.3 51840
+8 8 0
+#96439
+illithid poor fringe mindflayer~
+&+La poor&+m illithid&N~
+&+LA poor&+m illithid&N lives on the fringes of town.&N
+~
+&+CThis poor illithid is unable to afford anything more than  a
+&+Cdisgusting hovel on the edge of town.  Some of these poor folk
+&+Care ones too injured to be slavers or are otherwise
+&+Cincapacitated.  They are  quite pathetic.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+10 18 67 10d19+45 2d3+1
+5.3.0.0 1296
+8 8 0
+#96440
+illithid merchant mindflayer~
+&+Man illithid merchant&N~
+&+MA richly dressed illithid browses the market.&N
+~
+&+MThis illithid's finely embroidered clothing and aloof manner mark
+&+Mhim as one of the city's rich merchants.  It is surveying the
+&+Mmarkets looking for things to purchase or possibly hoping to set
+&+Mup a business for itself.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+17 13 45 17d33+102 3d4+2
+8.6.2.0 8262
+8 8 0
+#96441
+illithid mindflayer merchant xelrelinak~
+&+cXelrelinak&N~
+&+cThe merchant Xelrelinak studies some business receipts.&N
+~
+&+cThis finely dressed illithid looks somewhat sturdier than most of
+&+chis comrades, and has made a fine living as a merchant in the
+&+ccity.  Some say that Xelrelinak serves as the de facto armorer
+&+cof a significant portion of the Underdark around Ixarkon, but of
+&+ccourse it protests such pretensions, insisting to merely be a
+&+cclothier for the city.
+~
+2062 64 0 56 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96442
+slave humanoid~
+&+La humanoid slave&n~
+&+LA humanoid slave attends to the palatial mansions here.&N
+~
+A slave from some humanoid race the illithid's have enslaved, he
+attends to the palatial mansions located in the eastern parts
+of the city.  He seems to be in relatively well condition, though
+some have been known to be dinner guests for the illithids.
+~
+2062 64 0 0 2 0 0 -500 S
+H 0 0 -1
+13 15 58 13d23+52 2d5+2
+6.5.2.0 6318
+8 8 2
+#96443
+grub bug insect worm~
+a small grub~
+A small grub inches through the great mushroom forest.
+~
+&+WA small, pale white insect, this grub inches mindlessly through
+&+Wthe great forest of mushrooms feasting on detritus and anything
+&+Welse it can get its tiny grasping mouthparts on.
+~
+8 0 0 0 0 0 0 0 S
+I 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#96444
+myconid mushroom creature~
+&+ga myconid&N~
+&+gA big mushroom wanders ever so slowly through the forest.&N
+~
+&+GThis tall mushroom is actually one of the myconids, a sentient
+&+Grace that resemble the fungi.  Somewhat intelligent, the myconid
+&+Gfeels at home in this great forest, which provides just the right
+&+Gnutrients for the myconid's to flourish.
+~
+2056 0 0 1572904 2 0 0 450 S
+h 0 0 -1
+16 13 48 16d30+240 3d4+2
+0.0.0.0 7776
+8 8 0
+#96445
+scrawny goblin~
+&+ra scrawny goblin&N~
+&+rA scrawny goblin, emaciated from lack of food stands here.&N
+~
+&+rThis scrawny goblin looks sickly and emaciated from lack of
+&+rproper food.  The scrawny goblin will no doubt end up as food at
+&+rthe end of the grasping tendrils of one of the illithids.
+~
+14 0 0 0 2 0 0 -1000 S
+HG 0 0 -1
+2 20 93 2d15+7 1d5+0
+1.0.0.0 259
+8 8 2
+#96446
+rothe~
+a rothe~
+A gentle rothe, the cattle of the underdark stands here stupidly.
+~
+The rothe is a gentle beast, the livestock of the Underdark
+analagous to the cattle of the world above.  The rothe requires
+just something to graze on for it to be content, a quite stupid
+beast all things considered.
+~
+8 0 0 33554432 0 0 0 0 S
+AH 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#96447
+duergar gardener~
+&+ra duergar gardener&N~
+&+rA duergar tends to his master's gardens here.&N
+~
+This duergar has been pressed into service as a gardener for some of the
+nobles of the city, and his dirty exterior shows he has recently been
+active at work in the gardens.
+~
+12 0 0 0 2 0 0 -1000 S
+PD 0 0 -1
+15 15 51 15d23+60 2d5+2
+7.6.2.0 7290
+8 8 1
+#96448
+illithid merchant mindflayer~
+&+Man illithid clothing merchant&N~
+&+MA richly dressed illithid displays his clothing for sale.&N
+~
+&+MThis illithid's finely embroidered clothing and aloof manner mark
+&+Mhim as one of the city's rich merchants.  It is has all manner of
+&+Mclothing and finery on display in the few cases of clothing that it
+&+Mcarries around with him.  They look quite expensive.
+~
+2062 64 0 40 2 0 0 -1000 S
+MF 0 4 -1
+50 -3 -95 50d110+2700 6d6+25
+0.3.1.5 121500
+8 8 0
+#96449
+brain golem guard justice _ignore_~
+&+Ma brain golem&N~
+&+MA hulking golem made from brain tissue guards the area.&N
+~
+&+MStanding nearly fifteen feet tall, the brain golems are awesome
+&+Mconstructs of the illithids.  The golem is made from bits and
+&+Mpieces of various brain tissues. For a golem it is frighteningly
+&+Mintelligent and able to follow complex orders.  The golems
+&+Moversee the caverns of Ixarkon, making sure that nothing attempts
+&+Mto harm the illithid or their property.
+~
+1140852746 64 0 40 2 0 0 -1000 S
+OG 0 4 -1
+60 -5 -10 550d4+8000 12d6+30
+0.2.7.60 1837219
+8 8 0

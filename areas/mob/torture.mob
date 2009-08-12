@@ -1,0 +1,244 @@
+#95400
+troll prison guard~
+&+Ma compound guard~
+A &+Lhead torturer &nstands here waiting to &+rbeat &nup new arrivals.
+~
+   This prison guard is no joke.  He is huge, ugly, and bored.
+~
+10 64 0 0 0 0 0 0 S
+PT 10 1 -1
+15 15 51 15d27+90 2d5+2
+7.6.2.0 7290
+6 8 1
+#95401
+beaten duergar~
+a beaten duergar~
+A weary and beaten &+bduergar &npounds away at the &+yrock&n.
+~
+   This duergar looks to be beaten and weary, with hardly a chance of
+escape.
+~
+10 0 0 0 0 0 0 -500 S
+PD 6 1 -1
+10 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 1
+#95402
+puny ogre~
+a puny ogre~
+A puny &+Yogre &nstands here pouting.
+~
+   This ogre stand only 7 feet, a disgrace to his race.
+~
+10 0 0 0 0 0 0 -500 S
+PO 9 1 -1
+11 15 64 11d27+66 2d5+2
+5.4.1.0 5346
+8 8 1
+#95403
+troll guard~
+a &+Lcompound &nguard~
+A Ghore &+Lcompound &nguard tries to keep things under control.
+~
+   This troll is of average size and age, and looks a little
+overwhelmed.
+~
+72 1 0 0 0 0 0 -1000 S
+PT 10 1 -1
+12 15 61 12d27+72 2d5+2
+6.4.2.0 5832
+8 8 0
+#95404
+dark halfling~
+a dark halfling~
+&+LA dark halfling is hiding amongst the rocks.&n
+~
+   This halfling looks like he hasn't seen the sun in many years;
+his eyes have become hollow and black and his skin pasty white.
+~
+1073741838 0 0 1572864 0 0 0 0 S
+PF 0 4096 -1
+24 11 23 24d40+192 3d5+3
+6.1.6.0 21384
+8 8 1
+#95405
+young umber hulk~
+a young umber hulk~
+A young umber &+Ghulk &nhauls &+yrock &nloads to the heap.
+~
+   Very young for an umber hulk, he equals the size of a large ogre;
+he will be funner and funner to manage with age.
+~
+8 0 0 0 0 0 0 0 S
+G 0 1 -1
+15 15 61 15d27+165 2d5+2
+7.6.2.0 7290
+8 8 1
+#95406
+female troll~
+an unruly troll~
+An unruly &+mtroll &ngrovels before the guards.
+~
+   This troll is heavily tatooed, and looks very mean.  She pushes
+around the males and appears very at home in the prison.
+~
+8 0 0 0 0 0 0 -1000 S
+PT 10 1 -1
+13 15 58 13d27+78 2d5+2
+6.5.2.0 6318
+8 8 2
+#95407
+hungry troll~
+a hungry troll~
+A hungry &+gtroll &nfights for his share of &+Lbat &nguts.
+~
+   This troll looks very, very hungry.
+~
+10 0 0 0 0 0 0 -1000 S
+PT 10 1 -1
+8 18 74 8d21+44 2d3+1
+4.2.0.0 1036
+8 8 1
+#95408
+troll berserker~
+a troll berserker~
+A troll &+Rberserker &ngoes into a &+rBloodlust!&n
+~
+   This is one of the last of the pure berserkers, feeding his
+Bloodlust in the well-stocked Ghore prison.
+~
+1073741832 1 0 0 0 0 0 0 S
+PT 10 1048576 -1
+13 15 58 13d27+78 2d5+2
+6.5.2.0 6318
+8 8 1
+#95409
+troll torturer head~
+a head torturer~
+&+YA head torturer stands ready to inflict &+rpain!&n
+~
+   &+YThis troll has an empty look of hatred in his eyes, nothing will
+&+Yever satisfy his &+rBloodlust..&n
+~
+10 1 0 40 1024 0 0 -1000 S
+PT 10 1 -1
+26 8 16 26d65+338 3d6+4
+7.2.6.1 23166
+8 8 1
+#95410
+distraught troll~
+a distraught troll~
+A distraught &+Ytroll &ncries out for mercy.
+~
+   This troll was very bad, and is going to be &+rtortured...&n
+~
+10 0 0 0 0 0 0 0 S
+PT 0 1 -1
+13 15 58 13d27+78 2d5+2
+6.5.2.0 6318
+8 8 1
+#95411
+vicious criminal troll~
+a vicious criminal~
+A &+Lheavily constrained &+Gtroll &nlunges at you.
+~
+   A huge muscular troll is chained to the wall by his neck.  This
+troll is way too smart and speak hooman way too well.
+~
+10 0 0 0 0 0 0 -1000 S
+PT 10 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#95412
+human slave~
+a human slave girl~
+An &+Whuman &nslave girl keeps the troll guards happy.
+~
+   This slave girl was recently taken in a raid, she still has some
+faint skin color.  She trembles with fear as the troll guards order
+her to please them in a language foreign to her.
+~
+8 0 0 0 0 0 0 1000 S
+PH 1 32 -1
+17 13 45 17d33+102 3d4+2
+8.6.2.0 8262
+8 8 2
+#95413
+duergar slave~
+a duergar slave~
+A &+Lduergar &nslave sweats over the forge.
+~
+   This duergar is enslaved, yet at home working with metal.  He
+works over the forge with grim determination.
+~
+8 0 0 0 0 0 0 -1000 S
+PD 6 1 -1
+16 13 48 16d35+112 3d4+2
+8.6.2.0 7776
+8 8 1
+#95414
+drow slave~
+a drow slave~
+A &+Ldrow &nslave slaves over a &+Wbone &nobject.
+~
+   This drow slaves over his craft, waiting for his moment to escape.
+~
+8 0 0 0 0 0 0 -1000 S
+PL 3 32 -1
+18 13 42 18d33+108 3d4+2
+9.7.3.0 8748
+8 8 1
+#95415
+troll scalper~
+a troll scalper~
+A large &+Mtroll &nis here ready to &+Rscalp &nhis next victim..
+~
+   This troll gets to scalp those who have seen the sun, a very
+sought after job and every troll child's dream.
+~
+10 0 0 0 0 0 0 0 S
+PT 10 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#95416
+elf lad~
+an elven lad~
+An &+gelven &nlad grips his head and screams.
+~
+   This elven lad has all but given up his last hope, his honor gone
+as his scalp is about to be taken.
+~
+10 0 0 0 0 0 0 1000 S
+PE 1 128 -1
+7 18 77 7d19+31 2d3+1
+3.2.0.0 907
+8 8 1
+#95417
+pit fiend~
+a pit fiend~
+&+LA huge carnivorous &+Mpit fiend &+Lcharges you!&n
+~
+   The pit fiend is some sort of rare creature, looking something
+like an ogre crossbred with a gorilla.  Its jaws are huge, and its
+mouth is frothing with saliva and blood.
+~
+8 0 0 0 0 0 0 -1000 S
+G 0 1 -1
+26 8 26 26d65+468 3d6+4
+7.2.6.1 23166
+8 8 0
+#95418
+troll guard~
+a huge troll~
+&+LA huge troll guard &+YTOSSES &+Lyou!&n
+~
+   This troll guard is immense, and has the coveted job of throwing
+unwary victims into the pit.
+~
+10 0 0 67108864 0 0 0 -1000 S
+PT 10 1 -1
+24 11 23 24d47+240 3d5+3
+6.1.6.0 21384
+8 8 1

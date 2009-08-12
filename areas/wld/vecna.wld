@@ -1,0 +1,1689 @@
+#130000
+&+LA Narrow Ravine&N~
+&+L   A narrow and dark ravine opens to the north, an ugly and confused
+&+Lcollection of cliff walls and fallen rocks.  It twists and turns like a
+&+Lcoiling snake, with the jagged walls jutting out at odd angles, effectively
+&+Lblocking line of sight to the north.  The angles of the walls block
+&+Llight from above, making the entire chasm into a collection of shadows.
+~
+1300 176427012 5 0
+D0
+&+LThe winding walls of the black cliffs make visibility to the north
+&+Limpossible.
+~
+~
+0 0 130001
+D2
+~
+~
+0 0 597408
+S
+#130001
+&+LA Narrow Ravine&N~
+&+L   The narrow, jagged ravine continues to run north and south from here,
+&+Ltwisting and turning in the process.  The steep, angled cavern walls
+&+Lextend for maybe one hundred feet above the floor of the chasm, nearly
+&+Lblocking out the view of the sky completely.  What little light does escape
+&+Linto the ravine only serves to create more shadows along the floor of the
+&+Lcavern.  A stale, cool wind blows in from the north, creating odd,
+&+Lhaunting harmonics as it follows the path of the chasm.
+~
+1300 176459840 5 0
+D0
+~
+~
+0 0 130002
+D2
+&+LThe winding walls of the black cliffs makes visiblity to the south
+&+Limpossible.
+~
+~
+0 0 130000
+S
+#130002
+&+LA Narrow Ravine&N~
+&+L   The ravine ends abruptly here, spilling out into a small, bowl-shaped
+&+Lvalley.  Enshrouded in a deep, heavy grey fog, details of the clearing are
+&+Limpossible to make out.  A chill wind blows briskly from the north,
+&+Lchilling the bone and causing the fog to swirl in odd, chaotic patterns.
+&+LThe grey mist dissipates most of the light from the sky and seems to suck
+&+Lthe color out of your surroundings, making everything appear dull and
+&+Ldreary to the eye.  The air here is wet and stale, despite the breeze,
+&+Land it smells slightly of rotting flesh.
+~
+1300 176459844 5 0
+D0
+To the north, a damp grey fog enshrouds a small valley.
+~
+~
+0 0 130025
+D2
+South of here, the twisted walls of the chasm continue, snaking around in
+some random, confused pattern.
+~
+~
+0 0 130001
+S
+#130003
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D1
+~
+~
+0 0 130004
+D2
+~
+~
+0 0 130008
+S
+#130004
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+
+&+yAt the northern cliff face stands a large iron door, flanked by ornately
+&+ycarved columns.
+~
+1300 1250201664 5 0
+D0
+&+wSet into the black cliff itself is a large iron door, flanked by two
+&+wmassive carved columns.  The door is flat and undecorated, marred only by
+&+wthe effects of corrosion.  The columns, on the other hand, are covered
+&+wwith engravings.  Unfortunately, weather has worn the two columns down too
+&+wmuch and no real details of the carvings can be made out.
+~
+door gate grate~
+1 0 130037
+D1
+~
+~
+0 0 130005
+D2
+~
+~
+0 0 130009
+D3
+~
+~
+0 0 130003
+E
+column columns~
+Worn away by weather and time, these columns were, at one time,
+masterpieces of art, hand carved by expert craftsmen.  Now they stand
+beside the large iron door, solemn reminders of the ravages of time and
+decay.
+~
+S
+#130005
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+
+&+LAlmost hidden in the shadows of the cliff face, a small tunnel opening
+&+Lcan be seen, a smaller and darker patch of blackness easily overlooked.
+~
+1300 1250201668 5 0
+D0
+&+yA few feet into the tunnel mouth, a solid iron door sits, blocking passage
+&+yfurther north.  A small, rusted keyhole can be made out on the right-hand
+&+yside of the door.
+~
+door gate~
+3 130005 130049
+D1
+~
+~
+0 0 130006
+D2
+~
+~
+0 0 130010
+D3
+~
+~
+0 0 130004
+E
+tunnel cave~
+The grey fog swirls and twists in random patterns as the cold breeze
+streams down the cliffside and encounters the cavern opening in the wall.
+The heavy smell of decay and death is worse in the mouth of the cave
+itself.  A few feet inside the tunnel mouth is a heavy iron door which
+blocks any passage further into the cave.
+~
+S
+#130006
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+
+&+LA jagged opening, bearing a twisted resemblance to an open maw, lies in
+&+Lthe cliff wall to the north.
+~
+1300 1250201668 5 0
+D0
+~
+~
+0 0 130045
+D1
+~
+~
+0 0 130007
+D2
+~
+~
+0 0 130011
+D3
+~
+~
+0 0 130005
+S
+#130007
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D2
+~
+~
+0 0 130012
+D3
+~
+~
+0 0 130006
+S
+#130008
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130003
+D1
+~
+~
+0 0 130009
+D2
+~
+~
+0 0 130013
+S
+#130009
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130004
+D1
+~
+~
+0 0 130010
+D2
+~
+~
+0 0 130014
+D3
+~
+~
+0 0 130008
+D5
+~
+door~
+5 0 130029
+S
+#130010
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130005
+D1
+~
+~
+0 0 130011
+D2
+~
+~
+0 0 130015
+D3
+~
+~
+0 0 130009
+S
+#130011
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130006
+D1
+~
+~
+0 0 130012
+D2
+~
+~
+0 0 130016
+D3
+~
+~
+0 0 130010
+D5
+~
+door~
+5 0 130030
+S
+#130012
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130007
+D2
+~
+~
+0 0 130017
+D3
+~
+~
+0 0 130011
+S
+#130013
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130008
+D1
+~
+~
+0 0 130014
+D2
+~
+~
+0 0 130018
+S
+#130014
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130009
+D1
+~
+~
+0 0 130015
+D2
+~
+~
+0 0 130019
+D3
+~
+~
+0 0 130013
+S
+#130015
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130010
+D1
+~
+~
+0 0 130016
+D2
+~
+~
+0 0 130020
+D3
+~
+~
+0 0 130014
+S
+#130016
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130011
+D1
+~
+~
+0 0 130017
+D2
+~
+~
+0 0 130021
+D3
+~
+~
+0 0 130015
+S
+#130017
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130012
+D2
+~
+~
+0 0 130022
+D3
+~
+~
+0 0 130016
+S
+#130018
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130013
+D1
+~
+~
+0 0 130019
+D2
+~
+~
+0 0 130023
+S
+#130019
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1115983936 5 0
+D0
+~
+~
+0 0 130014
+D1
+~
+~
+0 0 130020
+D2
+~
+~
+0 0 130024
+D3
+~
+~
+0 0 130018
+D5
+~
+door~
+5 0 130032
+S
+#130020
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130015
+D1
+~
+~
+0 0 130021
+D2
+~
+~
+0 0 130025
+D3
+~
+~
+0 0 130019
+S
+#130021
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130016
+D1
+~
+~
+0 0 130022
+D2
+~
+~
+0 0 130026
+D3
+~
+~
+0 0 130020
+D5
+~
+door~
+5 0 130031
+S
+#130022
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130017
+D2
+~
+~
+0 0 130027
+D3
+~
+~
+0 0 130021
+S
+#130023
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130018
+D1
+~
+~
+0 0 130024
+S
+#130024
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130019
+D1
+~
+~
+0 0 130025
+D3
+~
+~
+0 0 130023
+S
+#130025
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130020
+D1
+~
+~
+0 0 130026
+D2
+~
+~
+0 0 130002
+D3
+~
+~
+0 0 130024
+S
+#130026
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130021
+D1
+~
+~
+0 0 130027
+D3
+~
+~
+0 0 130025
+S
+#130027
+&+LA Barren Gorge&N~
+&+L  The ground here is&n &+wgrey&n &+Land mostly barren, with some sparse&n &+ybrown&n
+&+ygrasses&n &+Lpoking up through the hard packed dirt in places.  Large rounded
+&+Lrocks lie strewn about the gorge, partially shrouded by the grey fog that
+&+Lcovers everything like a blanket.  The air is cold and stale, and smells
+&+Lof death.  In places, the stench is almost overwhelming, and the slight
+&+Lbreeze that blows southwards does nothing to allieviate the smell.  High
+&+Lblack cliff walls surround the small valley, ugly, forboding, and
+&+Limpassible.
+~
+1300 1250201664 5 0
+D0
+~
+~
+0 0 130022
+D3
+~
+~
+0 0 130026
+S
+#130028
+&+WGorge Mob Control Room&n~
+The ground here is &+Lgrey&N and barren.  Dust and rocks lie strewn
+about the gorge, and the cliff walls stretch high into the sky above.
+The air here is stale, and smells of death.
+~
+1300 176459776 5 0
+S
+#130029
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130033
+D4
+~
+door~
+5 0 130009
+S
+#130030
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D2
+~
+~
+0 0 130034
+D4
+~
+door~
+5 0 130011
+S
+#130031
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D1
+~
+~
+0 0 130035
+D4
+~
+door~
+5 0 130021
+S
+#130032
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D3
+~
+~
+0 0 130036
+D4
+~
+door~
+5 0 130019
+S
+#130033
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D2
+~
+~
+0 0 130029
+S
+#130034
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130030
+S
+#130035
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D3
+~
+~
+0 0 130031
+S
+#130036
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1250201672 0 0
+D1
+~
+~
+0 0 130032
+S
+#130037
+&+LAt the Top of a Pit&N~
+&+w   A large circular cave has been cut into the cliff side here, whether by
+&+Lnatural or artificial means is unclear.  The black stone walls of the cave
+&+ware rough and jagged, pitted with holes and deep cracks.  A circular
+&+Lpit opens up beneath you, plunging into the darkness below.  The smooth
+&+wwalls seem to absorb the light from the outside, giving an eerie feeling
+&+Lto the pit.
+~
+1300 1250201676 8 0
+D2
+~
+gate grate door~
+1 0 130004
+D5
+~
+~
+0 0 130038
+F
+100
+S
+#130038
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1252298824 0 0
+D0
+~
+~
+0 0 130039
+D1
+~
+~
+0 0 130041
+D2
+~
+~
+0 0 130040
+D3
+~
+~
+0 0 130042
+D4
+~
+~
+0 0 130037
+S
+#130039
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1252298824 0 0
+D2
+~
+~
+0 0 130038
+D6
+~
+door~
+5 0 130043
+S
+#130040
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1252298824 0 0
+D0
+~
+~
+0 0 130038
+S
+#130041
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1252298824 0 0
+D3
+~
+~
+0 0 130038
+S
+#130042
+&+LA Burial Cave~
+&+y   This cave is dark and unnaturally cold, threatening to suck the warmth
+&+Lout of your body.  Carved roughly out of the dark grey earth, it is
+&+ycomposed of a pair of adjacent rooms, both roughly squarish in shape.
+&+LSlabs of granite lie around the walls of the room, providing a place to
+&+ylay bodies out for burial.  The room has the feel of great age to it, an
+&+Lthere is an odd sense of malevolency to the still air.
+~
+1300 1252298824 0 0
+D1
+~
+~
+0 0 130038
+S
+#130043
+A &+LDark&N Shrine~
+&+R   This quiet, hidden room is roughly thirty feet across at its widest,
+&+Rand has been cut in the shape of a octagon.  Near the north wall, a small
+&+rset of stairs leads up to a raised altar, behind which sits a ten-foot
+&+rtall statue of the goddess of death.  The stone of the altar is ice cold
+&+rto the touch, enough to cause pain unless proper protection is worn.  On
+&+Lthe other hand, the statue radiates warmth.  The other walls of the room
+&+Lare flat and plain, with the exception of a lone carving of the death
+&+Lgoddess in the middle of each.
+~
+1300 1250201672 0 0
+D9
+~
+door~
+5 0 130039
+S
+#130044
+&+LDeath Avatar Load Room&N~
+The cave is dark, and unnaturally cold.  Slabs of granite lie around its
+walls, providing a place to lay bodies out for burial.
+~
+1300 1250201672 0 0
+S
+#130045
+&+LA Dark Room&N~
+&+L   This rectangular room is very large, roughly fifty feet in length and
+&+Ldouble that in width.  Every wall of this room is 'decorated' in skulls.
+&+LThousands of skulls, humanoid, animal, monster, and unnameable are set
+&+Linto the walls from the floor to the ceiling, some thirty feet above.
+&+LThe skulls are all in excellent condition, and their eyeless sockets
+&+Lstare out into the room like an eiree audience watching over the crypt.
+~
+1300 1250201608 0 0
+D0
+~
+~
+0 0 130047
+D1
+~
+~
+0 0 130048
+D2
+~
+~
+0 0 130006
+D3
+~
+~
+0 0 130046
+S
+#130046
+&+LA Small Crevice&N~
+&+LThis small alcove has a low ceiling, caked with dried spider webs and
+&+Ldust.  The walls are made of dark, grey stone, cold to the touch.  A
+&+Lsmall arch leads back into the main chamber of the crypt.  The ceiling
+&+Lof this room has been worn smooth, and the walls have no discernable
+&+Lmarkings.
+~
+1300 1250201672 0 0
+D1
+~
+~
+0 0 130045
+S
+#130047
+&+LA Small Crevice&N~
+&+LThis small alcove has a low ceiling, caked with dried spider webs and
+&+Ldust.  The walls are made of dark, grey stone, cold to the touch.  A
+&+Lsmall arch leads back into the main chamber of the crypt.  The ceiling
+&+Lof this room has been worn smooth, and the walls have no discernable
+&+Lmarkings.
+~
+1300 1250201672 0 0
+D2
+~
+~
+0 0 130045
+S
+#130048
+&+LA Small Crevice&N~
+&+LThis small alcove has a low ceiling, caked with dried spider webs and
+&+Ldust.  The walls are made of dark, grey stone, cold to the touch.  A
+&+Lsmall arch leads back into the main chamber of the crypt.  The ceiling
+&+Lof this room has been worn smooth, and the walls have no discernable
+&+Lmarkings.
+~
+1300 1250201672 0 0
+D3
+~
+~
+0 0 130045
+S
+#130049
+&+LA Dark Tunnel&N~
+&+LThe tunnel delves deeper into the rock, almost perfectly circular in
+&+Lshape.  Footing is slightly difficult because of the round tunnel floor,
+&+Land the tunnel slopes slightly downwards as it goes deeper into the black
+&+Lstone.  To the south, a solid iron door sits on its hinges, large
+&+Lenough to completely block the mouth of the tunnel.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130056
+D2
+~
+gate~
+3 130005 130005
+S
+#130050
+Ali load room~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 176459784 0 0
+D0
+~
+~
+0 0 130051
+D1
+~
+~
+0 0 130053
+D2
+~
+~
+0 0 130054
+D3
+~
+~
+0 0 130052
+S
+#130051
+Ali's Exit Path~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130055
+S
+#130052
+Ali's Exit Path~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130055
+S
+#130053
+Ali's Exit Path~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130055
+S
+#130054
+Ali's Exit Path~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130055
+S
+#130055
+Ali's Exit Path~
+This small alcove has a low ceiling, and an arch leads back into the main
+chamber of the crypt.  The floor is worn smooth, and the walls have no
+discernable markings.
+~
+1300 176459784 0 0
+D0
+~
+~
+0 0 130032
+D1
+~
+~
+0 0 130029
+D2
+~
+~
+0 0 130030
+D3
+~
+~
+0 0 130031
+D4
+~
+~
+0 0 130045
+D5
+~
+~
+0 0 130038
+S
+#130056
+&+WAn Arched Hallway&N~
+&+LThe walls of this hallway are dark, made of dull, dark grey stones packed
+&+Ltightly together.  Spaced out at equal intervals in the hall are stark
+&+Lwhite arches, connected by a ridge of stone that runs down the middle of
+&+Lthe tunnel's ceiling.  A soft&n &+Wglow&n &+Lcan be seen from the north, while to
+&+Lthe south the tunnel becomes rounded and is hidden in inky black darkness.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130057
+D2
+~
+~
+0 0 130049
+S
+#130057
+&+WThe Skull&N~
+&+L   The north wall of this dark and gloomy room has been sculpted into the
+&+Lshape of the interior of a human skull.  The eye sockets of the skull form
+&+Ltwo doors, leading northeast and northwest.  A&n &+w"spine"&n &+Lof white stone runs
+&+Lalong the middle of the ceiling overhead, stretching off to the south.
+&+LTranslucent veins of rock run through the otherwise dark stone of the
+&+Lfloor, and shimmering flickers of light flash through veins, like &+wp&+Lu&+wl&+Ls&+we&+Ls
+&+Lof brilliance through a&n &+Lsp&+wi&+Lde&+wr&+Lwe&+wb&n &+Lpattern of rock.
+~
+1300 1249906760 0 0
+D2
+~
+~
+0 0 130056
+D6
+~
+~
+0 0 130066
+D8
+~
+~
+0 0 130058
+S
+#130058
+&+rAt the Edge of a Cavern&N~
+&+wThis small tunnel curves from the soutwest to the east, where it opens up
+&+winto a huge fiery cavern.  Waves of immense heat roll in from the east,
+&+Rbathing this room in warmth.  The flickering white light from the
+&+Rsouthwest meshes with a fiery red glow from the easy to create odd shadows
+&+rand displays of color in the tunnel walls.
+~
+1300 1250201676 0 0
+D1
+~
+~
+0 0 130061
+D7
+~
+~
+0 0 130057
+S
+#130059
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D1
+~
+~
+0 0 130060
+D2
+~
+~
+0 0 130061
+S
+#130060
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D1
+~
+~
+0 0 130065
+D2
+~
+~
+0 0 130062
+D3
+~
+~
+0 0 130059
+S
+#130061
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D0
+~
+~
+0 0 130059
+D1
+~
+~
+0 0 130062
+D2
+~
+~
+0 0 130063
+D3
+~
+~
+0 0 130058
+S
+#130062
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D0
+~
+~
+0 0 130060
+D1
+~
+~
+0 0 130067
+D2
+~
+~
+0 0 130064
+D3
+~
+~
+0 0 130061
+S
+#130063
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D0
+~
+~
+0 0 130061
+D1
+~
+~
+0 0 130064
+S
+#130064
+&+RThe Lake of Fire&N~
+&+rThe entire cavern before you is bathed in&n &+Rflames&+r.  Distortions in the air
+&+rbecause of the immense heat makes it difficult to see in any direction.
+&+rThere doesn't appear to be a solid floor to the room... only a plane of
+&+rsearing fire and heat.
+~
+1300 1250201664 11 0
+D0
+~
+~
+0 0 130062
+D1
+~
+~
+0 0 130068
+D3
+~
+~
+0 0 130063
+S
+#130065
+&+rA Vestibule&N~
+A detailed mosaic of a &+Ld&+Wr&+La&+Wg&+Lo&+Wn&N lies on the floor of this room.
+Scawled in blood-red lettering across the walls of this circular chamber
+are the words:
+
+        &+rSo end the enemies of &+LVecna&n.
+
+
+.
+~
+1300 1250201664 24 0
+D3
+~
+~
+0 0 130060
+S
+#130066
+&+LBefore a Portal&N~
+&+wThe tunnel comes to an abrupt end here, stopping at a blank and
+&+wfeatureless wall of stone.  The smooth, dark walls of the tunnel seem to
+&+wabsorb the dim glow from the southeast, and sound is muffled, as if
+&+wcancelled out by some magical force.
+~
+1300 1250201664 24 0
+D9
+~
+~
+0 0 130057
+S
+#130067
+&+rA Vestibule&N~
+A detailed mosaic of a &+Ld&+Wr&+La&+Wg&+Lo&+Wn&N lies on the floor of this room.
+Scawled in blood-red lettering across the walls of this circular chamber
+are the words:
+
+        &+rSo end the enemies of &+LVecna&n.
+
+
+.
+~
+1300 1250201600 24 0
+D3
+~
+~
+0 0 130062
+S
+#130068
+&+rA Vestibule&N~
+A detailed mosaic of a &+Ld&+Wr&+La&+Wg&+Lo&+Wn&N lies on the floor of this room.
+Scawled in blood-red lettering across the walls of this circular chamber
+are the words:
+
+        &+rSo end the enemies of &+LVecna&n.
+
+
+.
+~
+1300 1250201664 24 0
+D3
+~
+~
+0 0 130064
+S
+#130069
+&+LThe &+rEmbalming&+L Room&n~
+&+y   Dominating the central portion of this room is a gigantic vat, filled
+&+ywith acrid embalming fluid.  A nasty, thin yellow liquid, the embalming fluid
+&+ygives off a stench that's almost bad enough to knock a person out.  A vat
+&+yis made of solid, blackened oak and is roughly thirty feet in diameter and
+&+yfour feet in height.  Occasionally some solid mass will float to the
+&+ysurface of the vat, and with horror you realize that the chunk of floating
+&+ymatter is part of a half-decayed corpse.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130070
+S
+#130070
+&+LA Dark Anteroom&N~
+&+L  This blackened chamber reeks of death and decay, and everything is
+&+Lcovered with a thick layer of disguising grime.  Dust fills the air,
+&+Lenough to choke a man if he inhales too much.  A rounded portalway leaves
+&+Lto the north, and an undecipherable mass of runes surrounds that exit.
+&+LThe runic script which outlines the portal seem to eminate a feeling of
+&+Lsheer horror, as if Death himself had signed his name around the door.
+~
+1300 1250070600 0 0
+D0
+~
+door~
+3 130012 130071
+D2
+~
+~
+0 0 130066
+S
+#130071
+&+LThe Inner Sanctuary&N~
+&+L   This hidden lair of the archlich Vecna is dominated by a raised
+&+wplatform near the north wall, which contains a single, massive throne made
+&+Lof bone.  The throne about fifteen feet in height and composed of
+&+wthousands and thousands of skulls, mostly those of small human or elven
+&+Lchildren.  It glows with an unholy power and waves of sheer hatred can be
+&+wfelt from this throne of Vecna.  At first glance, the walls of the chamber
+&+Lappear to be flat and black, but upon closer inspection one can see the
+&+wwalls have been intricately carved.  Millions upon millions of tiny
+&+Lscreaming faces have been etched into the black stone, each face
+&+wapparently being unique.  To the west, an odd doorway sits... odd because
+&+La thin membrane of some sort fills the frame, like a thin bubble.  To the
+&+weast, another chamber opens.
+~
+1300 1250201672 0 0
+D1
+~
+~
+0 0 130078
+D2
+~
+door~
+3 130012 130070
+D3
+~
+~
+0 0 130079
+S
+#130072
+The Hall of Trophies~
+&+y   This long hallway is lined with statues, intricately carved by some
+&+yexpert craftsmen.  Each statue is carved in the likeness of a great leader
+&+yof people, famous figures from throughout the past.  All have one thing in
+&+ycommon: all were slain through the machinations of the archlich Vecna.
+&+yHumans, drow, mountain dwarves... every race seems to be represented by at
+&+yleast one fallen hero.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130073
+S
+#130073
+The Hall of Trophies~
+&+y   This long hallway is lined with statues, intricately carved by some
+&+yexpert craftsmen.  Each statue is carved in the likeness of a great leader
+&+yof people, famous figures from throughout the past.  All have one thing in
+&+ycommon: all were slain through the machinations of the archlich Vecna.
+&+yHumans, drow, mountain dwarves... every race seems to be represented by at
+&+yleast one fallen hero.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130075
+D2
+~
+~
+0 0 130072
+S
+#130074
+&+LFloating in a Void&N~
+You are floating in a formless void, darkness engulfs you in all
+directions.
+~
+1300 1250201672 19 0
+D0
+~
+~
+0 0 130070
+S
+#130075
+The Hall of Trophies~
+&+y   This long hallway is lined with statues, intricately carved by some
+&+yexpert craftsmen.  Each statue is carved in the likeness of a great leader
+&+yof people, famous figures from throughout the past.  All have one thing in
+&+ycommon: all were slain through the machinations of the archlich Vecna.
+&+yHumans, drow, mountain dwarves... every race seems to be represented by at
+&+yleast one fallen hero.
+~
+1300 1250201672 0 0
+D0
+~
+~
+0 0 130070
+D2
+~
+~
+0 0 130073
+S
+#130076
+&+LThe Torture Chamber&N~
+&+r   The room is filled with a large assortment of torture devices.  A
+&+rlarge rack domintes the center of the room, and a ring of manacles hangs
+&+rfrom the ceiling in the northest corner.  Various stakes, pincers,
+&+rneedles, and chains lie strewn about the room haphazardly.  A few
+&+rsmall knives, corroded almost beyond recognition, lie on a small
+&+rpedestal near the rack.  Dried blood cakes almost everything in the room.
+~
+1300 1115983944 0 0
+D0
+~
+~
+0 0 130070
+S
+#130077
+The Hall of Trophies~
+&+y   This long hallway is lined with statues, intricately carved by some
+&+yexpert craftsmen.  Each statue is carved in the likeness of a great leader
+&+yof people, famous figures from throughout the past.  All have one thing in
+&+ycommon: all were slain through the machinations of the archlich Vecna.
+&+yHumans, drow, mountain dwarves... every race seems to be represented by at
+&+yleast one fallen hero.
+~
+1300 1250201608 0 0
+D0
+~
+~
+0 0 130070
+D2
+~
+~
+0 0 130075
+S
+#130078
+&+rA Deep Pool&N~
+&+r   The entirety of this room is taken up by a shallow pool of deep, red,
+&+rblood, roughly two feet in depth.  The pool is about twenty feet in
+&+rdiameter, and eerie currents from some unknown source cause the blood to
+&+Lmove slowly around the pool in a circle, as if some invisible hand was
+&+Lstirring the horrid fluid.  The walls of the room are caked in blackened
+&+Llayers of dried blood as well.
+~
+1300 1250201672 0 0
+D3
+~
+~
+0 0 130071
+S
+#130079
+&+LA Bubble in Space&n~
+&+b   Swirling mixes of color swirl about this room in a myriad of every
+&+bchanging color.  A feeling of vast, empty space fills this room.
+&+bApparently used by Vecna for watching the other planes of existance, this
+&+brip in the fabric of reality is actually rather peaceful compared to the
+&+brest of Vecan's lair.  A doorway lies to the east, covered in a thin,
+&+btranslucent membrane.  Through this doorway Vecna's throneroom can be
+&+bseen, but everything is distorted, like the colors have been washed away.
+~
+1300 1250201672 0 0
+S

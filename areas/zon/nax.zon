@@ -1,0 +1,375 @@
+#377
+&+LNa&+rx&n~
+37944 2 4 20 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 37701 3 1 100 0 0 0
+*     west exit from "Before a Large Iron Gate" to
+*     "Before a Large Iron Gate" - closed
+*
+D 0 37702 1 1 100 0 0 0
+*     east exit from "Before a Large Iron Gate" to
+*     "Before a Large Iron Gate" - closed
+*
+D 0 37704 2 1 100 0 0 0
+*     south exit from "Before a Stoned Barracks" to
+*     "Barracks Lobby" - closed
+*
+D 0 37708 0 1 100 0 0 0
+*     north exit from "Barracks Lobby" to
+*     "Before a Stoned Barracks" - closed
+*
+D 0 37705 3 1 100 0 0 0
+*     west exit from "Before A Large Stone Building" to
+*     "Base of a War Tower" - closed
+*
+D 0 37706 1 1 100 0 0 0
+*     east exit from "Base of a War Tower" to
+*     "Before A Large Stone Building" - closed
+*
+D 0 37714 1 1 100 0 0 0
+*     east exit from "Small Cobblestone Road" to
+*     "The Brawling Foot Inn" - closed
+*
+D 0 37715 3 1 100 0 0 0
+*     west exit from "The Brawling Foot Inn" to
+*     "Small Cobblestone Road" - closed
+*
+D 0 37724 3 1 100 0 0 0
+*     west exit from "Grumbling Glee Lane" to
+*     "A Large House" - closed
+*
+D 0 37749 1 1 100 0 0 0
+*     east exit from "A Large House" to
+*     "Grumbling Glee Lane" - closed
+*
+D 0 37735 3 1 100 0 0 0
+*     west exit from "A Turning" to
+*     "An Unholy Church" - closed
+*
+D 0 37738 1 1 100 0 0 0
+*     east exit from "An Unholy Church" to
+*     "A Turning" - closed
+*
+D 0 37736 3 1 100 0 0 0
+*     west exit from "A Narrow Staircase" to
+*     "Before the Warrior Brigade" - closed
+*
+D 0 37746 1 1 100 0 0 0
+*     east exit from "Before the Warrior Brigade" to
+*     "A Narrow Staircase" - closed
+*
+D 0 37756 0 1 100 0 0 0
+*     north exit from "Before a Large Building" to
+*     "A Shambled House" - closed
+*
+D 0 37757 2 1 100 0 0 0
+*     south exit from "A Shambled House" to
+*     "Before a Large Building" - closed
+*
+D 0 37760 1 1 100 0 0 0
+*     east exit from "Before a Domed Courthouse" to
+*     "An Abandoned Courthouse" - closed
+*
+D 0 37761 3 1 100 0 0 0
+*     west exit from "An Abandoned Courthouse" to
+*     "Before a Domed Courthouse" - closed
+*
+D 0 37766 2 1 100 0 0 0
+*     south exit from "A Cobblestone Road" to
+*     "A Large House" - closed
+*
+D 0 37784 0 1 100 0 0 0
+*     north exit from "A Large House" to
+*     "A Cobblestone Road" - closed
+*
+D 0 37774 0 1 100 0 0 0
+*     north exit from "A Narrow Corridor" to
+*     "A War Room" - closed
+*
+D 0 37775 2 1 100 0 0 0
+*     south exit from "A War Room" to
+*     "A Narrow Corridor" - closed
+*
+D 0 37798 0 1 100 0 0 0
+*     north exit from "Near a Log Cabin" to
+*     "In a Log Cabin" - closed
+*
+D 0 37799 2 1 100 0 0 0
+*     south exit from "In a Log Cabin" to
+*     "Near a Log Cabin" - closed
+*
+D 0 37803 3 1 100 0 0 0
+*     west exit from "Before a Forest" to
+*     "A Small Wooden Cottage" - closed
+*
+D 0 37804 1 1 100 0 0 0
+*     east exit from "A Small Wooden Cottage" to
+*     "Before a Forest" - closed
+*
+D 0 37804 3 1 100 0 0 0
+*     west exit from "A Small Wooden Cottage" to
+*     "A Plowed Field" - closed
+*
+D 0 37820 1 1 100 0 0 0
+*     east exit from "A Plowed Field" to
+*     "A Small Wooden Cottage" - closed
+*
+D 0 37835 1 1 100 0 0 0
+*     east exit from "A Withered Cobblestone Road" to
+*     "Horses Stables" - closed
+*
+D 0 37839 3 1 100 0 0 0
+*     west exit from "Horses Stables" to
+*     "A Withered Cobblestone Road" - closed
+*
+*
+O 0 37706 1 37712 100 0 0 0        * a small stream
+O 0 361 3 37744 100 0 0 0          * (object type not in this .obj file)
+O 0 361 3 37745 100 0 0 0          * (object type not in this .obj file)
+O 0 3097 999 37764 100 0 0 0       * (object type not in this .obj file)
+O 0 361 3 37777 100 0 0 0          * (object type not in this .obj file)
+O 0 37738 2 37791 100 0 0 0        * two large boulders
+O 0 37738 2 37792 100 0 0 0        * two large boulders
+O 0 37727 1 37847 100 0 0 0        * an ebony boulder
+O 0 37728 1 37855 100 0 0 0        * an ebony boulder
+O 0 37729 1 37923 100 0 0 0        * a tower of high sorcery
+*
+M 0 37700 1 37703 100 0 0 0        * Vax
+G 1 37701 999 0 100 0 0 0          *    a battle axe
+G 1 37700 999 0 100 0 0 0          *    a steel longsword
+G 1 37703 999 0 100 0 0 0          *    a large wooden hammer
+G 1 37702 999 0 100 0 0 0          *    a steel dagger
+G 1 37704 999 0 100 0 0 0          *    a throwing dagger
+M 0 37702 2 37706 100 0 0 0        * a drunken sentry
+M 0 37702 2 37706 100 0 0 0        * a drunken sentry
+M 0 37701 1 37707 100 0 0 0        * a scout
+E 1 37705 1 16 100 0 0 0           *   a steel flail
+M 0 37703 1 37709 100 0 0 0        * a sleeping soldier
+M 0 37704 1 37710 100 0 0 0        * a chef
+M 0 37705 1 37711 100 0 0 0        * a crapping soldier
+M 0 37706 1 37716 100 0 0 0        * Grym
+M 0 37715 1 37717 100 0 0 0        * a drunk minotaur
+M 0 37764 1 37718 100 0 0 0        * Syrm
+M 0 37707 2 37718 100 0 0 0        * a drunken minotaur
+M 0 37707 2 37718 100 0 0 0        * a drunken minotaur
+M 0 37708 1 37719 100 0 0 0        * Brukish
+G 1 37709 999 0 100 0 0 0          *    a sausage
+G 1 37707 999 0 100 0 0 0          *    some venison strips
+G 1 37708 999 0 100 0 0 0          *    an iron ration
+G 1 37724 999 0 100 0 0 0          *    a large oak barrel
+G 1 37723 999 0 100 0 0 0          *    a leather waterskin
+M 0 37736 5 37720 100 0 0 0        * an agitated minotaur
+M 0 37737 2 37726 100 0 0 0        * a fluffy bunny
+M 0 37753 3 37727 100 0 0 0        * an commoner
+M 0 37737 2 37729 100 0 0 0        * a fluffy bunny
+M 0 37724 1 37730 100 0 0 0        * Brok
+G 1 37716 999 0 100 0 0 0          *    a broad sword
+G 1 37713 999 0 100 0 0 0          *    a jagged iron dagger
+G 1 37714 999 0 100 0 0 0          *    a short steel dagger
+G 1 37715 999 0 100 0 0 0          *    a two-handed battle axe
+G 1 37712 999 0 100 0 0 0          *    a long thin steel dagger
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 37736 5 37731 100 0 0 0        * an agitated minotaur
+M 0 37713 1 37739 100 0 0 0        * a common minotaur
+M 0 37711 2 37740 100 0 0 0        * a common minotaur
+M 0 37731 1 37741 100 0 0 0        * an elder commoner
+M 0 37711 2 37743 100 0 0 0        * a common minotaur
+M 0 37755 1 37744 100 0 0 0        * Ghugarn
+G 1 37745 999 0 100 0 0 0          *    a heavy iron-plate
+G 1 37749 999 0 100 0 0 0          *    a dented iron bracer
+G 1 37747 999 0 100 0 0 0          *    a large wooden shield
+G 1 37746 999 0 100 0 0 0          *    some steel linked chainmail
+G 1 37748 999 0 100 0 0 0          *    some chain linked steel gloves
+G 1 37756 1 0 100 0 0 0            *    a hammered silver tail ring
+G 1 37757 1 0 100 0 0 0            *    a gold inlaid tail ring
+G 1 37758 1 0 100 0 0 0            *    a set of iron horns
+G 1 37759 1 0 100 0 0 0            *    steel horn sheaths tipped with ivory
+G 1 37760 1 0 100 0 0 0            *    a heavy copper nose ring
+G 1 37761 1 0 100 0 0 0            *    a fine ruby nose ring
+M 0 37709 1 37745 100 0 0 0        * Bergin
+G 1 37754 999 0 100 0 0 0          *    a steel dagger
+G 1 37753 999 0 100 0 0 0          *    a steel longsword
+G 1 37752 999 0 100 0 0 0          *    an steel warhammer
+G 1 37751 999 0 100 0 0 0          *    a two-handed battle sword
+G 1 37750 999 0 100 0 0 0          *    a blue-steel longsword
+M 0 37730 2 37747 100 0 0 0        * a warrior
+M 0 37730 2 37747 100 0 0 0        * a warrior
+M 0 37712 1 37748 100 0 0 0        * a common minotaur
+M 0 37710 1 37750 100 0 0 0        * Brakx
+E 1 37755 1 24 100 0 0 0           *   insignia of the minotaur elite
+M 0 37736 5 37752 100 0 0 0        * an agitated minotaur
+M 0 37753 3 37752 100 0 0 0        * an commoner
+M 0 37736 5 37755 100 0 0 0        * an agitated minotaur
+M 0 37714 1 37758 100 0 0 0        * Nika
+E 1 37710 1 10 100 0 0 0           *   some iron-clad sleeves
+M 0 37735 1 37761 100 0 0 0        * a disheveled commoner
+M 0 37758 1 37761 100 0 0 0        * a small rat
+M 0 37723 1 37763 100 0 0 0        * Narvnagan
+M 0 37751 1 37764 100 0 0 0        * Gonx
+M 0 37736 5 37766 100 0 0 0        * an agitated minotaur
+M 0 37753 3 37766 100 0 0 0        * an commoner
+M 0 37733 6 37768 100 0 0 0        * a rugged commoner
+M 0 37733 6 37769 100 0 0 0        * a rugged commoner
+M 0 37733 6 37770 100 0 0 0        * a rugged commoner
+M 0 37733 6 37771 100 0 0 0        * a rugged commoner
+M 0 37733 6 37772 100 0 0 0        * a rugged commoner
+M 0 37733 6 37773 100 0 0 0        * a rugged commoner
+M 0 37727 1 37775 100 0 0 0        * Ackum
+M 0 37728 1 37776 100 0 0 0        * a training warrior
+M 0 37729 2 37776 100 0 0 0        * a sparring warrior
+M 0 37729 2 37776 100 0 0 0        * a sparring warrior
+M 0 37726 1 37777 100 0 0 0        * Micheral
+G 1 37722 999 0 100 0 0 0          *    a steel dagger
+G 1 37719 999 0 100 0 0 0          *    an iron warhammer
+G 1 37720 999 0 100 0 0 0          *    a hard oak warhammer
+G 1 37721 999 0 100 0 0 0          *    a large two-handed longsword
+G 1 37718 999 0 100 0 0 0          *    a thick blue-hued steel longsword
+M 0 37732 1 37785 100 0 0 0        * Kina
+E 1 37725 1 10 100 0 0 0           *   some iron-clad sleeves
+M 0 37734 2 37786 100 0 0 0        * a small snake
+M 0 37734 2 37789 100 0 0 0        * a small snake
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37756 6 37791 100 0 0 0        * a bulky minotaur guard
+M 0 37759 1 37798 100 0 0 0        * a young doe
+M 0 37722 1 37799 100 0 0 0        * a human monk
+E 1 37711 1 12 100 0 0 0           *   a long flowing robe
+M 0 37757 2 37803 100 0 0 0        * a commoner
+M 0 37725 1 37804 100 0 0 0        * the head taskmaster
+E 1 37717 1 16 100 0 0 0           *   a long leather whip
+M 0 37716 4 37807 100 0 0 0        * a human slave
+M 0 37717 4 37807 100 0 0 0        * a gnome slave
+M 0 37717 4 37807 100 0 0 0        * a gnome slave
+M 0 37720 3 37807 100 0 0 0        * a hearty mule
+M 0 37717 4 37808 100 0 0 0        * a gnome slave
+M 0 37718 4 37808 100 0 0 0        * a halfling slave
+M 0 37721 1 37808 100 0 0 0        * a taskmaster
+M 0 37716 4 37809 100 0 0 0        * a human slave
+M 0 37716 4 37812 100 0 0 0        * a human slave
+M 0 37720 3 37812 100 0 0 0        * a hearty mule
+M 0 37716 4 37812 100 0 0 0        * a human slave
+M 0 37718 4 37813 100 0 0 0        * a halfling slave
+M 0 37720 3 37817 100 0 0 0        * a hearty mule
+M 0 37718 4 37818 100 0 0 0        * a halfling slave
+M 0 37717 4 37822 100 0 0 0        * a gnome slave
+M 0 37718 4 37823 100 0 0 0        * a halfling slave
+M 0 37757 2 37832 100 0 0 0        * a commoner
+M 0 37760 1 37833 100 0 0 0        * a stout duergar merchant
+M 0 37761 1 37833 100 0 0 0        * a large minotaur
+M 0 37749 8 37834 100 0 0 0        * a minotaur
+E 1 37730 1 16 100 0 0 0           *   an obsidian shard
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37748 6 37839 100 0 0 0        * a horse
+M 0 37750 2 37842 100 0 0 0        * a baby crocodile
+M 0 37747 1 37844 100 0 0 0        * a carnivorous plant
+M 0 37750 2 37845 100 0 0 0        * a baby crocodile
+M 0 37738 3 37848 100 0 0 0        * a devout commoner
+M 0 37738 3 37849 100 0 0 0        * a devout commoner
+M 0 37738 3 37850 100 0 0 0        * a devout commoner
+M 0 37739 3 37852 100 0 0 0        * a sleeping drunk
+M 0 37739 3 37853 100 0 0 0        * a sleeping drunk
+M 0 37739 3 37854 100 0 0 0        * a sleeping drunk
+M 0 37741 10 37856 100 0 0 0       * a cavern spider
+M 0 37741 10 37858 100 0 0 0       * a cavern spider
+M 0 37741 10 37861 100 0 0 0       * a cavern spider
+M 0 37742 7 37861 100 0 0 0        * a cavern spider
+M 0 37743 9 37861 100 0 0 0        * a cavern spider
+M 0 37744 8 37861 100 0 0 0        * a cavern worm
+M 0 37745 8 37861 100 0 0 0        * a cavern worm
+M 0 37745 8 37861 100 0 0 0        * a cavern worm
+M 0 37746 7 37861 100 0 0 0        * a cavern worm
+M 0 37740 6 37863 100 0 0 0        * a slimy lizard
+M 0 37741 10 37865 100 0 0 0       * a cavern spider
+M 0 37743 9 37873 100 0 0 0        * a cavern spider
+M 0 37744 8 37873 100 0 0 0        * a cavern worm
+M 0 37745 8 37873 100 0 0 0        * a cavern worm
+M 0 37746 7 37873 100 0 0 0        * a cavern worm
+M 0 37743 9 37877 100 0 0 0        * a cavern spider
+M 0 37744 8 37879 100 0 0 0        * a cavern worm
+M 0 37740 6 37881 100 0 0 0        * a slimy lizard
+M 0 37741 10 37881 100 0 0 0       * a cavern spider
+M 0 37742 7 37881 100 0 0 0        * a cavern spider
+M 0 37743 9 37881 100 0 0 0        * a cavern spider
+M 0 37740 6 37886 100 0 0 0        * a slimy lizard
+M 0 37742 7 37887 100 0 0 0        * a cavern spider
+M 0 37741 10 37887 100 0 0 0       * a cavern spider
+M 0 37744 8 37887 100 0 0 0        * a cavern worm
+M 0 37743 9 37887 100 0 0 0        * a cavern spider
+M 0 37745 8 37887 100 0 0 0        * a cavern worm
+M 0 37746 7 37887 100 0 0 0        * a cavern worm
+M 0 37740 6 37891 100 0 0 0        * a slimy lizard
+M 0 37741 10 37892 100 0 0 0       * a cavern spider
+M 0 37742 7 37892 100 0 0 0        * a cavern spider
+M 0 37743 9 37892 100 0 0 0        * a cavern spider
+M 0 37744 8 37892 100 0 0 0        * a cavern worm
+M 0 37745 8 37892 100 0 0 0        * a cavern worm
+M 0 37746 7 37892 100 0 0 0        * a cavern worm
+M 0 37740 6 37894 100 0 0 0        * a slimy lizard
+M 0 37740 6 37896 100 0 0 0        * a slimy lizard
+M 0 37741 10 37899 100 0 0 0       * a cavern spider
+M 0 37742 7 37899 100 0 0 0        * a cavern spider
+M 0 37743 9 37899 100 0 0 0        * a cavern spider
+M 0 37744 8 37899 100 0 0 0        * a cavern worm
+M 0 37745 8 37899 100 0 0 0        * a cavern worm
+M 0 37746 7 37899 100 0 0 0        * a cavern worm
+M 0 37741 10 37909 100 0 0 0       * a cavern spider
+M 0 37742 7 37909 100 0 0 0        * a cavern spider
+M 0 37743 9 37909 100 0 0 0        * a cavern spider
+M 0 37744 8 37909 100 0 0 0        * a cavern worm
+M 0 37745 8 37909 100 0 0 0        * a cavern worm
+M 0 37746 7 37909 100 0 0 0        * a cavern worm
+M 0 37741 10 37915 100 0 0 0       * a cavern spider
+M 0 37742 7 37915 100 0 0 0        * a cavern spider
+M 0 37743 9 37915 100 0 0 0        * a cavern spider
+M 0 37744 8 37915 100 0 0 0        * a cavern worm
+M 0 37745 8 37915 100 0 0 0        * a cavern worm
+M 0 37746 7 37915 100 0 0 0        * a cavern worm
+M 0 37749 8 37924 100 0 0 0        * a minotaur
+E 1 37731 1 15 100 0 0 0           *   an obsidian bracer
+M 0 37749 8 37925 100 0 0 0        * a minotaur
+E 1 37732 2 10 100 0 0 0           *   an obsidian pair of sleeves
+M 0 37749 8 37926 100 0 0 0        * a minotaur
+E 1 37733 1 13 100 0 0 0           *   an obsidian belt
+M 0 37749 8 37927 100 0 0 0        * a minotaur
+E 1 37734 1 21 100 0 0 0           *   an obsidian earring
+M 0 37749 8 37928 100 0 0 0        * a minotaur
+E 1 37735 1 40 100 0 0 0           *   an obsidian horn ring
+M 0 37749 8 37929 100 0 0 0        * a minotaur
+E 1 37732 2 10 100 0 0 0           *   an obsidian pair of sleeves
+M 0 37749 8 37930 100 0 0 0        * a minotaur
+E 1 37737 1 3 100 0 0 0            *   an obsidian pendant
+M 0 37752 1 37938 100 0 0 0        * a carniverous shark
+M 0 37754 1 37942 100 0 0 0        * Vanailiux
+G 1 37742 999 0 100 0 0 0          *    a liquid potion
+G 1 37744 999 0 100 0 0 0          *    a cloudy elixir
+G 1 37740 999 0 100 0 0 0          *    a wand made of ice
+G 1 37739 999 0 100 0 0 0          *    a crystal ball wand
+G 1 37743 999 0 100 0 0 0          *    a black magic potion
+M 0 37762 1 37943 100 0 0 0        * A reeling minotaur shaman
+G 1 108 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 109 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 111 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 144 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 826 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 14029 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 21585 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 143 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 13563 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 37763 1 37943 100 0 0 0        * A meditating shaman
+M 0 37765 1 37944 100 0 0 0        * Asterion, the minotaur Archmage
+*
+S

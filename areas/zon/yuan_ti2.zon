@@ -1,0 +1,114 @@
+#806
+Village of the Damned~
+80678 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 80638 0 5 100 0 0 0
+*     north exit from "An Intersection With a Stone Path" to
+*     "Before a Jungle Path" - closed/secret
+*
+D 0 80671 2 1 100 0 0 0
+*     south exit from "Before a Jungle Path" to
+*     "An Intersection With a Stone Path" - closed
+*
+D 0 80656 0 1 100 0 0 0
+*     north exit from "A Large Supply Store" to
+*     "Some Tidy Living Quarters" - closed
+*
+D 0 80657 2 1 100 0 0 0
+*     south exit from "Some Tidy Living Quarters" to
+*     "A Large Supply Store" - closed
+*
+*
+O 0 80601 1 80603 100 0 0 0        * a bloody corpse
+O 0 80602 1 80606 100 0 0 0        * a crushed orchid
+O 0 80606 1 80613 100 0 0 0        * a charred corpse
+O 0 80607 1 80614 100 0 0 0        * a muddy hole
+P 1 80608 1 80607 100 0 0 0        *   a golden eye
+O 0 80609 1 80615 100 0 0 0        * a red-brick well
+O 0 80611 1 80630 100 0 0 0        * a sturdy wooden chest
+P 1 80613 2 80611 100 0 0 0        *   a bolt of blue silk
+P 1 80613 2 80611 100 0 0 0        *   a bolt of blue silk
+P 1 80614 1 80611 100 0 0 0        *   a pile of platinum coins
+O 0 80622 1 80676 100 0 0 0        * a bloody corpse
+P 1 80624 1 80622 100 0 0 0        *   a rotting note
+*
+M 0 80600 1 80605 100 0 0 0        * a yuan-ti guard
+E 1 80600 1 16 100 0 0 0           *   a steel rod
+M 0 80601 1 80607 100 0 0 0        * a yuan-ti adventurer
+E 1 80603 1 12 100 0 0 0           *   a cloak of snake fangs
+M 0 80602 1 80607 100 0 0 0        * a peaceful bard
+E 1 80604 1 18 100 0 0 0           *   a bloodwood lyre
+M 0 80603 2 80609 100 0 0 0        * a yuan-ti gate guard
+E 1 80605 2 16 100 0 0 0           *   the blade of the serpent guard
+M 0 80603 2 80609 100 0 0 0        * a yuan-ti gate guard
+E 1 80605 2 16 100 0 0 0           *   the blade of the serpent guard
+M 0 80605 1 80610 100 0 0 0        * a yuan-ti commoner
+M 0 80604 1 80611 100 0 0 0        * a yuan-ti commoner
+M 0 80618 2 80615 100 0 0 0        * a yuan-ti guard
+E 1 80615 2 5 100 0 0 0            *   leather armor with snakeskin trim
+M 0 80622 1 80615 100 0 0 0        * a commoner
+E 1 80615 2 5 100 0 0 0            *   leather armor with snakeskin trim
+M 0 80634 6 80615 100 0 0 0        * a golden snake
+M 0 80608 1 80617 100 0 0 0        * a yuan-ti merchant
+M 0 80607 1 80619 100 0 0 0        * a young yuan-ti
+M 0 80606 1 80622 100 0 0 0        * the shrunken yuan-ti
+E 1 80610 1 18 100 0 0 0           *   a golden lion totem
+M 0 80610 2 80625 100 0 0 0        * a yuan-ti guard
+M 0 80610 2 80625 100 0 0 0        * a yuan-ti guard
+M 0 80609 3 80626 100 0 0 0        * a yuan-ti guard
+M 0 80609 3 80629 100 0 0 0        * a yuan-ti guard
+M 0 80634 6 80629 100 0 0 0        * a golden snake
+M 0 80611 1 80630 100 0 0 0        * An angry man
+G 1 80612 1 0 100 0 0 0            *    a plain gold key
+M 0 80612 1 80633 100 0 0 0        * a yuan-ti woman
+M 0 80613 1 80633 100 0 0 0        * a yuan-ti child
+M 0 80614 2 80633 100 0 0 0        * a patterned snake
+M 0 80618 2 80635 100 0 0 0        * a yuan-ti guard
+M 0 80634 6 80637 100 0 0 0        * a golden snake
+M 0 80634 6 80637 100 0 0 0        * a golden snake
+M 0 80624 6 80638 100 0 0 0        * a yuan-ti guard
+M 0 80623 3 80638 100 0 0 0        * a yuan-ti guard
+M 0 80614 2 80647 100 0 0 0        * a patterned snake
+M 0 80609 3 80647 100 0 0 0        * a yuan-ti guard
+M 0 80620 2 80650 100 0 0 0        * a poor human
+M 0 80615 2 80651 100 0 0 0        * a yuan-ti commoner
+M 0 80617 1 80652 100 0 0 0        * a yuan-ti commoner
+M 0 80620 2 80652 100 0 0 0        * a poor human
+M 0 80615 2 80653 100 0 0 0        * a yuan-ti commoner
+M 0 80616 1 80653 100 0 0 0        * a yuan-ti commoner
+M 0 80621 1 80654 100 0 0 0        * a young woman
+M 0 80628 1 80656 100 0 0 0        * a yuan-ti shopkeeper
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 347 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 353 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 80624 6 80658 100 0 0 0        * a yuan-ti guard
+E 1 80616 1 3 100 0 0 0            *   a collar made of solid gold
+M 0 80635 1 80659 100 0 0 0        * a yuan-ti noble
+E 1 80625 1 21 100 0 0 0           *   a troll's finger
+M 0 80634 6 80659 100 0 0 0        * a golden snake
+M 0 80625 1 80661 100 0 0 0        * a true-blood yuan-ti
+M 0 80624 6 80663 100 0 0 0        * a yuan-ti guard
+M 0 80634 6 80663 100 0 0 0        * a golden snake
+M 0 80624 6 80664 100 0 0 0        * a yuan-ti guard
+M 0 80623 3 80664 100 0 0 0        * a yuan-ti guard
+M 0 80626 1 80665 100 0 0 0        * a true-blood yuan-ti
+E 1 80618 1 12 100 0 0 0           *   a cloak of scales
+M 0 80630 1 80665 100 0 0 0        * a githyanki noble
+E 1 80619 1 5 100 0 0 0            *   a suit of silver chainmail
+F 1 80629 1 80665 100 0 0 0        * a githyanki warrior (following)
+E 1 80620 1 5 100 0 0 0            *   a silver chainmail tunic
+M 0 80631 1 80668 100 0 0 0        * a yuan-ti noble
+M 0 80623 3 80669 100 0 0 0        * a yuan-ti guard
+M 0 80632 1 80670 100 0 0 0        * a true-blood yuan-ti
+M 0 80624 6 80671 100 0 0 0        * a yuan-ti guard
+M 0 80624 6 80671 100 0 0 0        * a yuan-ti guard
+M 0 80636 1 80676 100 0 0 0        * a filthy swamp troll
+E 1 80621 1 15 100 0 0 0           *   a bracer made from the skin of a yuan-ti
+E 1 80623 1 16 100 0 0 0           *   a bloody leg
+M 0 80627 1 80677 100 0 0 0        * a true-blood yuan-ti
+E 1 80617 1 16 100 0 0 0           *   a sword named "Snakebite"
+*
+S

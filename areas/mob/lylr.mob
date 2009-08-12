@@ -1,0 +1,500 @@
+#82200
+snake rattlesnake~
+&+yA rattlesnake~
+&+yA rattlesnake slithers through the forest.&N
+~
+&+y A rather large rattlesnake slithers through the underbrush looking
+&+y for prey.
+~
+72 32 0 1048576 12 0 0 0 S
+RS 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82201
+dragon venmar~
+Venmar, the dragon~
+&+CThe dragon known as Venmar searches the forest for evil.&N
+~
+&+c   Venmir searches the woods, obviously looking for something. A large
+&+gGreen&n &+cdragon, his large golden eyes look sad. Sensing approaching
+&+cfootsteps he mutters "Evil in the woods...balance must be preserved."
+~
+2252 0 0 135274552 4 0 0 1000 S
+D 0 8 7
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82202
+ogre bbryt~
+&+BBBryt~
+&+LAn&N &+bOgre&n &+Lpaces the room.
+~
+&+L   Far to big to live in this small dwelling, Bbryt paces the room.
+&+LWaiting patiently for the night to come and the chance to capture
+&+Lanother Elf for dinner.
+~
+30794 56 0 280 2051 0 0 -1000 S
+PO 0 16384 6
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82203
+squirrel~
+&+YA squirrel~
+&+YA squirrel wanders the forest in search of food.&N
+~
+&+Y A squirrel wanders the forest in search of nuts and berries to eat.
+~
+72 0 0 0 0 0 0 0 S
+A 0 0 -1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82204
+shopkeeper cionvra half elf~
+Cionvra~
+&+CA pretty half elf stands behind the counter smiling at you.
+~
+&+b   A pretty half-elf barely twenty years of age watches over the shop
+&+bShe offers you a bright smile as she sees you looking around at the
+&+bwares. Spotting a smudge of dirt she quickly wipes it off the counter.
+~
+2122 0 0 40 28 0 0 0 S
+P2 0 8 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82205
+guard half-elf~
+&+GA thin guard~
+&+gAn adolescent half-elf carefully watches the gates.&N
+~
+&+G   A tall slender half-elf proudly watches the gates. He cant be more
+&+Gthan 100, still in his prime for a half-elf. He sets a stern gaze upon
+&+Gthe gates waiting patiently for something exciting to happen.
+~
+2250 0 0 56 0 0 0 0 S
+P2 0 32768 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82206
+apprentice~
+&+Gan apprentice~
+&+GAn apprentice helps stand watch at the gates.&N
+~
+&+G   Barely of age, she takes her turn helping watch the gates.
+&+GStaff in hand she is ready to battle whatever evil might come
+&+Gthrough the gates.
+~
+2250 0 0 167772200 4 0 0 0 S
+P2 0 512 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82207
+leader lylrstas~
+&+GLylrstas, the village leader&N~
+&+YLylrstas, the village leader, is here pondering a matter.&N
+~
+&+G   Lylrstas, the ancient half-elf, paces back and forth here thinking
+&+Glong and hard about how to try to persuade the ogre in the forest that
+&+Ghe only truly seeks peace. His long grey hair barely touches his
+&+Gshoulders, mostly grey. His eyes that of a golden color narrow as he
+&+Gnotices you enter the room.
+~
+1073770634 0 0 285745208 2076 32768 0 1000 S
+P2 0 2 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82208
+barkeep cylinra~
+&+yThe barkeep~
+&+yThe barkeep roams here, her hands constantly wiping on her apron.
+~
+&+y   Cylinvra wanders about taking orders, mixing drinks and try to calm the
+&+yfights that seldom break out. She looks to be in her mid years, long
+&+yblond hair tied in a bun. Her piercing green eyes warning glance aroung
+&+yin search of trouble.
+~
+2122 0 0 268435496 2048 0 1024 0 S
+P2 0 32768 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82209
+bird bluejay~
+&+BA bluejay~
+&+yA&n &+Bbluejay&n &+yflies around in search of food.
+~
+&+B A bluejay wanders from tree to tree, in search of food loudly chirping
+&+B hoping for some stale bread.
+~
+131082 0 0 0 0 0 0 0 S
+B 0 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82210
+half-elf commoner~
+&+GA half-elf commoner~
+&+GA half-elf commoner wanders about her daily duties.
+~
+&+G Wandering about the town doing chores, she rushes around seemingly
+&+G not noticing you.
+~
+72 32 0 0 0 0 0 0 S
+P2 0 2 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82211
+half-elf child~
+&+GA half-elf child~
+&+GA half-elf child runs around playing with his dog
+~
+&+G Running around the town playing with his dog, he barely notices his
+&+G surroundings. Hearing his mother call he runs back to his house.
+~
+8 0 0 0 0 0 0 0 S
+P2 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82212
+dog~
+&+YA small dog~
+&+YA small dog runs around playing with the children
+~
+&+y A small dog runs all around chasing its tail, and playing with the
+&+y children.
+~
+72 0 0 0 0 0 0 0 S
+AC 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82213
+brown bear~
+&+yA brown bear~
+&+yA brown bear wanders in search of food
+~
+&+y A brown bear lumbers across the forest in search of berries or perhaps
+&+y a small squirrel or two for dinner.
+~
+2120 32 0 0 0 0 0 0 S
+AC 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82214
+rabbit cottontail~
+&+wA cottontail rabbit~
+&+wA cotton tail rabbit hops around the forest.&N
+~
+&+w A cottontail rabbit makes its way through the forest, keeping a wary
+&+w eye out for predators.
+~
+8 0 0 0 0 0 0 0 S
+AH 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82215
+grandma grandmother~
+&+gGrandma~
+&+gA grandmother sits rocking in a chair
+~
+&+g Having seen her excitement over the years, now she sits in the house
+&+g making cookies for her grandchildren and occasionaly knitting a blanket.
+~
+2058 32 0 8 0 0 0 0 S
+P2 0 512 3
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82216
+grandpa~
+&+CGrandpa~
+&+CGrandpa sits having a few, flirting with the barkeep
+~
+&+C Grandpa sits having a few drinks, as the barkeep walks by he tries in
+&+C vain to grab her butt nearly falling off his stool in the process.
+~
+2058 32 0 8 4 0 0 0 S
+P2 0 2048 3
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82217
+guard prison~
+&+bA prison guard~
+&+bA prison guard stands solemly,watching the prisoners
+~
+&+b A well trained warrior stands here, ready to protect the town should
+&+b any of the prisoners break out. Old for a half-elf, his long brown hair
+&+b is tied neatly behind his back with a single cord. His piercing green eyes
+&+b never fail to survey the cells.
+~
+2058 32 0 24 2048 0 0 0 S
+P2 0 16384 3
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82218
+elf grey prisoner~
+&+cA grey elf prisoner&N~
+&+cA grey elf prisoner sits chained to the wall.
+~
+&+c He doesnt seem to have been here for to long, although he has a few cuts
+&+c and bruises from the shackles holding him to the wall. He seems in pretty
+&+c good health overall, forced to work around the town cleaning and repairing
+&+c he looks exhausted.
+~
+10 0 0 16384 0 0 0 0 S
+PE 0 32 3
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82219
+illithid prisoner~
+&+MAn illithid prisoner~
+&+BA&n &+Millithid&+B tries to pull himself free from his shackles.
+~
+&+B It looks as if he's been here awhile, hands and feet covered with
+&+B blisters, scrapes and bruises. He thin apperance makes it seem as if the
+&+B rats have had more to eat then him. Shackled to the wall, he tugs vainly
+&+B trying to break free.
+~
+2058 0 0 0 0 0 0 -1000 S
+MF 0 4 3
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#82220
+goblin prisoner~
+&+GA goblin prisoner&N~
+&+LA&n &+Ggoblin&n &+Lprisoner sits on her cot.&N
+~
+&+L To small for the shackles, she has had her ankles tied to the floor with
+&+L thick twines. Although her hands remain free, she doesnt look as if she
+&+L even wants to attempt to break free.
+~
+2058 0 0 0 0 0 0 -1000 S
+HG 0 16 2
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82221
+ogre prisoner&n~
+&+LA&n &+bogre&n &+Lprisoner&N~
+&+LA&n &+bogre&n &+Lsits chained to the ceiling
+~
+&+L To big for the cots, he sits on a pile of hay on the floor. Thick iron
+&+L cuffs are wrapped securely around each wrist, he vainly attempts to pick
+&+L at them but with the magical enchantments placed on each he has no hope.
+~
+10 0 0 0 0 0 0 -1000 S
+PO 0 1 5
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 6 1
+#82222
+troll prisoner~
+&+LA&n &+gtroll&n &+Lprisoner&N~
+&+LA &+gtroll&n &+Lsits upon a cot
+~
+&+L Sitting upon her cot, she is shackled to the floor. Used for manual labor
+&+L a couple of cuts are visable, and badly calloused hands. A large metal
+&+L harness covers parts of her torso.
+~
+10 0 0 0 0 0 0 0 S
+PT 0 256 4
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82223
+guard~
+&+LA bored guard&N~
+&+LA guard sits half asleep sprawled in his chair.
+~
+&+L The guard sits in his chair, leafing absently through a newspaper.
+~
+2058 0 0 33554432 0 0 0 0 S
+P2 0 1 3
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#82224
+banker sakthris~
+&+ySakthris the banker~
+&+YSakthris the banker sits behind the counter,beaming broadly
+~
+&+y A well established banker he sits behind the customer greeting most
+&+y of the townfolk by name as he takes care of business.
+~
+11 0 0 0 0 0 0 0 S
+P2 0 512 3
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82225
+guard half-elf~
+&+GA thin guard~
+&+gAn adolescent half-elf &+Lguard&N &+gstands here looking for trouble.&N
+~
+&+G   A tall slender half-elf proudly watches the area. He cant be more
+&+Gthan 100, still in his prime for a half-elf. He sets a stern gaze upon
+&+Gthe area waiting patiently for something exciting to happen.
+~
+67110922 32 0 56 0 0 0 0 S
+P2 0 32768 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82226
+city guard~
+&+mA city guard&N~
+&+gAn city &+Lguard&N &+gstands here looking for trouble.&N
+~
+   This city guard of the town of Meopham stands here on guard
+looking for intruders.  From time to time, intruders dare enter
+these city limits when these guards are called to defend the
+town.  The guard eyes you as you approach.
+~
+2058 32 0 40 0 0 0 0 S
+P2 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82227
+furry white rabbit~
+&+wA furry white rabbit&N~
+&+WA furry white rabbit eyes you suspiciously.&N
+~
+   Wearing a thick coat of white fur, this white rabbit hops
+about searching for a bite to eat.  It has a peculiar spot
+on its back.
+~
+10 0 0 0 0 0 0 0 S
+AH 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82228
+street cleaner~
+&+bA street cleaner&N~
+&+bA street cleaner is here tending to his job.&N
+~
+   With broom in one hand, this street cleaner is here tending
+to his job of keeping the surrounding areas clean of all types
+of trash and other debris.  He hums a little song as he works.
+~
+2188 0 0 0 0 0 0 0 S
+PE 0 1 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82229
+hylga barkeep~
+&+yHylga&N, the barkeep~
+&+yHylga, the barkeep, stands here ready to serve you.
+~
+   Hylga, the barkeep of the Bar of Foxes, stands here behind
+the counter ready to take your request for your choice of drink.
+She appears to be human of a very young age.  She has long
+brown hair and smiles as you enter her establishment.
+~
+2122 0 0 40 0 0 0 -1000 S
+H 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#82230
+old drunken orc~
+&+ran old drunken orc&N~
+An &+rold drunken orc&N stands here drinking his troubles away.
+~
+   With drink in his hand and song of enjoyment being provided
+for all to enjoy, this drunken orc seems to enjoying himself.
+He wears a leather armor and appears to be of a very old age.
+~
+10 0 0 0 0 0 0 -1000 S
+HO 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82231
+angry commoner~
+&+ban angry commoner&N~
+An &+bangry commoner&N stands here ready to fight.
+~
+   This chap of the local town is here apparently drunk
+out of his mind.  He stands here ready to pick a fight with
+who ever he feels.
+~
+10 0 0 0 0 0 0 -1000 S
+H 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82232
+old drunken orc tired~
+&+ran old drunken orc&N~
+A &+rtired orc&N sleeps here in the straw.
+~
+   Still with a drink in his hand, this drunken orc seems to
+have over indulged himself.  He is sleeping to get rid of his
+drunken state.  He wears a leather armor and appears to be
+of a very old age.
+~
+10 0 0 0 0 0 0 -1000 S
+H 0 1 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#82233
+town fool~
+&+ma town &+rf&+go&+Yo&+bl&N~
+A &+mtown &+rf&+go&+Yo&+bl&N hops about here drawing attention.
+~
+    Dressed in a jester's outfit, this clever human
+entertains all those who choose to watch his display of
+talents.  He hops about with superb agility.  From time
+to time, he ruins his display and falls flat on his face.
+~
+8 0 0 40 0 0 0 -1000 S
+PH 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#82234
+black spider~
+&+La black spider&N~
+&+LA black spider wanders about here.&N
+~
+    This black spider wanders about here. It appears to be
+searching for one thing.  It eyes you and starts to approach
+you.
+~
+10 56 0 8 0 0 0 -1000 S
+I 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#82235
+crying baby~
+&+ya crying baby&N~
+A &+Ycrying baby&N weeps as she tries to gain attention.
+~
+   Dressed in just a baby diaper, this baby weeps and shrieks
+very loudly hoping to gain the attention of any who will look.
+Apparently, the baby seems quite disturbed.
+~
+10 0 0 0 0 0 0 0 S
+PH 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2

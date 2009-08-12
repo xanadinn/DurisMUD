@@ -1,0 +1,117 @@
+#199
+&+gAstral Plane, &+LTiamat&n~
+19955 0 0 5 10 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 19944 1 6 100 0 0 0
+*     east exit from "Large Cavern" to
+*     "Huge Circular Cavern" - closed/locked/secret
+*
+D 0 19945 3 6 100 0 0 0
+*     west exit from "Huge Circular Cavern" to
+*     "Large Cavern" - closed/locked/secret
+*
+D 0 19946 1 2 100 0 0 0
+*     east exit from "Massive Cavern" to
+*     "A Dark Chamber" - closed/locked
+*
+D 0 19949 3 6 100 0 0 0
+*     west exit from "A Dark Chamber" to
+*     "Massive Cavern" - closed/locked/secret
+*
+D 0 19950 0 5 100 0 0 0
+*     north exit from "A Large Cavern Before the Lair of Tiamat" to
+*     "Great Cavern of Flowing Lava" - closed/secret
+*
+D 0 19954 2 5 100 0 0 0
+*     south exit from "Great Cavern of Flowing Lava" to
+*     "A Large Cavern Before the Lair of Tiamat" - closed/secret
+*
+D 0 19950 2 5 100 0 0 0
+*     south exit from "A Large Cavern Before the Lair of Tiamat" to
+*     "A Back Entrance to the Lair of Tiamat" - closed/secret
+*
+D 0 19951 0 5 100 0 0 0
+*     north exit from "A Back Entrance to the Lair of Tiamat" to
+*     "A Large Cavern Before the Lair of Tiamat" - closed/secret
+*
+D 0 19951 2 5 100 0 0 0
+*     south exit from "A Back Entrance to the Lair of Tiamat" to
+*     "A Hidden Passage Behind the Vault of Avernus" - closed/secret
+*
+D 0 19952 0 6 100 0 0 0
+*     north exit from "A Hidden Passage Behind the Vault of Avernus" to
+*     "A Back Entrance to the Lair of Tiamat" - closed/locked/secret
+*
+D 0 19952 2 5 100 0 0 0
+*     south exit from "A Hidden Passage Behind the Vault of Avernus" to
+*     "Vault of Avernus" - closed/secret
+*
+D 0 19953 0 6 100 0 0 0
+*     north exit from "Vault of Avernus" to
+*     "A Hidden Passage Behind the Vault of Avernus" - closed/locked/secret
+*
+*
+O 0 19907 2 19902 100 0 0 0        * a Large Black Pool
+O 0 19710 2 19945 100 0 0 0        * (object type not in this .obj file)
+O 0 19715 2 19946 100 0 0 0        * (object type not in this .obj file)
+O 0 19909 2 19946 100 0 0 0        * acid trap
+O 0 19913 1 19948 100 0 0 0        * a suit of pitch-black platemail armor
+O 0 19907 2 19949 100 0 0 0        * a Large Black Pool
+O 0 19909 2 19949 100 0 0 0        * acid trap
+O 0 19925 1 19952 100 0 0 0        * A small sign sits here.
+O 0 19932 1 19952 100 0 0 0        * A hidden container, no mortals should see this!
+P 1 19929 1 19932 100 0 0 0        *   A key made of magma
+O 0 19760 1 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 19740 1 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 19780 1 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 51003 1 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 19750 1 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 400 1 19953 50 0 0 0           * (object type not in this .obj file)
+O 0 31 1 19953 100 0 0 0           * (object type not in this .obj file)
+O 0 72 1 19953 100 0 0 0           * (object type not in this .obj file)
+O 0 19607 1 19953 25 0 0 0         * (object type not in this .obj file)
+O 0 80571 2 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 80571 2 19953 100 0 0 0        * (object type not in this .obj file)
+O 0 19941 1 19953 100 0 0 0        * the mighty scepter of the Valhalla
+O 0 19995 1 19953 25 0 0 0         * the helm of the dragonkind
+O 0 19923 1 19955 100 0 0 0        * a longsword covered with black onyx etchings
+*
+M 0 19904 2 19902 100 0 0 0        * An ancient shock wyrm
+M 0 19904 2 19902 100 0 0 0        * An ancient shock wyrm
+M 0 19905 4 19902 100 0 0 0        * An assassin wyrm
+E 1 19933 8 16 100 0 0 0           *   its razor sharp talons
+E 1 19933 8 17 100 0 0 0           *   its razor sharp talons
+M 0 19905 4 19902 100 0 0 0        * An assassin wyrm
+E 1 19933 8 16 100 0 0 0           *   its razor sharp talons
+E 1 19933 8 17 100 0 0 0           *   its razor sharp talons
+M 0 19760 5 19928 100 0 0 0        * (mob type not in this .mob file)
+M 0 19760 5 19931 100 0 0 0        * (mob type not in this .mob file)
+M 0 19760 5 19935 100 0 0 0        * (mob type not in this .mob file)
+M 0 19760 5 19940 100 0 0 0        * (mob type not in this .mob file)
+M 0 19901 1 19940 100 0 0 0        * a HUGE slaad
+G 1 19872 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19760 5 19943 100 0 0 0        * (mob type not in this .mob file)
+M 0 19705 2 19946 100 0 0 0        * (mob type not in this .mob file)
+G 1 19908 1 0 100 0 0 0            *    a rusty key
+M 0 19705 2 19946 100 0 0 0        * (mob type not in this .mob file)
+M 0 19921 1 19947 100 0 0 0        * (mob type not in this .mob file)
+G 1 55203 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 19905 4 19950 100 0 0 0        * An assassin wyrm
+E 1 19933 8 16 100 0 0 0           *   its razor sharp talons
+E 1 19933 8 17 100 0 0 0           *   its razor sharp talons
+M 0 19905 4 19950 100 0 0 0        * An assassin wyrm
+E 1 19933 8 16 100 0 0 0           *   its razor sharp talons
+E 1 19933 8 17 100 0 0 0           *   its razor sharp talons
+M 0 19902 1 19951 100 0 0 0        * An ancient fire wyrm
+M 0 19903 1 19951 100 0 0 0        * An ancient ice wyrm
+M 0 19906 2 19954 100 0 0 0        * A dark wyrm
+E 1 19937 4 16 100 0 0 0           *   no show weapon, cloak of fear
+E 1 19937 4 17 100 0 0 0           *   no show weapon, cloak of fear
+M 0 19906 2 19954 100 0 0 0        * A dark wyrm
+E 1 19937 4 16 100 0 0 0           *   no show weapon, cloak of fear
+E 1 19937 4 17 100 0 0 0           *   no show weapon, cloak of fear
+*
+S

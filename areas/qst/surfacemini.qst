@@ -1,0 +1,418 @@
+#97901
+M
+hi hello hey howdy~
+&+yA &+ghumble &+Yhermit &+Wsays to you, 'Hello traveler. Welcome to my
+&+Wlittle slice of heaven. The lake is such a serene place. The
+&+Wonly downside is that getting out is difficult. I haven't even
+&+Whad a chance to run a few &+Yerrands&+W."&n
+~
+M
+errand errands~
+&+yA &+ghumble &+Yhermit &+Wsays to you, 'Yes, I have a few errands that I
+&+Whave been neglecting to run lately. If you are willing and able,
+&+Wthere are two in particular that I require assistance with...'
+
+&+W'First, I am in need of new clothing. There is &+ya hunched podaling
+&+Wwho resides in the &+gPharr Valley &+GSwamp&+W. He can provide you with a
+&+Wnew &+bwo&+Bve&+bn ne&+Bb&+berih&+Bi&+bde ne&+Bckl&+bace &+Wand &+bbi&+Brdf&+beath&+Be&+br hea&+Bddre&+bss&+W.'
+
+&+W'Second, I would really appreciate it if you would travel to the
+&+Wisland of &+gKhomani-Khan &+Wand visit the &+Gpygmie &+gshaman &+Win &+gthe Chasm of
+&+gthe &+LMisty &+GVale&+W. He possesses a potion that I greatly require.'
+
+&+W'Bring me either and I will be happy to give you something for
+&+Wyour efforts.'&n
+~
+QA
+&+yA &+ghumble &+Yhermit &+Wsays to you, 'Wonderful! Please take this a small
+&+Wtoken of my appreciation. This potion will provide you with a good
+&+Wboost of energy. Don't mind the smell though!'&n
+~
+R I 97930
+G I 15008
+QA
+&+yA &+ghumble &+Yhermit &+Wsays to you, 'Thank you for your assistance. I've held
+&+Wthis recipe a secret for a long time. I believe you will find this
+&+Wwell worth it once assembled. You will find a frail man who resides
+&+Wbeneath the &+rApples &+Wand &+yWheat &+WInn under the &+rDu'Maathe &+LCastle&+W.
+&+WHe is well versed in creating such a potion.'&n
+~
+R I 97903
+G I 28553
+G I 28552
+S
+#97907
+M
+lesser~
+&+LA &+RGn&+romi&+Rsh &+Yco&+Wsm&+Yomanc&+Wer says to you, 'Such an artifact will require you
+&+Wbring me a collection of items.
+
+&+WFirst, I will require &+Ma d&+mel&+Mica&+mte &+Mbu&+mb&+Mble&+W, a w&+Yis&+Wp o&+Yf w&+Wind, &+La f&+wli&+Lnt o&+wf gr&+La&+wni&+Lte&+W,
+&+Ca s&+Bma&+Cll s&+Bno&+Cwfl&+Bake&+W, and &+Ra bu&+rrn&+Ri&+rng fl&+Ra&+rm&+Re&+W. These items can found in a variety
+&+Wof locations.. You must simply find the Incarnate that embodies these flavors
+&+Wand slay them.
+
+&+WFinally, I will require a payment of 100 platinum coins.'&n
+~
+M
+hi hello howdy hey~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'Why hello there. This is where
+&+Wthe curious mind comes to seek answers to the unknown. I have spent
+&+Wmy entire life answering the unanswerable and discovering the workings
+&+Wintricate workings of many artifacts.'&n
+~
+M
+greater~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'Ahhh, for that one, I will require
+&+Wthree &+Clesser &+Wwands of &+Chealing&+W, and a payment of 250 platinum coins.'
+~
+M
+wand healing~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'Which one do you mean?'&n
+~
+M
+staff~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For the &+mstaff &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n, I will
+&nrequire the handle of the item. This can be found within a &+Mtomb &nbeneath
+&nthe &+CTransparent Tower&n.
+
+&nI will also require a &+Mpulsating &+Lsphere of &+Yenergy&n. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&ncrater off the coast of Ice Crag.
+
+&nFor payment, I will require three &+Llarge &+mmithril &+Lores&n.'
+~
+M
+crown~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For the &+mcrown &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n, I will
+&nrequire the shell of the item. This can be found within a &+Mtomb &nbeneath
+&nthe &+CTransparent Tower&n.
+
+&nI will also require a &+Mpulsating &+Lsphere of &+Yenergy&n. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&ncrater off the coast of Ice Crag.
+
+&nFor payment, I will require three &+Llarge &+mmithril &+Lores&n.'
+~
+M
+platemail~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For the &+mplatemail &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n, I will
+&nrequire the chest piece of the item. This can be found within a &+Mtomb &nbeneath
+&nthe &+CTransparent Tower&n.
+
+&nI will also require a &+Mpulsating &+Lsphere of &+Yenergy&n. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&ncrater off the coast of Ice Crag.
+
+&nFor payment, I will require three &+Llarge &+mmithril &+Lores&n.'
+~
+M
+ultimate~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'Well now... for the &+Cultimate
+&+Wwand of &+Clife&+W, I will require three &+Cgreater &+Wwands of &+Chealing&+W, and a
+&+Wpayment of 1000 platinum coins.'&n
+~
+M
+shadow stalker wicked~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For the &+rwi&+Rck&+red &+Lwand of the Shadow
+&+LStalker&+W, I will require the &+runf&+Rinis&+rhed &+Lwand of the Shadow Stalker&+W. There
+&+Wis only one being I know that possesses it, &+mAhanz&+W. He resides in the
+&+mUnderdark&+W, within a &+LTunnel &+bFlooded &+Lby an &+bUnderground River &+Wbeneath
+&+Wthe greater &+LUndead Continent&+W.
+
+&+WI will also require a &+Mpulsating &+Lsphere of &+Yenergy&+W. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&+Wcrater off the coast of Ice Crag.
+
+&+WFor payment, I will require three &+Llarge &+mmithril &+Lores&+W.'&n
+~
+M
+collar~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'Which one do you mean?'&n
+~
+M
+infinite flames flame~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For &+Lthe &+rco&+Rll&+rar &+Lof &+rInf&+Rin&+rite &+rFl&+Ram&+res&n
+&+WI will require &+rthe &+RFlaming &+rring of the &+RProphet&+W. This item can only be
+&+Wobtained by proving yourself to &+RProphet &+rof &+RFire&+W. He can be found &+rAtop
+&+ra &+RMolten &+yRim&+W, &+Wabove the &+LCaves of &+gMt. Skelenak&+W.
+
+&+WI will also require a &+Mpulsating &+Lsphere of &+Yenergy&+W. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&+Wcrater off the coast of Ice Crag.
+
+&+WFor payment, I will require three &+Llarge &+mmithril &+Lores&+W.'&n
+~
+M
+perpetual frost frosty~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For &+Lthe &+bco&+Cll&+bar &+Lof &+bPer&+Cpet&+bual &+bFr&+Co&+bst&n
+&+WI will require &+bthe &+CFrosty &+bring of the &+CProphet&+W. This item can only be
+&+Wobtained by proving yourself to &+CProphet &+bof &+CFire&+W. He can be found near
+&+Ca Frozen Passageway&+W, on an Island near the &+YNorthern &+BLakes &+Wand &+MSettlements&+W.
+
+&+WI will also require a &+Mpulsating &+Lsphere of &+Yenergy&+W. I have heard that a
+&+mstrange &+Lbeing &+Wholds the key to this powerful artifact beneath a
+&+Wcrater off the coast of Ice Crag.
+
+&+WFor payment, I will require three &+Llarge &+mmithril &+Lores&+W.'&n
+~
+M
+milky potion~
+&+LA &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer says to you, 'For a milky potion, you will need
+&+Wto bring me &+ga &+Lpsychomia &+gp&+Gla&+gnt &+Wand three &+Rgn&+romi&+Rsh &+Lshopkeeper tokens&+W. Once finished,
+&+Wyou will have a pair of potions that will heal your wounds when consumed.'&n
+~
+Q
+~
+R I 97920
+G I 55554
+G I 55553
+G I 55552
+G I 55551
+G I 55550
+G C 100000
+Q
+~
+R I 97919
+G I 97920
+G I 97920
+G I 97920
+G C 250000
+Q
+~
+R I 53661
+G I 53650
+G I 97921
+G I 233
+G I 233
+G I 233
+Q
+~
+R I 53662
+G I 53651
+G I 97921
+G I 233
+G I 233
+G I 233
+Q
+~
+R I 53663
+G I 53652
+G I 97921
+G I 233
+G I 233
+G I 233
+Q
+~
+R I 97922
+G I 97919
+G I 97919
+G I 97919
+G C 1000000
+Q
+~
+R I 53664
+G I 53646
+G I 233
+G I 233
+G I 233
+G I 97921
+Q
+~
+R I 97931
+G I 97921
+G I 233
+G I 233
+G I 233
+G I 500003
+Q
+~
+R I 97932
+G I 97921
+G I 233
+G I 233
+G I 233
+G I 500046
+Q
+&+W'Well done!'
+~
+R I 97933
+R I 97933
+G I 55033
+G I 55033
+G I 55033
+G I 55246
+S
+#97908
+MA
+hi hello~
+&+GGleb Shnieebly looks at you and says 'Greetings.'
+His eyes &+rf&+Rl&+Ya&+Rr&+re &Nup.
+&+G'Pretty impressive you've made it out here, seen any pyrolisks?'
+~
+MA
+pyrolisk pyrolisks~
+  &+GGleb Shnieebly grins and says 'Believe it or not kid, I get a lot of my
+&+Gpower from pyrolisks, its all in those fire glands they carry!  Bring me
+&+Geight of those fire glands and I'll cook you up a potion that will make
+&+Gyou a pyro-mage like me'
+&+GGleb Shnieebly cackles with insanity.
+~
+QA
+&+GGleb Shnieebly screams '&-L&+RNOW BURN, $N!'
+~
+R I 97910
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+G I 43138
+D
+&+LAnd in a &+Rburst &+Lof &+rflames&+L...
+&+GGleb &+Yis gone!
+~
+S
+#97909
+M
+qc_action 50~
+&+gThe old hermit &Nlifts a &+Wbone &Nto his mouth using his toes, chewing it hungrily.
+~
+M
+hi hello~
+&+gThe strange old hermit snorts at you.
+~
+MA
+hungry bone~
+&+gThe strange old hermit looks at $N and exclaims 'Hungry!?  &-L&+WSTARVING&+g!!'
+&+gHe continues 'I haven't had a good meal in a long time.  You know what my favorite
+&+gthing used to eat was?'  The man pauses, scratches himself, and continues 'Salmon
+&+gsteaks from Woodseer!  Something the halflings put in their spices, I can't describe
+&+git!'  The strange old hermit &Nsalivates&+g 'Why don't ya bring me back a nice salmon
+&+gsteak $N?  I'll give you a couple shiny coins!'
+&+gThe old man licks his bone and grins, nodding at you.
+&+g'Tell ya what, don't come back without a nice firebreather also!'  He gestures to the
+&+gwall of his shanty, made entirely of stacked firebreather bottles.
+'&+gI used to get em in Bloodstone, but if yer lucky, and if she's still alive, Jenna
+&+gmight carry em at her Waystation.  Yep a nice firebreather outta wash that salmon steak
+&+gdown just fine!  Now go!'
+~
+QA
+&+gThe strange old hermit chomps the &+Wsalmon steak&+g down and chugs back the &+rfirebreather&+g.
+&+'Ah!' he exclaims, 'Delicious!'
+&+gTake these coins, I have no business with money.  What I will do, however, is see
+&+gthe world!'
+~
+R E 15000
+R C 16000
+G I 16635
+G I 3003
+D
+&+gThe strange old hermit hurries out of the hut.
+&+gA few moments pass and suddenly a bright &+Wgri&+Yff&+yon &+gsoars overhead.
+~
+S
+#97916
+M
+qc_action 50~
+&+CSuddenly, the elven &+cfarseer &+Csprings up and clutches his &+Yhorn&+C.
+&+CThe elven &+cfarseer&+C settles down, relieved at something he saw miles away.
+~
+MA
+hi hello~
+&+cThe &+Cfarseer &+cignores $N.
+~
+S
+#97917
+M
+hi hello howdy hey~
+&+LA &+mstrange &+Lbeing &+Minvades your mind with, '&nTraveler. You must assist me
+&nin a very important series of tasks.&+M'&n
+~
+M
+tasks~
+&+LA &+mstrange &+Lbeing &+Minvades your mind with, '&nYes, I have traveled here for
+&na few very specific tasks. Firstly, I must learn more about your planes.
+&nBring me the essences of your six planar elementals. Prove yourself worthy
+&nof this task and I will reveal more.&+M'&n
+~
+QA
+&+LA &+mstrange &+Lbeing says to you, &+W'Well done. This will provide me with
+&+Wimportant insight into the existence of your planes. Take this sphere
+&+Wand wand as a gift. I know there is a &+Yw&+Wis&+Ye &+RGn&+romi&+Rsh &+YCo&+Wsm&+Yomanc&+Wer that
+&+Wcan use the power locked inside the sphere to craft powerful items.'&n
+~
+R I 97921
+R I 97923
+G I 55198
+G I 55199
+G I 55200
+G I 55201
+G I 55202
+G I 55203
+D
+&+LA &+mstrange &+Lbeing begins to shimmer and quickly vanishes.&n
+~
+S
+#97920
+M
+hi hello hey howdy~
+&+GMuflog&+g, the &+Yshaman &+gsays to you, '&+WGnzhak be with you. What brings you to my
+&+Wlittle slice of paradise? No doubt, you have come to marvel at my
+&+Wexquisite collection of powerful artifacts. If you haven't already
+&+Wtaken a look, please take a peek at my altar.&+g'
+~
+M
+time~
+&+GMugflog&+g, the &+Yshaman &+gsays to you, '&+WWhich one do you mean?&+g'&n
+~
+M
+vial liquid~
+&+GMugflog&+g, the &+Yshaman &+gsays to you, '&+WFor &+La &+mvi&+Mal &+Lof liquid &+mti&+Mme&+W, you
+&+Wmust bring me &+Ma d&+mel&+Mica&+mte &+Mbub&+mb&+Mle&+W, a w&+Yis&+Wp o&+Yf w&+Wind, &+La f&+wli&+Lnt o&+wf gr&+La&+wni&+Lte&+W, &+Ca
+&+Cs&+Bma&+Cll s&+Bno&+Cwfl&+Bake&+W, &+Ra bu&+rrn&+Ri&+rng fl&+Ra&+rm&+Re&+W, and last, but certainly most importantly,
+&+Wyou must bring me &+Lthe &+rwi&+Rck&+red &+Lscepter of the Chronomancer&+W.&+g'&n
+~
+M
+staff broken~
+&+GMugflog&+g, the &+Yshaman &+gsays to you, '&+WFor the &+msta&+Mff &+Lof broken &+mti&+Mme&+W, you must
+&+Wbring me &+Lthe &+rwi&+Rck&+red &+Lscepter of the Chronomancer&+W. I will also require
+&+Wpayment in the form of three &+Rgn&+romi&+Rsh &+Lshopkeeper tokens&+W.&+g'&n
+~
+M
+potion thick green sludge~
+&+GMugflog&+g, the &+Yshaman &+gsays to you, '&+WFor &+ga vial of thick &+Ggreen &+gsludge&+W, I will require
++ga &+Lpsychomia &+gplant&+W. I will also require one &+Rgn&+romi&+Rsh &+Lshopkeeper token &+Was payment.&+g'&n
+~
+M
+chronomancer wicked scepter~
+&+GMugflog&+g, the &+Yshaman &+gsays to you, '&+WTo find &+Lthe &+rwi&+Rck&+red &+Lscepter of the Chronomancer&+W,
+&+Wyou must travel to the &+gIsland &+Wof &+BCeothia&+W. There you must brave the very city of time
+&+Wto confront the &+LChronomancer &+Whimself.&+g'&n
+~
+Q
+~
+R I 97934
+R I 97934
+G I 55033
+G I 55246
+Q
+~
+R I 97936
+G I 55033
+G I 55033
+G I 55033
+G I 55238
+Q
+~
+R I 97935
+R I 97935
+G I 55550
+G I 55551
+G I 55552
+G I 55553
+G I 55554
+G I 55238
+S

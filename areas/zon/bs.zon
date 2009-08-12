@@ -1,0 +1,2056 @@
+#740
+&+RBloodstone Keep&n~
+74922 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 74007 5 1 100 0 0 0
+*     down exit from "The Black Gate" to
+*     "Inside the Black Gate" - closed
+*
+D 0 74008 4 1 100 0 0 0
+*     up exit from "Inside the Black Gate" to
+*     "The Black Gate" - closed
+*
+D 0 74081 0 5 100 0 0 0
+*     north exit from "In a Dismal Swamp" to
+*     "On a Quiet Path" - closed/secret
+*
+D 0 74083 2 1 100 0 0 0
+*     south exit from "On a Quiet Path" to
+*     "In a Dismal Swamp" - closed
+*
+D 0 74119 1 1 100 0 0 0
+*     east exit from "The Black Gate" to
+*     "Inside The Black Gate" - closed
+*
+D 0 74120 3 1 100 0 0 0
+*     west exit from "Inside The Black Gate" to
+*     "The Black Gate" - closed
+*
+D 0 74131 0 2 100 0 0 0
+*     north exit from "At the Entrance to The Prison" to
+*     "Inside the Gates of the Prison" - closed/locked
+*
+D 0 74170 2 2 100 0 0 0
+*     south exit from "Inside the Gates of the Prison" to
+*     "At the Entrance to The Prison" - closed/locked
+*
+D 0 74169 4 1 100 0 0 0
+*     up exit from "In the Cellar of Trenton" to
+*     "Trenton's Adventure Supply Shop" - closed
+*
+D 0 74343 5 1 100 0 0 0
+*     down exit from "Trenton's Adventure Supply Shop" to
+*     "In the Cellar of Trenton" - closed
+*
+D 0 74169 5 5 100 0 0 0
+*     down exit from "In the Cellar of Trenton" to
+*     "Dead End In a Tight Lava Tube" - closed/secret
+*
+D 0 74679 4 5 100 0 0 0
+*     up exit from "Dead End In a Tight Lava Tube" to
+*     "In the Cellar of Trenton" - closed/secret
+*
+D 0 74181 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74881 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74182 0 2 100 0 0 0
+*     north exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74876 2 2 100 0 0 0
+*     south exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74183 0 2 100 0 0 0
+*     north exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74877 2 2 100 0 0 0
+*     south exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74184 0 2 100 0 0 0
+*     north exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74878 2 2 100 0 0 0
+*     south exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74185 0 2 100 0 0 0
+*     north exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74879 2 2 100 0 0 0
+*     south exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74185 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L1" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74880 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L1" - closed/locked
+*
+D 0 74190 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L2" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74884 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L2" - closed/locked
+*
+D 0 74193 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L2" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74882 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L2" - closed/locked
+*
+D 0 74194 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L2" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74885 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L2" - closed/locked
+*
+D 0 74197 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L2" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74883 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L2" - closed/locked
+*
+D 0 74202 2 2 100 0 0 0
+*     south exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74886 0 2 100 0 0 0
+*     north exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74206 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74887 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74209 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74891 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74210 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74888 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74213 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74890 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74217 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L3" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74889 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L3" - closed/locked
+*
+D 0 74218 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L4" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74892 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74220 1 2 100 0 0 0
+*     east exit from "On the Prison Floor L4" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74221 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L4" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74222 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L4" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74893 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74226 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L4" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74894 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74230 3 2 100 0 0 0
+*     west exit from "On the Prison Floor L4" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74895 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Prison Floor L4" - closed/locked
+*
+D 0 74238 3 2 100 0 0 0
+*     west exit from "On the Apex of the Prison" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74897 1 2 100 0 0 0
+*     east exit from "In a Dark Prison Cell" to
+*     "On the Apex of the Prison" - closed/locked
+*
+D 0 74241 1 2 100 0 0 0
+*     east exit from "On the Apex of the Prison" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74896 3 2 100 0 0 0
+*     west exit from "In a Dark Prison Cell" to
+*     "On the Apex of the Prison" - closed/locked
+*
+D 0 74245 0 2 100 0 0 0
+*     north exit from "On the Apex of the Prison" to
+*     "On the Apex of the Prison" - closed/locked
+*
+D 0 74249 2 2 100 0 0 0
+*     south exit from "On the Apex of the Prison" to
+*     "On the Apex of the Prison" - closed/locked
+*
+D 0 74246 0 2 100 0 0 0
+*     north exit from "On the Apex of the Prison" to
+*     "In a Dark Prison Cell" - closed/locked
+*
+D 0 74898 2 2 100 0 0 0
+*     south exit from "In a Dark Prison Cell" to
+*     "On the Apex of the Prison" - closed/locked
+*
+D 0 74253 1 1 100 0 0 0
+*     east exit from "Bloodstone Brothel" to
+*     "In a Brothel Room" - closed
+*
+D 0 74255 3 1 100 0 0 0
+*     west exit from "In a Brothel Room" to
+*     "Bloodstone Brothel" - closed
+*
+D 0 74253 3 1 100 0 0 0
+*     west exit from "Bloodstone Brothel" to
+*     "In a Brothel Room" - closed
+*
+D 0 74254 1 1 100 0 0 0
+*     east exit from "In a Brothel Room" to
+*     "Bloodstone Brothel" - closed
+*
+D 0 74347 0 1 100 0 0 0
+*     north exit from "On North Prison Way" to
+*     "Inside the Guard's Academy." - closed
+*
+D 0 74348 2 1 100 0 0 0
+*     south exit from "Inside the Guard's Academy." to
+*     "On North Prison Way" - closed
+*
+D 0 74356 0 2 100 0 0 0
+*     north exit from "The Reception Room" to
+*     "At the Bottom of a Spiral Staircase" - closed/locked
+*
+D 0 74357 2 2 100 0 0 0
+*     south exit from "At the Bottom of a Spiral Staircase" to
+*     "The Reception Room" - closed/locked
+*
+D 0 74358 2 1 100 0 0 0
+*     south exit from "On a Spiral Staircase" to
+*     "In the Baron's Study" - closed
+*
+D 0 74359 0 1 100 0 0 0
+*     north exit from "In the Baron's Study" to
+*     "On a Spiral Staircase" - closed
+*
+D 0 74360 1 1 100 0 0 0
+*     east exit from "In the Baron's Library" to
+*     "On a Tower Balcony" - closed
+*
+D 0 74361 3 1 100 0 0 0
+*     west exit from "On a Tower Balcony" to
+*     "In the Baron's Library" - closed
+*
+D 0 74362 2 1 100 0 0 0
+*     south exit from "On a Spiral Staircase" to
+*     "In the Baron's Training Room" - closed
+*
+D 0 74363 0 1 100 0 0 0
+*     north exit from "In the Baron's Training Room" to
+*     "On a Spiral Staircase" - closed
+*
+D 0 74364 1 5 100 0 0 0
+*     east exit from "In the Baron's Training Room" to
+*     "In a Dark Closet" - closed/secret
+*
+D 0 74365 3 1 100 0 0 0
+*     west exit from "In a Dark Closet" to
+*     "In the Baron's Training Room" - closed
+*
+D 0 74367 2 2 100 0 0 0
+*     south exit from "On a Spiral Staircase" to
+*     "In a Hallway" - closed/locked
+*
+D 0 74368 0 2 100 0 0 0
+*     north exit from "In a Hallway" to
+*     "On a Spiral Staircase" - closed/locked
+*
+D 0 74369 1 1 100 0 0 0
+*     east exit from "In the Baron's Chamber" to
+*     "In a Dark Closet" - closed
+*
+D 0 74370 3 1 100 0 0 0
+*     west exit from "In a Dark Closet" to
+*     "In the Baron's Chamber" - closed
+*
+D 0 74369 3 1 100 0 0 0
+*     west exit from "In the Baron's Chamber" to
+*     "On a Tower Balcony" - closed
+*
+D 0 74371 1 1 100 0 0 0
+*     east exit from "On a Tower Balcony" to
+*     "In the Baron's Chamber" - closed
+*
+D 0 74433 0 1 100 0 0 0
+*     north exit from "Entrance to the Citadel of Darkness" to
+*     "Inside the Citadel of Darkness" - closed
+*
+D 0 74434 2 1 100 0 0 0
+*     south exit from "Inside the Citadel of Darkness" to
+*     "Entrance to the Citadel of Darkness" - closed
+*
+D 0 74508 2 1 100 0 0 0
+*     south exit from "Entrance to Gynter's Stirge Farm" to
+*     "In a Stirge Pen" - closed
+*
+D 0 74509 0 1 100 0 0 0
+*     north exit from "In a Stirge Pen" to
+*     "Entrance to Gynter's Stirge Farm" - closed
+*
+D 0 74591 3 1 100 0 0 0
+*     west exit from "Rear of the Dead Ogre" to
+*     "In a Dark Antechamber." - closed
+*
+D 0 74597 1 1 100 0 0 0
+*     east exit from "In a Dark Antechamber." to
+*     "Rear of the Dead Ogre" - closed
+*
+D 0 74598 1 1 100 0 0 0
+*     east exit from "Beneath the Mage's Shop." to
+*     "In a Dim Corridor" - closed
+*
+D 0 74599 3 1 100 0 0 0
+*     west exit from "In a Dim Corridor" to
+*     "Beneath the Mage's Shop." - closed
+*
+D 0 74610 2 1 100 0 0 0
+*     south exit from "At the Foot of a Dark Plot" to
+*     "In a Dark Plot of Churned Earth" - closed
+*
+D 0 74624 0 1 100 0 0 0
+*     north exit from "In a Dark Plot of Churned Earth" to
+*     "At the Foot of a Dark Plot" - closed
+*
+D 0 74618 3 1 100 0 0 0
+*     west exit from "In the Depths of a Damp Cave" to
+*     "In an Underground Hideout" - closed
+*
+D 0 74619 1 1 100 0 0 0
+*     east exit from "In an Underground Hideout" to
+*     "In the Depths of a Damp Cave" - closed
+*
+D 0 74634 3 1 100 0 0 0
+*     west exit from "At the Entrance of a Marble Mausoleum" to
+*     "In a Cold Mausoleum" - closed
+*
+D 0 74635 1 1 100 0 0 0
+*     east exit from "In a Cold Mausoleum" to
+*     "At the Entrance of a Marble Mausoleum" - closed
+*
+D 0 74726 2 1 100 0 0 0
+*     south exit from "At the Foot of a Wooden Fence" to
+*     "A Fresh Kill on the Preserve" - closed
+*
+D 0 74729 0 1 100 0 0 0
+*     north exit from "A Fresh Kill on the Preserve" to
+*     "At the Foot of a Wooden Fence" - closed
+*
+D 0 74754 0 2 100 0 0 0
+*     north exit from "Center of the Slave Platform" to
+*     "In an Iron Holding Cage" - closed/locked
+*
+D 0 74842 2 2 100 0 0 0
+*     south exit from "In an Iron Holding Cage" to
+*     "Center of the Slave Platform" - closed/locked
+*
+D 0 74762 2 2 100 0 0 0
+*     south exit from "At the Entrance to a Refinery" to
+*     "Front End of the Refinery" - closed/locked
+*
+D 0 74763 0 2 100 0 0 0
+*     north exit from "Front End of the Refinery" to
+*     "At the Entrance to a Refinery" - closed/locked
+*
+D 0 74784 0 1 100 0 0 0
+*     north exit from "Under the Stone Arches" to
+*     "Entry Hall of the Keep's Cathedral" - closed
+*
+D 0 74788 2 1 100 0 0 0
+*     south exit from "Entry Hall of the Keep's Cathedral" to
+*     "Under the Stone Arches" - closed
+*
+D 0 74787 3 1 100 0 0 0
+*     west exit from "In an Row of Wooden Pews" to
+*     "At the Foot of Some Marble Stairs" - closed
+*
+D 0 74802 1 1 100 0 0 0
+*     east exit from "At the Foot of Some Marble Stairs" to
+*     "In an Row of Wooden Pews" - closed
+*
+D 0 74795 3 2 100 0 0 0
+*     west exit from "In a Tight Passage" to
+*     "In the Belly of the Altar's Cauldron" - closed/locked
+*
+D 0 74796 1 2 100 0 0 0
+*     east exit from "In the Belly of the Altar's Cauldron" to
+*     "In a Tight Passage" - closed/locked
+*
+D 0 74797 0 1 100 0 0 0
+*     north exit from "In a Hall of Splattered Walls" to
+*     "In a Cobbled Courtyard." - closed
+*
+D 0 74875 2 1 100 0 0 0
+*     south exit from "In a Cobbled Courtyard." to
+*     "In a Hall of Splattered Walls" - closed
+*
+D 0 74811 1 1 100 0 0 0
+*     east exit from "At the Steps of Despair" to
+*     "Inside the Gates of an Orphanage" - closed
+*
+D 0 74812 3 1 100 0 0 0
+*     west exit from "Inside the Gates of an Orphanage" to
+*     "At the Steps of Despair" - closed
+*
+D 0 74814 0 2 100 0 0 0
+*     north exit from "Inside a Cold Reception Hall" to
+*     "In a Room Draped with Blue Velvet" - closed/locked
+*
+D 0 74819 2 2 100 0 0 0
+*     south exit from "In a Room Draped with Blue Velvet" to
+*     "Inside a Cold Reception Hall" - closed/locked
+*
+D 0 74821 0 2 100 0 0 0
+*     north exit from "Under a Granite Arch" to
+*     "Inside the Factory Blayskyth" - closed/locked
+*
+D 0 74822 2 2 100 0 0 0
+*     south exit from "Inside the Factory Blayskyth" to
+*     "Under a Granite Arch" - closed/locked
+*
+D 0 74847 0 2 100 0 0 0
+*     north exit from "Slave Holding Cage" to
+*     "On the Slave Platform of Bloodstone" - closed/locked
+*
+D 0 74848 2 2 100 0 0 0
+*     south exit from "On the Slave Platform of Bloodstone" to
+*     "Slave Holding Cage" - closed/locked
+*
+D 0 74848 0 2 100 0 0 0
+*     north exit from "On the Slave Platform of Bloodstone" to
+*     "Slave Holding Cage" - closed/locked
+*
+D 0 74849 2 2 100 0 0 0
+*     south exit from "Slave Holding Cage" to
+*     "On the Slave Platform of Bloodstone" - closed/locked
+*
+D 0 74904 0 1 100 0 0 0
+*     north exit from "A Moorwood Bridge Before a Darkstone Tower" to
+*     "A Shadowy Landing at the Base of the Darkstone Tower" - closed
+*
+D 0 74905 2 1 100 0 0 0
+*     south exit from "A Shadowy Landing at the Base of the Darkstone Tower" to
+*     "A Moorwood Bridge Before a Darkstone Tower" - closed
+*
+D 0 74905 5 5 100 0 0 0
+*     down exit from "A Shadowy Landing at the Base of the Darkstone Tower" to
+*     "A Smoothed Out Dormant Lava Tube" - closed/secret
+*
+D 0 74910 4 5 100 0 0 0
+*     up exit from "A Smoothed Out Dormant Lava Tube" to
+*     "A Shadowy Landing at the Base of the Darkstone Tower" - closed/secret
+*
+*
+O 0 74043 1 74009 100 0 0 0        * a shimmering portal
+O 0 74042 1 74082 100 0 0 0        * a coffin
+P 1 74023 3 74042 100 0 0 0        *   an unholy symbol
+O 0 74041 1 74085 100 0 0 0        * a corpse of a pregnant woman
+P 1 74039 1 74041 100 0 0 0        *   a golden locket
+O 0 74025 7 74102 100 0 0 0        * a black gem
+O 0 74025 7 74102 100 0 0 0        * a black gem
+O 0 74025 7 74102 100 0 0 0        * a black gem
+O 0 74025 7 74102 100 0 0 0        * a black gem
+O 0 74044 1 74121 100 0 0 0        * a shimmering portal
+O 0 74045 1 74122 100 0 0 0        * a shimmering portal
+O 0 3088 9999 74124 100 0 0 0      * (object type not in this .obj file)
+O 0 90 9999 74124 100 0 0 0        * (object type not in this .obj file)
+O 0 74238 4 74140 100 0 0 0        * a baby girl
+O 0 74047 1 74157 100 0 0 0        * a screaming child
+O 0 74064 1 74169 100 0 0 0        * a large crate
+P 1 390 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+P 1 390 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+P 1 390 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+P 1 399 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+P 1 3034 9999 74064 100 0 0 0      *   (object type not in this .obj file)
+P 1 399 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+P 1 396 9999 74064 100 0 0 0       *   (object type not in this .obj file)
+O 0 45 1 74253 100 0 0 0           * (object type not in this .obj file)
+O 0 3088 9999 74269 100 0 0 0      * (object type not in this .obj file)
+O 0 3097 9999 74274 100 0 0 0      * (object type not in this .obj file)
+O 0 90 9999 74322 100 0 0 0        * (object type not in this .obj file)
+O 0 74089 9999 74333 100 0 0 0     * a vial of black death
+O 0 92 9999 74333 100 0 0 0        * (object type not in this .obj file)
+O 0 74056 1 74334 100 0 0 0        * a straw basket
+P 1 74057 3 74056 100 0 0 0        *   a bloody head
+P 1 74242 1 74056 100 0 0 0        *   a crusty phallus
+O 0 74058 1 74334 100 0 0 0        * a pool of clotting blood
+O 0 74057 3 74334 100 0 0 0        * a bloody head
+O 0 74244 1 74334 100 0 0 0        * a sticky liver
+O 0 74076 9999 74355 100 0 0 0     * a set of shiny lockpicks
+O 0 74060 3 74360 100 0 0 0        * an oak shelf
+O 0 74061 1 74363 100 0 0 0        * a weapon rack
+P 1 3025 9999 74061 100 0 0 0      *   (object type not in this .obj file)
+P 1 3024 9999 74061 100 0 0 0      *   (object type not in this .obj file)
+P 1 74282 99999 74061 100 0 0 0    *   a shiny crescent silver shield
+P 1 74014 3 74061 100 0 0 0        *   a sinister mace
+O 0 74063 1 74370 100 0 0 0        * a royal robe of Bloodstone
+O 0 74255 99999 74398 100 0 0 0    * a sandlion cub
+O 0 3088 9999 74441 100 0 0 0      * (object type not in this .obj file)
+O 0 74066 1 74442 100 0 0 0        * a black marble statue
+O 0 74299 1 74465 100 0 0 0        * an old wooden sign
+O 0 74060 3 74514 100 0 0 0        * an oak shelf
+O 0 74060 3 74534 100 0 0 0        * an oak shelf
+P 1 74048 2 74060 100 0 0 0        *   a book on pet squirrels
+P 1 74049 3 74060 100 0 0 0        *   a book on pet crows
+P 1 74049 3 74060 100 0 0 0        *   a book on pet crows
+P 1 74050 2 74060 100 0 0 0        *   a book on pet wolves
+P 1 74051 2 74060 100 0 0 0        *   a book on pet bears
+P 1 74052 2 74060 100 0 0 0        *   a book on pet manticores
+P 1 74053 2 74060 100 0 0 0        *   a book on pet stirges
+P 1 74202 9999 74060 100 0 0 0     *   a leather headband
+P 1 74204 9999 74060 100 0 0 0     *   a pair of forest sandals
+P 1 74059 1 74060 100 0 0 0        *   a green book
+O 0 74065 1 74551 100 0 0 0        * a storage shed
+P 1 4814 9999 74065 100 0 0 0      *   (object type not in this .obj file)
+P 1 4814 9999 74065 100 0 0 0      *   (object type not in this .obj file)
+O 0 74068 2 74577 100 0 0 0        * a murky pool of water
+O 0 66219 1 74593 100 0 0 0        * (object type not in this .obj file)
+O 0 3088 9999 74596 100 0 0 0      * (object type not in this .obj file)
+O 0 74070 1 74601 100 0 0 0        * shimmering portal
+O 0 74071 1 74602 100 0 0 0        * shimmering portal
+O 0 3088 9999 74621 100 0 0 0      * (object type not in this .obj file)
+O 0 74238 4 74728 100 0 0 0        * a baby girl
+O 0 3088 9999 74739 100 0 0 0      * (object type not in this .obj file)
+O 0 74089 9999 74739 100 0 0 0     * a vial of black death
+O 0 74237 4 74770 100 0 0 0        * a baby boy
+O 0 74237 4 74773 100 0 0 0        * a baby boy
+O 0 74237 4 74774 100 0 0 0        * a baby boy
+O 0 74238 4 74775 100 0 0 0        * a baby girl
+O 0 74238 4 74781 100 0 0 0        * a baby girl
+O 0 74237 4 74786 100 0 0 0        * a baby boy
+O 0 74236 1 74794 100 0 0 0        * a granite altar
+O 0 74188 1 74795 100 0 0 0        * a shimmering portal
+O 0 74068 2 74796 100 0 0 0        * a murky pool of water
+O 0 74271 1 74796 100 0 0 0        * a black potion of swirling mist
+O 0 74280 1 74796 100 0 0 0        * a thick potion of manticore milk
+O 0 74291 1 74822 100 0 0 0        * a large wooden cart
+P 1 74010 30 74291 100 0 0 0       *   a Bloodstone saber
+P 1 74010 30 74291 100 0 0 0       *   a Bloodstone saber
+O 0 74076 9999 74869 100 0 0 0     * a set of shiny lockpicks
+O 0 74253 1 74869 100 0 0 0        * a child's bones
+O 0 74240 1 74869 100 0 0 0        * a bloody ear
+O 0 74057 3 74869 100 0 0 0        * a bloody head
+O 0 74248 1 74898 100 0 0 0        * a human dung heap
+O 0 74297 1 74916 100 0 0 0        * several magical items
+*
+M 0 74029 2 74001 100 0 0 0        * a wereboar
+M 0 74024 4 74012 100 0 0 0        * a forest lurker
+M 0 74033 2 74012 100 0 0 0        * a shambling mound
+M 0 74035 5 74015 100 0 0 0        * a forest hag
+M 0 74026 7 74015 100 0 0 0        * a black gnoll
+M 0 74023 8 74018 100 0 0 0        * a black wolf
+M 0 74031 7 74021 100 0 0 0        * a fierce manticore
+M 0 74032 2 74023 100 0 0 0        * a huge manticore
+G 1 74254 1 0 100 0 0 0            *    the bloody head of the huge manticore
+M 0 74026 7 74034 100 0 0 0        * a black gnoll
+M 0 74015 10 74037 100 0 0 0       * a black squirrel
+M 0 74014 10 74037 100 0 0 0       * a sparrow
+M 0 74035 5 74047 100 0 0 0        * a forest hag
+M 0 74027 6 74047 100 0 0 0        * an ear seeker
+M 0 74034 21 74061 100 0 0 0       * a stirge
+M 0 74035 5 74068 100 0 0 0        * a forest hag
+M 0 74177 1 74082 100 0 0 0        * Aldric The Vampknight
+E 1 74110 1 2 100 0 0 0            *   a band of deformities
+G 1 74028 1 0 100 0 0 0            *    a magical chalice
+M 0 74034 21 74086 100 0 0 0       * a stirge
+M 0 74034 21 74107 100 0 0 0       * a stirge
+M 0 74034 21 74107 100 0 0 0       * a stirge
+M 0 74034 21 74107 100 0 0 0       * a stirge
+M 0 74222 1 74118 100 0 0 0        * The Svalich Minotaur
+G 1 74256 1 0 100 0 0 0            *    the lyre of the Svalich Minotaur
+M 0 74179 1 74124 100 0 0 0        * the keep's crier
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+E 1 74172 3 21 100 0 0 0           *   a smallish golden earring
+M 0 74232 17 74124 100 0 0 0       * a watcher of the keep
+E 1 74281 6 11 100 0 0 0           *   a shiny silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74026 7 74126 100 0 0 0        * a black gnoll
+M 0 74232 17 74133 100 0 0 0       * a watcher of the keep
+E 1 74016 6 11 100 0 0 0           *   a spiked black shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74241 6 74134 100 0 0 0        * an insane woman
+M 0 74026 7 74137 100 0 0 0        * a black gnoll
+M 0 74164 3 74139 100 0 0 0        * a wild rabbit
+M 0 74133 3 74140 100 0 0 0        * a small sparrow
+M 0 74241 6 74140 100 0 0 0        * an insane woman
+M 0 74229 6 74142 100 0 0 0        * a hooded strongman
+M 0 74041 1 74144 100 0 0 0        * Waqar
+G 1 74010 30 0 100 0 0 0           *    a Bloodstone saber
+G 1 74011 5 0 100 0 0 0            *    a Bloodstone dagger
+G 1 74013 8 0 100 0 0 0            *    a whip of wire
+G 1 3025 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3024 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74282 99999 0 100 0 0 0        *    a shiny crescent silver shield
+G 1 74255 99999 0 100 0 0 0        *    a sandlion cub
+G 1 74012 2 0 100 0 0 0            *    a barbed spear
+G 1 74014 3 0 100 0 0 0            *    a sinister mace
+M 0 74004 2 74145 100 0 0 0        * a Bloodstone merchant
+M 0 74232 17 74146 100 0 0 0       * a watcher of the keep
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74241 6 74146 100 0 0 0        * an insane woman
+M 0 74040 1 74147 100 0 0 0        * T'Lothka
+G 1 74093 1 0 100 0 0 0            *    a black potion
+G 1 74021 1 0 100 0 0 0            *    a scroll of Numbla
+G 1 74022 1 0 100 0 0 0            *    a steel blue potion
+G 1 3054 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3050 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74203 9999 0 100 0 0 0         *    a wooden walking stick
+G 1 74202 9999 0 100 0 0 0         *    a leather headband
+M 0 74181 14 74149 100 0 0 0       * an elite watcher
+E 1 74179 3 13 100 0 0 0           *   a belt of flesh hooks
+E 1 74283 2 20 100 0 0 0           *   a dull copper mask
+M 0 74232 17 74150 100 0 0 0       * a watcher of the keep
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74154 1 74153 100 0 0 0        * the BloodCrow leader
+E 1 74112 1 2 100 0 0 0            *   a ring with a dragon's seal
+E 1 74142 2 6 100 0 0 0            *   a hood of sewn flesh
+E 1 74177 2 13 100 0 0 0           *   a silk sash of serpents
+F 1 74155 4 74153 100 0 0 0        * a bloodcrow member (following)
+E 1 74127 2 6 100 0 0 0            *   a spiked helm of bronze
+F 1 74155 4 74153 100 0 0 0        * a bloodcrow member (following)
+E 1 74099 9999 1 100 0 0 0         *   a ring of platinum leaf
+E 1 74103 3 2 100 0 0 0            *   a silver ring with a cubic stone
+E 1 74153 3 3 100 0 0 0            *   a string of gorged eyeballs
+F 1 74155 4 74153 100 0 0 0        * a bloodcrow member (following)
+E 1 74175 3 7 100 0 0 0            *   some pants of iron rings
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74143 3 6 100 0 0 0            *   a padded battle hood
+F 1 74155 4 74153 100 0 0 0        * a bloodcrow member (following)
+E 1 74153 3 3 100 0 0 0            *   a string of gorged eyeballs
+E 1 74131 4 6 100 0 0 0            *   a horned helm of Bloodstone
+M 0 74038 1 74156 100 0 0 0        * Gilden
+G 1 74015 7 0 100 0 0 0            *    a suit of Bloodstone chainmail
+G 1 74016 6 0 100 0 0 0            *    a spiked black shield
+G 1 74017 5 0 100 0 0 0            *    some barbed arm plates
+G 1 74018 3 0 100 0 0 0            *    some barbed leg plates
+G 1 74019 2 0 100 0 0 0            *    an iron mask
+G 1 3041 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3045 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3043 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3070 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3075 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3040 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3042 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3044 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3046 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3071 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3076 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74033 3 0 100 0 0 0            *    a black silk belt
+M 0 74114 1 74157 100 0 0 0        * a dark priest
+E 1 74092 2 16 100 0 0 0           *   a hooked scourge
+M 0 74003 3 74158 100 0 0 0        * a Bloodstone holyman
+M 0 74229 6 74159 100 0 0 0        * a hooded strongman
+M 0 74181 14 74160 100 0 0 0       * an elite watcher
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74018 3 7 100 0 0 0            *   some barbed leg plates
+E 1 74017 5 10 100 0 0 0           *   some barbed arm plates
+E 1 74180 2 13 100 0 0 0           *   a belt of severed infant arms
+M 0 74019 2 74160 100 0 0 0        * a salesman
+M 0 74229 6 74160 100 0 0 0        * a hooded strongman
+M 0 74181 14 74162 100 0 0 0       * an elite watcher
+M 0 74037 1 74163 100 0 0 0        * an ailing mage
+M 0 74150 6 74163 100 0 0 0        * an elderly woman
+M 0 74042 1 74164 100 0 0 0        * Helda
+M 0 74047 1 74165 100 0 0 0        * a black stallion
+M 0 74048 1 74165 100 0 0 0        * a Bloodstone warhorse
+M 0 74049 1 74167 100 0 0 0        * a tame black squirrel
+M 0 74050 1 74167 100 0 0 0        * the tame black crow
+M 0 74051 1 74167 100 0 0 0        * a tame black wolf
+M 0 74052 1 74167 100 0 0 0        * a huge tame bear
+M 0 74053 1 74167 100 0 0 0        * a tame manticore
+M 0 74054 1 74167 100 0 0 0        * a tame stirge
+M 0 74039 1 74168 100 0 0 0        * Gynter
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+G 1 74004 13 0 100 0 0 0           *    a cup
+G 1 74007 5 0 100 0 0 0            *    a roasted stirge
+G 1 74008 1 0 100 0 0 0            *    a piece of peryton jerky
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+G 1 3010 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 310 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 312 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3011 1 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 74032 2 74169 100 0 0 0        * a huge manticore
+M 0 74007 25 74170 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74171 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74172 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74173 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74174 100 0 0 0       * a timid prisoner
+M 0 74007 25 74175 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74176 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74177 100 0 0 0       * a timid prisoner
+M 0 74007 25 74178 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74179 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74180 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74181 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74182 100 0 0 0       * a timid prisoner
+M 0 74007 25 74183 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74184 100 0 0 0       * a timid prisoner
+M 0 74007 25 74185 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74186 100 0 0 0       * a timid prisoner
+M 0 74008 15 74186 100 0 0 0       * a shady prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74187 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74008 15 74187 100 0 0 0       * a shady prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74007 25 74188 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74008 15 74188 100 0 0 0       * a shady prisoner
+M 0 74007 25 74189 100 0 0 0       * a timid prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74008 15 74189 100 0 0 0       * a shady prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74007 25 74190 100 0 0 0       * a timid prisoner
+M 0 74008 15 74190 100 0 0 0       * a shady prisoner
+M 0 74007 25 74191 100 0 0 0       * a timid prisoner
+M 0 74008 15 74191 100 0 0 0       * a shady prisoner
+M 0 74007 25 74192 100 0 0 0       * a timid prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74008 15 74192 100 0 0 0       * a shady prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74128 9 74192 100 0 0 0        * a small rat
+M 0 74007 25 74193 100 0 0 0       * a timid prisoner
+M 0 74008 15 74193 100 0 0 0       * a shady prisoner
+M 0 74007 25 74194 100 0 0 0       * a timid prisoner
+M 0 74008 15 74194 100 0 0 0       * a shady prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74008 15 74195 100 0 0 0       * a shady prisoner
+M 0 74008 15 74196 100 0 0 0       * a shady prisoner
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74008 15 74197 100 0 0 0       * a shady prisoner
+M 0 74008 15 74198 100 0 0 0       * a shady prisoner
+G 1 74003 13 0 100 0 0 0           *    a slice of bread
+M 0 74008 15 74199 100 0 0 0       * a shady prisoner
+M 0 74008 15 74200 100 0 0 0       * a shady prisoner
+M 0 74009 20 74201 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74201 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74201 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74202 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74203 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74204 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74205 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74206 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74207 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74208 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74209 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74210 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74211 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74212 100 0 0 0       * a sinister prisoner
+M 0 74128 9 74212 100 0 0 0        * a small rat
+M 0 74009 20 74213 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74214 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74215 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74216 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74217 100 0 0 0       * a sinister prisoner
+M 0 74009 20 74217 100 0 0 0       * a sinister prisoner
+M 0 74010 25 74218 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74219 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74220 100 0 0 0       * a menacing prisoner
+M 0 74128 9 74220 100 0 0 0        * a small rat
+M 0 74010 25 74222 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74223 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74224 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74224 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74224 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74224 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74224 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74228 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74228 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74228 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74228 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74228 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74231 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74233 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74234 100 0 0 0       * a menacing prisoner
+M 0 74036 1 74234 100 0 0 0        * the baron's brother
+M 0 74010 25 74239 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74239 100 0 0 0       * a menacing prisoner
+M 0 74128 9 74239 100 0 0 0        * a small rat
+M 0 74010 25 74240 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74240 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74240 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74240 100 0 0 0       * a menacing prisoner
+M 0 74010 25 74241 100 0 0 0       * a menacing prisoner
+M 0 74118 1 74252 100 0 0 0        * a burly bouncer
+M 0 74241 6 74252 100 0 0 0        * an insane woman
+M 0 74044 3 74254 100 0 0 0        * a young man
+M 0 74045 2 74254 100 0 0 0        * a young woman
+M 0 74044 3 74255 100 0 0 0        * a young man
+M 0 74045 2 74255 100 0 0 0        * a young woman
+M 0 74071 17 74262 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74263 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74263 100 0 0 0       * a citizen of Bloodstone
+M 0 74151 5 74263 100 0 0 0        * an elderly man
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+M 0 74071 17 74264 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74264 100 0 0 0       * a citizen of Bloodstone
+M 0 74232 17 74265 100 0 0 0       * a watcher of the keep
+E 1 74152 2 3 100 0 0 0            *   a necklace of elven ears
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74019 2 74265 100 0 0 0        * a salesman
+M 0 74161 8 74265 100 0 0 0        * a noble lady
+M 0 74231 1 74265 100 0 0 0        * the keep's majestrate
+M 0 74071 17 74266 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74266 100 0 0 0       * a citizen of Bloodstone
+M 0 74161 8 74267 100 0 0 0        * a noble lady
+M 0 74160 6 74269 100 0 0 0        * a regal man
+M 0 74204 2 74269 100 0 0 0        * a drunken regal man
+M 0 74229 6 74269 100 0 0 0        * a hooded strongman
+M 0 74151 5 74270 100 0 0 0        * an elderly man
+E 1 74122 3 2 100 0 0 0            *   a dingy steel ring
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+M 0 74160 6 74270 100 0 0 0        * a regal man
+E 1 74123 5 2 100 0 0 0            *   a small diamond ring
+M 0 74011 3 74270 100 0 0 0        * a hooded executioner
+M 0 74043 1 74271 100 0 0 0        * Stephan
+M 0 74006 2 74273 100 0 0 0        * a Bloodstone peddler
+G 1 74000 2 0 100 0 0 0            *    a shiny black key
+G 1 74007 5 0 100 0 0 0            *    a roasted stirge
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+G 1 74025 7 0 100 0 0 0            *    a black gem
+M 0 74004 2 74273 100 0 0 0        * a Bloodstone merchant
+M 0 74056 1 74274 100 0 0 0        * a greedy looking banker
+M 0 74016 12 74280 100 0 0 0       * a huge black squirrel
+M 0 74017 14 74280 100 0 0 0       * the black crow
+M 0 74014 10 74286 100 0 0 0       * a sparrow
+M 0 74015 10 74291 100 0 0 0       * a black squirrel
+M 0 74016 12 74291 100 0 0 0       * a huge black squirrel
+M 0 74014 10 74293 100 0 0 0       * a sparrow
+M 0 74017 14 74294 100 0 0 0       * the black crow
+M 0 74015 10 74295 100 0 0 0       * a black squirrel
+M 0 74016 12 74295 100 0 0 0       * a huge black squirrel
+M 0 74016 12 74297 100 0 0 0       * a huge black squirrel
+M 0 74016 12 74297 100 0 0 0       * a huge black squirrel
+M 0 74016 12 74311 100 0 0 0       * a huge black squirrel
+M 0 74017 14 74311 100 0 0 0       * the black crow
+M 0 74016 12 74312 100 0 0 0       * a huge black squirrel
+M 0 74017 14 74312 100 0 0 0       * the black crow
+M 0 74017 14 74312 100 0 0 0       * the black crow
+M 0 74232 17 74320 100 0 0 0       * a watcher of the keep
+E 1 74016 6 11 100 0 0 0           *   a spiked black shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74006 2 74322 100 0 0 0        * a Bloodstone peddler
+G 1 74000 2 0 100 0 0 0            *    a shiny black key
+G 1 74007 5 0 100 0 0 0            *    a roasted stirge
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+G 1 74025 7 0 100 0 0 0            *    a black gem
+M 0 74061 1 74322 100 0 0 0        * Ghelian, the baker
+G 1 364 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3057 9999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74156 1 74322 100 0 0 0        * the baron's daughter
+E 1 74115 1 2 100 0 0 0            *   a band of aided flight
+E 1 74164 1 3 100 0 0 0            *   a long green cape of emeralds
+E 1 74134 1 6 100 0 0 0            *   an elaborate headdress
+E 1 74095 1 16 100 0 0 0           *   a royal Bloodstone dagger
+F 1 74157 2 74322 100 0 0 0        * an elite bodyguard (following)
+E 1 74155 2 3 100 0 0 0            *   a dangling crow's foot
+E 1 74016 6 11 100 0 0 0           *   a spiked black shield
+E 1 74156 2 12 100 0 0 0           *   a cloak of thick peryton hide
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+F 1 74157 2 74322 100 0 0 0        * an elite bodyguard (following)
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+E 1 74143 3 6 100 0 0 0            *   a padded battle hood
+M 0 74229 6 74322 100 0 0 0        * a hooded strongman
+E 1 74155 2 3 100 0 0 0            *   a dangling crow's foot
+M 0 74058 1 74323 100 0 0 0        * Enochel, the gemsmith
+G 1 74025 7 0 100 0 0 0            *    a black gem
+G 1 3036 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3038 9999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74161 8 74323 100 0 0 0        * a noble lady
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74183 2 13 100 0 0 0           *   a belt of gold leaf
+E 1 74165 2 20 100 0 0 0           *   a silk veil
+M 0 74175 1 74324 100 0 0 0        * the high mage of Bloodstone
+E 1 74100 1 1 100 0 0 0            *   a band of flowing water
+E 1 74101 1 2 100 0 0 0            *   a band of burning fire
+E 1 74148 1 3 100 0 0 0            *   a high mage's talisman
+E 1 74128 1 6 100 0 0 0            *   the mystical cranial defender
+E 1 74173 1 7 100 0 0 0            *   some shiny green chain leggings
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+G 1 74209 2 0 100 0 0 0            *    a potion of vigor
+G 1 74215 2 0 100 0 0 0            *    a dark purple potion
+F 1 74186 3 74324 100 0 0 0        * an elite bodyguard (following)
+M 0 74176 3 74324 100 0 0 0        * an apprentice of the high mage
+E 1 74109 1 1 100 0 0 0            *   a seal of the black mage
+E 1 74116 4 2 100 0 0 0            *   a band of human flesh
+E 1 74150 2 3 100 0 0 0            *   a string of human teeth
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74176 3 74324 100 0 0 0        * an apprentice of the high mage
+E 1 74114 3 1 100 0 0 0            *   a satanic band
+E 1 74114 3 2 100 0 0 0            *   a satanic band
+E 1 74153 3 3 100 0 0 0            *   a string of gorged eyeballs
+E 1 74152 2 4 100 0 0 0            *   a necklace of elven ears
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74176 3 74324 100 0 0 0        * an apprentice of the high mage
+E 1 74097 2 2 100 0 0 0            *   a ring of melding
+E 1 74160 1 3 100 0 0 0            *   a black mystic's cloak
+E 1 74147 2 4 100 0 0 0            *   a demon amulet
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74014 10 74329 100 0 0 0       * a sparrow
+M 0 74015 10 74329 100 0 0 0       * a black squirrel
+M 0 74232 17 74330 100 0 0 0       * a watcher of the keep
+E 1 74016 6 11 100 0 0 0           *   a spiked black shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74011 3 74334 100 0 0 0        * a hooded executioner
+E 1 74040 4 3 100 0 0 0            *   a necklace of human ears
+E 1 74030 1 6 100 0 0 0            *   a tar black executioner's hood
+E 1 74031 3 16 100 0 0 0           *   a huge black axe
+M 0 74017 14 74334 100 0 0 0       * the black crow
+M 0 74059 1 74336 100 0 0 0        * Veriallo, the barreler
+G 1 385 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 386 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3029 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3027 1 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 74232 17 74338 100 0 0 0       * a watcher of the keep
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74161 8 74338 100 0 0 0        * a noble lady
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+E 1 74165 2 20 100 0 0 0           *   a silk veil
+M 0 74005 6 74339 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74060 1 74339 100 0 0 0        * Cerrio, the bartender
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+G 1 3001 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3002 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3003 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3004 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74001 9999 0 100 0 0 0         *    a skeleton key
+M 0 74057 1 74343 100 0 0 0        * Trenton, the adventurer
+G 1 390 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 396 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 399 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 3033 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3034 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3061 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 377 9999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 191 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 74178 4 74346 100 0 0 0        * a large dog
+E 1 74094 3 3 100 0 0 0            *   a wickedly barbed collar
+M 0 74158 2 74351 100 0 0 0        * a Bloodstone knight
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74133 1 6 100 0 0 0            *   a knight's ornate helm
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+G 1 74265 1 0 100 0 0 0            *    a grey prison cell key
+M 0 74116 2 74354 100 0 0 0        * the royal keeper
+E 1 74017 5 10 100 0 0 0           *   some barbed arm plates
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74116 2 74354 100 0 0 0        * the royal keeper
+E 1 74016 6 11 100 0 0 0           *   a spiked black shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74117 1 74356 100 0 0 0        * the royal keeper
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74063 3 74357 100 0 0 0        * a spirit guardian
+M 0 74063 3 74362 100 0 0 0        * a spirit guardian
+M 0 74235 1 74363 100 0 0 0        * Ferris
+G 1 74272 1 0 100 0 0 0            *    a set of drums
+M 0 74063 3 74367 100 0 0 0        * a spirit guardian
+M 0 74115 4 74368 100 0 0 0        * a royal bodyguard
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74069 5 16 100 0 0 0           *   a cat of nine tails
+M 0 74115 4 74368 100 0 0 0        * a royal bodyguard
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74069 5 16 100 0 0 0           *   a cat of nine tails
+M 0 74012 1 74371 100 0 0 0        * the baron of the keep
+E 1 74032 1 2 100 0 0 0            *   a royal ring of Bloodstone
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74033 3 13 100 0 0 0           *   a black silk belt
+E 1 74198 3 16 100 0 0 0           *   a razor-edge battleaxe of black steel
+E 1 74198 3 17 100 0 0 0           *   a razor-edge battleaxe of black steel
+G 1 74262 1 0 100 0 0 0            *    a piece of a broken amulet
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+F 1 74115 4 74371 100 0 0 0        * a royal bodyguard (following)
+F 1 74115 4 74371 100 0 0 0        * a royal bodyguard (following)
+M 0 74062 3 74372 100 0 0 0        * a wild black stallion
+M 0 74062 3 74373 100 0 0 0        * a wild black stallion
+M 0 74062 3 74373 100 0 0 0        * a wild black stallion
+M 0 74064 2 74398 100 0 0 0        * a sand lion
+M 0 74064 2 74398 100 0 0 0        * a sand lion
+M 0 74070 1 74433 100 0 0 0        * the dark paladin
+E 1 74106 2 2 100 0 0 0            *   a band of fiery persistance
+E 1 74034 3 5 100 0 0 0            *   a suit of Bloodstone bonemail
+E 1 74018 3 7 100 0 0 0            *   some barbed leg plates
+E 1 74031 3 16 100 0 0 0           *   a huge black axe
+M 0 74068 1 74439 100 0 0 0        * the weapon forger
+G 1 74013 8 0 100 0 0 0            *    a whip of wire
+G 1 74037 1 0 100 0 0 0            *    a spiked club
+G 1 74069 5 0 100 0 0 0            *    a cat of nine tails
+G 1 74255 99999 0 100 0 0 0        *    a sandlion cub
+G 1 74282 99999 0 100 0 0 0        *    a shiny crescent silver shield
+G 1 3009 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3008 9999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74069 1 74440 100 0 0 0        * the brothel keeper
+G 1 3002 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3003 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74001 9999 0 100 0 0 0         *    a skeleton key
+G 1 74004 13 0 100 0 0 0           *    a cup
+M 0 74065 1 74440 100 0 0 0        * a handsome male slave
+M 0 74066 1 74440 100 0 0 0        * a druid slave girl
+M 0 74075 3 74442 100 0 0 0        * a young knight
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+M 0 74075 3 74442 100 0 0 0        * a young knight
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+M 0 74075 3 74442 100 0 0 0        * a young knight
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+M 0 74067 1 74442 100 0 0 0        * the old master
+M 0 74055 1 74443 100 0 0 0        * Anele
+G 1 74048 2 0 100 0 0 0            *    a book on pet squirrels
+G 1 74049 3 0 100 0 0 0            *    a book on pet crows
+G 1 74050 2 0 100 0 0 0            *    a book on pet wolves
+G 1 74051 2 0 100 0 0 0            *    a book on pet bears
+G 1 74052 2 0 100 0 0 0            *    a book on pet manticores
+G 1 74053 2 0 100 0 0 0            *    a book on pet stirges
+M 0 74074 1 74444 100 0 0 0        * a black knight
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74223 1 74444 100 0 0 0        * a missionary
+G 1 74257 1 0 100 0 0 0            *    the blood soaked head of a Verzanan missionary
+M 0 74017 14 74447 100 0 0 0       * the black crow
+M 0 74034 21 74448 100 0 0 0       * a stirge
+M 0 74014 10 74451 100 0 0 0       * a sparrow
+M 0 74015 10 74451 100 0 0 0       * a black squirrel
+M 0 74016 12 74461 100 0 0 0       * a huge black squirrel
+M 0 74025 4 74462 100 0 0 0        * a huge bear
+M 0 74015 10 74467 100 0 0 0       * a black squirrel
+M 0 74017 14 74469 100 0 0 0       * the black crow
+M 0 74014 10 74470 100 0 0 0       * a sparrow
+M 0 74018 4 74470 100 0 0 0        * the mountainman
+M 0 74027 6 74473 100 0 0 0        * an ear seeker
+M 0 74023 8 74477 100 0 0 0        * a black wolf
+F 1 74023 8 74477 100 0 0 0        * a black wolf (following)
+F 1 74023 8 74477 100 0 0 0        * a black wolf (following)
+M 0 74014 10 74480 100 0 0 0       * a sparrow
+M 0 74015 10 74480 100 0 0 0       * a black squirrel
+M 0 74016 12 74480 100 0 0 0       * a huge black squirrel
+M 0 74016 12 74480 100 0 0 0       * a huge black squirrel
+M 0 74017 14 74480 100 0 0 0       * the black crow
+M 0 74017 14 74480 100 0 0 0       * the black crow
+M 0 74018 4 74480 100 0 0 0        * the mountainman
+E 1 74036 3 16 100 0 0 0           *   an iron pick
+M 0 74020 2 74480 100 0 0 0        * the wandering nomad
+G 1 74007 5 0 100 0 0 0            *    a roasted stirge
+M 0 74023 8 74480 100 0 0 0        * a black wolf
+M 0 74023 8 74480 100 0 0 0        * a black wolf
+M 0 74024 4 74480 100 0 0 0        * a forest lurker
+M 0 74024 4 74480 100 0 0 0        * a forest lurker
+M 0 74025 4 74480 100 0 0 0        * a huge bear
+M 0 74026 7 74480 100 0 0 0        * a black gnoll
+E 1 74013 8 16 100 0 0 0           *   a whip of wire
+M 0 74027 6 74480 100 0 0 0        * an ear seeker
+M 0 74027 6 74480 100 0 0 0        * an ear seeker
+M 0 74028 1 74480 100 0 0 0        * a jackalwere
+M 0 74029 2 74480 100 0 0 0        * a wereboar
+M 0 74034 21 74480 100 0 0 0       * a stirge
+M 0 74034 21 74480 100 0 0 0       * a stirge
+M 0 74034 21 74480 100 0 0 0       * a stirge
+M 0 74035 5 74480 100 0 0 0        * a forest hag
+M 0 74014 10 74486 100 0 0 0       * a sparrow
+M 0 74014 10 74486 100 0 0 0       * a sparrow
+M 0 74015 10 74486 100 0 0 0       * a black squirrel
+M 0 74015 10 74486 100 0 0 0       * a black squirrel
+M 0 74016 12 74486 100 0 0 0       * a huge black squirrel
+M 0 74016 12 74486 100 0 0 0       * a huge black squirrel
+M 0 74017 14 74486 100 0 0 0       * the black crow
+M 0 74017 14 74486 100 0 0 0       * the black crow
+M 0 74018 4 74486 100 0 0 0        * the mountainman
+E 1 74036 3 16 100 0 0 0           *   an iron pick
+M 0 74018 4 74486 100 0 0 0        * the mountainman
+E 1 74036 3 16 100 0 0 0           *   an iron pick
+M 0 74020 2 74486 100 0 0 0        * the wandering nomad
+G 1 74007 5 0 100 0 0 0            *    a roasted stirge
+M 0 74023 8 74486 100 0 0 0        * a black wolf
+M 0 74023 8 74486 100 0 0 0        * a black wolf
+M 0 74024 4 74486 100 0 0 0        * a forest lurker
+M 0 74025 4 74486 100 0 0 0        * a huge bear
+M 0 74025 4 74486 100 0 0 0        * a huge bear
+M 0 74026 7 74486 100 0 0 0        * a black gnoll
+M 0 74026 7 74486 100 0 0 0        * a black gnoll
+E 1 74013 8 16 100 0 0 0           *   a whip of wire
+M 0 74027 6 74486 100 0 0 0        * an ear seeker
+M 0 74027 6 74486 100 0 0 0        * an ear seeker
+M 0 74033 2 74486 100 0 0 0        * a shambling mound
+M 0 74034 21 74486 100 0 0 0       * a stirge
+M 0 74034 21 74486 100 0 0 0       * a stirge
+M 0 74034 21 74486 100 0 0 0       * a stirge
+M 0 74034 21 74486 100 0 0 0       * a stirge
+M 0 74035 5 74486 100 0 0 0        * a forest hag
+M 0 74246 1 74486 100 0 0 0        * a large griffin
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74493 100 0 0 0       * a citizen of Bloodstone
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74001 9 74493 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74003 3 74493 100 0 0 0        * a Bloodstone holyman
+E 1 74023 3 3 100 0 0 0            *   an unholy symbol
+M 0 74003 3 74493 100 0 0 0        * a Bloodstone holyman
+E 1 74023 3 3 100 0 0 0            *   an unholy symbol
+M 0 74005 6 74493 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74005 6 74493 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74005 6 74493 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74005 6 74493 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74005 6 74493 100 0 0 0        * a wino
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74011 3 74493 100 0 0 0        * a hooded executioner
+E 1 74040 4 3 100 0 0 0            *   a necklace of human ears
+M 0 74014 10 74493 100 0 0 0       * a sparrow
+M 0 74015 10 74493 100 0 0 0       * a black squirrel
+M 0 74021 6 74493 100 0 0 0        * a homeless man
+M 0 74021 6 74493 100 0 0 0        * a homeless man
+M 0 74021 6 74493 100 0 0 0        * a homeless man
+M 0 74021 6 74493 100 0 0 0        * a homeless man
+M 0 74021 6 74493 100 0 0 0        * a homeless man
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74022 8 74493 100 0 0 0        * the baron's servant
+M 0 74046 4 74493 100 0 0 0        * a prostitute
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74088 7 74493 100 0 0 0        * a little brat
+M 0 74088 7 74493 100 0 0 0        * a little brat
+M 0 74088 7 74493 100 0 0 0        * a little brat
+M 0 74088 7 74493 100 0 0 0        * a little brat
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74244 10 74493 100 0 0 0       * a guard of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74245 7 74493 100 0 0 0        * a squire of the keep
+M 0 74000 16 74502 100 0 0 0       * a citizen of Bloodstone
+M 0 74181 14 74503 100 0 0 0       * an elite watcher
+E 1 74107 5 2 100 0 0 0            *   a blue ring of crystal ice
+E 1 74126 3 6 100 0 0 0            *   a helm of black steel
+E 1 74078 4 8 100 0 0 0            *   a pair of soft black leather boots
+E 1 74178 4 13 100 0 0 0           *   an emerald green sash
+E 1 74077 2 16 100 0 0 0           *   a shortsword of black steel
+M 0 74232 17 74504 100 0 0 0       * a watcher of the keep
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74000 16 74507 100 0 0 0       * a citizen of Bloodstone
+M 0 74034 21 74510 100 0 0 0       * a stirge
+M 0 74034 21 74510 100 0 0 0       * a stirge
+M 0 74034 21 74511 100 0 0 0       * a stirge
+M 0 74034 21 74511 100 0 0 0       * a stirge
+M 0 74034 21 74511 100 0 0 0       * a stirge
+M 0 74034 21 74512 100 0 0 0       * a stirge
+M 0 74034 21 74512 100 0 0 0       * a stirge
+M 0 74034 21 74512 100 0 0 0       * a stirge
+M 0 74181 14 74513 100 0 0 0       * an elite watcher
+E 1 74079 2 9 100 0 0 0            *   a pair of black silk gloves
+E 1 74157 1 12 100 0 0 0           *   a cloak of dark wool
+E 1 74177 2 13 100 0 0 0           *   a silk sash of serpents
+E 1 74276 2 15 100 0 0 0           *   a barbed wrist bracer
+E 1 74289 2 19 100 0 0 0           *   a pair of iron eyes
+E 1 74227 2 21 100 0 0 0           *   a pearl earring
+M 0 74000 16 74515 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74515 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74515 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74515 100 0 0 0       * a citizen of Bloodstone
+M 0 74073 1 74524 100 0 0 0        * the field boss
+M 0 74088 7 74526 100 0 0 0        * a little brat
+M 0 74000 16 74529 100 0 0 0       * a citizen of Bloodstone
+M 0 74181 14 74529 100 0 0 0       * an elite watcher
+E 1 74116 4 2 100 0 0 0            *   a band of human flesh
+E 1 74130 2 6 100 0 0 0            *   an ornate helmet
+E 1 74178 4 13 100 0 0 0           *   an emerald green sash
+E 1 74199 2 16 100 0 0 0           *   an ornate longsword
+M 0 74000 16 74531 100 0 0 0       * a citizen of Bloodstone
+M 0 74001 9 74531 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74071 17 74532 100 0 0 0       * a citizen of Bloodstone
+M 0 74001 9 74532 100 0 0 0        * a common woman
+E 1 74009 14 2 100 0 0 0           *   a wedding ring
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74234 1 74532 100 0 0 0        * Faust, the wanderer
+M 0 74071 17 74533 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74535 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74535 100 0 0 0       * a citizen of Bloodstone
+M 0 74000 16 74536 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74536 100 0 0 0       * a citizen of Bloodstone
+M 0 74071 17 74536 100 0 0 0       * a citizen of Bloodstone
+M 0 74088 7 74536 100 0 0 0        * a little brat
+M 0 74071 17 74537 100 0 0 0       * a citizen of Bloodstone
+M 0 74072 5 74539 100 0 0 0        * a field boy
+M 0 74017 14 74540 100 0 0 0       * the black crow
+M 0 74017 14 74544 100 0 0 0       * the black crow
+M 0 74072 5 74545 100 0 0 0        * a field boy
+M 0 74181 14 74545 100 0 0 0       * an elite watcher
+E 1 74149 2 3 100 0 0 0            *   a string of blue pearls
+E 1 74149 2 4 100 0 0 0            *   a string of blue pearls
+E 1 74017 5 10 100 0 0 0           *   some barbed arm plates
+E 1 74179 3 13 100 0 0 0           *   a belt of flesh hooks
+M 0 74072 5 74547 100 0 0 0        * a field boy
+M 0 74072 5 74548 100 0 0 0        * a field boy
+M 0 74072 5 74550 100 0 0 0        * a field boy
+M 0 74030 1 74554 100 0 0 0        * a manticore cub
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74031 7 74554 100 0 0 0        * a fierce manticore
+M 0 74232 17 74562 100 0 0 0       * a watcher of the keep
+E 1 74281 6 11 100 0 0 0           *   a shiny silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74229 6 74562 100 0 0 0        * a hooded strongman
+M 0 74181 14 74565 100 0 0 0       * an elite watcher
+E 1 74151 3 3 100 0 0 0            *   a medallion of black power
+E 1 74161 3 4 100 0 0 0            *   a cape of laced pearl
+E 1 74142 2 6 100 0 0 0            *   a hood of sewn flesh
+E 1 74174 2 7 100 0 0 0            *   some fanged steel leggings
+E 1 74184 2 13 100 0 0 0           *   a purple sash
+E 1 74167 2 20 100 0 0 0           *   a mask of blue stones
+M 0 74232 17 74565 100 0 0 0       * a watcher of the keep
+M 0 74083 5 74568 100 0 0 0        * an acolyte
+M 0 74083 5 74570 100 0 0 0        * an acolyte
+M 0 74082 1 74571 100 0 0 0        * a temple guard
+E 1 74067 3 16 100 0 0 0           *   a nasty-looking two-handed sword
+M 0 74083 5 74573 100 0 0 0        * an acolyte
+M 0 74081 1 74574 100 0 0 0        * the temple shopkeeper
+G 1 74069 5 0 100 0 0 0            *    a cat of nine tails
+G 1 74075 1 0 100 0 0 0            *    an iron mace
+G 1 74080 2 0 100 0 0 0            *    an unholy star
+G 1 74082 2 0 100 0 0 0            *    a necklace of human teeth
+G 1 74083 2 0 100 0 0 0            *    a vial of unholy darkness
+G 1 74091 11 0 100 0 0 0           *    a sleek athame
+G 1 74092 2 0 100 0 0 0            *    a hooked scourge
+M 0 74083 5 74574 100 0 0 0        * an acolyte
+M 0 74083 5 74576 100 0 0 0        * an acolyte
+M 0 74084 3 74576 100 0 0 0        * an acolyte
+M 0 74084 3 74576 100 0 0 0        * an acolyte
+M 0 74084 3 74576 100 0 0 0        * an acolyte
+M 0 74085 1 74576 100 0 0 0        * the high priest
+M 0 74076 3 74578 100 0 0 0        * a blue fish
+G 1 74054 1 0 100 0 0 0            *    a shiny blue key
+M 0 74078 3 74578 100 0 0 0        * a blue fish
+M 0 74080 3 74578 100 0 0 0        * a golden scaled fish
+M 0 74132 4 74579 100 0 0 0        * a fat cat
+G 1 74252 2 0 100 0 0 0            *    the carcass of some small lizard.
+M 0 74077 3 74581 100 0 0 0        * a white fish
+M 0 74079 3 74581 100 0 0 0        * a fire red fish
+M 0 74230 1 74583 100 0 0 0        * a hooded executioner
+E 1 74040 4 3 100 0 0 0            *   a necklace of human ears
+E 1 74031 3 16 100 0 0 0           *   a huge black axe
+M 0 74241 6 74584 100 0 0 0        * an insane woman
+M 0 74124 14 74586 100 0 0 0       * a Bloodstone miner
+M 0 74180 1 74587 100 0 0 0        * the captain of the keep's guard
+E 1 74098 1 1 100 0 0 0            *   a ring of Bloodstone Knighthood
+E 1 74107 5 2 100 0 0 0            *   a blue ring of crystal ice
+E 1 74161 3 3 100 0 0 0            *   a cape of laced pearl
+E 1 74163 1 4 100 0 0 0            *   a cape of steel rings
+E 1 74034 3 5 100 0 0 0            *   a suit of Bloodstone bonemail
+E 1 74171 1 8 100 0 0 0            *   some soldier boots with spurs
+E 1 74182 1 13 100 0 0 0           *   a belt of holding
+E 1 74096 2 16 100 0 0 0           *   a fine Bloodstone bastard sword
+G 1 74266 1 0 100 0 0 0            *    a blue prison cell key
+M 0 74181 14 74587 100 0 0 0       * an elite watcher
+E 1 74106 2 2 100 0 0 0            *   a band of fiery persistance
+E 1 74131 4 6 100 0 0 0            *   a horned helm of Bloodstone
+E 1 74174 2 7 100 0 0 0            *   some fanged steel leggings
+E 1 74017 5 10 100 0 0 0           *   some barbed arm plates
+E 1 74096 2 16 100 0 0 0           *   a fine Bloodstone bastard sword
+M 0 74092 2 74590 100 0 0 0        * a wino
+M 0 74109 1 74590 100 0 0 0        * Payton, the tavernkeeper
+G 1 74001 9999 0 100 0 0 0         *    a skeleton key
+G 1 3001 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3003 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+M 0 74092 2 74591 100 0 0 0        * a wino
+M 0 74111 1 74591 100 0 0 0        * a towering assassin
+E 1 74072 999 16 100 0 0 0         *   a sleek black dagger
+M 0 74106 1 74593 100 0 0 0        * Blithymre, the assassin
+G 1 74076 9999 0 100 0 0 0         *    a set of shiny lockpicks
+G 1 74078 4 0 100 0 0 0            *    a pair of soft black leather boots
+G 1 74087 1 0 100 0 0 0            *    a black potion
+G 1 74088 1 0 100 0 0 0            *    a purple potion
+G 1 74089 9999 0 100 0 0 0         *    a vial of black death
+G 1 74090 1 0 100 0 0 0            *    a vial of blue slumber
+M 0 74100 1 74594 100 0 0 0        * an assassin apprentice
+G 1 74076 9999 0 100 0 0 0         *    a set of shiny lockpicks
+M 0 74099 1 74595 100 0 0 0        * an assassin apprentice
+M 0 74101 1 74595 100 0 0 0        * the master assassin
+M 0 74113 1 74598 100 0 0 0        * a black glabrezu demon
+E 1 74029 1 3 100 0 0 0            *   a demon tooth necklace
+M 0 74103 1 74601 100 0 0 0        * a student of magic
+M 0 74108 1 74602 100 0 0 0        * Amanap, the mage
+G 1 74074 1 0 100 0 0 0            *    a blue mystic's dagger
+G 1 74084 2 0 100 0 0 0            *    a scroll of fire
+G 1 74085 1 0 100 0 0 0            *    a wand of blue ice
+G 1 74086 1 0 100 0 0 0            *    a ring of the purple eye
+G 1 41 999 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 74102 1 74604 100 0 0 0        * a student of magic
+M 0 74104 1 74604 100 0 0 0        * the mystic master
+M 0 74086 2 74605 100 0 0 0        * a citizen of Bloodstone
+M 0 74087 1 74605 100 0 0 0        * a common woman
+M 0 74088 7 74606 100 0 0 0        * a little brat
+M 0 74086 2 74607 100 0 0 0        * a citizen of Bloodstone
+M 0 74232 17 74607 100 0 0 0       * a watcher of the keep
+M 0 74089 3 74611 100 0 0 0        * a citizen of Bloodstone
+M 0 74090 2 74611 100 0 0 0        * a common woman
+M 0 74089 3 74613 100 0 0 0        * a citizen of Bloodstone
+M 0 74090 2 74614 100 0 0 0        * a common woman
+M 0 74089 3 74616 100 0 0 0        * a citizen of Bloodstone
+M 0 74110 1 74618 100 0 0 0        * a huge dark skinned ogre
+M 0 74097 1 74619 100 0 0 0        * a thief apprentice
+G 1 74076 9999 0 100 0 0 0         *    a set of shiny lockpicks
+M 0 74105 1 74620 100 0 0 0        * Marion, the thief
+G 1 74077 2 0 100 0 0 0            *    a shortsword of black steel
+G 1 74076 9999 0 100 0 0 0         *    a set of shiny lockpicks
+G 1 74078 4 0 100 0 0 0            *    a pair of soft black leather boots
+G 1 74079 2 0 100 0 0 0            *    a pair of black silk gloves
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 73 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 77 999 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 74096 1 74623 100 0 0 0        * a thief apprentice
+M 0 74098 1 74623 100 0 0 0        * the Grandfather of thieves
+M 0 74232 17 74625 100 0 0 0       * a watcher of the keep
+M 0 74091 1 74629 100 0 0 0        * a rat
+M 0 74093 3 74630 100 0 0 0        * a necromancer apprentice
+M 0 74112 1 74634 100 0 0 0        * a pale necromancer
+E 1 74069 5 16 100 0 0 0           *   a cat of nine tails
+M 0 74093 3 74635 100 0 0 0        * a necromancer apprentice
+M 0 74107 1 74637 100 0 0 0        * Hilphio, the necromancer
+G 1 74073 1 0 100 0 0 0            *    a barbed sacrificial dagger
+G 1 74080 2 0 100 0 0 0            *    an unholy star
+G 1 74081 1 0 100 0 0 0            *    a clump of blackmoore
+G 1 74082 2 0 100 0 0 0            *    a necklace of human teeth
+G 1 74083 2 0 100 0 0 0            *    a vial of unholy darkness
+G 1 74084 2 0 100 0 0 0            *    a scroll of fire
+M 0 74093 3 74639 100 0 0 0        * a necromancer apprentice
+M 0 74094 1 74641 100 0 0 0        * a necromancer apprentice
+M 0 74095 1 74641 100 0 0 0        * the ancient necromancer
+M 0 74121 1 74642 100 0 0 0        * a naked man
+M 0 74122 1 74643 100 0 0 0        * Marcel
+M 0 74120 2 74644 100 0 0 0        * a naked man
+M 0 74119 3 74644 100 0 0 0        * a naked woman
+M 0 74239 1 74644 100 0 0 0        * Ajax, the warrior
+M 0 74120 2 74645 100 0 0 0        * a naked man
+M 0 74119 3 74645 100 0 0 0        * a naked woman
+M 0 74119 3 74645 100 0 0 0        * a naked woman
+M 0 74046 4 74646 100 0 0 0        * a prostitute
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74046 4 74646 100 0 0 0        * a prostitute
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74046 4 74646 100 0 0 0        * a prostitute
+G 1 74024 15 0 100 0 0 0           *    a dark leather purse
+M 0 74242 3 74656 100 0 0 0        * a vrock
+M 0 74243 3 74662 100 0 0 0        * a baatzu demon
+M 0 74243 3 74664 100 0 0 0        * a baatzu demon
+M 0 74243 3 74670 100 0 0 0        * a baatzu demon
+E 1 74006 1 16 100 0 0 0           *   a black pitchfork
+M 0 74242 3 74677 100 0 0 0        * a vrock
+M 0 74242 3 74690 100 0 0 0        * a vrock
+M 0 74232 17 74695 100 0 0 0       * a watcher of the keep
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74078 3 74702 100 0 0 0        * a blue fish
+M 0 74079 3 74702 100 0 0 0        * a fire red fish
+M 0 74079 3 74703 100 0 0 0        * a fire red fish
+M 0 74080 3 74703 100 0 0 0        * a golden scaled fish
+M 0 74131 6 74704 100 0 0 0        * a tom cat
+M 0 74132 4 74704 100 0 0 0        * a fat cat
+M 0 74080 3 74705 100 0 0 0        * a golden scaled fish
+M 0 74078 3 74705 100 0 0 0        * a blue fish
+M 0 74131 6 74706 100 0 0 0        * a tom cat
+M 0 74131 6 74708 100 0 0 0        * a tom cat
+M 0 74132 4 74708 100 0 0 0        * a fat cat
+M 0 74182 1 74709 100 0 0 0        * a fisherman
+E 1 74117 6 2 100 0 0 0            *   a ring of love
+E 1 74176 1 7 100 0 0 0            *   some finely woven wool overalls
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+M 0 74076 3 74712 100 0 0 0        * a blue fish
+M 0 74127 1 74713 100 0 0 0        * a huge pike
+M 0 74077 3 74714 100 0 0 0        * a white fish
+M 0 74076 3 74717 100 0 0 0        * a blue fish
+M 0 74077 3 74718 100 0 0 0        * a white fish
+M 0 74207 1 74719 100 0 0 0        * a wrinkled old woman
+G 1 74295 1 0 100 0 0 0            *    the bloody head of the baron's mother
+M 0 74183 1 74720 100 0 0 0        * an alligator
+M 0 74131 6 74723 100 0 0 0        * a tom cat
+M 0 74131 6 74723 100 0 0 0        * a tom cat
+M 0 74132 4 74723 100 0 0 0        * a fat cat
+M 0 74131 6 74724 100 0 0 0        * a tom cat
+M 0 74232 17 74724 100 0 0 0       * a watcher of the keep
+E 1 74281 6 11 100 0 0 0           *   a shiny silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74138 4 74726 100 0 0 0        * a brown pit asp
+M 0 74209 1 74726 100 0 0 0        * Vylak
+M 0 74137 2 74727 100 0 0 0        * a tuskmite
+M 0 74139 2 74727 100 0 0 0        * a timid deer
+M 0 74136 4 74728 100 0 0 0        * a fierce panther
+M 0 74139 2 74729 100 0 0 0        * a timid deer
+M 0 74138 4 74730 100 0 0 0        * a brown pit asp
+M 0 74164 3 74730 100 0 0 0        * a wild rabbit
+M 0 74136 4 74732 100 0 0 0        * a fierce panther
+M 0 74136 4 74733 100 0 0 0        * a fierce panther
+M 0 74137 2 74733 100 0 0 0        * a tuskmite
+M 0 74138 4 74733 100 0 0 0        * a brown pit asp
+M 0 74136 4 74734 100 0 0 0        * a fierce panther
+M 0 74150 6 74735 100 0 0 0        * an elderly woman
+M 0 74124 14 74735 100 0 0 0       * a Bloodstone miner
+M 0 74188 1 74738 100 0 0 0        * Joanah, the shopkeeper
+G 1 74192 1 0 100 0 0 0            *    a roasted fish
+G 1 74193 1 0 100 0 0 0            *    a fish on a stick
+G 1 74194 1 0 100 0 0 0            *    a piece of fish jerky
+G 1 74195 1 0 100 0 0 0            *    a roasted pike
+G 1 74196 1 0 100 0 0 0            *    a bread bowl of fish soup
+M 0 74218 1 74740 100 0 0 0        * a father
+M 0 74150 6 74740 100 0 0 0        * an elderly woman
+M 0 74151 5 74744 100 0 0 0        * an elderly man
+E 1 74136 4 6 100 0 0 0            *   a leather brimmed derby
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+M 0 74152 1 74744 100 0 0 0        * the Triad leader
+E 1 74116 4 2 100 0 0 0            *   a band of human flesh
+E 1 74140 1 6 100 0 0 0            *   a hood of silver links
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+E 1 74167 2 20 100 0 0 0           *   a mask of blue stones
+F 1 74153 3 74744 100 0 0 0        * a triad thug (following)
+E 1 74154 2 3 100 0 0 0            *   a necklace of old bones
+E 1 74169 2 8 100 0 0 0            *   some fine leather boots
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+F 1 74153 3 74744 100 0 0 0        * a triad thug (following)
+E 1 74103 3 2 100 0 0 0            *   a silver ring with a cubic stone
+E 1 74126 3 6 100 0 0 0            *   a helm of black steel
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+F 1 74153 3 74744 100 0 0 0        * a triad thug (following)
+E 1 74147 2 3 100 0 0 0            *   a demon amulet
+E 1 74130 2 6 100 0 0 0            *   an ornate helmet
+E 1 74184 2 13 100 0 0 0           *   a purple sash
+M 0 74232 17 74745 100 0 0 0       * a watcher of the keep
+E 1 74281 6 11 100 0 0 0           *   a shiny silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74129 7 74747 100 0 0 0        * a black crow
+M 0 74147 4 74748 100 0 0 0        * a woman
+M 0 74241 6 74748 100 0 0 0        * an insane woman
+M 0 74124 14 74749 100 0 0 0       * a Bloodstone miner
+M 0 74140 3 74751 100 0 0 0        * a human slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+G 1 74246 1 0 100 0 0 0            *    some pink entrails
+M 0 74144 4 74752 100 0 0 0        * a young slave
+M 0 74145 2 74752 100 0 0 0        * a slave driver
+E 1 74013 8 16 100 0 0 0           *   a whip of wire
+E 1 74172 3 21 100 0 0 0           *   a smallish golden earring
+G 1 74269 1 0 100 0 0 0            *    an iron cage key
+M 0 74145 2 74752 100 0 0 0        * a slave driver
+E 1 74102 2 2 100 0 0 0            *   a ring with triangular emeralds
+E 1 74127 2 6 100 0 0 0            *   a spiked helm of bronze
+E 1 74013 8 16 100 0 0 0           *   a whip of wire
+M 0 74200 1 74752 100 0 0 0        * the quartermaster
+M 0 74144 4 74753 100 0 0 0        * a young slave
+M 0 74210 1 74753 100 0 0 0        * a human slave
+M 0 74211 1 74753 100 0 0 0        * a female slave
+M 0 74212 1 74753 100 0 0 0        * an Ogre boy
+M 0 74213 1 74753 100 0 0 0        * a mountain dwarf
+M 0 74208 1 74754 100 0 0 0        * the slave auctioneer
+M 0 74125 8 74757 100 0 0 0        * a seasoned Bloodstone miner
+M 0 74158 2 74758 100 0 0 0        * a Bloodstone knight
+E 1 74185 1 14 100 0 0 0           *   a bracer lined with blood stones
+E 1 74104 1 15 100 0 0 0           *   a band of black accuracy
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+E 1 74263 1 18 100 0 0 0           *   a tarnished skeleton key
+E 1 74019 2 20 100 0 0 0           *   an iron mask
+M 0 74150 6 74759 100 0 0 0        * an elderly woman
+M 0 74129 7 74762 100 0 0 0        * a black crow
+M 0 74193 1 74763 100 0 0 0        * the shop's keeper
+G 1 74224 1 0 100 0 0 0            *    a small cut blood stone
+G 1 74225 1 0 100 0 0 0            *    an uncut fist-size blood stone
+G 1 74226 1 0 100 0 0 0            *    a large-cut blood stone
+M 0 74225 1 74763 100 0 0 0        * a refinery guard
+M 0 74124 14 74766 100 0 0 0       * a Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74124 14 74766 100 0 0 0       * a Bloodstone miner
+E 1 74119 3 2 100 0 0 0            *   a plain silver ring
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74124 14 74766 100 0 0 0       * a Bloodstone miner
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74125 8 74766 100 0 0 0        * a seasoned Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74126 2 74766 100 0 0 0        * a foreman of the mines
+E 1 74097 2 2 100 0 0 0            *   a ring of melding
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74181 14 74766 100 0 0 0       * an elite watcher
+M 0 74124 14 74767 100 0 0 0       * a Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74124 14 74767 100 0 0 0       * a Bloodstone miner
+E 1 74124 2 2 100 0 0 0            *   a band of barclay
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74124 14 74767 100 0 0 0       * a Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74125 8 74767 100 0 0 0        * a seasoned Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74125 8 74768 100 0 0 0        * a seasoned Bloodstone miner
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74125 8 74769 100 0 0 0        * a seasoned Bloodstone miner
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74129 7 74770 100 0 0 0        * a black crow
+M 0 74129 7 74771 100 0 0 0        * a black crow
+M 0 74130 1 74771 100 0 0 0        * a huge black crow
+M 0 74129 7 74772 100 0 0 0        * a black crow
+M 0 74128 9 74773 100 0 0 0        * a small rat
+M 0 74128 9 74773 100 0 0 0        * a small rat
+M 0 74128 9 74773 100 0 0 0        * a small rat
+M 0 74128 9 74773 100 0 0 0        * a small rat
+M 0 74129 7 74774 100 0 0 0        * a black crow
+M 0 74135 1 74775 100 0 0 0        * a chameleon
+G 1 74252 2 0 100 0 0 0            *    the carcass of some small lizard.
+M 0 74150 6 74775 100 0 0 0        * an elderly woman
+M 0 74129 7 74775 100 0 0 0        * a black crow
+M 0 74164 3 74776 100 0 0 0        * a wild rabbit
+M 0 74133 3 74777 100 0 0 0        * a small sparrow
+M 0 74134 2 74778 100 0 0 0        * a coral snake
+M 0 74178 4 74779 100 0 0 0        * a large dog
+E 1 74094 3 3 100 0 0 0            *   a wickedly barbed collar
+M 0 74199 1 74780 100 0 0 0        * Father Gephard
+G 1 74206 2 0 100 0 0 0            *    a string of red beads
+G 1 74201 2 0 100 0 0 0            *    a full set of brown monk robes
+M 0 74021 6 74782 100 0 0 0        * a homeless man
+M 0 74178 4 74782 100 0 0 0        * a large dog
+M 0 74163 3 74782 100 0 0 0        * a tired old man
+M 0 74181 14 74784 100 0 0 0       * an elite watcher
+E 1 74123 5 1 100 0 0 0            *   a small diamond ring
+E 1 74111 2 2 100 0 0 0            *   a triangular ring of rubies
+E 1 74180 2 13 100 0 0 0           *   a belt of severed infant arms
+E 1 74014 3 16 100 0 0 0           *   a sinister mace
+M 0 74134 2 74785 100 0 0 0        * a coral snake
+M 0 74214 1 74787 100 0 0 0        * a tall monk
+E 1 74116 4 2 100 0 0 0            *   a band of human flesh
+M 0 74184 2 74789 100 0 0 0        * a young priest
+E 1 74125 1 6 100 0 0 0            *   a wreath of ivy
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74147 4 74790 100 0 0 0        * a woman
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74141 1 6 100 0 0 0            *   a dark ritual cloth
+M 0 74148 3 74790 100 0 0 0        * a man
+E 1 74135 2 6 100 0 0 0            *   a green felt hat
+E 1 74172 3 21 100 0 0 0           *   a smallish golden earring
+M 0 74149 2 74790 100 0 0 0        * a child
+E 1 74137 3 6 100 0 0 0            *   a purple headband
+M 0 74184 2 74791 100 0 0 0        * a young priest
+E 1 74114 3 2 100 0 0 0            *   a satanic band
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74147 4 74792 100 0 0 0        * a woman
+E 1 74117 6 2 100 0 0 0            *   a ring of love
+M 0 74148 3 74792 100 0 0 0        * a man
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74136 4 6 100 0 0 0            *   a leather brimmed derby
+M 0 74149 2 74792 100 0 0 0        * a child
+M 0 74147 4 74794 100 0 0 0        * a woman
+E 1 74123 5 2 100 0 0 0            *   a small diamond ring
+E 1 74170 2 8 100 0 0 0            *   a pair of wooden clogs
+M 0 74217 1 74794 100 0 0 0        * a mother
+M 0 74151 5 74799 100 0 0 0        * an elderly man
+M 0 74151 5 74800 100 0 0 0        * an elderly man
+M 0 74148 3 74800 100 0 0 0        * a man
+M 0 74215 2 74804 100 0 0 0        * a young monk
+M 0 74181 14 74804 100 0 0 0       * an elite watcher
+M 0 74215 2 74805 100 0 0 0        * a young monk
+M 0 74198 1 74806 100 0 0 0        * an old monk
+G 1 74201 2 0 100 0 0 0            *    a full set of brown monk robes
+G 1 74202 9999 0 100 0 0 0         *    a leather headband
+G 1 74203 9999 0 100 0 0 0         *    a wooden walking stick
+G 1 74204 9999 0 100 0 0 0         *    a pair of forest sandals
+G 1 74205 1 0 100 0 0 0            *    a vial of unholy water
+G 1 74206 2 0 100 0 0 0            *    a string of red beads
+G 1 74207 1 0 100 0 0 0            *    a spiritual book on meditation
+M 0 74205 1 74807 100 0 0 0        * the old master
+E 1 74179 3 13 100 0 0 0           *   a belt of flesh hooks
+M 0 74161 8 74810 100 0 0 0        * a noble lady
+M 0 74221 2 74811 100 0 0 0        * a jealous boy
+M 0 74206 1 74812 100 0 0 0        * Sister Sabrina
+G 1 74267 1 0 100 0 0 0            *    a blue skeleton key
+M 0 74165 4 74812 100 0 0 0        * a smelly orphan
+M 0 74166 3 74812 100 0 0 0        * a fat orphan
+M 0 74167 1 74812 100 0 0 0        * a shy orphan
+M 0 74165 4 74813 100 0 0 0        * a smelly orphan
+M 0 74166 3 74813 100 0 0 0        * a fat orphan
+M 0 74181 14 74813 100 0 0 0       * an elite watcher
+E 1 74119 3 1 100 0 0 0            *   a plain silver ring
+E 1 74103 3 2 100 0 0 0            *   a silver ring with a cubic stone
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74166 3 20 100 0 0 0           *   a silver mask
+M 0 74165 4 74814 100 0 0 0        * a smelly orphan
+M 0 74197 1 74815 100 0 0 0        * the adoption clerk
+M 0 74226 1 74816 100 0 0 0        * a young boy
+M 0 74227 1 74816 100 0 0 0        * a young girl
+M 0 74165 4 74818 100 0 0 0        * a smelly orphan
+M 0 74166 3 74818 100 0 0 0        * a fat orphan
+M 0 74240 1 74819 100 0 0 0        * a naked boy
+M 0 74168 1 74819 100 0 0 0        * the orphan major
+E 1 74108 1 2 100 0 0 0            *   a band of grey mist
+E 1 74186 1 15 100 0 0 0           *   a black bracelet of steel
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+G 1 74245 1 0 100 0 0 0            *    a handful of grey matter
+M 0 74150 6 74820 100 0 0 0        * an elderly woman
+M 0 74221 2 74820 100 0 0 0        * a jealous boy
+M 0 74172 2 74821 100 0 0 0        * a factory gate guard
+E 1 74118 2 2 100 0 0 0            *   a ring with a small green stone
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+G 1 74268 1 0 100 0 0 0            *    a skeleton key made of silver
+M 0 74172 2 74821 100 0 0 0        * a factory gate guard
+E 1 74156 2 12 100 0 0 0           *   a cloak of thick peryton hide
+E 1 74143 3 6 100 0 0 0            *   a padded battle hood
+M 0 74169 3 74822 100 0 0 0        * an old factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74169 3 74822 100 0 0 0        * an old factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74170 3 74822 100 0 0 0        * a tired factory hand
+M 0 74171 3 74822 100 0 0 0        * a young factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74174 1 74822 100 0 0 0        * the factory manager
+E 1 74131 4 6 100 0 0 0            *   a horned helm of Bloodstone
+E 1 74013 8 16 100 0 0 0           *   a whip of wire
+M 0 74237 3 74822 100 0 0 0        * a factory gate guard
+E 1 74111 2 2 100 0 0 0            *   a triangular ring of rubies
+M 0 74237 3 74822 100 0 0 0        * a factory gate guard
+E 1 74099 9999 2 100 0 0 0         *   a ring of platinum leaf
+M 0 74237 3 74822 100 0 0 0        * a factory gate guard
+E 1 74169 2 8 100 0 0 0            *   some fine leather boots
+E 1 74282 99999 11 100 0 0 0       *   a shiny crescent silver shield
+M 0 74169 3 74823 100 0 0 0        * an old factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74170 3 74823 100 0 0 0        * a tired factory hand
+M 0 74171 3 74826 100 0 0 0        * a young factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74170 3 74827 100 0 0 0        * a tired factory hand
+M 0 74171 3 74827 100 0 0 0        * a young factory slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74173 1 74827 100 0 0 0        * a factory inspector
+E 1 74150 2 3 100 0 0 0            *   a string of human teeth
+E 1 74126 3 6 100 0 0 0            *   a helm of black steel
+M 0 74160 6 74829 100 0 0 0        * a regal man
+E 1 74151 3 3 100 0 0 0            *   a medallion of black power
+E 1 74178 4 13 100 0 0 0           *   an emerald green sash
+M 0 74178 4 74830 100 0 0 0        * a large dog
+E 1 74094 3 3 100 0 0 0            *   a wickedly barbed collar
+M 0 74181 14 74831 100 0 0 0       * an elite watcher
+E 1 74102 2 2 100 0 0 0            *   a ring with triangular emeralds
+E 1 74027 6 3 100 0 0 0            *   a Bloodstone medallion
+E 1 74040 4 4 100 0 0 0            *   a necklace of human ears
+E 1 74034 3 5 100 0 0 0            *   a suit of Bloodstone bonemail
+E 1 74033 3 13 100 0 0 0           *   a black silk belt
+M 0 74161 8 74832 100 0 0 0        * a noble lady
+E 1 74120 7 2 100 0 0 0            *   a golden band of matrimony
+E 1 74011 5 16 100 0 0 0           *   a Bloodstone dagger
+M 0 74162 2 74832 100 0 0 0        * a pampered child
+E 1 74138 3 6 100 0 0 0            *   a cap with a blue feather
+M 0 74162 2 74832 100 0 0 0        * a pampered child
+E 1 74137 3 6 100 0 0 0            *   a purple headband
+M 0 74159 1 74835 100 0 0 0        * a vicious killer
+E 1 74107 5 2 100 0 0 0            *   a blue ring of crystal ice
+E 1 74159 1 12 100 0 0 0           *   a cloak of displacement
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+E 1 74091 11 17 100 0 0 0          *   a sleek athame
+G 1 74239 1 0 100 0 0 0            *    a bloody heart
+M 0 74128 9 74836 100 0 0 0        * a small rat
+M 0 74203 1 74836 100 0 0 0        * the graveside mystic
+G 1 74208 1 0 100 0 0 0            *    a purple elixir
+G 1 74209 2 0 100 0 0 0            *    a potion of vigor
+G 1 74210 1 0 100 0 0 0            *    a potion of levitation
+G 1 74211 1 0 100 0 0 0            *    a blood red potion in a long vial
+G 1 74212 1 0 100 0 0 0            *    a black potion with a few rat eyes
+G 1 74213 1 0 100 0 0 0            *    a bubbling purple potion
+G 1 74215 2 0 100 0 0 0            *    a dark purple potion
+G 1 74214 1 0 100 0 0 0            *    a putrid-looking potion of green and brown layers
+G 1 74216 1 0 100 0 0 0            *    a potion of manticore milk
+G 1 2800 9999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74124 14 74837 100 0 0 0       * a Bloodstone miner
+M 0 74124 14 74838 100 0 0 0       * a Bloodstone miner
+M 0 74124 14 74838 100 0 0 0       * a Bloodstone miner
+M 0 74125 8 74838 100 0 0 0        * a seasoned Bloodstone miner
+M 0 74125 8 74838 100 0 0 0        * a seasoned Bloodstone miner
+M 0 74160 6 74840 100 0 0 0        * a regal man
+E 1 74175 3 7 100 0 0 0            *   some pants of iron rings
+E 1 74183 2 13 100 0 0 0           *   a belt of gold leaf
+M 0 74224 1 74841 100 0 0 0        * a spoiled boy
+E 1 74138 3 6 100 0 0 0            *   a cap with a blue feather
+G 1 74241 1 0 100 0 0 0            *    a small bloody tongue
+M 0 74160 6 74841 100 0 0 0        * a regal man
+E 1 74151 3 3 100 0 0 0            *   a medallion of black power
+E 1 74178 4 13 100 0 0 0           *   an emerald green sash
+M 0 74141 3 74842 100 0 0 0        * an ailing slave
+M 0 74142 3 74842 100 0 0 0        * a maimed slave
+M 0 74143 3 74842 100 0 0 0        * a crippled slave
+M 0 74140 3 74843 100 0 0 0        * a human slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74204 2 74843 100 0 0 0        * a drunken regal man
+M 0 74220 1 74843 100 0 0 0        * Asmond
+M 0 74201 1 74843 100 0 0 0        * the bartender
+G 1 74026 10 0 100 0 0 0           *    a bottle of rum
+G 1 3001 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3002 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3003 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3004 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74001 9999 0 100 0 0 0         *    a skeleton key
+M 0 74202 1 74844 100 0 0 0        * Beolar
+G 1 74187 19 0 100 0 0 0           *    some iron slave shackles
+G 1 74217 1 0 100 0 0 0            *    some heavy leg irons
+G 1 74218 1 0 100 0 0 0            *    some metal thumbscrews
+G 1 74219 1 0 100 0 0 0            *    a branding iron
+G 1 74220 1 0 100 0 0 0            *    a long leather whip
+G 1 74221 1 0 100 0 0 0            *    a length of lynching rope
+G 1 74222 1 0 100 0 0 0            *    an iron identification collar
+G 1 74223 1 0 100 0 0 0            *    a bamboo flogging crop
+M 0 74146 2 74845 100 0 0 0        * a guard of the platform
+E 1 74154 2 3 100 0 0 0            *   a necklace of old bones
+E 1 74166 3 20 100 0 0 0           *   a silver mask
+M 0 74146 2 74845 100 0 0 0        * a guard of the platform
+E 1 74131 4 6 100 0 0 0            *   a horned helm of Bloodstone
+E 1 74175 3 7 100 0 0 0            *   some pants of iron rings
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74140 3 74846 100 0 0 0        * a human slave
+E 1 74187 19 14 100 0 0 0          *   some iron slave shackles
+E 1 74187 19 15 100 0 0 0          *   some iron slave shackles
+M 0 74141 3 74847 100 0 0 0        * an ailing slave
+M 0 74142 3 74847 100 0 0 0        * a maimed slave
+M 0 74143 3 74847 100 0 0 0        * a crippled slave
+M 0 74144 4 74847 100 0 0 0        * a young slave
+M 0 74141 3 74849 100 0 0 0        * an ailing slave
+M 0 74142 3 74849 100 0 0 0        * a maimed slave
+M 0 74143 3 74849 100 0 0 0        * a crippled slave
+M 0 74144 4 74849 100 0 0 0        * a young slave
+M 0 74163 3 74852 100 0 0 0        * a tired old man
+E 1 74136 4 6 100 0 0 0            *   a leather brimmed derby
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+M 0 74185 1 74853 100 0 0 0        * the baron's mistress
+E 1 74161 3 3 100 0 0 0            *   a cape of laced pearl
+E 1 74011 5 16 100 0 0 0           *   a Bloodstone dagger
+G 1 74249 1 0 100 0 0 0            *    the bloody head of the mistress
+G 1 74055 1 0 100 0 0 0            *    a sapphire-encrusted key
+F 1 74186 3 74853 100 0 0 0        * an elite bodyguard (following)
+E 1 74015 7 5 100 0 0 0            *   a suit of Bloodstone chainmail
+E 1 74067 3 16 100 0 0 0           *   a nasty-looking two-handed sword
+F 1 74186 3 74853 100 0 0 0        * an elite bodyguard (following)
+E 1 74166 3 20 100 0 0 0           *   a silver mask
+E 1 74067 3 16 100 0 0 0           *   a nasty-looking two-handed sword
+F 1 74187 1 74853 100 0 0 0        * a hand maiden (following)
+M 0 74232 17 74854 100 0 0 0       * a watcher of the keep
+E 1 74281 6 11 100 0 0 0           *   a shiny silver shield
+E 1 74010 30 16 100 0 0 0          *   a Bloodstone saber
+M 0 74190 1 74858 100 0 0 0        * the Pliabus Khan
+G 1 74010 30 0 100 0 0 0           *    a Bloodstone saber
+G 1 74011 5 0 100 0 0 0            *    a Bloodstone dagger
+G 1 74013 8 0 100 0 0 0            *    a whip of wire
+G 1 3025 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 3024 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74282 99999 0 100 0 0 0        *    a shiny crescent silver shield
+G 1 74255 99999 0 100 0 0 0        *    a sandlion cub
+G 1 74197 1 0 100 0 0 0            *    a double-edged battleaxe
+G 1 74198 3 0 100 0 0 0            *    a razor-edge battleaxe of black steel
+G 1 74199 2 0 100 0 0 0            *    an ornate longsword
+G 1 74200 1 0 100 0 0 0            *    a long rapier of steel
+G 1 74012 2 0 100 0 0 0            *    a barbed spear
+M 0 74191 1 74859 100 0 0 0        * Klovus
+G 1 74189 1 0 100 0 0 0            *    a map of the lower Keep
+G 1 74190 1 0 100 0 0 0            *    a map of the upper Keep
+G 1 74191 1 0 100 0 0 0            *    a map of the Bloodstone Barony
+G 1 74099 9999 0 100 0 0 0         *    a ring of platinum leaf
+M 0 74194 1 74860 100 0 0 0        * the shop's keeper
+G 1 74123 5 0 100 0 0 0            *    a small diamond ring
+G 1 74227 2 0 100 0 0 0            *    a pearl earring
+G 1 74228 1 0 100 0 0 0            *    a pearl necklace
+G 1 74229 1 0 100 0 0 0            *    an ivory carved broach
+G 1 74230 1 0 100 0 0 0            *    an emerald bracelet
+G 1 74231 1 0 100 0 0 0            *    a golden nose stud
+M 0 74195 1 74861 100 0 0 0        * the shop's keeper
+G 1 74170 2 0 100 0 0 0            *    a pair of wooden clogs
+G 1 5743 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 2805 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74078 4 0 100 0 0 0            *    a pair of soft black leather boots
+G 1 10382 9999 0 100 0 0 0         *    (object type not in this .obj file)
+G 1 10340 9999 0 100 0 0 0         *    (object type not in this .obj file)
+G 1 3234 9999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74189 1 74862 100 0 0 0        * the shop's keeper
+G 1 74135 2 0 100 0 0 0            *    a green felt hat
+G 1 74136 4 0 100 0 0 0            *    a leather brimmed derby
+G 1 74137 3 0 100 0 0 0            *    a purple headband
+G 1 74138 3 0 100 0 0 0            *    a cap with a blue feather
+G 1 74139 1 0 100 0 0 0            *    a hunter's cap
+G 1 74144 1 0 100 0 0 0            *    a leather hood
+G 1 74145 1 0 100 0 0 0            *    a hood of purple felt
+G 1 74146 1 0 100 0 0 0            *    a hood of fish scales
+M 0 74161 8 74863 100 0 0 0        * a noble lady
+E 1 74121 2 2 100 0 0 0            *   a holy band
+E 1 74091 11 16 100 0 0 0          *   a sleek athame
+M 0 74192 1 74863 100 0 0 0        * Claire
+G 1 74117 6 0 100 0 0 0            *    a ring of love
+G 1 74118 2 0 100 0 0 0            *    a ring with a small green stone
+G 1 74119 3 0 100 0 0 0            *    a plain silver ring
+G 1 74120 7 0 100 0 0 0            *    a golden band of matrimony
+G 1 74121 2 0 100 0 0 0            *    a holy band
+G 1 74122 3 0 100 0 0 0            *    a dingy steel ring
+G 1 74123 5 0 100 0 0 0            *    a small diamond ring
+G 1 74124 2 0 100 0 0 0            *    a band of barclay
+G 1 3237 9999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 74009 14 0 100 0 0 0           *    a wedding ring
+M 0 74236 1 74864 100 0 0 0        * the shop's keeper
+G 1 74273 1 0 100 0 0 0            *    a studded leather belt
+G 1 74274 1 0 100 0 0 0            *    a shiny blue shield
+G 1 74275 1 0 100 0 0 0            *    some sleeves of iron links
+G 1 74276 2 0 100 0 0 0            *    a barbed wrist bracer
+G 1 74277 1 0 100 0 0 0            *    a pair of iron tipped leather boots
+G 1 74278 1 0 100 0 0 0            *    some chain linked fighting mitts
+G 1 74279 1 0 100 0 0 0            *    some leggings with steel plate scales
+G 1 74281 6 0 100 0 0 0            *    a shiny silver shield
+G 1 74282 99999 0 100 0 0 0        *    a shiny crescent silver shield
+G 1 74283 2 0 100 0 0 0            *    a dull copper mask
+G 1 74284 1 0 100 0 0 0            *    a steel bracer
+G 1 74285 1 0 100 0 0 0            *    a suit of barbed rings
+G 1 74286 1 0 100 0 0 0            *    an iron battle helmet
+G 1 74287 1 0 100 0 0 0            *    a leather belt
+G 1 74288 1 0 100 0 0 0            *    some steel deflectors
+G 1 74289 2 0 100 0 0 0            *    a pair of iron eyes
+G 1 74290 1 0 100 0 0 0            *    a cloak of thick ogre hide
+M 0 74124 14 74865 100 0 0 0       * a Bloodstone miner
+E 1 74117 6 2 100 0 0 0            *   a ring of love
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74124 14 74865 100 0 0 0       * a Bloodstone miner
+E 1 74122 3 2 100 0 0 0            *   a dingy steel ring
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74168 13 8 100 0 0 0           *   some old brown shoes
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74125 8 74865 100 0 0 0        * a seasoned Bloodstone miner
+E 1 74117 6 2 100 0 0 0            *   a ring of love
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+M 0 74126 2 74866 100 0 0 0        * a foreman of the mines
+E 1 74117 6 2 100 0 0 0            *   a ring of love
+E 1 74132 15 6 100 0 0 0           *   a miner's helmet
+E 1 74181 15 13 100 0 0 0          *   a miner's belt
+G 1 74247 1 0 100 0 0 0            *    a Bloodstone miner's badge
+G 1 74270 1 0 100 0 0 0            *    a shiny key
+M 0 74138 4 74870 100 0 0 0        * a brown pit asp
+M 0 74196 1 74871 100 0 0 0        * the shop's keeper
+G 1 74232 1 0 100 0 0 0            *    a pinch of dried bark mixed into a potion
+G 1 74233 1 0 100 0 0 0            *    a small heap of forest mushrooms
+G 1 74235 1 0 100 0 0 0            *    a pinch of fecal fungus mixed into an elixir
+M 0 74133 3 74872 100 0 0 0        * a small sparrow
+M 0 74160 6 74874 100 0 0 0        * a regal man
+M 0 74161 8 74874 100 0 0 0        * a noble lady
+M 0 74163 3 74874 100 0 0 0        * a tired old man
+M 0 74044 3 74874 100 0 0 0        * a young man
+M 0 74216 1 74887 100 0 0 0        * a convicted rapist
+M 0 74219 1 74897 100 0 0 0        * a convicted murderer
+M 0 74248 3 74905 100 0 0 0        * a dark-eyed adventurer
+M 0 74248 3 74905 100 0 0 0        * a dark-eyed adventurer
+M 0 74248 3 74905 100 0 0 0        * a dark-eyed adventurer
+M 0 74247 1 74916 100 0 0 0        * Maelborg, the dark magi
+E 1 74234 999 16 100 0 0 0         *   Maelborg's first weapon
+E 1 74296 1 17 100 0 0 0           *   Maelbrog's second weapon
+M 0 74249 3 74917 100 0 0 0        * a sinister apprentice
+M 0 74249 3 74917 100 0 0 0        * a sinister apprentice
+M 0 74249 3 74917 100 0 0 0        * a sinister apprentice
+G 1 74298 1 0 100 0 0 0            *    a sigil of vile corruption
+M 0 74250 1 74918 100 0 0 0        * Moldar
+M 0 74251 1 74918 100 0 0 0        * a merchant
+G 1 55118 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55117 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55116 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55115 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55114 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55113 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55112 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55283 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74252 1 74919 100 0 0 0        * Sark
+M 0 74253 1 74919 100 0 0 0        * a merchant
+G 1 55126 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55125 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55124 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55123 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55122 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55121 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55120 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55119 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55284 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74254 1 74920 100 0 0 0        * Navift
+M 0 74255 1 74920 100 0 0 0        * a merchant
+G 1 338 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 252 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 55132 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55131 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55130 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55129 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55128 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55127 999 0 100 0 0 0          *    (object type not in this .obj file)
+G 1 55076 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74257 1 74921 100 0 0 0        * Fibblefinger
+M 0 74256 1 74921 100 0 0 0        * a merchant
+G 1 828 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 827 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 826 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 825 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 824 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 823 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 822 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 821 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 820 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 55141 999 0 100 0 0 0          *    (object type not in this .obj file)
+M 0 74258 1 74922 100 0 0 0        * Hedvig
+*
+S

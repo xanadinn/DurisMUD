@@ -1,0 +1,307 @@
+#44402
+M
+zangzk map~
+   &+C"&NGreetings.  I am an honored patrol sergeant of my lord, Zangzk.
+He has asked me to continue my patrol all the way to the northern corner.
+these tunnels all look the same to me, if there was only a way I could get
+some sort of direction...&+C"
+~
+Q
+   &+C"&NAhh, so that's how it is all set up, thank you..&+C"
+~
+R I 44515
+G I 44401
+S
+#44422
+M
+githyanki~
+   &+LZangzk &+Wtells you 'Indeed.  The Githyanki have attacked our people,
+&+Wthey are a cold-hearted evil race that deserves only to be hunted.  Proove
+&+Wto me your faith towards my people.'
+&+LZangzk&N waves his hand, dismissing you.
+~
+M
+news~
+   &+L"&+cNews? Of course.. I am awaiting the news from my messengers
+&+cabout the stronghold's current fundings.  I must know if I am equipped
+&+cwith the money to equip my soldiers or if I require more raids upon the
+&+cGithyanki.&+L"
+~
+M
+money~
+   &+L"&+cOver the last couple of years we have been low on money.&+L"
+&+WZangzk &Nsighs deeply and wipes his sweaty forehead off with an old cloth.
+
+   &+L"&+cIf there was some kind of money.. any kind that may be stored
+&+cin the stronghold I know not about, I would be grateful.  I've been
+&+cgiven reports of a large hidden stash of adamantite currency in
+&+cone of our halls.  The equivalent amount of platinum would run close
+&+cto 500, I believe...&+L"
+~
+Q
+   &+LZangzk&N takes the objects from you and quickly conceals them.  A sly
+and wicked grin appears on his face as he reveals a &+Lblack leather&N sheath.
+
+&+LZangzk&N opens a &+Lblack leather&N sheath.
+&+LZangzk&N gets a &+Mma&+Bgi&+bcal &+Ckatana&N from the &+Lblack leather&N sheath.
+
+&N'&+RHere..&N' he whispers...
+~
+R I 44431
+R I 44516
+G I 44422
+G I 44428
+G I 44429
+Q
+   &+LZangzk&n takes your donation and grins widely at you.
+~
+R I 44516
+G C 500000
+Q
+   &+WZangzk&N smiles happily.
+   &+L"&+cThank you.  You have just saved me days of work, here is the
+   &+cmaster key of the stronghold.&+L"
+~
+R I 44516
+G I 44512
+G I 44401
+G I 44470
+QA
+   &+L"&+cThis is very great work, but I am afraid that all that I can feel I
+&+ccan give you at the moment is information.  If you have found for me
+&+cthese coins so far, then you are experienced with the layout of
+&+cthe stronghold.  I also now need three more things from you, and I will
+&+cpay you with the key that opens the door just south of my chamber in
+&+cthe corridor.  I am in need of any sort of map of the stronghold because
+&+cI must provide one to one of the higher ranked Githzerai inspection
+&+cofficers.  I also need a bottle of death poison for a mission I've been
+&+cassigned to, as well as a violet potion I have heard about.&+L"
+~
+G I 44509
+S
+#44431
+M
+slaad~
+&+c"&NYes, the slaadi are a chaotic race.  I hunt all breeds of slaad..&+c"
+~
+Q
+&+c"&NHere is your reward....&+c"
+~
+R I 44439
+G I 44436
+G I 44440
+G I 44440
+Q
+&+c"&NExcellent work...&+c"
+~
+R I 44438
+G I 44437
+G I 44441
+G I 44441
+S
+#44437
+M
+qc_action 30~
+&+LA dark and chaotic sensation is felt pulsing throughout the area...&N
+~
+QA
+   A strange voice appears in the back of your mind saying "&+MGo now!  Take
+   &+Mthis key, you have prooved yourself worthy of the fortress!&N"
+~
+R I 44456
+G I 44434
+G I 44444
+G I 44448
+S
+#44461
+M
+savior~
+   &+LThe &+WKing&N looks up and an &+revil stare&N envelopes his face.
+&+c"&NWhat do you know about the savior?  You are nothing; I should smite
+&Nyou for intruding.. but I must save my strength.&+c"
+~
+M
+strength~
+&+c"&NTo battle the savior, fool.  Begone from this place.  Zerthimon
+died! I am their leader!&+c" He screams in a rage and rambles on.
+~
+M
+zerthimon~
+&+c"&NYes, its essence challenges me. My soul.. My people!  Where is their
+honor for their king if it draws them from me? Why do you think I have
+isolated myself from my own people? I must destroy it! I must have
+its heart...&+c"
+~
+M
+qc_action 25~
+$n shamefully buries his face in his &+Lcloak&N, weeping about something.
+~
+QA
+   &+LThe &+mWi&+Mza&+Mrd&+L-&+WKing &Ntakes the stone from you.  Holding
+&+Lit high, the mysterious glow from the stone is sucked into his hands.
+&+LHe screams as the stone is reduced to a cloud of smoke as he drains its
+&+Lextreme force into him.
+
+&+LSeconds which seems like minutes pass, as the king slowly opens his eyes.
+&+LA deep blackness pours shadows out of his eyes as he moves about, leaving
+&+Ltrails of night in the air.  His glowing magical body floats high in his
+&+Lthrone room as he fades from sight..
+~
+R I 44501
+G I 44446
+D
+&+LDarkness fills the room as the king steps into the shadows.
+~
+S
+#44465
+M
+hello hi~
+   &+m"&+CI have no time for a conversation, I must continue my inspection.&+m"
+~
+M
+inspection~
+  &+m"&+CYes, my inspection of this outpost.  So far I have checked out the
+  &+Crogue chamber and the knight chamber and I am very pleased with the
+  &+Cprogress.&+m"
+~
+M
+progress~
+   &+m"&+COur forces are getting extremely powerful.  My masters have
+   &+Cinformed me that we shall be raiding this Prime material plane
+   &+Cand decimating it all once we are fully opreational.  There is, however
+   &+Cone thing that I find lacking that my superiors don't agree with.
+   &+CI've inspected dozens of these outposts across the universe, and every
+   &+Ctime I feel that we need Zerths to fight.&+m"
+~
+M
+zerth zerths~
+   &+m"&+CYes, they are the highly religious consorts of our God, Zerthimon.
+   &+CThe only thing we have been using them for is to hold open interplanar
+   &+Cwormholes for easy travel to Limbo.  I feel that if we got some of
+   &+Cthese Zerth's in the combat lines, total domination would be successful.
+   &+CThere is only one problem, the Zerths are only here because of their
+   &+Chonorable dedication and duty towards the assistance of Zerthimon.  We
+   &+Care all brothers, but the Zerths are extremely secretive about their
+   &+Cways.  I have noticed that each Zerth wears a mysterious glowing necklace
+   &+Cthat they never expose or show to anybody else.  If you find for me one
+   &+Cof these necklaces for further examination, I shall repay you.&+m"
+~
+Q
+   &+LVo&+mza&+Mly&+Wzk&N takes the &+Lnecklace&N from you and examines it
+closely.  After several minutes of touching the necklace and inspecting it,
+he nods.
+   &+m"&+CThank you.  I must now bring this back to my masters.  We may now
+   &+Chave the fighting potential to crush the surface races.&+m"
+~
+R I 44519
+G I 44427
+Q
+   &+LVozalyzk &Ntakes the &+Wring&N and carefully examines it.
+   A slight &+Cglow&N releases from his whole body as a look of excitement
+fills his face.
+   'Thank you,' the &+rbattle-knight &Nsays.  I shal reward you with this
+   glorious earring!
+~
+R I 44577
+G I 44550
+S
+#44494
+M
+help hello hi~
+~
+Q
+~
+R I 44581
+G I 44580
+D
+&+gGingerly, the &+Ggith&+Wyanki &+gmoves away, nodding at you before
+&+gdisappearing into the &+Lshadows&n.
+~
+S
+#44509
+M
+hi hello quest~
+   &+LThe githzerai prophet &Nlooks at you and says 'Greetings, I do not
+ wish to speak right now, not during this chaos...'
+~
+M
+chaos~
+  &+LThe githzerai prophet nods and continues &N'Yes the great chaos of
+  King Tayr-Dryn.  It has cost hundreds of our finest magi their lives
+  due to his greed and hunger for power.  The feud between Tayr-Dryn
+  and Zerthimon will never end, until one of them dies.'
+~
+M
+tayr-dryn zerthimon~
+   &+LThe githzerai prophet nods again, answering &N'Yes the great King
+   Tayr-Dryn is already an incredibly powerful wizard, and if his feud
+   with the spirit Zerthimon escalates, which I do not doubt it will,
+   his powers will be uncontrollable, even by him, and he will not be
+   able to handle the destruction that is sure to follow.  Even now you
+   can feel his powers growing at the dark heart of this fortress.  He
+   has taken his position only by his &+rblood&N link to his father,
+   Kezyr-Dryn.'
+~
+M
+father kezyr-dryn~
+   A wave of relief seems to sweep over the &+Lgithzerai prophet&N's face as
+you mention Tayr-Dryn's father.  The &+Lgithzerai prophet&N moves closer to
+you ever so slightly and says 'Kezyr-Dryn was a great sorcerer who commanded
+his legions well.  He was the last truely deserved King of the githzerai.
+Kezyr-Dryn and the eight kings before him are all actually buried in a
+&+Lsecret tomb&N, deep within this very fortress!'
+~
+M
+secret tomb~
+   The &+Lgithzerai prophet&N nods and grins.  He speaks 'Yes there is a
+&+Lsecret tomb&N below this gallery in which the bodies of five  githzerai
+kings, including that of Kezyr-Dryn have been mummified.  It is our
+peoples' ritual to bury our royalty with their &+Ysignet rings&N, which they
+are awarded when they take the throne.'
+~
+M
+signet rings ring~
+   The &+Lgithzerai prophet&N's eyes &+mglow&N a &+rdeep red&N...
+He speaks 'King Tayr-Dryn is a hard man to get close to, you have to
+venture deep within the sacred soul chambers of the Rrakkma to gain
+access to his lair.  The deepest and most secluded of these Rrakkma
+soul chambers is that of the rogue.  I was entrusted the &+Wkey&N to this
+chamber many years ago before King Kezyr-Dryn died.  Proove your dedication
+to my cause and bring me back the five  &+Ysignet rings&n.  I will reward
+you with the &+Wkey&N of which I speak.  Then we shall be one step closer
+to exposing Tayr-Dryn from his seclusion, and stopping him before his
+hunger for power destroys us all!'
+~
+M
+psycophantic psycophant magi magis~
+   The &+Lgithzerai prophet&N peers at you intently for a moment and
+ speaks 'Those &+mmagi&N at the statue of the king?  They attempt to gain
+ his favor by showing their homage and &+Wbowing&N at the statue.  I have
+ always sensed a powerful &+bmagic&N coming from that statue, perhaps there
+ is more than simple groveling at hand when they &+Wbow&N to the statue...'
+~
+QA
+  &+LThe githzerai prophet &Ntakes the rings from you and places his hands
+&+Lin front of his forehead, as a gesture of thanks.
+   He speaks 'Excellent.  You have done for me what I have asked, now I
+   shall reward you with what I have promised.'
+~
+R I 44572
+G I 44563
+G I 44563
+G I 44563
+G I 44563
+G I 44563
+D
+   &+LThe githzerai prophet &Nnods and speaks 'This key will grant you
+passage into the chamber of the Rrakkma rogue master.  This chamber has
+been inactive for many centuries, and the soul of this Rrakkma will be
+quite angry if awakened.  However, if you are on a quest to overthrow
+King Tayr-Dryn, then you must face this Rrakkma regardless.'
+   'The chamber of this Rrakkma is located deep within a &+rvortex&N, below an
+antechamber on the eastern side of the hallway of statues.  A powerful
+magical &+cforcefield&N blocks passage into this well, however.  Only the
+great king Kezyr-Dryn knew how to disengage this magical forcefield, and
+all that remains of him is his spirit.'
+~
+S

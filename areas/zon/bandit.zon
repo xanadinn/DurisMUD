@@ -1,0 +1,403 @@
+#985
+&+LThe &+yBandit &+gCanyons&n~
+98575 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 98504 2 1 100 0 0 0
+*     south exit from "Pleasant Meadow in A Box Canyon" to
+*     "Blacksmith's Cabin" - closed
+*
+D 0 98506 0 1 100 0 0 0
+*     north exit from "Blacksmith's Cabin" to
+*     "Pleasant Meadow in A Box Canyon" - closed
+*
+D 0 98504 3 1 100 0 0 0
+*     west exit from "Pleasant Meadow in A Box Canyon" to
+*     "Box Canyon Corral" - closed
+*
+D 0 98505 1 1 100 0 0 0
+*     east exit from "Box Canyon Corral" to
+*     "Pleasant Meadow in A Box Canyon" - closed
+*
+D 0 98508 2 1 100 0 0 0
+*     south exit from "Mess-Hall Canyon" to
+*     "A Large Cabin" - closed
+*
+D 0 98509 0 1 100 0 0 0
+*     north exit from "A Large Cabin" to
+*     "Mess-Hall Canyon" - closed
+*
+D 0 98513 0 5 100 0 0 0
+*     north exit from "Muddy Basin" to
+*     "Entrance to a Bandit Encampment" - closed/secret
+*
+D 0 98550 2 5 100 0 0 0
+*     south exit from "Entrance to a Bandit Encampment" to
+*     "Muddy Basin" - closed/secret
+*
+D 0 98514 1 5 100 0 0 0
+*     east exit from "A Gathering Place" to
+*     "Narrow Canyon" - closed/secret
+*
+D 0 98523 3 5 100 0 0 0
+*     west exit from "Narrow Canyon" to
+*     "A Gathering Place" - closed/secret
+*
+D 0 98515 3 5 100 0 0 0
+*     west exit from "Bandit Camp" to
+*     "Thick Brush in a Canyon" - closed/secret
+*
+D 0 98516 1 5 100 0 0 0
+*     east exit from "Thick Brush in a Canyon" to
+*     "Bandit Camp" - closed/secret
+*
+D 0 98518 0 5 100 0 0 0
+*     north exit from "Garbage Filled Canyon" to
+*     "Start of a Blackthorn Forest" - closed/secret
+*
+D 0 98519 2 5 100 0 0 0
+*     south exit from "Start of a Blackthorn Forest" to
+*     "Garbage Filled Canyon" - closed/secret
+*
+D 0 98524 1 2 100 0 0 0
+*     east exit from "Wooded Canyon" to
+*     "A Large Cabin" - closed/locked
+*
+D 0 98525 3 2 100 0 0 0
+*     west exit from "A Large Cabin" to
+*     "Wooded Canyon" - closed/locked
+*
+D 0 98525 0 1 100 0 0 0
+*     north exit from "A Large Cabin" to
+*     "Guest Room" - closed
+*
+D 0 98526 2 1 100 0 0 0
+*     south exit from "Guest Room" to
+*     "A Large Cabin" - closed
+*
+D 0 98525 2 1 100 0 0 0
+*     south exit from "A Large Cabin" to
+*     "A Large Bedroom" - closed
+*
+D 0 98527 0 1 100 0 0 0
+*     north exit from "A Large Bedroom" to
+*     "A Large Cabin" - closed
+*
+D 0 98528 0 1 100 0 0 0
+*     north exit from "Backroom of a Large Cabin" to
+*     "Guest Room" - closed
+*
+D 0 98529 2 1 100 0 0 0
+*     south exit from "Guest Room" to
+*     "Backroom of a Large Cabin" - closed
+*
+D 0 98528 1 8 100 0 0 0
+*     east exit from "Backroom of a Large Cabin" to
+*     "Meeting Room" - open/blocked
+*
+D 0 98531 3 8 100 0 0 0
+*     west exit from "Meeting Room" to
+*     "Backroom of a Large Cabin" - open/blocked
+*
+D 0 98528 2 1 100 0 0 0
+*     south exit from "Backroom of a Large Cabin" to
+*     "Storage Room" - closed
+*
+D 0 98530 0 1 100 0 0 0
+*     north exit from "Storage Room" to
+*     "Backroom of a Large Cabin" - closed
+*
+D 0 98533 1 1 100 0 0 0
+*     east exit from "Laundry Filled Canyon" to
+*     "Laundry Shack" - closed
+*
+D 0 98561 3 1 100 0 0 0
+*     west exit from "Laundry Shack" to
+*     "Laundry Filled Canyon" - closed
+*
+D 0 98566 3 1 100 0 0 0
+*     west exit from "Blackthorn Forest" to
+*     "Before a Log Cabin" - closed
+*
+D 0 98571 1 1 100 0 0 0
+*     east exit from "Before a Log Cabin" to
+*     "Blackthorn Forest" - closed
+*
+D 0 98571 3 1 100 0 0 0
+*     west exit from "Before a Log Cabin" to
+*     "A Woodsmans Cabin" - closed
+*
+D 0 98572 1 1 100 0 0 0
+*     east exit from "A Woodsmans Cabin" to
+*     "Before a Log Cabin" - closed
+*
+*
+O 0 98526 1 98500 100 0 0 0        * a *LARGE* wooden sign
+O 0 98503 1 98517 100 0 0 0        * a putrid pool of waste
+O 0 98516 1 98528 100 0 0 0        * a large bookshelf
+O 0 98517 1 98531 100 0 0 0        * a large bookshelf
+O 0 98522 1 98548 100 0 0 0        * a half-eaten corpse
+P 1 98523 1 98522 100 0 0 0        *   the boots of stealth
+O 0 98506 1 98553 100 0 0 0        * a *LARGE* pile of loot
+P 1 98507 1 98506 100 0 0 0        *   a gold watch
+P 1 98534 1 98506 100 0 0 0        *   a spiked crown of stone
+*
+M 0 98550 6 98501 100 0 0 0        * a thin young bandit
+M 0 98550 6 98501 100 0 0 0        * a thin young bandit
+M 0 98550 6 98502 100 0 0 0        * a thin young bandit
+M 0 98550 6 98502 100 0 0 0        * a thin young bandit
+M 0 98550 6 98503 100 0 0 0        * a thin young bandit
+M 0 98550 6 98503 100 0 0 0        * a thin young bandit
+M 0 98551 3 98504 100 0 0 0        * a young bandit
+M 0 98551 3 98504 100 0 0 0        * a young bandit
+M 0 98551 3 98504 100 0 0 0        * a young bandit
+M 0 98506 2 98505 100 0 0 0        * a dun pony
+M 0 98506 2 98505 100 0 0 0        * a dun pony
+M 0 98507 2 98505 100 0 0 0        * a dappled horse
+M 0 98507 2 98505 100 0 0 0        * a dappled horse
+M 0 98504 1 98506 100 0 0 0        * a bandit blacksmith
+E 1 98527 1 16 100 0 0 0           *   a blacksmiths hammer
+F 1 98553 2 98506 100 0 0 0        * a young apprentice (following)
+F 1 98553 2 98506 100 0 0 0        * a young apprentice (following)
+M 0 98552 2 98507 100 0 0 0        * a bandit sentry
+M 0 98552 2 98507 100 0 0 0        * a bandit sentry
+M 0 98508 2 98508 100 0 0 0        * a large buzzard
+M 0 98508 2 98508 100 0 0 0        * a large buzzard
+M 0 98542 4 98508 100 0 0 0        * a young bandit
+M 0 98542 4 98508 100 0 0 0        * a young bandit
+M 0 98542 4 98508 100 0 0 0        * a young bandit
+M 0 98542 4 98508 100 0 0 0        * a young bandit
+M 0 98543 1 98509 100 0 0 0        * a half-orc matron
+E 1 98519 1 16 100 0 0 0           *   a matron's cleaver
+M 0 98530 3 98511 100 0 0 0        * a bandit child
+M 0 98530 3 98511 100 0 0 0        * a bandit child
+M 0 98530 3 98511 100 0 0 0        * a bandit child
+M 0 98529 4 98514 100 0 0 0        * a bandit child
+M 0 98529 4 98514 100 0 0 0        * a bandit child
+M 0 98529 4 98514 100 0 0 0        * a bandit child
+M 0 98529 4 98514 100 0 0 0        * a bandit child
+M 0 98515 2 98515 100 0 0 0        * a half-orc bandit
+E 1 98530 2 15 100 0 0 0           *   a small wooden bracelet with stone spikes
+F 1 98515 2 98515 100 0 0 0        * a half-orc bandit (following)
+E 1 98530 2 15 100 0 0 0           *   a small wooden bracelet with stone spikes
+M 0 98514 2 98516 100 0 0 0        * a thieving rogue
+E 1 98504 2 16 100 0 0 0           *   a small shard of stone
+M 0 98514 2 98516 100 0 0 0        * a thieving rogue
+E 1 98504 2 16 100 0 0 0           *   a small shard of stone
+M 0 98513 2 98517 100 0 0 0        * a large warg
+M 0 98513 2 98517 100 0 0 0        * a large warg
+M 0 98503 2 98517 100 0 0 0        * a hulking thug
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98503 2 98517 100 0 0 0        * a hulking thug
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98505 3 98518 100 0 0 0        * a huge warg
+M 0 98505 3 98518 100 0 0 0        * a huge warg
+M 0 98505 3 98518 100 0 0 0        * a huge warg
+M 0 98509 11 98520 100 0 0 0       * a warty thorneater
+M 0 98512 24 98520 100 0 0 0       * a thorn lizard
+M 0 98512 24 98520 100 0 0 0       * a thorn lizard
+M 0 98512 24 98520 100 0 0 0       * a thorn lizard
+M 0 98509 11 98521 100 0 0 0       * a warty thorneater
+M 0 98512 24 98521 100 0 0 0       * a thorn lizard
+M 0 98512 24 98521 100 0 0 0       * a thorn lizard
+M 0 98531 2 98522 100 0 0 0        * a bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98531 2 98522 100 0 0 0        * a bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98532 2 98522 100 0 0 0        * a young female bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98532 2 98522 100 0 0 0        * a young female bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98528 3 98523 100 0 0 0        * a young bandit sentry
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98528 3 98523 100 0 0 0        * a young bandit sentry
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98528 3 98523 100 0 0 0        * a young bandit sentry
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98527 4 98524 100 0 0 0        * a vicious guard dog
+M 0 98527 4 98524 100 0 0 0        * a vicious guard dog
+M 0 98527 4 98524 100 0 0 0        * a vicious guard dog
+M 0 98527 4 98524 100 0 0 0        * a vicious guard dog
+M 0 98538 2 98525 100 0 0 0        * a thieving rogue
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98538 2 98525 100 0 0 0        * a thieving rogue
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98533 1 98526 100 0 0 0        * a visiting bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+E 1 98512 1 19 100 0 0 0           *   a black leather mask
+M 0 98535 1 98527 100 0 0 0        * a male bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98536 1 98527 100 0 0 0        * a female bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+G 1 98514 1 0 100 0 0 0            *    a torn note
+M 0 98537 2 98528 100 0 0 0        * a thieving rogue
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98537 2 98528 100 0 0 0        * a thieving rogue
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98534 1 98529 100 0 0 0        * Olat
+E 1 98513 1 16 100 0 0 0           *   an ogreish longblade
+M 0 98539 4 98530 100 0 0 0        * a gnome slave
+M 0 98539 4 98530 100 0 0 0        * a gnome slave
+M 0 98539 4 98530 100 0 0 0        * a gnome slave
+G 1 98515 1 0 100 0 0 0            *    a torn note
+M 0 98539 4 98530 100 0 0 0        * a gnome slave
+M 0 98540 1 98531 100 0 0 0        * Talia
+E 1 98528 1 16 100 0 0 0           *   a silver-hilted brass dagger
+E 1 98518 1 18 100 0 0 0           *   a glowing dragons eye
+M 0 98541 1 98531 100 0 0 0        * Schwenk
+E 1 98529 1 16 100 0 0 0           *   a serrated silver dagger
+M 0 98544 3 98532 100 0 0 0        * a young bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98544 3 98532 100 0 0 0        * a young bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98544 3 98532 100 0 0 0        * a young bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98545 2 98533 100 0 0 0        * a half-orc matron
+E 1 98520 2 16 100 0 0 0           *   a washboard
+M 0 98545 2 98533 100 0 0 0        * a half-orc matron
+E 1 98520 2 16 100 0 0 0           *   a washboard
+M 0 98501 8 98535 100 0 0 0        * a giant leech
+M 0 98501 8 98535 100 0 0 0        * a giant leech
+M 0 98501 8 98536 100 0 0 0        * a giant leech
+M 0 98501 8 98537 100 0 0 0        * a giant leech
+M 0 98501 8 98537 100 0 0 0        * a giant leech
+M 0 98501 8 98537 100 0 0 0        * a giant leech
+M 0 98501 8 98538 100 0 0 0        * a giant leech
+M 0 98501 8 98538 100 0 0 0        * a giant leech
+M 0 98548 4 98541 100 0 0 0        * a large buzzard
+M 0 98548 4 98541 100 0 0 0        * a large buzzard
+M 0 98548 4 98542 100 0 0 0        * a large buzzard
+M 0 98548 4 98542 100 0 0 0        * a large buzzard
+M 0 98549 4 98544 100 0 0 0        * a fishing bandit
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+M 0 98549 4 98544 100 0 0 0        * a fishing bandit
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+M 0 98549 4 98544 100 0 0 0        * a fishing bandit
+G 1 98525 1 0 100 0 0 0            *    a large salmon
+M 0 98549 4 98544 100 0 0 0        * a fishing bandit
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+G 1 98524 6 0 100 0 0 0            *    a large salmon
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98502 6 98546 100 0 0 0        * a swarmfish
+M 0 98547 4 98548 100 0 0 0        * a hungry alligator
+M 0 98547 4 98548 100 0 0 0        * a hungry alligator
+M 0 98547 4 98548 100 0 0 0        * a hungry alligator
+M 0 98547 4 98548 100 0 0 0        * a hungry alligator
+M 0 98518 3 98550 100 0 0 0        * a bandit sentry
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98518 3 98550 100 0 0 0        * a bandit sentry
+M 0 98518 3 98550 100 0 0 0        * a bandit sentry
+M 0 98519 3 98551 100 0 0 0        * a grim bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98519 3 98551 100 0 0 0        * a grim bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98519 3 98551 100 0 0 0        * a grim bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98521 3 98552 100 0 0 0        * an experienced bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+E 1 98532 1 21 100 0 0 0           *   a small obsidian earring with gold trim
+M 0 98521 3 98552 100 0 0 0        * an experienced bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98521 3 98552 100 0 0 0        * an experienced bandit
+E 1 98533 1 10 100 0 0 0           *   a pair of red sleeves with bloody spikes
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98520 4 98553 100 0 0 0        * a vicious guard dog
+M 0 98520 4 98553 100 0 0 0        * a vicious guard dog
+M 0 98520 4 98553 100 0 0 0        * a vicious guard dog
+M 0 98520 4 98553 100 0 0 0        * a vicious guard dog
+M 0 98523 2 98554 100 0 0 0        * a female bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98523 2 98554 100 0 0 0        * a female bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98524 4 98554 100 0 0 0        * a hungry bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98524 4 98554 100 0 0 0        * a hungry bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98524 4 98554 100 0 0 0        * a hungry bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98524 4 98554 100 0 0 0        * a hungry bandit
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98525 2 98555 100 0 0 0        * a young bandit
+M 0 98525 2 98555 100 0 0 0        * a young bandit
+M 0 98516 3 98556 100 0 0 0        * a brown bear
+M 0 98517 5 98556 100 0 0 0        * a large buzzard
+M 0 98517 5 98556 100 0 0 0        * a large buzzard
+M 0 98517 5 98557 100 0 0 0        * a large buzzard
+M 0 98517 5 98557 100 0 0 0        * a large buzzard
+M 0 98516 3 98558 100 0 0 0        * a brown bear
+M 0 98516 3 98558 100 0 0 0        * a brown bear
+M 0 98517 5 98558 100 0 0 0        * a large buzzard
+M 0 98526 3 98559 100 0 0 0        * a peeping tom
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98526 3 98559 100 0 0 0        * a peeping tom
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98526 3 98559 100 0 0 0        * a peeping tom
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98522 3 98560 100 0 0 0        * a female bandit
+E 1 98508 3 13 100 0 0 0           *   a money belt
+P 1 98510 1 98508 100 0 0 0        *   some platinum coins
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+F 1 98522 3 98560 100 0 0 0        * a female bandit (following)
+E 1 98508 3 13 100 0 0 0           *   a money belt
+P 1 98509 1 98508 100 0 0 0        *   some platinum coins
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+F 1 98522 3 98560 100 0 0 0        * a female bandit (following)
+E 1 98508 3 13 100 0 0 0           *   a money belt
+P 1 98511 1 98508 100 0 0 0        *   some platinum coins
+E 1 98505 38 16 100 0 0 0          *   a serrated stone dagger
+M 0 98546 3 98561 100 0 0 0        * a half-orc matron
+E 1 98521 3 16 100 0 0 0           *   a wire clothes hanger
+M 0 98546 3 98561 100 0 0 0        * a half-orc matron
+E 1 98521 3 16 100 0 0 0           *   a wire clothes hanger
+M 0 98546 3 98561 100 0 0 0        * a half-orc matron
+E 1 98521 3 16 100 0 0 0           *   a wire clothes hanger
+M 0 98509 11 98562 100 0 0 0       * a warty thorneater
+M 0 98512 24 98562 100 0 0 0       * a thorn lizard
+M 0 98512 24 98562 100 0 0 0       * a thorn lizard
+M 0 98509 11 98563 100 0 0 0       * a warty thorneater
+M 0 98512 24 98563 100 0 0 0       * a thorn lizard
+M 0 98509 11 98564 100 0 0 0       * a warty thorneater
+M 0 98512 24 98564 100 0 0 0       * a thorn lizard
+M 0 98512 24 98564 100 0 0 0       * a thorn lizard
+M 0 98512 24 98564 100 0 0 0       * a thorn lizard
+M 0 98509 11 98565 100 0 0 0       * a warty thorneater
+M 0 98512 24 98565 100 0 0 0       * a thorn lizard
+M 0 98512 24 98565 100 0 0 0       * a thorn lizard
+M 0 98509 11 98566 100 0 0 0       * a warty thorneater
+M 0 98512 24 98566 100 0 0 0       * a thorn lizard
+M 0 98512 24 98566 100 0 0 0       * a thorn lizard
+M 0 98509 11 98567 100 0 0 0       * a warty thorneater
+M 0 98512 24 98567 100 0 0 0       * a thorn lizard
+M 0 98512 24 98567 100 0 0 0       * a thorn lizard
+M 0 98509 11 98568 100 0 0 0       * a warty thorneater
+M 0 98512 24 98568 100 0 0 0       * a thorn lizard
+M 0 98509 11 98569 100 0 0 0       * a warty thorneater
+M 0 98512 24 98569 100 0 0 0       * a thorn lizard
+M 0 98512 24 98570 100 0 0 0       * a thorn lizard
+M 0 98512 24 98570 100 0 0 0       * a thorn lizard
+M 0 98500 4 98571 100 0 0 0        * a vicious guard dog
+M 0 98500 4 98571 100 0 0 0        * a vicious guard dog
+M 0 98500 4 98571 100 0 0 0        * a vicious guard dog
+E 1 98501 1 3 100 0 0 0            *   a blackthorn thorn collar
+M 0 98500 4 98571 100 0 0 0        * a vicious guard dog
+M 0 98510 1 98572 100 0 0 0        * the forest keeper
+E 1 98502 1 11 100 0 0 0           *   a blackthorn wood shield
+E 1 98500 3 16 100 0 0 0           *   a blackthorn thorn
+F 1 98511 2 98572 100 0 0 0        * a lumberjack (following)
+E 1 98500 3 16 100 0 0 0           *   a blackthorn thorn
+F 1 98511 2 98572 100 0 0 0        * a lumberjack (following)
+E 1 98500 3 16 100 0 0 0           *   a blackthorn thorn
+M 0 98509 11 98573 100 0 0 0       * a warty thorneater
+M 0 98512 24 98573 100 0 0 0       * a thorn lizard
+M 0 98512 24 98574 100 0 0 0       * a thorn lizard
+M 0 98512 24 98574 100 0 0 0       * a thorn lizard
+*
+S

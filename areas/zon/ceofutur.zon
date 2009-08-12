@@ -1,0 +1,314 @@
+#814
+&+bCeothia&n~
+81677 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 81472 5 6 100 0 0 0
+*     down exit from "The Blackened Remains of a Bluestone Street" to
+*     "A Dark Cavernous Tunnel" - closed/locked/secret
+*
+D 0 81660 4 2 100 0 0 0
+*     up exit from "A Dark Cavernous Tunnel" to
+*     "The Blackened Remains of a Bluestone Street" - closed/locked
+*
+D 0 81662 1 2 100 0 0 0
+*     east exit from "A Dark Cavernous Tunnel" to
+*     "The Lair of the Dragon of Past and Future" - closed/locked
+*
+D 0 81663 3 2 100 0 0 0
+*     west exit from "The Lair of the Dragon of Past and Future" to
+*     "A Dark Cavernous Tunnel" - closed/locked
+*
+D 0 81669 1 6 100 0 0 0
+*     east exit from "The Lair of the Dragon of Past and Future" to
+*     "A Dark Vault of the Dragon of Past and Future" - closed/locked/secret
+*
+D 0 81670 3 2 100 0 0 0
+*     west exit from "A Dark Vault of the Dragon of Past and Future" to
+*     "The Lair of the Dragon of Past and Future" - closed/locked
+*
+*
+O 0 81408 1 81670 100 0 0 0        * a demon spiked cloak of haze
+O 0 81409 1 81670 100 0 0 0        * a suit of bluestone platemail bearing a Dragon Fang
+O 0 81416 2 81670 100 0 0 0        * a black vial with carved glowing demonic runes
+O 0 81416 2 81670 100 0 0 0        * a black vial with carved glowing demonic runes
+O 0 81422 1 81670 100 0 0 0        * a shimmering portal
+O 0 81418 1 81672 100 0 0 0        * a small shield of bluestone wreathed in flames
+O 0 81415 1 81673 100 0 0 0        * a swirling bracelet of dragon frost
+O 0 360 1 81676 100 0 0 0          * (object type not in this .obj file)
+O 0 81413 1 81677 100 0 0 0        * a shimmering portal
+*
+M 0 81425 1 81400 100 0 0 0        * a holy paladin warrior
+E 1 81414 1 7 100 0 0 0            *   greaves of cracked bluestone
+M 0 81411 2 81401 100 0 0 0        * a drow priestess
+M 0 81411 2 81401 100 0 0 0        * a drow priestess
+M 0 81412 1 81401 100 0 0 0        * a pit fiend
+E 1 81402 1 10 100 0 0 0           *   a pair of sleeves set with flaming demonic runes
+M 0 81443 10 81402 100 0 0 0       * an orc raider
+M 0 81443 10 81403 100 0 0 0       * an orc raider
+M 0 81413 1 81404 100 0 0 0        * a troll warrior
+M 0 81443 10 81406 100 0 0 0       * an orc raider
+M 0 81414 1 81407 100 0 0 0        * an orc sentry
+M 0 81405 9 81409 100 0 0 0        * an ogre soldier
+M 0 81415 1 81410 100 0 0 0        * a sinister drow
+M 0 81443 10 81412 100 0 0 0       * an orc raider
+M 0 81443 10 81414 100 0 0 0       * an orc raider
+M 0 81416 2 81415 100 0 0 0        * a large fire giant
+M 0 81417 1 81415 100 0 0 0        * a large fire giant shaman
+E 1 81404 1 18 100 0 0 0           *   a lump of charcoal covered in flames
+G 1 81406 1 0 100 0 0 0            *    a shard of bluestone
+M 0 81416 2 81415 100 0 0 0        * a large fire giant
+M 0 81418 1 81417 100 0 0 0        * a duergar mercenary
+M 0 81456 1 81417 100 0 0 0        * a dejected, rejected bard named "Jerome"
+E 1 81424 1 5 50 0 0 0             *   a white suit
+E 1 81425 1 6 100 0 0 0            *   a feathered headdress
+M 0 81443 10 81418 100 0 0 0       * an orc raider
+M 0 81440 4 81419 100 0 0 0        * a frost giant shaman
+M 0 81406 5 81420 100 0 0 0        * a troll mercenary
+M 0 81447 7 81421 100 0 0 0        * a hideous death knight
+M 0 81406 5 81422 100 0 0 0        * a troll mercenary
+M 0 81451 7 81424 100 0 0 0        * a hell hound
+M 0 81450 10 81425 100 0 0 0       * an orog lieutenant
+M 0 81427 1 81428 100 0 0 0        * a drow mage
+M 0 81448 5 81429 100 0 0 0        * a rakshasa captain
+M 0 81405 9 81431 100 0 0 0        * an ogre soldier
+M 0 81405 9 81434 100 0 0 0        * an ogre soldier
+M 0 81442 4 81435 100 0 0 0        * a large fire giant shaman
+M 0 81442 4 81437 100 0 0 0        * a large fire giant shaman
+M 0 81444 15 81438 100 0 0 0       * a goblin warrior
+M 0 81442 4 81439 100 0 0 0        * a large fire giant shaman
+M 0 81426 3 81440 100 0 0 0        * a large ettin
+M 0 81426 3 81440 100 0 0 0        * a large ettin
+M 0 81426 3 81440 100 0 0 0        * a large ettin
+M 0 81447 7 81441 100 0 0 0        * a hideous death knight
+M 0 81451 7 81444 100 0 0 0        * a hell hound
+M 0 81450 10 81445 100 0 0 0       * an orog lieutenant
+M 0 81450 10 81446 100 0 0 0       * an orog lieutenant
+M 0 81405 9 81447 100 0 0 0        * an ogre soldier
+M 0 81403 1 81449 100 0 0 0        * a massive ogre warrior
+M 0 81401 1 81449 100 0 0 0        * a massive ogre warrior
+E 1 81401 1 16 100 0 0 0           *   a massive black steel club called "Crusher"
+M 0 81402 1 81449 100 0 0 0        * an ogre shaman
+M 0 81449 6 81450 100 0 0 0        * a rakshasa soldier
+M 0 81424 10 81452 100 0 0 0       * a large troll warrior
+M 0 81445 4 81453 100 0 0 0        * a duergar cleric
+M 0 81419 5 81454 100 0 0 0        * an orc sergeant
+M 0 81419 5 81457 100 0 0 0        * an orc sergeant
+M 0 81444 15 81458 100 0 0 0       * a goblin warrior
+M 0 81440 4 81459 100 0 0 0        * a frost giant shaman
+M 0 81443 10 81460 100 0 0 0       * an orc raider
+M 0 81446 5 81461 100 0 0 0        * a flind conjurer
+M 0 81406 5 81462 100 0 0 0        * a troll mercenary
+M 0 81424 10 81464 100 0 0 0       * a large troll warrior
+M 0 81408 5 81470 100 0 0 0        * a drow mage
+M 0 81455 1 81472 100 0 0 0        * a monstrous guardian
+M 0 81444 15 81474 100 0 0 0       * a goblin warrior
+M 0 81444 15 81476 100 0 0 0       * a goblin warrior
+M 0 81438 11 81478 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81405 9 81479 100 0 0 0        * an ogre soldier
+M 0 81424 10 81481 100 0 0 0       * a large troll warrior
+M 0 81446 5 81482 100 0 0 0        * a flind conjurer
+M 0 81451 7 81484 100 0 0 0        * a hell hound
+M 0 81450 10 81485 100 0 0 0       * an orog lieutenant
+M 0 81450 10 81486 100 0 0 0       * an orog lieutenant
+M 0 81446 5 81487 100 0 0 0        * a flind conjurer
+M 0 81408 5 81488 100 0 0 0        * a drow mage
+M 0 81439 4 81492 100 0 0 0        * a frost giant
+M 0 81405 9 81494 100 0 0 0        * an ogre soldier
+M 0 81443 10 81499 100 0 0 0       * an orc raider
+M 0 81447 7 81501 100 0 0 0        * a hideous death knight
+M 0 81440 4 81502 100 0 0 0        * a frost giant shaman
+M 0 81406 5 81503 100 0 0 0        * a troll mercenary
+M 0 81450 10 81505 100 0 0 0       * an orog lieutenant
+M 0 81408 5 81507 100 0 0 0        * a drow mage
+M 0 81424 10 81508 100 0 0 0       * a large troll warrior
+M 0 81446 5 81509 100 0 0 0        * a flind conjurer
+M 0 81428 9 81511 100 0 0 0        * a fire elemental
+M 0 81419 5 81513 100 0 0 0        * an orc sergeant
+M 0 81444 15 81514 100 0 0 0       * a goblin warrior
+M 0 81424 10 81515 100 0 0 0       * a large troll warrior
+M 0 81405 9 81517 100 0 0 0        * an ogre soldier
+M 0 81440 4 81519 100 0 0 0        * a frost giant shaman
+M 0 81424 10 81520 100 0 0 0       * a large troll warrior
+M 0 81447 7 81521 100 0 0 0        * a hideous death knight
+M 0 81446 5 81522 100 0 0 0        * a flind conjurer
+M 0 81451 7 81524 100 0 0 0        * a hell hound
+M 0 81450 10 81525 100 0 0 0       * an orog lieutenant
+M 0 81405 9 81526 100 0 0 0        * an ogre soldier
+M 0 81405 9 81529 100 0 0 0        * an ogre soldier
+M 0 81439 4 81532 100 0 0 0        * a frost giant
+M 0 81444 15 81535 100 0 0 0       * a goblin warrior
+M 0 81419 5 81536 100 0 0 0        * an orc sergeant
+M 0 81444 15 81537 100 0 0 0       * a goblin warrior
+M 0 81447 7 81541 100 0 0 0        * a hideous death knight
+M 0 81410 4 81542 100 0 0 0        * a goblin shaman
+M 0 81438 11 81545 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81408 5 81546 100 0 0 0        * a drow mage
+M 0 81449 6 81547 100 0 0 0        * a rakshasa soldier
+M 0 81438 11 81548 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81442 4 81549 100 0 0 0        * a large fire giant shaman
+M 0 81428 9 81551 100 0 0 0        * a fire elemental
+M 0 81438 11 81552 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81438 11 81554 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81441 2 81555 100 0 0 0        * a large fire giant
+M 0 81444 15 81556 100 0 0 0       * a goblin warrior
+M 0 81444 15 81557 100 0 0 0       * a goblin warrior
+M 0 81424 10 81561 100 0 0 0       * a large troll warrior
+M 0 81441 2 81562 100 0 0 0        * a large fire giant
+M 0 81424 10 81564 100 0 0 0       * a large troll warrior
+M 0 81450 10 81565 100 0 0 0       * an orog lieutenant
+M 0 81410 4 81566 100 0 0 0        * a goblin shaman
+M 0 81449 6 81567 100 0 0 0        * a rakshasa soldier
+M 0 81410 4 81568 100 0 0 0        * a goblin shaman
+M 0 81448 5 81569 100 0 0 0        * a rakshasa captain
+M 0 81424 10 81571 100 0 0 0       * a large troll warrior
+M 0 81404 1 81572 100 0 0 0        * the leader of the Ceothian thieves
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81444 15 81574 100 0 0 0       * a goblin warrior
+M 0 81438 11 81576 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81438 11 81577 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81438 11 81578 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81439 4 81581 100 0 0 0        * a frost giant
+M 0 81451 7 81583 100 0 0 0        * a hell hound
+M 0 81428 9 81584 100 0 0 0        * a fire elemental
+M 0 81449 6 81587 100 0 0 0        * a rakshasa soldier
+M 0 81424 10 81588 100 0 0 0       * a large troll warrior
+M 0 81448 5 81589 100 0 0 0        * a rakshasa captain
+M 0 81409 5 81590 100 0 0 0        * an ogre captain
+M 0 81445 4 81591 100 0 0 0        * a duergar cleric
+M 0 81445 4 81593 100 0 0 0        * a duergar cleric
+M 0 81444 15 81595 100 0 0 0       * a goblin warrior
+M 0 81428 9 81596 100 0 0 0        * a fire elemental
+M 0 81428 9 81597 100 0 0 0        * a fire elemental
+M 0 81419 5 81598 100 0 0 0        * an orc sergeant
+M 0 81447 7 81601 100 0 0 0        * a hideous death knight
+M 0 81451 7 81603 100 0 0 0        * a hell hound
+M 0 81438 11 81605 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81450 10 81606 100 0 0 0       * an orog lieutenant
+M 0 81449 6 81607 100 0 0 0        * a rakshasa soldier
+M 0 81410 4 81608 100 0 0 0        * a goblin shaman
+M 0 81448 5 81609 100 0 0 0        * a rakshasa captain
+M 0 81444 15 81613 100 0 0 0       * a goblin warrior
+M 0 81408 5 81614 100 0 0 0        * a drow mage
+M 0 81444 15 81615 100 0 0 0       * a goblin warrior
+M 0 81406 5 81616 100 0 0 0        * a troll mercenary
+M 0 81443 10 81618 100 0 0 0       * an orc raider
+M 0 81447 7 81621 100 0 0 0        * a hideous death knight
+M 0 81451 7 81623 100 0 0 0        * a hell hound
+M 0 81428 9 81625 100 0 0 0        * a fire elemental
+M 0 81450 10 81626 100 0 0 0       * an orog lieutenant
+M 0 81449 6 81627 100 0 0 0        * a rakshasa soldier
+M 0 81448 5 81629 100 0 0 0        * a rakshasa captain
+M 0 81409 5 81630 100 0 0 0        * an ogre captain
+M 0 81445 4 81631 100 0 0 0        * a duergar cleric
+M 0 81444 15 81634 100 0 0 0       * a goblin warrior
+M 0 81444 15 81635 100 0 0 0       * a goblin warrior
+M 0 81439 4 81640 100 0 0 0        * a frost giant
+M 0 81420 1 81642 100 0 0 0        * a cloaked illithid
+E 1 81405 1 18 100 0 0 0           *   a glossy ebony wand with ivory streaks
+M 0 81443 10 81644 100 0 0 0       * an orc raider
+M 0 81428 9 81647 100 0 0 0        * a fire elemental
+M 0 81409 5 81648 100 0 0 0        * an ogre captain
+M 0 81428 9 81649 100 0 0 0        * a fire elemental
+M 0 81409 5 81650 100 0 0 0        * an ogre captain
+M 0 81428 9 81651 100 0 0 0        * a fire elemental
+M 0 81409 5 81656 100 0 0 0        * an ogre captain
+M 0 81438 11 81657 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81438 11 81658 100 0 0 0       * an orcish rogue
+E 1 81403 25 16 100 0 0 0          *   a black steel dagger
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81421 3 81659 100 0 0 0        * a huge earth elemental
+M 0 81421 3 81659 100 0 0 0        * a huge earth elemental
+M 0 81421 3 81659 100 0 0 0        * a huge earth elemental
+M 0 81422 2 81660 100 0 0 0        * a large stone golem
+M 0 81422 2 81660 100 0 0 0        * a large stone golem
+M 0 81423 2 81660 100 0 0 0        * a large ogre sentinel
+M 0 81423 2 81660 100 0 0 0        * a large ogre sentinel
+M 0 81434 4 81661 100 0 0 0        * a demonic cleric
+M 0 81434 4 81661 100 0 0 0        * a demonic cleric
+M 0 81434 4 81661 100 0 0 0        * a demonic cleric
+M 0 81434 4 81661 100 0 0 0        * a demonic cleric
+M 0 81433 3 81662 100 0 0 0        * a large baatezu demon
+G 1 81412 1 0 100 0 0 0            *    a shattered bone key
+F 1 81433 3 81662 100 0 0 0        * a large baatezu demon (following)
+F 1 81433 3 81662 100 0 0 0        * a large baatezu demon (following)
+M 0 81435 5 81663 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81663 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81663 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81435 5 81664 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81664 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81664 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81665 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81665 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81665 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81435 5 81666 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81666 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81666 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81400 1 81667 100 0 0 0        * a drow assassin
+E 1 81400 1 16 100 0 0 0           *   a shard of bluestone called "Freeze"
+E 1 81403 25 17 100 0 0 0          *   a black steel dagger
+M 0 81435 5 81667 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81667 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81667 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81435 5 81668 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81436 7 81668 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81437 6 81668 100 0 0 0        * an elite sentry guard
+E 1 81417 18 16 100 0 0 0          *   a blackened bluestone mace
+M 0 81431 1 81669 100 0 0 0        * the dragon of future
+E 1 81419 1 20 100 0 0 0           *   mask of the future
+G 1 81411 1 0 100 0 0 0            *    a black key of mist
+F 1 81430 1 81669 100 0 0 0        * the dragon of past (following)
+E 1 81420 1 2 100 0 0 0            *   ring of the past
+F 1 81432 1 81669 100 0 0 0        * the dragon of present (following)
+E 1 81421 1 10 100 0 0 0           *   armplates of the present
+F 1 81453 2 81669 100 0 0 0        * a looming guardian (following)
+F 1 81453 2 81669 100 0 0 0        * a looming guardian (following)
+M 0 81452 1 81671 100 0 0 0        * an ancient white dragon
+M 0 81429 1 81674 100 0 0 0        * a huge beholder
+G 1 81410 1 0 100 0 0 0            *    a flickering dragon horn
+M 0 81454 1 81676 100 0 0 0        * The Chronomancer
+G 1 81423 1 0 100 0 0 0            *    a thread of time
+G 1 55238 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 16262 1 0 100 0 0 0            *    (object type not in this .obj file)
+*
+S

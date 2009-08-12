@@ -1,0 +1,148 @@
+#16507
+M
+qc_action 60~
+&+GJarus &Npeers outward, scanning the horizon for danger.
+~
+S
+#16530
+M
+instrument play~
+He gives you a sad smile and says, "Yes, I normally play a mandolin but I have
+lost it somewhere.  I think it might be in the park."
+~
+M
+park mandolin~
+He sighs and says, "Yes, I was playing for some children in the park and put
+my mandolin down to teach them a dance.  When we were done it was gone.  I
+think that one of the animals in the park must have taken it.  I have searched
+everywhere and just haven't been able to find it."
+~
+Q
+"Oh yes!" he exclaims, "This is my mandolin, oh my, it has been treated so
+terribly.  I am still so happy to have it back, please accept this small
+amount of money as a reward.  I am sure I can find a way to fix it so that I
+may play it again."
+~
+R C 1000
+G I 16526
+D
+Then he walks away humming as he studies the mandolin.
+~
+S
+#16599
+M
+searching cupboard recipe~
+She smiles weakly and says, "I am looking for honey, it seems that I am out.
+This is just terrible, I don't know where I will find some honey now."
+~
+M
+honey~
+"Yes, honey." She continues, "Today is my husband's birthday and I want to make
+his favorite dish but the recipe calls for honey and I am all out.  Do you
+think you could find me some honey?  I can pay you at least a little if you
+can find me some."
+~
+Q
+"Oh, thank you!" she exclaims.  "Now I can start work on my husband's birthday
+dinner.  Please accept these coins to help pay for your trouble.  I am sorry
+I don't have more, if you happen to have found some bees wax when you got me
+the honey I know that some of the woodworkers will pay you well for it.  They
+use it to polish their wood."
+~
+R C 500
+G I 16545
+S
+#16614
+M
+pigment pigments~
+He turns to you, his eyes wide with madness and proclaims, "Yes!  Pigments!
+I need green pigment to finish this, can't you see?  It will be a wonderful
+painting, I just need some more green you see."
+~
+M
+green~
+"Yes!  You fool!  Green pigment, like what you get from dragonflies on the
+river.  Go get me some! Now!"  He growls at you with a mad look it his eye,
+daring you to defy him.
+~
+Q
+"Ahhh, yes this is it the &+Ggreen&N pigment!  Here take these coins and leave
+me alone so I can work."
+~
+R C 500
+G I 16561
+S
+#16625
+M
+beeswax wax polish~
+"Yes," he says distractedly.  "I do use bees wax in my polish, do you have any?
+I am almost out and I would pay well for some more."
+~
+Q
+He smiles and says, "Ahhh, excellent!  Beez wax such as this helps make a fine
+finish for my woods.  Here, please take these coins and this small ring as a
+sign of my gratitude."  He then puts the wax aside and goes back to work.
+~
+R I 16576
+G I 16546
+D
+The woodworker heads to market to get more ingredients for his polish.
+~
+S
+#16632
+M
+potion potions~
+He looks at you with surprise, "What? Oh, sorry didn't notice you there.  I am
+almost done with this potion.  I only have one component left, I need the egg
+of a giant bee but I have no idea where to find one.  Can you help me?  I won't
+sleep until I get this potion made."
+~
+Q
+"Yes! That is it!  Why this is perfect!  Oh, thank you so much!  Here please
+take this potion, it may help you on your travels.  Now I can finally go home
+and sleep!"
+~
+R I 16579
+G I 16547
+S
+#16637
+M
+search searching components~
+He startles at the sound of your voice and looks up at you with dark eyes.
+Then he says, "Yes, I am searching for the feather.  With it everyone will
+have to acknowledge the power of my new spell."  He peers at you with a hint
+of madness in his eyes and growls before returning to his searching.
+~
+M
+feather~
+"Yes damnit!" he shouts. "The hummingbird feather!  I need a hummingbird
+feather, once I have one I will show them all!  Get me one and you can join me
+in my glory."  He finishes with a cackle and goes back to his books.
+~
+Q
+He laughs a mad laugh and shouts, "Ah-ha!  A hummingbird feather!  Now I will
+show them all!  Humph, kick me out of the tower, I'll show them!"  He turns
+to you and says, "Thank you, I will not forget this when I have received my
+proper reward.  For now though please take these coins."
+~
+R C 500
+G I 16544
+S
+#16688
+M
+turtle soup~
+He starts suddenly when you approach him and whispers to you, "Please, please,
+don't say anything to anyone, but we are almost out of soup.  We need more
+turtle meat, if you can get me some turtle meat I will pay you AND give you a
+bowl of soup."  He looks at you with imploring eyes, and then goes back to his
+customers.
+~
+Q
+He smiles at you and says, "Oh thank you!  Without this we would be out of
+business.  Here please have some soup and you will understand."  He gives you
+some soup and a few coins and sends the meat off to the kitchen.
+~
+R I 16610
+R C 500
+G I 16543
+S

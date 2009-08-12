@@ -1,0 +1,293 @@
+#1300
+Vecnas Tomb~
+130079 1300 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 130004 0 1 100 0 0 0
+*     north exit from "A Barren Gorge" to
+*     "At the Top of a Pit" - closed
+*
+D 0 130037 2 1 100 0 0 0
+*     south exit from "At the Top of a Pit" to
+*     "A Barren Gorge" - closed
+*
+D 0 130005 0 2 100 0 0 0
+*     north exit from "A Barren Gorge" to
+*     "A Dark Tunnel" - closed/locked
+*
+D 0 130049 2 2 100 0 0 0
+*     south exit from "A Dark Tunnel" to
+*     "A Barren Gorge" - closed/locked
+*
+D 0 130009 5 5 100 0 0 0
+*     down exit from "A Barren Gorge" to
+*     "A Burial Cave" - closed/secret
+*
+D 0 130029 4 5 100 0 0 0
+*     up exit from "A Burial Cave" to
+*     "A Barren Gorge" - closed/secret
+*
+D 0 130011 5 5 100 0 0 0
+*     down exit from "A Barren Gorge" to
+*     "A Burial Cave" - closed/secret
+*
+D 0 130030 4 5 100 0 0 0
+*     up exit from "A Burial Cave" to
+*     "A Barren Gorge" - closed/secret
+*
+D 0 130019 5 5 100 0 0 0
+*     down exit from "A Barren Gorge" to
+*     "A Burial Cave" - closed/secret
+*
+D 0 130032 4 5 100 0 0 0
+*     up exit from "A Burial Cave" to
+*     "A Barren Gorge" - closed/secret
+*
+D 0 130021 5 5 100 0 0 0
+*     down exit from "A Barren Gorge" to
+*     "A Burial Cave" - closed/secret
+*
+D 0 130031 4 5 100 0 0 0
+*     up exit from "A Burial Cave" to
+*     "A Barren Gorge" - closed/secret
+*
+D 0 130039 6 5 100 0 0 0
+*     northwest exit from "A Burial Cave" to
+*     "A Dark Shrine" - closed/secret
+*
+D 0 130043 9 5 100 0 0 0
+*     southeast exit from "A Dark Shrine" to
+*     "A Burial Cave" - closed/secret
+*
+D 0 130070 0 2 100 0 0 0
+*     north exit from "A Dark Anteroom" to
+*     "The Inner Sanctuary" - closed/locked
+*
+D 0 130071 2 2 100 0 0 0
+*     south exit from "The Inner Sanctuary" to
+*     "A Dark Anteroom" - closed/locked
+*
+*
+O 0 130040 28 130002 100 0 0 0     * stonemist proc object
+O 0 130040 28 130003 100 0 0 0     * stonemist proc object
+O 0 130040 28 130004 100 0 0 0     * stonemist proc object
+O 0 130040 28 130005 100 0 0 0     * stonemist proc object
+O 0 130040 28 130006 100 0 0 0     * stonemist proc object
+O 0 130040 28 130007 100 0 0 0     * stonemist proc object
+O 0 130040 28 130008 100 0 0 0     * stonemist proc object
+O 0 130040 28 130009 100 0 0 0     * stonemist proc object
+O 0 130041 4 130009 100 0 0 0      * ghosthands proc object
+O 0 130040 28 130010 100 0 0 0     * stonemist proc object
+O 0 130040 28 130011 100 0 0 0     * stonemist proc object
+O 0 130041 4 130011 100 0 0 0      * ghosthands proc object
+O 0 130040 28 130012 100 0 0 0     * stonemist proc object
+O 0 130040 28 130013 100 0 0 0     * stonemist proc object
+O 0 130040 28 130014 100 0 0 0     * stonemist proc object
+O 0 130040 28 130015 100 0 0 0     * stonemist proc object
+O 0 130040 28 130016 100 0 0 0     * stonemist proc object
+O 0 130040 28 130017 100 0 0 0     * stonemist proc object
+O 0 130040 28 130018 100 0 0 0     * stonemist proc object
+O 0 130040 28 130019 100 0 0 0     * stonemist proc object
+O 0 130041 4 130019 100 0 0 0      * ghosthands proc object
+O 0 130040 28 130020 100 0 0 0     * stonemist proc object
+O 0 130040 28 130021 100 0 0 0     * stonemist proc object
+O 0 130041 4 130021 100 0 0 0      * ghosthands proc object
+O 0 130040 28 130022 100 0 0 0     * stonemist proc object
+O 0 130040 28 130023 100 0 0 0     * stonemist proc object
+O 0 130040 28 130024 100 0 0 0     * stonemist proc object
+O 0 130040 28 130025 100 0 0 0     * stonemist proc object
+O 0 130040 28 130026 100 0 0 0     * stonemist proc object
+O 0 130040 28 130027 100 0 0 0     * stonemist proc object
+O 0 230038 1 130027 100 0 0 0      * (object type not in this .obj file)
+O 0 130000 1 130028 100 0 0 0      * Gorge Population Control Object
+O 0 130001 4 130029 100 0 0 0      * barrow mob blocker
+O 0 130001 4 130030 100 0 0 0      * barrow mob blocker
+O 0 130001 4 130031 100 0 0 0      * barrow mob blocker
+O 0 130001 4 130032 100 0 0 0      * barrow mob blocker
+O 0 130003 1 130043 100 0 0 0      * an altar to hecate
+O 0 130040 28 130043 100 0 0 0     * stonemist proc object
+O 0 130004 1 130045 100 0 0 0      * crypt mob blocker
+O 0 130007 1 130051 100 0 0 0      * a razor-edged dagger
+O 0 130009 1 130052 100 0 0 0      * a twisted longsword
+O 0 130008 1 130053 100 0 0 0      * a large bone axe
+O 0 130010 1 130054 100 0 0 0      * a iron-hafted flail
+O 0 130012 1 130056 100 0 0 0      * a charcoal key
+O 0 130011 1 130061 100 0 0 0      * a manuscript
+O 0 130006 1 130066 100 0 0 0      * a portal
+O 0 130023 1 130069 100 0 0 0      * The corpse of Gerd
+P 1 130029 1 130023 100 0 0 0      *   a potion of healing
+P 1 130034 1 130023 100 0 0 0      *   a rotting brain
+O 0 130024 1 130069 100 0 0 0      * the corpse of Aiden
+P 1 130031 1 130024 100 0 0 0      *   a potion of stone
+O 0 130025 1 130069 100 0 0 0      * the corpse of Gueronomous
+P 1 130032 1 130025 35 0 0 0       *   a potion of spheres
+O 0 130037 2 130069 100 0 0 0      * torturer room proc object
+O 0 130040 28 130071 100 0 0 0     * stonemist proc object
+O 0 130037 2 130076 100 0 0 0      * torturer room proc object
+*
+M 0 130000 1 130002 100 0 0 0      * a huge dracolich
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130002 7 130003 100 0 0 0      * a wight
+M 0 130002 7 130003 100 0 0 0      * a wight
+M 0 130004 7 130007 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130004 7 130007 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130004 7 130007 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130004 7 130007 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130004 7 130007 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130004 7 130007 100 0 0 0      * a ghast
+M 0 130004 7 130007 100 0 0 0      * a ghast
+M 0 130005 8 130015 100 0 0 0      * a vampire
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130005 8 130015 100 0 0 0      * a vampire
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130005 8 130015 100 0 0 0      * a vampire
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130005 8 130015 100 0 0 0      * a vampire
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130005 8 130015 100 0 0 0      * a vampire
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130005 8 130015 100 0 0 0      * a vampire
+M 0 130005 8 130015 100 0 0 0      * a vampire
+M 0 130005 8 130015 100 0 0 0      * a vampire
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+M 0 130001 7 130023 100 0 0 0      * a ghoul
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130003 8 130027 100 0 0 0      * a shadow
+M 0 130010 1 130029 100 0 0 0      * the lich of Salron
+E 1 130022 1 21 100 0 0 0          *   a bone pick
+M 0 130007 8 130029 100 0 0 0      * a twisted wraith
+M 0 130007 8 130029 100 0 0 0      * a twisted wraith
+M 0 130011 4 130029 100 0 0 0      * a ghoul
+M 0 130011 4 130029 100 0 0 0      * a ghoul
+M 0 130009 1 130030 100 0 0 0      * the lich of Elidh
+E 1 130021 1 14 100 0 0 0          *   a sapphire bracelet
+M 0 130007 8 130030 100 0 0 0      * a twisted wraith
+M 0 130007 8 130030 100 0 0 0      * a twisted wraith
+M 0 130011 4 130030 100 0 0 0      * a ghoul
+M 0 130012 3 130030 100 0 0 0      * a ghast
+M 0 130012 3 130030 100 0 0 0      * a ghast
+M 0 130007 8 130031 100 0 0 0      * a twisted wraith
+M 0 130007 8 130031 100 0 0 0      * a twisted wraith
+M 0 130003 8 130031 100 0 0 0      * a shadow
+M 0 130008 1 130031 100 0 0 0      * the ghost of Morgan
+E 1 130020 1 12 100 0 0 0          *   a tattered cloak
+M 0 130012 3 130031 100 0 0 0      * a ghast
+M 0 130006 1 130032 100 0 0 0      * the lich of Rashid
+E 1 130017 1 9 100 0 0 0           *   gloves of arcane power
+M 0 130007 8 130032 100 0 0 0      * a twisted wraith
+M 0 130007 8 130032 100 0 0 0      * a twisted wraith
+M 0 130011 4 130032 100 0 0 0      * a ghoul
+M 0 130013 1 130032 100 0 0 0      * a wight
+M 0 130014 5 130038 100 0 0 0      * a shadow crawler
+M 0 130014 5 130038 100 0 0 0      * a shadow crawler
+M 0 130014 5 130038 100 0 0 0      * a shadow crawler
+M 0 130014 5 130038 100 0 0 0      * a shadow crawler
+M 0 130014 5 130038 100 0 0 0      * a shadow crawler
+M 0 130015 1 130044 100 0 0 0      * the avatar of Death
+E 1 130026 1 6 100 0 0 0           *   the helm of might
+M 0 130016 1 130045 100 0 0 0      * Chressan
+E 1 130030 1 1 100 0 0 0           *   a glowing band of flowing water
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130017 3 130046 100 0 0 0      * a barrow guardian
+M 0 130017 3 130047 100 0 0 0      * a barrow guardian
+M 0 130017 3 130048 100 0 0 0      * a barrow guardian
+M 0 130018 1 130050 100 0 0 0      * Ali
+G 1 130005 1 0 100 0 0 0           *    a bone key
+M 0 130019 1 130057 100 0 0 0      * the death knight
+E 1 130015 1 6 100 0 0 0           *   the helm of dark power
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+R 1 130021 1 130057 100 0 0 0      * a deadly nightmare (being ridden)
+M 0 130020 4 130057 100 0 0 0      * a twisted wraith
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130020 4 130057 100 0 0 0      * a twisted wraith
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130020 4 130057 100 0 0 0      * a twisted wraith
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130020 4 130057 100 0 0 0      * a twisted wraith
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+M 0 130022 8 130062 100 0 0 0      * a flame spirit
+M 0 130025 1 130065 100 0 0 0      * Tobosh
+E 1 130014 1 5 100 0 0 0           *   the armor of purity
+M 0 130023 1 130067 100 0 0 0      * the lich of Kairvo
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130024 1 130068 100 0 0 0      * Kaervek
+M 0 130029 1 130069 100 0 0 0      * a half-disolved corpse
+M 0 130038 2 130070 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130038 2 130070 100 0 0 0      * a ghast
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+M 0 130035 1 130071 100 0 0 0      * the arch-lich Vecna
+E 1 130019 1 3 100 0 0 0           *   the necklace of wisdom
+E 1 130018 1 20 100 0 0 0          *   the mask of death
+G 1 130027 1 0 100 0 0 0           *    the oaken staff of the woodlands
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 130030 1 130072 100 0 0 0      * a twisted statue
+M 0 130031 1 130072 100 0 0 0      * a twisted statue
+M 0 130032 1 130073 100 0 0 0      * a twisted statue
+M 0 130033 1 130073 100 0 0 0      * a twisted statue
+M 0 130028 1 130074 100 0 0 0      * a black mass
+M 0 130034 1 130075 100 0 0 0      * a twisted statue
+M 0 130026 1 130076 100 0 0 0      * the torturer
+G 1 130028 1 0 50 0 0 0            *    Krindors Incredible Device
+M 0 130027 1 130076 100 0 0 0      * the torturers apprentice
+G 1 130033 1 0 100 0 0 0           *    Kaervek's Trinket
+M 0 130037 1 130078 100 0 0 0      * the death knight
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+E 1 130013 1 16 30 0 0 0           *   the unholy sword 'Pestilence'
+F 1 130039 3 130078 100 0 0 0      * a ghast (following)
+F 1 130039 3 130078 100 0 0 0      * a ghast (following)
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+F 1 130039 3 130078 100 0 0 0      * a ghast (following)
+E 1 130038 44 13 100 0 0 0         *   Vecna zone proc item
+*
+S

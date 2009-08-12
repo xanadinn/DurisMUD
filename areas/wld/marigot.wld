@@ -1,0 +1,2682 @@
+#5300
+&+yThe Olde Inn of Marigot&N~
+    This is the olde inn of the fort of Marigot. A large elven rug
+lies on the floor before the counter.  The walls and floors of this
+establishment are of wooden planks. Constantly filled with both
+citizens and visitors renting rooms and leaving them daily, there is
+always a strong sense of activity within this olde inn. The air is
+filled with the warm delectable aromas of the bakery to the west.
+There are two exits leading away from the inn.
+~
+53 8392712 0
+D2
+The city center is to the south.
+~
+~
+0 0 5302
+D3
+The olde bakery is to the west.
+~
+~
+0 0 5301
+S
+#5301
+&+yThe Olde Baker's Shoppe&N~
+    The warm tantilizing aromas fill these quarters of the baker.
+This bakery of Marigot is always stocked with freshly baked goods.
+Ghel, the skilled baker, is always preparing a wide variety of goods
+for sale.  Centaurs always can be seen enjoying Ghel's baked goods
+when hunger calls.  There is one exit leading away from the bakery.
+~
+53 8388672 0
+D1
+The inn is located to the east.
+~
+~
+0 0 5300
+S
+#5302
+&+mThe Center of the Fort of Marigot&N~
+    The main paths of the fort all converge here to this magical
+pond of Marigot.  The fort of Marigot extends is all directions
+from this point. It is rumored that an old sage once casted an old
+incantation to bless the pond's waters granting the drinker health
+and vigor.  The waters of the pond sparkle a mystical blue color.
+There are small footpaths leading to the east and west. A large inn
+can be seen to the north, while a stone path leads to the south.
+~
+53 142639168 1
+D0
+The olde inn is located to the north.
+~
+~
+0 0 5300
+D1
+~
+~
+0 0 5337
+D2
+A small stone path leads away to the south.
+~
+~
+0 0 5303
+D3
+~
+~
+0 0 5309
+S
+#5303
+&+WA White Cobblestone Footpath&N~
+   Small white stones of various sizes and shapes form an
+interlocking firm surface used for travel into the southern
+part of the fort. This path heads in north-south direction
+through Fort Marigot.  A large stone establishment can be seen
+further to the south.   The center of the Fort lies just to
+the north.  Small shoppes and taverns line this street of Marigot.
+There are exits all around leading to various destinations.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5302
+D1
+A small tavern is east.
+~
+~
+0 0 5316
+D2
+The pathway continues south.
+~
+~
+0 0 5304
+D3
+The armory is located to the west.
+~
+~
+0 0 5318
+S
+#5304
+&+WA White Cobblestone Footpath&N~
+   The street here is small white rocks which forms a firm
+surface for travel.  This path heads in north-south direction
+through Fort Marigot.  A large stone establishment can be seen
+further to the south.   The center of the Fort lies further to
+the north.  Small shoppes and taverns line this street of Marigot.
+There are exits all around leading to various destinations.
+~
+53 142639168 1
+D0
+The pathway continues north.
+~
+~
+0 0 5303
+D2
+The pathway continues south.
+~
+~
+0 0 5305
+S
+#5305
+&+WBefore the Large Jailhouse of &+MFort Marigot&N~
+   A large jailhouse is located just ahead.  The structure appears
+large and constructed of stone slabs and mortar.  Around the large
+iron gates, there are inscriptions in an old cryptic language.  There
+are also reliefs showing the life and achievements of a few of the
+well respected rulers. The structure ahead is the judgment and training
+grounds for many of the initiates and experienced of Fort Marigot.  The
+sounds of swords clashing can be hears emanating from the practice ground
+in a nearby room. There are two exits leading in and away from the
+jailhouse.
+~
+53 142639168 1
+D0
+The pathway continues north.
+~
+~
+0 0 5304
+D2
+A bank is located to the south.
+~
+~
+0 0 5384
+D3
+The jailhouse is located to the west.
+~
+~
+0 0 5306
+S
+#5306
+&+WThe Crossroads within the Jailhouse of &+MFort Marigot&N~
+   This large establishment serves as the justice hall for &+MFort
+&+MMarigot&N. Many of the justice guards of the holy army of Marigot
+also get their beginnings within this establishment.  Many experienced
+centaurs have passed through these hallowed halls in their pursuit of
+further greatness.   Here in the middle of the barracks, three main areas
+converge. To the south lies the judgment room and the jail cell, while
+the rooms to the north house the sleeping barracks. A training ground of
+sorts can be seen further to the west. There are exits all around.
+~
+53 142643272 0
+D0
+~
+~
+0 0 5328
+D1
+The cobblestone pathway is located to the east.
+~
+~
+0 0 5305
+D2
+The Room of Judgement is located to the south.
+~
+~
+0 0 5307
+D3
+A training room can be seen further west.
+~
+~
+0 0 5329
+S
+#5307
+The Room of &+RJudgement&N~
+   The walls of this room are draped in magenta war banners
+highlighted in gold. There are other various banners strung on the
+south wall sewn in some cryptic language of the centaurs. This room
+is large and houses the high court of Fort Marigot. Many criminals
+are brought here to be tried for the crimes committed within the realms
+of the centaurs.  There are plaques depicting an ancient ritual on the
+partially covered polished granite walls.  Along the south wall, the
+judge rests behind a large oaken bench. To the west, a small jail
+cell can be seen.  There is one open exit leading away from this
+room of judgment.
+~
+53 142643272 0
+D0
+The crossroads of the barracks are north.
+~
+~
+0 0 5306
+D3
+The holding cell is located to the west.
+~
+cell door~
+1 0 5308
+S
+#5308
+&+LThe Holding Cell&N~
+    Large black granite rocks form the walls and floors of this
+cell.  The room is dark and damp.  A small puddle of water has
+formed in the western corner of the cell.  Small mice scurry
+about searching for bits of food and flesh.  There is only one
+exit leading out and its locked.
+~
+53 142643272 0
+D1
+The room of judgment is to the east.
+~
+cell door~
+2 0 5307
+S
+#5309
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  Lined with guilds and small shoppes on both
+sides, this pathway provides home to countless stray animals and beggars.
+A large pond can be seen further east from here where a large gathering
+appears to be taking place.  Lots of rubbish and other debris line this
+part of the street. There are exits leading all around deeper into the
+fort.
+~
+53 142639168 1
+D1
+The pathway continues east.
+~
+~
+0 0 5302
+D3
+The center of the fort is west.
+~
+~
+0 0 5310
+S
+#5310
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  Lined with guilds and small shoppes on both
+sides, this pathway provides home to countless stray animals and beggars.
+A large pond can be seen further east from here where a large gathering
+appears to be taking place.  Lots of rubbish and other debris line this
+part of the street. There are exits leading all around deeper into the
+fort.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5383
+D1
+The pathway continues east.
+~
+~
+0 0 5309
+D2
+A small side street leads away to the south.
+~
+~
+0 0 5346
+D3
+The pathway continues west.
+~
+~
+0 0 5311
+S
+#5311
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  Lined with guilds and small shoppes on both
+sides, this pathway provides home to countless stray animals and beggars.
+A large pond can be seen further east from here where a large gathering
+appears to be taking place.  Lots of rubbish and other debris line this
+part of the street. There are exits leading all around deeper into the
+fort.
+~
+53 142639168 1
+D1
+~
+~
+0 0 5310
+D2
+A house of commons is located to the south.
+~
+~
+0 0 5381
+D3
+~
+~
+0 0 5312
+S
+#5312
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  Lined with guilds and small shoppes on both
+sides, this pathway provides home to countless stray animals and beggars.
+A large pond can be seen further east from here where a large gathering
+appears to be taking place.  Lots of rubbish and other debris line this
+part of the street. There are exits leading all around deeper into the
+fort.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5390
+D1
+~
+~
+0 0 5311
+D3
+~
+~
+0 0 5313
+S
+#5313
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  Lined with guilds and small shoppes on both
+sides, this pathway provides home to countless stray animals and beggars.
+A large pond can be seen further east from here where a large gathering
+appears to be taking place.  Lots of rubbish and other debris line this
+part of the street. There are exits leading all around deeper into the
+fort.
+~
+53 142639168 1
+D0
+A guard house is located to the north.
+~
+~
+0 0 5319
+D1
+The pathway of the princess continues in this direction.
+~
+~
+0 0 5312
+D2
+A guard house is located to the south.
+~
+~
+0 0 5320
+D3
+The outside world lies beyond these gates.
+~
+iron gates~
+1 0 5314
+S
+#5314
+&+yBefore the &+WGates&N &+yof Fort &+MMarigot&N~
+    Many eyes from above mark every movement below.  The walls of
+Fort Marigot are of solid blocks of granite.  A few of the blocks
+have begun to show signs of age with small cracks in their walls.
+The entryway into Fort Marigot is lined with marble. Beyond the
+iron gates lies the city of Fort Marigot, the home of the centaurs.
+There are two exits leading away in opposite directions.
+~
+53 8388672 3
+D1
+Beyond these gates lies the home of the centaurs.
+~
+iron gates~
+1 0 5313
+D3
+~
+~
+0 0 5315
+S
+#5315
+&+yA Small Dirtpath&N~
+    A small dirtpath leads in an east-west direction cutting
+through the dense forest seen further south.  There are prints
+left by many different types of creatures in the earth here. A
+large fort structure can be seen further to the east.  Many eyes
+from the sentry posts watch your every move.  There are two exits
+leading away in opposite directions.
+~
+53 142639168 3
+D1
+Fort Marigot appears to be in that direction.
+~
+~
+0 0 5314
+D3
+~
+~
+0 0 224021
+S
+#5316
+&+yThe Bar of &+YMysteries&N~
+    A large sign on the counter welcomes newcomers to the Bar of
+Mysteries.  Many centaurs and elves of Sylvandawn come here to
+enjoy a drink to get a little rest and relaxation.  The walls of
+this establishment are of wooden planks and the floor is covered
+in a think elven rug.  There are two exits leading out of the
+this bar.
+~
+53 142643272 0
+D2
+The bar continues to the south.
+~
+~
+0 0 5317
+D3
+The cobblestone path is west.
+~
+~
+0 0 5303
+S
+#5317
+&+yThe Backroom of the Bar of &+YMysteries&N~
+    This is the backroom of the Bar of Mysteries and it is
+constanly in shambles.  Broken pieces of furniture line the
+floors.  These are constant signs of the constant bar fights
+that develop between drunken patrons of all ages.  A few small
+chairs on the south wall lie untouched. There is only one exit out
+leading to the north.
+~
+53 142643272 0
+D0
+~
+~
+0 0 5316
+D4
+A small trapdoor blocks the access above.
+~
+trapdoor door~
+1 0 5382
+S
+#5318
+&+yThe Armory of Marigot&N~
+   This store of armor is rather large in size. Constructed all from
+wood, the armory has a well-known reputation of selling items of great
+quality.  Hanging from the walls are some of the many items that can
+be purchased from this establishment. On the shelves in the corner of
+the store, many different types of hats and helmets can be found.
+The rest of the body armor sits on display on a large service counter
+along the north wall of the store.  A little sign indicating that the
+store also buys old and used equipment rests on this counter.
+~
+53 142639168 0
+D1
+The cobblestone pathway lies outside this door.
+~
+~
+0 0 5303
+S
+#5319
+&+bThe R&+Boy&+bal Gua&+Brdho&+buse&N~
+    This small wooden building serves as a small guard post just
+north of the main gates of Marigot.  The walls and floor are of
+wooden planks of polished cherry wood of the surrounding forests.
+There is a small cot along the east wall.  Here many guards are
+able to get a quick dose of shut eye to replenish their strength
+to carry out their duty. There is a small trapdoor in the ceiling.
+There are two visible exits leading out of this room.
+~
+53 142643272 0
+D2
+The pathway of the princess is south.
+~
+~
+0 0 5313
+D4
+A small wooden ladder leads beyond the trapdoor.
+~
+trapdoor door~
+1 0 5321
+S
+#5320
+&+bThe R&+Boy&+bal Gua&+Brdho&+buse&N~
+    This small wooden building serves as a small guard post just
+south of the main gates of Marigot.  The walls and floor are of
+wooden planks of polished cherry wood of the surrounding forests.
+There is a small desk along the east wall.  A small set of
+instructions lies on the center of the table.  There is a small
+trapdoor in the ceiling.  There are two visible exits leading
+out of this room.
+~
+53 142643272 0
+D0
+The pathways of the princess lies to the north.
+~
+~
+0 0 5313
+D4
+A small wooden ladder leads up beyond the trapdoor.
+~
+trapdoor door~
+1 0 5324
+S
+#5321
+&+yA Small Wooden Ladder&N~
+   Higher above the neighboring buildings of the fort, the
+ladder continues in opposite directions from here. This well
+constructed ladder of centaurian workmanship is attached to
+the walls of the fort.  Each step is a solid plank of wood
+from of an old oaken tree.  The steps are tied together
+with an elven-woven twine.
+~
+53 142639168 1
+D4
+The ladder continues upward.
+~
+~
+0 0 5322
+D5
+A small guardhouse lies below this trapdoor.
+~
+trapdoor door~
+1 0 5319
+S
+#5322
+&+yA Small Wooden Ladder&N~
+   Much higher above the neighboring buildings of the fort,
+the ladder continues in opposite directions from here. A
+guard post is just above at the top of the ladder. A few
+archers can be seen on post there.  A slight breeze can be
+felt. The step is a solid plank of wood from of an old
+oaken tree.  The steps are tied together with an elven
+woven twine.  A few of steps squeak under the weight of
+your movement.
+~
+53 142639168 1
+D4
+The ladder leads up toward a small guardpost.
+~
+~
+0 0 5323
+D5
+The ladder continues downward.
+~
+~
+0 0 5321
+F
+40
+S
+#5323
+&+yA Guard Post&N~
+    This guard post is several stories above the ground. It
+provides a view of the surrounding forests and of the fort.
+Many archers and guards stand on guard ready for an oncoming
+attack or from wrong doers entering the fort.  The post here
+is constructed from wooden planks.  There are exits leading
+around to different parts of these outposts.
+~
+53 142639168 1
+D0
+A connecting catwalk is located to the north.
+~
+~
+0 0 5377
+D2
+A catwalk is located to the south.
+~
+~
+0 0 5327
+D5
+A wooden ladder leads below.
+~
+~
+0 0 5322
+S
+#5324
+&+yA Small Wooden Ladder&N~
+   Higher above the neighboring buildings of the fort, the
+ladder continues in opposite directions from here. This well
+constructed ladder of centaurian workmanship is attached to
+the walls of the fort.  Each step is a solid plank of wood
+from of an old oaken tree.  The steps are tied together
+with an elven-woven twine.
+~
+53 142639168 1
+D4
+The ladder continues up.
+~
+~
+0 0 5325
+D5
+Below this trapdoor lies a small guardhouse.
+~
+trapdoor door~
+1 0 5320
+S
+#5325
+&+yA Small Wooden Ladder&N~
+   Much higher above the neighboring buildings of the fort,
+the ladder continues in opposite directions from here. A
+guard post is just above at the top of the ladder. A few
+archers can be seen on post there.  A slight breeze can be
+felt. The step is a solid plank of wood from of an old
+oaken tree.  The steps are tied together with an elven
+woven twine.  A few of steps squeak under the weight of
+your movement.
+~
+53 142639168 1
+D4
+A small guard post lies above.
+~
+~
+0 0 5326
+D5
+The wooden ladder continues down.
+~
+~
+0 0 5324
+F
+40
+S
+#5326
+&+yA Guard Post&N~
+    This guard post is several stories above the ground. It
+provides a view of the surrounding forests and of the fort.
+Many archers and guards stand on guard ready for an oncoming
+attack or from wrong doers entering the fort.  The post here
+is constructed from wooden planks.  There are exits leading
+around to different parts of these outposts.
+~
+53 142639168 1
+D0
+A small catwalk leads ahead.
+~
+~
+0 0 5327
+D2
+A connecting catwalk lies to the south.
+~
+~
+0 0 5375
+D5
+A wooden ladder leads below.
+~
+~
+0 0 5325
+S
+#5327
+&+yA Connecting Catwalk&N~
+    This connecting catwalk serves a connecting way between
+guard posts above the Fort Marigot.  It is also connected of
+wooden planks and is not as wide as are the posts.  A view of
+the surrounding area can also be seen from this vantage point.
+Just below this catwalk is the main enterance gate of the Fort
+Marigot.  There are exits leading to the north and south from
+this catwalk.
+~
+53 142639168 1
+D0
+A guard post is located to the north.
+~
+~
+0 0 5323
+D2
+A guard post is located to the south.
+~
+~
+0 0 5326
+S
+#5328
+&+WA Training Room&N~
+   This room here of the jailhouse has been designed to all newly
+trained guards of the holy army to practice their skills.  The
+ground here is of barren earth in parts and of stone.  This is so
+as to simulate natural environments of battle.  Along the walls of
+this room, there are training tools and weapons hung from the
+wooden rafters of the ceiling.  There are two exits leading out
+of this room.
+~
+53 142643272 0
+D2
+~
+~
+0 0 5306
+D3
+A small door leads away to the west.
+~
+small door~
+1 0 5330
+S
+#5329
+&+WThe Training Room of the &+MHoly Army&N~
+   These grounds here are the training area of Fort Marigot.  Many
+centaurs come to practice their skills with the head trainer of the
+Holy army of Fort Marigot.  The room here is large and is filled with
+many devices.  These devices assist the master trainer in his work. On
+the walls above, many war banners can be found along with extra sets of
+equipment hanging from the rafters. There are two exits leading away
+from these training grounds.
+~
+53 142643272 0
+D1
+The crossroads of the jailhouse can be seen to the east.
+~
+~
+0 0 5306
+S
+#5330
+&+mA Small Side Street&N~
+   This small side street winds further south through this sub
+district of Fort Marigot.  Many citizens and visitors commute
+through to gain access to the many shoppes and other places of
+interest.  The street here is lined with small stones of varying
+sizes and shapes.  There are exits all around leading to different
+parts of Fort Marigot.
+~
+53 142639168 1
+D0
+The small side street continues north.
+~
+~
+0 0 5346
+D1
+A Small door blocks the exit to the east.
+~
+small door~
+1 0 5328
+D3
+The street continues west.
+~
+~
+0 0 5331
+S
+#5331
+&+mA Small Side Street&N~
+   This small side street winds further south through this sub
+district of Fort Marigot.  Many citizens and visitors commute
+through to gain access to the many shoppes and other places of
+interest.  The street here is lined with small stones of varying
+sizes and shapes.  There are exits all around leading to different
+parts of Fort Marigot.
+~
+53 142639168 1
+D1
+The street continues east.
+~
+~
+0 0 5330
+D3
+The street continues west.
+~
+~
+0 0 5332
+S
+#5332
+&+mA Small Side Street&N~
+   This small side street winds further south through this sub
+district of Fort Marigot.  Many citizens and visitors commute
+through to gain access to the many shoppes and other places of
+interest.  The street here is lined with small stones of varying
+sizes and shapes.  There are exits all around leading to different
+parts of Fort Marigot.
+~
+53 142639168 1
+D0
+A small house lies to the north.
+~
+~
+0 0 5380
+D1
+The street continues east.
+~
+~
+0 0 5331
+D2
+A small hut lies to the south.
+~
+~
+0 0 5379
+D3
+The street continues west.
+~
+~
+0 0 5333
+S
+#5333
+&+mBefore the Guild of Rangers&N~
+    The small side street comes to an end here before a large
+stone establishment to the south.  A small wooden guard post of
+sorts is located to the north. There is a small window in that
+structure.  Through this window, many centaur guards can be
+seen handling their duties at hand.  The large guild, to the
+south, is constructed of small stone blocks of varying size
+and color.  There is a small door sealing off that exit to
+the south.  There is only one other exit that leads away.
+~
+53 142639168 1
+D1
+The small side street continues east.
+~
+~
+0 0 5332
+D2
+A small oak door seals off the enterance to the guild of rangers.
+~
+oak door~
+1 0 5334
+S
+#5334
+&+WThe Entrance Hall&N~
+    This is the first room of the guild of rangers of Fort Marigot.
+All rangers have passed through these halls gaining the skills and
+techniques to lead a skillful life. The wallls of this hall are
+smooth and clean.  They magically reflect the light from a white
+orb which lies magically suspended from the ceiling of the hallway.
+A large elven rug lies in the center of this enterance hall.  It is
+embroidered with white and silver threads forming an interlocking
+pattern. There are two exits leading away in opposite directions.
+~
+53 142643272 0
+D0
+A small side street is north.
+~
+oak door~
+1 0 5333
+D2
+A lighted hallway leads deeper into the ranger's guild.
+~
+~
+0 0 5335
+S
+#5335
+A &+WLighted Hallway&N of the Guild of &+WRangers&N~
+    The walls of this hallway are smooth and clean.  They magically
+reflect the light from the white orb which lies magically suspended
+from the ceiling of the hallway. A large plaque of marble and gold
+forming some sort of pattern hangs on the west wall.  The east wall
+of this hallway is barren.  There are two exits leading away in
+opposite directions.
+~
+53 142643272 0
+D0
+The guild of rangers continues north.
+~
+~
+0 0 5334
+D2
+The inner sanctum is south.
+~
+~
+0 0 5336
+D5
+~
+~
+0 0 5389
+S
+#5336
+The &+rIn&+Rne&+rr&N &+rSa&+Rnct&+rum&N of &+rPretik&N~
+   This inner room of the ranger's guild is lined with long
+embroidered satin banners of war.   They depict scenes of victories
+over many centuries.  The walls and floor, like the rest of
+the guild, are of large granite blocks that have been polished.
+This room is lighted by a magical torch which lights the area
+with a yellow aura.  There is only one exit out of this inner
+sanctum of Pretik.
+~
+53 142643272 0
+D0
+The ranger's guild continues north.
+~
+~
+0 0 5335
+S
+#5337
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  Foraging about are a few forest animals. The castle of the
+princess can be seen further east from here where a large gathering
+appears to be taking place.  This part of the pathway is free from
+rubbish and other debris.  There are exits leading all around deeper
+into the fort.
+~
+53 142639168 1
+D1
+The pathway of the princess leads east.
+~
+~
+0 0 5338
+D3
+The pathway of the princess continues west.
+~
+~
+0 0 5302
+S
+#5338
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  To the south, a small holy garden of some sorts can be seen.
+Further south of this garden a small marble-looking building can be seen.
+The castle of the princess can be seen further east. This part of the
+pathway is marred with signs of blood and scratches on the pathway.
+There are exits leading all around deeper into the fort.
+~
+53 142639168 1
+D0
+An earthen path lies to the north.
+~
+~
+0 0 5361
+D1
+The pathway of the princess continues to the east.
+~
+~
+0 0 5344
+D2
+A small holy garden lies to the south.
+~
+~
+0 0 5339
+D3
+The pathway of the princess continues to the west.
+~
+~
+0 0 5337
+S
+#5339
+&+gA Small &+GHol&+gy Garden&N~
+    This small garden is located off the main pathway.  It is
+a well maintained plot of land which appears to be pest free.
+The earth surrounding the different plants appears to be moist
+and soft to the touch.  A variety of herbs and spices of different
+species grow along a small stone pathway that leads further south
+into a larger establishment.
+~
+53 142639168 1
+D0
+The pathway of the princess lies to the north.
+~
+~
+0 0 5338
+D2
+The marble door seals off the shaman's guild.
+~
+marble door~
+1 0 5340
+S
+#5340
+A &+WConnecting&N Hallway~
+   This main hallway in the guild of shamans of Marigot is lined
+with an red elven rug.   Fastened to the wall, every few feet, are
+large torches.  These torches burn bright and light this passage
+way.  Many shamans have passed through the halls with gained experience
+in their new life.  Large candles shine light into this room.  The exit
+south leads into the meditation chambers.  There are two exits leading
+away in opposite directions.
+~
+53 142643272 0
+D0
+A small holy garden is located to the north.
+~
+marble door~
+1 0 5339
+D2
+The room of meditation is south.
+~
+~
+0 0 5341
+S
+#5341
+A Room of &+WMeditation&N~
+    This room of the guild here is of solid granite and marble
+blocks.  The east and west walls of this room are lined with
+large wooden shelves.  Upon these shelves,  many old tomes and
+texts have been stored for general purposes.  A layer of dust
+covers some of the literary text on the upper shelves.  Two
+wooden torches here burn brightly fully illuminating the room.
+~
+53 142643272 0
+D0
+The connecting hallway is north.
+~
+~
+0 0 5340
+D2
+~
+~
+0 0 5342
+S
+#5342
+A &+WConnecting&N Hallway~
+   An embroidered red elven rug continues into this room of the
+guild from the adjoining room.  Fastened to the wall, every few feet,
+are large magical torches.  These torches burn bright and light this
+hallway.  Many shamans have passed through the halls with gained experience
+in their new life.  Large candles shine light into this room.  The exit
+to the west leads into the inner sanctum of the guildmaster.  The are
+exit leads away towards the meditation chambers.
+~
+53 142643272 0
+D0
+The meditation chambers are located to the north.
+~
+~
+0 0 5341
+D3
+The inner sanctum of Semira lies to the west.
+~
+~
+0 0 5343
+D4
+A small supply shop is above.
+~
+~
+0 0 5388
+S
+#5343
+The &+WInner Sanctum&N of &+WSemira&N~
+    This inner sanctum of Semira is dark and damp.  A chilling
+sense overwhelms visitors to this sacred site of shamans.  The
+floors here within the inner sanctum are barren.  The walls
+are lined with wooden shelves of various sizes.   Here upon these
+shelves,  there are many small jars with a variety of contents.
+There is only one exit leading away from this inner sanctum.
+~
+53 142643272 0
+D1
+~
+~
+0 0 5342
+S
+#5344
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&N~
+   The road here is about twenty-five feet wide. This &+bPa&+Bthw&+bay of&N
+&+bthe Pri&+Bnces&+bs&N is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  Foraging about are a few forest animals. The castle of the
+princess can be seen further east from here where a large gathering
+appears to be taking place.  This part of the pathway is free from
+rubbish and other debris.  There are exits leading all around deeper
+into the fort.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5347
+D1
+The pathway of the princess extends east.
+~
+~
+0 0 5345
+D2
+A small hut lies to the south.
+~
+~
+0 0 5406
+D3
+The pathway of the princess extends west.
+~
+~
+0 0 5338
+S
+#5345
+&+YThe Holy Gates of Castle Marigot&N~
+   A tall arch way lies east sectioning off that part of the Fort
+from easy access.  The marble blocks around the arch way have been
+carved with a variety of designs and enscriptions.  Thick iron gates
+close off the area further east.  Holy guards march infront of the
+main enterance of the castle.  The castle is small in size. It's
+towers extend some stories above the nearby city.  There is one exit
+that is open and leaves away from the castle.
+~
+53 142639168 1
+D1
+~
+~
+0 0 5413
+D3
+The pathway of the princess lies west.
+~
+~
+0 0 5344
+S
+#5346
+&+mA Small Side Street&N~
+   This small side street winds further south through this sub
+district of Fort Marigot.  Many citizens and visitors commute
+through to gain access to the many shoppes and other places of
+interest.  The street here is lined with small stones of varying
+sizes and shapes.  There are exits all around leading to different
+parts of Fort Marigot.
+~
+53 142639168 1
+D0
+The Pathway of the Princess is to the north.
+~
+~
+0 0 5310
+D2
+The street continues to the south.
+~
+~
+0 0 5330
+S
+#5347
+&+yAn Earthen Path&N~
+    This eastern path shunts off from the main pathway of the
+princess. A dense forest seems to extend to the east and west
+from this vantage point. The path here is of compacted earth.
+There is little growth of forest flora on this path due to the
+high traffic which access this easternly path through the forest.
+A variety of forest animals can be foraging for food.  There are
+exits all around leading deeper into the forest.
+~
+53 142639168 3
+D0
+The Mullet lake lies to the north.
+~
+~
+0 0 5355
+D1
+~
+~
+0 0 5362
+D2
+The pathway of the princess is to the south.
+~
+~
+0 0 5344
+D3
+~
+~
+0 0 5361
+S
+#5348
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are a little rough here. Larger
+waves splash against the northern shore at a fast rate.  In the
+waters, there are small examples of aquatic life which can be seen
+swimming about.  Some fish come up to the surface for a breath of air.
+A multitude in variety of fish are present in these waters.  There
+are exits all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+The inner circle of stones is north.
+~
+~
+0 0 5374
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5349
+D2
+The Mullet Lake continues south.
+~
+~
+0 0 5351
+D3
+~
+~
+0 0 5372
+S
+#5349
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+splash against the southern shore at a constant rate.  This part of
+the northern shore is lined with many small rocks.  Long green algae
+plants have grown on some of these rocks and sway together with the
+crashing waves.  Some of the many fish come up to the surface for a
+breath of air.  There are exits all around leading farther onto
+the lake.
+~
+53 142639168 6
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5350
+D2
+The Mullet Lake continues south.
+~
+~
+0 0 5352
+D3
+The Mullet Lake continues west.
+~
+~
+0 0 5348
+S
+#5350
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are a little rough here. Larger
+waves splash against the northern shore at a fast rate.  In the
+waters, there are small examples of aquatic life which can be seen
+swimming about.  Some fish come up to the surface for a breath of air.
+A multitude in variety of fish are present in these waters.  There
+are exits all around leading farther onto the lake.
+~
+53 142639168 6
+D2
+The Mullet Lake continues south.
+~
+~
+0 0 5353
+D3
+The Mullet Lake continues west.
+~
+~
+0 0 5349
+S
+#5351
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+constantly keep forming and heading to the western shore.  In the
+waters, small examples of aquatic life can be seen swimming about.
+Some fish come up to the surface for a breath of air.  Other fish
+hop out of the water and drop back into the lake's waters.  There
+are exits all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+The Mullet Lake continues north.
+~
+~
+0 0 5348
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5352
+D2
+The Mullet Lake continues south.
+~
+~
+0 0 5354
+D3
+A smal grassy clearing is west.
+~
+~
+0 0 5369
+S
+#5352
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake here are deeper.  A different
+variety of fish and aquatic life live only in this part of the
+lake.  Deeper below the surface, there appears to be a small
+tunnel of sorts.  The lake extends in all directions from this
+point.  Shores can be seen all around.  There are exits leading
+towards the shores in all directions.
+~
+53 142639168 7
+D0
+The Mullet Lake continues north.
+~
+~
+0 0 5349
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5353
+D2
+The Mullet Lake continues south.
+~
+~
+0 0 5355
+D3
+The Mullet Lake continues west.
+~
+~
+0 0 5351
+D5
+Below the water, there appears a way to go deeper.
+~
+~
+0 0 5357
+S
+#5353
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+constantly keep forming and heading to the eastern shore.  In the
+waters, small examples of aquatic life can be seen swimming about.
+Some fish come up to the surface for a breath of air.  Other fish
+hop out of the water and drop back into the lake's waters.  There
+are exits all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+~
+~
+0 0 5350
+D2
+~
+~
+0 0 5356
+D3
+~
+~
+0 0 5352
+S
+#5354
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+splash against the southern shore at a constant rate.  The southern
+shore is lined with many small rocks.  Green and red algae have grown
+on these rocks and sway together with the crashing waves.  Some of the
+many fish come up to the surface for a breath of air.  There are exits
+all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+The Mullet Lake continues north.
+~
+~
+0 0 5351
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5355
+S
+#5355
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+splash against the southern shore at a constant rate.  The southern
+shore is lined with many small rocks.  Green and red algae have grown
+on these rocks and sway together with the crashing waves.  Some of the
+many fish come up to the surface for a breath of air.  There are exits
+all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+The Mullet Lake continues north.
+~
+~
+0 0 5352
+D1
+The Mullet Lake continues east.
+~
+~
+0 0 5356
+D2
+An earthen path lies to the south.
+~
+~
+0 0 5347
+D3
+The Mullet Lake continues west.
+~
+~
+0 0 5354
+S
+#5356
+&+BThe Mullet Lake&N~
+   The waters of the Mullet Lake are quiet and calm.  Small waves
+splash against the southern shore at a constant rate.  The southern
+shore is lined with many small rocks.  Green and red algae have grown
+on these rocks and sway together with the crashing waves.  Some of the
+many fish come up to the surface for a breath of air.  There are exits
+all around leading farther onto the lake.
+~
+53 142639168 6
+D0
+The Mullet Lake continues north.
+~
+~
+0 0 5353
+D3
+The Mullet Lake continues west.
+~
+~
+0 0 5355
+S
+#5357
+&+BBelow the Mullet Lake&N~
+   Just below the surface of the Mullet Lake, a wide and different
+world evolves which is different than Marigot above.  Schools of
+fish swim past and scatter about at the sense of danger from the
+approaching pelican from above.  There appears to be a tunnel of
+sorts further below.  There are two exits leading in opposite
+directions from this point.
+~
+53 142643304 9
+D4
+The surface of Mullet Lake lies above.
+~
+~
+0 0 5352
+D5
+There appears to be a way further below Mullet Lake.
+~
+~
+0 0 5358
+S
+#5358
+&+BFurther Below Mullet Lake&N~
+   Further below the surface of Mullet Lake, the light from
+the surface seems to be more limited here.  It is darker in
+parts and there is sufficient light in others.  A small school
+of glowing fish circle about here. This school of fish swim past
+and do not scatter about as seen in the fish above. There appears
+to be a tunnel of sorts just below.  There are two exits leading
+in opposite directions from this point.
+~
+53 142643304 9
+D4
+The above surface lies further in this direction.
+~
+~
+0 0 5357
+D5
+There is a darkend tunnel below.
+~
+~
+0 0 5359
+S
+#5359
+&+bAn Underwater Tunnel&N~
+   A small tunnel of unnatural means has been formed here.  The
+walls of the tunnel are not smooth.  Sharp pieces of rock form
+a varigated surface.  Small fish still swim about unhindered by
+the lack of light.  There appears to be a light source of sorts
+further below.  There are two exits leading in opposite directions
+from this part of the tunnel.
+~
+53 142643304 9
+D4
+The above surface lies in this direction.
+~
+~
+0 0 5358
+D5
+The tunnel continues below.
+~
+~
+0 0 5360
+S
+#5360
+&+bAn Underwater Tunnel&N~
+   A small tunnel of unnatural means has been formed here.  The
+walls of the tunnel are not smooth.  Sharp pieces of rock form
+a varigated surface.  Small fish still swim about unhindered by
+the lack of light.  There appears to be a light source of sorts
+further below.  There are two exits leading in opposite directions
+from this part of the tunnel.
+~
+53 142643304 9
+D4
+The surface lies further above in this direction.
+~
+~
+0 0 5359
+D5
+~
+~
+0 0 5363
+S
+#5361
+&+yAn Earthen Path&N~
+    This eastern path shunts off from the main pathway of the
+princess. A dense forest seems to extend to the east and west
+from this vantage point. The path here is of compacted earth.
+There is little growth of forest flora on this path due to the
+high traffic which access this easternly path through the forest.
+A variety of forest animals can be foraging for food.  There are
+exits all around leading deeper into the forest.
+~
+53 142639168 3
+D1
+~
+~
+0 0 5347
+D3
+~
+~
+0 0 5367
+S
+#5362
+&+yAn Earthen Path&N~
+    This eastern path shunts off from the main pathway of the
+princess. A dense forest seems to extend to the east and west
+from this vantage point. The path here is of compacted earth.
+There is little growth of forest flora on this path due to the
+high traffic which access this easternly path through the forest.
+A variety of forest animals can be foraging for food.  There are
+exits all around leading deeper into the forest.
+~
+53 142639168 3
+D3
+~
+~
+0 0 5347
+S
+#5363
+&+bAn Underwater Tunnel&N~
+   The tunnel here is larger in width.  The floor here on the lake
+bottom is covered with a variety of different natural flora.  Lining
+most of this lake bottom is the variety of seaweed of many different
+colors.  There is also many different types of animals swimming and
+crawling about here.  There are two open exits that lead away from
+this room.
+~
+53 142643304 10
+D0
+The tunnel continues north.
+~
+~
+0 0 5364
+D4
+The tunnel continues upward.
+~
+~
+0 0 5360
+S
+#5364
+&+bAn Underwater Tunnel&N~
+   The tunnel here is larger in width.  The floor here on the lake
+bottom is covered with a variety of different natural flora.  Lining
+most of this lake bottom is the variety of seaweed of many different
+colors.  There is also many different types of animals swimming and
+crawling about here.  There are two open exits that lead away from
+this room.
+~
+53 142643304 10
+D2
+~
+~
+0 0 5363
+D3
+~
+~
+0 0 5365
+S
+#5365
+&+BBefore a Pair of Marble Doors&N~
+   The tunnel leads into this room which faces to marble doors
+which pulse in energy.  The doors are engraved with warnings
+and small pictures which depict dangers if the doors were to be
+opened unsuspectingly.  The floor here is barren except for the
+lake flora which has taken root and grows through out the area.
+There is only one exit leading away from this room.
+~
+53 142643304 10
+D1
+A small path lies east.
+~
+~
+0 0 5364
+D2
+A pair of marble doors seals off the exit to the south.
+~
+pair marble doors~
+6 5317 5366
+S
+#5366
+&+BThe Lair of Mullet&N~
+   The tunnel ends here within the lair of Mullet.  This cavern,
+below the lake, is littered with corpses of many adventurers who
+have tried to slay this trapped lake dragon.  The walls of this
+cavern are jagged in parts and is smooth in others.  There is
+a bed of crushed bones in the center of this room where the
+lake dragon rests.  There is only one exit out of the cavern.
+~
+53 142643304 10
+D0
+A small tunnel leads away to the north.
+~
+marble door pair~
+2 0 5365
+S
+#5367
+&+yAn Earthen Path&N~
+    This eastern path shunts off from the main pathway of the
+princess. A dense forest seems to extend to the east and west
+from this vantage point. The path here is of compacted earth.
+There is little growth of forest flora on this path due to the
+high traffic which access this easternly path through the forest.
+A variety of forest animals can be foraging for food.  There are
+exits all around leading deeper into the forest.
+~
+53 142639168 3
+D0
+~
+~
+0 0 5368
+D1
+~
+~
+0 0 5361
+S
+#5368
+&+gA Grassy Clearing&N~
+   Long wild grass and wild flowers grow through out this
+clearing.  This clearing is void of trees and other large shrubs.
+Small insects of different variety fly and crawl about foraging
+for a meal.  The shores of Lake Mullet can be seen to the east.
+The shore there is very rocky and some of the rocks are coated in
+a layer of green algae. There are exits all around leading away
+from this part of the clearing.
+~
+53 142639168 2
+D0
+The grassy clearing continues to the north.
+~
+~
+0 0 5369
+D2
+An earthen path is located to the south.
+~
+~
+0 0 5367
+D3
+The grassy clearing continues to the west.
+~
+~
+0 0 5370
+S
+#5369
+&+gA Grassy Clearing&N~
+   Long wild grass and wild flowers grow through out this
+clearing.  This clearing is void of trees and other large shrubs.
+Small insects of different variety fly and crawl about foraging
+for a meal.  The shores of Lake Mullet can be seen to the east.
+The shore there is very rocky and some of the rocks are coated in
+a layer of green algae. There are exits all around leading away
+from this part of the clearing.
+~
+53 142639168 2
+D0
+A grove is located to the north.
+~
+~
+0 0 5372
+D1
+The lake shore of Lake Mullet lies in that direction.
+~
+~
+0 0 5351
+D2
+The clearing continues to the south.
+~
+~
+0 0 5368
+D3
+The clearing continues to the west.
+~
+~
+0 0 5371
+S
+#5370
+&+gA Grassy Clearing&N~
+   There are patches in the wild grass here that are barren from
+the growth of any plant life.  These patches are wet in places and
+have puddles in others.  Long wild grass and wild flowers grow
+through out the rest of the clearing.  There are no trees or other
+large shrubs in this part of the clearing.  Small insects of
+different variety fly and crawl about foraging for a meal.  There
+are exits all around leading away from this part of the clearing.
+~
+53 142639168 2
+D0
+The clearing continues north.
+~
+~
+0 0 5371
+D1
+The clearing continues east.
+~
+~
+0 0 5368
+D3
+~
+~
+0 0 5400
+S
+#5371
+&+gA Grassy Clearing&N~
+   There are patches in the wild grass here that are barren from
+the growth of any plant life.  These patches are wet in places and
+have puddles in others.  Long wild grass and wild flowers grow
+through out the rest of the clearing.  There are no trees or other
+large shrubs in this part of the clearing.  Small insects of
+different variety fly and crawl about foraging for a meal.  There
+are exits all around leading away from this part of the clearing.
+~
+53 142639168 2
+D1
+The clearing continues east.
+~
+~
+0 0 5369
+D2
+The clearing continues south.
+~
+~
+0 0 5370
+S
+#5372
+&+gThe Grove of Druids&N~
+   The grove of druids spans this part of the forest within Fort
+Marigot.  There are lots of wild flowers and other flora growing
+along a small stone path which leads in a northward direction.
+There are tall trees  which form an interlocking canopy above the
+ground which filters much of the light from above.  A few vines
+wind in circles around the base of trunks of a few trees.  There
+are foot prints of various animals on the baren earth.  The sounds
+of waves crashing against the shore of the nearby lake can be heard.
+There are two exits leading away from this part of the grove.
+~
+53 142639168 3
+D0
+The Grove of Druids continues north.
+~
+~
+0 0 5373
+D1
+~
+~
+0 0 5348
+D2
+A grassy clearing is south.
+~
+~
+0 0 5369
+S
+#5373
+&+gThe Grove of Druids&N~
+   Tall trees form an interlocking canopy above the ground which
+filters much of the light from above.   A variety of natural flora
+grows against the trees.  A few vines wind in circles around the
+base of trunks of a few trees.  There are foot prints of various
+animals on the baren earth.  The sounds of waves crashing against
+the shore of the nearby lake can be heard.  There are two exits
+leading out of this room.
+~
+53 142639168 3
+D0
+A small store appears to be north.
+~
+~
+0 0 5387
+D1
+The inner circle of stones is east.
+~
+~
+0 0 5374
+D2
+The druid grove continues south.
+~
+~
+0 0 5372
+S
+#5374
+&+LThe Inner Circle of Stones&N~
+    Dark granite blocks of unknown origin have been placed in a
+circle around a small fire pit.  The northern and southern most
+stones are engraved in designs and small pictures.  The western
+most stone has scratches on it.  The flooring here is of baren
+earth while the pit in the center is covered with charcoal remains.
+Access to the Mullet Lake is provided by a small path to the south.
+There are two exits leading out of this room.
+~
+53 142639168 3
+D2
+The Mullet Lake is south.
+~
+~
+0 0 5348
+D3
+The druid grove continues west.
+~
+~
+0 0 5373
+S
+#5375
+&+yA Connecting Catwalk&N~
+    This connecting catwalk serves a connecting way between
+guard posts above the Fort Marigot.  It is also connected of
+wooden planks and is not as wide as are the posts.  A view of
+the surrounding area can also be seen from this vantage point.
+A thick forests can be seen just below the catwalk on the out-
+side of the fort.  There are exits leading to the north and
+south from this catwalk.
+~
+53 142639168 1
+D0
+A guard post is located to the north.
+~
+~
+0 0 5326
+D2
+~
+~
+0 0 5376
+S
+#5376
+&+yThe Southern Guard Post&N~
+    This southern guard post is several stories above the
+ground. The elven forests can be seen far in the distance
+from this post. This post, like the others, provides a view
+of the surrounding forests and of the fort.  Many archers
+and guards stand on guard ready for an oncoming attack or
+from wrong doers entering the fort.  The post here is
+constructed from wooden planks.  There is only one exit
+leading back towards the connecting catwalk.
+~
+53 142639168 1
+D0
+A connecting catwalk lies to the north.
+~
+~
+0 0 5375
+S
+#5377
+&+yA Connecting Catwalk&N~
+    This connecting catwalk serves a connecting way between
+guard posts above the Fort Marigot.  It is also connected of
+wooden planks and is not as wide as are the posts.  A view of
+the surrounding area can also be seen from this vantage point.
+A thick forests can be seen just below the catwalk on the out-
+side of the fort.  There are exits leading to the north and
+south from this catwalk.
+~
+53 142639168 1
+D0
+A guard post is located to the north.
+~
+~
+0 0 5378
+D2
+A guard post is located to the south.
+~
+~
+0 0 5323
+S
+#5378
+&+yThe Northern Guard Post&N~
+    This northern guard post is several stories above the
+ground. The elven forests can be seen from this post. This
+post, like the others, provides a view of the surrounding
+forests and of the fort.  Many archers and guards stand on
+guard ready for an oncoming attack or from wrong doers
+entering the fort.  The post here is constructed from wooden
+planks.  There is only one exit leading back towards the
+connecting catwalk.
+~
+53 142639168 1
+D2
+A connecting catwalk is located to the south.
+~
+~
+0 0 5377
+S
+#5379
+&+YA Small Hay Hut&N~
+   Filled with many herbal spices and creations, this small hut
+houses a gypsy who stands ready to serve you.  A variety of
+different aroma overwhelms the senses of all who enter this hut.
+All around the room there are sealed jars of different herbs,
+spices, and other concoctions. In the center of the room, there
+is a large circular table with two chairs on opposite sides.
+There is only one exit leading out.
+~
+53 142643272 0
+D0
+A small side street is north.
+~
+~
+0 0 5332
+S
+#5380
+&+yA House of the Poor&N~
+    The room of the house of commons is poorly furnished.
+It is similarly constructed from imported wood of the elven
+forests, as is most of the house of commons.  The wooden planks
+here are starting to show their signs of age.  There are cracks
+and signs of deterioration.  There are small shelves that line
+the north wall.  These shelves have small books and other texts
+of which many come to inspect.  There are two exits leading out
+this room of the house of commons.
+~
+53 142643272 0
+D1
+~
+~
+0 0 5381
+D2
+A small side street is located to the south.
+~
+~
+0 0 5332
+S
+#5381
+&+yA House of the Rich&N~
+    The house here is constructed from imported wood of the
+elven forests.  These wooden planks have been sanded and polished
+down.  They have a magical reflecting quality which brightens the
+room.  The room here is lightly furnished.  There is a large mural
+on the south wall which depicts the surrounding forests and
+mountains.  There are two exits leading out this room.
+~
+53 142643272 0
+D0
+The pathway of the princess is located to the north.
+~
+~
+0 0 5311
+D3
+The house of commons continues west.
+~
+~
+0 0 5380
+S
+#5382
+&+yThe Backroom of the Guild of Bards&N~
+   The room here is dark and not well kept.  Dust and other cobwebs
+have collected on the floor and on the rafters above.  This backroom
+of the guild of bards provides access to the instructor's quarters
+and the guild supply shoppe.  A small green carpet lies in the center
+of this room.  It is embroidered with red and golden threads which
+appear to sparkle with any lightsource.  There are exits all around
+leading to different parts of the guild of bards.
+~
+53 142643272 0
+D0
+The inner sanctum of the bard instructor is north.
+~
+~
+0 0 5385
+D3
+A small shoppe is west.
+~
+~
+0 0 5386
+D5
+The bar of mysteries lies below.
+~
+trapdoor door~
+1 0 5317
+S
+#5383
+&+YThe Barrelers of Fort Marigot&N~
+  The aroma of fresh wood mixed with the scent of beer and wine
+seem to be present in this store. Large barrels, small barrels,
+and skins in all shapes and sizes sit on display shelves giving
+chance for customers to inspect their quality. Behind the counter
+on the west wall of the store, a larger set of shelves sit filled
+with a variety of items that may be purchased in this store. The
+only exit is west leading back to the Pathway of the Princess.
+~
+53 142643272 0
+D2
+The pathway of the princess lies to the south.
+~
+~
+0 0 5310
+S
+#5384
+&+MThe Bank of Fort Marigot&N~
+   This is the main branch of the Bank of Fort Marigot.  It is
+situated in a large and quite lavish building. Its floor is tiled in
+white marble. The walls are constructed of stone carved with a variety
+of symbols and other pictures. A large red elven rug lies centered in
+the room. On the south wall of the bank, there is a ledge equipped with
+a few fountain pens. The teller window is located just next this ledge.
+The only exit lies west back to the white cobblestone path.
+~
+53 142643272 0
+D0
+~
+~
+0 0 5305
+S
+#5385
+&+yThe Inner Sanctum of &+MKrishna&N~
+   This is the inner sanctum of the bard instructor of Fort Marigot.
+It is lavishly decorated with satin banners woven with gold which
+hang from the all walls.  Some of these banners depict small pictures
+which tell a small fable.  The other banners are just simple designs
+which have a very pleasing appearance to the eyes.  The sounds of
+music fills the room of the guildhall here.  There is only one
+exit out of this room.
+~
+53 142643272 0
+D2
+The backroom of the guild is located there.
+~
+~
+0 0 5382
+S
+#5386
+&+yA Small Shoppe of Bards&N~
+   This small shoppe serves all bards and others who seek to
+purchase a weapon of the bards of Fort Marigot.  This shoppe
+here is relatively small and well kept.  There are no signs of
+dirt or dust anywhere.  The walls are lined with a variety
+of instruments which are available for purchase.  There is
+a large counter on the north wall.  There is only one exit
+out of this small shoppe.
+~
+53 142643272 0
+D1
+A small backroom is east.
+~
+~
+0 0 5382
+S
+#5387
+&+yA Small Shop of the &+gGrove&N~
+    This part of the grove of druids has been organized into a
+supply shop for druids.  A small tree stump has been carved into
+a little shelf where many items are on display.  The ground here
+is of barren compacted earth.  It is free from small stones and
+flora of the forest.   The canopy of trees above forms an
+interlocking network which filters out some of the sunlight from
+above.  There is only one exit out.
+~
+53 142639168 3
+D2
+A small pond appears to be south.
+~
+~
+0 0 5373
+S
+#5388
+&+WA Small Holy Shop&N~
+   The room here is clean and sparkles in the light of the torches
+which lie fastened to the south wall.  There are shelves and counters
+arranged against the north wall which contain a variety of items
+which are available for purchase.  Many different types of totems
+and other items lie organized there.  A small green elven rug covers
+the floor.  There is only one exit out of this shop.
+~
+53 142643272 0
+D5
+A hallway is below.
+~
+~
+0 0 5342
+S
+#5389
+&+WA Small Shop&N~
+   The room here is clean and sparkles in the light of the torches
+which lie fastened to the south wall.  There are shelves and counters
+arranged against the north wall which contain a variety of items
+which are available for purchase.  Many different types of totems
+and other items lie organized there.  A small green elven rug covers
+the floor.  There is only one exit out of this shop.
+~
+53 142643272 0
+D4
+A small hallway is above.
+~
+~
+0 0 5335
+S
+#5390
+&+LA Room of Rememberance&N~
+   This room has been designated a room of rememberance for the
+founders and all those who have died in the establishment of Fort
+Marigot.  The room is filled with a variety of plaques and other
+murals which depicts the history of Fort Marigot.  A small area
+along the west wall lies in disarray. It appears that there has
+been some renovation work occurring there.  There are two exits
+leading out of this room.
+~
+53 142643272 0
+D0
+~
+~
+0 0 5391
+D2
+The pathway of the princess lies outside this doorway.
+~
+~
+0 0 5312
+S
+#5391
+&+WA Connecting Hallway&N~
+   The walls of this hallway are smooth.  They reflect the
+light of the torches which lie fastened every few feet on the
+west wall. The floor is marred with scratches and other markings.
+A large golden plaque hangs on the east wall.  It reads that
+the cemetery of the Fort Marigot lies ahead.  There are two
+exits leading away from this connecting hallway.
+~
+53 142643272 0
+D0
+The cemetery lies beyond the gates ahead.
+~
+gates~
+1 0 5392
+D2
+A room of rememberance lies to the south.
+~
+~
+0 0 5390
+S
+#5392
+&+WThe Cemetery of Fort Marigot&N~
+   The cemetery of Fort Marigot lies through out the surrounding
+area.  Large tombstones of ivory and marble mark the graves of
+those buried within this holiest of sites.  The grounds of the
+cemetery are wellkept and the plants and shrubs have been
+maintained at short stature.  There are small walkways leading
+to the east and west.  A large church lies ahead.
+~
+53 142639168 1
+D0
+A small walkway leads to the north.
+~
+~
+0 0 5396
+D1
+~
+~
+0 0 5394
+D2
+A connecting hallway lies beyond the gates to the south.
+~
+gates~
+1 0 5391
+D3
+~
+~
+0 0 5393
+S
+#5393
+&+WThe Cemetery of Fort Marigot&N~
+   The cemetery of Fort Marigot lies here and through out the
+surrounding area.  Large tombstones of ivory and marble mark
+the graves of those buried within this holiest of sites.  The
+grounds of the cemetery are wellkept and the plants and shrubs
+have been maintained at short stature.  A thick area of dense
+forest growth lies to the south.  The cemetery continues to
+the east.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5411
+D1
+~
+~
+0 0 5392
+D2
+~
+~
+0 0 5395
+S
+#5394
+&+WThe Cemetery of Fort Marigot&N~
+   The cemetery of Fort Marigot lies here and through out the
+surrounding area.  Large tombstones of ivory and marble mark
+the graves of those buried within this holiest of sites.  The
+grounds of the cemetery are wellkept and the plants and shrubs
+have been maintained at short stature.  A thick area of dense
+forest growth lies to the south and to the east.  The cemetery
+continues to the west.
+~
+53 142639168 1
+D0
+~
+~
+0 0 5412
+D2
+~
+~
+0 0 5402
+D3
+The cemetery continues in that direction.
+~
+~
+0 0 5392
+S
+#5395
+&+gA Dense Growth&N~
+   Within this untouched dense growth of forest, heavy brush grows
+wild.  Here under the canopy of these large trees, countless vines
+drape from limb to limb. On the ground, decomposing debris of
+organic waste collects in large piles here.  Living among the natural
+flora of plant life are the many species of animals found living on
+the tree tops above.  The sounds of movement can be heard in the trees
+above.  There is only one exit out.
+~
+53 142643273 3
+D0
+The cemetery lies to the north.
+~
+~
+0 0 5393
+S
+#5396
+&+WBefore the Holy Church of Centaurs&N~
+   This small walkway leads through the cemetery toward a sacred
+site of the Centaurs of Fort Marigot. The Holy Church of the
+Centaurs lies to the north. It rises several stories above the
+ground and has a small bell tower. There are small shrubs planted
+against the church on both sides of the entrance.  Mourners can
+be seen all around at the graves of their loved ones as there is a
+standard graveyard along the south side of the castle. There
+are exits all around leading to different parts of Fort Marigot.
+~
+53 142639168 1
+D0
+A church lies beyond the oaken doors to the north.
+~
+oaken doors~
+1 0 5397
+D1
+~
+~
+0 0 5412
+D2
+The cemetery of Fort Marigot can be seen to the south.
+~
+~
+0 0 5392
+D3
+~
+~
+0 0 5411
+S
+#5397
+&+WThe Church Ailse&N~
+   Blessed by the centaur elders upon the construction of Fort
+Marigot, this great church is a well-known and beloved landmark to
+all centaurs.  The interior of the church is marked with a ribbed
+vault and a pointed arch.  This center ailse of the church is lined
+with imported red carpet leading towards the altar.  Rows of pews can
+be seen on both sides of the church facing the altar to the north. The
+exit north leads to the altar while the other exits lead to various
+parts of the church.
+~
+53 142643272 0
+D0
+The church ailse continues north.
+~
+~
+0 0 5398
+D1
+~
+~
+0 0 5408
+D2
+The cemetery lies outside the door.
+~
+oaken doors~
+1 0 5396
+D3
+~
+~
+0 0 5407
+S
+#5398
+&+WThe Church Ailse&N~
+   Blessed by the centaur elders upon the construction of Fort
+Marigot, this great church is a well-known and beloved landmark to
+all centaurs.  The interior of the church is marked with a ribbed
+vault and a pointed arch.  This center ailse of the church is lined
+with imported red carpet leading towards the altar.  Rows of pews can
+be seen on both sides of the church facing the altar to the north.
+The great altar is just north of the ailse. There are other exits
+leading to various parts of the church.
+~
+53 142643272 0
+D0
+The altar is north.
+~
+~
+0 0 5399
+D1
+~
+~
+0 0 5410
+D2
+The church ailse continues south.
+~
+~
+0 0 5397
+D3
+~
+~
+0 0 5409
+S
+#5399
+&+WThe Holy Altar&N~
+   A large altar draped with embroidered white silken sheets rests
+in the center of this room.  There are two large candles on each of
+the sides of the altar. They burn slowly and flood the nearby area with
+a golden aura. There is a large prayer book opened to some page marked
+with a satin book mark on the altar.  Several gargoyle figurines keep
+watch over all in their site. There are exits all around leading to
+various parts of the church.
+~
+53 142643272 0
+D2
+~
+~
+0 0 5398
+S
+#5400
+&+gA Grassy Walkway&N~
+   A small cottage lies here along the grassy pathway.  It is
+constructed of wooden planks of different sources.  There are
+no signs of age of the cottage.  The cottage appears to be newly
+built.  Small shrubs have been planted along the left side of
+the enterance.  The pathway here is covered with long wild grass
+and other types of natural flora.  There appears to be a small
+stone path leading in an east-west direction along this grassy
+pathway. The grounds further west are marked with marble
+tombstones. There are two exits leading away from this room.
+~
+53 142639168 2
+D0
+A small cottage lies beyond this door.
+~
+oaken door~
+1 0 5403
+D1
+A grassy clearing is further east.
+~
+~
+0 0 5370
+D3
+The grassy walkway continues west.
+~
+~
+0 0 5401
+S
+#5401
+&+gA Grassy Walkway&N~
+   This grassy pathway leads further west.  It to, as is the
+grassy clearing, to the east is covered with long wild grass
+and other types of natural flora.  There appears to be a small
+stone path leading in an east-west direction along this grassy
+pathway.  A small cottage can be seen just west.  The grounds
+further west are marked with marble tombstones. There are two
+exits leading away from this room.
+~
+53 142639168 2
+D1
+The grassy walkway continues east.
+~
+~
+0 0 5400
+D3
+The grassy walkway continues west.
+~
+~
+0 0 5402
+S
+#5402
+&+gA Grassy Walkway&N~
+   Just to the north, the area changes into a cemetery.  That
+area is marked with graves and other future burial sites.  The
+grounds to the north are well kept and do not contain long wild
+grass, as is seen here, and further east along this pathway.
+This grassy pathway leads further east.  It is  covered with long
+wild grass and other types of natural flora.  There appears to
+be a small stone path leading in an east-west direction along
+this grassy pathway.  A small cottage can be seen just to the east.
+There are two exits leading away from this part of the pathway.
+~
+53 142639168 2
+D0
+The cemetery of the centaurs is north.
+~
+~
+0 0 5394
+D1
+~
+~
+0 0 5401
+S
+#5403
+&+bA Small Bedroom&N~
+  The room here is small and cozy and serves as a small bedroom
+for tired centaurs.  There are two large piles of straw and two
+large cots on opposite sides of the room.  In each of the areas,
+there are sleeping centaurs of varying age catching up on much
+needed rest.  The room is filled with the sounds of snoring. There
+are two exits from this room leading into different rooms.
+~
+53 142643272 0
+D0
+A small backroom lies in that direction.
+~
+~
+0 0 5405
+D2
+A grassy walkway lies beyond this doorway.
+~
+door oaken~
+1 0 5400
+D5
+A small room lies beyond this trapdoor.
+~
+trapdoor door~
+1 0 5404
+S
+#5404
+&+GAn Underground Cellar&N~
+   Several feet below the sleeping quarters, this cellar
+deteriorates with time.  The support beams show excessive signs
+of age.  Filled with cracks and invested with termites, these beams
+manage to hold the room up. The walls and the floor of this cellar
+are shaped from the earth. There are signs of new construction work
+in this room.  There is only one exit out.
+~
+53 142643272 0
+D4
+A small bedroom lies beyond this trapdoor.
+~
+trapdoor~
+1 0 5403
+S
+#5405
+&+bA Large Backroom&N~
+   This backroom is filled with a variety of items left for
+storage.  From training weapons to old and sacred scripts, the
+chest and shelves here hold and store a variety of objects.
+Covered in dust and cobwebs,  these items age quietly as time
+passes on. There are strange potted plants unusually growing in
+this room shrouded in darkness and dust. There is only one exit
+leading out of this room.
+~
+53 142643272 0
+D2
+A small bedroom lies to the south.
+~
+~
+0 0 5403
+S
+#5406
+&+bA Small Hut&N~
+    The hut here is small and comfortable.  There is a small
+window opening up to the city on the north wall. The walls of
+this small hut are of stucco and the floor is of dirt and pebbles.
+Scattered on the ground here, hay offers a soft covering from the
+floor.  This establishment serves as a home for a small family of
+centaurs. There are no signs of deterioration within this room.
+There is only one exit out of this hut.
+~
+53 142643272 0
+D0
+~
+~
+0 0 5344
+S
+#5407
+&+yA Row of the Pews&N~
+   The rows of pews here are constructed from oak.  Each pew appears
+to be hand-made by the greatest of craftsman. The wood is very well
+polished and reflects the light from the windows around the church.
+On a couple of pews, a few citizens of the fort can be seen here
+praying to their beloved god. Further beyond the pews on the west wall
+of the church, there are two booths for confession. Both curtains appear
+to have been drawn closed. Lots of mumbling can be heard emanating from
+these rooms.
+~
+53 142643272 0
+D1
+The church ailse is east.
+~
+~
+0 0 5397
+S
+#5408
+&+yA Row of Pews&N~
+   The rows of pews here are constructed from oak.  Each pew appears
+to be hand-made by the greatest of craftsman. The wood is very well
+polished and reflects the light from the windows around the church.
+On a couple of pews, a few citizens of the fort can be seen here
+praying to their beloved god. Further beyond the pews on the west wall
+of the church, there are two booths for confession. Both curtains appear
+to have been drawn closed. Lots of mumbling can be heard emanating from
+these rooms.
+~
+53 142643272 0
+D3
+The church ailse is west.
+~
+~
+0 0 5397
+S
+#5409
+&+yA Row of Pews&N~
+   The rows of pews here are constructed from oak.  Each pew appears
+to be hand-made by the greatest of craftsman. The wood is very well
+polished and reflects the light from the windows around the church.
+On a couple of pews, a few citizens of the fort can be seen here
+praying to their beloved god. Further beyond the pews on the west wall
+of the church, there are two booths for confession. Both curtains appear
+to have been drawn closed. Lots of mumbling can be heard emanating from
+these rooms.
+~
+53 142643272 0
+D1
+The church ailse is east.
+~
+~
+0 0 5398
+S
+#5410
+&+yA Row of Pews&N~
+   The rows of pews here are constructed from oak.  Each pew appears
+to be hand-made by the greatest of craftsman. The wood is very well
+polished and reflects the light from the windows around the church.
+On a couple of pews, a few citizens of the fort can be seen here
+praying to their beloved god. Further beyond the pews on the west wall
+of the church, there are two booths for confession. Both curtains appear
+to have been drawn closed. Lots of mumbling can be heard emanating from
+these rooms.
+~
+53 142643272 0
+D3
+The church ailse is west.
+~
+~
+0 0 5398
+S
+#5411
+&+WThe Cemetery of Fort Marigot&N~
+   The cemetery of Fort Marigot lies here and through out the
+surrounding area.  Large tombstones of ivory and marble mark
+the graves of those buried within this holiest of sites.  The
+grounds of the cemetery are wellkept and the plants and shrubs
+have been maintained at short stature.  A large church can be
+seen to the north.  There are large windows in the church wall
+to the north.  Through this window, many citizens can be seen
+praying.  There are two exits leading away from this part of
+the cemetery.
+~
+53 142639168 1
+D1
+~
+~
+0 0 5396
+D2
+~
+~
+0 0 5393
+S
+#5412
+&+WThe Cemetery of Fort Marigot&N~
+   The cemetery of Fort Marigot lies here and through out the
+surrounding area.  Large tombstones of ivory and marble mark
+the graves of those buried within this holiest of sites.  The
+grounds of the cemetery are wellkept and the plants and shrubs
+have been maintained at short stature.  A large church can be
+seen to the north.  There are large windows in the church wall
+to the north.  Through this window, many citizens can be seen
+praying.  There are two exits leading away from this part of
+the cemetery.
+~
+53 142639168 1
+D2
+The cemetery continues to the south.
+~
+~
+0 0 5394
+D3
+~
+~
+0 0 5396
+S
+#5413
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&n~
+   The road here is about twenty-five feet wide. This Pathway of
+the Princess is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  Foraging about are a few forest animals. The castle of the
+princess can be seen further east from here where a large gathering
+appears to be taking place.  This part of the pathway is free from
+rubbish and other debris.
+~
+53 134250560 1
+D1
+~
+~
+0 0 5414
+D3
+~
+~
+0 0 5345
+S
+#5414
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&n~
+   The road here is about twenty-five feet wide. This Pathway of
+the Princess is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  Foraging about are a few forest animals. The castle of the
+princess can be seen further east from here where a large gathering
+appears to be taking place.  This part of the pathway is free from
+rubbish and other debris.
+~
+53 134250560 1
+D1
+~
+~
+0 0 5415
+D3
+~
+~
+0 0 5413
+S
+#5415
+&+bThe Pa&+Bthw&+bay of the Pri&+Bnces&+bs&n~
+   The road here is about twenty-five feet wide. This Pathway of
+the Princess is one of the major arteries serving the Fort of Marigot.
+Dark granite and slabs of marble form an interlocking mosaic of masonry
+on this well-travelled road.  A dark forest lines the north part of this
+pathway.  Foraging about are a few forest animals. The castle of the
+princess can be seen further east from here where a large gathering
+appears to be taking place.  This part of the pathway is free from
+rubbish and other debris.
+~
+53 134250560 1
+D1
+~
+gates~
+1 0 5416
+D3
+~
+~
+0 0 5414
+S
+#5416
+&+yBefore the &+WGates &+yof Fort &+MMarigot&n~
+    Many eyes from above mark every movement below.  The walls of
+Fort Marigot are of solid blocks of granite.  A few of the blocks
+have begun to show signs of age with small cracks in their walls.
+The entryway into Fort Marigot is lined with marble. Beyond the
+iron gates lies the city of Fort Marigot, the home of the centaurs.
+There are two exits leading away in opposite directions.
+~
+53 134250560 1
+D1
+~
+~
+0 0 5417
+D3
+~
+gates~
+1 0 5415
+S
+#5417
+&+yA Small Dirtpath&n~
+    A small dirtpath leads in an east-west direction cutting
+through the dense forest seen further south.  There are prints
+left by many different types of creatures in the earth here. A
+large fort structure can be seen further to the east.  Many eyes
+from the sentry posts watch your every move.  There are two exits
+leading away in opposite directions.
+~
+53 134250560 1
+D1
+~
+~
+0 0 224023
+D3
+~
+~
+0 0 5416
+S

@@ -1,0 +1,794 @@
+#870
+&+CCrakkaros' Liar&n~
+87470 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 87039 0 1 100 0 0 0
+*     north exit from "An Old Path thru the Forest" to
+*     "Inside a Grass Hut" - closed
+*
+D 0 87386 2 1 100 0 0 0
+*     south exit from "Inside a Grass Hut" to
+*     "An Old Path thru the Forest" - closed
+*
+D 0 87040 5 2 100 0 0 0
+*     down exit from "A Tower Study" to
+*     "A Spiral Staircase" - closed/locked
+*
+D 0 87466 4 2 100 0 0 0
+*     up exit from "A Spiral Staircase" to
+*     "A Tower Study" - closed/locked
+*
+D 0 87084 0 2 100 0 0 0
+*     north exit from "The Gates to the Temple" to
+*     "Inside the Gates of the Temple" - closed/locked
+*
+D 0 87085 2 2 100 0 0 0
+*     south exit from "Inside the Gates of the Temple" to
+*     "The Gates to the Temple" - closed/locked
+*
+D 0 87097 1 1 100 0 0 0
+*     east exit from "A Grand Foyer" to
+*     "Eastern Hallway" - closed
+*
+D 0 87129 3 1 100 0 0 0
+*     west exit from "Eastern Hallway" to
+*     "A Grand Foyer" - closed
+*
+D 0 87109 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Large Study" - closed
+*
+D 0 87262 1 1 100 0 0 0
+*     east exit from "A Large Study" to
+*     "Northern Hallway" - closed
+*
+D 0 87115 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Large Study" - closed
+*
+D 0 87269 1 1 100 0 0 0
+*     east exit from "A Large Study" to
+*     "Northern Hallway" - closed
+*
+D 0 87117 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Large Study" - closed
+*
+D 0 87277 3 1 100 0 0 0
+*     west exit from "A Large Study" to
+*     "Northern Hallway" - closed
+*
+D 0 87131 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87244 2 1 100 0 0 0
+*     south exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87131 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87245 0 1 100 0 0 0
+*     north exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87134 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87238 2 1 100 0 0 0
+*     south exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87134 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87239 0 1 100 0 0 0
+*     north exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87137 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87233 2 1 100 0 0 0
+*     south exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87137 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87232 0 1 100 0 0 0
+*     north exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87138 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87231 2 1 100 0 0 0
+*     south exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87138 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87230 0 1 100 0 0 0
+*     north exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87139 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87228 2 1 100 0 0 0
+*     south exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87139 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Study" - closed
+*
+D 0 87229 0 1 100 0 0 0
+*     north exit from "A Small Study" to
+*     "Eastern Hallway" - closed
+*
+D 0 87160 5 1 100 0 0 0
+*     down exit from "A Spiral Staircase" to
+*     "A Hidden Passage" - closed
+*
+D 0 87387 4 1 100 0 0 0
+*     up exit from "A Hidden Passage" to
+*     "A Spiral Staircase" - closed
+*
+D 0 87166 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87298 3 1 100 0 0 0
+*     west exit from "A Small Bedroom" to
+*     "Northern Hallway" - closed
+*
+D 0 87166 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87299 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "Northern Hallway" - closed
+*
+D 0 87167 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87300 3 1 100 0 0 0
+*     west exit from "A Small Bedroom" to
+*     "Northern Hallway" - closed
+*
+D 0 87167 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87301 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "Northern Hallway" - closed
+*
+D 0 87170 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87302 3 1 100 0 0 0
+*     west exit from "A Small Sitting Room" to
+*     "Northern Hallway" - closed
+*
+D 0 87170 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87303 1 1 100 0 0 0
+*     east exit from "A Small Sitting Room" to
+*     "Northern Hallway" - closed
+*
+D 0 87171 1 1 100 0 0 0
+*     east exit from "Northern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87308 3 1 100 0 0 0
+*     west exit from "A Small Sitting Room" to
+*     "Northern Hallway" - closed
+*
+D 0 87171 3 1 100 0 0 0
+*     west exit from "Northern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87309 1 1 100 0 0 0
+*     east exit from "A Small Sitting Room" to
+*     "Northern Hallway" - closed
+*
+D 0 87195 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87337 2 1 100 0 0 0
+*     south exit from "A Small Bedroom" to
+*     "Eastern Hallway" - closed
+*
+D 0 87195 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 87338 0 1 100 0 0 0
+*     north exit from "A Small Bedroom" to
+*     "Eastern Hallway" - closed
+*
+D 0 87198 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87332 2 1 100 0 0 0
+*     south exit from "A Small Sitting Room" to
+*     "Eastern Hallway" - closed
+*
+D 0 87198 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87331 0 1 100 0 0 0
+*     north exit from "A Small Sitting Room" to
+*     "Eastern Hallway" - closed
+*
+D 0 87201 0 1 100 0 0 0
+*     north exit from "Eastern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87317 2 1 100 0 0 0
+*     south exit from "A Small Sitting Room" to
+*     "Eastern Hallway" - closed
+*
+D 0 87201 2 1 100 0 0 0
+*     south exit from "Eastern Hallway" to
+*     "A Small Sitting Room" - closed
+*
+D 0 87318 0 1 100 0 0 0
+*     north exit from "A Small Sitting Room" to
+*     "Eastern Hallway" - closed
+*
+D 0 87216 5 2 100 0 0 0
+*     down exit from "A Spiral Staircase" to
+*     "A Hidden Cell" - closed/locked
+*
+D 0 87220 4 2 100 0 0 0
+*     up exit from "A Hidden Cell" to
+*     "A Spiral Staircase" - closed/locked
+*
+D 0 87218 4 2 100 0 0 0
+*     up exit from "A Spiral Staircase" to
+*     "The Eastern Tower Study" - closed/locked
+*
+D 0 87219 5 2 100 0 0 0
+*     down exit from "The Eastern Tower Study" to
+*     "A Spiral Staircase" - closed/locked
+*
+D 0 87296 4 2 100 0 0 0
+*     up exit from "A Spiral Staircase" to
+*     "The Northern Tower Study" - closed/locked
+*
+D 0 87297 5 2 100 0 0 0
+*     down exit from "The Northern Tower Study" to
+*     "A Spiral Staircase" - closed/locked
+*
+D 0 87354 0 2 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87355 2 2 100 0 0 0
+*     south exit from "A Temple Prison" to
+*     "A Dark Hallway" - closed/locked
+*
+D 0 87362 1 2 100 0 0 0
+*     east exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87384 3 2 100 0 0 0
+*     west exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87363 3 2 100 0 0 0
+*     west exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87385 1 2 100 0 0 0
+*     east exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87364 1 2 100 0 0 0
+*     east exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87382 3 2 100 0 0 0
+*     west exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87365 3 2 100 0 0 0
+*     west exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87383 1 2 100 0 0 0
+*     east exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87366 1 2 100 0 0 0
+*     east exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87380 3 2 100 0 0 0
+*     west exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87367 3 2 100 0 0 0
+*     west exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87381 1 2 100 0 0 0
+*     east exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87368 1 2 100 0 0 0
+*     east exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87378 3 2 100 0 0 0
+*     west exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87369 3 2 100 0 0 0
+*     west exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87379 1 2 100 0 0 0
+*     east exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87370 1 2 100 0 0 0
+*     east exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87376 3 2 100 0 0 0
+*     west exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87371 3 2 100 0 0 0
+*     west exit from "A Temple Prison" to
+*     "A Temple Prison Cell" - closed/locked
+*
+D 0 87377 1 2 100 0 0 0
+*     east exit from "A Temple Prison Cell" to
+*     "A Temple Prison" - closed/locked
+*
+D 0 87418 5 6 100 0 0 0
+*     down exit from "The Temple's Basement" to
+*     "A Dark Tunnel" - closed/locked/secret
+*
+D 0 87428 4 6 100 0 0 0
+*     up exit from "A Dark Tunnel" to
+*     "The Temple's Basement" - closed/locked/secret
+*
+*
+O 0 87004 2 87219 100 0 0 0        * a wooden shelf
+P 1 87005 1 87004 100 0 0 0        *   a glowing spellbook
+O 0 87012 37 87228 100 0 0 0       * a wooden shelf
+O 0 87012 37 87229 100 0 0 0       * a wooden shelf
+O 0 87012 37 87230 100 0 0 0       * a wooden shelf
+O 0 87012 37 87231 100 0 0 0       * a wooden shelf
+O 0 87012 37 87232 100 0 0 0       * a wooden shelf
+O 0 87012 37 87233 100 0 0 0       * a wooden shelf
+O 0 87012 37 87238 100 0 0 0       * a wooden shelf
+O 0 87012 37 87239 100 0 0 0       * a wooden shelf
+O 0 87012 37 87242 100 0 0 0       * a wooden shelf
+O 0 87012 37 87243 100 0 0 0       * a wooden shelf
+O 0 87012 37 87244 100 0 0 0       * a wooden shelf
+O 0 87012 37 87245 100 0 0 0       * a wooden shelf
+P 1 87077 1 87012 100 0 0 0        *   staff of pure ice
+O 0 87012 37 87248 100 0 0 0       * a wooden shelf
+O 0 87012 37 87250 100 0 0 0       * a wooden shelf
+O 0 87012 37 87251 100 0 0 0       * a wooden shelf
+O 0 87012 37 87252 100 0 0 0       * a wooden shelf
+O 0 87012 37 87253 100 0 0 0       * a wooden shelf
+O 0 87012 37 87254 100 0 0 0       * a wooden shelf
+O 0 87012 37 87255 100 0 0 0       * a wooden shelf
+O 0 87012 37 87256 100 0 0 0       * a wooden shelf
+O 0 87012 37 87257 100 0 0 0       * a wooden shelf
+O 0 87012 37 87258 100 0 0 0       * a wooden shelf
+O 0 87012 37 87259 100 0 0 0       * a wooden shelf
+O 0 87012 37 87260 100 0 0 0       * a wooden shelf
+O 0 87012 37 87261 100 0 0 0       * a wooden shelf
+O 0 87012 37 87279 100 0 0 0       * a wooden shelf
+O 0 87012 37 87280 100 0 0 0       * a wooden shelf
+O 0 87012 37 87281 100 0 0 0       * a wooden shelf
+O 0 87012 37 87282 100 0 0 0       * a wooden shelf
+O 0 87012 37 87283 100 0 0 0       * a wooden shelf
+O 0 87012 37 87284 100 0 0 0       * a wooden shelf
+P 1 87065 1 87012 100 0 0 0        *   small white potion
+O 0 87012 37 87285 100 0 0 0       * a wooden shelf
+O 0 87012 37 87288 100 0 0 0       * a wooden shelf
+O 0 87012 37 87289 100 0 0 0       * a wooden shelf
+O 0 87012 37 87290 100 0 0 0       * a wooden shelf
+O 0 87012 37 87291 100 0 0 0       * a wooden shelf
+O 0 87012 37 87292 100 0 0 0       * a wooden shelf
+P 1 87047 1 87012 100 0 0 0        *   a temple badge
+O 0 87004 2 87297 100 0 0 0        * a wooden shelf
+P 1 87074 1 87004 100 0 0 0        *   a blue potion
+O 0 87072 1 87376 100 0 0 0        * a corpse
+P 1 87071 1 87072 100 0 0 0        *   a temple badge
+O 0 87062 1 87418 100 0 0 0        * an ice sculpture
+O 0 87076 1 87428 100 0 0 0        * a large sign
+O 0 87063 9 87436 100 0 0 0        * a small glyph
+O 0 87063 9 87440 100 0 0 0        * a small glyph
+O 0 87063 9 87445 100 0 0 0        * a small glyph
+O 0 87063 9 87449 100 0 0 0        * a small glyph
+O 0 87063 9 87453 100 0 0 0        * a small glyph
+O 0 87063 9 87456 100 0 0 0        * a small glyph
+O 0 87063 9 87459 100 0 0 0        * a small glyph
+O 0 87063 9 87462 100 0 0 0        * a small glyph
+O 0 87063 9 87464 100 0 0 0        * a small glyph
+*
+M 0 87001 1 87007 100 0 0 0        * a sleek elf
+R 1 87000 1 87007 100 0 0 0        * a burly centaur (being ridden)
+E 1 87000 1 35 100 0 0 0           *   a studded saddle
+G 1 87078 1 0 100 0 0 0            *    a woodsman's quiver
+M 0 87034 9 87016 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87003 4 87017 100 0 0 0        * a frisky squirrel
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87035 6 87017 100 0 0 0        * a large doe
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87019 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87035 6 87019 100 0 0 0        * a large doe
+M 0 87034 9 87020 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87003 4 87022 100 0 0 0        * a frisky squirrel
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87035 6 87022 100 0 0 0        * a large doe
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87023 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87002 4 87025 100 0 0 0        * a small rabbit
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87026 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87003 4 87027 100 0 0 0        * a frisky squirrel
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87002 4 87028 100 0 0 0        * a small rabbit
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87028 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87035 6 87028 100 0 0 0        * a large doe
+M 0 87035 6 87030 100 0 0 0        * a large doe
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87002 4 87031 100 0 0 0        * a small rabbit
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87031 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87003 4 87032 100 0 0 0        * a frisky squirrel
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87002 4 87033 100 0 0 0        * a small rabbit
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87034 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87034 9 87035 100 0 0 0        * a large deer
+G 1 87080 20 0 100 0 0 0           *    a piece of animal fur
+M 0 87035 6 87035 100 0 0 0        * a large doe
+M 0 87008 1 87040 100 0 0 0        * Burnherf
+G 1 87046 2 0 100 0 0 0            *    a temple badge
+M 0 87033 7 87057 100 0 0 0        * a temple paladin
+M 0 87032 2 87058 100 0 0 0        * a temple cleric
+M 0 87033 7 87060 100 0 0 0        * a temple paladin
+M 0 87033 7 87061 100 0 0 0        * a temple paladin
+M 0 87033 7 87062 100 0 0 0        * a temple paladin
+M 0 87032 2 87064 100 0 0 0        * a temple cleric
+M 0 87033 7 87065 100 0 0 0        * a temple paladin
+M 0 87033 7 87068 100 0 0 0        * a temple paladin
+M 0 87033 7 87073 100 0 0 0        * a temple paladin
+M 0 87004 6 87084 100 0 0 0        * a gate guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87004 6 87084 100 0 0 0        * a gate guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87004 6 87084 100 0 0 0        * a gate guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87001 1 0 100 0 0 0            *    a small steel key
+F 1 87004 6 87084 100 0 0 0        * a gate guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87004 6 87084 100 0 0 0        * a gate guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87004 6 87084 100 0 0 0        * a gate guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87109 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87111 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87113 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87115 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87115 100 0 0 0       * a temple cleric
+M 0 87009 22 87117 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87117 100 0 0 0       * a temple cleric
+M 0 87009 22 87130 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87131 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87133 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87135 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87135 100 0 0 0       * a temple cleric
+M 0 87010 10 87138 100 0 0 0       * a temple cleric
+M 0 87009 22 87145 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87146 100 0 0 0       * a temple cleric
+M 0 87009 22 87147 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87148 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87161 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87166 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87168 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87170 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87171 100 0 0 0       * a temple cleric
+M 0 87009 22 87172 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87173 100 0 0 0       * a temple cleric
+M 0 87009 22 87174 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87193 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87009 22 87195 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87196 100 0 0 0       * a temple cleric
+M 0 87009 22 87197 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87197 100 0 0 0       * a temple cleric
+M 0 87009 22 87215 100 0 0 0       * a temple guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87010 10 87217 100 0 0 0       * a temple cleric
+M 0 87007 12 87218 100 0 0 0       * a tower guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87010 2 0 100 0 0 0            *    a tower key
+F 1 87007 12 87218 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87007 12 87218 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87007 12 87218 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87006 1 87219 100 0 0 0        * Malinok
+E 1 87009 1 15 100 0 0 0           *   a band of drow fingers
+E 1 87045 2 24 100 0 0 0           *   a temple badge
+M 0 87005 1 87223 100 0 0 0        * A dark drow
+E 1 87008 1 2 100 0 0 0            *   a glowing stone ring
+G 1 87007 1 0 100 0 0 0            *    a centaur's tail
+M 0 87024 12 87228 100 0 0 0       * a temple cleric
+M 0 87024 12 87230 100 0 0 0       * a temple cleric
+M 0 87024 12 87231 100 0 0 0       * a temple cleric
+M 0 87024 12 87238 100 0 0 0       * a temple cleric
+M 0 87024 12 87239 100 0 0 0       * a temple cleric
+M 0 87023 12 87253 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87255 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87259 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87260 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87024 12 87266 100 0 0 0       * a temple cleric
+M 0 87023 12 87267 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87024 12 87269 100 0 0 0       * a temple cleric
+M 0 87024 12 87270 100 0 0 0       * a temple cleric
+M 0 87023 12 87271 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87024 12 87274 100 0 0 0       * a temple cleric
+M 0 87023 12 87275 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87277 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87279 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87023 12 87281 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87024 12 87283 100 0 0 0       * a temple cleric
+M 0 87024 12 87288 100 0 0 0       * a temple cleric
+M 0 87023 12 87291 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87024 12 87292 100 0 0 0       * a temple cleric
+M 0 87023 12 87293 100 0 0 0       * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87007 12 87296 100 0 0 0       * a tower guard
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87010 2 0 100 0 0 0            *    a tower key
+F 1 87007 12 87296 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87007 12 87296 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+F 1 87007 12 87296 100 0 0 0       * a tower guard (following)
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87011 1 87297 100 0 0 0        * Maial
+E 1 87013 1 21 100 0 0 0           *   a dangling pearl
+E 1 87044 2 24 100 0 0 0           *   a temple badge
+M 0 87025 4 87299 100 0 0 0        * a temple paladin
+M 0 87025 4 87300 100 0 0 0        * a temple paladin
+M 0 87026 8 87306 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87307 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87312 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87313 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87325 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87326 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87026 8 87335 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87046 2 0 100 0 0 0            *    a temple badge
+M 0 87026 8 87336 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+M 0 87025 4 87337 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87045 2 0 100 0 0 0            *    a temple badge
+M 0 87025 4 87338 100 0 0 0        * a temple paladin
+E 1 87002 58 16 100 0 0 0          *   a long sword
+G 1 87044 2 0 100 0 0 0            *    a temple badge
+M 0 87012 16 87354 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+E 1 87014 14 17 100 0 0 0          *   a temple longsword
+F 1 87012 16 87354 100 0 0 0       * a temple prison guard (following)
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+E 1 87014 14 17 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87362 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87363 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87364 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87365 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87366 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87367 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87368 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87369 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87370 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87012 16 87371 100 0 0 0       * a temple prison guard
+E 1 87014 14 16 100 0 0 0          *   a temple longsword
+G 1 87015 11 0 100 0 0 0           *    A prison key
+M 0 87031 4 87376 100 0 0 0        * a green dragon
+M 0 87031 4 87376 100 0 0 0        * a green dragon
+M 0 87031 4 87376 100 0 0 0        * a green dragon
+G 1 87073 1 0 100 0 0 0            *    a dragon's tail tip
+M 0 87031 4 87376 100 0 0 0        * a green dragon
+M 0 87036 5 87377 100 0 0 0        * a troll
+M 0 87036 5 87377 100 0 0 0        * a troll
+M 0 87036 5 87377 100 0 0 0        * a troll
+M 0 87036 5 87377 100 0 0 0        * a troll
+G 1 87079 1 0 100 0 0 0            *    a crown of the lost swamp
+M 0 87036 5 87377 100 0 0 0        * a troll
+M 0 87020 1 87378 100 0 0 0        * a bantu devil
+G 1 87039 1 0 100 0 0 0            *    a devils horn
+M 0 87021 2 87378 100 0 0 0        * a bantu devil
+G 1 87040 1 0 100 0 0 0            *    a devil's eye
+M 0 87021 2 87378 100 0 0 0        * a bantu devil
+G 1 87041 1 0 100 0 0 0            *    a devil's hand
+M 0 87022 3 87379 100 0 0 0        * a goblin
+M 0 87022 3 87379 100 0 0 0        * a goblin
+G 1 87043 1 0 100 0 0 0            *    a goblin's token
+M 0 87022 3 87379 100 0 0 0        * a goblin
+M 0 87018 2 87380 100 0 0 0        * an illithid
+G 1 87035 1 0 100 0 0 0            *    an illithid's head
+M 0 87018 2 87380 100 0 0 0        * an illithid
+G 1 87036 1 0 100 0 0 0            *    an illithid's arm
+M 0 87019 2 87381 100 0 0 0        * a demon
+E 1 87038 1 3 100 0 0 0            *   a demons necklace
+M 0 87019 2 87381 100 0 0 0        * a demon
+M 0 87016 2 87382 100 0 0 0        * a red dragon
+G 1 87028 1 0 100 0 0 0            *    a dragon's scale
+M 0 87016 2 87382 100 0 0 0        * a red dragon
+G 1 87029 1 0 100 0 0 0            *    a dragon's tooth
+M 0 87017 3 87383 100 0 0 0        * a dragonkin
+G 1 87031 1 0 100 0 0 0            *    an ear of a dragonkin
+M 0 87017 3 87383 100 0 0 0        * a dragonkin
+G 1 87032 1 0 100 0 0 0            *    a piece of dragonkin skin
+M 0 87017 3 87383 100 0 0 0        * a dragonkin
+G 1 87033 1 0 100 0 0 0            *    a dragonkin's foot
+M 0 87013 5 87384 100 0 0 0        * a ravishing ogre
+G 1 87016 1 0 100 0 0 0            *    an ogre's finger
+M 0 87013 5 87384 100 0 0 0        * a ravishing ogre
+G 1 87017 1 0 100 0 0 0            *    an ogre's toe
+M 0 87013 5 87384 100 0 0 0        * a ravishing ogre
+G 1 87018 1 0 100 0 0 0            *    an ogre's eye
+M 0 87013 5 87384 100 0 0 0        * a ravishing ogre
+G 1 87019 1 0 100 0 0 0            *    an ogre's ear
+M 0 87013 5 87384 100 0 0 0        * a ravishing ogre
+G 1 87020 1 0 100 0 0 0            *    an ogre's nose
+M 0 87015 3 87385 100 0 0 0        * a hunched orc
+E 1 87025 2 16 100 0 0 0           *   a piece of stone
+M 0 87015 3 87385 100 0 0 0        * a hunched orc
+E 1 87025 2 16 100 0 0 0           *   a piece of stone
+M 0 87015 3 87385 100 0 0 0        * a hunched orc
+E 1 87026 1 16 100 0 0 0           *   a sharp piece of stone
+M 0 87014 1 87386 100 0 0 0        * Burnhard
+M 0 87030 1 87410 100 0 0 0        * a wailing woman
+M 0 87028 19 87436 100 0 0 0       * an ice devil
+M 0 87028 19 87436 100 0 0 0       * an ice devil
+M 0 87029 10 87436 100 0 0 0       * an ice golem
+M 0 87029 10 87438 100 0 0 0       * an ice golem
+M 0 87028 19 87440 100 0 0 0       * an ice devil
+M 0 87028 19 87440 100 0 0 0       * an ice devil
+M 0 87029 10 87441 100 0 0 0       * an ice golem
+M 0 87029 10 87443 100 0 0 0       * an ice golem
+M 0 87029 10 87444 100 0 0 0       * an ice golem
+M 0 87028 19 87445 100 0 0 0       * an ice devil
+M 0 87028 19 87445 100 0 0 0       * an ice devil
+M 0 87029 10 87447 100 0 0 0       * an ice golem
+M 0 87028 19 87449 100 0 0 0       * an ice devil
+M 0 87028 19 87449 100 0 0 0       * an ice devil
+M 0 87029 10 87451 100 0 0 0       * an ice golem
+M 0 87028 19 87453 100 0 0 0       * an ice devil
+M 0 87028 19 87453 100 0 0 0       * an ice devil
+M 0 87029 10 87455 100 0 0 0       * an ice golem
+M 0 87028 19 87456 100 0 0 0       * an ice devil
+M 0 87028 19 87456 100 0 0 0       * an ice devil
+M 0 87028 19 87458 100 0 0 0       * an ice devil
+M 0 87028 19 87458 100 0 0 0       * an ice devil
+M 0 87028 19 87461 100 0 0 0       * an ice devil
+M 0 87028 19 87461 100 0 0 0       * an ice devil
+M 0 87028 19 87463 100 0 0 0       * an ice devil
+M 0 87028 19 87463 100 0 0 0       * an ice devil
+M 0 87028 19 87463 100 0 0 0       * an ice devil
+M 0 87029 10 87464 100 0 0 0       * an ice golem
+M 0 87029 10 87464 100 0 0 0       * an ice golem
+M 0 87027 1 87465 100 0 0 0        * Crakkaros
+G 1 87066 1 0 100 0 0 0            *    a sword of pure ice
+G 1 87067 1 0 100 0 0 0            *    claws of the dragon Crakkaros
+G 1 87068 1 0 100 0 0 0            *    the platemail of the Ice Prince
+G 1 87069 1 0 100 0 0 0            *    a robe of shimmering ice shards
+G 1 87070 1 0 100 0 0 0            *    a crown of shimmering ice shards
+M 0 87012 16 87465 100 0 0 0       * a temple prison guard
+M 0 87012 16 87465 100 0 0 0       * a temple prison guard
+M 0 87012 16 87465 100 0 0 0       * a temple prison guard
+M 0 87012 16 87465 100 0 0 0       * a temple prison guard
+M 0 87007 12 87466 100 0 0 0       * a tower guard
+M 0 87007 12 87466 100 0 0 0       * a tower guard
+G 1 87006 1 0 100 0 0 0            *    A small key
+M 0 87007 12 87466 100 0 0 0       * a tower guard
+M 0 87007 12 87466 100 0 0 0       * a tower guard
+*
+S

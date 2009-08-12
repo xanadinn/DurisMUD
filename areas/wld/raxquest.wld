@@ -1,0 +1,1128 @@
+#70500
+&+RNewbie Quest Mob Room&N~
+~
+636 1249939650 0
+S
+#70501
+&+yA Gaping Hole in the Side of a Pirate Ship&N~
+&+yOnce a mighty craft mastering the sea, this ancient ship now lilts&n
+&+yslightly to one side wrecked upon these great reefs. A huge jagged&n
+&+yhole has been torn into sturdy beams of its proud hull by the razor&n
+&+ysharp fingers of the ocean coral.&n
+~
+636 177213504 0
+D0
+~
+grating~
+3 70541 70502
+D2
+~
+~
+0 0 134956
+S
+#70502
+&+yWithin the Lower Deck&N~
+~
+636 176197696 0
+D0
+~
+door heavy wooden~
+3 70546 70503
+D2
+~
+grating~
+3 70541 70501
+S
+#70503
+&+yWithin the lower deck&N~
+~
+636 176197696 0
+D0
+~
+bars steel~
+3 70547 70504
+D2
+~
+door heavy wooden~
+3 70546 70502
+S
+#70504
+&+yWithin the lower deck&N~
+~
+636 176197696 0
+D0
+~
+door sturdy~
+3 70548 70505
+D2
+~
+bars steel~
+3 70547 70503
+S
+#70505
+&+yA Ladder Leading to the Cargo Hold&N~
+~
+636 176197696 0
+D2
+~
+door sturdy~
+3 70548 70504
+D4
+~
+trapdoor trap~
+2 0 70506
+S
+#70506
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+heavy door~
+2 0 70509
+D1
+~
+door~
+2 0 70507
+D2
+~
+~
+0 0 70528
+D3
+~
+door~
+2 0 70508
+D5
+~
+~
+2 0 70505
+S
+#70507
+&+yA Small Storage Room&N~
+~
+636 176197696 0
+D3
+~
+~
+3 0 70506
+S
+#70508
+&+yA Small Storage Room&N~
+~
+636 176197696 0
+D1
+~
+~
+2 0 70506
+S
+#70509
+&+yA Large Storage Room&N~
+~
+636 176197696 0
+D0
+~
+door~
+1 0 70510
+D1
+~
+door~
+1 0 70511
+D2
+~
+~
+2 0 70506
+D3
+~
+door~
+1 0 70512
+S
+#70510
+&+yNorth End of the Cargo Deck&N~
+~
+636 176197696 0
+D2
+~
+~
+1 0 70509
+D4
+~
+~
+0 0 70529
+S
+#70511
+&+LA Dark Storage Room&N~
+~
+636 176197696 0
+D3
+~
+~
+1 0 70509
+S
+#70512
+&+LA Dark Storage Room&N~
+~
+636 176197696 0
+D1
+~
+~
+1 0 70509
+S
+#70513
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70528
+D2
+~
+~
+0 0 70515
+S
+#70514
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D2
+~
+~
+0 0 70523
+D3
+~
+~
+0 0 70528
+S
+#70515
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70513
+D2
+~
+~
+0 0 70516
+S
+#70516
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70515
+D2
+~
+~
+0 0 70517
+S
+#70517
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70516
+D2
+~
+~
+0 0 70518
+S
+#70518
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70517
+D1
+~
+~
+0 0 70519
+D2
+~
+~
+2 0 70525
+S
+#70519
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70520
+D2
+~
+~
+0 0 70526
+D3
+~
+~
+0 0 70518
+S
+#70520
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70521
+D2
+~
+~
+2 0 70524
+D3
+~
+~
+0 0 70519
+S
+#70521
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70522
+D2
+~
+~
+0 0 70520
+S
+#70522
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70523
+D2
+~
+~
+0 0 70521
+S
+#70523
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70514
+D2
+~
+~
+0 0 70522
+S
+#70524
+&+LA Small Closet&N~
+~
+636 176197696 0
+D0
+~
+door small~
+3 0 70520
+S
+#70525
+&+LA Small Closet&N~
+~
+636 176197696 0
+D0
+~
+door~
+2 0 70518
+S
+#70526
+&+ySouth End of the Cargo Deck&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70519
+D2
+~
+~
+1 0 70527
+D4
+~
+~
+0 0 70557
+S
+#70527
+&+yAn Alchemists Workshop&N~
+~
+636 167776320 25
+D0
+~
+broken door~
+1 0 70526
+S
+#70528
+&+yWithin the Cargo Hold&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70506
+D1
+~
+~
+0 0 70514
+D3
+~
+~
+0 0 70513
+S
+#70529
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+heavy wooden door~
+1 0 70530
+D1
+~
+~
+0 0 70542
+D3
+~
+~
+0 0 70534
+D5
+~
+~
+0 0 70510
+S
+#70530
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+door~
+1 0 70531
+D1
+~
+door~
+7 70551 70533
+D2
+~
+heavy wooden door~
+1 0 70529
+D3
+~
+door~
+7 70551 70532
+S
+#70531
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D2
+~
+door~
+1 0 70530
+S
+#70532
+&+LA Room Cluttered With &+WBo&+wn&+Wes&N~
+~
+636 176197704 0
+D1
+~
+door~
+1 0 70530
+S
+#70533
+&+LA Dark Forgotten Closet&N~
+~
+636 33591296 0
+D3
+~
+door~
+1 0 70530
+S
+#70534
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70529
+D3
+~
+~
+0 0 70535
+S
+#70535
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70534
+D2
+~
+~
+0 0 70536
+S
+#70536
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70535
+D1
+~
+~
+1 0 70537
+D2
+~
+~
+0 0 70549
+S
+#70537
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70538
+D2
+~
+~
+0 0 70543
+D3
+~
+door~
+1 0 70536
+S
+#70538
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70539
+D3
+~
+~
+0 0 70537
+S
+#70539
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D1
+~
+door~
+1 0 70540
+D2
+~
+~
+0 0 70547
+D3
+~
+~
+0 0 70538
+S
+#70540
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70541
+D2
+~
+~
+0 0 70565
+D3
+~
+~
+1 0 70539
+S
+#70541
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D2
+~
+~
+0 0 70540
+D3
+~
+~
+0 0 70542
+S
+#70542
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70541
+D3
+~
+~
+0 0 70529
+S
+#70543
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70537
+D2
+~
+~
+0 0 70544
+S
+#70544
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70543
+D1
+~
+~
+0 0 70545
+S
+#70545
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D0
+~
+~
+1 0 70548
+D1
+~
+~
+0 0 70546
+D3
+~
+~
+0 0 70544
+S
+#70546
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70547
+D3
+~
+~
+0 0 70545
+S
+#70547
+&+yWithin the Guards Keep&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70539
+D2
+~
+~
+0 0 70546
+S
+#70548
+&+yThe Head Guard's Planning Room&N~
+~
+636 167776320 0
+D2
+~
+door~
+1 0 70545
+S
+#70549
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70536
+D2
+~
+~
+0 0 70550
+S
+#70550
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70549
+D2
+~
+~
+0 0 70551
+S
+#70551
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70550
+D1
+~
+cabin door~
+1 0 70576
+D2
+~
+~
+0 0 70552
+S
+#70552
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70551
+D1
+~
+cabin door~
+1 0 70577
+D2
+~
+~
+0 0 70553
+S
+#70553
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70552
+D1
+~
+cabin door~
+1 0 70578
+D2
+~
+~
+0 0 70554
+S
+#70554
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70553
+D1
+~
+cabin door~
+1 0 70579
+D2
+~
+~
+0 0 70555
+S
+#70555
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70554
+D1
+~
+~
+0 0 70556
+S
+#70556
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70557
+D3
+~
+~
+0 0 70555
+S
+#70557
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+door~
+2 70553 70569
+D1
+~
+~
+0 0 70558
+D2
+~
+~
+0 0 70566
+D3
+~
+~
+0 0 70556
+D5
+~
+~
+0 0 70526
+S
+#70558
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70559
+D3
+~
+~
+0 0 70557
+S
+#70559
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70560
+D3
+~
+~
+0 0 70558
+S
+#70560
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70561
+D2
+~
+~
+0 0 70559
+D3
+~
+cabin door~
+1 0 70580
+S
+#70561
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70562
+D2
+~
+~
+0 0 70560
+D3
+~
+cabin door~
+1 0 70581
+S
+#70562
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70563
+D2
+~
+~
+0 0 70561
+D3
+~
+cabin door~
+1 0 70582
+S
+#70563
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70564
+D2
+~
+~
+0 0 70562
+D3
+~
+cabin door~
+1 0 70583
+S
+#70564
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70565
+D2
+~
+~
+0 0 70563
+S
+#70565
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70540
+D2
+~
+~
+0 0 70564
+S
+#70566
+&+yThe Rudder Control Room&N~
+~
+636 176197696 0
+D0
+~
+~
+0 0 70557
+D1
+~
+~
+0 0 70568
+D3
+~
+~
+0 0 70567
+S
+#70567
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D1
+~
+~
+0 0 70566
+S
+#70568
+&+yOn the Top Deck&n~
+~
+636 176197696 0
+D3
+~
+~
+0 0 70566
+S
+#70569
+&+LA Dark Passageway&N~
+~
+636 176197696 0
+D0
+~
+~
+1 0 70570
+D2
+~
+~
+2 70553 70557
+S
+#70570
+&+LA Dark Passageway&N~
+~
+636 176197696 0
+D0
+~
+~
+1 0 70571
+D2
+~
+~
+1 0 70569
+S
+#70571
+&+LA Dark Passageway&N~
+~
+636 176197696 0
+D0
+~
+~
+1 0 70572
+D2
+~
+~
+1 0 70570
+S
+#70572
+&+LA Dark Passageway&N~
+~
+636 176197696 0
+D2
+~
+~
+1 0 70571
+D5
+~
+trapdoor trap~
+5 0 70573
+S
+#70573
+&+LAn Unlit Room Within the Ship&N~
+~
+636 142643265 0
+D2
+~
+~
+0 0 70574
+D4
+~
+~
+1 0 70572
+S
+#70574
+&+LA Dark Guard Room&N~
+~
+636 142643265 0
+D0
+~
+~
+0 0 70573
+D2
+~
+heavy wooden door~
+1 0 70575
+S
+#70575
+&+LLong John Silver's Chambers&n~
+~
+636 142610497 0
+D0
+~
+~
+1 0 70574
+S
+#70576
+&+yA Broken Down Cabin&N~
+~
+636 176197696 0
+D3
+~
+cabin door~
+1 0 70551
+S
+#70577
+&+LA Dark Cabin&N~
+~
+636 176197696 0
+D3
+~
+cabin door~
+1 0 70552
+S
+#70578
+&+yA Filthy Cluttered Cabin&N~
+~
+636 176197696 0
+D3
+~
+cabin door~
+1 0 70553
+S
+#70579
+&+yA Cabin&N~
+~
+636 176197696 0
+D3
+~
+cabin door~
+1 0 70554
+S
+#70580
+&+yA Well Kept Cabin&N~
+~
+636 176197696 0
+D1
+~
+cabin door~
+1 0 70560
+S
+#70581
+&+yA FILTHY Cabin&N~
+~
+636 176197696 0
+D1
+~
+cabin door~
+1 0 70561
+S
+#70582
+&+yA Dank Cabin&N~
+&+yThis small crampt ship cabin is musty and dank with the passing of&n
+&+ytime. Mold and fungii sprout from the rotting wooden walls, and&n
+&+ywhat little furniture there had been in the room has long since&n
+&+ydisintegrated and blown away in the winds.&n
+~
+636 176197696 0
+D1
+~
+cabin door~
+1 0 70562
+S
+#70583
+&+yA Private Cabin&N~
+~
+636 176197696 0
+D1
+~
+cabin door~
+1 0 70563
+S

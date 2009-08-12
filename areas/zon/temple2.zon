@@ -1,0 +1,429 @@
+#344
+Home of the Enlightened~
+34488 1 0 20 25 1
+*
+* Zone edited with dikuEdit v2.98f
+*
+*
+D 0 34400 3 5 100 0 0 0
+*     west exit from "A muddy trail" to
+*     "Beneath a huge tree" - closed/secret
+*
+D 0 34488 1 5 100 0 0 0
+*     east exit from "Beneath a huge tree" to
+*     "A muddy trail" - closed/secret
+*
+D 0 34418 1 5 100 0 0 0
+*     east exit from "A muddy trail" to
+*     "A hidden herb garden" - closed/secret
+*
+D 0 34419 3 5 100 0 0 0
+*     west exit from "A hidden herb garden" to
+*     "A muddy trail" - closed/secret
+*
+D 0 34433 0 5 100 0 0 0
+*     north exit from "Inside a gloomy cave" to
+*     "A steep tunnel" - closed/secret
+*
+D 0 34435 2 5 100 0 0 0
+*     south exit from "A steep tunnel" to
+*     "Inside a gloomy cave" - closed/secret
+*
+D 0 34437 0 1 100 0 0 0
+*     north exit from "End of the tunnel" to
+*     "The Kitchen" - closed
+*
+D 0 34465 2 1 100 0 0 0
+*     south exit from "The Kitchen" to
+*     "End of the tunnel" - closed
+*
+D 0 34439 2 5 100 0 0 0
+*     south exit from "A long miner's tunnel" to
+*     "A damp room" - closed/secret
+*
+D 0 34486 0 5 100 0 0 0
+*     north exit from "A damp room" to
+*     "A long miner's tunnel" - closed/secret
+*
+D 0 34440 0 1 100 0 0 0
+*     north exit from "A long miner's tunnel" to
+*     "A Privy" - closed
+*
+D 0 34451 2 1 100 0 0 0
+*     south exit from "A Privy" to
+*     "A long miner's tunnel" - closed
+*
+D 0 34441 3 1 100 0 0 0
+*     west exit from "An intersection of tunnels" to
+*     "A small bedroom" - closed
+*
+D 0 34447 1 1 100 0 0 0
+*     east exit from "A small bedroom" to
+*     "An intersection of tunnels" - closed
+*
+D 0 34442 3 1 100 0 0 0
+*     west exit from "A forboding passageway" to
+*     "A small bedroom" - closed
+*
+D 0 34448 1 1 100 0 0 0
+*     east exit from "A small bedroom" to
+*     "A forboding passageway" - closed
+*
+D 0 34443 1 1 100 0 0 0
+*     east exit from "A forboding passageway" to
+*     "A small bedroom" - closed
+*
+D 0 34449 3 1 100 0 0 0
+*     west exit from "A small bedroom" to
+*     "A forboding passageway" - closed
+*
+D 0 34443 3 1 100 0 0 0
+*     west exit from "A forboding passageway" to
+*     "A small bedroom" - closed
+*
+D 0 34450 1 1 100 0 0 0
+*     east exit from "A small bedroom" to
+*     "A forboding passageway" - closed
+*
+D 0 34444 1 1 100 0 0 0
+*     east exit from "A forboding passageway" to
+*     "A small bedroom" - closed
+*
+D 0 34446 3 1 100 0 0 0
+*     west exit from "A small bedroom" to
+*     "A forboding passageway" - closed
+*
+D 0 34444 3 1 100 0 0 0
+*     west exit from "A forboding passageway" to
+*     "A small bedroom" - closed
+*
+D 0 34445 1 1 100 0 0 0
+*     east exit from "A small bedroom" to
+*     "A forboding passageway" - closed
+*
+D 0 34452 0 1 100 0 0 0
+*     north exit from "The cloak room" to
+*     "A wide passage" - closed
+*
+D 0 34453 2 1 100 0 0 0
+*     south exit from "A wide passage" to
+*     "The cloak room" - closed
+*
+D 0 34452 1 1 100 0 0 0
+*     east exit from "The cloak room" to
+*     "An opulent bedroom" - closed
+*
+D 0 34487 3 1 100 0 0 0
+*     west exit from "An opulent bedroom" to
+*     "The cloak room" - closed
+*
+D 0 34453 0 1 100 0 0 0
+*     north exit from "A wide passage" to
+*     "The Inner Sanctum" - closed
+*
+D 0 34454 2 1 100 0 0 0
+*     south exit from "The Inner Sanctum" to
+*     "A wide passage" - closed
+*
+D 0 34461 0 2 100 0 0 0
+*     north exit from "Before the Altar" to
+*     "An old passage" - closed/locked
+*
+D 0 34462 2 2 100 0 0 0
+*     south exit from "An old passage" to
+*     "Before the Altar" - closed/locked
+*
+D 0 34462 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34477 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34464 3 0 100 0 0 0
+*     west exit from "A meals area" to
+*     "The Kitchen" - open
+*
+D 0 34465 1 0 100 0 0 0
+*     east exit from "The Kitchen" to
+*     "A meals area" - open
+*
+D 0 34466 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34478 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34467 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34479 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34467 2 2 100 0 0 0
+*     south exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34482 0 2 100 0 0 0
+*     north exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34468 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34480 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34468 2 2 100 0 0 0
+*     south exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34481 0 2 100 0 0 0
+*     north exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34469 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34476 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34470 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34474 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34470 2 2 100 0 0 0
+*     south exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34475 0 2 100 0 0 0
+*     north exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34471 0 2 100 0 0 0
+*     north exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34472 2 2 100 0 0 0
+*     south exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34471 2 2 100 0 0 0
+*     south exit from "An old passage" to
+*     "A rancid cell" - closed/locked
+*
+D 0 34473 0 2 100 0 0 0
+*     north exit from "A rancid cell" to
+*     "An old passage" - closed/locked
+*
+D 0 34483 4 1 100 0 0 0
+*     up exit from "A narrow shaft" to
+*     "Atop a small hill" - closed
+*
+D 0 34484 5 1 100 0 0 0
+*     down exit from "Atop a small hill" to
+*     "A narrow shaft" - closed
+*
+D 0 34485 5 1 100 0 0 0
+*     down exit from "Atop a small hill" to
+*     "A damp room" - closed
+*
+D 0 34486 4 1 100 0 0 0
+*     up exit from "A damp room" to
+*     "Atop a small hill" - closed
+*
+*
+O 0 34417 10 34400 100 0 0 0       * A hanging Corpse
+O 0 34416 14 34401 100 0 0 0       * The bones
+O 0 34415 9 34401 100 0 0 0        * A dried cracked skull
+O 0 34417 10 34402 100 0 0 0       * A hanging Corpse
+O 0 34426 10 34402 100 0 0 0       * A heavy bone club
+O 0 34418 11 34403 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34405 100 0 0 0       * A hanging Corpse
+O 0 34415 9 34407 100 0 0 0        * A dried cracked skull
+O 0 34418 11 34408 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34408 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34409 100 0 0 0       * A hanging Corpse
+O 0 34417 10 34409 100 0 0 0       * A hanging Corpse
+O 0 34416 14 34409 100 0 0 0       * The bones
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+O 0 34417 10 34410 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34410 100 0 0 0       * A hanging Corpse
+O 0 34417 10 34411 100 0 0 0       * A hanging Corpse
+O 0 34416 14 34415 100 0 0 0       * The bones
+O 0 34417 10 34415 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34416 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34417 100 0 0 0       * A hanging Corpse
+O 0 34416 14 34417 100 0 0 0       * The bones
+O 0 34420 8 34418 100 0 0 0        * A bunch of Demon Weed
+O 0 34417 10 34418 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34419 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34419 100 0 0 0       * A hanging Corpse
+P 1 34400 2 34418 100 0 0 0        *   A set of rusty keys
+O 0 34417 10 34419 100 0 0 0       * A hanging Corpse
+O 0 34418 11 34419 100 0 0 0       * A hanging Corpse
+O 0 34417 10 34419 100 0 0 0       * A hanging Corpse
+O 0 34417 10 34419 100 0 0 0       * A hanging Corpse
+O 0 34421 1 34419 100 0 0 0        * The garden bed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+P 1 34420 8 34421 100 0 0 0        *   A bunch of Demon Weed
+O 0 34428 1 34421 100 0 0 0        * A weather beaten sign
+O 0 34416 14 34426 100 0 0 0       * The bones
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+O 0 34416 14 34427 100 0 0 0       * The bones
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+O 0 34415 9 34427 100 0 0 0        * A dried cracked skull
+O 0 34415 9 34428 100 0 0 0        * A dried cracked skull
+O 0 34416 14 34429 100 0 0 0       * The bones
+O 0 34422 2 34429 100 0 0 0        * A half eaten Corpse
+O 0 34416 14 34430 100 0 0 0       * The bones
+O 0 34426 10 34430 100 0 0 0       * A heavy bone club
+O 0 34416 14 34431 100 0 0 0       * The bones
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+O 0 34415 9 34432 100 0 0 0        * A dried cracked skull
+O 0 34416 14 34432 100 0 0 0       * The bones
+O 0 34423 1 34432 100 0 0 0        * A half eaten Corpse
+P 1 34404 18 34423 100 0 0 0       *   A black sackcloth robe
+O 0 34415 9 34433 100 0 0 0        * A dried cracked skull
+O 0 34422 2 34433 100 0 0 0        * A half eaten Corpse
+O 0 34416 14 34434 100 0 0 0       * The bones
+P 1 34426 10 34416 100 0 0 0       *   A heavy bone club
+O 0 34413 1 34452 100 0 0 0        * The clothes pegs
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34403 9 34413 100 0 0 0        *   A black hooded silk robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34403 9 34413 100 0 0 0        *   A black hooded silk robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34403 9 34413 100 0 0 0        *   A black hooded silk robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+P 1 34404 18 34413 100 0 0 0       *   A black sackcloth robe
+O 0 34401 1 34454 100 0 0 0        * The inlaid pentagram
+O 0 34415 9 34467 100 0 0 0        * A dried cracked skull
+O 0 34416 14 34473 100 0 0 0       * The bones
+O 0 34415 9 34474 100 0 0 0        * A dried cracked skull
+O 0 34414 2 34475 100 0 0 0        * A piece of heavy chain
+O 0 34424 1 34475 100 0 0 0        * A half eaten Corpse
+P 1 34404 18 34424 100 0 0 0       *   A black sackcloth robe
+P 1 34425 1 34424 100 0 0 0        *   A small steel key
+O 0 34415 9 34478 100 0 0 0        * A dried cracked skull
+O 0 34416 14 34480 100 0 0 0       * The bones
+O 0 34416 14 34482 100 0 0 0       * The bones
+O 0 34406 1 34487 100 0 0 0        * The bed
+O 0 34408 1 34487 100 0 0 0        * A steel chest
+P 1 34409 1 34408 100 0 0 0        *   A Demon skin vest
+P 1 34410 1 34408 100 0 0 0        *   A leather sack
+P 1 34412 1 34408 100 0 0 0        *   A pile of coins
+P 1 34411 1 34410 100 0 0 0        *     An assortment of Gems
+*
+M 0 34409 9 34402 100 0 0 0        * An evil hound
+M 0 34411 6 34404 100 0 0 0        * A pit snake
+M 0 34409 9 34405 100 0 0 0        * An evil hound
+M 0 34409 9 34407 100 0 0 0        * An evil hound
+M 0 34411 6 34408 100 0 0 0        * A pit snake
+M 0 34411 6 34409 100 0 0 0        * A pit snake
+M 0 34409 9 34410 100 0 0 0        * An evil hound
+M 0 34411 6 34411 100 0 0 0        * A pit snake
+M 0 34409 9 34413 100 0 0 0        * An evil hound
+M 0 34411 6 34415 100 0 0 0        * A pit snake
+M 0 34409 9 34417 100 0 0 0        * An evil hound
+M 0 34411 6 34421 100 0 0 0        * A pit snake
+M 0 34409 9 34421 100 0 0 0        * An evil hound
+M 0 34414 1 34427 100 0 0 0        * A ferral beastman
+M 0 34409 9 34428 100 0 0 0        * An evil hound
+M 0 34417 1 34429 100 0 0 0        * A siamese twin
+M 0 34416 1 34430 100 0 0 0        * A wolf woman
+M 0 34409 9 34431 100 0 0 0        * An evil hound
+M 0 34415 2 34432 100 0 0 0        * A goatman
+E 1 34426 10 16 100 0 0 0          *   A heavy bone club
+M 0 34415 2 34434 100 0 0 0        * A goatman
+M 0 34402 2 34436 100 0 0 0        * A demented cultist
+M 0 34419 3 34436 100 0 0 0        * A silky black rat
+M 0 34413 3 34438 100 0 0 0        * A cambion seducer
+M 0 34404 2 34439 100 0 0 0        * A disheveled cultist
+M 0 34419 3 34439 100 0 0 0        * A silky black rat
+M 0 34405 3 34441 100 0 0 0        * A demented cultist
+M 0 34402 2 34443 100 0 0 0        * A demented cultist
+M 0 34410 4 34444 100 0 0 0        * A huge cockroach
+M 0 34405 3 34445 100 0 0 0        * A demented cultist
+M 0 34412 1 34446 100 0 0 0        * A cambion hellborne
+M 0 34403 3 34446 100 0 0 0        * A disheveled cultist
+M 0 34404 2 34447 100 0 0 0        * A disheveled cultist
+M 0 34413 3 34447 100 0 0 0        * A cambion seducer
+M 0 34413 3 34448 100 0 0 0        * A cambion seducer
+M 0 34403 3 34449 100 0 0 0        * A disheveled cultist
+M 0 34405 3 34450 100 0 0 0        * A demented cultist
+M 0 34400 1 34454 100 0 0 0        * An evil force
+M 0 34406 6 34455 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34406 6 34456 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34406 6 34457 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34406 6 34458 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34406 6 34459 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34406 6 34460 100 0 0 0        * A hooded cultist
+E 1 34403 9 12 100 0 0 0           *   A black hooded silk robe
+M 0 34401 1 34461 100 0 0 0        * The High Priest DeJuak
+E 1 34405 1 6 100 0 0 0            *   A black cultist hood
+E 1 34402 1 12 100 0 0 0           *   A black hooded silk robe
+E 1 34430 1 16 100 0 0 0           *   A wicked devil blade
+E 1 34429 1 24 100 0 0 0           *   A Red skull pendant
+G 1 34400 2 0 100 0 0 0            *    A set of rusty keys
+M 0 34419 3 34463 100 0 0 0        * A silky black rat
+M 0 34403 3 34464 100 0 0 0        * A disheveled cultist
+M 0 34410 4 34464 100 0 0 0        * A huge cockroach
+M 0 34410 4 34465 100 0 0 0        * A huge cockroach
+M 0 34410 4 34465 100 0 0 0        * A huge cockroach
+M 0 34423 1 34472 100 0 0 0        * A chained Elfen
+M 0 34421 3 34473 100 0 0 0        * A chained Human
+M 0 34424 3 34474 100 0 0 0        * A chained Woman
+M 0 34422 1 34475 100 0 0 0        * A ferocious Ogre
+E 1 34414 2 16 100 0 0 0           *   A piece of heavy chain
+M 0 34421 3 34476 100 0 0 0        * A chained Human
+M 0 34420 2 34477 100 0 0 0        * A chained minotaur
+M 0 34424 3 34478 100 0 0 0        * A chained Woman
+M 0 34424 3 34479 100 0 0 0        * A chained Woman
+M 0 34421 3 34480 100 0 0 0        * A chained Human
+M 0 34427 1 34480 100 0 0 0        * A chained young Boy
+M 0 34420 2 34481 100 0 0 0        * A chained minotaur
+M 0 34425 1 34482 100 0 0 0        * A chained Warlock
+M 0 34418 1 34487 100 0 0 0        * The succubus
+E 1 34407 1 3 100 0 0 0            *   A diamond and Ruby necklace
+M 0 34429 1 34487 100 0 0 0        * A cultist slave
+M 0 34426 1 34488 100 0 0 0        * The scared priest
+M 0 34428 1 34488 100 0 0 0        * A huge Treant
+*
+S

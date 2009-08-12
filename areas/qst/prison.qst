@@ -1,0 +1,55 @@
+#7304
+M
+hi hello~
+   &+y"Hello yourself stranger.  Have you perhaps seen my partner,
+   &+y one dressed much like myself?"
+~
+M
+partner~
+   &+y"Indeed, for he was supposed to have gone into the depths
+   &+y of the Prison here and found an item I had left behind
+   &+y upon my release.  However, he has yet to return!"
+~
+M
+item~
+   &+y"Well, my assumption is that he must have perished within.
+   &+y Perhaps if you are able to find the coin he was supposed
+   &+y to find, I may well find something with which I could
+   &+y reward you."
+~
+Q
+Thank you kindly... My partner was supposed to smuggle this out to me,
+but I think something happened to him. I have not heard from him in a
+long time. I will reward you for what you have brought me...
+~
+R C 15000
+G I 7372
+S
+#7306
+M
+hello~
+&+W'Well hello there. I was just admiring the fine quality of the structure.
+&+WI bet this place could stand up to a direct assault. Amazing isn't it?
+&+WArchitechture isn't my real craft however. I have other talents...'
+~
+M
+craft talents~
+&+W'I am a master armorer. I make the finest armor in my land. Too bad
+&+Wgood material is hard to find. I have spent most of my life looking
+&+Wfor a material worthy of by best work. Ah well, perhaps someday...'
+~
+M
+material~
+  &+W"Why yes, for if you were able to somehow obtain the scales of
+  &+W the great dragon&N &+RSm&+rau&+Rg&+W, perhaps I could construct
+  &+W something in my idle time for you."
+~
+Q
+&+W'Ahhhhhh..... scales of the finest quality I have ever seen! These are
+&+Wamazing! I will make you the best armor I have ever made...."
+~
+R I 7345
+G I 7342
+G I 7343
+G I 7344
+S

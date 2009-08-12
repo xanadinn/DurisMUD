@@ -1,0 +1,503 @@
+#328
+&+BThe Great Shaboath&N~
+32919 1 8 40 50 4
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 32803 0 1 100 0 0 0
+*     north exit from "The Sluice" to
+*     "Inside the Inner Gates" - closed
+*
+D 0 32808 2 1 100 0 0 0
+*     south exit from "Inside the Inner Gates" to
+*     "The Sluice" - closed
+*
+D 0 32808 8 1 100 0 0 0
+*     northeast exit from "Inside the Inner Gates" to
+*     "A Huge Guard Barraks" - closed
+*
+D 0 32812 7 1 100 0 0 0
+*     southwest exit from "A Huge Guard Barraks" to
+*     "Inside the Inner Gates" - closed
+*
+D 0 32810 0 1 100 0 0 0
+*     north exit from "Along the Southeastern Wall of Shaboath" to
+*     "The Tower of Distillations" - closed
+*
+D 0 32816 2 1 100 0 0 0
+*     south exit from "The Tower of Distillations" to
+*     "Along the Southeastern Wall of Shaboath" - closed
+*
+D 0 32811 0 1 100 0 0 0
+*     north exit from "Along the Southwestern Wall of Shaboath" to
+*     "A Huge Barracks" - closed
+*
+D 0 32815 2 1 100 0 0 0
+*     south exit from "A Huge Barracks" to
+*     "Along the Southwestern Wall of Shaboath" - closed
+*
+D 0 32813 0 1 100 0 0 0
+*     north exit from "Along the Southwestern Wall of Shaboath" to
+*     "Entryway to the Tower of Treasures" - closed
+*
+D 0 32886 2 1 100 0 0 0
+*     south exit from "Entryway to the Tower of Treasures" to
+*     "Along the Southwestern Wall of Shaboath" - closed
+*
+D 0 32818 3 1 100 0 0 0
+*     west exit from "The Bottom of the Chute" to
+*     "A Pocket of Water" - closed
+*
+D 0 32819 1 1 100 0 0 0
+*     east exit from "A Pocket of Water" to
+*     "The Bottom of the Chute" - closed
+*
+D 0 32822 1 1 100 0 0 0
+*     east exit from "Along the Eastern Edge of Shaboath" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32823 3 1 100 0 0 0
+*     west exit from "An Aboleth Domocile" to
+*     "Along the Eastern Edge of Shaboath" - closed
+*
+D 0 32822 3 1 100 0 0 0
+*     west exit from "Along the Eastern Edge of Shaboath" to
+*     "The Hatchery" - closed
+*
+D 0 32824 1 1 100 0 0 0
+*     east exit from "The Hatchery" to
+*     "Along the Eastern Edge of Shaboath" - closed
+*
+D 0 32829 1 1 100 0 0 0
+*     east exit from "Along the NorthEastern Wall" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32843 3 1 100 0 0 0
+*     west exit from "An Aboleth Domocile" to
+*     "Along the NorthEastern Wall" - closed
+*
+D 0 32832 0 1 100 0 0 0
+*     north exit from "The Northern Side of Shaboath" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32844 2 1 100 0 0 0
+*     south exit from "An Aboleth Domocile" to
+*     "The Northern Side of Shaboath" - closed
+*
+D 0 32835 2 1 100 0 0 0
+*     south exit from "Before A Tall Building" to
+*     "Foyer of the Baatzu Embassy" - closed
+*
+D 0 32875 0 1 100 0 0 0
+*     north exit from "Foyer of the Baatzu Embassy" to
+*     "Before A Tall Building" - closed
+*
+D 0 32836 0 1 100 0 0 0
+*     north exit from "The North Wall Road, Next to Home" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32845 2 1 100 0 0 0
+*     south exit from "An Aboleth Domocile" to
+*     "The North Wall Road, Next to Home" - closed
+*
+D 0 32839 3 1 100 0 0 0
+*     west exit from "Along the West Wall of Shaboath" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32846 1 1 100 0 0 0
+*     east exit from "An Aboleth Domocile" to
+*     "Along the West Wall of Shaboath" - closed
+*
+D 0 32841 3 1 100 0 0 0
+*     west exit from "The Western Edge of Shaboath" to
+*     "A Comfortable Building" - closed
+*
+D 0 32863 1 1 100 0 0 0
+*     east exit from "A Comfortable Building" to
+*     "The Western Edge of Shaboath" - closed
+*
+D 0 32842 3 1 100 0 0 0
+*     west exit from "The Western Edge of Shaboath" to
+*     "An Aboleth Domocile" - closed
+*
+D 0 32847 1 1 100 0 0 0
+*     east exit from "An Aboleth Domocile" to
+*     "The Western Edge of Shaboath" - closed
+*
+D 0 32848 0 1 100 0 0 0
+*     north exit from "The Central Path of Shaboath" to
+*     "An Eerie Foyer" - closed
+*
+D 0 32869 2 1 100 0 0 0
+*     south exit from "An Eerie Foyer" to
+*     "The Central Path of Shaboath" - closed
+*
+D 0 32852 0 2 100 0 0 0
+*     north exit from "Entrance to the Tower Complex" to
+*     "Courtyard of the Great Towers" - closed/locked
+*
+D 0 32897 2 2 100 0 0 0
+*     south exit from "Courtyard of the Great Towers" to
+*     "Entrance to the Tower Complex" - closed/locked
+*
+D 0 32853 1 2 100 0 0 0
+*     east exit from "The Central Path of Shaboath" to
+*     "In a Dirty Compound" - closed/locked
+*
+D 0 32857 3 2 100 0 0 0
+*     west exit from "In a Dirty Compound" to
+*     "The Central Path of Shaboath" - closed/locked
+*
+D 0 32871 0 1 100 0 0 0
+*     north exit from "Top of the Shaft" to
+*     "A Chamber in the Tower" - closed
+*
+D 0 32872 2 1 100 0 0 0
+*     south exit from "A Chamber in the Tower" to
+*     "Top of the Shaft" - closed
+*
+D 0 32871 3 1 100 0 0 0
+*     west exit from "Top of the Shaft" to
+*     "A Chamber in the Tower" - closed
+*
+D 0 32873 1 1 100 0 0 0
+*     east exit from "A Chamber in the Tower" to
+*     "Top of the Shaft" - closed
+*
+D 0 32871 9 1 100 0 0 0
+*     southeast exit from "Top of the Shaft" to
+*     "A Large Throneroom" - closed
+*
+D 0 32874 6 1 100 0 0 0
+*     northwest exit from "A Large Throneroom" to
+*     "Top of the Shaft" - closed
+*
+D 0 32878 2 1 100 0 0 0
+*     south exit from "The Secretariat" to
+*     "Pallistren's Chamber" - closed
+*
+D 0 32881 0 1 100 0 0 0
+*     north exit from "Pallistren's Chamber" to
+*     "The Secretariat" - closed
+*
+D 0 32886 0 2 100 0 0 0
+*     north exit from "Entryway to the Tower of Treasures" to
+*     "Bottom of the Stair" - closed/locked
+*
+D 0 32891 2 2 100 0 0 0
+*     south exit from "Bottom of the Stair" to
+*     "Entryway to the Tower of Treasures" - closed/locked
+*
+D 0 32892 0 2 100 0 0 0
+*     north exit from "Top of the Tower" to
+*     "Top of the Tower" - closed/locked
+*
+D 0 32895 2 1 100 0 0 0
+*     south exit from "Top of the Tower" to
+*     "Top of the Tower" - closed
+*
+D 0 32895 4 13 100 0 0 0
+*     up exit from "Top of the Tower" to
+*     "The Aboleth Treasure Room" - closed/secret/blocked
+*
+D 0 32896 5 1 100 0 0 0
+*     down exit from "The Aboleth Treasure Room" to
+*     "Top of the Tower" - closed
+*
+D 0 32897 0 1 100 0 0 0
+*     north exit from "Courtyard of the Great Towers" to
+*     "The Altar of the Blood Queen" - closed
+*
+D 0 32913 2 1 100 0 0 0
+*     south exit from "The Altar of the Blood Queen" to
+*     "Courtyard of the Great Towers" - closed
+*
+D 0 32898 0 1 100 0 0 0
+*     north exit from "Courtyard of the Great Towers" to
+*     "The Tower of Summonings" - closed
+*
+D 0 32904 2 1 100 0 0 0
+*     south exit from "The Tower of Summonings" to
+*     "Courtyard of the Great Towers" - closed
+*
+D 0 32898 2 1 100 0 0 0
+*     south exit from "Courtyard of the Great Towers" to
+*     "The Tower of Enchantments" - closed
+*
+D 0 32901 0 1 100 0 0 0
+*     north exit from "The Tower of Enchantments" to
+*     "Courtyard of the Great Towers" - closed
+*
+D 0 32900 0 1 100 0 0 0
+*     north exit from "Courtyard of the Great Towers" to
+*     "The Tower of Alterations" - closed
+*
+D 0 32907 2 1 100 0 0 0
+*     south exit from "The Tower of Alterations" to
+*     "Courtyard of the Great Towers" - closed
+*
+D 0 32900 2 1 100 0 0 0
+*     south exit from "Courtyard of the Great Towers" to
+*     "The Tower of Necromancy" - closed
+*
+D 0 32910 0 1 100 0 0 0
+*     north exit from "The Tower of Necromancy" to
+*     "Courtyard of the Great Towers" - closed
+*
+D 0 32914 4 6 100 0 0 0
+*     up exit from "The Black-Ceilinged Chamber" to
+*     "Darkalands Lab" - closed/locked/secret
+*
+D 0 32915 5 6 100 0 0 0
+*     down exit from "Darkalands Lab" to
+*     "The Black-Ceilinged Chamber" - closed/locked/secret
+*
+D 0 32915 4 1 100 0 0 0
+*     up exit from "Darkalands Lab" to
+*     "The Lair of the Grand Savant" - closed
+*
+D 0 32916 5 1 100 0 0 0
+*     down exit from "The Lair of the Grand Savant" to
+*     "Darkalands Lab" - closed
+*
+*
+O 0 32814 7 32800 100 0 0 0        * a swirling potion
+O 0 32814 7 32800 100 0 0 0        * a swirling potion
+O 0 32814 7 32800 100 0 0 0        * a swirling potion
+O 0 32805 1 32819 100 0 0 0        * a translucent blob of jelly
+O 0 32812 1 32845 100 0 0 0        * a torn and rotted notebook
+O 0 32870 1 32883 100 0 0 0        * a heavy chest
+P 1 51005 3 32870 100 0 0 0        *   (object type not in this .obj file)
+O 0 32820 1 32883 100 0 0 0        * a heavy chest
+P 1 425 1 32820 100 0 0 0          *   (object type not in this .obj file)
+O 0 32826 1 32891 100 0 0 0        * a glyph of warding
+O 0 32828 1 32895 100 0 0 0        * a dark obelisk
+O 0 32831 1 32896 100 0 0 0        * a heavy chest
+P 1 32821 2 32831 100 0 0 0        *   an iron flask
+P 1 32821 2 32831 100 0 0 0        *   an iron flask
+O 0 32832 1 32896 100 0 0 0        * a heavy chest
+P 1 32839 2 32832 100 0 0 0        *   a dark-green potion
+P 1 32839 2 32832 100 0 0 0        *   a dark-green potion
+O 0 32833 1 32896 100 0 0 0        * a heavy chest
+P 1 32837 1 32833 100 0 0 0        *   Finslayer
+P 1 32840 1 32833 33 0 0 0         *   a belt of scales
+O 0 32834 1 32896 100 0 0 0        * a glyph of paralysis
+O 0 32852 1 32897 100 0 0 0        * a greater glyph of necromancy
+O 0 32850 1 32898 100 0 0 0        * a greater glyph of magic
+O 0 32851 1 32898 100 0 0 0        * a greater glyph of force
+O 0 32848 1 32900 100 0 0 0        * a greater glyph of necromancy
+O 0 32849 1 32910 100 0 0 0        * a greater glyph of necromancy
+*
+M 0 32800 1 32803 100 0 0 0        * Grongor
+E 1 32800 1 16 100 0 0 0           *   a black two-handed sword
+M 0 32801 4 32803 100 0 0 0        * a formorian giant
+M 0 32801 4 32803 100 0 0 0        * a formorian giant
+M 0 32801 4 32803 100 0 0 0        * a formorian giant
+M 0 32801 4 32803 100 0 0 0        * a formorian giant
+M 0 32802 1 32808 100 0 0 0        * an illithid overseer
+M 0 32803 2 32808 100 0 0 0        * a derro savant
+M 0 32803 2 32808 100 0 0 0        * a derro savant
+M 0 32804 5 32812 100 0 0 0        * a kuo-toa guard
+M 0 32806 6 32812 100 0 0 0        * a derro guard
+E 1 32802 3 11 100 0 0 0           *   a derro buckler
+E 1 32803 3 16 100 0 0 0           *   a derro short sword
+M 0 32806 6 32812 100 0 0 0        * a derro guard
+E 1 32802 3 11 100 0 0 0           *   a derro buckler
+E 1 32803 3 16 100 0 0 0           *   a derro short sword
+M 0 32804 5 32815 100 0 0 0        * a kuo-toa guard
+M 0 32806 6 32815 100 0 0 0        * a derro guard
+M 0 32806 6 32815 100 0 0 0        * a derro guard
+M 0 32807 1 32816 100 0 0 0        * Shalzerith
+G 1 32804 4 0 100 0 0 0            *    an aboleth potion
+M 0 32808 1 32816 100 0 0 0        * an aboleth
+M 0 32809 3 32818 100 0 0 0        * a giant moray
+M 0 32809 3 32818 100 0 0 0        * a giant moray
+M 0 32809 3 32818 100 0 0 0        * a giant moray
+M 0 32810 2 32823 100 0 0 0        * an aboleth
+M 0 32815 1 32824 100 0 0 0        * an aboleth
+M 0 32814 1 32825 40 0 0 0         * a baby aboleth
+G 1 32806 2 0 30 0 0 0             *    an aboleth potion
+M 0 32813 1 32826 40 0 0 0         * a baby aboleth
+G 1 32806 2 0 30 0 0 0             *    an aboleth potion
+M 0 32821 1 32828 100 0 0 0        * an aboleth
+G 1 32809 1 0 100 0 0 0            *    a crystalline key
+G 1 32804 4 0 100 0 0 0            *    an aboleth potion
+M 0 32818 2 32828 100 0 0 0        * an illithid slavemaster
+E 1 32808 1 6 100 0 0 0            *   an illithid's circlet
+G 1 32811 1 0 100 0 0 0            *    a intricate key
+M 0 32819 1 32831 100 0 0 0        * an ixichitl
+F 1 32820 1 32831 100 0 0 0        * an ixichitl (following)
+M 0 32816 2 32837 100 0 0 0        * a kuo-toa monitor
+F 1 32804 5 32837 100 0 0 0        * a kuo-toa guard (following)
+F 1 32804 5 32837 100 0 0 0        * a kuo-toa guard (following)
+M 0 32811 2 32843 100 0 0 0        * an aboleth
+M 0 32812 2 32844 100 0 0 0        * an aboleth
+M 0 32811 2 32845 100 0 0 0        * an aboleth
+M 0 32812 2 32846 100 0 0 0        * an aboleth
+M 0 32810 2 32847 100 0 0 0        * an aboleth
+M 0 32816 2 32850 100 0 0 0        * a kuo-toa monitor
+E 1 32807 1 16 100 0 0 0           *   a monitors trident
+F 1 32805 3 32850 100 0 0 0        * a derro guard (following)
+F 1 32805 3 32850 100 0 0 0        * a derro guard (following)
+F 1 32806 6 32850 100 0 0 0        * a derro guard (following)
+E 1 32802 3 11 100 0 0 0           *   a derro buckler
+E 1 32803 3 16 100 0 0 0           *   a derro short sword
+F 1 32817 1 32850 100 0 0 0        * a derro savant (following)
+M 0 32822 3 32856 100 0 0 0        * an ixichitl
+M 0 32822 3 32856 100 0 0 0        * an ixichitl
+E 1 32810 1 2 100 0 0 0            *   a tiny seashell
+M 0 32822 3 32856 100 0 0 0        * an ixichitl
+M 0 32823 1 32856 100 0 0 0        * an ixichitl
+M 0 32825 3 32857 100 0 0 0        * a dirty slave
+M 0 32825 3 32857 100 0 0 0        * a dirty slave
+M 0 32825 3 32858 100 0 0 0        * a dirty slave
+M 0 32824 2 32859 100 0 0 0        * a dirty slave
+M 0 32826 1 32860 100 0 0 0        * a dirty slave
+M 0 32827 1 32861 100 0 0 0        * a dirty slave
+M 0 32818 2 32861 100 0 0 0        * an illithid slavemaster
+E 1 32813 1 3 100 0 0 0            *   a symbol of domination
+M 0 32824 2 32862 100 0 0 0        * a dirty slave
+M 0 32828 1 32864 100 0 0 0        * Strychnesch
+E 1 32823 1 5 100 0 0 0            *   a suit of blood-red platemail
+E 1 32819 5 24 100 0 0 0           *   the badge of the Raveners
+M 0 32830 1 32865 100 0 0 0        * Morgoor
+E 1 32819 5 24 100 0 0 0           *   the badge of the Raveners
+G 1 16222 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 16248 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 32829 1 32866 100 0 0 0        * Jabulanth
+E 1 32868 1 6 100 0 0 0            *   a black devil-hide headband
+E 1 32829 1 16 100 0 0 0           *   a blood-red dagger
+G 1 96077 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 96078 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 67281 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 32831 1 32867 100 0 0 0        * Redpal
+E 1 32824 1 18 70 0 0 0            *   a mummified deva's head
+E 1 32819 5 24 100 0 0 0           *   the badge of the Raveners
+M 0 32832 1 32868 100 0 0 0        * Cyvrand
+E 1 32819 5 24 100 0 0 0           *   the badge of the Raveners
+G 1 32801 1 0 100 0 0 0            *    a totem of Diinkarazan
+M 0 32833 1 32869 100 0 0 0        * an illithid
+M 0 32834 2 32869 100 0 0 0        * a formorian giant
+M 0 32834 2 32869 100 0 0 0        * a formorian giant
+M 0 32835 3 32870 40 0 0 0         * an illithid
+G 1 32814 7 0 50 0 0 0             *    a swirling potion
+M 0 32835 3 32870 40 0 0 0         * an illithid
+M 0 32835 3 32870 40 0 0 0         * an illithid
+G 1 32814 7 0 50 0 0 0             *    a swirling potion
+M 0 32836 7 32871 100 0 0 0        * an illithid
+M 0 32836 7 32871 100 0 0 0        * an illithid
+M 0 32836 7 32871 100 0 0 0        * an illithid
+M 0 32836 7 32872 100 0 0 0        * an illithid
+M 0 32836 7 32872 100 0 0 0        * an illithid
+M 0 32836 7 32873 40 0 0 0         * an illithid
+G 1 32814 7 0 50 0 0 0             *    a swirling potion
+M 0 32836 7 32873 40 0 0 0         * an illithid
+M 0 32838 1 32874 100 0 0 0        * Caranthazal
+E 1 32815 1 5 100 0 0 0            *   the robe of the mind
+G 1 55207 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 32839 1 32874 100 0 0 0        * Grizinthalor (following)
+F 1 32837 1 32874 100 0 0 0        * Schandreptibus (following)
+E 1 32816 1 20 100 0 0 0           *   mask of the flayed mind
+M 0 32840 1 32875 100 0 0 0        * the butler
+M 0 32841 4 32876 100 0 0 0        * a servant
+M 0 32841 4 32877 100 0 0 0        * a servant
+M 0 32843 1 32878 100 0 0 0        * Petrechella
+M 0 32841 4 32879 100 0 0 0        * a servant
+M 0 32841 4 32880 100 0 0 0        * a servant
+M 0 32842 1 32881 100 0 0 0        * Pallistren
+G 1 32818 1 0 100 0 0 0            *    a heavy iron key
+M 0 32845 2 32884 100 0 0 0        * a gargoyle golem
+M 0 32845 2 32884 100 0 0 0        * a gargoyle golem
+M 0 32844 2 32885 100 0 0 0        * a hamatula
+M 0 32844 2 32885 100 0 0 0        * a hamatula
+M 0 32851 1 32886 100 0 0 0        * an aboleth
+M 0 32859 6 32886 100 0 0 0        * a formorian giant
+M 0 32859 6 32886 100 0 0 0        * a formorian giant
+M 0 32859 6 32886 100 0 0 0        * a formorian giant
+M 0 32859 6 32886 100 0 0 0        * a formorian giant
+M 0 32852 3 32887 100 0 0 0        * an iron golem
+M 0 32852 3 32887 100 0 0 0        * an iron golem
+M 0 32854 1 32888 100 0 0 0        * an aboleth
+G 1 32825 1 0 100 0 0 0            *    a golden key
+M 0 32852 3 32889 100 0 0 0        * an iron golem
+M 0 32853 1 32890 40 0 0 0         * an illithid
+G 1 32814 7 0 50 0 0 0             *    a swirling potion
+M 0 32859 6 32891 100 0 0 0        * a formorian giant
+M 0 32859 6 32891 100 0 0 0        * a formorian giant
+M 0 32856 1 32892 100 0 0 0        * a derro savant
+M 0 32858 2 32892 100 0 0 0        * an illithid
+M 0 32858 2 32892 100 0 0 0        * an illithid
+M 0 32857 1 32893 100 0 0 0        * an aboleth
+G 1 32804 4 0 80 0 0 0             *    an aboleth potion
+G 1 32804 4 0 80 0 0 0             *    an aboleth potion
+M 0 32855 1 32895 100 0 0 0        * an aboleth
+G 1 32866 1 0 100 0 0 0            *    a sapphire encrusted eye
+F 1 32860 2 32895 100 0 0 0        * an iron golem (following)
+F 1 32860 2 32895 100 0 0 0        * an iron golem (following)
+M 0 32882 5 32897 100 0 0 0        * an ixichitl
+M 0 32882 5 32898 100 0 0 0        * an ixichitl
+M 0 32882 5 32899 100 0 0 0        * an ixichitl
+M 0 32882 5 32899 100 0 0 0        * an ixichitl
+M 0 32882 5 32900 100 0 0 0        * an ixichitl
+M 0 32872 2 32901 100 0 0 0        * an iron golem
+M 0 32872 2 32901 100 0 0 0        * an iron golem
+M 0 32869 6 32902 100 0 0 0        * a huge water elemental
+M 0 32869 6 32902 100 0 0 0        * a huge water elemental
+M 0 32869 6 32902 100 0 0 0        * a huge water elemental
+M 0 32873 1 32903 100 0 0 0        * a savant aboleth
+G 1 32845 1 0 100 0 0 0            *    a sphere of crystallized magic
+G 1 32858 1 0 30 0 0 0             *    a vial of stornogs elixir
+G 1 32838 1 0 100 0 0 0            *    a staff of power
+M 0 32869 6 32905 100 0 0 0        * a huge water elemental
+M 0 32869 6 32905 100 0 0 0        * a huge water elemental
+M 0 32869 6 32905 100 0 0 0        * a huge water elemental
+M 0 32870 1 32906 100 0 0 0        * a savant aboleth
+G 1 32844 1 0 100 0 0 0            *    a sphere of crystallized magic
+G 1 32857 1 0 100 0 0 0            *    an elemental staff
+M 0 32862 3 32907 100 0 0 0        * a caryatid column
+M 0 32862 3 32907 100 0 0 0        * a caryatid column
+M 0 32862 3 32907 100 0 0 0        * a caryatid column
+M 0 32863 2 32908 100 0 0 0        * a shaboath golem
+M 0 32863 2 32908 100 0 0 0        * a shaboath golem
+M 0 32864 1 32909 100 0 0 0        * a savant aboleth
+G 1 32842 1 0 100 0 0 0            *    a sphere of crystallized magic
+M 0 32865 3 32910 100 0 0 0        * a skeleton of a formorian giant
+M 0 32865 3 32910 100 0 0 0        * a skeleton of a formorian giant
+M 0 32865 3 32910 100 0 0 0        * a skeleton of a formorian giant
+M 0 32866 2 32911 100 0 0 0        * a bone golem
+M 0 32866 2 32911 100 0 0 0        * a bone golem
+M 0 32867 1 32912 100 0 0 0        * a savant aboleth
+G 1 32843 1 0 100 0 0 0            *    a sphere of crystallized magic
+G 1 32855 1 0 100 0 0 0            *    a vampirism potion
+G 1 32856 1 0 100 0 0 0            *    the staff of the dead
+M 0 32874 1 32913 100 0 0 0        * a savant aboleth
+M 0 32875 8 32913 100 0 0 0        * a ju-ju zombie
+M 0 32875 8 32913 100 0 0 0        * a ju-ju zombie
+M 0 32875 8 32913 100 0 0 0        * a ju-ju zombie
+M 0 32875 8 32913 100 0 0 0        * a ju-ju zombie
+M 0 32876 1 32914 100 0 0 0        * a savant aboleth
+M 0 32875 8 32914 100 0 0 0        * a ju-ju zombie
+M 0 32875 8 32914 100 0 0 0        * a ju-ju zombie
+M 0 32877 2 32914 100 0 0 0        * a formorian giant
+M 0 32877 2 32914 100 0 0 0        * a formorian giant
+M 0 32875 8 32914 100 0 0 0        * a ju-ju zombie
+M 0 32875 8 32914 100 0 0 0        * a ju-ju zombie
+M 0 32878 1 32914 100 0 0 0        * a lost spirit
+M 0 32879 1 32915 100 0 0 0        * Darkaland, the derro savant
+G 1 32841 1 0 100 0 0 0            *    a net of endless currents
+F 1 32880 1 32915 100 0 0 0        * Shaharazar, the efreeti (following)
+M 0 32881 1 32916 100 0 0 0        * the Grand Savant
+E 1 32861 1 2 100 0 0 0            *   a ring of invisibility
+E 1 32862 1 3 100 0 0 0            *   the pendant of the aboleth
+E 1 32864 1 7 33 0 0 0             *   a pair of aboleth leggings
+E 1 32863 1 9 50 0 0 0             *   the claws of the dead
+E 1 32830 1 19 50 0 0 0            *   a platinum-encrusted sapphire eye
+G 1 32836 1 0 100 0 0 0            *    the totem of Mox
+G 1 32865 1 0 100 0 0 0            *    a bright yellow potion
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 32804 5 32917 100 0 0 0        * a kuo-toa guard
+M 0 32805 3 32917 100 0 0 0        * a derro guard
+M 0 32806 6 32917 100 0 0 0        * a derro guard
+*
+S

@@ -1,0 +1,235 @@
+#311
+&n&+yThe Mountain Settlement of the Harpies&n~
+31260 2 0 15 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 31126 0 1 100 0 0 0
+*     north exit from "A Mountainous Graveyard" to
+*     "Inside an Old Crypt" - closed
+*
+D 0 31128 2 1 100 0 0 0
+*     south exit from "Inside an Old Crypt" to
+*     "A Mountainous Graveyard" - closed
+*
+D 0 31133 1 5 100 0 0 0
+*     east exit from "A Trail up to the Summit" to
+*     "A Mountain Valley" - closed/secret
+*
+D 0 31223 3 5 100 0 0 0
+*     west exit from "A Mountain Valley" to
+*     "A Trail up to the Summit" - closed/secret
+*
+D 0 31134 3 5 100 0 0 0
+*     west exit from "A Trail up to the Summit" to
+*     "Base of an Incline" - closed/secret
+*
+D 0 31135 1 5 100 0 0 0
+*     east exit from "Base of an Incline" to
+*     "A Trail up to the Summit" - closed/secret
+*
+D 0 31142 2 5 100 0 0 0
+*     south exit from "Approaching the Summit" to
+*     "A Connecting Trail" - closed/secret
+*
+D 0 31234 0 5 100 0 0 0
+*     north exit from "A Connecting Trail" to
+*     "Approaching the Summit" - closed/secret
+*
+D 0 31168 5 5 100 0 0 0
+*     down exit from "A Mountainous Field" to
+*     "A Subterrean Den" - closed/secret
+*
+D 0 31250 4 5 100 0 0 0
+*     up exit from "A Subterrean Den" to
+*     "A Mountainous Field" - closed/secret
+*
+D 0 31189 5 1 100 0 0 0
+*     down exit from "A Twisting Mountain Trail" to
+*     "A Twisting Mountain Trail" - closed
+*
+D 0 31190 4 1 100 0 0 0
+*     up exit from "A Twisting Mountain Trail" to
+*     "A Twisting Mountain Trail" - closed
+*
+D 0 31197 1 5 100 0 0 0
+*     east exit from "A Mountain Cave" to
+*     "An Old Mine Shaft" - closed/secret
+*
+D 0 31241 3 5 100 0 0 0
+*     west exit from "An Old Mine Shaft" to
+*     "A Mountain Cave" - closed/secret
+*
+D 0 31246 2 1 100 0 0 0
+*     south exit from "Bottom of the Shaft" to
+*     "An Ancient Storage Room" - closed
+*
+D 0 31247 0 1 100 0 0 0
+*     north exit from "An Ancient Storage Room" to
+*     "Bottom of the Shaft" - closed
+*
+*
+O 0 31100 1 31100 100 0 0 0        * a sign
+O 0 31110 1 31177 100 0 0 0        * a sign
+O 0 3097 1 31178 100 0 0 0         * (object type not in this .obj file)
+O 0 31108 1 31187 100 0 0 0        * an ancient dwarven artifact
+O 0 31101 2 31193 100 0 0 0        * a large hanging cage
+O 0 31103 1 31195 100 0 0 0        * a large hanging cage
+O 0 31101 2 31198 100 0 0 0        * a large hanging cage
+O 0 31102 1 31207 100 0 0 0        * an aging rope ladder
+O 0 31105 1 31210 100 0 0 0        * a wyvern egg
+O 0 31104 1 31240 100 0 0 0        * a rusted key
+O 0 193 1 31246 100 0 0 0          * (object type not in this .obj file)
+O 0 31106 1 31248 100 0 0 0        * a giant battle golem
+O 0 31109 1 31248 100 0 0 0        * a small skeleton
+P 1 31115 1 31109 100 0 0 0        *   detailed plans of siege golem construction
+*
+M 0 31100 1 31105 100 0 0 0        * a hooded merchant
+G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 336 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 31121 2 31106 100 0 0 0        * a mountain lion
+M 0 31101 8 31107 100 0 0 0        * a mountain goat
+M 0 31123 11 31108 100 0 0 0       * a rock lizard
+M 0 31121 2 31112 100 0 0 0        * a mountain lion
+M 0 31123 11 31116 100 0 0 0       * a rock lizard
+M 0 31106 5 31123 100 0 0 0        * a gargoyle
+M 0 31106 5 31124 100 0 0 0        * a gargoyle
+M 0 31106 5 31125 100 0 0 0        * a gargoyle
+M 0 31106 5 31126 100 0 0 0        * a gargoyle
+M 0 31106 5 31127 100 0 0 0        * a gargoyle
+M 0 31108 1 31128 100 0 0 0        * an enormous gargoyle
+M 0 31123 11 31140 100 0 0 0       * a rock lizard
+M 0 31101 8 31142 100 0 0 0        * a mountain goat
+M 0 31104 4 31143 100 0 0 0        * a harpy guard
+E 1 31107 4 16 100 0 0 0           *   a barbed whip
+G 1 31116 1 0 100 0 0 0            *    a feathered ornament
+M 0 31104 4 31143 100 0 0 0        * a harpy guard
+E 1 31107 4 16 100 0 0 0           *   a barbed whip
+M 0 31123 11 31145 100 0 0 0       * a rock lizard
+M 0 31104 4 31146 100 0 0 0        * a harpy guard
+E 1 31107 4 16 100 0 0 0           *   a barbed whip
+M 0 31104 4 31146 100 0 0 0        * a harpy guard
+E 1 31107 4 16 100 0 0 0           *   a barbed whip
+M 0 31122 3 31146 100 0 0 0        * an adolescent harpy
+E 1 31113 1 2 100 0 0 0            *   a feathered ring
+M 0 31123 11 31148 100 0 0 0       * a rock lizard
+M 0 31111 6 31149 100 0 0 0        * a harpy commoner
+M 0 31111 6 31149 100 0 0 0        * a harpy commoner
+M 0 31120 3 31150 100 0 0 0        * a harpy commoner
+M 0 31122 3 31150 100 0 0 0        * an adolescent harpy
+M 0 31120 3 31151 100 0 0 0        * a harpy commoner
+M 0 31120 3 31153 100 0 0 0        * a harpy commoner
+M 0 31111 6 31155 100 0 0 0        * a harpy commoner
+M 0 31112 3 31155 100 0 0 0        * a harpy commoner
+M 0 31123 11 31156 100 0 0 0       * a rock lizard
+M 0 31110 2 31156 100 0 0 0        * a mountain lion
+M 0 31101 8 31158 100 0 0 0        * a mountain goat
+M 0 31114 4 31158 100 0 0 0        * a mountain hare
+M 0 31129 4 31159 100 0 0 0        * a mountain ocelot
+M 0 31129 4 31159 100 0 0 0        * a mountain ocelot
+M 0 31102 4 31162 100 0 0 0        * a mountain marmot
+M 0 31102 4 31162 100 0 0 0        * a mountain marmot
+M 0 31110 2 31164 100 0 0 0        * a mountain lion
+M 0 31114 4 31165 100 0 0 0        * a mountain hare
+M 0 31117 2 31167 100 0 0 0        * a bald eagle
+M 0 31117 2 31167 100 0 0 0        * a bald eagle
+M 0 31101 8 31168 100 0 0 0        * a mountain goat
+M 0 31101 8 31168 100 0 0 0        * a mountain goat
+M 0 31123 11 31169 100 0 0 0       * a rock lizard
+M 0 31114 4 31169 100 0 0 0        * a mountain hare
+M 0 31102 4 31170 100 0 0 0        * a mountain marmot
+M 0 31102 4 31170 100 0 0 0        * a mountain marmot
+M 0 31101 8 31170 100 0 0 0        * a mountain goat
+M 0 31105 7 31171 100 0 0 0        * a baby roc
+M 0 31105 7 31171 100 0 0 0        * a baby roc
+M 0 31133 2 31173 100 0 0 0        * an elite harpy guard
+M 0 31133 2 31173 100 0 0 0        * an elite harpy guard
+M 0 31107 2 31174 100 0 0 0        * a harpy ethermancer
+M 0 31107 2 31174 100 0 0 0        * a harpy ethermancer
+M 0 31109 1 31174 100 0 0 0        * the harpy queen
+M 0 31105 7 31175 100 0 0 0        * a baby roc
+M 0 31105 7 31175 100 0 0 0        * a baby roc
+M 0 31122 3 31175 100 0 0 0        * an adolescent harpy
+M 0 31115 2 31176 100 0 0 0        * a mother roc
+M 0 31105 7 31176 100 0 0 0        * a baby roc
+M 0 31105 7 31176 100 0 0 0        * a baby roc
+M 0 31103 1 31178 100 0 0 0        * Merv, the minotaur moneylender
+M 0 31125 2 31182 100 0 0 0        * a mountain vulture
+M 0 31125 2 31183 100 0 0 0        * a mountain vulture
+M 0 31123 11 31183 100 0 0 0       * a rock lizard
+M 0 31114 4 31183 100 0 0 0        * a mountain hare
+M 0 31101 8 31185 100 0 0 0        * a mountain goat
+M 0 31123 11 31186 100 0 0 0       * a rock lizard
+M 0 31111 6 31188 100 0 0 0        * a harpy commoner
+M 0 31112 3 31188 100 0 0 0        * a harpy commoner
+M 0 31111 6 31188 100 0 0 0        * a harpy commoner
+M 0 31124 1 31189 100 0 0 0        * a harpy khan
+M 0 31116 4 31190 100 0 0 0        * a devious harpy
+M 0 31115 2 31191 100 0 0 0        * a mother roc
+M 0 31105 7 31191 100 0 0 0        * a baby roc
+M 0 31116 4 31193 100 0 0 0        * a devious harpy
+M 0 31123 11 31193 100 0 0 0       * a rock lizard
+M 0 31116 4 31194 100 0 0 0        * a devious harpy
+M 0 31116 4 31195 100 0 0 0        * a devious harpy
+M 0 31123 11 31196 100 0 0 0       * a rock lizard
+M 0 31113 1 31198 100 0 0 0        * a hideous harpy
+M 0 31118 1 31198 100 0 0 0        * a chained dwarf
+M 0 31141 1 31201 100 0 0 0        * an angry griffon
+M 0 31126 3 31209 100 0 0 0        * an adult wyvern
+M 0 31127 4 31209 100 0 0 0        * a young wyvern
+M 0 31127 4 31209 100 0 0 0        * a young wyvern
+M 0 31126 3 31210 100 0 0 0        * an adult wyvern
+M 0 31126 3 31212 100 0 0 0        * an adult wyvern
+M 0 31127 4 31212 100 0 0 0        * a young wyvern
+M 0 31127 4 31212 100 0 0 0        * a young wyvern
+M 0 31130 6 31213 100 0 0 0        * a rock toad
+M 0 31130 6 31213 100 0 0 0        * a rock toad
+M 0 31130 6 31214 100 0 0 0        * a rock toad
+M 0 31130 6 31214 100 0 0 0        * a rock toad
+M 0 31130 6 31217 100 0 0 0        * a rock toad
+M 0 31130 6 31217 100 0 0 0        * a rock toad
+M 0 31129 4 31218 100 0 0 0        * a mountain ocelot
+M 0 31129 4 31218 100 0 0 0        * a mountain ocelot
+M 0 31119 1 31220 100 0 0 0        * an orc hiker
+M 0 31132 1 31220 100 0 0 0        * an orc hiker
+M 0 31101 8 31221 100 0 0 0        * a mountain goat
+M 0 31112 3 31222 100 0 0 0        * a harpy commoner
+E 1 31114 1 6 100 0 0 0            *   a feathered hat
+M 0 31111 6 31222 100 0 0 0        * a harpy commoner
+M 0 31131 4 31224 100 0 0 0        * a thunder lizard
+M 0 31131 4 31225 100 0 0 0        * a thunder lizard
+M 0 31131 4 31226 100 0 0 0        * a thunder lizard
+M 0 31135 2 31228 100 0 0 0        * a massive salamander
+F 1 31134 2 31228 100 0 0 0        * a salamander hatchling (following)
+M 0 31135 2 31229 100 0 0 0        * a massive salamander
+F 1 31134 2 31229 100 0 0 0        * a salamander hatchling (following)
+M 0 31136 2 31230 100 0 0 0        * a hulking gigasaur
+G 1 31117 1 0 100 0 0 0            *    a gigasaur tail
+M 0 31136 2 31230 100 0 0 0        * a hulking gigasaur
+M 0 31131 4 31231 100 0 0 0        * a thunder lizard
+M 0 31140 2 31234 100 0 0 0        * a storm crow
+G 1 31112 2 0 100 0 0 0            *    a storm crow feather
+M 0 31143 1 31240 100 0 0 0        * a devious harpy
+M 0 31137 1 31246 100 0 0 0        * a gargoyle
+M 0 31138 1 31246 100 0 0 0        * an insidious lich
+M 0 31128 1 31249 100 0 0 0        * a ancient harpy
+E 1 31118 1 3 100 0 0 0            *   an enchanted feathered shawl
+M 0 31139 8 31251 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31252 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31252 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31253 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31254 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31255 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31256 100 0 0 0        * a clattering crab spider
+M 0 31139 8 31256 100 0 0 0        * a clattering crab spider
+M 0 31142 1 31257 100 0 0 0        * a monsterous crab spider
+M 0 31140 2 31260 100 0 0 0        * a storm crow
+G 1 31112 2 0 100 0 0 0            *    a storm crow feather
+*
+S

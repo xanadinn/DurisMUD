@@ -1,0 +1,508 @@
+#93000
+crow black~
+the &+Lblack &Ncrow~
+An &+Levil looking crow &Nis perched here staring at you.
+~
+He stares at you unblinking seemingly waiting for you to make your move.
+~
+2058 0 0 33554432 0 0 0 -300 S
+PW 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#93001
+thief goblin~
+&+cthe thief&n~
+&+cA sneaky looking goblin cringes when he sees you.
+~
+   He is only 4 feet tall and is wearing black leather armor. In his weapon
+sheath is a 1 foot long dagger and he stares at you with big black eyes. The
+leather armor he wears looks scuffed and worn also flexible when he
+moves from side to side. One very noticeable point about him is that he looks
+incredibly strong as muscles ripple through the clothing he wears. A very
+rare event considering that most goblins aren't nearly as strong as him.
+~
+1107298378 64 0 1122336 4096 0 0 200 S
+HG 0 16384 -1
+50 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#93002
+goblin green sickly~
+the sickly &+ggreen &Ngoblin~
+A sickly &+ggreen &Ngoblin stands here grinning evilly.
+~
+   He stands 5 feet tall and has pitch black evil looking eyes. When he grins
+he shows off ugly looking &+Yyellow &Nteeth which have rotten pieces of meat
+stuck to them. His skin is a &+wleathery &+ggreen &Nmaking him look vicious.
+~
+2122 88 0 8 2 0 0 -750 S
+HG 0 1 -1
+10 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 1
+#93003
+rat~
+a small &+grat&n~
+A small &+grat &Nquickly scurries across the room.
+~
+   The rat looks small and pathetic but even then it feels weird
+being close to it. It's covered in a strange &+ggreen &Nslime and attempts
+to hide in a corner of the room.
+~
+138 0 0 0 0 0 0 -1 S
+A 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#93004
+goblin guard~
+a &+ggoblin &Nguard~
+A &+ggoblin &Nstands here seemingly guarding the south exit.
+~
+   He is holding a rusty looking metal club and has large muscles which you
+can notice only when close up.
+ His skin is a &+Gforest green &Ncolor and he snarls when you look at him
+then bares his teeth.
+~
+10 88 0 0 2 0 0 -750 S
+HG 0 1 -1
+15 15 51 15d27+90 2d5+2
+7.6.2.0 7290
+8 8 0
+#93005
+goblin leader~
+&+Lthe goblin leader&n~
+&+LThe goblin leader is sitting here looking very evil.&n
+~
+He is wearing black metal armor and has a barbed sword in his sheath. When
+he sees you, he lets loose a loud roar and kicks one of his slaves in the
+stomach hard. Obviously, he does not like the sight of you!
+~
+2058 1 0 65576 2 0 0 -1000 S
+HG 0 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#93006
+goblin slave~
+&+Ya goblin slave&n~
+&+YA goblin slave stands here with a terrified expression.&n
+~
+He looks at you with wide terrified eyes as you stare at him. He is very
+thin and weak and is also covered with numerous bruises. The leader
+obviously doesn't treat his slaves very well!
+~
+2058 0 0 0 2 0 0 500 S
+HG 0 0 -1
+5 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 0
+#93007
+goblin cleric acolyte~
+the goblin &+macolyte&n~
+A goblin &+macolyte &Nstands here inspecting the map.
+~
+   The cleric is inspecting the map so closely that he does not notice you
+staring at him. He is wearing tattered robes and has a &+yrusty &Nmace on his
+belt. He has a symbol of some &+rdemigod &Non his neck.
+~
+67110922 0 0 65536 2 0 0 -1000 S
+HG 0 32 -1
+20 13 35 20d33+120 3d4+2
+0.9.3.0 9720
+8 8 1
+#93008
+acid worm~
+the &+gacid worm&n~
+An &+gacid worm &Nlies here spraying the room with death.
+~
+   So this is what has caused all the &+ggreen slime&N! The worm is nearly 7 feet
+in length and looks very dangerous as it sprays the room with &+ggreen slimy
+&+gacid&N.
+~
+10 1 0 536903744 12418 0 0 -500 S
+AC 0 0 -1
+20 11 23 24d40+192 3d5+3
+0.0.0.0 21384
+8 8 0
+#93009
+inexperienced goblin guard~
+an inexperienced &+ggoblin guard&n~
+An inexperienced looking &+ggoblin guard &Nstands here looking nervous.
+~
+   He glances his eyes across the room nervously as he looks around. He seems
+smaller then other guards and very self-conscious about his post. An
+unworthy opponent it would seem.
+~
+12 88 0 0 2 0 0 -750 S
+HG 0 1 -1
+5 20 83 5d17+27 1d5+0
+3.1.0.0 648
+8 8 0
+#93010
+elite guard~
+an &+Lelite &+ggoblin guard&n~
+An &+Lelite &+ggoblin guard &Nstruts around proudly here.
+~
+   He is bigger and stronger then most goblin guards and has an aura of
+importance around him. He wears crude &+yleather &Narmor and has a piece of
+&+Lmetal &Non the chest of his armor which is some crude form of a medal.
+The sword he carries looks very &+rwicked&+w.
+~
+2056 88 0 0 2 0 0 -750 S
+HG 0 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#93011
+goblin child~
+a small &+ggoblin child&n~
+A small &+ggoblin &Nchild wanders around here looking bored.
+~
+   The child is about 4 feet tall and wanders the grounds looking very bored.
+He wears tattered furs and has huge black eyes which look like they are
+about to pop out of his head. A peculiar looking creature indeed.
+~
+2060 0 0 0 2 0 0 -500 S
+HG 0 0 -1
+3 20 90 3d15+11 1d5+0
+2.1.0.0 388
+8 8 1
+#93012
+female goblin drunk~
+a &+Yfemale goblin&n~
+A &+Yfemale goblin &Nstaggers around the room drunk.
+~
+   She looks like she can hardly stand up as she staggers around the room
+drooling. When she sees you she gives you an exasperated look and continues
+staggering around the room.
+~
+10 0 0 0 2 0 0 -500 S
+HG 0 0 -1
+7 18 77 7d18+24 2d3+1
+3.2.0.0 907
+8 8 2
+#93013
+goblin baby~
+a &+Ygoblin baby&n~
+&+YA goblin baby sits here drooling on a chew toy.
+~
+   It's very tiny and cute in a weird sort of way. It has a chew toy in
+its mouth and closer inspection shows that it's really just a tough
+piece of rotten &+ymeat&N.
+~
+14 0 0 0 2 0 0 -200 S
+HG 0 0 -1
+1 20 96 1d15+4 1d5+0
+1.0.0.0 129
+8 8 0
+#93014
+tough male orc~
+a tough male &+ygoblin&n~
+A tough looking male &+ygoblin &Nsits here watching over the home.
+~
+He stands on one side of the room watching it closely for intruders. He
+must be a father since he treats the house gently and is very wary of
+anyone not in the family who enters here. He also looks pretty tough,
+one to be reckoned with.
+~
+2062 0 0 0 2 0 0 -750 S
+HG 0 1 -1
+12 15 61 12d27+72 2d5+2
+6.4.2.0 5832
+8 8 1
+#93015
+lizard man lizardman~
+a &+rvicious &+glizardman&n~
+A &+rvicious &+glizardman eyes the room cautiously and hisses loudly.&n
+~
+   This scaly humanoid looks like a giant &+glizard &Nthat's standing on his hind
+legs. He carries a dagger and jumps around the room with great agility
+and hisses very loudly.
+~
+1074004044 0 0 33554448 0 0 0 -800 S
+R 0 4096 -1
+13 15 58 13d23+52 2d5+2
+0.0.0.0 6318
+8 8 0
+#93016
+king lizard lizardman~
+the &+glizard &+Yking&n~
+The &+gLizard &+Yking &+wis standing here looking very angry at something.
+~
+   The &+Yking &Npaces across the room hissing and roaring as he moves by.
+He is much larger then most lizards and carries a small &+Bshort sword&N.
+He looks like a very dangerous opponent.
+~
+1073748042 1 0 65544 0 0 0 -900 S
+R 0 1 -1
+48 -3 -78 48d119+2640 6d6+25
+0.0.0.0 116640
+8 8 0
+#93017
+dragon red~
+the &+rred &+gdragon&n~
+A &+rRed &+gDragon &+wsits here guarding his &+ytreasure hoard
+~
+   The &+rdragon &Nis pretty damn huge about 48 feet. This has got to be the source
+of &+Rheat &Nsince even as he normally breathes, intense &+rfire blows out of his
+mouth and nose. You can see many valuable looking &+mgems encrusted in his hide
+killing him would make you rich for years.
+~
+33556494 1 0 136 0 0 0 -1000 S
+D 0 1 -1
+55 -5 -131 55d131+5225 7d6+30
+0.2.3.19 445500
+4 8 0
+#93018
+slime green~
+some &+ggreen slime&n~
+A blob of &+ggreen slime &Nis splattered on the ground seemingly moving.
+~
+&+rThis is one mean dragon looking dragon, I'd run if I were you!
+~
+76 0 0 0 0 0 0 0 S
+AP 0 4096 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#93019
+ogre guard sentinel~
+an &+Rogre &+wsentinel&n~
+An &+Rogre &+wsentinel stands here guarding the entrance.
+~
+   He looks very aware as he shifts his eyes from room to room. He grunts at
+the wall stupidly as if someone was really there and pounds it with his
+&+yclub &+wfrom time to time.
+~
+133134 88 0 0 2 0 0 -850 S
+PO 0 1 -1
+17 13 45 17d35+119 3d4+2
+8.6.2.0 8262
+8 8 1
+#93020
+ogre chief~
+the &+Rogre &+Lchief&n~
+The &+Rogre &+Lchief stands here looking upset at your arrival.&n
+~
+   He is incredibly tall nearly as tall as a giant which gives him an aura of
+respect around other ogres and he has huge &+Rmuscles &Nto match. When he roars
+the sound is deafening and he takes his fist and smashes it against the
+&+Lground &Nwhich shudders under the force and cracks.
+~
+67110986 64 0 0 2 0 0 -1000 S
+PO 0 1 -1
+32 6 -2 32d83+544 4d6+7
+6.8.0.2 41472
+8 8 1
+#93021
+ogre boy~
+an ogre &+yboy&n~
+An ogre &+yboy &Nstands here screaming wildly.&n
+~
+   He can't be more then 6 years of age as he runs around screaming and
+smashing everything in his path. Even though he's young, in battle he
+might prove a challenge.
+~
+2252 0 0 0 0 0 0 -800 S
+PO 0 0 -1
+5 20 83 5d15+17 1d5+0
+3.1.0.0 648
+8 8 1
+#93022
+ogre female~
+a &+Yfemale ogre&n~
+&+YA female ogre stands here trying to control the children.&n
+~
+   She looks quite tough and grin a wide toothy grin when you look at her.
+Her version of controlling the kids is taking a &+Yclub and &+rsmashing them
+unconscious so they won't move. This kills some of the kids but she doesn't
+seem to mind.
+~
+10 0 0 0 0 0 0 -800 S
+PO 0 1 -1
+9 18 71 9d21+49 2d3+1
+4.3.0.0 1166
+8 8 2
+#93023
+ogre male~
+an &+Rogre male&n~
+An &+Rogre &+wmale stands here presiding over his home.
+~
+   He looks quite tough and ready to defend his home at any cost. He grunts
+at you when he notices you looking at him and motions you to look away.
+Better not get this guy &+rangry &Nhe looks like he's ready to fight.
+~
+1073741838 0 0 0 0 0 0 -800 S
+PO 0 1 -1
+16 13 48 16d35+112 3d4+2
+8.6.2.0 7776
+8 8 1
+#93024
+ogre crazy~
+a &+rcrazed &+Rogre&n~
+An &+Rogre &Nstands here bashing the wall madly.
+~
+   He looks really pissed off as he roars and continues to bash the wall.
+When he sees you he roars a deafening scream at you and continues bashing
+the wall. Fortunately he looks pretty weak so if he decides to bash you
+then killing him will be no problem.
+~
+8 0 0 0 0 0 0 -800 S
+PO 0 0 -1
+2 20 93 2d15+7 1d5+0
+1.0.0.0 259
+8 8 0
+#93025
+bat small~
+a small &+Lbat&n~
+A small &+Lbat &Nflys quickly around you.
+~
+   This &+Lbat &Nis no more then 6 inches in length but very agile. It flutters
+around the room screaming loudly.
+~
+200 0 0 134217728 0 0 0 -100 S
+AC 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0
+#93026
+acolyte cleric ogre~
+an ogre &+cacolyte&n~
+&+cAn ogre acolyte sits here praying.&n
+~
+   He is kneeling before an altar and is grunting strange prayers to it. He
+has no weapon on hand but looks like he has good faith in his god and could
+throw off some deadly &+mspells&N.
+~
+2058 0 0 0 0 0 0 -1000 S
+PO 0 256 -1
+18 13 42 18d33+108 3d4+2
+9.7.3.0 8748
+8 8 0
+#93027
+chieftess ogre~
+the &+Mogre chieftess&n~
+&+MThe ogre chieftess cowers in a corner of the room.&n
+~
+   She looks incredibly scared and is covered with numerous &+bbruises&N. She also
+looks very thin and weak and you almost feel sorry for her. She cringes
+when she sees you looking at her and attempts to hide even more in the
+corner of the room. The chief must be a very &+rviolent man&N.
+~
+218 0 0 8 0 0 0 -400 S
+PO 0 1 -1
+8 18 74 8d21+44 2d3+1
+4.2.0.0 1036
+8 8 2
+#93028
+lizard massive reptile~
+&+ga massive underground lizard&n~
+&+gA massive reptile moves across the room slowly.
+~
+   &+gWell over 7 feet in length it moves across the cavern floor very
+&+gslowly. It gives you a glance and continues walking. The thick scales on
+&+gits hide must be very hard to penetrate and the sharp claws on it make
+&+gattacking this creature very dangerous.
+~
+1073743944 0 0 33554432 0 0 0 0 S
+R 0 0 5
+29 8 7 29d55+319 3d6+4
+0.0.0.0 25839
+8 8 0
+#93029
+guard huge goblin~
+&+ga huge guard&n~
+&+gA huge goblin stands here guarding the room.&n
+~
+   He has hulking muscles and stands motionless scanning the room for
+intruders. It carries a plain looking iron shield which could be used
+effectively in battle.
+~
+10 64 0 0 0 0 0 -500 S
+HG 0 0 -1
+14 15 55 14d23+56 2d5+2
+7.5.2.0 6804
+8 8 1
+#93030
+warg massive~
+&+ya massive warg&n~
+&+yA vicious and dangerous looking warg stands here quietly.&n
+~
+   About 6 feet in height, this warg is used as a mount for high ranking
+goblins and nobles. When it bares its fangs it shows razor sharp looking
+teeth showing it can protect itself very well.
+~
+134217738 0 0 0 0 0 0 -500 S
+AC 0 1 -1
+13 15 58 13d27+78 2d5+2
+0.0.0.0 6318
+8 8 1
+#93031
+troll huge~
+&+ga huge troll&n~
+&+gA huge troll stands here looking confused and lost.&n
+~
+   Well over 7 feet this troll looks incredibly dangerous in battle.
+At the moment however he looks totally boggled and when he sees you looking
+at him he says 'Me like this place but me want to go back to Ghore'. He
+continues wandering around looking for a way out.
+~
+67110920 0 0 0 0 0 0 -800 S
+PT 0 1 -1
+28 8 10 28d65+364 3d6+4
+8.3.7.1 24948
+8 8 1
+#93032
+ogre huge warrior~
+&+ra huge ogre warrior&n~
+&+rA huge ogre warrior stands here inspecting the surroundings.&n
+~
+   A huge ogre nearly 9 feet tall with massive rippling muscles. He stares
+across the room inspecting the cavern walls in awe. He carries a large
+spiked club and doesn't seem to notice you looking at him.
+~
+1140852808 0 0 0 0 0 0 -900 S
+PO 0 1 -1
+27 8 13 27d65+351 3d6+4
+8.3.7.1 24057
+8 8 1
+#93033
+slime red~
+&+rsome red slime&n~
+&+rA blob of red slime jumps down from the ceiling to attack!
+~
+   Virtually identical to other slimes save its red color, this type seems
+to be more hostile then others as it jumps down to attack you.
+~
+8 1 0 40 0 0 0 0 S
+AP 0 0 -1
+7 18 77 7d18+24 2d3+1
+0.0.0.0 907
+8 8 0
+#93034
+dragon red~
+the &+rred &+gdragon&n~
+A &+rRed &+gDragon &+wroams around here.
+~
+&+rThis looks like one bad ass dragon to you! Run!
+~
+33556556 1 0 40 32770 0 0 -1000 S
+D 0 1 -1
+50 -3 -115 50d119+3250 6d6+25
+0.3.7.14 243000
+8 8 1
+#93035
+bat small~
+a small &+Lbat&n~
+A small &+Lbat &Nflys quickly around you
+~
+   This &+Lbat &Nis no more then 6 inches in length but very agile. It flutters
+around the room screaming loudly.
+~
+200 0 0 134217728 0 0 0 -5000 S
+AC 0 0 -1
+1 20 96 1d15+4 1d5+0
+0.0.0.0 129
+8 8 0

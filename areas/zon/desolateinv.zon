@@ -1,0 +1,535 @@
+#773
+&+cDesolate&+L Under &+rFire&n~
+77465 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 77319 1 1 100 0 0 0
+*     east exit from "The Road to Desolate" to
+*     "Inside a Small Temple" - closed
+*
+D 0 77435 3 1 100 0 0 0
+*     west exit from "Inside a Small Temple" to
+*     "The Road to Desolate" - closed
+*
+D 0 77323 1 5 100 0 0 0
+*     east exit from "The Road to Desolate" to
+*     "A Clearing in the Forest" - closed/secret
+*
+D 0 77424 3 5 100 0 0 0
+*     west exit from "A Clearing in the Forest" to
+*     "The Road to Desolate" - closed/secret
+*
+D 0 77325 8 2 100 0 0 0
+*     northeast exit from "The Road to Desolate" to
+*     "A Fortified Bunker" - closed/locked
+*
+D 0 77382 7 2 100 0 0 0
+*     southwest exit from "A Fortified Bunker" to
+*     "The Road to Desolate" - closed/locked
+*
+D 0 77329 2 5 100 0 0 0
+*     south exit from "A Recent Battle Ground" to
+*     "Deadend in the Trail" - closed/secret
+*
+D 0 77388 0 5 100 0 0 0
+*     north exit from "Deadend in the Trail" to
+*     "A Recent Battle Ground" - closed/secret
+*
+D 0 77329 7 2 100 0 0 0
+*     southwest exit from "A Recent Battle Ground" to
+*     "A Fortified Bunker" - closed/locked
+*
+D 0 77382 8 2 100 0 0 0
+*     northeast exit from "A Fortified Bunker" to
+*     "A Recent Battle Ground" - closed/locked
+*
+D 0 77330 0 1 100 0 0 0
+*     north exit from "The Gates of Desolate" to
+*     "Base of a Watch Tower" - closed
+*
+D 0 77396 2 1 100 0 0 0
+*     south exit from "Base of a Watch Tower" to
+*     "The Gates of Desolate" - closed
+*
+D 0 77330 1 1 100 0 0 0
+*     east exit from "The Gates of Desolate" to
+*     "Main Street" - closed
+*
+D 0 77395 3 1 100 0 0 0
+*     west exit from "Main Street" to
+*     "The Gates of Desolate" - closed
+*
+D 0 77330 2 1 100 0 0 0
+*     south exit from "The Gates of Desolate" to
+*     "Base of a Watch Tower" - closed
+*
+D 0 77397 0 1 100 0 0 0
+*     north exit from "Base of a Watch Tower" to
+*     "The Gates of Desolate" - closed
+*
+D 0 77333 2 1 100 0 0 0
+*     south exit from "The Former Jousting Grounds" to
+*     "A Makeshift Command Post" - closed
+*
+D 0 77342 0 1 100 0 0 0
+*     north exit from "A Makeshift Command Post" to
+*     "The Former Jousting Grounds" - closed
+*
+D 0 77343 1 2 100 0 0 0
+*     east exit from "Before a Solid Black Gate" to
+*     "A Dark and Narrow Tunnel" - closed/locked
+*
+D 0 77361 3 2 100 0 0 0
+*     west exit from "A Dark and Narrow Tunnel" to
+*     "Before a Solid Black Gate" - closed/locked
+*
+D 0 77347 1 1 100 0 0 0
+*     east exit from "Scotson's Home" to
+*     "Evergreen Way" - closed
+*
+D 0 77436 3 1 100 0 0 0
+*     west exit from "Evergreen Way" to
+*     "Scotson's Home" - closed
+*
+D 0 77349 0 1 100 0 0 0
+*     north exit from "A Forest Trail Before a Cabin" to
+*     "Inside a Cabin" - closed
+*
+D 0 77381 2 1 100 0 0 0
+*     south exit from "Inside a Cabin" to
+*     "A Forest Trail Before a Cabin" - closed
+*
+D 0 77354 0 1 100 0 0 0
+*     north exit from "A Debris Littered Trail" to
+*     "A Partially Destroyed Tent" - closed
+*
+D 0 77364 2 1 100 0 0 0
+*     south exit from "A Partially Destroyed Tent" to
+*     "A Debris Littered Trail" - closed
+*
+D 0 77359 1 5 100 0 0 0
+*     east exit from "A Path Behind the Camping Grounds" to
+*     "A Garbage Pile" - closed/secret
+*
+D 0 77360 3 5 100 0 0 0
+*     west exit from "A Garbage Pile" to
+*     "A Path Behind the Camping Grounds" - closed/secret
+*
+D 0 77364 5 13 100 0 0 0
+*     down exit from "A Partially Destroyed Tent" to
+*     "A Descent Into The Earth" - closed/secret/blocked
+*
+D 0 77365 4 13 100 0 0 0
+*     up exit from "A Descent Into The Earth" to
+*     "A Partially Destroyed Tent" - closed/secret/blocked
+*
+D 0 77368 5 1 100 0 0 0
+*     down exit from "At an Ancient Doorway" to
+*     "Inside the Master's Chamber" - closed
+*
+D 0 77369 4 1 100 0 0 0
+*     up exit from "Inside the Master's Chamber" to
+*     "At an Ancient Doorway" - closed
+*
+D 0 77386 3 12 100 0 0 0
+*     west exit from "A Faint Trail Through the Forest" to
+*     "Deep in the Forest" - open/secret/blocked
+*
+D 0 77389 1 12 100 0 0 0
+*     east exit from "Deep in the Forest" to
+*     "A Faint Trail Through the Forest" - open/secret/blocked
+*
+D 0 77403 2 1 100 0 0 0
+*     south exit from "Main Street" to
+*     "A Commoner's Dwelling" - closed
+*
+D 0 77438 0 1 100 0 0 0
+*     north exit from "A Commoner's Dwelling" to
+*     "Main Street" - closed
+*
+D 0 77405 2 1 100 0 0 0
+*     south exit from "Main Street" to
+*     "The Bank of Desolate" - closed
+*
+D 0 77434 0 1 100 0 0 0
+*     north exit from "The Bank of Desolate" to
+*     "Main Street" - closed
+*
+D 0 77406 0 1 100 0 0 0
+*     north exit from "Main Street" to
+*     "The Mayor's Residence" - closed
+*
+D 0 77408 2 1 100 0 0 0
+*     south exit from "The Mayor's Residence" to
+*     "Main Street" - closed
+*
+D 0 77410 1 8 100 0 0 0
+*     east exit from "The Master's Test" to
+*     "The Test of Speed" - open/blocked
+*
+D 0 77411 3 8 100 0 0 0
+*     west exit from "The Test of Speed" to
+*     "The Master's Test" - open/blocked
+*
+D 0 77410 2 8 100 0 0 0
+*     south exit from "The Master's Test" to
+*     "The Test of Will" - open/blocked
+*
+D 0 77415 0 8 100 0 0 0
+*     north exit from "The Test of Will" to
+*     "The Master's Test" - open/blocked
+*
+D 0 77411 1 8 100 0 0 0
+*     east exit from "The Test of Speed" to
+*     "The Test of Endurance" - open/blocked
+*
+D 0 77412 3 8 100 0 0 0
+*     west exit from "The Test of Endurance" to
+*     "The Test of Speed" - open/blocked
+*
+D 0 77412 2 8 100 0 0 0
+*     south exit from "The Test of Endurance" to
+*     "The Test of Strength" - open/blocked
+*
+D 0 77413 0 8 100 0 0 0
+*     north exit from "The Test of Strength" to
+*     "The Test of Endurance" - open/blocked
+*
+D 0 77413 3 8 100 0 0 0
+*     west exit from "The Test of Strength" to
+*     "The Test of Courage" - open/blocked
+*
+D 0 77414 1 8 100 0 0 0
+*     east exit from "The Test of Courage" to
+*     "The Test of Strength" - open/blocked
+*
+D 0 77414 3 8 100 0 0 0
+*     west exit from "The Test of Courage" to
+*     "The Test of Will" - open/blocked
+*
+D 0 77415 1 8 100 0 0 0
+*     east exit from "The Test of Will" to
+*     "The Test of Courage" - open/blocked
+*
+D 0 77418 3 1 100 0 0 0
+*     west exit from "Royal Oak Way" to
+*     "A Commoner's Dwelling" - closed
+*
+D 0 77439 1 1 100 0 0 0
+*     east exit from "A Commoner's Dwelling" to
+*     "Royal Oak Way" - closed
+*
+D 0 77419 3 1 100 0 0 0
+*     west exit from "Evergreen Way" to
+*     "The Lustful Logger Bar" - closed
+*
+D 0 77420 1 1 100 0 0 0
+*     east exit from "The Lustful Logger Bar" to
+*     "Evergreen Way" - closed
+*
+D 0 77429 3 1 100 0 0 0
+*     west exit from "Royal Oak Way" to
+*     "The Desolate Barracks" - closed
+*
+D 0 77444 1 1 100 0 0 0
+*     east exit from "The Desolate Barracks" to
+*     "Royal Oak Way" - closed
+*
+D 0 77437 3 1 100 0 0 0
+*     west exit from "Evergreen Way" to
+*     "A Commoner's Dwelling" - closed
+*
+D 0 77440 1 1 100 0 0 0
+*     east exit from "A Commoner's Dwelling" to
+*     "Evergreen Way" - closed
+*
+D 0 77448 1 1 100 0 0 0
+*     east exit from "A Commoner's Dwelling" to
+*     "Royal Oak Way" - closed
+*
+D 0 77459 3 1 100 0 0 0
+*     west exit from "Royal Oak Way" to
+*     "A Commoner's Dwelling" - closed
+*
+D 0 77453 5 12 100 0 0 0
+*     down exit from "A Break in the Forest" to
+*     "A Sandy Beach" - open/secret/blocked
+*
+D 0 77454 4 12 100 0 0 0
+*     up exit from "A Sandy Beach" to
+*     "A Break in the Forest" - open/secret/blocked
+*
+*
+O 0 77320 1 77307 100 0 0 0        * a draft horse corpse
+O 0 77302 3 77315 100 0 0 0        * a patrol corpse
+O 0 77302 3 77319 100 0 0 0        * a patrol corpse
+O 0 77302 3 77328 100 0 0 0        * a patrol corpse
+O 0 77301 1 77329 100 0 0 0        * an orc corpse
+O 0 77303 4 77339 100 0 0 0        * a firepit
+O 0 77303 4 77340 100 0 0 0        * a firepit
+O 0 77303 4 77341 100 0 0 0        * a firepit
+O 0 77309 1 77342 100 0 0 0        * a chest of plunder
+P 1 77390 1 77309 100 0 0 0        *   a pile of coins
+P 1 77342 1 77309 100 0 0 0        *   a spiked brace of armageddon
+P 1 77341 1 77309 100 0 0 0        *   a jousting trophy
+O 0 77394 1 77343 100 0 0 0        * an exit
+O 0 77303 4 77345 100 0 0 0        * a firepit
+O 0 77319 2 77350 100 0 0 0        * a pile of lumber
+O 0 77319 2 77351 100 0 0 0        * a pile of lumber
+O 0 77308 1 77360 100 0 0 0        * a garbage pile
+P 1 77326 9 77308 100 0 0 0        *   a shard of sharpened metal
+P 1 77326 9 77308 100 0 0 0        *   a shard of sharpened metal
+P 1 77312 1 77308 100 0 0 0        *   some stinky meat bones
+P 1 77326 9 77308 100 0 0 0        *   a shard of sharpened metal
+O 0 77334 1 77362 100 0 0 0        * a canvas tent
+O 0 77377 1 77364 100 0 0 0        * a magic torch
+O 0 77376 1 77365 100 0 0 0        * some blackened soil
+O 0 77307 1 77369 100 0 0 0        * a parchment note
+O 0 77304 4 77369 100 0 0 0        * a casket
+O 0 77304 4 77370 100 0 0 0        * a casket
+O 0 77313 1 77371 100 0 0 0        * an old book
+O 0 77304 4 77371 100 0 0 0        * a casket
+O 0 77393 1 77372 100 0 0 0        * a casket
+O 0 77304 4 77373 100 0 0 0        * a casket
+O 0 77305 1 77374 100 0 0 0        * a casket
+O 0 77314 1 77386 100 0 0 0        * some leafy branches
+O 0 77315 1 77394 100 0 0 0        * a sad little monkey
+P 1 77316 1 77315 100 0 0 0        *   a silver neck chain
+O 0 77322 1 77407 100 0 0 0        * an elegant fountain
+O 0 77323 1 77410 100 0 0 0        * a casket
+O 0 77324 1 77410 100 0 0 0        * a black button
+O 0 77325 1 77411 100 0 0 0        * a black button
+O 0 77348 1 77412 100 0 0 0        * a black button
+O 0 77349 1 77413 100 0 0 0        * a black button
+O 0 77337 1 77414 100 0 0 0        * a black button
+O 0 77350 1 77415 100 0 0 0        * a black button
+O 0 77333 1 77419 100 0 0 0        * a large sign
+O 0 3097 1 77434 100 0 0 0         * (object type not in this .obj file)
+O 0 77371 1 77453 100 0 0 0        * a large barricade
+O 0 77391 1 77454 100 0 0 0        * a large barricade
+O 0 77374 1 77456 100 0 0 0        * a soldier's tent
+O 0 77310 1 77457 100 0 0 0        * a weapons pile
+P 1 77326 9 77310 100 0 0 0        *   a shard of sharpened metal
+P 1 77326 9 77310 100 0 0 0        *   a shard of sharpened metal
+P 1 77328 1 77310 100 0 0 0        *   a steel warhammer
+P 1 77327 1 77310 100 0 0 0        *   a steel-mesh vest
+P 1 77361 1 77310 100 0 0 0        *   a gilded-steel sabre
+P 1 77358 1 77310 100 0 0 0        *   some steel-mesh boots
+P 1 77395 1 77310 100 0 0 0        *   a prybar
+P 1 77326 9 77310 100 0 0 0        *   a shard of sharpened metal
+O 0 77372 1 77458 100 0 0 0        * a soldier's tent
+O 0 77326 9 77465 100 0 0 0        * a shard of sharpened metal
+O 0 77326 9 77465 100 0 0 0        * a shard of sharpened metal
+*
+M 0 77357 11 77303 100 0 0 0       * a rabbit
+M 0 77357 11 77304 100 0 0 0       * a rabbit
+M 0 77345 5 77304 100 0 0 0        * a smouldering tree
+M 0 77345 5 77306 100 0 0 0        * a smouldering tree
+M 0 77345 5 77307 100 0 0 0        * a smouldering tree
+M 0 77357 11 77308 100 0 0 0       * a rabbit
+M 0 77315 1 77308 100 0 0 0        * a silver legion marshall
+F 1 77314 2 77308 100 0 0 0        * a legionaire (following)
+F 1 77314 2 77308 100 0 0 0        * a legionaire (following)
+M 0 77301 3 77309 100 0 0 0        * an orc major
+M 0 77302 4 77309 100 0 0 0        * an orc soldier
+M 0 77302 4 77309 100 0 0 0        * an orc soldier
+M 0 77379 4 77309 100 0 0 0        * a goblin archer
+M 0 77328 4 77310 100 0 0 0        * a wild gremlin
+M 0 77328 4 77310 100 0 0 0        * a wild gremlin
+M 0 77328 4 77310 100 0 0 0        * a wild gremlin
+M 0 77328 4 77310 100 0 0 0        * a wild gremlin
+M 0 13385 3 77311 100 0 0 0        * (mob type not in this .mob file)
+M 0 77336 7 77312 100 0 0 0        * an orc priest
+M 0 77336 7 77312 100 0 0 0        * an orc priest
+M 0 77336 7 77312 100 0 0 0        * an orc priest
+M 0 77356 11 77313 100 0 0 0       * an orc soldier
+M 0 77356 11 77313 100 0 0 0       * an orc soldier
+M 0 77356 11 77313 100 0 0 0       * an orc soldier
+M 0 77356 11 77314 100 0 0 0       * an orc soldier
+M 0 77356 11 77314 100 0 0 0       * an orc soldier
+M 0 77308 4 77318 100 0 0 0        * a warg
+M 0 77308 4 77318 100 0 0 0        * a warg
+M 0 77356 11 77318 100 0 0 0       * an orc soldier
+M 0 77356 11 77318 100 0 0 0       * an orc soldier
+M 0 77336 7 77318 100 0 0 0        * an orc priest
+M 0 77336 7 77318 100 0 0 0        * an orc priest
+M 0 77357 11 77323 100 0 0 0       * a rabbit
+M 0 77320 4 77324 100 0 0 0        * an orc warlord
+M 0 77345 5 77325 100 0 0 0        * a smouldering tree
+M 0 77379 4 77326 100 0 0 0        * a goblin archer
+M 0 77320 4 77327 100 0 0 0        * an orc warlord
+M 0 77357 11 77328 100 0 0 0       * a rabbit
+M 0 77345 5 77328 100 0 0 0        * a smouldering tree
+M 0 13385 3 77328 100 0 0 0        * (mob type not in this .mob file)
+M 0 77309 1 77330 100 0 0 0        * Garth
+F 1 77351 3 77330 100 0 0 0        * a gate guard (following)
+F 1 77351 3 77330 100 0 0 0        * a gate guard (following)
+F 1 77351 3 77330 100 0 0 0        * a gate guard (following)
+M 0 77342 4 77333 100 0 0 0        * a troll battle master
+M 0 77342 4 77333 100 0 0 0        * a troll battle master
+M 0 13385 3 77333 100 0 0 0        * (mob type not in this .mob file)
+M 0 77342 4 77334 100 0 0 0        * a troll battle master
+M 0 77342 4 77334 100 0 0 0        * a troll battle master
+M 0 77356 11 77335 100 0 0 0       * an orc soldier
+M 0 77356 11 77335 100 0 0 0       * an orc soldier
+M 0 77336 7 77335 100 0 0 0        * an orc priest
+M 0 77336 7 77335 100 0 0 0        * an orc priest
+M 0 77357 11 77336 100 0 0 0       * a rabbit
+M 0 77301 3 77338 100 0 0 0        * an orc major
+M 0 77320 4 77338 100 0 0 0        * an orc warlord
+M 0 77320 4 77338 100 0 0 0        * an orc warlord
+M 0 77322 3 77338 100 0 0 0        * an orc battle-mage
+M 0 77316 6 77339 100 0 0 0        * an orc footman
+M 0 77316 6 77339 100 0 0 0        * an orc footman
+M 0 77316 6 77340 100 0 0 0        * an orc footman
+M 0 77316 6 77340 100 0 0 0        * an orc footman
+M 0 77316 6 77341 100 0 0 0        * an orc footman
+M 0 77316 6 77341 100 0 0 0        * an orc footman
+M 0 77323 1 77342 100 0 0 0        * Gromlog
+E 1 77396 1 16 100 0 0 0           *   a club of torture
+G 1 77373 1 0 100 0 0 0            *    the severed hand of gromlog
+F 1 77321 2 77342 100 0 0 0        * a troll battle master (following)
+F 1 77321 2 77342 100 0 0 0        * a troll battle master (following)
+M 0 77338 1 77342 100 0 0 0        * a monkey hunter
+M 0 77308 4 77344 100 0 0 0        * a warg
+M 0 77308 4 77344 100 0 0 0        * a warg
+M 0 77318 1 77346 100 0 0 0        * the black knight
+E 1 77330 1 3 100 0 0 0            *   a medallion of champions
+E 1 77344 1 16 100 0 0 0           *   a red and black jousting lance
+R 1 77343 1 77346 100 0 0 0        * a nightmare (being ridden)
+M 0 77395 1 77347 100 0 0 0        * the blacksmith's wife
+M 0 77368 1 77347 100 0 0 0        * the village blacksmith
+M 0 77339 1 77352 100 0 0 0        * an orc scout
+E 1 77318 2 16 100 0 0 0           *   a opaque shortsword
+E 1 77318 2 17 100 0 0 0           *   a opaque shortsword
+E 1 77317 1 24 100 0 0 0           *   the badge of armageddon
+M 0 77393 1 77352 100 0 0 0        * a vengeful outcast
+M 0 77344 1 77352 100 0 0 0        * a vengeful outcast
+M 0 77357 11 77353 100 0 0 0       * a rabbit
+M 0 77311 1 77358 100 0 0 0        * a loud orc
+M 0 77312 1 77358 100 0 0 0        * an annoying goblin
+M 0 77313 1 77358 100 0 0 0        * a drunk orc
+M 0 77305 4 77359 100 0 0 0        * a flind slaver
+M 0 77305 4 77359 100 0 0 0        * a flind slaver
+M 0 77305 4 77359 100 0 0 0        * a flind slaver
+M 0 77305 4 77359 100 0 0 0        * a flind slaver
+M 0 77330 4 77359 100 0 0 0        * a carrion crawler
+M 0 77330 4 77359 100 0 0 0        * a carrion crawler
+M 0 77327 1 77360 100 0 0 0        * a minotaur
+M 0 77356 11 77363 100 0 0 0       * an orc soldier
+M 0 77356 11 77363 100 0 0 0       * an orc soldier
+M 0 77319 1 77370 100 0 0 0        * Jandar
+E 1 77353 1 3 100 0 0 0            *   a brass token of the ancients
+M 0 77307 1 77375 100 0 0 0        * Mackama
+G 1 77392 1 0 100 0 0 0            *    the severed hand of mackama
+M 0 77379 4 77375 100 0 0 0        * a goblin archer
+M 0 77379 4 77375 100 0 0 0        * a goblin archer
+M 0 77322 3 77375 100 0 0 0        * an orc battle-mage
+M 0 77337 1 77380 100 0 0 0        * a wood nymph
+G 1 77368 1 0 100 0 0 0            *    the book of the nymph
+M 0 77324 1 77381 100 0 0 0        * a logger
+M 0 77370 1 77381 100 0 0 0        * a logger from pinehollow
+M 0 77329 1 77382 100 0 0 0        * Alboa
+E 1 77331 1 16 100 0 0 0           *   a dark blade of armageddon
+E 1 77385 1 18 100 0 0 0           *   the severed hand of alboa
+E 1 77321 1 19 100 0 0 0           *   a black-steel visor
+M 0 77301 3 77382 100 0 0 0        * an orc major
+M 0 77322 3 77382 100 0 0 0        * an orc battle-mage
+M 0 77302 4 77382 100 0 0 0        * an orc soldier
+M 0 77302 4 77382 100 0 0 0        * an orc soldier
+M 0 77340 1 77384 100 0 0 0        * a startled wolf
+M 0 77341 4 77384 100 0 0 0        * a wolf cub
+M 0 77341 4 77384 100 0 0 0        * a wolf cub
+M 0 77341 4 77384 100 0 0 0        * a wolf cub
+M 0 77341 4 77384 100 0 0 0        * a wolf cub
+M 0 77330 4 77386 100 0 0 0        * a carrion crawler
+M 0 77330 4 77386 100 0 0 0        * a carrion crawler
+M 0 77377 2 77389 100 0 0 0        * a hungry wolf
+M 0 77377 2 77389 100 0 0 0        * a hungry wolf
+M 0 77376 3 77390 100 0 0 0        * a porcupine
+M 0 77357 11 77391 100 0 0 0       * a rabbit
+M 0 77376 3 77391 100 0 0 0        * a porcupine
+M 0 77378 1 77392 100 0 0 0        * a lynx
+M 0 77376 3 77393 100 0 0 0        * a porcupine
+M 0 77357 11 77393 100 0 0 0       * a rabbit
+M 0 77366 1 77394 100 0 0 0        * a large bear
+M 0 77310 1 77396 100 0 0 0        * Beal
+M 0 77352 4 77399 100 0 0 0        * an archer
+M 0 77353 1 77400 100 0 0 0        * an archer captain
+M 0 77352 4 77400 100 0 0 0        * an archer
+M 0 77352 4 77400 100 0 0 0        * an archer
+M 0 77352 4 77402 100 0 0 0        * an archer
+M 0 77364 1 77406 100 0 0 0        * a desolate city guard
+E 1 77346 3 16 100 0 0 0           *   a steel longsword
+M 0 77391 2 77406 100 0 0 0        * an alley cat
+M 0 77354 1 77412 100 0 0 0        * an ethereal knight
+M 0 77387 1 77413 100 0 0 0        * a spectral titan
+M 0 77374 2 77414 100 0 0 0        * an ethereal behemoth
+M 0 77374 2 77414 100 0 0 0        * an ethereal behemoth
+M 0 77375 1 77415 100 0 0 0        * a celestial dragon
+E 1 77364 1 3 100 0 0 0            *   the divine token of revalations
+E 1 77338 1 5 100 0 0 0            *   the masters armor
+E 1 77379 1 7 100 0 0 0            *   the greaves of titan strength
+E 1 77366 2 18 100 0 0 0           *   a swirling potion of leaves and bark
+E 1 77367 1 20 100 0 0 0           *   the mask of vitality
+G 1 40768 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 77355 3 77416 100 0 0 0        * an ethereal rogue
+E 1 77336 6 16 100 0 0 0           *   a slender ethereal spike
+E 1 77336 6 17 100 0 0 0           *   a slender ethereal spike
+M 0 77355 3 77416 100 0 0 0        * an ethereal rogue
+E 1 77336 6 16 100 0 0 0           *   a slender ethereal spike
+E 1 77336 6 17 100 0 0 0           *   a slender ethereal spike
+M 0 77355 3 77416 100 0 0 0        * an ethereal rogue
+E 1 77336 6 16 100 0 0 0           *   a slender ethereal spike
+E 1 77336 6 17 100 0 0 0           *   a slender ethereal spike
+M 0 77362 1 77417 100 0 0 0        * a desolate city guard
+E 1 77346 3 16 100 0 0 0           *   a steel longsword
+M 0 77363 1 77418 100 0 0 0        * a desolate city guard
+E 1 77346 3 16 100 0 0 0           *   a steel longsword
+M 0 77382 2 77419 100 0 0 0        * a commoner
+M 0 77382 2 77419 100 0 0 0        * a commoner
+M 0 77350 1 77421 100 0 0 0        * Beregan
+M 0 77365 1 77421 100 0 0 0        * a delegate from myrabolus
+M 0 77361 2 77421 100 0 0 0        * a desolate city guard
+M 0 77361 2 77421 100 0 0 0        * a desolate city guard
+M 0 77371 1 77424 100 0 0 0        * a tired high-elf
+E 1 77339 1 15 100 0 0 0           *   a golden elven bracelet
+M 0 77383 1 77428 100 0 0 0        * a shaggy dog
+M 0 77408 1 77432 100 0 0 0        * a nomadic merchant
+G 1 77326 9 0 100 0 0 0            *    a shard of sharpened metal
+G 1 77332 999 0 100 0 0 0          *    a broken wheel
+G 1 77388 999 0 100 0 0 0          *    a coconut backpack
+G 1 77356 999 0 100 0 0 0          *    a deep blue potion
+M 0 77394 1 77434 100 0 0 0        * the banker
+M 0 77385 1 77435 100 0 0 0        * a monk
+M 0 77386 1 77435 100 0 0 0        * a cleric
+M 0 77391 2 77436 100 0 0 0        * an alley cat
+M 0 77389 2 77439 100 0 0 0        * a sleeping commoner
+M 0 77389 2 77440 100 0 0 0        * a sleeping commoner
+M 0 77357 11 77445 100 0 0 0       * a rabbit
+M 0 77357 11 77445 100 0 0 0       * a rabbit
+M 0 77332 1 77446 100 0 0 0        * a wild card mercenary
+M 0 77333 1 77446 100 0 0 0        * a soldier of fortune
+M 0 77334 1 77446 100 0 0 0        * an eclipse mercenary
+M 0 77410 1 77451 100 0 0 0        * a hunter guard
+M 0 77403 1 77454 100 0 0 0        * the orc captain
+E 1 77381 1 3 100 0 0 0            *   the blackened collar of the squall
+E 1 77380 1 15 100 0 0 0           *   the blackened bracer of the squall
+E 1 77378 1 16 100 0 0 0           *   the sword of the tempest
+F 1 77404 2 77454 100 0 0 0        * a bodyguard (following)
+E 1 77383 2 16 100 0 0 0           *   an iron warsword
+F 1 77404 2 77454 100 0 0 0        * a bodyguard (following)
+E 1 77383 2 16 100 0 0 0           *   an iron warsword
+M 0 77400 1 77457 100 0 0 0        * an orc lieutenant
+M 0 77405 1 77457 100 0 0 0        * an orc soldier
+M 0 77406 6 77462 100 0 0 0        * an orc soldier
+M 0 77406 6 77462 100 0 0 0        * an orc soldier
+M 0 77406 6 77462 100 0 0 0        * an orc soldier
+M 0 77406 6 77462 100 0 0 0        * an orc soldier
+M 0 77406 6 77464 100 0 0 0        * an orc soldier
+M 0 77406 6 77464 100 0 0 0        * an orc soldier
+*
+S

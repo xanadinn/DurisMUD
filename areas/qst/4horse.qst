@@ -1,0 +1,61 @@
+#34502
+M
+horsemen horseman challenge~
+"It has been centuries since anyone has entered the &+bportal&n to the lands of
+apocalypse.  I thought you mortals had learned your lesson.  The horsemen are
+too powerful.  It is best that they remain trapped in that world of agony and
+despair.  If they were ever to escape, noone would be safe.  Still, the lure of
+their treasure has attracted fools to challenge their world.  If you enter the
+&+bportal&n, you may not be able to return.  The choice is yours."
+~
+M
+portal~
+"The portal was created centuries ago to grant access to the land of the
+horsemen.  It was created as a failsafe.  If ever the horsemen were to escape,
+travel to their land might be neccesary.  Since then, however, the portal has
+been used by treasure seekers and foolish adventurers.  If you wish to enter,
+I will not stop you.  The portal requires a &+rdisplay of respect&n to be activated.
+I wish you luck, and should you challenge and defeat all 4 of the horseman -
+bring me proof of their demise and I will reward you with the treasures of
+my predecessors."
+
+"Oh... one more thing.  Once you enter the portal, I understand there is some
+trick to leaving that area.  Unfortunately, I do not know, but many years ago
+an adventuring party left to challenge the horsemen and he took with him a
+note which, supposedly, held the answer"
+~
+QA
+Unbelievable! I did not think those hideous beasts were mortal.  Well done.
+You deserve the treasure of the keepers.
+~
+R I 34552
+G I 34548
+G I 34549
+G I 34550
+G I 34551
+S
+#34503
+M
+hi~
+"The bracelet... I want my bracelet."
+~
+M
+bracelet~
+"I had a diamond bracelet, but I cannot find it anymore.. it means a great deal
+to me.  Will you &+Lhelp&n me?"
+~
+M
+help~
+"I don't know where it could be, but I do spend a lot of time near the center
+of town.  Maybe it is near there..."
+~
+Q
+"Thankyou, this was a gift from my husband.  Without it I was tormented.  Now
+I can leave this forsaken place."
+~
+R I 34527
+G I 34505
+D
+The zombie slowly gets up, shuffles down the stairs and is gone.
+~
+S

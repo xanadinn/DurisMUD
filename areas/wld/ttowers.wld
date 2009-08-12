@@ -1,0 +1,2124 @@
+#13200
+&+YThe Beautiful Entryway to the Northern Tower~
+&+W  The courtyard to the south approaches up to a set of wooden doors,
+&+Wthat open up into the northern tower of the Twin Towers. Written upon
+&+Wthe doors is a series of small pixie writings, that appear to have
+&+Wbeen written while the tower was being constructed. Walls made of
+&+Wcarefully piled up stone stretch out to the east and west, forming
+&+Wthe courtyard between the two towers and the temple.
+~
+132 0 3
+D0
+    These wooden doors have small pixie writings engraved upon them.
+~
+doors xxnbat~
+1 0 13201
+D2
+~
+~
+0 0 13570
+E
+writings~
+&+g     ___________________________________________________________
+&+g   /  __________________________________________________________  \
+&+g /  /                                                            \  \
+&+g|  |                                                              |  |
+&+g|  |            &+yXvnbajffg xrt "xxnbat"&+g                            |  |
+&+g|  |                                                              |  |
+&+g|  |                            &+yTlmr,&+g                             |  |
+&+g|  |                                &nMixt&+g                          |  |
+&+g|  |                                                              |  |
+&+g \  \ __________________________________________________________ /  /
+&+g   \ ___________________________________________________________  /
+~
+S
+#13201
+&+YThe First Floor Entryway of a Cozy Tower~
+&+W  The dust has settled on this cozy tower, and warm sunlight
+&+Wpours in through the windows. A pair of wooden stairs lead up
+&+Wto the higher levels of the tower.  Small torch holders are
+&+Wplaced every so feet around the entryway to provide light
+&+Wwhen darkness comes.  Flowers, collected from the garden,
+&+Whave been placed in beautifully adorned vases, situated on
+&+Wsome stools in the corners of the room.  A small rug, which
+&+Wseems to be slightly askew, is laid upon the floor. A large
+&+Wmirror is hung on the wall to the north.
+~
+132 4 0
+D0
+~
+mirror~
+8 0 13208
+D1
+~
+~
+0 0 13203
+D2
+~
+doors~
+1 0 13200
+D3
+~
+~
+0 0 13207
+E
+mirror~
+  This mirror seems to be able to be pushed to one side.
+~
+S
+#13202
+&+yA Large and Musty Cellar~
+    &+LThis musty cellar is is rather small, and seems to be more of
+&+La hide away place.  There is a wooden trapdoor that leads up. A
+&+Lsmall bookcase rests against the wall, and an ornate wooden
+&+Ldesk is situated just north of the trapdoor.  A small ladder
+&+Lis used to go up into the entryway or down into this cellar.
+&+LThe rubble to the south seems to have been barred up by the
+&+Lhalfling councilor.
+~
+132 142643405 0
+D0
+~
+~
+0 0 13290
+D2
+~
+rubble~
+5 0 13278
+D4
+~
+trapdoor~
+1 0 13208
+S
+#13203
+&+yA Set of Semi-Circular Rooms of the First Floor~
+&+g  This set of semi-circular rooms goes around the outside of the tower,
+&+gcreating the outer wall.  These rooms seem to be the housing quarters
+&+gfor the pixies who have come to live in this tower under the protection
+&+gof Mixt, the great wildlife admirer.  Thousands of tiny wooden beds,
+&+gwith the smallest pillows any mortal has ever laid their eyes upon,
+&+ghug the walls of these rooms, which go all the way around the first
+&+glevel of the tower. The advanced pixies and sprites appear to
+&+greside in this room.
+~
+132 0 0
+D0
+~
+~
+0 0 13204
+D3
+~
+~
+0 0 13201
+S
+#13204
+&+yThe Semi-Circular Rooms of the First Floor~
+&+g  This set of semi-circular rooms goes around the outside of the tower,
+&+gcreating the outer wall.  These rooms seem to be the housing quarters
+&+gfor the pixies who have come to live in this tower under the protection
+&+gof Mixt, the great wildlife admirer.  Thousands of tiny wooden beds,
+&+gwith the smallest pillows any mortal has ever laid their eyes upon,
+&+ghug the walls of these rooms, which go all the way around the first
+&+glevel of the tower.
+~
+132 0 0
+D2
+~
+~
+0 0 13203
+D3
+~
+~
+0 0 13205
+S
+#13205
+&+yThe Semi-Circular Rooms of the First Floor~
+&+g  This set of semi-circular rooms goes around the outside of the tower,
+&+gcreating the outer wall.  These rooms seem to be the housing quarters
+&+gfor the pixies who have come to live in this tower under the protection
+&+gof Mixt, the great wildlife admirer.  Thousands of tiny wooden beds,
+&+gwith the smallest pillows any mortal has ever laid their eyes upon,
+&+ghug the walls of these rooms, which go all the way around the first
+&+glevel of the tower. This particular room seems to be for the
+&+gaverage sprites and pixies.
+~
+132 0 0
+D1
+~
+~
+0 0 13204
+D2
+~
+secret~
+5 0 13292
+D3
+~
+~
+0 0 13206
+S
+#13206
+&+yThe Semi-Circular Rooms of the First Floor~
+&+g  This set of semi-circular rooms goes around the outside of the tower,
+&+gcreating the outer wall.  These rooms seem to be the housing quarters
+&+gfor the pixies who have come to live in this tower under the protection
+&+gof Mixt, the great wildlife admirer.  Thousands of tiny wooden beds,
+&+gwith the smallest pillows any mortal has ever laid their eyes upon,
+&+ghug the walls of these rooms, which go all the way around the first
+&+glevel of the tower.
+~
+132 0 0
+D1
+~
+~
+0 0 13205
+D2
+~
+~
+0 0 13207
+S
+#13207
+&+yThe Semi-Circular Rooms of the First Floor~
+&+g  This set of semi-circular rooms goes around the outside of the tower,
+&+gcreating the outer wall.  These rooms seem to be the housing quarters
+&+gfor the pixies who have come to live in this tower under the protection
+&+gof Mixt, the great wildlife admirer.  Thousands of tiny wooden beds,
+&+gwith the smallest pillows any mortal has ever laid their eyes upon,
+&+ghug the walls of these rooms, which go all the way around the first
+&+glevel of the tower. This room seems to be the resting area for
+&+gsome of the lesser pixies and sprites.
+~
+132 0 0
+D0
+~
+~
+0 0 13206
+D1
+~
+~
+0 0 13201
+S
+#13208
+&+LThe Central Stairs, First Floor~
+&+L  A wooden stair case spirals up through the center of the tower,
+&+Lwith exits to each of the floors.  The stairs are covered with
+&+La small forest-green mesh carpet, that has been hand crafted to
+&+Lfit over each of the steps.  Stone walls separate the stair
+&+Larea from the rest of the tower. Flowers, collected by the
+&+Lgardener, have been placed in pots to grow inside and to
+&+Lcreate a more pleasant area for the stairs. The entryway
+&+Lto the northern tower lies to the south.
+~
+132 0 0
+D2
+~
+mirror~
+1 0 13201
+D4
+~
+~
+0 0 13209
+D5
+~
+trapdoor~
+5 0 13202
+S
+#13209
+&+LThe Central Stairs, Second Floor~
+&+L  A wooden stair case spirals up through the center of the tower,
+&+Lwith exits to each of the floors.  The stairs are covered with
+&+La small forest-green mesh carpet, that has been hand crafted to
+&+Lfit over each of the steps.  Stone walls separate the stair
+&+Larea from the rest of the tower. Flowers, collected by the
+&+Lgardener, have been placed in pots to grow inside and to
+&+Lcreate a more pleasant area for the stairs. The gardener's
+&+Lquarters, and commons room is to the south.
+~
+132 0 0
+D2
+~
+~
+0 0 13210
+D4
+~
+~
+0 0 13216
+D5
+~
+~
+0 0 13208
+S
+#13210
+&+WThe Second Floor Commons Room~
+&+y   The second floor common hall is directly above the entryway of the
+&+yground floor.  The floors here are wooden, and the walls are stone.
+&+yTo the north is the stairs that spiral, like a snake, through the
+&+ytower.  The gardeners barracks, located on this floor, seems to
+&+ylie directly above the pixies quarters.  There are stone windows,
+&+yabout every six feet, that look out into the Twin Tower's Forest.
+~
+132 4 0
+D0
+~
+~
+0 0 13209
+D1
+~
+~
+0 0 13215
+D3
+~
+~
+0 0 13211
+S
+#13211
+&+yThe Gardener's Quarters~
+&+y  The gardeners quarters spread about this semi-circular room,
+&+ythat wraps around the tower.  In total, there are about five
+&+ybeds for the five gardeners, each with a small closet next to
+&+yit for tools and clothes.  A small stream of water from a water
+&+yduct in the wall flows along the edge of the floor near the wall.
+&+yThe water duct is obviously used for waste deposit.
+~
+132 0 0
+D0
+~
+~
+0 0 13212
+D1
+~
+~
+0 0 13210
+S
+#13212
+&+yThe Gardener's Quarters~
+&+y  The gardeners quarters spread about this semi-circular room,
+&+ythat wraps around the tower.  In total, there are about five
+&+ybeds for the five gardeners, each with a small closet next to
+&+yit for tools and clothes.  A small stream of water from a water
+&+yduct in the wall flows along the edge of the floor near the wall.
+&+yThe water duct is obviously used for waste deposit.
+~
+132 0 0
+D1
+~
+~
+0 0 13213
+D2
+~
+~
+0 0 13211
+S
+#13213
+&+yThe Master Gardener's Quarters~
+&+y  The gardeners quarters spread about this semi-circular room,
+&+ythat wraps around the tower.  In total, there are about five
+&+ybeds for the five gardeners, each with a small closet next to
+&+yit for tools and clothes.  A small stream of water from a water
+&+yduct in the wall flows along the edge of the floor near the wall.
+&+yThe water duct is obviously used for waste deposit. These
+&+yquarters seem particulrily nicer than the quarters of the
+&+yother gardener's.
+~
+132 0 0
+D1
+~
+~
+0 0 13214
+D3
+~
+~
+0 0 13212
+S
+#13214
+&+yThe Gardener's Quarters~
+&+y  The gardeners quarters spread about this semi-circular room,
+&+ythat wraps around the tower.  In total, there are about five
+&+ybeds for the five gardeners, each with a small closet next to
+&+yit for tools and clothes.  A small stream of water from a water
+&+yduct in the wall flows along the edge of the floor near the wall.
+&+yThe water duct is obviously used for waste deposit.
+~
+132 0 0
+D2
+~
+~
+0 0 13215
+D3
+~
+~
+0 0 13213
+S
+#13215
+&+yThe Gardener's Quarters~
+&+y  The gardeners quarters spread about this semi-circular room,
+&+ythat wraps around the tower.  In total, there are about five
+&+ybeds for the five gardeners, each with a small closet next to
+&+yit for tools and clothes.  A small stream of water from a water
+&+yduct in the wall flows along the edge of the floor near the wall.
+&+yThe water duct is obviously used for waste deposit.
+~
+132 0 0
+D0
+~
+~
+0 0 13214
+D3
+~
+~
+0 0 13210
+S
+#13216
+&+LThe Central Stairs, Third Floor~
+&+L  A wooden stair case spirals up through the center of the tower,
+&+Lwith exits to each of the floors.  The stairs are covered with
+&+La small forest-green mesh carpet, that has been hand crafted to
+&+Lfit over each of the steps.  Stone walls separate the stair
+&+Larea from the rest of the tower. Flowers, collected by the
+&+Lgardener, have been placed in pots to grow inside and to
+&+Lcreate a more pleasant area for the stairs. A large garden
+&+Lhas been built on this floor of the tower. Some of the vines
+&+Lfrom the garden have grown onto the railing of the spiral stairs.
+~
+132 0 0
+D2
+~
+~
+0 0 13217
+D4
+~
+~
+0 0 13224
+D5
+~
+~
+0 0 13209
+S
+#13217
+&+GA Beautiful Garden on the Third Floor~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden.
+~
+132 4 3
+D0
+~
+~
+0 0 13216
+D1
+~
+~
+0 0 13222
+D3
+~
+~
+0 0 13218
+S
+#13218
+&+GA Beautiful Garden on the Third Floor~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden.
+~
+132 0 3
+D0
+~
+~
+0 0 13219
+D1
+~
+~
+0 0 13217
+S
+#13219
+&+GA Beautiful Garden on the Third Floor~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden.
+~
+132 0 3
+D1
+~
+~
+0 0 13220
+D2
+~
+~
+0 0 13218
+S
+#13220
+&+BA Beautiful Fountain~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden. Within this particular section
+&+gof the garden, a beautiful marble fountain is situated, and just
+&+glike the waste ducts on the lower level, a similiar water system
+&+gbrings a small amount of water to this fountain.  This area must
+&+gbe in particular care of the druid, there is even a rare bush
+&+gnear the back wall that seems to have a lot of markings around it.
+~
+132 0 3
+D1
+~
+~
+0 0 13221
+D2
+~
+bush~
+8 0 13223
+D3
+~
+~
+0 0 13219
+E
+markings marking~
+    These markings look like the footprints of a small elf.
+~
+S
+#13221
+&+GA Beautiful Garden on the Third Floor~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden.
+~
+132 0 3
+D2
+~
+~
+0 0 13222
+D3
+~
+~
+0 0 13220
+S
+#13222
+&+GA Beautiful Garden on the Third Floor~
+&+g  This level of the tower seems to have been turned into a garden
+&+gby some sort of a druid.  The floor here is stone, and has a nice
+&+gthick earth layer on it.  There are huge windows, with no shutters,
+&+gjust about all around the tower, with only enough wall needed
+&+gfor support. Flowers of all kind grow in this garden. The druid
+&+ghas taken it upon herself to even experiment with cross-polinating
+&+gsome of the flowers in this garden.
+~
+132 0 3
+D0
+~
+~
+0 0 13221
+D3
+~
+~
+0 0 13217
+S
+#13223
+&+gA Secret Alcove~
+&+g  The druid of the tower seems to have created a secret alcove here
+&+gto escape for a while and wind down.  There are all sorts of
+&+gardening materials, potted plants, and changes of clothes in this
+&+gsmall alcove.  To the north lies a huge marble fountain, with
+&+ga small bush blocking the exit.  The bush seems to be a very
+&+gunique plant, and probably one of the druid's experiments.
+~
+132 0 0
+D0
+~
+bush~
+1 0 13220
+S
+#13224
+&+LThe Central Stairs, Top Floor~
+&+L  A wooden stair case spirals up through the center of the tower,
+&+Lwith exits to each of the floors.  The stairs are covered with
+&+La small forest-green mesh carpet, that has been hand crafted to
+&+Lfit over each of the steps.  Stone walls separate the stair
+&+Larea from the rest of the tower. Flowers, collected by the
+&+Lgardener, have been placed in pots to grow inside and to
+&+Lcreate a more pleasant area for the stairs. The stairs
+&+Lend here, as this is the top floor.  A large sheet seems
+&+Lto be hanging from the ceiling, as if it hides something.
+&+LThe main quarters of Mixt and the Druid lie to the south.
+~
+132 0 0
+D2
+~
+~
+0 0 13225
+D5
+~
+~
+0 0 13216
+S
+#13225
+&+cA Beautiful Foyer~
+   This is the top floor of the northern tower, and seems to be the
+best decorated of all the floors.  A red carpet runs from the stairs
+to the south through the hallways to the east and west.  To the east,
+the hallway is wooden and decorated with many potted plants and flower
+pots, while to the west, the hallway is stone with many portraits and
+tapestries.  This room seems to be a combination of both hallways,
+and contains both potted plants and paintings.
+~
+132 0 0
+D0
+~
+~
+0 0 13224
+D1
+~
+~
+0 0 13226
+D3
+~
+~
+0 0 13227
+S
+#13226
+&+yA Wooden Hallway~
+   This hallway must obviously lead to the druid's main room, because
+of all the plant life around this area, it is almost like walking
+through a forest with all of the huge plants.  The only thing that
+keeps it from looking entirely like a forest is the red carpet, and
+the pots at the bottom of the plants.  The druid's main room is
+to the north, where she can be seen most often.
+~
+132 0 0
+D0
+~
+~
+0 0 13229
+D3
+~
+~
+0 0 13225
+S
+#13227
+&+LA Stone Hallway~
+   This hallway extends from the foyer of the fourth and final floor
+of the northern of the Twin Towers. This hallway is made of solid
+stone and is decorated with things such as tapestries and paintings
+on the walls.  A red carpet, which continues north and to the east,
+stretches along this hallway wall to wall.  To the north lies the
+chamber of Mixt, one of the two largest rooms in the tower.
+~
+132 0 0
+D0
+~
+~
+0 0 13228
+D1
+~
+~
+0 0 13225
+S
+#13228
+&+MA Pale Magenta Room~
+&+m  Once a great cheerful place, Mixt is now a very sad little man.
+&+mHe once had a great lover named Lyena, who lived in the southern tower,
+&+mand together they constructed the great forest for everyone to enjoy.
+&+mOne day, a great tragedy fell upon Mixt as Lyena was killed by a
+&+mgroup of drunken orcs who were in the forest.  Lyena's spirit was
+&+mthen trapped in the tower, forever wondering along with ghosts of
+&+mher friends and servants.  Mixt decided to close the tower up and
+&+mkeep it locked as the ghosts aren't very friendly to outsiders.
+&+mHe kept the outside appearence of the tower in relatively wonderful
+&+mcondition, as to keep up the name "Twin Towers."
+~
+132 0 0
+D2
+~
+~
+0 0 13227
+S
+#13229
+&+GA Lush Green Room~
+&+g    The great druid Blaevyna, a grey elf from Sylvandawn, has taken this
+&+groom upon herself as her study and bedroom. Blaevyna first moved to this
+&+gtower from the great elven lands because of Lyena's untimely death, and
+&+gto keep the forest nice and bright, she came her to work her druidic
+&+gpowers.  She works very closely with the sprites of the forest, as they
+&+gboth are lovers of the forest, however, from time to time, the naughty
+&+gpixies are found in here having a great talk down by Blaevyna for
+&+gterrorizing the people who visit the forest.  A small box of little
+&+gwands lies in the corner of the room, undoubtedly collected from the
+&+gnaughty pixies.  This entire room is filled with blooming plants and
+&+glush bushes, planted in small pots.
+~
+132 0 0
+D2
+~
+~
+0 0 13226
+S
+#13230
+&+YThe Beautiful Entryway to the Southern Tower~
+    &+WAlmost exactly the same as the Northern Tower, which is just
+&+Wa short walk across the courtyard, the Southern Tower is just
+&+Was beautiful.  A stone wall reaches out like arms from the tower
+&+Wand creates the boundries of the courtyard. Something eerie
+&+Whaunts this tower, with only the ground floor being kept really
+&+Wnice, and the upper floors showing wear and tear.
+~
+132 0 0
+D0
+~
+~
+0 0 13571
+D2
+~
+doors _nobash_~
+2 13203 13231
+S
+#13231
+&+LA Dark Entryway~
+    &+LIn years past, it would have been harder to tell the difference
+&+Lbetween the inside of the Souther Tower and the Northern Tower,
+&+Lbut since the death of Lyena, Mixt has kept this tower in
+&+Lseclusion and all locked up.  Spider webs fill this room, and
+&+Levery room of the tower.  A foul smell of rotted corpses fills
+&+Lthe stagnant air of the tower. All light and places to get
+&+Lenter the tower from, such as windows, have been boarded up
+&+Lby Mixt.  This tower is a tower of darkness. A huge pile of
+&+Lrubble seems to be blocking the stairs to the south. A small
+&+Ltorn rug seems to conceal something on the floor.
+~
+132 4 0
+D0
+~
+doors~
+1 0 13230
+D1
+~
+~
+0 0 13236
+D2
+~
+rubble~
+9 0 13237
+D3
+~
+~
+0 0 13232
+D5
+~
+trapdoor~
+5 0 13285
+S
+#13232
+&+LQuarters of the Elven Servants~
+&+L  This dark passage seems to be the remains of the servants' quarters
+&+Lof Lyena.  Cobwebs fill this room. This area is now rubble filled,
+&+Land is showing the effects of time very well.  A thick layer
+&+Lof dust covers everything, although it is hard to tell the difference
+&+Lof where the dust stops and the spider webs start.  Old pictures of
+&+Lthe servants are hung on the wall, and their corpses not far behind.
+&+LThis particular set of bunks seem to be for some of the elven
+&+Lservants.  There are paintings of the great elven city, Sylvandawn,
+&+Lat the head of the beds here.
+~
+132 0 0
+D1
+~
+~
+0 0 13231
+D2
+~
+~
+0 0 13233
+S
+#13233
+&+LQuarters of the Human Servants~
+&+L  This dark passage seems to be the remains of the servants' quarters
+&+Lof Lyena.  Cobwebs fill this room. This area is now rubble filled,
+&+Land is showing the effects of time very well.  A thick layer
+&+Lof dust covers everything, although it is hard to tell the difference
+&+Lof where the dust stops and the spider webs start.  Old pictures of
+&+Lthe servants are hung on the wall, and their corpses not far behind.
+&+LThese quarters were probably the homes of a pair of Tharnadian
+&+Lservants, with pictorials of Tharnadia by the bed.
+~
+132 0 0
+D0
+~
+~
+0 0 13232
+D1
+~
+~
+0 0 13234
+S
+#13234
+&+LA Dark Set of Fancy Quarters~
+&+L  This dark passage seems to be the remains of the servants' quarters
+&+Lof Lyena.  Cobwebs fill this room. This area is now rubble filled,
+&+Land is showing the effects of time very well.  A thick layer
+&+Lof dust covers everything, although it is hard to tell the difference
+&+Lof where the dust stops and the spider webs start.  Old pictures of
+&+Lthe servants are hung on the wall, and their corpses not far behind.
+&+LThis was probably the head servant's area, easily identified by
+&+Lthe higher value of the surrounding objects.
+~
+132 0 0
+D1
+~
+~
+0 0 13235
+D2
+~
+~
+0 0 13298
+D3
+~
+~
+0 0 13233
+S
+#13235
+&+LSome Abandoned Quarters~
+&+L  This dark passage seems to be the remains of the servants' quarters
+&+Lof Lyena.  Cobwebs fill this room. This area is now rubble filled,
+&+Land is showing the effects of time very well.  A thick layer
+&+Lof dust covers everything, although it is hard to tell the difference
+&+Lof where the dust stops and the spider webs start.  Old pictures of
+&+Lthe servants are hung on the wall, and their corpses not far behind.
+&+LThese quarters seem to have been abandoned by their previous owners,
+&+Lwho probably fled when the orcs attacked.  There is a small wooden
+&+Lchest lying under some rubble here.
+~
+132 0 0
+D0
+~
+~
+0 0 13236
+D3
+~
+~
+0 0 13234
+S
+#13236
+&+LA Dark Passage~
+&+L  This dark passage seems to be the remains of the servants' quarters
+&+Lof Lyena.  Cobwebs fill this room. This area is now rubble filled,
+&+Land is showing the effects of time very well.  A thick layer
+&+Lof dust covers everything, although it is hard to tell the difference
+&+Lof where the dust stops and the spider webs start.  Old pictures of
+&+Lthe servants are hung on the wall, and their corpses not far behind.
+~
+132 0 0
+D2
+~
+~
+0 0 13235
+D3
+~
+~
+0 0 13231
+S
+#13237
+&+LThe Cramped Stairs of the Southern Tower~
+&+L  Much like the stairs of the Northern Tower, the Southern Tower's
+&+Lstairs probably used to look identical, but with the aging of time,
+&+Land the orc attack that took Lyena's life, the stairs are old,
+&+Lcrumbling, and filled with all sorts of nasty insects.  The
+&+Lred rug that used to rap around each of the stairs has turned
+&+Lbrittle with age, and has been infested with thousands of bugs.
+&+LThe entryway to the Southern Tower is to the north, and the
+&+Lstairs spiral up to the second floor.
+~
+132 0 0
+D0
+~
+rubble~
+1 0 13231
+D4
+~
+~
+0 0 13238
+S
+#13238
+&+LThe Stairs of the Southern Tower, Second Floor~
+&+L  Much like the stairs of the Northern Tower, the Southern Tower's
+&+Lstairs probably used to look identical, but with the aging of time,
+&+Land the orc attack that took Lyena's life, the stairs are old,
+&+Lcrumbling, and filled with all sorts of nasty insects.  The
+&+Lred rug that used to rap around each of the stairs has turned
+&+Lbrittle with age, and has been infested with thousands of bugs.
+&+LThe stairs sprial up through the tower here, the first floor
+&+Lbelow, and the third floor above.  To the south lies the
+&+Lrotted foyer of the second floor of the Southern Tower.
+~
+132 0 0
+D2
+~
+~
+0 0 13239
+D4
+~
+~
+0 0 13247
+D5
+~
+~
+0 0 13237
+S
+#13239
+&+LThe Rotted Foyer of the Second Floor~
+&+L  The second floor foyer is rotted to the point where it is almost
+&+Lpossible to see the entryway of the first floor beneath here.
+&+LThe spiral stairs of the Southern Tower lie to the south, while
+&+Lthe pantries and storage facilities, in whatever condition they
+&+Lmight be, lie to the east and west of this section of the tower.
+&+LThis place doesn't seem like it was very heavily decorated by
+&+LLyena, however it is difficult to tell with all the rotting
+&+Land bug infestation that has occured. An very potent smell
+&+Lseems to be coming from the pantry to the west, while
+&+Lthe door to the huge storage closet has been rusted open.
+&+LIt seems there used to be torch holders throughout this
+&+Lfoyer, but all of the torches crumble at the slightest
+&+Lvibration, rendering them useless.
+~
+132 9 0
+D0
+~
+~
+0 0 13238
+D1
+~
+~
+0 0 13244
+D3
+~
+~
+0 0 13240
+D5
+~
+~
+0 0 13231
+F
+30
+S
+#13240
+&+yA Circular Pantry~
+&+L  This circular pantry seems to encompass half the space of the
+&+Lsecond floor.  Time has rotted all of the fruits and vegetables
+&+Lthat were stored here, and now a pugnent odor fills this entire
+&+Larea.  Shelves of all sorts of different foods from all of
+&+LDuris must have been brought here, as there are elven pastries,
+&+Ldwarven rum, berries from Woodseer, buffalo steaks from Ugta,
+&+Land even some rare foods from the Underdark like fried
+&+Lcalamari and lizard eggs.  Lyena must have been some kind
+&+Lof great food collector of the world, as this place was
+&+Lstacked to the rim.  Unforunately, Everything is long
+&+Lrotted and perished now, except for a few bottles of ale.
+&+LThe pantry contines to the south here, and the rotted
+&+Lfoyer of the second floor is to the east. In this part of
+&+Lthe pantry, large kegs of ale are stacked on old shelves,
+&+Llooking like they will give way and come crashing down
+&+Lany moment.  Small insects and vermin feast on the rotted
+&+Lfood that time has left to sit here.
+~
+132 0 0
+D1
+~
+~
+0 0 13239
+D2
+~
+~
+0 0 13241
+S
+#13241
+&+yA Circular Pantry~
+&+L  This circular pantry seems to encompass half the space of the
+&+Lsecond floor.  Time has rotted all of the fruits and vegetables
+&+Lthat were stored here, and now a pugnent odor fills this entire
+&+Larea.  Shelves of all sorts of different foods from all of
+&+LDuris must have been brought here, as there are elven pastries,
+&+Ldwarven rum, berries from Woodseer, buffalo steaks from Ugta,
+&+Land even some rare foods from the Underdark like fried
+&+Lcalamari and lizard eggs.  Lyena must have been some kind
+&+Lof great food collector of the world, as this place was
+&+Lstacked to the rim.  Unforunately, Everything is long
+&+Lrotted and perished now, except for a few bottles of ale.
+&+LThe back of the pantry lies to the east, while the entrance
+&+Llies to the north.  This particular part of the pantry reeks
+&+Lof horrible rotten foods that have gone bad.  Flies have
+&+Lmade their homes in many of the elvish pastries that have
+&+Lbeen left out here. Rats and other vermin have even gotten
+&+Linto the sealed barrels of fruits and vegtables.  The only
+&+Lsatisfying feeling in this room is that there is a floor,
+&+Lunlike the second floor foyer.
+~
+132 0 0
+D0
+~
+~
+0 0 13240
+D1
+~
+~
+0 0 13242
+S
+#13242
+&+yThe Back of the Pantry~
+&+L  This circular pantry seems to encompass half the space of the
+&+Lsecond floor.  Time has rotted all of the fruits and vegetables
+&+Lthat were stored here, and now a pugnent odor fills this entire
+&+Larea.  Shelves of all sorts of different foods from all of
+&+LDuris must have been brought here, as there are elven pastries,
+&+Ldwarven rum, berries from Woodseer, buffalo steaks from Ugta,
+&+Land even some rare foods from the Underdark like fried
+&+Lcalamari and lizard eggs.  Lyena must have been some kind
+&+Lof great food collector of the world, as this place was
+&+Lstacked to the rim.  Unforunately, Everything is long
+&+Lrotted and perished now, except for a few bottles of ale.
+&+LThe pantries ends here, with a solid brick wall to the east.
+&+LPiles and piles of bags, filled with grains, have been
+&+Lstacked up here, which were probably taken to the bakery
+&+Lon the next floor for producing the fine breads that Lyena
+&+Lenjoyed.  Most of the bags have been torn open and have
+&+Lserved as the primary source of food for many small
+&+Lanimals that now inhabit this tower.  There seems to be
+&+La small button, that is slightly hidden, on the northern
+&+Lwall.  It appears to be partialy covered by rags.
+~
+132 0 0
+D0
+~
+wall~
+8 0 13243
+D3
+~
+~
+0 0 13241
+S
+#13243
+&+LA Hidden Room~
+&+L  When Mixt and Lyena built these towers, they seem to have included
+&+La few safe rooms where they could retreat to if they were ever attacked.
+&+LThis appears to be one of those rooms.  This room is right by the grand
+&+Lfoyer of the second floor, and there are two small peep holes to look
+&+Lout into the foyer.  A small lever opens the secret entrance to the
+&+Lpantry.  The walls here are reinforced with extra thick steel and
+&+Lrock, making it very thick, while there are also air vents that
+&+Lbring in fresh air from the stairway.  If someone were to escape
+&+Lthe horrors that befell the Southern Tower, this is probably one
+&+Lof the places they would have ran off to.  A small bed and a small
+&+Lstorage locker sit in one corner of the room, while there is a deep
+&+Lhole that acts like a latrine in the event that a person is trapped
+&+Lin this secret room for a very long time.
+~
+132 0 0
+D2
+~
+wall~
+1 0 13242
+S
+#13244
+&+yA Huge Storage Closet~
+&+L  This huge storage closet seems to have been the location
+&+Lwhere the servants of the Southern Tower kept their gardening
+&+Ltools, building tools, and just about anything they couldn't
+&+Lfit in their cubby holes in their quarters.  Various things,
+&+Lfrom hoes to furniture, are cluttered about this area. Most of
+&+Lthis stuff has rotted with time and is in poor condition
+&+Lto say the least. There are even a few weapons from
+&+LTharnadia and Sylvandawn lying in racks, however, they
+&+Lappear to be mostly rusted from the long time they were
+&+Lsitting here. The foyer of the second floor lies to the
+&+Least here, while this huge closet continues to the south.
+&+LIn this particular area of the storage closet, there are
+&+Lmostly gardening tools, uniforms, and extra supplies.
+&+LThere is also a small chest sitting under a crumpled
+&+Lup gardening uniform.  The chest appears to be rather
+&+Lsmall, with some strange writing written upon it.
+~
+132 0 0
+D2
+~
+~
+0 0 13245
+D3
+~
+~
+0 0 13239
+S
+#13245
+&+yIn A Huge Storage Closet~
+&+L  This huge storage closet seems to have been the location
+&+Lwhere the servants of the Southern Tower kept their gardening
+&+Ltools, building tools, and just about anything they couldn't
+&+Lfit in their cubby holes in their quarters.  Various things,
+&+Lfrom hoes to furniture, are cluttered about this area. Most of
+&+Lthis stuff has rotted with time and is in poor condition
+&+Lto say the least. There are even a few weapons from
+&+LTharnadia and Sylvandawn lying in racks, however, they
+&+Lappear to be mostly rusted from the long time they were
+&+Lsitting here. The entrance of this huge storage closet lies
+&+Lto the north, and the back of the closet is to the west.
+&+LThis area seems to be the main weapon storage area, where
+&+Lracks of shortswords, spears, and shields have been placed.
+&+LThere is also a box of quivers filled with arrows, and
+&+La small cubby filled with elven longbows.  Most of these
+&+Litems are unusable anymore due to their present condition.
+&+LIt appears there was a small scuffel to get to these weapons
+&+Lbecause many of the weapons are missing from their rack, and
+&+Lothers lies on the floor.
+~
+132 0 0
+D0
+~
+~
+0 0 13244
+D3
+~
+~
+0 0 13246
+S
+#13246
+&+yThe Back of The Huge Storage Closet~
+&+L  This huge storage closet seems to have been the location
+&+Lwhere the servants of the Southern Tower kept their gardening
+&+Ltools, building tools, and just about anything they couldn't
+&+Lfit in their cubby holes in their quarters.  Various things,
+&+Lfrom hoes to furniture, are cluttered about this area. Most of
+&+Lthis stuff has rotted with time and is in poor condition
+&+Lto say the least. There are even a few weapons from
+&+LTharnadia and Sylvandawn lying in racks, however, they
+&+Lappear to be mostly rusted from the long time they were
+&+Lsitting here. This is the back of the storage closet,
+&+Lcontaining mostly old furniture and other semi-worthless
+&+Litems the servants and Lyena have collected.  The weapons
+&+Larray is to the north.
+~
+132 0 0
+D1
+~
+~
+0 0 13245
+S
+#13247
+&+LThe Stairs of the Southern Tower, Third Floor~
+&+L  Much like the stairs of the Northern Tower, the Southern Tower's
+&+Lstairs probably used to look identical, but with the aging of time,
+&+Land the orc attack that took Lyena's life, the stairs are old,
+&+Lcrumbling, and filled with all sorts of nasty insects.  The
+&+Lred rug that used to rap around each of the stairs has turned
+&+Lbrittle with age, and has been infested with thousands of bugs.
+&+LThe stairs sprial up through the tower here, the second floor
+&+Lbelow, and the third floor above.  To the south lies the
+&+Lrotted foyer of the third floor of the Southern Tower.
+~
+132 0 0
+D2
+~
+~
+0 0 13248
+D4
+~
+~
+0 0 13256
+D5
+~
+~
+0 0 13238
+S
+#13248
+&+LThe Third Floor Foyer of the Southern Tower~
+&+L  The third floor foyer seems to be more intact, structurally,
+&+Lthan the second floor foyer.  The third floor seems to contain
+&+Lthe various shops and factilies of the tower.  The remains of
+&+Lold signs leading to the various facilities still hang on
+&+Lthe warped wall.  Stained red carpet stretches through the
+&+Lfoyer and out into the hallways that lead to the various
+&+Lshops and facilities. The hallways stretch out to the
+&+Least and to the west. A small lever seems to be partially
+&+Lhidden on the southern wall.
+~
+132 0 0
+D0
+~
+~
+0 0 13247
+D1
+~
+~
+0 0 13251
+D2
+~
+wall~
+8 0 13255
+D3
+~
+~
+0 0 13249
+S
+#13249
+&+LA Rotting Hallway~
+&+L  This hallway was porbably one of the most frequently used rooms
+&+Lin the entire Southern Tower.  The entire servant population,
+&+LLyena, and even Mixt and the pixies from the Northern tower
+&+Lwould travel this hallway to goto the shops and facilities for
+&+Lfood and provisions, or just general supplies.  Over these
+&+Lmany years though, this hallway has seen little traffic, unless
+&+Lit was by mice or other rodents. The wood floor here is slightly
+&+Lrotted, providing a feeling of unrest.  The foyer of the third
+&+Lfloor lies to the east, while the dark hallway continues to the
+&+Lsouth. There seems to be a stench coming from the south as well.
+~
+132 0 0
+D1
+~
+~
+0 0 13248
+D2
+~
+~
+0 0 13250
+S
+#13250
+&+LA Dark Hallway~
+&+L  This hallway was porbably one of the most frequently used rooms
+&+Lin the entire Southern Tower.  The entire servant population,
+&+LLyena, and even Mixt and the pixies from the Northern tower
+&+Lwould travel this hallway to goto the shops and facilities for
+&+Lfood and provisions, or just general supplies.  Over these
+&+Lmany years though, this hallway has seen little traffic, unless
+&+Lit was by mice or other rodents. The hallway ends here, with
+&+Lthe bakery to the east, and the hallway back to the north.
+~
+132 0 0
+D0
+~
+~
+0 0 13249
+D1
+~
+~
+0 0 13253
+S
+#13251
+&+LA Long Forgotten Hallway~
+&+L  This hallway was porbably one of the most frequently used rooms
+&+Lin the entire Southern Tower.  The entire servant population,
+&+LLyena, and even Mixt and the pixies from the Northern tower
+&+Lwould travel this hallway to goto the shops and facilities for
+&+Lfood and provisions, or just general supplies.  Over these
+&+Lmany years though, this hallway has seen little traffic, unless
+&+Lit was by mice or other rodents. The foyer of the third floor
+&+Llies to the east of here, while the hallway continues to the
+&+Lsouth to an abrupt end.
+~
+132 0 0
+D2
+~
+~
+0 0 13252
+D3
+~
+~
+0 0 13248
+S
+#13252
+&+LAn Abrupt End of the Hallway~
+&+L  This hallway was porbably one of the most frequently used rooms
+&+Lin the entire Southern Tower.  The entire servant population,
+&+LLyena, and even Mixt and the pixies from the Northern tower
+&+Lwould travel this hallway to goto the shops and facilities for
+&+Lfood and provisions, or just general supplies.  Over these
+&+Lmany years though, this hallway has seen little traffic, unless
+&+Lit was by mice or other rodents. It appears the hallway should
+&+Lhave kept continueing to the west here, but the only thing
+&+Lthat lies here now is rather large stone wall... how odd.
+~
+132 0 0
+D0
+~
+~
+0 0 13251
+D3
+~
+wall~
+8 0 13254
+S
+#13253
+&+yAn Old Bakery~
+&+y  Formerly the Tower's main supply of foods, this bakery was
+&+yonce cluttered about with the life of the tower.  Everyone
+&+yused to come to the bakery daily for freshed baked elven
+&+ybreads, and dwarven mead.  Huge ovens, built into the side
+&+yof the tower, are alined on the southern wall, while huge
+&+ycooling racks are lined up on the northern wall. After
+&+ythe orcish raid, this bakery has been left to rot, with
+&+yall of its contents being used only by the vermin.
+~
+132 0 0
+D3
+~
+~
+0 0 13250
+S
+#13254
+&+LA Hidden Shop In The Southern Tower~
+&+y  This hidden shop seems to be one of the very few preserved things
+&+yin this tower of darkness and death.  This shop seems to have been
+&+yLyena's personal magic shop, and all sorts of useful potions,
+&+yscrolls, wands, and staves are scattered about the shop.  A
+&+yplant that seems to have come alive runs the shop, and that's
+&+yprobably why he was unable to help the servants and Lyena
+&+yduring the orcish raid on their tower.
+~
+132 0 0
+D1
+~
+wall~
+1 0 13252
+S
+#13255
+&+LA Secret Battle Ready Room~
+&+r  This room seems to have been constructed so that the elven
+&+rguards could get through the tower easily, and out into the
+&+rforest to help defend it.  Unfortunately, the head guard
+&+rseems to have gotten stuck in this room when the lever
+&+rdidn't work to unlock the door.  Now he sits in this
+&+rsmall room of his, wheeping over the loss of the southern
+&+rtower.  Even more of a tragedy is that Mixt never knew
+&+rabout this secret battle ready room, so the guard
+&+rcould have never been freed.
+~
+132 0 0
+D0
+~
+wall~
+1 0 13248
+S
+#13256
+&+LThe Top Floor of the Southern Tower~
+&+L  Much like the stairs of the Northern Tower, the Southern Tower's
+&+Lstairs probably used to look identical, but with the aging of time,
+&+Land the orc attack that took Lyena's life, the stairs are old,
+&+Lcrumbling, and filled with all sorts of nasty insects.  The
+&+Lred rug that used to rap around each of the stairs has turned
+&+Lbrittle with age, and has been infested with thousands of bugs.
+&+LThe stairs sprial up through the tower here, the third floor
+&+Lbelow, and the ceiling above.  To the south lies the
+&+Lgrand chamber of Lyena.
+~
+132 0 0
+D2
+~
+~
+0 0 13257
+D5
+~
+~
+0 0 13247
+S
+#13257
+&+LA Huge Chamber of Stone~
+   This was the main room of the entire Southern Tower.  This room
+spans the entire length and width of the fourth floor of the tower.
+This room is Lyena's personal bedroom, office, and whatever she
+desired.  Once upon a time, long ago, Lyena would host parties
+for all of the people from her tower, Mixt's tower and the temple.
+However now, this place is dismall, holding much sorrow.  The
+entire area has been routed through, and things lie in heaps
+all about the room. A huge orcish hunter now presides in this
+area, feasting on the provisions of the tower, quite content
+in his work.  A small pillow near Lyena's old bed seems to
+cover some kind of a button.
+~
+132 0 0
+D0
+~
+~
+0 0 13256
+D3
+~
+wall~
+8 0 13258
+S
+#13258
+&+LA Hidden Chamber~
+    After all this time and all the hard struggles, Lyena is still
+alive and well, resting in this room. Long ago, when one might
+have gazed upon Lyena, they would have seen a beautiful half-elven
+woman, with golden hair, large breasts, and a cute smile.
+Everything has changed now however, Lyena sits in this large
+stone room wearing nothing but black, with black hair, and
+black colored lips.  Whatever possesed her to become like
+this is far beyond anything Mixt could have ever dreamed.
+~
+132 0 0
+D1
+~
+wall~
+1 0 13257
+S
+#13259
+&+WEntrance to a Huge White Temple~
+&+W  A pair of huge and lush white marbled gates open up into the
+&+Wbeautiful temple of the golden sun.  This area seems to be
+&+Wat peace with nature, and the courtyard reflects the beauty
+&+Wof this wonderous temple.  There is a small sign on the
+&+Wdoors with the listings of the prayer services.  There
+&+Wis also a small donation box for tything.
+~
+132 0 0
+D1
+~
+~
+0 0 13569
+D3
+~
+gates~
+1 0 13260
+E
+sign~
+                        Services Held Hourly
+                        --------------------
+                        Every hour every day!
+~
+S
+#13260
+&+GA Courtyard Outside the Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie. The entrance
+to the temple is to the west.
+~
+132 0 0
+D0
+~
+~
+0 0 13261
+D1
+~
+gates~
+1 0 13259
+D2
+~
+~
+0 0 13270
+D3
+~
+~
+0 0 13271
+S
+#13261
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13262
+D2
+~
+~
+0 0 13260
+S
+#13262
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D2
+~
+~
+0 0 13261
+D3
+~
+~
+0 0 13263
+S
+#13263
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D1
+~
+~
+0 0 13262
+D3
+~
+~
+0 0 13264
+S
+#13264
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D1
+~
+~
+0 0 13263
+D2
+~
+~
+0 0 13265
+S
+#13265
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13264
+D2
+~
+~
+0 0 13266
+S
+#13266
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13265
+D2
+~
+~
+0 0 13267
+S
+#13267
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13266
+D1
+~
+~
+0 0 13268
+S
+#13268
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D1
+~
+~
+0 0 13269
+D3
+~
+~
+0 0 13267
+S
+#13269
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13270
+D3
+~
+~
+0 0 13268
+S
+#13270
+&+GThe Courtyard Around The Temple~
+    It seems the monks and priests of this temple enjoy the flowers
+as much as Mixt and Lyena of the Twin Towers do.  Most of the
+flowers found in the gardens around the courtyard can be found
+here in this small garden that encricles the temple.  Every now
+and then, small pixie can be seen walking about this area,
+picking flowers and taking it to another pixie.
+~
+132 0 0
+D0
+~
+~
+0 0 13260
+D2
+~
+~
+0 0 13269
+S
+#13271
+&+WThe Foyer of the Temple~
+    The foyer of the temple is simple, as these monks and priests pray
+to a simple God.  The foyer has plain white marble walls leading up
+to a marble altar to the north.  Small potted trees line the walls,
+and potted flowers on the window ledges.  There is a burlap carpet
+that runs the length of the temple. The courtyard lies to the east.
+~
+132 0 0
+D1
+~
+~
+0 0 13260
+D3
+~
+~
+0 0 13272
+S
+#13272
+&+WThe Altar of the Temple~
+    This temple is rather small, only encompassing the main church
+area here, and the foyer to the east.  The monks and priests seem
+to have bunks lining the walls of the temple, and there are usually
+a few sleeping during any hour of the day since they have services
+every hour of every day. A humble looking priest stands at the
+altar, blessing some water in preparation for the services. There
+appears to be some sort of opening just under the altar.
+~
+132 0 0
+D1
+~
+~
+0 0 13271
+D5
+~
+trapdoor~
+5 0 13273
+S
+#13273
+&+yA Musty Wooden Tunnel~
+&+y   This tunnel appears to have been dug out at first, and then later, by
+&+ysome magical force, reinforced with wood that has grown into the earthen
+&+ylayer, as to prevent a cave in.  There is a small trapdoor and a few
+&+ystepping stones leading up to the temple of light, while the tunnel winds
+&+yaround to the south.  This area seems rather peaceful, yet well travelled.
+~
+132 1 0
+D2
+~
+~
+0 0 13274
+D4
+~
+trapdoor~
+5 0 13272
+S
+#13274
+&+yA Musty Wooden Tunnel~
+&+y   This tunnel appears to have been dug out at first, and then later, by
+&+ysome magical force, reinforced with wood that has grown into the earthen
+&+ylayer, as to prevent a cave in.  The starting point of the tunnel appears
+&+yto lie to the north, while the tunnel makes a sharp turn and heads south
+&+yeast, back underneath the twin towers forest.
+~
+132 1 0
+D0
+~
+~
+0 0 13273
+D9
+~
+~
+0 0 13275
+S
+#13275
+&+yA Musty Wooden Tunnel~
+&+y   This tunnel appears to have been dug out at first, and then later, by
+&+ysome magical force, reinforced with wood that has grown into the earthen
+&+ylayer, as to prevent a cave in.  The starting point of the tunnel appears
+&+yto lie to the north, while the tunnel makes a sharp turn and heads south
+&+yeast, back underneath the twin towers forest.
+~
+132 1 0
+D2
+~
+~
+0 0 13276
+D6
+~
+~
+0 0 13274
+S
+#13276
+&+yA Musty Tunnel~
+&+y   This tunnel appears to have been dug out at first, and then later, by
+&+ysome magical force, reinforced with wood that has grown into the earthen
+&+ylayer, as to prevent a cave in.  The starting point of the tunnel appears
+&+yto lie to the north, while the tunnel makes a sharp turn and heads south
+&+yeast, back underneath the twin towers forest.
+~
+132 0 0
+D0
+~
+~
+0 0 13275
+D2
+~
+~
+0 0 13277
+S
+#13277
+&+yA Hermit Monk's Home~
+&+y  This appears to be a must home undernearth the temple of the
+&+yTwin Towers.  A monk of the temple, one of the oldest and wisest
+&+yof all the monks has taken home to this wonderful little secret
+&+yroom under the temple.  This place glows with holiness, as he
+&+ysits in a perfect state of happiness.
+~
+132 131073 0
+D0
+~
+~
+0 0 13276
+D1
+~
+secret~
+5 0 13293
+S
+#13278
+&+LA Roughly Carved Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 5 13
+D0
+~
+rubble~
+1 0 13202
+D2
+~
+~
+0 0 13279
+S
+#13279
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 1 13
+D0
+~
+~
+0 0 13278
+D2
+~
+~
+0 0 13281
+D3
+~
+~
+0 0 13280
+S
+#13280
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 5 13
+D1
+~
+~
+0 0 13279
+D3
+~
+~
+0 0 13286
+S
+#13281
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 1 13
+D0
+~
+~
+0 0 13279
+D2
+~
+~
+0 0 13282
+S
+#13282
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 1 13
+D0
+~
+~
+0 0 13281
+D2
+~
+~
+0 0 13283
+S
+#13283
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 1 13
+D0
+~
+~
+0 0 13282
+D2
+~
+~
+0 0 13284
+S
+#13284
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 1 13
+D0
+~
+~
+0 0 13283
+D2
+~
+~
+0 0 13285
+S
+#13285
+&+LBottom of A Shaft&n~
+&+L A large hollow shaft leads up to the southern tower here.
+&+LThis seems to be where the original construction point for
+&+Lthese tunnels as there are still many supprorts and old
+&+Lmining equipment lying around the area. The shaft leads
+&+Lup into the southern tower, and the tunnel continues
+&+Lto the north, into the darkness.
+~
+132 5 13
+D0
+~
+~
+0 0 13284
+D4
+~
+trapdoor~
+5 0 13231
+S
+#13286
+&+LA Rough Tunnel~
+&+L  The work that was needed to dig out this area underneath the
+&+Lcourtyard must have been immense, as it was either done by Duergars
+&+Lor by Mountain Dwarves. In either case, this tunnel goes deep under
+&+Lground as to not disturb the courtyard above.  It appears that many
+&+Ldifferent creatures have inhabitted these tunnels, making it their
+&+Lhome, and for others making it their hunting ground.
+~
+132 5 13
+D1
+~
+~
+0 0 13280
+D5
+~
+~
+0 0 13287
+S
+#13287
+&+mA Dark Shaft&n~
+&+L This shaft seems to lead down to a very dark and moist place, deep
+&+Lwithin the surface of Duris. It is unclear on how such a shaft
+&+Lwas constructed, but disgusting tentacled brains seem to travel this
+&+Lshaft a lot, as there are pools of disgusting slime covering the
+&+Lwalls of the shaft, with several feathers burried in the slime.
+~
+132 1 13
+D4
+~
+~
+0 0 13286
+D5
+~
+~
+0 0 13288
+S
+#13288
+&+mA Dark Shaft&n~
+&+L This shaft seems to lead down to a very dark and moist place, deep
+&+Lwithin the surface of Duris. It is unclear on how such a shaft
+&+Lwas constructed, but disgusting tentacled brains seem to travel this
+&+Lshaft a lot, as there are pools of disgusting slime covering the
+&+Lwalls of the shaft, with several feathers burried in the slime.
+~
+132 5 13
+D4
+~
+~
+0 0 13287
+D5
+~
+~
+0 0 13289
+S
+#13289
+&+mA Huge Pool of Slime&n~
+    This area appears to be the home of the legendary
+roper creature.  This pool is filled with slime and small
+organisms, many of which the roper has fed on in the past.
+Additionally lies the corpse of several duergar miners who
+failed to sneak past the roper while it was in its slumber.
+~
+132 1 13
+D3
+~
+~
+0 0 13291
+D4
+~
+~
+0 0 13288
+S
+#13290
+&+LThe Back of The Cellar~
+   The back of the cellar has been cleared away to be used, by the
+halfling warriors, as an interrogation facility.  It appears that
+the duergar miner they found has gotten mixt worried that such
+a vile creature could violate his sacred tower.  He is very fearful
+of the things around him.  At this very moment, an almost dead
+duergar miner is chained to the wall, as a halfling councilor
+questions him.
+~
+132 0 0
+D2
+~
+~
+0 0 13202
+D3
+~
+secret~
+5 0 13294
+S
+#13291
+&+LA Dark Cave~
+    This dark cave is where the mining team had tunneled
+to get to this deep shaft under the towers.  However, a cave
+in has caused a cave in here, preventing re-entry into the
+underdark.  The area is littered with the tracks of a large
+roper, its home appearing to be the slime pool to the east.
+~
+132 1 13
+D1
+~
+~
+0 0 13289
+D3
+~
+~
+0 0 13295
+S
+#13292
+&+cAn Elder Pixie's Study&n~
+    This quiet little alcove in the tower is for an
+elder pixie.  It is cluttered with little bottles
+containing potions, baskets of herbs, and little
+trinkets that the master pixie created.  To the
+north lies the main pixie residents of the north
+tower.
+~
+132 0 0
+D0
+~
+secret~
+1 0 13205
+S
+#13293
+&+yA Dusty Passage&n~
+    This passage travels in a slight northeastern direction.  It is very small, allowing only a single person to pass at a time.  Additionally, a fair amount of dust has settled, showing only a few foot prints that are quite old.  To the west lies the home of the old monk hermit.  The passage continues to the east.
+~
+132 0 0
+D1
+~
+~
+0 0 13294
+D3
+~
+door~
+1 0 13277
+S
+#13294
+&+yA Dusty Passage&n~
+    This passage travels in a slight northeastern direction.  It is very small, allowing only a single person to pass at a time.  Additionally, a fair amount of dust has settled, showing only a few foot prints that are quite old.  To the west lies the home of the old monk hermit.  The passage continues to the east.
+~
+132 0 0
+D1
+~
+door~
+1 0 13290
+D3
+~
+~
+0 0 13293
+S
+#13295
+&+mA Recently Dug Tunnel&n~
+   This recently dug tunnel opens up the world,
+giving way to the belly of Duris.  There are many
+small foot prints in this area, as if they were
+walking very quietly to aovid something.  There are
+small patches of fungus growing inbetween the rocks.
+~
+132 0 13
+D1
+~
+~
+0 0 13291
+D3
+~
+~
+0 0 13296
+S
+#13296
+&+mA Recently Dug Tunnel&n~
+   This recently dug tunnel opens up the world,
+giving way to the belly of Duris.  There are many
+small foot prints in this area, as if they were
+walking very quietly to aovid something.  There are
+small patches of fungus growing inbetween the rocks.
+~
+132 0 13
+D1
+~
+~
+0 0 13295
+D3
+~
+~
+0 0 13297
+S
+#13297
+&+mA Recently Dug Tunnel&n~
+   This recently dug tunnel opens up the world,
+giving way to the belly of Duris.  There are many
+small foot prints in this area, as if they were
+walking very quietly to aovid something.  There are
+small patches of fungus growing inbetween the rocks.
+~
+132 0 13
+D1
+~
+~
+0 0 13296
+D3
+~
+~
+0 0 30167
+S
+#13298
+&+LA Dark Corner&n~
+  This dark corner in the quarters of the
+south tower contains some dark, something
+hideous.  The shadow covers the walls, floors,
+and ceiling as if the shadow were growing here.
+There is a rotten smell in the air.
+~
+132 0 0
+D0
+~
+~
+0 0 13234
+S

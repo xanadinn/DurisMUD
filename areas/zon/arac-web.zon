@@ -1,0 +1,220 @@
+#364
+&+mArachdrathos - Drow City&n~
+36589 2 4 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 36545 2 0 100 0 0 0
+*     south exit from "Inside the Gates of Arachdrathos" to
+*     "The Gates of Arachdrathos" - open
+*
+D 0 36546 0 0 100 0 0 0
+*     north exit from "The Gates of Arachdrathos" to
+*     "Inside the Gates of Arachdrathos" - open
+*
+D 0 36569 0 2 100 0 0 0
+*     north exit from "The Pleasure Room" to
+*     "Slaver's Paradise" - closed/locked
+*
+D 0 36570 2 2 100 0 0 0
+*     south exit from "Slaver's Paradise" to
+*     "The Pleasure Room" - closed/locked
+*
+D 0 36572 2 0 100 0 0 0
+*     south exit from "Inside the East Gates of Arachdrathos" to
+*     "Outside the East Gates" - open
+*
+D 0 36573 0 0 100 0 0 0
+*     north exit from "Outside the East Gates" to
+*     "Inside the East Gates of Arachdrathos" - open
+*
+*
+O 0 36402 1 36544 100 0 0 0        * the Great Fountain of Arachdrathos
+O 0 90 99 36544 100 0 0 0          * (object type not in this .obj file)
+O 0 361 1 36554 100 0 0 0          * (object type not in this .obj file)
+O 0 36403 1 36558 100 0 0 0        * an overworld oaken table
+O 0 36404 1 36558 100 0 0 0        * a ledger
+O 0 3097 99 36558 100 0 0 0        * (object type not in this .obj file)
+O 0 92 99 36566 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 36431 6 36400 100 0 0 0        * a giant zarbon
+M 0 36431 6 36400 100 0 0 0        * a giant zarbon
+M 0 36432 1 36400 100 0 0 0        * Arachdra
+M 0 36431 6 36401 100 0 0 0        * a giant zarbon
+M 0 36431 6 36402 100 0 0 0        * a giant zarbon
+M 0 36431 6 36403 100 0 0 0        * a giant zarbon
+M 0 36431 6 36404 100 0 0 0        * a giant zarbon
+M 0 36403 2 36410 100 0 0 0        * a zarbon
+M 0 36404 2 36411 100 0 0 0        * a zarbon
+M 0 36402 2 36411 100 0 0 0        * a zarbon
+M 0 36405 11 36412 100 0 0 0       * a zarbon
+M 0 36405 11 36412 100 0 0 0       * a zarbon
+M 0 36404 2 36413 100 0 0 0        * a zarbon
+M 0 36402 2 36413 100 0 0 0        * a zarbon
+M 0 36403 2 36414 100 0 0 0        * a zarbon
+M 0 36407 9 36427 100 0 0 0        * a young zarbonite
+M 0 36407 9 36427 100 0 0 0        * a young zarbonite
+M 0 36407 9 36431 100 0 0 0        * a young zarbonite
+M 0 36407 9 36431 100 0 0 0        * a young zarbonite
+M 0 36407 9 36431 100 0 0 0        * a young zarbonite
+M 0 36411 6 36436 100 0 0 0        * a young Olipthian
+M 0 36442 1 36442 100 0 0 0        * Momilion
+M 0 36411 6 36444 100 0 0 0        * a young Olipthian
+M 0 36438 1 36445 100 0 0 0        * Asteriatorm
+E 1 36438 1 2 100 0 0 0            *   a ring of absorption
+M 0 36408 7 36446 100 0 0 0        * a young zochran
+M 0 36408 7 36447 100 0 0 0        * a young zochran
+M 0 36408 7 36448 100 0 0 0        * a young zochran
+M 0 36409 6 36453 100 0 0 0        * a young slinite
+M 0 36409 6 36453 100 0 0 0        * a young slinite
+M 0 36411 6 36460 100 0 0 0        * a young Olipthian
+M 0 36405 11 36465 100 0 0 0       * a zarbon
+M 0 36405 11 36465 100 0 0 0       * a zarbon
+M 0 36405 11 36465 100 0 0 0       * a zarbon
+M 0 36405 11 36465 100 0 0 0       * a zarbon
+M 0 36410 6 36482 100 0 0 0        * a young Sa'Zaran
+M 0 36441 1 36485 100 0 0 0        * Beligron
+M 0 36406 8 36489 100 0 0 0        * a young Ilithian
+M 0 36410 6 36491 100 0 0 0        * a young Sa'Zaran
+M 0 36401 6 36492 100 0 0 0        * a durithalite golem
+M 0 36405 11 36492 100 0 0 0       * a zarbon
+M 0 36405 11 36497 100 0 0 0       * a zarbon
+M 0 36405 11 36497 100 0 0 0       * a zarbon
+M 0 36405 11 36497 100 0 0 0       * a zarbon
+M 0 36405 11 36497 100 0 0 0       * a zarbon
+M 0 36406 8 36506 100 0 0 0        * a young Ilithian
+M 0 36406 8 36506 100 0 0 0        * a young Ilithian
+M 0 36410 6 36515 100 0 0 0        * a young Sa'Zaran
+M 0 36406 8 36532 100 0 0 0        * a young Ilithian
+M 0 36411 6 36538 100 0 0 0        * a young Olipthian
+M 0 36440 1 36538 100 0 0 0        * a dark cloaked drow
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 36406 8 36539 100 0 0 0        * a young Ilithian
+M 0 36409 6 36540 100 0 0 0        * a young slinite
+M 0 36410 6 36540 100 0 0 0        * a young Sa'Zaran
+M 0 36436 5 36540 100 0 0 0        * a durithalite elemental
+F 1 36436 5 36540 100 0 0 0        * a durithalite elemental (following)
+M 0 36407 9 36541 100 0 0 0        * a young zarbonite
+M 0 36411 6 36541 100 0 0 0        * a young Olipthian
+M 0 36412 2 36542 100 0 0 0        * a baby aboleth
+M 0 36412 2 36543 100 0 0 0        * a baby aboleth
+M 0 36410 6 36544 100 0 0 0        * a young Sa'Zaran
+G 1 36433 3 0 100 0 0 0            *    an adamantine dirk
+M 0 36443 1 36544 100 0 0 0        * a durithalite elemental
+F 1 36436 5 36544 100 0 0 0        * a durithalite elemental (following)
+M 0 36400 14 36545 100 0 0 0       * a durithalite elemental
+M 0 36401 6 36545 100 0 0 0        * a durithalite golem
+M 0 36401 6 36545 100 0 0 0        * a durithalite golem
+M 0 36400 14 36546 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36546 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36546 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36546 100 0 0 0       * a durithalite elemental
+M 0 36401 6 36546 100 0 0 0        * a durithalite golem
+M 0 36407 9 36547 100 0 0 0        * a young zarbonite
+M 0 36410 6 36547 100 0 0 0        * a young Sa'Zaran
+M 0 36407 9 36548 100 0 0 0        * a young zarbonite
+G 1 36433 3 0 100 0 0 0            *    an adamantine dirk
+M 0 36408 7 36548 100 0 0 0        * a young zochran
+G 1 36435 2 0 100 0 0 0            *    an adamantine longsword
+M 0 36409 6 36548 100 0 0 0        * a young slinite
+M 0 36406 8 36549 100 0 0 0        * a young Ilithian
+G 1 36434 2 0 100 0 0 0            *    a sacrificial knife
+M 0 36406 8 36550 100 0 0 0        * a young Ilithian
+M 0 36436 5 36550 100 0 0 0        * a durithalite elemental
+F 1 36436 5 36550 100 0 0 0        * a durithalite elemental (following)
+M 0 36419 1 36552 100 0 0 0        * a Llzazan merchant
+G 1 36421 1 0 100 0 0 0            *    a silk backpack
+G 1 36422 1 0 100 0 0 0            *    a rothe steak
+G 1 36423 1 0 100 0 0 0            *    a silk waterskin
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 36407 9 36553 100 0 0 0        * a young zarbonite
+M 0 36437 1 36554 100 0 0 0        * the weaponsmith
+G 1 36432 1 0 100 0 0 0            *    an adamantine shield
+G 1 36431 1 0 100 0 0 0            *    a pair of adamantine gauntlets
+G 1 36426 1 0 100 0 0 0            *    some adamantine leggings
+G 1 36425 1 0 100 0 0 0            *    some adamantine boots
+G 1 36428 1 0 100 0 0 0            *    a suit of adamantine plate
+G 1 36429 1 0 100 0 0 0            *    an adamantine helm
+G 1 36430 1 0 100 0 0 0            *    an adamantine visor
+G 1 36427 1 0 100 0 0 0            *    some adamantine sleeves
+G 1 36435 2 0 100 0 0 0            *    an adamantine longsword
+G 1 36436 1 0 100 0 0 0            *    an adamantine claymore
+G 1 36437 1 0 100 0 0 0            *    a serrated bastard sword
+G 1 36433 3 0 100 0 0 0            *    an adamantine dirk
+G 1 36434 2 0 100 0 0 0            *    a sacrificial knife
+G 1 36414 1 0 100 0 0 0            *    the blood seal of Zochra
+M 0 36406 8 36555 100 0 0 0        * a young Ilithian
+M 0 36408 7 36555 100 0 0 0        * a young zochran
+M 0 36416 1 36556 100 0 0 0        * a priestess shopkeeper
+G 1 36406 1 0 100 0 0 0            *    a spider pendant
+G 1 36407 1 0 100 0 0 0            *    a small spider idol
+G 1 36408 1 0 100 0 0 0            *    a dangling spider earring
+G 1 36409 1 0 100 0 0 0            *    the violet seal of Ilith
+M 0 36408 7 36557 100 0 0 0        * a young zochran
+M 0 36409 6 36557 100 0 0 0        * a young slinite
+M 0 36413 1 36558 100 0 0 0        * a trustworthy banker
+G 1 36420 1 0 100 0 0 0            *    a contract
+M 0 36414 1 36559 100 0 0 0        * a turnkey
+E 1 36413 1 24 100 0 0 0           *   the ochre seal of Slin
+M 0 36415 1 36559 100 0 0 0        * a captive illithid
+E 1 36405 1 6 100 0 0 0            *   a strange helmet
+M 0 36417 1 36560 100 0 0 0        * a necromancer shopkeeper
+G 1 36411 1 0 100 0 0 0            *    the bone seal of Sa'Zarn
+G 1 36415 1 0 100 0 0 0            *    a midnight wand
+M 0 36418 1 36561 100 0 0 0        * a sorcerer shopkeeper
+G 1 36410 1 0 100 0 0 0            *    the irridescent seal of Olipth
+G 1 36417 1 0 100 0 0 0            *    a miniature shadow dragon
+G 1 36416 1 0 100 0 0 0            *    a dull black potion
+G 1 36419 1 0 100 0 0 0            *    a fiery red potion
+G 1 36418 1 0 100 0 0 0            *    an ice wand
+G 1 36424 999 0 100 0 0 0          *    a heavy crossbow quiver
+M 0 36409 6 36562 100 0 0 0        * a young slinite
+M 0 36411 6 36562 100 0 0 0        * a young Olipthian
+M 0 36420 1 36563 100 0 0 0        * a barkeep
+M 0 36400 14 36564 100 0 0 0       * a durithalite elemental
+M 0 36422 1 36567 100 0 0 0        * a drow attendant
+M 0 36426 1 36567 100 0 0 0        * a slave trader
+M 0 36427 1 36568 100 0 0 0        * A svrifneblin slave.
+M 0 36428 1 36568 100 0 0 0        * a duergar slave
+M 0 36429 1 36568 100 0 0 0        * a drow slave
+M 0 36430 1 36568 100 0 0 0        * an illithid slave
+M 0 36424 3 36569 100 0 0 0        * a drow whore
+M 0 36425 3 36569 100 0 0 0        * a male drow prostitute
+M 0 36424 3 36569 100 0 0 0        * a drow whore
+M 0 36425 3 36569 100 0 0 0        * a male drow prostitute
+M 0 36424 3 36569 100 0 0 0        * a drow whore
+M 0 36425 3 36569 100 0 0 0        * a male drow prostitute
+M 0 36423 1 36570 100 0 0 0        * a gatekeeper
+G 1 36400 1 0 100 0 0 0            *    a dildo-shaped key
+M 0 36400 14 36572 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36572 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36572 100 0 0 0       * a durithalite elemental
+M 0 36401 6 36572 100 0 0 0        * a durithalite golem
+M 0 36400 14 36573 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36573 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36573 100 0 0 0       * a durithalite elemental
+M 0 36401 6 36573 100 0 0 0        * a durithalite golem
+M 0 36435 3 36575 100 0 0 0        * a webble
+M 0 36435 3 36575 100 0 0 0        * a webble
+M 0 36435 3 36575 100 0 0 0        * a webble
+M 0 36434 2 36577 100 0 0 0        * a giant cavefisher
+M 0 36434 2 36577 100 0 0 0        * a giant cavefisher
+M 0 36400 14 36579 100 0 0 0       * a durithalite elemental
+M 0 36400 14 36579 100 0 0 0       * a durithalite elemental
+M 0 36433 4 36585 100 0 0 0        * a sandworm
+M 0 36433 4 36586 100 0 0 0        * a sandworm
+M 0 36433 4 36586 100 0 0 0        * a sandworm
+M 0 36433 4 36587 100 0 0 0        * a sandworm
+M 0 36439 1 36589 100 0 0 0        * Krista'Bool
+G 1 36439 999 0 100 0 0 0          *    a small hand crossbow
+G 1 36440 9999 0 100 0 0 0         *    a drow crossbow bolt
+G 1 36441 999 0 100 0 0 0          *    a heavy crossbow
+G 1 36442 9999 0 100 0 0 0         *    a heavy crossbow bolt
+G 1 36443 999 0 100 0 0 0          *    a crossbow quiver
+G 1 36424 999 0 100 0 0 0          *    a heavy crossbow quiver
+G 1 54 999 0 100 0 0 0             *    (object type not in this .obj file)
+*
+S

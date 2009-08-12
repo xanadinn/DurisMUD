@@ -1,0 +1,264 @@
+#712
+&N&+LThe &N&+rSc&N&+Ro&N&+Yrc&N&+Rh&N&+red&N&+L Valley&N~
+71332 1 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 71203 0 2 100 0 0 0
+*     north exit from "Descending Into The Valley" to
+*     "Just Inside the Shield" - closed/locked
+*
+D 0 71204 2 2 100 0 0 0
+*     south exit from "Just Inside the Shield" to
+*     "Decending Into The Valley" - closed/locked
+*
+D 0 71240 5 1 100 0 0 0
+*     down exit from "Dead End In The Burning Barricade" to
+*     "A Basement Under The Village" - closed
+*
+D 0 71241 4 1 100 0 0 0
+*     up exit from "A Basement Under The Village" to
+*     "Dead End In The Burning Barricade" - closed
+*
+D 0 71263 2 1 100 0 0 0
+*     south exit from "Inside The Devastated Village" to
+*     "A Destroyed Home In The Village" - closed
+*
+D 0 71268 0 1 100 0 0 0
+*     north exit from "A Destroyed Home In The Village" to
+*     "Inside The Devastated Village" - closed
+*
+D 0 71265 5 5 100 0 0 0
+*     down exit from "A Large Stable In The Village" to
+*     "Some Caves Under the Village" - closed/secret
+*
+D 0 71273 4 5 100 0 0 0
+*     up exit from "Some Caves Under the Village" to
+*     "A Large Stable In The Village" - closed/secret
+*
+D 0 71267 3 2 100 0 0 0
+*     west exit from "Before The Temple Built Into The Valley" to
+*     "The Pit Inside The Temple" - closed/locked
+*
+D 0 71270 1 2 100 0 0 0
+*     east exit from "The Pit Inside The Temple" to
+*     "Before The Temple Built Into The Valley" - closed/locked
+*
+D 0 71279 0 2 100 0 0 0
+*     north exit from "Before The Huge Doors In The Temple" to
+*     "An Enormous Area Deep Underground" - closed/locked
+*
+D 0 71280 2 2 100 0 0 0
+*     south exit from "An Enormous Area Deep Underground" to
+*     "Before The Huge Doors In The Temple" - closed/locked
+*
+D 0 71281 0 2 100 0 0 0
+*     north exit from "A Quiet Area On The Bridge" to
+*     "An Room Just Inside the Vault" - closed/locked
+*
+D 0 71282 2 2 100 0 0 0
+*     south exit from "An Room Just Inside the Vault" to
+*     "A Quiet Area On The Bridge" - closed/locked
+*
+*
+O 0 71205 1 71271 100 0 0 0        * an heirloom ring
+O 0 71219 1 71271 100 0 0 0        * a strip of young demon hide
+O 0 71249 1 71275 100 0 0 0        * an abandoned souvenir cart
+P 1 71250 1 71249 100 0 0 0        *   a small souvenir charm of the Nital dragon
+O 0 71207 5 71277 100 0 0 0        * a pile of coins
+O 0 71238 1 71283 100 0 0 0        * the temple chest
+P 1 71207 5 71238 100 0 0 0        *   a pile of coins
+P 1 71207 5 71238 100 0 0 0        *   a pile of coins
+P 1 71207 5 71238 100 0 0 0        *   a pile of coins
+P 1 71207 5 71238 100 0 0 0        *   a pile of coins
+P 1 71239 1 71238 100 0 0 0        *   the sacred bottle of Tallin's blood
+O 0 71209 1 71284 100 0 0 0        * the dimensional rift
+O 0 71210 1 71310 100 0 0 0        * the dimensional rift
+O 0 359 1 71321 100 0 0 0          * (object type not in this .obj file)
+O 0 71211 1 71322 100 0 0 0        * two very strange "columns"
+*
+M 0 71201 1 71203 100 0 0 0        * the mostly formed golem
+G 1 71201 1 0 100 0 0 0            *    a sharp shard of magic
+M 0 71203 4 71205 100 0 0 0        * a lieutenant of the heavens
+F 1 71202 12 71205 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71205 100 0 0 0       * a soldier of the heavens (following)
+M 0 71208 4 71206 100 0 0 0        * an extremely scared bear
+M 0 71206 7 71207 100 0 0 0        * the stray demon
+M 0 71207 3 71208 100 0 0 0        * the devious demon
+E 1 71202 6 16 100 0 0 0           *   a jagged blade
+E 1 71202 6 17 100 0 0 0           *   a jagged blade
+M 0 71207 3 71210 100 0 0 0        * the devious demon
+E 1 71202 6 16 100 0 0 0           *   a jagged blade
+E 1 71202 6 17 100 0 0 0           *   a jagged blade
+M 0 71206 7 71211 100 0 0 0        * the stray demon
+M 0 71208 4 71212 100 0 0 0        * an extremely scared bear
+M 0 71203 4 71213 100 0 0 0        * a lieutenant of the heavens
+F 1 71202 12 71213 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71213 100 0 0 0       * a soldier of the heavens (following)
+M 0 71204 1 71215 100 0 0 0        * a mighty griffin
+M 0 71227 1 71216 100 0 0 0        * a large air elemental
+M 0 71203 4 71218 100 0 0 0        * a lieutenant of the heavens
+F 1 71202 12 71218 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71218 100 0 0 0       * a soldier of the heavens (following)
+M 0 71203 4 71219 100 0 0 0        * a lieutenant of the heavens
+F 1 71202 12 71219 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71219 100 0 0 0       * a soldier of the heavens (following)
+M 0 71206 7 71221 100 0 0 0        * the stray demon
+M 0 71255 1 71223 100 0 0 0        * the commander of the heavens
+G 1 71240 1 0 100 0 0 0            *    a detached piece of godly magic
+M 0 71207 3 71224 100 0 0 0        * the devious demon
+E 1 71202 6 16 100 0 0 0           *   a jagged blade
+E 1 71202 6 17 100 0 0 0           *   a jagged blade
+M 0 71211 4 71225 100 0 0 0        * a separated soldier of the heavens
+M 0 71224 1 71226 100 0 0 0        * a large earth elemental
+M 0 71225 2 71228 100 0 0 0        * a large water elemental
+M 0 71205 1 71229 100 0 0 0        * the survivor of Nital
+M 0 71226 2 71230 100 0 0 0        * a large fire elemental
+M 0 71206 7 71231 100 0 0 0        * the stray demon
+M 0 71225 2 71232 100 0 0 0        * a large water elemental
+M 0 71206 7 71233 100 0 0 0        * the stray demon
+M 0 71220 2 71236 100 0 0 0        * the titan paladin
+M 0 71221 2 71236 100 0 0 0        * the giant anti-paladin
+M 0 71220 2 71237 100 0 0 0        * the titan paladin
+M 0 71221 2 71237 100 0 0 0        * the giant anti-paladin
+M 0 71211 4 71238 100 0 0 0        * a separated soldier of the heavens
+M 0 71226 2 71240 100 0 0 0        * a large fire elemental
+M 0 71210 1 71242 100 0 0 0        * the commander of the heavens
+G 1 71227 1 0 100 0 0 0            *    the decapitated head of the commander
+F 1 71209 2 71242 100 0 0 0        * the stone golem (following)
+F 1 71209 2 71242 100 0 0 0        * the stone golem (following)
+M 0 71214 2 71243 100 0 0 0        * a lieutenant of the heavens
+E 1 71253 1 10 100 0 0 0           *   a pair of intricately designed armplates
+F 1 71202 12 71243 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71243 100 0 0 0       * a soldier of the heavens (following)
+M 0 71213 2 71243 100 0 0 0        * the large demon
+G 1 71204 1 0 100 0 0 0            *    Tallin's standard
+F 1 71212 6 71243 100 0 0 0        * the small demon (following)
+F 1 71212 6 71243 100 0 0 0        * the small demon (following)
+M 0 71214 2 71244 100 0 0 0        * a lieutenant of the heavens
+G 1 71203 1 0 100 0 0 0            *    the council standard
+F 1 71202 12 71244 100 0 0 0       * a soldier of the heavens (following)
+F 1 71202 12 71244 100 0 0 0       * a soldier of the heavens (following)
+M 0 71213 2 71244 100 0 0 0        * the large demon
+E 1 71252 1 7 100 0 0 0            *   a pair of razor covered legplates
+F 1 71212 6 71244 100 0 0 0        * the small demon (following)
+F 1 71212 6 71244 100 0 0 0        * the small demon (following)
+M 0 71222 2 71245 100 0 0 0        * the large nabassu
+M 0 71208 4 71246 100 0 0 0        * an extremely scared bear
+M 0 71222 2 71247 100 0 0 0        * the large nabassu
+M 0 71208 4 71248 100 0 0 0        * an extremely scared bear
+M 0 71206 7 71250 100 0 0 0        * the stray demon
+M 0 71206 7 71251 100 0 0 0        * the stray demon
+M 0 71211 4 71253 100 0 0 0        * a separated soldier of the heavens
+M 0 71211 4 71254 100 0 0 0        * a separated soldier of the heavens
+M 0 71228 2 71255 100 0 0 0        * a frost giant
+M 0 71230 2 71257 100 0 0 0        * a gnoll chieftain
+F 1 71229 4 71257 100 0 0 0        * a gnoll warrior (following)
+F 1 71229 4 71257 100 0 0 0        * a gnoll warrior (following)
+M 0 71258 1 71258 100 0 0 0        * the large demon
+F 1 71212 6 71258 100 0 0 0        * the small demon (following)
+F 1 71212 6 71258 100 0 0 0        * the small demon (following)
+M 0 71230 2 71259 100 0 0 0        * a gnoll chieftain
+F 1 71229 4 71259 100 0 0 0        * a gnoll warrior (following)
+F 1 71229 4 71259 100 0 0 0        * a gnoll warrior (following)
+M 0 71228 2 71261 100 0 0 0        * a frost giant
+M 0 71233 2 71269 100 0 0 0        * the little demon
+M 0 71215 1 71270 100 0 0 0        * the horrific pitmaster
+E 1 71221 1 13 100 0 0 0           *   a belt of body parts
+M 0 71217 2 71271 100 0 0 0        * the smart little demon
+M 0 71217 2 71271 100 0 0 0        * the smart little demon
+M 0 71218 2 71271 100 0 0 0        * the vicious little demon
+M 0 71218 2 71271 100 0 0 0        * the vicious little demon
+M 0 71219 3 71271 100 0 0 0        * the cerebral demonic larvae
+M 0 71219 3 71271 100 0 0 0        * the cerebral demonic larvae
+M 0 71219 3 71271 100 0 0 0        * the cerebral demonic larvae
+M 0 71216 3 71271 100 0 0 0        * the mean demonic larvae
+M 0 71216 3 71271 100 0 0 0        * the mean demonic larvae
+M 0 71216 3 71271 100 0 0 0        * the mean demonic larvae
+M 0 71231 1 71275 100 0 0 0        * a gnoll chieftain
+M 0 71232 1 71277 100 0 0 0        * the mature white dragon
+G 1 71206 1 0 100 0 0 0            *    the burning hot key
+M 0 71233 2 71278 100 0 0 0        * the little demon
+M 0 71234 1 71279 100 0 0 0        * the ancient black wyrm
+G 1 71208 1 0 100 0 0 0            *    the abyssal key
+M 0 71235 1 71279 100 0 0 0        * the ancient red wyrm
+G 1 71223 1 0 100 0 0 0            *    a sparkling potion
+M 0 71254 1 71281 100 0 0 0        * the many-armed demon
+G 1 71236 1 0 100 0 0 0            *    the vault key
+M 0 71236 1 71283 100 0 0 0        * the demonic advisor of Tallin
+G 1 71237 1 0 100 0 0 0            *    the chest key
+M 0 71239 1 71284 100 0 0 0        * Tallin, the goddess of destruction
+E 1 71217 1 8 100 0 0 0            *   flaming puddles of destructive energy
+F 1 71237 1 71284 100 0 0 0        * the smart bodyguard demon (following)
+E 1 71243 1 5 100 0 0 0            *   the black robe of the guardian demon
+F 1 71238 1 71284 100 0 0 0        * the strong bodyguard demon (following)
+E 1 71242 1 2 100 0 0 0            *   a ring of destruction
+M 0 71251 12 71285 100 0 0 0       * an alu-demon
+M 0 71241 12 71286 100 0 0 0       * the nabassu
+M 0 71251 12 71287 100 0 0 0       * an alu-demon
+M 0 71241 12 71288 100 0 0 0       * the nabassu
+M 0 71242 9 71289 100 0 0 0        * the small demon
+M 0 71241 12 71290 100 0 0 0       * the nabassu
+M 0 71242 9 71291 100 0 0 0        * the small demon
+M 0 71242 9 71292 100 0 0 0        * the small demon
+M 0 71241 12 71293 100 0 0 0       * the nabassu
+M 0 71251 12 71294 100 0 0 0       * an alu-demon
+M 0 71251 12 71296 100 0 0 0       * an alu-demon
+M 0 71251 12 71297 100 0 0 0       * an alu-demon
+M 0 71241 12 71298 100 0 0 0       * the nabassu
+M 0 71251 12 71299 100 0 0 0       * an alu-demon
+M 0 71242 9 71300 100 0 0 0        * the small demon
+M 0 71242 9 71301 100 0 0 0        * the small demon
+M 0 71241 12 71302 100 0 0 0       * the nabassu
+M 0 71241 12 71303 100 0 0 0       * the nabassu
+M 0 71242 9 71304 100 0 0 0        * the small demon
+M 0 71251 12 71306 100 0 0 0       * an alu-demon
+M 0 71241 12 71307 100 0 0 0       * the nabassu
+M 0 71251 12 71308 100 0 0 0       * an alu-demon
+M 0 71251 12 71309 100 0 0 0       * an alu-demon
+M 0 71241 12 71310 100 0 0 0       * the nabassu
+M 0 71251 12 71311 100 0 0 0       * an alu-demon
+M 0 71242 9 71313 100 0 0 0        * the small demon
+M 0 71241 12 71314 100 0 0 0       * the nabassu
+M 0 71241 12 71315 100 0 0 0       * the nabassu
+M 0 71242 9 71316 100 0 0 0        * the small demon
+M 0 71242 9 71317 100 0 0 0        * the small demon
+M 0 71251 12 71318 100 0 0 0       * an alu-demon
+M 0 71241 12 71319 100 0 0 0       * the nabassu
+M 0 71251 12 71320 100 0 0 0       * an alu-demon
+M 0 71243 1 71321 100 0 0 0        * the Queen of Chaos
+E 1 71216 1 20 100 0 0 0           *   the beak of the Queen of Chaos
+F 1 71245 2 71321 100 0 0 0        * the bodyguard spider demon (following)
+F 1 71244 1 71321 100 0 0 0        * Miska, the Wolf Spider (following)
+E 1 71214 1 16 100 0 0 0           *   a giant longsword named 'Disintegrator'
+F 1 71245 2 71321 100 0 0 0        * the bodyguard spider demon (following)
+M 0 71246 1 71323 100 0 0 0        * an enormous frost giant
+E 1 71225 1 23 100 0 0 0           *   the frost giant's axe
+G 1 71212 1 0 100 0 0 0            *    a hefty wiggling sack
+M 0 71223 1 71324 100 0 0 0        * a demon swathed in flames
+G 1 71222 1 0 100 0 0 0            *    a beautiful ruby gem
+M 0 71247 1 71325 100 0 0 0        * the collector
+E 1 71241 1 21 100 0 0 0           *   a runed medallion earring
+M 0 71248 1 71326 100 0 0 0        * the bodyguard of Tallin
+E 1 71229 1 19 100 0 0 0           *   the goggles of hate
+G 1 71228 1 0 100 0 0 0            *    the essence of Tallin's bodyguard
+M 0 71249 1 71327 100 0 0 0        * the fog feeding off of death
+G 1 71231 1 0 100 0 0 0            *    a wisp of the deadly fog
+M 0 71250 1 71327 100 0 0 0        * Zu, the god of harmony
+E 1 71232 1 12 100 0 0 0           *   the globe of righteous harmony
+M 0 71257 1 71327 100 0 0 0        * the elderly wildmage
+E 1 71247 1 6 100 0 0 0            *   a wildmage hat covered in stars
+M 0 71240 1 71329 100 0 0 0        * the marlith
+E 1 71233 1 6 100 0 0 0            *   the sharp skull of the marlith
+M 0 71252 1 71329 100 0 0 0        * the balor
+G 1 71234 1 0 100 0 0 0            *    the fangs of the balor
+M 0 71253 1 71330 100 0 0 0        * the nervous advisor to the council
+M 0 71256 1 71331 100 0 0 0        * the seeker from Torg
+M 0 71259 1 71332 100 0 0 0        * Yeenoghu, the prince of gnolls
+E 1 71254 1 6 100 0 0 0            *   Yeenoghu's spiked helm of protection
+E 1 71255 1 16 100 0 0 0           *   the three-headed flail of Yeenoghu
+F 1 71260 2 71332 100 0 0 0        * the battle hardened gnoll bodyguard (following)
+F 1 71260 2 71332 100 0 0 0        * the battle hardened gnoll bodyguard (following)
+*
+S

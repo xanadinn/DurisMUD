@@ -1,0 +1,140 @@
+#939
+&+gShadowclave&n~
+93952 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 93903 3 1 100 0 0 0
+*     west exit from "By A Huge Tree" to
+*     "A Dirt Path in the Forest" - closed
+*
+D 0 93905 1 1 100 0 0 0
+*     east exit from "A Dirt Path in the Forest" to
+*     "By A Huge Tree" - closed
+*
+D 0 93908 3 1 100 0 0 0
+*     west exit from "End of a Path" to
+*     "A Small Trail" - closed
+*
+D 0 93909 1 1 100 0 0 0
+*     east exit from "A Small Trail" to
+*     "End of a Path" - closed
+*
+D 0 93912 0 1 100 0 0 0
+*     north exit from "A Small Trail" to
+*     "A Light Forest Path" - closed
+*
+D 0 93917 2 1 100 0 0 0
+*     south exit from "A Light Forest Path" to
+*     "A Small Trail" - closed
+*
+D 0 93914 3 1 100 0 0 0
+*     west exit from "At The Base of Giant Tree" to
+*     "Inside a Huge Tree" - closed
+*
+D 0 93915 1 1 100 0 0 0
+*     east exit from "Inside a Huge Tree" to
+*     "At The Base of Giant Tree" - closed
+*
+D 0 93916 5 1 100 0 0 0
+*     down exit from "Down A Wooden Ladder" to
+*     "The Grand Druid's Chamber" - closed
+*
+D 0 93921 4 1 100 0 0 0
+*     up exit from "The Grand Druid's Chamber" to
+*     "Down A Wooden Ladder" - closed
+*
+D 0 93920 2 1 100 0 0 0
+*     south exit from "A Small Trail" to
+*     "A Large Clearing" - closed
+*
+D 0 93923 0 1 100 0 0 0
+*     north exit from "A Large Clearing" to
+*     "A Small Trail" - closed
+*
+D 0 93926 0 1 100 0 0 0
+*     north exit from "Meeting Chamber" to
+*     "A Training Room" - closed
+*
+D 0 93928 2 1 100 0 0 0
+*     south exit from "A Training Room" to
+*     "Meeting Chamber" - closed
+*
+D 0 93926 2 1 100 0 0 0
+*     south exit from "Meeting Chamber" to
+*     "A Training Room" - closed
+*
+D 0 93927 0 1 100 0 0 0
+*     north exit from "A Training Room" to
+*     "Meeting Chamber" - closed
+*
+D 0 93926 5 1 100 0 0 0
+*     down exit from "Meeting Chamber" to
+*     "A Strange Workshop" - closed
+*
+D 0 93929 4 1 100 0 0 0
+*     up exit from "A Strange Workshop" to
+*     "Meeting Chamber" - closed
+*
+D 0 93932 5 1 100 0 0 0
+*     down exit from "A Back Room" to
+*     "A Small Dock" - closed
+*
+D 0 93933 4 1 100 0 0 0
+*     up exit from "A Small Dock" to
+*     "A Back Room" - closed
+*
+*
+*
+M 0 93900 5 93904 100 0 0 0        * a cloaked druid
+E 1 93904 1 16 100 0 0 0           *   a wanderer's staff
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93900 5 93908 100 0 0 0        * a cloaked druid
+E 1 93906 1 16 100 0 0 0           *   a lunar sickle
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93900 5 93911 100 0 0 0        * a cloaked druid
+E 1 93903 1 15 100 0 0 0           *   a bracelet of the earth
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93901 1 93919 100 0 0 0        * Belim, the lonely fisherman
+G 1 93910 1 0 100 0 0 0            *    a dead trout
+M 0 93903 1 93921 100 0 0 0        * Grelim, the grand druid
+E 1 93905 1 2 100 0 0 0            *   a ring of the hierophant
+E 1 93909 1 21 100 0 0 0           *   a long beast-shaped earring
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93902 1 93925 100 0 0 0        * Verra, the beast master
+E 1 93902 1 20 100 0 0 0           *   a mask of beastkind
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93900 5 93926 100 0 0 0        * a cloaked druid
+E 1 93907 1 16 100 0 0 0           *   a heartwood cudgel
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93905 6 93927 100 0 0 0        * a huge cave bear
+M 0 93905 6 93927 100 0 0 0        * a huge cave bear
+M 0 93905 6 93927 100 0 0 0        * a huge cave bear
+M 0 93905 6 93928 100 0 0 0        * a huge cave bear
+M 0 93905 6 93928 100 0 0 0        * a huge cave bear
+M 0 93905 6 93928 100 0 0 0        * a huge cave bear
+M 0 93906 1 93929 100 0 0 0        * Iliyad, the druid alchemist
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+G 1 93914 1 0 100 0 0 0            *    a bubbling brown potion
+G 1 93915 1 0 100 0 0 0            *    a dark misty potion
+G 1 93916 1 0 100 0 0 0            *    a fizzing purple potion
+M 0 93900 5 93931 100 0 0 0        * a cloaked druid
+E 1 93900 1 8 100 0 0 0            *   some boots of the forest
+E 1 93901 8 24 100 0 0 0           *   a dark shadowy circle
+M 0 93904 1 93933 100 0 0 0        * a lonely druidic fisherman
+E 1 93913 1 18 100 0 0 0           *   a fishing pole
+M 0 93907 12 93935 100 0 0 0       * a nasty shark
+M 0 93907 12 93937 100 0 0 0       * a nasty shark
+M 0 93907 12 93937 100 0 0 0       * a nasty shark
+M 0 93907 12 93937 100 0 0 0       * a nasty shark
+M 0 93907 12 93939 100 0 0 0       * a nasty shark
+M 0 93907 12 93942 100 0 0 0       * a nasty shark
+M 0 93907 12 93944 100 0 0 0       * a nasty shark
+M 0 93907 12 93946 100 0 0 0       * a nasty shark
+M 0 93907 12 93948 100 0 0 0       * a nasty shark
+M 0 93907 12 93949 100 0 0 0       * a nasty shark
+M 0 93907 12 93950 100 0 0 0       * a nasty shark
+M 0 93907 12 93952 100 0 0 0       * a nasty shark
+*
+S

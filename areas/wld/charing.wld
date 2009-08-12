@@ -1,0 +1,4619 @@
+#45000
+&+yThe Center of Charing&N~
+   The surrounding roads intersect in this large city center.
+The city center serves as a general meeting place where many
+elves and visiting centaurs can always be seen congregating. In
+the center of this area,  a large fountain has been erected in
+the shape of a beautiful mermaid blowing water from her mouth.
+The general surrounding areas are kept clean by the many
+street workers who pick up debris.  There are exits in all
+directions leading deeper into the city.
+~
+450 142639104 1
+D0
+The Way of the Royals continues to the north.
+~
+~
+0 0 45001
+D1
+~
+~
+0 0 45003
+D2
+The Way of the Royals continues to the south.
+~
+~
+0 0 45002
+D3
+~
+~
+0 0 45004
+S
+#45001
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  The road
+provides access to the large palace which lies further to the
+north.  There are exits all around leading deeper into the
+city.
+~
+450 142639104 1
+D0
+~
+~
+0 0 45155
+D2
+The center of Charing lies to the south.
+~
+~
+0 0 45000
+D3
+There is a large tree in that direction.
+~
+door tree~
+1 0 45098
+S
+#45002
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  A sign
+along the western part of the road reads "Welcome to Alkatia's
+Fletcher Shop."  The road provides access to the large palace
+which lies further to the north.  There are exits all around
+leading deeper into the city.
+~
+450 142639104 1
+D0
+The center of Charing lies to the north.
+~
+~
+0 0 45000
+D2
+~
+~
+0 0 45005
+D3
+The Fletchers Shop is to the west.
+~
+~
+0 0 45153
+S
+#45003
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A house of sorts can be seen to the north of the
+trail here.   There is a  faint, almost distant, crying sound
+can be heard far off in the distance.
+~
+450 142639104 1
+D0
+There is a small dwelling to the north.
+~
+door~
+1 0 45124
+D1
+~
+~
+0 0 45154
+D3
+The center of Charing lies in that direction.
+~
+~
+0 0 45000
+S
+#45004
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A large sign rests on a pole near the building
+to the south.  It reads "Welcome to the Blue Dragon Restaurant."
+There are the sounds of chatter coming from that building.
+The trail continues in two directions from this advantage
+point.
+~
+450 142639104 1
+D1
+~
+~
+0 0 45000
+D2
+~
+~
+0 0 45105
+D3
+~
+~
+0 0 45156
+S
+#45005
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  The bank of
+Charing lies in the establishment to the west while the Inn of
+Charing lies to the east.  There are exits all around leading
+deeper into the city.
+~
+450 142639104 1
+D0
+The Way of the Royals continues north.
+~
+~
+0 0 45002
+D1
+~
+~
+0 0 45006
+D2
+~
+~
+0 0 45008
+D3
+~
+~
+0 0 45007
+S
+#45006
+&+yThe Olde Inn of Charing&N~
+&+y   What was once a large oak tree, has been carved out into
+&+ythe olde inn of Charing.  Many travellers and citizens come to
+&+ythis inn to rest their tired souls.  A large mat covered the
+&+ywooden ground.  Along the eastern wall, there is a large
+&+ycounter.  On both sides of this counter, there are two large
+&+ycandles which shed light upon a large book.  Just behind
+&+ythe counter, there is a small hallway which leads upward.
+~
+450 8392704 0
+D3
+The Way of the Royals is west.
+~
+~
+0 0 45005
+S
+#45007
+&+yThe Bank of Charing&N~
+&+y   Another large oak tree has been carved to form this bank
+&+yof Charing.   The entire heart of the tree has formed this
+&+ylarge room which serves to handle all money flows within
+&+ythe city.  A large counter lies along the west wall where
+&+ya bank attendant can be found at most hours of the day.
+&+yBehind the counter, there is a well guarded safe.  There
+&+yis only one exit out of the bank.
+~
+450 142643200 0
+D1
+~
+~
+0 0 45005
+S
+#45008
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  Just to the
+north beyond the white gates, there is a small garden of sorts.
+Many animals can be seen frolickling within these grounds.
+There are exits all around leading deeper into the city.
+~
+450 142639104 1
+D0
+The Way of the Royals continues north.
+~
+~
+0 0 45005
+D2
+There is a small garden to the south beyond the white gate.
+~
+white gate~
+1 0 45018
+D7
+The Trail of Lost Gods continues in that direction.
+~
+~
+0 0 45009
+D9
+The Trail of Lost Gods continues in that direction.
+~
+~
+0 0 45015
+S
+#45009
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate.
+~
+450 142639104 1
+D7
+~
+~
+0 0 45010
+D8
+~
+~
+0 0 45008
+S
+#45010
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate door here.  There
+are exits in several directions which lead deeper into
+the city.
+~
+450 142639104 1
+D1
+There is a small park just beyond this white gate.
+~
+white gate~
+1 0 45021
+D3
+~
+~
+0 0 45023
+D8
+~
+~
+0 0 45009
+D9
+~
+~
+0 0 45011
+S
+#45011
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate.
+~
+450 142639104 1
+D6
+~
+~
+0 0 45010
+D9
+~
+~
+0 0 45012
+S
+#45012
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  Just to the
+north beyond the white gates, there is a small garden of sorts.
+Many animals can be seen frolickling within these grounds.
+There are exits all around leading deeper into the city.
+~
+450 142639104 1
+D0
+Just beyond this white gate is a small park.
+~
+white gate~
+1 0 45020
+D2
+~
+~
+0 0 45016
+D6
+~
+~
+0 0 45011
+D8
+~
+~
+0 0 45013
+S
+#45013
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate.
+~
+450 142639104 1
+D7
+~
+~
+0 0 45012
+D8
+~
+~
+0 0 45014
+S
+#45014
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate door here.  There
+are exits in several directions which lead deeper into
+the city.
+~
+450 142639104 1
+D1
+There is a large temple of the clerics to the east.
+~
+~
+0 0 45027
+D3
+There is a small park beyond this white gate.
+~
+white gate~
+1 0 45022
+D6
+~
+~
+0 0 45015
+D7
+~
+~
+0 0 45013
+S
+#45015
+&+GThe Trail of Lost Gods&N~
+   Mighty oakwood trees grow endlessly toward the sky along
+this part of the trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  There is some sort of central
+garden which lies beyond the white gate.
+~
+450 142639104 1
+D6
+~
+~
+0 0 45008
+D9
+~
+~
+0 0 45014
+S
+#45016
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  A large sign
+sits on a pole near the building to the east.  It reads "Welcome
+to the Pet Shop!".  There is a storage tree of sorts which lies
+on the western part of the path here.  There are exits all
+around leading deeper into the city.
+~
+450 142643200 1
+D0
+~
+~
+0 0 45012
+D1
+~
+~
+0 0 45036
+D2
+~
+~
+0 0 45017
+D3
+There is a huge tree in that direction.
+~
+door tree~
+1 0 45122
+S
+#45017
+&+gBefore the Southern Gates of Charing&N~
+&+g   The city of Charing lies just to the north beyond the
+&+gthe city gates.   These fabled gates are said to have been
+&+gforged in the pits of hell.   Containing a magical power
+&+gwithin their bars, only those of proper origin are allowed
+&+gto pass through these gates.  Through the gates, many elves
+&+gcan be seen wandering about their city tending to daily
+&+gactivities.  Rising fifty feet above the ground, a large
+&+gcity wall seals off a large sacred realms of the elves.
+&+gThere are two viable exits from this room.
+~
+450 8388608 1
+D0
+~
+~
+0 0 45016
+D5
+~
+~
+0 0 45164
+S
+#45018
+&+gA Small Park&N~
+   This small park is surrounded by a large white gate.  This
+semi-secluded area seems to be more well tended than the rest
+of the city.  The grounds of the park are well kept.  Every
+blade of grass lies in its proper place and every flower
+appears to be in full bloom.  Small stone benches are set up
+here and there at various points of interesting in the park.
+A feeling of peace comes over those who sit or walk within.
+There are exits in all around leading deeper into the city.
+~
+450 142639104 1
+D0
+The Way of the Royals is north beyond the white gate.
+~
+white gate~
+1 0 45008
+D2
+~
+~
+0 0 45019
+S
+#45019
+&+BA Large Pond&N~
+   A large pond lies in the center of the park here.  Many
+sorts of water creatures can be seen frolickling in the water.
+There are several types of plant life which appear to be
+growing out of the water.  The water here is clear and appears
+to be very welcoming.  There are exits all around which lead
+to different parts of the park.
+~
+450 142639104 1
+D0
+The park continues in that direction.
+~
+~
+0 0 45018
+D1
+The park continues in that direction.
+~
+~
+0 0 45022
+D2
+The park continues in that direction.
+~
+~
+0 0 45020
+D3
+The park continues in that direction.
+~
+~
+0 0 45021
+S
+#45020
+&+gA Small Park&N~
+   This small park is surrounded by a large white gate.  This
+semi-secluded area seems to be more well tended than the rest
+of the city.  The grounds of the park are well kept.  Every
+blade of grass lies in its proper place and every flower
+appears to be in full bloom.  Small stone benches are set up
+here and there at various points of interesting in the park.
+A feeling of peace comes over those who sit or walk within.
+There are exits in all around leading deeper into the city.
+~
+450 142639104 1
+D0
+~
+~
+0 0 45019
+D2
+Just beyond this white gate is the Way of the Royals.
+~
+white gate~
+1 0 45012
+S
+#45021
+&+gA Small Park&N~
+   This small park is surrounded by a large white gate.  This
+semi-secluded area seems to be more well tended than the rest
+of the city.  The grounds of the park are well kept.  Every
+blade of grass lies in its proper place and every flower
+appears to be in full bloom.  Small stone benches are set up
+here and there at various points of interesting in the park.
+A feeling of peace comes over those who sit or walk within.
+There are exits in all around leading deeper into the city.
+~
+450 142639104 1
+D1
+~
+~
+0 0 45019
+D3
+The Trail of Lost Gods is beyond this gate.
+~
+white gate~
+1 0 45010
+S
+#45022
+&+gA Small Park&N~
+   This small park is surrounded by a large white gate.  This
+semi-secluded area seems to be more well tended than the rest
+of the city.  The grounds of the park are well kept.  Every
+blade of grass lies in its proper place and every flower
+appears to be in full bloom.  Small stone benches are set up
+here and there at various points of interesting in the park.
+A feeling of peace comes over those who sit or walk within.
+There are exits in all around leading deeper into the city.
+~
+450 142639104 1
+D1
+The Trail of Lost Gods is beyond this white gate.
+~
+white gate~
+1 0 45014
+D3
+~
+~
+0 0 45019
+S
+#45023
+&+gThe Entrance of the Druids' Grove&N~
+   This side path off the Trail of Lost Gods leads to the
+entrance of the druids' grove.  The huge oak trees here grow
+to form a natural archway.  On the trunks of these trees,
+many artisans have taken the time to carve many druidic
+symbols into the archway.  There appears to be a small
+fountain just ahead.  There are two exits leading away
+from this portion of the city.
+~
+450 142639104 1
+D1
+The Trail of Lost Gods is east.
+~
+~
+0 0 45010
+D3
+The druids' grove is west.
+~
+~
+0 0 45026
+S
+#45024
+&+gThe Inner Sanctum of the Druid Elders&N~
+   The great druid elders of Charing constructed this sanctuary
+when Charing was constructed many ages ago.  It stands as one
+of the few structures which has withstood the tests of time.
+Amazingly, this inner sanctum shows little signs of deterioration.
+The druids have been constantly keeping this structure in
+pristine condition.  It is the one place in Charing that many
+druids come to study and practice their fine art of understanding
+and defending nature.
+~
+450 142643208 0
+D3
+~
+~
+0 0 45025
+S
+#45025
+&+GThe Temple of Nature&N~
+  The druid elders of Charing erected this temple of worship many
+ages ago.  In this natural alcove, it contains a statue to the elven
+god of nature and woodlands, Tvulia Barha.  Surrounding the statue
+is a small grove of living trees some four hundred feet tall, and
+as much as twenty feet in diameter.   Just to the east, there is
+a small structure where a few druids standing.  This place seem
+to be in harmony with the forest, and is obviously very sacred
+to the druids.
+~
+450 142643208 0
+D0
+The center of the druids' grove is north.
+~
+~
+0 0 45026
+D1
+The inner sanctum of the druids is east.
+~
+~
+0 0 45024
+E
+statue rillifane rallathil~
+   The Elven god looks down at you with solemn eyes that seem to look deep
+into your soul, pondering your intent in the world.  A small balance used to
+weigh things is held in one had, and the sun in another.  Forest green cloaks
+are worn about his neck and he seems to be transforming into a tree.
+~
+S
+#45026
+&+gThe Center of the Druids' Grove&N~
+   A large marble fountain has been erected in the center of
+this grove.   Said to be carved by famous artisans of Tharnadia,
+the marble fountain is in the image of the ancient elven god of
+nature.   The pedestal, upon which the fountain rests, has been
+decorated with rare gems.  In this courtyard of wonderful oak
+trees and fine holly bushes aligned in a semi-circle some one
+hundred and fifty feet across, many druids seek rest within
+these quarters.  The sounds of woodland creatures are all
+around.  To the south, a small temple has been erected.
+~
+450 142643208 2
+D1
+The entrance of the druids' grove is east.
+~
+~
+0 0 45023
+D2
+There is a small temple to the south.
+~
+~
+0 0 45025
+S
+#45027
+&+BBefore to the Ancient Temple of the Faith&N~
+   A large temple has been erected in this part of Charing
+by the great elven clerics.  The temple is well over two
+hundred feet tall.  Constructed of a rose-quartz crystal with
+mighty oakwood trees intersecting within, the many clerics
+of Charing can always be found migrating in and out of this
+establishment.  Surrounding the temple, many gardeners have
+kept the grounds filled with many flowers and other
+blossoming shrubs.
+~
+450 142643200 0
+D1
+The great temple of clerics lies beyond the doors.
+~
+doors temple~
+1 0 45029
+D3
+The trail of the lost gods lies to the west.
+~
+~
+0 0 45014
+S
+#45028
+&+BThe Acolytes' Meditation Room~
+   This circular room of the temple was constructed for the
+main purpose of meditation.  A sense of relaxation and peace
+fills the room.  The rooms is lightly decorated.  There is a
+large blue colored rug which covers the floor.  There are a
+few small wooden altars which can be found along the northern
+and southern parts of the room.  There is only one exit
+out of this room of meditation.
+~
+450 142643208 0
+D3
+~
+~
+0 0 45029
+S
+#45029
+&+BThe Ancient Temple of Faith&N~
+   Many centuries ago the great clerics of Charing enlisted the
+help of some of greatest craftsman in all the realms to construct
+this great temple of faith.   Here in this circular room of worship,
+it is lighted by many candles which line the outer perimeter of the
+room.  In the center of the room there lies a large circular rug.
+There are ritualistic designs in this rug.  Parts of the rug are
+woven with golden threads.  There are exits all around which lead
+to different parts of the temple.
+~
+450 142643208 0
+D0
+~
+~
+0 0 45032
+D1
+~
+~
+0 0 45028
+D2
+~
+~
+0 0 45030
+D3
+The rest of the city of Charing lies beyond this door.
+~
+doors temple~
+1 0 45027
+D5
+~
+~
+0 0 45031
+S
+#45030
+&+BThe High Clerics Chamber and Practice Room~
+   In this inner sanctum of the high cleric,  Mevian, the
+highest cleric of all Charing, can usually be found within
+these premises teaching young acolytes to use their god-
+given powers to defend the faithful from evil.  The room
+here is constructed from blocks of marble.  This lightly
+decorated chamberis lighted by three large torches.  There
+is only one way out of this part of the temple.
+~
+450 142643208 0
+D0
+The central part of the temple lies to the north.
+~
+~
+0 0 45029
+S
+#45031
+&+BThe Temple Storeroom~
+   This room is is used by the clerics to store their goods, weapons and
+other holy items.  One can make a small donation, and receive the blessings of
+the gods, as well as the use of items in this room.
+~
+450 142643208 0
+D4
+~
+~
+0 0 45029
+S
+#45032
+&+BThe Chamber of Celebration~
+   In this side room of the temple,  many clerics can be found
+relaxing and resting from their long days and nights of fighting
+the evil off this island and studying their faith.  A long oaken
+bar is along the wall here.  A bartender can usually be found
+operating these premises during most hours of the day.  There
+is only one exit out of this bar.
+~
+450 142643208 0
+D2
+~
+~
+0 0 45029
+S
+#45033
+&+gShrine of Peace~
+   This room feels like a safe place to rest.  A huge oak tree grows in the
+center of the room, its leaves creating a canopy that blocks out the
+weather almost totally.  The tree seems to look down at you with small
+glowing eyes near its center.  A feeling of peace and safety comes over
+anyone who stays here for more then a few seconds.
+~
+450 142643200 0
+D0
+The entrance to the palace is that way.
+~
+gates~
+3 45004 45054
+D1
+The path of enlightenment is that way.
+~
+~
+0 0 45053
+D2
+The pathway of peace is that way.
+~
+~
+0 0 45163
+D3
+The trail of lost gods is that way.
+~
+~
+0 0 45088
+S
+#45034
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  The road
+provides access to the large palace which lies further to the
+north.  There are exits all around leading deeper into the
+city.
+~
+450 142643200 1
+D0
+The Way of the Royals leads to the north.
+~
+~
+0 0 45162
+D2
+The Way of the Royals leads to the south.
+~
+~
+0 0 45155
+S
+#45035
+&+gShanya's Goods and Supply Shop&N~
+   What was once a trunk of a large oak tree, now serves
+as Shanya's Supply Shop.   There is a large window carved
+into the eastern wall.  In this window, Shanya has posted
+a sign of hours of opening and special items of the week.
+Shanya sells various items that elves commonly use on their
+travels to local and distant lands.
+~
+450 142643200 1
+D1
+The Way of the Royals is to the east.
+~
+~
+0 0 45155
+S
+#45036
+&+gNorlan's Pet Shop~
+&+y   This building, made of a polished crystal sphere, holds
+&+ythe various pets that elves love to keep as their own.
+&+yNorlan has taught his pets well in that all obey their owner's
+&+ycommands.  In the City of Charing, these pets all have a semi-
+&+yempathic affinity to elves; thus, they are not like normal pets
+&+yinsofar as elves think of them more as their friends.  There is
+&+yone exit out of this shop.
+~
+450 142643208 1
+D3
+~
+~
+0 0 45016
+S
+#45037
+Pet Shop~
+This room is a loading room for Norlans Shop o Pets..
+~
+450 142643200 1
+S
+#45038
+&+gThe Weapon Shop of &+GCharing&N~
+   This shop, composed of carved out rock, contains several
+ante-chambers that are behind the counter.  A huge rack of
+weapons are on display here, and the smell of worked metal
+is heavy in the air.  On the counter, there is a small sign
+where there is a welcome message of sorts.  The floor of
+this building is covered in a red rug.  There is only one
+exit out of this building.
+~
+450 142643200 1
+D0
+The Trail of Tears leads away to the north.
+~
+~
+0 0 45159
+S
+#45039
+&+gBefore the Warriors' Guild of &+GCharing&N~
+   This huge dwelling, built out of several oak trees, comes
+together to form a large guildhall for warriors.   Before the
+guild, many gardeners have taken time to maintain the grounds.
+There is a small stone path which leads the massive door of
+the guild.  On this door, there reads a phrase in some unknown
+language.  It is in this building that warriors learn their
+battle skills.  There is an unusual air of order here, and
+the sounds of combat can be heard in the rooms beyond.  There
+ are two exits leading away from this part of the city.
+~
+450 142643200 1
+D1
+The Way of the Royals is to the east.
+~
+~
+0 0 45162
+D2
+The inner rooms and training grounds are that way.
+~
+door~
+1 0 45040
+S
+#45040
+&+gWarriors' Bar and Grill~
+   This is where the warriors of the guild come to eat and
+relax after a hard day's practice.  A long oaken bar is set up
+in the far corner of the room, and a huge grill with lots of
+fresh meats and fish is in this room as well. The smell here
+is enough to drive anyone to hunger pains.  There are two
+exits out of this shop.
+~
+450 142643208 1
+D0
+The entrance to the guild is back that way.
+~
+door~
+1 0 45039
+D2
+A weapons room can be seen in that direction.
+~
+~
+0 0 45041
+S
+#45041
+&+gThe Supply Shoppe of the Guild of Warriors&N~
+   This is the supply shoppe of the guild of warriors.  Here
+in this large chamber, many special weapons and other pieces
+of armor are available for purchase to the warriors of
+Charing.   The quality of these items are said to be better
+than those in the general shops of the city.  This large room
+is lighted by several torches.  Proper lighting is a must when
+examining the different items on sale.  There are two exits
+out of this shop.
+~
+450 142643208 1
+D0
+The bar can be seen in that direction.
+~
+~
+0 0 45040
+D1
+The Training grounds can be seen in that direction.
+~
+~
+0 0 45042
+S
+#45042
+&+GThe Warrior Training Grounds&N~
+   In this huge circular chamber in the guild of warriors,
+the many members come to practice the art of combat.
+Various tools of battle have been provided here within this
+chamber.  There are practice dummies, padded mats, wooden
+swords, bows, and other practice weapons.  There are even
+signs of dried blood on these mats. There are two exits
+out of the training grounds.
+~
+450 142643208 1
+D0
+The sleeping quarters are in that direction.
+~
+~
+0 0 45043
+D3
+The Guild weapon shop is that way.
+~
+~
+0 0 45041
+S
+#45043
+&+gThe Guild Barracks~
+   This room serves as a small guild barracks for those elves
+who serve as warriors for the city of Charing.  Several cots
+are provided for the members to stay while within the guild.
+The warriors of Charing need not worry about the cost of an
+inn, so long as they stay here.  The accommodations here are
+a bit lacking but provide a safe environment for rest.  There
+are two exits leading out of the guild barracks.
+~
+450 142643208 1
+D1
+The meditation room is that way.
+~
+~
+0 0 45044
+D2
+The practice and training grounds are that way.
+~
+~
+0 0 45042
+S
+#45044
+&+GThe Inner Sanctum of Lerok&N~
+   This is the largest chamber of the guild of warriors.  It
+is decorated with a variety of tapestries.  These paintings
+depict many warriors fighting against the evil races of the
+realms.  In one painting, a group of elven warriors and
+clerics can be seen fighting off a band of orcs.  In other
+paintings, there are some maps of the realms.  The room here
+has a pile of warrior weapons along the north wall.  Lerok,
+the master warrior of Charing, has gathered these teaching
+aids to help his students.  There is only one exit out
+of this training room.
+~
+450 142643208 1
+D3
+The barracks are back that way.
+~
+~
+0 0 45043
+E
+statue siz-neg~
+The mighty god Sez-Neg, elven god of war, stands here looking down at you
+with a grim look in his eyes.  He seems to be almost alive, and gives off a
+sense of awe and power.
+~
+S
+#45045
+&+gThe Scribe Shop of &+GCharing&N~
+  In this small building,  there are several scribes hard at
+work.  They are sitting on desks copying some sort of text.
+They are focused on copying the exact artwork from the original.
+The room here is well lighted by a magical sphere of light
+which floats in the center of the room.  These royal scribes
+are known to be the best in all the lands.  This smell of ink
+and dried paper quickly enters your nostrils after a few
+moments as you enter.
+~
+450 142643200 1
+D1
+The Way of the Royals lies to the east.
+~
+~
+0 0 45163
+S
+#45046
+&+yThe Armorer of Charing&N~
+&+y   This large building holds the main armor shop of Charing
+&+yMany suits of armor have been hung from the walls of the shop
+&+yhere.  Other various types of armor are also on display on
+&+ya table against the north wall.  The armorer of Charing can
+&+yalways be found acquiring new and high quality goods.  There
+&+yis a large circular rug in the middle of the floor here.
+&+yThere is only one exit out leading to the Way of the Royals.
+~
+450 142643200 1
+D3
+The Way of the Royals is in that direction.
+~
+~
+0 0 45162
+S
+#45047
+&+WThe Great Oracle of Charing&N~
+&+W   This dark and mysterious dwelling is the home of the
+&+Wmighty oracle of Charing.  She is said to be able to look
+&+Wdeep into the heart of anyone's soul and tell what is within.
+&+WHer house seems to be alive, perhaps due to the fact that is
+&+Wcut from the heart of a living tree, one of the largest trees
+&+Win all the city in fact.  There is only one exit out of this
+&+Wroom of the oracle.
+~
+450 142643208 1
+D3
+The Way of the Royals is to the west.
+~
+~
+0 0 45155
+S
+#45048
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in two directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D1
+The garden continues in that direction.
+~
+~
+0 0 45096
+D2
+The garden continues in that direction.
+~
+~
+0 0 45113
+S
+#45049
+&+gA Split in the Pathways~
+   This trail continues here in a east-west direction.   To the
+south, there is a huge tree which rises many feet up into the air.
+It has a little door in the trunk which appears to have been
+broken off its hinges.  A peculiar red vine has begun growing
+against the tree.   Using the support, the strange red vine is
+growing upwards toward a crack in the trunk.  Along the palace
+wall to the east and west, the trail of enlightment continues
+in both directions.
+~
+450 142643200 1
+D1
+The trail of enlightenment is that way.
+~
+~
+0 0 45121
+D2
+~
+~
+0 0 45125
+D3
+The tail of enlightenment is that way.
+~
+~
+0 0 45050
+S
+#45050
+&+gThe Trail of Enlightenment~
+   This trail running along the palace walls has a bit thinner tree cover
+than others.  Nonetheless, it still keeps out most foul weather from those
+who travel along its path.  Various buildings can be seen to the south, as
+well as the palace walls to the north.
+~
+450 142643200 1
+D1
+A T intercection can be seen that way.
+~
+~
+0 0 45049
+D3
+The trail keeps going that way.
+~
+~
+0 0 45051
+S
+#45051
+&+gThe Trail of Enlightenment~
+   The mighty oakwood trees grow endlessly toward the sky
+along this trail.  Their overlapping branches form a natural
+cover over the tail here, and the sounds of many birds can be
+heard in the distance.  The trail continues in two directions
+from this advantage point.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45050
+D3
+The trail keeps going that way.
+~
+~
+0 0 45052
+S
+#45052
+&+gThe Trail of Enlightenment~
+   The mighty oakwood trees grow endlessly toward the sky
+along this trail.  Their overlapping branches form a natural
+cover over the tail here, and the sounds of many birds can be
+heard in the distance.  The trail continues in two directions
+from this advantage point.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45051
+D3
+The trail keeps going that way.
+~
+~
+0 0 45053
+S
+#45053
+&+gThe Trail of Enlightenment~
+   This trail running along the palace walls has a bit thinner tree cover
+than others.  Nonetheless, it still keeps out most foul weather from those
+who travel along its path.  Various buildings can be seen to the south, as
+well as the palace walls to the north.
+~
+450 142643208 1
+D1
+The trail keeps going in that direction.
+~
+~
+0 0 45052
+D3
+The shrine of peace is that way.
+~
+~
+0 0 45033
+S
+#45054
+&+BEntrance to the Palace of the Charing&N~
+   This magnificent palace, built entirely of a bluish quartz
+crystal, rises from the floor of the woods, reflecting the light
+of the sun, or of the stars and moon.  This building is of such
+beauty that it takes one's breath away when it's first gazed upon.
+The royal family of Charing calls this place home.
+~
+450 142643200 0
+D1
+The Eastern hallway is in that direction.
+~
+~
+0 0 45087
+D2
+The shrine of peace is back that way.
+~
+gates~
+3 45004 45033
+D3
+The western hallway is in that direction.
+~
+~
+0 0 45055
+S
+#45055
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+The guards' room is that way.
+~
+~
+0 0 45070
+D1
+The entrance to the palace is that way.
+~
+~
+0 0 45054
+D3
+The hallway keeps going in that direction.
+~
+~
+0 0 45056
+S
+#45056
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45055
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45057
+S
+#45057
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+A door can be seen in that direction.
+~
+door~
+1 0 45068
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45056
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45058
+S
+#45058
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45057
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45059
+S
+#45059
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45058
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45060
+S
+#45060
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+A door can be seen that way.
+~
+door~
+1 0 45065
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45059
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45061
+S
+#45061
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45060
+D3
+The hallway turns to the north in that direction.
+~
+~
+0 0 45062
+S
+#45062
+&+BWestern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+A door can be seen in that direction.
+~
+door~
+1 0 45063
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45061
+S
+#45063
+&+BQueen's Outer Chambers~
+   This room contains several chairs as well as paintings and other odds and
+ends placed here to please her royal highness.  Another door can be seen
+to the east.
+~
+450 142643208 0
+D1
+A doorway can be seen that way.
+~
+door~
+3 45026 45064
+D2
+The doorway to the hall is that way.
+~
+door~
+1 0 45062
+S
+#45064
+&+BThe Main Chamber of the Queen of Charing&N~
+   This large chamber is decorated with many beautiful items.
+>From the imported sculptures to the magnificent tapestries,
+many items of value are found within in this room.  This
+opulent room is where the queen holds her daily business.  A
+fine looking desk made of solid mahogany is here, as well as
+a plush chair where her majesty holds court.  There is only
+one exit out of this room.
+~
+450 142643208 0
+D3
+The door to the outer chambers is that way.
+~
+door~
+3 45026 45063
+S
+#45065
+&+BGuard Room of the King's Chambers~
+   This room houses the royal guards, who defend any who would dare harm
+the elven king.  Anyone having business with the king had better have the
+proper invitation or face the wrath of the royal guards.
+~
+450 142643208 1
+D1
+The outer chambers of the king are in that direction.
+~
+~
+0 0 45066
+D2
+The hall is that way.
+~
+door~
+1 0 45060
+S
+#45066
+&+BThe Outer Chambers of the King~
+   This large chamber serves as a waiting room and reception for
+all those having business with the King.  Particular care has been
+taking for the guests of the King.   There are high-backed chairs
+which line the walls.  The cook has provided plenty of fresh fruits,
+fresh breads, and cheeses.  Several decanters of elven wine have
+also been provided.
+~
+450 142643208 0
+D1
+The door to the Throne room is that way.
+~
+door~
+3 45028 45067
+D3
+The guard room is back that way.
+~
+~
+0 0 45065
+S
+#45067
+&+BThe Royal Throne Room of Charing&N~
+   This is the grand throne room of the mighty elven king
+Solirum, leader of all elves.  This chamber of the palace is
+decorated with many exquiste items from local and far away
+lands.  From the tapestries to sculptures of elven figurines,
+the room has a rich sense of culture and life here.  From the
+doors exiting the room, a large red carpet leads towards a
+great throne which sits along the east wall.  This jeweled
+throne which rises here on a dais some ten feet off the floor.
+Glowing sunlight pours in from the ceiling.  There is only
+one exit out of the throne room.
+~
+450 142643208 0
+D3
+The door to the outer chambers is that way.
+~
+door~
+3 45028 45066
+S
+#45068
+&+BRoyal Library~
+   This is one of two large rooms containing the books of the elven kingdom,
+most of it depicting the long history of the elven race upon the world.
+~
+450 142643208 0
+D1
+The library keeps going that way.
+~
+~
+0 0 45069
+D2
+The hallway is back that way.
+~
+door~
+1 0 45057
+S
+#45069
+&+BRoyal Library~
+   This is one of two large rooms containing the books of the elven kingdom,
+most of it depicting the long history of the elven race upon the world.
+~
+450 142643208 0
+D3
+The library keeps going that way.
+~
+~
+0 0 45068
+S
+#45070
+&+BGuard Room~
+   This room houses the guards barracks for the palace. Many cots are set up
+here to provide rest for the defenders of the palace royal.
+~
+450 142643208 0
+D2
+The hall is back that way.
+~
+~
+0 0 45055
+S
+#45071
+&+BTreasure Room of the Palace~
+   This room is filled the palace treasure. Anyone who is here had might as
+well consider themselves dead, for surely there is no way the elves would let
+anyone leave this city alive who steals the treasure of the King.
+~
+450 142643208 0
+D1
+The guards room is that way.
+~
+door~
+1 0 45072
+S
+#45072
+&+BGuardian of the Treasure of the Palace~
+   This room contains the guardian of the palace; it is his duty to make sure
+no one save the king himself may enter the room beyond.
+~
+450 142643208 0
+D1
+The hallway is in that direction.
+~
+~
+0 0 45073
+D3
+The door to the vault is that way.
+~
+door~
+1 0 45071
+S
+#45073
+&+BBend in the Hallway~
+   The hallway here bends to the west and ends at the entrance to a huge
+room.  Strange sounds can be heard coming from within the next room to
+the west.
+~
+450 142643208 0
+D2
+The hall can be seen in that direction.
+~
+~
+0 0 45086
+D3
+The guardians room is that way.
+~
+~
+0 0 45072
+S
+#45074
+&+BBend in the Hallway~
+   The hallway turns to the east here, ending in a large room.
+~
+450 142643208 0
+D1
+Guest rooms of the palace are that way.
+~
+~
+0 0 45075
+D2
+The hallway keeps going that way.
+~
+~
+0 0 45085
+S
+#45075
+&+BGuest Quarters~
+   This room is where guest of the royal family stay while in the palace.
+~
+450 142643208 0
+D3
+The hallway can be seen in that direction.
+~
+~
+0 0 45074
+S
+#45076
+&+BBend in the Hallway~
+   The hallway bends here to the east, ending at a large glowing room.
+~
+450 142643208 0
+D1
+The royal kitchen is that way.
+~
+~
+0 0 45077
+D2
+The hallway can be seen that way.
+~
+~
+0 0 45083
+S
+#45077
+&+BRoyal Kitchen~
+   The royal chef of the palace uses this place to create wondrous dishes
+for the royal family.  All manner of cooking devices are within, as well as
+food for a small army.
+~
+450 142643208 0
+D3
+The hallway can be seen in that direction.
+~
+~
+0 0 45076
+S
+#45078
+&+BDining Room~
+   This is the main dining room of the Palace.  A huge round table large
+enough to seat well over one hundred people is in the center of the room.
+High-backed chairs are all around it, and opulent table settings are
+everywhere one looks.  An almost endless assortment of food is to be enjoyed
+here by all who are guests of the royal family.
+~
+450 142643208 0
+D1
+The hallway can be seen in that direction.
+~
+~
+0 0 45079
+S
+#45079
+&+BBend in the Hallway~
+   The hallway here bends to the west, ending at the dining room.
+~
+450 142643208 0
+D2
+The hallway can be seen in that direction.
+~
+~
+0 0 45080
+D3
+The royal dining room is in that direction.
+~
+~
+0 0 45078
+S
+#45080
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+The hallway runs to the north in that direction.
+~
+~
+0 0 45079
+D3
+The hallway keeps going in that direction.
+~
+~
+0 0 45081
+S
+#45081
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going in that direction.
+~
+~
+0 0 45080
+D3
+The hallway keeps going in that direction.
+~
+~
+0 0 45082
+S
+#45082
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going in that direction.
+~
+~
+0 0 45081
+D3
+The hallway runs onward that way.
+~
+~
+0 0 45083
+S
+#45083
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+The hall turns to the north that way.
+~
+~
+0 0 45076
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45082
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45084
+S
+#45084
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45083
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45085
+S
+#45085
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+The hallway bends to the north in that direction.
+~
+~
+0 0 45074
+D1
+The hallway keeps going in that direction.
+~
+~
+0 0 45084
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45086
+S
+#45086
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D0
+The hallway keeps going that way.
+~
+~
+0 0 45073
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45085
+D3
+The hallway keeps going that way.
+~
+~
+0 0 45087
+S
+#45087
+&+BEastern Hallway~
+   This polished quartz floor runs for what seems an eternity in both
+directions here.  The walls of the palace are semi-translucent, as is the
+ceiling.  The sweet smell of fruits can be smelt in the air, and a wondrous
+musical song plays on endlessly, never repeating itself.  A feeling of peace
+and calm comes over anyone here.
+~
+450 142643208 0
+D1
+The hallway keeps going that way.
+~
+~
+0 0 45086
+D3
+The entrance can be seen that way.
+~
+~
+0 0 45054
+S
+#45088
+&+gThe Trail of Enlightenment&N~
+   This trail running along the palace walls has a bit thinner tree cover
+than others.  Nonetheless, it still keeps out most foul weather from those
+who travel along its path.  Various buildings can be seen to the south, as
+well as the palace walls to the north.
+~
+450 142643200 1
+D1
+The shrine of peace is that way.
+~
+~
+0 0 45033
+D3
+The trail keeps going that way.
+~
+~
+0 0 45090
+S
+#45089
+&+gThe Jail of Charing&N~
+   In this room, many people who have broken the laws of the city
+are kept awaiting their execution.   From time to time, captured
+drow and orcs are held here until further notice.  There are iron
+shackles and chains which attach the captive to the stone walls of
+this room.  A sense of fear is noticed in those captured people.
+There are two exits leading away from this room.
+~
+450 142643200 0
+D0
+~
+~
+0 0 45099
+S
+#45090
+&+gThe Trail of Enlightenment&N~
+   The mighty oakwood trees grow endlessly toward the sky
+along this trail.  Their overlapping branches form a natural
+cover over the tail here, and the sounds of many birds can be
+heard in the distance.  The trail continues in two directions
+from this advantage point.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45088
+D3
+The trail keeps going that way.
+~
+~
+0 0 45091
+S
+#45091
+&+gThe Trail of Enlightenment&N~
+   The mighty oakwood trees grow endlessly toward the sky
+along this trail.  Their overlapping branches form a natural
+cover over the tail here, and the sounds of many birds can be
+heard in the distance.  The trail continues in two directions
+from this advantage point.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45090
+D3
+The trail keeps going that way.
+~
+~
+0 0 45092
+S
+#45092
+&+gThe Trail of Enlightenment&N~
+   The mighty oakwood trees grow endlessly toward the sky
+along this part trail.  Their overlapping branches form a
+natural cover over the tail here, and the sounds of many birds
+can be heard in the distance.  The trail comes to an end here.
+To the south, several huge oak trees have been carved out to
+form the establishment to the south.  A small sign outside
+entrance of the building reads "Welcome to the Jail of
+Charing." There are two exits leading away from this part of
+the city.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45091
+D2
+The Jail of Charing is in that direction.
+~
+~
+0 0 45099
+S
+#45093
+&+rThe Lab of Morlyntra&N~
+   The chamber here is circular and constructed of stone slabs.
+There are large windows which open onto the city of Charing.
+The room here has a large circular table in the center.  Upon
+this table, there are a variety of tomes and texts written in
+the elven language.  There is one book about sorcery which open
+to a page marked with a green ribbon.  There are a few ancient
+tomes which rest on a set of shelves along the south wall.
+There is only one exit out of this lab.
+~
+450 142643200 0
+D1
+~
+~
+0 0 45111
+S
+#45094
+&+mThe Lab of Morlander&N~
+   The chamber here is circular and constructed of stone slabs.
+There are large windows which open onto the city of Charing.
+The room here has a large circular table in the center.  Upon
+this table, there are a variety of tomes and texts written in
+the elven language.  There is one book about magic of conjurers
+which lies open to a page marked with a yellow ribbon.  There are
+a few ancient tomes which rest on a set of shelves along the
+south wall. There is only one exit out of this lab.
+~
+450 142643200 0
+D3
+~
+~
+0 0 45111
+S
+#45095
+&+gThe Trail of Tears&N~
+   The beautiful weeping willow trees which run all long the
+trail come to an end here.  The canopy covering the trail a
+provided by the willow trees also ends abruptly here.  The
+sacred garden of Charing lies further to the east.  A gate
+seals off uninvited visitors from trampling over the crops.
+There is a small pond visible from this point which lies in
+the center of the garden.  There are exits leading into the
+garden and back along the trail from this advantage point.
+~
+450 142639104 1
+D1
+The sacred garden of Charing lies just beyond the gate.
+~
+gate~
+1 0 45113
+D3
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45161
+S
+#45096
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in three directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D1
+The garden continues in that direction.
+~
+~
+0 0 45097
+D2
+There is a small pond to the south.
+~
+~
+0 0 45114
+D3
+The garden continues in that direction.
+~
+~
+0 0 45048
+S
+#45097
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in two directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D2
+The garden continues in that direction.
+~
+~
+0 0 45115
+D3
+The garden continues in that direction.
+~
+~
+0 0 45096
+S
+#45098
+&+gA Small Tree Dwelling~
+&+y   An oddly shaped elven house, made from living oakwood
+&+ytrees stands here.  It only has the bare necessities for
+&+yliving.  There is a nice comfortable bed which lies next
+&+yto the window along the northern wall of this house. The
+&+yground is covered by a large fluffy rug.  There is only
+&+yone exit out of this house.
+~
+450 142643208 1
+D1
+The Sylvan trail is that way.
+~
+door~
+1 0 45001
+S
+#45099
+&+gThe Jail of Charing&N~
+   In this room, many people who have broken the laws of the city
+are kept awaiting their execution.   From time to time, captures
+drow and orcs are held here until further notice.  There are iron
+shackles and chains which attach the captive to the stone walls of
+this room.  A sense of fear is noticed in those captured people.
+There are two exits leading away from this room.
+~
+450 142643200 0
+D0
+~
+~
+0 0 45092
+D2
+~
+~
+0 0 45089
+D3
+The guards room is in that direction.
+~
+~
+0 0 45100
+S
+#45100
+&+gCity Guard Room~
+   The Jail keeper, as well as the guards, keep an ever-vigiliant watch,
+making sure that none escape the cell before they have served their term.
+~
+450 142643200 0
+D0
+The cell is in that direction.
+~
+door~
+2 45006 45101
+D1
+The entrance to the jail is that way.
+~
+~
+0 0 45099
+D2
+The judges chambers.
+~
+~
+0 0 45152
+S
+#45101
+&+gCell~
+There is no escape from within these walls.
+A tally hangs on the wall showing the names of those who are doing time.
+Bars of glowing magic energy prevent anyone from escape.
+~
+450 142639240 0
+D2
+The door is in that direction.
+~
+door~
+1 45006 45100
+S
+#45102
+&+gA Huge Elven House~
+&+y   This mighty oak tree, one of the largest seen in the
+&+yarea, appears to be the home of a rather well-to-do elven
+&+yfamily.  The home is lavishly decorated with many features
+&+ynot seen in other elven homes.  There is a window in the
+&+ysouth wall.  Along the north wall, there is a small
+&+ypainting of what appears to be the elven family. There is
+&+yonly one exit out of this house.
+~
+450 142643208 0
+D2
+The Trail of Tears lies to the south.
+~
+door house~
+1 0 45160
+S
+#45103
+&+gA Strange Elven House~
+&+y   An oddly shaped elven house, made from living oakwood
+&+ytrees stands here.  It only has the bare necessities for
+&+yliving.  There is a nice comfortable bed which lies next
+&+yto the window along the northern wall of this house. The
+&+yground is covered by a large fluffy rug.  There is only
+&+yone exit out of this house.
+~
+450 142643208 0
+D2
+Beyond this door, there lies the Trail of Tears.
+~
+door house~
+1 0 45156
+S
+#45104
+&+gThe Magic Shop of Charing&N~
+   This establishment has been carved out of a large oak tree.
+It is in this shop, that one can find various odd and ends needed
+for the practice of magic, as well as staffs, wand rods and other
+mystic devices.  All items for sale are on display on the table
+in the northern part of the store here.  There is a large sign
+which welcomes patrons and informs that cash is only accepted.
+There is only one exit out of this room.
+~
+450 142643200 0
+D2
+The Trail of Tears is back that way.
+~
+~
+0 0 45159
+S
+#45105
+&+BThe Blue Dragon Restaurant&N~
+   This fine establishment, founded over three hundred
+years ago, is noted for its wonderful meals.  Some of the
+more rare foods found, cooked by the master chef Gaston
+Reglia, are to be found within to tempt any palate.  The
+restaurant is rather small in size and has limited capacity
+for its patrons.  The tantalizing aromas attract many
+within the city.  There is only one exit out of the
+restaurant.
+~
+450 142643200 0
+D0
+The Trail of Tears is that way.
+~
+~
+0 0 45004
+S
+#45106
+&+gThe Green Griffon Pub~
+   This pub is a favorite hangout of all elves as it's well known wines are
+the finest to be had anywhere.  Bards come here to sing songs of valor and
+joy, and a fine time to be had by all is within.
+~
+450 142643200 0
+D2
+The western path is back that way.
+~
+~
+0 0 45161
+S
+#45107
+&+gBefore the Tower of High Magic of Charing&N~
+   A huge tower lies to the south.  It rises many stories
+above the surrounding city.  At the top of the tower, several
+figures can be seen through the windows.  They appear to be
+casting magic.  Just to the south lies the entrance to the tower
+of high magic within the city. All those who plan on learning
+magic, or using it within the city, must report to the arch-mages
+here.  There are exits all around leading deeper into the city.
+~
+450 142643200 1
+D0
+~
+~
+0 0 45161
+D2
+The tower door is in that direction.
+~
+door~
+1 0 45108
+S
+#45108
+&+gThe Tower Laboratory~
+   This first room of the tower of magic users is a large
+circular chamber.  It is constructed of black granite slabs of
+stone.  There are no windows in the walls.  Light for this
+room is provided by a single torch which lies near the stairs
+leading up to the next floor.   Within these walls of the tower,
+magic research in its various forms takes place.  From casting
+new spells on test targets to using them in battle against the
+evil races, these elves are always hard at work.  All sorts of
+books on magic, as well as odd devices used for the makings
+of spells and magic items, are strewn about the room here.
+There are two exits leading away from this room.
+~
+450 142643208 0
+D0
+The entrance to the tower is back there
+~
+door~
+1 0 45107
+D4
+The stairs are that way.
+~
+~
+0 0 45109
+S
+#45109
+&+gThe Great Library of Magic~
+   This is the famed great library of arcane knowledge of
+Charing.  This chamber is circular and lined all the way around
+by wooden shelves.  This is where all the spell books are kept
+within the tower.  The accumulated mystic knowledge of all the
+elven mages is contained within the books of this library. Many
+elven mages can be found consulting texts with these walls from
+time to time.  A great magical ball of light floats in the
+center of the room providing light for all.  There are two exits
+leading deeper into the guild.
+~
+450 142643208 0
+D4
+The stairs keep going in that direction.
+~
+~
+0 0 45110
+D5
+The lab is that way.
+~
+~
+0 0 45108
+S
+#45110
+&+gThe Room of Thought and Meditation~
+   In this room, many elven mages compose new spells, reflect
+on the day's work, and more or less just hang out and relax.  A
+bar is set into the far wall, where a male wizard sells various
+items of refreshment.  There are two exits out of this bar which
+lead in opposite directions.
+~
+450 142643208 0
+D4
+The stairs keep going that way.
+~
+~
+0 0 45111
+D5
+The library is in that direction.
+~
+~
+0 0 45109
+S
+#45111
+&+gA Large Circular Chamber of Practice&N~
+   This room at the top of the tower serves as an area
+for practice the many new magic users of Charing.  There
+are a variety of test dummies which hang against the
+north wall.  Many novice magic users can always be
+found within this chamber and consulting with the high
+mages of Charing.  There are exits all around leading
+deeper into the guild.
+~
+450 142643208 0
+D1
+The lab of the great conjurer lies to the east.
+~
+~
+0 0 45094
+D2
+The shop of mages lies to the south.
+~
+~
+0 0 45112
+D3
+The lab of the great sorceress lies to the west.
+~
+~
+0 0 45093
+D5
+The Meditation room is back that way.
+~
+~
+0 0 45110
+S
+#45112
+&+GRoom of Artifacts and Relics&N~
+   This is another circular chamber of the guild of magic-users.
+It is also constructed of stone slabs and has windows which open
+on to the southern parts of the city.  The floor is covered by
+a large rug.  Along the west wall of the room, there is a large
+table with many different sorts of items available for purchase.
+This hidden room is a depository of magic items kept by the guild
+masters.  There is only one exit out of this room.
+~
+450 142643208 0
+D0
+The practice room is to the north.
+~
+~
+0 0 45111
+S
+#45113
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in three directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D0
+The garden continues in that direction.
+~
+~
+0 0 45048
+D1
+The garden continues in that direction.
+~
+~
+0 0 45114
+D2
+The garden continues in that direction.
+~
+~
+0 0 45116
+D3
+Just beyond the gate, the Trail of Tears leads away in that direction.
+~
+gate~
+1 0 45095
+S
+#45114
+&+BA Small Pond&N~
+   A large pond lies in the center of the garden here.  From
+time to time, a few water creatures can be seen frolickling in
+the water. There are several types of plant life which appear to
+be growing out of the water.  The water here is clear and appears
+to be very welcoming.  The gardeners of the garden use this water
+in providing for the many plants of the garden here.  There are
+exits all around leading deeper into the garden.
+~
+450 142643200 2
+D0
+The garden continues in that direction.
+~
+~
+0 0 45096
+D1
+The garden continues in that direction.
+~
+~
+0 0 45115
+D2
+The garden continues in that direction.
+~
+~
+0 0 45117
+D3
+The garden continues in that direction.
+~
+~
+0 0 45113
+S
+#45115
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in three directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D0
+The garden continues in that direction.
+~
+~
+0 0 45097
+D1
+The cottage of the gardener is east.
+~
+door~
+1 0 45119
+D2
+The garden continues in that direction.
+~
+~
+0 0 45118
+D3
+There is a small pond in that direction.
+~
+~
+0 0 45114
+S
+#45116
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in two directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D0
+The garden continues in that direction.
+~
+~
+0 0 45113
+D1
+The garden continues in that direction.
+~
+~
+0 0 45117
+S
+#45117
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in three directions leading deeper into the
+&+ggarden.
+~
+450 142643200 2
+D0
+There is a small pond to the north.
+~
+~
+0 0 45114
+D1
+The garden continues in that direction.
+~
+~
+0 0 45118
+D3
+The garden continues in that direction.
+~
+~
+0 0 45116
+S
+#45118
+&+gThe Sacred Garden of &+GCharing&N~
+&+g   This special garden of Charing is tended to by the
+&+gexpert gardeners of the King.  Fresh fruits and vegetables
+&+gare harvested from these grounds.  Careful attention has
+&+gbeen paid to maintain the health of these plants.  There
+&+gare exits in two directions leading deeper into the
+&+ggarden.
+~
+450 142643200 1
+D0
+The garden continues in that direction.
+~
+~
+0 0 45115
+D3
+The garden continues in that direction.
+~
+~
+0 0 45117
+S
+#45119
+&+yThe Cottage of the Gardeners&N~
+&+y   A large tree has been carved out to form this small
+&+ycottage for the gardeners of this garden.  This cottage
+&+yis lighted decorated.  This facility only provides space
+&+ywhere gardeners who are on shift may retire to have a
+&+ysafe place to sleep.  There is also a small tool closet
+&+ywhere the many tools of gardening have been stored.
+&+yThere is only one exit out of this cottage.
+~
+450 142643208 0
+D3
+The gardens lie outside this door.
+~
+door~
+1 0 45115
+S
+#45120
+&+gThe Trail of Enlightenment~
+   This trail comes to an end here.  To the east, there is a huge
+tree which rises many feet up into the air.  It has a little door
+in the trunk.  A strange yellow vine has begun growing against the
+tree.   Using the support, the strange yellow vine is growing
+upwards toward a hole in the tree trunk.  Along the palace wall
+to the west, the trail of enlightment continues.  This part of the
+trail doesn't seem to be regularly travelled or taken care of by
+the trail keepers.
+~
+450 142643200 1
+D1
+There is a huge storage tree to the east.
+~
+tree door~
+1 0 45133
+D2
+~
+~
+0 0 45126
+D3
+The trail keeps going that way.
+~
+~
+0 0 45121
+S
+#45121
+&+gThe Trail of Enlightenment~
+   The trail here splits to the west and keeps going to the east. This trail
+continues on from the palace walls to the north.  A feeling of peace and wisdom
+comes over anyone going down this path.
+~
+450 142643200 1
+D1
+The trail keeps going that way.
+~
+~
+0 0 45120
+D2
+The necromancer guild is that way.
+~
+~
+0 0 45140
+D3
+A split in the paths can be seen that way.
+~
+~
+0 0 45049
+S
+#45122
+&+gA Huge Storage Tree~
+   This huge hollowed-out tree seems to have been set up
+for storage, as it is far larger then the rest of the
+buildings seen so far.  Made of a huge oak tree, this
+building seems most sturdy.
+~
+450 142643208 1
+D1
+The Way of the Royals is beyond this door.
+~
+door tree~
+1 0 45016
+S
+#45123
+&+gAn Elven House~
+&+y   This mighty oak tree, one of the largest seen in the
+&+yarea, appears to be the home of a rather well-to-do elven
+&+yfamily.  The home is lavishly decorated with many features
+&+ynot seen in other elven homes.  There is a window in the
+&+ysouth wall.  Along the south wall, there is a small
+&+ypainting of what appears to be the elven family. There is
+&+yonly one exit out of this house.
+~
+450 142643208 1
+D0
+The Trail of Tears lies to the north.
+~
+door~
+1 0 45158
+S
+#45124
+&+gA Huge Private Dwelling~
+&+y   This mighty oak tree, one of the largest seen in the
+&+yarea, appears to be the home of a rather well-to-do elven
+&+yfamily.  The home is lavishly decorated with many features
+&+ynot seen in other elven homes.  There is a window in the
+&+ysouth wall.  Along the north wall, there is a small
+&+ypainting of what appears to be the elven family. There is
+&+yonly one exit out of this house.
+~
+450 142643208 1
+D2
+The Trail of Tears is to the south.
+~
+door~
+1 0 45003
+S
+#45125
+&+gA Huge Storage Tree~
+&+y   This huge hollowed-out tree seems to have been set
+&+yup for storage, as it is far larger then the rest of the
+&+ybuildings seen so far.  Made of a huge oak tree, this
+&+ybuilding seems most sturdy.  There is only one exit
+&+yout of this storage tree.
+~
+450 142643208 1
+D0
+~
+~
+0 0 45049
+S
+#45126
+&+LBefore a Dark and Mysterious Building~
+   There is a strange dark building which lies to the west.
+This building, carved out of a strange looking tree, is unfit,
+unlike most of the other buildings in the city.  Made of maple
+trees, this place has an odd smell to it, as it feels as if
+there are eyes watching from everywhere.  There are two
+exits leading away from this part of the city.
+~
+450 142643200 1
+D0
+The path is back that way.
+~
+~
+0 0 45120
+D3
+A Dark and shady room is that way.
+~
+door~
+1 0 45127
+S
+#45127
+&+LThe Rogues' Den&N~
+   This dark room is a large empty chamber of the guild
+of thieves.  There is no furniture in the room.  The
+walls and floors are bare.   The only peculiar item of
+the room is that there is a pool of blood in one corner
+of the room.  There are sounds of someone or something
+moving in the shadows.  It is wise to move quickly when
+in the shadows in this part of town. There are two exits
+leading away from this den.
+~
+450 142643208 1
+D1
+The entrance to the rogues' guild is back that way.
+~
+door~
+1 0 45126
+D3
+The sounds and smells of a bar are coming from that direction.
+~
+~
+0 0 45128
+S
+#45128
+&+LThe Bar of Rogues&N~
+   This shady establishment here in the heart of the den is
+where elves come to hear of jobs that need to be taken care of,
+or to just sit and recover from a hard day's job or practice.
+There is usually a bartender ready to serve all elves who
+are patrons of the bar.  Many drinks are pre-mixed and are
+always ready to be purchased without the effort of bartender
+troubles.  There are two exits away from this bar.
+~
+450 142643208 1
+D1
+The Rogues' Den is that way.
+~
+~
+0 0 45127
+D2
+The practice room of thieves is that way.
+~
+~
+0 0 45129
+S
+#45129
+&+LThe Practice Room&N~
+   Many young apprentice rogues can usually be found within
+these quarters.  They come here to sharpen their skills by
+learning from the masters of the guild.  The room is very
+dim.  Many thieves and rogue move among the shadows. They
+practice their attacks on testdummies and use a variety
+of different practice daggers which lie scattered in the
+room.  There are two exits leaving this practice room
+which lead deeper into the guild.
+~
+450 142643208 1
+D0
+The bar is back that way.
+~
+~
+0 0 45128
+D1
+Another room can be seen in that direction.
+~
+~
+0 0 45130
+S
+#45130
+&+gThe Rogues' Supply Depot~
+   This room of the guild serves as a supply shoppe.  Thieves
+especially are a patron to this shop.  There is a large table
+along the south wall where a shady figure can usually be found
+minding the store.  There are two exits leading deeper into
+the guild in opposite directions.
+~
+450 142643208 1
+D1
+Another room can be seen in that direction.
+~
+~
+0 0 45131
+D3
+The practice room is back that way.
+~
+~
+0 0 45129
+S
+#45131
+&+LThe Room of Diam&N~
+   In this room of Diam, the master thief of Charing, many new
+thieves come to seek their first training in their new life.
+The room is exceptionally dim with very little light.  The room
+is lightly decorated with a few pieces of furniture.  Along
+the north wall, Diam has constructed a few objects which new
+thieves practice their new found skills upon.  There are a
+few test locks which can be picked for practice.  There is
+only one exit out of this room.
+~
+450 142643208 1
+D3
+The guild store is back that way.
+~
+~
+0 0 45130
+S
+#45132
+&+gThe City Dump~
+   This area in the woods has a strange glowing magic portal that glows
+brightly.  Elves from all over the city come here and drop their unwanted
+goods in this dump.
+~
+450 142643200 1
+D1
+~
+~
+0 0 45159
+S
+#45133
+&+gA Huge Storage Tree~
+&+y   This huge hollowed-out tree seems to have been set
+&+yup for storage, as it is far larger then the rest of the
+&+ybuildings seen so far.  Made of a huge oak tree, this
+&+ybuilding seems most sturdy.  There is only one exit
+&+yout of this storage tree.
+~
+450 142643208 1
+D3
+There is an exit to the west leading back to the trail.
+~
+tree door~
+1 0 45120
+S
+#45134
+&+yEntrance to the Rangers' Guild of &+GCharing&N~
+   This wooden building, composed of mighty oak trees, gives
+the rangers of Charing a safe and secure place to meet, train
+and hold council.  This wooden establishment has large double
+doors that are decorated with a variety of different emblems.
+Around the double doors, the frame is carved with an intricate
+design.  There are the sounds of chatter coming from inside
+this building.
+~
+450 142643208 1
+D0
+The Trail of Tears is that way.
+~
+~
+0 0 45157
+D1
+The door to the guild is that way.
+~
+door~
+1 0 45135
+S
+#45135
+&+yThe Bar of Nature's Secret&N~
+   In this bar named "Nature's Secret,"  the local speciality
+is served to all its patrons.  This wooden bar, set into the
+far eastern wall, is a site where many rangers can be found
+relaxing and drinking their worries away.  There is always
+a tale to be heard about some battle or gossip which has
+begun to spread through the city of Charing.
+~
+450 142643208 1
+D2
+The guild spell and spirituality room is that way.
+~
+~
+0 0 45136
+D3
+The entrance to the guild is that way.
+~
+door~
+1 0 45134
+S
+#45136
+&+yThe Room of Spirituality and Magic&N~
+   In this large room of the guild of rangers, many rangers
+seek to master their skills of casting.  The art of spellcraft
+for rangers involves casting both magic-user and cleric spells.
+Several target dummies are along the walls here.  There is a
+large circular table in the center of the room.  There are
+a variety of different reference texts and tomes which are
+occasionally consulted by practicing rangers.  There are
+two exits leading away from this room.
+~
+450 142643208 1
+D0
+The bar is back that way.
+~
+~
+0 0 45135
+D3
+The hall of combat is that way.
+~
+~
+0 0 45137
+S
+#45137
+&+rThe Hall of Combat&N~
+   This large chamber of the guild of rangers serves as the
+Hall of Combat.   Along the walls of this chamber, many different
+weapons can be found hanging of iron hooks set into the granite
+walls.  This room is used by novice rangers to sharpen their
+hunting, casting, warrior and other physical skills.  Excellence
+must be achieved before heading into the realms filled with many
+different dangers.  Young rangers are often found in here at all
+hours learning how to survive in a world filled with danger.
+There are exits into two directions leading deeper into the
+guild.
+~
+450 142643208 1
+D1
+The meditation room is that way.
+~
+~
+0 0 45136
+D3
+The guild shop is that way.
+~
+~
+0 0 45138
+S
+#45138
+&+BThe Supply Shoppe&N~
+&+y  In this rather large chamber of the guild of rangers,
+&+ymany of the adventuring tools and weapons for use by
+&+yrangers can be found on display.   The shopkeeper of
+&+yof this shoppe has taken great time to organize his
+&+yitems for sale. One can buy many an item to help the
+&+ynovice ranger in his quest to safeguard the rest of the
+&+yelven race.  There are exits in two directions which
+&+ylead deeper into the guild.
+~
+450 142643208 1
+D0
+The guild masters room is that way.
+~
+~
+0 0 45139
+D1
+The combat room is that way.
+~
+~
+0 0 45137
+S
+#45139
+&+YThe Inner Sanctum of Gendel Ginzi&N~
+&+y   This is the inner sanctum of Gendel Ginzi.  It is a
+&+ycircular chamber which is lighted by a few torches evenly
+&+yspaced within the room.  It is in this room that the great
+&+yranger, Gendel Ginzi, resides and teaches young novices
+&+ythe ways and life of the ranger.  The room is lightly
+&+ydecorated.  There are a few quivers and arrows which hang
+&+yupon the northern wall of this room.  There is only one
+&+yexit out of this chamber.&N
+~
+450 142643208 1
+D2
+The shop is back that way.
+~
+~
+0 0 45138
+S
+#45140
+&+LA Burnt Down and Abandoned Tower&N~
+   The entrance to the once mighty tower of necromancy stands like
+a great blotch on the otherwise peaceful and serene city of the elves.
+Made of dead oak and ash trees, the tower rises like a blight on the land.
+~
+450 142643208 1
+D0
+The trail of enlightenment is that way.
+~
+~
+0 0 45121
+D2
+~
+~
+0 0 45141
+S
+#45141
+Bottom of the Grand Spiral Stairway~
+   The tower stairs run up here toward the top of the mighty
+tower.  Strange moaning sounds can be heard coming from
+above, and an odd feeling hangs in the air here.
+~
+450 142643208 1
+D0
+The guild door is that way.
+~
+door~
+0 0 45140
+D4
+The tower stairs run up that way.
+~
+~
+0 0 45142
+S
+#45142
+On a Spiral Staricase~
+   The stairs run up and down here, ending upward at a lab
+and down at the landing and end of the tower.  A heavy odor
+of decay hangs in the air.
+~
+450 142643208 1
+D4
+The stairs end at a lab that way.
+~
+~
+0 0 45143
+D5
+The landing is back that way.
+~
+~
+0 0 45141
+S
+#45143
+The Laboratory of Flesh~
+   This totally disgusting room, filled with corpses of dead
+elves and humanoids as well as animals, and perhaps a few
+monsters better left alone, hang in the air here.  Some of them
+are glowing with an odd red radiance, while others seems to be
+all but totally decomposed.  Tables, jars, vials, potions, strange
+glowing glassware, and other odds and ends are also here.
+~
+450 142643208 1
+D5
+The stairs keep going that way.
+~
+~
+0 0 45142
+S
+#45144
+&+yThe Commons of the Charing Grovetree Theatre&N~
+   &+gConstructed entirely within the growth of a massive oak, the walls
+&+gof this building are living wood, and the high ceilinged beams are
+&+gpainstakingly grown into existence instead of cut and placed. The
+&+grich brown of the furnishings and the massive oak itself are laquered
+&+gwith its own internal sap, providing a wonderful reflectivity, and
+&+gallowing the entire interior to be lit with only a few magical floating
+&+gglow spheres. The patrons laugh and sing around the many tables, and
+&+gthe true spirit of what joy means amongst the Elves conveys a sense
+&+gof wonderful well being, and undeniable peace. In a place where open
+&+gminds come to laugh and sing and share countless tales, no one can leave
+&+gwithout having made a few friends and feeling a bit more content with
+&+glife. A massive spiral staircase, as occupied with patrons as the main
+&+gfloor, leads up into the theatre proper.
+~
+450 142643208 0
+D0
+The Trail of Tears lie beyond the double doors.
+~
+double doors~
+1 0 45154
+D4
+The natural staircase leads up to the Theatre itself.
+~
+~
+0 0 45145
+S
+#45145
+&+yThe &+GCharing Grovetree &+rTheatre&N~
+   &+gWith the boughs arranged in the structure of amphitheater seats,
+&+gthey all more or less face inwards and north to a thrusting procedium
+&+gstage on which performances of all types take place. Be it a single
+&+gbard reciting his latest masterpiece, or an entire troupe come to give
+&+ga bit of tradgedy and cheer to the patrons, this delightful forum is
+&+gthe perfect place to inspire the most delightful of experiences in the
+&+gmost intimate of atmospheres with the audience. It is the home of the
+&+greknowned Grovesinger's Troupe, who are said to give the highest
+&+gquality of performance of almost anywhere. Above the theater itself is
+&+gthe canopy of the oak's own broadleaves, allowing sun to filter in like
+&+gthe ripples in water, or the starlight to cascade over everything in a
+&+gfantastic manner. Small glow orbs hover in strategic places all around
+&+gthe edge of the stage giving off soft light, their various shutters
+&+gdirecting their flows in specific directions. There is a small plaque
+&+gat the front of the stage written in flowing gold script.
+~
+450 142770176 1
+D0
+A small rail leads around to the backstage area.
+~
+~
+0 0 45146
+D5
+The massive spiral staircase climbs down into the laughter-filled commons.
+~
+~
+0 0 45144
+E
+plaque~
+
+   &+YBy virtue of Her Majesty, Queen Silenistilla of Sylvandawn, the
+&+YGrove Theatre is hereby commissioned to Aliel Lehnalia as a center
+&+Yfor the arts and enlightenment. Through music and song, tale and
+&+Yperformance, the Grovesingers shall flourish under her direction.
+&+YBe it known that none shall be denied the right of expression or
+&+Ythe joy of attendance to performances which takeplace herein. Also,
+&+Ylet be decreed that the wine casks within the confines of The Grove
+&+Yshall never be empty!
+~
+S
+#45146
+&+gThe &+GCharing Grove &+gGreen&+Groom&N~
+   &+gThough small in comparison to the stage itself, this lounge is a
+&+gcompletely plush and stress free atmosphere meant to heighten one's
+&+gfocus on their performance to come. All performers for dated or
+&+gnon-impromptu shows await their final minutes before the moment of
+&+gtruth in this room. Long, red velvet couches and iced fruit trays
+&+gallow for the perfect picture of calm amongst chaos, the true
+&+gvision of a person about to take the stage. Delicate, paper walls
+&+gallow for the changing areas; each marked with an Elven rune; one
+&+gfor 'she' and one for 'he.' Large bay windows of odd shapes that
+&+g set into the natural spaces between boughs allow for the entrance
+&+gof plenty of light, and the scenic pictures hanging in carefully
+&+gplanned spots, along with the reading materials that are lying
+&+gabout on the end tables make this almost feel like someone's home.
+~
+450 142639112 0
+D2
+A small rail leads back around to the House.
+~
+~
+0 0 45145
+D4
+A staircase behind one of the changing flats climbs quickly upwards.
+~
+~
+0 0 45147
+S
+#45147
+&+YThe Grovesinger's&+g Practice Room~
+   &+gMagnificence is too small a word to convey to outsiders the true
+&+gbeauty of this room. Neither lavish, nor dull, the deep and rich
+&+gbrown of this living structure has been molded into a broad circle
+&+gthat allows for a dizzying, panoramic view of most of the city of
+&+gSylvandawn. Comfortable furniture is interspersed with polished
+&+gbrass music stands and padded stools, allowing a broad choice of
+&+gperformace and practice space, or simply comfortable listening
+&+gseats. The walls between the windows are lines with music sheets,
+&+gsome of which still glisten with freshly applied ink. They detail
+&+gpoems and sung verse from not just Sylvandawn, but from cities and
+&+glands across the known world; and from the look of some of these,
+&+gperhaps even beyond that..
+~
+450 142643208 0
+D1
+D1
+A heavy door allows access into the cluttered chambers of Aliel Lehnalia.
+~
+~
+0 0 45148
+D3
+A well made, whitewashed door, stand open to the west.
+~
+~
+0 0 45149
+D5
+The small staircase leads steeply down into the Greenroom.
+~
+~
+0 0 45146
+S
+#45148
+&+YThe Grovesinger's Chamber&N~
+   &+gThe main teching area of the greatest bard in Sylvandawn, this
+&+gchamber has become more than familiar to most any musician of
+&+greknown in this area of the world. Filled with racks of practice
+&+ginstruments and lesson books ranging on every subject from Artful
+&+gActing to Zither Zealots; this room is never entirely quiet as
+&+gthere is always more to teach, and practice is never enough. The
+&+gMistress Grovesinger herself is never without an instrument to
+&+gplay at any one moment, and she no doubt has the ability to play
+&+gevery instrument in this room as a master. She is the leader, owner,
+&+gand proprieter of the Grove Theatre, which was commisioned to her
+&+gby the queen hersel.
+~
+450 142770184 0
+D3
+The broad door allows passage back into the comfortable practice room.
+~
+~
+0 0 45147
+E
+artful acting~
+
+   Written in a flowing, careful hand, this book is leatherbound and
+given the honor of a top shelf. Apparently written some time ago, it
+details all of the philosophies, ancient and up to date, behind being
+the modern actor/actress.
+~
+E
+zither zealots~
+
+   Bound in hartack leather, and the parchment sealed in preserving wax,
+this book is one of a series detailing the various parts of a specific
+instrument, and the basics of playing. Any dedicated bard could spend a
+lifetime just studying the techniques represented in this book... and
+this is only on one instrument!
+~
+E
+racks~
+
+   If it is in existence as a type of instrument, it is on these walls.
+>From rattlers to pan-flutes, every kind and class is here represented.
+Some of them look to be fairly well made, but for the most part they
+are simply here for practice and piece examination. Lehnalia's personal
+stock are not in sight
+~
+S
+#45149
+&+GThe Grove&+r Theatre &+YGift&+G Shoppe&N~
+   &+gThe small windows on the westernmost wall of this octagonal room
+&+gare the only natural light source. Other than that, every wall is
+&+gtaken up with books on music, about music, for creating music, and
+&+gcompilations of all of the Realms' greatest composers including
+&+gall of the variations and duet changes. But, amongst all of the paper
+&+gitems and instrument cleaning devices, are some real quality works
+&+gcreated by the shoppekeeper himself. Known far and wide for his
+&+gpositively magical works, he makes very few, and sells even less. If
+&+gone is able to make a purchase from this shop, that musician is a
+&+glucky musician indeed.
+~
+450 142643208 0
+D1
+The whitewashed door stands open, leading back out into the practice room.
+~
+~
+0 0 45147
+S
+#45150
+&+mThe Royal Stables of Charing&N~
+   Upon entering this large building in Charing, one quickly
+realizes that is serves as the stables.  Many different elven
+steeds can be seen behind the gates in their appropriate
+stalls.  The air has the stench of mildew and excrement which
+has been piled in a nearby corner.  Many an elf comes here to
+buy horses and other mounts.  There is only one exit out of
+the stables.
+~
+450 142643208 1
+D2
+The Trail of Tears is back that way.
+~
+~
+0 0 45157
+S
+#45151
+Stables~
+This is the room used to hold the mounts for sale.
+~
+450 142643208 0
+S
+#45152
+&+rThe Charing Judges Chamber&N~
+   This large chamber belongs to the judge of Charing.  It is
+here that those who have broken the laws of the city are kept
+awaiting while judgment is passed on them.  There is a large
+oaken desk where the judge sits behind.  On this desk, there
+is an organized set of papers.  A sense of law and order fill
+the presense of this room.  There is only one exit out of
+this judges room.
+~
+450 142643200 0
+D0
+The Sylvan jail is that way.
+~
+~
+0 0 45100
+S
+#45153
+&+GAlkatia's Fletcher Shop&N~
+&+g   This shop is rather larger than most shops in Charing.
+&+gMany elves pay visit to this shop daily to stock up on arrows
+&+gof various makes.  This fine shop contains all mannor of tools
+&+gused for the creation and repair of the fine elven bow and long
+&+gbow.  There is only one exit out of this store.
+~
+450 142639112 1
+D1
+The Way of the Royals lies to the east.
+~
+~
+0 0 45002
+S
+#45154
+&+gThe Trail of Tears&N~
+   This path keeps going west and east, and to the north a huge
+hollowed out oak tree can be seen.  To the south is another oak,
+but one of massive proportions that has made into a building of
+some sort.  Laughter flows delightfully from it, and the sounds
+of many instruments playing can be heard. Above the heavy double
+doors, there is a sign that reads "The Grovetree Theatre."
+~
+450 142643200 1
+D1
+The Trail of Tears continues to the east.
+~
+~
+0 0 45160
+D2
+The Grovetree theatre is to the south just beyond the double doors.
+~
+double doors~
+1 0 45144
+D3
+The Trail of Tears continues to the west.
+~
+~
+0 0 45003
+S
+#45155
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  There are two small
+establishments which lies on the eastern and western parts of
+the road.  A sign on the building to the east reads "The Oracle
+of Charing is now open" which the sign on the  building to the
+west reads "Welcome to Shanya's Supply Shoppe."  There are exits
+all around leading deeper into the city.
+~
+450 142639104 1
+D0
+~
+~
+0 0 45034
+D1
+~
+~
+0 0 45047
+D2
+~
+~
+0 0 45001
+D3
+~
+~
+0 0 45035
+S
+#45156
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A house of sorts can be seen to the north of the
+trail here.  It seems to be formed from trees.  The sounds of
+cats meowing and the hissing of snakes is quite near to here.
+The trail continues in two directions from this advantage
+point.
+~
+450 142643200 1
+D0
+There is a strange house to the north.
+~
+door house~
+1 0 45103
+D1
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45004
+D3
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45157
+S
+#45157
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A large sign rests on a pole near the building
+to the north.  It reads "Welcome to the Stables of Charing."
+The sounds of horses neighing can be heard coming from the
+stables. There is also an awful stench that one quickly notices
+here.  Many ranger elves seem to be heading to the south of
+here towards a large type building.  The trail continues in
+two directions from this advantage point.
+~
+450 142643200 0
+D0
+The stables are to the north.
+~
+~
+0 0 45150
+D1
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45156
+D2
+The guild of rangers lies to the south.
+~
+~
+0 0 45134
+D3
+The Trail of Tears continues in that directions.
+~
+~
+0 0 45158
+S
+#45158
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A house of sorts can be seen to the south of the
+trail here.   There is a  faint, almost distant, crying sound
+can be heard coming from inside this house.
+~
+450 142643200 1
+D1
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45157
+D2
+There is a small house to the south.
+~
+door~
+1 0 45123
+D3
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45159
+S
+#45159
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  There are two large sign which rests on poles
+near their respective building. The sign to the north reads
+"Welcome to the Magic Store of Charing" while the sign to the
+south reads "Welcome to the Weapons Shop."  The sounds of metal
+clanging can be heard coming from the building to the south.
+The trail continues in two directions from this advantage point.
+~
+450 142643200 1
+D0
+There is a magic shop to the north.
+~
+~
+0 0 45104
+D1
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45158
+D2
+There is a weapons shop to the south.
+~
+~
+0 0 45038
+D3
+~
+~
+0 0 45132
+S
+#45160
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering
+the trail.  This is perhaps one of the most breathtaking paths
+in the city.  A house of sorts can be seen to the north of the
+trail here.   There is a  faint, almost distant, crying sound
+can be heard far off in the distance.
+~
+450 142643200 1
+D0
+There is an elven house to the north of the trail.
+~
+door house~
+1 0 45102
+D1
+The Trail of Tears continues to the east.
+~
+~
+0 0 45161
+D3
+The Trail of Tears continues west.
+~
+~
+0 0 45154
+S
+#45161
+&+gThe Trail of Tears&N~
+   Beautiful weeping willow trees run all long the trail here.
+They come together overhead to form a graceful canopy covering the
+trail.  This is perhaps one of the most breathtaking paths in the
+city.  The sounds of drunks having a good time can be heard coming
+from the Green Griffon Pub.  A sign welcoming pub patrons sits
+near the entry door of the pub.  A large tower rising many stories
+above the city is located to the south of here.  There are exits
+all around leading deeper into the city.
+~
+450 142643200 1
+D0
+There is a small pub to the north.
+~
+~
+0 0 45106
+D1
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45095
+D2
+The Tower of High Magic lies to the south from here.
+~
+~
+0 0 45107
+D3
+The Trail of Tears continues in that direction.
+~
+~
+0 0 45160
+S
+#45162
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction through the center
+of the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  Along the
+east side of the road here, there is a sign which reads "The
+Armor Shop of Charing".  To the west, there is a side path
+where many warriors are turning towards.  The road provides
+access to the large palace which lies further to the north.
+There are exits all around leading deeper into the city.
+~
+450 142643200 1
+D0
+~
+~
+0 0 45163
+D1
+~
+~
+0 0 45046
+D2
+~
+~
+0 0 45034
+D3
+~
+~
+0 0 45039
+S
+#45163
+&+gThe Way of the Royals&N~
+   This Way of the Royals is a central roadway in the City of
+Charing.  It runs in a north-south direction in the center of
+the city.  This central pathway of the City of Charing is well
+used by the many citizens and visitors.  Many important
+establishments can found along this Way of Royals.  Just to the
+west, there is a sign saying the building to the west are the
+Royal Scribers of Charing. The road provides access to the large
+palace which lies just to the north.  There are exits all around
+leading deeper into the city.
+~
+450 142643200 1
+D0
+The Way of the Royals leads north.
+~
+~
+0 0 45033
+D2
+The Way of the Royals leads south.
+~
+~
+0 0 45162
+D3
+The Royal Scribers are to the west.
+~
+~
+0 0 45045
+S
+#45164
+&+yWithin the Heart of the Great Tree Charing&N~
+&+y   Closer to the top of this ladder, there are the sounds
+&+yand light from up above.  This part of the ladder is
+&+ynarrower here than down below.  The trunk of the great tree
+&+yCharing has been carved out with exquiste detail in this part
+&+yas well.  This wooden ladder which has been carved into the
+&+yinside of the trunk shows no signs of deterioration.  It
+&+ycontinues in two directions from this advantage point.
+~
+450 142643208 0
+D4
+The ladder continues up.
+~
+~
+0 0 45017
+D5
+The ladder continues down.
+~
+~
+0 0 45165
+S
+#45165
+&+yWithin the Heart of the Great Tree Charing&N~
+&+y   The trunk of the great tree Charing has been carved out
+&+yin this part as well.  There is a wooden ladder which has
+&+ybeen carved into the inside of the trunk.  The ladder shows
+&+yno signs of deterioration.  It continues in two directions
+&+yfrom this advantage point.
+~
+450 142643208 0
+D4
+~
+~
+0 0 45164
+D5
+~
+~
+0 0 45166
+S
+#45166
+&+yWithin the Heart of the Great Tree Charing&N~
+&+y   The trunk of the great tree Charing has been carved out
+&+yin this part as well.  There is a wooden ladder which has
+&+ybeen carved into the inside of the trunk.  The ladder shows
+&+yno signs of deterioration.  It continues in two directions
+&+yfrom this advantage point.
+~
+450 142643208 0
+D4
+~
+~
+0 0 45165
+D5
+~
+~
+0 0 45167
+S
+#45167
+&+yWithin the Heart of the Great Tree Charing&N~
+&+y   The trunk of the great tree Charing has been carved out
+&+yin this part as well.  The difference from the room below is
+&+ythat the space is a little more limited here.  The higher one
+&+yproceedss up the ladder, the more narrower it gets.  The wooden
+&+yladder, which has been carved into the inside of the trunk,
+&+yshows no signs of deterioration.  It continues in two directions
+&+yfrom this advantage point.
+~
+450 142643208 0
+D4
+~
+~
+0 0 45166
+D5
+~
+~
+0 0 45168
+S
+#45168
+&+yThe Base of the Great Tree Charing&N~
+&+y   The trunk of the great tree Charing has been carved out
+&+ywith exquiste detail here.  In the base of the trunk, there
+&+yseems to be a lot of space.   The wooden ladder, which has
+&+ybeen carved into the inside of the trunk, leads upward into
+&+ythe trunk.  The ladder shows no signs of deterioration.  It
+&+ycontinues in one directions from this advantage point.
+~
+450 142643208 0
+D2
+There is a small door in the tree here.
+~
+door~
+5 0 45169
+D4
+~
+~
+0 0 45167
+S
+#45169
+&+yBefore the Great Tree Charing&N~
+&+y   The huge oak tree Charing rises many stories above you.
+&+yIt has huge branches covered with dense foiliage.  Its
+&+ybranches span by the hundreds of feet in several directions.
+&+yThe branches of the great tree Charing seem to form an
+&+yinterlocking network with the other trees in this forest.
+&+yLittle light seems to penetrate this part of the forest.
+&+yThe forest continues in all directions from this advantage
+&+ypoint.
+~
+450 142643200 3
+D0
+There is a small door in the tree here.
+~
+door~
+5 0 45168
+D1
+~
+~
+0 0 45177
+D2
+There is a river to the south.
+~
+~
+0 0 45170
+D3
+A shady trail leads away in that direction.
+~
+~
+0 0 45175
+S
+#45170
+&+bA Small River&N~
+&+b  A small river runs in an east-west direction here.
+&+bThe waters of the river are pristine giving a clear
+&+bview of the bed of the river.  There are small fish
+&+bwhich swim about here.  There are exits all around
+&+bleading deeper into the forest.
+~
+450 0 7
+D0
+There is a huge tree to the north.
+~
+~
+0 0 45169
+D1
+~
+~
+0 0 45171
+D3
+~
+~
+0 0 45172
+S
+#45171
+&+bA Small River&N~
+&+b  A small river runs in an east-west direction here.
+&+bThe waters of the river are pristine giving a clear
+&+bview of the bed of the river.  There are small fish
+&+bwhich swim about here.  There are exits all around
+&+bleading deeper into the forest.
+~
+450 0 7
+D1
+~
+~
+0 0 45173
+D3
+The river continues in that direction.
+~
+~
+0 0 45170
+S
+#45172
+&+bA Small River&N~
+&+b  A small river runs in an east-west direction here.
+&+bThe waters of the river are pristine giving a clear
+&+bview of the bed of the river.  There are small fish
+&+bwhich swim about here.  There are exits all around
+&+bleading deeper into the forest.
+~
+450 0 7
+D1
+~
+~
+0 0 45170
+S
+#45173
+&+bA Small River&N~
+&+b  A small river runs in an east-west direction here.
+&+bThe waters of the river are pristine giving a clear
+&+bview of the bed of the river.  There are small fish
+&+bwhich swim about here.  There are exits all around
+&+bleading deeper into the forest.
+~
+450 0 7
+D1
+~
+~
+0 0 45174
+D3
+~
+~
+0 0 45171
+S
+#45174
+&+bA Small Collecting Pool&N~
+&+b  The river seems to come to abrupt end here.  The waters
+&+bof the river collect here in this pool.  Many strange items
+&+bhave been washed along by the current and ended up here.
+&+bThe pool is rather deep yet swimmable.  The waters here
+&+bare clear.  There are exits all around leading deeper
+&+binto the forest.
+~
+450 0 7
+D3
+~
+~
+0 0 45173
+S
+#45175
+&+gA Shady Forest Trail&N~
+&+g   The trail through the great forest continues here.
+&+gThis trail appears to have been travelled by many elves
+&+gand centaurs.  One can easily see the footprints of both
+&+graces in the earth here.  The sounds of the rapids of the
+&+griver to the south can be heard echoing through out this
+&+garea.  The trail contines in two directions from this
+&+gpoint of the trail.
+~
+450 142643208 2
+D1
+~
+~
+0 0 45169
+D3
+~
+~
+0 0 45176
+S
+#45176
+&+gA Shady Forest Trail&N~
+&+g   The trail through the great forest continues here.
+&+gThis trail appears to have been travelled by many elves
+&+gand centaurs.  One can easily see the footprints of both
+&+graces in the earth here.  The sounds of the rapids of the
+&+griver to the south can be heard echoing through out this
+&+garea.  The trail contines in two directions from this
+&+gpoint of the trail.
+~
+450 142643208 3
+D1
+~
+~
+0 0 45175
+D3
+~
+~
+0 0 45180
+S
+#45177
+&+gA Shady Forest Trail&N~
+&+g   The trail through the great forest continues here.
+&+gThis trail appears to have been travelled by many elves
+&+gand centaurs.  One can easily see the footprints of both
+&+graces in the earth here.  The sounds of the rapids of the
+&+griver to the south can be heard echoing through out this
+&+garea.  The trail contines in two directions from this
+&+gpoint of the trail.
+~
+450 142643208 2
+D1
+~
+~
+0 0 45178
+D3
+~
+~
+0 0 45169
+S
+#45178
+&+gA Shady Forest Trail&N~
+&+g   The trail through the great forest continues here.
+&+gThis trail appears to have been travelled by many elves
+&+gand centaurs.  One can easily see the footprints of both
+&+graces in the earth here.  The sounds of the rapids of the
+&+griver to the south can be heard echoing through out this
+&+garea.  The trail contines to an end just to the east
+&+gwhere there is a small cottage.
+~
+450 142643208 2
+D1
+There is a small cottage just beyond this door.
+~
+door~
+1 0 45179
+D3
+~
+~
+0 0 45177
+S
+#45179
+&+yA Small Cottage&N~
+&+y   This small cottage has been built in this forest
+&+ymany ages ago.  The walls of the cottage are showing
+&+yextreme signs of deterioration from weather and decay.
+&+yThere are termites feasting upon the wooden planks of
+&+yof the cottage.  There is a small heap of hay in one
+&+ycorner of the cottage.  There is only one exit out of
+&+ythe cottage.
+~
+450 142643208 0
+D3
+The shady forest trail lies outside.
+~
+door~
+1 0 45178
+S
+#45180
+&+LA Stone Pathway&N~
+&+g   A stone pathway has been laid in this part of the
+&+gforest.  The stone appears to be of marble.  The slabs
+&+gprovide a firm surface for travel through this part of
+&+gthe forest.  There are animals of the forest frolickling
+&+gabout in the near distance.  The stone pathway leads
+&+gin a northern direction.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45181
+D1
+~
+~
+0 0 45176
+D3
+~
+~
+0 0 45183
+S
+#45181
+&+LA Stone Pathway&N~
+&+g   A stone pathway has been laid in this part of the
+&+gforest.  The stone appears to be of marble.  The slabs
+&+gprovide a firm surface for travel through this part of
+&+gthe forest.  There are animals of the forest frolickling
+&+gabout in the near distance.  The stone pathway leads
+&+gin a northern direction.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45182
+D2
+~
+~
+0 0 45180
+S
+#45182
+&+LA Stone Pathway&N~
+&+g   A stone pathway has been laid in this part of the
+&+gforest.  The stone appears to be of marble.  The slabs
+&+gprovide a firm surface for travel through this part of
+&+gthe forest.  There are animals of the forest frolickling
+&+gabout in the near distance.  The stone pathway leads
+&+gin a northern direction.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45184
+D2
+~
+~
+0 0 45181
+S
+#45183
+&+gA Shady Forest Trail&N~
+&+g   The trail through the great forest continues here.
+&+gThis trail appears to have been travelled by many elves
+&+gand centaurs.  One can easily see the footprints of both
+&+graces in the earth here.  The sounds of the rapids of the
+&+griver to the south can be heard echoing through out this
+&+garea.  The trail contines in two directions from this
+&+gpoint of the trail.
+~
+450 142643208 3
+D1
+~
+~
+0 0 45180
+D3
+~
+~
+0 0 513692
+S
+#45184
+&+LA Stone Pathway&N~
+&+g   A stone pathway has been laid in this part of the
+&+gforest.  The stone appears to be of marble.  The slabs
+&+gprovide a firm surface for travel through this part of
+&+gthe forest.  There are animals of the forest frolickling
+&+gabout in the near distance.  The stone pathway leads
+&+gin a northern direction.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45207
+D2
+~
+~
+0 0 45182
+S
+#45185
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 209060
+D1
+The forest continues in that direction.
+~
+~
+0 0 45186
+D2
+The forest continues in that direction.
+~
+~
+0 0 45190
+S
+#45186
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D1
+~
+~
+0 0 45187
+D2
+~
+~
+0 0 45191
+D3
+~
+~
+0 0 45185
+S
+#45187
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D1
+~
+~
+0 0 45188
+D2
+~
+~
+0 0 45192
+D3
+~
+~
+0 0 45186
+S
+#45188
+&+bThe River Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river continues
+&+bflowing southerly from this point.
+~
+450 142643208 3
+D1
+~
+~
+0 0 45189
+D2
+~
+~
+0 0 45193
+D3
+~
+~
+0 0 45187
+S
+#45189
+&+gThe Forest of the Elves&n~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D2
+~
+~
+0 0 45194
+D3
+~
+~
+0 0 45188
+S
+#45190
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45185
+D1
+~
+~
+0 0 45191
+D2
+~
+~
+0 0 45195
+S
+#45191
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45186
+D1
+~
+~
+0 0 45192
+D2
+~
+~
+0 0 45196
+D3
+~
+~
+0 0 45190
+S
+#45192
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45187
+D1
+~
+~
+0 0 45193
+D2
+~
+~
+0 0 45197
+D3
+~
+~
+0 0 45191
+S
+#45193
+&+bThe River Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river continues
+&+bflowing southerly from this point.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45188
+D1
+~
+~
+0 0 45194
+D2
+~
+~
+0 0 45198
+D3
+~
+~
+0 0 45192
+S
+#45194
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45189
+D2
+~
+~
+0 0 45199
+D3
+~
+~
+0 0 45193
+S
+#45195
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45190
+D1
+~
+~
+0 0 45196
+D2
+~
+~
+0 0 45200
+S
+#45196
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45191
+D1
+~
+~
+0 0 45197
+D2
+~
+~
+0 0 45201
+D3
+~
+~
+0 0 45195
+S
+#45197
+&+yA Bank of the River Solirum&N~
+&+g   On the bank of the river Solirum, many animals of
+&+gthe forest come to get a refreshing drink.  The bank
+&+ghere is free from rocks and other debris.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45192
+D1
+~
+~
+0 0 45198
+D2
+~
+~
+0 0 45202
+D3
+~
+~
+0 0 45196
+S
+#45198
+&+bA Bend in the River Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river bends
+&+bsharply here and flows in a north and turns to
+&+bthe southwest.
+~
+450 142643208 7
+D0
+~
+~
+0 0 45193
+D1
+~
+~
+0 0 45199
+D2
+~
+~
+0 0 45203
+D3
+~
+~
+0 0 45197
+D7
+~
+~
+0 0 45202
+S
+#45199
+&+gThe Forest of the Elves&n~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45194
+D2
+~
+~
+0 0 45204
+D3
+~
+~
+0 0 45198
+S
+#45200
+&+bThe River of Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river continues
+&+beasterly from this point.
+~
+450 142643208 7
+D0
+~
+~
+0 0 45195
+D1
+~
+~
+0 0 45201
+D2
+~
+~
+0 0 45205
+S
+#45201
+&+bThe River of Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river continues
+&+bin an east-west direction from this advantage point.
+~
+450 142643208 7
+D0
+~
+~
+0 0 45196
+D1
+~
+~
+0 0 45202
+D2
+~
+~
+0 0 45206
+D3
+~
+~
+0 0 45200
+S
+#45202
+&+bA Bend in the River Solirum&N~
+&+b  This is the river of Solirum.  It runs through the
+&+bpart of the forest known as the "Forest of the Elves."
+&+bThe waters of the river rush with a great current pulling
+&+ball sorts of plant and earth sediment with it.  Still,
+&+banimals of the forest here are able to drink safely
+&+bwithout getting pulled into danger.  The river bends
+&+bsharply here and now turns to the north-east.
+~
+450 142643208 7
+D0
+~
+~
+0 0 45197
+D1
+~
+~
+0 0 45203
+D2
+~
+~
+0 0 45207
+D3
+~
+~
+0 0 45201
+D8
+~
+~
+0 0 45198
+S
+#45203
+&+yA Bank of the River Solirum&N~
+&+g   On the bank of the river Solirum, many animals of
+&+gthe forest come to get a refreshing drink.  The bank
+&+ghere is free from rocks and other debris.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45198
+D1
+~
+~
+0 0 45204
+D2
+~
+~
+0 0 45208
+D3
+~
+~
+0 0 45202
+S
+#45204
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45199
+D2
+~
+~
+0 0 45209
+D3
+~
+~
+0 0 45203
+S
+#45205
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 0
+D0
+~
+~
+0 0 45200
+D1
+~
+~
+0 0 45206
+D2
+~
+~
+0 0 209660
+S
+#45206
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45201
+D1
+~
+~
+0 0 45207
+D3
+~
+~
+0 0 45205
+S
+#45207
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45202
+D1
+~
+~
+0 0 45208
+D2
+~
+~
+0 0 45184
+D3
+~
+~
+0 0 45206
+S
+#45208
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45203
+D1
+~
+~
+0 0 45209
+D3
+~
+~
+0 0 45207
+S
+#45209
+&+gThe Forest of the Elves&N~
+&+g   This is the forest of the elves.  The elves of Charing
+&+gkeep this part of the forest in pristine condition.  Every
+&+gpiece of dead plant debris has been removed from the
+&+gimmediate area.  The trees of this forest rise many feet
+&+gabove the ground.  They form an interlocking network which
+&+gshields from precipitation and blocks most of the sunlight
+&+gfrom reaching down below.  There are exits in all
+&+gdirections leading deeper into the forest.
+~
+450 142643208 3
+D0
+~
+~
+0 0 45204
+D3
+~
+~
+0 0 45208
+S

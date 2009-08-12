@@ -1,0 +1,100 @@
+#!/usr/bin/env ruby
+#
+# This script resectors sector types of a duris world file
+#
+# October 2007 - Torgal
+#
+# syntax: resector <filename> <old sector type> <new sector type>
+# outputs: <filename>.out
+
+# 0: read room vnum
+# 1: room name ~
+# 2: room desc, new line, ~
+# 3: flags
+# 4: room exits S
+#
+# room exit:
+#  direction
+#  string ~
+#  string ~
+#  int, int, to_room
+#
+
+def convert_sectors(filename, old_sector_type, new_sector_type)
+  puts "Converting sectors..."
+  state = 0
+  dir_state = 0
+  changed = 0
+
+  File.open(filename, "r") do |infile|
+    File.open(filename+".out", "w+") do |outfile|
+      while (line = infile.gets)
+        case state
+        when 0
+          state = 1
+          outfile.puts line
+        when 1
+          state = 2
+          outfile.puts line
+        when 2
+          state = 3 if line =~ /^~$/
+          outfile.puts line
+        when 3
+          # flags
+          
+          if line =~ /^(\d+) (\d+) (\d+) (\d+)$/
+            match = line.scan(/^(\d+) (\d+) (\d+) (\d+)$/)[0]
+
+            if match[2] == old_sector_type
+              match[2] = new_sector_type
+              line = match.join(" ")
+              changed += 1
+            end      
+            
+          elsif line =~ /^(\d+) (\d+) (\d+)$/
+            match = line.scan(/^(\d+) (\d+) (\d+)$/)[0]
+
+            if match[2] == old_sector_type
+              match[2] = new_sector_type
+              line = match.join(" ")
+              changed += 1
+            end                  
+          end
+          
+          state = 4
+          outfile.puts line
+        when 4
+          if line =~ /^S$/
+            state = 0
+            outfile.puts line
+          else
+            case dir_state
+            when 0
+              outfile.puts line
+              dir_state = 1
+            when 1
+              outfile.puts line
+              dir_state = 2
+            when 2
+              outfile.puts line
+              dir_state = 3
+            when 3
+              outfile.puts line
+              dir_state = 0
+            end
+          end
+        end
+      end
+    end
+  end
+  
+  puts "#{changed} rooms changed"
+end
+
+if ARGV.size != 3
+  puts "resector takes a duris wld file and globally replaces one sector type with another"
+  puts "syntax: renumber <filename.wld> <old sector type> <new sector type>"
+  exit
+else
+  convert_sectors(ARGV[0], ARGV[1], ARGV[2])
+end

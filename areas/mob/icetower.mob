@@ -1,0 +1,431 @@
+#31800
+nomad barbarian strong~
+&+La strong &+Bbarbarian&n &+Lnomad~
+&+BA strong barbarian paces inside his cave.
+~
+This &+Bbarbarian&n seems to be angry about something.  Pacing this hall and
+muttering to himself.  Perhaps he has gone insane in this icy wasteland.  The
+accomplished hunter seems to have survived by hunting the jackals and other
+predators of this mountain pass.  Seeing you in his cave, the barbarian quickly
+grabs a spear and begins to look you over, determining if you're a threat.  The
+&+Bbarbarian &nwears the emblem of the Utuva tribe on his cuirass.
+~
+2122 0 0 268435500 0 0 0 0 S
+PB 11 16385 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31801
+sergeant barbarian~
+&na &+Bbarbarian &+Lsergeant~
+A muscular &+Bbarbarian&n with empty eyes watches his pupils.
+~
+&+bThis muscular barbarian wears a special uniform which makes him stand out
+&+bamong the other henchmen in the tower.  The sergeant barks out orders and
+&+bcharges to the attack.  When the barbarian is within striking distance you
+&+bcan see that his eyes are pale &+Wwhite&+b and unfeeling.
+~
+2122 1 0 8 0 0 0 -1 S
+PB 11 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31802
+henchman barbarian~
+a &+Bbarbarian &+yhenchman~
+a &+Bbarbarian &+yhenchman&n paces the area.
+~
+&+bThis barbarian shows no emotion as he walks about the tower of ice, protecting
+&+bthe sorceress from any unwanted guests.  In almost zombie-like fashion, he
+&+bwalks back and forth in place showing no emotion.
+~
+1073743944 1 0 8 0 0 0 -1 S
+PB 11 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31803
+guard barbarian~
+&na &+Bbarbarian &+rguard~
+A &+Bbarbarian &+rguard&n follows his sergeants orders.
+~
+&+bThis strong barbarian pays close attention to his sergeants vacant shouts and
+&+bfollows his orders closely.  The guard shows little emotion as it trains in
+&+bthe small battle chamber.
+~
+2122 1 0 8 0 0 0 -1 S
+PB 11 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31804
+jackal snow~
+&+ya &+Wsnow &+yjackal~
+&nA vicious &+yjackal&n sniffs the ground in search of food.
+~
+This dog-like creature stands about 3 feet tall at its neck and is about 4 feet
+long.  Large saliva covered fangs grin out of a maliciously growling jaw.  This
+beast probably hasn't been fed in a while to keep up its angry demeanor.
+~
+1073743944 1 0 8 0 0 0 -500 S
+A 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31805
+ice elemental~
+&+can &+Cice &+celemental~
+&+ca tall humanoid of living &+Cice&+c stands here.
+~
+&+CThis ice elemental was created for once purpose - to stop intruders.  Its
+&+Cpoor thinking ability relegate this beast to the simple task of patrolling
+&+Cthe ice tower in search of victims.
+~
+1073743944 0 0 0 64 0 0 -1000 S
+EW 0 1 7
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31806
+worshiper frost woman~
+&+ca &+Wfrost &+cworshiper~
+&+cA wise woman wanders about the ice tower.
+~
+This woman in a &+ythick animal cloak&n wanders about the ice tower muttering
+strange incantations.  The eyes of the woman have lost all color and seem
+to be nothing but pale &+Wwhite&n marbles.  The worshiper looks ready to attack
+at any moment to protect her home and master.
+~
+1073743944 1 0 8 0 0 0 -1 S
+PB 11 512 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31807
+tiger snow~
+a &+Wsnow &+Yt&+Li&+Yg&+Le&+Yr~
+&+cA small &+Wsnow &+Yt&+Li&+Yg&+Le&+Yr &+cprowls about the tower.
+~
+&+WThis small yet powerful &+Ytiger&+W prowls the inside of the ice tower in search of
+&+Wfood.  Upon approach it lifts its head in anticipation of feeding.  Eyes
+&+Wfixated, it attacks.
+~
+1073743944 1 0 0 0 0 0 -1 S
+A 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31808
+hydra cave br_f~
+&+ra &+Lcave &+rhydra~
+&+cAn enormous &+rhydra &+csleeps in its &+Lcave.
+~
+This awe inspiring beast is rather small by contrast to its dragon cousins, but
+it is still an incredible size.  &+rRed &nand &+LBlack&n scales as strong as steel cover
+its body, and large grey wings extend out of the massive reptiles back.  Waves
+of heat rush out of the hydra's nostrils with every breath heating up the
+large cavern.  The sight of a beast of this stature has been known to grip even
+the most battle hardened adventurers with unparalleled fear.
+~
+145482 0 0 838860824 12480 0 0 -1000 S
+D 0 1 -1
+49 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 8 2
+#31809
+hawk ice~
+&+can &+Cice &+yhawk~
+&+cAn &+Cice &+yhawk &+ccircles in search of food.
+~
+This large bird of prey has &+ybrown &nand &+bblue &nfeathers which help to keep it
+warm.  The hawk swoops down in an effort to turn you into its next meal.  Its
+sharp claws make the bird a dangerous foe especially in a large pack.
+~
+1073743944 1 0 134217736 0 0 0 -500 S
+B 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31810
+cleric ice~
+&+can &+Cice &+ccleric~
+&+cAn &+Cice &+ccleric wanders praying to his god.
+~
+&+cThis cleric stumbles about the room in a trancelike state muttering words of
+&+cpraise to his dark god.  This cleric is a disciple of the frost giant god,
+&+cThr&+Lym&+c.
+~
+1073743944 1 0 8 64 0 0 -1000 S
+PB 11 32 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31811
+golem ice tall~
+&+La tall &+Cice &+Lgolem~
+&+LA towering golem of &+Cice &+Lsearches for intruders.
+~
+&+LA muscular giant sized golem with no emotion stands before you.  Its unwavering
+&+Ldetermination to kill intruders is admirable.  The &+Cice &+Lgolem, upon seeing
+&+Lyou, lumbers forward and attempts to separate your limbs from your torso.
+~
+1073744456 1 0 8 0 0 0 -1000 S
+OG 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31812
+minotaur enraged~
+&+can &+Lenra&+rged &+rmino&+Ltaur~
+&+rAn angry &+rmino&+Ltaur &+rlooks around the area.
+~
+&+rMino&+Ltaurs &nare becoming more rare in recent times, but the few that remain
+tend to be very ferocious in battle.  Most &+rmino&+Ltaurs&n are neutral by nature, but
+others such as this specimen cannot fend off the impulses for destruction and
+lash out in anger at all within their reach.
+~
+1073743946 1 0 24 0 0 0 -1000 S
+MT 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31813
+giant frost~
+a &+Wfrost &+cgiant~
+A &+ygiant &nwith pale &+Wwhite &nskin stands here.
+~
+A towering giant with pale white skin and a thick white beard stares ominously
+at you.  This massive humanoid could easily crush your skull with a single deft
+blow to the head.  In his hand a large club of &+Cice&n is readied to put a
+swift end to the lives of anyone foolish enough to cross the enormous beast.
+~
+1073743976 1 0 8 0 0 0 -500 S
+G 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31814
+jackal snow~
+&+ya &+Wsnow &+yjackal~
+&nA vicious &+yjackal&n sniffs the ground in search of food.
+~
+This dog-like creature stands about 3 feet tall at its neck and is about 4 feet
+long.  Large saliva covered fangs grin out of a maliciously growling jaw.  This
+beast probably hasn't been fed in a while to keep up its angry demeanor.
+~
+1342181226 1 0 8 0 0 0 -500 S
+A 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31815
+golem granite humanoid~
+&+La granite golem~
+&+LA humanoid of living rock stands ominously here.
+~
+&+LA large imposing beast steps from out of the shadows and attacks.  This beast
+&+Lis 20 or so feet tall and made of living rock.  This primitive beast shuns the
+&+Luse of weapons, prefering to beat his opponents to death with his massive
+&+Lfists of rock.
+~
+1073743978 1 0 200 0 0 0 -1000 S
+OG 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31816
+worm white~
+a &+Wwh&nit&+We w&no&+Wrm~
+a &+Wwhite &nworm slithers along the tower floor.
+~
+&+WA disgusting large snakelike beast slithers along the ice tower floors.  The
+&+Wwhite worm is quite a large monster, and takes up a large portion of the room.
+&+WIts hard to imagine what foul magics could produce such a creature.  The white
+&+Wworm seems quite intent on filling its belly with you.
+~
+72 1 0 8 0 0 0 -500 S
+G 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31817
+drake ice~
+&+ca &+Wlarge &+Cice&+W dra&+rke~
+a vicious &+Cice &+rdrake&n guards the staircase.
+~
+&+GEmerald eyes&+c glare out of the chiseled frosty face of an &+Cice &+Wdrake.&+c The large
+&+cdragon-like creature has been stationed here to prevent further access to the
+&+Cice tower&+c.  Its shimmering white and blue scales reflect the terrified faces
+&+cof the drake's enemies.  Claws the size of a gnome are poised to rip the
+&+cadversaries of the &+Cice &+Wdrake&+c to shreds.  Perhaps visiting this tower was
+&+cnot such a good idea afterall.
+~
+14922 0 0 805306392 0 0 0 -1000 S
+D 0 65 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31818
+slavemaster giant frost~
+&+cthe &+Wfrost &+cgiant &+rslave&+Lmaster~
+&+cA strong &+Wfrost &+cgiant&n is going over production reports.
+~
+   This overbearing &+Wfrost &+cgiant&n is large even for a giant.  He bears
+the responsibility of making sure the slaves of the &+Cice tower&n are producing
+up to their potential.  He is in charge of the other slave drivers of the tower
+and dictates how the mining operation is run.  It is unlikely that this &+cgiant
+will take kindly to your barging into his office.
+~
+2154 1 0 8 0 0 0 -1000 S
+G 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31819
+slave barbarian~
+&na &+bbarbarian &nslave~
+A &+bbarbarian &nslave seems disoriented and tired.
+~
+&+bBarbarians &nare known for their strength and endurance.  This member of the
+Utuva clan has been taken from his home and brought here to work in the
+tower.  Large gashes are numerous on the slave's back, from many lashings
+administered by the overbearing &+Wfrost &+cgiants&n.  This barbarian's eyes
+are completely white and show no signs of acknowledging your presence.
+~
+2122 0 0 8 0 0 0 1000 S
+PB 11 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31820
+giant frost driver~
+&+ca &+Wfrost &+cgiant &+rslave driver~
+A &+cgiant &nwith &+Wpale&n skin watches over the slaves.
+~
+This &+wfrost &+cgiant&n scowls as he barks orders at the &+bbarbarian &nslaves.  He
+must thoroughly enjoy his job, because an unmistakable smile appears on his
+face with every snap of his whip.
+~
+1073743946 1 0 8 0 0 0 -1000 S
+G 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31821
+duergar stealthy~
+&+ra &+Lstealthy &+rduergar~
+&+LHiding to the shadows, a &+rduergar&+L stalks his prey.
+~
+&+LThis &+rduergar&+L has mastered the art of hiding in the shadows.  He uses this
+&+Lskill to leap at his opponents and thrust his daggers into them with deadly
+&+Lprecision.  This dangerous rogue can often kill an opponent before they are
+&+Laware of the &+rduergar's &+Lpresence.
+~
+1073744072 1 0 270008330 0 0 0 -1000 S
+PD 6 8192 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31822
+barbarian wounded~
+&+ba &+rseverely wounded &+bbarbarian~
+A &+bbarbarian &nlies here barely clutching to life.
+~
+This severely wounded &+bbarbarian &nlies against the cave walls clutching an
+enormous gaping chest wound.  The &+bbarbarian's &neyes widen as you approach her,
+and she beckons you to come closer.  When you are close enough to hear her
+faint voice, she speaks in a whispering tone "My hus.. band and I were one of
+the first captured.  I don't know how long we've been here, but I'm sure its
+been months.  All the slaves here are under a spell conjured by the evil &+Cice
+&+Csorceress&n.  My husband was burned by a torch up in the mines and was broken
+free of the spell.  He then freed me by burning me as well.  The giants noticed
+that I wasn't under the spell and dragged me off and left me for dead.  I think
+my husband is still alive... I don't think they noticed him."
+~
+2122 0 0 8 0 0 0 1000 S
+PB 11 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 2
+#31823
+slave barbarian~
+&na &+bbarbarian &nslave~
+A &+bbarbarian &nslave seems disoriented and tired.
+~
+&+bBarbarians &nare known for their strength and endurance.  This member of the
+Utuva clan has been taken from his home and brought here to work in the
+tower.  Large gashes are numerous on the slave's back, from many lashings
+administered by the overbearing &+Wfrost &+cgiants&n.  Strangely enough, this
+man's eyes have their natural color.
+~
+2122 0 0 8 0 0 0 1000 S
+PB 11 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31824
+ashivahr sorceress ice~
+&+LAs&+chiva&+Lhr&n, the &+Cice sorceress~
+&+mThe &+Cice sorceress &+mwatches over her domain.
+~
+&+LAs&+chiva&+Lhr&n, the &+Cice sorceress &nis a frightening sight.  This dark-skinned
+elf has mastered the art of &+Cice&n and now wields its power to extreme measures.
+The &+Cice sorceress&n has also found a way to control the minds of her slaves,
+who she has put to work mining for her.  This &+cice tower &nwas originally a
+mountain rich with &+Ygold&n.  The sorceress used a powerful enchantment to hide
+the true identity of the mountain to scare off any possible claims to the vast
+riches of the mines in the mountain.  She is unlikely to surrender her illusion
+away, and will fight to the death.
+~
+26698 1 0 268435482 2048 0 0 -1000 S
+PL 3 512 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31825
+elite frost giant~
+&+can &+relite &+Wfrost &+cgiant~
+A &+Wfrost &+cgiant &nprotects his master.
+~
+Only the most skilled warriors are given the honor of protecting the
+&+Cice sorceress&n.  This &+Wfrost &+cgiant &nhas shown the prowess of battle
+which has caught the attention of &+LAs&+chiva&+Lhr&n.  This strong giant stands
+defiantly here, willing to give his life in protection of his master.
+~
+10314 1 0 8 0 0 0 -1000 S
+G 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31826
+shaman giant frost~
+&+ga &+Wfrost &+cgiant &+gshaman~
+A &+Wfrost &+cgiant &ntoys with the elements of &+gnature&n.
+~
+This &+Wfrost &+cgiant &nis certainly wiser than most of his giant brethren.  He
+has become quite adept at using the forces of &+gnature&n to acquire his goals.
+The &+Wfrost &+Cgiant&n has sold his services to the &+Cice sorceress&n in exchange
+for monetary compensation.
+~
+14410 1 0 8 0 0 0 -1000 S
+G 0 256 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31827
+giant frost honor guard~
+&+ca &+Wfrost &+cgiant &+Yhonor &+Lguard~
+&+cAn elaborately dressed &+Wfrost &+cgiant &+Yhonor &+Lguard &+cpaces the area.
+~
+This &+wfrost &+cgiant&n has been equipped in a beautiful &+Ygolden &nbreastplate which
+gleams even in the gloomy surroundings of the &+Cice &+ctower&n.  Quite obviously
+this giant is one of the elite warriors under the service of the &+Cice priestess&n.
+It would be very foolhardy to underestimate the immense strength of the large
+humanoid.  With weapon in hand, this giant lumbers forth to defend the domain
+of his master.
+~
+1073743944 1 0 268435468 2048 0 0 -1000 S
+G 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

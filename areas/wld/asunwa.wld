@@ -1,0 +1,2223 @@
+#35300
+&nOn a &+yMountainous &nPlateu Before a &+LDark Cave&n~
+&nThe &+ymountains &ncome to a plateau here, then continue back upwards after about
+a mile. Off to the side of this flat area is a shadowed area in the rocks, and
+upon closer inspection it appears to be a &+Ldark cave&n. There are vines and other
+fauna creeping out of the mouth of the cave, curling around the feet of the
+twin &+LJ&+Ga&+Lgu&+Ga&+Lr &+wstatues&n that stand on guard.&n
+~
+353 1073872896 5
+D0
+~
+~
+0 0 604903
+D2
+~
+~
+0 0 35301
+E
+jaguar jaguars statue statues~
+&nThe &+LJ&+Ga&+Lgu&+Ga&+Lr &+wstatues &nare in the sitting position. They have been created by
+someone with an amazing skill; the cats look like they could get up and
+wander away at any second. Their bodies have been made out of the same &+Lblack
+stone &nthat surrounds the area, but their eyes are of a &+Gforest green emerald&n.
+~
+S
+#35301
+&nA &+LCavern &nCrawling With &+GVines&n~
+&nThis cavern has slick &+Lblack &nrock walls, but somehow the &+Gvines &nhave managed
+to dig into it and survive. It has a rounded, almost man-made appearance, and
+there are the faint outlines of what might have been carvings in the &+wstone.
+&nThe air here is humid and smells faintly of earth and other living things.&n
+~
+353 1073741832 3
+D0
+~
+~
+0 0 35300
+D2
+~
+~
+0 0 35302
+E
+vines~
+&nThese &+Gvines &nlook to be about the hardiest there are. They are thick and
+leafy, some with flowers but others without. Thier roots dig into and through
+the stone to tap the nutritional soil that lies beneath.&n
+~
+S
+#35302
+&nA Downward Sloping &+LCavern&n~
+&nThe &+Lcavern &nbegins a downward descent here, and the walls seem to be getting
+farther apart. They also no longer seem to have been created by man, and the
+floor has become uneven, giving unsteady footing and lots of things to trip
+over. A rumbling sound can be heard from below and to the south, but it is
+not distiguishable as anything.&n
+~
+353 1073742081 3
+D0
+~
+~
+0 0 35301
+D2
+~
+~
+0 0 35303
+S
+#35303
+&nStanding Above a Torrential &+BWaterfall&n~
+&nThe &+Lcave &nhas expanded into a gigantic cavern. There is a ledge running around
+the edge of it and you are on the northern rim of it. Below this point, another
+&+Ltunnel &nempties the river that rushes through it out into space. The &+Bwater
+&ncascades downwards, out of sight to the south. The noise is positively
+deafening. This room is lighter than the last two, it seems to be coming from
+some hole above and to the south of you.&n
+~
+353 4194304 4
+D0
+~
+~
+0 0 35302
+D1
+~
+~
+0 0 35304
+D3
+~
+~
+0 0 35311
+E
+water waterfall tunnel~
+&n The water spouting out of the tunnel and soaring downwards makes a
+trememdous amount of noise. The water glints and sparkles in the odd light
+here.&n
+~
+S
+#35304
+&nOn a Ledge in the North-Eastern Corner of the &+LCavern&n~
+&nThis corner of the &+Lcavern &nhas a slimmer ledge than what appears around the
+rest of the area. The source of light that made everything visible to the
+west is not present here. The rocks are slippery, covered with moss, and they
+are quite acridly pungent.
+~
+353 1 4
+D2
+~
+~
+0 0 35305
+D3
+~
+~
+0 0 35303
+S
+#35305
+&nAlong the Western Wall of the &+LCavern&n~
+&nThe ledge has become wider here, and the footing more stable. Across the
+&+Lcavern &nyou can barely make out what looks like a tunnel leading away from
+the ledge, but it is too dark to tell. The ground underfoot has turned to
+moss covered &+ydirt&n, and the walls seem to be soil compacted around rock,
+instead of pure rock. They don't look very solid.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35304
+D2
+~
+~
+0 0 35306
+S
+#35306
+&nAlong the Western Wall of the &+LCavern&n~
+&nThe ledge ends here, with only a solid wall to the south. It looks to be
+unclimbable. There is, however, a tight squeeze to the east, which looks
+like it might have something more interesting behind it. The rocks and soil
+of the walls here are slowly crumbling off, making thudding noises as they
+roll into the &+Lblackness &nbelow.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35305
+D1
+~
+~
+0 0 35307
+E
+black blackness~
+&nIt's &+Lblack and dark genuis.&n
+~
+S
+#35307
+&nA &+LDark &nBut Pleasant Passage&n~
+&nThere is soft &+ysoil &nproviding good footing here, and &+Gvines &nand small bushes
+line the walls. The smell here is pleasant and earthy. The walls seem far
+less likely to collapse here. The air seems to vibrate oddly, almost as if
+the rocks and plants were humming to themselves happily.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35308
+D2
+~
+~
+0 0 35322
+D3
+~
+~
+0 0 35306
+S
+#35308
+&nA Bend in a &+LDark &nBut Pleasant Passage&n~
+&nThe passage you are following turns to the east here, but does so at almost
+right angles. The &+Gplants &nin this area look healthier than the last ones, as
+if someone was taking care of them. There looks to be what might be footprints
+on the ground here, but it really is impossible to tell. The humming noise is
+getting louder as you progress.&n
+~
+353 9 0
+D1
+~
+~
+0 0 35309
+D2
+~
+~
+0 0 35307
+S
+#35309
+&nAn Odd &+GGarden &nWith a Trail Through It&n~
+&nObviously someone lives in the near area, because this &+Ggarden &nhas been well
+taken care of. The smell of flowers is in the air, and that pleasant humming
+has gotten louder. What looks like the end of this passage is to your south,
+though it's hard to tell in this light.&n
+~
+353 0 0
+D2
+~
+~
+0 0 35310
+D3
+~
+~
+0 0 35308
+E
+garden~
+&nThere are all sorts of plants, vines and fungii that like living in dim
+light in this garden. All of them are extremely healthy, and hold what looks
+to be an interesting assortment of insects. The garden is fenced in with
+vines that have been grown along rocks laid along the path.&n
+~
+S
+#35310
+&nThe Home of a Smiling &+GDruid&n~
+&nThe &+GDruid Anair &nhas made what seems to be a very comfortable home here. There
+is a bed in one corner, a table in the other, and gardening tools everywhere.
+The general atmosphere is happy and calm, and the sounds of that humming are
+still quite prominant.&n
+~
+353 4194312 0
+D0
+~
+~
+0 0 35309
+S
+#35311
+&+wOn a Ledge in The North-Western Corner of the &+LCavern&n~
+&nAs the ledge runs around the curve of the wall, you think you see something
+glittering. Looking closer, there appears to be both &+Ygold &nand &+Rgems &nembedded
+in the &+wwall &nalong here. The stone is extremely hard though, and it doesn't
+look very easy to get them out.&n
+~
+353 1 4
+D1
+~
+~
+0 0 35303
+D2
+~
+~
+0 0 35312
+E
+wall gold gems~
+&nUpon closer examination, you can indeed tell that there is a thick vein
+of &+Ygold &nhere, as well as many many small &+Rgemstones&n. There also appears to be
+a large hole in the wall, as if a stone of some sort fell out. It's not
+visible right now, but maybe if you looked hard enough it could be found.&n
+~
+S
+#35312
+&nThe End of the Ledge on the Western Wall of the &+LCavern&n~
+&nThe ledge ends abruptly here, but there seems to be a narrow tunnel leading
+to the west. The air pushing through the tunnel seems to be warmer and more
+pleasant than what is currently in the &+Lcavern&n. There also seems to be a
+passage about twenty feet to the south, but there doens't look like there's
+any way to get to it from this side.&n
+~
+353 1 4
+D0
+~
+~
+0 0 35311
+D3
+~
+~
+0 0 35313
+S
+#35313
+&nA &+LDark&n, Narrow Passageway&n~
+&nThis would not be a fun area for anyone who had problems with tight spaces.
+This passage, although warm with solid footing, is rather tight with a low
+ceiling. It curves slowly southward.&n
+~
+353 8193 4
+D1
+~
+~
+0 0 35312
+D2
+~
+~
+0 0 35316
+S
+#35314
+&nThe Home of A Crying &+GDruid&n~
+&nThis niche in the rocks looks like it was once very habitable, but now it
+has fallen to virtual ruin. The &+GDruid Riana &nappears quite upset, and has been
+neglecting her housekeeping. The air here is warm and fragrant, possibly
+because of the plants that have grown inside the room.&n
+~
+353 4194568 0
+D2
+~
+~
+0 0 35315
+S
+#35315
+&nAn Empty &+wStone Fountain &nCovered by &+GVines&n~
+&nThe crumbling remains of what was once a magnificent piece of stone work
+stand here. The &+wfountain &nis now full of &+ysoil&n, and all types of plants and
+&+Gvines &nare growing in it. A trail made of tiny shining stones leads around the
+fountain, heading to the north. There is a hole in the tunnel, just big enough
+to let in some light, in the ceiling here. It looks like it was carved out by
+someone.&n
+~
+353 4096 3
+D0
+~
+~
+0 0 35314
+D1
+~
+~
+0 0 35316
+E
+fountain~
+&nThe &+wfountain &nhas been tenderly filled with what looks like the best soil
+in these parts. The flowers are fragrant and have beautiful blossoms. The
+design on the fountain itself is something of a mystery, as age and the cover
+of plantlife that live on it have worn the pattern and figurine down.&n
+~
+S
+#35316
+&nA Four-Way Intersection&n~
+&nThe passage is wider here than to the north, and there are three other
+similar looking ways to go. The only difference is that there are plants
+to the west, and only shadowed tunnels in the other directions. The pounding
+of the &+Bwaterfall &nhas quieted, fading to only a dull throbbing.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35313
+D1
+~
+~
+0 0 35317
+D2
+~
+~
+0 0 35318
+D3
+~
+~
+0 0 35315
+S
+#35317
+&nA Short Tunnel That Looks Out Over the &+BWaterfall&n~
+&nThis room is lit by something, though it is hard to tell what. The light
+seems to diffuse from this one room, and gives you the best view you've had
+so far of the surging &+Bwaterfall &nbelow. With the apparently magical lighting
+in here, it is possible to see the water crashing on to the rocks underneath,
+bouncing and churning and then flowing on to the south. There is an eerie
+glow from the bottom of the falls, but it seems to be natural light reflected
+off of the water.
+~
+353 4194312 0
+D3
+~
+~
+0 0 35316
+S
+#35318
+&nAn Bend in an Unremarkable Passage&n~
+&nThis featureless passage is made of smooth &+Lblack &nstone, and is circular
+in shape. It turns to the east.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35316
+D1
+~
+~
+0 0 35319
+S
+#35319
+An Unremarkable Passage~
+&nThis featureless passage is made out of smooth &+Lblack &nstone, and is rather
+circular in shape. The waterfall can be heard through the walls, rumbling.&n
+~
+353 1 1
+D1
+~
+~
+0 0 35320
+D3
+~
+~
+0 0 35318
+S
+#35320
+&nAn Unremarkable Passage&n~
+&nThis featureless passage is made out of smooth &+Lblack &nstone, and is rather
+circular in shape. The waterfall can be heard through the walls, rumbling.&n
+~
+353 1 1
+D1
+~
+~
+0 0 35321
+D3
+~
+~
+0 0 35319
+S
+#35321
+&nAn Unremarkable Passage&n~
+&nThis featureless passage is made out of smooth &+Lblack &nstone, and is rather
+circular in shape. The waterfall can be heard through the walls, rumbling.&n
+~
+353 1 1
+D1
+~
+~
+0 0 35322
+D3
+~
+~
+0 0 35320
+S
+#35322
+&nAn Intersection of Passages&n~
+&nThis passage is made out of smooth &+Lblack &nstone, and is rather circular
+in shape. The waterfall can be heard through the walls, rumbling. There is
+another passage downwards, extremely steep, but it looks climbable.&n
+~
+353 1 1
+D0
+~
+~
+0 0 35307
+D3
+~
+~
+0 0 35321
+D5
+~
+~
+0 0 35323
+S
+#35323
+&nA Rocky Ledge Beside a &+BWaterfall&n~
+&nThis natural &+Lledge &nstands a little bit above the short &+briver &nthat flows
+over the rocks here. Beyond the ledge, the cavern expands outwards into
+an otherwise hidden valley in the mountains. &+GJungle vegetation &nseems to be
+fed by the river and is thickly spread out below.&n
+~
+353 8388612 4
+D3
+~
+~
+0 0 35324
+D4
+~
+~
+0 0 35322
+S
+#35324
+&nOn a Ledge Before the &+BFalls&n~
+&nThe &+Bwater &npicks up speed here, before &+bc&+Wa&+bs&+Wc&+ba&+Wd&+bi&+Wn&+bg &noff of the ledge and into
+the &+Gjungle &nbelow. The rocks are slimy and algae covered, making footing
+unsteady. The view over the tree-tops in breathtaking, however. There seems
+to be a light green aura that vibrates in the air. The jungle looks unspoiled
+and extremely natural, as if no human hand had ever touched anything. A ledge
+is to the east, a little above the waterline.&n
+~
+353 4096 4
+D0
+~
+~
+0 0 35325
+D1
+~
+~
+0 0 35323
+D3
+~
+~
+0 0 35329
+D5
+~
+~
+0 0 35340
+F
+30
+C
+25 5
+S
+#35325
+&nAt the Edge of a &+BRiver&n~
+&nThe &+Briver &nflows swiftly over &+Gmossy &nrocks here, making good balance a hard
+thing to keep. The torrent of water is curbed by a large &+Lridge of rock&n. It is
+too slippery to climb, and disappears into the darkness overhead.&n
+~
+353 4096 6
+D0
+~
+~
+0 0 35326
+D2
+~
+~
+0 0 35324
+D3
+~
+~
+0 0 35328
+C
+35 2
+S
+#35326
+&nAt the Base of a Crashing &+BWaterfall&n~
+&+BWater &nflies about after crashing off of the &+Lrocks &nat the bottom of the
+falls. The air is thick with spray, and it is hard to see very far. The
+water swiftly runs southwards, towards the end of the cliff, trying hard to
+take everything in its path along for the ride.&n
+~
+353 4096 6
+D2
+~
+~
+0 0 35325
+D3
+~
+~
+0 0 35327
+C
+30 2
+S
+#35327
+&nAt the Base of a Crashing &+BWaterfall&n~
+&+BWater &nflies about after crashing off of the &+Lrocks &nat the bottom of the
+falls. The air is thick with spray, and it is hard to see very far. The
+water swiftly runs eastwards, then south, towards the end of the cliff, trying
+hard to take everything in its path along for the ride.&n
+~
+353 4096 6
+D1
+~
+~
+0 0 35326
+D2
+~
+~
+0 0 35328
+D3
+~
+~
+0 0 35332
+C
+30 1
+S
+#35328
+&nA &+wRocky &nIsland in the Middle of a &+BRiver&n~
+&nThe &+Briver &nflows swiftly around the rock you are standing on. The torrent
+of water is also curbed by two large &+Lridges of rock&n, one to the east and
+one to the west. They direct the river southwards, towards the end of this
+rocky precipice.&n
+~
+353 4096 4
+D0
+~
+~
+0 0 35327
+D1
+~
+~
+0 0 35325
+D2
+~
+~
+0 0 35329
+D3
+~
+~
+0 0 35331
+S
+#35329
+&nOn a Ledge Before the &+BFalls&n~
+&nThe &+Bwater &npicks up speed here, before &+bc&+Wa&+bs&+Wc&+ba&+Wd&+bi&+Wn&+bg &noff of the ledge and into
+the &+Gjungle &nbelow. The rocks are slimy and algae covered, making footing
+unsteady. The view over the tree-tops in breathtaking, however. There seems
+to be a light green aura that vibrates in the air. The jungle looks unspoiled
+and extremely natural, as if no human hand had ever touched anything.&n
+~
+353 4096 4
+D0
+~
+~
+0 0 35328
+D1
+~
+~
+0 0 35324
+D3
+~
+~
+0 0 35330
+D5
+~
+~
+0 0 35341
+F
+30
+C
+25 5
+S
+#35330
+&nOn a Ledge Before the &+BFalls&n~
+&nThe &+Bwater &npicks up speed here, before &+bc&+Wa&+bs&+Wc&+ba&+Wd&+bi&+Wn&+bg &noff of the ledge and into
+the &+Gjungle &nbelow. The rocks are slimy and algae covered, making footing
+unsteady. The view over the tree-tops in breathtaking, however. There seems
+to be a light green aura that vibrates in the air. The jungle looks unspoiled
+and extremely natural, as if no human hand had ever touched anything.&n
+~
+353 4096 4
+D0
+~
+~
+0 0 35331
+D1
+~
+~
+0 0 35329
+D5
+~
+~
+0 0 35342
+F
+30
+C
+25 5
+S
+#35331
+&nAt the Edge of a &+BRiver&n~
+&nThe &+Briver &nflows swiftly over &+Gmossy &nrocks here, making good balance a hard
+thing to keep. The torrent of water is curbed by a large &+Lridge of rock&n. It is
+too slippery to climb onto, but over to the west, past the wall, appears to
+be a small cavern in the rock.&n
+~
+353 4096 6
+D0
+~
+~
+0 0 35332
+D1
+~
+~
+0 0 35328
+D2
+~
+~
+0 0 35330
+C
+35 2
+S
+#35332
+&nAt the Base of a Crashing &+BWaterfall&n~
+&+BWater &nflies about after crashing off of the &+Lrocks &nat the bottom of the
+falls. The air is thick with spray, and it is hard to see very far. The
+water swiftly runs southwards, towards the end of the cliff, trying hard to
+take everything in its path along for the ride. There appears to be a narrow
+shelf to the west. It just might be possible to clamber up and have a look
+around.&n
+~
+353 4096 6
+D1
+~
+~
+0 0 35327
+D2
+~
+~
+0 0 35331
+D3
+~
+~
+0 0 35333
+C
+30 2
+S
+#35333
+&nA Narrow Shelf in the &+wRock&n~
+&nThis &+wnarrow shelf in the rock &nappears to have been carved out by someone
+or something a long time ago. Its purpose seems to be to connect two caverns,
+a smaller one to the north, and a larger one to the west. Natural light
+filters in from a gap in the rocky overhang to the south, but there doesn't
+seem to be any plantlife in either cavern that is visible from here.&n
+~
+353 4096 0
+D0
+~
+~
+0 0 35334
+D1
+~
+~
+0 0 35332
+D3
+~
+~
+0 0 35335
+S
+#35334
+&nA Small Cavern~
+&nThis &+wcavern &nhas been carved out of the surrounding stone. Two stone basins,
+which appear to be part of the walls, are filled with &+rburning &+Lcoals &nand &+Gherbs&n.
+They give off a deep, aromatic smell, and light up the room dimly. It almost
+seems to be an altar, as the smooth lines of the floor form a walkway to the
+northmost part of the cabin. Whatever diety was once worhipped, nothing now
+remains of the idol but some &+wrubble &non the floor.&n
+~
+353 4194312 0
+D2
+~
+~
+0 0 35333
+E
+rubble idol~
+&nThe &+wrubble &ncreated from the idol of a diety long gone has been scattered
+about the room. There are large and small chunks of &+wgray stone &nin piles, and
+a layer of dust covers the room. In one corner, you think you can see a spot
+of &+Gglistening green &namongst the duller colored rocks.&n
+~
+S
+#35335
+&nA Long, Featureless Cavern&n~
+&nThis cavern is rather long, but has nothing in it. The walls are cracked
+with age, some of the creases run into darkness they are so deep. There are
+piles of dust and small rocks all along the perimiter of the cave, except for
+a small area on the south wall.&n
+~
+353 4097 0
+D1
+~
+~
+0 0 35333
+D2
+&nThe cracks in the wall seem to form a door on the southern wall of the
+cavern. There is even a little nobbule of stone protruding from the wall;
+it looks like you could use it as a handle.&n
+~
+wall cracks nobbule door~
+5 0 35336
+S
+#35336
+&nA &+LDark Circular Cavern&n~
+&nThis &+Lcavern &nis large and circular, but there is something odd about it. The
+darkness in here seems to try to suck up the light, making only your immediate
+area visible. The floor seems to be plain dirt, but the air is not stale, so
+there must be a breeze somewhere. Small vines and other sun hating plants are
+attempting to grow along the walls, but they seem to be doing badly.&n
+~
+353 9 0
+D0
+~
+wall cracks nobbule door~
+5 0 35335
+D2
+~
+~
+0 0 35337
+D3
+~
+~
+0 0 35339
+S
+#35337
+&nA &+LDark Circular Cavern&n~
+&nThis &+Lcavern &nis large and circular, but there is something odd about it. The
+darkness in here seems to try to suck up the light, making only your immediate
+area visible. The floor seems to be plain dirt, but the air is not stale, so
+there must be a breeze somewhere. Small vines and other sun hating plants are
+attempting to grow along the walls, but they seem to be doing badly.&n
+~
+353 9 0
+D0
+~
+~
+0 0 35336
+D3
+~
+~
+0 0 35338
+S
+#35338
+&nA &+LDark Circular Cavern&n~
+&nThis &+Lcavern &nis large and circular, but there is something odd about it. The
+darkness in here seems to try to suck up the light, making only your immediate
+area visible. The floor seems to be plain dirt, but the air is not stale, so
+there must be a breeze somewhere. Small vines and other sun hating plants are
+attempting to grow along the walls, but they seem to be doing badly.&n
+~
+353 9 0
+D0
+~
+~
+0 0 35339
+D1
+~
+~
+0 0 35337
+S
+#35339
+&nA &+LDark Circular Cavern&n~
+&nThis &+Lcavern &nis large and circular, but there is something odd about it. The
+darkness in here seems to try to suck up the light, making only your immediate
+area visible. The floor seems to be plain dirt, but the air is not stale, so
+there must be a breeze somewhere. Small vines and other sun hating plants are
+attempting to grow along the walls, but they seem to be doing badly.&n
+~
+353 9 0
+D1
+~
+~
+0 0 35336
+D2
+~
+~
+0 0 35338
+S
+#35340
+&nBelow the &+BFalls&n, on the Edge of a Large &+bPool&n~
+&nThe &+Bwater &ncourses down the &+wrock &nwall to form a large &+bpool &nhere. The roar
+of the &+Bwater &nis quieter, and the current doesn't seem too rough. The &+wgravel
+&nlining the bottom of the pool seems to be composed of the same material as
+the walls, but more rounded and smooth. There looks to be a series of grooves
+in the wall that could be used to climb up towards the top of the waterfall.&n
+~
+353 0 6
+D2
+~
+~
+0 0 35345
+D3
+~
+~
+0 0 35341
+D4
+~
+~
+0 0 35324
+C
+15 2
+S
+#35341
+&nBelow the &+BFalls&n, in the Middle of a Large &+bPool&n~
+&nThe &+Bwater &ncourses down the &+wrock &nwall to form a large &+bpool &nhere. The roar
+of the &+Bwater &nis quieter, and the current doesn't seem too rough. The &+wgravel
+&nlining the bottom of the pool seems to be composed of the same material as
+the walls, but more rounded and smooth.&n
+~
+353 0 6
+D1
+~
+~
+0 0 35340
+D2
+~
+~
+0 0 35344
+D3
+~
+~
+0 0 35342
+C
+15 2
+S
+#35342
+&nBelow the &+BFalls&n, on the Edge of a Large &+bPool&n~
+&nThe &+Bwater &ncourses down the &+wrock &nwall to form a large &+bpool &nhere. The roar
+of the &+Bwater &nis quieter, and the current doesn't seem too rough. The &+wgravel
+&nlining the bottom of the pool seems to be composed of the same material as
+the walls, but more rounded and smooth. There looks to be a series of grooves
+in the wall that could be used to climb up towards the top of the waterfall.&n
+~
+353 0 6
+D1
+~
+~
+0 0 35341
+D2
+~
+~
+0 0 35343
+D4
+~
+~
+0 0 35330
+C
+15 2
+S
+#35343
+&nOn the Edge of a Large &+bPool&n~
+&nThe current is still mild here, and the &+wrock wall &nrecedes to the west. To
+the southwest there seems to be a sudden abundance of &+Ggreenery&n, mostly
+&+Yt&+Gr&+Ro&+Gp&+Yi&+Wc&+Ga&+Yl&n looking plants. Off in the distance one can almost hear birds
+chirping, but the roar of the &+bwaterfall &nto the north makes it hard to be sure.
+There seems to be a pathway on the land to the west.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35342
+D1
+~
+~
+0 0 35344
+D2
+~
+~
+0 0 35350
+D3
+~
+~
+0 0 35352
+S
+#35344
+&nIn the Middle of a Large &+bPool&n~
+&nThe roar of the &+Bwater &nis quieter here, and the current doesn't seem too rough.
+The &+wgravel &nlining the bottom of the pool seems to be composed of the same
+material as the walls from the &+bwaterfall&n, but more rounded and smooth. To both
+the west and the east the stones lining the pool move back, letting &+Ggreenery
+&ntake &+yroot &nbeside the &+Bwater&n. The &+Gvegetation &nis lush and sweet smelling,
+with beautiful &+Gvi&+Gn&+ge&+Gs &nand &+rf&+Yl&+Ro&+Yw&+Re&+Yr&+Gs &nrunning throughout.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35341
+D1
+~
+~
+0 0 35345
+D2
+~
+~
+0 0 35349
+D3
+~
+~
+0 0 35343
+S
+#35345
+&nOn the Edge of a Large &+bPool&n~
+&nThe current is still mild here, and the &+wrock wall &nrecedes to the east. To
+the southeast there seems to be a sudden abundance of &+Ggreenery&n, mostly
+&+Yt&+Gr&+Ro&+Gp&+Yi&+Wc&+Ga&+Yl&n looking plants. Off in the distance one can almost hear birds
+chirping, but the roar of the &+bwaterfall &nto the north makes it hard to be sure.
+There seems to be a pathway on the land to the east.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35340
+D1
+~
+~
+0 0 35346
+D2
+~
+~
+0 0 35348
+D3
+~
+~
+0 0 35344
+S
+#35346
+&nAn Odd Little Trail Through the &+GBushes&n~
+&nThis odd looking trail leads into the &+Gbushes&n, away from the &+bpool &nof water
+to the west. The &+Gbushes &nare only waist high here, but very dense on either
+side of the trail. The damp soil underfoot is very &+Ldark&n, but the &+Gplants &naround
+seem to thrive on it. The trail turns southward soon after the &+bpool &nis out of
+view.&n
+~
+353 0 1
+D2
+~
+~
+0 0 35347
+D3
+~
+~
+0 0 35345
+S
+#35347
+&nAn Odd Little Trail Through the &+GBushes&n~
+&nThis odd looking trail has gone in a loop and is heading back towards the &+bpool
+&nto the west. The &+Gbushes &nare only waist high here, but very dense on either
+side of the trail. The damp soil underfoot is very &+Ldark&n, but the &+Gplants &naround
+seem to thrive on it. The trail turns westward soon after the &+bpool &nis back
+in view.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35346
+D3
+~
+~
+0 0 35348
+S
+#35348
+&nSoutheastern End of the &+bPool&n~
+&nThe current has picked up speed now, and the pool is disappearing over the
+lip of a foot long chasm separating the pool of water from the &+yland &non the
+other side. The &+Ggreenery&n seems now to extend further to the east, still mostly
+&+Yt&+Gr&+Ro&+Gp&+Yi&+Wc&+Ga&+Yl&n looking plants. The chirping birds and other jungle noises
+seem quite loud now. The &+Ldark rift &nin front of you looks easily crossible, and
+there seems to be another pathway on the land to the east.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35345
+D1
+~
+~
+0 0 35347
+D2
+~
+~
+0 0 35363
+D3
+~
+~
+0 0 35349
+D5
+~
+~
+0 0 35402
+F
+25
+C
+20 5
+S
+#35349
+&nMiddle of the Southern End of the &+bPool&n~
+&nThe current has picked up speed, rushing along the &+wgravel &nlining the bottom of
+the pool. It then disappears over the lip of a foot long &+Lchasm&n. To both the
+west and the east the &+Ggreenery &non either side of the &+bpool &nexpands out of sight.
+Directly across the chasm is a huge tree covered with beautiful &+Gvi&+Gn&+ge&+Gs &nand
+&+rf&+Yl&+Ro&+Yw&+Re&+Yr&+Gs &nrunning all over it.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35344
+D1
+~
+~
+0 0 35348
+D2
+~
+vine vines~
+7 35307 35405
+D3
+~
+~
+0 0 35350
+D5
+~
+~
+0 0 35403
+E
+vine vines~
+&nThe &+Gv&+gi&+Gn&+ge&+Gs &nhere are so tightly woven that they form what looks like a woven
+wall to the south. The &+Rc&+co&+Yl&+Mo&+Gr&+Ws &nare beautiful. Near the bottom of the wall an
+oddity occurs in the pattern. It almost seems like a &+Lhole&n...&n
+~
+E
+hole oddity~
+&nUpon closer examination one can tell that the &+Lhole &nat the bottom of the wall
+of &+Gv&+gi&+Gn&+ge&+Gs &nis of a specific shape. It's hard to tell from looking at the mold,
+but it appears to be the outline of a cat of some sort, about the length of
+a human hand. It looks like something is meant to be put in the hole, almost
+like a keyhole of sorts.&n
+~
+F
+25
+C
+20 5
+S
+#35350
+&nSouthwestern End of the &+bPool&n~
+&nThe current has picked up speed now, and the pool is disappearing over the
+lip of a foot long chasm separating the pool of water from the &+yland &non the
+other side. The &+Ggreenery&n seems now to extend further to the west, still mostly
+&+Yt&+Gr&+Ro&+Gp&+Yi&+Wc&+Ga&+Yl&n looking plants. The chirping birds and other jungle noises
+seem quite loud now. The &+Ldark rift &nin front of you looks easily crossible, and
+there seems to be another pathway on the land to the west.&n
+~
+353 0 6
+D0
+~
+~
+0 0 35343
+D1
+~
+~
+0 0 35349
+D2
+~
+~
+0 0 35360
+D3
+~
+~
+0 0 35351
+D5
+~
+~
+0 0 35404
+F
+25
+C
+20 5
+S
+#35351
+&nAlong a Well-Used &+yTrail&n~
+&nThis &+ytrail &nhas been trampled into the ground my many feet, and not many
+plants are venturing out onto it. The &+Gbushes &nhere are only waist-high, making
+it easy see over them. The trail continues out of sight to the north, to a
+&+bpool &nof water to the east, and the vegetation gets taller as the trail winds
+towards the south.&n
+~
+353 4 1
+D0
+~
+~
+0 0 35352
+D1
+~
+~
+0 0 35350
+D2
+~
+~
+0 0 35353
+S
+#35352
+&nA Well-Used &+yTrail&n~
+&nThis &+ytrail &nhas been trampled into the ground my many feet, and not many
+plants are venturing out onto it. The &+Gbushes &nhere are only waist-high, making
+it easy see over them. The trail gets narrower as it leads away from the
+&+bpool &nof water to the east, and the vegetation gets taller as the trail winds
+towards the south.&n
+~
+353 0 1
+D1
+~
+~
+0 0 35343
+D2
+~
+~
+0 0 35351
+S
+#35353
+&nAlong a Winding Well-Used &+yTrail&n~
+&nThe &+ytrail &nnow winds its way through &+Gtrees and bushes &nthat increase in size
+as the trail moves south. The packed, dark brown soil seems very squishy,
+depressing and then going back to its original shape with every shape. The
+noises of the jungle are quite loud, with many birds chirping and chattering.
+The trail continues north and west.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35351
+D3
+~
+~
+0 0 35354
+S
+#35354
+&nAlong a Winding Well-Used &+yTrail&n~
+&nThe &+ytrail &nnow winds its way through &+Gtrees and bushes &nthat increase in size
+as the trail moves south. The packed, dark brown soil seems very squishy,
+depressing and then going back to its original shape with every shape. The
+noises of the jungle are quite loud, with many birds chirping and chattering.
+The trail continues east and south.&n
+~
+353 0 1
+D1
+~
+~
+0 0 35353
+D2
+~
+~
+0 0 35355
+S
+#35355
+&nA Crosspath of Two &+yTrails&n~
+&nTwo trails converge here, a well-used &+ytrail &nthat leads north and east, and
+a less traveled &+Ltrail &nthat leads south and west. The eastern trail seems to
+go on for quite a ways, while the northern section of the well-used trail
+disappears around a bend quite early. The &+Gvegetation &nto the west and south
+seems sparser, and the trail leading in those directions seems like a game
+trail.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35354
+D1
+~
+~
+0 0 35358
+D2
+~
+~
+0 0 35357
+D3
+~
+~
+0 0 35356
+S
+#35356
+&nA &+GMeadow &nat the End of the &+LGame Trail&n~
+&nThe &+Lgame trail &nends here, and as it emerges from the taller trees and bushes,
+an oddly clear area becomes visible. It is a silm plot of &+Ggrassy land &nthat
+extends to the southeast. Grazing animal tracks are all over the ground here,
+making it apparent that this is a favorite feeding ground for them.&n
+~
+353 0 1
+D1
+~
+~
+0 0 35355
+D9
+~
+~
+0 0 35357
+S
+#35357
+&nA &+GMeadow &nat the End of the &+LGame Trail&n~
+&nThe &+Lgame trail &nends here, and as it emerges from the taller trees and bushes,
+an oddly clear area becomes visible. It is a silm plot of &+Ggrassy land &nthat
+extends to the northwest. Grazing animal tracks are all over the ground here,
+making it apparent that this is a favorite feeding ground for them.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35355
+D6
+~
+~
+0 0 35356
+S
+#35358
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and south from here.&n
+~
+353 4 3
+D1
+~
+~
+0 0 35359
+D2
+~
+~
+0 0 35379
+D3
+~
+~
+0 0 35355
+S
+#35359
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go north, west and east from here.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35360
+D1
+~
+~
+0 0 35361
+D3
+~
+~
+0 0 35358
+S
+#35360
+&nA Tight Squeeze Through the Dense &+GV&+gi&+Gn&+ge&+Gs&n~
+&nThere's a little path through the &+Gv&+gi&+Gn&+ge&+Gs &nand &+Gbushes &nhere, but it's going to
+be a tight squeeze. To the north is the &+Bdeep pool &nand the &+Lchasm &nit's running
+into, and to the south is what looks to be almost a solid wall of &+yb&+Ya&+ymb&+Yo&+yo&n. A
+little bit of tricky maneuvering will lead to a clearer spot to the south.&n
+~
+353 4 3
+D0
+~
+~
+0 0 35350
+D2
+~
+~
+0 0 35359
+S
+#35361
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and south from here.&n
+~
+353 0 3
+D1
+~
+~
+0 0 35362
+D2
+~
+~
+0 0 35377
+D3
+~
+~
+0 0 35359
+S
+#35362
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and north from here.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35363
+D1
+~
+~
+0 0 35364
+D3
+~
+~
+0 0 35361
+S
+#35363
+&nA Tight Squeeze Through the Dense &+GV&+gi&+Gn&+ge&+Gs&n~
+&nThere's a little path through the &+Gv&+gi&+Gn&+ge&+Gs &nand &+Gbushes &nhere, but it's going to
+be a tight squeeze. To the north is the &+Bdeep pool &nand the &+Lchasm &nit's running
+into, and to the south is what looks to be almost a solid wall of &+yb&+Ya&+ymb&+Yo&+yo&n. A
+little bit of tricky maneuvering will lead to a clearer spot to the south.&n
+~
+353 4 0
+D0
+~
+~
+0 0 35348
+D2
+~
+~
+0 0 35362
+S
+#35364
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go north, south and west from here.&n
+~
+353 0 2
+D0
+~
+~
+0 0 35365
+D2
+~
+~
+0 0 35375
+D3
+~
+~
+0 0 35362
+S
+#35365
+&nA &+GJungle &nPath&n~
+&nThis is barely even a path, but &+wstones &nhave been laid on either side of a
+small walkway that winds between the trees, seemingly to keep the &+Gjungle &nat
+bay. It seems to lead to the east, towards a large structure that can't be
+made out through the trees.&n
+~
+353 0 2
+D1
+~
+~
+0 0 35366
+D2
+~
+~
+0 0 35364
+S
+#35366
+&nA Walkway Around a Large &+yHut&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the north and the south, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway, but is broken
+to the west, where a path leads off into the &+Gjungle&n.&n
+~
+353 0 0
+D0
+~
+~
+0 0 35367
+D2
+~
+~
+0 0 35373
+D3
+~
+~
+0 0 35365
+S
+#35367
+&nNorthwest Corner of a &+yB&+Ya&+ymb&+Yo&+yo &+yWalkway&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the east and the south, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D1
+~
+~
+0 0 35368
+D2
+~
+~
+0 0 35366
+S
+#35368
+&nA Walkway Around a Large &+yHut&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the west and the east, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D1
+~
+~
+0 0 35369
+D3
+~
+~
+0 0 35367
+S
+#35369
+&nNortheast Corner of a &+yB&+Ya&+ymb&+Yo&+yo &+yWalkway&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the west and the south, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D2
+~
+~
+0 0 35370
+D3
+~
+~
+0 0 35368
+S
+#35370
+&nA Walkway Around a Large &+yHut&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the north and the south, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D0
+~
+~
+0 0 35369
+D2
+~
+~
+0 0 35371
+S
+#35371
+&nSoutheast Corner of a &+yB&+Ya&+ymb&+Yo&+yo &+yWalkway&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the north and the west, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D0
+~
+~
+0 0 35370
+D3
+~
+~
+0 0 35372
+S
+#35372
+&nA Walkway Before the Enterance to a Large &+yHut&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the east and the west, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. There is an opening to the interior of the &+yhut &nhere. A warm
+spicy scent makes you feel welcome inside. A railing circles the outer limit
+of the walkway.
+~
+353 0 0
+D0
+~
+~
+0 0 35374
+D1
+~
+~
+0 0 35371
+D3
+~
+~
+0 0 35373
+S
+#35373
+&nSouthwest Corner of a &+yB&+Ya&+ymb&+Yo&+yo Walkway&n~
+&nA &+yb&+Ya&+ymb&+Yo&+yo &nwalkway is here. It proceeds to the north and the east, and seems
+to be circling the large &+yhut &nto the east. The &+yhut &nappears to have a &+yb&+Ya&+ymb&+Yo&+yo
+&nfoundation as well as the walkway, but it is so covered in &+cf&+ml&+Yo&+Ww&+Ye&+mr&+cs &nthat its
+hard to tell. A railing circles the outer limit of the walkway.
+~
+353 0 0
+D0
+~
+~
+0 0 35366
+D1
+~
+~
+0 0 35372
+S
+#35374
+&nThe &+cC&+mo&+Yl&+Wo&+Mr&+rf&+Cu&+Gl &+GI&+Cn&+rt&+Me&+Wr&+Yi&+mo&+cr &nof a Large &+yHut&n~
+&nThe inside of this large &+yhut &ncertainly is &+cc&+mo&+Yl&+Wo&+Mr&+rf&+Cu&+Gl&n. Just about every type
+of &+Mf&+Gl&+Yo&+Ww&+Ge&+Mr &none could think of lines the walls in here, most of them on &+Gv&+gi&+Gn&+ge&+Gs&n,
+others in pots in various places around the room. A large &+yb&+Ya&+ymb&+Yo&+yo &ndesk occupies
+the eastern half of the room. Upon the desk are several items of clothing, a
+few different rings and other ornaments and some odd looking bags.&n
+~
+353 0 0
+D2
+~
+~
+0 0 35372
+S
+#35375
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go north, south and west from here.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35364
+D2
+~
+~
+0 0 35384
+D3
+~
+~
+0 0 35376
+S
+#35376
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and south from here.&n
+~
+353 0 3
+D1
+~
+~
+0 0 35375
+D2
+~
+~
+0 0 35383
+D3
+~
+~
+0 0 35377
+S
+#35377
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and north from here.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35361
+D1
+~
+~
+0 0 35376
+D3
+~
+~
+0 0 35378
+S
+#35378
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and south from here.&n
+~
+353 0 3
+D1
+~
+~
+0 0 35377
+D2
+~
+~
+0 0 35381
+D3
+~
+~
+0 0 35379
+S
+#35379
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go north, east and south from here.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35358
+D1
+~
+~
+0 0 35378
+D2
+~
+~
+0 0 35380
+S
+#35380
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go north and east from here.&n
+~
+353 0 1
+D0
+~
+~
+0 0 35379
+D1
+~
+~
+0 0 35381
+S
+#35381
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west, north and south from here.&n
+~
+353 4 3
+D0
+~
+~
+0 0 35378
+D1
+~
+~
+0 0 35382
+D2
+~
+~
+0 0 35385
+D3
+~
+~
+0 0 35380
+S
+#35382
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west and south from here.&n
+~
+353 4 3
+D1
+~
+~
+0 0 35383
+D2
+~
+~
+0 0 35386
+D3
+~
+~
+0 0 35381
+S
+#35383
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go east, west, north and south from here.&n
+~
+353 4 3
+D1
+~
+~
+0 0 35384
+D2
+~
+~
+0 0 35387
+D3
+~
+~
+0 0 35382
+S
+#35384
+&nA Well-Used &+yTrail &nin a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+&nThe normal &+Gtrees &nhave gotten so tall that their leaves are hundreds of feet
+above you. Instead of the bushes that one would normally think to be on the
+ground, there is a virtual forest of &+yb&+Ya&+ymb&+Yo&+yo &nhere. The stalks grow so close
+together that it is hard to see the &+ytrail &ntwo feet in front of you. The
+&+ytrail &nseems to go west and north from here.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35375
+D3
+~
+~
+0 0 35383
+S
+#35385
+&nThe Edge of a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+The &+yb&+Ya&+ymb&+Yo&+yo &nhas thinned out here, making way for more low lying shrubs and
+bushes covered with vines. The &+Gvegetation &nis too dense to get through to the
+south and the west, but to the east seems to be a vague pathway leading into
+the brush.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35381
+D1
+~
+~
+0 0 35386
+S
+#35386
+&nA Small Clearing at the Edge of a &+yB&+Ya&+ymb&+Yo&+yo&+G Forest&n~
+The &+yb&+Ya&+ymb&+Yo&+yo &nhas thinned out here, making way for more low lying shrubs and
+bushes covered with &+Gv&+gi&+Gn&+ge&+Gs&n. There is a path that leads into the denser &+yb&+Ya&+ymb&+Yo&+yo
+&nto the north. The same path continues out of sight into the bushes to the
+south. It appears possible to bushwhack both west and east.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35382
+D1
+~
+~
+0 0 35387
+D2
+~
+~
+0 0 35388
+D3
+~
+~
+0 0 35385
+S
+#35387
+&nThe Edge of a &+yB&+Ya&+ymb&+Yo&+yo &+GForest&n~
+The &+yb&+Ya&+ymb&+Yo&+yo &nhas thinned out here, making way for more low lying shrubs and
+bushes covered with vines. The &+Gvegetation &nis too dense to get through to the
+south and the east, but to the west seems to be a vague pathway leading into
+the brush.&n
+~
+353 0 3
+D0
+~
+~
+0 0 35383
+D3
+~
+~
+0 0 35386
+S
+#35388
+&nAn Odd &+yShelter &nMade from &+GPalm Fronds&n~
+&nThis bizzare little shelter seems to have been created from plants in the
+immediate area. &+GPalm fronds &ntied together with &+Gv&+gi&+Gn&+ge&+Gs &ngive shelter from both
+&+Crain &nand &+Ysun&n. Thin &+ybranches &nlashed together with &+Gv&+gi&+Gn&+ge&+Gs &nare usefull as both
+a table and chairs. It is an astonishing looking place.&n
+~
+353 0 0
+D0
+~
+~
+0 0 35386
+S
+#35389
+&+LA Large Lavish Cavern&n~
+&nThis room is quite large and comfortable looking. A raised portion of &+Lrock
+&nseems to serve as a bed, as well as numerous &+Gleaves &nthat are upon it to
+cushion and keep the user warm. The walls are covered with elegant carvings,
+what looks to be an almost solid pole of &+cf&+ml&+Yo&+Ww&+Me&+rr&+Ci&+Gn&+Bg &+Gv&+gi&+Gn&+ge&+Gs &nruns down the center
+of the room from a hole in the ceiling.&n
+~
+353 8433664 0
+D3
+~
+~
+0 0 35390
+D4
+~
+~
+0 0 35388
+S
+#35390
+&+LA Very Dark Featureless Tunnel&n~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D0
+~
+~
+0 0 35391
+D1
+~
+~
+0 0 35389
+S
+#35391
+&+LA Very Dark, Featureless Tunnel~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D1
+~
+~
+0 0 35392
+D2
+~
+~
+0 0 35390
+S
+#35392
+&+LA Very Dark, Featureless Tunnel&n~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D0
+~
+~
+0 0 35393
+D3
+~
+~
+0 0 35391
+S
+#35393
+&+LA Very Dark, Featureless Tunnel~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D1
+~
+~
+0 0 35394
+D2
+~
+~
+0 0 35392
+S
+#35394
+&+LA Very Dark, Featureless Tunnel&n~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D0
+~
+~
+0 0 35395
+D3
+~
+~
+0 0 35393
+S
+#35395
+&+LA Very Dark, Featureless Tunnel&n~
+&nThis tunnel smells fainly musky, but a breeze is running from somewhere. The
+floor is soft dirt and the walls are smooth and featureless.&n
+~
+353 8429580 0
+D2
+~
+~
+0 0 35394
+D6
+~
+wall~
+5 0 35399
+S
+#35396
+&+LA Grand Cavern at the End of a S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&n The passage ends in what appears to be a large throne room. Two long slabs
+of the same &+Ldark &nand &+Ygolden &nstone have been ornately decorated and appear to
+be the places of honor in the room. There is a raised section on either side
+of the room, creating an aisle that leads straight to the carved &+Lslabs&n. There
+is an atmosphere of seriousness here.&n
+~
+353 32776 0
+D3
+~
+~
+0 0 35397
+S
+#35397
+&+LA S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&nThis passage is made of &+Ldark stone &nwith flecks of &+Ygolden yellow &nin it. Dense
+&+Gv&+gi&+Gn&+ge&+Gs &ncrawl over the floor, walls and ceiling, but do not put even a tendril
+onto a statue in the southeast corner of the passage.&n
+~
+353 32776 0
+D0
+~
+~
+0 0 35398
+D1
+~
+~
+0 0 35396
+E
+statue jaguar~
+&nThis stone statue was carefully carved out of the same rock that forms the
+passage. The &+Lblack &nand &+Ygold &nstatue has &+Ygolden &neyes which seem to follow you
+around the room, glowing.&n
+~
+S
+#35398
+&+LA S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&nThis passage is made of &+Ldark stone &nwith flecks of &+Ygolden yellow &nin it. Dense
+&+Gv&+gi&+Gn&+ge&+Gs &ncrawl over the floor, walls and ceiling, but do not put even a tendril
+onto a statue in the northwest corner of the passage.&n
+~
+353 32776 0
+D1
+~
+~
+0 0 35399
+D2
+~
+~
+0 0 35397
+E
+statue jaguar~
+&nThis stone statue was carefully carved out of the same rock that forms the
+passage. The &+Lblack &nand &+Ygold &nstatue has &+Ygolden &neyes which seem to follow you
+around the room, glowing.&n
+~
+S
+#35399
+&+LA S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&nThis passage is made of &+Ldark stone &nwith flecks of &+Ygolden yellow &nin it. Dense
+&+Gv&+gi&+Gn&+ge&+Gs &ncrawl over the floor, walls and ceiling, but do not put even a tendril
+onto a statue in the southwest corner of the passage.&n
+~
+353 32776 0
+D0
+~
+~
+0 0 35400
+D3
+~
+~
+0 0 35398
+D9
+~
+statue jaguar green~
+7 35312 35395
+E
+statue jaguar~
+&nThis stone statue was carefully carved out of the same rock that forms the
+passage. The &+Lblack &nand &+Ygold &nstatue has &+Gj&+gad&+Ge g&+gr&+Ge&+ge&+Gn &neyes which seem to follow
+you around the room, sparkling.&n
+~
+S
+#35400
+&+LA S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&nThis passage is made of &+Ldark stone &nwith flecks of &+Ygolden yellow &nin it. Dense
+&+Gv&+gi&+Gn&+ge&+Gs &ncrawl over the floor, walls and ceiling, but do not put even a tendril
+onto a statue in the northwest corner of the passage.&n
+~
+353 32776 0
+D1
+~
+~
+0 0 35401
+D2
+~
+~
+0 0 35399
+E
+statue jaguar~
+&nThis stone statue was carefully carved out of the same rock that forms the
+passage. The &+Lblack &nand &+Ygold &nstatue has &+Ygolden &neyes which seem to follow you
+around the room, glowing.&n
+~
+S
+#35401
+&+LA S&+Ye&+Lcr&+Ye&+Lt P&+Ya&+Ls&+Ys&+La&+Yg&+Le&n~
+&nThe &+Lrocks &nto the north are piled up in an odd manner. This passage is made
+of &+Ldark stone &nwith flecks of &+Ygolden yellow &nin it. Dense &+Gv&+gi&+Gn&+ge&+Gs &ncrawl over
+the floor, walls and ceiling, but do not put even a tendril onto a statue
+in the southeast corner of the passage.&n
+~
+353 32776 0
+D0
+~
+rock rocks~
+5 0 35402
+D3
+~
+~
+0 0 35400
+E
+statue jaguar~
+&nThis stone statue was carefully carved out of the same rock that forms the
+passage. The &+Lblack &nand &+Ygold &nstatue has &+Ygolden &neyes which seem to follow you
+around the room, glowing.&n
+~
+S
+#35402
+&nIn a &+LDeep Dark Chasm&n~
+&nThis chasm has very little light in it due to the narrow top. It has
+widened here at the bottom, about three feet wide now. The &+Lrocks &nand &+Gv&+gi&+Gn&+ge&+Gs
+&ncovering the floor are incredibly slippery, as the water from the &+bpool &nabove
+tumbles down the rocks on top of you. The &+Bwater &nmoves swiftly into tiny
+holes that are in the ground here and does not back up. It appears that the
+water goes back underground and emerges somewhere else. It looks like you
+could possibly get back to the area to the west.&n
+~
+353 0 0
+D2
+&nThe &+Lrocks &nhere look as if they have been piled up oddly, almost as if
+you could push on one and open up the wall...&n
+~
+rock rocks~
+5 0 35401
+D3
+~
+~
+0 0 35403
+D4
+~
+~
+0 0 35348
+E
+rock rocks vine vines~
+&nThe &+Lrocks &nand &+Gv&+gi&+Gn&+ge&+Gs &nto the south are piled up oddly, almost as if you could
+push one of the rocks or pull one of the vines and open up the wall.&n
+~
+S
+#35403
+&nIn a &+LDeep Dark Chasm&n~
+&nThis chasm has very little light in it due to the narrow top. It has
+widened here at the bottom, about three feet wide now. The &+Lrocks &nand &+Gv&+gi&+Gn&+ge&+Gs
+&ncovering the floor are incredibly slippery, as the water from the &+bpool &nabove
+tumbles down the rocks on top of you. The &+Bwater &nmoves swiftly to the east and
+you could possibly get back to the area to the west.&n
+~
+353 0 0
+D1
+~
+~
+0 0 35402
+D3
+~
+~
+0 0 35404
+D4
+~
+~
+0 0 35349
+S
+#35404
+&nIn a &+LDeep Dark Chasm&n~
+&nThis chasm has very little light in it due to the narrow top. It has
+widened here at the bottom, about three feet wide now. The &+Lrocks &nand &+Gv&+gi&+Gn&+ge&+Gs
+&ncovering the floor are incredibly slippery, as the water from the &+bpool &nabove
+tumbles down the rocks on top of you. The &+Bwater &nmoves swiftly to the east.&n
+~
+353 0 0
+D1
+~
+~
+0 0 35403
+D4
+~
+~
+0 0 35350
+S
+#35405
+&+GA Small Hill in a Large Clearing&n~
+&nThe &+Gbushes &nhave given way to a large clearing. In the center of the clearing
+is a small hill. On top of that hill is a stone structure decorated with what
+looks to be &+Ljaguar &nprints. The &+Ggrass &nhere is long and soft, and the smell is
+that of fresh cuttings. This place feels both peaceful and menacing at the
+same time.&n
+~
+353 0 4
+D0
+~
+bush bushes~
+1 0 35349
+S
+#35406
+&nRare Mob Load Room.&n~
+N/A
+~
+353 142639240 0
+D1
+~
+~
+0 0 35407
+S
+#35407
+&nRare Mob Load Room.&n~
+N/A
+~
+353 142639240 0
+D1
+~
+~
+0 0 35311
+D3
+~
+~
+0 0 35406
+S

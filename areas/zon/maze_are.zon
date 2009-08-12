@@ -1,0 +1,221 @@
+#940
+&+wThe Maze of Undead Army&n~
+94177 1 2 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 94114 4 5 100 0 0 0
+*     up exit from "The Dark Tunnel" to
+*     "The Mazekeeper's Tower" - closed/secret
+*
+D 0 94115 5 1 100 0 0 0
+*     down exit from "The Mazekeeper's Tower" to
+*     "The Dark Tunnel" - closed
+*
+D 0 94116 3 1 100 0 0 0
+*     west exit from "The Guardians Station" to
+*     "The Rear Chamber of Guardians Station" - closed
+*
+D 0 94139 1 1 100 0 0 0
+*     east exit from "The Rear Chamber of Guardians Station" to
+*     "The Guardians Station" - closed
+*
+D 0 94123 4 1 100 0 0 0
+*     up exit from "The Entrance to the Maze of Death" to
+*     "End of a Tunnel" - closed
+*
+D 0 94135 5 1 100 0 0 0
+*     down exit from "End of a Tunnel" to
+*     "The Entrance to the Maze of Death" - closed
+*
+D 0 94126 5 6 100 0 0 0
+*     down exit from "The Old Graveyard" to
+*     "The Entrance to the Forbidden Catacomb" - closed/locked/secret
+*
+D 0 94137 4 1 100 0 0 0
+*     up exit from "The Entrance to the Forbidden Catacomb" to
+*     "The Old Graveyard" - closed
+*
+D 0 94130 0 4 100 0 0 0
+*     north exit from "The Path of Old Graveyard" to
+*     "The Hidden Path of Old Graveyard" - open/secret
+*
+D 0 94140 2 4 100 0 0 0
+*     south exit from "The Hidden Path of Old Graveyard" to
+*     "The Path of Old Graveyard" - open/secret
+*
+D 0 94131 5 5 100 0 0 0
+*     down exit from "The Old Graveyard" to
+*     "In the Dusty Tomb" - closed/secret
+*
+D 0 94132 4 1 100 0 0 0
+*     up exit from "In the Dusty Tomb" to
+*     "The Old Graveyard" - closed
+*
+D 0 94132 1 5 100 0 0 0
+*     east exit from "In the Dusty Tomb" to
+*     "A Secret Tunnel" - closed/secret
+*
+D 0 94133 3 1 100 0 0 0
+*     west exit from "A Secret Tunnel" to
+*     "In the Dusty Tomb" - closed
+*
+D 0 94141 5 5 100 0 0 0
+*     down exit from "The Forgotten Part of Graveyard on the Hillock" to
+*     "The Shaft to the Dwarven Mine" - closed/secret
+*
+D 0 94143 4 1 100 0 0 0
+*     up exit from "The Shaft to the Dwarven Mine" to
+*     "The Forgotten Part of Graveyard on the Hillock" - closed
+*
+D 0 94145 5 5 100 0 0 0
+*     down exit from "The Shaft to the Dwarven Mine" to
+*     "The Shaft to the Dwarven Mine" - closed/secret
+*
+D 0 94146 4 1 100 0 0 0
+*     up exit from "The Shaft to the Dwarven Mine" to
+*     "The Shaft to the Dwarven Mine" - closed
+*
+D 0 94175 2 1 100 0 0 0
+*     south exit from "The Dwarven Mine" to
+*     "The Mining Equipment Room" - closed
+*
+D 0 94176 0 1 100 0 0 0
+*     north exit from "The Mining Equipment Room" to
+*     "The Dwarven Mine" - closed
+*
+*
+O 0 94001 5 94009 100 0 0 0        * a small pile of dust
+O 0 94001 5 94013 100 0 0 0        * a small pile of dust
+O 0 94001 5 94046 100 0 0 0        * a small pile of dust
+O 0 94001 5 94062 100 0 0 0        * a small pile of dust
+O 0 94001 5 94093 100 0 0 0        * a small pile of dust
+O 0 94006 2 94108 100 0 0 0        * a mediocre pile of platinum coins
+O 0 94023 1 94120 100 0 0 0        * a small black key
+O 0 94019 1 94132 100 0 0 0        * a stone sarcophagus
+P 1 94021 1 94019 100 0 0 0        *   the polished crystal rose
+P 1 94022 1 94019 100 0 0 0        *   a pair of crystal armplates
+P 1 94006 2 94019 100 0 0 0        *   a mediocre pile of platinum coins
+P 1 94025 1 94019 100 0 0 0        *   a crystal wrist band
+O 0 94024 5 94141 100 0 0 0        * a bloody finger
+*
+M 0 94007 3 94004 100 0 0 0        * the skeleton of a bloody beast
+M 0 94012 3 94007 100 0 0 0        * a ghostly air elemental
+M 0 94010 3 94010 100 0 0 0        * the wraith of a wandering bard
+E 1 94009 1 18 100 0 0 0           *   some drums of the south wind
+M 0 94002 4 94011 100 0 0 0        * the zombie of an insane human
+M 0 94016 3 94013 100 0 0 0        * a giant undead worm
+M 0 94014 3 94015 100 0 0 0        * a veteran skeletal warrior
+M 0 94006 4 94017 100 0 0 0        * the skeleton of a paladin
+M 0 94036 3 94018 100 0 0 0        * a deadly sandplant
+M 0 94005 4 94019 100 0 0 0        * the zombie of an ogre
+M 0 94004 4 94023 100 0 0 0        * the skeleton of an orc adventurer
+M 0 94005 4 94025 100 0 0 0        * the zombie of an ogre
+M 0 94011 1 94029 100 0 0 0        * an old thri-kreen adventurer
+M 0 94004 4 94030 100 0 0 0        * the skeleton of an orc adventurer
+M 0 94007 3 94031 100 0 0 0        * the skeleton of a bloody beast
+M 0 94014 3 94032 100 0 0 0        * a veteran skeletal warrior
+M 0 94013 1 94035 100 0 0 0        * a lost adventurer
+M 0 94008 4 94036 100 0 0 0        * a rotting zombie
+M 0 94001 4 94038 100 0 0 0        * a burning zombie
+M 0 94016 3 94042 100 0 0 0        * a giant undead worm
+M 0 94008 4 94048 100 0 0 0        * a rotting zombie
+M 0 94003 4 94050 100 0 0 0        * the tiny skeleton of a gnome
+M 0 94002 4 94052 100 0 0 0        * the zombie of an insane human
+M 0 94006 4 94056 100 0 0 0        * the skeleton of a paladin
+M 0 94009 4 94057 100 0 0 0        * a dusty skeleton
+M 0 94001 4 94058 100 0 0 0        * a burning zombie
+M 0 94009 4 94059 100 0 0 0        * a dusty skeleton
+M 0 94005 4 94062 100 0 0 0        * the zombie of an ogre
+M 0 94005 4 94065 100 0 0 0        * the zombie of an ogre
+M 0 94003 4 94067 100 0 0 0        * the tiny skeleton of a gnome
+M 0 94003 4 94070 100 0 0 0        * the tiny skeleton of a gnome
+M 0 94012 3 94074 100 0 0 0        * a ghostly air elemental
+M 0 94001 4 94076 100 0 0 0        * a burning zombie
+M 0 94008 4 94078 100 0 0 0        * a rotting zombie
+M 0 94001 4 94079 100 0 0 0        * a burning zombie
+M 0 94009 4 94080 100 0 0 0        * a dusty skeleton
+M 0 94008 4 94081 100 0 0 0        * a rotting zombie
+M 0 94006 4 94082 100 0 0 0        * the skeleton of a paladin
+M 0 94002 4 94085 100 0 0 0        * the zombie of an insane human
+M 0 94009 4 94087 100 0 0 0        * a dusty skeleton
+M 0 94003 4 94089 100 0 0 0        * the tiny skeleton of a gnome
+M 0 94006 4 94090 100 0 0 0        * the skeleton of a paladin
+M 0 94004 4 94091 100 0 0 0        * the skeleton of an orc adventurer
+M 0 94036 3 94094 100 0 0 0        * a deadly sandplant
+M 0 94010 3 94095 100 0 0 0        * the wraith of a wandering bard
+G 1 94024 5 0 100 0 0 0            *    a bloody finger
+M 0 94004 4 94097 100 0 0 0        * the skeleton of an orc adventurer
+M 0 94002 4 94100 100 0 0 0        * the zombie of an insane human
+M 0 94010 3 94104 100 0 0 0        * the wraith of a wandering bard
+E 1 94010 1 18 100 0 0 0           *   a lyre with yellow and green ornamentation
+M 0 94036 3 94105 100 0 0 0        * a deadly sandplant
+M 0 94012 3 94107 100 0 0 0        * a ghostly air elemental
+M 0 94014 3 94110 100 0 0 0        * a veteran skeletal warrior
+M 0 94007 3 94111 100 0 0 0        * the skeleton of a bloody beast
+M 0 94016 3 94113 100 0 0 0        * a giant undead worm
+M 0 94017 1 94115 100 0 0 0        * Kalroh the retired alchemist
+E 1 94016 1 19 70 0 0 0            *   some wire rimmed spectacles
+G 1 94024 5 0 100 0 0 0            *    a bloody finger
+F 1 94018 1 94115 100 0 0 0        * lich high priest (following)
+E 1 94012 1 18 60 0 0 0            *   a staff with druidic marks
+M 0 94043 1 94115 100 0 0 0        * Krugor, the assistant
+M 0 94021 3 94116 100 0 0 0        * a soulless Mazeguardian
+M 0 94021 3 94116 100 0 0 0        * a soulless Mazeguardian
+M 0 94021 3 94116 100 0 0 0        * a soulless Mazeguardian
+M 0 94024 3 94116 100 0 0 0        * a shady Mazewatcher
+M 0 94024 3 94116 100 0 0 0        * a shady Mazewatcher
+M 0 94024 3 94116 100 0 0 0        * a shady Mazewatcher
+M 0 94020 1 94117 100 0 0 0        * A nightcrawler from the negative plane
+E 1 94007 1 16 100 0 0 0           *   a long rusted knife
+G 1 94002 1 0 100 0 0 0            *    a green piece of magical item
+M 0 94019 1 94119 100 0 0 0        * the ghostly illusion of Tiamat
+G 1 94004 1 0 100 0 0 0            *    a yellow piece of magical item
+M 0 94015 1 94121 100 0 0 0        * the ghost of massacred Cwoczek's enemy
+G 1 94003 1 0 100 0 0 0            *    a red piece of magical item
+M 0 94034 1 94122 100 0 0 0        * a mutated lizardman thief
+M 0 94033 4 94122 100 0 0 0        * a sandstone gargoyle guard
+E 1 94008 4 16 100 0 0 0           *   an obsidian dirk
+M 0 94030 1 94132 100 0 0 0        * a pair of disembodied hands
+M 0 94031 1 94132 100 0 0 0        * a pair of disembodied arms
+M 0 94032 1 94136 100 0 0 0        * a catacomb dweller
+M 0 94033 4 94136 100 0 0 0        * a sandstone gargoyle guard
+E 1 94008 4 16 100 0 0 0           *   an obsidian dirk
+M 0 94033 4 94137 100 0 0 0        * a sandstone gargoyle guard
+E 1 94008 4 16 100 0 0 0           *   an obsidian dirk
+M 0 94033 4 94138 100 0 0 0        * a sandstone gargoyle guard
+E 1 94008 4 16 100 0 0 0           *   an obsidian dirk
+M 0 94035 1 94139 100 0 0 0        * the official coordinator of the Undead Army
+M 0 94027 2 94142 100 0 0 0        * a trapped soul
+M 0 94027 2 94142 100 0 0 0        * a trapped soul
+M 0 94028 2 94142 100 0 0 0        * a trapped soul
+M 0 94028 2 94142 100 0 0 0        * a trapped soul
+M 0 94029 2 94142 100 0 0 0        * a trapped soul
+M 0 94029 2 94142 100 0 0 0        * a trapped soul
+M 0 94037 9 94149 100 0 0 0        * a dwarven zombie
+M 0 94042 5 94149 100 0 0 0        * an indistinct dwarven spirit
+M 0 94037 9 94153 100 0 0 0        * a dwarven zombie
+M 0 94042 5 94153 100 0 0 0        * an indistinct dwarven spirit
+M 0 94037 9 94155 100 0 0 0        * a dwarven zombie
+M 0 94042 5 94155 100 0 0 0        * an indistinct dwarven spirit
+M 0 94037 9 94159 100 0 0 0        * a dwarven zombie
+M 0 94042 5 94159 100 0 0 0        * an indistinct dwarven spirit
+M 0 94037 9 94162 100 0 0 0        * a dwarven zombie
+M 0 94042 5 94162 100 0 0 0        * an indistinct dwarven spirit
+M 0 94039 1 94163 100 0 0 0        * a colossal bone dragon
+E 1 94018 1 21 100 0 0 0           *   a dragon bone earring
+G 1 94024 5 0 100 0 0 0            *    a bloody finger
+M 0 94037 9 94164 100 0 0 0        * a dwarven zombie
+M 0 94040 4 94164 100 0 0 0        * a blank-faced zombie
+M 0 94037 9 94168 100 0 0 0        * a dwarven zombie
+M 0 94040 4 94168 100 0 0 0        * a blank-faced zombie
+M 0 94038 1 94169 100 0 0 0        * a fading spectre
+M 0 94037 9 94171 100 0 0 0        * a dwarven zombie
+M 0 94040 4 94171 100 0 0 0        * a blank-faced zombie
+M 0 94037 9 94174 100 0 0 0        * a dwarven zombie
+M 0 94040 4 94174 100 0 0 0        * a blank-faced zombie
+M 0 94041 1 94176 100 0 0 0        * the conservator of the undead
+G 1 94024 5 0 100 0 0 0            *    a bloody finger
+*
+S

@@ -1,0 +1,409 @@
+#324
+&+yThe Bronze Citadel&n~
+32501 0 8 40 50 2
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 32424 0 2 100 0 0 0
+*     north exit from "Before the Bronze Citadel" to
+*     "Entryway to the Bronze Citadel" - closed/locked
+*
+D 0 32470 2 2 100 0 0 0
+*     south exit from "Entryway to the Bronze Citadel" to
+*     "Before the Bronze Citadel" - closed/locked
+*
+D 0 32471 1 2 100 0 0 0
+*     east exit from "The Infernal Foyer of the Bronze Citadel" to
+*     "A Side Hallway in the Bronze Citadel" - closed/locked
+*
+D 0 32472 3 2 100 0 0 0
+*     west exit from "A Side Hallway in the Bronze Citadel" to
+*     "The Infernal Foyer of the Bronze Citadel" - closed/locked
+*
+D 0 32471 3 2 100 0 0 0
+*     west exit from "The Infernal Foyer of the Bronze Citadel" to
+*     "The Western Wing of the Citadel" - closed/locked
+*
+D 0 32477 1 2 100 0 0 0
+*     east exit from "The Western Wing of the Citadel" to
+*     "The Infernal Foyer of the Bronze Citadel" - closed/locked
+*
+D 0 32471 4 8 100 0 0 0
+*     up exit from "The Infernal Foyer of the Bronze Citadel" to
+*     "The Second Floor Landing, Before the Chamber of Bel" - open/blocked
+*
+D 0 32481 5 0 100 0 0 0
+*     down exit from "The Second Floor Landing, Before the Chamber of Bel" to
+*     "The Infernal Foyer of the Bronze Citadel" - open
+*
+D 0 32472 0 2 100 0 0 0
+*     north exit from "A Side Hallway in the Bronze Citadel" to
+*     "A Blazing Meditation Chamber" - closed/locked
+*
+D 0 32476 2 2 100 0 0 0
+*     south exit from "A Blazing Meditation Chamber" to
+*     "A Side Hallway in the Bronze Citadel" - closed/locked
+*
+D 0 32472 2 1 100 0 0 0
+*     south exit from "A Side Hallway in the Bronze Citadel" to
+*     "A Room Covered in Demonic Glyphs" - closed
+*
+D 0 32475 0 1 100 0 0 0
+*     north exit from "A Room Covered in Demonic Glyphs" to
+*     "A Side Hallway in the Bronze Citadel" - closed
+*
+D 0 32473 2 2 100 0 0 0
+*     south exit from "The End of a Hallway in the Bronze Citadel" to
+*     "A Destroyed Room" - closed/locked
+*
+D 0 32474 0 2 100 0 0 0
+*     north exit from "A Destroyed Room" to
+*     "The End of a Hallway in the Bronze Citadel" - closed/locked
+*
+D 0 32479 2 2 100 0 0 0
+*     south exit from "The Private Chamber of Baalzephon" to
+*     "A Terrible Room, Lined with HumanSkin" - closed/locked
+*
+D 0 32480 0 2 100 0 0 0
+*     north exit from "A Terrible Room, Lined with HumanSkin" to
+*     "The Private Chamber of Baalzephon" - closed/locked
+*
+D 0 32481 0 2 100 0 0 0
+*     north exit from "The Second Floor Landing, Before the Chamber of Bel" to
+*     "The Antechamber of Bel" - closed/locked
+*
+D 0 32485 2 2 100 0 0 0
+*     south exit from "The Antechamber of Bel" to
+*     "The Second Floor Landing, Before the Chamber of Bel" - closed/locked
+*
+D 0 32481 1 1 100 0 0 0
+*     east exit from "The Second Floor Landing, Before the Chamber of Bel" to
+*     "The East Side of the Second Floor Hallway" - closed
+*
+D 0 32486 3 1 100 0 0 0
+*     west exit from "The East Side of the Second Floor Hallway" to
+*     "The Second Floor Landing, Before the Chamber of Bel" - closed
+*
+D 0 32481 3 2 100 0 0 0
+*     west exit from "The Second Floor Landing, Before the Chamber of Bel" to
+*     "The Chamber of the Wyrm" - closed/locked
+*
+D 0 32489 1 2 100 0 0 0
+*     east exit from "The Chamber of the Wyrm" to
+*     "The Second Floor Landing, Before the Chamber of Bel" - closed/locked
+*
+D 0 32482 0 6 100 0 0 0
+*     north exit from "The DungeonMaster's Quarters" to
+*     "A Secret cell in the Prison" - closed/locked/secret
+*
+D 0 32483 2 6 100 0 0 0
+*     south exit from "A Secret cell in the Prison" to
+*     "The DungeonMaster's Quarters" - closed/locked/secret
+*
+D 0 32496 0 2 100 0 0 0
+*     north exit from "A Guardpost Overlooking a Set of Cells" to
+*     "A Strangely Peaceful Cell" - closed/locked
+*
+D 0 32497 2 2 100 0 0 0
+*     south exit from "A Strangely Peaceful Cell" to
+*     "A Guardpost Overlooking a Set of Cells" - closed/locked
+*
+D 0 32496 2 2 100 0 0 0
+*     south exit from "A Guardpost Overlooking a Set of Cells" to
+*     "An Incredibly Cold Cell" - closed/locked
+*
+D 0 32498 0 2 100 0 0 0
+*     north exit from "An Incredibly Cold Cell" to
+*     "A Guardpost Overlooking a Set of Cells" - closed/locked
+*
+D 0 32499 0 2 100 0 0 0
+*     north exit from "A Guardpost Overlooking a Set of Cells" to
+*     "The Prison Cell of Temptation" - closed/locked
+*
+D 0 32500 2 2 100 0 0 0
+*     south exit from "The Prison Cell of Temptation" to
+*     "A Guardpost Overlooking a Set of Cells" - closed/locked
+*
+D 0 32499 2 2 100 0 0 0
+*     south exit from "A Guardpost Overlooking a Set of Cells" to
+*     "A Hellish Torture Cell" - closed/locked
+*
+D 0 32501 0 2 100 0 0 0
+*     north exit from "A Hellish Torture Cell" to
+*     "A Guardpost Overlooking a Set of Cells" - closed/locked
+*
+*
+O 0 32436 1 32420 100 0 0 0        * the Bronze Citadel entrance
+O 0 32421 1 32480 100 0 0 0        * a small cube of bronze
+*
+M 0 32425 13 32421 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32422 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32422 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32425 13 32422 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32423 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32423 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32423 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32426 28 32423 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32425 13 32424 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32425 1 0 100 0 0 0            *    a glowing key
+M 0 32425 13 32424 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32425 13 32424 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32425 13 32424 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32425 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32425 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32428 3 32428 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32445 3 0 100 0 0 0            *    a small pile of platinum coins
+G 1 32437 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32433 19 32429 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32429 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32428 3 32432 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32445 3 0 100 0 0 0            *    a small pile of platinum coins
+G 1 32438 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32433 19 32433 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32433 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32428 3 32436 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32445 3 0 100 0 0 0            *    a small pile of platinum coins
+G 1 32439 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32433 19 32439 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32439 100 0 0 0       * a red abishai guard
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+M 0 32433 19 32440 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32442 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32436 2 32443 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32446 2 0 100 0 0 0            *    a pile of platinum coins
+G 1 32441 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32434 9 32445 100 0 0 0        * a green abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32436 2 32447 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32446 2 0 100 0 0 0            *    a pile of platinum coins
+G 1 32440 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32434 9 32448 100 0 0 0        * a green abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32450 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32451 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32441 1 32452 40 0 0 0         * a human cleric
+M 0 32442 1 32453 40 0 0 0         * a human mercenary
+M 0 32435 14 32454 100 0 0 0       * a blue abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32437 1 32456 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32447 1 0 100 0 0 0            *    a large pile of platinum coins
+G 1 32442 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32443 1 32457 35 0 0 0         * a human sorcerer
+M 0 32435 14 32458 100 0 0 0       * a blue abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32440 1 32460 50 0 0 0         * a human paladin
+M 0 32433 19 32461 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32462 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32434 9 32463 100 0 0 0        * a green abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32435 14 32464 100 0 0 0       * a blue abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32438 1 32465 100 0 0 0        * a sly goblin thief
+E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
+G 1 32448 1 0 100 0 0 0            *    a very large pile of platinum coins
+G 1 32443 1 0 100 0 0 0            *    a thieves' guild insignia
+M 0 32435 14 32465 100 0 0 0       * a blue abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32435 14 32466 100 0 0 0       * a blue abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32434 9 32467 100 0 0 0        * a green abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32468 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32420 1 32469 100 0 0 0        * Bel, the lord of the First
+E 1 32435 1 2 100 0 0 0            *   a titanium ring
+G 1 32490 1 0 100 0 0 0            *    the still-beating heart of Bel
+G 1 32471 1 0 50 0 0 0             *    a shaft of swirling mists
+G 1 360 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 32486 1 0 100 0 0 0            *    a huge flaming greatsword
+G 1 19730 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 55282 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 32453 1 32469 100 0 0 0        * Yeddikadir, servant of Bel
+E 1 32451 1 3 100 0 0 0            *   the holy symbol of sanctity
+E 1 32420 1 13 70 0 0 0            *   the ceinture of giant strength
+M 0 32454 1 32469 100 0 0 0        * Nalebranc, servant of Bel
+E 1 32432 1 11 100 0 0 0           *   a shield made from Tiamat's scales
+E 1 32427 1 16 100 0 0 0           *   a shard of frozen styx water
+M 0 32433 19 32472 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+F 1 32435 14 32472 100 0 0 0       * a blue abishai guard (following)
+F 1 32435 14 32472 100 0 0 0       * a blue abishai guard (following)
+F 1 32424 4 32472 100 0 0 0        * a devil (following)
+M 0 32433 19 32473 100 0 0 0       * a red abishai guard
+F 1 32435 14 32473 100 0 0 0       * a blue abishai guard (following)
+F 1 32435 14 32473 100 0 0 0       * a blue abishai guard (following)
+F 1 32424 4 32473 100 0 0 0        * a devil (following)
+M 0 32449 1 32474 100 0 0 0        * Dagos, Marshall of the Pit
+E 1 32450 1 6 100 0 0 0            *   the helm of the Pit
+E 1 32433 1 16 100 0 0 0           *   'Baatezu', the sword of power
+G 1 32485 1 0 100 0 0 0            *    a dull obsidian key with fiendish runes
+M 0 32427 1 32474 100 0 0 0        * a mature silver dragon
+G 1 32470 1 0 15 0 0 0             *    the eyes of a bewitched silver dragon
+M 0 32423 1 32475 100 0 0 0        * an erinyes devil
+E 1 32430 1 10 100 0 0 0           *   some glowing sleeves made of devil skin
+G 1 32423 1 0 100 0 0 0            *    a white stone key
+G 1 32453 1 0 10 0 0 0             *    a tome of immeasurable knowledge
+M 0 32425 13 32475 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32431 1 32476 100 0 0 0        * an erinyes priest
+E 1 32434 1 10 100 0 0 0           *   some glowing sleeves made of devil skin
+G 1 32484 1 0 100 0 0 0            *    a slender bronze key
+M 0 32425 13 32476 100 0 0 0       * a scarred pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32433 19 32477 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+F 1 32435 14 32477 100 0 0 0       * a blue abishai guard (following)
+F 1 32435 14 32477 100 0 0 0       * a blue abishai guard (following)
+F 1 32424 4 32477 100 0 0 0        * a devil (following)
+M 0 32433 19 32478 100 0 0 0       * a red abishai guard
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+F 1 32435 14 32478 100 0 0 0       * a blue abishai guard (following)
+F 1 32435 14 32478 100 0 0 0       * a blue abishai guard (following)
+F 1 32424 4 32478 100 0 0 0        * a devil (following)
+M 0 32450 1 32479 100 0 0 0        * Baalzephon, Duke of Hell
+E 1 32487 1 16 100 0 0 0           *   a blackened halberd
+G 1 32426 1 0 100 0 0 0            *    a shiny platinum key
+G 1 32473 1 0 10 0 0 0             *    the head of a tanar'ri warlord
+M 0 32435 14 32479 100 0 0 0       * a blue abishai guard
+M 0 32421 1 32479 100 0 0 0        * assassin of ages
+E 1 32428 1 16 100 0 0 0           *   the dagger of ages
+E 1 32449 9 17 100 0 0 0           *   a thin bronze dagger
+M 0 32425 13 32481 100 0 0 0       * a scarred pit fiend
+M 0 32425 13 32481 100 0 0 0       * a scarred pit fiend
+M 0 32425 13 32481 100 0 0 0       * a scarred pit fiend
+M 0 32425 13 32481 100 0 0 0       * a scarred pit fiend
+M 0 32439 1 32482 100 0 0 0        * the Dungeon Master
+E 1 32444 1 3 100 0 0 0            *   a pentagram necklace
+G 1 32482 1 0 100 0 0 0            *    an unremarkable key
+G 1 32483 1 0 100 0 0 0            *    the seal of the Dungeon Master
+F 1 32434 9 32482 100 0 0 0        * a green abishai guard (following)
+M 0 32448 1 32483 100 0 0 0        * Zariel, the former lord of Avernus
+M 0 32422 1 32486 100 0 0 0        * a snow white devil
+G 1 32488 1 0 100 0 0 0            *    a blinding white key
+M 0 32432 1 32486 100 0 0 0        * a black pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+E 1 32429 1 20 40 0 0 0            *   the mask of Avernus
+M 0 32426 28 32486 100 0 0 0       * a green pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+M 0 32451 1 32489 100 0 0 0        * a HUGE chromatic dragon
+G 1 32452 1 0 100 0 0 0            *    a flowing cloak of black silk
+M 0 32452 1 32489 100 0 0 0        * A red pit fiend
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32489 1 0 100 0 0 0            *    a demonbone key, bearing the insignia of Bel
+M 0 32444 4 32493 100 0 0 0        * a kocrachon sentry
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+M 0 32434 9 32493 100 0 0 0        * a green abishai guard
+M 0 32444 4 32495 100 0 0 0        * a kocrachon sentry
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+M 0 32425 13 32495 100 0 0 0       * a scarred pit fiend
+E 1 32477 2 16 100 0 0 0           *   a devilish warsword
+E 1 32477 2 17 100 0 0 0           *   a devilish warsword
+M 0 32434 9 32495 100 0 0 0        * a green abishai guard
+M 0 32444 4 32496 100 0 0 0        * a kocrachon sentry
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32479 4 0 100 0 0 0            *    a wicked key
+M 0 32434 9 32496 100 0 0 0        * a green abishai guard
+G 1 32479 4 0 100 0 0 0            *    a wicked key
+M 0 32445 1 32498 50 0 0 0         * an angered glabrezu Demon
+E 1 32478 1 16 100 0 0 0           *   a demonbone scimitar, forged by Kanchelsis
+M 0 32444 4 32499 100 0 0 0        * a kocrachon sentry
+E 1 32474 138 16 100 0 0 0         *   a devilish warsword
+E 1 32474 138 17 100 0 0 0         *   a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32474 138 0 100 0 0 0          *    a devilish warsword
+G 1 32479 4 0 100 0 0 0            *    a wicked key
+M 0 32434 9 32499 100 0 0 0        * a green abishai guard
+G 1 32479 4 0 100 0 0 0            *    a wicked key
+M 0 32446 1 32500 50 0 0 0         * an eternally tormented succubus
+E 1 32472 1 8 20 0 0 0             *   a pair of shadowseed stone boots
+E 1 32480 1 16 100 0 0 0           *   a runestone dagger
+E 1 32449 9 17 100 0 0 0           *   a thin bronze dagger
+M 0 32447 1 32501 50 0 0 0         * an enraged balor demon
+E 1 32481 1 16 100 0 0 0           *   a flaming whip of the balor lord
+*
+S

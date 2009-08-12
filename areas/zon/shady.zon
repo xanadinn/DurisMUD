@@ -1,0 +1,1090 @@
+#975
+&+LShady &+GGrove&n~
+97758 2 4 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 97500 2 1 100 0 0 0
+*     south exit from "Treasure Room in the Chamber of the Ancients" to
+*     "The Cavern of the Brave" - closed
+*
+D 0 97502 0 1 100 0 0 0
+*     north exit from "The Cavern of the Brave" to
+*     "Treasure Room in the Chamber of the Ancients" - closed
+*
+D 0 97501 1 1 100 0 0 0
+*     east exit from "A False Treasure Room of the Ancients" to
+*     "The Cavern of the Brave" - closed
+*
+D 0 97502 3 1 100 0 0 0
+*     west exit from "The Cavern of the Brave" to
+*     "A False Treasure Room of the Ancients" - closed
+*
+D 0 97502 1 2 100 0 0 0
+*     east exit from "The Cavern of the Brave" to
+*     "The Treasure Room of the Ancients" - closed/locked
+*
+D 0 97503 3 2 100 0 0 0
+*     west exit from "The Treasure Room of the Ancients" to
+*     "The Cavern of the Brave" - closed/locked
+*
+D 0 97505 2 1 100 0 0 0
+*     south exit from "A Rocky Pathway of the Ancients" to
+*     "Before the Gates of the Ancients" - closed
+*
+D 0 97509 0 1 100 0 0 0
+*     north exit from "Before the Gates of the Ancients" to
+*     "A Rocky Pathway of the Ancients" - closed
+*
+D 0 97522 2 2 100 0 0 0
+*     south exit from "In the Entryway to the Catacombs of Terror" to
+*     "Before the Jaws of Death" - closed/locked
+*
+D 0 97523 0 2 100 0 0 0
+*     north exit from "Before the Jaws of Death" to
+*     "In the Entryway to the Catacombs of Terror" - closed/locked
+*
+D 0 97530 5 1 100 0 0 0
+*     down exit from "In the Cemetery of the Shady Grove" to
+*     "Inside the Tomb of the Archmage" - closed
+*
+D 0 97723 4 1 100 0 0 0
+*     up exit from "Inside the Tomb of the Archmage" to
+*     "In the Cemetery of the Shady Grove" - closed
+*
+D 0 97538 0 1 100 0 0 0
+*     north exit from "On the West Side of the Black Altar" to
+*     "In an Old Storage Closet" - closed
+*
+D 0 97720 2 1 100 0 0 0
+*     south exit from "In an Old Storage Closet" to
+*     "On the West Side of the Black Altar" - closed
+*
+D 0 97541 5 1 100 0 0 0
+*     down exit from "In the Cemetery of the Shady Grove" to
+*     "In the Tomb of the Forgotten Shaman" - closed
+*
+D 0 97722 4 1 100 0 0 0
+*     up exit from "In the Tomb of the Forgotten Shaman" to
+*     "In the Cemetery of the Shady Grove" - closed
+*
+D 0 97543 2 1 100 0 0 0
+*     south exit from "In an Ancient Tomb" to
+*     "In the Cemetery of the Shady Grove" - closed
+*
+D 0 97552 0 1 100 0 0 0
+*     north exit from "In the Cemetery of the Shady Grove" to
+*     "In an Ancient Tomb" - closed
+*
+D 0 97545 2 1 100 0 0 0
+*     south exit from "The Guild of Shamans Entryway" to
+*     "In the Holy Garden of the Shady Grove" - closed
+*
+D 0 97556 0 1 100 0 0 0
+*     north exit from "In the Holy Garden of the Shady Grove" to
+*     "The Guild of Shamans Entryway" - closed
+*
+D 0 97546 1 1 100 0 0 0
+*     east exit from "In a Small Confession Booth" to
+*     "On a Row of Pews" - closed
+*
+D 0 97547 3 1 100 0 0 0
+*     west exit from "On a Row of Pews" to
+*     "In a Small Confession Booth" - closed
+*
+D 0 97557 1 1 100 0 0 0
+*     east exit from "In a Small Confession Booth" to
+*     "On a Row of Pews" - closed
+*
+D 0 97558 3 1 100 0 0 0
+*     west exit from "On a Row of Pews" to
+*     "In a Small Confession Booth" - closed
+*
+D 0 97561 2 1 100 0 0 0
+*     south exit from "In the Cemetery of the Shady Grove" to
+*     "Before the Cemetery of the Shady Grove" - closed
+*
+D 0 97573 0 1 100 0 0 0
+*     north exit from "Before the Cemetery of the Shady Grove" to
+*     "In the Cemetery of the Shady Grove" - closed
+*
+D 0 97571 2 1 100 0 0 0
+*     south exit from "The Vestibule of the Church of the Black Order of Orcs" to
+*     "Before the Great Unholy Church" - closed
+*
+D 0 97583 0 1 100 0 0 0
+*     north exit from "Before the Great Unholy Church" to
+*     "The Vestibule of the Church of the Black Order of Orcs" - closed
+*
+D 0 97574 2 1 100 0 0 0
+*     south exit from "The Dark Path to Peace" to
+*     "In a Storage Shed" - closed
+*
+D 0 97586 0 1 100 0 0 0
+*     north exit from "In a Storage Shed" to
+*     "The Dark Path to Peace" - closed
+*
+D 0 97576 2 1 100 0 0 0
+*     south exit from "The Dark Path to Peace" to
+*     "The Small Bedroom of the Wicth-Doctor" - closed
+*
+D 0 97588 0 1 100 0 0 0
+*     north exit from "The Small Bedroom of the Wicth-Doctor" to
+*     "The Dark Path to Peace" - closed
+*
+D 0 97588 1 1 100 0 0 0
+*     east exit from "The Small Bedroom of the Wicth-Doctor" to
+*     "The Waiting Room of the Witch-Doctor" - closed
+*
+D 0 97589 3 1 100 0 0 0
+*     west exit from "The Waiting Room of the Witch-Doctor" to
+*     "The Small Bedroom of the Wicth-Doctor" - closed
+*
+D 0 97598 3 1 100 0 0 0
+*     west exit from "The Bleeding Brook Walkway" to
+*     "A Small Hut" - closed
+*
+D 0 97752 1 1 100 0 0 0
+*     east exit from "A Small Hut" to
+*     "The Bleeding Brook Walkway" - closed
+*
+D 0 97599 1 1 100 0 0 0
+*     east exit from "The Streets of Turmoil" to
+*     "Grand Hallway to the Meeting Chamber of the Shady" - closed
+*
+D 0 97600 3 1 100 0 0 0
+*     west exit from "Grand Hallway to the Meeting Chamber of the Shady" to
+*     "The Streets of Turmoil" - closed
+*
+D 0 97602 1 1 100 0 0 0
+*     east exit from "Grand Hallway to the Meeting Chamber of the Shady" to
+*     "The Path of the Damned" - closed
+*
+D 0 97603 3 1 100 0 0 0
+*     west exit from "The Path of the Damned" to
+*     "Grand Hallway to the Meeting Chamber of the Shady" - closed
+*
+D 0 97606 3 1 100 0 0 0
+*     west exit from "The Bleeding Brook Walkway" to
+*     "A Small Bedroom" - closed
+*
+D 0 97740 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "The Bleeding Brook Walkway" - closed
+*
+D 0 97608 2 1 100 0 0 0
+*     south exit from "Grand Hallway to the Meeting Chamber of the Shady" to
+*     "The Path of Prosperity" - closed
+*
+D 0 97626 0 1 100 0 0 0
+*     north exit from "The Path of Prosperity" to
+*     "Grand Hallway to the Meeting Chamber of the Shady" - closed
+*
+D 0 97623 1 1 100 0 0 0
+*     east exit from "Before the West Gates of the Shady Grove" to
+*     "The West Gates of the Shady Grove" - closed
+*
+D 0 97624 3 1 100 0 0 0
+*     west exit from "The West Gates of the Shady Grove" to
+*     "Before the West Gates of the Shady Grove" - closed
+*
+D 0 97632 2 1 100 0 0 0
+*     south exit from "The Path of Prosperity" to
+*     "Entry Hall of the Warrior Guild" - closed
+*
+D 0 97659 0 1 100 0 0 0
+*     north exit from "Entry Hall of the Warrior Guild" to
+*     "The Path of Prosperity" - closed
+*
+D 0 97633 2 1 100 0 0 0
+*     south exit from "The Vestibule of the Dark Tower of Sorcery" to
+*     "The Magical Gardens of the Tower" - closed
+*
+D 0 97650 0 1 100 0 0 0
+*     north exit from "The Magical Gardens of the Tower" to
+*     "The Vestibule of the Dark Tower of Sorcery" - closed
+*
+D 0 97639 4 1 100 0 0 0
+*     up exit from "Beneath a Large Trapdoor" to
+*     "The Inner Sanctum of Lord Manshoon" - closed
+*
+D 0 97640 5 1 100 0 0 0
+*     down exit from "The Inner Sanctum of Lord Manshoon" to
+*     "Beneath a Large Trapdoor" - closed
+*
+D 0 97643 1 1 100 0 0 0
+*     east exit from "The East Gates of the Shady Grove" to
+*     "Before the East Gates of the Shady Grove" - closed
+*
+D 0 97644 3 1 100 0 0 0
+*     west exit from "Before the East Gates of the Shady Grove" to
+*     "The East Gates of the Shady Grove" - closed
+*
+D 0 97671 3 1 100 0 0 0
+*     west exit from "The Bleeding Brook Walkway" to
+*     "An Old Shed" - closed
+*
+D 0 97753 1 1 100 0 0 0
+*     east exit from "An Old Shed" to
+*     "The Bleeding Brook Walkway" - closed
+*
+D 0 97673 1 2 100 0 0 0
+*     east exit from "The Room of Judgement of the Shady Grove" to
+*     "The Jail Cell of the Shady Grove" - closed/locked
+*
+D 0 97726 3 2 100 0 0 0
+*     west exit from "The Jail Cell of the Shady Grove" to
+*     "The Room of Judgement of the Shady Grove" - closed/locked
+*
+D 0 97675 2 1 100 0 0 0
+*     south exit from "On Peddler's Way" to
+*     "An Ingredients Shop" - closed
+*
+D 0 97754 0 1 100 0 0 0
+*     north exit from "An Ingredients Shop" to
+*     "On Peddler's Way" - closed
+*
+D 0 97680 2 1 100 0 0 0
+*     south exit from "The Training Room of the Barracks" to
+*     "The Sleeping Barracks" - closed
+*
+D 0 97725 0 1 100 0 0 0
+*     north exit from "The Sleeping Barracks" to
+*     "The Training Room of the Barracks" - closed
+*
+D 0 97681 1 1 100 0 0 0
+*     east exit from "The Crossroads of the Barracks" to
+*     "The Entry to the Barracks of the Black Order" - closed
+*
+D 0 97682 3 1 100 0 0 0
+*     west exit from "The Entry to the Barracks of the Black Order" to
+*     "The Crossroads of the Barracks" - closed
+*
+D 0 97700 2 1 100 0 0 0
+*     south exit from "The First Floor of An Old Stone Tower" to
+*     "The Way of the Knife" - closed
+*
+D 0 97706 0 1 100 0 0 0
+*     north exit from "The Way of the Knife" to
+*     "The First Floor of An Old Stone Tower" - closed
+*
+D 0 97709 5 1 100 0 0 0
+*     down exit from "The South Gates of the Shady Grove" to
+*     "Before the Ramparts that Lead to the South Gates of Shady Grove" - closed
+*
+D 0 97715 4 1 100 0 0 0
+*     up exit from "Before the Ramparts that Lead to the South Gates of Shady Grove" to
+*     "The South Gates of the Shady Grove" - closed
+*
+D 0 97711 0 1 100 0 0 0
+*     north exit from "The Way of the Knife" to
+*     "The Nursery of the Shady Grove" - closed
+*
+D 0 97729 2 1 100 0 0 0
+*     south exit from "The Nursery of the Shady Grove" to
+*     "The Way of the Knife" - closed
+*
+D 0 97733 0 1 100 0 0 0
+*     north exit from "The Inner Sanctum of Marek" to
+*     "A Large Storage Closet" - closed
+*
+D 0 97735 2 1 100 0 0 0
+*     south exit from "A Large Storage Closet" to
+*     "The Inner Sanctum of Marek" - closed
+*
+D 0 97734 3 1 100 0 0 0
+*     west exit from "Inside the Rogues Guild of the Grove" to
+*     "A Large Storage Closet" - closed
+*
+D 0 97735 1 1 100 0 0 0
+*     east exit from "A Large Storage Closet" to
+*     "Inside the Rogues Guild of the Grove" - closed
+*
+D 0 97739 4 1 100 0 0 0
+*     up exit from "In an Underground Cellar" to
+*     "A Small Bedroom" - closed
+*
+D 0 97740 5 1 100 0 0 0
+*     down exit from "A Small Bedroom" to
+*     "In an Underground Cellar" - closed
+*
+D 0 97743 1 1 100 0 0 0
+*     east exit from "A Marble Staircase" to
+*     "The Open Air Above the City" - closed
+*
+D 0 97744 3 1 100 0 0 0
+*     west exit from "The Open Air Above the City" to
+*     "A Marble Staircase" - closed
+*
+D 0 97743 4 1 100 0 0 0
+*     up exit from "A Marble Staircase" to
+*     "The Study of Auld" - closed
+*
+D 0 97745 5 1 100 0 0 0
+*     down exit from "The Study of Auld" to
+*     "A Marble Staircase" - closed
+*
+D 0 97745 1 1 100 0 0 0
+*     east exit from "The Study of Auld" to
+*     "The Open Air Above the City" - closed
+*
+D 0 97746 3 1 100 0 0 0
+*     west exit from "The Open Air Above the City" to
+*     "The Study of Auld" - closed
+*
+D 0 97750 2 1 100 0 0 0
+*     south exit from "The Laboratory of Muiral" to
+*     "The Storage Room of the Laboratory" - closed
+*
+D 0 97751 0 1 100 0 0 0
+*     north exit from "The Storage Room of the Laboratory" to
+*     "The Laboratory of Muiral" - closed
+*
+*
+O 0 97541 5 97503 100 0 0 0        * a large pile of coins
+O 0 97541 5 97503 100 0 0 0        * a large pile of coins
+O 0 97541 5 97503 100 0 0 0        * a large pile of coins
+O 0 97541 5 97503 100 0 0 0        * a large pile of coins
+O 0 97541 5 97503 100 0 0 0        * a large pile of coins
+O 0 97536 3 97503 100 0 0 0        * an aqua-blue potion
+O 0 97536 3 97503 100 0 0 0        * an aqua-blue potion
+O 0 97536 3 97503 100 0 0 0        * an aqua-blue potion
+O 0 97545 3 97529 100 0 0 0        * a large bed
+O 0 97533 3 97531 100 0 0 0        * a large casket
+O 0 97587 1 97539 100 0 0 0        * a dark altar
+O 0 97544 1 97542 100 0 0 0        * a large boulder
+O 0 97543 1 97550 100 0 0 0        * a small decaying tree stump
+O 0 97521 5 97556 100 0 0 0        * a cucumber
+O 0 97521 5 97556 100 0 0 0        * a cucumber
+O 0 97521 5 97568 100 0 0 0        * a cucumber
+O 0 97521 5 97568 100 0 0 0        * a cucumber
+O 0 97521 5 97569 100 0 0 0        * a cucumber
+O 0 97556 2 97570 100 0 0 0        * a large fountain
+O 0 97545 3 97588 100 0 0 0        * a large bed
+O 0 3097 99 97604 100 0 0 0        * (object type not in this .obj file)
+O 0 97556 2 97628 100 0 0 0        * a large fountain
+O 0 90 1 97628 100 0 0 0           * (object type not in this .obj file)
+O 0 92 999 97653 100 0 0 0         * (object type not in this .obj file)
+O 0 97546 1 97654 100 0 0 0        * a large well
+O 0 97545 3 97688 100 0 0 0        * a large bed
+O 0 3097 99 97703 100 0 0 0        * (object type not in this .obj file)
+O 0 97533 3 97722 100 0 0 0        * a large casket
+O 0 97533 3 97723 100 0 0 0        * a large casket
+*
+M 0 97500 10 97500 100 0 0 0       * a slimy maggot
+M 0 97500 10 97500 100 0 0 0       * a slimy maggot
+M 0 97500 10 97500 100 0 0 0       * a slimy maggot
+M 0 97500 10 97500 100 0 0 0       * a slimy maggot
+M 0 97500 10 97501 100 0 0 0       * a slimy maggot
+M 0 97500 10 97501 100 0 0 0       * a slimy maggot
+M 0 97500 10 97501 100 0 0 0       * a slimy maggot
+M 0 97500 10 97501 100 0 0 0       * a slimy maggot
+M 0 97511 1 97502 100 0 0 0        * Mezef
+E 1 97515 1 2 100 0 0 0            *   a tiny ring of bone
+E 1 97514 1 3 100 0 0 0            *   a diamond-studded collar
+G 1 97535 1 0 100 0 0 0            *    a brittle key
+M 0 97565 1 97506 100 0 0 0        * a large stone golem
+E 1 97573 1 16 100 0 0 0           *   a stone mace
+M 0 97501 1 97509 100 0 0 0        * Midnight, the Black Dragon
+E 1 97542 3 3 100 0 0 0            *   a vial of dragon's blood
+E 1 97522 2 13 100 0 0 0           *   a pitch black dragonscale belt
+G 1 97520 2 0 100 0 0 0            *    a black egg of antiquity
+M 0 97512 1 97512 100 0 0 0        * an angry demon
+E 1 97542 3 3 100 0 0 0            *   a vial of dragon's blood
+M 0 97566 4 97515 100 0 0 0        * a red devil of the catacombs
+M 0 97566 4 97518 100 0 0 0        * a red devil of the catacombs
+M 0 97566 4 97521 100 0 0 0        * a red devil of the catacombs
+M 0 97566 4 97522 100 0 0 0        * a red devil of the catacombs
+M 0 97500 10 97523 100 0 0 0       * a slimy maggot
+G 1 97538 1 0 100 0 0 0            *    a red key
+M 0 97505 1 97523 100 0 0 0        * the Shady orc guard
+M 0 97519 1 97524 100 0 0 0        * Zinn Mirrormein
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97505 2 14 100 0 0 0           *   a silverish bracelet of chainlinks
+E 1 97540 1 15 100 0 0 0           *   a silverish bracelet of chainlinks
+E 1 97518 3 20 100 0 0 0           *   a tattoo of darkness
+M 0 97538 17 97524 100 0 0 0       * an orcish shaman
+M 0 97521 1 97525 100 0 0 0        * an orcish shaman of the Black Order
+E 1 97508 99 3 100 0 0 0           *   an obsidian rosary
+G 1 97512 99 0 100 0 0 0           *    a piece of holy bread
+G 1 116 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 119 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 126 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 129 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 105 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 106 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 107 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 108 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 109 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 111 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97538 17 97525 100 0 0 0       * an orcish shaman
+M 0 97538 17 97525 100 0 0 0       * an orcish shaman
+M 0 97500 10 97526 100 0 0 0       * a slimy maggot
+M 0 97567 6 97528 100 0 0 0        * a strange green potted plant
+G 1 97574 4 0 100 0 0 0            *    a small green leaf
+M 0 97507 9 97530 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97520 14 97530 100 0 0 0       * an orcish warrior
+M 0 97537 17 97530 100 0 0 0       * an old orcish woman
+F 1 97573 8 97530 100 0 0 0        * a cowardly orcish girl (following)
+M 0 97570 3 97531 100 0 0 0        * a small spider
+M 0 97570 3 97531 100 0 0 0        * a small spider
+M 0 97570 3 97531 100 0 0 0        * a small spider
+M 0 97538 17 97532 100 0 0 0       * an orcish shaman
+M 0 97573 8 97533 100 0 0 0        * a cowardly orcish girl
+M 0 97538 17 97536 100 0 0 0       * an orcish shaman
+M 0 97538 17 97536 100 0 0 0       * an orcish shaman
+M 0 97538 17 97537 100 0 0 0       * an orcish shaman
+M 0 97538 17 97537 100 0 0 0       * an orcish shaman
+M 0 97504 5 97538 100 0 0 0        * an orcish altar boy
+E 1 97523 4 18 100 0 0 0           *   a small wax candle
+M 0 97568 4 97538 100 0 0 0        * a small red rose bush
+G 1 97575 3 0 100 0 0 0            *    a small rose bud
+M 0 97510 1 97539 100 0 0 0        * T'Zoul Mhembryl
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97531 1 8 100 0 0 0            *   a pair of silver-lined boots
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97505 2 15 100 0 0 0           *   a silverish bracelet of chainlinks
+E 1 97518 3 20 100 0 0 0           *   a tattoo of darkness
+M 0 97504 5 97539 100 0 0 0        * an orcish altar boy
+M 0 97504 5 97540 100 0 0 0        * an orcish altar boy
+E 1 97523 4 18 100 0 0 0           *   a small wax candle
+M 0 97568 4 97540 100 0 0 0        * a small red rose bush
+G 1 97575 3 0 100 0 0 0            *    a small rose bud
+M 0 97514 14 97541 100 0 0 0       * a wandering soul
+M 0 97537 17 97542 100 0 0 0       * an old orcish woman
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97569 4 97547 100 0 0 0        * a praying orc
+E 1 97576 4 3 100 0 0 0            *   a chain of orcish holy beads
+M 0 97504 5 97549 100 0 0 0        * an orcish altar boy
+E 1 97523 4 18 100 0 0 0           *   a small wax candle
+M 0 97537 17 97549 100 0 0 0       * an old orcish woman
+M 0 97569 4 97549 100 0 0 0        * a praying orc
+E 1 97576 4 3 100 0 0 0            *   a chain of orcish holy beads
+M 0 97537 17 97550 100 0 0 0       * an old orcish woman
+M 0 97517 6 97551 100 0 0 0        * a grave-robbing orc
+M 0 97517 6 97553 100 0 0 0        * a grave-robbing orc
+M 0 97507 9 97555 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97509 4 97555 100 0 0 0        * a black skunk
+M 0 97507 9 97556 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97518 1 97556 100 0 0 0        * an old orcish shaman
+E 1 97518 3 20 100 0 0 0           *   a tattoo of darkness
+M 0 97508 4 97557 100 0 0 0        * a cute kitten
+E 1 97504 3 18 100 0 0 0           *   a ball of yarn
+M 0 97569 4 97558 100 0 0 0        * a praying orc
+E 1 97576 4 3 100 0 0 0            *   a chain of orcish holy beads
+M 0 97549 23 97560 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97555 18 97560 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97569 4 97560 100 0 0 0        * a praying orc
+E 1 97576 4 3 100 0 0 0            *   a chain of orcish holy beads
+M 0 97537 17 97561 100 0 0 0       * an old orcish woman
+M 0 97573 8 97561 100 0 0 0        * a cowardly orcish girl
+M 0 97514 14 97562 100 0 0 0       * a wandering soul
+M 0 97517 6 97566 100 0 0 0        * a grave-robbing orc
+M 0 97514 14 97567 100 0 0 0       * a wandering soul
+M 0 97507 9 97568 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97507 9 97569 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97509 4 97569 100 0 0 0        * a black skunk
+M 0 97504 5 97570 100 0 0 0        * an orcish altar boy
+E 1 97523 4 18 100 0 0 0           *   a small wax candle
+M 0 97537 17 97571 100 0 0 0       * an old orcish woman
+M 0 97502 1 97572 100 0 0 0        * a young priestess of the Black Order
+E 1 97508 99 3 100 0 0 0           *   an obsidian rosary
+E 1 97511 5 20 100 0 0 0           *   a skull mask of the Black Order
+G 1 97512 99 0 100 0 0 0           *    a piece of holy bread
+G 1 97508 99 0 100 0 0 0           *    an obsidian rosary
+G 1 97509 99 0 100 0 0 0           *    the holy bible according to The Black Order
+G 1 97579 99 0 100 0 0 0           *    a vial of unholy water
+M 0 97555 18 97572 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97514 14 97572 100 0 0 0       * a wandering soul
+M 0 97508 4 97573 100 0 0 0        * a cute kitten
+E 1 97504 3 18 100 0 0 0           *   a ball of yarn
+M 0 97560 13 97573 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97506 5 97574 100 0 0 0        * an orcish street sweeper
+E 1 97502 4 13 100 0 0 0           *   a belt of street sweepers
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+E 1 97501 4 16 100 0 0 0           *   a large broom
+M 0 97555 18 97575 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97507 9 97576 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97506 5 97578 100 0 0 0        * an orcish street sweeper
+E 1 97502 4 13 100 0 0 0           *   a belt of street sweepers
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+E 1 97501 4 16 100 0 0 0           *   a large broom
+G 1 97500 5 0 100 0 0 0            *    a bag of collection
+M 0 97509 4 97579 100 0 0 0        * a black skunk
+M 0 97557 9 97579 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97560 13 97579 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97571 9 97579 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97526 1 97579 100 0 0 0        * a crazed orc
+M 0 97507 9 97580 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97545 4 97580 100 0 0 0        * a troll slave
+M 0 97560 13 97580 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+R 1 97563 6 97580 100 0 0 0        * a draft horse (being ridden)
+F 1 97563 6 97580 100 0 0 0        * a draft horse (following)
+M 0 97506 5 97581 100 0 0 0        * an orcish street sweeper
+E 1 97502 4 13 100 0 0 0           *   a belt of street sweepers
+E 1 97501 4 16 100 0 0 0           *   a large broom
+M 0 97514 14 97583 100 0 0 0       * a wandering soul
+M 0 97537 17 97583 100 0 0 0       * an old orcish woman
+M 0 97506 5 97584 100 0 0 0        * an orcish street sweeper
+E 1 97502 4 13 100 0 0 0           *   a belt of street sweepers
+E 1 97501 4 16 100 0 0 0           *   a large broom
+G 1 97500 5 0 100 0 0 0            *    a bag of collection
+M 0 97560 13 97584 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+R 1 97563 6 97584 100 0 0 0        * a draft horse (being ridden)
+F 1 97563 6 97584 100 0 0 0        * a draft horse (following)
+M 0 97581 1 97584 100 0 0 0        * a black hooded orc
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97508 4 97585 100 0 0 0        * a cute kitten
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97549 23 97585 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97513 1 97586 100 0 0 0        * a fiendish spectre
+E 1 97527 99 9 100 0 0 0           *   a pair of tarnished gauntlets
+G 1 97513 1 0 100 0 0 0            *    a pitch black knight's visor
+M 0 97507 9 97587 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97516 1 97589 100 0 0 0        * a warrior orc
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97516 99 16 100 0 0 0          *   a polished sword of bone
+M 0 97509 4 97589 100 0 0 0        * a black skunk
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97555 18 97589 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97515 1 97590 100 0 0 0        * Janga Swifthands
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 105 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 106 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 107 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 108 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 109 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 111 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97507 9 97591 100 0 0 0        * a stray hound
+E 1 97503 10 3 100 0 0 0           *   a collar of elven bones
+M 0 97564 10 97592 100 0 0 0       * an orcish merchant
+M 0 97572 10 97592 100 0 0 0       * an orcish assassin
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97555 18 97593 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97529 8 97594 100 0 0 0        * a stray dog
+M 0 97537 17 97595 100 0 0 0       * an old orcish woman
+M 0 97549 23 97596 100 0 0 0       * a baby orc
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97528 7 97598 100 0 0 0        * an orcish street sweeper
+E 1 97500 5 18 100 0 0 0           *   a bag of collection
+M 0 97557 9 97598 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97528 7 97599 100 0 0 0        * an orcish street sweeper
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97514 14 97599 100 0 0 0       * a wandering soul
+M 0 97547 1 97601 100 0 0 0        * Ghak
+E 1 97577 1 2 100 0 0 0            *   a old crystal ring
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97560 3 16 100 0 0 0           *   an orcish-forged blade
+F 1 97546 1 97601 100 0 0 0        * Urla, the dark mistress (following)
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97559 2 16 100 0 0 0           *   an orcish-forged dagger
+F 1 97560 13 97601 100 0 0 0       * an orcish guard (following)
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97506 5 97601 100 0 0 0        * an orcish street sweeper
+M 0 97567 6 97602 100 0 0 0        * a strange green potted plant
+G 1 97574 4 0 100 0 0 0            *    a small green leaf
+M 0 97568 4 97602 100 0 0 0        * a small red rose bush
+G 1 97575 3 0 100 0 0 0            *    a small rose bud
+M 0 97508 4 97603 100 0 0 0        * a cute kitten
+E 1 97504 3 18 100 0 0 0           *   a ball of yarn
+M 0 97555 18 97604 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97529 8 97605 100 0 0 0        * a stray dog
+M 0 97555 18 97605 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97537 17 97605 100 0 0 0       * an old orcish woman
+M 0 97549 23 97606 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97572 10 97607 100 0 0 0       * an orcish assassin
+M 0 97549 23 97608 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+F 1 97549 23 97608 100 0 0 0       * a baby orc (following)
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97535 1 97609 100 0 0 0        * Rorst Anonton
+G 1 385 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 347 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 386 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 128 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 129 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97571 9 97609 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97522 1 97610 100 0 0 0        * Zehla Malen
+E 1 97525 99 3 100 0 0 0           *   a chain of black diamonds
+E 1 97542 3 4 100 0 0 0            *   a vial of dragon's blood
+E 1 97526 1 5 100 0 0 0            *   a black dragon scale
+E 1 97527 99 9 100 0 0 0           *   a pair of tarnished gauntlets
+G 1 245 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 209 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 706 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 707 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 440 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 704 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 191 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 97548 999 0 100 0 0 0          *    a suit of orcish platemail
+G 1 97588 999 0 100 0 0 0          *    a pair of orcish warmitts
+M 0 97529 8 97611 100 0 0 0        * a stray dog
+M 0 97571 9 97611 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97528 7 97612 100 0 0 0        * an orcish street sweeper
+E 1 97500 5 18 100 0 0 0           *   a bag of collection
+M 0 97557 9 97612 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97528 7 97613 100 0 0 0        * an orcish street sweeper
+E 1 97500 5 18 100 0 0 0           *   a bag of collection
+M 0 97532 3 97613 100 0 0 0        * the hardworking fisherman
+M 0 97532 3 97614 100 0 0 0        * the hardworking fisherman
+M 0 97532 3 97614 100 0 0 0        * the hardworking fisherman
+M 0 97531 4 97615 100 0 0 0        * a black skunk
+M 0 97524 10 97615 100 0 0 0       * the grinning bobcat
+M 0 97524 10 97617 100 0 0 0       * the grinning bobcat
+M 0 97524 10 97619 100 0 0 0       * the grinning bobcat
+M 0 97529 8 97621 100 0 0 0        * a stray dog
+M 0 97531 4 97623 100 0 0 0        * a black skunk
+M 0 97562 4 97624 100 0 0 0        * an orcish elite
+E 1 97530 99 5 100 0 0 0           *   a suit of spiked platemail of the Black Guard
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97511 5 20 100 0 0 0           *   a skull mask of the Black Order
+E 1 97552 3 16 100 0 0 0           *   a diamond-tipped orcish sword
+R 1 97561 5 97624 100 0 0 0        * a large warhorse (being ridden)
+M 0 97601 4 97624 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97601 4 97624 100 0 0 0        * the orc gate guard (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97602 3 97624 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97602 3 97624 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97602 3 97624 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97601 4 97624 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97601 4 97624 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97537 17 97625 100 0 0 0       * an old orcish woman
+M 0 97524 10 97625 100 0 0 0       * the grinning bobcat
+M 0 97528 7 97626 100 0 0 0        * an orcish street sweeper
+M 0 97529 8 97626 100 0 0 0        * a stray dog
+M 0 97537 17 97627 100 0 0 0       * an old orcish woman
+M 0 97572 10 97627 100 0 0 0       * an orcish assassin
+M 0 97562 4 97628 100 0 0 0        * an orcish elite
+E 1 97530 99 5 100 0 0 0           *   a suit of spiked platemail of the Black Guard
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97511 5 20 100 0 0 0           *   a skull mask of the Black Order
+E 1 97552 3 16 100 0 0 0           *   a diamond-tipped orcish sword
+R 1 97561 5 97628 100 0 0 0        * a large warhorse (being ridden)
+M 0 97582 3 97628 100 0 0 0        * an orcish guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97524 10 97628 100 0 0 0       * the grinning bobcat
+M 0 97599 1 97628 100 0 0 0        * the town crier
+M 0 97555 18 97628 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97528 7 97630 100 0 0 0        * an orcish street sweeper
+M 0 97514 14 97630 100 0 0 0       * a wandering soul
+M 0 97537 17 97630 100 0 0 0       * an old orcish woman
+M 0 97549 23 97631 100 0 0 0       * a baby orc
+R 1 97529 8 97631 100 0 0 0        * a stray dog (being ridden)
+M 0 97538 17 97632 100 0 0 0       * an orcish shaman
+M 0 97539 1 97634 100 0 0 0        * an old orcish mage
+G 1 97557 99 0 100 0 0 0           *    a scroll of fire
+G 1 97558 99 0 100 0 0 0           *    a scroll of ice
+G 1 203 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 204 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97527 2 97636 100 0 0 0        * an apprentice mage
+M 0 97527 2 97636 100 0 0 0        * an apprentice mage
+M 0 97585 1 97637 100 0 0 0        * Banshan
+M 0 97586 1 97638 100 0 0 0        * Lonshoon
+M 0 97523 1 97640 100 0 0 0        * Manshoon
+E 1 97517 1 12 100 0 0 0           *   a wicked black cape
+E 1 97519 9 18 100 0 0 0           *   a staff of armageddon
+E 1 97555 1 20 100 0 0 0           *   a tattoo of darkness
+M 0 97528 7 97641 100 0 0 0        * an orcish street sweeper
+M 0 97529 8 97641 100 0 0 0        * a stray dog
+M 0 97537 17 97641 100 0 0 0       * an old orcish woman
+M 0 97564 10 97642 100 0 0 0       * an orcish merchant
+M 0 97562 4 97643 100 0 0 0        * an orcish elite
+E 1 97530 99 5 100 0 0 0           *   a suit of spiked platemail of the Black Guard
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97511 5 20 100 0 0 0           *   a skull mask of the Black Order
+E 1 97552 3 16 100 0 0 0           *   a diamond-tipped orcish sword
+R 1 97561 5 97643 100 0 0 0        * a large warhorse (being ridden)
+M 0 97520 14 97643 100 0 0 0       * an orcish warrior
+M 0 97560 13 97643 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97604 4 97643 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97603 3 97643 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97603 3 97643 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97603 3 97643 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97604 4 97643 100 0 0 0        * the orc gate guard (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97604 4 97643 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97604 4 97643 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97529 8 97644 100 0 0 0        * a stray dog
+M 0 97531 4 97645 100 0 0 0        * a black skunk
+M 0 97524 10 97647 100 0 0 0       * the grinning bobcat
+M 0 97549 23 97649 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97537 17 97650 100 0 0 0       * an old orcish woman
+M 0 97564 10 97651 100 0 0 0       * an orcish merchant
+M 0 97537 17 97652 100 0 0 0       * an old orcish woman
+M 0 97567 6 97652 100 0 0 0        * a strange green potted plant
+G 1 97574 4 0 100 0 0 0            *    a small green leaf
+M 0 97533 5 97653 100 0 0 0        * a dancing elven girl
+M 0 97540 1 97653 100 0 0 0        * Ixie
+E 1 97585 1 3 100 0 0 0            *   a silvery pendant
+M 0 97573 8 97654 100 0 0 0        * a cowardly orcish girl
+M 0 97580 2 97654 100 0 0 0        * an orc anti-paladin
+G 1 97560 3 0 100 0 0 0            *    an orcish-forged blade
+M 0 97564 10 97656 100 0 0 0       * an orcish merchant
+M 0 97578 1 97656 100 0 0 0        * a dark orcish priest
+M 0 97576 1 97657 100 0 0 0        * Xixermo
+G 1 97516 99 0 100 0 0 0           *    a polished sword of bone
+G 1 97553 99 0 100 0 0 0           *    a wooden spear
+G 1 97554 99 0 100 0 0 0           *    a polished staff
+G 1 97571 99 0 100 0 0 0           *    a large spiked mace
+G 1 54 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 336 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 97549 999 0 100 0 0 0          *    an orcish-forged sword
+G 1 97589 999 0 100 0 0 0          *    a serrated orcish warsword
+M 0 97555 18 97658 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97564 10 97658 100 0 0 0       * an orcish merchant
+M 0 97514 14 97661 100 0 0 0       * a wandering soul
+M 0 97568 4 97662 100 0 0 0        * a small red rose bush
+M 0 97555 18 97663 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97582 3 97663 100 0 0 0        * an orcish guard
+M 0 97580 2 97663 100 0 0 0        * an orc anti-paladin
+G 1 97560 3 0 100 0 0 0            *    an orcish-forged blade
+M 0 97549 23 97665 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97537 17 97666 100 0 0 0       * an old orcish woman
+M 0 97571 9 97667 100 0 0 0        * an orcish thief
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97534 1 97667 100 0 0 0        * Meinar, the old baker
+E 1 97510 1 16 100 0 0 0           *   a baking spatula
+G 1 97506 99 0 100 0 0 0           *    a chocolate cake
+G 1 97507 99 0 100 0 0 0           *    a lemon cake
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 6070 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 6109 999 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 6110 999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 97549 23 97668 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97564 10 97668 100 0 0 0       * an orcish merchant
+M 0 97573 8 97668 100 0 0 0        * a cowardly orcish girl
+M 0 97579 1 97668 100 0 0 0        * Ghizyon
+E 1 97534 1 5 100 0 0 0            *   a purple suit of dragon scales
+E 1 97586 1 16 40 0 0 0            *   the cracked blood sword of the ancients
+F 1 97560 13 97668 100 0 0 0       * an orcish guard (following)
+F 1 97560 13 97668 100 0 0 0       * an orcish guard (following)
+M 0 97520 14 97670 100 0 0 0       * an orcish warrior
+M 0 97557 9 97671 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97555 18 97672 100 0 0 0       * a female orc
+M 0 97549 23 97672 100 0 0 0       * a baby orc
+M 0 97552 1 97673 100 0 0 0        * the orcish jailkeeper
+E 1 97530 99 5 100 0 0 0           *   a suit of spiked platemail of the Black Guard
+E 1 97528 8 7 100 0 0 0            *   a pair of orcish leggings
+E 1 97529 9 10 100 0 0 0           *   a pair of orcish sleeves
+E 1 97564 1 18 100 0 0 0           *   a jailkeeper's key
+M 0 97553 1 97673 100 0 0 0        * the orcish judge
+M 0 97555 18 97675 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97564 10 97675 100 0 0 0       * an orcish merchant
+M 0 97520 14 97677 100 0 0 0       * an orcish warrior
+M 0 97520 14 97677 100 0 0 0       * an orcish warrior
+E 1 97563 17 15 100 0 0 0          *   an orcish-woven bracelet
+M 0 97520 14 97678 100 0 0 0       * an orcish warrior
+M 0 97538 17 97678 100 0 0 0       * an orcish shaman
+M 0 97514 14 97679 100 0 0 0       * a wandering soul
+M 0 97524 10 97679 100 0 0 0       * the grinning bobcat
+M 0 97544 1 97680 100 0 0 0        * Ramish, master trainer
+E 1 97530 99 5 100 0 0 0           *   a suit of spiked platemail of the Black Guard
+E 1 97511 5 20 100 0 0 0           *   a skull mask of the Black Order
+M 0 97525 5 97682 100 0 0 0        * the orc gate guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+E 1 97549 999 17 100 0 0 0         *   an orcish-forged sword
+M 0 97555 18 97683 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+F 1 97549 23 97683 100 0 0 0       * a baby orc (following)
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97520 14 97684 100 0 0 0       * an orcish warrior
+M 0 97514 14 97684 100 0 0 0       * a wandering soul
+M 0 97533 5 97684 100 0 0 0        * a dancing elven girl
+M 0 97514 14 97685 100 0 0 0       * a wandering soul
+M 0 97533 5 97685 100 0 0 0        * a dancing elven girl
+M 0 97557 9 97686 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97567 6 97687 100 0 0 0        * a strange green potted plant
+G 1 97574 4 0 100 0 0 0            *    a small green leaf
+M 0 97520 14 97688 100 0 0 0       * an orcish warrior
+M 0 97567 6 97688 100 0 0 0        * a strange green potted plant
+M 0 97538 17 97690 100 0 0 0       * an orcish shaman
+M 0 97549 23 97692 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97524 10 97692 100 0 0 0       * the grinning bobcat
+M 0 97550 4 97693 100 0 0 0        * an orcish scribe
+E 1 97562 4 18 100 0 0 0           *   an old quill
+M 0 97550 4 97693 100 0 0 0        * an orcish scribe
+E 1 97562 4 18 100 0 0 0           *   an old quill
+M 0 97550 4 97693 100 0 0 0        * an orcish scribe
+E 1 97562 4 18 100 0 0 0           *   an old quill
+M 0 97550 4 97693 100 0 0 0        * an orcish scribe
+E 1 97562 4 18 100 0 0 0           *   an old quill
+M 0 97538 17 97693 100 0 0 0       * an orcish shaman
+M 0 97549 23 97694 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97555 18 97694 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97533 5 97694 100 0 0 0        * a dancing elven girl
+M 0 97564 10 97694 100 0 0 0       * an orcish merchant
+M 0 97564 10 97694 100 0 0 0       * an orcish merchant
+M 0 97557 9 97695 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97533 5 97695 100 0 0 0        * a dancing elven girl
+M 0 97520 14 97696 100 0 0 0       * an orcish warrior
+M 0 97549 23 97698 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97520 14 97698 100 0 0 0       * an orcish warrior
+M 0 97549 23 97699 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97514 14 97699 100 0 0 0       * a wandering soul
+M 0 97572 10 97700 100 0 0 0       * an orcish assassin
+E 1 97572 1 3 100 0 0 0            *   an old bloodied amulet
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97559 1 97701 100 0 0 0        * Mira
+E 1 97569 1 6 100 0 0 0            *   a red helm
+E 1 97568 1 16 100 0 0 0           *   an orcish staff of the ancients
+E 1 97567 1 21 100 0 0 0           *   a shiny golden earring of the ancients
+M 0 97549 23 97702 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97538 17 97703 100 0 0 0       * an orcish shaman
+M 0 97549 23 97703 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97605 2 97703 100 0 0 0        * an orcish elite bank guard
+E 1 97570 2 16 100 0 0 0           *   the blood sword of the ancients
+M 0 97605 2 97703 100 0 0 0        * an orcish elite bank guard
+E 1 97570 2 16 100 0 0 0           *   the blood sword of the ancients
+M 0 97538 17 97704 100 0 0 0       * an orcish shaman
+M 0 97560 13 97705 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97514 14 97705 100 0 0 0       * a wandering soul
+M 0 97520 14 97707 100 0 0 0       * an orcish warrior
+E 1 97516 99 16 100 0 0 0          *   a polished sword of bone
+M 0 97538 17 97707 100 0 0 0       * an orcish shaman
+M 0 97555 18 97708 100 0 0 0       * a female orc
+M 0 97525 5 97709 100 0 0 0        * the orc gate guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97589 1 97709 100 0 0 0        * an umber hulk (following)
+F 1 97600 3 97709 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97600 3 97709 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97600 3 97709 100 0 0 0        * a young orc sentinel (following)
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97525 5 97709 100 0 0 0        * the orc gate guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97562 4 97709 100 0 0 0        * an orcish elite
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+R 1 97561 5 97709 100 0 0 0        * a large warhorse (being ridden)
+M 0 97525 5 97709 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97525 5 97709 100 0 0 0        * the orc gate guard
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97555 18 97712 100 0 0 0       * a female orc
+E 1 97565 14 2 100 0 0 0           *   a shiny golden ring
+M 0 97564 10 97713 100 0 0 0       * an orcish merchant
+M 0 97524 10 97713 100 0 0 0       * the grinning bobcat
+M 0 97555 18 97714 100 0 0 0       * a female orc
+M 0 97557 9 97714 100 0 0 0        * a young toddler
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97524 10 97715 100 0 0 0       * the grinning bobcat
+M 0 97531 4 97715 100 0 0 0        * a black skunk
+M 0 97560 13 97716 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+R 1 97561 5 97716 100 0 0 0        * a large warhorse (being ridden)
+M 0 97560 13 97716 100 0 0 0       * an orcish guard
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97517 6 97716 100 0 0 0        * a grave-robbing orc
+M 0 97567 6 97720 100 0 0 0        * a strange green potted plant
+M 0 97548 1 97721 100 0 0 0        * Lyren
+E 1 97524 2 3 100 0 0 0            *   a glowing ruby pendant
+M 0 97517 6 97722 100 0 0 0        * a grave-robbing orc
+M 0 97536 1 97722 100 0 0 0        * Azreal, the forgotten shaman
+E 1 97532 1 20 100 0 0 0           *   a golden studded mask
+M 0 97514 14 97723 100 0 0 0       * a wandering soul
+M 0 97517 6 97724 100 0 0 0        * a grave-robbing orc
+M 0 97573 8 97724 100 0 0 0        * a cowardly orcish girl
+M 0 97543 4 97725 100 0 0 0        * an orcish guard
+E 1 97550 4 5 100 0 0 0            *   a red undershirt
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97543 4 97725 100 0 0 0        * an orcish guard
+E 1 97550 4 5 100 0 0 0            *   a red undershirt
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97543 4 97725 100 0 0 0        * an orcish guard
+E 1 97550 4 5 100 0 0 0            *   a red undershirt
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97543 4 97725 100 0 0 0        * an orcish guard
+E 1 97550 4 5 100 0 0 0            *   a red undershirt
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97577 1 97726 100 0 0 0        * King Mmenzar
+E 1 97584 1 6 100 0 0 0            *   a jeweled crown of Teka
+M 0 97554 2 97727 100 0 0 0        * a training orc guard
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97554 2 97727 100 0 0 0        * a training orc guard
+E 1 97551 8 7 100 0 0 0            *   a pair of cotton leggings
+M 0 97549 23 97728 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97558 1 97728 100 0 0 0        * Khazar, the jeweler
+E 1 97524 2 3 100 0 0 0            *   a glowing ruby pendant
+E 1 97525 99 4 100 0 0 0           *   a chain of black diamonds
+G 1 97580 99 0 100 0 0 0           *    a sparkling diamond pendant
+G 1 97581 99 0 100 0 0 0           *    a small ruby
+M 0 97538 17 97728 100 0 0 0       * an orcish shaman
+M 0 97556 1 97729 100 0 0 0        * Misea, the mother matron
+F 1 97549 23 97729 100 0 0 0       * a baby orc (following)
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+F 1 97549 23 97729 100 0 0 0       * a baby orc (following)
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+F 1 97549 23 97729 100 0 0 0       * a baby orc (following)
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+F 1 97557 9 97729 100 0 0 0        * a young toddler (following)
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+G 1 97582 1 0 100 0 0 0            *    a golden skeleton key
+F 1 97557 9 97729 100 0 0 0        * a young toddler (following)
+G 1 97566 9 0 100 0 0 0            *    a small orcish figurine
+M 0 97541 1 97731 100 0 0 0        * Tarana
+M 0 97571 9 97732 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97571 9 97732 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97572 10 97732 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97572 10 97732 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97571 9 97733 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97572 10 97733 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97574 1 97733 100 0 0 0        * Marek
+E 1 97583 1 16 100 0 0 0           *   a green dragon's horn
+E 1 97578 15 17 100 0 0 0          *   a crystal-tipped dagger
+M 0 97572 10 97734 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97571 9 97735 100 0 0 0        * an orcish thief
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97583 1 97736 100 0 0 0        * the mailman
+M 0 97575 1 97737 100 0 0 0        * Akhbar Haseesh
+G 1 364 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 146 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 145 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 147 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97571 9 97738 100 0 0 0        * an orcish thief
+M 0 97520 14 97738 100 0 0 0       * an orcish warrior
+M 0 97572 10 97739 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97549 23 97740 100 0 0 0       * a baby orc
+E 1 97561 20 7 100 0 0 0           *   an old diaper
+M 0 97538 17 97741 100 0 0 0       * an orcish shaman
+M 0 97573 8 97741 100 0 0 0        * a cowardly orcish girl
+M 0 97530 1 97745 100 0 0 0        * Auld, the old orcish sorcerer
+E 1 97537 1 3 100 0 0 0            *   a necklace of small crystal spheres
+E 1 97522 2 13 100 0 0 0           *   a pitch black dragonscale belt
+G 1 97520 2 0 100 0 0 0            *    a black egg of antiquity
+F 1 97560 13 97745 100 0 0 0       * an orcish guard (following)
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+F 1 97560 13 97745 100 0 0 0       * an orcish guard (following)
+E 1 97548 999 5 100 0 0 0          *   a suit of orcish platemail
+E 1 97549 999 16 100 0 0 0         *   an orcish-forged sword
+M 0 97542 8 97747 100 0 0 0        * a drunken orc
+E 1 97547 4 18 100 0 0 0           *   a bottle of orcish spirits
+M 0 97573 8 97747 100 0 0 0        * a cowardly orcish girl
+M 0 97555 18 97748 100 0 0 0       * a female orc
+M 0 97503 1 97750 100 0 0 0        * Muiral
+M 0 97572 10 97751 100 0 0 0       * an orcish assassin
+E 1 97578 15 16 100 0 0 0          *   a crystal-tipped dagger
+M 0 97520 14 97753 100 0 0 0       * an orcish warrior
+M 0 97520 14 97753 100 0 0 0       * an orcish warrior
+M 0 97587 1 97754 100 0 0 0        * a shady alchemist
+G 1 820 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 821 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 822 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 823 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 824 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 825 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 826 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 827 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 828 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97590 1 97756 100 0 0 0        * Grul'Theg the auctioneer
+M 0 97591 1 97756 100 0 0 0        * a strong and respected orc warrior
+M 0 97592 3 97756 100 0 0 0        * a greedy orcish merchant
+G 1 40441 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97592 3 97756 100 0 0 0        * a greedy orcish merchant
+G 1 40441 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97592 3 97756 100 0 0 0        * a greedy orcish merchant
+G 1 40441 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 97598 1 97757 100 0 0 0        * a fearsome slave handler
+M 0 97593 1 97758 100 0 0 0        * an ugly kobold
+M 0 97594 1 97758 100 0 0 0        * a wood golem
+M 0 97595 1 97758 100 0 0 0        * a deep gnome slave
+M 0 97596 1 97758 100 0 0 0        * a rakshasa slave
+M 0 97597 1 97758 100 0 0 0        * an ettin warrior
+*
+S

@@ -1,0 +1,642 @@
+#87820
+&+cBefore a Massive Stone&n &+LChurch&n~
+&+b   This massive structure has been built from large blocks of dark rock, and&n
+&+bappears to have little in the way of windows.  A large balcony can be seen&n
+&+bjutting out from the second story, and two wings spreading to the east and&n
+&+bwest jut out from the rear of the building.  The doors are made of massive&n
+&+bslabs of oak, and are reinforced with gleaming bands of iron, obviously well&n
+&+bmaintained.  The church is capped by an artwork of rusted iron, a circle&n
+&+bwith three holes triangularly arranged.&n
+~
+878 1073745920 2
+D0
+~
+door doors~
+1 0 87821
+D2
+~
+~
+0 0 87845
+S
+#87821
+&+bEntrance Hall of a&n &+LDark Church&n~
+&+m   While quite dark and gloomy, the entrance to the church is surprisingly&n
+&+mwell decorated and cared for.  The neatness of the room is evident in the&n
+&+mway the furniture has been arranged immaculately, and in how everything&n
+&+mappears to be free of grime and dirt.  Even the stone floor seems to be&n
+&+mclean, without a single track of mud upon it.  Several small windows are&n
+&+minstalled in the west and east walls, although they are too high to be able&n
+&+mto see from easily.&n
+~
+878 33554440 0
+D0
+~
+~
+0 0 87824
+D1
+~
+door~
+1 0 87823
+D2
+~
+door doors~
+1 0 87820
+D3
+~
+door~
+1 0 87822
+S
+#87822
+&+cSupply Room within the&n &+LChurch&n~
+&+bThis room is where all the church supplies are kept, including those&n
+&+bnecesary for the maintenace of the gardens outside, and for the janitorial&n
+&+bduties inside that all church members are required to participate in.  A&n
+&+bset of shelves holds all the cleaning solvents that are used while another&n
+&+bhas gardening implements, brooms, and mops on it.  A stack of buckets in&n
+&+bthe corner is used for a myriad of tasks, while a set of paint cans looks&n
+&+bto have not been touched in quite awhile.&n
+~
+878 8 0
+D1
+~
+door~
+1 0 87821
+S
+#87823
+&+cStorage Room within the&n &+LChurch&n~
+&+b   This room is used for storing all of the furniture that is not currently&n
+&+bbeing used in the church.  Several large wooden benches are stacked against&n
+&+bthe walls, and some thick oaken desks are pushed into the far corner.  Some&n
+&+bdevices which look as if they are meant for purposes other than simple&n
+&+bfurniture are also heaped in the corner, including what appears to be a&n
+&+bgallows and a set of stocks.  A large rack is also collecting dust here.&n
+~
+878 8 0
+D3
+~
+door~
+1 0 87821
+S
+#87824
+&+bIntersection of Hallways within the&n &+LChurch&n~
+&+m   Two hallways intersect here, one running north-south while the other runs&n
+&+mfrom the east to the west.  The smell of ink and freshly printed paper      &n
+&+mdrifts in from the east, while a stuffy odor wafts in from the west.  Like  &n
+&+mthe rest of the church, the floor is immaculately cleaned, and the walls are&n
+&+mfree of any dust.  The room is also quite dim, although enough light is     &n
+&+mavailable for most people.&n
+~
+878 8 0
+D0
+~
+~
+0 0 87833
+D1
+~
+~
+0 0 87829
+D2
+~
+~
+0 0 87821
+D3
+~
+~
+0 0 87825
+S
+#87825
+&+YWithin the&n &+LChurch&n &+YArchives&n~
+&+B   These rooms are devoted to the storage of any literature that the church&n
+&+Bgets ahold of.  Numerous large shleves and bookcases are filled with books,&n
+&+Bcovering every possible subject from uses of magic, to fighting techniques,&n
+&+Bto wilderness guides, to treatises upon the history of the land.  The deep &n
+&+Bwealth of knowledge is a huge attraction to the scholars of the world,     &n
+&+Balthough few are allowed in without being a member of the church.          &n
+~
+878 8 0
+D1
+~
+~
+0 0 87824
+D6
+~
+~
+0 0 87828
+D7
+~
+~
+0 0 87826
+S
+#87826
+&+YScroll Storage Area within the&n &+LChurch&n &+YArchives&n~
+&+B   This area is devoted exclusively to the collection of magical scrolls,&n
+&+Band as such the security in this area is hugher than in other places within&n
+&+Bthe archives.  A large case on the wall is where the scrolls that are con- &n
+&+Bsidered most powerful are kept, although this is preliminary as not all of &n
+&+Bthe scrolls have been identified as to their use.  Several scrolls are     &n
+&+Bpiled in the corner awating a time when the church scholars can identify   &n
+&+Bthem as to their purpose.                               &n
+~
+878 8 0
+D6
+~
+~
+0 0 87827
+D8
+~
+~
+0 0 87825
+S
+#87827
+&+YAmong Large Bookshelves within the&n &+LChurch&n &+YArchives&n~
+&+B   Surrounded by a maze of bookshelves, this place deep in the archives is&n
+&+Ba scholars dream come true.  Great works by famous authors are all around,&n
+&+Bmany in the original edition as penned by the authors themselves.  This   &n
+&+Bstorehouse of knowledge has a reputation as second to none outside of those&n
+&+Bkept by royalty, and even then the issue is debatable.  The massive amount&n
+&+Bof reading material is a lifetime of work for the people in the church,&n
+&+Bboth in cataloguing the books, and in using the information within.&n
+~
+878 8 0
+D8
+~
+~
+0 0 87828
+D9
+~
+~
+0 0 87826
+S
+#87828
+&+YA Quiet Reading Area within the&n &+LChurch&n &+YArchives&n~
+&+B   This quiet room is where visitors must peruse any material that they&n
+&+Bare interested in, as none is allowed to leave the archives.  As such, &n
+&+Bseveral comfortable chairs have been brought in, as well as a large table&n
+&+Bwhere scholars can spread material out in front of them.  No food is   &n
+&+Ballowed within this area, as even the smallest accident could in theory&n
+&+Bdestroy ages old information.&n
+~
+878 8 0
+D7
+~
+~
+0 0 87827
+D9
+~
+~
+0 0 87825
+S
+#87829
+&+gThe Printing Press within the&n &+LChurch&n~
+&+B   This room is where the printing presses of the church discharge the&n
+&+Bfinished pamphlets.  These pamphlets are then taken by wagon to surrounding&n
+&+Bcities like Tharnadia and distributed to the public in an attempt to convert&n
+&+Bthem to the beliefs of the church.  This propaganda helps insure that the&n
+&+Bchurch always has new recruits, and helps spread the word about what the &n
+&+Bchurch's goals are.  The printing press runs night and day, stopping only&n
+&+Benough to be loaded with more paper or ink, or to have maintenance done  &n
+&+Bupon them by the wizard who originally created the device.&n
+~
+878 8 0
+D3
+~
+~
+0 0 87824
+D8
+~
+~
+0 0 87830
+D9
+~
+~
+0 0 87832
+S
+#87830
+&+gPropaganda Writing Rooms wthin the&n &+LChurch&n~
+&+B   This room is where the church writers come up with the actual content&n
+&+Bwith which the pamphlets will contain.  Secluded deks are separated by  &n
+&+Bsmall walls, not enough to filter out all of the noise from the press, but&n
+&+Benough to concentrate upon the task at hand.  A large board has been     &n
+&+Bmounted upon the wall, used by the writers to brainstorm ideas with which&n
+&+Bto win the good people of the world over to the church beliefs.&n
+~
+878 8 0
+D7
+~
+~
+0 0 87829
+D9
+~
+~
+0 0 87831
+S
+#87831
+&+gPrinting Supply Room within the &+LChurch&n~
+&+B   Several large rolls of paper are stacked in the corner, used to feed the&n
+&+Bprinting press when it runs out of material.  Large vats of ink are also   &n
+&+Bneatly arranged, and cleaning supplies are nearby in case of any accidental&n
+&+Bmishaps with the machine.  A large oil can is used to lubricate the moving &n
+&+Bparts, helping keep the machine from breaking down unexpectedly.           &n
+~
+878 8 0
+D6
+~
+~
+0 0 87830
+D7
+~
+~
+0 0 87832
+S
+#87832
+&+gBehind a Large Printing Press within the&n &+LChurch&n~
+&+B   the internal parts of the machine are visible here, a sprawling mass of&n
+&+Bsprockets, axles, chains, and weights.  It is quite amazing that the machine&n
+&+Bactually works with so few breakdowns considering the immense number of  &n
+&+Bmoving parts within it.  Several areas on the machine have had directions&n
+&+Bpainted onto them regarding the maintenance and cleaning procedures, and &n
+&+Bthese appear to be done on a regular basis.  A small funnel at the top of&n
+&+Bthe machine belchs smoke every few seconds, a blue-green cloud that is   &n
+&+Bimmediately vented outside of the room.&n
+~
+878 8 0
+D6
+~
+~
+0 0 87829
+D8
+~
+~
+0 0 87831
+S
+#87833
+&+BA Grand Stairway within the&n &+LChurch&n~
+&+m   A large sweeping stairway curves magnifecently around the room as it&n
+&+mspirals upward to the second floor.  A magnificent rail of carved ebony&n
+&+mleads p the side, and the stairs are carpetted in plush carpetting.  This&n
+&+mis the only area on the first floor of the church where any effort at all&n
+&+mseems to have been put into maintaining a decorative environment.  While&n
+&+mthis area may be harder to clean, the church members have kept it just&n
+&+mas immaculate as the rest of the church.&n
+~
+878 8 0
+D2
+~
+~
+0 0 87824
+D4
+~
+~
+0 0 87834
+S
+#87834
+&+bNorth End of the Second Story Hallway&n~
+&+m   A magnificent stairway leads down to the first floor of the church here,&n
+&+mand the hallway itself stretches toward the south.  What appears to be a   &n
+&+mmeeting room is to the east while the sound of music drifts in from the    &n
+&+mlarge theater to the north.  The hallway is carpetted in thick pile, but no&n
+&+mtrace of mud or dirt is present.&n
+~
+878 8 0
+D0
+~
+door~
+1 0 87843
+D1
+~
+~
+0 0 87844
+D2
+~
+~
+0 0 87835
+D3
+~
+door~
+1 0 87842
+D5
+~
+~
+0 0 87833
+S
+#87835
+&+bAlong a Gloomy Hallway within the&n &+LChurch&n~
+&+m   This hallway stretches down the length of the church from north to south,&n
+&+mconnecting all of the major places which are on the second story.  It is    &n
+&+mdecorated with luxurious carpetting and the stone walls are painted a dark  &n
+&+mgrey.  The room is lit well enough to see, although the light levels are    &n
+&+mnot as high as most humans prefer.  The ceiling of the hallway is quite low,&n
+&+mrequiring one to duck ones head in certain places.&n
+~
+878 8 0
+D0
+~
+~
+0 0 87834
+D2
+~
+~
+0 0 87836
+D3
+~
+door~
+1 0 87841
+S
+#87836
+&+bSouthern End of the Second Story Hallway&n~
+&+m   The hallway ends here by a large glass door, that leads outside onto a&n
+&+mlarge balcony.  Even from here it is apparent that a spectacular view can&n
+&+mbe had by looking outside at the surrounding contryside.  Two large wooden&n
+&+mdoors to the east and west lead to more sleeping quarters, as well as the&n
+&+mCardinal's study area.&n
+~
+878 8 0
+D0
+~
+~
+0 0 87835
+D1
+~
+~
+0 0 87839
+D2
+~
+window glass door~
+1 0 87837
+D3
+~
+door~
+1 0 87838
+S
+#87837
+&+CA Balcony Looking Out from the&n &+LChurch&n~
+&+c   This balcony is suspended approximately twenty-five feet from the ground&n
+&+cbelow, and gives one a magnifecent view of the surrounding countryside.  the&n
+&+croofs of buildings in a nearby city can be seen off the horizon, as well as&n
+&+cthe ruined hulks of buildings destroyed by raiding evil creatures.  A view&n
+&+cof the nearby road shows a caravan passing by, and several farms are merely&n
+&+ca league or two away.&n
+~
+878 8 2
+D0
+~
+window glass door~
+1 0 87836
+S
+#87838
+&+gThe&n &+LChurch&n &+gMember Sleeping Quarters&n~
+&+B   These barracks hold the cots where the church members sleep after a long&n
+&+Bdays work.  The work that they do is quite grueling in nature, and their&n
+&+Bwork day begins before the sun rises and ends after it has set.  These&n
+&+Bquarters are not strewn with clothing and rubbish as are most soldier&n
+&+Bsleeping quarters, but are kept immaculately clean.&n
+~
+878 8 0
+D1
+~
+door~
+1 0 87836
+S
+#87839
+&+bOutside of the&n &+rCardinal&+b's Study&n~
+&+B   This room is where several guards are stationed, in order to keep&n
+&+Bunexpected guests from disturbing the Cardinal while he plans the church's&n
+&+Baffairs for the day.  The room is obviously built with defense in mind, as&n
+&+Bseveral walls jut out, with small holes no doubt intended as arrowholes.&n
+&+BSeveral large banners hang from the wall, showing great victories from&n
+&+Bvarious kingdoms in the past, although the conection between these&n
+&+Bkingdoms and the church is dubious.&n
+~
+878 8 0
+D0
+~
+door~
+1 0 87840
+D3
+~
+~
+0 0 87836
+S
+#87840
+&+bThe&n &+rCardinal&+b's Private Study&n~
+&+b   An enormous desk dominates this room, sprawled with many papers and&n
+&+bimportant church documents.  A large map on the wall is marked by several&n
+&+bflags, in several colours.  These pins oddly enough seem to match up with&n
+&+bplaces that have recently been over-run by raiding parties from the&n
+&+bunderdark.  A large mirror on the wall makes the room seem much bigger&n
+&+bthan it is, and a large chandelier lights the room brightly.&n
+~
+878 8 0
+D2
+~
+door~
+1 0 87839
+S
+#87841
+&+cThe&n &+rBishop's&n &+cMeditation Area&n~
+&+b   This room is where the bishop of the church meditates, and where he&n
+&+bcredits his religious inspirings from having come.  The room is devoid of&n
+&+ball furniture except for a large mat, and it is on this this mat that the&n
+&+bstrips naked and meditates for hours at a time.  The walls are carefully&n
+&+bpainted black, and the door is so well crafted as to be virtually&n
+&+bindistinguishable when it is closed.&n
+~
+878 8 0
+D1
+~
+door~
+1 0 87835
+S
+#87842
+&+LThe Church Interrogation Area&n~
+&+b   This room is filled with all sorts of pain-inducing torture devices,&n
+&+bintended to make people reveal their secrets against their will.  Large &n
+&+bstocks are mounted by the wall, and a large rack fills the middle of the&n
+&+broom.  A wicked looking iron maiden is filled with the bones of a former&n
+&+bprisoner, and a guillotine seems to have been put to use lately.&n
+~
+878 8 0
+D1
+~
+door~
+1 0 87834
+D4
+Magically sealed, this door must lead to something very important..
+~
+door blasphemy~
+7 -2 87848
+S
+#87843
+&+cA Broad Theatre for the&n &+LChurch&n &+cChoir&n~
+&+b   This room is where the choir sings their hymns, a way of funneling their&n
+&+blove for the church through a creative outlet.  The acoustics in this room &n
+&+bare perfect for music, having been designed with a choir in mind.  The walls&n
+&+bare coated in a special substance that reduces echo while at the same time&n
+&+bgiveing the sound a richer, deeper feel.&n
+~
+878 8 0
+D2
+~
+door~
+1 0 87834
+S
+#87844
+&+gA Plush Meeting Hall within the&n &+LChurch&n~
+&+b   The prominent feature in this room is an enormous table of oak.  This&n
+&+btable is surrounded by many highbacked chairs made of finely detailed walnut.&n
+&+bThe room is where the church meets to discuss it's affairs, and also where&n
+&+bany external negotiations are carried out.  The room is also conveniently &n
+&+bplaced across the hall from the interrogation room, in case things dont go&n
+&+bas planned during negotiations...&n
+~
+878 8 0
+D3
+~
+~
+0 0 87834
+S
+#87845
+&+yA Narrow Canyon leading to the&n &+LChurch&n~
+&+y   This canyon is in very narrow quarters, barely wide enough to pass&n
+&+ythrough single-file.  The rocks are flaking off of the canyon walls and&n
+&+yseveral bounce down the steep sides.  A massive stone building can be&n
+&+yto the north against the horizon at the end of the canyon.  Several&n
+&+ystrange markings on the rock facings are drawn in what looks like blood.&n
+~
+878 0 4
+D0
+~
+~
+0 0 87820
+D2
+~
+~
+0 0 87846
+S
+#87846
+&+ySouthern End of the Narrow Canyon&n~
+&+y   The canyon narrows at this point, becoming so crowded as to barely allow&n
+&+ypassage for people single-file, let alone in a group.  The steep canyon&n
+&+ywalls are sheer, and just one glance at the thick foliage above shows the&n
+&+yfutility of climbing or flying to the top, as the jungle is inpenetrable.&n
+&+yThe canyon floor has been worn down to a smooth face by all of the traffic&n
+&+ythat passes through on its way to the church.&n
+~
+878 0 4
+D0
+~
+~
+0 0 87845
+D2
+~
+~
+0 0 87847
+S
+#87847
+&+CAn Encampment of the&n &+WRoyal Paladins&n~
+&+c   This area is currently being used by the royal paladins as a staging&n
+&+carea for the scouting they are conducting.  Several large tents have been&n
+&+cerected here, and a large silk banner flutters in the wind.  A large&n
+&+cwagon lies still, having been used by the paladins to cart in the arms&n
+&+cthat may be needed in case hostilities occur between them and the church&n
+&+cmembers further down the road.&n
+~
+878 4100 2
+D0
+~
+~
+0 0 87846
+D1
+~
+~
+0 0 527483
+S
+#87848
+&+LWithin a Dark and Gloomy Hallway&n~
+&+m   Thick cobwebs line the corners between wall, floor and ceiling, and deep&n
+&+mdrifts of dirt mark this as obviously not being given the same sort of&n
+&+mmeticulous attention to detail with respect to cleaning as the rest of the&n
+&+mchurch.  The rough stone walls are covered in what appear to be scratch&n
+&+mmarks, and a sticky crimson puddle on the floor appears to be blood.  This&n
+&+marea is obviously not traveled by the majority of the church members.&n
+~
+878 32776 0
+D1
+~
+~
+0 0 87849
+D5
+Magically sealed against intrusion, this door appears quite solid.
+~
+door blasphemy~
+3 -2 87842
+S
+#87849
+&+LThe Jailor's Work Area&n~
+&+m   This area is where the jailor spends most of his time, either waiting for&n
+&+mnew prisoners to come in, or bringing the old ones out to be interrogated.&n
+&+mThe hall is as dark and gloomy as before, although it does seem a little bit&n
+&+mneater.  The three doors are made of thick oak, and have small barred&n
+&+mwindows allowing one to look inside the rooms, although very little detail&n
+&+mcan be made out with such little light.&n
+~
+878 32776 0
+D0
+~
+door~
+2 87868 87850
+D1
+~
+door~
+2 87868 87851
+D2
+~
+door~
+2 87868 87852
+D3
+~
+~
+0 0 87848
+S
+#87850
+&+LWithin the Northern Jail Cell&n~
+&+m   This jail cell is actually in fairly decent shape, as it is reserved for&n
+&+mthose who the church feels may either have importance as a bargaining chip,&n
+&+mor whome more information can be extracted by the interrrogaters.  A rough&n
+&+mstraw mat covers one side of the cell, and a small wooden chair has been&n
+&+mbrought in along with some pieces of coal for writing.&n
+~
+878 32768 0
+D2
+~
+door~
+2 87868 87849
+S
+#87851
+&+LWithin the Eastern Jail Cell&n~
+&+m   This cell is in a state of extreme filth, as not even basic sanitation&n
+&+mhas been allowed for the inhabitants, of whom the church holds the utmost&n
+&+mcontempt for.  Making them live within their own bodily refuse is the most&n
+&+mdegrading thing that the church could come up with, and the idea seems to&n
+&+mhave been very popular.&n
+~
+878 32768 0
+D3
+~
+door~
+2 87868 87849
+S
+#87852
+&+LWithin the Southern Jail Cell&n~
+&+m   This room is extrmely filthy, not having been cleaned in many years, with&n
+&+mno sanitation available except for a small hole in the corner, hardly big&n
+&+menough to fit a hand through let alone to entertain any thoughts of escape.&n
+&+mThe walls are marked by countless marks, doubtlessly scratched in by those&n
+&+mcounting the days inside.&n
+~
+878 32768 0
+D0
+~
+door~
+2 87868 87849
+S

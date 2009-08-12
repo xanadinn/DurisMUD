@@ -1,0 +1,1213 @@
+#6800
+&+yThrough the Hole&N~
+   &+gThere are a lot of colorful rocks but can barely be seen due to all
+&+gthe moss.  The moss formed in the walls make them very slippery plus the
+&+gslop turns the shaft to a long fall without refuge.&N
+~
+68 141 8
+D4
+The entrance to the city is there.
+~
+~
+0 -1 6803
+D5
+You see more of the hole..
+~
+~
+0 -1 6860
+F
+80
+S
+#6801
+&+YThe Altar of Dragons&n~
+   &+YThis chamber can blind anyone with the shine of the gold in
+&+Ythe walls. They are encrusted with diamonds and other jewels;
+&+Ythe chamber has a stone carved altar, also encrusted in gold
+&+Yand silver.
+&+YThe only exit is to the south.&N
+~
+68 142639113 1
+D2
+~
+wall~
+7 6701 6835
+S
+#6803
+&+yOutside the City of Dragonnia&n~
+   &+yA large circular chamber has been carved out of the cliff wall here,
+&+ycleverly concealed from the chasm outside.
+   &+yThere is a strange&N &+raura&N &+ycoming out of a great hole absorbing any
+&+ykind of light and energy, and the strange smell of something&N &+Lburned&N
+&+ywafts about in the air.  This hole is too deep and dark to distinguish
+&+ywhat might be at the bottom.&N
+~
+68 9 5
+D1
+~
+~
+0 0 641969
+D2
+~
+~
+0 0 642368
+D5
+You can't see what is down there, it is too dark. Look like it would be
+impossible to climb back up.
+~
+~
+0 -1 6800
+M
+0 -90
+S
+#6804
+&+yInside the City of Dragonnia&n~
+   It seems that you have gone too far, but unfortunately, it's too late.
+The hole is too high and too slippery to be climbed.  There are two roads,
+one to the east and the other to the west, and to the north is an extremely
+&+RHOT&N place.
+~
+68 1073741833 1
+D0
+The heat is extreme in that direction
+~
+~
+0 -1 6836
+D1
+You see something like a road
+~
+~
+0 -1 6805
+D3
+You see something like a road
+~
+~
+0 -1 6809
+D4
+There is a way but it seems very slippery.
+~
+~
+0 -1 6862
+S
+#6805
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them has passed away. The road goes on north and east,
+to the west is a large building, with strange signs on it.
+~
+68 9 1
+D0
+~
+~
+0 -1 6814
+D1
+~
+~
+0 -1 6806
+D3
+~
+~
+0 -1 6804
+S
+#6806
+&+LEntrance to the Black Dragons Brotherhood Room&n~
+   &+LBefore you stands the fabled clanhouse of the mighty Black Dragon
+&+LBrotherhood. These dragons are rumored to be able to throw acid with
+&+Ltheir breath. Strange runes are written on the walls, and the remains
+&+Lof the bones of humans and other creatures that have been slaughtered by
+&+Lthe dragons are strewn everywhere. To the south is another room, and the
+&+Lroad is to the east.&N
+~
+68 9 1
+D2
+~
+~
+0 -1 6807
+D3
+~
+~
+0 -1 6805
+S
+#6807
+&+LWaiting Room to the Black Dragon Master&n~
+   &+LHere, the young black dragons used to wait for their master
+&+Luntil he could receive them, and then test them. There is a room
+&+Lto the north, and another to the east.&N
+~
+68 137 1
+D0
+~
+~
+0 -1 6806
+D1
+~
+~
+0 -1 6808
+M
+1 -30
+S
+#6808
+&+LBlack Dragon Master Chamber&n~
+   &+LThis was once a grand place. It has a throne, candlesticks and jewel
+&+Lencrusted furniture adorning the walls. The only exit is to the west.&N
+~
+68 9 1
+D3
+~
+~
+0 -1 6807
+S
+#6809
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. The road goes on east and north,
+and to the west is a elegant building.
+~
+68 9 1
+D0
+~
+~
+0 -1 6813
+D1
+~
+~
+0 -1 6804
+D3
+~
+~
+0 -1 6810
+S
+#6810
+&+WEntrance to the White Dragon Brotherhood Room&n~
+   &+WThis is a huge room, able to accomodate a dozen dragons. This is the
+&+Wheadquarters of the powerful White Dragons Brotherhood. These dragons
+&+Ware able to freeze anyone with their breath. To the south is another
+&+Wroom and the road leads away to the east.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6809
+D2
+~
+~
+0 -1 6811
+S
+#6811
+&+WWaiting Room to the White Dragon Master&n~
+   &+WIn this room, the young members of The Brotherhood used to wait
+&+Wuntil the master could receive them and they could become initiated
+&+Wbrothers. There are entrances from other rooms to the north and
+&+Wto the south.&N
+~
+68 137 1
+D0
+~
+~
+0 -1 6810
+D2
+~
+~
+0 -1 6812
+M
+1 -30
+S
+#6812
+&+WWhite Dragon Master Chamber&n~
+   &+WThis is a small room, but it is elegant.  It has some unusual
+&+Winstruments not ever seen by any man, which might have been used to
+&+Wtest the dragons' skills. The only exit is to the north.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6811
+S
+#6813
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. The road goes on north and south,
+and to the west is a building with signs of dragons fighting
+other creatures.
+~
+68 1073741833 1
+D0
+~
+~
+0 -1 6817
+D2
+~
+~
+0 -1 6809
+D3
+~
+~
+0 -1 6815
+S
+#6814
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. To the east is a house with signs
+of dragons throwing magic to other creatures. The road goes on north
+and south.
+~
+68 9 1
+D0
+~
+~
+0 -1 6818
+D1
+~
+~
+0 -1 6816
+D2
+~
+~
+0 -1 6805
+S
+#6815
+&+BWarrior Dragon Room&n~
+   &+WIn this place are really lots of bones, broken and turned to dust.
+&+WThere are more weapons than can be counted.  It seems to have been
+&+Wabandoned for quite some time. The only exit appears to be east.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6813
+S
+#6816
+&+mWizard Dragon Room&n~
+  &+MThis is a splendid room, with&N &+Ygolden columns&N &+Mand jewel encrusted
+&+Mfurniture.  There are some books, and some candlesticks, the dust
+&+Maccumulated tells you that if someone is here, it's not very careful
+&+Mwith the cleaning.  The only exit is to the west.&N
+~
+68 9 1
+D3
+~
+~
+0 -1 6814
+S
+#6817
+&+cMain Road&n~
+   &+cThis road was once walked by thousands of dragons, now, it looks
+&+clike all of them have passed away. The road goes on north and south,
+&+cthere is the temple of the city to the west and to the east is a very&N
+&+Lhot&N &+cplace.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6819
+D1
+The heat is extreme in that direction
+~
+~
+0 -1 6836
+D2
+~
+~
+0 -1 6813
+D3
+The entrance of a great building seems to be there
+~
+~
+0 -1 6838
+S
+#6818
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. The road continues to the north
+and south, to the west is a building, but with no doors or windows
+on it, to the west is a very hot place.
+~
+68 1073741833 1
+D0
+~
+~
+0 -1 6820
+D2
+~
+~
+0 -1 6814
+D3
+The heat is extreme in that direction
+~
+~
+0 -1 6836
+S
+#6819
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. To the west is a simple house,
+with no ornaments on it, and the road continues to the north, and to
+the south.
+~
+68 9 1
+D0
+~
+~
+0 -1 6825
+D2
+~
+~
+0 -1 6817
+D3
+~
+~
+0 -1 6823
+S
+#6820
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. To the east is an incredible
+elegant building, and the road goes on north and south.
+~
+68 9 1
+D0
+~
+~
+0 -1 6827
+D1
+~
+~
+0 -1 6821
+D2
+~
+~
+0 -1 6818
+S
+#6821
+&+YGolden Dragon Quarter&n~
+   &+YThis is possibly the most elegant building ever seen by any men.
+&+YIt has gold and jewels encrusted in the walls, columns and doors, and
+&+Ythere is a wonderfully good-looking throne mounted in the middle of
+&+Ythe cavern. The owner is the last of Dragonnia's Golden Dragons,
+&+Yeternally powerful and majestic. There is another room to the south,
+&+Yand the main road is to the west.&N
+~
+68 9 1
+D2
+~
+~
+0 -1 6837
+D3
+~
+~
+0 -1 6820
+M
+3 -80
+S
+#6822
+&+gGreen Dragon Master Chamber&n~
+   &+gThis chamber has simple furniture, a simple throne, and some
+&+gdecorated chairs and books. The only exit is to the north.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6829
+S
+#6823
+&+RThieves Dragon Room&n~
+   &+RThis room has been covered completely with blood, human and other
+&+Rkinds. There are a lot of corpses in the floor, more than likely
+&+Rkilled with some thief techniques...very advanced ones. The only
+&+Rexit appears to be east.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6819
+E
+corpses corpse~
+Ack! Ack! I don't think you want to do that..
+~
+S
+#6824
+&+BEntrance to the Blue Dragon Brotherhood Room&n~
+   &+BThis room is big, it can contain about half a dozen dragons.
+&+BIt is poorly decorated. This is the headquarters of the Blue Dragon
+&+BBrotherhood. This race of dragons are able to electrify anyone with
+&+Btheir breath.  There is another room to the north, and the main road
+&+Bis to the east.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6830
+D1
+~
+~
+0 -1 6825
+S
+#6825
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. The road goes on to the south,
+to the east is an alley, and there is a poor building to the west.
+~
+68 9 1
+D1
+~
+~
+0 -1 6826
+D2
+~
+~
+0 -1 6819
+D3
+~
+~
+0 -1 6824
+S
+#6826
+&+cSouthern End Of An&N &+LAlley&N~
+   &+cThis is an alley, very dusty, but it has no footprints at all,
+&+clike it has not been used by common dragons. The alley continues to
+&+cthe north, east and west toward the main road, and to the south
+&+ctoward an extremely&N &+rhot&N &+cplace.&N
+~
+68 1073741833 1
+D0
+~
+~
+7 6704 6832
+D1
+~
+~
+0 -1 6827
+D2
+The heat is extreme in that direction
+~
+~
+0 -1 6836
+D3
+~
+~
+0 -1 6825
+S
+#6827
+&+cMain Road&n~
+   This road was once walked by thousands of dragons, now, it looks
+like all of them have passed away. A simple looking building is to
+the east, there is  an alley to the west, and the road continues to
+the south.
+~
+68 1073741833 1
+D0
+~
+~
+0 -1 6864
+D1
+~
+~
+0 -1 6828
+D2
+~
+~
+0 -1 6820
+D3
+~
+~
+0 -1 6826
+S
+#6828
+&+gEntrance to the Green Dragon Brotherhood Room&n~
+   &+gThis is a simple room. Not big, not small, it could keep about ten
+&+gdragons.  This is the headquarters of the Green Dragons Brotherhood.
+&+gThis race of dragons are able to drop poison gas with their breath.
+&+gThe road is to the west, and there is another room to the east.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6829
+D3
+~
+~
+0 -1 6827
+S
+#6829
+&+gWaiting Room to the Green Dragon Master&n~
+   &+gHere, the aspirants to be brothers of the green dragons used to
+&+gwait until the master could see them, and they could pass his tests.
+&+gThere is a room to the south, and another to the west.&N
+~
+68 137 1
+D2
+~
+~
+0 -1 6822
+D3
+~
+~
+0 -1 6828
+M
+1 10
+S
+#6830
+&+BWaiting Room to the Blue Dragon Master&n~
+   &+BIn this room, the youthful blue dragons used to wait until their
+&+Bmaster was able to look at them, until they could pass his tests.
+&+BThere is a room to the south, and another to the east.&N
+~
+68 137 1
+D1
+~
+~
+0 -1 6831
+D2
+~
+~
+0 -1 6824
+M
+1 15
+S
+#6831
+&+BBlue Dragon Master Chamber&n~
+   &+BThis is a relative small chamber, has a poor throne, and some
+&+Bold books.  The only exit is to the west.&N
+~
+68 9 1
+D3
+~
+~
+0 -1 6830
+S
+#6832
+&+CA Finely Carved Causeway to the Palace&N~
+   &+CThis is a meticulously carved passageway, where barely any footprints
+&+Ccan be seen. It looks like it has not been used in quite some time. To
+&+Cthe north, a glimpse can be caught of a great palace. The passage continues
+&+Cto the south.&N
+~
+68 9 1
+D0
+~
+door~
+3 6703 6833
+D2
+~
+~
+3 6704 6826
+S
+#6833
+&+WOutside the Palace of Dragonnia&n~
+   &+LYou are in front of a marvelous palace, excavated in the stone,
+&+Lnot built; all of it is of stone and has some encrustation of&N &+Ygold
+&+Land&N &+Ylarge jewels.&N &+LThere is a causeway leading south, and a stone gate
+&+Lblocking the way to the north.&N
+~
+68 9 1
+D0
+~
+stone stonegate~
+3 6833 6834
+D2
+~
+door~
+3 6703 6832
+E
+stone stonegate~
+This gate is well built and perfectly balanced.
+~
+S
+#6834
+&+WPalace Hall&n~
+   &+CThis is a wonderfully elegant hall, with&N &+Lstone columns&N &+Cand carved
+&+Cfurniture with&N &+Ggold&N &+Cand&N &+Wsilver&N &+Cencrustation, there is a gate to
+&+Cthe south, and another hall to the north.&N
+~
+68 9 1
+D0
+~
+wall~
+3 6702 6835
+D2
+~
+stone stonegate~
+3 6833 6833
+E
+stone stonegate~
+This gate is well built and perfectly balanced.
+~
+S
+#6835
+&+YRoyal Chamber&n~
+   &+YThis chamber can blind anyone with the shine of the gold in
+&+Ythe walls. They are encrusted with diamonds and other jewels;
+&+Ythe chamber has a stone carved throne, also encrusted in gold
+&+Yand silver. Now it would be good time to leave the premises.
+&+YThe only exit is to the south.&N
+~
+68 134250505 1
+D0
+~
+wall~
+7 6701 6801
+D2
+~
+wall~
+3 6703 6834
+S
+#6836
+&+rRoom of Intense Fire&n~
+   &+rThe heat in this room is unbearable, emanating from the statue
+&+rof a mighty warrior. The dragons of this city leave their eggs embedded
+&+rat the foot of the statue, needing the intense heat to incubate their
+&+ryoung.
+~
+68 1250197580 11
+D0
+~
+~
+0 -1 6826
+D1
+~
+~
+0 -1 6818
+D2
+~
+~
+0 -1 6804
+D3
+~
+~
+0 -1 6817
+S
+#6837
+&+YGolden Dragon Treasure Room&n~
+   &+YIn this room you see gold coins, diamonds, rubies, emeralds, silver
+&+Ybars and other jewels. There are more treasures here than have ever been
+&+Yseen by anyone.  The only exit is to the north.&N
+~
+68 32777 0
+D0
+~
+~
+0 -1 6821
+M
+0 100
+S
+#6838
+&+WEntrance to the Temple of Teviros&n~
+   &+WThis is a portal toward the Temple of Teviros. There are some
+&+Wreligious images and statues on it. There is a stair that leads up
+&+Wto the tower of the temple, the road appears to be east, and the temple
+&+Wis leading west.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6817
+D3
+~
+~
+0 -1 6842
+D4
+~
+~
+0 -1 6839
+S
+#6839
+&+WTower of the Temple of Teviros&n~
+   This room its a study room, where the young clerics learn
+the art of being a priest. There are ancient books and a few beds.
+The stair leads down to the entrance of the temple and up.
+~
+68 9 1
+D4
+~
+~
+0 -1 6840
+D5
+~
+~
+0 -1 6838
+S
+#6840
+&+WTop of the Tower&n~
+   This is the highest place of Dragonnia. A look of the city and
+the palace can be caught from here. There are some bells and some
+statues of dragons.  The only exit is leading down.
+~
+68 9 1
+D5
+~
+~
+0 -1 6839
+S
+#6841
+&+cTeviros Sacred Sanctum&n~
+   &+cThis is the most sacred place of the temple, of the city. Here are
+&+cthe instruments donated to the church by the God Teviros himself. No one
+&+cis guarding them, because this is simply too sacred for the dragons.
+&+cThe only exit is to the north.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6842
+S
+#6842
+&+WTemple of Teviros&n~
+   &+CThis is the Temple of Teviros, God of Dragonnia, it has been
+&+Cconstructed on the living stone, that glows lightly; the walls are
+&+Ccovered with statues and pictures of Teviros leading the dragons to
+&+Cbattle and victory.
+   &+CTo the east is a stair that leads out of the temple, the Great Altar is
+&+Cto the west. A small chapel is leading north, and The Sacred Sanctum of
+&+CDragonnia is to the south.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6843
+D1
+~
+~
+0 -1 6838
+D2
+~
+~
+0 -1 6841
+D3
+~
+~
+0 -1 6844
+S
+#6843
+&+WChapel&n~
+   &+cThis is rather a small chapel, designed to the minor clerics.
+&+cIt has some pictures and statues, but they are not very ornate.
+&+cThere are some pews traversing the center of the room and a small
+&+caltar.&N
+~
+68 9 1
+D2
+~
+~
+0 -1 6842
+S
+#6844
+&+WAltar&n~
+   &+YThis is the Altar of the Temple of Teviros. Tt has been built of pure
+&+Ygold, with fine jewels encrusted on it. There is a giant statue of
+&+YTeviros, God of the Dragons. To the east is the temple and to the west is
+&+Ythe sacristy.&N
+~
+68 9 1
+D1
+~
+~
+0 -1 6842
+D3
+~
+~
+0 -1 6848
+S
+#6845
+&+WTemple Attic&n~
+   &+yThis is a very dirty place, it looks like it has not been
+&+ycleaned in quite some time. There are statues and pictures covered
+&+ywith sheets to protect them from the dust. The only exit is down.&N
+~
+68 9 1
+D5
+~
+~
+0 -1 6846
+S
+#6846
+&+WSecond Floor of the Temple&n~
+   You are in a room that you have no idea what it might be used for.
+There is a stair leading down, and another leading up.
+~
+68 9 1
+D4
+~
+~
+0 -1 6845
+D5
+~
+~
+0 -1 6847
+S
+#6847
+&+WEntrance to the&N &+wMonastery&N~
+   &+WThis is an entrance to the monastery with a giant door that leads west.
+&+WIt seems built of&N &+Lblack marble,&N &+Wwith encrustation's of other stones.
+&+WThere is a corridor leading north, and some stairs lead up.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6848
+D3
+~
+marble~
+3 6848 6850
+D4
+~
+~
+0 -1 6846
+S
+#6848
+&+ySacristy&N~
+   &+yThis is a room with some closets, with nothing in there. In the middle
+&+yof them is a small altar, with a little statue of Teviros. There are exits
+&+yto the north, south and east.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6849
+D1
+~
+~
+0 -1 6844
+D2
+~
+~
+0 -1 6847
+S
+#6849
+&+WWarehouse of the Temple&n~
+   In this room it looks there are instruments for clerical
+celebrations, but they seem unused for quite some time. There are
+also enough rugs to cover the entire temple. There are exits to
+the south and to the west.
+~
+68 9 1
+D2
+~
+~
+0 -1 6848
+D3
+~
+~
+0 -1 6854
+S
+#6850
+&+WMonastery Corridor&N~
+   &+WThis is a corridor of the entrance of the monastery. There are
+&+Wsome paintings on the walls, and some statues on the floor. The
+&+Wcorridor continues to the north, and to the east is the entrance
+&+Wof the monastery.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6851
+D1
+~
+marble~
+3 6848 6847
+S
+#6851
+&+WMonastery Corridor&N~
+   &+WThis is a corridor of the monastery. There are quite a few
+&+Wpaintings on the walls, and lots of statues on the floor. There is
+&+Wa room the north, and the corridor continues south.&N
+~
+68 9 1
+D0
+~
+~
+0 -1 6852
+D2
+~
+~
+0 -1 6850
+S
+#6852
+&+WMonastery Room&N~
+   &+WThis is the center of the monastery of Teviros. Wonderful art works
+&+Ware everywhere. There is an open door to the south, to the north its a
+&+Wmarble gate and leading up there is a staircase.&N
+~
+68 9 1
+D0
+~
+marble marblegate~
+3 6848 6853
+D2
+~
+~
+0 -1 6851
+D4
+~
+~
+0 -1 6856
+S
+#6853
+&+gYard&n~
+   &+gThis is a giant yard in the back of the monastery. Strange
+&+gtrees grow here, and they seem to glow with their own light source.
+&+gThere is an open door to the north and to the south its a&N &+Wmarble gate&N.
+~
+68 9 1
+D0
+~
+~
+0 -1 6854
+D2
+~
+marble marblegate~
+2 6848 6852
+S
+#6854
+&+cCleric Dragons Common Room&n~
+   In this room there are lots of tables, it was designed to keep
+all the students from the monastery. There are open doors to the east
+and to the south.
+~
+68 9 1
+D1
+~
+~
+0 -1 6849
+D2
+~
+~
+0 -1 6853
+S
+#6855
+&+cArch Bishop Chamber&n~
+   &+YThis is the most elegant room on the monastery. There is a
+&+Ylarge bed, some closets and a table beside the bed, the only exit
+&+Yis to the north.&N
+~
+68 8 1
+D0
+~
+archbishop~
+2 6857 6856
+S
+#6856
+&+WMonastery Second Floor&N~
+   &+WThis is the foyer of the monestary's second floor.  Finely crafted
+&+Wadornments are neatly placed and unusually well cared for, judging by
+&+Wthe condition of most of the temple.  Very ornately decorated rooms
+&+Wlie to the west and south.&N
+~
+68 9 1
+D2
+~
+archbishop~
+2 6857 6855
+D3
+~
+bishop~
+2 6852 6857
+D5
+~
+~
+0 -1 6852
+S
+#6857
+&+cBishop Chamber&n~
+   &+YThis is a wonderful room, it could please even a king or an emperor.
+&+YIt has a huge bed and a closet. The only exit is to the east.&N
+~
+68 8 1
+D1
+~
+bishop~
+2 6852 6856
+S
+#6858
+&+mIlia's Inquisition Indoors&n~
+   &+mThis is the Private room of the creator of this zone. There is
+&+ma Mexican Flag, a poster of Alexander, a Cubic NeXT, a koala doll,
+&+mand the Enterprise. If you don't have a good reason to be here, you
+&+mwill be punished.&N
+~
+68 234918092 0
+E
+enterprise~
+      _______________________________            ____
+      \_________NCC-1701-A_______|_// __=*=__.--"----"--.________
+                          \  |       /-------.__________--------'
+                     /=====\ |=====/      '     "----"
+                        \________    ==A   }]
+                                 `-------'
+~
+S
+#6860
+&+yThrough the Hole&N~
+   &+gThere are a lot of colorful rocks but can barely be seen at all due to
+&+gthe moss.  The moss formed in the walls make them very slippery plus
+&+gthe slop turns the shaft into a long fall without refuge.&N
+~
+68 141 8
+D4
+You see for the moss formed on the walls that is impossible to climb up...
+and also there are strange forces that don't allow you fly or go up
+by any way ...
+~
+~
+0 -1 6800
+D5
+You see more of the hole..
+~
+~
+0 -1 6861
+F
+100
+S
+#6861
+&+yThrough the Hole&N~
+   &+gThere are a lot of colorful rocks but can hardly be seen at all due to
+&+gthe moss.  The moss formed in the walls make them very slippery plus
+&+gthe slop turns the shaft into a long fall without refuge.&N
+~
+68 141 8
+D4
+You see more of the hole..
+~
+~
+0 -1 6860
+D5
+You see more of the hole..
+~
+~
+0 -1 6862
+F
+100
+M
+0 119
+S
+#6862
+&+yThrough the Hole&N~
+   &+gThere are a lot of colorful rocks but can be seen barely at all
+&+gthrough the moss.  The moss formed in the walls make them very slippery
+&+gplus the slop turns the shaft into a long fall without exit.&N
+~
+68 1207992461 8
+D4
+You see more of the hole..
+~
+~
+0 -1 6861
+D5
+The City entrance lurks there...
+~
+~
+0 -1 6804
+F
+100
+S
+#6864
+&+rEntrance to the Red Dragons Brotherhood Room&n~
+   &+rThis is the room of the majestic red dragon brotherhood. These
+&+rdragons are able to burn anyone with their breath of fire. Strange
+&+rsigns are written on the walls and there are remains of toasted bones
+&+rof humans and other creatures that have been oppressed by the dragons.
+&+rTo the east is another room, and the road is to the south.&N
+~
+68 134250505 1
+D1
+~
+~
+0 -1 6865
+D2
+~
+~
+0 -1 6827
+S
+#6865
+&+rWaiting Room to the Red Dragon Master&n~
+   &+rIn this room, the aspirants to be members of the brotherhood
+&+rused to wait until the master could receive them and they could
+&+rbecome real brothers. There is a room to the north, and another
+&+rto the west.&N
+~
+68 137 1
+D0
+~
+~
+0 -1 6866
+D3
+~
+~
+0 -1 6864
+M
+3 -40
+S
+#6866
+&+rRed Dragon Master Chamber&n~
+   &+rThis is a nice place. It has a throne, lanterns, books and jewel
+&+rencrusted furniture. The only exit is to the south.&N
+~
+68 9 1
+D2
+~
+~
+0 -1 6865
+S
+#6867
+&+LDark Track&n~
+   This is the track to the unknown, ancient trees looking around
+and they seem be warning to don't go on. There are a lot of claws
+footprints, and a strange smell in the air.
+~
+68 9 3
+D1
+The track gets darker there.
+~
+~
+0 -1 6868
+D2
+You see more of the dark track.
+~
+~
+0 -1 6803
+E
+footprints footprint~
+The footprints are made by a very large claws, and there are some scales
+in the mud that give you the idea of a great lizard was here.
+~
+E
+tree trees trunk trunks~
+The ancient crowns of trees reach together forming a dense roof
+above the dark track.
+~
+S
+#6868
+&+LDark Track&n~
+   This is the track to the unknown, ancient trees looking around
+and they seem be warning to don't go on. There are a lot of claws
+footprints, and a strange smell in the air.
+~
+68 9 3
+D3
+~
+~
+0 -1 6867
+E
+footprints footprint~
+The footprints are made by a very large claws, and there are some scales
+in the mud that give you the idea of a great lizard was here.
+~
+E
+tree trees trunk trunks~
+The ancient crowns of trees reach together forming a dense roof
+above the dark track.
+~
+S

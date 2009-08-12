@@ -1,0 +1,123 @@
+#530
+&+YTurolopolis &+yZoo&n~
+53061 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 53003 0 1 100 0 0 0
+*     north exit from "Outside A Ruined Building" to
+*     "Within A Ruined Building" - closed
+*
+D 0 53006 2 1 100 0 0 0
+*     south exit from "Within A Ruined Building" to
+*     "Outside A Ruined Building" - closed
+*
+D 0 53004 2 1 100 0 0 0
+*     south exit from "Outside A Building" to
+*     "A Dark Building" - closed
+*
+D 0 53055 0 1 100 0 0 0
+*     north exit from "A Dark Building" to
+*     "Outside A Building" - closed
+*
+D 0 53005 3 1 100 0 0 0
+*     west exit from "Outside A Ruined Building" to
+*     "Within A Ruined Building" - closed
+*
+D 0 53044 1 1 100 0 0 0
+*     east exit from "Within A Ruined Building" to
+*     "Outside A Ruined Building" - closed
+*
+D 0 53009 0 1 100 0 0 0
+*     north exit from "Within A Ruined Building" to
+*     "An Ovegrown Path" - closed
+*
+D 0 53012 2 1 100 0 0 0
+*     south exit from "An Ovegrown Path" to
+*     "Within A Ruined Building" - closed
+*
+D 0 53019 5 13 100 0 0 0
+*     down exit from "A Small House" to
+*     "A Dark Underground Cage" - closed/secret/blocked
+*
+D 0 53021 4 5 100 0 0 0
+*     up exit from "A Dark Underground Cage" to
+*     "A Small House" - closed/secret
+*
+D 0 53035 2 1 100 0 0 0
+*     south exit from "Within A Ruined Building" to
+*     "A Filthy Cage" - closed
+*
+D 0 53037 0 1 100 0 0 0
+*     north exit from "A Filthy Cage" to
+*     "Within A Ruined Building" - closed
+*
+*
+O 0 53000 1 53019 100 0 0 0        * a hook
+*
+M 0 53011 3 53000 100 0 0 0        * a sewer rat
+M 0 53011 3 53002 100 0 0 0        * a sewer rat
+M 0 53012 1 53002 100 0 0 0        * a zoo keeper
+M 0 53000 6 53007 100 0 0 0        * a malformed vulture
+M 0 53000 6 53007 100 0 0 0        * a malformed vulture
+M 0 53000 6 53008 100 0 0 0        * a malformed vulture
+M 0 53000 6 53010 100 0 0 0        * a malformed vulture
+M 0 53000 6 53011 100 0 0 0        * a malformed vulture
+M 0 53000 6 53011 100 0 0 0        * a malformed vulture
+M 0 53009 7 53012 100 0 0 0        * a blue monkey
+M 0 53010 5 53012 100 0 0 0        * a large blue monkey
+M 0 53009 7 53013 100 0 0 0        * a blue monkey
+M 0 53009 7 53014 100 0 0 0        * a blue monkey
+M 0 53009 7 53015 100 0 0 0        * a blue monkey
+M 0 53010 5 53016 100 0 0 0        * a large blue monkey
+M 0 53009 7 53017 100 0 0 0        * a blue monkey
+M 0 53010 5 53017 100 0 0 0        * a large blue monkey
+M 0 53009 7 53018 100 0 0 0        * a blue monkey
+M 0 53009 7 53019 100 0 0 0        * a blue monkey
+M 0 53010 5 53020 100 0 0 0        * a large blue monkey
+M 0 53004 1 53021 100 0 0 0        * a four-armed gorilla
+E 1 53002 4 16 100 0 0 0           *   a wooden club
+E 1 53002 4 17 100 0 0 0           *   a wooden club
+E 1 53002 4 25 100 0 0 0           *   a wooden club
+E 1 53002 4 26 100 0 0 0           *   a wooden club
+G 1 53003 1 0 100 0 0 0            *    a gorilla tooth
+M 0 53001 12 53022 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53023 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53024 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53025 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53026 100 0 0 0       * a three-tailed zebra
+M 0 53005 8 53027 100 0 0 0        * a five-humped camel
+M 0 53001 12 53028 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53029 100 0 0 0       * a three-tailed zebra
+M 0 53010 5 53029 100 0 0 0        * a large blue monkey
+M 0 53001 12 53030 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53031 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53032 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53033 100 0 0 0       * a three-tailed zebra
+M 0 53001 12 53034 100 0 0 0       * a three-tailed zebra
+M 0 53003 1 53036 100 0 0 0        * a hunter
+E 1 53005 1 10 100 0 0 0           *   zebra-skin sleeves
+M 0 53002 1 53037 100 0 0 0        * a saber-toothed tiger
+G 1 53001 1 0 100 0 0 0            *    a saber tooth
+M 0 53005 8 53038 100 0 0 0        * a five-humped camel
+M 0 53005 8 53039 100 0 0 0        * a five-humped camel
+M 0 53005 8 53040 100 0 0 0        * a five-humped camel
+M 0 53005 8 53042 100 0 0 0        * a five-humped camel
+M 0 53005 8 53043 100 0 0 0        * a five-humped camel
+M 0 53005 8 53045 100 0 0 0        * a five-humped camel
+M 0 53005 8 53046 100 0 0 0        * a five-humped camel
+M 0 53006 8 53048 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53049 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53049 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53050 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53051 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53052 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53053 100 0 0 0        * a hairless, translucent mammoth
+M 0 53006 8 53054 100 0 0 0        * a hairless, translucent mammoth
+M 0 53011 3 53055 100 0 0 0        * a sewer rat
+M 0 53007 1 53056 100 0 0 0        * a drider
+M 0 53008 2 53059 100 0 0 0        * a fiery-eyed nightmare
+M 0 53008 2 53060 100 0 0 0        * a fiery-eyed nightmare
+*
+S

@@ -1,0 +1,541 @@
+#760
+&n&+WThe &+BSky&+W City of Ultarium~
+76268 2 0 45 60 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 76002 0 1 100 0 0 0
+*     north exit from "The Lunar Gates" to
+*     "Starwatcher Plaza" - closed
+*
+D 0 76003 2 1 100 0 0 0
+*     south exit from "Starwatcher Plaza" to
+*     "The Lunar Gates" - closed
+*
+D 0 76003 3 1 100 0 0 0
+*     west exit from "Starwatcher Plaza" to
+*     "Inside the Scholar's Tower" - closed
+*
+D 0 76005 1 1 100 0 0 0
+*     east exit from "Inside the Scholar's Tower" to
+*     "Starwatcher Plaza" - closed
+*
+D 0 76006 3 1 100 0 0 0
+*     west exit from "Saturn's Way" to
+*     "Base of the Lunar Observatory" - closed
+*
+D 0 76010 1 1 100 0 0 0
+*     east exit from "Base of the Lunar Observatory" to
+*     "Saturn's Way" - closed
+*
+D 0 76007 3 1 100 0 0 0
+*     west exit from "Saturn's Way" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76114 1 1 100 0 0 0
+*     east exit from "A Dwelling in the Mountains" to
+*     "Saturn's Way" - closed
+*
+D 0 76009 3 5 100 0 0 0
+*     west exit from "Saturn's Way" to
+*     "An Alcove in the Mountains" - closed/secret
+*
+D 0 76058 1 5 100 0 0 0
+*     east exit from "An Alcove in the Mountains" to
+*     "Saturn's Way" - closed/secret
+*
+D 0 76017 0 1 100 0 0 0
+*     north exit from "Apollo's Trail" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76115 2 1 100 0 0 0
+*     south exit from "A Dwelling in the Mountains" to
+*     "Apollo's Trail" - closed
+*
+D 0 76023 1 2 100 0 0 0
+*     east exit from "Gates of Appollyon Fortress" to
+*     "Entry Hall of the Fortress" - closed/locked
+*
+D 0 76162 3 2 100 0 0 0
+*     west exit from "Entry Hall of the Fortress" to
+*     "Gates of Appollyon Fortress" - closed/locked
+*
+D 0 76026 0 1 100 0 0 0
+*     north exit from "Scholar's Tower" to
+*     "The Sky Bridge" - closed
+*
+D 0 76167 2 1 100 0 0 0
+*     south exit from "The Sky Bridge" to
+*     "Scholar's Tower" - closed
+*
+D 0 76028 2 1 100 0 0 0
+*     south exit from "Scholar's Road" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76076 0 1 100 0 0 0
+*     north exit from "A Dwelling in the Mountains" to
+*     "Scholar's Road" - closed
+*
+D 0 76034 3 1 100 0 0 0
+*     west exit from "Scholar's Road" to
+*     "Entrance Hall of the Library" - closed
+*
+D 0 76077 1 1 100 0 0 0
+*     east exit from "Entrance Hall of the Library" to
+*     "Scholar's Road" - closed
+*
+D 0 76035 1 1 100 0 0 0
+*     east exit from "Scholar's Road" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76075 3 1 100 0 0 0
+*     west exit from "A Dwelling in the Mountains" to
+*     "Scholar's Road" - closed
+*
+D 0 76047 5 5 100 0 0 0
+*     down exit from "An Updraft" to
+*     "Inside a Cramped Cave" - closed/secret
+*
+D 0 76048 4 5 100 0 0 0
+*     up exit from "Inside a Cramped Cave" to
+*     "An Updraft" - closed/secret
+*
+D 0 76067 1 1 100 0 0 0
+*     east exit from "A Mountain Trail" to
+*     "A Watchtower on the Cliffside" - closed
+*
+D 0 76068 3 1 100 0 0 0
+*     west exit from "A Watchtower on the Cliffside" to
+*     "A Mountain Trail" - closed
+*
+D 0 76069 2 1 100 0 0 0
+*     south exit from "Moonchaser's Trail" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76113 0 1 100 0 0 0
+*     north exit from "A Dwelling in the Mountains" to
+*     "Moonchaser's Trail" - closed
+*
+D 0 76072 1 1 100 0 0 0
+*     east exit from "Moonchaser's Trail" to
+*     "The Ultarium Foundry" - closed
+*
+D 0 76126 3 1 100 0 0 0
+*     west exit from "The Ultarium Foundry" to
+*     "Moonchaser's Trail" - closed
+*
+D 0 76073 0 1 100 0 0 0
+*     north exit from "Moonchaser's Trail" to
+*     "The Customs Tower" - closed
+*
+D 0 76074 2 1 100 0 0 0
+*     south exit from "The Customs Tower" to
+*     "Moonchaser's Trail" - closed
+*
+D 0 76094 1 1 100 0 0 0
+*     east exit from "A Mountain Plateau" to
+*     "A Moonstone Guardhouse" - closed
+*
+D 0 76095 3 1 100 0 0 0
+*     west exit from "A Moonstone Guardhouse" to
+*     "A Mountain Plateau" - closed
+*
+D 0 76102 1 1 100 0 0 0
+*     east exit from "A Mountain Trail" to
+*     "Hetolly's Cosmic Readings" - closed
+*
+D 0 76225 3 1 100 0 0 0
+*     west exit from "Hetolly's Cosmic Readings" to
+*     "A Mountain Trail" - closed
+*
+D 0 76105 1 1 100 0 0 0
+*     east exit from "A Change in the Trail" to
+*     "Inside a Windtower" - closed
+*
+D 0 76111 3 1 100 0 0 0
+*     west exit from "Inside a Windtower" to
+*     "A Change in the Trail" - closed
+*
+D 0 76116 0 1 100 0 0 0
+*     north exit from "Comet's Course" to
+*     "A Dwelling in the Mountains" - closed
+*
+D 0 76125 2 1 100 0 0 0
+*     south exit from "A Dwelling in the Mountains" to
+*     "Comet's Course" - closed
+*
+D 0 76134 0 12 100 0 0 0
+*     north exit from "Trail to the Shipyards" to
+*     "An Obscure Trail on the Cliff Face" - open/secret/blocked
+*
+D 0 76185 2 12 100 0 0 0
+*     south exit from "An Obscure Trail on the Cliff Face" to
+*     "Trail to the Shipyards" - open/secret/blocked
+*
+D 0 76139 1 1 100 0 0 0
+*     east exit from "Landing by the Shipyards" to
+*     "The Crew's Barracks" - closed
+*
+D 0 76211 3 1 100 0 0 0
+*     west exit from "The Crew's Barracks" to
+*     "Landing by the Shipyards" - closed
+*
+D 0 76172 4 2 100 0 0 0
+*     up exit from "First Floor Stairwell" to
+*     "Second Floor Landing" - closed/locked
+*
+D 0 76173 5 2 100 0 0 0
+*     down exit from "Second Floor Landing" to
+*     "First Floor Stairwell" - closed/locked
+*
+D 0 76173 0 1 100 0 0 0
+*     north exit from "Second Floor Landing" to
+*     "The Fortress Prison Cells" - closed
+*
+D 0 76178 2 1 100 0 0 0
+*     south exit from "The Fortress Prison Cells" to
+*     "Second Floor Landing" - closed
+*
+D 0 76174 1 1 100 0 0 0
+*     east exit from "Entry Hall of the Fortress" to
+*     "An Antechamber" - closed
+*
+D 0 76177 3 1 100 0 0 0
+*     west exit from "An Antechamber" to
+*     "Entry Hall of the Fortress" - closed
+*
+D 0 76175 1 1 100 0 0 0
+*     east exit from "Entry Hall of the Fortress" to
+*     "An Antechamber" - closed
+*
+D 0 76176 3 1 100 0 0 0
+*     west exit from "An Antechamber" to
+*     "Entry Hall of the Fortress" - closed
+*
+D 0 76190 1 2 100 0 0 0
+*     east exit from "The Hallway Before the High Council" to
+*     "The Council Chambers" - closed/locked
+*
+D 0 76191 3 2 100 0 0 0
+*     west exit from "The Council Chambers" to
+*     "The Hallway Before the High Council" - closed/locked
+*
+D 0 76190 4 1 100 0 0 0
+*     up exit from "The Hallway Before the High Council" to
+*     "A Fortified Parapet" - closed
+*
+D 0 76194 5 1 100 0 0 0
+*     down exit from "A Fortified Parapet" to
+*     "The Hallway Before the High Council" - closed
+*
+D 0 76230 0 1 100 0 0 0
+*     north exit from "A Darkened Stone Hallway" to
+*     "The Beast Cages" - closed
+*
+D 0 76237 2 1 100 0 0 0
+*     south exit from "The Beast Cages" to
+*     "A Darkened Stone Hallway" - closed
+*
+D 0 76231 0 1 100 0 0 0
+*     north exit from "A Darkened Stone Hallway" to
+*     "The Beast Cages" - closed
+*
+D 0 76236 2 1 100 0 0 0
+*     south exit from "The Beast Cages" to
+*     "A Darkened Stone Hallway" - closed
+*
+D 0 76232 0 1 100 0 0 0
+*     north exit from "A Darkened Stone Hallway" to
+*     "The Beast Cages" - closed
+*
+D 0 76235 2 1 100 0 0 0
+*     south exit from "The Beast Cages" to
+*     "A Darkened Stone Hallway" - closed
+*
+D 0 76233 0 1 100 0 0 0
+*     north exit from "A Darkened Stone Hallway" to
+*     "The Beast Cages" - closed
+*
+D 0 76234 2 1 100 0 0 0
+*     south exit from "The Beast Cages" to
+*     "A Darkened Stone Hallway" - closed
+*
+*
+O 0 76001 1 76003 100 0 0 0        * a planetary display
+O 0 76029 2 76003 100 0 0 0        * a park bench
+O 0 76007 3 76004 100 0 0 0        * a moonstone lightpost
+O 0 76008 6 76006 100 0 0 0        * a sunstone lightpost
+O 0 76008 6 76008 100 0 0 0        * a sunstone lightpost
+O 0 76008 6 76015 100 0 0 0        * a sunstone lightpost
+O 0 76024 1 76016 100 0 0 0        * a sparkling fountain
+O 0 76008 6 76018 100 0 0 0        * a sunstone lightpost
+O 0 76008 6 76020 100 0 0 0        * a sunstone lightpost
+O 0 76008 6 76022 100 0 0 0        * a sunstone lightpost
+O 0 76002 5 76024 100 0 0 0        * a bookcase
+O 0 76002 5 76025 100 0 0 0        * a bookcase
+O 0 76002 5 76026 100 0 0 0        * a bookcase
+O 0 76007 3 76029 100 0 0 0        * a moonstone lightpost
+O 0 76007 3 76034 100 0 0 0        * a moonstone lightpost
+O 0 76009 1 76062 100 0 0 0        * some packing crates
+O 0 76002 5 76078 100 0 0 0        * a bookcase
+O 0 76002 5 76080 100 0 0 0        * a bookcase
+O 0 76029 2 76098 100 0 0 0        * a park bench
+O 0 76004 2 76106 100 0 0 0        * a cosmic statue
+O 0 76003 2 76107 100 0 0 0        * an ornate fountain
+O 0 76004 2 76108 100 0 0 0        * a cosmic statue
+O 0 76003 2 76109 100 0 0 0        * an ornate fountain
+O 0 76005 1 76110 100 0 0 0        * the oracle
+O 0 76006 1 76126 100 0 0 0        * an anvil
+O 0 76010 4 76127 100 0 0 0        * a tether pole
+O 0 76010 4 76128 100 0 0 0        * a tether pole
+O 0 76010 4 76129 100 0 0 0        * a tether pole
+O 0 76010 4 76130 100 0 0 0        * a tether pole
+O 0 76015 1 76134 100 0 0 0        * a trigger boulder
+O 0 76014 2 76152 100 0 0 0        * some stacks of lumber
+O 0 76014 2 76154 100 0 0 0        * some stacks of lumber
+O 0 76012 1 76156 100 0 0 0        * a huge drafting table
+O 0 76013 1 76157 100 0 0 0        * a gnomish contraption
+O 0 76021 1 76165 100 0 0 0        * a magificent statue
+O 0 76054 2 76178 100 0 0 0        * a dying prisoner
+O 0 76020 1 76185 100 0 0 0        * a trigger boulder
+O 0 76043 1 76190 20 0 0 0         * a barbed whip dubbed 'Cometstrike'
+O 0 76016 4 76196 100 0 0 0        * an enormous trebuchet
+O 0 76016 4 76197 100 0 0 0        * an enormous trebuchet
+O 0 76016 4 76198 100 0 0 0        * an enormous trebuchet
+O 0 76016 4 76199 100 0 0 0        * an enormous trebuchet
+O 0 72 1 76200 100 0 0 0           * (object type not in this .obj file)
+O 0 359 1 76200 100 0 0 0          * (object type not in this .obj file)
+O 0 76017 1 76201 100 0 0 0        * an etherwarp pad
+O 0 76025 6 76211 100 0 0 0        * a bunk bed
+O 0 76025 6 76212 100 0 0 0        * a bunk bed
+O 0 76025 6 76213 100 0 0 0        * a bunk bed
+O 0 76025 6 76214 100 0 0 0        * a bunk bed
+O 0 76025 6 76215 100 0 0 0        * a bunk bed
+O 0 76025 6 76216 100 0 0 0        * a bunk bed
+O 0 76022 1 76217 100 0 0 0        * a mountain cave
+O 0 76023 1 76218 100 0 0 0        * a hole leading up
+O 0 76026 1 76221 100 0 0 0        * a wounded message runner
+P 1 76027 1 76026 100 0 0 0        *   the blueprints second draft
+O 0 193 1 76224 100 0 0 0          * (object type not in this .obj file)
+O 0 76054 2 76227 100 0 0 0        * a dying prisoner
+*
+M 0 76004 2 76002 100 0 0 0        * a moonstone knight
+E 1 76019 999 12 100 0 0 0         *   a set of moonstone full plate
+E 1 76018 999 16 100 0 0 0         *   a moonstone greatsword
+M 0 76004 2 76002 100 0 0 0        * a moonstone knight
+E 1 76019 999 12 100 0 0 0         *   a set of moonstone full plate
+E 1 76018 999 16 100 0 0 0         *   a moonstone greatsword
+M 0 76040 1 76003 100 0 0 0        * a local minstrel
+E 1 76046 1 18 100 0 0 0           *   a wooden harp etched with stars
+M 0 76007 8 76006 100 0 0 0        * a moonstone knight
+M 0 76031 3 76006 100 0 0 0        * a local astronomer
+M 0 76023 4 76007 100 0 0 0        * a travelling scholar
+M 0 76035 4 76008 100 0 0 0        * a mountain cat
+M 0 76035 4 76009 100 0 0 0        * a mountain cat
+M 0 76023 4 76009 100 0 0 0        * a travelling scholar
+E 1 76044 1 18 100 0 0 0           *   a cosmic totem
+M 0 76032 1 76014 100 0 0 0        * an astrologist
+E 1 76035 1 15 100 0 0 0           *   a bracelet of astrology
+F 1 76067 1 76014 100 0 0 0        * a young astrologist (following)
+M 0 76060 1 76016 100 0 0 0        * a sailor
+M 0 76076 2 76018 100 0 0 0        * a local resident
+M 0 76076 2 76018 100 0 0 0        * a local resident
+M 0 76006 1 76023 100 0 0 0        * a sunstone knight
+E 1 76034 999 5 100 0 0 0          *   a set of sunstone full plate
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76024 3 76024 100 0 0 0        * a student of cosmocy
+M 0 76024 3 76025 100 0 0 0        * a student of cosmocy
+M 0 76024 3 76026 100 0 0 0        * a student of cosmocy
+M 0 76007 8 76028 100 0 0 0        * a moonstone knight
+M 0 76028 2 76029 100 0 0 0        * a harpy ethermancer
+M 0 76028 2 76029 100 0 0 0        * a harpy ethermancer
+M 0 76007 8 76030 100 0 0 0        * a moonstone knight
+M 0 76035 4 76032 100 0 0 0        * a mountain cat
+M 0 76045 1 76033 100 0 0 0        * a mountain slink
+G 1 76031 1 0 100 0 0 0            *    some slink fur
+M 0 76007 8 76039 100 0 0 0        * a moonstone knight
+M 0 76054 1 76042 100 0 0 0        * a windwalker
+M 0 76046 1 76055 100 0 0 0        * a travelling scholar
+M 0 76005 1 76057 100 0 0 0        * the cosmomancer potentate
+G 1 76037 1 0 100 0 0 0            *    a cosmic tome
+M 0 76013 1 76062 100 0 0 0        * Grudat
+G 1 76011 999 0 100 0 0 0          *    an intricate sunstone key
+G 1 76028 999 0 100 0 0 0          *    a security key
+G 1 77 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 73 999 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 412 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 76031 3 76065 100 0 0 0        * a local astronomer
+M 0 76031 3 76065 100 0 0 0        * a local astronomer
+M 0 76017 3 76068 100 0 0 0        * a moonstone knight
+E 1 76018 999 16 100 0 0 0         *   a moonstone greatsword
+M 0 76007 8 76069 100 0 0 0        * a moonstone knight
+M 0 76008 1 76069 100 0 0 0        * Deathium
+E 1 76048 1 19 100 0 0 0           *   a moonstone visor
+M 0 76015 1 76074 100 0 0 0        * a customs officer
+M 0 76016 1 76074 100 0 0 0        * a customs clerk
+M 0 76011 4 76075 100 0 0 0        * a local resident
+M 0 76012 4 76075 100 0 0 0        * a local resident
+M 0 76012 4 76076 100 0 0 0        * a local resident
+M 0 76037 1 76078 100 0 0 0        * the librarian
+M 0 76049 1 76079 100 0 0 0        * an elderly engineer
+M 0 76029 1 76080 100 0 0 0        * Rigid
+M 0 76042 1 76087 100 0 0 0        * Adaruen
+E 1 76061 1 16 100 0 0 0           *   the staff of the storm
+F 1 76041 1 76087 100 0 0 0        * a storm druid (following)
+M 0 76043 1 76088 100 0 0 0        * a tiny water wisp
+G 1 76047 1 0 100 0 0 0            *    a tiny water wisp
+M 0 76002 1 76091 100 0 0 0        * a robed flind
+F 1 76003 2 76091 100 0 0 0        * a flind monk (following)
+F 1 76003 2 76091 100 0 0 0        * a flind monk (following)
+M 0 76035 4 76094 100 0 0 0        * a mountain cat
+M 0 76017 3 76095 100 0 0 0        * a moonstone knight
+E 1 76019 999 12 100 0 0 0         *   a set of moonstone full plate
+E 1 76018 999 16 100 0 0 0         *   a moonstone greatsword
+M 0 76021 3 76096 100 0 0 0        * a tamed griffon
+M 0 76017 3 76097 100 0 0 0        * a moonstone knight
+M 0 76036 1 76112 100 0 0 0        * the construction foreman
+M 0 76011 4 76113 100 0 0 0        * a local resident
+M 0 76012 4 76114 100 0 0 0        * a local resident
+M 0 76011 4 76115 100 0 0 0        * a local resident
+M 0 76061 1 76116 100 0 0 0        * a visitor
+M 0 76009 2 76119 100 0 0 0        * a rakshasa cosmic templar
+M 0 76001 3 76120 100 0 0 0        * a chanting rakshasa
+M 0 76001 3 76121 100 0 0 0        * a chanting rakshasa
+M 0 76001 3 76121 100 0 0 0        * a chanting rakshasa
+M 0 76009 2 76122 100 0 0 0        * a rakshasa cosmic templar
+E 1 76030 1 20 100 0 0 0           *   the mask of the templar
+M 0 76012 4 76125 100 0 0 0        * a local resident
+M 0 76011 4 76125 100 0 0 0        * a local resident
+M 0 76010 1 76126 100 0 0 0        * the ultarium smithworker
+G 1 76018 999 0 100 0 0 0          *    a moonstone greatsword
+G 1 76019 999 0 100 0 0 0          *    a set of moonstone full plate
+G 1 76033 999 0 100 0 0 0          *    a sunstone greatsword
+G 1 76034 999 0 100 0 0 0          *    a set of sunstone full plate
+M 0 76059 1 76129 100 0 0 0        * the portmaster
+M 0 76014 3 76130 100 0 0 0        * a tether worker
+M 0 76014 3 76130 100 0 0 0        * a tether worker
+M 0 76014 3 76130 100 0 0 0        * a tether worker
+M 0 76021 3 76132 100 0 0 0        * a tamed griffon
+M 0 76021 3 76133 100 0 0 0        * a tamed griffon
+M 0 76033 3 76141 100 0 0 0        * a huge cave spider
+M 0 76033 3 76141 100 0 0 0        * a huge cave spider
+M 0 76066 3 76142 100 0 0 0        * a covenant member
+M 0 76066 3 76143 100 0 0 0        * a covenant member
+M 0 76025 3 76144 100 0 0 0        * a covenant member
+M 0 76025 3 76144 100 0 0 0        * a covenant member
+M 0 76025 3 76144 100 0 0 0        * a covenant member
+M 0 76066 3 76144 100 0 0 0        * a covenant member
+M 0 76027 1 76145 100 0 0 0        * Selaraim
+M 0 76033 3 76150 100 0 0 0        * a huge cave spider
+M 0 76018 3 76154 100 0 0 0        * a mountain giant labourer
+M 0 76018 3 76154 100 0 0 0        * a mountain giant labourer
+M 0 76018 3 76154 100 0 0 0        * a mountain giant labourer
+M 0 76019 1 76156 100 0 0 0        * a gnomish engineer
+M 0 76020 2 76157 100 0 0 0        * a gnomish tinkerer
+M 0 76020 2 76157 100 0 0 0        * a gnomish tinkerer
+M 0 76007 8 76161 100 0 0 0        * a moonstone knight
+M 0 76023 4 76163 100 0 0 0        * a travelling scholar
+M 0 76007 8 76163 100 0 0 0        * a moonstone knight
+M 0 76064 1 76165 100 0 0 0        * a juggler
+E 1 76055 1 8 100 0 0 0            *   a pair of juggler's shoes
+M 0 76023 4 76166 100 0 0 0        * a travelling scholar
+M 0 76007 8 76166 100 0 0 0        * a moonstone knight
+M 0 76069 4 76169 100 0 0 0        * a guard dog
+M 0 76069 4 76169 100 0 0 0        * a guard dog
+M 0 76069 4 76169 100 0 0 0        * a guard dog
+M 0 76069 4 76169 100 0 0 0        * a guard dog
+M 0 76070 2 76170 100 0 0 0        * a cosmic doomguard
+M 0 76062 9 76171 100 0 0 0        * a sunstone knight
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76062 9 76171 100 0 0 0        * a sunstone knight
+M 0 76062 9 76172 100 0 0 0        * a sunstone knight
+M 0 76062 9 76173 100 0 0 0        * a sunstone knight
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76070 2 76173 100 0 0 0        * a cosmic doomguard
+M 0 76051 3 76173 100 0 0 0        * a sunstone sentinel
+M 0 76051 3 76174 100 0 0 0        * a sunstone sentinel
+M 0 76051 3 76175 100 0 0 0        * a sunstone sentinel
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76071 1 76176 100 0 0 0        * a lieutenant
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+G 1 76049 1 0 100 0 0 0            *    an oblong key of sunstone
+M 0 76068 2 76179 100 0 0 0        * an enslaved psyche soldier
+M 0 76068 2 76180 100 0 0 0        * an enslaved psyche soldier
+M 0 76026 1 76181 100 0 0 0        * an ambassdor for the covenant
+M 0 76062 9 76181 100 0 0 0        * a sunstone knight
+M 0 76062 9 76181 100 0 0 0        * a sunstone knight
+M 0 76048 3 76182 100 0 0 0        * an imprisoned smuggler
+M 0 76034 3 76189 100 0 0 0        * a large cave lizard
+M 0 76034 3 76189 100 0 0 0        * a large cave lizard
+M 0 76034 3 76189 100 0 0 0        * a large cave lizard
+M 0 76053 1 76190 100 0 0 0        * Blaze Cometstrike
+E 1 76042 1 16 100 0 0 0           *   a sunstone war-mace
+E 1 76034 999 5 100 0 0 0          *   a set of sunstone full plate
+M 0 76038 1 76191 100 0 0 0        * Zeenium
+E 1 76056 1 16 100 0 0 0           *   a sunstone dagger
+E 1 76034 999 5 100 0 0 0          *   a set of sunstone full plate
+G 1 76038 1 0 100 0 0 0            *    the soul of Zeenium
+M 0 76058 1 76191 100 0 0 0        * Ignor
+G 1 76039 1 0 100 0 0 0            *    the soul of Ignor
+M 0 76062 9 76195 100 0 0 0        * a sunstone knight
+E 1 76034 999 5 100 0 0 0          *   a set of sunstone full plate
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76062 9 76195 100 0 0 0        * a sunstone knight
+E 1 76033 999 16 100 0 0 0         *   a sunstone greatsword
+M 0 76062 9 76195 100 0 0 0        * a sunstone knight
+M 0 76065 1 76198 100 0 0 0        * Plume Meteorhand
+G 1 76045 1 0 100 0 0 0            *    the council's door key
+M 0 76077 2 76199 100 0 0 0        * a massive guard dog
+E 1 76063 1 3 100 0 0 0            *   a spiked sunstone collar
+M 0 76077 2 76199 100 0 0 0        * a massive guard dog
+M 0 76050 1 76200 100 0 0 0        * Strata
+G 1 76053 1 0 100 0 0 0            *    a sunstone horn clasp
+G 1 76040 1 0 100 0 0 0            *    the soul of Strata
+M 0 76052 1 76202 100 0 0 0        * Omoona
+E 1 76052 1 9 100 0 0 0            *   a pair of sunstone knuckles
+G 1 76041 1 0 100 0 0 0            *    the soul of Omoona
+M 0 76063 3 76202 100 0 0 0        * an attendant for the high council
+M 0 76063 3 76203 100 0 0 0        * an attendant for the high council
+M 0 76063 3 76203 100 0 0 0        * an attendant for the high council
+M 0 76030 4 76205 100 0 0 0        * a smuggler
+M 0 76030 4 76205 100 0 0 0        * a smuggler
+M 0 76030 4 76206 100 0 0 0        * a smuggler
+M 0 76030 4 76206 100 0 0 0        * a smuggler
+M 0 76056 3 76214 100 0 0 0        * a blacktalon crewmember
+M 0 76057 1 76214 100 0 0 0        * the blacktalon captain
+E 1 76036 1 7 100 0 0 0            *   a pair of chrome-coloured shinguards
+M 0 76056 3 76214 100 0 0 0        * a blacktalon crewmember
+M 0 76056 3 76216 100 0 0 0        * a blacktalon crewmember
+M 0 76044 5 76221 100 0 0 0        * a rock cruncher
+G 1 221 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 76044 5 76222 100 0 0 0        * a rock cruncher
+G 1 220 2 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 76044 5 76223 100 0 0 0        * a rock cruncher
+G 1 223 1 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 76044 5 76224 100 0 0 0        * a rock cruncher
+M 0 76039 1 76225 100 0 0 0        * Hetolly
+M 0 76044 5 76226 100 0 0 0        * a rock cruncher
+G 1 220 2 0 100 0 0 0              *    (object type not in this .obj file)
+M 0 76048 3 76227 100 0 0 0        * an imprisoned smuggler
+M 0 76048 3 76227 100 0 0 0        * an imprisoned smuggler
+M 0 76072 1 76227 100 0 0 0        * the high warden
+G 1 76068 1 0 100 0 0 0            *    a study of planetary alignment
+M 0 76047 1 76228 50 0 0 0         * pandora's box
+M 0 76073 1 76229 100 0 0 0        * a chimaera
+G 1 76057 1 0 100 0 0 0            *    a chimaera scale
+M 0 76075 1 76236 33 0 0 0         * a windwalker
+G 1 76064 1 0 100 0 0 0            *    a wisp of living wind
+M 0 76055 1 76239 100 0 0 0        * a mighty basilisk
+E 1 76060 1 19 100 0 0 0           *   the eyes of a basilisk
+M 0 76078 1 76240 100 0 0 0        * a cockatrice
+G 1 76067 1 0 100 0 0 0            *    some cockatrice feathers
+M 0 76022 1 76241 100 0 0 0        * Anaeus
+M 0 76079 1 76242 100 0 0 0        * a tamed griffon
+M 0 76244 1 76254 100 0 0 0        * a dwarven craftsman
+M 0 76243 1 76255 100 0 0 0        * a dwarven trapper
+M 0 76245 2 76257 100 0 0 0        * a mountain dwarf
+M 0 76245 2 76257 100 0 0 0        * a mountain dwarf
+*
+S

@@ -1,0 +1,1114 @@
+#43000
+&+mA Dark Hallway&N~
+   The hallway here is not used as much as the others in the fort.
+Due to lack of travel through this corridor, dust and other debris
+has managed to settle.  This hallway is unlighted unlike many of
+the passage ways of the fort.  The hallway continues further to the
+east providing access to the prison of the fort.
+~
+430 9 0
+D1
+The dark hallway continues east.
+~
+~
+0 0 43001
+D3
+~
+~
+0 0 38149
+S
+#43001
+&+mA Dark Hallway&N~
+   This dark hallway continues here leading deeper inside the
+the fort.  This hallway is used very infrequenly. Due to lack of
+travel through this corridor, dust and other debris has managed to
+settle.  This hallway is unlighted unlike many of the passage ways
+of the fort.  A cold blast of air occasionally blows in from the
+east.  The hallway continues further to the east providing access
+to the prison of the fort.
+~
+430 9 0
+D0
+~
+~
+0 0 43050
+D1
+There appears to be a staircase to the east.
+~
+~
+0 0 43002
+D3
+The dark hallway continues west.
+~
+~
+0 0 43000
+S
+#43002
+&+mBefore a Dark Staircase&N~
+   Here at the top of a dark staircase, the sounds of screams and
+shrieks of terror can be heard coming from below.  The staircase
+leads to another level below the fort.  This staircase is similar
+to the connecting hallway in that it is used infrequenly. Due to
+lack of travel through this corridor, dust and other debris has
+managed to settle.  This staircase is unlighted unlike many of
+the passage ways of the fort.  The staircase leads down below
+to another part of the fort.  There is a dark hallway leading
+away to the west.
+~
+430 9 0
+D3
+The dark hallway leads further away to the west.
+~
+~
+0 0 43001
+D5
+The dark staircase leads down below.
+~
+~
+0 0 43003
+S
+#43003
+&+mAt the Foot of a Dark Staircase&N~
+   Here at the bottom of this dark staircase, the sounds of
+screams and shrieks of terror can be heard more distinctly than
+from other parts of the fort.  The sounds of chatter can be heard
+coming from an area further to the west.  This staircase leads to
+another level below the fort. This staircase is unlighted unlike
+many of the passage ways of the fort.  The staircase leads up
+toward another part of the fort.
+~
+430 9 0
+D1
+~
+~
+0 0 43004
+D4
+The staircase leads up.
+~
+~
+0 0 43002
+S
+#43004
+&+bBefore the Prison of Fort Boyard&N~
+&+b  The room here is different than the other rooms of the fort.
+&+bCarved out of the stone of the earth, absolutely no light from
+&+bthe realms outside penetrate this room here.  This area serves
+&+bas the prison of the fort.  Many captured inmates are brought
+&+bto this area of the fort to spend the rest of their time in
+&+bthe realms of the living.  A large set of iron gates seal off
+&+bany further entry to the east.
+~
+430 9 0
+D1
+The prison of the fort is just to the east.
+~
+gates iron~
+3 43000 43005
+D3
+~
+~
+0 0 43003
+S
+#43005
+&+bThe Connecting Hallway of the Prison&N~
+&+b  This hallway of the prison serves to connect all the
+&+bdifferent cells to main access.  Similar to the entry room of
+&+bprison, this room also has been carved out of the stone of the
+&+bearth.  Absolutely no light from the realms outside penetrate
+&+bthis room here.  A large set of iron gates seal off any exit
+&+bfrom the prison.
+~
+430 134250569 0
+D1
+The prison lies further in this direction.
+~
+~
+0 0 43006
+D3
+This is the exit back into the fort.
+~
+gates iron~
+3 43000 43004
+S
+#43006
+&+bBefore Two Cells&N~
+&+b   The connecting hallway leads into this part of the prison
+&+bwhich provides access to two cells.  Many of the captured
+&+bwar prisoners are secured by Master Boyard in the cells here.
+&+bThe cells are sealed by a magical iron gate which pulsates in
+&+ba magical aura.  Just to the north, a pitiful looking elf can
+&+bcan be seen wasting away.  In the cell to the south, a large
+&+bwhite dragon rests.  The connecting hallway leads further in
+&+btwo directions from this advantage point.
+~
+430 134250569 0
+D0
+There appears to be a prison cell to the north.
+~
+prison cell~
+3 43000 43007
+D1
+The connecting hallway leads east.
+~
+~
+0 0 43009
+D2
+There appears to be a prison cell to the south.
+~
+prison cell~
+3 43000 43008
+D3
+The connecting hallway leads west.
+~
+~
+0 0 43005
+S
+#43007
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D2
+The exit to this prison cell is to the south.
+~
+prison cell~
+3 43000 43006
+S
+#43008
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D0
+The only exit out of this prison cell is in this direction.
+~
+prison cell~
+3 43000 43006
+S
+#43009
+&+bThe Connecting Hallway of the Prison&N~
+&+b  This hallway of the prison serves to connect all the
+&+bdifferent cells to one main access.  The hallway here leads
+&+bin an east-west direction through the prison.  Like many of
+&+bthe other areas of the prison, this room also has been carved
+&+bout of the stone of the bearth.  Absolutely no light from the
+&+brealms outside penetrate this room here.  There are exits
+&+ball around leading deeper into the prison.
+~
+430 134250569 0
+D1
+The connecting hallway leads east.
+~
+~
+0 0 43010
+D3
+The connecting hallway leads west.
+~
+~
+0 0 43006
+S
+#43010
+&+bBefore Two Cells&N~
+&+b   The connecting hallway leads into this part of the prison
+&+bwhich provides access to two cells.  Many of the captured
+&+bwar prisoners are secured by Master Boyard in the cells here.
+&+bThe cells are sealed by a magical iron gate which pulsates in
+&+ba magical aura.  Just to the north, a large dark being can be
+&+bseen pacing the cell. In the cell to the south, a large
+&+bblue dragon rests.  The connecting hallway leads further in
+&+btwo directions from this advantage point.
+~
+430 134250569 0
+D0
+There is a prison cell to the north.
+~
+prison cell~
+3 43000 43011
+D1
+The connecting hallway leads further to the east.
+~
+~
+0 0 43013
+D2
+There is a prison cell to the south.
+~
+prison cell~
+3 43000 43012
+D3
+The connecting hallway leads further to the west.
+~
+~
+0 0 43009
+S
+#43011
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D2
+The only exit out of this prison cell is to the south.
+~
+prison cell~
+3 43000 43010
+S
+#43012
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D0
+The only exit out of this prison cell is to the north.
+~
+prison cell~
+3 43000 43010
+S
+#43013
+&+bThe Connecting Hallway of the Prison&N~
+&+b  This hallway of the prison serves to connect all the
+&+bdifferent cells to one main access.  The hallway here leads
+&+bin an east-west direction through the prison.  Like many of
+&+bthe other areas of the prison, this room also has been carved
+&+bout of the stone of the bearth.  Absolutely no light from the
+&+brealms outside penetrate this room here.  There are exits
+&+ball around leading deeper into the prison.
+~
+430 134250633 0
+D0
+~
+~
+0 0 43014
+D1
+There is a prison cell to the east.
+~
+prison cell~
+3 43000 43019
+D3
+The connecting hallway leads west.
+~
+~
+0 0 43010
+S
+#43014
+&+bBefore a Prison of Dragons&N~
+&+b   This special part of the prison plays home to some of
+&+bthe intriguing dragons of the realms captured by Master
+&+bBoyard and his army.   The walls of the prison are of a
+&+bdark granite composition.  The walls here have a very
+&+brough texture.  There entry into the prison of the
+&+bdragons lies just ahead.
+~
+430 134250573 0
+D0
+~
+~
+8 0 43015
+D2
+The connecting hallway is to the south.
+~
+~
+0 0 43013
+S
+#43015
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D2
+~
+~
+0 0 43014
+D6
+~
+~
+0 0 43016
+D8
+~
+~
+0 0 43017
+S
+#43016
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D0
+The exit in that direction leads into another cell.
+~
+~
+8 0 43018
+D9
+~
+~
+0 0 43015
+S
+#43017
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D7
+~
+~
+0 0 43015
+S
+#43018
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D2
+~
+~
+0 0 43016
+S
+#43019
+&+LA Large Prison Cell&N~
+&+L   The prison cell here is large in size.  The walls have been
+&+Lsmoothed down.  They reflect what little light which happens to
+&+Lreflect of many shiny objects brought into the prison.  The cell
+&+Lhas a moldy straw covered ground.  There are chains along the
+&+Lsouth wall.  There is only one exit out of this cell.
+~
+430 134250569 0
+D3
+The exit from this cell is in that direction.
+~
+prison cell~
+3 43000 43013
+S
+#43020
+&+yThe Deck of a Prison Ship&N~
+&+y   The deck of this prison ship is large and filled with
+&+ythe members of the crew tending to their assigned tasks at
+&+yhand.  Sailors of different ranks are here tending to the
+&+ysails, shouting instructions, and washing the deck.  The
+&+yopen deck provides views in all directions.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 0 1
+D0
+The deck continues in that direction.
+~
+~
+0 0 43021
+D1
+The deck continues in that direction.
+~
+~
+0 0 43023
+D2
+Beyond this door lies the quarters of the captain.
+~
+door~
+1 0 43024
+S
+#43021
+&+yThe Deck of a Prison Ship&N~
+&+y   The deck of this prison ship is large and filled with
+&+ythe members of the crew tending to their assigned tasks at
+&+yhand.  Sailors of different ranks are here tending to the
+&+ysails, shouting instructions, and washing the deck.  The
+&+yopen deck provides views in all directions.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 0 1
+D0
+There is a storage room beyond this door.
+~
+door~
+1 0 43048
+D1
+The deck continues in that direction.
+~
+~
+0 0 43022
+D2
+The deck continues in that direction.
+~
+~
+0 0 43020
+S
+#43022
+&+yThe Deck of a Prison Ship&N~
+&+y   The deck of this prison ship is large and filled with
+&+ythe members of the crew tending to their assigned tasks at
+&+yhand.  Sailors of different ranks are here tending to the
+&+ysails, shouting instructions, and washing the deck.  The
+&+yopen deck provides views in all directions.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 0 1
+D0
+There is a storage room beyond this door.
+~
+door~
+1 0 43049
+D2
+The deck continues in that direction.
+~
+~
+0 0 43023
+D3
+The deck continues in that direction.
+~
+~
+0 0 43021
+S
+#43023
+&+yThe Deck of a Prison Ship&N~
+&+y   The deck of this prison ship is large and filled with
+&+ythe members of the crew tending to their assigned tasks at
+&+yhand.  Sailors of different ranks are here tending to the
+&+ysails, shouting instructions, and washing the deck.  The
+&+yopen deck provides views in all directions.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 0 1
+D0
+The deck continues in that direction.
+~
+~
+0 0 43022
+D3
+The deck continues in that direction.
+~
+~
+0 0 43020
+D5
+The floor underneath the deck is this way.
+~
+~
+0 0 43032
+S
+#43024
+&+rThe Room of the Captain&N~
+&+y   This large room belongs to the captain of this prison
+&+yship.  It is furnished with a large desk along the west
+&+ywall of the room.  In the center of the room, there is a
+&+ysmall circular table with a map of the surrounding area.
+&+yThere are a variety of navigational aids on both the
+&+ytable and desk.  There is only one exit leading out of
+&+ythis room.
+~
+430 8 0
+D0
+The deck lies beyond this door.
+~
+door~
+1 0 43020
+S
+#43025
+&+yThe Quarters of Rynn&N~
+&+y   These quarters of Rynn, the chef, are lightly furnished.
+&+yIt is within these quarters that Rynn prepares many dishes
+&+yfor all members of the ship's crew to enjoy.  There are
+&+yshelves along the north wall.  In the center of the room,
+&+ythere is a large oval table.  On this oval table, there is
+&+ya small recipe book opened with the page marked with a red
+&+yribbon. There are two exits leading out of this room of the
+&+yship.
+~
+430 4104 0
+D1
+The hallway of sailors is in that direction.
+~
+~
+0 0 43026
+D2
+The dining area of the ship is to the south.
+~
+~
+0 0 43028
+S
+#43026
+&+yThe Hallway of Sailors&N~
+&+y   Below the deck, this hallway of sailors connects many
+&+yof the rooms of the ship together.   Along this corridor
+&+ylie the many bedrooms, eating quarters, and the study.
+&+yThis hall is kept clean by the deck hands assigned to work
+&+yon this level. Just to the north, there is a large window
+&+ywhich provides views to the surrounding area.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 4104 0
+D1
+There is a room beyond this door.
+~
+door~
+1 0 43027
+D2
+The hallway of sailors continues south.
+~
+~
+0 0 43029
+D3
+The quarters of the chef are to the west.
+~
+~
+0 0 43025
+D5
+There is a holding cell down below.
+~
+holding cell~
+3 43020 43037
+S
+#43027
+&+yA Sailor's Quarters&N~
+&+y   The living quarters here are large.  There are sets of
+&+ybunk beds which line the east wall and continue into the
+&+yconnecting room.  The beds here can allows be occupied by
+&+yone time or another by members of the crew.  The room
+&+yhas small shelves along the north wall.  Along the north
+&+ywall, there is a large viewing window.  There are two
+&+yexits leading away from this room.
+~
+430 4104 0
+D2
+The sailor's quarters continues south.
+~
+~
+0 0 43030
+D3
+The hallway of sailors lies to the west.
+~
+door~
+1 0 43026
+S
+#43028
+&+yThe Dining Area&N~
+&+y   In these quarters, which serve as the dining area, many
+&+ymembers of the crew of this ship come to enjoy a meal, drink,
+&+yor both.  The room here is lightly furnished.  In the center
+&+yof the room here, there is a large oval table.  Surrounding
+&+ythis table, there are twelve chairs.  Many members of the
+&+ycrew can always be found within these quarters enjoying
+&+ya meal prepared by the ship's chef.  There are two exits
+&+yleading out of the dining area.
+~
+430 4104 0
+D0
+The chef's quarters are to the north.
+~
+~
+0 0 43025
+D1
+The hallway of sailors is to the east.
+~
+~
+0 0 43029
+S
+#43029
+&+yThe Hallway of Sailors&N~
+&+y   Below the deck, this hallway of sailors connects many
+&+yof the rooms of the ship together.   Along this corridor
+&+ylie the many bedrooms, eating quarters, and the study.
+&+yThis hall is kept clean by the deck hands assigned to work
+&+yon this level.  A large white carpet begins in this room
+&+yand extends farther to the south along this corridor.
+&+ytThere are exits all around leading deeper into the ship.
+~
+430 4104 0
+D0
+The hallway of sailors continues north.
+~
+~
+0 0 43026
+D1
+There is a room beyond this door.
+~
+door~
+1 0 43030
+D2
+The hallway of sailors continues south.
+~
+~
+0 0 43032
+D3
+The dining quarters are to the west.
+~
+~
+0 0 43028
+S
+#43030
+&+yA Sailor's Quarters&N~
+&+y   The living quarters here are large.  There are sets of
+&+ybunk beds which line the east wall and continue into the
+&+yconnecting room.  The beds here can allows be occupied by
+&+yone time or another by members of the crew.  The room
+&+yhas small shelves along the south wall.  There are two
+&+yexits leading away from this room.
+~
+430 4104 0
+D0
+The sailor's quarters continues north.
+~
+~
+0 0 43027
+D3
+The hallway of sailors lies to the west.
+~
+door~
+1 0 43029
+S
+#43031
+&+yA Sailor's Quarters&N~
+&+y   These living quarters here seem to be suited for special
+&+ymembers of the crew.  There is one large bed which takes a
+&+ymajority of the space of the room.  The bed is covered with
+&+ya woolen blanket.  The floor of this room has a large
+&+ycircular red rug.  There is only one exit out of this
+&+yroom which leads back into the hallway of sailors.
+~
+430 4104 0
+D1
+The hallway of sailors is just beyond this door.
+~
+door~
+1 0 43032
+S
+#43032
+&+yThe Hallway of Sailors&N~
+&+y   Below the deck, this hallway of sailors connects many
+&+yof the rooms of the ship together.   Along this corridor
+&+ylie the many bedrooms, eating quarters, and the study.
+&+yThis hall is kept clean by the deck hands assigned to work
+&+yon this level.  A large white carpet begins in this room
+&+yand extends farther to the north along this corridor.
+&+ytThere are exits all around leading deeper into the ship.
+~
+430 4104 0
+D0
+The hallway of sailors continues north.
+~
+~
+0 0 43029
+D1
+There is a bedroom beyond this door.
+~
+door~
+1 0 43033
+D2
+The hallway of sailors continues south.
+~
+~
+0 0 43035
+D3
+A sailor's quarters is beyond this door.
+~
+door~
+1 0 43031
+D4
+~
+~
+0 0 43023
+S
+#43033
+&+yA Sailor's Quarters&N~
+&+y   These living quarters here seem to be suited for special
+&+ymembers of the crew.  There is one large bed which takes a
+&+ymajority of the space of the room.  The bed is covered with
+&+ya woolen blanket.  The floor of this room has a large
+&+ycircular red rug.  There is only one exit out of this
+&+yroom which leads back into the hallway of sailors.
+~
+430 4104 0
+D3
+The hallway of sailors lies just beyond this door.
+~
+door~
+1 0 43032
+S
+#43034
+&+yThe Study&N~
+&+y   In this room of the ship, the study, the captain has
+&+ycollected many maps, texts, and magical scriptures from
+&+yhis travels across the seas.  Many members of the crew
+&+ycan be found within these quarters at all times of the
+&+yday.  In the center of the room, there is a small
+&+yrectangular table covered with a black table cloth. All
+&+ywritten material is stored on the many shelves which
+&+yline the walls of this study.  There is only one exit
+&+yout of this study.
+~
+430 4104 0
+D1
+The hallway of sailors lies past this door.
+~
+door~
+1 0 43035
+S
+#43035
+&+yThe Hallway of Sailors&N~
+&+y   Below the deck, this hallway of sailors connects many
+&+yof the rooms of the ship together.   Along this corridor
+&+ylie the many bedrooms, eating quarters, and the study.
+&+yThis hall is kept clean by the deck hands assigned to work
+&+yon this level. Just to the south, there is a large window
+&+ywhich provides views to the surrounding area.  There are
+&+yexits all around leading deeper into the ship.
+~
+430 4104 0
+D0
+The hallway of sailors continues north.
+~
+~
+0 0 43032
+D1
+The bedroom of the captain is east.
+~
+door~
+1 0 43036
+D3
+The study lies to the west.
+~
+door study~
+1 0 43034
+D5
+There is a holding cell down below.
+~
+cell holding prison~
+3 43020 43040
+S
+#43036
+&+rThe Bedroom of the Captain&N~
+&+y   The lavishly decorated room belongs to the captain of
+&+ythis ship.  It has a large bed which takes the majority
+&+yof the space within the room here.  The bed is covered
+&+ywith red silken sheet that have gold trim.  There are
+&+ythree goose-feather stuffed pillows also on the bed.
+&+yOn a small night stand, along the right side of the
+&+ybed there is a small book and a set of spectacles.
+&+yThere is only one exit out of this room.
+~
+430 4104 0
+D3
+The hallway of sailors lies just beyond this door.
+~
+door~
+1 0 43035
+S
+#43037
+&+LA Holding Cell&N~
+&+L   Within these dark and damp quarters of the ship, many
+&+Lcaptured prisoners are stored here during their trip across
+&+Lthe oceans. The room has no port holes.  There is no light
+&+Lthat penetrates the room here.  The floor is barren with no
+&+Lcovering.  Small amounts of water have collected in a corner
+&+Lof the room here.  There is a small pile of food which lies
+&+Lin another corner.  There is only one exit out of this room.
+~
+430 4105 0
+D2
+Another holding cell lies to the south.
+~
+cell~
+3 43020 43038
+D4
+The hallway of sailors is above.
+~
+cell holding~
+3 43020 43026
+S
+#43038
+&+LA Holding Cell&N~
+&+L   Within these dark and damp quarters of the ship, many
+&+Lcaptured prisoners are stored here during their trip across
+&+Lthe oceans. The room has no port holes.  There is no light
+&+Lthat penetrates the room here.  The floor is barren with no
+&+Lcovering.  Small amounts of water have collected in a corner
+&+Lof the room here.  There is a small pile of food which lies
+&+Lin another corner.  There is only one exit out of this room.
+~
+430 4105 0
+D0
+Another holding cell lies to the north.
+~
+cell~
+3 43020 43037
+D2
+~
+~
+0 0 43039
+S
+#43039
+&+LA Holding Cell&N~
+&+L   Within these dark and damp quarters of the ship, many
+&+Lcaptured prisoners are stored here during their trip across
+&+Lthe oceans. The room has no port holes.  There is no light
+&+Lthat penetrates the room here.  The floor is barren with no
+&+Lcovering.  Small amounts of water have collected in a corner
+&+Lof the room here.  There is a small pile of food which lies
+&+Lin another corner.  There is only one exit out of this room.
+~
+430 4105 0
+D0
+~
+~
+0 0 43038
+D2
+There is another prison cell to the south.
+~
+cell~
+3 43020 43040
+S
+#43040
+&+LA Holding Cell&N~
+&+L   Within these dark and damp quarters of the ship, many
+&+Lcaptured prisoners are stored here during their trip across
+&+Lthe oceans. The room has no port holes.  There is no light
+&+Lthat penetrates the room here.  The floor is barren with no
+&+Lcovering.  Small amounts of water have collected in a corner
+&+Lof the room here.  There is a small pile of food which lies
+&+Lin another corner.  There is only one exit out of this room.
+~
+430 4105 0
+D0
+There is another prison cell to the north.
+~
+cell~
+3 43020 43039
+D4
+The hallway of sailors is up above.
+~
+cell~
+3 43020 43035
+S
+#43041
+&+LA Dark Pathway&N~
+&+L  This pathway branches off the main pathway to the fort.
+&+LThe pathway is constructed from small bricks laid into the
+&+Lsoft earth in a pattern.  Some of the bricks have begun to
+&+Lto show signs of their age.  Through the cracks in the body
+&+Lof some of the bricks, small weeds have sprouted.  There
+&+Lare two exits along this pathway.
+~
+430 1 3
+D1
+The pathway continues east.
+~
+~
+0 0 43042
+D3
+~
+~
+0 0 38121
+S
+#43042
+&+LA Dark Pathway&N~
+&+L  This pathway branches off the main pathway to the fort.
+&+LThe pathway is constructed from small bricks laid into the
+&+Lsoft earth in a pattern.  Some of the bricks have begun to
+&+Lto show signs of their age.  Through the cracks in the body
+&+Lof some of the bricks, small weeds have sprouted.  There
+&+Lare two exits along this pathway.
+~
+430 1 3
+D1
+The pathway continues east.
+~
+~
+0 0 43043
+D3
+The pathway continues west.
+~
+~
+0 0 43041
+S
+#43043
+&+LBefore a Large Black Gate&N~
+   A large set of black marble gates have been erected around
+the passage to the north.  Around the frame of the gates, there
+is something inscribed.  Upon closer examination, one notices
+that there is something devious about some of the figurines
+inscribed on a few of the frames.  Just beyond this gate, a
+church can be seen.  The forest lies just to the west.
+~
+430 0 3
+D0
+~
+~
+0 0 43044
+D3
+~
+~
+0 0 43042
+S
+#43044
+&+WBefore the Holy Church of the Fort&N~
+   The holy church of the Fort lies just to the north.  It rises
+several stories above the ground and has a small bell tower.  There
+are small shrubs planted against the church on both sides of the
+enterance.  There are small figures carved into the frame around
+the door.  From high near the bell tower, small gargoyle figures
+peer down at you.  There are exits all around leading away.
+~
+430 0 1
+D0
+The church doors lie to the north.
+~
+doors~
+1 0 43045
+D2
+~
+~
+0 0 43043
+S
+#43045
+&+WA Church Ailse&N~
+   Blessed by the bishop elders upon the construction of Fort
+Boyard, this great church is a well-known and beloved landmark to
+all.  The interior of the church is marked with a ribbed vault and
+a pointed arch.  This center ailse of the church is lined with
+imported red carpet leading towards the altar.  Rows of pews can
+be seen on both sides of the church facing the altar to the north. The
+exit north leads to the altar while the other exits lead to various
+parts of the church.
+~
+430 4104 0
+D0
+The church ailse continues north.
+~
+~
+0 0 43046
+D2
+The outside lies beyond these doors.
+~
+doors~
+1 0 43044
+S
+#43046
+&+WA Church Ailse&N~
+   Blessed by the bishop elders upon the construction of Fort
+Boyard, this great church is a well-known and beloved landmark to
+all.  The interior of the church is marked with a ribbed vault and
+a pointed arch.  This center ailse of the church is lined with
+imported red carpet leading towards the altar.  Rows of pews can
+be seen on both sides of the church facing the altar to the north.
+The high altar lies just to the north while the other exits lead
+to various parts of the church.
+~
+430 4104 0
+D0
+The holy altar lies just to the north.
+~
+~
+0 0 43047
+D2
+The church ailse continues south.
+~
+~
+0 0 43045
+S
+#43047
+&+WThe Holy Altar&N~
+   A large altar draped with embroidered white silken sheets rests
+in the center of this room.  There are two large candles on each of
+the sides of the altar. They burn slowly and flood the nearby area with
+a golden aura. There is a large prayer book opened to some page marked
+with a satin book mark on the altar.  Several gargoyle figurines keep
+watch over all in their site.
+~
+430 4104 0
+D2
+The church ailse leads away to the south.
+~
+~
+0 0 43046
+S
+#43048
+&+yA Storage Room&N~
+&+y   This is one of the many cargo holds in the ship.  Many
+&+ycrates of all shapes and sizes can always be found in this
+&+yarea.  The room appears to be well organized in that the
+&+ycrates all have their shipping tags properly placed.  The
+&+ycrates are neatly stacked in the room.  There is only one
+&+yexit out of this storage hold.
+~
+430 4104 0
+D2
+The deck of the ship lies beyond this door.
+~
+door~
+1 0 43021
+S
+#43049
+&+yA Storage Room&N~
+&+y   This is one of the many cargo holds in the ship.  Many
+&+ycrates of all shapes and sizes can always be found in this
+&+yarea.  The room appears to be well organized in that the
+&+ycrates all have their shipping tags properly placed.  The
+&+ycrates are neatly stacked in the room.  There is only one
+&+yexit out of this storage hold.
+~
+430 4104 0
+D2
+The deck is beyond this door.
+~
+door~
+1 0 43022
+S
+#43050
+&+LA Small Dark Hallway&N~
+&+L  This hallway branches from the main hallway of the prisons.
+&+LIt is dark and leads to the north away from the prisons.  It
+&+Lis too dark to see infront of your nose.  You feel the walls
+&+Lto help guide you to the north.  The walls appear smooth to
+&+Lthe touch.   There are two exits leading away from this part
+&+Lof the hallway.&N
+~
+430 9 0
+D0
+~
+~
+0 0 43051
+D2
+~
+~
+0 0 43001
+S
+#43051
+&+LBefore a Large Door&N~
+&+L   This small darkened hallway comes to an end before this
+&+Llarge door.  There is some light which is coming from beneath
+&+Lthis door.  The walls of this part of the hallway feel moist
+&+Lto the touch.   There are faint sounds of water coming from
+&+Lthe north.  There are two exits from this room.&N
+~
+430 9 0
+D2
+~
+~
+0 0 43050
+S

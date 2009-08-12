@@ -1,0 +1,681 @@
+#9000
+&+YA Dark Forest Entrance~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest.
+~
+90 1 3
+D0
+~
+~
+0 0 9001
+D2
+~
+~
+0 0 610629
+S
+#9001
+&+YInside a Dark Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. To the north, a huge mountain can be spotted among the blackened
+&+Lforest.
+~
+90 1 3
+D1
+~
+~
+0 0 9002
+D2
+~
+~
+0 0 9000
+S
+#9002
+&+YA Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. The sounds of horror seem louder deeper in the pines, and more
+&+Lsounds of movement clutter under the soil.
+~
+90 1 3
+D0
+~
+~
+0 0 9003
+D3
+~
+~
+0 0 9001
+S
+#9003
+&+YA Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest.
+~
+90 1 3
+D0
+~
+~
+0 0 9004
+D2
+~
+~
+0 0 9002
+S
+#9004
+&+YDeeper in a Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. The sounds of horror seem louder deeper in the pines, and more
+&+Lsounds of movement clutter under the soil.
+~
+90 1 3
+D1
+~
+~
+0 0 9005
+D2
+~
+~
+0 0 9003
+S
+#9005
+&+YDeeper in a Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. To the north, a huge mountain can be spotted among the blackened
+&+Lforest.
+~
+90 1 3
+D1
+~
+~
+0 0 9006
+D3
+~
+~
+0 0 9004
+S
+#9006
+&+YDeeper in a Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. The sounds of horror seem louder deeper in the pines, and more
+&+Lsounds of movement clutter under the soil.
+~
+90 1 3
+D0
+~
+~
+0 0 9007
+D3
+~
+~
+0 0 9005
+S
+#9007
+&+YDeeper in a Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. To the north, a huge mountain can be spotted among the blackened
+&+Lforest.
+~
+90 1 3
+D0
+~
+~
+0 0 9008
+D2
+~
+~
+0 0 9006
+S
+#9008
+&+YThe End of a Black Forest~
+&+L  This forest is completely covered in a black fog that looms over everything
+&+Lthat enters its domain. The twisted trees are dark black, with tiny cracks
+&+Lof &+rred&+L fluid. Strange sounds of creatures of the night echo out along
+&+Lthis forest. The sounds of horror seem louder deeper in the pines, and more
+&+Lsounds of movement clutter under the soil.
+~
+90 1 3
+D0
+~
+~
+0 0 9009
+D2
+~
+~
+0 0 9007
+S
+#9009
+&+CThe &+LBlack Gates&+C into the Base of a Giant Mountain~
+  &+YA giant mountain base, made of cold pure stone, puts an end to
+&+Ythe black forest path. &+CA huge mithril gate&+Y locks the outside from
+&+Ythe mysteries within. All that can be seen past them is never-ending
+&+Yblack.
+~
+90 1 0
+D0
+ Made of pure strong &+Cmithril&n, these gates have been here for a while.
+~
+gate huge black~
+1 0 9010
+D2
+~
+~
+0 0 9008
+S
+#9010
+&+mAn Ancient Hallway~
+  &+WThis hallway is extremely old and forgotten, with several layers
+&+Wof &ndust&+W covering everything. &+LSpider&+Wwebs hang off nearly everything,
+&+Wmaking passage a veritable hell. All that can be seen to the north is black
+&+Wemptiness.
+~
+90 9 0
+D0
+~
+~
+0 0 9011
+D2
+~
+gate huge black~
+1 0 9009
+S
+#9011
+&+mAn Ancient Hallway~
+  &+WThis hallway is extremely old and forgotten, with several layers
+&+Wof &ndust&+W covering everything. &+LSpider&+Wwebs hang off nearly everything,
+&+Wmaking passage a veritable hell. All that can be seen to the north is black
+&+Wemptiness.
+~
+90 9 0
+D0
+~
+~
+0 0 9014
+D2
+~
+~
+0 0 9010
+D3
+~
+~
+0 0 9012
+S
+#9012
+&+cA Guest Room~
+ &+YThis room would have been comfortable in its time, but now it has as
+&+Ymuch filth covering it as anything else in the place. Everything is
+&+Yin place, including the bed, drawers, and closets. Even small objects
+&+Ylie round the dresser, making an odd feeling.
+~
+90 9 0
+D1
+~
+~
+0 0 9011
+D5
+~
+trapdoor door~
+5 0 9013
+S
+#9013
+&+rA Bare Cell~
+ This extremely small room is hardly big enough for a halfling to fit in,
+with grey steel walls, and no source of light. Rat holes are apparent,
+covering the entire bottom half of the walls. This private little hell
+must have been forged for someone very special.
+~
+90 9 0
+D4
+~
+trapdoor door~
+1 0 9012
+S
+#9014
+&+WThe Beginning of a Large Stairway~
+&+b  The hall stops here, and runs into a large staircase, running up into
+&+bthe higher levels of the mountain. The staircase is made completely of
+&+bsanded white stone, and looks has if it could withstand much force over
+&+btime.
+~
+90 9 0
+D2
+~
+~
+0 0 9011
+D4
+~
+~
+0 0 9015
+S
+#9015
+&+BUp the Staircase~
+  &+bThe &+Wwhite marble&+b staircase goes upward into darkness here.
+&+bNoticable, however, is the odd arrangement of stairs, creating a chance
+&+bfor a fall or trip that would be almost fatal on a stairway of this
+&+bmagnitude.
+~
+90 9 0
+D4
+~
+~
+0 0 9016
+D5
+~
+~
+0 0 9014
+S
+#9016
+&+WThe Marble Staircase~
+  &+BThe &+Wwhite marble&+B staircase goes upward into darkness here.
+&+BNoticable, however, is the odd arrangement of stairs, creating potential
+&+Bfor a fall or trip that would be almost fatal on a stairway of this
+&+Bmagnitude.
+~
+90 9 0
+D4
+~
+~
+0 0 9017
+D5
+~
+~
+0 0 9015
+S
+#9017
+&+WA Marble Stairway~
+  &+BThe &+Wwhite marble&+B staircase goes upward into darkness here.
+&+BNoticable, however, is the odd arrangement of stairs, creating potential
+&+Bfor a fall or trip that would be almost fatal on a stairway of this
+&+Bmagnitude.
+~
+90 9 0
+D4
+~
+~
+0 0 9018
+D5
+~
+~
+0 0 9016
+S
+#9018
+The Top of the Staircase~
+  &+LWhen the top is reached, the noticeable thing is the giant circular
+&+Ldoor that opens into the outside mountains. Carved of pure &+Ycopper
+&+Lthis door is meant to stay, and keep unwanted visitors out for good.
+&+LCarved upon it are &+rgruesume&+L pictures displaying violent scenes of mass
+&+Land total destruction.
+~
+90 9 0
+D0
+~
+door copper~
+3 9002 9019
+D5
+~
+~
+0 0 9017
+S
+#9019
+&+YEntrance To Musty Catacombs~
+&+L  Upon entering the giant brass door, this entrance is revealed.
+&+LThese catacombs are completely dark and motionless, revealing nothing
+&+Lto the unaided eye. Black spiders crawl upon &nwebs&+L all over the
+&+Lwalls, making passage a disgusting task.
+~
+90 9 0
+D0
+~
+~
+0 0 9022
+D1
+~
+~
+0 0 9021
+D2
+~
+door copper~
+2 0 9018
+D3
+~
+~
+0 0 9020
+S
+#9020
+&+YInside a Musty Catacomb~
+&+L  This place is black in essence, and death seems very real here.
+&+LThese catacombs are completely dark and motionless, revealing nothing
+&+Lto the unaided eye. Black spiders crawl upon &nwebs&+L all over the
+&+Lwalls, making passage a disgusting task. This is the west passage,
+&+Land it seems to cover a couple hundred yards running down the west
+&+Lwall into darkness.
+~
+90 9 0
+D1
+~
+~
+0 0 9019
+D3
+~
+~
+0 0 9023
+S
+#9021
+&+YAlong the East Passage~
+&+C  The walls here turn from stone to polished green marble, creating
+&+Ca mirror effect. The floor has been reverted into black pebbles of
+&+Ca shiny rock. Ahead to the east holds only darkness. On different
+&+Cslabs of &+bmarble&+C are written letters in an unknown script.
+~
+90 9 0
+D1
+~
+~
+0 0 9029
+D3
+~
+~
+0 0 9019
+S
+#9022
+&+rA Ritualistic Shrine of the Orrak~
+ &+LThis unholy place reeks with death and other evil things. Blood, old
+&+Land new, covers everything. Many corpses lie about, but most are just
+&+Lin a skeleton state, while there is a fairly fresh gnome corpse hanging
+&+Lby its big feet.
+~
+90 9 0
+D0
+~
+~
+0 0 9032
+D1
+~
+~
+0 0 9028
+D2
+~
+~
+0 0 9019
+D3
+~
+~
+0 0 9027
+S
+#9023
+&+YWest Passage of the &+rOrrak&+Y Catacombs~
+&+L  This place is black in essence, and death seems very real here.
+&+LThese catacombs are completely dark and motionless, revealing nothing
+&+Lto the unaided eye. Black spiders crawl upon &nwebs&+L all over the
+&+Lwalls, making passage a disgusting task. This is the west passage,
+&+Land it seems to cover a couple hundred yards running down the west
+&+Lwall into darkness.
+~
+90 9 0
+D0
+~
+door steel steeldoor~
+5 0 9026
+D1
+~
+~
+0 0 9020
+D3
+~
+~
+0 0 9024
+S
+#9024
+&+YThe Eastern Passage in the &+rOrrak&+Y Catacombs~
+&+L  This place is black in essence, and death seems very real here.
+&+LThese catacombs are completely dark and motionless, revealing nothing
+&+Lto the unaided eye. Black spiders crawl upon &nwebs&+L all over the
+&+Lwalls, making passage a disgusting task. This is the west passage,
+&+Land it seems to cover a couple hundred yards running down the west
+&+Lwall into darkness.
+~
+90 9 0
+D1
+~
+~
+0 0 9023
+D2
+~
+~
+0 0 9025
+S
+#9025
+&+rThe Orrak Barracks~
+&+Y This large room has a messy assortment of rags, raw meat, and weapons
+&+Ythrown around in no order at all. Old corpses are hung to the walls as
+&+Ytrophies, and the sickening &+gstench&+Y of moldy corpses and meat is
+&+Ynearly enough to send an ogre mad.
+~
+90 9 0
+D0
+~
+~
+0 0 9024
+S
+#9026
+&+YA Long Forgotten Dining Room~
+  &+CThis very old room looks as though once-great feasts had taken place
+&+Chere, but now all that remains is a thick layer of grime. The most odd
+&+Cthing is, many skeletons still sit around the table, still wearing many
+&+Cgems and treasure.
+~
+90 9 0
+D2
+~
+door iron~
+5 0 9023
+S
+#9027
+&+WThe White Shrine of the Orrak~
+&+L  This shrine-like place is bathed completely in white paint, an unusual
+&+Lcolor for this place of death and blackness. The ground is flat except
+&+Lfor a giant pedestal that emerges right out of the groud. Above it
+&+Lseems to be the orrak shrine to the White Devil.
+~
+90 9 0
+D1
+~
+~
+0 0 9022
+S
+#9028
+&+LThe Black Shrine of the Orrak~
+&+L This is the orrak shine of the Black Devil, and is lavish in decoration.
+&+LCorpses hang from nasty spiked poles lining the room, the &+rblood&+L spilling
+&+Lout of them. Art in its most twisted form is about, with statues and pictures
+&+Lof death and sin. Nude women servants walk about, catering to the master of
+&+Lthe orrak, the Black Devil.
+~
+90 9 0
+D3
+~
+~
+0 0 9022
+S
+#9029
+&+YAlong the Eastern Wall~
+&+C  The walls here turn from stone to polished green marble, creating
+&+Ca mirror effect. The floor has been reverted into black pebbles of
+&+Ca shiny rock. Ahead to the east holds only darkness. On different
+&+Cslabs of &+bmarble&+C are written letters in an unknown script.
+~
+90 9 0
+D0
+~
+door~
+1 0 9030
+D2
+~
+~
+0 0 9031
+D3
+~
+~
+0 0 9021
+S
+#9030
+&+rThe Orrak Meathouse~
+&+r This room is totally &+Rstained in blood&+r from top to bottom. Livers, hearts,
+&+rand other assorted limbs are thrown about in a &+Rpuzzle&+r of flesh. Blood-
+&+rstained knives, cleavers, axes, and other weapons are neatly hung up on the
+&+rwall.  A huge table with cuffs lie in the middle, where dinner has a chance to
+&+rcool down.
+~
+90 9 0
+D2
+~
+door~
+1 0 9029
+S
+#9031
+&+MA Room Composed of Purple Marble~
+&+m This small room is made completely of clear purple marble, and looks to
+&+mbe very smooth. Lining the floor are pink cystals, pulsating with life.
+&+mIn the center of the room is a small fountain made of pink marble.  The
+&+mroom is very relaxing in general, and seems to be a good break from the
+&+mrest of the gruesome settlement.
+~
+90 9 0
+D0
+~
+~
+0 0 9029
+S
+#9032
+&+LThe Beginning of a Long Hall~
+&+L This hall is hardly lit, making it almost too dark to see. The walls of
+&+Lwood resemble something out of a house, not of a cave. Dark blue walls
+&+Lmake vision even more difficult. Ahead north, dimly glowing spots can
+&+Lbe seen, almost invisible to the naked eye.
+~
+90 9 0
+D0
+~
+~
+0 0 9033
+D2
+~
+~
+0 0 9022
+S
+#9033
+&+LA Dark Hall~
+&+L This hall is hardly lit, making it almost too dark to see. The walls of
+&+Lwood resemble something out of a house, not of a cave. Dark blue walls
+&+Lmake vision even more difficult. Ahead north, dimly glowing spots can
+&+Lbe seen, almost invisible to the naked eye.
+~
+90 9 0
+D0
+~
+~
+0 0 9034
+D2
+~
+~
+0 0 9032
+S
+#9034
+&+LA Dark Hall~
+&+L This hall is hardly lit, making it almost too dark to see. The walls of
+&+Lwood resemble something out of a house, not of a cave. Dark blue walls
+&+Lmake vision even more difficult. Ahead north, dimly glowing spots can
+&+Lbe seen, almost invisible to the naked eye.
+~
+90 9 0
+D0
+~
+~
+0 0 9035
+D2
+~
+~
+0 0 9033
+S
+#9035
+A Room in S&+Lpa&nce~
+&+L The floor d&nrops totally from sight h&+Lere, along with the walls. Millions
+&+Lof &nstars blink around, and there is nothing visible supporting you. Strange
+&+Lenough, the dark hallway can be seen to the south. An errie presence haunts
+&+Lthis illusion of space, some evil seems to be lurking..
+~
+90 9 8
+D0
+~
+~
+0 0 9036
+D2
+~
+~
+0 0 9034
+D5
+~
+~
+0 0 9037
+F
+100
+S
+#9036
+&+rThe Arc&+mh Angel of Doom's Chamber~
+&+y This is the chamber of the Arch-Angel of Doom, Vellel. Even as the odd
+&+yspace can be seen to the south, this is a seemingly normal room. Vellel lies
+&+yupon a throne of gold skulls, glimmering in the unnatural light. Orrak's
+&+yminions fuddle around the room, screaming the terror or delight. Huge statues
+&+yof the White Devil, the Black Devil, and Vellel herself line the room,
+&+yoften with orraks below them, worshiping. A large glass door lies to the
+&+ynorth, leading into only blackness.
+~
+90 9 0
+D0
+~
+door glass~
+3 9010 9038
+D2
+~
+~
+0 0 9035
+S
+#9037
+&+LA Vortex In the Sky~
+&+L Alas, you are in a vortex in space. Nothing is here except stars and
+&+Lblackness forever...
+~
+90 9 0
+D4
+~
+~
+0 0 9035
+S
+#9038
+&+WA Prison Cell~
+  This appears to be a prison cell, made of stone and small by that matter.
+Chains line the walls, and hay serves as a floor and bed. Slop is thrown
+about on the walls, and the stench is almost unbearable. No light is visible
+from the outside, except a few strands that leak through the corners of the
+heavy iron door.
+~
+90 9 0
+D2
+~
+door glass~
+2 9010 9036
+S

@@ -1,0 +1,256 @@
+#38
+&+GThe &+RElemental &+GGroves&n~
+3974 1 0 5 15 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 3897 0 2 100 0 0 0
+*     north exit from "The Sanctum of the Earthen Tower" to
+*     "The Earthen Guardian's Room" - closed/locked
+*
+D 0 3898 2 2 100 0 0 0
+*     south exit from "The Earthen Guardian's Room" to
+*     "The Sanctum of the Earthen Tower" - closed/locked
+*
+D 0 3898 3 2 100 0 0 0
+*     west exit from "The Earthen Guardian's Room" to
+*     "The Foyer in the Earthen Tower" - closed/locked
+*
+D 0 3899 1 2 100 0 0 0
+*     east exit from "The Foyer in the Earthen Tower" to
+*     "The Earthen Guardian's Room" - closed/locked
+*
+D 0 3908 0 2 100 0 0 0
+*     north exit from "The Sanctum in the Waters" to
+*     "The Watery Guardian's Room" - closed/locked
+*
+D 0 3910 2 2 100 0 0 0
+*     south exit from "The Watery Guardian's Room" to
+*     "The Sanctum in the Waters" - closed/locked
+*
+D 0 3910 1 2 100 0 0 0
+*     east exit from "The Watery Guardian's Room" to
+*     "Foyer in the Watery Tower" - closed/locked
+*
+D 0 3911 3 2 100 0 0 0
+*     west exit from "Foyer in the Watery Tower" to
+*     "The Watery Guardian's Room" - closed/locked
+*
+D 0 3920 2 2 100 0 0 0
+*     south exit from "Sanctum in the Flames" to
+*     "The Flaming Guardian's Room" - closed/locked
+*
+D 0 3921 0 2 100 0 0 0
+*     north exit from "The Flaming Guardian's Room" to
+*     "Sanctum in the Flames" - closed/locked
+*
+D 0 3921 3 2 100 0 0 0
+*     west exit from "The Flaming Guardian's Room" to
+*     "The Flaming Foyer" - closed/locked
+*
+D 0 3922 1 2 100 0 0 0
+*     east exit from "The Flaming Foyer" to
+*     "The Flaming Guardian's Room" - closed/locked
+*
+D 0 3926 3 2 100 0 0 0
+*     west exit from "Staircase in the Floating Tower" to
+*     "The Airy Guardian's Room" - closed/locked
+*
+D 0 3928 1 2 100 0 0 0
+*     east exit from "The Airy Guardian's Room" to
+*     "Staircase in the Floating Tower" - closed/locked
+*
+D 0 3927 2 2 100 0 0 0
+*     south exit from "Sanctum in the Tower of Air" to
+*     "The Airy Guardian's Room" - closed/locked
+*
+D 0 3928 0 2 100 0 0 0
+*     north exit from "The Airy Guardian's Room" to
+*     "Sanctum in the Tower of Air" - closed/locked
+*
+D 0 3947 4 2 100 0 0 0
+*     up exit from "Southwestern End of the Ethereal Tower" to
+*     "An Empty Tower" - closed/locked
+*
+D 0 3953 5 2 100 0 0 0
+*     down exit from "An Empty Tower" to
+*     "Southwestern End of the Ethereal Tower" - closed/locked
+*
+D 0 3951 4 2 100 0 0 0
+*     up exit from "Northeastern End of the Ethereal Tower" to
+*     "The Ethereal Sanctum" - closed/locked
+*
+D 0 3952 5 2 100 0 0 0
+*     down exit from "The Ethereal Sanctum" to
+*     "Northeastern End of the Ethereal Tower" - closed/locked
+*
+D 0 3960 0 2 100 0 0 0
+*     north exit from "Before the Stone Doors" to
+*     "Before the Silver Doors" - closed/locked
+*
+D 0 3961 2 2 100 0 0 0
+*     south exit from "Before the Silver Doors" to
+*     "Before the Stone Doors" - closed/locked
+*
+D 0 3961 0 2 100 0 0 0
+*     north exit from "Before the Silver Doors" to
+*     "Before the Golden Doors" - closed/locked
+*
+D 0 3962 2 2 100 0 0 0
+*     south exit from "Before the Golden Doors" to
+*     "Before the Silver Doors" - closed/locked
+*
+D 0 3962 0 2 100 0 0 0
+*     north exit from "Before the Golden Doors" to
+*     "Before the Crystal Doors" - closed/locked
+*
+D 0 3963 2 2 100 0 0 0
+*     south exit from "Before the Crystal Doors" to
+*     "Before the Golden Doors" - closed/locked
+*
+D 0 3963 0 2 100 0 0 0
+*     north exit from "Before the Crystal Doors" to
+*     "Before the Cloudy Doors" - closed/locked
+*
+D 0 3964 2 2 100 0 0 0
+*     south exit from "Before the Cloudy Doors" to
+*     "Before the Crystal Doors" - closed/locked
+*
+D 0 3964 0 2 100 0 0 0
+*     north exit from "Before the Cloudy Doors" to
+*     "Before the Black Doors" - closed/locked
+*
+D 0 3965 2 2 100 0 0 0
+*     south exit from "Before the Black Doors" to
+*     "Before the Cloudy Doors" - closed/locked
+*
+D 0 3965 0 2 100 0 0 0
+*     north exit from "Before the Black Doors" to
+*     "Before the Elemental Doors" - closed/locked
+*
+D 0 3966 2 2 100 0 0 0
+*     south exit from "Before the Elemental Doors" to
+*     "Before the Black Doors" - closed/locked
+*
+D 0 3966 0 2 100 0 0 0
+*     north exit from "Before the Elemental Doors" to
+*     "Nothing" - closed/locked
+*
+D 0 3967 2 2 100 0 0 0
+*     south exit from "Nothing" to
+*     "Before the Elemental Doors" - closed/locked
+*
+*
+O 0 78455 2 3807 60 0 0 0          * (object type not in this .obj file)
+O 0 78455 2 3808 60 0 0 0          * (object type not in this .obj file)
+O 0 3809 1 3823 100 0 0 0          * a black key
+O 0 3808 1 3854 100 0 0 0          * a cloudy key
+O 0 3818 5 3897 100 0 0 0          * the pedestal
+P 1 3810 1 3818 100 0 0 0          *   a stone plaque
+O 0 3818 5 3908 100 0 0 0          * the pedestal
+P 1 3811 1 3818 100 0 0 0          *   a silver plaque
+O 0 3818 5 3920 100 0 0 0          * the pedestal
+P 1 3812 1 3818 100 0 0 0          *   a gold plaque
+O 0 3818 5 3927 100 0 0 0          * the pedestal
+P 1 3813 1 3818 100 0 0 0          *   a crystal plaque
+O 0 3818 5 3952 100 0 0 0          * the pedestal
+P 1 3814 1 3818 100 0 0 0          *   a cloudy plaque
+O 0 3819 1 3953 100 0 0 0          * the pedestal
+P 1 3815 1 3819 100 0 0 0          *   a black plaque
+O 0 358 1 3967 100 0 0 0           * (object type not in this .obj file)
+O 0 3832 1 3967 100 0 0 0          * a small black cube
+P 1 3817 1 3832 100 0 0 0          *   a wand of black obsidian
+P 1 3833 1 3832 100 0 0 0          *   a jagged obsidian dagger with a sapphire hilt
+O 0 750 1 3973 100 0 0 0           * (object type not in this .obj file)
+*
+M 0 3822 1 3800 100 0 0 0          * the special forest protector
+E 1 3836 2 16 100 0 0 0            *   a long steel dagger
+E 1 3836 2 17 100 0 0 0            *   a long steel dagger
+M 0 3800 4 3803 100 0 0 0          * the pixie
+M 0 3800 4 3804 100 0 0 0          * the pixie
+M 0 3800 4 3804 100 0 0 0          * the pixie
+E 1 3821 1 2 100 0 0 0             *   a ring of woven grass
+M 0 3800 4 3805 100 0 0 0          * the pixie
+M 0 3801 4 3808 100 0 0 0          * the fairy
+M 0 3801 4 3809 100 0 0 0          * the fairy
+E 1 3822 1 3 100 0 0 0             *   a pouch of fairy dust on a string
+M 0 3801 4 3809 100 0 0 0          * the fairy
+M 0 3801 4 3810 100 0 0 0          * the fairy
+M 0 3803 4 3813 100 0 0 0          * the fire sprite
+M 0 3803 4 3814 100 0 0 0          * the fire sprite
+M 0 3803 4 3815 100 0 0 0          * the fire sprite
+M 0 3803 4 3816 100 0 0 0          * the fire sprite
+M 0 3806 4 3821 100 0 0 0          * the brownie
+E 1 3824 1 6 100 0 0 0             *   a ridiculously tiny cap
+M 0 3806 4 3822 100 0 0 0          * the brownie
+M 0 3806 4 3823 100 0 0 0          * the brownie
+M 0 3806 4 3824 100 0 0 0          * the brownie
+M 0 3808 4 3826 100 0 0 0          * the dryad
+E 1 3829 1 15 100 0 0 0            *   a bracelet of woven leaves
+M 0 3802 4 3834 100 0 0 0          * the water sprite
+M 0 3802 4 3835 100 0 0 0          * the water sprite
+M 0 3802 4 3836 100 0 0 0          * the water sprite
+M 0 3802 4 3837 100 0 0 0          * the water sprite
+M 0 3805 4 3843 100 0 0 0          * the earth sprite
+E 1 3826 1 8 100 0 0 0             *   a pair of sturdy boots
+M 0 3805 4 3844 100 0 0 0          * the earth sprite
+M 0 3805 4 3845 100 0 0 0          * the earth sprite
+M 0 3805 4 3846 100 0 0 0          * the earth sprite
+M 0 3819 1 3851 100 0 0 0          * the forrestal
+E 1 3823 1 5 100 0 0 0             *   a loose forrestal's shirt
+E 1 3825 1 7 100 0 0 0             *   a pair of forrestal leggings
+E 1 3827 1 12 100 0 0 0            *   a forrestal's cloak
+E 1 3828 1 13 100 0 0 0            *   a sturdy belt
+M 0 3809 8 3857 100 0 0 0          * the su-monster
+M 0 3809 8 3857 100 0 0 0          * the su-monster
+M 0 3809 8 3858 100 0 0 0          * the su-monster
+M 0 3809 8 3858 100 0 0 0          * the su-monster
+M 0 3809 8 3859 100 0 0 0          * the su-monster
+M 0 3809 8 3859 100 0 0 0          * the su-monster
+M 0 3809 8 3860 100 0 0 0          * the su-monster
+M 0 3809 8 3860 100 0 0 0          * the su-monster
+M 0 3807 4 3880 100 0 0 0          * the koala bear
+M 0 3807 4 3881 100 0 0 0          * the koala bear
+M 0 3807 4 3882 100 0 0 0          * the koala bear
+M 0 3807 4 3883 100 0 0 0          * the koala bear
+M 0 3804 4 3886 100 0 0 0          * the air sprite
+M 0 3804 4 3887 100 0 0 0          * the air sprite
+M 0 3804 4 3888 100 0 0 0          * the air sprite
+M 0 3804 4 3889 100 0 0 0          * the air sprite
+M 0 3812 1 3898 100 0 0 0          * the ooze
+E 1 3801 1 18 100 0 0 0            *   a slate key
+G 1 3835 1 0 100 0 0 0             *    an oozing lump of brown slime
+M 0 3811 1 3900 100 0 0 0          * the earth elemental
+E 1 3800 1 18 100 0 0 0            *   a gravel key
+M 0 3813 1 3909 100 0 0 0          * the water weird
+E 1 3802 1 18 100 0 0 0            *   a seashell key
+M 0 3814 1 3910 100 0 0 0          * the water elemental
+E 1 3803 1 18 100 0 0 0            *   a coral key
+G 1 3837 1 0 100 0 0 0             *    a blue seashell
+M 0 3815 1 3919 100 0 0 0          * the fire elemental
+E 1 3804 1 18 100 0 0 0            *   an igneous key
+M 0 3816 1 3921 100 0 0 0          * a magma man
+E 1 3816 1 16 100 0 0 0            *   a flaming two handed bastard sword
+G 1 3805 1 0 100 0 0 0             *    a magma key
+M 0 3817 1 3925 100 0 0 0          * an eddy of smoke
+E 1 3806 1 18 100 0 0 0            *   a glass key
+M 0 3818 1 3928 100 0 0 0          * the kirin
+G 1 3807 1 0 100 0 0 0             *    a crystal key
+G 1 3820 1 0 100 0 0 0             *    a gleaming kirin's horn
+M 0 3810 10 3938 100 0 0 0         * the wombat
+M 0 3810 10 3938 100 0 0 0         * the wombat
+M 0 3810 10 3939 100 0 0 0         * the wombat
+M 0 3810 10 3939 100 0 0 0         * the wombat
+M 0 3810 10 3940 100 0 0 0         * the wombat
+M 0 3810 10 3940 100 0 0 0         * the wombat
+M 0 3810 10 3941 100 0 0 0         * the wombat
+M 0 3810 10 3941 100 0 0 0         * the wombat
+M 0 3810 10 3942 100 0 0 0         * the wombat
+M 0 3810 10 3942 100 0 0 0         * the wombat
+M 0 3820 1 3950 100 0 0 0          * the ether wraith
+E 1 3831 1 18 100 0 0 0            *   a cube of ethereal matter
+M 0 3821 1 3968 100 0 0 0          * the lady of the valley
+E 1 3834 1 5 100 0 0 0             *   a shimmering gossamer gown
+*
+S

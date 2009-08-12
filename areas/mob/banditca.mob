@@ -1,0 +1,467 @@
+#14800
+mercenary guard drunk~
+&+ya mercenary guard&+w~
+&+yA drunk mercenary guard stands here looking sick from ale.&+w
+~
+    Dressed in leather armor and wielding a wickedly sharp sword, this
+man looks extremely vicious however appears to be drunk out of his mind
+too. It is doubtful however that his drunkenness will affect his
+aggressive behavior and he will probably not hesitate to attack anyone who
+he feels is unfit to enter the camp.
+~
+2058 128 0 0 0 0 0 -600 S
+PB 0 1 -1
+22 0 0 1d1+1 1d1+1
+30.20.0.0 0
+8 8 1
+#14801
+man robes mercenary sorcerer~
+&+ma mercenary sorcerer&+w~
+&+mA man dressed in strange robes stands here silently scanning the horizon for enemies.&+w
+~
+    Unlike his drunken counterparts, this guard appears fully alert and
+sober. Strangely enough he wears no leather armor and instead wears a set
+of extremely odd colored robes. His face can be barely seen under a thick
+hood though what little can be seen appears to be a sickly white color.
+Although he carries no weapon and is rather small he still seems to appear
+extremely dangerous.
+~
+2058 128 0 8 0 0 0 -600 S
+PH 0 512 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14802
+human slave mad insane~
+&+ca human slave&+w~
+&+cA mad looking slave stands here moving about wildly.&+w
+~
+    This slave appears to have gone completely mad and is ready to attack
+anyone on sight. He only wears a loincloth and still has shackles attached
+to him. He looks dirty and wretched but is extremely lucky to have made it
+out of the camp. The fact that he has gone mad makes the chance of him
+figuring out how to walk away from the camp almost nothing.
+~
+8 1 0 0 0 0 0 25 S
+PH 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14803
+large cow~
+&+La large cow&+w~
+&+LA large cow stands here feeding from the trough.&+w
+~
+   This cow is black in most places and very big. It stands here casually
+feeding from the trough not paying attention to anything else. Considering
+its size and weight it looks ready to be slaughtered very soon.
+~
+2058 0 0 0 0 0 0 0 S
+A 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#14804
+slave farmer~
+&+ca slave farmer&+w~
+&+cA slave stands here tending to the animals.&+w
+~
+    This slave reluctantly goes about his job tending to the animals. He
+is covered in filth and looks quite pitiful. The slave wears a set of
+poor looking cloth clothes and is barefoot. He does his job well evidently
+as the bandits have not decided to kill or sell him but to keep him for
+themselves.
+~
+138 0 0 0 0 0 0 500 S
+PH 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14805
+guard inexperienced~
+&+man inexperienced guard&+w~
+&+mAn inexperienced guard is here looking rather relaxed.&+w
+~
+   This guard has only recently taken up fighting skills and is learning
+to raid with the rest of the bandits. He dresses in leather armor and
+carries an iron longsword. He looks like he is still in his teens but is
+still a dangerous opponent nonetheless.
+~
+1073743880 128 0 0 0 0 0 -500 S
+PH 0 1 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14806
+warrior bandit~
+&+yan experienced bandit warrior&+w~
+&+yA rugged looking warrior is here relaxing.&+w
+~
+   This man is very tough and rugged looking and looks like he could
+easily hold his own in a fight. He looks experienced from raiding
+villages many times and is quite adept at swordsmanship. He is currently
+standing in the barracks taking full use of what precious time he has to
+relax.
+~
+2056 128 0 0 0 0 0 -700 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14807
+emaciated slave slaves~
+&+ya group of emaciated slaves&N~
+&+yA group of emaciated slaves stand here, desperate for a chance to escape.&N
+~
+    These slaves look absolutely pitiful. They are all wearing nothing but
+loin cloths and have thick shackles attached to their hands and feet.
+Sadly, they all appear quite young too and were probably kidnapped from
+a nearby village. They would not put up much of a fight if attacked.
+~
+2056 0 0 0 0 0 0 500 S
+PH 0 0 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14808
+huge cockroach~
+&+La huge cockroach&+w~
+&+LA huge cockroach can be seen here scurrying around on the floor.&+w
+~
+    This bug is positively disgusting and over 4 feet in length. It makes
+a fine home here in the slave pen.
+~
+8 0 0 0 0 0 0 0 S
+AP 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#14809
+troll slaver~
+&+ga troll slaver&+w~
+&+gA massive troll slaver sits here resting from a long day of pillaging.&+w
+~
+    This troll is obviously a visitor to the camp who was lucky enough
+to not be attacked on sight because of his race. He is over 7 feet tall
+and has a thin wiry build. Although giving the appearance of a frail
+beast like most trolls is no doubt extremely strong and agile. He sits here
+relaxing and gnawing on food.
+~
+2058 8 0 16 0 0 0 -800 S
+PT 0 1 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14810
+piggish humanoid halforc half-orc slaver~
+&+La half-orc slaver&+w~
+&+LA piggish looking humanoid stands here sorting through belongings.&+w
+~
+   This humanoid has many human features yet his nose looks to be that of
+a pig. He wears leather armor and carries a vicious mace. He is quite
+built and looks like a dangerous opponent in battle. Right now however
+he is busily sorting his belongings seemingly looking for something
+specific.
+~
+2058 8 0 0 0 0 0 -800 S
+HO 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14811
+bandit officer warrior~
+&+ba bandit officer&+w~
+&+bA heavily armored bandit warrior rests here.&+w
+~
+    This bandit rests here after a long day of work. He looks much more
+important than the other residents of the camp as he wears very ornate
+metal armor and keeps a fancy looking dagger in his scabbard. He is
+very well built and is extraordinarily strong for a human. He looks just
+as evil as the other bandits though, as he keeps several scalps of his
+vanquished opponents on his belt.
+~
+1073744072 128 0 33554432 0 0 0 -900 S
+PH 0 16384 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14812
+rat vicious giant~
+&+ya vicious giant rat&+w~
+&+yA vicious giant rat is here sniffing the air and looking around for food.&+w
+~
+   This rat has brown fur and is quite huge. It has vicious looking
+claws and looks as though it hasn't been fed in awhile. This would no
+doubt make the rat extremely aggressive to anyone it sees. The reason
+the bandits let it exist in the camp is because this aggressiveness
+makes it function as a good guard.
+~
+8 1 0 0 0 0 0 -250 S
+AC 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#14813
+isoril bandit leader~
+&+RIsoril the bandit leader&+w~
+&+RThe bandit leader Isoril is here inspecting papers.&+w
+~
+    Standing nearly seven feet tall and with arms as thick as small trees
+it is obvious that this man is qualified to be leader of a band of vicious
+bandits. He wears durable armor and carries a wicked looking black sword
+in his scabbard. Currently he is reading over papers. He looks like he is
+incredibly skilled at fighting -- better leave him alone!
+~
+1073743944 1 0 33554440 0 0 0 -900 S
+PH 0 16 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14814
+auctioneer~
+&+gthe auctioneer&+w~
+&+gThe auctioneer is standing here trying to sell a slave.&+w
+~
+   This fat man looks like a cross between a human and an ogre. He wears
+rich looking clothes and shouts in a very loud voice to the interested
+buyers. He looks like an ex-merchant who has found greater profit in the
+slave trade. While he may look rather harmless, from the way he treats
+his slaves, it is evident that he is a very evil man.
+~
+67110922 0 0 0 0 0 0 -900 S
+PO 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14815
+ogre slave~
+&+Ban ogre slave&+w~
+&+BA pitiful looking ogre slave stands here currently being bid on.&+w
+~
+    This ogre may have one time been a great warrior as gigantic muscles
+are seen rippling through his body. His arms and legs are shackled by
+heavy iron and he stands on the platform with his head down looking as
+though he has lost all his pride. This ogre would not put up much of a
+fight if attacked.
+~
+10 0 0 0 0 0 0 -900 S
+PO 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14816
+rich merchant~
+&+Ra rich merchant&+w~
+&+RA rich looking merchant stands here yelling out bids.&+w
+~
+   This man is dressed in very fine clothes and jewelry. He looks like a
+merchant that deals in agriculture, and is hiring slaves to work on his
+farms. He stands here eagerly yelling out bids on the slaves being brought
+for sale. This man looks overweight and weak and would be slain easily
+in a fight.
+~
+2058 0 0 0 0 0 0 -500 S
+PH 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14817
+auction guard~
+&+gan auction guard&+w~
+&+gA powerful looking guard stands here watching the auction.&+w
+~
+   This guard looks powerful and (unlike his drunken comrades) is all business.
+He silently watches the auction take place while keeping an eye out for thieves
+and other troublemakers. Judging from his fine leather armor, sharp sword, and
+confident look in his face, he looks like he would put up quite a fight.
+~
+1073743946 0 0 0 0 0 0 -600 S
+PH 0 1 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14818
+merchant~
+&+ca merchant&+w~
+&+cA merchant stands here struggling to hear the auctioneer.&+w
+~
+    This merchant is dressed in fine clothes and looks to be quite wealthy.
+He is standing here a distance away from the wooden platform listening
+to see which slave is for sale and trying with great difficulty to bid
+on whatever is for sale. Like most merchants this person is weak and a
+simple opponent to fight.
+~
+2184 0 0 0 0 0 0 -500 S
+PH 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14819
+guard tough~
+&+Ca patrolling guard&+w~
+&+CA tough looking guard is here scanning the horizon.&+w
+~
+   This human looks very tough in his leather armor and silently watches
+the horizon searching for any sign of enemies. At the sign of enemies he
+will definitely not hesitate to ring the gong nearby to alert the camp.
+~
+1073743946 128 0 0 0 0 0 -500 S
+PH 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14820
+paladin warrior~
+&+Wa paladin warrior&+w~
+&+WA paladin warrior stands here looking quite frustrated.&+w
+~
+    This man stands well over six feet tall and looks extremely strong.
+He wears fancy ornate armor, and has a wicked looking broadsword on his
+belt. He looks like he would be a deadly opponent to face in battle. While
+he may look intimidating, he has a holyness about him and appears to be
+extremely kind. Perhaps it would be wise to ask him if he needs help?
+~
+2058 128 0 33554440 0 0 0 900 S
+PH 0 8 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14821
+small cow~
+&+La small cow&+w~
+&+LA small cow is here looking rather bored.&+w
+~
+   This cow has brown fur and is much smaller than most usual cows. It has
+no distinguishing features, and stands around looking for food. It does
+not have anything about it that makes it look especially interesting.
+~
+10 0 0 0 0 0 0 0 S
+A 0 1 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#14822
+bandit human~
+&+ya human bandit&+w~
+&+yA bandit walks around here waiting for action to happen.&+w
+~
+   This bandit is quite young and appears to be in his teens. He wears
+a full set of leather armor and wields a worn looking sword. These men form
+the main body of the bandit army, beating their enemies through sheer
+numbers. Alone however, they are not very difficult to defeat.
+~
+2056 128 0 0 0 0 0 -500 S
+PH 0 1 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14823
+bandit guard~
+&+ra bandit guard&+w~
+&+rA bandit stands here watching the slaves closely.&+w
+~
+    This man is dressed in leather armor and has a worn looking sword in
+his scabbard. He looks middle-aged and to be a veteran warrior. He stands
+here watching the slaves making sure they don't try to escape or attack
+anyone. He looks bored from days of watching over the slaves.
+~
+2058 0 0 33554432 0 0 0 -700 S
+PH 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14824
+young halfelf half-elven woman~
+&+ya young half-elven woman&+w~
+&+yA young half-elven woman sits here on the bed looking rather sad.&+w
+~
+    This half-elf looks to be no older than eighteen, and appears to be
+the slave of Isoril. While very pretty, she is covered in numerous
+bruises from repeated beatings. She is wearing a revealing purple robe,
+and sits on the bed, prisoner to Isoril. A thick metal chain attached to
+her wrist prevents her from leaving the room.
+~
+2058 0 0 0 0 0 0 750 S
+P2 0 0 -1
+14 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14825
+slaver~
+&+ga visiting slaver&+w~
+&+gA visiting slaver is here resting.&N
+~
+    This human slaver is dressed in the fine clothes of a noble. He is
+quite well muscled and carries a wicked looking mace in his belt. He appears
+middle aged, and looks like he would be quite a difficult opponent to
+fight. Currently he is sitting here resting waiting for the next group
+of slaves to come in.
+~
+2058 0 0 0 0 0 0 -900 S
+PH 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14826
+warrior bandit~
+&+yan experienced bandit warrior&+w~
+&+yA rugged looking warrior is here relaxing.&+w
+~
+   This man is very tough and rugged looking and looks like he could
+easily hold his own in a fight. He looks experienced from raiding
+villages many times and is quite adept at swordsmanship. He is currently
+standing in the barracks taking full use of what precious time he has to
+relax.
+~
+2056 128 0 0 0 0 0 -700 S
+PH 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14827
+warrior bandit~
+&+yan experienced bandit warrior&+w~
+&+yA rugged looking warrior is here relaxing.&+w
+~
+   This man is very tough and rugged looking and looks like he could
+easily hold his own in a fight. He looks experienced from raiding
+villages many times and is quite adept at swordsmanship. He is currently
+standing in the barracks taking full use of what precious time he has to
+relax.
+~
+2056 128 0 0 0 0 0 -700 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14828
+warrior bandit~
+&+yan experienced bandit warrior&+w~
+&+yA rugged looking warrior is here relaxing.&+w
+~
+   This man is very tough and rugged looking and looks like he could
+easily hold his own in a fight. He looks experienced from raiding
+villages many times and is quite adept at swordsmanship. He is currently
+standing in the barracks taking full use of what precious time he has to
+relax.
+~
+2056 128 0 0 0 0 0 -700 S
+PH 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#14829
+auction guard~
+&+gan auction guard&+w~
+&+gA powerful looking guard stands here watching the auction.&+w
+~
+   This guard looks powerful and (unlike his drunken comrades) is all business.
+He silently watches the auction take place while keeping an eye out for thieves
+and other troublemakers. Judging from his fine leather armor, sharp sword, and
+confident look in his face, he looks like he would put up quite a fight.
+~
+1140852808 0 0 0 0 0 0 -600 S
+PH 0 1 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

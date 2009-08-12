@@ -1,0 +1,83 @@
+#6200
+M
+purpose cimmerian~
+&+cThe man breaks his stride, and stops to talk to you. "&+wYes, yes... I have,
+&+wafter much thought, decided to leave my home and continue with the great
+&+wCimmerian manifest. As you know, the great god Winduin has gifted us with
+&+wgreat speed and strength, and bid us pass our gifts on to the other peoples
+&+wof Duris. However, my tribe has strayed from that path - why, we have not
+&+wbroken camp in weeks! I fear that Septimus, our leader, has decided that the
+&+wproduction of new weapons and armor is of more importance than the will of
+&+wWinduin. Thus, I am off, to continue our work, alone if necessary.
+&+w   If you think you can convince them when I could not, I welcome you to try;
+&+wthe camp is not far from here. Good luck - I must be off!&+c"
+~
+S
+#6214
+M
+work~
+&+c"&+wIss horr'ble, horr'ble I tell ya! They brought me all these pieces o' wood
+&+w'n' iron 'n' stuff, beauty to work with, forged great, fit togeth'r perf'cly
+&+wand all, but z'soon as I'd finish one, POOF it'd disappear juss like that!
+&+wI went'n told Seppmus, 'n' he said that they was with Winduin 'til the
+&+wbattle came. I can't stand it n'more!&+c"
+~
+S
+#6220
+MA
+fate future~
+&+cSeptimus looks at you with sadness in his eyes and says "&+wMore than one of my
+&+wmen has come to me with concerns about the path I have chosen for our tribe.
+&+wPerhaps two months ago, two men arrived in the camp with a proposition.
+&+w'Offer us food and shelter,' they said, 'and we shall create for you weapons
+&+wthe likes of which your people have never seen.' My people do not tradition-
+&+wally use arms in combat, but I have been told in my dreams that the twelve
+&+wtribes of Cimmeria are to battle the army of Zalkapfaan before the year is
+&+wout. I accepted their offer, cleared a wagon for each of them, and made camp
+&+where for as long as they needed.
+        &+c"&+wSure enough, a few days passed and they brought me a beautiful
+&+wfalchion with an iron blade and hardwood handgrip, that glowed with power.
+&+wThey then whisked it out of my hands and said they needed it in order to
+&+wmake duplicates. I thought nothing of it at the time, but now... One of my
+&+wmost trusted men has left the camp in disgust, and another has gone missing.
+&+wI cannot break my word as a Cimmerian to these newcomers, but if I were to
+&+whave evidence that they were dabbling in evil arts, I would then be bound
+&+wto smite them under the laws of Winduin. Bring me such evidence and you
+&+wshall be handsomely rewarded.&+c"
+~
+QA
+&+cSeptimus examines the shards closely, calling upon his Immortal blood to
+&+cgive him powers of discernation far beyond those of mortal men. After a time
+&+che straightens up and says "&+wIt is apparent that these materials are from
+&+wanother realm of existence entirely; it is also plain that they come from
+&+wliving creatures. My worst fears are realized: they are using MY hospitality
+&+wto conduct evil rituals and spread their evil among my people. I do not know
+&+wwhether I could inspire the loyalty in my people to evict the newcomers, any
+&+wlonger; if I could ask you to do this task, I will give you the most valuable
+&+wthing I own. As collateral for the work you have already accomplished, I
+&+woffer you this ring. Bring it back along with proof that the strangers are
+&+wno more, and I will touch you with the power of Winduin himself.&+c"
+~
+R I 6221
+G I 6217
+G I 6218
+QA
+&+cSeptimus nearly quivers with relief as you hand him the grisly trophies.
+&+c"&+wYou have indeed saved my tribe from being turned to evil, and as I promised
+&+wyou, here is the most valuable possession my tribe can offer you. &+c"
+&+cMoving slowly and with much reverence, Septimus slips the crown off of his
+&+chead.
+~
+R I 6222
+G I 6219
+G I 6220
+G I 6221
+D
+&+cSeptimus stands up taller than before, and it becomes apparent that a great
+&+cdeal of worry has been lifted from him.
+&+c"&+wIf you will pardon me, I must go among my people. We have lost much time,
+&+wand have much work to do. Perhaps one day we shall visit your city, and train
+&+wyou in our arts. Until that day, you have the thanks of all my people. May
+&+wthe blessings of Winduin be with you!&+c"
+~
+S

@@ -1,0 +1,89 @@
+#1303
+&+WTh&+Ge Re&+Wl&+Gi&+Yq&+Guar&+Yy &+GNe&+Wx&+Gus o&+Wf&+G th&+Ye &+WCo&+Grs&+Ya&+Girs&n~
+130399 0 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 130383 3 1 100 0 0 0
+*     west exit from "In the Crater" to
+*     "In a Tunnel" - closed
+*
+D 0 130384 1 1 100 0 0 0
+*     east exit from "In a Tunnel" to
+*     "In the Crater" - closed
+*
+D 0 130398 5 5 100 0 0 0
+*     down exit from "In an Open Area" to
+*     "The Nexus" - closed/secret
+*
+D 0 130399 4 5 100 0 0 0
+*     up exit from "The Nexus" to
+*     "In an Open Area" - closed/secret
+*
+*
+*
+M 0 130302 3 130308 100 0 0 0      * a castaway
+M 0 130301 3 130309 100 0 0 0      * a castaway
+M 0 130319 3 130311 100 0 0 0      * a toothy fish
+M 0 130306 3 130312 100 0 0 0      * a corsair
+M 0 130304 3 130313 100 0 0 0      * a corsair
+M 0 130305 3 130314 100 0 0 0      * a corsair
+M 0 130305 3 130315 100 0 0 0      * a corsair
+M 0 130308 3 130315 100 0 0 0      * a trained dog
+M 0 130304 3 130316 100 0 0 0      * a corsair
+M 0 130319 3 130318 100 0 0 0      * a toothy fish
+M 0 130300 3 130320 100 0 0 0      * a castaway
+M 0 130303 1 130321 100 0 0 0      * Chief
+F 1 130309 3 130321 100 0 0 0      * a hunting cat (following)
+M 0 130302 3 130322 100 0 0 0      * a castaway
+M 0 130300 3 130323 100 0 0 0      * a castaway
+M 0 130309 3 130323 100 0 0 0      * a hunting cat
+M 0 130301 3 130324 100 0 0 0      * a castaway
+M 0 130309 3 130324 100 0 0 0      * a hunting cat
+M 0 130300 3 130325 100 0 0 0      * a castaway
+M 0 130301 3 130326 100 0 0 0      * a castaway
+M 0 130302 3 130327 100 0 0 0      * a castaway
+M 0 130319 3 130328 100 0 0 0      * a toothy fish
+M 0 130304 3 130329 100 0 0 0      * a corsair
+M 0 130305 3 130330 100 0 0 0      * a corsair
+M 0 130306 3 130331 100 0 0 0      * a corsair
+M 0 130308 3 130331 100 0 0 0      * a trained dog
+M 0 130307 1 130332 100 0 0 0      * Bella the Bloodthirsty
+F 1 130308 3 130332 100 0 0 0      * a trained dog (following)
+M 0 130306 3 130333 100 0 0 0      * a corsair
+M 0 130312 3 130336 100 0 0 0      * a giant bird
+M 0 130311 3 130340 100 0 0 0      * a giant bird
+M 0 130312 3 130342 100 0 0 0      * a giant bird
+M 0 130310 3 130346 100 0 0 0      * a giant bird
+M 0 130310 3 130350 100 0 0 0      * a giant bird
+M 0 130311 3 130352 100 0 0 0      * a giant bird
+M 0 130312 3 130354 100 0 0 0      * a giant bird
+M 0 130310 3 130356 100 0 0 0      * a giant bird
+M 0 130311 3 130358 100 0 0 0      * a giant bird
+M 0 130313 3 130360 100 0 0 0      * a giant lemur
+E 1 130302 6 16 100 0 0 0          *   a long, sharp dagger
+E 1 130302 6 17 100 0 0 0          *   a long, sharp dagger
+M 0 130313 3 130361 100 0 0 0      * a giant lemur
+E 1 130302 6 16 100 0 0 0          *   a long, sharp dagger
+E 1 130302 6 17 100 0 0 0          *   a long, sharp dagger
+M 0 130314 3 130362 100 0 0 0      * a giant lemur
+M 0 130313 3 130363 100 0 0 0      * a giant lemur
+E 1 130302 6 16 100 0 0 0          *   a long, sharp dagger
+E 1 130302 6 17 100 0 0 0          *   a long, sharp dagger
+M 0 130315 3 130364 100 0 0 0      * a giant lemur
+M 0 130314 3 130365 100 0 0 0      * a giant lemur
+M 0 130314 3 130367 100 0 0 0      * a giant lemur
+M 0 130315 3 130369 100 0 0 0      * a giant lemur
+M 0 130315 3 130379 100 0 0 0      * a giant lemur
+M 0 130316 3 130386 100 0 0 0      * a beetleman
+M 0 130318 3 130387 100 0 0 0      * a beetleman
+M 0 130317 3 130389 100 0 0 0      * a beetleman
+M 0 130317 3 130392 100 0 0 0      * a beetleman
+M 0 130318 3 130393 100 0 0 0      * a beetleman
+M 0 130316 3 130394 100 0 0 0      * a beetleman
+M 0 130318 3 130396 100 0 0 0      * a beetleman
+M 0 130317 3 130397 100 0 0 0      * a beetleman
+M 0 130316 3 130398 100 0 0 0      * a beetleman
+*
+S

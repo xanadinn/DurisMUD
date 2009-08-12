@@ -1,0 +1,207 @@
+#146
+&+gThe Wildland Trails&n~
+14699 2 0 15 25 1
+*
+* Zone edited with dikuEdit v2.98i
+*
+*
+D 0 14606 5 5 100 0 0 0
+*     down exit from "A Faint Trail Through the Brush" to
+*     "The Decaying Pit" - closed/secret
+*
+D 0 14699 4 1 100 0 0 0
+*     up exit from "The Decaying Pit" to
+*     "A Faint Trail Through the Brush" - closed
+*
+D 0 14609 0 5 100 0 0 0
+*     north exit from "A Faint Trail Through the Brush" to
+*     "A Narrow Brush Trail" - closed/secret
+*
+D 0 14610 2 5 100 0 0 0
+*     south exit from "A Narrow Brush Trail" to
+*     "A Faint Trail Through the Brush" - closed/secret
+*
+D 0 14667 1 5 100 0 0 0
+*     east exit from "Along the Floor of the Quistery Ravine" to
+*     "Within a Twisting Cavern Tunnel" - closed/secret
+*
+D 0 14694 3 1 100 0 0 0
+*     west exit from "Within a Twisting Cavern Tunnel" to
+*     "Along the Floor of the Quistery Ravine" - closed
+*
+D 0 14678 1 2 100 0 0 0
+*     east exit from "Within a Twisting Cavern Tunnel" to
+*     "A Small Storage Room" - closed/locked
+*
+D 0 14679 3 2 100 0 0 0
+*     west exit from "A Small Storage Room" to
+*     "Within a Twisting Cavern Tunnel" - closed/locked
+*
+D 0 14687 0 1 100 0 0 0
+*     north exit from "A Clearing Within the Pine Tree Grove" to
+*     "Inside a Barbarian Fisherman's Tent" - closed
+*
+D 0 14693 2 1 100 0 0 0
+*     south exit from "Inside a Barbarian Fisherman's Tent" to
+*     "A Clearing Within the Pine Tree Grove" - closed
+*
+D 0 14688 0 1 100 0 0 0
+*     north exit from "The Center of the Barbarian Camp" to
+*     "Inside a Barbarian Tent" - closed
+*
+D 0 14689 2 1 100 0 0 0
+*     south exit from "Inside a Barbarian Tent" to
+*     "The Center of the Barbarian Camp" - closed
+*
+D 0 14688 1 1 100 0 0 0
+*     east exit from "The Center of the Barbarian Camp" to
+*     "Inside the Chieftain's Tent" - closed
+*
+D 0 14690 3 1 100 0 0 0
+*     west exit from "Inside the Chieftain's Tent" to
+*     "The Center of the Barbarian Camp" - closed
+*
+D 0 14688 2 1 100 0 0 0
+*     south exit from "The Center of the Barbarian Camp" to
+*     "The Spiritist's Tent" - closed
+*
+D 0 14692 0 1 100 0 0 0
+*     north exit from "The Spiritist's Tent" to
+*     "The Center of the Barbarian Camp" - closed
+*
+D 0 14690 1 1 100 0 0 0
+*     east exit from "Inside the Chieftain's Tent" to
+*     "The Rear Portion of the Chieftain's Tent" - closed
+*
+D 0 14691 3 1 100 0 0 0
+*     west exit from "The Rear Portion of the Chieftain's Tent" to
+*     "Inside the Chieftain's Tent" - closed
+*
+*
+O 0 14602 1 14679 100 0 0 0        * a wooden storage crate
+P 1 14603 1 14602 100 0 0 0        *   a shining crystal bracelet
+P 1 14604 1 14602 100 0 0 0        *   a white crystal rod
+*
+M 0 14601 6 14602 100 0 0 0        * a thorn slinger vine
+M 0 14601 6 14603 100 0 0 0        * a thorn slinger vine
+M 0 14602 3 14604 100 0 0 0        * a strangle vine
+M 0 14624 5 14604 100 0 0 0        * a thick vine
+M 0 14601 6 14605 100 0 0 0        * a thorn slinger vine
+M 0 14603 1 14606 100 0 0 0        * a red musk creeper
+M 0 14602 3 14607 100 0 0 0        * a strangle vine
+M 0 14624 5 14607 100 0 0 0        * a thick vine
+M 0 14602 3 14608 100 0 0 0        * a strangle vine
+M 0 14601 6 14609 100 0 0 0        * a thorn slinger vine
+M 0 14624 5 14609 100 0 0 0        * a thick vine
+M 0 14601 6 14610 100 0 0 0        * a thorn slinger vine
+M 0 14624 5 14610 100 0 0 0        * a thick vine
+M 0 14601 6 14612 100 0 0 0        * a thorn slinger vine
+M 0 14624 5 14612 100 0 0 0        * a thick vine
+M 0 14622 7 14625 100 0 0 0        * a wild horse
+M 0 14615 12 14631 100 0 0 0       * a wildcat
+M 0 14617 8 14633 100 0 0 0        * a ruffled grouse
+M 0 14615 12 14634 100 0 0 0       * a wildcat
+M 0 14623 8 14635 100 0 0 0        * a pronghorn antelope
+M 0 14616 3 14636 100 0 0 0        * a wildcat
+M 0 14617 8 14636 100 0 0 0        * a ruffled grouse
+M 0 14622 7 14637 100 0 0 0        * a wild horse
+M 0 14617 8 14639 100 0 0 0        * a ruffled grouse
+M 0 14623 8 14639 100 0 0 0        * a pronghorn antelope
+M 0 14615 12 14640 100 0 0 0       * a wildcat
+M 0 14616 3 14641 100 0 0 0        * a wildcat
+M 0 14617 8 14641 100 0 0 0        * a ruffled grouse
+M 0 14622 7 14641 100 0 0 0        * a wild horse
+M 0 14623 8 14642 100 0 0 0        * a pronghorn antelope
+M 0 14615 12 14644 100 0 0 0       * a wildcat
+M 0 14623 8 14644 100 0 0 0        * a pronghorn antelope
+M 0 14615 12 14645 100 0 0 0       * a wildcat
+M 0 14617 8 14645 100 0 0 0        * a ruffled grouse
+M 0 14622 7 14645 100 0 0 0        * a wild horse
+M 0 14623 8 14646 100 0 0 0        * a pronghorn antelope
+M 0 14615 12 14647 100 0 0 0       * a wildcat
+M 0 14615 12 14649 100 0 0 0       * a wildcat
+M 0 14622 7 14649 100 0 0 0        * a wild horse
+M 0 14617 8 14650 100 0 0 0        * a ruffled grouse
+M 0 14622 7 14650 100 0 0 0        * a wild horse
+M 0 14623 8 14650 100 0 0 0        * a pronghorn antelope
+M 0 14617 8 14653 100 0 0 0        * a ruffled grouse
+M 0 14623 8 14653 100 0 0 0        * a pronghorn antelope
+M 0 14623 8 14654 100 0 0 0        * a pronghorn antelope
+M 0 14615 12 14656 100 0 0 0       * a wildcat
+M 0 14622 7 14657 100 0 0 0        * a wild horse
+M 0 14615 12 14658 100 0 0 0       * a wildcat
+M 0 14617 8 14658 100 0 0 0        * a ruffled grouse
+M 0 14618 10 14660 100 0 0 0       * a fierce gnoll
+M 0 14615 12 14661 100 0 0 0       * a wildcat
+M 0 14618 10 14661 100 0 0 0       * a fierce gnoll
+M 0 14618 10 14662 100 0 0 0       * a fierce gnoll
+M 0 14618 10 14664 100 0 0 0       * a fierce gnoll
+M 0 14615 12 14666 100 0 0 0       * a wildcat
+M 0 14618 10 14666 100 0 0 0       * a fierce gnoll
+M 0 14618 10 14667 100 0 0 0       * a fierce gnoll
+M 0 14616 3 14668 100 0 0 0        * a wildcat
+M 0 14618 10 14668 100 0 0 0       * a fierce gnoll
+M 0 14618 10 14670 100 0 0 0       * a fierce gnoll
+M 0 14615 12 14671 100 0 0 0       * a wildcat
+M 0 14618 10 14672 100 0 0 0       * a fierce gnoll
+M 0 14618 10 14674 100 0 0 0       * a fierce gnoll
+M 0 14620 5 14678 100 0 0 0        * a large worg
+M 0 14619 1 14680 100 0 0 0        * a verbeeg giant
+G 1 14600 1 0 100 0 0 0            *    a carved wooden key
+M 0 14620 5 14680 100 0 0 0        * a large worg
+M 0 14620 5 14680 100 0 0 0        * a large worg
+M 0 14604 2 14681 100 0 0 0        * a young barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+M 0 14614 4 14681 100 0 0 0        * a barbarian hunter
+E 1 14607 4 16 100 0 0 0           *   a stone hunting axe
+M 0 14604 2 14682 100 0 0 0        * a young barbarian fisherman
+M 0 14608 5 14683 100 0 0 0        * a barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+G 1 14612 999 0 100 0 0 0          *    a stringer of river fish
+M 0 14608 5 14686 100 0 0 0        * a barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+G 1 14612 999 0 100 0 0 0          *    a stringer of river fish
+M 0 14611 6 14686 100 0 0 0        * a barbarian woman
+M 0 14614 4 14686 100 0 0 0        * a barbarian hunter
+E 1 14607 4 16 100 0 0 0           *   a stone hunting axe
+M 0 14611 6 14687 100 0 0 0        * a barbarian woman
+M 0 14612 2 14687 100 0 0 0        * a barbarian youth
+M 0 14621 2 14687 100 0 0 0        * a barbarian horse
+M 0 14608 5 14688 100 0 0 0        * a barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+G 1 14612 999 0 100 0 0 0          *    a stringer of river fish
+M 0 14610 1 14688 100 0 0 0        * an elderly barbarian woman
+M 0 14611 6 14688 100 0 0 0        * a barbarian woman
+M 0 14613 3 14688 100 0 0 0        * a barbarian youth
+M 0 14621 2 14688 100 0 0 0        * a barbarian horse
+M 0 14608 5 14689 100 0 0 0        * a barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+G 1 14612 999 0 100 0 0 0          *    a stringer of river fish
+M 0 14611 6 14689 100 0 0 0        * a barbarian woman
+M 0 14613 3 14689 100 0 0 0        * a barbarian youth
+M 0 14614 4 14689 100 0 0 0        * a barbarian hunter
+E 1 14607 4 16 100 0 0 0           *   a stone hunting axe
+M 0 14611 6 14690 100 0 0 0        * a barbarian woman
+M 0 14612 2 14690 100 0 0 0        * a barbarian youth
+M 0 14609 1 14691 100 0 0 0        * the barbarian chieftain
+E 1 14610 1 16 100 0 0 0           *   the great war axe of the Welgurd Chieftain
+E 1 14611 1 21 100 0 0 0           *   a fish bone earring
+M 0 14605 1 14692 100 0 0 0        * the barbarian spiritist
+E 1 14605 1 13 100 0 0 0           *   a spiritist's medicine pouch
+E 1 14601 1 18 100 0 0 0           *   a bone totem rod
+M 0 14606 1 14692 100 0 0 0        * an invisible spirit guardian
+M 0 14607 1 14692 100 0 0 0        * an invisible spirit guardian
+M 0 14608 5 14693 100 0 0 0        * a barbarian fisherman
+E 1 14606 7 16 100 0 0 0           *   a barbarian fishing spear
+G 1 14612 999 0 100 0 0 0          *    a stringer of river fish
+M 0 14611 6 14693 100 0 0 0        * a barbarian woman
+M 0 14613 3 14693 100 0 0 0        * a barbarian youth
+M 0 14614 4 14693 100 0 0 0        * a barbarian hunter
+E 1 14607 4 16 100 0 0 0           *   a stone hunting axe
+M 0 14620 5 14694 100 0 0 0        * a large worg
+M 0 14620 5 14695 100 0 0 0        * a large worg
+M 0 14600 1 14699 100 0 0 0        * the rotting corpse
+E 1 14608 1 5 100 0 0 0            *   a suit of rusting plate mail
+E 1 14609 1 16 100 0 0 0           *   a rusting broadsword
+*
+S

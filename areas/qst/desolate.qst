@@ -1,0 +1,119 @@
+#22225
+Q
+&+yThe tired &+YHalfling&+y thanks you heartily for the drink and pays
+&+yfor you for your work.&n
+~
+R C 50000
+G I 22230
+S
+#22227
+Q
+&+LThe &+rmino&+Ltaur seems extremely relieved when you hand him the lost
+&+Cchain.&n
+             &+W'Thank you.  I'll pay you as a reward...
+             &+WOh, also, I found this while searching through
+             &+Wthe trash, I don't know what good it is, but take it
+             &+Wif you want.'&n
+~
+R C 10000
+R I 22220
+G I 22215
+S
+#22234
+M
+ale~
+&+yThe mercenary mutters and nods.&n
+        &+W'Yeah, I'll share some ale with you, but I'm not letting you
+        &+Wuse my tankard, you'll have to find your own.'&n
+~
+Q
+&+LThe &+ymercenary&+L mutters something then shrugs.
+           &+W'Yeah okay, no problem, I'll fill this tankard up
+           &+Wfor you, on the house.  It's not like we are going
+           &+Wto drink this all anyways...'&n
+~
+R I 22230
+G I 22229
+S
+#22238
+Q
+&+yWith tears of happiness streaming from his eyes the man thanks
+&+yyou profusely for finding his &+Ymonkey&+y for him and rewards you with
+&+yprobably the only other thing he owns.&n
+~
+R I 22269
+R C 15000
+G I 22214
+S
+#22248
+Q
+&+LThe driver looks estatic as you hand him the repaired &+ywagon wheel&+L.&n
+        &+W'Oh thank you so much, now I can continue on my journey.
+        &+WPlease take this as a sign of my gratitude.'&n
+~
+R I 22252
+G I 22251
+D
+&+LThe driver then hurries off to complete his repairs.&n
+~
+S
+#22250
+Q
+&+WBeregan&+y thanks you for a job well done and in return rewards you
+&+ywith one of his most prized possessions.&n
+~
+R I 22288
+G I 22284
+G I 22283
+S
+#22266
+Q
+        &+W'Oh thank you very much! This badge is just the proof
+        &+WI need to prove to Beregan the threat is out there,
+        &+Wcloser than I had first thought, and will enable
+        &+Waction on all our parts.  Take this as a reward,
+        &+Wand my gratitude.&n
+~
+R I 22286
+G I 22216
+S
+#22269
+Q
+&+cScotson&+y nods then turns to his anvil.&n
+        &+W'I may not be as good as Andryn, but I can fix this,
+        &+Wno problem...there you go, just like new...'&n
+~
+R I 22251
+G I 22220
+G I 22231
+G C 5000
+S
+#22282
+Q
+&+yThe &+Ymerchant&+y thanks you for paying him and hands you the goods.&n
+~
+R I 22255
+G C 10000
+D
+&+yThe merchant then walks off, eager to find another customer.&n
+~
+S
+#22285
+Q
+&+yThe shaggy &+Ldog&+y hurriedly grabs the &+Wbones&+y and starts to chew them.
+&+yWhile in the midst of his ravenous gobbling a &+Wplatium&+y collar falls
+&+yfrom his neck and unto the ground.&n
+~
+R I 22250
+G I 22211
+S
+#22294
+Q
+&+WThe angel thanks you heartily for this information you have passed
+&+Wonto her and promises she will put it to use for the good of the
+&+Wbalance.&n
+~
+R I 22289
+R C 10000
+G I 82543
+S

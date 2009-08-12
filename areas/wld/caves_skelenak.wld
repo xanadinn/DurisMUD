@@ -1,0 +1,3233 @@
+#4001
+Huge Cave Entrance~
+   A large cave boroughs into the rocky wall here, from which a foul odor
+emanates.  The cave mouth is about thirty feet in diameter, and appears
+to be a natural feature of the rock, rather than a man-made structure.
+There is a *large* sign fastened to the wall of the cave mouth here.
+~
+40 4109 2
+D0
+~
+~
+0 0 4002
+D2
+~
+~
+0 0 557269
+E
+sign~
+........................................................................
+.                                                                      .
+.       Beware!  Beyond here are the dark caves of Mt. Skelenak        .
+.                                                                      .
+.    Within these passageways live horrors and beasts unthinkable,     .
+.   and a swift death to all but the most cautious..  While you can    .
+. probably travel the tunnels as a first-time adventurer and survive   .
+. to tell the tale, you would be wise to consider going with a group.  .
+.                                                                      .
+........................................................................
+~
+S
+#4002
+Inside a Huge Cave~
+   The walls of this cave run upwards about fifty feet to a rough ceiling
+above, and extend about a hundred feet in length.  The cave continues
+on to the north, while light shines in from the cave mouth south of here.
+A small tunnel branches off to the east.
+~
+40 4105 2
+D0
+The huge cavern continues in that direction.
+~
+~
+0 0 4003
+D1
+The small tunnel leads into darkness.
+~
+~
+0 0 4023
+D2
+Sunlight streams in from the cave mouth there.
+~
+~
+0 0 4001
+S
+#4003
+Huge Cave~
+   The cave comes to an end here with branches running to the east and
+west.  The western branch runs off down a dimly lit corridor, while the
+eastern fork is much larger, making another curve further on.  The
+cave leads back to the south.
+~
+40 4105 2
+D1
+The cave makes another curve up ahead there.
+~
+~
+0 0 4034
+D2
+The large cave continues in that direction.
+~
+~
+0 0 4002
+D3
+The small passageway runs further to the west there.
+~
+~
+0 0 4004
+S
+#4004
+Entrance to Goblin Hall~
+   Carving's picturing goblins line the walls of this long, thin passageway
+running east to west.  A foul odor emanates from the west where a carved
+hallway can be seen.  A larger cave opens up to the east of here.
+There is a *large* sign posted next to the wall, with big writing on it.
+~
+40 4109 1
+D1
+A larger cave opens up there.
+~
+~
+0 0 4003
+D3
+A dimly lit hallway is there.
+~
+door~
+1 0 4005
+E
+sign~
+
+-----------------------------------------------
+|             This Goblin Hall!               |
+|                                             |
+| You no trespass here, or we pound you good! |
+|                                             |
+|       Mighty goblin king Brog say so!       |
+-----------------------------------------------
+~
+E
+carving carvings~
+The carvings are very crude, and simple, some even boarding on
+crude.  They were definitely not made by goblins.
+~
+S
+#4005
+Goblin Hall~
+   This large squared corridor continues to the west for some distance.
+It's construction is poor, with the walls and floor uneven and cracked,
+definitely not the work of the dwarves who originally mined here.
+Dozens of small, crude carvings cover the walls depicting goblins in
+many different scenes.  Some of the carvings show goblins killing orcs
+and humans, others of more regal looking goblin leaders or chiefs.
+Small openings lead off to the north, east, and south of here.
+~
+40 4105 1
+D0
+A horrid smell emanates from that direction.
+~
+~
+0 0 4007
+D1
+A cool breeze can be felt from that direction.
+~
+door~
+1 0 4004
+D2
+The room there is brightly lit.
+~
+~
+0 0 4006
+D3
+Goblin Hall continues in that direction.
+~
+~
+0 0 4009
+E
+carving carvings~
+The carvings are all crude and not very detailed, showing
+goblins in various different scenes.  They were definitely
+made by goblins.
+~
+S
+#4006
+Eating Area~
+   This room is brightly lit by many large torches attached to the walls high
+above.  A large table fills the room, covered with bones and bits of food.
+It appears that this area is used as a mess hall.  The only exit from the
+circular chamber is to the north.
+~
+40 4105 1
+D0
+Goblin Hall is there.
+~
+~
+0 0 4005
+E
+torch torches~
+The torches are each about 4 feet in length, and are securely fastened to
+the walls, far too high up for a normal person to reach.
+~
+S
+#4007
+Messy Kitchen~
+   Corroded and ancient looking pots and pans hang from wooden pins mounted
+on the walls.  A long wooden table occupies the rooms center here, gouged
+with hundreds of cut marks from meat cleavers or knives.  The stench of
+rotting meat is horridly pungent in here.
+~
+40 4105 1
+D0
+A small doorway leads into darkness.
+~
+~
+0 0 4008
+D2
+Goblin Hall is there.
+~
+~
+0 0 4005
+E
+pots pans~
+All of the pots and pans in this room are caked with dried blood and bits
+of food.  The horrible smell in the room seems to be coming from these.
+~
+S
+#4008
+Store Room~
+   This cramped, unlit room is about eight foot square and seven feet high.
+A large crate is neatly shoved against the back wall here, and is about two
+feet square.  The only exit is back to the south.
+~
+40 4105 1
+D2
+A horrible smell emanates from the kitchen there.
+~
+~
+0 0 4007
+S
+#4009
+Goblin Hall~
+   This long, well-lit hallway runs a considerable distance to the east
+and west, with large torches secured to the walls every ten feet or so.
+There is a very large carving of a powerful looking goblin on the north
+wall.  A smaller, but well-traveled hallway runs to the north.
+~
+40 4105 1
+D0
+A fifty foot hallway leads onward there.
+~
+~
+0 0 4014
+D1
+Goblin Hall continues in that direction.
+~
+~
+0 0 4005
+D3
+Goblin Hall continues in that direction.
+~
+~
+0 0 4010
+E
+carving~
+The goblin depicted in the carving looks like a king, or demi-god.  He
+is  dressed in a long, red robe and wields a large scepter.  He seems
+to be well liked, and respected by these people.
+~
+S
+#4010
+Goblin Hall~
+   The large hallway continues about a hundred feet in either direction,
+lit by torches staggered every ten feet or so.  The hall comes to an end
+off to the west, and there is a small opening to the south.
+~
+40 4105 1
+D1
+Goblin Hall continues in that direction.
+~
+~
+0 0 4009
+D2
+The opening leads into a large, dimly lit room.
+~
+~
+0 0 4013
+D3
+Goblin Hall continues in that direction.
+~
+~
+0 0 4011
+S
+#4011
+End of Goblin Hall~
+   The two hundred foot long hallway comes to an end here.  A huge
+mural of a goblin leader or king is mounted on the west wall, facing
+the long hallway leading off to the east.  A small opening leads south,
+while a passageway heads north.
+~
+40 4105 1
+D0
+The hallway is too dimly lit to see much.
+~
+~
+0 0 4017
+D1
+Goblin Hall continues in that direction.
+~
+~
+0 0 4010
+D2
+The opening leads into a large, dimly lit room.
+~
+~
+0 0 4012
+E
+mural~
+The goblin featured in the mural is larger than most goblins you've seen,
+and considerably more wealthy looking.  The wears a red robe, and carries
+a scepter that looks very formidable.
+~
+S
+#4012
+Goblin Sleeping Quarters~
+   This large, dimly lit chamber is lined with dozens or wooden bunk
+beds that all look very uncomfortable.  There are enough beds in the
+barracks to contain about twenty goblins, and the chamber continues
+further to the east.
+~
+40 4105 1
+D0
+The end of Goblin Hall is there.
+~
+~
+0 0 4011
+D1
+The barracks continues.
+~
+~
+0 0 4013
+E
+bed bunkbed bunkbeds~
+The bunkbeds are each about six feet high, and very uncomfortable looking.
+~
+S
+#4013
+Goblin Sleeping Quarters~
+This large, dimly lit chamber is lined with dozens or wooden bunk
+beds that all look very uncomfortable.  There are enough beds in the
+barracks to contain about twenty goblins, and the chamber continues
+further to the west.
+~
+40 4105 1
+D0
+Goblin Hall is there.
+~
+~
+0 0 4010
+D3
+The barracks continues.
+~
+~
+0 0 4012
+E
+bed bunkbed bunkbeds~
+The bunkbeds are each about six feet high, and very uncomfortable looking.
+~
+S
+#4014
+Dimly Lit Hallway~
+   This hallway is about ten feet square, with a single iron torch fastened
+to the east wall.  There is a small wooden door in the north wall, and an
+opening leading into a dark room to the west.  Goblin hall is south of here.
+~
+40 4105 1
+D0
+The doorway is small, and not very sturdy looking.
+~
+door~
+1 0 4015
+D2
+Goblin Hall is there.
+~
+~
+0 0 4009
+D3
+The room is too dark to make out any details.
+~
+~
+0 0 4016
+E
+iron torch~
+The torch glows with a soft yellow flame, probably fueled by oil.
+It is securely fastened to the wall with iron straps.
+~
+S
+#4015
+Planning Room~
+   The ground of this room is covered with sand, and several crude battle
+plans have been drawn in it.  This looks like a room designated to the
+making of battle or defense plans for Goblin Hall.  There is also a very
+*large* map of Goblin Hall carved into the north wall.
+~
+40 4105 1
+D2
+The door is small, and not very sturdy looking.
+~
+door~
+1 0 4014
+E
+map sketch~
+
+The sketch is actually quite good, giving a full layout of Goblin Hall :
+.
+         King
+         Room
+          []
+          []                         Plan         Store
+Sleep     []      Prison             Room          Room
+Room  [][][][][]  Room                []            []
+          []                          []            []
+Boss      []               Weapon     []          Kitchen
+Room  [][][]                Room  [][][]           Room
+          []                          []            []
+          []                          []            []
+        Goblin [][][] Goblin [][][] Goblin [][][] Goblin [][][] Entry
+         Hall          Hall          Hall          Hall          Hall
+          []            []                          []
+          []            []                          []
+         Sleep [][][] Sleep                         Eat
+         Room          Room                         Room
+.
+~
+S
+#4016
+Storage Room~
+   Rows of wooden sword racks line the walls, most of them empty
+indicating that they are probably in use somewhere.  Lines of wooden
+pegs have been driven into the walls, probably used to hang armor
+when not in use.  The only exit is back to the east.
+~
+40 4105 1
+D1
+Torch light streams in from the hallway there.
+~
+~
+0 0 4014
+E
+rack racks~
+The sword rack's are very old, made from planks of wood laid across
+sawhorses with small grooves cut in them to hold the weapons.
+~
+E
+peg pegs wooden~
+The pegs are simply wooden dowels driven into the walls, each about
+a foot apart, from which a suit of armor could be hung.
+~
+S
+#4017
+Long Hallway~
+   This long narrow hallway is unlit, running about fifty feet
+further to the north.  There is a dimly lit chamber to west, and the
+end of Goblin Hall is south.
+~
+40 4105 1
+D0
+The narrow hallway continues.
+~
+~
+0 0 4019
+D2
+The end of Goblin Hall is there.
+~
+~
+0 0 4011
+D3
+The dim chamber looks as if it serves as someone's living quarters.
+~
+~
+0 0 4018
+S
+#4018
+Large Chamber~
+   This chamber is about forty feet around and twenty feet tall.
+There is a fire pit at the center of the room providing the only
+apparent illumination.  A wooden bed, chair, and desk make up
+the room's only furnishings, though all look badly worn and old.
+~
+40 4105 1
+D1
+There is a hallway there.
+~
+~
+0 0 4017
+E
+desk~
+The desk is very small, with an empty slot where there was probably once
+a drawer.
+~
+E
+chair~
+The chair is rather cozy looking, with thick pads fastened to a wooden
+frame.  It looks rather beaten though.
+~
+E
+bed~
+The bed is small, made from wood with a straw pad over top.
+~
+S
+#4019
+Long Hallway~
+   This long, narrow corridor ends upon a door here set in the north
+wall.  Small openings lead off to the east and west into dimly lit
+chambers.  The smell of death emanates strongly from the opening
+to the west.  The hallway continues to the south.
+~
+40 4105 1
+D0
+The door is large and sturdy, but with no lock.
+~
+door~
+1 0 4021
+D1
+The smell of death is strong from that direction.
+~
+~
+0 0 4022
+D2
+The narrow hallway continues.
+~
+~
+0 0 4017
+D3
+The brightly lit room contains allot of furniture.
+~
+~
+0 0 4020
+S
+#4020
+Small Barracks~
+   This brightly lit room appears to be the sleeping quarters of
+about five to six people.  Uncomfortable looking wooden beds sit
+next to each other against the south wall, and a weapons rack
+rests in one corner.  The only exit is back to the east.
+~
+40 4105 1
+D1
+The narrow hallway is there.
+~
+~
+0 0 4019
+E
+bed beds~
+The beds are very simple and look as though they wouldn't offer
+a very comfortable night's sleep.
+~
+E
+rack weaponsrack~
+The weapons rack looks as though it could hold 8-10 weapons,
+probably swords, though it is currently empty.
+~
+S
+#4021
+Huge Sleeping Quarters~
+   This large room is about fifty feet around, with a semi-comfortable
+looking bed against the north wall.  A huge elegant looking rug covers
+most of the floor, and there is a rather large chair against the eastern
+wall.  This room looks decorated well enough to be a king's chambers.
+There is a large wooden door to the south.
+~
+40 4105 1
+D2
+The door is large and sturdy, but with no lock.
+~
+door~
+1 0 4019
+E
+bed~
+The bed is padded, and looks like it would make for a comfortable
+night's sleep.  It is covered with red cotton sheets.
+~
+E
+rug~
+The rug is huge, probably thirty feet in size, and embodied with
+intricate designs.  It definitely looks as if it wasn't made by goblins.
+~
+E
+chair~
+The chair looks more like a small throne of sorts.
+~
+S
+#4022
+Torture Chamber~
+   Shackles and torture devices of all kinds line the walls of this
+dim chamber.  The stench of death sits heavily upon the air, and the
+skeletal remains of several humanoid victims lay scattered about the
+room.  The only exit is back to the west.
+~
+40 4105 1
+D3
+The narrow hallway is there.
+~
+~
+0 0 4019
+S
+#4023
+Rough Tunnel~
+   This tunnel is unevenly carved out and looks very unstable.  Large
+tree roots and jagged rocks protrude from the walls, floor, and ceiling
+making travel difficult.  The tunnel continues about forty or fifty feet
+to the east and west.
+~
+40 4105 3
+D1
+The rough tunnel continues in that direction.
+~
+~
+0 0 4024
+D3
+A huge cave is there.
+~
+~
+0 0 4002
+S
+#4024
+Rough Tunnel~
+   This tunnel is unevenly carved out and looks very unstable.  Large
+tree roots and jagged rocks protrude from the walls, floor, and ceiling
+making travel difficult.  The tunnel continues about fifty feet to the
+east and west.
+~
+40 4105 1
+D1
+The rough tunnel opens into a cave in that direction.
+~
+~
+0 0 4025
+D3
+The rough tunnel continues in that direction.
+~
+~
+0 0 4023
+S
+#4025
+Rounded Cave~
+   This cave is eighty feet in diameter with a domed roof thirty feet
+above.  A narrow tunnel heads to the north through a small opening,
+and the rough tunnel leads back to the west.  This cave opens upon
+a much larger one to the east of here.
+~
+40 4105 1
+D0
+The narrow tunnel leads into darkness.
+~
+~
+0 0 4028
+D1
+There is a huge cave in that direction.
+~
+~
+0 0 4026
+D3
+A rough tunnel leads into darkness.
+~
+~
+0 0 4024
+S
+#4026
+Huge Cave~
+   This cave rises up to a tapered roof of nearly a hundred feet and
+continues on to the south.  The roots of what must be a great tree
+protrude downwards from the ceiling above, resembling the legs of
+a giant spider.  A smaller cave branches off the west.
+~
+40 4105 1
+D2
+The huge cave comes to an end there.
+~
+~
+0 0 4027
+D3
+The smaller cave looks much more rounded than this one.
+~
+~
+0 0 4025
+S
+#4027
+Dead-End in a Huge Cave~
+   The ceiling of this large cave isn't quite as high as the one to
+the north, but still rises up about sixty feet.  A large sloped pile
+of dirt and rocks seems to have caved in on a passageway leading
+south, leaving the only exit from this area back to the north.
+~
+40 4105 1
+D0
+The huge cave gets larger there.
+~
+~
+0 0 4026
+S
+#4028
+Long Tunnel~
+   This tunnel is about ten feet around and runs eighty feet in both
+directions with an occasional tree root protruding downwards from
+the ceiling.  A small, one foot wide stream flows quietly to the south
+in the middle of the tunnel, disappearing into a small hole in the
+ground.
+~
+40 4105 1
+D0
+The tunnel continues.
+~
+~
+0 0 4029
+D2
+The tunnel opens up into a rounded cave.
+~
+~
+0 0 4025
+E
+stream~
+The stream is small, flowing very slowly southwards.  It's waters are
+very muddy, carrying bits or wood and other debris into the hole.
+~
+E
+hole~
+The hole is about a foot in diameter, into which the stream flows.  The
+splashing sounds of the stream crashing onto rocks is very faint in the
+hole, meaning it must go down a considerable distance.
+~
+S
+#4029
+Long Tunnel~
+   This tunnel is about ten feet around and runs eighty feet in both
+directions, with an occasional tree root protruding downwards from
+the ceiling.  A small, one feet wide stream flows quietly to the south,
+down the center of the tunnel, which continues on to the north.
+~
+40 4105 1
+D0
+The tunnel gets a bit wider ahead.
+~
+~
+0 0 4030
+D2
+The tunnel continues.
+~
+~
+0 0 4028
+E
+stream~
+The stream is small, flowing very slowly southwards down a thin channel.
+It's waters are murky, and carry pieces of wood and other debris.
+~
+S
+#4030
+Long Tunnel~
+   The tunnel is a bit larger here, being some fifteen feet in diameter,
+and runs in a north-south direction.  A thin passageway branches off
+to the west here leading into darkness.  The small stream flows quietly
+southward.
+~
+40 4105 1
+D0
+The tunnel gets a bit wider there.
+~
+~
+0 0 4041
+D2
+The tunnel continues.
+~
+~
+0 0 4029
+D3
+The thin passageway looks very cramped.
+~
+~
+0 0 4031
+E
+stream~
+The stream is a little wider here, moving southwards at a snails
+pace down a shallow channel.  It's waters are very murky.
+~
+S
+#4031
+Thin Passageway~
+   This connecting passageway is incredibly cramped, being only about
+five feet high and six feet across.  Dozens of small rocks and pieces of
+food lay scattered about on the ground.  There are openings to the east
+and west, leading into larger, more roomy areas.
+~
+40 4105 1
+D1
+The passage way opens into a larger tunnel there.
+~
+~
+0 0 4030
+D3
+The passage way opens into a cave-junction there.
+~
+~
+0 0 4032
+S
+#4032
+Cave Junction~
+   Caves run in three directions from this T-intersection to the west,
+east, and south.  The caves leading west and south are a bit larger than
+the one heading east, which appears to be more of a small passageway.
+~
+40 4105 1
+D1
+The passage way leads into darkness.
+~
+~
+0 0 4031
+D2
+The cave continues there.
+~
+~
+0 0 4033
+D3
+The cave bends around another turn there.
+~
+~
+0 0 4035
+S
+#4033
+Cave~
+   This cave is about twenty feet in size, heading in a north-to-south
+direction.  A thick layer of clay can be seen in the western wall,
+making this cave look more stable than those to the south of here.
+~
+40 4105 1
+D0
+The cave makes a junction up ahead there.
+~
+~
+0 0 4032
+D2
+The cave makes a bend there.
+~
+~
+0 0 4034
+S
+#4034
+Curving Cave~
+   The cave makes a west-to-north turn here, with a cool breeze blowing
+in from the western side.  Small layers of clay in the walls are indicative
+of the increased depth here, and small pieces of debris clutter the floor.
+~
+40 4105 1
+D0
+The cave continues on there.
+~
+~
+0 0 4033
+D3
+The cave continues on there.
+~
+~
+0 0 4003
+S
+#4035
+Bend in the Cave~
+   The cave bends around here from the east to the north.  Scattered
+pieces of bone lay strewn about the floor in this cave, along with the
+broken remains of several spears and crude weapons.  From the looks
+of it, a large battle was fought here some time ago.
+~
+40 4105 1
+D0
+The cave narrows into a tighter passageway there.
+~
+~
+0 0 4036
+D1
+There is a cave junction in that direction.
+~
+~
+0 0 4032
+S
+#4036
+Tight Passage~
+   The walls of this passageway are composed entirely of clay, squeezing
+together to form a four foot wide corridor.  The passage itself makes a
+thirty foot run from north to south where it opens into larger caves.
+~
+40 4105 1
+D0
+The passage opens into an intersection of some kind.
+~
+~
+0 0 4037
+D2
+The passage opens into a cave there.
+~
+~
+0 0 4035
+S
+#4037
+Intersection in the Caves~
+   Four different caves and passages come together here in this circular
+chamber, running off to the north, south, east, and west.  The chamber
+itself is about twenty feet around with a domed ceiling of clay and stone.
+~
+40 4109 1
+D0
+A small passage runs in that direction.
+~
+~
+0 0 4050
+D1
+A somewhat larger cave is there.
+~
+~
+0 0 4038
+D2
+A tight passage leads into darkness there.
+~
+~
+0 0 4036
+D3
+The cave gets much larger in that direction.
+~
+~
+0 0 4054
+S
+#4038
+Damp Cave~
+   A large pool of water dominates the center of this forty foot wide
+cave, filling the air with a thick humidity.  The walls all look wet from
+condensation, and an occasional dripping sound can be heard as water
+collects on the ceiling and falls into the pool below.  The cave continues
+to the east.
+~
+40 4105 2
+D1
+The damp cave continues.
+~
+~
+0 0 4039
+D3
+There is an intersection in the caves there.
+~
+~
+0 0 4037
+S
+#4039
+Damp Cave~
+   There are several small pools of stagnant water in this section of the
+damp cave.  Condensation covers the walls giving them a 'wet' look, and
+water drips down from the ceiling above making eerie splashing noises.
+The cave continues on to the west, and opens into a tunnel east of here.
+~
+40 4105 1
+D1
+The cave opens onto a tunnel there.
+~
+~
+0 0 4040
+D3
+The damp cave continues.
+~
+~
+0 0 4038
+S
+#4040
+Tunnel's End~
+   The long tunnel comes to an end here at a caved-in wall, nearly
+preventing further access to the north.  The western wall of the tunnel
+seems to have been naturally corroded away revealing a dark cave from
+which a small stream emerges.  The stream runs down the tunnel's
+midsection towards the south.
+~
+40 4109 1
+D0
+The tunnel leads upwards on an incline there.
+~
+~
+0 0 4101
+D2
+The tunnel continues in that direction.
+~
+~
+0 0 4041
+D3
+The dark cave emits allot of humidity into the air.
+~
+~
+0 0 4039
+E
+stream~
+The stream flows quietly southwards down a shallow groove in the
+tunnel's center.  Its far too murky to drink.
+~
+S
+#4041
+Wide Tunnel~
+   The tunnel is much more roomy here, about twenty feet wide, and runs
+in a general north-south direction.  A small man-made opening in the east
+wall leads into a dark cave beyond.  A stream flows quietly down the
+tunnel's center to the south.
+~
+40 4109 1
+D0
+The tunnel comes to an end up ahead there.
+~
+~
+0 0 4040
+D1
+The opening leads into a dimly lit cave.
+~
+~
+0 0 4042
+D2
+The tunnel continues.
+~
+~
+0 0 4030
+E
+stream~
+The stream flows slowly southwards down the center of the tunnel,
+with water that is far too murky to drink.
+~
+S
+#4042
+Filthy Lair~
+   This fifty-foot rounded chamber is apparently the home for a number
+of orcs.  The air is filled with smoke, and smells of body odor and decayed
+meat.  The embers of a fire can be seen to the south, and the cave continues
+to the east.
+~
+40 4105 1
+D1
+The cave continues in that direction.
+~
+~
+0 0 4043
+D2
+A fire can be seen in that direction.
+~
+~
+0 0 4047
+D3
+The opening leads back out into the tunnel.
+~
+~
+0 0 4041
+S
+#4043
+Filthy Lair~
+   The egg-shaped cave is much larger here, extending eighty feet to
+the north and south.  Pieces of broken furniture lay scattered about
+on the ground.  There is a smaller cave to the north, but the main cave
+continues west and south of here.
+~
+40 4105 1
+D0
+The small cave looks a bit cleaner than this one.
+~
+~
+0 0 4048
+D2
+The main cave continues in that direction.
+~
+~
+0 0 4044
+D3
+The main cave continues in that direction.
+~
+~
+0 0 4042
+S
+#4044
+Flat Cave~
+   This chamber of the cave seems to be a resting or sleeping area, as
+old and torn up blankets lay everywhere.  Almost all of the blankets
+smell horrible, and are caked with mud and grime  The cave continues
+to the north and south of here.
+~
+40 4105 1
+D0
+The main cave of this lair is there.
+~
+~
+0 0 4043
+D1
+~
+~
+0 0 4123
+D2
+The flat cave continues.
+~
+~
+0 0 4045
+E
+blanket blankets~
+The blankets are absolutely disgusting, and of no value to anyone
+but filthy orcs.  A horrible odor rises off of them.
+~
+S
+#4045
+End of a Flat Cave~
+   This chamber of the cave seems to be a resting or sleeping area, as
+old and torn up blankets are everywhere.  Almost all of the blankets
+smell horrible, and are caked with mud and grime.  The cave continues
+to the north, and an unpleasant smell emanates from the west.
+~
+40 4105 1
+D0
+The flat cave continues.
+~
+~
+0 0 4044
+D3
+There is a smaller cave in that direction.
+~
+~
+0 0 4046
+E
+blanket blankets~
+The blankets are absolutely disgusting, and of no value to anyone but
+filthy orcs.  A horrible odor rises off of them.
+~
+S
+#4046
+Sloped Cave~
+   This cave angles downwards to the north at about a thirty degree
+angle, with the highest point connecting to a cave east of here.
+Hundreds of small bones lay scattered all over the floor along with
+bits of rotting food, indicating that this must be an eating area.
+~
+40 4105 3
+D0
+The glowing embers of several fires can be seen there.
+~
+~
+0 0 4047
+D1
+The cave gets much more flat there.
+~
+~
+0 0 4045
+S
+#4047
+Smoke-Filled Cave~
+   The air in this cave is clouded with the smoke of eight different
+fires scattered about the cave every ten feet or so.  A faint shaft
+of light beams downwards from a hole in the ceiling, obviously used
+for ventilation.  The cave continues both north and south of here.
+~
+40 4105 2
+D0
+The main cave in this lair is there.
+~
+~
+0 0 4042
+D2
+The cave slopes upwards in that direction.
+~
+~
+0 0 4046
+E
+fire fires~
+The fires are each contained in shallow fire pits, surrounded by neatly
+placed rocks.  There are cooking utensils around some of them, and a pile
+of wood used for stoking the fires is next to the cave's wall.
+~
+S
+#4048
+End of the Lair~
+   This area in the lair is a bit cleaner, and smells a bit less offensive
+than the other caves nearby.  An old card table and several chairs
+occupy the cave's center, which is about twenty feet in size.  There is
+a small archway to the north, while the main cave is back to the south.
+~
+40 4105 1
+D0
+The archway leads into a dark room.
+~
+~
+0 0 4049
+D2
+The main cave of this lair is there.
+~
+~
+0 0 4043
+S
+#4049
+Small Chamber~
+   This sparsely furnished cave is about ten feet around in size
+containing a bed made from straw, a large table, and a comfortable
+looking chair.  This room looks as though it might serve as a leader's
+bedroom.  The only exit from here is back to the south, through a
+small archway.
+~
+40 4105 1
+D2
+The archway leads back into the lair.
+~
+~
+0 0 4048
+E
+bed~
+The straw bed looks very crude, but is probably quite cozy all fluffed
+up the way it is.
+~
+E
+chair~
+the chair looks very comfortable, probably stuffed with feathers of straw.
+~
+S
+#4050
+Small Passageway~
+   This cramped tunnel-like passageway runs north to south, connecting
+up to a larger cave on the northern end.  There is an intersection of
+caves to the south of here.  The passage is about five feet across, and
+twenty feet in total length.
+~
+40 4109 1
+D0
+The cave ahead is large, but too dark to make out much else.
+~
+~
+0 0 4051
+D2
+The intersection of caves is there.
+~
+~
+0 0 4037
+S
+#4051
+Damp Cave~
+   The humidity in the air here is very thick, combined with the smells
+of rotting meat.  Dozens of small puddles are scattered about the thirty
+foot cave, which opens up wider to the east.  A small corridor cuts south
+into the darkness.
+~
+40 4109 3
+D1
+The cave gets much larger there.
+~
+~
+0 0 4052
+D2
+The small passageway leads into darkness.
+~
+~
+0 0 4050
+S
+#4052
+Cave of Many Pools~
+   Several foot-deep pools occupy this large cave, which extends to the
+east about a hundred feet or so.  The air here is very humid and stale,
+with condensation dripping down the walls and ceiling producing eerie
+splashing noises every now and then.  There is a very deep pool to the
+south.
+~
+40 4105 3
+D0
+~
+~
+0 0 4122
+D1
+The damp cave continues in that direction.
+~
+~
+0 0 4053
+D2
+The pool is large enough to require a boat.
+~
+~
+0 0 4095
+D3
+A much drier cave leads away from all of these pools in that direction.
+~
+~
+0 0 4051
+S
+#4053
+Cave of Many Pools~
+   Several foot-deep pools occupy this large cave, which extends to the
+west about a hundred feet or so.  The air here is very humid and stale,
+with condensation dripping down the walls and ceiling producing eerie
+splashing noises every now and then.  There is a very deep pool to the
+south.
+~
+40 4105 3
+D0
+~
+~
+0 0 4121
+D1
+~
+~
+0 0 4094
+D2
+The pool is large enough to require a boat.
+~
+~
+0 0 4096
+D3
+The damp cave continues in that direction.
+~
+~
+0 0 4052
+S
+#4054
+Large Cave~
+   This cave is allot bigger than those back to the east, spanning some
+forty feet in width and a hundred feet or so in length.  The cave continues
+to the west, while an intersection of caves is to the east of here.
+~
+40 4105 2
+D1
+The intersection of caves is there.
+~
+~
+0 0 4037
+D3
+The large cave continues there.
+~
+~
+0 0 4055
+S
+#4055
+Large Cave~
+   The cave rises to a height of fifty feet here, and continues along
+westward as far as the eye can see, while tapering to a small opening
+just east of here.  The walls and ceiling are composed entirely of rock,
+with small flakes of minerals catching and reflecting light around the
+cave.
+~
+40 4105 2
+D1
+The large cave continues there.
+~
+~
+0 0 4054
+D3
+The large cave continues there.
+~
+~
+0 0 4056
+S
+#4056
+Large Cave~
+The cave rises up to a height of fifty feet here, and continues to the
+west, north, and east for some distance.  The walls and ceiling glitter
+in the light from large quantities of minerals contained in the rock.
+~
+40 4105 2
+D0
+The cave makes a turn up ahead there.
+~
+~
+0 0 4059
+D1
+The large cave continues there.
+~
+~
+0 0 4055
+D3
+The large cave continues there.
+~
+~
+0 0 4057
+S
+#4057
+Golden Cave~
+   The walls of this cave are caked with minerals, reflecting light
+around in a golden hue, making this area much brighter and more
+interesting to look at.  While this cave is still large, rising up some
+thirty feet, it is not as big as those back to the east.  The golden
+cave continues to the west.
+~
+40 4105 2
+D1
+The cave gets much larger there.
+~
+~
+0 0 4056
+D3
+The golden cave continues.
+~
+~
+0 0 4058
+S
+#4058
+Golden Cave~
+   The walls of this cave are caked with minerals, reflecting light
+around in a golden hue, making this area much brighter and more
+interesting to look at.  The cave makes a bend here from the north
+around to the east.
+~
+40 4105 2
+D0
+The golden cave continues.
+~
+~
+0 0 4061
+D1
+The golden cave continues.
+~
+~
+0 0 4057
+S
+#4059
+Golden Cave~
+   The walls of this cave are caked with minerals, reflecting light
+around in a golden hue, making this area much brighter and more
+interesting to look at.  There is a much larger cave to the south,
+while the golden cave continues to the west.
+~
+40 4105 2
+D2
+The cave gets much larger in that direction.
+~
+~
+0 0 4056
+D3
+The golden cave continues.
+~
+~
+0 0 4060
+S
+#4060
+Golden Cave~
+   The walls of this cave are caked with minerals, reflecting light
+around in a golden hue, making this area much brighter and more
+interesting to look at.  This section of the cave is a bit smaller,
+only about fifteen feet high, but expands into larger areas to the
+east and west.
+~
+40 4105 2
+D1
+The golden cave continues.
+~
+~
+0 0 4059
+D3
+The golden cave continues.
+~
+~
+0 0 4061
+S
+#4061
+Golden Cave~
+   The walls of this cave are caked with minerals, reflecting light
+around in a golden hue, making this area much brighter and more
+interesting to look at.  There is small alcove to the west, while the
+golden caves continue to the east and south of here.
+~
+40 4105 2
+D1
+The golden cave continues.
+~
+~
+0 0 4060
+D2
+The golden cave continues.
+~
+~
+0 0 4058
+D3
+There is a rather large hole in the cave floor there.
+~
+~
+0 0 4062
+S
+#4062
+Hole in the Cave Floor~
+   A hole ten feet in diameter boroughs into the ground of this small
+alcove, leading down into darkness.  It looks as though the hole was
+made naturally, not carved out by hand.  The golden cave is back to the
+east from here.
+~
+40 4105 2
+D1
+The golden cave continues.
+~
+~
+0 0 4061
+D5
+It is too dark to see what is at the bottom.
+~
+~
+0 0 4063
+S
+#4063
+Bottom of a Hole~
+   This circular chamber is composed of mostly stone and clay, with many
+deep scratches dug into the walls.  There is a small wooden trap door set
+in the ground here, about three feet square with a large metal ring on one
+edge.  The hole leads back upwards into darkness...
+~
+40 4105 5
+D4
+The top of the hole is there.
+~
+~
+0 0 4062
+D5
+The trap door leads down into darkness..
+~
+trapdoor trap~
+1 0 4064
+S
+#4064
+Rounded Cave~
+   This cave is about sixty feet in diameter with rounded walls composed
+of clay and stone.  Bones and bits of debris lay strewn about.  There are
+passages leading north and east from here.
+~
+40 4105 2
+D0
+The passage leads north.
+~
+~
+0 0 4065
+D1
+You can make out another cave there.
+~
+~
+0 0 4077
+D4
+The trapdoor leads back into the hole above.
+~
+trapdoor trap~
+1 0 4063
+S
+#4065
+North-South Passage~
+   This rocky passageway looks as though it was carved out by miners at
+some point, as chisel and gouge marks cover the walls and ceiling.  It
+is about ten feet high and fifteen feet wide, running north to south.
+~
+40 4105 2
+D0
+The passage continues.
+~
+~
+0 0 4066
+D2
+There is a cave in that direction.
+~
+~
+0 0 4064
+S
+#4066
+Bend in Passageway~
+   The carved out passageway bends around, running east to south here.
+Small mineral deposits in the walls catch and reflect light around the
+room.  The deposits seem to get more abundant to the east.
+~
+40 4105 2
+D1
+The passageway continues.
+~
+~
+0 0 4067
+D2
+The passageway continues.
+~
+~
+0 0 4065
+S
+#4067
+Mineral Deposit~
+   The passage here was been carved out wider than the others nearby.  The
+walls and ceiling are covered with thick mineral deposits of many different
+kinds of metal and ore, some of them valuable, and much of it glittering
+gold from small flecks.  There is something on the wall. The passage ways
+open back up to the east and west.
+~
+40 4105 2
+D1
+The passage continues into darkness.
+~
+~
+0 0 4068
+D3
+The passage continues into darkness.
+~
+~
+0 0 4066
+E
+wall~
+Beneath some of the mineral dust you can see some lines of text.
+~
+E
+text~
+The text reads:
+
+     I found the answer! Elenar told me post it here, though I think this
+  place too unsafe still.  I will hide the name of his majesty amidst the
+   sands of the Calim dessert, for I must travel there next.. I have heard
+   rumors of an ancient and magical oasis somewhere within, and shall
+    leave another clue there..
+
+                          Moralon
+~
+S
+#4068
+Cramped Passageway~
+   This passageway is only about five feet high and six feet wide,
+making travel difficult.  It looks as if the mining of this particular
+area was suddenly halted for some reason.  There are exits to the north,
+south, and west of here.
+~
+40 4105 5
+D0
+The cave opens up into a larger area.
+~
+~
+0 0 4069
+D2
+The low cavern continues onward.
+~
+~
+0 0 4072
+D3
+There is a sparkling corridor there.
+~
+~
+0 0 4067
+S
+#4069
+Stalactite Cavern~
+   The cave opens into a large cavern here, probably a hundred feet high
+and eighty feet around.  The ground is smooth, and hundreds of stalactites
+hang from the ceiling above, resembling a giant wall of thorns.  The cavern
+continues on to the east.
+~
+40 4105 2
+D1
+The cavern continues in that direction.
+~
+~
+0 0 4070
+D2
+You can make out a cramped cave there.
+~
+~
+0 0 4068
+S
+#4070
+Stalactite Cavern~
+   This hundred foot tall cavern is studded with dozens of large stalactites
+hanging ominously from the ceiling.  The floor is smooth without any
+stalagmites, which seems odd.  The cavern continues onto the west,
+and a smaller area opens to the east.
+~
+40 4105 2
+D1
+You can see a smaller cave there.
+~
+~
+0 0 4071
+D3
+The cavern continues in that direction.
+~
+~
+0 0 4069
+S
+#4071
+Rocky Cave~
+   Large rocks and small stalagmites cover the floor of this cave,
+making travel very difficult.  The rounded ceiling rises twenty feet
+above, providing an eerie, hollow echo to the area.  There is a large
+cavern to the west.
+~
+40 4105 4
+D2
+A long cave runs in that direction.
+~
+~
+0 0 4074
+D3
+A large cavern is there.
+~
+~
+0 0 4070
+S
+#4072
+Low Cavern~
+   This cavern's ceiling is only seven feet high, but is glassy smooth.
+A small pile of bones sits in one corner.  The cave gets more precarious
+to the north, and a tiny crawl way runs to the east.
+~
+40 4105 3
+D0
+There is a very cramped cave there.
+~
+~
+0 0 4068
+D1
+A tiny crawl way is there.
+~
+~
+0 0 4073
+E
+bones~
+The bones look like the skeleton of a small humanoid that was crushed
+to death by something.  There isn't much left of it.
+~
+S
+#4073
+Tiny Crawl Way~
+   This hallway is only three feet wide at best, and studded with protruding
+rocks and horizontal stalagmites, almost inhibiting passage through it
+completely.  It runs in a general east-west direction, and continues on
+for perhaps fifty yards in either direction.
+~
+40 4105 5
+D1
+The passage opens into a cave there.
+~
+~
+0 0 4074
+D3
+The passage opens into a low cavern there.
+~
+~
+0 0 4072
+S
+#4074
+Large Rocky Carvern~
+   This cavern is cluttered with dozens of very large boulders, each about
+twenty to thirty feet high.  The cavern itself is perhaps a hundred feet
+tall, and several hundred feet in length.  There is a tiny crawl way in
+the western wall.
+~
+40 4105 2
+D0
+The rocky cavern continues there.
+~
+~
+0 0 4071
+D2
+The cavern gets larger there.
+~
+~
+0 0 4075
+D3
+A tiny crawl way leads onward into darkness there.
+~
+~
+0 0 4073
+S
+#4075
+Stalagmite Mound~
+   A mammoth stalagmite mound rises up into the ceiling of this very tall
+cavern.  The mound is about two hundred feet in diameter at its base, and
+dull gray in color.  The floor and walls are uneven, yet glassy smooth,
+resembling a mud slide that froze solid.  There is also a large boulder
+covering something on the eastern wall.  Caverns exit to the north and
+south of here.
+~
+40 4105 1
+D0
+The cavern is a bit smaller there.
+~
+~
+0 0 4074
+D1
+The bounder is large, but doesn't look that heavy.
+~
+boulder~
+1 0 4076
+D2
+The cavern is a bit smaller there.
+~
+~
+0 0 4082
+E
+boulder~
+
+The boulder looks as if it was put there intentionally, and appears to
+be blocking another exit from this cavern.
+~
+S
+#4076
+Carved Out Room~
+   This smelly chamber is about twenty feet square, and was probably carved
+out by miners at some point.  There is a fire pit in the middle of the room
+and a large black pot near it, with piles of junk and debris scattered about.
+The smell of rotten food and feces is nearly unbearable, but is quenched
+somewhat by a cool draft coming from somewhere.  The only visible exit from
+the area is back to the west.
+~
+40 36873 1
+D3
+The stalagmite mound is there.
+~
+boulder~
+1 0 4075
+D5
+Nothing special there...
+~
+secret trapdoor~
+2 4004 4090
+E
+fire pit pot~
+A large black pot sits right next to the fire pit, glowing orange from the
+light of its embers.  The pot is coated with green slime, and is revolting
+to even look at.  What is curious is that the floor about three feet to the
+right doesn't look right.. A secret trapdoor?
+~
+S
+#4077
+Rough Cave~
+   This cave looks as if it was carved out in a hurry by something.  The
+walls and floor are rough and covered with stones and chunks of wood.
+Deep cuts and gouges scar the ceiling, making the cave look rather
+unstable.  The cave continues to the east and west, while a passage
+runs to the south.
+~
+40 4105 2
+D1
+The rough cave continues there.
+~
+~
+0 0 4078
+D2
+The is a passage way there.
+~
+~
+0 0 4087
+D3
+The rough cave continues there.
+~
+~
+0 0 4064
+S
+#4078
+Rough Cave~
+    This cave looks as if it was carved out in a hurry by something.  The
+walls and floor are rough and covered with stones and chunks of wood.
+Deep cuts and gouges scar the ceiling, and make the cave look very
+unstable.  The floor in part of the cave here has collapsed, revealing
+a rocky passage below.  The cave continues back to the west.
+~
+40 4105 2
+D3
+The rough cave continues there.
+~
+~
+0 0 4077
+D5
+There is a dark passage way there.
+~
+~
+0 0 4079
+S
+#4079
+Natural Passageway~
+   This passageway was obviously carved out by an underground river
+many thousands of years ago.  The rock formations of this curving
+hallway are both beautiful and elegant looking, with many icicle-like
+stalactites hanging from the ceiling.  The passageway continues
+onward to the west.
+~
+40 4105 2
+D1
+The natural passageway continues there.
+~
+~
+0 0 4080
+D4
+You can make out a rough looking cave above.
+~
+~
+0 0 4078
+S
+#4080
+Curve in Passageway~
+   The natural passageway makes a gradual curve here, turning
+from west to south.  Fragile looking stalactites and stalagmites
+decorate the floors and ceiling of this thin passage.
+~
+40 4105 2
+D2
+The passage way continues there.
+~
+~
+0 0 4081
+D3
+The passage way continues there.
+~
+~
+0 0 4079
+S
+#4081
+Cavern of Stone Teeth~
+   This cavern has a huge line of stalactites and stalagmites running across
+its center, nearly blocking the passageway beyond.  A large crack in the
+ceiling drips water down upon the stalagmites, making the formation look
+like a huge maw of razor sharp teeth.  The overall effect is beautiful, but
+a bit unnerving.  Three passages lead away from the area to the north, east,
+and south.
+~
+40 4105 2
+D0
+The passage way bends up ahead.
+~
+~
+0 0 4080
+D1
+There is a cavern in that direction.
+~
+~
+0 0 4082
+D2
+The cavern gets much larger in that direction.
+~
+~
+0 0 4083
+S
+#4082
+Rocky Cavern~
+   The narrow cavern extends about two hundred feet in length.
+Massive rocks lean against the walls here, revealing a thin trail
+through the center, running north to west.  The air is noticeably
+more humid here.
+~
+40 4105 2
+D0
+You can make out a large stalagmite there.
+~
+~
+0 0 4075
+D3
+There is a smaller cavern there.
+~
+~
+0 0 4081
+S
+#4083
+Great Cavern~
+   This cavern reaches up literally hundreds of feet, almost beyond
+the range of normal vision.  At the very top a shaft of sunlight cuts
+into the darkness from a small hole.  Dozens of tiny ledges protrude
+from the walls of this immense cavern.  There is also huge opening
+in the floor here, where the great cavern continues downwards.  The
+air here is very thick with moisture and the smell of minerals.
+~
+40 4105 2
+D0
+A smaller passage opens there.
+~
+~
+0 0 4081
+D3
+The cavern narrows there.
+~
+~
+0 0 4084
+D5
+A small vertical cavern leads down into darkness.
+~
+~
+0 0 4112
+S
+#4084
+Pool of Water~
+   There is a twenty foot pool of clear water at the center of this smaller
+side-cavern.  The air is very thick with humidity and the smells of minerals.
+A huge cavern opens up to the east, and a tight scramble leads upwards to
+a cave above.
+~
+40 4105 2
+D1
+You can see a massive cavern there.
+~
+~
+0 0 4083
+D4
+There is a small cave above.
+~
+~
+0 0 4085
+E
+pool~
+The pool's water swirls in small currents, indicating that it is probably
+very deep, and you cannot see the bottom.
+~
+S
+#4085
+Small Niche~
+   This very small cave is at most ten feet in size with a very low ceiling.
+Bits of rock and wood jut outwards from the walls and floor.  A tight
+passage way opens to the west, and a small hole in the ground leads
+downwards into a cavern.
+~
+40 4105 3
+D3
+You can make out a tight passage way there.
+~
+~
+0 0 4086
+D5
+You can make out a small cavern there.
+~
+~
+0 0 4084
+S
+#4086
+Tight Passageway~
+   A thick layer of sludge covers the floor of this cramped passageway,
+which splits off in three directions running to the west, north, and east.
+Fragments of bone and rock mix in with the mud making this area rather
+annoying to walk around in.
+~
+40 4105 2
+D0
+The passage way continues there.
+~
+~
+0 0 4087
+D1
+You can make out a small niche in the cave there.
+~
+~
+0 0 4085
+D3
+The passage opens into a rocky cave.
+~
+~
+0 0 4088
+S
+#4087
+Tight Passageway~
+   The ground of this hallway is covered with muddy water that smells
+anything but pleasant, and continues to the south.  A rough cave opens
+up to the north of here.
+~
+40 4105 2
+D0
+You see a larger cave there.
+~
+~
+0 0 4077
+D2
+The passage way continues.
+~
+~
+0 0 4086
+S
+#4088
+Rocky Lair~
+   This bi-level cave is about thirty feet in diameter.  Seven feet off
+the ground level, a large ledge runs around the perimeter of the
+room, and is cluttered with bones and rubble.  The only exits out
+of here are to the east and south, where the lair continues.
+~
+40 4105 2
+D1
+There is a muddy passage way there.
+~
+~
+0 0 4086
+D2
+The lair continues.
+~
+~
+0 0 4089
+S
+#4089
+Rocky Lair~
+   The south end of this lair is occupied by a large stone ledge, rising
+six feet off the ground and running twenty or so feet back into the cave.
+A large pile of debris clutters the floor, composed mostly of bones and
+rotted out clothing.  The lair continues back to the north.
+~
+40 4105 2
+D0
+The lair continues.
+~
+~
+0 0 4088
+E
+debris~
+It looks as if several humanoid creatures were eaten here, and their remains
+discarded in this large, smelly pile.
+~
+S
+#4090
+Long Vertical Tunnel~
+   This cold, rocky tunnel runs a hundred or so feet strait up and down.
+Thousands of cuts and crevices in the stone provide a dangerous, but
+manageable means of climbing here, though levitation or flight would
+be necessary for further travel downwards.  A cool, humid breeze blows
+upwards.  There is light coming from somewhere above.
+~
+40 12301 5
+D4
+You can make out the edges of a trapdoor there.
+~
+secret trapdoor~
+2 4004 4076
+D5
+The vertical tunnel continues.
+~
+~
+0 0 4091
+S
+#4091
+Long Vertical Tunnel~
+   This cold, rocky tunnel runs a hundred or so feet strait up and down.
+The dozens of cuts and crevices in this section of the tunnel are far
+too small for climbing here.  A very cool and humid breeze blows upwards.
+~
+40 12301 8
+D4
+The tunnel continues...
+~
+~
+0 0 4090
+D5
+The tunnel continues...
+~
+~
+0 0 4097
+S
+#4092
+Wide Vertical Tunnel~
+   The tunnel here is widens out to about ten feet around.  The rocky
+walls are wet from the thick humidity on the air, making the travel very
+dangerous.  A cold breeze whips around, and the distinct sound of
+running water can be heard from below.
+~
+40 12301 8
+D4
+The tunnel continues...
+~
+~
+0 0 4100
+D5
+You can't make out what's ahead there.
+~
+~
+0 0 4093
+S
+#4093
+Below a Vertical Tunnel~
+   A black cavern stretches into the distance to the east here, leading
+eventually to a huge north-south flowing river.  The cold, humid air is
+thick with the smell of lime and other subterranean minerals.  Upwards,
+a small tunnel leads into darkness.  There is a flat rock on the ground
+here that has a message carved upon it.
+~
+40 4109 1
+D4
+The tunnel leads back up into darkness.
+~
+~
+0 0 4092
+D5
+~
+~
+0 0 709664
+E
+rock~
+
+The message is scribed in very elegant common, and reads :
+.
+   I have traveled the Underworld far and wide, and seen more horrible and
+wretched monsters down in these caves then any on the surface world.  Be
+warned brave and noble traveler, this underworld can deliver a swift and
+merciless death to any but the strong of heart, and great of power.  Do not
+proceed down this river unless you yourself can defeat these powerful beasts,
+for I have seen them and what they can do.  While I myself have felled many
+of the foul things, I have achieved the highest level of fighting ability,
+and still almost died on more than one occasion!  I suggest you not travel
+alone, for it may make the journey less perilous...
+.
+.                              Miax the world traveler
+~
+S
+#4094
+Huge Pool~
+   This large pool of water is probably very deep, though the water is far
+too murky to tell, and continues on to the west.  The pool is about forty feet
+in diameter, ending on the southern cave-wall, with a rocky shore to the
+north.
+~
+40 4105 7
+D3
+~
+~
+0 0 4053
+S
+#4095
+Huge Pool~
+   This large pool of water is probably very deep, though the water is far
+too murky to tell, and continues on to the east.  The pool is about forty feet
+in diameter, ending on the southern cave-wall with a rocky shore to the
+north.
+~
+40 4105 7
+D0
+The pool ends upon a rocky shore there.
+~
+~
+0 0 4052
+D1
+The pool continues there.
+~
+~
+0 0 4096
+S
+#4096
+Huge Pool~
+   This large pool of water is probably very deep, though the water is far
+too murky to tell, and continues on to the west.  The pool is about forty feet
+in diameter, ending on the southern cave-wall, with a rocky shore to the
+north.
+~
+40 4105 7
+D0
+The pool ends upon a rocky shore there.
+~
+~
+0 0 4053
+D3
+The pool continues there.
+~
+~
+0 0 4095
+S
+#4097
+Tight Squeeze in a Vertical Tunnel~
+   A huge rock protrudes into the tunnel here, nearly cutting
+off all access to further vertical travel.  The boulder looks like
+it was pushed into the tunnel from above, perhaps in an attempt
+to close off the tunnel all together.
+~
+40 8205 8
+D4
+The tunnel continues.
+~
+~
+0 0 4091
+D5
+The tunnel continues.
+~
+~
+0 0 4098
+S
+#4098
+Vertical Tunnel~
+   This cold, rocky tunnel runs a hundred or so feet straight up and down.
+The walls in this area of the tunnel are glassy smooth, and wet from
+the thick humidity on the air.  A cool and humid breeze blows upwards.
+~
+40 8205 8
+D4
+The tunnel continues.
+~
+~
+0 0 4097
+D5
+The tunnel continues.
+~
+~
+0 0 4099
+S
+#4099
+Wide Vertical Tunnel~
+   The tunnel here is widens out to be about ten feet around.  The rocky
+walls are wet from the thick humidity on the air, making the travel very
+dangerous.  A cold breeze whips around, and the distinct sound of running
+water can be heard from far below.
+~
+40 8205 8
+D4
+The wide tunnel continues...
+~
+~
+0 0 4098
+D5
+The wide tunnel continues...
+~
+~
+0 0 4100
+S
+#4100
+Wide Vertical Tunnel~
+   The tunnel here is widens out to be about ten feet around.  The rocky
+walls looks as though they were gouged by hammers or spikes, indicating
+that someone obviously tried climbing up or down the tunnel at some point.
+A strong, cold breeze whips around, and the distinct sound of running
+water echoes loudly off the walls.
+~
+40 8205 8
+D4
+The wide tunnel continues...
+~
+~
+0 0 4099
+D5
+The tunnel ends down there.
+~
+~
+0 0 4092
+S
+#4101
+Slanted Tunnel~
+   The tunnel slants upwards here at a forty-five degree angle,
+continuing for about a hundred feet before it breaks out into
+sunlight up ahead.  The walls of this corridor resemble a mining
+tunnel, with ancient-looking wooden support beams staggered
+every ten feet or so.
+~
+40 4109 1
+D0
+The tunnel continues on.
+~
+~
+0 0 4102
+D2
+The tunnel leads back into the mountain there.
+~
+~
+0 0 4040
+S
+#4102
+Slanted Tunnel~
+  The tunnel slants upwards here at a forty-five degree angle,
+continuing for another fifty feet before it breaks out into
+sunlight up ahead.  The walls of this corridor resemble a mining
+tunnel, with ancient-looking wooden support beams staggered
+every ten feet or so.  The tunnel continues to the south.
+~
+40 4109 1
+D2
+The tunnel continues.
+~
+~
+0 0 4101
+D4
+The tunnel leads outside there.
+~
+~
+0 0 4103
+S
+#4103
+On a Mountainside~
+   The tunnel opens onto the northern mountain face here, offering
+a spectacular view of the country side below.  The air is crisp and
+clear at this elevation, about five hundred feet up.  A steep but
+climbable path leads down the north face, just west of here, and
+continues to the north from the mountain's base beyond the range
+of sight through a great forest.
+~
+40 4 5
+D3
+A path start up there, that leads down the mountain.
+~
+~
+0 0 4108
+D4
+A step scramble leads upwards.
+~
+~
+0 0 4104
+D5
+The tunnel opening leads into darkness.
+~
+~
+0 0 4102
+S
+#4104
+High on a Mountainside~
+   The view of the countryside from this height is fabulous, with
+miles upon miles of endless forest leading into the horizon.  A
+steep path leads downwards where a cave entrance can be seen,
+and continues upwards to a small ledge above.
+~
+40 4 5
+D4
+A small ledge is barely accessible up above.
+~
+~
+0 0 4105
+D5
+The path leads downwards.
+~
+~
+0 0 4103
+S
+#4105
+Small Ledge on a Mountainside~
+   This ledge is only about ten feet deep and twenty feet wide.
+A cave mouth at the back of the ledge leads into the mountain here,
+though it is too dark to see what is inside.  The view from this
+height is wondrous, showing miles of beautiful landscape beyond.
+~
+40 4 5
+D2
+It is too dark to see what is in the cave.
+~
+~
+0 0 4106
+D5
+A tight scramble leads downwards.
+~
+~
+0 0 4104
+S
+#4106
+Small Cave~
+   This cave is only about twenty feet around in size, and continues
+to the south, where it gets a bit larger.  Many small rocks and bits
+of debris clutter the cave floor.  A huge stream of light pours in from
+the cave entrance to the north, leading out onto the mountain.
+~
+40 4109 2
+D0
+The cave entrance opens onto a small ledge.
+~
+~
+0 0 4105
+D2
+The cave continues into darkness.
+~
+~
+0 0 4107
+S
+#4107
+Back of a Small Cave~
+   The cave is a bit larger here, about thirty feet around in size,
+and has no visible exits other than to the north.  The skeletal
+remains of a long dead humanoid lies here, wearing old rotted
+out leather armor, and appears to have been crushed by something.
+~
+40 4109 1
+D0
+The cave continues in that direction.
+~
+~
+0 0 4106
+E
+skeleton skeletal corpse~
+It looks like the remains of a human, and from the large hole in the
+front of the armor and the broken ribs, it looks as though this one
+met a painful end.  There is nothing of value left in the corpse.
+~
+S
+#4108
+Path on a Mountainside~
+   A pathway of stones has been intentionally laid out here, cutting
+a straight course down the mountainside in a northerly direction.  The
+path leads strait to the mountains base from here, where it heads off
+into an evergreen forest.
+~
+40 4 5
+D0
+The path leads down the mountain side there.
+~
+~
+0 0 4109
+D1
+There is a mine shaft or cave entrance there.
+~
+~
+0 0 4103
+S
+#4109
+Path on a Mountainside~
+   A pathway of stones has been intentionally laid out here, cutting
+a straight course down the mountainside in a northerly direction, and
+gets a bit wider directly ahead.  The path leads straight to the mountain's
+base from here, where it heads off into an evergreen forest.
+~
+40 4 5
+D0
+The path continues, getting a bit wider.
+~
+~
+0 0 4110
+D2
+The path continues up the mountain.
+~
+~
+0 0 4108
+S
+#4110
+Wide Path on a Mountainside~
+   The path gets a little wider here, laid out with large flat rocks
+making travel downwards much easier.  The mountain's base is
+a short run to the north, and the path continues upwards high
+onto the mountainside where a small dark blemish can be seen.
+There is a huge forest just north of the mountain's base.
+~
+40 4 4
+D0
+The mountains base is there.
+~
+~
+0 0 4111
+D2
+The path continues upwards into the mountain.
+~
+~
+0 0 4109
+S
+#4111
+Path at the Base of a Mountain~
+   A pathway of stones climbs up into the mountain from here,
+stretching out of sight.  A meadow of grass surrounds the
+mountain's base, and continues outwards for about a hundred
+feet where it meets a great evergreen forest.  The mountain
+looks rather small compared to many in the region, but is still
+about two thousand feet high.
+~
+40 4 2
+D1
+The path continues.
+~
+~
+0 0 153645
+D2
+The path leads back up into the mountain.
+~
+~
+0 0 4110
+S
+#4112
+Vertical Cavern~
+   This natural cavern is an extension of the larger one above, but is only
+about fifty feet in diameter and leads downwards about a hundred feet.
+The handholds here are numerous and climbing up or down is possible
+without too much risk of falling.  The air in this cavern is also a bit state
+and smoky.
+~
+40 4109 5
+D4
+the great cavern is a short climb upwards.
+~
+~
+0 0 4083
+D5
+The vertical cavern continues downwards.
+~
+~
+0 0 4113
+S
+#4113
+Vertical Cavern~
+   This natural cavern is an extension of the larger one above, but is only
+about fifty feet in diameter and leads downwards about a hundred feet.
+The handholds here are numerous and climbing up or down is possible
+without too much risk of falling.  The air in this cavern is also a bit stale
+and smoky.
+~
+40 4109 5
+D4
+The vertical cavern continues upwards.
+~
+~
+0 0 4112
+D5
+The cavern comes to an end down there.
+~
+~
+0 0 4114
+S
+#4114
+Burned-Out Cavern~
+   The vertical cavern comes to an end here about a hundred
+feet below the great cavern.  The walls of this area look like
+they have been scorched by alot of flame at one time, taking
+on a flat black color.  The skeletons of several humanoids lie
+scattered about the cavern floor here, all of them looking as if
+they were burned to death.  There is definitely a dragons lair
+somewhere nearby..
+~
+40 4109 3
+D1
+A blackened tunnel leads into darkness.
+~
+~
+0 0 4115
+D4
+The vertical cavern leads upwards.
+~
+~
+0 0 4113
+S
+#4115
+Blackened Tunnel~
+   This tunnel's walls are completely back, and run about a hundred
+or so feet in length.  A very pungent odor fills the air with a foul
+stench, and seems to be coming from a dark cavern to the east,
+at the end of the tunnel.  It smells very much like...dragons?
+~
+40 4109 1
+D1
+The tunnel opens into a large cavern there.
+~
+~
+0 0 4116
+D3
+A large, burned out cavern is there.
+~
+~
+0 0 4114
+S
+#4116
+Burned-Out Lair~
+   This cavern is about two hundred feet in diameter and sixty
+feet high.  The walls are black and utterly charred from flames,
+and the stench here is almost unbearable.  The lair continues to
+the north, while a small tunnel leads west.
+A stone slab stands here, blocking the way north.
+~
+40 4109 1
+D0
+The burned-out lair continues.
+~
+stone slab~
+1 0 4117
+D3
+The tunnel leads into darkness.
+~
+~
+0 0 4115
+S
+#4117
+Burned-Out Lair~
+   This cavern is about two hundred feet in diameter and sixty
+feet high.  The walls are black and utterly charred from flames,
+and the stench here is almost unbearable.  The lair continues to
+the east and south of here.
+A stone slab bars exit to the south.
+~
+40 4109 1
+D1
+The burned-out lair continues.
+~
+~
+0 0 4118
+D2
+The burned-out lair continues.
+~
+stone slab~
+1 0 4116
+S
+#4118
+Burned-Out Lair~
+   This cavern is about two hundred feet in diameter and sixty
+feet high.  The walls are black and utterly charred from flames,
+and the stench here is almost unbearable.  The lair continues to
+the north and south of here.
+~
+40 4109 1
+D0
+The lair comes to an end up ahead there.
+~
+~
+0 0 4119
+D3
+The burned-out lair continues.
+~
+~
+0 0 4117
+S
+#4119
+Back of a Burned-Out Lair~
+   The lair comes to an end in this large cavern that reaches a
+height of nearly eighty feet.  The stench in this area is unbelievable,
+accompanied by a thick smoke that sits heavily upon the air.  The
+only exit from this chamber is back to the south, where the lair
+continues.
+~
+40 32781 1
+D0
+There is a small chamber in that direction.
+~
+~
+0 0 4120
+D2
+The burned-out lair continues.
+~
+~
+0 0 4118
+S
+#4120
+Small Burned-Out Chamber~
+   The walls of this ten-foot chamber look as though they were
+melted at one point by intense heat.  The air here is stale, and
+smells of smoke and dragons.  The only exit is the large cavern
+to the south of here.
+~
+40 4109 2
+D2
+The burned-out lair is there.
+~
+~
+0 0 4119
+S
+#4121
+Huge Pool~
+   This large pool of water is probably very deep, though the water is far
+too murky to tell, and continues on to the west.  The pool is about forty feet
+in diameter, ending on the southern cave-wall, with a rocky shore to the
+north.
+~
+40 4105 7
+D2
+~
+~
+0 0 4053
+S
+#4122
+Huge Pool~
+   This large pool of water is probably very deep, though the water is far
+too murky to tell, and continues on to the west.  The pool is about forty feet
+in diameter, ending on the southern cave-wall, with a rocky shore to the
+north.
+~
+40 4105 7
+D2
+~
+~
+0 0 4052
+S
+#4123
+Flat Cave~
+   This chamber of the cave seems to be a resting or sleeping area, as
+old and torn up blankets lay everywhere.  Almost all of the blankets
+smell horrible, and are caked with mud and grime  The cave continues
+to the north and south of here.
+~
+40 4105 1
+D1
+~
+~
+0 0 4124
+D3
+~
+~
+0 0 4044
+E
+blanket blankets~
+The blankets are absolutely disgusting, and of no value to anyone
+but filthy orcs.  A horrible odor rises off of them.
+~
+S
+#4124
+A Cave Before a Lava Tube&N~
+   This cave stretches to the east here and begins into a
+Lava Tube that seems to have been burnt out of the cave
+from a fiery magma source to the east.  A faint red glow
+is seen in this direction as well as great heat.
+~
+40 0 0
+D0
+~
+~
+0 0 4125
+D3
+~
+~
+0 0 4123
+S
+#4125
+&+rAn Ancient Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 4 0
+D1
+~
+~
+0 0 4126
+D2
+~
+~
+0 0 4124
+S
+#4126
+&+rAn Ancient Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D1
+~
+~
+0 0 4127
+D3
+~
+~
+0 0 4125
+S
+#4127
+&+rA Bend in the Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D2
+~
+~
+0 0 4128
+D3
+~
+~
+0 0 4126
+S
+#4128
+&+rAn Ancient Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D0
+~
+~
+0 0 4127
+D1
+~
+~
+0 0 4129
+S
+#4129
+&+rAn Ancient Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D1
+~
+~
+0 0 4130
+D3
+~
+~
+0 0 4128
+S
+#4130
+&+rThe Mouth of an Ancient Lava Tube&n~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D1
+~
+~
+0 0 556876
+D3
+~
+~
+0 0 4129
+S
+#4131
+&+rA Shaft Opening on the &+RMolten &+yRim~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D0
+~
+~
+0 0 556876
+D5
+~
+~
+0 0 4132
+S
+#4132
+&+rTraversing a Vertical Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D4
+~
+~
+0 0 4131
+D5
+~
+~
+0 0 4133
+S
+#4133
+&+rTraversing a Vertical Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D4
+~
+~
+0 0 4132
+D5
+~
+~
+0 0 4134
+S
+#4134
+&+rTraversing a Vertical Lava Tube~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D4
+~
+~
+0 0 4133
+D5
+~
+~
+0 0 4135
+S
+#4135
+&+rThe Bottom of a Vertical Lava Tube&N~
+   &+rThis lava tube stretches and winds through the mountain
+&+rhere.  Although the flow of lava has stopped, the molten
+&+rrock has cooled and left a smooth, ribbed-like tube in
+&+rwhich a tunnel is used for passage through the mountain.
+~
+40 0 0
+D1
+~
+~
+0 0 4136
+D4
+~
+~
+0 0 4134
+S
+#4136
+&+RA Hot Flow of Lava&N~
+   &+RThis hot flow of lava blazes on a perpendicular through a series
+&+Rof lava tubes.  The flow must originate somehwere, however the heat
+&+Ris so intense that it is very difficult for one to remain here.
+~
+40 32776 11
+D1
+~
+~
+0 0 4137
+D2
+~
+~
+0 0 4138
+D3
+~
+~
+0 0 4135
+S
+#4137
+&+RA Hot Flow of Lava&N~
+   &+RThis hot flow of lava blazes on a perpendicular through a series
+&+Rof lava tubes.  The flow must originate somehwere, however the heat
+&+Ris so intense that it is very difficult for one to remain here.
+~
+40 32776 11
+D2
+~
+~
+0 0 4139
+D3
+~
+~
+0 0 4136
+S
+#4138
+&+RA Hot Flow of Lava&N~
+   &+RThis hot flow of lava blazes on a perpendicular through a series
+&+Rof lava tubes.  The flow must originate somehwere, however the heat
+&+Ris so intense that it is very difficult for one to remain here.
+~
+40 32776 11
+D0
+~
+~
+0 0 4136
+D1
+~
+~
+0 0 4139
+S
+#4139
+&+RA Hot Flow of Lava&N~
+   &+RThis hot flow of lava blazes on a perpendicular through a series
+&+Rof lava tubes.  The flow must originate somehwere, however the heat
+&+Ris so intense that it is very difficult for one to remain here.
+~
+40 32776 11
+D0
+~
+~
+0 0 4137
+D1
+~
+~
+0 0 4140
+D3
+~
+~
+0 0 4138
+S
+#4140
+&+LA Rocky Landing &+RBefore a Lava FLow~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 33024 13
+D1
+~
+~
+0 0 4141
+D3
+~
+~
+0 0 4139
+S
+#4141
+&+LA Rocky Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D0
+~
+~
+0 0 4142
+D3
+~
+~
+0 0 4140
+S
+#4142
+&+LA Rocky Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D0
+~
+~
+0 0 4143
+D2
+~
+~
+0 0 4141
+S
+#4143
+&+LA Rocky Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D1
+~
+~
+0 0 4144
+D2
+~
+~
+0 0 4142
+S
+#4144
+&+LA Bend in the Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D0
+~
+~
+0 0 4145
+D3
+~
+~
+0 0 4143
+S
+#4145
+&+LA Bend in the Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D1
+~
+~
+0 0 4146
+D2
+~
+~
+0 0 4144
+S
+#4146
+&+LA Rocky Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D1
+~
+~
+0 0 4147
+D3
+~
+~
+0 0 4145
+S
+#4147
+&+LA Rocky Underground Tunnel~
+   &+LThis rocky underground tunnel stretches through this portion
+&+Lof these northern mountains.  A great heat is felt further towards
+&+Lthe west accompanished by an unforgettable sound similar to that
+&+Lof rushing water.  Cooler air is felt further towards the east
+&+Lin this twisting, underground tunnel.
+~
+40 32768 13
+D0
+~
+~
+0 0 4148
+D3
+~
+~
+0 0 4146
+S
+#4148
+&+yA Rubble-Filled Cave-In~
+   &+yThis cave is full of rubble from what appears to have been
+&+ynumerous, and dangerous, cave-ins throughout the years.
+&+yThis area is surprizingly well-travelled, as there are
+&+ysigns of disturbance in the rocky floor and the surrounding
+&+yarea.
+~
+40 32772 13
+D1
+~
+rubble~
+5 0 4149
+D2
+~
+~
+0 0 4147
+S
+#4149
+A Small Cave~
+   This small cave rests at the very bottom of the gorge's drop to
+the east.  A burnt area on the cave floor suggests that this area
+was once used as a camping location for what could be a passing
+adventurer.  There is much rubble and debris in this cave, suggesting
+the possibility of numerous cave-ins in the surrounding area.
+~
+40 32768 13
+D1
+~
+~
+0 0 4150
+D3
+~
+rubble~
+5 0 4148
+S
+#4150
+The Bottom of a Deep Gorge&N~
+   This deep gorge, resting at the bottom of a narrow mountain
+pass through these great northern mountains, opens up to a small
+cave just west of here.  There are numerous insects, mostly
+beetles, crawling about the area.  The only life in the surrounding
+area besides these common insects are small patches of moss and
+brief bits of fungus on the more moist portions of the gorge
+walls.
+~
+40 32768 13
+D3
+~
+~
+0 0 4149
+D4
+~
+~
+0 0 4151
+S
+#4151
+Within a Deep Gorge~
+   The walls of this gorge are covered in bits of fungus and
+moss plantlife.  Numerous small, insignifigant beetles and other
+insects are seen crawling about this fertile, yet remote gorge
+in the mountain pass.  The bottom of the gorge is seen just below.
+~
+40 32768 13
+D4
+~
+~
+0 0 4152
+D5
+~
+~
+0 0 4150
+F
+40
+S
+#4152
+Within a Deep Gorge~
+   The walls of this gorge are covered in bits of fungus and
+moss plantlife.  Numerous small, insignifigant beetles and other
+insects are seen crawling about this fertile, yet remote gorge
+in the mountain pass.  The bottom of the gorge is seen just below.
+~
+40 32772 13
+D4
+~
+~
+0 0 69088
+D5
+~
+~
+0 0 4151
+F
+40
+S

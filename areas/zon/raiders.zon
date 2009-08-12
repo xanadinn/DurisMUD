@@ -1,0 +1,54 @@
+#89
+&+bOgre &+LRaiders&n~
+8920 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 8910 1 1 100 0 0 0
+*     east exit from "A Small Open Area in the Mountains" to
+*     "A Small Corral Set in the Wall of the Mountain" - closed
+*
+D 0 8920 3 1 100 0 0 0
+*     west exit from "A Small Corral Set in the Wall of the Mountain" to
+*     "A Small Open Area in the Mountains" - closed
+*
+*
+*
+M 0 8905 11 8902 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8906 100 0 0 0         * an orc raider
+M 0 8905 11 8907 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8908 100 0 0 0         * an orc raider
+M 0 8905 11 8908 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8909 100 0 0 0         * an orc raider
+M 0 8905 11 8909 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8910 100 0 0 0         * an orc raider
+M 0 8903 12 8911 100 0 0 0         * an orc raider
+M 0 8905 11 8911 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8912 100 0 0 0         * an orc raider
+M 0 8903 12 8913 100 0 0 0         * an orc raider
+M 0 8905 11 8913 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8914 100 0 0 0         * an orc raider
+M 0 8905 11 8914 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8915 100 0 0 0         * an orc raider
+M 0 8905 11 8915 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8916 100 0 0 0         * an orc raider
+M 0 8905 11 8916 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8917 100 0 0 0         * an orc raider
+M 0 8905 11 8917 100 0 0 0         * a dirty bugbear
+M 0 8903 12 8918 100 0 0 0         * an orc raider
+M 0 8905 11 8918 100 0 0 0         * a dirty bugbear
+M 0 8900 1 8919 100 0 0 0          * Ogre leader
+E 1 8900 1 16 100 0 0 0            *   a dull black two-handed sword
+F 1 8902 1 8919 100 0 0 0          * half-orc shaman (following)
+E 1 8902 1 7 100 0 0 0             *   a pair of fine gold-plated leggings
+F 1 8901 1 8919 100 0 0 0          * half-orc priest (following)
+E 1 8901 1 5 100 0 0 0             *   a crude robe inscribed with magical runes
+M 0 8904 6 8920 100 0 0 0          * a ratou
+M 0 8904 6 8920 100 0 0 0          * a ratou
+M 0 8904 6 8920 100 0 0 0          * a ratou
+M 0 8904 6 8920 100 0 0 0          * a ratou
+M 0 8904 6 8920 100 0 0 0          * a ratou
+M 0 8904 6 8920 100 0 0 0          * a ratou
+*
+S

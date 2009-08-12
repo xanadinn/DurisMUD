@@ -1,0 +1,1140 @@
+#53000
+&+gA Shattered Gate&n~
+&+g   Standing in the middle of the field of debris is a shattered metal gate
+&+galongside a crumbling red brick wall that stretches to the north and south.
+&+gThe gate had been shut and locked with a very large iron chain, but something
+&+gbashed the gate open from the inside, shattering the chain into a thousand
+&+grusted pieces that now lie at your feet. A small metal plaque is set into the
+&+gwall on the right side of the gate.&n
+~
+530 134250500 1
+D1
+~
+~
+0 0 7123
+D3
+~
+~
+0 0 53001
+E
+plaque~
+&+gThe plaque has almost rusted away, but the words can still be made out:&n
+
+&+rTurolopolis Zoo&n
+~
+S
+#53001
+&+gA Path Through The Debris&n~
+&+g   A path of sorts exists through the debris field here running roughly in an
+&+geast-west direction. A red brick wall and a smashed gate can be seen close by
+&+gto the east and a small clearing can be seen to the west.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53000
+D3
+~
+~
+0 0 53002
+S
+#53002
+&+gA Crosspath&n~
+&+g   Four paths intersect here amidst the ruins of a large water fountain. The
+&+gfountain was once carved with creatures of all kinds, but time has eroded the
+&+gfigures into unrecognizable lumps. Ruins of large buildings can be seen to
+&+gthe north, west, and south. A broken sign lies here buried in some rubble.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53003
+D1
+~
+~
+0 0 53001
+D2
+~
+~
+0 0 53004
+D3
+~
+~
+0 0 53005
+E
+sign~
+&+GYou can barely make out the words &+W"&+LCreatures of the Underdark&+W" &+gand an arrow.
+&+G
+&+GWhich way the arrow originally pointed is not known.
+~
+S
+#53003
+&+gOutside A Ruined Building&n~
+&+g   The path ends at the entrance to a large, ruined building. The roof appears
+&+gto have collapsed, but the door has remained intact. Vines and weeds have begun
+&+gto overtake the building. The path leads back to the south.&n
+~
+530 134250496 1
+D0
+~
+door~
+1 0 53006
+D2
+~
+~
+0 0 53002
+S
+#53004
+&+gOutside A Building&n~
+&+g   The stone path comes to and end here at the entrance to a large building
+&+gthat has somehow survived the destruction that has been brought upon this city.
+&+gThere are several cracks in the building's walls, but it otherwise looks to
+&+gbe in a decent condition. A large sign, hanging over the door can barely be
+&+gbe made out.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53002
+D2
+~
+door~
+1 0 53055
+E
+sign~
+&+LLooking more closely at the sign you see that it reads:
+
+&+mUnderdark Fauna&n
+~
+S
+#53005
+&+gOutside A Ruined Building&n~
+&+g   The ruined shell of a building lies to the west and miraculously, the door
+&+gto the building has remained intact. A sign that was hanging over the door
+&+ghas crumbled into bits and is unreadable. Off to the north and south, other
+&+gbuildings can be seen standing.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53002
+D3
+~
+door~
+1 0 53044
+S
+#53006
+&+gWithin A Ruined Building&n~
+&+g   The roof has collapsed throughout most of the building, although patches
+&+gof it still stand in some places. A row of rusted cages lines this path and
+&+gleads north to another exit. The smell in this building is horrible, as if
+&+gdeath itself has taken up residence.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53009
+D1
+~
+~
+0 0 53008
+D2
+~
+door~
+1 0 53003
+D3
+~
+~
+0 0 53007
+S
+#53007
+&+gA Cage&n~
+&+g   This room used to hold a creature of some kind, but the bars have long been
+&+gshattered away. The roof is more intact than in most of the building providing
+&+gmore cover. A large nest is here in the room, and the bones and bodies of many
+&+gdead creatures are scattered about.&n
+~
+530 134250504 0
+D1
+~
+~
+0 0 53006
+S
+#53008
+&+gA Cage&n~
+&+g   This room used to hold a creature of some kind, but the bars have long been
+&+gshattered away. The roof is more intact than in most of the building providing
+&+gmore cover. A large nest is here in the room, and the bones and bodies of many
+&+gdead creatures are scattered about.&n
+~
+530 134250504 0
+D3
+~
+~
+0 0 53006
+S
+#53009
+&+gWithin A Ruined Building&n~
+&+g   The roof has collapsed throughout most of the building, although patches
+&+gof it still stand in some places. A row of rusted cages lines this path and
+&+gleads north to another exit. The smell in this building is horrible, as if
+&+gdeath itself has taken up residence.&n
+~
+530 134250496 1
+D0
+~
+door~
+1 0 53012
+D1
+~
+~
+0 0 53011
+D2
+~
+~
+0 0 53006
+D3
+~
+~
+0 0 53010
+S
+#53010
+&+gA Cage&n~
+&+g   This room used to hold a creature of some kind, but the bars have long been
+&+gshattered away. The roof is more intact than in most of the building providing
+&+gmore cover. A large nest is here in the room, and the bones and bodies of many
+&+gdead creatures are scattered about.&n
+~
+530 134250504 0
+D1
+~
+~
+0 0 53009
+S
+#53011
+&+gA Cage&n~
+&+g   This room used to hold a creature of some kind, but the bars have long been
+&+gshattered away. The roof is more intact than in most of the building providing
+&+gmore cover. A large nest is here in the room, and the bones and bodies of many
+&+gdead creatures are scattered about.&n
+~
+530 134250504 0
+D3
+~
+~
+0 0 53009
+S
+#53012
+&+gAn Ovegrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. A doorway into a ruined building lies to the south.&n
+~
+530 134250496 1
+D2
+~
+door~
+1 0 53009
+D3
+~
+~
+0 0 53013
+S
+#53013
+&+gAn Overgrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. The wall of a ruined building lies to the south.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53012
+D3
+~
+~
+0 0 53014
+S
+#53014
+&+gAn Overgrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. A large building can be seen to the east.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53013
+D3
+~
+~
+0 0 53015
+S
+#53015
+&+gAn Overgrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53014
+D3
+~
+~
+0 0 53016
+S
+#53016
+&+gAn Overgrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. The ruins of a small building can be seen to the
+&+gwest.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53015
+D3
+~
+~
+0 0 53017
+S
+#53017
+&+gAn Overgrown Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. The growth clears here to the south and several
+&+glarge buildings can be seen in that direction.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53016
+D3
+~
+~
+0 0 53018
+S
+#53018
+&+gA Bend In The Path&n~
+&+g   This overgrown path stretches off to the west behind the buildings that
+&+gused to hold the animals. Years of neglect have let the weeds and scrub brush
+&+ggrow unchecked behind the buildings. Someone or something has kept this trail
+&+gopen by using it, however. A small, ruined building lies to the west, and the
+&+gtrail bends to the south.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53017
+D2
+~
+~
+0 0 53020
+D3
+~
+~
+0 0 53019
+S
+#53019
+&+GA Small House&N~
+&+g   This small, ruined building appears to have been someone's home at one time.
+&+gA crushed table is scattered about the room, and an old lantern hangs from a
+&+Lhook&+g on the wall. There are animal handling tools scattered about and it may
+&+gbe that this was the zookeeper's house. The exit lies to the east.&n
+~
+530 1208123400 0
+D1
+~
+~
+0 0 53018
+D5
+~
+floor~
+13 0 53021
+S
+#53020
+&+gAn Overgrown Path&n~
+&+g   The path leads south towards what appears to be a large clearing. To the
+&+gnorth, a bend in the overgrown path can be seen near a small ruined building
+&+gthat lies directly off the path. The vegetation is becoming thinner towards
+&+gthe south.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53018
+D2
+~
+~
+0 0 53022
+S
+#53021
+&+LA Dark Underground Cage&N~
+&+L   This cage lies underneath the zookeeper's house and was used to house the
+&+Lmost dangerous animals in the zoo. A door in the cage leads off to the west
+&+Land the zookeeper's house is back up through the floor. Hooting sounds can
+&+Lbe heard echoing through the air.&N
+~
+530 1216380937 0
+D3
+~
+~
+0 0 53061
+D4
+~
+floor~
+5 0 53019
+S
+#53022
+&+gAn Overgrown Path&n~
+&+g   The path opens up here to the south into what appears to be a large, grassy
+&+gclearing. Small weeds and tall grass dominate the clearing, and a few trees can
+&+gbe seen here and there. To the north, the overgrown path continues, and a small
+&+gbuilding can be made out.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53020
+D2
+~
+~
+0 0 53025
+S
+#53023
+&+YA Grassy Clearing&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A crumbling, red brick wall blocks all passage to the north
+&+gand west. The field stretches to the south and east.&n
+~
+530 134250496 2
+D1
+~
+~
+0 0 53024
+D2
+~
+~
+0 0 53026
+S
+#53024
+&+YA Grassy Clearing&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A crumbling, red brick wall blocks all passage to the north.&n
+~
+530 134250496 2
+D1
+~
+~
+0 0 53025
+D2
+~
+~
+0 0 53027
+D3
+~
+~
+0 0 53023
+S
+#53025
+&+YA Grassy Clearing&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field and a door can be seen leading into the building farther to
+&+gthe south. An overgrown trail leads off to the north.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53022
+D2
+~
+~
+0 0 53028
+D3
+~
+~
+0 0 53024
+S
+#53026
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A crumbling, red brick wall blocks all passage to the west.
+&+gAn entrance can be seen in the ruined building to the east.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53023
+D1
+~
+~
+0 0 53027
+D2
+~
+~
+0 0 53029
+S
+#53027
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. An entrance can be seen in the ruined building to the east.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53024
+D1
+~
+~
+0 0 53028
+D2
+~
+~
+0 0 53030
+D3
+~
+~
+0 0 53026
+S
+#53028
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. An entrance leads into the ruined building to the east.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53025
+D1
+~
+~
+0 0 53035
+D2
+~
+~
+0 0 53031
+D3
+~
+~
+0 0 53027
+S
+#53029
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A crumbling, red brick wall blocks all passage to the west.
+&+gAn entrance can be seen in the ruined building to the northeast.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53026
+D1
+~
+~
+0 0 53030
+D2
+~
+~
+0 0 53032
+S
+#53030
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. An entrance can be seen in the ruined building to the north-
+&+geast.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53027
+D1
+~
+~
+0 0 53031
+D2
+~
+~
+0 0 53033
+D3
+~
+~
+0 0 53029
+S
+#53031
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. An entrance into the ruined building lies to the north.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53028
+D2
+~
+~
+0 0 53034
+D3
+~
+~
+0 0 53030
+S
+#53032
+&+YCorner of A Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A crumbling, red brick wall blocks all passage to the west
+&+gand south.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53029
+D1
+~
+~
+0 0 53033
+S
+#53033
+&+YA Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. A &+ybroken gate &+gis here in the southern wall of the enclosure.
+&+gIt appears to have been trampled and a trail leads to the south.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53030
+D1
+~
+~
+0 0 53034
+D2
+~
+~
+0 0 53047
+D3
+~
+~
+0 0 53032
+S
+#53034
+&+YCorner of A Grassy Field&N~
+&+g   This open grassy area appears to have been a holding pen of some kind in
+&+gthe distant past. A red brick wall outlines the field along its northern,
+&+gwestern, and southern edges. The shell of a large building lines the eastern
+&+gedge of the field. The wall of the ruined building blocks passage to the east
+&+gand a crumbling, red brick wall lies to the south.&n
+~
+530 134250496 2
+D0
+~
+~
+0 0 53031
+D3
+~
+~
+0 0 53033
+S
+#53035
+&+GWithin A Ruined Building&N~
+&+g   This building is the largest one still standing in this area and it is also
+&+gthe most intact. A wide walkway of cracked marble runs east and west through
+&+gthis building and cages line its length. The base of a broken statue lies here
+&+gnear the rear exit, but the statue itself is nowhere to be seen.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53036
+D1
+~
+~
+0 0 53038
+D2
+~
+cage~
+1 0 53037
+D3
+~
+~
+0 0 53028
+S
+#53036
+&+GA Blasted Cage&N~
+&+g   Blasted is the best way to describe this cage as it appears that the former
+&+goccupant went berserk and bashed its way out. The wall has become damaged and
+&+gseveral plants have found thier way inside. The main hallway lies to the south.&n
+~
+530 134250504 0
+D2
+~
+~
+0 0 53035
+S
+#53037
+&+GA Filthy Cage&N~
+&+g   This filthy cage obviously serves as the home to some creature as a straw
+&+gbed lies in one corner and bones are littered about the room. The roof is in
+&+gone piece here and it is quite dark within the cage. The main hallway lies back
+&+gto the east.&n
+~
+530 1207992328 0
+D0
+~
+cage~
+1 0 53035
+S
+#53038
+&+GWithin A Ruined Building&N~
+&+g   This building is the largest one still standing in this area and it is also
+&+gthe most intact. A wide walkway of cracked marble runs east and west through
+&+gthis building and cages line its length. An exit to what appears to be a field
+&+glies close by to the west, and cages lie to the north and south.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53039
+D1
+~
+~
+0 0 53041
+D2
+~
+~
+0 0 53040
+D3
+~
+~
+0 0 53035
+S
+#53039
+&+LA Rusted Cage&N~
+&+g   The bars of this cage have completely rusted over, most probably due to
+&+gthe large hole in the ceiling. Scattered about the room are pieces of rubble
+&+gand broken pieces of metal. The main hallway lies back to the south.&n
+~
+530 134250504 0
+D2
+~
+~
+0 0 53038
+S
+#53040
+&+GA Cage&N~
+&+g   Strangely, this cage has been cleared of debris. The bars have mostly been
+&+gremoved and only a few remain attached to the floor and ceiling. A large hole
+&+ghas been punched into the southern wall and many vines and weeds are invading
+&+gthe room.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53038
+S
+#53041
+&+GWithin A Ruined Building&N~
+&+g   This building is the largest one still standing in this area and it is also
+&+gthe most intact. A wide walkway of cracked marble runs east and west through
+&+gthis building and cages line its length. A doorway lies close by to the east
+&+gand cages lie to the north and south.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53042
+D1
+~
+~
+0 0 53044
+D2
+~
+~
+0 0 53043
+D3
+~
+~
+0 0 53038
+S
+#53042
+&+GA Cage&N~
+&+g   Strangely, this cage has been cleared of debris. The bars have mostly been
+&+gremoved and only a few remain attached to the floor and ceiling. A large hole
+&+ghas been punched into the northern wall and many vines and weeds are invading
+&+gthe room.&n
+~
+530 134250504 0
+D2
+~
+~
+0 0 53041
+S
+#53043
+&+GA Cage&N~
+&+g   The bars of this cage have completely rusted over, most probably due to
+&+gthe large hole in the ceiling. Scattered about the room are pieces of rubble
+&+gand broken pieces of metal. The main hallway lies back to the north.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53041
+S
+#53044
+&+GWithin A Ruined Building&N~
+&+g   This building is the largest one still standing in this area and it is also
+&+gthe most intact. A wide walkway of cracked marble runs east and west through
+&+gthis building and cages line its length. A doorway lies to the east and cages
+&+glie to the north and south.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53045
+D1
+~
+door~
+1 0 53005
+D2
+~
+~
+0 0 53046
+D3
+~
+~
+0 0 53041
+S
+#53045
+&+GA Cage&N~
+&+g   Blasted is the best way to describe this cage as it appears that the former
+&+goccupant went berserk and bashed its way out. The wall has become damaged and
+&+gseveral plants have found thier way inside. The main hallway lies to the south.&n
+~
+530 134250504 0
+D2
+~
+~
+0 0 53044
+S
+#53046
+&+GA Cage&N~
+&+g   The bars of this cage have completely rusted over, most probably due to
+&+gthe large hole in the ceiling. Scattered about the room are pieces of rubble
+&+gand broken pieces of metal. The main hallway lies back to the north.&n
+~
+530 134250504 0
+D0
+~
+~
+0 0 53044
+S
+#53047
+&+gA Path of Cracked Stone&n~
+&+g   This path of cracked stone and debris is all that remains of a building
+&+gthat once stood in this spot. The path of debris continues to the south and
+&+gto the north and east, the standing remains of large buildings can be seen.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53033
+D2
+~
+~
+0 0 53048
+S
+#53048
+&+gA Path of Debris&n~
+&+g   This path of cracked stone and debris is all that remains of a building
+&+gthat once stood in this spot. The path of debris continues to the south and
+&+gto the north and east, the standing remains of large buildings can be seen.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53047
+D2
+~
+~
+0 0 53049
+S
+#53049
+&+gAn Overgrown Field of Debris&n~
+&+g   A large, overgrown field of debris stretches off to the south. It appears
+&+gthat this was once a very large building, and due to the amount of broken
+&+gglass that litters the ground, it may have been a large greenhouse. All that
+&+gremains of the building are wall and column remnants no larger than a gnome.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53048
+D1
+~
+~
+0 0 53050
+D2
+~
+~
+0 0 53052
+D3
+~
+~
+0 0 53051
+S
+#53050
+&+gCorner of A Debris Field&n~
+&+g   This corner of the debris field is bordered by a large wall of evil looking
+&+gthorn bushes. The wall of thorns blocks further progress to the east and north.
+&+gThe field of debris can be seen stretching across the horizon to the west.&n
+~
+530 134250496 1
+D2
+~
+~
+0 0 53053
+D3
+~
+~
+0 0 53049
+S
+#53051
+&+gCorner of A Debris Field&n~
+&+g   This corner of the debris field is bordered by a large wall of evil looking
+&+gthorn bushes. The wall of thorns blocks further progress to the west and north.
+&+gThe field of debris can be seen stretching across the horizon to the east.&n
+~
+530 134250496 1
+D1
+~
+~
+0 0 53049
+D2
+~
+~
+0 0 53054
+S
+#53052
+&+gAn Overgrown Field of Debris&n~
+&+g   A large, overgrown field of debris stretches off in all directions. It seems
+&+gthat this was once a very large building, and due to the amount of broken glass
+&+gthat litters the ground, it may have been a large greenhouse. All that remains
+&+gof the building are wall and column remnants no larger than a gnome. A strange
+&+gwall of thorns blocks further passage to the south.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53049
+D1
+~
+~
+0 0 53053
+D3
+~
+~
+0 0 53054
+S
+#53053
+&+gCorner of A Debris Field&n~
+&+g   This corner of the debris field is bordered by a large wall of evil looking
+&+gthorn bushes. The wall of thorns blocks further progress to the east and south.
+&+gThe field of debris can be seen stretching across the horizon to the west.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53050
+D3
+~
+~
+0 0 53052
+S
+#53054
+&+gCorner of A Debris Field&n~
+&+g   This corner of the debris field is bordered by a large wall of evil looking
+&+gthorn bushes. The wall of thorns blocks further progress to the west and south.
+&+gThe field of debris can be seen stretching across the horizon to the east.&n
+~
+530 134250496 1
+D0
+~
+~
+0 0 53051
+D1
+~
+~
+0 0 53052
+S
+#53055
+&+mA Dark Building&n~
+&+g   This building is very dark and only the tiniest amount of light is filtering
+&+gthrough the many cracks in the building. Upon closer examination, it appears
+&+gthat someone has been placing mud over the cracks from the inside. The main
+&+gwalkway continues to the south and is lined by cages.&n
+~
+530 1207992329 0
+D0
+~
+door~
+1 0 53004
+D1
+~
+~
+0 0 53057
+D2
+~
+~
+0 0 53058
+D3
+~
+~
+0 0 53056
+S
+#53056
+&+mA Dark Cage&n~
+&+g   The smashed remains of the cage bars are scattered about the floor here
+&+gand a straw bed of some kind is visible in one corner. This rooms smells of
+&+gfresh blood, and the floor is sticky. The main hallway of the building lies
+&+gback to the east.&n
+~
+530 134250505 0
+D1
+~
+~
+0 0 53055
+S
+#53057
+&+mA Dark Cage&n~
+&+g   The smashed remains of the cage bars are scattered about the floor here
+&+gand a straw bed of some kind is visible in one corner. This rooms smells of
+&+gfresh blood, and the floor is sticky. The main hallway of the building lies
+&+gback to the west.&n
+~
+530 134250505 0
+D3
+~
+~
+0 0 53055
+S
+#53058
+&+mA Dark Building&n~
+&+g   Further passage within the building is suddenly halted by the appearance
+&+gof a giant pile of rubble. It appears that the walls and ceiling have all
+&+gcollapsed past this point to the south. Cages lie to the east and west and
+&+gthe exit from this building lies to the north.&n
+~
+530 134250505 0
+D0
+~
+~
+0 0 53055
+D1
+~
+~
+0 0 53060
+D3
+~
+~
+0 0 53059
+S
+#53059
+&+mA Dark Cage&n~
+&+g   Most of the cage bars still remain intact in this room, but the door to
+&+gthe cage itself has been busted open with such force that it lies embedded
+&+gwithin the back wall. Warm air is rising from a large hole in the corner.&n
+~
+530 134250505 0
+D1
+~
+~
+0 0 53058
+S
+#53060
+&+mA Dark Cage&n~
+&+g   This dark cage is missing every single bar that ever existed here. Tiny
+&+gpieces of them can be seen scattered in the rubble, but it is simply an open
+&+gfaced hole that leads back to the west. Tiny cracks line the walls, and the
+&+gsouthern wall looks extremely stressed.&n
+~
+530 134250505 0
+D3
+~
+~
+0 0 53058
+S
+#53061
+&+LA Dead End&N~
+&+L   The underground tunnel dead ends here at a recent collapse. It appears that
+&+Lthe there was a network of underground cages and tunnels at one time, but they
+&+Lhave since been buried. The exit lies back to the east.&N
+~
+530 134250761 0
+D1
+~
+~
+0 0 53021
+S

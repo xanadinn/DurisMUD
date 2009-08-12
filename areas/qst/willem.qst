@@ -1,0 +1,283 @@
+#7103
+M
+fountain~
+&+gCorwyck looks at you with sudden hope and says &+w"Yes, the fountain, if only
+&+wI could cleanse it of its evil I could return to my work in this grove!
+&+wYou see, though, to do that I need a very holy item indeed. Far holier than
+&+wanything I have here, if that gives you any indication."
+&+gHe slumps again. &+w"It's hopeless, I'm afraid."
+~
+M
+hopeless holy item~
+&+gCorwyck looks puzzled for a moment before responding, &+w"Well it would need
+&+wto be something we could add to the fountain and it would need to come from
+&+wa rather pure source.  Perhaps something that could be ground up and dissolved
+&+winto the waters...  I'm not quite sure where to find such a thing though."
+~
+M
+druid park forest animals~
+&+w"My name is Corwyck and I came to this dreadful place nearly twenty years
+&+wago. As you can see I've done wonders in this small area, but the evil in
+&+wthis place is such that I've had to limit myself to the park. Recently,
+&+wthough, something has crept in, something has invaded... I'm sure you've
+&+wseen the poor animals outside. I can't for the life of me figure out why
+&+wthis is happening to them! As far as I can tell it must be something
+&+wthey're taking in, perhaps in the water."
+~
+Q
+&+gCorwyck gasps and says &+w"I can't believe it! Of *course*! I had seen this
+&+wunicorn gallivanting about but it never occurred to me... well, if you'll
+&+wpardon me, I've got to powder this and add it to the fountain."
+
+&+gCorwyck slaps his forehead. &+w"Silly me, how ungrateful I must appear! Now,
+&+wyou can see I haven't much in the world, but I found this not long after
+&+wmy arrival to this place. Perhaps you can find its use?"
+~
+R I 7100
+R E 25000
+G I 7103
+D
+&+g"&+wNow, if you'll pardon me, I suddenly have quite a bit of work awaiting me!&+g"
+Corwyck heads into the forest.
+~
+S
+#7120
+M
+willem~
+&+yThe boy looks at you hopefully and says &+w"You know him? They say he's still
+&+wtrapped in his palace, you know. I promised my father I'd bring him
+&+wWillem's head!"
+~
+M
+palace~
+&+yThe boy waves in a northerly direction and says &+w"Yeah, somewhere over there.
+&+wFirst I wanna look through the city though! My father said that there were a
+&+wlot of great things to see here. Maybe he meant before the place got blown
+&+wup."
+~
+M
+father~
+&+yThe boy gets a big grin on his face and says &+w"My dad is a great guy! His
+&+wfriend the barber knows this guy who knows this Elf that came here before
+&+wit got blown up. I guess some of the Elf's friends got killed here, or
+&+wsomething. But my father says that the barber tells him that there's a
+&+wlot of treasure to be had here, and I've got a little something that
+&+wguarantees I'll walk out of here rich and famous."
+~
+S
+#7121
+M
+turol~
+&+gThe elf turns on you and spits "&+wCURSE that order of the damned, and their
+&+wfinest pupil Willem! But that was many years ago... I'll warrant you've
+&+wnever even heard of Willem of Turol and his crimes. Say... perhaps YOU
+&+wcould help me. Shall I tell you my story?&+g"
+~
+M
+yes story~
+&+gThe elf appears to calm somewhat, and leans against a nearby wall. "&+wMy name
+&+wis Lothrell, and many years ago I was a ranking member of the Ring of Glory.
+&+wAh, those were the days! I fondly recall helping the Halflings to drive the
+&+wbullywugs out of their part of the jungle. But I digress. You see, a dark
+&+wpaladin named Willem had established a city and instituted slavery, which
+&+wcivilized folk realize is one of the Five Great Evils. My comrades and I
+&+wset off to defeat Willem's armies and free those in captivity.&+g"
+&+wLothrell pauses for breath, then continues. "&+wWe swept the city slowly,
+&+wreleasing the slaves as we found them and defeating the waves of the city
+&+wguard that rushed at us. WE had made much progress when... when... oh,
+&+wthe spell...&+g"
+~
+M
+spell~
+&+gLothrell's eyes widen as he stares into the past. "&+wYes, I'm afraid it was
+&+wall my fault. As I was unleashing my last volley of spells at the Watchmen,
+&+wI was struck from behind and miscast. Before I knew it, I was elsewhere,
+&+wstanding amidst a deep and dark forest, and my friends were nowhere to be
+&+wseen. Never to be seen again, it seems- word came later that the Ring of
+&+wGlory had met defeat at Willem's hands and that the six of us had been
+&+wkilled.
+
+&+w"What could I do but hide in disgrace? The rest of the Ring split up and
+&+wwent their separate ways, thinking me dead, and I spent nearly a century
+&+wliving in squalor in Verspin. It is only in the last year that I have
+&+wfound the courage to look for heroes, heroes greater than I ever was. I
+&+whave a favor to ask.&+g"
+~
+M
+favor~
+&+GThe elf says "&+wI thank you for your patience, I shall come straight to the
+&+wpoint. The city of Turolopolis is in ruins, destroyed by the gods in
+&+wretribution for Willem's evil deeds. I ask you to go to those ruins and
+&+wfind the remains of my comrades, dead these many years. If you bring me
+&+wtheir guild insignia, I will be able to immortalize them and bring them
+&+w- and myself - peace.
+
+&+wI have little to offer, but for those badges I would give all I own.&+g"
+~
+Q
+&+gLothrell smiles, and years appear to melt from his face. "&+wI cannot thank you
+&+wenough for these. At last I will be able to construct the kind of memorial
+&+wthat heroes such as these deserve.&+g"
+
+He rummages within his cloak and produces a fearsome-looking sword. "&+wI
+&+wprocured this during our battles in Turolopolis, and have carried it as a
+&+wreminder of my failure. I no longer need it, but perhaps you can put it to
+&+wuse!&+g"
+~
+R I 7131
+R E 500000
+G I 7124
+G I 7116
+G I 7113
+G I 7107
+G I 7110
+D
+&+g"&+wI must be off, to commemmorate these heroes!&+g"
+
+Lothrell &+Lsteps into the shadows and disappears.
+~
+S
+#7125
+M
+brooding fate~
+&+mThe elf looks at you and snarls, "&+wWhy shouldn't I brood? What else is there
+to do in this accursed place? So many years of confinement to this palace.
+Do you know what the worst part is? I was sent here on a very important
+mission, and I have had no news of my race for decades! If only I had some
+sign that the Drow still prevail, perhaps then I would stop brooding.&+m"
+~
+Q
+&+mThe drow scans the letter, frowning slightly. "&+wWell, it's nearly impossible
+to read this thing, but it is apparent that we dark elves are still a force
+to be reckoned with. It looks as though I owe you.&+m"
+He rummages beneath his robes and pulls out a length of ribbon. "&+wOn my way to
+this palace those many years ago, I came upon a Centaur, foolishly sleeping
+along the road. This- heh, heh...- is probably all that remains of him.&+m"
+~
+R I 7137
+R E 50000
+G I 7135
+D
+&+mThe emissary heads out of the room with newfound purpose.
+~
+S
+#7126
+Q
+&+BWorking silently, the dwarf takes the stinger and very slowly moves it over
+the blade of the saber. He makes no less than a dozen passes over the blade,
+each time squeezing the stinger a bit more tightly in his strong hand. The
+blade begins to glow with a malevolent light as Kurtukr finishes his final
+pass. Still without words, he bows deeply to you.
+~
+R I 7138
+G I 7131
+G I 7139
+S
+#7127
+M
+bloodsaber saber~
+&+YSprecken looks painfully hopeful and says "&+wKurtukr has been looking for
+such a weapon for nearly a hundred years! See, he's been working on the
+improvement of weapons through the addition of animal essences. Since
+we've had no luck finding the saber, we've come here to investigate reports
+of a caecilia- er, sorry, technical term, a giant gray worm- in order to
+get its tail stinger, which as everyone knows is just dripping with both
+poison and spiritual power!
+
+Sorry, I to tend to ramble on. At any rate, once we find those two
+items, we plan to forge a weapon the likes of which Duris has never seen!
+But first we have to get a lesser bloodsaber and a caecilia's stinger
+into Kurtukr's capable hands.&+Y"
+~
+S
+#7130
+M
+horn horns~
+&+LThe minotaur looks up and says "&+wYes, I've spent quite some time looking
+for ways to utilize the great gift the gods have bestowed upon my race. My
+first invention was intended to greatly increase the damage we do while
+charging, but it turned out to be too fragile, so I abandoned it up in the
+city. Now I'm working on a way to impregnate the horns with magical elixirs.
+If you could get me some blue gel, I think I could make us both some nice
+wrappings.&+L"
+~
+Q
+&+LThe minotaur smile broadly and begins to rub the lump of ooze along a strip
+of gauze. Once completed, he tears the strip in half, and winds one of the
+halves around his left horn, cinching it tightly.
+~
+R I 7142
+R E 10000
+G I 7141
+D
+&+LThe minotaur says "&+wThanks very much for your help! I'm going to go see just
+what these wrappings do.&+L"
+He disappears into the sewers.
+~
+S
+#7136
+M
+willem~
+&+C"&+wWhy, yes, he's the nice gentleman who invited me to perform with the
+chamber orchestra downstairs. I guess some rascals showed up and caused
+trouble, because the next thing I know this red cloud came up and covered
+the castle! It didn't rain or anything, but nobody has come to get me
+since, and that was- oh, a while back. I wonder if I should go looking for
+somebody?&+C"
+~
+S
+#7137
+M
+willem~
+&+yJalk replies in a sepulchral voice. "&+wMy liege angered the gods by using
+Amanthia's spell of entrapment on the Ring of Glory, and I suppose they
+decided that the most fitting punishment would be an identical entrapment.
+Still, we're quite close to breaking the spell and returning to the world,
+and then... Winterhaven had better be careful.&+y"
+~
+M
+winterhaven~
+&+yJalk chortles and says, "&+wThe ones who attacked us came from Tharnadia, it
+&+wis true, but the temporal shift has forced our hatred of their kin and that
+&+wfortress where they live."
+~
+S
+#7138
+M
+trap fate palace gods tharnadia winterhaven~
+&+rWillem snarls "&+wOh, yes, they'll all be destroyed for this, I swear it upon
+&+wthe Order itself! First, Amanthia will disrupt the field that binds us here.
+&+wWe shall escape with the rest of my Watchmen. Then, on to Winterhaven. We'll
+&+wraze that town and leave the offspring of our lingering hatred with nothing but
+&+wblood on their hands.  It will be a pile of smoking rubble! Then, I shall
+&+wsummon the gods one by one and crush them. Then, I shall rule Duris!&+r"
+
+&+rWillem throws his head back and cackles with insane glee!
+~
+M
+statue ring glory hero heroes~
+&+rWillem throws his head back and cackles with insane glee!
+&+r"&+wOh yes, those thieving bastards are in the statues, and there they will
+stay for all time! Muhahahahahaha!&+r"
+~
+S
+#7140
+M
+slave rest willem~
+The haggard old man replies "I knew that more adventurers would come someday
+to free us, both from the tyrant upstairs and from this magical prison. I
+cannot offer you much, but the other slaves and I have scraped together a
+small amount of money. Bring us proof of Willem's final death and it is
+all yours."
+~
+Q
+"Free at last!", the old man says. "Let slavery disappear forever from this
+world, and let those who would have it otherwise vanish into the clutches
+of the denizens of the Underdark!"
+~
+R C 200000
+G I 7154
+D
+The man hurries off with renewed energy, in order to spread the news.
+~
+S

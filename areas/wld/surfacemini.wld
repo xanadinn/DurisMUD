@@ -1,0 +1,2351 @@
+#97900
+A &+LFetid&n Crawlspace~
+   The rocky ceiling comes down almost to the floor here. The air
+is filled with a &+gdisgusting stench&n that emanates from somewhere
+deeper within the cave. The floor is &+ysandy&n, and covered with
+small bits of &+Rbloody&n fur and &+Wbones&n.
+~
+979 40969 0
+D0
+~
+~
+0 0 97901
+D2
+~
+~
+0 0 612685
+S
+#97901
+An Intersection In The Cave~
+   This small, &+Lfetid&n cave splits into two parts here, a small &+Lhole
+to the east, and to the north is a small room with a table. The ceiling is
+low, but higher than in the entrance. Absolutely everywhere are small bits
+and pieces of small animals in various states of decay, and the smell is
+simply overpowering.
+~
+979 32777 0
+D0
+~
+~
+0 0 97903
+D1
+~
+~
+0 0 97902
+D2
+~
+~
+0 0 97900
+S
+#97902
+&+gGorblaat's &+LCorner~
+    This small corner of the cave is absolutely packed with filth, with
+stray pieces of &+crubbish&n, small bits of &+yfur&n, half-eaten &+Wrabbits&n,
+and festering puddles of &+gvomit&n. The smell is simply overwhelmingly bad.
+Despite all of that, whoever lives here has clearly made himself comfortable.
+~
+979 142639113 0
+D3
+~
+~
+0 0 97901
+S
+#97903
+A &+rBloody &nKitchen~
+  This area in the cave is completely dominated by a long wooden
+table on the eastern side of the room. The top of the table is
+completely packed with &+rbloody&n &+yfur&n, bits of &+Wbone&n,
+and entire small &+Glizards&n, birds, and &+Wrabbits&n in various
+states of decay. The stench is completely disgusting.
+~
+979 32777 0
+D1
+~
+~
+0 0 97904
+D2
+~
+~
+0 0 97901
+S
+#97904
+&+LRubbish Chute~
+  This small area behind the table is used by the cave's inhabitant
+as a rubbish chute, where anything that is no longer wanted is thrown
+away to be forgotten. The floor is made up of a &+cmetal grate&n, which
+itself is covered in bits of &+rblood&n and dried &+gvomit&n.
+~
+979 32768 0
+D3
+~
+~
+0 0 97903
+D5
+A sickening &+gstench&n filters up from below.
+~
+grate~
+3 97900 97905
+E
+grate dirty~
+&+cThis dirty metal grate covers the floor of the chute.
+~
+S
+#97905
+&+LA Dark Hole~
+    &+LThis dark hole contains the accumulated rubbish of years of unhealthy
+&+Lliving. Decomposed corpses of small animals litter the floor waist deep,
+&+Land pools of &+rblood&+L have dried into hard patches. Above is a dirty
+&+Lmetal &+cgrate&+L.
+~
+979 32777 0
+D4
+~
+grate~
+3 97900 97904
+S
+#97906
+&+yA Small &+YFoyer&n~
+&+y   This foyer is built of solid oak wood. There is nothing fancy
+&+yabout it, just a simple room built for a simple function. In fact,
+&+ythis entire cabin seems to have a very humble feeling to it. The
+&+yfloors are plain and without carpets. The only decoration is a
+&+ysimple &+Ydoormat &+ymade of hemp by the front door.&n
+~
+979 32768 0
+D1
+~
+~
+0 0 97907
+D2
+~
+~
+0 0 564065
+E
+doormat~
+&+Y   This doormat is made of hemp and seems to be quite
+&+Ydirty. Dried mud and grass seem to cover most of this
+&+Ylonely piece of decoration.&n
+~
+S
+#97907
+&+yThe &+YMain &+yRoom of the Cabin&n~
+&+y   This room functions as the main living quarters of this
+&+ycabin. It is only about twenty feet wide and another twenty
+&+yfeet long. The walls are plain oak, just like the floors and
+&+yceiling. A small table, complete with two chairs is to your
+&+yright. A simple bed sits against the wall.&n
+~
+979 32768 0
+D3
+~
+~
+0 0 97906
+S
+#97908
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36868 24
+D0
+~
+~
+0 0 578911
+D2
+~
+~
+0 0 97909
+S
+#97909
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97908
+D2
+~
+~
+0 0 97910
+S
+#97910
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97909
+D1
+~
+~
+0 0 97911
+D2
+~
+~
+0 0 97913
+D3
+~
+~
+0 0 97912
+S
+#97911
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97932
+D2
+~
+~
+0 0 97917
+D3
+~
+~
+0 0 97910
+S
+#97912
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97910
+D2
+~
+~
+0 0 97918
+S
+#97913
+&+yA Desert &+bOa&+ys&+bis&n~
+&+y   This lush area seems completely out of place along the
+&+ysun-parched expanse of desert. A small spring bubbles in
+&+ya small basin here, and the water seems to sprout colorful
+&+ylife wherever it touches. Tall palm trees grow towards the
+&+ysky, eagerly seeking the very sunlight that would be deadly
+&+yanywhere else in the desert.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97910
+D1
+~
+~
+0 0 97917
+D2
+~
+~
+0 0 97914
+D3
+~
+~
+0 0 97918
+S
+#97914
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97913
+D1
+~
+~
+0 0 97915
+D3
+~
+~
+0 0 97916
+D5
+~
+~
+0 0 97944
+S
+#97915
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97917
+D3
+~
+~
+0 0 97914
+S
+#97916
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97918
+D1
+~
+~
+0 0 97914
+D3
+~
+~
+0 0 97919
+S
+#97917
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97911
+D2
+~
+~
+0 0 97915
+D3
+~
+~
+0 0 97913
+D5
+~
+~
+0 0 97945
+S
+#97918
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97912
+D1
+~
+~
+0 0 97913
+D2
+~
+~
+0 0 97916
+D5
+~
+~
+0 0 97946
+S
+#97919
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97916
+D3
+~
+~
+0 0 97920
+S
+#97920
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97919
+D2
+~
+~
+0 0 97921
+S
+#97921
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97920
+D1
+~
+~
+0 0 97922
+D2
+~
+~
+0 0 97925
+D3
+~
+~
+0 0 97923
+S
+#97922
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D2
+~
+~
+0 0 97924
+D3
+~
+~
+0 0 97921
+D5
+~
+~
+0 0 97943
+S
+#97923
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97921
+D2
+~
+~
+0 0 97926
+S
+#97924
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97922
+D2
+~
+~
+0 0 97927
+D3
+~
+~
+0 0 97925
+S
+#97925
+&+yA Desert &+bOa&+ys&+bis&n~
+&+y   This lush area seems completely out of place along the
+&+ysun-parched expanse of desert. A small spring bubbles in
+&+ya small basin here, and the water seems to sprout colorful
+&+ylife wherever it touches. Tall palm trees grow towards the
+&+ysky, eagerly seeking the very sunlight that would be deadly
+&+yanywhere else in the desert.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97921
+D1
+~
+~
+0 0 97924
+D2
+~
+~
+0 0 97928
+D3
+~
+~
+0 0 97926
+S
+#97926
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97923
+D1
+~
+~
+0 0 97925
+D2
+~
+~
+0 0 97929
+D5
+~
+~
+0 0 97942
+S
+#97927
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97924
+D3
+~
+~
+0 0 97928
+D5
+~
+~
+0 0 97941
+S
+#97928
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97925
+D1
+~
+~
+0 0 97927
+D3
+~
+~
+0 0 97929
+S
+#97929
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97926
+D1
+~
+~
+0 0 97928
+D2
+~
+~
+0 0 97930
+S
+#97930
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97929
+D3
+~
+~
+0 0 97931
+S
+#97931
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36868 24
+D1
+~
+~
+0 0 97930
+D3
+~
+~
+0 0 579310
+S
+#97932
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97935
+D1
+~
+~
+0 0 97933
+D3
+~
+~
+0 0 97911
+S
+#97933
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97936
+D1
+~
+~
+0 0 97934
+D3
+~
+~
+0 0 97932
+D5
+~
+~
+0 0 97947
+S
+#97934
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97937
+D1
+~
+~
+0 0 97950
+D3
+~
+~
+0 0 97933
+S
+#97935
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97938
+D1
+~
+~
+0 0 97936
+D2
+~
+~
+0 0 97932
+S
+#97936
+&+yA Desert &+bOa&+ys&+bis&n~
+&+y   This lush area seems completely out of place along the
+&+ysun-parched expanse of desert. A small spring bubbles in
+&+ya small basin here, and the water seems to sprout colorful
+&+ylife wherever it touches. Tall palm trees grow towards the
+&+ysky, eagerly seeking the very sunlight that would be deadly
+&+yanywhere else in the desert.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97939
+D1
+~
+~
+0 0 97937
+D2
+~
+~
+0 0 97933
+D3
+~
+~
+0 0 97935
+S
+#97937
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97940
+D2
+~
+~
+0 0 97934
+D3
+~
+~
+0 0 97936
+D5
+~
+~
+0 0 97948
+S
+#97938
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97939
+D2
+~
+~
+0 0 97935
+S
+#97939
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D1
+~
+~
+0 0 97940
+D2
+~
+~
+0 0 97936
+D3
+~
+~
+0 0 97938
+D5
+~
+~
+0 0 97949
+S
+#97940
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D2
+~
+~
+0 0 97937
+D3
+~
+~
+0 0 97939
+S
+#97941
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97927
+S
+#97942
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97926
+S
+#97943
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97922
+S
+#97944
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97914
+S
+#97945
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97917
+S
+#97946
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97918
+S
+#97947
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97933
+S
+#97948
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97937
+S
+#97949
+&+yA &+YSand &+yLion Trap&n~
+&+y   This small crevice has been dug out by one of the many
+&+ysand lions that live in this region. The sides of this trap
+&+yhave been dug at an angle that turns this room into a funnel.
+&+yThe unfortunate animals that venture into here, quickly slip
+&+yinto the jaws of the fierce four-clawed beast that is hiding
+&+ybeneath the sand.&n
+~
+979 36868 24
+D4
+~
+~
+0 0 97939
+S
+#97950
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D2
+~
+~
+0 0 97951
+D3
+~
+~
+0 0 97934
+S
+#97951
+&+yA Desert Wasteland&n~
+&+y   Large dunes of sand cover this desolate landscape and
+&+yblistering waves of heat roll over all those that reside
+&+yhere. A few dry shrugs seem to manage surviving here, as
+&+ywell as a pair of desert palm trees. Even in such a harsh
+&+yenvironment, a variety of animals have been able to adapt
+&+yand even thrive. You can see small mounds in the dunes,
+&+ysimilar to those produced by ground hogs.&n
+~
+979 36864 24
+D0
+~
+~
+0 0 97950
+D1
+~
+~
+0 0 579312
+S
+#97952
+&+LA &+RGn&+romi&+Rsh &+LObservatory&n~
+&+L   This little building sits on the top of a hill, perfectly
+&+Lpositioned to gaze towards the heavens. There is a large window
+&+Lat the top of the room, and below it sits a very large and
+&+Lhighly unusual contraption that is similar to a captain's looking
+&+Lglass. A marvelous &+Cdisplay &+ccase &+Lsits against the wall.&n
+~
+979 142770176 0
+D2
+~
+~
+0 0 578863
+E
+display case~
+&+LThis large display case houses some rather interesting items. As
+&+Lyou stare at the marvelous items, a raw sense of powerful seems
+&+Lto fill your soul.&n
+
+&+Lthe shadowy &+mcrown &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n
+&+Lthe shadowy &+mplatemail &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n
+&+Lthe shadowy &+mstaff &+Lof &+rda&+Rmn&+rat&+Rio&+rn&n
+&+Wthe &+Clesser &+Wwand of &+Chealing&n
+&+Wthe &+Cgreater &+Wwand of &+Chealing&n
+&+Wthe &+Cultimate &+Wwand of &+Clife&n
+&+Lthe &+rwi&+Rck&+red &+Lwand of the Shadow Stalker&n
+&+Lthe &+rco&+Rll&+rar &+Lof &+rInf&+Rin&+rite &+rFl&+Ram&+res&n
+&+Lthe &+bco&+Cll&+bar &+Lof &+bPer&+Cpet&+bual &+bFr&+Co&+bst&n
+&+ca &+Wmilky &+cpotion&n
+~
+S
+#97953
+&+LA Rocky Clearing Before a &+cCollapsed Tower&N~
+   &+LThis rocky, blackened earth bares the way to the ruins of an
+&+Lancient mystics tower that has long since collapsed and crumbled
+&+Lto the ground.  All that remains of this once prosperous wizard's
+&+Ltower is the base and a massive pile of rubble.
+~
+979 33587204 1
+D0
+~
+~
+0 0 97954
+D2
+~
+~
+0 0 567418
+S
+#97954
+&+LA Heap of &+yRu&+Lbb&+yl&+Le &+Land &+WDebris&N~
+   &+LThis rocky, blackened earth bares the way to the ruins of an
+&+Lancient mystics tower that has long since collapsed and crumbled
+&+Lto the ground.  All that remains of this once prosperous wizard's
+&+Ltower is the base and a massive pile of rubble.
+~
+979 33587200 1
+D0
+~
+~
+0 0 97956
+D1
+~
+~
+0 0 97955
+D2
+~
+~
+0 0 97953
+S
+#97955
+&+LA Heap of &+yRu&+Lbb&+yl&+Le &+Land &+WDebris&N~
+   &+LThis rocky, blackened earth bares the way to the ruins of an
+&+Lancient mystics tower that has long since collapsed and crumbled
+&+Lto the ground.  All that remains of this once prosperous wizard's
+&+Ltower is the base and a massive pile of rubble.
+~
+979 33587200 1
+D0
+~
+~
+0 0 97957
+D3
+~
+~
+0 0 97954
+S
+#97956
+&+LA Heap of &+yRu&+Lbb&+yl&+Le &+Land &+WDebris&N~
+   &+LThis rocky, blackened earth bares the way to the ruins of an
+&+Lancient mystics tower that has long since collapsed and crumbled
+&+Lto the ground.  All that remains of this once prosperous wizard's
+&+Ltower is the base and a massive pile of rubble.
+~
+979 33587200 1
+D1
+~
+~
+0 0 97957
+D2
+~
+~
+0 0 97954
+S
+#97957
+&+RThe &+rBlasted &+REntryway &+cof a Collapsed Tower&N~
+   &+RThis entryway at one point opened from the south, as a portion of
+&+Rthe entry arch is still intact.  As the tower has crumbled across
+&+Rthis whole strip of land, one cannot but wonder what mage owned this
+&+Rtower and whatever came of this wizard, or how his tower was destroyed.
+&+RWhat sits here now, however, is the ancient, foregotten ruins of some-
+&+Rthing that was once great.
+~
+979 33587200 1
+D1
+~
+~
+0 0 97958
+D2
+~
+~
+0 0 97955
+D3
+~
+~
+0 0 97956
+S
+#97958
+&+YBack of the Ruins &+yAmongst the &+LR&+yu&+Lbb&+yl&+Le&N~
+   &+yThe massive piles of crushed stone and toppled blocks cover this
+&+yarea, the former inner foyer of the tower.  Large chunks of carved
+&+ystone that at one point counted for the stairs of this structure lay
+&+yjust as crumbled and blasted as the rest of this tower.  Perhaps during
+&+ysome of the power struggles on this plot of land in years past was
+&+Ythis particular wizard's domain the site of an assault, or perhaps it
+&+Ysimply got in the way.  Nevertheless, what stands here is not only a
+&+Yrelic of the past, but also shelter for the future.
+~
+979 33587200 0
+D3
+~
+~
+0 0 97957
+S
+#97959
+&nA Rocky Ascent&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587204 5
+D3
+~
+~
+0 0 97960
+D5
+~
+~
+0 0 590430
+S
+#97960
+&+yA Trail Up a &NRocky Ascent~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97961
+D1
+~
+~
+0 0 97959
+S
+#97961
+&+yA Trail Up a &NRocky Ascent~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D2
+~
+~
+0 0 97960
+D4
+~
+~
+0 0 97962
+S
+#97962
+&NA Narrow Climb, High in the Mountains&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D4
+~
+~
+0 0 97963
+D5
+~
+~
+0 0 97961
+F
+20
+S
+#97963
+&+yA Mountain Clearing&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97971
+D1
+~
+~
+0 0 97964
+D5
+~
+~
+0 0 97962
+F
+2
+S
+#97964
+&NA Tight Climb Around the Peak&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D3
+~
+~
+0 0 97963
+D8
+~
+~
+0 0 97965
+S
+#97965
+&NA Tight Climb Around the Peak&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97966
+D7
+~
+~
+0 0 97964
+S
+#97966
+&+yAround a Huge Rocky Mountain Wall&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97967
+D2
+~
+~
+0 0 97965
+S
+#97967
+&+LA Tight Corner on the Side of the Mountain~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97968
+D2
+~
+~
+0 0 97966
+S
+#97968
+&+yAlongside the Mountain Wall~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97969
+D3
+~
+~
+0 0 97967
+S
+#97969
+&+yA Steep Turn on the Mountain Peak&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97970
+D3
+~
+~
+0 0 97968
+S
+#97970
+&+yA Rocky &NShelf&+y Before a Cave&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D2
+~
+~
+0 0 97969
+D3
+~
+~
+0 0 97983
+S
+#97971
+&+WA Mountain Trail&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97972
+D2
+~
+~
+0 0 97963
+S
+#97972
+&+WA Mountain Trail&N~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97973
+D2
+~
+~
+0 0 97971
+S
+#97973
+&+WBelow a Jagged Ascent&n~
+   &+yThis rocky ascent is a sloping, jagged trail leading up a huge mountain
+&+ypeak.  The vantage point keeps getting higher and higher here as the clouds
+&+ycirculate and caress everything these peaceful, beautiful mountains touch.
+&+yThe rocky mountain here is steep and jagged, but not impossible to maneuver.
+~
+979 33587200 5
+D2
+~
+~
+0 0 97972
+D3
+   &+yThe curtain, serving as a portal to the hut west of here, is actually
+&+yan old war banner from the once great &+WTharnadian &+ymilitia.
+~
+curtain~
+1 0 97974
+D4
+~
+~
+0 0 97975
+S
+#97974
+&+yAn Old Ricketty Hut Made of Wood and Debris&N~
+   &+yThis old hut is made out of all sorts of debris, including many
+&+ytypes of wooden shingles of various origins.  The far wall of this
+&+yshack is made entirely of stacked &+rfirebreather&+y bottles,
+&+yas well as a reinforced roof made of old &+WTharnadian &+ywar
+&+ybanners.  The floor is made up of large stones that have been collected
+&+yfrom around the realm.  A small shelf is made of similar wood shingles
+&+ythat help make up this hut, and another huge &+WTharnadian &+ywar
+&+ybanner, ages old, acts a curtain.
+~
+979 33587200 5
+D1
+   &+yThe &+WTharnadian &+ywar banner curtain leads back east to this secluded mountain
+&+ypeak.
+~
+curtain~
+1 0 97973
+S
+#97975
+&+WA Trecherous Mountain Climb&N~
+   &+WThis trail, high up within the Eagle Ridge mountain peaks, Chunks of rock
+&+Wand recently toppled projections have created quite a bit of debris, including
+&+Wrocks and pebbles of all sizes and a considerable amount of rock bugs being
+&+Wsurfaced.  The air is quite thin up here, overlooking the continent.
+~
+979 33587200 5
+D4
+~
+~
+0 0 97976
+D5
+~
+~
+0 0 97973
+F
+15
+S
+#97976
+&+WA Trecherous Mountain Climb&N~
+   &+WThis trail, high up within the Eagle Ridge mountain peaks, Chunks of rock
+&+Wand recently toppled projections have created quite a bit of debris, including
+&+Wrocks and pebbles of all sizes and a considerable amount of rock bugs being
+&+Wsurfaced.  The air is quite thin up here, overlooking the continent.
+~
+979 33587200 5
+D4
+~
+~
+0 0 97977
+D5
+~
+~
+0 0 97975
+F
+15
+S
+#97977
+&+WA Trecherous Mountain Climb&N~
+   &+WThis trail, high up within the Eagle Ridge mountain peaks, Chunks of rock
+&+Wand recently toppled projections have created quite a bit of debris, including
+&+Wrocks and pebbles of all sizes and a considerable amount of rock bugs being
+&+Wsurfaced.  The air is quite thin up here, overlooking the continent.
+~
+979 33587200 5
+D4
+~
+~
+0 0 97978
+D5
+~
+~
+0 0 97976
+F
+20
+S
+#97978
+&+WA Windy Bluff Nearing the Mountain Top&N~
+   &+WThis trail, high up within the Eagle Ridge mountain peaks, Chunks of rock
+&+Wand recently toppled projections have created quite a bit of debris, including
+&+Wrocks and pebbles of all sizes and a considerable amount of rock bugs being
+&+Wsurfaced.  The air is quite thin up here, overlooking the continent.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97980
+D3
+~
+~
+0 0 97979
+D5
+~
+~
+0 0 97977
+S
+#97979
+&+LA &+gDank &+LCave&N~
+   &+LThis large cave sits atop one of the highest bluffs of the Eagle Ridge
+&+Lmountains.  The charred rocks of a once-burning campfire blackens the center
+&+Lof this cave, while an off-beat dripping sound echoes through the darkness.
+&+LHuge stalagmites and stalagtites nearly connect from floor to ceiling.
+~
+979 33587200 0
+D1
+~
+~
+0 0 97978
+S
+#97980
+&+WA Ridge on a Trail in the Mountain Peaks~
+   &+WThe peaks of this mountain range touch the sky and cut the clouds with their
+&+Wsharp, abrupt ridges.  The trail here turns and twists with the natural progression
+&+Wof the mountain.  There are bits of grass and moss that have grown onto the
+&+Wnearly frozen-rocks from years of weather.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97981
+D3
+~
+~
+0 0 97978
+S
+#97981
+&+WA Windy Ridge on a Trail in the Mountain Peaks~
+   &+WThe peaks of this mountain range touch the sky and cut the clouds with their
+&+Wsharp, abrupt ridges.  The trail here turns and twists with the natural progression
+&+Wof the mountain.  There are bits of grass and moss that have grown onto the
+&+Wnearly frozen-rocks from years of weather.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97982
+D2
+~
+~
+0 0 97980
+S
+#97982
+&+WA Sharp Turn in the Ridge Trail~
+   &+WThe peaks of this mountain range touch the sky and cut the clouds with their
+&+Wsharp, abrupt ridges.  The trail here turns and twists with the natural progression
+&+Wof the mountain.  There are bits of grass and moss that have grown onto the
+&+Wnearly frozen-rocks from years of weather.  There is a narrow crevice in the corner.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97984
+D2
+~
+~
+0 0 97981
+D6
+~
+~
+0 0 97986
+S
+#97983
+&+yAn Old, Windy &+LCave&N~
+   &+LThis large cave sits atop one of the highest bluffs of the Eagle Ridge
+&+Lmountains.  The charred rocks of a once-burning campfire blackens the center
+&+Lof this cave, while an off-beat dripping sound echoes through the darkness.
+&+LHuge stalagmites and stalagtites nearly connect from floor to ceiling.
+~
+979 33587200 0
+D1
+~
+~
+0 0 97970
+S
+#97984
+&+WBelow a Steep Rise&N~
+   &+WThe peaks of this mountain range touch the sky and cut the clouds with their
+&+Wsharp, abrupt ridges.  The trail here turns and twists with the natural progression
+&+Wof the mountain.  There are bits of grass and moss that have grown onto the
+&+Wnearly frozen-rocks from years of weather.
+~
+979 33587200 5
+D3
+~
+~
+0 0 97982
+D4
+~
+~
+0 0 97985
+S
+#97985
+&+WAtop a Steep Rise~
+   &+WThe peaks of this mountain range touch the sky and cut the clouds with their
+&+Wsharp, abrupt ridges.  The trail here turns and twists with the natural progression
+&+Wof the mountain.  There are bits of grass and moss that have grown onto the
+&+Wnearly frozen-rocks from years of weather.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97991
+D5
+~
+~
+0 0 97984
+F
+40
+S
+#97986
+&+LA Narrow Crevice~
+   &+LThis narrow crevice is a suture between two mountain peaks, existing possible for
+&+Lanother few hundred years before the tectonic plates shift and these mountains either
+&+Lsplit apart again, or get embiggened by another mountain.  Regardless, this crevice
+&+Lserves as a perfectly cromulent, although tight-fitting, passage through this mountain
+&+Lrange.
+~
+979 33595392 5
+D6
+~
+~
+0 0 97987
+D9
+~
+~
+0 0 97982
+S
+#97987
+&+WAn Opening Alongside a Rocky Shelf&N~
+   &+WThis rocky shelf wraps around one of the peaks of the Eagle Ridge Mountains.
+&+WA walkable path about two feet in diameter sits alongside the circumferance of this
+&+Wrocky mountain peak, acting as a ramp in a spiral around it.  Although the spiral
+&+Wdoes not act like a traditional staircase would, it does provide passage to a part
+&+Wof the mountain otherwise unscaleable.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97988
+D9
+~
+~
+0 0 97986
+S
+#97988
+&+WTravelling a Trecherous Rocky Shelf Along an Eagle Ridge Peak~
+   &+WThis rocky shelf wraps around one of the peaks of the Eagle Ridge Mountains.
+&+WA walkable path about two feet in diameter sits alongside the circumferance of this
+&+Wrocky mountain peak, acting as a ramp in a spiral around it.  Although the spiral
+&+Wdoes not act like a traditional staircase would, it does provide passage to a part
+&+Wof the mountain otherwise unscaleable.
+~
+979 33587200 5
+D2
+~
+~
+0 0 97987
+D8
+~
+~
+0 0 97989
+S
+#97989
+&+WTravelling a Trecherous Rocky Shelf Along an Eagle Ridge Peak~
+   &+WThis rocky shelf wraps around one of the peaks of the Eagle Ridge Mountains.
+&+WA walkable path about two feet in diameter sits alongside the circumferance of this
+&+Wrocky mountain peak, acting as a ramp in a spiral around it.  Although the spiral
+&+Wdoes not act like a traditional staircase would, it does provide passage to a part
+&+Wof the mountain otherwise unscaleable.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97990
+D7
+~
+~
+0 0 97988
+S
+#97990
+&+WA Turn in a Trecherous Rocky Shelf~
+   &+WThis rocky shelf wraps around one of the peaks of the Eagle Ridge Mountains.
+&+WA walkable path about two feet in diameter sits alongside the circumferance of this
+&+Wrocky mountain peak, acting as a ramp in a spiral around it.  Although the spiral
+&+Wdoes not act like a traditional staircase would, it does provide passage to a part
+&+Wof the mountain otherwise unscaleable.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97992
+D2
+~
+~
+0 0 97997
+D3
+~
+~
+0 0 97989
+S
+#97991
+&NAn Open &+yMountain &+WClearing&N~
+   A wide, spacious clearing sits encircled in a crown of thorny rocks, atop these
+Eagle Ridge Mountains.  The trail below winds chaotically around the rocks of these
+mountains until it disappears into the clouds.  As this clearing sits well above the
+cloud line of the Mountains, the air is thin, but chill and crisp.  Numerous rocks
+sitting in shadows of others have a small bit of snow sitting refrigerated by the
+shadows coolness.  This clearing sits next to a huge boulder to the west, and a
+rocky descent north of here.
+~
+979 33595392 5
+D0
+~
+~
+0 0 98000
+D2
+~
+~
+0 0 97985
+D3
+   &+yA huge boulder seems to be used as a door for a giant.
+~
+boulder~
+5 0 97996
+S
+#97992
+&+WA Wide Approach&N~
+   &+WThis wide approach leads south to a treacherous shelf alongside an Eagle Ridge
+&+Wpeak, while a wide approach sits to the north, beginning a trail up the side of
+&+Wthe mountain overlooking the Eagle Ridge delta.  This mountain trail continues
+&+Waround the far side of the peak.
+~
+979 33587200 5
+D2
+~
+~
+0 0 97990
+D8
+~
+~
+0 0 97993
+S
+#97993
+&+LA Trail Around the &+CFar Side &+Lof the &+WMountain&N~
+   &+LThis high mountain peak looks across to a twin peak of the Eagle Ridge Mountain
+&+LDelta, and overlooks the brash waters of the Delta itself.  As Tharnadia used to
+&+Lsit at the mouth of this great Delta hundreds of years ago, it now sits in ruins
+&+Lat the perverbeal armpit of the sea.  The rocky climb around this mountain is
+&+Lsteep, but manageable.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97994
+D7
+~
+~
+0 0 97992
+S
+#97994
+&+LUnder a Rocky Climb&N~
+   &+LThis high mountain peak looks across to a twin peak of the Eagle Ridge Mountain
+&+LDelta, and overlooks the brash waters of the Delta itself.  As Tharnadia used to
+&+Lsit at the mouth of this great Delta hundreds of years ago, it now sits in ruins
+&+Lat the perverbeal armpit of the sea.  The rocky climb around this mountain is
+&+Lsteep, but manageable.
+~
+979 33587200 5
+D3
+~
+~
+0 0 97993
+D4
+~
+~
+0 0 97995
+S
+#97995
+&+LA Bluff &+WOverlooking&+L the &+yEagle &+WRidge &+BDelta&N~
+   &+LThis high mountain peak looks across to a twin peak of the Eagle Ridge Mountain
+&+LDelta, and overlooks the brash waters of the Delta itself.  As Tharnadia used to
+&+Lsit at the mouth of this great Delta hundreds of years ago, it now sits in ruins
+&+Lat the perverbeal armpit of the sea.  The rocky climb around this mountain is
+&+Lsteep, but manageable.
+~
+979 33587200 5
+D1
+~
+~
+0 0 97999
+D5
+~
+~
+0 0 97994
+F
+1
+S
+#97996
+&+yBack Corner of a Huge Cave~
+   &+yThis huge cave sits atop the Eagle Ridge bluffs, concealed from careful boulder
+&+yplacement by another force.  This huge cave appears to be some sort of lair.  Huge
+&+yknotted furs, some still covered with rotting and moldy flesh, lay strewn about
+&+ythe floor.  There is no evidence of any fire used in this cave, however there are
+&+ymany skeletons and numerous bones that have been licked clean and even gnawed up
+&+ya bit.
+~
+979 33587200 5
+D1
+   &+yA huge boulder acts as a door to the east.
+~
+boulder~
+5 0 97991
+D3
+~
+~
+0 0 97998
+S
+#97997
+&+yA Huge Cave Entrance&N~
+   &+yThis huge cave sits atop the Eagle Ridge bluffs, concealed from careful boulder
+&+yplacement by another force.  This huge cave appears to be some sort of lair.  Huge
+&+yknotted furs, some still covered with rotting and moldy flesh, lay strewn about
+&+ythe floor.  There is no evidence of any fire used in this cave, however there are
+&+ymany skeletons and numerous bones that have been licked clean and even gnawed up
+&+ya bit.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97990
+D2
+~
+~
+0 0 97998
+S
+#97998
+&+yA Massive Heap of &+WBones &+yand Debris&N~
+   &+yThis huge cave sits atop the Eagle Ridge bluffs, concealed from careful boulder
+&+yplacement by another force.  This huge cave appears to be some sort of lair.  Huge
+&+yknotted furs, some still covered with rotting and moldy flesh, lay strewn about
+&+ythe floor.  There is no evidence of any fire used in this cave, however there are
+&+ymany skeletons and numerous bones that have been licked clean and even gnawed up
+&+ya bit.
+~
+979 33587200 5
+D0
+~
+~
+0 0 97997
+D1
+~
+~
+0 0 97996
+S
+#97999
+&+LA Trail on the &+CFar &+LSide of the Mountain~
+   &+LThis high mountain peak looks across to a twin peak of the Eagle Ridge Mountain
+&+LDelta, and overlooks the brash waters of the Delta itself.  As Tharnadia used to
+&+Lsit at the mouth of this great Delta hundreds of years ago, it now sits in ruins
+&+Lat the perverbeal armpit of the sea.  The rocky climb around this mountain is
+&+Lsteep, but manageable.
+~
+979 33587200 5
+D1
+~
+~
+0 0 98001
+D2
+~
+~
+0 0 98002
+D3
+~
+~
+0 0 97995
+F
+1
+S
+#98000
+&+WA Mountain Trail Littered with Rocks and Debris&N~
+   &+WThis mountain trail wanes in from the south before picking up again further
+&+Wnorth.  However, chunks of the mountain peaks from previous avalanches and shifts
+&+Wthroughout the years have caused this portion of the trail to become littered
+&+Wwith rocky debris.  It may be possible to climb up the rocky pileup to a further
+&+Whigher up vantage point, however, unlikely unless the the rocks are moved in a
+&+Wmore climbable formation.
+~
+979 33587200 5
+D0
+~
+~
+0 0 98001
+D2
+~
+~
+0 0 97991
+D4
+~
+~
+8 0 98003
+S
+#98001
+&+WA Turn in the Trail Around the Mountain~
+   &+WThis mountain trail wanes in from the south before picking up again further
+&+Wnorth.  However, chunks of the mountain peaks from previous avalanches and shifts
+&+Wthroughout the years have caused this portion of the trail to become littered
+&+Wwith rocky debris.  It may be possible to climb up the rocky pileup to a further
+&+Whigher up vantage point, however, unlikely unless the the rocks are moved in a
+&+Wmore climbable formation.
+~
+979 33587200 5
+D2
+~
+~
+0 0 98000
+D3
+~
+~
+0 0 97999
+D8
+~
+~
+0 0 98008
+S
+#98002
+&+LA Huge, &NWindy &+LCave&N~
+   &+LThis large cave sits atop one of the highest bluffs of the Eagle Ridge
+&+Lmountains.  The charred rocks of a once-burning campfire blackens the center
+&+Lof this cave, while an off-beat dripping sound echoes through the darkness.
+&+LHuge stalagmites and stalagtites nearly connect from floor to ceiling.
+~
+979 33587200 0
+D0
+~
+~
+0 0 97999
+S
+#98003
+&+WA Spacious &+LLanding~
+   &+WThis spacious, rocky landing sits on a shelf just barely made invisible from
+&+Wthe vantage below.  This landing leads west to the bottom of a large, dark
+&+Lshaft &+Wthat appears to lead up to a higher peak in the mountain.  This landing
+&+Wis spacious and simple.
+~
+979 33587200 5
+D3
+~
+~
+0 0 98004
+D5
+~
+~
+0 0 98000
+S
+#98004
+&+LBottom of a Dark Shaft&N~
+   &+LThis dark shaft leads up and down in the center of this Eagle Ridge Mountain
+&+Lpeak.  The shaft itself is climable by the jagged and winding rature of the
+&+Lrocks, leading up and down.  Possibly the center of a volcano at one point,
+&+Lor even the junction of two sutures of the lands coming together before the
+&+Lthree great wars.  Nevertheless, this junction now sits within the middle of
+&+Lthis particular mountain peak, providing passage upward.
+~
+979 33587200 0
+D1
+~
+~
+0 0 98003
+D4
+~
+~
+0 0 98005
+S
+#98005
+&+LA Dark Shaft at the Heart of the Mountain&N~
+   &+LThis dark shaft leads up and down in the center of this Eagle Ridge Mountain
+&+Lpeak.  The shaft itself is climable by the jagged and winding rature of the
+&+Lrocks, leading up and down.  Possibly the center of a volcano at one point,
+&+Lor even the junction of two sutures of the lands coming together before the
+&+Lthree great wars.  Nevertheless, this junction now sits within the middle of
+&+Lthis particular mountain peak, providing passage upward.
+~
+979 33587200 0
+D4
+~
+~
+0 0 98006
+D5
+~
+~
+0 0 98004
+F
+20
+S
+#98006
+&+LA Dark Shaft at the Heart of the Mountain&N~
+   &+LThis dark shaft leads up and down in the center of this Eagle Ridge Mountain
+&+Lpeak.  The shaft itself is climable by the jagged and winding rature of the
+&+Lrocks, leading up and down.  Possibly the center of a volcano at one point,
+&+Lor even the junction of two sutures of the lands coming together before the
+&+Lthree great wars.  Nevertheless, this junction now sits within the middle of
+&+Lthis particular mountain peak, providing passage upward.
+~
+979 33587200 0
+D4
+~
+~
+0 0 98007
+D5
+~
+~
+0 0 98005
+F
+20
+S
+#98007
+&+LAtop a Dark Shaft&+W Before a Hidden Pasture&N~
+   &+LThis dark shaft leads up and down in the center of this Eagle Ridge Mountain
+&+Lpeak.  The shaft itself is climable by the jagged and winding rature of the
+&+Lrocks, leading up and down.  Possibly the center of a volcano at one point,
+&+Lor even the junction of two sutures of the lands coming together before the
+&+Lthree great wars.  Nevertheless, this junction now sits within the middle of
+&+Lthis particular mountain peak, providing passage upward.
+~
+979 33587204 5
+D1
+~
+~
+0 0 98009
+D5
+~
+~
+0 0 98006
+S
+#98008
+&+yAn Eagle's Nest&N~
+   &+yThis large nest, built on a large rocky outcropping of the mountain just off
+&+ythe trail, is made up of both gathered materials and natural materials.  A mixture
+&+yof fabric bits and ruined linens with sticks, twigs and leaves make up this huge
+&+yfour-foot nest.
+~
+979 33587200 5
+D7
+~
+~
+0 0 98001
+S
+#98009
+&NEntrance of a &+WHidden Gri&+Yff&+yon &+WPasture&N~
+   &+WThis hidden griffon pasture sits atop the highest peak of the Eagle Ridge
+&+WMountains.  The majestic creatures called the griffons, half lion with heads and
+&+Wwings of eagles, have nested up in this secluded, hidden alcove of the world.
+&+WThe entire clearing at this immensely high peak has been turned into a griffon's
+&+Whome and breeding ground, by which its family has become what it is.  The grass
+&+Wbelow is soft, and the neighboring rocks that create the rim of this mountain
+&+Wpeak clearing bar it off from the rest of the war surrounding Duris.
+~
+979 33587200 5
+D0
+~
+~
+0 0 98011
+D1
+~
+~
+0 0 98010
+D3
+~
+~
+0 0 98007
+S
+#98010
+&+WA Hidden Gr&+Yif&+yfon &+WPasture&N~
+   &+WThis hidden griffon pasture sits atop the highest peak of the Eagle Ridge
+&+WMountains.  The majestic creatures called the griffons, half lion with heads and
+&+Wwings of eagles, have nested up in this secluded, hidden alcove of the world.
+&+WThe entire clearing at this immensely high peak has been turned into a griffon's
+&+Whome and breeding ground, by which its family has become what it is.  The grass
+&+Wbelow is soft, and the neighboring rocks that create the rim of this mountain
+&+Wpeak clearing bar it off from the rest of the war surrounding Duris.
+~
+979 33587200 5
+D0
+~
+~
+0 0 98012
+D3
+~
+~
+0 0 98009
+S
+#98011
+&+WA Hidden Gr&+Yif&+yfon &+WPasture&N~
+   &+WThis hidden griffon pasture sits atop the highest peak of the Eagle Ridge
+&+WMountains.  The majestic creatures called the griffons, half lion with heads and
+&+Wwings of eagles, have nested up in this secluded, hidden alcove of the world.
+&+WThe entire clearing at this immensely high peak has been turned into a griffon's
+&+Whome and breeding ground, by which its family has become what it is.  The grass
+&+Wbelow is soft, and the neighboring rocks that create the rim of this mountain
+&+Wpeak clearing bar it off from the rest of the war surrounding Duris.
+~
+979 33587200 5
+D1
+~
+~
+0 0 98012
+D2
+~
+~
+0 0 98009
+S
+#98012
+&+yA &+gGrassy &+WPasture &+yBelow the Nest&N~
+   &+WThis hidden griffon pasture sits atop the highest peak of the Eagle Ridge
+&+WMountains.  The majestic creatures called the griffons, half lion with heads and
+&+Wwings of eagles, have nested up in this secluded, hidden alcove of the world.
+&+WThe entire clearing at this immensely high peak has been turned into a griffon's
+&+Whome and breeding ground, by which its family has become what it is.  The grass
+&+Wbelow is soft, and the neighboring rocks that create the rim of this mountain
+&+Wpeak clearing bar it off from the rest of the war surrounding Duris.
+~
+979 33587200 5
+D2
+~
+~
+0 0 98010
+D3
+~
+~
+0 0 98011
+D4
+~
+~
+0 0 98013
+S
+#98013
+&+WThe Gr&+Yif&+yfon's Nest&N~
+   &+WThis large nest is located at perhaps one of the highest peaks of all of Duris.
+&+WThe entire ground is made of sheets of old griffon feathers, straw, as well as bits
+&+Wof fabric collected from locations across the realm.  There are bits of white banner
+&+Wmaterial, perhaps an old war banner of Tharnadia.  Conversely, there are also bits
+&+Wof &+rblood red &+Wmaterial, perhaps those hauled over to these mountains from the
+&+Wother grand city of &+rBloodstone&+W, having stood independant from the three wars
+&+Wof Duris.  This griffon's nest sits on this massive perch, overseeing the entire
+&+Wocean.
+~
+979 33587200 5
+D5
+~
+~
+0 0 98012
+S
+#98014
+&+LBeneath the Center of a &+rCrater&n~
+&+L  This room descends deep below the center the crater.&n
+~
+979 142770248 0
+D4
+~
+~
+0 0 519153
+S
+#98015
+&+LThe Rooftop of a &+RGn&+romi&+Rsh &+LLaboratory&n~
+&+L  This little laboratory is filled with various beakers, bottles,
+&+Land little knick knacks. Next to each of the many cabinets are work
+&+Ltables, loaded with tools that would make any scientist or alchemist
+&+Lproud. Towards the center of the room is a very large contraption
+&+Lthat seems to be moving without the assistance of any hands.&n
+~
+979 0 0
+D5
+~
+~
+0 0 98016
+S
+#98016
+&+LThe Main Floor of a &+RGn&+romi&+Rsh &+LLaboratory&n~
+&+L  Your are standing in the main floor of a small but very well equipped
+&+Llaboratory. The floor is made of thick wooden boards and is covered with
+&+Lornate carpetry. The walls are adorned with shelving, holding various
+&+Lbottles and potions. There is a straircase towards the back of the room
+&+Lthat leads to the roof.&n
+~
+979 0 0
+D2
+~
+~
+0 0 522869
+D4
+~
+~
+0 0 98015
+S
+#98017
+&+yA Small and Shabby &+gHut&n~
+  &+yThis small hut is barely large enough for a small group to stand in. The
+&+yfloors are covered with mud and debris. The walls are made of large branches
+&+ythat are covered with large bunches of leaves. There is a small &+Waltar &+ytowards
+&+ythe back of the room. You can clearly see a number of small trinklets on it.&n
+~
+979 0 0
+D2
+~
+~
+0 0 626598
+E
+altar~
+  &+WThis small altar seems to be a place of worship for &+GMugflog&+W. There
+&+Ware a number of small and seemly random trinklets and items that are
+&+Wspread out on it. Although most of them are small and dirty, you can
+&+Wtell that some of them are embued with powerful magic.&n
+
+&+ga potion of thick &+Ggreen &+gsludge&n
+&+La &+mvi&+Mal &+Lof liquid &+mti&+Mme&n
+&+Lthe &+msta&+Mff &+Lof broken &+mti&+Mme&n
+~
+S

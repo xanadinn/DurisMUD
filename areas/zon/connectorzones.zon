@@ -1,0 +1,742 @@
+#536
+&+LThe Great &n&+yRealm &+Lof &N&+rDuris&N~
+54239 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 53606 1 1 100 0 0 0
+*     east exit from "Dwarven Guard Post in the Tunnel" to
+*     "Within a Dark Tunnel" - closed
+*
+D 0 53607 3 1 100 0 0 0
+*     west exit from "Within a Dark Tunnel" to
+*     "Dwarven Guard Post in the Tunnel" - closed
+*
+D 0 53612 1 1 100 0 0 0
+*     east exit from "A Natural Tunnel" to
+*     "Worm Burrow In the Natural Tunnel" - closed
+*
+D 0 53617 3 1 100 0 0 0
+*     west exit from "Worm Burrow In the Natural Tunnel" to
+*     "A Natural Tunnel" - closed
+*
+D 0 53614 2 1 100 0 0 0
+*     south exit from "North of a Weak Wall in a Natural Tunnel" to
+*     "Worm Burrow In the Natural Tunnel" - closed
+*
+D 0 53617 0 1 100 0 0 0
+*     north exit from "Worm Burrow In the Natural Tunnel" to
+*     "North of a Weak Wall in a Natural Tunnel" - closed
+*
+D 0 53621 2 5 100 0 0 0
+*     south exit from "Abrupt End of a Submerged Tunnel" to
+*     "A Hidden Tunnel" - closed/secret
+*
+D 0 53756 0 5 100 0 0 0
+*     north exit from "A Hidden Tunnel" to
+*     "Abrupt End of a Submerged Tunnel" - closed/secret
+*
+D 0 53678 0 2 100 0 0 0
+*     north exit from "Forest Road Before a Black Gate" to
+*     "Forest Road Before a Black Gate" - closed/locked
+*
+D 0 53686 2 2 100 0 0 0
+*     south exit from "Forest Road Before a Black Gate" to
+*     "Forest Road Before a Black Gate" - closed/locked
+*
+D 0 53717 0 8 100 0 0 0
+*     north exit from "South of a Giant Boulder on the Rockslide" to
+*     "North of a Giant Boulder on the Rockslide" - open/blocked
+*
+D 0 53718 2 8 100 0 0 0
+*     south exit from "North of a Giant Boulder on the Rockslide" to
+*     "South of a Giant Boulder on the Rockslide" - open/blocked
+*
+D 0 53754 1 5 100 0 0 0
+*     east exit from "A Rubble Filled Room" to
+*     "A Rubble Filled Room" - closed/secret
+*
+D 0 53755 3 5 100 0 0 0
+*     west exit from "A Rubble Filled Room" to
+*     "A Rubble Filled Room" - closed/secret
+*
+D 0 53781 1 2 100 0 0 0
+*     east exit from "Before the Blood Gate" to
+*     "Before the Blood Gate" - closed/locked
+*
+D 0 53782 3 2 100 0 0 0
+*     west exit from "Before the Blood Gate" to
+*     "Before the Blood Gate" - closed/locked
+*
+D 0 53831 0 1 100 0 0 0
+*     north exit from "The Black Gate" to
+*     "The Black Gate" - closed
+*
+D 0 53832 2 1 100 0 0 0
+*     south exit from "The Black Gate" to
+*     "The Black Gate" - closed
+*
+D 0 53996 1 8 100 0 0 0
+*     east exit from "A Burnt Wagon on the Bridge" to
+*     "A Pile of Rubble on the Bridge" - open/blocked
+*
+D 0 53997 3 8 100 0 0 0
+*     west exit from "A Pile of Rubble on the Bridge" to
+*     "A Burnt Wagon on the Bridge" - open/blocked
+*
+D 0 54024 1 1 100 0 0 0
+*     east exit from "The Crystal Gates of a Mountain Outpost" to
+*     "Within the Inner Gates of the Outpost Shaledrieth" - closed
+*
+D 0 54025 3 1 100 0 0 0
+*     west exit from "Within the Inner Gates of the Outpost Shaledrieth" to
+*     "The Crystal Gates of a Mountain Outpost" - closed
+*
+D 0 54029 1 1 100 0 0 0
+*     east exit from "The Bottom of the Crystal Stairs of Beleth Street" to
+*     "The Southern Entrance of the Crystal Garden" - closed
+*
+D 0 54078 3 1 100 0 0 0
+*     west exit from "The Southern Entrance of the Crystal Garden" to
+*     "The Bottom of the Crystal Stairs of Beleth Street" - closed
+*
+D 0 54030 1 1 100 0 0 0
+*     east exit from "On Grision Street" to
+*     "A Shaledrieth Lieutenant's Home" - closed
+*
+D 0 54073 3 1 100 0 0 0
+*     west exit from "A Shaledrieth Lieutenant's Home" to
+*     "On Grision Street" - closed
+*
+D 0 54034 3 1 100 0 0 0
+*     west exit from "A Bend in Grision Street" to
+*     "The Chamber of the Sheladrieth Guard Captain" - closed
+*
+D 0 54085 1 1 100 0 0 0
+*     east exit from "The Chamber of the Sheladrieth Guard Captain" to
+*     "A Bend in Grision Street" - closed
+*
+D 0 54035 0 1 100 0 0 0
+*     north exit from "On Grision Street" to
+*     "A Shaledrieth Lieutenant's Home" - closed
+*
+D 0 54070 2 1 100 0 0 0
+*     south exit from "A Shaledrieth Lieutenant's Home" to
+*     "On Grision Street" - closed
+*
+D 0 54036 2 1 100 0 0 0
+*     south exit from "The Eastern End of Grision Street" to
+*     "The Northern Entrance of the Crystal Garden" - closed
+*
+D 0 54075 0 1 100 0 0 0
+*     north exit from "The Northern Entrance of the Crystal Garden" to
+*     "The Eastern End of Grision Street" - closed
+*
+D 0 54037 3 1 100 0 0 0
+*     west exit from "On Grision Street" to
+*     "A Shaledrieth Lieutenant's Home" - closed
+*
+D 0 54072 1 1 100 0 0 0
+*     east exit from "A Shaledrieth Lieutenant's Home" to
+*     "On Grision Street" - closed
+*
+D 0 54039 0 1 100 0 0 0
+*     north exit from "The Eastern Entrance of the Shaledrieth Barracks" to
+*     "A Hallway Within the Barracks" - closed
+*
+D 0 54042 2 1 100 0 0 0
+*     south exit from "A Hallway Within the Barracks" to
+*     "The Eastern Entrance of the Shaledrieth Barracks" - closed
+*
+D 0 54040 3 1 100 0 0 0
+*     west exit from "The Southern Entrance of the Shaledrieth Barracks" to
+*     "A Hallway Within the Barracks" - closed
+*
+D 0 54041 1 1 100 0 0 0
+*     east exit from "A Hallway Within the Barracks" to
+*     "The Southern Entrance of the Shaledrieth Barracks" - closed
+*
+D 0 54042 0 1 100 0 0 0
+*     north exit from "A Hallway Within the Barracks" to
+*     "Bottom of a Barracks Staircase" - closed
+*
+D 0 54048 2 1 100 0 0 0
+*     south exit from "Bottom of a Barracks Staircase" to
+*     "A Hallway Within the Barracks" - closed
+*
+D 0 54051 1 1 100 0 0 0
+*     east exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54057 3 1 100 0 0 0
+*     west exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54051 3 1 100 0 0 0
+*     west exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54058 1 1 100 0 0 0
+*     east exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54052 1 1 100 0 0 0
+*     east exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54055 3 1 100 0 0 0
+*     west exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54052 3 1 100 0 0 0
+*     west exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54056 1 1 100 0 0 0
+*     east exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54053 1 1 100 0 0 0
+*     east exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54059 3 1 100 0 0 0
+*     west exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54053 3 1 100 0 0 0
+*     west exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54060 1 1 100 0 0 0
+*     east exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54054 1 1 100 0 0 0
+*     east exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54061 3 1 100 0 0 0
+*     west exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54054 3 1 100 0 0 0
+*     west exit from "A Second Floor Hallway of the Barracks" to
+*     "Within a Guard's Bedroom" - closed
+*
+D 0 54062 1 1 100 0 0 0
+*     east exit from "Within a Guard's Bedroom" to
+*     "A Second Floor Hallway of the Barracks" - closed
+*
+D 0 54081 1 1 100 0 0 0
+*     east exit from "The Eastern Guard Post of Shaledrieth" to
+*     "A Landing Below the Shaledrieth Sunwell" - closed
+*
+D 0 54082 3 1 100 0 0 0
+*     west exit from "A Landing Below the Shaledrieth Sunwell" to
+*     "The Eastern Guard Post of Shaledrieth" - closed
+*
+D 0 54094 1 1 100 0 0 0
+*     east exit from "The Central Aisle of the Shrine of Lareth" to
+*     "A Heavily Guarded Post Before the Golden Stairs" - closed
+*
+D 0 54106 3 1 100 0 0 0
+*     west exit from "A Heavily Guarded Post Before the Golden Stairs" to
+*     "The Central Aisle of the Shrine of Lareth" - closed
+*
+D 0 54099 2 1 100 0 0 0
+*     south exit from "The Bottom of the Golden Stairs of the Shrine" to
+*     "A Heavily Guarded Post Before the Golden Stairs" - closed
+*
+D 0 54106 0 1 100 0 0 0
+*     north exit from "A Heavily Guarded Post Before the Golden Stairs" to
+*     "The Bottom of the Golden Stairs of the Shrine" - closed
+*
+D 0 54126 8 5 100 0 0 0
+*     northeast exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed/secret
+*
+D 0 54139 7 1 100 0 0 0
+*     southwest exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54132 7 5 100 0 0 0
+*     southwest exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed/secret
+*
+D 0 54137 8 1 100 0 0 0
+*     northeast exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54138 5 1 100 0 0 0
+*     down exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "The Lair of the Kraken Prince" - closed
+*
+D 0 54140 4 1 100 0 0 0
+*     up exit from "The Lair of the Kraken Prince" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54148 3 5 100 0 0 0
+*     west exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed/secret
+*
+D 0 54160 1 1 100 0 0 0
+*     east exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54156 0 5 100 0 0 0
+*     north exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed/secret
+*
+D 0 54161 2 1 100 0 0 0
+*     south exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54160 5 1 100 0 0 0
+*     down exit from "Inside a Tunnel Flooded by an Underground River" to
+*     "The Lair of the Kraken Princess" - closed
+*
+D 0 54162 4 1 100 0 0 0
+*     up exit from "The Lair of the Kraken Princess" to
+*     "Inside a Tunnel Flooded by an Underground River" - closed
+*
+D 0 54164 5 2 100 0 0 0
+*     down exit from "A Lush Forest Path, Approaching the Transparent Tower" to
+*     "Within a Dark Tomb" - closed/locked
+*
+D 0 54168 4 1 100 0 0 0
+*     up exit from "Within a Dark Tomb" to
+*     "A Lush Forest Path, Approaching the Transparent Tower" - closed
+*
+D 0 54166 0 2 100 0 0 0
+*     north exit from "A Lush Forest Path, Approaching the Transparent Tower" to
+*     "Before a Translucent Drawbridge" - closed/locked
+*
+D 0 54167 2 1 100 0 0 0
+*     south exit from "Before a Translucent Drawbridge" to
+*     "A Lush Forest Path, Approaching the Transparent Tower" - closed
+*
+D 0 54173 0 2 100 0 0 0
+*     north exit from "Within a Dark Tomb" to
+*     "Within a Dark Tomb" - closed/locked
+*
+D 0 54174 2 1 100 0 0 0
+*     south exit from "Within a Dark Tomb" to
+*     "Within a Dark Tomb" - closed
+*
+D 0 54193 5 8 100 0 0 0
+*     down exit from "A Pitch Black Network of Caves" to
+*     "A Pitch Black Network of Caves" - open/blocked
+*
+D 0 54195 4 0 100 0 0 0
+*     up exit from "A Pitch Black Network of Caves" to
+*     "A Pitch Black Network of Caves" - open
+*
+D 0 54194 5 8 100 0 0 0
+*     down exit from "A Large Nesting Chamber" to
+*     "The Feculent Opening of a Massive Carcass" - open/blocked
+*
+D 0 54239 4 0 100 0 0 0
+*     up exit from "The Feculent Opening of a Massive Carcass" to
+*     "A Large Nesting Chamber" - open
+*
+*
+O 0 53601 1 53617 100 0 0 0        * a tarnished copper ring
+O 0 53604 1 53661 100 0 0 0        * a small wooden sign
+O 0 53607 1 53673 100 0 0 0        * a skeleton
+P 1 53606 1 53607 100 0 0 0        *   a pair of chainmail gloves
+O 0 53612 1 53717 100 0 0 0        * a giant boulder
+O 0 53613 1 53718 100 0 0 0        * a giant boulder
+O 0 53624 1 53934 100 0 0 0        * a small campfire
+P 1 53625 1 53624 100 0 0 0        *   an ember of a dark moor
+O 0 53621 2 53961 100 0 0 0        * a small wooden raft
+O 0 53621 2 53991 100 0 0 0        * a small wooden raft
+O 0 53629 1 53996 100 0 0 0        * a burnt and abandoned wagon
+O 0 53630 1 53997 100 0 0 0        * a pile of rubble
+O 0 53633 1 54029 100 0 0 0        * a crystal sign
+O 0 53634 1 54036 100 0 0 0        * a crystal sign
+O 0 53635 1 54084 100 0 0 0        * the Sheladrieth sunwell
+O 0 53636 1 54086 100 0 0 0        * the Larethian sunwell
+O 0 53653 1 54193 100 0 0 0        * a pile of rocks
+O 0 53654 1 54194 100 0 0 0        * a bloated and decaying corpse
+O 0 53658 1 54209 100 0 0 0        * a large wooden chest
+P 1 54617 1 53658 100 0 0 0        *   (object type not in this .obj file)
+O 0 53655 1 54217 100 0 0 0        * a large crack
+O 0 53656 1 54218 100 0 0 0        * a large crack
+O 0 53657 1 54218 100 0 0 0        * a spider web
+P 1 54616 1 53657 100 0 0 0        *   (object type not in this .obj file)
+*
+M 0 53601 4 53601 100 0 0 0        * a tiny spider
+M 0 53600 1 53606 100 0 0 0        * an elite dwarven tunnel guard
+E 1 53600 2 16 100 0 0 0           *   a dwarven battle-axe
+M 0 53601 4 53608 100 0 0 0        * a tiny spider
+M 0 53602 5 53609 100 0 0 0        * a small purple worm
+M 0 53602 5 53615 100 0 0 0        * a small purple worm
+M 0 53602 5 53617 100 0 0 0        * a small purple worm
+M 0 53602 5 53617 100 0 0 0        * a small purple worm
+M 0 53602 5 53617 100 0 0 0        * a small purple worm
+M 0 53603 1 53617 100 0 0 0        * a purple worm
+M 0 53604 3 53625 100 0 0 0        * a flaming skeleton
+M 0 53604 3 53629 100 0 0 0        * a flaming skeleton
+M 0 53604 3 53631 100 0 0 0        * a flaming skeleton
+M 0 53606 1 53637 100 0 0 0        * an elven huntsman
+E 1 53602 2 16 100 0 0 0           *   a silver longsword
+M 0 53605 1 53640 100 0 0 0        * a human adventurer
+M 0 53601 4 53642 100 0 0 0        * a tiny spider
+M 0 53608 4 53643 100 0 0 0        * a vicious bat
+M 0 53608 4 53643 100 0 0 0        * a vicious bat
+M 0 53601 4 53647 100 0 0 0        * a tiny spider
+M 0 53610 3 53647 100 0 0 0        * a centipede
+M 0 53608 4 53648 100 0 0 0        * a vicious bat
+M 0 53607 1 53649 100 0 0 0        * a roper covered in vegetation
+M 0 53610 3 53651 100 0 0 0        * a centipede
+M 0 53608 4 53653 100 0 0 0        * a vicious bat
+M 0 53610 3 53653 100 0 0 0        * a centipede
+M 0 53612 13 53661 100 0 0 0       * a mountain goat
+M 0 53613 1 53665 100 0 0 0        * an orc brigand
+M 0 53611 1 53668 100 0 0 0        * a hill giant
+E 1 53603 1 16 100 0 0 0           *   a giant wooden club
+M 0 53612 13 53669 100 0 0 0       * a mountain goat
+M 0 53609 1 53673 100 0 0 0        * a cave fisher
+M 0 53617 3 53674 100 0 0 0        * a black-coated dire wolf
+M 0 53614 6 53678 100 0 0 0        * an orc gate guardian
+G 1 53608 2 0 100 0 0 0            *    an iron key
+M 0 53617 3 53679 100 0 0 0        * a black-coated dire wolf
+M 0 53614 6 53686 100 0 0 0        * an orc gate guardian
+G 1 53608 2 0 100 0 0 0            *    an iron key
+M 0 53616 1 53690 100 0 0 0        * an ugly black crow
+G 1 53609 1 0 100 0 0 0            *    a black crow feather
+M 0 53615 2 53692 100 0 0 0        * an orc scout
+M 0 53615 2 53694 100 0 0 0        * an orc scout
+M 0 53612 13 53696 100 0 0 0       * a mountain goat
+M 0 53691 2 53696 100 0 0 0        * a dangerous spider
+M 0 53618 1 53702 100 0 0 0        * a huge ogre brigand
+E 1 53611 1 13 100 0 0 0           *   a filthy hide loincloth
+G 1 53610 3 0 100 0 0 0            *    a dirty sack of coins
+M 0 53691 2 53703 100 0 0 0        * a dangerous spider
+M 0 53612 13 53704 100 0 0 0       * a mountain goat
+M 0 53619 10 53712 100 0 0 0       * a mountain lion
+M 0 53619 10 53716 100 0 0 0       * a mountain lion
+M 0 53620 1 53722 100 0 0 0        * a wounded gypsy
+M 0 53621 1 53725 100 0 0 0        * a large vampire bat
+M 0 53624 2 53734 100 0 0 0        * an aquatic zombie
+M 0 53624 2 53734 100 0 0 0        * an aquatic zombie
+M 0 53623 2 53740 100 0 0 0        * the skeleton of a stag
+M 0 53623 2 53746 100 0 0 0        * the skeleton of a stag
+M 0 53622 1 53747 100 0 0 0        * a half-lich necromancer
+E 1 53614 1 18 100 0 0 0           *   a dark staff of necromancy
+E 1 53615 1 21 100 0 0 0           *   an inverted cross earring
+M 0 53625 1 53751 100 0 0 0        * a troll mercenary
+E 1 53616 1 3 100 0 0 0            *   a rusty steel necklace
+M 0 53690 3 53759 100 0 0 0        * an Orc raider
+M 0 53626 1 53760 100 0 0 0        * an Orc trader
+M 0 53690 3 53761 100 0 0 0        * an Orc raider
+M 0 53690 3 53763 100 0 0 0        * an Orc raider
+M 0 53627 5 53767 100 0 0 0        * an ogre warrior
+M 0 53627 5 53767 100 0 0 0        * an ogre warrior
+M 0 53617 3 53768 100 0 0 0        * a black-coated dire wolf
+M 0 53627 5 53770 100 0 0 0        * an ogre warrior
+M 0 53627 5 53772 100 0 0 0        * an ogre warrior
+M 0 53627 5 53774 100 0 0 0        * an ogre warrior
+M 0 53628 1 53775 100 0 0 0        * an ogre chief
+E 1 53617 1 2 100 0 0 0            *   a polished dragonbone ring
+M 0 53614 6 53781 100 0 0 0        * an orc gate guardian
+G 1 53618 2 0 100 0 0 0            *    the blood key
+M 0 53614 6 53781 100 0 0 0        * an orc gate guardian
+M 0 53614 6 53782 100 0 0 0        * an orc gate guardian
+G 1 53618 2 0 100 0 0 0            *    the blood key
+M 0 53614 6 53782 100 0 0 0        * an orc gate guardian
+M 0 53629 3 53784 100 0 0 0        * a treant
+M 0 53629 3 53784 100 0 0 0        * a treant
+M 0 53629 3 53786 100 0 0 0        * a treant
+M 0 53633 4 53794 100 0 0 0        * a large spider
+M 0 53633 4 53796 100 0 0 0        * a large spider
+M 0 53633 4 53796 100 0 0 0        * a large spider
+M 0 53633 4 53797 100 0 0 0        * a large spider
+M 0 53630 1 53802 100 0 0 0        * a large roc
+G 1 53619 1 0 100 0 0 0            *    a majestic feather of a roc
+M 0 53631 6 53810 100 0 0 0        * a sand spider
+M 0 53631 6 53812 100 0 0 0        * a sand spider
+M 0 53631 6 53814 100 0 0 0        * a sand spider
+M 0 53631 6 53816 100 0 0 0        * a sand spider
+M 0 53631 6 53816 100 0 0 0        * a sand spider
+M 0 53631 6 53817 100 0 0 0        * a sand spider
+M 0 53632 4 53820 100 0 0 0        * a small fire elemental
+M 0 53632 4 53822 100 0 0 0        * a small fire elemental
+M 0 53632 4 53823 100 0 0 0        * a small fire elemental
+M 0 53632 4 53824 100 0 0 0        * a small fire elemental
+M 0 53634 1 53828 100 0 0 0        * a brown bear
+M 0 53689 2 53831 100 0 0 0        * a skeletal leucrotta
+M 0 53635 1 53832 100 0 0 0        * the skeleton of an orc guard
+G 1 53620 1 0 100 0 0 0            *    the ceremonial mask of Shady Grove
+M 0 53689 2 53832 100 0 0 0        * a skeletal leucrotta
+M 0 53639 4 53919 100 0 0 0        * a mountain eagle
+G 1 53622 4 0 100 0 0 0            *    a bright eagle feather
+M 0 53641 2 53919 100 0 0 0        * a human hunter
+E 1 53605 1 19 100 0 0 0           *   a studded leather eyepatch
+M 0 53638 6 53920 100 0 0 0        * a human trapper
+M 0 53638 6 53921 100 0 0 0        * a human trapper
+M 0 53639 4 53922 100 0 0 0        * a mountain eagle
+G 1 53622 4 0 100 0 0 0            *    a bright eagle feather
+M 0 53642 7 53924 100 0 0 0        * a rock lizard
+M 0 53642 7 53924 100 0 0 0        * a rock lizard
+M 0 53642 7 53924 100 0 0 0        * a rock lizard
+M 0 53642 7 53924 100 0 0 0        * a rock lizard
+M 0 53638 6 53924 100 0 0 0        * a human trapper
+M 0 53638 6 53924 100 0 0 0        * a human trapper
+M 0 53619 10 53924 100 0 0 0       * a mountain lion
+M 0 53638 6 53925 100 0 0 0        * a human trapper
+M 0 53619 10 53927 100 0 0 0       * a mountain lion
+M 0 53642 7 53927 100 0 0 0        * a rock lizard
+M 0 53612 13 53927 100 0 0 0       * a mountain goat
+M 0 53644 6 53927 100 0 0 0        * a half-elven traveller
+M 0 53639 4 53928 100 0 0 0        * a mountain eagle
+G 1 53622 4 0 100 0 0 0            *    a bright eagle feather
+M 0 53619 10 53929 100 0 0 0       * a mountain lion
+M 0 53639 4 53930 100 0 0 0        * a mountain eagle
+G 1 53622 4 0 100 0 0 0            *    a bright eagle feather
+M 0 53644 6 53930 100 0 0 0        * a half-elven traveller
+M 0 53642 7 53931 100 0 0 0        * a rock lizard
+M 0 53619 10 53932 100 0 0 0       * a mountain lion
+M 0 53640 1 53934 100 0 0 0        * a travelling barbarian craftsman
+M 0 53619 10 53939 100 0 0 0       * a mountain lion
+M 0 53637 1 53943 100 0 0 0        * a half-elven storm druid
+E 1 53628 1 16 100 0 0 0           *   an etched druidic staff
+M 0 53644 6 53945 100 0 0 0        * a half-elven traveller
+M 0 53642 7 53946 100 0 0 0        * a rock lizard
+M 0 53641 2 53947 100 0 0 0        * a human hunter
+E 1 53626 1 15 100 0 0 0           *   a blacksteel bracelet
+M 0 53638 6 53947 100 0 0 0        * a human trapper
+M 0 53644 6 53950 100 0 0 0        * a half-elven traveller
+M 0 53612 13 53952 100 0 0 0       * a mountain goat
+M 0 53619 10 53952 100 0 0 0       * a mountain lion
+M 0 53643 1 53958 100 0 0 0        * a large mountain yeti
+E 1 53627 1 12 100 0 0 0           *   a knotted fur hide
+M 0 53645 2 53961 100 0 0 0        * a human fisherman
+G 1 53610 3 0 100 0 0 0            *    a dirty sack of coins
+M 0 53636 3 53962 100 0 0 0        * a huge pike
+M 0 53636 3 53965 100 0 0 0        * a huge pike
+M 0 53636 3 53968 100 0 0 0        * a huge pike
+M 0 53619 10 53973 100 0 0 0       * a mountain lion
+M 0 53619 10 53973 100 0 0 0       * a mountain lion
+M 0 53612 13 53973 100 0 0 0       * a mountain goat
+M 0 53612 13 53973 100 0 0 0       * a mountain goat
+M 0 53612 13 53973 100 0 0 0       * a mountain goat
+M 0 53612 13 53973 100 0 0 0       * a mountain goat
+M 0 53644 6 53973 100 0 0 0        * a half-elven traveller
+M 0 53644 6 53973 100 0 0 0        * a half-elven traveller
+M 0 53648 1 53988 100 0 0 0        * an elven rock climber
+E 1 53632 1 8 100 0 0 0            *   some spiked rock climbing boots
+M 0 53645 2 53991 100 0 0 0        * a human fisherman
+G 1 53610 3 0 100 0 0 0            *    a dirty sack of coins
+M 0 53647 3 53995 100 0 0 0        * a skeleton of a warrior
+M 0 53647 3 53998 100 0 0 0        * a skeleton of a warrior
+M 0 53647 3 53998 100 0 0 0        * a skeleton of a warrior
+M 0 53646 1 54000 100 0 0 0        * the wraith of a bridge guard
+G 1 53631 1 0 100 0 0 0            *    a plumed obsidian helm
+M 0 53649 1 54004 100 0 0 0        * a large warg
+M 0 53612 13 54014 100 0 0 0       * a mountain goat
+M 0 53612 13 54017 100 0 0 0       * a mountain goat
+M 0 53674 1 54020 100 0 0 0        * a high elf scout
+E 1 53642 2 16 100 0 0 0           *   a crystal dagger
+E 1 53642 2 17 100 0 0 0           *   a crystal dagger
+M 0 53650 4 54024 100 0 0 0        * a proud high elf sentry
+M 0 53650 4 54024 100 0 0 0        * a proud high elf sentry
+M 0 53657 7 54026 100 0 0 0        * a patrolling high elf guard
+M 0 53666 5 54026 100 0 0 0        * a travelling merchant
+M 0 53669 5 54027 100 0 0 0        * a wandering human
+M 0 53673 4 54027 100 0 0 0        * a half-elf adventurer
+M 0 53666 5 54028 100 0 0 0        * a travelling merchant
+M 0 53666 5 54030 100 0 0 0        * a travelling merchant
+M 0 53673 4 54032 100 0 0 0        * a half-elf adventurer
+M 0 53669 5 54033 100 0 0 0        * a wandering human
+M 0 53657 7 54034 100 0 0 0        * a patrolling high elf guard
+M 0 53657 7 54035 100 0 0 0        * a patrolling high elf guard
+M 0 53669 5 54035 100 0 0 0        * a wandering human
+M 0 53657 7 54036 100 0 0 0        * a patrolling high elf guard
+M 0 53666 5 54036 100 0 0 0        * a travelling merchant
+M 0 53669 5 54037 100 0 0 0        * a wandering human
+M 0 53657 7 54038 100 0 0 0        * a patrolling high elf guard
+M 0 53673 4 54038 100 0 0 0        * a half-elf adventurer
+M 0 53660 2 54039 100 0 0 0        * a high elf sentinel
+M 0 53660 2 54040 100 0 0 0        * a high elf sentinel
+M 0 53661 6 54044 100 0 0 0        * a guard in training
+M 0 53661 6 54044 100 0 0 0        * a guard in training
+M 0 53661 6 54045 100 0 0 0        * a guard in training
+M 0 53661 6 54045 100 0 0 0        * a guard in training
+M 0 53661 6 54046 100 0 0 0        * a guard in training
+M 0 53661 6 54046 100 0 0 0        * a guard in training
+M 0 53662 3 54047 100 0 0 0        * a sparring high elf guard
+M 0 53662 3 54047 100 0 0 0        * a sparring high elf guard
+M 0 53662 3 54047 100 0 0 0        * a sparring high elf guard
+M 0 53663 4 54055 100 0 0 0        * a tired high elf
+M 0 53664 4 54056 100 0 0 0        * a sleepy high elf
+M 0 53664 4 54057 100 0 0 0        * a sleepy high elf
+M 0 53663 4 54058 100 0 0 0        * a tired high elf
+M 0 53664 4 54059 100 0 0 0        * a sleepy high elf
+M 0 53663 4 54060 100 0 0 0        * a tired high elf
+M 0 53663 4 54061 100 0 0 0        * a tired high elf
+M 0 53664 4 54062 100 0 0 0        * a sleepy high elf
+M 0 53657 7 54063 100 0 0 0        * a patrolling high elf guard
+M 0 53673 4 54063 100 0 0 0        * a half-elf adventurer
+M 0 53657 7 54064 100 0 0 0        * a patrolling high elf guard
+M 0 53666 5 54064 100 0 0 0        * a travelling merchant
+M 0 53669 5 54064 100 0 0 0        * a wandering human
+M 0 53658 1 54066 100 0 0 0        * Chauseis, the high elf priestess
+E 1 53640 1 13 100 0 0 0           *   an elven priestess sash
+E 1 53637 1 15 100 0 0 0           *   a beautiful crystal bracelet
+M 0 53670 1 54068 100 0 0 0        * Feliusius, the bartender
+M 0 53671 3 54068 100 0 0 0        * an off-duty guard
+M 0 53671 3 54068 100 0 0 0        * an off-duty guard
+M 0 53671 3 54068 100 0 0 0        * an off-duty guard
+M 0 53672 1 54068 100 0 0 0        * a surly dwarven warrior
+E 1 53600 2 16 100 0 0 0           *   a dwarven battle-axe
+E 1 53641 1 21 100 0 0 0           *   a mithril and gold earring
+M 0 53656 1 54069 100 0 0 0        * the elven innkeeper
+M 0 53659 3 54070 100 0 0 0        * a high elf lieutenant
+M 0 53659 3 54072 100 0 0 0        * a high elf lieutenant
+M 0 53659 3 54073 100 0 0 0        * a high elf lieutenant
+M 0 53667 5 54074 100 0 0 0        * a high elven gardener
+M 0 53667 5 54074 100 0 0 0        * a high elven gardener
+M 0 53667 5 54074 100 0 0 0        * a high elven gardener
+M 0 53667 5 54074 100 0 0 0        * a high elven gardener
+M 0 53667 5 54074 100 0 0 0        * a high elven gardener
+M 0 53668 4 54079 100 0 0 0        * an elderly gardener
+M 0 53668 4 54079 100 0 0 0        * an elderly gardener
+M 0 53668 4 54079 100 0 0 0        * an elderly gardener
+M 0 53668 4 54079 100 0 0 0        * an elderly gardener
+M 0 53650 4 54081 100 0 0 0        * a proud high elf sentry
+M 0 53650 4 54081 100 0 0 0        * a proud high elf sentry
+M 0 53665 1 54085 100 0 0 0        * Glacienus, the captain of the guard
+E 1 53638 1 8 100 0 0 0            *   a pair of crystal spurred boots
+E 1 53639 1 12 100 0 0 0           *   an elven cloak of fine silk
+E 1 53602 2 16 100 0 0 0           *   a silver longsword
+M 0 53651 4 54087 100 0 0 0        * a Larethian worshipper
+M 0 53652 4 54087 100 0 0 0        * a robed Larethian worshipper
+M 0 53653 4 54087 100 0 0 0        * a young Larethian worshipper
+M 0 53655 5 54087 100 0 0 0        * a shrine guardsman
+M 0 53651 4 54090 100 0 0 0        * a Larethian worshipper
+M 0 53652 4 54090 100 0 0 0        * a robed Larethian worshipper
+M 0 53653 4 54090 100 0 0 0        * a young Larethian worshipper
+M 0 53651 4 54095 100 0 0 0        * a Larethian worshipper
+M 0 53652 4 54095 100 0 0 0        * a robed Larethian worshipper
+M 0 53653 4 54095 100 0 0 0        * a young Larethian worshipper
+M 0 53651 4 54098 100 0 0 0        * a Larethian worshipper
+M 0 53652 4 54098 100 0 0 0        * a robed Larethian worshipper
+M 0 53653 4 54098 100 0 0 0        * a young Larethian worshipper
+M 0 53655 5 54098 100 0 0 0        * a shrine guardsman
+M 0 53655 5 54099 100 0 0 0        * a shrine guardsman
+M 0 53655 5 54104 100 0 0 0        * a shrine guardsman
+M 0 53655 5 54104 100 0 0 0        * a shrine guardsman
+M 0 53654 2 54106 100 0 0 0        * a powerful guardian of the shrine
+M 0 53654 2 54106 100 0 0 0        * a powerful guardian of the shrine
+M 0 53612 13 54110 100 0 0 0       * a mountain goat
+M 0 53696 11 54118 100 0 0 0       * a kraken commoner
+M 0 53696 11 54118 100 0 0 0       * a kraken commoner
+M 0 53697 6 54118 100 0 0 0        * a kraken shaman
+M 0 53698 6 54118 100 0 0 0        * a kraken hunter
+M 0 53696 11 54126 100 0 0 0       * a kraken commoner
+M 0 53698 6 54126 100 0 0 0        * a kraken hunter
+M 0 53697 6 54129 100 0 0 0        * a kraken shaman
+M 0 53696 11 54133 100 0 0 0       * a kraken commoner
+M 0 53697 6 54133 100 0 0 0        * a kraken shaman
+M 0 53698 6 54133 100 0 0 0        * a kraken hunter
+M 0 53696 11 54133 100 0 0 0       * a kraken commoner
+M 0 53699 4 54138 100 0 0 0        * a kraken servant
+M 0 53699 4 54138 100 0 0 0        * a kraken servant
+M 0 53700 1 54139 100 0 0 0        * Ahanz
+M 0 53695 1 54140 100 0 0 0        * Itneva, the kraken prince
+G 1 53644 1 0 100 0 0 0            *    the bloody head of Itneva
+F 1 53693 2 54140 100 0 0 0        * a royal kraken guard (following)
+F 1 53694 2 54140 100 0 0 0        * a royal kraken guard (following)
+M 0 53696 11 54144 100 0 0 0       * a kraken commoner
+M 0 53696 11 54144 100 0 0 0       * a kraken commoner
+M 0 53697 6 54144 100 0 0 0        * a kraken shaman
+M 0 53696 11 54148 100 0 0 0       * a kraken commoner
+M 0 53696 11 54148 100 0 0 0       * a kraken commoner
+M 0 53697 6 54148 100 0 0 0        * a kraken shaman
+M 0 53698 6 54148 100 0 0 0        * a kraken hunter
+M 0 53698 6 54152 100 0 0 0        * a kraken hunter
+M 0 53696 11 54152 100 0 0 0       * a kraken commoner
+M 0 53696 11 54156 100 0 0 0       * a kraken commoner
+M 0 53697 6 54156 100 0 0 0        * a kraken shaman
+M 0 53698 6 54156 100 0 0 0        * a kraken hunter
+M 0 53699 4 54160 100 0 0 0        * a kraken servant
+M 0 53699 4 54160 100 0 0 0        * a kraken servant
+M 0 53692 1 54162 100 0 0 0        * Aventi, the kraken princess
+G 1 53643 1 0 100 0 0 0            *    the bloody head of Aventi
+F 1 53693 2 54162 100 0 0 0        * a royal kraken guard (following)
+F 1 53694 2 54162 100 0 0 0        * a royal kraken guard (following)
+M 0 53702 1 54164 100 0 0 0        * a fallen shadow
+M 0 53701 1 54166 100 0 0 0        * a misty figure
+G 1 53647 1 0 100 0 0 0            *    a misty haze shaped like a key
+M 0 53705 2 54168 100 0 0 0        * a corpse devourer
+M 0 53706 2 54168 100 0 0 0        * a corpse devourer
+M 0 53707 2 54168 100 0 0 0        * a corpse devourer
+M 0 53707 2 54171 100 0 0 0        * a corpse devourer
+M 0 53705 2 54172 100 0 0 0        * a corpse devourer
+M 0 53706 2 54172 100 0 0 0        * a corpse devourer
+M 0 53703 2 54173 100 0 0 0        * a lich guardian
+M 0 53703 2 54173 100 0 0 0        * a lich guardian
+G 1 53649 1 0 100 0 0 0            *    the key of the damned
+M 0 53704 1 54174 100 0 0 0        * a once great adventurer
+M 0 53708 5 54179 100 0 0 0        * a colorless worm
+M 0 53708 5 54182 100 0 0 0        * a colorless worm
+M 0 53708 5 54184 100 0 0 0        * a colorless worm
+M 0 53708 5 54184 100 0 0 0        * a colorless worm
+M 0 53708 5 54186 100 0 0 0        * a colorless worm
+M 0 53713 4 54189 100 0 0 0        * a filthy maggot
+M 0 53714 4 54189 100 0 0 0        * a disgusting maggot
+M 0 53715 4 54189 100 0 0 0        * a small maggot larvae
+M 0 53713 4 54190 100 0 0 0        * a filthy maggot
+M 0 53714 4 54190 100 0 0 0        * a disgusting maggot
+M 0 53715 4 54190 100 0 0 0        * a small maggot larvae
+M 0 53713 4 54191 100 0 0 0        * a filthy maggot
+M 0 53714 4 54191 100 0 0 0        * a disgusting maggot
+M 0 53715 4 54191 100 0 0 0        * a small maggot larvae
+M 0 53713 4 54194 100 0 0 0        * a filthy maggot
+M 0 53714 4 54194 100 0 0 0        * a disgusting maggot
+M 0 53715 4 54194 100 0 0 0        * a small maggot larvae
+M 0 53716 1 54194 100 0 0 0        * a large carcass beetle
+M 0 53709 6 54196 100 0 0 0        * a fat troggler
+M 0 53710 6 54196 100 0 0 0        * a warty troggler
+M 0 53711 6 54196 100 0 0 0        * a smelly troggler
+M 0 53712 6 54196 100 0 0 0        * a skinny troggler
+M 0 53709 6 54202 100 0 0 0        * a fat troggler
+M 0 53710 6 54202 100 0 0 0        * a warty troggler
+M 0 53711 6 54202 100 0 0 0        * a smelly troggler
+M 0 53712 6 54202 100 0 0 0        * a skinny troggler
+M 0 53709 6 54204 100 0 0 0        * a fat troggler
+M 0 53710 6 54204 100 0 0 0        * a warty troggler
+M 0 53711 6 54204 100 0 0 0        * a smelly troggler
+M 0 53712 6 54204 100 0 0 0        * a skinny troggler
+M 0 53709 6 54205 100 0 0 0        * a fat troggler
+M 0 53710 6 54205 100 0 0 0        * a warty troggler
+M 0 53711 6 54205 100 0 0 0        * a smelly troggler
+M 0 53712 6 54205 100 0 0 0        * a skinny troggler
+M 0 53709 6 54207 100 0 0 0        * a fat troggler
+M 0 53710 6 54207 100 0 0 0        * a warty troggler
+M 0 53711 6 54207 100 0 0 0        * a smelly troggler
+M 0 53712 6 54207 100 0 0 0        * a skinny troggler
+M 0 53709 6 54209 100 0 0 0        * a fat troggler
+M 0 53710 6 54209 100 0 0 0        * a warty troggler
+M 0 53711 6 54209 100 0 0 0        * a smelly troggler
+M 0 53712 6 54209 100 0 0 0        * a skinny troggler
+M 0 53717 14 54212 100 0 0 0       * a small colorless worm
+M 0 53717 14 54214 100 0 0 0       * a small colorless worm
+M 0 53717 14 54214 100 0 0 0       * a small colorless worm
+M 0 53717 14 54216 100 0 0 0       * a small colorless worm
+M 0 53717 14 54216 100 0 0 0       * a small colorless worm
+M 0 53718 1 54218 100 0 0 0        * a carnivorous funnel web spider
+M 0 53717 14 54219 100 0 0 0       * a small colorless worm
+M 0 53717 14 54219 100 0 0 0       * a small colorless worm
+M 0 53717 14 54221 100 0 0 0       * a small colorless worm
+M 0 53717 14 54223 100 0 0 0       * a small colorless worm
+M 0 53717 14 54234 100 0 0 0       * a small colorless worm
+M 0 53717 14 54234 100 0 0 0       * a small colorless worm
+M 0 53717 14 54237 100 0 0 0       * a small colorless worm
+M 0 53717 14 54237 100 0 0 0       * a small colorless worm
+M 0 53717 14 54237 100 0 0 0       * a small colorless worm
+*
+S

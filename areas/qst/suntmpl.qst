@@ -1,0 +1,50 @@
+#82400
+M
+key temple lock~
+&+g   Evil spirits have come to inhabit the glade.  The temple has closed its
+&+gdoors until the spirits are removed from the the trees and animals of the
+&+gforest.  Rumors have spread that these spirits are under the control of a
+&+gpowerful shaman who wants to control the sun power of the inner temple.
+&+gIf you are here to help me bring evidence of the evil in the forest and
+&+gI will grant you admittance to the temple.
+~
+Q
+&+gAhh, it is worse than I suspected. I have not heard anything from inside the
+&+gtemple for a long time so you should be careful when you enter. The evil that
+&+ghas control of the forest might be centered within.
+~
+R I 82420
+G I 82402
+G I 82403
+S
+#82401
+M
+temple~
+&+wAn evil force has taken over the power of the temple which has caused the
+&+wforest to become twisted and evil.  If the forest is to be restored, a
+&+wsunbeam must be captured and returned to me so that the evil can be dispelled.
+&+wYou will be rewarded by the gift of a powerful mace that is the symbol of the
+&+wtemple and is empowered with its magic.
+~
+Q
+&+WThank you for your help. I can now complete the spell to restore the woods.
+&+WHere is your reward.....
+~
+R I 82409
+G I 82408
+S
+#82407
+M
+hi hello hey howdy item items craft~
+&+gI can craft you the a fine that will provide you with amazing protection.
+&+gAll that I require is an enchanted stone to bind to a simple stone ring
+&+gI have already created.  The stone was owned by the druids the last time I
+&+gheard but was probably stolen by the animals that have overtaken the temple.
+~
+Q
+&+gVery well done. I shall bind this stone into the barding to create some
+&+gpowerful &+Gcen&+Ltaur &+garmor for you.
+~
+R I 82405
+G I 82406
+S

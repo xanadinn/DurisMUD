@@ -1,0 +1,3541 @@
+#2401
+&+LEntrance to Castle Quintaragon~
+   Before you stands two large doors which leas to a great castle.  Around
+the front door is a garden which has not been tended to for some time.  The
+ivy from the garden climbs the crumbling walls of the dark foreboding castle.
+Screams of horror and fright originate from within.
+~
+24 142639168 2
+D0
+~
+gates~
+2 2402 2402
+D2
+~
+~
+0 0 5760
+S
+#2402
+&+bThe Foyer~
+   The room is huge with chandeliers hanging down from a high ceiling.
+The candles barely make enough light to see the other side of the room.
+Overturned chairs cover the floor, and a huge oak table sits in the center
+of the room.  On it are several &+Wmaps&N of the house, all of which are singed
+to beyond recognition.  Cobwebs cover everything including the windows
+blocking any natural light from the outside.  There is a strange musty smell
+coming from the east.
+~
+24 8421448 0
+D1
+   The hallway looks very long.  One cannot see the other side of the dark
+tunnel.  Portraits hang on the walls on both sides of the hall.
+~
+~
+0 0 2403
+D2
+   The doors that lead outside to the sane world.
+~
+doors door~
+3 2402 2401
+D3
+   The hallway is dark and foreboding.  Portraits hang from the walls.
+~
+~
+0 0 2416
+E
+maps map~
+   The maps layout the castle with several lines drawn in covering routes
+throughout the house.  Right below one map of a floor are some notes
+scribbled hastily with a finger covered in blood,
+
+                "&+rThe keys are the key to avenge their death.&N"
+~
+S
+#2403
+&+bA Hallway~
+   This hallway seems to stretch on forever.  There are &+Wportraits&N hanging
+on the walls of both sides of the hallway.   The portraits picture a family
+making strange faces.  There is a small broom closet on the north side of
+the hall giving off a musty, stinking odor.  The candles that line the
+outside walls generate a soft light illuminating everything in the hallway.
+~
+24 142639176 0
+D0
+   The closet stinks.  Enter at the risk of your nose.
+~
+door~
+1 0 2404
+D1
+   One can see the end of the hallway.  It looks like it is turning to the
+left.  Portraits hang on the walls.
+~
+~
+0 0 2405
+D3
+   The hallway comes to an end and you see the blessed vision of the doors.
+The foyer is huge with chandeliers hanging from a high ceiling.
+~
+~
+0 0 2402
+E
+portrait portraits~
+   The family in the portrait consists of three people.  The parents are
+a human father and an elven mother.  They have one child, a half-elf boy.
+~
+S
+#2404
+&+bA Stinking Broom Closet~
+   This closet stinks of an overpowering foul odor.  The trash on the
+floor seems to attract rats; however, the smell doesn't seem to faze them.
+Several buckets of strange liquid are piled in the deepest corner of the
+room.  The odor is overpowering to the point of nausea.
+~
+24 142639168 0
+D2
+   Anything smells better than here.
+~
+door~
+1 0 2403
+S
+#2405
+&+bThe End of the Hallway~
+   The hallway ends here and makes a sharp turn.  The walls are covered with
+portraits of a family.  Several of the portraits lie on the ground where they
+have fallen off the wall.  Those that remain on the wall are crooked as if
+someone hastily hung them there with no respect for those pictured in them.
+The family consists of two adults, an elven woman and a human man, and with
+them is their child, a cute half-elf boy.  The family looks blissfully happy
+and genuinely content.
+~
+24 142639168 0
+D0
+   This hallway looks to go on farther than the one to the west.  Even though
+it may seem longer, it is decently lit.
+~
+~
+0 0 2406
+D3
+   The hallway seems to go on forever.  The portraits of the family
+cover the dusty and dirty walls.
+~
+~
+0 0 2403
+E
+portrait portraits~
+   The family in the portrait consists of three people.  The parents are
+a human father and an elven mother.  They have one child, a half-elf boy.
+~
+S
+#2406
+&+bA Hallway~
+   This hallway has several candles lining the walls.  The lighting here
+is much better than most of the mansion which reveals the dirty and grimy
+walls that are completely bare.  The household servants have clearly been
+neglecting their duties demonstrated by the floor which cultivates dust and
+dirt.  The floor is unusually warm to the touch, and there are small squeeks
+coming from rats in the dark corners of the hall.
+~
+24 142639168 0
+D0
+   The hallway continues with no end in sight.
+~
+~
+0 0 2407
+D2
+   The hallway seems to bend to the right as portraits begin to cover
+the walls again.
+~
+~
+0 0 2405
+S
+#2407
+&+bA Hallway~
+   This hallway has several candles lining the walls.  The lighting here
+is much better than most of the mansion which reveals the dirty and grimy
+walls that are completely bare.  The household servants have clearly been
+neglecting their duties demonstrated by the floor which cultivates dust and
+dirt.  The floor is unusually warm to the touch, and there are small squeeks
+coming from rats in the dark corners of the hall.
+~
+24 142639176 0
+D0
+   The hallway continues with no end in sight.
+~
+~
+0 0 2408
+D2
+   The hallway continues with no end in sight.
+~
+~
+0 0 2406
+S
+#2408
+&+bA Hallway~
+   This hallway has several candles lining the walls.  The lighting here
+is much better than most of the mansion which reveals the dirty and grimy
+walls that are completely bare.  The household servants have clearly been
+neglecting their duties demonstrated by the floor which cultivates dust and
+dirt.  The floor is unusually warm to the touch, and there are small squeeks
+coming from rats in the dark corners of the hall.
+~
+24 75530312 0
+D0
+   The end of the hallway is finally in sight.  The dirt and dust been kicked
+up is making it much more difficult to see though.
+~
+~
+0 0 2409
+D2
+   The hallway continues with no end in sight.
+~
+~
+0 0 2407
+S
+#2409
+&+bThe End of the Hallway~
+   The hallway end abruptly here with exits to the south and west.  The
+faint whinings of the servants can be heard.  Looking at this room, it is
+hard to believe that they have been doing there jobs. The dust and dirt
+seem to be collecting more in this corner than anywhere in the hallway.
+~
+24 142639176 0
+D2
+   The hallway continues with no end in sight.
+~
+~
+0 0 2408
+D3
+   The hallway turns to the left and nothing but an eerie silence radiates
+from this direction.
+~
+~
+0 0 2410
+S
+#2410
+&+bThe End of the Hallway~
+   This corner is dark and is full of cobwebs.  The room is dirty and musky
+smelling because no one has bothered to clean up.  A &+ydead potted plant&N sits
+in the corner untended and rotting.  A &+rrusty axe&N is embedded in the wall.
+The axe has been struck so deep in the wooden wall that even the strongest
+barbarians could not take it out.  A single candle throws dancing shadows on
+the low ceiling.
+~
+24 142639176 0
+D1
+   The corner abruptly turns to the right.  It is more lit over there.
+~
+~
+0 0 2409
+D2
+   A hallway begins.  Bookcases line the walls and the hallway is deafeningly
+silent.
+~
+~
+0 0 2411
+E
+rusty axe~
+   The axe is &+rrusty&N and has been deeply stuck into the wooden corner.
+Caked &+Rblood&N completely covers the blade of the axe.
+~
+E
+potted plant~
+   The plant has been neglected and has long since lost its beauty.  Looking
+closely, one notices that this type of plant was only bought with bags of
+gold.  There is a strange &+rred &+Lobject&N in the pot with the dead plant.
+~
+E
+red object~
+   The &+rred&+L object&N in clearly a scale from a grown dragon.  As big as
+a barbarian's hand, it glistens in the pale candle light.  The &+Lscale&N has not
+begun to decay.
+~
+S
+#2411
+&+bA Silent Hallway~
+   This hallway is dimly lit with candles on the walls.  There are scrolls
+with ancient writing carefully lying in locked bookcases.  The scrolls
+are rolled up and most are written in a strange encryption.  The bookcases
+seem to be giving off some kind of &+Rheat&N, and one can feel a magical aura
+coming from the scrolls from within the bookcases.
+~
+24 8388824 0
+D0
+   The end of the silent hallway can be seen.  Noises of rats can barely
+be heard in this direction as well as voices from confused servants.
+~
+~
+0 0 2410
+D2
+   The hallway's end is barely in sight.  Silence is all that comes from
+the hall.
+~
+~
+0 0 2412
+E
+scrolls~
+   These scrolls are written in ancient writings.  They seem to be giving
+off some kind of heat, but the hall still remains cold.
+~
+S
+#2412
+&+bThe End of a Silent Hallway~
+   This hallway is dimly lit with candles on the walls.  There are scrolls
+with ancient writing carefully lying in locked bookcases.  The scrolls
+are rolled up and most are written in a strange encryption.  The bookcases
+seem to be giving off some kind of &+Rheat&N, and one can feel a magical aura
+coming from the scrolls from within the bookcases.
+~
+24 8388824 0
+D0
+   The hallway is silent.  The end of the hallway is barely visible.
+~
+~
+0 0 2411
+D3
+   A plain-looking room can be seen.  It is dimly lit by a single light.
+~
+~
+0 0 2413
+E
+scrolls~
+   These scrolls are written in some ancient writings.  They seem to be
+giving off heat, but the hallway remains cold.
+~
+S
+#2413
+&+bAn Empty Room~
+   The room is plain and very empty.  There is nothing on the walls and no
+furniture in the room.  A single lantern sits in the center of the floor and
+throws a soft glow on the bare walls.  A cool draft can be felt originating
+from the south room.  Everything is strangely still and deathly quiet.
+~
+24 142639176 0
+D1
+   From the hallway is absolute silence.
+~
+~
+0 0 2412
+D2
+   There is a door on the south wall made of rotting wood.
+~
+door~
+1 0 2414
+S
+#2414
+&+bOutside a Stairwell~
+   The room is lit warmly with several bright candles.  There are books
+scattered around and scrolls loosely tossed on the table.  The room is
+unusually clean and dust-free, but totally unorganized.  A trapdoor
+descends down on the east side of the room, but is locked by a huge padlock.
+There are portraits of a family all around the room, but instead of three,
+there are four people in the paintings.  The fourth has glasses and wears
+strange religious symbols with his holy robes.  He has several books in his
+hands and looks like a librarian.  One notices a key tied to his belt.
+~
+24 142639176 0
+D0
+   The room outside is plain-looking.  It is dark, but clearly nothing is in
+this room to look at.
+~
+door~
+1 0 2413
+D5
+   The trapdoor lead to stairs going down into the basement.
+~
+trap trapdoor~
+3 2405 2415
+E
+portrait portraits~
+   The pictures consist of four people.  The family is painted in the
+portraits, but so is another human.  He is male, and seems to be great
+friends with the father.
+~
+S
+#2415
+&+bA Stairwell~
+   The stairway is well lit with several large candles flickering on the
+walls.  The stone stairs are slimy with precipitation and makes each step
+slippery.
+~
+24 142639180 0
+D4
+   The room above is brightly lit compared to the dark basement.
+~
+trap trapdoor~
+3 2405 2414
+D5
+ntinues with no end in sight.
+~
+~
+0 0 2429
+S
+#2416
+&+bA Hallway~
+   This hallway seems to stretch on forever.  There are &+Wportraits&N hanging
+on the walls of both sides of the hallway.   The portraits picture a family
+making strange faces.  There is a small door on the north side of the hall
+giving off a musty, stinking urine-like odor.  The candles that line the
+outside walls generate a soft light illuminating everything in the hallway.
+~
+24 142639176 0
+D0
+   Looks like some kinda bathroom, or something.  It stinks.
+~
+door~
+1 0 2421
+D1
+   The blessed sight of the doors can be seen.  Darkness is lifted in the
+foyer by chandeliers hanging in the room.
+~
+~
+0 0 2402
+D3
+   The end of the hallway can barely be seen.  A candle flickers to the
+right, but offers no clue to what awaits in the shadows of the outside
+corner.
+~
+~
+0 0 2417
+E
+portrait portraits~
+   The portraits picture a happy family of three.  The human father is giving
+a small kiss to the elven mother, while their boy is playing in the foreground.
+~
+S
+#2417
+&+bThe End of the Hallway~
+   The corner of the house has a single candle on the inside of the room.
+The outside corner is in dark ominous shadows.  There is a &+ybroken arrow&N
+stuck in the wall, and after close examination, it is noticed that the arrow
+is through a crooked portrait of a family.  The floor is slippery as
+though some maids have hastily and carelessly mopped the floor.
+~
+24 142639176 0
+D0
+   A clean hallway is seen.  The hall is dark, but pleasantly clean.
+~
+~
+0 0 2418
+D1
+   A dark hallway continues on forever.
+~
+~
+0 0 2416
+E
+arrow portrait~
+   The arrow is stuck in the portrait of a family.  It has been charred from
+an intense heat or magical spell, which is hard to tell.  The feathered end
+is bent downward somewhat hanging from the rest of the arrow.
+~
+S
+#2418
+&+bA Clean Hallway~
+   This hallway has been hastily mopped.  There are pictures of dark ominous
+magicians hanging on the walls.  These magicians are painted in the act of
+doing several different spells ranging from animation to conjuration.  The
+low ceiling has long silky cobwebs hanging to the crooked pictures.  A small
+candle in a copper candle holder hangs from the outside wall, but hardly gives
+enough light to see.  The floor is slippery from a hasty mopping.
+~
+24 142639176 0
+D0
+   A lit hallway can be seen.  Many candles hang from both sides of the
+hallway.
+~
+~
+0 0 2419
+D2
+   The hallway veers to the left.  The corner seems dark even though there
+is a single candle flickering light from the left.
+~
+~
+0 0 2417
+S
+#2419
+&+bA Clean Hallway~
+   This hallway is somewhat clean and unusually bright.  The floors have been
+mopped, but the furniture is still dusty.  Candles line the walls which give
+a greater light than from the rest of the hall.  Benches line the walls but
+do not look like they have been recently sat in.  There is an intricately
+carved mirror reflecting the flickering glow of the candles.
+~
+24 142639176 0
+D0
+   A clean hallway can barely be seen.  It is considerably darker than this
+room.
+~
+~
+0 0 2420
+D2
+   A clean hallway can barely be seen.  It is considerably darker than this
+room.
+~
+~
+0 0 2418
+S
+#2420
+&+bA Clean Hallway~
+   This hallway has been hastily mopped.  There are pictures of dark ominous
+magicians hanging on the walls.  These magicians are painted in the act of
+doing several different spells ranging from animation to conjuration.  The
+low ceiling has long silky cobwebs hanging to the crooked pictures.  A small
+candle in a copper candle holder hangs from the outside wall, but hardly gives
+enough light to see.  The floor is slippery from a hasty mopping.
+~
+24 142639176 0
+D0
+   A dark corner can be seen.  There seems to be light coming from the
+right, but can lend no clue to what lurks in the dark outside corner.
+~
+~
+0 0 2422
+D2
+   A clean hallway can be seen to stretch forever into the dark.  There is
+much more light in this direction, but a wall cannot be seen on the other
+side.
+~
+~
+0 0 2419
+S
+#2421
+&+bA Dirty Bathroom~
+   The bathroom is filthy and crawling with bugs.  It is a huge room with
+several holes in the floor where the urine-like stench seems to be
+originating from.  There are yellowed scrolls lining the walls, but they
+are torn up and some are even burnt.  A stench fills the bathroom and one
+can hear the rats and insects infesting the holes.
+~
+24 32776 0
+D2
+   Anything is better than this hell hole.
+~
+door~
+1 0 2416
+E
+scrolls scroll~
+   The scrolls are burnt and mangled beyond reading.  Some have writings in
+common, and others are elven in nature.  They all seem to have incantations
+of magical spells, but cannot be deciphered.
+~
+S
+#2422
+&+bThe End of a Clean Hallway~
+   The hallway has a single candle in the inside of the corner.  This candle
+is flickering images of strange looking shadows in the dark outside corner.
+There are strange gems stuck in a bookcase, most of which are grotesquely
+shaped.  Some cobwebs hang from the ceiling and infest themselves to
+everything seen.  This corner of the house has not been tended to or cleaned.
+~
+24 142639180 0
+D1
+   Looks like a bedroom, and not a good smelling one for that matter.  There
+is a little more light coming from this direction.
+~
+door~
+1 0 2423
+D2
+   A clean hallway stretches on forever.  There is light at some distance.
+~
+~
+0 0 2420
+S
+#2423
+&+bA Walkthrough Bedroom~
+   This bedroom has one bed without any sheets and is clearly deserted.
+The dust is overpowering and it smells like rotting flesh.  The maids do
+not seem to like cleaning this room.  The ceiling is low and there are
+images of stars and moons painted on it.  A single &+Wnote&N is pinned to
+the wall by a curved dagger.
+~
+24 142639180 0
+D2
+   This room looks like a messy laboratory.  There are books and scrolls
+scattered everywhere.
+~
+~
+0 0 2424
+D3
+   A dark corner can be seen.  The corner is dirty, but not as dirty as
+this bedroom.
+~
+door~
+1 0 2422
+E
+note~
+   "Be friendly to the ghosts of past.
+                           -&+YRenardien, &+RApprentice of Madam Quintaragon&N"
+~
+S
+#2424
+&+bA Simple Laboratory~
+   There are empty flasks scattered around.  Books and scrolls have been
+tossed haphazardly.  There is a strange substance covering the ground
+that smells awful.  The walls are made of cold stone and are completely
+bare.  The ceiling is wooden with a single chandelier hanging from the
+center.  The chandelier is big and has many candles, none of which are lit.
+A table sits below the chandelier with contraptions and sorts scattered
+all over it.  A huge cauldron sits empty in the corner untouched.
+~
+24 142639177 0
+D0
+   The room has a bed and it stinks of a foul odor.
+~
+~
+0 0 2423
+D1
+   There is a single lamp on a huge table with piles of papers strewn around.
+The room looks like a library of some sort.
+~
+~
+0 0 2426
+D2
+   This looks like a walk-in closet.  There is nothing much to be seen.
+~
+door~
+1 0 2425
+E
+scrolls books~
+   The scrolls are mostly in common.  They have incantations on them, but
+most have been smeared by water or some liquid.  No full spell can be
+deciphered in the mess.  A note is found which reads,
+
+      "The mages of high,
+       Cannot, in any way, die,
+       But when revenge is the motive,
+       Then no one can, in any way, live.
+               -Renardien, Apprentice of Madam Quintaragon"
+~
+S
+#2425
+&+bA Small Bedroom Closet~
+   This room is a simple walk-in closet with rags hanging on poles on both
+sides.  The door has a plain-looking mirror that is broken.  The room lacks
+illumination and there is nothing on the floor.  Whoever used this closet has
+long since moved all their stuff away.
+~
+24 142639177 0
+D0
+   This room looks like a messy laboratory.
+~
+door~
+1 0 2424
+S
+#2426
+&+bA Study Room~
+   This room has one large desk in the center.  Piles of paper are on the
+desk.  There are several bookcases around that hold about a hundred books
+total.  Each book is decaying and there is a &+Rred slimy substance&N all over
+them.  A lantern sits on the center of the table and glows a soft bright
+light.  The &+Wpapers&N on the table are scattered around chaotically.  Written
+on them are phrases in several different languages, some of which are not
+known to most of the realms and are very ancient.  The person who wrote these
+on these papers was versed in several languages including ancient dead
+languages.
+~
+24 142639176 0
+D0
+   The library is huge with hundreds of books and piles of papers on the
+desk.
+~
+~
+0 0 2427
+D3
+   There seems to be a desk and empty flasks strewn around.  It looks like
+a simple laboratory.
+~
+~
+0 0 2424
+E
+papers desk table~
+   The desk has piles of papers.  Each says in a different language,
+
+   "Death is among us.  May my soul kill &+rLlamanby&N.
+                -GQ"
+
+Some of the papers even have the message in troll and ogre languages.
+~
+E
+red slimy substance~
+   The &+Rred slimy substance&N was spilled from an empty flask on top of the
+bookcase.  The goo covers the floor as well as the books and emits a strange,
+pleasant rosy odor.
+~
+S
+#2427
+&+bA Library~
+   This room is huge with books everywhere.  There are bookcases that go
+to the ceiling.  Hundreds of books are set in the bookcases, and most of
+the books are in decent condition.  There are two table with candles lit
+on each table.  There are scrolls and papers on the desk but most are
+blank.  There are stairs on the north side of the library going up.  The
+steps are made of stone and there is moss all over them.
+~
+24 142639176 0
+D2
+   The study is a smaller version of this library.
+~
+~
+0 0 2426
+D4
+ntinues with no end in sight.
+~
+trap trapdoor~
+3 2418 2428
+E
+books bookcases~
+   The books are spellbooks but are written in some kind of code.
+~
+E
+table papers~
+   The papers are mostly blank, but the few that are written on are in some
+sort of code.
+~
+S
+#2428
+&+LTop of a Stairwell~
+   The top of this stairwell is cluttered with battered swords.  This area
+is used to house a small batallion of soldiers.  There is a small window near
+the top of the ceiling which is burnt all around its edges.  The natural
+light comes in brightly and one can see outside clearly.  Every so often, a
+large object blocks the natural light from the window and throws the
+stairwell into complete darkness.
+~
+24 142639176 0
+D2
+   This holy room is tidy and very neat.
+~
+~
+0 0 2440
+D5
+   The stiarwell goes down to the first floor.
+~
+trap trapdoor~
+3 2418 2427
+E
+window~
+   The window's edges have been burnt by an extreme heat.
+~
+S
+#2429
+&+bA Stairwell~
+   The stairway is well lit with several large candles flickering on the
+walls.  The stone stairs are slimy with precipitation and makes each step
+slippery.
+~
+24 142639180 0
+D4
+   The top of the stairwell can barely be distinguished.
+~
+~
+0 0 2415
+D5
+  The bottom of the stairwell cannot be seen.
+~
+~
+0 0 2430
+S
+#2430
+&+LA Stairwell~
+   The stairway is well lit with several large candles flickering on the
+walls.  The stone stairs are slimy with precipitation and makes each step
+slippery.
+~
+24 142639180 0
+D4
+   The top of the stairwell cannot be seen from here.
+~
+~
+0 0 2429
+D5
+   The top of the stairwell cannot be seen from here.
+~
+~
+0 0 2431
+S
+#2431
+&+LA Stairwell~
+   The stairway is well lit with several large candles flickering on the
+walls.  The stone stairs are slimy with precipitation and makes each step
+slippery.
+~
+24 142639176 0
+D4
+   The top of the stairwell cannot be seen from here.
+~
+~
+0 0 2430
+D5
+   The top of the stairwell cannot be seen from here.
+~
+~
+0 0 2432
+S
+#2432
+&+mThe Bottom of the Stairwell~
+   The floor of the basement is slimy &+ggreen&+w.  The ceiling is low and
+the walls extend outward.  There are several pillars in strange places.
+On one pillar is posted a colored &+rwarning &+Wsign&N demanding your attention.
+~
+24 142639176 0
+D1
+   What looks like a junk room is actually a practice room.  The room is
+bigger than what you can see.
+~
+door~
+1 0 2433
+D4
+   The top of the stairwell cannot be seen from here.
+~
+~
+0 0 2431
+E
+warning sign pillar~
+
+
+   &-M&+WWarning!&N &+MDo &+WNot &+MDisturb the &+mNecromancer&N!
+             -&+MGiauque Quintaragon&N, &+LMaster of &+rCastle Quintaragon
+~
+S
+#2433
+&+mThe Necromancer's Practice Room~
+   The room has several scrolls of necromancer spells written on them.  The
+writings, however, are encrypted in some sort of strange code.  There are
+daggers hanging on the pillars which are set in the four corners of the room.
+Close to those corners are desks with several flasks of strange bubbling
+potions set on them.
+~
+24 142639168 0
+D0
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2434
+D1
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2436
+D2
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2437
+D3
+   The stairwell can be seen.
+~
+door~
+1 0 2432
+S
+#2434
+&+mA Necromancer's Practice Room~
+   This room has a &+ydesk&N in the corner covered with several papers, scrolls,
+and various colored potions.  The scrolls are encrypted in some kind of
+strange language and are useless except to the owner. There are several
+piles of bones shoved under the desk.
+~
+24 142639176 0
+D1
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2435
+D2
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2433
+E
+desk~
+   On the desk are some potions, but none seem to be cool enough to taste or
+drink.  The potions are all sorts of colors and they all seem to be heated
+by a huge candle.  There are scrolls which look encrypted.
+~
+E
+potions potion~
+   The potions are hot and range in color, from blue to red and straight
+through green.  The flasks are made of a strange metal and seem to be
+transparent, but not totally clear.
+~
+S
+#2435
+&+mA Necromancer's Practice Room~
+   This room has a &+ydesk&N in the corner covered with several papers, scrolls,
+and various colored potions.  The scrolls are encrypted in some kind of
+strange language and are useless except to the owner. There are several
+piles of bones shoved under the desk.
+~
+24 142639176 0
+D2
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2436
+D3
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2434
+E
+potion potions~
+   The potions are hot and range in color, blue to red and straight through
+green.  The flasks are made of a strange metal and seem to be transparent,
+but not totally clear.
+~
+E
+desk~
+   This desk is a dirty brown color and is made of rotten wood.  The potions
+on the desk are too hot to taste or drink, and each seem to be changing color.
+~
+S
+#2436
+&+mA Necromancer's Practice Room~
+   The room has several scrolls of necromancer spells written on them.  The
+writings, however, are encrypted in some sort of strange code.  There are
+daggers hanging on the pillars which are set in the four corners of the room.
+Close to those corners are desks with several flasks of strange bubbling
+potions set on them.
+~
+24 142639176 0
+D0
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2435
+D1
+   Above the door is a sign that says,
+
+        "&-M&+WWarning!&N Do Not Disturb Me!
+               -&+MGiauque Quintaragon&N, &+LMaster of &+rCastle Quintaragon&N."
+~
+door~
+1 0 2439
+D2
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2438
+D3
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2433
+S
+#2437
+&+mA Necromancer's Practice Room~
+   This is the corner of the room, which has a &+ydesk&N in the corner.  On the
+desk are several various colored potions.  On top of the desk are piles and
+piles of bones.  There is a candle lit on the desk but is starting to run
+out.  There are scrolls under the desk.
+~
+24 142639176 0
+D0
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2433
+D1
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2438
+E
+potion potions~
+   The potions are hot and range in color, from blue to red and straight
+through green.  The flasks are made of a strange metal that is transparent,
+but not quite clear.
+~
+E
+desk~
+   The desk has potions but no papers of any sort like some of the other
+desks in the room.  Instead are piles and piles of bones from several
+species.
+~
+S
+#2438
+&+mA Necromancer's Practice Room~
+   This is the corner of the room, which has a &+ydesk&N in the corner.  On the
+desk are several papers, scrolls, and various colored potions.  The scrolls
+are encrypted in some kind of code and are useless except to the owner.
+There are bones under the desk.
+~
+24 142639176 0
+D0
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2436
+D3
+   The practice room is clean but smells like decomposing flesh.
+~
+~
+0 0 2437
+E
+potion potions~
+   The potions on this desk are cold and range in color from blue to red and
+straight through green.  There is hardly any left in each transparent flask.
+~
+E
+desk~
+   The desk has several potions and piles of papers, scrolls, and books.
+The scrolls have strange incantations and the papers have every language's
+simplest words.  They look like written lessons.
+~
+S
+#2439
+&+mThe Necromancer's Study~
+   There is a desk on the far side of the room and a bed on the right.
+The walls are covered with portraits of a family, and above the portraits
+is a fine collection of daggers.  A skeleton of an eradicated human male
+lies on the floor in an awkward position.  Candles hang on all four corners
+of the room and throw strange dancing shadows upon the walls.  The ground is
+made up of stone but is unusually warm to the touch.
+~
+24 142639176 0
+D3
+   The practice room is clean but smells like decomposing flesh.
+~
+door~
+1 0 2436
+S
+#2440
+&+LA Large Hallway~
+   This hallway rises twenty feet to the ceiling and stretches ten feet
+wide.  There are arrows stuck in the walls and worn helmets lying on the
+ground.  Its well enough lit that the door down the hall is visible.
+Shouts and the sound of snoring come in from the east.
+~
+24 142639176 0
+D0
+   The top of the stairwell appears to the south.
+~
+~
+0 0 2428
+D1
+   Sounds of sleeping men come from the east.
+~
+door~
+1 0 2441
+D2
+   The hallway continues on not to far to the north.
+~
+~
+0 0 2445
+E
+arrow arrows~
+   The arrows stick out of the wall and bears the name of the master
+of the house, "Giauque Quintaragon".
+~
+S
+#2441
+&+LA Guard's Sleeping Quarters~
+   This room is quite small but has a number of beds in it.  The beds are
+stacked high to the ceiling with guards sleeping in them.  For the most
+part, the room is clean except for the noise pollution coming from the
+guard's snoring.  Their equipment is stored neatly in closets next to their
+beds.
+~
+24 142639176 0
+D1
+   Beds pile up in the room to the east.
+~
+~
+0 0 2444
+D2
+   There are more beds and sleeping guards snoring coming from this direction.
+~
+~
+0 0 2442
+D3
+   The hallway appears cluttered with armor and weapons.
+~
+door~
+1 0 2440
+E
+closet closets~
+   All the armor and weapons used by the guards are stacked neatly here.
+All are cheap weapons, but a skilled warrior could create havoc with them.
+They may be made cheap, but they are light and have good balance for a human
+warrior.
+~
+S
+#2442
+&+LA Guard's Sleeping Quarters~
+   This room is quite small but has a number of beds in it.  The beds are
+stacked high to the ceiling with guards sleeping in them.  For the most
+part, the room is clean except for the noise pollution coming from the
+guard's snoring.  Their equipment is stored neatly in closets next to their
+beds.
+~
+24 142639176 0
+D0
+   Beds pile up in the room to the north.
+~
+~
+0 0 2441
+D1
+   A single desk with a dim light can barely be distinguished.
+~
+~
+0 0 2443
+E
+closet closets~
+   All the weapons and armor used by the guards are neatly stacked here.
+The weapons are cheap, but wielded by a skilled warrior could wreck havoc
+to any battle.  They have no fancy design but are light and have good
+balance.
+~
+S
+#2443
+&+LThe Chief's Office~
+   This is probably the cleanest room in the castle.  With only one desk
+and one chair taking up space, it seems as if the chief takes pride in this
+small area.  Behind the desk is a small piece of paper tacked to the wall, and
+below this paper is a note.  Next to the chief is a rack where he keeps many
+weapons.
+~
+24 138444872 0
+D0
+   Beds pile up in the room to the south.
+~
+~
+0 0 2444
+D3
+   Beds pile up in the room to the east.
+~
+~
+0 0 2442
+E
+paper~
+
+   I will do all I can to defend Castle Quintaragon and The Quintaragon Family.
+
+             -&+rRemy Swyhart, &+LChief Guard
+~
+E
+rack weapons~
+
+
+   MINE. DO NOT TOUCH.
+
+      &+rYour Boss
+~
+E
+note~
+
+I WILL avenge the death of the Quintaragon Family.
+
+   -&+rRemy
+~
+S
+#2444
+&+LA Guard's Sleeping Quarters~
+   This room is quite small but has a number of beds in it.  The beds are
+stacked high to the ceiling with guards sleeping in them.  For the most
+part, the room is clean except for the noise pollution coming from the
+guard's snoring.  Their equipment is stored neatly in closets next to their
+beds.
+~
+24 142639176 0
+D2
+   A single desk with a single person behind it appears in the dim light.
+~
+~
+0 0 2443
+D3
+   Beds pile up in the room to the east.
+~
+~
+0 0 2441
+E
+closet closets~
+   All the armor and weapons used by the guards are stacked neatly here.
+The weapons are cheap but when wielded by a skilled warrior could wreck
+havoc in any battle.  They have no fancy design but are light with good
+balance.
+~
+S
+#2445
+&+LA Large Hallway~
+   This hallway rises twenty feet to the ceiling and stretches ten feet
+wide.  There are arrows stuck in the walls and worn helmets lying on the
+ground.  Its well enough lit that the door down the hall is visible.
+Shouts of guards and the sound of snoring is also audible.
+~
+24 142639176 0
+D0
+   The hallway continues down to the south.
+~
+~
+0 0 2440
+D2
+   The hallway opens up into a large open room.
+~
+~
+0 0 2446
+S
+#2446
+&+LA Bend in the Hallway~
+   This room is quite big with heavy metal doors to the south and west.
+There are noticeable large slash marks in the walls made when the guards
+hit them during practice fights.  The only light comes from the many candles
+lit around the room giving adequate lighting to an obvious warrior's practice
+room.  From the looks of things, this must be the center of the castle.
+~
+24 142639176 0
+D0
+  The hallway goes towards the stairwell down to the first floor.
+~
+~
+0 0 2445
+D1
+   The hallway continues on to the east.
+~
+~
+0 0 2449
+D2
+  The hallway runs into a large, cluttered storage room.
+~
+door~
+1 0 2447
+D3
+   The room of the priests of the castle.
+~
+door~
+3 2422 2448
+S
+#2447
+&+LA Large Storage Area.~
+   This room seems to be a storage area for the guards.  Along with all the
+weapons and armor, there are items with religious symbols that a holy man
+would use.  These holy items are stacked neatly on the shelves along side
+folded clothes.  These clothes have symbols on them and are not all men's
+clothing, but women's as well.
+~
+24 142639176 0
+D0
+   The main hallway on this floor begins to the south.
+~
+door~
+1 0 2446
+D1
+    The storage rooms continues with more clutter and unorganization.
+~
+~
+0 0 2451
+D2
+   The storage room continues on with clutter and unorganization.
+~
+~
+0 0 2450
+S
+#2448
+&+bA Holy Room~
+   The walls in this room are lined with many symbols of religion.
+Looking at them, it is obvious that whoever these belong to is educated
+in many different religions.  Along with these symbols are many potions
+and various scrolls that have been put neatly against the bottom
+of the walls.  The room has a feeling of calm and peace.
+~
+24 142639176 0
+D1
+   The door out of this room looks new.
+~
+door~
+3 2422 2446
+D2
+   The holy room is tidy and very neat.
+~
+~
+0 0 2454
+D3
+   This holy room is tidy and very neat.
+~
+~
+0 0 2453
+E
+potions scrolls scroll potion symbol symbols~
+   Property of Juku and Cetyla,  Holy advisors to the Quintaragon family.
+~
+S
+#2449
+&+LA Hallway~
+   This hall is a normal hallway that stretches down a ways to each side.
+The hallway walls are bare except the marks that the guards have left from
+their battles with foes and practice on themselves.  The floor has been swept
+and the hallway has been neatly kept.
+~
+24 142639176 0
+D1
+   The sun comes in from the burnt out walls to the east.
+~
+~
+0 0 2458
+D3
+   The hallway opens up into a large open area.
+~
+~
+0 0 2446
+S
+#2450
+&+LA Large Storage Area~
+   This room seems to be a storage area for the guards.  Along with all the
+weapons and armor, there are items with religious symbols that a holy man
+would use.  These holy items are stacked neatly on the shelves along side
+folded clothes.  These clothes have symbols on them and are not all men's
+clothing, but women's as well.
+~
+24 142639176 0
+D0
+  The exit out of the storage room, to get out of all this crap.
+~
+~
+0 0 2447
+D1
+  An empty room to the east does not seem to fit in this storage room.
+~
+~
+0 0 2452
+S
+#2451
+&+LA Large Storage Area~
+   This room seems to be a storage area for the guards.  Along with all the
+weapons and armor, there are items with religious symbols that a holy man
+would use.  These holy items are stacked neatly on the shelves along side
+folded clothes.  These clothes have symbols on them and are not all men's
+clothing, but women's as well.
+~
+24 142639176 0
+D2
+  It seems that the clutter ends with a clean room.
+~
+~
+0 0 2452
+D3
+   The exit of the storage room, to finally get out of all this
+clutter and chaos.
+~
+~
+0 0 2447
+S
+#2452
+&+LA Large Storage Area~
+   This room is quite bare for a storage area.  The only items here are
+some dust and cobwebs.  There is a pile of trash and debris hidden in the
+corner and there is not a single light in this room.  The ceiling is lower
+than the other sections of this storage area.
+~
+24 142639176 0
+D0
+  A room full of clutter.
+~
+~
+0 0 2451
+D3
+   A room full of clutter.
+~
+~
+0 0 2450
+S
+#2453
+&+bA Holy Room~
+   The walls in this room are lined with many symbols of religion.
+Looking at them, it is obvious that whoever these belong to is educated
+in many different religions.  Along with these symbols are many potions
+and various scrolls that have been put neatly against the bottom
+of the walls.  The room has a feeling of calm and peace.  &+rThere is an
+&+raltar sitting against the wall.
+~
+24 142639176 0
+D1
+   The holy room is tidy and very neat.
+~
+~
+0 0 2448
+D2
+   The holy room is tidy and very neat.
+~
+~
+0 0 2457
+E
+altar~
+   This altar is made for prayers to the dead.  There are bones stacked
+neatly behind the altar and several personal items of people of past lie on
+the altar. There are &+Rwritings&N carved on the base of the altar.
+~
+E
+carvings writings~
+   "The death of a person brings life to the universe.  May the dead rest
+in eternal peace."
+
+
+   Something is scribbled below,
+
+   "A necromancer's life is NEVER over."
+~
+S
+#2454
+&+bA Holy Room~
+   The walls in this room are lined with many symbols of religion.
+Looking at them, it is obvious that whoever these belong to is educated
+in many different religions.  Along with these symbols are many potions
+and various scrolls that have been put neatly against the bottom
+of the walls.  The room has a feeling of calm and peace.  &+rThere is an
+&+raltar sitting against the wall.
+~
+24 142639176 0
+D0
+   The holy room is tidy and very neat.
+~
+~
+0 0 2448
+D2
+   The holy room is tidy and very neat.
+~
+~
+0 0 2455
+D3
+   The holy room is tidy and very neat.
+~
+~
+0 0 2457
+E
+potions scroll scrolls potion symbols symbol~
+   Property of Juku and Cetyla, Holy advisors to the Quintaragon family.
+~
+E
+altar~
+   The altar was made especially for the celebration of life.  The altar
+is cleared and nothing clutters it save for some &+Rcarvings&N at the base
+of the structure.
+~
+E
+writings carvings~
+   "Life is the greatest passion of a wise person, but only a dead person
+can truly appreciate life."
+
+   Below are &+Rscratched in &+rblood&N the words,
+
+   &+r"We shall kill the dragon...one day..."
+~
+S
+#2455
+&+bA Holy Room~
+   The walls in this room are lined with many symbols of religion.
+Looking at them, it is obvious that whoever these belong to is educated
+in many different religions.  Along with these symbols are many potions
+and various scrolls that have been put neatly against the bottom
+of the walls.  The room has a feeling of calm and peace.
+~
+24 142639176 0
+D0
+   The holy room is tidy and very neat.
+~
+~
+0 0 2454
+D3
+   There is a big bed in the next room.
+~
+~
+0 0 2456
+E
+potions potion scroll scrolls symbol symbols~
+   Property of Juku and Cetyla, Holy advisors to the Quintaragon family.
+~
+S
+#2456
+&+rThe Room of Sin~
+   The room is no different than any of the other section of the holy room
+except for the bed in the corner.  It becomes obvious that this is where
+&+bJuku&N and &+bCetyla&N perform the act they consider sinful.  This room is just
+as neat as the others and there are even more holy symbols placed on the
+shelves above the bed.  The room is neatly organized and seems frequently
+cleaned.
+~
+24 138444872 0
+D0
+   The holy room is tidy and very neat.
+~
+~
+0 0 2457
+D1
+   The holy room is tidy and very neat.
+~
+~
+0 0 2455
+S
+#2457
+&+bA Holy Room~
+   The walls in this room are lined with many symbols of religion.
+Looking at them, it is obvious that whoever these belong to is educated
+in many different religions.  Along with these symbols are many potions
+and various scrolls that have been put neatly against the bottom
+of the walls.  The room has a feeling of calm and peace.
+~
+24 142639176 0
+D0
+   The holy room is tidy and very neat.
+~
+~
+0 0 2453
+D1
+   The holy room is tidy and very neat.
+~
+~
+0 0 2454
+D2
+   There is a huge bed in the next room.
+~
+~
+0 0 2456
+E
+scroll scrolls potion potions symbol symbols~
+   Property of Juku and Cetyla, Holy advisors to the Quintaragon family.
+~
+S
+#2458
+&+RA Burnt Out Room~
+   This room has been practically burnt to dust. The only way to continue
+down the hallway is on a few stones that are left.  This tight room seems
+to have been a place of a major battle that the castle failed win.  The
+walls are completely gone on the west side and many do not dare walk here for
+fear of falling.
+~
+24 142647372 3
+D2
+   The hallway continues with walls and a stable floor.
+~
+~
+0 0 2459
+D3
+   The hallway continues, this time with walls and a stable floor.
+~
+~
+0 0 2449
+S
+#2459
+&+LA Hallway~
+   This hall is a normal hallway that stretches down a ways to each side.
+The hallway walls are bare except the marks that the guards have left from
+their battles with foes and practice on themselves.  The floor has been swept
+and the hallway has been neatly kept.
+~
+24 142639176 0
+D0
+   A room that is letting a cold draft lies to the north. It seems as if
+the walls have been burnt away in some great battle.
+~
+~
+0 0 2458
+D2
+   The stairwell to the third floor lies to the south.
+~
+~
+0 0 2460
+S
+#2460
+&+LBottom of the stairwell~
+   This is the stairwell leading up to the third floor.  The floor is
+scorched from a fire fight and is quite unstable.  The first couple steps
+seem a little awkward to step on.  On one pillar in front of the stairs is
+a little piece of &+Rpaper&N that has been burnt, but there is still
+enough of it left to read.  Above is a trapdoor with a small keyhole.
+~
+24 142639168 0
+D0
+   One can see the outside sun down the hall.
+~
+~
+0 0 2459
+D4
+   These stairs lead up to the third floor.
+~
+trap trapdoor~
+3 2425 2461
+E
+paper piece~
+
+   It seems that we have a problem. There seems to
+living on our roof.  All guards and members a
+have a meeting tonight to discuss the
+Be prompt and hopefully we sha
+
+        -&+mGiauq
+~
+S
+#2461
+&+MThe Top of a Stairwell~
+   The top of the stairwell is barely lit, but one can see the outside air
+to the north from here.  The walls have charred marks and lightning burns.
+The floor is littered with &+Lr&+ro&+Lc&+rk&+Ls &+ra&+Ln&+rd &+Lm&+re&+Lt&+re&+Lo&+rr&+Ls&N scattered around, and
+there are several &+Gbroken arrows&N just lying around.  There is a slight
+cool draft from the north.  There is a huge bite mark in and around the
+ceiling where something huge has gone through the castle.
+~
+24 142639176 0
+D0
+   The winding hallways winds in this direction.
+~
+~
+0 0 2462
+D5
+   The stairwell is burnt black.  It leads to the second floor.
+~
+trap trapdoor~
+3 2425 2460
+E
+arrow arrows~
+   The arrows are singed and the tips are melted.
+~
+E
+meteors rocks~
+   The meteors and rocks are from long past meteorswarm of some sort.  The
+pattern looks like it originated from outside the house.
+~
+S
+#2462
+&+MA Winding Hallway~
+   This hallway is narrow because there are several piles of rocks scattered
+around.  There are no candles but there is a pleasant warm light coming from
+the &+Wsteaming &+Rrocks&N.  Several of the rocks seem to be &+Rm&+Le&+Rt&+Le&+Ro&+Lr&+Rs&N that have been
+created from a spell not too long ago.  There is smoke slowly spiraling around
+the room, and the stench of burnt flesh fills the air.
+~
+24 142639176 0
+D0
+   Only the outside breeze greets you from the north.
+~
+~
+0 0 2463
+D2
+   The stairwell to the second floor is to the south.
+~
+~
+0 0 2461
+S
+#2463
+&+MA Burnt Out Room~
+   A terrible fire has raged through this area, destroying much of the room and
+leaving gaping holes to the outside world.  The floor appears to be intact enough to
+hold weight, however.
+~
+24 142639168 0
+D2
+   A hallway winds in this direction.
+~
+~
+0 0 2462
+D3
+   The winding hallways winds in this direction.
+~
+~
+0 0 2464
+F
+25
+S
+#2464
+&+MA Winding Hallway~
+   This hallway seems to stretch on forever. It twists and turns, as glowing
+rocks create a soft &+Yyellow glow&N.  The hallway is quite narrow as compared
+to the others in the house because of the &-r&+Ymeteors&N and large piles of rocks
+that fill up the rooms.  The rocks are still steaming from what looks like
+spell in a battle fought not too long ago.
+~
+24 142639176 0
+D1
+   Only the outside breeze greets you from the east.
+~
+~
+0 0 2463
+D2
+   The winding hallways winds in this direction.
+~
+~
+0 0 2465
+E
+rocks meteors~
+   The rocks steam and seem to glow.  There is a soft heat radiating out
+from them.
+~
+S
+#2465
+&+MA Winding Hallway~
+   This hallway seems to stretch on forever. It twists and turns, as glowing
+rocks create a soft &+Yyellow glow&N.  The hallway is quite narrow as compared
+to the others in the house because of the &-r&+Ymeteors&N and large piles of rocks
+that fill up the rooms.  The rocks are still steaming from what looks like
+spell in a battle fought not too long ago.
+~
+24 142639176 0
+D0
+   The winding hallways winds in this direction.
+~
+~
+0 0 2464
+D2
+   The winding hallways winds in this direction.
+~
+~
+0 0 2466
+E
+tomes~
+   These tomes are spellbooks from an ancient breed of sorcerors.  The
+incantations are short and most can hardly be deciphered.  On one tome
+a note is scribbled on the inside.  It says,
+
+     "To Tichelaar,
+         For your first spellbook, may you learn many powerful spells.
+                    -&+MHildebrand&N, &+WApprentice to the Mistress&N"
+~
+E
+rocks meteors~
+   The meteors steam and seem to glow.  There is a soft heat radiating
+from the rocks.
+~
+S
+#2466
+&+MA Winding Hallway~
+   This hallway seems to stretch on forever. It twists and turns, as glowing
+rocks create a soft &+Yyellow glow&N.  The hallway is quite narrow as compared
+to the others in the house because of the &-r&+Ymeteors&N and large piles of rocks
+that fill up the rooms.  The rocks are still steaming from what looks like
+spell in a battle fought not too long ago.
+~
+24 142639176 0
+D0
+   The winding hallways winds in this direction.
+~
+~
+0 0 2465
+D3
+   The winding hallways winds in this direction.
+~
+~
+0 0 2467
+S
+#2467
+&+MA Winding Hallway~
+   This hallway seems to stretch on forever. It twists and turns, as glowing
+rocks create a soft &+Yyellow glow&N.  The hallway is quite narrow as compared
+to the others in the house because of the &-r&+Ymeteors&N and large piles of rocks
+that fill up the rooms.  The rocks are still steaming from what looks like
+spell in a battle fought not too long ago.
+~
+24 142639176 0
+D0
+   The winding hallways winds in this direction.
+~
+~
+0 0 2468
+D1
+   The winding hallways winds in this direction.
+~
+~
+0 0 2466
+S
+#2468
+&+MA Winding Hallway~
+   This hallway seems to stretch on forever. It twists and turns, as glowing
+rocks create a soft &+Yyellow glow&N.  The hallway is quite narrow as compared
+to the others in the house because of the &-r&+Ymeteors&N and large piles of rocks
+that fill up the rooms.  The rocks are still steaming from what looks like
+spell in a battle fought not too long ago.
+~
+24 142639176 0
+D0
+   The winding hallways winds in this direction.
+~
+~
+0 0 2469
+D2
+   The winding hallways winds in this direction.
+~
+~
+0 0 2467
+S
+#2469
+&+MThe Magical Hallway~
+   The winding hallway turns into a beautiful path that leads to the
+stairwell.  The stone floor becomes a magical carpet that floats above
+the ground but is still as hard as rock.  The walls seem to sparkle as
+bright as the sky on a clear night.  To the west, there is a closed door.
+~
+24 142639304 0
+D0
+  The magical hallway continues in this direction.
+~
+~
+0 0 2482
+D2
+   The winding hallways winds in this direction.
+~
+~
+0 0 2468
+D3
+   The practice room is perfectly clean and smells like roses.
+~
+door~
+1 0 2470
+S
+#2470
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At each end of the large practice room are
+closets that have wooden doors with large keyholes.
+~
+24 142639176 0
+D0
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2471
+D1
+   The magical hallway begins there.
+~
+door~
+1 0 2469
+D2
+   The practice room is spotless and smells like roses.
+~
+~
+0 0 2476
+D3
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2474
+S
+#2471
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At the end of the large practice room is a
+closet.  There is a smell coming from the north.
+~
+24 142639176 0
+D0
+   There is a warning on the wall.
+
+      "&-g&+rWarning!!!&N  Do Not Enter.  &+GBiohazard!!!
+~
+door~
+7 2436 2479
+D2
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2470
+D3
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2473
+S
+#2472
+Llamanby's room~
+   Llamanby tortures Mystra in this torture chamber.
+~
+24 8421384 0
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2532
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2528
+S
+#2473
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At each end of the large practice room are
+closets that have wooden doors with large keyholes.
+~
+24 142639176 0
+D1
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2471
+D2
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2474
+S
+#2474
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At each end of the large practice room are
+closets that have wooden doors with large keyholes.
+~
+24 142639176 0
+D0
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2473
+D1
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2470
+D2
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2475
+D4
+   A magical field blocks your view.
+~
+~
+0 0 2477
+S
+#2475
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At each end of the large practice room are
+closets that have wooden doors with large keyholes.
+~
+24 142639168 0
+D0
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2474
+D1
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2476
+S
+#2476
+&+MA Sorcerer's Practice Room~
+   This practice room is spotless and but still looks like it is used quite
+often.  There is a magical feeling and even a radiating energy of magic that
+flows in between these walls.  At each end of the large practice room are
+closets that have wooden doors with large keyholes.  There is a &+Wsign&N next to
+the southern door.
+~
+24 142639176 0
+D0
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2470
+D2
+   On the door is a sign.
+
+
+                &+W"Get the bone."
+~
+door~
+1 0 2481
+D3
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2475
+E
+sign~
+   On the sign it says,
+
+        "&+WGet the bone!"
+~
+S
+#2477
+&+MThe Madam's Study~
+   This room extends 50 feet in the air so Madam Quintaragon can levitate
+in the air while she studies. The room is kept spotless by her cleaning
+spells and by the work of Hildebrand, her apprentice.  The work done here
+is primarily good and the feeling of the magical goodness is at its height
+here.  There is a small bed in the middle of the room for the Madam and
+a small cot next to it, for her assistant.
+~
+24 142639176 0
+D5
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2474
+S
+#2478
+&+YThe Magical Stairwell~
+   The stairwell is silent and dark.
+~
+24 142639193 0
+D4
+   The magical stairwell continues in that direction.
+~
+~
+0 0 2480
+D5
+   The magical stairwell continues in that direction.
+~
+~
+0 0 2483
+S
+#2479
+&+MA Smelly Closet~
+   There are stinking rags and several buckets of discarded potions piled
+up.  This closet is clearly a trash room for the messed up experiments of
+a crazy magician.  There is a single candle that lights the small closet.
+A broom lies in a corner and several trash items are stinking the room.
+The walls are dark and very dirty.
+~
+24 142639168 0
+D2
+   The practice room is perfectly clean and smells like roses.  Completely
+different than this stink hole.
+~
+door~
+7 2436 2471
+S
+#2480
+&+YA Magical Stairwell~
+   The stairwell is silent and dark.
+~
+24 142639193 0
+D0
+   The conjurer's practice room stand here.
+~
+door~
+3 2437 2488
+D2
+   The door says,
+
+       "This door leads to Gremeila's room.  Construction starts at the
+          end of the month.
+                       -&+mGiauque Quintaragon&N"
+
+The door is glowing for some odd reason.
+~
+door~
+3 2438 2498
+D5
+   The magical stairwell continues in that direction.
+~
+~
+0 0 2478
+S
+#2481
+&+MPovtail's Dog House~
+   This room was created for comfort.  The master of this pet truly loved
+him to spend so much gold and time in creating the ultimate dog house.
+There are scrolls of messed up scribing placed on the floor to catch any
+unpleasantness that the pet may happen to accidentally do.  There are magic
+candles giving hard bright lights to the room.
+~
+24 138444872 0
+D0
+   The practice room is perfectly clean and smells like roses.
+~
+door~
+1 0 2476
+S
+#2482
+&+MA Magical Hallway~
+   The winding hallway turns into a beautiful path that leads to the
+stairwell.  The stone floor becomes a magical carpet that floats above
+the ground but is still as hard as rock.  The walls seem to sparkle as
+bright as the sky on a clear night.
+~
+24 142639176 0
+D0
+   The magical stairwell begins.
+~
+~
+0 0 2483
+D1
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2484
+D2
+   The practice room is perfectly clean and smells like roses.
+~
+~
+0 0 2469
+S
+#2483
+&+MThe Magical Stairwell~
+   The carpet continues up this stairwell; however, it seems to just
+disappear after the first step.  From above, sounds of elementals being
+pulled from other planes can be heard.  From outside the castle, there are
+no sounds of birds or animals heard, quite a difference from the walk to
+the castle.
+~
+24 142639176 0
+D2
+   The magical hallway goes on to the south.
+~
+~
+0 0 2482
+D4
+   The magical stairwell continues in that direction.
+~
+~
+0 0 2478
+S
+#2484
+A Kitchen~
+   This is just a normal kitchen, with a large sink, a HUGE oven and a
+place to prepare food.  For the most part it is kept clean, but there seems
+to be egg yolk all over the floor that makes it quite slippery. Seems that
+there is not enough room in the garbage for all the shells.
+~
+24 8 0
+D0
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2487
+D1
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2485
+D3
+   The magical hallway is to the west.
+~
+~
+0 0 2482
+S
+#2485
+A Kitchen~
+   THis is just a normal kitchen, with a large sink, a HUGE oven and a
+place to prepare food.  For the most part it is kept clean, but there seems
+to be egg yolk all over the floor that makes it quite slippery. Seems that
+there is not enough room in the garbage for all the shells.
+~
+24 8 0
+D0
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2486
+D3
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2484
+S
+#2486
+A Kitchen~
+   THis is just a normal kitchen, with a large sink, a HUGE oven and a
+place to prepare food.  For the most part it is kept clean, but there seems
+to be egg yolk all over the floor that makes it quite slippery. Seems that
+there is not enough room in the garbage for all the shells.
+~
+24 8 0
+D2
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2485
+D3
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2487
+S
+#2487
+A Kitchen~
+   THis is just a normal kitchen, with a large sink, a HUGE oven and a
+place to prepare food.  For the most part it is kept clean, but there seems
+to be egg yolk all over the floor that makes it quite slippery. Seems that
+there is not enough room in the garbage for all the shells.
+~
+24 8 0
+D1
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2486
+D2
+   The kitchen smells like  bacon and eggs.  The sounds of a foreign
+chef screaming at a lobster echo around the room.
+~
+~
+0 0 2484
+S
+#2488
+&+YA Conjurer's Practice Area~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2494
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2489
+D2
+   The magical stairwell continues in that direction.
+~
+door~
+3 2437 2480
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2497
+S
+#2489
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2490
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2488
+S
+#2490
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2491
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2489
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2494
+S
+#2491
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2490
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2492
+S
+#2492
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   There seems to be a magic radiance coming from this direction.
+~
+door~
+1 0 2493
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2491
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2494
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2495
+S
+#2493
+&+YGilman's Study Room~
+   This room is a mage's dream.  With hundreds of magical items and
+scrolls lying about, any mage would die for a glimpse of their secrets.
+However, none of them can be used for no reason at all.  The walls radiate
+a glow, and the floor has been recently swept.  There are several chairs
+and tables lying about, each made of wood.  There is a stone throne tossed
+in the corner covered with junk and a bed lies next to it.
+~
+24 146833480 0
+D2
+   The outside of this room seems boring compared to the magic stored in
+this room.
+~
+door~
+1 0 2492
+E
+items scrolls magical~
+   These items clearly have magic stored in them, but to tap their awesome
+conjurering powers, one must know the secret incantations, which only Gilman
+knows.
+~
+S
+#2494
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2492
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2490
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2488
+D3
+   The conjurer's practice room stand here.
+~
+~
+0 0 2496
+S
+#2495
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2492
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2496
+S
+#2496
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2495
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2494
+D2
+   The conjurer's practice room stand here.
+~
+~
+0 0 2497
+S
+#2497
+&+YA Conjurer's Practice Room~
+   This room is covered with spellbooks and staves.  Traces of rocks, water
+and fire are evident all over the room.  This room is obviously the practice
+area of &+MGlynn's&N and &+mGiauque's&N child.  &+YGilman&N, the &+YYoung Conjurer&N uses this area
+to cast various spells.  Although there are several strange toys lying about
+evident of a young child, the magical things in this room hints to one of
+the smartest minds of the greatest of mages.
+~
+24 142639176 0
+D0
+   The conjurer's practice room stand here.
+~
+~
+0 0 2496
+D1
+   The conjurer's practice room stand here.
+~
+~
+0 0 2488
+S
+#2498
+&+CThe Sky Above Quintaragon Castle~
+   The sky is wide and open.  Nothing can be seen in any direction except
+some smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.  A piece of floating ground holds a glowing door.  Beyond that
+door is more sky.  The house can be seen a several dragon-lengths below you.
+~
+24 142639168 0
+D0
+   The door glows in some magical way and stands on a levitating piece of
+earth several dragon-length's above the castle.  The conjurer's practice
+room exists through the door.
+~
+door~
+3 2438 2480
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+S
+#2499
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2498
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2500
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+S
+#2500
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+S
+#2501
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2500
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+S
+#2502
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+S
+#2503
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2498
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+S
+#2504
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2498
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+S
+#2505
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+S
+#2506
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2500
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+S
+#2507
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2524
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+S
+#2508
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+S
+#2509
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+S
+#2510
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+S
+#2511
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+S
+#2512
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+S
+#2513
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2500
+S
+#2514
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+S
+#2515
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2498
+S
+#2516
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2515
+S
+#2517
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2499
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2514
+S
+#2518
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2524
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2500
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2513
+S
+#2519
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2524
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2501
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2512
+S
+#2520
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2502
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+S
+#2521
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2503
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2510
+S
+#2522
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2524
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2516
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2521
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2504
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2509
+S
+#2523
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2517
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2524
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2520
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2505
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2508
+S
+#2524
+&+CThe Sky~
+   The sky is wide and open.  Nothing can be seen in any direction except
+smoke from below.  The castle is charred and looks as if a tornado ripped
+through it.
+~
+24 8388672 8
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2523
+D1
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2518
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2522
+D3
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2519
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2506
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2507
+S
+#2525
+Llamanby's exit room~
+   Mr. Dragon is getting ready to kill someone...
+~
+24 8421384 0
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2527
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+S
+#2527
+LLamanby's room~
+   Llamanby lives here.
+~
+24 8421384 0
+D4
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2528
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2525
+S
+#2528
+Llamanby's room~
+   Llamanby does his chemistry homework here.
+~
+24 8421384 0
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2529
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2530
+D4
+   Upward bound to the dragon's lair.
+~
+~
+0 0 2472
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2527
+S
+#2529
+Llamanby's room~
+   Llamanby likes to pov his tail in here.
+~
+24 8421384 0
+D2
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2528
+S
+#2530
+Llamanby's room~
+   Llamanby muds on Duris in this room full of computers.
+~
+24 8421384 0
+D0
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2528
+S
+#2532
+Llamanby's room~
+   This is where Llamanby lives.
+~
+24 8421384 0
+D5
+   There are eddies or air and smoke twirling around.
+~
+door~
+0 0 2511
+S

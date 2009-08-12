@@ -1,0 +1,1870 @@
+#830
+Nexus~
+83825 2 0 40 50 1
+*
+* Zone edited with dikuEdit v2.98h
+*
+*
+D 0 83000 1 2 100 0 0 0
+*     east exit from "The Gates of Nexus" to
+*     "Just Inside the Gates" - closed/locked
+*
+D 0 83001 3 2 100 0 0 0
+*     west exit from "Just Inside the Gates" to
+*     "The Gates of Nexus" - closed/locked
+*
+D 0 83001 0 1 100 0 0 0
+*     north exit from "Just Inside the Gates" to
+*     "A Small Guard Room" - closed
+*
+D 0 83002 2 1 100 0 0 0
+*     south exit from "A Small Guard Room" to
+*     "Just Inside the Gates" - closed
+*
+D 0 83001 2 1 100 0 0 0
+*     south exit from "Just Inside the Gates" to
+*     "A Small Guard Room" - closed
+*
+D 0 83003 0 1 100 0 0 0
+*     north exit from "A Small Guard Room" to
+*     "Just Inside the Gates" - closed
+*
+D 0 83030 3 1 100 0 0 0
+*     west exit from "Entryway to the Good Embassy" to
+*     "Entry Hall of the Good Embassy" - closed
+*
+D 0 83496 1 1 100 0 0 0
+*     east exit from "Entry Hall of the Good Embassy" to
+*     "Entryway to the Good Embassy" - closed
+*
+D 0 83068 3 1 100 0 0 0
+*     west exit from "House of the Evil Embassy" to
+*     "Entry into the House of the Evil Contingent" - closed
+*
+D 0 83600 1 1 100 0 0 0
+*     east exit from "Entry into the House of the Evil Contingent" to
+*     "House of the Evil Embassy" - closed
+*
+D 0 83077 3 1 100 0 0 0
+*     west exit from "A Path Leading to the House of Illithids" to
+*     "Entry hall of the Illithid Embassy" - closed
+*
+D 0 83688 1 1 100 0 0 0
+*     east exit from "Entry hall of the Illithid Embassy" to
+*     "A Path Leading to the House of Illithids" - closed
+*
+D 0 83191 2 1 100 0 0 0
+*     south exit from "A Servant's Room" to
+*     "A Dormitory for Servants" - closed
+*
+D 0 83194 0 1 100 0 0 0
+*     north exit from "A Dormitory for Servants" to
+*     "A Servant's Room" - closed
+*
+D 0 83197 0 1 100 0 0 0
+*     north exit from "Further into the Palace Stables" to
+*     "The Oxen Stalls" - closed
+*
+D 0 83200 2 1 100 0 0 0
+*     south exit from "The Oxen Stalls" to
+*     "Further into the Palace Stables" - closed
+*
+D 0 83198 0 2 100 0 0 0
+*     north exit from "a small storage room" to
+*     "The Horse Stalls" - closed/locked
+*
+D 0 83199 2 2 100 0 0 0
+*     south exit from "The Horse Stalls" to
+*     "a small storage room" - closed/locked
+*
+D 0 83199 3 1 100 0 0 0
+*     west exit from "The Horse Stalls" to
+*     "The Oxen Stalls" - closed
+*
+D 0 83200 1 1 100 0 0 0
+*     east exit from "The Oxen Stalls" to
+*     "The Horse Stalls" - closed
+*
+D 0 83224 0 2 100 0 0 0
+*     north exit from "Inn of God's Slumber" to
+*     "Room Two" - closed/locked
+*
+D 0 83226 2 2 100 0 0 0
+*     south exit from "Room Two" to
+*     "Inn of God's Slumber" - closed/locked
+*
+D 0 83225 0 2 100 0 0 0
+*     north exit from "Room One" to
+*     "Room Four" - closed/locked
+*
+D 0 83228 2 2 100 0 0 0
+*     south exit from "Room Four" to
+*     "Room One" - closed/locked
+*
+D 0 83225 1 2 100 0 0 0
+*     east exit from "Room One" to
+*     "Room Two" - closed/locked
+*
+D 0 83226 3 2 100 0 0 0
+*     west exit from "Room Two" to
+*     "Room One" - closed/locked
+*
+D 0 83226 0 2 100 0 0 0
+*     north exit from "Room Two" to
+*     "Room Five" - closed/locked
+*
+D 0 83229 2 2 100 0 0 0
+*     south exit from "Room Five" to
+*     "Room Two" - closed/locked
+*
+D 0 83226 1 2 100 0 0 0
+*     east exit from "Room Two" to
+*     "Room Three" - closed/locked
+*
+D 0 83227 3 2 100 0 0 0
+*     west exit from "Room Three" to
+*     "Room Two" - closed/locked
+*
+D 0 83227 0 2 100 0 0 0
+*     north exit from "Room Three" to
+*     "Room Six" - closed/locked
+*
+D 0 83230 2 2 100 0 0 0
+*     south exit from "Room Six" to
+*     "Room Three" - closed/locked
+*
+D 0 83228 1 2 100 0 0 0
+*     east exit from "Room Four" to
+*     "Room Five" - closed/locked
+*
+D 0 83229 3 2 100 0 0 0
+*     west exit from "Room Five" to
+*     "Room Four" - closed/locked
+*
+D 0 83229 1 2 100 0 0 0
+*     east exit from "Room Five" to
+*     "Room Six" - closed/locked
+*
+D 0 83230 3 2 100 0 0 0
+*     west exit from "Room Six" to
+*     "Room Five" - closed/locked
+*
+D 0 83281 2 2 100 0 0 0
+*     south exit from "Entrance to a Dingy Shack" to
+*     "Inside a Dingy Shack" - closed/locked
+*
+D 0 83282 0 2 100 0 0 0
+*     north exit from "Inside a Dingy Shack" to
+*     "Entrance to a Dingy Shack" - closed/locked
+*
+D 0 83352 1 1 100 0 0 0
+*     east exit from "Offices of the City of Nexus" to
+*     "Offices of the City of Nexus" - closed
+*
+D 0 83357 3 1 100 0 0 0
+*     west exit from "Offices of the City of Nexus" to
+*     "Offices of the City of Nexus" - closed
+*
+D 0 83356 2 1 100 0 0 0
+*     south exit from "Mayoral Offices of the City of Nexus" to
+*     "Offices of the City of Nexus" - closed
+*
+D 0 83357 0 1 100 0 0 0
+*     north exit from "Offices of the City of Nexus" to
+*     "Mayoral Offices of the City of Nexus" - closed
+*
+D 0 83369 1 2 100 0 0 0
+*     east exit from "Jail" to
+*     "Jail" - closed/locked
+*
+D 0 83373 3 2 100 0 0 0
+*     west exit from "Jail" to
+*     "Jail" - closed/locked
+*
+D 0 83373 2 2 100 0 0 0
+*     south exit from "Jail" to
+*     "Jail" - closed/locked
+*
+D 0 83374 0 2 100 0 0 0
+*     north exit from "Jail" to
+*     "Jail" - closed/locked
+*
+D 0 83471 2 6 100 0 0 0
+*     south exit from "Bank Manager's Office" to
+*     "The Amalgamated Bank of Nexus" - closed/locked/secret
+*
+D 0 83473 0 2 100 0 0 0
+*     north exit from "The Amalgamated Bank of Nexus" to
+*     "Bank Manager's Office" - closed/locked
+*
+D 0 83472 2 1 100 0 0 0
+*     south exit from "The Teller's Cage" to
+*     "The Amalgamated Bank of Nexus" - closed
+*
+D 0 83474 0 1 100 0 0 0
+*     north exit from "The Amalgamated Bank of Nexus" to
+*     "The Teller's Cage" - closed
+*
+D 0 83498 3 1 100 0 0 0
+*     west exit from "A Cloak-room" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83513 1 1 100 0 0 0
+*     east exit from "A Brightly Lit Hallway" to
+*     "A Cloak-room" - closed
+*
+D 0 83503 3 1 100 0 0 0
+*     west exit from "A Darkened Meeting Chamber" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83508 1 1 100 0 0 0
+*     east exit from "A Brightly Lit Hallway" to
+*     "A Darkened Meeting Chamber" - closed
+*
+D 0 83504 3 1 100 0 0 0
+*     west exit from "A Small Water Closet" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83507 1 1 100 0 0 0
+*     east exit from "A Brightly Lit Hallway" to
+*     "A Small Water Closet" - closed
+*
+D 0 83505 3 1 100 0 0 0
+*     west exit from "The Stairway Goes Up..." to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83506 1 1 100 0 0 0
+*     east exit from "A Brightly Lit Hallway" to
+*     "The Stairway Goes Up..." - closed
+*
+D 0 83506 3 1 100 0 0 0
+*     west exit from "A Brightly Lit Hallway" to
+*     "The Stairway Down to the Library" - closed
+*
+D 0 83525 1 1 100 0 0 0
+*     east exit from "The Stairway Down to the Library" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83508 3 1 100 0 0 0
+*     west exit from "A Brightly Lit Hallway" to
+*     "One of the Waiting Rooms" - closed
+*
+D 0 83523 1 1 100 0 0 0
+*     east exit from "One of the Waiting Rooms" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83514 0 1 100 0 0 0
+*     north exit from "A Brightly Lit Hallway" to
+*     "A Cheerful Parlor" - closed
+*
+D 0 83515 2 1 100 0 0 0
+*     south exit from "A Cheerful Parlor" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83518 2 1 100 0 0 0
+*     south exit from "Hall to Another Meeting Chamber" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83519 0 1 100 0 0 0
+*     north exit from "A Brightly Lit Hallway" to
+*     "Hall to Another Meeting Chamber" - closed
+*
+D 0 83519 2 1 100 0 0 0
+*     south exit from "A Brightly Lit Hallway" to
+*     "A Gloomy Conference Room" - closed
+*
+D 0 83520 0 1 100 0 0 0
+*     north exit from "A Gloomy Conference Room" to
+*     "A Brightly Lit Hallway" - closed
+*
+D 0 83527 1 5 100 0 0 0
+*     east exit from "The Gallery of Kings" to
+*     "A Long and Quiet Hallway" - closed/secret
+*
+D 0 83528 3 5 100 0 0 0
+*     west exit from "A Long and Quiet Hallway" to
+*     "The Gallery of Kings" - closed/secret
+*
+D 0 83529 1 2 100 0 0 0
+*     east exit from "A Gallery of Kings" to
+*     "A Dark Storage Room" - closed/locked
+*
+D 0 83530 3 1 100 0 0 0
+*     west exit from "A Dark Storage Room" to
+*     "A Gallery of Kings" - closed
+*
+D 0 83542 2 6 100 0 0 0
+*     south exit from "A Gallery of Kings" to
+*     "A Secret Storage Area" - closed/locked/secret
+*
+D 0 83545 0 1 100 0 0 0
+*     north exit from "A Secret Storage Area" to
+*     "A Gallery of Kings" - closed
+*
+D 0 83544 2 1 100 0 0 0
+*     south exit from "A Gallery of Kings" to
+*     "The Library of Illuminated Knowledge" - closed
+*
+D 0 83547 0 1 100 0 0 0
+*     north exit from "The Library of Illuminated Knowledge" to
+*     "A Gallery of Kings" - closed
+*
+D 0 83550 2 1 100 0 0 0
+*     south exit from "The Library of Illuminated Knowledge" to
+*     "The Stairway Up to the Visitors' Rooms" - closed
+*
+D 0 83553 0 1 100 0 0 0
+*     north exit from "The Stairway Up to the Visitors' Rooms" to
+*     "The Library of Illuminated Knowledge" - closed
+*
+D 0 83553 1 1 100 0 0 0
+*     east exit from "The Stairway Up to the Visitors' Rooms" to
+*     "A Long and Quiet Hallway" - closed
+*
+D 0 83554 3 1 100 0 0 0
+*     west exit from "A Long and Quiet Hallway" to
+*     "The Stairway Up to the Visitors' Rooms" - closed
+*
+D 0 83557 1 0 100 0 0 0
+*     east exit from "An Ornate Throne Room" to
+*     "A Rather Small Waiting Room" - open
+*
+D 0 83558 3 0 100 0 0 0
+*     west exit from "A Rather Small Waiting Room" to
+*     "An Ornate Throne Room" - open
+*
+D 0 83562 1 1 100 0 0 0
+*     east exit from "Sanctuary" to
+*     "A Choice Between the Sinners and the Saints" - closed
+*
+D 0 83563 3 2 100 0 0 0
+*     west exit from "A Choice Between the Sinners and the Saints" to
+*     "Sanctuary" - closed/locked
+*
+D 0 83565 1 5 100 0 0 0
+*     east exit from "A Room Shimmering With Light" to
+*     "A Peaceful Hallway" - closed/secret
+*
+D 0 83566 3 5 100 0 0 0
+*     west exit from "A Peaceful Hallway" to
+*     "A Room Shimmering With Light" - closed/secret
+*
+D 0 83566 1 1 100 0 0 0
+*     east exit from "A Peaceful Hallway" to
+*     "A Dressing Room" - closed
+*
+D 0 83567 3 1 100 0 0 0
+*     west exit from "A Dressing Room" to
+*     "A Peaceful Hallway" - closed
+*
+D 0 83571 1 1 100 0 0 0
+*     east exit from "A Guest Bedroom" to
+*     "A Peaceful Hallway" - closed
+*
+D 0 83572 3 1 100 0 0 0
+*     west exit from "A Peaceful Hallway" to
+*     "A Guest Bedroom" - closed
+*
+D 0 83572 1 1 100 0 0 0
+*     east exit from "A Peaceful Hallway" to
+*     "A Guest Bedroom" - closed
+*
+D 0 83573 3 1 100 0 0 0
+*     west exit from "A Guest Bedroom" to
+*     "A Peaceful Hallway" - closed
+*
+D 0 83578 1 1 100 0 0 0
+*     east exit from "A Peaceful Hallway" to
+*     "A Guest Bedroom" - closed
+*
+D 0 83579 3 1 100 0 0 0
+*     west exit from "A Guest Bedroom" to
+*     "A Peaceful Hallway" - closed
+*
+D 0 83584 1 1 100 0 0 0
+*     east exit from "End of A Peaceful Hallway" to
+*     "The Stairway Goes Down..." - closed
+*
+D 0 83585 3 1 100 0 0 0
+*     west exit from "The Stairway Goes Down..." to
+*     "End of A Peaceful Hallway" - closed
+*
+D 0 83586 1 1 100 0 0 0
+*     east exit from "A Long Downward-spiralling Staircase" to
+*     "A Dark Meeting Room" - closed
+*
+D 0 83587 3 1 100 0 0 0
+*     west exit from "A Dark Meeting Room" to
+*     "A Long Downward-spiralling Staircase" - closed
+*
+D 0 83586 2 1 100 0 0 0
+*     south exit from "A Long Downward-spiralling Staircase" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83589 0 1 100 0 0 0
+*     north exit from "A Tapestry-covered Hallway" to
+*     "A Long Downward-spiralling Staircase" - closed
+*
+D 0 83591 2 1 100 0 0 0
+*     south exit from "A Dark Meeting Room" to
+*     "One of the Waiting Rooms" - closed
+*
+D 0 83594 0 1 100 0 0 0
+*     north exit from "One of the Waiting Rooms" to
+*     "A Dark Meeting Room" - closed
+*
+D 0 83595 2 1 100 0 0 0
+*     south exit from "A Tapestry-covered Hallway" to
+*     "A Junction in a Tapestry-covered Hallway" - closed
+*
+D 0 83598 0 1 100 0 0 0
+*     north exit from "A Junction in a Tapestry-covered Hallway" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83596 2 1 100 0 0 0
+*     south exit from "One of the Waiting Rooms" to
+*     "Entry Hall to the Embassy" - closed
+*
+D 0 83599 0 1 100 0 0 0
+*     north exit from "Entry Hall to the Embassy" to
+*     "One of the Waiting Rooms" - closed
+*
+D 0 83598 1 1 100 0 0 0
+*     east exit from "A Junction in a Tapestry-covered Hallway" to
+*     "Entry Hall to the Embassy" - closed
+*
+D 0 83599 3 1 100 0 0 0
+*     west exit from "Entry Hall to the Embassy" to
+*     "A Junction in a Tapestry-covered Hallway" - closed
+*
+D 0 83598 2 1 100 0 0 0
+*     south exit from "A Junction in a Tapestry-covered Hallway" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83601 0 1 100 0 0 0
+*     north exit from "A Tapestry-covered Hallway" to
+*     "A Junction in a Tapestry-covered Hallway" - closed
+*
+D 0 83599 2 1 100 0 0 0
+*     south exit from "Entry Hall to the Embassy" to
+*     "Well-lit Meeting Rooms" - closed
+*
+D 0 83602 0 1 100 0 0 0
+*     north exit from "Well-lit Meeting Rooms" to
+*     "Entry Hall to the Embassy" - closed
+*
+D 0 83606 2 1 100 0 0 0
+*     south exit from "Well-Lit Meeting Rooms" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83609 0 1 100 0 0 0
+*     north exit from "A Tapestry-covered Hallway" to
+*     "Well-Lit Meeting Rooms" - closed
+*
+D 0 83608 2 1 100 0 0 0
+*     south exit from "A Tapestry-covered Hallway" to
+*     "A Twisting Hallway" - closed
+*
+D 0 83611 0 1 100 0 0 0
+*     north exit from "A Twisting Hallway" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83610 1 1 100 0 0 0
+*     east exit from "A Twisting Hallway" to
+*     "A Twisting Hallway" - closed
+*
+D 0 83611 3 1 100 0 0 0
+*     west exit from "A Twisting Hallway" to
+*     "A Twisting Hallway" - closed
+*
+D 0 83610 2 1 100 0 0 0
+*     south exit from "A Twisting Hallway" to
+*     "A Winding Hallway" - closed
+*
+D 0 83613 0 1 100 0 0 0
+*     north exit from "A Winding Hallway" to
+*     "A Twisting Hallway" - closed
+*
+D 0 83612 2 1 100 0 0 0
+*     south exit from "A Tapestry-covered Hallway" to
+*     "a long spiralling staircase" - closed
+*
+D 0 83615 0 1 100 0 0 0
+*     north exit from "a long spiralling staircase" to
+*     "A Tapestry-covered Hallway" - closed
+*
+D 0 83613 1 1 100 0 0 0
+*     east exit from "A Winding Hallway" to
+*     "The First Floor Privy" - closed
+*
+D 0 83614 3 1 100 0 0 0
+*     west exit from "The First Floor Privy" to
+*     "A Winding Hallway" - closed
+*
+D 0 83616 1 1 100 0 0 0
+*     east exit from "A Long Upward-spiralling Staircase" to
+*     "A Small Water Closet" - closed
+*
+D 0 83617 3 1 100 0 0 0
+*     west exit from "A Small Water Closet" to
+*     "A Long Upward-spiralling Staircase" - closed
+*
+D 0 83616 2 1 100 0 0 0
+*     south exit from "A Long Upward-spiralling Staircase" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83619 0 1 100 0 0 0
+*     north exit from "A Meandering Hallway" to
+*     "A Long Upward-spiralling Staircase" - closed
+*
+D 0 83617 2 1 100 0 0 0
+*     south exit from "A Small Water Closet" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83620 0 1 100 0 0 0
+*     north exit from "A Meandering Hallway" to
+*     "A Small Water Closet" - closed
+*
+D 0 83620 1 1 100 0 0 0
+*     east exit from "A Meandering Hallway" to
+*     "A Large Dressing Room" - closed
+*
+D 0 83621 3 1 100 0 0 0
+*     west exit from "A Large Dressing Room" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83622 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83623 3 1 100 0 0 0
+*     west exit from "A Meandering Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 83623 1 1 100 0 0 0
+*     east exit from "A Meandering Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 83624 3 1 100 0 0 0
+*     west exit from "A Small Bedroom" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83625 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83626 3 1 100 0 0 0
+*     west exit from "A Meandering Hallway" to
+*     "A Small Bedroom" - closed
+*
+D 0 83626 1 1 100 0 0 0
+*     east exit from "A Meandering Hallway" to
+*     "A Guest Bedroom" - closed
+*
+D 0 83627 3 1 100 0 0 0
+*     west exit from "A Guest Bedroom" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83629 1 1 100 0 0 0
+*     east exit from "A Meandering Hallway" to
+*     "A Guest Bedroom" - closed
+*
+D 0 83630 3 1 100 0 0 0
+*     west exit from "A Guest Bedroom" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83629 2 1 100 0 0 0
+*     south exit from "A Meandering Hallway" to
+*     "The Ambassador's Reception Chambers" - closed
+*
+D 0 83632 0 1 100 0 0 0
+*     north exit from "The Ambassador's Reception Chambers" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83638 1 9 100 0 0 0
+*     east exit from "The Central Audience Chamber" to
+*     "A Dank Holding Pen" - closed/blocked
+*
+D 0 83639 3 1 100 0 0 0
+*     west exit from "A Dank Holding Pen" to
+*     "The Central Audience Chamber" - closed
+*
+D 0 83640 1 1 100 0 0 0
+*     east exit from "A Meandering Hallway" to
+*     "The Formal Dining Rooms" - closed
+*
+D 0 83641 3 1 100 0 0 0
+*     west exit from "The Formal Dining Rooms" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83640 2 1 100 0 0 0
+*     south exit from "A Meandering Hallway" to
+*     "The Kitchens" - closed
+*
+D 0 83643 0 1 100 0 0 0
+*     north exit from "The Kitchens" to
+*     "A Meandering Hallway" - closed
+*
+D 0 83646 1 1 100 0 0 0
+*     east exit from "An Antechamber" to
+*     "A Temple Dedicated to Lolth" - closed
+*
+D 0 83647 3 1 100 0 0 0
+*     west exit from "A Temple Dedicated to Lolth" to
+*     "An Antechamber" - closed
+*
+D 0 83646 2 1 100 0 0 0
+*     south exit from "An Antechamber" to
+*     "A Dark Hallway" - closed
+*
+D 0 83649 0 1 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "An Antechamber" - closed
+*
+D 0 83650 2 1 100 0 0 0
+*     south exit from "Altar Dedicated to Merkal, God of Death" to
+*     "A Dark Hallway" - closed
+*
+D 0 83653 0 1 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "Altar Dedicated to Merkal, God of Death" - closed
+*
+D 0 83657 2 1 100 0 0 0
+*     south exit from "A Room of Questions" to
+*     "A Dark Hallway" - closed
+*
+D 0 83660 0 1 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "A Room of Questions" - closed
+*
+D 0 83659 2 1 100 0 0 0
+*     south exit from "A Room of Questions" to
+*     "A Dark Hallway" - closed
+*
+D 0 83662 0 1 100 0 0 0
+*     north exit from "A Dark Hallway" to
+*     "A Room of Questions" - closed
+*
+D 0 83663 1 1 100 0 0 0
+*     east exit from "A Dark Hallway" to
+*     "Quarters for the Priests" - closed
+*
+D 0 83664 3 1 100 0 0 0
+*     west exit from "Quarters for the Priests" to
+*     "A Dark Hallway" - closed
+*
+D 0 83670 2 1 100 0 0 0
+*     south exit from "A Break Room for the Guards" to
+*     "A Long Downward-spiralling Staircase" - closed
+*
+D 0 83673 0 1 100 0 0 0
+*     north exit from "A Long Downward-spiralling Staircase" to
+*     "A Break Room for the Guards" - closed
+*
+D 0 83671 1 1 100 0 0 0
+*     east exit from "A Dark Hallway" to
+*     "A Dark Hallway" - closed
+*
+D 0 83672 3 1 100 0 0 0
+*     west exit from "A Dark Hallway" to
+*     "A Dark Hallway" - closed
+*
+D 0 83672 1 1 100 0 0 0
+*     east exit from "A Dark Hallway" to
+*     "A Long Downward-spiralling Staircase" - closed
+*
+D 0 83673 3 1 100 0 0 0
+*     west exit from "A Long Downward-spiralling Staircase" to
+*     "A Dark Hallway" - closed
+*
+D 0 83674 1 1 100 0 0 0
+*     east exit from "A Bend in the Long Straight Hallway" to
+*     "An Opulent Greeting Room" - closed
+*
+D 0 83675 3 1 100 0 0 0
+*     west exit from "An Opulent Greeting Room" to
+*     "A Bend in the Long Straight Hallway" - closed
+*
+D 0 83680 1 1 100 0 0 0
+*     east exit from "A Long Straight Hallway" to
+*     "An Appointment Room" - closed
+*
+D 0 83681 3 1 100 0 0 0
+*     west exit from "An Appointment Room" to
+*     "A Long Straight Hallway" - closed
+*
+D 0 83692 1 1 100 0 0 0
+*     east exit from "A Long Straight Hallway" to
+*     "A Luxurious Sitting Room" - closed
+*
+D 0 83693 3 1 100 0 0 0
+*     west exit from "A Luxurious Sitting Room" to
+*     "A Long Straight Hallway" - closed
+*
+D 0 83698 1 1 100 0 0 0
+*     east exit from "A Long Straight Hallway" to
+*     "A Greeting Room" - closed
+*
+D 0 83699 3 1 100 0 0 0
+*     west exit from "A Greeting Room" to
+*     "A Long Straight Hallway" - closed
+*
+D 0 83702 1 1 100 0 0 0
+*     east exit from "A Short Bend in the Hallway" to
+*     "A Spiralling Staircase" - closed
+*
+D 0 83703 3 1 100 0 0 0
+*     west exit from "A Spiralling Staircase" to
+*     "A Short Bend in the Hallway" - closed
+*
+D 0 83705 2 1 100 0 0 0
+*     south exit from "Room of Dismemberment" to
+*     "The End of a Long Dismal Corridor" - closed
+*
+D 0 83708 0 1 100 0 0 0
+*     north exit from "The End of a Long Dismal Corridor" to
+*     "Room of Dismemberment" - closed
+*
+D 0 83707 1 1 100 0 0 0
+*     east exit from "Cell #17" to
+*     "The End of a Long Dismal Corridor" - closed
+*
+D 0 83708 3 1 100 0 0 0
+*     west exit from "The End of a Long Dismal Corridor" to
+*     "Cell #17" - closed
+*
+D 0 83708 1 1 100 0 0 0
+*     east exit from "The End of a Long Dismal Corridor" to
+*     "Cell #16" - closed
+*
+D 0 83709 3 1 100 0 0 0
+*     west exit from "Cell #16" to
+*     "The End of a Long Dismal Corridor" - closed
+*
+D 0 83710 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #14" - closed
+*
+D 0 83712 3 1 100 0 0 0
+*     west exit from "Cell #14" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83710 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #15" - closed
+*
+D 0 83711 1 1 100 0 0 0
+*     east exit from "Cell #15" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83713 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #12" - closed
+*
+D 0 83715 3 1 100 0 0 0
+*     west exit from "Cell #12" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83713 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #13" - closed
+*
+D 0 83714 1 1 100 0 0 0
+*     east exit from "Cell #13" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83716 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #10" - closed
+*
+D 0 83718 3 1 100 0 0 0
+*     west exit from "Cell #10" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83716 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #11" - closed
+*
+D 0 83717 1 1 100 0 0 0
+*     east exit from "Cell #11" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83719 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #8" - closed
+*
+D 0 83721 3 1 100 0 0 0
+*     west exit from "Cell #8" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83719 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #9" - closed
+*
+D 0 83720 1 1 100 0 0 0
+*     east exit from "Cell #9" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83722 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #6" - closed
+*
+D 0 83724 3 1 100 0 0 0
+*     west exit from "Cell #6" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83722 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #7" - closed
+*
+D 0 83723 1 1 100 0 0 0
+*     east exit from "Cell #7" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83725 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #4" - closed
+*
+D 0 83727 3 1 100 0 0 0
+*     west exit from "Cell #4" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83725 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #5" - closed
+*
+D 0 83726 1 1 100 0 0 0
+*     east exit from "Cell #5" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83728 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #2" - closed
+*
+D 0 83730 3 1 100 0 0 0
+*     west exit from "Cell #2" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83728 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #3" - closed
+*
+D 0 83729 1 1 100 0 0 0
+*     east exit from "Cell #3" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83731 1 1 100 0 0 0
+*     east exit from "A Long Dismal Corridor Lined With Doors" to
+*     "The Stairs Going Up...." - closed
+*
+D 0 83733 3 1 100 0 0 0
+*     west exit from "The Stairs Going Up...." to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83731 3 1 100 0 0 0
+*     west exit from "A Long Dismal Corridor Lined With Doors" to
+*     "Cell #1" - closed
+*
+D 0 83732 1 1 100 0 0 0
+*     east exit from "Cell #1" to
+*     "A Long Dismal Corridor Lined With Doors" - closed
+*
+D 0 83741 2 1 100 0 0 0
+*     south exit from "The Elder Brain's Audience Chambers" to
+*     "A Private Room in the Elder Brain's Audience Chambers" - closed
+*
+D 0 83743 0 1 100 0 0 0
+*     north exit from "A Private Room in the Elder Brain's Audience Chambers" to
+*     "The Elder Brain's Audience Chambers" - closed
+*
+D 0 83742 1 1 100 0 0 0
+*     east exit from "The Elder Brain's Audience Chambers" to
+*     "A Private Room in the Elder Brain's Audience Chambers" - closed
+*
+D 0 83743 3 1 100 0 0 0
+*     west exit from "A Private Room in the Elder Brain's Audience Chambers" to
+*     "The Elder Brain's Audience Chambers" - closed
+*
+D 0 83744 1 2 100 0 0 0
+*     east exit from "A Small Side-Chamber" to
+*     "The Golem Creation Room" - closed/locked
+*
+D 0 83745 3 2 100 0 0 0
+*     west exit from "The Golem Creation Room" to
+*     "A Small Side-Chamber" - closed/locked
+*
+D 0 83746 1 1 100 0 0 0
+*     east exit from "A Small Chamber" to
+*     "The Stairs Going Down...." - closed
+*
+D 0 83747 3 1 100 0 0 0
+*     west exit from "The Stairs Going Down...." to
+*     "A Small Chamber" - closed
+*
+D 0 83803 1 5 100 0 0 0
+*     east exit from "An Odd Room" to
+*     "A Secret Passageway" - closed/secret
+*
+D 0 83804 3 5 100 0 0 0
+*     west exit from "A Secret Passageway" to
+*     "An Odd Room" - closed/secret
+*
+*
+O 0 83019 1 83072 100 0 0 0        * a giant spider's web
+O 0 83020 1 83073 100 0 0 0        * a pile of dusty rags
+O 0 83005 1 83074 100 0 0 0        * a rotten crate
+O 0 83018 1 83074 100 0 0 0        * a lead pipe
+O 0 83015 10 83179 100 0 0 0       * stacked bunk beds
+O 0 83025 1 83184 100 0 0 0        * an exquisitely made bed
+O 0 83024 2 83186 100 0 0 0        * a roseate quartz privy
+P 1 83023 1 83024 100 0 0 0        *   a pile of crap
+O 0 83012 2 83190 100 0 0 0        * a creaky wooden chair
+O 0 83012 2 83190 100 0 0 0        * a creaky wooden chair
+O 0 83013 1 83190 100 0 0 0        * a wooden table
+O 0 83014 1 83191 100 0 0 0        * an extremely large bed
+O 0 83015 10 83192 100 0 0 0       * stacked bunk beds
+O 0 83015 10 83193 100 0 0 0       * stacked bunk beds
+O 0 83015 10 83194 100 0 0 0       * stacked bunk beds
+O 0 83016 1 83195 100 0 0 0        * an old bucket
+O 0 83017 1 83195 100 0 0 0        * a wood-handled mop
+O 0 83004 1 83197 100 0 0 0        * a long wooden counter
+P 1 83007 1 83004 100 0 0 0        *   a small heap of coins
+O 0 83009 1 83198 100 0 0 0        * a large feed-bin
+O 0 83021 1 83203 100 0 0 0        * an altar of the purest white marble
+P 1 83022 1 83021 100 0 0 0        *   a white marble harp
+O 0 83028 2 83224 100 0 0 0        * a magnificent jodani-wood reception desk
+P 1 83034 1 83028 100 0 0 0        *   the key for Room Six
+P 1 83033 1 83028 100 0 0 0        *   the key for Room Five
+P 1 83032 1 83028 100 0 0 0        *   the key for Room Four
+P 1 83031 1 83028 100 0 0 0        *   the key for Room Three
+P 1 83030 1 83028 100 0 0 0        *   key for Room Two
+P 1 83029 1 83028 100 0 0 0        *   key for Room One
+O 0 83097 1 83247 100 0 0 0        * a comfortable lounging chair
+O 0 83028 2 83343 100 0 0 0        * a magnificent jodani-wood reception desk
+O 0 83107 1 83354 100 0 0 0        * a worn clerk's desk
+O 0 83102 1 83356 100 0 0 0        * a luxurious mahogany desk
+P 1 83104 1 83102 100 0 0 0        *   the Mayor's purloined misused funds
+O 0 3097 999 83472 100 0 0 0       * (object not in this .OBJ file)
+O 0 83110 1 83476 100 0 0 0        * a huge pile of gold, silver, and platinum coins
+O 0 83111 2 83483 100 0 0 0        * a well-used store counter
+O 0 83111 2 83485 100 0 0 0        * a well-used store counter
+O 0 83199 1 83497 100 0 0 0        * a coat-rack
+P 1 83200 1 83199 100 0 0 0        *   a blue satin cloak
+P 1 83214 1 83199 100 0 0 0        *   a luxurious fur cloak
+O 0 83120 12 83499 100 0 0 0       * a plush conference chair
+O 0 83120 12 83499 100 0 0 0       * a plush conference chair
+O 0 83121 16 83499 100 0 0 0       * a small end-table
+O 0 83120 12 83501 100 0 0 0       * a plush conference chair
+O 0 83120 12 83501 100 0 0 0       * a plush conference chair
+O 0 83121 16 83501 100 0 0 0       * a small end-table
+O 0 83024 2 83504 100 0 0 0        * a roseate quartz privy
+O 0 83255 1 83526 100 0 0 0        * Geez ANOTHER Picture
+O 0 83229 1 83527 100 0 0 0        * a small lithograph titled 'Forgers'
+O 0 83253 1 83529 100 0 0 0        * Still Another Picture
+O 0 83228 1 83530 100 0 0 0        * a magnificent portrait of Solirum, King of the Elves
+O 0 83252 1 83532 100 0 0 0        * Wow Another Picture
+O 0 83121 16 83533 100 0 0 0       * a small end-table
+O 0 83256 3 83533 100 0 0 0        * a softly padded reading chair
+O 0 83251 1 83535 100 0 0 0        * Another Big Picture
+O 0 83256 3 83536 100 0 0 0        * a softly padded reading chair
+O 0 83121 16 83536 100 0 0 0       * a small end-table
+O 0 83256 3 83536 100 0 0 0        * a softly padded reading chair
+O 0 83121 16 83537 100 0 0 0       * a small end-table
+O 0 83246 1 83538 100 0 0 0        * A Statuary
+O 0 83245 1 83539 100 0 0 0        * A Statue Object
+O 0 83247 1 83541 100 0 0 0        * A Big Statue Thing
+O 0 83244 1 83542 100 0 0 0        * A Statue Thing
+O 0 83250 1 83544 100 0 0 0        * A Big Picture of Something
+O 0 83248 1 83545 100 0 0 0        * The Big Rentable Statue
+O 0 83227 4 83547 100 0 0 0        * a massive set of bookshelves
+P 1 83232 1 83227 100 0 0 0        *   a blood-spattered book
+P 1 83233 1 83227 100 0 0 0        *   a large book crawling with bugs
+P 1 83240 1 83227 100 0 0 0        *   a small book reeking of Death
+O 0 83227 4 83548 100 0 0 0        * a massive set of bookshelves
+P 1 83230 1 83227 100 0 0 0        *   a dusty book
+P 1 83231 1 83227 100 0 0 0        *   a rather damp book
+P 1 83241 1 83227 100 0 0 0        *   a small book which rattles menacingly
+O 0 83227 4 83550 100 0 0 0        * a massive set of bookshelves
+P 1 83234 1 83227 100 0 0 0        *   a slimy book
+P 1 83235 1 83227 100 0 0 0        *   a sticky book
+P 1 83239 1 83227 100 0 0 0        *   a book smelling of the sea
+O 0 83227 4 83551 100 0 0 0        * a massive set of bookshelves
+P 1 83236 1 83227 100 0 0 0        *   a large book with its pages stuck together
+P 1 83237 1 83227 100 0 0 0        *   a reeking book
+P 1 83238 1 83227 100 0 0 0        *   a book coated with ice
+P 1 83242 1 83227 100 0 0 0        *   a little book reeking of herbs
+O 0 83258 1 83567 100 0 0 0        * a massive wardrobe
+O 0 83219 1 83568 100 0 0 0        * a Portal of Shimmering Light
+O 0 83220 1 83568 100 0 0 0        * A Portal of Shimmering Light
+O 0 83259 3 83570 100 0 0 0        * an overstuffed bed
+O 0 83261 1 83570 100 0 0 0        * a small writing desk
+O 0 83259 3 83574 100 0 0 0        * an overstuffed bed
+O 0 83259 3 83576 100 0 0 0        * an overstuffed bed
+O 0 83264 1 83576 100 0 0 0        * A Big Picture Waiting to be Named
+O 0 83265 1 83579 100 0 0 0        * a gleaming mirror
+O 0 83266 1 83583 100 0 0 0        * a massive hearth
+P 1 83267 1 83266 100 0 0 0        *   a fiery brand
+O 0 83119 4 83587 100 0 0 0        * a massive oak conference table
+O 0 83120 12 83587 100 0 0 0       * a plush conference chair
+O 0 83120 12 83587 100 0 0 0       * a plush conference chair
+O 0 83119 4 83588 100 0 0 0        * a massive oak conference table
+O 0 83120 12 83588 100 0 0 0       * a plush conference chair
+O 0 83120 12 83588 100 0 0 0       * a plush conference chair
+O 0 83119 4 83590 100 0 0 0        * a massive oak conference table
+O 0 83120 12 83590 100 0 0 0       * a plush conference chair
+O 0 83120 12 83590 100 0 0 0       * a plush conference chair
+O 0 83119 4 83591 100 0 0 0        * a massive oak conference table
+O 0 83120 12 83591 100 0 0 0       * a plush conference chair
+O 0 83120 12 83591 100 0 0 0       * a plush conference chair
+O 0 83121 16 83593 100 0 0 0       * a small end-table
+O 0 83122 12 83593 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83594 100 0 0 0       * a small end-table
+O 0 83122 12 83594 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83596 100 0 0 0       * a small end-table
+O 0 83122 12 83596 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83597 100 0 0 0       * a small end-table
+O 0 83122 12 83597 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83602 100 0 0 0       * a small end-table
+O 0 83122 12 83602 100 0 0 0       * a very comfortable lounging chair
+O 0 83122 12 83603 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83603 100 0 0 0       * a small end-table
+O 0 83122 12 83605 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83605 100 0 0 0       * a small end-table
+O 0 83121 16 83606 100 0 0 0       * a small end-table
+O 0 83122 12 83606 100 0 0 0       * a very comfortable lounging chair
+O 0 83159 1 83621 100 0 0 0        * a small writing desk
+O 0 83015 10 83622 100 0 0 0       * stacked bunk beds
+O 0 83015 10 83625 100 0 0 0       * stacked bunk beds
+O 0 83122 12 83632 100 0 0 0       * a very comfortable lounging chair
+O 0 83122 12 83632 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83632 100 0 0 0       * a small end-table
+O 0 83148 1 83638 100 0 0 0        * a luxurious throne-like chair
+O 0 83156 4 83641 100 0 0 0        * a jodani-wood dining table
+O 0 83156 4 83642 100 0 0 0        * a jodani-wood dining table
+O 0 83156 4 83644 100 0 0 0        * a jodani-wood dining table
+O 0 83156 4 83645 100 0 0 0        * a jodani-wood dining table
+O 0 83161 2 83646 100 0 0 0        * a shimmering portal
+O 0 83161 2 83646 100 0 0 0        * a shimmering portal
+O 0 83163 1 83647 100 0 0 0        * an altar dedicated to Lolth
+P 1 83164 1 83163 100 0 0 0        *   a sac of spider's venom
+O 0 83162 4 83654 100 0 0 0        * a blood-speckled torturer's rack
+O 0 83162 4 83656 100 0 0 0        * a blood-speckled torturer's rack
+O 0 83015 10 83664 100 0 0 0       * stacked bunk beds
+O 0 83015 10 83665 100 0 0 0       * stacked bunk beds
+P 1 83165 1 83015 100 0 0 0        *   a rumpled blanket
+O 0 83015 10 83667 100 0 0 0       * stacked bunk beds
+O 0 83015 10 83669 100 0 0 0       * stacked bunk beds
+O 0 83166 1 83669 100 0 0 0        * an overflowing chamberpot
+O 0 83121 16 83691 100 0 0 0       * a small end-table
+O 0 83122 12 83694 100 0 0 0       * a very comfortable lounging chair
+O 0 83122 12 83696 100 0 0 0       * a very comfortable lounging chair
+O 0 83121 16 83696 100 0 0 0       * a small end-table
+O 0 83162 4 83704 100 0 0 0        * a blood-speckled torturer's rack
+O 0 83162 4 83706 100 0 0 0        * a blood-speckled torturer's rack
+O 0 83171 1 83735 100 0 0 0        * a porcelain dish
+P 1 83172 1 83171 100 0 0 0        *   a still-throbbing Human brain
+O 0 83209 2 83739 100 0 0 0        * a brain storage bin
+P 1 83210 4 83209 100 0 0 0        *   a throbbing gnome brain
+P 1 83213 3 83209 100 0 0 0        *   a throbbing goblin brain
+P 1 83210 4 83209 100 0 0 0        *   a throbbing gnome brain
+O 0 83209 2 83739 100 0 0 0        * a brain storage bin
+P 1 83212 2 83209 100 0 0 0        *   a throbbing elf brain
+O 0 83262 1 83743 100 0 0 0        * a small writing desk
+*
+M 0 83000 1 83000 100 0 0 0        * an extremely old brass dragon
+G 1 83000 1 0 100 0 0 0            *    a delicately carved brass key
+M 0 83001 2 83001 100 0 0 0        * a sternly watching minotaur
+E 1 83115 2 16 100 0 0 0           *   a two-handed great-axe
+F 1 83001 2 83001 100 0 0 0        * a sternly watching minotaur (following)
+E 1 83115 2 16 100 0 0 0           *   a two-handed great-axe
+M 0 83164 5 83001 100 0 0 0        * a commoner child
+M 0 83165 6 83001 100 0 0 0        * a stray cur
+M 0 83003 1 83004 100 0 0 0        * a saurian ambassador
+E 1 83001 1 5 100 0 0 0            *   an elegant set of ambassadorial robes
+E 1 83002 1 16 100 0 0 0           *   a Saurian fanged dagger
+F 1 83004 2 83004 100 0 0 0        * a saurian bodyguard (following)
+E 1 83003 2 5 100 0 0 0            *   a set of Saurian armor
+F 1 83004 2 83004 100 0 0 0        * a saurian bodyguard (following)
+E 1 83003 2 5 100 0 0 0            *   a set of Saurian armor
+M 0 83002 1 83005 100 0 0 0        * a wide-eyed halfling
+M 0 83045 7 83006 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+R 1 83181 6 83006 100 0 0 0        * a glossy-black stallion (being ridden)
+F 1 83046 27 83006 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83006 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83006 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83006 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83165 6 83015 100 0 0 0        * a stray cur
+M 0 83162 6 83016 100 0 0 0        * a wandering commoner
+M 0 83045 7 83023 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+R 1 83181 6 83023 100 0 0 0        * a glossy-black stallion (being ridden)
+F 1 83046 27 83023 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83023 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83023 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83023 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83181 6 83023 100 0 0 0        * a glossy-black stallion (following)
+M 0 83165 6 83025 100 0 0 0        * a stray cur
+M 0 83044 33 83027 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83027 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83028 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83028 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83029 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83029 100 0 0 0       * a guard of the city towers
+M 0 83162 6 83031 100 0 0 0        * a wandering commoner
+M 0 83080 1 83033 100 0 0 0        * a wandering illithid
+M 0 83045 7 83061 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+R 1 83181 6 83061 100 0 0 0        * a glossy-black stallion (being ridden)
+F 1 83046 27 83061 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83061 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83061 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83061 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83181 6 83061 100 0 0 0        * a glossy-black stallion (following)
+M 0 83044 33 83064 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83064 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83064 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83065 100 0 0 0       * a guard of the city towers
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+M 0 83044 33 83065 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83066 100 0 0 0       * a guard of the city towers
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83092 3 16 100 0 0 0           *   a shining broadsword
+G 1 83091 12 0 100 0 0 0           *    a suit of highly polished steel
+M 0 83044 33 83066 100 0 0 0       * a guard of the city towers
+E 1 83092 3 16 100 0 0 0           *   a shining broadsword
+M 0 83044 33 83067 100 0 0 0       * a guard of the city towers
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+M 0 83044 33 83067 100 0 0 0       * a guard of the city towers
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83092 3 16 100 0 0 0           *   a shining broadsword
+M 0 83013 1 83071 100 0 0 0        * a slavering filthy beast
+M 0 83014 1 83072 100 0 0 0        * a giant arachnid
+M 0 83015 1 83073 100 0 0 0        * a homeless urchin
+M 0 83165 6 83075 100 0 0 0        * a stray cur
+M 0 83184 1 83076 100 0 0 0        * Ctanmir
+M 0 83103 1 83084 100 0 0 0        * a curious centaur
+E 1 83141 1 16 100 0 0 0           *   scimitar of the woods
+E 1 83129 17 17 100 0 0 0          *   a long curving scimitar
+E 1 83140 1 21 100 0 0 0           *   an enamelled tail-ring
+F 1 83104 1 83084 100 0 0 0        * a grey elf just in from the woods (following)
+E 1 83139 1 7 100 0 0 0            *   leggings of the forest shadows
+M 0 83162 6 83094 100 0 0 0        * a wandering commoner
+M 0 83164 5 83100 100 0 0 0        * a commoner child
+M 0 83045 7 83102 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+R 1 83181 6 83102 100 0 0 0        * a glossy-black stallion (being ridden)
+F 1 83046 27 83102 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83102 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83102 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83102 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83044 33 83106 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83106 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83107 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83107 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83108 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83108 100 0 0 0       * a guard of the city towers
+M 0 83162 6 83132 100 0 0 0        * a wandering commoner
+M 0 83161 1 83135 100 0 0 0        * a disgruntled aboleth
+M 0 83045 7 83147 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83147 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83147 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83147 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83147 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83045 7 83171 100 0 0 0        * the leader of the city patrol
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83171 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83171 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83171 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+F 1 83046 27 83171 100 0 0 0       * a patrol guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83044 33 83174 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83174 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83175 100 0 0 0       * a guard of the city towers
+E 1 83091 12 5 100 0 0 0           *   a suit of highly polished steel
+M 0 83044 33 83175 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83176 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83176 100 0 0 0       * a guard of the city towers
+M 0 83019 1 83179 100 0 0 0        * a slightly built human
+M 0 83018 1 83180 100 0 0 0        * the housekeeper for the Undead Lords
+E 1 83027 1 5 100 0 0 0            *   a dark dress covered with embroidery
+M 0 83017 1 83184 100 0 0 0        * a manservant of the nobles
+E 1 83026 1 5 100 0 0 0            *   a tunic bearing the crest of the Dragon Lords
+M 0 83009 1 83191 100 0 0 0        * a sleepy ogre
+M 0 83012 1 83192 100 0 0 0        * a sleeping drow female
+M 0 83010 2 83194 100 0 0 0        * a sleeping orc
+M 0 83010 2 83194 100 0 0 0        * a sleeping orc
+M 0 83011 1 83194 100 0 0 0        * a half-asleep goblin
+M 0 83008 1 83197 100 0 0 0        * a dishevelled stable-keeper
+E 1 83010 6 16 100 0 0 0           *   a well-worn sword
+E 1 83010 6 17 100 0 0 0           *   a well-worn sword
+E 1 83011 1 23 100 0 0 0           *   a quiver
+G 1 83008 1 0 100 0 0 0            *    a key made of heavy brass
+M 0 83006 2 83199 100 0 0 0        * a fine white stallion
+M 0 83007 2 83199 100 0 0 0        * a docile mare
+M 0 83006 2 83199 100 0 0 0        * a fine white stallion
+M 0 83007 2 83199 100 0 0 0        * a docile mare
+M 0 83005 4 83200 100 0 0 0        * a thickly muscled ox
+E 1 83006 4 37 100 0 0 0           *   a golden tail-ring
+M 0 83005 4 83200 100 0 0 0        * a thickly muscled ox
+E 1 83006 4 37 100 0 0 0           *   a golden tail-ring
+M 0 83005 4 83200 100 0 0 0        * a thickly muscled ox
+E 1 83006 4 37 100 0 0 0           *   a golden tail-ring
+M 0 83005 4 83200 100 0 0 0        * a thickly muscled ox
+E 1 83006 4 37 100 0 0 0           *   a golden tail-ring
+M 0 83016 1 83203 100 0 0 0        * an old priest of Finder
+M 0 83165 6 83206 100 0 0 0        * a stray cur
+M 0 83081 1 83210 100 0 0 0        * a courier for the palace
+E 1 83117 1 13 100 0 0 0           *   a black leather belt
+E 1 83116 1 28 100 0 0 0           *   a courier pouch
+M 0 83164 5 83211 100 0 0 0        * a commoner child
+F 1 83163 2 83211 100 0 0 0        * a female commoner (following)
+F 1 83162 6 83211 100 0 0 0        * a wandering commoner (following)
+M 0 83165 6 83211 100 0 0 0        * a stray cur
+M 0 83020 1 83224 100 0 0 0        * a little gnome receptionist
+G 1 83035 1 0 100 0 0 0            *    a tiny golden key
+M 0 83021 1 83225 100 0 0 0        * Gurtoch, the ambassador for the dwarven people
+E 1 83036 1 5 100 0 0 0            *   a set of ambassadorial robes
+M 0 83024 1 83228 100 0 0 0        * a skulking vampire
+E 1 83039 1 8 100 0 0 0            *   boots of darkness
+M 0 83023 1 83229 100 0 0 0        * a paladin of helm
+E 1 83038 1 9 100 0 0 0            *   steel gauntlets of Helm's might
+M 0 83022 1 83230 100 0 0 0        * a quietly resting illithid
+E 1 83037 1 6 100 0 0 0            *   a soft headband
+M 0 83060 1 83247 100 0 0 0        * a retired merchant
+E 1 83096 1 5 100 0 0 0            *   a long silk lounging robe
+M 0 83061 1 83249 100 0 0 0        * the retired merchant's wife
+E 1 83098 1 16 100 0 0 0           *   a slender vine-covered staff
+M 0 83062 1 83250 100 0 0 0        * a skulking rogue
+E 1 83040 4 16 100 0 0 0           *   a spike-handled dagger
+E 1 83040 4 17 100 0 0 0           *   a spike-handled dagger
+M 0 83063 1 83260 100 0 0 0        * a loud-spoken merchant
+M 0 83064 1 83260 100 0 0 0        * an ogre friend of the merchant
+E 1 83099 1 18 100 0 0 0           *   totem of ogre-kind
+M 0 83065 1 83268 100 0 0 0        * a drow housekeeper
+M 0 83066 1 83270 100 0 0 0        * a dour doorman
+E 1 83100 1 16 100 0 0 0           *   an iron-spiked club
+M 0 83067 1 83271 100 0 0 0        * a wealthy man
+G 1 83101 1 0 100 0 0 0            *    Oodles of money
+M 0 83025 1 83282 100 0 0 0        * a deadly assassin
+E 1 83040 4 16 100 0 0 0           *   a spike-handled dagger
+E 1 83040 4 17 100 0 0 0           *   a spike-handled dagger
+M 0 83026 1 83285 100 0 0 0        * Fumah
+G 1 83041 1 0 100 0 0 0            *    a fine duelling blade
+G 1 83042 1 0 100 0 0 0            *    a well-scarred broadsword
+G 1 83043 4 0 100 0 0 0            *    an Elven-made longsword
+M 0 83027 1 83287 100 0 0 0        * Nesis
+G 1 83044 8 0 100 0 0 0            *    a tiny assassin's dagger
+G 1 83045 1 0 100 0 0 0            *    a long three-tined trident
+G 1 83046 3 0 100 0 0 0            *    a curved knife
+M 0 83028 1 83289 100 0 0 0        * Glyneeth
+G 1 83055 1 0 100 0 0 0            *    deep-blue velvet sleeves
+G 1 83048 1 0 100 0 0 0            *    a pair of bright blue pants
+G 1 83047 1 0 100 0 0 0            *    a bright-red shirt
+G 1 83051 1 0 100 0 0 0            *    a perky cap with a feather
+G 1 83053 1 0 100 0 0 0            *    a mask made of peacock feathers
+G 1 83050 2 0 100 0 0 0            *    a thin black belt
+G 1 83052 1 0 100 0 0 0            *    long opera-length gloves
+G 1 83054 1 0 100 0 0 0            *    a purple velvet cloak
+G 1 83049 1 0 100 0 0 0            *    a pair of new shoes
+M 0 83029 1 83291 100 0 0 0        * Askar
+G 1 83057 1 0 100 0 0 0            *    a finely made wallet
+G 1 83056 1 0 100 0 0 0            *    a dainty purse
+G 1 83058 1 0 100 0 0 0            *    a silken backpack
+G 1 83059 1 0 100 0 0 0            *    a sack of silken fibers
+M 0 83030 1 83293 100 0 0 0        * Asle
+G 1 83060 1 0 100 0 0 0            *    a sturdy wooden club
+G 1 83061 1 0 100 0 0 0            *    a wood-handled flail
+G 1 83062 1 0 100 0 0 0            *    a wooden fighting staff
+G 1 83063 1 0 100 0 0 0            *    a Duergar-made hammer
+G 1 83064 1 0 100 0 0 0            *    a spiked mace
+G 1 83065 1 0 100 0 0 0            *    a Drow-made whip of many blades
+M 0 83031 1 83295 100 0 0 0        * Dresa
+G 1 13562 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 7356 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 80074 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13554 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13560 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13564 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13556 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13566 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13558 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 7357 999 0 100 0 0 0           *    (object not in this .OBJ file)
+M 0 83032 1 83297 100 0 0 0        * Cartman
+G 1 97521 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 82011 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 95510 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 95508 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 14029 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 2569 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 11553 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 40208 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 2660 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 3057 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 66604 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 66602 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 2662 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 2663 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 2658 999 0 100 0 0 0           *    (object not in this .OBJ file)
+M 0 83033 1 83299 100 0 0 0        * Auralia
+G 1 83070 1 0 100 0 0 0            *    an eyepatch of acuity
+G 1 83069 1 0 100 0 0 0            *    a diamond stud
+G 1 83068 1 0 100 0 0 0            *    mithril bracers of might
+G 1 83067 1 0 100 0 0 0            *    a necklace of Power
+G 1 83066 1 0 100 0 0 0            *    a ring of soaring flight
+M 0 83162 6 83300 100 0 0 0        * a wandering commoner
+M 0 83034 1 83301 100 0 0 0        * Hanrek
+G 1 11589 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 19439 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 2667 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 26238 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17059 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17060 999 0 100 0 0 0          *    (object not in this .OBJ file)
+M 0 83163 2 83302 100 0 0 0        * a female commoner
+M 0 83035 1 83303 100 0 0 0        * Imax
+M 0 83036 1 83305 100 0 0 0        * Xizz
+G 1 36430 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 36429 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 36428 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 36427 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17234 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17241 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17243 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 17233 999 0 100 0 0 0          *    (object not in this .OBJ file)
+M 0 83037 1 83307 100 0 0 0        * Malrus
+G 1 74256 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 19434 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 45037 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 80002 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 5319 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 7627 999 0 100 0 0 0           *    (object not in this .OBJ file)
+M 0 83038 1 83309 100 0 0 0        * Melanim
+G 1 18016 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 19770 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 36822 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 38326 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 66211 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 90000 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 1335 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 7129 999 0 100 0 0 0           *    (object not in this .OBJ file)
+G 1 13038 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 13039 999 0 100 0 0 0          *    (object not in this .OBJ file)
+M 0 83039 1 83311 100 0 0 0        * Cisu
+G 1 384 999 0 100 0 0 0            *    (object not in this .OBJ file)
+G 1 11552 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 66025 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 92050 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 90016 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 19429 999 0 100 0 0 0          *    (object not in this .OBJ file)
+G 1 98618 999 0 100 0 0 0          *    (object not in this .OBJ file)
+M 0 83040 1 83313 100 0 0 0        * Hone
+M 0 83041 1 83315 100 0 0 0        * Viren
+G 1 83071 1 0 100 0 0 0            *    Elixir of Life
+G 1 83072 1 0 100 0 0 0            *    a potion of speed
+G 1 83073 1 0 100 0 0 0            *    a philtre of protection
+G 1 83074 1 0 100 0 0 0            *    a vial of Ecstasy
+G 1 83075 1 0 100 0 0 0            *    a tiny spherical vial
+G 1 83076 1 0 100 0 0 0            *    a potion of the mind
+G 1 83077 1 0 100 0 0 0            *    a brilliant green potion
+G 1 83078 1 0 100 0 0 0            *    a large vial of liquid
+M 0 83042 1 83317 100 0 0 0        * Jerrold
+G 1 83079 1 0 100 0 0 0            *    a scroll of identifaction
+G 1 83080 1 0 100 0 0 0            *    a fiery scroll
+G 1 83081 1 0 100 0 0 0            *    a scroll reeking of poison
+G 1 83082 1 0 100 0 0 0            *    a scroll of ice
+G 1 83083 1 0 100 0 0 0            *    a scroll of many colors
+G 1 83084 1 0 100 0 0 0            *    a scroll of sustaining
+M 0 83043 1 83319 100 0 0 0        * Sindre
+G 1 83086 1 0 100 0 0 0            *    a tranquil staff
+G 1 83087 1 0 100 0 0 0            *    a winged staff
+G 1 83088 1 0 100 0 0 0            *    a totem staff of the ancient tribes
+G 1 83085 1 0 100 0 0 0            *    a wand of miracles
+G 1 83089 1 0 100 0 0 0            *    the staff of apocalyptic events
+G 1 83090 1 0 100 0 0 0            *    a staff of conjuration
+M 0 83164 5 83320 100 0 0 0        * a commoner child
+M 0 83094 1 83328 100 0 0 0        * an conversing human
+E 1 83130 1 8 100 0 0 0            *   boots of Torm's Might
+F 1 83096 1 83328 100 0 0 0        * a sour-faced duergar (following)
+E 1 83131 1 16 100 0 0 0           *   a stiletto of piercing
+E 1 83044 8 17 100 0 0 0           *   a tiny assassin's dagger
+F 1 83097 1 83328 100 0 0 0        * an effreeti noble (following)
+E 1 83132 1 16 100 0 0 0           *   staff of the Effreeti Mages
+M 0 83045 7 83338 100 0 0 0        * the leader of the city patrol
+F 1 83046 27 83338 100 0 0 0       * a patrol guard (following)
+F 1 83046 27 83338 100 0 0 0       * a patrol guard (following)
+F 1 83046 27 83338 100 0 0 0       * a patrol guard (following)
+M 0 83068 1 83343 100 0 0 0        * a fussy stuck-up receptionist
+M 0 83072 1 83354 100 0 0 0        * a bored office worker
+M 0 83069 1 83356 100 0 0 0        * the Mayor of Nexus
+G 1 83103 1 0 100 0 0 0            *    a small mahogany key
+M 0 83070 1 83357 100 0 0 0        * a protective deputy mayor
+G 1 83105 1 0 100 0 0 0            *    a set of ebony lockpicks
+M 0 83071 1 83368 100 0 0 0        * an elderly janitor
+E 1 83106 1 18 100 0 0 0           *   an old pushbroom
+M 0 83054 1 83372 100 0 0 0        * An Illithid
+M 0 83048 1 83373 100 0 0 0        * a rather large jailor
+G 1 83094 1 0 100 0 0 0            *    a silvery cell key
+G 1 83095 1 0 100 0 0 0            *    a matte black cell key
+M 0 83049 1 83375 100 0 0 0        * An Orc
+F 1 83050 1 83375 100 0 0 0        * An Ogre (following)
+F 1 83051 1 83375 100 0 0 0        * A Githyanki (following)
+F 1 83052 1 83375 100 0 0 0        * A Drow Elf (following)
+F 1 83053 1 83375 100 0 0 0        * A Duergar (following)
+M 0 83047 2 83377 100 0 0 0        * a guard of the jail
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83047 2 83377 100 0 0 0        * a guard of the jail
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+M 0 83055 1 83380 100 0 0 0        * A Human
+F 1 83056 1 83380 100 0 0 0        * A Grey Elf (following)
+F 1 83057 1 83380 100 0 0 0        * A Mountain Dwarf (following)
+F 1 83058 1 83380 100 0 0 0        * A Minotaur (following)
+F 1 83059 1 83380 100 0 0 0        * A Barbarian (following)
+M 0 83164 5 83400 100 0 0 0        * a commoner child
+M 0 83079 1 83440 100 0 0 0        * a sleeping guest
+E 1 83114 1 8 100 0 0 0            *   boots of wanderlust
+M 0 83095 1 83441 100 0 0 0        * a stalking vampire
+E 1 83135 1 19 100 0 0 0           *   eyepatch of warding
+F 1 83098 1 83441 100 0 0 0        * a stout mountain dwarf (following)
+E 1 83134 1 16 100 0 0 0           *   an iron-shafted double-bitted axe
+F 1 83099 1 83441 100 0 0 0        * a sultry drow priestess (following)
+E 1 83133 1 3 100 0 0 0            *   the unHoly cross of the Drow Priestess
+M 0 83082 1 83443 100 0 0 0        * a human slave
+E 1 83118 3 3 100 0 0 0            *   heavy slave chains
+E 1 83118 3 14 100 0 0 0           *   heavy slave chains
+E 1 83118 3 15 100 0 0 0           *   heavy slave chains
+M 0 83075 1 83471 100 0 0 0        * a fussy bank manager
+G 1 83109 1 0 100 0 0 0            *    a gleaming gold key
+M 0 83074 1 83472 100 0 0 0        * a halfling teller
+M 0 83073 1 83474 100 0 0 0        * a burly ogre guard
+E 1 83108 1 16 100 0 0 0           *   a heavy iron-spiked club
+M 0 83076 1 83476 100 0 0 0        * a gleaming gold dragon
+M 0 83078 1 83485 100 0 0 0        * a jolly elven proprietor
+E 1 83113 1 13 100 0 0 0           *   an Elven-made girdle
+M 0 83077 1 83487 100 0 0 0        * a busy clerk
+E 1 83112 1 5 100 0 0 0            *   a shapeless work-shift
+M 0 83166 2 83496 100 0 0 0        * a burly barbarian guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83166 2 83496 100 0 0 0        * a burly barbarian guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83167 1 83498 100 0 0 0        * a cheerful cloak-room attendant
+E 1 83050 2 13 100 0 0 0           *   a thin black belt
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+E 1 83198 1 28 100 0 0 0           *   a little ditty-bag
+M 0 83170 1 83499 100 0 0 0        * a thri-kreen emissary
+E 1 83201 1 13 100 0 0 0           *   a glowing fur belt
+E 1 83010 6 16 100 0 0 0           *   a well-worn sword
+E 1 83010 6 17 100 0 0 0           *   a well-worn sword
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+E 1 83010 6 25 100 0 0 0           *   a well-worn sword
+E 1 83010 6 26 100 0 0 0           *   a well-worn sword
+M 0 83169 1 83499 100 0 0 0        * a gnome aide
+E 1 83202 1 9 100 0 0 0            *   a pair of silk gloves
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83168 1 83500 100 0 0 0        * a grey elf attendant
+E 1 83043 4 16 100 0 0 0           *   an Elven-made longsword
+E 1 83043 4 17 100 0 0 0           *   an Elven-made longsword
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83172 1 83501 100 0 0 0        * a drow elf emissary
+E 1 83203 1 21 100 0 0 0           *   an earring of nothingness
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83173 1 83501 100 0 0 0        * a duergar scribe (following)
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+G 1 83204 1 0 100 0 0 0            *    a scribe's spellbook
+M 0 83174 1 83502 100 0 0 0        * a hurried githzerai
+E 1 83205 1 3 100 0 0 0            *   a thin silken scarf
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83177 1 83506 100 0 0 0        * a distracted paladin
+E 1 83206 1 18 100 0 0 0           *   a curled parchment scroll
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83171 6 83508 100 0 0 0        * a minotaur guard
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83171 6 83508 100 0 0 0        * a minotaur guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83171 6 83514 100 0 0 0        * a minotaur guard
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83171 6 83514 100 0 0 0        * a minotaur guard (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83198 4 83520 100 0 0 0        * a watchful wraith
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+M 0 83198 4 83520 100 0 0 0        * a watchful wraith
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+M 0 83198 4 83521 100 0 0 0        * a watchful wraith
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+M 0 83198 4 83521 100 0 0 0        * a watchful wraith
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+M 0 83178 1 83521 100 0 0 0        * a vampire emissary
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+G 1 83257 1 0 100 0 0 0            *    a dangling ear clasp
+M 0 83175 1 83523 100 0 0 0        * a githyanki scribe
+E 1 83207 1 3 100 0 0 0            *   a collar of glittering diamonds
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83176 1 83524 100 0 0 0        * an orc emissary
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+E 1 83208 1 16 100 0 0 0           *   a deep black broadsword named 'Despair'
+M 0 83191 8 83526 100 0 0 0        * a dour-faced security guard
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83191 8 83527 100 0 0 0        * a dour-faced security guard
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83191 8 83529 100 0 0 0        * a dour-faced security guard
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83191 8 83532 100 0 0 0        * a dour-faced security guard
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83196 1 83533 100 0 0 0        * a slight man enshrouded in mystery
+G 1 83243 1 0 100 0 0 0            *    a glowing compendium of arcane knowledge
+F 1 83197 1 83533 100 0 0 0        * a red dracolich on a long leash (following)
+M 0 83191 8 83535 100 0 0 0        * a dour-faced security guard
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83191 8 83538 100 0 0 0        * a dour-faced security guard
+E 1 83224 3 16 100 0 0 0           *   a shiny nightstick
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83191 8 83541 100 0 0 0        * a dour-faced security guard
+E 1 83224 3 16 100 0 0 0           *   a shiny nightstick
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83192 1 83541 100 0 0 0        * Gwknklywsuqer
+E 1 83223 1 19 100 0 0 0           *   a gold rimmed monocle
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+G 1 83249 1 0 100 0 0 0            *    A gleaming vault key
+G 1 83254 1 0 100 0 0 0            *    a small silver and gold key
+M 0 83195 1 83541 100 0 0 0        * A half-elf art critic
+M 0 83191 8 83544 100 0 0 0        * a dour-faced security guard
+E 1 83224 3 16 100 0 0 0           *   a shiny nightstick
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83193 1 83548 100 0 0 0        * Rilanaer
+E 1 83226 1 9 100 0 0 0            *   gloves of the spiritual order of librarians
+F 1 83194 1 83548 100 0 0 0        * A thri-kreen assistant (following)
+E 1 83225 1 13 100 0 0 0           *   an ink-stained apron
+M 0 83171 6 83554 100 0 0 0        * a minotaur guard
+F 1 83171 6 83554 100 0 0 0        * a minotaur guard (following)
+M 0 83187 1 83556 100 0 0 0        * the high priest
+E 1 83218 1 14 100 0 0 0           *   a wristband of holiness
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83186 1 83556 100 0 0 0        * Quasi M. Odo (following)
+E 1 83217 1 6 100 0 0 0            *   a hood of the shadows
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83182 1 83557 100 0 0 0        * the lead ambassador
+E 1 83215 1 8 100 0 0 0            *   boots of the Planeswalker
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+G 1 83263 1 0 100 0 0 0            *    a polished silver key
+F 1 83183 1 83557 100 0 0 0        * the ambassador's assistant (following)
+E 1 67276 1 16 100 0 0 0           *   (object not in this .OBJ file)
+E 1 83043 4 17 100 0 0 0           *   an Elven-made longsword
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83185 1 83557 100 0 0 0        * a pure-white unicorn (following)
+E 1 83216 1 16 100 0 0 0           *   a glowing horn of ivory
+E 1 83046 3 17 100 0 0 0           *   a curved knife
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83188 2 83560 100 0 0 0        * a young acolyte
+M 0 83188 2 83560 100 0 0 0        * a young acolyte
+M 0 83190 1 83567 100 0 0 0        * Raxthar
+E 1 83222 1 3 100 0 0 0            *   a sparkling diamond necklace
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+G 1 83221 1 0 100 0 0 0            *    a dagger of the Elven Secret Service
+G 1 83044 8 0 100 0 0 0            *    a tiny assassin's dagger
+M 0 83189 1 83568 100 0 0 0        * a guardian of the portals
+M 0 83199 1 83570 100 0 0 0        * a pet kooshie
+M 0 83201 1 83571 100 0 0 0        * A furious barbarian
+E 1 83260 1 11 100 0 0 0           *   an ambassadorial shield
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83200 1 83574 100 0 0 0        * a tired aide
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83091 1 83588 100 0 0 0        * a drow ambassador
+E 1 83127 1 1 100 0 0 0            *   seal of the Drow Ambassador
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83092 1 83590 100 0 0 0        * an orc ambassador
+E 1 83128 1 14 100 0 0 0           *   band of the Orcish Ambassador
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83086 1 83593 100 0 0 0        * a lich ambassador
+E 1 83124 1 5 100 0 0 0            *   robes of the Lich Ambassador
+E 1 83143 6 24 100 0 0 0           *   an emblem of the Undead Contingent
+M 0 83088 1 83593 100 0 0 0        * a nervous scribe
+G 1 83125 1 0 100 0 0 0            *    a goose-feather quill
+M 0 83087 1 83594 100 0 0 0        * a nondescript servant
+M 0 83089 1 83594 100 0 0 0        * an illithid ambassador
+E 1 83126 1 3 100 0 0 0            *   emblem of the Illithid Ambassador
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83093 12 83599 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83093 12 83599 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83083 1 83600 100 0 0 0        * a hulking ogre
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83085 1 83602 100 0 0 0        * an elven ambassador
+E 1 83123 1 5 100 0 0 0            *   robes of the Elven Ambassador
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83090 1 83602 100 0 0 0        * an elven bodyguard (following)
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83084 1 83614 100 0 0 0        * a shitting troll
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83093 12 83615 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83093 12 83615 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83093 12 83616 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83093 12 83616 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83105 1 83618 100 0 0 0        * a duergar valet
+E 1 83044 8 16 100 0 0 0           *   a tiny assassin's dagger
+M 0 83100 5 83622 100 0 0 0        * a sleeping bodyguard
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83101 5 83622 100 0 0 0        * a resting bodyguard
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83100 5 83622 100 0 0 0        * a sleeping bodyguard
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83100 5 83622 100 0 0 0        * a sleeping bodyguard
+M 0 83101 5 83622 100 0 0 0        * a resting bodyguard
+M 0 83102 1 83624 100 0 0 0        * the ambassador's aide
+E 1 83046 3 16 100 0 0 0           *   a curved knife
+E 1 83136 1 18 100 0 0 0           *   horn of the Goblin Kings
+M 0 83101 5 83625 100 0 0 0        * a resting bodyguard
+M 0 83100 5 83625 100 0 0 0        * a sleeping bodyguard
+M 0 83101 5 83625 100 0 0 0        * a resting bodyguard
+M 0 83101 5 83625 100 0 0 0        * a resting bodyguard
+M 0 83100 5 83625 100 0 0 0        * a sleeping bodyguard
+M 0 83107 1 83627 100 0 0 0        * a gnomish emissary
+E 1 83142 1 9 100 0 0 0            *   gloves of the flames
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+F 1 83106 1 83627 100 0 0 0        * the bodyguard of an emissary (following)
+E 1 83093 38 16 100 0 0 0          *   a slender sword of the guards
+E 1 83093 38 17 100 0 0 0          *   a slender sword of the guards
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83108 1 83630 100 0 0 0        * a half-elf emissary
+E 1 83145 1 10 100 0 0 0           *   rune-embroidered sleeves of Stealth
+E 1 83044 8 16 100 0 0 0           *   a tiny assassin's dagger
+E 1 83044 8 17 100 0 0 0           *   a tiny assassin's dagger
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83093 12 83631 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+F 1 83093 12 83631 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+M 0 83109 1 83632 100 0 0 0        * an effeminate butler
+E 1 83147 1 3 100 0 0 0            *   a spiked choker
+E 1 83146 1 18 100 0 0 0           *   a softly glowing totem
+M 0 83111 1 83638 100 0 0 0        * the lead ambassador
+E 1 83153 1 10 100 0 0 0           *   null sleeves of the starfield
+G 1 83160 1 0 100 0 0 0            *    a small greenwood key
+G 1 30 1 0 100 0 0 0               *    (object not in this .OBJ file)
+F 1 83112 1 83638 100 0 0 0        * a githyanki aide (following)
+E 1 83155 1 16 100 0 0 0           *   a silverish staff wrapped in dead necroplasm
+F 1 83113 1 83638 100 0 0 0        * an assistant to the lead ambassador (following)
+E 1 83151 1 5 100 0 0 0            *   the prismatic platemail
+F 1 83114 1 83638 100 0 0 0        * a githyanki warrior (following)
+E 1 83150 1 12 100 0 0 0           *   an elegant cloak of satin
+F 1 83115 1 83638 100 0 0 0        * an advisor to the ambassador (following)
+E 1 83152 1 5 100 0 0 0            *   the battlearmor of the mind
+F 1 83116 1 83638 100 0 0 0        * a githyanki mage (following)
+F 1 83117 1 83638 100 0 0 0        * a small githyanki (following)
+E 1 83154 1 9 100 0 0 0            *   a set of sapphire instrument fingerpicks
+M 0 83110 1 83639 100 0 0 0        * The Zarbon King
+E 1 83149 1 13 100 0 0 0           *   a thick zarbon-skin belt
+M 0 83118 1 83641 100 0 0 0        * an impeccably dressed waiter
+E 1 83157 1 18 100 0 0 0           *   a gleaming silver tray
+M 0 83119 1 83643 100 0 0 0        * an emaciated chef
+E 1 83158 1 16 100 0 0 0           *   a blackened rotisserie poker
+F 1 83120 1 83643 100 0 0 0        * a lively assistant to the chef (following)
+F 1 83121 1 83643 100 0 0 0        * an assistant to the chef (following)
+F 1 83122 1 83643 100 0 0 0        * a scullery maid (following)
+M 0 83123 1 83646 100 0 0 0        * a golem of glowing crystal
+M 0 83130 1 83647 100 0 0 0        * a priestess of lolth
+E 1 83167 1 7 100 0 0 0            *   the leggings of devotion
+M 0 83093 12 83649 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83093 12 83649 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83124 2 83654 100 0 0 0        * a cruel drow priestess
+M 0 83129 1 83654 100 0 0 0        * a furious minotaur
+M 0 83124 2 83656 100 0 0 0        * a cruel drow priestess
+M 0 83125 1 83656 100 0 0 0        * a screaming half-elf
+M 0 83126 4 83664 100 0 0 0        * a sleepy priest
+M 0 83126 4 83665 100 0 0 0        * a sleepy priest
+M 0 83126 4 83667 100 0 0 0        * a sleepy priest
+M 0 83126 4 83667 100 0 0 0        * a sleepy priest
+M 0 83128 1 83669 100 0 0 0        * a sleeping guard
+M 0 83127 2 83670 100 0 0 0        * a relaxing guard
+M 0 83127 2 83670 100 0 0 0        * a relaxing guard
+M 0 83093 12 83673 100 0 0 0       * a burly troll guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+F 1 83093 12 83673 100 0 0 0       * a burly troll guard (following)
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83132 13 83674 100 0 0 0       * a brain golem
+M 0 83133 2 83676 100 0 0 0        * an elf slave
+M 0 83132 13 83678 100 0 0 0       * a brain golem
+M 0 83136 2 83681 100 0 0 0        * an illithid trainee
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83132 13 83683 100 0 0 0       * a brain golem
+M 0 83131 2 83688 100 0 0 0        * an ogre guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83131 2 83688 100 0 0 0        * an ogre guard
+E 1 83129 17 16 100 0 0 0          *   a long curving scimitar
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83134 1 83691 100 0 0 0        * a mind-numbed troll
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83168 1 0 100 0 0 0            *    small bits of trash
+M 0 83135 1 83691 100 0 0 0        * an impatient illithid
+E 1 83170 1 16 100 0 0 0           *   a glowing rod of power
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83136 2 83692 100 0 0 0        * an illithid trainee
+E 1 83169 1 16 100 0 0 0           *   a little glowing orb
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83133 2 83696 100 0 0 0        * an elf slave
+M 0 83132 13 83701 100 0 0 0       * a brain golem
+M 0 83141 1 83704 100 0 0 0        * a howling ogre
+M 0 83142 2 83704 100 0 0 0        * a diabolical illithid
+E 1 83178 2 16 100 0 0 0           *   a long thin scalpel
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83143 1 83706 100 0 0 0        * a snivelling gnome
+M 0 83142 2 83706 100 0 0 0        * a diabolical illithid
+E 1 83178 2 16 100 0 0 0           *   a long thin scalpel
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83144 1 83707 100 0 0 0        * a forlorn human
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+E 1 83179 1 16 100 0 0 0           *   a gleaming broadsword
+M 0 83132 13 83708 100 0 0 0       * a brain golem
+M 0 83145 1 83709 100 0 0 0        * a scowling barbarian
+E 1 83180 1 12 100 0 0 0           *   a ragged lion's fur
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83146 1 83711 100 0 0 0        * a shivering drow elf
+E 1 83181 1 10 100 0 0 0           *   a pair of elfskin sleeves
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83147 1 83712 100 0 0 0        * a stoic grey elf
+E 1 83182 1 10 100 0 0 0           *   a pair of drowskin sleeves
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83148 1 83714 100 0 0 0        * a glaring mountain dwarf
+E 1 83183 2 16 100 0 0 0           *   a wood-shafted mace
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83149 1 83715 100 0 0 0        * a surly duergar dwarf
+E 1 83183 2 16 100 0 0 0           *   a wood-shafted mace
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83150 1 83717 100 0 0 0        * a fierce halfling
+E 1 83184 1 21 100 0 0 0           *   a tiny earring made of clover
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83151 1 83718 100 0 0 0        * a surly half-elf
+E 1 83185 1 1 100 0 0 0            *   a fat ring of gold
+E 1 83044 8 16 100 0 0 0           *   a tiny assassin's dagger
+E 1 83044 8 17 100 0 0 0           *   a tiny assassin's dagger
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83152 1 83720 100 0 0 0        * a sneering orc
+E 1 83186 1 20 100 0 0 0           *   a funereal mask
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83153 1 83721 100 0 0 0        * a sobbing goblin
+E 1 83187 1 3 100 0 0 0            *   a token of endurance
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83154 1 83723 100 0 0 0        * a chittering thri-kreen
+E 1 83188 1 10 100 0 0 0           *   sleeves made of copper
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83155 1 83724 100 0 0 0        * a stamping centaur
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+E 1 83189 1 37 100 0 0 0           *   ribbons made of bark
+M 0 83156 1 83726 100 0 0 0        * a terrified githyanki
+E 1 83190 1 19 100 0 0 0           *   an eyepiece of acuity
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83157 1 83727 100 0 0 0        * an enraged minotaur
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+E 1 83191 1 40 100 0 0 0           *   diamond-studded horn caps
+M 0 83158 1 83729 100 0 0 0        * a howling demon
+E 1 83193 1 16 100 0 0 0           *   a pitch-black orb
+E 1 83192 1 24 100 0 0 0           *   an emblem of the Demon embassy
+M 0 83159 1 83730 100 0 0 0        * a scintillating dragon
+E 1 83196 1 16 100 0 0 0           *   a Dragon mace of 'Testament'
+E 1 83194 1 24 100 0 0 0           *   an emblem of the Dragon embassy
+M 0 83160 1 83732 100 0 0 0        * a terrified Githzerai
+E 1 83197 1 8 100 0 0 0            *   boots of the windwalker
+E 1 83138 42 24 100 0 0 0          *   an emblem of the Good Contingent
+M 0 83132 13 83733 100 0 0 0       * a brain golem
+M 0 83137 1 83735 100 0 0 0        * The Elder Brain
+E 1 83173 1 1 100 0 0 0            *   a titanium ring
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83176 2 0 100 0 0 0            *    a small key of mental energy
+F 1 83138 2 83735 100 0 0 0        * a juvenile illithid (following)
+E 1 83175 1 7 100 0 0 0            *   a pair of green-tinted greaves
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+F 1 83138 2 83735 100 0 0 0        * a juvenile illithid (following)
+E 1 83174 1 19 100 0 0 0           *   the eyepiece of clarity
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+M 0 83139 3 83735 100 0 0 0        * a little tadpole
+M 0 83139 3 83735 100 0 0 0        * a little tadpole
+M 0 83139 3 83735 100 0 0 0        * a little tadpole
+M 0 83180 5 83738 100 0 0 0        * a snacking illithid
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83213 3 0 100 0 0 0            *    a throbbing goblin brain
+M 0 83132 13 83738 100 0 0 0       * a brain golem
+M 0 83179 1 83739 100 0 0 0        * a lobotomized goblin
+E 1 83211 1 6 100 0 0 0            *   a throbbing drow brain
+E 1 83137 29 24 100 0 0 0          *   an emblem of the Evil Contingent
+M 0 83180 5 83740 100 0 0 0        * a snacking illithid
+G 1 83212 2 0 100 0 0 0            *    a throbbing elf brain
+G 1 83144 18 0 100 0 0 0           *    an emblem of the Illithid Contingent
+G 1 83144 18 0 100 0 0 0           *    an emblem of the Illithid Contingent
+M 0 83180 5 83741 100 0 0 0        * a snacking illithid
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83210 4 0 100 0 0 0            *    a throbbing gnome brain
+M 0 83180 5 83741 100 0 0 0        * a snacking illithid
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83213 3 0 100 0 0 0            *    a throbbing goblin brain
+M 0 83180 5 83742 100 0 0 0        * a snacking illithid
+E 1 83144 18 24 100 0 0 0          *   an emblem of the Illithid Contingent
+G 1 83210 4 0 100 0 0 0            *    a throbbing gnome brain
+M 0 83140 1 83744 100 0 0 0        * an illithid scientist
+E 1 83177 1 5 100 0 0 0            *   a tunic of scintillating colors
+G 1 83176 2 0 100 0 0 0            *    a small key of mental energy
+M 0 83132 13 83745 100 0 0 0       * a brain golem
+M 0 83132 13 83745 100 0 0 0       * a brain golem
+M 0 83132 13 83745 100 0 0 0       * a brain golem
+M 0 83132 13 83745 100 0 0 0       * a brain golem
+M 0 83132 13 83745 100 0 0 0       * a brain golem
+M 0 83132 13 83746 100 0 0 0       * a brain golem
+M 0 83044 33 83819 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83819 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83821 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83821 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83825 100 0 0 0       * a guard of the city towers
+M 0 83044 33 83825 100 0 0 0       * a guard of the city towers
+*
+S

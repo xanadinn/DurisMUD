@@ -1,0 +1,5417 @@
+#75200
+&+WAn Icy Footpath&N~
+   The damp and chilly area here is enshrouded in darkness. The ground
+here is covered in snow and ice.  Vision in the surrounding area is very
+limited from the thick growth of the dense forest surrounding this footpath.
+Strange echoes can be heard emanating from the north.  Sounds of movement
+can be heard in the forest as someone or something moves very quickly.
+There are exits north and south along this icy pathway.
+~
+752 5 3
+D0
+The small path continues to the north.
+~
+~
+0 0 75201
+D1
+A stone trail continues east.
+~
+~
+0 0 75408
+D2
+The lake of Murar is south.
+~
+~
+0 0 75339
+S
+#75201
+&+BApproaching the Settlement&N~
+    Enshrounded in darkness, this snow-covered forest footpath
+continues in a north-south direction here.  There are shapes of
+shrubbery and other forest plant life buried under the snow to
+the right side of the pathway.  Strange forest animals can be
+seen wandering through forest foraging for food.  To the north,
+a large stone wall enclosing a town of sorts is visible.  There
+are exits to the north and south along this pathway.
+~
+752 1 3
+D0
+There is a large stone wall to the north.
+~
+~
+0 0 75202
+D2
+The path continues to the south.
+~
+~
+0 0 75200
+S
+#75202
+&+WBefore A Great Stone Wall&N~
+   A large stone wall, rising some 25 feet, encloses a village to
+the north.  The wall is of granite and mortar.  It appears to be a
+very sturdy structure which has withstood the tests of time.  There
+is an outline of something in the wall.  The wall is covered in a thick
+sheet of ice.  The floor is covered in frozen skeletons and snow covered
+carcasses of dead explorers.  There is only one visible exit out
+of this area.
+~
+752 1 3
+D0
+A settlement of humans lies to the north beyond the stone gate.
+~
+stone gate~
+5 0 75203
+D2
+A small pathway continues to the south.
+~
+~
+0 0 75201
+S
+#75203
+&+BA Small Gravel Road&N~
+   This is a settlement of the &+MTeka&N, a human tribe that has
+successfully managed to live in this harsh environment.  The gravel
+road here, covered under snow, runs north into the center of the
+settlement.  Many footprints can be seen in the snow leading in many
+different directions.  There are various small buildings around this
+town.  A large cathedral can be seen straight ahead towering above
+the settlement.  There are exits to the all around leading deeper
+into the settlement.  The exit south leads back outside of the
+stone wall.
+~
+752 1 1
+D0
+The gravel road continues north from here.
+~
+~
+0 0 75208
+D1
+A small guardhouse is located to the east of the road.
+~
+~
+0 0 75205
+D2
+This exit to the south leads to a small pathway.
+~
+stone gate~
+5 0 75202
+D3
+A small guardhouse lies to the west of the path.
+~
+~
+0 0 75204
+S
+#75204
+&+YThe West Guardhouse&N~
+    The guardhouse here is located west of the gravel path.  It
+houses many &+MTekan&N guardsman who stand ready to deal with evils
+who dare and enter their holy city.  The guardhouse is a small
+structure constructed from wood.  There is a small tekan warbanner
+hanging on the south wall.  A small backdoor on the west wall lies
+shut.  There are two exits out of this establishment.
+~
+752 4105 0
+D1
+A small road lies just outside the doorway.
+~
+~
+0 0 75203
+D3
+A small room lies just beyond the doorway.
+~
+small door~
+1 0 75207
+S
+#75205
+&+YThe East Guardhouse&N~
+    The guardhouse here is located east of the gravel path.  It
+houses many &+MTekan&N guardsman who stand ready to deal with evils
+who dare and enter their holy city.  The guardhouse is a small
+structure constructed from wood.  There is a small tekan warbanner
+hanging on the south wall.  A small backdoor on the east wall lies
+shut.  There are two exits out of this establishment.
+~
+752 4105 0
+D1
+A small room lies beyond this door.
+~
+small door~
+1 0 75206
+D3
+A small road lies outside the doorway.
+~
+~
+0 0 75203
+S
+#75206
+&+YA Holding Cell&N~
+    This holding cell is dark, cold, and damp.  This room of the
+settlement is reserved for caught members of the evil races.  Once
+jailed in this cell, these trapped evils have no way of escaping.
+This cell here is constructed from granite slabs that pulse in energy.
+There are no windows and the floor is covered in hay. There is only
+one exit out of this room that leads into the guardhouse.
+~
+752 4105 0
+D3
+The east guardhouse lies beyond the doorway.
+~
+small door~
+1 0 75205
+S
+#75207
+&+YAnother Holding Cell&N~
+    This holding cell is dark, cold, and damp.  This room of the
+settlement is reserved for caught members of the evil races.  Once
+jailed in this cell, these trapped evils have no way of escaping.
+This cell here is constructed from granite slabs that pulse in energy.
+There are no windows and the floor is covered in hay. There is only
+one exit out of this room that leads into the guardhouse.
+~
+752 4105 0
+D1
+The guardhouse lies just beyond the doorway.
+~
+small door~
+1 0 75204
+S
+#75208
+&+BA Small Gravel Road&N~
+   This is a settlement of the &+MTeka&N, a human tribe that has
+successfully managed to live in this harsh environment.  The gravel
+road continues here running north-south through the settlement.  There
+are many small buildings around.  A large cathedral can be seen
+straight ahead to the north towering above the settlement. There
+are exits to the all around leading to various parts the settlement.
+~
+752 1 1
+D0
+The gravel road continues north into the center of the settlement.
+~
+~
+0 0 75219
+D1
+A large stone structure lies to the east of the gravel road.
+~
+marble door~
+1 0 75209
+D2
+The gravel path continues south.
+~
+~
+0 0 75203
+D3
+A small hut lies to the west of the path.
+~
+door~
+1 0 75210
+S
+#75209
+&+WA Dark Hallway&N~
+   This hallway is constructed of stone and mortar.  Fastened to
+the wall, every few few, are large torches which cast an erie glow
+to this part hallway.  The floor is of varying slabs of stone.  Some
+of which appear to move under your weight.  There is an echo of
+chatter further down the hall. There are two exits from this room
+which lead in opposite directions.
+~
+752 4105 0
+D1
+The hallway continues that way.
+~
+~
+0 0 75211
+D3
+The gravel road lies beyond the marble door.
+~
+marble door~
+1 0 75208
+S
+#75210
+&+RA Small Hut&N~
+   This hut is small and well-kept.  The floor is clean and the
+bookcase here appears well organized.  There is a large wooden
+table in the center of the room.  Upon the table here, there
+are many weird experiments occuring.  This laboratory of Kazim
+helps to produce many of magical items that Kazim uses on raids.
+There is only one exit out of this hut.
+~
+752 4104 0
+D1
+The gravel road lies just beyond the doorway.
+~
+door~
+1 0 75208
+S
+#75211
+&+WA Dark Hallway&N~
+   This hallway is constructed of stone and mortar.  Fastened to
+the wall, every few few, are large torches which cast an erie glow
+to this part hallway.  The floor is of varying slabs of stone.  Some
+of which appear to move under your weight.  There is an echo of
+chatter further down the hall. There are two exits from this room
+which lead in opposite directions.
+~
+752 4105 0
+D1
+A large meeting chamber is east of here.
+~
+~
+0 0 75217
+D3
+The hallway continues to the west.
+~
+~
+0 0 75209
+D5
+This slab looks very easy to move.
+~
+slab~
+5 0 75212
+S
+#75212
+&+WAn Old Cellar&N~
+   The room here is enshrouded in darkness.  Dust and cobwebs cover
+everything within sight.  There are a couple of old bookcases along
+the south wall.  An old crypt lies open on a shelf on the north stone
+wall.  The floor here is of earth and is infested with many little
+creatures.  There is one visible exit open.
+~
+752 4105 0
+D1
+The cellar continues east.
+~
+~
+0 0 75214
+D3
+A vault lies to the west.
+~
+~
+0 0 75213
+D4
+A hallway lies above this slab.
+~
+slab~
+5 0 75211
+S
+#75213
+&+BAn Old Vault&N~
+    The room here is cool and damp.  Water drips down from the
+room above forming a puddle in the north-west corner.  The walls of
+this vault are of marble.  The north and south walls are enscribed
+with sayings in some language.  On the west wall, there is an old
+holy altar where many different ancient items lay covered in dust.
+There is only one exit out of this room.
+~
+752 4105 0
+D1
+A cellar lies just to the east of here.
+~
+~
+0 0 75212
+S
+#75214
+&+WDeeper In A Storage Cellar&N~
+   The room here is enshrouded in darkness.  Dust and cobwebs also
+cover everything within sight in this part of the cellar.  There are
+bones of some creature on the floor here in a circle.  In the center
+of the circle, something appears to glow beneath a pile of bones and
+flesh.  The floor here is of earth and is infested with many little
+creatures.  There are two visible exits open.
+~
+752 4105 0
+D3
+The cellar continues west.
+~
+~
+0 0 75212
+D5
+A large pit lies down from here.
+~
+~
+0 0 75215
+S
+#75215
+&+BA Pit of Skeletons&N~
+   This pit is large here with smooth walls.  The walls are
+slippery making it difficult to escape from this room.   The
+floor of the pit is covered in skeletons and bones of many
+different creatures who have ventured into this area.  There
+are snores echoing from the nearby room. There are two exits
+out of this room.
+~
+752 4105 0
+D2
+A dragon's lair lies to the south of here.
+~
+~
+0 0 75216
+D4
+A cellar lies in the room above the pit.
+~
+~
+0 0 75214
+S
+#75216
+&+BThe Lair of Maur&N~
+   This is the lair of Maur.  It is a large room with a high ceiling.
+The walls are of marble slabs which pulse with energy. Enscribed on
+the walls are warnings in many different languages.  The floor is
+covered in skeletons and carcasses which decay slowly here.  They
+release a putrid aroma of death. Small creatures feast upon many of
+the remains.  There is only one exit out of this room.
+~
+752 4105 0
+D0
+A pit lies to the north of this lair.
+~
+~
+0 0 75215
+S
+#75217
+&+CA Large Meeting Chamber&N~
+    The chamber here is large and is constructed from imported marble.
+It is within these walls that the &+MTeka&N gather to hold meetings
+to plan invasions and other activities.  There is a large stand
+along the west wall.  This chamber is lighted from a sky light in
+the center of the ceiling. There are exits all around leading into
+various parts of this meeting chamber.
+~
+752 4105 0
+D2
+A small closet lies to the south.
+~
+closet~
+1 0 75218
+D3
+A hallway starts in that direction.
+~
+~
+0 0 75211
+S
+#75218
+&+YA Dusty Closet&N~
+   Dust and cobwebs cover everything within this closet.  It is small
+and is filled with many different items.  The walls and floor of this
+room are of granite slabs.  The shelves here have been constructed of
+wood. There are strange plants growing within this room.  There is only
+one exit out leading back into the meeting chamber.
+~
+752 4105 0
+D0
+A meeting chamber lies just beyond this doorway.
+~
+closet door~
+1 0 75217
+S
+#75219
+&+BThe Great Fountain of the &+MTekan&N &+BSettlement&N~
+   The plaza here is large.  On a large marble pedestal in the
+fountain, there appears to be work to erect a statue.  The great
+fountain sits in the center of the area providing water for all.
+Many tekans make a resting stop within this plaza as they continue
+on their way.  A large cathedral lies just to the north on the
+gravel road.  There are exits all around leading deeper into the
+settlement.
+~
+752 0 1
+D0
+The gravel road continues north toward a cathedral.
+~
+~
+0 0 75220
+D1
+A rocky path continues east.
+~
+~
+0 0 75227
+D2
+A small gravel road continues to the south.
+~
+~
+0 0 75208
+D3
+A rocky path continues west.
+~
+~
+0 0 75224
+S
+#75220
+&+BA Small Gravel Road&N~
+   The gravel road continues here in a north-south direction
+through the settlement of the &+MTeka&N.  The ground is covered in
+many little pebbles of all shapes, sizes, and colors.  There are
+many small buildings on both sides of the road.  A large cathedral
+towering over the settlement lies to the north.  There are exits
+all around leading into various parts of the settlement.
+~
+752 0 1
+D0
+The gravel road continues to the north.
+~
+~
+0 0 75221
+D1
+A small cottage is east.
+~
+~
+0 0 75238
+D2
+The city fountain lies to the south.
+~
+~
+0 0 75219
+D3
+A small shed is west of the gravel path.
+~
+door~
+1 0 75248
+S
+#75221
+&+BA Small Gravel Road&N~
+   The gravel road continues here in a north-south direction
+through the settlement of the &+MTeka&N.  The ground is covered in
+many little pebbles of all shapes, sizes, and colors.  There are
+many small buildings on both sides of the road.  A large cathedral
+towering over the settlement lies to the north.  There are exits
+all around leading into various parts of the settlement.
+~
+752 1 1
+D0
+The gravel road continues north.
+~
+~
+0 0 75222
+D2
+The gravel road continues south.
+~
+~
+0 0 75220
+S
+#75222
+&+BA Small Gravel Road&N~
+   The gravel road continues here in a north-south direction
+through the settlement of the &+MTeka&N.  The ground is covered in
+many little pebbles of all shapes, sizes, and colors.  There are
+many small buildings on both sides of the road.  A large cathedral
+towering over the settlement lies to the north.  There are exits
+all around leading into various parts of the settlement.
+~
+752 0 1
+D0
+A large cathedral lies to the north.
+~
+~
+0 0 75223
+D1
+A large holy establishment lies to the east beyond the marble door.
+~
+marble door~
+1 0 75258
+D2
+The gravel road continues to the south.
+~
+~
+0 0 75221
+D3
+A small fire pit lies to the west.
+~
+~
+0 0 75259
+S
+#75223
+&+WBefore a Large Stone Cathedral&N~
+    A large cathedral is located to the north.  Its' bell tower
+rises some fourty feet above the settlement.  Constructed from imported
+stone, the entire cathedral seems to pulse with a magical aura.
+Gargoyles can be seen watching the grounds of the church from
+the roof. There are exits all around leading into different parts
+of the settlement.
+~
+752 0 1
+D0
+A large cathedral lies beyond the oaken door.
+~
+oaken door~
+1 0 75264
+D1
+A grassy path lies to the east.
+~
+~
+0 0 75231
+D2
+The gravel path continues south.
+~
+~
+0 0 75222
+D3
+A pile of bones lies west.
+~
+~
+0 0 75263
+S
+#75224
+&+WA Rocky Pathway&N~
+   The rocky pathway continues here in an east-west direction
+through the settlement.  There are many homes and other buildings
+along this pathway of the town.  A few of the many local citizens
+can be seen running on their way here taking care of different tasks.
+A large tower and a large fountain can be seen further east along
+this pathway.  There are only two exits leading in opposite
+directions on this path.
+~
+752 1 1
+D1
+The center of the settlement lies east.
+~
+~
+0 0 75219
+D3
+The rocky pathway continues west.
+~
+~
+0 0 75225
+S
+#75225
+&+WA Rocky Pathway&N~
+   The rocky pathway continues here in an east-west direction
+through the settlement.  There are many homes and other buildings
+along this pathway of the town.  A few of the many local citizens
+can be seen running on their way here taking care of different tasks.
+A large tower can be seen further east along this pathway.  There are
+exits in all directions leading off this path.
+~
+752 4105 1
+D0
+A small house lies to the north.
+~
+~
+0 0 75256
+D1
+The rocky pathway continues east toward a large tower.
+~
+~
+0 0 75224
+D2
+A small alleyway lies to the south of this pathway.
+~
+~
+0 0 75257
+D3
+The rocky pathway continues west toward a large chamber.
+~
+stone~
+1 0 75226
+S
+#75226
+&+CBefore A Large Practice Chamber&N~
+    These practice chambers echo in the sounds of sword clashing.
+Many tekan guards practice their skills within these halls with
+the master trainer.  The chamber here is constructed from granite
+slabs.  Torches attached to the wall every few feet, provide an
+erie glow of light for this room.  There are exits in opposite
+directions leading east and west.
+~
+752 4105 0
+D1
+A rocky pathway lies just beyond the doorway.
+~
+stone~
+1 0 75225
+D3
+A large practice chamber lies to the west.
+~
+~
+0 0 75247
+S
+#75227
+&+WA Rocky Pathway&N~
+   The rocky pathway continues here in an east-west direction
+through the city.  There are many homes and other buildings along
+this pathway through the settlement.  A few of the local citizens
+can be seen running on their way here.  A large tower can be seen
+further east along this pathway.  There is a large fountain directly
+west from here. There are only two exits east and west along this
+path.
+~
+752 0 1
+D1
+The rocky pathway continues east.
+~
+~
+0 0 75228
+D3
+A large fountain lies to the west.
+~
+~
+0 0 75219
+S
+#75228
+&+WA Rocky Pathway&N~
+   The rocky pathway continues here in an east-west direction
+through the settlement.  There are many homes and other buildings
+along this pathway of the town.  Many local citizens can be found
+running along this pathway on their way here taking care of a
+variety of chores.  A large tower can be seen further east along
+this pathway.  There are exits in all directions leading off this
+rocky pathway.
+~
+752 0 1
+D0
+A small garden lies to the north of the path.
+~
+~
+0 0 75239
+D1
+The rocky path continues east.
+~
+~
+0 0 75229
+D2
+The tekan guard barracks are south.
+~
+~
+0 0 75250
+D3
+The rocky path continues west.
+~
+~
+0 0 75227
+S
+#75229
+&+WA Rocky Pathway&N~
+   The rocky pathway continues here in an east-west direction
+through the city.  There are many homes and other buildings along
+this pathway through the settlement.  A few of the local citizens
+can be seen running on their way here.  A large tower can be seen
+further east along this pathway.  There is a large fountain directly
+west from here. There are only two exits east and west along this
+path.
+~
+752 0 1
+D1
+The rocky pathway continues east.
+~
+~
+0 0 75230
+D3
+The rocky pathway continues west.
+~
+~
+0 0 75228
+S
+#75230
+&+BBefore A Great Tower&N~
+   The sounds of echoing water are present within this part of the
+settlement.  Here on a bridge over a creek, a tower rises some 40
+feet above the settlement.  It appears to be constructed from
+different types of stone.  There are windows opening on to the
+settlement on every floor of the tower.  There are two exits from
+this room leading in opposite directions.
+~
+752 0 1
+D1
+The enterance to the tower lies beyond the marble door.
+~
+marble door~
+1 0 75240
+D3
+The rocky path continues west.
+~
+~
+0 0 75229
+S
+#75231
+&+GAn Icy Path&N~
+    Grass covers the path here which runs in an east-west direction
+through the northern part of the &+MTekan&N settlement.  The grass
+is long and full of weeds.  There are small patches of wild flowers
+which grow along the foot hills to the north of the path. A small
+creek lies further east. There are exits all around leading into
+various parts of the settlement.
+~
+752 1 1
+D1
+The grassy path continues east.
+~
+~
+0 0 75232
+D3
+The grassy path continues west.
+~
+~
+0 0 75223
+S
+#75232
+&+GAn Icy Path&N~
+    Grass covers the path here which runs in an east-west direction
+through the northern part of the &+MTekan&N settlement.  The grass
+is long and full of weeds.  There are small patches of wild flowers
+which grow along the foot hills to the north of the path. A small
+creek lies further east. There are exits all around leading into
+various parts of the settlement.
+~
+752 1 1
+D1
+The grassy path continues east.
+~
+~
+0 0 75233
+D3
+The grassy path continues west.
+~
+~
+0 0 75231
+S
+#75233
+&+GAn Icy Path&N~
+    Grass covers the path here which runs in an east-west direction
+through the northern part of the &+MTekan&N settlement.  The grass
+is long and full of weeds.  There are small patches of wild flowers
+which grow along the foot hills to the north of the path. A small
+creek lies further east. There are exits all around leading into
+various parts of the settlement.
+~
+752 1 1
+D1
+A small rapid creek lies east.
+~
+~
+0 0 75234
+D3
+The grassy path continues to the west.
+~
+~
+0 0 75232
+S
+#75234
+&+BOn A Small Creek&N~
+   A small creek flows in from the north.  The creek has clear
+water which sparkle in the light.  The small creek has a strong
+current and pulls everything along with it.  There are a few
+aquatic animals that manage to fight the current here.  A large
+tower can be seen just south of here.  There are two exits along
+this creek.
+~
+752 1 7
+D2
+The creek flows south.
+~
+~
+0 0 75235
+D3
+A small path lies to the west.
+~
+~
+0 0 75233
+C
+45 2
+S
+#75235
+&+BOn A Small Creek&N~
+   A small creek flows in from the north.  The creek has clear
+water which sparkle in the light.  The small creek has a strong
+current and pulls everything along with it.  There are a few
+aquatic animals that manage to fight the current here.  A large
+tower can be seen just south of here.  There are two exits along
+this creek.
+~
+752 1 7
+D0
+The creek continues north.
+~
+~
+0 0 75234
+D2
+The creek flows south.
+~
+~
+0 0 75236
+C
+45 2
+S
+#75236
+&+BOn A Small Creek&N~
+   A small creek flows in from the north.  The creek has clear
+water which sparkle in the light.  The small creek has a strong
+current and pulls everything along with it.  There are a few
+aquatic animals that manage to fight the current here.  A large
+tower can be seen just south of here.  There are two exits along
+this creek.
+~
+752 1 7
+D0
+The creek continues north.
+~
+~
+0 0 75235
+D2
+The creek flows south.
+~
+~
+0 0 75237
+C
+45 2
+S
+#75237
+&+BOn A Small Creek&N~
+   A small creek flows in from the north.  The creek has clear
+water which sparkle in the light.  The small creek has a strong
+current and pulls everything along with it.  There are a few
+aquatic animals that manage to fight the current here.  A large
+tower can be seen just south of here.  There are two exits along
+this creek.
+~
+752 1 7
+D0
+The creek continues north.
+~
+~
+0 0 75236
+D2
+A small landing can be seen to the south.
+~
+~
+0 0 75246
+C
+45 2
+S
+#75238
+&+CA Small Cottage&N~
+   This cottage belongs to a family within the Teka.  The room here
+is rather large in size.  It's walls are off wooden planks.  There
+are two wooden chairs along the south wall next to a wooden table.
+Upon the table a large book lies open with its page marked by a
+red ribbon.  The book appears to be some holy scripture of sorts.
+There are two exits out of this room.
+~
+752 4104 0
+D1
+A small garden lies just beyond the doorway.
+~
+small door~
+1 0 75239
+D3
+A gravel road lies beyond the doorway.
+~
+~
+0 0 75220
+S
+#75239
+&+GA Small Frozen Garden&N~
+    This small garden here grows a variety of different plants.
+In small square plots, a variety herbs and other spices grow.
+There are a few vegetables growing near the cottage here. Many
+small birds and other forest animals find their way into these
+delightful grounds.  There are exits all around leading into
+different parts of the settlement.
+~
+752 0 2
+D0
+A small green pastures lies to the north.
+~
+~
+0 0 75260
+D2
+The rocky pathway lies to the south.
+~
+~
+0 0 75228
+D3
+This small door opens up into a small cottage.
+~
+small door~
+1 0 75238
+S
+#75240
+&+MThe Main Room of the Tower of Yezen&N~
+   This main room of the tower is large and constructed from a variety
+of different stones.  The room here is circular.  In the center of the
+room, there is a large red rug of woven hides of different animals.
+There are banners of different colors hanging from the ceiling of this
+main hall. Here within this hall, many tekans come to seek a variety of
+things.  There are exits in all directions leading into different
+parts of the tower.
+~
+752 4104 0
+D0
+A small statue room is north of here.
+~
+~
+0 0 75242
+D1
+A kitchen lies east of this main room.
+~
+~
+0 0 75241
+D2
+A small library lies south of here.
+~
+~
+0 0 75243
+D3
+The settlement lies beyond this door.
+~
+marble door~
+1 0 75230
+D4
+A staircase rises up to another floor of the tower.
+~
+~
+0 0 75245
+D5
+A landing is down below.
+~
+~
+0 0 75244
+S
+#75241
+&+YThe Kitchen&N~
+   The kitchen here is run by Kalila.  Within these walls, there is
+always the constant activity of cooking and preparing meals. The room
+here is of stone and mortar.  There is a small stove against the east
+wall where there is a small burning fire.  Just above this stove,
+there is a small window where smoke and other kitchen aromas exchange
+with the outside environment.   There is only one exit out of this
+room leading back into the main hall.
+~
+752 4104 0
+D3
+The main hall lies in this direction.
+~
+~
+0 0 75240
+S
+#75242
+&+YThe Statue Room&N~
+   This statue room of the tower is a smaller room as compared
+to the others.  The room here, like the rest of the tower, is of
+many different types of stones.  Within this room, there are
+two statues that rest on marble pedestals.  Many members of the
+settlement visit and pray before these two holy figures.  There
+is only one exit out of this room that leads into the main hall
+of the tower.
+~
+752 4105 0
+D2
+The main hall is south of here.
+~
+~
+0 0 75240
+S
+#75243
+&+YThe Library of the Tower of Yezen&N~
+    The room here is lighted by candles which sit on the table
+in the center of the room.  This table is large and circular. It
+sits on a bear skin. Upon this table, there are two tomes which
+have been left open.  The west, east, and south walls have large
+bookcases filled with many old books, tomes, and scriptures.
+There is only one exit out leading back into the main hall.
+~
+752 4104 0
+D0
+The main hall lies north of the library.
+~
+~
+0 0 75240
+S
+#75244
+&+WThe Landing of the Basement&N~
+    Here in the basement of the tower, it is cold, dark, and damp.
+The sounds of echoing water seem to emanate from the water way to
+the west.  The tower here is constructed from many different types
+of stone.  There appears to be a small dungeon further west of the
+room where there are screams and shrieks of terror.  There are
+three exits from this room.
+~
+752 4105 0
+D1
+A small waterway lies east of this landing.
+~
+~
+0 0 75246
+D3
+A room before a large dungeon is west.
+~
+~
+0 0 75255
+D4
+The main hall of the tower lies up from here.
+~
+~
+0 0 75240
+S
+#75245
+&+BA Circular Staircase&N~
+    The staircase continues in upward circular direction here.
+It has steps of wooden planks and a hand rail of polished marble.
+Fastened every few feet between windows, there is a torch which
+shines a erie glow upon the stairs.  The walls of the tower are
+smooth here. They are not as rough as the other walls. There are
+two exits from this room.
+~
+752 4105 0
+D4
+The staircase continues up.
+~
+~
+0 0 75253
+D5
+The staircase continues down into the main hall.
+~
+~
+0 0 75240
+S
+#75246
+&+CBelow A Small Bridge&N~
+   The water here is calmer than the creek to the north.  Under a
+small bridge connecting the settlement to the tower, there appears
+to be a small landing to the east.  The landing appears to be dark
+and from there are echoing screams of terror. The creek flows south
+with a calmer current.  There are three exits from this room.
+~
+752 4105 6
+D0
+A small creek flows in from the north.
+~
+~
+0 0 75237
+D3
+There is a small landing to the west of this water way.
+~
+~
+0 0 75244
+S
+#75247
+&+CThe &+MTekan&N &+CPractice Chamber&N~
+   The chamber here is a large circular room constructed from granite
+and other hard stones.  Many tekan guards have practiced within this
+room and have gained the necessary experience to carry the insignia
+of the tribe.  There are wooden torches fastened to the wall which
+provide an erie glow upon the area.  There is only one exit out of
+this chamber.
+~
+752 4105 0
+D1
+The enterance to the chambers lie east.
+~
+~
+0 0 75226
+S
+#75248
+&+YA Small Shed&N~
+   The shed here is small.  Constructed from wood, many items are
+stored withing this room.  At times, a few citizens can be found
+here getting needed items to restock.  Dusts and cobwebs are cover
+the entire room and its contents.  The floor boards squeak under
+your weight as you move through the room. There is only one exit
+out of this room.
+~
+752 4105 0
+D1
+A small gravel road lies in that direction.
+~
+door~
+1 0 75220
+D5
+The floor boards here are loose.
+~
+boards~
+5 0 75249
+S
+#75249
+&+WAn Underground Storage Room&N~
+   Located underneath the storage shed,  this room also serves as
+a storage facility for a variety of goods.  The room here is damp
+and dark.  Small creatures have made this room their home. The
+floor boards just above your head squeak in their weakness as
+someone walks through the shed above.  The ground here is covered
+in rough and jagged rocks. The walls are of earth.  There is only
+one exit out of this room.
+~
+752 4105 0
+D4
+The floor boards are loose here providing access to the shed above.
+~
+boards~
+5 0 75248
+S
+#75250
+&+BThe &+MTekan&N &+BGuard Barracks&N~
+   The room here is large.  Constructed from stone and mortar, this
+guard barracks room appears to be a sturdy structure.  Various pieces
+of training equipment line the south and west walls.  Here in this
+room, many guards practice new and old skills.  The sounds of swords
+clashing echo in the room here. There are two exits from this room
+leading in different directions.
+~
+752 4105 0
+D0
+A rocky path is located north of the barracks.
+~
+~
+0 0 75228
+D1
+The barracks continues east.
+~
+~
+0 0 75251
+S
+#75251
+&+CThe Guard Barracks&N~
+   The room here is constructed from stone and mortar.  The walls
+have small inscriptions in another language.  The room has a few
+cots lined up along the north wall.  Here a few guards get their
+much needed rest from their patrols.  Beside each cot, there are
+piles of belongings.  There are two exits out of this room leading
+into various parts of the guard barracks.
+~
+752 4105 0
+D2
+The room of G'mar is south of here.
+~
+~
+0 0 75252
+D3
+The guard barracks continues west.
+~
+~
+0 0 75250
+S
+#75252
+&+MThe Room of G'mar&N~
+   This is the room of G'mar, the chief of the &+MTekan&N guards.  The
+room here is large and constructed from the finest marble.  A large rug
+of bear skin has been placed in the center of the room.  The walls and
+floors reflect the light of the torch fastened to the wall.  There is a
+small sky light in the center of the ceiling.  A large tapestry hangs on
+the west wall.  A large desk clutterred with paper work sits along along
+the south wall.  There is only one exit out of this room.
+~
+752 4105 0
+D0
+The barracks continues to the north.
+~
+~
+0 0 75251
+S
+#75253
+&+BA Circular Staircase&N~
+    The staircase continues in upward circular direction here.
+It has steps of wooden planks and a hand rail of polished marble.
+Fastened every few feet between windows, there is a torch which
+shines a erie glow upon the stairs.  The walls of the tower are
+smooth here. They are not as rough as the other walls. There are
+two exits from this room.
+~
+752 4105 0
+D4
+There is a throne room above this trapdoor.
+~
+trapdoor~
+1 0 75254
+D5
+The staircase continues down.
+~
+~
+0 0 75245
+S
+#75254
+&+YThe Throne Room of Yezen&N~
+    The room here is large and circular.  There are two large windows
+on opposite sides of the room that open up on to the surrounding
+settlement of the &+MTeka&N.   In the center of this room, a large
+bear skin rug has been placed under a small table.  A large golden
+throne situated against the north wall. On either side, there is a
+small stool covered in satin. There is only one exit out of this
+room which leads down.
+~
+752 4104 0
+D5
+A circular staircase continues down under the trapdoor.
+~
+trapdoor~
+1 0 75253
+S
+#75255
+&+YBefore A Large Dungeon&N~
+   Here before a large dungeon, the grounds are dirty and soiled.
+The air here is quite damp and reeks with the fumes of decay. This
+minature hallway provides access to the large metal gate of the
+tower dungeon.  There is a large torch fastened to the north wall
+which provides little light. The tower dungeon is south of the
+hallway.  There is only one open exit out of this room.
+~
+752 4104 0
+D1
+A small landing is east of here.
+~
+~
+0 0 75244
+D2
+A small dungeon is south of here.
+~
+dungeon~
+1 0 75412
+S
+#75256
+&+CA Small House&N~
+   This room of a small house is clean and ordinary in design.
+This house belongs to a normal citizen of the settlement.  The
+room here is constructed from wooden planks.  There is a large
+window on the north wall opening up into a garden of some sorts.
+The floor is covered in soft golden hay. There is only one exit
+out of this room leading to the south.
+~
+752 4105 0
+D2
+The rocky path is south of the house here.
+~
+~
+0 0 75225
+S
+#75257
+&+RA Small Alleyway&N~
+    The alleyway here cuts between two buildings of the settlement.
+This alley reeks with the fumes of decay. It is covered in debris
+of organic matter and other unwanted belongings.  Many rats and
+other scavengers can be found rummaging through this room. There
+is only one exit out leading back to the rocky path.
+~
+752 1 1
+D0
+The rocky pathway is north.
+~
+~
+0 0 75225
+S
+#75258
+&+BThe Holy Chamber of the &+MTeka&N~
+    The room here is large and contructed from marble.  There is
+large altar along the north wall.  The altar is covered in a white
+satin sheet. Upon it, there are two burning candles and a large
+ancient tome in the center. The tome is opened to a page marked
+by a purple ribbon.  A few tekans can be found praying to their
+god every hour.  There is only one exit out of this room.
+~
+752 4105 0
+D3
+A small gravel path lies beyond the marble door.
+~
+marble door~
+1 0 75222
+S
+#75259
+&+RA Small Pit of Fire&N~
+    This side open area in the settlement is marked by the holy pit
+of fire.  It is here that the holy flames have constantly danced
+and burned many items dedicated to the dead.  Many citizens bring
+different types of belongings and even bodies to this pit. The
+grounds around the pit are charred and some what blackened.  A
+line of rocks lines the circular pit. There is only one exit
+out of this room.
+~
+752 0 1
+D1
+The small gravel path lies to the east.
+~
+~
+0 0 75222
+S
+#75260
+&+GA Snow-Covered Pasture&N~
+    The small garden ends here where a small pasture begins.
+Green grass and other forms of plant life cover the area here.
+There is evidence of bloodshed on the grounds. Piercing this
+quiet area are the echoes of screams and swords clashing. Many
+small birds and other forest animals react in fright from these
+sounds as they flee the grounds.  There are exits all around
+leading into different parts of the settlement.
+~
+752 0 2
+D0
+A green pasture continues north.
+~
+~
+0 0 75261
+D2
+A small green garden lies south.
+~
+~
+0 0 75239
+S
+#75261
+&+GA Snow-Covered Pasture&N~
+    The small garden ends here where a small pasture begins.
+Green grass and other forms of plant life cover the area here.
+There is evidence of bloodshed on the grounds. Piercing this
+quiet area are the echoes of screams and swords clashing. Many
+small birds and other forest animals react in fright from these
+sounds as they flee the grounds.  There are exits all around
+leading into different parts of the settlement.
+~
+752 0 2
+D0
+A green pasture continues north.
+~
+~
+0 0 75262
+D2
+A green pasture continues to the south.
+~
+~
+0 0 75260
+S
+#75262
+&+GA Snow-Covered Pasture&N~
+    The small garden ends here where a small pasture begins.
+Green grass and other forms of plant life cover the area here.
+There is evidence of bloodshed on the grounds. Piercing this
+quiet area are the echoes of screams and swords clashing. Many
+small birds and other forest animals react in fright from these
+sounds as they flee the grounds.  There are exits all around
+leading into different parts of the settlement.
+~
+752 0 2
+D1
+A pile of bones is east.
+~
+~
+0 0 75263
+D2
+A green pasture continues south.
+~
+~
+0 0 75261
+S
+#75263
+&+WA Pile of Bones&N~
+    The grounds here are naked and apparently do not support
+any feasible plant life.  Within the center of this path, there
+is a large pile of bones.  These bones are many different animals
+and other strange creatures.  Most of these bones are dry and a
+few still bear the flesh of their owner.  There are two exits
+which lead in opposite directions.
+~
+752 1 2
+D1
+The area before a large cathedral is west.
+~
+~
+0 0 75223
+D3
+A green pasture lies east.
+~
+~
+0 0 75262
+S
+#75264
+&+MThe Vestibule&N~
+   Here within the vestibule of the cathedral, there are echoes
+of prayers and bells ringing.  The cathedral here is constructed
+from marble and other different types of precious stones. The
+floor here is covered in a red rug which runs in a northward
+direction toward a holy altar.  The walls here have been polished
+down and reflect the erie glow of the candles within the room.
+There are what appears to be stone figures watching over the
+area from the rafters up above.  There are exits in all
+directions from the vestibule.
+~
+752 131073 0
+D0
+~
+~
+0 0 75546
+D1
+An old staircase lies east.
+~
+~
+0 0 75273
+D2
+A small settlement lies to the south.
+~
+oaken door~
+1 0 75223
+D3
+The base of a ladder is west.
+~
+~
+0 0 75265
+S
+#75265
+&+CThe Foot of A Wooden Ladder&N~
+    A large wooden ladder starts here in this corner of the
+vestibule.  The ladder rises up toward the rafters and bell
+tower of the cathedral.  The ladder here is of sturdy wood
+and appears to be in good condition.  Along the path of the
+ladder, there are small windows which look upon the
+settlement.  The area up above is enshrouded in darkness.
+There are two exits out of this room.
+~
+752 4105 0
+D1
+The vestibule of the church is east.
+~
+~
+0 0 75264
+D4
+The ladder continues up.
+~
+~
+0 0 75266
+S
+#75266
+&+COn A Wooden Ladder&N~
+    A large wooden ladder continues up toward the rafters
+and bell tower of the cathedral.  The ladder here is of sturdy
+wood and appears to be in good condition.  With each step taken,
+the ladder creaks and squeaks.  Here also along the path of the
+ladder, there are small windows which look upon the settlement.
+The area up above is enshrouded in darkness. There are two exits
+along the ladder which lead in opposite directions.
+~
+752 4105 0
+D4
+The wooden ladder continues up.
+~
+~
+0 0 75267
+D5
+The ladder continues down.
+~
+~
+0 0 75265
+F
+10
+S
+#75267
+&+COn A Wooden Ladder&N~
+    A large wooden ladder continues up toward the rafters
+and bell tower of the cathedral.  The ladder here is of sturdy
+wood and appears to be in good condition.  With each step taken,
+the ladder creaks and squeaks.  Here also along the path of the
+ladder, there are small windows which look upon the settlement.
+The area up above is enshrouded in darkness. There are two exits
+along the ladder which lead in opposite directions.
+~
+752 4105 0
+D4
+The ladder continues up.
+~
+~
+0 0 75268
+D5
+The ladder continues down.
+~
+~
+0 0 75266
+F
+10
+S
+#75268
+&+MOn A Large Wooden Rafter&N~
+    The rafter here in the cathedral is almost three feet wide and
+is of a sturdy wood.  Here some thirty feet above the ground, bats
+rest and take naps hanging upside down from a nearby smaller rafter.
+The vault of the cathedral here is ribbed.  Spreading the weight on
+to its support columns, the vault of the cathedral is painted with
+holy scenes.  There are two exits along this rafter.
+~
+752 4105 0
+D1
+The rafter continues east.
+~
+~
+0 0 75269
+D5
+A wooden ladder leads down from here.
+~
+~
+0 0 75267
+S
+#75269
+&+MBelow A Large Bell&N~
+    The rafter here in the cathedral is almost three feet wide and
+is of a sturdy wood.  Here some thirty feet above the ground, bats
+rest and take naps hanging upside down from a nearby smaller rafter.
+A large metallic bell hangs from a larger rafter above you here.
+This bell rocks from side to side as a light breeze blows by. The
+bell here has a wide diameter. There are two exits along this rafter.
+~
+752 4105 0
+D1
+The rafter continues east.
+~
+~
+0 0 75270
+D3
+The rafter continues west.
+~
+~
+0 0 75268
+S
+#75270
+&+MOn A Large Wooden Rafter&N~
+    The rafter here in the cathedral is almost three feet wide and
+is of a sturdy wood.  Here some thirty feet above the ground, bats
+rest and take naps hanging upside down from a nearby smaller rafter.
+The vault of the cathedral here is ribbed.  Spreading the weight on
+to its support columns, the vault of the cathedral is painted with
+holy scenes.  There are two exits along this rafter.
+~
+752 4105 0
+D3
+The rafter continues west.
+~
+~
+0 0 75269
+D5
+A staircase continues down.
+~
+~
+0 0 75271
+S
+#75271
+&+BOn An Old Staircase&N~
+    A large circular stone staircase continues upward direction in
+this corner of the cathedral.  The staircase here is of dark granite
+and marble slabs of rock.  The hand rail along the west side of the
+staircase is of polished oaken wood.  Fastened to the walls of the
+cathedral here are small torches which illuminate the steps and
+surrounding area with an erie yellow glow.  There are two exits
+along this staircase leading in opposite directions.
+~
+752 4105 0
+D4
+The staircase continues up.
+~
+~
+0 0 75270
+D5
+The staircase continues down.
+~
+~
+0 0 75272
+S
+#75272
+&+BOn An Old Staircase&N~
+    A large circular stone staircase continues upward direction in
+this corner of the cathedral.  The staircase here is of dark granite
+and marble slabs of rock.  The hand rail along the west side of the
+staircase is of polished oaken wood.  Fastened to the walls of the
+cathedral here are small torches which illuminate the steps and
+surrounding area with an erie yellow glow.  There are two exits
+along this staircase leading in opposite directions.
+~
+752 4105 0
+D4
+The staircase continues up.
+~
+~
+0 0 75271
+D5
+The staircase continues down.
+~
+~
+0 0 75273
+S
+#75273
+&+BThe Foot of An Old Staircase&N~
+    A large circular stone staircase starts upward in this corner
+of the vestibule.  It is of dark granite.  The hand rail along the
+west side of the staircase is of polished oaken wood.  There are
+small torches fastened to the walls of the cathedral.  They
+illuminate the steps and surrounding area with an erie yellow
+glow. There are two exits from this room.
+~
+752 4105 0
+D3
+A vestibule lies west.
+~
+~
+0 0 75264
+D4
+The staircase continues up.
+~
+~
+0 0 75272
+S
+#75274
+&+BThe Bottom of a Frozen Well&N~
+    Several feet below ground, the water here is frozen solid.  There are
+frozen fish and other natural flora trapped below the ice.  Underneath the
+ice, something living appears to move. The walls of the well are constructed
+of granite and are in good condition.  There is only one exit out leading
+up to the surface.
+~
+752 4104 2
+D0
+~
+secret~
+5 0 75414
+D4
+The above surface lies in this direction.
+~
+~
+0 0 75275
+S
+#75275
+&+BThe Frozen Well&N~
+   The small path from the tavern leads to this well.  The cold weather
+here has apparently frozen it also.  The well walls here rises two feet
+above ground. The well appears to sinks many feet below the earth.  Piles
+of snow have collapsed around the well from the wooden roof over the well.
+This roof is constructed from oak and pine.  It has with held up against
+the snow and cold. There is a ropen ladder leading down into the well.
+There are two exits leading into various directions.
+~
+752 0 2
+D2
+The Path continues south into more snow covered earth.
+~
+~
+0 0 75277
+D5
+The ropen ladder leads down into the well.
+~
+~
+0 0 75274
+F
+23
+S
+#75276
+&+BThe Frozen Trail Through A Dense Forest&N~
+   Here within a dense forest, snow covers the ground and surrounding
+areas for several miles.  Little shrubs growing along this trail lie
+buried beneath the snow.  Their outline is almost hidden underneath
+the mounds.  Small forest creatures can be seen traveling through the
+forest seeking food. There are two exits out leading into various
+directions.
+~
+752 0 3
+D1
+The frozen trail continues east.
+~
+~
+0 0 75280
+D3
+The frozen trail continues west.
+~
+~
+0 0 75277
+S
+#75277
+&+BA Frozen Trail&N~
+   Snow and ice cover the trail here.  There are animal tracks through
+the snow leading in many different directions.  The enterance to the
+Frozen Tavern of the Ice Lakes lies farther to the west along this trail.
+Chatter and laughter can be heard from the nearby premises. There is
+the sounds and smell of cooking food. There are two exits leading from
+this room. The exit to the west leads into the Frozen Tavern of Ice
+Lakes.  The exit east leads toward the frozen lake.
+~
+752 0 2
+D0
+A small pathway leads to the north from here.
+~
+~
+0 0 75275
+D1
+The trail continues eastward.
+~
+~
+0 0 75276
+D3
+A large warm tavern lies just beyond the door.
+~
+door~
+1 0 75278
+S
+#75278
+&+RInside the Frozen Tavern of the Ice Lakes&N~
+   Chatter and the sounds and smell of food fill this establishment.
+Many travellers make a stop here to escape the winter wonderland.
+The room here is constructed from wood and mortar.  Large sheets
+of linen are draped from the ceiling along the walls helping to
+insulate the room here from the outside cold. Tables and chairs fill
+this room. There are two exits out of this room of the tavern.
+~
+752 4104 0
+D0
+The back room is north.
+~
+~
+0 0 75279
+D1
+A frozen trail lies just outside the doorway.
+~
+door~
+1 0 75277
+S
+#75279
+&+RThe Back Room of the Tavern&N~
+   The Tavern of the Frozen Ice Lakes continues here in the back
+room.  More fun and other activities fill this room.  Many travellers
+like and enjoy entertainers who have made stops in the middle of this
+area.  The room here is also constructed in wood and mortar. Also many
+linen sheets cover the walls of this room to keep out the cold weather.
+There are two exits out of this room.
+~
+752 4104 0
+D2
+More tavern fun can be seen to the south.
+~
+~
+0 0 75278
+S
+#75280
+&+BThe Frozen Trail Through A Dense Forest&N~
+   The trail here is covered under almost one foot of snow. There
+outlines of shrubs and other plant life through the snow.  This
+trail continues in an east-west direction.  Toward the east, a large
+open area can be seen just ahead.  Further west, a small lighted
+establishment can barely be seen.  There are tracks of animals
+heading in both directions.
+~
+752 0 3
+D1
+The frozen trail continues to the east.
+~
+~
+0 0 75281
+D3
+The frozen trail continues to the west.
+~
+~
+0 0 75276
+S
+#75281
+&+BThe Frozen Trail Through A Dense Forest&N~
+   Here within a dense forest, snow covers the ground and surrounding
+areas for several miles.  Little shrubs growing along this trail lie
+buried beneath the snow.  Their outline is almost hidden underneath
+the mounds.  Small forest creatures can be seen traveling through the
+forest seeking food. There are two exits out leading into various
+directions.
+~
+752 0 3
+D1
+The forest trail continues east.
+~
+~
+0 0 75282
+D3
+The forest trail continues west.
+~
+~
+0 0 75280
+S
+#75282
+&+BThe Frozen Trail Through A Dense Forest&N~
+   The trail here is covered under almost one foot of snow.  There
+are tracks in the snow of animals leading off in many different directions.
+This frozen trail continues in an east-west direction.  Toward the east,
+a large frozen lake can be seen just ahead.  The frozen trail continues
+toward the west through a dense forest.  There are forest creatures
+wandering through the area hunting.  There are two exits from
+this area leading in opposite directions.
+~
+752 0 3
+D1
+A large frozen lake can be seen to the east.
+~
+~
+0 0 75283
+D3
+A frozen trail continues the west.
+~
+~
+0 0 75281
+S
+#75283
+&+BA Small Pathway Around A Lake&N~
+   The path around the ice lake continues in this direction.  A large
+dense forest can be seen to the west of the lake.  Within the forest,
+many small creatures can be seen hunting and foraging for food.
+The large ice lake to the east seems to extend for a great distance.
+It is partially frozen over. There are exits all around leading into
+various directions.
+~
+752 0 2
+D0
+A small footpath starts north.
+~
+~
+0 0 75410
+D1
+A large frozen lake lies to the east.
+~
+~
+0 0 75284
+D2
+The path continues south.
+~
+~
+0 0 75374
+D3
+A small frozen trail leads off to the west.
+~
+~
+0 0 75282
+S
+#75284
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Just beyond the northern shores of this lake,
+there is a large forest that covers the area as a whole.  There
+are exits all around leading away from the rough stone coast to
+the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75285
+D2
+The lake continues to the south.
+~
+~
+0 0 75289
+D3
+A small pathway lies to the west.
+~
+~
+0 0 75283
+S
+#75285
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Just beyond the northern shores of this lake,
+there is a large forest that covers the area as a whole.  There
+are exits all around leading away from the rough stone coast to
+the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75286
+D2
+The lake continues south.
+~
+~
+0 0 75290
+D3
+The lake continues west.
+~
+~
+0 0 75284
+S
+#75286
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Just beyond the northern shores of this lake,
+there is a large forest that covers the area as a whole.  There
+are exits all around leading away from the rough stone coast to
+the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75287
+D2
+The lake continues south
+~
+~
+0 0 75291
+D3
+The lake continues west.
+~
+~
+0 0 75285
+S
+#75287
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Just beyond the northern shores of this lake,
+there is a large forest that covers the area as a whole.  There
+are exits all around leading away from the rough stone coast to
+the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75288
+D2
+The lake continues south.
+~
+~
+0 0 75292
+D3
+The lake continues west.
+~
+~
+0 0 75286
+S
+#75288
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Just beyond the northern shores of this lake,
+there is a large forest that covers the area as a whole.  There
+are exits all around leading away from the rough stone coast to
+the north.
+~
+752 0 7
+D2
+The lake continues south.
+~
+~
+0 0 75293
+D3
+The lake continues west.
+~
+~
+0 0 75287
+S
+#75289
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading away from the
+rough stone coast to the west.
+~
+752 0 7
+D0
+The lake continues to the north.
+~
+~
+0 0 75284
+D1
+The lake continues east.
+~
+~
+0 0 75290
+D2
+The lake continues to the south.
+~
+~
+0 0 75294
+D3
+A small path is west.
+~
+~
+0 0 75374
+S
+#75290
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75285
+D1
+The lake continues east.
+~
+~
+0 0 75291
+D2
+The lake continues south.
+~
+~
+0 0 75295
+D3
+The lake continues west.
+~
+~
+0 0 75289
+S
+#75291
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75286
+D1
+The lake continues east.
+~
+~
+0 0 75292
+D2
+The lake continues south.
+~
+~
+0 0 75296
+D3
+The lake continues west.
+~
+~
+0 0 75290
+S
+#75292
+&+WOn A Frozen Sheet of Ice&N~
+   The lake here has frozen over into this small sheet of ice. This
+small ice island is small and slippery.  It bobs up and down in the
+frozen lake in a constant rythym.  Many creatures of this environment
+can sometimes be found upon these snow islands.  There are exits
+all around leading back into the cold waters of the lake.
+~
+752 0 2
+D0
+The lake continues north.
+~
+~
+0 0 75287
+D1
+The lake continues east.
+~
+~
+0 0 75293
+D2
+The lake continues south.
+~
+~
+0 0 75297
+D3
+The lake continues west.
+~
+~
+0 0 75291
+S
+#75293
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the western shores of this lake, a large
+open plain covered in snow seems to extend for miles.  There are
+exits all around leading away from the rough stone coast to
+the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75288
+D2
+The lake continues south.
+~
+~
+0 0 75298
+D3
+The lake continues west.
+~
+~
+0 0 75292
+S
+#75294
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading away from the
+rough stone coast to the west.
+~
+752 0 7
+D0
+The lake continues to the north.
+~
+~
+0 0 75289
+D1
+The lake continues east.
+~
+~
+0 0 75295
+D2
+The lake continues south.
+~
+~
+0 0 75299
+D3
+A small path is west.
+~
+~
+0 0 75376
+S
+#75295
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75290
+D1
+The lake continues east.
+~
+~
+0 0 75296
+D2
+The lake continues south.
+~
+~
+0 0 75300
+D3
+The lake continues west.
+~
+~
+0 0 75294
+S
+#75296
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75291
+D1
+The lake continues east.
+~
+~
+0 0 75297
+D2
+The lake continues south.
+~
+~
+0 0 75301
+D3
+The lake continues west.
+~
+~
+0 0 75295
+S
+#75297
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75292
+D1
+The lake continues east.
+~
+~
+0 0 75298
+D2
+The lake continues south.
+~
+~
+0 0 75302
+D3
+The lake continues west.
+~
+~
+0 0 75296
+S
+#75298
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the western shores of this lake, a large
+open plain covered in snow seems to extend for miles.  There are
+exits all around leading away from the rough stone coast to
+the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75293
+D2
+The lake continues south.
+~
+~
+0 0 75303
+D3
+The lake continues west.
+~
+~
+0 0 75297
+S
+#75299
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading away from the
+rough stone coast to the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75294
+D1
+The lake continues east.
+~
+~
+0 0 75300
+D2
+The lake continues south.
+~
+~
+0 0 75304
+D3
+A small path is west.
+~
+~
+0 0 75375
+S
+#75300
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75295
+D1
+The lake continues east.
+~
+~
+0 0 75301
+D2
+The lake continues south.
+~
+~
+0 0 75305
+D3
+The lake continues west.
+~
+~
+0 0 75299
+S
+#75301
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75296
+D1
+The lake continues east.
+~
+~
+0 0 75302
+D2
+The lake continues south.
+~
+~
+0 0 75306
+D3
+The lake continues west.
+~
+~
+0 0 75300
+S
+#75302
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. There are exits all around leading to various
+parts of the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75297
+D1
+The lake continues east.
+~
+~
+0 0 75303
+D2
+The lake continues south.
+~
+~
+0 0 75307
+D3
+The lake continues west.
+~
+~
+0 0 75301
+S
+#75303
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the western shores of this lake, a large
+open plain covered in snow seems to extend for miles.  There are
+exits all around leading away from the rough stone coast to
+the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75298
+D2
+The lake continues south.
+~
+~
+0 0 75308
+D3
+The lake continues west.
+~
+~
+0 0 75302
+S
+#75304
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  A large wooden pier can be seen
+further west just off this lake.  There a large gathering of people
+stand and talk. The skies here are overcast and it is very cold.
+There are exits all around from this point on the lake.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75299
+D1
+The lake continues east.
+~
+~
+0 0 75305
+D2
+A rocky shore is south.
+~
+~
+0 0 75381
+D3
+A large wooden pier lies to the west.
+~
+~
+0 0 75377
+S
+#75305
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the southern shores of this lake, there is
+a small path which leads in an east-west direction.  There are
+exits all around leading away from the rough stone coast to
+the south.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75300
+D1
+The lake continues east.
+~
+~
+0 0 75306
+D2
+A rocky shore is south.
+~
+~
+0 0 75382
+D3
+The lake continues west.
+~
+~
+0 0 75304
+S
+#75306
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the southern shores of this lake, there is
+a small path which leads in an east-west direction.  There are
+exits all around leading away from the rough stone coast to
+the south.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75301
+D1
+The lake continues east.
+~
+~
+0 0 75307
+D2
+An icy shore is south.
+~
+~
+0 0 75383
+D3
+The lake continues west.
+~
+~
+0 0 75305
+S
+#75307
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the southern shores of this lake, there is
+a small path which leads in an east-west direction.  There are
+exits all around leading away from the rough stone coast to
+the south.
+~
+752 0 7
+D0
+The lake contines north.
+~
+~
+0 0 75302
+D1
+The lake continues east.
+~
+~
+0 0 75308
+D3
+The lake continues west.
+~
+~
+0 0 75306
+S
+#75308
+&+WOn A Partially Frozen Lake&N~
+   The lake here is partially frozen over.  There are regions
+of cold water and others of small ice islands.  The ice islands
+bob up and down in the water at varying speeds.  Small aquatic
+animals can be seen swiming around underwater and come up for air
+and the occasional look around.  The skies here are overcast and
+it is very cold. Along the southern shores of this lake, there is
+a small path which leads in an east-west direction.  There are
+exits all around leading away from the rough stone coast to
+the south.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75303
+D1
+The lake continues east.
+~
+~
+0 0 75309
+D3
+The lake continues west.
+~
+~
+0 0 75307
+S
+#75309
+&+WA Small Rapid River&N~
+   The large lake feeds its waters into this small water way.
+The river here is almost fifteen feet across and flows farther
+to the east.  The waters here have a strong current that manages
+to pull everything along its way.  The banks of the river here
+are covered under mounds of snow that rise almost a foot high.
+There are two exits along this river.
+~
+752 0 7
+D1
+Thr river flows east.
+~
+~
+0 0 75310
+D3
+The river flows west.
+~
+~
+0 0 75308
+C
+29 1
+S
+#75310
+&+WThe Top of the Falls&N~
+    The waters of the river flow toward the cliff here.  Forming
+a small waterfall, the echoes of water crashing the rocks below fill
+the room and surrounding area.  Both sides of the shores here are
+lined with large jagged rocks.  The waters here are cold and have
+a strong current which pulls downward.  The river continues in
+two directions from here.
+~
+752 0 7
+D3
+The river flows in from the west.
+~
+~
+0 0 75309
+D5
+The river flows down the falls.
+~
+~
+0 0 75311
+C
+29 5
+S
+#75311
+&+WThe Bottom of the Small Waterfall&N~
+   The waters of the falls crash down here against the jagged
+rocks.  Here at the bottom of the falls, the three large boulders
+are constantly pounded by the waters of the falls.  The waters
+flow down with a great velocity shooting a mist into the
+surrounding area.  The current of the water seems to push
+you backward along the path of the water. There are only two
+exits away from these falls.
+~
+752 0 7
+D1
+The river flows eastward.
+~
+~
+0 0 75312
+D4
+The river flows in from above.
+~
+~
+0 0 75310
+C
+29 1
+S
+#75312
+&+WThe Top of A Small Waterfall&N~
+    The waters of the river flow toward the cliff here.  Forming
+a small waterfall, the echoes of water crashing the rocks below fill
+the room and surrounding area.  Both sides of the shores here are
+lined with large jagged rocks.  The waters here are cold and have
+a strong current which pulls downward.  The river continues in
+two directions from here.
+~
+752 0 7
+D3
+The river flows in from the west.
+~
+~
+0 0 75311
+D5
+The river flows down the falls.
+~
+~
+0 0 75313
+C
+35 5
+S
+#75313
+&+WThe Bottom of a Small Waterfall&N~
+   The waters of the falls crash down here against the jagged
+rocks.  Here at the bottom of the falls, the three large boulders
+are constantly pounded by the waters of the falls.  The waters
+flow down with a great velocity shooting a mist into the
+surrounding area.  The current of the water seems to push
+you backward along the path of the water. There are only two
+exits away from these falls.
+~
+752 0 7
+D1
+The river continues east.
+~
+~
+0 0 75314
+D4
+The river flows in from above.
+~
+~
+0 0 75312
+C
+30 1
+S
+#75314
+&+WA Small River&N~
+   The waterfalls shed their waters into this small river which
+flows into the Golden Lake. The river here is almost fifteen feet
+across and flows farther to the east.  The waters here have a
+strong current that manages to pull everything along its way.
+The banks of the river here are covered under mounds of snow
+that rise almost a foot high. There are two exits along this
+river.
+~
+752 0 7
+D1
+The river cotinues east.
+~
+~
+0 0 75315
+D3
+The river continues west.
+~
+~
+0 0 75313
+S
+#75315
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in various directions
+away from the shores to the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75316
+D2
+The lake continues south.
+~
+~
+0 0 75319
+D3
+A small river is west.
+~
+~
+0 0 75314
+S
+#75316
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in various directions
+away from the shores to the north.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75317
+D2
+The lake continues south.
+~
+~
+0 0 75320
+D3
+The lake continues west.
+~
+~
+0 0 75315
+S
+#75317
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in various directions
+away from the shores to the north.
+~
+752 0 7
+D0
+A rocky shore is north.
+~
+~
+0 0 75364
+D1
+The lake continues east.
+~
+~
+0 0 75318
+D2
+The lake continues south.
+~
+~
+0 0 75321
+D3
+The lake continues west.
+~
+~
+0 0 75316
+S
+#75318
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in various directions
+away from the shores to the north.
+~
+752 0 7
+D2
+The lake continues south.
+~
+~
+0 0 75322
+D3
+The lake continues west.
+~
+~
+0 0 75317
+S
+#75319
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large dense forest with thick vegetation
+lines the western rocky shores.  Within the forest, small
+animals can be seen foraging for food. The lake continues
+in various directions away from the shores to the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75315
+D1
+The lake continues east.
+~
+~
+0 0 75320
+D2
+The lake continues south.
+~
+~
+0 0 75323
+D3
+A small landing is west.
+~
+~
+0 0 75391
+S
+#75320
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in all directions
+from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75316
+D1
+The lake continues east.
+~
+~
+0 0 75321
+D2
+The lake continues south.
+~
+~
+0 0 75324
+D3
+The lake continues west.
+~
+~
+0 0 75319
+S
+#75321
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in all directions
+from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75317
+D1
+The lake continues east.
+~
+~
+0 0 75322
+D2
+The lake continues south.
+~
+~
+0 0 75325
+D3
+The lake continues west.
+~
+~
+0 0 75320
+S
+#75322
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large dense forest lines the eastern
+rocky shores.  Within the forest, there appears to be signs
+of smoke and fire. The lake continues in various directions
+away from the shores.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75318
+D2
+The lake continues south.
+~
+~
+0 0 75326
+D3
+The lake continues west.
+~
+~
+0 0 75321
+S
+#75323
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large dense forest with thick vegetation
+lines the western rocky shores.  Within the forest, small
+animals can be seen foraging for food. The lake continues
+in various directions away from the shores to the west.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75319
+D1
+The lake continues east.
+~
+~
+0 0 75324
+D2
+The lake continues south.
+~
+~
+0 0 75327
+S
+#75324
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in all directions
+from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75320
+D1
+The lake continues east.
+~
+~
+0 0 75325
+D2
+The lake continues south.
+~
+~
+0 0 75328
+D3
+The lake continues west.
+~
+~
+0 0 75323
+S
+#75325
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  The lake continues in all directions
+from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75321
+D1
+The lake continues east.
+~
+~
+0 0 75326
+D2
+The lake continues south.
+~
+~
+0 0 75329
+D3
+The lake continues west.
+~
+~
+0 0 75324
+S
+#75326
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large dense forest lines the eastern
+rocky shores.  Within the forest, there appears to be signs
+of smoke and fire. The lake continues in various directions
+away from the shores.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75322
+D2
+The lake continues south.
+~
+~
+0 0 75330
+D3
+The lake continues west.
+~
+~
+0 0 75325
+S
+#75327
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  Just south on this lake, another water
+way starts. The lake continues in various directions from
+this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75323
+D1
+The lake continues east.
+~
+~
+0 0 75328
+D2
+The lake continues south.
+~
+~
+0 0 75331
+S
+#75328
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large open plain can be seen just
+beyond the southern rocky shores of the lake.  This lake
+continues in various directions away from the shores.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75324
+D1
+The lake continues east.
+~
+~
+0 0 75329
+D3
+The lake continues west.
+~
+~
+0 0 75327
+S
+#75329
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large open plain can be seen just
+beyond the southern rocky shores of the lake.  This lake
+continues in various directions away from the shores.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75325
+D1
+The lake continues east.
+~
+~
+0 0 75330
+D3
+The lake continues west.
+~
+~
+0 0 75328
+S
+#75330
+&+YThe Golden Lake&N~
+   The waters of the Golden Lake here are crystal clear and
+quiet.  Within the clear waters, a variety of animals can be
+observed swimming below.  A great variety of aquatic animal
+and plant life can be found coexisting within this habitat.
+Some of the animals disapper as they dive below the surface
+in search of food.  A large dense forest lines the eastern
+rocky shores.  Within the forest, there appears to be signs
+of smoke and fire. The lake continues in various directions
+away from the shores.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75326
+D3
+The lake continues west.
+~
+~
+0 0 75329
+S
+#75331
+&+BThe Murar River&N~
+    The waters of the Golden Lake flow into this water way
+called the Murar River.  The shores of the river are lined with
+large jagged rocks that are lined with crash remnants of canoes
+and other small rafts.  The waters here are cold and have a strong
+current which pulls away from the lake.  Along one side of the
+river here, there is a small pathway which leads away.  The river
+continues in two directions from here.
+~
+752 0 7
+D0
+The river continues north toward a lake.
+~
+~
+0 0 75327
+D2
+The river flows south.
+~
+~
+0 0 75332
+C
+30 2
+S
+#75332
+&+BThe Top of the Murar Falls&N~
+    The waters of the Murar River flow off the cliff here.  Forming
+a small waterfall, the echoes of water crashing the rocks below fill
+the room and surrounding area.  Both sides of the shores here are
+lined with large jagged rocks.  The waters here are cold and have
+a strong current which pulls downward.  The river continues in
+two directions from here.
+~
+752 0 7
+D0
+The river flows north.
+~
+~
+0 0 75331
+D5
+The river flows down the falls.
+~
+~
+0 0 75333
+C
+30 5
+S
+#75333
+&+BThe Base of the Small Falls&N~
+   The waters of the falls crash down here against the jagged
+rocks.  Here at the bottom of the falls, the three large boulders
+are constantly pounded by the waters of the falls.  The waters
+flow down with a great velocity shooting a mist into the
+surrounding area.  The current of the water seems to push
+you backward along the path of the water. There are only two
+exits away from these falls.
+~
+752 0 7
+D2
+The waters flow south.
+~
+~
+0 0 75334
+D4
+The waters flow in from above.
+~
+~
+0 0 75332
+C
+30 2
+S
+#75334
+&+BAnother Top of the Murar Falls&N~
+    The waters of the Murar River flow off the cliff here.  Forming
+a small waterfall, the echoes of water crashing the rocks below fill
+the room and surrounding area.  Both sides of the shores here are
+lined with large jagged rocks.  The waters here are cold and have
+a strong current which pulls downward.  The river continues in
+two directions from here.
+~
+752 0 7
+D0
+The waters flow in from the north.
+~
+~
+0 0 75333
+D5
+The waters flow down the falls.
+~
+~
+0 0 75335
+C
+30 5
+S
+#75335
+&+BThe Base of the Small Falls&N~
+   The waters of the falls crash down here against the jagged
+rocks.  Here at the bottom of the falls, the three large boulders
+are constantly pounded by the waters of the falls.  The waters
+flow down with a great velocity shooting a mist into the
+surrounding area.  The current of the water seems to push
+you backward along the path of the water. There are only two
+exits away from these falls.
+~
+752 0 7
+D3
+The waters flow west.
+~
+~
+0 0 75336
+D4
+The waters flow in from above.
+~
+~
+0 0 75334
+C
+30 3
+S
+#75336
+&+BThe Top of the Murar Falls&N~
+    The waters of the Murar River flow off the cliff here.  Forming
+a small waterfall, the echoes of water crashing the rocks below fill
+the room and surrounding area.  Both sides of the shores here are
+lined with large jagged rocks.  The waters here are cold and have
+a strong current which pulls downward.  The river continues in
+two directions from here.
+~
+752 0 7
+D1
+The waters flow in from the east.
+~
+~
+0 0 75335
+D5
+The waters flow down the falls.
+~
+~
+0 0 75337
+C
+30 5
+S
+#75337
+&+BThe Bottom of the Murar Falls&N~
+   The waters of the falls crash down here against the jagged
+rocks.  Here at the bottom of the falls, the three large boulders
+are constantly pounded by the waters of the falls.  The waters
+flow down with a great velocity shooting a mist into the
+surrounding area.  The current of the water seems to push
+you backward along the path of the water. There are only two
+exits away from these falls.
+~
+752 0 7
+D1
+~
+~
+0 0 537889
+D3
+The waters flow west.
+~
+~
+0 0 75338
+D4
+The waters flow in from above.
+~
+~
+0 0 75336
+C
+30 3
+S
+#75338
+&+BThe Murar River&N~
+    The waters of the Lake of Murar flow into this water way
+called the Murar River.  The shores of the river are lined with
+large jagged rocks that are lined with crash remnants of canoes
+and other small rafts.  The waters here are cold and have a strong
+current which pulls away from the lake.  Along one side of the
+river here, there is a small pathway which leads away.  The river
+continues in two directions from here.
+~
+752 0 7
+D1
+The river flows east.
+~
+~
+0 0 75337
+D3
+The river flows west.
+~
+~
+0 0 75343
+C
+15 3
+S
+#75339
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the north side of the shores here before a large
+dense forest.  Here on the lake, there are various species of
+aquatic animals which swim away from the shore.  The lake
+continues in various directions from here.
+~
+752 0 7
+D0
+A snow covered path is north.
+~
+~
+0 0 75200
+D1
+The lake continues east.
+~
+~
+0 0 75340
+D2
+The lake continues south.
+~
+~
+0 0 75344
+S
+#75340
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the north side of the shores here before a large
+dense forest.  Here on the lake, there are various species of
+aquatic animals which swim away from the shore.  The lake
+continues in various directions from here.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75341
+D2
+The lake continues south.
+~
+~
+0 0 75345
+D3
+The lake continues west.
+~
+~
+0 0 75339
+S
+#75341
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the north side of the shores here before a large
+dense forest.  Here on the lake, there are various species of
+aquatic animals which swim away from the shore.  The lake
+continues in various directions from here.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75342
+D2
+The lake continues south.
+~
+~
+0 0 75346
+D3
+The lake continues west.
+~
+~
+0 0 75340
+S
+#75342
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the north side of the shores here before a large
+dense forest.  Here on the lake, there are various species of
+aquatic animals which swim away from the shore.  The lake
+continues in various directions from here.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75343
+D2
+The lake continues south.
+~
+~
+0 0 75347
+D3
+The lake continues west.
+~
+~
+0 0 75341
+S
+#75343
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the north side of the shores here before a large
+dense forest.  Here on the lake, there are various species of
+aquatic animals which swim away from the shore.  The lake
+continues in various directions from here.
+~
+752 0 7
+D1
+The lake continues east.
+~
+~
+0 0 75338
+D2
+The lake continues south.
+~
+~
+0 0 75348
+D3
+The lake continues west.
+~
+~
+0 0 75342
+S
+#75344
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the west side of the shores.  Here on the lake,
+there are various species of aquatic animals which swim away
+from the rocky shore to the west.  There are strange sounds
+of snoring on this part of lake of Murar.  The lake continues
+in various directions from here away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75339
+D1
+The lake continues east.
+~
+~
+0 0 75345
+D2
+The lake continues south.
+~
+~
+0 0 75349
+S
+#75345
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75340
+D1
+The lake continues east.
+~
+~
+0 0 75346
+D2
+The lake continues south.
+~
+~
+0 0 75350
+D3
+The lake continues west.
+~
+~
+0 0 75344
+S
+#75346
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75341
+D1
+The lake continues east.
+~
+~
+0 0 75347
+D2
+The lake continues south.
+~
+~
+0 0 75351
+D3
+The lake continues west.
+~
+~
+0 0 75345
+S
+#75347
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75342
+D1
+The lake continues east.
+~
+~
+0 0 75348
+D2
+The lake continues south.
+~
+~
+0 0 75352
+D3
+The lake continues west.
+~
+~
+0 0 75346
+S
+#75348
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the east
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  Some of these
+icy patches crash loudly against the rocky shore. A large clear
+area covered in snow can be seen along the east side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the east.
+The lake continues in various directions from here away
+from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75343
+D2
+The lake continues south.
+~
+~
+0 0 75353
+D3
+The lake continues west.
+~
+~
+0 0 75347
+S
+#75349
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the west side of the shores.  Here on the lake,
+there are various species of aquatic animals which swim away
+from the rocky shore to the west.  There are strange sounds
+of snoring on this part of lake of Murar.  The lake continues
+in various directions from here away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75344
+D1
+The lake continues east.
+~
+~
+0 0 75350
+D2
+The lake continues south.
+~
+~
+0 0 75354
+S
+#75350
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75345
+D1
+The lake continues east.
+~
+~
+0 0 75351
+D2
+The lake continues south.
+~
+~
+0 0 75355
+D3
+The lake continues west.
+~
+~
+0 0 75349
+S
+#75351
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75346
+D1
+The lake continues east.
+~
+~
+0 0 75352
+D2
+The lake continues south.
+~
+~
+0 0 75356
+D3
+The lake continues west.
+~
+~
+0 0 75350
+S
+#75352
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75347
+D1
+The lake continues east.
+~
+~
+0 0 75353
+D2
+The lake continues south.
+~
+~
+0 0 75357
+D3
+The lake continues west.
+~
+~
+0 0 75351
+S
+#75353
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the east
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  Some of these
+icy patches crash loudly against the rocky shore. A large clear
+area covered in snow can be seen along the east side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the east.
+The lake continues in various directions from here away
+from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75348
+D2
+The lake continues south.
+~
+~
+0 0 75358
+D3
+The lake continues west.
+~
+~
+0 0 75352
+S
+#75354
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the west side of the shores.  Here on the lake,
+there are various species of aquatic animals which swim away
+from the rocky shore to the west.  There are strange sounds
+of snoring on this part of lake of Murar.  The lake continues
+in various directions from here away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75349
+D1
+The lake continues east.
+~
+~
+0 0 75355
+D2
+The lake continues south.
+~
+~
+0 0 75359
+S
+#75355
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75350
+D1
+The lake continues east.
+~
+~
+0 0 75356
+D2
+The lake continues south.
+~
+~
+0 0 75360
+D3
+The lake continues west.
+~
+~
+0 0 75354
+S
+#75356
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75351
+D1
+The lake continues east.
+~
+~
+0 0 75357
+D2
+The lake continues south.
+~
+~
+0 0 75361
+D3
+The lake continues west.
+~
+~
+0 0 75355
+S
+#75357
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar are quiet here.  The
+waters are littered with small patches of ice which  float in
+various directions here.  Some of which float towards the rocky
+shore on the outskirts of the lake.   Here on the lake, there
+are various species of aquatic animals which swim away from
+the rocky shore to the east. Some of which hunt for food in
+this cold and harsh environment.  The lake continues in
+all directions from this point.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75352
+D1
+The lake continues east.
+~
+~
+0 0 75358
+D2
+The lake continues south.
+~
+~
+0 0 75362
+D3
+The lake continues west.
+~
+~
+0 0 75356
+S
+#75358
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the east
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  Some of these
+icy patches crash loudly against the rocky shore. A large clear
+area covered in snow can be seen along the east side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the east.
+The lake continues in various directions from here away
+from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75353
+D2
+The lake continues south.
+~
+~
+0 0 75363
+D3
+The lake continues west.
+~
+~
+0 0 75357
+S
+#75359
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the shore
+here.  The waters here are littered with small patches of
+ice which  float in various directions here.  A small path can
+be seen along the west side of the shores.  Here on the lake,
+there are various species of aquatic animals which swim away
+from the rocky shore to the west.  There are strange sounds
+of snoring on this part of lake of Murar.  The lake continues
+in various directions from here away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75354
+D1
+The lake continues east.
+~
+~
+0 0 75360
+S
+#75360
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the south
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  A large clear
+area covered in snow can be seen along the south side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the south.
+There are strange sounds of snoring on this part of lake of
+Murar.  The lake continues in various directions from here
+away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75355
+D1
+The lake continues east.
+~
+~
+0 0 75361
+D3
+The lake continues west.
+~
+~
+0 0 75359
+S
+#75361
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the south
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  A large clear
+area covered in snow can be seen along the south side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the south.
+There are strange sounds of snoring on this part of lake of
+Murar.  The lake continues in various directions from here
+away from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75356
+D1
+The lake continues east.
+~
+~
+0 0 75362
+D3
+The lake continues west.
+~
+~
+0 0 75360
+S
+#75362
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the south
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  A large clear
+area covered in snow can be seen along the south side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the south.
+The lake continues in various directions from here away
+from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75357
+D1
+The lake continues east.
+~
+~
+0 0 75363
+D3
+The lake continues west.
+~
+~
+0 0 75361
+S
+#75363
+&+CThe Lake of Murar&N~
+   The cold waters of the lake of Murar crash upon the south
+shore here.  The waters are littered with small patches of
+ice which  float in various directions here.  A large clear
+area covered in snow can be seen along the south side of the
+shores.  Here on the lake, there are various species of aquatic
+animals which swim away from the rocky shore to the south.
+The lake continues in various directions from here away
+from the shore.
+~
+752 0 7
+D0
+The lake continues north.
+~
+~
+0 0 75358
+D1
+~
+~
+0 0 539488
+D3
+The lake continues west.
+~
+~
+0 0 75362
+S
+#75364
+&+WThe Icy Shore of the Golden Lake&N~
+    The path continues here along the northern shore of the Golden
+Lake.  The shore here is very rough.  It is covered with many different
+jagged rocks of all shapes and sizes.  There are visible remnants of
+broken travelling vessels. The icy waters of the Golden Lake crash
+upon this shore with a constant repitition.  The grounds of the
+shore are covered under almost a foot of snow.  Snow also covers
+the surrounding lands.  There are two exits which lead in various
+directions from this point.
+~
+752 0 2
+D0
+A snow covered path lies to the north.
+~
+~
+0 0 75365
+D2
+The Golden Lake continues to the south.
+~
+~
+0 0 75317
+D3
+The icy shore is west.
+~
+~
+0 0 75393
+S
+#75365
+&+BA Small Walkway&N~
+   This pathway is barely visible under the snow.  There are humanoid
+tracks leading to the north to some sort of settlement. There appears
+to be smoke rising above the settlement from a fire. The surrounding
+land are also covered in snow.  There are a few visible snow creatures
+travelling around.  There are two exits along this pathway leading to
+the settlement and back to the shore.
+~
+752 0 2
+D0
+The iron gates of the settlement lie to the north.
+~
+~
+0 0 75366
+D2
+A rocky shore lies to the south.
+~
+~
+0 0 75364
+S
+#75366
+&+WThe Gates Before the Settlement of the &+RRuzdo&N~
+   Iron gates block the exit to the north.  A large stone wall surrounds
+the settlement of the Ruzdo.  The wall is engraved with sayings and
+inscriptions which are barely visible under the ice and snow. There
+is smoke rising from the settlement behind the gates. Beyond the gates,
+many members of the Ruzdo tribe complete many tasks. There are two
+exits from this room leading north and south from these gates.
+~
+752 0 2
+D0
+The settlement of the Ruzdo lie just beyond the iron gates.
+~
+iron gates~
+1 0 75367
+D2
+A snow covered pathway lies to the south.
+~
+~
+0 0 75365
+S
+#75367
+&+MA Path Through the Settlement&N~
+    This is the settlement of the &+RRuzdo&N.  The members of this
+tribe roam and invade the surrounding realms.  They return to this
+town to rest and re-group. This town here is a small settlement of
+a couple of huts and chambers.  Many tribes men and women can be
+seen travelling through the settlement taking care of tasks at hand.
+There are two exits from this part of the settlement.
+~
+752 0 1
+D0
+The settlement continues to the north.
+~
+~
+0 0 75368
+D2
+This way leads to out of the settlement.
+~
+iron gates~
+1 0 75366
+S
+#75368
+&+MA Path Through the Settlement&N~
+    This is the settlement of the &+RRuzdo&N.  The members of this
+tribe roam and invade the surrounding realms.  They return to this
+town to rest and re-group. This town here is a small settlement of
+a couple of huts and chambers.  Many tribes men and women can be
+seen travelling through the settlement taking care of tasks at hand.
+There are two exits from this part of the settlement.
+~
+752 0 1
+D0
+The path continues north.
+~
+~
+0 0 75369
+D2
+The path continues south.
+~
+~
+0 0 75367
+S
+#75369
+&+MA Path Through the Settlement&N~
+    This is the settlement of the &+RRuzdo&N.  The members of this
+tribe roam and invade the surrounding realms.  They return to this
+town to rest and re-group. This town here is a small settlement of
+a couple of huts and chambers.  Many tribes men and women can be
+seen travelling through the settlement taking care of tasks at hand.
+There are two exits from this part of the settlement.
+~
+752 0 1
+D1
+The path continues east.
+~
+~
+0 0 75370
+D2
+The path continues south.
+~
+~
+0 0 75368
+S
+#75370
+&+MA Path Through the Settlement&N~
+    This small snow-covered path travels through the settlement
+of the &+RRuzdo&N.  Here in this small town, the many members
+and elders rest after their many invasions and trips to foreign lands.
+There are human and animal tracks leading in many different directions.
+A small hut lies further west along this pathway.  This pathway leads
+in an east-west direction providing two exits into various parts of
+the settlement.
+~
+752 0 1
+D0
+A small house lies to the north of the pathway.
+~
+door~
+1 0 75373
+D1
+The pathway continues east.
+~
+~
+0 0 75371
+D3
+The pathway continues west.
+~
+~
+0 0 75369
+S
+#75371
+&+MA Path Through the Settlement&N~
+    This small snow-covered path travels through the settlement
+of the &+RRuzdo&N.  Here in this small town, the many members
+and elders rest after their many invasions and trips to foreign lands.
+There are human and animal tracks leading in many different
+directions. A small hut lies further west along this pathway.  This
+pathway leads in an east-west direction providing two exits into
+ various parts of the settlement.
+~
+752 0 1
+D1
+The pathway continues east into a small hut.
+~
+small door~
+1 0 75372
+D3
+The pathway continues west.
+~
+~
+0 0 75370
+S
+#75372
+&+RA Small Hut&N~
+   This small hut is warmed by the small fire in the center.  The
+fire produces an erie golden glow throughout the entire room.
+The room is of wooden planks and mortar.  There is a small altar
+along the south wall where many holy items rest.  The rest of the room
+appears lightly decorated. There is only one exit from this room.
+~
+752 4104 0
+D3
+This small door leads back to the settlement.
+~
+small door~
+1 0 75371
+S
+#75373
+&+BThe Chambers of the &+RRuzdo&N &+BElders&N~
+    This is the chamber of the elders of the &+RRuzdo&N.  Here
+within this establishment, the elders rule over their tribe.  Every
+important decision is made within this chamber.  The room here is
+large and constructed from stone.  Silken war banners hang on the
+western wall.  The floor is covered in an red elven carpet.  There is
+one exit out.
+~
+752 4104 0
+D2
+The settlement lies beyond the doorway.
+~
+door~
+1 0 75370
+S
+#75374
+&+BA Small Path Around A Lake&N~
+   The path around the ice lake continues in this direction.  A large
+dense forest can be seen to the west of the lake.  Within the forest,
+many small creatures can be seen hunting and foraging for food.
+The large ice lake to the east seems to extend for a great distance.
+It is partially frozen over. Further south, there is a large wooden
+pier of sorts that has been cleared of snow.  There are exits all
+around leading into various directions.
+~
+752 0 2
+D0
+The path continues north.
+~
+~
+0 0 75283
+D1
+A large lake is east.
+~
+~
+0 0 75289
+D2
+The path continues south.
+~
+~
+0 0 75376
+S
+#75375
+&+CApproaching A Large Pier&N~
+   The snow covered path continues here.  Like the surrounding area,
+this path is covered under mounds of snow and some ice. A large
+wooden pier lies toward the south.  There it appears to have been
+cleared of snow and ice. A small gathering of people stand on the
+pier apparently waiting.  Sounds of chatter and activity is present
+in the cold air. There are exits leading in various directions from
+this room.
+~
+752 0 2
+D0
+The path continues north.
+~
+~
+0 0 75376
+D1
+A large lake is east.
+~
+~
+0 0 75299
+D2
+A large wooden pier is south.
+~
+~
+0 0 75377
+S
+#75376
+&+BA Small Path Around A Lake&N~
+   The path around the ice lake continues in this direction.  A large
+dense forest can be seen to the west of the lake.  Within the forest,
+many small creatures can be seen hunting and foraging for food.
+The large ice lake to the east seems to extend for a great distance.
+It is partially frozen over. Further south, there is a large wooden
+pier of sorts that has been cleared of snow.  There are exits all
+around leading into various directions.
+~
+752 0 2
+D0
+The path continues north.
+~
+~
+0 0 75374
+D1
+A large lake is east.
+~
+~
+0 0 75294
+D2
+The path continues south.
+~
+~
+0 0 75375
+S
+#75377
+&+CA Large Wooden Pier&N~
+   A large wooden pier running from the west ends here.  To the east,
+there is a large partially frozen lake.  The pier here has been cleared
+of snow, ice, and other debris.  The planks of the pier appear in good
+condition.  The effects of the harsh environment have not had their
+effects on this structure.  Here on the docks, there is activity of
+a group of different people.  There are exits in all directions from
+this point on the pier.
+~
+752 0 2
+D0
+A small path starts north.
+~
+~
+0 0 75375
+D1
+A large lake is east.
+~
+~
+0 0 75304
+D2
+A small path lies to the south.
+~
+~
+0 0 75380
+D3
+The wooden pier runs west.
+~
+~
+0 0 75379
+S
+#75378
+&+BA Covered Walkway&N~
+   The room here is covered by a sturdy wooden roof.  Large beams
+run down from the roof to carry the weight of the ice and snow of
+the local weather. A large wooden pier starts here running toward
+the east.  Further east at the end of this pier, a large partially
+frozen lake starts.  The pier here has been cleared of snow, ice,
+and other debris.  The planks of the pier appear in good condition.
+The effects of the harsh environment have not had their effects on
+this structure.  There are exits in all directions from this point
+on the pier.
+~
+752 0 0
+D1
+A wooden pier runs east.
+~
+~
+0 0 75379
+D3
+A small office is west.
+~
+oaken door~
+1 0 75409
+S
+#75379
+&+CA Large Wooden Pier&N~
+   A large wooden pier continues here running from the west.  Further
+east, there is a large partially frozen lake.  The pier here has been
+cleared of snow, ice, and other debris.  The planks of the pier appear
+in good condition.  The effects of the harsh environment have not had
+their effects on this structure.  Here on the docks, there is a lot of
+activity of a group of different people. There are exits in all
+directions from this point on the pier.
+~
+752 0 2
+D1
+The wooden pier runs east.
+~
+~
+0 0 75377
+D3
+The wooden pier runs west.
+~
+~
+0 0 75378
+S
+#75380
+&+CApproaching A Large Pier&N~
+   The snow covered path continues here.  Like the surrounding area,
+this path is covered under mounds of snow and some ice. A large
+wooden pier lies toward the south.  There it appears to have been
+cleared of snow and ice. A small gathering of people stand on the
+pier apparently waiting.  Sounds of chatter and activity is present
+in the cold air. There are exits leading in various directions from
+this room.
+~
+752 0 2
+D0
+A wooden pier is north.
+~
+~
+0 0 75377
+D1
+The path continues east.
+~
+~
+0 0 75381
+S
+#75381
+&+CA Rocky Shore&N~
+    The waters of the lake to the north crash upon the shores here.
+There is almost a constant pattern with the waves on the lake. The
+lake appears to exit farther north and east for a great distance.
+The shores here are covered in many different small rocks and pebbles
+of different shapes and sizes. They covered the ground here under
+the light snow that has freshly fallen.  There are two exits along
+this path which lead away in opposite directions.
+~
+752 0 2
+D0
+A large lake is north.
+~
+~
+0 0 75304
+D1
+The shore continues east.
+~
+~
+0 0 75382
+D3
+The path continues west.
+~
+~
+0 0 75380
+S
+#75382
+&+CA Rocky Shore&N~
+    The waters of the lake to the north crash upon the shores here.
+There is almost a constant pattern with the waves on the lake. The
+lake appears to exit farther north and east for a great distance.
+The shores here are covered in many different small rocks and pebbles
+of different shapes and sizes. They covered the ground here under
+the light snow that has freshly fallen.  There are two exits along
+this path which lead away in opposite directions.
+~
+752 0 2
+D0
+A large lake is north.
+~
+~
+0 0 75305
+D1
+The shore continues east.
+~
+~
+0 0 75383
+D3
+The rocky shore continues west.
+~
+~
+0 0 75381
+S
+#75383
+&+CAn Icy Shore&N~
+    The waters of the lake to the north crash upon the shores here.
+There is almost a constant pattern with the waves on the lake. The
+lake appears to exit farther north and east for a great distance.
+The shores here are covered in many different small rocks and pebbles
+of different shapes and sizes. They covered the ground here under
+the light snow that has freshly fallen.  There are two exits along
+this path which lead away in opposite directions.
+~
+752 0 2
+D0
+A large lake is north.
+~
+~
+0 0 75306
+D1
+The shore continues east.
+~
+~
+0 0 75384
+D2
+A small cave lies beyond the boulder.
+~
+boulder~
+1 0 75411
+D3
+The shore continues west.
+~
+~
+0 0 75382
+S
+#75384
+&+RBefore A Small Cottage&N~
+    The rocky shores seem to end at this point.  A small wooden
+boardwalk covered the rocky shores here.  The boardwalk is of sturdy
+wooden planks that have been cleaned of snow and ice.  A large wooden
+cottage lies just to the south.  It rises two stories above the
+lake.  There is a large wooden door leading into the cottage
+on the ground floor.  There are exits all around leading into
+various directions.
+~
+752 0 2
+D1
+A path continues to the east.
+~
+~
+0 0 75385
+D3
+The shore continues west.
+~
+~
+0 0 75383
+S
+#75385
+&+WA Snowy Path Beside A Lake&N~
+   A path covered in snow continues in this direction.  The snow
+on the grounds appears fresh.  Almost a foot deep, it forms mounds
+of varying height shaped by the winds off the lake to the north.
+The snow lacks footprints or compacted appearence seen along the
+cottage boardwalk. The path leads in an east-west direction where
+the path continues.
+~
+752 0 2
+D1
+The path continues east.
+~
+~
+0 0 75386
+D3
+A cottage is west.
+~
+~
+0 0 75384
+S
+#75386
+&+WA Snowy Path Beside A Lake&N~
+   A path covered in snow continues in this direction.  The snow
+on the grounds appears fresh.  Almost a foot deep, it forms mounds
+of varying height shaped by the winds off the lake to the north.
+The snow lacks footprints or compacted appearence seen along the
+cottage boardwalk. The path leads in an east-west direction where
+the path continues.
+~
+752 0 2
+D1
+A rocky path is east.
+~
+~
+0 0 75387
+D3
+The path continues west.
+~
+~
+0 0 75385
+S
+#75387
+&+YA Rocky Foot Path&N~
+    The ground here is barren it lacks the snow and ice
+which plaques the grounds all around.  Little mounds of snow
+and ice sits along the flat here exposing the warning carved
+into the stone ground here.  The sounds of a waterfall are
+present here.  There are two exits along this path that lead in
+opposite directions.
+~
+752 0 2
+D3
+The path continues west.
+~
+~
+0 0 75386
+D5
+The path continues down.
+~
+~
+0 0 75388
+E
+warning ground~
+
+
+
+
+&+Y   WARNING!&N
+&+R          You are entering the grounds of the Ruzdo Settlement!&N
+&+R          Be prepared to pay if you do not heed this warning.&N
+~
+S
+#75388
+&+YA Rocky Flat&N~
+     The rocky flat here is enshrouded by the echoes of the
+waterfall to the north.  The waterfall crashes down upon the
+rocks shooting a mist into the surrounding area.  This part of
+the flat is covered in a light coating of snow.  There are foot-
+prints of some animal leading off in both directions.  There
+appears to be something buried beneath the snow here. There
+are two exits leading away from this point.
+~
+752 0 2
+D1
+The path continues east.
+~
+~
+0 0 75389
+D4
+The path continues up.
+~
+~
+0 0 75387
+S
+#75389
+&+YA Rocky Flat&N~
+     The rocky flat here is enshrouded by the echoes of the
+waterfall to the north.  The waterfall crashes down upon the
+rocks shooting a mist into the surrounding area.  This part of
+the flat is covered in a light coating of snow.  A large pile of
+rocks sits along side at the top of another waterfall to the
+north. There are two exits leading away from this point.
+~
+752 0 2
+D3
+The path continues west.
+~
+~
+0 0 75388
+D5
+The path leads down.
+~
+~
+0 0 75390
+S
+#75390
+&+YThe Foggy Bottom&N~
+   Here in the foggy bottom, the air is damp and very cold.
+The ground here is covered in snow.  There are no footprints in
+the snow or in the banks of the river.  A small waterfall, just
+to the north, rushes by with a fast current.  The echoes of the
+waterfalls are loud here.  The mists, produced by the waterfall,
+land in this area freezing upon contact. There are two exits from
+this point of the foggy bottom which lead in opposite directions.
+~
+752 0 2
+D1
+The path continues east.
+~
+~
+0 0 75391
+D4
+The path continues up.
+~
+~
+0 0 75389
+S
+#75391
+&+YThe Foggy Bottom&N~
+   Here in the foggy bottom, the air is damp and very cold.
+The ground here is covered in snow.  There are no footprints in
+the snow or in the banks of the river.  The small river, just north,
+rushes by with a fast current.  The echoes of the waterfalls are
+loud here.  The mists of the waterfall land in this area freezing
+upon contact.  A small earthen bridge runs to the north over the river.
+There are two exits from this room leading in opposite directions.
+~
+752 0 2
+D0
+A small bridge is north.
+~
+~
+0 0 75392
+D1
+The golden lake is east.
+~
+~
+0 0 75319
+D2
+A path starts south.
+~
+~
+0 0 75396
+D3
+The path continues west.
+~
+~
+0 0 75390
+S
+#75392
+&+YA Small Earthen Bridge&N~
+   This earthen bridge is several feet wide and almost twenty
+feet in length.  It is of stone and earth and appears to be in
+good condition.  The bridge here has been cleared of stone and
+ice that has collected.  This small earthen bridge crosses a
+rapid river that feeds into the nearby Golden lake. The river
+below moves with a great velocity and appears to pull everything
+along its path. There are two exits off the bridge which lead
+in opposite directions.
+~
+752 8192 2
+D0
+A small landing is north.
+~
+~
+0 0 75395
+D2
+The path continues south.
+~
+~
+0 0 75391
+S
+#75393
+&+WThe Icy Shore of the Golden Lake&N~
+   Here the path continues along the northern shores of the Golden
+Lake.  The shores of the lake are rocky.  Covered in jagged rocks
+of all different shapes and sizes, the waves of the lake crash here
+spraying a mist into the air. Some of the water collects on the
+grounds here freezing upon contact.  The grounds of the shore are
+icy making it hard to trangress across them.  The shore continues
+in two directions from this room.
+~
+752 0 2
+D1
+The shore continues east.
+~
+~
+0 0 75364
+D3
+The shore continues west.
+~
+~
+0 0 75394
+S
+#75394
+&+WThe Icy Shore of the Golden Lake&N~
+   Here the path continues along the northern shores of the Golden
+Lake.  The shores of the lake are rocky.  Covered in jagged rocks
+of all different shapes and sizes, the waves of the lake crash here
+spraying a mist into the air. Some of the water collects on the
+grounds here freezing upon contact.  The grounds of the shore are
+icy making it hard to trangress across them.  The shore continues
+in two directions from this room.
+~
+752 0 2
+D1
+The shore continues east.
+~
+~
+0 0 75393
+D3
+An icy landing is west.
+~
+~
+0 0 75395
+S
+#75395
+&+WAn Icy Landing&N~
+    The grounds here are covered in snow and ice.  Like the
+surrounding area, there are footprints in the snow which leading
+into various directions.  But unlike the surrounding areas, the
+landing here is very icy making it hard to travel here.  Further
+east, the large northern shore of the Golden Lake starts.   There
+is a large dense forest further east.  A small earthen bridge
+starts to the south. It crosses a small river that appears to flow
+quickly below it. There are two exits leading away from this landing.
+~
+752 0 2
+D1
+A shore is east.
+~
+~
+0 0 75394
+D2
+A small earthen bridge is south.
+~
+~
+0 0 75392
+S
+#75396
+&+MA Hunting Trail&N~
+    The hunting trail continues in this direction away from
+the water way to the north.  The forest growth on this part
+of the trail is very dense here.  Sight into the surrounding
+area is limited due to the great growth of plant life here.
+The ground here is barren in parts and covered in a light
+dusting of snow in others.  The canopy of the tall trees
+has managed to keep a majority of the snow off of these
+grounds.   There are two visible exits along this trail.
+~
+752 0 2
+D0
+The foggy bottom is north.
+~
+~
+0 0 75391
+D2
+The hunting trail continues south.
+~
+~
+0 0 75397
+S
+#75397
+&+MA Hunting Trail&N~
+    The hunting trail continues in this direction away from
+the water way to the north.  The forest growth on this part
+of the trail is very dense here.  Sight into the surrounding
+area is limited due to the great growth of plant life here.
+The ground here is barren in parts and covered in a light
+dusting of snow in others.  The canopy of the tall trees
+has managed to keep a majority of the snow off of these
+grounds.   There are two visible exits along this trail.
+~
+752 0 2
+D0
+The trail continues north.
+~
+~
+0 0 75396
+D3
+The trail continues west.
+~
+~
+0 0 75398
+S
+#75398
+&+MA Hunting Trail&N~
+    The hunting trail continues in this direction away from
+the water way to the north.  The forest growth on this part
+of the trail is very dense here.  Sight into the surrounding
+area is limited due to the great growth of plant life here.
+The ground here is barren in parts and covered in a light
+dusting of snow in others.  The canopy of the tall trees
+has managed to keep a majority of the snow off of these
+grounds.   There are two visible exits along this trail.
+~
+752 0 2
+D1
+The trail continues east.
+~
+~
+0 0 75397
+D2
+The trail continues south.
+~
+~
+0 0 75399
+S
+#75399
+&+MThe End of the Hunting Trail&N~
+    The forest growth is very dense here.  Sight into the
+surrounding area is limited due to the great growth of plant
+life here.  The ground here is barren in parts and covered in
+a light dusting of snow in others.  The canopy of the large
+surrouding trees have managed to keep a majority of the snow
+off of these grounds.  The trail ends here on a large wooden
+floor the creaks under your weight.  There is only one
+visible exit out of this room.
+~
+752 0 2
+D0
+The trail continues north.
+~
+~
+0 0 75398
+D5
+This trapdoor leads underground.
+~
+trapdoor~
+1 0 75400
+S
+#75400
+&+GAn Old Earthen Ladder&N~
+   Enshrounded in darkness, this underground room here is quite
+small.  The air is damp and chilly.  Strange blue moss grows along
+both sides of the ladder.  This carved out room contains an earthen
+shaped ladder which continues down from here to some destination
+below.  The ladder, itself, is part dirt and part stone.  The walls
+of the room are of smooth stone in parts and of earth in others.
+Above the ladder here is a small wooden trapdoor.  The ladder leads
+in opposite directions from this area.
+~
+752 4105 0
+D4
+This trapdoor leads up.
+~
+trapdoor~
+1 0 75399
+D5
+The earthen ladder continues down.
+~
+~
+0 0 75401
+S
+#75401
+&+GAn Old Earthen Ladder&N~
+   Enshrounded in darkness, this underground room here is quite
+small.  The air is damp and chilly.  Strange blue moss grows along
+both sides of the ladder.  This carved out room contains an earthen
+shaped ladder which continues down from here to some destination
+below.  The ladder, itself, is part dirt and part stone.  The walls
+of the room are of smooth stone in parts and of earth in others.
+The ladder leads in opposite directions from this area.
+~
+752 4105 0
+D4
+The ladder continues up.
+~
+~
+0 0 75400
+D5
+The ladder continues down.
+~
+~
+0 0 75402
+S
+#75402
+&+GAn Old Earthen Ladder&N~
+   Enshrounded in darkness, this underground room here is quite
+small.  The air is damp and chilly.  Strange blue moss grows along
+both sides of the ladder.  This carved out room contains an earthen
+shaped ladder which continues down from here to some destination
+below.  The ladder, itself, is part dirt and part stone.  The walls
+of the room are of smooth stone in parts and of earth in others.
+The ladder leads in opposite directions from this area.
+~
+752 4105 0
+D4
+The ladder continues up.
+~
+~
+0 0 75401
+D5
+The ladder continues down.
+~
+~
+0 0 75404
+S
+#75403
+&+WA Stone Trail&N~
+    A stone trail has been cleared of snow here.  Mounds of snow
+and other debris have been piled on both sides of the path here.
+The trail, itself, is of many different types of stone which form
+an interlocking pattern.  Further east, there is a large hill which
+rises almost straight up.  The hill is covered in jagged rocks
+that are covered in a sheet of ice.  There is a small door further
+east along this path leading into the hill.  The stone trail
+continues in a southern direction.
+~
+752 0 3
+D1
+An earthen door is there.
+~
+earthen~
+5 0 75404
+D2
+The stone trail continues south.
+~
+~
+0 0 75405
+S
+#75404
+&+GAn Old Earthen Ladder&N~
+   Enshrounded in darkness, this underground room here is quite
+small.  The air is damp and chilly.  Strange blue moss grows along
+both sides of the ladder.  This carved out room contains an earthen
+shaped ladder which leads up from this point to some destination
+up above.  The ladder, itself, is part dirt and part stone.  The walls
+of the room are of smooth stone in parts and of earth in others.
+There is an earthen door present here which leads west. The ladder
+continues up to different area.
+~
+752 4105 0
+D3
+A stone trail starts west.
+~
+earthen door~
+5 0 75403
+D4
+The ladder continues up.
+~
+~
+0 0 75402
+S
+#75405
+&+WA Stone Trail&N~
+    The stone trail here has been cleared of snow and other debris.
+Mounds of snow have been piled along both sides of the path here.
+The trail, itself, is of many different types of stone which form
+an interlocking pattern.  Further north, there is a large hill which
+rises almost straight up.  The hill appears to be covered in jagged
+rocks that have been layered in a sheet of ice.  The stone trail
+continues in two directions from this point.
+~
+752 0 3
+D0
+The Trail continues north.
+~
+~
+0 0 75403
+D3
+The trail continues west.
+~
+~
+0 0 75406
+S
+#75406
+&+WA Stone Trail&N~
+    The stone trail here has been cleared of snow and other debris.
+Mounds of snow have been piled along both sides of the path here.
+The trail, itself, is of many different types of stone which form
+an interlocking pattern.  Along the north side of this path, there
+is a dense forest where animals roam.  These animals search the forest
+there for any food they could possibly find.  Along this part of
+the path, a large lake can be seen to the south. The stone trail
+continues in two directions from this point.
+~
+752 0 3
+D1
+A trail continues east.
+~
+~
+0 0 75405
+D3
+A stone trail continues west.
+~
+~
+0 0 75407
+S
+#75407
+&+WA Stone Trail&N~
+    The stone trail here has been cleared of snow and other debris.
+Mounds of snow have been piled along both sides of the path here.
+The trail, itself, is of many different types of stone which form
+an interlocking pattern.  Along the north side of this path, there
+is a dense forest where animals roam.  These animals search the forest
+there for any food they could possibly find.  Along this part of
+the path, a large lake can be seen to the south. The stone trail
+continues in two directions from this point.
+~
+752 0 3
+D1
+A stone trail continues east.
+~
+~
+0 0 75406
+D3
+A stone trail continues west.
+~
+~
+0 0 75408
+S
+#75408
+&+WA Stone Trail&N~
+    The stone trail here has been cleared of snow and other debris.
+Mounds of snow have been piled along both sides of the path here.
+The trail, itself, is of many different types of stone which form
+an interlocking pattern.  Along the north side of this path, there
+is a dense forest where animals roam.  These animals search the forest
+there for any food they could possibly find.  Along this part of
+the path, a large lake can be seen to the south. The stone trail
+continues in two directions from this point.
+~
+752 0 3
+D1
+A Stone Trail continues east.
+~
+~
+0 0 75407
+D3
+An icy footpath is west.
+~
+~
+0 0 75200
+S
+#75409
+&+MA Small Wooden Office&N~
+    The office here is a an average size room.  A large red rug
+covers the floor here.  The rug here has figures of different
+shapes and sizes that are woven in gold fiber which sparkle in
+the light.  A large oak desk sits facing north in the center of
+the room here.  The desk is stacked with a large number of
+papers.  There is only one visible exit out of this room
+leading back to the pier.
+~
+752 4105 0
+D1
+The pier leads away outside the door.
+~
+oaken door~
+1 0 75378
+S
+#75410
+&+BA Small Footpath&N~
+    The footpath here cuts through a dense forest.  Thick vegetation
+surrounds both sides of the path causing limited visibility into
+the forest.  Sounds of movement can be heard as some animal treks
+through the snow just beyond a few bushes.  Many of the small plant
+life on the forest floor have been covered snow and ice.  There are
+two visible exits from this path that lead in opposite directions.
+~
+752 0 3
+D0
+~
+~
+0 0 535080
+D2
+This exit leads southward.
+~
+~
+0 0 75283
+S
+#75411
+&+LA Small Cave&N~
+   Here within this cave, the air is damp and reeks with the
+aroma of decay.  The grounds of the cave are scattered with many
+carcasses of explorers.  The cave rises some 15 feet above the
+ground.  The room here is round and there are no sources of light.
+The sounds of waves crashing upon the shore can be heard. There
+is only one exit out which leads to the lake shore.
+~
+752 4105 0
+D0
+The lake shores are north.
+~
+boulder~
+1 0 75383
+S
+#75412
+&+BA Dark and Damp Dungeon&N~
+     This first room of the dungeon is dark and damp.  The dungeon
+here is of large stone slabs that have been fitted without the need
+for large amounts of mortar.  The floor of the room is covered in hay.
+There are small puddles of liquid on the ground.   Running through the
+dungeon here are various little insect creatures which feast upon the
+various remains within these walls. There are two exits leading away
+from this part of the dungeon.
+~
+752 4105 0
+D0
+A room before the dungeon is there.
+~
+dungeon~
+1 0 75255
+D3
+The dungeon continues west.
+~
+~
+0 0 75413
+S
+#75413
+&+BA Dark and Damp Dungeon&N~
+     This second room of the dungeon is also dark and very damp.
+Unlike the first room, it is somewhat chilly here.  The dungeon
+here is of large stone slabs that have been fitted without the need
+for large amounts of mortar.  The floor of the room is covered in hay.
+There are small puddles of liquid on the ground.   Running through the
+dungeon here are various little insect creatures which feast upon the
+various remains within these walls. There is one exit leading away
+from this part of the dungeon.
+~
+752 4105 0
+D1
+The dungeon continues east.
+~
+~
+0 0 75412
+S
+#75414
+&+CA Frozen Passageway&n~
+   This frozen passageway is hidden at the
+bottom of the well.  The Tekan city people talk
+of a child that was once fell down the well and
+never returned.  When they let someone down on
+a rope see, there was no body.  Apparently the
+child dug himself to freedom.  The only things
+remaining in this passageway are a few rats.
+~
+752 0 0
+D2
+~
+secret~
+1 0 75274
+D6
+~
+~
+0 0 75415
+S
+#75415
+&+CA Frozen Passageway&n~
+   This frozen passageway is hidden at the
+bottom of the well.  The Tekan city people talk
+of a child that was once fell down the well and
+never returned.  When they let someone down on
+a rope see, there was no body.  Apparently the
+child dug himself to freedom.  The only things
+remaining in this passageway are a few rats.
+~
+752 0 0
+D0
+~
+~
+0 0 75416
+D9
+~
+~
+0 0 75414
+S
+#75416
+&+CA Frozen Passageway&n~
+   This frozen passageway is hidden at the
+bottom of the well.  The Tekan city people talk
+of a child that was once fell down the well and
+never returned.  When they let someone down on
+a rope see, there was no body.  Apparently the
+child dug himself to freedom.  The only things
+remaining in this passageway are a few rats.
+~
+752 0 0
+D2
+~
+~
+0 0 75415
+D6
+~
+~
+0 0 75417
+S
+#75417
+&+CA Frozen Passageway&n~
+   This frozen passageway is hidden at the
+bottom of the well.  The Tekan city people talk
+of a child that was once fell down the well and
+never returned.  When they let someone down on
+a rope see, there was no body.  Apparently the
+child dug himself to freedom.  The only things
+remaining in this passageway are a few rats.
+~
+752 0 0
+D0
+~
+~
+0 0 75418
+D9
+~
+~
+0 0 75416
+S
+#75418
+&+CA Frozen Passageway&n~
+   This frozen passageway is hidden at the
+bottom of the well.  The Tekan city people talk
+of a child that was once fell down the well and
+never returned.  When they let someone down on
+a rope see, there was no body.  Apparently the
+child dug himself to freedom.  The only things
+remaining in this passageway are a few rats.
+~
+752 0 0
+D2
+~
+~
+0 0 75417
+D4
+~
+~
+0 0 537871
+S

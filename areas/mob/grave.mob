@@ -1,0 +1,437 @@
+#8400
+skeleton~
+&+Wa skeleton &nwith tattered clothes~
+&+Wa skeleton&n, draped in tattered clothes, stands here.
+~
+&+WThis skeleton roams the crypt.  Small bits of clothing hang off the pale
+&+Wbones of this undead entity.  The bones of the skeleton are magically
+&+Wanimated and carry with it great, deceiving strength.
+~
+72 1 0 0 0 0 0 -1000 S
+U 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8401
+zombie moaning~
+&+ya &+gmoaning &+yzombie~
+&+yA zombie stumbles about the gravestones.
+~
+   &+gThis, the second weakest undead creature is quite a horrific sight.  Unlike
+&+ythe skeletons, zombies tend to have flesh still attached to their undead bodies
+&+gand often tattered bits of clothing still adhere to the reanimated corpses.
+&+yZombies tend to be slow, but they are often quite strong even when armed only
+&+gwith their own severed limbs.
+~
+72 1 0 0 0 0 0 -1000 S
+U 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8402
+spectre ghostly~
+&+LA ghostly spectre~
+&+LA spectre stalks the graveyard.
+~
+   &+LThis transparent spirit stalks the graveyard in search of victims.  A
+&+Lvery painful and quick death has likely separated the soul of this once living
+&+Lhumanoid from its body.  Enraged, the spirit lives on in an attempt to quench
+&+Lits hatred.
+~
+1073742024 1 0 268435520 0 0 0 -1000 S
+UG 0 8192 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8403
+ghost wailing~
+&nA &+Lwailing &nghost~
+A &+Lwailing &nghost flies about the area.
+~
+   &+LThis poor soul lives on in phantasmal form.  The body, blood, and all
+&+Lother organic components of this being have long since decayed, but its
+&+Ltroubled essence continues to walk the prime material plane in search of
+&+Lsalvation.
+~
+2120 1 0 403308612 0 0 0 -1000 S
+UG 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8404
+wolf dire~
+&+La &+bdire &+Lw&nol&+Lf~
+&+La &+bdire &+Lwolf &nstalks about, &+rred eyes&n scanning the area.
+~
+   &+rBlood red eyes &nglare out from a matted black fur ridden torso.  This wolf
+is long dead, but powerful magic keeps this hunter alive.  Its thirst for blood
+and flesh has been strengthened in death.  This unrelenting scavenger, once it
+has acquired a scent, will track its victim until caught.
+~
+1073743944 0 0 839458924 204 0 0 -1000 S
+U 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8405
+werewolf~
+&+ya werewolf~
+&+yA werewolf with &+rblood-stained &+yclaws roams the area.
+~
+   Rumor has it that there are a select few people that have the uncontrollable
+power to shapeshift into a beast that is half man - half wolf.  This appears to
+be one of those unfortunate victims.  Legends tell stories of these beasts who
+wield unimaginable strength and agility.  Children are told these stories in
+the hopes that it will deter any unsavoury behavior.
+~
+1073743944 1 0 838901868 220 0 0 -1000 S
+L 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#8406
+bat vampire~
+&+La vampire bat~
+&+LA large bat swoops down from the dead treetops.
+~
+   &+LA vicious vampire bat swoops down from above in an attempt to tear flesh
+&+Lof its unfortunate victims.  These nocturnal beasts hunt only at night, but
+&+Lin this graveyard with the thick fog about, anytime seems like night!
+~
+72 1 0 0 0 0 0 -500 S
+B 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8407
+mummy~
+a mummy~
+A mummy, wrapped in &+Wgauze&n, stumbles about the crypt.
+~
+   This long dead humanoid has arisen from its grave to walk the world of the
+living again.  Mummys typically do not possess any magical skills, like the
+liches or vampires.  Mummys are often quite simple minded, and will usually
+only attack when provoked.  The power of a mummy is often underestimated.  In
+death, these beings tend to triple the strength of their living counterparts.
+~
+1140852936 0 0 301998184 220 0 0 -1000 S
+U 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8408
+mummy large~
+a large mummy~
+A LARGE mummy, wrapped in &+Wgauze&n, stumbles about the crypt.
+~
+   This mummy seems to be older than many of the other mummys.  The bandages
+which wrap his torso are more tattered and dirty.  This particular mummy is
+also quite a bit larger than the rest.  His disposition is much more aggressive
+and upon recognizing a threat, the mummy lumbers forward to attack.
+~
+1140852808 1 0 301989944 64 0 0 -1000 S
+U 0 2 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8409
+zombie young~
+a &+gzombie&n of a young man~
+a youthful male &+gzombie &nprowls the crypt.
+~
+   This humanoid could not have been more than 15 years old when he lost his
+life.  This zombie, although small in stature, is still much stronger than the
+average living human.  Angered by death, this zombie will attack anyone and
+he will do so unrelentingly.
+~
+1073743944 1 0 301989928 64 0 0 -1000 S
+U 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8410
+zombie young~
+a &+gzombie&n of a young girl~
+a youthful female &+gzombie &nprowls the crypt.
+~
+   This young girl must have been about 12 when she lost her life.  The
+remnants of long flowing blonde hair cling to the scalp of the unfortunate
+young girl.  In death, this young girls strength has been tripled.  Care
+should be taken to avoid angering this zombie.
+~
+1073743944 1 0 301989928 64 0 0 -1000 S
+U 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8411
+zombie woman~
+a &+gzombie&n of a woman~
+a female &+gzombie &nwatches over her undead children.
+~
+   This must be the remains of Emily Fryntok.  As this zombie stumbles about
+the room, an agonizing moan emanated from its lips.  Doomed to live her life
+as a zombie now, this zombie lashes out in anger.  Such seems to be the fate
+of all who are buried in this cursed graveyard.
+~
+1073743944 1 0 301990008 12382 0 0 -1000 S
+U 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8412
+vampire strong~
+&+La &+bstrong &+Lvampire~
+&+La &+bstrong &+Lvampire &nwatches over his resting ground.
+~
+   This is the fate of Raydyrn Fryntok.  Raydyrn, former arms merchant of
+Tharnadia was an accomplished fighter and a well-respected aristocrat.  He
+died a violent death at the hands of an ogre guard of Faang.  His body has
+been ressurected in the form of a powerful vampire.  Uncontrollable rage
+forces this once good man to attack all in his path.
+~
+22606 1 0 303038712 264257 0 8192 -1000 S
+UV 0 512 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8413
+vampire pale~
+&+La &+Wpale &+Lvampire~
+&+La vampire, with &+Wpale white&+L, skin stands here.
+~
+&+L   Vampires are known to be very strong undead.  They have the power to pit
+&+Lfriend against friend with a simple gaze.  Vampires are often cunning fighters
+&+Land should be respected when in combat.  This particular vampire has very &+wpale
+&+Lskin.  Upon seeing intruders in his tomb, the vampire stalks forward ready for
+&+Lbattle.
+~
+2122 1 0 301989928 64 0 0 -1000 S
+UV 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8414
+ghost wailing~
+&nA &+Lwailing &nghost~
+A &+Lwailing &nghost flies about the area.
+~
+   &+LThis poor soul lives on in phantasmal form.  The body, blood, and all
+&+Lother organic components of this being have long since decayed, but its
+&+Ltroubled essence continues to walk the prime material plane in search of
+&+Lsalvation.
+~
+2120 1 0 402718812 0 0 0 -1000 S
+UG 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8415
+ghost wailing~
+&nA &+Lwailing &nghost~
+A &+Lwailing &nghost flies about the area.
+~
+   &+LThis poor soul lives on in phantasmal form.  The body, blood, and all
+&+Lother organic components of this being have long since decayed, but its
+&+Ltroubled essence continues to walk the prime material plane in search of
+&+Lsalvation.
+~
+2120 1 0 402718812 0 0 0 -1000 S
+UG 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8416
+skeleton angered strong~
+&+Wan angered skeleton~
+&+WA strong skeleton lumbers about the graveyard.
+~
+&+W   This pale vision of death is more than enough to retire many adventurers
+&+Wwho are unfamiliar with undead species.  These skeletons are thought to be
+&+Wthe weakest of the undead family, yet some of them are powerful enough to
+&+Wwipe out an entire party of adventurers.  Fortunately, these skeletons pose
+&+Wlittle threat to any but the weakest of opponents.
+~
+72 1 0 302186500 0 0 0 -1000 S
+U 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8417
+wolf dire~
+&+La &+bdire &+Lw&nol&+Lf~
+&+La &+bdire &+Lwolf &nstalks about, &+rred eyes&n scanning the area.
+~
+   &+rBlood red eyes &nglare out from a matted black fur ridden torso.  This wolf
+is long dead, but powerful magic keeps this hunter alive.  Its thirst for blood
+and flesh has been strengthened in death.  This unrelenting scavenger, once it
+has acquired a scent, will track its victim until caught.
+~
+1073743944 1 0 839458924 204 0 0 -1000 S
+U 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8418
+gargoyle hunched~
+&+La hu&nnc&+Lhed ga&nrgoy&+Lle~
+a &+Lga&nrgoy&+Lle &nsits atop a &+ybranch of the tree.
+~
+   &+LThese strange mythical beasts have an affinity for high perches.  This
+&+Ltree makes an ideal spot to watch over the world.  Gargoyles are known to live
+&+Lfor centuries.  Their stone skin allows them to camouflage well in mountainous
+&+Lregions, but in the branches of this tree, these gargoyles have adapted their
+&+Lstony-skin tone to match their surroundings.  Many gargoyles tend to be
+&+Lpeaceful unless provoked.
+~
+1073756234 0 0 973676652 204 0 0 -1000 S
+PT 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8419
+gargoyle hunched~
+&+La hu&nnc&+Lhed ga&nrgoy&+Lle~
+a &+Lga&nrgoy&+Lle &nsits atop a &+ybranch of the tree.
+~
+   &+LThese strange mythical beasts have an affinity for high perches.  This
+&+Ltree makes an ideal spot to watch over the world.  Gargoyles are known to live
+&+Lfor centuries.  Their stone skin allows them to camouflage well in mountainous
+&+Lregions, but in the branches of this tree, these gargoyles have adapted their
+&+Lstony-skin tone to match their surroundings.  Many gargoyles tend to be
+&+Lpeaceful unless provoked.
+~
+1073756234 0 0 973676652 204 0 0 -1000 S
+PT 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8420
+gargoyle hunched~
+&+La large hu&nnc&+Lhed ga&nrgoy&+Lle~
+a large &+Lga&nrgoy&+Lle &nsits atop a &+ybranch of the tree.
+~
+   &+LThese strange mythical beasts have an affinity for high perches.  This
+&+Ltree makes an ideal spot to watch over the world.  Gargoyles are known to live
+&+Lfor centuries.  Their stone skin allows them to camouflage well in mountainous
+&+Lregions, but in the branches of this tree, these gargoyles have adapted their
+&+Lstony-skin tone to match their surroundings.  Many gargoyles tend to be
+&+Lpeaceful unless provoked.
+~
+1073756234 0 0 973676652 204 0 0 -1000 S
+OG 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8421
+gargoyle hunched~
+&+La wise hu&nnc&+Lhed ga&nrgoy&+Lle~
+a wise &+Lga&nrgoy&+Lle &nsits atop the highest point of the &+ytree.
+~
+   &+LThese strange mythical beasts have an affinity for high perches.  This
+&+Ltree makes an ideal spot to watch over the world.  Gargoyles are known to live
+&+Lfor centuries.  Their stone skin allows them to camouflage well in mountainous
+&+Lregions, but in the branches of this tree, these gargoyles have adapted their
+&+Lstony-skin tone to match their surroundings.  Many gargoyles tend to be
+&+Lpeaceful unless provoked.
+~
+1073756234 0 0 973676796 204 0 0 -1000 S
+OG 0 256 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8422
+caretaker crazed~
+&+ba crazed &+ycare&+Ltaker~
+&+yA crazed caretaker leaps forward in anger.
+~
+   &+yInsanity has set in.  This man has been driven to his wits end, and
+&+ydefends himself against imaginary foes.  In his wild fantasies, he must
+&+ythink of you as an adversary.  Without thought he picks up his shovel and
+&+ycharges to attack
+~
+14410 1 0 973676716 220 0 0 -500 S
+PH 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8423
+robber grave scared duergar~
+&+La &+gscared &+Lgrave robber~
+&+La &+rduergar &+Lgrave robber has been trapped inside the tomb.
+~
+   &+LThis scared &+rDuergar&n &+Lgrave-robber was trapped inside the tomb of souls
+&+Lunaware that the corpses that were once at rest, have now risen from the dead.
+&+LThis thief is trying frantically to escape the vile crypt at any means possible
+~
+1073756362 1 0 973676780 204 0 0 -1000 S
+PD 6 8192 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8424
+wight fiendish~
+&+ga fi&+Gend&+gis&+Gh w&+gight~
+&+ga fi&+Gend&+gis&+Gh w&+gight &nsearches intently for &+rblood.
+~
+   &+gWight's are fearsome undead horrors.  They have the ability to regenerate
+&+gdamage done to them at incredible speeds.  Wight's have been known to paralyze
+&+gwith a single touch.  Their green skin tone makes them a ghastly sight, even in
+&+ga place such as this.  Care should be taken to fight these monsters away
+&+gfrom their paralyzing touch.
+~
+1073756234 1 0 973676796 204 0 0 -1000 S
+PT 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8425
+wraith vicious~
+&+ma vi&+Mcio&+mus&+M wr&+maith~
+&+ma vi&+Mcio&+mus&+M wr&+maith &npaces the room in anger.
+~
+   &+mWraith's are the stronger cousins of the vile wights.  Their skin-tone
+&+mis purple rather than green.  They, like their less powerful relatives, can
+&+mparalyze with a single touch.  These stronger undead beasts have been known
+&+mto begin devouring the corpses of their paralyzed victims while they still
+&+mlive.
+~
+1073756234 1 0 973676796 204 0 0 -1000 S
+PT 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8426
+lich~
+&+La &+blich~
+&+LA &+blich &+Lwanders the area.
+~
+   &+bBefore you stands one of the most fearsome of the undead species.  This
+&+blich has been reanimated with the skills of sorcery at his command.  Liches
+&+bare among the smartest and cruelest undead ever encountered.  Luckily, Liches
+&+bare often quite fragile, and as long as they aren't allowed to concentrate
+&+btheir spellcasting abilities are nullified.
+~
+1073756234 1 0 973152492 204 0 0 -1000 S
+U 0 512 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#8427
+necromancer ancient drow~
+&+Lan &+bancient &+Lnecromancer~
+&+Lan &+bancient &+Lnecromancer &+bstands here, entranced in a ritual.
+~
+   &+LThis ancient &+mdrow &+Lnecromancer has been practicing his dark magic for aeons.
+&+LHis affinity for the dead has relegated this man to working only with the dark
+&+Lmagic of necromancy.  In his studies, he has learned the ways of raising the
+&+Ldead and commanding them like an army.  His tattered clothes indicate that he
+&+Lhas worn them for perhaps centurys without change.  Nothing but reanimating
+&+Lcorpses matters to this dark individual.  Intrusion into his laboratory will
+&+Lnot be met with anything but retalliation.
+~
+1073756234 1 0 973676796 204 0 0 -1000 S
+PL 0 1024 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

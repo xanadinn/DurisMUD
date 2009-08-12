@@ -1,0 +1,189 @@
+#65
+&n&+LThe &n&+gShaughin &n&+mSettlement&n~
+6548 2 0 15 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 6503 1 1 100 0 0 0
+*     east exit from "Shoreline of an Underworld Lake" to
+*     "An Abandoned Mossy Dwelling" - closed
+*
+D 0 6504 3 1 100 0 0 0
+*     west exit from "An Abandoned Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6509 0 1 100 0 0 0
+*     north exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6517 2 1 100 0 0 0
+*     south exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6509 3 1 100 0 0 0
+*     west exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6518 1 1 100 0 0 0
+*     east exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6511 2 1 100 0 0 0
+*     south exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6520 0 1 100 0 0 0
+*     north exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6511 3 1 100 0 0 0
+*     west exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6519 1 1 100 0 0 0
+*     east exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6513 2 1 100 0 0 0
+*     south exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6521 0 1 100 0 0 0
+*     north exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+D 0 6516 2 1 100 0 0 0
+*     south exit from "Shoreline of an Underworld Lake" to
+*     "A Mossy Dwelling" - closed
+*
+D 0 6522 0 1 100 0 0 0
+*     north exit from "A Mossy Dwelling" to
+*     "Shoreline of an Underworld Lake" - closed
+*
+*
+O 0 6500 1 6504 100 0 0 0          * a wooden trapdoor
+O 0 6501 1 6535 100 0 0 0          * a swirling maelstrom
+O 0 6604 1 6543 100 0 0 0          * (object type not in this .obj file)
+O 0 6601 1 6548 100 0 0 0          * (object type not in this .obj file)
+*
+M 0 6500 5 6502 100 0 0 0          * a young shaughin hunter
+G 1 6508 5 0 100 0 0 0             *    a brew of snake eyes
+M 0 6502 5 6502 100 0 0 0          * a shaughin gatherer
+G 1 6505 5 0 100 0 0 0             *    a potion of herbs
+M 0 6503 5 6503 100 0 0 0          * a shaughin fisherman
+M 0 6504 5 6503 100 0 0 0          * a shaughin hunter
+M 0 6505 5 6503 100 0 0 0          * a shaughin guard
+M 0 6504 5 6505 100 0 0 0          * a shaughin hunter
+M 0 6505 5 6505 100 0 0 0          * a shaughin guard
+M 0 6502 5 6506 100 0 0 0          * a shaughin gatherer
+G 1 6505 5 0 100 0 0 0             *    a potion of herbs
+M 0 6503 5 6506 100 0 0 0          * a shaughin fisherman
+M 0 6500 5 6507 100 0 0 0          * a young shaughin hunter
+G 1 6508 5 0 100 0 0 0             *    a brew of snake eyes
+M 0 6501 4 6507 100 0 0 0          * a shaughin guard in training
+M 0 6504 5 6508 100 0 0 0          * a shaughin hunter
+E 1 6507 1 14 100 0 0 0            *   a bracer of hunting
+M 0 6505 5 6508 100 0 0 0          * a shaughin guard
+M 0 6502 5 6509 100 0 0 0          * a shaughin gatherer
+G 1 6505 5 0 100 0 0 0             *    a potion of herbs
+M 0 6503 5 6509 100 0 0 0          * a shaughin fisherman
+M 0 6512 3 6509 100 0 0 0          * a delirious shaughin hunter
+E 1 6506 2 3 100 0 0 0             *   a necklace of dead frogs
+M 0 6500 5 6510 100 0 0 0          * a young shaughin hunter
+G 1 6508 5 0 100 0 0 0             *    a brew of snake eyes
+M 0 6501 4 6510 100 0 0 0          * a shaughin guard in training
+M 0 6513 1 6510 100 0 0 0          * Thregamar the master hunter
+M 0 6501 4 6511 100 0 0 0          * a shaughin guard in training
+M 0 6505 5 6511 100 0 0 0          * a shaughin guard
+M 0 6512 3 6511 100 0 0 0          * a delirious shaughin hunter
+E 1 6506 2 3 100 0 0 0             *   a necklace of dead frogs
+M 0 6503 5 6512 100 0 0 0          * a shaughin fisherman
+M 0 6504 5 6512 100 0 0 0          * a shaughin hunter
+M 0 6500 5 6513 100 0 0 0          * a young shaughin hunter
+G 1 6508 5 0 100 0 0 0             *    a brew of snake eyes
+M 0 6502 5 6513 100 0 0 0          * a shaughin gatherer
+G 1 6505 5 0 100 0 0 0             *    a potion of herbs
+M 0 6504 5 6514 100 0 0 0          * a shaughin hunter
+E 1 6504 1 14 100 0 0 0            *   a hunting bracer
+M 0 6505 5 6514 100 0 0 0          * a shaughin guard
+M 0 6502 5 6515 100 0 0 0          * a shaughin gatherer
+G 1 6505 5 0 100 0 0 0             *    a potion of herbs
+M 0 6503 5 6515 100 0 0 0          * a shaughin fisherman
+G 1 6503 1 0 100 0 0 0             *    a fishing net
+M 0 6500 5 6516 100 0 0 0          * a young shaughin hunter
+G 1 6508 5 0 100 0 0 0             *    a brew of snake eyes
+M 0 6501 4 6516 100 0 0 0          * a shaughin guard in training
+M 0 6512 3 6516 100 0 0 0          * a delirious shaughin hunter
+M 0 6506 12 6517 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6517 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6518 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6518 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6519 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6519 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6520 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6520 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6521 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6521 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6522 100 0 0 0         * a retired shaughin hunter
+M 0 6506 12 6522 100 0 0 0         * a retired shaughin hunter
+E 1 6502 1 1 100 0 0 0             *   a ring of citizenship
+M 0 6508 8 6523 100 0 0 0          * a cavern death viper
+M 0 6507 14 6524 100 0 0 0         * a cavern constrictor
+M 0 6507 14 6524 100 0 0 0         * a cavern constrictor
+M 0 6509 8 6524 100 0 0 0          * a massive king constrictor
+M 0 6508 8 6525 100 0 0 0          * a cavern death viper
+M 0 6508 8 6526 100 0 0 0          * a cavern death viper
+M 0 6507 14 6527 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6527 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6527 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6528 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6528 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6528 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6511 2 6528 100 0 0 0          * a young cavern constrictor
+M 0 6510 3 6528 100 0 0 0          * a young cavern constrictor
+M 0 6508 8 6529 100 0 0 0          * a cavern death viper
+M 0 6507 14 6530 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6530 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6530 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6531 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6531 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6508 8 6533 100 0 0 0          * a cavern death viper
+M 0 6508 8 6536 100 0 0 0          * a cavern death viper
+M 0 6508 8 6537 100 0 0 0          * a cavern death viper
+M 0 6508 8 6538 100 0 0 0          * a cavern death viper
+M 0 6507 14 6539 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6539 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6540 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6540 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6510 3 6540 100 0 0 0          * a young cavern constrictor
+M 0 6507 14 6541 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6507 14 6541 100 0 0 0         * a cavern constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6510 3 6541 100 0 0 0          * a young cavern constrictor
+M 0 6509 8 6542 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6509 8 6542 100 0 0 0          * a massive king constrictor
+G 1 6509 19 0 100 0 0 0            *    the heart of a constrictor
+M 0 6511 2 6542 100 0 0 0          * a young cavern constrictor
+M 0 6610 2 6543 100 0 0 0          * (mob type not in this .mob file)
+M 0 6610 2 6543 100 0 0 0          * (mob type not in this .mob file)
+M 0 6611 1 6546 100 0 0 0          * (mob type not in this .mob file)
+*
+S

@@ -1,0 +1,807 @@
+#99400
+boulder large~
+&+La large &+wboulder&N~
+&+LA large &+wboulder &+Lrests upon the gloomy ground here.&N~
+~
+29 11 3 0 12 80 0 0 0 0 0
+270 99406 5 0 0 0 0 0
+9 9000 100
+E
+boulder large~
+&+L   This is a rather large &+wboulder&+L, some odd symbols have been drawn upon it.&N
+~
+#99401
+stone glowing~
+&+La &+Mglowing &+Lstone&N~
+&+LThe stone here &+Mglows &+Lwith an eerie wicked light that fills with fright.&N~
+~
+29 11 3 0 11 0 1 0 0 0 0
+320 99418 4 0 0 0 0 0
+666 2000 100
+E
+stone glowing~
+&+L   This stone &+Mglows &+Lwith an eerie light that fills your &+cs&+Co&+cu&+Cl &+Lwith fright.&N
+~
+#99402
+shelf bookshelf old~
+&+yan old bookshelf&N~
+&+LA very old &+ybookshelf &+Lrests against the northern wall.&N~
+~
+15 6 3 0 11 0 0 0 0 0 0
+81 0 0 81 0 0 0 0
+81 9000 100
+E
+shelf bookshelf old~
+&+y   This old bookshelf seems like it has been here for a very long time.&N
+~
+#99403
+tome bound spellbook~
+&+wa &+Ldark bound &+btome&N~
+&+LA &+btome &+Lrests upon the gloomy ghastly ground here.&N~
+~
+33 43 3 0 12 0 12288 8404993 64 0 0
+0 0 222 0 0 0 0 0
+0 9000 100
+E
+tome shairak spellbook~
+&+L   Spun from darkness and bound in dismal despair.  This &+btome &+Lseems to radiate&N
+&+La mystic force the like of which you have never known.  The sadistic &+rseal &+Lof&N
+&+LShairak has been burned upon the cover of this spellbook.&N
+~
+A
+13 9
+A
+24 -1
+#99404
+key stone~
+&+wa &+Lstone &+wkey&N~
+&+LA stone &+wkey &+Lrests upon the gloomy ground here.&N~
+~
+18 11 3 0 8 9 0 8404993 0 0 0
+0 0 0 0 0 0 0 0
+0 1000 100
+E
+key stone~
+&+L   This is a simple stone &+wkey &+Lwith a symbol of Shairak etched into it.&N
+~
+#99405
+image moon~
+&+Lan &+cimage&N~
+&+LAn &+cimage &+Lhas been drawn upon the southern wall here.&N~
+~
+29 1 3 0 15 100 1 0 0 0 0
+320 99420 2 0 0 0 0 0
+0 0 100
+E
+image~
+&+L   This is an &+cimage &+Lof the nocturnal freezing moon.&N
+~
+#99406
+spiked stone mace~
+&Na &+Lspiked &+wstone &+Lmace&N~
+&+LA spiked mace has been left upon the ground.&N~
+~
+5 11 3 0 8 0 0 24577 0 0 0
+6 1 8 6 0 0 0 0
+1 800 100
+E
+mace~
+&+L   This simple &+wstone &+Lmace is spiked and is rather light.&N
+~
+A
+18 1
+A
+19 1
+#99407
+spectral leggings~
+&+wa &+Lpair of &+Ws&+wp&+We&+wc&+Wt&+wr&+Wa&+wl &+Lleggings&N~
+&+LA pair of &+Ws&+wp&+We&+wc&+Wt&+wr&+Wa&+wl &+Lleggings rest upon the gloomy ground.&N~
+~
+9 19 3 0 14 80 8192 16417 64 4227727364 90112
+12 0 0 5 0 0 0 0
+0 9000 100
+E
+leggings~
+&+L   These leggings seem like they have been crafted from a &+Ws&+wp&+We&+wc&+Wt&+wr&+Wa&+wl &+Lspirit.  An&N
+&+Lodd feeling flows into your spine as you gaze at this arcane object.  Images&N
+&+Lstart to flicker into and out of known view.&N
+~
+A
+1 5
+A
+5 5
+#99408
+spiked stone shield~
+&Na &+Lspiked &+wstone &+Lshield&N~
+&+LA spiked shield has been left upon the ground.&N~
+~
+37 11 3 0 8 44 0 16897 0 0 0
+1 1 4 120 4 1 0 0
+10 2000 100
+E
+shield~
+&+L   This simple &+wstone &+Lshield is spiked and has a leather strap.&N
+~
+#99409
+rotted leather armor~
+&Nsome &+rrotted &+yleather &+Larmor&N~
+&+LSome &+rrotted &+Larmor rests upon the ghastly ground.&N~
+~
+9 13 3 0 7 0 8192 16393 0 0 0
+10 0 0 3 0 0 0 0
+2 200 100
+E
+rotted armor~
+&+y   This suit of &+rrotted &+yleather &+Larmor &+yseems like it is centuries old.&N
+~
+#99410
+boots black leather~
+&+Lsome black leather boots&N~
+&+LSome black leather boots rest upon the ghastly ground here.&N~
+~
+9 14 3 0 10 33 8192 16449 0 0 0
+6 0 0 3 0 0 0 0
+0 100 100
+E
+boots black leather~
+&+L   These black leather boots are rather well made and still seem almost brand&N
+&+Lnew.  The words '&+wFall From Grace&+L' have been etched into the soles.&N
+~
+A
+14 9
+A
+12 5
+#99411
+chipped short sword~
+&Na &+Lchipped &+wsword&N~
+&+LA chipped sword rests upon the gloomy ground.&N~
+~
+5 16 3 0 8 0 0 24577 0 0 0
+9 2 4 11 0 0 0 0
+0 200 100
+E
+chipped sword~
+&+L   This &+wsword &+Lhas been chipped, missing a good part of the original blade.&N
+~
+A
+18 2
+A
+19 1
+#99412
+quill raven feather~
+&Na &+Lraven feather &+wquill&N~
+&+LA quill made from the feather of a large raven rests upon the ground.&N~
+~
+21 50 3 0 9 0 8192 8404993 0 0 0
+0 0 0 0 0 0 0 0
+0 9 100
+E
+quill feather~
+&+L   This &+wquill &+Lis from the feather of a rather large raven.  Some words have&N
+&+Lbeen etched into it saying '&+wWhat about me, what about Raven&+L'.&N
+~
+A
+3 4
+A
+4 4
+#99413
+spiked leather bracer~
+&Na &+Lspiked &+yleather &+Lbracer&N~
+&+LA spiked bracer rests upon the ghastly ground here.&N~
+~
+9 14 3 0 10 0 8192 20481 0 0 0
+5 0 0 3 1 0 0 0
+0 500 100
+E
+bracer~
+&+L   This bracer is made from a very fine grade of leather.  Crimson &+rstains &+Lcan&N
+&+Lbe seen upon the surface of the pointed spikes.&N
+~
+A
+18 1
+A
+1 5
+#99414
+snake skull ring~
+&Na &+gs&+Gn&+ga&+Gk&+ge &+Wskull &+Lring&N~
+&+LA ring rests upon the gloomy ghastly ground here.&N~
+~
+11 10 3 0 11 0 0 3 0 0 0
+0 0 0 0 0 0 0 0
+0 400 100 32768 0 0 0
+E
+ring~
+&+L   This ring has been crafted from the &+Wskull &+Lof a &+gs&+Gn&+ga&+Gk&+ge&+L.  The item is almost&N
+&+Lflawless in every detail, except for a few minor scratches.&N
+~
+A
+13 9
+#99415
+bp backpack~
+&+wa &+Lblack leather backpack&N~
+&+LA black leather backpack is upon the ghastly ground here.&N~
+~
+15 14 3 0 13 0 8192 4210689 0 0 0
+181 1 0 181 0 0 0 0
+0 1000 100
+E
+bp backpack~
+&+L   This backpack has been crafted from a very fine grade of leather.  Demonic&N
+&+Lrunes have been drawn upon this object in &+Rglowing &+Lcrimson.&N
+~
+A
+14 9
+#99416
+gloves~
+&Na &+Lpair of &+rspiked &+Lleather gloves&N~
+&+LA pair of spiked leather gloves rests upon the ghastly ground.&N~
+~
+9 14 3 0 12 0 8192 129 0 0 0
+6 0 0 5 1 0 0 0
+0 900 100
+E
+gloves~
+&+L   These gloves are made from a very fine grade of leather.  Crimson &+rstains &+Lcan&N
+&+Lbe seen upon the surface of the pointed spikes.&N
+~
+A
+18 1
+A
+19 1
+#99417
+holy armor zarthos~
+&+wthe &+Lholy armor of &+WZarthos&N~
+&+LSome armor rests upon the gloomy ground gathering &+wdust&+L.&N~
+~
+9 22 3 0 15 81 8200 9 65 4173696516 0
+25 0 0 5 0 0 0 0
+0 18000 100
+E
+zarthos armor~
+&+L   This armor has been crafted out of pure &+csilver&+L.  The holy seal of &+WZarthos&N
+&+Lcovers the chest plate of this item.  Mystical runes and words are etched into&N
+&+Lvarious spots as well.&N
+~
+A
+24 -3
+A
+14 18
+#99418
+large spiked stone shield~
+&Na &+Llarge spiked &+wstone &+Lshield&N~
+&+LA large spiked shield has been left upon the ground.&N~
+~
+37 11 3 0 10 88 0 16897 0 0 0
+1 7 4 138 5 1 0 0
+24 400 100
+E
+shield~
+&+L   This large &+wstone &+Lshield is spiked and has a leather strap.&N
+~
+A
+20 -1
+A
+5 5
+#99419
+daemonic badge emblam insignia~
+&Na &+Ldaemonic &+rs&+Re&+rr&+Rp&+re&+Rn&+rt&+Ri&+rn&+Re &+Linsignia&N~
+&+LA badge has been left upon the gloomy ghastly ground here.&N~
+~
+11 47 3 0 14 76 8200 2097153 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+badge emblam insignia~
+&+L   This item depicts what seem to be nine &+rs&+Re&+rr&+Rp&+re&+Rn&+rt&+Rs &+Lengaged in some sort of odd&N
+&+Ldaemonic ritual.  The object most likely comes from the very scales of one of&N
+&+Lthe creatures shown in the picture.&N
+~
+A
+26 2
+A
+1 2
+#99420
+talisman~
+&Na &+Lstone &+wtalisman&N~
+&+LA stone talisman rests upon the gloomy ground here.&N~
+~
+9 36 3 0 12 0 0 5 0 0 0
+5 0 0 5 0 0 0 0
+0 900 100
+E
+stone talisman~
+&+L   This &+wtalisman &+Lis made from a fine grade of obsidian.   Several runes have&N
+&+Lbeen etched into this object.&N
+~
+A
+19 1
+A
+13 5
+#99421
+ear stud emerald earring~
+&+Lan &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd &+Lear stud&N~
+&+LAn earring rests upon the gloomy ground here.&N~
+~
+9 32 3 0 12 0 0 524289 0 0 0
+4 0 0 4 0 0 0 0
+0 1000 100
+E
+stud earring~
+&+L   This ear stud has a fine grade of &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd &+Lset into it.  The item shows no&N
+&+Lreal signs of damage, yet seems to be rather old.&N
+~
+A
+13 6
+A
+26 4
+#99422
+longsword curved sword bloody~
+&Na &+Lcurved &+rbloody &+clongsword&N~
+&+LA &+rbloody &+clongsword &+Lrests upon the gloomy ground here.&N~
+~
+5 22 3 0 11 0 8192 8193 67 0 0
+5 2 5 3 0 0 0 0
+0 1000 100
+E
+longsword sword~
+&+L   This &+clongsword &+Lhas been stained &+rcrimson &+Lby many past battles.&N
+~
+A
+18 2
+A
+19 2
+#99423
+spiked leather sleeves~
+&Na &+Lpair of &+wspiked &+Lleather sleeves&N~
+&+LSome spiked leather sleeves rest upon the ground here.&N~
+~
+9 12 3 0 14 0 8192 257 0 0 0
+8 0 0 4 1 0 0 0
+0 4000 100
+E
+sleeves~
+&+L   These sleeves are made from a very thick animal hide.  Crimson &+rstains &+Lcan&N
+&+Lbe seen upon the surface of the pointed spikes.&N
+~
+A
+18 1
+A
+20 -2
+#99424
+twisted bone dagger~
+&Na &+Ltwisted &+Wbone &+Ldagger&N~
+&+LA twisted &+Wbone &+Ldagger rests upon the ghastly ground.&N~
+~
+5 10 3 0 10 0 0 8193 66 0 0
+2 3 2 11 0 0 0 0
+1 300 100
+E
+dagger~
+&+L   This dagger &+Lhas been crafted from a twisted &+Wbone &+Lof some being.&N
+~
+A
+18 1
+A
+19 2
+#99425
+quiver~
+&Na &+Lblack leather quiver&N~
+&+LA leather quiver rests upon the gloomy ground here.&N~
+~
+30 12 3 4 12 0 8192 1048577 0 0 0
+44 1 1 0 0 0 0 0
+3 1000 100
+E
+quiver~
+&+L   This quiver has been crafted from the thick hide of a displacer beast.&N
+~
+A
+18 1
+A
+2 6
+#99426
+belt~
+&Na &+ybelt &+Lbearing the seal of Shairak&N~
+&+LA belt rests upon the gloomy ground here.&N~
+~
+9 12 3 0 13 50 8192 2049 0 0 0
+8 0 0 5 0 0 0 0
+0 2000 100
+E
+belt~
+&+L   This &+ybelt &+Lhas been crafted from the magical hide of a displacer beast.&N
+~
+A
+18 2
+A
+1 9
+#99427
+visor obsidian dull~
+&Na &+Ldull obsidian visor&N~
+&+LAn obsidian visor has been left upon the ground to gather &+wdust&+L.&N~
+~
+9 36 3 0 14 0 0 131073 0 0 0
+5 0 0 5 0 0 0 0
+0 3000 100
+E
+visor~
+&+L   This visor has been crafted from a fine grade of obsidian.&N
+~
+A
+18 1
+A
+13 5
+#99428
+axe battle executioner ax~
+&Na &+Llarge &+rbl&+Ro&+ro&+Rd &+rs&+Ro&+rak&+Re&+rd &+Lexecutioner's &+waxe&N~
+&+LA large two handed battle &+raxe &+Lhas been left upon the ground.&N~
+~
+5 18 3 0 14 0 4203520 8193 67 95993883 0
+13 4 4 3 0 0 0 0
+12 9000 100
+E
+axe~
+&+L   This is a large executioner's &+waxe&+L, the blade has been &+rs&+Ro&+rak&+Re&+rd &+Lby many crimson&N
+&+Lstains.  Several notches have been scratched into the handle of this weapon.&N
+~
+A
+18 3
+A
+19 2
+#99429
+opal eye nrohtereb~
+&+wthe &+Lopal eye of N&+bro&+Lh&+bt&+Lereb&N~
+&+LA black opal eye rests upon the gloomy ground here.&N~
+~
+8 33 3 0 15 88 45056 16385 64 0 0
+0 0 0 0 0 0 0 0
+0 9000 100 0 8 0 0
+E
+opal eye nrohtereb~
+&+L   This is the black opal eye of N&+bro&+Lh&+bt&+Lereb, the pupil still seems to move as if&N
+&+Lit still had life.&N
+~
+A
+13 18
+A
+24 -3
+#99430
+ossuary~
+&Nan &+Lossuary&N~
+&+LAn ossuary rests upon the gloomy ground here.&N~
+~
+15 11 3 0 10 0 4096 16385 0 0 0
+9 0 0 9 0 0 0 0
+3 18 100
+E
+ossuary~
+&+L   This ossuary is used to hold the &+Wbones &+Lof those who are cursed immortal.&N
+~
+#99431
+helm obsidian~
+&Na &+Lfaded obsidian helm&N~
+&+LA faded helm has been left upon the ground to gather &+Wdust&+L.&N~
+~
+9 36 3 0 14 0 0 17 0 4173696516 92416
+8 0 0 5 0 0 0 0
+0 4000 100
+E
+helm~
+&+L   This faded helm has been crafted from a fine grade of obsidian.&N
+~
+A
+19 1
+A
+26 8
+#99432
+claymore sword~
+&Nthe &+Lclaymore of &+WZarthos &+Lthe &+rvampire &+Lhunter&N~
+&+LA large two handed claymore has been left upon the gloomy ground.&N~
+~
+5 22 3 0 15 0 4203520 4202497 67 95993883 385220608
+13 4 6 3 0 0 0 0
+16 18000 100 8192 0 0 0
+E
+claymore~
+&+L   This is the mighty claymore of &+WZarthos &+Lthe great &+rvampire &+Lhunter.  Stains of&N
+&+Lfaded crimson have been &+rs&+Roa&+rk&+Re&+rd &+Linto the &+csilver &+Lblade of this sword.  Notches&N
+&+Lhave been marked into the &+wm&+Wa&+Lr&+wb&+Wle &+Lhilt.&N
+~
+A
+18 4
+A
+19 4
+#99433
+suit chainmail splintbone~
+&Na &+Lsuit of &+rsplint&+Wbone &+Lchainmail&N~
+&+LA suit of chainmail rests upon the gloomy ground gathering &+Wdust&+L.&N~
+~
+9 10 3 0 11 0 0 9 1 4165275140 0
+18 0 0 5 0 0 0 0
+0 8000 100
+E
+splintbone chainmail~
+&+L   This chainmail has been crafted from slivers of hard &+Wbone&+L.  Yet the object&N
+&+Lis almost without any weight.  Demonic symbols create the crest that adorns the&N
+&+Lchest of this item.&N
+~
+A
+13 9
+A
+14 9
+#99434
+sabatons boots~
+&Na &+Lpair of dull obsidian sabatons&N~
+&+LA pair of sabatons rest upon the gloomy ghastly ground.&N~
+~
+9 36 3 0 11 53 8192 65 0 0 0
+8 0 0 5 0 0 0 0
+0 5000 100
+E
+sabatons boots~
+&+L   These boots have been crafted from a very fine grade of obsidian.  They have&N
+&+Llost their luster, yet are still in almost flawless conditions.  Strange runes&N
+&+Lhave been &+wburned &+Linto them.  Perhaps they are to ward off harmful forces to the&N
+&+Lwearer of them.&N
+~
+A
+24 -2
+A
+14 9
+#99435
+robe hooded~
+&Na &+Lthick black hooded robe&N~
+&+LA black hooded robe rests upon the gloomy ground.&N~
+~
+9 12 3 0 11 0 12288 9 64 0 0
+12 0 0 5 0 0 0 0
+0 5000 100
+E
+robe hooded~
+&+L   This black hooded robe has many strange runes that have been etched into it.&N
+~
+A
+5 9
+A
+27 5
+#99436
+mask chipped skull~
+&Na &+Lchipped &+Wskull &+Lmask&N~
+&+LA chipped mask rests upon the gloomy ground here.&N~
+~
+9 10 3 0 11 0 8192 262145 0 0 0
+5 0 0 4 0 0 0 0
+0 9 100
+E
+mask~
+&+L   This mask has been crafted from the &+Wskull &+Lof some sort of demonical looking&N
+&+Lcreature.  The item has been chipped in a few places but for the most part is&N
+&+Lin almost flawless condition.&N
+~
+A
+1 5
+A
+5 5
+#99437
+suit obsidian plate platemail~
+&Na &+Lfaded suit of obsidian plate&N~
+&+LA faded suit of obsidian platemail rests upon the gloomy ground.&N~
+~
+9 36 3 0 11 0 0 16393 0 4173708868 0
+14 0 0 4 0 0 0 0
+3 1000 100
+E
+plate suit~
+&+L   This suit has been crafted from a rather fine grade of obsidian.  Though it&N
+&+Lmay lack the luster it once knew, the object is in almost perfect condition.&N
+~
+A
+1 5
+#99438
+leggings obsidian~
+&Na &+Lpair of faded obsidian leggings&N~
+&+LA pair of leggings have been left upon the ground to gather &+Wdust&+L.&N~
+~
+9 36 3 0 11 0 0 16417 0 4165275204 0
+8 0 0 4 0 0 0 0
+1 1000 100
+E
+leggings obsidian~
+&+L   These leggings have been crafted from a rather fine grade of obsidian.  Odd&N
+&+Lrunes have been engraved into the sides of them.  Perhaps they are some sort of&N
+&+Lprotection runes.&N
+~
+A
+19 1
+A
+5 5
+#99439
+cracked club~
+&Na &+Lcracked obsidian club&N~
+&+LA cracked club has been left here to rot.&N~
+~
+5 36 3 0 7 0 0 8193 0 0 0
+10 1 8 7 0 0 0 0
+1 4000 100
+E
+cracked club~
+&+L   This club has been crafted from an inferior grade of obsidian.  Thus it has&N
+&+Lbeen cracked in several places.&N
+~
+#99440
+sleeves emerald~
+&Na &+Lpair of faded &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd &+Lsleeves&N~
+&+LA pair of sleeves rests upon the gloomy ground here.&N~
+~
+9 32 3 0 14 69 8192 257 0 0 0
+8 0 0 4 0 0 0 0
+0 8000 100
+E
+sleeves emerald~
+&+L   These sleeves have been crafted by a fine grade of &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd&+L.  The luster of&N
+&+Lthem has long since faded.  Chips and other tiny imperfections are evident on&N
+&+Lthe surface.  Symbols of &+gs&+Ge&+grp&+Ge&+gnt&+Gi&+gn&+Ge &+Ldragons have been etched into this object.&N
+~
+A
+13 9
+A
+24 -2
+#99441
+boots obsidian~
+&Na &+Lpair of &+rbl&+Ro&+ro&+Rd&+ry &+Lobsidian boots&N~
+&+LA pair of &+rbl&+Ro&+ro&+Rd &+Lstained boots rest upon the gloomy ghastly ground.&N~
+~
+9 36 3 0 11 63 8192 65 0 0 0
+8 0 0 5 0 0 0 0
+0 8000 100
+E
+boots~
+&+L   These &+wboots &+Lhave been crafted from a very fine grade of obsidian.  They have&N
+&+Llost their luster, yet are still in almost flawless conditions.  &+rBl&+Ro&+ro&+Rd&+ry &+Lstains&N
+&+Lhave been eternally marked into them.  Perhaps they were past victims of the&N
+&+Ltyrant who stalks in the &+Ct&+cw&+Ci&+cl&+Ci&+cg&+Ch&+ct&+L.&N
+~
+A
+20 -1
+A
+13 9
+#99442
+cloak rotted hydrascale~
+&Na &+Lcloak of &+rr&+yo&+rtt&+ye&+rd &+Lhydra&+rsc&+Ra&+rl&+Re&N~
+&+LA &+rr&+yo&+rtt&+ye&+rd &+Lcloak rests upon the ghastly ground here.&N~
+~
+9 47 3 0 13 69 8192 17409 0 0 0
+8 0 0 4 0 0 0 0
+3 6666 100
+E
+cloak rotted hydrascale~
+&+L   This once grand cloak has been crafted from a fine grade of hydra&+rsc&+Ra&+rl&+Re&+L.  A&N
+&+Lfew &+Rr&+ru&+Rn&+re&+Rs &+Lhave been etched into this object.  Their meaning long forgot in an&N
+&+Lage not thought real.  Now this is just another &+rr&+yo&+rtt&+ye&+rd &+Lrelic from the past.&N
+~
+A
+13 9
+A
+24 -1
+#99443
+crown emerald tarnished~
+&Na &+Ltarnished &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd &+Lcrown&N~
+&+LA tarnished crown rests upon the ghastly gloomy ground.&N~
+~
+9 32 3 0 14 69 8192 16401 0 0 0
+7 0 0 5 0 0 0 0
+0 13000 100
+E
+crown tarnished emerald~
+&+L   This tarnished crown has been crafted from a fine grade of &+ge&+Gm&+ge&+Gr&+ga&+Gl&+gd&+L.  Luster&N
+&+Lof light has long since faded in this item.  Sadistic symbols of dragons and&N
+&+Ldemons adorn this ominous object.&N
+~
+A
+13 9
+A
+24 -2
+#99444
+belt torn obsidian~
+&Na &+Ltorn obsidian belt&N~
+&+LA torn obsidian belt rests upon the ground here.&N~
+~
+9 36 3 0 11 50 0 2049 0 0 0
+5 0 0 4 0 0 0 0
+2 8000 100
+E
+belt torn obsidian~
+&+L   This belt has been crafted from a rather good grade of obsidian.  The item&N
+&+Lhas been torn, what caused this is anyone's guess.  Several scratches can be&N
+&+Lseen cutting into the lost luster.&N
+~
+A
+13 5
+A
+24 -1
+#99445
+feather bluejay majestic~
+&Na &+Bmajestic &+bbluejay &+Bfeather&N~
+&+BA majestic &+bbluejay &+Bfeather rests upon the ground here.&N~
+~
+8 50 2 0 11 81 274432 9453569 0 0 0
+0 0 0 0 0 0 0 0
+0 8000 100
+E
+feather bluejay~
+&+B   Th&+bi&+Bs i&+bt&+Bem &+bi&+Bs &+ba &+Bv&+be&+Bry m&+ba&+Bj&+be&+Bst&+bi&+Bc sh&+ba&+Bd&+be o&+Bf bl&+bue&+B, th&+be &+Bl&+bi&+Bk&+be o&+Bf wh&+bi&+Bch y&+bou &+Bh&+ba&+Bv&+be &+Bn&+be&+Bv&+be&+Br&n
+&+Bc&+ba&+Bst &+be&+By&+be&+Bs &+bo&+Bn b&+be&+Bf&+bo&+Br&+be&+B.  Th&+be &+Bf&+bea&+Bth&+be&+Br s&+bee&+Bms t&+bo &+Bm&+bo&+Bv&+be a&+Bnd sw&+bay a&+Bnd l&+bu&+Bll th&+be &+Bs&+bou&+Bl &+bi&+Bnt&+bo&n
+&+ban o&+Bdd s&+bo&+Brt &+bo&+Bf &+be&+Bcst&+bas&+By.  W&+bo&+Brds n&+bo &+Bl&+bo&+Bng&+be&+Br s&+bee&+Bm t&+bo &+Bh&+bo&+Bld m&+bea&+Bn&+bi&+Bng wh&+be&+Bn th&+be &+Bg&+ba&+Bz&+be o&+Bf&n
+&+Bth&+bi&+Bs b&+beau&+Bty f&+bi&+Blls m&+bo&+Brt&+ba&+Bl &+be&+By&+be&+Bs.  On&+bce &+Bfly&+bi&+Bng &+bo&+Bn th&+be &+Bw&+bi&+Bnds &+bo&+Bf &+WOdin&n &+Bs&+bi&+Bng&+bi&+Bng s&+bo&+Bngs&n
+&+bo&+Bf &+bu&+Bnbr&+bi&+Bdl&+be&+Bd j&+bo&+By.  Me&+bm&+Bor&+bi&+Bes tr&+bu&+Bly &+bar&+Be gr&+bea&+Bt&+be&+Br th&+ba&+Bn th&+be &+Bb&+bu&+Brd&+be&+Bn &+bo&+Bf l&+bi&+Bf&+be i&+Bts&+be&+Blf.&n
+~
+A
+13 3
+A
+30 5
+#99446
+devil eyes elishia unique~
+&+Lthe &+rd&+Re&+rv&+Ri&+rl &+Re&+ry&+Re&+rs &+Lof &+RE&+rl&+Ri&+rs&+Rh&+ri&+Ra&N~
+&+LThe infernal &+rD&+Re&+rv&+Ri&+rl &+RE&+ry&+Re&+rs &+Lof &+RE&+rl&+Ri&+rs&+Rh&+ri&+Ra &+Lhave been forsaken here.&N~
+~
+9 35 3 0 15 81 271720448 131073 0 0 0
+9 0 0 5 0 0 0 0
+4 181000 100 536969248 0 0 0
+E
+eyes elishia~
+&+r   Th&+Ri&+rs &+bmysterious &+Ldemonical &+Ro&+rbj&+Re&+rct w&+Ra&+rs n&+Ro&+rt cr&+Rea&+rt&+Re&+rd &+Ri&+rn th&+Ri&+rs w&+Ro&+rrld &+Ro&+rf m&+Ro&+rrt&+Ra&+rls.&N
+&+RA&+rn &+Ree&+rr&+Rie &+rd&+Ria&+rb&+Ro&+rl&+Ri&+rc&+Ra&+rl m&+Ra&+rg&+Ri&+rc&+Ra&+rl &+Rglow e&+rm&+Ra&+rn&+Ra&+rt&+Re&+rs fr&+Ro&+rm th&+Re &+rs&+Ri&+rn&+Ri&+rst&+Re&+rr s&+Ra&+rd&+Ri&+rst&+Ri&+rc s&+Ru&+rrf&+Ra&+rc&+Re&+r.&N
+&+rTh&+Re&+rs&+Re e&+ry&+Re&+rs h&+Ra&+rv&+Re &+rs&+Ree&+rn s&+Ri&+rghts fr&+Ro&+rm th&+Re &+Lnine &+Rh&+re&+Rlls &+rt&+Ro &+rr&+Rea&+rlms &+Ru&+rnkn&+Ro&+rwn &+Ro&+rr v&+Ri&+rs&+Ri&+rt&+Re&+rd&N
+&+rby th&+Ro&+rs&+Re &+rwh&+Ro a&+rr&+Re &+rn&+Ro&+rt &+Ro&+rf th&+Re &+wunlight&+r.  &+RI&+rm&+Ra&+rg&+Re&+rs &+Ri&+rnv&+Ra&+rd&+Re &+rw&+Ri&+rth&+Ri&+rn th&+Re &+rm&+Ri&+rnd&+R, &+rc&+Rau&+rs&+Ri&+rng&N
+&+Ldespair &+rb&+Re&+ry&+Ro&+rnd &+Ra&+rny h&+Ro&+rp&+Re o&+rf r&+Re&+rp&+Rai&+rr.  Gr&+Ri&+rm s&+Rou&+rnds fr&+Ro&+rm &+Llost &+Cs&+co&+Cu&+cl&+Cs &+Re&+rch&+Ro &+rf&+Rai&+rntly&N
+&+Ra&+rs y&+Rou &+Lgaze &+Ra&+rt th&+Ri&+rs &+Ri&+rt&+Re&+rm.  Th&+Rei&+rr dr&+Rea&+rms n&+Re&+rv&+Re&+rr t&+Ro &+rb&+Re &+rkn&+Ro&+rwn, f&+Ro&+rr&+Re&+rv&+Re&+rr c&+Ra&+rst &+Ri&+rnt&+Ro&N
+&+rr&+Re&+rgr&+Re&+rts &+Ra&+rnd f&+Ro&+rrg&+Ro&+rtt&+Re&+rn m&+Re&+rm&+Ro&+rr&+Rie&+rs.  Sl&+Rai&+rn &+Ra&+rnc&+Rie&+rnt &+Wwarriors &+Ra&+rpp&+Rea&+rr, &+bblades &+rdr&+Ru&+rnk&N
+&+rw&+Ri&+rth &+Rfr&+re&+Rsh &+rcrimson &+Rblood&+r.  &+RE&+rl&+Ri&+rs&+Rh&+ri&+Ra &+Lthe huntress of the &+bnight&+r, m&+Ri&+rn&+Rio&+rn &+Rk&+ri&+Rll&+ri&+Rng&N
+&+rth&+Ro&+rs&+Re &+rwh&+Ro &+rw&+Ra&+rnd&+Re&+rr w&+Ri&+rth w&+Ro&+rnd&+Re&+rr wh&+Re&+rr&+Re &+rth&+Re&+ry &+Ra&+rr&+Re a&+rnyth&+Ri&+rng &+Ro&+rth&+Re&+rr th&+Ra&+rn w&+Ra&+rnt&+Re&+rd.&N
+~
+A
+36 8
+A
+40 8
+#99447
+blood dagger twisted crawler~
+&+La twisted &+rbl&+Ro&+ro&+Rd &+Ldagger of the n&+bi&+Lght cr&+ba&+Lwl&+be&+Lr&N~
+&+LA twisted dagger rests upon the ghastly ground here.&N~
+~
+5 22 3 0 15 81 16786704 8193 67 85553169 0
+2 2 6 11 0 0 0 0
+3 93300 100
+E
+dagger twisted~
+&+L   This object consists of what appear to be two &+rt&+Ra&+rl&+Ro&+rn&+Rs &+Lthat have been twisted&N
+&+Ltogether.  They form two razor sharp points that are right next to each other.&N
+&+LMagical &+benergy &+Lradiates from the grim &+rbl&+Ro&+ro&+Rd &+rs&+Rt&+rai&+Rn&+re&+Rd &+Lmystical diabolical &+bblade&+L.&N
+&+LThe dagger was not forged by a &+bblacksmith&+L, how it was created is a mystery.&N
+~
+A
+18 4
+A
+19 4
+#99448
+daemonic badge serpent insignia~
+&Na &+Ldaemonic &+gs&+Ge&+gr&+Gp&+ge&+Gn&+gt &+Linsignia&N~
+&+LA badge that has a strange &+gs&+Ge&+gr&+Gp&+ge&+Gn&+gt &+Linsignia rests upon the gloomy ground.&N~
+~
+11 47 3 0 14 81 8200 2097153 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+badge serpent insignia sigil~
+&+L                                                                     &N
+&+g   Th&+Gi&+gs &+Gs&+ge&+Grp&+ge&+Gnt i&+gs &+Gwr&+ga&+Gpp&+ge&+Gd u&+gp&+Go&+gn a &+Lpitchfork &+gi&+Gn a&+gn u&+Gnh&+go&+Gly &+gl&+Goo&+gk&+Gi&+gng &+GS &+gsh&+Ga&+gp&+Ge&+g.  I&+Gt&N
+&+Ga&+glm&+Go&+gst &+Gs&+gee&+Gms a&+gs i&+Gf &+gth&+Gi&+gs i&+Gs a &+gcr&+Ge&+gst &+Go&+gf &+Gs&+go&+Gm&+ge &+Ldemonic &+gb&+Gei&+gng &+Gth&+ga&+Gt &+gl&+Gu&+grks &+Gi&+gn w&+Go&+grlds&N
+&+gth&+Ga&+gt a&+Gr&+ge b&+Ge&+gy&+Go&+gnd &+Gth&+ge &+Gu&+gnd&+Ge&+grst&+Ga&+gnd&+Gi&+gng o&+Gf &+gs&+Gi&+gmpl&+Ge&+gt&+Go&+gn &+Gm&+go&+Grt&+ga&+Gls&+g.  Th&+Ge e&+gy&+Ge&+gs o&+Gf &+gth&+Gi&+gs &+Lbeast
+&+Ggl&+go&+Gw &+gw&+Gi&+gth &+Gh&+ga&+Gtr&+ge&+Gd a&+gnd &+Gb&+goun&+Gdl&+ge&+Gss &+gdr&+Gea&+gd.  &+GTh&+ge sc&+Ga&+gl&+Ge&+gs o&+Gf &+gth&+Ge r&+ge&+Gpt&+gi&+Gl&+ge s&+Gee&+gm &+Gt&+go &+Gsh&+gi&+Gft&N
+&+ga&+Gnd sw&+ga&+Gy a&+gnd &+Gch&+ga&+Gng&+ge fr&+Go&+gm &+Gsh&+ga&+Gd&+ge t&+Go &+gsh&+Ga&+gd&+Ge&+g, &+Gfr&+go&+Gm &+gd&+Ga&+grk &+Ggr&+gee&+Gn &+gt&+Go &+ga &+Ggl&+go&+Gw&+gi&+Gng &+gf&+Go&+grm o&+Gf&N
+&+Gth&+ge s&+Ga&+gm&+Ge c&+go&+Gl&+go&+Gr&+g.&N
+&+L                                                     &N
+~
+A
+30 2
+A
+2 2

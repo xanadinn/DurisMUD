@@ -1,0 +1,214 @@
+#40
+&+LCaves of &+gMt. Skelenak&n~
+4152 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 4004 3 1 100 0 0 0
+*     west exit from "Entrance to Goblin Hall" to
+*     "Goblin Hall" - closed
+*
+D 0 4005 1 1 100 0 0 0
+*     east exit from "Goblin Hall" to
+*     "Entrance to Goblin Hall" - closed
+*
+D 0 4014 0 1 100 0 0 0
+*     north exit from "Dimly Lit Hallway" to
+*     "Planning Room" - closed
+*
+D 0 4015 2 1 100 0 0 0
+*     south exit from "Planning Room" to
+*     "Dimly Lit Hallway" - closed
+*
+D 0 4019 0 1 100 0 0 0
+*     north exit from "Long Hallway" to
+*     "Huge Sleeping Quarters" - closed
+*
+D 0 4021 2 1 100 0 0 0
+*     south exit from "Huge Sleeping Quarters" to
+*     "Long Hallway" - closed
+*
+D 0 4063 5 1 100 0 0 0
+*     down exit from "Bottom of a Hole" to
+*     "Rounded Cave" - closed
+*
+D 0 4064 4 1 100 0 0 0
+*     up exit from "Rounded Cave" to
+*     "Bottom of a Hole" - closed
+*
+D 0 4075 1 1 100 0 0 0
+*     east exit from "Stalagmite Mound" to
+*     "Carved Out Room" - closed
+*
+D 0 4076 3 1 100 0 0 0
+*     west exit from "Carved Out Room" to
+*     "Stalagmite Mound" - closed
+*
+D 0 4076 5 2 100 0 0 0
+*     down exit from "Carved Out Room" to
+*     "Long Vertical Tunnel" - closed/locked
+*
+D 0 4090 4 2 100 0 0 0
+*     up exit from "Long Vertical Tunnel" to
+*     "Carved Out Room" - closed/locked
+*
+D 0 4116 0 1 100 0 0 0
+*     north exit from "Burned-Out Lair" to
+*     "Burned-Out Lair" - closed
+*
+D 0 4117 2 1 100 0 0 0
+*     south exit from "Burned-Out Lair" to
+*     "Burned-Out Lair" - closed
+*
+D 0 4148 1 5 100 0 0 0
+*     east exit from "A Rubble-Filled Cave-In" to
+*     "A Small Cave" - closed/secret
+*
+D 0 4149 3 5 100 0 0 0
+*     west exit from "A Small Cave" to
+*     "A Rubble-Filled Cave-In" - closed/secret
+*
+*
+O 0 4008 1 4006 100 0 0 0          * a large picnic table
+O 0 4011 1 4007 100 0 0 0          * a long table
+O 0 4015 1 4008 100 0 0 0          * a wooden crate
+O 0 4009 1 4008 100 0 0 0          * a moldy sack
+O 0 4012 2 4043 100 0 0 0          * a small card table
+O 0 4012 2 4048 100 0 0 0          * a small card table
+O 0 4013 1 4049 100 0 0 0          * a wooden table
+O 0 4018 1 4067 100 0 0 0          * some gold coins
+O 0 4020 1 4107 100 0 0 0          * a skeletal corpse
+P 1 4010 2 4020 100 0 0 0          *   a double-bladed battleaxe
+P 1 4021 1 4020 100 0 0 0          *   a small silver disc
+O 0 4017 1 4120 100 0 0 0          * a glowing amber bracelet
+O 0 4019 1 4120 100 0 0 0          * gold coins
+O 0 4016 1 4120 100 0 0 0          * a polished silver bracelet
+*
+M 0 4014 20 4002 100 0 0 0         * a kobold
+M 0 4014 20 4003 100 0 0 0         * a kobold
+M 0 4001 14 4005 100 0 0 0         * a goblin
+M 0 4001 14 4005 100 0 0 0         * a goblin
+M 0 4001 14 4006 100 0 0 0         * a goblin
+M 0 4001 14 4006 100 0 0 0         * a goblin
+M 0 4001 14 4006 100 0 0 0         * a goblin
+M 0 4016 1 4007 100 0 0 0          * a goblin cook
+M 0 4020 6 4007 100 0 0 0          * a goblin slave
+M 0 4020 6 4007 100 0 0 0          * a goblin slave
+M 0 4001 14 4009 100 0 0 0         * a goblin
+M 0 4001 14 4009 100 0 0 0         * a goblin
+M 0 4001 14 4010 100 0 0 0         * a goblin
+M 0 4001 14 4010 100 0 0 0         * a goblin
+M 0 4001 14 4011 100 0 0 0         * a goblin
+M 0 4001 14 4011 100 0 0 0         * a goblin
+M 0 4017 4 4012 100 0 0 0          * a goblin sentry
+M 0 4017 4 4012 100 0 0 0          * a goblin sentry
+M 0 4021 4 4012 100 0 0 0          * a goblin sentry
+M 0 4021 4 4012 100 0 0 0          * a goblin sentry
+M 0 4017 4 4013 100 0 0 0          * a goblin sentry
+M 0 4017 4 4013 100 0 0 0          * a goblin sentry
+M 0 4021 4 4013 100 0 0 0          * a goblin sentry
+M 0 4021 4 4013 100 0 0 0          * a goblin sentry
+M 0 4001 14 4014 100 0 0 0         * a goblin
+M 0 4001 14 4015 100 0 0 0         * a goblin
+M 0 4001 14 4016 100 0 0 0         * a goblin
+M 0 4018 5 4018 100 0 0 0          * an elite goblin guard
+M 0 4020 6 4018 100 0 0 0          * a goblin slave
+M 0 4020 6 4018 100 0 0 0          * a goblin slave
+M 0 4018 5 4019 100 0 0 0          * an elite goblin guard
+M 0 4018 5 4019 100 0 0 0          * an elite goblin guard
+M 0 4018 5 4020 100 0 0 0          * an elite goblin guard
+M 0 4018 5 4020 100 0 0 0          * an elite goblin guard
+M 0 4019 1 4021 100 0 0 0          * the goblin king
+E 1 4003 2 5 100 0 0 0             *   a flowing red robe
+E 1 4005 2 16 100 0 0 0            *   a bronze scepter
+M 0 4020 6 4021 100 0 0 0          * a goblin slave
+M 0 4020 6 4021 100 0 0 0          * a goblin slave
+M 0 4014 20 4023 100 0 0 0         * a kobold
+M 0 4011 2 4025 100 0 0 0          * a large hobgoblin
+M 0 4010 3 4027 100 0 0 0          * a small hobgoblin
+M 0 4010 3 4028 100 0 0 0          * a small hobgoblin
+M 0 4011 2 4031 100 0 0 0          * a large hobgoblin
+M 0 4014 20 4032 100 0 0 0         * a kobold
+M 0 4014 20 4033 100 0 0 0         * a kobold
+M 0 4014 20 4035 100 0 0 0         * a kobold
+M 0 4035 11 4042 100 0 0 0         * an orc
+M 0 4035 11 4042 100 0 0 0         * an orc
+M 0 4035 11 4042 100 0 0 0         * an orc
+M 0 4035 11 4043 100 0 0 0         * an orc
+M 0 4035 11 4043 100 0 0 0         * an orc
+M 0 4035 11 4044 100 0 0 0         * an orc
+M 0 4035 11 4045 100 0 0 0         * an orc
+M 0 4035 11 4046 100 0 0 0         * an orc
+M 0 4035 11 4046 100 0 0 0         * an orc
+M 0 4035 11 4046 100 0 0 0         * an orc
+M 0 4008 4 4047 100 0 0 0          * a large orc
+M 0 4008 4 4047 100 0 0 0          * a large orc
+M 0 4008 4 4048 100 0 0 0          * a large orc
+M 0 4008 4 4048 100 0 0 0          * a large orc
+M 0 4009 1 4049 100 0 0 0          * the orc chief
+E 1 4006 5 16 100 0 0 0            *   a huge club
+M 0 4013 3 4055 100 0 0 0          * a primitive human warrior
+G 1 398 9999 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 4013 3 4056 100 0 0 0          * a primitive human warrior
+M 0 4012 4 4057 100 0 0 0          * a primitive human
+M 0 4012 4 4058 100 0 0 0          * a primitive human
+M 0 4013 3 4059 100 0 0 0          * a primitive human warrior
+M 0 4012 4 4060 100 0 0 0          * a primitive human
+M 0 4012 4 4061 100 0 0 0          * a primitive human
+M 0 4029 3 4066 100 0 0 0          * the green slime
+M 0 4029 3 4066 100 0 0 0          * the green slime
+M 0 4026 2 4069 100 0 0 0          * a piercer
+M 0 4026 2 4070 100 0 0 0          * a piercer
+M 0 4025 1 4072 100 0 0 0          * a lurker above
+M 0 4028 3 4074 100 0 0 0          * a huge poisonous snake
+M 0 4028 3 4074 100 0 0 0          * a huge poisonous snake
+M 0 4028 3 4074 100 0 0 0          * a huge poisonous snake
+M 0 4027 1 4076 100 0 0 0          * Goortok
+E 1 4014 1 9 100 0 0 0             *   a pair of warrior's gloves
+E 1 4004 3 18 100 0 0 0            *   a stone key
+M 0 4022 3 4077 100 0 0 0          * a huge rat
+M 0 4022 3 4078 100 0 0 0          * a huge rat
+M 0 4022 3 4078 100 0 0 0          * a huge rat
+M 0 4023 3 4084 100 0 0 0          * a lizard man
+E 1 4007 80 18 100 0 0 0           *   a purple potion
+M 0 4023 3 4084 100 0 0 0          * a lizard man
+E 1 4007 80 18 100 0 0 0           *   a purple potion
+M 0 4023 3 4084 100 0 0 0          * a lizard man
+E 1 4007 80 18 100 0 0 0           *   a purple potion
+M 0 4024 2 4088 100 0 0 0          * a cave fisher
+M 0 4024 2 4089 100 0 0 0          * a cave fisher
+M 0 4029 3 4090 100 0 0 0          * the green slime
+M 0 4005 2 4094 100 0 0 0          * a large green snake
+M 0 4005 2 4094 100 0 0 0          * a large green snake
+M 0 4006 1 4094 100 0 0 0          * a huge green snake
+G 1 4002 1 0 100 0 0 0             *    a ring made of snake skin
+M 0 4004 2 4095 100 0 0 0          * a large green snake
+M 0 4004 2 4095 100 0 0 0          * a large green snake
+M 0 4015 2 4096 100 0 0 0          * a large green snake
+M 0 4015 2 4096 100 0 0 0          * a large green snake
+M 0 4032 1 4106 100 0 0 0          * a large trapper
+M 0 4033 1 4116 100 0 0 0          * a three-headed hydra
+M 0 4036 1 4117 100 0 0 0          * a five-headed hydra
+M 0 4037 1 4118 100 0 0 0          * a seven-headed cryohydra
+M 0 4034 1 4119 100 0 0 0          * a nine-headed pyrohydra
+M 0 4002 2 4121 100 0 0 0          * a large green snake
+M 0 4002 2 4121 100 0 0 0          * a large green snake
+M 0 4003 2 4122 100 0 0 0          * a large green snake
+M 0 4003 2 4122 100 0 0 0          * a large green snake
+M 0 4035 11 4123 100 0 0 0         * an orc
+M 0 94739 12 4140 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4140 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4140 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4140 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4140 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4141 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4141 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4141 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
+M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
+M 0 53609 1 4149 100 0 0 0         * (mob type not in this .mob file)
+*
+S

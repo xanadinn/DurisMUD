@@ -1,0 +1,154 @@
+#89102
+M
+weapon sword dagger~
+&+r   With a grin, &+BVitrius&+r says, "Sure, I can make weapons.  Right now, though,&n
+&+rI am working only on &+cs&+Ch&+cor&+Ct&+cswor&+Cd&+cs, &+Cl&+con&+Cg&+cswor&+Cd&+cs,&+r or &+Ct&+cwo-&+Ch&+can&+Cd&+ce&+Cd &+cswor&+Cd&+cs.&+r  And the&n
+&+rapprentices need to learn how to work on &+cmi&+Cth&+cra&+Cl,&+r so if you would bring some&n
+&+rof that, I will make a weapon for you."&n
+&+r   After a moment, he says, "Well, I can make a pretty good &+Cd&+ca&+Cgg&+cer,&+r too."&n
+~
+M
+shortsword~
+&+r   Nodding, &+BVitrius&+r says, "Sure.  I can make a &+cs&+Ch&+cor&+Ct&+cswor&+Cd&+r easy.  Just bring&n
+&+rme a piece of &+Cmithral,&+r a &+cmi&+Cth&+cra&+Cl d&+ca&+Cgg&+cer,&+r and &+W45 platinum pieces, &+rand I will&n
+&+rmake an excellent &+cswor&+Cd."&n
+~
+M
+longsword~
+&+B   Vitrius&+r grins, saying, "That is a popular style of sword, it seems.  If you&n
+&+rwill bring me a piece of &+Cmithral,&+r a &+cmi&+Cth&+cra&+Cl &+cs&+Ch&+cor&+Ct&+cswor&+Cd&+r and &+W100 platinum pieces,&n
+&+rI will make an excellent &+Cl&+con&+Cg&+cswor&+Cd&+r for you."&n
+~
+M
+two-handed~
+&+r   With a broad smile, &+BVitrius&+r says, "Now, that is a &+cswor&+Cd&+r after my own heart.&n
+&+rVery few ask for such a magnificent weapon any more.  I will be more than glad&n
+&+rto forge one for you, if you bring me a piece &+Cmithral,&+r a &+cmi&+Cth&+cra&+Cl l&+con&+Cg&+cswor&+Cd&+r and&n
+&+W250 platinum pieces.&+r  I will make something that you will never forget."&n
+~
+M
+dagger~
+&+r   With a grin, &+BVitrius&+r says, "All you need for a little gem of a &+Cd&+ca&+Cgg&+cer&+r is to&n
+&+rbring me a piece of &+Cmithral&+r and &+W10 platinum pieces.&+r  I can guarantee you won't&n
+&+rbe disappointed."&n
+~
+Q
+   "There you go.  You should be pleased with this short sword.  It is well
+made and should serve you well."
+~
+R I 89118
+G I 89117
+G C 45000
+G I 89141
+Q
+&+c   Wiping his brow, &+BVitruis&+c says, "This is one of my finer pieces.  You&n
+&+cshould be pleased with it.  May it serve you well."&n
+~
+R I 89119
+G I 89117
+G C 100000
+G I 89142
+Q
+&+B   Vitrius &+csteps back from the forge, looking at the sword he has wrought for&n
+&+ca moment before saying, "This should do well for you.  It is among the finest&n
+&+cI have ever made," as he hands it to you.&n
+~
+R I 89120
+G I 89117
+G C 250000
+G I 89142
+Q
+&+r   With a grin, &+BVitrius&+r says, "Now, you be careful handling this little beauty&n
+&+rof a &+Cd&+ca&+Cgg&+cer.&+r  It is a tad bit sharp and just as likely to slice you open as an&n
+&+renemy, if you're careless."&n
+~
+R I 89143
+G I 89117
+G C 10000
+G I 89140
+S
+#89165
+M
+lord master~
+&+r   The &+gjanitor&+r smiles, saying, "Oh, the master?  He is a fair one, he is."  He&n
+&+rglances around to see if anyone from the &+Lkeep&+r is listening before he whispers,&n
+&+r"Just be good.  Or be dead.  Like him, only not like him.  You'd be dead, well&n
+&+rmaybe.  But he's been dead for a long time.  But a good ruler he is.  Fair."&n
+&+r   "For a &+Ll&+mic&+Lh."&n
+~
+M
+lich~
+&+r   "Oh, you knew he was a &+Ll&+mic&+Lh&+r already? Well, then, that's different. He put&n
+&+rin a lot of hard work to be one, you know. And I wouldn't cross him. Them as&n
+&+rhave ended up dead.  Or parts of his guard.  For his vault.  Strange-looking&n
+&+rthing it is.  So many different pieces just put together.  Glad I don't have&n
+&+rto go down there."  He shudders.  "That thing is nasty, and fast, and always&n
+&+rhungry.  And don't like nobody but the master."&n
+~
+M
+vault~
+&+r   He looks at you as if you are stupid, saying, "Well, sure.  Every good &+blord&n
+&+rhas a vault.  To keep things.  Special things."  His voice drops lower, and he&n
+&+rsays, "Powerful things." Speaking in his normal tone, he says, "They belong to&n
+&+rthe &+bmaster.&+r  It's his.  He has the key."&n
+~
+M
+key~
+&+r   He nods, more to himself than to his listener, and says, "Yep.  He has the&n
+&+rkey.  Always does.  Never lets it go.  Used to be part of a friend before the&n
+&+rfool betrayed the master.  Nope, it don't pay to cross him at all."&n
+~
+M
+dead death~
+&+r   With a conspiratol wink, he says, "I heard that it was an enemy what killed&n
+&+rhim.  But the &+bmaster&+r had it all set up.  When the enemy thought he was killing&n
+&+rthe &+bmaster,&+r he really made the master stronger.  Made him a &+Ll&+mic&+Lh&+r instead of an&n
+&+bogre.&+r  Made his body strong forever instead of getting weaker.  It was bad for&n
+&+rthe evil alliance when they lost a good mercenary when old &+bHammerhead&+r died and&n
+&+rbecame the &+blord&+r of this &+Lkeep.&+r  He don't work for them now, but for him."&n
+~
+M
+keep~
+&+r   Looking solemn, he says, "You want to know about this keep?  Welp, I heard&n
+&+rit was built on souls and death, frozen in time forever.  If the master dies,&n
+&+rthe souls will be released with shrieks loud enough to kill everyone in here,&n
+&+ror so they say.  But I ain't worried about it because how can you kill what's&n
+&+ralready dead?"&n
+~
+M
+hammerhead mercenary~
+&+r   With a faraway look in his eyes, the &+gtroll&+r says, "My grandpap used to tell&n
+&+rme stories about the great &+bogre&+y mercenary, &+bHammerhead.&+r  How he took on entire&n
+&+rarmies of goodies all by his lonesome and beat them back into submission then&n
+&+rslaughtered them because they thought he wouldn't kill prisoners.  Those must&n
+&+rhave been proud days for the evil alliance.  Seems like they ain't doing well&n
+&+rnow, but then, &+bHammerhead&+r is taking their lands as well as the lands that was&n
+&+rgoodie lands."&n
+~
+S
+#89166
+M
+lord master~
+&+r   He clears his throat, saying, "Yes, I am looking for any information that&n
+&+rcan be found on the master of this &+Lkeep.&+r  When the elders heard that an &+bogre&n
+&+rnamed Hammerhead might be the lord here, they asked if I would come scout it&n
+&+rout.  Would you happen to know if the dreaded &+bHammerhead,&+r reputed to be the&n
+&+rgreatest &+bogre &+ymercenary&+r to ever exist, is the lord here?"&n
+~
+M
+hammerhead~
+&+r   "Hammerhead had quite a reputation, but it was also rumored that he is dead.&n
+&+rBetrayed by his own lieutenant in that massive army of evil.  Had he not died,&n
+&+rit is thought that he would have overrun all the lands, delivering them to the&n
+&+revil alliance to do with as they wished."&n
+~
+M
+scout information~
+&+r   He shuffles his hooves before saying, "Yes, I was sent as a scout, though&n
+&+rI have been able to find out very little.  Those who live here are reluctant&n
+&+rto say anything about their master.  I hope to see him tomorrow as I do grow&n
+&+rtired of being here and kept waiting.  But the elders were so concerned that&n
+&+rif it is &+bHammerhead,&+r he will spread his blight over all the lands, unless he&n
+&+ris stopped."&n
+~
+S

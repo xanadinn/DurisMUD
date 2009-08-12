@@ -1,0 +1,114 @@
+#47000
+cart wooden~
+a &+ywooden cart&N~
+A &+ywooden cart&N is sitting here.~
+~
+27 6 0 50 7 0 0 0 0 0 0
+10 1 0 0 0 0 0 0
+1000 50000 100
+E
+wagon wooden~
+This wooden cart has four large wheels and two long handles protruding from
+the front allowing it to be pulled easily by its owner. The bed is flat,
+measuring about 4 feet wide by 6 feet long with foot high sideboards.
+~
+#47001
+carriage~
+a &+yhorse-drawn carriage&N~
+A &+yhorse-drawn carriage&N is sitting here.~
+~
+27 6 0 50 7 0 0 0 0 0 0
+6 1 0 0 0 0 0 0
+1000 50000 100
+#47002
+coach~
+a &+ycoach&N~
+A &+ylarge wooden coach&N is sitting here.~
+~
+27 6 0 50 7 0 0 0 0 0 0
+8 1 0 0 0 0 0 0
+1000 50000 100
+#47003
+ticket~
+&+Wa ferry ticket&n~
+&+WA ferry ticket has been dropped here.&n~
+~
+13 28 3 0 5 0 8388608 1 0 0 0
+0 0 0 0 0 0 0 0
+0 5000 100
+#47004
+old ferry boat __ferry__~
+&+yan old ferry boat~
+&+yAn old, rickety ferry boat lists to starboard here.~
+~
+28 6 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+ferry boat rickety~
+You're not sure you want to trust your life to this rickety piece of crap.&n
+~
+#47005
+cargo crates~
+&+ysome cargo crates&n~
+&+yLarge cargo crates have been stored here.~
+~
+15 6 3 0 5 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+#47006
+automat contraption~
+&+ya ferry ticket &+Mautomat~
+&+yA strange gnomish &+Mcontraption&+y stands here, dispensing ferry tickets.&n~
+~
+13 15 3 0 5 0 8 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#47007
+automatic navigator system contraption~
+&+yan automatic navigational system~
+&+yA strange, buzzing contraption beeps and whizzes here.~
+~
+13 15 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+automatic navigator system contraption~
+&+yThis strange contraption is the automatic navigator for the ship. It
+&+ylooks rather rickety, obviously built by gnomish tinkerers to help steer
+&+ythe ship and control the various ferry systems. Multitudes of compasses
+&+yand whirling gizmos clatter away constantly.
+~
+#47008
+ticket flight~
+a &+Cflight&n ticket~
+A &+Cflight&n ticket lies here.~
+~
+13 15 3 0 7 0 8388616 1 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+#47013
+ferry ship wavedancer __ferry__~
+&+ythe &+WWave&+BDancer&n~
+&+yThe &+WWave&+BDancer&+y floats here, ready to ferry passengers.&n~
+~
+28 6 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+ferry ship wavedancer~
+&+yThis is the &+WWave&+BDancer&+y, the local ferry that travels around the
+&+yBay of &+WTharnadia&+y.&n
+~
+#47014
+ferry ship seaspray __ferry__~
+&+ythe &+bSe&+Cas&+Wp&+Cra&+By~
+&+yA small but fast-looking ferry called the &+bSe&+Cas&+Wp&+Cra&+By&+y floats here.~
+~
+28 6 3 0 5 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+ferry ship seaspray~
+&+yThis is the Seaspray, a local ferry that travels around the world.&n
+~

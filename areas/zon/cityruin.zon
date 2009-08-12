@@ -1,0 +1,418 @@
+#662
+&+LThe Ruins of Tharnadia's Old Quarter&N~
+66354 1 0 15 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 66200 0 1 100 0 0 0
+*     north exit from "Outside the Gates of a City in Ruins" to
+*     "On a Ruined City Street" - closed
+*
+D 0 66201 2 1 100 0 0 0
+*     south exit from "On a Ruined City Street" to
+*     "Outside the Gates of a City in Ruins" - closed
+*
+D 0 66203 5 5 100 0 0 0
+*     down exit from "Inside a Collapsed Building" to
+*     "A Room Below a Collapsed Building" - closed/secret
+*
+D 0 66314 4 5 100 0 0 0
+*     up exit from "A Room Below a Collapsed Building" to
+*     "Inside a Collapsed Building" - closed/secret
+*
+D 0 66211 5 5 100 0 0 0
+*     down exit from "Perrin Street" to
+*     "A Tunnel Below Perrin Street" - closed/secret
+*
+D 0 66327 4 5 100 0 0 0
+*     up exit from "A Tunnel Below Perrin Street" to
+*     "Perrin Street" - closed/secret
+*
+D 0 66215 2 2 100 0 0 0
+*     south exit from "Outside an Intact Building" to
+*     "Inside a Store" - closed/locked
+*
+D 0 66217 0 2 100 0 0 0
+*     north exit from "Inside a Store" to
+*     "Outside an Intact Building" - closed/locked
+*
+D 0 66219 3 1 100 0 0 0
+*     west exit from "The Outside of a Destroyed Building" to
+*     "The Inside of a Former Meeting Hall" - closed
+*
+D 0 66232 1 1 100 0 0 0
+*     east exit from "The Inside of a Former Meeting Hall" to
+*     "The Outside of a Destroyed Building" - closed
+*
+D 0 66223 5 5 100 0 0 0
+*     down exit from "Merchants Way" to
+*     "A Sewer Below Merchants Way" - closed/secret
+*
+D 0 66330 4 5 100 0 0 0
+*     up exit from "A Sewer Below Merchants Way" to
+*     "Merchants Way" - closed/secret
+*
+D 0 66237 5 5 100 0 0 0
+*     down exit from "Perrin Street" to
+*     "A Tunnel Below Perrin Street" - closed/secret
+*
+D 0 66333 4 5 100 0 0 0
+*     up exit from "A Tunnel Below Perrin Street" to
+*     "Perrin Street" - closed/secret
+*
+D 0 66241 0 1 100 0 0 0
+*     north exit from "A Narrow Hallway" to
+*     "Inside Old Soldiers Quarters" - closed
+*
+D 0 66242 2 1 100 0 0 0
+*     south exit from "Inside Old Soldiers Quarters" to
+*     "A Narrow Hallway" - closed
+*
+D 0 66243 0 1 100 0 0 0
+*     north exit from "A Narrow Hallway" to
+*     "Inside Old Soldiers Quarters" - closed
+*
+D 0 66244 2 1 100 0 0 0
+*     south exit from "Inside Old Soldiers Quarters" to
+*     "A Narrow Hallway" - closed
+*
+D 0 66245 0 1 100 0 0 0
+*     north exit from "A Narrow Hallway" to
+*     "Inside Old Soldiers Quarters" - closed
+*
+D 0 66246 2 1 100 0 0 0
+*     south exit from "Inside Old Soldiers Quarters" to
+*     "A Narrow Hallway" - closed
+*
+D 0 66247 0 1 100 0 0 0
+*     north exit from "A Narrow Hallway" to
+*     "Inside Old Soldiers Quarters" - closed
+*
+D 0 66248 2 1 100 0 0 0
+*     south exit from "Inside Old Soldiers Quarters" to
+*     "A Narrow Hallway" - closed
+*
+D 0 66249 2 1 100 0 0 0
+*     south exit from "In a Hallway" to
+*     "The Entrance to an Armoury" - closed
+*
+D 0 66250 0 1 100 0 0 0
+*     north exit from "The Entrance to an Armoury" to
+*     "In a Hallway" - closed
+*
+D 0 66250 2 2 100 0 0 0
+*     south exit from "The Entrance to an Armoury" to
+*     "Inside an Old Armoury" - closed/locked
+*
+D 0 66251 0 1 100 0 0 0
+*     north exit from "Inside an Old Armoury" to
+*     "The Entrance to an Armoury" - closed
+*
+D 0 66257 5 5 100 0 0 0
+*     down exit from "Durin Street" to
+*     "The Sewers Below Durin Street" - closed/secret
+*
+D 0 66336 4 5 100 0 0 0
+*     up exit from "The Sewers Below Durin Street" to
+*     "Durin Street" - closed/secret
+*
+D 0 66258 0 1 100 0 0 0
+*     north exit from "Before a Crumbling Mansion" to
+*     "Inside the Front Entrance of a Large Mansion" - closed
+*
+D 0 66259 2 1 100 0 0 0
+*     south exit from "Inside the Front Entrance of a Large Mansion" to
+*     "Before a Crumbling Mansion" - closed
+*
+D 0 66264 0 1 100 0 0 0
+*     north exit from "In a Colorful Hallway" to
+*     "Inside Crumbling Guest Quarters" - closed
+*
+D 0 66265 2 1 100 0 0 0
+*     south exit from "Inside Crumbling Guest Quarters" to
+*     "In a Colorful Hallway" - closed
+*
+D 0 66266 0 1 100 0 0 0
+*     north exit from "In a Colorful Hallway" to
+*     "Inside Crumbling Guest Quarters" - closed
+*
+D 0 66267 2 1 100 0 0 0
+*     south exit from "Inside Crumbling Guest Quarters" to
+*     "In a Colorful Hallway" - closed
+*
+D 0 66268 2 1 100 0 0 0
+*     south exit from "In a Colorful Hallway" to
+*     "In a Huge Bedroom" - closed
+*
+D 0 66269 0 1 100 0 0 0
+*     north exit from "In a Huge Bedroom" to
+*     "In a Colorful Hallway" - closed
+*
+D 0 66277 5 5 100 0 0 0
+*     down exit from "Inside a Massive Building" to
+*     "A Drainage Room Below a Massive Building" - closed/secret
+*
+D 0 66319 4 5 100 0 0 0
+*     up exit from "A Drainage Room Below a Massive Building" to
+*     "Inside a Massive Building" - closed/secret
+*
+D 0 66297 0 2 100 0 0 0
+*     north exit from "In a Well Lit Hallway" to
+*     "In an Intact Home" - closed/locked
+*
+D 0 66298 2 2 100 0 0 0
+*     south exit from "In an Intact Home" to
+*     "In a Well Lit Hallway" - closed/locked
+*
+D 0 66301 5 5 100 0 0 0
+*     down exit from "Commoners Road" to
+*     "A Drainage Room Below Commoners Road" - closed/secret
+*
+D 0 66321 4 5 100 0 0 0
+*     up exit from "A Drainage Room Below Commoners Road" to
+*     "Commoners Road" - closed/secret
+*
+D 0 66307 3 1 100 0 0 0
+*     west exit from "On a Ruined Street" to
+*     "In a Bloody Shelter" - closed
+*
+D 0 66308 1 1 100 0 0 0
+*     east exit from "In a Bloody Shelter" to
+*     "On a Ruined Street" - closed
+*
+D 0 66309 5 2 100 0 0 0
+*     down exit from "A Hallway Leading Into a Basement" to
+*     "Inside a Basement" - closed/locked
+*
+D 0 66310 4 2 100 0 0 0
+*     up exit from "Inside a Basement" to
+*     "A Hallway Leading Into a Basement" - closed/locked
+*
+D 0 66337 5 1 100 0 0 0
+*     down exit from "Before a Gaping Hole" to
+*     "In a Slick Tunnel" - closed
+*
+D 0 66338 4 1 100 0 0 0
+*     up exit from "In a Slick Tunnel" to
+*     "Before a Gaping Hole" - closed
+*
+*
+O 0 66202 1 66217 100 0 0 0        * a small safe
+P 1 66204 4 66202 100 0 0 0        *   a small ruby
+P 1 66205 4 66202 100 0 0 0        *   a gem studded silver crown
+O 0 66207 1 66231 100 0 0 0        * a massive iron chest
+O 0 66206 1 66233 100 0 0 0        * a stone table
+O 0 66224 1 66251 20 0 0 0         * a bronze shield dubbed "Wyrmslayer's Aegis"
+O 0 66209 1 66251 20 0 0 0         * the enchanted adamantium belt of vitality
+O 0 66232 5 66251 100 0 0 0        * an arrow infused with mystic energy
+O 0 66232 5 66251 100 0 0 0        * an arrow infused with mystic energy
+O 0 66232 5 66251 100 0 0 0        * an arrow infused with mystic energy
+O 0 66232 5 66251 100 0 0 0        * an arrow infused with mystic energy
+O 0 66232 5 66251 100 0 0 0        * an arrow infused with mystic energy
+O 0 66233 1 66251 20 0 0 0         * an exquisite set of mithril plate barding
+O 0 66234 1 66251 20 0 0 0         * the glorious titanium ring of physical resistance
+O 0 66235 1 66251 20 0 0 0         * a darkened blade bearing a Thieves Guild insignia
+O 0 26233 1 66251 20 0 0 0         * (object type not in this .obj file)
+O 0 359 1 66251 100 0 0 0          * (object type not in this .obj file)
+O 0 66201 1 66251 100 0 0 0        * the remains of the skeletal necromancer
+O 0 66236 1 66251 20 0 0 0         * a glorious blue diamond worth a lot of platinum
+O 0 66212 1 66267 100 0 0 0        * a large iron chest
+O 0 66213 1 66269 100 0 0 0        * a small iron strongbox
+P 1 66214 1 66213 100 0 0 0        *   a HUGE gemstone
+O 0 66210 1 66274 100 0 0 0        * a shelf full of books
+P 1 66211 1 66210 100 0 0 0        *   a book labeled 'The Mt.Sknak Treasure Hoard'
+O 0 66203 1 66298 100 0 0 0        * a beautiful silver broach
+O 0 66219 1 66349 100 0 0 0        * a black onyx statue
+*
+M 0 66206 8 66206 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66206 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66206 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66237 1 66206 100 0 0 0        * a former militia officer
+M 0 66206 8 66208 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66208 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66208 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66233 14 66208 100 0 0 0       * the skeletal guard
+M 0 66233 14 66209 100 0 0 0       * the skeletal guard
+M 0 66206 8 66210 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66210 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66210 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66206 8 66212 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66212 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66212 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66233 14 66212 100 0 0 0       * the skeletal guard
+M 0 66233 14 66212 100 0 0 0       * the skeletal guard
+M 0 66233 14 66212 100 0 0 0       * the skeletal guard
+M 0 66218 1 66214 100 0 0 0        * a former militia officer
+M 0 66215 10 66214 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66215 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66216 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66216 100 0 0 0       * the zombie of a farmer
+M 0 66238 1 66217 100 0 0 0        * the reaver master
+M 0 66233 14 66220 100 0 0 0       * the skeletal guard
+M 0 66223 3 66221 100 0 0 0        * a powerful vampire
+M 0 66233 14 66222 100 0 0 0       * the skeletal guard
+M 0 66200 4 66226 100 0 0 0        * the undead beast
+M 0 66217 1 66227 100 0 0 0        * a former merchant
+M 0 66234 1 66228 100 0 0 0        * a former merchant
+M 0 66235 1 66230 100 0 0 0        * a former merchant
+M 0 66215 10 66232 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66232 100 0 0 0       * the zombie of a farmer
+M 0 66208 1 66233 100 0 0 0        * the zombie of a noble
+M 0 66215 10 66234 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66234 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66235 100 0 0 0       * the zombie of a farmer
+M 0 66215 10 66235 100 0 0 0       * the zombie of a farmer
+M 0 66206 8 66236 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66236 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66236 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66233 14 66236 100 0 0 0       * the skeletal guard
+M 0 66205 8 66238 100 0 0 0        * a rapidly decaying zombie
+M 0 66205 8 66238 100 0 0 0        * a rapidly decaying zombie
+M 0 66202 6 66238 100 0 0 0        * a patrolling zombie
+M 0 66205 8 66239 100 0 0 0        * a rapidly decaying zombie
+M 0 66205 8 66239 100 0 0 0        * a rapidly decaying zombie
+M 0 66205 8 66240 100 0 0 0        * a rapidly decaying zombie
+M 0 66205 8 66240 100 0 0 0        * a rapidly decaying zombie
+M 0 66201 6 66242 100 0 0 0        * a zombie soldier
+M 0 66202 6 66243 100 0 0 0        * a patrolling zombie
+M 0 66201 6 66244 100 0 0 0        * a zombie soldier
+M 0 66202 6 66245 100 0 0 0        * a patrolling zombie
+M 0 66201 6 66246 100 0 0 0        * a zombie soldier
+M 0 66202 6 66247 100 0 0 0        * a patrolling zombie
+M 0 66201 6 66248 100 0 0 0        * a zombie soldier
+M 0 66203 1 66250 100 0 0 0        * the skeletal necromancer
+F 1 66231 1 66250 100 0 0 0        * the armory guard (following)
+F 1 66230 1 66250 100 0 0 0        * the armory guard (following)
+M 0 66241 5 66251 50 0 0 0         * the animated remains of an elite guard
+M 0 66241 5 66251 50 0 0 0         * the animated remains of an elite guard
+M 0 66241 5 66251 30 0 0 0         * the animated remains of an elite guard
+M 0 66241 5 66251 10 0 0 0         * the animated remains of an elite guard
+M 0 66241 5 66251 10 0 0 0         * the animated remains of an elite guard
+M 0 66202 6 66252 100 0 0 0        * a patrolling zombie
+M 0 66202 6 66252 100 0 0 0        * a patrolling zombie
+M 0 66204 2 66253 100 0 0 0        * a former officer
+M 0 66201 6 66253 100 0 0 0        * a zombie soldier
+M 0 66204 2 66254 100 0 0 0        * a former officer
+M 0 66201 6 66254 100 0 0 0        * a zombie soldier
+M 0 66206 8 66255 100 0 0 0        * the skeleton of a commoner
+F 1 66207 12 66255 100 0 0 0       * the skeleton of a commoner (following)
+F 1 66207 12 66255 100 0 0 0       * the skeleton of a commoner (following)
+M 0 66233 14 66255 100 0 0 0       * the skeletal guard
+M 0 66233 14 66255 100 0 0 0       * the skeletal guard
+M 0 66200 4 66257 100 0 0 0        * the undead beast
+M 0 66211 1 66259 100 0 0 0        * a mangled zombie
+M 0 66209 21 66260 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66262 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66264 100 0 0 0       * a gelatinous cube
+M 0 66212 2 66265 100 0 0 0        * the ghost of a former guest
+M 0 66212 2 66267 100 0 0 0        * the ghost of a former guest
+M 0 66213 1 66267 100 0 0 0        * the ghost of a former guest
+M 0 66209 21 66268 100 0 0 0       * a gelatinous cube
+M 0 66210 1 66269 100 0 0 0        * the former master of the house
+E 1 66229 1 1 100 0 0 0            *   a metal ring encrusted with gems
+G 1 66225 1 0 100 0 0 0            *    the remains of the master of the house
+M 0 66224 1 66269 100 0 0 0        * the master's guard
+E 1 66220 1 16 100 0 0 0           *   a massive bone mace
+M 0 66209 21 66270 100 0 0 0       * a gelatinous cube
+M 0 66200 4 66271 100 0 0 0        * the undead beast
+M 0 66209 21 66271 100 0 0 0       * a gelatinous cube
+M 0 66200 4 66274 100 0 0 0        * the undead beast
+M 0 66209 21 66274 100 0 0 0       * a gelatinous cube
+M 0 66219 2 66276 100 0 0 0        * a crabman
+M 0 66233 14 66276 100 0 0 0       * the skeletal guard
+M 0 66233 14 66276 100 0 0 0       * the skeletal guard
+M 0 66220 12 66278 100 0 0 0       * a giant lizard
+M 0 66220 12 66280 100 0 0 0       * a giant lizard
+M 0 66220 12 66281 100 0 0 0       * a giant lizard
+M 0 66220 12 66284 100 0 0 0       * a giant lizard
+M 0 66220 12 66285 100 0 0 0       * a giant lizard
+M 0 66220 12 66290 100 0 0 0       * a giant lizard
+M 0 66220 12 66291 100 0 0 0       * a giant lizard
+M 0 66220 12 66294 100 0 0 0       * a giant lizard
+M 0 66220 12 66296 100 0 0 0       * a giant lizard
+M 0 66220 12 66297 100 0 0 0       * a giant lizard
+M 0 66221 1 66298 100 0 0 0        * a red fire lizard
+M 0 66220 12 66299 100 0 0 0       * a giant lizard
+M 0 66220 12 66299 100 0 0 0       * a giant lizard
+M 0 66219 2 66300 100 0 0 0        * a crabman
+M 0 66206 8 66301 100 0 0 0        * the skeleton of a commoner
+M 0 66205 8 66301 100 0 0 0        * a rapidly decaying zombie
+M 0 66233 14 66301 100 0 0 0       * the skeletal guard
+M 0 66223 3 66302 100 0 0 0        * a powerful vampire
+M 0 66206 8 66303 100 0 0 0        * the skeleton of a commoner
+M 0 66223 3 66304 100 0 0 0        * a powerful vampire
+M 0 66205 8 66305 100 0 0 0        * a rapidly decaying zombie
+M 0 66225 1 66306 100 0 0 0        * a human paladin
+M 0 66222 3 66308 100 0 0 0        * the ghost of a young child
+M 0 66222 3 66308 100 0 0 0        * the ghost of a young child
+M 0 66222 3 66308 100 0 0 0        * the ghost of a young child
+M 0 66209 21 66309 100 0 0 0       * a gelatinous cube
+M 0 66214 6 66310 100 0 0 0        * the ghost of a former prisoner
+M 0 66214 6 66310 100 0 0 0        * the ghost of a former prisoner
+M 0 66214 6 66312 100 0 0 0        * the ghost of a former prisoner
+M 0 66214 6 66312 100 0 0 0        * the ghost of a former prisoner
+M 0 66214 6 66313 100 0 0 0        * the ghost of a former prisoner
+M 0 66214 6 66313 100 0 0 0        * the ghost of a former prisoner
+M 0 66216 12 66316 100 0 0 0       * a rat zombie
+M 0 66216 12 66318 100 0 0 0       * a rat zombie
+M 0 66216 12 66318 100 0 0 0       * a rat zombie
+M 0 66216 12 66322 100 0 0 0       * a rat zombie
+M 0 66216 12 66324 100 0 0 0       * a rat zombie
+M 0 66209 21 66325 100 0 0 0       * a gelatinous cube
+M 0 66216 12 66326 100 0 0 0       * a rat zombie
+M 0 66216 12 66328 100 0 0 0       * a rat zombie
+M 0 66216 12 66330 100 0 0 0       * a rat zombie
+M 0 66209 21 66331 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66331 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66331 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66331 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66331 100 0 0 0       * a gelatinous cube
+M 0 66216 12 66332 100 0 0 0       * a rat zombie
+M 0 66216 12 66332 100 0 0 0       * a rat zombie
+M 0 66216 12 66334 100 0 0 0       * a rat zombie
+M 0 66209 21 66335 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66335 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66335 100 0 0 0       * a gelatinous cube
+M 0 66216 12 66336 100 0 0 0       * a rat zombie
+M 0 66209 21 66342 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66342 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66342 100 0 0 0       * a gelatinous cube
+M 0 66209 21 66342 100 0 0 0       * a gelatinous cube
+M 0 66229 7 66344 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66344 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66344 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66345 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66345 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66345 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66229 7 66345 100 0 0 0        * the zombie of a warrior
+E 1 66218 7 16 100 0 0 0           *   an ancient looking broadsword
+M 0 66232 1 66345 100 0 0 0        * a massive death knight
+E 1 66221 1 5 100 0 0 0            *   a bone breastplate
+E 1 66222 1 7 100 0 0 0            *   a pair of bone shin guards
+E 1 66223 1 10 100 0 0 0           *   some bone arm guards
+E 1 66208 1 16 100 0 0 0           *   a razor-edged war fork
+G 1 66226 1 0 100 0 0 0            *    the remains of the warrior guildmaster
+M 0 66233 14 66346 100 0 0 0       * the skeletal guard
+M 0 66226 1 66348 100 0 0 0        * the spectre of the rogue guildmaster
+E 1 66228 1 3 100 0 0 0            *   a glowing steel necklace
+E 1 66215 2 16 100 0 0 0           *   a rusted shard of metal
+E 1 66215 2 17 100 0 0 0           *   a rusted shard of metal
+G 1 66230 1 0 100 0 0 0            *    the remains of the rogue guildmaster
+M 0 66227 4 66352 100 0 0 0        * the zombie of a mage in training
+G 1 66216 1 0 100 0 0 0            *    a sparkling blue potion
+F 1 66227 4 66352 100 0 0 0        * the zombie of a mage in training (following)
+E 1 66231 1 1 100 0 0 0            *   the steel ring of greater physical resistance
+F 1 66227 4 66352 100 0 0 0        * the zombie of a mage in training (following)
+F 1 66227 4 66352 100 0 0 0        * the zombie of a mage in training (following)
+M 0 66228 1 66354 100 0 0 0        * the mage guildmaster
+E 1 66217 1 6 100 0 0 0            *   a hood of ethereal mists
+G 1 66227 1 0 100 0 0 0            *    the remains of the mage guildmaster
+*
+S

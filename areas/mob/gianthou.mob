@@ -1,0 +1,719 @@
+#42600
+gimluk woodsmith~
+&+CGimluk &Nthe &+yWood&+rsmith&N~
+&+cGimluk the Woodsmith stands here looking rather frustrated.&N
+~
+~
+10250 0 0 48 28 0 0 -500 S
+PO 0 256 -1
+40 0 0 100d5+100 2d4+4
+0.0.0.0 0
+8 8 1
+#42601
+ogre baby~
+an &+bogre's &+cbaby&N~
+A &+Cbaby &+Bogre &+csits here &+Yscreaming &+Cvery very loudly.&N
+~
+~
+10 0 0 0 0 0 0 0 S
+PO 0 256 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#42602
+wife~
+&+CGimluk's &+cWife&N~
+&+CGimluk's &+cwife &+wstands here preparing some fresh &+Lorc.&N
+~
+~
+2058 4194304 0 0 0 0 0 0 S
+PO 0 256 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#42603
+dwarf leader~
+&+ythe &+Ydwarf &+yfarm &+Yleader&N~
+&+yThe &+Yleader&+y of the &+Ydwarf&+y farm stands here rather annoyed.&N
+~
+~
+67119178 4194304 0 33554480 45278 0 0 1000 S
+PM 0 32 -1
+41 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42604
+grasshopper~
+a &+ggrass&+Ghopper&N~
+&+gA grass&+Ghopper &+gstands here looking to chew on anything.&N
+~
+~
+134228042 0 0 17301512 28 0 0 -500 S
+I 0 2 -1
+10 0 0 1d1+1 2d2+2
+0.0.0.0 0
+8 8 0
+#42605
+ladybug bug~
+a &+Rl&+La&+Rd&+Ly&+Rb&+Lu&+Rg&N~
+&+WA &+Rl&+La&+Rd&+Ly&+Rb&+Lu&+Rg fly's here looking for food.&N
+~
+~
+139336 0 0 67108872 0 0 0 -500 S
+I 0 0 -1
+9 0 0 1d1+1 1d1+1
+1.1.0.0 0
+10 10 0
+#42606
+orc~
+&+Can &+YOrc&N~
+&+CA small &+YOrc&+C sits here awaiting his death.&N
+~
+~
+10 0 0 0 0 0 0 1000 S
+HO 0 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42607
+orc~
+&+Can &+rOrc&N~
+&+CA small &+rOrc&+C sits here awaiting his death.&N
+~
+~
+10 0 0 0 0 0 0 -1000 S
+HO 0 0 -1
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42608
+spider legs long longlegs~
+a &+Lspider&N~
+A &+Lspider with very &+Ylong legs &+Lhangs from his web.&N
+~
+~
+2056 1 0 0 0 0 0 -500 S
+AS 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42609
+wasp king~
+&+Ythe &+Lw&+Ya&+Ls&+Yp &+Lk&+Yi&+Ln&+Yg&N~
+&+YThe &+Lw&+Ya&+Ls&+Yp&+Y k&+Li&+Yn&+Lg&+Y stands here rather aggrivated.&N
+~
+~
+1140992078 1 0 185106736 30 0 0 -500 S
+I 0 16384 -1
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#42610
+wasp guardian guard~
+a &+Yg&+Lu&+Ya&+Lr&+Yd&+Li&+Ya&+Ln &+Yw&+La&+Ls&+Yp&N~
+A &+Yg&+Lu&+Ya&+Lr&+Yd&+Li&+Ya&+Ln&+Y of the w&+La&+Ys&+Lp &+Yk&+Li&+Yn&+Lg&+Y stands here protectively.&N
+~
+~
+1073881162 1 0 453542192 0 0 0 -500 S
+I 0 16384 -1
+23 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#42611
+wasp~
+a &+Yw&+La&+Ys&+Lp&N~
+A &+Yw&+La&+Ys&+Lp &+Ybuzzes around here angrily.&N
+~
+~
+1140981832 0 0 134250496 0 0 0 -500 S
+I 0 16384 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#42612
+army ant~
+an &+Larmy &+yant&N~
+A &+Lblack &+yant is here scampering around.&N
+~
+~
+67108874 1 0 0 0 0 0 -1 S
+I 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42613
+fire ant red~
+a &+rfire &+yant&N~
+A &+rred &+yant is here scampering around.&N
+~
+~
+8 1 0 536870944 29 0 0 -1 S
+I 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42614
+centipede bug insect~
+a &+Whuge &+gcentipede&N~
+A &+Whuge &+gcentipede &+Gruns around here.&N
+~
+~
+2248 0 0 0 0 0 0 0 S
+AC 0 0 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42615
+cow~
+a &+WHUGE &+Lblack &Nand &+Wwhite c&+Lo&+Ww&N~
+A &+WHUGE &+Lblack &+wand &+Wwhite c&+Lo&+Ww &+ystands here eating some food.&N
+~
+&+wThis giant &+Wc&+Lo&+Ww&+w defies being tipped by pranksters. This being would not budge
+&+wif 10 large &+Bogres &+wtried shoving it with &+rflam&+Ring hot po&+rkers&+w. This &+Wc&+Lo&+Ww&+w's
+&+whide is thick and &+Wshiny&+w, blotched in &+Lblack &+wand &+Wwhite&+w. Its tail flails from side
+&+wto side, occasionally sending passerby's sailing back a few feet. With
+&+wgleaming &+Cblue &+weyes and pearl white &+Wteeth&+w, it gnaws away continuously at any
+&+w&+gvegetation &+wit can get get its huges chompers on. This very harmless creature
+&+wreeks of chewed &+ggrass&+w and its legs and hoofs are &+ymuddy &+wfrom the ground below.
+~
+134217944 0 0 0 0 0 0 0 S
+G 0 0 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42616
+statue~
+a &+Mm&+Wa&+Mg&+Wi&+Mc&+Wa&+Ml &+Wstatue&N~
+&+yA wooden statue sits here &+Wglowing &+Mm&+Wa&+Mg&+Wi&+Mc&+Wa&+Ml&+Wl&+My&+W.&N
+~
+~
+24 0 0 8 0 0 0 0 S
+VT 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.100 0
+6 6 0
+#42617
+statue~
+a &+Wm&+Ma&+Wg&+Mi&+Wc&+Ma&+Wl statue&N~
+&+yA wooden statue sits here &+Wglowing &+Wm&+Ma&+Wg&+Mi&+Wc&+Ma&+Wl&+Ml&+Wy&+M.&N
+~
+~
+24 0 0 8 0 0 0 0 S
+VT 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.100 0
+6 6 0
+#42618
+ogre child young male~
+a &+cyoung male &+bogre&N~
+&+WA young &+bogre&+W is giving his &+msister&+W a horsey ride.&N
+~
+~
+134219980 0 0 0 0 0 0 0 S
+PO 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#42619
+ogre child young female~
+a &+myoung female &+bogre&N~
+A &+Wyoung &+bogre &+Wis playing with her &+Cbrother.&N
+~
+~
+2252 0 0 0 0 0 0 0 S
+PO 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#42620
+mantis bug~
+a &+ypray&+ging &+Lman&+gtis&N~
+&+yA huge bu&+gg like c&+Lreature st&+gands here.&N
+~
+~
+1073744076 0 0 33587200 28 0 0 0 S
+TK 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42621
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong &+ggreen &+Ggrass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42622
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong&+g green&+G grass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+264392 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42623
+snake green grass~
+a &+Ggrass &+Lsnake&N~
+A &+Llong &+ggreen&+G grass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42624
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong &+ggreen &+Ggrass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42625
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong &+ggreen &+Ggrass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42626
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong &+ggreen &+Ggrass&+g snake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42627
+snake green grass~
+a &+Ggrass&+L snake&N~
+A&+L long &+ggreen&+G grass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42628
+snake green grass~
+a &+Ggrass &+Lsnake&N~
+A &+Llong &+ggreen &+Ggrass &+gsnake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42629
+snake green grass~
+a &+Ggrass&+L snake&N~
+A &+Llong&+g green &+Ggrass&+g snake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42630
+snake green grass~
+a&+G grass&+L snake&N~
+A &+Llong&+g green &+Ggrass&+g snake.&N
+~
+&+gLong is a relative term for this snake, for it could easily wrap around a
+&+Chuman&+g, or two, from head to toe. This &+gsem&+Gi-p&+Wych&+gadel&+Gic&+g colored snake with
+&+gswirls of green not only disikes tresspassers, but will hiss and &+rstrike &+gat
+&+ganything that moves. If you chance to have a good look at this snake,
+&+gconsider yourself lucky for, it is &+revil &+gin all its likeness. Even with
+&+gone eye &+Lmissing&+g, this snake shows no fear, for its sense of smell is
+&+gunmatched any. &+yThe scales on it seem to have been &+ymangled &+ya bit towards
+&+yits tail, almost as if some animal tried chewing in it. &+gIts skin seems
+&+gto be old, dry and harsh. &+gIt seems to be close to shedding its skin.
+~
+1074006216 1 0 302514440 30 0 0 -1000 S
+RS 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42631
+dwarf guardian guard~
+a &+Rguardian&+Y dwarf&N~
+A &+RGuardian &+Ydwarf &+Rstands here.&N
+~
+~
+1140861000 4194304 0 33620272 45278 0 0 950 S
+PM 0 32 -1
+31 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42632
+dwarf father male~
+a &+Gfather &+Ydwarf&N~
+A &+Gfather &+Ydwarf &+Lwanders the farm.&N
+~
+~
+2120 4194304 0 33554464 30 0 0 900 S
+PM 0 32 -1
+26 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42633
+dwarf mother female~
+a &+cmother &+Ydwarf&N~
+A &+cmother &+Ydwarf &+Lwanders the farm.&N
+~
+~
+2120 4194304 0 33554464 30 0 0 850 S
+PM 0 32 -1
+21 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 2
+#42634
+dwarf young male~
+a &+yyoung &+cmale &+Ydwarf&N~
+A&+y young&+c male &+Ydwarf&+L wanders the farm.&N
+~
+~
+2120 4194304 0 32 28 0 0 800 S
+PM 0 32 -1
+16 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42635
+dwarf young female~
+a &+yyoung &+mfemale &+Ydwarf&N~
+A &+yyoung &+mfemale &+Ydwarf &+Lwanders the farm.&N
+~
+~
+2120 0 0 33554464 28 0 0 700 S
+PM 0 32 -1
+15 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42636
+dwarf baby~
+a &+Yb&+Ca&+Yb&+Cy &+Ydwarf&N~
+A &+Yb&+Ca&+Yb&+Cy &+Ydwarf &+Lwanders the farm.&N
+~
+~
+2120 0 0 0 28 0 0 650 S
+PM 0 32 -1
+6 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42637
+renthisla renthis dwarf old elderly~
+&+YRe&+ynt&+Yhi&+ys'&+Yla&N~
+&+YRe&+ynt&+Yhi&+ys'&+Yla &+yrests here contemplating a way out of here.&N
+~
+~
+67119178 4194304 0 301989944 45278 0 0 1000 S
+PM 0 32 -1
+56 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42638
+dwarf guard guardian~
+a &+Rguardian &+Ydwarf&N~
+A &+Rguardian &+Ydwarf &+Rstands here.&N
+~
+~
+1140861000 4194304 0 33620272 45278 0 0 950 S
+PM 0 32 -1
+30 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42639
+vulture mother~
+a &+Bhuge &+Lvulture&N~
+A &+Bhuge &+Lmother vulture stands here protecting her &+cyoung.&N
+~
+~
+1140985642 1 0 150994944 28 0 0 0 S
+B 0 128 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#42640
+vulture baby child young~
+a &+Bhuge &+cbaby &+Lvulture&N~
+A &+Bhuge &+cbaby &+Lvulture sits here behind its mother.&N
+~
+~
+67241994 1 0 134217728 28 0 0 0 S
+B 0 128 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42641
+mantis bug~
+a &+ypray&+ging &+Lman&+gtis&N~
+&+yA huge bu&+gg like c&+Lreature st&+gands here.&N
+~
+~
+1073744078 0 0 33587200 28 0 0 0 S
+TK 0 1 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42642
+dog prairie creature fuzzy~
+a &+ypra&+ririe&+y dog&N~
+&+yA little &+rfuzzy &+ycreature runs around here.&N
+~
+&+yThis cute fuzzy creature would scare a common dog ghost &+wwhite&+y. Brown and
+&+Lgray&+y, this pra&+ririe&+y dog is very agile and its gigantic stature give it great
+&+ystrength. Continuously making its home under the ground, digging, moving,
+&+ybuilding, destroying, hunting, this dog doesn't really want anything to do
+&+ywith anyone except itself. Its paws, massive with tiny &+Wsharp &+yclaws that are
+&+ymade to be dug with, make this creature avoided by most others for it seems
+&+yto be a loner. On its back, there seems to be a patch of fur missing, as if
+&+yit had been in a battle recently.
+~
+1073741960 0 0 34079008 2 0 0 0 S
+G 0 0 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42643
+mole large~
+&+La large &+ymole&N~
+&+LA large &+ymole&+L wanders around here.&N
+~
+&+LThis creature could, if he was friendly enough, be used to help dig tunnels
+&+Lfor beings of any size smaller then a giant. For this mole, gigantic in size
+&+Lmight make you think twice about smacking its nose. With dirt being stuck to
+&+Lits nostrils and &+ydust &+Land grime all over its fur, this dark &+rbeedy &+Leyed animal
+&+Lcould crush any smaller animals by simply sitting on them. In fact, it could
+&+Las easily dig a very deep deep hole and throw you in it. Its ears twitch from
+&+Lside to side constantly, its eyes quickly scanning the area to make sure the
+&+Lsun isn't creeping in on it, the mole goes on about its daily life avoiding
+&+Lgetting a sunburn.
+~
+1073744072 0 0 35127584 2 0 0 0 S
+G 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42644
+gyvyrin druid~
+&+GGyvyrin &+ythe elderly druid&N~
+&+GGyvyrin&+y the elderly druid stays here.&N
+~
+~
+2250 0 0 16851004 12508 0 0 0 S
+VT 0 128 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#42645
+branch large~
+&+ya large tree branch&N~
+&+yA large tree branch stands here.&N
+~
+~
+2122 0 0 17375264 28 0 0 0 S
+VT 0 128 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42646
+grasshopper~
+a &+ggrass&+Ghopper&N~
+&+gA grass&+Ghopper &+gstands here looking to chew on anything.&N
+~
+~
+10314 384 0 17301512 28 0 0 -500 S
+TK 0 2 -1
+10 0 0 1d1+1 2d2+2
+0.0.0.0 0
+8 8 0
+#42647
+ugala dwarf~
+&+YUg&+yal&+Ya&N~
+&+YUg&+yal&+Ya&+y stands here peacefully.&N
+~
+~
+67119178 0 0 301989944 45278 0 0 1000 S
+PM 0 32 -1
+56 0 0 1d1+1 4d4+5
+0.0.0.0 0
+8 8 1
+#42648
+ghost gamdin~
+&+Lthe ghost of Gamdin&N~
+&+LThe ghost of Gamdin floats here.&N
+~
+~
+106 1 0 67633162 0 0 0 -1000 S
+UG 0 512 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42649
+gardner centaur~
+&+cthe atrium's &+ggardner&N~
+&+cThe atrium's&+g Gardner&+c stands here caring for the &+yanimals &+cand &+Gplants.&N
+~
+~
+67110984 0 0 17375264 28 0 0 500 S
+CT 0 128 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42650
+duergar thief~
+&+La duergar thief&N~
+&+LA duergar thief sits here in the shadows.&N
+~
+~
+1073744012 0 0 35127584 0 0 0 -1000 S
+PD 0 4096 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42651
+duergar thief~
+&+La duergar thief&N~
+&+LA duergar thief sits here in the shadows.&N
+~
+~
+1140852878 0 0 35127584 0 0 0 -1000 S
+PD 0 4096 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42652
+mnthr thief master~
+&+LMnthr the Master Thief&N~
+&+LMnthr the Master Thief hides here in the shadows.&N
+~
+~
+1073744078 0 0 35127592 30 0 0 -1000 S
+PD 0 4096 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42653
+lizard green small~
+&+ga huge green lizard&N~
+&+gA huge green lizard scurries about here.&N
+~
+~
+200 1 0 0 0 0 0 0 S
+G 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#42654
+child young ogre~
+&+ca young &+bogre&+c child&N~
+&+cA young &+bogre &+cchild stands here helping her mother in the kitchen.&N
+~
+~
+10 0 0 0 0 0 0 0 S
+PO 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

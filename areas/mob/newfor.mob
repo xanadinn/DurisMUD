@@ -1,0 +1,336 @@
+#53300
+bunny rabbit~
+&+Wa bunny rabbit&n~
+&+WA little bunny rabbit hops around throughout the &+Gclearing&+W.&n
+~
+&+WThis little white rabbit frolicks playfully through the small clearing
+&+Win the woods.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 2
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53301
+chittering chipmunk~
+&+ya chittering chipmunk&n~
+&+yA cheerful chipmunk chitters here.&n
+~
+&+yThe chipmunk, being one of natures most playful creatures, scampers
+&+yaround the forest glade, playfully searching for nuts and berries.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 2
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53302
+forest spider~
+&+La forest spider&n~
+&+LA large forest spider hunts the woods for food.&n
+~
+&+LThis spider is considerably larger than many of its other cousins.
+&+LIt is quick and nimple and runs across the forest floor in a constant
+&+Lsearch for prey.&n
+~
+8 0 0 0 0 0 0 -500 S
+I 0 0 1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53303
+garter snake~
+&+ga garter snake&n~
+&+gA small garter snake slithers across the forest floor.&n
+~
+&+gThis spieces of snake is completely harmless to just about anyone
+&+gor anything.  It winds its way through the forest grounds, flicking out
+&+gits tongue in an attempt to find food.&n
+~
+8 0 0 0 0 0 0 0 S
+RS 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53304
+spotted lizard~
+&+ga s&+wpo&+gtt&+wed &+gli&+wza&+grd&n~
+&+gA ti&+wny s&+gpotte&+wd liz&+gard wa&+wnders a&+gbout here.&n
+~
+&+gThis tiny lizard appears to be a speckled gecko. It scrouges around
+&+gthe forest floor hunting insects with its long sticky tongue.&n
+~
+8 0 0 0 0 0 0 0 S
+R 0 0 1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53305
+cricket~
+&+La cricket&n~
+&+LA tiny cricket jumps through the &+gbushes&+L here.&n
+~
+&+LThis little insect chirps and hops around the forest floor, intently
+&+Lsearching for anything smaller than it to eat.&n
+~
+8 0 0 0 0 0 0 0 S
+I 0 0 1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53306
+sapling treant~
+&+ya &+gtreant&+y sapling&n~
+&+yA young &+gtreant&+y sapling grows from the ground here.&n
+~
+&+yThe treants are usually powerful and wise creatures, but as a small
+&+ysapling this treant isnt very large at all, rising but only a foot
+&+yor two off the ground and has yet not grown the ability to move on its
+&+yown.&n
+~
+10 0 0 0 0 0 0 500 S
+VT 0 0 2
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53307
+bluebird blue bird~
+&+Ba bluebird&n~
+&+bA &+Bbluebird&+b flutters about forest here.&n
+~
+&+BOne of the prettier birds found throughout the forest, this little
+&+Bbluebird chirps merrily as it collects sticks and leaves for its nest
+&+Bsomewhere nearby.&n
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53308
+partridge~
+&+ya partridge&n~
+&+yA clucking partridge walks about here.&n
+~
+&+yOne of very few types of fowl that prefers to walk than fly, this
+&+ycurious little creatures sprints along the forest floor, afraid of
+&+yalmost nearly anything it encounters, including its own shadow.&n
+~
+136 0 0 0 0 0 0 0 S
+B 0 0 1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#53309
+hooded druid~
+&+La hooded&+g druid&n~
+&+LA hooded and cloaked &+gdruid&+L stands here.&n
+~
+&+gThis druid appears quite old and humble, yet he smiles as one approaches
+&+ghim, indicating kindness.  He is dressed in the long robes that are
+&+gcommon in his order.&n
+~
+10 384 0 8 0 0 0 0 S
+PH 0 0 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53310
+speckled duck~
+&+ya s&+Wpe&+yck&+Wled&+y duck&n~
+&+yA sp&+Weck&+yled du&+Wck bo&+ybs on t&+Whe wa&+yter here.&n
+~
+&+W"Quack, Quack"&n
+&+yThe group of ducks out on the pond look extremely content just
+&+yfloated around minding their own business.&n
+~
+10 0 0 0 0 0 0 0 S
+B 0 0 2
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53311
+strangle weed strangleweed~
+&+Ga strangleweed&n~
+&+GA strangleweed twists through the foliage here.&n
+~
+&+GOddly moving as it has a mind of its own, this strange weed creeps
+&+Gthrough the florest floor, wrapping its long vines around anything
+&+Gsmaller than it, thus somehow feeding.&n
+~
+8 0 0 0 0 0 0 0 S
+VT 0 0 1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53312
+tree hopper~
+&+Ga tree hopper&n~
+&+yA tiny &+Gtree hopper&n&+y jumps through the canopy.&n
+~
+&+GThis odd green-furred little animal closely resembles a small monkey,
+&+Gas it hops from branch to branch among the trees collecting nuts and
+&+Gberries.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 2
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53313
+dandy lion dandylion weed~
+&+ga &+Ydandy&+glion&n~
+&+gA &+Ydandy&+glion&+g weed grows here.&n
+~
+&+gThis little weed seems to be slightly more than your garden variety,
+&+gand almost seems to have a will of its own.  On top of the weed grows
+&+ga bright &+Yyellow &+gflower.&n
+~
+10 0 0 0 0 0 0 0 S
+VT 0 0 1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#53314
+wizened old alchemist~
+&+Ca wizened alc&+bhem&+Cist&n~
+&+CAn old, wizened alc&+bhem&+Cist stands here.&n
+~
+~
+10 0 0 0 0 0 0 0 S
+PH 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53315
+stately doe deer~
+&+ya stately &+Wdoe&n~
+&+yA stately &+Wdoe&+y wanders the &+Gforest&+y.&n
+~
+&+yA beautiful animal, this &+Wdoe&+y casually grazes the glen, staying close
+&+yto her buck who she entrusts will protect her from danger.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 3
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#53316
+proud buck deer~
+&+ya proud buck&n~
+&+yA proud buck nibbles on the &+ggrass&+y here.&n
+~
+&+yThis strong, proud buck, wanders the glen, occasionally nibbling
+&+yon the grass but always watching, and keeping an eye out for danger.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 3
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53317
+chirping sparrow~
+&+ya chirping &+Ysparrow&n~
+&+yA little &+Ysparrow&+y hops about, chirping.&n
+~
+&+yThis little bird hops through the branches of the trees, picking
+&+yat little insects and leaves as it makes it way in the forest, he
+&+ychirps inscentently, as if he is singing.&n
+~
+8 0 0 0 0 0 0 0 S
+B 0 0 1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53318
+trail keeper~
+&+ya trail keeper&n~
+&+yA trail keeper stands here, tending to the path.&n
+~
+&+yThis is an old handy man that has been hired by the nieghbouring
+&+yvillages and cities to keep watch over the forest.  His tasks include
+&+ykeeping the trail clear, the fountain cleaned, and the torches lit.&n
+~
+10 0 0 0 0 0 0 0 S
+PH 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53319
+gnoll poacher~
+&+ya gnoll poacher&n~
+&+yA gnoll &+wpoacher&+y wanders the wood.&n
+~
+&+yThis ugly gnoll is one of the village hunters.  When he leaves the
+&+yarea he hunts after anything smaller than it to bring back home for
+&+ydinner.&n
+~
+2056 0 0 0 0 0 0 -500 S
+H 0 0 3
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53320
+short gnoll~
+&+ya short gnoll&n~
+&+yA short gnoll huddles around the camp&+rfire&n
+~
+~
+2058 0 0 0 0 0 0 -500 S
+H 0 0 3
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53321
+gnoll warden~
+&+ya gnoll &+Lwarden&n~
+&+yA gnoll &+Lwarden&+y patrols the area here.&n
+~
+&+yEasily the strongest and largest of the gnolls around here, the
+&+Lwarden&+y seems to keep all the other gnolls in line by howling feircely.&n
+~
+67108872 0 0 0 0 0 0 -500 S
+H 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53322
+young gnoll~
+&+ya young gnoll&n~
+&+yA young gnoll sits here in the shabby hut.&n
+~
+&+yThis young gnoll is huddled inside the crumbling ramshackled hut,
+&+yperhaps trying to sleep.  Its keen dog eyes seem to watch all that is
+&+ygoing on around it, though not much more than the slightest hint of
+&+yintelligence can be seen in those eyes.&n
+~
+10 0 0 0 0 0 0 -500 S
+H 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53323
+young gnoll~
+&+ya young gnoll&n~
+&+yA young gnoll snarls and wanders about.&n
+~
+&+yThis squat, young gnoll growls and barks at even the slightest motion,
+&+yhis ugly dog-face seems to be in a constant snarl and he seems angry
+&+yabout just about everything around him.  It must be teen-gnoll angst.&n
+~
+8 1 0 0 0 0 0 -500 S
+H 0 0 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#53324
+massive mercenary burly~
+&+ya &+Yburly&+y mercenary&n~
+&+yA massive, &+Yburly&+y, mercenary stands here.&n
+~
+~
+10 0 0 0 0 0 0 0 S
+PH 0 16384 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

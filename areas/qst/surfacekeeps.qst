@@ -1,0 +1,409 @@
+#120002
+M
+qc_action 100~
+&N$n &+Lpeers around, scanning the area around his post for any signs of trouble.
+~
+M
+qc_action 100~
+&N$n smiles happily at a particular nearby passing dwarf.
+~
+S
+#120013
+M
+qc_action 45~
+&N$n takes a deep breath and yells &+r'Discount boar meat for sale!  13 platinum for the whole boar!'
+~
+QA
+&NA dwarf, relieved to have the &+rdead boar &Noff his shoulders shakes your hand.
+&N'Thanks $N!' he calls out.
+~
+R I 83223
+G C 13000
+D
+&n$n dissapears into the city.
+~
+S
+#120014
+M
+qc_action 50~
+&N$n &+Bperforms a holy gesture.
+&N$n &Nsays 'Dumathoin bless you, Breuldin protect you.'
+&N$n &+Bperforms the same gesture again, bows, and goes on his way.
+~
+S
+#120015
+M
+qc_action 100~
+&+L$n &+Lcasts out a trail of &Ndark gray &+Lm&Ni&+Ls&Nt&+Ls.
+~
+S
+#120016
+M
+qc_action 60~
+&n$n &+Lfa&Nd&+Wes in and out of existence, stops in front of you, and says..
+&+L'The hooded dwarves you see here are not in this existence.'
+&+W..her image fl&+Yic&+Wke&+Yrs &+Wfor a moment and $n &+Wsmiles at you.
+~
+M
+qc_action 60~
+&N$n &+Lwaves her hands in and out of ex&N&+bis&+Lte&N&+bnc&+Le in front of her in a meditative trance.
+~
+M
+qc_action 60~
+&+L$n gestures and is surrounding by a pleasant, &+Winviting &Naura.
+~
+M
+hello hi~
+&N$n says 'Greetings $N.  Welcome to the caverns of time, home to the hooded.  It is through our strong meditation and power that is possible for one to see through existence!
+~
+M
+hooded dwarves dwarf caverns~
+&N$n says 'The hooded dwarves here you see come and go.. they exist in both this
+reality and another.  Constantly shifting, these travellers split from their
+primal existence into other times and influence their lives and those of our
+people.  It is through time travel that Alatorin is able to preserve its perfect
+world.'
+~
+MA
+time travel travelling traveling travellers~
+&+L$n &+Lgrins and says 'Time travel has made it possible for the shield dwarf race
+&+Lto live on in prosperity in neutral territory, without being overrun by greedy
+&+Lpower-mongering men, or horrific war-hungry orcs.  We exist on our own terms
+&+Lwith the greatest understanding of time.  Although most &N&+cAlatorin &+Lcitizens
+&+Ltake their existence for granted, it is we, the seers, who walk through time.
+&+LWho knows, perhaps some of the seers are in disguise hiding here today?'
+~
+MA
+seer seers~
+&+L'The seers are the shield dwarves who have come to live in the caverns of time.  Their
+&+Lbodies remain in the caverns in total focus, while their minds and spirits are
+&+Lprojected into another time and a projection of themselves is manifested in this
+&+Ltangent, by which they may physically interact with this other time.  In reality,
+&+Ltheir body may simply be walking in circles through these caverns.'
+&+L'Unfortuntely,' $n continues &+L'We have recently learned of a threat to our seers.'
+~
+MA
+mystardala prophet you~
+&+L$n &+Lsmiles at $N and says 'Yes I am the great and almighty $n&+L.'
+$n &+Lgiggles.
+~
+MA
+me~
+&+L$n &+Lsays 'You, $N, are a curious adventurer, in search of riches and glory!'
+~
+MA
+threat~
+&+LShe nods at $N and continues 'A terrible &+Rthreat&+L to the lives of the very force that keeps Alatorin alive.'
+&+L'We have learned that the mages within the Mystic Ward have taken a stink-eye to the likes of our hooded dwarves.  We have even heard rumor that they are watching us with their magic to better identify when best to harm us!  Well, we can stop them right there.  Bring me the crystal ball of their wizard leader.  Miboli I think his name is.'
+~
+MA
+miboli snoblsniz~
+&N$n nods at $N and says 'Miboli Snoblsniz, the great mystic and beloved deep gnome companion to the king.  I have never really trusted those deep gnomes, but especially not sneaky ones like Snoblsniz!  Find for me his &N&+mcr&+My&+Ys&+Mt&N&+mal &+Wball &n&+mand I will reward you with a treasure of the seers.'
+~
+QA
+&+LWith a smile on her face, $n says 'Excellent work $N, now I have an even more daunting mission for you..'
+&+'Take this dagger,' she says 'it is yours to keep.  If you should accept your next task then it will be plunged into the heart of an evil adversary corrupt to the cause of the seers.  There are two great wizards that can still pose a threat to the seers that we must have eliminated.  The legendary human &n&+bGhiran&+L and the ancient drow &N&+gOfnil&+L.  Bring me the &N&+ybracelet&+L of the human and the staff of the drow.. plunge the dagger of &+Cseers &+Linto &N&+bGhiran &+Land &N&+gOfnil&+L's &N&+rhearts&+L and return to me with their private posessions and the dagger of &+Cseers&+L.  With these three items in my posession, you will receive your &+Yeternal &+Lreward.'
+~
+R I 120038
+G I 83340
+QA
+&N$n says 'Excellent work $N!  You did it!  We will now be safe from the prying &+Wclairvoyance&+L of these trecherous mystics.. but for how long..'
+~
+R I 120039
+G I 120038
+G I 500121
+G I 500104
+D
+&n$n grins and in a &-L&+WFLASH&N&+L...
+&+L..she is gone.
+~
+S
+#120019
+M
+qc_action 100~
+&M$n says '&+WMove along.'
+~
+M
+qc_action 100~
+&+W$n &+Wpeers out across the &N&+rrampart&+W, clutching his hammer firmly.
+~
+S
+#120020
+MA
+hi hello~
+&N$n grunts and smiles at $N.
+~
+MA
+taark shanat~
+&N$n says 'Taark Shanat is a powerful dwarf and a great personal friend.'
+~
+MA
+maegor~
+&N$n's eyes &+Wbrighten &+Lat $N's &+Linquiry!
+&+W'Maegor' &+LIstban says with a smile &+W'raised me in my earliest years.  He taught me how to hunt and the ways of magic.  A great and heroic man.  He still lives, in fact. but legend has it that he has retired to the &N&+ctwin world&+W.'
+~
+MA
+twin world worlds~
+&+W'The twin world?  Yes, beyond all reality of Alatorin and the rest of this existence!'
+&+W'It is said there is only two ways in and out of the twin world.  The most legendary means is simply through the &N&+gMaegorian &+Yelfgate&+W.'
+&n$n sighs and continues 'The second means we just received word of this past month!'
+&+W'The four towers of Tharnadia, which had been infested by filth like frem-lins, has expanded into the second world, or '&+ctwin world' &+Was which it is referred.
+~
+MA
+elfgate~
+&N$n gulps and continues &+W'The &N&+gMaegorian &+Yelfgate &+Wwas constructed by &N&+gMaegor &+Whimself, and exists below &N&+cAlatorin &+Wat the heart of the mountain.  However only the esteemed and trusted friends of the king and Alatorin are permitted access.'
+~
+M
+qc_action 150~
+&N$n &+Lheaves his chest and yells &+W'Adventurers looking for a change with your specialization?  A powerful force touched two special altars many years ago.  A &N&+rSac&+Rr&N&+ci&+Rf&N&+rici&+Ral &+RAl&N&+rt&+Rar&+W in the &+RL&N&+ra&+Rv&N&+ra &+RT&N&+ru&+Rb&N&+re&+Rs&+W and an &NAltar of &+WCoral in a sunken &+BTemple in the &n&+gS&+Ce&+Ga &+LCaves&N.'
+~
+M
+qc_action 150~
+&N$n &+Ltakes a deep breath and yells &+W'Humans and orcs who have taken on two specializations may undo their professions at one of the many powerful altars of the land.  &NThe Lost Temple of &+GTikitzopl&+W bares this altar and will undo your multiclass!'
+~
+M
+qc_action 150~
+&N$n shakes his head with his hand in his face.
+&n$n looks up and says &+W'Powerful mystics are saying that the most deadly of necromancers seek the touch of Sodolum to turn them into a &+Ll&N&+mic&+Lh.&+W'
+~
+M
+qc_action 200~
+&+L$n says &+W'There are objects so peculiar they are not to be believed!! All around things to tantilize my brain.  It's a world unlike anything I'd ever seen and as hard as I try, I can't seem to describe.. to a most-elaborate dream.  But you must believe when I tell you this.. it's as real as my skull and it does it exist!'
+~
+M
+qc_action 150~
+&N$n &+Ysmiles&N and says &+W'Cargo ships have reported great revenue in both &+WSt&Norm &+bPort &+Wand &+MMyrabolus&+W.'
+&N$n frowns for a moment and continues &+W'Increased warship sightings in both locations as well.'
+~
+M
+qc_action 150~
+&N$n says '&+YAye, you look like someone who enjoys great power, $N.'
+&N$n grins and continus '&+YI'd say you would love to get your hands on everlasting magic, eh?'
+&n$n leans in a bit closer and says '&+YThere is a mysterious, old but powerful &+GWi&N&+gt&+Gch &+Ythat has been seen very randoly walking along the ridges of the Shanatar mountains.'
+~
+MA
+shanatar~
+&N$n nods and says '&+YThe Shanatar mountains cast the frozen shadow of &+BSevenoaks Village&+Y, which many consider to be the coldest on the month of &+CEternal Frost&+Y.'
+&N$n sighs and says '&+YI have seen so many unfortunate dwarves meet their fate along the trails of the Shanatar Mountains.'
+~
+M
+qc_action 300~
+&N$n wipes off a pair of fancy-looking &+Rgnomish &+Ce&+Ry&+Ce&N&+cglasses &Nand then places them upon his brow.
+'Best looking pair of spectacles I've ever come across!  And I have worn 'em for years!' $n &Nsays.
+~
+M
+qc_action 350~
+&N$n grins, nudges you and says &+L'Heres a good one, ya ever use 'trophy frags' or 'epic trophy'?  I am sure you have heard about them at &Nthis&+L point in your travels' he says with a burst of laughter.
+~
+M
+qc_action 250~
+&N$n leans in close and says with a low voice 'There's a smuggler, err uh. an entrapaneur I know named Granat.  He will sell you a new identity.. for a price.'
+~
+M
+granat~
+&N$n nods at $N and says 'I have not talked to Granat for quite a while, but last time I did it was after an altercation I had with some elf.'
+$n laughs for a moment and continues 'Heard he was charging five thousand platinum to the harpies in that strange cosmic city up the lava mountain outside Venan'Trut.  Heck, there's another place I haven't seen in ages!'
+~
+M
+qc_action 200~
+&N$n says 'There are many powerful potions in the realms.  From the witch's brew to the &+Wstat-boosting &Npotions of &+WShinjin the monk &Nin &+CVerspin&N and &+LMaelborg the omnipotent &Nin &N&+rBloodstone&N.'
+~
+S
+#120021
+MA
+hi hello~
+&NThe wandering &+cguard &Nnods and says 'Hello $N.'
+~
+M
+qc_action 130~
+&NA group of &N&+rduergar dwarves &Nbegins yelling at a group of &+Ymountain dwarves &Nbefore a group of burly, heavily-&+Carmored &Nsh&+Wie&Nld &+Ydwarves &Nintervene.
+~
+S
+#120022
+M
+qc_action 60~
+&+yA halfling traveler &Njumps at the sound of a nearby &Nsh&+Wie&Nld &+Ydwarf&N roar with intensity.
+~
+S
+#120023
+MA
+hi hello~
+&NThe wandering &+cguard &Nnods and says 'Hello $N.'
+~
+S
+#120024
+MA
+hi hello~
+&NThe wandering &+cguard &Nnods and says 'Hello $N.'
+~
+M
+qc_action 130~
+&NA group of &N&+rduergar dwarves &Nbegins yelling at a group of &+Ymountain dwarves&Nbefore a group of burly, heavily-&+Carmored &Nsh&+Wie&Nld &+Ydwarves &Nintervene.
+~
+S
+#120025
+S
+#120026
+M
+qc_action 250~
+&NWith a wide-eyed expression, $n gasps at the breathtaking size of the city.
+~
+S
+#120035
+M
+qc_action 150~
+&NA &+Rcheerful gnome salesman says 'Greetings!  You sure do you have beautiful eyes..'
+&+R'With one of my pairs of eyeglasses on, that is!' he adds.
+&+RA cheerful gnome salesman smiles and gestures to you a piece of his merchandise.
+~
+S
+#120036
+M
+qc_action 200~
+&N&+cAn &+Celite &N&+cAlatorin &+Yram&+Lrider &Npulls up on his &+Yram&+L, which responds by letting out a huge throaty roar.
+~
+S
+#120038
+M
+qc_action 150~
+&nWith a deft maneuver, $n swings a &+mmithril sword&N around his body with speed and accuracy.
+~
+S
+#120040
+MA
+hi hello~
+&N$n looks at $N and grunts, with the slightest nod of the head.
+~
+MA
+hunt hunter hunting bounty~
+&N$n turns and gazes up to the highest peaks of &N&+yShan&+La&N&+yt&+La&N&+yr&+B, upon the glorious view of &N&+cAlatorin&+B.
+&+B'Do you see that, $N?  Huge volcano actually home of dwarves!'
+&+B'RICH DWARVES!' he yells, shaking a pouch of platinum coins strapped to his backpack with a swift yank.
+&+B'Ungalen kill for money, have for long time for King Taark!'
+~
+MA
+shanatar mountains mountain~
+&N$n &+Bhuffs and says '&N&+yShan&+La&N&+yt&+La&N&+yr &+Bnot safe place.  Many trogs in valley and cockatrices in trails - much danger!'
+&+B$n continues '&N&+yShan&+La&N&+yt&+La&N&+yr &+Bhave &N&+cAlatorin&+B' extending an arm, pointing to the northwest.
+~
+MA
+shield dwarves dwarf alatorin king taark shanat~
+&+B$n &+Bsays 'Alatorin big place, many shield dwaves, and strong king!'
+&+Bgrins and continues 'Ungalen favorite thing in Alatorin?'
+&+BWith a cheerful grunt he says 'Besides the money?  The ale!'
+&+BWith a sigh, Ungalen says 'Ungalen been on last hunt for days!  Cannot kill dragon alone.'
+~
+MA
+ale~
+&N$n says at $N '&+BAlatorin Ale!  Ungalen love!'
+&+BWith wide eyes, he continues 'Ungalen love all types!  Bring Ungalen any barrel of local ale from Alatorin, will pay well!' as he jingles a small pouch of coins.
+~
+MA
+dragon dragons target~
+&+BUngalen's eyes burn with intensity and he says to $N 'Ungalen normally find thugs in city, but this time find white dragon for King!'
+&+BUngalen sighs, clutching a recently-patched wound.
+&+B'Ungalen cannot kill dragon, in cave to north.  Please $N, help Ungalen slay scaled beast!  Will split reward!'
+~
+MA
+mundorno~
+&n$n says &+B'Mundorno is great dwarven blacksmith.  You will see in Alatorin, he work in center.'
+~
+QA
+&N$n cries out &+B'YES!!  You did it, and now take half of the reward, $N..'
+~
+R C 700000
+G I 83376
+QA
+&N$n takes the &+Cscales &Nand says &+B'Ungalen no work with dragon scales.  But hmm.'
+&N&+BThe barbarian pauses for a moment, and opens his cloak to reveal his &+Cdragonscale sleeves&N.
+&+B'These were made of dragon scale by Alatorin dwarf.  Seek Mundorno the blacksmith, he is mighty craftsman who made Ungalen sleeves.  Work with dragon scale, $N will like!'
+~
+R I 83377
+G I 83377
+S
+#120041
+M
+qc_action 200~
+&N&+cAn &+Celite &N&+cAlatorin &+Yram&+Lrider &Npulls up on his &+Yram&+L, which responds by letting out a huge throaty roar.
+~
+S
+#120044
+M
+qc_action 200~
+&+WA huge white furry &+Yram &+Wsniffs about the rocky ground and leaps to another rock.
+~
+M
+qc_action 250~
+&+LBlack smoke rises, forming ominous dark clouds in the northwestern skyline.
+~
+S
+#120046
+M
+qc_action 200~
+Peering from the ramparts to the halls, $n cautiously walks through the dwarven city.
+~
+M
+qc_action 200~
+&NGripping his blade, $n steps lightly.
+~
+S
+#120047
+M
+qc_action 200~
+&N$n fades in and out of existence, &b&+bmagic crackling around his body.
+~
+M
+qc_action 200~
+&n&+LA low howl and a blanket of dark mist roll through the caverns.
+~
+M
+qc_action 200~
+&N$n makes a magical gesture, his hands leaving a trail of &+cethereal &+Lmists.
+~
+S
+#120048
+M
+qc_action 200~
+&+mAround a nearby pillar, a strange &+Chooded &N&+mdwarf turns, and slowly fades from visibility.
+~
+M
+qc_action 200~
+&N$n slowly walks through the caverns, his long &+Wwhite beard &Nhanging over his garments.
+~
+S
+#120051
+M
+qc_action 300~
+&+YAn osquip suddenly scurries out of some nearby shadows and darts past you towards another niche.
+~
+M
+qc_action 300~
+&+YAn osquip sniffs around, then his long tongue sneaks out beneath its huge teeth, giving them a quick lick before retreating back into its maw.
+~
+S
+#120052
+MA
+hi hello~
+&N$n grunts at $N and continues surveying the halls of &n&+cAlatorin&N.
+~
+MA
+alatorin dwarfs shield dwarf dwarven city~
+&N$n nods at $N and speaks 'Tok work for dwarves.  Alatorin dwarf city.'
+With a second nod, $n continues with his work.
+~
+MA
+work~
+&N$n grunts and says 'Tok work to kill tooth rats.  Tooth rats in the walls bother dwarves.  Dwarves hate tooth rats, but Tok love tooth rats!'
+Tok licks his lips, &+cdrooling &Na bit.
+~
+MA
+trapping osquips osquip tooth rat rats~
+&N$n grins, &+Wsalivitating&N, then says to $N 'Tok trap rats for dwarves.  Tok love osquips, but not like big city and duergars!  $N, you will help Tok collect tooth rats?  Bring me freshly-killed tooth rat corpses, Tok repay you with silly metal bits!'
+~
+QA
+&N$n smiles, &+Rtongue &Nhanging out.
+'Tok happy!  Take silly metal bits!'
+~
+R C 6800
+G I 120051
+S

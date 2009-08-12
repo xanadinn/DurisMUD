@@ -1,0 +1,157 @@
+#419
+&+LForest of Mir&n~
+42180 1 0 20 25 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 41950 5 5 100 0 0 0
+*     down exit from "Lost in the Forest of Mir" to
+*     "A Dark Hole" - closed/secret
+*
+D 0 42180 4 5 100 0 0 0
+*     up exit from "A Dark Hole" to
+*     "Lost in the Forest of Mir" - closed/secret
+*
+D 0 42166 5 5 100 0 0 0
+*     down exit from "A Small Deserted Island Filled With Rocks and Rubble" to
+*     "A Vertical Tunnel Cut In Granite" - closed/secret
+*
+D 0 42167 4 1 100 0 0 0
+*     up exit from "A Vertical Tunnel Cut In Granite" to
+*     "A Small Deserted Island Filled With Rocks and Rubble" - closed
+*
+D 0 42173 5 6 100 0 0 0
+*     down exit from "An Enormously Huge Cavern Carved in Granite Rock" to
+*     "The Treasure Room of Wyrms" - closed/locked/secret
+*
+D 0 42174 4 2 100 0 0 0
+*     up exit from "The Treasure Room of Wyrms" to
+*     "An Enormously Huge Cavern Carved in Granite Rock" - closed/locked
+*
+*
+O 0 41910 6 41902 100 0 0 0        * teleport all trap
+O 0 41910 6 41921 100 0 0 0        * teleport all trap
+O 0 41910 6 41938 100 0 0 0        * teleport all trap
+O 0 41905 1 41957 100 0 0 0        * corpse
+O 0 41900 3 41957 100 0 0 0        * a sticky web
+O 0 41904 1 41960 100 0 0 0        * corpse
+O 0 41900 3 41960 100 0 0 0        * a sticky web
+O 0 41914 1 41990 100 0 0 0        * a falchion named 'Magebane'
+O 0 41906 1 41990 100 0 0 0        * corpse
+O 0 41910 6 42000 100 0 0 0        * teleport all trap
+O 0 41910 6 42048 100 0 0 0        * teleport all trap
+O 0 41932 1 42051 100 0 0 0        * a cracked wooden sign
+O 0 41910 6 42119 100 0 0 0        * teleport all trap
+O 0 41903 1 42144 100 0 0 0        * corpse
+O 0 41900 3 42144 100 0 0 0        * a sticky web
+O 0 41926 1 42166 100 0 0 0        * a shimmering pool of mercury
+O 0 42167 1 42169 100 0 0 0        * a bone casket
+P 1 42178 1 42167 100 0 0 0        *   a small golden key
+P 1 41916 1 42167 100 0 0 0        *   a scimitar named 'Woundhealer'
+O 0 42174 1 42169 100 0 0 0        * a corpse of unfortunate adventurer
+P 1 42175 1 42174 75 0 0 0         *   a black mask
+P 1 42168 1 42174 75 0 0 0         *   a wet pair of black gloves
+O 0 42169 1 42174 95 0 0 0         * some flexible leggings of hellfire
+O 0 42172 1 42174 100 0 0 0        * a huge pile of platinum coins
+O 0 42173 1 42174 100 0 0 0        * a huge pile of gold coins
+O 0 42176 1 42174 100 0 0 0        * an eyepatch made from an entrapped lightning
+O 0 359 1 42174 100 0 0 0          * (object type not in this .obj file)
+O 0 41925 1 42179 100 0 0 0        * a shimmering pool of mercury
+*
+M 0 41900 8 41900 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 41903 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41901 3 41906 100 0 0 0        * a huge spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41902 4 41908 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 41910 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41903 3 41913 100 0 0 0        * a phase spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41916 1 41925 100 0 0 0        * a fallen priest
+E 1 41931 1 5 100 0 0 0            *   a black set of priestly robes
+M 0 41900 8 41929 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 41933 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 41935 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41908 1 41939 100 0 0 0        * Johan
+E 1 41924 1 16 100 0 0 0           *   an ebony staff
+G 1 41919 1 0 100 0 0 0            *    a velum scroll
+M 0 41911 1 41939 100 0 0 0        * a giant phase spider
+G 1 41912 1 0 100 0 0 0            *    a longsword named 'Elfdawn'
+M 0 41901 3 41940 100 0 0 0        * a huge spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41904 2 41952 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41902 4 41953 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41904 2 41960 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41910 1 41960 100 0 0 0        * Mythra the witch
+E 1 41923 1 13 100 0 0 0           *   a cold steel girdle
+G 1 41922 1 0 100 0 0 0            *    the face of Mythra
+M 0 41902 4 41962 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41907 1 41976 100 0 0 0        * an orc leader
+E 1 41913 1 16 100 0 0 0           *   a drusus named 'Fade to Black'
+F 1 41905 2 41976 100 0 0 0        * an orc (following)
+F 1 41906 2 41976 100 0 0 0        * an orc (following)
+F 1 41905 2 41976 100 0 0 0        * an orc (following)
+F 1 41906 2 41976 100 0 0 0        * an orc (following)
+M 0 41903 3 42004 100 0 0 0        * a phase spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41901 3 42008 100 0 0 0        * a huge spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 42011 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41903 3 42012 100 0 0 0        * a phase spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41909 1 42032 100 0 0 0        * a ravenous Xort beast
+E 1 41921 1 21 100 0 0 0           *   a circle of thorns
+G 1 41920 1 0 100 0 0 0            *    a strip of hide of Xort beast
+M 0 41902 4 42047 100 0 0 0        * a giant spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41900 8 42050 100 0 0 0        * a large spider
+G 1 41909 20 0 100 0 0 0           *    a sac of spider poison
+M 0 41913 4 42150 100 0 0 0        * a savage werewolf
+M 0 41912 4 42150 100 0 0 0        * a savage werewolf
+G 1 41927 1 0 100 0 0 0            *    a short stick of charcoal
+M 0 42166 2 42169 100 0 0 0        * the amphisbean
+G 1 42166 1 0 100 0 0 0            *    a tiny bone key
+M 0 42166 2 42169 100 0 0 0        * the amphisbean
+M 0 42167 3 42169 33 0 0 0         * the amphisbean
+M 0 42167 3 42169 40 0 0 0         * the amphisbean
+M 0 42168 4 42169 100 0 0 0        * a king cobra
+M 0 42168 4 42169 100 0 0 0        * a king cobra
+G 1 41928 1 0 100 0 0 0            *    a steaming black vial
+M 0 42168 4 42169 50 0 0 0         * a king cobra
+M 0 42169 4 42169 100 0 0 0        * a giant python
+M 0 42169 4 42169 100 0 0 0        * a giant python
+M 0 42169 4 42169 40 0 0 0         * a giant python
+M 0 42170 1 42170 100 0 0 0        * the red basilisk
+M 0 42168 4 42170 100 0 0 0        * a king cobra
+M 0 42171 1 42171 100 0 0 0        * a young vampiric drake
+M 0 42167 3 42172 100 0 0 0        * the amphisbean
+M 0 42172 1 42173 100 0 0 0        * the Great Hell Wyrm
+E 1 42170 1 5 100 0 0 0            *   a suit of red dragon scale mail
+M 0 42173 1 42173 100 0 0 0        * the Great Wyrm of Ice
+E 1 42177 1 5 100 0 0 0            *   a suit of white dragon scale mail
+M 0 42174 1 42175 100 0 0 0        * the Great Storm Wyrm
+E 1 42171 1 5 100 0 0 0            *   a suit of blue dragon scale mail
+M 0 42169 4 42175 100 0 0 0        * a giant python
+M 0 41912 4 42176 100 0 0 0        * a savage werewolf
+M 0 41913 4 42176 100 0 0 0        * a savage werewolf
+M 0 41912 4 42178 100 0 0 0        * a savage werewolf
+M 0 41913 4 42178 100 0 0 0        * a savage werewolf
+M 0 41912 4 42179 100 0 0 0        * a savage werewolf
+M 0 41913 4 42179 100 0 0 0        * a savage werewolf
+M 0 41914 1 42180 100 0 0 0        * the gigantic thorny worm
+G 1 41929 1 0 100 0 0 0            *    a light and dark scroll
+M 0 41915 1 42180 100 0 0 0        * the gigantic thorny worm
+*
+S

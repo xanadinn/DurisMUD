@@ -1,0 +1,205 @@
+#671
+&+WFather &+cTel's &+WHoly &+YCloister&n~
+67170 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 67140 0 8 100 0 0 0
+*     north exit from "A Dead End" to
+*     "Tunnel Before an Outpost" - open/blocked
+*
+D 0 67141 2 0 100 0 0 0
+*     south exit from "Tunnel Before an Outpost" to
+*     "A Dead End" - open
+*
+D 0 67142 0 2 100 0 0 0
+*     north exit from "The Gates of an Outpost" to
+*     "Foyer of Clan Stealth Hunter" - closed/locked
+*
+D 0 67143 2 1 100 0 0 0
+*     south exit from "Foyer of Clan Stealth Hunter" to
+*     "The Gates of an Outpost" - closed
+*
+D 0 67143 1 1 100 0 0 0
+*     east exit from "Foyer of Clan Stealth Hunter" to
+*     "Clan Priest Room" - closed
+*
+D 0 67144 3 1 100 0 0 0
+*     west exit from "Clan Priest Room" to
+*     "Foyer of Clan Stealth Hunter" - closed
+*
+D 0 67143 3 1 100 0 0 0
+*     west exit from "Foyer of Clan Stealth Hunter" to
+*     "Clan Officer Room" - closed
+*
+D 0 67145 1 1 100 0 0 0
+*     east exit from "Clan Officer Room" to
+*     "Foyer of Clan Stealth Hunter" - closed
+*
+D 0 67146 3 1 100 0 0 0
+*     west exit from "A Long Hallway" to
+*     "Some Living Quarters" - closed
+*
+D 0 67147 1 1 100 0 0 0
+*     east exit from "Some Living Quarters" to
+*     "A Long Hallway" - closed
+*
+D 0 67149 0 12 100 0 0 0
+*     north exit from "A Second Floor Landing" to
+*     "The Room of the Helmet" - open/secret/blocked
+*
+D 0 67169 2 4 100 0 0 0
+*     south exit from "The Room of the Helmet" to
+*     "A Second Floor Landing" - open/secret
+*
+D 0 67149 1 1 100 0 0 0
+*     east exit from "A Second Floor Landing" to
+*     "The Clan's Dining Room" - closed
+*
+D 0 67150 3 1 100 0 0 0
+*     west exit from "The Clan's Dining Room" to
+*     "A Second Floor Landing" - closed
+*
+D 0 67149 2 2 100 0 0 0
+*     south exit from "A Second Floor Landing" to
+*     "A Short Hallway" - closed/locked
+*
+D 0 67152 0 1 100 0 0 0
+*     north exit from "A Short Hallway" to
+*     "A Second Floor Landing" - closed
+*
+D 0 67149 3 1 100 0 0 0
+*     west exit from "A Second Floor Landing" to
+*     "A Small Workshop" - closed
+*
+D 0 67151 1 1 100 0 0 0
+*     east exit from "A Small Workshop" to
+*     "A Second Floor Landing" - closed
+*
+D 0 67152 2 8 100 0 0 0
+*     south exit from "A Short Hallway" to
+*     "Beginning of an Underground Tunnel" - open/blocked
+*
+D 0 67155 0 0 100 0 0 0
+*     north exit from "Beginning of an Underground Tunnel" to
+*     "A Short Hallway" - open
+*
+D 0 67153 1 1 100 0 0 0
+*     east exit from "The End of the Hallway" to
+*     "The Advisor's Room" - closed
+*
+D 0 67154 3 1 100 0 0 0
+*     west exit from "The Advisor's Room" to
+*     "The End of the Hallway" - closed
+*
+D 0 67153 2 1 100 0 0 0
+*     south exit from "The End of the Hallway" to
+*     "The Elder's Room" - closed
+*
+D 0 67168 0 1 100 0 0 0
+*     north exit from "The Elder's Room" to
+*     "The End of the Hallway" - closed
+*
+D 0 67164 3 12 100 0 0 0
+*     west exit from "An Underground Tunnel" to
+*     "Troggahn, The Black Dragon's Lair" - open/secret/blocked
+*
+D 0 67167 1 0 100 0 0 0
+*     east exit from "Troggahn, The Black Dragon's Lair" to
+*     "An Underground Tunnel" - open
+*
+*
+O 0 67105 1 67140 100 0 0 0        * the wall
+O 0 67108 1 67145 100 0 0 0        * something
+P 1 67109 2 67108 100 0 0 0        *   a clear vial
+P 1 67109 2 67108 100 0 0 0        *   a clear vial
+P 1 67110 3 67108 100 0 0 0        *   a green potion
+P 1 67110 3 67108 100 0 0 0        *   a green potion
+P 1 67110 3 67108 100 0 0 0        *   a green potion
+O 0 67120 1 67149 100 0 0 0        * a tapestry
+O 0 67118 1 67150 100 0 0 0        * a podium
+P 1 67113 1 67118 100 0 0 0        *   the ring of a duergar elder
+O 0 67128 1 67150 100 0 0 0        * a large stone oven
+O 0 67114 1 67152 100 0 0 0        * a statue
+O 0 67115 1 67164 100 0 0 0        * a boulder
+O 0 67121 1 67169 100 0 0 0        * a stone case
+P 1 67122 1 67121 100 0 0 0        *   Khildarak's battle helmet
+*
+M 0 67110 5 67103 100 0 0 0        * a wandering monk
+M 0 67111 5 67103 100 0 0 0        * a disciple
+E 1 67123 2 18 100 0 0 0           *   a small candle
+M 0 67112 5 67103 100 0 0 0        * a young acolyte
+M 0 67100 1 67107 100 0 0 0        * Brother Doss
+E 1 67125 1 10 100 0 0 0           *   some bracers of defense
+M 0 67110 5 67107 100 0 0 0        * a wandering monk
+M 0 67111 5 67109 100 0 0 0        * a disciple
+M 0 67112 5 67109 100 0 0 0        * a young acolyte
+M 0 67105 1 67111 100 0 0 0        * a sly duergar assassin
+G 1 67100 1 0 100 0 0 0            *    a small tablet of adamantite
+G 1 67103 1 0 100 0 0 0            *    a vial of poison
+M 0 67110 5 67111 100 0 0 0        * a wandering monk
+M 0 67110 5 67114 100 0 0 0        * a wandering monk
+M 0 67111 5 67114 100 0 0 0        * a disciple
+E 1 67123 2 18 100 0 0 0           *   a small candle
+M 0 67112 5 67114 100 0 0 0        * a young acolyte
+M 0 67102 1 67117 100 0 0 0        * Brother Mahr
+E 1 67127 1 13 100 0 0 0           *   a mystical blue sash
+M 0 67111 5 67117 100 0 0 0        * a disciple
+M 0 67111 5 67118 100 0 0 0        * a disciple
+M 0 67112 5 67119 100 0 0 0        * a young acolyte
+M 0 67112 5 67121 100 0 0 0        * a young acolyte
+M 0 67110 5 67123 100 0 0 0        * a wandering monk
+M 0 67101 1 67129 100 0 0 0        * Brother Gib
+E 1 67126 1 8 100 0 0 0            *   a pair of black boots
+M 0 67108 6 67130 100 0 0 0        * a praying monk
+M 0 67108 6 67131 100 0 0 0        * a praying monk
+M 0 67108 6 67132 100 0 0 0        * a praying monk
+M 0 67103 1 67133 100 0 0 0        * Father Tel
+E 1 67124 1 5 100 0 0 0            *   a black fighting gown
+F 1 67106 1 67133 100 0 0 0        * an assistant (following)
+M 0 67108 6 67134 100 0 0 0        * a praying monk
+M 0 67108 6 67135 100 0 0 0        * a praying monk
+M 0 67108 6 67136 100 0 0 0        * a praying monk
+M 0 67107 1 67137 100 0 0 0        * an upset disciple
+M 0 67109 1 67137 100 0 0 0        * a monk
+M 0 67113 2 67142 100 0 0 0        * a clansdwarf guardian
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+G 1 67107 1 0 100 0 0 0            *    a black key
+M 0 67113 2 67142 100 0 0 0        * a clansdwarf guardian
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+M 0 67114 1 67144 100 0 0 0        * a clansdwarf priest
+M 0 67115 1 67145 100 0 0 0        * the guild officer
+G 1 67112 1 0 100 0 0 0            *    a thin key
+M 0 67116 2 67147 100 0 0 0        * a tired clansdwarf
+M 0 67117 2 67147 100 0 0 0        * a sleepy clansdwarf
+M 0 67116 2 67147 100 0 0 0        * a tired clansdwarf
+M 0 67117 2 67147 100 0 0 0        * a sleepy clansdwarf
+M 0 67118 1 67150 100 0 0 0        * a clansdwarf cook
+M 0 67119 2 67151 100 0 0 0        * a clansdwarf
+M 0 67119 2 67151 100 0 0 0        * a clansdwarf
+M 0 67120 1 67154 100 0 0 0        * the clansdwarf advisor
+M 0 67122 9 67163 100 0 0 0        * an enormous purple worm
+F 1 67122 9 67163 100 0 0 0        * an enormous purple worm (following)
+F 1 67122 9 67163 100 0 0 0        * an enormous purple worm (following)
+M 0 67122 9 67164 100 0 0 0        * an enormous purple worm
+F 1 67122 9 67164 100 0 0 0        * an enormous purple worm (following)
+F 1 67122 9 67164 100 0 0 0        * an enormous purple worm (following)
+M 0 67122 9 67166 100 0 0 0        * an enormous purple worm
+F 1 67122 9 67166 100 0 0 0        * an enormous purple worm (following)
+F 1 67122 9 67166 100 0 0 0        * an enormous purple worm (following)
+M 0 67121 1 67167 100 0 0 0        * Troggahn, the black dragon
+G 1 67116 1 0 100 0 0 0            *    an egg of Troggahn, the black
+M 0 67104 1 67168 100 0 0 0        * General Bakarakh
+E 1 67119 1 16 100 0 0 0           *   a slender crimson dagger
+E 1 67102 1 18 100 0 0 0           *   the bloody head of Bakarakh
+F 1 67123 4 67168 100 0 0 0        * a clansdwarf guard (following)
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+F 1 67123 4 67168 100 0 0 0        * a clansdwarf guard (following)
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+F 1 67123 4 67168 100 0 0 0        * a clansdwarf guard (following)
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+F 1 67123 4 67168 100 0 0 0        * a clansdwarf guard (following)
+E 1 67106 6 16 100 0 0 0           *   a long adamantite spear
+*
+S

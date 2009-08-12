@@ -1,0 +1,172 @@
+#19000
+chothe large~
+&+La large &+Ycho&+ythe&N~
+&+LA large and blind &+Ycho&+ythe&+L waits to be fed here.&N
+~
+&N   This large animal was originally a cross breed between two races but it
+has been so long since anyone talked about such minor and inconsequencial stuff
+that the &+ggoblins &Nhave forgotten what they originally used.  It does not matter
+though because this large creature is an excellent source of food for the
+&+ggoblins&N of &+gMalch'hor Ganl&N.  It is as large as a &+Lrothe &Nbut it looks more like
+a large hog.  Its snout is flattened and it has floppy ears that hang over the
+side of its head.  It has an enormous stomach and grunts a lot.  It is blind
+for reasons unknown.  Somehow the &+ggoblins&N got them to breed without eyes.&N
+~
+72 0 0 0 0 0 0 0 S
+A 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#19001
+pootata~
+&+La large &+MPoo&+gtata&N~
+&+LA large &+Mpoo&+gtata&N &+Lwanders aimlessly around the pens.&N
+~
+&+L   This large creature weighs well over four hundred pounds.  It looks very
+&+Lmuch like an aquatic &+yrat&+L but it is as agile as the panthers of the surface.  It
+&+Lis a very docile creature most days, but during the mating season it goes a bit
+&+Lcrazy.  It stands at almost three feet high and is around six feet long.  Its
+&+Lback legs are too small to support its frame standing up so it spends all of
+&+Lits days on all four legs.  It has a three foot long and hairy tail that drags
+&+Lback and forth all day long.  The things face is that of a rat but its ears
+&+Lhang down like a donkey.  The creature is bred by the &+ggoblins &+Lfor its tasty and
+&+Lgreasy &+rmeat&+L.  It is a staple of food in &+ggoblin &+Lsociety.&N
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#19002
+goblin worker~
+&+La &+ggoblin&+L worker&N~
+&+LA &+ggoblin&+L worker goes about its business in the livestock caves.&N
+~
+&+L   This workers job is to carry the processed meats back to the&+g goblin&+L city.
+&+LHe carries a fair amount of&+r meat&+L on his muscular shoulders.  He is not a very
+&+Lgood looking &+ggoblin&+L as he has quite a few facial scars.  He often whines and
+&+Lcomplains in a very shrill voice about the weight of his load.&N
+~
+2120 0 0 0 0 0 0 -500 S
+HG 0 1 -1
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19003
+chothe chained~
+&+La chained &+Ycho&+ythe&N~
+&+LA &+Ycho&+ythe&+L has been chained down here and awaits its slaughter.&N
+~
+&N   This poor creature is about to be killed.  It has been chained to the
+floor with thick restraints to allow the butcher to kill it easily before
+cutting it into smaller, and workable, pieces on his butcher table.  The
+creature is too dumb to realize its fate as it cannot see or fathom what is
+going on around it.  It looks to weigh in excess of five hundred pounds, a
+lot of meat for a &+ggoblin.&N
+~
+74 0 0 0 0 0 0 0 S
+A 0 0 -1
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#19004
+goblin butcher slaughter slaughtermaster master~
+&+Lthe &+ggoblin&+L butcher&N~
+&+LThe &+ggoblin&+r s&+Ll&+ra&+Lu&+rg&+Lh&+rt&+Le&+rr&+L-&+rm&+La&+rs&+Lt&+re&+Lr prepares to kill some livestock.&N
+~
+&+L   This &+ggoblin&+L has had the title of slaughter-master for a very long time.
+&+LThe creature is over forty years old and has been the head butcher for close to
+&+Ltwenty five years.  He is reguarded as an expert in his field and has taught
+&+Lbutchers from many of the other Underdark civilizations.  He works without a
+&+Lshirt and is covered with more than a little &+rblood&+L.  His body has several large
+&+Ltattoos and both of his nipples are pierced.  He appears to enjoy his job very
+&+Lmuch as he goes about it with much enthusiasm.  His large arms could easily
+&+Lfinish off most of the livestock in one swift blow, although he usually takes
+&+Lthe time to enjoy the kill.&N
+~
+2122 0 0 0 0 0 0 -900 S
+HG 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19005
+goblin leather leatherworker&n~
+&+La &+ggoblin&+y leatherworker&N~
+&+LThe &+ggoblin&+y leatherworker&+L stands here working on a &+yleather&+L shirt.&N
+~
+&+L   This &+ggoblin&+y leather worker&+L has practiced his trade for over four decades.
+&+LHis hands are gnarled by the constant meticulous work it takes to fashion goods
+&+Lout of &+yleather&+L.  He is well known by the&+g goblin &+Lpopulance as a master craftsman
+&+Lfor his work with the clothing worn by all the &+ggoblin &+Lcommoners.  He works with
+&+Lboth&+M poo&+gtata&+L and &+Ycho&+ythe&+L hides and can make several different garments.  It is
+&+Lwell known that you can ask him to make a particular item for you.  He usually
+&+Lrequires a few &+Wplatinum&n for his services.&N
+~
+74 0 0 264 0 0 0 -500 S
+HG 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19006
+bone worker goblin bone-worker~
+&+La &+ggoblin&+W bone&+L-worker&N~
+&+LA &+ggoblin&+L stands here making weapons from &+Wbones&+L.&N
+~
+&+L   This&+g goblin &+Lworks dilligently for his people by crafting quality weapons
+&+Lout of&+W bone&+L.  The needs of his people for &+Wbone&+L weapons are very limited and he
+&+Lmakes only one type of &+Csword&+L.  The&+W bone&+C sword&+L is a staple of the goblin armies
+&+Land is used with great sucess in battle.  The &+ggoblin&+L himself is an older yet
+&+Lwiser&+g goblin&+L.  He is missing all of his teeth and three of his fingers.  He
+&+Lworks dilligently on his next piece.  It is rumored he can also create great
+&+Learrings for warriors.&N
+~
+10 0 0 0 0 0 0 -890 S
+HG 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19007
+apprentice goblin leather worker~
+&+Lan apprentice &+yleather worker&N~
+&+LAn apprentice &+yleather worker&+L watches closely as he tries to learn the trade.&N
+~
+&+L   This apprentice is about twenty years old.  He is very ugly and is
+&+Lmissing his right ear.  He scowls as he looks upon the leather he has been
+&+Lassigned to work with for the rest of his life.  He wanted to join the
+&+Lshaman school but his parents would not allow him to.&N
+~
+74 0 0 0 0 0 0 -400 S
+HG 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19008
+goblin worker~
+&+La &+ggoblin&+L worker&N~
+&+LA &+ggoblin&+L worker takes the time to clean the &+Ycho&+ythe&+L pens.&N
+~
+&+L   This &+ggoblin&+L worker has drawn the unpopular job of cleaning out the smelly
+&+Ycho&+ythe&+L pens.  He wears a cloth over his face in order to try to combat the
+&+Lterrible smell.  He is a younger male but the odds are he's had to do this
+&+Lsame duty several dozen times in his lifetime.  He doesn't especially enjoy
+&+Lhis job but he does it the best he can.&N
+~
+2120 0 0 256 0 0 0 -400 S
+HG 0 1 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#19009
+goblin warrior guard~
+&+La &+ggoblin&+L warrior&N~
+&+LA &+ggoblin&+L warrior patrols the &+gGagga'Jobo&+L cave system.&N
+~
+&+L   This warrior guards the&+g Gagga'Jobo&+L cave system.  He is an ugly creature
+&+Lbut a very kind hearted one.  He is not brutal like many of his fellow guards.
+&+LHe is rather short for his occupation and his equipment looks almost funny.&N
+~
+2120 0 0 0 0 0 0 -400 S
+HG 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

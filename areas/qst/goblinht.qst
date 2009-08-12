@@ -1,0 +1,162 @@
+#70000
+M
+dura~
+&+rMoreg curses and says, 'that deceitful cow has been blackmailing me for
+&+ryears, like she's never been with farm animals before!  If you could take care
+&+rof her I'd be willing to reward you well.'
+~
+Q
+&+rMoreg looks at the head and says, 'haha, that got the smug expression off her
+&+rface!  Take this skeleton key, I know you can put it to good use.'
+~
+R I 70028
+R C 10000
+G I 70030
+S
+#70001
+MA
+hello hi~
+&+L   The ghost wails, 'Go away mortals I have caused enough pain, now I only
+&+Lwant to rest.  If only this pain would end.'
+~
+M
+pain rest end~
+&+L   The ghost shrieks, 'In life I was stabbed in the back, by who I know not.
+&+LNow this accursed wound vexes me, denying me my rest.  Bring me a sign that
+&+Lmy killer is no more and I'll give you the shadow of a gift.'
+~
+QA
+&+L   The ghost's eyes widen at the sight of the weapon that caused his pain so
+&+Llong ago.  He release a cackle of triumph and says, 'Now I can find my killer
+&+Lin a place where he cannot escape me.  I will hunt him throughout the nether
+&+Lworld till time ends.'
+~
+R I 70002
+G I 70001
+D
+&+L   The ghost's form &+Wf&+wad&+Les as he vanishes from sight, all that is left
+&+Lfaint image of a short sword.
+~
+S
+#70022
+M
+spell components~
+&+GGimbatul &+gsighs and says, 'I had a pouch of spell components somewhere,
+&+gI hope my apprentice didn't try eatting it again'.
+~
+M
+enchanting enchantments~
+"Yes, I am a fine enchanter, why do you ask?
+ Ahh, you'd like something enchanted for you?
+ I am sorry, I do not sell out my skills.
+ Maybe if you would help me somehow.
+ Yes, that would work.
+ Would you agree?"
+~
+M
+agree yes~
+"Bring me something made from obsidian. I have not studied that material yet.
+ It would best be something small. Oh, and bring me some cash too."
+~
+Q
+&+GGorbatul &+gsmiles broadly and says, 'Many thanks, you seem very capable,
+&+gperhaps you can help me gather some more spell components.  I'm sure if I
+&+gcould gather the right items from the planes I could construct a magnificent
+&+gitem!  Take this key to my chamber of portals it will provide you access to
+&+gthe planes.'
+~
+R I 70022
+G I 70021
+QA
+&+GGimbatul &+gcackles in triumph and announces, 'I knew I could forge these
+components into an item of power!  Takes this as I token of my gratitude, now
+I must go and gather more of spell components'.
+~
+R I 70017
+G I 70013
+G I 70014
+G I 70015
+G I 70016
+D
+&+GGimbatul &+gmakes a strange gesture, utters the words 'euwunsoguai eaaf',
+&+gand disappears.
+~
+Q
+"Good good, a fine piece of obsidian, and not too large...
+ Give me some time now to work on it"
+.
+.
+.
+.
+"Excellent! My spell worked! Ok, here you have this enchanted piece."
+~
+R I 70094
+G I 70093
+G C 10000
+S
+#70023
+QA
+&+GGorblag &+gflashes you a wry grin and says, 'Remember to always use a condom'.
+~
+R I 70018
+G C 5
+S
+#70031
+QA
+&+gShe looks at you and laughs and says, 'It'll take ALOT more then one bottle
+&+gfor you!'
+~
+R I 70026
+G I 70026
+S
+#70060
+M
+dura revenge spite~
+&+mAlmost foaming at the mouth in rage, &+MTala &+mspits, 'I'll have that bitch made
+&+minto a zombie, no, that's too good.  A skeleton!  I still don't know how she
+&+mcould have killed some many of us.'
+~
+Q
+&+MTala &+mscreams, 'YOU IDIOT! How am I supposed to animate her with just a head?!'
+~
+R I 70030
+G I 70030
+Q
+&+MTala &+meyes widen as she reads the letter, 'So thats how she did it!  I'll
+&+mturn Ungal into a spectre for this!  Thank you for your help, take this as a
+&+mtoken of my gratitude.'
+~
+R I 70066
+G I 70065
+S
+#70078
+M
+hi gold~
+&+rHe smiles broadly and says, 'Welcome, anything you see interest you?  Maybe
+&+ryou have a custom order?  I can make anything for the right money, with the
+&+rproper materials.'
+~
+M
+material materials skull skulls make~
+&+rHe says proudly, 'I'm do great work, especially with skulls.  Get me some
+&+rskulls and a few gold and I'll show you.'
+~
+Q
+&+rThe shaman says, 'I think you'll be pleased with this item, its some of my
+&+rbest work.'
+~
+R I 70074
+G I 70075
+G I 70075
+G I 70075
+G I 70075
+G I 70075
+G C 500
+S
+#70104
+QA
+&+GGorblag &+gflashes you a wry grin and says, 'Remember to always use a condom'.
+~
+R I 70018
+G C 5
+S

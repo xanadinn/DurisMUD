@@ -1,0 +1,335 @@
+#50
+&+wLabyrinth &+Lof &+rNo Return&n~
+5295 1 0 60 69 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 5002 1 8 100 0 0 0
+*     east exit from "In the Speleothemian Gardens" to
+*     "A Great Chamber in the Speleothemian Gardens" - open/blocked
+*
+D 0 5003 3 0 100 0 0 0
+*     west exit from "A Great Chamber in the Speleothemian Gardens" to
+*     "In the Speleothemian Gardens" - open
+*
+D 0 5134 0 8 100 0 0 0
+*     north exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open/blocked
+*
+D 0 5154 2 0 100 0 0 0
+*     south exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open
+*
+D 0 5134 1 6 100 0 0 0
+*     east exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - closed/locked/secret
+*
+D 0 5135 3 2 100 0 0 0
+*     west exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - closed/locked
+*
+D 0 5134 3 8 100 0 0 0
+*     west exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open/blocked
+*
+D 0 5133 1 0 100 0 0 0
+*     east exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open
+*
+D 0 5235 1 8 100 0 0 0
+*     east exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open/blocked
+*
+D 0 5236 3 0 100 0 0 0
+*     west exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open
+*
+D 0 5276 0 8 100 0 0 0
+*     north exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open/blocked
+*
+D 0 5286 2 0 100 0 0 0
+*     south exit from "Passage in the Labyrinth of No Return" to
+*     "Passage in the Labyrinth of No Return" - open
+*
+D 0 5295 1 2 100 0 0 0
+*     east exit from "A Light at the End of the Tunnel" to
+*     "A Light at the End of the Tunnel" - closed/locked
+*
+D 0 5295 1 2 100 0 0 0
+*     east exit from "A Light at the End of the Tunnel" to
+*     "A Light at the End of the Tunnel" - closed/locked
+*
+*
+O 0 5036 2 5003 100 0 0 0          * a small emerald ring
+O 0 5037 2 5003 100 0 0 0          * a tiny ruby
+O 0 5038 2 5003 100 0 0 0          * a black sapphire earring
+O 0 5036 2 5003 100 0 0 0          * a small emerald ring
+O 0 5038 2 5003 100 0 0 0          * a black sapphire earring
+O 0 5037 2 5003 100 0 0 0          * a tiny ruby
+O 0 5035 1 5003 100 0 0 0          * a small diamond tattoo
+O 0 359 1 5003 100 0 0 0           * (object type not in this .obj file)
+O 0 5039 3 5004 100 0 0 0          * a skull
+O 0 5041 5 5014 100 0 0 0          * some bat guano
+O 0 5041 5 5027 100 0 0 0          * some bat guano
+O 0 5041 5 5040 100 0 0 0          * some bat guano
+O 0 5041 5 5058 100 0 0 0          * some bat guano
+O 0 5041 5 5078 100 0 0 0          * some bat guano
+O 0 5040 5 5085 100 0 0 0          * a pile of bones
+O 0 5040 5 5110 100 0 0 0          * a pile of bones
+O 0 5012 1 5129 100 0 0 0          * a stone tablet
+O 0 5040 5 5130 100 0 0 0          * a pile of bones
+O 0 5046 1 5134 100 0 0 0          * a stone
+O 0 5047 1 5134 100 0 0 0          * some strange moss
+O 0 5039 3 5155 100 0 0 0          * a skull
+O 0 5043 1 5155 100 0 0 0          * a stone lever
+O 0 5042 1 5171 100 0 0 0          * a stone lever
+O 0 5040 5 5218 100 0 0 0          * a pile of bones
+O 0 5019 1 5239 100 0 0 0          * a spider web
+P 1 5020 1 5019 100 0 0 0          *   a piece of spider web
+O 0 5039 3 5242 100 0 0 0          * a skull
+O 0 5040 5 5243 100 0 0 0          * a pile of bones
+O 0 5044 1 5248 100 0 0 0          * a stone lever
+*
+M 0 5015 2 5003 100 0 0 0          * a tube worm
+M 0 5015 2 5003 100 0 0 0          * a tube worm
+M 0 5041 1 5003 100 0 0 0          * a tube worm
+M 0 5042 1 5003 100 0 0 0          * a tube worm
+M 0 5043 1 5003 100 0 0 0          * a tube worm
+M 0 5044 1 5003 100 0 0 0          * an earth elemental
+G 1 55184 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 5045 1 5003 100 0 0 0          * an earth elemental
+M 0 5001 9 5005 100 0 0 0          * a flying bat
+G 1 5001 3 0 100 0 0 0             *    a bat wing
+M 0 5025 3 5010 100 0 0 0          * a dolomite warrior
+E 1 5026 1 18 100 0 0 0            *   a staff of dolomite
+M 0 5025 3 5013 100 0 0 0          * a dolomite warrior
+M 0 5002 2 5014 100 0 0 0          * a flying bat
+M 0 5002 2 5014 100 0 0 0          * a flying bat
+G 1 5001 3 0 100 0 0 0             *    a bat wing
+M 0 5030 2 5014 100 0 0 0          * a flying bat
+M 0 5030 2 5014 100 0 0 0          * a flying bat
+M 0 5007 1 5019 100 0 0 0          * a giant hairy spider
+G 1 5005 3 0 100 0 0 0             *    a spider's poison sac
+M 0 5026 4 5025 100 0 0 0          * a dolomite warrior
+E 1 5030 1 12 100 0 0 0            *   a mantle of dolomite
+M 0 5068 4 5028 100 0 0 0          * a pudgy rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5069 4 5028 100 0 0 0          * a dismal rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5068 4 5029 100 0 0 0          * a pudgy rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5069 4 5029 100 0 0 0          * a dismal rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5022 4 5030 100 0 0 0          * a young rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5038 2 5034 100 0 0 0          * a dolomite warrior
+M 0 5046 1 5035 100 0 0 0          * a colorless salamander
+E 1 5048 2 19 100 0 0 0            *   some eyes of the salamander
+G 1 5045 2 0 100 0 0 0             *    a tail of a giant salamander
+M 0 5026 4 5036 100 0 0 0          * a dolomite warrior
+E 1 5025 1 18 100 0 0 0            *   a vial of dolomite
+M 0 5021 4 5043 100 0 0 0          * a gentle rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5021 4 5044 100 0 0 0          * a gentle rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5021 4 5045 100 0 0 0          * a gentle rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5068 4 5045 100 0 0 0          * a pudgy rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5014 5 5051 100 0 0 0          * a glow worm
+G 1 5010 5 0 100 0 0 0             *    a glow sac
+M 0 5014 5 5051 100 0 0 0          * a glow worm
+G 1 5010 5 0 100 0 0 0             *    a glow sac
+M 0 5014 5 5051 100 0 0 0          * a glow worm
+G 1 5010 5 0 100 0 0 0             *    a glow sac
+M 0 5014 5 5051 100 0 0 0          * a glow worm
+G 1 5010 5 0 100 0 0 0             *    a glow sac
+M 0 5014 5 5051 100 0 0 0          * a glow worm
+G 1 5010 5 0 100 0 0 0             *    a glow sac
+M 0 5027 3 5054 100 0 0 0          * a dolomite guardian
+E 1 5029 2 7 100 0 0 0             *   a set of dolomite leg plates
+M 0 5029 2 5056 100 0 0 0          * an earth elemental
+M 0 5018 2 5056 100 0 0 0          * an earth elemental
+E 1 5013 1 2 100 0 0 0             *   a ring of earth
+M 0 5029 2 5056 100 0 0 0          * an earth elemental
+M 0 5018 2 5056 100 0 0 0          * an earth elemental
+M 0 5022 4 5058 100 0 0 0          * a young rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5069 4 5059 100 0 0 0          * a dismal rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5022 4 5060 100 0 0 0          * a young rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5022 4 5061 100 0 0 0          * a young rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5012 1 5062 100 0 0 0          * a giant millipede
+G 1 5074 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5013 1 5068 100 0 0 0          * a giant centipede
+G 1 5076 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5004 5 5072 100 0 0 0          * a giant beetle
+M 0 5021 4 5076 100 0 0 0          * a gentle rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5068 4 5076 100 0 0 0          * a pudgy rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5069 4 5076 100 0 0 0          * a dismal rothe
+G 1 5018 16 0 100 0 0 0            *    a chunk of rothe meat
+M 0 5004 5 5077 100 0 0 0          * a giant beetle
+G 1 5003 4 0 100 0 0 0             *    a beetle shell
+M 0 5035 1 5078 100 0 0 0          * a giant hairy spider
+M 0 5059 1 5081 100 0 0 0          * a giant hairy spider
+M 0 5048 1 5082 100 0 0 0          * a muscular minotaur
+E 1 5062 1 3 100 0 0 0             *   a grim blood soaked necklace
+E 1 5059 1 19 100 0 0 0            *   a blood soaked eyepatch
+E 1 5060 1 16 100 0 0 0            *   a massive blood soaked battleaxe
+G 1 5061 1 0 100 0 0 0             *    a severed tail of a minotaur
+M 0 5001 9 5083 100 0 0 0          * a flying bat
+M 0 5032 2 5086 100 0 0 0          * a giant beetle
+G 1 5003 4 0 100 0 0 0             *    a beetle shell
+M 0 5039 1 5087 100 0 0 0          * a dolomite guardian
+E 1 5028 2 10 100 0 0 0            *   a set of dolomite arm plates
+M 0 5038 2 5088 100 0 0 0          * a dolomite warrior
+M 0 5001 9 5092 100 0 0 0          * a flying bat
+M 0 5017 1 5097 100 0 0 0          * a stone golem
+E 1 5063 1 6 100 0 0 0             *   a spiked stone helm
+G 1 5075 3 0 100 0 0 0             *    a jagged stone
+M 0 5051 1 5098 100 0 0 0          * a giant millipede
+G 1 5074 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5026 4 5100 100 0 0 0          * a dolomite warrior
+F 1 5027 3 5100 100 0 0 0          * a dolomite guardian (following)
+E 1 5029 2 7 100 0 0 0             *   a set of dolomite leg plates
+M 0 5005 4 5103 100 0 0 0          * a blind fish
+G 1 5004 2 0 100 0 0 0             *    some fish scales
+M 0 5001 9 5104 100 0 0 0          * a flying bat
+M 0 5001 9 5106 100 0 0 0          * a flying bat
+M 0 5004 5 5107 100 0 0 0          * a giant beetle
+G 1 5003 4 0 100 0 0 0             *    a beetle shell
+M 0 5005 4 5122 100 0 0 0          * a blind fish
+M 0 5025 3 5124 100 0 0 0          * a dolomite warrior
+M 0 5060 1 5125 100 0 0 0          * a giant hairy spider
+G 1 5005 3 0 100 0 0 0             *    a spider's poison sac
+M 0 5052 1 5125 100 0 0 0          * a giant millipede
+G 1 5074 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5016 1 5129 100 0 0 0          * a rock worm
+G 1 5011 1 0 100 0 0 0             *    a piece of calcite
+M 0 5003 2 5131 100 0 0 0          * a hairy sasquatch
+G 1 5002 1 0 100 0 0 0             *    a tuft of sasquatch hair
+M 0 5031 1 5133 100 0 0 0          * a flying bat
+G 1 5001 3 0 100 0 0 0             *    a bat wing
+M 0 5006 1 5134 100 0 0 0          * a colorless salamander
+E 1 5048 2 19 100 0 0 0            *   some eyes of the salamander
+G 1 5045 2 0 100 0 0 0             *    a tail of a giant salamander
+G 1 67233 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 5057 1 0 100 0 0 0             *    a diamondine key
+M 0 5000 1 5143 100 0 0 0          * a gargantuan minotaur
+E 1 5000 1 13 100 0 0 0            *   a spiked leather belt
+E 1 5052 1 39 100 0 0 0            *   a blood stained nose ring
+G 1 5053 1 0 100 0 0 0             *    a bloody minotaur heart
+M 0 5036 2 5144 100 0 0 0          * a dolomite warrior
+M 0 5061 1 5145 100 0 0 0          * a giant hairy spider
+M 0 5062 1 5150 100 0 0 0          * a giant hairy spider
+M 0 5064 1 5158 100 0 0 0          * a giant centipede
+G 1 5076 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5036 2 5159 100 0 0 0          * a dolomite warrior
+E 1 5027 2 5 100 0 0 0             *   a chest plate of dolomite
+M 0 5026 4 5166 100 0 0 0          * a dolomite warrior
+M 0 5033 4 5167 100 0 0 0          * a blind fish
+G 1 5004 2 0 100 0 0 0             *    some fish scales
+M 0 5053 1 5175 100 0 0 0          * a giant millipede
+G 1 5074 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5003 2 5179 100 0 0 0          * a hairy sasquatch
+M 0 5024 1 5180 100 0 0 0          * a lost adventurer
+E 1 5024 1 8 100 0 0 0             *   a pair of rotten leather boots
+E 1 5023 1 16 100 0 0 0            *   a rusty longsword
+M 0 5005 4 5184 100 0 0 0          * a blind fish
+M 0 5005 4 5185 100 0 0 0          * a blind fish
+M 0 5019 1 5189 100 0 0 0          * a spelunking explorer
+E 1 5068 1 13 100 0 0 0            *   a tarnished belt
+E 1 5066 1 16 100 0 0 0            *   a tarnished bloody longsword
+E 1 5014 1 18 100 0 0 0            *   a dusty map
+E 1 5067 1 28 100 0 0 0            *   a mold covered sack
+P 1 5015 5 5067 100 0 0 0          *   a standard ration
+P 1 5015 5 5067 100 0 0 0          *   a standard ration
+P 1 5015 5 5067 100 0 0 0          *   a standard ration
+P 1 5015 5 5067 100 0 0 0          *   a standard ration
+P 1 5015 5 5067 100 0 0 0          *   a standard ration
+P 1 5016 1 5067 100 0 0 0          *   a large flask
+M 0 5001 9 5191 100 0 0 0          * a flying bat
+M 0 5049 1 5192 100 0 0 0          * a stone golem
+E 1 5064 1 15 100 0 0 0            *   a spiked stone bracer
+G 1 5075 3 0 100 0 0 0             *    a jagged stone
+M 0 5033 4 5196 100 0 0 0          * a blind fish
+M 0 5065 1 5197 100 0 0 0          * a giant centipede
+G 1 5076 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5009 4 5198 100 0 0 0          * a patch of blue moss
+M 0 5008 7 5198 100 0 0 0          * a patch of red moss
+M 0 5040 1 5202 100 0 0 0          * a dolomite guardian
+E 1 5028 2 10 100 0 0 0            *   a set of dolomite arm plates
+M 0 5001 9 5203 100 0 0 0          * a flying bat
+M 0 5037 1 5204 100 0 0 0          * a dolomite guardian
+E 1 5027 2 5 100 0 0 0             *   a chest plate of dolomite
+M 0 5004 5 5211 100 0 0 0          * a giant beetle
+M 0 5008 7 5216 100 0 0 0          * a patch of red moss
+M 0 5008 7 5216 100 0 0 0          * a patch of red moss
+M 0 5033 4 5220 100 0 0 0          * a blind fish
+M 0 5033 4 5223 100 0 0 0          * a blind fish
+M 0 5066 1 5224 100 0 0 0          * a giant centipede
+G 1 5076 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5034 1 5226 100 0 0 0          * a giant hairy spider
+G 1 5005 3 0 100 0 0 0             *    a spider's poison sac
+M 0 5010 3 5230 100 0 0 0          * a patch of green moss
+M 0 5010 3 5231 100 0 0 0          * a patch of green moss
+F 1 5011 3 5231 100 0 0 0          * a patch of black moss (following)
+M 0 5011 3 5232 100 0 0 0          * a patch of black moss
+M 0 5008 7 5232 100 0 0 0          * a patch of red moss
+M 0 5009 4 5233 100 0 0 0          * a patch of blue moss
+M 0 5008 7 5233 100 0 0 0          * a patch of red moss
+M 0 5009 4 5233 100 0 0 0          * a patch of blue moss
+M 0 5023 1 5239 100 0 0 0          * a giant queen spider
+E 1 5022 1 6 100 0 0 0             *   a crown of saints
+E 1 5021 1 12 100 0 0 0            *   a cape of entrapment
+M 0 5056 1 5239 100 0 0 0          * a giant hairy spider
+M 0 5057 1 5239 100 0 0 0          * a giant hairy spider
+M 0 5058 1 5239 100 0 0 0          * a giant hairy spider
+M 0 5047 1 5241 100 0 0 0          * a battle scarred minotaur
+E 1 5051 1 37 100 0 0 0            *   a blood soaked war ribbon
+E 1 5049 1 40 100 0 0 0            *   some blood covered horn caps
+G 1 5050 1 0 100 0 0 0             *    some spiked chainmail leggings
+G 1 5058 1 0 100 0 0 0             *    a bloody minotaur eye
+M 0 5010 3 5248 100 0 0 0          * a patch of green moss
+G 1 5008 1 0 100 0 0 0             *    a patch of green moss
+F 1 5011 3 5248 100 0 0 0          * a patch of black moss (following)
+G 1 5009 1 0 100 0 0 0             *    a patch of black moss
+F 1 5008 7 5248 100 0 0 0          * a patch of red moss (following)
+G 1 5006 1 0 100 0 0 0             *    a patch of red moss
+F 1 5009 4 5248 100 0 0 0          * a patch of blue moss (following)
+G 1 5007 1 0 100 0 0 0             *    a patch of blue moss
+F 1 5008 7 5248 100 0 0 0          * a patch of red moss (following)
+M 0 5032 2 5251 100 0 0 0          * a giant beetle
+G 1 5003 4 0 100 0 0 0             *    a beetle shell
+M 0 5050 1 5253 100 0 0 0          * a stone golem
+E 1 5065 1 3 100 0 0 0             *   a chipped stone talisman
+G 1 5075 3 0 100 0 0 0             *    a jagged stone
+M 0 5001 9 5263 100 0 0 0          * a flying bat
+M 0 5067 1 5265 100 0 0 0          * a giant centipede
+G 1 5076 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5063 1 5268 100 0 0 0          * a giant hairy spider
+M 0 5004 5 5269 100 0 0 0          * a giant beetle
+M 0 5028 1 5276 100 0 0 0          * a knight of the Golden Flame
+E 1 5034 1 5 100 0 0 0             *   a chest plate of the Golden Flame
+E 1 5033 1 16 100 0 0 0            *   a claymore of the Golden Flame
+G 1 5032 1 0 100 0 0 0             *    a shield of the Golden Flame
+M 0 5027 3 5284 100 0 0 0          * a dolomite guardian
+M 0 5054 1 5285 100 0 0 0          * a giant millipede
+G 1 5074 5 0 100 0 0 0             *    a cracked insect scale
+M 0 5001 9 5289 100 0 0 0          * a flying bat
+M 0 5055 1 5294 100 0 0 0          * Vadatorn, The Devil Wizard of Despair
+E 1 5072 1 6 100 0 0 0             *   a crown of despair
+E 1 5071 1 12 100 0 0 0            *   a despair cloak of Vadatorn
+M 0 5020 1 5295 100 0 0 0          * a massive diamondine golem
+E 1 5056 1 5 100 0 0 0             *   some diamondine platemail
+E 1 5055 1 7 100 0 0 0             *   some diamondine leggings
+E 1 5054 1 9 100 0 0 0             *   some diamondine gauntlets
+E 1 5017 1 21 100 0 0 0            *   a sparkling diamond earring
+*
+S

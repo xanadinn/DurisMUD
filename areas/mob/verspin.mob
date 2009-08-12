@@ -1,0 +1,1099 @@
+#28100
+high guard verspin~
+&+ca high guard of Verspin&n~
+&+CA high guard of Verspin easily patrols here.
+~
+&+C  This is a protector of Verspin, and a High Guard under Verspin's law.
+&+CHe seems unafaid at guarding his post, and perhaps that comes from knowing
+&+Cthat he can indeed protect it.
+~
+67110986 384 0 176 0 0 0 1000 S
+PH 0 1 -1
+39 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28101
+mime fool foolish~
+a&+L mime&n~
+A&+L mime&n walks around here, looking foolish.
+~
+This guy seems to have a job of walking around and imitating things without
+talking. It's kind of annoying, but he has to eat.
+~
+2252 0 0 0 0 0 0 1000 S
+PH 0 0 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28102
+chicken~
+&+Wa chicken&n~
+&+WA chicken pecks around here.
+~
+&+W It's a chicken, and It's pecking. *PECK*
+~
+2124 0 0 0 0 0 0 0 S
+A 0 0 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#28103
+cleric tharnadia~
+&+Ca cleric from Tharnadia&n~
+&+CA cleric from Tharnadia strolls here, looking for something.
+~
+This cleric looks to have traveled from thairnadia, from his clothing and
+look. He peers up and down the market, looking for something.
+~
+2124 0 0 0 0 0 0 1000 S
+PH 0 32 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28104
+shaman travelling gnomish~
+&+ma travelling gnomish shaman&n~
+&+mA travelling gnomish shaman walks about here.
+~
+&+m  This gnome looks to be versed in the arts of a shaman, and he appears
+&+mto be purcashing things for that profession.
+~
+1073744076 0 0 0 0 0 0 -1000 S
+PG 0 256 -1
+36 0 0 2d150+150 2d3+2
+0.0.3.2 0
+8 8 1
+#28105
+halfling thief sneak sneaky~
+&+Ya halfling thief&n~
+&+YA thief peeks around here, looking sneaky.
+~
+&+y This little guy looks very much like a thief, so you better watch your
+&+ypockets.
+~
+2252 0 0 0 0 0 0 -500 S
+PF 0 4096 -1
+37 1 9 3d50+100 1d5+5
+0.0.12.1 0
+8 8 1
+#28106
+drunk drunken elf~
+&+ma drunken elf&n~
+&+mA totally drunken elf stumbles about here.
+~
+&+b  This elf looks to have had one to many drinks at the Verspin bar, and
+&+bunsteady walks to and fro.
+~
+2124 0 0 0 0 0 0 1000 S
+PE 0 1 -1
+37 0 0 2d100+75 1d4+3
+0.0.11.0 0
+8 8 1
+#28107
+flame eater~
+&+ra &+Rflame&+r eater&n~
+&+rA &+Rflame&+r eater eats fire here.
+~
+&+W This human relies on eating fire for his imcome, and a small one it
+&+Wmust be. Still, you must give him credit for doing this job to feed
+&+Whimself.
+~
+2124 0 0 0 0 0 0 500 S
+PH 0 0 -1
+34 1 -1 1d200+100 1d3+3
+0.2.4.0 0
+8 8 1
+#28108
+noble verspin~
+&+ga noble of&+m Verspin&n~
+&+GA noble of&+m Verspin proudly walks here.
+~
+&+c  One of the new nobles of Verspin, this proud man seems to not be worried
+&+cby anything, and struts around, not paying much regard to you.
+~
+1073743948 0 0 8 0 0 0 1000 S
+PB 0 1 -1
+40 3 -5 2d500+600 3d8+4
+0.0.3.5 0
+8 8 1
+#28109
+glad gladiator flex flexes muscles~
+&+La &+rsparring &+Lgladiator&N~
+&+LA muscular &+rgladiator&+L maneuver about, &+rsparring&+L with the others&N.
+~
+   &+LThis muscular man maneuvers through the area, a stern look in his eye.
+&+LHe wears standard gladiator apparel, including studded leather vestments
+&+Land shin protectors.
+~
+1073744076 0 0 0 0 0 0 500 S
+PB 0 1 -1
+46 0 -5 1d800+200 1d5+6
+0.0.0.0 0
+8 8 1
+#28110
+dwarfven dwarf peddler~
+&+Ya dwarven peddler&n~
+&+YA dwarven peddler sells his goods in the chaos.
+~
+&+y  This stout dwarf looks upon you with a hearty smile, and shows you
+&+ythe goods he sells.
+~
+1073744074 0 0 0 0 0 0 1000 S
+PM 0 1 -1
+60 0 -10 3d1000+1000 1d15+10
+0.0.35.15 0
+8 8 1
+#28111
+paladin in train training~
+&+Wa pal&nadin in training~
+&+WA pal&nadin in training walks uneasily around.
+~
+&+W This knight of the holy order is being trained, and is age shows it,
+&+Wthis young knight seems only 16 or 17 years of age.
+~
+1073744078 384 0 0 0 0 0 1000 S
+PH 0 8 -1
+40 0 2 3d100+100 2d3+3
+0.0.14.2 0
+8 8 1
+#28112
+junior member bloodhawks~
+&+ba junior member of the &+rBloodhawks&n~
+&+bA junior member of the &+rBloodhawks&+b sneers at you here.
+~
+&+b  This ugly little kid is trying to get into the Bloodhawks, and you might
+&+bbe his first attempt.
+~
+2122 0 0 0 0 0 0 -1000 S
+PF 0 4096 -1
+37 0 0 1d50+10 1d3+2
+3.2.0.0 0
+8 8 2
+#28113
+leader lead gang~
+&+Lthe leader of&n &+rBloodhawk Gang&n~
+&+LThe leader of&+r Bloodhawk Gang&+L peers around.
+~
+&+L This old man seems to be a big criminal, and walks about proud of his
+&+Lskills.
+~
+2252 0 0 0 0 0 0 -1000 S
+PH 0 16384 -1
+44 2 4 2d300+700 2d5+5
+0.0.14.3 0
+8 8 1
+#28114
+smuggler gang bloodhawk member~
+&+ba smuggler&+r of the Bloodhawk&+b gang&n~
+&+bA smuggler&+r of the Bloodhawk&+b gang grins soundly here.
+~
+&+b This smuggler looks to be good at what he does, and he has somewhat
+&+bof a high position in the Bloodhawk gang.
+~
+1073743946 0 0 0 0 0 0 -1000 S
+PH 0 16385 -1
+40 2 3 3d300+100 2d5+2
+0.0.0.0 0
+8 8 2
+#28115
+midget~
+&+ga midget&n~
+&+mA midget of Verspin twibbles around here.
+~
+ This small human seems to be making his money by dancing about, showing people
+ his smallness.
+~
+2252 0 0 0 0 0 0 500 S
+PH 0 0 -1
+34 0 0 2d50+60 2d4+2
+0.7.1.0 0
+8 8 1
+#28116
+tottan leader circus~
+&+mTottan, leader of the &+cVerspin&+m Circus&n~
+&+MTottan, leader of the Verspin Circus, paces about.
+~
+  Tottan is an extremly busy man, pacing about thinking of new ways to earn
+money. Is burly arms are covered with tattos of strange things, and his
+face shows experince from years of being a circus leader.
+~
+67110986 0 0 0 0 0 0 -50 S
+PM 0 1 -1
+53 1 -2 2d500+300 2d7+4
+0.0.5.2 0
+8 8 1
+#28117
+goofy clown~
+&+ra goofy clown&n~
+&+rA goofy clown is here, &+Rgoofing off.
+~
+   This clown is a very stupid one from the vacent expression on his painted
+face, but he is good for entertainment value.
+~
+1073743948 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+36 0 0 2d75+50 1d5+3
+0.4.1.0 0
+8 8 1
+#28118
+goofy clown~
+&+ra &+msilly&+r clown&n~
+&+rA &+msilly&+r clown is here, &+mbeing silly.
+~
+   This clown is a very stupid one from the vacent expression on his painted
+face, but he is good for entertainment value.
+~
+1073743948 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+37 0 0 2d75+50 1d5+3
+0.4.1.0 0
+8 8 1
+#28119
+goofy clown~
+&+ra &+Ycrazy&+r clown~
+&+rA &+Ycrazy&+r clown is here, &+Yacting insane.
+~
+   This clown is a very stupid one from the vacent expression on his painted
+face, but he is good for entertainment value.
+~
+1073743948 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+34 0 0 2d75+50 1d5+3
+0.4.1.0 0
+8 8 1
+#28120
+verspin woman~
+&+ma woman of Verspin&n~
+&+MA woman of Verspin is here, shopping the town.
+~
+  This ordinary woman is here, looking for a bargain.
+~
+2252 0 0 0 0 0 0 1000 S
+PH 0 0 -1
+32 2 0 3d60+60 2d5+3
+0.3.3.0 0
+8 8 2
+#28121
+verspin commoner~
+&+La commoner of Verspin&n~
+&+LA commoner of Verspin is here, walking stoutly.
+~
+  This ordinary commoner is here, looking for a bargain.
+~
+2252 0 0 0 0 0 0 1000 S
+PH 0 0 -1
+34 2 0 3d60+60 2d5+3
+0.3.3.0 0
+8 8 1
+#28122
+verspin woman~
+&+ma woman of Verspin&n~
+&+MA woman of Verspin is here, shopping the town.
+~
+  This ordinary woman is here, looking for a bargain.
+~
+2252 0 0 0 0 0 0 1000 S
+PH 0 0 -1
+20 2 0 3d60+60 2d5+3
+0.3.3.0 0
+8 8 2
+#28123
+rammzi mage~
+&+mRammzi&n~
+&+mRammzi stands here, looking to aid you.
+~
+     This old mage seems to know quite a bit, and looks quite powerful.
+~
+2250 0 0 72 0 0 0 1000 S
+PE 0 512 -1
+55 1 3 2d500+200 1d5+1
+34.0.23.12 0
+8 8 1
+#28124
+puppy dog~
+&+ya puppy dog&n~
+&+yA puppy dog stands here, looking snuggly.
+~
+   It's a puppy dog! *Bark*
+~
+2124 0 0 0 0 0 0 0 S
+A 0 0 -1
+7 0 0 2d50+10 1d5+2
+0.0.0.0 0
+8 8 1
+#28125
+crier verspin~
+&+cthe crier of &+CVerspin&n~
+&+cThe crier of&+C Verspin&+c stands here, crying.
+~
+     This fat human looks to be quite a fool, has he stands on his soapbox
+and yells over the loud crouds.
+~
+2250 0 0 0 0 0 0 700 S
+PH 0 0 -1
+30 4 0 4d50+50 4d4+2
+0.3.3.0 0
+8 8 1
+#28126
+ramous leader verspin~
+&+rRamous, leader of &+RVerspin&n~
+&+rRamous, leader of &+RVerspin&n, is here, chatting with advisors.
+~
+   While Ramous is the leader of Verspin, he seems to be a very warm and wise
+man. His young face shows bounce and energy, and he seems to be a good choice
+as the leader of this city. His wear is a simple white robe, with a elaborate
+crown, made of emeralds and gold that glitter in the magic light of this tower.
+He leans over to you and says :
+&+W  All I really want is an apple.. Sigh, I won't get one 'til after work.
+~
+67110986 384 0 152 1 0 0 1000 S
+PH 0 2 -1
+55 2 -2 3d500+450 2d4+2
+0.0.5.3 0
+8 8 1
+#28127
+royal advisor~
+&+ma royal advisor&n~
+&+mA royal advisor is here, pending on some important matter.
+~
+     This wise man is wrapped completely in a flowing purple robe, with the
+gold insignia of Verspin embordered into the back of it. His face shows signs
+of worry, and he and his comrades ponder about some way to fix it.
+~
+67110986 0 0 8 0 0 0 1000 S
+PH 0 1 -1
+36 3 -1 2d200+200 5d2+2
+0.0.3.2 0
+8 8 1
+#28128
+lion gold golden~
+&+Ya golden lion&n~
+&+yA gol&+Yden lion is chained here, growling.
+~
+   This huge lion sits here with a mean look on its face, and its presistant
+  growling shows that is most displeased to be here.
+~
+1140852746 0 0 8 0 0 0 0 S
+A 0 1 -1
+51 4 -5 2d1000+700 5d3+6
+0.0.0.0 0
+8 8 2
+#28129
+servant clean cleaning verspin~
+&+ca member of the &+CVerspin&+c cleaning crew&n~
+&+CA servant of Verspin is here, cleaning briskly.
+~
+   This small gnome is occupied only with cleaning around here, but his fine
+clothes and good apperance show that he receives desent pay for his work.
+~
+2124 0 0 0 0 0 0 600 S
+PG 0 2048 -1
+15 0 0 2d70+70 2d3+3
+0.0.0.0 0
+8 8 1
+#28130
+inventor verspin~
+&+Man inventor&n~
+&+MAn inventor of Verspin stands here, inventing.
+~
+   This small gnome is occupied only with inventing around here, but his fine
+clothes and good apperance show that he receives decent pay for his work.
+~
+2124 0 0 0 0 0 0 600 S
+PG 0 2048 -1
+15 0 0 2d70+70 2d3+3
+0.0.0.0 0
+8 8 1
+#28131
+soldier verspin~
+&+La soldier of Verspin&n~
+&+LA soldier&+C of Verspin&+L patrols here, &+mlooking for a fight.
+~
+  This man is employed in the Verspin guard, and It shows. Many badges, weapons
+and a stern look show that he has worked hard for his position. He now marches,
+looking to protect the town from evil.
+~
+67110988 384 0 0 0 0 0 500 S
+PH 0 1 -1
+36 1 5 1d100+30 2d4+2
+0.4.1.0 0
+8 8 1
+#28132
+captain verspin~
+&+La &+bcaptain&+L of Verspin~
+A&+G captain of the guard is here,&+b keeping peace.&n
+~
+  This man is employed in the Verspin guard, and It shows. Many badges, weapons
+and a stern look show that he has worked hard for his position. He now marches,
+looking to protect the town from evil.
+~
+1140852812 384 0 0 0 0 0 500 S
+PH 0 1 -1
+49 1 0 2d150+70 2d4+2
+0.4.1.0 0
+8 8 1
+#28133
+soldier verspin~
+&+La soldier of Verspin&n~
+&+LA soldier of Verspin patrols here.
+~
+  This man is employed in the Verspin guard, and It shows. Many badges, weapons
+and a stern look show that he has worked hard for his position. He now marches,
+looking to protect the town from evil.
+~
+2124 0 0 0 0 0 0 500 S
+PH 0 1 -1
+10 1 5 1d100+30 2d4+2
+0.4.1.0 0
+8 8 1
+#28134
+brial~
+&+CBrial&n~
+&+YBrial stands here, working on a piece of armor.
+~
+   This stout human shows many years, but the gruff smile he flashes you
+seems to reveal his jolly self. His worn and tired hands show that he is
+no stranger to hard work on the forge, and his products show it.
+~
+2056 0 0 8 0 0 0 0 S
+PH 0 0 -1
+60 0 -5 3d3000+1000 3d5+5
+0.0.3.5 0
+8 8 1
+#28135
+loud shopper~
+&+ca loud shopper&n~
+&+CA loud shopper walks here, making noise.
+~
+   This man is angry with everything, and stomps around here and yells about
+it.
+~
+2124 0 0 0 0 0 0 -1000 S
+PG 0 1 -1
+36 0 9 3d40+60 1d5+4
+0.2.5.0 0
+8 8 1
+#28136
+huge man~
+&+La huge man&n~
+&+LA huge man is here, selling his black goods.
+~
+   This man is wrapped up in a black cloak, and the only feature he really
+has is his size. His large set seems to be a factor that he is a shopkeeper
+and unafaid of much. From his pockets can be seen various potions, and other
+tools in the black arts.
+~
+2250 0 0 8 0 0 0 0 S
+PH 0 0 -1
+55 0 6 2d1000+1000 1d10+5
+0.0.3.5 0
+8 8 1
+#28137
+snobby shopper~
+&+ca&+r snobby&+c shopper&n~
+&+cA &+rsnobby&+c shopper walks here, whining.
+~
+   This man is angry with everything, and stomps around here and yells about
+it.
+~
+2124 0 0 0 0 0 0 -1000 S
+PG 0 1 -1
+34 0 0 4d40+50 2d3+3
+0.2.5.0 0
+8 8 2
+#28138
+loud shopper~
+&+ca loud shopper&n~
+&+CA loud shopper walks here, making noise.
+~
+   This man is angry with everything, and stomps around here and yells about
+it.
+~
+2124 0 0 0 0 0 0 -1000 S
+PG 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28139
+human peddler~
+&+Ga human peddler&n~
+&+GA human peddler is here, making a nice profit.
+~
+    This average looking peddler seems to be very busy selling his goods, and
+the smile on his face is coming the from the coppers and keep making his purse
+fatter and fatter.
+~
+2122 0 0 8 0 0 0 0 S
+PH 0 0 -1
+55 0 0 3d3000+1000 3d3+3
+0.0.0.0 0
+8 8 1
+#28140
+ogre bound gagged~
+&+Ba bound and gagged ogre&n~
+&+BA bound and gagged ogre is here, trying to escape its doom.
+~
+   This ogre was caught somehow, and now spends its days at the Verspin
+Freakshow. The look on its face shows its sorry and pity for itself.
+You almost feal sorry for it, then you remember it's an ogre.
+~
+2122 0 0 8 2 0 0 -1000 S
+PO 0 1 -1
+31 3 -3 2d300+100 2d5+4
+0.0.3.3 0
+8 8 1
+#28141
+squirmy fish~
+&+ma squirmy fish&n~
+&+mA squirmy fish is swimming around here, darting back and forth at &+Wlight&+m speeds.
+~
+&+m   This pretty fish is to busy darting around looking for food to notice
+&+myou, but he is a hard one to keep track of.
+~
+2250 0 0 0 0 0 0 0 S
+A 0 0 -1
+10 0 10 3d20+20 1d4+1
+0.0.0.0 0
+8 8 1
+#28142
+mean angry goldfish~
+&+ra mean goldfish&n~
+&+rA &+Rangry&+r goldfish swims here, looking at your leg for dinner.
+~
+&+R      This mean looking fish is very small and looks like it could hurt
+&+Rnothing, but his glarring razzor sharp teeth seem to show otherwise...
+~
+2250 1 0 0 0 0 0 0 S
+A 0 0 -1
+2 0 0 2d10+10 1d3+2
+0.0.0.0 0
+8 8 1
+#28143
+boatman boat man~
+&+ba boatman&n~
+&+BA boatman is here, &+btaking people across the&+C waterway.
+~
+    This man makes his pay by voyaging the waterway back and forth, picking
+up people wanting to be on the other side. He angrily smacks all the biting
+fish away, steering a clear path.
+~
+2250 0 0 8 0 0 0 500 S
+PH 0 1 -1
+34 3 -1 2d250+150 2d4+3
+0.0.3.4 0
+8 8 1
+#28144
+lozin trade master~
+&+LLozin, the trade &+Cmaster&n~
+&+LLozin, the trade&+C master&+L of &+Cverspin is here.
+~
+&+W    Lozin can be spotted anywhere from his fast pacing voice. He yells
+&+Wover the crowds, getting hagles and offers back from it. He is a old
+&+Wman, but still prefers the trade market, and will continue to work here
+&+Wuntil he simply cannot. While pondering at him, he leans over to you and
+&+Wsays :
+&n  Read the &+WSign&n for what is for trade today!
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 0 -1
+55 0 0 2d500+500 1d10+10
+0.0.0.0 0
+8 8 1
+#28145
+vulm gem master~
+&+MVulm&n~
+&+MVulm,&n the gem master of Verspin, is here.
+~
+    This bulky man is a tad short, with a long jagged scar on his left arm.
+He seems happy enough, and from the look of this place he is not doing bad
+work, or getting bad pay.
+~
+2058 0 0 8 0 0 0 0 S
+PH 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#28146
+mage train training in~
+&+ma mage in training&n~
+&+mA mage in training is here, practicing a spell.
+~
+    This small human tries to recite words from his spellbook, but keeps
+forgetting them in the long run. He seems like a hopless case, but time
+does have its effect on students.
+~
+2254 0 0 8 0 0 0 0 S
+PH 0 512 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#28147
+holy man holyman~
+&+ca holyman&n~
+&+CA holyman of Verspin stands here, &+cchanting softly.&N
+~
+   This clown is a very stupid one from the vacent expression on his painted
+face, but he is good for entertainment value.
+~
+2186 0 0 120 0 0 0 1000 S
+PM 0 32 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28148
+warrior in train training~
+&+Ya warrior in training&n~
+&+YA warrior in training is here, swinging wildly.
+~
+    This large human struts about here, swinging his sword at the air.
+He seems to be somewhat proficent in the art, but not altogether great at
+being a warrior.
+~
+1073744078 0 0 0 0 0 0 500 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28149
+wander wandering cleric~
+&+ca wandering cleric&n~
+&+CA wandering cleric is here, roaming the town.
+~
+      This large, wise man seems to be fluent in the cleric abilites, but his
+kind smile shows he is a man of mercy and goodness. He looks to be of an old
+age, but he shows a great amount of energy.
+~
+1073743880 0 0 40 4 0 0 1000 S
+PM 0 32 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28150
+dark colored woman~
+&+La dark-colored woman&n~
+&+LA dark woman is here, showing off.
+~
+      This very tan woman seems to have come from the desert, has her skin
+is a very dark brown. She peeks at you with her dark brown eyes, and turns
+away to another customoner.
+~
+2188 0 0 0 0 0 0 0 S
+PH 0 0 -1
+34 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#28151
+large blond woman~
+&+Ya large blond woman&n~
+&+YA large blond woman is here, displaying what she has to offer.
+~
+     This tall, thin, busty woman is doing good with her job, and she simply
+stares at you at says:
+       &+W Well?
+~
+1073743948 0 0 0 0 0 0 0 S
+PH 0 0 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#28152
+liya master brothel~
+&+mLiya&n~
+&+mLiya,&+y owner of the brothel is here, spanking people.
+~
+    This very sexy woman has one intent in mind, that of spanking people.
+~
+2058 0 0 33554440 0 0 0 -1000 S
+PH 0 0 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#28153
+vespus sorceress teacher~
+&+MVespus, head sorceress of Verspin&N~
+&+MVespus, sorceress and mage teacher of Verspin stands here instructing.
+~
+   &+MThis tall human woman wears long magenta robes covered in fine
+&+Msilken embroidery.  Vespus currently teaches the fine art of magic
+&+Mto the students here at Verspin, city of humans.
+~
+34826 0 0 0 0 0 0 0 S
+PH 0 4194816 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#28154
+brachik teacher~
+&+YBrachik, warrior teacher of Verspin&N~
+&+YBrachik, the warrior teacher of verspin, stands here directing his pupils.
+~
+   &+YBrachik, once a Road Marshall for Tharnadia, has settled into
+&+Ythe life of educational combat, passing his knowledge onto the
+&+Ywarriors of Verspin.  Brachik is quite tall for a human with
+&+Ya moderate build.  Although getting old in his years, he is still
+&+Yvery quick on his feet.
+~
+34826 0 0 0 0 0 0 0 S
+PH 0 16385 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28155
+transo bartender~
+&+LTranso, the &+Yswinging star&+L bartender&N~
+&+LTranso, the bartender of The &+YSwinging Star&+L stands here wiping out a mug.
+~
+   &+LThis tall human, Transo, stands here wiping out a pint-sized mug.
+&+LHe has a large, bushy moustache and quite a large stomach.  A grin
+&+Lgraces his otherwise charming face as he eyes customers up and down,
+&+Lvery comfortable with his work here in the Gladiator Pit of Verspin.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 16385 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28156
+relaxed captain guard~
+&+La relaxed &+bcaptain&+L of Verspin&N~
+&+LRelaxed on a stool, &Na &+Gcaptain of the guard&+b enjoys a drink.
+~
+   &+LThis captain of the guard, one of the great protectors of the City of
+&+LVerspin, relaxes at the Swinging Star tavern, enjoying a beverage in
+&+Lbetween patrol shifts.
+~
+1073743946 128 0 24 0 0 0 0 S
+PH 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#28157
+flamboyant patron~
+&+La flamboyant &+Ypatron&N~
+&+LA flamboyant &+Ypatron&+L sits at the bar, &Nlaughing it up.
+~
+   &+LThis human patron of the bar sits here throwing back drinks in the
+&+LSwinging Star Tavern of the Gladiator Pit of Verspin.  This young man
+&+Lwears standard leather and cloth garments and seems slightly overweight.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28158
+verspin showgoer~
+&+La &+cVerspin &+Lshowgoer&N~
+&+LA &+cVerspin &+Lshowgoer&N stands here, watching the &+Lfight&N.
+~
+   &+LThis human stands here at the edge of a bleecher, watching the
+&+Lgladiator combat intently.  A look of intense concentration and
+&+Lenjoyment graces the face of this showgoer, watching onward as
+&+Lthe fight continues.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28159
+seasoned verspin showgoer~
+&+La seasoned &+cVerspin &+Lshowgoer&N~
+&+LA seasoned &+cVerspin &+Lshowgoer&N smiles, watching the battle intently.
+~
+   &+LThis human stands here at the edge of a bleecher, watching the
+&+Lgladiator combat intently.  A look of intense concentration and
+&+Lenjoyment graces the face of this showgoer, watching onward as
+&+Lthe fight continues.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28160
+young showgoer~
+&+La young showgoer&N~
+&+LA young showgoer&N stands here, baffled by the &+Ltactics&N below.
+~
+   &+LThis human stands here at the edge of a bleecher, watching the
+&+Lgladiator combat intently.  A look of intense concentration and
+&+Lenjoyment graces the face of this showgoer, watching onward as
+&+Lthe fight continues.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28161
+security guard~
+&+La strong &+rsecurity &+Lguard&N~
+&+LA strong &+rsecurity&+L guard&N stands here, protecting the gate.
+~
+   &+LThis strong-looking security guard stands here, protecting the gate
+&+Lwhich prevents passage to the lower levels of the gladiator pit.  An
+&+Lalmost overbearing amount of muscles covers this guards body, as he takes
+&+Lgreat pride in his job.
+~
+1140852746 0 0 24 0 0 0 0 S
+PH 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28162
+rosman priest~
+&+WRosman, the noble priest&N~
+&+WRosman, brother of Ramous and priest of Verspin&N blesses passing gladiators.
+~
+   &+WRosman&N, the older brother of &+mRamous&N stands here, having come into
+&+Wthe priesthoof of Verspin&N, blesses gladiators as they pass to and from
+the gladiator pit.  It is a great honor to fight in the great pit of Verspin.
+Although most of the fights do not go to the death, it is just as honorable
+to defeat your opponent as it is to die in combat.
+   &+WRosman&N wears flowing white clerical robes and stands in front of the
+&+Wstatue&n, touching the foreheads of passing gladiators, blessing them
+dilligently.
+~
+2058 0 0 24 0 0 0 1000 S
+PH 0 40 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28163
+gladiator battle-scarred~
+&+La battle-scarred gladiator&N~
+&+LA battle-scarred gladiator stands here, &+rsparring&+L with the others.
+~
+   &+LThis muscular man maneuvers through the area, a stern look in his eye.
+&+LHe wears standard gladiator apparel, including studded leather vestments
+&+Land shin protectors.
+~
+1073744076 0 0 0 0 0 0 500 S
+PB 0 1 -1
+48 0 -5 1d800+200 1d5+6
+0.0.0.0 0
+8 8 1
+#28164
+gladiator well-trained trained well~
+&+La well-trained gladiator&N~
+&+LA well-trained gladiator waits for the perfect moment to strike.
+~
+   &+LThis muscular man maneuvers through the area, a stern look in his eye.
+&+LHe wears standard gladiator apparel, including studded leather vestments
+&+Land shin protectors.
+~
+1073744076 0 0 0 0 0 0 500 S
+PB 0 1 -1
+47 0 -5 1d800+200 1d5+6
+0.0.0.0 0
+8 8 1
+#28165
+relaxing gladiator~
+&+La relaxing gladiator&N~
+&+LAn unarmored gladiator relaxes here after a series of brutal fights.
+~
+   &+LThis tough-looking gladiator relaxes in these chambers after a
+&+Lseries of brutal fights.  A pile of equipment rests just beside him
+&+Las he rests his body.
+~
+2058 0 0 0 0 0 0 -250 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#28166
+relaxing barbarian gladiator~
+&+La relaxing barbarian gladiator&N~
+&+LA barbarian gladiator lays here, strewn across a massive bed.
+~
+   &+LThis large barbarian is quite exhausted after several long fights
+&+Lwith the others.  Althoguh a grim look bestows his face, you know he
+&+Lis happy to be alive.
+~
+2058 0 0 0 0 0 0 -250 S
+PB 0 1 -1
+52 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#28167
+relaxing gladiator~
+&+La &+Wmeditative &+Lgladiator&N~
+&+LA &+Wmeditative &+Lgladiator kneels here, &Npreparing for his next fight.
+~
+   &+LThis gladiator kneels here in this meditation chamber in front of
+&+Lseveral pieces of prayer icons, including scriptures, incense, and
+&+Lholy candles.  Preparing for a large fight, this gladiator becomes
+&+Lready to face his destiny, or deliver the destiny to another.
+~
+2058 0 0 0 0 0 0 -250 S
+PM 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#28168
+maintenance worker~
+&+La maintenance worker&N~
+&+LA maintenance worker walks through the hallways, &Ncleaning up after the gladiators.&N
+~
+   &+LThis human scuffles through the hallways, cleaning up after
+&+Lthe gladiators,  His work detail includes mopping up blood from
+&+Lwounded gladiators, picking up dropped equipment, and trying
+&+Lto keep order in an otherwise chaotic environment.
+~
+2060 0 0 0 0 0 0 0 S
+PH 0 1 -1
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28169
+muscular gladiator~
+&+La &Nmuscular &+Lgladiator&N~
+&+LInspecting the weapons, a &Nmuscular &+Lgladiator&+r prepares for battle&+L.
+~
+   &+LThis gladiator stands here, inspecting the weapons and preparing to
+&+Ldo battle in the proud coliseum gladiator pit of Verspin.  A stern
+&+Land determined look graces his aging brow.  Muscules bulge from his
+&+Lgarments and armor.
+~
+2058 0 0 0 0 0 0 -250 S
+PM 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28170
+bloodied determined gladiator~
+&+La &+rbloodied &+Lyet &+Wdetermined &+Lgladiator&N~
+&+LA &+rbloodied &+Lyet &+Wdetermined &+Lgladiator is here, &Nfighting for the honor of his people.
+~
+   &+LThis gladiator is quite possibly one of the strongest and most well-
+&+Lprepared in the entire complex.  Streaks of &+rblood&+L run down
+&+Lall parts of his body as he struggles to continue the match.  A
+&+Lgrave look of intense &+Wdetermination&+L fills the eyes of this
+&+Ldaft, humanoid warrior - battling on to gain the honor of his people.
+~
+2122 0 0 24 0 0 0 -300 S
+PM 0 16385 4
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28171
+security guard~
+&+Lan elite &+rsecurity &+Lguard&N~
+&+LA guard of the &+rsecurity &+Lelite&N stands here, protecting the gate.
+~
+   &+LThis strong-looking security guard stands here, protecting the gate
+&+Lwhich prevents passage to the lower levels of the gladiator pit.  An
+&+Lalmost overbearing amount of muscles covers this guards body, as he takes
+&+Lgreat pride in his job.
+~
+1140852746 0 0 24 0 0 0 0 S
+PH 0 1 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28172
+bloodhawk spy~
+&+La devious &+rBloodhawk &+Lspy&N~
+&+LThis devious &+rBloodhawk &+Lspy charges forth after being spotted!
+~
+   &+LWearing all black, this deviously-clever member of the &+rBloodhawk
+&+Lgang creeps about here, dagger in hand and ready to thrust.
+~
+1073744074 1 0 404226328 0 0 0 -1000 S
+PH 0 8192 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28173
+monk~
+&+Wa master &+Ymonk&+W of Shinjin&N~
+&+WA pleasant &+Ymonk&+W stands here, very pleased to see you.
+~
+   &+WThis monk wears brilliant white robes.  He stands here
+&+Win search of pupils who seek to reach enlightenment.  A
+&+Wpleasant smile graces his elderly face.
+~
+2058 0 0 24 0 0 0 1000 S
+PH 0 65 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28174
+shinjin grand master~
+&+WShinjin, the grand master&N~
+&+WShinjin, the grand master of &+Yenlightenment&+W levitates here&N, ready to show you the way.
+~
+   &+WThis glorious monk has seen many days, but has many more to live on.
+&+WShinjin wears a very simple set of loose robes and no shoes.  A faint
+&+Wsmile graces his wrinkled face as he floats inches above the ground in
+&+Wthe lotus meditation position.  Shinjin has reached the status of Grand
+&+WMaster, of which there may only be one of in the realm of Duris at a time.
+&+Whis outstretched hands beckon adventurers to come and reach &+Yenlightenment&+W.
+~
+16812106 0 0 939524248 272385 67633152 13239296 1000 S
+PH 0 45 -1
+61 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28175
+eager adventurer~
+&+can eager adventurer&N~
+&+cAn eager adventurer rests here, &Nwaiting to see the grand master.
+~
+   &+cThis humanoid adventurers wears standard leather garments with cloth
+&+capparel.  He carries numerous pieces of equipment including a pack for
+&+chis rations and a lantern to see in the dark.  He sits here eagerly
+&+cawaiting the service of the great grand master Shinjin in search of
+&+cenlightenment.
+~
+2058 0 0 0 0 0 0 -100 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28176
+exhausted patron~
+&+Wan exhausted patron&N~
+&+WAn exhausted patron relaxes&N in the large, comfortable bed.
+~
+   &+WThis human traveller wears a silken nightgown with matching
+&+Wslippers and night cap.  These items were most likely included
+&+Win the luxury accomdations of this illustrious Verspin suite
+&+Wat the Inn of the Noble Heart.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+43 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28177
+exhausted patron~
+&+Wa sleepy patron&N~
+&+WA sleepy patron stretches out here eyes closed&N, attempting to get some sleep.
+~
+   &+WThis human traveller wears a silken nightgown with matching
+&+Wslippers and night cap.  These items were most likely included
+&+Win the luxury accomdations of this illustrious Verspin suite
+&+Wat the Inn of the Noble Heart.
+~
+2058 0 0 0 0 0 0 0 S
+PH 0 1 -1
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#28178
+innkeeper~
+&+Ythe &+Winnkeeper&N~
+&+WThe &+Yinnkeeper&+W of the &+YInn of the &+WNoble Heart&N stands here patiently.
+~
+   &+WThis innkeeper wears elegant garments that match the wallpaper and
+&+Wdecorations of the room.  A pleasant smile embraces his youthful,
+&+Wshaven face.  He politely directs customers of this fine and
+&+Waccomodating inn to their rooms.
+~
+2122 0 0 0 0 0 0 0 S
+PH 0 1 -1
+48 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

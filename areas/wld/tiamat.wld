@@ -1,0 +1,751 @@
+#19600
+&+RBefore a Large Gate&N~
+&+RA huge stone gate lies to the east.  Large carved columns flank
+&+Reither side of it, as it stands on the plane of Avernus.  The screaming
+&+Rof the tortured souls of hell can be heard to the east.
+~
+196 1115721804 23
+D1
+~
+gate~
+5 0 19604
+D2
+~
+~
+0 0 32031
+S
+#19601
+&+RNorthwest Corner of a Cavern~
+&+RYou stand in the northwest corner of a huge, vaulted stone cavern.  The
+&+Rheat from the walls parches your through and makes the far walls of
+&+Rthe cavern blurry with distortion.  Just to the north you can see
+&+Ra large chamber, onately decorated.  You think you can detect some
+&+Rsort of chanting coming from that direction, but it could just be the
+&+Rintensity of the heat causing you to miss things.
+~
+196 1249939528 23
+D0
+~
+~
+0 0 19612
+D1
+~
+~
+0 0 19602
+D2
+~
+~
+0 0 19604
+S
+#19602
+&+RNorth Edge of the Huge Cavern&N~
+&+RYou stand at the northern end of a huge stone cavern.  The heat in the air
+&+Rstifles your breath, and blurs your vision as you gaze into the cavern
+&+Rto the south.  The northern wall is decorated with spiraling, reptillian
+&+Rcolumns upwards, almost three hundred feet to the ceiling.
+~
+196 1249939528 23
+D0
+~
+door~
+7 19602 19615
+D1
+~
+~
+0 0 19603
+D2
+~
+~
+0 0 19605
+D3
+~
+~
+0 0 19601
+S
+#19603
+&+RNortheast Corner of the Cavern~
+&+RYou stand in the northeastern corner of the large cavern.  Fighting
+&+Rexhaustion, and blurry vision, you can discern a large chamber directly
+&+Rto the north.
+~
+196 1249939528 23
+D0
+~
+door~
+3 19601 19613
+D2
+~
+~
+0 0 19606
+D3
+~
+~
+0 0 19602
+S
+#19604
+&+RWest End of Vaulted Cavern~
+&+RYou stand at the western end of a huge, vaulted cavern.  Stone arches
+&+Rrise up over 300 feet above you.  A horrible heat radiates from the
+&+Rstone around.  Just to your west lies a large stone gate.
+~
+196 1249939520 23
+D0
+~
+~
+0 0 19601
+D1
+~
+~
+0 0 19605
+D2
+~
+~
+0 0 19607
+D3
+~
+gate~
+1 0 19600
+S
+#19605
+&+RCenter of the Cavern~
+&+RYou stand at the center of a vast, stone cavern.  The ceiling is lost in
+&+Rshadows above, approaching well over four hundred feet at its zenith.  The
+&+Rcavern stretches around in all directions from here, but the details are
+&+Rblured from the heat radiating throughout the place.
+~
+196 1249939528 23
+D0
+~
+~
+0 0 19602
+D1
+~
+~
+0 0 19606
+D2
+~
+~
+0 0 19608
+D3
+~
+~
+0 0 19604
+S
+#19606
+&+REastern Wall of the Cavern~
+&+RYou stand at the eastern most end of the huge cavern.  The expanse of the
+&+Rcavern to the west is lost in a hazy blur.  The wall directly to your
+&+Reast has a huge embossed dragon scuplted from its surface.  The dragon
+&+Rhas not one, but five heads, depicting the ruler of all evil dragons,
+&+RTiamat.
+~
+196 1249939528 23
+D0
+~
+~
+0 0 19603
+D1
+~
+door~
+7 19605 19610
+D2
+~
+~
+0 0 19609
+D3
+~
+~
+0 0 19605
+S
+#19607
+&+RSouthwest Corner of the Large Cavern~
+&+RYou stand in the southwestern most corner of a huge, stone cavern.  Decorated
+&+Rcolumns climb the walls to the ceiling.  The heat in the area distorts your
+&+Rview.  A cool draft comes from a small room just to the south.
+~
+196 1249939528 23
+D0
+~
+~
+0 0 19604
+D1
+~
+~
+0 0 19608
+D2
+~
+~
+0 0 19611
+S
+#19608
+&+RSouth End of the Cavern&N~
+&+RYou are standing in the southern end of the vast, stone cavern.  The heat
+&+Rhere is almost unbearable, and makes concentration difficult.  To the north
+&+Rthe cavern stretches out past your heat-blured range of vision.  To the
+&+Rsouth a hot stone wall provides you little comfort.
+~
+196 1249939520 23
+D0
+~
+~
+0 0 19605
+D1
+~
+~
+0 0 19609
+D2
+~
+door~
+7 19604 19616
+D3
+~
+~
+0 0 19607
+S
+#19609
+&+RSoutheast Corner of the Cavern&N~
+&+RThe southeastern corner of the cavern is little different from the rest.
+&+RAn overwhelming heat comes from the stone around you.  To the south a large
+&+Rroom can be seen.
+~
+196 1249939528 23
+D0
+~
+~
+0 0 19606
+D2
+~
+door~
+3 19603 19614
+D3
+~
+~
+0 0 19608
+S
+#19610
+&+REntrance to the Lair of Tiamat&N~
+&+RTwo massive red doors mark the entry into Tiamat's layer.
+&+RThey stand nearly two hundred feet high, and fifty feet across
+&+Reach.  Images of death and destruction are painted all over the
+&+Rthem, surrounding a brightly glowing keyhole.  Flames wisp and
+&+Rdance about in random places on the floor.
+~
+196 1249939520 23
+D0
+~
+door~
+3 19611 19618
+D1
+~
+door~
+7 19613 19622
+D2
+~
+door~
+3 19612 19619
+D3
+~
+door~
+3 0 19606
+S
+#19611
+&+CThe Meditation Room&N~
+Sounds from outside seem muffled, and a peaceful calm permeates the
+air in this room.  The unaddorend walls have a soothing affect, and you
+feel relaxed while sitting here.
+~
+196 1249939660 23
+D0
+~
+~
+0 0 19607
+S
+#19612
+&+CThe Pool of Worlds&N~
+&+cSmooth crystal walls encricle this room, reflecting the glowing light
+&+cfrom the pool in odd paterns.  In the center of the room lies a marble
+&+cbasin, with glowing liquid swirling within.  As you focus on the liquid,
+&+cyou can almost detect some form taking shape, but then it dispersses.
+~
+196 1115688960 23
+D2
+~
+~
+0 0 19601
+S
+#19613
+&+RA Huge Chamber&N~
+&+RThe walls of this chamber rise several hundred feet into the air.  No
+&+Rfurnishings lie in the chamber, but shards of treasure, debris, and
+&+Rbones lie strewn about the place.  The stone walls radiate an immense heat.
+~
+196 1249939528 23
+D2
+~
+door~
+3 0 19603
+S
+#19614
+&+RIn a Vast Chamber&N~
+&+RThis huge stone chamber stretches out several hundered feet in all directions.
+&+RThe bare stone walls and floor radiate an immense heat that has dominated
+&+Rthis series of caverns.
+~
+196 1249939528 23
+D0
+~
+door~
+3 0 19609
+S
+#19615
+&+RIn a Large Chamber&N~
+&+RThe heat that permeates this area continues to plague you here in this
+&+Rhuge stone chamber.  The walls are bare, but a larged raised dias with
+&+ra statue of a huge dragon lies in the northern end of the chamber.
+~
+196 1249939528 23
+D2
+~
+door~
+3 0 19602
+S
+#19616
+&+RIn a Vast Chamber&N~
+&+RThe walls of this chamber are bare, and stretch several hundred feet high.
+&+RThe heat radiated by the stone saturates your body, stifling your breath
+&+Rand giving a very closed in feel to this otherwise vast chamber.
+~
+196 1249939520 23
+D0
+~
+door~
+3 0 19608
+D3
+~
+~
+0 0 19621
+S
+#19617
+&+LThrone Room of Avernus&N~
+This room is on fire, literally.  Columns of flame reach high
+into the air from braziers located every few feet along the walls,
+making the heat almost unbearable.  At the southern end of the
+chamber, a huge throne sits upon a massive pile of melted gold and
+gems.  The throne itself looks to be made of platinum and is
+studded with many jewels.  The walls and ceiling seem to twist and
+flow like molten lava, with sharp bones jutting outward.  Hundreds
+of skeletons lay twisted and charred all over the huge chamber,
+preserved like trophies of the victims Tiamat has slain...
+~
+196 1249939520 23
+D2
+~
+door~
+7 19606 19620
+D3
+~
+~
+0 0 19617
+S
+#19618
+&+RLarge Side Chamber&N~
+&+RThis large side chamber is several hundred feet across.  Gouts of flame
+&+Rleap up at random intervals along the floor.  Images of death and destruction
+&+Rare painted along the walls.
+~
+196 1249939528 23
+D2
+~
+door~
+1 0 19610
+S
+#19619
+&+RA Vast Side Chamber&N~
+&+RThis massive side chamber stretches several hundred feet across.  Gouts
+&+Rof flame sporatically leap into the air from around the floor.
+~
+196 1249939528 23
+D0
+~
+door~
+1 0 19610
+S
+#19620
+&+LBefore the Vault of Avernus&N~
+This dimly lit chamber is the room in which Tiamat has kept much
+of her most prized treasure.  Runes and inscriptions line the
+walls, all glowing faintly blue providing a dim illumination.  It
+doesn't look as if anyone has seen this place in many millennia.
+The entire area seems to radiate magical energy.
+~
+196 1249939652 23
+D0
+~
+~
+1 0 19617
+D3
+~
+vault~
+4 0 19953
+S
+#19621
+&+LA Small Alcove&N~
+This is a small, dark alcove set just off the large room.
+It has no interesting features.
+~
+196 1249939520 23
+D1
+~
+~
+0 0 19616
+S
+#19622
+&+LA Dark Passage~
+&+L   The floor grows increasingly warm as one gets closer to the Throne
+&+LRoom.  The scent of burned flesh, melted armor, and electrical discharge
+&+Lfills the air.  A sense of impending doom envelops all who enter here.
+~
+196 1249939520 23
+D1
+~
+~
+0 0 19617
+D3
+~
+door~
+2 0 19610
+S
+#19623
+&+CA Small Alcove in the Throne Room~
+&+C   This small alcove seems surprisingly cheerful, even though it's located so
+&+Cclose to the queen dragon Tiamat.  A sense of peace and calm is here, and it
+&+Cseems impossible to break the tranquility of this place.
+~
+196 1250070604 23
+D1
+~
+~
+0 0 19617
+S
+#19624
+Starting point for slave guy~
+~
+196 243306696 0
+D1
+~
+~
+0 0 19953
+D4
+~
+~
+0 0 19624
+D5
+~
+~
+0 0 19624
+S
+#19625
+load room for volo boots~
+~
+196 243306696 0
+D0
+~
+~
+0 0 19625
+D1
+~
+~
+0 0 19625
+D2
+~
+~
+0 0 19625
+D3
+~
+~
+0 0 19625
+D5
+~
+~
+0 0 19953
+S
+#19626
+load room for scale of hydradaemon~
+~
+196 243306696 0
+D0
+~
+~
+0 0 19626
+D1
+~
+~
+0 0 19626
+D2
+~
+~
+0 0 19626
+D3
+~
+~
+0 0 19626
+D5
+~
+~
+0 0 19953
+S
+#19627
+load room for isha cloak~
+~
+196 243306696 0
+D0
+~
+~
+0 0 19627
+D1
+~
+~
+0 0 19627
+D2
+~
+~
+0 0 19627
+D3
+~
+~
+0 0 19627
+D5
+~
+~
+0 0 19953
+S
+#19628
+&+LA Dark Passage~
+&+L   The floor grows increasingly warm as one gets closer to the Throne
+&+LRoom.  The scent of burned flesh, melted armor, and electrical discharge
+&+Lfills the air.  A sense of impending doom envelops all who enter here.
+~
+196 1249939520 23
+D1
+~
+~
+0 0 19620
+D3
+~
+~
+0 0 19610
+S
+#19629
+&+GSlave Start Point&n~
+~
+196 176193600 0
+D0
+~
+~
+0 0 19630
+D1
+~
+~
+0 0 19630
+D2
+~
+~
+0 0 19631
+S
+#19630
+51 potion room~
+~
+196 176193600 0
+D0
+~
+~
+0 0 19630
+D1
+~
+~
+0 0 19630
+D2
+~
+~
+0 0 19630
+D3
+~
+~
+0 0 19630
+D5
+~
+~
+0 0 19636
+S
+#19631
+Second Wander Room~
+~
+196 41975872 0
+D0
+~
+~
+0 0 19632
+D1
+~
+~
+0 0 19632
+D2
+~
+~
+0 0 19633
+D3
+~
+~
+0 0 19632
+S
+#19632
+52 Potion Room~
+~
+196 41975872 0
+D0
+~
+~
+0 0 19632
+D1
+~
+~
+0 0 19632
+D2
+~
+~
+0 0 19632
+D3
+~
+~
+0 0 19632
+D5
+~
+~
+0 0 19636
+S
+#19633
+Third Wander Room~
+~
+196 176193600 0
+D1
+~
+~
+0 0 19634
+D3
+~
+~
+0 0 19635
+S
+#19634
+53 Potion Room~
+~
+196 176193600 0
+D0
+~
+~
+0 0 19634
+D1
+~
+~
+0 0 19634
+D2
+~
+~
+0 0 19634
+D3
+~
+~
+0 0 19634
+D5
+~
+~
+0 0 19636
+S
+#19635
+54 Potion Room~
+~
+196 176193600 0
+D0
+~
+~
+0 0 19635
+D1
+~
+~
+0 0 19635
+D2
+~
+~
+0 0 19635
+D3
+~
+~
+0 0 19635
+D5
+~
+~
+0 0 19636
+S
+#19636
+Fourth Wander Room~
+~
+196 142639168 0
+D0
+~
+~
+0 0 19624
+D1
+~
+~
+0 0 19624
+D2
+~
+~
+0 0 19624
+D3
+~
+~
+0 0 19637
+D4
+~
+~
+0 0 19624
+D5
+~
+~
+0 0 19624
+S
+#19637
+51 Potion Extra Room~
+~
+196 142639168 0
+D5
+~
+~
+0 0 19624
+S
+#19638
+load room for dragon shield~
+~
+196 0 0
+D0
+~
+~
+0 0 19638
+D1
+~
+~
+0 0 19638
+D2
+~
+~
+0 0 19638
+D3
+~
+~
+0 0 19638
+D5
+~
+~
+0 0 19953
+S

@@ -1,0 +1,528 @@
+#367
+&+mArachdrathos Guilds&n~
+36777 1 0 35 55 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 36701 4 2 100 0 0 0
+*     up exit from "The Outer Foyer of House Zarbonesti" to
+*     "The Armory" - closed/locked
+*
+D 0 36702 5 2 100 0 0 0
+*     down exit from "The Armory" to
+*     "The Outer Foyer of House Zarbonesti" - closed/locked
+*
+D 0 36718 0 2 100 0 0 0
+*     north exit from "The High Cleric's Chambers" to
+*     "The Chamber of Abomination" - closed/locked
+*
+D 0 36719 2 2 100 0 0 0
+*     south exit from "The Chamber of Abomination" to
+*     "The High Cleric's Chambers" - closed/locked
+*
+D 0 36719 1 8 100 0 0 0
+*     east exit from "The Chamber of Abomination" to
+*     "A Gleaming Tunnel" - open/blocked
+*
+D 0 36770 3 0 100 0 0 0
+*     west exit from "A Gleaming Tunnel" to
+*     "The Chamber of Abomination" - open
+*
+D 0 36722 0 2 100 0 0 0
+*     north exit from "The Top of the Hollow" to
+*     "The Testing Laboratory" - closed/locked
+*
+D 0 36724 2 2 100 0 0 0
+*     south exit from "The Testing Laboratory" to
+*     "The Top of the Hollow" - closed/locked
+*
+D 0 36722 1 2 100 0 0 0
+*     east exit from "The Top of the Hollow" to
+*     "Bedchambers of the High Council" - closed/locked
+*
+D 0 36725 3 2 100 0 0 0
+*     west exit from "Bedchambers of the High Council" to
+*     "The Top of the Hollow" - closed/locked
+*
+D 0 36722 2 2 100 0 0 0
+*     south exit from "The Top of the Hollow" to
+*     "The Archives" - closed/locked
+*
+D 0 36726 0 2 100 0 0 0
+*     north exit from "The Archives" to
+*     "The Top of the Hollow" - closed/locked
+*
+D 0 36722 3 2 100 0 0 0
+*     west exit from "The Top of the Hollow" to
+*     "The Apprentice Mages' Study" - closed/locked
+*
+D 0 36723 1 2 100 0 0 0
+*     east exit from "The Apprentice Mages' Study" to
+*     "The Top of the Hollow" - closed/locked
+*
+D 0 36731 0 2 100 0 0 0
+*     north exit from "The Foyer of the Keep" to
+*     "Bottom of the Adamantine Stairs" - closed/locked
+*
+D 0 36734 2 2 100 0 0 0
+*     south exit from "Bottom of the Adamantine Stairs" to
+*     "The Foyer of the Keep" - closed/locked
+*
+D 0 36737 1 8 100 0 0 0
+*     east exit from "Top of the Stairs" to
+*     "Room of the Celestial Soldier" - open/blocked
+*
+D 0 36738 3 0 100 0 0 0
+*     west exit from "Room of the Celestial Soldier" to
+*     "Top of the Stairs" - open
+*
+D 0 36744 4 2 100 0 0 0
+*     up exit from "The Altar of Lolth" to
+*     "A Lavish Communal Apartment" - closed/locked
+*
+D 0 36745 5 2 100 0 0 0
+*     down exit from "A Lavish Communal Apartment" to
+*     "The Altar of Lolth" - closed/locked
+*
+D 0 36747 4 8 100 0 0 0
+*     up exit from "The East Altar of Lolth" to
+*     "Window on the Demonweb" - open/blocked
+*
+D 0 36748 5 0 100 0 0 0
+*     down exit from "Window on the Demonweb" to
+*     "The East Altar of Lolth" - open
+*
+D 0 36752 3 2 100 0 0 0
+*     west exit from "House Slin Commons" to
+*     "The Chamber of the Master Assassin" - closed/locked
+*
+D 0 36756 1 2 100 0 0 0
+*     east exit from "The Chamber of the Master Assassin" to
+*     "House Slin Commons" - closed/locked
+*
+D 0 36754 4 8 100 0 0 0
+*     up exit from "The Recreation Room" to
+*     "A Forgotten Room" - open/blocked
+*
+D 0 36758 5 0 100 0 0 0
+*     down exit from "A Forgotten Room" to
+*     "The Recreation Room" - open
+*
+D 0 36764 4 1 100 0 0 0
+*     up exit from "The Dungeon of Abominations" to
+*     "The Dungeon of Abominations" - closed
+*
+D 0 36775 5 1 100 0 0 0
+*     down exit from "The Dungeon of Abominations" to
+*     "The Dungeon of Abominations" - closed
+*
+D 0 36764 5 6 100 0 0 0
+*     down exit from "The Dungeon of Abominations" to
+*     "The Dungeon of Abominations" - closed/locked/secret
+*
+D 0 36776 4 2 100 0 0 0
+*     up exit from "The Dungeon of Abominations" to
+*     "The Dungeon of Abominations" - closed/locked
+*
+D 0 36767 3 2 100 0 0 0
+*     west exit from "The Guardroom" to
+*     "The Throne of Zargenenon" - closed/locked
+*
+D 0 36768 1 2 100 0 0 0
+*     east exit from "The Throne of Zargenenon" to
+*     "The Guardroom" - closed/locked
+*
+D 0 36768 4 8 100 0 0 0
+*     up exit from "The Throne of Zargenenon" to
+*     "A Long Forgotten Crypt" - open/blocked
+*
+D 0 36769 5 0 100 0 0 0
+*     down exit from "A Long Forgotten Crypt" to
+*     "The Throne of Zargenenon" - open
+*
+D 0 36770 1 8 100 0 0 0
+*     east exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open/blocked
+*
+D 0 36771 3 0 100 0 0 0
+*     west exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open
+*
+D 0 36771 1 8 100 0 0 0
+*     east exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open/blocked
+*
+D 0 36772 3 0 100 0 0 0
+*     west exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open
+*
+D 0 36772 1 8 100 0 0 0
+*     east exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open/blocked
+*
+D 0 36773 3 0 100 0 0 0
+*     west exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open
+*
+D 0 36773 1 8 100 0 0 0
+*     east exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open/blocked
+*
+D 0 36774 3 0 100 0 0 0
+*     west exit from "A Gleaming Tunnel" to
+*     "A Gleaming Tunnel" - open
+*
+D 0 36774 1 8 100 0 0 0
+*     east exit from "A Gleaming Tunnel" to
+*     "The Lost Shrine of the Demoness Lolth" - open/blocked
+*
+D 0 36709 3 0 100 0 0 0
+*     west exit from "The Lost Shrine of the Demoness Lolth" to
+*     "A Gleaming Tunnel" - open
+*
+*
+O 0 36708 1 36702 100 0 0 0        * some mushroom stalk armor racks
+P 1 36710 1 36708 100 0 0 0        *   a brass shield
+P 1 36711 1 36708 100 0 0 0        *   a pair of brass boots
+O 0 36709 1 36702 100 0 0 0        * some mushroom stalk weapon racks
+P 1 36707 6 36709 100 0 0 0        *   a serrated longsword
+P 1 36707 6 36709 100 0 0 0        *   a serrated longsword
+P 1 36707 6 36709 100 0 0 0        *   a serrated longsword
+P 1 36707 6 36709 100 0 0 0        *   a serrated longsword
+O 0 36719 1 36713 100 0 0 0        * a brass girded mushroom stalk chest
+P 1 36718 18 36719 100 0 0 0       *   a serrated dagger
+P 1 36718 18 36719 100 0 0 0       *   a serrated dagger
+O 0 36717 1 36715 100 0 0 0        * the mystical acid curtain
+O 0 36732 1 36725 100 0 0 0        * a massive switch
+O 0 36721 1 36729 100 0 0 0        * a massive switch
+O 0 36729 1 36731 100 0 0 0        * an adamantine key
+O 0 36750 3 36731 100 0 0 0        * a stalkwood key
+O 0 36750 3 36732 100 0 0 0        * a stalkwood key
+O 0 36737 1 36734 100 0 0 0        * the Zochra Weapons Locker
+P 1 36730 3 36737 100 0 0 0        *   a huge curved adamantine sword
+O 0 36733 1 36736 100 0 0 0        * a massive switch
+O 0 36722 1 36738 100 0 0 0        * a massive switch
+O 0 36734 1 36745 100 0 0 0        * a massive switch
+O 0 36723 1 36748 100 0 0 0        * a massive switch
+O 0 36735 1 36757 100 0 0 0        * a massive switch
+O 0 36724 1 36758 100 0 0 0        * a massive switch
+O 0 36736 1 36768 100 0 0 0        * a massive switch
+O 0 36725 1 36769 100 0 0 0        * a massive switch
+O 0 36766 1 36777 100 0 0 0        * an obisidian color pool
+*
+M 0 36700 3 36700 100 0 0 0        * a brass zarbon
+M 0 36701 6 36700 100 0 0 0        * a brass zarbon
+M 0 36701 6 36700 100 0 0 0        * a brass zarbon
+M 0 36702 1 36701 100 0 0 0        * a zarbonesti warrior
+E 1 36706 2 6 100 0 0 0            *   a plumed brass helm
+E 1 36707 6 16 100 0 0 0           *   a serrated longsword
+G 1 36705 1 0 100 0 0 0            *    a small brass key
+M 0 36703 3 36703 100 0 0 0        * a zarbonesti warrior
+F 1 36703 3 36703 100 0 0 0        * a zarbonesti warrior (following)
+F 1 36703 3 36703 100 0 0 0        * a zarbonesti warrior (following)
+M 0 36704 5 36704 100 0 0 0        * a zarbonesti warrior
+M 0 36704 5 36704 100 0 0 0        * a zarbonesti warrior
+M 0 36704 5 36704 100 0 0 0        * a zarbonesti warrior
+M 0 36704 5 36704 100 0 0 0        * a zarbonesti warrior
+M 0 36704 5 36704 100 0 0 0        * a zarbonesti warrior
+M 0 36705 2 36705 100 0 0 0        * a floating decapitated skull
+M 0 36705 2 36705 100 0 0 0        * a floating decapitated skull
+M 0 36706 1 36706 100 0 0 0        * a zarbonesti chef
+E 1 36712 1 16 100 0 0 0           *   a meat tenderizer
+M 0 36707 1 36707 100 0 0 0        * the everwatching eye
+M 0 36708 1 36708 100 0 0 0        * the master slaver
+E 1 36713 3 16 100 0 0 0           *   a fluted brass dagger
+E 1 36713 3 17 100 0 0 0           *   a fluted brass dagger
+M 0 36711 1 36709 100 0 0 0        * a mentenozan shade
+E 1 36716 2 16 100 0 0 0           *   a shadow spine
+E 1 36716 2 17 100 0 0 0           *   a shadow spine
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 36760 1 0 100 0 0 0            *    the jewel of the Spider Queen
+M 0 36701 6 36710 100 0 0 0        * a brass zarbon
+M 0 36701 6 36710 100 0 0 0        * a brass zarbon
+M 0 36701 6 36710 100 0 0 0        * a brass zarbon
+M 0 36715 4 36711 100 0 0 0        * a zarbonesti agent
+E 1 36720 27 16 100 0 0 0          *   an adamantine shortsword
+M 0 36715 4 36711 100 0 0 0        * a zarbonesti agent
+E 1 36720 27 16 100 0 0 0          *   an adamantine shortsword
+M 0 36715 4 36711 100 0 0 0        * a zarbonesti agent
+E 1 36720 27 16 100 0 0 0          *   an adamantine shortsword
+M 0 36715 4 36711 100 0 0 0        * a zarbonesti agent
+E 1 36720 27 16 100 0 0 0          *   an adamantine shortsword
+M 0 36716 2 36711 100 0 0 0        * a drow customer
+M 0 36716 2 36711 100 0 0 0        * a drow customer
+M 0 36700 3 36712 100 0 0 0        * a brass zarbon
+M 0 36700 3 36712 100 0 0 0        * a brass zarbon
+M 0 36701 6 36712 100 0 0 0        * a brass zarbon
+M 0 36714 8 36713 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36713 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36713 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36713 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36714 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36714 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36714 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36714 8 36714 100 0 0 0        * a zarbonesti assassin
+E 1 36718 18 16 100 0 0 0          *   a serrated dagger
+E 1 36718 18 17 100 0 0 0          *   a serrated dagger
+M 0 36713 1 36715 100 0 0 0        * the bloodmaster
+E 1 36706 2 6 100 0 0 0            *   a plumed brass helm
+E 1 36707 6 16 100 0 0 0           *   a serrated longsword
+E 1 36713 3 17 100 0 0 0           *   a fluted brass dagger
+M 0 36712 6 36717 100 0 0 0        * a house cleric
+G 1 36700 1 0 100 0 0 0            *    a tiny brass key
+M 0 36712 6 36717 100 0 0 0        * a house cleric
+M 0 36712 6 36717 100 0 0 0        * a house cleric
+M 0 36712 6 36717 100 0 0 0        * a house cleric
+M 0 36709 1 36719 100 0 0 0        * the arch cleric
+E 1 36714 1 3 100 0 0 0            *   Lolth's pestilent pendant
+E 1 36715 1 12 100 0 0 0           *   the cloak of Arachdrathos
+M 0 36710 2 36719 100 0 0 0        * a zarbon
+M 0 36710 2 36719 100 0 0 0        * a zarbon
+M 0 36712 6 36719 100 0 0 0        * a house cleric
+M 0 36712 6 36719 100 0 0 0        * a house cleric
+M 0 36717 5 36721 100 0 0 0        * a shade
+M 0 36717 5 36721 100 0 0 0        * a shade
+M 0 36717 5 36722 100 0 0 0        * a shade
+G 1 36701 1 0 100 0 0 0            *    a tiny sable key
+M 0 36717 5 36722 100 0 0 0        * a shade
+M 0 36717 5 36722 100 0 0 0        * a shade
+M 0 36718 8 36723 100 0 0 0        * an apprentice
+M 0 36718 8 36723 100 0 0 0        * an apprentice
+M 0 36718 8 36723 100 0 0 0        * an apprentice
+M 0 36719 4 36723 100 0 0 0        * an apprentice
+M 0 36719 4 36723 100 0 0 0        * an apprentice
+M 0 36719 4 36723 100 0 0 0        * an apprentice
+M 0 36718 8 36724 100 0 0 0        * an apprentice
+G 1 36703 1 0 100 0 0 0            *    a tiny mirrored key
+M 0 36718 8 36724 100 0 0 0        * an apprentice
+M 0 36719 4 36724 100 0 0 0        * an apprentice
+M 0 36722 2 36725 100 0 0 0        * a high seer of olipth
+E 1 36726 1 15 100 0 0 0           *   a durithalite bracelet
+M 0 36724 1 36725 100 0 0 0        * a high seer of olipth
+E 1 36728 1 5 100 0 0 0            *   the robe of the underworld mages
+M 0 36720 1 36726 100 0 0 0        * the scribe
+M 0 36722 2 36726 100 0 0 0        * a high seer of olipth
+E 1 36727 1 3 100 0 0 0            *   the necklace of resilience
+G 1 36704 1 0 100 0 0 0            *    a tiny crimson key
+M 0 36723 3 36727 100 0 0 0        * a high seer of olipth
+M 0 36718 8 36728 100 0 0 0        * an apprentice
+M 0 36718 8 36728 100 0 0 0        * an apprentice
+M 0 36718 8 36728 100 0 0 0        * an apprentice
+M 0 36721 1 36728 100 0 0 0        * the first apprentice
+G 1 36702 1 0 100 0 0 0            *    a tiny ivory key
+M 0 36723 3 36729 100 0 0 0        * a high seer of olipth
+M 0 36723 3 36729 100 0 0 0        * a high seer of olipth
+M 0 36725 2 36730 100 0 0 0        * an adamantine golem
+E 1 36730 3 16 100 0 0 0           *   a huge curved adamantine sword
+M 0 36725 2 36730 100 0 0 0        * an adamantine golem
+E 1 36730 3 16 100 0 0 0           *   a huge curved adamantine sword
+M 0 36726 9 36731 100 0 0 0        * a bloodthirsty warrior
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+F 1 36726 9 36731 100 0 0 0        * a bloodthirsty warrior (following)
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+F 1 36726 9 36731 100 0 0 0        * a bloodthirsty warrior (following)
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+F 1 36726 9 36731 100 0 0 0        * a bloodthirsty warrior (following)
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+M 0 36726 9 36732 100 0 0 0        * a bloodthirsty warrior
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36731 1 0 100 0 0 0            *    a shiny adamantine key
+M 0 36726 9 36732 100 0 0 0        * a bloodthirsty warrior
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+M 0 36726 9 36733 100 0 0 0        * a bloodthirsty warrior
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+G 1 36720 27 0 100 0 0 0           *    an adamantine shortsword
+M 0 36726 9 36733 100 0 0 0        * a bloodthirsty warrior
+M 0 36726 9 36733 100 0 0 0        * a bloodthirsty warrior
+M 0 36727 12 36734 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+F 1 36727 12 36734 100 0 0 0       * a bloodthirsty warrior (following)
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36735 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36735 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36735 100 0 0 0       * a bloodthirsty warrior
+M 0 36727 12 36736 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36736 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36736 100 0 0 0       * a bloodthirsty warrior
+M 0 36727 12 36736 100 0 0 0       * a bloodthirsty warrior
+M 0 36727 12 36737 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+G 1 36738 1 0 100 0 0 0            *    a very shiny adamantine key
+M 0 36727 12 36737 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36727 12 36737 100 0 0 0       * a bloodthirsty warrior
+E 1 36739 9 16 100 0 0 0           *   an adamantine longsword
+E 1 36720 27 17 100 0 0 0          *   an adamantine shortsword
+M 0 36729 1 36738 100 0 0 0        * the celestial warrior
+E 1 36743 1 11 100 0 0 0           *   a shimmering shield
+E 1 36744 1 16 100 0 0 0           *   a shimmering longsword
+M 0 36728 1 36739 100 0 0 0        * the Warmaster
+E 1 36765 1 5 100 0 0 0            *   the platemail of might
+E 1 36741 1 6 100 0 0 0            *   the helm of leadership
+E 1 36742 1 16 100 0 0 0           *   a miniature tol-kendar
+M 0 36748 1 36739 100 0 0 0        * a pet shadow dragon
+G 1 36767 1 0 100 0 0 0            *    the eyeball of a shadow dragon
+M 0 36749 1 36739 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36751 1 36739 100 0 0 0        * a slinite ambassador
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36750 2 36739 100 0 0 0        * a phaze hound
+M 0 36750 2 36739 100 0 0 0        * a phaze hound
+M 0 36730 2 36741 100 0 0 0        * a shadow golem
+M 0 36730 2 36741 100 0 0 0        * a shadow golem
+M 0 36732 18 36742 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36742 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36742 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36742 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36742 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36743 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36743 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36743 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36743 100 0 0 0       * the spawn of arachdra
+M 0 36733 8 36744 100 0 0 0        * the spawn of arachdra
+M 0 36733 8 36744 100 0 0 0        * the spawn of arachdra
+M 0 36733 8 36744 100 0 0 0        * the spawn of arachdra
+M 0 36734 5 36745 100 0 0 0        * A cleric of Ilith
+E 1 36749 1 8 100 0 0 0            *   a pair of soft silk slippers
+E 1 36748 5 16 100 0 0 0           *   an adamantine hammer
+M 0 36734 5 36745 100 0 0 0        * A cleric of Ilith
+E 1 36748 5 16 100 0 0 0           *   an adamantine hammer
+M 0 36734 5 36745 100 0 0 0        * A cleric of Ilith
+E 1 36748 5 16 100 0 0 0           *   an adamantine hammer
+M 0 36734 5 36745 100 0 0 0        * A cleric of Ilith
+E 1 36748 5 16 100 0 0 0           *   an adamantine hammer
+M 0 36734 5 36745 100 0 0 0        * A cleric of Ilith
+E 1 36748 5 16 100 0 0 0           *   an adamantine hammer
+M 0 36732 18 36746 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36746 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36746 100 0 0 0       * the spawn of arachdra
+M 0 36733 8 36746 100 0 0 0        * the spawn of arachdra
+M 0 36733 8 36746 100 0 0 0        * the spawn of arachdra
+M 0 36732 18 36747 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36747 100 0 0 0       * the spawn of arachdra
+M 0 36733 8 36747 100 0 0 0        * the spawn of arachdra
+M 0 36733 8 36747 100 0 0 0        * the spawn of arachdra
+M 0 36733 8 36747 100 0 0 0        * the spawn of arachdra
+M 0 36731 1 36749 100 0 0 0        * The high cleric of Ilith
+E 1 36747 1 5 100 0 0 0            *   a spidersilk gown
+E 1 36746 2 21 100 0 0 0           *   a dangling spider earring
+G 1 36745 1 0 100 0 0 0            *    a stalkwood key
+M 0 36732 18 36749 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36749 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36749 100 0 0 0       * the spawn of arachdra
+M 0 36732 18 36749 100 0 0 0       * the spawn of arachdra
+M 0 36735 1 36751 100 0 0 0        * an ochre slime guardian
+M 0 36737 8 36752 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36752 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36738 4 36752 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36753 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36753 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36738 4 36753 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36754 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36754 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36738 4 36754 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36736 1 36755 100 0 0 0        * a slinite chef
+G 1 36751 1 0 100 0 0 0            *    a stained meat cleaver
+G 1 36750 3 0 100 0 0 0            *    a stalkwood key
+M 0 36739 1 36756 100 0 0 0        * the master
+E 1 36753 1 8 100 0 0 0            *   the boots of speed
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36759 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36737 8 36759 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36738 4 36759 100 0 0 0        * a slinite assassin
+E 1 36752 28 16 100 0 0 0          *   a dagger of ripping
+E 1 36752 28 17 100 0 0 0          *   a dagger of ripping
+M 0 36742 1 36761 100 0 0 0        * a lesser dracolich
+M 0 36740 7 36762 100 0 0 0        * the skeletal guardian
+M 0 36740 7 36762 100 0 0 0        * the skeletal guardian
+M 0 36743 5 36763 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36744 2 36763 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36741 1 36764 100 0 0 0        * nothing
+E 1 36764 1 3 100 0 0 0            *   the amulet of the negative planes
+G 1 36763 1 0 100 0 0 0            *    the heart of nothingness
+M 0 36743 5 36765 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36743 5 36765 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36743 5 36765 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36743 5 36766 100 0 0 0        * A necromancer of house Sa'Zarn
+M 0 36744 2 36766 100 0 0 0        * A necromancer of house Sa'Zarn
+E 1 36757 1 5 100 0 0 0            *   a bone white robe
+E 1 36756 1 7 100 0 0 0            *   some bone white pants
+E 1 36755 1 10 100 0 0 0           *   some bone white sleeves
+G 1 36758 1 0 100 0 0 0            *    a bone white key
+F 1 36740 7 36766 100 0 0 0        * the skeletal guardian (following)
+F 1 36740 7 36766 100 0 0 0        * the skeletal guardian (following)
+M 0 36740 7 36767 100 0 0 0        * the skeletal guardian
+M 0 36740 7 36767 100 0 0 0        * the skeletal guardian
+M 0 36740 7 36767 100 0 0 0        * the skeletal guardian
+M 0 36745 1 36768 100 0 0 0        * Zargenenon
+E 1 36759 1 12 100 0 0 0           *   an ancient spidersilk cloak
+M 0 36746 1 36775 100 0 0 0        * a tentamort
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+M 0 36747 5 36775 100 0 0 0        * a tentacle
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+M 0 36747 5 36775 100 0 0 0        * a tentacle
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+M 0 36747 5 36775 100 0 0 0        * a tentacle
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+M 0 36747 5 36775 100 0 0 0        * a tentacle
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+M 0 36747 5 36775 100 0 0 0        * a tentacle
+E 1 36762 6 16 100 0 0 0           *   a tentamort spine
+*
+S

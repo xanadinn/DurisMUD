@@ -1,0 +1,241 @@
+#264
+&+YMyrloch Vale&n~
+26578 1 0 19 29 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 26492 5 2 100 0 0 0
+*     down exit from "End Of The Hallway" to
+*     "The Flaming Passages Of The Under-Realms" - closed/locked
+*
+D 0 26493 4 2 100 0 0 0
+*     up exit from "The Flaming Passages Of The Under-Realms" to
+*     "End Of The Hallway" - closed/locked
+*
+D 0 26503 1 0 100 0 0 0
+*     east exit from "Deep In The Sweltering Halls Of The Under-Realms" to
+*     "A Cooled Off Room" - open
+*
+D 0 26504 3 0 100 0 0 0
+*     west exit from "A Cooled Off Room" to
+*     "Deep In The Sweltering Halls Of The Under-Realms" - open
+*
+D 0 26516 1 2 100 0 0 0
+*     east exit from "Molten Caves Of The Under-Realms" to
+*     "A Huge Cavern" - closed/locked
+*
+D 0 26517 3 2 100 0 0 0
+*     west exit from "A Huge Cavern" to
+*     "Molten Caves Of The Under-Realms" - closed/locked
+*
+D 0 26530 0 2 100 0 0 0
+*     north exit from "Center Of The Bridge Of Brimstone In The Under-Realms" to
+*     "Northern Side Of The Brimstone Bridge" - closed/locked
+*
+D 0 26531 2 2 100 0 0 0
+*     south exit from "Northern Side Of The Brimstone Bridge" to
+*     "Center Of The Bridge Of Brimstone In The Under-Realms" - closed/locked
+*
+D 0 26534 0 8 100 0 0 0
+*     north exit from "A Corridor Withing The Tower" to
+*     "A Huge Corridor In The Tower Of The Under-Realms" - open/blocked
+*
+D 0 26539 2 0 100 0 0 0
+*     south exit from "A Huge Corridor In The Tower Of The Under-Realms" to
+*     "A Corridor Withing The Tower" - open
+*
+D 0 26534 1 8 100 0 0 0
+*     east exit from "A Corridor Withing The Tower" to
+*     "A Corridor Withing The Tower" - open/blocked
+*
+D 0 26535 3 0 100 0 0 0
+*     west exit from "A Corridor Withing The Tower" to
+*     "A Corridor Withing The Tower" - open
+*
+D 0 26540 0 8 100 0 0 0
+*     north exit from "A Huge Corridor In The Tower Of The Under-Realms" to
+*     "The Warlord Of The Under-realms Corridor" - open/blocked
+*
+D 0 26545 2 0 100 0 0 0
+*     south exit from "The Warlord Of The Under-realms Corridor" to
+*     "A Huge Corridor In The Tower Of The Under-Realms" - open
+*
+D 0 26540 3 8 100 0 0 0
+*     west exit from "A Huge Corridor In The Tower Of The Under-Realms" to
+*     "A Huge Corridor In The Tower Of The Under-Realms" - open/blocked
+*
+D 0 26541 1 0 100 0 0 0
+*     east exit from "A Huge Corridor In The Tower Of The Under-Realms" to
+*     "A Huge Corridor In The Tower Of The Under-Realms" - open
+*
+*
+O 0 26400 1 26413 100 0 0 0        * an ivory statue of a horse
+O 0 26401 1 26425 100 0 0 0        * the statue of Labelas
+O 0 26402 1 26425 100 0 0 0        * the statue of Corellon
+O 0 26403 1 26425 100 0 0 0        * the state of Rillifane Rallathil
+O 0 26404 1 26425 100 0 0 0        * the statue of Hannalil Celani
+O 0 26405 1 26434 100 0 0 0        * a mineral chest from the under-world
+P 1 26419 1 26405 100 0 0 0        *   an artifact of the under-realms
+P 1 26550 1 26405 100 0 0 0        *   a silvery pin with an emblem of a moon and a harp
+O 0 26407 1 26440 100 0 0 0        * a large waterfall
+O 0 26408 1 26440 100 0 0 0        * a small waterfall
+O 0 26420 1 26471 100 0 0 0        * an old bracelet
+O 0 26433 1 26472 100 0 0 0        * an old dagger
+O 0 26417 1 26492 100 0 0 0        * an old key
+O 0 26410 1 26504 100 0 0 0        * a mysterious spring
+O 0 26442 1 26515 100 0 0 0        * a small wooden chest
+P 1 26441 1 26442 100 0 0 0        *   a purple stone ring
+O 0 26413 1 26547 100 0 0 0        * a stalagmite
+O 0 26414 1 26549 100 0 0 0        * a stalagmite
+O 0 26415 1 26551 100 0 0 0        * a stalagmite
+O 0 26416 1 26553 100 0 0 0        * a stalagmite
+O 0 358 1 26555 100 0 0 0          * (object type not in this .obj file)
+O 0 26435 2 26558 100 0 0 0        * a glittering mountain of coins
+O 0 26435 2 26558 100 0 0 0        * a glittering mountain of coins
+*
+M 0 26416 15 26401 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26416 15 26403 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26403 10 26411 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26403 10 26414 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26414 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26404 10 26415 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26416 15 26415 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26416 15 26415 100 0 0 0       * a Llewyrr child
+M 0 26404 10 26417 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26403 10 26418 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26404 10 26419 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26419 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26403 10 26420 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26404 10 26421 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26404 10 26422 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26422 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26404 10 26423 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26423 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26404 10 26427 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26404 10 26429 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26430 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26417 1 26434 100 0 0 0        * the elder of Chrysalis
+M 0 26404 10 26435 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26445 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26405 10 26447 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26407 1 26448 100 0 0 0        * Lerion the shop keeper
+G 1 26428 2 0 100 0 0 0            *    a flash potion
+G 1 26429 100 0 100 0 0 0          *    a wand of water
+G 1 26439 1 0 100 0 0 0            *    a tattered yellow scroll
+M 0 26408 1 26449 100 0 0 0        * Elinial the shop keeper
+G 1 26430 1 0 100 0 0 0            *    a pair of Llewyrr boots
+M 0 26406 1 26450 100 0 0 0        * Suilaiin
+G 1 26426 1 0 100 0 0 0            *    a Llewyrr bag of depth
+G 1 26427 3 0 100 0 0 0            *    a Llewyrr ring of gold
+G 1 26440 500 0 100 0 0 0          *    a small glowing stone
+M 0 26415 11 26470 100 0 0 0       * a green flame
+M 0 26414 11 26471 100 0 0 0       * a yellow flame
+M 0 26412 11 26472 100 0 0 0       * a blue flame
+M 0 26414 11 26473 100 0 0 0       * a yellow flame
+M 0 26413 11 26475 100 0 0 0       * a red flame
+M 0 26413 11 26480 100 0 0 0       * a red flame
+G 1 26409 1 0 100 0 0 0            *    a flaming key
+M 0 26412 11 26482 100 0 0 0       * a blue flame
+M 0 26412 11 26484 100 0 0 0       * a blue flame
+M 0 26414 11 26485 100 0 0 0       * a yellow flame
+M 0 26412 11 26488 100 0 0 0       * a blue flame
+M 0 26414 11 26490 100 0 0 0       * a yellow flame
+M 0 26415 11 26491 100 0 0 0       * a green flame
+M 0 26415 11 26492 100 0 0 0       * a green flame
+M 0 26413 11 26494 100 0 0 0       * a red flame
+M 0 26414 11 26495 100 0 0 0       * a yellow flame
+M 0 26415 11 26496 100 0 0 0       * a green flame
+M 0 26412 11 26498 100 0 0 0       * a blue flame
+M 0 26415 11 26500 100 0 0 0       * a green flame
+M 0 26414 11 26502 100 0 0 0       * a yellow flame
+M 0 26413 11 26505 100 0 0 0       * a red flame
+M 0 26414 11 26506 100 0 0 0       * a yellow flame
+M 0 26415 11 26508 100 0 0 0       * a green flame
+M 0 26412 11 26509 100 0 0 0       * a blue flame
+M 0 26414 11 26511 100 0 0 0       * a yellow flame
+M 0 26415 11 26513 100 0 0 0       * a green flame
+M 0 26400 2 26514 100 0 0 0        * a purple dragon
+G 1 26412 1 0 100 0 0 0            *    a jade key
+M 0 26400 2 26515 100 0 0 0        * a purple dragon
+G 1 26443 1 0 100 0 0 0            *    a tiny stone key
+M 0 26412 11 26516 100 0 0 0       * a blue flame
+M 0 26412 11 26521 100 0 0 0       * a blue flame
+M 0 26415 11 26525 100 0 0 0       * a green flame
+M 0 26401 1 26530 100 0 0 0        * a quartz dragon
+G 1 26411 1 0 100 0 0 0            *    a brimstone key
+M 0 26413 11 26533 100 0 0 0       * a red flame
+M 0 26414 11 26534 100 0 0 0       * a yellow flame
+M 0 26412 11 26536 100 0 0 0       * a blue flame
+M 0 26413 11 26538 100 0 0 0       * a red flame
+M 0 26413 11 26542 100 0 0 0       * a red flame
+M 0 26412 11 26544 100 0 0 0       * a blue flame
+M 0 26402 1 26555 100 0 0 0        * the warlord of fire
+E 1 26438 1 11 100 0 0 0           *   a flaming shield
+G 1 26418 1 0 100 0 0 0            *    a bloodied head of the warlord of fire
+M 0 26403 10 26560 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26560 100 0 0 0       * a Llewyrr guard
+E 1 26425 10 11 100 0 0 0          *   a leather shield
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26404 10 26561 100 0 0 0       * a Llewyrr elf
+E 1 26423 10 16 100 0 0 0          *   a short sword
+M 0 26405 10 26561 100 0 0 0       * a Llewyrr guard
+E 1 26424 10 16 100 0 0 0          *   a long sword
+M 0 26403 10 26562 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26410 1 26565 100 0 0 0        * Raftifi the owner
+G 1 26431 500 0 100 0 0 0          *    some Llewyrr ale
+G 1 26432 500 0 100 0 0 0          *    a basket of fish
+M 0 26409 1 26566 100 0 0 0        * Talina the receptionist
+M 0 26403 10 26567 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26416 15 26568 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26403 10 26569 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26416 15 26570 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26403 10 26572 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26416 15 26572 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26416 15 26573 100 0 0 0       * a Llewyrr child
+E 1 26436 11 18 100 0 0 0          *   a toy
+M 0 26416 15 26573 100 0 0 0       * a Llewyrr child
+M 0 26416 15 26573 100 0 0 0       * a Llewyrr child
+M 0 26403 10 26575 100 0 0 0       * a Llewyrr elf
+E 1 26422 10 16 100 0 0 0          *   a short sword
+M 0 26411 1 26578 100 0 0 0        * the master of the grove
+*
+S

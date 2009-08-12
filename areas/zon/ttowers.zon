@@ -1,0 +1,269 @@
+#132
+&+YThe Twin Towers&n~
+13298 1 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 13200 0 1 100 0 0 0
+*     north exit from "The Beautiful Entryway to the Northern Tower" to
+*     "The First Floor Entryway of a Cozy Tower" - closed
+*
+D 0 13201 2 1 100 0 0 0
+*     south exit from "The First Floor Entryway of a Cozy Tower" to
+*     "The Beautiful Entryway to the Northern Tower" - closed
+*
+D 0 13201 0 8 100 0 0 0
+*     north exit from "The First Floor Entryway of a Cozy Tower" to
+*     "The Central Stairs, First Floor" - open/blocked
+*
+D 0 13208 2 1 100 0 0 0
+*     south exit from "The Central Stairs, First Floor" to
+*     "The First Floor Entryway of a Cozy Tower" - closed
+*
+D 0 13202 2 5 100 0 0 0
+*     south exit from "A Large and Musty Cellar" to
+*     "A Roughly Carved Tunnel" - closed/secret
+*
+D 0 13278 0 1 100 0 0 0
+*     north exit from "A Roughly Carved Tunnel" to
+*     "A Large and Musty Cellar" - closed
+*
+D 0 13202 4 1 100 0 0 0
+*     up exit from "A Large and Musty Cellar" to
+*     "The Central Stairs, First Floor" - closed
+*
+D 0 13208 5 5 100 0 0 0
+*     down exit from "The Central Stairs, First Floor" to
+*     "A Large and Musty Cellar" - closed/secret
+*
+D 0 13205 2 5 100 0 0 0
+*     south exit from "The Semi-Circular Rooms of the First Floor" to
+*     "An Elder Pixie's Study" - closed/secret
+*
+D 0 13292 0 1 100 0 0 0
+*     north exit from "An Elder Pixie's Study" to
+*     "The Semi-Circular Rooms of the First Floor" - closed
+*
+D 0 13220 2 8 100 0 0 0
+*     south exit from "A Beautiful Fountain" to
+*     "A Secret Alcove" - open/blocked
+*
+D 0 13223 0 1 100 0 0 0
+*     north exit from "A Secret Alcove" to
+*     "A Beautiful Fountain" - closed
+*
+D 0 13230 2 2 100 0 0 0
+*     south exit from "The Beautiful Entryway to the Southern Tower" to
+*     "A Dark Entryway" - closed/locked
+*
+D 0 13231 0 1 100 0 0 0
+*     north exit from "A Dark Entryway" to
+*     "The Beautiful Entryway to the Southern Tower" - closed
+*
+D 0 13231 2 1 100 0 0 0
+*     south exit from "A Dark Entryway" to
+*     "The Cramped Stairs of the Southern Tower" - closed
+*
+D 0 13237 0 1 100 0 0 0
+*     north exit from "The Cramped Stairs of the Southern Tower" to
+*     "A Dark Entryway" - closed
+*
+D 0 13231 5 1 100 0 0 0
+*     down exit from "A Dark Entryway" to
+*     "Bottom of A Shaft" - closed
+*
+D 0 13285 4 1 100 0 0 0
+*     up exit from "Bottom of A Shaft" to
+*     "A Dark Entryway" - closed
+*
+D 0 13242 0 8 100 0 0 0
+*     north exit from "The Back of the Pantry" to
+*     "A Hidden Room" - open/blocked
+*
+D 0 13243 2 1 100 0 0 0
+*     south exit from "A Hidden Room" to
+*     "The Back of the Pantry" - closed
+*
+D 0 13248 2 8 100 0 0 0
+*     south exit from "The Third Floor Foyer of the Southern Tower" to
+*     "A Secret Battle Ready Room" - open/blocked
+*
+D 0 13255 0 1 100 0 0 0
+*     north exit from "A Secret Battle Ready Room" to
+*     "The Third Floor Foyer of the Southern Tower" - closed
+*
+D 0 13252 3 8 100 0 0 0
+*     west exit from "An Abrupt End of the Hallway" to
+*     "A Hidden Shop In The Southern Tower" - open/blocked
+*
+D 0 13254 1 1 100 0 0 0
+*     east exit from "A Hidden Shop In The Southern Tower" to
+*     "An Abrupt End of the Hallway" - closed
+*
+D 0 13257 3 8 100 0 0 0
+*     west exit from "A Huge Chamber of Stone" to
+*     "A Hidden Chamber" - open/blocked
+*
+D 0 13258 1 1 100 0 0 0
+*     east exit from "A Hidden Chamber" to
+*     "A Huge Chamber of Stone" - closed
+*
+D 0 13259 3 1 100 0 0 0
+*     west exit from "Entrance to a Huge White Temple" to
+*     "A Courtyard Outside the Temple" - closed
+*
+D 0 13260 1 1 100 0 0 0
+*     east exit from "A Courtyard Outside the Temple" to
+*     "Entrance to a Huge White Temple" - closed
+*
+D 0 13272 5 1 100 0 0 0
+*     down exit from "The Altar of the Temple" to
+*     "A Musty Wooden Tunnel" - closed
+*
+D 0 13273 4 1 100 0 0 0
+*     up exit from "A Musty Wooden Tunnel" to
+*     "The Altar of the Temple" - closed
+*
+D 0 13277 1 5 100 0 0 0
+*     east exit from "A Hermit Monk's Home" to
+*     "A Dusty Passage" - closed/secret
+*
+D 0 13293 3 1 100 0 0 0
+*     west exit from "A Dusty Passage" to
+*     "A Hermit Monk's Home" - closed
+*
+D 0 13290 3 5 100 0 0 0
+*     west exit from "The Back of The Cellar" to
+*     "A Dusty Passage" - closed/secret
+*
+D 0 13294 1 1 100 0 0 0
+*     east exit from "A Dusty Passage" to
+*     "The Back of The Cellar" - closed
+*
+*
+O 0 13200 1 13201 100 0 0 0        * a mirror
+O 0 13201 1 13220 100 0 0 0        * a beautiful marble fountain
+O 0 13202 1 13220 100 0 0 0        * a bush
+O 0 13204 1 13231 100 0 0 0        * some rubble
+O 0 13205 1 13242 100 0 0 0        * a large black button
+O 0 13206 1 13244 100 0 0 0        * a small chest
+P 1 13213 1 13206 100 0 0 0        *   a studded stone collar
+O 0 13208 1 13248 100 0 0 0        * a small lever
+O 0 13207 1 13252 100 0 0 0        * a stone wall
+O 0 13209 1 13257 100 0 0 0        * a small button
+O 0 13228 1 13272 100 0 0 0        * a beautiful white altar
+*
+M 0 13222 1 13202 100 0 0 0        * a halfling councilor
+E 1 13232 1 12 100 0 0 0           *   a delicate feathered bodycloak
+M 0 13200 7 13203 100 0 0 0        * a small pixie
+M 0 13200 7 13203 100 0 0 0        * a small pixie
+M 0 13200 7 13204 100 0 0 0        * a small pixie
+M 0 13200 7 13205 100 0 0 0        * a small pixie
+M 0 13200 7 13206 100 0 0 0        * a small pixie
+M 0 13200 7 13206 100 0 0 0        * a small pixie
+M 0 13200 7 13207 100 0 0 0        * a small pixie
+M 0 13201 4 13211 100 0 0 0        * an off-duty gardener
+M 0 13201 4 13212 100 0 0 0        * an off-duty gardener
+M 0 13202 1 13213 100 0 0 0        * the master gardener
+E 1 13212 1 7 100 0 0 0            *   a pair of dusty overalls
+M 0 13201 4 13214 100 0 0 0        * an off-duty gardener
+M 0 13201 4 13215 100 0 0 0        * an off-duty gardener
+M 0 13203 4 13218 100 0 0 0        * a relaxing servant
+M 0 13204 4 13218 100 0 0 0        * a relaxing pixie
+M 0 13203 4 13219 100 0 0 0        * a relaxing servant
+M 0 13204 4 13219 100 0 0 0        * a relaxing pixie
+M 0 13203 4 13221 100 0 0 0        * a relaxing servant
+M 0 13204 4 13221 100 0 0 0        * a relaxing pixie
+M 0 13203 4 13222 100 0 0 0        * a relaxing servant
+M 0 13204 4 13222 100 0 0 0        * a relaxing pixie
+M 0 13205 1 13223 100 0 0 0        * a tamed baby dragon
+E 1 13227 1 10 100 0 0 0           *   a pair of dragon-hide sleeves
+M 0 13207 1 13228 100 0 0 0        * Mixt
+E 1 13211 1 21 100 0 0 0           *   a pale magenta earring
+G 1 13203 1 0 100 0 0 0            *    a black key
+G 1 13221 1 0 100 0 0 0            *    the bloody heart of Mixt
+M 0 13206 1 13229 100 0 0 0        * Blaevyna
+E 1 13210 1 5 100 0 0 0            *   some forest green robes
+G 1 13222 1 0 100 0 0 0            *    the bloody heart of Blaevyna
+M 0 13229 1 13231 20 0 0 0         * Lord Talfyn
+M 0 13208 22 13232 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13232 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13233 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13234 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13235 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13236 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13237 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13238 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13239 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13240 100 0 0 0       * the ghost of a servant
+M 0 13209 1 13243 100 0 0 0        * a pale faced servant
+M 0 13208 22 13244 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13244 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13244 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13246 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13248 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13248 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13249 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13250 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13251 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13252 100 0 0 0       * the ghost of a servant
+M 0 13208 22 13253 100 0 0 0       * the ghost of a servant
+M 0 13211 1 13253 100 0 0 0        * a vampire of a baker
+E 1 13217 1 9 100 0 0 0            *   a pair of spiked bloody talons
+M 0 13210 1 13254 100 0 0 0        * a living plant
+G 1 13214 1 0 100 0 0 0            *    a deep-blue potion
+G 1 13215 1 0 100 0 0 0            *    a small wooden staff
+G 1 13216 1 0 100 0 0 0            *    a small purple wand
+M 0 13214 1 13255 100 0 0 0        * a strong elven warrior
+E 1 13220 1 16 50 0 0 0            *   a gleaming elven longsword
+M 0 13208 22 13256 100 0 0 0       * the ghost of a servant
+M 0 13212 1 13257 100 0 0 0        * a huge orc
+E 1 13218 1 19 100 0 0 0           *   a black leather studded eyepatch
+M 0 13213 1 13258 100 0 0 0        * Lyena
+E 1 13226 1 2 100 0 0 0            *   a tiny silver ring
+E 1 13219 1 18 100 0 0 0           *   an orb of darkness
+G 1 13223 1 0 100 0 0 0            *    the bloody heart of Lyena
+M 0 13218 8 13260 100 0 0 0        * a young priest
+M 0 13215 10 13261 100 0 0 0       * a humble monk
+M 0 13218 8 13262 100 0 0 0        * a young priest
+M 0 13218 8 13262 100 0 0 0        * a young priest
+M 0 13215 10 13264 100 0 0 0       * a humble monk
+M 0 13215 10 13264 100 0 0 0       * a humble monk
+M 0 13218 8 13264 100 0 0 0        * a young priest
+M 0 13218 8 13264 100 0 0 0        * a young priest
+M 0 13215 10 13266 100 0 0 0       * a humble monk
+M 0 13215 10 13266 100 0 0 0       * a humble monk
+M 0 13218 8 13267 100 0 0 0        * a young priest
+M 0 13218 8 13267 100 0 0 0        * a young priest
+M 0 13215 10 13268 100 0 0 0       * a humble monk
+M 0 13215 10 13268 100 0 0 0       * a humble monk
+M 0 13218 8 13269 100 0 0 0        * a young priest
+M 0 13215 10 13270 100 0 0 0       * a humble monk
+M 0 13217 1 13271 100 0 0 0        * a young priest
+M 0 13216 1 13272 100 0 0 0        * the head priest
+E 1 13225 1 5 100 0 0 0            *   some gleaming white robes
+M 0 13215 10 13273 100 0 0 0       * a humble monk
+M 0 13215 10 13274 100 0 0 0       * a humble monk
+M 0 13219 1 13277 100 0 0 0        * a very old monk
+E 1 13229 1 16 100 0 0 0           *   a pair of wooden numchucks
+M 0 13223 4 13279 100 0 0 0        * a duergar miner
+M 0 13225 1 13280 100 0 0 0        * the duergar mining leader
+E 1 13233 1 16 100 0 0 0           *   a diamond-tipped battle axe
+M 0 13223 4 13281 100 0 0 0        * a duergar miner
+M 0 13223 4 13283 100 0 0 0        * a duergar miner
+M 0 13223 4 13283 100 0 0 0        * a duergar miner
+M 0 13224 3 13286 100 0 0 0        * a hook horror
+M 0 13224 3 13287 100 0 0 0        * a hook horror
+M 0 13224 3 13288 100 0 0 0        * a hook horror
+M 0 13226 1 13289 100 0 0 0        * a large roper
+M 0 13220 1 13290 100 0 0 0        * a captured duergar
+E 1 13230 1 8 100 0 0 0            *   a pair of old miner boots
+M 0 13221 1 13290 100 0 0 0        * a halfling mercenary
+E 1 13231 1 5 100 0 0 0            *   a green suit of jodani wood platemail
+M 0 13227 1 13292 100 0 0 0        * an elder pixie
+E 1 13234 1 21 100 0 0 0           *   a tiny bag of pixie dust on a string
+M 0 13228 1 13298 100 0 0 0        * a dark shadow
+E 1 13235 1 13 100 0 0 0           *   a belt of swirling shadows
+*
+S

@@ -1,0 +1,199 @@
+#306
+&+GVa&+yst &+gHi&+ydd&+gen &+yGr&+Gove~
+30699 1 8 20 25 3
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 30622 0 6 100 0 0 0
+*     north exit from "The Point" to
+*     "An Enclave of Trees" - closed/locked/secret
+*
+D 0 30629 2 6 100 0 0 0
+*     south exit from "An Enclave of Trees" to
+*     "The Point" - closed/locked/secret
+*
+D 0 30637 1 5 100 0 0 0
+*     east exit from "The Pale Tree" to
+*     "Alcove of The Pale Tree." - closed/secret
+*
+D 0 30638 3 5 100 0 0 0
+*     west exit from "Alcove of The Pale Tree." to
+*     "The Pale Tree" - closed/secret
+*
+D 0 30640 4 5 100 0 0 0
+*     up exit from "The Crossroads of The Tree" to
+*     "Apex of The Pale Tree" - closed/secret
+*
+D 0 30649 5 5 100 0 0 0
+*     down exit from "Apex of The Pale Tree" to
+*     "The Crossroads of The Tree" - closed/secret
+*
+D 0 30650 2 6 100 0 0 0
+*     south exit from "Intersanctum of the Circle" to
+*     "Center of the Druidic Circle" - closed/locked/secret
+*
+D 0 30652 0 5 100 0 0 0
+*     north exit from "Center of the Druidic Circle" to
+*     "Intersanctum of the Circle" - closed/secret
+*
+D 0 30651 0 5 100 0 0 0
+*     north exit from "The Druidic Circle" to
+*     "The Druidic Circle" - closed/secret
+*
+D 0 30699 2 5 100 0 0 0
+*     south exit from "The Druidic Circle" to
+*     "The Druidic Circle" - closed/secret
+*
+D 0 30684 1 1 100 0 0 0
+*     east exit from "Encloser of The Pale Tree." to
+*     "Living Area of The Pale Tree." - closed
+*
+D 0 30685 3 1 100 0 0 0
+*     west exit from "Living Area of The Pale Tree." to
+*     "Encloser of The Pale Tree." - closed
+*
+*
+O 0 30653 1 30600 100 0 0 0        * a small azalea flower
+O 0 30654 1 30614 100 0 0 0        * some mistletoe
+O 0 30625 1 30627 100 0 0 0        * a small soot-covered disc
+O 0 30655 1 30627 100 0 0 0        * a small ginseng root
+O 0 30601 1 30629 100 0 0 0        * a small leaf covered pedestal
+O 0 30606 1 30645 100 0 0 0        * a statue to Sehanine Moonbow
+O 0 30603 1 30646 100 0 0 0        * a small leaf covered pedestal
+O 0 30602 1 30647 100 0 0 0        * a large drudic circle
+O 0 30604 1 30648 100 0 0 0        * a statue to Solonar
+O 0 30600 1 30652 100 0 0 0        * a large drudic circle
+O 0 30605 1 30658 100 0 0 0        * a statue to Sehanine Moonbow
+O 0 30607 1 30658 100 0 0 0        * A large and flowing fountain of crystal clear waters.
+O 0 30626 1 30663 100 0 0 0        * a small soot-covered disc
+O 0 30629 1 30674 100 0 0 0        * a small opening in the dead end of the cave
+O 0 30632 1 30680 100 0 0 0        * a small patch of mandrake roots
+O 0 30633 1 30683 100 0 0 0        * a nightshade plant
+O 0 30639 1 30688 100 0 0 0        * an old stone tablet
+O 0 30628 1 30692 100 0 0 0        * a small opening in the dead end of the cave
+O 0 30630 1 30693 100 0 0 0        * a small opening in the dead end of the cave
+O 0 30661 1 30695 100 0 0 0        * a shattered diamond
+O 0 30660 1 30695 100 0 0 0        * a small amulet of scales
+O 0 30631 1 30698 100 0 0 0        * a small opening in the dead end of the cave
+*
+M 0 30619 1 30600 100 0 0 0        * a wild kirre
+M 0 30608 6 30601 100 0 0 0        * a large ten-point buck
+G 1 30637 2 0 100 0 0 0            *    a pair of buck spikes
+M 0 30630 2 30601 100 0 0 0        * a black panther
+G 1 30634 2 0 100 0 0 0            *    a panther hide
+M 0 30640 2 30602 100 0 0 0        * a small earthworm
+G 1 30669 2 0 100 0 0 0            *    a dead earthworm
+M 0 30609 6 30602 100 0 0 0        * a large slow moving elk
+M 0 30610 4 30603 100 0 0 0        * a tired looking doe
+M 0 30609 6 30604 100 0 0 0        * a large slow moving elk
+M 0 30610 4 30605 100 0 0 0        * a tired looking doe
+M 0 30608 6 30606 100 0 0 0        * a large ten-point buck
+G 1 30642 2 0 100 0 0 0            *    some buckskin
+M 0 30638 1 30607 100 0 0 0        * a small little gnome named Valin
+M 0 30636 1 30607 100 0 0 0        * a duergar miner
+G 1 30659 1 0 100 0 0 0            *    a small pickaxe with a small hilt
+M 0 30608 6 30609 100 0 0 0        * a large ten-point buck
+M 0 30608 6 30611 100 0 0 0        * a large ten-point buck
+G 1 30642 2 0 100 0 0 0            *    some buckskin
+M 0 30609 6 30613 100 0 0 0        * a large slow moving elk
+M 0 30633 1 30614 100 0 0 0        * a small field mouse
+G 1 30668 1 0 100 0 0 0            *    a dead mouse
+M 0 30640 2 30616 100 0 0 0        * a small earthworm
+G 1 30669 2 0 100 0 0 0            *    a dead earthworm
+M 0 30608 6 30617 100 0 0 0        * a large ten-point buck
+M 0 30609 6 30618 100 0 0 0        * a large slow moving elk
+G 1 30638 1 0 100 0 0 0            *    a worn elk horn
+M 0 30610 4 30621 100 0 0 0        * a tired looking doe
+M 0 30609 6 30622 100 0 0 0        * a large slow moving elk
+M 0 30630 2 30623 100 0 0 0        * a black panther
+G 1 30634 2 0 100 0 0 0            *    a panther hide
+M 0 30608 6 30624 100 0 0 0        * a large ten-point buck
+G 1 30637 2 0 100 0 0 0            *    a pair of buck spikes
+M 0 30610 4 30626 100 0 0 0        * a tired looking doe
+M 0 30609 6 30627 100 0 0 0        * a large slow moving elk
+M 0 30615 1 30628 100 0 0 0        * a small nymph
+M 0 30607 4 30629 100 0 0 0        * a large treant
+M 0 30614 4 30632 100 0 0 0        * a small dryad
+M 0 30614 4 30633 100 0 0 0        * a small dryad
+M 0 30614 4 30634 100 0 0 0        * a small dryad
+M 0 30618 2 30643 100 0 0 0        * a large raven
+M 0 30618 2 30644 100 0 0 0        * a large raven
+M 0 30632 1 30646 100 0 0 0        * a small swallow
+M 0 30631 1 30647 100 0 0 0        * a soaring hawk
+M 0 30620 1 30649 100 0 0 0        * a faerie dragon
+M 0 30622 1 30651 100 0 0 0        * an aerial servant
+G 1 30643 1 0 100 0 0 0            *    a small pocket of air
+M 0 30621 1 30652 100 0 0 0        * a small dove
+M 0 30623 1 30653 100 0 0 0        * a small pech
+G 1 30644 1 0 100 0 0 0            *    a small pech rock
+M 0 30624 1 30654 100 0 0 0        * a sandling
+G 1 30646 1 0 100 0 0 0            *    a bit of sand
+M 0 30625 1 30655 100 0 0 0        * a large blazing salamander
+G 1 30645 1 0 100 0 0 0            *    a fire salamander scale
+M 0 30626 1 30656 100 0 0 0        * a nereid
+G 1 30647 1 0 100 0 0 0            *    a small vial of water
+M 0 30627 1 30657 100 0 0 0        * a large tempest stirs
+G 1 30648 1 0 100 0 0 0            *    a piece of the storm
+M 0 30602 1 30659 100 0 0 0        * Beowulf of the people of the North
+G 1 30616 2 0 100 0 0 0            *    a shiny broadsword with a jeweled hilt
+G 1 30608 2 0 100 0 0 0            *    a large double-bladed battle axe
+G 1 30617 2 0 100 0 0 0            *    a tiger and panther skin covered shield
+M 0 30601 1 30660 100 0 0 0        * Aidon The HeartSeeker
+G 1 30609 2 0 100 0 0 0            *    a pair of lizardskin sleeves
+G 1 30610 2 0 100 0 0 0            *    a pair of lizardskin boots
+G 1 30611 2 0 100 0 0 0            *    a pair of lizardskin leggings
+G 1 30612 2 0 100 0 0 0            *    a small lizardskin skullcap
+M 0 30603 1 30661 100 0 0 0        * Striker Moonflower
+G 1 30618 1 0 100 0 0 0            *    a small cresent moon necklace on a golden chain
+G 1 30619 1 0 100 0 0 0            *    an elven flask of feywine
+G 1 30620 1 0 100 0 0 0            *    a small leather eyepatch with a small setting sun embroidered
+G 1 30621 1 0 100 0 0 0            *    some elven wristguards
+G 1 30622 5 0 100 0 0 0            *    a mask of earthly death
+G 1 30623 1 0 100 0 0 0            *    a pair of drow skin finger guards
+M 0 30600 1 30662 100 0 0 0        * Phonar the bumbling gnome
+G 1 30613 2 0 100 0 0 0            *    a small gold dragon wand
+G 1 30615 1 0 100 0 0 0            *    a small parchment of drow skin
+G 1 30614 2 0 100 0 0 0            *    a small glowing tube
+G 1 30624 1 0 100 0 0 0            *    a small ruby earring with golden insets.
+M 0 30606 1 30665 100 0 0 0        * a small scarred Duergar named Mogoe
+G 1 30627 2 0 100 0 0 0            *    a small parchment of grey elf skin
+G 1 30617 2 0 100 0 0 0            *    a tiger and panther skin covered shield
+G 1 30616 2 0 100 0 0 0            *    a shiny broadsword with a jeweled hilt
+G 1 30608 2 0 100 0 0 0            *    a large double-bladed battle axe
+M 0 30604 1 30666 100 0 0 0        * a nasty looking drow named Xaves
+G 1 30613 2 0 100 0 0 0            *    a small gold dragon wand
+G 1 30627 2 0 100 0 0 0            *    a small parchment of grey elf skin
+G 1 30614 2 0 100 0 0 0            *    a small glowing tube
+M 0 30605 1 30667 100 0 0 0        * a large ugly ogre named Umpf
+G 1 30609 2 0 100 0 0 0            *    a pair of lizardskin sleeves
+G 1 30610 2 0 100 0 0 0            *    a pair of lizardskin boots
+G 1 30611 2 0 100 0 0 0            *    a pair of lizardskin leggings
+G 1 30612 2 0 100 0 0 0            *    a small lizardskin skullcap
+M 0 30612 3 30668 100 0 0 0        * a large carrion crawler
+M 0 30612 3 30670 100 0 0 0        * a large carrion crawler
+M 0 30612 3 30671 100 0 0 0        * a large carrion crawler
+M 0 30611 4 30673 100 0 0 0        * a cave fisher
+G 1 30649 3 0 100 0 0 0            *    some filiment
+M 0 30611 4 30676 100 0 0 0        * a cave fisher
+G 1 30649 3 0 100 0 0 0            *    some filiment
+M 0 30611 4 30678 100 0 0 0        * a cave fisher
+G 1 30649 3 0 100 0 0 0            *    some filiment
+M 0 30607 4 30679 100 0 0 0        * a large treant
+G 1 30663 1 0 100 0 0 0            *    a treants wooden heart
+M 0 30607 4 30680 100 0 0 0        * a large treant
+M 0 30607 4 30681 100 0 0 0        * a large treant
+M 0 30614 4 30683 100 0 0 0        * a small dryad
+M 0 30616 1 30687 100 0 0 0        * a chest like mimic
+G 1 30635 1 0 100 0 0 0            *    a golden strand of thread
+M 0 30611 4 30690 100 0 0 0        * a cave fisher
+M 0 30613 1 30691 100 0 0 0        * a large hook horror
+M 0 30629 1 30692 100 0 0 0        * a tired roc
+M 0 30639 1 30695 100 0 0 0        * a deep dragon
+G 1 30652 1 0 100 0 0 0            *    a large dragon scale
+G 1 30651 1 0 100 0 0 0            *    a large dragons tooth
+G 1 30667 1 0 100 0 0 0            *    a pile of coins
+M 0 30617 1 30696 100 0 0 0        * an ancient elven lich
+M 0 30635 1 30699 100 0 0 0        * an old weak centaur
+*
+S

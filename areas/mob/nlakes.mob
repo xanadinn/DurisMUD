@@ -1,0 +1,927 @@
+#75200
+tekan guardsman guard man~
+&+Wa &+MTekan&N &+Wguardsman&N~
+&+WStanding firmly, this &+MTekan&N &+Wguardsman is ready to protect his tribe.&N
+~
+   Dressed in battle armor, this &+MTekan&N guardsman is ready for
+those evils who illegally enter this settlement.  He stands over six
+feet tall and has a firm build.  He stands on duty scanning the
+environment every few minutes.
+~
+33556686 0 0 33554472 12480 0 0 500 S
+PH 0 1 -1
+25 11 19 25d47+250 3d5+3
+6.2.6.1 22275
+8 8 1
+#75201
+troll bound~
+a bound &+Gtroll&N~
+A bound &+Gtroll&N fidgets with his bonds trying to break free.
+~
+   This poor troll is bound to this room by magical bonds. He
+desperately tries to break free.  He grunts and continues to play
+with lock.
+~
+2122 0 0 40 0 0 0 -1000 S
+PT 0 256 -1
+36 2 -15 36d88+792 4d7+10
+0.1.2.2 46656
+8 8 1
+#75202
+warrior orcish young~
+a young &+Worcish&N warrior~
+Sitting in the corner, this &+Worcish warrior&N waits quietly.
+~
+   Caught by the humans of the Teka settlement, this young orcish
+warrior wishes he didn't wander from the Grove.  Dressed in civilian
+uniform, he sits quietly in the corner of the room here.  He has a
+troubled look on his face.
+~
+33556554 0 0 40 12480 0 0 -1000 S
+HO 0 1 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+6 6 1
+#75203
+ogre warrior~
+an &+Wogre&N warrior~
+An &+Wogre&N warrior is here roaring and trying to break free.
+~
+    This ogre warrior is really angry.  He roars really loudly as
+he tries to break his bonds.  He appears to have a strong build.
+Under his right eye, a large wound slowly bleeds.
+~
+33556554 0 0 40 0 0 0 -1000 S
+PO 0 1 -1
+31 6 0 31d83+527 4d6+7
+5.7.9.1 40176
+8 8 1
+#75204
+kazim tekan conjurer~
+&+RKazim&N~
+&+RKazim&N, the &+MTekan&N conjurer, stands here casting another spell.
+~
+    Dressed in a long black robe, Kazim stands here casting another
+spell on his experimental product.  Kazim is a member of the
+circle of elders of the &+MTeka&N.  He has assisted in many invasions
+and has assisted in leading many wars.  Kazim is the most experienced
+mage of the settlement.
+~
+33556682 0 0 134217852 12480 0 0 500 S
+PH 0 2048 -1
+36 2 -15 36d64+756 4d7+10
+0.1.2.2 46656
+8 8 1
+#75205
+boy young~
+a young boy~
+A young &+Bboy&N is here practicing a new skill.
+~
+    Dressed in a civilian type clothing, this young boy is casting
+a newly learned spell on an unsuspecting victim.  He is very puny
+in size and appears to be very young in age.
+~
+1107298380 160 0 44 128 0 0 1000 S
+PH 0 128 -1
+11 15 64 11d25+55 2d5+2
+5.4.1.0 5346
+8 8 1
+#75206
+demon red~
+&+Ra red demon&N~
+&+RA red demon floats here in a circle.&N
+~
+   A red demon floats here in the vault.  It circles the vault
+apparently disturbed from something.  It appears to wear pulse
+with red energy.
+~
+33556682 0 0 67108920 12480 0 0 -1000 S
+X 0 512 -1
+41 8 -12 30d44+540 3d6+4
+0.5.3.2 40095
+10 10 0
+#75207
+spider small~
+a small spider~
+A small spider is spinning its web here, hoping to trap its meal.
+~
+  This small insect looks rather helpless and hungry.  Its silk
+appears to be very sticky and strong.
+~
+2252 248 0 0 0 0 0 -1000 S
+I 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 0
+#75208
+skeleton~
+&+WA skeleton&N~
+&+WA skeleton rattles as it walks through the pit.&N
+~
+    Composed of the bones of many different creatures, this skeleton
+rattles as it circles the room.  There are not many special features
+in this skeleton.
+~
+2250 1 0 40 12480 0 0 -1000 S
+SK 0 1 -1
+33 6 -5 33d83+561 4d6+7
+0.0.0.0 42768
+8 8 0
+#75209
+maur dragon death~
+&+BMaur&N~
+&+BMaur, the dragon of death, lies bound to the center of this room.&N
+~
+    Caught by the &+MTekans&N, Maur is bound by magical bonds
+to the center of this room.  He was a powerful dragon who had
+once terrorized the realms above.  He has killed many good and
+evil aligned warriors. They fought Maur in an attempt to kill him.
+He stands here fidgeting with his bond.  He roars in anger failing
+to break his bonds.
+~
+33556554 0 0 188 12480 0 0 -1000 S
+D 0 512 -1
+59 2 -35 36d64+1116 4d7+10
+0.1.2.6 93312
+8 8 1
+#75210
+green plant~
+&+Ga green plant&N~
+&+GA green potted plant strangely grows in this dark room.&N
+~
+    This green plant strangely grows in the dark.  It has broad
+leafs which are covered in spots.
+~
+2122 0 0 0 8320 0 0 100 S
+AH 0 1 -1
+25 11 19 25d47+250 3d5+3
+0.0.0.0 22275
+8 8 0
+#75211
+shaman tekan~
+&+Wa &+MTekan&N &+Wshaman&N~
+A &+MTekan&N shaman is waiting here for the next meeting.
+~
+   Dressed in a dark robe, this shaman waits within the meeting
+chamber for the next meeting to begin.  He stands under six feet
+and has a medium build.  He waits with the patience he has learned
+as a shaman.
+~
+33556682 0 0 33554472 12480 0 0 1000 S
+PH 0 256 -1
+22 11 29 22d44+198 3d5+3
+4.0.5.0 19602
+8 8 1
+#75212
+bron travelling salesman~
+&+YBron, the travelling salesman&N~
+&+YBron, the travelling salesman, stands here selling his goods to you.&N
+~
+   Dressed in a variety of clothing, Bron wanders the settlement
+selling a variety of different items.  He stands over six feet
+tall and has a medium build.  Bron has black hair and dark brown
+eyes. He looks to do business with you, his next customer.
+~
+33556684 0 0 33554472 12480 0 0 0 S
+PH 0 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#75213
+farzam trainer~
+&+RFarzam, the trainer&N~
+&+RFarzam, the trainer, assists the young apprentices of the settlement.&N
+~
+   Farzam is dressed in battle uniform.  He teaches the many
+young apprentices, who flock to him for his lessons.  He is a
+large human towering over six feet with a muscular build. Farzam
+has a black moustache and beard.
+~
+33556682 0 0 33554556 12480 0 0 1000 S
+PH 0 1 -1
+35 6 -12 35d83+595 4d6+7
+9.9.1.2 45360
+8 8 1
+#75214
+selira assistant~
+&+YSelira&N~
+&+YSelira&N, the assistant, stands ready to assist her master.
+~
+   Dressed in a large black robe, Selira stands beside Farzam
+ready to assist him as he wishes.  She has long flowing brown
+hair and hazel eyes.  She studies an old tome as she awaits
+Farzam's next request.
+~
+33556682 0 0 33554492 12480 0 0 500 S
+PH 0 512 -1
+31 6 0 31d56+465 4d6+7
+5.7.9.1 40176
+8 8 2
+#75215
+training tekan apprentice~
+a training &+MTekan&N apprentice~
+A training &+MTekan&N apprentice practices a new skill here.
+~
+   This tekan is dressed in simple training equipment.  He trains
+a new skill learned today.  He continues on his way hardly paying
+any attention to you.
+~
+2252 0 0 33554476 0 0 0 500 S
+PH 0 2 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#75216
+training tekan apprentice~
+a training &+MTekan&N apprentice~
+A training &+MTekan&N apprentice practices a new skill here.
+~
+   This tekan is dressed in simple training equipment.  She has long
+flowing black hair and brown eyes.  This young druid trains a new
+skill learned earlier today.  She continues on his way hardly paying
+any attention to you.
+~
+2252 0 0 50331692 0 0 0 500 S
+PH 0 128 -1
+31 6 0 31d77+496 4d6+7
+5.7.9.1 40176
+8 8 2
+#75217
+serpent green~
+&+Ga green serpent&N~
+&+GA green serpent hisses loudly and prepares to strike.&N
+~
+    This green serpent is a small vile creature.  Its body is covered
+with thick green scales.  It hisses loudly as it notices its next
+victim.
+~
+33556554 56 0 0 0 0 0 0 S
+A 0 1 -1
+16 13 48 16d35+112 3d4+2
+0.0.0.0 7776
+8 8 0
+#75218
+nanny teka~
+&+Wa nanny of &+MTeka&N~
+A &+Wnanny of &+MTeka&N is here caring for many young ones.
+~
+   This female takes care of many of the young children of the
+settlement.  She is an old woman with white hair.  Dressed in
+an apron, she keeps a keen eye on the children beneath her care.
+~
+100665546 0 0 33554472 8192 0 0 0 S
+PH 0 32 -1
+29 8 7 29d60+348 3d6+4
+9.4.7.1 25839
+8 8 2
+#75219
+child young~
+&+Wa young child&N~
+&+WA young child sits here sucking his thumb.&N
+~
+   This young child is sitting here dressed in clean clothing.
+He sucks his thumb bored by the lack of amusement of the cottage.
+He peers the room in search of a new diversion.
+~
+2250 0 0 0 0 0 0 0 S
+PH 0 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+6 6 1
+#75220
+thief tekan~
+&+Wa &+MTekan&N &+Wthief&N~
+Searching through the room, this &+MTekan&N &+Wthief&N looks for a cache of treasure.
+~
+   Dressed in a suit of dark leather, this thief searches the
+room for items of value. He sneaks quickly through room acting on
+task he has set at hand.  He has short brown hair and wields a
+bloodstained dagger.
+~
+33556682 0 0 33554472 8192 0 0 -1000 S
+PH 0 4096 -1
+27 8 13 27d55+297 3d6+4
+8.3.7.1 24057
+8 8 1
+#75221
+g'mar chief guard~
+&+MG'mar&N~
+&+MG'mar&N, the chief guard, is here drafting plans for another invasion.
+~
+   G'mar is the chief of the &+MTekan&N guards.  G'mar has short
+black hair and brown eyes.  He stands over six feet tall with a
+powerful build.  He has a large scar across his fore head.  G'mar
+is dressed in battle uniform.  He continues work on an invasion
+as you enter his study.
+~
+33556682 0 0 33554472 12480 0 0 -500 S
+PH 0 1 -1
+38 2 -21 38d95+874 4d7+10
+1.2.2.2 49248
+8 8 1
+#75222
+sleeping guard tired tekan~
+&+Wa tired guard&N~
+&+WA &+MTekan&N &+Wguard is sleeping here getting some rest.&N
+~
+   This tired guard sleeps here in a cot in the guard barracks
+getting some rest from his shift on patrolling the settlement.
+He is lightly dressed.  He tosses and turns in his cot apparently
+disturbed by something.
+~
+2250 0 0 33554440 8192 0 0 -100 S
+PH 0 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+4 4 1
+#75223
+scribe tekan old~
+&+Wan old &+Mtekan &+Wscribe&N~
+An old &+Mtekan &+Wscribe&N reads through another old written manuscript.
+~
+   This old scribe is currently reading through an old manuscript of
+the elves.  This scribe is fluent in many different languages. He is
+able to understand many tongues.  He is very knowledgable on many
+subjects.  He continues reading as you enter the library.
+~
+33556682 0 0 73772 12288 0 0 -666 S
+PH 0 32 -1
+30 8 3 30d60+360 3d6+4
+0.5.7.1 26730
+8 8 1
+#75224
+kalila cook~
+&+BKalila&N~
+&+BKalila&N, the cook, is here preparing another meal.
+~
+    Wearing a white apron, Kalila is here preparing another meal
+for Yezen.  With a sharp blade in hand, she dices up the vegetables
+to be placed in the stew pot.  She is a plump female who has gained
+weight with her age.  She has long black hair that has been tied up
+and placed in a silver hair piece.
+~
+33556682 0 0 16785452 12480 0 0 0 S
+PH 0 128 -1
+30 8 3 30d60+360 3d6+4
+0.5.7.1 26730
+8 8 2
+#75225
+yezen statue stone~
+&+Wa stone statue of Yezen&N~
+&+WA statue of Yezen stands here in a victory pose.&N
+~
+    This stone statue is of Yezen, the leader of the settlement.
+The statue depicts the leader in a victory pose after the war which
+claimed the lands which this settlement resides on today.  The statue
+is almost life-size and appears to pulse in a magical aura.
+~
+33556682 0 0 236 0 0 0 -1000 S
+OG 0 1 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 0
+#75226
+stone serpent statue~
+&+Wa stone serpent&N~
+&+WA statue of a serpent sits coiled up on the pedestal.&N
+~
+   This statue of a serpent sits in a coiled up pose on the marble
+pedestal.  It has its fangs beared with its jaws widely opened. The
+artist of the statue caught the serpent in a pose just before it was
+about to strike its prey.
+~
+33556682 0 0 252 8192 0 0 -1000 S
+OG 0 1 -1
+27 8 13 27d65+351 3d6+4
+8.3.7.1 24057
+8 8 0
+#75227
+yezen~
+&+YYezen&N~
+Seated on his throne, &+YYezen&N is in the process of making a ruling.
+~
+    Dressed in a fine black robe laced in gold, Yezen sits upon the
+throne here making a ruling regarding an important matter of the
+settlement.  He is an old man who has seen many battles and lead
+many invasions against all.  Yezen is the master mage of the &+MTekan&N
+settlement. He has seen all and is greatly experienced.  With a head
+of white hair, he still appears to have a strong build.
+~
+100665546 0 0 73852 12480 0 0 -500 S
+PH 0 2048 -1
+40 2 -28 40d64+840 4d7+10
+3.3.3.3 51840
+6 6 1
+#75228
+assistant~
+&+Wan assistant&N~
+&+WAn assistant stands here waiting to help his master.&N
+~
+   Simply dressed, this assistant stands here with the goal of
+assisting Yezen.  The assistant stands under six feet tall and
+has a slender build.
+~
+100665546 0 0 108 12480 0 0 0 S
+PH 0 1 -1
+27 8 13 27d65+351 3d6+4
+8.3.7.1 24057
+8 8 1
+#75229
+horse large~
+&+Ma large horse&N~
+&+MA large horse stands here with its head high.&N
+~
+   This horse is a trained to assist in battle.  The horse has a
+strong build.  She has a coat of brown fur and a long mane of
+golden brown hair.
+~
+134219976 0 0 0 0 0 0 -100 S
+AE 0 0 -1
+24 11 23 24d40+192 3d5+3
+0.0.0.0 21384
+8 8 2
+#75230
+whining brat~
+&+Wa whining brat&N~
+&+WA whining brat is here complaing about life.&N
+~
+    Dressed in simple clothing, this brat is here complaing about
+all the hardships of life as he cleans the floor here.  He is a
+young boy who has not experienced life yet.  His high pitched
+voice is annoying.
+~
+33556682 248 0 33554476 8192 0 0 -1000 S
+PH 0 1 -1
+10 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 1
+#75231
+yarmo dungeon keeper~
+&+GYarmo&N~
+&+GYarmo&N, the dungeon keeper, patrols and keeps a keen eye over the area.
+~
+    Dressed in a sleek black suit of leather, Narmo patrols this hallway
+keeping an eye out for illegal actions taken by dungeon inmates. Narmo
+is a short ranger with short brown hair.  He has a powerful build and
+wields an old dagger.  As he turns around, he eyes you and continues
+on his patrol.
+~
+33556682 0 0 16851068 8192 0 0 1000 S
+PH 0 2 -1
+36 2 -15 36d95+828 4d7+10
+0.1.2.2 46656
+8 8 1
+#75232
+lizard large~
+&+Ga large lizard&N~
+&+GA large lizard slowly crawls around here.&N
+~
+   This large lizard is covered in green scales.  He stops every now and
+then to eat bugs he has found from within the settlement.
+~
+33556684 0 0 598120 12288 0 0 0 S
+R 0 0 -1
+30 8 3 30d55+330 3d6+4
+0.0.0.0 26730
+8 8 1
+#75233
+flame red dancing~
+&+Ra dancing red flame&N~
+&+RA dancing red flame glows and shed light upon the area.&N
+~
+   This red flame dances around the pit shedding an erie glow upon
+the surrounding area. She consumes and devours organic matter with
+in the blink of an eye.
+~
+2250 0 0 73788 12289 0 0 1000 S
+EF 0 1 -1
+34 6 -18 34d83+578 4d6+7
+0.0.0.0 44064
+8 8 2
+#75234
+flame yellow dancing~
+&+Ya dancing yellow flame&N~
+&+YA dancing yellow flame glows and circles the pit.&N
+~
+   This yellow flame dances around the pit shedding an erie glow upon
+the surrounding area. She consumes and devours organic matter with
+in the blink of an eye.  She continues to circle the red flame in a
+long dance.
+~
+2250 0 0 73788 12288 0 0 1000 S
+EF 0 4 -1
+34 6 -18 34d77+544 4d6+7
+0.0.0.0 44064
+8 8 2
+#75235
+holy ghost~
+&+Ma holy ghost&N~
+&+MA holy ghost, flying about here, is screaming loudly.&N
+~
+    The holy ghost pulses with a golden aura.  It has no shape and
+doesn't appear to be wearing any clothing.  It flies in circles about
+this room screaming loudly.
+~
+33556682 0 0 150995004 12288 0 0 1000 S
+UG 0 32 -1
+36 2 -25 36d88+792 4d7+10
+0.0.0.0 46656
+11 11 0
+#75236
+gargoyle stone large~
+&+Wa large stone gargoyle&N~
+&+WA large stone gargoyle keeps a close watch over the cathedral.&N
+~
+    This stone guardian of the cathedral watches over the area with
+a keen eye.  This gargoyle responds to any threat with the force of
+an army.  Its' cold eyes constantly scan the area of the cathedral
+and settlement for any danger.
+~
+33556682 0 0 252 12480 0 0 -1000 S
+G 0 4 -1
+35 2 -15 36d88+792 4d7+10
+0.1.2.2 46656
+8 8 1
+#75237
+drunken barbarian~
+&+Ya drunken barbarian&N~
+&+YA drunken barbarian offers a toast with his mug held high.&N
+~
+   Dressed in a warm fur coat, this barbarian is enjoying his time
+within this establishment. With his raised mug in one hand, he offers
+a toast before beginning his next drink.  He appears to be in a joyful
+mood.
+~
+2254 0 0 0 0 0 0 -500 S
+PB 0 1 -1
+7 18 77 7d21+38 2d3+1
+3.2.0.0 907
+8 8 1
+#75238
+barbarian conjurer~
+a &+Rbarbarian conjurer&N~
+A &+Rbarbarian conjurer&N is casting another spell in attempts to warm herself.
+~
+   Dressed in long flowing robes, this barbarian conjurer is trying
+to cast many spells in attempts to warm herself.  She consistantly
+mumbles with each failure.  She exchanges cold glances with you as
+you approach.
+~
+133326 0 0 40 0 0 0 -500 S
+PB 0 2048 -1
+25 11 19 25d32+200 3d5+3
+6.2.6.1 22275
+8 8 2
+#75239
+lost human~
+a &+Clost human&N~
+A &+Clost human&N attempts to enjoy the activities of the tavern.
+~
+   This human of a far off town is here trying to enjoy the splendors
+of this establishment.  Many nights of travelling has broght this human
+here.  He looks homesick and wishes to return home.
+~
+2254 0 0 16777216 12288 0 0 1000 S
+PH 0 128 -1
+22 11 29 22d44+198 3d5+3
+4.0.5.0 19602
+8 8 1
+#75240
+fox snow~
+a &+Wsnow fox&N~
+Prowling quietly through the area, this &+Wsnow fox&N silently hunts his prey.
+~
+   This fox has a heavy white fur coat.  He silently moves through
+the snow covered area hunting and foraging for food.  With out a
+sound, he continues along his way.
+~
+2252 0 0 524320 0 0 0 0 S
+A 0 0 -1
+5 20 83 5d15+17 1d5+0
+0.0.0.0 648
+8 8 1
+#75241
+melbh~
+&+YMelbh&N~
+&+YMelbh Qebier&N stands here peddling goods for sale.
+~
+   Dressed in a warm fur coat, this salesman stands here offerring
+many needed goods for purchase.  Melbh is strong barbarian with a
+large build.  He offers you one of his many items as you approach.
+~
+33556682 0 0 44 12480 0 0 250 S
+PB 0 2048 -1
+40 2 -28 40d64+840 4d7+10
+3.3.3.3 51840
+8 8 1
+#75242
+murar~
+&+RMurar&N~
+&+RMurar, the lake spirit, sleeps lazily in the cool lake waters.&N
+~
+    Dressed in battle equipment of a past era, Murar, the lake spirit,
+roams the lake here.  He has been sentenced to roam the lake searching
+for a item he lost many years ago.  He has appears to be a barbarian
+spirit. His body pulses in a red aura.
+~
+33949900 0 0 134217772 12480 0 0 -1000 S
+UG 0 2048 -1
+37 2 -28 37d64+777 4d7+10
+0.0.0.0 47952
+4 4 1
+#75243
+beaver small~
+&+Ya small beaver&N~
+A &+Ysmall beaver&N swims through the water in search of food.
+~
+   This small beaver has a brown coat of fur.  Small white whiskers line
+both sides of his face.  His small body looks quite frail due to the lack
+of food. His hunger has lead his to search desperately for food.
+~
+264396 0 0 0 0 0 0 0 S
+A 0 1 -1
+10 18 67 10d21+55 2d3+1
+0.0.0.0 1296
+12 12 1
+#75244
+shaman ruzdo~
+a &+Rruzdo&N shaman~
+Praying to his god, this &+Rruzdo&N shaman asks for assistance.
+~
+   This ruzdo shaman prays here to his god.  He asks to be granted
+powers to do as he pleases.  He has a slender build and stands just
+over six feet. Deep in thought, nothing seems to interrupt this
+shaman.
+~
+33556682 0 0 44 12480 0 0 -1000 S
+PH 0 256 -1
+31 6 0 31d77+496 4d6+7
+5.7.9.1 40176
+8 8 1
+#75245
+asmar elder ruzdo~
+&+MAsmar&N~
+&+MAsmar&N, an elder of the &+RRuzdo&N, sits here ruling over a decision.
+~
+   Dressed in elaborate clothing, Asmar sits here on the throne
+making a ruling over the tribe.  He is a barbarian and has a strong
+build.  He has a large scar over is left brow.  Asmar has only
+a partial say on a decision.  Asmar and Aswadi must agree for a
+decision to occur.
+~
+33556682 0 0 536944684 12480 0 0 -750 S
+PB 0 1 -1
+38 2 -21 38d95+874 4d7+10
+1.2.2.2 49248
+6 6 1
+#75246
+aswadi elder ruzdo~
+&+CAswadi&N~
+&+CAswadi&N, an elder of the &+RRuzdo&N, sits here discussing an issue with Asmar.
+~
+   Aswadi is the eldest female of the tribe.  Married to Asmar, she
+helps in making decisions regarding the many issues of the tribe.  She
+wears an elaborate satin robe.  She currently sits on the throne beside
+her husband and is constantly by his side assisting.
+~
+33556682 0 0 16777260 12480 0 0 350 S
+PH 0 128 -1
+38 2 -21 38d88+836 4d7+10
+1.2.2.2 49248
+6 6 2
+#75247
+warrior ruzdo~
+a &+Rruzdo&N warrior~
+Practicing an old skill, this &+Rruzdo&N warrior moves with great agility.
+~
+    Simply dressed, this ruzdo warrior stands here practicing his
+skills in preparation for the next invasion. He moves with great
+agility and speed.  This warrior has a slender build and stands
+just under six feet.
+~
+33556684 0 0 40 12480 0 0 550 S
+PM 0 1 -1
+20 13 35 20d35+140 3d4+2
+0.9.3.0 9720
+8 8 1
+#75248
+guardsman guard man ruzdo~
+&+Wa &+Rruzdo&N &+Wguardsman&N~
+&+WA &+Rruzdo&N &+Wguardsman&N stands protectively before the gates.
+~
+  Dressed in protective armor, this guardsman stands protectively
+before the gates.  He stands here keeping out all from this
+settlement. He appears to be over six feet tall and has a
+strong build.  He eyes the surrounding areas of the settlement.
+~
+100665546 0 0 56 12480 0 0 500 S
+PB 0 1 -1
+30 8 3 30d65+390 3d6+4
+0.5.7.1 26730
+8 8 1
+#75249
+syria~
+&+YSyria&N~
+&+YSyria&N is here fishing for food from the lake.
+~
+    Dressed in a warm overcoat, Syria fishes from this ice sheet into
+the lake for food to consume.  She hangs her line into the lake holding
+very still. Syria watches all around and hums a melody to herself as
+she works.
+~
+33556682 0 0 16777260 12480 0 0 100 S
+PB 0 256 -1
+33 6 -5 33d77+528 4d6+7
+7.8.0.2 42768
+6 6 2
+#75250
+mercenary barbarian travelling~
+a &+Rtravelling&N barbarian mercenary~
+A &+Rtravelling&N barbarian mercenary stands on the pier doing business.
+~
+   This barbarian stands here on the pier completing yet another
+business transaction.  He wears a warm fur animal fur about his
+body.  This barbarian has a strong build.  He hardly notices
+your presence as he continues working.
+~
+2250 0 0 40 0 0 0 0 S
+PB 0 16384 -1
+10 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 1
+#75251
+child whining barbarian~
+&+Wa whining barbarian child&N~
+A &+Cwhining barbarian&N child is complaining about life here.
+~
+This puny child is whining really loud here on the pier. He annoys
+all with his complaints.  This barbarian child mumbles about
+everything. He complains about the cold, the snow, the pier,
+and your presence.
+~
+2250 0 0 40 0 0 0 0 S
+PB 0 1 -1
+10 18 67 10d21+55 2d3+1
+5.3.0.0 1296
+8 8 1
+#75252
+rabbit white~
+a &+Wwhite&N rabbit~
+A &+Wwhite&N rabbit hops through the snow here.
+~
+This small rabbit hops the the snow.  She nibbles on frozen
+plant life always keeping an eye out for predators.
+~
+140 0 0 0 0 0 0 0 S
+A 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+8 8 2
+#75253
+leopard snow~
+a &+Ysnow leopard&N~
+A &+Ysnow leopard&N quietly hunts his prey here.
+~
+    This cat is covered in white fur.  He quietly sneaks up
+upon his prey as he prepares to attack.  This leopard has a
+long furry tail.
+~
+134219788 0 0 532480 0 0 0 0 S
+A 0 0 -1
+15 15 51 15d23+60 2d5+2
+0.0.0.0 7290
+8 8 1
+#75254
+artek~
+&+MArtek&N~
+&+MArtek&N, the bridgekeeper, stands here patrolling the grounds.
+~
+   Artek, the bridgekeeper, stands here patrolling the area while
+protecting his bridge.  Artek stands just over six feet tall and
+has a large scar on the right side of his cheek.  His cold eyes
+stare deep into your soul as he exchanges glances with you.
+~
+33556682 0 0 16853116 12480 0 0 1000 S
+PH 0 128 -1
+41 -1 -56 41d99+1804 6d6+12
+1.7.6.3 99630
+8 8 1
+#75255
+green dragon~
+&+Ga green dragon&N~
+A &+Ggreen dragon&N roars loudly and flapping its wings.
+~
+    This green dragon roars and continues roaming the lake shore
+here. He bobs his head up and down looking confused.  His body is
+covered in dark green scales which glisten in the light.  He
+valiantly flaps his wings failing to reach flight.  He frowns in
+disappointment as he exchanges a weary glance with you.
+~
+33556682 0 0 16779372 12288 0 0 -500 S
+D 0 4 -1
+31 6 -20 31d77+806 4d6+7
+5.7.5.5 80352
+8 8 1
+#75256
+green dragon~
+&+Gan old dragon&N~
+An &+Gold dragon&N, snoring loudly, lazily sleeps within the cave.
+~
+    The old green dragon here sleeps within the walls of this
+cave.  His body is covered in dark green scales which appear
+to have tough texture. He snores loudly as he lays on his bed
+of skeletons.  It continues to sleep hardly noticing you.
+~
+33556682 0 0 16777324 12288 0 0 -500 S
+D 0 4 -1
+20 13 15 20d33+320 3d4+2
+0.9.9.0 19440
+4 4 1
+#75257
+snow faerie~
+a &+Wsnow&N faerie~
+A &+Wsnow faerie&N, singing loudly, dances in circles here.
+~
+   The snow faerie dances in circles through the snow here.  She
+leaves little footsteps behind her as she sings loudly.  Her
+footprints form an intricate pattern in the snow.  She continues
+on her way hardly noticing you.
+~
+2252 0 0 524332 0 0 0 1000 S
+HF 0 32 -1
+13 15 58 13d25+65 2d5+2
+6.5.2.0 6318
+8 8 2
+#75258
+golden fish~
+&+Ya golden fish&N~
+&+YA golden fish swims through the lake here.&N
+~
+This fish is covered in golden scales that reflect the surrounding
+light into the nearby area.  This fish swims through the lake here
+not paying particular attention to anything.
+~
+204 0 0 0 0 0 0 1000 S
+F 0 0 -1
+3 20 90 3d15+11 1d5+0
+0.0.0.0 388
+12 12 0
+#75259
+tein master guardsman~
+&+CTein&N~
+&+CTein, the master guardsman, stands here firmly on his post.&N
+~
+     Dressed in battle armor, Tein stands here guarding the tower
+from unlawful entry.  Assigned to this post by Yezen, he keeps
+eyeing surrounding territory from wrong doing.  He nods at you
+as you question his name. With a bulging ego, he continues at
+his work.
+~
+1107298506 0 0 50331772 12480 0 0 0 S
+PB 0 1 -1
+50 -3 -95 50d119+2750 6d6+25
+0.3.1.5 121500
+8 8 1
+#75260
+tamara~
+&+GTamara&N~
+&+GTamara&N stands here very concerned about a missing order.
+~
+  Tamara D'arvani stands here pacing the room looking very concerned.
+She complains that about a missing order and an angry client.  She
+is dressed in a leather outfit.  She has her long brown hair tied
+up in a golden hair piece.  She continues pacing the room as you
+enter.
+~
+33556682 0 0 16777276 12480 0 0 1000 S
+PH 0 128 -1
+41 -1 -56 41d99+1804 6d6+12
+1.7.6.3 99630
+8 8 2
+#75261
+aerin shaman tekan~
+&+GAerin&N, a &+Mtekan&N shaman~
+&+GAerin&N, a &+Mtekan&N shaman stands here waiting for an order.
+~
+   Aerin,  a tekan shaman, prays here to her god.  She asks to
+that her delivery reach her promptly.  She is dressed in long white
+satin robes.  She wears a small figurine about her neck.  Aerin
+appears deep in thought.
+~
+33556682 0 0 60 12480 0 0 -1000 S
+PB 0 256 -1
+42 -1 -59 42d99+1848 6d6+12
+2.8.7.3 102060
+8 8 1
+#75262
+rat small~
+&+Ca small rat&n~
+&+CA small rat scurries around in the frozen passage.&n
+~
+A rat.
+~
+2120 1 0 0 0 0 0 0 S
+A 0 1 -1
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0

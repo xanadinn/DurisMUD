@@ -1,0 +1,2020 @@
+#32800
+&+BShaboath Control Room&N~
+This room has procs in it used by the zone.  Nobody should be able
+to get here.
+~
+328 134250712 0
+S
+#32801
+&+LA &+bWater&N &+LFilled Tunnel&N~
+The floor of the tunnel here rises, the &+bwater&N covering only around
+two feet deep.  Walking is treacherous, as the smooth stone is very slippery.
+To the west you can make a huge underground cavernous lake, to the north
+the tunnel narrows, and the dim outline of a huge gate can be seen.
+~
+328 167809352 14
+D0
+~
+~
+0 0 32802
+D1
+~
+~
+0 0 32917
+S
+#32802
+&+LA Narrow Tunnel&N~
+The tunnel narrows here, and the rough edges of the walls seem to indicate
+that it was recently dug.  The floor, immersed in water and quite slippery,
+slants slightly downward, causing the stream to flow toward the massive
+gates to the north.
+~
+328 176460108 14
+D0
+~
+~
+0 0 32803
+D2
+~
+~
+0 0 32801
+S
+#32803
+&+LThe &+gSl&+bui&+gce&N~
+The great gates of the city are 30' tall.  A long slide from the cavern,
+between the outer, and inner gates of the city slopes gently downward, a
+steady stream of water pouring out into the Sunless Sea. Along each side
+of the Sluice, stairs have been cut into the stone, for the many humans and
+demi-human slaves of the Aboleth to access the city.
+~
+328 176459848 14
+D0
+The inner gates stretch approximatly 15 feet high, and are barred from
+the inside.
+~
+gates~
+1 32809 32808
+D2
+The gates to the city lie some 30 feet tall, and are constructed of heavy
+iron.  Large brass bolts secure it tightly shut, should the need arise.
+~
+gates~
+0 0 32802
+S
+#32808
+&+LInside the Inner Gates&N~
+The inner gates to the city lie to your south.  The cannals which make up
+the "streets" of the Great Shaboath run north, east, and west from here.
+The water is only 2 feet deep, but makes moving uncomfortable, and slightly
+hard.  The architecture of the aboleths is bizaarre, swirling columns, and
+odd, angular points jut out of the squat, almost round buildings around.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32809
+D1
+~
+~
+0 0 32810
+D2
+The inner gates of shaboath close on huge, iron hinges.  A large locking
+mechanism, with a tiny hole for a key can be seen on the inside.
+~
+gates~
+1 32809 32803
+D3
+~
+~
+0 0 32811
+D8
+~
+door~
+1 0 32812
+S
+#32809
+&+LThe Central Canal of Shaboath&N~
+This canal runs through the very heart of Shaboath.  To the north, the
+bulk of the city lies spread out before you.  The strange peaks and alien
+architecture make a bizarre and disturbing skyline.  Just to the south, you
+can see the city gates which lead back out into the Sunless Sea.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32853
+D2
+~
+~
+0 0 32808
+S
+#32810
+&+LAlong the Southeastern Wall of Shaboath&N~
+The avenue between the wall and the buildings is wide here, the constant
+stream of water below you're feet moving sluggishly around the city.  Just
+to the west lie the city gates, while the wall, and canal stretch off out
+of sight to the east.
+
+Set just off the avenue to the north is a squat tower.  Water flows out
+from the tower in every direction, from small, three inch crevaces at
+its base.  A squat, oval doorway leads into the dark interior.
+~
+328 176459848 14
+D0
+~
+door~
+1 0 32816
+D1
+~
+~
+0 0 32820
+D3
+~
+~
+0 0 32808
+S
+#32811
+&+LAlong the Southwestern Wall of Shaboath&N~
+The road, if you can call it such, streatches east and west along the
+southwester wall of the great Aboleth city.  The water, flowing very slowly
+to the east, swirls about two feet deep.  The wall to the south rises
+some thirty feet into the air, and the slippery coating on it makes it
+unclimbable.  The same strange force that prevents flying in the city
+permeates the air here, as well.
+
+To the north a squat is large building with an eight foot tall door.
+~
+328 176459848 14
+D0
+~
+door~
+1 0 32815
+D1
+~
+~
+0 0 32808
+D3
+~
+~
+0 0 32813
+S
+#32812
+&+gA Huge Guard Barraks&N~
+This large, low building consists of one huge sleeping room.  The gate gaurds
+of shaboath are housed here.  The northern end of the barracks aparently
+houses &+gKuo-Toa&N, and the southern end &+yDerro&N.  Makeshift weapons
+racks lie on the southern wall near the door.
+~
+328 176459848 13
+D7
+~
+door~
+1 0 32808
+S
+#32813
+&+LAlong the Southwestern Wall of Shaboath&N~
+The road, if you can call it such, streatches east and west along the
+southwester wall of the great Aboleth city.  The water, flowing very slowly
+to the east, swirls about two feet deep.  The wall to the south rises
+some thirty feet into the air, and the slippery coating on it makes it
+unclimbable.  The same strange force that prevents flying in the city
+permeates the air here, as well.
+
+To the north lies a multi-level tower.  A huge iron door, adorned with
+very intricate inlays stands closed, blocking your entrance.
+~
+328 176459852 14
+D0
+~
+door~
+3 32825 32886
+D1
+~
+~
+0 0 32811
+D3
+~
+~
+0 0 32814
+S
+#32814
+&+LThe Southwest Corner of Shaboath&N~
+The city wall stretches off to the east, and north from here.  Out above
+the wall you can make out the vast, dark cavern that is the Sunless
+Sea.  Small, unnameable creatures scurry around the base of the wall here,
+feeding on unseen things carried by the cloudy waters of the streets.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32842
+D1
+~
+~
+0 0 32813
+S
+#32815
+&+LA Huge Barracks&N~
+This oblong, one level building houses the main guard units for the Great
+Shaboath.  Mixtures of &+gKuo-Toa&N and &+yDerro&N furnishings line
+the walls, and fill the room to almost overwhelming capacity.
+~
+328 176459848 14
+D2
+~
+door~
+1 0 32811
+S
+#32816
+&+bThe Tower of Distillations&N~
+This "tower", as it is called, does not rise above shaboath, but descends
+down beneath the city.  A large, deep pool fills the northern side of
+the room.  The entire ground floow is a workship, alchemical devices
+lie strewn about the room.  Water flows up from the chute, and outward
+into the streets of shaboath.
+~
+328 176459848 14
+D2
+~
+door~
+1 0 32810
+D5
+~
+~
+0 0 32817
+S
+#32817
+&+bCenter of the Chute&N~
+The water chute ascends above you into the tower of distilations, and below
+you for an indeterminate depth.  Water flows gently upward from here, and
+a strange, uneasy feeling makes you wonder what magical forces are at work
+in this room.
+~
+328 176459896 14
+D4
+~
+~
+0 0 32816
+D5
+~
+~
+0 0 32818
+S
+#32818
+&+bThe Bottom of the Chute&N~
+The chute ends here, with a large iron grate firmly fastened to the wall.
+Through the grate, you can see the waters of the Sunless Sea.  Creatures
+of many sizes swim in the darkness outside of the chute, as water is sucked
+gently into it, and up into the tower.
+~
+328 176459896 14
+D3
+~
+panel~
+5 0 32819
+D4
+~
+~
+0 0 32817
+S
+#32819
+&+bA Pocket of Water&N~
+A small pocket of water hidden by a secret panel swirls unsettlingly here.
+~
+328 176459848 14
+D1
+~
+panel~
+5 0 32818
+S
+#32820
+&+LAlong the Southeastern Wall of Shaboath&N~
+The canal that borders the southeastern city wall runs to the east and
+west from here, the water slowly flowing eastward, around the city.  Over
+the city walls to the south you see the dark, forboding cavern of the
+Sunless Sea.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32821
+D3
+~
+~
+0 0 32810
+S
+#32821
+&+LThe Southeastern Corner of Shaboath&N~
+The slimy, warped stone walls of Shaboath stretch off to the north, from here,
+surrounding the city from the dark cavern of the Sunless Sea.  Back to
+the west, against the current of the sluggishly flowing water, lies the
+canal along the southern edge of the aboleth stronghold.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32822
+D3
+~
+~
+0 0 32820
+S
+#32822
+&+LAlong the Eastern Edge of Shaboath&N~
+The city walls hover oppresingly over you to the east.  Nestled up against
+the walls to the east is a squat, aboleth abode.  To the west, a larger,
+bulbous building rests in the ever-present water of the city.  The canal
+continues off along the east wall to the north and south from here.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32827
+D1
+~
+door~
+1 0 32823
+D2
+~
+~
+0 0 32821
+D3
+~
+door~
+1 0 32824
+S
+#32823
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D3
+~
+door~
+1 0 32822
+S
+#32824
+&+bThe Hatchery&N~
+You stand in the center of the Shaboath Day-Care center.  The young aboleth,
+cute in their own slug-like way, ooze about in the shallow water which
+covers the floor here.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32825
+D1
+~
+door _nobash_~
+1 0 32822
+D2
+~
+~
+0 0 32826
+S
+#32825
+&+bThe Hatchery&N~
+The north end of the hatchery is a large, bulbous room with the typical
+two feet of water swirling around your feet.  To the south the main
+chamber of the hatchery opens up.
+~
+328 176459848 14
+D2
+~
+~
+0 0 32824
+S
+#32826
+&+bThe Hatchery&N~
+You stand in the southern end of the hatchery.  No furnshisings or remarkable
+features adorn this room.  Small chunks of wood, or possibly even flesh float
+in the water around here.  Could those be toys of the aboleth toddlers?
+~
+328 176459848 14
+D0
+~
+~
+0 0 32824
+S
+#32827
+&+LAlong the Eastern Wall of Shaboath&N~
+The eastern wall of the aboleth city parallel's this canal north and south.
+The water flows sluggishly to the north here.  The bizarre "skyline" of the
+aboleth architecture lies beneath the dark canopy of the great cavern.  Just
+to the north, you can make out an intersection with another avenue, to the
+south several interesting buildings lie close to the canal.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32828
+D2
+~
+~
+0 0 32822
+S
+#32828
+&+LEast End of the Central Canal&N~
+The central canal of Shaboath comes to an end here, water swirling in circular
+patters as the flow runs together with the avenue along the outer wall.  The
+walls of the city stretch to the north and south from here.  Just to the west
+you can make out a series of five HUGE towers.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32829
+D2
+~
+~
+0 0 32827
+D3
+~
+~
+0 0 32852
+S
+#32829
+&+LAlong the NorthEastern Wall&N~
+The avenue continues to the north and south here.  Set against the wall
+just to your east is a squat, aboleth domocile.  Just to the south you can
+see where the waters of the central canal flow into the eastern wall canal.
+The skyline to the west is dominated by the five HUGE towers rising up
+out of the city.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32830
+D1
+~
+door~
+1 0 32843
+D2
+~
+~
+0 0 32828
+S
+#32830
+&+LAlong the Northeastern Wall&N~
+The water-covered avenue here provides a soft, background sound to the
+sometimes harsh noises of the inhabitants of Shaboath.  Just to the north
+the wall turns back westward, while to the south it continues for some way.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32831
+D2
+~
+~
+0 0 32829
+S
+#32831
+&+LIn the Northeastern Corner of Shaboath&N~
+Water pours down into a drain here, in the northeastern corner of the
+city of the giant, sluglike aboleth.  Tiny crustaceans skitter about along
+the edges of the avenue, clingling tightly to the wall in an attempt to stay
+above the level of the water.  The avenue that circles the city runs south,
+and west from here.
+~
+328 176459848 14
+D2
+~
+~
+0 0 32830
+D3
+~
+~
+0 0 32832
+S
+#32832
+&+LThe Northern Side of Shaboath&N~
+The canal which runs along the northern wall of Shaboath heads east and
+west here.  A small aboleth abode is set up against the wall to the
+north of you, the interior ominously dark.  Just to the east you can see
+where the canal begins winding its way south.
+~
+328 176459848 14
+D0
+~
+door~
+1 0 32844
+D1
+~
+~
+0 0 32831
+D3
+~
+~
+0 0 32833
+S
+#32833
+&+LAlong the North Wall of Shaboath&N~
+The water here, as in most all of hte city stands about two feet deep,
+flowing slowly, yet steadily to the east.  Just to the east you can make
+out what appears to be a small building, with a wide, squat door.  In
+the opposite direction you can see an intersection with the central avenue
+of the city.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32832
+D3
+~
+~
+0 0 32834
+S
+#32834
+&+LShaboath's North Side&N~
+The central avenue running through shaboath comes to an end here, merging
+with the path running along the northern wall of the city.  To the south
+the great city of the aboleths spreads out before you.  Just south you can
+you can make out some sort of large, raised pool.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32833
+D2
+~
+~
+0 0 32855
+D3
+~
+~
+0 0 32835
+S
+#32835
+&+LBefore A Tall Building&N~
+The avenue along the north wall continues here, water sluggishly pulling
+debris and god knows what to the east.  To the south is something remarkable.
+A building, with stairs rising out of the water to a door roughly seven
+feet tall beckons to you.  A small lamp, glowing from some magical light
+shines over the doorway.
+~
+328 176459852 14
+D1
+~
+~
+0 0 32834
+D2
+~
+door~
+1 0 32875
+D3
+~
+~
+0 0 32836
+E
+doorway lamp building door~
+THe building, unlike the rest of hte city, is set square, with angular
+corners and flat walls.  Two large gargoyles leer balefully out above
+the door.  A sign on the door reads:
+
+        &+RThe Embassy of Pallistren, Lord of the Baatzu&N
+~
+S
+#32836
+&+LThe North Wall Road, Next to Home&N~
+The wall, pressing in to your north gives way ever so slightly for a squat,
+aboleth home to be propped up against it here.  The avenue along the north
+side of the city continues from here to the east and west.
+~
+328 176459848 14
+D0
+~
+door~
+1 0 32845
+D1
+~
+~
+0 0 32835
+D3
+~
+~
+0 0 32837
+S
+#32837
+&+LIn the Northwest Corner of Shaboath&N~
+As much as the flowing, smooth architecture of the aboleth has any corners
+in it, this is the northwestern edge of the city.  The walls curve to
+the east and south around you, with the constant flow of water beneath
+your tenta...er...feet.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32836
+D2
+~
+~
+0 0 32838
+S
+#32838
+&+LAlong the Western Wall&N~
+The canal continues to the north and south here.  You are almost at the far
+northern edge of the city, and you can see the wall beginning to curve to the
+east just north of here.  South of you you can make out some sort of small,
+aboleth building set next to the wall.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32837
+D2
+~
+~
+0 0 32839
+S
+#32839
+&+LAlong the West Wall of Shaboath&N~
+The wall here continues to block your exit from shaboath.  Unclimbable, and
+immutable, it keeps you from the vast cavern that is the Sunless Sea.  Set
+next to the wall to your west is a squat, aboleth home.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32838
+D2
+~
+~
+0 0 32840
+D3
+~
+door~
+1 0 32846
+S
+#32840
+&+LWest End of Shaboath&N~
+The canal than runs through the heart of Shaboath ends here, emptying into
+the wall avenue.  Just to the east you can see a set of closely-connected
+buildings.  While the wall path continues to the north and south.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32839
+D1
+~
+~
+0 0 32848
+D2
+~
+~
+0 0 32841
+S
+#32841
+&+LThe Western Edge of Shaboath&N~
+The avenue along the wall continues to the north and south here.  The water,
+still slowly moving northward, stands a few feet deep.  A tall building,
+set up out of the water lies to your east.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32840
+D2
+~
+~
+0 0 32842
+D3
+~
+door~
+1 0 32863
+S
+#32842
+&+LThe Western Edge of Shaboath&N~
+The wall road here begins its norhtward path around the aboleth stronghold.
+Just south of you you can see where it begins to turn back to the east.  A
+squat, aboleth home is set up against the wall, just off of the avenue here.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32841
+D2
+~
+~
+0 0 32814
+D3
+~
+door~
+1 0 32847
+S
+#32843
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D3
+~
+door~
+1 0 32829
+S
+#32844
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D2
+~
+door~
+1 0 32832
+S
+#32845
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D2
+~
+door~
+1 0 32836
+S
+#32846
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D1
+~
+door~
+1 0 32839
+S
+#32847
+&+LAn &+bAboleth&N &+LDomocile&N~
+This squat structure is sparsely furnished, and only one room.  A ramp from
+the round, large doorway slides gently down to the center of the room,
+and a table, and one cabinet are the only visible furnishings.  The walls,
+formed from the smooth stone that lines the floor of the sunless sea seem
+to melt and flow together around you.
+~
+328 176459848 14
+D1
+~
+door~
+1 0 32842
+S
+#32848
+&+LThe Central Path of Shaboath&N~
+The central path of Shaboath runs east/west here.  The murky water flows
+slowly to the east, and the dark, empty sky of the Sunless Sea rises
+up above you.  Just off of the canal, to the north, is a group of low,
+closely adjoined buildings.  The entranceway, to narrow for an aboleth,
+has a strange, squid-like protrusion upon it.
+~
+328 176459848 14
+D0
+~
+door~
+1 0 32869
+D1
+~
+~
+0 0 32849
+D3
+~
+~
+0 0 32840
+S
+#32849
+&+LThe Central Path of Shaboath&N~
+The central path of Shaboath runs east/west here.  The murky water flows
+slowly to the east, and the dark, empty sky of the Sunless Sea rises
+up above you.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32850
+D3
+~
+~
+0 0 32848
+S
+#32850
+&+LThe Center of Darkness&N~
+You stand in the very center of the aboleth city knows as the Great Shaboath.
+The alien architecture looming overhead is foreboding, and somehow unnerving.
+Avenues stretch out in several directions here, all submerged in the murky,
+two feet of water that runs through the entire city.  One feature dominates
+the dark horizon, to your east you can make out what appears to be the largest
+structures in the city.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32854
+D1
+~
+~
+0 0 32851
+D2
+~
+~
+0 0 32853
+D3
+~
+~
+0 0 32849
+S
+#32851
+&+LThe Central Path of Shaboath&N~
+The central path of Shaboath runs east/west here.  The murky water flows
+slowly to the east, and the dark, empty sky of the Sunless Sea rises
+up above you.
+~
+328 176459848 14
+D1
+~
+~
+0 0 32852
+D3
+~
+~
+0 0 32850
+S
+#32852
+&+LEntrance to the Tower Complex&N~
+The central path of Shaboath runs east/west here.  The murky water flows
+slowly to the east, and the dark, empty sky of the Sunless Sea rises
+up above you.  To the north, enclosed by an inner wall, rise five huge
+towers.  A gateway into the courtyard shows that the towers, each facing
+the central tower, seem to be similar in design to each other.  Truely,
+this is the dark heart of Shaboath.
+~
+328 42242124 14
+D0
+~
+door double darlakanand~
+3 -2 32897
+D1
+~
+~
+0 0 32828
+D3
+~
+~
+0 0 32851
+S
+#32853
+&+LThe Central Path of Shaboath&N~
+The cental canals of Shaboath run to the north and south here, water
+flowing unrelentlessly along under you.  A large, two-story building lies
+just off the road to the east here.  Large, iron doors seal it off, and you
+notice that the bars holding the door fast are on THIS side.
+~
+328 176459852 14
+D0
+~
+~
+0 0 32850
+D1
+~
+door~
+3 32811 32857
+D2
+~
+~
+0 0 32809
+S
+#32854
+&+LThe Central Path of Shaboath&N~
+The cental canals of Shaboath run to the north and south here, water
+flowing unrelentlessly along under you.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32855
+D2
+~
+~
+0 0 32850
+S
+#32855
+&+LThe Central Path of Shaboath&N~
+The cental canals of Shaboath run to the north and south here, water
+flowing unrelentlessly along under you.  Rising up on a raised platform
+several feet above the level of the water in the city lies a huge, marble
+pool.  The walkway to the east approaching the pool is clean, and made
+of white marble.
+~
+328 176459848 14
+D0
+~
+~
+0 0 32834
+D1
+~
+~
+0 0 32856
+D2
+~
+~
+0 0 32854
+S
+#32856
+&+BA Giant Pool&N~
+This pool stretches some 70 feet across.  The water is crystal clear,
+and laps at the edges of the huge, marble basin.  At the western edge
+a stairway/ramp leads back down into shaboath, and a narrow walkway
+extends around the permiter of the pool.
+~
+328 176459848 14
+D3
+~
+~
+0 0 32855
+S
+#32857
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32859
+D1
+~
+~
+0 0 32858
+D2
+~
+~
+0 0 32860
+D3
+~
+door~
+3 32811 32853
+S
+#32858
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32862
+D2
+~
+~
+0 0 32861
+D3
+~
+~
+0 0 32857
+S
+#32859
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32857
+S
+#32860
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32857
+S
+#32861
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 33558600 14
+D0
+~
+~
+0 0 32858
+S
+#32862
+&+yIn a Dirty Compound&N~
+This slave compound is filthy.  The compound is broken into several
+rooms, with humanoid sized openings in them.  The smell is horrible,
+and the mess littering the floor is repulsive.  The only redeaming
+quality is that the floor is dry.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32858
+S
+#32863
+&+WA Comfortable Building&N~
+   This building seems to be have created with you in mind.  Furnishings
+fit for humanoid sized creatures, elegent trappings, and no water.  The
+sturdy stone walls rise up to a comfortable 15 foot ceiling height.
+Several smaller chambers can be seen from this central sitting chamber.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32864
+D1
+~
+door~
+1 0 32841
+D2
+~
+~
+0 0 32866
+D3
+~
+~
+0 0 32865
+D6
+~
+~
+0 0 32867
+D7
+~
+~
+0 0 32868
+S
+#32864
+&+cStrychnesch's Chambers&N~
+This living chamber has a large bed, a heavy wooden beurau, and
+a weapons rack set against hte east wall.  A bench along the southern
+wall holds many tools for repair of armor and weapons.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32863
+S
+#32865
+&+rMorgoor's Chambers&N~
+This room comfortable living chamber is the home of Morgoor, a warrior
+and henchman of the Aboleth.  You can tell this by the huge portrait
+of Morgoor himself, smiling, with his name in big gold letters hanging
+above a sturdy oak bed.
+~
+328 176197704 14
+D1
+~
+~
+0 0 32863
+S
+#32866
+&+LJabulanth's Chambers&N~
+This comfortable living chamber has all of the acutrements for a comfortable
+living in the UD.  Many of the scupltures, and tapestries along the wall
+seem to be of half-elven make, though with a slightly evil tinge.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32863
+S
+#32867
+&+YRepdal's Chamber&N~
+Repdal, a student of the arcane arts, makes his home in this chamber.
+A rack of books on various topics only of interest to a wizard lies along
+the southern wall, while a wardrobe with robes of all colors lies partially
+open along the west wall.
+~
+328 176197704 14
+D9
+~
+~
+0 0 32863
+S
+#32868
+&+MCyvrand's Chambers&N~
+Many of the idols and totems in this room pay homage to the Dark God, patron
+of Cyvrand.  A large insence brazier stands smoldering near the door, and
+portraits of various evil martyrs line the walls.
+~
+328 176197704 14
+D8
+~
+~
+0 0 32863
+S
+#32869
+&+MAn Eerie Foyer&N~
+The foyer of this building complex glows with an eerie, green light.
+No decorations adorn the walls, they simply are shaped into flowing,
+patters, reflecting the odd light around.  A large room can be seen
+to the north, and a hole in the celing apears to open up into some
+other chamber above.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32870
+D2
+~
+door~
+1 0 32848
+D4
+~
+~
+0 0 32871
+S
+#32870
+&+MA Quiet Meditation Room&N~
+This circular room is bare, with a dim light source hovering several
+feet off the floor in the center.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32869
+S
+#32871
+&+MTop of the Shaft&N~
+The shaft here decends back down into the first level of the tower.  Around
+you several doors lead off into rooms unknown.  The domed ceiling has a
+large mosaic of an illithid face on it, tentacles draping over the dome
+down the edges of the walls.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32872
+D3
+~
+door~
+1 0 32873
+D5
+~
+~
+0 0 32869
+D9
+~
+door~
+1 0 32874
+F
+100
+S
+#32872
+&+MA Chamber in the Tower&N~
+This large living chamber is evidently home to several of the illithids
+who make their home in Shaboath.
+~
+328 176197704 14
+D2
+~
+door~
+1 0 32871
+S
+#32873
+&+MA Chamber in the Tower&N~
+This large chamber is evidently home to several of the illithids that
+reside in the city of the aboleth.
+~
+328 176197704 14
+D1
+~
+door~
+1 0 32871
+S
+#32874
+&+MA Large Throneroom&N~
+The center of the room is dominated by two large thrones.  A huge
+chain & collar lie at the feet of the thrones.  Columns formed
+in the likeness of demons support the arched ceiling, high above
+you.
+~
+328 176197704 14
+D6
+~
+door~
+1 0 32871
+S
+#32875
+&+RFoyer of the Baatzu Embassy&N~
+The central area here is an entrance hallway, decorated with marble and
+wall hangings;  two small chambers lie off to the side.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32835
+D1
+~
+~
+0 0 32876
+D2
+~
+~
+0 0 32878
+D3
+~
+~
+0 0 32877
+S
+#32876
+&+RGuardroom in the Embassy&N~
+This small room is more of an alcove, with exits south into the
+main audience chamber, and west back into the entry foyer.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32878
+D3
+~
+~
+0 0 32875
+S
+#32877
+&+RGuardroom in the Embassy&N~
+This small guardroom is more of an alcove, with exits into the foyer, and
+into the main audience chamber of the baatzu.
+~
+328 176197704 14
+D1
+~
+~
+0 0 32875
+D2
+~
+~
+0 0 32878
+S
+#32878
+&+RThe Secretariat&N~
+Beautifully furnished with antique rosewood furniture, and sumptuous silk
+wall hangings and tapestries which obviously not made in Shaboath.  A small
+courtyard can be seen to the west, and a grand staircase lies just
+to your east.  Behind a big desk, is a large oaken door to the south.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32875
+D1
+~
+~
+0 0 32880
+D2
+~
+door~
+1 0 32881
+D3
+~
+~
+0 0 32879
+D6
+~
+~
+0 0 32877
+D8
+~
+~
+0 0 32876
+S
+#32879
+&+RThe Courtyard&N~
+This enclosed courtyard lies on the western side of the embassy.  Above,
+you can see a balcony.  Stone walls separate the embassy compound from
+the rest of the aboleth city.
+~
+328 176197704 15
+D1
+~
+~
+0 0 32878
+S
+#32880
+&+RThe Grand Stair&N~
+A grand staircase winds its way upward into the tower of the
+Baatzu above you.  Below you, and to the west, it opens up into the
+main audience chamber.
+~
+328 176197704 14
+D3
+~
+~
+0 0 32878
+D4
+~
+~
+0 0 32882
+S
+#32881
+&+RPallistren's Chamber&N~
+Furnished with elegance and taste this chamber is the audience chamber
+of the emmissary of the Baatzu to Shaboath.  A large desk, and bookshelf
+are among the furnishings.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32878
+S
+#32882
+&+RThe Middle Tower Level&N~
+~
+328 176197704 14
+D3
+~
+~
+0 0 32885
+D4
+~
+~
+0 0 32883
+D5
+~
+~
+0 0 32880
+S
+#32883
+&+RThe Pit Fiends Bedchamber&N~
+An enormous four-poster bed dominates this chamber.  A huge trolley laden down
+with silver and crystal flasks of every liqueur known to man (and some which
+fortunately aren't) stands beside it, and a wardrobe contains fine suits of
+armor, robes and decorated cloaks.
+~
+328 42111048 14
+D3
+~
+~
+0 0 32884
+D5
+~
+~
+0 0 32882
+S
+#32884
+&+RThe Balcony&N~
+This bare balcony overlooks the skyline of shaboath.  The only feature of
+note is a stone bowl set upon two sculpted stone vock legs 4 feet in
+height.  Brackish water lies within the boal.
+~
+328 41979976 14
+D1
+~
+~
+0 0 32883
+S
+#32885
+&+RThe Hamatula's Quarters&N~
+A few comfrotable beds, table anc chairs, and some very unpleasent souveniers
+of a the Hamatula demons furnish this room.  A stuffed dwarfs head, a hat
+rack made out of dried and preserved halfling feet, and even other less
+tasteful items lie around the room.
+~
+328 176197704 14
+D1
+~
+~
+0 0 32882
+S
+#32886
+&+YEntryway to the Tower of Treasures&N~
+This large, oblong room has a high, arched ceiling, and flowing, almost
+molten columns stretching up to it.  A huge door with a mosaic of an
+aboleth lies to the north, while small passages head to the east and
+west.  To the south, the door opens back into the city.
+~
+328 41979976 14
+D0
+~
+door~
+3 32825 32891
+D1
+~
+~
+0 0 32889
+D2
+~
+door~
+3 32825 32813
+D3
+~
+~
+0 0 32887
+S
+#32887
+&+YA Small Passage&N~
+This small passage connects the meditation chamber to the north, with
+the main entryway of the aboleth tower.  The passage is narrow, wide
+enough only for a single aboleth to slither through.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32888
+D1
+~
+~
+0 0 32886
+S
+#32888
+&+bA Quiet Meditation Room&N~
+This room is a quiet meditation chamber.  Its gently sloped floor forms
+a small bowl, making the overall appearence of the room to be almost
+sphereical in shape.  No furnishings or adornments of any kind are
+noticeable in the room.
+~
+328 176197704 14
+D2
+~
+~
+0 0 32887
+S
+#32889
+&+YA Small Passage&N~
+This small passage connects the meditation room to the north, with the
+entry chamber of the aboleth tower back to the west.  The passage is
+quite narrow, seemingly not even large enough for an aboleth to work
+its way through.
+~
+328 176197704 14
+D0
+~
+~
+0 0 32890
+D3
+~
+~
+0 0 32886
+S
+#32890
+&+mA Meditation Room&N~
+The air in this quiet room burns thick with inscense, a small bench lies
+in the center of the room.  The walls are painted in swirling, undefined
+patterns.
+~
+328 176197832 14
+D2
+~
+~
+0 0 32889
+S
+#32891
+&+YBottom of the Stair&N~
+This small, circular room leads into a large, spiraling ramp that works
+its way up into the aboleth tower.  A golden inlay makes an intricate
+pattern along the path upwards.
+~
+328 176197704 14
+D2
+~
+door~
+3 32825 32886
+D4
+~
+~
+0 0 32892
+S
+#32892
+&+YTop of the Tower&N~
+The ramp leads down below from here.  A large, golden-inlaid door leads
+out of this unadorned circular chamber to the north, while small archways
+open into rooms on either side.
+~
+328 176197704 14
+D0
+~
+door~
+3 32825 32895
+D1
+~
+~
+0 0 32894
+D3
+~
+~
+0 0 32893
+D5
+~
+~
+0 0 32891
+S
+#32893
+&+YA Planning Room&N~
+This room is dominated by a low, merely a foot off the ground, table
+in the center of the room.  No chairs lie around it, but the ample
+slithering space provides room to move around it.
+~
+328 176197704 14
+D1
+~
+~
+0 0 32892
+S
+#32894
+&+YA Viewing Room&N~
+The chamber at the top of the tower looks out over the city of the aboleths
+from here.  A slight breeze blows through the small portal set about four
+feet off the ground in the eastern wall.
+~
+328 176197704 14
+D3
+~
+~
+0 0 32892
+S
+#32895
+&+YTop of the Tower&N~
+The chamber here lies at the top of the treasure tower of the aboleth.
+Embossed with gold, columns set against the wall form a canopy of glittering
+wonder above your head.
+~
+328 41979976 14
+D2
+~
+door~
+1 0 32892
+D4
+~
+trapdoor~
+13 0 32896
+S
+#32896
+&+YThe &+LAboleth&N &+YTreasure Room&N~
+The circular room at the top of the tower is crowded with the treasure
+the aboleth have taken from the surface world.  The thick stone walls
+arch up to a dome above, and the only exit is a trapdoor back down
+into the tower.
+~
+328 33591368 14
+D5
+~
+door~
+1 0 32895
+S
+#32897
+&+LCourtyard of the Great Towers&N~
+This entire courtyard is bounded by a wall, seperating it from the city
+of Shaboath.  Vision beyond the wall is hazy, and it is hard to make out
+the buildings that lie beyond.  Four great towers lie encircling a central
+spire.  The peripheral towers seem to be a few stories tall, where the
+central one rises even taller.
+
+The entrance to the &+LTower of Domination&N lies to the north.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32913
+D2
+~
+door double darkaland~
+3 -2 32852
+D6
+~
+~
+0 0 32898
+D8
+~
+~
+0 0 32900
+S
+#32898
+&+LCourtyard of the Great Towers&N~
+This entire courtyard is bounded by a wall, seperating it from the city
+of Shaboath.  Vision beyond the wall is hazy, and it is hard to make out
+the buildings that lie beyond.  Four great towers lie encircling a central
+spire.  The peripheral towers seem to be a few stories tall, where the
+central one rises even taller.
+
+Entraces to towers lie to the north and south from here.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32904
+D2
+~
+door~
+1 0 32901
+D8
+~
+~
+0 0 32899
+D9
+~
+~
+0 0 32897
+S
+#32899
+&+LCourtyard of the Great Towers&N~
+This entire courtyard is bounded by a wall, seperating it from the city
+of Shaboath.  Vision beyond the wall is hazy, and it is hard to make out
+the buildings that lie beyond.  Four great towers lie encircling a central
+spire.  The peripheral towers seem to be a few stories tall, where the
+central one rises even taller.
+~
+328 176197704 14
+D7
+~
+~
+0 0 32898
+D9
+~
+~
+0 0 32900
+S
+#32900
+&+LCourtyard of the Great Towers&N~
+This entire courtyard is bounded by a wall, seperating it from the city
+of Shaboath.  Vision beyond the wall is hazy, and it is hard to make out
+the buildings that lie beyond.  Four great towers lie encircling a central
+spire.  The peripheral towers seem to be a few stories tall, where the
+central one rises even taller.
+
+Entrances to towers lie north and south from here.
+~
+328 176197704 14
+D0
+~
+door~
+1 0 32907
+D2
+~
+door~
+1 0 32910
+D6
+~
+~
+0 0 32899
+D7
+~
+~
+0 0 32897
+S
+#32901
+&+LThe Tower of &+CEnchantments&N~
+The first level of this tower is flooded with water.  A wide stone ramp
+leads upwards from here to the second floor of the tower.  The black
+stone walls around have no markings, and no other adornments lie in the
+room.
+~
+328 176197736 14
+D0
+~
+door~
+1 0 32898
+D4
+~
+~
+0 0 32902
+S
+#32902
+&+LThe Tower of &+CEnchantments&N~
+The ramp from the first level of this tower continues upwards from here,
+leading into the top level of the tower.  This room, though above the
+level of the streets outside, also remains flooded.  The bare stone
+floor and walls, seen through the murky water, have no notable features.
+~
+328 176197736 14
+D4
+~
+~
+0 0 32903
+D5
+~
+~
+0 0 32901
+S
+#32903
+&+LThe Tower of &+CEnchantments&N~
+The top floor of this tower ascends up out of the water below.  The domed
+ceiling rises some thirty feet above.  The walls, like the rest of the
+rooms in this tower are bare.
+~
+328 176197704 14
+D5
+~
+~
+0 0 32902
+S
+#32904
+&+LThe Tower of &+GSummonings&N~
+The first level of this tower is flooded with water.  A wide stone ramp
+leads upwards from here to the second floor of the tower.  The black
+stone walls around have no markings, and no other adornments lie in the
+room.
+~
+328 176197736 14
+D2
+~
+door~
+1 0 32898
+D4
+~
+~
+0 0 32905
+S
+#32905
+&+LThe Tower of &+GSummonings&N~
+The ramp from the first level of this tower continues upwards from here,
+leading into the top level of the tower.  This room, though above the
+level of the streets outside, also remains flooded.  The bare stone
+floor and walls, seen through the murky water, have no notable features.
+~
+328 176197736 14
+D4
+~
+~
+0 0 32906
+D5
+~
+~
+0 0 32904
+S
+#32906
+&+LThe Tower of &+GSummonings&N~
+The top floor of this tower ascends up out of the water below.  The domed
+ceiling rises some thirty feet above.  The walls, like the rest of the
+rooms in this tower are bare.
+~
+328 176197704 14
+D5
+~
+~
+0 0 32905
+S
+#32907
+&+LThe Tower of &+YAlterations&N~
+The first level of this tower is flooded with water.  A wide stone ramp
+leads upwards from here to the second floor of the tower.  The black
+stone walls around have no markings, and no other adornments lie in the
+room.
+~
+328 176197736 14
+D2
+~
+door~
+1 0 32900
+D4
+~
+~
+0 0 32908
+S
+#32908
+&+LThe Tower of &+YAlterations&N~
+The ramp from the first level of this tower continues upwards from here,
+leading into the top level of the tower.  This room, though above the
+level of the streets outside, also remains flooded.  The bare stone
+floor and walls, seen through the murky water, have no notable features.
+~
+328 176197736 14
+D4
+~
+~
+0 0 32909
+D5
+~
+~
+0 0 32907
+S
+#32909
+&+LThe Tower of &+YAlterations&N~
+The top floor of this tower ascends up out of the water below.  The domed
+ceiling rises some thirty feet above.  The walls, like the rest of the
+rooms in this tower are bare.
+~
+328 176197704 14
+D5
+~
+~
+0 0 32908
+S
+#32910
+&+LThe Tower of Necromancy&N~
+The first level of this tower is flooded with water.  A wide stone ramp
+leads upwards from here to the second floor of the tower.  The black
+stone walls around have no markings, and no other adornments lie in the
+room.
+~
+328 176197736 14
+D0
+~
+door~
+1 0 32900
+D4
+~
+~
+0 0 32911
+S
+#32911
+&+LThe Tower of Necromancy&N~
+The ramp from the first level of this tower continues upwards from here,
+leading into the top level of the tower.  This room, though above the
+level of the streets outside, also remains flooded.  The bare stone
+floor and walls, seen through the murky water, have no notable features.
+~
+328 176197736 14
+D4
+~
+~
+0 0 32912
+D5
+~
+~
+0 0 32910
+S
+#32912
+&+LThe Tower of Necromancy&N~
+The top floor of this tower ascends up out of the water below.  The domed
+ceiling rises some thirty feet above.  The walls, like the rest of the
+rooms in this tower are bare.
+~
+328 176197704 14
+D5
+~
+~
+0 0 32911
+S
+#32913
+&+LThe Altar of the &+rBlood&+L Queen&N~
+A large altar decorates the north wall, with imposing stone statues of
+the BLood Queen on either side of this.  The interrior walls are decorated
+with stone murals of aboleth tyrannizing servitor creatures and the
+sacrificing of humans, demihumans, Derro, and Drow to their Blood Queen.
+~
+328 176197704 14
+D2
+~
+door~
+1 0 32897
+D4
+~
+~
+0 0 32914
+S
+#32914
+&+LThe Black-Ceilinged Chamber&N~
+The ramp from here continues back down to the first floor.  A swirling
+whorl of blackness floats in the center of the room, thin magical beams
+of energy lead out through the walls, presumably to the four tertiary
+towers.  The ceiling level of this chamber appears to be just inky
+blackness, insubstantiality.
+~
+328 176197704 14
+D4
+~
+trapdoor~
+7 32847 32915
+D5
+~
+~
+0 0 32913
+S
+#32915
+&+RDarkalands&N &+LLab&N~
+A huge throne dominates the center of this chamber.  Around it stones fly,
+and the very winds of the Abyss roar and howl.
+~
+328 176197704 14
+D4
+~
+portal~
+1 0 32916
+D5
+~
+trapdoor~
+7 32847 32914
+S
+#32916
+&+LThe Lair of the &+BGrand&+L Savant&N~
+This chamber rises approximately 80 feet high.  The walls and floor
+are bare of markings.
+~
+328 176197704 14
+D5
+~
+portal~
+1 0 32915
+S
+#32917
+&+LA &+bWater&N &+LFilled Tunnel&N~
+The floor of the tunnel here rises, the &+bwater&N covering only around
+two feet deep.  Walking is treacherous, as the smooth stone is very slippery.
+To the west you can make a huge underground cavernous lake, to the north
+the tunnel narrows, and the dim outline of a huge gate can be seen.
+~
+328 142639432 14
+D2
+~
+~
+0 0 32918
+D3
+~
+~
+0 0 32801
+S
+#32918
+&+LA &+bWater&N &+LFilled Tunnel&N~
+The floor of the tunnel here rises, the &+bwater&N covering only around
+two feet deep.  Walking is treacherous, as the smooth stone is very slippery.
+To the west you can make a huge underground cavernous lake, to the north
+the tunnel narrows, and the dim outline of a huge gate can be seen.
+~
+328 142639432 14
+D0
+~
+~
+0 0 32917
+D2
+~
+~
+0 0 32919
+S
+#32919
+&+LA &+bWater&N &+LFilled Tunnel&N~
+The floor of the tunnel here rises, the &+bwater&N covering only around
+two feet deep.  Walking is treacherous, as the smooth stone is very slippery.
+To the west you can make a huge underground cavernous lake, to the north
+the tunnel narrows, and the dim outline of a huge gate can be seen.
+~
+328 142639436 14
+D0
+~
+~
+0 0 32918
+D2
+~
+~
+0 0 710327
+S

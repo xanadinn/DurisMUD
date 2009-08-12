@@ -1,0 +1,4643 @@
+#36200
+&+RJunction in the Durithalite Cavern&N~
+   &+rThe walls here are thickly veined with durithalite, which through&N
+&+rits pulsating, causes the ambient light levels in this room to vary&N
+&+rslightly, at its brightest almost bright enough to allow normal vision&N
+&+rin this room, but in reality just making it impossible for surface world&N
+&+reyes to adjust to the light levels in the cavern. There are a multitude&N
+&+rof exits from this room, but the one to the east requires special&N
+&+rattention because a soft rhythmatic chanting can be heard from that&N
+&+rdirection.&N
+~
+362 142639177 15
+D1
+The cavern continues.
+~
+~
+0 0 36201
+D2
+There is an almost imperceptible red glow that way.
+~
+~
+0 0 36199
+S
+#36201
+&+rTurn in the Cavern&N~
+   &+LThe cavern turns form west to south here, or form south to west,&N
+&+Ldepending on how it is analyzed. The cavern here has a strange hollow&N
+&+Lfeel to it, probably because of the roaring echo that is produced&N
+&+Lwhenever someone makes a footfall in this room. Rhythmic chanting&N
+&+Lcan be heard echoing in from the south.&N
+~
+362 142639177 15
+D2
+The cave continues to the south.
+~
+~
+0 0 36202
+D3
+The cave continues to the east.
+~
+~
+0 0 36200
+D5
+The floor looks like it has been cracked in several places.
+~
+cracked floor secret~
+5 2147483647 36243
+S
+#36202
+&+rThin Cave&N~
+   &+LThe walls of the cave are really close together here, making it&N
+&+Ldifficult to travel double file, but not totally impossible. The walls&N
+&+Lare sparsely lined with durithalite in a softly glowing web of the&N
+&+Lstrange luminous rock. The exits from this portion of the cave are&N
+&+Lto the north and south. A soft rhythmic chanting can be heard coming&N
+&+Lfrom the south.&N
+~
+362 142639177 15
+D0
+The cave contiunes.
+~
+~
+0 0 36201
+D2
+There seems to be some sort of guard post to the south.
+~
+~
+0 0 36203
+S
+#36203
+&+CGuard Post of the Slave Camp&N~
+   &+cThe main feature of this portion of the cave are the two humongous&N
+&+csteel doors in the southern end of this small round cave. Through the&N
+&+cdoors there lies a small village of some sort with lots of small people&N
+&+crunning about. The cave walls in this chamber, however are almost&N
+&+ctotally of basalt, with very little durithalite exposed. The only other&N
+&+cexit from this room is to the north.&N
+~
+362 142639177 15
+D0
+The cave continues.
+~
+~
+0 0 36202
+D2
+There is a village through the gates.
+~
+steel gates doors~
+3 36242 36204
+E
+steel gates doors~
+   The doors are huge coverning a section of cave about 10 feet high and 10
+feet wide. They are made of smooth steel about an inch thick and rest on huge
+hinges bolted into the cavern wall. There are a few small scratches in the
+doors, indicating several past attacks on them, but none seems to have come
+even close to damaging these doors.
+~
+S
+#36204
+&+CNorthern Entrance of the Slave Camp&N~
+   This is the northmost portion of a large cave. Small squate houses line
+the walls of the cave and there is a small lake in the east central part
+of this cave. Lots of very little humanoids are running about here, carrying
+hoes and shovels; rakes and rockpicks; and many other farming and mining
+instruments. The people all look very oppressed as if their lives have
+been a total hell. There is a dirt road running both to the east and south
+from here, and a set of huge steel gates to the north.
+~
+362 142639169 14
+D0
+There is a set of huge steel gates there.
+~
+steel gates doors~
+3 36242 36203
+D1
+The dirt road continues
+~
+~
+0 0 36212
+D2
+The dirt road continues
+~
+~
+0 0 36205
+E
+steel gates doors~
+   The doors are huge coverning a section of cave about 10 feet high and 10
+feet wide. They are made of smooth steel about an inch thick and rest on huge
+hinges bolted into the cavern wall. There are a few small scratches in the
+doors, indicating several past attacks on them, but none seems to have come
+even close to damaging these doors.
+~
+S
+#36205
+&+CRoad Through the Slave Camp&N~
+   The dirt road bends form north to west here as it curves around the shores
+of a small lake. There is a series of small squat houses both along the east
+and west walls of this large cavern. The houses seem to be in poor repair as
+if the denizens of these homes have no love for them at all. Lost of small
+humanoids roam the streets here, damned to the life of being a slave.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 0 36204
+D1
+There is a lakeshore to the east.
+~
+~
+0 0 36225
+D2
+There is a lakeshore to the south.
+~
+~
+0 0 36228
+D3
+The road continues toward some houses.
+~
+~
+0 0 36206
+S
+#36206
+&+CBend in the Road in the Slave Camp&N~
+   The road bends form east to south here, with houses on the north and west
+side of the road. The roof of these houses miss the top of the cave here by
+scarecly two feet. Their sides are build out of soft and sticky mud, that
+reeks of fertilizer. There are small doorways set into the mud without any
+doors to seal the insides of these homes from the sounds of the street.
+~
+362 142639169 13
+D0
+There is a small home to the north.
+~
+~
+0 0 36216
+D1
+The road continues along the lakeshore.
+~
+~
+0 0 36205
+D2
+The road continues along the lakeshore.
+~
+~
+0 0 36207
+D3
+There is a larger home to the west.
+~
+~
+0 0 36217
+S
+#36207
+&+CRoad Through the Slave Camp&N~
+   The road here becomes narrow as it is caught between a doorstep of a small
+house and the lakeshore. The ceiling of the cave is pretty high here, rising
+about 6 feet above the roofs of the houses. It is streaked here, as in other
+parts of the cavern with a faintly glowing web of durithalite, the unusual
+mineral of this part of the underworld. The road runs north and south, with
+a squalid hous emade of mud to the west.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 0 36206
+D1
+The lake is very tranquil.
+~
+~
+0 0 36228
+D2
+The road continues.
+~
+~
+0 0 36208
+D3
+There is a squalid mud house there.
+~
+~
+0 0 36218
+S
+#36208
+&+CRoad Through the Slave Camp&N~
+   The road curves from north to east here as it winds between the lakeshore
+to the east and some squalid mud houses to the west. The houses have no doors
+to protect the residents form the sights sounds, and especially smells of
+this street and village made of highly fertalized mud. Little people run
+about everywhere, carrying farming and mining equipment to and from this
+village. A placid lake is to the northeast.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 0 36207
+D1
+The road continues.
+~
+~
+0 0 36209
+D2
+There is a squalid mud hut there.
+~
+~
+0 0 36221
+D3
+There is a squalid mud hut there.
+~
+~
+0 0 36219
+S
+#36209
+&+CBend in a Road Through the Slave Camp.&N~
+   The road bends from west to south here. To the north side, the road is
+bordered by a dark tranquil lake. The same can be said for the western
+side of the road. The road looks slightly less traveled here, but it is
+impossible to determine if that is because of fewer denizens living in
+this portion of the town, or if it is because the road was freshly laid.
+~
+362 142639169 14
+D0
+The lake looks smooth as a mirror.
+~
+~
+0 0 36228
+D1
+The lake looks smooth as a mirror.
+~
+~
+0 0 36227
+D2
+The road continues to the cavern edge.
+~
+~
+0 0 36210
+D3
+The road continues toward some mud houses.
+~
+~
+0 0 36208
+S
+#36210
+&+CBend in the Road Along Wall of the Slave Camp&N~
+   The road bends form north to east here, navigating a pathway between
+the lake and the southern wall of this large cavern. The ceiling of the
+cavern is low ebough here that a troll would have to crouch to pass without
+bonking its head. The road continues towards a home to the east. The side
+of a house is to the west. and the road continues along the lakeshore to
+the north.
+~
+362 142639169 14
+D0
+The road continues to the north.
+~
+~
+0 0 36209
+D1
+The road continues to the east.
+~
+~
+0 0 36211
+S
+#36211
+&+CEnd of a Road in the Slave Camp&N~
+   The road ends here at a doorstep. This house, like all others in this
+cavern is made of fetilized mud, reeking to high heaven. The ceiling above
+the hut is very clse to the hut's roof, allowing maybe enough space for a
+cave rat to make a home there. The lake extends to the north from here
+and the road continues back to the west.
+~
+362 142639169 14
+D0
+~
+~
+0 0 36227
+D1
+~
+~
+0 0 36222
+D3
+~
+~
+0 0 36210
+S
+#36212
+&+CEastern Road Through the Slave Camp&N~
+   The road here continues to the east and west as it navigates itself
+around the north end of the lake. The ceiling of the cave is fairly low
+here, low enough that an ogre would have to duck or it would bump its
+head. There is a high quantity of durithalite lining the wall here,
+providing a brilliant low light spectacle. The depressed Svirfneblin
+do not seem to care for this spectacle as they carry out their lives
+in endless hell as slaves.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 0 36213
+D2
+The lakeshore is there.
+~
+~
+0 0 36225
+D3
+The road continues.
+~
+~
+0 0 36204
+S
+#36213
+&+CNortheast Corner of the Slave Camp&N~
+   The road through the slave camp bends form west to south as it curves
+between the northeast corner of the lake and the cavern wall. The road is
+fairly narrow here, allowing only three man sized cratured to walk side
+by side without one getting its feet wet in the clear waters of this
+glass smooth lake. The camp is really quite pretty when viewed from this
+angle, but for some reason the Svirfneblin do not seem to appreciate it.
+~
+362 142639169 14
+D2
+The road continues towards a stone building to the south.
+~
+~
+0 0 36214
+D3
+The road continues to the west.
+~
+~
+0 0 36212
+S
+#36214
+&+CIn Front of a Stone House in the Slave Camp&N~
+   The road here bend form north to east, with a large stone house made of
+basalt to the south of the road with a heavy steel door with a large lock
+on it looking as impressive as the door itself. The road to the east heads
+through a narrow cave. To the west the lake reflects like a mirror in the
+center of the slave camp. The Svirfneblin walking nearby all seem to give
+this stone dwelling a wide berth.
+~
+362 142639169 14
+D0
+The road contiunes around the lake.
+~
+~
+0 0 36213
+D1
+The road heads away from the slave camp.
+~
+~
+0 0 36229
+D2
+There is a large stone house there.
+~
+steel house door~
+2 36242 36224
+D3
+The lake shines like a mirror.
+~
+~
+0 0 36225
+S
+#36215
+&+cBack Portion of a Large Abode.&N~
+   This large abode is barely better than a pile of refuse for a home. Piles
+of broken tools and other equipment lie scattered about, Quadruple bunk beds
+are lined up in in dense rows from one wall to the other with a thin pathway
+for foot travel between them. A simple calcuation rveals that there are
+ninety-six bunks in this room and every single one of them looks occupied.
+~
+362 142639177 15
+D2
+The abode continues.
+~
+~
+0 0 36217
+S
+#36216
+&+cInside a Small Abode.&N~
+   This abode is just packed with bunks for the svirfneblin slaves that live
+here. Each bunk is four beds high, the beds scarcely more than a webbing of
+thick spider silk that has lost its tacky properties. A quick calculation
+indicates that there are approximately 48 bunks in this abode, and every
+one of them looks occupied.
+~
+362 142639177 15
+D2
+The street lies through the doorway.
+~
+~
+0 0 36206
+S
+#36217
+&+cFront Room of a Large Abode&N~
+   This room has but one purpose, housing the the svirfneblin slaves that
+work the nearby farms and mines for their brutal Drow owners. The conditions
+in this room are very poor, with earthen walls that reek of fertilizer, and
+a tightly packed mass of bunks each four beds high. A quick calculation
+reveals that there are 72 bunks in this room. A doorway in the north wall
+leads to what appears to be another slave dormitory.
+~
+362 142639177 15
+D0
+The abode continues to the north.
+~
+~
+0 0 36215
+D1
+The street is through the doorway.
+~
+~
+0 0 36206
+S
+#36218
+&+cCommunity Outhouse&N~
+   This is the most wretched smelling place imagineable. There are eighteen
+rows of toilets, each eight deep. Some of them are occupied, others
+are vacant, some for obvious reasons, such as a nasty turd smeared on a
+small iron toilet seat. It is obvious that this room has received very
+little care. The road, and better atmosphere is back to the east.
+~
+362 142639177 15
+D1
+The street lies through the doorway.
+~
+~
+0 0 36207
+S
+#36219
+&+cEntrance to a Large Abode&N~
+   This abode is obviously intended to be quarters for sleeping Svirfneblin.
+The bunks are four high, eight deep and twleve wide, making this room the
+largest dormitory in the slave camp. It also is downwind from the community
+scathouse, making it the least desireable. This is probably where the Drow
+house their newly acquired slaves.
+~
+362 142639177 15
+D1
+The street lies out to the east.
+~
+~
+0 0 36208
+D2
+The backroom lies though a crumbling doorway.
+~
+~
+0 0 36220
+S
+#36220
+&+cBack Room&N~
+   The front room of this house is considerably larger than this room. There
+are only six rows of bunks, each four bunks wide and four bunks tall. There
+is evern a little extra floor space for a gnome to walk about a bit between
+the rows of bunks. This, in contrast to the room immediately to the north,
+is one of the nicest rooms in the slave camp.
+~
+362 142639177 15
+D0
+The abode continues.
+~
+~
+0 0 36219
+S
+#36221
+&+cA Small Abode.&N~
+   A quick count yields the result that there are but 64 beds in this room,
+all made of an interesting variant of spider silk that has lost its tacky
+properties, making it quite comofrtable to the touch. Looking around these
+silk beds are the only luxury afforded these slaves of the drow, and
+considering their captors, this luxury is more of a staple here in the
+underworld.
+~
+362 142639177 15
+D0
+The street lies through the doorway.
+~
+~
+0 0 36208
+S
+#36222
+&+cMess Hall&N~
+   This hall is adorned with eight huge tables, each of with could easily
+seat 25 svirfneblin. The atmosphere is very quiet as poor gnomes take their
+supper in this mess hall. The kitchen is to the north and the smell of
+boiled mushroom stew assails the olfactory sense. The street lies back
+outside to the west.
+~
+362 142639177 15
+D0
+The kitchen is to the north.
+~
+~
+0 0 36223
+D3
+The street extends towards the other side of the cavern.
+~
+~
+0 0 36211
+S
+#36223
+&+cKitchen&N~
+   The kitchen is filled with billowing clouds of steam as svirfneblin cooks
+work huge pots of boiled mushroom stew. The concauction smells absolutely
+vile. A huge hole in the roof of the mud block house allows the steam to
+escape to run along the basalt cave ceiling for a few feet before it
+condensces and drips into the lake to the west. A large counter with a sign
+attached to it separates the cooks from the slaves, though the cooks look
+like nothing more than well treated slaves themselves.
+~
+362 142639177 15
+D2
+The mess hall is to the south.
+~
+~
+0 0 36222
+E
+sign counter~
+The sign on the counter reads:
+&+C.&N
+&+C.                       &+RNotice! &+WNo Slip, No Soup!&N
+&+C.&N
+~
+S
+#36224
+&+cTaskmaster Quarters&N~
+   This is the abode of the Drow taskmasters, working class dorw scum who
+were unable to adapt the life of beloning to a royal house of Arachdrathos.
+Their quarters, while far better than that of the Svirfneblin would be
+unacceptable to a Drow noble or lady. There are four beds in this small
+basalt house with a steel door, a few personal luxuries, and not much
+else.
+~
+362 142639177 15
+D0
+The street lies through the doorway.
+~
+steel door~
+2 36242 36214
+S
+#36225
+&+BNorth End of Mirror Lake.&N~
+   This lake was smooth of glass until some clod decided to go exploring
+it, rippling its mirror-like surface. It is incredibly likely that the
+same mirror like surface is the reason why the Svirfneblin have named the
+body of water Mirror Lake. The lake here is bordered by road on three sides:
+the north, the east, and the west.
+~
+362 142643273 7
+D0
+The road runs by the lake shore.
+~
+~
+0 0 36212
+D1
+The road runs by the lake shore.
+~
+~
+0 0 36214
+D2
+The lake continues.
+~
+~
+0 0 36226
+D3
+The road runs by the lake shore.
+~
+~
+0 0 36205
+S
+#36226
+&+BCenter of Mirror Lake&N~
+   It is easy to see why the Svirfneblin have called this mirror lake. The
+surface of the water was glass smooth until some clod decided to come
+disturbing it by exploring the lake surface. The stone dwelling is
+directly to the east of this portion of the lake. The lake continues to the
+north, west, and south.
+~
+362 142643273 7
+D0
+The lake continues.
+~
+~
+0 0 36225
+D2
+The lake continues.
+~
+~
+0 0 36227
+D3
+The lake continues.
+~
+~
+0 0 36228
+S
+#36227
+&+BSouth End of Mirror Lake&N~
+   This lake was smooth as glass, until some clod decided to come out on it.
+This portion of the lake runs along the side of the messhall kitchen. Steam
+from the stew brewing inside condenses on the cave ceiling to run down the
+side of the mud-walled kitchen to enter the lake. This process has carved
+deep groves in the kitchen wall which require constant repair. The lake
+continues to the north. There is a road to the south leading to the mess
+hall, and another road to the west.
+~
+362 142643273 7
+D0
+The lake continues.
+~
+~
+0 0 36226
+D2
+The road runs along the lake.
+~
+~
+0 0 36211
+D3
+The road runs along the lake.
+~
+~
+0 0 36209
+S
+#36228
+&+BWest End of Mirror Lake&N~
+   The lake here possessed a glassy smooth surface until some clod decided
+to disrupt it by exploring the lake. It is probably this smooth surface that
+caused the svirfneblin to name this lake Mirror Lake. The lake extends to
+the east, and is rimmed by the road to the north, south, and west. A small
+sign sticks out of the water near the shore of the lake.
+~
+362 142643273 7
+D0
+The road runs along the lakeshore.
+~
+~
+0 0 36205
+D1
+The lake continues.
+~
+~
+0 0 36226
+D2
+The road runs along the lake shore.
+~
+~
+0 0 36209
+D3
+The road runs along the lake shore.
+~
+~
+0 0 36207
+E
+sign~
+The sign reads:
+&+C.&N
+&+C.                      &+WDo not feed the aboleth.&N
+&+C.&N
+~
+S
+#36229
+&+RBeginning of Hell Road&N~
+   This road through the tunnel between the slave camp and the farming fields
+was to insignificant to be named by any of the drow, so the Svirfneblin
+had the opportunity to name this road. The name they came up with was hell
+road, simply because their lives as slaves of the Drow are a total hell. The
+road runs from west to east here, connecting the Svirfneblin slave camp
+to the mushroom farms.
+~
+362 142639177 15
+D1
+Hell Road continues.
+~
+~
+0 0 36230
+D3
+The slave camp surrounds a smooth lake.
+~
+~
+0 0 36214
+S
+#36230
+&+RHell Road at the Entrance to the Mushroom Fields&N~
+   The road runs from east to west through a narrow tunnel connecting the
+large cavern of the slave camp to the ven larger cavern of the mushroom
+fields. The Svirfneblin trudge along this road daily to go from their
+hellish home life to their hellish jobs in the fields under the cruel eyes
+of their drow taskmasters.
+~
+362 142639177 15
+D1
+The mushrooms farms are there.
+~
+~
+0 0 36231
+D3
+Hell Road runs to the slave camp.
+~
+~
+0 0 36229
+S
+#36231
+&+MHell Road on the West Side of the Fungus Farm&N~
+   The road here passes through the famous Drow fungus farms. Rows of neatly
+planted fungi extend away from both sides of the road. Slaves work these
+immaculate rows of fungus tirelessy, out of fear of their cruel Drow
+taskmasters. The cavern itself here is massive, with a ceiling extending
+hundreds of feet above the farming floors. Gypsum flowers coat the walls of
+this massive cavern, except in the portions webbed by thick veins of
+durithalite, which does not promote the growth of these strange rock
+blossums. There is a large building to the northeast and a gallows ahead in
+the distance.
+~
+362 142639169 13
+D0
+The fungus fields continue.
+~
+~
+0 0 36257
+D1
+Hell Road continues through the fields.
+~
+~
+0 0 36232
+D2
+The fungus fields continue to the cavern wall.
+~
+~
+0 0 36251
+D3
+Hell Road continues into a tunnel.
+~
+~
+0 0 36230
+S
+#36232
+&+MHell Road before the Gallows&N~
+   The road turns abruptly from west to north here as it navigates its way
+around the gallows to the east. The bend also facilitates access to a large
+building to the north. To the south however, endless rows of mushrooms sprout
+from some sort of dark brown substance. The cave here reeks of death,
+dismemberment, and excrement. Normally this would be very disconcerting, but
+somehow these foul smells seem right at home here next to this gallows in
+the fungus farms.
+~
+362 142639169 13
+D0
+Hell Road continues.
+~
+~
+0 0 36233
+D1
+A gallows is over there.
+~
+~
+0 0 36255
+D2
+The fungus fields continue.
+~
+~
+0 0 36252
+D3
+Hell Road continues.
+~
+~
+0 0 36231
+S
+#36233
+&+MHell Road Before a Large Building&N~
+   To the north side of the road here there is a large building made of
+basalt and covered with gypsum flowers. There is no door on the front
+of the building, but a solid doorway is constructed of stone here. The roof
+of the building is made from huge mushroom stalks, used much like the
+humans on the surface use lumber to make roofs.
+~
+362 142639169 13
+D0
+The entrance to a large building is there.
+~
+~
+0 0 36247
+D1
+Hell Road continues.
+~
+~
+0 0 36234
+D2
+Hell Road continues.
+~
+~
+0 0 36232
+D3
+The mushroom fields extend towards the western wall of the cavern.
+~
+~
+0 0 36257
+S
+#36234
+&+MHell Road along the building.&N~
+   Hell road follows along the south side of an odd stone building with a
+mushroom stalk roof. There are no window in the side of the building, which
+is odd for a building of this size. To the south there is a large gallows,
+which makes this general vicinity of the cave take on a most foul odor of
+death mixed with mushroom fertilizer. The road continues to the east and west
+towards the edges of this very large cave.
+~
+362 142639169 13
+D1
+Hell Road continues.
+~
+~
+0 0 36235
+D2
+The gallows casts a funny smell about this portion of the cave.
+~
+~
+0 0 36255
+D3
+Hell Road continues.
+~
+~
+0 0 36233
+S
+#36235
+&+MBend in Hell Road&N~
+   The road takes a sharp bend form east-west to north-south here. A person
+traveling in from the north would probably argue the opposite perspective
+however. The reason for this bend is quite obvious, especially to the
+traveler coming from the east, as they would run into a large basalt and
+durithalite wall if it was not for this bend northward. The wall, in
+addition to being an obstacle to eastward travel is covered with gypsum
+flowers, which dont look like flowers at all, unless viewed through eyes
+that are attached to a body that has consumed far too much ale or smoked
+too much pipeweed, or both.
+~
+362 142639169 13
+D0
+Hell Road continues.
+~
+~
+0 0 36236
+D2
+Some really large mushrooms are growing to the south of the path.
+~
+~
+0 0 36256
+D3
+Hell Road continues.
+~
+~
+0 0 36234
+S
+#36236
+&+MHell Road on the East Side of a Large Building&N~
+   The road here stretches along the east side of a large building. To the
+east of the road a massive cavern opens up. The cavern is probably 200 feet
+tall at its apex and contains a nice sized lake rimmed by mushroom farms.
+Hell Road, after passing by the east side of this building, passes by the
+western end of this lake. Looking to the south, the cavern is almost as
+impressive to behold but somewhat smaller. A gallows hangs to the southwest.
+~
+362 142639169 13
+D0
+Hell Road continues.
+~
+~
+0 0 36237
+D1
+The mushroom farms continue towards a large lake.
+~
+~
+0 0 36259
+D2
+Hell Road continues.
+~
+~
+0 0 36235
+S
+#36237
+&+MHell road Between a Building and the Llzazan Lake&N~
+   The road here continues in a north-south method of cavern navigation. To
+the northeast, Llzazan lake tranquilly stretches across the floor of the
+cavern, before bending to the south in the distance. To the northwest a
+large swath of farmland extends away from the building lying directly to the
+west of the road here. The southwest does not bear an appealing vista, as
+the aforementioned building obstructs any scenic views in that direction.
+~
+362 142639169 13
+D0
+Hell Road continues.
+~
+~
+0 0 36238
+D1
+The mushroom fields continue along the lakeshore.
+~
+~
+0 0 36261
+D2
+Hell Road continues.
+~
+~
+0 0 36236
+S
+#36238
+&+MHell Road at the East End of Llzazan Lake&N~
+   The road travels in a north-south fashion here, To the east Llzazan Lake
+extends through a massive cavern. Rimmed by the mushroom farms, this lake
+is the main water supply for irrigation of the substrate on which the
+precious fungus of the drow is grown. The cavern ceiling is very high here
+and thickly webbed with durithalite, enabling unltravision to be used
+throughout this massive cave.
+~
+362 142639169 13
+D0
+Hell Road continues.
+~
+~
+0 0 36239
+D1
+Llzazan Lake shimmers in the durithalite glow.
+~
+~
+0 0 36299
+D2
+Hell Road continues.
+~
+~
+0 0 36237
+D3
+The mushroom fields continue north of a large building.
+~
+~
+0 0 36295
+S
+#36239
+&+MHell Road in the Northwest Great LLzazan cavern.&N~
+   To the southeast the Great LLzazan Lake stretches off into the haze
+that permeates the space sky-like space betwten the mushroom floor and
+softly glowing duithalite and basalt cavern roof. To the norteast, the
+road winds its way along the lakeshore towards a vaulted tunnel which
+leads to another cavern. To the west, the fungus fields stretch off
+towards the near cavern wall.
+~
+362 142639169 13
+D0
+The mushroom fields extend to the cavern wall.
+~
+~
+0 0 36292
+D1
+Hell Road continues.
+~
+~
+0 0 36240
+D2
+Hell Road continues.
+~
+~
+0 0 36238
+D3
+The mushroom fields continue.
+~
+~
+0 0 36294
+S
+#36240
+&+MHell Road at the Shore of the Great Llzazan Lake&N~
+   The road bends from north to west here. To the southeast side of the
+road Llzazan Lake streteches off wavelessly through the great expanse of
+this massive cavern. Across to the south side of the lake, giant mushrooms
+tower fifty feet above the lake surface. To the northeast the road
+stretches towards the city gates of Arachdrathos.
+~
+362 142639169 13
+D0
+Hell Road continues to the north.
+~
+~
+0 0 36241
+D1
+The Great Llzazan Lake expands to the east and south.
+~
+~
+0 0 36301
+D2
+The Great Llzazan Lake finds its western shore to the south.
+~
+~
+0 0 36299
+D3
+Hell Road continues to the west.
+~
+~
+0 0 36239
+S
+#36241
+&+MHell Road Along the North Wall of Llzazan Cavern&N~
+   The road here draws close to the north wall of the Llzazan cavern as it
+makes a final bend from south to east around the north end of the Great
+Llzazan Lake towards the city gates of the fabled city of Arachdrathos.
+The cavern wall is made of basalt veined with the mystical mineral
+durithalite in rich quanitities. The durithalite here pulsates gently,
+shedding a very dim red light along the floor of the cavern and out
+across the Great Llzazan Lake.
+~
+362 142639169 13
+D1
+Hell Road continues to the Arachdrathos city gates.
+~
+~
+0 0 36242
+D2
+Hell Road continues to the south along the lake shore.
+~
+~
+0 0 36240
+D3
+The mushroom fields continue along the north wall of the cavern.
+~
+~
+0 0 36292
+S
+#36242
+&+MHell Road Before the Gates of Arachdrathos&N~
+   The road here bends to the north through a tunnel towards the Drow city
+of Arachdrathos. The tunnel to the north becomes a gauntlet of protection
+for the famed Drow city, making it impervious to attack or seige. To the
+south the Great Llzazan Lake extends across a great cavern, shimmering
+softly under the ruddy hue of the glow of the durithalite stone webbed
+throughout the basalt roof and walls of this cavern.
+~
+362 142639169 13
+D0
+The gates of Arachdrathos are through the tunnel.
+~
+~
+0 0 36546
+D1
+The mushroom farms continue.
+~
+~
+0 0 36291
+D2
+The Great Llzazan Lake stretches under the canopy of durithalite.
+~
+~
+0 0 36301
+D3
+Hell Road stretches off towards the southwest corner of the mushroom farms.
+~
+~
+0 0 36241
+S
+#36243
+&+bWestern End of a Secret Underwater Passage&N~
+   The walls of this cavern are covered with thick white alagae, making
+footing very difficult. The cavern also is totally filled with water,
+making footing very difficult. Underneath the alage, the walls of this
+submerged cavern emit a faint pinkish glow, betraying the presence of
+durithalite in the walls of the tunnel.
+~
+362 142639177 9
+D1
+The submerged tunnel continues.
+~
+~
+0 0 36244
+D4
+There seems to be a loose stone in the roof of the cave.
+~
+slab rock~
+5 2147483647 36201
+S
+#36244
+&+BSecret Underwater Passage&N~
+   This portion of the cave is airless, filled completely with crystal
+clear water that is bonechillingly cold. The cavern is rimmed with a
+thick mass of white alagae. The walls of the cavern underneath the alage
+must be heavily lined with duithalite, as the alage and the water in the
+cavern itself take on a failntly pinkish glow.
+~
+362 142639177 9
+D1
+The submerged tunnel continues.
+~
+~
+0 0 36245
+D3
+The submerged tunnel continues.
+~
+~
+0 0 36243
+S
+#36245
+&+BA Submerged Tunnel&N~
+   This portion of the tunnel has been partially blocked by a column of
+basalt stretching from the floor to deiling of the cave, making swimming
+through this section of the cave somewhat more difficult than in other
+sections. The walls floor and ceiling of the cave are covered in a thick
+layer of alagae. The tunnel extends to the east and west from here.
+~
+362 142639177 9
+D1
+The underwater passageway continues.
+~
+~
+0 0 36246
+D3
+The underwater passageway continues.
+~
+~
+0 0 36244
+S
+#36246
+&+bA Secret Underwater Tunnel&N~
+   The tunnel extends to the west from here. It is richly draped with white
+algae, backlit softly by the glow of the durithalite veins in the basalt
+tunnel walls. The softly glowing water is bonechillingly cold and virtually
+stagnant. Small alage covered slatactites sprout from the floor of the
+cavern, making swimming a necessity.
+~
+362 142639177 9
+D3
+The underwater passageway continues.
+~
+~
+0 0 36245
+D4
+The roof of the cavern is covered with moss.
+~
+slab rock~
+5 2147483647 36297
+S
+#36247
+&+LEntry to the Slave Clearing House&N~
+   This large building has a large platform raised above the floor in the
+center of this room. This is obviously where the independent drow farmers
+come to purchase slaves to perform the labor on the mushroom farms of the
+Llzazan Cavern. There is a large doorway to the east leading back into
+the depths of this building, and a doorway to the southleading back to
+the road the Svirfneblin affectionately call Hell Road.
+~
+362 142639177 15
+D1
+The Slave Clearing House continues.
+~
+~
+0 0 36248
+D2
+Hell Road extends through the doorway.
+~
+~
+0 0 36233
+S
+#36248
+&+LReady Room of the Llzazan Slave Clearing House.&N~
+   This room is framed with stone walls and sparsely decorated with a few
+basic tables and chairs fashioned of preserved mushroom stalks, made rigid
+through a unique process of hardening the soft fungus tissues of the great
+mushrooms of South Llzazan. This room is where the Svirfneblin slaves are
+prepared for auction in the room to the west.
+~
+362 142639177 15
+D0
+The Slave Cleraing House continues.
+~
+~
+0 0 36249
+D3
+The Slave Clearing House continues.
+~
+~
+0 0 36247
+S
+#36249
+&+LGuard Room and Mess Hall of the Clearing House&N~
+   There is a huge hearth and chimney on the north wall of this room, made
+for the boiling of mushroom stews and other vile concotions to nourish the
+captured Svirfneblin so they will be sellable to the Drow farmers who use
+these slaves to grow their precious mushroom crops. A distinctive guard
+post is on the western side of the room next to an open doorway.
+~
+362 142639177 15
+D2
+The Slave Clearing House continues.
+~
+~
+0 0 36248
+D3
+The Slave Clearing House continues.
+~
+~
+0 0 36250
+S
+#36250
+&+LHolding Pen of the Llzazan Slave Clearing House&N~
+   The odor of this room is foul, as it is used to hold huddled masses of
+Svirfneblin while they are being broken and prepared for sale to the Drow
+farmers of the fungus fields and mushroom forests. The floor of this room
+is covered with fecal matter and the walls are smeared with blood. Corpses
+of Svirfneblin are pushed against the far western wall, covered in excement
+and caked with blood.
+~
+362 142639177 15
+D1
+The Llzazan Slave Clearing House continues.
+~
+~
+0 0 36249
+S
+#36251
+&+GSouthwest Corner of the Fungus Farms&N~
+   The cavern floor is covered with a strange variety of bright green
+fungus here. Small paths have been cuth through the fungus bed to
+facilitate cultivation and harvesting of the fungs. Tendris of mycelium
+criscross the path giving slightly under the weight of a footstep or
+a mushroom harvesting cart.
+~
+362 142639169 13
+D0
+Hell Road cuts across the fungus farms.
+~
+~
+0 0 36231
+D1
+The fungus farms continue.
+~
+~
+0 0 36252
+S
+#36252
+&+GSouth End of the Llzazan Fungus Farms&N~
+   The farm here ends abruptly at the cavern wall to the south. The floor
+of the cavern is coated with fungus and mycelium, intermixed with paths to
+facilitate harvesting of the fungus crop. Wheel tracks cut along these
+narrow paths demonstrating useage of carts to harvest the fungus crop. Hell
+Road continues across the fields to the north.
+~
+362 142639169 13
+D0
+Hell Road cuts across the fungus fields.
+~
+~
+0 0 36232
+D1
+The fungus fields continue along the south wall of the cavern.
+~
+~
+0 0 36253
+D3
+The fungus fields continue along the south wall of the cavern.
+~
+~
+0 0 36251
+S
+#36253
+&+GFungus Fields South of the Gallows.&N~
+   The mushrooms and fungus here appears o tbe growing very well, as if well
+supplied with a highly nutritious substrate. The fields also look very well
+tended here, as if the Svirfneblin had exceptional motivation to perform
+their tasks in this portion of the field. Ruts cut across paths between
+the fungus rows, allowing the Svirfneblin to harvest their fungus for the
+Drow. A gallows stands to the north of here.
+~
+362 142639169 13
+D0
+There is a gallows to the north.
+~
+~
+0 0 36255
+D1
+The fields continue.
+~
+~
+0 0 36254
+D3
+The fields continue.
+~
+~
+0 0 36252
+S
+#36254
+&+GSoutheast of the Gallows&N~
+   The fields here are very well maintained as if the Svrifneblin slaves
+possessed some extra motivation while working these fields. The source of
+this motivation can be easily seen if one looks to the northwest, towards
+a huge blackened gallows. To the south and east the fields end abruptly at
+the cavern wall.
+~
+362 142639169 13
+D0
+The fungus Fields continue
+~
+~
+0 0 36256
+D3
+~
+~
+0 0 36253
+S
+#36255
+&+LA Blackened Gallows&N~
+   The sight of this room is enough to make even the most seasoned stomach
+churn. This is the site of liberation for the Svirfneblin, the only way out
+of their slavery, at the hands of a drow executioner. The gallows itself is
+charred and coated with creosote. The lack of a noose indicates that hanging
+is not the method of execution reserved for the inobediant Svirfneblin.
+Instead, by the body parts strewn upon the ground, a varity of mutilations
+seem to be used ranging from simple disembowelment, to live complete
+lobotomy. The ground here is covered with gnome remnants and fecal matter.
+~
+362 142639169 13
+D0
+Hell Road cuts across the fields to the north
+~
+~
+0 0 36234
+D1
+The fungus farms continue.
+~
+~
+0 0 36256
+D2
+The fungus farms continue.
+~
+~
+0 0 36253
+D3
+Hell Road cuts across the fields to the west.
+~
+~
+0 0 36232
+S
+#36256
+&+GEast of the Gallows&N~
+   The ground here is immaculately cared for as if its tenants were working
+out of fear for their lives. Huge rows of fungus bulge mercilessly, waiting
+to be harvested by Svirfneblin slaves for consumption by their Drow masters.
+To the west, a blackened gallows tempts the gnome slaves to defy their
+masters and pay the price.
+~
+362 142639169 13
+D0
+Hell road is to the north.
+~
+~
+0 0 36235
+D2
+The fungus fields continue.
+~
+~
+0 0 36254
+D3
+The gallows stands to the west.
+~
+~
+0 0 36255
+S
+#36257
+&+GWest End of the Great Llzazan Cavern&N~
+   The fungus fields here are hemmed in by Hell Road to the east and south,
+yet they extend along the cavern wall to the north. To the northeast,
+a large structure of some sort stands ominously in the middle of these
+fields. To the north the fields continue in a narrow swath between the
+building and the cavern wall.
+~
+362 142639169 13
+D0
+The fungus fields continue.
+~
+~
+0 0 36258
+D1
+Hell Road cuts across the fungus fields.
+~
+~
+0 0 36233
+D2
+Hell Road cuts across the fungus fields.
+~
+~
+0 0 36231
+S
+#36258
+&+GNarrow Portion of the Fungus Field.&N~
+  The field here becomes narrow as it travels between the slave clearing
+house and the cavern wall. Rows of green fungus divided by small wagon
+tracks extend to the north and south. The fungus here is well cultivated
+by the tireless hands of the Svirfneblin slaves who serve the drow out of
+fear of a fate that would make death look like a trifle.
+~
+362 142639169 13
+D0
+The fungus fields continue.
+~
+~
+0 0 36260
+D2
+The fungus fields continue.
+~
+~
+0 0 36257
+S
+#36259
+&+MEast of Hell Road&N~
+   To the west of here hell road contines along the side of a large building.
+The field here is filled with a strange red fungus with white spots and
+bristles. The caps of these fungi are especially round and seem to be quite
+fleshy. A single cap from one of these plants could probably comprise of
+a meal for a small drow family.
+~
+362 142639169 13
+D0
+The fields continue
+~
+~
+0 0 36261
+D3
+Hell Road cuts across the fungus fields.
+~
+~
+0 0 36236
+S
+#36260
+&+GA Thin Bed of Fungi&N~
+   The fungus field is narrow here as rows of the iridescent green fungus
+run north and south between a large building and the cavern wall. The rows
+are carefully tended by the Svirfneblin slaves that server their cruel
+drow masters out of unparalleled fear. There are uniform cart tracks through
+the muddy substrate of the fields, indicating the use of hand carts in
+harvesting the crops of these odd fields.
+~
+362 142639169 13
+D0
+The fungus farms continue.
+~
+~
+0 0 36297
+D2
+The fungus field continues.
+~
+~
+0 0 36258
+S
+#36261
+&+GSouth of the Great Llzazan Lake&N~
+   To the north of this protion of the fungus farms, the Great Llzazan Lake
+extends wavelessly across this great cavern. The fungus in this portion of
+the farms is of a strange iridescent purple color and stands about waist
+high on a Svirfneblin. It has a conical cap and a very short stalk making
+the edible portion of this fungus quite large. To the east the fungus
+fields end abruptly, giving way to large mushroom trees.
+~
+362 142639169 13
+D0
+The Great Llzazan Lake ends there.
+~
+~
+0 0 36299
+D1
+The Llzazan Mushroom Groves rise above the lake.
+~
+~
+0 0 36262
+D2
+The fungus fields continue.
+~
+~
+0 0 36259
+D3
+Hell Road stretches across the fungus fields.
+~
+~
+0 0 36237
+S
+#36262
+&+WEntrance to the Llzazan Mushroom Groves&N~
+   Thousands of mushrooms tower high overhead here, their stalks extending to
+as much as 60 feet above the cavern floor. The caps of these mushrooms must
+be at least twenty feet across and weigh hundreds of pounds. Smaller
+mushrooms grow in colonies around the base of these great mushrooms, making
+footing somewhat treacherous through the forest as they obscure the ground.
+To the north, the Great Llzazan Lake extends across the great cavern here.
+To the south, the cavern wall abruptly falls from a great height obscured
+by the mushroom canopy.
+~
+362 142639173 13
+D0
+The Great Llzazan Lake extends across the middle of the cavern.
+~
+~
+0 0 36300
+D1
+The Llzazan Mushroom Groves Continue.
+~
+~
+0 0 36263
+D2
+~
+~
+0 0 805516
+D3
+The groves end at the beginning of the fungus farms.
+~
+~
+0 0 36261
+S
+#36263
+&+WThe Llzazan Mushroom Groves&N~
+   This grove of giant mushrooms has all the features of a surface forest.
+Majestic mushroom stalks extend like tree trunks above the floor of this
+grove. Small mushrooms clustered around the base of these greater mushrooms
+make up a semblance of underbrush as well as obscure the ground. The caps
+of the great mushrooms must be twenty to thirty feet across. Spores the
+size of grapefruit fall from these great caps, floating softly downward
+to land in a pile of dust.
+~
+362 142639169 13
+D0
+The Llzazan Mushroom Groves continue.
+~
+~
+0 0 36312
+D1
+The Llzazan Mushroom Groves continue.
+~
+~
+0 0 36264
+D3
+The Llzazan Mushroom Groves continue.
+~
+~
+0 0 36262
+S
+#36264
+&+WHeart of the Llzazan Mushroom Groves.&N~
+   The Mushrooms here have incredible trunks reaching almost eighty feet into
+the cavern sky. The canopy of mushroom caps completely obscures the cavern
+roof. The grund here is sparsely covered with small mushroom colonies, but
+for the most part it is just a mass of turfy substrate on which these giant
+mushrooms feed. Spore balls the size of grapefruit slowly float to the ground
+to be collected later by the Svirfneblin slaves. The cavern ends abruptly to
+the south, but the mushroom grove contineus in all directions.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36313
+D1
+The mushroom groves continue.
+~
+~
+0 0 36265
+D3
+The mushroom groves continue.
+~
+~
+0 0 36263
+S
+#36265
+&+WThe Llzazan Mushroom Groves at the Lakeshore&N~
+   Thousands of giant mushrooms hover overhead, depositing and endless
+stream of grapefruit sized spore balls on both the ground here and the lake
+to the north and east. To the south and west the mushroom grove continues
+along the lakeshore. The ground here is made ov a very moist and turfy
+substrate. A chopping sound echos in from the south.
+~
+362 142639169 13
+D0
+Llzazan Lake extends across the cavern.
+~
+~
+0 0 36306
+D1
+Llzazan Lake extends across the cavern.
+~
+~
+0 0 36309
+D2
+The mushroom groves continue.
+~
+~
+0 0 36266
+D3
+The mushroom groves continue.
+~
+~
+0 0 36264
+S
+#36266
+&+WFallen Mushrooms&N~
+   Someone or something has felled many of the mushrooms in this portion
+of the Llzazan Mushroom Groves. Huge mushroom stalks lie like tree trunks
+along the ground. some on single pieces, others shattered into many small
+pieces of stalk. A few mighty mushrooms stand above the carnage of their
+ilk here, waiting for their chance to fall.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36265
+D1
+The mushroom groves continue.
+~
+~
+0 0 36267
+D2
+The mushroom groves continue.
+~
+~
+0 0 36268
+S
+#36267
+&+WWatersedge in the Llzazan Mushroom Grove&N~
+   The grove ends abruptly to the north and east at the shore of the great
+Llzazan lake. Large mushroom stalks are lined up at the waters edge for
+transport across the lake and into the Llzazan Ghetto for milling and
+hardening. There are very feww mushrooms standing here as most have been
+cut down for milling.
+~
+362 142639169 13
+D0
+The Great Llzazan Lake expands to the north.
+~
+~
+0 0 36309
+D1
+The Great Llzazan Lake ends to the east.
+~
+~
+0 0 36311
+D2
+The mushroom groves continue.
+~
+~
+0 0 36269
+D3
+The mushroom groves continue.
+~
+~
+0 0 36266
+S
+#36268
+&+WThe Llzazan Mushroom Grove&N~
+   Huge mushrooms tower high overhead, some ranging as tall as eighty feet
+above the ground. Large grapeforuit sized spore balls lazily float down
+from these great heights to settle gently on the ground in a small puff
+of dust. To the south and west the cavern walls enclose this grove of
+mushroom-trees.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36266
+D1
+The mushroom groves continue.
+~
+~
+0 0 36269
+S
+#36269
+&+WThe Great LLzazan Mushroom Grove&N~
+   High overehead, a canopy of mushroom caps blossoms from thousands of
+mighty stalks of mushroom-trees. These caps are maybe thirty feet in
+diameter and the lowest of them come no closer than 60 feet to the
+substrate floor of the cavern from which they sprout. To the northeast
+the Great Llzazan lake reaches ist southmost terminus.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36267
+D1
+The mushroom groves continue.
+~
+~
+0 0 36270
+D3
+The mushroom groves continue.
+~
+~
+0 0 36268
+S
+#36270
+&+WMushroom Grove at the South End of The Lake&N~
+   The Mushroom grove is thin here as the south end of the lake confines it
+to a narrow strip between the lakes end and the cavern wall. To the east and
+west the grove extends, but to the north the lake extends for a good distance
+across this cavern before curving to the west. Small spore balls float on
+the surface of the lake here, landing so softly they produce nary a wave as
+they strike the lakes mirror-like surface.
+~
+362 142639169 13
+D0
+The Great Llzazan Lake extends northwards.
+~
+~
+0 0 36311
+D1
+The mushroom groves continue.
+~
+~
+0 0 36271
+D3
+The mushroom groves continue.
+~
+~
+0 0 36269
+S
+#36271
+&+WSoutheast Corner of the Great Llzazan Cavern.&N~
+   This portion oif the cavern is a combination of beach and forest, as it
+serves as the shore of the Great Llzazan Lake and substrate for the grove
+of mushroom trees that predominates this end of the cavern. The cavern walls
+rise to a height of almost 200 feet above to the east and south. To the
+north, the grove and beach continue along the eastern wall of the Great
+Llzazan Cavern.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36272
+D3
+The mushroom groves continue.
+~
+~
+0 0 36270
+S
+#36272
+&+WMushroom Grove at the East End of the Lake&N~
+   The mushrroms here grow tall and in great quantities, stretching some
+seventy feet into the the cavern above. The east side of this portion of
+the grove is bordered by the cavern wall, rising abruptly to two hundred
+feet overhead. The west side is bordered by the Great Llzazan Lake, which
+shimmers in the light provided by the durithalite veins in the cave
+ceiling.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36273
+D2
+The mushroom groves continue.
+~
+~
+0 0 36271
+D3
+The great Llzazan Lake lies wavelessly to the west.
+~
+~
+0 0 36311
+S
+#36273
+&+WThe Llzazan Mushroom Grove on the Lakeshore&N~
+   Llzazan lake extends to the west of here, not a single wave marrs its
+glassy surface. High above, giant mushroom trees loom midway between the
+the floor and ceiling of this great cavern. The floor of this grove is
+very moist and trufy, a perfect substrate for the giant fungi that have
+overwhelmed this portion of the cavern.
+~
+362 142639169 13
+D0
+The mushroom groves continue.
+~
+~
+0 0 36274
+D2
+The mushroom groves continue.
+~
+~
+0 0 36272
+D3
+The Great Llzazan Lake shimmers under the glow of the durithalite ceiling.
+~
+~
+0 0 36310
+S
+#36274
+&+WEdge of the Llzazan Mushroom Groves&N~
+   The groves end rather abruptly to the north as the giant mushrooms give
+way to clusters of low lichens and small fungus that are used to feed the
+rothe cattle of the deep. Here, however, majestic mushrooms climb high
+overhead, dropping spore balls that gently float both to the forest floor
+and to land on the lake to the west.
+~
+362 142639169 13
+D0
+The rothe pasture stretches to the north.
+~
+~
+0 0 36275
+D2
+The mushroom groves continue.
+~
+~
+0 0 36273
+D3
+The Great Llzazan Lake continues.
+~
+~
+0 0 36308
+S
+#36275
+&+YSoutheast Corner of the Rothe Pasture&N~
+   The fungus here is cropped very short to the ground uniformly, providing
+the cavern floor with a soft spongy turf. It also very rich in the
+concentration of the low fungus, feeding off the highly nutritious substrate
+that is both fertilized by rothe excrement and svirfneblin flesh. Bones of
+gnome and cow alike are scattered through the plush turf.
+~
+362 142639169 13
+D0
+The rothe fields continue.
+~
+~
+0 0 36277
+D1
+A tunnel extends towards the Llzazan Ghetto.
+~
+~
+0 0 36393
+D2
+The mushroom groves rise high overhead.
+~
+~
+0 0 36274
+D3
+The rothe pasture continues.
+~
+~
+0 0 36276
+S
+#36276
+&+YRothe Pasture on the Lakeshore&N~
+   The turf here is quite soggy as it gently slopes into the Great Llzazan
+Lake. It is hard to put a clear distinction on where pasture ends and lake
+begins. The rothe dont seem to mind however, as excrement litters both the
+fungus turf and floats on top of the water. To the north and east the
+pasture continues. To the south and west the lake deepens.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36278
+D1
+The pasture continues.
+~
+~
+0 0 36275
+D2
+The Great Llzazan Lake continues.
+~
+~
+0 0 36308
+D3
+The Great Llzazan Lake continues.
+~
+~
+0 0 36305
+S
+#36277
+&+YEastern End of the Rothe Pasture&N~
+   The pasture here is somewhat higher than in other portions of these
+fields and the incdence of rothe scat somewhat less, demonstrating the
+realtive disuse of this portion of the field. The fungus here is more of
+a rust color, especially where it comes close to the cavern wall that rises
+some thrity feet to the east.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36279
+D2
+The pasture continues.
+~
+~
+0 0 36275
+D3
+The pasture continues.
+~
+~
+0 0 36278
+S
+#36278
+&+YIn the Rothe Pastures of the Llzazan Cavern&N~
+   The rothe fields are very lush here both with fungus and excrement. Huge
+piles of steaming rothe scat grace the green-yellow fingus of this portion
+of the cave. The cavern ceiling rises about fourty fett overhead here, quite
+low compared to the height it reaches across the lake to the south, where
+giant mushroom trees stretch high above the lake's surface.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36280
+D1
+The pasture continues.
+~
+~
+0 0 36277
+D2
+The pasture continues.
+~
+~
+0 0 36276
+D3
+The pasture continues.
+~
+~
+0 0 36287
+S
+#36279
+&+YEast End of the Rothe Cattle Fields&N~
+   The fungus grows red and long in this portion of the field. Obviously, the
+rothe do not have as much an appetite for this type of fungus as the
+incidence of rothe exrement is greatly diminished here. The cavern wall to
+the east is thickly veined with durithalite adding to the reddish tinge
+of the strange fungal turf that carpets the cavern floor.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36281
+D2
+The pasture continues.
+~
+~
+0 0 36277
+D3
+The pasture continues.
+~
+~
+0 0 36280
+S
+#36280
+&+YIn the Rothe Pasture&N~
+   It really stinks here! There are many odors of the underworld, but few to
+be feared as much as the combination of rothe hide, rothe scat, svirfneblin
+sweat and decomposing svirfneblin and rothe corpses. The method of harvesting
+the rothe from their pasture is very efficient. That which does not become
+drow dinner is left on the field to rot to become substrate for new pasture.
+The corpses of the butchered svirfneblin slaves who have not met the cruel
+performance standards of their wicked drow masters bear witness to their fate
+worse than that of the rothe. It is rumored that svirfneblin steaks are
+served in the houses of the lower class drow.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36282
+D1
+The pasture continues.
+~
+~
+0 0 36279
+D2
+The pasture continues.
+~
+~
+0 0 36278
+D3
+The pasture continues.
+~
+~
+0 0 36286
+S
+#36281
+&+YNortheast Corner of the Rothe Pasture&N~
+   The pasture here takes on a rust colored tinge as the essence of
+durithalite seeps into the fungus itself. The ceiling and walls of the cave
+close together allowing for only a small tunnel to trail off to the north
+from here. The noises of a large drow city are readily apparent as they
+echo through the tunnel and out across the pasture here.
+~
+362 142639169 13
+D0
+The tunnel heads towards the East Gates of Arachdrathos.
+~
+~
+0 0 36283
+D2
+The pasture continues.
+~
+~
+0 0 36279
+D3
+The pasture continues.
+~
+~
+0 0 36282
+S
+#36282
+&+YNorth End of the Rothe Pasture&N~
+   The fungus carpet here is spotted with rothe chips, steaming as they
+softly reflect the ambience of the strange durithalite glow that is quite
+rich in this northmost portion of the Great Llzazan Cavern. To the south and
+west, a rich subterranean landscape stretches out around a waveless lake.
+Packets of mist hang ovehead, giving the illusion of clouds beneath what
+looks like a two hundred foot high cavern ceiling. A grove of massive
+mushroom trees rises to the south of the lake.
+~
+362 142639169 13
+D1
+The pasture continues.
+~
+~
+0 0 36281
+D2
+The pasture continues.
+~
+~
+0 0 36280
+S
+#36283
+&+LTunnel Before the East Gates of Arachdrathos&N~
+   The passageway here is very cylindrical, of a uniform ten foot diameter.
+The walls are very smooth and look almost glazed. A spiral of durithalite
+is seemingly etched in the cavern wall, providing a soft radiance to this
+cave that is far too dim for the eye of any surface dweller to detect, but
+is clear as a beacon to any drow.
+~
+362 142639177 15
+D0
+The tunnel continues towards Arachdrathos.
+~
+~
+0 0 36284
+D2
+The Great Llzazan Cavern is to the south.
+~
+~
+0 0 36281
+S
+#36284
+&+LTunnel Approaching the East Gates of Arachdrathos&N~
+   The tunnel her eis perfectly sommoth and about ten feet in diameter. A
+spiral of softly glowing durithalite decorates the walls of this tunnel,
+spiraling in or out depending on one's perspective. The noices of a large
+town can be heard echoing along the passageway from the north. To the south,
+the tunnel continues.
+~
+362 142639177 15
+D0
+The tunnel continues.
+~
+~
+0 0 36285
+D2
+~
+~
+0 0 36283
+S
+#36285
+&+rOutside the East Gates of Arachdrathos&N~
+   The East Gates of the legendary city of Arachdrathos are directly to the
+west. The city has a history of deceit and thievery, of war and strife, and
+of pain and death. Here in the heart of the Underworld, Arachdrathos is the
+epitome of all that is evil and unholy. It is rumored that there is a
+direct link to the web of Lolth somewhere behind these gates. Then again,
+that is just one of the many rumors that surround this city at the heart of
+the underworld.
+~
+362 142639177 15
+D2
+The tunnel continues.
+~
+~
+0 0 36284
+D3
+~
+~
+0 0 36573
+S
+#36286
+&+YNorth Side of the Rothe Fields&N~
+   The rothe fields are covered with lush fungus extending from the cavern
+wall to the north all the way south to the Great Llzazan Lake. The cavern
+floor, underneath its lush yellow fungus carpet, slopes gently to the
+south allowing condensed water to seep towards the lake. The walls are
+sparsely veined with durithalite here, making this portion of the cavern
+exceptionally dark.
+~
+362 142639169 13
+D1
+The pasture continues.
+~
+~
+0 0 36280
+D2
+The pasture continues.
+~
+~
+0 0 36287
+D3
+The pasture continues.
+~
+~
+0 0 36288
+S
+#36287
+&+YIn the Rothe Fields North of the Great Llzazan Lake&N~
+   The pasture here is very well groomed, all to a uniform low hieght. The
+yellow fungus that coats these fields has been carefully eaten by hundreds
+of rothe cattle. The other evidence of this is the mass amounts of rothe
+pies laying about in the fields, some of which are so fresh they are
+still steaming.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36286
+D1
+The pasture continues.
+~
+~
+0 0 36278
+D2
+The shore of the Great Llzazan Lake is there.
+~
+~
+0 0 36308
+D3
+The pasture continues.
+~
+~
+0 0 36289
+S
+#36288
+&+YNorth Side of the Rothe Fields&N~
+   The cavern walls make a formidable fence around this pasture to the north
+and west. They glow softly with a light concentration of durithalite veins
+and the normally yellow fungus of this pasture is tinged with red as it
+approaches the cavern walls. TO the south and east the pasture continues
+towards a large lake.
+~
+362 142639169 13
+D1
+The pasture continues.
+~
+~
+0 0 36286
+D2
+The pasture continues.
+~
+~
+0 0 36289
+S
+#36289
+&+YRothe Pasture on the Lakeshore&N~
+   The rothe fields become more and more soggy here until they completely
+submerge themselves in the waters of the Great Llzazan Lake. The evidence
+of recent use of this field is quite clear. Both the yellow fungus is
+cropped quite short and there is an abundance of rothe pies in the field.
+A couple svrifneblin carcasses have been left about to help fertilize the
+field.
+~
+362 142639169 13
+D0
+The pasture continues.
+~
+~
+0 0 36288
+D1
+The pasture continues.
+~
+~
+0 0 36287
+D2
+The pasture dips below the lakes surface.
+~
+~
+0 0 36304
+D3
+The pasture continues.
+~
+~
+0 0 36290
+S
+#36290
+&+YA Really Crappy Room&N~
+   This room is absolutely vile. The rothe seem to have made this a
+community dumping ground. Long tendlris of a grass like yellow fungus
+weave their way through clods of rothe droppings. Extreme care must be
+take when walking to avoid coating ones boots in the festering excerement
+that proliferates along the terrain here.
+~
+362 142639169 13
+D1
+The pasture continues.
+~
+~
+0 0 36289
+D2
+The Great Llzazan Lake lies to the south.
+~
+~
+0 0 36303
+D3
+The pasture continues.
+~
+~
+0 0 36291
+S
+#36291
+&+YWest End of a Yellow Fungus Field&N~
+   To the north, that cave wall blocks travel. To the south, the Great
+Llzazan Lake stretches out both cold and waveless. To the west, Hell
+road passes in front of the Arachdrathos city gates. TO the east, however,
+there lies a huge field of short cropped yellow fungus grazed by what looks
+like hundreds, if not thousands of rothe cattle.
+~
+362 142639169 13
+D1
+The pasture continues.
+~
+~
+0 0 36290
+D2
+The lake is there.
+~
+~
+0 0 36302
+D3
+Hell Road leads into the city of Arachdrathos
+~
+~
+0 0 36242
+S
+#36292
+&+RNortheast Corner of the Flaming Fungus Fields&N~
+   The fungus grown here is an Arachdrathos delicacy. Flaming Fungus is
+known for its spicy taste and vibrant red and orange caps. The organism
+looks much like a mushroom, that has been colored red until eaten, then
+it makes its distinction known. A famous drow wine, known as Fyverwaztr
+is made form this fungus.
+~
+362 142639169 13
+D1
+Hell road is there.
+~
+~
+0 0 36241
+D2
+Hell road is there.
+~
+~
+0 0 36239
+D3
+The fields continue.
+~
+~
+0 0 36293
+S
+#36293
+&+RAmong the Flaming Fungus&N~
+   With the exception of its effect on tastebuds, this fungus is no more
+flammible than any other mushroom, but is is legendary throughout the
+realms as one of the finest fungi around. It can only be grown in the
+northwest corener of the Llzazan Cavern and clansmen have been known
+to sell their kindred into drow slavery for a bottle of wine made from
+this bright red-orange fungus.
+~
+362 142639169 13
+D1
+The fields of fungus continue.
+~
+~
+0 0 36292
+D2
+The fields of fungus continue.
+~
+~
+0 0 36294
+S
+#36294
+&+RIn the Flaming Fungus Fields&N~
+   The mushrooms here have a bright red color to them, and the smell of a
+field of them like this can irrate both eyes and nose. This is a field
+of the legendary Flaming Fungus, known throughout the realms as the finest
+from the fields of Arachdrathos. Hell road is to the east and the fields
+continue to the south and west.
+~
+362 142639169 13
+D0
+The fields continue.
+~
+~
+0 0 36293
+D1
+Hell Road is to the east.
+~
+~
+0 0 36239
+D2
+The fields continue.
+~
+~
+0 0 36295
+D3
+The fields continue.
+~
+~
+0 0 36298
+S
+#36295
+&+RSouth End of the Flaming Fungus Fields&N~
+   The fungus fields here end abruptly as they reach a large stone dwelling
+to the south. East of there, Hell Road travels north and south. To the north
+and west the fungus fields continue, almsot radiant with the bright orange
+flaming fungus. These mushrooms are the pride of the Arachdrathos Llzazan
+Fungus Farms, as is the wine Fyverwaztr that is made from them.
+~
+362 142639169 13
+D0
+The fields continue.
+~
+~
+0 0 36294
+D1
+Hell Road is there.
+~
+~
+0 0 36238
+D3
+The fields continue.
+~
+~
+0 0 36296
+S
+#36296
+&+RFlaming Fungus Fields&N~
+   The fields here extend to the north east and west. To the south there is
+a large building that is made of pure basalt with a mushroom stalk roof. The
+bright orange red mushrooms grow densly up against the building wall and
+continue in thich rows running northwards away from the building. Runners
+flare out around the base of the mushrooms making footing in between the
+rows tricky, but not treacherous.
+~
+362 142639169 13
+D0
+The fields continue.
+~
+~
+0 0 36298
+D1
+The fields continue.
+~
+~
+0 0 36295
+D3
+The fields continue.
+~
+~
+0 0 36297
+S
+#36297
+&+LRockpile&N in the &+RFlaming Fungus Fields&N~
+   The fields here are littered with large thin slabs of basalt here, piled
+up to create a strange mass of plates with lots of holes in between the
+haphazard layers of rock. Around the rock pile lots of small red and orange
+mushrooms grow, better known as the flaming fungus, famous from its uses in
+Fyverwatzr, the spiciest of the drow wines.
+~
+362 142639169 13
+D1
+The fields continue.
+~
+~
+0 0 36296
+D2
+The fields continue.
+~
+~
+0 0 36260
+D5
+There is a strange passageway there
+~
+rock slab~
+5 2147483647 36246
+S
+#36298
+&+RMash Pit in the Flaming Fungus Fields&N~
+   The fields here stop abruptly at the rim of a large shallow pit. The pit
+is about ten feet wide and three feet deep and makes vritally a perfect
+circle in the ground. This is where the svirfneblin stomp the precious
+juices out of the flaming fungus to give the drow winemakers the wine mash
+they need to make the precious Fyverwaztr for export from Arachdrathos.
+~
+362 142639169 13
+D1
+The fields contimue.
+~
+~
+0 0 36294
+D2
+The fields continue.
+~
+~
+0 0 36296
+S
+#36299
+&+BWest end of the Great Llzazan Lake&N~
+   This lake had a mirror like sruface until some clod decided to stir it
+up by exporing it. Small ripples reflect the dim glow of durithalite in the
+ceiling high above. To the north and west sides of the lake it is bordered
+by hell road. To the south, the entrance of the mushroom groves is nearby.
+The lake continues to the east.
+~
+362 142643265 7
+D0
+Hell Road runs by the lakeshore.
+~
+~
+0 0 36240
+D1
+The lake continues.
+~
+~
+0 0 36300
+D2
+The Entrance to the giant mushroom grove is there.
+~
+~
+0 0 36261
+D3
+Hell Road runs by the lakeshore.
+~
+~
+0 0 36238
+S
+#36300
+&+BOn Llzazan Lake&N~
+   The lake bends form west to north here as it skirts the northern end of
+the giant mushroom groves. To the east and south giant mushrooms rise high
+above the lakes surfacxe dropping spore balls that slowly float to the
+surface of the lake. The lakes surface was still until it was disturbed by
+some morons who decided to explore its surface.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36301
+D1
+The Mushroom Grove is there.
+~
+~
+0 0 36312
+D2
+The Mushroom Grove is there.
+~
+~
+0 0 36262
+D3
+The lake continues.
+~
+~
+0 0 36299
+S
+#36301
+&+BNorthwest Shore of the Great Llzazan Lake&N~
+   The lake is very still and calm here. It reflects the ceiling of the
+cavern perfectly as the dim veins of durithalite glowing there trace out
+a web on the water. The city gates of Arachdrathos lie a bit to the north
+of the lakeshore and the lake continues to the south and east. Tall
+mushrooms tower above the southern side of the lake.
+~
+362 142643265 7
+D0
+Hell Road is to the North of the lake.
+~
+~
+0 0 36242
+D1
+The lake continues.
+~
+~
+0 0 36302
+D2
+The lake continues.
+~
+~
+0 0 36300
+D3
+Hell Road runs along the lakeshore.
+~
+~
+0 0 36240
+S
+#36302
+&+BThe Great Llzazan Lake&N~
+   The lake continues form west to east here, or east to west depending
+on the particular point of view of the observer. To the north there is a
+narrow swath of pasture before the Llzazan cavern terminates at a wall.
+To the south, a huge stand of giant mushrooms towers overhead, reaching
+nearly halfway to the cavern ceiling.
+~
+362 142643265 7
+D0
+There is a narrow strip of shore there.
+~
+~
+0 0 36291
+D1
+The lake continues.
+~
+~
+0 0 36303
+D2
+The Mushroom forest is huge!
+~
+~
+0 0 36312
+D3
+The lake continues.
+~
+~
+0 0 36301
+S
+#36303
+&+BOn the Great Llzazan Lake&N~
+   The lake here is very clear, very smooth and very cold. Strange hollow
+echoes reverberate across the water, causing tiny ripples in the water's
+surface. To the north a festering beach loaded with rothe excrement travels
+between the cavern wall and the lake. To the south there is a dense mushroom
+grove.
+~
+362 142647361 7
+D0
+The lakeshore is there.
+~
+~
+0 0 36290
+D1
+The lake continues.
+~
+~
+0 0 36304
+D2
+The lakeshore is there.
+~
+~
+0 0 36313
+D3
+The lake continues.
+~
+~
+0 0 36302
+S
+#36304
+&+BOn the Lake Near the Rothe Fields&N~
+   The Lake continues to the west, east, and south. To the north it is
+replaced by a pasture of lush yellow fungus. The water here is very clear
+and very cold. Small ripples are formed by the echoing of strange sounds
+across the water. The auditory experience here is quite unreal, very
+hollow and reminiscent of one of the finer effects of eating the mildly
+toxic mushrooms of Vlan A'halor.
+~
+362 142643265 7
+D0
+The pasture is there.
+~
+~
+0 0 36289
+D1
+The lake continues.
+~
+~
+0 0 36305
+D2
+The lake continues.
+~
+~
+0 0 36306
+D3
+The lake continues.
+~
+~
+0 0 36303
+C
+10 2
+S
+#36305
+&+BNortheast Corner of the Great Llzazan Lake&N~
+   The lake here extends to the west and south, expanding towards a grove of
+giant mushrooms, some of which seem to tower almost a hundred feet overhead.
+The water here is very still, very clear and very cold. High overhead the
+ceiling of this cavern glows dimly with a rich quantity of durithalite,
+reflecting softly on the water in the darkness.
+~
+362 142643265 7
+D0
+The pasture is there.
+~
+~
+0 0 36287
+D1
+The pasture is there.
+~
+~
+0 0 36276
+D2
+An odd splashing sound can be heard from there.
+~
+~
+0 0 36307
+D3
+The lake continues.
+~
+~
+0 0 36304
+C
+10 3
+S
+#36306
+&+BNear the Mushroom Grove on the Great Llzazan Lake&N~
+   The giant mushrooms overhang the lake slightly here, their huge caps some
+eighty feet above the water's surface. The water is very clear and cold and
+incredibly still, its mirrorlike surface reflecing up at the cave ceiling
+and at the gills on the underside of the giant mushroom caps. To the north
+and east the lake continues.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36304
+D1
+The lake continues.
+~
+~
+0 0 36307
+D2
+The grove of mushrooms lines the lake.
+~
+~
+0 0 36265
+D3
+The grove of mushrooms lines the lake.
+~
+~
+0 0 36313
+C
+10 1
+S
+#36307
+&+BT&+Cu&+Wr&+Bb&+Wu&+Cl&+Be&+Cn&+Wt&+B Water&N~
+   The water pitches and rolls here, large waves crash and splash amongst
+themselves, roiling the lake into a white foam. The oddness of it is, the
+waves only seem to be spashing within a fifty foot circle and the water
+outside this circle is as smooth as even the finest mirror.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36305
+D1
+The lake continues.
+~
+~
+0 0 36308
+D2
+The lake continues.
+~
+~
+0 0 36309
+D3
+The lake continues.
+~
+~
+0 0 36306
+S
+#36308
+&+BThe Great Llzazan Lake&N~
+   The lake here continues to the south and west. The water is very still,
+very clear, and very cold. To the north, there is a large pasture of yellow
+fungus that is closely cropped. To the east a grove of giant mushrooms hugs
+the lakeshore. The cavern ceiling towers about two hundred feet overhead
+in this portion of the cavern, softly glowing with the durithalite veins
+etched in its surface.
+~
+362 142643265 7
+D0
+The lake ends at some pastures.
+~
+~
+0 0 36276
+D1
+The lake ends at a mushroom grove.
+~
+~
+0 0 36274
+D2
+The lake continues.
+~
+~
+0 0 36310
+D3
+The lake continues.
+~
+~
+0 0 36307
+C
+10 2
+S
+#36309
+&+BLlzazan Lake Near the Mushroom Grove.&N~
+   The lake skirst along the edge of a grove of high mushroom trees. It is
+directly under the caps of the great mushrooms and recieves a shower of
+spores that slowy float to the water's surface from the great height above.
+The lake continues to the north and east, while it is boardered by the
+grove both to the south and the west.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36307
+D1
+The lake continues.
+~
+~
+0 0 36310
+D2
+The mushroom grove runs by the lakeshore.
+~
+~
+0 0 36267
+D3
+The mushroom grove runs along the lakeshore.
+~
+~
+0 0 36265
+C
+10 0
+S
+#36310
+&+BEast End of the Great Llzazan Lake.&N~
+   The lake runs from this point back to the north and west, as well as
+continuing slightly to the south. The mushroom grove almost totally encloses
+this portion of the lake, leaving only a thin vista on the gates to the
+great city of arachdrathos to the northwest. Large spore balls float down
+from mushroom caps high above to land softly on the water.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36308
+D1
+The mushroom grove runs along the lakeshore
+~
+~
+0 0 36273
+D2
+The lake continues to a small inlet.
+~
+~
+0 0 36311
+D3
+The lake continues.
+~
+~
+0 0 36309
+C
+10 3
+S
+#36311
+&+BSmall Southern Inlet&N~
+   The lake here vanished back into the mushroom groves. large mushroom
+stalks shoot up through the water, stretching skward to blossom into a
+giant mushroom cap. These caps drop bright yellow spore balls that float
+lazily to the watyers surface, leaving hardly a ripple on impact. The lake
+continues to the north.
+~
+362 142643265 7
+D0
+The lake continues.
+~
+~
+0 0 36310
+D1
+The mushroom grove hugs the lakeshore.
+~
+~
+0 0 36272
+D2
+The mushroom grove hugs the lakeshore.
+~
+~
+0 0 36270
+D3
+The mushroom grove hugs the lakeshore.
+~
+~
+0 0 36267
+S
+#36312
+&+WWest side of a Mushroom Peninsula.&N~
+   This small peninsula is bordered here to the north and west by the Great
+Llzazan Lake. Huge mushrooms erupt form the ground ehre shooting skyward to
+tower eighty feet overhead. Giant mushroom caps some thirty feet in diameter
+continually rain spores on the ground here, which disintegrate in a puff of
+dust under a heavy boot. The land continues to the east and south.
+~
+362 142639169 13
+D0
+The lake is there.
+~
+~
+0 0 36302
+D1
+The grove continues.
+~
+~
+0 0 36313
+D2
+The grove continues.
+~
+~
+0 0 36263
+D3
+The lake is there.
+~
+~
+0 0 36300
+S
+#36313
+&+WEast Side of a Mushroom Peninsula&N~
+   The mushroom grove here is bounded by water on two sides, to the north
+and to the east. To the west however, the peninsula continues, and the grove
+also continues to the south. Tall mushrooms reaching about eighty feet
+in height preside over this meninsula, and drop spore balls that slowly
+and lazily float to the surface where they land in a puff of dust.
+~
+362 142639169 13
+D0
+The lake is there.
+~
+~
+0 0 36303
+D1
+The lake is there.
+~
+~
+0 0 36306
+D2
+The grove continues.
+~
+~
+0 0 36264
+D3
+The peninsula continues.
+~
+~
+0 0 36312
+S
+#36314
+&+RAn odd bend on Llzazan Road&N~
+   The road here is much more of a cave than a road, as there is no sign of
+a building anywhere adjasecnt to this section of the road. The road does,
+however, make a sharp bend upwards into a noisy section of the ghetto. It
+also curves to the east into a quieter section of the gehetto.
+~
+362 142639169 14
+D1
+Llzazan Road continues.
+~
+~
+0 2147483647 36315
+D4
+Llzazan Road continues.
+~
+~
+0 2147483647 36343
+S
+#36315
+&+RThe Llzazan Road&N~
+   The road runs form west to east here, as it passes through a tunnel
+connecting two of the small caverns that constitute the Llzazan Ghetto.
+sparse amounts of durithalite dot the walls here, casting their dull red
+radiance along the tunnel at a level so low the tunnel seems dark to even
+Drow eyes.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36316
+D3
+The road continues.
+~
+~
+0 2147483647 36314
+S
+#36316
+&+RLlzazan Road Through a Small Cavern&N~
+   The road here passes in front of a small stone structure as it continues
+its east west journey. The abode to the south seems tobe a dwelling of some
+sort. A small window is on the wall of the abode, allowing the denizens to
+peer out onto the street from behind a thick window dressing of svirfneblin
+skin.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36317
+D2
+There is an abode there.
+~
+~
+0 2147483647 36321
+D3
+The road continues.
+~
+~
+0 2147483647 36315
+S
+#36317
+&+ROn Llzazan Road Before a Small Abode&N~
+   The road here passes before a small abode. The walls of the dwelling are
+made of slat black stone and the roof made of pereserved mushroom stalks.
+There is a simple window covered with what appears to be Svirfneblin skin
+allowing the occupants of this abode to look out onto the street here. The
+road continues to the west and east.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36318
+D2
+The doorway to the abode is open.
+~
+~
+0 2147483647 36322
+D3
+The road continues.
+~
+~
+0 2147483647 36316
+S
+#36318
+&+RThe Llzazan Road&N~
+   The road here passes before the house of Dzara the Silk Weaver. Large
+spools of silk stand at either side of her door, probably harvested from
+the cave fishers of this portion of the underworld. The house itself is
+quite small, with stone walls and a mushroom stalk roof. The road continues
+to the east and west.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36319
+D2
+The cottage door is open.
+~
+~
+0 2147483647 36323
+D3
+The road continues.
+~
+~
+0 2147483647 36317
+S
+#36319
+&+RThe Llzazan Road&N~
+   The road here runs form west to east through a narrow tunnel hewn in the
+durithalite veind basalt of this cavern. To the east a great deal of sound
+can be heard, while to the west, the cave is almost silent. The walls of the
+cavern are very smooth here, and the tunnel is almost a perfect cylindar. A
+slight breeze blows in from the west.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36320
+D3
+The road continues.
+~
+~
+0 2147483647 36318
+S
+#36320
+&+RBend in the Llzazan Road&N~
+   The road here passes through a narrow rounded tunnel, the walls are
+lightly lined with the glowing red stone durithalite. The tunnel takes a
+west to south turn here, as it connects two of the small caverns that
+make up the Llzazan ghetto. A soft breeze blows in from the west.
+~
+362 142639169 14
+D2
+The tunnel continues.
+~
+~
+0 2147483647 36325
+D3
+The tunnel continues.
+~
+~
+0 2147483647 36319
+S
+#36321
+&+rA Small Abode&N~
+   This is the dwelling of a drow laborer. The walls of the dwelling are made
+of cold black stone, and a svirfneblinskin-covered window is the only
+feature of these walls save the door itself. There is a low bed made from
+a pile of rothe skins in one corner of the room, and a mushroom stalk table
+in another. A small fire ring serves as a kitchen under the window.
+~
+362 142639177 15
+D0
+The Llzazan Road is out the doorway.
+~
+~
+0 2147483647 36316
+S
+#36322
+&+rA Small Abode~
+   A small poor Drow family must live in this home. There are a bunch of
+rothe skins piled along the south wall of the house, which are probably
+used for sleeping during the Underworld nights. The north wall is
+featureless with the exception of a svirfneblinskin-covered window and a
+doorway leading out to the Llzazan road.
+~
+362 142639177 15
+D0
+The road is through the doorway.
+~
+~
+0 2147483647 36317
+S
+#36323
+&+rHome of Dzara the Weaver~
+   The home of Dzara also serves as her shop. Here she weaves the silk of
+spiders and cavefishers into garments fit for the lower class drow of the
+Llzazan Ghetto. There is a huge loom along the south wall of her abode and
+piles of silk and garments piled in a corner. The only exit from this room
+is a doorway to the north.
+~
+362 142639177 15
+D0
+The doorway leads to the Llzazan Road.
+~
+~
+0 2147483647 36318
+S
+#36324
+&+rAn Unused Guardpost&N~
+   This room is devoid of any furniture save a weapons rack, which is
+quite empty along the west wall. The durithalite elementals made this guard
+post totally useless, as they do not need the comforts of the former Drow
+foot partols that used to watch these streets of Arachdrathos. A small pile
+of bedding indicates that some poor soul has taken up refuge in this old
+building.
+~
+362 142639177 15
+D1
+Llzazan Road is out there.
+~
+~
+0 2147483647 36325
+S
+#36325
+&+RThe Llzazan Road&N~
+   The road here runs form north to south in one of the smallest caves of
+the Llzazan Ghetto. To the west side of the road there stand an old
+barrel like structure with a door and some arrow slits that looks much like
+an old guardpost once used to secure the Llzazan House territory from the
+other houses of Arachdrathos. Now it seems to be unused and in poor repair.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36320
+D2
+The road continues.
+~
+~
+0 2147483647 36327
+D3
+The old guardhouse is there.
+~
+~
+0 2147483647 36324
+S
+#36326
+&+rLlzazan Leather Goods&N~
+   This is perhaps the mosy unusual leather store in the realms. With the
+unavailability of rothe leather in this portion of the city of Arachdrathos
+the leather craftsmen of Llzazan have taken to making their wares out of
+svirfneblin skin. The room is littered with corpses of the ill fated gnomes
+many of whom have been skinned already.
+~
+362 142639177 15
+D2
+Barter Way is out there.
+~
+~
+0 2147483647 36330
+S
+#36327
+&+ROn the Llzazan Road through Barter Cave&N~
+   The Road here runs form north to south through the second largest cave of
+the Llzazan Ghetto, Bater Cave. This is the locale of many of the sleeziest
+and scummiest shops in the realms, where houseless Drow come to trade for
+parcel items of the absoulte lowest quality. The cave opens up more to the
+south and there are buildings to both the east and west of the road, neither
+of which have a door opening onto this street.
+~
+362 142639169 14
+D0
+Llzazan Road continues.
+~
+~
+0 2147483647 36325
+D2
+The Llzazan Road Continues.
+~
+~
+0 2147483647 36331
+S
+#36328
+&+rA Strange Laboratory.~
+   This is neither a shop nor a house but an odd yet gruesome laboratory of
+some sort. A huge cauldron is set into the north wall of this round stone
+dwelling and multiple flasks of strange liquids litter a huge basalt slab
+that stands in the center of the room. a roughly humanoid depression is
+carved in the center of the slab and stained red with fresh blood. Skinned
+humanoid corpses are piled in the corener of the room, festering mildly as
+they decompose.
+~
+362 142639177 15
+D2
+Barter way is through the doorway.
+~
+~
+0 2147483647 36332
+S
+#36329
+&+rThe Tavern of the Decapitated Dwarves&N~
+   Long ago, before the fall of House Llzazan to the combined Houses of
+Arachdrathos, this portion of the Llzazan Caverns was the site of a great
+battle, where Drow and Dwarf clashed over rich Durithalite deposits in
+the area. It was where this tavern now stands, that a contingent of Llzazan
+house nobles captured and executed a large band of Dwarven prisoners.
+Fourteen skulls are bolted to the west wall of this taverrn, directly above
+the bar. These fourteen skulls are the decapitated heads of the Dwarves the
+Llzazan Nobles siezed on that day. This odd shrine to drow battle prowess
+makes the Tavern of the Decapitated Dwarves one of the few sources of pride
+for the downtrodden people of the Llzazan Ghetto.
+~
+362 142639181 15
+D1
+Barter Way is there.
+~
+~
+0 2147483647 36330
+D2
+The Inn of the Decapitated Dwarves is there.
+~
+~
+0 2147483647 36334
+S
+#36330
+&+ROn Barter Way&N~
+  This road is the main, and virtually only center of commerce in the
+Llzazan Ghetto. The few remaining shopkeepers here try to eke out a living
+by selling second rate items at exceptionally high prices. The road is
+littered with refuse, broken mushroom timbers and rocks that have fallen
+from the partially collapsed shops on the north and south sides of the road.
+~
+362 142639169 14
+D0
+The Leather Shop is there.
+~
+~
+0 2147483647 36326
+D1
+The ruins of a elegant building are there.
+~
+~
+0 2147483647 36331
+D3
+The Tavern of the Decapitated Dwarves is there.
+~
+~
+0 2147483647 36329
+S
+#36331
+&+RA Formerly Elegant Intersection&N~
+   This is the intersection of the Llzazan Road and Barter Way. Here at this
+intersections the Elders of House Llzazan met to decide the fate of their
+house. It was here where many a battle plan was amde and many plot twisted.
+Now it is merely a simple street intersection surrounded by a few archaic
+stone columns and rubble of an domed ceiling. The roads continue in all
+cardinal directions from here.
+~
+362 142639169 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36327
+D1
+Barter Way continues.
+~
+~
+0 2147483647 36332
+D2
+The Llzazan Road continues.
+~
+~
+0 2147483647 36336
+D3
+Barter Way continues.
+~
+~
+0 2147483647 36330
+S
+#36332
+&+ROn Barter Way.&N~
+   The road goes west to east here as it winds through the Llzazan Ghetto
+Commercial District. Looking around it is readily apparent that the commerce
+of these drow of the Llzazan Ghetto is quite limited, as the shops that line
+this street are covered with rubble and refuse, and the street itself is a
+wasteland.
+~
+362 142639169 14
+D0
+There is a peculiar laboratory to the north.
+~
+~
+0 2147483647 36328
+D1
+There is a magic shop there.
+~
+~
+0 2147483647 36333
+D3
+There is an elaborate intersection there.
+~
+~
+0 2147483647 36331
+S
+#36333
+&+rThe Llzazan Magic Shop&N~
+   The walls of this shop are lined with heavy shelves that sag in the middle
+from some unseen weight, or from a weight that has long been lifted from
+these old shelves. The only load apparent now on them is the dust that has
+settled over what seems like ages, or at least since the shopkeeper invested
+any time in cleaning the joint. There is a doorway set in the south wall
+of the shop and a doorway leading back to the street in the west wall.
+~
+362 142639177 15
+D2
+There is a room of some sort to the south.
+~
+~
+0 2147483647 36338
+D3
+Barter Way is through the doorway.
+~
+~
+0 2147483647 36332
+S
+#36334
+&+rInn of the Decapitated Dwarves&N~
+   The room here serves as a haven for the weary and wealthy drow visiting
+the Llzazan Ghetto in serach of better prices on rothe and Flaming Fungus.
+It features hard beds made of cavefisher silk and mushroom timbers, ice
+cold water, and a slightly better degree of security than the streets of
+the ghetto. The walls and roof are crumbling and the whole structure looks
+as if it is about to become yet another meaningless pile of rubble littering
+the Llzazan Caves.
+~
+362 143163469 15
+D0
+The Tavern of the Decapitated Dwarves is there.
+~
+~
+0 2147483647 36329
+S
+#36335
+&+rRothe Reapers&N~
+   This shop caters to the overseers of the svirfneblin slaves. It carries
+all manner of equipment for both working the Fungus farms and motivating an
+unwilling slave. The walls of the shop are made of crudely cut sone, and
+compared to the other crumbling stone buildings in the ghetto this one looks
+rather recently repaired.
+~
+362 142639177 15
+D1
+The Llzazan Road is out there.
+~
+~
+0 2147483647 36336
+S
+#36336
+&+RThe Llzazan Road&N~
+   This road winds through the lowest of the drow settlements, the Llzazan
+ghetto. It is here the working drow take refuge from the tyrant lords of
+the Houses of Arachdrathos. The street is littered with rubble as buildings
+made of stone and mushroom timbers crumble under the relentless pressures
+of age. The road runs north and south here and there are stone houses to
+both the east and west. A sign saying 'Rothe Reapers' is prominently attached
+to the western building.
+~
+362 142639169 14
+D0
+There is a street intersection surrounded by pillars in that direction.
+~
+~
+0 2147483647 36331
+D1
+There is a dwelling of some sort there.
+~
+~
+0 2147483647 36337
+D2
+~
+~
+0 2147483647 36340
+D3
+~
+~
+0 2147483647 36335
+S
+#36337
+&+rA small abode&N~
+   This small stone dwelling is more like a pile of rubble than a home. A
+small pile of rothe hide lies crumpled in the northeast corner of this home
+and a small bucket lies in the southeast corner. What appears to have been a
+small window is now totally caved in, marking slightly more than a wide gap
+in the stones in the wall. A doorway leads to the west.
+~
+362 142639177 15
+D3
+The Llzazan Road is out there.
+~
+~
+0 2147483647 36336
+S
+#36338
+&+rAn Old Library&N~
+   The walls and ceiling of this stone and mushroom timbered abode are
+crumbling, turning the shop into a huge pile of rubble. Ancient mushroom
+timber bookshelves are almost completely covered with heavy pieces of basalt.
+A few battered and torn tomes of ancient lore lie amid the rubble, totally
+worthless, and an old counter rests at the west end of the library.
+~
+362 142639177 15
+D0
+The Magic Shop is there.
+~
+~
+0 2147483647 36333
+S
+#36339
+&+rAn Old Armor Shop&N~
+   The most interesting feature of this room is the huge armor racks made
+of mushroom timbers that supports the west wall and roof. Time has broken
+down this structure to make it barley more than a pile of rubble. There is
+an old counter in front of the empty armor racks, almost buried in the rubble
+that has fallen upon it from above.
+~
+362 142639177 15
+D1
+The Llzazan Road is out there.
+~
+~
+0 2147483647 36340
+S
+#36340
+&+ROn the Llzazan Road&N~
+   The road runs  to the north here as it climbs from a hole in the cave
+floor. The old armor and weapons shops are to the west and east, barely
+distinguishable from the other piles of rubble these drow of the Llzazan
+Ghetto pass off for houses. To the north, the cave opens up a bit more as
+it approaches barter way.
+~
+362 142639177 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36336
+D1
+The old Weapons Shop is there.
+~
+~
+0 2147483647 36341
+D3
+The old Armor Shop is there.
+~
+~
+0 2147483647 36339
+D5
+The road continues through a hole in the cave floor.
+~
+~
+0 2147483647 36366
+S
+#36341
+&+rAn Old Weapons Shop&N~
+   The display racks made of rushroom timbers that line the south wall of
+this shop are all but eroded form disuse. The east wall once sported the
+entrance to a forge, but the old door, as well as the forge were razed
+in the destruction of house Llzazan. All that stands today is a huge pile
+of rubble surrounded by three walls to the north, the south, and the west.
+~
+362 142639177 15
+D3
+The Llzazan Road runs by the doorway.
+~
+~
+0 2147483647 36340
+S
+#36342
+&+rGuard House of the Upper Ghetto&N~
+   Long since fallen into disuse, this old guardhouse has become a dwelling
+for some poor Drow commoner. The walls have been recently shorn and the roof
+patched to prevent the tossing of refuse over the low dwelling walls. A
+small pile of rothe furr lies in the northwest corner of the room, and a
+kettle in the center of the abode.
+~
+362 142639177 15
+D1
+The Llzazn Road is out there.
+~
+~
+0 2147483647 36343
+S
+#36343
+&+RLlzazan Road Above a Hole in the Cavern Floor~
+   The Road here continues from a hole in the floor to extend south through
+the high Llzazan Cavern, home to the Llzazan temple to the Demoness Lolth
+and the Lvyrach Armory. The nobles of Llzazan made this cavern their home and
+their pride. Luckily, it escaped the ravages of the Arachdrathos raid on
+house Llzazan.
+~
+362 142639177 14
+D2
+The Llzazan Road continues.
+~
+~
+0 2147483647 36348
+D3
+There is an old guardpost there.
+~
+~
+0 2147483647 36342
+D5
+The road descends into the lower Llzazan Ghetto.
+~
+~
+0 2147483647 36314
+S
+#36344
+&+RWest Wing of the Llzazan Temple of Lolth&N~
+   The walls here are made of smooth red marble, sculpted into towering
+buttresses and thin sheets of stone become almost transparent as they rise
+in arches towards the cavern roof. Frescoes cover the wall depicting the
+glory of Lolth and the conquest of the underworld from the lesser races.
+The floor is a giant spiderweb mosaic and the ceiling is lost in an almost
+infinite blackness overhead.
+~
+362 142639177 15
+D1
+The altar is there.
+~
+~
+0 2147483647 36345
+D2
+The wing continues.
+~
+~
+0 2147483647 36349
+S
+#36345
+&+rThe Great Altar of the Llzazan Temple&N~
+   This room has a raised Dais in the middle of it made of black obsidian
+glass. On top of the Dais there is a huge altar, which must weigh thousands
+of pounds also made out of obsidian. The walls of the room are made of a
+beautiful transluscent marble that is buttressed with huge durithalite
+columns as it clibs high overhead into some vacant nothingness above. The
+Temple continues to the south east and west, and a huge spider with the face
+of a beautiful drow maiden is etched into the marble on the north wall. A
+small moat filled with blood surrounds the dais and altar.
+~
+362 142639177 15
+D1
+The temple continues
+~
+~
+0 2147483647 36346
+D2
+The atrium is there.
+~
+~
+0 2147483647 36350
+D3
+The temple continues.
+~
+~
+0 2147483647 36344
+S
+#36346
+&+rEast Wing of the Temple of Lolth~
+   The temple here is butrssed heavily with durithalite columns and
+translucent slaps of marble. The floor is made of balck and white marble,
+veined to look like a spiderweb. A huge spider is made out of red tiles
+on the floor in the center of the web. The ceiling of the chamber is
+obscured in darkness as the marble walls arch overhead.
+~
+362 142639177 15
+D2
+The wing continues.
+~
+~
+0 2147483647 36351
+D3
+The altar is there.
+~
+~
+0 2147483647 36345
+S
+#36347
+&+rA Former Noble's House&N~
+   The former lavishness of this house is readily apparent. Ruined
+tapestries depicting the glory of House Llzazan and Lolth hang form the
+walls. Marred heavily by feces and other substances even less desirable.
+The lavish rotheskin carpet is torn in many places and burned in others,
+becoming evidence to the destruction the Houses of Arachdrathos dealt to
+the Llzazans.
+~
+362 142639177 15
+D1
+Llzazan Road is there.
+~
+~
+0 2147483647 36348
+S
+#36348
+&+RThe Llzazan Road&N~
+   The road travels form north to south here as it crosses the Upper Llzazan
+Cavern. There is a huge structure on the east side of the road entirely made
+of durithalite and translucent red marble. To the west side a large stone
+dwelling that looks somewhat charred stands in slightly poor repair. To the
+southwest there is a large building made of black crystal that extends to
+the south wall of this cavern.
+~
+362 142639169 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36343
+D2
+The Llzazan Road continues.
+~
+~
+0 2147483647 36353
+D3
+There is a large stone dwelling there.
+~
+~
+0 2147483647 36347
+S
+#36349
+&+rWest Wing of The Temple&N~
+   A huge fountain of blood cascades down the south wall here in a thick
+waterfall. The base of the founatin is made of pure obsidian glass as is
+the wall behind it. The east and west walls are made of a translucent marble
+that arched upwards to meet somewhere in the blackness above. The temple
+wing continues to the north, across an intricate spiderweb veined marble
+floor.
+~
+362 142639177 15
+D0
+The temple continues.
+~
+~
+0 2147483647 36344
+E
+fountain waterfall blood~
+The fountain is about 20 feet tall and made of Obsidian Glass. It has a thick
+waterfall of blood cascading down its surface. Ornate spiders are carved into
+the polished obsidian around the base of the fountain. A steady gurgling
+emanates form the fountain as well as the smell of blood.
+~
+S
+#36350
+&+RAtrium to the Temple of Lolth&N~
+   This temple is obviously erected to please the demoness Lolth. Huge
+spiders are carved in the east and west walls, both made of translucent thin
+marble slabs buttressed by durithalite columns. The floor depicts a great
+spiderweb made of white veins in the black marble surface. The two walls
+must reach a ceiling overhead, but it is lost in the darkness of  the space
+above in this temple.
+~
+362 142639177 15
+D0
+The temple continues.
+~
+~
+0 2147483647 36345
+D2
+Temple Way is there.
+~
+~
+0 2147483647 36355
+S
+#36351
+&+REast Wing of the Temple&N~
+   The walls of this temple are made of a thin translucent marble that arches
+upwards to meet high above at some unseen ceiling. The south wall is richly
+draped with a spidersilk curtain and the floor is made of polished black
+marble naturally (or supernaturally) etched with white veins to make a large
+spiderweb of the floor. The temple continues to the north.
+~
+362 142639177 15
+D0
+The temple wing continues.
+~
+~
+0 2147483647 36346
+D2
+The Sacrafice Preparation Room is behind the curtain.
+~
+curtain silk~
+1 2147483647 36356
+S
+#36352
+&+rThe Lyvrach Armory Master's Chambers&N~
+   In a time now only remebered in the dreams of the eldest drow, this armory
+was responsible for producing the most feared army of the underworld. After
+the sacing of Llzazan, this building was saves, but under the control of
+the armies of Arachdrathos, who now use it as a satellite training facility.
+The armorry continues to the the south through a doorway into the practice
+chambers of the Lyvrach Armory.
+~
+362 142639177 15
+D2
+The Armory continues.
+~
+~
+0 2147483647 36357
+S
+#36353
+&+RIntersection of the Llzazan Road and Temple Way&N~
+   The Llzazan Road here runs to the north and south with temple way heading
+towards the east. To the northeast, the temple itself stands, made of a
+transluscent red marble. To the souheast there are a few small buildings,
+probably formerly noble's houses. To the west, there is a large building made
+of black crystal.
+~
+362 142639169 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36348
+D1
+Temple Way heads to the east.
+~
+~
+0 2147483647 36354
+D2
+The Llzazan Road continues.
+~
+~
+0 2147483647 36358
+S
+#36354
+&+ROn Temple Way&N~
+   The road here runs from east to west as it passes between a large house
+and a temple. To the north side of the road there is a huge slap of obsidian
+with a spider etched in its surface, Indicating it to be a part of the Temple
+to the Demoness Lolth. The dwelling to the south is very large, and probably
+was home to one of the most affluent nobles of old Llzazan.
+~
+362 142639169 14
+D1
+The Temple Way continues.
+~
+~
+0 2147483647 36355
+D2
+There is a large home there.
+~
+~
+0 2147483647 36359
+D3
+The Temple Way continues.
+~
+~
+0 2147483647 36353
+S
+#36355
+&+RThe East End of Temple Way&N~
+   To the north, the Temple of Lolth of high Llzazan towers above the
+cavern floor, extending high into the cavern in graceful arcs made of
+translucent red marble and durithalite buttresses. To the south, there
+is another large abode, in as remarkable repair as the temple of Lolth,
+seemingly untouched by the brutal sacking of house Llzazan. Temple way
+continues back to the west.
+~
+362 142639169 14
+D0
+The temple atrium is there.
+~
+~
+0 2147483647 36350
+D2
+There is a large dwelling there.
+~
+~
+0 2147483647 36360
+D3
+The Temple Way continues.
+~
+~
+0 2147483647 36354
+S
+#36356
+&+rSacrafice Preparation Chamber&N~
+   This chamber is where the Pirestesses of Lolth prepare the sacrafices of
+creatures to their Demoness. Intricate utensils of mutilation line the walls
+including a vast array of hooks and daggers. There is a large obsidian slab
+in the center of the room that is absolutely soaked with blood of the many
+victims of these sacrifices. A large spider is engrave din the marble of the
+south wall. A silk curtain separates this room from the rest of the temple to
+the north.
+~
+362 142639169 13
+D0
+The temple continues through the silk curtain.
+~
+curtain silk~
+1 2147483647 36351
+S
+#36357
+&+rThe Lyvrach Armory&N~
+   This armory is where some of the finest warriors that the drow race ever
+produced got their start. The floor of this chamber is made of a fine
+durithalite powder, to make the footing treacherous for combat. This feature
+has enhanced the fighting prowess of the drow for generations. During the
+fall of House Llzazan this builiding was spared for future use by the Nobles
+of Arachdrathos as a satellite training facility. The walls and ceiling of
+this hall are made of an unusual black crystal. There is a doorway to the
+north and to the east.
+~
+362 142639177 15
+D0
+There is a small chamber back there.
+~
+~
+0 2147483647 36352
+D1
+The Llzazan Road runs by the doorway.
+~
+~
+0 2147483647 36358
+S
+#36358
+&+RThe Llzazan Road&N~
+   The road here is about to entre a tunnel to the south, leaving the Upper
+Llzazan Cavern as it returns to the Arachdrathos Main City. To the north,
+it continues into the cavern to intersect with Temple Way and pass by the
+Llzazan Temple to the Demoness Lolth. To the west, there is a large structure
+made of black crystal.
+~
+362 142639169 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36353
+D2
+The Llzazan Road continues.
+~
+~
+0 2147483647 36362
+D3
+The Lyvrach Armory is there.
+~
+~
+0 2147483647 36357
+S
+#36359
+&+rA Large Dwelling&N~
+   This dwelling was at one time the house of one of the greater nobles of
+House Llzazan, possibly a priestess of Lolth because of its close proximity
+to the temple. Now it is the home to a family of ghetto drow, as evidenced
+by the numberous rotheskin beddings littering the floor. All the furniture
+and finery has long since been removed from this abode. The only exit is back
+to the north.
+~
+362 142639177 15
+D0
+Temple Way is there.
+~
+~
+0 2147483647 36354
+S
+#36360
+&+rEntrance to A Large Abode&N~
+   This was once the house of the high priestess of House Llzazan. Numerous
+religious carvings cover the obsidian walls of this dwelling, etched by a
+master hand into the glossy surface of these walls. There is a cracked and
+drained pool sunken into the floor in the middle of the room. To the east
+the home continues back to what was once a bedroom. To the north there is a
+doorway back to the street, with its mushroom timber door long since removed
+from this structure all together.
+~
+362 142639177 15
+D0
+Temple Way is there.
+~
+~
+0 2147483647 36355
+D1
+The abode continues.
+~
+~
+0 2147483647 36361
+S
+#36361
+&+rA Once Lavish Bedroom&N~
+   This room is very large and carpeted with a thick rotheskin rug. There is
+a huge spidersilk hammock in the center of the room, once belonging to the
+high priestess of the Temple to the north of here. Now this room seems to
+serve a different purpose as many broken wooden swords litter the floor
+near the walls and training dummies are stacked against the south wall of
+the chamber. The only exit from this room is to the west.
+~
+362 142639177 15
+D3
+The abode continues.
+~
+~
+0 2147483647 36360
+S
+#36362
+&+RThe Llzazan Road&N~
+   The road here passes through a tunnel as it links the Llzazan Ghetto to
+The Arachdrathos Main City. To the north the tunnel opens into a large cavern
+while to the south the road continues around a bend to the west. The walls of
+this cave are lightly dusted with durithalite, making the light dim to even
+Drow eyes.
+~
+362 142639169 14
+D0
+The road enters a cavern.
+~
+~
+0 2147483647 36358
+D2
+The road continues.
+~
+~
+0 2147483647 36364
+S
+#36363
+&+ROverlooking Arachdrathos&N~
+   The road here ends abruptly as it meets the great cavern that is the city
+of Arachdrathos. The ground drops away quickly in a cliff as this vista
+overlooks a vast expanse of space. A huge vertical shaft with neither floor
+nor ceiling in sight. Throughout the shaft, a giant spiderweb stretches.
+Large rock islands hang in space, supported by this great web, and from these
+islands spring great spires of durithalite and basalt, spiraling into the
+blackness of this shaft. The great arch of house Zarbonosti presides over
+the center of the cavern, thrusting upwards from the spider web in defiance
+to all that seems sane about this world. A horrendous wind howls in from
+above making the entire cavern groan with the force of a million screams.
+Below in this windy web lies the jewel of the underworld, Arachdrathos.
+~
+362 142639169 14
+D1
+The Llzazan Road continues.
+~
+~
+0 0 36364
+D3
+~
+~
+0 0 36582
+S
+#36364
+&+RThe Llzazan Road&N~
+   The road here bends from west to north as it connects the Llzazan Ghetto
+to the great cavern of the city of Arachdrathos. There seems to have been
+very little traffic here, perhaps because the road ends abruptly to the west
+in a hole that overlooks the great city of Arachdrathos. To the north the
+passageway begins to widen as it approaches the Upper Llzazan Cavern.
+~
+362 142639177 14
+D0
+The Llzazan Road continues.
+~
+~
+0 2147483647 36362
+D3
+The Llzazan Road ends abruptly.
+~
+~
+0 2147483647 36363
+S
+#36365
+&+rA Rothe Slaughterhouse&N~
+   The floor of this room is very slick with rothe blood and organs. Spleens
+kidneys and brains are tossed into piles along the side of the room as the
+rothe are slaughtered and butchered. The skins are made into bedding for the
+poor of the ghetto and the meat is exported to the city of Arachdrathos for
+consumption by the Nobles of the Jewel of the Underworld.
+~
+362 142639177 15
+D2
+There is a cleraing house there.
+~
+~
+0 2147483647 36368
+S
+#36366
+&+RThe Llzazan Road~
+   The road here bends upwards as it connects this small cavern to the one
+above. To the east and west there are large structures, both carrying
+conspicuous smells. After a breif nasal comparison it is clear the building
+to the west is a Rothe Slaughterhouse and the building to the east is a
+mushroom timber treatment facility. The road continues to the south.
+~
+362 142639169 14
+D1
+The mushroom timber treatment facility is there.
+~
+~
+0 2147483647 36367
+D2
+The road continues.
+~
+~
+0 2147483647 36369
+D4
+The road contineus through a hole in the cavern roof.
+~
+~
+0 2147483647 36340
+S
+#36367
+&+rEntrance to a Mushroom Timber Treatment Facility&N~
+   This building houses the vats for soaking mushroom stalks to make them
+rigid for use in construction. Svrifneblin slaves and lower class drow tend
+vats of a noxious green liquid that steams generously as plank after plank
+of mushroom timbers harvested form the Llzazan Mushroom Groves are treated.
+The vats are in essence huge troughs that continue on to occupy the room to
+the south as well. Planks are flated to the south from here for further
+processing.
+~
+362 142639177 15
+D2
+The treatment facility continues.
+~
+~
+0 2147483647 36370
+D3
+The road runs by the doorway.
+~
+~
+0 2147483647 36366
+S
+#36368
+&+rRothe Bits&N~
+   Here the products of the slaughterhouse can be sold to any drow of the
+ghetto that has somehow managed to save enough to consider buying such
+luxuries. Rothe skins are displayed on the wall and upon shelves behind a
+large mushroom timber counter. The entrance to the slughterhouse itself is
+a simple doorway to the north. Another doorway to the east takes one back to
+the Llzazan Road.
+~
+362 142639177 15
+D0
+The slaughterhouse is there.
+~
+~
+0 2147483647 36365
+D1
+The Llzazan Road runs by the doorway.
+~
+~
+0 2147483647 36369
+S
+#36369
+&+RThe Llzazan Road&N~
+   The road her epasses between two large facilities. The one to the east,
+by smell can be identifed as a mushroom timber treatment facility. The one
+to the west can also be identified by smell too, to be a rothe
+slaughterhouse. The road continues to the north and south from here as it
+travels through this small cavern.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36366
+D2
+The road continues.
+~
+~
+0 2147483647 36373
+D3
+The slaughterhouse outlet store is there.
+~
+~
+0 2147483647 36368
+S
+#36370
+&+rThe Mushroom Timber Treatment Facility&N~
+   The huge trough here is fileld with a green liquid that turns orange
+as the trough extends southward towards the boss's office. Huge mushroom
+timbers float along the torugh, steaming as they slowy sink into the fluid
+before being extracted from the trough at the extreme south end of this
+room. There is an office to the south, and the treatment facility continues
+to the north.
+~
+362 142639177 15
+D0
+The facility continues.
+~
+~
+0 2147483647 36367
+D2
+There is an office there.
+~
+~
+0 2147483647 36374
+S
+#36371
+&+RThe Llzazan Road&N~
+   The road drops through a hole in the cavern floor here as it heads towards
+the rothe farms and mushroom groves. There is obvious use of this part of the
+cave for the transport of mushroom timbers as chips of mushroom trunks
+litter the floor. Also it seems that rother are brought through here as well,
+since there is enough fecal evidence of the cattle on the ground here. The
+road contineus to the east.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36372
+D5
+The road drops through the cavern floor.
+~
+~
+0 2147483647 36377
+S
+#36372
+&+RThe Llzazan Road&N~
+   The road here runs from east to west as it connects the manufacturing
+district of the Ghetto to the Farms. Evidence of the transit of mushroom
+stalks and rothe is readily available as a combination of fungus chips and
+rothe feces make up the floor of the cavern here. To the east the road
+continues towards the manufacturing distric. To the west, it heads towards
+the farms.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36373
+D3
+The road continues.
+~
+~
+0 2147483647 36371
+S
+#36373
+&+RBend in the Llzazan Road&N~
+   The road her ebends form north to west as it travels through the
+manufacturing district of the Llzazan Ghetto. To the west side of this
+cavern there is a large Rothe Prcessing Facility, and to the east there is
+a mushroom Timber treatment facility. The road enters a tunnel to the west
+as it heads towards the farms.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36369
+D3
+The road continues.
+~
+~
+0 2147483647 36372
+S
+#36374
+&+RA Lavish Office&N~
+   This is the office of the owner and boss of the mushroom treatment
+facility. There is a large desk here and a safe against the south wall.
+a strange device with many paddles turns slwoy to blow air out of the room
+minimizing the smell of treatment fluid here. On top of the desk there is
+a nice assortment of daggers and vials of fluid, indicating that the owner
+of this facility may be more than a simple merchant.
+~
+362 142639177 15
+D0
+The treatment facility continues.
+~
+~
+0 2147483647 36370
+D2
+A shelf conceals an exit to the south.
+~
+secret shelf~
+5 0 36396
+S
+#36375
+&+rA Hidden Dwelling&N~
+   This room is filled with all sorts of weapons training paraphanalia as
+well as an assortment of training dummies. The floor is made of a fine sand
+and the walls heavily padded with rothe hide. There is a small bed and table
+in the northwest corner of the room and a large sign saying 'Contracts' on
+the east wall. A strange mechanical device with an assortment of weapon
+blades hangs from the ceiling.
+~
+362 142639177 15
+D2
+The Llzazan Road is there.
+~
+wall~
+5 2147483647 36378
+S
+#36376
+&+RThe Llzazan Road&N~
+   The road here bends from east to south as it heads gently downwards to
+the Llzazan Farms. To the east, it climbs up towards the manufacturing
+district of the Llzazan Ghetto. The floor here is covered with mushroom
+chips and rothe manure, showing the typical nature of traffic through this
+part of the ghetto.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36377
+D2
+The road continues.
+~
+~
+0 2147483647 36379
+S
+#36377
+&+RThe Llzazan Road&N~
+   The road here continues from a hole in the cave ceiling. There is a thick
+coating of fungus chips and rothe dung on the ground here, and some
+footprints have tracked through it, especially near the south wall of the
+cave. Flecks of durithalite dimly illuminate this section of the road,
+allowing just enough light for drow eyes, but way too little for any creature
+of the surface.
+~
+362 142639169 14
+D2
+There is an odd dwelling hidden there.
+~
+wall~
+5 2147483647 36380
+D3
+The Llzazan Road continues.
+~
+~
+0 2147483647 36376
+D4
+The road continues through the roof of the cave.
+~
+~
+0 2147483647 36371
+S
+#36378
+&+RThe Llzazan Road&N~
+   The road here comes out of a hole in the cave floor to travel to the east.
+The floor here is littered with rothe excrement and pieces of mushroom,
+giving the floor a certain bouncy spongyness.  Footprints disrupt the putrid
+carpet of muck, especially along the northern wall of the cave. The road
+continues towards the manufacturing distric to the east.
+~
+362 142639169 14
+D0
+There is a padded room in there.
+~
+wall~
+5 2147483647 36375
+D1
+The road continues.
+~
+~
+0 2147483647 36379
+D5
+The road continues.
+~
+~
+0 2147483647 36381
+S
+#36379
+&+RA Bend on the Great Llzazan Road&N~
+   The road here bends form west to north as it travels between the farms
+and the manufacturing district. There is a generous piling of excement and
+fungus fragments on the road here, making for some rather unusual footing.
+The stench here is also quite unusual and there is very little positive
+that can be said about this road.
+~
+362 142639169 14
+D0
+The road continues
+~
+~
+0 2147483647 36376
+D3
+The road continues.
+~
+~
+0 2147483647 36378
+S
+#36380
+&+rA Room Full of Junk&N~
+   This room is full of odds and ends, dinnerware, chalices, crates and
+whatnot, all of which seem rather worthless, except perhaps to the inhabitant
+of this abode. It is well hidden from the street and fairly undisturbed by
+the comings and goings in the Llzazan Ghetto. There is also a small rotheskin
+bedroll in the coerner of the room and a small, smelly bucket in the other
+corner.
+~
+362 142639177 15
+D0
+~
+wall~
+5 2147483647 36377
+S
+#36381
+&+RThe Llzazan Road&N~
+   The road here trails off to the south after coming through a hole in the
+ceiling. Many rotten pieces of mushroom timbers litter the road as well as
+a fair helping of rothe manure. There is a small quantity of durithalite
+in the tunnel illuminating the road for underworld eyes.
+~
+362 142639169 14
+D2
+The road continues.
+~
+~
+0 2147483647 36384
+D4
+The road continues.
+~
+~
+0 2147483647 36378
+S
+#36382
+&+rA Commoner's Dwelling&N~
+   This abode is very hastily assmebled from the rubble that lines the
+streets of the Llzazan Ghetto. The denizens of this dwelling are probably
+working drow commoners, overseers of the many svirfneblin slaves that
+populate the fields to the south of here.
+~
+362 142639177 15
+D1
+The Llzazan Road is there.
+~
+~
+0 2147483647 36383
+S
+#36383
+&+RThe Llzazan Road&N~
+   The road travels form east to south here as it passes through the
+Lower Llzazan Caverns. On the west side, this road is lined by a few
+small dwelling that mush be the homes of the working commoners of this
+part of the ghetto. The road continues up to the manufacturing sector
+of the ghetto and down to the Great Llzazan Cavern.
+~
+362 142639169 14
+D1
+The road continues.
+~
+~
+0 2147483647 36384
+D2
+The road continues.
+~
+~
+0 2147483647 36386
+D3
+A dwelling is there.
+~
+~
+0 2147483647 36382
+S
+#36384
+&+RA Bend in the Llzazan Road&N~
+   The road here bends form north to west as it travels through the Lower
+Llzazan Caverns on its way down to the fungus farms and rothe pasture. The
+road itself has a generous coating of rothe manure and fungus chips, giving
+it a soft surface. The stench accompanying this odd surfacing however is
+not as pleasant.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36381
+D3
+The road continues.
+~
+~
+0 2147483647 36383
+S
+#36385
+&+rA Commoner's Dwelling&N~
+   This abode is very hastily assmebled from the rubble that lines the
+streets of the Llzazan Ghetto. The denizens of this dwelling are probably
+working drow commoners, overseers of the many svirfneblin slaves that
+populate the fields to the south of here.
+~
+362 142639177 15
+D1
+The road is there.
+~
+~
+0 2147483647 36386
+S
+#36386
+&+RThe Llzazan Road&N~
+   The road travels form east to south here as it passes through the
+Lower Llzazan Caverns. On the west side, this road is lined by a few
+small dwelling that mush be the homes of the working commoners of this
+part of the ghetto. The road continues up to the manufacturing sector
+of the ghetto and down to the Great Llzazan Cavern.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36383
+D2
+The road continues.
+~
+~
+0 2147483647 36388
+D3
+There is a dwelling there.
+~
+~
+0 2147483647 36385
+S
+#36387
+&+rA Commoner's Dwelling&N~
+   This abode is very hastily assmebled from the rubble that lines the
+streets of the Llzazan Ghetto. The denizens of this dwelling are probably
+working drow commoners, overseers of the many svirfneblin slaves that
+populate the fields to the south of here.
+~
+362 142639177 15
+D1
+The road runs by the doorway.
+~
+~
+0 2147483647 36388
+S
+#36388
+&+RThe Llzazan Road&N~
+   The road travels form east to south here as it passes through the
+Lower Llzazan Caverns. On the west side, this road is lined by a few
+small dwelling that mush be the homes of the working commoners of this
+part of the ghetto. The road continues up to the manufacturing sector
+of the ghetto and down to the Great Llzazan Cavern.
+~
+362 142639169 14
+D0
+The road continues.
+~
+~
+0 2147483647 36386
+D2
+The road continues.
+~
+~
+0 2147483647 36390
+D3
+There is a dwelling there.
+~
+~
+0 2147483647 36387
+S
+#36389
+&+rRoom of Social Reading~
+   This room has a very odd feel to it. It is deatly silent, and the walls
+are totally smooth. There is a feeling of peace here though, as if nobody,
+not even the vilest of creatures could commit a vebgeful act against another.
+There is a large board here, waiting to be read and written on. To the south
+there is another room that looks almost identical to this one.
+~
+362 142901341 15
+D2
+The reading rooms continue.
+~
+~
+0 2147483647 36391
+S
+#36390
+&+ROutside the Reading Rooms&N~
+   To the east ther eis an odd buliding, fashined out of rock from Concordant
+Opposition. The room is a room of peace and quiet reading, where any Drow may
+catch up on the news of the day without being hassled by the almost ever
+present threat of death. The Llzazan Road continues to the North and South.
+~
+362 142639177 14
+D0
+The road continues.
+~
+~
+0 2147483647 36388
+D1
+The reading room continues.
+~
+~
+0 2147483647 36391
+D2
+The road continues.
+~
+~
+0 2147483647 36392
+S
+#36391
+&+rReading Room&N~
+   This room has a very odd feel to it. It is deatly silent, and the walls
+are totally smooth. There is a feeling of peace here though, as if nobody,
+not even the vilest of creatures could commit a vengeful act against
+another. There is a large board here, waiting to be read and written on.
+To the north, there is another room that looks almost identical to this
+one.
+~
+362 142901341 15
+D0
+The reading room continues.
+~
+~
+0 2147483647 36389
+D3
+The Llzazan road is there.
+~
+~
+0 2147483647 36390
+S
+#36392
+&+RThe Llzazan Road&N~
+   The road here climbs gently upwards towards the Llzazan Ghetto as it
+provides a link between the ghetto and the Llzazan Farms. Each day, many
+Rothe and mushroom timbers are dragged through this tunnel as they are
+harvested for slaughter and processing. The floor here is heavily coated
+with rothe crap and mushroom particles, both of which were left behind in
+the transit of these goods into the ghetto.
+~
+362 142639169 13
+D0
+The road continues.
+~
+~
+0 2147483647 36390
+D2
+The road continues.
+~
+~
+0 2147483647 36395
+S
+#36393
+&+RThe Llzazan Road&N~
+   The road here climbs gently upwards towards the Llzazan Ghetto as it
+provides a link between the ghetto and the Llzazan Farms. Each day, many
+Rothe and mushroom timbers are dragged through this tunnel as they are
+harvested for slaughter and processing. The floor here is heavily coated
+with rothe crap and mushroom particles, both of which were left behind in
+the transit of these goods into the ghetto. The road ends abruptly to the
+west as it reaches the rothe pasture.
+~
+362 142639169 13
+D1
+The road continues.
+~
+~
+0 2147483647 36394
+D3
+The rothe pasture is there.
+~
+~
+0 2147483647 36275
+S
+#36394
+&+RThe Llzazan Road&N~
+   The road here climbs gently upwards towards the Llzazan Ghetto as it
+provides a link between the ghetto and the Llzazan Farms. Each day, many
+Rothe and mushroom timbers are dragged through this tunnel as they are
+harvested for slaughter and processing. The floor here is heavily coated
+with rothe crap and mushroom particles, both of which were left behind in
+the transit of these goods into the ghetto.
+~
+362 142639169 13
+D1
+The road continues.
+~
+~
+0 2147483647 36395
+D3
+The road continues.
+~
+~
+0 2147483647 36393
+S
+#36395
+&+RThe Llzazan Road&N~
+   The road here climbs gently upwards towards the Llzazan Ghetto as it
+provides a link between the ghetto and the Llzazan Farms. Each day, many
+Rothe and mushroom timbers are dragged through this tunnel as they are
+harvested for slaughter and processing. The floor here is heavily coated
+with rothe crap and mushroom particles, both of which were left behind in
+the transit of these goods into the ghetto.
+~
+362 142639169 13
+D0
+The road continues.
+~
+~
+0 2147483647 36392
+D3
+The road continues.
+~
+~
+0 2147483647 36394
+S
+#36396
+&+LDinin's Personal Prison&N~
+   Dinin keeps this room for his valued guests fromthe overworld. Here he
+extracts information from them of surface goings and avenues to sell his
+precious timbers to the overowrld markets. The room is sparse and small,
+with no visible ventilation or accomidations, save a pile of stinking sludge
+in the corner.
+~
+362 176193608 0
+D0
+A shelf acts as a door to Dinin's office.
+~
+shelf~
+1 0 36374
+S

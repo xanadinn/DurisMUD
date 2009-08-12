@@ -1,0 +1,74 @@
+#4201
+S
+#4203
+M
+qc_action 45~
+&+MEzallixxel &+minvades your mind with &n'The power to access the depths of
+one's psyche are within your grasp.'
+&+LYou feel as though someone is probing your very thoughts.&n
+~
+Q
+You feel a sharp and painful sensation in your mind...suddenly, you open your
+eyes to see a small glowing scroll in your hands!
+~
+R I 408
+G I 32490
+G I 26614
+G I 402
+S
+#4224
+M
+hi hello~
+&+WThe illithid auctioneer projects 'We have a goblin, dwarf and a hairy
+&+Wspider for sale. Each broken and ready to serve their masters.&n
+~
+M
+goblin~
+&+gThe illithid auctioneer projects 'The goblin will sale for 10,000 copper
+&+gcoins. He is a warrior so will serve well in the arena.&n
+~
+M
+dwarf~
+&+yThe auctineer projects 'The dwarf was taken near the halfling city of
+&+yWoodseer. He is a caster so be wary. His magical incantations seem to
+&+yconcentrate in the healing of injuries. He sales for 20,000 copper.&n
+~
+M
+spider~
+&+wThe illithid auctioneer projects 'not much for fighting, but large enough to
+&+wcarry you great distances through the underdark. He sales for 10,000
+&+wcopper coins.&n
+~
+Q
+&+gThe illithid auctioneer projects 'Enjoy your goblin.'&n
+~
+R I 35708
+G C 10000
+Q
+&+gThe auctioneer projects 'Enjoy your spider'&n
+~
+R I 35708
+G C 10000
+S
+#4245
+MA
+hi hello~
+&+wThe Drow turns to you and rasps, "Flee this place. A city of Illithid's lurk beyond
+&+wthe forest. Our patrol was captured, I am the sole survivor. The elder brain who dwells
+&+win the temple will sense your presence."&n
+~
+S
+#4264
+M
+qc_action 50~
+&+GA nearby mossling inches closer and suddenly starts to swell.   Within seconds a massive burst of gas erupts from the creature!
+~
+M
+qc_action 50~
+&+YA small gaseous spore floats through the cavern like a stray bubble of soap.
+~
+M
+qc_action 55~
+&+LThe cavern itself seems to howl as small tendrils of vegetation inch their way further around, encompassing these tunnels.
+~
+S

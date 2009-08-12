@@ -1,0 +1,2161 @@
+#3400
+&+CHall of Spears~
+&+C   Thousands of spears protrude from the walls of this hallway, each one
+&+Crazor sharp and ending with a deadly point. The floor and ceiling are clear
+&+Cof spears, possibly allowing safe passage. Large scratches in the floor
+&+Cshow signs of a heavy object that has been moved across the hallway.
+~
+34 33554440 15
+D0
+The Hall of Spears ends after passing through an archway.
+~
+~
+0 0 3457
+D2
+The Hall of Spears continues to the south, unfortunately.
+~
+~
+0 0 3458
+E
+spear spears points point wall~
+&+bMounted perpendicular to the wall, the spears point straight to you.
+~
+E
+floor scratches~
+Deep groves have been gouged into the stone by something massive.
+~
+S
+#3401
+&+rCrucifixtion Chamber~
+&+r   A large natural cavern opens up here, running from the south and curving
+&+roff to the east.  For as far as the eye can see, creatures have been nailed
+&+rto wooden crucifixes mounted in the ground. The crucifixes are shaped in both
+&+ran "X" and a "T" configuration, and many have been turned upside down. The
+&+rcreatures, all humanoid, are in great agony and fill the air with gutteral
+&+rsounds and pleas for help.
+~
+34 33554440 15
+D0
+A niche can be seen in the wall where the cavern ends.
+~
+~
+0 0 3438
+D1
+A hole in the east wall leads to a smaller chamber.
+~
+~
+0 0 3402
+D2
+The chamber and its crosses continue further south.
+~
+~
+0 0 3439
+S
+#3402
+&+rLetting Room~
+&+r   This is a small room that sits off the side of the main cavern.
+&+rBenches have been set up here, each with its own stockade.  The
+&+rstockades force the arms in a downward angle, pointing to large
+&+rcollection basins. The basins are stained red from countless years
+&+rof blood slowly drained from the Flind's prisoners.
+~
+34 33554440 15
+D3
+A small hole in the wall leads to the crucifixtion chamber.
+~
+~
+0 0 3401
+E
+basin basins~
+&+r   These stone basins are covered in magical enscriptions and completely
+&+rcovered with blood.
+~
+S
+#3403
+Vertical Tunnel~
+   A vertical shaft has been formed in the rock, barely wide enough for one
+to pass, and a tight squeeze for an ogre.  A steel ladder is bolted to the
+wall, providing a stable climb.  A natural rock ceiling completely blocks the
+tunnel above, except for the hole where the ladder passes.  The natural rock
+walls closely follow the ladder as it continues downward.
+~
+34 33562632 15
+D4
+The ladder climbs out of the tunnel through a small opening above.
+~
+~
+0 0 3409
+D5
+The ladder descends further into the darkness.
+~
+~
+0 0 3404
+E
+ladder steel~
+A sturdy steel ladder with heavy construction and conctions.
+~
+F
+4
+S
+#3404
+Vertical Tunnel~
+   A vertical shaft has been formed in the rock, barely wide enough for one
+to pass, and a tight squeeze for an ogre.  A steel ladder is bolted to the
+wall, providing a stable climb.  The natural rock walls closely follow the
+ladder as it continues downward.
+~
+34 33562632 15
+D4
+The ladder continues in this direction.
+~
+~
+0 0 3403
+D5
+A floor can been seen directly below this position.
+~
+~
+0 0 3436
+E
+ladder steel~
+A sturdy steel ladder with heavy construction and connections.
+~
+F
+4
+S
+#3405
+Nursery~
+   The young Flind spend the early years of their lives in this twisted
+version of a nursery.  Flind beliefs dictate only the strongest and meanest
+may live the war hungry live of a Flind.  To this end, Flind youngsters are
+subjected to many cruel lessons by the keepers, often times this lesson is
+death.  Small aggressive animals wander the nursery, as do keepers who
+randomly attack the naive and unprepared.  Several small weapons litter the
+ground for use by the pupils.
+~
+34 33554440 15
+D2
+The stone hallway sits to the south.
+~
+metal door iron~
+1 0 3464
+D3
+The nursery continues.
+~
+~
+0 0 3470
+S
+#3406
+Butcher Shop~
+   Made of the same rudimentary construction as the outside hallway, this
+room appears to be a small shop.  Various offerings hang from the ceiling
+and fill a display case which spans the width of the room.  The "food items"
+consist of body parts from different species, each considered a delicasy by
+the Flind.  A price list is mounted on the west wall.
+~
+34 33554440 15
+D1
+The stone hallway sits behind the archway.
+~
+~
+0 0 3471
+E
+board wall price list sign~
+What at first seems like a random array of shapes and jumbled letters
+transforms into your native tongue.  The sign reads:
+
+&+mWe have a varied selection here, just ask for today's listing.
+&+mThe Management.
+~
+S
+#3407
+Metal Chamber~
+   This room is dominated by a circular metal basin approximately two feet
+deep, which is filled with filthy water.  Two rusty leg irons are bolted to
+the center of the basin floor, and steel arm restraints have been chained to
+its side walls, below the water level.  The rooms walls, along with the floor
+and ceiling have been lined with highly polished metal. This chamber is used
+by the Flind magi to practice lightening spells and torture prisoners at the
+same time.  The prisoner stands in the water, attached to the conducting
+restraints, while the mage hurls lightening bolt after lightening bolt towards
+it.  Any errand attacks run through the metal lined room straight into the
+chained victim, while the mage floats harmlessly above the metal plates.
+~
+34 33554440 15
+D2
+This doorway leads to the stone hallway.
+~
+metal door iron~
+1 0 3463
+E
+wall steel metal floor ceiling~
+A highly polished metal that has a mirror-like surface.
+~
+E
+basin circular~
+Made of the same metal as the room lining, the basin can fit large targets.
+~
+S
+#3408
+&+bWater Filled Cavern~
+&+b   The cavern opens up into a large area made of the same natural rock
+&+band filled with water.  Energy surges through the water here, creating
+&+bsmall arcs of lightening that dance through the cavern. A round hole
+&+bon the bottom of the cavern seems to be the source of the energy, and a
+&+btransparent blue sheet of energy covers the opening. There is no water under
+&+bthe opening, and a landing with a ladder can be seen beneath the portal.
+~
+34 33554472 10
+D4
+&+bThe top of the cavern can be reached by swimming up.
+~
+~
+0 0 3474
+S
+#3409
+A Stone Landing~
+   This natural stone room holds a shimmering blue portal in the ceiling, and
+dark water can be seen above the portal. A sturdy metal ladder rises from a
+square opening in the floor, and continues on to the portal.  The room is
+devoid of any further features, except a sign mounted to the wall.
+~
+34 33554440 15
+D5
+The ladder descends into darkness.
+~
+~
+0 0 3403
+E
+sign~
+   As you gaze upon the sign, what at first appeared as unknown shapes and
+letters begin to transform into your native language. When the transformation
+stops, the sign reads:
+
+&+r      "Gothic Hate Lies Beyond"
+~
+S
+#3410
+&+WSalt Pit~
+&+W   A wide pit, about seven feet across runs the length of the room. A large
+&+Wbar runs above the pit, between the east and west walls, and chains have
+&+Wbeen attached to this bar. The pit is full of salt, most of it deeply
+&+rblood &+rstained. &+WIt seems this room is utilized in the following way: a victim
+&+Wis chained to the bar, then &+mscoured &+Wwith wire brushes until only &+Rexposed
+&+Rtissue &+Wremains. The poor creature is then lowered into the salt and rotated
+&+Wrepeatedly, for the sole purpose of enjoyment by the captors.
+~
+34 33554440 15
+D1
+A stone platform sits to the east.
+~
+~
+0 0 3453
+D2
+Numberous stockades can be seen to the south.
+~
+~
+0 0 3411
+E
+salt pit~
+The salt on the edges of the pit remains bright white, while the middle of the
+pit is stained deep red.
+~
+S
+#3411
+Stockades~
+   Heavy wooden stockades are arranged in rows across the width of this room.
+Prisoners are "stored" here while their fate is decided or they recooperate
+from Flind torture or blood letting.  The stockades do not have benches and
+face the north, forcing prisoners to watch the gruesome activities in the
+&+Wsalt pit &nto the north.
+~
+34 33554440 15
+D0
+A large &+Wsalt pit &nsits across the floor in the area to the north.
+~
+~
+0 0 3410
+S
+#3412
+Torture Chamber~
+   This is a natural rock area which hasn't been modified much.  A solitary
+stockade with a bench is mounted to the floor against the east wall of this
+chamber.  A unique form of torture and death is carried out here, and it
+works the following way:  After being locked into the stockade, a prisoner
+has a leather string sewn through his tongue by the Flind.  A heavy weight is
+tied to the string and left to hang freely.  The weight stretches and pulls
+the tongue, causing it to swell to an enormous size, choking the victim. Due
+to their large soft tongue, humans are the most common race to see this fate.
+~
+34 33554440 15
+D0
+The natural rock chamber heads north.
+~
+~
+0 0 3413
+D3
+The hole in the west wall leads to a stone platform.
+~
+~
+0 0 3440
+S
+#3413
+Metal Coffin~
+   A deadly contraption dominates this natural rock chamber, standing nearly
+elven feet in height.  A stone base approximately three feet in height holds
+two large, flat metal plates, one attached to the base and one suspended above
+by an elaborate mechanism on each side.  A turn screw rises vertically from
+the top plate, and a hand wheel is mounted to the turn screw.  The Flind place
+a prisoner in the coffin and lower the top plate flush with the victim.  The
+turn screw has a total of seventy-two turns, so the Flind turn the hand wheel
+once every hour, forcing the plates closer together, smashing the prisoner a
+bit more each time.  This is repeated for the full seventy-two hours (three
+days), no matter when the prisoner dies.
+~
+34 33554440 15
+D2
+The natural rock chamber continues south.
+~
+~
+0 0 3412
+S
+#3414
+The Cauldron~
+   This natural stone chamber holds a long table in its center.  This
+disturbing room is used in the following way:  A victim is strippedaked and shackled to the table.  A small metal cage without a bottom is
+placed on the stomach and secured to the table.  Several large &+Lrats &nare placed
+in the cage, and &+Rred hot coals &nare set on top of the cage, sending the &+Lrats
+into a panic. As the &+Lrats &npanic and attempt to escape the fire and heat, they
+take the only escape route possible and gnaw through the screaming victims
+stomach.
+~
+34 33554440 15
+D1
+The natural rock area continues east.
+~
+~
+0 0 3415
+E
+table~
+This table has iron shackles at both ends and &+rblood stains &nin its center.
+~
+S
+#3415
+The Rat Chair~
+   Chairs of heavy construction are mounted to the floor here, each with
+arm and leg restraints.  Each chair holds a large cage that sits about
+shoulder level, with a hole in the bottom for the victims head.  Victims
+are bound to these chairs, with their heads covered in &+yrotted meat &nand stuck in
+the cage.  Seeral viracious &+Lrats &nare flung into the cage and left there until
+they have gnawed and torn their way through the head and into the body.
+Prisoners rarely last more than three or four hours of this slow, horrific
+torture, but all wish Death would come sooner.  The chairs are in pairs facing
+each other, forcing each victim to watch a fellow prisoner suffer as the &+Lrats
+tear away the &+Yflesh &nand &+Wbone &nbit by bit.
+~
+34 33554440 15
+D2
+A shallow pit sits to the south.
+~
+~
+0 0 3442
+D3
+This natural rock area ends a short distance to the east.
+~
+~
+0 0 3414
+S
+#3416
+Warrior Training Room~
+   A classroom more than a torture chamber, this room is used to train young
+Flind in the art of combat.  Unarmored Flind prisoners are given wooden
+replicas of real weapons, so they are capable of ony minor damage.  A circular
+pit sits in the floor and a ladder is used to allow Flind trainees acces to the
+arena, while prisoners are merely tossed in.  If a prisoner should happen to
+disarm and kill the Flind, the next trainee enters the pit and the fight
+continues.  The Flind trainers have no time for the weak, regardless of race.
+~
+34 33554440 15
+D0
+The archway leads into another training room.
+~
+~
+0 0 3418
+S
+#3417
+Halving Room~
+   A razor sharp edge is mounted vertically from the floor to the ceiling of
+this room, sticking out about seven feet from the east wall.  The edge
+resembles an adamantine wall that tapers into a finely honed sword.  A steep
+ramp begins on the west wall and runs straight through the middle of the edge.
+Two large vertical poles sit atop the ramp, each with a wheel on the top and
+bottom, allowing them to roll through grooves cut in the ramp and ceiling.
+Halves of humanoids litter both sides of the room, all cleanly sliced and
+tossed aside.  &+WWagering rules &+ware posted on a sign near the ramp.
+~
+34 33554440 15
+D0
+The stone hallway sits to the north.
+~
+~
+0 0 3465
+E
+sign wagering rules~
+   What at first seemed to be useless shapes begin to transform into your
+native language.  When the transformation stops, the sign reads:
+
+&+W"Wagering Rules"
+
+&+W      1.  Bet on which side of the prisoners body its head will end up:
+&+W          right, left or right_and_left.
+&+W      2.  A Contestant is shackled to the poles and sent down the ramp.
+&+W      3.  Once the prisoner is halved, the judge will determine the outcome.
+&+W      4.  Even odds for right or left side bets, right_and_left side bets
+&+W          pay 2 to 1.
+~
+S
+#3418
+Chamber of the Healer~
+   A classroom more than a torture chamber, this room is used to train young
+clerics in the art of healing.  Flind prisoners are brutally beaten with clubs
+and bare fists to inflict varying amounts of damage, while the cleric attempts
+to heal them.  The arms of the prisoners have been removed, but their legs
+remain to allow them to move around during the "battle" (beating).  This
+simulates the chaos of battle, the Flind warriors will not be stationary as
+the clerics assist and heal them, so healing a moving target in training is
+preferred.  The south wall holds a broad archway that leads to another room,
+while a ladder protrudes from a square opening in the floor.
+~
+34 33554440 0
+D2
+A pit can be seen in the next chamber through the archway.
+~
+~
+0 0 3416
+D3
+The open doorway leads to another chamber.
+~
+~
+0 0 3419
+D5
+The climb down the steep ladder looks safe.
+~
+~
+0 0 3468
+S
+#3419
+Chamber of the Archer~
+   Young warriors utilize this room to enhance their efficiency in archery.
+Prisoners are hung with outstretched arms and legs to a thick vertical board
+equipped with wheels.  The room is fifty yards in length and the targets are
+rolled back and forth between the width of the room while Flind trainees imle
+them with the missile weapon of their choice.  Shattered arrow shafts and
+chipped walls indicate the beginners do not always hit their mark.  Another
+room can be seen through an open doorway to the east.
+~
+34 33554440 0
+D0
+This doorway leads to the stone hallway.
+~
+iron metal door~
+1 0 3463
+D1
+A block chamber sits past the open doorway to the east.
+~
+~
+0 0 3418
+S
+#3420
+A Circular Room~
+   This room is made of the uniform stone blocks used to construct the
+outside hallway.  The room contains a circular pit in its center about ten
+feet deep and surrounded by dirty stone benches rising to the ceiling in
+stadium fashion.  A log is mounted into the walls, it runs the width of the
+pit and sits about five feet above the floor.  The Flind hold competitions
+here, and bet heavily on the outcome.  A &+Wsign &+wwith wagering rules is mounted
+to the wall.  Dried blood stains, as well as hair-covered skull fragments,
+reach all the way to the back row.  The latter are considered great fight
+souveniers.
+~
+34 33554440 15
+D2
+The stone hallway sits to the south.
+~
+~
+0 0 3465
+E
+sign rules wagering~
+   What at first seemed to be useless shapes begin to transform into your
+native language.  When the transformation stops, the sign reads:
+
+&+W"Wagering Rules"
+
+&+W    1.  Odds for each fighter are announced before each bout.
+&+W    2.  Two prisoners are chained to log within arms reach, given heavy clubs.
+&+W    3.  Contestants pummel each other until one is dead.
+&+W    4.  Winners are turned over to those who had bet against them.
+&+W    5.  Clerics are no longer allowed to heal their favored combatant.
+~
+S
+#3421
+Nursery Lesson of the Club~
+   This stone block room is equipped with a couple of hooks in the ceiling
+and is otherwise empty.  Normally, several young Flind are rounded up,
+stuffed in a huge leather bag and hung from the ceiling.  The youngsters
+struggle in an attempt to position themselves in the middle of the pile.  A
+brief pause isallowed for this struggle, a selection process to remove the
+weak from the clan.  Once this pause is over, a harsh club beating ensues.
+Normally only the one or two Flind in the middle survive, while the others
+become badly beaten and bruised corpses.
+~
+34 33554440 15
+D1
+The main nursery is to the east.
+~
+~
+0 0 3470
+S
+#3422
+&+YRope Ladder~
+&+L   A strong &+Yrope ladder &+Lwith metal rungs hangs from the top of the tall
+&+Lpillar.  Because the ladder hangs freely, it looks difficult to climb, but
+&+Lnot impossible.  Fewer &+ycorpses &+Llie here, consequently several areas hold
+&+rblood splattered &+Lfrom broken heads and deep gouges can be seen in the
+&+Lground below the ladder.  Although probably very heavy, the ladder looks
+&+Llike it can by raised to deny access to the pillar.
+~
+34 33554440 15
+D2
+&+LThe collection of &+ybodies &+Lcontinues.
+~
+~
+0 0 3433
+D4
+&+LThe &+Yrope ladder &+Lcontinues.
+~
+~
+0 0 3449
+E
+rope ladder~
+The ladder looks very capable of holding your weight.
+~
+S
+#3423
+Chamber of the Warrior~
+   Another classroom/torture chamber, trainers use this room to demonstrate
+weak spots and vulnerabilities in the many races of Duris.  Live prisoners,
+unarmored and weaponless, are used for examples to the delight of the pupils.
+On any given day the subject might be the fire suseptability of trolls, the
+many exposed vital areas on humans, fighting techniques against the short
+dwarves, and so on.  A ladder rises from the floor to the ceiling, passing
+through square openings in each.
+~
+34 33554440 15
+D4
+The climb up the steep ladder looks manageable.
+~
+~
+0 0 3468
+D5
+The climb down the steep ladder looks manageable.
+~
+~
+0 0 3485
+S
+#3424
+Nursery Lesson of Cannibalism~
+   Another harsh lesson for the Flind young is carried out in this chamber.
+A metal box without a front panel is mounted against the north wall, its side
+walls contain small circular holes near the open front panel.  Flind marked
+"useless" have their arms shoved through the holes and clamped on the other
+side.  All of the holes are filled this way, creating a wall across the front
+panel comprised of Flind arms.  Containers of aromatic food and clean water
+are placed in front of the box, in clear sight of the caged Flind.  The young
+Flind is then left in the box to either die of starvation or gnaw its way
+through his brethren.
+~
+34 33554440 14
+D2
+The main nursery is to the south.
+~
+~
+0 0 3470
+S
+#3425
+&+rBur&+yni&+wng &+yRo&+rom~
+&+y   Flames shoot out of both sides of the path here, forming a wall on each
+&+yside.  The burning walls ise ten to twelve feet in the air where they curve
+&+yinward and touch, creating the ceiling of a tunnel.  The stone path s very
+&+ywarm to the touch, and appears to almost glow with heat.  The intense heat
+&+yfrom the walls rolls off in waves, causing the eyes to water and burn.
+~
+34 33554440 15
+D1
+&+yThe pathway, along with the flames, continues east.
+~
+~
+0 0 3435
+D3
+&+LThe suspended pathway heads west and eventually turns north.
+~
+~
+0 0 3445
+S
+#3426
+Steel Bridge~
+   A simple metal bridge suspended by cables spans the chasm here.  While no
+part of the bridge touches any walls, it seems firmly held in place by the
+cables.  The walkway is formed by three hinged sections made of closely
+spaced metals bars and a handrail of the same construction lines both sides.
+A pillar rises to meet the bridge at its far end.
+~
+34 33554440 0
+D1
+~
+~
+0 0 3431
+D3
+~
+~
+0 0 3451
+E
+cable cables~
+These large diameter cables look quite capable of holding heavy loads.
+~
+E
+bridge metal steel~
+The bridge resembles a cage that has been flattened out and hung on cables.
+~
+S
+#3427
+Cage~
+   The walkway ahead  and behind this position has been lifted, forming two
+walls of a cage, while the walkway meets above, creating a ceiling.  The
+handrails and supports have also been lifted, creating the final two walls of
+this trap.  The cage sways from movements within, but does not move far enough
+to touch the sides of the pit which it is suspended over.
+~
+34 33554440 0
+D1
+~
+~
+0 0 3451
+D5
+~
+~
+0 0 3428
+E
+out~
+Rough cavern walls surround you on all sides.
+~
+S
+#3428
+Pit Bottom~
+   The pit opens up from the tight vertical drop into a small room surrounded
+by rough cavern walls and a hard packed dirt floor.  The room shows signs of
+past battles...broken weapons and armor, blood stains and bones can be seen in
+several places about the room.
+~
+34 33554440 15
+D4
+~
+~
+0 0 3427
+S
+#3429
+Dining Hall~
+   The basic stone block construction of the hallway through the archway to
+the east continues here.  This room is full of circular tables, each with its
+own bench, a cage underneath and a small circular hole in its center.  Tasty
+prisoners are placed in the cage with only their head sticking through the
+hole.  Flind diners then pummel the protruding head with small metal hammers,
+softening the brains until the entree dies.  The Flind then rip into the meal
+with claws and fangs, the prefered dining method.  A steep stairway against
+the back wall heads down.
+~
+34 33554440 15
+D1
+The large archway leads out to the stone hallway.
+~
+~
+0 0 3464
+D5
+The stairs are at a sharp angle but manageable.
+~
+~
+0 0 3430
+S
+#3430
+Roasting Pit~
+   A huge cooking pit lies in the bloc floor here, engulfed in flames.  The
+pit is spanned by twin skewers, each made of metal and glowing bright red.
+The fire does not produce any smoke, has no visible source and burns at a
+steady rate.  The ceiling is accoustically designed to funnel the sounds of
+screaming victims into the dining hall, where they are enjoyed by the diners.
+A steep set of stairs sits against the back wall, leading to the dining hall.
+~
+34 33554440 15
+D4
+The stairs head up through a square hole in the ceiling.
+~
+~
+0 0 3429
+S
+#3431
+&+LNarrow Pillar~
+&+L   This is the top of a very narrow pillar extending straight up from the
+&+Lblackness below.  An immense black emptiness surrounds the pillar, running
+&+Lfarther than the eye can see in all directions.  No ground is present in
+&+Lany direction, but a stone path hangs in midair to the south with its end
+&+Lsitting flush with the pillars edge. A suspended steel bridge leads off to
+&+Lthe west and a &+Yrope ladder &+Lhangs off the pillars side.
+~
+34 33554440 15
+D2
+&+LThe path is narrow but looks negotiable.
+~
+~
+0 0 3434
+D3
+&+LThe bridge looks firmly held in place and of good construction.
+~
+~
+0 0 3426
+D5
+&+YThe rope ladder hangs freely, looking very shakey and dangerous.
+~
+~
+0 0 3450
+E
+path stone~
+The stone path is suspended in mid air with no visible means of support.
+~
+F
+5
+S
+#3432
+Barracks~
+   This chamber is of the same construction as the outside hallway through
+the open archway to the north and streches out a great distance to the south.
+Military style accomodations line this hall, bunks stacked three high have
+been placed on each wall, running the length of the room.  The ceiling is
+very low here, and the width of the room is narrow, causing the living
+quarters to be very cramped. The limited air is hot, humid and reaks severly.
+~
+34 33554440 15
+D0
+The stone hallway extends to the north.
+~
+~
+0 0 3471
+D2
+The barracks continue.
+~
+~
+0 0 3473
+S
+#3433
+&+yCorpse &+LPile~
+&+y   Corpses &+Llie upon &+ycorpses &+Lhere, all victims of falls from the pathway.
+&+LThe stench of rotting bodies permeates the air, and the air is fouled further
+&+Lby the gas which is exuded when the bodies are stepped on.  Some corpses make
+&+La groaning sound as the gas escapes and some merely cave in from the weight,
+&+Lthe &+Wbones &+Lbrittle from decay.  The pile occasionally shifts from movement
+&+Lunderneath, and the feeding noises of a scavenger can be heard.  The only
+&+Loptions for escape seem to be flying back up to the pathway, wading through
+&+Lthe bodies or by means magical.
+~
+34 33554440 15
+D0
+&+LThe collection of &+ybodies &+Lcontinues north.
+~
+~
+0 0 3422
+D2
+&+LThe collection of &+ybodies &+Lcontinues south.
+~
+~
+0 0 3448
+D4
+&+LNothing but blackness.
+~
+~
+0 0 3444
+S
+#3434
+&+LA Suspended Pathway~
+&+L   A stone pathway extends away from the pillar, floating in midair without
+&+Lany support.  The path is constructed of one foot square blocks, three across
+&+Land one thick and is laid out straight ahead for several hundered feet.  The
+&+Lfooting is good, although there is only room for one to pass at a time, and
+&+Lno handrails are present.  The drop off either side of the path looks deadly,
+&+Las no floor can be seen from this height.
+~
+34 33554440 15
+D0
+&+LThe suspended pathway comes to an end at a pillar to the north.
+~
+~
+0 0 3431
+D2
+&+LThe suspended pathway continues south.
+~
+~
+0 0 3445
+D5
+&+LNothing but blackness can be seen below.
+~
+~
+0 0 3443
+E
+path pathway stone~
+The path floats steadily, only slightly moving up and down.
+~
+F
+10
+S
+#3435
+&+rBur&+yni&+wng &+yRo&+rom~
+&+y   The path comes to an end here, the flames of the walls reaching
+&+ytogether to block the passageway.  This end wall holds an area where no
+&+yflames touch, the barren area creating an inverted cross. The flames create
+&+ya smirking demonic face that hovers over the cross as it stares through the
+&+yroom.  &+LDark black&n &+ypools form the eyes of the demon, and &+rred flames &+yshoot from
+&+yits head, creating long horns.  Heat from the fire is unbearable here, nearly
+&+ycausing the stone pathway to ignite.
+~
+34 33554440 15
+D3
+&+yThe pathway, along with the flames, continues west.
+~
+~
+0 0 3425
+E
+face demonic demon wall~
+&+r   The &+Lblack &+reyes of this demonic face stare back at you from
+&+rthe wall.  As you gaze upon the demon, it changes into your likeness.
+~
+S
+#3436
+A Small Chamber~
+   The tunnel opens up into a small chamber here, a smooth stone platform has
+been built around the ladder to serve as a floor.  The ladder passes through a
+hole in the platform and continues deeper into the ground.  The floor bounces
+slightly as if not fully connected to the walls and shows signs of heavy use.
+~
+34 33554440 15
+D4
+The ladder ascends from the chamber.
+~
+~
+0 0 3404
+D5
+The ladder passes through the floor into darkness.
+~
+~
+0 0 3437
+S
+#3437
+Vertical Tunnel~
+   A vertical shaft has been formed in the rock, barely wide enough for one
+to pass, and a tight squeeze for an ogre.  A steel ladde is bolted to the
+wall, providing a stable climb.  A smooth stone ceiling runs across the
+tunnel and blocks it completely except for the hole where the ladder passes.
+~
+34 33562632 15
+D1
+A small rock area sits to the east.
+~
+rock stone~
+5 0 3438
+D4
+The ladder passes through a hole in the ceiling.
+~
+~
+0 0 3436
+S
+#3438
+Cavern Opening~
+   This is a small niche surrounded by rock on all sides except south, where
+an immense cavern begins.  The ground is smooth and ramps down into the
+cavern, while the ceiling mirrors the ground in the opposite direction.
+~
+34 33554440 15
+D2
+A very large cavern opens up to the south.
+~
+~
+0 0 3401
+D3
+A tight area in the rock sits to the west.
+~
+rock stone~
+5 0 3437
+S
+#3439
+&+rCrucifixion Chamber~
+&+r   This large natural cavern extends to the north and comes to an end
+&+rtowards the south.  For as far as the eye can see, creatures have been
+&+rnailed to wooden crucifixes mounted in the ground. The crucifixes are
+&+rshaped in both an "X" and a "T" configuration, and many have been turned
+&+rupside down. The creatures, all humanoid, are in great agony and fill
+&+rthe air with gutteral sounds and pleas for help.
+~
+34 33554440 15
+D0
+Thechamber and crosses continue farther north.
+~
+~
+0 0 3401
+D5
+The ladder passes through a hole in the ground into darkness.
+~
+~
+0 0 3440
+S
+#3440
+Vertical Tunnel~
+   The tunnel opens up into a small chamber here, a smooth stone platform
+has been built around the ladder to serve as a floor.  A square hole in
+the rock ceiling leads out of the chamber, while the ladder passes through
+a hole in the platform and continues deeper into the ground.  The floor
+bounces slightly as if not fully connected to the walls and shows signs of
+heavy use.  A short tunnel leads to a chamber to the east of this platform.
+~
+34 33554440 15
+D1
+A chamber sits a brief walk away, through a hole in the wall.
+~
+~
+0 0 3412
+D4
+The ladder continues through the rock ceiling.
+~
+~
+0 0 3439
+D5
+The ladder descends past the platform.
+~
+~
+0 0 3452
+S
+#3441
+&+ySkin Covered Chamber~
+&+y   The chamber walls are covered with skins from every race known to Duris.
+&+ySkins have been expertly removed from the victims, coming off in one piece
+&+yand cured to hang flat on the wall.  The only noticeable holes in the skins
+&+yare the original body openings of the subject, but things such as eyelids,
+&+years and lips have been removed intact.  The room is bathed in a red light
+&+ywhich is emitted from an odd object in the middle of the room, and &+rblood
+&+yhas been smeared across the hides, evidently spelling out a message.
+~
+34 41975880 15
+D0
+&+YThe Golden Passageway heads north.
+~
+door golden~
+1 0 3487
+E
+blood message~
+   What at first seemed to be odd shapes and letters begin to change as you
+stare at them.  Once the transformation stops, a message in your native
+tongue reads:
+
+&+r     "Worship Evil"
+~
+E
+skin skins~
+&+C   Amazingly, the skins contain no knife markings, as if they were just
+&+Cpulled from the body without any sort of cutting.
+~
+S
+#3442
+Rat Nest~
+   Rats blanket the floor of this pit, squirming over each other in piles
+at least a dozen rats deep.  The rats sqreech and gnash their teeth, their
+sheer numbers cause this to be an extremely loud activity.  The pit is about
+six feet deep and ten feet across and rats attempt to climb the walls to
+escape, falling back to the pile in droves.  Humanoids can pull themselves
+out of the pit to reach the chamber above or head north into an adjacent room.
+~
+34 33554440 15
+D0
+Another room sits above this pit to the north.
+~
+~
+0 0 3415
+D2
+A stone platform sits above this pit to the south.
+~
+~
+0 0 3452
+S
+#3443
+&+LMidair~
+&+L   There is nothing here except the blackness of the chasm.  The pathway can
+&+Lfaintly be seen above and nothing can be distinguished below.  In all other
+&+Ldirections, the only thing visible is empty, dark air.
+~
+34 33554440 0
+D0
+&+LNothing but blackness.
+~
+~
+0 0 3450
+D2
+&+LNothing but blackness.
+~
+~
+0 0 3446
+D4
+&+LThe suspended pathway hangs above.
+~
+~
+0 0 3434
+D5
+&+LNothing but blackness.
+~
+~
+0 0 3444
+F
+100
+S
+#3444
+&+LMidair~
+&+L   There is nothing here except the blackness of the chasm.  What might be
+&+La pathway can be seen above and nothing can be distinguished below.  In all
+&+Lother directions, the only thing visible is empty, dark air.
+~
+34 33554440 8
+D0
+&+LNothing but blackness.
+~
+~
+0 0 3449
+D2
+&+LNothing but blackness.
+~
+~
+0 0 3447
+D4
+&+LNothing but blackness.
+~
+~
+0 0 3443
+D5
+&+LNothing but blackness.
+~
+~
+0 0 3433
+S
+#3445
+&+LA Suspended Pathway~
+&+L   The stone pathway continues to extend away from the pillar to the north,
+&+Lfloating in midair without any support.  Moving south, the pathway makes a
+&+Lgradual turn encompassing a couple hundred feet to the east, where it seems
+&+Lto burst into &+Rflames.  &+LThe footing is good, although there is only room for
+&+Lone to pass at a time, and no handrails are present.  The drop off either
+&+Lside of the path looks deadly, as no floor can be seen from this height.
+~
+34 33554440 15
+D0
+&+LThe suspended pathway continues north.
+~
+~
+0 0 3434
+D1
+&+RFlames &+Lcan be seen on the pathway after it curves eastward.
+~
+~
+0 0 3425
+D5
+&+LNothing but blackness can be seen below.
+~
+~
+0 0 3446
+F
+10
+S
+#3446
+&+LMidair~
+&+L   There is nothing here except the blackness of the chasm.  The pathway can
+&+Lfaintly be seen above and nothing can be distinguished below.  In all other
+&+Ldirections, the only thing visible is empty, dark air.
+~
+34 33554440 0
+D0
+&+LNothing but blackness.
+~
+~
+0 0 3443
+D4
+&+LThe suspended pathway hangs above.
+~
+~
+0 0 3445
+D5
+&+LNothing but blackness.
+~
+~
+0 0 3447
+F
+100
+S
+#3447
+&+LMidair~
+&+L   There is nothing here except the blackness of the chasm.  What might be
+&+La pathway can be seen above and nothing can be distinguished below.  In all
+&+Lothedirections, the only thing visible is empty, dark air.
+~
+34 33554440 8
+D0
+&+LNothing but blackness.
+~
+~
+0 0 3444
+D4
+&+LNothing but blackness.
+~
+~
+0 0 3446
+D5
+&+LNothing but blackness.
+~
+~
+0 0 3448
+S
+#3448
+&+yCorpse &+LPile~
+&+y   Corpses &+Llie upon &+ycorpses &+Lhere, all victims of falls from the pathway.
+&+LThe stench of rotting bodies permeates the air, and the air is fouled further
+&+Lby the gas which is exuded when the bodies are stepped on.  Some corpses make
+&+La groaning sound as the gas escapes and some merely cave in from the weight,
+&+Lthe &+Wbones &+Lbrittle from decay.  The pile occasionally shifts from movement
+&+Lunderneath, and the feeding noises of a scavenger can be heard.  The only
+&+Loptions for escape seem to be flying back up to the pathway, wading through
+&+Lthe bodies or by means magical.
+~
+34 33554440 15
+D0
+&+LThe collection of &+ybodies &+Lcontinues north.
+~
+~
+0 0 3433
+D4
+&+LNothing but blackness.
+~
+~
+0 0 3447
+S
+#3449
+&+YRope Ladder~
+&+L   A strong &+Yrope ladder &+Lwith metal rungs hangs from the top of the tall
+&+Lpillar.  Because the ladder hangs freely, it looks difficult to climb, but
+&+Lnot impossible.  The ladder stretches out both below this position and above
+&+Ltowards the pillar.  Although probably very heavy, the ladder looks like it
+&+Lcan by raised to deny access to the pillar.
+~
+34 33554440 15
+D2
+&+LNothing but blackness.
+~
+~
+0 0 3444
+D4
+&+LThe &+Yrope ladder &+Lcontinues.
+~
+~
+0 0 3450
+D5
+&+LThe &+Yrope ladder &+Lcontinues.
+~
+~
+0 0 3422
+E
+rope ladder~
+The ladder looks very capable of holding your weight.
+~
+F
+45
+S
+#3450
+&+YRope Ladder~
+&+L   A strong &+Yrope ladder &+Lwith metal rungs hangs from the top of the tall
+&+Lpillar.  Because the ladder hangs freely, it looks difficult to climb, but
+&+Lnot impossible.  The ladder stretches out below this position and reaches
+&+Lthe pillar above.  Although probably very heavy, the ladder looks like
+&+Lit can by raised to deny access to the pillar.
+~
+34 33554440 15
+D2
+&+LNothing but blackness.
+~
+~
+0 0 3443
+D4
+&+LThe top of the pillar can barely be made out above.
+~
+~
+0 0 3431
+D5
+&+LThe &+Yrope ladder &+Lcontinues.
+~
+~
+0 0 3449
+E
+rope ladder~
+The ladder looks very capable of holding your weight.
+~
+F
+45
+S
+#3451
+Steel Bridge~
+   A simple metal bridge suspended by cables spans the chasm here.  While no
+part of the bridge touches any walls, it seems firmly held in place by the
+cables.  The walkway is formed by three hinged sections made of closely
+spaced metals bars and a handrail of the same construction lines both sides.
+A pillar rises to meet the bridge at its far end.
+~
+34 33554440 15
+D1
+~
+~
+0 0 3426
+D3
+~
+~
+0 0 3427
+S
+#3452
+Vertical Tunnel~
+   Another small chamber opens up here, a stone platform has been built
+around the ladder to serve as a floor and a low ceiling of the same
+construction sits above.  The ladder passes through square holes in both the
+ceiling and the floor.  The floor and ceiling bounce slightly as if not
+fully connected to the walls and the floor shows signs of heavy use.  An
+opening in the wall drops off into a chamber to the north.
+~
+34 33554440 15
+D0
+A hole in the natural rock wall drops into the northern chamber.
+~
+~
+0 0 3442
+D4
+The ladder ascends through the stone platform above.
+~
+~
+0 0 3440
+D5
+The ladder descends past the platform.
+~
+~
+0 0 3453
+S
+#3453
+Vertical Tunnel~
+   Another small chamber opens up here, a stone platform has been built
+around the ladder to serve as a floor and a low ceiling of the same
+construction sits above.  The ladder passes through square holes in both the
+ceiling and the floor.  The floor and ceiling bounce slightly as if not
+fully connected to the walls and the floor shows signs of heavy use.  A short
+tunnel starts at the hole in the west wall.
+~
+34 33554440 15
+D3
+&+WThe natural chamber to the west is bright white.
+~
+~
+0 0 3410
+D4
+The ladder ascends through the stone platform above.
+~
+~
+0 0 3452
+D5
+Th ladder descends past the platform.
+~
+~
+0 0 3457
+S
+#3454
+&+LA Floating Pentegram~
+&+L   A large circular platform levitates here, slightly vibrating up and down.
+&+LShort &+rflames &+Lin the shape of a pentegram burn across the platform.  The
+&+Lplatform is very thin but does seem stable, movements around the pentegram
+&+Ldo not cause it to tip, which is advantageous since no handrails are present
+&+Land the surface provides no handholds.  Pentegrams hover above and below here
+&+Land either one looks to be accesable by completing a short jump.
+~
+34 41975880 15
+D4
+&+LThe circular platform can be reached without much effort.
+~
+~
+0 0 3462
+D5
+&+LThe platform below looks close enough to jump to.
+~
+~
+0 0 3455
+F
+6
+S
+#3455
+&+LA Floating Pentegram~
+&+L   A large circular platform levitates here, slightly vibrating up and down.
+&+LShort &+rflames &+Lin the shape of a pentegram burn across the platform.  The
+&+Lplatform is very thin but does seem stable, movements around the pentegram
+&+Ldo not cause it to tip, which is advantageous since no handrails are present
+&+Land the surface provides no handholds.  The pentegram hovering above this one
+&+Llooks to be accesable by completing a short jump.  A stone landing sits
+&+Lbelow, at the front of a strange tunnel suspended in the blackness of this void.
+~
+34 41975880 15
+D4
+&+LThe circular platform can be reached without much effort.
+~
+~
+0 0 3454
+D5
+&+LThe area below looks close enough to jump to.
+~
+~
+0 0 3478
+S
+#3456
+&+LDemon's Walk&n~
+&+L   Intricately carved scenes stand out of the smooth stone walls and
+&+Lceiling.  The graphic depictions show hordes of demons attacking and
+&+Lmutilating humanoids by the thousands.  The demons are so lifelike they
+&+Lseem ready to attack the observer at any moment and &+rblood &+Lflows
+&+Lout of the walls from the wounds of the pictured victims.  The horrors of
+&+Lthe pictures are of unspeakable acts: &+Leyes clawed and yanked out,
+&+Wbones shattered &+Land ripped from the body, &+Mscreaming &+Lchildren &+Rset afire,
+&+Lwomen being raped by horrid beasts...
+~
+34 41975880 15
+D0
+&+LThe corridor and its walls end to the north.
+~
+~
+0 0 3478
+D2
+&+LThe massive corridor runs due south.
+~
+~
+0 0 3477
+S
+#3457
+Vertical Tunnel~
+   The vertical tunnel comes to an end here, the steel ladder that runs its
+length is mounted deep into the rock floor.  The ceiling overhead is of a
+smooth rockconstruction and seems to bounce, not fully connected to the
+walls.  A handcrafted stone archway has been built in the south wall, and a
+hallway extends beyond.
+~
+34 33554440 15
+D2
+&+CSpears by the thousands point out from the hallway walls beyond the arch.
+~
+~
+0 0 3400
+D4
+The ladder climbs through a hole in the stone platform.
+~
+~
+0 0 3453
+S
+#3458
+&+CHall of Spears~
+&+C   Thousands of spears protrude from the walls of this hallway, each one
+&+Crazor sharp and ending with a deadly point. The floor and ceiling are clear
+&+Cof spears, possibly allowing safe passage. Large scratches in the floor
+&+Cshow signs of a heavy object that has been moved across the hallway.
+~
+34 33554440 15
+D0
+The Hall of Spears continues to the north, unfortunately.
+~
+~
+0 0 3400
+D2
+The Hall of Spears continues to the south, unfortunately.
+~
+~
+0 0 3459
+S
+#3459
+&+CHall of Spears~
+&+C   Thousands of spears protrude from the walls of this hallway, each one
+&+Crazor sharp and ending with a deadly point. The floor and ceiling are clear
+&+Cof spears, possibly allowing safe passage. Large scratches in the floor
+&+Cshow signs of a heavy object that has been moved across the hallway.
+~
+34 33554440 15
+D0
+The Hall of Spears continues to the north, unfortunately.
+~
+~
+0 0 3458
+D2
+The Hall of Spears continues to the south, unfortunately.
+~
+~
+0 0 3460
+S
+#3460
+&+CHall of Spears~
+&+C   Thousands of spears protrude from the walls of this hallway, each one
+&+Crazor sharp and ending with a deadly point. The floor and ceiling are clear
+&+Cof spears, possibly allowing safe passage. Large scratches in the floor
+&+Cshow signs of a heavy object that has been moved across the hallway. An
+&+Carchway sits to the south, marking the end of the Hall of Spears.
+~
+34 33554440 15
+D0
+The Hall of Spears continues to the north, unfortunately.
+~
+~
+0 0 3459
+D2
+The Hall of Spears passes through the south arch and ends, finally.
+~
+~
+0 0 3461
+S
+#3461
+Guard Post~
+   A checkpoint has been set at the end of the Hall of Spears, allowing the
+Flind to restrict movements within their encampment.  Only those authorized
+are allowed to pass this room and travel deeper into this area.  The room
+is constructed of smooth stone blocks that look to be of good construction,
+and thick iron doors are set into both the east and west walls.
+~
+34 33554440 15
+D0
+An archway leads north to the &+CHall of Spears.
+~
+~
+0 0 3460
+D1
+A hallway formed of smooth stone blocks leads east.
+~
+iron door metal~
+1 0 3465
+D3
+A hallway formed of smooth stone blocks heads west.
+~
+iron metal door~
+1 0 3463
+S
+#3462
+&+LStone Platform~
+&+L   A circular platform made of pape-thin stone levitates here.  Nothing
+&+Lexists in the blackness of this void, except another platform below this one
+&+Land a &+Rburning stream of fire &+Lhovering beside this platform to the west.
+&+LA pentegram is inset into the stone, created with &+Ygold &+Lstriated with &+rblood&+L.
+&+LMovements about the platform do not cause it to tip, which is favorable
+&+Ldue to the absence of handrails or secure footing.
+~
+34 41975880 15
+D5
+&+LThe platform below looks close enough to jump to.
+~
+~
+0 0 3454
+E
+gold blood~
+&+YThe inlay of the pentegram is a mixture of gold mixed with &+rblood.
+~
+F
+6
+S
+#3463
+Stone Hallway~
+   The walls, floor and ceiling are constructed of blocks of identical stone
+that provide a very functional hallway.  The blocks and corresponding
+hallway are devoid of any noteworthy features, save the fact they are very
+well put together and no flaws can be detected.  The hallway ends in a door
+to the east and continues towards the west, while metal doors sit in the north
+and south walls.
+~
+34 33554440 15
+D0
+The room past the door seems to be made entirely of metal.
+~
+metal door iron~
+1 0 3407
+D1
+A smooth block chamber sits behind the door.
+~
+iron door~
+1 0 3461
+D2
+A long block chamber extends south.
+~
+metal door iron~
+1 0 3419
+D3
+The uniform hallway heads straight west.
+~
+~
+0 0 3464
+S
+#3464
+Stone Hallway~
+   The walls, floor and ceiling are constructed of blocks of identical stone
+that provide a very functional hallway.  The blocks and corresponding
+hallway are devoid of any noteworthy features, save the fact they are very
+well put together and no flaws can be detected.  The hallway continues east
+and south, a metal door sits in the north wall and an archway leads west.
+~
+34 33554440 15
+D0
+A chamber with familiar block construction sits to the north.
+~
+metal door iron~
+1 0 3405
+D1
+The uniform hallway continues straight east.
+~
+~
+0 0 3463
+D2
+The uniform hallway continues straight south.
+~
+~
+0 0 3471
+D3
+Several tables and benches can be seen through the archway.
+~
+~
+0 0 3429
+S
+#3465
+Stone Hallway~
+   The walls, floor and ceiling are constructed of blocks of identical stone
+that provide a very functional hallway.  The blocks and corresponding hallway
+are devoid of any noteworthy features, save the fact they are very well put
+together and no flaws can be detected.  The hallway runs to the east and large
+open archways lead to chambers through the north and south walls.
+~
+34 33554440 15
+D0
+Rows of benches facing the rooms center can be seen through the archway.
+~
+~
+0 0 3420
+D1
+The uniform hallway continues straight east.
+~
+~
+0 0 3466
+D2
+The smell of rotting flesh floats in from the south.
+~
+~
+0 0 3417
+D3
+A smooth block chamber sits behind the door.
+~
+metal iron door~
+1 0 3461
+S
+#3466
+Stone Hallway~
+   The walls, floor and ceiling are constructed of blocks of identical stone
+that provide a very functional hallway.  The blocks and corresponding
+hallway are devoid of any noteworthy features, save the fact they are very
+well put together and no flaws can be detected.  The hallway runs to the east,
+continues south and an open archways sit in the north and east walls.  An
+&-M&+robnoxious&+w sign &+wsits over the southern branch of the hallway.
+~
+34 33554440 15
+D0
+&+rBlood runs across the floor and through the archway from the north.
+~
+~
+0 0 3467
+D1
+Rows of benches facing the rooms center can be seen through the achway.
+~
+~
+0 0 3488
+D2
+&+YBright golden walls, floor and ceiling can be seen to the south.
+~
+~
+0 0 3486
+D3
+The uniform hallway continues straight west.
+~
+~
+0 0 3465
+E
+sign warning obnoxious~
+
+&-M&+r     THIS AREA HIGHLY RESTRICTED, DO NOT PROCEED.
+~
+S
+#3467
+&+rA Bloody Room~
+&+r   Circular benches arranged in stadium fashion rise to the ceiling here.
+&+rThree pulleys are mounted to the ceiling of this room, and a metal cable
+&+rruns through each pulley, reaching the floor.  The cables split into hundreds
+&+rof lines near their end, and each of the lines end with a small razor sharp
+&+rhook.  The pulleys are arranged in a circle and positioned so the cable ends
+&+rand hooks sit in a shallow trough situated in the floor.  The entire floor of
+&+rthis room is covered in blood and &+Ypieces of flesh, &+ras are the hooks.
+~
+34 33554440 15
+D2
+&+rBlood runs through the archway into the stone hallway.
+~
+~
+0 0 3466
+E
+hooks hook line trough pulley pulleys trough~
+&+r   A Prisoner is thrown into the trough and left to flail about, each
+&+rmovement causing more and more hooks to embed themselves in their body.  When
+&+ra considerable amount of hooks are set, the cables are pulled and the prisoner
+&+ris raised a few feet out of the trough by the hooks.  The suspended victims
+&+rbody weight causes the barbed hooks to sink even deeper.  The cables are then
+&+rpulled in three different directions, the hooks pulling through the prisoner,
+&+rripping it apart.  These nasty hooks are covered in blood and many contain
+&+rdangling pieces &+rof &+Yflesh.
+~
+S
+#3468
+Chamber of the Tormentor~
+   Flat tables with arm and leg shackles are littered about this large room.
+Increments of tortue and full body diagrams of the Duris races line the
+walls.  Pictures of various torturing techniques show the most efficient and
+evil procedures of pain infliction.  Prisoner &+ybody parts &nad &+Yflesh scraps
+sit on the floor or in buckets beside the tables.  A ladder rises from the
+floor to ceiling, exiting through square openings in each.
+~
+34 33554440 15
+D4
+The climb up the steep ladder looks manageable.
+~
+~
+0 0 3418
+D5
+The climb down the steep ladder looks manageable.
+~
+~
+0 0 3423
+E
+table tables~
+   The tables are built for function only, plain metal tables with deep
+scratches from years of use.
+~
+S
+#3469
+&+rSacrificial &+LChamber~
+&+L   Chunks of &+ymeat &+Land &+Wshattered bones &+Ldominate this room, the piles in some
+&+Lplaces stand nearly four feet deep.  The room appears as if bodies exploded
+&+Lin its center, sending body parts in all directions and &+rsplattering blood
+&+Lacross every feature.  It seems &+rblood &+Lhad collected on the ceiling, some of
+&+Lit coagulated into &+rstalagtites &+Las it dripped off.  The walls are made of a
+&+Lsmooth stone carved with horrendous depictions of humanoids being mutilted
+&+Lby a powerful solitary &+rdemon.
+~
+34 41975880 15
+D4
+&+rThe &+Ystairs &+rlead back to the demons towering monument.
+~
+~
+0 0 3472
+E
+walls stone carved depictions~
+&+L   You see yourself in a gruesome scene with the &+rdemon&+L, it has stuck
+&+Lits claws through your eyes and out the back of your head, while its powerful
+&+Ljaws rip out your &+yinsides.
+~
+S
+#3470
+Nursery~
+   The young Flind spend the early years of their lives in this twisted
+version of a nursery.  Flind beliefs dictate only the strongest and meanest
+may live the war hungry live of a Flind.  To this end, Flind youngsters are
+subjected to many cruel lessons by the keepers, often times this lesson is
+death.  Small aggressive animals wander the nursery, as do keepers who
+randomly attack the naive and unprepared.  Several small weapons litter the
+ground for use by the pupils.  Additional rooms can be reached through open
+doorways in the north and west walls.
+~
+34 33554440 15
+D0
+A block room lies beyond the doorway.
+~
+~
+0 0 3424
+D1
+The nursery continues.
+~
+~
+0 0 3405
+D3
+A block room lies beyond the doorway.
+~
+~
+0 0 3421
+S
+#3471
+Stone Hallway~
+   The walls, floor and ceiling are constructed of blocks of identical stone
+that provide a very functional hallway.  The blocks and corresponding
+hallway are devoid of any noteworthy features, save the fact they are very
+well put together and no flaws can be detected.  The hallway heads north and
+open archways lead to chambers through the west and south walls.
+~
+34 33554440 15
+D0
+The uniform hallway continues straight north.
+~
+~
+0 0 3464
+D2
+The archway divides the hall from a large room stretching to the south.
+~
+~
+0 0 3432
+D3
+A small shop of some sort sits behind the archway.
+~
+~
+0 0 3406
+S
+#3472
+&+rDemonic Antechamber~
+&+r   An enormous monument of a demon standing with outstretched wings and
+&+rraised arms stands at the center of this chamber.  The monument stands
+&+rnearly one hundred feet tall and is actually a cage with charred iron bars
+&+rand inward pointing spikes.  An ancient and powerful rune has been inset
+&+rinto the floor, its focal point holds the sacrificial monument.  In times of
+&+rworship, the cage is filled to capacity with humanoids, which are subjected
+&+rto days of ritualistic torture before combusting into fire during the rituals
+&+rclimax.  A staircase made of &+Ygold &+rstriated with blood sits at the feet of
+&+rthe monument, leading into darkness.
+~
+34 41975880 15
+D0
+&+LThe end of the Demons Walk sits to the north.
+~
+~
+0 0 3479
+D5
+&+LThe &+Ygolden stairs &+Lcan only lead to death.
+~
+~
+0 0 3469
+S
+#3473
+Barracks~
+   This chamber is of the same construction as the outside hallway, it
+ends farther south and treches out a great distance to the north. Military
+style accomodations line this hall, bunks stacked three high have been placed
+on each wall, running the length of the room.  The ceiling is very low here,
+and the width of the room is narrow, causing the living quarters to be very
+cramped. The limited air is hot, humid and reaks severly.
+~
+34 33554440 15
+D0
+The barracks continue.
+~
+~
+0 0 3432
+S
+#3474
+&+bWater Filled Cavern~
+&+b   This appears to be the top of an underwater cavern, the natural stone
+&+bwalls surround this area while a larger space opens up below.  A hole in the
+&+beast wall looks to be large enough to swim through, and the caverns ceiling
+&+bsits close above.
+~
+34 33562664 9
+D1
+&+bMore water can be seen on the other side of the hole.
+~
+~
+0 0 3475
+D5
+&+bThe water filled cavern expands below you.
+~
+~
+0 0 3408
+S
+#3475
+&+bWater Filled Shaft~
+&+b   This natural rock shaft is completely full of clear blue water.  The
+&+bshaft climbs vertically, reaching the surface above and ends with a floor made
+&+bof the same rough stone.  The west wall of the shaft holds a small opening
+&+bwhich appears to be large enough to swim through.
+~
+34 33562664 10
+D2
+~
+~
+0 0 829678
+D3
+&+bMore water can be seen on the other side of the hole.
+~
+~
+0 0 3474
+S
+#3476
+&+YSkinning Room~
+&+L   This stone chamber is lined with living humanoids of all types that have
+&+Lbeen nailed to the walls.  The &+Yfaces &+Lof the victims have been &+Yskinned, &+Lfrom the
+&+Lscalp to the bottom of the neck, straight down the middle.  The skin was
+&+Lleft attached to the sides of the head and nailed to the walls on each side
+&+Lof the victim.  The &+Wbare skulls &+Lare exposed to the air, as is the &+Mnerve tissue
+&+Lon the inside of the &+Yskinned flesh.  &+LPowerful runes of evil bubble from the
+&+Lskin of the prisoners, the &+Yflesh &+Ldripping to the floor only to rejuvenate on
+&+Ltheir bodies.  These damned are constantly healed, forcing them to stay alive
+&+Land endure the suffering. Horrendous sounds of agony are emitted from the
+&+Lprisoners, and the environment seems to feed on this unthinkable suffering.
+~
+34 41975880 15
+D3
+&+LThe corridor heads straight west.
+~
+~
+0 0 3481
+D5
+&+YThe hole in the floor looks like a body opening.
+~
+flesh~
+5 0 3480
+E
+skull skulls bare~
+&+W   One of the most disgusting things you've ever seen, the whitekull
+&+Wmoves up and down slightly as it tries to scream.
+~
+E
+flesh dripping~
+&+Y   The bubbling flesh drips from the bodies and is absorbed by the floor.
+~
+E
+nerve nerves tissue~
+&+M   The exposed tissue looks irritated and without doubt is extremely painful.
+~
+E
+floor~
+&+Y   The floor resembles some sort of flesh and seems to be alive.
+~
+S
+#3477
+&+LDemon's Walk&n~
+&+L   Intricately carved scenes stand out of the smooth stone walls and
+&+Lceiling.  The graphic depictions show hordes of demons attacking and
+&+Lmutilating humanoids by the thousands.  The demons are so lifelike they
+&+Lseem ready to attack the observer at any moment and &+rblood &+Lflows
+&+Lout of the walls from the wounds of the pictured victims.  The horrors of
+&+Lthe pictures are of unspeakable acts: &+Leyes clawed and yanked out,
+&+Wbones shattered &+Land ripped from the body, &+Mscreaming &+Lchiln &+Rset afire,
+&+Lwomen being raped by horrid beasts...
+~
+34 41975880 15
+D0
+&+LThe massive corridor continues.
+~
+~
+0 0 3456
+D2
+&+LThe massive corridor runs due south.
+~
+~
+0 0 3479
+S
+#3478
+&+LTunnel Entrance~
+&+L   Floating in the blackness, this is the floor to some enormous and
+&+Lstrange passageway that extends to the south.  The floor to the south is
+&+Lflanked by towering walls that ramp down to nothing at the north end of this
+&+Lsquare.  A ceiling of the same construction sits atop the walls, causing the
+&+Lpassageway to resemble a tunnel in mid-air. Complete darkness engulfs this
+&+Lvoid, the stone pasageway offers the only contrast to the blackness.
+~
+34 41975880 15
+D2
+&+LTheassive corridor runs due south.
+~
+~
+0 0 3456
+D4
+&+LThe platform above can be reached without much effort.
+~
+~
+0 0 3455
+S
+#3479
+&+LCross Center~
+&+L The passageway continues south and another passageway intersects here,
+&+Lrunning east and west.  This chamber constitues the center of an inverted
+&+Lcross, while the bottom of the cross lies to the south.  Intricately carved
+&+Lscenes stand out of the smooth stone walls and ceiling.  The graphic
+&+Ldepictions show hordes of demons attacking and mutilating humanoids by the
+&+Lthousands.  The demons are so lifelike they seem ready to attack the observer
+&+Lat any moment and &+rblood &+Lflows out of the walls from the wounds of the pictured
+&+Lvictims.  The horrors of the pictures are of unspeakable acts: &+beyes &+Lclawed
+&+Land yanked out, &+Wbones shattered &+Land ripped from the body, &+Mscreaming
+&+Lchildren &+Rset afire, &+Lwomen being raped by horrid beasts...
+~
+34 41975880 15
+D0
+&+LThe massive corridor continues.
+~
+~
+0 0 3477
+D1
+&+LAn additional corridor leads straight east.
+~
+~
+0 0 3481
+D2
+&+rThe corridor opens up into a mammoth chamber dead south.
+~
+~
+0 0 3472
+D3
+&+LAn additional corridor leads straight west.
+~
+~
+0 0 3482
+S
+#3480
+&+rHatchery~
+&+Y   The chamber here consists of some form of living tissue, evidently fed by
+&+Ythe infinate &+rtorment &+Yof the chamber above.  &+LHuge black orbs &+Ysit half buried
+&+Yin the floor and walls, obviously nourished by the &+ranguish.  &+YThe thought of
+&+Ythe creatures that must be lurking within those orbs is frightening&+r...
+&+rmade of misery, born of evil.
+~
+34 42106952 15
+D4
+&+YThe hole looks like the inside of a body opening.
+~
+flesh~
+1 0 3476
+E
+orb orbs black~
+&+L   The four foot orbs are covered by a black substance that swirls across
+&+Ltheir surface.  The protective covering is extremely hard and unbreakable.
+~
+S
+#3481
+&+LDemon's Walk&n~
+&+L   Intricately carved scenes stand out of the smooth stone walls and
+&+Lceiling.  The graphic depictions show hordes of demons attacking and
+&+Lmutilating humanoids by the thousands.  The demons are so lifelike they
+&+Lseem ready to attack the observer at any moment and &+rblood &+Lflows
+&+Lout of the walls from the wounds of the pictured victims.  The horrors of
+&+Lthe pictures are of unspeakable acts: &+Leyes clawed and yanked out,
+&+Wbones shattered &+Land ripped from the body, &+Mscreaming &+Lchildren &+Rt afi
+&+Lwen being raped by horrid beasts...
+~
+34 41975880 15
+D1
+&+LThe corridor heads straight east, where it comes to an end.
+~
+~
+0 0 3476
+D3
+&+LThe corridor intersects another there.
+~
+~
+0 0 3479
+S
+#3482
+&+LDemon's Walk&n~
+&+L   Intricately carved scenes stand out of the smooth stone walls and
+&+Lceiling.  The graphic depictions show hordes of demons attacking and
+&+Lmutilating humanoids by the thousands.  The demons are so lifelike they
+&+Lseem ready to attack the observer at any moment and &+rblood &+Lflows
+&+Lout of the walls from the wounds of the pictured victims.  The horrors of
+&+Lthe pictures are of unspeakable acts: &+Leyes clawed and yanked out,
+&+Wbones shattered &+Land ripped from the body, &+Mscreaming &+Lchildren &+Rset afire,
+&+Lwomen being raped by horrid beasts...
+~
+34 41975880 15
+D1
+&+LThe corridor intersects another there.
+~
+~
+0 0 3479
+D3
+&+LThe corridor heads straight west, where it comes to an end.
+~
+~
+0 0 3483
+S
+#3483
+&+LDemon's Walk~
+&+L   Humanoids from all the intellegent Duris races have been assembled in this
+&+Lroom, each one bound tightly by appendages reaching out from the wall.  The
+&+Lskull from the temple area up has been removed from these individuals,
+&+Lleaving their &+ymalleable brains &+Lexposed.  A disgusting tube-like
+&+Lappendage reaches from the floor into each &+ybrain, &+Ldeeply impaled and barbed to
+&+Ldisallow removal.  Powerful runes of evil bubble from the skin of the
+&+Lprisoners, the &+Yflesh &+Ldripping to the floor only to rejuvenate on the bodies.
+&+LThese damned are constantly healed, forcing them to stay alive and endure
+&+Lthe suffering.  Somehow the environment feeds from both the suffering and
+&+Lintelligence of these victims.
+~
+34 41975880 15
+D1
+&+LThe corridor heads straight east.
+~
+~
+0 0 3482
+D5
+&+YThe hole in the floor looks like a body opening.
+~
+flesh~
+5 0 3484
+E
+flesh~
+&+Y   The bubbling flesh drips from the bodies and is absorbed by the floor.
+~
+E
+appendage appendages~
+&+Y   The appendages radiate from the walls and floor, gripping the captives.
+~
+E
+floor~
+&+Y   The floor resembles some sort of flesh and seems to be alive.
+~
+S
+#3484
+&+rHatchery~
+&+Y   The chamber here consists of some form of living tissue, evidently fed by
+&+Ythe infinate &+rtorment &+Yof the chamber above.  &+LHuge black orbs &+Ysit half buried
+&+Yin the floor and walls, obviously nourished by the &+ranguish.  &+YThe thought of
+&+Ythe creatures that must be lurking within those orbs is frightening&+r...
+&+rmade of misery, born of evil.
+~
+34 42106952 15
+D4
+&+YThe hole looks like the inside of  body opening.
+~
+flesh~
+1 0 3483
+E
+orb orbs black~
+&+L   The four foot orbs are covered by a black substance that swirls across
+&+Ltheir surface.  The protective covering is extremely hard and unbreakable.
+~
+S
+#3485
+&+LChamber of the Necromancer~
+&+L   This chamber is a shrine to death and its power.  &+yBodies &+Lin various
+&+Lstages of decay are dismantled and studied, the &+ybody parts &+Lcover the &+rbloody
+&+Lwork area.  The Flind create an abundant supply of the dead, so young
+&+Lnecromancers have a virtually inexhaustable supply.  The bodies have been
+&+Lcorrupted in ways only achievable by the necromancer, for whom morality
+&+Ldoes not exist.
+~
+34 33554440 15
+D4
+A wall mounted ladder climbs through a square hole in the ceiling.
+~
+~
+0 0 3423
+E
+orb orbs black~
+&+L   The four foot orbs are covered by a black substance that swirls across
+&+Ltheir surface.  The protective covering is extremely hard and unbreakable.
+~
+S
+#3486
+&+YA Golden Passageway~
+&+Y   The construction of the hallway changes here, from identical stone blocks
+&+Yto seamless gold.  The gold is striated with blood, &+rlong red streaks &+Yexist
+&+Yinside most of its surface.  The effect is shining gold in every direction,
+&+Yno breaks exist in the ceiling, walls or floor, the passage created from one
+&+Ysolid piece.  The golden surface has been polished to a deep shine, and any
+&+Yreflections on this surface somehow distort into visions of &+Lvile creatures
+&+Ylearing at the observer with evil grins and menacing postures.
+~
+34 33554440 15
+D0
+The &+YGolden Passageway &+w yields to a hallway of stone construction.
+~
+~
+0 0 3466
+D2
+&+rThat &+mlittle voice &+rin your head warns of danger.
+~
+~
+0 0 3487
+E
+vile creatures wall walls gold golden~
+&+L   The demonic creatures in the reflections are of your own image.
+~
+S
+#3487
+&+YA Golden Passageway~
+&+Y   The seamless gold construction continues here.  The hallway is shining
+&+Ygold in every direction, no breaks exist in the ceiling, walls or floor, the
+&+Ypassage created from one solid piece.  The golden surface has been polished
+&+Yto a deep shine, and any reflections on this surface somehow distort into
+&+Yvisions of &+Lvile creatures &+Ylearing at the observer with evil grins and
+&+Ymenacing postures.  A nearly unnoticeable door sits in the south wall.
+~
+34 33554440 15
+D0
+&+YBright golden walls, floor and ceiling can be seen to the north.
+~
+~
+0 0 3486
+D2
+YThe golden construction &+wof this passage ends in the room to the south.
+~
+door~
+2 3436 3441
+E
+vile creatures wall walls gold golden~
+&+L   The demonic creatures in the reflections are of your own image.
+~
+S
+#3488
+The Wagering Room~
+   This room is made of the uniform stone blocks used to construct the
+outside hallway.  The room contains a circular pit in its center about ten
+feet deep and surrounded by dirty stone benches rising to the ceiling in
+stadium fashion.  A platform containing colorful stone blocks sits beside the
+pit and the pit floor holds four vertical bars arranged in a square, just
+large enough to allow the colorful blocks to slide up and down inside.  This
+is some sort of gaming hall, and a &+Wsign &+wwith wagering rules is
+mounted to the wall.  Several metal pieces hang on the wall, they were used
+as the floor underneath the bars and contain colorful remains of squashed
+prisoners.
+~
+34 33554440 15
+D3
+The stone hallway sits to the west.
+~
+~
+0 0 3466
+E
+sign wagering rules~
+   What at first seemed to be useless shapes begins to transform into your
+native language.  When the transformation stops, the sign reads:
+
+&+W"Wagering Rules"
+
+&+W   1.  A prisoner is chained inside the four vertical bars.
+&+W   2.  Blocks are added one by one on top of contestant until it collapses.
+&+W   3.  Bets consist of number of blocks held and time held before failure.
+&+W   4.  Odds are given before each contest.
+&+W   5.  Magic users are no longer allowed to enhance or decrease
+&+W       contestants strength.
+~
+E
+block blocks stone colorful~
+&+r The b&+ylocks lo&+gok heavy and &+bcontai&+mn a thin &+ccolorful l&+Rayer o&+Yf smashed prisoners.
+~
+S

@@ -1,0 +1,193 @@
+#533
+&+gThe Forest of Serenity&n~
+53410 2 0 40 50 1
+*
+* Zone edited with dikuEdit v2.98i
+*
+*
+D 0 53406 2 1 100 0 0 0
+*     south exit from "Inside the Gnoll Wood" to
+*     "A Gnoll Hut" - closed
+*
+D 0 53409 0 1 100 0 0 0
+*     north exit from "A Gnoll Hut" to
+*     "Inside the Gnoll Wood" - closed
+*
+D 0 53408 2 1 100 0 0 0
+*     south exit from "Inside the Gnoll Wood" to
+*     "A Gnoll Hut" - closed
+*
+D 0 53410 0 1 100 0 0 0
+*     north exit from "A Gnoll Hut" to
+*     "Inside the Gnoll Wood" - closed
+*
+*
+O 0 53300 15 53300 100 0 0 0       * a staked torch
+O 0 53300 15 53301 100 0 0 0       * a staked torch
+O 0 53319 1 53301 100 0 0 0        * a large sign
+O 0 53300 15 53302 100 0 0 0       * a staked torch
+O 0 53300 15 53303 100 0 0 0       * a staked torch
+O 0 53320 1 53303 100 0 0 0        * a large sign
+O 0 53300 15 53304 100 0 0 0       * a staked torch
+O 0 53300 15 53305 100 0 0 0       * a staked torch
+O 0 53321 1 53305 100 0 0 0        * a large sign
+O 0 53303 6 53308 100 0 0 0        * a blooming orchid
+O 0 53306 4 53311 100 0 0 0        * a rose bush
+P 1 53315 1 53306 100 0 0 0        *   a rose petal
+O 0 53300 15 53312 100 0 0 0       * a staked torch
+O 0 53300 15 53316 100 0 0 0       * a staked torch
+O 0 53300 15 53317 100 0 0 0       * a staked torch
+O 0 53300 15 53318 100 0 0 0       * a staked torch
+O 0 53300 15 53319 100 0 0 0       * a staked torch
+O 0 53306 4 53323 100 0 0 0        * a rose bush
+O 0 53303 6 53328 100 0 0 0        * a blooming orchid
+O 0 53306 4 53329 100 0 0 0        * a rose bush
+P 1 53311 1 53306 100 0 0 0        *   a rose petal weave
+O 0 53304 1 53330 100 0 0 0        * an enormous fountain
+O 0 53314 2 53335 100 0 0 0        * a lilac bush
+P 1 53318 1 53314 100 0 0 0        *   a lilac petal
+O 0 53300 15 53336 100 0 0 0       * a staked torch
+O 0 53314 2 53337 100 0 0 0        * a lilac bush
+O 0 53312 1 53338 100 0 0 0        * a vine and moss covered mirror
+O 0 53300 15 53340 100 0 0 0       * a staked torch
+O 0 53300 15 53346 100 0 0 0       * a staked torch
+O 0 53300 15 53347 100 0 0 0       * a staked torch
+O 0 53303 6 53350 100 0 0 0        * a blooming orchid
+P 1 53317 1 53303 100 0 0 0        *   an orchid petal
+O 0 53309 1 53350 100 0 0 0        * a rock pile
+O 0 53303 6 53360 100 0 0 0        * a blooming orchid
+O 0 53303 6 53362 100 0 0 0        * a blooming orchid
+O 0 53303 6 53365 100 0 0 0        * a blooming orchid
+O 0 53306 4 53366 100 0 0 0        * a rose bush
+O 0 53301 1 53377 100 0 0 0        * a large sign
+O 0 53302 1 53377 100 0 0 0        * a vine and moss covered mirror
+O 0 53307 2 53386 100 0 0 0        * a sparrow's nest
+O 0 53308 2 53388 100 0 0 0        * a bluebird nest
+O 0 53307 2 53392 100 0 0 0        * a sparrow's nest
+O 0 53308 2 53396 100 0 0 0        * a bluebird nest
+O 0 53313 2 53400 100 0 0 0        * a campfire
+O 0 53313 2 53402 100 0 0 0        * a campfire
+*
+M 0 53309 1 53300 100 0 0 0        * a hooded druid
+M 0 53318 4 53304 100 0 0 0        * a trail keeper
+E 1 53310 2 16 100 0 0 0           *   a wide push-broom
+M 0 53300 9 53306 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53306 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53306 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53306 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53307 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53307 100 0 0 0        * a bunny rabbit
+M 0 53302 5 53307 100 0 0 0        * a forest spider
+M 0 53302 5 53307 100 0 0 0        * a forest spider
+M 0 53302 5 53307 100 0 0 0        * a forest spider
+M 0 53313 6 53308 100 0 0 0        * a dandylion
+M 0 53303 5 53309 100 0 0 0        * a garter snake
+M 0 53303 5 53309 100 0 0 0        * a garter snake
+M 0 53303 5 53309 100 0 0 0        * a garter snake
+M 0 53306 10 53309 100 0 0 0       * a treant sapling
+M 0 53302 5 53310 100 0 0 0        * a forest spider
+M 0 53302 5 53310 100 0 0 0        * a forest spider
+M 0 53303 5 53310 100 0 0 0        * a garter snake
+M 0 53303 5 53310 100 0 0 0        * a garter snake
+M 0 53318 4 53312 100 0 0 0        * a trail keeper
+M 0 53306 10 53314 100 0 0 0       * a treant sapling
+M 0 53318 4 53318 100 0 0 0        * a trail keeper
+E 1 53310 2 16 100 0 0 0           *   a wide push-broom
+M 0 53314 1 53320 100 0 0 0        * a wizened alchemist
+M 0 53315 3 53321 100 0 0 0        * a stately doe
+M 0 53315 3 53321 100 0 0 0        * a stately doe
+M 0 53315 3 53321 100 0 0 0        * a stately doe
+M 0 53300 9 53322 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53322 100 0 0 0        * a bunny rabbit
+M 0 53300 9 53322 100 0 0 0        * a bunny rabbit
+M 0 53316 4 53323 100 0 0 0        * a proud buck
+M 0 53316 4 53323 100 0 0 0        * a proud buck
+M 0 53316 4 53323 100 0 0 0        * a proud buck
+M 0 53316 4 53323 100 0 0 0        * a proud buck
+M 0 53311 5 53327 100 0 0 0        * a strangleweed
+M 0 53311 5 53327 100 0 0 0        * a strangleweed
+M 0 53311 5 53327 100 0 0 0        * a strangleweed
+M 0 53311 5 53327 100 0 0 0        * a strangleweed
+M 0 53306 10 53329 100 0 0 0       * a treant sapling
+M 0 53310 8 53333 100 0 0 0        * a speckled duck
+M 0 53310 8 53333 100 0 0 0        * a speckled duck
+M 0 53306 10 53335 100 0 0 0       * a treant sapling
+M 0 53324 1 53340 100 0 0 0        * a burly mercenary
+M 0 53317 4 53343 100 0 0 0        * a chirping sparrow
+M 0 53317 4 53343 100 0 0 0        * a chirping sparrow
+M 0 53317 4 53343 100 0 0 0        * a chirping sparrow
+M 0 53317 4 53343 100 0 0 0        * a chirping sparrow
+M 0 53301 4 53344 100 0 0 0        * a chittering chipmunk
+M 0 53301 4 53344 100 0 0 0        * a chittering chipmunk
+M 0 53301 4 53344 100 0 0 0        * a chittering chipmunk
+M 0 53301 4 53344 100 0 0 0        * a chittering chipmunk
+M 0 53306 10 53344 100 0 0 0       * a treant sapling
+M 0 53304 5 53345 100 0 0 0        * a spotted lizard
+M 0 53304 5 53345 100 0 0 0        * a spotted lizard
+M 0 53304 5 53345 100 0 0 0        * a spotted lizard
+M 0 53304 5 53345 100 0 0 0        * a spotted lizard
+M 0 53304 5 53345 100 0 0 0        * a spotted lizard
+M 0 53313 6 53345 100 0 0 0        * a dandylion
+M 0 53318 4 53347 100 0 0 0        * a trail keeper
+M 0 53307 9 53350 100 0 0 0        * a bluebird
+M 0 53307 9 53350 100 0 0 0        * a bluebird
+M 0 53307 9 53350 100 0 0 0        * a bluebird
+M 0 53307 9 53350 100 0 0 0        * a bluebird
+M 0 53307 9 53350 100 0 0 0        * a bluebird
+M 0 53306 10 53351 100 0 0 0       * a treant sapling
+M 0 53308 4 53351 100 0 0 0        * a partridge
+M 0 53308 4 53351 100 0 0 0        * a partridge
+M 0 53308 4 53351 100 0 0 0        * a partridge
+M 0 53308 4 53351 100 0 0 0        * a partridge
+M 0 53306 10 53352 100 0 0 0       * a treant sapling
+M 0 53313 6 53354 100 0 0 0        * a dandylion
+M 0 53310 8 53356 100 0 0 0        * a speckled duck
+M 0 53310 8 53356 100 0 0 0        * a speckled duck
+M 0 53310 8 53358 100 0 0 0        * a speckled duck
+M 0 53310 8 53358 100 0 0 0        * a speckled duck
+M 0 53306 10 53359 100 0 0 0       * a treant sapling
+M 0 53305 5 53361 100 0 0 0        * a cricket
+M 0 53305 5 53361 100 0 0 0        * a cricket
+M 0 53305 5 53361 100 0 0 0        * a cricket
+M 0 53305 5 53361 100 0 0 0        * a cricket
+M 0 53305 5 53361 100 0 0 0        * a cricket
+M 0 53313 6 53362 100 0 0 0        * a dandylion
+M 0 53306 10 53364 100 0 0 0       * a treant sapling
+M 0 53311 5 53364 100 0 0 0        * a strangleweed
+M 0 53313 6 53368 100 0 0 0        * a dandylion
+G 1 53316 1 0 100 0 0 0            *    a dandylion petal
+M 0 53306 10 53369 100 0 0 0       * a treant sapling
+M 0 53313 6 53370 100 0 0 0        * a dandylion
+M 0 53312 4 53373 100 0 0 0        * a tree hopper
+M 0 53312 4 53373 100 0 0 0        * a tree hopper
+M 0 53312 4 53373 100 0 0 0        * a tree hopper
+M 0 53312 4 53373 100 0 0 0        * a tree hopper
+M 0 53310 8 53375 100 0 0 0        * a speckled duck
+M 0 53310 8 53375 100 0 0 0        * a speckled duck
+M 0 53307 9 53385 100 0 0 0        * a bluebird
+M 0 53307 9 53385 100 0 0 0        * a bluebird
+M 0 53307 9 53385 100 0 0 0        * a bluebird
+M 0 53307 9 53385 100 0 0 0        * a bluebird
+M 0 53319 6 53397 100 0 0 0        * a gnoll poacher
+M 0 53319 6 53397 100 0 0 0        * a gnoll poacher
+M 0 53319 6 53398 100 0 0 0        * a gnoll poacher
+M 0 53319 6 53398 100 0 0 0        * a gnoll poacher
+M 0 53319 6 53399 100 0 0 0        * a gnoll poacher
+M 0 53319 6 53399 100 0 0 0        * a gnoll poacher
+M 0 53323 2 53399 100 0 0 0        * a young gnoll
+M 0 53323 2 53399 100 0 0 0        * a young gnoll
+M 0 53320 6 53400 100 0 0 0        * a short gnoll
+M 0 53320 6 53400 100 0 0 0        * a short gnoll
+M 0 53320 6 53400 100 0 0 0        * a short gnoll
+M 0 53320 6 53402 100 0 0 0        * a short gnoll
+M 0 53320 6 53402 100 0 0 0        * a short gnoll
+M 0 53320 6 53402 100 0 0 0        * a short gnoll
+M 0 53321 1 53408 100 0 0 0        * a gnoll warden
+M 0 53322 6 53409 100 0 0 0        * a young gnoll
+M 0 53322 6 53409 100 0 0 0        * a young gnoll
+M 0 53322 6 53409 100 0 0 0        * a young gnoll
+M 0 53322 6 53410 100 0 0 0        * a young gnoll
+M 0 53322 6 53410 100 0 0 0        * a young gnoll
+M 0 53322 6 53410 100 0 0 0        * a young gnoll
+*
+S

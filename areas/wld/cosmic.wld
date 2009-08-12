@@ -1,0 +1,5370 @@
+#76001
+&+yA &+WCloudy&+y Pass Between the Mountains&n~
+&+y   The rocky climb up the mountains suddenly levels off here before
+&+ya pair of enormous &+Wwhite crystal &+ygates. Obviously this is an extremely
+&+ysecluded land, being so far up in the mountain peaks, and can only be
+&+ythe fabled city of &+WUltarium&+y.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76002
+D2
+~
+~
+0 0 535802
+S
+#76002
+&+WThe Lunar Gates&n~
+&+W   These massive crystalline gates protect the city of Ultarium from
+&+Woutsiders as well as acting as a windblocker. The city itself has
+&+Wbeen built so high up into the mountain peaks themselves, that the
+&+Wchill of the winds can be incredibly dangerous to those unwary. However
+&+Where in Ultarium, everyone is aware of their surroundings, and much of
+&+Wthe city has been built to harness the power of the wind, the sky,
+&+Wthe mountains, and of course, the cosmos. Stern gate guards watch over
+&+Wtheir area intently, checking almost everyone that comes and goes for
+&+Wthe proper identification.&n
+~
+760 134250500 1
+D0
+~
+gates~
+1 0 76003
+D2
+~
+~
+0 0 76001
+S
+#76003
+&+YStarwatcher &+WPlaza&n~
+&+W  This is one of the most popular plaza's in the city, situated directly
+&+Wnorth of the Lunar Gates. A huge display of the planets and stars has been
+&+Wset up here, a miracle of modern workmanship, it even moves in a scaled-
+&+Wdown but accurate formation.  There are a few benches and planted flower
+&+Wbeds to keep the plaza beautiful. Scholar's Tower lies just to the west,
+&+Wwhile &+YSaturn's Way&+W leads north, and Scholar's Road east.
+~
+760 0 1
+D0
+~
+~
+0 0 76006
+D1
+~
+~
+0 0 76004
+D2
+~
+gates~
+1 0 76002
+D3
+~
+door~
+1 0 76005
+S
+#76004
+&+WScholar's Road&n~
+&+W   Scholar's Road&+w was na&+Wmed aft&+wer the sheer ammount of students and
+&+wscholars that visit the &+Wcity of &+wUltarium. Every year an exodus of every
+&+wpossible r&+Wac&+we come to li&+Wve and s&+wtudy in the city, knowing the spired,
+&+wcloud cit&+Wy t&+wo be one of &+Wthe very &+wfew locations on the planet that offers
+&+windept&+Wh know&+wledge of the &+Wcosmic a&+wrts. Like most of th&+We&+w city roads, small
+&+wdwelli&+Wngs ar&+we can be see&+Wn built i&+wnto the mountains&+Wide, a&+wnd the Appollyon
+&+wFo&+Wrtress is c&+wlearly&+W seen to the east&+w. The promin&+Went Scholar&+w's Tower and
+&+Wcity gates lie to th&+we we&+Wst of the well-us&+wed mo&+Wonstone street tiles.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76028
+D2
+~
+~
+0 0 76081
+D3
+~
+~
+0 0 76003
+S
+#76005
+&+WInside the Scholar's Tower&n~
+&+W   This tower has been dedicated to the students and scholar's of &+Yco&+Wsm&+Yocy&+W.
+&+WIn comparison to some of the other structures in the city it is quite
+&+Wordinary in appearance, a typical five-story tower built from m&+woo&+Wnst&+wo&+Wne.
+&+WEach floor is full of bookcases and study material for the students and
+&+Wone can see the &+BSky&+y Bridge &+Wleading out over the city from the third floor.
+&+WThe &+YStarwatcher&+W plaza lies just out the door to the east.&n
+~
+760 134250496 1
+D1
+~
+door~
+1 0 76003
+D4
+~
+~
+0 0 76024
+S
+#76006
+&+YSaturn's Way&n~
+&+Y   Saturn's Way&+y is one of the main roads in &+WUltarium&+y, running north to
+&+ysouth from the gates, flanked by huge mountain peaks on either side, to
+&+ythe northern end of the city, where the cliffs become impassable. Spires
+&+yand towers rise up from the mountaintops on either side of the road,
+&+ysparkling with crystal walls, or flashing with &+Wm&+woo&+Wnst&+wo&+Wne&+y sheen.  As well
+&+yas many smaller homes that have been carved into the mountain walls,
+&+ythe intimidating &+YAppollyon Fortress&+y can be seen touching the heavens
+&+ythemselves to the east.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76007
+D2
+~
+~
+0 0 76003
+D3
+~
+moonstone~
+1 0 76010
+S
+#76007
+&+YSaturn's Way&n~
+&+Y   Saturn's Way&+y is one of the main roads in &+WUltarium&+y, running north to
+&+ysouth from the gates, flanked by huge mountain peaks on either side, to
+&+ythe northern end of the city, where the cliffs become impassable. Spires
+&+yand towers rise up from the mountaintops on either side of the road,
+&+ysparkling with crystal walls, or flashing with &+Wm&+woo&+Wnst&+wo&+Wne&+y sheen.  As well
+&+yas many smaller homes that have been carved into the mountain walls,
+&+ythe intimidating &+YAppollyon Fortress&+y can be seen touching the heavens
+&+ythemselves to the east.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76008
+D2
+~
+~
+0 0 76006
+D3
+~
+door~
+1 0 76114
+S
+#76008
+&+YSaturn's Way&+y and &+YApollo's Trail&n~
+&+y   Arguably the two most important roads in the entire city intersect
+&+yhere, with &+YSaturn's Way &+ycontinuing its north to south route while
+&+YApollo's Trail&+y leads off towards the &+YFortress&+y in the east. Like every-
+&+ywhere else around Ultarium, the roads are flanked by towering mountain
+&+ypeaks and awe-inspiring towers.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76009
+D1
+~
+~
+0 0 76017
+D2
+~
+~
+0 0 76007
+S
+#76009
+&+YSaturn's Way&n~
+&+Y   Saturn's Way&+y is one of the main roads in &+WUltarium&+y, running north to
+&+ysouth from the gates, flanked by huge mountain peaks on either side, to
+&+ythe northern end of the city, where the cliffs become impassable. Spires
+&+yand towers rise up from the mountaintops on either side of the road,
+&+ysparkling with crystal walls, or flashing with &+Wm&+woo&+Wnst&+wo&+Wne&+y sheen.  As well
+&+yas many smaller homes that have been carved into the mountain walls,
+&+ythe intimidating &+YAppollyon Fortress&+y can be seen touching the heavens
+&+ythemselves to the east.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76015
+D2
+~
+~
+0 0 76008
+D3
+~
+rocks~
+5 0 76058
+S
+#76010
+&+WBase of the Lunar Observatory&n~
+&+W   This hourglass-shaped observatory is one of the more prominent
+&+Wbuildings in Ultarium in terms of design as well as use. Several
+&+Wmembers of astrology and comocy frequent here, studying the stars
+&+Wand planets for hours at a time. A ladder leads upwards while the
+&+Wdoor east leads back out to the main road.
+~
+760 134250500 1
+D1
+~
+moonstone~
+1 0 76006
+D4
+~
+~
+0 0 76011
+S
+#76011
+&+WThe Observatory Spire&n~
+&+W   Unlike the majority of towers built on the mountain peaks of the
+&+Wcity, the observatory is more of a habitable spire. Its design has its
+&+Wcenter very sleek and slender, allowing just enough room for a steep
+&+Wladder leading upwards. There are no windows as one climbs up the spire,
+&+Wthe only light comes from above. Together with the landing and dome at
+&+Wthe top of the obversatory this building has the distinct shape of an
+&+Whourglass. Obviously the architects were very skilled.&n
+~
+760 134250496 1
+D4
+~
+~
+0 0 76012
+D5
+~
+~
+0 0 76010
+S
+#76012
+&+WThe Observatory Spire&n~
+&+W   Unlike the majority of towers built on the mountain peaks of the
+&+Wcity, the observatory is more of a habitable spire. Its design has its
+&+Wcenter very sleek and slender, allowing just enough room for a steep
+&+Wladder leading upwards. There are no windows as one climbs up the spire,
+&+Wthe only light comes from above. Together with the landing and dome at
+&+Wthe top of the obversatory this building has the distinct shape of an
+&+Whourglass. Obviously the architects were very skilled.&n
+~
+760 134250496 1
+D4
+~
+~
+0 0 76013
+D5
+~
+~
+0 0 76011
+S
+#76013
+&+WThe Observatory Spire&n~
+&+W   Unlike the majority of towers built on the mountain peaks of the
+&+Wcity, the observatory is more of a habitable spire. Its design has its
+&+Wcenter very sleek and slender, allowing just enough room for a steep
+&+Wladder leading upwards. There are no windows as one climbs up the spire,
+&+Wthe only light comes from above. Together with the landing and dome at
+&+Wthe top of the obversatory this building has the distinct shape of an
+&+Whourglass. Obviously the architects were very skilled.&n
+~
+760 134250496 1
+D4
+~
+~
+0 0 76014
+D5
+~
+~
+0 0 76012
+S
+#76014
+&+WThe Observatory Dome&n~
+&+W   The tower opens up to a large circular dome here, with an enormous
+&+Wopening on the top, enabling the local stargazers a prime location to
+&+Wcome and stare at the skies. This tower is one of the most popular spots
+&+Win the city, and this room here is the reason why.&n
+~
+760 134250496 1
+D5
+~
+~
+0 0 76013
+S
+#76015
+&+YSaturn's Way&n~
+&+Y   Saturn's Way&+y is one of the main roads in &+WUltarium&+y, running north to
+&+ysouth from the gates, flanked by huge mountain peaks on either side, to
+&+ythe northern end of the city, where the cliffs become impassable. Spires
+&+yand towers rise up from the mountaintops on either side of the road,
+&+ysparkling with crystal walls, or flashing with &+Wm&+woo&+Wnst&+wo&+Wne&+y sheen.  As well
+&+yas many smaller homes that have been carved into the mountain walls,
+&+ythe intimidating &+YAppollyon Fortress&+y can be seen touching the heavens
+&+ythemselves to the east.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76016
+D1
+~
+~
+0 0 76064
+D2
+~
+~
+0 0 76009
+S
+#76016
+&+CHe&+Wave&+Cns&+W Plaza&n~
+&+C   Like the p&+Wlaza at south end of the street, this one here is an
+&+Cintersection &+Wof roads as well as a rest and relax area. Benches have
+&+Cbeen set up f&+Wor the weary, and a large, amazingly built fountain helps
+&+Cto provide a &+Wcalm, soothing feeling. The ever popular &+YSaturn's Way&+W lies
+&+Csouth, while &+WM&+woo&+Wnchaser's Trail&+W leads towards the shipping area of the
+&+Ccity is east.&+W A surprisingly treacherous pathway that looks much less
+&+Cpopular heads&+W deeper into the mountains towards the west.&n
+~
+760 131072 1
+D1
+~
+~
+0 0 76069
+D2
+~
+~
+0 0 76015
+D3
+~
+~
+0 0 76036
+S
+#76017
+&+YApollo's Trail&n~
+&+Y   Apollo's Trail&+y, named after the cosmic sun god, is def&+Yinately one of
+&+ythe most important roads in the city. As it runs easte&+Yrnly towards the
+&+yawe-inspiring &+YAppollyon Fortress&+y it passes windtowe&+Yrs, decorative spires,
+&+yand common dwellings built into the mountainside&+Y. Towers spring up on
+&+yeither side of the road, using the mountain r&+Yock as foundation, and the
+&+yroad itself seems to glow like a star itse&+Ylf due to the tiled sunstone.
+&+yScholar's and townsfolk hu&+Yrry by, anxious to get on with their studies
+&+Yand out of the frosty winds that are common place at this altitude.&n
+~
+760 134250496 1
+D0
+~
+door~
+1 0 76115
+D1
+~
+~
+0 0 76018
+D3
+~
+~
+0 0 76008
+S
+#76018
+&+YApollo's Trail&n~
+&+Y   Apollo's Trail&+y, named after the cosmic sun god, is def&+Yinately one of
+&+ythe most important roads in the city. As it runs easte&+Yrnly towards the
+&+yawe-inspiring &+YAppollyon Fortress&+y it passes windtowe&+Yrs, decorative spires,
+&+yand common dwellings built into the mountainside&+Y. Towers spring up on
+&+yeither side of the road, using the mountain r&+Yock as foundation, and the
+&+yroad itself seems to glow like a star itse&+Ylf due to the tiled sunstone.
+&+yScholar's and townsfolk hu&+Yrry by, anxious to get on with their studies
+&+Yand out of the frosty winds that are common place at this altitude.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76019
+D3
+~
+~
+0 0 76017
+S
+#76019
+&+YApollo's Trail&+w and &+WScholar's Road&n~
+&+Y   Apollo's Trail&+Y meets with &+WScholar's Road here&+Y, which runs south of
+&+Yhere past the city library, a few residential dwellings, and a few
+&+Ydecorative crystal spi&+yres. &+YThe Appollyon Fortress&+y is qu&+yite close and
+&+ythe massive gates are clearly visible if one gazes directly east. The
+&+ymountain peaks rise up all aro&+Wund the busy roads, forming a strange
+&+Wsymbiotic relationship between the harsh natural enviroment and the
+&+Wadvanced civilization here.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76020
+D2
+~
+~
+0 0 76034
+D3
+~
+~
+0 0 76018
+S
+#76020
+&+YApollo's Trail&n~
+&+Y   Apollo's Trail&+y, named after the cosmic sun god, is def&+Yinately one of
+&+ythe most important roads in the city. As it runs easte&+Yrnly towards the
+&+yawe-inspiring &+YAppollyon Fortress&+y it passes windtowe&+Yrs, decorative spires,
+&+yand common dwellings built into the mountainside&+Y. Towers spring up on
+&+yeither side of the road, using the mountain r&+Yock as foundation, and the
+&+yroad itself seems to glow like a star itse&+Ylf due to the tiled sunstone.
+&+yScholar's and townsfolk hu&+Yrry by, anxious to get on with their studies
+&+Yand out of the frosty winds that are common place at this altitude.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76021
+D3
+~
+~
+0 0 76019
+S
+#76021
+&+YApollo's Trail&n~
+&+Y   Apollo's Trail&+y, named after the cosmic sun god, is def&+Yinately one of
+&+ythe most important roads in the city. As it runs easte&+Yrnly towards the
+&+yawe-inspiring &+YAppollyon Fortress&+y it passes windtowe&+Yrs, decorative spires,
+&+yand common dwellings built into the mountainside&+Y. Towers spring up on
+&+yeither side of the road, using the mountain r&+Yock as foundation, and the
+&+yroad itself seems to glow like a star itse&+Ylf due to the tiled sunstone.
+&+yScholar's and townsfolk hu&+Yrry by, anxious to get on with their studies
+&+Yand out of the frosty winds that are common place at this altitude.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76022
+D3
+~
+~
+0 0 76020
+S
+#76022
+&+YApollo's Trail&n~
+&+Y   Apollo's Trail&+y, named after the cosmic sun god, is def&+Yinately one of
+&+ythe most important roads in the city. As it runs easte&+Yrnly towards the
+&+yawe-inspiring &+YAppollyon Fortress&+y it passes windtowe&+Yrs, decorative spires,
+&+yand common dwellings built into the mountainside&+Y. Towers spring up on
+&+yeither side of the road, using the mountain r&+Yock as foundation, and the
+&+yroad itself seems to glow like a star itse&+Ylf due to the tiled sunstone.
+&+yScholar's and townsfolk hu&+Yrry by, anxious to get on with their studies
+&+Yand out of the frosty winds that are common place at this altitude.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76023
+D2
+~
+~
+0 0 76098
+D3
+~
+~
+0 0 76021
+S
+#76023
+&+YGates of Appollyon Fortress&n~
+&+Y   All the combined might of the cosmic magic and the physic&+yal incar-
+&+Ynation of cosmocy begins with a set of enormous platinum g&+yates here.
+&+YThe Appollyon Fortress the city of Ultarium's most pow&+yerful and most
+&+Yawe-inspiring tribute to the universe. It has been&+y built squarely
+&+Ybetween two of the highest mountain peaks in t&+yhe region, using that
+&+Yas natural defense. As it stretches upward&+ys and eastwards it looks
+&+Ylike an enormous golden staircase. A s&+ytern guard makes it quite clear
+&+Ythat visitors are not allowed insi&+yde the fortress.
+~
+760 134250500 1
+D1
+~
+gates~
+3 76011 76162
+D3
+~
+~
+0 0 76022
+S
+#76024
+&+WScholar's Tower&n~
+&+W   This tower was constructed for the numerous scholar's of &+Yco&+Wsm&+Yocy
+&+Wthat live within the city of Ultarium. The walls themselves are built
+&+Wfrom fallen m&+woo&+Wnst&+wo&+Wne, and as the spiral staircase leads up floor after
+&+Wfloor one can see the students of the mystical arts hunched over the
+&+Wnumerous tombs that fill the bookcases.&n
+~
+760 134250496 1
+D4
+~
+~
+0 0 76025
+D5
+~
+~
+0 0 76005
+S
+#76025
+&+WScholar's Tower&n~
+&+W   This tower was constructed for the numerous scholar's of &+Yco&+Wsm&+Yocy
+&+Wthat live within the city of Ultarium. The walls themselves are built
+&+Wfrom fallen m&+woo&+Wnst&+wo&+Wne, and as the spiral staircase leads up floor after
+&+Wfloor one can see the students of the mystical arts hunched over the
+&+Wnumerous tombs that fill the bookcases.&n
+~
+760 134250496 1
+D4
+~
+~
+0 0 76026
+D5
+~
+~
+0 0 76024
+S
+#76026
+&+WScholar's Tower&n~
+&+W   This tower was constructed for the numerous scholar's of &+Yco&+Wsm&+Yocy
+&+Wthat live within the city of Ultarium. The walls themselves are built
+&+Wfrom fallen m&+woo&+Wnst&+wo&+Wne, and as the spiral staircase leads up floor after
+&+Wfloor one can see the students of the mystical arts hunched over the
+&+Wnumerous tombs that fill the bookcases. An archway leads out to the
+&+Wthe north here, where the south end of the &+BSky &+yBridge&+W begins, leading
+&+Wover the city towards the northern end of Ultarium.&n
+~
+760 134250496 1
+D0
+~
+bridge~
+1 0 76167
+D4
+~
+~
+0 0 76027
+D5
+~
+~
+0 0 76025
+S
+#76027
+&+WScholar's Dome&n~
+&+W   The top floor of Scholar's Tower opens up to a large dome, with large
+&+Warchways circuling it and acting as windows. The view is quite astonishing
+&+Wfrom this height, and by looking through one of the arches, most of the
+&+Wcity can be seen. The spires, windmills, towers, and mountains themselves
+&+Wcan all be seen rising up to touch the clouds. There isn't any study aids
+&+Where in this room, nor desks, nor chairs, just the view below, and view
+&+Wabove, towards the &+Yco&+Wsm&+Yos&+W.&n
+~
+760 134250496 1
+D5
+~
+~
+0 0 76026
+S
+#76028
+&+WScholar's Road&n~
+&+W   Scholar's Road&+w was na&+Wmed aft&+wer the sheer ammount of students and
+&+wscholars that visit the &+Wcity of &+wUltarium. Every year an exodus of every
+&+wpossible r&+Wac&+we come to li&+Wve and s&+wtudy in the city, knowing the spired,
+&+wcloud cit&+Wy t&+wo be one of &+Wthe very &+wfew locations on the planet that offers
+&+windept&+Wh know&+wledge of the &+Wcosmic a&+wrts. Like most of th&+We&+w city roads, small
+&+wdwelli&+Wngs ar&+we can be see&+Wn built i&+wnto the mountains&+Wide, a&+wnd the Appollyon
+&+wFo&+Wrtress is c&+wlearly&+W seen to the east&+w. The promin&+Went Scholar&+w's Tower and
+&+Wcity gates lie to th&+we we&+Wst of the well-us&+wed mo&+Wonstone street tiles.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76029
+D2
+~
+door~
+1 0 76076
+D3
+~
+~
+0 0 76004
+S
+#76029
+&+WScholar's Road&n~
+&+W   Scholar's Road&+w was na&+Wmed aft&+wer the sheer ammount of students and
+&+wscholars that visit the &+Wcity of &+wUltarium. Every year an exodus of every
+&+wpossible r&+Wac&+we come to li&+Wve and s&+wtudy in the city, knowing the spired,
+&+wcloud cit&+Wy t&+wo be one of &+Wthe very &+wfew locations on the planet that offers
+&+windept&+Wh know&+wledge of the &+Wcosmic a&+wrts. Like most of th&+We&+w city roads, small
+&+wdwelli&+Wngs ar&+we can be see&+Wn built i&+wnto the mountains&+Wide, a&+wnd the Appollyon
+&+wFo&+Wrtress is c&+wlearly&+W seen to the east&+w. The promin&+Went Scholar&+w's Tower and
+&+Wcity gates lie to th&+we we&+Wst of the well-us&+wed mo&+Wonstone street tiles.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76035
+D1
+~
+~
+0 0 76030
+D3
+~
+~
+0 0 76028
+S
+#76030
+&+yThe &+WScholar's &+yCliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+&+yThe main road lies just off to the west.&n
+~
+760 134250496 5
+D3
+~
+~
+0 0 76029
+D4
+~
+~
+0 0 76031
+S
+#76031
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250500 5
+D4
+~
+~
+0 0 76032
+D5
+~
+~
+0 0 76030
+F
+30
+S
+#76032
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250496 5
+D4
+~
+~
+0 0 76033
+D5
+~
+~
+0 0 76031
+F
+30
+S
+#76033
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76054
+D5
+~
+~
+0 0 76032
+S
+#76034
+&+WScholar's Road&n~
+&+W   Scholar's Road&+w was na&+Wmed aft&+wer the sheer ammount of students and
+&+wscholars that visit the &+Wcity of &+wUltarium. Every year an exodus of every
+&+wpossible r&+Wac&+we come to li&+Wve and s&+wtudy in the city, knowing the spired,
+&+wcloud cit&+Wy t&+wo be one of &+Wthe very &+wfew locations on the planet that offers
+&+windept&+Wh know&+wledge of the &+Wcosmic a&+wrts. Like most of th&+We&+w city roads, small
+&+wdwelli&+Wngs ar&+we can be see&+Wn built i&+wnto the mountains&+Wide, a&+wnd the Appollyon
+&+wFo&+Wrtress is c&+wlearly&+W seen to the east&+w. The promin&+Went Scholar&+w's Tower and
+&+Wcity gates lie to th&+we we&+Wst of the well-us&+wed mo&+Wonstone street tiles.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76019
+D2
+~
+~
+0 0 76035
+D3
+~
+library~
+1 0 76077
+S
+#76035
+&+WScholar's Road&n~
+&+W   Scholar's Road&+w was na&+Wmed aft&+wer the sheer ammount of students and
+&+wscholars that visit the &+Wcity of &+wUltarium. Every year an exodus of every
+&+wpossible r&+Wac&+we come to li&+Wve and s&+wtudy in the city, knowing the spired,
+&+wcloud cit&+Wy t&+wo be one of &+Wthe very &+wfew locations on the planet that offers
+&+windept&+Wh know&+wledge of the &+Wcosmic a&+wrts. Like most of th&+We&+w city roads, small
+&+wdwelli&+Wngs ar&+we can be see&+Wn built i&+wnto the mountains&+Wide, a&+wnd the Appollyon
+&+wFo&+Wrtress is c&+wlearly&+W seen to the east&+w. The promin&+Went Scholar&+w's Tower and
+&+Wcity gates lie to th&+we we&+Wst of the well-us&+wed mo&+Wonstone street tiles.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76034
+D1
+~
+door~
+1 0 76075
+D2
+~
+~
+0 0 76029
+S
+#76036
+&+wAn Unn&+yamed Cob&+wblestone Pa&+yth&n~
+&+w   Like much of the city, this &+ypathway i&+ws encompassed on both sides
+&+wby the towering mountain pe&+yaks, however, unlik&+we much around these parts,
+&+wthis path is nearly devo&+yid of any activity. No tow&+wers rise up from the
+&+wstreet sides, and no &+ydwellings can be seen built in th&+we mountains, though
+&+wthis is a strange &+yoccurrance here, it could be large due t&+wo the treachery
+&+wof the trail it&+yself, and one must watch one's step, as to not tumbl&+we down
+&+wthe insurmo&+yuntable distance below.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76016
+D3
+~
+~
+0 0 76037
+S
+#76037
+&+wAn Unn&+yamed Cob&+wblestone Pa&+yth&n~
+&+w   Like much of the city, this &+ypathway i&+ws encompassed on both sides
+&+wby the towering mountain pe&+yaks, however, unlik&+we much around these parts,
+&+wthis path is nearly devo&+yid of any activity. No tow&+wers rise up from the
+&+wstreet sides, and no &+ydwellings can be seen built in th&+we mountains, though
+&+wthis is a strange &+yoccurrance here, it could be large due t&+wo the treachery
+&+wof the trail it&+yself, and one must watch one's step, as to not tumbl&+we down
+&+wthe insurmo&+yuntable distance below.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76036
+D3
+~
+~
+0 0 76038
+S
+#76038
+&+wAn Unn&+yamed Cob&+wblestone Pa&+yth&n~
+&+w   Like much of the city, this &+ypathway i&+ws encompassed on both sides
+&+wby the towering mountain pe&+yaks, however, unlik&+we much around these parts,
+&+wthis path is nearly devo&+yid of any activity. No tow&+wers rise up from the
+&+wstreet sides, and no &+ydwellings can be seen built in th&+we mountains, though
+&+wthis is a strange &+yoccurrance here, it could be large due t&+wo the treachery
+&+wof the trail it&+yself, and one must watch one's step, as to not tumbl&+we down
+&+wthe insurmo&+yuntable distance below.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76037
+D3
+~
+~
+0 0 76039
+S
+#76039
+&+wAn Unn&+yamed Cob&+wblestone Pa&+yth&n~
+&+w   Like much of the city, this &+ypathway i&+ws encompassed on both sides
+&+wby the towering mountain pe&+yaks, however, unlik&+we much around these parts,
+&+wthis path is nearly devo&+yid of any activity. No tow&+wers rise up from the
+&+wstreet sides, and no &+ydwellings can be seen built in th&+we mountains, though
+&+wthis is a strange &+yoccurrance here, it could be large due t&+wo the treachery
+&+wof the trail it&+yself, and one must watch one's step, as to not tumbl&+we down
+&+wthe insurmo&+yuntable distance below.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76040
+D1
+~
+~
+0 0 76038
+S
+#76040
+&+wAn Unn&+yamed Cob&+wblestone Pa&+yth&n~
+&+w   Like much of the city, this &+ypathway i&+ws encompassed on both sides
+&+wby the towering mountain pe&+yaks, however, unlik&+we much around these parts,
+&+wthis path is nearly devo&+yid of any activity. No tow&+wers rise up from the
+&+wstreet sides, and no &+ydwellings can be seen built in th&+we mountains, though
+&+wthis is a strange &+yoccurrance here, it could be large due t&+wo the treachery
+&+wof the trail it&+yself, and one must watch one's step, as to not tumbl&+we down
+&+wthe insurmo&+yuntable distance below. A set of stairs carved into the ro&+wck
+&+wleads up&+ywards here.&n
+~
+760 134250496 1
+D2
+~
+~
+0 0 76039
+D4
+~
+~
+0 0 76041
+S
+#76041
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76042
+D1
+~
+~
+0 0 76043
+D2
+~
+~
+0 0 76063
+D3
+~
+~
+0 0 76046
+D5
+~
+~
+0 0 76040
+S
+#76042
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76044
+D2
+~
+~
+0 0 76041
+D3
+~
+~
+0 0 76045
+S
+#76043
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76044
+D3
+~
+~
+0 0 76041
+S
+#76044
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76043
+D3
+~
+~
+0 0 76042
+S
+#76045
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76047
+D1
+~
+~
+0 0 76042
+D2
+~
+~
+0 0 76046
+S
+#76046
+&+yA &+WCloudscape&+y in the Mountains&n~
+&+y   The mountains seem to level out here for a short distance, creating
+&+ya plateau layered with thin, frosty clouds that drift by lazily. Towards
+&+ythe southeast much of the city with its peaks and spires can be seen
+&+yreaching up towards the heavens, while the civilization dwindles to its
+&+ynormal, low level towards the northwest, where only the chilled frozen
+&+ypeaks o&+Wf the bar&+yren mountain ra&+Wnge can b&+ye seen. The&+Wre is a de&+ycreased
+&+Wammount of city activity here, with only the odd scholar coming to take
+&+Win the view or guardsman checking the area for smugglers.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76045
+D1
+~
+~
+0 0 76041
+S
+#76047
+&+yAn &+WUpdraft&n~
+&+y   North and behind some large cliffside rocks on the plataeu is this
+&+ystrange formation of stones in the mountain.  Huge slabs of rock lie at
+&+yone's feet, while strong burts of frosty air rush up from underneath. The
+&+ycloudy mountain plain lies south.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76045
+D5
+&+yA large slab of rock seems to cover something here.&n
+~
+slab~
+5 0 76048
+S
+#76048
+&+LInside a Cramped Cave&n~
+&+L   Hidden behind several large, loose rock slabs seems to be the start
+&+Lof some sort of cave or tunnel network. It is exceptionally dark down here,
+&+Land easy to induce a bad case of claustrophia. If one was to watch their
+&+Lstep it would be possible to continue to travel downwards, further in to
+&+Lthe darkness, but heading back up, to the mountain plateau seems to be a
+&+Lfar smarter idea.&n
+~
+760 134250509 27
+D4
+~
+slab~
+5 0 76047
+D5
+~
+~
+0 0 76049
+S
+#76049
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D2
+~
+~
+0 0 76050
+D4
+~
+~
+0 0 76048
+S
+#76050
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76049
+D1
+~
+~
+0 0 76051
+S
+#76051
+&+LA Twisting Mountain Cave&n~
+&+w   This cave twists an&+Ld turns beneath the mountain, a complete opposite
+&+wto the hustle and &+Lbustle of the city just a few dozen feet of rock above.
+&+wIt appears near&+Lly unused to the untrained eye, but if one was too look
+&+whard enough &+Ltracks of intelligent life can be seen, almost as if someone
+&+wwas stron&+Lgly trying hard not to be found.  The typical mountain cave
+&+wcritte&+Lr scampers and clicks away in the darkness.&n
+~
+760 134250505 27
+D3
+~
+~
+0 0 76050
+D5
+~
+~
+0 0 76052
+S
+#76052
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76053
+D4
+~
+~
+0 0 76051
+S
+#76053
+&+LA Twisting Mountain Cave&n~
+&+w   This cave twists an&+Ld turns beneath the mountain, a complete opposite
+&+wto the hustle and &+Lbustle of the city just a few dozen feet of rock above.
+&+wIt appears near&+Lly unused to the untrained eye, but if one was too look
+&+whard enough &+Ltracks of intelligent life can be seen, almost as if someone
+&+wwas stron&+Lgly trying hard not to be found.  The typical mountain cave
+&+wcritte&+Lr scampers and clicks away in the darkness.&n
+~
+760 134250509 27
+D3
+~
+~
+0 0 76052
+D5
+~
+~
+0 0 76141
+S
+#76054
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76055
+D2
+~
+~
+0 0 76033
+S
+#76055
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76056
+D3
+~
+~
+0 0 76054
+S
+#76056
+&+yThe &+WScholar's&+y Cliffside Trail&n~
+&+y   The &+WScholar's&+y Cliffside Trail is an extremely steep hike upwards
+&+ytowards the &+WScholar's&+y Mountain &+WPeak&+y. Though not technically a road, it
+&+yshares the same name as that which runs through the city at the base of
+&+ythe peak in honor of the students and scholars that call &+WUltarium&+y home.
+&+yThe peak and trail is used by all sorts, and though it can be a difficult
+&+yclimb, it is often nice to clear one's head after hours in the library.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76055
+D4
+~
+~
+0 0 76057
+S
+#76057
+&+WScholar's&+y Mountain&+W Peak&n~
+&+y   As one of the highest natural points that are still reachable by
+&+yfoot, &+WScholar's Peak&+y is as much of a landmark for the city as it is
+&+ya nice place to come, sit and relax, or study in the refreshing mountain
+&+yair. The city towers act as a sort of wind shield for this point, keep-
+&+ying the icy gusts to a minimum, and though it is usually covered in a
+&+ylayer of &+Wfrost&+y, it is still popular to many.&n
+~
+760 134250496 5
+D5
+~
+~
+0 0 76056
+S
+#76058
+&+yAn Alcove in the Mountains&n~
+&+y   Hidden behind some rock from what must have been a landslide ages
+&+yago is this small alcove in the mountains. The shambles this area is
+&+yin makes it quite clear this is not a usual mountain dwelling, yet it
+&+ydoes appear that someone or something has been here, recently.&n
+~
+760 134250496 5
+D1
+~
+rocks~
+5 0 76009
+D3
+~
+~
+0 0 76059
+S
+#76059
+&+yAn Alcove in the Mountains&n~
+&+y   Hidden behind some rock from what must have been a landslide ages
+&+yago is this small alcove in the mountains. The shambles this area is
+&+yin makes it quite clear this is not a usual mountain dwelling, yet it
+&+ydoes appear that someone or s&+Lomething has been here, recently. There
+&+Lappears to be carved steps leading downwards into darkness here, though
+&+Lin no means a proper staircase like those around the city, &n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76058
+D5
+~
+~
+0 0 76060
+S
+#76060
+&+LA Descending Cave&n~
+&+L  There is something very strange about this area, it is almost
+&+Lcompletely out of character to the rest of the magnificent city of
+&+LUltarium&+L.  It is unlit, and looks like it hasn't been cleaned in many
+&+Lmonths.  Even the regular mountain homes that frequent the city would
+&+Lnever get to the state this cave is in. The broken stone steps lead
+&+Ldownwards further.&n
+~
+760 134250505 27
+D4
+~
+~
+0 0 76059
+D5
+~
+~
+0 0 76061
+S
+#76061
+&+LA Descending Cave&n~
+&+L  There is something very strange about this area, it is almost
+&+Lcompletely out of character to the rest of the magnificent city of
+&+LUltarium&+L.  It is unlit, and looks like it hasn't been cleaned in many
+&+Lmonths.  Even the regular mountain homes that frequent the city would
+&+Lnever get to the state this cave is in. Just to the east, a dim &+Ylight
+&+Lcan be seen, while the cave continues into darkness to the west.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76062
+D3
+~
+~
+0 0 76147
+D4
+~
+~
+0 0 76060
+S
+#76062
+&+LGrudat's &+yStoreroom&n~
+&+L   This is the hideout of the local fence, Grudat. His smugglers travel
+&+Lthrough the mountain cave from the airship docks to drop off contraband
+&+Lto him, which in turn he sells for inflated prices to shady characters in
+&+Lthe city. The room is nothing more than a musty cave, dimly lit, packed
+&+Lto the ceiling with boxes and crates.&n
+~
+760 134250504 27
+D3
+~
+~
+0 0 76061
+S
+#76063
+&+yA &+WWindy&+y Outcropping&n~
+&+y  A simple mountain outcropping that connects the &+BSky&+y Bri&+Wdge with the
+&+ynorthern end of the city. The frosty wind whips by fie&+Wrcly here, as it
+&+ynot as protected from the enviroment as the city p&+Wroper.  A mountain
+&+yplateau stretches out to the north.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76041
+D4
+~
+~
+0 0 76160
+S
+#76064
+&+yA Side Trail&n~
+&+y   A small path just off to the side of &+YSaturn's Way&+y begins here,
+&+ywinding its way up through the mountainside towards a watchtower built
+&+yon the peak. The locals wander about the area with vigor, hustling
+&+yfrom one location to another, in an attempt to stay out of the frosty
+&+ywinds a quickly as possible.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76065
+D3
+~
+~
+0 0 76015
+S
+#76065
+&+yA Mountain Trail&n~
+&+y   A well-tended mountain trail that leads up and to the east, towards
+&+ya fortified &+Wwatchtower&+y that overlooks the &+YAppollyon Fortress&+y. Guard-
+&+yrails have been placed along the side of the trail, to ensure safety as
+&+ya fall here, like most avenues in the city could critically injure just
+&+yabout anyone.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76066
+D3
+~
+~
+0 0 76064
+S
+#76066
+&+yA Mountain Trail&n~
+&+y   A well-tended mountain trail that leads up and to the east, towards
+&+ya fortified &+Wwatchtower&+y that overlooks the &+YAppollyon Fortress&+y. Guard-
+&+yrails have been placed along the side of the trail, to ensure safety as
+&+ya fall here, like most avenues in the city could critically injure just
+&+yabout anyone.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76065
+D4
+~
+~
+0 0 76067
+S
+#76067
+&+yA Mountain Trail&n~
+&+y   A well-tended mountain trail that leads up and to the east, towards
+&+ya fortified &+Wwatchtower&+y that overlooks the &+YAppollyon Fortress&+y. Guard-
+&+yrails have been placed along the side of the trail, to ensure safety as
+&+ya fall here, like most avenues in the city could critically injure just
+&+yabout anyone. The tower gate is east, while a barely visible path leads
+&+ynorth into a rock debris-littered outcropping.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76217
+D1
+~
+gate~
+1 0 76068
+D5
+~
+~
+0 0 76066
+S
+#76068
+&+yA &+WWatchtower&+y on the Cliffside&n~
+&+W   This is but a simple guard station, built on the mountain side that
+&+Woverlooks the eastern coastal region. Though no one talks about it it
+&+Walso serves as a lookout over the &+YAppollyon Fortress&+W, as the m&+woon&+Wst&+wo&+Wne
+&+Wgroup is quietly paranoid over the actions of the high council. Like the
+&+Wother guardhouses and watchtowers in the city, this is built from rock
+&+Wfrom the lunar satellite, and rises a couple stories into the sky.
+~
+760 134250504 1
+D3
+~
+gate~
+1 0 76067
+S
+#76069
+&+WM&+woo&+Wnchaser's Trail&n~
+&+w   Moonchas&+Wer's Trail is a short tiled pathway that winds up and to
+&+wthe east th&+Wrough the mountains towards the shipyards and mooring station.
+&+wIt is not n&+Wearly as decorative as the main streets of the city, but still
+&+wappears to &+Wbe well tended. Passengers from the airships travel this trail
+&+wto get to t&+Whe city proper, so it is important to keep it clean. There
+&+wisn't as ma&+Wny homes built into the rockface along here, but the ammount
+&+wof windtowe&+Wrs and spires is plenty.&n
+~
+760 134250496 1
+D2
+~
+door~
+1 0 76113
+D3
+~
+~
+0 0 76016
+D4
+~
+~
+0 0 76070
+S
+#76070
+&+WM&+woo&+Wnchaser's Trail&n~
+&+w   Moonchas&+Wer's Trail is a short tiled pathway that winds up and to
+&+wthe east th&+Wrough the mountains towards the shipyards and mooring station.
+&+wIt is not n&+Wearly as decorative as the main streets of the city, but still
+&+wappears to &+Wbe well tended. Passengers from the airships travel this trail
+&+wto get to t&+Whe city proper, so it is important to keep it clean. There
+&+wisn't as ma&+Wny homes built into the rockface along here, but the ammount
+&+wof windtowe&+Wrs and spires is plenty.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76071
+D5
+~
+~
+0 0 76069
+S
+#76071
+&+WM&+woo&+Wnchaser's Trail&n~
+&+w   Moonchas&+Wer's Trail is a short tiled pathway that winds up and to
+&+wthe east th&+Wrough the mountains towards the shipyards and mooring station.
+&+wIt is not n&+Wearly as decorative as the main streets of the city, but still
+&+wappears to &+Wbe well tended. Passengers from the airships travel this trail
+&+wto get to t&+Whe city proper, so it is important to keep it clean. There
+&+wisn't as ma&+Wny homes built into the rockface along here, but the ammount
+&+wof windtowe&+Wrs and spires is plenty.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76072
+D2
+~
+~
+0 0 76070
+S
+#76072
+&+WM&+woo&+Wnchaser's Trail&n~
+&+w   Moonchas&+Wer's Trail is a short tiled pathway that winds up and to
+&+wthe east th&+Wrough the mountains towards the shipyards and mooring station.
+&+wIt is not n&+Wearly as decorative as the main streets of the city, but still
+&+wappears to &+Wbe well tended. Passengers from the airships travel this trail
+&+wto get to t&+Whe city proper, so it is important to keep it clean. There
+&+wisn't as ma&+Wny homes built into the rockface along here, but the ammount
+&+wof windtowe&+Wrs and spires is plenty. The local foundry lies just to the
+&+weast.&n
+~
+760 134250496 1
+D1
+~
+foundry~
+1 0 76126
+D3
+~
+~
+0 0 76071
+D4
+~
+~
+0 0 76073
+S
+#76073
+&+WM&+woo&+Wnchaser's Trail&n~
+&+w   Moonchas&+Wer's Trail is a short tiled pathway that winds up and to
+&+wthe east th&+Wrough the mountains towards the shipyards and mooring station.
+&+wIt is not n&+Wearly as decorative as the main streets of the city, but still
+&+wappears to &+Wbe well tended. Passengers from the airships travel this trail
+&+wto get to t&+Whe city proper, so it is important to keep it clean. There
+&+wisn't as ma&+Wny homes built into the rockface along here, but the ammount
+&+wof windtowe&+Wrs and spires is plenty. The customs office is north of here.&n
+~
+760 134250496 1
+D0
+~
+gate~
+1 0 76074
+D5
+~
+~
+0 0 76072
+S
+#76074
+&+WThe Customs Tower&n~
+&+W   This is a small single room building, built with a high parapet like
+&+Wmost of the structures in the city, with a gate leading out to the south
+&+Wand a large archway that opens up to the &+Bsky &+ytethers&+W to the north. Another
+&+Warchway, though much smaller, leads east here, to the pathway that leads
+&+Wdown to the Ultarium &+yshipyards&+W. The building itself is typical, built with
+&+Wwhitewashed stone and tile and decorated with ornate planetary sculptures.
+&+WThe two workers that stay on duty here most hours of the day are to watch
+&+Wover all incoming travellers and parcels, protecting the city from &+Lcontra-
+&+Lband&+W and preventing those that would stowaway on the &+yairships&+W.&n
+~
+760 134250508 1
+D0
+~
+~
+0 0 76127
+D1
+~
+~
+0 0 76134
+D2
+~
+gate~
+1 0 76073
+S
+#76075
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D3
+~
+door~
+1 0 76035
+S
+#76076
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D0
+~
+door~
+1 0 76028
+S
+#76077
+&+yEntrance Hall of the Library&n~
+&+y   The library of &+WUltarium&+y is an extremely popular location, especially
+&+yfor the numerous scholars and students that come to the city to study.
+&+yThough this simple two-story building that has been constructed on the
+&+yof the mountain, like much else here, is fairly common in appearance and
+&+ysize, the rare books, scrolls, and tombs, that are available here are
+&+yextremely rare and valuable.  &+WScholar's Road&+y is out the door to the east
+&+ywhile a staircase leading to the second floor of the library is just
+&+ysouth.&n
+~
+760 134250508 1
+D1
+~
+library~
+1 0 76034
+D2
+~
+~
+0 0 76078
+S
+#76078
+&+yA Study Room&n~
+&+y   Several desks have been set up here, for those who wish to study the
+&+yresources of the library may do so.  Bookshelves, all completely full,
+&+yline the walls that reach as high as the ceiling. An elegant and broad
+&+yteak staircase leads up to the second floor of the library.
+~
+760 134250504 1
+D0
+~
+~
+0 0 76077
+D4
+~
+~
+0 0 76079
+S
+#76079
+&+ySecond Floor Landing&n~
+&+y   Much the same as the first floor, rows of bookshelves and several
+&+ydesks have all been set up here. The usual hush of any library is to be
+&+yexpected and one finds oneself talking in a low whisper subconciously.
+&+yThe stairway leads back down, while another study room is north.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76080
+D5
+~
+~
+0 0 76078
+S
+#76080
+&+yA Study Room&n~
+&+y   Yet another study room in the library kept well lit and quiet at
+&+yall times so students have no problem memorizing what they need, or
+&+ylearning whatever is it they came for here. The room has a couple of
+&+ydesks and lined with bookshelves.&n
+~
+760 134250504 1
+D2
+~
+~
+0 0 76079
+S
+#76081
+&+WAn Alley Between the Towers&n~
+&+W   This is just a short alley, seperating two of the most well-used
+&+Wstreets in the city, Scholar's Road to the north and &+YComet's&+W Course up
+&+Wa series of m&+woo&+Wnst&+wo&+Wne steps that are as broad as the alley itself. On
+&+Weither side and all around, towers, windmills, and spires rise up from
+&+Wthe mountain avenues.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76004
+D4
+~
+~
+0 0 76082
+S
+#76082
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D2
+~
+~
+0 0 76083
+D5
+~
+~
+0 0 76081
+S
+#76083
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76082
+D2
+~
+~
+0 0 76084
+S
+#76084
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76083
+D2
+~
+~
+0 0 76085
+S
+#76085
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well place guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop. A well-worn trails leads to a mountain &+Bspring
+&+Win the eas&+wt.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76084
+D1
+~
+~
+0 0 76086
+D2
+~
+~
+0 0 76089
+S
+#76086
+&+yA Short Mountain Path&n~
+&+y   A simple side trail leads off from &+YComet's&+W Course&+y an&+wd to&+Ywards a
+&+ypopular mountain spring here. It is a short hike fr&+wom th&+Ye city proper
+&+yand the path is kept clean of debris from the ran&+wdom &+Yrockslides that
+&+yoccur commonly around this area. The shore of &+wthe &+Yspring is just to
+&+ythe east.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76087
+D3
+~
+~
+0 0 76085
+S
+#76087
+&+yThe Rocky Shore of a Mountain &+BSpring&n~
+&+y   The shore of the mountain spring is just a rocky landing in the
+&+ymountainside, and the end of a brief trail leading away from the main
+&+yroad. The water of the spring is still, near motionless, and extremely
+&+yfresh and pure. This is a beautifully natural location, and a favorite
+&+yof the local druids of the city.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76088
+D3
+~
+~
+0 0 76086
+S
+#76088
+&+yA Mountain &+BSpring&n~
+&+B   The spring here acts as one of the main sources of fresh water
+&+Bfor the citizens of the city. The icy winds create snow on the peaks
+&+Bof the mountains, not that far off above, and when the snow melts it
+&+Bruns down to the mountain into &+Bsprings like this one. There several
+&+Bsprings and runoff pools around the mountainous area, however this one
+&+Bseems special, perhaps blessed by the cosmic gods themselves, and is
+&+Bin use constantly by the residents.&n
+~
+760 134250496 6
+D3
+~
+~
+0 0 76087
+S
+#76089
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76085
+D2
+~
+~
+0 0 76090
+S
+#76090
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76089
+D2
+~
+~
+0 0 76091
+S
+#76091
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well place guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop. A trail south leads up to the &+Wgrif&+Yfon avairy.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76090
+D2
+~
+~
+0 0 76093
+D3
+~
+~
+0 0 76092
+S
+#76092
+&+YComet's&+W Course&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76091
+D3
+~
+~
+0 0 76116
+S
+#76093
+&+yA Side Trail&n~
+&+y   The trail here breaks off from the busy road of &+YComet's &+WCourse&+y and
+&+yleads to a worn mountain passage.  Though not one of the main sectors of
+&+ythe city itself, the trail looks to be used frequently, and steps have
+&+ybeen carved into the mountain rock itself, leading upwards to a plateau.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76091
+D4
+~
+~
+0 0 76094
+S
+#76094
+&+yA Mountain Plateau&n~
+&+y   The mountain levels off here for quite a distance, allowing the
+&+yconstruction of a fortified &+Wguardhouse&+y whose gate is directly to the
+&+yeast of here and the local &+Wgrif&+Yfon&+y avairy stretching out on the flat
+&+ymountain land. The &+yimposing &+YAppollyon Fortress&+y can be seen to the &+ynorth
+&+yadmist the drifting clouds.&n
+~
+760 134250496 5
+D1
+~
+gate~
+1 0 76095
+D5
+~
+~
+0 0 76093
+S
+#76095
+&+WA M&+woo&+Wnst&+wo&+Wne Guardhouse&n~
+&+W   Within clear view of the mountain peaks, the city just off to the
+&+Wnorth, and the entire surrounding area, sits this guardhouse. The guards
+&+Where keep a viligant lookout for anything that approaches from the skies
+&+Was well as protecting one of the most valuable resources known around
+&+Wthese parts, the grif&+Yfons&+W, and the grif&+Yfon&+W aviary, that lies just outside
+&+Wthe guardhouse to the east. A ladder built into the wall leads up to the
+&+Wsecond floor.&n
+~
+760 134250508 1
+D1
+~
+~
+0 0 76096
+D3
+~
+gate~
+1 0 76094
+D4
+~
+~
+0 0 76097
+S
+#76096
+&+yA &+WGrif&+Yfon&+y Avairy&n~
+&+y   As a vital part of the community of &+WUltarium&+y, the &+Wgrif&+Yfons&+y here are
+&+ytreated as equals as well as an important means of transportion for those
+&+yresidents that don't have the innate ability to fly. The avairy itself
+&+yis just a small outcropped plataeu built on an eastern mountainside, and
+&+yprotected by a &+Wguardhouse&+y just to the west. Many &+Wgrif&+Yfons&+y are raised and
+&+ytrained here, and when not in use, usually roost here as well, though they
+&+yare all allowed to come and go as they wish.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76132
+D2
+~
+~
+0 0 76131
+D3
+~
+~
+0 0 76095
+S
+#76097
+&+WThe Guardhouse Parapet&n~
+&+W   The top floor of this guardhouse is open to the frosty mountain
+&+Wwinds, allowing the sentries stationed here to scan the area from an
+&+Welevated hieght. Its foundation is sturdy m&+woo&+Wnst&+wo&+Wne, and is broad enough
+&+Wto support a fair-sized catapult if the need was to arise, however, at
+&+Wthis point just watching over and protecting the avairy is the priority
+&+Wof the guards here.&n
+~
+760 134250496 1
+D5
+~
+~
+0 0 76095
+S
+#76098
+&+yA Rest Stop&n~
+&+y   Between the towers and structures of the city is this small rest
+&+ystop sitting below one of the more well-used mountains trails within the
+&+ycity proper. Several benches and flower beds have been placed here, for
+&+ythose wishing to relax or study in the fresh mountain air. The busy main
+&+ystreet of &+YApollo's Trail&+y is just off to the north, while a pathway leads
+&+yup a set of carved stone stairs.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76022
+D4
+~
+~
+0 0 76099
+S
+#76099
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76100
+D5
+~
+~
+0 0 76098
+S
+#76100
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76101
+D3
+~
+~
+0 0 76099
+S
+#76101
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76102
+D3
+~
+~
+0 0 76100
+S
+#76102
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens. A large rock
+&+yhome with &+mas&+Wtro&+mlo&+Wgic&+mal&+y symbols on the door is to the east.&n
+~
+760 134250496 5
+D1
+~
+door~
+1 0 76225
+D3
+~
+~
+0 0 76101
+D4
+~
+~
+0 0 76103
+S
+#76103
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76104
+D5
+~
+~
+0 0 76102
+S
+#76104
+&+yA Mountain Trail&n~
+&+y   This unnamed mountain trail winds up around the cliffside, in direct
+&+yview of the &+YAppollyon Fortress&+y that looms overhead, casting dark shadows
+&+yover this area. The trail appears to be well tended like many others in the
+&+ycity, and residential dwellings have been carved into the mountainside. The
+&+yodd windtower rises up from just off the main path, and to the west one can
+&+ysee the sky bridge and the city towers touching the heavens.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76105
+D2
+~
+~
+0 0 76103
+S
+#76105
+&+yA Change in the Trail&n~
+&+y   The trail begins a subtle change here, from the untiled mountain path
+&+yto the begining of a white floored, heavily decorated road just to the
+&+ynorth. There is a door to a &+cwind&+Wtower&+y that sits just east, and the city
+&+ystretches out just below.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76106
+D1
+~
+door~
+1 0 76111
+D2
+~
+~
+0 0 76104
+S
+#76106
+&+WPath of the Oracle&n~
+&+W   The pathway changes dramatically here,  shifting from the rock
+&+Wpathway that encircles the mountain and fortress, to this marble tiled,
+&+Wheavily decorated road. As the path continues leading up, the ammount
+&+Wof sculptures and fountains to the side increase, and with only a waist-
+&+Wlevel guardrail separating the trail and a drop off down the mountain
+&+Wside thousands of feet below, it is an amazing view and awe-inspiring
+&+Wlocation in itself.&n
+~
+760 134250496 1
+D2
+~
+~
+0 0 76105
+D4
+~
+~
+0 0 76107
+S
+#76107
+&+WPath of the Oracle&n~
+&+W   This pathway is nearly flawless, every flowerbed tended and every
+&+Wstatue and fountain kept in pristine condition. Even the frosty mountain
+&+Wwinds die down to a slight breeze here, calming and soothing, as nature
+&+Witself has great respect for what lies up ahead.&n
+~
+760 134250496 1
+D3
+~
+~
+0 0 76108
+D5
+~
+~
+0 0 76106
+S
+#76108
+&+WPath of the Oracle&n~
+&+W   This pathway is nearly flawless, every flowerbed tended and every
+&+Wstatue and fountain kept in pristine condition. Even the frosty mountain
+&+Wwinds die down to a slight breeze here, calming and soothing, as nature
+&+Witself has great respect for what lies up ahead.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76107
+D3
+~
+~
+0 0 76109
+S
+#76109
+&+WPath of the Oracle&n~
+&+W   This pathway is nearly flawless, every flowerbed tended and every
+&+Wstatue and fountain kept in pristine condition. Even the frosty mountain
+&+Wwinds die down to a slight breeze here, calming and soothing, as nature
+&+Witself has great respect for what is just up along a polished moonstone
+&+Wstairway.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76108
+D4
+~
+~
+0 0 76110
+S
+#76110
+&+WOracle of the &+CStars&n~
+&+W   The fabled Oracle of the &+CStars&+W is reknowned here in Ultarium, though
+&+Wthe exact reasons are not completely understood by a foriegner. To those
+&+Wunfamiliar with the spiritual nature of the city, the oracle just appears
+&+Was a large statue holding a mystical &+Cball&+W high overhead, which seems to
+&+Wpulsate with living energy.&n
+~
+760 32768 1
+D5
+~
+~
+0 0 76109
+S
+#76111
+&+WInside a &+cWind&+Wtower&n~
+&+c   Wind&+Wtowers&+c and wind&+Wmills&+c are a extremely valuable structures within
+&+cthe sky city of &+WUltarium&+c.  As the frosty mountain air turns the blades of
+&+cthe tower, it powers of a series of cleverly designed gears to perform
+&+ccertain function. Though the actions the towers and mills are different
+&+cfrom structure to structure, this one is used to help pump fresh water
+&+cfrom an underground spring through a series of pipes to the fountains
+&+cbuilt along the &+WPath of the &+COracle&+c. There is a small ladder that leads
+&+cup to the second floor.&n
+~
+760 134250504 1
+D3
+~
+door~
+1 0 76105
+D4
+~
+~
+0 0 76112
+S
+#76112
+&+WTop Floor of a&n &+cWind&+Wtower&n~
+&+c   The top floor of this wind&+Wtower&+c, along with most all the others here
+&+cin the city, is full of gears and spindles that help produce the needed
+&+ceffect when the wind rotates the great blades. As they turn they spin a
+&+clarge steel bar, which in turn activates a set of gears that do the job
+&+cof what they have been built for.  There is a single window out of the
+&+ctower, in the opposite direction of the windblades, so is no one would by
+&+cmistake stick their head out and have it chopped off.&n
+~
+760 134250504 1
+D5
+~
+~
+0 0 76111
+S
+#76113
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D0
+~
+door~
+1 0 76069
+S
+#76114
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D1
+~
+door~
+1 0 76007
+S
+#76115
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D2
+~
+door~
+1 0 76017
+S
+#76116
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well placed guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop.&n
+~
+760 134250496 1
+D0
+~
+door~
+1 0 76125
+D1
+~
+~
+0 0 76092
+D3
+~
+~
+0 0 76117
+S
+#76117
+&+YComet's &+WCourse&n~
+&+Y   Comet's &+WCourse&+Y is one of the many roads that circle around the
+&+woutside&+Y of the city proper. It twists and weaves its way around the
+&+Wmo&+wuntain &+Ypeaks, a dangerous trek if not for the well place guardrails.
+&+WFro&+wm along &+Ythis road, the city itself has an amazing view to the north
+&+Wwith s&+wo many &+Ytowers and spires built solidly on the mountainside, that
+&+Wstretch u&+wpwards&+Y to rival the highest peaks in the world. Very little
+&+Wlies to the &+wsouth&+Y of &+YComet's&+W Course&+Y, a few dwellings, the odd windmill,
+&+Wand an extremel&+wy lon&+Yg drop. A mountain peak named the Circle of &+CStars
+&+Wis just above.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76116
+D4
+~
+~
+0 0 76118
+S
+#76118
+&+WEdge of the Circle of &+CStars&n~
+&+W   The main road that is&+Y Comet's &+WCourse lies just to the down the steps here,
+&+Wwhile the spiritual Circle of &+CStars &+Wbegins to the north, traversing its way
+&+Waround &+Wthe mountain peak that many believe to be blessed by the gods of
+&+Wthe stars themselves.
+~
+760 134250500 1
+D0
+~
+~
+0 0 76119
+D5
+~
+~
+0 0 76117
+S
+#76119
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76118
+D6
+~
+~
+0 0 76121
+D8
+~
+~
+0 0 76120
+S
+#76120
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D6
+~
+~
+0 0 76123
+D7
+~
+~
+0 0 76119
+S
+#76121
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D8
+~
+~
+0 0 76122
+D9
+~
+~
+0 0 76119
+S
+#76122
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76124
+D7
+~
+~
+0 0 76121
+S
+#76123
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D3
+~
+~
+0 0 76124
+D9
+~
+~
+0 0 76120
+S
+#76124
+&+WCircle of &+CStars&n~
+&+C   The Circle of Stars is a spir&+Witual location here within the city,
+&+Cbut to those unaware it appear&+Ws simple as a circular, tile pathway that
+&+Cwinds itself around a fros&+Wty mountain peak. To several sects of cosmocy
+&+Cas well as a variety of&+W monks, this is a holy place, representing the
+&+Cplanet's ability to&+W reach the heavens naturally.  The pathway itself is
+&+Cheavily decorat&+Wed and the mountainside has many carving and runes etched
+&+Cinto it. At &+Wany givin time here, one can easily spot half a dozen monks
+&+Cor studen&+Wts slowing wandering around.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76123
+D3
+~
+~
+0 0 76122
+S
+#76125
+&+yA Dwelling in the Mountains&n~
+&+L   Th&+yis is one of the many simple homes carved into the mountainside
+&+Lin the &+ycity of &+WUltarium&+y.  Though many of the city's residents are students
+&+Lwho live wi&+ythin their communal towers and spires, the regular city workers
+&+Llike gu&+yards, cleaners, and craftsmen all live in homes like this. Simple
+&+Lyet e&+yffective and cozy, no one in the city is unemployed or homeless.&n
+~
+760 134250496 5
+D2
+~
+door~
+1 0 76116
+S
+#76126
+&+yThe&+W Ultarium &+yFoundry&n~
+&+W   This bui&+ylding has been fashioned from the co&+Wmbination of the mountain-
+&+Wside rock and moonstone, crea&+yting a very sturdy and st&+Wrange effect to the
+&+yroom.  T&+Whe blacksmith works he&+yre tirelessly, pounding away metal on his
+&+Wanvil, forging the ore that has be&+yen imported from dist&+Want lands into a
+&+Wvariety of differen&+yt items. There is a ho&+Wle carved into the roof of this
+&+ybuilding, where the black smo&+Wke billows up and out, to be swept away by
+&+Wthe frosty moun&+ytain winds.&n
+~
+760 134250504 1
+D3
+~
+foundry~
+1 0 76072
+S
+#76127
+&+yThe &+BSky&+y Tethers&n~
+&+y   The &+BSky&+y Tether is akin to a shipdock in the sky. The mountain rock
+&+yhas been carved out to a long platform, supported by the stone beneath,
+&+ythat reaches out to the sky like the finger of some earthern god. The
+&+ypath is lined with guardrails to make sure no accidents happen as well
+&+yas huge tether &+Lpoles&+y that are used for mooring the airships docked. The
+&+Wcustoms house&+y is to the south of here, where new arrivals need check in
+&+ybefore entering the city. As always, several workers are busy here,
+&+ywatching the skies for incoming travel.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76128
+D2
+~
+~
+0 0 76074
+S
+#76128
+&+yThe &+BSky&+y Tethers&n~
+&+y   The &+BSky&+y Tether is akin to a shipdock in the sky. The mountain rock
+&+yhas been carved out to a long platform, supported by the stone beneath,
+&+ythat reaches out to the sky like the finger of some earthern god. The
+&+ypath is lined with guardrails to make sure no accidents happen as well
+&+yas huge tether &+Lpoles&+y that are used for mooring the airships docked. The
+&+Wcustoms house&+y is to the south of here, where new arrivals need check in
+&+ybefore entering the city. As always, several workers are busy here,
+&+ywatching the skies for incoming travel.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76129
+D2
+~
+~
+0 0 76127
+S
+#76129
+&+yThe &+BSky&+y Tethers&n~
+&+y   The &+BSky&+y Tether is akin to a shipdock in the sky. The mountain rock
+&+yhas been carved out to a long platform, supported by the stone beneath,
+&+ythat reaches out to the sky like the finger of some earthern god. The
+&+ypath is lined with guardrails to make sure no accidents happen as well
+&+yas huge tether &+Lpoles&+y that are used for mooring the airships docked. The
+&+Wcustoms house&+y is to the south of here, where new arrivals need check in
+&+ybefore entering the city. As always, several workers are busy here,
+&+ywatching the skies for incoming travel.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76130
+D2
+~
+~
+0 0 76128
+S
+#76130
+&+yThe &+BSky&+y Tethers&n~
+&+y   The &+BSky&+y Tether is akin to a shipdock in the sky. The mountain rock
+&+yhas been carved out to a long platform, supported by the stone beneath,
+&+ythat reaches out to the sky like the finger of some earthern god. The
+&+ypath is lined with guardrails to make sure no accidents happen as well
+&+yas huge tether &+Lpoles&+y that are used for mooring the airships docked. The
+&+Wcustoms house&+y is to the south of here, where new arrivals need check in
+&+ybefore entering the city. As always, several workers are busy here,
+&+ywatching the skies for incoming travel.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76129
+S
+#76131
+&+yA&+W Grif&+Yfon&+y Avairy&n~
+&+y   As a vital part of the community of &+WUltarium&+y, the &+Wgrif&+Yfons&+y here are
+&+ytreated as equals as well as an important means of transportion for those
+&+yresidents that don't have the innate ability to fly. The avairy itself
+&+yis just a small outcropped plataeu built on an eastern mountainside, and
+&+yprotected by a &+Wguardhouse&+y just to the west. Many &+Wgrif&+Yfons&+y are raised and
+&+ytrained here, and when not in use, usually roost here as well, though they
+&+yare all allowed to come and go as they wish.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76096
+D1
+~
+~
+0 0 76133
+S
+#76132
+&+yA &+WGrif&+Yfon&+y Avairy&n~
+&+y   As a vital part of the community of &+WUltarium&+y, the &+Wgrif&+Yfons&+y here are
+&+ytreated as equals as well as an important means of transportion for those
+&+yresidents that don't have the innate ability to fly. The avairy itself
+&+yis just a small outcropped plataeu built on an eastern mountainside, and
+&+yprotected by a &+Wguardhouse&+y just to the west. Many &+Wgrif&+Yfons&+y are raised and
+&+ytrained here, and when not in use, usually roost here as well, though they
+&+yare all allowed to come and go as they wish.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76241
+D2
+~
+~
+0 0 76133
+D3
+~
+~
+0 0 76096
+S
+#76133
+&+yA &+WGrif&+Yfon&+y Avairy&n~
+&+y   As a vital part of the community of &+WUltarium&+y, the &+Wgrif&+Yfons&+y here are
+&+ytreated as equals as well as an important means of transportion for those
+&+yresidents that don't have the innate ability to fly. The avairy itself
+&+yis just a small outcropped plataeu built on an eastern mountainside, and
+&+yprotected by a &+Wguardhouse&+y just to the west. Many &+Wgrif&+Yfons&+y are raised and
+&+ytrained here, and when not in use, usually roost here as well, though they
+&+yare all allowed to come and go as they wish.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76132
+D3
+~
+~
+0 0 76131
+S
+#76134
+&+yTrail to the Shipyards&n~
+&+y   The trail leads nearly straigh&+wt down from the sky dock and custom's
+&+woffice above. The mountain stone ha&+ys been carved into steps, and a rope
+&+yguideline has been constructed to t&+whe sides of the stairs as they zig-
+&+wzag down the side of the mountain. &+yThe shipyards themselves are clearly
+&+yvisible as one continues the descen&+wt, as they stretch out northernly
+&+won a large plateau of rock. A few o&+yf the worker's homes have also been
+&+ybuilt into the rockface here. A l&+warge boulder to the north looks oddly
+&+wout of place.&n
+~
+760 134250496 5
+D0
+~
+boulder~
+12 0 76185
+D3
+~
+~
+0 0 76074
+D5
+~
+~
+0 0 76135
+S
+#76135
+&+yTrail to the Shipyards&n~
+&+y   The trail leads nearly straigh&+wt down from the sky dock and custom's
+&+woffice above. The mountain stone ha&+ys been carved into steps, and a rope
+&+yguideline has been constructed to t&+whe sides of the stairs as they zig-
+&+wzag down the side of the mountain. &+yThe shipyards themselves are clearly
+&+yvisible as one continues the descen&+wt, as they stretch out northernly
+&+won a large plateau of rock. A few o&+yf the worker's homes have also been
+&+ybuilt into the rockface here.&n
+~
+760 134250496 5
+D3
+~
+~
+0 0 76136
+D4
+~
+~
+0 0 76134
+S
+#76136
+&+yTrail to the Shipyards&n~
+&+y   The trail leads nearly straigh&+wt down from the sky dock and custom's
+&+woffice above. The mountain stone ha&+ys been carved into steps, and a rope
+&+yguideline has been constructed to t&+whe sides of the stairs as they zig-
+&+wzag down the side of the mountain. &+yThe shipyards themselves are clearly
+&+yvisible as one continues the descen&+wt, as they stretch out northernly
+&+won a large plateau of rock. A few o&+yf the worker's homes have also been
+&+ybuilt into the rockface here.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76135
+D5
+~
+~
+0 0 76137
+S
+#76137
+&+yTrail to the Shipyards&n~
+&+y   The trail leads nearly straigh&+wt down from the sky dock and custom's
+&+woffice above. The mountain stone ha&+ys been carved into steps, and a rope
+&+yguideline has been constructed to t&+whe sides of the stairs as they zig-
+&+wzag down the side of the mountain. &+yThe shipyards themselves are clearly
+&+yvisible as one continues the descen&+wt, as they stretch out northernly
+&+won a large plateau of rock. A few o&+yf the worker's homes have also been
+&+ybuilt into the rockface here.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76138
+D4
+~
+~
+0 0 76136
+S
+#76138
+&+yTrail to the Shipyards&n~
+&+y   The trail leads nearly straigh&+wt down from the sky dock and custom's
+&+woffice above. The mountain stone ha&+ys been carved into steps, and a rope
+&+yguideline has been constructed to t&+whe sides of the stairs as they zig-
+&+wzag down the side of the mountain. &+yThe shipyards themselves are clearly
+&+yvisible as one continues the descen&+wt, as they stretch out northernly
+&+won a large plateau of rock. A few o&+yf the worker's homes have also been
+&+ybuilt into the rockface here.&n
+~
+760 134250500 5
+D3
+~
+~
+0 0 76137
+D5
+~
+~
+0 0 76139
+S
+#76139
+&+yLanding by the Shipyards&n~
+&+y   At the landing of this cliff face is one of the most important areas
+&+yin the entire city. The shipyards themselves lay to the north, where
+&+ythe hulking framework of the massive vessels are worked on. To the west
+&+yis the constructi&+won lane, where the lesser pieces are assembled and the
+&+wengineers help with the design. A door to the east leads into a large
+&+wtwo-story building where the airship crews sleep while on leave.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76140
+D1
+~
+door~
+1 0 76211
+D3
+~
+~
+0 0 76151
+D4
+~
+~
+0 0 76138
+S
+#76140
+&+yThe Shipyards&n~
+&+y   This stretch of mountain rock is used for the final assembly of
+&+ythe airships built here. After the smaller pieces are constructed they
+&+yare carried over to this location, which acts much like the airship
+&+yequivalent of a drydock. Once the hull is fully assembled they leather
+&+yworkers come to fit the balloon which will enable the airship for
+&+yflight. It is a long process, and takes almost half-a-year to complete
+&+yjust one of these amazing vessels.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76158
+D2
+~
+~
+0 0 76139
+S
+#76141
+&+LOn the Verge of a Cavern&n~
+&+L   The tunnel seems to change slightly here, from the uneven mountain
+&+Lcave to a large cavern that opens up to the east that appears quite
+&+Lwell looked after. The deafening echoes of the tunnel seem to fade
+&+Laway, replaced with a quiet hush that is almost frightening. Another
+&+Ldark tunnel leads to the north.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76189
+D1
+~
+~
+0 0 76142
+D4
+~
+~
+0 0 76053
+S
+#76142
+&+LCovenant of the M&+woo&+Lnsh&+wa&+Lde&n~
+&+L   From the unkempt subt&+re&+Lrr&+re&+Lan tunnel on either side, to this, a well-
+&+Lsized chamber in pristine condition. The rock walls have all been polished
+&+Land sanded down, and statues are carved in from floor to ceiling. In fact
+&+Lthe only difference betwe&+re&+Ln h&+re&+Lre and the surface city, is that it is
+&+Lcompl&+re&+Lt&+re&+Lly pitch black, with only the twinkling &+re&+Ly&+re&+Ls of ultravision that
+&+Lshow the sign of r&+re&+Lsid&+re&+Lnts. The city itself has no problem with these
+&+Lunderdark-born practitioners of cosmocy, as Ultarium is utterly neutral.
+&+LThe beings that stay down h&+re&+Lr&+re&+L do so because they wish to.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76144
+D2
+~
+~
+0 0 76143
+D3
+~
+~
+0 0 76141
+S
+#76143
+&+LCovenant of the M&+woo&+Lnsh&+wa&+Lde&n~
+&+L   From the unkempt subt&+re&+Lrr&+re&+Lan tunnel on either side, to this, a well-
+&+Lsized chamber in pristine condition. The rock walls have all been polished
+&+Land sanded down, and statues are carved in from floor to ceiling. In fact
+&+Lthe only difference betwe&+re&+Ln h&+re&+Lre and the surface city, is that it is
+&+Lcompl&+re&+Lt&+re&+Lly pitch black, with only the twinkling &+re&+Ly&+re&+Ls of ultravision that
+&+Lshow the sign of r&+re&+Lsid&+re&+Lnts. The city itself has no problem with these
+&+Lunderdark-born practitioners of cosmocy, as Ultarium is utterly neutral.
+&+LThe beings that stay down h&+re&+Lr&+re&+L do so because they wish to.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76142
+D1
+~
+~
+0 0 76145
+D4
+~
+~
+0 0 76230
+S
+#76144
+&+LCovenant of the M&+woon&+Lsh&+wa&+Lde&n~
+&+L   From the unkempt subt&+re&+Lrr&+re&+Lan tunnel on either side, to this, a well-
+&+Lsized chamber in pristine condition. The rock walls have all been polished
+&+Land sanded down, and statues are carved in from floor to ceiling. In fact
+&+Lthe only difference betwe&+re&+Ln h&+re&+Lre and the surface city, is that it is
+&+Lcompl&+re&+Lt&+re&+Lly pitch black, with only the twinkling &+re&+Ly&+re&+Ls of ultravision that
+&+Lshow the sign of r&+re&+Lsid&+re&+Lnts. The city itself has no problem with these
+&+Lunderdark-born practitioners of cosmocy, as Ultarium is utterly neutral.
+&+LThe beings that stay down h&+re&+Lr&+re&+L do so because they wish to.&n
+~
+760 134250505 27
+D2
+~
+~
+0 0 76145
+D3
+~
+~
+0 0 76142
+S
+#76145
+&+LCovenant of the M&+woo&+Lnsh&+wa&+Lde&n~
+&+L   From the unkempt subt&+re&+Lrr&+re&+Lan tunnel on either side, to this, a well-
+&+Lsized chamber in pristine condition. The rock walls have all been polished
+&+Land sanded down, and statues are carved in from floor to ceiling. In fact
+&+Lthe only difference betwe&+re&+Ln h&+re&+Lre and the surface city, is that it is
+&+Lcompl&+re&+Lt&+re&+Lly pitch black, with only the twinkling &+re&+Ly&+re&+Ls of ultravision that
+&+Lshow the sign of r&+re&+Lsid&+re&+Lnts. The city itself has no problem with these
+&+Lunderdark-born practitioners of cosmocy, as Ultarium is utterly neutral.
+&+LThe beings that stay down h&+re&+Lr&+re&+L do so because they wish to.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76144
+D1
+~
+~
+0 0 76146
+D3
+~
+~
+0 0 76143
+S
+#76146
+&+LOn the Verge of a Cavern&n~
+&+L   The tunnel seems to change slightly here, from the uneven mountain
+&+Lcave to a large cavern that opens up to the west that appears quite
+&+Lwell looked after. The deafening echoes of the tunnel seem to fade
+&+Laway, replaced with a quiet hush that is almost frightening.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76150
+D3
+~
+~
+0 0 76145
+S
+#76147
+&+LA Twisting Mountain Cave&n~
+&+w   This cave twists an&+Ld turns beneath the mountain, a complete opposite
+&+wto the hustle and &+Lbustle of the city just a few dozen feet of rock above.
+&+wIt appears near&+Lly unused to the untrained eye, but if one was too look
+&+whard enough &+Ltracks of intelligent life can be seen, almost as if someone
+&+wwas stron&+Lgly trying hard not to be found.  The typical mountain cave
+&+wcritte&+Lr scampers and clicks away in the darkness.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76061
+D3
+~
+~
+0 0 76148
+S
+#76148
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76149
+D1
+~
+~
+0 0 76147
+S
+#76149
+&+LA Twisting Mountain Cave&n~
+&+w   This cave twists an&+Ld turns beneath the mountain, a complete opposite
+&+wto the hustle and &+Lbustle of the city just a few dozen feet of rock above.
+&+wIt appears near&+Lly unused to the untrained eye, but if one was too look
+&+whard enough &+Ltracks of intelligent life can be seen, almost as if someone
+&+wwas stron&+Lgly trying hard not to be found.  The typical mountain cave
+&+wcritte&+Lr scampers and clicks away in the darkness.&n
+~
+760 134250509 27
+D2
+~
+~
+0 0 76148
+D3
+~
+~
+0 0 76150
+S
+#76150
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76149
+D3
+~
+~
+0 0 76146
+S
+#76151
+&+yA Construction Lane&n~
+&+y   The construction lane is an area just off to the west of the ship-
+&+yyards themselves where the material and basic framework of the ship is
+&+yput together. Pieces fitted here along the construction lane are then
+&+ymoved over to the shipyard where they are assembled to form the finished
+&+yproduct. Mountain giants, as well as the gnomish engineers are recruited
+&+yto work here and paid a hefty salary, yet are separate from all business
+&+yof the city itself.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76139
+D2
+~
+~
+0 0 76157
+D3
+~
+~
+0 0 76152
+S
+#76152
+&+yA Construction Lane&n~
+&+y   The construction lane is an area just off to the west of the ship-
+&+yyards themselves where the material and basic framework of the ship is
+&+yput together. Pieces fitted here along the construction lane are then
+&+ymoved over to the shipyard where they are assembled to form the finished
+&+yproduct. Mountain giants, as well as the gnomish engineers are recruited
+&+yto work here and paid a hefty salary, yet are separate from all business
+&+yof the city itself.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76151
+D2
+~
+~
+0 0 76156
+D3
+~
+~
+0 0 76153
+S
+#76153
+&+yA Construction Lane&n~
+&+y   The construction lane is an area just off to the west of the ship-
+&+yyards themselves where the material and basic framework of the ship is
+&+yput together. Pieces fitted here along the construction lane are then
+&+ymoved over to the shipyard where they are assembled to form the finished
+&+yproduct. Mountain giants, as well as the gnomish engineers are recruited
+&+yto work here and paid a hefty salary, yet are separate from all business
+&+yof the city itself.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76152
+D2
+~
+~
+0 0 76155
+D3
+~
+~
+0 0 76154
+S
+#76154
+&+yA Construction Lane&n~
+&+y   The construction lane is an area just off to the west of the ship-
+&+yyards themselves where the material and basic framework of the ship is
+&+yput together. Pieces fitted here along the construction lane are then
+&+ymoved over to the shipyard where they are assembled to form the finished
+&+yproduct. Mountain giants, as well as the gnomish engineers are recruited
+&+yto work here and paid a hefty salary, yet are separate from all business
+&+yof the city itself.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76153
+S
+#76155
+&+yA Cliffside Workshop&n~
+&+L   This is a fairly large area that has been carved into the cliff face
+&+Lof the mountains for use of the airship construction engineers. There is
+&+ya large overhan&+Lg of rock so the wind or small lands&+ylides never interfere
+&+ywith the work in progress&+L, but the main e&+yxit to the north is wide open,
+&+yoverlooking the construction la&+Lne an&+yd shipyards. Gnomish tinkerers have
+&+ybeen hired by subcontractors to come to work and design here, though
+&+yreally have very little to do with the city itself.&n
+~
+760 134250504 5
+D0
+~
+~
+0 0 76153
+D1
+~
+~
+0 0 76156
+S
+#76156
+&+yA Cliffside Workshop&n~
+&+L   This is a fairly large area that has been carved into the cliff face
+&+Lof the mountains for use of the airship construction engineers. There is
+&+ya large overhan&+Lg of rock so the wind or small lands&+ylides never interfere
+&+ywith the work in progress&+L, but the main e&+yxit to the north is wide open,
+&+yoverlooking the construction la&+Lne an&+yd shipyards. Gnomish tinkerers have
+&+ybeen hired by subcontractors to come to work and design here, though
+&+yreally have very little to do with the city itself.&n
+~
+760 134250504 5
+D0
+~
+~
+0 0 76152
+D1
+~
+~
+0 0 76157
+D3
+~
+~
+0 0 76155
+S
+#76157
+&+yA Cliffside Workshop&n~
+&+L   This is a fairly large area that has been carved into the cliff face
+&+Lof the mountains for use of the airship construction engineers. There is
+&+ya large overhan&+Lg of rock so the wind or small lands&+ylides never interfere
+&+ywith the work in progress&+L, but the main e&+yxit to the north is wide open,
+&+yoverlooking the construction la&+Lne an&+yd shipyards. Gnomish tinkerers have
+&+ybeen hired by subcontractors to come to work and design here, though
+&+yreally have very little to do with the city itself.&n
+~
+760 134250504 5
+D0
+~
+~
+0 0 76151
+D3
+~
+~
+0 0 76156
+S
+#76158
+&+yThe Shipyards&n~
+&+y   This stretch of mountain rock is used for the final assembly of
+&+ythe airships built here. After the smaller pieces are constructed they
+&+yare carried over to this location, which acts much like the airship
+&+yequivalent of a drydock. Once the hull is fully assembled they leather
+&+yworkers come to fit the balloon which will enable the airship for
+&+yflight. It is a long process, and takes almost half-a-year to complete
+&+yjust one of these amazing vessels.&n
+~
+760 134250496 5
+D0
+~
+~
+0 0 76159
+D2
+~
+~
+0 0 76140
+S
+#76159
+&+yThe Shipyards&n~
+&+y   This stretch of mountain rock is used for the final assembly of
+&+ythe airships built here. After the smaller pieces are constructed they
+&+yare carried over to this location, which acts much like the airship
+&+yequivalent of a drydock. Once the hull is fully assembled they leather
+&+yworkers come to fit the balloon which will enable the airship for
+&+yflight. It is a long process, and takes almost half-a-year to complete
+&+yjust one of these amazing vessels.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76158
+S
+#76160
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D2
+~
+~
+0 0 76161
+D5
+~
+~
+0 0 76063
+S
+#76161
+&+WThe &+BSky &+WBridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76160
+D2
+~
+~
+0 0 76163
+S
+#76162
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+&+YThe mighty gates leading back out to the city a&+yre west.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76169
+D1
+~
+~
+0 0 76171
+D2
+~
+~
+0 0 76170
+D3
+~
+gates~
+3 76011 76023
+S
+#76163
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76161
+D2
+~
+~
+0 0 76164
+S
+#76164
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76163
+D2
+~
+~
+0 0 76165
+S
+#76165
+&+BSky&+W Bridge Plaza&n~
+&+B   Her&+We, in the center of the sky bridge, high above the city p&+Broper,
+&+Bsits ye&+Wt another plaza. As a tribute to the cosmic powers a lar&+Bge statue
+&+Bof beau&+Wtiful goddess reaching up to the stars has been built he&+Bre, that
+&+Bworks a&+Ws a fountain of fresh water for travellers as well. The &+Bview from
+&+Bthe cen&+Wter of the bridge is remarkable and from this vantage po&+Bint the
+&+Bentire &+Wcity can be seen stretching out to the east, reaching hi&+Bgh into
+&+Bthe fro&+Wsty skies.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76164
+D2
+~
+~
+0 0 76166
+S
+#76166
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76165
+D2
+~
+~
+0 0 76168
+S
+#76167
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76168
+D2
+~
+bridge~
+1 0 76026
+S
+#76168
+&+WThe &+BSky&+W Bridge&n~
+&+B   The S&+Wky Bridge leads from the Scholar's Tower in the south t&+Bo a
+&+Bcloudy p&+Wlataeu in the north high over the heads of the pedestri&+Bans down
+&+Bbelow. I&+Wt is supported by columns and the mountainside itself a&+Bnd offers
+&+Ba one-of&+W-a-kind view of the city. The spires and towers of Ulta&+Brium are
+&+Bat at ey&+We-level here, even five stories or higher up off the gr&+Bound.
+&+BCloud wi&+Wsps by, like a slow moving and icy fog, and one's breat&+Bh seems
+&+Bto linge&+Wr in the air. The bridge itself has been constructed wi&+Bth moon-
+&+Bstone, f&+Witted with strong steel guardrails. A large statue of a&+Bcosmic
+&+Bgoddess &+Wsits directly in the center of the bridge. Looking to t&+Bhe east
+&+Bthe Appo&+Wllyon Fortress&+W rises up like a golden fist.
+~
+760 134250496 1
+D0
+~
+~
+0 0 76166
+D2
+~
+~
+0 0 76167
+S
+#76169
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+~
+760 134250504 1
+D1
+~
+~
+0 0 76174
+D2
+~
+~
+0 0 76162
+S
+#76170
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76162
+D1
+~
+~
+0 0 76175
+S
+#76171
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76174
+D1
+~
+~
+0 0 76172
+D2
+~
+~
+0 0 76175
+D3
+~
+~
+0 0 76162
+S
+#76172
+&+YFirst Floor Stairwell&n~
+&+Y   The hall leads up to another floor here with a series of amazingly
+&+yconstructed steps. Each stair almost glows with the the magical properties
+&+Yof the sunstone, and the colours and type seem to alternate. The stairs
+&+ythemsleves are as broad as the entire room, as wide as several people
+&+Yacross, and just like everything else here built in the fortress, in a
+&+ysign of the high councils true arrogance.&n
+~
+760 134250504 1
+D3
+~
+~
+0 0 76171
+D4
+~
+door~
+3 76049 76173
+S
+#76173
+&+YSecond Floor Landing&n~
+&+Y   Almost identical to the first floor of the Fortress, this is a huge,
+&+Ywide open chamber supported by massive sunstone columns. There is quite
+&+Ya few large desks placed here, probably for strategy meetings concerning
+&+Ythe local soldiers. The fortress prison has been built in the northern
+&+Yportion of the fortress, where the high council keeps those who they deem
+&+Ya detriment to the end result of Ultarium.  Unfortuately for those poor
+&+Ysouls unlucky enough to be captures, even the smallest crime usually ends
+&+Yup with years and years of inprisonment.&n
+~
+760 134250504 1
+D0
+~
+prison~
+1 0 76178
+D1
+~
+~
+0 0 76181
+D2
+~
+~
+0 0 76179
+D5
+~
+door~
+3 76049 76172
+S
+#76174
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+~
+760 134250504 1
+D1
+~
+sunstone~
+1 0 76177
+D2
+~
+~
+0 0 76171
+D3
+~
+~
+0 0 76169
+S
+#76175
+&+YEntry Hall of the Fortress&n~
+&+Y   The entry hall of the fortress is a huge, wide open room supported
+&+Yby pillars of solid s&+yu&+Ynst&+yon&+Ye.  It is patrolled by guards constantly,
+&+Ydetermined to make sure no intruders ever make it up to the council &+ythat
+&+Ysits on the third floor.  The basic layout of the fortress appea&+yrs like
+&+Ya set of steps of titanic proportions, and it is secured st&+yrongly into
+&+Ythe foundation of mountain stone. Huge lights, born fro&+ym cosmic energy
+&+Yhang from the ceiling keep the hall bright to the p&+yoint of unease.&n
+&+YA guarded and secured door is east.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76171
+D1
+~
+sunstone~
+1 0 76176
+D3
+~
+~
+0 0 76170
+S
+#76176
+&+YAn Antechamber&n~
+&+Y   A fair sized room just off from the main hallhall inside
+&+Ythe Appollyon Fortress which is used for many different purposes,
+&+Yincluding formal meetings and strategy plannings. As with the
+&+Ymajority of the fortress, the walls are built from solid sun-
+&+Ystone.&n
+~
+760 134250496 1
+D3
+~
+sunstone~
+1 0 76175
+S
+#76177
+&+YAn Antechamber&n~
+&+Y   A fair sized room just off from the main hallhall inside
+&+Ythe Appollyon Fortress which is used for many different purposes,
+&+Yincluding formal meetings and strategy plannings. As with the
+&+Ymajority of the fortress, the walls are built from solid sun-
+&+Ystone.&n
+~
+760 134250496 1
+D3
+~
+sunstone~
+1 0 76174
+S
+#76178
+&+YThe Fortress Prison Cells&n~
+&+L   These prison cells are used to detain those who go against the high
+&+Lcouncil of the Appollyon Fortress.  With the power over the entire city
+&+Lsecure, they could throw almost anyone they wish in here for whatever
+&+Lreason they deem fit, though at the moment it is full mostly of smugglers
+&+Lcaptured while trying to sneak illegal goods into the city. The cells are
+&+Lunusually dark for the fortress of sunstone, and don't offer much chance
+&+Lat escape.&n
+~
+760 134250505 1
+D1
+~
+~
+0 0 76182
+D2
+~
+prison~
+1 0 76173
+S
+#76179
+&+YSecond Floor Landing&n~
+&+Y   Almost identical to the first floor of the Fortress, this is a huge,
+&+Ywide open chamber supported by massive sunstone columns. There is quite
+&+Ya few large desks placed here, probably for strategy meetings concerning
+&+Ythe local soldiers. The fortress prison has been built in the northern
+&+Yportion of the fortress, where the high council keeps those who they deem
+&+Ya detriment to the end result of Ultarium.  Unfortuately for those poor
+&+Ysouls unlucky enough to be captures, even the smallest crime usually ends
+&+Yup with years and years of inprisonment.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76173
+D1
+~
+~
+0 0 76180
+S
+#76180
+&+YSecond Floor Landing&n~
+&+Y   Almost identical to the first floor of the Fortress, this is a huge,
+&+Ywide open chamber supported by massive sunstone columns. There is quite
+&+Ya few large desks placed here, probably for strategy meetings concerning
+&+Ythe local soldiers. The fortress prison has been built in the northern
+&+Yportion of the fortress, where the high council keeps those who they deem
+&+Ya detriment to the end result of Ultarium.  Unfortuately for those poor
+&+Ysouls unlucky enough to be captures, even the smallest crime usually ends
+&+Yup with years and years of inprisonment.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76181
+D3
+~
+~
+0 0 76179
+S
+#76181
+&+YSecond Floor Landing&n~
+&+Y   Almost identical to the first floor of the Fortress, this is a huge,
+&+Ywide open chamber supported by massive sunstone columns. There is quite
+&+Ya few large desks placed here, probably for strategy meetings concerning
+&+Ythe local soldiers. The fortress prison has been built in the northern
+&+Yportion of the fortress, where the high council keeps those who they deem
+&+Ya detriment to the end result of Ultarium.  Unfortuately for those poor
+&+Ysouls unlucky enough to be captures, even the smallest crime usually ends
+&+Yup with years and years of inprisonment.&n
+~
+760 134250504 1
+D1
+~
+~
+0 0 76183
+D2
+~
+~
+0 0 76180
+D3
+~
+~
+0 0 76173
+S
+#76182
+&+YThe Fortress Prison Cells&n~
+&+L   These prison cells are used to detain those who go against the high
+&+Lcouncil of the Appollyon Fortress.  With the power over the entire city
+&+Lsecure, they could throw almost anyone they wish in here for whatever
+&+Lreason they deem fit, though at the moment it is full mostly of smugglers
+&+Lcaptured while trying to sneak illegal goods into the city. The cells are
+&+Lunusually dark for the fortress of sunstone, and don't offer much chance
+&+Lat escape.&n
+~
+760 134250505 1
+D1
+~
+~
+0 0 76227
+D3
+~
+~
+0 0 76178
+S
+#76183
+&+YSecond Floor Stairwell&n~
+&+Y   The hall leads up to another floor here with a series of amazingly
+&+yconstructed steps. Each stair almost glows with the the magical properties
+&+Yof the sunstone, and the colours and type seem to alternate. The stairs
+&+ythemsleves are as broad as the entire room, as wide as several people
+&+Yacross, and just like everything else here built in the fortress, in a
+&+ysign of the high councils true arrogance.&n
+~
+760 134250496 1
+D3
+~
+~
+0 0 76181
+D4
+~
+~
+0 0 76184
+S
+#76184
+&+YThe Hallway Before the High Council&n~
+&+Y   The third floor layout is much like the first two, however most of
+&+Yit is occupied by the high council as their personal chambers. This hall-
+&+Yway is the final step before meeting with the oppressors of Ulatrium, and
+&+Yis the station point for their most trusted guardians. The stairwell to
+&+Ythe second floor leads door.&n
+~
+760 134250508 1
+D1
+~
+~
+0 0 76190
+D5
+~
+~
+0 0 76183
+S
+#76185
+&+yAn Obscure Trail on the Cliff Face&n~
+&+y   This is a precarious place to be in, a narrow and barely visible trail
+&+ythat is right on the cliff face of a mountain.  The rocks here are loose
+&+yand every step sends hundreds of them tumbling down an unimaginable distance
+&+ybelow.  The freezing mountain wind blasts the area, chilling to the very
+&+ybones, and with very careful steps one can just manage to traverse this
+&+ydangerous trail.&n
+~
+760 1207992324 5
+D2
+~
+boulder~
+12 0 76134
+D5
+~
+~
+0 0 76186
+S
+#76186
+&+yAn Obscure Trail on the Cliff Face&n~
+&+y   This is a precarious place to be in, a narrow and barely visible trail
+&+ythat is right on the cliff face of a mountain.  The rocks here are loose
+&+yand every step sends hundreds of them tumbling down an unimaginable distance
+&+ybelow.  The freezing mountain wind blasts the area, chilling to the very
+&+ybones, and with very careful steps one can just manage to traverse this
+&+ydangerous trail.&n
+~
+760 134250496 5
+D3
+~
+~
+0 0 76187
+D4
+~
+~
+0 0 76185
+S
+#76187
+&+yAn Obscure Trail on the Cliff Face&n~
+&+y   This is a precarious place to be in, a narrow and barely visible trail
+&+ythat is right on the cliff face of a mountain.  The rocks here are loose
+&+yand every step sends hundreds of them tumbling down an unimaginable distance
+&+ybelow.  The freezing mountain wind blasts the area, chilling to the very
+&+ybones, and with very careful steps one can just manage to traverse this
+&+ydangerous trail. A grateful respite - a mountain &+Lcave&+y leads into the dark-
+&+yness here to the south.&n
+~
+760 134250496 5
+D1
+~
+~
+0 0 76186
+D2
+~
+~
+0 0 76188
+S
+#76188
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76187
+D2
+~
+~
+0 0 76210
+S
+#76189
+&+LA Twisting Mountain Cave&n~
+&+L   The cave contin&+wues to wind beneath the underdark of the mountains
+&+Lhere, it is a slo&+ww going and treacherous hike as the lack of light and
+&+Lammounts of ro&+wck debris from numerous cave-ins threaten to halt progress.
+&+LOnwards the&+w cave goes, for what purpose and to where is left to the
+&+Limagina&+wtion.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76204
+D2
+~
+~
+0 0 76141
+S
+#76190
+&+YThe Hallway Before the High Council&n~
+&+Y   The third floor layout is much like the first two, however most of
+&+Yit is occupied by the high council as their personal chambers. This hall-
+&+Yway is the final step before meeting with the oppressors of Ulatrium, and
+&+Yis the station point for their most trusted guardians. The high council
+&+Ychambers are east of here, blocked by an enormous pair of golden gates.&n
+~
+760 134250508 1
+D0
+~
+~
+0 0 76192
+D1
+~
+council~
+3 76045 76191
+D2
+~
+~
+0 0 76193
+D3
+~
+~
+0 0 76184
+D4
+~
+trapdoor~
+1 0 76194
+S
+#76191
+&+YThe Council Chambers&n~
+&+Y   On the third flo&+yor of the &+YAppollyon Fortress&+y sits the chambers of the
+&+Yhigh council, the oppress&+yors of Ultarium.  The council rules over the
+&+Ycity from here, hidden away f&+yrom the residents, content in placing laws
+&+Yto keep those they deem unfit fro&+ym the city. The series of rooms are
+&+Yall constructed from only the purest &+yand rarest sunstone, the material
+&+Ythat helps them magnify their cosmic powe&+yrs. The council themselves
+&+Ybelieve to be the true sucessors of the plane&+yt, as they have gone corrupt
+&+Ywith the power over the stars, as it grants them &+yenternal life and the
+&+Ypowers equal to the gods.&n
+~
+760 1207992328 1
+D1
+~
+~
+0 0 76200
+D3
+~
+council~
+3 0 76190
+S
+#76192
+&+YThe Northern Balcony&n~
+&+Y   This balcony on the third floor of the Appollyon fortress overlooks
+&+Ythe surrounding area, including the city off to the west and the nearby
+&+Yencompassing mountains.  The frosty mountain air blasts past here with
+&+Yincredible force, and staying outside here is not suggested unless one
+&+Yplans on catching a death of a cold.&n
+~
+760 134250496 1
+D2
+~
+~
+0 0 76190
+S
+#76193
+&+YThe Southern Balcony&n~
+&+Y   This balcony on the third floor of the Appollyon fortress overlooks
+&+Ythe surrounding area, including the city off to the west and the nearby
+&+Yencompassing mountains.  The frosty mountain air blasts past here with
+&+Yincredible force, and staying outside here is not suggested unless one
+&+Yplans on catching a death of a cold.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76190
+S
+#76194
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76196
+D1
+~
+~
+0 0 76195
+D2
+~
+~
+0 0 76197
+D5
+~
+trapdoor~
+1 0 76190
+S
+#76195
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76199
+D2
+~
+~
+0 0 76198
+D3
+~
+~
+0 0 76194
+S
+#76196
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D1
+~
+~
+0 0 76199
+D2
+~
+~
+0 0 76194
+S
+#76197
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76194
+D1
+~
+~
+0 0 76198
+S
+#76198
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D0
+~
+~
+0 0 76195
+D3
+~
+~
+0 0 76197
+S
+#76199
+&+YA Fortified Parapet&n~
+&+Y   At the highest point of Appollyon Fortress si&+Lts this parapet that
+&+Yoverlooks the entire city, much taller than an&+Ly one of the many of the
+&+Ytowers. Placed in stragetic locations are se&+Lveral large trebuchets that
+&+Yallow the fortress the ability to bombard &+Lincoming vessels that approach
+&+Yfrom the sea, airships that attempt to a&+Lttack from the sky, or if the
+&+Yhigh council wishes it, to reduce the&+L entire city to rubble. This single
+&+Yparapet signifies the ultimate pow&+Ler over the city and the surrounding
+&+Yarea.&n
+~
+760 134250496 1
+D2
+~
+~
+0 0 76195
+D3
+~
+~
+0 0 76196
+S
+#76200
+&+YThe Council Chambers&n~
+&+Y   On the third flo&+yor of the &+YAppollyon Fortress&+y sits the chambers of the
+&+Yhigh council, the oppress&+yors of Ultarium.  The council rules over the
+&+Ycity from here, hidden away f&+yrom the residents, content in placing laws
+&+Yto keep those they deem unfit fro&+ym the city. The series of rooms are
+&+Yall constructed from only the purest &+yand rarest sunstone, the material
+&+Ythat helps them magnify their cosmic powe&+yrs. The council themselves
+&+Ybelieve to be the true sucessors of the plane&+yt, as they have gone corrupt
+&+Ywith the power over the stars, as it grants them &+yenternal life and the
+&+Ypowers equal to the gods.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76202
+D1
+~
+~
+0 0 76201
+D2
+~
+~
+0 0 76203
+D3
+~
+~
+0 0 76191
+S
+#76201
+&+YThe Eastern Balcony&n~
+&+Y   The balcony over hangs from the eastern side of the fortress quite
+&+Ya large distance.  From here one can clearly see the ocean spread out
+&+Ythousands of feet below through the wisp of slow moving clouds. The air
+&+Yis biting and the view is intense, the combination causing a unconcious
+&+Ygasp from all who stand here. There is a magical platform that takes
+&+Yup most of the floor of the balcony here, that the council uses in case
+&+Yemergency.&n
+~
+760 32772 1
+D3
+~
+~
+0 0 76200
+S
+#76202
+&+YThe Council Chambers&n~
+&+Y   On the third flo&+yor of the &+YAppollyon Fortress&+y sits the chambers of the
+&+Yhigh council, the oppress&+yors of Ultarium.  The council rules over the
+&+Ycity from here, hidden away f&+yrom the residents, content in placing laws
+&+Yto keep those they deem unfit fro&+ym the city. The series of rooms are
+&+Yall constructed from only the purest &+yand rarest sunstone, the material
+&+Ythat helps them magnify their cosmic powe&+yrs. The council themselves
+&+Ybelieve to be the true sucessors of the plane&+yt, as they have gone corrupt
+&+Ywith the power over the stars, as it grants them &+yenternal life and the
+&+Ypowers equal to the gods.&n
+~
+760 134250504 1
+D2
+~
+~
+0 0 76200
+S
+#76203
+&+YThe Council Chambers&n~
+&+Y   On the third flo&+yor of the &+YAppollyon Fortress&+y sits the chambers of the
+&+Yhigh council, the oppress&+yors of Ultarium.  The council rules over the
+&+Ycity from here, hidden away f&+yrom the residents, content in placing laws
+&+Yto keep those they deem unfit fro&+ym the city. The series of rooms are
+&+Yall constructed from only the purest &+yand rarest sunstone, the material
+&+Ythat helps them magnify their cosmic powe&+yrs. The council themselves
+&+Ybelieve to be the true sucessors of the plane&+yt, as they have gone corrupt
+&+Ywith the power over the stars, as it grants them &+yenternal life and the
+&+Ypowers equal to the gods.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76200
+S
+#76204
+&+LA Twisting Mountain Cave&n~
+&+w   This cave twists an&+Ld turns beneath the mountain, a complete opposite
+&+wto the hustle and &+Lbustle of the city just a few dozen feet of rock above.
+&+wIt appears near&+Lly unused to the untrained eye, but if one was too look
+&+whard enough &+Ltracks of intelligent life can be seen, almost as if someone
+&+wwas stron&+Lgly trying hard not to be found.  The typical mountain cave
+&+wcritte&+Lr scampers and clicks away in the darkness.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76205
+D2
+~
+~
+0 0 76189
+S
+#76205
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76206
+D3
+~
+~
+0 0 76204
+S
+#76206
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76207
+D2
+~
+~
+0 0 76205
+S
+#76207
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76208
+D3
+~
+~
+0 0 76206
+S
+#76208
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76209
+D2
+~
+~
+0 0 76207
+S
+#76209
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76210
+D3
+~
+~
+0 0 76208
+S
+#76210
+&+LSmuggler's Run&n~
+&+L   Smuggler's Run is a stretch of cave that winds underneath the custom's
+&+Loffice, below the northwestern end of the city, to a shady fence named
+&+LGrudat. All contraband is snuck into the city through this route, from
+&+Lthe airship mooring area, to be sold on the black market. &+LIt is unclear
+&+Lif the city itself is aware of this dark, sneaky tunnel, &+Land if they are,
+&+Lthey clearly turn a blind eye from it.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76188
+D2
+~
+~
+0 0 76209
+S
+#76211
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately. The door to the west leads out
+&+yto the shipyards.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76212
+D2
+~
+~
+0 0 76213
+D3
+~
+door~
+1 0 76139
+S
+#76212
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately.&n
+~
+760 134250504 1
+D2
+~
+~
+0 0 76211
+D4
+~
+~
+0 0 76214
+S
+#76213
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76211
+D4
+~
+~
+0 0 76216
+S
+#76214
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately.&n
+~
+760 134250504 1
+D2
+~
+~
+0 0 76215
+D5
+~
+~
+0 0 76212
+S
+#76215
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76214
+D2
+~
+~
+0 0 76216
+S
+#76216
+&+yThe Crew's Barracks&n~
+&+y   This building is for the crews of the airships that dock at the
+&+ymooring point on the mountain above. It has enough beds to accustom
+&+yseveral crews at a time, though is not very lavish. The crews them-
+&+yselves never stay in town long at any given time, so these quarters
+&+yusually meet their needs adaquately.&n
+~
+760 134250504 1
+D0
+~
+~
+0 0 76215
+D5
+~
+~
+0 0 76213
+S
+#76217
+&+yAt a Mountain &+LCrevice&n~
+&+y   Here on this small outcropping of the mountain side is what appears
+&+yto be a &+Lmine&+y shaft.  Gazing into it is near hopeless, as it darker than
+&+ya moonless night. The city was never known for mining, as the residents
+&+ydo their best to co-exist with the natural enviroment, so it is strange
+&+yto see this cavern dug out. The small mountain path to the watchtower is
+&+yjust to the south.&n
+~
+760 134250496 5
+D2
+~
+~
+0 0 76067
+S
+#76218
+&+LA Half-Finished Mine Shaft&n~
+&+L   Though the steel ladder fastened to the rock wall looks fairly new,
+&+Lit is also only half-finished, which means a rough fall for those who
+&+Laren't prepared.  It is pitch black here, and the sounds of the mountain
+&+Lunder world echo to defeaning levels.&n
+~
+760 134250505 27
+D5
+~
+~
+0 0 76219
+F
+50
+S
+#76219
+&+LA Half-Finished Mine Shaft&n~
+&+L   Though the steel ladder fastened to the rock wall looks fairly new,
+&+Lit is also only half-finished, which means a rough fall for those who
+&+Laren't prepared.  It is pitch black here, and the sounds of the mountain
+&+Lunder world echo to defeaning levels.&n
+~
+760 134250505 27
+D4
+~
+~
+0 0 76218
+D5
+~
+~
+0 0 76220
+F
+50
+S
+#76220
+&+LA Half-Finished Mine Shaft&n~
+&+L   Though the steel ladder fastened to the rock wall looks fairly new,
+&+Lit is also only half-finished, which means a rough fall for those who
+&+Laren't prepared.  It is pitch black here, and the sounds of the mountain
+&+Lunder world echo to defeaning levels.&n
+~
+760 134250509 27
+D4
+~
+~
+0 0 76219
+D5
+~
+~
+0 0 76221
+F
+50
+S
+#76221
+&+LAn Unused Mining Tunnel&n~
+&+L   This tunnel appears to be fairly new, to try and mine whatever ore
+&+Lcan be found here in the mountains of the sky city, however, it looks
+&+Lto be half-completed and left.  The reasons behind this are a mystery,
+&+Lhowever the huge and wild &+wrock crunchers&+L that travel through here might
+&+La good guess.&n
+~
+760 134250505 27
+D1
+~
+~
+0 0 76222
+D4
+~
+~
+0 0 76220
+S
+#76222
+&+LAn Unused Mining Tunnel&n~
+&+L   This tunnel appears to be fairly new, to try and mine whatever ore
+&+Lcan be found here in the mountains of the sky city, however, it looks
+&+Lto be half-completed and left.  The reasons behind this are a mystery,
+&+Lhowever the huge and wild &+wrock crunchers&+L that travel through here might
+&+La good guess.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76223
+D3
+~
+~
+0 0 76221
+S
+#76223
+&+LAn Unused Mining Tunnel&n~
+&+L   This tunnel appears to be fairly new, to try and mine whatever ore
+&+Lcan be found here in the mountains of the sky city, however, it looks
+&+Lto be half-completed and left.  The reasons behind this are a mystery,
+&+Lhowever the huge and wild &+wrock crunchers&+L that travel through here might
+&+La good guess.&n
+~
+760 134250505 27
+D0
+~
+~
+0 0 76226
+D1
+~
+~
+0 0 76224
+D2
+~
+~
+0 0 76222
+S
+#76224
+&+LAn Open Mine&n~
+&+L   A mine has been left open here, dug only about a meter down into
+&+Lthe hard mountain rock then left before the ore could be extracted. The
+&+Lworkers who created this tunnel system must have left in quite a hurry
+&+Lto abandon everything as is, and the only reasonable conclusion to this
+&+Lmust be the group of&+w rock crunchers &+Lthat inhabit the area.&n
+~
+760 134250505 27
+D3
+~
+~
+0 0 76223
+S
+#76225
+&+mHetolly's Cosmic Readings&n~
+&+m   This building has been carved into the mountain face like all the
+&+mresidential dwellings, though is considerbly larger and decorated with
+&+mmany carving, runes, and designs painted on the walls. There is also a
+&+mlarge opening in the roof of the cave-building, so the local madam here
+&+mhas a clear view up when doing her readings.&n
+~
+760 134250504 5
+D3
+~
+door~
+1 0 76102
+S
+#76226
+&+LAn Unused Mining Tunnel&n~
+&+L   This tunnel appears to be fairly new, to try and mine whatever ore
+&+Lcan be found here in the mountains of the sky city, however, it looks
+&+Lto be half-completed and left.  The reasons behind this are a mystery,
+&+Lhowever the huge and wild &+wrock crunchers&+L that travel through here might
+&+La good guess.&n
+~
+760 134250505 27
+D2
+~
+~
+0 0 76223
+S
+#76227
+&+YThe Fortress Prison Cells&n~
+&+L   These prison cells are used to detain those who go against the high
+&+Lcouncil of the Appollyon Fortress.  With the power over the entire city
+&+Lsecure, they could throw almost anyone they wish in here for whatever
+&+Lreason they deem fit, though at the moment it is full mostly of smugglers
+&+Lcaptured while trying to sneak illegal goods into the city. The cells are
+&+Lunusually dark for the fortress of sunstone, and don't offer much chance
+&+Lat escape.&n
+~
+760 134250505 1
+D3
+~
+~
+0 0 76182
+S
+#76228
+&+wAn Im&+Lmateri&+wal Pri&+Lson&n~
+&+L   You find yourself floating in limbo, some strange altered dimension.
+&+wWisps of black and gray some drift by, but it seems to be contained by
+&+Lsome invisible magical force. A glowing box, the size of a large table
+&+wseems to float mysticly, it radiates power and mystery. You are vaguely
+&+Laware that the invisible walls remain open to the north, but not seen
+&+wby normal sight.&n
+~
+760 134250560 23
+D0
+~
+~
+4 0 76110
+S
+#76229
+Chimaera Load~
+~
+760 134250560 0
+D0
+~
+~
+0 0 76238
+D1
+~
+~
+0 0 76238
+D5
+~
+~
+0 0 76235
+S
+#76230
+&+LA Darkened Stone Hallway&n~
+&+L   This tunnel has been carved above the main chamber into the
+&+Lmountain rock for use by the members of the Moonshade Covenant.
+&+LThe hallway itself is fairly well kept, and cleaned of any and
+&+Lall rubble constantly, as it is where they house some of their
+&+Lmost important treasures, mystical beasts in which they test
+&+Ltheir cosmocy upon. A steel ladder leading down has been secured
+&+Ltightly to the south wall.
+~
+760 32781 27
+D0
+~
+cage~
+1 0 76237
+D1
+~
+~
+0 0 76231
+D5
+~
+~
+0 0 76143
+S
+#76231
+&+LA Darkened Stone Hallway&n~
+&+L   This tunnel has been carved above the main chamber into the
+&+Lmountain rock for use by the members of the Moonshade Covenant.
+&+LThe hallway itself is fairly well kept, and cleaned of any and
+&+Lall rubble constantly, as it is where they house some of their
+&+Lmost important treasures, mystical beasts in which they test
+&+Ltheir cosmocy upon.
+~
+760 32777 27
+D0
+~
+cage~
+1 0 76236
+D1
+~
+~
+0 0 76232
+D3
+~
+~
+0 0 76230
+S
+#76232
+&+LA Darkened Stone Hallway&n~
+&+L   This tunnel has been carved above the main chamber into the
+&+Lmountain rock for use by the members of the Moonshade Covenant.
+&+LThe hallway itself is fairly well kept, and cleaned of any and
+&+Lall rubble constantly, as it is where they house some of their
+&+Lmost important treasures, mystical beasts in which they test
+&+Ltheir cosmocy upon.
+~
+760 32777 27
+D0
+~
+cage~
+1 0 76235
+D1
+~
+~
+0 0 76233
+D3
+~
+~
+0 0 76231
+S
+#76233
+&+LA Darkened Stone Hallway&n~
+&+L   This tunnel has been carved above the main chamber into the
+&+Lmountain rock for use by the members of the Moonshade Covenant.
+&+LThe hallway itself is fairly well kept, and cleaned of any and
+&+Lall rubble constantly, as it is where they house some of their
+&+Lmost important treasures, mystical beasts in which they test
+&+Ltheir cosmocy upon.
+~
+760 32777 27
+D0
+~
+cage~
+1 0 76234
+D3
+~
+~
+0 0 76232
+S
+#76234
+&+LThe Beast Cages&n~
+&+L   Carved into the mountain cavern sits four large cages that the
+&+Lcovenant uses to keep their unique pets.  The creatures here are
+&+Lusually subjected to many tests with dark cosmic magics, and as
+&+La result have grown quite aggressive. Though the imprisonment and
+&+Ltesting sure isn't ethical, the covenant believes they must sieze
+&+Lany edge they can to gain power over the high council. Occasionally
+&+Lthe rooms here are emptied, as a test subject is removed for its
+&+Lpurpose, or while the cages are being cleaned.
+~
+760 32777 27
+D2
+~
+cage~
+1 0 76233
+S
+#76235
+&+LThe Beast Cages&n~
+&+L   Carved into the mountain cavern sits four large cages that the
+&+Lcovenant uses to keep their unique pets.  The creatures here are
+&+Lusually subjected to many tests with dark cosmic magics, and as
+&+La result have grown quite aggressive. Though the imprisonment and
+&+Ltesting sure isn't ethical, the covenant believes they must sieze
+&+Lany edge they can to gain power over the high council. Occasionally
+&+Lthe rooms here are emptied, as a test subject is removed for its
+&+Lpurpose, or while the cages are being cleaned.
+~
+760 32777 27
+D2
+~
+cage~
+1 0 76232
+S
+#76236
+&+LThe Beast Cages&n~
+&+L   Carved into the mountain cavern sits four large cages that the
+&+Lcovenant uses to keep their unique pets.  The creatures here are
+&+Lusually subjected to many tests with dark cosmic magics, and as
+&+La result have grown quite aggressive. Though the imprisonment and
+&+Ltesting sure isn't ethical, the covenant believes they must sieze
+&+Lany edge they can to gain power over the high council. Occasionally
+&+Lthe rooms here are emptied, as a test subject is removed for its
+&+Lpurpose, or while the cages are being cleaned.
+~
+760 32777 27
+D2
+~
+cage~
+1 0 76231
+S
+#76237
+&+LThe Beast Cages&n~
+&+L   Carved into the mountain cavern sits four large cages that the
+&+Lcovenant uses to keep their unique pets.  The creatures here are
+&+Lusually subjected to many tests with dark cosmic magics, and as
+&+La result have grown quite aggressive. Though the imprisonment and
+&+Ltesting sure isn't ethical, the covenant believes they must sieze
+&+Lany edge they can to gain power over the high council. Occasionally
+&+Lthe rooms here are emptied, as a test subject is removed for its
+&+Lpurpose, or while the cages are being cleaned.
+~
+760 32777 27
+D2
+~
+cage~
+1 0 76230
+S
+#76238
+Mob Trap Room~
+~
+760 201359424 0
+S
+#76239
+Basilisk Load~
+~
+760 134250560 0
+D0
+~
+~
+0 0 76238
+D1
+~
+~
+0 0 76238
+D2
+~
+~
+0 0 76238
+D3
+~
+~
+0 0 76238
+D5
+~
+~
+0 0 76234
+S
+#76240
+Cockatrice load room~
+~
+760 134250496 0
+D0
+~
+~
+0 0 76238
+D1
+~
+~
+0 0 76238
+D2
+~
+~
+0 0 76238
+D5
+~
+~
+0 0 76237
+S
+#76241
+&+yA &+WGrif&+Yfon&+y Aviary&n~
+&+y   As a vital part of the community of &+WUltarium&+y, the &+Wgrif&+Yfons&+y here are
+&+ytreated as equals as well as an important means of transportion for those
+&+yresidents that don't have the innate ability to fly. The avairy itself
+&+yis just a small outcropped plataeu built on an eastern mountainside, and
+&+yprotected by a &+Wguardhouse&+y just to the west. Many &+Wgrif&+Yfons&+y are raised and
+&+ytrained here, and when not in use, usually roost here as well, though they
+&+yare all allowed to come and go as they wish.&n
+~
+760 134250496 5
+D3
+~
+~
+0 0 76132
+S
+#76242
+Pet room ultarium~
+~
+760 134250496 0
+S
+#76243
+&+yBegining of a Mountain Trail&n~
+&+y   This appears to be the begining of a fairly well-used mountain
+&+ytrail, that leads up through the mountain range towards the northeast.
+&+yThe air is still warm from the nearby lava flows, but it obviously
+&+ychills as trail leads upwards, as the peaks in the distance can be
+&+yseen covered in snow.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76244
+D1
+~
+~
+0 0 536209
+D2
+~
+~
+0 0 536608
+S
+#76244
+&+yA Well-Used Mountain Trail&n~
+&+y   This trail winds up through the mountain range, and appears to be
+&+ywell looked after. The path is clear of loose rocks and the weeds
+&+yhave all been pulled. Glancing up ahead it is near impossible to see
+&+ywhere the trail leads to, but obviously high up into the mountains.
+~
+760 0 5
+D0
+~
+~
+0 0 76245
+D2
+~
+~
+0 0 76243
+S
+#76245
+&+yA Well-Used Mountain Trail&n~
+&+y   This trail winds up through the mountain range, and appears to be
+&+ywell looked after. The path is clear of loose rocks and the weeds
+&+yhave all been pulled. Glancing up ahead it is near impossible to see
+&+ywhere the trail leads to, but obviously high up into the mountains.
+~
+760 0 5
+D0
+~
+~
+0 0 76246
+D2
+~
+~
+0 0 76244
+S
+#76246
+&+yA Well-Used Mountain Trail&n~
+&+y   This trail winds up through the mountain range, and appears to be
+&+ywell looked after. The path is clear of loose rocks and the weeds
+&+yhave all been pulled. Glancing up ahead it is near impossible to see
+&+ywhere the trail leads to, but obviously high up into the mountains.
+~
+760 0 5
+D2
+~
+~
+0 0 76245
+D4
+~
+~
+0 0 76247
+S
+#76247
+&+yA Well-Used Mountain Trail&n~
+&+y   This trail winds up through the mountain range, and appears to be
+&+ywell looked after. The path is clear of loose rocks and the weeds
+&+yhave all been pulled. Glancing up ahead it is near impossible to see
+&+ywhere the trail leads to, but obviously high up into the mountains.
+~
+760 0 5
+D3
+~
+~
+0 0 76248
+D5
+~
+~
+0 0 76246
+S
+#76248
+&+yA Well-Used Mountain Trail&n~
+&+y   This trail winds up through the mountain range, and appears to be
+&+ywell looked after. The path is clear of loose rocks and the weeds
+&+yhave all been pulled. Glancing up ahead it is near impossible to see
+&+ywhere the trail leads to, but obviously high up into the mountains.
+&+yThe trail seems to open up to a large plateau to the west.&n
+~
+760 4 5
+D1
+~
+~
+0 0 76247
+D3
+~
+~
+0 0 76257
+S
+#76249
+&+yA &+YDwarven &+yCamp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76258
+D1
+~
+~
+0 0 76250
+D2
+~
+~
+0 0 76252
+S
+#76250
+&+yA &+YDwarven&+y Camp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D1
+~
+~
+0 0 76251
+D2
+~
+~
+0 0 76253
+D3
+~
+~
+0 0 76249
+S
+#76251
+&+yA &+YDwarven&+y Camp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D2
+~
+~
+0 0 76254
+D3
+~
+~
+0 0 76250
+S
+#76252
+&+yA &+YDwarven&+y Camp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76249
+D1
+~
+~
+0 0 76253
+D2
+~
+~
+0 0 76255
+S
+#76253
+&+yA &+YDwarven&+y Camp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76250
+D1
+~
+~
+0 0 76254
+D2
+~
+~
+0 0 76256
+D3
+~
+~
+0 0 76252
+S
+#76254
+&+yA Small Workshop&n~
+&+y   This workshop is basically just a four poles holding a
+&+yroof over the head of the local craftsman while he works. There
+&+yis a small anvil and some other tools that lie scattered on the
+&+yground. The craftsman always seems to be pre-occupied by his work.
+~
+760 0 5
+D0
+~
+~
+0 0 76251
+D2
+~
+~
+0 0 76257
+D3
+~
+~
+0 0 76253
+S
+#76255
+&+yA &+YTrappers&+y Hut&n~
+&+y   This is just a fair-sized hut that has been set up inside
+&+ythe camp, used by the local trapper. He spends most of his time
+&+yhere looking over skins and bits and pieces of rare and unusual
+&+ycreatures he collects.
+~
+760 0 5
+D0
+~
+~
+0 0 76252
+D1
+~
+~
+0 0 76256
+S
+#76256
+&+yA &+YDwarven&+y Camp in the Mountains&n~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76253
+D1
+~
+~
+0 0 76257
+D3
+~
+~
+0 0 76255
+S
+#76257
+&+yA &+YDwarven&+y Camp in the Mountains&N~
+&+y   One a sizable plateau in the mounatins a group of &+YDwarves &+yhave &+ymade
+&+ythier small camp.  Mountain dwarves usually spend most their lives inside
+&+ycaves of this terrain, away from the surface, but is not uncommon to find
+&+ya camp such as this one, for a quieter, peaceful, and yet much more rugged
+&+ylifestyle.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76254
+D1
+~
+~
+0 0 76248
+D3
+~
+~
+0 0 76256
+S
+#76258
+&+yBase of an Incline&n~
+&+y   The trail begins to get increasingly steep from this
+&+ypoint forward, as it winds its way up and through the peaks
+&+yof the area. Footing can be difficult if not watched with
+&+ycaution. The dwarven camp lies to the south.&n
+~
+760 4 5
+D2
+~
+~
+0 0 76249
+D4
+~
+~
+0 0 76259
+S
+#76259
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D3
+~
+~
+0 0 76260
+D5
+~
+~
+0 0 76258
+S
+#76260
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76261
+D1
+~
+~
+0 0 76259
+S
+#76261
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D2
+~
+~
+0 0 76260
+D4
+~
+~
+0 0 76262
+S
+#76262
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76263
+D5
+~
+~
+0 0 76261
+S
+#76263
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D2
+~
+~
+0 0 76262
+D3
+~
+~
+0 0 76264
+S
+#76264
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D1
+~
+~
+0 0 76263
+D4
+~
+~
+0 0 76265
+S
+#76265
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D4
+~
+~
+0 0 76266
+D5
+~
+~
+0 0 76264
+S
+#76266
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76267
+D5
+~
+~
+0 0 76265
+S
+#76267
+&+yA Steep and Winding Mountain Trail&n~
+&+y   The mountain trail continues to twist ever upwards,
+&+ytowards the summit and whatever is up there.  With each
+&+ystep the air becomes thinner and increasingly cold, and
+&+yeven though the trail is well marked and worn, it can still
+&+ybe treacherous for those not paying careful attention to
+&+ytheir footing.&n
+~
+760 0 5
+D0
+~
+~
+0 0 76268
+D2
+~
+~
+0 0 76266
+S
+#76268
+&+yA Spacious Mountain Clearing~
+&+y   The mountain trail ends here, as a large clearing opens
+&+yup to the north. The land here becomes fairly flat, even
+&+ythough still high up in the mountain peaks.  The air here is
+&+yquite chilly and thin, and the vegetation is quite sparase.&n
+~
+760 0 5
+D0
+~
+~
+0 0 535007
+D2
+~
+~
+0 0 76267
+D3
+~
+~
+0 0 535406
+S

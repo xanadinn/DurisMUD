@@ -1,0 +1,108 @@
+#64
+&+LThe &N&+gBugger &+LCaves&N~
+6427 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 6425 0 5 100 0 0 0
+*     north exit from "A Rocky Dead-End" to
+*     "A Cave of Thick Moss" - closed/secret
+*
+D 0 6426 2 5 100 0 0 0
+*     south exit from "A Cave of Thick Moss" to
+*     "A Rocky Dead-End" - closed/secret
+*
+*
+O 0 6400 1 6413 100 0 0 0          * a dead bugger
+P 1 6405 1 6400 100 0 0 0          *   a buggers carapace
+O 0 6404 2 6416 100 0 0 0          * a bugger egg
+O 0 6403 1 6419 100 0 0 0          * a bugger egg
+O 0 6404 2 6423 100 0 0 0          * a bugger egg
+*
+M 0 6400 1 6400 100 0 0 0          * a bugger sentinel
+M 0 6401 1 6400 100 0 0 0          * a bugger sentinel
+M 0 6415 6 6401 100 0 0 0          * a bugger
+M 0 6405 6 6401 100 0 0 0          * a baby adult
+M 0 6403 6 6402 100 0 0 0          * a larvae
+M 0 6404 6 6402 100 0 0 0          * a pupa
+M 0 6405 6 6402 100 0 0 0          * a baby adult
+M 0 6409 1 6402 100 0 0 0          * a bugger attendant
+E 1 6401 1 13 100 0 0 0            *   a bugger carrying pouch
+P 1 6402 2 6401 100 0 0 0          *   a bugger egg
+P 1 6402 2 6401 100 0 0 0          *   a bugger egg
+M 0 6403 6 6403 100 0 0 0          * a larvae
+M 0 6404 6 6403 100 0 0 0          * a pupa
+M 0 6405 6 6403 100 0 0 0          * a baby adult
+M 0 6408 1 6403 100 0 0 0          *  a bugger attendant
+M 0 6404 6 6404 100 0 0 0          * a pupa
+M 0 6404 6 6404 100 0 0 0          * a pupa
+M 0 6403 6 6404 100 0 0 0          * a larvae
+M 0 6405 6 6404 100 0 0 0          * a baby adult
+M 0 6407 1 6404 100 0 0 0          * a bugger attendant
+M 0 6415 6 6404 100 0 0 0          * a bugger
+M 0 6421 6 6404 100 0 0 0          * a six-legged insect
+M 0 6404 6 6405 100 0 0 0          * a pupa
+M 0 6403 6 6405 100 0 0 0          * a larvae
+M 0 6405 6 6405 100 0 0 0          * a baby adult
+M 0 6406 1 6405 100 0 0 0          * a bugger attendant
+M 0 6415 6 6406 100 0 0 0          * a bugger
+M 0 6421 6 6406 100 0 0 0          * a six-legged insect
+M 0 6414 7 6407 100 0 0 0          * a bugger
+M 0 6421 6 6407 100 0 0 0          * a six-legged insect
+M 0 6415 6 6408 100 0 0 0          * a bugger
+M 0 6421 6 6409 100 0 0 0          * a six-legged insect
+M 0 6402 1 6412 100 0 0 0          * the bugger Queen
+M 0 6416 3 6412 100 0 0 0          * a bugger
+M 0 6416 3 6412 100 0 0 0          * a bugger
+M 0 6416 3 6412 100 0 0 0          * a bugger
+M 0 6415 6 6412 100 0 0 0          * a bugger
+M 0 6414 7 6413 100 0 0 0          * a bugger
+M 0 6414 7 6413 100 0 0 0          * a bugger
+M 0 6405 6 6413 100 0 0 0          * a baby adult
+M 0 6404 6 6413 100 0 0 0          * a pupa
+M 0 6403 6 6413 100 0 0 0          * a larvae
+M 0 6403 6 6413 100 0 0 0          * a larvae
+M 0 6414 7 6414 100 0 0 0          * a bugger
+M 0 6415 6 6415 100 0 0 0          * a bugger
+M 0 6414 7 6415 100 0 0 0          * a bugger
+M 0 6412 6 6416 100 0 0 0          * a bugger
+M 0 6412 6 6416 100 0 0 0          * a bugger
+M 0 6413 6 6416 100 0 0 0          * a bugger
+M 0 6413 6 6416 100 0 0 0          * a bugger
+M 0 6410 3 6417 100 0 0 0          * a spotted fungus
+M 0 6420 3 6417 100 0 0 0          * a spotted fungus
+M 0 6421 6 6417 100 0 0 0          * a six-legged insect
+M 0 6410 3 6418 100 0 0 0          * a spotted fungus
+M 0 6420 3 6418 100 0 0 0          * a spotted fungus
+M 0 6410 3 6419 100 0 0 0          * a spotted fungus
+M 0 6420 3 6419 100 0 0 0          * a spotted fungus
+M 0 6411 1 6419 100 0 0 0          * a bugger
+M 0 6421 6 6419 100 0 0 0          * a six-legged insect
+M 0 6417 6 6420 100 0 0 0          * a wriggling pupa
+M 0 6417 6 6420 100 0 0 0          * a wriggling pupa
+M 0 6418 6 6420 100 0 0 0          * a grotesque larvae
+M 0 6418 6 6420 100 0 0 0          * a grotesque larvae
+M 0 6419 3 6420 100 0 0 0          * a bugger slime matron
+M 0 6417 6 6421 100 0 0 0          * a wriggling pupa
+M 0 6417 6 6421 100 0 0 0          * a wriggling pupa
+M 0 6418 6 6421 100 0 0 0          * a grotesque larvae
+M 0 6418 6 6421 100 0 0 0          * a grotesque larvae
+M 0 6419 3 6421 100 0 0 0          * a bugger slime matron
+M 0 6417 6 6422 100 0 0 0          * a wriggling pupa
+M 0 6417 6 6422 100 0 0 0          * a wriggling pupa
+M 0 6418 6 6422 100 0 0 0          * a grotesque larvae
+M 0 6418 6 6422 100 0 0 0          * a grotesque larvae
+M 0 6419 3 6422 100 0 0 0          * a bugger slime matron
+M 0 6412 6 6423 100 0 0 0          * a bugger
+M 0 6412 6 6423 100 0 0 0          * a bugger
+M 0 6413 6 6423 100 0 0 0          * a bugger
+M 0 6413 6 6423 100 0 0 0          * a bugger
+M 0 6414 7 6424 100 0 0 0          * a bugger
+M 0 6413 6 6425 100 0 0 0          * a bugger
+M 0 6413 6 6425 100 0 0 0          * a bugger
+M 0 6412 6 6425 100 0 0 0          * a bugger
+M 0 6412 6 6425 100 0 0 0          * a bugger
+M 0 6414 7 6427 100 0 0 0          * a bugger
+*
+S

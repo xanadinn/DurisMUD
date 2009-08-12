@@ -1,0 +1,482 @@
+#202
+&+cShairak &+yand &+GS&+gmok&+rev&+ge&+ril &+yForest&n~
+20299 2 0 9 13 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 20256 2 1 100 0 0 0
+*     south exit from "Rushdie Inn" to
+*     "A Room of Peace" - closed
+*
+D 0 20257 0 1 100 0 0 0
+*     north exit from "A Room of Peace" to
+*     "Rushdie Inn" - closed
+*
+D 0 20260 2 1 100 0 0 0
+*     south exit from "a Well Traveled Path" to
+*     "a Small Cottage" - closed
+*
+D 0 20261 0 1 100 0 0 0
+*     north exit from "a Small Cottage" to
+*     "a Well Traveled Path" - closed
+*
+D 0 20263 1 1 100 0 0 0
+*     east exit from "The Fountain of Shairak" to
+*     "a Rotted Cottage" - closed
+*
+D 0 20264 3 1 100 0 0 0
+*     west exit from "a Rotted Cottage" to
+*     "The Fountain of Shairak" - closed
+*
+D 0 20266 0 1 100 0 0 0
+*     north exit from "A Well Traveled Path" to
+*     "The Home of Ivar Bjornson" - closed
+*
+D 0 20269 2 1 100 0 0 0
+*     south exit from "The Home of Ivar Bjornson" to
+*     "A Well Traveled Path" - closed
+*
+D 0 20266 1 1 100 0 0 0
+*     east exit from "A Well Traveled Path" to
+*     "Shaman's Cottage" - closed
+*
+D 0 20267 3 1 100 0 0 0
+*     west exit from "Shaman's Cottage" to
+*     "A Well Traveled Path" - closed
+*
+D 0 20276 1 1 100 0 0 0
+*     east exit from "A Well Traveled Path" to
+*     "Ohlin's Oddities" - closed
+*
+D 0 20277 3 1 100 0 0 0
+*     west exit from "Ohlin's Oddities" to
+*     "A Well Traveled Path" - closed
+*
+*
+O 0 20213 14 20201 100 0 0 0       * a green plant
+O 0 20213 14 20202 100 0 0 0       * a green plant
+O 0 20213 14 20203 100 0 0 0       * a green plant
+O 0 20213 14 20204 100 0 0 0       * a green plant
+O 0 20212 5 20205 100 0 0 0        * a charred plant
+O 0 20212 5 20206 100 0 0 0        * a charred plant
+O 0 20217 999 20207 100 0 0 0      * a tiny green plant
+O 0 20213 14 20207 100 0 0 0       * a green plant
+O 0 20213 14 20208 100 0 0 0       * a green plant
+O 0 20213 14 20209 100 0 0 0       * a green plant
+O 0 20217 999 20209 100 0 0 0      * a tiny green plant
+O 0 20213 14 20210 100 0 0 0       * a green plant
+O 0 20213 14 20211 100 0 0 0       * a green plant
+O 0 20217 999 20211 100 0 0 0      * a tiny green plant
+O 0 20212 5 20212 100 0 0 0        * a charred plant
+O 0 20217 999 20213 100 0 0 0      * a tiny green plant
+O 0 20213 14 20214 100 0 0 0       * a green plant
+O 0 20213 14 20215 100 0 0 0       * a green plant
+O 0 20211 1 20216 100 0 0 0        * a dead animal
+O 0 20212 5 20217 100 0 0 0        * a charred plant
+O 0 20212 5 20218 100 0 0 0        * a charred plant
+O 0 20213 14 20219 100 0 0 0       * a green plant
+O 0 20213 14 20221 100 0 0 0       * a green plant
+O 0 20213 14 20222 100 0 0 0       * a green plant
+O 0 20239 1 20263 100 0 0 0        * the Fountain of Shairak
+O 0 20218 12 20279 100 0 0 0       * some spiked splint mail
+*
+M 0 20210 7 20201 100 0 0 0        * a mistgrave hare
+M 0 20212 6 20201 100 0 0 0        * a cute fuzzy squirrel
+M 0 20216 5 20201 100 0 0 0        * a humming bird
+M 0 20205 7 20202 100 0 0 0        * a small sparrow
+M 0 20209 6 20202 100 0 0 0        * a swift
+M 0 20210 7 20202 100 0 0 0        * a mistgrave hare
+M 0 20216 5 20202 100 0 0 0        * a humming bird
+M 0 20219 3 20202 100 0 0 0        * a deadly looking wolf
+M 0 20204 1 20203 100 0 0 0        * a hostile woodchuck
+M 0 20211 7 20203 100 0 0 0        * a majestic bluejay
+M 0 20213 5 20203 100 0 0 0        * a doe
+M 0 20219 3 20203 100 0 0 0        * a deadly looking wolf
+M 0 20205 7 20204 100 0 0 0        * a small sparrow
+M 0 20212 6 20204 100 0 0 0        * a cute fuzzy squirrel
+M 0 20213 5 20204 100 0 0 0        * a doe
+M 0 20214 4 20204 100 0 0 0        * a mother deer
+M 0 20218 7 20205 100 0 0 0        * a battle scarred seagull
+M 0 20218 7 20205 100 0 0 0        * a battle scarred seagull
+M 0 20220 2 20205 100 0 0 0        * an evil looking crow
+M 0 20218 7 20206 100 0 0 0        * a battle scarred seagull
+M 0 20218 7 20206 100 0 0 0        * a battle scarred seagull
+M 0 20212 6 20207 100 0 0 0        * a cute fuzzy squirrel
+M 0 20213 5 20207 100 0 0 0        * a doe
+M 0 20215 5 20207 100 0 0 0        * a rather buff looking deer
+M 0 20211 7 20207 100 0 0 0        * a majestic bluejay
+M 0 20216 5 20207 100 0 0 0        * a humming bird
+M 0 20217 3 20207 100 0 0 0        * a robin
+M 0 20220 2 20207 100 0 0 0        * an evil looking crow
+M 0 20202 1 20208 100 0 0 0        * a warthog
+M 0 20207 5 20208 100 0 0 0        * a weevil
+M 0 20208 3 20208 100 0 0 0        * a swallow
+M 0 20209 6 20208 100 0 0 0        * a swift
+M 0 20205 7 20209 100 0 0 0        * a small sparrow
+M 0 20209 6 20209 100 0 0 0        * a swift
+M 0 20214 4 20209 100 0 0 0        * a mother deer
+M 0 20215 5 20209 100 0 0 0        * a rather buff looking deer
+M 0 20206 1 20210 100 0 0 0        * a dew faerie
+M 0 20207 5 20210 100 0 0 0        * a weevil
+M 0 20208 3 20210 100 0 0 0        * a swallow
+M 0 20212 6 20210 100 0 0 0        * a cute fuzzy squirrel
+M 0 20205 7 20211 100 0 0 0        * a small sparrow
+M 0 20208 3 20211 100 0 0 0        * a swallow
+M 0 20211 7 20211 100 0 0 0        * a majestic bluejay
+M 0 20212 6 20211 100 0 0 0        * a cute fuzzy squirrel
+M 0 20205 7 20212 100 0 0 0        * a small sparrow
+M 0 20210 7 20212 100 0 0 0        * a mistgrave hare
+M 0 20214 4 20212 100 0 0 0        * a mother deer
+M 0 20217 3 20212 100 0 0 0        * a robin
+M 0 20203 1 20213 100 0 0 0        * a ravenous chipmunk
+M 0 20207 5 20213 100 0 0 0        * a weevil
+M 0 20216 5 20213 100 0 0 0        * a humming bird
+M 0 20205 7 20214 100 0 0 0        * a small sparrow
+M 0 20207 5 20214 100 0 0 0        * a weevil
+M 0 20211 7 20214 100 0 0 0        * a majestic bluejay
+M 0 20205 7 20215 100 0 0 0        * a small sparrow
+M 0 20209 6 20215 100 0 0 0        * a swift
+M 0 20210 7 20215 100 0 0 0        * a mistgrave hare
+M 0 20212 6 20215 100 0 0 0        * a cute fuzzy squirrel
+M 0 20213 5 20215 100 0 0 0        * a doe
+M 0 20217 3 20215 100 0 0 0        * a robin
+M 0 20207 5 20216 100 0 0 0        * a weevil
+M 0 20210 7 20216 100 0 0 0        * a mistgrave hare
+M 0 20211 7 20216 100 0 0 0        * a majestic bluejay
+M 0 20219 3 20216 100 0 0 0        * a deadly looking wolf
+M 0 20213 5 20217 100 0 0 0        * a doe
+M 0 20215 5 20217 100 0 0 0        * a rather buff looking deer
+M 0 20216 5 20217 100 0 0 0        * a humming bird
+M 0 20210 7 20219 100 0 0 0        * a mistgrave hare
+M 0 20211 7 20220 100 0 0 0        * a majestic bluejay
+M 0 20214 4 20220 100 0 0 0        * a mother deer
+M 0 20215 5 20220 100 0 0 0        * a rather buff looking deer
+M 0 20209 6 20221 100 0 0 0        * a swift
+M 0 20210 7 20221 100 0 0 0        * a mistgrave hare
+M 0 20215 5 20221 100 0 0 0        * a rather buff looking deer
+M 0 20209 6 20222 100 0 0 0        * a swift
+M 0 20247 5 20223 100 0 0 0        * a cave bat
+M 0 20251 5 20223 100 0 0 0        * a dorvet
+M 0 20252 5 20223 100 0 0 0        * an azure mold
+M 0 20253 5 20223 100 0 0 0        * a crimson mold
+M 0 20248 5 20224 100 0 0 0        * a crag spider
+M 0 20250 5 20224 100 0 0 0        * a vorvite
+M 0 20249 5 20225 100 0 0 0        * a crag spider
+M 0 20251 5 20225 100 0 0 0        * a dorvet
+M 0 20253 5 20225 100 0 0 0        * a crimson mold
+M 0 20247 5 20226 100 0 0 0        * a cave bat
+M 0 20236 1 20231 100 0 0 0        * Dargast
+G 1 20208 1 0 100 0 0 0            *    some black dragon scales
+M 0 20248 5 20232 100 0 0 0        * a crag spider
+M 0 20249 5 20232 100 0 0 0        * a crag spider
+M 0 20253 5 20232 100 0 0 0        * a crimson mold
+M 0 20247 5 20233 100 0 0 0        * a cave bat
+M 0 20251 5 20233 100 0 0 0        * a dorvet
+M 0 20248 5 20234 100 0 0 0        * a crag spider
+M 0 20252 5 20234 100 0 0 0        * an azure mold
+M 0 20253 5 20234 100 0 0 0        * a crimson mold
+M 0 20247 5 20235 100 0 0 0        * a cave bat
+M 0 20250 5 20235 100 0 0 0        * a vorvite
+M 0 20248 5 20236 100 0 0 0        * a crag spider
+M 0 20251 5 20236 100 0 0 0        * a dorvet
+M 0 20238 1 20237 100 0 0 0        * a dragon hatchling
+M 0 20273 1 20237 100 0 0 0        * Azcatlipoca
+G 1 20251 1 0 100 0 0 0            *    a bloody bastard sword
+M 0 20249 5 20238 100 0 0 0        * a crag spider
+M 0 20253 5 20239 100 0 0 0        * a crimson mold
+M 0 20235 1 20241 100 0 0 0        * Sanrabb, The Diabolical Dragonlord
+G 1 20209 1 0 100 0 0 0            *    the heart of Sanrabb
+M 0 20250 5 20242 100 0 0 0        * a vorvite
+M 0 20237 1 20244 100 0 0 0        * Svartalo
+G 1 20244 1 0 100 0 0 0            *    a bloody dragon talon
+M 0 20249 5 20245 100 0 0 0        * a crag spider
+M 0 20250 5 20245 100 0 0 0        * a vorvite
+M 0 20247 5 20246 100 0 0 0        * a cave bat
+M 0 20251 5 20246 100 0 0 0        * a dorvet
+M 0 20252 5 20246 100 0 0 0        * an azure mold
+M 0 20249 5 20247 100 0 0 0        * a crag spider
+M 0 20250 5 20247 100 0 0 0        * a vorvite
+M 0 20252 5 20247 100 0 0 0        * an azure mold
+M 0 20248 5 20248 100 0 0 0        * a crag spider
+M 0 20252 5 20248 100 0 0 0        * an azure mold
+M 0 20233 1 20249 100 0 0 0        * Dolgar
+G 1 20216 1 0 100 0 0 0            *    the black opal eye of Dolgar
+G 1 20214 1 0 100 0 0 0            *    a large dragon scale
+G 1 20200 1 0 100 0 0 0            *    the heart of Dolgar
+M 0 20264 5 20250 100 0 0 0        * a village commoner
+M 0 20267 7 20250 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20270 5 20250 100 0 0 0        * a wandering adventurer
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20258 6 20250 100 0 0 0        * a small villager
+M 0 20262 5 20251 100 0 0 0        * a young villager
+M 0 20263 5 20251 100 0 0 0        * a peasant commoner
+M 0 20266 5 20251 100 0 0 0        * a muscular villager
+M 0 20268 5 20251 100 0 0 0        * a traveling merchant
+M 0 20267 7 20251 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20264 5 20252 100 0 0 0        * a village commoner
+M 0 20265 5 20252 100 0 0 0        * a pudgy commoner
+M 0 20270 5 20252 100 0 0 0        * a wandering adventurer
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20267 7 20252 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20262 5 20253 100 0 0 0        * a young villager
+M 0 20263 5 20253 100 0 0 0        * a peasant commoner
+M 0 20269 6 20253 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20258 6 20253 100 0 0 0        * a small villager
+M 0 20266 5 20254 100 0 0 0        * a muscular villager
+M 0 20268 5 20254 100 0 0 0        * a traveling merchant
+M 0 20267 7 20254 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20268 5 20255 100 0 0 0        * a traveling merchant
+M 0 20269 6 20255 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20256 3 20256 100 0 0 0        * a tiny infant
+M 0 20262 5 20258 100 0 0 0        * a young villager
+M 0 20266 5 20258 100 0 0 0        * a muscular villager
+M 0 20269 6 20258 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20263 5 20259 100 0 0 0        * a peasant commoner
+M 0 20265 5 20259 100 0 0 0        * a pudgy commoner
+M 0 20270 5 20259 100 0 0 0        * a wandering adventurer
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20271 5 20259 100 0 0 0        * a village warrior
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20272 4 20259 100 0 0 0        * a village champion
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20262 5 20260 100 0 0 0        * a young villager
+M 0 20264 5 20260 100 0 0 0        * a village commoner
+M 0 20265 5 20260 100 0 0 0        * a pudgy commoner
+M 0 20266 5 20260 100 0 0 0        * a muscular villager
+M 0 20272 4 20260 100 0 0 0        * a village champion
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20242 1 20261 100 0 0 0        * Keebo, The Great Hunter
+E 1 20219 1 5 100 0 0 0            *   some spiked plate mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20234 1 16 100 0 0 0           *   a glowing elven cutlass
+E 1 20233 1 17 100 0 0 0           *   a misericord dagger
+M 0 20257 5 20262 100 0 0 0        * a small child
+M 0 20258 6 20262 100 0 0 0        * a small villager
+M 0 20263 5 20262 100 0 0 0        * a peasant commoner
+M 0 20269 6 20262 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20256 3 20263 100 0 0 0        * a tiny infant
+M 0 20256 3 20264 100 0 0 0        * a tiny infant
+M 0 20245 1 20265 100 0 0 0        * Ilvorntas, The village magician
+E 1 20248 1 13 100 0 0 0           *   a belt bearing the crest of Darkuul
+G 1 20242 1 0 100 0 0 0            *    a tome of mysticism
+M 0 20244 1 20267 100 0 0 0        * Tarlator, The Village Shaman
+E 1 20228 1 18 100 0 0 0           *   a polished marble totem
+E 1 20231 1 37 100 0 0 0           *   a twisted ribbon
+E 1 20230 1 39 100 0 0 0           *   a pronged bone
+E 1 20229 1 40 100 0 0 0           *   a bloody shroud
+M 0 20240 1 20268 100 0 0 0        * Dorno, The Town Blacksmith
+G 1 20201 1 0 100 0 0 0            *    a gleaming blacksmith hammer
+M 0 20239 1 20269 100 0 0 0        * Ivar Bjornson
+E 1 20202 1 5 100 0 0 0            *   some spiked leather armor
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20204 1 11 100 0 0 0           *   a spiked buckler
+E 1 20247 1 13 100 0 0 0           *   a belt bearing the symbol of Baphomet
+E 1 20203 1 16 100 0 0 0           *   a silver cutlass
+E 1 20240 1 28 100 0 0 0           *   a smoked flagon
+M 0 20254 1 20269 100 0 0 0        * a village guardian
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20241 1 7 100 0 0 0            *   some scintilating leggings
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20222 2 11 100 0 0 0           *   a large shield
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+M 0 20255 1 20269 100 0 0 0        * a village guardian
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20222 2 11 100 0 0 0           *   a large shield
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+G 1 20220 1 0 100 0 0 0            *    a mystic scroll
+M 0 20261 5 20270 100 0 0 0        * a drunken villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20263 5 20270 100 0 0 0        * a peasant commoner
+M 0 20267 7 20270 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20271 5 20270 100 0 0 0        * a village warrior
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20258 6 20271 100 0 0 0        * a small villager
+M 0 20264 5 20271 100 0 0 0        * a village commoner
+M 0 20268 5 20271 100 0 0 0        * a traveling merchant
+M 0 20243 1 20272 100 0 0 0        * Raltron, The village healer
+E 1 20236 1 5 100 0 0 0            *   a flowing embroidered robe
+E 1 20235 1 20 100 0 0 0           *   a carved bone mask
+G 1 20237 1 0 100 0 0 0            *    a deadly looking potion
+M 0 20257 5 20273 100 0 0 0        * a small child
+M 0 20265 5 20273 100 0 0 0        * a pudgy commoner
+M 0 20269 6 20273 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20271 5 20273 100 0 0 0        * a village warrior
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20272 4 20273 100 0 0 0        * a village champion
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20262 5 20274 100 0 0 0        * a young villager
+M 0 20266 5 20274 100 0 0 0        * a muscular villager
+M 0 20270 5 20274 100 0 0 0        * a wandering adventurer
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20257 5 20275 100 0 0 0        * a small child
+M 0 20258 6 20275 100 0 0 0        * a small villager
+M 0 20261 5 20275 100 0 0 0        * a drunken villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20267 7 20275 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20257 5 20276 100 0 0 0        * a small child
+M 0 20265 5 20276 100 0 0 0        * a pudgy commoner
+M 0 20271 5 20276 100 0 0 0        * a village warrior
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20234 1 20277 100 0 0 0        * Otsurd Ohlin
+G 1 20217 999 0 100 0 0 0          *    a tiny green plant
+G 1 20221 12 0 100 0 0 0           *    a buckler
+G 1 20224 25 0 100 0 0 0           *    some soft leather boots
+G 1 20225 8 0 100 0 0 0            *    some padded leather armor
+G 1 20226 26 0 100 0 0 0           *    a hand axe
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20258 6 20278 100 0 0 0        * a small villager
+M 0 20261 5 20278 100 0 0 0        * a drunken villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20268 5 20278 100 0 0 0        * a traveling merchant
+M 0 20272 4 20278 100 0 0 0        * a village champion
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20227 6 16 100 0 0 0           *   a spiked mace
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20269 6 20278 100 0 0 0        * a traveling adventurer
+E 1 20218 12 5 100 0 0 0           *   some spiked splint mail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20241 1 20279 100 0 0 0        * Oystein Eithun
+E 1 20232 1 12 100 0 0 0           *   a cloak of Mendes
+M 0 20246 1 20279 100 0 0 0        * Forvos, The town drunk
+E 1 20246 1 13 100 0 0 0           *   a beer soaked belt
+E 1 20243 1 28 100 0 0 0           *   a marble flask
+M 0 20259 2 20279 100 0 0 0        * a drunk villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20260 2 20279 100 0 0 0        * a drunk villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20261 5 20279 100 0 0 0        * a drunken villager
+M 0 20261 5 20279 100 0 0 0        * a drunken villager
+M 0 20259 2 20279 100 0 0 0        * a drunk villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20260 2 20279 100 0 0 0        * a drunk villager
+G 1 20245 8 0 100 0 0 0            *    a bottle
+M 0 20257 5 20280 100 0 0 0        * a small child
+M 0 20264 5 20280 100 0 0 0        * a village commoner
+M 0 20267 7 20280 100 0 0 0        * a wandering merchant
+E 1 20225 8 5 100 0 0 0            *   some padded leather armor
+M 0 20270 5 20280 100 0 0 0        * a wandering adventurer
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20221 12 11 100 0 0 0          *   a buckler
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+M 0 20271 5 20280 100 0 0 0        * a village warrior
+E 1 20223 11 5 100 0 0 0           *   some spiked ringmail
+E 1 20224 25 8 100 0 0 0           *   some soft leather boots
+E 1 20226 26 16 100 0 0 0          *   a hand axe
+E 1 20226 26 17 100 0 0 0          *   a hand axe
+M 0 20221 4 20282 100 0 0 0        * a vischacha
+M 0 20227 6 20282 100 0 0 0        * a jade bunny
+M 0 20226 1 20283 100 0 0 0        * a daft looking bunny named George
+M 0 20229 1 20283 100 0 0 0        * a rabid bunny
+M 0 20232 5 20283 100 0 0 0        * a baby rabbit
+M 0 20221 4 20284 100 0 0 0        * a vischacha
+M 0 20230 5 20284 100 0 0 0        * a female bunny
+M 0 20228 5 20284 100 0 0 0        * a peculiar looking hare
+M 0 20227 6 20284 100 0 0 0        * a jade bunny
+M 0 20230 5 20285 100 0 0 0        * a female bunny
+M 0 20228 5 20285 100 0 0 0        * a peculiar looking hare
+M 0 20221 4 20286 100 0 0 0        * a vischacha
+M 0 20232 5 20286 100 0 0 0        * a baby rabbit
+M 0 20231 5 20286 100 0 0 0        * a fuzzy bunny
+M 0 20230 5 20286 100 0 0 0        * a female bunny
+M 0 20227 6 20286 100 0 0 0        * a jade bunny
+M 0 20231 5 20287 100 0 0 0        * a fuzzy bunny
+M 0 20228 5 20287 100 0 0 0        * a peculiar looking hare
+M 0 20232 5 20288 100 0 0 0        * a baby rabbit
+M 0 20231 5 20288 100 0 0 0        * a fuzzy bunny
+M 0 20230 5 20288 100 0 0 0        * a female bunny
+M 0 20227 6 20288 100 0 0 0        * a jade bunny
+M 0 20232 5 20289 100 0 0 0        * a baby rabbit
+M 0 20230 5 20289 100 0 0 0        * a female bunny
+M 0 20228 5 20289 100 0 0 0        * a peculiar looking hare
+M 0 20227 6 20289 100 0 0 0        * a jade bunny
+M 0 20221 4 20289 100 0 0 0        * a vischacha
+M 0 20200 1 20290 100 0 0 0        * Xertrath, the bunny of Wrath
+G 1 20210 1 0 100 0 0 0            *    the head of Xertrath
+M 0 20232 5 20291 100 0 0 0        * a baby rabbit
+M 0 20231 5 20291 100 0 0 0        * a fuzzy bunny
+M 0 20228 5 20291 100 0 0 0        * a peculiar looking hare
+M 0 20227 6 20291 100 0 0 0        * a jade bunny
+M 0 20231 5 20292 100 0 0 0        * a fuzzy bunny
+M 0 20201 1 20293 100 0 0 0        * Aplon, the bunny Master
+M 0 20223 3 20294 100 0 0 0        * a tarpon
+M 0 20223 3 20295 100 0 0 0        * a tarpon
+M 0 20225 3 20295 100 0 0 0        * an axolotl
+M 0 20218 7 20295 100 0 0 0        * a battle scarred seagull
+M 0 20224 1 20296 100 0 0 0        * a Malstrog Tentabeast
+G 1 20205 1 0 100 0 0 0            *    a ring of the Tentabeast
+G 1 20253 1 0 100 0 0 0            *    the black heart of a Tentabeast
+M 0 20223 3 20297 100 0 0 0        * a tarpon
+M 0 20222 2 20297 100 0 0 0        * a diamondback terrapin
+M 0 20225 3 20297 100 0 0 0        * an axolotl
+M 0 20218 7 20297 100 0 0 0        * a battle scarred seagull
+M 0 20225 3 20298 100 0 0 0        * an axolotl
+M 0 20218 7 20298 100 0 0 0        * a battle scarred seagull
+M 0 20222 2 20299 100 0 0 0        * a diamondback terrapin
+M 0 20211 7 20299 100 0 0 0        * a majestic bluejay
+*
+S

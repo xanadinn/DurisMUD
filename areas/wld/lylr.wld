@@ -1,0 +1,1199 @@
+#82200
+&+gThe Southern Forest Of &+GLylrstas~
+&+g    The forests starts here steadily getting denser to the south.
+&+gWoodland creatures are present, moving around in the underbrush.
+&+gThe trees here are ancient looming high over head. The forest
+&+gcontinues to the south.
+~
+822 33554432 3
+D0
+~
+~
+0 0 540876
+D1
+~
+~
+0 0 82201
+D2
+~
+~
+0 0 82203
+D3
+~
+~
+0 0 82202
+S
+#82201
+&+gThe Southern Forest Of &+GLylrstas~
+&+g    The forest starts here growing denser to the south. An occasional
+&+gchirp from a nearby bird can be heard. The thick underbrush makes
+&+git difficult to walk without stumbling. Some of the smaller trees
+&+ghave been cut down pretty recently as the stumps still appear to be
+&+gfresh. The forest continues to the south, or west.
+~
+822 33554432 3
+D2
+~
+~
+0 0 82204
+D3
+~
+~
+0 0 82200
+S
+#82202
+&+gThe Southern Forest Of &+GLylrstas~
+&+g    The forest mostly composed of ancient trees and small shrubs continues
+&+gon here. An occasional rattle in the underbrush marks the presence of
+&+gtimber rattlers. Branches are cut off some of the smaller trees probably
+&+gfor some poor adventurer lost and in the need of fire wood. The forest
+&+gcontinues to the east or south.
+~
+822 33554432 3
+D1
+~
+~
+0 0 82200
+D2
+~
+~
+0 0 82205
+S
+#82203
+&+gThe Forest Of &+GLylrstas~
+&+g    The gurgling of a stream seems to overcome the noise coming from the
+&+ginsects. The some of the larger trees have been cut down, the empty
+&+gstumps still appear to be fresh. Most of the underbrush has been cleared
+&+gaway. To the south a faint trail can be seen, and some sort of wooden
+&+gfence. The forest continues to the east,west and south.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82200
+D1
+~
+~
+0 0 82204
+D2
+~
+~
+0 0 82206
+D3
+~
+~
+0 0 82205
+S
+#82204
+&+gThe Forest Of &+GLylrstas~
+&+g    The forest drones on here, small woodland creatures scurry in the
+&+gunderbrush. The ancient trees loom overhead, branches stretching towards
+&+gthe sky. The sound of an occasional cricket or fly can be heard. The
+&+gforest continues to the west or south.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82201
+D2
+~
+~
+0 0 82207
+D3
+~
+~
+0 0 82203
+S
+#82205
+&+gThe Forest Of &+GLylrstas~
+&+g    This part of the forest seems to have been untouched. The dense underbrush
+&+gmakes moving difficult, vines cling to the large trees looming overhead.
+&+gSmall woodland creatures scurry in and out of the brush as footsteps
+&+gapproach. The forest continues to the north,south or east.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82202
+D1
+~
+~
+0 0 82203
+D2
+~
+~
+0 0 82208
+S
+#82206
+&+gThe Forest Of &+GLylrstas~
+&+g    The larger trees have been left standing, while the smaller have been
+&+galmost completely wiped out. The trail leading south is much more
+&+gevident here. Footsteps caked in the mud make it seem as if someone
+&+gpassed through here not to long ago. A wooden fence towers to the
+&+gsouth, made of small trees tied carefully together. The forest continues
+&+gto the north,east and west or you can follow the trail south.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82203
+D1
+~
+~
+0 0 82207
+D2
+~
+~
+0 0 82213
+D3
+~
+~
+0 0 82208
+S
+#82207
+&+gThe Forest Of &+GLylrstas~
+&+g    The trees here are sparse, most of the underbush has been cleared from
+&+gthe surrounding area making it easier to see. A small path winds off
+&+gto the south barely visable. The gurgling water of a stream can be
+&+gheard nearby. The forest continues to the west, or back to the north.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82204
+D3
+~
+~
+0 0 82206
+S
+#82208
+&+gThe forest of &+GLylrstas~
+&+g    The forest continues on here, dense underbush clings to the base of
+&+gthe large trees. Vines creep across the branches making an overhead
+&+gcanopy of sorts. The sound of crickets echo in the shadows.A rather
+&+glarge tree is to the west, the vines entangling the base show the faint
+&+gsigns of a door. The forest continues in every direction.
+~
+822 33554432 3
+D0
+~
+~
+0 0 82205
+D1
+~
+~
+0 0 82206
+D3
+~
+door secret~
+1 0 82209
+S
+#82209
+&+yInside A Large Tree~
+&+y    This tree is gigantic, still alive by some magical means a small
+&+yplatform leads up into it. The branches stretch towards the towards
+&+ythe sky looking like mishappen claws. Vines wind under the door and climb
+&+yup the platform, twisting around it forming a rather large ladder. A
+&+yfoul stench comes from deeper within it, the forest continues to the
+&+yeast.
+~
+822 33554432 3
+D1
+~
+door secret~
+1 0 82208
+D4
+~
+~
+0 0 82210
+S
+#82210
+&+yA Small Platform~
+&+y    A small platform rests here, leading deeper into the tree. The platform
+&+yis composed of many vines twisting over themselves, making it quite
+&+ysturdy. The tree has been hollowed out, and remains alive by some
+&+ysort of magical means. A foul stench enters the room from the north, a
+&+yfew pieces of bone are scattered about. To the north you can go deeper in
+&+yto the tree, or back down the ladder.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82211
+D5
+~
+~
+0 0 82209
+F
+20
+S
+#82211
+&+yWithin A Hollowed Tree~
+&+y    Walking in the tree seems a bit odd at first, the floors seem pretty
+&+ysturdy. A small table lies in shambles on the floor, some sort of
+&+ystonewear picture rests in the corner. Claws marks line the walls in
+&+yan irregular pattern, the floor has a drying pool of blood on it. Bones
+&+yare strewn throughout the room, a large pile rests in the west corner.
+&+yPieces of rusty armor and weapons in broken pieces, its obvious the
+&+ything that lives here cares nothing of cleaning. A small bedroom lies
+&+yto the north, the platform lies back to the south.
+~
+822 33816576 0
+D0
+~
+~
+0 0 82212
+D2
+~
+~
+0 0 82210
+S
+#82212
+&+yA Small Bedroom~
+&+y    This room is very small, a bed has been carved from the tree its self
+&+yspanning the length of the room. Claw marks line the floor and a dried
+&+ypool of blood barely visable on the floor. The blankets once on the
+&+ybed are now shredded on the floor. The stench in this room is awful
+&+ypieces of bones are scattered amongst the floor.
+~
+822 33816576 0
+D2
+~
+~
+0 0 82211
+S
+#82213
+&+yBefore A Wooden Fence~
+&+y    A large fence stands here blocking further progress south, it spans
+&+yas far as the eye can see to the east and west. Made of small branches
+&+yand trees tightly tied together with vines it looks pretty sturdy.
+&+yThe top of the fence is covered with branches sharpened to a point,
+&+ymaking any thoughts of climbing over impossible. A make shift gate
+&+ylooms out, not obvious in the twisted mess. The forest continues to
+&+ythe north, the gate lies south.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82206
+D2
+~
+wooden gate~
+1 0 82214
+S
+#82214
+&+gWithin The Gates Of &+GLylrstas~
+&+G    Within the gates, half-elves go about their daily duties rushing from
+&+Gplace to place. The aroma of fresh baked bread drifts through the air.
+&+GChildren run around seemingly without a care, playing with their dogs
+&+Gand toys. The street made of cobblestones of various colors have been
+&+Glaid with such care there doesnt seem to be any lines. To the east lies
+&+Gthe main street of Lylrstas, to the south is a cobblestone path.
+~
+822 33554432 0
+D0
+~
+gate gates~
+1 0 82213
+D1
+~
+~
+0 0 82218
+D2
+~
+~
+0 0 82221
+D3
+~
+~
+0 0 82215
+S
+#82215
+&+GThe Main Street Of Lylrstas&N~
+&+G    The main street continues on here, to the north the wall can be see
+&+Gbarely between buildings. Commoners rush by looking quickly around
+&+Gas if something was out to get them. A few children can be heard singing
+&+Gnot to far away, obviously playing. The main street continues to the
+&+Geast and west.
+~
+822 33554432 0
+D0
+~
+door~
+1 0 82227
+D1
+~
+~
+0 0 82214
+D3
+~
+~
+0 0 82216
+S
+#82216
+&+GThe Main Street Of Lylrstas~
+&+G    The main street continues here, commoners rush by in a hurry. A few
+&+Ghouses are along the street. The sounds of the Inn pour out into the
+&+Gstreet, a few shouts of profanity and the sound of furniture breaking.
+&+GA small elven home is to the north, the inn is west and main street
+&+Gcontinues to the east.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82217
+D1
+~
+~
+0 0 82215
+S
+#82217
+&+rThe Inn Of Lylrstas~
+&+g    The fireplace burns against a far wall, along the bar half-elves line
+&+gthe stools. Small tables have been placed amongst the floor, most seem
+&+gto be occupied by couples in deep conversation. A wooden stairway winds
+&+gup to the top floor. A barmaid walks around taking orders..and giving them
+&+gas some of the customers have found out. To the south lies main street.
+~
+822 4194312 0
+D2
+~
+~
+0 0 82216
+S
+#82218
+&+GThe Main Street Of Lylrstas~
+&+G    The street runs from east to west here, multicolored cobblestones have
+&+Gplace neatly to along the road. The view of the forest although partially
+&+Gblacked by the fence is almost mezmerizing from this part of the street.
+&+GThe sound og crickets can be heard close by, and the birds seem ever so
+&+Ghappily chirping away high in the trees. The road continues to the east
+&+Gor west along the main street.
+~
+822 33554432 0
+D1
+~
+~
+0 0 82219
+D3
+~
+~
+0 0 82214
+S
+#82219
+&+GThe Main Street Of Lylrstas~
+&+G    Along the main street of town everything seems almost peaceful.
+&+GThe children run around playing, birds chirp from a nearby tree. There
+&+Gis a small shop to the south, the aroma of fresh baked muffins waifs
+&+Gin. Carefully laid multi-colored cobblestones line the roadway only
+&+Gstopping at the end. To the west the main street continues, south is
+&+Ga small shop.
+~
+822 33554432 0
+D2
+~
+~
+0 0 82220
+D3
+~
+~
+0 0 82218
+S
+#82220
+&+cA Small Supply Shop~
+&+M    A small shop rests here, selling various supplys to those in need. The
+&+Mtidy shop has its wares neatly arranged on a small counter top with
+&+Mprice tags plainly written upon each. A large picture window looks out
+&+Mon the main street of &+GLylrstas to the north.
+~
+822 33554560 0
+D0
+~
+~
+0 0 82219
+S
+#82221
+&+YA&n &+yCobb&+Yelst&+Yone Road~
+&+B    A large fountain rests in the center of the room gushing an endless
+&+Bfountain of water. Made of pure &+wwhite marble&n &+Bmakes it very
+&+Brare for this town. Intricate carvings have been carefully placed on
+&+Bthe base. Multicolored cobblestones surround the fountain in a
+&+Bcriss cross pattern. A bench has been set to the far side, beneath a
+&+Blarge oak tree. The park lies to the east, the road continues north
+&+Band south.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82214
+D1
+~
+~
+0 0 82225
+D2
+~
+~
+0 0 82222
+S
+#82222
+&+YA Cobb&+yelsto&+Yne Road~
+&+Y    The road continues here the cobblestone of various colors have been
+&+Ylaid almost perfectly together to make it smooth. Commoners rush
+&+Yin and out of the bank. The sound of dogs barking come from the town
+&+Ypark. To the east the bank can be seen, the cobblestone road continues
+&+Yto the north and south.
+~
+822 0 0
+D0
+~
+~
+0 0 82221
+D1
+~
+~
+0 0 82228
+D2
+~
+~
+0 0 82223
+S
+#82223
+&+YThe End Of A Coob&+yelsto&+Yne Road~
+&+Y    The road ends here, leading into a gravel path a large stone building
+&+Yis barely visable to the south. The cobblestones end in the same pattern
+&+Ythat has been made over and over, throughout the street. The gravel
+&+Yhas been carefully swept off. To the east the leaders home can be
+&+Yseen, to the south the prison starts.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82222
+D1
+~
+door~
+1 0 82224
+D2
+~
+~
+0 0 82230
+S
+#82224
+&+YThe Village Leaders Home~
+&+y    The decor here is sparse, for a leader obviously he's not extremely
+&+ywealthy. A small wooden table rests in the center of the room with a
+&+ypitcher of water and bowl of fresh fruit resting upon it. A small
+&+yportrait of his family hangs on the wall above it. The floor swept
+&+yclean is made of some sort of soft stone placed carefully piece by piece
+&+yensuring it a nice fit. A small window overlooks the village park, the
+&+ydoor lies to the west.
+~
+822 33554432 0
+D3
+~
+stone door~
+1 0 82223
+S
+#82225
+&+gA Small Park~
+&+g    A small park starts here the cobblestone pathway carefully laid into
+&+ga winding trail entering it. Benches line the sides and parts have
+&+gbeen set aside so people can bird watch, and even feed them if they
+&+gcould get close enough. The town fountain can be seen to the west,
+&+gthe park continues east.
+~
+822 33554432 2
+D1
+~
+~
+0 0 82226
+D3
+~
+~
+0 0 82221
+S
+#82226
+&+gA Small Park~
+&+g    A few rather large oak trees grow in the park. &+wBenches&+g have
+&+gbeen set up. Squirrels run from tree to tree, the children and dogs
+&+grun back and forth playing under the trees. Parents watch their children
+&+gcarefully, not knowing for how long the will be safe. The park continues
+&+gto the west.
+~
+822 33554432 2
+D3
+~
+~
+0 0 82225
+S
+#82227
+&+YA Small Elven Home~
+&+G    A table rests in the center, a stonewear pitcher full of water upon
+&+Git. A small hand woven rug sits just inside the entrance, various
+&+Gchildrens toys are scattered about the floor. A small iron stove sits
+&+Gagainst the wall, with a tea kettle boiling on it. To the south main
+&+Gsteet continues.
+~
+822 33554432 0
+D2
+~
+door~
+1 0 82215
+S
+#82228
+&+YThe Lylrstas Bank~
+&+Y    A large wooden counter seemingly blocks your exit to the north.
+&+YA friendly looking &+Y banker waits patiently to take your money.
+&+YA large window shows the bustling streets of Lylrstas. The floors made of
+&+Ymulticolored cobblestone are polished to almost perfection. A small hand woven
+&+Yrug rests in front of the counter. To the west is a cobblestone road.
+~
+822 33554560 0
+D0
+~
+~
+0 0 82229
+D3
+~
+~
+0 0 82222
+S
+#82229
+&+YThe Vault Of Lylrstas~
+&+Y    The vault has been hidden for a purpose, evils sometimes visit these
+&+Ylands and this was the only way they could keep their vaulables safe.
+&+YThe vault is made of some sort of hard wood, it almost seems to be
+&+Ymade of metal. Lockers with the villagers names on them line the
+&+Ywalls, for easy identification.
+~
+822 33554564 0
+D2
+~
+~
+0 0 82228
+S
+#82230
+&+LBefore The Prisons~
+&+L    A gravel path starts here stopping before a stone building to the south.
+&+LThe building appears rather small in size, a sign post warns tresspassers
+&+Lof danger. A few guards can be seen entering and exiting the building for
+&+La scheduled shift change. Bars can be seen on the door south, to the north
+&+Lthe cobblestone path begins.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82223
+D1
+~
+~
+0 0 82232
+D2
+~
+~
+0 0 82231
+S
+#82231
+&+LA Guards Post~
+&+L    A few tables and chairs occupy the small room, in the far corner a couple
+&+Lof cots are neatly lined against the wall. The smooth stone walls make
+&+Lfootsteps echo. A large bronze sconze is the only light, it seems to seep
+&+Linto the dark walls. A weapon rack rests aganist the wall containing many
+&+Ldifferent sword types, and some instruments of torture. To the north the
+&+Lgravel path leads to the prisons.
+~
+822 33554432 0
+D0
+~
+~
+0 0 82230
+S
+#82232
+&+LA Dark Hallway~
+&+L    The narrow hall continues here, cells are to the north and south.
+&+LThe smooth store floor is filthy covered with rat droppings and some
+&+Ldried spots of blood. The cell doors look pretty solid, some have small
+&+Lwindows with bars and the others are just a slab of grey stone. The
+&+Lhallway continues to the east and west.
+~
+822 1 0
+D0
+~
+stone door cell~
+2 82223 82237
+D1
+~
+~
+0 0 82233
+D2
+~
+stone cell door~
+2 82223 82238
+D3
+~
+~
+0 0 82230
+S
+#82233
+&+LA Dark Hall~
+&+L    The hall continues on here, rats scurry underfoot looking for a place
+&+Lto hide. Large stone doors block the exits to the north and south
+&+Lcells. As footsteps approach the prisioners are strangely quiet, either
+&+Lhoping to be set free or for a meal that doesnt involve rats. Cells
+&+Lare to the north and south, the hall continues to the east and west.
+~
+822 0 0
+D0
+~
+stone cell door~
+2 82223 82235
+D1
+~
+~
+0 0 82234
+D2
+~
+stone cell door~
+2 82223 82236
+D3
+~
+~
+0 0 82232
+S
+#82234
+&+LThe End Of A Dark Hall~
+&+L    The hallway ends here, there is a small chair set up outside the cell.
+&+LA lone guard looks rather bored about this post, being half asleep.
+&+LThe northern cell has thick iron bars, when looking in them you can
+&+Lbarely make out the pointed tips of elven ears. The cell is to the
+&+Lnorth, the hallway continues to the west.
+~
+822 1 0
+D0
+There is a cell door to the north.
+~
+cell stone door~
+2 82223 82239
+D3
+~
+~
+0 0 82233
+S
+#82235
+&+LA Prison Cell~
+&+L     Not much different from the other cells, this one also has a cot placed
+&+Lagainst the wall. A small window shows part of the town, but the thick
+&+Liron bars don't give much chance to escape. A couple cockroaches scurry
+&+Laway at the sound of approaching footsteps. A large iron door leads back
+&+Lto the south.
+~
+822 8388609 0
+D2
+~
+cell door~
+2 82223 82233
+S
+#82236
+&+LA Prison Cell~
+&+L    The dark stone walls, absorb almost any light given from the torches in
+&+Lthe hall. No windows are present, the musky scent of mold grows on parts
+&+Lof the walls. The faint sound of water drips from the ceiling. To the
+&+Lnorth is a large stone door, with a couple of thick iron bars.
+~
+822 8388609 0
+D0
+~
+door cell~
+2 82223 82233
+S
+#82237
+&+LA Prison Cell~
+&+L    The smooth stone walls, have a few claw marks on them. There is no
+&+Lcot in the cell, a large pile of hay rests in the corner. The musty
+&+Lsmell coming from it, and mold growing on it makes it seem rather old.
+&+LLarge ropes bolted into the ceiling hang down with large iron cuffs
+&+Lon the lower end. There is a large stone door to the south.
+~
+822 1 0
+D2
+~
+cell door~
+2 82223 82232
+S
+#82238
+&+LA Prison Cell~
+&+L    The dark stone walls absorb any kind of light, a few rats scurry under the
+&+Ldoor as they hear footsteps approach. A small tin plate has been set
+&+Ljust inside the door. A couple cockroaches climb over its contents seemingly
+&+Lhappy. Two cots have been set together here taking up most of the cell.
+&+LTo the north lies a solid stone door.
+~
+822 1 0
+D0
+~
+cell door~
+2 0 82232
+S
+#82239
+&+LA Prison Cell~
+&+L    A small cell, it has a cot against the wall. The cold stone walls seem
+&+Lto absorb all light that comes from the hallway. A few rats and cockroaches
+&+Lhelp themselves to the leftover crumbs from dinner. A large stone door
+&+Lis the only exit to the south.
+~
+822 8388609 0
+D2
+~
+door cell~
+2 82223 82234
+S
+#82240
+&+LAn Old Stone Pathway&N~
+   An old stone pathway has been formed here out of old granite
+stones.  They form an interlocking network which provides a
+solid surface for travel.  The stones of the pathway are
+cracked in parts.  There are two exits leading out of this
+room.
+~
+822 4 2
+D0
+~
+~
+0 0 82241
+D2
+~
+~
+0 0 539281
+S
+#82241
+&+LAn Old Stone Pathway&N~
+   The old stone pathway continues here providing access
+to a local town.  The pathway has been formed out of
+interlocking granite rocks which provides a solid surface
+for travel.  The pathway here appears to be worn down in
+parts.  In areas of the pathway, the bare earthen has
+been exposed here.  There are two exits leading out of this
+room.
+~
+822 0 2
+D0
+~
+~
+0 0 82242
+D2
+~
+~
+0 0 82240
+S
+#82242
+&+LAn Old Stone Pathway&N~
+   The old stone pathway continues here providing access
+to the local town of Meopham.  The pathway has been formed
+out of interlocking granite rocks which provides a solid
+surface.  The pathway here appears to be worn down in parts.
+In areas of the pathway, the bare earthen has been exposed here.
+There are two exits leading out of this room.
+~
+822 0 2
+D0
+~
+~
+0 0 82243
+D2
+~
+~
+0 0 82241
+S
+#82243
+&+LBefore the Town of&N &+mMeopham&N~
+   A large city wall seals of the settlement to the north.
+The city wall rises high above the local vegetation of the
+lands here.  There is a small sentry outpost on both sides
+of the main entry way here.  The sentry posts appear just
+to serve one purpose of shelter from the weather.  There
+are two exits leading out of this room.
+~
+822 0 1
+D0
+~
+~
+0 0 82244
+D2
+~
+~
+0 0 82242
+S
+#82244
+&+mHigh Street of Meopham&N~
+   This is the high street of Meopham.  It is on these streets
+that many come to explore, eat, and sell their belongings within
+these city walls.  The high street is kept very clean by the
+many commoners who care for the town.  The road continues in
+two directions from this advantage point.
+~
+822 4 1
+D0
+~
+~
+0 0 82245
+D2
+~
+~
+0 0 82243
+S
+#82245
+&+mHigh Street of Meopham&N~
+   This is the high street of Meopham.  It is on these streets
+that many come to explore, eat, and sell their belongings within
+these city walls.  The high street is kept very clean by the
+many commoners who care for the town.  The road continues in
+two directions from this advantage point.
+~
+822 0 1
+D0
+~
+~
+0 0 82246
+D2
+~
+~
+0 0 82244
+S
+#82246
+&+mHigh Street of Meopham&N~
+   This is the high street of Meopham.  It is on these streets
+that many come to explore, eat, and sell their belongings within
+these city walls.  The high street is kept very clean by the
+many commoners who care for the town.  The road continues in
+two directions from this advantage point.
+~
+822 0 1
+D0
+~
+~
+0 0 82247
+D2
+~
+~
+0 0 82245
+S
+#82247
+&+MTown Center of Meopham&N~
+   This is the city center of the Town of Meopham.  All gather
+here for all sorts of social events.  Meetings, town rallies,
+and other sorts of events have been known to occur surrounding
+this central fountain of the town.  The High Street continues in
+a north south direction from this point.  The Marble Street leads
+off in a east-west direction from this town center.
+~
+822 0 1
+D0
+~
+~
+0 0 82248
+D1
+~
+~
+0 0 82255
+D2
+~
+~
+0 0 82246
+D3
+~
+~
+0 0 82260
+S
+#82248
+&+mHigh Street of Meopham&N~
+   This is the high street of Meopham.  It is on these streets
+that many come to explore, eat, and sell their belongings within
+these city walls.  The high street is kept very clean by the
+many commoners who care for the town.  The road continues in
+two directions from this advantage point.
+~
+822 0 1
+D0
+~
+~
+0 0 82249
+D2
+~
+~
+0 0 82247
+D3
+~
+~
+0 0 82253
+S
+#82249
+&+mHigh Street of Meopham&N~
+   This is the high street of Meopham.  It is on these streets
+that many come to explore, eat, and sell their belongings within
+these city walls.  The high street is kept very clean by the
+many commoners who care for the town.  The road continues in
+two directions from this advantage point.
+~
+822 0 1
+D1
+~
+~
+0 0 82250
+D2
+~
+~
+0 0 82248
+S
+#82250
+&+rThe Bar of Foxes&N~
+   This merry little establishment has been constructed
+out of small wooden planks.  Known to the citizens of this
+town as the Bar of Foxes, many come to drink their sorrows
+away within these walls.  The room here has a large
+wooden service bar along the north wall.  There is an exit
+leading to the south.
+~
+822 0 0
+D2
+~
+~
+0 0 82251
+D3
+~
+~
+0 0 82249
+S
+#82251
+&+rBackroom of the Bar&N~
+   This room serves as the backroom of the bar.  Many barrels
+of a variety of different brews can be found here.  It is also
+here the many choose to deal with quarrels of any nature.  The
+walls here like the bar are also constructed of wooden planks.
+There appears to be a ladder leading to a room above.  There
+are two exits leading out of this room.
+~
+822 0 0
+D0
+~
+~
+0 0 82250
+D4
+~
+~
+0 0 82252
+S
+#82252
+&+yA Straw Covered Loft&N~
+   This small loft is covered in a fresh layer of straw.  It
+is here that many drunks choose to sleep off their drunken
+state.  There are several areas where the straw has been
+built up into piles. There is one exit leading out of this
+loft area.
+~
+822 0 0
+D5
+~
+~
+0 0 82251
+S
+#82253
+&+yAn Old Library&N~
+   The room here has been constructed to serve as a
+library of sorts.  There are shelves on the north wall
+of this room.  The books on the shelves don't appear to
+have been touched for ages.  There is a layer of dust and
+grime covering all.  There are exits leading out of this
+room.
+~
+822 0 0
+D1
+~
+~
+0 0 82248
+D4
+~
+~
+0 0 82254
+S
+#82254
+&+yAn Old Storage Room&N~
+   The room here is an old storage room of the library.
+The room is filled with many crates of all shapes and sizes.
+Covered in dirt and cobwebs, the crates don't appear to
+have been touched in the recent past.  There is only one
+exit out of this room.
+~
+822 0 0
+D5
+~
+~
+0 0 82253
+S
+#82255
+&+bThe Marble Way&N~
+   This road known to the town as the Marble Way provides
+access to the districts in the eastern parts of the town. The
+road here is constructed of granite slabs of rock with
+an occasional piece of marble.  The road here is very
+clean. There are exits all over leading to different parts
+of the town.
+~
+822 0 1
+D1
+~
+~
+0 0 82256
+D3
+~
+~
+0 0 82247
+S
+#82256
+&+bThe Marble Way&N~
+   This road known to the town as the Marble Way provides
+access to the districts in the eastern parts of the town. The
+road here is constructed of granite slabs of rock with
+an occasional piece of marble.  The road here is very
+clean. There are exits all over leading to different parts
+of the town.
+~
+822 0 1
+D1
+~
+~
+0 0 82257
+D3
+~
+~
+0 0 82255
+S
+#82257
+&+gThe Park of Meopham&N~
+   The park here is immaculate. Clean of all signs of
+trash and other sorts of debris.  There is a variety
+of plant and animal life throughout the surrounding
+areas.
+~
+822 0 2
+D0
+~
+~
+0 0 82258
+D2
+~
+~
+0 0 82259
+D3
+~
+~
+0 0 82256
+S
+#82258
+&+gThe Park of Meopham&N~
+   The park here is immaculate. Clean of all signs of
+trash and other sorts of debris.  There is a variety
+of plant and animal life throughout the surrounding
+areas.  The park seems to go back to the south from
+this point.
+~
+822 0 2
+D2
+~
+~
+0 0 82257
+S
+#82259
+&+gThe Park of Meopham&N~
+   The park here is immaculate. Clean of all signs of
+trash and other sorts of debris.  There is a variety
+of plant and animal life throughout the surrounding
+areas.
+~
+822 0 2
+D0
+~
+~
+0 0 82257
+S
+#82260
+&+bThe Marble Way&N~
+   This road known to the town as the Marble Way provides
+access to the districts in western parts of the town. The
+road here is constructed of granite slabs of rock with
+an occasional piece of marble.  The road here is very
+clean. There are exits all over leading to different parts
+of the town.
+~
+822 0 1
+D1
+~
+~
+0 0 82247
+D2
+~
+~
+0 0 82263
+D3
+~
+~
+0 0 82261
+S
+#82261
+&+bThe Marble Way&N~
+   This road known to the town as the Marble Way provides
+access to the districts in western parts of the town. The
+road here is constructed of granite slabs of rock with
+an occasional piece of marble.  The road here is very
+clean. There are exits all over leading to different parts
+of the town.
+~
+822 0 1
+D0
+~
+~
+0 0 82262
+D1
+~
+~
+0 0 82260
+S
+#82262
+&+yAn Old Cottage&N~
+   The room here is rather large in size when compared
+to the others of the town.   There is a large red
+carpet in the center of the room.  The room has been
+sparsely decorated with a variety of other pieces of
+different furniture.  There is only one exit out of
+this room.
+~
+822 0 0
+D2
+~
+~
+0 0 82261
+S
+#82263
+&+YAn Old Shed&N~
+   This old shed here serves as a storage area for many
+different items.   The walls of this room are filled with
+shelves.   It is on these shelves that many items have sat
+undisturbed.  The room is dark and musty.  There is only
+one visible exit out of this room.
+~
+822 0 0
+D0
+~
+~
+0 0 82260
+S

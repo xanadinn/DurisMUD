@@ -1,0 +1,629 @@
+#98600
+tiny chipmunk bony~
+&+yA tiny&N &+wbony&N &+ychipmunk&N~
+A tiny &+Wbony&N &+ych&+wipmu&+ynk&N darts around with tail aflicker.&N
+~
+   &+yA tiny chipmunk darts around on thin bony legs, his skeletal tail
+&+ytwitching as he checks out the smells and sounds still lingering in his
+&+ymemory.
+~
+72 0 0 0 0 0 0 -1000 S
+A 0 1 0
+1 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98601
+squirrel zombie~
+&+LA zombified squirrel&N~
+&+yA ragged &+Lblack&N &+ysquirrel shuffles slowly through the grass.&N
+~
+   &+yThis brown squirrel stares at you inquisitively as you get close,
+&+ythen turns slowly, skulking away with soft animalistic groans.  His
+&+yeyes are dull, fur matted and stinking, death has not been kind to this
+&+ycreature.
+~
+72 0 0 524288 0 0 0 -1000 S
+A 0 0 1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98602
+fox zombie~
+&+yA ragged furred, bushy tailed fox&n~
+&+yA bushy-tailed&N &+rfox&N &+yshambles down the path&N
+~
+   The &+ybrown&N fox sneaks through the grasses beside the trail, the
+&+Wwhite&N tip of his tail floating behind him.  His fur is matted and reeks
+of death, small bits of flesh falling from his body with each movement.
+~
+72 0 0 524288 0 0 0 -1000 S
+A 0 1 2
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98603
+white owl bird~
+&+LA screech owl&N~
+&+LA strangely &+Wwhite&N &+Lscreech owl searches for a meal.&N
+~
+   &+cThis oddly colored owl, his feathers shining &+Wwhite&N &+cin the
+&+clight, floats over the trail in search of food.
+~
+133192 0 0 402653184 2 0 0 -1000 S
+B 0 1 2
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 0
+#98604
+raven black bird~
+&+LA black raven&N~
+&+LA black raven flies overhead with a raucous cry.&N
+~
+   &+LThe raven looks at you from overhead, his beady eye peering
+&+Ldown quizzically.
+~
+133128 0 0 134217760 0 0 0 -1000 S
+B 0 1 2
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 2
+#98605
+hawk bird skeleton~
+&+yA &+rred&+y-tailed hawk&N~
+&+yThe&N &+Wskeleton&N &+yof a &+rred&+y-tailed hawk somehow soars overhead.&N
+~
+   &+yThe&N &+Wskeleton&N &+yof a&N &+rred&+y-tailed hawk soars leisurely overhead,
+   &+ysomehow staying aloft while looking for rodents to feed her young.
+~
+133192 0 0 134217760 0 0 0 -1000 S
+B 0 1 1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 2
+#98606
+black bird falcon~
+&+CA &+Lblack&+C-winged falcon&N~
+&+CA &+Lblack&+C-winged falcon flaps his&N &+Wskeletal&N &+Cwings as he soars overhead.&N
+~
+   &+CThe &+Lblack&+C-winged falcon dives in to catch a scurrying mouse,
+&+Chis bony wings folded in close to its body as it nears the ground.
+~
+133192 0 0 134217760 0 0 0 -1000 S
+B 0 1 2
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 1
+#98607
+dog cur bitch~
+&+yA mangy snarling bitch&N~
+&+yA mangy snarling bitch glares at you with dull eyes.&N
+~
+   &+yThis old bitch has, to your shocked eyes, obviously recently given
+&+ybirth to young pups.  You can see where her fur has worn thin, her
+&+yeyes glowing viciously at you as she prepares to protect her young.
+~
+67109066 1 0 1048576 0 0 0 0 S
+A 0 1 -1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98608
+puppy dog young~
+&+YA whimpering puppy&N~
+&+YA whimpering puppy cries pitifully for its mother.&N
+~
+   &+YThis little pup is barely a week old, its eyes are still closed and
+&+Yits round little tummy bulges out, testifying to its mother's good
+&+Ycare.
+~
+72 0 0 0 0 0 0 1000 S
+A 0 0 -1
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 0
+#98609
+small mouse zombie~
+&+wA small &+Lblack&N &+wmouse&N~
+&+wA small &+Lblack&N &+wmouse scurries over the floor, continuing as tho still alive.&N
+~
+   &+wThis little &+Lblack&N &+wmouse looks well fed.  He must be living
+&+wwell!  Living?  Looking closer, you notice that the mouse is nothing but
+&+wrotting flesh, reeking fluids seeping from small wounds.
+~
+202 0 0 0 0 0 0 -1000 S
+A 0 0 0
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98610
+sparrow bird skeleton~
+&+YA &+Bbright&+Y-eyed sparrow skeleton&N~
+&+YA bright-eyed sparrow skeleton peers out from its nest.&N
+~
+   &+YThis little bird is happily nesting in the attic here despite its
+&+Yrather decrepit condition.
+~
+131274 0 0 134217728 0 0 0 -1000 S
+B 0 0 0
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98611
+ghost spirit moaning~
+&+WA moaning spirit&N~
+&+WA moaning spirit looks at you mournfully.&N
+~
+   &+WThis spirit looks sadly at you, its soft moans sounding pitiful
+&+Wto your ears.  It seems to stay hovering by a raised patch on the wall.
+~
+131146 1 0 40 0 0 0 -1000 S
+U 0 32 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98612
+wraith~
+&+LAn &+Revil&N &+Lwraith&N~
+&+LAn &+Revil&N &+Lwraith floats inches about the ground.&N
+~
+   &+LThis wraith looks malevolently at you, a soft hissing voice suddenly
+&+Lfilling your ears.... "Ssssoooo you managed to trick the key from &+Wher&N,
+&+Ldid you? Well I tell you right now, winning past me will be a different
+&+LTale!!"  With those words, the wraith moves in your direction with
+&+Larms outstretched and &+Rred&N &+Leyes blazing.
+~
+1073891404 1 0 68157480 2 0 0 -1000 S
+UG 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98613
+spider large black~
+&+LA large black spider&N~
+&+LA large black spider with long legs flits on the floor.&N
+~
+   &+LThis large black spider has bright &+Rred&N &+Leyes and its fangs
+&+Lgleam brightly in the dull light of the shack.
+~
+6155 1 0 32 0 0 0 -500 S
+AS 0 1 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98614
+little black spider~
+&+wA little &+Lblack&N &+wspider&N~
+&+wA little &+Lblack&N &+wspider dances on its web.&N
+~
+   &+wThis little &+Lblack&N &+wspider seems to dance over its web as
+&+wit weaves even more tangles onto the mass.
+~
+75 0 0 0 0 0 0 -250 S
+AS 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98615
+shopkeeper anguinel~
+&+gThe shopkeeper &+wAnguinel&N~
+&+gThe Shopkeeper &+wAnguinel&N &+glooks up at your entry in surprise.&N
+~
+   &+wAnguinel&N &+gis a tall man who has been aged greatly by the
+&+gdevestation he sees around him daily.  His hair is the purest
+&+Wwhite&+g, his eyes a pale, faded &+cblue&N. &+g The lines on his face
+&+gspeak eloquently of the tragedies he has seen.  Nonetheless, his
+&+gbusiness is all he knows, so he keeps the shop going, despite the
+&+glack of customers. You can see multi-hued feathers from birds
+&+gof every land hiding in his hair, in his clothes, floating to the
+&+gfloor...
+~
+33953994 0 0 302063804 1 192 1048576 1000 S
+PH 0 256 3
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98616
+ghost spirit moaning~
+&+WA mourning spirit~
+&+WA spirit floats in the room, soft moans and sobs filling the air.
+~
+&+WThis poor soul seems trapped in the room, held here by her strong
+&+Wmemories of the terrible&N &+Ltragedy&N &+Wthat befell both herself
+&+Wand her village.
+~
+133194 0 0 68681764 32770 0 0 1000 S
+PH 0 32 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98617
+large black bat~
+&+LA large black bat&N~
+&+LA large black bat swoops down from the rafters.&N
+~
+   &+LThis bat is large and black with great &+Wwhite&N &+Lfangs.
+&+LIt roosts in the rafters of this attic, flying out through a cracked
+&+Lwindow-pane when night falls.  It does not look happy to have
+&+Lbeen disturbed!
+~
+131080 0 0 134250796 2 0 0 -750 S
+A 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+11 11 0
+#98618
+small brown bat~
+&+LA small&n &+ybrown&N &+Lbat&N~
+&+LA small&N &+ybrown&N &+Lbat hangs upside down from a rafter.&N
+~
+   &+LThis little&N &+ybrown&N &+Lbat hangs upside down from the
+&+Lrafters, sound asleep.
+~
+74 0 0 402653184 0 0 0 0 S
+A 0 1 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 0
+#98619
+rat squeaking~
+&+yA squeaking rat&N~
+&+LA rat squeaks and sits up on its haunches to sniff the air.&N
+~
+   &+yThis rat is plump and well-fed, so obviously there is plenty for
+&+yit to eat.
+~
+2058 0 0 268435488 2 0 0 -250 S
+AP 0 1 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98620
+blue snake~
+&+bA little&N &+Bblue&N &+bsnake&N~
+&+bA little&N &+Bblue&N &+bsnake slithers through the grass.&N
+~
+   &+bThis snake's scales glitter with a brilliant&N &+Bblue&N &+bsheen.&N
+~
+2121 0 0 524320 0 0 2 0 S
+RS 0 1 1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98621
+rat hiding~
+&+LA hiding rat&N~
+&+LThis rat looks scared and tries to hide in the rubble.&N
+~
+   &+LThis rat twitches its whiskers and zips over to hide under the
+&+Lthe rubble again.
+~
+74 0 0 1048576 0 0 0 0 S
+AP 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98622
+spider~
+&+LA&N &+rred&+L-eyed spider&N~
+&+LA&N &+rred&+L-eyed spider scurries around on the floor.&N
+~
+   &+LThis spider looks at you with bright&N &+Rred&N &+Leyes before it
+&+Lruns back to its web in the rubble.
+~
+4298 0 0 1572896 0 0 0 -500 S
+AS 0 1 -1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98623
+man survivor desperate~
+&+MA desperate survivor&N~
+&+MThis man has survived by himself for years.&N
+~
+   &+MThis man has lived for years in the rubble and ruins of his
+&+Monce-pristine village.  He is gaunt, hollow-eyed and seems unwilling
+&+Mto believe that anyone else could have survived the trauma, even
+&+Mwhen you offer proof of the shopkeeper's existence.
+~
+2254 704 0 269484064 0 0 0 0 S
+PH 0 16385 3
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98624
+old man farmer~
+&+LAn old farmer&N~
+&+LAn old farmer looks up from his meal.&N
+~
+&+LThis old farmer looks up at you in surprise as you walk into his
+&+Lhouse so casually without invitation.  He looks as though he has
+&+Llived a hard life, but at the same time you can see a gentle cast
+&+Lto his face.  Perhaps he may be a good source of information...
+~
+1073744078 0 0 268959780 2050 0 0 1000 S
+PH 0 513 3
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#98625
+wife grey female woman~
+&+mA &+wgrey&+m-haired farmer's wife&N~
+&+LA&N &+wgrey&+L-haired farmer's wife looks up in surprise.&N
+~
+&+LThis old woman has seen a hard life, especially with the destruction
+&+Lof her village around her.  Yet, she has managed to keep going,
+&+Lhelping her husband with what she can to keep the farm running somehow.
+~
+2250 0 0 301989920 32770 0 0 1000 S
+PH 0 32 3
+21 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98626
+little brown mouse~
+&+LA little&N &+Wskeletal&N &+ybrown&N &+Lmouse.&N~
+&+LA little&N &+Wskeletal&N &+ybrown&N &+Lmouse gathers nonexistent grains of &+Ywheat&+L.&N
+~
+   &+yThis little skeletal mouse scurries past you clutching a tiny grain
+&+yof dessicated wheat in its mouth.
+~
+202 0 0 0 0 0 0 -1000 S
+A 0 1 1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#98627
+cow zombie~
+&+LA&N &+Ww&+Le&+Wl&+Ll&+W-f&+Le&+Wd&N &+Wc&+Lo&+Ww&N &+Wzo&+Lmb&+Wie&N~
+&+LA&N &+Ww&+Le&+Wl&+Ll&+W-f&+Le&+Wd&N &+Lc&+Wo&+Lw&N &+Wzo&+Lmb&+Wie&N &+Lstands here protectively by her&N &+Ldead&N &+Lc&+Wa&+Ll&+Wf&N
+~
+   &+LThis lovely black and&N &+Wwhite&N &+Lcow zombie stands munching
+&+Lcontentedly on who knows what, since all know that zombies do not eat!
+&+LAll the while, she keeps a watchful eye on her young&N &+Ldead&N &+Wc&+La&+Wl&+Lf.&N
+~
+2250 0 0 268435488 0 0 0 -1000 S
+A 0 1 4
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98628
+little calf dead~
+&+LA little dead&N &+Wc&+La&+Wl&+Lf&N~
+&+LA little dead&N &+Wc&+La&+Wl&+Lf stands nervously on spindly legs.&N
+~
+   &+LThis little black and&N &+Wwhite&N &+Lcalf looks around the barnyard
+&+Lthrough dead eyes.  His legs are long and awkward, making him nervous
+&+Labout taking any steps.  He must have been newly born upon his sudden
+&+Ltransformation into this undead creature.
+~
+202 0 0 0 0 0 0 -1000 S
+A 0 1 2
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98629
+banty rooster skeletal~
+&+RA&N &+Wskeletal&N &+Rbanty rooster&N~
+&+RA&N &+Wskeletal&N &+Rbanty rooster struts his stuff in the barnyard.&N
+~
+   &+RThis cocky&N &+Wskeletal&N &+rBanty&N &+Rrooster struts around the barnyard
+&+Rfollowed by his harem of &+Lzombie&N &+wsp&+Lec&+wkl&+Led&N &+Rhens.
+&+RHe runs this roost and he knows it!
+~
+67111114 0 0 134217728 0 0 0 -1000 S
+B 0 1 1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98630
+speckled hen~
+&+LA&N &+wsp&+Lec&+Wkl&+Led&N &+Lhen zombie&N~
+&+LA rather dead&N &+wsp&+Lec&+wkl&+Led&N &+Lhen follows the&N &+Rrooster&N &+Ldevotedly.&N
+~
+   &+LThis silly little hen follows the&N &+Rrooster&N &+Las tho enslaved by him..
+&+Lthen again she probably is... CLUCK!
+~
+202 0 0 0 0 0 0 -1000 S
+B 0 1 1
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98631
+pig~
+&+MA lovely pink and quite undead pig&N~
+&+MThis pig looks about as happy as a dead pig can look.&N
+~
+   &+MThis pig lies in a corner of the barnyard looking extremely content.
+&+MHe has a pile of dessicated shucked corn and berries in front of him,
+&+Ma nice bone dry wallow behind him and somehow he is squeaky clean.
+~
+2250 0 0 0 0 0 0 -1000 S
+U 0 1 2
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#98632
+horse draft-horse skeletal skeleton~
+&+yA large&N &+Wskeletal&N &+ydraft-horse&N~
+&+yA large&N &+Wskeletal&N &+ydraft-horse stands quietly relaxing by the fence.&N
+~
+   &+yThis large horse shows marks on his hide from where the traces of
+&+yhis harness rubbed him over the years.  That doesn't seem to bother him
+&+ynow as he grazes quietly by the fence in the barnyard.  Oddly, his hide
+&+yremains glossy, yet he is clearly quite dead, the sharp angles of bone
+&+yand rib protruding thru the thin covering.
+~
+2250 0 0 268435456 0 536870912 0 -1000 S
+AE 0 1 4
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98633
+green snake~
+&+GA green garden snake&N~
+&+GA little green snake slithers through the field.&N
+~
+   &+GA little green snake slithers through the fields.  A large bulge in
+&+Gthe center of the creature gives proof of a nice mouse freshly eaten.
+~
+202 0 0 0 0 0 0 0 S
+RS 0 1 -1
+3 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98634
+ettin warrior male~
+&+yAn Ettin Warrior&N~
+&+yAn Ettin warrior wrestles viciously with another Ettin.&N
+~
+   &+yThis Ettin warrior is big, ugly, dumber than an Ogre.  He stands so tall
+&+yas to have his two heads brushing the ceiling of this large room.  He's
+&+ycovered in patchy fur-like fuzz, with warts and odd protrusions all over
+&+yhis disgustingly smelly body.
+~
+1073743950 1 0 2097440 2 0 0 -1000 S
+PO 0 1 6
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98635
+ettin female~
+&+WAn Ettin Female&N~
+&+WAn Ettin female tends to her&N &+Ycubs&N &+Win the corner&N
+~
+   &+WThis Ettin female is smaller than her male counterparts, but no less
+&+Wdeadly.  Her two heads are topped with trailing white hairs, her arms
+&+Ware long and powerful-looking, yet her gentleness as she takes care of
+&+Wher&N &+Ycubs&N &+Wis evident.
+~
+67110990 0 0 268435744 45250 0 0 -1000 S
+PO 0 32 6
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#98636
+little ettin cub~
+&+YA little Ettin Cub&N~
+&+YA little Ettin cub squalls in the corner as its mother tends to its needs&N
+~
+   &+YThis little Ettin cub was born after the Ettins rampaged this village
+&+Yunder the direction/domination of the&N &+bBeholder&+Y.  He appears to be
+&+Ywell taken care of by his mother, his sparse fuzz is clean, his tummy is
+&+Ywell-rounded indicating good feeding on fresh meat.  He's already grown
+&+Yin a large number of white pointy teeth so I'd take care around him!
+~
+2254 0 0 268435712 2 0 0 -1000 S
+PO 0 1 4
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98637
+large beholder~
+&+WA large&N &+bBeholder&N~
+&+WA large&N &+bBeholder&N &+Wfloats in the air over his throne.&N
+~
+   &+bThis large Beholder has taken control of this clan of Ettin and guided
+&+bthem through the destruction of several villages in the region for his own
+&+benjoyment and profit.  His&N &+reyestalks&N &+bwave around him, six in
+&+bnumber, each topped with a wide glaring eyeball.  His body is large and
+&+brounded, no other appendages are visible.
+~
+133198 1 0 40 2 0 0 -1000 S
+BH 0 2048 6
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+10 10 0
+#98638
+pitiful human prisoner~
+&+CA pitiful Human prisoner&N~
+&+CA pitiful Human prisoner cowers by the&N &+bBeholder's&N &+Cchair.&N
+~
+&+CThis poor Human has been held captive by the Ettins and&N &+bBeholder&N
+&+Csince the initial attacks on the village.  He has seen his fellow
+&+Cprisoners slaughtered and eaten like sheep, the children tossed around
+&+Clike toys before being devoured, the women being tormented by cruel and
+&+Cdevious means before their deaths.
+~
+202 0 0 16384 0 0 0 1000 S
+PH 0 1 3
+10 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 1
+#98639
+ettin warrior male~
+&+yAn Ettin warrior&N~
+&+yAn Ettin warrior patrols the tunnels.&N
+~
+&+yThis Ettin warrior is big, ugly, dumber than an Ogre.  He stands so tall
+&+yas to have his two heads brushing the ceiling of this large room.  He's
+&+ycovered in patchy fur-like fuzz, with warts and odd protrusions all over
+&+yhis disgustingly smelly body.
+~
+1073743950 1 0 524552 2 0 0 -1000 S
+PO 0 1 6
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98640
+horse~
+&+LA glossy black riding horse with blazing&N &+Rred&N &+Leyes.&N~
+&+LA glossy black riding horse idly chews on some&N &+Yhay&+L.&N
+~
+   &+LThis horse is in prime condition, having been very well taken care of
+&+Lby the farmer.  His coat is glossy and black, his eyes are bright, curious
+&+Las he watches you enter his stall.  One can only wonder, looking into the
+&+Rblaze&N &+Lin his eyes, just what type of creature this horse may be, for it
+&+Lsuddenly seems quite dangerous.
+~
+1208223754 0 0 268435456 0 0 0 -1000 S
+A 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98641
+little ettin cub~
+&+YA playful Ettin cub&N~
+&+YA little Ettin cub plays happily with his toy club&N
+~
+   &+YThis little Ettin cub was born after the Ettins rampaged this village
+&+Yunder the direction/domination of the&N &+bBeholder&+Y.  He appears to be
+&+Ywell taken care of by his mother, his sparse fuzz is clean, his tummy is
+&+Ywell-rounded indicating good feeding on fresh meat.  He's already grown
+&+Yin a large number of white pointy teeth so I'd take care around him!
+~
+2254 0 0 268435712 2 0 0 -1000 S
+PO 0 1 4
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98642
+bored adolescent ettin~
+&+YA bored adolescent Ettin&N~
+&+YA bored adolescent Ettin watches over the cubs&N
+~
+     &+YThis lanky adolescent Ettin watches over his younger siblings
+&+Yas they play in the tunnels away from the noises of the captive
+&+CHuman&N &+Ythat remains bound next to the&N &+bBeholder&+Y.  He can't
+&+Ywait for the day he's allowed to go on a raiding trip, to possibly
+&+Ycapture one of those wonderful food sources on his own!
+~
+67111118 0 0 268435712 2 0 0 -1000 S
+PO 0 1 4
+18 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#98643
+ettin scout male~
+&+yan Ettin scout&N~
+&+yAn Ettin scout investigates the village&N
+~
+&+yThis Ettin warrior is big, ugly, dumber than an Ogre.  He stands so tall
+&+yas to have his two heads brushing the ceiling of this large room.  He's
+&+ycovered in patchy fur-like fuzz, with warts and odd protrusions all over
+&+yhis disgustingly smelly body.
+~
+2124 1 0 524552 2 0 0 -1000 S
+PO 0 1 6
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

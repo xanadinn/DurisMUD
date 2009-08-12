@@ -1,0 +1,1390 @@
+#77301
+corpse~
+&+Lan orc corpse&n~
+&+LA corpse of a soldier of &+rarmageddon&+L lies here, bristling with arrows.&n~
+~
+15 15 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+corpse~
+&+LThis is the remains of one of the attackers of &+cDesolate&+L after attempt-
+&+Ling to charge the gates. The keen eyes of the &+Wbowmasters&+L made short work
+&+Lof him, forcing the invading army to rethink its strategy on how to take
+&+Lthe town.
+~
+#77302
+patrol corpse~
+&+ca &+Wpatrol&+c corpse&n~
+&+cThe corpse of a Desolate &+Wpatrol&+c guard lies here.&n~
+~
+15 2 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+patrol corpse~
+&+cOnce a proud defender of the Desolate township, this poor fellow was one
+&+cof the first to be slaughtered by the sudden and swift attack by the &+Larmy
+&+Lof &+rarmageddon&+c, who have yet to clean his corpse from the road.
+~
+#77303
+firepit fire pit~
+&+ra firepit&n~
+&+yA small &+rfirepit&+y smoulders here.&n~
+~
+15 15 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+firepit fire pit~
+&+yA basic hole dug into the soft earth which has been filled with tinder
+&+yand set &+rfire &+yfor the usual heat and cooking purposes.
+~
+#77304
+casket~
+&+La casket&n~
+&+LA black casket with a cover of &+Cglass&+L sits here.&n~
+~
+15 37 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+casket~
+&+LThis black casket is roughly seven feet long.  It sits in the large
+&+Lroom with six others, all nearly identical.  There is a sheet of &+Cglass&+L
+&+Lthat covers each one.  Looking through the &+Cglass&+L reveals it empty.&n
+~
+#77305
+casket~
+&+La casket&n~
+&+LA black casket with a cover of &+Cglass&+L sits here.&n~
+~
+25 37 3 0 7 0 0 0 0 0 0
+77410 7 -1 0 0 0 0 0
+0 0 100
+E
+casket~
+&+LThis black casket is roughly seven feet long.  It sits in the large
+&+Lroom with six others, all nearly identical.  There is a sheet of &+Cglass&+L
+&+Lthat covers each one.  Oddly enough, it appears the &+Cglass&+L seal on
+&+Lthis one has been shattered, leaving the casket open.&n
+~
+#77306
+small note~
+&+Wa small note&n~
+&+WA small note is nailed to a &+Gtree&+W here.&n~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+small note~
+&+W     ______________
+&+W     |     &+Lo     &+W |
+&+W     |  Warning   |
+&+W     | Dangerous  |
+&+W     |   Slope    |
+&+W     |   East!    |
+&+W     |            |
+&+W     |____________|     &n
+~
+#77307
+parchment note~
+&+ya parchment note&n~
+&+yA note scribbled on parchment is fastened on the wall here.&n~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+parchment note~
+&+yThe parchment reads...&n
+&+W        Here lies the resting place for the Masters.
+&+W        Circ 261.  One Hundred yrs of Sleep.
+&+W        All but three have left for the D.Ho.
+&+W        May god forgive those who remained.
+&+W        May god have mercy on those who get in
+&+W        their way. &n
+~
+#77308
+pile garbage~
+&+ga &+Wgarbage&+g pile&n~
+&+gA pile of fresh &+Wgarbage&+g left over from &+Ycampers&+g is here.&n~
+~
+15 48 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+pile garbage~
+&+gThis is just a huge &+Wpile&+g of refuse inside the forest.  Campers can
+&+gcreate a fair ammount of trash, even if they just are staying for
+&+ga short period of time, and this is where the trash &+Wpiles&+g up.&n
+~
+#77309
+chest~
+&+ya chest of plunder&n~
+&+yA chest of plundered treasure is here.&n~
+~
+15 6 3 0 7 0 0 0 0 0 0
+1000 15 77311 1000 0 0 0 0
+0 0 100
+E
+chest~
+&+yA large wooden chest with a solid bronze lock in which the local invasion
+&+yforce is using to store loot and plunder from the area.
+~
+#77310
+weapons pile armor stack~
+&+ca weapons pile&n~
+&+cA stack of weapons and armor has been piled up here.&n~
+~
+15 15 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+weapons pile armor stack~
+&+cA pile of weapons has been set up here for use in defending the beach.
+&+cSadly most of the items in the pile appear rusted and useless, and there
+&+creally isn't that much of value. The helter-skelter way they have been
+&+cpiled up actually looks dangerous and sharp.
+~
+T
+512 7 6 10
+#77311
+bronze key~
+&+ya bronze key&n~
+&+yAn old bronze key lies here.&n~
+~
+18 20 3 0 7 0 8388608 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+bronze key~
+&+yThis is just a simple bronze key.  It seems extremely filthy though,
+&+yand is covered by bits of refuse.&n
+~
+#77312
+stinky meat bones~
+&+Wsome stinky meat bones&N~
+&+WSomeone has left some stinky meat bones here.&n~
+~
+13 10 3 0 7 0 8392704 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+stinky meat bones~
+&+WThese bones must be leftovers from some camper's lunch.  By the
+&+Wlooks of them it seems they have been sitting in the garbage a long
+&+Wtime.  No intelligent creature would actually try and chew on
+&+Wthem.&n
+~
+#77313
+old book~
+&+yan old book&n~
+&+yAn old book sits atop the &+Lcasket&+y here.&n~
+~
+8 29 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+old book~
+&+yThis book is opened to a page already. It appears to be a roster
+&+yof some sort : &n
+
+        &+WRo&+Lland&+w         --90--
+        &+LEt&+Whan&+w          --90--
+        &+RAj&+Lax&+w           --80--
+        &+cFl&+Lag&+car&+w         --90--
+        &+LXavier&+w         -100--
+        &+rRed &+LStar&+w       --50--
+        &+LKant&+mara&+w        --50--
+        &+LMa&+bver&+Lick&+w       --><--
+        &+LMa&+mver&+Liss&+w       -100--
+        &+yJan&+Ldar&+w         --<>-- &n
+
+&+yThe rest of the book appears to be empty.&n
+~
+#77314
+leafy branches~
+&+gsome leafy branches&n~
+&+GSome leafy branches&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+340 77386 3 0 0 0 0 0
+0 0 100
+#77315
+sad monkey~
+&+ya sad little monkey&n~
+&+yA sad little monkey cries quietly here.&n~
+~
+15 2 3 0 7 0 4096 1 0 0 0
+100 5 0 100 0 0 0 0
+0 1 100
+E
+sad monkey~
+&+yThis poor little monkey seems so very sad.  He has wandered off
+&+yfrom his owner and got himself lost in the forest.  He continues to
+&+ycry quietly and softly and you feel very sorry for him.  He seems
+&+yto be holding something tightly in his hands.&n
+~
+#77316
+silver neck chain~
+&+Ca silver neck chain&n~
+&+CA silver neck chain has been dropped here.&n~
+~
+9 22 3 0 7 0 4096 5 0 0 0
+5 0 0 3 0 0 0 0
+0 121 100
+E
+silver neck chain~
+&+CThis is a simple chain that is worn around ones neck. It seems
+&+Clarger than usual however, and must fit around quite a big neck.&n
+~
+#77317
+badge armageddon~
+&+Lthe badge of &+rarmageddon&n~
+&+LA badge from the army of &+rarmageddon&+L has been dropped here.&n~
+~
+11 3 3 0 7 0 0 2097153 0 0 0
+0 0 0 0 0 0 0 0
+0 892 100
+E
+badge armageddon~
+&+LThis is the identifaction badge of the army of &+rarmageddon&+L.  It
+&+Lhas the markings on it suggesting it came from a captain in the
+&+Larmy.&n
+~
+A
+19 1
+#77318
+opaque sword short~
+&+La opaque shortsword&n~
+&+LA dark opaque shortsword has been left here.&n~
+~
+5 15 3 0 7 0 0 8193 0 0 0
+9 3 2 11 0 0 0 0
+0 8981 100
+E
+opaque sword short~
+&+LThis is a pitch-black shortsword, commonly used by the scouts in
+&+Lthe army of &+rarmageddon&+L.  It is quite light and could make a fairly
+&+Ldecent stabbing weapon.&n
+~
+A
+18 2
+A
+19 2
+#77319
+pile lumber logs~
+&+ya pile of lumber&n~
+&+ySeveral huge logs have been piled on the side of the trail here.&n~
+~
+15 6 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+pile lumber logs~
+&+yThis is all fresh lumber, neatly piled on the side of the road.  It
+&+ylooks like someone put alot of effort into chopping all this wood.&n
+~
+#77320
+draft horse carcass corpse~
+&+ya draft horse corpse&n~
+&+yThe carcass of a newly dead draft horse lies across the road here.&n~
+~
+15 2 3 0 7 0 0 0 0 0 0
+1000 5 0 1000 0 0 0 0
+0 0 100
+E
+draft horse carcass corpse~
+&+yThis was once a strong and proud draft horse used for pulling wagons. It
+&+ylooks like it has been recently butchered, and now lies dead along the
+&+yside of the road.
+~
+#77321
+black steel visor~
+&+La black-&+Csteel&+L visor&n~
+&+LA visor crafted from black &+Csteel&+L is left here.&n~
+~
+9 16 3 0 7 0 0 131073 64 0 0
+6 0 0 3 0 0 0 0
+0 2999 100
+E
+black steel visor~
+&+LA &+Csteel&+L visor that has been blackened that also appears enchanted.
+~
+A
+18 2
+A
+30 12
+#77322
+fountain elegant~
+&+can elegant &+Wfountain&n~
+&+cAn elegant &+Wfountain&+c provides fresh water for the village here.&n~
+~
+17 38 3 0 7 0 0 0 0 0 0
+-1 -1 0 0 0 0 0 0
+0 0 100
+E
+fountain elegant~
+&+cThis &+Wfountain&+c has been carved from pure &+Wwhite marble&+c.  The water
+&+cthat keeps it constantly full of fresh water comes from a spring
+&+csomewhere in the hills nearby.  The &+Wfountain&+c seems to have been once
+&+cof elven origin, and perhaps was a gift to village of Desolate.&n
+~
+#77323
+casket~
+&+La casket&n~
+&+LA black casket with a cover of &+Cglass&+L sits here.&n~
+~
+25 37 3 0 7 0 0 0 0 0 0
+77374 7 -1 0 0 0 0 0
+0 0 100
+E
+casket~
+&+LThis black casket is roughly seven feet long.  By climbing back
+&+Lup through it, it will lead back to the &+RMas&+Wter's &+LChambers.&n
+~
+#77324
+black button~
+&+La black button&n~
+&+LA black button is on the eastern wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77410 1 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the eastern wall.&n
+~
+#77325
+black button~
+&+La black button&n~
+&+LA black button is on the eastern wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77411 1 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the eastern wall.&n
+~
+#77326
+shard metal~
+&+wa shard of sharpened &+cmetal&n~
+&+wA thin shard of sharp &+cmetal&+w lies here.&n~
+~
+8 15 3 0 7 0 4096 1 0 0 0
+0 0 1 0 0 0 0 0
+0 1 100
+E
+shard metal~
+&+cThis is nothing but some scrap metal, though it appears very sharp. It
+&+cis not sizable enough to be used as a knife or dagger, however it looks
+&+clike it can still cut quite well.
+~
+#77327
+steel mesh vest~
+&+wa &+Csteel-&+wmesh &+Cvest&n~
+&+wA &+Cvest&+w fashioned from &+Csteel&+w mesh has been left here.&n~
+~
+9 16 3 0 7 0 4096 9 0 0 0
+11 0 0 3 0 0 0 0
+0 5666 100
+E
+steel mesh vest~
+&+wThis is a &+Cvest&+w made from woven &+Csteel&+w mesh.  It offers fairly decent
+&+wprotection and is the standard armor for the &+cDesolate&+w militia.
+~
+#77328
+steel warhammer hammer~
+&+wa &+Csteel&+w warhammer&n~
+&+wA &+Csteel&+w warhammer has been left here.&n~
+~
+5 16 3 0 7 0 4096 8193 0 0 0
+4 2 5 6 0 0 0 0
+0 3929 100
+E
+steel warhammer hammer~
+&+wThis is a &+Csteel&+w warhammer used by the &+cDesolate&+w militia, it is quite
+&+wlightwieght overall, but can deliver a considerable blow.&n
+~
+A
+19 1
+A
+18 1
+#77329
+medal heroism~
+&+ca medal of &+Wheroism&n~
+&+cA medal of &+Wheroism&+c has been left here.&n~
+~
+9 16 3 0 7 0 0 5 0 0 0
+11 0 0 3 0 0 0 0
+0 83 100 0 32768 0 0
+E
+tankard ale~
+&+yWow. Its a mug full of &+Ybeer&+y. Thirsty anyone? &n
+~
+A
+18 3
+#77330
+medallion champions~
+&+La &+rmedallion&+L of &+Wchampions&n~
+&+LA &+rmedallion&+L of great significance lies here.&n~
+~
+9 16 3 0 7 0 0 5 0 0 0
+12 0 0 3 0 0 0 0
+0 21181 100
+E
+medallion champions~
+&+LThis &+rmedallion&+L bears the mark of the jousting tournament &+Wchampion&+L.
+&+LHowever, what is usually a honored and glorious reward, it is now
+&+Lstained with&+r blood&+L that seems impossible to wash off.
+~
+A
+19 3
+A
+18 1
+#77331
+dark blade armageddon~
+&+La dark blade of &+rarmageddon&n~
+&+LA black longsword with the &+rarmageddon&+L sigil has been left here.&n~
+~
+5 16 3 0 7 0 0 8193 0 0 0
+9 2 5 0 0 0 0 0
+0 17222 100
+A
+18 3
+A
+19 3
+#77332
+broken wheel~
+&+La broken &+ywheel&n~
+&+LA broken wagon &+ywheel&+L has become lost under some rocks here.&n~
+~
+8 6 3 0 7 0 4096 1 0 0 0
+0 0 0 0 0 0 0 0
+0 3421 100
+E
+broken wheel~
+&+yThis &+Lwagon&+y wheel seems fairly damaged.  It appears several of the
+&+wspokes&+y have been bent and twisted during some sort of accident.  Even
+&+yif one was to manage to get it back on to the &+Lwagon&+y, it wouldn't
+&+ywork properly at all.&n
+~
+#77333
+large sign~
+&+ya large sign&n~
+&+yA large sign is hangs from a lamp post here.&n~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+large sign~
+&+y       / \
+&+y       | |
+&+y       | |//-----------*
+&+y       |  /  |     |
+&+y       | |  ------------
+&+y       | |  |&+W Lustful&+y  |
+&+y       | |  |&+W  Logger&+y  |
+&+y       | |  |&+W  <- Inn&+y  |
+&+y       | |  ------------
+&+y       | |
+&+y       | |
+&+y       | |
+&+y       | |  &n
+~
+#77334
+canvas tent~
+&+ya canvas tent&n~
+&+yAn outline of a canvas tent can be seen from under the rubble here.&n~
+~
+25 15 3 0 7 0 0 0 0 0 0
+77427 7 -1 0 0 0 0 0
+0 0 100
+E
+canvas tent~
+&+yThis is just a regular &+Ycanvas tent&+y set up by some long-gone camper.
+&+yIt has been half-buried by the destruction caused by the invasion of the
+&+ydark army, yet still seems somewhat useable.
+~
+#77335
+naughty magazine playelf~
+&+ca naughty &+Wmagazine&n~
+&+cA naughty &+Wmagazine&+c titled '&+WPlayElf&+c' has been left here.&n~
+~
+33 28 3 0 7 0 0 16385 0 0 0
+0 0 35 0 0 0 0 0
+0 2779 100
+E
+naughty magazine playelf~
+&+cThis magazine is quite a treasure for elven teenage males.&n
+&+cThis months centerfold is &+WElandra&+c from Charing.  Her turn-ons
+&+cinclude long walks through the &+gelven forest&+c and dancing all night
+&+cin the local bars of Woodseer. Her turn-offs include &+bOgres&+c and
+&+GTrolls&+c with bad teeth.&n
+
+
+             ---,_,----
+            /    .     \
+           /     |      \
+          (      @@      )
+          /   _/----\_   \
+         /   '/      \`   \
+        /    /   .    \    \
+       /    /|        |\    \
+       /   / |        | \   \
+      /   /`_/_      _\_'\   \
+     /  '/  (  . )( .  )  \  `\
+     <;_ ' `--`___'`___'--' ` _>;
+    /  '     @ @/ =\@ @     `  \
+   /  /      @@(  , )@@      \  \
+  /  /       @@| o o|@@       \  \
+ ' /          @@@@@@@@          \ `
+~
+A
+13 25
+#77336
+ethereal spike~
+&+La slender &+weth&+Ler&+weal &+Lspike&n~
+&+LA spike&n~
+~
+5 1 3 0 7 0 524288 8193 0 0 0
+2 2 4 11 0 0 0 0
+0 1 100
+A
+18 2
+A
+19 2
+#77337
+black button~
+&+La black button&n~
+&+LA black button is on the western wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77414 3 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the western wall.&n
+~
+#77338
+masters armor~
+&+Wthe &+Rmas&+Wters &+Rarmor&n~
+&+WThe &+Rmas&+Wters &+Rarmor&+W has been foolishly left here.&n~
+~
+9 27 3 0 13 0 4097 9 0 0 0
+24 0 0 4 1 0 0 0
+0 56871 100 36 0 0 0
+E
+masters armor~
+&+WThe fabled armor of the legendar&+Ry Masters.  Rumors around this
+&+Wtype of rare equipment sugges&+Rt only that unifacation can surpass
+&+Wmuch of the mor&+Rtal realm.  This diamond armor seems exceptionally
+&+Rcrafted.&n
+~
+A
+19 2
+A
+18 2
+#77339
+elven golden bracelet~
+&+Ya golden &+yelven&+Y bracelet&n~
+&+YA golden bracelet of &+yelven design&+Y has been dropped here.&n~
+~
+9 24 3 0 11 0 0 4097 0 0 0
+6 0 0 3 0 0 0 0
+0 772 100
+E
+elven golden bracelet~
+&+yThis &+Ygolden&+y bracelet has several runes of ancient elven design
+&+yetched on the surface.  It probably orginated from some sort of
+&+yelven royalty, as the craftsmanship is quite impressive.&n
+~
+A
+13 10
+#77340
+winged skirt warskirt~
+&+wa &+Wwinged&+w warskirt&n~
+&+wA long skirt sprouting &+Wwings&+w and covered with &+Csteel&+w-mesh has been dropped here.&n~
+~
+9 16 3 0 7 0 0 33 0 0 0
+8 0 0 2 0 0 0 0
+0 5562 100 134217728 0 0 0
+A
+13 5
+A
+24 -2
+#77341
+jousting trophy~
+&+Ya jousting trophy&n~
+&+YA gold jousting trophy has been left here.&n~
+~
+8 24 3 0 7 0 0 1 0 0 0
+0 0 0 0 0 0 0 0
+0 30000 100
+E
+jousting trophy~
+&+YEngraved on the tall golden trophy are the words :&n
+&+WBlack Knight - Winner 4 Touraments&n
+&+YIt has a small design of a knight on a horse on it.&n
+~
+#77342
+spiked brace armageddon~
+&+La &+wspiked&+L brace of &+rarmageddon&n~
+&+LA wrist &+wbrace&+L with the sign of &+rarmageddon&+L has been left here.&n~
+~
+9 15 3 0 7 0 0 4097 0 0 0
+8 0 0 4 1 0 0 0
+0 6682 100
+A
+5 5
+A
+18 3
+#77343
+red glasses sunglasses~
+&+Lsome &+rred-ti&+wnt&+Led sunglasses&n~
+&+LA pair of &+rred-ti&+wnt&+Led sunglasses have been left here.&n~
+~
+9 15 3 0 7 0 0 131073 0 0 0
+4 0 0 2 0 0 0 0
+0 18221 100 0 28 0 0
+E
+red glasses sunglasses~
+&+LThese sun-glasses aren't just for protecting the eyes from the
+&+Lharsh glare of the sun, they are also quite stylish.  They have
+&+Lbeen tinted with &+rred&+L.  These glasses would be cool even
+for Rico's high standards.&n
+~
+A
+18 2
+#77344
+lance red black _lance_~
+&+ra red and &+Lblack &+rjousting &+Llance&n~
+&+rA red and &+Lblack &+rjousting &+Llance&+r has been dropped here.&n~
+~
+5 16 3 0 7 0 4194304 8193 0 0 0
+16 2 8 0 0 0 0 0
+0 11882 100 65536 0 0 0
+E
+red black lance~
+&+LThis lance is quite long, it is slender and light and made from high
+&+Lquality steel.  It is striped with black and &+rred&+L as identifaction for
+&+Lits owner.&n
+~
+A
+18 3
+A
+19 3
+#77345
+leather bindings~
+&+ysome cut leather bindings&n~
+&+ySome bindings that have already been cut have been left here.&n~
+~
+8 14 3 0 7 0 4194304 1 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100 8192 0 0 0
+#77346
+steel long sword~
+&+wa&+C steel&+w longsword&n~
+&+wA &+Csteel&+w longsword has been left here.&n~
+~
+5 16 3 0 7 0 0 8193 0 0 0
+5 4 2 3 0 0 0 0
+0 4898 100
+E
+steel long sword~
+&+wThis is a plain &+Csteel&+w longsword used by the &+cDesolate&+w militia.  Though
+&+wit doesn't possess any extraordianary powers, it is quite sturdy,
+&+wand was crafted with a fair ammount of care and effort.&n
+~
+A
+18 1
+A
+19 2
+#77347
+painted rock~
+&+La &+Wpainted&+L rock&n~
+&+LA large rock, &+Wpainted&+L with writing, is here.&n~
+~
+13 11 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+painted rock~
+&+LThe rock has a small chart listed on it. Its the odds for the
+&+Lcompetition.&n
+&+W        Black Knight 1 : 2
+&+W        Blue Knight  1 : 4
+&+W        Red Knight   1 : 5
+&+W        Green Knight 1 : 8
+&+W        White Knight 1 : 4
+        &n
+~
+#77348
+black button~
+&+La black button&n~
+&+LA black button is on the southern wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77412 2 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the southern wall.&n
+~
+#77349
+black button~
+&+La black button&n~
+&+LA black button is on the western wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77413 3 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the western wall.&n
+~
+#77350
+black button~
+&+La black button&n~
+&+LA black button is on the northern wall here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77415 0 0 0 0 0 0
+0 0 100
+E
+black button~
+&+LThis is a simple black button built into the northern wall.&n
+~
+#77351
+platium dog collar~
+&+wa &+Wplatium&+w plated dog collar&n~
+&+wA fancy, &+Wplatium&+w plated dog collar has been left here.&n~
+~
+9 25 3 0 7 0 0 5 0 0 0
+6 0 0 4 0 0 0 0
+0 8899 100
+E
+platium dog collar~
+&+wA seemingly sturdy collar that has been plated with expensive
+&+Wplatium&+w.  Whoever could afford to have spent so much on a dog
+&+wcollar must have been quite wealthy.&n
+~
+A
+24 -2
+A
+23 -2
+#77352
+repaired wheel~
+&+La repaired &+ywheel&n~
+&+LA repaired &+ywagon wheel&+L has been left here.&n~
+~
+8 6 3 0 7 0 0 1 0 0 0
+0 0 0 0 0 0 0 0
+0 98 100
+E
+repaired wheel~
+&+LThis &+ywagon wheel&+L looks as good as new, its hard to tell it was
+&+Lever broken in the first place.&n
+~
+#77353
+brass token ancients~
+&+ya brass &+Ltoken&+y of the ancients&n~
+&+yA small brass token has been left here.&n~
+~
+9 17 3 0 7 0 0 5 64 0 0
+6 0 0 3 0 0 0 0
+0 9789 100 0 0 0 131072
+E
+brass token ancients~
+&+yThis is an extremely old &+Ltoken&+y, marked with odd glyphs of an
+&+yunknown origin.  It must have been found somewhere on someone's
+&+ytravels or kept as a family heirloom for a long period of time.&n
+~
+A
+13 12
+#77354
+rocks rock~
+&+wa rock pile&n~
+&+wA pile of rocks sits here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77352 3 0 0 0 0 0
+0 0 100
+#77355
+counter~
+&+ya counter&n~
+&+yA long counter acts as a desk and divides the bank in half.&n~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+counter~
+&+yIts the counter that the banker works on and behind.&n
+~
+#77356
+deep blue potion~
+&+ba deep blue potion&n~
+&+bA deep blue potion has been left here.&n~
+~
+10 40 3 0 7 0 8 1 0 0 0
+50 73 39 39 0 0 0 0
+0 23001 100
+E
+deep blue potion~
+&+bThis deep blue potion bubbles vigoriously.  It seems something like
+&+bmenthol.&n
+~
+#77357
+glow rock~
+&+La &+Mglow&+L rock&n~
+&+LSomeone has left a &+Mglowing&+L rock here.&n~
+~
+1 11 3 0 7 0 262144 8404993 0 0 0
+0 0 12 0 0 0 0 0
+0 1901 100
+E
+glow rock~
+&+LThis is one of the stones found deep below the surface of the earth
+&+Lby miners.  It possesses a strange &+Mglow&+L that illuminates the area
+&+Laround it.&n
+~
+#77358
+steel mesh boots~
+&+wsome &+Csteel&+w-mesh boots&n~
+&+wA pair of &+Csteel&+w-mesh boots have been left here.&n~
+~
+9 16 3 0 7 0 4096 65 0 0 0
+12 0 0 2 0 0 0 0
+0 23911 100
+E
+steel mesh boots~
+&+wThese boots have been fashioned from finely woven &+Csteel&+w-mesh, they
+&+ware loose and comfortable, yet at the same time quite protective.&n
+~
+A
+1 3
+A
+18 2
+#77359
+steel mesh gloves~
+&+wsome spiked &+Csteel&+w-mesh gloves&n~
+&+wSome spiked, &+Csteel&+w-mesh gloves have been dropped here.&n~
+~
+9 16 3 0 7 0 0 129 0 0 0
+9 0 0 2 1 0 0 0
+0 14009 100
+E
+steel mesh gloves~
+&+wThese loose fitting gloves are pulled comfortably over ones hands
+&+wand offer some nice protection due to the high quality of &+Csteel&+w in
+&+wwhich they were crafted with.&n
+~
+A
+19 2
+A
+26 5
+#77360
+chain linked arrow case~
+&+wa &+Cchain-linked&+w arrow case&n~
+&+wA &+Cchain-linked&+w arrow case has been left here.&n~
+~
+30 16 3 0 7 0 0 1048577 0 0 0
+4 5 1 0 0 0 0 0
+0 12889 100
+E
+chain linked arrow case~
+&+wThis arrow case has been crafted from &+Cchainmail&+w, the entire case
+&+wis made up of hundreds of interlinking circlets of &+Csteel&+w. It appears
+&+wto be able to carry quite a few arrows and isn't all that heavy
+&+wto carry.&n
+~
+A
+2 9
+#77361
+steel sabre~
+&+wa gilded-&+Csteel&+w sabre&n~
+&+wA &+Csteel&+w sabre has been dropped on the ground here.&n~
+~
+5 16 3 0 7 0 4096 8193 0 0 0
+5 3 4 3 0 0 0 0
+0 8989 100
+E
+steel sabre~
+&+wThis long, slender, and slightly curved blade has had the edge plated
+&+wwith the sharpest of &+Csteel&+w.  The sabre is quite light and quite deadly.
+~
+A
+18 3
+A
+19 3
+#77362
+chain mail bracelet~
+&+wa &+Cchainmail&+w bracelet&n~
+&+wA &+Csteel chainmail&+w bracelet has been left here.&n~
+~
+9 16 3 0 7 0 0 4097 0 0 0
+4 0 0 2 0 0 0 0
+0 6878 100
+E
+chain mail bracelet~
+&+wThis bracelet is just a simple set of interlinking &+Csteel&+w circles
+&+wthat slips on to the wrist.  It doesn't look like much, but it does
+&+wthe job.&n
+~
+A
+19 2
+A
+18 1
+#77363
+shoulder drape chain linked~
+&+wa &+Cchain-linked&+w shoulder drape&n~
+&+wA &+Cchain-linked&+w shoulder drape has been left here.&n~
+~
+9 16 3 0 7 0 0 1025 0 0 0
+11 0 0 2 0 0 0 0
+0 12092 100
+E
+shoulder drape chain linked~
+&+wThis loose fitting &+Cchain mail&+w drapes over the shoulders to protect
+&+wones upper body.  It is made from &+Csteel&+w and is quite durable and
+&+wcomfortable.&n
+~
+A
+5 8
+A
+12 5
+#77364
+divine token revalations~
+&+Wthe &+Cdivine&+W token of &+crev&+Calat&+Wions&n~
+&+WA &+Cdivine&+W token is collecting dust here.&n~
+~
+9 34 3 0 7 0 4096 5 0 0 0
+6 0 0 3 0 0 0 0
+0 8981 100
+E
+divine token revalations~
+&+WThis token is obviously from the mythical &+CHome &+Wof the &+CDivine&+W, the
+&+Wrunes etched on it are untranslatable, and are probably known only
+&+Wto the angels and titans who live past the Gates of Purity.&n
+~
+A
+13 15
+#77365
+stripes desolate~
+&+Lthe &+Wstripes&+L of the &+cDesolate&+L militia&n~
+&+LSomeone has left the &+Wstripes&+L of a local militia here.&n~
+~
+11 3 3 0 7 0 0 2097153 0 0 0
+0 0 0 0 0 0 0 0
+0 2341 100
+E
+stripes desolate~
+&+LThese &+Wstripes&+L are what denotes a high ranking officer within the
+&+cDesolate&+L militia.  They are meant to be worn as a badge.&n
+~
+A
+1 3
+#77366
+potion leaves bark~
+&+ga sw&+Girling p&+yotio&+gn of le&+Gaves an&+yd bark&n~
+&+gSomeone ha&+ys lef&+Gt a s&+gwirling p&+yotion he&+gre.&n~
+~
+10 40 3 0 7 0 4096 16385 0 0 0
+50 294 141 355 0 0 0 0
+0 1 100
+E
+potion leaves bark~
+&+gThis potion seems to be almost alive with the energy of nature.
+&+gIt seems strongly of the forest.&n
+~
+#77367
+mask vitality~
+&+cthe &+Bmask o&+bf vita&+Bli&+cty&n~
+&+cThe &+Bmask o&+bf vita&+Bli&+cty has been left here.&n~
+~
+9 1 3 0 7 0 4097 262145 64 0 0
+11 0 0 3 0 0 0 0
+0 9090 100
+E
+mask vitality~
+&+cThis mask has been adorned with various arcane runes.  It glows
+&+ceerily with soft light, indicating it has been imbued with strong
+&+cmagical powers.&n
+~
+A
+5 12
+A
+13 15
+#77368
+book bark nymph~
+&+ythe book of the nymph&n~
+&+yA book made from bark has been left here.&n~
+~
+33 29 3 0 7 0 4096 16385 0 0 0
+0 0 250 0 0 0 0 0
+0 4901 100
+E
+book bark nymph~
+&+yThis book seems to have been fashioned from extremely light sheets
+&+yof bark. Despite its fragile appearence though, it would still be
+&+ystrong enough to scribe arcane spells upon.&n
+~
+#77369
+rocks rock~
+&+wa rock pile&n~
+&+wA pile of rocks sits here.&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77441 1 0 0 0 0 0
+0 0 100
+#77370
+monkey man mandolin instrument~
+&+ya &+Ymonkey&+y-man &+Ymandolin&n~
+&+yAn odd looking &+Ymandolin&+y has been left here.&n~
+~
+32 6 3 0 7 0 0 16385 0 0 0
+186 50 0 20 0 0 0 0
+0 3902 100
+E
+monkey man mandolin~
+&+y   This is an odd looking instrument that has been carved out of
+&+ya nice piece of wood into a shape of a &+Ymonkey's&+y head.  It still can
+&+ycarry a nice tune, though.&n
+~
+A
+2 8
+A
+18 2
+#77371
+barricade~
+&+ya large barricade&n~
+&+yA barricade built from rocks and felled trees blocks the trail here.&n~
+~
+29 15 3 0 7 0 0 0 0 0 0
+270 77453 5 0 0 0 0 0
+0 0 100
+#77372
+soldiers tent~
+&+ya soldier's tent&n~
+&+yA tent serves as temparory barracks for &+LOrc&+y soldiers here.&n~
+~
+25 12 3 0 7 0 0 0 0 0 0
+77462 7 -1 0 0 0 0 0
+0 0 100
+#77373
+severed hand gromlog~
+&+rthe severed hand of gromlog~
+&+rA disgusting severed hand lies here.&n~
+~
+8 2 3 0 7 0 4096 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+severed hand gromlog~
+&+rEww. Its someone's severed hand.  If they aren't dead they probably
+&+rare looking for this and in a great deal of pain without it.&n
+~
+#77374
+soldiers tent~
+&+ya soldier's tent&n~
+&+yA tent serves as temparory barracks for &+LOrc&+y soldiers here.&n~
+~
+25 12 3 0 7 0 0 0 0 0 0
+77464 7 -1 0 0 0 0 0
+0 0 100
+#77375
+long iron trident~
+&+La long &+wiron&+L trident&n~
+&+LAn &+wiron&+L trident has been left here.&n~
+~
+5 15 3 0 7 0 0 8193 0 0 0
+8 2 5 11 0 0 0 0
+0 2901 100
+E
+long iron trident~
+&+LThis trident has been forged within the foundry of Storm Port. It
+&+Lis nearly six feet in length yet light enough to wield with one hand.
+&+LIt's three points are barbed and very sharp.&n
+~
+A
+18 2
+A
+19 2
+#77376
+blackened soil~
+&+Lsome blackened soil&n~
+&+LSome blackened soil&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+270 77365 4 0 0 0 0 0
+0 0 100
+#77377
+lantern torch magic~
+&+ya magic &+Ytorch&n~
+&+ya magical &+Ytorch&n~
+~
+29 15 3 0 7 0 2 0 0 0 0
+340 77364 5 0 0 0 0 0
+0 0 100
+#77378
+sword tempest~
+&+cthe sword of the &+Ctem&+cpe&+Wst&n~
+&+cThe sword of the &+Ctem&+cpe&+Wst&+c has been left here.&n~
+~
+5 15 3 0 11 0 4194305 8193 0 0 0
+13 3 6 3 0 0 0 0
+0 9090 100 65536 0 0 0
+E
+sword tempest~
+&+cThe Tempest mark on a piece of equipment is the highest privilege
+&+cwithin the &+WStorm &+CPo&+crt navy.  The sword this mark has been placed
+&+cupon is exceptionally crafted, and is just as deadly a weapon as
+&+cit is an honour to wield it.&n
+~
+A
+19 4
+A
+18 4
+#77379
+titan strength greaves~
+&+Lthe &+Cgre&+Lav&+Ces of ti&+Ltan str&+Cength&n~
+&+LThe &+Cgre&+Laves of t&+Citan stren&+Lgth have b&+Ceen dropped here.&n~
+~
+9 16 3 0 12 0 4096 33 0 0 0
+12 0 0 4 0 0 0 0
+0 8982 100
+E
+titan strength greaves~
+&+LThese &+cgreaves&+L fit perfectly over almost anyones legs and offer
+&+Lconsiderably protection.  They seem so comfortable and so perfect
+&+Lthey could only have been created in the legendary armory of the
+&+Ctitan&+L blacksmith, &+CEmition&+L.&n
+~
+A
+18 3
+A
+1 8
+#77380
+blackened bracer squall~
+&+Lthe blackened bracer of the &+Wsquall&n~
+&+LA blackened bracer has been left here.&n~
+~
+9 16 3 0 7 0 0 4097 0 0 0
+8 0 0 3 0 0 0 0
+0 5122 100
+E
+blackened bracer squall~
+&+LThe equipment bearing the mark of the &+WSquall&+L is the secondest
+&+Lhighest rank within the &+WStorm &+CPo&+crt&+L navy.  The fact that it would be
+&+Lplaced on an item like a bracer would be of significant honour.&n
+~
+A
+18 1
+A
+19 1
+#77381
+blackened collar squall~
+&+Lthe blackened collar of the &+Wsquall&n~
+&+LSomeone has dropped a blackened collar here.&n~
+~
+9 16 3 0 7 0 0 5 0 0 0
+7 0 0 3 0 0 0 0
+0 2221 100
+E
+blackened collar squall~
+&+LThis collar bares the crest of &+WSquall&+L, a position within the &+WStorm
+&+CPo&+crt&+L navy.  It has been blackened as a sign of experience for the
+&+Lwearer, most likely for a sailor who has survived a great storm at
+&+Lsea, one of the navy's most honored traditions.&n
+~
+A
+18 1
+A
+19 1
+#77382
+blackened shield gale~
+&+Lthe blackened shield of the &+Cgale&n~
+&+LSomeone has left a blackened shield here.&n~
+~
+37 15 3 0 7 0 0 513 0 0 0
+1 3 4 133 0 0 0 0
+0 8981 100
+E
+blackened shield gale~
+&+LThis shield bares the crest of &+CGale&+L, a position within the &+WStorm
+&+CPo&+crt&+L navy.  It is quite heavy and durable and offers good protection.&n
+~
+A
+2 5
+A
+18 2
+#77383
+war sword iron~
+&+Lan &+wiron&+L warsword&n~
+&+LAn &+wiron&+L warsword has been left here.&n~
+~
+5 15 3 0 7 0 0 8193 0 0 0
+9 2 5 3 0 0 0 0
+0 2901 100
+E
+war sword iron~
+&+LThis sword is only about a foot in length and quite broad. It
+&+Lis heavy and used for equipping large armies as it is quite easy
+&+Lto forge and fairly inexpensive.&n
+~
+A
+18 2
+A
+19 2
+#77384
+heavy opaque key~
+&+La heavy opaque key&n~
+&+LA &+Wbadge&+LA heavy black key has been dropped here.&n~
+~
+18 11 3 0 7 0 8388608 1 0 0 0
+0 0 0 0 0 0 0 0
+0 24 100
+#77385
+severed hand alboa~
+&+rthe severed hand of alboa&n~
+&+rA disgusting severed hand lies here.&n~
+~
+8 2 3 0 7 0 4096 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+severed hand alboa~
+&+rEww. Its someone's severed hand.  If they aren't dead they probably
+&+rare looking for this and in a great deal of pain without it.&n
+~
+#77386
+banana~
+&+Ya banana&n~
+&+YSomeone has dropped a yellow banana&n~
+~
+31 48 3 0 7 0 0 16385 0 0 0
+5 50 0 0 0 0 0 0
+0 1209 100
+E
+banana~
+&+YIts yellow, its a banana.  Some people think bananas are yummy,
+&+Ysome people do not.&n
+~
+#77387
+jeweled purple ring~
+&+ma &+Wj&+me&+Ww&+me&+Wl&+me&+Wd&+M purple&+m ring&n~
+&+mA &+Wj&+me&+Ww&+me&+Wl&+me&+Wd&+m, &+Mpurple&+m ring has been tossed aside here.&n~
+~
+9 26 3 0 7 0 0 3 0 0 0
+6 0 0 3 0 0 0 0
+0 8122 100
+E
+jeweled purple ring~
+&+mThis ring bares the royal crest of the &+RT&+Yr&+Gi&+L-Lords&+m of &+MMyrabolus&+m. It
+&+mappears quite valuable.&n
+~
+A
+18 2
+A
+13 10
+#77388
+coconut bp backpack~
+&+ya c&+Wo&+yc&+Wo&+ynut backpack&n~
+&+ySomeone has dropped a &+yc&+Wo&+yc&+Wo&+ynut backpack here.&n~
+~
+15 4 3 0 7 0 0 4210689 0 0 0
+250 5 0 250 0 0 0 0
+0 2900 100
+E
+coconut bp backpack~
+&+yIt is quite strange to see anything created from the shells of a
+&+ycoconut, and even stranger to see a comfortable backpack from from
+&+ysuch.&n
+~
+#77389
+cloak forest goddess~
+&+gthe &+Lcloak&+g of the &+Gforest&+g goddess&n~
+&+gThe &+Learring&+g of the &+Gforest&+g goddess has been dropped here.&n~
+~
+9 30 1 0 7 0 0 1025 0 0 0
+10 0 0 2 0 0 0 0
+0 9011 100 32768 12304 0 0
+A
+13 15
+#77390
+pile coins~
+&+Wa pile of coins&n~
+&+WA pile of platinum coins has been left here.&n~
+~
+20 25 3 0 7 0 0 1 0 0 0
+0 0 0 500 0 0 0 0
+0 1 100
+#77391
+barricade~
+&+ya large barricade&n~
+&+yA barricade built from rocks and felled trees blocks the trail here.&n~
+~
+29 15 3 0 7 0 0 0 0 0 0
+270 77454 4 0 0 0 0 0
+0 0 100
+#77392
+severed hand mackama~
+&+rthe severed hand of mackama&n~
+&+rA disgusting severed hand lies here.&n~
+~
+8 2 3 0 7 0 4096 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+E
+severed hand mackama~
+&+rEww. Its someone's severed hand.  If they aren't dead they probably
+&+rare looking for this and in a great deal of pain without it.&n
+~
+#77393
+casket~
+&+La casket&n~
+&+LA black casket with a cover of &+Cglass&+L sits here.&n~
+~
+25 37 3 0 7 0 0 0 0 0 0
+77343 7 -1 0 0 0 0 0
+0 0 100
+E
+casket~
+&+LThis black casket is roughly seven feet long.  It sits in the large
+&+Lroom with six others, all nearly identical.  There is a sheet of &+Cglass&+L
+&+Lthat covers each one.  Oddly enough, it appears the &+Cglass&+L seal on
+&+Lthis one has been shattered, leaving the casket open.&n
+~
+#77394
+opening exit casket~
+&+Lan exit&n~
+&+LThe exit back out to the &+RMas&+Lter's Chamber is here.&n~
+~
+25 37 3 0 7 0 0 0 0 0 0
+77372 7 -1 0 0 0 0 0
+0 0 100
+#77395
+prybar bar~
+&+La prybar&n~
+&+LA solid iron bar with a wedged-tip has been left here.&n~
+~
+18 15 3 0 5 0 4096 16385 0 0 0
+0 0 0 0 0 0 0 0
+0 1 100
+#77396
+club torture~
+&+La &+yclub&+L of &+rtorture&n~
+&+LA brutal looking &+yclub&+L has been left here.&n~
+~
+5 6 3 0 5 0 0 8193 0 0 0
+7 2 4 0 0 0 0 0
+0 9222 100 65536 0 0 0
+A
+18 3
+A
+19 3

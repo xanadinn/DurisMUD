@@ -1,0 +1,1106 @@
+#11300
+A Dark Trail~
+    This dark trail winds through the weeds of a burnt and charred land.
+To north, the trail continues towards a high tower in the middle of a
+mountain range.  The tower is hidden nicely there and only the ones who
+know how to navigate this trail can find their way to the tower.  The
+trail is hardly called a trail, being nothing more than a mud patch that
+winds its way through the burnt and rugged landscape.
+~
+113 0 2
+D0
+  This dark trail through the field continues towards the north.
+~
+~
+0 0 11301
+D2
+  Plains of Grass.
+~
+~
+0 0 551667
+S
+#11301
+A Bend In The Dark Trail~
+   This mud trail takes a sharp turn towards the east here.  The trail
+continues northward towards the tower and southward towards the open
+terrain.  There are several types of footprints embedded in the trail,
+including several large and huge ones.  This trail seems to be littered
+with torn clothes, dried blood, and decomposing skulls.  This entire
+field of deadness blankets the surroundings.
+~
+113 0 2
+D1
+ This dark trail through the field continues towards the east.
+~
+~
+0 0 11302
+D2
+  This dark trail through the field continues towards the south.
+~
+~
+0 0 11300
+S
+#11302
+A Dark Trail, Approaching The Tower~
+   The sky seems to darken as the trail approaches this gloomy tower. The
+seems to be a little thicker here, where more of the grass has been worn
+down by the constant use of many races.  There is a small sign depicting
+a message in an incomprehendable language.  The sign has been knocked
+down and trampled upon, and is barely visible through the thick layer
+of mud covering it.
+~
+113 0 2
+D0
+The tower lies to the north.
+~
+~
+0 0 11303
+D1
+   A hidden trail winds off around towards the west.
+~
+bushes~
+5 0 11305
+D3
+This dark trail through the field continues towards the west.
+~
+~
+0 0 11301
+E
+sign~
+   This sign appears to be in the mud and is written in a language
+understood by only the people of the tower.  The only distinguishable
+mark left on the sign is an arrow pointing eastward.
+~
+S
+#11303
+The Gates To A Dark And Gloomy Tower~
+    The gates to this dark and gloomy tower stand tall against the
+background of a treacherous mountain range.  The gates themselves appear
+to be made of a black-steel type ore and seem to have taken heavy
+battle damage.  There is a treacherous-looking human guarding the gates;
+he apparently is using no weapon.  The tower seems to be blocking passage
+into the mountains, leaving the only directions north into the tower, or
+south back on to the trail.
+~
+113 0 2
+D0
+The gates to the tower lie to the north.
+~
+gates~
+3 11300 11304
+D2
+The trail away from the tower winds southward.
+~
+~
+0 0 11302
+S
+#11304
+A Poorly-Lit Hallway~
+   This poorly lit hallway is the first glimpse into this enormous tower.
+The hallway is poorly lit, with only a few low burning torches, which are
+frequently left to burn out.  The gates to the tower lies to the south,
+while a door is to the east and the hallway continues to the north.  The
+hallway seems to be a trophy case of different items, mainly those of
+scalped barbarians, gnomes, and elves.  Additionally, drow-made paintings
+have been hung up on the wall for the more intellectual people of the tower.
+~
+113 0 0
+D0
+The hallway continues.
+~
+~
+0 0 11318
+D1
+The first floor guard room lies towards the east.
+~
+~
+0 0 11317
+D2
+The gates to the tower lie to the south.
+~
+gates~
+3 11300 11303
+S
+#11305
+A Side Trail, Heading Eastward~
+   This side trail seems to head eastward and is considerably less
+travelled than the main trail towards the entrance of the tower.  This
+trail seems to have been made, not by the large footprints of the main
+trail, but by several smaller ones, possibly elven or dwarven.  This
+area seems to be out of sight of the humble man at the gates to the
+tower for some reason or another.
+~
+113 0 2
+D3
+The main trail is off towards the west.
+~
+bushes~
+5 0 11302
+D8
+This side trail continues towards the northeast.
+~
+~
+0 0 11306
+S
+#11306
+A Side Trail, East of the Tower~
+   This side trail spins off towards the northwest.  The side of the
+tower can be seen towards the immiediate west, while a small crack between
+the tower and the cliff appears to be directly towards to the north. The
+trail continues up until this crack where it appears to stop, and on
+the other end, spins back towards the main trail towards the southwest.
+This trail seems to be used less and less as it gets closer to the cliff.
+~
+113 0 2
+D0
+This side trail heads towards the cliff.
+~
+~
+0 0 11307
+D7
+This side trail spins off towards the southwest.
+~
+~
+0 0 11305
+S
+#11307
+&+yBefore A Cliff Face&n~
+&+y  The side trail comes to a brief halt as it reaches where the
+&+yeast side of the tower meets up with the cliff space.  There appears
+&+yto be a tight passage leading towards the back of the tower and into
+&+ythe mountains, however, anyone travelling in this tiny crack space
+&+ywould have to go single file.  The shrubs around the trail, although
+&+ymostly burnt, appear to be starting to grow back.
+~
+113 0 5
+D0
+There appears to be a tight squeeze in the rock face.
+~
+~
+0 0 11308
+D2
+The side trail heads southward, away from the cliff.
+~
+~
+0 0 11306
+S
+#11308
+&+yA Tight Squeeze&n~
+  This tight squeeze inbetween the tower and the rock face is simplay that,
+a tight squeeze.  Travelling through this space is tight and single file
+at best.  Gnomes and halflings appear to have the upper edge at going
+through this space, while ogres and centaurs have a very difficult time.
+This area seems to be hardly used, or if it is, someone has taken the
+time to cover their tracks well.
+~
+113 8196 5
+D0
+The mountain trail heads off to the north.
+~
+~
+0 0 11309
+D2
+The cliff face entrance.
+~
+~
+0 0 11307
+S
+#11309
+&+yA Trail In the Mountains&n~
+  This trail into the mountains is fairly difficult to scale, and many of
+the passes have been cluttered with falling rocks.  The travel along
+these mountains passes are fair at best, and many have fallen to their
+doom in the murky swamp behind the tower.  There appears to be
+a growing tree line further into the mountains.
+~
+113 0 5
+D2
+There appears to be a tight squeeze between the tower and the rock face.
+~
+~
+0 0 11308
+D4
+The mountain pass continues.
+~
+~
+0 0 11310
+S
+#11310
+&+yA Mountain Pass&n~
+   This mountain pass rises up above the tower here, looking down on
+the swamp below and the field towards the south.  It appears that
+much of this mountain pass is rarely travelled but for a few lost
+souls.  This area seems to become more ecologically sound as one
+comes closer to the tree line towards the north.  Several rocks seem
+to be out of place towards the west.
+~
+113 0 5
+D0
+The mountain pass continues.
+~
+~
+0 0 11312
+D3
+A steep mountain pass lies towards the west.
+~
+secret~
+5 0 11311
+D5
+The mountain pass continues.
+~
+~
+0 0 11309
+S
+#11311
+&+yA Very Steep Mountain Trail&n~
+  This mountain trail descends almost immiediatly into the surrounding
+swamp in the back of the tower.  This seems to be a very rare travelled
+path that few try to scale without magical means.  It is almost
+certain that anyone travelling this route would fall quickly towards
+the swamp.  There appears to be several torn pieces of clothing and
+rope that were probably ripped when a traveller fell to his doom.
+~
+113 0 5
+D1
+A mountain pass lies to the east.
+~
+secret~
+5 0 11310
+D5
+The trail leads downard.
+~
+~
+0 0 11343
+S
+#11312
+&+yA Mountain Pass Towards The Tree Line&n~
+  This steep mountain pass rises higher into the mountains as it
+continues northward towards the tree line.  It appears that there
+could possibly be a small grove of trees up in these mountains somewhere.
+This trail seems to become less and less used as it climbs up the
+mountain.  Very few pieces of discarded travel equipment can be
+found, and the ones that are found are usually very old.
+~
+113 0 5
+D1
+The cave of a hungry giant.
+~
+secret~
+5 0 11314
+D2
+The mountain pass continues.
+~
+~
+0 0 11310
+D4
+The trail continues.
+~
+~
+0 0 11313
+S
+#11313
+&+yA Block In the Pass&n~
+   The mountain pass comes to an abrupt halt here before the tree
+line.  There appears to have been a rock slide and the passage is
+closed off from the rest of the trail.  The trail heads off downward
+towards the tower. There appears to be several animal foot prints
+in this area of the trail.
+~
+113 0 5
+D0
+There seems to be a secret passage leading northward.
+~
+secret~
+5 0 11315
+D5
+The trail continues.
+~
+~
+0 0 11312
+S
+#11314
+&+LA Dark Cave&n~
+   This dark cave seems to have been cleverly hidden by its
+occupant.  A large giant, probably stone giant, lives here in
+this small cave.  There are several mangled corpses of various
+mountain goats and mountain lions lying about the cave.  This
+seems to be the home of a very hungry giant.
+~
+113 0 0
+D3
+The mountain pass.
+~
+secret~
+1 0 11312
+S
+#11315
+&+gAn Alpine Grove&n~
+   This alpine grove appears to be the home of either some kind of
+a mountain elf or possibly a pine forest druid.  This appears to
+be the only sanctuary in this entire area of the mountain range.
+This grove appears to be a sanctuary for all sorts of high terrain
+creatures, such as mountain goats, hawks, and eagles.  There
+also appears to be several species of rodents roaming about the area.
+~
+113 0 3
+D2
+The mountain pass continues.
+~
+secret~
+1 0 11313
+D3
+The grove continues.
+~
+~
+0 0 11316
+S
+#11316
+&+gThe Back of An Alpine Grove&n~
+   This appears to be the living space of a female elven huntress,
+who could quite possibly be skilled in the arts of a druid or a
+ranger.  The area appears to contain no buildings, not even a shack
+or hut for the huntress.  In fact, this appears to be a very natural
+setting high in the mountains.  This area contains mostly evergreen
+and other conifer trees.
+~
+113 0 3
+D1
+The grove continues eastward.
+~
+~
+0 0 11315
+S
+#11317
+&+LThe First Floor Guard Room&n~
+   The guard of the first floor has been given this small,
+closet-sized room.  The first floor guard appears to be a
+troll of some occupation.  This room is barely big enough for
+this troll to live in, and is frequently seen roaming the
+hallways instead of staying in his crampt room.  The walls of
+the room are solid rock, and there are some furs in the corner
+for the troll to sleep on.  In addition, there are several
+corpses of various races that the troll has eaten.
+~
+113 4 0
+D3
+The hallway lies to the west.
+~
+~
+0 0 11304
+S
+#11318
+An Intersection of Hallways~
+   This intersection of hallways occurs almost in the dead center of
+the tower.  Towards the east and west run a couple small hallways,
+while towards the north and south run the main hallway.  The stairs
+of the tower appear a short ways off to the north.  This area seems to
+be the most travelled area of the tower.  While the low level innitates
+of the tower goto their respective rooms on the lower levels, the higher
+level raiders march through here daily towards the stairs.
+~
+113 0 0
+D0
+The stairwell lies to the north.
+~
+~
+0 0 11327
+D1
+The hallway continues.
+~
+~
+0 0 11319
+D2
+The hallway continues.
+~
+~
+0 0 11304
+D3
+The hallway continues.
+~
+~
+0 0 11320
+S
+#11319
+A Side Hallway, On the Eastern Side~
+   This side hallway branches off from a small intersection towards the
+west.  This hallway seems to be used mainly by the apprentice and
+iniates of the tower.  This area is rarely luminated, with only the
+occaisional dim torch.  There are no rugs here, only a cold stone floor,
+which is usually damp and unclean.
+~
+113 0 0
+D0
+A moldy and disgusting room lies towards the north.
+~
+~
+0 0 11323
+D1
+A slimy pool lies towards the east.
+~
+~
+0 0 11326
+D2
+The weapons training room lies towards the south.
+~
+~
+0 0 11324
+D3
+The hallway continues.
+~
+~
+0 0 11318
+S
+#11320
+A Side Hallway, On the Western Side~
+   This side hallway stems off of a central intersection just towards the
+east.  The majority of this hallway is dark, except for the very few
+torches which are only lit when needed for the human anti-paladins of
+the tower.  This entire tower seems to be covered with the stench of
+evil, and it smells like the combined odor of smelly humans and even
+smellier trolls and ogres.
+~
+113 0 0
+D0
+A training room.
+~
+~
+0 0 11321
+D1
+The hallway continues.
+~
+~
+0 0 11318
+D2
+A bloody room lies towards the south.
+~
+door~
+1 0 11322
+D3
+The torture chamber lies towards the west.
+~
+~
+0 0 11325
+S
+#11321
+A Small Training Room~
+  This small training room is used for the sole purpose of sparring the
+various initiates against eachother in an attempt to eliminate the weak,
+and produce the best stock warriors for their legion of doom.  This
+training room is rather plain, and looks like little more than a room
+soaked in blood.  There are only a few fighting dummies, because real
+opponents are better than stationary ones.
+~
+113 0 0
+D2
+The hallway continues.
+~
+~
+0 0 11320
+S
+#11322
+&+rA Bloody Room&n~
+   This room is a bloody mess of dead boddies and ravaged corpses.  The
+great warbeast of the tower rests in this room devouring the corpses as
+they are thrown to it.  There is a large steal door preventing people
+from wandering in here by accident.  This beast appears to feed on the
+remains of the trainees who don't make it past the training room.
+~
+113 0 0
+D0
+The hallway lies towards the north.
+~
+door~
+1 0 11320
+S
+#11323
+&+gA Warm, Moldy Room&n~
+   This room appears to be the second apprentice room of the tower, and
+is considerably less used.  Although some apprentices do come here to
+practice, they appear to be the ones of either great size or great stench.
+Mainly the ogres come here to practices and spar.  Many of the ogres just
+pass out after a match with eachother, and sleep in the filth they
+have created.
+~
+113 0 0
+D2
+The hallway continues towards the south.
+~
+~
+0 0 11319
+S
+#11324
+&+LA Dark Room, Filled With &+yRusty Weapons&n~
+   This room appears to be the main weapons and training room of the
+tower.  These swords, probably taken from the corpses of the kills
+of the higher level warriors, are the swords of the initiates, and this
+is the room where they are taught the art of sword use.  These weapons
+are frail and rusty, however, they are fine tools for ogre and trolls
+to get trained with.
+~
+113 0 0
+D0
+The hallway continues towards the north.
+~
+~
+0 0 11319
+S
+#11325
+&+LA Dim Room Containing Whips and Chains&n~
+   This appears to be the punishment room for those of the order that
+have screwed their raidings for the last time.  All sorts of punishment
+and torture devices are hung up around the room.  From chains, whips,
+to the dreaded rack, everyone fears making a mistake when on a raid
+with the elders of the tower.  There is a very strong looking human
+standing in the room, administerring the punishment.
+~
+113 0 0
+D1
+The hallway continues.
+~
+~
+0 0 11320
+S
+#11326
+&+GA Slimy Room Containing a Muck-Filled Pool&n~
+  This slimy room is fairly large, and encompasses the eastern side of
+the tower on the first level.  The pool of muck is so thick that nobody
+could see into it.  The evidence around the area suggests that something
+is lurking down in the pool, something unnatural.  There appears to be
+a kuo-toan guard, probably emoployed by the masters of the tower,
+guarding the entrance to the pool.
+~
+113 0 0
+D3
+The hallway continues westward.
+~
+~
+0 0 11319
+D5
+The pool heads downward.
+~
+~
+0 0 11350
+S
+#11327
+&+LA Dark Stairwell&n~
+    This dark stairwell lies directly north of the main entrance of the
+tower and through the hallway.  It appears to be the restricting point
+for all of the evil human monks and anti-paladins who have joined the
+crusade of the evil races.  Beyond this point, however, only the larger
+trolls, ogres, and others maybe pass. There are several large guards
+here guarding this steel stairwell.
+~
+113 0 0
+D2
+The hallway continues.
+~
+~
+0 0 11318
+D4
+The foyer of the second floor lies upward.
+~
+~
+0 0 11328
+S
+#11328
+&+LThe Second Floor Foyer&n~
+   This foyer of the second floor of the great tower is rather plain and
+simple.  Stairs leading towards the first floor lie dowward, while hallways
+intersect at this point.  The stairs to the third floor appears a ways
+off towards the west.  This area is completely made of a hard stone, possibly
+granite.  There are several muddy foot prints in the surrounding area,
+showing the manners of the inhabitants of this tower.
+~
+113 0 0
+D0
+A gloomy hallway stretches on towards the north.
+~
+~
+0 0 11330
+D1
+A small alcove lies towards the east.
+~
+~
+0 0 11336
+D2
+A dark hallway stretches towards the south.
+~
+~
+0 0 11333
+D3
+The stairs to the third floor lie to the west.
+~
+~
+0 0 11329
+D5
+The stairwell to the first floor lies down.
+~
+~
+0 0 11327
+S
+#11329
+&+LA Dark Stone Stairway&n~
+   These stairs lead up from the second floor to the third floor.  They
+are guarded by a set of very nasty orc guards, possibly even anti-paladins.
+This area seems to be almost covered in darkness.  The remains of old torch
+holders on the walls have been left idle for many many years.  The stairs
+are made out of solid stone, most likely granite or some other hard
+rock.  The foyer of the second floor lies toward the east.
+~
+113 0 0
+D1
+The foyer of the second floor lies to the east.
+~
+~
+0 0 11328
+D4
+The top of the stairwell lies upward.
+~
+~
+0 0 11337
+S
+#11330
+A Gloomy Hallway~
+   This gloomy hallway extends northward from the second floor foyer.  This
+section of the tower appears to be the spellcasting training area, and
+studies associated within that genre of skills.  This area is much cleaner
+than the first floor, and hardly any trolls or ogres are allowed down this
+hallway, except for the burly ogre guard.  To the east and west lie different
+study rooms for the students.
+~
+113 0 0
+D1
+A small study, littered with spellbooks, lies towards the east.
+~
+~
+0 0 11331
+D2
+The second floor foyer lies to the south.
+~
+~
+0 0 11328
+D3
+A foul stench emanates from the west, where a pile of corpses have been
+piled into a nice circle.  A small sign warns of imminent death to those
+who dare disturb the training exercises in that room.
+~
+~
+0 0 11332
+S
+#11331
+&+mA Small Study, Littered With Spellbooks&n~
+   This small study appears to be the apprentice sorcerer's study.  There
+are several spellbooks, lying in piles about the room.  In the center of
+the room lies a magical circle, drawn in blood, for their conjuring and
+spellcasting area.  One of the clan elders, a drow elf, stands in the middle
+of the circle instructing the students on their form and technique.  Only
+three students are allowed in this area at one time.  Towards the west lies
+a gloomy hallway.
+~
+113 0 0
+D3
+A gloomy hallway lies towards the west.
+~
+~
+0 0 11330
+S
+#11332
+&+rA Bloody Room, &+LStocked With Corpses&n~
+   This room appears to be one of the most vile rooms in the entire tower.
+It is none other than the necromancer training room, where the young lads,
+who are the best apprentices in the tower, use their arcane powers to raise
+the dead into hideous undead.  Corpses are piled around the room in a circle,
+and in the center of the circle is where the training exercises take place.
+The majority of these corpses are enemies slain in battle, brought here
+by magical means, and dumped in a pile.  This room has an almost magical
+glow to it, which seems to preserve the corpses until they can be used.
+~
+113 0 0
+D1
+A gloomy hallway lies towards the east.
+~
+~
+0 0 11330
+S
+#11333
+A Hallway Filled With Darkness~
+   This hallway appears to be almost entirely dark, sometimes the darkness
+even has a magical warmth to it.  This section of the tower appears to be
+the priest's temple.  There are two different temples, one that worships to
+Lolth, and another to a lesser duergar god.  Towards the west appears to
+be a great shrine to Lolth, where many sacrafices are offered.  Towards
+the east appears to be a more simple temple, containing only a few duergar,
+most of them being students.
+~
+113 1 0
+D0
+The foyer of the second floor lies towards the north.
+~
+~
+0 0 11328
+D1
+A small duergar temple lies towards the east.
+~
+~
+0 0 11335
+D3
+A dark shrine to Lolth, lies towards the west.
+~
+~
+0 0 11334
+S
+#11334
+&+LA Dark Shrine, &+mDedicated To &+MLolth&n~
+   This shrine to Lolth appears to be one of the most important rooms in
+the tower, at least for the drow elves.  A priestess, dedicated to the
+glorious work of sacraficing to Lolth, stands at the top of an black-stone
+altar of Lolth.  The altar is most likely obsidian, however, it glows with
+a magical aura.  The body of the altar is that of Lolth, a spider with the
+face of a female drow.  Between the legs of the spider are spider webs, spun
+by small spiders, no bigger than 3 inches in diameter.  On top of the body
+lies a small place to which to offer the sacraficial victims.  Most often,
+these victims are small children, usually elven girls.  The priestess stands
+next to the altar, looking down on the child, and sacrafices it to Lolth.
+Such events can be observed at least once a week, and sometimes once a day
+after a successful raid.
+~
+113 1 0
+D1
+A dark hallway lies towards the east.
+~
+~
+0 0 11333
+S
+#11335
+&+rAn Unholy Duergar Shrine&n~
+   This duergar temple is quite simple, compared to the glorious drow elven
+temple to the west, which is run by a devious drow elven priestess.  The
+duergar live a more tribal existence, composing of clans and other different
+sects.  This duergar temple is run by a small male battle priest.  This
+temple seems to have the purpose of curing the sick and the dying, and
+has little to do with offering sacrafice to the gods.
+~
+113 1 0
+D3
+A hallway, covered in darkness, lies to the west.
+~
+~
+0 0 11333
+S
+#11336
+&+gA Moist Guard's Room&n~
+   This moist room seems to be directly situated above the slimy muddy
+room on the first floor, and enjoys the same kind of conditions as the
+first floor slimy pool.  A kuo-toan guard has been placed as the head
+guardian of the second floor.  His room is situated just east of the
+foyer of the second floor, where a large ogre guard stands watch.  He
+spends most of his days basking in the heat and moist air that rises
+from the vents in the floor.  He has a small window that looks out into
+the swamp below the back of the tower.
+~
+113 32769 0
+D3
+The second floor foyer lies towards the west.
+~
+~
+0 0 11328
+S
+#11337
+&+LThe Top of The Stairwell&n~
+   The top of the stairwell to the top floor of the tower is guarded by
+four large troll stair guards.  These guards have gone through all the
+training they could; they are almost like body guards to the masters of
+the top floor.  This area seems to be void of magical teleportation,
+allowing nobody to teleport in unexpected.  Towards the east lies
+an intersection of hallways.
+~
+113 134250497 0
+D1
+A pitch-black intersection lies towards the west.
+~
+door~
+3 11322 11338
+D5
+The bottom of the stairwell lies downward.
+~
+~
+0 0 11329
+S
+#11338
+&+LA Pitch-Black Intersection&n~
+   This pitch-black intersection is the heart of the top of the tower.
+To the west lies the stairwell, while in all other directions lie one
+of the masters.  There seems to be some sort of suspended blood trail
+rising straight up towards the ceiling, obviously being magical.  The
+floor is composed totally of bone, meaning this level of the tower was
+added after they first conquered it.
+~
+113 1216380992 0
+D0
+A small room lies north.
+~
+~
+0 0 11339
+D1
+A small room lies towards the east.
+~
+~
+0 0 11340
+D2
+A small room lies to the south.
+~
+~
+0 0 11341
+D3
+The top of the stairwell lies towards the west.
+~
+~
+1 0 11337
+D4
+A secret passage lies upward.
+~
+illusion~
+7 11321 11342
+S
+#11339
+&+cMaster Vinxinor's Quarters&n~
+&+L   Master Vinxinor is the great master of the goblin war hordes.  He
+&+Lis master swordsman, and has even picked up some spellcasting.  He
+&+Lis small sized, as all goblins are, and extremely light weight.  His
+&+Leyes seem to glow with a bloodlust, even in meditation.  His room composes
+&+Lthe northern side of the upper level of the tower. Everything from trophies
+&+Lto equipment chests lie around the room.  He has his own goblin sized bed
+&+Lon the left side of the room, while a window lies on the northern wall,
+&+Lwhich looks far down onto the samp below.  To the south is a pitch-black
+&+Lintersection.
+~
+113 1216380992 0
+D2
+The dark intersection lies towards the south.
+~
+~
+0 0 11338
+S
+#11340
+&+mThe Quiet Study of Arcanusinil&n~
+   Arcanusinil is the blood brother of Arcanusin, who is a member of the
+tower's inhabitants, who is currently out on a raid somewhere in the
+ice forest, or possibly the great tundra.  Arcanusinil, unlike his brother,
+does not practice the arts of a rogue, rather, he is a master sorcerer,
+able to almost cast at will.  His study is a vast one, composed of several
+book shelves, mostly containing spellbooks.  Arcanusinil is the leader of
+many of the raids, and has earned his position as the magical leader.
+~
+113 1216380992 0
+D3
+The dark intersection lies to the north.
+~
+~
+0 0 11338
+S
+#11341
+&+yA Large Filthy Room&n~
+   This large filthy room is home to the great troll mercenary, and such
+things as piles of hemp rope, belts of skulls, scalps, and other items
+he has collected have been piled up in the area.  The majority of the room
+is cluttered with weapons, armor, and trophies from his kills.  Towards
+the south wall is a window out looking the prairie before the tower.  On
+the east wall lies his bed, and the west wall trophies.  To the north
+lies the intersection.
+~
+113 1216380992 0
+D0
+The intersection lies to the north.
+~
+~
+0 0 11338
+S
+#11342
+&+cThe Illusionary Throne Room &+MOf Ximixix&n~
+    This misty filled room is the home of the entire operation of this tower.
+There was only one way to draw together the evil monks and anti-paladins,
+as well as the ogres and trolls together into one force, one unit.  A psionic
+lich has taken its place as the controller of the tower.  Not only does it
+mentally keep an influence on every member of the tower's regiment, but it
+also controls its own personal bodyguard, which happens to be a hideous
+shadow dragon from deep in the underdark.  This psionic lich was probably
+once an illithid or a drow elf, in either case, it had exceptional abilities,
+and a hatred for the races of the light.
+~
+113 1216380993 0
+D5
+The intersection lies downward.
+~
+illusion~
+1 0 11338
+S
+#11343
+&+yBy A Huge Rock, &+LIn The Swamp&n~
+   A huge rock has fallen from the trail above, revealing a passage
+up into the mountains.  Several foot prints can be seen in the mud of
+the swamp around this area.  In addition, several decaying corpses can
+be seen of adventurers who have fallen down off the trail, like this
+huge rock has done.  This huge rock has not only left a huge crater, but
+provided a place for several plants and insects to grow on.
+~
+113 0 7
+D3
+The swamp continues.
+~
+~
+0 0 11344
+D4
+The trail leads upward.
+~
+~
+0 0 11311
+S
+#11344
+&+LThe Back Of A Large Swamp&n~
+     This swamp is a small pocket between the tower and the mountain range.
+The only animals present in this swamp are a few large alligators, and a
+few crows flying overhead.  The shadow of the tower almost engulfs this
+swamp, covering it in darkness.  The swamp water reaches right up against
+the base of the tower towards the south.
+~
+113 0 7
+D1
+~
+~
+0 0 11343
+D2
+The swamp continues.
+~
+~
+0 0 11345
+S
+#11345
+&+LBeside the Tower, &+gIn the Swamp&n~
+   The swamp water reaches right up towards the tower here, and is
+even deep enough to swim in, implying that there is some way to swim
+down.  Towards the north, the swamp continues until it hits the mountain
+range.  Towards the east and the west are alligator burrows.  The majority
+of the swamp is void of life, and covered in darkness by the tower, even
+during the day.
+~
+113 0 7
+D0
+The swamp continues.
+~
+~
+0 0 11344
+D1
+An alligator burrow lies towards the west.
+~
+~
+0 0 11346
+D3
+An alligator burrow lies towards the west.
+~
+~
+0 0 11347
+D5
+The swamp continues downward, into the water.
+~
+~
+0 0 11348
+S
+#11346
+&+gA Large Alligator Burrow &+LIn The Swamp&n~
+   This large alligator burrow is just west of the main wall of the tower
+that comes right up to the swamp.  This large burrow contains a family of
+alligators that is in constant competition with the family of alligators
+just a ways off towards the west.  This area is mostly void of life, except
+for these two alligator families.  It is a good thing that several corpses
+are thrown out the tower windows everyday.
+~
+113 0 7
+D3
+The swamp continues.
+~
+~
+0 0 11345
+S
+#11347
+&+gA Small Alligator Burrow &+LIn The Swamp&n~
+  This small alligator burrow is home to at least six or seven alligators,
+who lie in constant competition for food with the alligators just a ways
+off towards the east.  Their only supply of food lies in the adventurers
+that travel this way, the corpses that are thrown out of the tower windows,
+and any wandering mountain goats that fall off the mountain ledges into
+the swamp.  Of course, there are very few fish in this area, and not enough
+to support these two alligator families.
+~
+113 0 7
+D1
+The swamp continues.
+~
+~
+0 0 11345
+S
+#11348
+&+BBelow The Swamp&n~
+   The swamp water reaches down quite aways, until finally it hits a
+small cave entrance underneath the tower towards the south.  The surface
+of the swamp lies upward.  This area seems to be almost void of life, with
+few fishes, and little alligator activity this deep into the water.  There
+seem to be few travellers who venture this far, however, there still remain
+the decomposing corpses of travellers who have tried and drowned.
+~
+113 32 9
+D0
+~
+~
+0 0 30172
+D2
+A large cave lies toward the south.
+~
+~
+0 0 11349
+D4
+The swamp surface lies upward.
+~
+~
+0 0 11345
+S
+#11349
+&+LA Large, &+gSlimy Cave&n~
+   This large slimy cave is home to several kuo-toan, who can not live
+in the dry enviornment of the tower, and need the swamp-like conditions.
+This cave extends towards the south, while heading northward into the
+swamp.  The kuo-toan who live down here find it quite relaxing, and often
+eat alligators that they catch in the swamp.  This also serves as the
+emergency exit of the tower.
+~
+113 0 0
+D0
+The swamp continues.
+~
+~
+0 0 11348
+D2
+The cave continues.
+~
+~
+0 0 11350
+S
+#11350
+&+LBelow a &+GMucky Pool&n~
+   This slimy mucky pool is like a home to the kuo-toan, it reminds them
+of their home, and is actually quite like their home.  Guards have been
+posted at each access point to the pool.  These kuo-toan guards seem to
+have found a new life and meaning working for the tower that they haven't
+experienced elsewhere.
+~
+113 0 0
+D0
+The cave continues.
+~
+~
+0 0 11349
+D4
+The pool lies upward.
+~
+~
+0 0 11326
+S

@@ -1,0 +1,1927 @@
+#9300
+&+LThe Top of the Tower&N~
+   The room is quite large with many candles lighting the walls.
+Many shelves are on the wall which hold many potions and scrolls.
+Through the window lies a vast wilderness beyond. A workbench lies
+directly in the middle of the room, and on it are strange evil runes.
+A large wooden staircase leads to the lower levels of the tower.
+~
+93 134250504 0
+D5
+The lower levels of the tower.
+~
+trapdoor door~
+2 9336 9301
+S
+#9301
+&+LPolished Obsidian &+wStaircase&N~
+  The wooden stairs lead from the main floor to then laboratory
+at the top of the tower. Four exits lead in all directions to
+various quarters of the Tower's residents.
+~
+93 8 0
+D0
+~
+~
+0 -1 9302
+D1
+~
+~
+0 -1 9308
+D2
+~
+~
+0 -1 9306
+D3
+~
+~
+0 -1 9304
+D4
+The large room at the top of the tower.
+~
+trapdoor door~
+3 9336 9300
+D5
+The first level of the tower.
+~
+~
+0 -1 9310
+S
+#9302
+&+LA Cramped &+yStorage &+LChamber&N~
+  This room is more like a crawl space to an old room of the Tower. The light
+from the stairway peers through the southern exit. An exit to the west leads
+into darkness.
+~
+93 8 0
+D2
+A stairway.
+~
+~
+0 -1 9301
+D3
+~
+~
+0 -1 9303
+S
+#9303
+&+LA Musty Room&N~
+  This damp, musty room looks like it hasn't been touched in years. The walls
+are covered with dust and cobwebs. The floor is covered with a thick coating of
+dust. The only exit is the crawl space in the east wall.
+~
+93 134250505 0
+D1
+~
+~
+0 -1 9302
+S
+#9304
+&+LA Small &+yLiving &+LArea&N~
+   The room has a drop-ceiling and dark paneling. A warm radiance fills the
+room, which seems to be coming from a glowing door in the south wall. Some
+furniture lays about the room in a disorderly fashion, but the way is clear
+enough to walk.
+~
+93 8 0
+D1
+A stairway.
+~
+~
+0 -1 9301
+D2
+A glowing door.
+~
+door~
+1 -1 9305
+S
+#9305
+&+LA &+wB&+Ll&+wa&+Lc&+wk &+LMage&+w'&+Ls &+wL&+La&+wb&+Lo&+wr&+La&+wt&+Lo&+wr&+Ly&N~
+  The laboratory is cramped for space, many magical items are
+locked in cabinets here. A small table in the corner appears to
+contain the mage's work. The magical force here is greater than
+in the room before.
+~
+93 134250504 0
+D0
+~
+door~
+1 -1 9304
+S
+#9306
+&+LA Grim &+WPeaceful &+LRoom&N~
+  This room feels safe enough to rest in, A magical force seems to
+block all evil. A large sign here says "NO GUARDS WELCOME!"
+~
+93 131084 0
+D0
+~
+~
+0 -1 9301
+D1
+~
+~
+0 -1 9307
+S
+#9307
+&+LA &+wCleric&+L'&+ws &+bBedroom&N~
+   The room is in great disarray the contents have been scattered all over the
+floor. A small brass bed is in the corner with small table beside it. On the
+table, strange markings can be seen.
+~
+93 134250504 0
+D3
+~
+~
+0 -1 9306
+S
+#9308
+&+LA &+WWarriors &+LPractice Room&N~
+  The room smells of great body odor; the locker room can be seen through an
+opening in the north wall. The strength of the warriors in this room is
+tremendous, but look more like Rookies to fighting.
+~
+93 8 0
+D0
+A resting room
+~
+~
+0 -1 9309
+D3
+A the stairway.
+~
+~
+0 -1 9301
+S
+#9309
+&+LA &+bDamp &+LLocker Room&+w~
+   The room smells of sweat and blood, many suits of equipment are in lockers
+on the north wall. The noise of sparring fighters can be imagined from beyond
+door in the south wall. A sign reads, "HARD WORK PAYS OFF, IN DEAD ENEMIES."
+~
+93 134250504 0
+D2
+~
+~
+0 -1 9308
+S
+#9310
+&+LPolished Obsidian &+wStaircase&N~
+    This is the main floor of the guards; an archway to
+the north leads into the barracks. The stairs go up and
+down from here.
+~
+93 8 0
+D0
+~
+~
+0 -1 9311
+D4
+~
+~
+0 -1 9301
+D5
+~
+~
+0 -1 9319
+S
+#9311
+&+wEntrance to the &+LTower &+rGuardians &+LBarracks&N~
+   The barrack guards seem much calmer than those on
+ patrol, they smile and go about their business around the
+ room. The barrack continue on through an opening in the
+ north wall. The Tower's stairway lies though an archway
+ to the south.
+~
+93 8 0
+D0
+~
+~
+0 -1 9314
+D1
+~
+~
+0 -1 9313
+D2
+~
+~
+0 -1 9310
+D3
+~
+~
+0 -1 9312
+S
+#9312
+&+wThe South-western Corner of the &+LBarracks&+w~
+  The barracks continue north and east. A small door is closed in
+the southern wall. Many bunks line the walls, with their owner's
+belongings laid out all over.
+~
+93 8 0
+D0
+~
+~
+0 -1 9315
+D1
+~
+~
+0 -1 9311
+D2
+~
+door~
+1 -1 9317
+S
+#9313
+&+wThe South-eastern Corner on the &+LBarracks&N~
+   More bunks are here against the wall. The barracks storeroom
+is to the south, while the barracks continue north and west.
+~
+93 8 0
+D0
+~
+~
+0 -1 9316
+D2
+~
+~
+0 -1 9318
+D3
+~
+~
+0 -1 9311
+S
+#9314
+&+wNorthern End of the &+LBarracks&N~
+   Many guards are here talking and minding their own business, they pass by
+without a word. A desk is here, which is the desk of the barrack's Chief.
+~
+93 134250504 0
+D1
+~
+~
+0 -1 9316
+D2
+~
+~
+0 -1 9311
+D3
+~
+~
+0 -1 9315
+S
+#9315
+&+wThe North-western Corner of the &+LBarracks&N~
+   More bunks are mounted on the wall here, the barracks continue to the east
+and south.
+~
+93 8 0
+D1
+~
+~
+0 -1 9314
+D2
+~
+~
+0 -1 9312
+S
+#9316
+&+wThe North-eastern Corner of the &+LBarracks&N~
+    This room is dark with a great musty smell, A little light pours
+ through a small window in the north wall. The barracks continue south
+ and west.
+~
+93 8 0
+D2
+~
+~
+0 -1 9313
+D3
+~
+~
+0 -1 9314
+S
+#9317
+&+LA Small Closet&N~
+   Many items are scattered throughout the room, many look
+ to be quite valuable, but are out of reach in the rafters.
+ The room is very dim, so its hard seeing what some of the
+ items are.
+~
+93 134250505 0
+D0
+~
+door~
+1 -1 9312
+S
+#9318
+&+LThe Barrack&+w'&+Ls &+rArmory&N~
+  This is the armor storage facility of the Tower Guardians, other old armors
+lie in a pile to be melted down, but something new may be able to be salvaged.
+~
+93 8 0
+D0
+~
+~
+0 -1 9313
+S
+#9319
+&+LThe Bottom of the Grand &+wStaircase&N~
+   The Tower's Grand Staircase is gleaming here. It is made of
+a shiny marble-like stone, and looks beautiful is its surroundings.
+The stairs lead up to the upper levels of the Tower, and the Entry Hall
+is through an archway to the south.
+~
+93 134250504 0
+D2
+The entry hall.
+~
+~
+0 -1 9326
+D4
+The first level of the tower.
+~
+~
+0 -1 9310
+S
+#9320
+&+LA Large &+wHallway&N~
+  This is the dark back hallway of the Tower, the entrance to the tower's
+temple is to the north. The back hallway continues to the south.
+~
+93 134250504 0
+D0
+The Tower's Temple.
+~
+~
+0 -1 9321
+D2
+The back hallway continue south into darkness.
+~
+~
+0 -1 9327
+S
+#9321
+&+wEntrance &+Lto the &+WTemple&N~
+   This is the foyer of the Temple, its walls are made of shiny marble. The
+altar is to the west of here, and the tower's back hallway leads south.
+~
+93 8 0
+D2
+~
+~
+0 -1 9320
+D3
+~
+~
+0 -1 9322
+S
+#9322
+&+LThe &+wTemple &+LAltar&N~
+   The large altar bears symbols of the many great gods, people
+are praying here all around. The altar radiates evil energy, and
+wards on the wall protect the temple from good influences.
+~
+93 134250508 0
+D1
+The temple entryway.
+~
+~
+0 -1 9321
+S
+#9323
+&+LNorthern End of the &+wHall&N~
+   This is the end of the western hall, the hall continues south. A large
+stairway leading down to the lower levels, which smell of dirt and must.
+~
+93 8 0
+D2
+The western hallway leading south.
+~
+~
+0 -1 9324
+D5
+Darkness.
+~
+~
+0 -1 9335
+S
+#9324
+&+LThe Western &+wHallway&N~
+  Many pictures on the wall are of the many past occupants of the
+Tower, they line the east and west walls. The end of this hallway
+is to the north and a T-Intersection is to the south.
+~
+93 134250504 0
+D0
+The northern end of the hallway.
+~
+~
+0 -1 9323
+D2
+The T-Intersection is to the south.
+~
+~
+0 -1 9325
+S
+#9325
+&+LThe T-Intersection&N~
+   This is an intersection of the western hall of the Tower
+and the entry hall, a door leads to a small closet in the
+south wall. The tower's western hallway extends north of here,
+and the entry hall is  to the east.
+~
+93 8 0
+D0
+The western hallway.
+~
+~
+0 -1 9324
+D1
+The Entry Hallway.
+~
+~
+0 -1 9326
+D2
+~
+door~
+1 -1 9328
+S
+#9326
+&+LThe Entry &+wHallway&N~
+  This is the grand entry hallway of the Tower. An archway to the north
+leads to the grand stairs of the Tower. The great doors to the tower
+are to the south, and to the west is an intersection.
+~
+93 134250504 0
+D0
+The great staircase of the Tower.
+~
+~
+0 -1 9319
+D2
+The great doors of the Tower.
+~
+~
+0 -1 9329
+D3
+A T-Intersection.
+~
+~
+0 -1 9325
+S
+#9327
+&+LThe Eastern &+wHallway&N~
+   The hallway leads north and south, to the north lies the Tower's
+ Temple. To the south a turn in the back corridor.
+~
+93 8 0
+D0
+A large hallway.
+~
+~
+0 -1 9320
+D2
+A turn in the hall lies south
+~
+~
+0 -1 9330
+S
+#9328
+&+LA Small Closet&N~
+  This is the main level's musty storage closet, the only exit
+is a door to the north.
+~
+93 134250504 0
+D0
+A T-Intersection.
+~
+door~
+1 -1 9325
+S
+#9329
+&+LInside the Tower of &+GH&+gi&+Gg&+gh &+GS&+go&+Gr&+gc&+Ge&+gr&+Gy&N~
+   This is the inside of the Tower of High Sorcery. The great doors of the of
+the tower are south, and the entry hall and stairway are to the north. A long
+hallway leads east.
+~
+93 9 0
+D0
+The entry hallway.
+~
+~
+0 -1 9326
+D1
+A bend in the corridor.
+~
+~
+0 -1 9330
+D2
+The path outside the tower.
+~
+door gate~
+2 9300 9331
+S
+#9330
+&+LA Bend in the &+wCorridor&N~
+   This is the entrance to the musty back corridor of the tower.
+The hallway continues to the north, and the doors of the tower
+are to the west.
+~
+93 8 0
+D0
+The eastern hallway.
+~
+~
+0 -1 9327
+D3
+The great doors of the Tower.
+~
+~
+0 -1 9329
+S
+#9331
+&+LOutside the Tower of &+GH&+gi&+Gg&+gh &+GS&+go&+Gr&+gc&+Ge&+gr&+Gy&n~
+   Here stands the great doors of the Tower, a magical aura surrounds the
+exterior walls. Lighting repeated strikes to top of the Tower. The doors are to
+the north, and the dark path is to the south.
+~
+93 134250497 0
+D0
+The Tower.
+~
+door gate~
+2 9300 9329
+D2
+The dark path to the city.
+~
+~
+0 -1 9332
+S
+#9332
+&+LThe Dark Path&N~
+  The path leads north to the Tower of High Sorcery, and the dark path
+continues to the west.
+~
+93 0 2
+D0
+The large Tower of High Sorcery.
+~
+~
+0 -1 9331
+D3
+The Dark Path Continues.
+~
+~
+0 -1 9333
+S
+#9333
+&+LThe Dark Path&N~
+   The path continues to the east and south, and to the north-east
+ lies a large, black tower.
+~
+93 0 2
+D1
+The Dark Path.
+~
+~
+0 -1 9332
+D2
+The Dark Path.
+~
+~
+0 -1 9334
+S
+#9334
+&+LThe Entrance to a Dark Forest Path&N~
+   The forest gets thicker here, a path continues through the thick underbrush
+to the north.
+~
+93 0 2
+D0
+The Dark Path.
+~
+~
+0 -1 9333
+D2
+~
+~
+0 0 529230
+S
+#9335
+&+LThe Lower &+wStairway&N~
+   The air is musty and damp, the smell almost unbearable. The stairway
+continues up and down. An archway lead west to the store rooms of the Tower.
+~
+93 8 0
+D3
+The storerooms of the keep are visible.
+~
+~
+0 -1 9336
+D4
+The northern hallway.
+~
+~
+0 -1 9323
+D5
+The prison of the Tower is on the level below.
+~
+~
+0 -1 9344
+S
+#9336
+&+LSouthern &+wHallway&N~
+   The hallway is lined with storage rooms for various items in the keep. The
+hallway continues north, the stairs are east, and a closet is in the west wall.
+~
+93 8 0
+D0
+The hallway continues.
+~
+~
+0 -1 9339
+D1
+The lower stairway.
+~
+~
+0 -1 9335
+D3
+A large oak door.
+~
+door oak~
+1 -1 9337
+S
+#9337
+&+LA &+rM&+Re&+ra&+Rt &+LLocker&N~
+   Its rather cold in here. Many hooks are on tracks which are nailed to the
+rafters above. A large oak door is in the east wall.
+~
+93 8 0
+D1
+A large oak door.
+~
+door oak~
+1 -1 9336
+S
+#9338
+&+LA &+CR&+We&+Cfr&+Wi&+Cg&+We&+Cr&+Wa&+Ct&+We&+Cd &+LRoom&N~
+  This room is quite cramped because of its small size. A door is in the west
+wall which leads back to the hallway.
+~
+93 264 1
+D3
+A door.
+~
+door~
+1 -1 9339
+S
+#9339
+&+LA &+wHallway&N~
+  A large maple door leads to a storage room in the east wall, while a large
+pine door leads to a room to the west, and the hallway continues north and
+south. The floor here is slippery so take notice.
+~
+93 8 0
+D0
+The hallway.
+~
+~
+0 -1 9342
+D1
+A maple door.
+~
+maple door~
+1 -1 9338
+D2
+The southern hallway.
+~
+~
+0 -1 9336
+D3
+A pine door.
+~
+pine door~
+1 -1 9340
+S
+#9340
+&+LA Small, Dark &+yStorage &+LCloset&N~
+   Various goods were stored here, so look around, Something that
+had been left behind maybe lying here. A great stench of tobacco
+fills the air.
+~
+93 264 0
+D1
+A door.
+~
+door~
+1 -1 9339
+S
+#9341
+&+LA &+RS&+rl&+Ra&+ru&+Rg&+rh&+Rt&+re&+Rr &+LHouse&N~
+   Blood lays all over the floor, with the skins of many animals.
+A table in the corner in stained heavily with blood.
+~
+93 8 0
+D3
+A door.
+~
+door~
+1 -1 9342
+S
+#9342
+&+LNorthern &+wHallway&N~
+   The hall continues south, and a huge iron door leads east. A large purple
+door is in the west wall.
+~
+93 12 0
+D0
+The oak door is unremarkable.
+~
+door oak~
+1 0 9357
+D1
+A huge iron door.
+~
+iron door~
+1 -1 9341
+D2
+A hallway.
+~
+~
+0 -1 9339
+D3
+A large purple door.
+~
+purple door~
+1 -1 9343
+S
+#9343
+&+yA Storeroom&N~
+  This storeroom looks like a wine cellar, with many shelves mounted on each
+wall. The floor here is damp from some sort of liquid, maybe a leak from a
+shelf.
+~
+93 8 1
+D1
+A door
+~
+door~
+1 -1 9342
+S
+#9344
+&+LThe Bottom of the &+wStairs&N~
+&+L   This is the &+bprison &+Llevel of the tower.  The many vile creations of the &+revil&N
+&+bArchmage &+Lare imprisoned here.  The only exit is an opening to the west, and&N
+&+Llight pours down from up the stairs.&N
+~
+93 8 0
+D3
+A small room.
+~
+~
+0 -1 9345
+D4
+Up the stairs light rains down.
+~
+~
+0 -1 9335
+S
+#9345
+&+LA Rough, Cavernous Room&N~
+   Entering this cavern the surroundings are no longer smooth like the steps
+from the tower to this cavern. An archway leads north to the prison. A large
+cave opens up to the west, and a faint sound can be heard from the cave.
+~
+93 8 1
+D0
+The prison.
+~
+~
+0 -1 9348
+D1
+The stairs.
+~
+~
+0 -1 9344
+D3
+A large cave.
+~
+~
+0 -1 9346
+S
+#9346
+&+LThe &+wLarge &+LCave&N~
+   The stone walls of the cave are damp and slick with mud. A large cavern is
+to the east, it radiates a soft glowing light. The cave continues on to the
+west.
+~
+93 8 0
+D1
+A cavern.
+~
+~
+0 -1 9345
+D3
+A cave.
+~
+~
+0 -1 9353
+S
+#9347
+&+LThe &+wPrison &+LCell&N~
+   The cell continues north. The walls here are think and solid with monster
+excrement on the walls and floor.
+~
+93 134250504 1
+D0
+The Cell.
+~
+~
+0 -1 9350
+S
+#9348
+&+LThe Entrance to the &+wPrison&N~
+   The walls here are of solid stone. A locked golden door is in the northern
+wall. To the south an archway leads back to the cavern.
+~
+93 134250504 0
+D0
+A locked golden door.
+~
+golden door~
+2 9301 9351
+D2
+A large cavern.
+~
+~
+0 -1 9345
+S
+#9349
+&+LThe &+wPrison &+LCell&N~
+   The cell continues north. The walls here are think and solid with monster
+excrement on the walls and floor.
+~
+93 134250504 1
+D0
+The Cell.
+~
+~
+0 -1 9352
+S
+#9350
+&+LA &+wPrison &+LCell&N~
+   The cell continues south and east. The walls look in great disarray, with
+claw marks all over them.
+~
+93 134250504 1
+D1
+A cell.
+~
+~
+0 -1 9351
+D2
+A cell.
+~
+~
+0 -1 9347
+S
+#9351
+&+LInside the &+wPrison&N~
+   The prison cells continue east and west, and the way out is to the south.
+The monsters here are drooling, and looking for dinner.... A large sign here
+reads "I HOPE YOU HAVE YOUR SANCTUARY ON...*GRIN*".
+~
+93 134250504 0
+D1
+A cell.
+~
+~
+0 -1 9352
+D2
+A golden door.
+~
+golden door~
+2 9301 9348
+D3
+A cell.
+~
+~
+0 -1 9350
+S
+#9352
+&+LA &+wPrison &+LCell&N~
+   The cell continues south and east. The walls look in great disarray, with
+claw marks all over them.
+~
+93 134250504 1
+D2
+A cell.
+~
+~
+0 -1 9349
+D3
+A cell.
+~
+~
+0 -1 9351
+S
+#9353
+&+LA Cave&N~
+&+L  The large cave continues east and south from here, the sounds become louder&N
+&+Lnear the southern exit.  To the west is a large cave and the smell of rotting&N
+&+Lflesh.  A strange sinister looking &+Wskull &+Lsticks out of the western wall here.&N
+~
+93 8 0
+D1
+A cave.
+~
+~
+0 -1 9346
+D2
+A slick tunnel.
+~
+~
+0 -1 9354
+D3
+&+LA Diabolical Looking Dead End.&N
+~
+~
+8 0 9372
+S
+#9354
+&+LA &+gS&+Gt&+gi&+Gc&+gk&+Gy &+LTunnel&N~
+   A foreign substance seems to be sticking to the walls here though,
+but is out of reach. The cave continues north and west.
+~
+93 8 0
+D0
+A large cave.
+~
+~
+0 -1 9353
+D3
+An entrance to a lair.
+~
+~
+0 -1 9355
+S
+#9355
+&+rEntrance &+Lto the &+RLair&N~
+  The room lies outside a lair that lies to the south. The tunnel lies to the
+east.
+~
+93 8 0
+D1
+A tunnel.
+~
+~
+0 -1 9354
+D2
+A lair.
+~
+~
+0 -1 9356
+S
+#9356
+&+LA &+CS&+ci&+Cl&+cv&+Ce&+cr &+LDragon&+w'&+Ls Lair&N~
+   The room is magically warm, and quite large. A large fire in the middle of
+the room provides light.
+~
+93 134250504 0
+D0
+The lair entrance.
+~
+~
+0 -1 9355
+S
+#9357
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9358
+D2
+The door is large, and very sturdy looking.
+~
+door oak~
+1 9336 9342
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9358
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9359
+D2
+The hallway continues.
+~
+~
+0 0 9357
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9359
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D1
+The hallway of statues.
+~
+~
+0 0 9360
+D2
+The hallway of statues.
+~
+~
+0 0 9358
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9360
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D1
+The hallway continues.
+~
+~
+0 0 9361
+D3
+The hallway continues.
+~
+~
+0 0 9359
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9361
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D2
+The hallway continues.
+~
+~
+0 0 9362
+D3
+The hallway continues.
+~
+~
+0 0 9360
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9362
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9361
+D2
+The hallway continues.
+~
+~
+0 0 9363
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9363
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134254601 0
+D0
+The hallway continues.,
+~
+~
+0 0 9362
+D1
+The hallway continues.
+~
+~
+0 0 9364
+D2
+The hallway continues.
+~
+~
+0 0 9367
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9364
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D1
+The hallway continues.
+~
+~
+0 0 9365
+D3
+The hallway continues.
+~
+~
+0 0 9363
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9365
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D2
+The hallway continues.
+~
+~
+0 0 9366
+D3
+The hallway continues.
+~
+~
+0 0 9364
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9366
+&+bEnd &+Lof the Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway comes to an end here, heading back to the north a ways.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9365
+D5
+Nothing special there...
+~
+trapdoor trap~
+2 9337 9371
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9367
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9363
+D2
+The hallway continues.
+~
+~
+0 0 9368
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9368
+&+LThe Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway continues along like this for quite some distance.
+~
+93 134262793 0
+D0
+The hallway continues.
+~
+~
+0 0 9367
+D3
+The hallway continues.
+~
+~
+0 0 9369
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9369
+&+LDismal End in The Hallway of &+wStatues&N~
+   This long, narrow hallway is lined on both sides by hundreds of
+beautiful statues.  They are closely packed together along the walls,
+each a sculpting of some unknown, and probably long dead individual.
+The hallway comes to an end upon a wooden door here.
+~
+93 134262793 0
+D1
+The hallway continues.
+~
+~
+0 0 9368
+D3
+The door is rather unremarkable.
+~
+door wooden~
+1 0 9370
+E
+statue statues~
+&+L   They are very well carved, and each stand about six feet tall.  They seem to&N
+&+Lbe made from iron, or some other very heavy &+cmetal&+L, and probably each weigh&N
+&+Lhundreds of pounds.&N
+~
+S
+#9370
+&+wS&+Lm&+wa&+Ll&+wl &+LC&+wh&+La&+wm&+Lb&+we&+Lr&N~
+   This chamber is only about ten feet around, all glowing with the pale
+green flames of some powerful magical spell.  There is nothing special
+about the room other than these flames, no furniture or indication of
+its purpose.  The only exit seems to be the door leading out to the east.
+~
+93 201371788 1
+D1
+The door is rather unremarkable.
+~
+door wooden~
+1 0 9369
+S
+#9371
+&+LThe &+bPrison &+LChamber&N~
+   This chamber is about thirty feet around, and smells utterly horrible.
+The stench of death sits heavily upon the air, augmented by the many
+torture devices scattered around the room, makes this place look quite
+scary and foreboding.  There seem to be no exits, not even the trapdoor
+in the ceiling is assessable for some reason, probably protected by a
+spell of some sort to prevent escape.  This is indeed a place of death.
+~
+93 1208004620 1
+D4
+~
+~
+2 9337 9366
+S
+#9372
+&+LA Diabolical Looking Dead End&N~
+&+L  The floor of this dead end is filled with vile blackish muck that rises about&N
+&+La foot of the floor.  There are unlit torches lining the &+wstone &+Lwalls, though it&N
+&+Lappears as the tunnel is too &+bdamp &+Lto light them.  The tunnel comes to an abrupt&N
+&+Lend to the east and continues the west, though you feel a eerie &+Bchill &+Lcome over&N
+&+Lyou as you look into the &+bdarkness &+Lwestward. There is a &+Ggoblin &+Lspine in the wall&N
+&+Lto your left.&N
+~
+93 1207992321 15
+D1
+&+L   This does not look like a bat cave.&N
+~
+~
+8 0 9353
+D3
+&+L   The dead end seems to lead back into the tunnel in this general direction.&N
+~
+~
+0 0 9373
+S
+#9373
+&+LA Diabolical Foreboding Tunnel&N~
+&+L   The tunnel continues westward, leading slightly downward.  There are several&N
+&+Lburnt out torches on both sides of the narrowing passageway.  The blackish muck&N
+&+Lgets about a half foot deeper, making traveling quite harder.  You can hear the&N
+&+Lrushing of &+bwater &+Lto the west, though it smells of death.  The diabolical tunnel&N
+&+Lcontinues eastward away from the bridge.&N
+~
+93 1207992577 15
+D1
+&+L   The tunnel leads to what appears to be a dismal diabolical dead end.&N
+~
+~
+0 0 9372
+D3
+&+L   The tunnel leads to what appears to be some sort of dilapidated bridge.&N
+~
+~
+0 0 9374
+S
+#9374
+&+LA Diabolical Dilapidated Bridge&N~
+&+L   This old bridge has fallen into dilapidated dismal diabolical ruins.  Sounds&N
+&+Lof &+bwater &+Land other things seem to be coming from below.  A ghastly odor lingers&N
+&+Lwithin the ghastly musty air.  Perhaps there was a time that this area radiated&N
+&+Lwith life and thrived.  Those days are long ago, a mysterious &+Wm&+wi&+Ws&+wt &+Ldrifs here.&N
+~
+93 1207992577 15
+D1
+&+L   The dilapidated bridge leads to a narrowing tunnel to the east.&N
+~
+~
+0 0 9373
+D3
+&+L   The bridge seems to lead to a diabolical dismal dead end in this direction.&N
+~
+~
+0 0 9375
+D5
+&+y   The bridge leads down to a dreary looking dreadful desolate dock.&N
+~
+~
+0 0 9376
+S
+#9375
+&+LA Foreboding Diabolical Dead End&N~
+&+L   The tunnel continues eastward, leading slightly downward.  There are several&N
+&+Lburnt out torches on both sides of the narrowing passageway.  The blackish muck&N
+&+Lgets about a half foot deeper, making traveling quite harder.  You can hear the&N
+&+Lrushing of &+bwater &+Lto the east, though it smells of death.  The diabolical tunnel&N
+&+Lcontinues eastward towards a dilapidated bridge.&N
+~
+93 1207992577 15
+D1
+&+L   The foreboding dead end seems to lead to a ruined bridge in this direction.&N
+~
+~
+0 0 9374
+S
+#9376
+&+yA Dreadful Decayed Desolate Dock&N~
+&+L   This dreadful &+ydock &+Lshows indications at one time it might of been an awesome&N
+&+Lsight to behold.  Yet the rigors of time have started to take a very heavy foul&N
+&+Ltoll on this structure.  There is a small &+bstream &+Lthat leads off into the dreary&N
+&+Lsinister south.  While a stairway leads up into the foreboding darkness above.&N
+~
+93 1207992325 15
+D2
+&+L   The dismal dreadful bridge leads to a dreary looking &+Blake &+Lin this direction.&N
+~
+~
+0 0 9377
+D4
+&+L   The stairs in this direction seem to lead to the top of a dreadful bridge.&N
+~
+~
+0 0 9374
+S
+#9377
+&+BA Foul &+bUnderground &+BLake&N~
+&+b   The foreboding diabolical waters of this &+Blake &+bare very cold and murky.  Foul&N
+&+bbits of fabric and other debris float on the sinister dreary surface.  Several&N
+&+bsounds of splashing seem like they are emanating from the south.  A mysterious&N
+&+bstructure can be seen rising up to the north.  Perhaps it is a &+Ltower &+bthat was&N
+&+bbuilt many years ago to protect these lands from invaders.&N
+~
+93 134250497 6
+D0
+&+L   The foul &+Blake &+Lleads to a decayed dreadful looking &+ydock &+Lin this direction.&N
+~
+~
+0 0 9376
+D1
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9380
+D2
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9378
+S
+#9378
+&+BA Foul &+bUnderground &+BLake&N~
+&+b   The foreboding diabolical waters of this &+Blake &+bare very cold and murky.  Foul&N
+&+bclumps of fabric and other debris float on the dismal ghastly surface.  Several&N
+&+bsounds of splashing appear like they are emanating from the east.  A mysterious&N
+&+bstructure can be seen rising up to the north.  Perhaps it is a &+Ltower &+bthat was&N
+&+bbuilt many years ago to protect these lands from invaders.&N
+~
+93 134250497 6
+D0
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9377
+D1
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9379
+S
+#9379
+&+BA Foul &+bUnderground &+BLake&N~
+&+b   The foreboding diabolical waters of this &+Blake &+bare very cold and murky.  Foul&N
+&+bclumps of fabric and other debris float on the abysmal dreary surface.  Several&N
+&+bsounds of splashing appear like they are emanating from the west.  A mysterious&N
+&+bstructure can be seen rising up to the north.  Perhaps it is a &+Ltower &+bthat was&N
+&+bbuilt many years ago to protect these lands from invaders.&N
+~
+93 134250501 6
+D0
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9380
+D1
+&+L   The foul &+Blake &+Lleads to a &+bslippery &+Llanding in this general direction.&N
+~
+~
+0 0 9381
+D3
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9378
+S
+#9380
+&+BA Foul &+bUnderground &+BLake&N~
+&+b   The foreboding diabolical waters of this &+Blake &+bare very cold and murky.  Foul&N
+&+bbits of fabric and other debris float on the sinister dreary surface.  Several&N
+&+bsounds of splashing seem like they are emanating from the south.  A mysterious&N
+&+bstructure can be seen rising up to the north.  Perhaps it is a &+Ltower &+bthat was&N
+&+bbuilt many years ago to protect these lands from invaders.&N
+~
+93 134250501 6
+D2
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9379
+D3
+&+B   This foul &+bunderground &+Blake appears to continue on in this direction.&N
+~
+~
+0 0 9377
+D5
+&+b   There seems to be a dismal diabolical underground cavern in this direction.&N
+~
+~
+0 0 9382
+S
+#9381
+&+LA Ghastly &+bSlippery &+LLanding&N~
+&+L   This &+bslippery &+Llanding seems like at one time it might of been more than some&N
+&+Lslabs of stone.  Perhaps it was a &+rguard &+Ltower that was used to defend attacks&N
+&+Lfrom several kinds of creatures.  Some faded stains of crimson seem to indicate&N
+&+Lthat battles have taken place here before.  The sound of &+Bs&+bp&+Bl&+ba&+Bs&+bh&+Bi&+bn&+Bg &+Lcan be heard&N
+&+Lcoming from the nearby west.&N
+~
+93 134250501 6
+D3
+&+L   This diabolical gloomy ghastly &+bslippery &+Llanding leads to a &+Blake &+Lto the west.&N
+~
+~
+0 0 9379
+S
+#9382
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D2
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9385
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9383
+D4
+&+b   The submerged &+Bcavern &+bseems to lead to a &+Blake &+bin this general direction.&N
+~
+~
+0 0 9380
+S
+#9383
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9382
+D2
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9384
+S
+#9384
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D0
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9383
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9385
+S
+#9385
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D0
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9382
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9386
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9384
+S
+#9386
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9387
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9385
+S
+#9387
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 1275068625 10
+D0
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9388
+D2
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9390
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9386
+S
+#9388
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9389
+D2
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9387
+S
+#9389
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9388
+S
+#9390
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D0
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9387
+D1
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9391
+S
+#9391
+&+bA Submerged &+BCavern&N~
+&+b   This submerged &+Bcavern &+bseems like it was not made from natural means.  Most&N
+&+blikely it was constructed or carved out by creatures with a purpose.  The walls&N
+&+bare jagged and appear to of been shaped out in a hurry.  Murky water makes it&N
+&+brather difficult to see things clearly.  Images seem to flicker and fade into&N
+&+band out of view.  Perhaps beings dwell within this diabolical foreboding place.&N
+~
+93 134250561 10
+D3
+&+b   The dismal submerged &+Bcavern &+bseems to continue on in this general direction.&N
+~
+~
+0 0 9390
+S
+#9392
+&+wMob Tower Dist Rooms&N~
+   &+wThis is a mob dist room for tower mobs...&N
+~
+93 176193600 0
+D0
+~
+~
+0 0 9393
+D1
+~
+~
+0 0 9399
+D2
+~
+~
+0 0 9399
+D3
+~
+~
+0 0 9399
+S
+#9393
+&+wMob Tower Dist Room&N~
+&+w   Yes this is another mob dist room for tower mobs.&N
+~
+93 176193600 0
+D0
+~
+~
+0 0 9394
+D1
+~
+~
+0 0 9399
+D2
+~
+~
+0 0 9392
+D3
+~
+~
+0 0 9399
+S
+#9394
+&+wMob Tower Dist Room&N~
+&+w   This is the only room the mobs have a chance to enter the tower.&N
+~
+93 176193600 0
+D0
+~
+~
+0 0 9339
+D1
+~
+~
+0 0 9345
+D2
+~
+~
+0 0 9393
+D3
+~
+~
+0 0 9330
+S
+#9395
+&+wMob Back Tunnel Dist Rooms&N~
+&+w   Mob dist rooms for the back way tunnel area past water.&N
+~
+93 176193600 0
+D0
+~
+~
+0 0 9396
+D1
+~
+~
+0 0 9399
+D2
+~
+~
+0 0 9399
+D3
+~
+~
+0 0 9399
+S
+#9396
+&+wMob Back Tunnel Dist Room&N~
+&+w   Mob dist room for tunnel area.&N
+~
+93 176193600 0
+D0
+~
+~
+0 0 9375
+D1
+~
+~
+0 0 9376
+D2
+~
+~
+0 0 9395
+D3
+~
+~
+0 0 9399
+S
+#9397
+&+wMob Submerged Cavern Dist Rooms&N~
+~
+93 176193600 0
+D0
+~
+~
+0 0 9398
+D1
+~
+~
+0 0 9399
+D2
+~
+~
+0 0 9387
+D3
+~
+~
+0 0 9399
+S
+#9398
+&+wMob Submerged Cavern Dist Rooms&N~
+~
+93 176193600 0
+D0
+~
+~
+0 0 9387
+D1
+~
+~
+0 0 9399
+D2
+~
+~
+0 0 9397
+D3
+~
+~
+0 0 9399
+S
+#9399
+&+LDiabolical Dimension of &+LB&+ls&+Le&+ls&+Lr&+ls&+Le&+ls&+Lt&+ls&+Lo&+ls&+Lr&+ls&+Ln&N~
+&+L   This diabolical dimension is where mobs check in, but they don't check out.&N
+~
+93 1319145688 0
+S

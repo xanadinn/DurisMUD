@@ -1,0 +1,613 @@
+#31100
+hooded merchant~
+&+La hooded merchant&n~
+&+LA hooded merchant stands here, peddling his wares.&n
+~
+&+LWith a slight nod in your direction, the merchant flashes a toothy
+&+Lgrin and asks.
+&+W        'Need anything before you set off?'
+~
+10 0 0 8 0 0 0 0 S
+PH 0 512 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31101
+mountain goat~
+&+Wa mountain goat&n~
+&+WA small mountain goat wanders the hills today.&n
+~
+&+WOne of the most familiar sights on just about any mountain is the
+&+Wrun-of-the-mill mountain goat. Like others it appears unkempt and
+&+Wshaggy and like those of other locations, extremely dimwitted.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31102
+mountain marmot~
+&+ya mountain marmot&n~
+&+yA fuzzy little mountain marmot wanders here.&n
+~
+&+yLike a small hedgehog or gopher, this marmot is a small little animal
+&+ythat enjoys nothing more than chasing and eating bugs and sleeping
+&+ythe long mountain days away between the rocks.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+7 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31103
+minotaur moneylender merv~
+&+LMerv, the mino&+rtaur&+L moneylender&n~
+&+LA large Mino&+rtaur &+Lmoneylender stands by the cliff here.&n
+~
+&+LThis burly minotaur glances up at you as you approach.&n
+&+W        'Watch your step.'&+L He warns.&n
+&+W        'Wan't me to hold your money for you?'&n
+~
+2058 0 0 0 0 0 0 0 S
+MT 0 0 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31104
+harpy guard~
+&+ya harpy guard&n~
+&+yA bare-breasted Harpy guard patrols the mountain summit.&n
+~
+&+yUsually the harpy females are in positions of power and authority,
+&+ylike this guard here who wanders the settlement with a perpetual scowl on
+&+yher face.  This settlement here seems fairly relaxed compared to others,
+&+ywhereas even the slightest disrespect would cause one of the guards to
+&+yunleash her whip and punish the wrongdoer severely.&n
+~
+1140852744 0 0 0 0 0 0 0 S
+MH 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31105
+baby roc~
+&+ya baby &+Wroc&N~
+&+yA baby &+Wroc&+y sqawks while waiting for its mother.&n
+~
+&+yBut only a fraction of what this bird will one day become, the baby
+&+Wrocs&+y are extremely vunerable at this stage in life.  If the &+Wroc&n
+&+ysurvives the egg stage, constantly being tormented by large lizards
+&+yand snakes, and even the local Harpies as food, they must fight for
+&+ysurvival while they are small, against the numerous other predators
+&+ythat would like nothing more than to make a meal of it.&n
+~
+2058 0 0 0 0 0 0 0 S
+B 0 0 -1
+8 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31106
+gargoyle~
+&+La gar&+wgo&+Lyle&n~
+&+LA newly raised Gargoyle sits perched here.&n
+~
+&+LA gargoyle is the undead form of a harpy, raised by powerful magic,
+&+Lto live again in undeath. It still mantains much of its former physical
+&+Lform and abilities, but is slightly more frail.&n
+~
+2058 0 0 1048576 0 0 0 -1000 S
+MG 0 0 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31107
+harpy ethermancer guard~
+&+ya harpy &+wethermancer&n~
+&+yAn imposing Harpy &+wethermancer &+yguards his queen.&n
+~
+&+yThis harpy specialized in the magic of the ethermancers. Able to
+&+ycontrol the powers of wind and ice.  Most all harpies are adept at
+&+ysome sort of magic, though ethermancy is usually their most skilled.
+~
+67108874 0 0 0 0 0 0 1000 S
+MH 0 33554432 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31108
+enormous gargoyle~
+&+Lan enormous gar&+wgo&+Lyle&n~
+&+LAn enormous Gar&+wgo&+Lyle sits perched upon and ancient coffin.&n
+~
+&+LThis ghastly looking beast flicks a decayed tongue between its
+&+Lrotted fangs when it sees a new harpy approach.
+&+W        'You wish for enternal life?' &+LIt hisses.
+&+W        'Bring me corpses of Harpies ready for raising
+&+W        and in return I shall grant you the devestating
+&+W        power of undeath.  If you wish this path, ask me
+&+W           for unlife.'&n
+~
+1140852746 0 0 0 0 0 0 -1000 S
+MG 0 512 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31109
+harpy queen~
+&+ythe harpy queen&n~
+&+yThe Harpy Queen perches here, gazing out over her mountain kingdom.&n
+~
+&+yThe harpy queen is a benelovent ruler of this area of the harpy
+&+ysettlement. She is amazingly beautiful, in a strange and unique
+&+yway. Upon seeing new harpies to the area, unsure of which path
+&+yto choose and how to choose it, she speaks in a melodic voice.
+&+W        'A Harpy of light must prove itself, in but an action of
+&+W        unselfishness and righteous, show me the doings of your
+&+W        one good deed and I will enable you to walk the path of
+&+W        purity.'&n
+~
+67110923 0 0 0 0 0 0 1000 S
+MH 0 33554432 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31110
+mountain lion~
+&+ya mountain &+Ylion&n~
+&+yA large mountain &+Ylion&+y hunts along the trail here.&n
+~
+&+yMountain lions can go by several names, and their are several types
+&+yknown throughout the world, they all share one common similarity,
+&+ythey are all large cats. Usually with large teeth.&n
+~
+2056 0 0 0 0 0 0 0 S
+A 0 1 -1
+12 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31111
+commoner harpy~
+&+ya harpy commoner&n~
+&+yA common Harpy rests in his nest here.&n
+~
+&+yOne of the settlement's resident harpys, he has built his nest among
+&+ythe rocky cliffs of the mountain summit here, where he can hunt the ample
+&+ysupply of food for his family under the protection of the Queen.&n
+~
+2058 0 0 0 0 0 0 1000 S
+MH 0 8192 -1
+23 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31112
+elder female harpy~
+&+ya harpy commoner&n~
+&+yAn elder female Harpy perches here.&n
+~
+&+yOne of the local inhabitants of the harpy settlement. She is quite old
+&+yand frail and needs to be cared for by her kin.&n
+~
+2058 0 0 0 0 0 0 1000 S
+MH 0 512 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31113
+hideous harpy large~
+&+La hideous &+yharpy&n~
+&+LA large, menacing &+yHarpy&+L rests upon a pile of bones.&n
+~
+&+yThis harpy appears to be quite sinister as he slinks throughout
+&+ythe shadows of the mountainside. He has a nasty smirk on his face,
+&+ylike he is ready to turn around and stab anyone in the back.&n
+~
+1140852746 1 0 0 0 0 0 -1000 S
+MH 0 0 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31114
+mountain hare~
+&+ya mountain &+Whare&n~
+&+yA small mountain &+Whare&+y bounces around here.&n
+~
+&+yJust a regular looking rabbit that inhabits the mountain instead of
+&+ythe forest.  His fur is speckled with brown.&n
+~
+8 0 0 0 0 0 0 0 S
+A 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31115
+mother roc~
+&+ya mother &+Wroc&n~
+&+yA huge mother &+Wroc&+y looks after her younglings here.&n
+~
+&+yThis&+W roc&+y has reached full maturity in all its splendor.  By far
+&+ythe worlds largest bird, its size dwaves even dragons of the lesser
+&+yspieces. When it shrieks the echo can be heard from miles and miles
+&+yaround.  Now it is concerned for caring for its young.&n
+~
+67110922 0 0 0 0 0 0 0 S
+B 0 1 4
+42 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31116
+devious harpy~
+&+ya &+Ldevious&+y harpy&n~
+&+yA shifty-eyed &+Ldevious&+y Harpy slinks about here.&n
+~
+&+yThis harpy has a perpetual grimmance on his face, which gives his appearence as someone
+&+yquite angry and mean.  He slinks through the settlement, obviously up to no good.&n
+~
+67110924 0 0 1048576 0 0 0 -1000 S
+MH 0 65536 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31117
+bald eagle~
+&+ya &+Wbald &+Leagle&n~
+&+yA majestic &+Wbald&+L eagle&+y flies about the settlement.&n
+~
+&+yOne of nature's most majestic birds, this eagle swoops about the
+&+yarea letting out an omnious shriek before swooping down and snatching
+&+yup the next small critter that will become its dinner.&n
+~
+133128 0 0 0 0 0 0 0 S
+B 0 0 2
+6 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31118
+chained shackled dwarf~
+&+La chained &+Ydwarf&n~
+&+LA &+YDwarf &+Llies shackled to a cage here.&n
+~
+&+LThis poor &+Ydwarf&+L has found himself in quite a pickle.  Unlike the
+&+Lother harpy settlement on the mountain summit, these sinister harpies
+&+Lseem to have no problem capturing and-if the bones on the floor are
+&+Lany indication-eating stuff larger than goats and marmots, and it seems
+&+Lthis poor &+Ydwarf&+L is next. His eyes seem to plead &+W'Let me free!'&n
+~
+14 0 0 0 0 0 0 1000 S
+PM 0 0 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31119
+orc hiker~
+&+Lan orc hiker&n~
+&+LAn Orc rests here after a long hike.&n
+~
+&+LThis orc is exhausted from the long hike so far. He quickly takes
+&+Ladvantage of the lookout point to grab some much needed sleep on
+&+Lalmost comfortable terrain.&n
+~
+67110922 0 0 0 0 0 0 -1000 S
+HO 0 0 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31120
+harpy commoner~
+&+ya harpy commoner&n~
+&+yA resident Harpy flies through the settlement here.&n
+~
+&+yOne of the settlement's local residents, this harpy flies around the
+&+yarea performing his daily tasks.  Despite a lack in power compared to
+&+yhis female counterparts, he still appears rugged and experienced.&n
+~
+1073743880 0 0 0 0 0 0 500 S
+MH 0 1 -1
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31121
+mountain lion~
+&+ya mountain &+Ylion&n~
+&+yA mountain &+Ylion&+y slinks through the trails here.&n
+~
+&+yLike many of its cousins, this mountain lion is just a very large
+&+ycat, with large teeth, and the ability to bounce across the rocky
+&+yterrain of the mountain side like a olympic athlete.&n
+~
+2056 0 0 524288 0 0 0 0 S
+A 0 1 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31122
+adolescent harpy~
+&+yan adolescent harpy&n~
+&+yAn adolescent Harpy scrounges the settlement for food.&n
+~
+&+yThis fellow is a harpy in his early years, though still average
+&+ysize for their kind. He has yet to learn the ways of magic, and
+&+yspends most of his days hunting for food throughout the mountainside.
+~
+2056 0 0 0 0 0 0 500 S
+MH 0 1 -1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31123
+rock lizard~
+&+ya &+Lrock&+y lizard&n~
+&+yA small, but vicious, &+Lrock&+y lizard lurks here.&n
+~
+&+yThis lizard seems to have quite the volatile temper for it seems to
+&+ylash out at almost anything that crosses it path.  Unfortuately for it,
+&+yit is so small, one could almost step on it.&n
+~
+8 1 0 1048576 0 0 0 0 S
+R 0 0 1
+2 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31124
+harpy khan~
+&+ya harpy khan&n~
+&+yAn imposing Harpy khan perches here, watching the area intently.&n
+~
+&+yThis evil looking harpy sneers in your general direction, then speaks.&n
+&+W	'You wanna be evil eh? Then do me a little favor,
+&+W	The Queen treasures the local storm crow as her
+&+W	favorite pet, kill me one, and prove yourself.&n
+~
+1073743882 0 0 0 0 0 0 -1000 S
+MH 0 16384 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31125
+mountain vulture~
+&+ya mountain &+Lvulture&n~
+&+yA mountain &+Lvulture&+y has landed here to scavenge bits of food.&n
+~
+&+yThis vulture lives its entire life high up in the mountains. Unlike
+&+ythe vultures who scavenge carcasses below in the fields and savannahs,
+&+ythis breed will actually fight for its food, and hunts the small lizards
+&+yand animals that live around here.  However, it is no means above
+&+yscavenging either.&n
+~
+2060 0 0 0 0 0 0 0 S
+B 0 0 -1
+9 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31126
+adult wyvern mature~
+&+yan adult wyvern&n~
+&+yA large, mature wyvern makes its nest here.&n
+~
+&+yThe local wyverns on this mountain are some of the most tame in all the land.  Usually
+&+ythese beasts will lash out an almost anything that comes close to their nests, however
+&+ythis one appears quite docile. Despite that fact, it is probably for the best, since it does
+&+yappear still strong enough to rip a man or harpy to shreds.&n
+~
+1140852746 0 0 0 0 0 0 0 S
+DK 0 1 3
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31127
+young wyvern~
+&+ya young wyvern&n~
+&+yA young wyvern sleeps in its nest here.&n
+~
+~
+1073743882 0 0 0 0 0 0 0 S
+DK 0 0 2
+13 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#31128
+wizened ethermancer harpy ancient~
+&+ya ancient harpy&n~
+&+yAn ancient, wizened Harpy perches here.&n
+~
+&+yProbably the oldest Harpy in the entire settlement, this old and wise
+&+ycreature once helped to found this area for his kin. He has deep and
+&+yworn wrinkles lining his face, and his wings look withered and limp,
+&+ythough there is no doubt in anyones mind that his fraility extends any
+&+yfurther than his body, as his knowledge of the ethermancer arts extends
+&+yeven beyond that of the queen herself.
+~
+1140885514 0 0 0 0 0 0 1000 S
+MH 0 33554432 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31129
+mountain ocelot~
+&+ya mountain &+wocelot&n~
+&+yA mountain &+wocelot&+y bobs on the &+Bpool&+y here.&n
+~
+&+yThis cat-like creature keeps its large ears up and listening for danger
+&+yas it watches the area for prey.&N
+~
+2058 0 0 0 0 0 0 0 S
+B 0 0 -1
+4 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31130
+rock toad~
+&+wa rock &+ytoad&n~
+&+wA rock &+ytoad&+w splashes up and down the &+Bstream&+w.&n
+~
+&+yToads aren't famous for playing in water like their cousins, the
+&+yfrog. However the mountain toad basks most of the day in the mountain
+&+ysun, and has no problems with jumping in the stream to clean off now
+&+yand again.&n
+~
+2184 0 0 0 0 0 0 0 S
+R 0 0 1
+5 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31131
+thunder lizard~
+&+ya thu&+wnder liza&+yrd&n~
+&+yAn enor&+wmous thun&+yder liza&+wrd lumb&+wers thro&+yugh the val&+wley.&n
+~
+~
+2056 0 0 0 0 0 0 0 S
+R 0 0 5
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31132
+orc hiker~
+&+Lan orc hiker&n~
+&+LAn Orc hiker tries to get some sleep after an exhusting trek.&n
+~
+~
+67110922 0 0 0 0 0 0 -1000 S
+HO 0 0 -1
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#31133
+harpy guard~
+&+yan elite harpy guard&n~
+&+yAn elite Harpy guard stands watch before the Queen's nest.&n
+~
+&+yUsually the harpy females are in positions of power and authority,
+&+ylike this guard here who wanders the settlement with a perpetual scowl on
+&+yher face.  This settlement here seems fairly relaxed compared to others,
+&+ywhereas even the slightest disrespect would cause one of the guards to
+&+yunleash her whip and punish the wrongdoer severely.&n
+~
+67110922 0 0 0 0 0 0 0 S
+MH 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#31134
+salamander hatchling young~
+&+ya &+wsalamander&+y hatchling&n~
+&+yA young &+wsalamander&+y wanders through the valley.&n
+~
+~
+2058 0 0 0 0 0 0 0 S
+R 0 0 2
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31135
+massive salamander~
+&+ya massive &+wsalamander&n~
+&+yA massive &+wsalamander&+y tramples through the valley.&n
+~
+~
+2088 0 0 0 0 0 0 0 S
+R 0 0 4
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31136
+hulking gigasaur~
+&+ya hul&+gking gi&+ygasa&+gur&n~
+&+yA hul&+gking gig&+yasaur wan&+gders the va&+ylley&n
+~
+~
+1073743880 0 0 0 0 0 0 0 S
+R 0 1 4
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31137
+gargoyle~
+&+La gar&+wgo&+Lyle&n~
+&+LA vicious gargoyle guards the mineshaft.&n
+~
+~
+2058 1 0 1048576 0 0 0 -1000 S
+MG 0 32768 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#31138
+insidious lich~
+&+Lan insidious l&+mic&+Lh&n~
+&+LAn insidious l&+mic&+Lh has taken up residence in the shaft.&n
+~
+~
+1073743880 1 0 0 0 0 0 -1000 S
+UL 0 1024 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31139
+crab spider~
+&+La clattering crab spider&n~
+&+LA fist-sized crab spider clatters through the tunnel.&n
+~
+&+LA native creature to the mountains, this vicious little spider has
+&+Ltwo large pincers in place of its front legs. As it scurries across
+&+Lthe area it clacks its pincers together to emit a very loud, and very
+&+Lonimous sound.&n
+~
+1073743880 1 0 0 0 0 0 0 S
+TK 0 1 2
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31140
+storm crow~
+&+ca storm &+Lcrow&n~
+&+cA storm &+Lcrow&+c sits perched here.&n
+~
+~
+1073743882 0 0 0 0 0 0 0 S
+B 0 128 -1
+16 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31141
+angry sleeping griffon~
+&+yan angry &+Wgrif&+Yfon&n~
+&+yA &+Wgrif&+Yfon&+y is sprawled out here sleeping.&n
+~
+&+yThis griffon appears quite angry at being woken up during its nap,
+&+yit lets out an annoyed shriek and viciously swipes at the air.&n
+~
+1073743882 0 0 0 0 0 0 0 S
+B 0 128 4
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 0
+#31142
+crab spider monsterous~
+&+La monsterous crab spider&n~
+&+LA crab spider the size of a human child nests here.&n
+~
+&+LThis appears to be the king spider, or at least the largest so
+&+Ltherefore the alpha spider. He must have eaten alot to get to the
+&+Lsize he is, and looking about his lair shows some of the remains
+&+Lof the poor beings that managed to get trapped down here in his den,
+&+Land devoured.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+TK 0 1 3
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#31143
+devious harpy~
+&+ya &+Ldevious&+y harpy&n~
+&+yA &+Ldevious&+y Harpy hides in the &+Lcage&+y here, waiting for lunch.&n
+~
+&+yThis harpy has a perpetual grimmance on his face, which gives his appearence as someone
+&+yquite angry and mean.  He slinks through the settlement, obviously up to no good.&n
+~
+2058 1 0 24 0 0 0 -1000 S
+MH 0 65536 -1
+11 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

@@ -1,0 +1,203 @@
+#383
+&+rVillage of &+LWerrun&n~
+38383 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 38300 3 8 100 0 0 0
+*     west exit from "A Gravel Road Before a Bridge" to
+*     "Before a Hidden Shack" - open/blocked
+*
+D 0 38340 1 0 100 0 0 0
+*     east exit from "Before a Hidden Shack" to
+*     "A Gravel Road Before a Bridge" - open
+*
+D 0 38307 0 1 100 0 0 0
+*     north exit from "Inside the Village of Werrun" to
+*     "A Storage Shack" - closed
+*
+D 0 38336 2 1 100 0 0 0
+*     south exit from "A Storage Shack" to
+*     "Inside the Village of Werrun" - closed
+*
+D 0 38315 2 1 100 0 0 0
+*     south exit from "The Stables of Werrun" to
+*     "An Open Horse Ranch" - closed
+*
+D 0 38319 0 1 100 0 0 0
+*     north exit from "An Open Horse Ranch" to
+*     "The Stables of Werrun" - closed
+*
+D 0 38330 0 1 100 0 0 0
+*     north exit from "Before a Lavish Home" to
+*     "Malfun's Home" - closed
+*
+D 0 38331 2 1 100 0 0 0
+*     south exit from "Malfun's Home" to
+*     "Before a Lavish Home" - closed
+*
+D 0 38337 0 1 100 0 0 0
+*     north exit from "A Cottage Bar" to
+*     "The Bar Storage Room" - closed
+*
+D 0 38338 2 1 100 0 0 0
+*     south exit from "The Bar Storage Room" to
+*     "A Cottage Bar" - closed
+*
+D 0 38340 0 1 100 0 0 0
+*     north exit from "Before a Hidden Shack" to
+*     "An Abandoned Shack" - closed
+*
+D 0 38342 2 1 100 0 0 0
+*     south exit from "An Abandoned Shack" to
+*     "Before a Hidden Shack" - closed
+*
+D 0 38352 0 1 100 0 0 0
+*     north exit from "Inside the Village of Werrun" to
+*     "Werrun Corpse Storage" - closed
+*
+D 0 38364 2 1 100 0 0 0
+*     south exit from "Werrun Corpse Storage" to
+*     "Inside the Village of Werrun" - closed
+*
+D 0 38365 2 2 100 0 0 0
+*     south exit from "The Werrun Saddling Area" to
+*     "The Nightmare Stable" - closed/locked
+*
+D 0 38366 0 2 100 0 0 0
+*     north exit from "The Nightmare Stable" to
+*     "The Werrun Saddling Area" - closed/locked
+*
+D 0 38375 0 1 100 0 0 0
+*     north exit from "The Broken Soul" to
+*     "Storage Room of the Broken Soul" - closed
+*
+D 0 38376 2 1 100 0 0 0
+*     south exit from "Storage Room of the Broken Soul" to
+*     "The Broken Soul" - closed
+*
+D 0 38378 0 1 100 0 0 0
+*     north exit from "Entrance to a Dark Temple" to
+*     "Within the Temple of Night" - closed
+*
+D 0 38379 2 1 100 0 0 0
+*     south exit from "Within the Temple of Night" to
+*     "Entrance to a Dark Temple" - closed
+*
+*
+O 0 38316 1 38300 100 0 0 0        * a bush
+O 0 38300 1 38316 100 0 0 0        * a stone fountain
+O 0 38307 1 38333 100 0 0 0        * a desk
+P 1 38309 1 38307 100 0 0 0        *   a black scroll
+P 1 38310 1 38307 100 0 0 0        *   a blue scroll
+O 0 38337 2 38336 100 0 0 0        * a large crate
+P 1 38305 4 38337 100 0 0 0        *   a potion of vigor
+P 1 38305 4 38337 100 0 0 0        *   a potion of vigor
+P 1 38305 4 38337 100 0 0 0        *   a potion of vigor
+O 0 38315 2 38338 100 0 0 0        * a crate of bottled ale
+O 0 38315 2 38338 100 0 0 0        * a crate of bottled ale
+O 0 38314 1 38338 100 0 0 0        * a box of cigars
+O 0 363 3 38338 100 0 0 0          * (object type not in this .obj file)
+O 0 363 3 38338 100 0 0 0          * (object type not in this .obj file)
+O 0 363 3 38338 100 0 0 0          * (object type not in this .obj file)
+O 0 368 1 38338 100 0 0 0          * (object type not in this .obj file)
+O 0 38317 1 38342 100 0 0 0        * a broken mirror
+O 0 38318 1 38344 100 0 0 0        * an perfect mirror
+O 0 38319 1 38361 100 0 0 0        * a bone fountain
+O 0 38337 2 38364 100 0 0 0        * a large crate
+O 0 38323 2 38376 100 0 0 0        * a large crate of blood wine
+O 0 38323 2 38376 100 0 0 0        * a large crate of blood wine
+O 0 38326 1 38380 100 0 0 0        * a large book by Vewon Etsh
+O 0 38311 1 38380 100 0 0 0        * an old book by Revan
+O 0 72 100 38381 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 38307 1 38301 100 0 0 0        * a peaceful bridge guard
+M 0 38311 4 38306 100 0 0 0        * a stray dog
+M 0 38310 6 38306 100 0 0 0        * a village guardian
+M 0 38300 4 38307 100 0 0 0        * a native merchant
+M 0 38310 6 38308 100 0 0 0        * a village guardian
+M 0 38311 4 38309 100 0 0 0        * a stray dog
+M 0 38310 6 38309 100 0 0 0        * a village guardian
+M 0 38300 4 38311 100 0 0 0        * a native merchant
+M 0 38310 6 38311 100 0 0 0        * a village guardian
+M 0 38311 4 38313 100 0 0 0        * a stray dog
+M 0 38310 6 38313 100 0 0 0        * a village guardian
+M 0 38311 4 38314 100 0 0 0        * a stray dog
+M 0 38302 1 38315 100 0 0 0        * the Werrun stable owner
+M 0 38300 4 38317 100 0 0 0        * a native merchant
+M 0 38300 4 38318 100 0 0 0        * a native merchant
+M 0 38303 6 38319 100 0 0 0        * a muscular horse
+M 0 38304 1 38322 100 0 0 0        * the horse trainer
+R 1 38303 6 38322 100 0 0 0        * a muscular horse (being ridden)
+M 0 38303 6 38323 100 0 0 0        * a muscular horse
+M 0 38303 6 38325 100 0 0 0        * a muscular horse
+M 0 38303 6 38326 100 0 0 0        * a muscular horse
+M 0 38303 6 38327 100 0 0 0        * a muscular horse
+M 0 38306 1 38328 100 0 0 0        * a shopkeeper
+G 1 38301 1 0 100 0 0 0            *    a lion-skin backpack
+G 1 38302 1 0 100 0 0 0            *    a lion-skin flagon
+G 1 38303 1 0 100 0 0 0            *    a slab of beef
+G 1 429 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 431 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 38305 1 38329 100 0 0 0        * a mage
+E 1 38306 1 18 100 0 0 0           *   a wand of heat
+G 1 38305 4 0 100 0 0 0            *    a potion of vigor
+M 0 38301 1 38332 100 0 0 0        * Malfun
+M 0 38312 2 38334 100 0 0 0        * a noble of Werrun
+M 0 38312 2 38335 100 0 0 0        * a noble of Werrun
+M 0 38309 1 38337 100 0 0 0        * a strong bartender
+M 0 38310 6 38337 100 0 0 0        * a village guardian
+M 0 38308 1 38339 100 0 0 0        * an old githzerai traveller
+G 1 38336 1 0 100 0 0 0            *    a small metal key
+M 0 38313 1 38346 100 0 0 0        * a skeletal bridge guard
+M 0 38315 5 38351 100 0 0 0        * a blood knight
+M 0 38315 5 38352 100 0 0 0        * a blood knight
+M 0 38315 5 38353 100 0 0 0        * a blood knight
+M 0 38316 4 38354 100 0 0 0        * a head hunter
+E 1 38331 4 16 100 0 0 0           *   a flesh hook
+M 0 38314 4 38354 100 0 0 0        * a hell hound
+M 0 38316 4 38355 100 0 0 0        * a head hunter
+E 1 38331 4 16 100 0 0 0           *   a flesh hook
+M 0 38314 4 38356 100 0 0 0        * a hell hound
+M 0 38316 4 38356 100 0 0 0        * a head hunter
+E 1 38331 4 16 100 0 0 0           *   a flesh hook
+M 0 38315 5 38358 100 0 0 0        * a blood knight
+M 0 38315 5 38359 100 0 0 0        * a blood knight
+M 0 38314 4 38360 100 0 0 0        * a hell hound
+M 0 38314 4 38362 100 0 0 0        * a hell hound
+M 0 38316 4 38362 100 0 0 0        * a head hunter
+E 1 38331 4 16 100 0 0 0           *   a flesh hook
+M 0 38318 1 38363 100 0 0 0        * a sinister archmage
+E 1 38321 1 16 100 0 0 0           *   a large flesh hook
+E 1 38320 1 20 100 0 0 0           *   a tight facemask of human flesh
+M 0 38319 1 38365 100 0 0 0        * a barbaric Werrun official
+G 1 38322 1 0 100 0 0 0            *    a skull-shaped key
+M 0 38320 6 38366 100 0 0 0        * an evil nightmare
+M 0 38320 6 38368 100 0 0 0        * an evil nightmare
+M 0 38320 6 38369 100 0 0 0        * an evil nightmare
+M 0 38320 6 38370 100 0 0 0        * an evil nightmare
+M 0 38320 6 38371 100 0 0 0        * an evil nightmare
+M 0 38321 1 38373 100 0 0 0        * the Werrun beastmaster
+E 1 38335 1 7 100 0 0 0            *   a pair of spiked blood leggings
+M 0 38320 6 38374 100 0 0 0        * an evil nightmare
+M 0 38322 1 38375 100 0 0 0        * an enormous barkeep
+G 1 38332 1 0 100 0 0 0            *    a blood-red jug
+M 0 38323 1 38377 100 0 0 0        * a satanic warlord
+E 1 38325 1 6 100 0 0 0            *   a single-horned war helmet
+E 1 38324 1 16 100 0 0 0           *   a black two-handed blood sword
+M 0 38317 1 38381 100 0 0 0        * Lady Death
+E 1 38328 1 5 100 0 0 0            *   a dark magenta robe
+E 1 38330 1 6 100 0 0 0            *   a pair of devil horns
+E 1 38312 1 13 100 0 0 0           *   the sacred braid of Lady Sklera
+E 1 38329 1 16 100 0 0 0           *   a greater soul scythe
+G 1 358 1 0 100 0 0 0              *    (object type not in this .obj file)
+G 1 55416 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 38324 2 38381 100 0 0 0        * a demon bodyguard (following)
+F 1 38324 2 38381 100 0 0 0        * a demon bodyguard (following)
+M 0 38325 2 38382 100 0 0 0        * a blood knight
+E 1 38333 1 10 100 0 0 0           *   a pair of spiked blood sleeves
+M 0 38325 2 38383 100 0 0 0        * a blood knight
+E 1 38334 1 3 100 0 0 0            *   a silver necklace of black diamonds
+*
+S

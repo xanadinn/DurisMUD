@@ -1,0 +1,266 @@
+#344
+&+WDefense of &+BLong&+Yhollow&n~
+34499 2 0 20 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 34413 2 0 100 0 0 0
+*     south exit from "A Dark Alleyway" to
+*     "A Small Cluttered Shop" - open
+*
+D 0 34414 0 0 100 0 0 0
+*     north exit from "A Small Cluttered Shop" to
+*     "A Dark Alleyway" - open
+*
+D 0 34415 1 0 100 0 0 0
+*     east exit from "The Entrance to a Magnificent Temple" to
+*     "The Sanctuary of Selune" - open
+*
+D 0 34416 3 0 100 0 0 0
+*     west exit from "The Sanctuary of Selune" to
+*     "The Entrance to a Magnificent Temple" - open
+*
+D 0 34415 3 0 100 0 0 0
+*     west exit from "The Entrance to a Magnificent Temple" to
+*     "On Willow Lane near a Grand Temple" - open
+*
+D 0 34458 1 0 100 0 0 0
+*     east exit from "On Willow Lane near a Grand Temple" to
+*     "The Entrance to a Magnificent Temple" - open
+*
+D 0 34442 3 0 100 0 0 0
+*     west exit from "A Field of Tall Grass" to
+*     "On a Small Path through a Briar Patch" - open
+*
+D 0 34476 1 0 100 0 0 0
+*     east exit from "On a Small Path through a Briar Patch" to
+*     "A Field of Tall Grass" - open
+*
+D 0 34487 1 0 100 0 0 0
+*     east exit from "A Rockslide" to
+*     "A Natural Rock Crevice" - open
+*
+D 0 34488 3 0 100 0 0 0
+*     west exit from "A Natural Rock Crevice" to
+*     "A Rockslide" - open
+*
+D 0 34492 1 0 100 0 0 0
+*     east exit from "An Audience Chamber" to
+*     "A Map Room" - open
+*
+D 0 34493 3 0 100 0 0 0
+*     west exit from "A Map Room" to
+*     "An Audience Chamber" - open
+*
+D 0 34493 2 0 100 0 0 0
+*     south exit from "A Map Room" to
+*     "A Bedroom Chamber" - open
+*
+D 0 34494 0 0 100 0 0 0
+*     north exit from "A Bedroom Chamber" to
+*     "A Map Room" - open
+*
+*
+O 0 34455 1 34401 75 0 0 0         * a clump of green moss
+O 0 34442 1 34403 75 0 0 0         * the bulb of a wild tulip
+O 0 34440 1 34405 75 0 0 0         * the root of a razor vine
+O 0 34437 1 34405 100 0 0 0        * a razor vine
+O 0 34400 1 34411 100 0 0 0        * a campfire
+O 0 34454 1 34420 80 0 0 0         * a fiddler spider web
+O 0 34425 1 34421 100 0 0 0        * a flowering Kiss of Talona vine
+O 0 34438 1 34421 60 0 0 0         * the kiss of talona bloom
+O 0 34433 1 34430 85 0 0 0         * some mandrake root
+O 0 34435 1 34433 90 0 0 0         * a clump of nightshade
+O 0 34402 1 34437 100 0 0 0        * a bee hive
+O 0 34407 1 34438 100 0 0 0        * a large black cauldron
+O 0 34436 1 34443 100 0 0 0        * a red mushroom
+O 0 34434 1 34444 100 0 0 0        * some lotus leaves
+O 0 34459 2 34451 100 0 0 0        * a corpse
+O 0 34459 2 34451 100 0 0 0        * a corpse
+O 0 34460 5 34452 100 0 0 0        * a river of blood
+O 0 34460 5 34454 100 0 0 0        * a river of blood
+O 0 34460 5 34455 100 0 0 0        * a river of blood
+O 0 34460 5 34457 100 0 0 0        * a river of blood
+O 0 34458 1 34457 100 0 0 0        * a corpse
+O 0 34460 5 34458 100 0 0 0        * a river of blood
+O 0 34462 2 34460 100 0 0 0        * some organs
+O 0 34463 1 34461 100 0 0 0        * a pool of blood
+O 0 34456 1 34463 100 0 0 0        * a pile of corpses
+O 0 34404 1 34464 100 0 0 0        * a burnt quiver
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34403 10 34464 100 0 0 0       * a gleaming black arrow
+O 0 34461 6 34465 100 0 0 0        * a river of blood
+O 0 34461 6 34467 100 0 0 0        * a river of blood
+O 0 34461 6 34468 100 0 0 0        * a river of blood
+O 0 34457 1 34469 100 0 0 0        * a corpse
+O 0 34461 6 34472 100 0 0 0        * a river of blood
+O 0 34461 6 34473 100 0 0 0        * a river of blood
+O 0 34461 6 34474 100 0 0 0        * a river of blood
+O 0 34462 2 34474 100 0 0 0        * some organs
+O 0 34432 1 34478 100 0 0 0        * a briar root
+*
+M 0 34403 1 34400 100 0 0 0        * the chieftain
+G 1 34429 1 0 80 0 0 0             *    the bloody head of the chieftan
+M 0 34456 2 34406 100 0 0 0        * a bird
+M 0 34465 1 34409 100 0 0 0        * a raccoon
+G 1 34426 1 0 100 0 0 0            *    a raccoon skin
+M 0 34451 1 34410 85 0 0 0         * a red and black snake
+G 1 34413 1 0 80 0 0 0             *    a snake skin
+M 0 34443 1 34411 100 0 0 0        * the trapper
+M 0 34442 1 34411 100 0 0 0        * the cook
+M 0 34441 1 34411 100 0 0 0        * a woodsman
+M 0 34444 1 34411 100 0 0 0        * the trader
+M 0 34436 5 34413 100 0 0 0        * an orc raider
+M 0 34437 3 34413 100 0 0 0        * an orc
+R 1 34435 3 34413 100 0 0 0        * a giant worg (being ridden)
+M 0 34438 1 34414 100 0 0 0        * Harv
+G 1 34471 999 0 100 0 0 0          *    a glowing staff of ice
+G 1 34472 999 0 100 0 0 0          *    an exquisite gold and platinum loop
+G 1 34473 999 0 100 0 0 0          *    a vial of deep blue liquid
+M 0 34421 2 34415 100 0 0 0        * a templar
+M 0 34421 2 34415 100 0 0 0        * a templar
+M 0 34418 1 34416 100 0 0 0        * a priestess
+M 0 34420 1 34416 100 0 0 0        * a templar
+M 0 34419 1 34416 100 0 0 0        * an acolyte
+M 0 34425 1 34416 100 0 0 0        * a wounded templar
+M 0 34422 1 34416 100 0 0 0        * a young man
+M 0 34423 1 34416 100 0 0 0        * a young woman
+M 0 34424 1 34416 100 0 0 0        * a small child
+M 0 34416 1 34417 100 0 0 0        * Rolane
+E 1 34405 1 18 100 0 0 0           *   a token of Selune
+M 0 34417 1 34417 85 0 0 0         * The Solar of Selune
+M 0 34475 1 34418 100 0 0 0        * a dragazhar
+G 1 34441 1 0 80 0 0 0             *    a bloody scrap of dragazhar wing
+M 0 34466 1 34419 85 0 0 0         * a red fox
+G 1 34418 1 0 80 0 0 0             *    a fox fur
+M 0 34463 1 34422 100 0 0 0        * a bullfrog
+G 1 34410 1 0 100 0 0 0            *    some eyes of a frog
+M 0 34470 1 34422 100 0 0 0        * a cricket
+G 1 34412 1 0 100 0 0 0            *    a pair of cricket legs
+M 0 34474 1 34422 100 0 0 0        * an otter
+M 0 34455 2 34423 85 0 0 0         * a bluegill
+G 1 34422 2 0 80 0 0 0             *    some blue fishscales
+M 0 34455 2 34423 85 0 0 0         * a bluegill
+G 1 34422 2 0 80 0 0 0             *    some blue fishscales
+M 0 34472 1 34423 85 0 0 0         * a boobrie
+G 1 34401 1 0 100 0 0 0            *    some plumage of a boobrie
+M 0 34461 1 34424 100 0 0 0        * a wild stallion
+F 1 34462 1 34424 100 0 0 0        * a mare (following)
+M 0 34468 2 34425 100 0 0 0        * A giant owl
+M 0 34456 2 34426 100 0 0 0        * a bird
+M 0 34459 1 34427 60 0 0 0         * a black panther
+G 1 34409 1 0 100 0 0 0            *    a bloody panther skin
+M 0 34453 4 34429 80 0 0 0         * a striped fish
+G 1 34423 3 0 100 0 0 0            *    some red fishscales
+M 0 34453 4 34429 80 0 0 0         * a striped fish
+G 1 34423 3 0 100 0 0 0            *    some red fishscales
+M 0 34454 1 34429 75 0 0 0         * an alligator turtle
+M 0 34464 1 34429 100 0 0 0        * A tree frog
+M 0 34448 2 34431 100 0 0 0        * a redbird
+G 1 34416 2 0 85 0 0 0             *    a red feather
+M 0 34448 2 34431 100 0 0 0        * a redbird
+G 1 34416 2 0 85 0 0 0             *    a red feather
+M 0 34449 2 34431 100 0 0 0        * a blackbird
+G 1 34415 2 0 85 0 0 0             *    a black feather
+M 0 34449 2 34431 100 0 0 0        * a blackbird
+G 1 34415 2 0 85 0 0 0             *    a black feather
+M 0 34450 2 34432 100 0 0 0        * a yellowbird
+G 1 34417 2 0 85 0 0 0             *    a yellow feather
+M 0 34450 2 34432 100 0 0 0        * a yellowbird
+G 1 34417 2 0 85 0 0 0             *    a yellow feather
+M 0 34476 1 34433 50 0 0 0         * an elven girl
+G 1 34439 1 0 100 0 0 0            *    a drop of virgin blood
+M 0 34453 4 34434 100 0 0 0        * a striped fish
+M 0 34452 1 34435 100 0 0 0        * a viper
+G 1 34406 1 0 75 0 0 0             *    a venom sac
+M 0 34453 4 34435 100 0 0 0        * a striped fish
+G 1 34423 3 0 80 0 0 0             *    some red fishscales
+G 1 34424 1 0 50 0 0 0             *    some fish eggs
+M 0 34473 1 34436 100 0 0 0        * a vulture
+M 0 34467 1 34437 100 0 0 0        * a swarm of bees
+M 0 34446 1 34438 100 0 0 0        * the witch
+G 1 34465 1 0 100 0 0 0            *    an obsidian raven
+M 0 34447 1 34438 100 0 0 0        * the familiar
+M 0 34469 2 34439 60 0 0 0         * a giant bat
+G 1 34411 1 0 100 0 0 0            *    a wing of a bat
+M 0 34471 1 34441 80 0 0 0         * a fire beetle
+M 0 34457 1 34442 100 0 0 0        * a hare
+M 0 34460 1 34442 75 0 0 0         * a sabertooth tiger
+G 1 34414 1 0 100 0 0 0            *    the head of a sabertooth
+M 0 34458 1 34444 80 0 0 0         * a coyote
+M 0 34445 1 34446 100 0 0 0        * the mayor
+E 1 34470 1 16 100 0 0 0           *   a mithril glaive named 'Darkward'
+M 0 34469 2 34447 50 0 0 0         * a giant bat
+M 0 34468 2 34447 100 0 0 0        * A giant owl
+G 1 34419 1 0 100 0 0 0            *    a pair of owl eyes
+M 0 34404 3 34451 100 0 0 0        * a scout
+M 0 34432 7 34451 100 0 0 0        * the fomorian raider
+M 0 34433 1 34453 100 0 0 0        * a fire grue
+M 0 34436 5 34454 100 0 0 0        * an orc raider
+R 1 34435 3 34454 100 0 0 0        * a giant worg (being ridden)
+M 0 34428 1 34456 100 0 0 0        * a necromancer
+G 1 34428 1 0 70 0 0 0             *    the bloody head of the necromancer
+F 1 34427 1 34456 100 0 0 0        * the zombie (following)
+F 1 34429 4 34456 80 0 0 0         * a skeletal horse (following)
+F 1 34429 4 34456 80 0 0 0         * a skeletal horse (following)
+G 1 34468 1 0 100 0 0 0            *    a set of bloodied horseshoes
+F 1 34429 4 34456 80 0 0 0         * a skeletal horse (following)
+F 1 34429 4 34456 80 0 0 0         * a skeletal horse (following)
+M 0 34437 3 34457 100 0 0 0        * an orc
+M 0 34431 3 34459 100 0 0 0        * a scout
+M 0 34430 2 34459 100 0 0 0        * a fomorian raider
+M 0 34436 5 34461 100 0 0 0        * an orc raider
+M 0 34436 5 34462 100 0 0 0        * an orc raider
+M 0 34439 1 34463 100 0 0 0        * a dark priest
+G 1 34431 1 0 75 0 0 0             *    the bloody head of the dark priest
+M 0 34430 2 34463 100 0 0 0        * a fomorian raider
+M 0 34431 3 34464 100 0 0 0        * a scout
+M 0 34432 7 34464 100 0 0 0        * the fomorian raider
+M 0 34432 7 34465 100 0 0 0        * the fomorian raider
+M 0 34432 7 34466 100 0 0 0        * the fomorian raider
+M 0 34437 3 34466 100 0 0 0        * an orc
+M 0 34432 7 34468 100 0 0 0        * the fomorian raider
+M 0 34432 7 34469 100 0 0 0        * the fomorian raider
+M 0 34426 1 34470 100 0 0 0        * a nightmare
+G 1 34469 1 0 100 0 0 0            *    a platinum pommeled saddle
+M 0 34440 1 34470 100 0 0 0        * a squire
+M 0 34409 1 34471 100 0 0 0        * a Bloodied Knight
+E 1 34466 1 5 80 0 0 0             *   a suit of bloodstained chainmail
+E 1 34467 1 11 80 0 0 0            *   a spiked buckler
+G 1 34427 1 0 70 0 0 0             *    the bloody head of a knight
+M 0 34434 1 34471 100 0 0 0        * the mayor's wife
+M 0 34436 5 34472 100 0 0 0        * an orc raider
+R 1 34435 3 34472 100 0 0 0        * a giant worg (being ridden)
+M 0 34432 7 34474 100 0 0 0        * the fomorian raider
+M 0 34431 3 34475 100 0 0 0        * a scout
+M 0 34404 3 34482 100 0 0 0        * a scout
+M 0 34404 3 34486 100 0 0 0        * a scout
+M 0 34406 1 34488 100 0 0 0        * the fomorian guard
+M 0 34405 1 34488 100 0 0 0        * the fomorian guard
+M 0 34414 1 34490 100 0 0 0        * the tribal shaman
+M 0 34400 3 34490 100 0 0 0        * a male fomorian
+M 0 34402 2 34492 100 0 0 0        * a fomorian guard
+M 0 34408 1 34493 100 0 0 0        * the advisor
+M 0 34407 1 34494 100 0 0 0        * the enchantress
+G 1 34430 1 0 70 0 0 0             *    the bloody head of the enchantress
+M 0 34415 1 34495 100 0 0 0        * a fomorian
+M 0 34410 1 34495 100 0 0 0        * a fomorian elder
+M 0 34411 1 34495 100 0 0 0        * the fomorian tanner
+M 0 34412 1 34496 100 0 0 0        * a fomorian child
+M 0 34400 3 34497 100 0 0 0        * a male fomorian
+M 0 34401 2 34497 100 0 0 0        * a female fomorian
+M 0 34400 3 34498 100 0 0 0        * a male fomorian
+M 0 34401 2 34498 100 0 0 0        * a female fomorian
+M 0 34413 1 34498 100 0 0 0        * a fomorian child
+M 0 34402 2 34499 100 0 0 0        * a fomorian guard
+*
+S

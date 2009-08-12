@@ -1,0 +1,1050 @@
+#1300
+&+LRoad leading to a Dark Mansion&n~
+   To the north you can make out what looks like a huge mansion.
+It's eerily quiet as you approach and the air seems thicker.  Darkness
+starts to creep in, or is that just your imagination?
+~
+13 8388740 1
+D0
+You see a huge set of double doors leading into the mansion.
+The doors are thick and are made of solid oak.
+~
+doors double~
+1 0 1301
+D2
+The path leads back to an island.
+~
+gate~
+0 0 5616
+S
+#1301
+&+bEntrance Hall&n~
+   The front door opens onto a musty, dirty entrance hall.
+To your left a corridor leads into the west wing of the house.
+On either side of the corridor opening the walls are bare but some
+pieces of wood in the corner near the window indicate that a small
+wooden table or chair once stood there.  Ahead of you, another
+corridor leads towards the rear of the house.
+   To your right a staircase climbs to the next story, reaching it at
+a balcony which overlooks the hall along its north and west sides;
+the stairs appear safe to climb though the balcony rail is broken
+in several places.  Under the stairs at the rear of the hall a
+third corridor leads east.  Glancing downwards you notice the ground
+looks dusty in some areas, and clean in others.
+~
+13 36877 0
+D0
+The northern corridor runs that way.
+~
+~
+0 0 1311
+D1
+This leads to the eastern corridor.
+~
+~
+0 0 1306
+D2
+~
+doors double~
+1 0 1300
+D3
+A corridor runs in a westward direction.
+~
+~
+0 0 1302
+D4
+The stairs lead up toward another story.
+~
+~
+0 0 1317
+E
+floor ground tracks~
+Upon closer inspection, you can barely make out faded tracks
+along the floor.  Is this house _really_ unused?
+~
+S
+#1302
+&+LThe Western Corridor&n~
+   This corridor is 5' wide, and 10' high.
+You can hear ominous creaks as you walk along it.  A musty odor seems
+to be floating around as well.  A thin layer of dust covers the floor in
+most areas.
+~
+13 36873 0
+D0
+A door lies in the northern wall.  It is open, and beyond it
+you can see a portion of a room.
+~
+~
+0 0 1304
+D1
+This way leads back to the entrance hall.
+~
+~
+0 0 1301
+D2
+You see a door in the southern wall.  The door is partially ajar.
+~
+~
+0 0 1303
+D3
+There is a door in the west wall leading into another room.
+~
+~
+0 0 1305
+S
+#1303
+&+BLibrary&n~
+   You can tell that this room was once a library, with bookshelves
+around the walls.  Most of the bookshelves are broken now and in
+many places have come away from the wall altogether.  Those few
+shelves still intact are empty.  The room gives off a musty smell from
+some of the remaining books.
+~
+13 36873 0
+D0
+This leads back into the corridor.
+~
+~
+0 0 1302
+S
+#1304
+&+RStudy&n~
+   This room was once a writing room or study.  Against the wall under
+the windows is a large wooden writing desk partially broken and
+riddled with damp rot.  There are three drawers in each pedestal and
+a large central drawer; the latter is closed but the others are all
+open -- two obviously broken open forcibly.
+~
+13 36872 0
+D2
+This leads back into the corridor.
+~
+~
+0 0 1302
+E
+drawer drawers~
+All the drawers are empty except for the central one which is closed.
+~
+S
+#1305
+&+LA Small Living Area&n~
+   This used to be a guest quarters of some sort.  A door in the north wall
+opens onto a small paved patio; the paving is now cracked and over-run
+with weeds.  There is a pile of refuse in the south east corner but otherwise,
+the room is bare.
+~
+13 36872 0
+D1
+This leads back into the corridor.
+~
+~
+0 0 1302
+E
+patio~
+To the north you see the patio, which really doesn't look too safe.
+Common sense would advise against exploring it further.
+~
+S
+#1306
+&+LAn Eastern Corridor&n~
+   This 5' by 10' high corridor runs eastward from the entrance hall.
+To the south you see a door, and farther along there is another
+southern door.  A pungent odor hangs in the air, probably from some dead
+animal.
+~
+13 36872 0
+D1
+The corridor continues eastward.
+~
+~
+0 0 1309
+D2
+This is a normal oaken door, rotted with age.  It is slightly open.
+~
+~
+0 0 1308
+D3
+This leads to the entrance hall.
+~
+~
+0 0 1301
+S
+#1308
+&+LA Living Area&n~
+   This was once a nice living area.  Anything that used to be in here is
+now rubble.  On the south wall there is an intact fireplace.  The only
+thing of any note in the room is a clump of tiny red mushrooms apparently
+growing out of the floor all around the fireplace in a roughly semicircular
+formation.  Otherwise, the room is bare.
+~
+13 36872 0
+D0
+Out the door leads back to the corridor.
+~
+~
+0 0 1306
+E
+mushrooms mushroom shrooms shroom~
+You dare not touch the mushrooms since you don't know if they
+are harmful or not.  They don't look edible anyways.
+~
+S
+#1309
+&+LDead End in the Eastern Corridor&n~
+   The eastern corridor dead-ends at a wall here.  The dust here isn't
+particularly thick.  The only other exit besides the way back is a door
+in the southern wall.  It appears to be open.
+~
+13 36872 0
+D2
+You can see into a room that looks like someone once lived there.
+~
+~
+0 0 1310
+D3
+This leads back along the eastern corridor, all the way to the entrance hall.
+~
+~
+0 0 1306
+S
+#1310
+&+LA Larger Living Area&n~
+   This room was used as a guest quarters a long time ago.  Now, however,
+the room has been long since trashed and anything worth of value has been
+removed or destroyed.  The only matter of interest is that the plaster
+on the floor is significantly greater then elsewhere.
+~
+13 36872 0
+D0
+Back through the door will take you to the eastern corridor.
+~
+~
+0 0 1309
+S
+#1311
+&+LA Northern Corridor&n~
+   This corridor is 5' by 10' and run northwards from the entrance
+hall.  You can see a doorway to the west, and another one to the east.
+The corridor continues northwards, or southwards back to the entrance.
+~
+13 36876 0
+D0
+The corridor continues northwards.
+~
+~
+0 0 1314
+D1
+A large rooms that looks like it was use for private matters lies
+through the doorway.
+~
+~
+0 0 1313
+D2
+This leads back to the entrance hall.
+~
+~
+0 0 1301
+D3
+This leads into what looks like it used to be a dining room.
+~
+~
+0 0 1312
+S
+#1312
+&+WDining Room&n~
+   At one time a long table stood in the center of this room;
+now it lies broken -- though still recognizable -- on the floor.
+A broken chair stands against the wall between the windows and
+there is a heap of broken china in the north west corner.
+There doesn't look to be anything worth of value in here.
+~
+13 36872 0
+D1
+Back through the doorway leads to the northern corridor.
+~
+~
+0 0 1311
+S
+#1313
+&+LWithdrawing Room&n~
+   Two stuffed armchairs stand near the fireplace of this room.
+The covers of both have been torn or cut and the stuffing has been
+pulled out; however, the wooden frames are still intact.  The pieces
+of a broken table lie on the floor near the north wall.
+~
+13 36872 0
+D3
+To the west lies the northern corridor.
+~
+~
+0 0 1311
+S
+#1314
+&+LEnd of the Northern Corridor&n~
+   The northern corridor ends here with a door in the north wall.
+The door is partially broken, and hanging off its hinges.  An odor of rotten
+food permeates the air here.
+~
+13 36872 0
+D0
+Through the doorway you can see what used to be a kitchen.
+~
+~
+0 0 1315
+D2
+To the south you can go back along the corridor to the entrance
+hall.
+~
+~
+0 0 1311
+S
+#1315
+&+WThe Kitchen&n~
+   This was obviously the kitchen.  It is dirty and damp, with patches
+of gray mold and a few cobwebs on the floor, walls and ceiling.
+In the corner to your left is some iron cooking equipment with a
+chimney above.  Next to it, under the window, is a cracked and
+discolored stone sink.
+   To the right of the sink a small, closed wooden cupboard is
+fixed to the wall about 5' above floor level.
+   Against the far wall a flight of wooden stairs leads upwards from
+left to right; even from the door it is obvious that the woodwork
+is decayed and a few of the treads are missing.
+~
+13 36872 0
+D1
+A small doorway leads into an equally small room.
+~
+~
+0 0 1316
+D2
+Out the door will take you back into the northern corridor.
+~
+~
+0 0 1314
+D4
+The stairs lead up to the second floor.
+~
+~
+0 0 1332
+E
+chimney~
+The chimney is black from soot, but other then that you don't see
+anything special.
+~
+E
+cupboard shelf~
+The cupboard is empty, save a lot of dust.
+~
+S
+#1316
+&+yThe Scullery&n~
+   This room has suffered the effects of damp and decay more then most
+of the house. Mold grows in patches on the floor, walls, and ceiling;
+there are many cobwebs, though even these appear to be decaying.
+A large copper boiler, dented, split, discolored and empty, stands
+under the window; a small heap of crockery shards is on the floor
+beside it.  Stairs lead down into the darkness of what is presumably
+a cellar.
+~
+13 36876 0
+D3
+This leads back into the kitchen.
+~
+~
+0 0 1315
+D5
+The stairs lead down into darkness.
+You would guess a cellar of some sort.
+~
+~
+0 0 1335
+E
+large copper boiler~
+This large boiler might once have been valuable, but time and
+decay has erased any worth from it.
+~
+S
+#1317
+&+bThe Gallery&n~
+   The stairs creak ominously as you ascend but they are safe enough.
+At the top you reach the gallery which is on the north and west walls
+of the hall.  To the east and west the corridor appears to stretch
+the full width of the house, doors leading off it to the south.
+Opposite the western portion of the gallery is another corridor
+leading north.
+~
+13 36872 0
+D0
+This will take you along the upper northern corridor.
+~
+~
+0 0 1328
+D1
+The upper eastern corridor runs this way.
+~
+~
+0 0 1322
+D3
+This corridor runs along the western portion of the floor.
+~
+~
+0 0 1318
+D5
+This leads back downstairs to the entrance hall.
+~
+~
+0 0 1301
+S
+#1318
+&+LUpper Western Corridor&n~
+   This is the western corridor on the second floor of the house.
+Directy to the south is a door, and a little ways down the corridor
+you can see another door in the south wall.
+~
+13 36872 0
+D1
+This leads back to the gallery.
+~
+~
+0 0 1317
+D2
+This door leads into a room which would have been a bedroom; a long time
+ago.
+~
+~
+0 0 1319
+D3
+The western corridor continues.
+~
+~
+0 0 1320
+S
+#1319
+&+mA Bedroom&n~
+   What was once a fine master bedroom now stands dirty and decayed.
+Some of the floorboards are missing and there is rubbish scattered
+around.  A tall wooden cupboard stands against the wall opposite the
+fireplace, its door closed.
+~
+13 36872 0
+D0
+This leads back to the western corridor.
+~
+~
+0 0 1318
+E
+cupboard tall wooden~
+   Upon opening the cupboard you discover there is nothing inside of
+any value or use.
+~
+S
+#1320
+&+LEnd of the Western Corridor&n~
+   The western corridor ends here.  You see a door in the south wall
+which looks like another bedroom lies through it.  Otherwise you have
+to go back towards the gallery.
+~
+13 36872 0
+D1
+This will take you back along the western corridor towards the gallery.
+~
+~
+0 0 1318
+D2
+A bedroom, now in shambles, lies through the doorway.
+~
+~
+0 0 1321
+S
+#1321
+&+mA Bedroom&n~
+   Once perhaps a fine guest bedroom, this is now decayed like the rest of
+the house.  Rubbish is scattered around; there is some evidence of
+rodent infestation and some webs hang torpid in the corners.
+A four-poster bed, once a grand piece of furniture, is against the wall
+opposite the fireplace.  Its woodwork is worm-ridden and the curtains
+which once screened the bed are torn and stained.  There is no bed
+linen, but the carcass of the bed is relatively intact.
+~
+13 36872 0
+D0
+This leads back to the western corridor.
+~
+~
+0 0 1320
+E
+bed~
+Once a beautiful bed, now broken and forgotten.
+~
+S
+#1322
+&+LThe Upper Eastern Corridor&n~
+   This corridor runs eastward from the gallery.  There is a door to
+your south, and the corridor continues farther east.  Faint layers of dust
+cover the floor.
+~
+13 36872 0
+D1
+The upper eastern corridor continues.
+~
+~
+0 0 1324
+D2
+Through the doorway you can see a room which looked like it once was
+a bedroom.
+~
+~
+0 0 1323
+D3
+This leads back to the gallery.
+~
+~
+0 0 1317
+S
+#1323
+&+mA Bedroom&n~
+   This bedroom is dirty and decayed; the floorboards appear intact but
+rubbish is scattered everywhere and webs are profuse on the walls and
+ceiling.  From the doorway you can see a glint of light in the fireplace
+from what appears to be a small, highly reflective object. Or was that
+just an illusion?
+There is no furniture in here.
+~
+13 36872 0
+D0
+This leads back to the eastern corridor.
+~
+~
+0 0 1322
+S
+#1324
+&+LThe Upper Eastern Corridor&n~
+   This corridor runs eastwards from the gallery.  There is a door to your
+south, and the corridor continues farther east.
+~
+13 36872 0
+D1
+The upper eastern corridor continues.
+~
+~
+0 0 1326
+D2
+Through the doorway you can see a room which looked like it once was
+a bedroom.
+~
+~
+0 0 1325
+D3
+This leads back down the corridor to the gallery.
+~
+~
+0 0 1322
+S
+#1325
+&+mA Bedroom&n~
+   Another dirty, decaying bedroom without furniture.  From the doorway
+the floor in here does not look particularly safe; some floorboards
+are missing while others appear to have suffered partial collapse.
+~
+13 36872 0
+D0
+The doorway leads back into the eastern corridor.
+~
+~
+0 0 1324
+S
+#1326
+&+LEnd of the Eastern Corridor&n~
+   The eastern corridor ends here with a door in the south wall.
+Strangely, the southern door appears to be closed, and you can see
+a lock on the door.  Strangely, this area seems devoid of any dust.
+~
+13 36872 0
+D2
+~
+door~
+2 1316 1327
+D3
+This takes you back along the corridor.
+~
+~
+0 0 1324
+E
+door~
+The door to the southern room appears to be locked or held by some means.
+~
+S
+#1327
+&+mA Bedroom&n~
+   This is a dirty, decayed bedroom and the floor looks rather unsafe.
+What used to be grand furniture has since been destroyed until nothing left
+of value remains.  There is a fireplace along the western wall.
+~
+13 36872 0
+D0
+This takes you back to the eastern corridor.
+~
+door~
+1 1316 1326
+S
+#1328
+&+LUpper Northern Corridor&n~
+   This corrider runs north from the gallery.  You see a door in the wall
+to your east, and to the north the corridor continues.  Ominous creaks
+resound through the halls with each step.
+~
+13 36872 0
+D0
+The northern corridor continues.
+~
+~
+0 0 1330
+D1
+Through the doorway you can see what used to be a bedroom, now decayed
+and filthy.
+~
+~
+0 0 1329
+D2
+This leads back to the gallery.
+~
+~
+0 0 1317
+S
+#1329
+&+mA Bedroom&n~
+   A large bedroom, now decaying and dirty.  Damp mold covers portions of
+the walls and ceiling and rubbish is strewn liberally around the floor.
+In the center is a single mattress which has been badly torn and from
+which the stuffing protrudes.  Under the window is a large wooden chest,
+the timbers split.
+~
+13 36872 0
+D3
+Out the door takes you back to the corridor.
+~
+~
+0 0 1328
+E
+mattress~
+The mattress contains nothing but stuffing.
+~
+S
+#1330
+&+LUpper Northern Corridor&n~
+   This corrider runs north from the gallery.  You see a door in the wall
+to your east, and to the north the corridor continues.
+~
+13 36872 0
+D0
+The northern corridor widens into a large room.
+~
+~
+0 0 1332
+D1
+To the east appears to be a room that used to be used mainly for storage
+purposes.
+~
+~
+0 0 1331
+D2
+This leads back along the corridor.
+~
+~
+0 0 1328
+S
+#1331
+&+gA Boxroom&n~
+   This rooms appears to have been used for storage.  A large oak chest
+stands under the window.  Elsewhere in the room are three wooden chairs,
+all broken, two splintered wooden buckets and a mildewed sack.  Just
+inside the door is a bundle of what looks like clothing; this bundle
+carries no dust and appears to have been put here recently.
+~
+13 36872 0
+D3
+This takes you back to the corridor.
+~
+~
+0 0 1330
+E
+chest~
+Upon opening the chest, you discover it's empty.  Anything of value was
+removed a long time ago.
+~
+E
+bundle clothes clothing~
+The strange thing about this bundle, is that unlike everything else in
+this place, you can see no dust, or decay.  Either these just got here
+recently, or they're an illusion.  Touching them with your hand negates
+the second theory.
+~
+S
+#1332
+&+MLanding&n~
+   Along the north wall of this area a staircase descends to the ground
+floor of the rear of the house.  The treads appear to be insecure.
+   Another staircase along the east wall climbs to the upper level.
+This has mostly collapsed -- only the lowest six step are still intact
+and there is no easy access to the hole in the ceiling to where the
+staircase used to lead.
+~
+13 36876 0
+D2
+This leads back down the corridor towards the gallery.
+~
+~
+0 0 1330
+D4
+This, you guess, would lead to an attic of some type.
+~
+~
+0 0 1333
+D5
+This staircase leads down to the kitchen.
+~
+~
+0 0 1315
+S
+#1333
+&+LNorthern Section of the Attic&n~
+   A gaping hole in the floor shows where the top of the staircase used
+to lead before its collapse.  There are grimy cobwebs on the walls
+and ceiling and the floor is liberally strewn with dust and rubbish.
+   Several holes in the roof allow dim light to enter this large, dirty
+room which appears to extend from the back to the front of the house.
+There are pieces of broken furniture here and there, and rubbish is
+heaped about the floor.  There are two large sacks in the northwest
+corner.  Otherwise there appears to be nothing of interest here.
+~
+13 36872 0
+D2
+This leads to the southern section of the attic.
+~
+~
+0 0 1334
+D5
+Looking down you can see the landing.
+~
+~
+0 0 1332
+S
+#1334
+&+LSouthern Section of the Attic&n~
+   As you approach the southern section of the attic you can see that it
+appears to extend over the whole front portion of the house.  It is a
+storage room where the bric-a-brac of many years has been left.
+There are more broken pieces of furniture, a few sacks and piles of
+old clothes, but in general nothing of interest.
+~
+13 36872 0
+D0
+This leads to the northern section of the attic.
+~
+~
+0 0 1333
+E
+sack sacks clothes~
+There is nothing of value in the sacks or the piles of clothing.
+~
+S
+#1335
+&+rWine Cellar&n~
+   This was obviously a wine cellar.
+Wooden bottle racks -- mostly broken -- line the north and west walls
+to a height of 6'.  There appear to be no intact bottles left in the
+racks though there are several with broken necks.  Broken bottles
+cover the floor beneath and near the racks.
+   Against the east wall, at the foot of the stairs, are two large metal
+storage bins which appear to be empty.
+~
+13 36873 0
+D2
+~
+secret~
+5 0 1336
+D4
+This leads back to the scullery.
+~
+~
+0 0 1316
+E
+storage bin bins wine bottle bottles~
+The wine and storage bins have long been removed of their contents.
+One of the bins contains foul smelling refuse.
+~
+S
+#1336
+&+LCellar&n~
+   You have entered a room which is so unlike anything else in the house.
+The illumination is good here since several lighted torches are held in
+shoulder-high brackets around the walls.  This was obviously a cellar, but
+equally obviously it is now used for an entirely different purpose;
+your first impression is that is it the living quarters for about ten
+people.
+   Ten single beds (crude affairs -- little more then thin mattresses on
+boards) stand with heads to the south wall, each with a small wooden
+locker at its foot.  In the center of the flagged floor is a long wooden
+trestle table on which there is a variety of cheap metal cutlery and
+earthenware crockery together with a large jug about half full of a light
+brown liquid.  There are a dozen wooden stools around the table.
+~
+13 4231176 0
+D0
+~
+secret~
+5 0 1335
+D1
+~
+bar~
+5 0 1337
+D2
+~
+secret~
+0 0 1340
+D3
+The door appears normal.
+~
+door~
+0 0 1339
+E
+wooden bin~
+The wooden bin contains a considerable food supply -- black bread,
+dried beans, flour, dried fruit, animal fats, salt and a small amount
+of honey.
+~
+E
+stove~
+The stove is cool and unlit.
+~
+E
+locker lockers~
+The lockers, all unlocked contain only clothing and small personal
+effects of no value, beyond indicating that all residents of this room
+are male and probably human.
+~
+E
+cask casks jug meat~
+The jug and the small broached cask contain cheap ale, the large cask
+water.  The side of meat is salted mutton.
+~
+E
+bar barred~
+The door ahead of you has a strong wooden bar across it, carried in brackets
+on the frame and the door itself.  On the door has been written a single
+word 'DANGER' in the common tongue; this has been inscribed in large letters
+using chalk.
+~
+S
+#1337
+&+WA Hidden Room&n~
+   This room is dark.  Light from the large room behind you spills faintly
+to show that the room is only about 12' across, but to your left there
+is only darkness.  What little you can see is dingy and dirty.
+~
+13 36877 0
+D1
+~
+secret~
+5 0 1338
+D3
+This leads back to the cellar.
+~
+bar~
+5 0 1336
+S
+#1338
+&+bLaboratory&n~
+   The secret door opens towards you to reveal, piled on the floor of this
+room, a clutter of old and broken glass and earthenware. There are three
+small copper pots amidst the debris and these appear to be intact.
+   A bench runs down the west wall of what was obviously a laboratory.
+On the bench are various powders and liquids and several pieces of
+chemical apparatus, some stained in different colors as the liquids they
+contained dried up long ago.
+   There is a table against the south wall, forming an L-shape with the bench.
+ On the table is a candlestick, a tiny stump of
+unlit candle remaining in it, and a variety of other items which,
+even in the dim light, shine with the warmth of pure gold.  One of these
+objects looks like a human skull.
+~
+13 134254601 0
+D3
+~
+secret~
+5 0 1337
+S
+#1339
+&+mPrivate&N &+LQuarters&n~
+   This small room is clearly the quarters of a person senior to those who
+live in the 'barracks' main room, since the furnishing is less crude and
+the place is clean and tidy, as if cared for by a servant.
+There is a comfortable looking bed in the northwest corner with a wooden
+locker at its foot.  A medium sized wooden table stands against the east
+wall, and beside it is a padded leather chair.  On the table is a brass
+three-branch candlestick and in it burn three candles, giving the room
+good illumination.  The candles, though not fresh, are far from spent.
+~
+13 4231176 0
+D1
+This will take you back into the cellar.
+~
+~
+0 0 1336
+E
+wooden locker~
+The wooden locker contains clothing and personal effects -- nothing of
+value or particular interest.
+~
+E
+wooden box~
+The wooden box under the table contains 3 flasks of oil, a tinderbox
+with flint and steel, and 8 new candles.  Nothing in there is of any
+interest to you.
+~
+E
+book books~
+The books are:
+1. a volume of erotic poetry, fully illustrated;
+2. a naval almanac listing tide times for the area of coast containing
+Verzanan;
+3. a learned volume concerning mesmerism and its effects.  Inside this
+book is a sheet of parchment carrying some simple words in the common
+tongue and their equivalents in a foreign language that you can't make
+out.
+~
+E
+cupboard~
+The cupboard contains only an oilskin cloak hanging on a hook.
+~
+S
+#1340
+&+LNatural Cavern&n~
+   Your lights show a natural cavern, roughly circular and about 20-30'
+in diameter.  Faint sounds of water dripping echo throughout the cavern.
+There appears to be nothing of interest here.
+~
+13 36873 0
+D0
+~
+secret~
+0 0 1336
+D1
+This takes you along a side passage.
+~
+~
+0 0 1343
+D2
+This will take you along the cavern to another one in the distance.
+~
+~
+0 0 1341
+E
+floor walls wall passage passages~
+The passage and cavern walls are wet and slimy, and the floors are
+moist, though various course matting lies in various places on the
+ground.
+~
+S
+#1341
+&+LA Side Passage&n~
+   This cavern is mainly used to get from one cavern to another.  The sound
+of water seems to be growing louder.
+~
+13 36873 0
+D0
+This takes you to a large cavern.
+~
+~
+0 0 1340
+D1
+This takes you to a large cavern.
+~
+~
+0 0 1342
+S
+#1342
+&+LNatural Cavern&n~
+   Your lights show a natural cavern, roughly circular and about 20-30'
+in diameter.  There appears to be nothing of interest here.  The smell of
+salt water fills the air here.
+~
+13 36873 0
+D0
+This takes you to a small walkway passage.
+~
+~
+0 0 1343
+D3
+This takes you to a small walkway passage.
+~
+~
+0 0 1341
+E
+floor walls wall passage passages~
+The passage and cavern walls are wet and slimy, and the floors are
+moist, though various course matting lies in various places on the
+ground.
+~
+S
+#1343
+&+LA Side Passage&n~
+   This cavern is mainly used to get from one cavern to another.  The smell
+of salt water is becoming stronger along with the sounds of water echoing
+off the walls.
+~
+13 36873 0
+D1
+This continues along the passage.
+~
+~
+0 0 1344
+D2
+This takes you to a large cavern.
+~
+~
+0 0 1342
+D3
+This takes you to a large cavern.
+~
+~
+0 0 1340
+S
+#1344
+&+LA Side Passage&n~
+   This cavern is mainly used to get from one cavern to another.  The smell
+of salt water is becoming stronger along with the sounds of water echoing
+off the walls.
+~
+13 1073778701 0
+D1
+This leads into a natural cavern.
+~
+~
+0 0 1345
+D3
+This goes back along the passage.
+~
+~
+0 0 1343
+S
+#1345
+&+LNatural Cavern&n~
+   This cavern, like the passage leading to it, is well lit by torches
+held in brackets around the walls.  Salty smelling air is becoming the normal
+odor at this point.
+~
+13 1073778696 0
+D3
+This takes you back to a side passage.
+~
+~
+0 0 1344
+S
+#1399
+&+LBookend room so all objs and mobs show up with world command&N~
+~
+13 142639297 0
+S

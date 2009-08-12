@@ -1,0 +1,1545 @@
+#2001
+&+YOn the Rocky Trail~
+ &+yThis is the start of a rocky trail which travels to the east. It is very
+&+ydusty, dirty, and seems well travelled upon.  To the east you see a small
+&+yvalley which the trail seems to travel through.  To the west you see a turning
+&+ypoint of roads which lead north through the hills, before turning west
+&+ytowards the city of Tharnadia.
+~
+20 4 1
+D1
+~
+~
+0 0 2003
+D3
+   &+yA small wooden door.
+~
+door~
+1 0 2002
+S
+#2002
+&+yA &+LShady &+yHut&N~
+   &+yThis small wooden house is made of the same type of local evergreens and pines
+&+ythat grow in the neighboring forest.  A large desk sits on a far side of the room
+&+yacross from a hard-iron stove.  A room down a short hallway leads to a small
+&+ybedroom with a miniature fire place and chimney.  However quaint, this hut
+&+yis nevertheless quite shady, as all the lights have been put out, the drapes
+&+yclosed, and the furniture pushed against the doors.
+~
+20 0 0
+D1
+   &+yA small wooden door.
+~
+door~
+1 0 2001
+S
+#2003
+&+YA Bend South On the Rocky Trail~
+   &+yHere the rocky trail takes a turn to the south.  There is a large tree here
+&+ylooking as though it were a guardian of some sort, watching everyone who
+&+ypasses by.  The trail leads to the west and south.
+~
+20 0 1
+D2
+The rocky trail continues in that direction.
+~
+~
+0 0 2004
+D3
+~
+~
+0 0 2001
+S
+#2004
+&+YOn the Rocky Trail~
+   &+yMany animals scurry about on this section of the trail.  The trail continues
+&+yto the north and south from here, and to the south you see some kind of break
+&+yin the trail.
+~
+20 0 1
+D0
+The rocky trail continues in that direction.
+~
+~
+0 0 2003
+D2
+The rocky trail continues in that direction.
+~
+~
+0 0 2005
+S
+#2005
+&+YA Break in the Rocky Trail~
+   &+yFrom this point on the trail, you can see the valley below quite well.  The
+&+ytrail continues to the south, as well as leading down into a valley.  There is
+&+ya sign here posted to read at your leisure.
+~
+20 0 2
+D0
+The rocky trail continues in that direction.
+~
+~
+0 0 2004
+D2
+The rocky trail continues in that direction.
+~
+~
+0 0 2006
+D5
+The trail leads down into a valley in that direction.
+~
+~
+0 0 2007
+E
+sign~
+
+
+     Welcome to the Valley of Crushk!
+
+       Please watch your step...stay on the trail...and don't feed the animals.
+
+         Thanks...
+~
+S
+#2006
+&+YEnd of the Rocky Trail~
+   &+yHere the trail comes to an abrupt end.  Many animals scurry about looking
+&+yfor food.  The trail leads only back to the north.
+~
+20 0 1
+D0
+The rocky trail continues in that direction.
+~
+~
+0 0 2005
+D1
+~
+~
+0 0 40300
+S
+#2007
+&+YDown in the Valley of Crushk~
+   &+yYou now stand in the Valley of Crushk.  The valley is quite spectacular,
+&+ywith beautiful green, rolling hills on each side of the trail.  The trail
+&+ycontinues to the east and up from here.
+~
+20 0 1
+D1
+The trail leads into the valley in that direction.
+~
+~
+0 0 2008
+D4
+The trail leads to a rocky trail in that direction.
+~
+~
+0 0 2005
+S
+#2008
+&+YA Trail in the Valley of Crushk~
+   &+yThis trail seems to be very well travelled upon.  Hundreds of trees cover
+&+ythe hills north and south of the trail.  Many animals prance about looking for
+&+yfood and playing.  The trail continues east and west from here.
+~
+20 0 1
+D1
+The trail continues in that direction.
+~
+~
+0 0 2009
+D3
+The trail continues in that direction.
+~
+~
+0 0 2007
+S
+#2009
+&+YA Trail in the Valley of Crushk~
+   &+yThis section of the trail is a bit wider than the others.  As like the other
+&+ysections of the trail there are many animals scurrying about.  The trail splits
+&+yhere to the north and also leads to the east.
+~
+20 0 1
+D0
+The trail continues in that direction.
+~
+~
+0 0 2010
+D1
+The trail continues in that direction.
+~
+~
+0 0 2011
+D3
+The trail continues in that direction.
+~
+~
+0 0 2008
+S
+#2010
+&+YA Large Clearing~
+   &+yThe trail ends here in a large clearing surrounded by a dense forest.  The
+&+yclearing looks like it has been cleared away with large branches.  There seems
+&+yto be nothing of importance here.  The trail only leads to the south.
+~
+20 131072 3
+D2
+The trail continues in that direction.
+~
+~
+0 0 2009
+S
+#2011
+&+YA Trail in the Valley of Crushk~
+   &+yThe trail seems to be getting wider here.  Also, the forest is getting more
+&+ydense as you move to the east.  The trail leads to the east and west from here.
+~
+20 0 1
+D1
+The trail continues in that direction.
+~
+~
+0 0 2012
+D3
+The trail continues in that direction.
+~
+~
+0 0 2009
+S
+#2012
+&+YA Trail in the Valley of Crushk~
+   &+yThe dense forest surrounding the trail gives you a sense of uneasiness.
+&+yYou see small eyes peering out at you, yet you cannot make out what or who
+&+ythey are.  The trail continues to the east.
+~
+20 0 1
+D1
+The trail continues in that direction.
+~
+~
+0 0 2014
+D3
+The trail continues in that direction.
+~
+~
+0 0 2011
+S
+#2014
+&+YA Trail in the Valley of Crushk~
+   &+yThe trail is still getting wider as you progress to the east.  You feel as
+&+ythough the forest is watching your every move.  Small animals scurry about as
+&+yyou walk by.  The trail leads to the east and west from here.
+~
+20 0 1
+D1
+The trail continues in that direction.
+~
+~
+0 0 2015
+D3
+The trail continues in that direction.
+~
+~
+0 0 2012
+S
+#2015
+&+YA Sharp Turn South on the Trail~
+   &+yHere the trail makes a sharp turn to the south.  Still surrounded by a dense
+&+yforest, the trail starts to get narrower towards the south.  The trail leads
+&+ywest and south from here.
+~
+20 0 1
+D2
+The trail continues in that direction.
+~
+~
+0 0 2016
+D3
+The trail continues in that direction.
+~
+~
+0 0 2014
+S
+#2016
+&+YA Trail in the Valley of Crushk~
+   &+yThe trail is getting narrower the more you move to the south, but the forest
+&+yis very thick still.  You aren't seeing as many animals as you did on the other
+&+yparts of the trail.  The trail leads to the north and south from here.
+~
+20 0 1
+D0
+The trail continues in that direction.
+~
+~
+0 0 2015
+D2
+The trail continues in that direction.
+~
+~
+0 0 2017
+S
+#2017
+&+YA Trail in the Valley of Crushk~
+   &+yThe trail is getting yet a little bit more narrow here.  Animals are almost
+&+ynon-existent here.  You hear strange, ominous noises from the forest.  The
+&+ytrail leads to the east and north from here.
+~
+20 0 1
+D0
+The trail continues in that direction.
+~
+~
+0 0 2016
+D1
+There is something peculiar in that direction.
+~
+~
+0 0 2018
+S
+#2018
+&+WBefore the Magic Gates~
+   &+wYou now stand before two of the largest gates you have ever seen.  There is
+&+wa magic mouth placed in the center of the gates.  The gates are made from a
+&+wmagical wood that seems unknown to you.  As you look at the mouth on the gates
+&+wit seems to be saying something.
+~
+20 128 2
+D1
+There is large pair of magic gates there.
+~
+gates magic please~
+2 -2 2019
+D3
+The trail leads in that direction.
+~
+~
+0 0 2017
+E
+mouth magic~
+This is a large, glowing mouth.  In a very large, bellowing tone it speaks:
+
+     Only those who know the magic word may pass.....
+~
+S
+#2019
+&+WBefore the Magic Gates~
+   &+wYou now stand before two of the largest gates you have ever seen.  There is
+&+wa magic mouth placed in the center of the gates.  The gates are made from a
+&+wmagical wood that seems unknown to you.  As you look at the mouth on the gates
+&+wit seems to be saying something.
+~
+20 128 2
+D1
+You see an intersection of roads in that direction.
+~
+~
+0 0 2020
+D3
+You see a pair of magic gates there.
+~
+gates magic please~
+2 -2 2018
+E
+mouth magic~
+This is a large, glowing mouth.  In a very large, bellowing tone it speaks:
+
+     Only those who know the magic word may pass.....
+~
+S
+#2020
+&+YAn Intersection of Roads~
+  &+yThis is an intersection of four roads.  To the north, the road leads into
+&+ya dark forest.  To the south, looks like a well travelled road.  The east
+&+yroad leads in a direction around the hills.  To the west is the trail through
+&+ythe Valley of Crushk.  There is a large sign here.
+~
+20 4 2
+D0
+There is a dark forest in that direction.
+~
+~
+0 0 2021
+D1
+There is a road leading around the hills in that direction.
+~
+~
+0 0 2055
+D2
+There is a well travelled road in that direction.
+~
+~
+0 0 2067
+D3
+The trail through the Valley of Crushk leads in that direction.
+~
+~
+0 0 2019
+S
+#2021
+&+WOn the Magical Road~
+   &+wThis is a tiny road leading through a dark forest.  Many different kinds of
+&+wanimals run about in all directions.  The magical energry feel very strong to
+&+wyou here.  To the north, the forest thickens and becomes much darker.
+~
+20 1 3
+D0
+~
+~
+0 0 2022
+D2
+~
+~
+0 0 2020
+S
+#2022
+&+WOn the Magical Road~
+   &+wYou now stand on a magical road leading through a dark forest.  The forest
+&+wgrows thicker to the north, and magical energry is growing stronger also.
+&+wTo the north, you hear faint humming sounds and tiny voices.
+~
+20 1 3
+D0
+~
+~
+0 0 2023
+D2
+~
+~
+0 0 2021
+S
+#2023
+&+GEntrance to the Faerie Forest~
+   &+gThis is the entrance to the fabled faerie forest of the valley.  Hundreds
+&+gof different kinds of faeries fly about the forest playing joyfully.  Magical
+&+genergy feels very strong here as you travel through.  There are small paths
+&+gleading around large trees in this open area of the dark forest.
+~
+20 1 3
+D0
+~
+~
+0 0 2026
+D2
+~
+~
+0 0 2022
+S
+#2024
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2029
+D1
+~
+~
+0 0 2025
+S
+#2025
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+There is a large tree there.
+~
+tree large~
+1 0 2030
+D1
+~
+~
+0 0 2026
+D3
+~
+~
+0 0 2024
+S
+#2026
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2031
+D1
+~
+~
+0 0 2027
+D2
+~
+~
+0 0 2023
+D3
+~
+~
+0 0 2025
+S
+#2027
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+There is a large tree there.
+~
+tree large~
+1 0 2032
+D1
+~
+~
+0 0 2028
+D3
+~
+~
+0 0 2026
+S
+#2028
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2027
+S
+#2029
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2035
+D2
+~
+~
+0 0 2024
+S
+#2030
+&+GInside a Tree~
+   &+yYou are in a large, hollowed-out tree.  It seems to be some sort of home
+&+yto a family of faeries.  There are small beds to one side, a small kitchen,
+&+yand a small living area.  To the east you see a small window peeking out
+&+yinto the faerie forest.
+~
+20 9 0
+D2
+~
+tree large~
+1 0 2025
+S
+#2031
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2037
+D2
+~
+~
+0 0 2026
+S
+#2032
+&+GThe Home of the Faerie Cleric~
+   &+yThis is the home of the faerie cleric.  This room is cluttered with all
+&+ytypes of debris.  There are scrolls, broken potion bottles, and trash
+&+ylittering the floor.  There is a desk in one corner where the cleric faerie
+&+ydoes his work.  It is piled high with spell books, partially written scrolls,
+&+yand different metal symbols.
+~
+20 9 0
+D2
+~
+tree large~
+1 0 2027
+S
+#2033
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2039
+D2
+~
+~
+0 0 2028
+S
+#2034
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2041
+D1
+~
+~
+0 0 2035
+S
+#2035
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2036
+D2
+~
+~
+0 0 2029
+D3
+~
+~
+0 0 2034
+S
+#2036
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2043
+D1
+~
+~
+0 0 2037
+D3
+~
+~
+0 0 2035
+S
+#2037
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2038
+D2
+~
+~
+0 0 2031
+D3
+~
+~
+0 0 2036
+S
+#2038
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2045
+D1
+~
+~
+0 0 2039
+D3
+~
+~
+0 0 2037
+S
+#2039
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2040
+D2
+~
+~
+0 0 2033
+D3
+~
+~
+0 0 2038
+S
+#2040
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2047
+D3
+~
+~
+0 0 2039
+S
+#2041
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2048
+D1
+You see a large tree there.
+~
+tree large~
+1 0 2042
+D2
+~
+~
+0 0 2034
+S
+#2042
+&+GThe Home of the Faerie Mage~
+   &+yThis is a large, hollowed-out tree which is the home of the faerie mage.
+&+yThis is a very tidy little abode.  Bookshelves line the interior, a small
+&+ydesk is in a corner, and a tiny bed is to one side.  The faerie mage is well
+&+yknown for his magic in the faerie realm, and is said to hold a valuable
+&+ymagic item.
+~
+20 9 0
+D3
+~
+tree large~
+1 0 2041
+S
+#2043
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2050
+D2
+~
+~
+0 0 2036
+S
+#2044
+&+WThe Faerie King's Chambers~
+  &+wThis is a large, hollowed-out tree used by the king of the faeries as an
+&+waudience chamber.  There is a large throne nested against the south of the
+&+wtree, and beautiful tapestries line the walls of the tree.  You get the
+&+wfeeling that the faeries of the realm take their king seriously, and you
+&+whad better not mess with him.
+~
+20 9 0
+D0
+~
+tree large~
+2 2001 2051
+S
+#2045
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2052
+D2
+~
+~
+0 0 2038
+S
+#2046
+&+GInside a Tree~
+   &+yYou are in a large, hollowed-out tree.  It seems to be some sort of home
+&+yto a family of faeries.  There are small beds to one side, a small kitchen,
+&+yand a small living area.  To the east you see a small window peeking out
+&+yinto the faerie forest.
+~
+20 9 0
+D1
+~
+tree large~
+1 0 2047
+S
+#2047
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D0
+~
+~
+0 0 2054
+D2
+~
+~
+0 0 2040
+D3
+There is a large tree there.
+~
+tree large~
+1 0 2046
+S
+#2048
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2049
+D2
+~
+~
+0 0 2041
+S
+#2049
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2050
+D3
+~
+~
+0 0 2048
+S
+#2050
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2051
+D2
+~
+~
+0 0 2043
+D3
+~
+~
+0 0 2049
+S
+#2051
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2052
+D2
+There is a large tree there.
+~
+tree large~
+2 2001 2044
+D3
+~
+~
+0 0 2050
+S
+#2052
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2053
+D2
+~
+~
+0 0 2045
+D3
+~
+~
+0 0 2051
+S
+#2053
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D1
+~
+~
+0 0 2054
+D3
+~
+~
+0 0 2052
+S
+#2054
+&+GIn the Faerie Forest~
+   &+gYou are now among the faeries and their forest.  Hundreds of trees surround
+&+gyou, as well as hundreds of tiny annoying little faeries buzzing about.  Magical
+&+genergy feels strong everywhere, and you feel quite welcome here.
+~
+20 1 3
+D2
+~
+~
+0 0 2047
+D3
+~
+~
+0 0 2053
+S
+#2055
+&+YA Road Through the Hills&n~
+   &+yThis is the beginning of a road which travels into the hills to the east.
+&+yAs you look east, you see the rolling hills of Quistery as they are known.
+&+yFor as far as you can see, which isn't far, the road leads up and over many
+&+yhills.  The doesn't look like many people have ventured upon it.
+~
+20 0 4
+D1
+The road continues.
+~
+~
+0 0 2056
+D3
+You see an intersection of some roads.
+~
+~
+0 0 2020
+S
+#2056
+&+YA Road Through the Hills&n~
+   &+yYou stand on a road through the hills of Quistery at the bottom of a
+&+ylarge hill.  To the west the road continues.  There doesn't seem to be
+&+ymuch of anything around here.
+~
+20 0 4
+D3
+The road leads in that direction.
+~
+~
+0 0 2055
+D4
+There is a top of a large hill in that direction.
+~
+~
+0 0 2057
+S
+#2057
+&+YTop of a Hill~
+   &+yYou now stand on the top of a large hill.  The road through the hills leads
+&+ydown and north from here.  Looking towards the east,  there are many other
+&+yhills continuing higher and higher.
+~
+20 0 4
+D0
+The hill leads down the road in that direction.
+~
+~
+0 0 2058
+D5
+The road leads down in that direction.
+~
+~
+0 0 2056
+S
+#2058
+&+YA Road Through the Hills&n~
+   &+yThis is a continuation of the road through the hills of Quistery.  the road
+&+yleads back to the south or down the hill from here.  Continuing to the east,
+&+ythe road winds through the hill.
+~
+20 0 4
+D2
+The road leads to a hill in that direction.
+~
+~
+0 0 2057
+D5
+The road leads down in that direction.
+~
+~
+0 0 2059
+S
+#2059
+&+YBottom of a Hill~
+   &+yYou now stand at the bottom of a large hill.  The road continues up and
+&+yto the east from here.  You still see no signs of life amongst the hills,
+&+yand you feel quite weary if there is anything lurking about.
+~
+20 0 4
+D1
+The road leads in that direction.
+~
+~
+0 0 2060
+D4
+The road leads up to a hill in that direction.
+~
+~
+0 0 2058
+S
+#2060
+&+YA Road Through the Hills&n~
+   &+yThe road through the hills of Quistery continues east and west from here.
+&+yTowords the east you notice the base of a rather large hill.  Further in
+&+ythe distance you can see a small cottage on the top of this hill.
+~
+20 0 4
+D1
+There is a base of a large hill in that direction.
+~
+~
+0 0 2061
+D2
+~
+~
+0 0 548133
+D3
+The roads leads in that direction.
+~
+~
+0 0 2059
+S
+#2061
+&+YBase of a Large Hill~
+   &+yYou stand at the base of a large hill.  The road continues back to the
+&+ywest and to the north from here.  You notice a small cottage at the top
+&+yof the hill which looks like a small home.
+~
+20 0 4
+D0
+The road continues in that direction.
+~
+~
+0 0 2062
+D3
+The road continues in that direction.
+~
+~
+0 0 2060
+S
+#2062
+&+YA Road Through the Hills&n~
+   &+yThis part of the road is leading towords a large hill.  The road leads
+&+yto the south and to the east from here.  There still seems to be no signs
+&+yof life around the road at all.
+~
+20 0 4
+D1
+The road leads in that direction.
+~
+~
+0 0 2063
+D2
+The road leads in that direction.
+~
+~
+0 0 2061
+S
+#2063
+&+YCloser to the Hill~
+   &+yThe road is now leading closer towards the large hill.  The road leads
+&+yeast and west from here.  You are astonished that there is still no sign
+&+yof life around.
+~
+20 0 4
+D1
+The bottom of the hill is in that direction.
+~
+~
+0 0 2064
+D3
+The road leads in that direction.
+~
+~
+0 0 2062
+S
+#2064
+&+YBottom of the Hill~
+   &+yYou now stand at the bottom of the large hill.  The road leads up and
+&+ywest from here.  You notice that the small cottage has smoke coming out
+&+yof a small smokestack, which leads you to believe it is inhabited by
+&+ysomeone or something.
+~
+20 0 4
+D3
+The road leads in that direction.
+~
+~
+0 0 2063
+D4
+The road leads to the top of the hill in that direction.
+~
+~
+0 0 2065
+S
+#2065
+&+YTop of the Hill~
+   &+yYou now stand on the top of the hill and the end of the road.  The road
+&+yleads back down the hill, and to the west is the small cottage you noticed
+&+yfrom before.  The cottage looks quite cozy.
+~
+20 0 4
+D3
+There is a small cottage there.
+~
+door~
+1 0 2066
+D5
+The road leads down in that direction.
+~
+~
+0 0 2064
+S
+#2066
+&+YA Small Cozy Cottage~
+   &+yThis is a small cozy cottage with a small fireplace in the corner, a bedroom
+&+yto one side, and a small kitchen.  The owner of this cottage seems to be a
+&+yhermit due to the lack of people and animals for that matter.  The cottage
+&+yis filled with warmth from the fireplace, and is quite tidy.  The owner greets
+&+yyou with welcome to his humble abode.
+~
+20 8 1
+D1
+~
+door~
+1 0 2065
+S
+#2067
+&+LOn a Gravel Road~
+   &+yThis is a road poorly made from gravel.  It is hard to define where the road
+&+ystarts and ends.  It leads in a southern direction, and is surrounded on either
+&+yside by small bushes.  The road leads through a small, lush valley.
+~
+20 0 1
+D0
+You see an intersection of roads in that direction.
+~
+~
+0 0 2020
+D2
+The gravel road continues in that direction.
+~
+~
+0 0 2068
+S
+#2068
+&+LTurn On a Gravel Road~
+   &+yThe well travelled, gravel road makes a turn to the east here.  It is still
+&+yhard to determine where the sides of the road are to due to the amount of
+&+yheavy travel.  The road leads to the east and north from here.
+~
+20 0 1
+D0
+The gravel road continues in that direction.
+~
+~
+0 0 2067
+D1
+The gravel road continues in that direction.
+~
+~
+0 0 2070
+S
+#2070
+&+LSouth Bend On the Gravel Road~
+   &+yThe gravel road makes a slight bend to the south here.  To the south, you
+&+yhear voices and much goings on.  Seems to be some type of village or city.
+&+yThe road continues to the south and west from here.
+~
+20 4 1
+D2
+The gravel road continues in that direction.
+~
+~
+0 0 2072
+D3
+The gravel road continues in that direction.
+~
+~
+0 0 2068
+S
+#2072
+&+YEntrance to the Village of Minthka~
+   &+yThis is the entrance to a small village.  There is a small arch hanging
+&+yover the road with a sign reading 'Welcome to Minthka!'.  You hear many
+&+yvillagers to the south running about their daily routines.  This looks like
+&+ya place you would feel welcome in.
+~
+20 0 1
+D0
+The gravel road continues in that direction.
+~
+~
+0 0 2070
+D2
+You see the village of Minthka.
+~
+~
+0 0 2073
+S
+#2073
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D0
+You see the entrance to the village in that direction.
+~
+~
+0 0 2072
+D1
+~
+~
+0 0 2074
+D3
+~
+~
+0 0 2084
+S
+#2074
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D1
+~
+~
+0 0 2075
+D2
+~
+~
+0 0 2077
+D3
+~
+~
+0 0 2073
+S
+#2075
+&+YThe Village Bakery~
+   &+yThis is the village bakery.  Shelves line the walls with all different
+&+ytypes of breaded goods.  The shop appears to be quite well used by all the
+&+yvillagers of the area.  Flour is spread around the floor as it looks like
+&+ythe baker has been quite busy preparing bread.
+~
+20 8 1
+D3
+You see the village square in that direction.
+~
+~
+0 0 2074
+S
+#2076
+&+YThe Village Grocery~
+   &+yThis is the village grocery where travellers and villagers can buy supplies
+&+yfor their needs.  Shelves line the walls of all different types of supplies.
+&+yThe ground is cluttered with dirt and paper wrappings.
+~
+20 8 1
+D3
+You see the village square in that direction.
+~
+~
+0 0 2077
+S
+#2077
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D0
+~
+~
+0 0 2074
+D1
+~
+~
+0 0 2076
+D2
+~
+~
+0 0 2079
+S
+#2078
+&+YThe Village Magic Shop~
+   &+yThis is the village magic shop where travellers and villagers buy their
+&+ymagical supplies.  The shelves of this store are lined with potions, vials,
+&+yelixirs, and magical scrolls all for the buying.
+~
+20 8 1
+D3
+You see the village square in that direction.
+~
+~
+0 0 2079
+S
+#2079
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D0
+~
+~
+0 0 2077
+D1
+~
+~
+0 0 2078
+D3
+~
+~
+0 0 2080
+S
+#2080
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D1
+~
+~
+0 0 2079
+D3
+~
+~
+0 0 2081
+S
+#2081
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D0
+~
+~
+0 0 2082
+D1
+~
+~
+0 0 2080
+D3
+~
+~
+0 0 2086
+S
+#2082
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D0
+~
+~
+0 0 2084
+D2
+~
+~
+0 0 2081
+D3
+~
+~
+0 0 2083
+S
+#2083
+&+YA Village Home~
+   &+yYou have entered a small home of one of the villagers.  There is a small
+&+ybed in one corner, small stove in another, and a tiny living area.  The
+&+yowner of this abode doesn't seem to be very rich, as the entire room is
+&+yquite dirty, and doesn't have many valuable items.
+~
+20 8 1
+D1
+You see the village square in that direction.
+~
+~
+0 0 2082
+S
+#2084
+&+YVillage Square of Minthka~
+   &+yThis is the village square of Minthka.  Scores of people are running about
+&+ydoing their daily routine.  You see all different types of people, including
+&+ytravellers just visiting this quaint village.  Everyone seems to greet you
+&+ywith a warm smile.
+~
+20 0 1
+D1
+~
+~
+0 0 2073
+D2
+~
+~
+0 0 2082
+D3
+~
+~
+0 0 2085
+S
+#2085
+&+LThe Village Blacksmithy~
+   &+yThis is the village blacksmith's store.  A large anvil lies in the center
+&+yof the room, where the blacksmith forges weapons and armor.  The walls of
+&+ythe store are lined with various types of armor and weapons.  The entire
+&+ystore smells of stank, burning metal.
+~
+20 8 1
+D1
+You see the village square in that direction.
+~
+~
+0 0 2084
+S
+#2086
+&+YEntrance to the Village Leader's Home~
+   &+yThis is a small archway leading to the leader of the village's home.  The
+&+yarchway is made from ivory tusks, and there is a sign hanging which reads:
+&+y'Village Leader's Home - No Trespassing!'.
+~
+20 0 1
+D1
+You see the village square in that direction.
+~
+~
+0 0 2081
+D3
+You see a large door.
+~
+door large~
+1 0 2087
+S
+#2087
+&+YThe Village Leader's Home~
+   &+yThis is the extravagant home of the village leader.  The entire home is
+&+yadorned with lavish decorations laced with gold and silk.  Silver and gold
+&+ystatuettes of monsters are placed on bookshelfs lining the walls.  The
+&+yleader greets you with a grunt, 'What?!?!'.
+~
+20 8 1
+D1
+You see a large door.
+~
+door large~
+1 0 2086
+D2
+You see a small door.
+~
+door small~
+2 2005 2088
+S
+#2088
+&+LA Small Closet~
+   &+wThis is a small closet where the village leader keeps his things.  The
+&+wcloset has many lavish clothes and novelty items.  There doesn't seem to
+&+wbe much of value here.
+~
+20 9 1
+D0
+You see a small door.
+~
+door small~
+2 2005 2087
+S

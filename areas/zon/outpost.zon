@@ -1,0 +1,226 @@
+#821
+The Human Outpost~
+82139 2 0 30 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 82106 0 2 100 0 0 0
+*     north exit from "In an Armoury" to
+*     "In the Treasury" - closed/locked
+*
+D 0 82125 2 2 100 0 0 0
+*     south exit from "In the Treasury" to
+*     "In an Armoury" - closed/locked
+*
+D 0 82109 1 1 100 0 0 0
+*     east exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82110 3 1 100 0 0 0
+*     west exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82109 3 1 100 0 0 0
+*     west exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82111 1 1 100 0 0 0
+*     east exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82112 1 1 100 0 0 0
+*     east exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82113 3 1 100 0 0 0
+*     west exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82112 3 1 100 0 0 0
+*     west exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82114 1 1 100 0 0 0
+*     east exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82115 1 1 100 0 0 0
+*     east exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82116 3 1 100 0 0 0
+*     west exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82115 3 1 100 0 0 0
+*     west exit from "A Hallway Connecting the Barracks" to
+*     "Inside Sleeping Quarters" - closed
+*
+D 0 82117 1 1 100 0 0 0
+*     east exit from "Inside Sleeping Quarters" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82118 1 1 100 0 0 0
+*     east exit from "A Hallway Connecting the Barracks" to
+*     "A Room Full of Lockers" - closed
+*
+D 0 82119 3 1 100 0 0 0
+*     west exit from "A Room Full of Lockers" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82118 3 1 100 0 0 0
+*     west exit from "A Hallway Connecting the Barracks" to
+*     "A Room Full of Lockers" - closed
+*
+D 0 82120 1 1 100 0 0 0
+*     east exit from "A Room Full of Lockers" to
+*     "A Hallway Connecting the Barracks" - closed
+*
+D 0 82121 1 1 100 0 0 0
+*     east exit from "The End of a Hallway" to
+*     "A Room Full of Maps" - closed
+*
+D 0 82122 3 1 100 0 0 0
+*     west exit from "A Room Full of Maps" to
+*     "The End of a Hallway" - closed
+*
+D 0 82121 3 1 100 0 0 0
+*     west exit from "The End of a Hallway" to
+*     "A Meeting Room" - closed
+*
+D 0 82123 1 1 100 0 0 0
+*     east exit from "A Meeting Room" to
+*     "The End of a Hallway" - closed
+*
+D 0 82135 5 1 100 0 0 0
+*     down exit from "On a Narrow Staircase" to
+*     "At the Bottom of a Set of Narrow Stairs" - closed
+*
+D 0 82136 4 1 100 0 0 0
+*     up exit from "At the Bottom of a Set of Narrow Stairs" to
+*     "On a Narrow Staircase" - closed
+*
+*
+O 0 82120 8 82119 100 0 0 0        * a locker
+P 1 82100 19 82120 100 0 0 0       *   a massive steel mace
+O 0 82120 8 82119 100 0 0 0        * a locker
+O 0 82120 8 82119 100 0 0 0        * a locker
+O 0 82120 8 82119 100 0 0 0        * a locker
+O 0 82120 8 82120 100 0 0 0        * a locker
+P 1 82101 10 82120 100 0 0 0       *   a white steel saber
+O 0 82120 8 82120 100 0 0 0        * a locker
+O 0 82120 8 82120 100 0 0 0        * a locker
+O 0 82120 8 82120 100 0 0 0        * a locker
+O 0 82115 3 82125 100 0 0 0        * a small pile of gemstones
+O 0 82115 3 82125 100 0 0 0        * a small pile of gemstones
+O 0 82115 3 82125 100 0 0 0        * a small pile of gemstones
+O 0 82109 1 82133 100 0 0 0        * a massive table
+*
+M 0 82102 1 82101 100 0 0 0        * a Tharnadian cleric
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+E 1 82107 1 18 100 0 0 0           *   a copper holy symbol
+F 1 82100 1 82101 100 0 0 0        * a ruthless mercenary (following)
+E 1 82106 1 11 100 0 0 0           *   a bronze parrying dagger
+E 1 82105 1 16 100 0 0 0           *   a twisted steel rapier
+E 1 82104 3 5 100 0 0 0            *   a set of heavy blue steel platemail
+F 1 82101 1 82101 100 0 0 0        * a young mage guard (following)
+E 1 82108 1 5 100 0 0 0            *   a set of white mage robes
+F 1 82103 2 82101 100 0 0 0        * a massive guard (following)
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+E 1 82104 3 5 100 0 0 0            *   a set of heavy blue steel platemail
+F 1 82103 2 82101 100 0 0 0        * a massive guard (following)
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+E 1 82104 3 5 100 0 0 0            *   a set of heavy blue steel platemail
+M 0 82104 2 82102 100 0 0 0        * an outpost guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82104 2 82103 100 0 0 0        * an outpost guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82111 2 82105 100 0 0 0        * a young patrol guard
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+M 0 82121 1 82106 100 0 0 0        * the outpost armorer
+G 1 82111 1 0 100 0 0 0            *    the mithril plated gloves of ogre strength
+G 1 82112 1 0 100 0 0 0            *    some blue steel sleeves encrusted with diamonds
+G 1 82113 1 0 100 0 0 0            *    an iron visor
+G 1 82114 1 0 100 0 0 0            *    a finely crafted metal breastplate
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 82111 2 82108 100 0 0 0        * a young patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82105 4 82109 100 0 0 0        * a young patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82106 8 82110 100 0 0 0        * a sick guard
+M 0 82106 8 82110 100 0 0 0        * a sick guard
+M 0 82106 8 82110 100 0 0 0        * a sick guard
+M 0 82106 8 82110 100 0 0 0        * a sick guard
+M 0 82107 3 82110 100 0 0 0        * a resting patrol guard
+M 0 82106 8 82111 100 0 0 0        * a sick guard
+M 0 82106 8 82111 100 0 0 0        * a sick guard
+M 0 82106 8 82111 100 0 0 0        * a sick guard
+M 0 82106 8 82111 100 0 0 0        * a sick guard
+M 0 82108 3 82111 100 0 0 0        * a resting patrol guard
+M 0 82105 4 82112 100 0 0 0        * a young patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82107 3 82113 100 0 0 0        * a resting patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82107 3 82114 100 0 0 0        * a resting patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82108 3 82116 100 0 0 0        * a resting patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82108 3 82117 100 0 0 0        * a resting patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82105 4 82118 100 0 0 0        * a young patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82105 4 82121 100 0 0 0        * a young patrol guard
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82109 1 82122 100 0 0 0        * a human officer
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82110 3 82123 100 0 0 0        * a human officer
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82110 3 82123 100 0 0 0        * a human officer
+E 1 82100 19 16 100 0 0 0          *   a massive steel mace
+M 0 82110 3 82123 100 0 0 0        * a human officer
+M 0 82120 1 82123 100 0 0 0        * Lord Perrin
+G 1 82110 1 0 100 0 0 0            *    an ethereal key
+G 1 82117 1 0 100 0 0 0            *    a small black box
+P 1 82118 1 82117 100 0 0 0        *   a beautiful azure holy symbol
+P 1 82119 1 82117 100 0 0 0        *   a papyrus scroll
+G 1 82100 19 0 100 0 0 0           *    a massive steel mace
+G 1 82101 10 0 100 0 0 0           *    a white steel saber
+M 0 82112 1 82128 100 0 0 0        * an aging warrior
+E 1 82103 1 15 100 0 0 0           *   a black leather dart pouch
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+P 1 82102 10 82103 100 0 0 0       *   a razored mithril dart with a barbed tip
+M 0 82113 3 82128 100 0 0 0        * a gambling soldier
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+M 0 82113 3 82128 100 0 0 0        * a gambling soldier
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+M 0 82113 3 82128 100 0 0 0        * a gambling soldier
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+M 0 82114 2 82130 100 0 0 0        * a training warrior
+M 0 82114 2 82131 100 0 0 0        * a training warrior
+M 0 82115 1 82132 100 0 0 0        * the weaponsmaster
+M 0 82119 1 82134 100 0 0 0        * the staircase guard
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+M 0 82118 3 82136 100 0 0 0        * the prison guard
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+G 1 82116 3 0 100 0 0 0            *    a brilliant white orb
+M 0 82118 3 82137 100 0 0 0        * the prison guard
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+G 1 82116 3 0 100 0 0 0            *    a brilliant white orb
+M 0 82116 1 82138 100 0 0 0        * a goblin prisoner
+M 0 82117 1 82138 100 0 0 0        * the torturer
+M 0 82118 3 82139 100 0 0 0        * the prison guard
+E 1 82101 10 16 100 0 0 0          *   a white steel saber
+G 1 82116 3 0 100 0 0 0            *    a brilliant white orb
+*
+S

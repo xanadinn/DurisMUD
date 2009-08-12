@@ -1,0 +1,352 @@
+#958
+&+cBugentolen&n~
+95924 2 8 35 45 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 95826 3 1 100 0 0 0
+*     west exit from "The Shaman's Office" to
+*     "Boongar's Bedroom" - closed
+*
+D 0 95827 1 1 100 0 0 0
+*     east exit from "Boongar's Bedroom" to
+*     "The Shaman's Office" - closed
+*
+D 0 95885 3 1 100 0 0 0
+*     west exit from "Boggler Street" to
+*     "The Slave Pens" - closed
+*
+D 0 95886 1 1 100 0 0 0
+*     east exit from "The Slave Pens" to
+*     "Boggler Street" - closed
+*
+*
+*
+M 0 95800 20 95800 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95800 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95800 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95800 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95803 21 95801 100 0 0 0       * a bugbear commoner
+M 0 95805 13 95801 100 0 0 0       * a bugbear girl
+M 0 95810 8 95801 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95802 15 95802 100 0 0 0       * a bugbear father
+M 0 95805 13 95802 100 0 0 0       * a bugbear girl
+M 0 95805 13 95802 100 0 0 0       * a bugbear girl
+M 0 95804 7 95802 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95803 21 95803 100 0 0 0       * a bugbear commoner
+M 0 95823 1 95803 100 0 0 0        * a bugbear butcher
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95817 1 8 100 0 0 0            *   some studded black boots
+E 1 95811 1 16 100 0 0 0           *   a huge double-edged battleaxe
+M 0 95811 9 95804 100 0 0 0        * a drunk bugbear
+M 0 95811 9 95804 100 0 0 0        * a drunk bugbear
+M 0 95811 9 95804 100 0 0 0        * a drunk bugbear
+M 0 95811 9 95804 100 0 0 0        * a drunk bugbear
+M 0 95804 7 95804 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95802 15 95805 100 0 0 0       * a bugbear father
+M 0 95808 12 95805 100 0 0 0       * a bugbear cleaner
+M 0 95804 7 95805 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95826 4 95805 100 0 0 0        * a bugbear guard
+M 0 95804 7 95806 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95805 13 95806 100 0 0 0       * a bugbear girl
+M 0 95807 19 95807 100 0 0 0       * a bugbear youth
+M 0 95807 19 95807 100 0 0 0       * a bugbear youth
+M 0 95807 19 95807 100 0 0 0       * a bugbear youth
+M 0 95802 15 95808 100 0 0 0       * a bugbear father
+M 0 95808 12 95808 100 0 0 0       * a bugbear cleaner
+M 0 95807 19 95809 100 0 0 0       * a bugbear youth
+M 0 95805 13 95810 100 0 0 0       * a bugbear girl
+M 0 95805 13 95810 100 0 0 0       * a bugbear girl
+M 0 95805 13 95810 100 0 0 0       * a bugbear girl
+M 0 95805 13 95810 100 0 0 0       * a bugbear girl
+M 0 95801 12 95810 100 0 0 0       * a bugbear child
+M 0 95801 12 95810 100 0 0 0       * a bugbear child
+M 0 95801 12 95810 100 0 0 0       * a bugbear child
+M 0 95801 12 95811 100 0 0 0       * a bugbear child
+M 0 95801 12 95811 100 0 0 0       * a bugbear child
+M 0 95805 13 95811 100 0 0 0       * a bugbear girl
+M 0 95800 20 95812 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95826 4 95812 100 0 0 0        * a bugbear guard
+M 0 95802 15 95813 100 0 0 0       * a bugbear father
+M 0 95802 15 95813 100 0 0 0       * a bugbear father
+M 0 95807 19 95813 100 0 0 0       * a bugbear youth
+M 0 95807 19 95813 100 0 0 0       * a bugbear youth
+M 0 95808 12 95813 100 0 0 0       * a bugbear cleaner
+M 0 95806 5 95813 100 0 0 0        * a bugbear elite guard
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95806 5 95813 100 0 0 0        * a bugbear elite guard
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95808 12 95814 100 0 0 0       * a bugbear cleaner
+M 0 95810 8 95814 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95814 9 95815 100 0 0 0        * a thick vine
+M 0 95808 12 95816 100 0 0 0       * a bugbear cleaner
+M 0 95808 12 95816 100 0 0 0       * a bugbear cleaner
+M 0 95808 12 95816 100 0 0 0       * a bugbear cleaner
+M 0 95805 13 95817 100 0 0 0       * a bugbear girl
+M 0 95802 15 95817 100 0 0 0       * a bugbear father
+M 0 95802 15 95818 100 0 0 0       * a bugbear father
+M 0 95810 8 95818 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95826 4 95818 100 0 0 0        * a bugbear guard
+M 0 95810 8 95819 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+G 1 95814 8 0 100 0 0 0            *    some oddly engraved bracers
+M 0 95808 12 95820 100 0 0 0       * a bugbear cleaner
+M 0 95811 9 95820 100 0 0 0        * a drunk bugbear
+M 0 95811 9 95820 100 0 0 0        * a drunk bugbear
+M 0 95801 12 95821 100 0 0 0       * a bugbear child
+M 0 95807 19 95821 100 0 0 0       * a bugbear youth
+M 0 95811 9 95821 100 0 0 0        * a drunk bugbear
+M 0 95803 21 95821 100 0 0 0       * a bugbear commoner
+M 0 95810 8 95821 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95826 4 95821 100 0 0 0        * a bugbear guard
+M 0 95803 21 95822 100 0 0 0       * a bugbear commoner
+M 0 95802 15 95822 100 0 0 0       * a bugbear father
+M 0 95802 15 95823 100 0 0 0       * a bugbear father
+M 0 95801 12 95823 100 0 0 0       * a bugbear child
+M 0 95802 15 95823 100 0 0 0       * a bugbear father
+M 0 95802 15 95823 100 0 0 0       * a bugbear father
+M 0 95817 1 95824 100 0 0 0        * Boular, the town elder
+E 1 95808 1 3 100 0 0 0            *   a necklace of rotten ears
+M 0 95818 1 95826 100 0 0 0        * Boongar, the master shaman
+E 1 95809 1 15 100 0 0 0           *   some strange bracers
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95825 1 95826 100 0 0 0        * a cloaked stranger
+E 1 95815 1 6 100 0 0 0            *   a dark blue hood
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95819 1 95827 100 0 0 0        * Bonga, wife of Boongar
+E 1 95810 1 2 100 0 0 0            *   a dark blue ring
+M 0 95807 19 95828 100 0 0 0       * a bugbear youth
+M 0 95803 21 95828 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95828 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95829 100 0 0 0       * a bugbear commoner
+M 0 95804 7 95829 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95807 19 95831 100 0 0 0       * a bugbear youth
+M 0 95807 19 95832 100 0 0 0       * a bugbear youth
+M 0 95807 19 95833 100 0 0 0       * a bugbear youth
+M 0 95807 19 95834 100 0 0 0       * a bugbear youth
+M 0 95807 19 95835 100 0 0 0       * a bugbear youth
+M 0 95821 8 95837 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95822 5 95845 100 0 0 0        * a shaman teacher
+E 1 95803 5 3 100 0 0 0            *   a necklace of dwarf eyes
+E 1 95802 5 6 100 0 0 0            *   a dwarfhide headband
+M 0 95821 8 95845 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95822 5 95846 100 0 0 0        * a shaman teacher
+E 1 95803 5 3 100 0 0 0            *   a necklace of dwarf eyes
+E 1 95802 5 6 100 0 0 0            *   a dwarfhide headband
+M 0 95821 8 95846 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95822 5 95847 100 0 0 0        * a shaman teacher
+E 1 95803 5 3 100 0 0 0            *   a necklace of dwarf eyes
+E 1 95802 5 6 100 0 0 0            *   a dwarfhide headband
+M 0 95821 8 95847 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95822 5 95848 100 0 0 0        * a shaman teacher
+E 1 95803 5 3 100 0 0 0            *   a necklace of dwarf eyes
+E 1 95802 5 6 100 0 0 0            *   a dwarfhide headband
+M 0 95821 8 95848 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95822 5 95849 100 0 0 0        * a shaman teacher
+E 1 95803 5 3 100 0 0 0            *   a necklace of dwarf eyes
+E 1 95802 5 6 100 0 0 0            *   a dwarfhide headband
+M 0 95821 8 95849 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95821 8 95849 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95821 8 95849 100 0 0 0        * a shaman in training
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+M 0 95820 1 95850 100 0 0 0        * the constable
+E 1 95805 1 10 100 0 0 0           *   a pair of dwarf-hide sleeves
+M 0 95800 20 95851 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95851 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95851 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95806 5 95851 100 0 0 0        * a bugbear elite guard
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95806 5 95851 100 0 0 0        * a bugbear elite guard
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95800 20 95852 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95853 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95854 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95855 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95857 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95803 21 95858 100 0 0 0       * a bugbear commoner
+M 0 95807 19 95858 100 0 0 0       * a bugbear youth
+M 0 95801 12 95859 100 0 0 0       * a bugbear child
+M 0 95800 20 95860 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95803 21 95861 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95861 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95861 100 0 0 0       * a bugbear commoner
+M 0 95807 19 95861 100 0 0 0       * a bugbear youth
+M 0 95807 19 95861 100 0 0 0       * a bugbear youth
+M 0 95803 21 95863 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95863 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95863 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95863 100 0 0 0       * a bugbear commoner
+M 0 95800 20 95865 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95814 9 95865 100 0 0 0        * a thick vine
+M 0 95814 9 95873 100 0 0 0        * a thick vine
+M 0 95809 11 95874 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95875 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95875 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95875 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95875 100 0 0 0       * a bugbear gardener
+M 0 95814 9 95875 100 0 0 0        * a thick vine
+M 0 95814 9 95875 100 0 0 0        * a thick vine
+M 0 95809 11 95877 100 0 0 0       * a bugbear gardener
+M 0 95814 9 95877 100 0 0 0        * a thick vine
+M 0 95809 11 95878 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95880 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95880 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95880 100 0 0 0       * a bugbear gardener
+M 0 95809 11 95880 100 0 0 0       * a bugbear gardener
+M 0 95814 9 95881 100 0 0 0        * a thick vine
+M 0 95807 19 95882 100 0 0 0       * a bugbear youth
+M 0 95807 19 95882 100 0 0 0       * a bugbear youth
+M 0 95807 19 95882 100 0 0 0       * a bugbear youth
+M 0 95802 15 95882 100 0 0 0       * a bugbear father
+M 0 95803 21 95882 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95882 100 0 0 0       * a bugbear commoner
+M 0 95803 21 95882 100 0 0 0       * a bugbear commoner
+M 0 95804 7 95882 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95803 21 95883 100 0 0 0       * a bugbear commoner
+M 0 95810 8 95884 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95803 21 95885 100 0 0 0       * a bugbear commoner
+M 0 95802 15 95885 100 0 0 0       * a bugbear father
+M 0 95816 12 95887 100 0 0 0       * a dwarf slave
+M 0 95816 12 95890 100 0 0 0       * a dwarf slave
+M 0 95816 12 95890 100 0 0 0       * a dwarf slave
+M 0 95816 12 95892 100 0 0 0       * a dwarf slave
+M 0 95815 9 95893 100 0 0 0        * a bugbear warrior
+M 0 95816 12 95894 100 0 0 0       * a dwarf slave
+M 0 95816 12 95896 100 0 0 0       * a dwarf slave
+M 0 95816 12 95896 100 0 0 0       * a dwarf slave
+M 0 95805 13 95897 100 0 0 0       * a bugbear girl
+M 0 95808 12 95897 100 0 0 0       * a bugbear cleaner
+M 0 95824 1 95898 100 0 0 0        * a bugbear carpenter
+E 1 95812 1 2 100 0 0 0            *   a silvery ring studded with gems
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95816 1 13 100 0 0 0           *   a belt of ragged flesh
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95816 12 95899 100 0 0 0       * a dwarf slave
+M 0 95816 12 95900 100 0 0 0       * a dwarf slave
+M 0 95808 12 95901 100 0 0 0       * a bugbear cleaner
+M 0 95806 5 95902 100 0 0 0        * a bugbear elite guard
+E 1 95804 8 16 100 0 0 0           *   a spiked mace covered in blood
+M 0 95808 12 95903 100 0 0 0       * a bugbear cleaner
+M 0 95810 8 95904 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95810 8 95904 100 0 0 0        * a bugbear noble
+E 1 95813 11 7 100 0 0 0           *   some blood red leg plates
+E 1 95814 8 15 100 0 0 0           *   some oddly engraved bracers
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95905 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95905 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95905 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95800 20 95905 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95815 9 95907 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95910 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95911 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95911 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95911 100 0 0 0        * a bugbear warrior
+M 0 95812 3 95912 100 0 0 0        * a small bat
+M 0 95813 6 95912 100 0 0 0        * a small snake
+M 0 95813 6 95912 100 0 0 0        * a small snake
+M 0 95805 13 95912 100 0 0 0       * a bugbear girl
+M 0 95814 9 95913 100 0 0 0        * a thick vine
+M 0 95812 3 95913 100 0 0 0        * a small bat
+M 0 95805 13 95913 100 0 0 0       * a bugbear girl
+M 0 95816 12 95914 100 0 0 0       * a dwarf slave
+M 0 95816 12 95914 100 0 0 0       * a dwarf slave
+M 0 95816 12 95914 100 0 0 0       * a dwarf slave
+M 0 95815 9 95915 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95917 100 0 0 0        * a bugbear warrior
+M 0 95815 9 95917 100 0 0 0        * a bugbear warrior
+M 0 95801 12 95918 100 0 0 0       * a bugbear child
+M 0 95801 12 95918 100 0 0 0       * a bugbear child
+M 0 95801 12 95918 100 0 0 0       * a bugbear child
+M 0 95802 15 95918 100 0 0 0       * a bugbear father
+M 0 95804 7 95918 100 0 0 0        * a bugbear mercenary
+E 1 95801 15 2 100 0 0 0           *   a bent ring
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+E 1 95807 7 19 100 0 0 0           *   a bugbear-skin eyepatch
+E 1 95806 7 20 100 0 0 0           *   a mask of sewn flesh
+M 0 95803 21 95920 100 0 0 0       * a bugbear commoner
+M 0 95808 12 95920 100 0 0 0       * a bugbear cleaner
+M 0 95800 20 95920 100 0 0 0       * a bugbear guard
+E 1 95800 35 16 100 0 0 0          *   a leg bone
+M 0 95813 6 95922 100 0 0 0        * a small snake
+M 0 95814 9 95922 100 0 0 0        * a thick vine
+M 0 95812 3 95922 100 0 0 0        * a small bat
+M 0 95813 6 95923 100 0 0 0        * a small snake
+M 0 95813 6 95923 100 0 0 0        * a small snake
+M 0 95813 6 95923 100 0 0 0        * a small snake
+M 0 95802 15 95924 100 0 0 0       * a bugbear father
+M 0 95801 12 95924 100 0 0 0       * a bugbear child
+M 0 95811 9 95924 100 0 0 0        * a drunk bugbear
+M 0 95811 9 95924 100 0 0 0        * a drunk bugbear
+*
+S

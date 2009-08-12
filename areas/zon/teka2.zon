@@ -1,0 +1,318 @@
+#755
+The Dark Stone Tower of the Northern Realms~
+75598 1 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 75508 1 1 100 0 0 0
+*     east exit from "A Small Room" to
+*     "A Marble Staircase" - closed
+*
+D 0 75526 3 1 100 0 0 0
+*     west exit from "A Marble Staircase" to
+*     "A Small Room" - closed
+*
+D 0 75508 2 1 100 0 0 0
+*     south exit from "A Small Room" to
+*     "Deeper Within An Old Laboratory" - closed
+*
+D 0 75509 0 1 100 0 0 0
+*     north exit from "Deeper Within An Old Laboratory" to
+*     "A Small Room" - closed
+*
+D 0 75517 0 2 100 0 0 0
+*     north exit from "Before an Ancient Crypt" to
+*     "The Crypt of Lashan Blackfeather" - closed/locked
+*
+D 0 75519 2 2 100 0 0 0
+*     south exit from "The Crypt of Lashan Blackfeather" to
+*     "Before an Ancient Crypt" - closed/locked
+*
+D 0 75517 4 1 100 0 0 0
+*     up exit from "Before an Ancient Crypt" to
+*     "A Dark Altar" - closed
+*
+D 0 75540 5 2 100 0 0 0
+*     down exit from "A Dark Altar" to
+*     "Before an Ancient Crypt" - closed/locked
+*
+D 0 75520 1 1 100 0 0 0
+*     east exit from "A Wooden Hallway" to
+*     "A Very Small Room" - closed
+*
+D 0 75575 3 1 100 0 0 0
+*     west exit from "A Very Small Room" to
+*     "A Wooden Hallway" - closed
+*
+D 0 75521 2 2 100 0 0 0
+*     south exit from "A Wooden Hallway" to
+*     "Before a Great Stone Tower" - closed/locked
+*
+D 0 75539 0 2 100 0 0 0
+*     north exit from "Before a Great Stone Tower" to
+*     "A Wooden Hallway" - closed/locked
+*
+D 0 75523 2 1 100 0 0 0
+*     south exit from "A Lighted Hallway" to
+*     "A Small Closet" - closed
+*
+D 0 75570 0 1 100 0 0 0
+*     north exit from "A Small Closet" to
+*     "A Lighted Hallway" - closed
+*
+D 0 75547 0 1 100 0 0 0
+*     north exit from "On the West Side of the Altar" to
+*     "A Small Storage Room" - closed
+*
+D 0 75553 2 1 100 0 0 0
+*     south exit from "A Small Storage Room" to
+*     "On the West Side of the Altar" - closed
+*
+D 0 75553 5 2 100 0 0 0
+*     down exit from "A Small Storage Room" to
+*     "A Small Closet" - closed/locked
+*
+D 0 75576 4 2 100 0 0 0
+*     up exit from "A Small Closet" to
+*     "A Small Storage Room" - closed/locked
+*
+D 0 75560 2 5 100 0 0 0
+*     south exit from "A Hall of Mirrors" to
+*     "A Dark Vault" - closed/secret
+*
+D 0 75561 0 5 100 0 0 0
+*     north exit from "A Dark Vault" to
+*     "A Hall of Mirrors" - closed/secret
+*
+D 0 75562 3 5 100 0 0 0
+*     west exit from "A Hall of Mirrors" to
+*     "A Dark Closet" - closed/secret
+*
+D 0 75580 1 1 100 0 0 0
+*     east exit from "A Dark Closet" to
+*     "A Hall of Mirrors" - closed
+*
+D 0 75565 2 2 100 0 0 0
+*     south exit from "Inside the Prison" to
+*     "The Entrance to the Prison" - closed/locked
+*
+D 0 75568 0 2 100 0 0 0
+*     north exit from "The Entrance to the Prison" to
+*     "Inside the Prison" - closed/locked
+*
+D 0 75573 2 2 100 0 0 0
+*     south exit from "A Sticky Tunnel" to
+*     "A Dark Cave" - closed/locked
+*
+D 0 75586 0 2 100 0 0 0
+*     north exit from "A Dark Cave" to
+*     "A Sticky Tunnel" - closed/locked
+*
+*
+O 0 358 1 75519 100 0 0 0          * (object type not in this .obj file)
+O 0 75511 4 75532 100 0 0 0        * a puddle of blood
+O 0 75550 1 75535 100 0 0 0        * a skeleton
+O 0 75511 4 75536 100 0 0 0        * a puddle of blood
+O 0 75551 1 75537 100 0 0 0        * A large mirror
+O 0 75504 1 75544 100 0 0 0        * a large stone altar
+O 0 75511 4 75564 100 0 0 0        * a puddle of blood
+O 0 75511 4 75566 100 0 0 0        * a puddle of blood
+O 0 75552 1 75581 100 0 0 0        * a golden orb
+O 0 75556 1 75583 100 0 0 0        * a loose floor board
+*
+M 0 75500 1 75500 100 0 0 0        * Aerlyn
+E 1 75501 1 1 100 0 0 0            *   a shimmering ring of the faeries
+E 1 75565 1 2 100 0 0 0            *   a polished black ring
+E 1 75520 1 12 100 0 0 0           *   a long flowing black robe
+E 1 75502 1 16 100 0 0 0           *   a long jeweled staff
+M 0 75527 9 75501 100 0 0 0        * An apprentice mage
+M 0 75501 9 75502 100 0 0 0        * a strange yellow plant
+G 1 75512 4 0 100 0 0 0            *    a red blossom
+M 0 75501 9 75502 100 0 0 0        * a strange yellow plant
+G 1 75512 4 0 100 0 0 0            *    a red blossom
+M 0 75527 9 75502 100 0 0 0        * An apprentice mage
+E 1 75545 3 16 100 0 0 0           *   a quarterstaff
+M 0 75501 9 75503 100 0 0 0        * a strange yellow plant
+M 0 75501 9 75503 100 0 0 0        * a strange yellow plant
+G 1 75512 4 0 100 0 0 0            *    a red blossom
+M 0 75501 9 75503 100 0 0 0        * a strange yellow plant
+M 0 75527 9 75504 100 0 0 0        * An apprentice mage
+E 1 75545 3 16 100 0 0 0           *   a quarterstaff
+M 0 75527 9 75504 100 0 0 0        * An apprentice mage
+M 0 75513 5 75505 100 0 0 0        * The royal guard
+E 1 75534 4 5 100 0 0 0            *   a guard's platemail
+E 1 75533 4 16 100 0 0 0           *   a guard's longsword
+M 0 75502 1 75506 100 0 0 0        * Nathin
+E 1 75503 2 16 100 0 0 0           *   an old stone mace
+G 1 75507 1 0 100 0 0 0            *    a small bag of ogre-skin
+P 1 75505 1 75507 100 0 0 0        *   a small cloudy vial
+P 1 75506 1 75507 100 0 0 0        *   a dusty old scroll
+M 0 75522 2 75507 100 0 0 0        * A flesh golem
+E 1 75540 1 9 100 0 0 0            *   a pair of strange gauntlets
+M 0 75527 9 75508 100 0 0 0        * An apprentice mage
+M 0 75511 1 75509 100 0 0 0        * The black mage
+E 1 75500 1 5 100 0 0 0            *   a long black satin robe
+E 1 75518 1 16 100 0 0 0           *   a wizard's staff
+G 1 75521 1 0 100 0 0 0            *    an ornate wand
+M 0 75527 9 75509 100 0 0 0        * An apprentice mage
+M 0 75533 1 75510 100 0 0 0        * Itzkar, the old sage
+E 1 75519 1 21 100 0 0 0           *   a sparkling gemstone earring
+M 0 75512 1 75511 100 0 0 0        * A cloaked woman
+E 1 75532 1 12 100 0 0 0           *   a runed cloak
+E 1 75530 1 16 100 0 0 0           *   a large stone mace
+M 0 75510 1 75512 100 0 0 0        * Caledan, the trainer
+E 1 75508 2 5 100 0 0 0            *   a shining suit of warrior's platemail
+E 1 75524 2 15 100 0 0 0           *   a tarnished bracelet of platinum links
+E 1 75525 1 16 100 0 0 0           *   a warrior's sword
+M 0 75526 9 75513 100 0 0 0        * A hooded sentry
+M 0 75514 5 75514 100 0 0 0        * The barrack guard
+M 0 75515 1 75515 100 0 0 0        * Quentim, the chief guard
+E 1 75535 2 5 100 0 0 0            *   a heavy suit of guard's platemail
+E 1 75537 1 11 100 0 0 0           *   a spiked shield
+G 1 75536 1 0 100 0 0 0            *    a fine longsword
+M 0 75514 5 75515 100 0 0 0        * The barrack guard
+M 0 75514 5 75515 100 0 0 0        * The barrack guard
+M 0 75514 5 75516 100 0 0 0        * The barrack guard
+M 0 75537 2 75517 100 0 0 0        * a crypt guardian
+M 0 75538 2 75517 100 0 0 0        * a crypt guardian
+M 0 75539 1 75517 100 0 0 0        * A crypt guardian
+G 1 75562 1 0 100 0 0 0            *    a small key
+M 0 75513 5 75517 100 0 0 0        * The royal guard
+E 1 75534 4 5 100 0 0 0            *   a guard's platemail
+E 1 75533 4 16 100 0 0 0           *   a guard's longsword
+M 0 75514 5 75518 100 0 0 0        * The barrack guard
+M 0 75540 1 75519 100 0 0 0        * the soul of Lashan Blackfeather
+E 1 75563 1 3 100 0 0 0            *   a tekan amulet of dragon's blood
+F 1 75537 2 75519 100 0 0 0        * a crypt guardian (following)
+F 1 75538 2 75519 100 0 0 0        * a crypt guardian (following)
+M 0 75526 9 75521 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75526 9 75521 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75526 9 75521 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75513 5 75521 100 0 0 0        * The royal guard
+M 0 75517 3 75522 100 0 0 0        * A disciple
+M 0 75501 9 75522 100 0 0 0        * a strange yellow plant
+G 1 75512 4 0 100 0 0 0            *    a red blossom
+M 0 75523 1 75524 100 0 0 0        * Osmirim, the dark rogue
+E 1 75554 1 3 100 0 0 0            *   a necklace of serpent's fangs
+E 1 75541 1 16 100 0 0 0           *   a dagger of darkness
+F 1 75531 1 75524 100 0 0 0        * a dark anti-paladin (following)
+E 1 75509 4 16 100 0 0 0           *   an old longsword
+M 0 75513 5 75526 100 0 0 0        * The royal guard
+E 1 75534 4 5 100 0 0 0            *   a guard's platemail
+E 1 75533 4 16 100 0 0 0           *   a guard's longsword
+M 0 75541 3 75527 100 0 0 0        * a snow bobcat
+M 0 75513 5 75531 100 0 0 0        * The royal guard
+E 1 75534 4 5 100 0 0 0            *   a guard's platemail
+E 1 75533 4 16 100 0 0 0           *   a guard's longsword
+G 1 75528 1 0 100 0 0 0            *    a white elixir
+M 0 75527 9 75531 100 0 0 0        * An apprentice mage
+E 1 75545 3 16 100 0 0 0           *   a quarterstaff
+M 0 75526 9 75533 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75503 1 75539 100 0 0 0        * Iffrak, the tower guardian
+E 1 75535 2 5 100 0 0 0            *   a heavy suit of guard's platemail
+E 1 75524 2 15 100 0 0 0           *   a tarnished bracelet of platinum links
+E 1 75509 4 16 100 0 0 0           *   an old longsword
+G 1 75510 1 0 100 0 0 0            *    a golden key
+F 1 75526 9 75539 100 0 0 0        * A hooded sentry (following)
+M 0 75516 1 75540 100 0 0 0        * Abrihim, the high priest
+E 1 75553 1 3 100 0 0 0            *   an old necklace of cryptic runes
+E 1 75503 2 16 100 0 0 0           *   an old stone mace
+G 1 75527 1 0 100 0 0 0            *    an ivory key
+F 1 75517 3 75540 100 0 0 0        * A disciple (following)
+F 1 75517 3 75540 100 0 0 0        * A disciple (following)
+M 0 75526 9 75541 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75541 3 75541 100 0 0 0        * a snow bobcat
+M 0 75541 3 75542 100 0 0 0        * a snow bobcat
+M 0 75504 1 75544 100 0 0 0        * Azreq
+E 1 75514 1 12 100 0 0 0           *   a golden cloak of wool
+E 1 75513 1 16 100 0 0 0           *   the flaming mace of Teka
+F 1 75505 3 75544 100 0 0 0        * a holy guardian of Teka (following)
+E 1 75515 1 11 100 0 0 0           *   a golden shield of Teka
+E 1 75509 4 16 100 0 0 0           *   an old longsword
+G 1 75564 1 0 100 0 0 0            *    a priest's key
+F 1 75505 3 75544 100 0 0 0        * a holy guardian of Teka (following)
+F 1 75505 3 75544 100 0 0 0        * a holy guardian of Teka (following)
+M 0 75506 3 75549 100 0 0 0        * a citizen of Teka
+M 0 75506 3 75550 100 0 0 0        * a citizen of Teka
+M 0 75506 3 75551 100 0 0 0        * a citizen of Teka
+M 0 75501 9 75553 100 0 0 0        * a strange yellow plant
+M 0 75528 5 75554 100 0 0 0        * A golden reflection
+M 0 75528 5 75555 100 0 0 0        * A golden reflection
+M 0 75530 1 75556 100 0 0 0        * A dark cloaked imp
+E 1 75548 1 11 100 0 0 0           *   a shield of black dragon scales
+M 0 75528 5 75557 100 0 0 0        * A golden reflection
+M 0 75528 5 75559 100 0 0 0        * A golden reflection
+M 0 75529 2 75560 100 0 0 0        * A dark reflection
+M 0 75507 1 75561 100 0 0 0        * Morlena
+E 1 75516 1 13 100 0 0 0           *   an ugly green belt
+M 0 75529 2 75562 100 0 0 0        * A dark reflection
+M 0 75525 1 75563 100 0 0 0        * A glowing archdemon
+E 1 75543 2 15 100 0 0 0           *   a satanic bracelet
+M 0 75520 2 75564 100 0 0 0        * A fiendish devil
+M 0 75519 2 75565 100 0 0 0        * A dark cloaked imp
+M 0 75519 2 75566 100 0 0 0        * A dark cloaked imp
+E 1 75549 2 3 100 0 0 0            *   a silver pendant of dragon teeth
+M 0 75520 2 75566 100 0 0 0        * A fiendish devil
+M 0 75508 1 75567 100 0 0 0        * A screaming archdemon
+E 1 75543 2 15 100 0 0 0           *   a satanic bracelet
+M 0 75518 1 75568 100 0 0 0        * Khalil
+E 1 75508 2 5 100 0 0 0            *   a shining suit of warrior's platemail
+E 1 75547 1 8 100 0 0 0            *   a pair of spiked leather boots
+E 1 75546 1 16 100 0 0 0           *   a longsword of Teka
+G 1 75517 1 0 100 0 0 0            *    a prison key
+M 0 75526 9 75568 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75526 9 75568 100 0 0 0        * A hooded sentry
+E 1 75544 7 16 100 0 0 0           *   a magic longsword
+M 0 75527 9 75569 100 0 0 0        * An apprentice mage
+M 0 75521 1 75570 100 0 0 0        * An iron golem
+E 1 75539 1 8 100 0 0 0            *   a pair of iron boots
+M 0 75524 1 75571 100 0 0 0        * A silver dragon
+G 1 75549 2 0 100 0 0 0            *    a silver pendant of dragon teeth
+G 1 75566 1 0 100 0 0 0            *    an eyepatch of scale
+G 1 75542 1 0 100 0 0 0            *    a silver dragon egg
+P 1 75559 1 75542 100 0 0 0        *   a small rhinestone
+P 1 75529 1 75542 100 0 0 0        *   a strange vial of blood
+M 0 75509 3 75574 100 0 0 0        * A spectre of a trapped soul
+E 1 75523 1 12 100 0 0 0           *   a cloak of woven silver
+G 1 75522 1 0 100 0 0 0            *    an ancient idol of stone
+M 0 75509 3 75576 100 0 0 0        * A spectre of a trapped soul
+E 1 75567 1 13 100 0 0 0           *   a mysterious blue belt
+M 0 75509 3 75580 100 0 0 0        * A spectre of a trapped soul
+E 1 75538 1 3 100 0 0 0            *   a vile satanic amulet
+M 0 75501 9 75582 100 0 0 0        * a strange yellow plant
+M 0 75527 9 75583 100 0 0 0        * An apprentice mage
+G 1 75555 1 0 100 0 0 0            *    a jeweled staff
+M 0 75501 9 75583 100 0 0 0        * a strange yellow plant
+M 0 75532 1 75586 100 0 0 0        * A skeletal guardsman
+E 1 75557 1 15 100 0 0 0           *   a skeletal bracer
+G 1 75531 1 0 100 0 0 0            *    an old iron key
+M 0 75535 1 75587 100 0 0 0        * Ilbe, the mining chief
+E 1 75509 4 16 100 0 0 0           *   an old longsword
+E 1 75558 1 20 100 0 0 0           *   a golden mask
+F 1 75536 5 75587 100 0 0 0        * A miner (following)
+F 1 75536 5 75587 100 0 0 0        * A miner (following)
+F 1 75536 5 75587 100 0 0 0        * A miner (following)
+M 0 75528 5 75588 100 0 0 0        * A golden reflection
+M 0 75534 11 75591 100 0 0 0       * an undead fish
+M 0 75534 11 75591 100 0 0 0       * an undead fish
+M 0 75534 11 75591 100 0 0 0       * an undead fish
+M 0 75536 5 75592 100 0 0 0        * A miner
+M 0 75536 5 75593 100 0 0 0        * A miner
+M 0 75522 2 75594 100 0 0 0        * A flesh golem
+M 0 75534 11 75596 100 0 0 0       * an undead fish
+M 0 75534 11 75596 100 0 0 0       * an undead fish
+M 0 75534 11 75597 100 0 0 0       * an undead fish
+M 0 75534 11 75597 100 0 0 0       * an undead fish
+M 0 75534 11 75597 100 0 0 0       * an undead fish
+M 0 75534 11 75598 100 0 0 0       * an undead fish
+M 0 75534 11 75598 100 0 0 0       * an undead fish
+M 0 75534 11 75598 100 0 0 0       * an undead fish
+*
+S

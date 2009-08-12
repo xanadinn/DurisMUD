@@ -1,0 +1,284 @@
+#908
+&+mValinhaven&n~
+90965 2 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 90823 0 0 100 0 0 0
+*     north exit from " A Dip in the Central Path" to
+*     "Before The Gates of Valinhaven" - open
+*
+D 0 90825 2 0 100 0 0 0
+*     south exit from "Before The Gates of Valinhaven" to
+*     " A Dip in the Central Path" - open
+*
+D 0 90824 5 5 100 0 0 0
+*     down exit from " Lava Spring" to
+*     " Pit Of The Lava Fiend" - closed/secret
+*
+D 0 90936 4 5 100 0 0 0
+*     up exit from " Pit Of The Lava Fiend" to
+*     " Lava Spring" - closed/secret
+*
+D 0 90828 0 1 100 0 0 0
+*     north exit from " The Gem Refinery" to
+*     " A Steam Filled Room" - closed
+*
+D 0 90837 2 1 100 0 0 0
+*     south exit from " A Steam Filled Room" to
+*     " The Gem Refinery" - closed
+*
+D 0 90937 0 1 100 0 0 0
+*     north exit from " Conjurers Training Ground" to
+*     " Master's Room" - closed
+*
+D 0 90939 2 1 100 0 0 0
+*     south exit from " Master's Room" to
+*     " Conjurers Training Ground" - closed
+*
+D 0 90944 0 2 100 0 0 0
+*     north exit from " The Foreman's Office" to
+*     " A Display Room" - closed/locked
+*
+D 0 90951 2 2 100 0 0 0
+*     south exit from " A Display Room" to
+*     " The Foreman's Office" - closed/locked
+*
+*
+*
+M 0 90813 9 90801 100 0 0 0        * a water rat
+M 0 90813 9 90801 100 0 0 0        * a water rat
+M 0 90813 9 90802 100 0 0 0        * a water rat
+M 0 90813 9 90802 100 0 0 0        * a water rat
+M 0 90813 9 90803 100 0 0 0        * a water rat
+M 0 90813 9 90805 100 0 0 0        * a water rat
+M 0 90813 9 90806 100 0 0 0        * a water rat
+M 0 90813 9 90807 100 0 0 0        * a water rat
+M 0 90813 9 90814 100 0 0 0        * a water rat
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90825 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90826 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90826 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90826 100 0 0 0       * a svirfneblin gate guard
+M 0 90812 10 90826 100 0 0 0       * a svirfneblin gate guard
+M 0 90816 15 90827 100 0 0 0       * a conjurer in training
+M 0 90814 14 90828 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90828 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90828 100 0 0 0       * a svirfneblin guard
+M 0 90815 16 90829 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90829 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90829 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90829 100 0 0 0       * a conjurer in training
+M 0 90816 15 90829 100 0 0 0       * a conjurer in training
+M 0 90814 14 90830 100 0 0 0       * a svirfneblin guard
+M 0 90815 16 90830 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90831 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90832 100 0 0 0       * a conjurer in training
+M 0 90814 14 90833 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90833 100 0 0 0       * a svirfneblin guard
+M 0 90815 16 90834 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90834 100 0 0 0       * a conjurer in training
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90839 100 0 0 0       * a svirfneblin guard
+M 0 90801 21 90840 100 0 0 0       * a drow slave
+M 0 90805 30 90840 100 0 0 0       * a stout miner
+M 0 90808 17 90840 100 0 0 0       * a drunk miner
+M 0 90800 38 90840 100 0 0 0       * a tired miner
+M 0 90801 21 90843 100 0 0 0       * a drow slave
+M 0 90801 21 90844 100 0 0 0       * a drow slave
+M 0 90805 30 90844 100 0 0 0       * a stout miner
+M 0 90808 17 90844 100 0 0 0       * a drunk miner
+M 0 90808 17 90844 100 0 0 0       * a drunk miner
+M 0 90815 16 90845 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90845 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90845 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90845 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90845 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90845 100 0 0 0       * a conjurer in training
+M 0 90816 15 90845 100 0 0 0       * a conjurer in training
+M 0 90815 16 90846 100 0 0 0       * a svirfneblin commoner
+M 0 90815 16 90847 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90847 100 0 0 0       * a conjurer in training
+M 0 90815 16 90848 100 0 0 0       * a svirfneblin commoner
+M 0 90800 38 90849 100 0 0 0       * a tired miner
+M 0 90807 20 90849 100 0 0 0       * a seasoned miner
+M 0 90806 9 90849 100 0 0 0        * foreman's assistant
+M 0 90819 13 90850 100 0 0 0       * a very angry miner
+M 0 90805 30 90851 100 0 0 0       * a stout miner
+M 0 90800 38 90852 100 0 0 0       * a tired miner
+M 0 90801 21 90852 100 0 0 0       * a drow slave
+M 0 90819 13 90852 100 0 0 0       * a very angry miner
+M 0 90805 30 90853 100 0 0 0       * a stout miner
+M 0 90806 9 90859 100 0 0 0        * foreman's assistant
+M 0 90807 20 90859 100 0 0 0       * a seasoned miner
+M 0 90807 20 90859 100 0 0 0       * a seasoned miner
+M 0 90807 20 90859 100 0 0 0       * a seasoned miner
+M 0 90807 20 90859 100 0 0 0       * a seasoned miner
+M 0 90808 17 90860 100 0 0 0       * a drunk miner
+M 0 90801 21 90860 100 0 0 0       * a drow slave
+M 0 90805 30 90860 100 0 0 0       * a stout miner
+M 0 90807 20 90861 100 0 0 0       * a seasoned miner
+M 0 90800 38 90861 100 0 0 0       * a tired miner
+M 0 90807 20 90862 100 0 0 0       * a seasoned miner
+M 0 90800 38 90862 100 0 0 0       * a tired miner
+M 0 90808 17 90863 100 0 0 0       * a drunk miner
+M 0 90800 38 90863 100 0 0 0       * a tired miner
+M 0 90819 13 90863 100 0 0 0       * a very angry miner
+M 0 90807 20 90864 100 0 0 0       * a seasoned miner
+M 0 90805 30 90864 100 0 0 0       * a stout miner
+M 0 90805 30 90865 100 0 0 0       * a stout miner
+M 0 90801 21 90868 100 0 0 0       * a drow slave
+M 0 90801 21 90868 100 0 0 0       * a drow slave
+M 0 90800 38 90868 100 0 0 0       * a tired miner
+M 0 90808 17 90870 100 0 0 0       * a drunk miner
+M 0 90808 17 90870 100 0 0 0       * a drunk miner
+M 0 90800 38 90870 100 0 0 0       * a tired miner
+M 0 90800 38 90870 100 0 0 0       * a tired miner
+M 0 90800 38 90870 100 0 0 0       * a tired miner
+M 0 90800 38 90870 100 0 0 0       * a tired miner
+M 0 90800 38 90870 100 0 0 0       * a tired miner
+M 0 90808 17 90870 100 0 0 0       * a drunk miner
+M 0 90819 13 90873 100 0 0 0       * a very angry miner
+M 0 90806 9 90874 100 0 0 0        * foreman's assistant
+M 0 90805 30 90874 100 0 0 0       * a stout miner
+M 0 90807 20 90874 100 0 0 0       * a seasoned miner
+M 0 90807 20 90874 100 0 0 0       * a seasoned miner
+M 0 90800 38 90874 100 0 0 0       * a tired miner
+M 0 90805 30 90876 100 0 0 0       * a stout miner
+M 0 90807 20 90876 100 0 0 0       * a seasoned miner
+M 0 90800 38 90876 100 0 0 0       * a tired miner
+M 0 90807 20 90877 100 0 0 0       * a seasoned miner
+M 0 90817 1 90887 100 0 0 0        * Xeanlor, demon of svirfneblin
+E 1 90805 1 16 100 0 0 0           *   the fiery scepter of Xeanlor
+M 0 90818 2 90887 100 0 0 0        * a fiery dervish
+M 0 90818 2 90887 100 0 0 0        * a fiery dervish
+M 0 90800 38 90888 100 0 0 0       * a tired miner
+M 0 90800 38 90889 100 0 0 0       * a tired miner
+M 0 90801 21 90889 100 0 0 0       * a drow slave
+M 0 90800 38 90889 100 0 0 0       * a tired miner
+M 0 90801 21 90890 100 0 0 0       * a drow slave
+M 0 90806 9 90890 100 0 0 0        * foreman's assistant
+M 0 90807 20 90890 100 0 0 0       * a seasoned miner
+M 0 90800 38 90891 100 0 0 0       * a tired miner
+M 0 90800 38 90892 100 0 0 0       * a tired miner
+M 0 90805 30 90893 100 0 0 0       * a stout miner
+M 0 90808 17 90893 100 0 0 0       * a drunk miner
+M 0 90808 17 90893 100 0 0 0       * a drunk miner
+M 0 90800 38 90894 100 0 0 0       * a tired miner
+M 0 90800 38 90894 100 0 0 0       * a tired miner
+M 0 90800 38 90894 100 0 0 0       * a tired miner
+M 0 90819 13 90894 100 0 0 0       * a very angry miner
+M 0 90807 20 90895 100 0 0 0       * a seasoned miner
+M 0 90800 38 90895 100 0 0 0       * a tired miner
+M 0 90805 30 90896 100 0 0 0       * a stout miner
+M 0 90801 21 90896 100 0 0 0       * a drow slave
+M 0 90801 21 90896 100 0 0 0       * a drow slave
+M 0 90800 38 90897 100 0 0 0       * a tired miner
+M 0 90805 30 90897 100 0 0 0       * a stout miner
+M 0 90819 13 90897 100 0 0 0       * a very angry miner
+M 0 90801 21 90898 100 0 0 0       * a drow slave
+M 0 90801 21 90898 100 0 0 0       * a drow slave
+M 0 90800 38 90899 100 0 0 0       * a tired miner
+M 0 90800 38 90899 100 0 0 0       * a tired miner
+M 0 90807 20 90900 100 0 0 0       * a seasoned miner
+M 0 90808 17 90900 100 0 0 0       * a drunk miner
+M 0 90808 17 90900 100 0 0 0       * a drunk miner
+M 0 90800 38 90900 100 0 0 0       * a tired miner
+M 0 90800 38 90900 100 0 0 0       * a tired miner
+M 0 90800 38 90901 100 0 0 0       * a tired miner
+M 0 90808 17 90904 100 0 0 0       * a drunk miner
+M 0 90800 38 90904 100 0 0 0       * a tired miner
+M 0 90805 30 90905 100 0 0 0       * a stout miner
+M 0 90805 30 90905 100 0 0 0       * a stout miner
+M 0 90805 30 90906 100 0 0 0       * a stout miner
+M 0 90801 21 90906 100 0 0 0       * a drow slave
+M 0 90814 14 90907 100 0 0 0       * a svirfneblin guard
+M 0 90814 14 90909 100 0 0 0       * a svirfneblin guard
+M 0 90810 1 90910 100 0 0 0        * Taelar, the town official
+E 1 90807 1 12 100 0 0 0           *   a silver coat with deep pockets
+M 0 90805 30 90911 100 0 0 0       * a stout miner
+M 0 90805 30 90912 100 0 0 0       * a stout miner
+M 0 90819 13 90912 100 0 0 0       * a very angry miner
+M 0 90801 21 90913 100 0 0 0       * a drow slave
+M 0 90800 38 90913 100 0 0 0       * a tired miner
+M 0 90805 30 90913 100 0 0 0       * a stout miner
+M 0 90800 38 90915 100 0 0 0       * a tired miner
+M 0 90805 30 90916 100 0 0 0       * a stout miner
+M 0 90801 21 90917 100 0 0 0       * a drow slave
+M 0 90805 30 90919 100 0 0 0       * a stout miner
+M 0 90805 30 90920 100 0 0 0       * a stout miner
+M 0 90800 38 90920 100 0 0 0       * a tired miner
+M 0 90805 30 90921 100 0 0 0       * a stout miner
+M 0 90801 21 90922 100 0 0 0       * a drow slave
+M 0 90806 9 90922 100 0 0 0        * foreman's assistant
+M 0 90805 30 90924 100 0 0 0       * a stout miner
+M 0 90805 30 90924 100 0 0 0       * a stout miner
+M 0 90806 9 90924 100 0 0 0        * foreman's assistant
+M 0 90801 21 90925 100 0 0 0       * a drow slave
+M 0 90819 13 90925 100 0 0 0       * a very angry miner
+M 0 90800 38 90927 100 0 0 0       * a tired miner
+M 0 90806 9 90928 100 0 0 0        * foreman's assistant
+M 0 90819 13 90930 100 0 0 0       * a very angry miner
+M 0 90805 30 90934 100 0 0 0       * a stout miner
+M 0 90808 17 90935 100 0 0 0       * a drunk miner
+M 0 90811 1 90936 100 0 0 0        * the lava fiend
+E 1 90808 1 16 100 0 0 0           *   a sword forged from lava
+M 0 90816 15 90937 100 0 0 0       * a conjurer in training
+M 0 90816 15 90937 100 0 0 0       * a conjurer in training
+M 0 90816 15 90937 100 0 0 0       * a conjurer in training
+M 0 90815 16 90938 100 0 0 0       * a svirfneblin commoner
+M 0 90800 38 90938 100 0 0 0       * a tired miner
+M 0 90800 38 90938 100 0 0 0       * a tired miner
+M 0 90805 30 90938 100 0 0 0       * a stout miner
+M 0 90805 30 90938 100 0 0 0       * a stout miner
+M 0 90805 30 90938 100 0 0 0       * a stout miner
+M 0 90806 9 90938 100 0 0 0        * foreman's assistant
+M 0 90809 1 90939 100 0 0 0        * Svifill, master of svirfneblin conjuration.
+E 1 90806 2 1 100 0 0 0            *   a strange ring
+E 1 90806 2 2 100 0 0 0            *   a strange ring
+M 0 90816 15 90939 100 0 0 0       * a conjurer in training
+M 0 90816 15 90939 100 0 0 0       * a conjurer in training
+M 0 90804 3 90939 100 0 0 0        * a huge fire elemental
+M 0 90807 20 90940 100 0 0 0       * a seasoned miner
+M 0 90801 21 90941 100 0 0 0       * a drow slave
+M 0 90807 20 90942 100 0 0 0       * a seasoned miner
+M 0 90800 38 90942 100 0 0 0       * a tired miner
+M 0 90819 13 90942 100 0 0 0       * a very angry miner
+M 0 90803 1 90944 100 0 0 0        * the foreman
+E 1 90800 1 7 100 0 0 0            *   some silver leg plates
+E 1 90802 1 9 100 0 0 0            *   a pair of thick miner's gloves
+E 1 90801 1 13 100 0 0 0           *   a gem studded belt
+E 1 90803 1 24 100 0 0 0           *   a svirfneblin miner's badge
+M 0 90801 21 90946 100 0 0 0       * a drow slave
+M 0 90806 9 90946 100 0 0 0        * foreman's assistant
+M 0 90807 20 90947 100 0 0 0       * a seasoned miner
+M 0 90805 30 90948 100 0 0 0       * a stout miner
+M 0 90807 20 90949 100 0 0 0       * a seasoned miner
+M 0 90800 38 90950 100 0 0 0       * a tired miner
+M 0 90805 30 90950 100 0 0 0       * a stout miner
+M 0 90819 13 90950 100 0 0 0       * a very angry miner
+M 0 90802 1 90951 100 0 0 0        * dark conjurer
+E 1 90804 1 6 100 0 0 0            *   a dark hood with blue lining
+M 0 90804 3 90951 100 0 0 0        * a huge fire elemental
+M 0 90804 3 90951 100 0 0 0        * a huge fire elemental
+M 0 90815 16 90952 100 0 0 0       * a svirfneblin commoner
+M 0 90816 15 90952 100 0 0 0       * a conjurer in training
+M 0 90816 15 90952 100 0 0 0       * a conjurer in training
+M 0 90819 13 90954 100 0 0 0       * a very angry miner
+M 0 90808 17 90958 100 0 0 0       * a drunk miner
+M 0 90801 21 90961 100 0 0 0       * a drow slave
+M 0 90807 20 90962 100 0 0 0       * a seasoned miner
+M 0 90808 17 90962 100 0 0 0       * a drunk miner
+M 0 90819 13 90964 100 0 0 0       * a very angry miner
+M 0 90808 17 90965 100 0 0 0       * a drunk miner
+*
+S

@@ -1,0 +1,171 @@
+#38301
+M
+hello hi~
+   &+bMalfun&N looks up from his book and smiles.
+   &+b"&+WHello, there.  I haven't seen you around Werrun, are you new
+   &+Wto my town?&+b"
+~
+M
+yes~
+   &+b"&+WWell, welcome to Werrun.  I founded this village as a resting
+   &+Wleisure place for worn out adventurers.  There is not much to do
+   &+Where, but it is small and peaceful.&+b"
+&+bMalfun&N smiles and reclines further.
+   &+b"&+WAh yes, I remember the day my wife and I first travelled here.
+   &+Wwe were very young, like yourself.&+b"
+~
+M
+wife young~
+   &+b"&+WMy wife and I were in search of fame and fortune.  At the time
+   &+Wwe were only simple adventurers.  Our settling here was pure chance.
+   &+WWe are both natives to Verspin, have you ever been there? Large city..
+   &+WWe decided to do a trade run from there to Fort Marigot, but we ran
+   &+Winto trouble.&+b"
+~
+M
+trouble~
+   &+b"&+WFour horses, and two carriages filled with steel, platinum, wooden
+   &+Wbarrels, chains, anchors - lots of stuff!  But we were ambushed as we
+   &+Wwere crossing the Twisted Woods by a small band of Troll bandits.  At
+   &+Wfirst we tried to fight, but we were forced to flee.  At that point, my
+   &+Wwife and I were split up in the panic.  I haven't seen her since.
+   &+WAdventurer.. I have a task for you.&+b"
+~
+M
+task~
+  &+b"&+WYes&+b" Malfun&N exclaims.
+  &+b"&+WOur little conversation here has brought up much sorrow in my
+  &+Wheart.  I miss my wife dearly.  Her name is Lady Sklera.  Find something
+  &+Wthat will remind me of the loving past we shared.&+b"
+~
+M
+book~
+   &+bMalfun&N looks up from you looking rather disturbed.
+   &+b"&+WWhat is it you disturb me for?&+b" &NHe snorts.
+   &+b"&+WMy book is a fictional work by the novelist, Revan.&+b"
+~
+M
+revan~
+   &+b"&+WRevan the magnificent!  He gave me this book as a gift for
+   &+Wallowing him to stay here in Werrun for awhile some time ago.  I have
+   &+Wnot heard or seen him in long time.  If there was only some way I
+   &+Wcould hear of him again; another book like this one would just be
+   &+Wwonderful!&+b"
+~
+M
+vewon etsh~
+   &+bMalfun&N smiles and looks up.
+   &+b"&+WYou know of him?  A famous writer for mysterious ledgers of
+   &+Wa different outlook on life.  Understand this, he wrote about
+   &+Wman's position in the planes, as well as occult books about the
+   &+WGithzerai, to whom we now live with.&+b"
+~
+M
+delwyn~
+   &+b"&+WAn old friend of mine.  We used to play cards together back in
+   &+Wthe Ogre's Foot Inn.  I thought I had some of his scrolls around here
+   &+Wsomewhere..&+b"
+&+bMalfun&N rummages around his desk violently, then sighs.
+   &+b"&+WI can't imagine where I put them.&+b"
+~
+M
+scrolls~
+   &+b"&+WThere were four scrolls total.  A blue one, a green one, a red
+   &+Wone, and a black one&+b"
+&+bMalfun&N ponders for a moment.
+   &+b"&+WBlast my aged memory, I can't remember which does what.  One of
+   &+Wthese scrolls is of healing, another of flight... I don't remember any
+   &+Wother, though..&+b"
+~
+Q
+   &+bMalfun&N smiles and says &+b"&+WThank you.  There is nothing that
+   &+WI really have at this time.&+W
+   &+bMalfun &Nfumbles around in his shirt and pant pockets.  Finally he
+   pulls out a small key.
+      &+b"&+WThis is all that I could find.  I forget exactly to what it
+      &+Wunlocks, but I remember it holds something powerful.&+b"
+~
+R C 12345
+R I 38308
+G I 38311
+Q
+   &+bMalfun&N takes the braid, and a tear instantly drops from his eye.
+   He holds it to his right cheek and caresses his face with it as he
+   starts to whimper.  After several minutes of mourning his lost damsel, he
+   finally stands, wiping his eyes clean.
+        &+b"&+WThank you.  I finally see how it ended.  My beloved is gone,
+        &+Wthis will remind me of her love.&+W"
+   &+bMalfun&N pulls a small box out from underneath his chair, and he
+   opens it and pulls something from it, looking at you.
+~
+R I 38313
+G I 38312
+S
+#38302
+M
+hello~
+The stable owner of &+yWerrun&N looks at you and says "&+WGreetings
+        &+Wfriend.  Welcome to my stable I have had the privilege to
+        &+Wset up here, in Werrun.&+y"
+~
+M
+stable werrun~
+   &+y"&+WYes&+y"&N He replies to you.
+   &+y"&+WI own this stable.  Although, I have not been making
+        &+Wthe profit I had once thought I would, and my horses
+        &+Ware growing old and weak.  I have decided to lease my
+        &+Whorses out to travellers like yourself, free of charge.&+y"
+   The stable owner smiles at you and gestures toward the southern door.
+~
+S
+#38305
+M
+werrun~
+&+mThe &+Mmage&N nods and says &+m"&+WThere is no business for me here,
+&+Wand I have gone broke!  I have been instructed to empty out my
+&+Wshop and leave town.  I don't really care though, nobody would
+&+Whave wanted to help me anyway.&+m"
+~
+M
+help~
+&+m"&+WMalfun told me that I was short several platinum for my
+&+Wlast payment.  He told me that the only way that he would let me
+&+Wcontinue my business here was with coming up with the money.  But alas,
+&+WI am broke.&+m"
+&+mThe &+Mmage&+m sighs again.
+~
+M
+broke money~
+&+mThe &+Mmage&N nods at you.
+&+m"&+WThree hundred and fifty platinum is the amount that I
+&+Wam in debt to.  If only I had that money...&+m"
+&+mThe &+Mmage&N mutters something unintelligible.
+~
+Q
+&+mThe &+Mmage&N thanks you with great appreciation.
+&+m"&+WThank you!&+m" &NHe exclaims with glee.
+&+m"&+WHere, take this sack.  It isn't much, but it has
+&+Wbeen with me for several years.&+m"
+~
+R I 38304
+G C 350000
+S
+#38308
+M
+vewon~
+   &+r"&+WI have heard of him, yes.  He is a writer about my people.  I
+   &+Whave never actually gotten the chance to read his works, but I wish
+   &+Wthat I could, somehow...&+r"
+~
+Q
+   &+r"&+WMy thanks to you, fair traveller.&+r"
+~
+R E 35000
+R I 38327
+G I 38326
+D
+   &NThe old githzerai traveller looks at you again and says &+r"&+WThank you
+        &+Wagain, but it is time for me to end my visit to
+        &+WWerrun and to go on my way.&+r"
+~
+S

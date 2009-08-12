@@ -1,0 +1,75 @@
+#33700
+Q
+The dark figure nods and disappears after giving you a key
+carved of bone.
+~
+R I 33700
+G C 20000
+S
+#33711
+M
+looking lost item help~
+Tarik nods his head.
+
+Tarik says 'Yes, I've lost some spell components.'
+~
+M
+spell components~
+Tarik says 'I've lost a bone and a pouch of dust, if you could find
+them for me, I'd me most grateful and can possibly reward you.'
+~
+Q
+Tarik says 'Many thanks to you! Here is the item I promised.'
+~
+R I 33711
+R E 50000
+G I 33710
+G I 33712
+S
+#33718
+M
+ring rings~
+Falga grins at you and nods 'Yeah, you like me rings eh? Well I can get ya
+a two just like em if you bring me all the light orbs ya kin find.'
+~
+M
+light orbs~
+Falga smiles 'Yup, those light orbs just appear outta nowhere sometime,
+and they are pretty useful fer different tings. If you gimme a bunch
+of them I'll give ya a prize. Hehe.'
+~
+Q
+~
+R I 33725
+R I 33718
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+G I 33726
+S
+#33724
+M
+hi hello pouch list sell~
+The shadowy figure nods in greeting and whispers in a raspy voice 'Hello
+and good day to you my friend. Would you be interested in buying this
+wondering golden pouch of dust? It has so many uses.... ' It then begins
+to ramble about the practicality of the pouch mentioned.
+~
+M
+how much for the pouch~
+The shadowy figure rasps '50 golden pieces should do nicely.'
+~
+Q
+~
+R I 33712
+G C 15000
+D
+The shadow chuckles and hands over the pouch before disappearing.
+~
+S

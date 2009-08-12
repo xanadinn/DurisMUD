@@ -1,0 +1,92 @@
+#470
+vehicles~
+47028 1 0 25 35 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 47012 0 1 100 0 0 0
+*     north exit from "Below Deck on the WaveDancer" to
+*     "A Passenger Cabin" - closed
+*
+D 0 47019 2 1 100 0 0 0
+*     south exit from "A Passenger Cabin" to
+*     "Below Deck on the WaveDancer" - closed
+*
+D 0 47013 0 1 100 0 0 0
+*     north exit from "Below Deck on the WaveDancer" to
+*     "A Passenger Cabin" - closed
+*
+D 0 47020 2 1 100 0 0 0
+*     south exit from "A Passenger Cabin" to
+*     "Below Deck on the WaveDancer" - closed
+*
+D 0 47014 0 1 100 0 0 0
+*     north exit from "Below Deck on the WaveDancer" to
+*     "A Passenger Cabin" - closed
+*
+D 0 47021 2 1 100 0 0 0
+*     south exit from "A Passenger Cabin" to
+*     "Below Deck on the WaveDancer" - closed
+*
+D 0 47015 0 1 100 0 0 0
+*     north exit from "Below Deck on the WaveDancer" to
+*     "A Passenger Cabin" - closed
+*
+D 0 47022 2 1 100 0 0 0
+*     south exit from "A Passenger Cabin" to
+*     "Below Deck on the WaveDancer" - closed
+*
+D 0 47015 2 1 100 0 0 0
+*     south exit from "Below Deck on the WaveDancer" to
+*     "The Cargo Hold of the WaveDancer" - closed
+*
+D 0 47016 0 1 100 0 0 0
+*     north exit from "The Cargo Hold of the WaveDancer" to
+*     "Below Deck on the WaveDancer" - closed
+*
+*
+O 0 47007 3 47006 100 0 0 0        * an automatic navigational system
+O 0 47005 2 47017 100 0 0 0        * some cargo crates
+O 0 47005 2 47018 100 0 0 0        * some cargo crates
+O 0 47007 3 47024 100 0 0 0        * an automatic navigational system
+O 0 47007 3 47026 100 0 0 0        * an automatic navigational system
+*
+M 0 6124 3 47003 100 0 0 0         * (mob type not in this .mob file)
+M 0 6124 3 47003 100 0 0 0         * (mob type not in this .mob file)
+M 0 6124 3 47003 100 0 0 0         * (mob type not in this .mob file)
+M 0 47004 1 47004 100 0 0 0        * the first mate
+M 0 47010 4 47005 100 0 0 0        * a crewman
+M 0 47010 4 47005 100 0 0 0        * a crewman
+M 0 47010 4 47005 100 0 0 0        * a crewman
+M 0 47010 4 47005 100 0 0 0        * a crewman
+M 0 47003 1 47006 100 0 0 0        * the captain of the wavedancer
+M 0 6123 2 47012 100 0 0 0         * (mob type not in this .mob file)
+M 0 6123 2 47012 100 0 0 0         * (mob type not in this .mob file)
+M 0 47008 4 47017 100 0 0 0        * a large rat
+M 0 47008 4 47017 100 0 0 0        * a large rat
+M 0 47008 4 47017 100 0 0 0        * a large rat
+M 0 47008 4 47017 100 0 0 0        * a large rat
+M 0 47006 4 47019 100 0 0 0        * a resting passenger
+M 0 47007 4 47019 100 0 0 0        * a resting passenger
+M 0 47006 4 47020 100 0 0 0        * a resting passenger
+M 0 47007 4 47020 100 0 0 0        * a resting passenger
+M 0 47006 4 47021 100 0 0 0        * a resting passenger
+M 0 47007 4 47021 100 0 0 0        * a resting passenger
+M 0 47006 4 47022 100 0 0 0        * a resting passenger
+M 0 47007 4 47022 100 0 0 0        * a resting passenger
+M 0 47005 1 47023 100 0 0 0        * the galley chef
+M 0 47014 4 47024 100 0 0 0        * a swashbuckler
+M 0 47014 4 47024 100 0 0 0        * a swashbuckler
+M 0 47014 4 47024 100 0 0 0        * a swashbuckler
+M 0 47014 4 47024 100 0 0 0        * a swashbuckler
+M 0 47012 4 47027 100 0 0 0        * an old sailor
+M 0 47012 4 47027 100 0 0 0        * an old sailor
+M 0 47013 4 47027 100 0 0 0        * a strong sailor
+M 0 47013 4 47027 100 0 0 0        * a strong sailor
+M 0 47012 4 47028 100 0 0 0        * an old sailor
+M 0 47012 4 47028 100 0 0 0        * an old sailor
+M 0 47013 4 47028 100 0 0 0        * a strong sailor
+M 0 47013 4 47028 100 0 0 0        * a strong sailor
+*
+S

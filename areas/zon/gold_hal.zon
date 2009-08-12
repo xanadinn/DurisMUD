@@ -1,0 +1,988 @@
+#404
+&+YGolden Hall &+Lof the &+WCrown&n~
+40699 2 0 40 90 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 40401 1 2 100 0 0 0
+*     east exit from "The Golden Gates of a Fortress" to
+*     "Hallway in the Fortress" - closed/locked
+*
+D 0 40402 3 1 100 0 0 0
+*     west exit from "Hallway in the Fortress" to
+*     "The Golden Gates of a Fortress" - closed
+*
+D 0 40406 1 1 100 0 0 0
+*     east exit from "Hallway in the Fortress" to
+*     "A Large and Spacious Bedroom" - closed
+*
+D 0 40516 3 1 100 0 0 0
+*     west exit from "A Large and Spacious Bedroom" to
+*     "Hallway in the Fortress" - closed
+*
+D 0 40407 2 1 100 0 0 0
+*     south exit from "Bend in the Hallway in the Fortress" to
+*     "Stairway in the Hall" - closed
+*
+D 0 40444 0 1 100 0 0 0
+*     north exit from "Stairway in the Hall" to
+*     "Bend in the Hallway in the Fortress" - closed
+*
+D 0 40408 0 1 100 0 0 0
+*     north exit from "Bend in the Hallway in the Fortress" to
+*     "Stairway in the Hall" - closed
+*
+D 0 40442 2 1 100 0 0 0
+*     south exit from "Stairway in the Hall" to
+*     "Bend in the Hallway in the Fortress" - closed
+*
+D 0 40409 2 1 100 0 0 0
+*     south exit from "Hallway in the Fortress" to
+*     "A Large and Spacious Bedroom" - closed
+*
+D 0 40517 0 1 100 0 0 0
+*     north exit from "A Large and Spacious Bedroom" to
+*     "Hallway in the Fortress" - closed
+*
+D 0 40414 0 1 100 0 0 0
+*     north exit from "Bend in the Hallway in the Fortress" to
+*     "Stairway in the Hall" - closed
+*
+D 0 40448 2 1 100 0 0 0
+*     south exit from "Stairway in the Hall" to
+*     "Bend in the Hallway in the Fortress" - closed
+*
+D 0 40415 0 1 100 0 0 0
+*     north exit from "Hallway in the Fortress" to
+*     "The Captain of the Guards' Room" - closed
+*
+D 0 40441 2 1 100 0 0 0
+*     south exit from "The Captain of the Guards' Room" to
+*     "Hallway in the Fortress" - closed
+*
+D 0 40418 0 1 100 0 0 0
+*     north exit from "Hallway in the Fortress" to
+*     "Clerical Training Grounds" - closed
+*
+D 0 40474 2 1 100 0 0 0
+*     south exit from "Clerical Training Grounds" to
+*     "Hallway in the Fortress" - closed
+*
+D 0 40420 2 1 100 0 0 0
+*     south exit from "Bend in the Hallway in the Fortress" to
+*     "Stairway in the Hall" - closed
+*
+D 0 40446 0 1 100 0 0 0
+*     north exit from "Stairway in the Hall" to
+*     "Bend in the Hallway in the Fortress" - closed
+*
+D 0 40423 1 1 100 0 0 0
+*     east exit from "Hallway in the Fortress" to
+*     "Training Barraks" - closed
+*
+D 0 40429 3 1 100 0 0 0
+*     west exit from "Training Barraks" to
+*     "Hallway in the Fortress" - closed
+*
+D 0 40450 2 1 100 0 0 0
+*     south exit from "Foyer Above the Staircase" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40470 0 1 100 0 0 0
+*     north exit from "Hallway of the Upper Level" to
+*     "Foyer Above the Staircase" - closed
+*
+D 0 40451 0 1 100 0 0 0
+*     north exit from "Foyer Above the Staircase" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40464 2 1 100 0 0 0
+*     south exit from "Hallway of the Upper Level" to
+*     "Foyer Above the Staircase" - closed
+*
+D 0 40452 0 1 100 0 0 0
+*     north exit from "Foyer Above the Staircase" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40477 2 1 100 0 0 0
+*     south exit from "Hallway of the Upper Level" to
+*     "Foyer Above the Staircase" - closed
+*
+D 0 40453 2 2 100 0 0 0
+*     south exit from "Foyer Above the Staircase" to
+*     "Hallway of the Upper Level" - closed/locked
+*
+D 0 40483 0 2 100 0 0 0
+*     north exit from "Hallway of the Upper Level" to
+*     "Foyer Above the Staircase" - closed/locked
+*
+D 0 40454 1 1 100 0 0 0
+*     east exit from "The Inn of Golden Faith" to
+*     "Hallway of the Inn's Owners' Home" - closed
+*
+D 0 40458 3 1 100 0 0 0
+*     west exit from "Hallway of the Inn's Owners' Home" to
+*     "The Inn of Golden Faith" - closed
+*
+D 0 40454 3 1 100 0 0 0
+*     west exit from "The Inn of Golden Faith" to
+*     "Inn Sleeping Area" - closed
+*
+D 0 40455 1 1 100 0 0 0
+*     east exit from "Inn Sleeping Area" to
+*     "The Inn of Golden Faith" - closed
+*
+D 0 40455 5 13 100 0 0 0
+*     down exit from "Inn Sleeping Area" to
+*     "Secret Underground Passage" - closed/secret/blocked
+*
+D 0 40519 4 13 100 0 0 0
+*     up exit from "Secret Underground Passage" to
+*     "Inn Sleeping Area" - closed/secret/blocked
+*
+D 0 40459 1 1 100 0 0 0
+*     east exit from "Hallway of the Inn's Owners' Home" to
+*     "A Small, Private Bedroom" - closed
+*
+D 0 40463 3 1 100 0 0 0
+*     west exit from "A Small, Private Bedroom" to
+*     "Hallway of the Inn's Owners' Home" - closed
+*
+D 0 40460 1 1 100 0 0 0
+*     east exit from "Hallway of the Inn's Owners' Home" to
+*     "A Small, Private Bedroom" - closed
+*
+D 0 40462 3 1 100 0 0 0
+*     west exit from "A Small, Private Bedroom" to
+*     "Hallway of the Inn's Owners' Home" - closed
+*
+D 0 40460 3 1 100 0 0 0
+*     west exit from "Hallway of the Inn's Owners' Home" to
+*     "The Inn's Owners' Private Bedroom" - closed
+*
+D 0 40461 1 1 100 0 0 0
+*     east exit from "The Inn's Owners' Private Bedroom" to
+*     "Hallway of the Inn's Owners' Home" - closed
+*
+D 0 40465 1 1 100 0 0 0
+*     east exit from "Hallway of the Upper Level" to
+*     "The Alchemist's Study" - closed
+*
+D 0 40499 3 1 100 0 0 0
+*     west exit from "The Alchemist's Study" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40468 1 1 100 0 0 0
+*     east exit from "Hallway of the Upper Level" to
+*     "A Large and Spacious Bedroom" - closed
+*
+D 0 40514 3 1 100 0 0 0
+*     west exit from "A Large and Spacious Bedroom" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40481 3 1 100 0 0 0
+*     west exit from "Hallway of the Upper Level" to
+*     "A Small Bedroom" - closed
+*
+D 0 40513 1 1 100 0 0 0
+*     east exit from "A Small Bedroom" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40484 2 1 100 0 0 0
+*     south exit from "Hallway of the Upper Level" to
+*     "A Large and Spacious Bedroom" - closed
+*
+D 0 40515 0 1 100 0 0 0
+*     north exit from "A Large and Spacious Bedroom" to
+*     "Hallway of the Upper Level" - closed
+*
+D 0 40493 2 2 100 0 0 0
+*     south exit from "A Well-Guarded Portion of the Upper Level" to
+*     "An Appointment Chamber" - closed/locked
+*
+D 0 40494 0 2 100 0 0 0
+*     north exit from "An Appointment Chamber" to
+*     "A Well-Guarded Portion of the Upper Level" - closed/locked
+*
+D 0 40494 2 1 100 0 0 0
+*     south exit from "An Appointment Chamber" to
+*     "Prince's Private Chamber" - closed
+*
+D 0 40498 0 1 100 0 0 0
+*     north exit from "Prince's Private Chamber" to
+*     "An Appointment Chamber" - closed
+*
+D 0 40499 2 6 100 0 0 0
+*     south exit from "The Alchemist's Study" to
+*     "Hazk's Secret Shop" - closed/locked/secret
+*
+D 0 40505 0 2 100 0 0 0
+*     north exit from "Hazk's Secret Shop" to
+*     "The Alchemist's Study" - closed/locked
+*
+D 0 40507 4 1 100 0 0 0
+*     up exit from "A Drafty Hallway" to
+*     "Saddling Area" - closed
+*
+D 0 40508 5 1 100 0 0 0
+*     down exit from "Saddling Area" to
+*     "A Drafty Hallway" - closed
+*
+D 0 40510 2 2 100 0 0 0
+*     south exit from "Saddling Area" to
+*     "The Prince's Private Saddling Area" - closed/locked
+*
+D 0 40518 0 2 100 0 0 0
+*     north exit from "The Prince's Private Saddling Area" to
+*     "Saddling Area" - closed/locked
+*
+D 0 40511 2 1 100 0 0 0
+*     south exit from "Before a Large Cooking Area" to
+*     "The Hall's Kitchen" - closed
+*
+D 0 40512 0 1 100 0 0 0
+*     north exit from "The Hall's Kitchen" to
+*     "Before a Large Cooking Area" - closed
+*
+D 0 40538 4 5 100 0 0 0
+*     up exit from "An Underground Pool" to
+*     "A Cleared Out Platform" - closed/secret
+*
+D 0 40698 1 1 100 0 0 0
+*     east exit from "A Cleared Out Platform" to
+*     "An Underground Pool" - closed
+*
+D 0 40563 9 8 100 0 0 0
+*     southeast exit from "Underwater" to
+*     "An Underwater Passage" - open/blocked
+*
+D 0 40565 6 5 100 0 0 0
+*     northwest exit from "An Underwater Passage" to
+*     "Underwater" - closed/secret
+*
+D 0 40590 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40604 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40590 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40605 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40591 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40606 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40591 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40607 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40592 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40608 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40592 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40609 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40593 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40610 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40593 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40611 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40594 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40612 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40594 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40613 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40595 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40602 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40595 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40603 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40596 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40600 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40596 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40601 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40597 0 1 100 0 0 0
+*     north exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40598 2 1 100 0 0 0
+*     south exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40597 2 1 100 0 0 0
+*     south exit from "A Slimey Tunnel" to
+*     "A Slimey Abode" - closed
+*
+D 0 40599 0 1 100 0 0 0
+*     north exit from "A Slimey Abode" to
+*     "A Slimey Tunnel" - closed
+*
+D 0 40625 5 2 100 0 0 0
+*     down exit from "Guarded Stairs" to
+*     "The Bottum of the Stairs" - closed/locked
+*
+D 0 40626 4 1 100 0 0 0
+*     up exit from "The Bottum of the Stairs" to
+*     "Guarded Stairs" - closed
+*
+D 0 40628 1 1 100 0 0 0
+*     east exit from "The Main Path of the Goblin Settlement" to
+*     "A Goblin Domicile" - closed
+*
+D 0 40647 3 1 100 0 0 0
+*     west exit from "A Goblin Domicile" to
+*     "The Main Path of the Goblin Settlement" - closed
+*
+D 0 40628 3 1 100 0 0 0
+*     west exit from "The Main Path of the Goblin Settlement" to
+*     "A Goblin Domicile" - closed
+*
+D 0 40646 1 1 100 0 0 0
+*     east exit from "A Goblin Domicile" to
+*     "The Main Path of the Goblin Settlement" - closed
+*
+D 0 40634 0 2 100 0 0 0
+*     north exit from "Before The Leader's Cave" to
+*     "The Goblin Leader's Room" - closed/locked
+*
+D 0 40635 2 1 100 0 0 0
+*     south exit from "The Goblin Leader's Room" to
+*     "Before The Leader's Cave" - closed
+*
+D 0 40634 1 1 100 0 0 0
+*     east exit from "Before The Leader's Cave" to
+*     "A Visitor's Cave" - closed
+*
+D 0 40650 3 1 100 0 0 0
+*     west exit from "A Visitor's Cave" to
+*     "Before The Leader's Cave" - closed
+*
+D 0 40634 3 1 100 0 0 0
+*     west exit from "Before The Leader's Cave" to
+*     "A Visitor's Cave" - closed
+*
+D 0 40649 1 1 100 0 0 0
+*     east exit from "A Visitor's Cave" to
+*     "Before The Leader's Cave" - closed
+*
+D 0 40642 0 1 100 0 0 0
+*     north exit from "The Way of the Soul" to
+*     "The Goblin Beast Cages" - closed
+*
+D 0 40686 2 1 100 0 0 0
+*     south exit from "The Goblin Beast Cages" to
+*     "The Way of the Soul" - closed
+*
+D 0 40644 3 1 100 0 0 0
+*     west exit from "The Way of the Soul" to
+*     "The Cave of the Shaman" - closed
+*
+D 0 40645 1 1 100 0 0 0
+*     east exit from "The Cave of the Shaman" to
+*     "The Way of the Soul" - closed
+*
+D 0 40657 1 1 100 0 0 0
+*     east exit from "The Entrance to the Gruneegth Prison" to
+*     "Corridor Between Cells" - closed
+*
+D 0 40658 3 1 100 0 0 0
+*     west exit from "Corridor Between Cells" to
+*     "The Entrance to the Gruneegth Prison" - closed
+*
+D 0 40660 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40663 0 2 100 0 0 0
+*     north exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40661 0 2 100 0 0 0
+*     north exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40672 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40662 0 2 100 0 0 0
+*     north exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40671 2 2 100 0 0 0
+*     south exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40667 2 2 100 0 0 0
+*     south exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40675 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40668 2 2 100 0 0 0
+*     south exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40674 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40669 2 2 100 0 0 0
+*     south exit from "Corridor Between Cells" to
+*     "A Prison Cell" - closed/locked
+*
+D 0 40673 0 2 100 0 0 0
+*     north exit from "A Prison Cell" to
+*     "Corridor Between Cells" - closed/locked
+*
+D 0 40677 0 2 100 0 0 0
+*     north exit from "Entrance to the Gruneegth Barracks" to
+*     "Walkway in the Barracks" - closed/locked
+*
+D 0 40678 2 1 100 0 0 0
+*     south exit from "Walkway in the Barracks" to
+*     "Entrance to the Gruneegth Barracks" - closed
+*
+D 0 40678 3 1 100 0 0 0
+*     west exit from "Walkway in the Barracks" to
+*     "A Room in the Barracks" - closed
+*
+D 0 40680 1 1 100 0 0 0
+*     east exit from "A Room in the Barracks" to
+*     "Walkway in the Barracks" - closed
+*
+D 0 40679 1 1 100 0 0 0
+*     east exit from "Walkway in the Barracks" to
+*     "A Training Room in the Barracks" - closed
+*
+D 0 40682 3 1 100 0 0 0
+*     west exit from "A Training Room in the Barracks" to
+*     "Walkway in the Barracks" - closed
+*
+D 0 40679 3 1 100 0 0 0
+*     west exit from "Walkway in the Barracks" to
+*     "A Room in the Barracks" - closed
+*
+D 0 40681 1 1 100 0 0 0
+*     east exit from "A Room in the Barracks" to
+*     "Walkway in the Barracks" - closed
+*
+D 0 40684 1 2 100 0 0 0
+*     east exit from "The Court of Chaos" to
+*     "Solitary Confinement" - closed/locked
+*
+D 0 40685 3 2 100 0 0 0
+*     west exit from "Solitary Confinement" to
+*     "The Court of Chaos" - closed/locked
+*
+D 0 40687 4 2 100 0 0 0
+*     up exit from "Beneath a Small Goblin Beast Cage" to
+*     "Within a Cage" - closed/locked
+*
+D 0 40696 5 2 100 0 0 0
+*     down exit from "Within a Cage" to
+*     "Beneath a Small Goblin Beast Cage" - closed/locked
+*
+D 0 40688 4 2 100 0 0 0
+*     up exit from "Beneath a Goblin Beast Cage" to
+*     "Within a Cage" - closed/locked
+*
+D 0 40694 5 2 100 0 0 0
+*     down exit from "Within a Cage" to
+*     "Beneath a Goblin Beast Cage" - closed/locked
+*
+D 0 40690 4 2 100 0 0 0
+*     up exit from "Beneath a Goblin Beast Cage" to
+*     "Within a Cage" - closed/locked
+*
+D 0 40695 5 2 100 0 0 0
+*     down exit from "Within a Cage" to
+*     "Beneath a Goblin Beast Cage" - closed/locked
+*
+D 0 40691 4 0 100 0 0 0
+*     up exit from "Beneath an Open Goblin Beast Cage" to
+*     "Within a Cage" - open
+*
+D 0 40693 5 0 100 0 0 0
+*     down exit from "Within a Cage" to
+*     "Beneath an Open Goblin Beast Cage" - open
+*
+D 0 40692 4 2 100 0 0 0
+*     up exit from "Beneath a Large Goblin Beast Cage" to
+*     "Within a Cage" - closed/locked
+*
+D 0 40697 5 2 100 0 0 0
+*     down exit from "Within a Cage" to
+*     "Beneath a Large Goblin Beast Cage" - closed/locked
+*
+D 0 40698 2 2 100 0 0 0
+*     south exit from "A Cleared Out Platform" to
+*     "An Underground Pool" - closed/locked
+*
+D 0 40538 4 5 100 0 0 0
+*     up exit from "An Underground Pool" to
+*     "A Cleared Out Platform" - closed/secret
+*
+*
+O 0 40400 24 40402 100 0 0 0       * a glowing torch
+O 0 40400 24 40405 100 0 0 0       * a glowing torch
+O 0 40400 24 40406 100 0 0 0       * a glowing torch
+O 0 40400 24 40409 100 0 0 0       * a glowing torch
+O 0 40400 24 40411 100 0 0 0       * a glowing torch
+O 0 40400 24 40413 100 0 0 0       * a glowing torch
+O 0 40400 24 40415 100 0 0 0       * a glowing torch
+O 0 40400 24 40417 100 0 0 0       * a glowing torch
+O 0 40400 24 40419 100 0 0 0       * a glowing torch
+O 0 40400 24 40421 100 0 0 0       * a glowing torch
+O 0 40400 24 40423 100 0 0 0       * a glowing torch
+O 0 40400 24 40425 100 0 0 0       * a glowing torch
+O 0 40431 1 40455 100 0 0 0        * a bed
+O 0 40400 24 40465 100 0 0 0       * a glowing torch
+O 0 40400 24 40467 100 0 0 0       * a glowing torch
+O 0 40400 24 40469 100 0 0 0       * a glowing torch
+O 0 40400 24 40471 100 0 0 0       * a glowing torch
+O 0 40400 24 40473 100 0 0 0       * a glowing torch
+O 0 40400 24 40476 100 0 0 0       * a glowing torch
+O 0 40400 24 40478 100 0 0 0       * a glowing torch
+O 0 40400 24 40480 100 0 0 0       * a glowing torch
+O 0 40400 24 40482 100 0 0 0       * a glowing torch
+O 0 40400 24 40484 100 0 0 0       * a glowing torch
+O 0 40400 24 40486 100 0 0 0       * a glowing torch
+O 0 40400 24 40488 100 0 0 0       * a glowing torch
+O 0 40414 1 40496 100 0 0 0        * a huge silver broadsword
+O 0 40409 1 40497 100 0 0 0        * the flawless broadsword, Reliance
+O 0 40423 1 40499 100 0 0 0        * a small sign
+O 0 40422 1 40501 100 0 0 0        * a strange necklace of woven hemp
+O 0 40419 999 40502 100 0 0 0      * a white potion
+O 0 40421 999 40503 100 0 0 0      * an emerald potion
+O 0 40432 1 40519 100 0 0 0        * a boulder
+O 0 40454 1 40533 100 0 0 0        * the corpse of an adventurer
+P 1 40455 2 40454 100 0 0 0        *   a vial of salt water
+P 1 40455 2 40454 100 0 0 0        *   a vial of salt water
+P 1 40456 1 40454 100 0 0 0        *   a note stained with blood
+O 0 40436 1 40563 100 0 0 0        * a treasure chest
+O 0 40438 1 40589 100 0 0 0        * a huge altar
+O 0 72 1 40589 100 0 0 0           * (object type not in this .obj file)
+O 0 40460 1 40631 100 0 0 0        * a spring
+O 0 40462 1 40635 100 0 0 0        * a heavy silver-bound chest
+P 1 40464 3 40462 100 0 0 0        *   a bar of silver
+P 1 40464 3 40462 100 0 0 0        *   a bar of silver
+P 1 40464 3 40462 100 0 0 0        *   a bar of silver
+O 0 40476 1 40652 100 0 0 0        * a scroll of hold person
+O 0 40474 1 40653 100 0 0 0        * a wand of fireballs
+O 0 40475 1 40654 100 0 0 0        * a black staff
+O 0 40420 999 40655 100 0 0 0      * a large group of boulders
+O 0 40488 1 40693 100 0 0 0        * The corpse of a goblin cage cleaner
+P 1 40489 1 40488 100 0 0 0        *   a cage key
+O 0 40503 1 40698 100 0 0 0        * a runic inscription
+O 0 40504 1 40699 100 0 0 0        * a runic inscription
+*
+M 0 40400 1 40401 100 0 0 0        * a stern paladin
+E 1 40401 1 18 100 0 0 0           *   a golden key
+M 0 40432 4 40404 100 0 0 0        * a member of the maintenance crew
+M 0 40405 8 40407 100 0 0 0        * a guard of the lower level
+M 0 40405 8 40407 100 0 0 0        * a guard of the lower level
+M 0 40405 8 40408 100 0 0 0        * a guard of the lower level
+M 0 40405 8 40408 100 0 0 0        * a guard of the lower level
+M 0 40431 4 40412 100 0 0 0        * a member of the maintenance crew
+M 0 40405 8 40414 100 0 0 0        * a guard of the lower level
+M 0 40405 8 40414 100 0 0 0        * a guard of the lower level
+M 0 40431 4 40416 100 0 0 0        * a member of the maintenance crew
+M 0 40405 8 40420 100 0 0 0        * a guard of the lower level
+M 0 40405 8 40420 100 0 0 0        * a guard of the lower level
+M 0 40432 4 40422 100 0 0 0        * a member of the maintenance crew
+M 0 40403 4 40427 100 0 0 0        * a knight in training
+M 0 40403 4 40428 100 0 0 0        * a knight in training
+M 0 40402 3 40429 100 0 0 0        * a knight in training
+M 0 40401 4 40430 100 0 0 0        * a knight in training
+M 0 40404 1 40430 100 0 0 0        * the master knight teacher
+E 1 40402 1 9 100 0 0 0            *   a pair of whitened steel gauntlets
+M 0 40401 4 40431 100 0 0 0        * a knight in training
+M 0 40403 4 40433 100 0 0 0        * a knight in training
+M 0 40402 3 40434 100 0 0 0        * a knight in training
+M 0 40402 3 40436 100 0 0 0        * a knight in training
+M 0 40401 4 40438 100 0 0 0        * a knight in training
+M 0 40403 4 40439 100 0 0 0        * a knight in training
+M 0 40401 4 40440 100 0 0 0        * a knight in training
+M 0 40406 1 40441 100 0 0 0        * the captain of the guard
+E 1 40410 3 16 100 0 0 0           *   a silver-bladed shortsword
+G 1 40403 1 0 100 0 0 0            *    a strange note
+M 0 40410 1 40454 100 0 0 0        * the inn bartender
+M 0 40409 1 40454 100 0 0 0        * the juggling thri-kreen
+E 1 40406 1 16 100 0 0 0           *   a small curved dagger
+E 1 40404 999 18 100 0 0 0         *   a blue orb
+G 1 40407 1 0 100 0 0 0            *    a small silver chalice
+M 0 40411 5 40454 100 0 0 0        * a relaxing traveller
+M 0 40411 5 40454 100 0 0 0        * a relaxing traveller
+M 0 40411 5 40454 100 0 0 0        * a relaxing traveller
+M 0 40411 5 40454 100 0 0 0        * a relaxing traveller
+M 0 40411 5 40454 100 0 0 0        * a relaxing traveller
+M 0 40413 1 40455 100 0 0 0        * an exhausted barbarian
+M 0 40412 1 40456 100 0 0 0        * a tired gnome
+M 0 40414 1 40457 100 0 0 0        * a worn-out grey elf
+M 0 40415 1 40461 100 0 0 0        * the owner of the inn
+E 1 40408 1 13 100 0 0 0           *   a black leather belt fastened by golden buckles
+M 0 40416 2 40462 100 0 0 0        * the owner's child
+M 0 40416 2 40463 100 0 0 0        * the owner's child
+M 0 40408 8 40464 100 0 0 0        * a guard of the upper level
+M 0 40408 8 40464 100 0 0 0        * a guard of the upper level
+M 0 40431 4 40465 100 0 0 0        * a member of the maintenance crew
+M 0 40408 8 40470 100 0 0 0        * a guard of the upper level
+M 0 40408 8 40470 100 0 0 0        * a guard of the upper level
+M 0 40432 4 40476 100 0 0 0        * a member of the maintenance crew
+M 0 40408 8 40477 100 0 0 0        * a guard of the upper level
+M 0 40408 8 40477 100 0 0 0        * a guard of the upper level
+M 0 40431 4 40479 100 0 0 0        * a member of the maintenance crew
+M 0 40408 8 40483 100 0 0 0        * a guard of the upper level
+M 0 40408 8 40483 100 0 0 0        * a guard of the upper level
+M 0 40432 4 40485 100 0 0 0        * a member of the maintenance crew
+M 0 40420 2 40489 100 0 0 0        * a priestess in training
+M 0 40422 2 40489 100 0 0 0        * a priestess in training
+M 0 40420 2 40489 100 0 0 0        * a priestess in training
+M 0 40421 2 40490 100 0 0 0        * a priestess in training
+M 0 40421 2 40490 100 0 0 0        * a priestess in training
+M 0 40422 2 40490 100 0 0 0        * a priestess in training
+M 0 40423 1 40492 100 0 0 0        * the master priestess teacher
+E 1 40427 1 18 100 0 0 0           *   a long wooden peace pipe
+E 1 40412 1 21 100 0 0 0           *   a tiny earring of white gold
+M 0 40424 4 40493 100 0 0 0        * a door guard
+M 0 40424 4 40493 100 0 0 0        * a door guard
+M 0 40424 4 40493 100 0 0 0        * a door guard
+G 1 40413 2 0 100 0 0 0            *    a twisted golden key
+M 0 40424 4 40493 100 0 0 0        * a door guard
+M 0 40426 1 40494 100 0 0 0        * A spokesman from Du'Maathe castle
+E 1 40417 1 5 100 0 0 0            *   a full suit of chainmail bearing the Du'Maathe crest
+M 0 40425 1 40494 100 0 0 0        * a representative from ice crag
+E 1 40415 1 5 100 0 0 0            *   a fur lined suit of spiked mail
+M 0 40427 1 40494 100 0 0 0        * a delegate from bloodstone
+E 1 40416 1 2 100 0 0 0            *   a bloodstone ring
+M 0 40417 1 40495 100 0 0 0        * Prince Wasephius
+E 1 40418 2 10 100 0 0 0           *   an armband of knighthood
+G 1 40429 1 0 100 0 0 0            *    a stone key looped on a leather band
+G 1 40413 2 0 100 0 0 0            *    a twisted golden key
+F 1 40419 2 40495 100 0 0 0        * a personal bodyguard of the prince (following)
+E 1 40410 3 16 100 0 0 0           *   a silver-bladed shortsword
+F 1 40419 2 40495 100 0 0 0        * a personal bodyguard of the prince (following)
+E 1 40410 3 16 100 0 0 0           *   a silver-bladed shortsword
+M 0 40418 1 40498 100 0 0 0        * the prince's attendant
+E 1 40418 2 10 100 0 0 0           *   an armband of knighthood
+M 0 40407 1 40500 100 0 0 0        * Hazk
+M 0 40428 1 40505 100 0 0 0        * a strange plant golem
+G 1 40411 10 0 100 0 0 0           *    a pouch of speckled mushrooms
+G 1 40425 999 0 100 0 0 0          *    a backpack made of hemp
+G 1 40426 999 0 100 0 0 0          *    a hollowed out gourd
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 40429 5 40509 100 0 0 0        * a magnificent pegasus
+G 1 40428 5 0 100 0 0 0            *    a hardened leather saddle
+M 0 40429 5 40509 100 0 0 0        * a magnificent pegasus
+G 1 40428 5 0 100 0 0 0            *    a hardened leather saddle
+M 0 40430 3 40509 100 0 0 0        * a stable hand
+M 0 40429 5 40510 100 0 0 0        * a magnificent pegasus
+G 1 40428 5 0 100 0 0 0            *    a hardened leather saddle
+M 0 40429 5 40510 100 0 0 0        * a magnificent pegasus
+G 1 40428 5 0 100 0 0 0            *    a hardened leather saddle
+M 0 40429 5 40510 100 0 0 0        * a magnificent pegasus
+G 1 40428 5 0 100 0 0 0            *    a hardened leather saddle
+M 0 40430 3 40510 100 0 0 0        * a stable hand
+M 0 40430 3 40510 100 0 0 0        * a stable hand
+M 0 40434 3 40511 100 0 0 0        * a hungry patron
+M 0 40434 3 40511 100 0 0 0        * a hungry patron
+M 0 40434 3 40511 100 0 0 0        * a hungry patron
+M 0 40433 1 40512 100 0 0 0        * a fat dwarven chef
+M 0 40435 4 40514 100 0 0 0        * an off-duty guard
+M 0 40435 4 40515 100 0 0 0        * an off-duty guard
+M 0 40435 4 40516 100 0 0 0        * an off-duty guard
+M 0 40435 4 40517 100 0 0 0        * an off-duty guard
+M 0 40455 1 40518 100 0 0 0        * WindRusher
+G 1 40430 1 0 100 0 0 0            *    a white leather saddle lined with gold and silver
+M 0 40436 25 40538 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40538 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40538 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40538 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40436 25 40541 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40541 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40541 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40541 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40436 25 40544 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40544 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40544 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40544 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40436 25 40550 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40550 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40550 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40550 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40436 25 40553 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40553 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40553 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40553 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40438 1 40555 100 0 0 0        * a kuo-toa hunter
+E 1 40433 1 23 100 0 0 0           *   a snakeskin quiver
+E 1 40435 1 16 100 0 0 0           *   a coral crossbow wrapped in snakeskin
+G 1 40434 2 0 100 0 0 0            *    a heavy coral quarrel
+G 1 40434 2 0 100 0 0 0            *    a heavy coral quarrel
+M 0 40436 25 40564 100 0 0 0       * a bloodthirsty piranha
+F 1 40436 25 40564 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40564 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40564 100 0 0 0       * a bloodthirsty piranha (following)
+F 1 40436 25 40564 100 0 0 0       * a bloodthirsty piranha (following)
+M 0 40441 6 40565 100 0 0 0        * a cavern shark
+F 1 40441 6 40565 100 0 0 0        * a cavern shark (following)
+M 0 40441 6 40571 100 0 0 0        * a cavern shark
+F 1 40441 6 40571 100 0 0 0        * a cavern shark (following)
+M 0 40441 6 40574 100 0 0 0        * a cavern shark
+F 1 40441 6 40574 100 0 0 0        * a cavern shark (following)
+M 0 40439 4 40576 100 0 0 0        * a kuo-toa fisherman
+M 0 40439 4 40576 100 0 0 0        * a kuo-toa fisherman
+M 0 40439 4 40577 100 0 0 0        * a kuo-toa fisherman
+M 0 40439 4 40577 100 0 0 0        * a kuo-toa fisherman
+M 0 40440 1 40581 100 0 0 0        * a kuo-toa guardsman
+E 1 40437 1 16 100 0 0 0           *   a wooden spear with a coral head
+G 1 40445 1 0 100 0 0 0            *    a snakeskin map
+M 0 40443 1 40589 100 0 0 0        * a kuo-toan priestess
+E 1 40440 1 5 100 0 0 0            *   a set of snakeskin holy garments
+G 1 40444 1 0 100 0 0 0            *    a small money pouch
+F 1 40444 2 40589 100 0 0 0        * a kuo-toa altar guard (following)
+E 1 40439 1 20 100 0 0 0           *   a shark-skin mask
+G 1 40442 2 0 100 0 0 0            *    a small money pouch
+F 1 40444 2 40589 100 0 0 0        * a kuo-toa altar guard (following)
+E 1 40443 1 13 100 0 0 0           *   a shark-skin belt
+G 1 40442 2 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40594 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40594 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40594 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40597 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40597 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40442 6 40597 100 0 0 0        * a patrolling kuo-toa guard
+G 1 40441 6 0 100 0 0 0            *    a small money pouch
+M 0 40448 1 40598 100 0 0 0        * a tired Yuan-Ti
+E 1 40447 1 15 100 0 0 0           *   a bracer of the serpent guard
+M 0 40449 1 40599 100 0 0 0        * a disgusted drow cleric
+E 1 40448 1 10 100 0 0 0           *   a finely woven pair of spidersilk sleeves
+M 0 40452 1 40600 100 0 0 0        * a bullywug shaman
+E 1 40451 1 18 100 0 0 0           *   a gnarled staff of pure jodani wood
+M 0 40450 1 40601 100 0 0 0        * a scrag
+G 1 40449 1 0 100 0 0 0            *    the claws of the scrag
+M 0 40453 1 40602 100 0 0 0        * a lizardman
+E 1 40452 1 16 100 0 0 0           *   a single-bladed war-axe
+M 0 40454 1 40603 100 0 0 0        * an annoyed duergar
+E 1 40453 1 16 100 0 0 0           *   a wide adamantium dagger
+M 0 40451 1 40604 100 0 0 0        * a Locathah visitor
+E 1 40450 1 3 100 0 0 0            *   a fine necklace of seashells
+M 0 40445 1 40605 100 0 0 0        * a visiting sahaugin
+E 1 40446 1 2 100 0 0 0            *   a thick bone ring
+M 0 40447 4 40606 100 0 0 0        * a sleepy kuo-toa
+M 0 40446 4 40607 100 0 0 0        * a tired kuo-toa
+M 0 40446 4 40608 100 0 0 0        * a tired kuo-toa
+M 0 40447 4 40609 100 0 0 0        * a sleepy kuo-toa
+M 0 40447 4 40610 100 0 0 0        * a sleepy kuo-toa
+M 0 40446 4 40611 100 0 0 0        * a tired kuo-toa
+M 0 40446 4 40612 100 0 0 0        * a tired kuo-toa
+M 0 40447 4 40613 100 0 0 0        * a sleepy kuo-toa
+M 0 40437 4 40623 100 0 0 0        * a goblin scout
+M 0 40437 4 40623 100 0 0 0        * a goblin scout
+M 0 40437 4 40623 100 0 0 0        * a goblin scout
+M 0 40437 4 40623 100 0 0 0        * a goblin scout
+M 0 40456 3 40625 100 0 0 0        * a goblin stair guard
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40456 3 40625 100 0 0 0        * a goblin stair guard
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40456 3 40625 100 0 0 0        * a goblin stair guard
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+E 1 40457 1 18 100 0 0 0           *   a cracked black key
+M 0 40457 3 40626 100 0 0 0        * a goblin stair guard
+E 1 40459 5 16 100 0 0 0           *   a goblin long sword
+M 0 40457 3 40626 100 0 0 0        * a goblin stair guard
+E 1 40459 5 16 100 0 0 0           *   a goblin long sword
+M 0 40457 3 40626 100 0 0 0        * a goblin stair guard
+E 1 40459 5 16 100 0 0 0           *   a goblin long sword
+M 0 40461 5 40634 100 0 0 0        * a goblin sentinel
+E 1 40459 5 16 100 0 0 0           *   a goblin long sword
+E 1 40458 11 17 100 0 0 0          *   a goblin short sword
+M 0 40461 5 40634 100 0 0 0        * a goblin sentinel
+E 1 40459 5 16 100 0 0 0           *   a goblin long sword
+E 1 40458 11 17 100 0 0 0          *   a goblin short sword
+G 1 40466 1 0 100 0 0 0            *    a black and silver key
+M 0 40458 1 40635 100 0 0 0        * Galban
+E 1 40472 1 5 100 0 0 0            *   a fine suit of spiked ringmail
+E 1 40482 1 16 100 0 0 0           *   a red-bladed dagger with a silver hilt
+G 1 40495 1 0 100 0 0 0            *    the bloody head of Galban
+G 1 40463 1 0 100 0 0 0            *    a small silver key
+M 0 40459 1 40635 100 0 0 0        * a naked half-elf
+M 0 40460 1 40635 100 0 0 0        * A naked grey elf
+M 0 40462 1 40636 100 0 0 0        * Flakun
+G 1 40467 999 0 100 0 0 0          *    a spellbook bound in silver
+G 1 40468 999 0 100 0 0 0          *    a flask of the goblin tribe 'Gruneegth'
+G 1 40469 999 0 100 0 0 0          *    a purple potion
+G 1 40419 999 0 100 0 0 0          *    a white potion
+G 1 40421 999 0 100 0 0 0          *    an emerald potion
+G 1 40404 999 0 100 0 0 0          *    a blue orb
+G 1 40405 999 0 100 0 0 0          *    a green orb
+M 0 40472 6 40639 100 0 0 0        * a wandering goblin guard
+M 0 40472 6 40639 100 0 0 0        * a wandering goblin guard
+M 0 40472 6 40639 100 0 0 0        * a wandering goblin guard
+M 0 40472 6 40643 100 0 0 0        * a wandering goblin guard
+M 0 40472 6 40643 100 0 0 0        * a wandering goblin guard
+M 0 40472 6 40643 100 0 0 0        * a wandering goblin guard
+M 0 40461 5 40644 100 0 0 0        * a goblin sentinel
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40461 5 40644 100 0 0 0        * a goblin sentinel
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40463 1 40645 100 0 0 0        * Glakkabb
+E 1 40471 1 12 100 0 0 0           *   a goblin holy cloak
+E 1 40470 1 18 100 0 0 0           *   a decorated goblin totem
+G 1 40505 1 0 100 0 0 0            *    a mysterious key
+F 1 40464 2 40645 100 0 0 0        * Glakkabb's assistant (following)
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+F 1 40464 2 40645 100 0 0 0        * Glakkabb's assistant (following)
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40465 6 40646 100 0 0 0        * a tired goblin
+M 0 40465 6 40646 100 0 0 0        * a tired goblin
+M 0 40465 6 40646 100 0 0 0        * a tired goblin
+M 0 40465 6 40647 100 0 0 0        * a tired goblin
+M 0 40465 6 40647 100 0 0 0        * a tired goblin
+M 0 40465 6 40647 100 0 0 0        * a tired goblin
+M 0 40466 1 40648 100 0 0 0        * a goblin bartender
+M 0 40467 2 40648 100 0 0 0        * a laughing goblin
+M 0 40468 1 40648 100 0 0 0        * a drunk goblin
+M 0 40467 2 40648 100 0 0 0        * a laughing goblin
+M 0 40469 1 40649 100 0 0 0        * a hobgoblin visitor
+E 1 40473 1 8 100 0 0 0            *   a tight pair of dwarfskin sandals
+M 0 40470 1 40651 100 0 0 0        * a spriggan ambassador
+E 1 40477 1 21 100 0 0 0           *   a sapphire earring
+M 0 40471 2 40656 100 0 0 0        * a goblin acolyte
+E 1 40478 2 3 100 0 0 0            *   a goblin unholy symbol
+M 0 40471 2 40656 100 0 0 0        * a goblin acolyte
+E 1 40478 2 3 100 0 0 0            *   a goblin unholy symbol
+M 0 40473 2 40657 100 0 0 0        * a goblin prison guard
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+M 0 40473 2 40657 100 0 0 0        * a goblin prison guard
+E 1 40458 11 16 100 0 0 0          *   a goblin short sword
+E 1 40479 1 18 100 0 0 0           *   a set of cell keys
+M 0 40478 6 40658 100 0 0 0        * a patrolling goblin prison guard
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+M 0 40478 6 40658 100 0 0 0        * a patrolling goblin prison guard
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+M 0 40476 2 40660 100 0 0 0        * a grey elf prisoner
+M 0 40478 6 40662 100 0 0 0        * a patrolling goblin prison guard
+M 0 40478 6 40665 100 0 0 0        * a patrolling goblin prison guard
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+M 0 40478 6 40665 100 0 0 0        * a patrolling goblin prison guard
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+M 0 40478 6 40668 100 0 0 0        * a patrolling goblin prison guard
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+M 0 40475 1 40671 100 0 0 0        * a captive gnome
+M 0 40474 2 40672 100 0 0 0        * a captive human
+M 0 40476 2 40673 100 0 0 0        * a grey elf prisoner
+M 0 40474 2 40674 100 0 0 0        * a captive human
+M 0 40477 1 40675 100 0 0 0        * a beaten kenku
+M 0 40479 1 40676 100 0 0 0        * Rokag
+E 1 40461 1 16 100 0 0 0           *   a blood-red whip
+G 1 40481 1 0 100 0 0 0            *    a potion named 'Wild'
+M 0 40461 5 40677 100 0 0 0        * a goblin sentinel
+E 1 40480 6 16 100 0 0 0           *   a two-handed goblin sword
+G 1 40484 1 0 100 0 0 0            *    a steel key tarnished with age
+M 0 40481 4 40680 100 0 0 0        * an exhausted goblin
+M 0 40481 4 40680 100 0 0 0        * an exhausted goblin
+M 0 40481 4 40681 100 0 0 0        * an exhausted goblin
+M 0 40481 4 40681 100 0 0 0        * an exhausted goblin
+M 0 40480 2 40682 100 0 0 0        * a training goblin
+M 0 40480 2 40682 100 0 0 0        * a training goblin
+M 0 40482 1 40683 100 0 0 0        * Tield
+E 1 40485 1 7 100 0 0 0            *   a spiked pair of black leather leggings
+M 0 40483 1 40684 100 0 0 0        * the goblin judge
+M 0 40484 1 40684 100 0 0 0        * the goblin jailkeeper
+E 1 40486 1 18 100 0 0 0           *   the jailkeeper's key
+M 0 40485 1 40685 100 0 0 0        * Sulfious
+E 1 40487 1 18 100 0 0 0           *   a long and twisted wood staff
+M 0 40486 1 40693 100 0 0 0        * a ferocious lion
+M 0 40487 1 40694 100 0 0 0        * a huge olyx
+G 1 40494 1 0 100 0 0 0            *    a grey strip of olyx hide
+M 0 40488 1 40695 100 0 0 0        * a brown bear
+G 1 40493 1 0 100 0 0 0            *    a brown strip of bear hide
+M 0 40489 1 40696 100 0 0 0        * a peryton
+G 1 40490 1 0 100 0 0 0            *    some peryton feathers
+M 0 40490 1 40697 100 0 0 0        * a very large gorilla
+G 1 40491 1 0 100 0 0 0            *    a strip of gorilla hide
+*
+S

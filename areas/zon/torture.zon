@@ -1,0 +1,139 @@
+#954
+&+gTroll &+LSlave Compound&n~
+95430 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 95400 2 1 100 0 0 0
+*     south exit from "Outside the Torture Compound" to
+*     " Greeting Chamber" - closed
+*
+D 0 95401 0 1 100 0 0 0
+*     north exit from " Greeting Chamber" to
+*     "Outside the Torture Compound" - closed
+*
+D 0 95411 1 1 100 0 0 0
+*     east exit from "On the Main Walk" to
+*     "Corpse Storage" - closed
+*
+D 0 95422 3 1 100 0 0 0
+*     west exit from "Corpse Storage" to
+*     "On the Main Walk" - closed
+*
+D 0 95414 3 1 100 0 0 0
+*     west exit from "Compound Junction" to
+*     "A Holding Block" - closed
+*
+D 0 95417 1 1 100 0 0 0
+*     east exit from "A Holding Block" to
+*     "Compound Junction" - closed
+*
+D 0 95416 5 2 100 0 0 0
+*     down exit from "A Torture Chamber" to
+*     "Special Treatment" - closed/locked
+*
+D 0 95421 4 2 100 0 0 0
+*     up exit from "Special Treatment" to
+*     "A Torture Chamber" - closed/locked
+*
+D 0 95422 5 2 100 0 0 0
+*     down exit from "Corpse Storage" to
+*     "The Crematory" - closed/locked
+*
+D 0 95423 4 2 100 0 0 0
+*     up exit from "The Crematory" to
+*     "Corpse Storage" - closed/locked
+*
+*
+O 0 95408 5 95422 100 0 0 0        * a troll corpse
+O 0 95408 5 95422 100 0 0 0        * a troll corpse
+O 0 95408 5 95422 100 0 0 0        * a troll corpse
+O 0 95408 5 95422 100 0 0 0        * a troll corpse
+O 0 95408 5 95422 100 0 0 0        * a troll corpse
+P 1 95406 1 95408 100 0 0 0        *   a tiny jade earring
+O 0 95407 1 95422 100 0 0 0        * blood
+*
+M 0 95400 4 95401 100 0 0 0        * a compound guard
+E 1 95400 2 5 100 0 0 0            *   an alligator hide
+E 1 95401 2 16 100 0 0 0           *   a stone cudgel
+M 0 95400 4 95401 100 0 0 0        * a compound guard
+E 1 95400 2 5 100 0 0 0            *   an alligator hide
+E 1 95401 2 16 100 0 0 0           *   a stone cudgel
+M 0 95400 4 95404 100 0 0 0        * a compound guard
+M 0 95400 4 95404 100 0 0 0        * a compound guard
+M 0 95401 8 95406 100 0 0 0        * a beaten duergar
+E 1 95402 4 16 100 0 0 0           *   a tiny rock hammer
+M 0 95401 8 95406 100 0 0 0        * a beaten duergar
+E 1 95402 4 16 100 0 0 0           *   a tiny rock hammer
+M 0 95401 8 95406 100 0 0 0        * a beaten duergar
+E 1 95402 4 16 100 0 0 0           *   a tiny rock hammer
+M 0 95402 1 95406 100 0 0 0        * a puny ogre
+M 0 95403 14 95406 100 0 0 0       * a compound guard
+M 0 95406 4 95406 100 0 0 0        * an unruly troll
+E 1 95405 5 8 100 0 0 0            *   some iron shackles
+M 0 95401 8 95407 100 0 0 0        * a beaten duergar
+M 0 95401 8 95407 100 0 0 0        * a beaten duergar
+M 0 95405 2 95407 100 0 0 0        * a young umber hulk
+M 0 95406 4 95407 100 0 0 0        * an unruly troll
+E 1 95405 5 8 100 0 0 0            *   some iron shackles
+M 0 95401 8 95408 100 0 0 0        * a beaten duergar
+E 1 95402 4 16 100 0 0 0           *   a tiny rock hammer
+M 0 95401 8 95408 100 0 0 0        * a beaten duergar
+M 0 95401 8 95408 100 0 0 0        * a beaten duergar
+M 0 95403 14 95408 100 0 0 0       * a compound guard
+M 0 95405 2 95408 100 0 0 0        * a young umber hulk
+M 0 95406 4 95408 100 0 0 0        * an unruly troll
+E 1 95405 5 8 100 0 0 0            *   some iron shackles
+M 0 95404 1 95409 100 0 0 0        * a dark halfling
+E 1 95404 1 15 100 0 0 0           *   a wrist sheath
+E 1 95403 1 16 100 0 0 0           *   a wicked little dirk
+M 0 95403 14 95410 100 0 0 0       * a compound guard
+M 0 95403 14 95410 100 0 0 0       * a compound guard
+M 0 95412 1 95410 100 0 0 0        * a human slave girl
+M 0 95406 4 95415 100 0 0 0        * an unruly troll
+E 1 95405 5 8 100 0 0 0            *   some iron shackles
+M 0 95408 2 95415 100 0 0 0        * a troll berserker
+M 0 95403 14 95415 100 0 0 0       * a compound guard
+M 0 95410 2 95416 100 0 0 0        * a distraught troll
+M 0 95409 2 95416 100 0 0 0        * a head torturer
+M 0 95408 2 95417 100 0 0 0        * a troll berserker
+M 0 95403 14 95417 100 0 0 0       * a compound guard
+M 0 95410 2 95418 100 0 0 0        * a distraught troll
+M 0 95409 2 95418 100 0 0 0        * a head torturer
+M 0 95407 3 95419 100 0 0 0        * a hungry troll
+M 0 95407 3 95419 100 0 0 0        * a hungry troll
+M 0 95407 3 95419 100 0 0 0        * a hungry troll
+M 0 95403 14 95419 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95403 14 95420 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95403 14 95420 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95403 14 95420 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95403 14 95420 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95403 14 95420 100 0 0 0       * a compound guard
+E 1 95412 6 16 100 0 0 0           *   a steel truncheon
+M 0 95411 1 95421 100 0 0 0        * a vicious criminal
+E 1 95409 1 3 100 0 0 0            *   a serrated collar
+E 1 95405 5 8 100 0 0 0            *   some iron shackles
+E 1 95411 1 16 100 0 0 0           *   a thick iron chain
+G 1 95410 1 0 100 0 0 0            *    some broken leg irons
+M 0 95413 2 95424 100 0 0 0        * a duergar slave
+M 0 95413 2 95424 100 0 0 0        * a duergar slave
+M 0 95403 14 95424 100 0 0 0       * a compound guard
+M 0 95414 2 95425 100 0 0 0        * a drow slave
+M 0 95414 2 95425 100 0 0 0        * a drow slave
+M 0 95403 14 95425 100 0 0 0       * a compound guard
+M 0 95418 1 95426 100 0 0 0        * a huge troll
+E 1 95416 1 8 100 0 0 0            *   some gator skin boots
+M 0 95415 1 95427 100 0 0 0        * a troll scalper
+G 1 95413 1 0 100 0 0 0            *    a blood covered scythe
+M 0 95416 1 95427 100 0 0 0        * an elven lad
+M 0 95417 1 95430 100 0 0 0        * a pit fiend
+G 1 95415 1 0 100 0 0 0            *    a mangled corpse
+P 1 95414 1 95415 100 0 0 0        *   some steel battle armor
+*
+S

@@ -1,0 +1,556 @@
+#281
+&+WVerspin&n~
+28299 2 0 45 65 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 28100 0 1 100 0 0 0
+*     north exit from "The Entrance to a Town" to
+*     "The Central Road" - closed
+*
+D 0 28101 2 1 100 0 0 0
+*     south exit from "The Central Road" to
+*     "The Entrance to a Town" - closed
+*
+D 0 28143 0 1 100 0 0 0
+*     north exit from "A Dark Alley" to
+*     "An Abandoned Verspin Home" - closed
+*
+D 0 28260 2 1 100 0 0 0
+*     south exit from "An Abandoned Verspin Home" to
+*     "A Dark Alley" - closed
+*
+D 0 28146 1 5 100 0 0 0
+*     east exit from "The Entrance to the Verspin Circus" to
+*     "Backstage of the Verspin Circus" - closed/secret
+*
+D 0 28147 3 5 100 0 0 0
+*     west exit from "Backstage of the Verspin Circus" to
+*     "The Entrance to the Verspin Circus" - closed/secret
+*
+D 0 28172 5 5 100 0 0 0
+*     down exit from "The Central Path Intersection" to
+*     "A Merchant's House" - closed/secret
+*
+D 0 28174 4 1 100 0 0 0
+*     up exit from "A Merchant's House" to
+*     "The Central Path Intersection" - closed
+*
+D 0 28192 0 1 100 0 0 0
+*     north exit from "Entrance to the Verspin Brothel" to
+*     "Inside the Brothel of Verspin" - closed
+*
+D 0 28193 2 1 100 0 0 0
+*     south exit from "Inside the Brothel of Verspin" to
+*     "Entrance to the Verspin Brothel" - closed
+*
+D 0 28214 5 2 100 0 0 0
+*     down exit from "The Top of a Secured Access Staircase" to
+*     "On the Gladiator Access Stairs" - closed/locked
+*
+D 0 28215 4 1 100 0 0 0
+*     up exit from "On the Gladiator Access Stairs" to
+*     "The Top of a Secured Access Staircase" - closed
+*
+D 0 28223 0 1 100 0 0 0
+*     north exit from "The North Hall" to
+*     "A Gladiator Resting Chamber" - closed
+*
+D 0 28248 2 1 100 0 0 0
+*     south exit from "A Gladiator Resting Chamber" to
+*     "The North Hall" - closed
+*
+D 0 28223 2 1 100 0 0 0
+*     south exit from "The North Hall" to
+*     "A Gladiator Resting Chamber" - closed
+*
+D 0 28249 0 1 100 0 0 0
+*     north exit from "A Gladiator Resting Chamber" to
+*     "The North Hall" - closed
+*
+D 0 28224 0 1 100 0 0 0
+*     north exit from "The North Hall" to
+*     "A Huge Gladiator Resting Chamber" - closed
+*
+D 0 28246 2 1 100 0 0 0
+*     south exit from "A Huge Gladiator Resting Chamber" to
+*     "The North Hall" - closed
+*
+D 0 28224 2 1 100 0 0 0
+*     south exit from "The North Hall" to
+*     "A Gladiator Resting Chamber" - closed
+*
+D 0 28247 0 1 100 0 0 0
+*     north exit from "A Gladiator Resting Chamber" to
+*     "The North Hall" - closed
+*
+D 0 28228 0 1 100 0 0 0
+*     north exit from "The South Hall" to
+*     "A Gladiator Meditation Chamber" - closed
+*
+D 0 28252 2 1 100 0 0 0
+*     south exit from "A Gladiator Meditation Chamber" to
+*     "The South Hall" - closed
+*
+D 0 28228 2 1 100 0 0 0
+*     south exit from "The South Hall" to
+*     "A Gladiator Meditation Chamber" - closed
+*
+D 0 28253 0 1 100 0 0 0
+*     north exit from "A Gladiator Meditation Chamber" to
+*     "The South Hall" - closed
+*
+D 0 28229 0 1 100 0 0 0
+*     north exit from "The South Hall" to
+*     "A Gladiator Meditation Chamber" - closed
+*
+D 0 28250 2 1 100 0 0 0
+*     south exit from "A Gladiator Meditation Chamber" to
+*     "The South Hall" - closed
+*
+D 0 28229 2 1 100 0 0 0
+*     south exit from "The South Hall" to
+*     "An Empty Meditation Chamber" - closed
+*
+D 0 28251 0 1 100 0 0 0
+*     north exit from "An Empty Meditation Chamber" to
+*     "The South Hall" - closed
+*
+D 0 28251 9 1 100 0 0 0
+*     southeast exit from "An Empty Meditation Chamber" to
+*     "A Small Cave" - closed
+*
+D 0 28257 6 1 100 0 0 0
+*     northwest exit from "A Small Cave" to
+*     "An Empty Meditation Chamber" - closed
+*
+D 0 28255 1 2 100 0 0 0
+*     east exit from "A Steel Gate Before the Gladiator Pit" to
+*     "The Gladiator Pit of Verspin" - closed/locked
+*
+D 0 28256 3 1 100 0 0 0
+*     west exit from "The Gladiator Pit of Verspin" to
+*     "A Steel Gate Before the Gladiator Pit" - closed
+*
+D 0 28257 2 1 100 0 0 0
+*     south exit from "A Small Cave" to
+*     "A Secret and Cramped Tunnel" - closed
+*
+D 0 28258 0 1 100 0 0 0
+*     north exit from "A Secret and Cramped Tunnel" to
+*     "A Small Cave" - closed
+*
+D 0 28260 5 5 100 0 0 0
+*     down exit from "An Abandoned Verspin Home" to
+*     "A Secret and Cramped Tunnel" - closed/secret
+*
+D 0 28261 4 1 100 0 0 0
+*     up exit from "A Secret and Cramped Tunnel" to
+*     "An Abandoned Verspin Home" - closed
+*
+D 0 28271 0 1 100 0 0 0
+*     north exit from "A White Pebble Courtyard Lined with Ivory Statues" to
+*     "A Small Chapel of Shinjin's Atrium" - closed
+*
+D 0 28278 2 1 100 0 0 0
+*     south exit from "A Small Chapel of Shinjin's Atrium" to
+*     "A White Pebble Courtyard Lined with Ivory Statues" - closed
+*
+D 0 28285 2 1 100 0 0 0
+*     south exit from "A First Floor Hallway in the Inn of the Noble Heart" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28292 0 1 100 0 0 0
+*     north exit from "An Elegant Guest Room" to
+*     "A First Floor Hallway in the Inn of the Noble Heart" - closed
+*
+D 0 28286 0 1 100 0 0 0
+*     north exit from "A First Floor Hallway in the Inn of the Noble Heart" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28293 2 1 100 0 0 0
+*     south exit from "An Elegant Guest Room" to
+*     "A First Floor Hallway in the Inn of the Noble Heart" - closed
+*
+D 0 28286 2 1 100 0 0 0
+*     south exit from "A First Floor Hallway in the Inn of the Noble Heart" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28294 0 1 100 0 0 0
+*     north exit from "An Elegant Guest Room" to
+*     "A First Floor Hallway in the Inn of the Noble Heart" - closed
+*
+D 0 28289 0 1 100 0 0 0
+*     north exit from "A Second Floor Hallway in the Inn of the Noble Heart" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28295 2 1 100 0 0 0
+*     south exit from "An Elegant Guest Room" to
+*     "A Second Floor Hallway in the Inn of the Noble Heart" - closed
+*
+D 0 28289 2 1 100 0 0 0
+*     south exit from "A Second Floor Hallway in the Inn of the Noble Heart" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28296 0 1 100 0 0 0
+*     north exit from "An Elegant Guest Room" to
+*     "A Second Floor Hallway in the Inn of the Noble Heart" - closed
+*
+D 0 28291 1 1 100 0 0 0
+*     east exit from "The End of the Second Floor Hallway" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28298 3 1 100 0 0 0
+*     west exit from "An Elegant Guest Room" to
+*     "The End of the Second Floor Hallway" - closed
+*
+D 0 28291 2 1 100 0 0 0
+*     south exit from "The End of the Second Floor Hallway" to
+*     "An Elegant Guest Room" - closed
+*
+D 0 28297 0 1 100 0 0 0
+*     north exit from "An Elegant Guest Room" to
+*     "The End of the Second Floor Hallway" - closed
+*
+*
+O 0 28101 1 28111 100 0 0 0        * the grand fountain of Verspin
+O 0 28111 1 28129 100 0 0 0        * a large wooden stall
+P 1 28112 2 28111 100 0 0 0        *   a large plump apple
+O 0 28110 1 28133 100 0 0 0        * a stall full of apples
+P 1 28112 2 28110 100 0 0 0        *   a large plump apple
+O 0 28109 1 28135 100 0 0 0        * a large wooden stall
+O 0 28106 1 28155 100 0 0 0        * a large duckpond
+O 0 28121 1 28174 100 0 0 0        * a large chest
+P 1 28118 2 28121 100 0 0 0        *   a lizard skin backpack
+P 1 28108 2 28121 100 0 0 0        *   a large steel axe
+P 1 28117 2 28121 100 0 0 0        *   a dark leather bag
+O 0 90026 1 28174 100 0 0 0        * (object type not in this .obj file)
+O 0 28131 1 28188 100 0 0 0        * a small altar
+O 0 28132 1 28189 100 0 0 0        * a large water pool
+O 0 28143 1 28219 100 0 0 0        * a large steel sign
+O 0 28148 3 28250 100 0 0 0        * some prayer icons
+O 0 28148 3 28252 100 0 0 0        * some prayer icons
+O 0 28148 3 28253 100 0 0 0        * some prayer icons
+O 0 3097 1 28299 100 0 0 0         * (object type not in this .obj file)
+*
+M 0 28100 9 28100 100 0 0 0        * a high guard of Verspin
+E 1 28100 3 16 100 0 0 0           *   a sleek longsword
+F 1 28100 9 28100 100 0 0 0        * a high guard of Verspin (following)
+E 1 28100 3 16 100 0 0 0           *   a sleek longsword
+F 1 28100 9 28100 100 0 0 0        * a high guard of Verspin (following)
+E 1 28100 3 16 100 0 0 0           *   a sleek longsword
+M 0 28101 11 28101 100 0 0 0       * a mime
+G 1 28124 3 0 100 0 0 0            *    a glimmering red amulet
+M 0 28102 6 28101 100 0 0 0        * a chicken
+M 0 28105 5 28101 100 0 0 0        * a halfling thief
+M 0 28106 3 28101 100 0 0 0        * a drunken elf
+M 0 28110 1 28101 100 0 0 0        * a dwarven peddler
+G 1 28102 999 0 100 0 0 0          *    a Verspin meal-in-a-box
+G 1 28103 999 0 100 0 0 0          *    a troll-head canteen
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28101 11 28102 100 0 0 0       * a mime
+M 0 28145 1 28103 100 0 0 0        * Vulm
+M 0 28103 5 28104 100 0 0 0        * a cleric from Tharnadia
+G 1 28138 5 0 100 0 0 0            *    a small marble holy symbol
+M 0 28104 5 28104 100 0 0 0        * a travelling gnomish shaman
+G 1 28144 5 0 100 0 0 0            *    a small gnomish totem
+M 0 28107 5 28104 100 0 0 0        * a flame eater
+M 0 28108 4 28104 100 0 0 0        * a noble of Verspin
+G 1 94336 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28131 9 28104 100 0 0 0        * a soldier of Verspin
+M 0 28124 4 28105 100 0 0 0        * a puppy dog
+M 0 28100 9 28106 100 0 0 0        * a high guard of Verspin
+M 0 28102 6 28106 100 0 0 0        * a chicken
+M 0 28104 5 28106 100 0 0 0        * a travelling gnomish shaman
+G 1 28144 5 0 100 0 0 0            *    a small gnomish totem
+M 0 28107 5 28106 100 0 0 0        * a flame eater
+M 0 28131 9 28106 100 0 0 0        * a soldier of Verspin
+M 0 28132 8 28106 100 0 0 0        * a captain of Verspin
+M 0 28101 11 28106 100 0 0 0       * a mime
+M 0 28120 4 28107 100 0 0 0        * a woman of Verspin
+M 0 28124 4 28107 100 0 0 0        * a puppy dog
+M 0 28104 5 28107 100 0 0 0        * a travelling gnomish shaman
+G 1 28144 5 0 100 0 0 0            *    a small gnomish totem
+M 0 28105 5 28107 100 0 0 0        * a halfling thief
+M 0 28100 9 28107 100 0 0 0        * a high guard of Verspin
+M 0 28131 9 28108 100 0 0 0        * a soldier of Verspin
+M 0 28132 8 28108 100 0 0 0        * a captain of Verspin
+M 0 28101 11 28108 100 0 0 0       * a mime
+M 0 28132 8 28109 100 0 0 0        * a captain of Verspin
+M 0 28125 1 28111 100 0 0 0        * the crier of Verspin
+M 0 28132 8 28111 100 0 0 0        * a captain of Verspin
+M 0 28101 11 28111 100 0 0 0       * a mime
+M 0 28102 6 28111 100 0 0 0        * a chicken
+M 0 28103 5 28111 100 0 0 0        * a cleric from Tharnadia
+G 1 28138 5 0 100 0 0 0            *    a small marble holy symbol
+M 0 28104 5 28111 100 0 0 0        * a travelling gnomish shaman
+G 1 28144 5 0 100 0 0 0            *    a small gnomish totem
+M 0 28105 5 28111 100 0 0 0        * a halfling thief
+G 1 28123 3 0 100 0 0 0            *    a small green amulet
+M 0 28101 11 28111 100 0 0 0       * a mime
+M 0 28130 4 28112 100 0 0 0        * an inventor
+M 0 28100 9 28112 100 0 0 0        * a high guard of Verspin
+M 0 28121 5 28113 100 0 0 0        * a commoner of Verspin
+G 1 28125 999 0 100 0 0 0          *    a large black amulet
+M 0 28121 5 28113 100 0 0 0        * a commoner of Verspin
+M 0 28124 4 28113 100 0 0 0        * a puppy dog
+M 0 28108 4 28113 100 0 0 0        * a noble of Verspin
+G 1 28124 3 0 100 0 0 0            *    a glimmering red amulet
+G 1 94336 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28131 9 28113 100 0 0 0        * a soldier of Verspin
+M 0 28132 8 28113 100 0 0 0        * a captain of Verspin
+M 0 28101 11 28114 100 0 0 0       * a mime
+M 0 28107 5 28114 100 0 0 0        * a flame eater
+M 0 28103 5 28114 100 0 0 0        * a cleric from Tharnadia
+G 1 28138 5 0 100 0 0 0            *    a small marble holy symbol
+M 0 28121 5 28114 100 0 0 0        * a commoner of Verspin
+M 0 28122 1 28115 100 0 0 0        * a woman of Verspin
+M 0 28131 9 28115 100 0 0 0        * a soldier of Verspin
+M 0 28132 8 28115 100 0 0 0        * a captain of Verspin
+M 0 28102 6 28115 100 0 0 0        * a chicken
+M 0 28101 11 28116 100 0 0 0       * a mime
+M 0 28102 6 28116 100 0 0 0        * a chicken
+M 0 28104 5 28116 100 0 0 0        * a travelling gnomish shaman
+G 1 28125 999 0 100 0 0 0          *    a large black amulet
+G 1 28144 5 0 100 0 0 0            *    a small gnomish totem
+M 0 28106 3 28116 100 0 0 0        * a drunken elf
+M 0 28101 11 28117 100 0 0 0       * a mime
+M 0 28103 5 28117 100 0 0 0        * a cleric from Tharnadia
+G 1 28138 5 0 100 0 0 0            *    a small marble holy symbol
+M 0 28105 5 28117 100 0 0 0        * a halfling thief
+M 0 28107 5 28117 100 0 0 0        * a flame eater
+M 0 28132 8 28117 100 0 0 0        * a captain of Verspin
+M 0 28120 4 28118 100 0 0 0        * a woman of Verspin
+M 0 28108 4 28118 100 0 0 0        * a noble of Verspin
+G 1 94336 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28131 9 28118 100 0 0 0        * a soldier of Verspin
+M 0 28105 5 28119 100 0 0 0        * a halfling thief
+M 0 28131 9 28119 100 0 0 0        * a soldier of Verspin
+M 0 28100 9 28119 100 0 0 0        * a high guard of Verspin
+M 0 28107 5 28120 100 0 0 0        * a flame eater
+M 0 28121 5 28121 100 0 0 0        * a commoner of Verspin
+M 0 28102 6 28121 100 0 0 0        * a chicken
+M 0 28131 9 28121 100 0 0 0        * a soldier of Verspin
+M 0 28101 11 28122 100 0 0 0       * a mime
+M 0 28101 11 28122 100 0 0 0       * a mime
+M 0 28120 4 28122 100 0 0 0        * a woman of Verspin
+M 0 28121 5 28122 100 0 0 0        * a commoner of Verspin
+M 0 28139 1 28127 100 0 0 0        * a human peddler
+G 1 28117 2 0 100 0 0 0            *    a dark leather bag
+G 1 28118 2 0 100 0 0 0            *    a lizard skin backpack
+G 1 28120 1 0 100 0 0 0            *    a large thin boat made of leaves
+G 1 363 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28137 5 28129 100 0 0 0        * a snobby shopper
+M 0 28144 1 28129 100 0 0 0        * Lozin, the trade master
+M 0 28137 5 28130 100 0 0 0        * a snobby shopper
+G 1 28125 999 0 100 0 0 0          *    a large black amulet
+M 0 28135 4 28131 100 0 0 0        * a loud shopper
+M 0 28137 5 28131 100 0 0 0        * a snobby shopper
+M 0 28135 4 28132 100 0 0 0        * a loud shopper
+G 1 28123 3 0 100 0 0 0            *    a small green amulet
+M 0 28135 4 28133 100 0 0 0        * a loud shopper
+M 0 28137 5 28133 100 0 0 0        * a snobby shopper
+M 0 28124 4 28134 100 0 0 0        * a puppy dog
+M 0 28120 4 28134 100 0 0 0        * a woman of Verspin
+M 0 28132 8 28134 100 0 0 0        * a captain of Verspin
+M 0 28130 4 28135 100 0 0 0        * an inventor
+M 0 28135 4 28136 100 0 0 0        * a loud shopper
+M 0 28137 5 28136 100 0 0 0        * a snobby shopper
+M 0 28103 5 28136 100 0 0 0        * a cleric from Tharnadia
+G 1 28138 5 0 100 0 0 0            *    a small marble holy symbol
+M 0 28108 4 28136 100 0 0 0        * a noble of Verspin
+G 1 94336 4 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28131 9 28136 100 0 0 0        * a soldier of Verspin
+M 0 28149 2 28136 100 0 0 0        * a wandering cleric
+M 0 28113 1 28139 100 0 0 0        * the leader of Bloodhawk Gang
+E 1 28140 1 15 100 0 0 0           *   a derro-skin forearm guard
+G 1 38421 1 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 28114 4 28139 100 0 0 0        * a smuggler of the Bloodhawk gang (following)
+F 1 28114 4 28139 100 0 0 0        * a smuggler of the Bloodhawk gang (following)
+F 1 28114 4 28139 100 0 0 0        * a smuggler of the Bloodhawk gang (following)
+F 1 28114 4 28139 100 0 0 0        * a smuggler of the Bloodhawk gang (following)
+M 0 28112 2 28143 100 0 0 0        * a junior member of the Bloodhawks
+M 0 28112 2 28143 100 0 0 0        * a junior member of the Bloodhawks
+M 0 28136 1 28144 100 0 0 0        * a huge man
+G 1 28115 1 0 100 0 0 0            *    a bottle of an odd green-yellow liquid
+G 1 28116 1 0 100 0 0 0            *    a suit of armor made of pins
+M 0 28115 2 28148 100 0 0 0        * a midget
+M 0 28117 2 28148 100 0 0 0        * a goofy clown
+M 0 28118 3 28148 100 0 0 0        * a silly clown
+M 0 28119 3 28148 100 0 0 0        * a crazy clown
+M 0 28117 2 28149 100 0 0 0        * a goofy clown
+M 0 28116 1 28150 100 0 0 0        * Tottan, leader of the Verspin Circus
+M 0 28118 3 28150 100 0 0 0        * a silly clown
+M 0 28119 3 28150 100 0 0 0        * a crazy clown
+M 0 28140 3 28151 100 0 0 0        * a bound and gagged ogre
+E 1 28119 1 15 100 0 0 0           *   a golden band of the ogre-magis
+M 0 28118 3 28151 100 0 0 0        * a silly clown
+M 0 28119 3 28151 100 0 0 0        * a crazy clown
+M 0 28106 3 28151 100 0 0 0        * a drunken elf
+M 0 28115 2 28151 100 0 0 0        * a midget
+M 0 28140 3 28152 100 0 0 0        * a bound and gagged ogre
+M 0 28140 3 28153 100 0 0 0        * a bound and gagged ogre
+M 0 28123 1 28154 100 0 0 0        * Rammzi
+G 1 28104 1 0 100 0 0 0            *    a large black orb
+G 1 28105 1 0 100 0 0 0            *    a cane of twisted oak
+M 0 28129 4 28155 100 0 0 0        * a member of the Verspin cleaning crew
+M 0 28129 4 28156 100 0 0 0        * a member of the Verspin cleaning crew
+M 0 28130 4 28156 100 0 0 0        * an inventor
+M 0 28129 4 28157 100 0 0 0        * a member of the Verspin cleaning crew
+M 0 28129 4 28158 100 0 0 0        * a member of the Verspin cleaning crew
+M 0 28130 4 28158 100 0 0 0        * an inventor
+M 0 28126 1 28159 100 0 0 0        * Ramous, leader of Verspin
+F 1 28127 2 28159 100 0 0 0        * a royal advisor (following)
+F 1 28127 2 28159 100 0 0 0        * a royal advisor (following)
+F 1 28128 1 28159 100 0 0 0        * a golden lion (following)
+M 0 28134 1 28160 100 0 0 0        * Brial
+G 1 28107 1 0 100 0 0 0            *    a suit of black forged steel
+G 1 28108 2 0 100 0 0 0            *    a large steel axe
+G 1 28126 5 0 100 0 0 0            *    a Verspin hammer
+G 1 28127 1 0 100 0 0 0            *    a suit of red steel armor
+G 1 28128 1 0 100 0 0 0            *    a black gladius
+G 1 28129 1 0 100 0 0 0            *    a hunting knife
+G 1 28130 1 0 100 0 0 0            *    a hunting shield
+M 0 28141 6 28161 100 0 0 0        * a squirmy fish
+M 0 28142 4 28162 100 0 0 0        * a mean goldfish
+M 0 28143 6 28162 100 0 0 0        * a boatman
+G 1 28124 3 0 100 0 0 0            *    a glimmering red amulet
+M 0 28141 6 28163 100 0 0 0        * a squirmy fish
+M 0 28142 4 28164 100 0 0 0        * a mean goldfish
+M 0 28143 6 28164 100 0 0 0        * a boatman
+M 0 28141 6 28165 100 0 0 0        * a squirmy fish
+M 0 28142 4 28166 100 0 0 0        * a mean goldfish
+M 0 28143 6 28166 100 0 0 0        * a boatman
+M 0 28141 6 28167 100 0 0 0        * a squirmy fish
+M 0 28142 4 28168 100 0 0 0        * a mean goldfish
+M 0 28143 6 28168 100 0 0 0        * a boatman
+M 0 28141 6 28169 100 0 0 0        * a squirmy fish
+M 0 28143 6 28169 100 0 0 0        * a boatman
+G 1 28123 3 0 100 0 0 0            *    a small green amulet
+M 0 28141 6 28171 100 0 0 0        * a squirmy fish
+M 0 28143 6 28171 100 0 0 0        * a boatman
+M 0 28149 2 28183 100 0 0 0        * a wandering cleric
+E 1 28133 1 24 100 0 0 0           *   an insignia of the nomad healers
+M 0 28147 1 28188 100 0 0 0        * a holyman
+M 0 28111 3 28188 100 0 0 0        * a paladin in training
+M 0 28111 3 28188 100 0 0 0        * a paladin in training
+M 0 28111 3 28188 100 0 0 0        * a paladin in training
+M 0 28148 4 28190 100 0 0 0        * a warrior in training
+M 0 28148 4 28190 100 0 0 0        * a warrior in training
+M 0 28148 4 28190 100 0 0 0        * a warrior in training
+M 0 28148 4 28190 100 0 0 0        * a warrior in training
+M 0 28154 1 28190 100 0 0 0        * Brachik, warrior teacher of Verspin
+E 1 28136 1 2 33 0 0 0             *   a thick gold and platinum ring
+E 1 28135 1 11 33 0 0 0            *   a polished studded gold and platinum shield
+E 1 28137 1 20 33 0 0 0            *   a gold-lined mesh fencing mask
+M 0 28146 4 28191 100 0 0 0        * a mage in training
+G 1 19501 1 0 80 0 0 0             *    (object type not in this .obj file)
+M 0 28146 4 28191 100 0 0 0        * a mage in training
+G 1 19500 1 0 80 0 0 0             *    (object type not in this .obj file)
+M 0 28146 4 28191 100 0 0 0        * a mage in training
+G 1 19503 1 0 80 0 0 0             *    (object type not in this .obj file)
+M 0 28146 4 28191 100 0 0 0        * a mage in training
+G 1 19502 1 0 80 0 0 0             *    (object type not in this .obj file)
+M 0 28153 1 28191 100 0 0 0        * Vespus, head sorceress of Verspin
+E 1 28134 1 3 100 0 0 0            *   a sapphire and amethyst necklace
+G 1 19504 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28150 3 28193 100 0 0 0        * a dark-colored woman
+M 0 28151 4 28194 100 0 0 0        * a large blond woman
+M 0 28150 3 28195 100 0 0 0        * a dark-colored woman
+M 0 28151 4 28195 100 0 0 0        * a large blond woman
+M 0 28152 1 28195 100 0 0 0        * Liya
+M 0 28150 3 28196 100 0 0 0        * a dark-colored woman
+M 0 28151 4 28196 100 0 0 0        * a large blond woman
+M 0 28151 4 28197 100 0 0 0        * a large blond woman
+M 0 28158 7 28200 100 0 0 0        * a Verspin showgoer
+M 0 28160 6 28200 100 0 0 0        * a young showgoer
+M 0 28158 7 28201 100 0 0 0        * a Verspin showgoer
+M 0 28159 5 28202 100 0 0 0        * a seasoned Verspin showgoer
+M 0 28160 6 28202 100 0 0 0        * a young showgoer
+M 0 28158 7 28203 100 0 0 0        * a Verspin showgoer
+M 0 28159 5 28204 100 0 0 0        * a seasoned Verspin showgoer
+M 0 28160 6 28204 100 0 0 0        * a young showgoer
+M 0 28158 7 28205 100 0 0 0        * a Verspin showgoer
+M 0 28158 7 28207 100 0 0 0        * a Verspin showgoer
+M 0 28160 6 28207 100 0 0 0        * a young showgoer
+M 0 28159 5 28208 100 0 0 0        * a seasoned Verspin showgoer
+M 0 28159 5 28209 100 0 0 0        * a seasoned Verspin showgoer
+M 0 28160 6 28209 100 0 0 0        * a young showgoer
+M 0 28158 7 28210 100 0 0 0        * a Verspin showgoer
+M 0 28159 5 28211 100 0 0 0        * a seasoned Verspin showgoer
+M 0 28160 6 28211 100 0 0 0        * a young showgoer
+M 0 28157 3 28212 100 0 0 0        * a flamboyant patron
+M 0 28157 3 28212 100 0 0 0        * a flamboyant patron
+M 0 28157 3 28212 100 0 0 0        * a flamboyant patron
+M 0 28156 1 28212 100 0 0 0        * a relaxed captain of Verspin
+M 0 28155 1 28212 100 0 0 0        * Transo, the swinging star bartender
+M 0 28158 7 28213 100 0 0 0        * a Verspin showgoer
+M 0 28161 2 28214 100 0 0 0        * a strong security guard
+E 1 28126 5 16 100 0 0 0           *   a Verspin hammer
+G 1 28142 1 0 100 0 0 0            *    a large steel key
+M 0 28161 2 28214 100 0 0 0        * a strong security guard
+E 1 28126 5 16 100 0 0 0           *   a Verspin hammer
+M 0 28162 1 28220 100 0 0 0        * Rosman, the noble priest
+E 1 28156 1 9 100 0 0 0            *   a pair of white healer gloves
+G 1 369 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28168 3 28225 100 0 0 0        * a maintenance worker
+M 0 28168 3 28227 100 0 0 0        * a maintenance worker
+M 0 28168 3 28230 100 0 0 0        * a maintenance worker
+M 0 28164 4 28233 100 0 0 0        * a well-trained gladiator
+M 0 28164 4 28235 100 0 0 0        * a well-trained gladiator
+M 0 28163 4 28237 100 0 0 0        * a battle-scarred gladiator
+M 0 28164 4 28237 100 0 0 0        * a well-trained gladiator
+M 0 28109 4 28239 100 0 0 0        * a sparring gladiator
+M 0 28163 4 28241 100 0 0 0        * a battle-scarred gladiator
+M 0 28109 4 28242 100 0 0 0        * a sparring gladiator
+M 0 28163 4 28242 100 0 0 0        * a battle-scarred gladiator
+M 0 28109 4 28243 100 0 0 0        * a sparring gladiator
+M 0 28164 4 28244 100 0 0 0        * a well-trained gladiator
+M 0 28109 4 28245 100 0 0 0        * a sparring gladiator
+M 0 28163 4 28245 100 0 0 0        * a battle-scarred gladiator
+M 0 28166 1 28246 100 0 0 0        * a relaxing barbarian gladiator
+M 0 28165 3 28247 100 0 0 0        * a relaxing gladiator
+M 0 28165 3 28248 100 0 0 0        * a relaxing gladiator
+M 0 28165 3 28249 100 0 0 0        * a relaxing gladiator
+M 0 28167 3 28250 100 0 0 0        * a meditative gladiator
+M 0 28167 3 28252 100 0 0 0        * a meditative gladiator
+M 0 28167 3 28253 100 0 0 0        * a meditative gladiator
+M 0 28169 3 28254 100 0 0 0        * a muscular gladiator
+M 0 28169 3 28254 100 0 0 0        * a muscular gladiator
+M 0 28169 3 28254 100 0 0 0        * a muscular gladiator
+M 0 28171 2 28255 100 0 0 0        * an elite security guard
+E 1 28126 5 16 100 0 0 0           *   a Verspin hammer
+G 1 28150 1 0 100 0 0 0            *    a key to the gladiator pit
+M 0 28171 2 28255 100 0 0 0        * an elite security guard
+E 1 28126 5 16 100 0 0 0           *   a Verspin hammer
+M 0 28170 2 28256 100 0 0 0        * a bloodied yet determined gladiator
+E 1 28147 1 9 100 0 0 0            *   a pair of gladiator combat gauntlets
+M 0 28170 2 28256 100 0 0 0        * a bloodied yet determined gladiator
+E 1 28149 1 8 100 0 0 0            *   a bloodied pair of plated gladiator boots
+M 0 28172 1 28257 100 0 0 0        * a devious Bloodhawk spy
+E 1 28151 1 13 100 0 0 0           *   a pitch-black sash of the Bloodhawk gang
+G 1 40132 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40132 2 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 28173 1 28278 100 0 0 0        * a master monk of Shinjin
+M 0 28175 4 28280 100 0 0 0        * an eager adventurer
+M 0 28175 4 28280 100 0 0 0        * an eager adventurer
+M 0 28175 4 28280 100 0 0 0        * an eager adventurer
+M 0 28175 4 28280 100 0 0 0        * an eager adventurer
+M 0 28174 1 28281 100 0 0 0        * Shinjin, the grand master
+E 1 28154 1 16 100 0 0 0           *   Shinjin's first noshow weapon
+E 1 28155 1 17 100 0 0 0           *   Shinjin's second noshow weapon
+M 0 28178 1 28283 100 0 0 0        * the innkeeper
+M 0 28176 4 28292 100 0 0 0        * an exhausted patron
+M 0 28176 4 28293 100 0 0 0        * an exhausted patron
+M 0 28177 3 28294 100 0 0 0        * a sleepy patron
+M 0 28176 4 28295 100 0 0 0        * an exhausted patron
+M 0 28177 3 28296 100 0 0 0        * a sleepy patron
+M 0 28176 4 28297 100 0 0 0        * an exhausted patron
+M 0 28177 3 28298 100 0 0 0        * a sleepy patron
+*
+S

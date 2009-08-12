@@ -1,0 +1,535 @@
+#140
+&+gFaerie Realm&n~
+14207 2 0 19 20 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 14006 2 5 100 0 0 0
+*     south exit from "A Large Clearing in the Forest" to
+*     "A Dark, Hidden Path" - closed/secret
+*
+D 0 14008 0 5 100 0 0 0
+*     north exit from "A Dark, Hidden Path" to
+*     "A Large Clearing in the Forest" - closed/secret
+*
+D 0 14043 3 1 100 0 0 0
+*     west exit from "A Tinker Wagon" to
+*     "Makeshift Horse Stables" - closed
+*
+D 0 14052 1 1 100 0 0 0
+*     east exit from "Makeshift Horse Stables" to
+*     "A Tinker Wagon" - closed
+*
+D 0 14061 0 1 100 0 0 0
+*     north exit from "Before the Oak Tree Cottage" to
+*     "Entry of Oak Tree Cottage" - closed
+*
+D 0 14062 2 1 100 0 0 0
+*     south exit from "Entry of Oak Tree Cottage" to
+*     "Before the Oak Tree Cottage" - closed
+*
+D 0 14062 1 1 100 0 0 0
+*     east exit from "Entry of Oak Tree Cottage" to
+*     "Closet in Entry-way" - closed
+*
+D 0 14063 3 1 100 0 0 0
+*     west exit from "Closet in Entry-way" to
+*     "Entry of Oak Tree Cottage" - closed
+*
+D 0 14065 1 1 100 0 0 0
+*     east exit from "Balcony Over the Front Room" to
+*     "Anna's Bedroom" - closed
+*
+D 0 14066 3 1 100 0 0 0
+*     west exit from "Anna's Bedroom" to
+*     "Balcony Over the Front Room" - closed
+*
+D 0 14069 5 1 100 0 0 0
+*     down exit from "A Cozy Den in the Oak Tree Cottage" to
+*     "A Dank Cellar Bellow the Oak Tree Cottage" - closed
+*
+D 0 14093 4 1 100 0 0 0
+*     up exit from "A Dank Cellar Bellow the Oak Tree Cottage" to
+*     "A Cozy Den in the Oak Tree Cottage" - closed
+*
+D 0 14071 0 1 100 0 0 0
+*     north exit from "Kitchen in the Oak Tree Cottage" to
+*     "Path on North Side of Oak Tree Cottage" - closed
+*
+D 0 14084 2 1 100 0 0 0
+*     south exit from "Path on North Side of Oak Tree Cottage" to
+*     "Kitchen in the Oak Tree Cottage" - closed
+*
+D 0 14075 0 1 100 0 0 0
+*     north exit from "Living Room in the Oak Tree Cottage" to
+*     "A Guest Bedroom" - closed
+*
+D 0 14076 2 1 100 0 0 0
+*     south exit from "A Guest Bedroom" to
+*     "Living Room in the Oak Tree Cottage" - closed
+*
+D 0 14093 1 2 100 0 0 0
+*     east exit from "A Dank Cellar Bellow the Oak Tree Cottage" to
+*     "A Dark, Narrow Room" - closed/locked
+*
+D 0 14094 3 2 100 0 0 0
+*     west exit from "A Dark, Narrow Room" to
+*     "A Dank Cellar Bellow the Oak Tree Cottage" - closed/locked
+*
+D 0 14093 5 2 100 0 0 0
+*     down exit from "A Dank Cellar Bellow the Oak Tree Cottage" to
+*     "A Dark Tunnel Beneath the Oak Tree Cottage" - closed/locked
+*
+D 0 14095 4 2 100 0 0 0
+*     up exit from "A Dark Tunnel Beneath the Oak Tree Cottage" to
+*     "A Dank Cellar Bellow the Oak Tree Cottage" - closed/locked
+*
+D 0 14146 3 2 100 0 0 0
+*     west exit from "End of the Old Roadway" to
+*     "Garden Before a Ruined Temple" - closed/locked
+*
+D 0 14147 1 2 100 0 0 0
+*     east exit from "Garden Before a Ruined Temple" to
+*     "End of the Old Roadway" - closed/locked
+*
+D 0 14157 2 2 100 0 0 0
+*     south exit from "Ruins of Oberon's Temple" to
+*     "Tomb of Oberon" - closed/locked
+*
+D 0 14158 0 2 100 0 0 0
+*     north exit from "Tomb of Oberon" to
+*     "Ruins of Oberon's Temple" - closed/locked
+*
+D 0 14183 1 1 100 0 0 0
+*     east exit from "The Dense Forest" to
+*     "The Briar Patch" - closed
+*
+D 0 14184 3 1 100 0 0 0
+*     west exit from "The Briar Patch" to
+*     "The Dense Forest" - closed
+*
+*
+O 0 14005 1 14014 100 0 0 0        * large boulder
+O 0 14086 4 14022 100 0 0 0        * a curious looking toadstool
+O 0 14106 1 14032 100 0 0 0        * a large, silver pool of water
+O 0 14086 4 14038 100 0 0 0        * a curious looking toadstool
+O 0 14015 3 14044 100 0 0 0        * a campfire
+O 0 14015 3 14045 100 0 0 0        * a campfire
+P 1 14016 1 14015 100 0 0 0        *   a glowing stick of faerie wood
+O 0 14015 3 14049 100 0 0 0        * a campfire
+P 1 14061 1 14015 100 0 0 0        *   a glowing stick of faerie wood
+O 0 14012 1 14051 100 0 0 0        * a large oaken desk
+P 1 14014 1 14012 100 0 0 0        *   a note
+O 0 14029 2 14063 100 0 0 0        * a bunch of dried herbs
+O 0 14029 2 14063 100 0 0 0        * a bunch of dried herbs
+O 0 14048 2 14067 100 0 0 0        * a mysterious orb
+O 0 14050 1 14071 100 0 0 0        * an immense oven of stone
+P 1 14051 2 14050 100 0 0 0        *   a steaming hot, gooseberry pie
+P 1 14051 2 14050 100 0 0 0        *   a steaming hot, gooseberry pie
+O 0 14031 1 14072 100 0 0 0        * a large basket of bread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+P 1 14030 6 14031 100 0 0 0        *   a loaf of faerie waybread
+O 0 14032 1 14072 100 0 0 0        * a honey jar
+O 0 14049 1 14072 100 0 0 0        * an earthenware pitcher
+O 0 14087 1 14094 100 0 0 0        * a dusty chest
+P 1 14088 1 14087 100 0 0 0        *   a yellowed scroll
+P 1 14089 1 14087 100 0 0 0        *   a crinkled scroll
+O 0 14035 1 14099 100 0 0 0        * a stagnant pool of water
+O 0 14003 2 14102 100 0 0 0        * a cracked skull covered with mud
+O 0 14003 2 14107 100 0 0 0        * a cracked skull covered with mud
+O 0 14004 1 14109 100 0 0 0        * a pile of shattered bones
+O 0 14039 1 14110 100 0 0 0        * a rotted corpse
+P 1 14040 1 14039 100 0 0 0        *   a rusty dagger
+P 1 14041 1 14039 100 0 0 0        *   a map of the Faerie Realm
+P 1 14042 1 14039 100 0 0 0        *   a corroded chainmail shirt
+P 1 14043 1 14039 100 0 0 0        *   a flask of effervescent liquid
+P 1 14044 1 14039 100 0 0 0        *   a potion in an crystalline flask
+O 0 14048 2 14112 100 0 0 0        * a mysterious orb
+O 0 14001 1 14112 100 0 0 0        * an elvish sword of great antiquity
+O 0 14083 3 14135 100 0 0 0        * a broken column of stone
+O 0 14083 3 14145 100 0 0 0        * a broken column of stone
+O 0 14084 2 14149 100 0 0 0        * a marble bench
+O 0 14085 1 14150 100 0 0 0        * an old and weathered statue
+O 0 14084 2 14152 100 0 0 0        * a marble bench
+O 0 14002 2 14155 100 0 0 0        * a reflecting pool
+O 0 14002 2 14156 100 0 0 0        * a reflecting pool
+O 0 14086 4 14179 100 0 0 0        * a curious looking toadstool
+O 0 14086 4 14189 100 0 0 0        * a curious looking toadstool
+O 0 14083 3 14190 100 0 0 0        * a broken column of stone
+O 0 14062 1 14195 100 0 0 0        * a mountainous heap of junk
+P 1 14055 1 14062 100 0 0 0        *   a steel shortsword
+P 1 14056 1 14062 100 0 0 0        *   a bronze dirk
+P 1 14063 1 14062 100 0 0 0        *   a bit of string
+P 1 14065 1 14062 100 0 0 0        *   a very dead rat
+P 1 14066 1 14062 100 0 0 0        *   a wand of thunderous rage
+P 1 14067 1 14062 100 0 0 0        *   a moldy loaf of bread
+P 1 14068 1 14062 100 0 0 0        *   an ancient stone tablet
+O 0 14118 1 14202 100 0 0 0        * the ancient arm plates of Oberon, the elven king
+O 0 141120 1 14203 100 0 0 0       * (object type not in this .obj file)
+O 0 14119 1 14204 100 0 0 0        * the ancient bracelet of Oberon, the elven king
+O 0 14115 1 14205 100 0 0 0        * the ancient mantle of Oberon, the elven king
+O 0 14116 1 14206 100 0 0 0        * the ancient quiver of Oberon, the elven king
+O 0 14117 1 14207 100 0 0 0        * the wooden belt of Oberon, the elven king
+*
+M 0 14068 6 14001 100 0 0 0        * a lubberkin
+M 0 14003 3 14004 100 0 0 0        * a snapdragon
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 14003 3 14006 100 0 0 0        * a snapdragon
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 14003 3 14007 100 0 0 0        * a snapdragon
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 14002 7 14008 100 0 0 0        * a scruffy wood rat
+M 0 14002 7 14008 100 0 0 0        * a scruffy wood rat
+M 0 14002 7 14010 100 0 0 0        * a scruffy wood rat
+M 0 14001 6 14017 100 0 0 0        * a little pixie
+M 0 14032 4 14017 100 0 0 0        * a monarch butterfly
+M 0 14055 6 14017 100 0 0 0        * a little hob
+M 0 14042 6 14018 100 0 0 0        * a faerie changling
+M 0 14055 6 14019 100 0 0 0        * a little hob
+M 0 14001 6 14020 100 0 0 0        * a little pixie
+M 0 14040 6 14020 100 0 0 0        * a short, swarthy faerie
+M 0 14065 1 14021 100 0 0 0        * Habetrot
+E 1 14105 1 16 100 0 0 0           *   a cudgel made of stonewood
+M 0 14032 4 14022 100 0 0 0        * a monarch butterfly
+M 0 14042 6 14022 100 0 0 0        * a faerie changling
+M 0 14040 6 14023 100 0 0 0        * a short, swarthy faerie
+M 0 14058 5 14023 100 0 0 0        * a dwarfish derrick
+M 0 14015 1 14024 100 0 0 0        * The Legendary Finn
+E 1 14024 1 11 100 0 0 0           *   a magical diamond shield
+E 1 14080 1 12 100 0 0 0           *   a well worn traveling cloak
+P 1 14081 1 14080 100 0 0 0        *   a key of dark steel
+G 1 14079 1 0 100 0 0 0            *    a smooth horn of protection
+M 0 14068 6 14024 100 0 0 0        * a lubberkin
+M 0 14058 5 14025 100 0 0 0        * a dwarfish derrick
+M 0 14068 6 14025 100 0 0 0        * a lubberkin
+M 0 14048 7 14027 100 0 0 0        * a cricket
+M 0 14001 6 14028 100 0 0 0        * a little pixie
+M 0 14055 6 14028 100 0 0 0        * a little hob
+M 0 14068 6 14029 100 0 0 0        * a lubberkin
+M 0 14055 6 14030 100 0 0 0        * a little hob
+M 0 14064 1 14032 100 0 0 0        * Tatterfoal
+E 1 14104 1 5 100 0 0 0            *   a flowing white robe
+E 1 14103 1 16 100 0 0 0           *   a rowan staff of the faerie sages
+M 0 14001 6 14033 100 0 0 0        * a little pixie
+E 1 14071 2 18 100 0 0 0           *   a pixie wand
+M 0 14032 4 14033 100 0 0 0        * a monarch butterfly
+M 0 14055 6 14034 100 0 0 0        * a little hob
+M 0 14040 6 14035 100 0 0 0        * a short, swarthy faerie
+M 0 14040 6 14036 100 0 0 0        * a short, swarthy faerie
+M 0 14054 2 14036 100 0 0 0        * a traveling faerie
+E 1 14098 1 18 100 0 0 0           *   a large, cloth sack
+P 1 14099 1 14098 100 0 0 0        *   a radiant opal
+P 1 14100 1 14098 100 0 0 0        *   a golden rod
+P 1 14101 1 14098 100 0 0 0        *   a glowing, red feather
+P 1 14102 1 14098 100 0 0 0        *   a jar of magic beans
+M 0 14058 5 14037 100 0 0 0        * a dwarfish derrick
+M 0 14057 1 14039 100 0 0 0        * Robin Goodfellow
+E 1 14096 1 16 100 0 0 0           *   a silvery saber
+M 0 14001 6 14039 100 0 0 0        * a little pixie
+M 0 14040 6 14040 100 0 0 0        * a short, swarthy faerie
+M 0 14009 6 14042 100 0 0 0        * a Tinker boy
+M 0 14008 3 14043 100 0 0 0        * a Tinker woman
+M 0 14010 1 14043 100 0 0 0        * Bandor
+E 1 14017 3 18 100 0 0 0           *   a huge drinking flagon
+M 0 14009 6 14044 100 0 0 0        * a Tinker boy
+M 0 14013 3 14044 100 0 0 0        * a Tinker man
+M 0 14014 5 14044 100 0 0 0        * a Tinker girl
+M 0 14007 1 14044 100 0 0 0        * Elizda, the wagon mistress
+E 1 14025 1 2 100 0 0 0            *   a green stone ring
+M 0 14013 3 14045 100 0 0 0        * a Tinker man
+M 0 14014 5 14045 100 0 0 0        * a Tinker girl
+M 0 14014 5 14045 100 0 0 0        * a Tinker girl
+M 0 14008 3 14046 100 0 0 0        * a Tinker woman
+M 0 14009 6 14046 100 0 0 0        * a Tinker boy
+M 0 14009 6 14047 100 0 0 0        * a Tinker boy
+M 0 14008 3 14048 100 0 0 0        * a Tinker woman
+M 0 14009 6 14048 100 0 0 0        * a Tinker boy
+M 0 14006 2 14048 100 0 0 0        * a weary adventurer
+M 0 14013 3 14049 100 0 0 0        * a Tinker man
+M 0 14014 5 14049 100 0 0 0        * a Tinker girl
+M 0 14014 5 14049 100 0 0 0        * a Tinker girl
+M 0 14009 6 14050 100 0 0 0        * a Tinker boy
+M 0 14004 1 14050 100 0 0 0        * Fulbar, the Tinker tradesman
+G 1 14008 1 0 100 0 0 0            *    a silver Tinker pot
+G 1 14006 1 0 100 0 0 0            *    a bottomless bag of the Tinkers
+G 1 14009 1 0 100 0 0 0            *    a garish Tinker robe
+G 1 14019 1 0 100 0 0 0            *    a glowing, amber potion
+G 1 14020 1 0 100 0 0 0            *    a quicksilver potion
+G 1 14112 1 0 100 0 0 0            *    a wrinkled parchment scroll
+M 0 14005 1 14051 100 0 0 0        * Guhan, the Tinker leader
+G 1 14013 1 0 100 0 0 0            *    a bronze key
+M 0 14011 1 14052 100 0 0 0        * a Tinker stableboy
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14012 12 14052 100 0 0 0       * a strong Tinker horse
+M 0 14068 6 14053 100 0 0 0        * a lubberkin
+M 0 14058 5 14054 100 0 0 0        * a dwarfish derrick
+M 0 14040 6 14056 100 0 0 0        * a short, swarthy faerie
+G 1 14077 2 0 100 0 0 0            *    a slender, wooden spear
+M 0 14058 5 14058 100 0 0 0        * a dwarfish derrick
+M 0 14018 10 14059 100 0 0 0       * a forest sprite
+M 0 14029 6 14060 100 0 0 0        * a woodland faerie
+M 0 14018 10 14061 100 0 0 0       * a forest sprite
+M 0 14016 1 14064 100 0 0 0        * Anna, keeper of the oak tree cottage
+E 1 14026 1 6 100 0 0 0            *   a silver tiara embedded with amethysts
+E 1 14034 1 18 100 0 0 0           *   a key made of white metal
+M 0 14019 5 14065 100 0 0 0        * a cottage faerie
+M 0 14017 1 14066 100 0 0 0        * a faerie changling
+E 1 14027 1 3 100 0 0 0            *   a collar of black pearls
+M 0 14019 5 14069 100 0 0 0        * a cottage faerie
+M 0 14019 5 14070 100 0 0 0        * a cottage faerie
+M 0 14020 2 14071 100 0 0 0        * a faerie cook
+M 0 14020 2 14071 100 0 0 0        * a faerie cook
+E 1 14033 1 13 100 0 0 0           *   a white apron
+M 0 14019 5 14072 100 0 0 0        * a cottage faerie
+M 0 14019 5 14074 100 0 0 0        * a cottage faerie
+M 0 14021 1 14075 100 0 0 0        * Vokko, the dwarven adventurer
+E 1 14108 1 5 100 0 0 0            *   an iron-plated set of body armor
+E 1 14052 1 9 100 0 0 0            *   some elfskin gloves
+E 1 14053 1 12 100 0 0 0           *   a leather mantle embedded with iron spikes
+M 0 14006 2 14076 100 0 0 0        * a weary adventurer
+M 0 14048 7 14077 100 0 0 0        * a cricket
+M 0 14018 10 14078 100 0 0 0       * a forest sprite
+M 0 14018 10 14080 100 0 0 0       * a forest sprite
+E 1 14072 1 5 100 0 0 0            *   an umber tunic of forest colors
+M 0 14018 10 14080 100 0 0 0       * a forest sprite
+M 0 14029 6 14081 100 0 0 0        * a woodland faerie
+M 0 14029 6 14083 100 0 0 0        * a woodland faerie
+M 0 14048 7 14083 100 0 0 0        * a cricket
+M 0 14018 10 14085 100 0 0 0       * a forest sprite
+M 0 14042 6 14086 100 0 0 0        * a faerie changling
+M 0 14018 10 14087 100 0 0 0       * a forest sprite
+E 1 14075 1 7 100 0 0 0            *   some silvermesh leggings
+M 0 14029 6 14088 100 0 0 0        * a woodland faerie
+M 0 14069 1 14089 100 0 0 0        * a grand knight of the Fianna
+E 1 14111 1 11 100 0 0 0           *   a shield of the Fianna knights
+G 1 14028 1 0 100 0 0 0            *    a fist-sized walnut
+M 0 14018 10 14089 100 0 0 0       * a forest sprite
+M 0 14018 10 14090 100 0 0 0       * a forest sprite
+M 0 14018 10 14091 100 0 0 0       * a forest sprite
+M 0 14053 6 14092 100 0 0 0        * a grey squirrel
+M 0 14027 4 14093 100 0 0 0        * a tiny root
+M 0 14027 4 14093 100 0 0 0        * a tiny root
+M 0 14027 4 14094 100 0 0 0        * a tiny root
+M 0 14027 4 14095 100 0 0 0        * a tiny root
+M 0 14022 7 14096 100 0 0 0        * a small sinewy root
+M 0 14022 7 14097 100 0 0 0        * a small sinewy root
+M 0 14022 7 14098 100 0 0 0        * a small sinewy root
+M 0 14022 7 14100 100 0 0 0        * a small sinewy root
+M 0 14022 7 14100 100 0 0 0        * a small sinewy root
+M 0 14022 7 14101 100 0 0 0        * a small sinewy root
+M 0 14022 7 14102 100 0 0 0        * a small sinewy root
+M 0 14023 5 14102 100 0 0 0        * a root thick as your arm
+M 0 14023 5 14104 100 0 0 0        * a root thick as your arm
+M 0 14023 5 14105 100 0 0 0        * a root thick as your arm
+M 0 14024 4 14105 100 0 0 0        * a large, powerful root
+M 0 14023 5 14106 100 0 0 0        * a root thick as your arm
+M 0 14025 3 14107 100 0 0 0        * a colossal root
+M 0 14024 4 14108 100 0 0 0        * a large, powerful root
+M 0 14024 4 14108 100 0 0 0        * a large, powerful root
+M 0 14025 3 14109 100 0 0 0        * a colossal root
+M 0 14025 3 14109 100 0 0 0        * a colossal root
+M 0 14072 1 14112 100 0 0 0        * a colossal root
+G 1 14046 1 0 100 0 0 0            *    a cuendillar, heartstone of magic
+M 0 14059 6 14113 100 0 0 0        * a little sparrow
+M 0 14061 3 14114 100 0 0 0        * a black raven
+M 0 14053 6 14115 100 0 0 0        * a grey squirrel
+M 0 14059 6 14115 100 0 0 0        * a little sparrow
+M 0 14061 3 14116 100 0 0 0        * a black raven
+M 0 14059 6 14117 100 0 0 0        * a little sparrow
+M 0 14059 6 14118 100 0 0 0        * a little sparrow
+M 0 14062 4 14119 100 0 0 0        * a white dove
+M 0 14062 4 14119 100 0 0 0        * a white dove
+M 0 14066 4 14120 100 0 0 0        * a singing lark
+M 0 14062 4 14120 100 0 0 0        * a white dove
+M 0 14062 4 14120 100 0 0 0        * a white dove
+M 0 14059 6 14121 100 0 0 0        * a little sparrow
+M 0 14059 6 14123 100 0 0 0        * a little sparrow
+M 0 14066 4 14123 100 0 0 0        * a singing lark
+M 0 14066 4 14123 100 0 0 0        * a singing lark
+M 0 14066 4 14123 100 0 0 0        * a singing lark
+M 0 14063 1 14125 100 0 0 0        * a malevolent Chacodyn
+E 1 14010 1 18 20 0 0 0            *   a glowing lavender vial
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 825 47 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 14024 4 14131 100 0 0 0        * a large, powerful root
+M 0 14032 4 14134 100 0 0 0        * a monarch butterfly
+M 0 14053 6 14134 100 0 0 0        * a grey squirrel
+M 0 14060 5 14134 100 0 0 0        * a green tree frog
+M 0 14055 6 14135 100 0 0 0        * a little hob
+E 1 14082 1 6 100 0 0 0            *   a little, green cap
+M 0 14041 6 14136 100 0 0 0        * a nymph of the trees
+M 0 14001 6 14137 100 0 0 0        * a little pixie
+E 1 14071 2 18 100 0 0 0           *   a pixie wand
+M 0 14052 4 14137 100 0 0 0        * a bushy tailed raccoon
+M 0 14033 6 14138 100 0 0 0        * a lowly worm
+M 0 14041 6 14139 100 0 0 0        * a nymph of the trees
+M 0 14056 3 14141 100 0 0 0        * a quick silverfish
+M 0 14056 3 14142 100 0 0 0        * a quick silverfish
+M 0 14056 3 14143 100 0 0 0        * a quick silverfish
+M 0 14048 7 14145 100 0 0 0        * a cricket
+M 0 14028 1 14147 100 0 0 0        * Celriya
+M 0 14046 3 14147 100 0 0 0        * a violet faerie
+M 0 14045 5 14147 100 0 0 0        * a daisy faerie
+E 1 14094 3 18 100 0 0 0           *   a daisy
+M 0 14047 5 14147 100 0 0 0        * a buttercup faerie
+M 0 14031 2 14148 100 0 0 0        * a gold bug
+M 0 14046 3 14148 100 0 0 0        * a violet faerie
+M 0 14045 5 14148 100 0 0 0        * a daisy faerie
+M 0 14044 3 14149 100 0 0 0        * an azalea faerie
+E 1 14093 2 18 100 0 0 0           *   a bright, orange azalea
+M 0 14045 5 14149 100 0 0 0        * a daisy faerie
+E 1 14094 3 18 100 0 0 0           *   a daisy
+M 0 14047 5 14149 100 0 0 0        * a buttercup faerie
+M 0 14043 2 14150 100 0 0 0        * a rose faerie
+E 1 14091 1 6 100 0 0 0            *   a wreath of entwined roses
+M 0 14047 5 14150 100 0 0 0        * a buttercup faerie
+E 1 14095 3 18 100 0 0 0           *   a cute, little buttercup
+M 0 14045 5 14151 100 0 0 0        * a daisy faerie
+M 0 14044 3 14152 100 0 0 0        * an azalea faerie
+M 0 14046 3 14152 100 0 0 0        * a violet faerie
+E 1 14092 2 18 100 0 0 0           *   a violet wand
+M 0 14047 5 14152 100 0 0 0        * a buttercup faerie
+E 1 14095 3 18 100 0 0 0           *   a cute, little buttercup
+M 0 14043 2 14153 100 0 0 0        * a rose faerie
+E 1 14090 2 18 100 0 0 0           *   a rose wand
+M 0 14045 5 14153 100 0 0 0        * a daisy faerie
+M 0 14044 3 14154 100 0 0 0        * an azalea faerie
+E 1 14093 2 18 100 0 0 0           *   a bright, orange azalea
+M 0 14047 5 14154 100 0 0 0        * a buttercup faerie
+M 0 14071 1 14158 100 0 0 0        * The Spirit Of Oberon
+E 1 14007 1 6 100 0 0 0            *   a crown of demonic immortality
+G 1 14037 1 0 100 0 0 0            *    a mammoth key of crafted iron
+M 0 14033 6 14160 100 0 0 0        * a lowly worm
+M 0 14053 6 14161 100 0 0 0        * a grey squirrel
+M 0 14060 5 14161 100 0 0 0        * a green tree frog
+M 0 14041 6 14162 100 0 0 0        * a nymph of the trees
+M 0 14042 6 14163 100 0 0 0        * a faerie changling
+M 0 14033 6 14164 100 0 0 0        * a lowly worm
+M 0 14048 7 14164 100 0 0 0        * a cricket
+M 0 14002 7 14166 100 0 0 0        * a scruffy wood rat
+M 0 14002 7 14167 100 0 0 0        * a scruffy wood rat
+M 0 14002 7 14167 100 0 0 0        * a scruffy wood rat
+M 0 14052 4 14168 100 0 0 0        * a bushy tailed raccoon
+M 0 14060 5 14168 100 0 0 0        * a green tree frog
+M 0 14033 6 14171 100 0 0 0        * a lowly worm
+M 0 14042 6 14171 100 0 0 0        * a faerie changling
+M 0 14052 4 14172 100 0 0 0        * a bushy tailed raccoon
+M 0 14060 5 14173 100 0 0 0        * a green tree frog
+M 0 14029 6 14174 100 0 0 0        * a woodland faerie
+E 1 14073 1 15 100 0 0 0           *   a bracelet of woven ivy leaves
+M 0 14033 6 14175 100 0 0 0        * a lowly worm
+M 0 14035 4 14176 100 0 0 0        * a silver fox pup
+M 0 14035 4 14176 100 0 0 0        * a silver fox pup
+M 0 14035 4 14176 100 0 0 0        * a silver fox pup
+M 0 14035 4 14176 100 0 0 0        * a silver fox pup
+M 0 14041 6 14177 100 0 0 0        * a nymph of the trees
+M 0 14049 1 14177 100 0 0 0        * a chestnut stag
+M 0 14036 1 14178 100 0 0 0        * a silver fox
+G 1 14074 2 0 100 0 0 0            *    a silver fox tail
+M 0 14033 6 14178 100 0 0 0        * a lowly worm
+M 0 14053 6 14180 100 0 0 0        * a grey squirrel
+M 0 14050 2 14181 100 0 0 0        * a doe
+M 0 14051 2 14181 100 0 0 0        * a fawn
+M 0 14060 5 14181 100 0 0 0        * a green tree frog
+M 0 14041 6 14182 100 0 0 0        * a nymph of the trees
+E 1 14070 1 12 100 0 0 0           *   a cloak of forest shadows
+M 0 14048 7 14183 100 0 0 0        * a cricket
+M 0 14037 5 14184 100 0 0 0        * a speckled-brown, baby bunny
+M 0 14037 5 14184 100 0 0 0        * a speckled-brown, baby bunny
+M 0 14037 5 14184 100 0 0 0        * a speckled-brown, baby bunny
+M 0 14037 5 14184 100 0 0 0        * a speckled-brown, baby bunny
+M 0 14037 5 14184 100 0 0 0        * a speckled-brown, baby bunny
+M 0 14038 1 14184 100 0 0 0        * a speckled-brown, mama bunny
+M 0 14039 1 14184 100 0 0 0        * a brown and white papa bunny
+M 0 14042 6 14185 100 0 0 0        * a faerie changling
+M 0 14048 7 14186 100 0 0 0        * a cricket
+M 0 14029 6 14187 100 0 0 0        * a woodland faerie
+M 0 14041 6 14188 100 0 0 0        * a nymph of the trees
+E 1 14097 1 18 100 0 0 0           *   a staff of earth
+M 0 14031 2 14189 100 0 0 0        * a gold bug
+M 0 14052 4 14189 100 0 0 0        * a bushy tailed raccoon
+M 0 14050 2 14190 100 0 0 0        * a doe
+M 0 14051 2 14190 100 0 0 0        * a fawn
+M 0 14053 6 14191 100 0 0 0        * a grey squirrel
+M 0 14061 3 14192 100 0 0 0        * a black raven
+M 0 14034 5 14193 100 0 0 0        * a harmless brown bat
+M 0 14030 1 14194 100 0 0 0        * a scrawny goblin
+E 1 14060 2 11 100 0 0 0           *   an animal hide buckler
+G 1 14059 2 0 100 0 0 0            *    a bag of snatching
+G 1 14069 2 0 100 0 0 0            *    a tree-pitch torch
+M 0 14034 5 14194 100 0 0 0        * a harmless brown bat
+M 0 14034 5 14195 100 0 0 0        * a harmless brown bat
+M 0 14034 5 14195 100 0 0 0        * a harmless brown bat
+M 0 14034 5 14195 100 0 0 0        * a harmless brown bat
+M 0 14068 6 14197 100 0 0 0        * a lubberkin
+M 0 14067 3 14198 100 0 0 0        * a faerie guard of the Seelie Court
+E 1 14110 3 16 100 0 0 0           *   a long bow
+M 0 14067 3 14198 100 0 0 0        * a faerie guard of the Seelie Court
+E 1 14110 3 16 100 0 0 0           *   a long bow
+M 0 14067 3 14198 100 0 0 0        * a faerie guard of the Seelie Court
+E 1 14110 3 16 100 0 0 0           *   a long bow
+M 0 14026 1 14199 100 0 0 0        * the spirit of the oak tree cottage
+E 1 14036 1 2 100 0 0 0            *   Finn's signet ring
+E 1 14038 1 3 100 0 0 0            *   an amulet of the tree spirit guardian
+E 1 14054 1 4 100 0 0 0            *   the wooden amulet of the ancient tree spirit
+E 1 14045 1 13 100 0 0 0           *   a belt encrusted with black sapphires
+G 1 359 1 0 100 0 0 0              *    (object type not in this .obj file)
+*
+S

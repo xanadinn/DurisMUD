@@ -1,0 +1,459 @@
+#990
+Neverwinter Woods~
+99335 2 0 15 25 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 99141 3 5 100 0 0 0
+*     west exit from "Beginning of a Dome of Trees" to
+*     "Small Hole" - closed/secret
+*
+D 0 99199 1 1 100 0 0 0
+*     east exit from "Small Hole" to
+*     "Beginning of a Dome of Trees" - closed
+*
+D 0 99251 1 0 100 0 0 0
+*     east exit from "Invisible Bridge" to
+*     "Entrance to the Tower of Twilight" - open
+*
+D 0 99252 3 0 100 0 0 0
+*     west exit from "Entrance to the Tower of Twilight" to
+*     "Invisible Bridge" - open
+*
+D 0 99282 3 1 100 0 0 0
+*     west exit from "Malchor's Bedroom" to
+*     "The Tower Ramp" - closed
+*
+D 0 99283 1 5 100 0 0 0
+*     east exit from "The Tower Ramp" to
+*     "Malchor's Bedroom" - closed/secret
+*
+D 0 99329 0 1 100 0 0 0
+*     north exit from "Log Lane" to
+*     "Ansel's Abode" - closed
+*
+D 0 99330 2 1 100 0 0 0
+*     south exit from "Ansel's Abode" to
+*     "Log Lane" - closed
+*
+*
+O 0 99061 1 99001 100 0 0 0        * a golden horse shoe
+O 0 99062 1 99194 100 0 0 0        * the well
+*
+M 0 99001 39 99001 100 0 0 0       * the wood elf
+M 0 99001 39 99005 100 0 0 0       * the wood elf
+M 0 99002 10 99008 100 0 0 0       * the elf healer
+M 0 99001 39 99010 100 0 0 0       * the wood elf
+M 0 99011 10 99012 100 0 0 0       * the owl
+M 0 99001 39 99015 100 0 0 0       * the wood elf
+M 0 99003 1 99017 100 0 0 0        * the amethyst rune master
+G 1 99002 1 0 100 0 0 0            *    the amethyst rune
+M 0 99010 10 99018 100 0 0 0       * the half breed
+M 0 99002 10 99019 100 0 0 0       * the elf healer
+M 0 99001 39 99020 100 0 0 0       * the wood elf
+M 0 99009 10 99022 100 0 0 0       * the lost human
+M 0 99011 10 99024 100 0 0 0       * the owl
+M 0 99001 39 99025 100 0 0 0       * the wood elf
+M 0 99002 10 99026 100 0 0 0       * the elf healer
+M 0 99012 5 99026 100 0 0 0        * the wild horse
+M 0 99009 10 99029 100 0 0 0       * the lost human
+M 0 99001 39 99030 100 0 0 0       * the wood elf
+M 0 99008 20 99034 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99035 100 0 0 0       * the wood elf
+M 0 99013 5 99036 100 0 0 0        * the rabbit
+M 0 99001 39 99040 100 0 0 0       * the wood elf
+M 0 99011 10 99041 100 0 0 0       * the owl
+M 0 99004 1 99043 100 0 0 0        * the sapphire rune master
+G 1 99003 1 0 100 0 0 0            *    the sapphire rune
+M 0 99013 5 99044 100 0 0 0        * the rabbit
+M 0 99001 39 99045 100 0 0 0       * the wood elf
+M 0 99010 10 99049 100 0 0 0       * the half breed
+M 0 99001 39 99050 100 0 0 0       * the wood elf
+M 0 99011 10 99053 100 0 0 0       * the owl
+M 0 99014 5 99053 100 0 0 0        * the deer
+M 0 99001 39 99055 100 0 0 0       * the wood elf
+M 0 99008 20 99059 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99060 100 0 0 0       * the wood elf
+M 0 99002 10 99062 100 0 0 0       * the elf healer
+M 0 99012 5 99062 100 0 0 0        * the wild horse
+M 0 99001 39 99065 100 0 0 0       * the wood elf
+M 0 99010 10 99068 100 0 0 0       * the half breed
+M 0 99014 5 99068 100 0 0 0        * the deer
+M 0 99001 39 99070 100 0 0 0       * the wood elf
+M 0 99005 1 99070 100 0 0 0        * the diamond rune master
+G 1 99004 1 0 100 0 0 0            *    the diamond rune
+M 0 99011 10 99071 100 0 0 0       * the owl
+M 0 99008 20 99074 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99075 100 0 0 0       * the wood elf
+M 0 99011 10 99079 100 0 0 0       * the owl
+M 0 99001 39 99080 100 0 0 0       * the wood elf
+M 0 99008 20 99081 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99085 100 0 0 0       * the wood elf
+M 0 99010 10 99087 100 0 0 0       * the half breed
+M 0 99001 39 99090 100 0 0 0       * the wood elf
+M 0 99010 10 99096 100 0 0 0       * the half breed
+M 0 99001 39 99096 100 0 0 0       * the wood elf
+M 0 99002 10 99098 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99008 20 99098 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99014 5 99099 100 0 0 0        * the deer
+M 0 99001 39 99100 100 0 0 0       * the wood elf
+M 0 99009 10 99102 100 0 0 0       * the lost human
+M 0 99008 20 99103 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99010 10 99103 100 0 0 0       * the half breed
+M 0 99001 39 99105 100 0 0 0       * the wood elf
+M 0 99008 20 99108 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99110 100 0 0 0       * the wood elf
+M 0 99012 5 99113 100 0 0 0        * the wild horse
+M 0 99001 39 99115 100 0 0 0       * the wood elf
+M 0 99008 20 99116 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99117 100 0 0 0       * the wood elf
+M 0 99001 39 99120 100 0 0 0       * the wood elf
+M 0 99008 20 99121 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99002 10 99123 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99009 10 99123 100 0 0 0       * the lost human
+M 0 99002 10 99124 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99008 20 99124 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99013 5 99124 100 0 0 0        * the rabbit
+M 0 99001 39 99125 100 0 0 0       * the wood elf
+M 0 99008 20 99127 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99010 10 99127 100 0 0 0       * the half breed
+M 0 99009 10 99128 100 0 0 0       * the lost human
+M 0 99001 39 99130 100 0 0 0       * the wood elf
+M 0 99014 5 99130 100 0 0 0        * the deer
+M 0 99011 10 99133 100 0 0 0       * the owl
+M 0 99001 39 99135 100 0 0 0       * the wood elf
+M 0 99010 10 99135 100 0 0 0       * the half breed
+M 0 99002 10 99137 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99008 20 99137 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99009 10 99139 100 0 0 0       * the lost human
+M 0 99001 39 99140 100 0 0 0       * the wood elf
+M 0 99012 5 99142 100 0 0 0        * the wild horse
+M 0 99001 39 99145 100 0 0 0       * the wood elf
+M 0 99008 20 99146 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99009 10 99149 100 0 0 0       * the lost human
+M 0 99001 39 99150 100 0 0 0       * the wood elf
+M 0 99008 20 99151 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99013 5 99151 100 0 0 0        * the rabbit
+M 0 99001 39 99155 100 0 0 0       * the wood elf
+M 0 99006 1 99158 100 0 0 0        * the ruby rune master
+G 1 99005 1 0 100 0 0 0            *    the ruby rune
+M 0 99001 39 99160 100 0 0 0       * the wood elf
+M 0 99002 10 99161 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99008 20 99161 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99012 5 99162 100 0 0 0        * the wild horse
+M 0 99010 10 99164 100 0 0 0       * the half breed
+M 0 99001 39 99165 100 0 0 0       * the wood elf
+M 0 99011 10 99165 100 0 0 0       * the owl
+M 0 99008 20 99166 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99009 10 99166 100 0 0 0       * the lost human
+M 0 99002 10 99168 100 0 0 0       * the elf healer
+G 1 99001 6 0 100 0 0 0            *    the robe of lazarium
+M 0 99008 20 99169 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99170 100 0 0 0       * the wood elf
+M 0 99011 10 99171 100 0 0 0       * the owl
+M 0 99008 20 99173 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99014 5 99173 100 0 0 0        * the deer
+M 0 99010 10 99174 100 0 0 0       * the half breed
+M 0 99001 39 99175 100 0 0 0       * the wood elf
+M 0 99011 10 99175 100 0 0 0       * the owl
+M 0 99009 10 99178 100 0 0 0       * the lost human
+M 0 99008 20 99179 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99001 39 99180 100 0 0 0       * the wood elf
+M 0 99008 20 99183 100 0 0 0       * the flower fairie
+E 1 99008 20 6 100 0 0 0           *   a wreath of flower petals
+G 1 99007 20 0 100 0 0 0           *    a flowered robe
+M 0 99009 10 99184 100 0 0 0       * the lost human
+M 0 99001 39 99185 100 0 0 0       * the wood elf
+M 0 99007 1 99185 100 0 0 0        * the emerald rune master
+G 1 99006 1 0 100 0 0 0            *    the emerald rune
+M 0 99013 5 99187 100 0 0 0        * the rabbit
+M 0 99022 2 99188 100 0 0 0        * the cow
+M 0 99019 3 99189 100 0 0 0        * the chicken
+G 1 99022 3 0 100 0 0 0            *    an egg
+M 0 99018 5 99190 100 0 0 0        * the farmer
+E 1 99018 5 5 100 0 0 0            *   a farm-hand shirt
+E 1 99019 5 7 100 0 0 0            *   a pair of farm-hand pants
+E 1 99020 5 8 100 0 0 0            *   a pair of farm-hand boots
+E 1 99021 5 9 100 0 0 0            *   a pair of ranch gloves
+M 0 99021 3 99190 100 0 0 0        * the pig
+M 0 99018 5 99192 100 0 0 0        * the farmer
+E 1 99018 5 5 100 0 0 0            *   a farm-hand shirt
+E 1 99019 5 7 100 0 0 0            *   a pair of farm-hand pants
+E 1 99020 5 8 100 0 0 0            *   a pair of farm-hand boots
+E 1 99021 5 9 100 0 0 0            *   a pair of ranch gloves
+M 0 99019 3 99192 100 0 0 0        * the chicken
+G 1 99022 3 0 100 0 0 0            *    an egg
+M 0 99018 5 99193 100 0 0 0        * the farmer
+E 1 99018 5 5 100 0 0 0            *   a farm-hand shirt
+E 1 99019 5 7 100 0 0 0            *   a pair of farm-hand pants
+E 1 99020 5 8 100 0 0 0            *   a pair of farm-hand boots
+E 1 99021 5 9 100 0 0 0            *   a pair of ranch gloves
+M 0 99021 3 99193 100 0 0 0        * the pig
+M 0 99018 5 99194 100 0 0 0        * the farmer
+E 1 99018 5 5 100 0 0 0            *   a farm-hand shirt
+E 1 99019 5 7 100 0 0 0            *   a pair of farm-hand pants
+E 1 99020 5 8 100 0 0 0            *   a pair of farm-hand boots
+E 1 99021 5 9 100 0 0 0            *   a pair of ranch gloves
+M 0 99021 3 99194 100 0 0 0        * the pig
+M 0 99022 2 99194 100 0 0 0        * the cow
+M 0 99018 5 99196 100 0 0 0        * the farmer
+E 1 99018 5 5 100 0 0 0            *   a farm-hand shirt
+E 1 99019 5 7 100 0 0 0            *   a pair of farm-hand pants
+E 1 99020 5 8 100 0 0 0            *   a pair of farm-hand boots
+E 1 99021 5 9 100 0 0 0            *   a pair of ranch gloves
+M 0 99019 3 99197 100 0 0 0        * the chicken
+G 1 99022 3 0 100 0 0 0            *    an egg
+M 0 99020 1 99197 100 0 0 0        * the rooster
+M 0 99023 1 99198 100 0 0 0        * the village chief
+E 1 99023 1 3 100 0 0 0            *   a chieftain necklace
+E 1 99024 1 5 100 0 0 0            *   a bulky tunic
+E 1 99027 1 6 100 0 0 0            *   a golden chieftain head band
+E 1 99026 1 8 100 0 0 0            *   the boots of stomping
+E 1 99025 1 12 100 0 0 0           *   a purple robe
+M 0 99016 20 99202 100 0 0 0       * the mirroid
+M 0 99016 20 99203 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99204 100 0 0 0       * the mirroid
+M 0 99016 20 99207 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99208 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99209 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99210 100 0 0 0       * the mirroid
+M 0 99016 20 99212 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99213 100 0 0 0       * the mirroid
+M 0 99016 20 99216 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99217 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99223 100 0 0 0       * the mirroid
+M 0 99016 20 99224 100 0 0 0       * the mirroid
+M 0 99016 20 99226 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99227 100 0 0 0       * the mirroid
+M 0 99016 20 99230 100 0 0 0       * the mirroid
+M 0 99016 20 99231 100 0 0 0       * the mirroid
+M 0 99016 20 99232 100 0 0 0       * the mirroid
+E 1 99010 9 18 100 0 0 0           *   a mirror
+M 0 99016 20 99234 100 0 0 0       * the mirroid
+M 0 99016 20 99235 100 0 0 0       * the mirroid
+M 0 99017 1 99237 100 0 0 0        * Agatha
+E 1 99015 1 3 100 0 0 0            *   a dragon tooth necklace
+E 1 99012 1 5 100 0 0 0            *   a finely laced dress
+E 1 99013 1 7 100 0 0 0            *   a shapely black skirt
+E 1 99016 1 8 100 0 0 0            *   a pair of curled-up elven shoes
+E 1 99014 1 9 100 0 0 0            *   the twitching gloves of magic
+E 1 99017 1 13 100 0 0 0           *   a rope belt
+E 1 99011 1 20 100 0 0 0           *   Agatha's mask
+M 0 99024 5 99238 100 0 0 0        * the frog
+M 0 99025 5 99239 100 0 0 0        * the toad
+M 0 99024 5 99240 100 0 0 0        * the frog
+M 0 99025 5 99241 100 0 0 0        * the toad
+M 0 99026 5 99241 100 0 0 0        * the lizard
+M 0 99026 5 99242 100 0 0 0        * the lizard
+M 0 99024 5 99244 100 0 0 0        * the frog
+M 0 99026 5 99244 100 0 0 0        * the lizard
+M 0 99025 5 99245 100 0 0 0        * the toad
+M 0 99024 5 99246 100 0 0 0        * the frog
+M 0 99025 5 99247 100 0 0 0        * the toad
+M 0 99026 5 99248 100 0 0 0        * the lizard
+M 0 99025 5 99249 100 0 0 0        * the toad
+M 0 99026 5 99249 100 0 0 0        * the lizard
+M 0 99024 5 99250 100 0 0 0        * the frog
+M 0 99015 1 99251 100 0 0 0        * the Guardian Golem
+G 1 99072 1 0 100 0 0 0            *    a wand of entry
+M 0 99027 9 99253 100 0 0 0        * the horse
+M 0 99027 9 99253 100 0 0 0        * the horse
+M 0 99027 9 99253 100 0 0 0        * the horse
+M 0 99027 9 99256 100 0 0 0        * the horse
+M 0 99027 9 99256 100 0 0 0        * the horse
+M 0 99027 9 99256 100 0 0 0        * the horse
+M 0 99038 5 99257 100 0 0 0        * the student of the tower
+M 0 99027 9 99259 100 0 0 0        * the horse
+M 0 99027 9 99259 100 0 0 0        * the horse
+M 0 99027 9 99259 100 0 0 0        * the horse
+M 0 99028 1 99266 100 0 0 0        * Malchor
+E 1 99035 1 2 100 0 0 0            *   a ring of rainbows
+E 1 99028 1 5 100 0 0 0            *   a magic vibrating tunic
+E 1 99033 1 6 100 0 0 0            *   a mystifying hood
+E 1 99029 1 7 100 0 0 0            *   a pair of force field leggings
+E 1 99031 1 8 100 0 0 0            *   a pair of boots embedded with sapphires
+E 1 99032 1 9 100 0 0 0            *   a pair of four fingered gloves
+E 1 99030 1 10 100 0 0 0           *   a pair of flesh armlets
+E 1 99036 1 13 100 0 0 0           *   a phase belt
+E 1 99034 1 18 100 0 0 0           *   a flower of blentor
+M 0 99038 5 99268 100 0 0 0        * the student of the tower
+M 0 99038 5 99276 100 0 0 0        * the student of the tower
+M 0 99038 5 99282 100 0 0 0        * the student of the tower
+M 0 99038 5 99295 100 0 0 0        * the student of the tower
+M 0 99029 5 99301 100 0 0 0        * the house builder
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99031 5 99301 100 0 0 0        * the logger
+E 1 99041 5 5 100 0 0 0            *   a plaid shirt
+E 1 99042 5 7 100 0 0 0            *   a pair of brown pants
+E 1 99043 5 8 100 0 0 0            *   a pair of black boots with buckles
+M 0 99032 5 99302 100 0 0 0        * the tree cutter
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99044 5 16 100 0 0 0           *   a saw
+M 0 99033 3 99303 100 0 0 0        * the foreman
+E 1 99045 3 5 100 0 0 0            *   a brown uniform
+E 1 99048 3 6 100 0 0 0            *   a hard cap
+E 1 99049 3 7 100 0 0 0            *   a pair of uniform pants
+E 1 99047 3 8 100 0 0 0            *   a pair of brush shoes
+E 1 99050 3 10 100 0 0 0           *   a pair of uniform sleeves
+E 1 99046 3 16 100 0 0 0           *   a pointing stick
+M 0 99030 5 99305 100 0 0 0        * the carpenter
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99035 1 99306 100 0 0 0        * Brock
+G 1 99063 1 0 100 0 0 0            *    a bear rug
+G 1 99064 1 0 100 0 0 0            *    a lizard skin rug
+G 1 99065 1 0 100 0 0 0            *    a skunk skin rug
+M 0 99031 5 99307 100 0 0 0        * the logger
+E 1 99041 5 5 100 0 0 0            *   a plaid shirt
+E 1 99042 5 7 100 0 0 0            *   a pair of brown pants
+E 1 99043 5 8 100 0 0 0            *   a pair of black boots with buckles
+M 0 99032 5 99309 100 0 0 0        * the tree cutter
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99044 5 16 100 0 0 0           *   a saw
+M 0 99029 5 99310 100 0 0 0        * the house builder
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99030 5 99310 100 0 0 0        * the carpenter
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99033 3 99310 100 0 0 0        * the foreman
+E 1 99045 3 5 100 0 0 0            *   a brown uniform
+E 1 99048 3 6 100 0 0 0            *   a hard cap
+E 1 99049 3 7 100 0 0 0            *   a pair of uniform pants
+E 1 99047 3 8 100 0 0 0            *   a pair of brush shoes
+E 1 99050 3 10 100 0 0 0           *   a pair of uniform sleeves
+E 1 99046 3 16 100 0 0 0           *   a pointing stick
+M 0 99036 1 99312 100 0 0 0        * Merthol
+G 1 99066 1 0 100 0 0 0            *    a bear fur
+G 1 99067 1 0 100 0 0 0            *    the bunny fur
+G 1 99068 1 0 100 0 0 0            *    a mink coat
+M 0 99031 5 99313 100 0 0 0        * the logger
+E 1 99041 5 5 100 0 0 0            *   a plaid shirt
+E 1 99042 5 7 100 0 0 0            *   a pair of brown pants
+E 1 99043 5 8 100 0 0 0            *   a pair of black boots with buckles
+M 0 99029 5 99314 100 0 0 0        * the house builder
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99030 5 99315 100 0 0 0        * the carpenter
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99032 5 99316 100 0 0 0        * the tree cutter
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99044 5 16 100 0 0 0           *   a saw
+M 0 99037 1 99318 100 0 0 0        * Vitnor
+G 1 99069 1 0 100 0 0 0            *    a mug o' Vitnor's ale
+G 1 99070 1 0 100 0 0 0            *    a cup of frothy beer
+M 0 99030 5 99320 100 0 0 0        * the carpenter
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99032 5 99320 100 0 0 0        * the tree cutter
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99044 5 16 100 0 0 0           *   a saw
+M 0 99031 5 99321 100 0 0 0        * the logger
+E 1 99041 5 5 100 0 0 0            *   a plaid shirt
+E 1 99042 5 7 100 0 0 0            *   a pair of brown pants
+E 1 99043 5 8 100 0 0 0            *   a pair of black boots with buckles
+M 0 99033 3 99321 100 0 0 0        * the foreman
+E 1 99045 3 5 100 0 0 0            *   a brown uniform
+E 1 99048 3 6 100 0 0 0            *   a hard cap
+E 1 99049 3 7 100 0 0 0            *   a pair of uniform pants
+E 1 99047 3 8 100 0 0 0            *   a pair of brush shoes
+E 1 99050 3 10 100 0 0 0           *   a pair of uniform sleeves
+E 1 99046 3 16 100 0 0 0           *   a pointing stick
+M 0 99029 5 99322 100 0 0 0        * the house builder
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99031 5 99325 100 0 0 0        * the logger
+E 1 99041 5 5 100 0 0 0            *   a plaid shirt
+E 1 99042 5 7 100 0 0 0            *   a pair of brown pants
+E 1 99043 5 8 100 0 0 0            *   a pair of black boots with buckles
+M 0 99029 5 99326 100 0 0 0        * the house builder
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99032 5 99327 100 0 0 0        * the tree cutter
+E 1 99039 10 5 100 0 0 0           *   a dirtied shirt
+E 1 99040 10 7 100 0 0 0           *   a pair of dirtied pants
+E 1 99044 5 16 100 0 0 0           *   a saw
+M 0 99030 5 99328 100 0 0 0        * the carpenter
+E 1 99038 10 13 100 0 0 0          *   a tool belt
+E 1 99037 10 16 100 0 0 0          *   a hammer
+M 0 99034 1 99330 100 0 0 0        * Ansal Bloodshoulder
+E 1 99053 1 2 100 0 0 0            *   a ring of blood
+E 1 99051 1 5 100 0 0 0            *   a green dragon-scaled shirt
+E 1 99057 1 6 100 0 0 0            *   a leather hood
+E 1 99055 1 7 100 0 0 0            *   a pair of green flexing tights
+E 1 99058 1 8 100 0 0 0            *   a pair of field boots
+E 1 99060 1 9 100 0 0 0            *   a pair of bronzed gloves
+E 1 99052 1 10 100 0 0 0           *   a pair of green dragon-scaled sleeves
+E 1 99059 1 11 100 0 0 0           *   a shield made of lizard skin
+E 1 99056 1 13 100 0 0 0           *   a silk threaded belt
+G 1 99054 1 0 100 0 0 0            *    a double-bladed dagger
+*
+S

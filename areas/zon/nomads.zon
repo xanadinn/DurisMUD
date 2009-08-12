@@ -1,0 +1,161 @@
+#62
+The &+cCimmerian &+yNomad &nEncampment~
+6248 2 0 40 50 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 6208 9 1 100 0 0 0
+*     southeast exit from "A Chamber of Horrors" to
+*     "Before an Odd Nomad's Wagon" - closed
+*
+D 0 6216 6 1 100 0 0 0
+*     northwest exit from "Before an Odd Nomad's Wagon" to
+*     "A Chamber of Horrors" - closed
+*
+D 0 6210 2 1 100 0 0 0
+*     south exit from "Inside the Blacksmith's Wagon" to
+*     "A Modest Forge" - closed
+*
+D 0 6217 0 1 100 0 0 0
+*     north exit from "A Modest Forge" to
+*     "Inside the Blacksmith's Wagon" - closed
+*
+D 0 6212 7 1 100 0 0 0
+*     southwest exit from "The Nomad Leader's Wagon" to
+*     "Inside the Circle of Wagons" - closed
+*
+D 0 6218 8 1 100 0 0 0
+*     northeast exit from "Inside the Circle of Wagons" to
+*     "The Nomad Leader's Wagon" - closed
+*
+D 0 6222 1 1 100 0 0 0
+*     east exit from "Inside a Cimmerian Wagon" to
+*     "Before a Nomad's Wagon" - closed
+*
+D 0 6223 3 1 100 0 0 0
+*     west exit from "Before a Nomad's Wagon" to
+*     "Inside a Cimmerian Wagon" - closed
+*
+D 0 6225 1 1 100 0 0 0
+*     east exit from "Before a Nomad's Wagon" to
+*     "Inside a Nomad's Wagon" - closed
+*
+D 0 6226 3 1 100 0 0 0
+*     west exit from "Inside a Nomad's Wagon" to
+*     "Before a Nomad's Wagon" - closed
+*
+D 0 6230 7 1 100 0 0 0
+*     southwest exit from "Before a Nomad's Wagon" to
+*     "A Cimmerian Wagon" - closed
+*
+D 0 6236 8 1 100 0 0 0
+*     northeast exit from "A Cimmerian Wagon" to
+*     "Before a Nomad's Wagon" - closed
+*
+D 0 6231 2 1 100 0 0 0
+*     south exit from "Before a Nomad's Wagon" to
+*     "Inside a Cimmerian Wagon" - closed
+*
+D 0 6238 0 1 100 0 0 0
+*     north exit from "Inside a Cimmerian Wagon" to
+*     "Before a Nomad's Wagon" - closed
+*
+D 0 6232 9 1 100 0 0 0
+*     southeast exit from "Before a Dilapidated Wagon" to
+*     "A Chamber of Horrors" - closed
+*
+D 0 6240 6 1 100 0 0 0
+*     northwest exit from "A Chamber of Horrors" to
+*     "Before a Dilapidated Wagon" - closed
+*
+*
+O 0 6215 1 6236 100 0 0 0          * a deceptively small journal
+O 0 6214 1 6236 100 0 0 0          * a violet flask
+O 0 6213 2 6238 100 0 0 0          * a Cimmerian training sword of wood
+O 0 6216 1 6240 100 0 0 0          * the corpse of Rellius
+P 1 6213 2 6216 100 0 0 0          *   a Cimmerian training sword of wood
+*
+M 0 6202 6 6200 100 0 0 0          * a Cimmerian toddler
+M 0 6200 1 6200 100 0 0 0          * a wandering Cimmerian
+E 1 6200 1 7 100 0 0 0             *   some Cimmerian drawstring pants
+M 0 6203 3 6202 100 0 0 0          * a youthful Cimmerian
+E 1 6203 3 14 100 0 0 0            *   a green Cimmerian bracelet
+M 0 6206 3 6203 100 0 0 0          * a Cimmerian warrior
+M 0 6208 6 6204 100 0 0 0          * a mature Cimmerian
+M 0 6204 3 6205 100 0 0 0          * a young Cimmerian woman
+M 0 6202 6 6206 100 0 0 0          * a Cimmerian toddler
+M 0 6216 1 6208 100 0 0 0          * a half-orc shaman
+G 1 6219 1 0 100 0 0 0             *    the severed head of the half-orc shaman
+M 0 6215 1 6208 100 0 0 0          * a tree-like creature
+G 1 6217 1 0 100 0 0 0             *    a shard of other-planar wood
+M 0 6202 6 6209 100 0 0 0          * a Cimmerian toddler
+E 1 6201 2 16 100 0 0 0            *   a Cimmerian training sword of wood
+M 0 6214 1 6210 100 0 0 0          * a Cimmerian blacksmith
+M 0 6210 3 6211 100 0 0 0          * an ancient Cimmerian
+E 1 6211 1 13 100 0 0 0            *   a hallowed Cimmerian sash
+M 0 6220 1 6212 100 0 0 0          * Septimus
+E 1 6205 3 1 100 0 0 0             *   a green Cimmerian ring
+E 1 6205 3 2 100 0 0 0             *   a green Cimmerian ring
+E 1 6207 3 3 100 0 0 0             *   a green Cimmerian chain
+E 1 6207 3 4 100 0 0 0             *   a green Cimmerian chain
+E 1 6203 3 14 100 0 0 0            *   a green Cimmerian bracelet
+E 1 6203 3 15 100 0 0 0            *   a green Cimmerian bracelet
+E 1 6209 3 21 100 0 0 0            *   a green Cimmerian earring
+E 1 6209 3 22 100 0 0 0            *   a green Cimmerian earring
+M 0 6219 1 6212 100 0 0 0          * Septimus' wife
+M 0 6208 6 6213 100 0 0 0          * a mature Cimmerian
+M 0 6205 2 6214 100 0 0 0          * a Cimmerian woman
+M 0 6209 5 6215 100 0 0 0          * a Cimmerian of the Master's Path
+E 1 6209 3 21 100 0 0 0            *   a green Cimmerian earring
+M 0 6208 6 6216 100 0 0 0          * a mature Cimmerian
+M 0 6209 5 6218 100 0 0 0          * a Cimmerian of the Master's Path
+E 1 6208 1 21 100 0 0 0            *   a blue Cimmerian earring
+M 0 6206 3 6219 100 0 0 0          * a Cimmerian warrior
+M 0 6204 3 6220 100 0 0 0          * a young Cimmerian woman
+M 0 6210 3 6221 100 0 0 0          * an ancient Cimmerian
+E 1 6212 1 20 100 0 0 0            *   a hallowed Cimmerian mask of Winduin
+M 0 6213 3 6222 100 0 0 0          * a venerable Cimmerian
+M 0 6204 3 6223 100 0 0 0          * a young Cimmerian woman
+E 1 6202 1 14 100 0 0 0            *   a blue Cimmerian bracelet
+M 0 6207 2 6224 100 0 0 0          * a mature Cimmerian
+M 0 6205 2 6225 100 0 0 0          * a Cimmerian woman
+E 1 6204 1 1 100 0 0 0             *   a blue Cimmerian ring
+M 0 6211 2 6226 100 0 0 0          * an injured Cimmerian
+M 0 6212 1 6226 100 0 0 0          * a new mother
+M 0 6211 2 6226 100 0 0 0          * an injured Cimmerian
+M 0 6210 3 6227 100 0 0 0          * an ancient Cimmerian
+E 1 6210 1 6 100 0 0 0             *   a hallowed Cimmerian headband
+M 0 6208 6 6228 100 0 0 0          * a mature Cimmerian
+E 1 6207 3 3 100 0 0 0             *   a green Cimmerian chain
+M 0 6207 2 6230 100 0 0 0          * a mature Cimmerian
+E 1 6206 1 3 100 0 0 0             *   a blue Cimmerian chain
+M 0 6208 6 6231 100 0 0 0          * a mature Cimmerian
+M 0 6203 3 6232 100 0 0 0          * a youthful Cimmerian
+M 0 6209 5 6234 100 0 0 0          * a Cimmerian of the Master's Path
+M 0 6209 5 6235 100 0 0 0          * a Cimmerian of the Master's Path
+M 0 6213 3 6236 100 0 0 0          * a venerable Cimmerian
+M 0 6209 5 6237 100 0 0 0          * a Cimmerian of the Master's Path
+M 0 6213 3 6238 100 0 0 0          * a venerable Cimmerian
+M 0 6202 6 6239 100 0 0 0          * a Cimmerian toddler
+E 1 6201 2 16 100 0 0 0            *   a Cimmerian training sword of wood
+M 0 6217 1 6240 100 0 0 0          * a dark-robed conjurer
+G 1 6220 1 0 100 0 0 0             *    the severed head of the half-orc conjurer
+M 0 6218 1 6240 100 0 0 0          * an iron creature
+G 1 6218 1 0 100 0 0 0             *    a shard of other-planar iron
+M 0 6202 6 6242 100 0 0 0          * a Cimmerian toddler
+M 0 6201 8 6243 100 0 0 0          * a team of horses
+M 0 6201 8 6243 100 0 0 0          * a team of horses
+M 0 6201 8 6243 100 0 0 0          * a team of horses
+M 0 6201 8 6243 100 0 0 0          * a team of horses
+M 0 6206 3 6244 100 0 0 0          * a Cimmerian warrior
+E 1 6205 3 1 100 0 0 0             *   a green Cimmerian ring
+M 0 6201 8 6245 100 0 0 0          * a team of horses
+M 0 6201 8 6245 100 0 0 0          * a team of horses
+M 0 6201 8 6245 100 0 0 0          * a team of horses
+M 0 6201 8 6245 100 0 0 0          * a team of horses
+M 0 6208 6 6246 100 0 0 0          * a mature Cimmerian
+M 0 6203 3 6247 100 0 0 0          * a youthful Cimmerian
+M 0 6202 6 6248 100 0 0 0          * a Cimmerian toddler
+*
+S

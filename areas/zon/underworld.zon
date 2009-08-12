@@ -1,0 +1,318 @@
+#44
+&+mThe Underworld&n~
+4645 2 0 20 30 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 4430 3 1 100 0 0 0
+*     west exit from "Small Cave" to
+*     "Mysterious Hole" - closed
+*
+D 0 4431 1 1 100 0 0 0
+*     east exit from "Mysterious Hole" to
+*     "Small Cave" - closed
+*
+D 0 4455 1 1 100 0 0 0
+*     east exit from "Eastern end of a Large Stone Hut" to
+*     "Back Room" - closed
+*
+D 0 4456 3 1 100 0 0 0
+*     west exit from "Back Room" to
+*     "Eastern end of a Large Stone Hut" - closed
+*
+D 0 4464 2 2 100 0 0 0
+*     south exit from "Entrance to a Huge Stone Dwelling" to
+*     "Huge Stone Dwelling" - closed/locked
+*
+D 0 4465 0 2 100 0 0 0
+*     north exit from "Huge Stone Dwelling" to
+*     "Entrance to a Huge Stone Dwelling" - closed/locked
+*
+D 0 4466 4 2 100 0 0 0
+*     up exit from "Huge Stone Dwelling" to
+*     "Second Floor of a Huge Stone Dwelling" - closed/locked
+*
+D 0 4467 5 2 100 0 0 0
+*     down exit from "Second Floor of a Huge Stone Dwelling" to
+*     "Huge Stone Dwelling" - closed/locked
+*
+D 0 4489 2 1 100 0 0 0
+*     south exit from "End of an Ore Deposit" to
+*     "Cramped Cave" - closed
+*
+D 0 4490 0 1 100 0 0 0
+*     north exit from "Cramped Cave" to
+*     "End of an Ore Deposit" - closed
+*
+D 0 4491 0 2 100 0 0 0
+*     north exit from "Bottom of a Pit" to
+*     "Underground Dwelling" - closed/locked
+*
+D 0 4492 2 2 100 0 0 0
+*     south exit from "Underground Dwelling" to
+*     "Bottom of a Pit" - closed/locked
+*
+D 0 4502 1 1 100 0 0 0
+*     east exit from "Thin Ledge on a Cavern Wall" to
+*     "Rough Corridor" - closed
+*
+D 0 4526 3 1 100 0 0 0
+*     west exit from "Rough Corridor" to
+*     "Thin Ledge on a Cavern Wall" - closed
+*
+D 0 4508 5 1 100 0 0 0
+*     down exit from "Stone Dwelling" to
+*     "Secret Chamber" - closed
+*
+D 0 4509 4 1 100 0 0 0
+*     up exit from "Secret Chamber" to
+*     "Stone Dwelling" - closed
+*
+D 0 4512 0 1 100 0 0 0
+*     north exit from "Huge Forge" to
+*     "Small Storage Room" - closed
+*
+D 0 4514 2 1 100 0 0 0
+*     south exit from "Small Storage Room" to
+*     "Huge Forge" - closed
+*
+D 0 4521 0 2 100 0 0 0
+*     north exit from "Gates of a Huge Stone Building" to
+*     "Outside a Huge Stone Building" - closed/locked
+*
+D 0 4522 2 2 100 0 0 0
+*     south exit from "Outside a Huge Stone Building" to
+*     "Gates of a Huge Stone Building" - closed/locked
+*
+D 0 4522 0 2 100 0 0 0
+*     north exit from "Outside a Huge Stone Building" to
+*     "Large Entry Foyer" - closed/locked
+*
+D 0 4523 2 2 100 0 0 0
+*     south exit from "Large Entry Foyer" to
+*     "Outside a Huge Stone Building" - closed/locked
+*
+D 0 4534 5 5 100 0 0 0
+*     down exit from "Above a Huge Cavern" to
+*     "Small Stalagmite Island" - closed/secret
+*
+D 0 4536 4 5 100 0 0 0
+*     up exit from "Small Stalagmite Island" to
+*     "Above a Huge Cavern" - closed/secret
+*
+D 0 4550 0 1 100 0 0 0
+*     north exit from "Carved-Out Chamber" to
+*     "Carved Out Tunnel" - closed
+*
+D 0 4551 2 1 100 0 0 0
+*     south exit from "Carved Out Tunnel" to
+*     "Carved-Out Chamber" - closed
+*
+D 0 4550 4 1 100 0 0 0
+*     up exit from "Carved-Out Chamber" to
+*     "Shore Beneath a Rocky Overhang" - closed
+*
+D 0 4561 5 1 100 0 0 0
+*     down exit from "Shore Beneath a Rocky Overhang" to
+*     "Carved-Out Chamber" - closed
+*
+D 0 4573 2 1 100 0 0 0
+*     south exit from "Rubble Filled Cave" to
+*     "A Mushroom-Filled Tunnel" - closed
+*
+D 0 4619 0 1 100 0 0 0
+*     north exit from "A Mushroom-Filled Tunnel" to
+*     "Rubble Filled Cave" - closed
+*
+*
+O 0 4620 1 4414 100 0 0 0          * a small iron chest
+P 1 4610 2 4620 100 0 0 0          *   a pile of gold coins
+O 0 4670 2 4455 100 0 0 0          * a large wooden crate
+P 1 4445 1 4670 100 0 0 0          *   a small green orb
+O 0 4680 1 4456 100 0 0 0          * a small wooden table
+O 0 4690 1 4467 100 0 0 0          * a large wooden desk
+P 1 4435 1 4690 100 0 0 0          *   a sparkling green gem
+O 0 4475 1 4480 100 0 0 0          * a small stone sign
+O 0 4400 1 4486 100 0 0 0          * a tiny black key
+O 0 4710 1 4492 100 0 0 0          * a large table
+O 0 4700 1 4492 100 0 0 0          * a large oaken desk
+P 1 4705 1 4700 100 0 0 0          *   a crumpled note
+O 0 4720 3 4507 100 0 0 0          * a short wide table
+O 0 4470 6 4507 100 0 0 0          * a duergar rug
+O 0 4720 3 4508 100 0 0 0          * a short wide table
+O 0 4470 6 4508 100 0 0 0          * a duergar rug
+O 0 4610 2 4509 100 0 0 0          * a pile of gold coins
+O 0 4730 1 4513 100 0 0 0          * a block of mithril ore
+O 0 4720 3 4517 100 0 0 0          * a short wide table
+O 0 4470 6 4517 100 0 0 0          * a duergar rug
+O 0 4740 1 4519 100 0 0 0          * a large liquor rack
+P 1 4750 4 4740 100 0 0 0          *   a bottle of dwarven mead
+P 1 4750 4 4740 100 0 0 0          *   a bottle of dwarven mead
+P 1 4750 4 4740 100 0 0 0          *   a bottle of dwarven mead
+P 1 4750 4 4740 100 0 0 0          *   a bottle of dwarven mead
+P 1 4760 3 4740 100 0 0 0          *   a bottle of ale
+P 1 4760 3 4740 100 0 0 0          *   a bottle of ale
+P 1 4760 3 4740 100 0 0 0          *   a bottle of ale
+P 1 4770 2 4740 100 0 0 0          *   a bottle of dwarven whisky
+P 1 4770 2 4740 100 0 0 0          *   a bottle of dwarven whisky
+P 1 4780 1 4740 100 0 0 0          *   a bottle of evil looking dwarven whisky
+O 0 4708 1 4522 100 0 0 0          * a small note
+O 0 4460 1 4530 100 0 0 0          * a mithril key
+O 0 4790 1 4577 100 0 0 0          * a large table
+O 0 4470 6 4598 100 0 0 0          * a duergar rug
+O 0 4470 6 4599 100 0 0 0          * a duergar rug
+O 0 4470 6 4600 100 0 0 0          * a duergar rug
+O 0 4403 1 4609 100 0 0 0          * a magenta-colored pool
+O 0 4404 1 4610 100 0 0 0          * a magenta-colored pool
+*
+M 0 4410 1 4405 100 0 0 0          * a huge xorn
+G 1 4630 1 0 100 0 0 0             *    a polished gray stone
+M 0 4530 4 4420 100 0 0 0          * a HUGE piercer
+M 0 4530 4 4420 100 0 0 0          * a HUGE piercer
+M 0 4400 6 4422 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+M 0 4530 4 4424 100 0 0 0          * a HUGE piercer
+M 0 4403 2 4428 100 0 0 0          * a drider
+M 0 4530 4 4429 100 0 0 0          * a HUGE piercer
+M 0 4400 6 4430 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+E 1 4401 20 17 100 0 0 0           *   a black battle axe
+M 0 4403 2 4430 100 0 0 0          * a drider
+M 0 4430 2 4439 100 0 0 0          * a huge shambling mound
+M 0 4430 2 4441 100 0 0 0          * a huge shambling mound
+E 1 4540 1 3 100 0 0 0             *   an amulet made from rotting plants
+M 0 4580 4 4444 100 0 0 0          * a kuo-toan fisherman
+M 0 4580 4 4445 100 0 0 0          * a kuo-toan fisherman
+M 0 4550 6 4447 100 0 0 0          * a kuo-toan warrior
+M 0 4540 12 4448 100 0 0 0         * a kuo-toan commoner
+M 0 4550 6 4448 100 0 0 0          * a kuo-toan warrior
+M 0 4540 12 4449 100 0 0 0         * a kuo-toan commoner
+M 0 4550 6 4449 100 0 0 0          * a kuo-toan warrior
+M 0 4540 12 4450 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4450 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4451 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4451 100 0 0 0         * a kuo-toan commoner
+M 0 4560 5 4452 100 0 0 0          * a kuo-toan hatchling
+M 0 4560 5 4452 100 0 0 0          * a kuo-toan hatchling
+M 0 4560 5 4452 100 0 0 0          * a kuo-toan hatchling
+M 0 4560 5 4452 100 0 0 0          * a kuo-toan hatchling
+M 0 4560 5 4452 100 0 0 0          * a kuo-toan hatchling
+M 0 4590 3 4453 100 0 0 0          * a kuo-toan noble
+G 1 4665 2 0 100 0 0 0             *    a slimy green staff
+M 0 4590 3 4453 100 0 0 0          * a kuo-toan noble
+M 0 4540 12 4454 100 0 0 0         * a kuo-toan commoner
+M 0 4590 3 4455 100 0 0 0          * a kuo-toan noble
+G 1 4665 2 0 100 0 0 0             *    a slimy green staff
+M 0 4550 6 4457 100 0 0 0          * a kuo-toan warrior
+M 0 4550 6 4457 100 0 0 0          * a kuo-toan warrior
+M 0 4600 1 4458 100 0 0 0          * a kuo-toan shaman
+E 1 4580 1 16 100 0 0 0            *   a wicked-looking black dagger
+M 0 4402 1 4458 100 0 0 0          * a kuo-toan guardian
+E 1 4415 3 16 100 0 0 0            *   a long trident
+M 0 4540 12 4459 100 0 0 0         * a kuo-toan commoner
+M 0 4580 4 4460 100 0 0 0          * a kuo-toan fisherman
+M 0 4580 4 4460 100 0 0 0          * a kuo-toan fisherman
+M 0 4550 6 4461 100 0 0 0          * a kuo-toan warrior
+M 0 4540 12 4462 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4462 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4463 100 0 0 0         * a kuo-toan commoner
+M 0 4540 12 4463 100 0 0 0         * a kuo-toan commoner
+M 0 4570 5 4464 100 0 0 0          * a kuo-toan guardian
+E 1 4415 3 16 100 0 0 0            *   a long trident
+M 0 4570 5 4464 100 0 0 0          * a kuo-toan guardian
+E 1 4415 3 16 100 0 0 0            *   a long trident
+G 1 4440 1 0 100 0 0 0             *    a slimy green key
+M 0 4570 5 4466 100 0 0 0          * a kuo-toan guardian
+G 1 4450 1 0 100 0 0 0             *    a small green orb
+M 0 4610 1 4467 100 0 0 0          * the kuo-toan high priestess
+E 1 4600 1 2 100 0 0 0             *   a glowing green ring
+E 1 4405 1 12 100 0 0 0            *   a dark-green bodycloak
+G 1 4590 1 0 100 0 0 0             *    a dark green wand
+F 1 4570 5 4467 100 0 0 0          * a kuo-toan guardian (following)
+F 1 4570 5 4467 100 0 0 0          * a kuo-toan guardian (following)
+M 0 4450 1 4483 100 0 0 0          * a rock worm
+M 0 4460 1 4492 100 0 0 0          * A human rogue
+G 1 4550 1 0 100 0 0 0             *    a torch burning soft blue flames
+M 0 4695 4 4504 100 0 0 0          * a duergar guardian
+E 1 4655 4 5 100 0 0 0             *   a suit of dwarven scale mail armor
+M 0 4630 7 4507 100 0 0 0          * a dark dwarf
+M 0 4640 4 4508 100 0 0 0          * a duergar warrior
+E 1 4425 4 16 100 0 0 0            *   a battle hammer
+M 0 4640 4 4510 100 0 0 0          * a duergar warrior
+E 1 4425 4 16 100 0 0 0            *   a battle hammer
+M 0 4650 4 4511 100 0 0 0          * a duergar blacksmith
+E 1 4455 4 16 100 0 0 0            *   a smithy hammer
+M 0 4650 4 4511 100 0 0 0          * a duergar blacksmith
+E 1 4455 4 16 100 0 0 0            *   a smithy hammer
+M 0 4650 4 4512 100 0 0 0          * a duergar blacksmith
+E 1 4455 4 16 100 0 0 0            *   a smithy hammer
+M 0 4650 4 4512 100 0 0 0          * a duergar blacksmith
+E 1 4455 4 16 100 0 0 0            *   a smithy hammer
+M 0 4695 4 4515 100 0 0 0          * a duergar guardian
+E 1 4655 4 5 100 0 0 0             *   a suit of dwarven scale mail armor
+M 0 4630 7 4516 100 0 0 0          * a dark dwarf
+M 0 4630 7 4516 100 0 0 0          * a dark dwarf
+M 0 4630 7 4517 100 0 0 0          * a dark dwarf
+M 0 4630 7 4518 100 0 0 0          * a dark dwarf
+M 0 4630 7 4519 100 0 0 0          * a dark dwarf
+M 0 4630 7 4519 100 0 0 0          * a dark dwarf
+M 0 4640 4 4519 100 0 0 0          * a duergar warrior
+E 1 4425 4 16 100 0 0 0            *   a battle hammer
+M 0 4640 4 4520 100 0 0 0          * a duergar warrior
+E 1 4425 4 16 100 0 0 0            *   a battle hammer
+M 0 4660 1 4520 100 0 0 0          * The duergar war master
+E 1 4510 1 13 100 0 0 0            *   a girdle of giant strength
+G 1 4410 1 0 100 0 0 0             *    a sapphire key
+M 0 4695 4 4521 100 0 0 0          * a duergar guardian
+E 1 4655 4 5 100 0 0 0             *   a suit of dwarven scale mail armor
+M 0 4695 4 4521 100 0 0 0          * a duergar guardian
+E 1 4655 4 5 100 0 0 0             *   a suit of dwarven scale mail armor
+M 0 4670 1 4525 100 0 0 0          * the duergar high cleric
+G 1 4640 1 0 100 0 0 0             *    a dark-blue potion
+G 1 4650 1 0 100 0 0 0             *    a light-blue potion
+M 0 4680 1 4525 100 0 0 0          * Bregnar the Duergar King
+E 1 4660 1 15 100 0 0 0            *   a shiny mithril bracelet
+E 1 4505 1 16 100 0 0 0            *   a mithril two-handed dwarven battle hammer
+M 0 4690 2 4525 100 0 0 0          * a human slave
+M 0 4690 2 4525 100 0 0 0          * a human slave
+M 0 4470 4 4530 100 0 0 0          * A black steeder spider
+M 0 4470 4 4530 100 0 0 0          * A black steeder spider
+M 0 4470 4 4530 100 0 0 0          * A black steeder spider
+M 0 4470 4 4530 100 0 0 0          * A black steeder spider
+M 0 4510 1 4536 100 0 0 0          * a huge earth elemental
+M 0 4520 1 4539 100 0 0 0          * a large roper
+M 0 4490 3 4549 100 0 0 0          * a baby purple worm
+M 0 4490 3 4549 100 0 0 0          * a baby purple worm
+M 0 4500 8 4557 100 0 0 0          * a hook horror
+M 0 4500 8 4558 100 0 0 0          * a hook horror
+M 0 4500 8 4558 100 0 0 0          * a hook horror
+M 0 4500 8 4559 100 0 0 0          * a hook horror
+M 0 4620 3 4565 100 0 0 0          * a small duergar child
+M 0 4620 3 4565 100 0 0 0          * a small duergar child
+M 0 4620 3 4565 100 0 0 0          * a small duergar child
+M 0 4490 3 4579 100 0 0 0          * a baby purple worm
+M 0 4400 6 4585 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+M 0 4400 6 4585 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+M 0 4400 6 4586 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+E 1 4401 20 17 100 0 0 0           *   a black battle axe
+M 0 4400 6 4587 100 0 0 0          * a drider
+E 1 4401 20 16 100 0 0 0           *   a black battle axe
+E 1 4401 20 17 100 0 0 0           *   a black battle axe
+M 0 4420 7 4589 100 0 0 0          * a water weird
+M 0 4420 7 4591 100 0 0 0          * a water weird
+M 0 4420 7 4593 100 0 0 0          * a water weird
+M 0 4420 7 4594 100 0 0 0          * a water weird
+M 0 4420 7 4595 100 0 0 0          * a water weird
+M 0 4420 7 4596 100 0 0 0          * a water weird
+M 0 4420 7 4597 100 0 0 0          * a water weird
+M 0 4440 1 4606 100 0 0 0          * a Drow Cleric
+E 1 4791 2 2 100 0 0 0             *   a tiny spider ring
+E 1 4560 1 11 100 0 0 0            *   a drow buckler
+M 0 4401 1 4610 100 0 0 0          * Zorta the all powerful
+G 1 4402 1 0 100 0 0 0             *    the holy elven relic of life
+*
+S

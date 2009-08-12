@@ -1,0 +1,264 @@
+#79046
+M
+story yes~
+Merthona looks you up and down, "You are a brave soul, perhaps you can
+help me.  We were once a very powerful kingdom, merchants and sailors
+arrived from across the oceans to trade with us.  Balls and parades were a
+common affair.  We were a bustling, growing people!  Shall I continue?"
+~
+M
+continue~
+
+Merthona nods and says, "Many people still come and are happy here, but
+some mysterious things have been seen and many of the other kingdom's want
+nothing to do with us.  They say an evil presense is felt here, and I feel
+it very strongly but will not leave, I must help my people.  What they
+don't know is the king is no longer himself, he has been hypnotized -
+taken over!  Very few are allowed into the palace these days, but you must
+go there and help them."
+
+Merthona looks around cautiously, "There is a secret entrace into the
+palace, but you must show me you're worthy.  There is a dragon in the
+forest, do not ask me where!  Bring me his scales and I shall tell you."
+~
+Q
+
+Merthona smiles at you, "You have shown me your worth.  I will tell you
+that there is a secret entrance under the city to get into the palace.  The
+entrance is on the beach by a pile of rocks.  Good luck, adventurer!"
+~
+R I 79034
+G I 79011
+Q
+&+rMarthona peers are you steadily, &+L"This is not the right
+&+Ldragon.."&n
+~
+R I 79037
+G I 79037
+S
+#79068
+M
+owl lady owllady~
+The young boy nods, "She's half owl and half human and very wicked. Some
+say it's only a myth to keep children out of the forest, but I doubt
+that.  She's rumored to dwell inside of a hollow tree."
+~
+Q
+&+bThe young boy's eyes brighten, "This is from the owl
+&+blady, isn't it?  I knew it was true! May I keep this?
+&+bHere, I'll trade you!"&n
+~
+R I 79054
+G I 79068
+S
+#79071
+Q
+&+YThurdorf&n &+Wsmiles, "Ah yes!  I can fix this right up
+&+Wfor you!"
+
+&+WFiddling around a bit, he returns the bracelet. "All done!"&n
+~
+R I 79021
+G I 79014
+Q
+&+w"Let me fix that right up for you."&n
+~
+R I 79108
+G I 79107
+S
+#79078
+M
+owl owllady owl lady~
+&+LThe halfling peers are you strangely, "What, you've never
+&+Lheard of the rumored owl lady?  Tales of her talk of
+&+Lher eating children, but I dunno about that!  I must
+&+Lfind her so that I can only know if it is true."&n
+~
+Q
+&+LThe halfing's eyes go wide, "So you have seen her!  Amazing,
+&+Ljust amazing.. may I keep this?  Here, I'll give you
+&+Lsomething in return."
+
+&+LHe fumbles through his pack and pulls out an old blue
+&+Lpullover. "This is nothing special but it has certainly
+&+Lbrought me luck in my adventures."&n
+~
+R I 79069
+G I 79068
+S
+#79092
+Q
+&+wThe king blinks rapidly after quaffing the potion, and peers
+&+wabout him.  "Well.. thank you!  Here, take this as a token
+&+wof my thanks."&n
+~
+R I 79105
+G I 79073
+S
+#79093
+M
+potion potions mixing shark tooth formula formulas~
+&+cThe half-elf scowls at you, "I just need a damn seashell."&n
+~
+Q
+&+cThe half-elf nods, "Yes, yes, this will do."  He reaches to
+&+ca random potion on a shelf. "Here, take this.. yes, thank
+&+cyou again."&n
+~
+R I 79065
+R I 79088
+G I 79054
+S
+#79094
+M
+formula formulas potion potions mixing~
+&+mShe peers at you for a moment then nods, "We need to finish
+&+mthis potion but can't find a few ingredients.. and this
+&+mdamn.. animal doesn't help one bit.  I just need a
+&+ma seashell."&n
+~
+Q
+&+m"Ahh, this will work just fine.  Here, take this."&n
+~
+R I 79055
+R I 79104
+G I 79054
+S
+#79098
+M
+avoid avoiding lowered eyes~
+&+yThe tailor peers at you intently, then nods to himself before speaking.
+&+W"Haven't you noticed?  Something strange is going on.. the king is not
+&+Whimself.  Nobody is himself!  I suspect the workings of something evil
+&+Wamidst here, but I am only a tailor.  This does put a damper on my work
+&+Wthough."&n
+~
+M
+work damper tailor~
+&+yThe tailor grins at you,&+W "Yes, I am a tailor, I enjoy making fine
+&+Wclothes for all.  For many years now I have been in search of a rumored
+&+Wtranslucent cloth who's origins point to this very city.  I simply wish
+&+Wto work with such a fine cloth."&n
+~
+M
+cloth translucent~
+&+yThe tailor shrugs helplessly.
+&+W"I do not know where to look, I have been everywhere!  That is,
+&+Wexcept for under the city, there are rumors that there are tunnels
+&+Wdown there, but who knows.  I am too old to venture there."&n
+~
+Q
+&+yThe old tailor beams happily,&+W "Ah ha! Now where did you find this?
+&+WWonderful, wonderful! Let me see what I can do with this."
+
+&+yHe turns around and works briefly with the cloth, forming it
+&+yinto a cloak.&+W "Well, how's this color suit you?"
+~
+R I 79038
+G I 79037
+Q
+&+yThe tailor works quietly, then returns the cloak.
+&+W"How's this color?"&n
+~
+R I 79039
+G I 79038
+Q
+&+yThe tailor hmms and nods, working earnestly.
+&+W"I think this one suits you well!"&n
+~
+R I 79040
+G I 79039
+Q
+&+yThe tailor nods,&+W "Alright, how about this?"&n
+~
+R I 79041
+G I 79040
+Q
+&+yThe tailor begins to look a bit frustrated.
+&+W"Now THIS is a cloak!"&n
+~
+R I 79042
+G I 79041
+Q
+&+yThe tailor begins to think and says, &+W"Well, this is not
+&+ya color most go for.. but try it out."&n
+~
+R I 79043
+G I 79042
+Q
+&+yThe tailor rubs his chin, peering at you. &+W"Try this!"&n
+~
+R I 79044
+G I 79043
+Q
+&+yThe tailor looks at you a little peeved and says, &+W"This is
+&+WI have, if you don't like it, find another tailor!"&n
+~
+R I 79045
+G I 79044
+S
+#79101
+M
+hide~
+&+WThe owl lady attempts to speak, eyes darting about rapidly,
+&+W"Hoot! Th.. they cannot.. hoot! .. find me.. hoot hoot! ..
+&+Wevil.. ev.. in the palace! hoot! .. a demon has.. please
+&+Whelp hoot! .. I am .. I am .. hoot hoot!"&n
+~
+M
+who are you am i~
+&+WShe struggles to speak, "I am.. hoot! hoot! pr.. princess ..
+&+Whoot! please .. help me .. a potion.. hoot!"&n
+~
+M
+potion~
+&+WThe owl lady struggles to speech, but remains silent.&n
+~
+Q
+&+WThe owl lady blinks rapidly and quaffs the &+Yyellow&+W potion.
+&+WHer form begins to change, when suddenly &+bPrincess&+B Rhithel&n
+&+Wstands before you. "Thank you, oh thank you!  That awful demon
+&+rZrilxa&+W changed me into this but I managed to escape, my
+&+Wfather has not been as fortunate.  If you could find him
+&+Wand give him some of this potion as well I would be most
+&+Wgrateful!"
+~
+R I 79067
+R I 79073
+G I 79066
+D
+&+bPrincess&+B Rhithel&+b smiles upon you,&+W "Take this seal, a
+&+bpresent from me, it may help you on your travels - it is the
+&+bonly sign of a true friend of mine.  Good luck!"&n
+~
+Q
+&+LThe owl lady shakes her head, "No.. not this one. hoot!"&n
+~
+R I 79065
+G I 79065
+Q
+&+WShe shakes her head, "hoot! Wrong.. potion.. hoot!"&n
+~
+R I 79055
+G I 79055
+S
+#79108
+M
+polish polishing seashell seashells dirty shell shells shark tooth~
+&+bHe smiles at you warmly, "I have to find some way to waste
+&+bmy time these days.  I especially like to fix up anything
+&+bI can find on the beach - seashells, rocks, stones, even
+&+bfound a shark tooth once, I would love to work with one
+&+bagain."&n
+~
+Q
+&+b"Ah, this is nice, let me fix this right up for you!"&n
+~
+R I 79074
+G I 79054
+Q
+&+b"Ahh, here you are!  Nice and shiny."&n
+~
+R I 79075
+G I 79019
+S

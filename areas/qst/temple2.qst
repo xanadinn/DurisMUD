@@ -1,0 +1,42 @@
+#34426
+MA
+help yes~
+The scared priest says "Oh thank you so much."
+
+"My Son was captured by those evil devil worshipers.  They kill babies
+in there.  They are so so evil.  Please, I dont usualy trust your types
+but I have no choice.  If you can just find my sone, and give him this
+letter, he will know what to do.."
+
+"Ill give you a great reward.  I promise."
+
+"Thank you! Thank you!"
+
+"My sons name is Jared and he has curly red hair. Please hurry before
+they do something horrible to him."
+~
+QA
+"Oh good!"
+~
+R I 34427
+D
+"Return here when you have given him the letter for your reward!"
+
+"Thank you!!"
+
+With that the scared little priest disapears into the scrub.
+~
+S
+#34427
+QA
+The young boy smiles with a tear in his eye,
+
+"I knew my father wouldnt let me die here!"
+~
+R E 100000
+G I 34427
+D
+He reads the letter and suddenly disapears in a flash.  The chains
+drop to the floor, empty.
+~
+S

@@ -1,0 +1,69 @@
+#70801
+M
+hi hello sand~
+   &+YShe looks at you curiously and smiles before saying,
+     &+W "Oh yes, one of Lahoneth's students was supposed
+     &+W to bring me a bucket of sand from the coastline
+     &+W off the Sea of Silvanos. The sand there is very
+     &+W very fine and pure and makes a most excellent
+     &+W conductor for spell energies. He must have, in
+     &+W his anxiousness of his studies, forgotten to
+     &+W bring it to me. Would you mind picking it up
+     &+W off of him?"&n
+~
+Q
+   &+WAh thank you very much. Now I just need to separate this into
+   &+Wthe right amounts and it will be ready for sale. Do drop by
+   &+Wanytime you like to browse my wares good friends. Here, maybe
+   &+Wthese will be of use to you or one of your companions.&n
+~
+R I 70811
+R I 70812
+R E 40000
+G I 70823
+D
+&+YAlazia&n pauses for a moment, and disappears into the shadows.
+~
+S
+#70802
+M
+hi hello lost something~
+   &+WI've lost my quill! I can't find it anywhere and we have a test
+   &+Wtoday. Oh man.. If I fail my parents are going to KILL me!&n
+~
+Q
+   &+W"Oh man, thank's alot. I was sure to fail this course if I
+   &+Wdidn't have a quill to write the exam with. Lahoneth is
+   &+Wa real... Well, anyways thanks alot!
+
+   &+WOh I forgot. I promised Alazia at the shop that I'd bring
+   &+Wher some sand, but I don't have the time because I have
+   &+Wto study. Would you mind dropping it off for me? Thanks
+   &+Walot, you've been a huge help!"&n
+~
+R I 70823
+R E 20000
+G I 70812
+D
+&+WFootsteps can be heard as the student scurries away.&n
+~
+S
+#70815
+M
+elves~
+   &+W"Yes.. I've been working with those snivelling wimps for quite
+&+Wsome time now. I may be an evil old crone, but I'd rather not see
+&+Wogre filth running rampant across the land. I have devised a spell
+&+Wthat would advance the cause of the Opal Pheonix ten fold! but of
+&+Wcourse the weak willed elves think the slaying of forest creatures
+&+Wa sin unimaginable. My rheumatism is acting up, and I can't get what
+&+WI need myself... Perhaps, we could make an exchange?"
+~
+QA
+   &+W"Perfect, now I may continue my work
+   &+Win peace. Here, take this and leave
+   &+Wme be! Get out of my house!"
+~
+R I 70820
+G I 70819
+S

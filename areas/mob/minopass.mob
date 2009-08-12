@@ -1,0 +1,947 @@
+#94700
+cat displacer beast~
+&+La di&+bsp&+Lla&+bce&+Lr be&+bas&+Lt&N~
+&+LA black and &+bdark blue &+Lcat prowls here, &+bfading &+Lin and &+bout &+Lof exis&+btence.
+~
+   &+LThis large black cat looks to be quite heavy, and quite forboding.
+&+LIt's sleek body is covered with fine black and dark blue fur, which
+&+Lseems to conceal it in and out of existence.  Two large spiked tentacles
+&+Lprotrude from its back, which are raised in the air like a warrior's
+&+Lweapons during battle.
+~
+2058 1 0 2 0 0 0 -1000 S
+AC 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94701
+vorclauz undead minotaur guard guardian~
+&+rVorclauz&+L, guardian of &+rannihilation&N~
+&+rVorclauz&+L, the guardian of &+rannihilation&+L stands here, arms crossed.
+~
+   &+rThis huge minotaur looks to have been one of the greater gladiators
+&+rof a horrible tyrant's labyrinth at one point.  Now, however, he
+&+rstands here, guarding the gates of annihilation.  This minotaur releases
+&+ran aura of evil and hatred.  He wears old rotted and rusty armor, which
+&+rhangs from his sagging body.  A look of rage and hatred towards good
+&+rfills his glowing red deep-set eyes.
+   &+rVorclauz &+Lnotices your gaze at him, and snarls.
+~
+2058 0 0 8 0 0 0 -1000 S
+U 0 16 5
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94702
+xatawan spectre tyrant~
+&+Lthe &Nspectre&+L of X&+ra&+Lt&+ra&+Lw&+ra&+Ln~
+&+LThe &Nspectre&+L of X&+ra&+Lt&+ra&+Lw&+ra&+Ln, the &+rtyrant&+L stands here, beconing you to enter his &+rlabyrinth&+L.
+~
+   &+LThis transparent &Nspectre&+L of the great &+rlabyrinth tyrant &+LX&+ra&+Lt&+ra&+Lw&+ra&+Ln
+&+Lfloats here, just outside the &+mportal&+L.  This &Nspectre&+L gestures with
+&+Lone long, &+Wbony &+Lfinger, beckoning any of whom &+rVorclauz &+Lhas sent
+&+Lthrough the &+mportal&+L to enter his labyrinth.  A sly grin helps to
+&+Lunderscore this spectre's true intension for travellers..
+~
+2058 0 0 8 0 0 0 -1000 S
+U 0 8193 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94703
+xatawan vampire~
+&+Lthe &+Rvampire&+L of X&+ra&+Lt&+ra&+Lw&+ra&+Ln~
+&+LThe &+Rvampire&+L of X&+ra&+Lt&+ra&+Lw&+ra&+Ln stands here, &+rblood&+L dripping from his &+Wfangs&+L.
+~
+   &+LThis diabolical &+Rvampire&+L of X&+ra&+Lt&+ra&+Lw&+ra&+Ln stands here, guarding the
+&+Lspiral below.  A deep&+R red &+Lgaze fills his vacant, bloodshot eyes.
+&+LSmall drips of blood cascade down his lips and chin, staining the
+&+Lupper color of his wicked-looking cloaked robe.
+   &+LThis diabolical abomination stands at the top of the spiral,
+&+Lbeckoning you to continue forward.
+~
+2058 1 0 8 0 0 0 -1000 S
+UV 0 1 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94704
+oesh'lyn oesh sage truth~
+&+YOesh'lyn&+W, the &+Csage&+W of truth&N~
+&+YOesh'lyn&+W, the &+Csage &+Wof truth stands here, guarding the ivory gates.
+~
+   &+YOesh'lyn&+W, the &+Csage&+W of truth stands about six feet tall, floating
+&+Wa few inches above the ground.  His clean, fit body is draped with a
+&+Wlong silken robe.  &+YOesh'lyn&+W guards the ivory gates from the evil
+&+Wof the world that attempts to violate it's holy sanctity.
+~
+2058 0 0 8 0 0 0 1000 S
+AN 0 8 4
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94705
+titan contracter~
+&+Wa &+Ctitan &+Wcontracter~
+&+WA weary &+Ctitan &+Wcontracter searches the &+Lrubble&+W for something.
+~
+   &+WThis massive &+Ctitan&+W walks through here, kicking rocks out of the
+&+Wway and sifting through massive broken chunks of marble in search of
+&+Wsomething.  A very weary look fills his eyes as he has clearly lost
+&+Wsomething precious to him after the corridor's collapse.
+~
+2056 0 0 8 0 0 0 400 S
+G 0 1 -1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94706
+image borthur~
+&+Wthe &+cimage&+W of Borthur&N~
+&+WAn apparitional &+cimage&+W of the titan Borthur floats here.
+~
+   &+WThis &+cimage&+W is simply a two-dimensional reflection of a giant
+&+Wtitan named Borthur, the proud.  From what this image depicts,
+&+WBorthur has a long white beard, breaded into two long sections.
+&+WA massive, heavy &Nchest&+W protrudes several inches further out then
+&+Whis wide belly.  This huge &+Ctitan&+W guardian protects this hallway
+&+Wfrom the evil of the land, although it is not Borthur in the
+&+Wflesh, simply an image of him.
+~
+2058 0 0 0 0 0 0 0 S
+G 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94707
+titan borthur proud~
+&+WBorthur the Proud&N~
+&+WA huge &+Ctitan&+W named Borthur, the Proud, rests at his banquet table.
+~
+   &+WThis massive &+Ctitan &+Wstands a few dozen feet tall, towering over the
+&+Wthe tallest of barbarians.  His massive arms are like tree trunks
+&+Werupting from a mountain of a torso.  Bright white hair is tossed
+&+Wdown from his head like a lion's &+Ymane&+W.  Equally-bright curly white
+&+Whair protrudes from his massive chest, beneath his banded platemail.
+&+WThis leg&Nen&+Ldary&+W guardian proudly sits in his banquet hall, pleased to
+&+Woffer passage through his &+Yportal &+Wto any of those whom his&+c image&+W has
+&+Winvited into his keep.
+~
+2058 0 0 0 0 0 0 350 S
+G 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#94708
+scheming pech miner~
+&+La &+cscheming &+ypech &+Lminer&N~
+&+LA &+cscheming &+ypech &+Lminer crouches in the corner, clutching &Nsomething&+L.
+~
+   &+LAlthough most &+ypechs&+L are only focused on the ground they are
+&+Lmining, when not in their native elemental plane, this &+ypech&+L is
+&+Lenthralled by a strange object he secretly clutches.
+~
+2058 0 0 0 0 0 0 0 S
+H 0 1 1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94709
+mountain eagle~
+&+ya mountain eagle&N~
+&+yA brilliant winged mountain eagle perches on a nearby rock.
+~
+   &+yThis large bird has glorious brown and white feathers
+&+ycovering it's large body.  It currently perches on a nearby
+&+yrock, beak poking into the ground looking for worms.
+~
+2120 0 0 134217728 0 0 0 0 S
+B 0 1 2
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94710
+rock spider~
+&+La r&+yoc&Nk s&+Lpi&+yde&Nr~
+&+LA tin&+yy ro&Nck s&+Lpid&+yer &Ncraw&+Lls acr&+yoss th&Ne moun&+Ltain fl&+yoor&+L.
+~
+   &+LA small rock spider is here crawling across the
+&+Lmountain floor.  This spider is quite hard to detect
+&+Lwhen scanning the surroundings, as it's natural
+&+Ldefense is to blend in perfectly.
+~
+2120 0 0 0 0 0 0 0 S
+I 0 1 1
+14 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94711
+young thri kreen thri-kreen~
+&Na young &+gthri&N-&+Ykreen&N~
+&NA young &+gthri&N-&+Ykreen&N wanders through these temperate mountains.
+~
+   &NThis large insect-humanoid wanders slowly through the mountains
+and surrounding vegetation.  It's body reacts quickly, yet rarely,
+to the environment as it peacefully scouts the area.
+~
+2120 0 0 0 0 0 0 0 S
+TK 0 1 3
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94712
+mountain goat~
+&+Wa moun&Ntain &+Wgo&Nat&N~
+&+WA moun&Ntain &+Wgoat &Ntrots &+Wthrou&Ngh &+Wthe &Npasses &+Wof the &Nmoun&+Wtain.
+~
+   &+WThis mountain goat is small in size, but has a
+&+Wstrong body.  Two small antlers protrude from it's
+&+Wfurry head.  This animal hops along the mountain
+&+Wwith grace and finess in search of food.
+~
+2120 0 0 0 0 0 0 0 S
+A 0 1 2
+19 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94713
+small harpy~
+&+ya &Nsmall &+yharpy&N~
+&+yA harpy eagle &Nno less then four feet tall &+yflies close to the rocks.
+~
+   &+yThis small harpy seems quite young, but very quick
+&+yand nimble.  It currently is circling its prey at
+&+ya close proximity - most likely some worms or ants.
+~
+2120 0 0 134217728 0 0 0 0 S
+MH 0 1 2
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94714
+minotaur~
+&+La mino&+rtaur&N~
+&+LA strong mino&+rtaur &+Lhas set up &+ycamp &+Lin this mountain clearing.
+~
+   &+LCovered in muscles and furred-hide clothing,
+&+Lthis minotaur rests here at the campsite preparing
+&+Lto sleep through the night.  His eyes shift, always
+&+Lon his guard.
+~
+2122 0 0 0 0 0 0 0 S
+MT 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94715
+short minotaur~
+&+La short mino&+rtaur&N~
+&+LThis short mino&+rtaur &+Lstays close to his comrade.
+~
+   &+LCovered in muscles and furred-hide clothing,
+&+Lthis minotaur rests here at the campsite preparing
+&+Lto sleep through the night.  His eyes shift, always
+&+Lon his guard.
+~
+67110986 0 0 0 0 0 0 0 S
+MT 0 1 -1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94716
+tohr-kreen tohr kreen relaxed~
+&+La relaxed &+Btohr&N-&+ykreen&N~
+&+LA large &+Btohr&N-&+ykreen&+L wades in the &+Rsprings&+L, neck-deep in it's waters.
+~
+   &+LThis &+Btohr&+y-kreen &+Lrelaxes in the hot springs, letting
+&+Lthe warm water bubble across it's &+ggreen &+Lbody.  This large
+&+Linsect-humanoid is larger and rarer then it's cousin, the
+&+Gthri-&+Ykreen&+L.
+~
+2122 0 0 0 0 0 0 0 S
+TK 0 1 4
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 0
+#94717
+thri kreen thri-kreen~
+&Na &+gthri&N-&+Ykreen&N~
+&NA &+gthri&N-&+Ykreen &Nrests in the hot &+Rsprings&N, enjoying it's temperate &+Rwarmth&n.
+~
+   &+gThis &+Gthri&N-&+Ykreen&+g rests in the hot bubbling waters
+&+gof the &+Rsprings&+g, taking in the warmth as if it has some
+&+gsort of supernatural powers.  A glazed look covers the
+&+ginsect-humanoid's face as it drifts away in enjoyment.
+~
+2122 0 0 0 0 0 0 0 S
+TK 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+5 5 1
+#94718
+harpy~
+&+ya harpy&N~
+&+yA harpy flies through the surrounding mountain region.
+~
+   &+yThis small harpy seems quite young, but very quick
+&+yand nimble.  It currently is circling its prey at
+&+ya close proximity - most likely some worms or ants.
+~
+2120 0 0 134217728 0 0 0 0 S
+MH 0 1 2
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94719
+rock lizard~
+&+ra rock lizard&N~
+&+rA spo&Ntt&+red ro&Nck &+rliz&nard &+rcraw&Nls &+rthrou&Ngh &+rthe moun&Ntains&+r.
+~
+   &+rThis small rock lizard crawls through the cracks
+&+rand sutures of the surrounding mountains.
+~
+72 0 0 0 0 0 0 0 S
+R 0 1 1
+17 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94720
+black stag~
+&+La black stag~
+&+LA black stag makes its way through the mountains.
+~
+   &+LThis large hairy quadruped resembles a large deer,
+&+Lalthough more fit for the rocky terrain, rather then
+&+Lthe forest.
+~
+72 0 0 0 0 0 0 0 S
+A 0 1 2
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94721
+black stag~
+&+La large black stag&N~
+&+LA black stag makes its way through the mountains.
+~
+   &+LThis large hairy quadruped resembles a large deer,
+&+Lalthough more fit for the rocky terrain, rather then
+&+Lthe forest.
+~
+72 0 0 0 0 0 0 0 S
+A 0 1 4
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94722
+harpy mother~
+&+ya harpy &+Wmother&N~
+&+yA large harpy &+Wmother &+ysquats on its nest, guarding it's babies.
+~
+   &+yThis harpy is quite large and experienced.  It's thick brown
+&+yfeathers have small missing patches, resulting from an older
+&+yage.
+~
+2122 1 0 134217728 0 0 0 0 S
+MH 0 1 2
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+6 6 2
+#94723
+baby harpy~
+&+ya baby harpy&N~
+&+yA baby harpy huddles close to it's &Nmother&+y.
+~
+   &+yThis small harpy seems quite young, but very quick
+&+yand nimble.  It currently is circling its prey at
+&+ya close proximity - most likely some worms or ants.
+~
+2122 0 0 134217728 0 0 0 0 S
+MH 0 1 2
+22 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94724
+tired minotaur~
+&+La &Ntired &+Lmino&+rtaur&N~
+&+LA large and &Ntired &+Lmino&+rtaur &+Lrests here, reclined against the &+gtree&+L.
+~
+   &+LThis large mino&+rtaur&+L looks quite exhausted as he lets out
+&+Lhuge throaty yawns, reclined against the &+gtree&+L.
+~
+2058 0 0 0 0 0 0 0 S
+MT 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+9 9 1
+#94725
+tropical treant sapling~
+&+ga tro&+Gp&+Yi&+Gc&+Ya&+Gl &+ytreant &+gsapling&N~
+&+gA trop&+Gi&+Yc&+Ga&+Yl &+ytreant &+gsapling grows from the rocky grass pasture.
+~
+   &+gThis young &+Gtree&+g is covered with elaborate &+Rfruits&+g and colorful
+&+gflowers.  Being a &+Gsapling&+g, it is still quite small in size.
+&+gThe tro&+Gp&+Yi&+Gc&+Ya&+Gl&+g nature of this &+yliving&+G plant&+g gives it a very pleasant
+&+gscent and appearance.
+~
+10 0 0 0 0 0 0 0 S
+AH 0 1 2
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94726
+tropical treant sapling~
+&+ga tro&+Gp&+Yi&+Gc&+Ya&+Gl &+ytreant &+gsapling&N~
+&+gA trop&+Gi&+Yc&+Ga&+Yl &+ytreant &+gsapling grows from the rocky grass pasture.
+~
+   &+gThis young &+Gtree&+g is covered with elaborate &+Rfruits&+g and colorful
+&+gflowers.  Being a &+Gsapling&+g, it is still quite small in size.
+&+gThe tro&+Gp&+Yi&+Gc&+Ya&+Gl&+g nature of this &+yliving&+G plant&+g gives it a very pleasant
+&+gscent and appearance.
+~
+10 0 0 0 0 0 0 0 S
+AH 0 1 2
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94727
+tropical treant sapling~
+&+ga tro&+Gp&+Yi&+Gc&+Ya&+Gl &+ytreant &+gsapling&N~
+&+gA trop&+Gi&+Yc&+Ga&+Yl &+ytreant &+gsapling grows from the rocky grass pasture.
+~
+   &+gThis young &+Gtree&+g is covered with elaborate &+Rfruits&+g and colorful
+&+gflowers.  Being a &+Gsapling&+g, it is still quite small in size.
+&+gThe tro&+Gp&+Yi&+Gc&+Ya&+Gl&+g nature of this &+yliving&+G plant&+g gives it a very pleasant
+&+gscent and appearance.
+~
+10 0 0 0 0 0 0 0 S
+AH 0 1 2
+32 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94728
+exhausted thri kreen thri-kreen~
+&+gan &Nexhausted &+Gthri&N-&+Ykreen&N~
+&+gAn &Nexhausted &+Gthri&N-&+Ykreen&+g relaxes huddled in the corner.
+~
+   &+gThis &+Gthri-&+Ykreen&+g looks very tired as it finally
+&+gregains it's strength, relaxing in the corner of this campsite.
+~
+2058 0 0 0 0 0 0 0 S
+TK 0 1 3
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+9 9 1
+#94729
+troglodyte trog hunter~
+&+La muscular &+ytro&+Ygl&+Wo&+Ydy&+yte &+Lhunter&N~
+&+LHaving detected a scent, a &+ytro&+Ygl&+Wo&+Ydy&+yte &+Lwarrior searches for victims.
+~
+   &+LThis creature resembles a large bipedal lizard with very sleek
+&+Lskin.  This particular breed of &+ytrog&+Ylo&+Wdyte&+L has &+ybrownish &+Lskin with
+&+Ly&+Yel&+Ll&+Yow&+L bl&+Yo&+Ltc&+Yhe&+Ls and &+Ww&+Lhite sp&+Weck&+Ls covering its scaled body.
+   &+LMoving with great anticipation for another ambush, this &+ytrog&+Ylo&+Wdyte
+&+Lreadies itself for battle.
+~
+2120 1 0 8 0 0 0 -750 S
+H 0 16384 3
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94730
+troglodyte trog~
+&+La &+ytrog&+Ylo&+Wdyte&N~
+&+LA distrustful &+ytrog&+Ylo&+Wdyte &+Lstalks through the tunnel maliciously.
+~
+   &+LThis creature resembles a large bipedal lizard with very sleek
+&+Lskin.  This particular breed of &+ytrog&+Ylo&+Wdyte&+L has &+ybrownish &+Lskin with
+&+Ly&+Yel&+Ll&+Yow&+L bl&+Yo&+Ltc&+Yhe&+Ls and &+Ww&+Lhite sp&+Weck&+Ls covering its scaled body.
+   &+LMoving with great anticipation for another ambush, this &+ytrog&+Ylo&+Wdyte
+&+Lreadies itself for battle.
+~
+2120 1 0 8 0 0 0 -750 S
+H 0 1 3
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94731
+troglodyte trog~
+&+La &+Wtr&+Yog&+Wl&+Yo&+ydyte&N~
+&+LA grinning &+Wtr&+Yog&+Wl&+Yo&+ydyte &+Lcreeping towards the light in the tunnel.
+~
+   &+LThis creature resembles a large bipedal lizard with very sleek
+&+Lskin.  This particular breed of &+ytrog&+Ylo&+Wdyte&+L has &+ybrownish &+Lskin with
+&+Ly&+Yel&+Ll&+Yow&+L bl&+Yo&+Ltc&+Yhe&+Ls and &+Ww&+Lhite sp&+Weck&+Ls covering its scaled body.
+   &+LMoving with great anticipation for another ambush, this &+ytrog&+Ylo&+Wdyte
+&+Lreadies itself for battle.
+~
+2120 1 0 8 0 0 0 -750 S
+H 0 1 3
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94732
+storming air sylph~
+&+Wa storming &+Cair sylph~
+&+WA swirling air slyph storms out of control through the court.
+~
+   &+WThis elemental is composed of solid air.  It floats he&+Cre in this
+&+Wmystical plane, storming with an aggr&+Cessive essence.  Perhaps this
+&+Wwas, at one time, &+Ca controlled elemental.  However, this sentient
+&+Ccreature has broken from its masters control and is otherwise imprisoned
+&+Cin this realm.
+~
+2056 1 0 8 0 0 0 0 S
+EA 0 1 -1
+29 0 -5 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94733
+titan bodyguard guard~
+&+Ca &+Wtitan &+Cbodyguard&N~
+&+CA massive titan confidently protects the doorway with his life.
+~
+   &+CThis massive &+Wtitan &+Cwould gladly give his life to protect
+&+Chis lord Borthur the Proud.  Wearing heavy platinum armor, and a
+&+Cmassive sword in hand, this bodyguard confidently protects his
+&+Cmaster's personal quarters.
+~
+2058 1 0 8 0 0 0 0 S
+G 0 1 -1
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94734
+titan guardsman guard~
+&+Ca titan guardsman~
+&+CA bulky titan guardsman wanders through the court after the disturbance.
+~
+   &+CThis titan, although quite massive in size and frame, appears
+&+Cquite bothered and distraught at the moment.  Perhaps this lack of
+&+Cpride has hindered this titan from been promoted in rank beyond a
+&+Csimple patrol guard.  However, he holds his position and continues
+&+Chis watch over the court.
+~
+67110920 0 0 0 0 0 0 0 S
+G 0 1 -1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94735
+titan commoner~
+&+ca titan commoner&N~
+&+cFrenzied by the disturbance, a titan commoner lunges towards the foreign form!
+~
+   &+cThis titan commoner, residing in the court of Borthur the Proud,
+&+chas become panic-stricken and frenzied by the recent disturbance.
+&+cSuspicious of your arrival, this commoner fears you have the worst
+&+cintensions and yells in a booming voice 'Tresspasser!!'
+~
+2056 1 0 0 0 0 0 0 S
+G 0 1 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94736
+young titan~
+&+ca young titan&N~
+&+cA young titan weeps as he paces about the court.
+~
+   &+cAlthough many many years older then even the oldest known humans,
+&+cthis titan is still very immature.  This young titan lad walks about
+&+cstumbling in disorientation as he cries, due to the recent disturbance
+&+cwithin the court.
+~
+2184 0 0 0 0 0 0 0 S
+G 0 1 -1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94737
+frenzied air elemental~
+&+Wa &Nfrenzied &+Wair &Nelemental&N~
+&NA frenzied &+Wair &Nelemental swirls through the area in an &+Wuncontrolled &Nfury.
+~
+   &+WThis air elemental, broken from the will of it's original masters,
+&+Wfloats around here in a frenzy, trapped in this foreign plane.
+~
+8 1 0 8 0 0 0 0 S
+EA 0 1 -1
+28 0 -5 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94738
+spirit dwarven cleric dwarf archaic~
+&+Wa spirit of an archaic dwarven cleric&N~
+&+WA translucent spirit of an archaic dwarven cleric floats here.
+~
+   &+WThis spectral apparition floats here within the ancient
+&+Wprayer room, now caved-in and overgrown with stalagmites.
+&+WThe image of this dwarf is covered in ancient-looking dwarven
+&+Wgarb, and appears to be shorter, yet stronger, then mundane
+&+Wdwarves.  A great feeling of holy rejuvenation flows from the
+&+Wrighteous form of this holyman.
+~
+2122 128 0 2 0 0 0 1000 S
+UG 0 33 -1
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94739
+darkened crimson cave wyrm~
+&+La &+rf&+Ri&+re&+Rr&+ry &+Lcave &+rwyrm&N~
+&+rA very long wyrm slowly maneuvers through the molten rocky terrain.
+~
+   &+LThis long creature has many short, clawed legs.  The &+rwyrm&+L
+&+Lmoves like a snake, undulating back and forth through the
+&+Lcracks and crevices of the jagged rocky ledges and the magma.
+&+LThis &+rwyrm &+Lhas bits of rock hardened onto its body, as it
+&+Lappears to be completely resilient to the effects of this
+&+Lterrain.
+~
+8 0 0 536870912 1 0 0 0 S
+R 0 1 4
+40 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94740
+magma man magmaman~
+&+ra &+rm&+La&+rg&+Lm&+ra &+rman&N~
+&+rA fi&+Le&+rry &+Lma&+rgm&+La m&+ran &+Ler&+rec&+Lts &+rfr&+Lom &+rth&+Le &+rmo&+Llt&+ren &+Lfl&+row &+Lin &+ra s&+Lur&+rre&+Lal &+rdi&+Lsp&+rlay&+L.
+~
+   &+LThis creature, composed of &+rbits&+L and &+rchunks&+L of &+yrock&+L and molten &+rlava,
+&+Lforms from the &+rmagma flow&+L below and stands here, ready to protect his
+&+Ldomain and do battle with trespassers.
+~
+2120 1 0 536870920 1 0 0 -300 S
+EF 0 1 3
+32 0 -10 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94741
+flame bat~
+&+ra flame bat&N~
+&+RA flame bat sits perched on a &+rrock &+Rprotrusion, attracted to the heat.
+~
+   &+LThis small &+rbat&+L occasionally floats through the air, close to the
+&+Lshi&+rm&+Rm&+Ye&+Wr&+Yi&+Rn&+rg&+L ceilings of these caves, keeping a steady watch for humanoid
+&+Lprey.  The nature of this breed of &+rbat is to be attracted to &+Yheat&+L,
+&+Lmuch like other mammals are attracted to water.
+~
+72 1 0 536870920 1 0 0 0 S
+B 0 1 1
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94742
+lava beast~
+&+Ra lava be&+ma&+Rst&N~
+&+RA bright red dangerous-looking beast crawls across the rocks.
+~
+   &+RThis magical beast is a horrifying mix of rock, earth, and
+&+Rflaming lava.  It has glowing eyes, surrounded by black and
+&+Rearthen bits.  It seems to posess the ability to reach out
+&+Rwith extra arms as desired, making it an efficient stalker.
+~
+2120 1 0 536870912 1 0 0 0 S
+TK 0 1 2
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94743
+disgusting maggot~
+&+La dis&+mgus&+Mting &+Wm&Na&+Wg&Ng&+Wo&Nt~
+&+LA dis&+mgus&+Mting &+Wm&Na&+Wg&Ng&+Wo&Nt &+Lwriggles across a piece of &+rflesh &+Lon the floor.
+~
+   &+LThis disgusting &+Wm&Na&+Wg&Ng&+Wo&Nt&+L is made of a thick, translucent flesh,
+&+Lsurrounding a &+Mpurple &+Looze within.  Two shiny black &+bpincers&+L reach out
+&+Lfrom the front side of its bloated by, piching away at bits of
+&+Lfl&+res&+Lh that litter these c&+ra&+Lt&+ra&+Lcombs.
+~
+8 1 0 0 0 0 0 0 S
+AP 0 1 1
+20 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94744
+tiny purple maggot~
+&+La tiny &+mpurple &Nm&+Wa&Ng&+Wg&No&+Wt&N~
+&+LA tiny &nm&+Wa&Ng&+Wg&No&+Wt &+Lcrawls here searching for bits of food.
+~
+   &+LThis disgusting &+Wm&Na&+Wg&Ng&+Wo&Nt&+L is made of a thick, translucent flesh,
+&+Lsurrounding a &+Mpurple &+Looze within.  Two shiny black &+bpincers&+L reach out
+&+Lfrom the front side of its bloated by, piching away at bits of
+&+Lfl&+res&+Lh that litter these c&+ra&+Lt&+ra&+Lcombs.
+~
+8 1 0 0 0 0 0 0 S
+AP 0 1 1
+15 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94745
+fomorian giant~
+&+ya &+rf&+yo&+rm&+yo&+rr&+yi&+ra&+yn &+rg&+yi&+ra&+yn&+rt&N~
+&+LA disgusting &+rg&+yi&+ra&+yn&+rt &+Lof &+rr&+ye&+rv&+yo&+rl&+yt&+ri&+yn&+rg &+yf&+rl&+ye&+rs&+yh &+Lgroans as it stalks the c&+ra&+Lt&+ra&+Lcombs.
+~
+   &+LThis foul and disgusting beast is much shorter then a regular giant,
+&+Land also much more disgusting.  This beast reeks of foul excrement and
+&+Lrotten flesh.  Various humanoid pieces, such as ears, fingers, and eyes,
+&+Lgrow out of the body of this beast in a gruesome and unhuman way.
+~
+72 1 0 8 0 0 0 0 S
+G 0 1 5
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94746
+undead minotaur~
+&+Lan undead mino&+rtaur&N~
+&+LA fearsome undead mino&+rtaur &+Lturns, staring with &+rhungry &+Lvacant eyes.
+~
+   &+LThis huge mino&+rtaur&+L looked to at one time of been a mighty adventurer.
+&+LThe standard battle garments familiar to those of N&+rax&+L are seen on this
+&+Lcreature's body, however they do appear quite old and &+ytattered&+L.  Massive
+&+Lpieces of &+rflesh &+Lare missing from this undead mino&+rtaur&+L's body, as various
+&+Wbones&+L can be seen protruding from its body.
+~
+8 1 0 8 0 0 0 -1000 S
+U 0 1 4
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94747
+blood red ooze~
+&+Ra &+rblood red &+Rooze&N~
+&+RAn ooze the &+rcolor &+Rof &+rblood &+Rreaches towards you.
+~
+   &+rThis creature looks like a puddle of blood, making it quite hard
+&+rto discern from the other blood in this dismal &+Lc&+ra&+Lt&+ra&+Lcomb.
+&+rThis ooze occasionally reaches out with tentacle-like projections
+&+rin an attempt to grab onto its prey.
+~
+67108872 1 0 8 0 0 0 -600 S
+SL 0 1 1
+26 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94748
+nearly invisible nearly-invisible gheist~
+&+La nearly-invisible gheist&N~
+&+LA nearly-invisible gheist floats through, haunting the c&+ra&+Lt&+ra&+Lcombs.
+~
+   &+LThis foul und&Nea&+Ld creature, although in an apparitional form,
+&+Lhas had its soul &+rdoomed&+L to haunt the area where it had died
+&+Las a mortal.
+~
+72 1 0 524288 0 0 0 -1000 S
+U 0 1 3
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94749
+thri-kreen thri kreen horrified~
+&+La &+Whorrifi&Ne&+Ld &+gthri&N-&+Ykreen&N~
+&+LA frail &+gthri&N-&+Ykreen &+Lneurotically peers back and forth, lost in the &+Lc&+ra&+Lt&+ra&+Lcombs.
+~
+   &+LThis &+gthri-&+Ykreen&+L has been stricken with the terror of knowing that
+&+Lhe will most likely become victim to the horrors of these c&+ra&+Lt&+ra&+Lcombs.
+&+LLooking quite &Nfrail&+L, it appears that this &+gthri&+Y-kreen&+L has been here
+&+Lfor quite some time.
+~
+8 0 0 0 0 0 0 0 S
+TK 0 1 -1
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94750
+huge black spider~
+&+La &+yhu&+Lge bl&+yac&+Lk spi&+yde&+Lr&N~
+&+LA huge black &+yspider &+Lcrawls across &+yone &+Lof the &+ymany &+Lintricate &+ywebs&+L.
+~
+   &+LThis spider is similzar in size of a cat.  It has busy brown and black
+&+Lfur with many beady black eyes.  Two shiny black fangs reach several
+&+Linches form its mouth.
+~
+72 1 0 8 0 0 0 0 S
+AS 0 1 2
+28 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94751
+screeching vampire bat~
+&+La screeching vampire bat&N~
+&+LA screeching bat swoops down towards the movement to attack.
+~
+   &+LQuite large for a bat, this winged creature swoops down from
+&+Lhidden perches before landing onto the next.  This bat releases
+&+La loud shrieking sound as it swoops in to attack.
+~
+8 1 0 8 0 0 0 -500 S
+B 0 1 1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94752
+patch moss~
+&+Ga &+gpatch &+Gof &+gmoss&N~
+&+GA sentient &+gpatch &+Gof &+gmoss &+Ggrows here, reaching outward.
+~
+   &+gThis strange patch of &+Gmoss&+g has developed a defense mechanism to
+&+greach out and strangle anything that comes too close to it.  Inside
+&+gthe &+mfiberous &+gtendrils of this &+Gmoss&+g are tiny rat &+Wskulls&+g and dusty
+&+gspider &Nwebs&+g.
+~
+10 1 0 8 0 0 0 0 S
+AP 0 1 1
+30 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94753
+large black spider~
+&+La l&Na&+Lr&Ng&+Le black s&Np&+Li&Nd&+Le&Nr&N~
+&+LA &Nh&+Lu&Ng&+Le black s&Np&+Li&Nd&+Le&Nr &+Lc&Nr&+La&Nw&+Ll&Ns &+La&Nc&+Lr&No&+Ls&ns &+La t&Nh&+Li&Nc&+Lk a&Nn&+Ld s&Nt&+Li&Nc&+Lk&Ny &+Lw&Ne&+Lb.
+~
+   &+LThis black spider is the size of an average cat.  It has thick black
+&+Lhair growing off of its entire body and legs.  The spider blends in very
+&+Lwell to the black rock of this underdark.
+~
+8 1 0 8 0 0 0 -500 S
+AS 0 1 2
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94754
+thorny moss vine~
+&+ga &+ythorny &+gmoss &+Gvine&N~
+&+gA long moss &+Gvine &+gcovered with tiny little &+ythorns &+greaches out from the moss.
+~
+   &+gThis long tentacle-like vine of &+Gmoss &+greaches out in a
+&+gwhip-like manner.  Tiny &+ythorns &+gcover the vine.
+~
+8 1 0 8 0 0 0 -300 S
+AP 0 1 1
+24 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94755
+huge black drider~
+&+La huge black &+mdrider&N~
+&+LA huge black &+mdrider&+L creeps up, fangs moist with venom.&N
+~
+   &+LThis huge creature is the horrifying combination between a spider
+&+Lwith the torso of a drow elf.  It is rumored that this type of creature
+&+Lis a cursed noble, damned to the life of a drider by the great spider
+&+Lqueen Lolth.
+~
+72 1 0 8 0 0 0 -1000 S
+DR 0 1 4
+35 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94756
+vicious magenta drider~
+&+ma &+rvicious &+mmagenta &+Ldrider&N~
+&+mA vicious &+Ldrider &+mwith a magenta &+Land black carapance&+m is here.
+~
+   &+LThis huge creature is the horrifying combination between a spider
+&+Lwith the torso of a drow elf.  It is rumored that this type of creature
+&+Lis a cursed noble, damned to the life of a drider by the great spider
+&+Lqueen Lolth.
+~
+72 1 0 8 0 0 0 -1000 S
+DR 0 1 4
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94757
+nahasp hermit~
+&+LNahasp, the &+ghermit&N~
+&+LNahasp, the &+ghermit &+Lcrouches on over the &+cgrate&+L, eyeing you suspiciously.
+~
+   &+LThis short humanoid wears a dirty loin cloth and some raggedy boots.
+&+LNumerous dull bracelets and rings cover the hands and fingers of Nahasp.
+&+LLurking through these mountains, this short, wirey creature seems to be
+&+Lvery familiar with its surroundings.
+   &+LA strange glimmer in his eye suggests that he may posess more knowledge
+&+Lthan he lets on.
+~
+2122 0 0 8 0 0 0 0 S
+H 0 1 2
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94758
+vegepygmy pygmy mold man~
+&+ma vege&+Mpygmy&N~
+&+LA short &+mmold man &+Lemerges from a nearby &+mfungal &+Lgrowth.&N
+~
+   &+LThis small creature emergences from what has appeared to be a simple
+&+Lsubterranean growth of temperate fungus.  Bipedal in nature, the mold man
+&+Lor vegepygmy lurks in these fungal caverns here with its kin, forming a
+&+Lsmall and primative tribe.
+~
+2184 0 0 524288 0 0 0 0 S
+H 0 1 2
+27 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94759
+vegepygmy pygmy mold man elder~
+&+man elder vege&+Mpygmy&N~
+&+LAn elder &+mmold man &+Lemerges from a &+gfungal &+Lgrowth.
+~
+   &+LThis small creature emergences from what has appeared to be a simple
+&+Lsubterranean growth of temperate fungus.  Bipedal in nature, the mold man
+&+Lor vegepygmy lurks in these fungal caverns here with its kin, forming a
+&+Lsmall and primative tribe.
+~
+2056 0 0 524288 0 0 0 0 S
+H 0 1 2
+31 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94760
+vegepymy pygmy mold man ancient~
+&+man &+Lancient &+mvege&+Mpygmy&N~
+&+mAn &+Lancient &+mvege&+Mpygmy &+msneaks through the &+gfungus&+m, eyes on his children.
+~
+   &+LThis small creature emergences from what has appeared to be a simple
+&+Lsubterranean growth of temperate fungus.  Bipedal in nature, the mold man
+&+Lor vegepygmy lurks in these fungal caverns here with its kin, forming a
+&+Lsmall and primative tribe.
+~
+2184 0 0 1572864 0 0 0 0 S
+H 0 32 2
+33 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#94762
+titan holyman~
+&+Wa &+Ctitan &+Wholyman&N~
+&+WA priestly &+Ctitan &+Wholyman confidently prays at the shrine.
+~
+   &+CThis titan wears priestly robes and currently resides in this still-in-tact
+&+Cshrine of the Titan castle.  Holy symbols adorn the brilliant white garments
+&+Cof this figure and a smile covers his large, ample face.
+~
+138 0 0 0 0 0 0 0 S
+G 0 32 -1
+29 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#94763
+minotaur adventurer~
+&+La &+rmino&+Ltaur &+cadventurer&N~
+&+LA strong-looking &+rmino&+Ltaur &+cadventurer&+L braves the fiery infero.
+~
+   &+LThis strong-looking minotaur stands well over seven feet tall.
+&+LHe has thick massive legs and a broad body.  The head of this
+&+Lminotaur resembles a fearsome, horned bull.  He currently is
+&+Lcovered with burns that seem to be healing quite well from
+&+La magical force as he braves the fiery inferno of this cave.
+~
+2120 0 0 536870912 0 0 0 0 S
+MT 0 1 -1
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1

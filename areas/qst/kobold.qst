@@ -1,0 +1,129 @@
+#1418
+M
+qc_action 50~
+&+LA &+rs&+Ltr&+ro&+Lnad &+rg&+Lo&+rl&+re&+Lm shakes the cavern with each huge, heavy step.
+~
+M
+qc_action 50~
+&+L*STOMP*...*STOMP*...*STOMP*...*STOMP*...
+~
+S
+#1420
+M
+rod rulership tyxru~
+Szxvu stares you up and down and then tells you, 'a~q!  aioo r0b q!  @^zuu
+vmi*wuub >|a~uuruux iq!  @^zuu pmuu0@ mij, a~ r0b muuq!impuu a~@ !!'
+
+The kobold blacksmith continues to look at you,... as if judging
+whether or not you mean what you ask...
+~
+M
+mine mines silver~
+Szxvu grunts and says, 'the mines aren't running with the silver they
+used to.  I need large blocks silver to work with... not tiny nuggets.
+BUT, I can make nuggets into large block of usable silver... for a fee.'
+~
+M
+fee~
+The blacksmith snorts and says, 'the fee for making shield is 170
+platinum... the fee for smelting nuggets is 10 platinum.
+Other services are prices on individual basis.'
+~
+M
+block blocks shield~
+Szxvu snorts and says in halting common, 'I make or forge nearly
+anything, give me couple decent blocks of silver and I forge you great
+shield.'
+
+Szxvu grins at you and then adds, 'For 170 platinum fee first,... AND two
+large blocks of silver'
+~
+M
+nugget nuggets~
+Szxvu says 'for say, 10 platinum coins, I can take 8 silver nuggets
+and make it into a block of usable silver.  With that block of silver
+I could make many great things.... for a price.'
+~
+M
+jewels jewel eyes eye~
+Szxvu looks at you oddly and says in halting common, 'I need see these
+jewels before I can tell you if I can make something useful of them.'
+~
+Q
+Szxvu grabs your blocks of silver and looks very carefully at them, then
+looks at the platinum which he snatched even quicker from your hand
+when he saw you offering his fee.  Without a word he goes to his forge
+and begins pounding away with his powerful hammer like a man
+possessed.  You are amazed when the kobold smith hands back to you a
+shinning silver shield of more than fair work for that of a kobold.
+'Be off with ya now!' he growls as a departure.
+~
+R I 1451
+G I 1448
+G I 1448
+G C 170000
+Q
+Szxvu takes your nuggets and goes to his blazing fire to begin his
+work.  As time passes the kobold blacksmith takes each raw silver
+nugget and smelts the material down into a pool of pure silver.  The
+block then cools into a shinning bar of silver.
+
+Wiping his brow, Szxvu gingerly hands you the now cooled block of
+silver.  With a wicked grin he says, 'There's much can be done with a
+couple good block of silver ... could make a great shield!'
+~
+R I 1448
+G I 1447
+G I 1447
+G I 1447
+G I 1447
+G I 1447
+G I 1447
+G I 1447
+G I 1447
+G C 10000
+Q
+The blacksmiths examines the set of gems carefuly.
+
+'A delicate work. If i only had matching frames,
+ i could  fix it for you for a fee of 20 platinium pieces.'
+~
+R I 1431
+G I 1431
+Q
+'Excellent! Those frames should be just right.
+ Please wait patiently while i do my work.'
+
+
+'Here you are. Twenty platinium coins.
+ May your new spectacles serve you well'
+~
+R I 1432
+G C 20000
+G I 1433
+G I 1431
+S
+#1446
+M
+qc_action 45~
+&+LA &+ykobold&+L miners chips away at a rock.
+~
+M
+qc_action 60~
+&+LA &+ykobold&+L miner chops into a large rock with large heave.
+~
+S
+#1447
+M
+qc_action 50~
+&+LA &+ykobold &+Lsurveyor scurries over to one part of the cavern and nods.
+~
+M
+qc_action 50~
+&+LA &+ykobold&+L surveyor scratches his head and smells his finger.
+~
+M
+qc_action 50~
+&+LA &+ykobold&+L surveyor grins as he picks up a small pile of &+ydung&+L and heaves it at a miner.
+~
+S

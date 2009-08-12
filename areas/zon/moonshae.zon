@@ -1,0 +1,254 @@
+#262
+&+YMoonshae &+GIsland&n~
+26340 2 0 19 29 1
+*
+* Zone edited with durisEdit v2.99de
+*
+*
+D 0 26217 1 1 100 0 0 0
+*     east exit from "The Castle Gates" to
+*     "The Caer Corwell Courtyard" - closed
+*
+D 0 26218 3 1 100 0 0 0
+*     west exit from "The Caer Corwell Courtyard" to
+*     "The Castle Gates" - closed
+*
+D 0 26227 2 1 100 0 0 0
+*     south exit from "A Long Hallway" to
+*     "The Grand Meeting Hall Of Corwell" - closed
+*
+D 0 26231 0 1 100 0 0 0
+*     north exit from "The Grand Meeting Hall Of Corwell" to
+*     "A Long Hallway" - closed
+*
+D 0 26242 0 0 100 0 0 0
+*     north exit from "The Royal Hallway" to
+*     "The Kings Chambers" - open
+*
+D 0 26243 2 0 100 0 0 0
+*     south exit from "The Kings Chambers" to
+*     "The Royal Hallway" - open
+*
+D 0 26243 0 2 100 0 0 0
+*     north exit from "The Kings Chambers" to
+*     "The Kings Secret Room" - closed/locked
+*
+D 0 26245 2 2 100 0 0 0
+*     south exit from "The Kings Secret Room" to
+*     "The Kings Chambers" - closed/locked
+*
+D 0 26249 3 0 100 0 0 0
+*     west exit from "A Moving Hall Way" to
+*     "The High Tower of Corwell" - open
+*
+D 0 26250 1 0 100 0 0 0
+*     east exit from "The High Tower of Corwell" to
+*     "A Moving Hall Way" - open
+*
+D 0 26258 3 6 100 0 0 0
+*     west exit from "Entrance To A Hidden Cave" to
+*     "A Small Dirt Road" - closed/locked/secret
+*
+D 0 26287 1 2 100 0 0 0
+*     east exit from "A Small Dirt Road" to
+*     "Entrance To A Hidden Cave" - closed/locked
+*
+D 0 26304 2 1 100 0 0 0
+*     south exit from "A Narrow Well Hidden Trail" to
+*     "Shining Path Through The Mountain" - closed
+*
+D 0 26305 0 1 100 0 0 0
+*     north exit from "Shining Path Through The Mountain" to
+*     "A Narrow Well Hidden Trail" - closed
+*
+D 0 26305 3 1 100 0 0 0
+*     west exit from "Shining Path Through The Mountain" to
+*     "A Small Clearing" - closed
+*
+D 0 26306 1 1 100 0 0 0
+*     east exit from "A Small Clearing" to
+*     "Shining Path Through The Mountain" - closed
+*
+D 0 26310 3 0 100 0 0 0
+*     west exit from "Southern Part Of A Small Camp" to
+*     "Trail Through Myrloch Vale" - open
+*
+D 0 26311 1 0 100 0 0 0
+*     east exit from "Trail Through Myrloch Vale" to
+*     "Southern Part Of A Small Camp" - open
+*
+D 0 26312 3 1 100 0 0 0
+*     west exit from "A Small Path Though The Fields" to
+*     "A Large Brightly Colored Tent" - closed
+*
+D 0 26316 1 1 100 0 0 0
+*     east exit from "A Large Brightly Colored Tent" to
+*     "A Small Path Though The Fields" - closed
+*
+D 0 26313 1 1 100 0 0 0
+*     east exit from "A Small Worn Trail In The Fields" to
+*     "A Large Purple Tent" - closed
+*
+D 0 26315 3 1 100 0 0 0
+*     west exit from "A Large Purple Tent" to
+*     "A Small Worn Trail In The Fields" - closed
+*
+D 0 26317 0 0 100 0 0 0
+*     north exit from "A Cobblestone Plaza" to
+*     "A Large Green Tent" - open
+*
+D 0 26319 2 0 100 0 0 0
+*     south exit from "A Large Green Tent" to
+*     "A Cobblestone Plaza" - open
+*
+D 0 26317 1 0 100 0 0 0
+*     east exit from "A Cobblestone Plaza" to
+*     "A Soft Blue Tent" - open
+*
+D 0 26318 3 0 100 0 0 0
+*     west exit from "A Soft Blue Tent" to
+*     "A Cobblestone Plaza" - open
+*
+*
+O 0 11100 1 26200 100 0 0 0        * (object type not in this .obj file)
+O 0 26236 1 26219 100 0 0 0        * a jeweled fountain
+O 0 26213 1 26317 100 0 0 0        * a large fountain
+O 0 26214 1 26333 100 0 0 0        * a moonwell of the earthmother
+*
+M 0 26201 4 26202 100 0 0 0        * the ffolk fisherman
+G 1 26200 3 0 100 0 0 0            *    a fine fishing pole
+M 0 26201 4 26202 100 0 0 0        * the ffolk fisherman
+G 1 26200 3 0 100 0 0 0            *    a fine fishing pole
+M 0 26201 4 26203 100 0 0 0        * the ffolk fisherman
+G 1 26200 3 0 100 0 0 0            *    a fine fishing pole
+M 0 26201 4 26203 100 0 0 0        * the ffolk fisherman
+M 0 26200 9 26204 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26207 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26208 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26211 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26213 100 0 0 0        * the ffolk commoner
+M 0 26202 8 26213 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26200 9 26214 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26214 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26214 100 0 0 0        * the ffolk commoner
+M 0 26200 9 26215 100 0 0 0        * the ffolk commoner
+M 0 26205 6 26215 100 0 0 0        * a noble lord
+M 0 26202 8 26217 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26202 8 26217 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26202 8 26219 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26202 8 26219 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26205 6 26219 100 0 0 0        * a noble lord
+M 0 26202 8 26221 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26206 5 26221 100 0 0 0        * a Corwell Maid
+M 0 26206 5 26222 100 0 0 0        * a Corwell Maid
+M 0 26202 8 26226 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26206 5 26226 100 0 0 0        * a Corwell Maid
+M 0 26205 6 26229 100 0 0 0        * a noble lord
+M 0 26206 5 26229 100 0 0 0        * a Corwell Maid
+M 0 26205 6 26231 100 0 0 0        * a noble lord
+M 0 26205 6 26231 100 0 0 0        * a noble lord
+M 0 26206 5 26240 100 0 0 0        * a Corwell Maid
+M 0 26208 1 26244 100 0 0 0        * Tristan Kendrick
+E 1 26225 1 13 100 0 0 0           *   a white belt lined with silver
+M 0 26221 1 26244 100 0 0 0        * Brigit, the sister knight of synnoria
+E 1 26226 1 11 100 0 0 0           *   a white and silver shield
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26207 1 26250 100 0 0 0        * Keen the high mage
+E 1 26202 1 3 100 0 0 0            *   a cloak of woven moonbeams
+E 1 26232 1 4 100 0 0 0            *   a chain of blackened prisms
+E 1 26208 1 16 100 0 0 0           *   an orb of thought
+M 0 26212 11 26259 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26211 8 26261 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26212 11 26262 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26211 8 26263 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26211 8 26263 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26213 8 26264 100 0 0 0        * a drunk firbolg
+M 0 26212 11 26264 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26211 8 26265 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26211 8 26266 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26213 8 26267 100 0 0 0        * a drunk firbolg
+M 0 26211 8 26268 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26213 8 26268 100 0 0 0        * a drunk firbolg
+M 0 26212 11 26268 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26212 11 26269 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26214 1 26270 100 0 0 0        * the firbolg foreman
+E 1 26231 1 6 100 0 0 0            *   a crown of leafs
+E 1 26230 1 15 100 0 0 0           *   a small bracelet made of roots
+E 1 26209 1 18 100 0 0 0           *   an onyx orb
+G 1 26210 1 0 100 0 0 0            *    an orb of granite
+G 1 26233 1 0 100 0 0 0            *    the lost sword of Cymrych Hugh
+M 0 26212 11 26270 100 0 0 0       * a firbolg guard
+M 0 26212 11 26270 100 0 0 0       * a firbolg guard
+M 0 26212 11 26270 100 0 0 0       * a firbolg guard
+M 0 26212 11 26271 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26213 8 26272 100 0 0 0        * a drunk firbolg
+M 0 26213 8 26273 100 0 0 0        * a drunk firbolg
+M 0 26211 8 26274 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26213 8 26274 100 0 0 0        * a drunk firbolg
+M 0 26213 8 26274 100 0 0 0        * a drunk firbolg
+M 0 26212 11 26275 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26213 8 26275 100 0 0 0        * a drunk firbolg
+M 0 26212 11 26275 100 0 0 0       * a firbolg guard
+E 1 26228 8 16 100 0 0 0           *   a ironwood club
+M 0 26211 8 26275 100 0 0 0        * a firbolg
+E 1 26229 8 16 100 0 0 0           *   a large club
+M 0 26204 1 26297 100 0 0 0        * an evil spirit
+G 1 26212 1 0 100 0 0 0            *    a robe of ether
+M 0 26222 3 26308 100 0 0 0        * a sister knight of synnoria
+E 1 26224 1 6 100 0 0 0            *   a white and silver helmet
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26218 1 26309 100 0 0 0        * a sister knight of synnoria
+E 1 26219 1 8 100 0 0 0            *   some forest green boots
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26219 1 26309 100 0 0 0        * a sister knight of synnoria
+E 1 26220 1 7 100 0 0 0            *   some forest green leggings
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26220 1 26309 100 0 0 0        * a sister knight of synnoria
+E 1 26221 1 10 100 0 0 0           *   some forest green sleeves
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26222 3 26309 100 0 0 0        * a sister knight of synnoria
+E 1 26223 1 9 100 0 0 0            *   some white and silver gloves
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26222 3 26310 100 0 0 0        * a sister knight of synnoria
+E 1 26222 1 12 100 0 0 0           *   a white vest with silver lining
+E 1 26227 7 16 100 0 0 0           *   a carved ivory sword
+M 0 26224 4 26310 100 0 0 0        * a white stallion of synnoria
+M 0 26224 4 26310 100 0 0 0        * a white stallion of synnoria
+M 0 26224 4 26310 100 0 0 0        * a white stallion of synnoria
+M 0 26224 4 26310 100 0 0 0        * a white stallion of synnoria
+M 0 26205 6 26315 100 0 0 0        * a noble lord
+M 0 26202 8 26317 100 0 0 0        * a Corwell guard
+G 1 26234 18 0 100 0 0 0           *    a slender longsword
+M 0 26203 1 26320 100 0 0 0        * Pawldo
+G 1 26237 1 0 100 0 0 0            *    a small red lobster
+G 1 26238 1 0 100 0 0 0            *    a large piece of shark meat
+G 1 26239 1 0 100 0 0 0            *    a black leather skin
+M 0 26225 1 26332 100 0 0 0        * the master druid Robyn
+E 1 26218 1 3 100 0 0 0            *   the amulet of the earthmother
+E 1 26217 1 5 100 0 0 0            *   a robe of the earthmother
+E 1 26216 1 18 100 0 0 0           *   the staff of the earthmother
+M 0 26233 1 26336 100 0 0 0        * the passenger receptionist
+G 1 26240 999 0 100 0 0 0          *    a ticket to Tharnadia
+*
+S
