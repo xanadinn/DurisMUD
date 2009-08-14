@@ -5266,13 +5266,6 @@ void do_who(P_char ch, char *argument, int cmd)
     return;
   }
   
-// Hack to stop crash bug during chaos.
-  if(!IS_TRUSTED(ch))
-  {
-    send_to_char("&+RWho is disabled for now... \r\n", ch);
-    return;
-  }
-  
   *pattern = 0;
 
   while (*argument)
