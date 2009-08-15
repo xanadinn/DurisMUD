@@ -5983,7 +5983,8 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   int      msg, victim_ac, to_hit, diceroll, wpn_skill, sic, tmp,
     wpn_skill_num;
   double   dam;
-  int      room, pos, vs_skill;
+  int      room, pos;
+  int vs_skill = GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE);
   struct affected_type aff, ir;
   struct affected_type *af;
   char     attacker_msg[512];
@@ -6481,18 +6482,17 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   messages.room = room_msg;
   messages.obj = weapon;
   
-  if(GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE) > 0)
+  if(vs_skill > 0)
   {
-    vs_skill = GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE);
     if(GET_CHAR_SKILL(ch, SKILL_ANATOMY) > 0)
       vs_skill += (int)(GET_CHAR_SKILL(ch, SKILL_ANATOMY) / 2);
+    
     if(IS_NPC(ch) &&
        IS_ELITE(ch))
           vs_skill += 100;
   }
-  
-  if (vs_skill &&
-            (notch_skill(ch, SKILL_VICIOUS_STRIKE,
+  if (vs_skill > 0 &&
+      (notch_skill(ch, SKILL_VICIOUS_STRIKE,
                   get_property("skill.notch.offensive.vicious.strike", 5)) ||
       vs_skill < number(1, 1000))) // PC 15% max per attack with 100 anatomy.
   {

@@ -948,8 +948,6 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
       XP *= 1.50;
     else if(IS_ELEMENTAL(victim))
       XP *= 1.30;
-    else if(IS_UNDEADRACE(victim))
-      XP *= 1.30;
       
     if(!IS_PC(ch) &&
        !IS_SET(ch->specials.act, ACT_MEMORY))
