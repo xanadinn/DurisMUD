@@ -718,32 +718,33 @@ void cast_plane_shift(int level, P_char ch, char *arg, int type,
     logit(LOG_EXIT, "cast_plane_shift called in spells.c without ch");
     raise(SIGSEGV);
   }
-  if(ch)
+
+  if(!IS_ALIVE(ch))
   {
-    if(!IS_ALIVE(ch))
-    {
-      send_to_char("The dead do not shift!\r\n", ch);
-      return;
-    }
-    
-    if((ch && !is_Raidable(ch, 0, 0)) ||
-       (tar_ch && !is_Raidable(tar_ch, 0, 0)))
-    {
-      send_to_char("&+WYou or your target is not raidable. The spell fails!\r\n", ch);
-      return;
-    }
+    send_to_char("The dead do not shift!\r\n", ch);
+    return;
+  }
+  
+  if((ch && !is_Raidable(ch, 0, 0)) ||
+     (tar_ch && !is_Raidable(tar_ch, 0, 0)))
+  {
+    send_to_char("&+WYou or your target is not raidable. The spell fails!\r\n", ch);
+    return;
+  }
 
-    switch (type)
-    {
-      case SPELL_TYPE_SPELL:
-        one_argument(arg, Gbuf4);
+  switch (type)
+  {
+    case SPELL_TYPE_SPELL:
+      one_argument(arg, Gbuf4);
 
-        if((GET_CLASS(ch, CLASS_DRUID) || (IS_MULTICLASS_PC(ch) && GET_SECONDARY_CLASS(ch, CLASS_DRUID))) &&
-          GET_LEVEL(ch) < 41)
-        {
-          send_to_char("You must reach level 41 to use this ability.\r\n", ch);
-          return;
-        }
+      if((GET_CLASS(ch, CLASS_DRUID) ||
+         (IS_MULTICLASS_PC(ch) &&
+         GET_SECONDARY_CLASS(ch, CLASS_DRUID))) &&
+            GET_LEVEL(ch) < 41)
+      {
+        send_to_char("You must reach level 41 to use this ability.\r\n", ch);
+        return;
+      }
 /*
 *   Allowing mortals to shift, gate, word and well from ocean tiles
 *   to encourage naval battles: 22Aug08 Lucrot
@@ -764,101 +765,100 @@ void cast_plane_shift(int level, P_char ch, char *arg, int type,
 // 6    prime, 
 // 7    hell,
 // 8    negative, 
-    
-        plane_id = search_block(Gbuf4, planes_name, FALSE);
-        
-        if(plane_id == 6 &&
-          GET_PRIME_CLASS(ch, CLASS_DRUID) &&
-          char_is_on_plane(ch))
-        {
-          act("$n slowly fades away...", 0, ch, 0, 0, TO_ROOM);
-          char_from_room(ch);
-          sprintf(Gbuf4, "You materialize on the %s plane!\r\n", planes_name[plane_id]);
-          send_to_char(Gbuf4, ch);
-          char_to_room(ch, real_room(GET_BIRTHPLACE(ch)), 0);
-          act("$n slowly materializes...", 0, ch, 0, 0, TO_ROOM);
-          return;
-        }
-        if((plane_id < 0) ||
-          (plane_id > 8))
+  
+      plane_id = search_block(Gbuf4, planes_name, FALSE);
+      
+      if(plane_id == 6 &&
+        GET_PRIME_CLASS(ch, CLASS_DRUID) &&
+        char_is_on_plane(ch))
+      {
+        act("$n slowly fades away...", 0, ch, 0, 0, TO_ROOM);
+        char_from_room(ch);
+        sprintf(Gbuf4, "You materialize on the %s plane!\r\n", planes_name[plane_id]);
+        send_to_char(Gbuf4, ch);
+        char_to_room(ch, real_room(GET_BIRTHPLACE(ch)), 0);
+        act("$n slowly materializes...", 0, ch, 0, 0, TO_ROOM);
+        return;
+      }
+      if((plane_id < 0) ||
+        (plane_id > 8))
+      {
+        send_to_char
+          ("Negative, Ethereal, Astral, Air, Water, Fire, Earth and Prime are the only valid targets!\r\n",
+           ch);
+        return;
+      }
+      from_zone = world[ch->in_room].zone;
+
+      if(plane_id != 6)
+      {
+        if(from_zone == world[MAX(0, real_room(planes_room_num[plane_id]))].zone)
         {
           send_to_char
-            ("Negative, Ethereal, Astral, Air, Water, Fire, Earth and Prime are the only valid targets!\r\n",
-             ch);
+            ("Plane shift is used for interplanar travel, try walking!\n", ch);
           return;
         }
-        from_zone = world[ch->in_room].zone;
-
-        if(plane_id != 6)
+        if(plane_id == 8)
         {
-          if(from_zone == world[MAX(0, real_room(planes_room_num[plane_id]))].zone)
-          {
-            send_to_char
-              ("Plane shift is used for interplanar travel, try walking!\n", ch);
-            return;
-          }
-          if(plane_id == 8)
-          {
-            to_room = real_room(number(26601, 26681));
-          }
-          else
-          {
-            do
-            {
-              to_room = get_room_in_zone(planes_room_num[plane_id], ch);
-            }
-            while (zone_table[world[to_room].zone].flags & ZONE_CLOSED);
-          }
+          to_room = real_room(number(26601, 26681));
         }
         else
         {
-          if((from_zone != world[MAX(0, real_room(planes_room_num[1]))].zone) &&
-            (world[ch->in_room].sector_type != SECT_FIREPLANE) &&
-            (world[ch->in_room].sector_type != SECT_AIR_PLANE))
-          {
-            /*  trying to use plane shift as a teleport, nah nah  */
-            send_to_char
-              ("Plane shift is used for interplanar travel, try walking!\n", ch);
-            return;
-          }
           do
           {
-            to_room = number(real_room(planes_room_num[6]), top_of_world);
+            to_room = get_room_in_zone(planes_room_num[plane_id], ch);
           }
-          while ((world[MAX(0, real_room(planes_room_num[1]))].zone ==
-                  world[to_room].zone) ||
-                 (world[to_room].sector_type == SECT_OCEAN) ||
-                 (world[to_room].sector_type == SECT_FIREPLANE) ||
-                 (world[to_room].zone == 83) ||
-                 (world[to_room].zone == 260) ||
-                 (world[to_room].sector_type == SECT_AIR_PLANE) ||
-                 (zone_table[world[to_room].zone].flags & ZONE_CLOSED) ||
-                 (!IS_MAP_ROOM(to_room))    //not a map room
-              );
+          while (zone_table[world[to_room].zone].flags & ZONE_CLOSED);
         }
-
-        if((to_room == NOWHERE) ||
-          (to_room == ch->in_room) ||
-          IS_SET(world[to_room].room_flags, NO_MAGIC) ||
-          IS_SET(world[ch->in_room].room_flags, NO_GATE) ||
-          IS_SET(world[to_room].room_flags, NO_GATE) ||
-          IS_HOMETOWN(to_room) ||
-          IS_HOMETOWN(ch->in_room))
+      }
+      else
+      {
+        if((from_zone != world[MAX(0, real_room(planes_room_num[1]))].zone) &&
+          (world[ch->in_room].sector_type != SECT_FIREPLANE) &&
+          (world[ch->in_room].sector_type != SECT_AIR_PLANE))
         {
-          send_to_char("Strange... nothing happens.\r\n", ch);
+          /*  trying to use plane shift as a teleport, nah nah  */
+          send_to_char
+            ("Plane shift is used for interplanar travel, try walking!\n", ch);
           return;
         }
-        act("$n slowly fades away...", 0, ch, 0, 0, TO_ROOM);
-        char_from_room(ch);
-        sprintf(Gbuf4, "You materialize in the %s plane!\r\n", planes_name[plane_id]);
-        send_to_char(Gbuf4, ch);
-        char_to_room(ch, to_room, 0);
-        act("$n slowly materializes...", 0, ch, 0, 0, TO_ROOM);
-        break;
-      default:
-        logit(LOG_DEBUG, "Serious screw-up in plane shift!");
-        break;
-    }
+        do
+        {
+          to_room = number(real_room(planes_room_num[6]), top_of_world);
+        }
+        while ((world[MAX(0, real_room(planes_room_num[1]))].zone ==
+                world[to_room].zone) ||
+               (world[to_room].sector_type == SECT_OCEAN) ||
+               (world[to_room].sector_type == SECT_FIREPLANE) ||
+               (world[to_room].zone == 83) ||
+               (world[to_room].zone == 260) ||
+               (world[to_room].sector_type == SECT_AIR_PLANE) ||
+               (zone_table[world[to_room].zone].flags & ZONE_CLOSED) ||
+               (!IS_MAP_ROOM(to_room))    //not a map room
+            );
+      }
+
+      if((to_room == NOWHERE) ||
+        (to_room == ch->in_room) ||
+        IS_SET(world[to_room].room_flags, NO_MAGIC) ||
+        IS_SET(world[ch->in_room].room_flags, NO_GATE) ||
+        IS_SET(world[to_room].room_flags, NO_GATE) ||
+        IS_HOMETOWN(to_room) ||
+        IS_HOMETOWN(ch->in_room))
+      {
+        send_to_char("Strange... nothing happens.\r\n", ch);
+        return;
+      }
+      act("$n slowly fades away...", 0, ch, 0, 0, TO_ROOM);
+      char_from_room(ch);
+      sprintf(Gbuf4, "You materialize in the %s plane!\r\n", planes_name[plane_id]);
+      send_to_char(Gbuf4, ch);
+      char_to_room(ch, to_room, 0);
+      act("$n slowly materializes...", 0, ch, 0, 0, TO_ROOM);
+      break;
+    default:
+      logit(LOG_DEBUG, "Serious screw-up in plane shift!");
+      break;
   }
 }
 

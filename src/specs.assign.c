@@ -189,7 +189,7 @@ void assign_mobiles(void)
   mob_index[real_mobile0(43110)].func.mob = money_changer; 
 
   /* Ailvio */
-  mob_index[real_mobile0(29303)].func.mob = bandage_mob;
+ // mob_index[real_mobile0(29303)].func.mob = bandage_mob;
  // mob_index[real_mobile0(29304)].func.mob = bandage_reward_mob;
   mob_index[real_mobile0(29236)].func.mob = newbie_spellup_mob;
   mob_index[real_mobile0(29238)].func.mob = newbie_spellup_mob;

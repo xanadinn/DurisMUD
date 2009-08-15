@@ -1618,14 +1618,15 @@ void do_darkness(P_char ch, char *arg, int cmd)
 
 void do_shift_astral(P_char ch, char *arg, int cmd)
 {
-        if (IS_FIGHTING(ch))
+  
+  if (IS_FIGHTING(ch))
   {
     send_to_char("You're too busy fighting!\n", ch);
     CharWait(ch, PULSE_VIOLENCE);
     return;
   }
 
-        if (affected_by_spell(ch, TAG_PVPDELAY))
+  if (affected_by_spell(ch, TAG_PVPDELAY))
   {
     send_to_char
       ("There is too much adrenaline pumping through your body right now.\n",

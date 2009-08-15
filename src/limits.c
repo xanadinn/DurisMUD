@@ -917,6 +917,17 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
         XP *= 0.50;
     }
     
+// Exp penalty for classes that advance too quickly.
+    if(GET_CLASS(ch, CLASS_NECROMANCER) &&
+       GET_LEVEL(ch) < 31)
+          XP *= 0.75;
+    else if(GET_CLASS(ch, CLASS_NECROMANCER))
+      XP *= 0.50
+
+// Exp penalty for classes that advance too quickly.
+    if(GET_CLASS(ch, CLASS_MERCENARY))
+      XP *= 0.75;
+    
     if(GET_RACE(victim) == RACE_DROW)
       XP *= 1.15;
     
