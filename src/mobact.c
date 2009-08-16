@@ -275,11 +275,17 @@ int char_deserves_helping(const P_char ch, const P_char candidate,
         (ch->group && (ch->group == candidate->group))))
     return FALSE;
     
-  if(GET_VNUM(ch) == WH_HIGH_PRIEST_VNUM ||
+// This is a hack to prevent the Winterhaven high priest from spelling up
+// anything other than players. Aug09 -Lucrot
+  if((IS_NPC(ch) && 
+     GET_VNUM(ch) == WH_HIGH_PRIEST_VNUM) ||
      GET_VNUM(candidate) == WH_HIGH_PRIEST_VNUM)
         return false;
     
-// Testing to see if this has a desired effect.
+// The following prevents mobs from buffing non-guard mobs in hometowns.
+// This has a desired effect: do not buff low level exp mobs.
+// At the moment, mobs 20th level and higher in hometowns have a
+// negative exp modifier. Aug09 -Lucrot
   if(IS_HOMETOWN(ch->in_room) &&
      !isname("guard", GET_NAME(candidate)))
         return false;
