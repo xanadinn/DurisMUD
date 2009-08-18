@@ -2143,13 +2143,14 @@ void static_discharge(P_char ch, P_char victim, int level, int intensity)
     "$N &+Lis overwhelmed by a burst of &+cli&+Cgh&+ctn&+Cin&+cg, &+Land leaves behind $S &+rcha&+Rrre&+rd re&+Rmai&+rns.",
       0
   };
-    
-  dam = (dice(((level / 5) + 5) * intensity, 6));
+  
+  level = MIN(46, level);
+  dam = (dice(((level / 5) + 5) * intensity, 5) * 3);
 
   for (int i = intensity;i;i--)
   {
-    if(NewSaves(victim, SAVING_SPELL, intensity-1))
-      dam -= (int) (dam*0.33/intensity);
+    if(!NewSaves(victim, SAVING_SPELL, intensity-1))
+      dam += (int) (dam*0.10/intensity);
   }
     
   if (IS_AFFECTED5(victim, AFF5_WET))
