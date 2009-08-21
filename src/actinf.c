@@ -4612,6 +4612,40 @@ void do_score(P_char ch, char *argument, int cmd)
     send_to_char(buf, ch);
     send_to_char("\n", ch);
   }
+  
+  buf[0] = 0;
+
+  if(affected_by_spell(ch, SONG_DRAGONS))
+    strcat(buf, " &+GSong of &+rD&+Lr&+ra&+Lg&+ro&+Ln&+rs&n");
+
+  if(affected_by_spell(ch, SONG_PROTECTION))
+    strcat(buf, " &+GSong of &+WProtection&n"); 
+
+  if(affected_by_spell(ch, SONG_PROTECTION))
+    strcat(buf, " &+GSong of &+WProtection&n");
+
+  if(affected_by_spell(ch, SONG_REVELATION))
+    strcat(buf, " &+GSong of &+cR&+Ce&+cv&+Ce&+cl&+Ca&+ct&+Ci&+co&+Cn&n");    
+
+  if(affected_by_spell(ch, SONG_HEROISM))
+    strcat(buf, " &+GSong of &+YHeroism&n");  
+    
+  if(affected_by_spell(ch, SONG_FLIGHT))
+    strcat(buf, " &+GSong of &+CFlight&n"); 
+    
+  if(affected_by_spell(ch, SONG_PEACE))
+    strcat(buf, " &+GSong of &+WPeace&n"); 
+
+  if(affected_by_spell(ch, SONG_SLEEP))
+    strcat(buf, " &+GSong of &+bSleep&n");     
+    
+  if (*buf)
+  {
+    send_to_char("Songs:   ", ch);
+    send_to_char(buf, ch);
+    send_to_char("\n", ch);
+  }
+  
   buf[0] = 0;
 
   if (IS_AFFECTED2(ch, AFF2_SLOW))
@@ -4630,7 +4664,7 @@ void do_score(P_char ch, char *argument, int cmd)
     strcat(buf, " &+GPoison&n");
   if (IS_AFFECTED5(ch, AFF5_WET))
     strcat(buf, " &+bWet&n");
-
+    
   if (*buf)
   {
     send_to_char("Afflicted with: ", ch);
