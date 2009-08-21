@@ -865,6 +865,9 @@ void bard_flight(int l, P_char ch, P_char victim, int song)
   if(IS_NPC(ch))
     empower += 100;
 
+  if(is_linked_to(ch, victim, LNK_SONG))
+    return;
+    
   if(!IS_AFFECTED(victim, AFF_FLY))
   {
     bzero(&af, sizeof(af));
@@ -877,9 +880,19 @@ void bard_flight(int l, P_char ch, P_char victim, int song)
     act("&+W$n flies through the air, free as a &+ybird!",
         TRUE, victim, 0, 0, TO_ROOM);
   }
-
-  if(is_linked_to(ch, victim, LNK_SONG))
-    return;
+  
+  if(!IS_AFFECTED(ch, AFF_FLY))
+  {
+    bzero(&af, sizeof(af));
+    af.type = song;
+    af.duration = l;
+    af.bitvector = AFF_FLY;
+    affect_to_char(ch, &af);
+    act("&+WYou fly through the air, free as a &+ybird!",
+        FALSE, ch, 0, 0, TO_CHAR);
+    act("&+W$n flies through the air, free as a &+ybird!",
+        TRUE, ch, 0, 0, TO_ROOM);
+  }
 
   memset(&af, 0, sizeof(af));
   af.type = song;
@@ -887,6 +900,7 @@ void bard_flight(int l, P_char ch, P_char victim, int song)
   af.modifier = (int)(l / 3 + (empower / 10));
 
   linked_affect_to_char(victim, &af, ch, LNK_SONG);
+  linked_affect_to_char(ch, &af, ch, LNK_SONG);
 }
 
 void bard_protection(int l, P_char ch, P_char victim, int song)
