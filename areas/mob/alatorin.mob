@@ -3975,7 +3975,7 @@ lord borhad khoralator dwarf leader~
 &+Ywith wisps of &Ngrey &+Yand &+Wwhite&+Y, showing signs of age.
 ~
 1157630154 128 0 956301464 14528 0 0 1000 S
-pm 0 67108929 -1
+pm 0 67125313 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -4364,5 +4364,52 @@ that this particular &+Ydwarf &Nhas embarked through the realm of &N&+yShanatar&
 1073743944 0 0 24 0 0 0 600 S
 pm 0 1 -1
 45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83376
+pet mountain lion _spec1_~
+&na pet &+Ymountain lion&N~
+&+YA pet mountain lion paces back and forth before Khoralator.
+~
+   &+YThis massive mountain lion is quite aged.  It has a thick mane and
+&+Ylarge muscles, but walks and paces back and forth slowly.  Clearly
+&+Yhaving seen many fights alongside its master, Borhad Khoralator, this
+&+Ylion is now a simple pet to the proud shield dwarf king.
+~
+1073743944 0 0 134217752 0 0 0 600 S
+a 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83377
+pet cave bear _spec1_~
+&N&+ra pet &+Lcave bear&N~
+&+rA vicious &+Lcave bear &N&+rpaces about here.
+~
+   &+LThis *huge* beastly cave bear has large, sharp claws extending from
+&+Lits thick, strong paws.  He snarls with a viciousness unseen in surface
+&+Lmammals, coming from a deep-seeded primal rage.
+~
+1073743944 0 0 24 0 0 0 -800 S
+a 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83378
+notorious thief jenk~
+&+ga notorious thief named &+GJenk&N~
+&+gA notorious thief named &+GJenk &N&+gsits here&N, grinning wickedly.
+~
+   &+GJenk &N&+gis a short, humble looking goblin on the outside.
+&+ghis miniature stature and quick hands allow him to get into
+&+gmany places that are tight and confined, such as other peoples'
+&+gpockets.  &+GJenk &N&+gis a notorious thief in &N&+cAlatorin &N&+gbut
+&+gsearches for him have gone so long unrealized that they have
+&+gunofficially been called off.  He now currently resides in the
+&+gshady undercity beneath &N&+cAlatorin&N.
+~
+1073744074 0 0 24 0 0 0 -1000 S
+hg 0 65536 -1
+59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1

@@ -1121,7 +1121,7 @@ O 0 83102 1 83159 100 0 0 0        * the wyrmskull throne
 O 0 83116 1 83166 100 0 0 0        * a bloody haunch of caribou meat
 O 0 72 1 83171 100 0 0 0           * (object type not in this .obj file)
 O 0 83138 1 83175 100 0 0 0        * a floating bauble
-O 0 83139 5 83188 100 0 0 0        * a small wooden desk
+O 0 83139 6 83188 100 0 0 0        * a small wooden desk
 P 1 58335 4 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 1310 1 83139 100 0 0 0         *   (object type not in this .obj file)
 O 0 83144 1 83188 100 0 0 0        * a small concealed chest
@@ -1137,7 +1137,7 @@ P 1 58336 5 83199 100 0 0 0        *   (object type not in this .obj file)
 O 0 83212 3 83213 100 0 0 0        * a stone hearth
 O 0 83212 3 83215 100 0 0 0        * a stone hearth
 O 0 361 2 83218 100 0 0 0          * (object type not in this .obj file)
-O 0 83139 5 83227 100 0 0 0        * a small wooden desk
+O 0 83139 6 83227 100 0 0 0        * a small wooden desk
 P 1 58335 4 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 5 1 83139 100 0 0 0            *   (object type not in this .obj file)
 P 1 204 999 83139 100 0 0 0        *   (object type not in this .obj file)
@@ -1158,7 +1158,7 @@ O 0 83262 1 83276 100 0 0 0        * a heavy mithril chest
 P 1 83279 1 83262 100 0 0 0        *   a gold and mithril key
 O 0 83104 2 83277 100 0 0 0        * a mithril sign
 O 0 83110 1 83285 100 0 0 0        * a huge moorwood armoire
-O 0 83139 5 83285 100 0 0 0        * a small wooden desk
+O 0 83139 6 83285 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83241 1 83139 100 0 0 0        *   a tiny velvet case
 P 1 83242 1 83241 100 0 0 0        *     the royal signet ring of Alatorin
@@ -1168,7 +1168,7 @@ P 1 83238 1 83237 4 0 0 0          *   the enchanted mithril shield of Shanat
 P 1 83239 1 83237 4 0 0 0          *   the enchanted mithril full plate of Shanat
 O 0 83107 1 83297 100 0 0 0        * a red button
 O 0 83373 1 83298 100 0 0 0        * a great mound of platinum
-O 0 83139 5 83300 100 0 0 0        * a small wooden desk
+O 0 83139 6 83300 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83272 1 83139 100 0 0 0        *   a parchment letter
 O 0 83199 3 83301 100 0 0 0        * a small concealed chest
@@ -1529,7 +1529,7 @@ O 0 6603 1 83617 100 0 0 0         * (object type not in this .obj file)
 O 0 1460 3 83618 100 0 0 0         * (object type not in this .obj file)
 O 0 1460 3 83623 100 0 0 0         * (object type not in this .obj file)
 O 0 1460 3 83625 100 0 0 0         * (object type not in this .obj file)
-O 0 83139 5 83627 100 0 0 0        * a small wooden desk
+O 0 83139 6 83627 100 0 0 0        * a small wooden desk
 P 1 58335 4 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83385 1 83139 100 0 0 0        *   a hide-bound notebook
 O 0 83388 1 83627 100 0 0 0        * a wanted list
@@ -1548,6 +1548,7 @@ O 0 83379 1 83655 100 0 0 0        * a large mithril sign
 O 0 83393 1 83697 100 0 0 0        * a small sign
 O 0 83402 1 83745 100 0 0 0        * a small stone fountain
 O 0 83413 1 83749 100 0 0 0        * a sign
+O 0 83139 6 83754 100 0 0 0        * a small wooden desk
 O 0 83404 1 83756 100 0 0 0        * a jodani wood sign
 O 0 83114 6 83768 100 0 0 0        * a closet
 P 1 94336 4 83114 50 0 0 0         *   (object type not in this .obj file)
@@ -2298,6 +2299,7 @@ M 0 5717 1 83361 7 0 0 0           * (mob type not in this .mob file)
 M 0 85617 1 83361 33 0 0 0         * (mob type not in this .mob file)
 M 0 120037 5 83361 99 0 0 0        * (mob type not in this .mob file)
 M 0 83360 3 83379 100 0 0 0        * a Deramuth mercenary
+M 0 83378 1 83379 100 0 0 0        * a notorious thief named Jenk
 M 0 83184 1 83381 100 0 0 0        * a hooded shield dwarf merchant
 G 1 83185 999 0 100 0 0 0          *    a bottomless bag of the shield dwarves
 M 0 83131 1 83382 100 0 0 0        * Sslitheran the exiled drow
@@ -2822,6 +2824,7 @@ E 1 83394 16 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83347 8 83679 100 0 0 0        * an elite dwarven guard (following)
 E 1 83394 16 16 100 0 0 0          *   a mithril-bladed battle-axe
 E 1 83394 16 17 100 0 0 0          *   a mithril-bladed battle-axe
+F 1 83376 1 83679 100 0 0 0        * a pet mountain lion (following)
 M 0 95531 3 83680 65 0 0 0         * (mob type not in this .mob file)
 M 0 95531 3 83680 100 0 0 0        * (mob type not in this .mob file)
 M 0 95531 3 83680 45 0 0 0         * (mob type not in this .mob file)
@@ -2846,6 +2849,7 @@ G 1 83391 999 0 100 0 0 0          *    a potion of remedying
 G 1 83392 999 0 100 0 0 0          *    a potion of improved vision
 G 1 83401 1 0 100 0 0 0            *    a potion of ultimate protection
 M 0 83362 1 83706 100 0 0 0        * General Helgor
+G 1 83414 1 0 100 0 0 0            *    the bloody head of General Helgor
 F 1 83332 8 83706 100 0 0 0        * an elite Helgor sentinel (following)
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
 F 1 83332 8 83706 100 0 0 0        * an elite Helgor sentinel (following)
@@ -2854,6 +2858,7 @@ F 1 83332 8 83706 100 0 0 0        * an elite Helgor sentinel (following)
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
 F 1 83332 8 83706 100 0 0 0        * an elite Helgor sentinel (following)
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
+F 1 83377 1 83706 100 0 0 0        * a pet cave bear (following)
 M 0 4530 11 83717 100 0 0 0        * (mob type not in this .mob file)
 M 0 4530 11 83717 100 0 0 0        * (mob type not in this .mob file)
 M 0 15224 3 83717 100 0 0 0        * (mob type not in this .mob file)

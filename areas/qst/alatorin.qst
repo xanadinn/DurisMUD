@@ -2006,6 +2006,39 @@ D
 &N$n bows at $N and concludes 'I will report these act of chivalry to the king.'
 ~
 S
+#83350
+MA
+hi hello~
+&N$n looks $N up and down and says in a mighty voice &+y'Greetings $N.  Have you come to aid the &+CFort&N&+y?'
+~
+MA
+yes fort~
+&N$n nods at $N and says &+y'Shanatar is a very dangerous place and this &+CFort &N&+yremains the only position of control for the dwarves and the alliance.  However there is a fearsome foe - the duergars.'
+~
+MA
+dwarf dwarves~
+&N$n nods at $N and says &+y'There are many types of dwarves.  There are shield dwarves, who live at the volcano on the northwestern peak of Shanatar, and there are mountain and duergar dwarves scattered about the mountains and underdarks of the realms.  These duergar are blood enemies of the mountain dwarves and must be defeated at all costs!  They have developed a presence in Shanatar at Helgor Outpost.'
+~
+MA
+alliance~
+&N$n says &+y'The alliance between all good races that fight the trecherous beasts that emerge from the swamps, wastelands, and underworld.  These beasts have even invaded Shanatar and built a camp called Helgor Outpost!'
+~
+MA
+helgor outpost duergar~
+&N$n stands up and begins to &+Wfume &Nwith &N&+rrage&N.
+&+y'Death to Helgor!' &Nhe yells with his deafening voice.
+&+y'$N!  It is up to you!  Enter Helgor Outpost and kill General Helgor!'
+~
+QA
+&N$n says &+y'YES!!' and ROARS with &N&+rBLOODLUST!!
+~
+R C 2500000
+R E 500000
+G I 83414
+D
+&N$n says &+y'Enjoy your reward.  Your eternal... reward...'
+~
+S
 #83355
 MA
 hi hello weep~
@@ -2037,5 +2070,25 @@ D
 &NPearla starts casting a spell.
 &+WPearla completes her spell.
 &NPearla utters a single word, and is gone.
+~
+S
+#83362
+M
+hi hello~
+&N$n sneers at $N in total contempt and &+Wspits&N&+r on the ground.
+&+r'platinum for the head of &N&+WKhor&N&+calator&N&+r' he says with a grin.
+~
+MA
+khoralator borhad~
+&N$n nods at $N and says &+r'Our assassins have failed and the dragons have not flown much lately.  Kill the Lord of the mountain dwarf outpost and you will be rewarded.'
+~
+QA
+&N&+r'Excellent!  I hope you twisted your dagger into his heart' $n says with a grin.
+~
+R E 500000
+R C 1000000
+G I 83415
+D
+&N&+r'Enjoy your reward' he says 'Your eternal reward.'
 ~
 S
