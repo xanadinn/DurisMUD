@@ -589,9 +589,9 @@ D 0 83547 3 1 100 0 0 0
 *     west exit from "A Shady Corridor" to
 *     "The Frothing Mug" - closed
 *
-D 0 83379 5 1 100 0 0 0
+D 0 83379 5 5 100 0 0 0
 *     down exit from "The Frothing Mug" to
-*     "An Old Unused Storage Basement" - closed
+*     "An Old Unused Storage Basement" - closed/secret
 *
 D 0 83628 4 1 100 0 0 0
 *     up exit from "An Old Unused Storage Basement" to
@@ -1533,6 +1533,7 @@ O 0 83139 6 83627 100 0 0 0        * a small wooden desk
 P 1 58335 4 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83385 1 83139 100 0 0 0        *   a hide-bound notebook
 O 0 83388 1 83627 100 0 0 0        * a wanted list
+O 0 83417 1 83628 100 0 0 0        * an ancient cask of 'Frothing Mug' ale
 O 0 1705 3 83631 70 0 0 0          * (object type not in this .obj file)
 O 0 338 999 83631 20 0 0 0         * (object type not in this .obj file)
 O 0 1703 5 83631 15 0 0 0          * (object type not in this .obj file)
@@ -1855,8 +1856,8 @@ M 0 83108 2 83196 100 0 0 0        * a relaxing Alatorin guard
 M 0 83152 4 83196 100 0 0 0        * a young commoner
 M 0 83152 4 83196 100 0 0 0        * a young commoner
 M 0 83170 1 83196 100 0 0 0        * Gru'dank the half orc hunter
-E 1 83275 2 16 100 0 0 0           *   a concealed dirk
-E 1 83275 2 17 100 0 0 0           *   a concealed dirk
+E 1 83275 4 16 100 0 0 0           *   a concealed dirk
+E 1 83275 4 17 100 0 0 0           *   a concealed dirk
 G 1 83276 1 0 100 0 0 0            *    the bloody head of Gru'Dank
 M 0 83173 1 83197 100 0 0 0        * Barlow Brewstash
 E 1 83334 1 9 100 0 0 0            *   some rugged gloves of thick hide
@@ -2298,8 +2299,11 @@ M 0 38303 2 83361 100 0 0 0        * (mob type not in this .mob file)
 M 0 5717 1 83361 7 0 0 0           * (mob type not in this .mob file)
 M 0 85617 1 83361 33 0 0 0         * (mob type not in this .mob file)
 M 0 120037 5 83361 99 0 0 0        * (mob type not in this .mob file)
+M 0 83378 1 83377 100 0 0 0        * a notorious thief named Jenk
+G 1 83387 1 0 100 0 0 0            *    the bloody heart of Jenk
+G 1 83275 4 0 100 0 0 0            *    a concealed dirk
+G 1 83275 4 0 100 0 0 0            *    a concealed dirk
 M 0 83360 3 83379 100 0 0 0        * a Deramuth mercenary
-M 0 83378 1 83379 100 0 0 0        * a notorious thief named Jenk
 M 0 83184 1 83381 100 0 0 0        * a hooded shield dwarf merchant
 G 1 83185 999 0 100 0 0 0          *    a bottomless bag of the shield dwarves
 M 0 83131 1 83382 100 0 0 0        * Sslitheran the exiled drow
@@ -2839,6 +2843,11 @@ G 1 500 999 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 368 999 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 53 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 377 999 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83379 1 83700 100 0 0 0        * a fast-talking goblin dealer
+G 1 83420 999 0 100 0 0 0          *    a potion of bloodrage
+G 1 83418 999 0 100 0 0 0          *    a potion of minor invisibility
+G 1 83419 999 0 100 0 0 0          *    a potion of greater invisibility
+G 1 83421 999 0 100 0 0 0          *    a bottle of crimson poison
 M 0 83352 1 83701 100 0 0 0        * a shady dwarf merchant
 G 1 83390 999 0 100 0 0 0          *    a potion of iNSaNe STrEnGTh
 G 1 83391 999 0 100 0 0 0          *    a potion of remedying
