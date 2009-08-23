@@ -5023,7 +5023,7 @@ huge boulder~
 &+ya huge boulder&N~
 &+yA huge boulder sits here filling the eastern end of the tunnel.~
 ~
-29 11 5 0 7 0 0 0 0 0 0
+29 11 5 0 7 0 4096 0 0 0 0
 270 83549 1 1 0 0 0 0
 0 0 100
 E
@@ -5072,5 +5072,49 @@ ancient petrified casket~
 &+LAn ancient, petrified &N&+ycasket&+L sits here in the center of the chamber.~
 ~
 29 15 3 0 7 0 0 0 0 0 0
-50 0 0 0 0 0 0 0
+99 83814 0 0 0 0 0 0
+0 0 100
+E
+ancient petrified casket~
+&+LThis ancient casket was at one time made of a thick &N&+yoak&+L&+L,
+&+Lhowever years of aging has caused the wood to become petrified and
+&+Lstone-like.  The casket is very heavy and large, clearly having
+&+Lcontained a figure of former prestige.  An uneasy feeling of ancient
+&+Levil seems to resonate from this casket.
+~
+#83426
+bone band infinite power _id_~
+&+Wa bone band&N~
+&+WA bone band has been left here.~
+~
+9 10 1 0 4 0 33558528 3 64 0 0
+5 0 0 3 0 0 0 0
+0 33223 100
+E
+bone band infinite power~
+   &+WThis tiny bone band hums with extreme ancient power.
+~
+E
+_id_name_~
+bone band infinite power
+~
+E
+_id_short_~
+&+Wa bone band of &N&+bin&+Mf&N&+bin&+Mi&N&+bte &+mp&+Mo&+Yw&+Me&N&+mr&N
+~
+E
+_id_desc_~
+&+WA bone band of infinite power has been left here.
+~
+A
+35 4
+A
+37 4
+#83427
+object unnamed~
+an unnamed object~
+An unnamed object lies here, looking lonely and forelorn.~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
 0 0 100

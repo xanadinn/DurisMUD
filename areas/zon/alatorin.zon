@@ -1,6 +1,6 @@
 #831
 &+CAlatorin &+L- the &N&+rForge &+LCity~
-83813 2 0 40 50 1
+83814 2 0 40 50 1
 *
 * Zone edited with durisEdit v2.99de
 *
@@ -973,6 +973,14 @@ D 0 83742 2 1 100 0 0 0
 *     south exit from "A Small Dwelling" to
 *     "A Turn in the Trail" - closed
 *
+D 0 83699 2 8 100 0 0 0
+*     south exit from "A Dark, Ancient Chamber" to
+*     "Demilich Load Room" - open/blocked
+*
+D 0 83814 0 8 100 0 0 0
+*     north exit from "Demilich Load Room" to
+*     "A Dark, Ancient Chamber" - open/blocked
+*
 D 0 83701 1 1 100 0 0 0
 *     east exit from "A Secret Merchant Stall" to
 *     "End of a Hallway" - closed
@@ -1497,7 +1505,7 @@ O 0 54605 1 83517 100 0 0 0        * (object type not in this .obj file)
 O 0 89008 4 83518 100 0 0 0        * (object type not in this .obj file)
 O 0 95527 1 83523 100 0 0 0        * (object type not in this .obj file)
 O 0 83114 6 83535 100 0 0 0        * a closet
-P 1 40444 1 83114 100 0 0 0        *   (object type not in this .obj file)
+P 1 40444 2 83114 100 0 0 0        *   (object type not in this .obj file)
 O 0 83114 6 83536 100 0 0 0        * a closet
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
@@ -1548,6 +1556,7 @@ O 0 83375 4 83640 100 0 0 0        * a flax torch burning a golden flame
 O 0 83375 4 83641 100 0 0 0        * a flax torch burning a golden flame
 O 0 83379 1 83655 100 0 0 0        * a large mithril sign
 O 0 83393 1 83697 100 0 0 0        * a small sign
+O 0 83425 1 83699 100 0 0 0        * an ancient petrified casket
 O 0 83402 1 83745 100 0 0 0        * a small stone fountain
 O 0 83413 1 83749 100 0 0 0        * a sign
 O 0 83139 6 83754 100 0 0 0        * a small wooden desk
@@ -2304,7 +2313,12 @@ M 0 83378 1 83377 100 0 0 0        * a notorious thief named Jenk
 G 1 83387 1 0 100 0 0 0            *    the bloody heart of Jenk
 G 1 83275 6 0 100 0 0 0            *    a concealed dirk
 G 1 83275 6 0 100 0 0 0            *    a concealed dirk
+M 0 83383 1 83378 100 0 0 0        * a huge sloppy fat dwarf
+G 1 40444 2 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83360 3 83379 100 0 0 0        * a Deramuth mercenary
+M 0 83384 2 83379 100 0 0 0        * a derro rogue
+M 0 83384 2 83379 100 0 0 0        * a derro rogue
+M 0 83385 1 83379 100 0 0 0        * a Gruneegth goblin warrior
 M 0 83184 1 83381 100 0 0 0        * a hooded shield dwarf merchant
 G 1 83185 999 0 100 0 0 0          *    a bottomless bag of the shield dwarves
 M 0 83131 1 83382 100 0 0 0        * Sslitheran the exiled drow
@@ -3001,5 +3015,7 @@ M 0 83380 8 83813 100 0 0 0        * a human smuggler
 M 0 83380 8 83813 100 0 0 0        * a human smuggler
 M 0 83380 8 83813 100 0 0 0        * a human smuggler
 M 0 83380 8 83813 100 0 0 0        * a human smuggler
+M 0 83382 1 83814 100 0 0 0        * an ancient demilich
+G 1 83426 1 0 100 0 0 0            *    a bone band
 *
 S
