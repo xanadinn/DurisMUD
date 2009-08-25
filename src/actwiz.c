@@ -328,6 +328,84 @@ void do_reload_help(P_char ch, char *arg, int cmd)
 */
 }
 
+
+void do_lucrot_restore(P_char ch, P_char victim)
+{
+
+  if(!IS_TRUSTED(ch))
+    return;
+
+  poison_common_remove(victim);
+
+  if(affected_by_spell(victim, SPELL_CURSE))
+    affect_from_char(victim, SPELL_CURSE);
+
+  if(affected_by_spell(victim, SPELL_MALISON))
+    affect_from_char(victim, SPELL_MALISON);
+
+  if(affected_by_spell(victim, SPELL_WITHER))
+    affect_from_char(victim, SPELL_WITHER);
+
+  if(affected_by_spell(victim, SPELL_BLOODSTONE))
+    affect_from_char(victim, SPELL_BLOODSTONE);
+  
+  if(affected_by_spell(victim, SPELL_SHREWTAMENESS))
+    affect_from_char(victim, SPELL_SHREWTAMENESS);
+
+  if(affected_by_spell(victim, SPELL_MOUSESTRENGTH))
+    affect_from_char(victim, SPELL_MOUSESTRENGTH);
+
+  if(affected_by_spell(victim, SPELL_MOLEVISION))
+    affect_from_char(victim, SPELL_MOLEVISION);
+
+  if(affected_by_spell(victim, SPELL_SNAILSPEED))
+    affect_from_char(victim, SPELL_SNAILSPEED);
+
+  if(affected_by_spell(victim, SPELL_FEEBLEMIND))
+    affect_from_char(victim, SPELL_FEEBLEMIND);
+  
+  if(affected_by_spell(victim, SPELL_SLOW))
+    affect_from_char(victim, SPELL_SLOW);
+
+  if(IS_AFFECTED(victim, AFF_BLIND))
+  {
+    affect_from_char(victim, SPELL_BLINDNESS);
+    REMOVE_BIT(victim->specials.affected_by, AFF_BLIND);
+  }
+
+  if(IS_AFFECTED4(victim, AFF4_CARRY_PLAGUE))
+    REMOVE_BIT(victim->specials.affected_by4, AFF4_CARRY_PLAGUE);
+
+  if(affected_by_spell(victim, SPELL_DISEASE) ||
+      affected_by_spell(victim, SPELL_PLAGUE))
+  {
+    affect_from_char(victim, SPELL_DISEASE);
+    affect_from_char(victim, SPELL_PLAGUE);
+  }
+  
+  if(affected_by_spell(victim, TAG_ARMLOCK))
+    affect_from_char(victim, TAG_ARMLOCK);
+        
+  if(affected_by_spell(victim, TAG_LEGLOCK))
+    affect_from_char(victim, TAG_LEGLOCK);
+      
+  if(affected_by_spell(victim, SPELL_ENERGY_DRAIN))
+      affect_from_char(victim, SPELL_ENERGY_DRAIN);
+      
+  if(affected_by_spell(victim, SPELL_SLEEP))
+    affect_from_char(victim, SPELL_SLEEP);
+    
+  if(affected_by_spell(victim, SONG_SLEEP))
+    affect_from_char(victim, SONG_SLEEP);
+    
+  if(affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
+    affect_from_char(victim, SPELL_RAY_OF_ENFEEBLEMENT);
+
+  send_to_char("&+WAll your maladies are washed away...\r\n", victim);
+}
+
+
+
 /* Load a player manually from save files */
 void do_read_player(P_char ch, char *arg, int cmd)
 {
@@ -5034,7 +5112,7 @@ void do_restore(P_char ch, char *argument, int cmd)
         {
           send_to_char("&+WBeams of light and shafts of &+Ldarkness &+Wperforate the air!!!&n\n", victim);
           if(ch != victim)
-            spell_restoration(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, victim, 0);            
+            do_lucrot_restore(ch, victim);            
         }
         else
         {
@@ -5095,7 +5173,7 @@ void do_restore(P_char ch, char *argument, int cmd)
     if(isname("Lucrot", ch->player.name))
     {
       send_to_char("&+WBeams of light and shafts of &+Ldarkness &+Wperforate the air!!!&n\n", victim);
-      spell_restoration(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, victim, 0);            
+      do_lucrot_restore(ch, victim);            
     }
     
     GET_MANA(victim) = GET_MAX_MANA(victim);
@@ -9823,7 +9901,7 @@ void do_petition_block(P_char ch, char *argument, int cmd)
       GET_NAME(ch), GET_NAME(vict));
     logit(LOG_WIZ, "%s just removed the petition block on %s.",
       GET_NAME(ch), GET_NAME(vict));
-    sql_log(ch, WIZLOG, "Removed petition block on %s", GET_NAME(vict));
+    //sql_log(ch, WIZLOG, "Removed petition block on %s", GET_NAME(vict));
   }
   else
   {
@@ -9836,8 +9914,6 @@ void do_petition_block(P_char ch, char *argument, int cmd)
       GET_NAME(vict), GET_NAME(ch));
     logit(LOG_WIZ, "%s was just PETITION BLOCKED by %s.",
       GET_NAME(vict), GET_NAME(ch));
-    sql_log(ch, WIZLOG, "Petition blocked %s",
-      GET_NAME(vict));
+    //sql_log(ch, WIZLOG, "Petition blocked %s", GET_NAME(vict));
   }
 }
-

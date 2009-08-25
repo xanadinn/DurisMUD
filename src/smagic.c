@@ -708,6 +708,15 @@ void spell_restoration(int level, P_char ch, char *arg, int type,
       
   if(affected_by_spell(victim, SPELL_ENERGY_DRAIN))
       affect_from_char(victim, SPELL_ENERGY_DRAIN);
+      
+  if(affected_by_spell(victim, SPELL_SLEEP))
+    affect_from_char(victim, SPELL_SLEEP);
+    
+  if(affected_by_spell(victim, SONG_SLEEP))
+    affect_from_char(victim, SONG_SLEEP);
+    
+  if(affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
+    affect_from_char(victim, SPELL_RAY_OF_ENFEEBLEMENT);
 
   send_to_char("&+WYou feel &+csignificantly &+Wbetter.\r\n", victim);
          
