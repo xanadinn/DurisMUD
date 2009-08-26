@@ -498,6 +498,8 @@ bool sink_ship(P_ship ship, P_ship attacker)
                 continue;
             if (SHIPISDOCKED(contacts[i].ship))
                 continue;
+            if (contacts[i].ship->m_class == 0)
+                continue;
             
             P_char ch1 = get_char2(str_dup(SHIPOWNER(contacts[i].ship)));
             P_char ch2 = get_char2(str_dup(SHIPOWNER(attacker)));
@@ -515,6 +517,8 @@ bool sink_ship(P_ship ship, P_ship attacker)
         for (i = 0; i < k; i++)
         {
             if (SHIPISDOCKED(contacts[i].ship))
+                continue;
+            if (contacts[i].ship->m_class == 0)
                 continue;
 
             P_char ch1 = get_char2(str_dup(SHIPOWNER(contacts[i].ship)));
