@@ -902,7 +902,8 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
  
 // Non multi-class mobs exp modifiers are below.
     if(!IS_MULTICLASS_NPC(victim) &&
-        GET_LEVEL(victim) > 20)
+        GET_LEVEL(victim) > 20 &&
+        !IS_PC(victim))
     {
       if(GET_CLASS(victim, CLASS_WARRIOR))
         XP *= (get_property("gain.exp.mod.warrior", 1.00));
@@ -1067,7 +1068,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   {
     XP = check_nexus_bonus(ch, (int)(XP), NEXUS_BONUS_EXP);
   
-  // This multipliers are accumulative... 
+  // These multipliers are accumulative... 
     if(GET_LEVEL(ch) >= 31)
       XP *= (get_property("gain.exp.mod.player.level.thirtyone", 1.000));
     if(GET_LEVEL(ch) >= 41)
