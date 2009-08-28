@@ -2584,8 +2584,14 @@ void kill_gain(P_char ch, P_char victim)
     
   }  
   
-//  exp_divider = MAX(group_size, 1);
-  exp_divider = 1;
+// This prevents group from ganking solo racewar victims and gaining
+// tremendous exps. For PVP, the exps are divided amongst the group.
+  if((IS_PC(ch) ||
+      IS_PC_PET(ch)) &&
+      IS_PC(victim))
+        exp_divider = MAX(group_size, 1);
+  else
+    exp_divider = 1;
 
   if( ( RACE_GOOD(ch) && get_property("exp.groupLimit.good", 10) &&
         group_size > get_property("exp.groupLimit.good", 10) ) ||
