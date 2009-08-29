@@ -120,7 +120,7 @@ extern unsigned int game_locked;
 #define CMD_OFFER           93
 #define CMD_POKE            94
 #define CMD_ADVANCE         95
-#define CMD_ACCUSE          96
+#define CMD_ACC             96
 #define CMD_GRIN            97
 #define CMD_BOW             98
 #define CMD_OPEN            99
@@ -790,7 +790,7 @@ extern unsigned int game_locked;
 #define CMD_HONE        763
 #define CMD_PARLAY      764
 #define CMD_NEWBIE      765
-#define CMD_MAKE_GUIDE	766
+#define CMD_MAKE_GUIDE  766
 #define CMD_SPELLWEAVE  767
 #define CMD_DESCEND     768
 #define CMD_SQL         769
@@ -800,7 +800,7 @@ extern unsigned int game_locked;
 #define CMD_TEST        773
 #define CMD_TRANQUILIZE 774
 #define CMD_TRAIN       775
-#define CMD_SLIP	      776
+#define CMD_SLIP              776
 #define CMD_HEADLOCK    777
 #define CMD_LEGLOCK     778
 #define CMD_GROUNDSLAM  779
@@ -808,7 +808,7 @@ extern unsigned int game_locked;
 #define CMD_BUILD       781
 #define CMD_PRESTIGE    782
 #define CMD_ALLIANCE    783
-#define CMD_ACC         784
+#define CMD_ACCUSE      784
 #define CMD_DESTROY     785
 #define CMD_SMITE       786
 #define CMD_STORAGE     787
