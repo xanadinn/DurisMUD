@@ -2405,7 +2405,7 @@ void assign_rooms(void)
   world[real_room0(82670)].funct = newship_shop;
 
   /* Venan */
-  world[real_room0(545006)].funct = newship_shop;
+  world[real_room0(49090)].funct = newship_shop;
 
   /* Bloodstone */
   world[real_room0(74271)].funct = inn;
