@@ -1938,7 +1938,7 @@ void spell_snailspeed(int level, P_char ch, char *arg, int type,
   
   if(percent < 10)
   {
-    act("$n seems to shrug off your spell!", TRUE, victim, 0, 0, TO_CHAR);
+    act("$N seems to shrug off your spell!", FALSE, ch, 0, victim, TO_CHAR);
     return;
   }    
   else if(percent > 90)
@@ -2143,7 +2143,7 @@ void spell_molevision(int level, P_char ch, char *arg, int type,
     
   if(percent < 10)
   {
-    act("$n seems to shrug off your spell!", TRUE, victim, 0, 0, TO_CHAR);
+    act("$N seems to shrug off your spell!", FALSE, ch, 0, victim, TO_CHAR);
     return;
   }
   else if(percent > 110)
@@ -2282,7 +2282,7 @@ void spell_mousestrength(int level, P_char ch, char *arg, int type,
   
   if(percent < 10)
   {
-    act("$n seems to shrug off your spell!", TRUE, victim, 0, 0, TO_CHAR);
+    act("$N seems to shrug off your spell!", FALSE, ch, 0, victim, TO_CHAR);
     return;
   }
   else if(percent > 90)
@@ -2664,7 +2664,7 @@ void spell_shrewtameness(int level, P_char ch, char *arg, int type,
   
   if(percent < 10)
   {
-    act("$n seems to shrug off your spell!", TRUE, victim, 0, 0, TO_CHAR);
+    act("$N seems to shrug off your spell!", FALSE, ch, 0, victim, TO_CHAR);
     return;
   }
   else if(percent > 90)
