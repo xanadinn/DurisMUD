@@ -7872,6 +7872,7 @@ void do_springleap(P_char ch, char *argument, int cmd)
 void do_whirlwind(P_char ch, char *argument, int cmd)
 {
   struct affected_type af;
+  int mod = (int)(get_property("skill.whirlwind.movement.drain", 60));
 
   if(affected_by_spell(ch, SKILL_WHIRLWIND))
   {
@@ -7932,7 +7933,7 @@ void do_whirlwind(P_char ch, char *argument, int cmd)
   memset(&af, 0, sizeof(af));
   af.type = SKILL_WHIRLWIND;
   af.location = APPLY_MOVE_REG;
-  af.modifier = -20;
+  af.modifier = -(mod);
   af.duration = 3 * PULSE_VIOLENCE;
   af.flags = AFFTYPE_SHORT;
   affect_to_char(ch, &af);
