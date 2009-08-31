@@ -2360,7 +2360,7 @@ SPELL_ADD(CLASS_NONE, 1);
 
   SPELL_CREATE_MSG("slow poison", SPELL_SLOW_POISON, PULSE_SPELLCAST,
                 TAR_CHAR_ROOM,
-                spell_slow_poison, "You feel the &+gpoison &nat work again in your &+Rblood &n.");
+                spell_slow_poison, "Your resistance to &+gpoison &nlessens.&n");
   SPELL_ADD(CLASS_CLERIC, 2);
 
   SPELL_CREATE_MSG("coldshield", SPELL_COLDSHIELD, PULSE_SPELLCAST * 3 / 2,
