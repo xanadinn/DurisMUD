@@ -2166,6 +2166,11 @@ void enter_game(P_desc d)
   loginlog(GET_LEVEL(ch), "%s [%s] enters game.%s [%d]",
            GET_NAME(ch), d->host, Gbuf1, world[ch->in_room].number);
   sql_log(ch, CONNECTLOG, "Entered game");
+  
+  if(GET_LEVEL(ch) >= MINLVLIMMORTAL)
+    loginlog(GET_LEVEL(ch), "&+GIMMORTAL&n: (%s) [%s] has logged on.%s",
+             GET_NAME(ch), d->host, Gbuf1);
+  
 
   /* multiplay check */
   for (P_desc k = descriptor_list; k; k = k->next)
