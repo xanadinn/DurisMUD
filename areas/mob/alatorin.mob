@@ -4141,7 +4141,7 @@ halfling dockhand dock hand~
 &+ybody and a youthful exhuberance shining brightly in his day-to-day
 &+yactivities.
 ~
-2250 0 0 0 0 0 0 1000 S
+2248 0 0 0 0 0 0 1000 S
 pf 0 1 -1
 36 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -4714,5 +4714,184 @@ ugly strong brutish thug~
 1073742024 0 0 671195196 12510 32 0 -400 S
 pm 0 20480 -1
 57 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83399
+merchant sailor~
+&N&+ma merchant &+Ysailor&N~
+&+mA well-dressed merchant &+Ysailor &N&+mponders his next transaction.
+~
+   &+WThis &+Chuman &+Whas most likely traveled to this port from Canderthal,
+&+YTorrhan&+W, or even &+MMyrabolous&+W.  He wears leather garments that have
+&+Wall been similarly-trimmed with the pelts of local wildlife, as is common
+&+Win the lands of &N&+yman&+W.  He walks with a familiar grit on his brow,
+&+Wsuggesting that this may be one of many visits to &+WDeramuth.
+~
+8 0 0 134217752 0 0 0 900 S
+PH 0 4097 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83400
+sneaky goblin thief~
+&+La sneaky &+Ggoblin thief&N~
+&+LA sneaky &+Ggoblin thief &+Lkeeps to the shadows.
+~
+   &+LThis sneaky &+Ggoblin &+Lthief sneaks through the shadows of this
+&+Larea, ducking between, onto, behind, or around any object he can to
+&+Lkeep out of sight.  He has sly, &+Rred &+Leyes and a lean, lithe
+&+Lbody.
+~
+1073744088 0 0 402653208 0 0 0 -400 S
+hg 0 65536 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83401
+human maiden~
+&+Wa beautiful human &+Mmaiden&N~
+&+WA human &+Mmaiden &+Wadmires the streets&N with a cautious step.
+~
+   &+WThis beautiful, vuloptuous woman has traveled afar despite
+&+Wher tender young age.  She surrounds herself by brawny men
+&+Wwalking through the ports and places she visits with utmost
+&+Wconfidence and aura of superiority - possibly suggesting a
+&+Wroyal background.
+~
+2264 0 0 24 0 0 0 800 S
+PH 0 128 -1
+38 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 2
+#83402
+winterhaven bodyguard guard~
+&+Wa Winterhaven bodyguard&N~
+&+WThis bodyguard from Winterhaven walks here, &Nwatching after his escort.
+~
+   &+WThis burly human guard has large muscles and tattood skin.  He
+&+Whas a scruffy, unshaven face and soft brown eyes.  He wears thick
+&+WWinterhaven platemail, having been issued from the city's royal
+&+Wofficials to protect his escort.
+~
+1140852938 0 0 0 0 0 0 1000 S
+PH 0 1 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83403
+huge storm giant sentinel~
+&+Wa huge &Nst&+Wor&Nm g&+Wia&Nnt &+Lsentinel&N~
+&+WA massive &Nst&+Wor&Nm gi&+Want &+Lsentinel &n&+bguards the gates here.
+~
+   &+WThis massive storm giant, most likely rented for his protective
+&+Wif not brutish services, stands here with total dominance and
+&+Wauthority, standing nearly twenty feet in height.  He has a sloped
+&+Wbrow with thick white hair around &+Blightning-filled &+Weyes.  His
+&+Warms and legs are like massive tree trunks of bone and muscle.
+~
+1140852938 0 0 0 0 0 0 1000 S
+sg 0 20481 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83404
+brutal-looking brutal storm giant guard bodyguard~
+&+La &N&+rbrutal&n-looking &+Wst&No&+Wrm gi&Na&+Wnt &N&+bbodyguard&N~
+&+LA &N&+rbrutal&N-looking &+Wstorm giant &N&+bbodyguard &+Lgrips his warsword.
+~
+   &+LThis massive &+Wstorm giant&+L is nearly thirty feet tall - a pillar
+&+Lof mammoth limbs and stone-like skin.  He has a cascading head of&+W white
+&+Lhair flowing down his mountain of a back.  &+BLightning-blue &+Leyes stare
+&+Lforth from deepley-set sockets within his giant, jagged head.
+~
+67111114 0 0 402653400 12504 0 0 800 S
+sg 0 16385 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83405
+lord deramuth~
+&+WLord Deramuth &N&+rthe portmaster&N~
+&+WLord Deramuth&n&+r, the infamous dockmaster sits here, pondering.
+~
+   &N&+rAs very few are able to be priveledged with looking upon
+&+WLord Deramuth &N&+rdue to the heavy protection at the entrance
+&+rof his compound, it surely comes as quite as a surprise to see
+&+rthat he is half-&+Ymountain &N&+rand half-duergar &+Ydwarf.
+&N&+rAlthough the exact bloodline lineage of &+WDeramuth &n&+rremains
+&+ronly as lore, his &+Lblack duergarish skin&N&+r and &+Ybright
+&+Yblonde beard&n&+r that any &+YKimordril dwarf&N&+r would tip his stein
+&+rto.  As far as his physical presence, &+WDeramuth &N&+ris a stout,
+&+rheavy-set figure with a muscular back and massive chest.  He has
+&+Ywi&+Yl&+Ld &N&+yhazel &+reyes and thick, &N&+cmannish &+Lhands.
+~
+1073744074 0 0 939524248 14528 0 0 1000 S
+pd 0 1 -1
+57 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83406
+ravi bjornson champion hunter~
+&N&+rRavi Bjornson~
+&+rRavi Bjornson&+L, the &+Wchampion &+Gh&N&+gun&+Gt&n&+ger &+Lsits here, &Npeering around.
+~
+   &+LThis fabled &+Wchampion&+L of &N&+ySmokeveil &+Lstands about six feet
+&+Ltall with a muscular build.  He bares a huge chest and broad shoulders.
+&+LHis long black hair flows over his rippled back.  He bares a strange
+&N&+rsymbol&+L etched onto his forehead, depicting a &+Wgoat&+L that is
+&+Lplaced within a &+Rpentagram&+L.  His eyes are the shade of &+Ggreen
+&+Lof the &+Yfinest &N&+gjade&+L.  He seems like he would be an excellent
+&+Lfoe in a fight.
+~
+1073744074 0 0 402653208 14552 0 0 1000 S
+PH 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83407
+angry guard~
+&+Lan &N&+ra&+Rn&n&+rg&+Rr&N&+ry &+Lguard&N~
+&+LAn &N&+ran&+Rgr&n&+ry &+Lguard walks here, &n&+rkeeping alert for trespassers.
+~
+   &+rThis angry &+Ydwarven &N&+rguard is under direct employment of
+&+rthe lord of &+WDeramuth&N&+r himself.  He is currently rampaging
+&+rabout through the &+WLord's &N&+rmanor, alerted at the presence of
+&+ra trespasser.
+~
+1140852808 1 0 402653464 14416 0 0 600 S
+pm 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83408
+dwarf captain~
+&+La &N&+ydwarf &+yc&+Ya&N&+yp&+Yt&N&+ya&+Yi&N&+yn&N~
+&+yA dwarf &+Yca&N&+ypt&+Yai&N&+yn &+Llurks here, ordering his &N&+rguards&+L.
+~
+   &+yThis muscular &+Ymountain dwarf&N&+y has risen to the prestigious
+&+yranks of &+Ycaptain &N&+yof &+WDeramuth's &N&+yprivate guard.  He
+&+ywears thick mithril armor and resembles a soldier of the Kimordril
+&+ymountaineer brigade - perhaps a former position for this guardian.
+~
+1140852808 1 0 8408 14528 0 0 1000 S
+pm 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83409
+crooked advisor~
+&+ma crooked &+Ladvisor&N~
+&+gA crooked advisor &+Lgreedily &N&+gwhispers in his lord's ear.
+~
+   &+yThis &+Ggoblin &n&+yadvisor whispers in his lord's ear as if
+&+yhe were selling a rock to a blindman as a diamond.  He speaks
+&+ywith a quick tongue, faster to slander his own brethren before
+&+yever admitting defeat.  He wears a long, black-hooded cowl and
+&+yhas a very mischievous, untrusting nature to his actions and
+&+ybody language.
+~
+2250 0 0 216 0 128 0 -1000 S
+hg 0 512 -1
+50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1

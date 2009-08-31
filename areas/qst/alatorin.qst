@@ -2197,3 +2197,37 @@ qc_action 250~
 &n&+ySeveral halflings are heard shouting at one another somewhere in the Port.
 ~
 S
+#83406
+M
+qc_action 300~
+&N$n draws a subtle sip from his &N&+cstein&N, enjoying the coolness on his lips.
+~
+MA
+hi hello~
+&N$n looks up at $N and acknowledges them with a '&+rGreetings&n.'
+~
+MA
+smokeveil ivar bjornson ravi~
+&N$n nods at $N and says '&+rIvar Bjornson, the leader of the village of Smokeveil, is my father.  Through his great teachings I learned the way of the hunter, eventually to become a village champion.'
+With a pause, $n sighs, and lowers his head in shame.
+He continues, '&+rI was defeated, though.. by two ferocious &+Rbeasts&N&+r...&N'
+~
+MA
+hunter beasts beast tentabeast bloodbeast~
+&N$n sighs and nods at $N.
+'&+rThe &N&+rBlood&N&+rb&+Re&N&+ra&+Rs&N&+rt &+Lof &N&+rRaxthan &+Land the &+LMalstrog &N&+gTentabeast&n&+r of the Smokeveil &+CLake&N&+r are the two beasts that defeated me...'
+$n lifts his cloak to reveal a missing arm and leg.
+'Kill these beasts, $N' he says, 'Bring me their hearts.'
+~
+QA
+&N$n says '&+rFinally, $N, I can say that vengeance is mine.'
+~
+R I 83447
+R C 100000
+R E 85000
+G I 20253
+G I 42948
+D
+&n&+r'Take this ring,'&N he says, before disappearing into the shadows.
+~
+S

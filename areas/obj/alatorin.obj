@@ -3984,6 +3984,23 @@ E
 vial adder venom poison~
    &+LThis small vial has the symbol of a single snake &+Wfang&+L.
 ~
+#83357
+broad sign~
+&+ya &+Lbroad &N&+ysign&N~
+&+LA broad &N&+ywooden sign &+Lis posted &Nbeside the gates.~
+~
+13 6 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+broad sign~
+&+y           ___________________
+&+y          /if thy hands wish to\
+&+y         |    K E e P, O u  T   |
+&+y         |of this place thee    |
+&+y          \_______will creep___/
+&+y                  \________/
+~
 #83358
 hammer warhammer bloodstained spike headed~
 &n&+ra bloodstained s&+Rp&+Wi&+Rk&N&+re&N&+y-headed &+Rwarhammer&N~
@@ -4640,6 +4657,24 @@ A
 18 3
 A
 19 1
+#83398
+green blue silk scarf~
+&+Ga gr&N&+gee&+Gn a&+Bnd b&N&+blue &+Csilk &+Bscarf&N~
+&+gA vibrant blue and green silk scarf lies here.~
+~
+9 3 3 0 14 0 0 5 64 0 0
+2 0 0 0 0 0 0 0
+0 55443 100
+E
+green blue silk scarf~
+   &+GThis vibrant scarf is made of blue and green dyed silk
+&+Bthreads.  It wraps around ones neck and shimmers in the light
+&+Bwith its lustrous sheen.
+~
+A
+13 13
+A
+28 10
 #83399
 mithril two-handed warhammer hammer~
 &+ma mithril two-handed warhammer&N~
@@ -4926,6 +4961,24 @@ bloody head borhad khoralator~
    &+rThis is the disembodied head of Borhad Khoralator, the legendary
 &+rmountain dwarf lord and battlemaster.
 ~
+#83416
+spiked stone bracer storms~
+&+Lthe &Nspiked &+Lstone &N&+cbracer of storms&N~
+&+LThe spiked &Nstone &+Lbracer of &N&+cstorms&+L has been left here.~
+~
+9 11 4 0 7 0 1 4097 64 0 0
+4 0 0 5 1 0 0 0
+4 11223 100 0 128 0 0
+E
+spiked stone bracer storms~
+   &+LThis heavy, stone bracer is covered in huge spikes that surge
+&+Lwith &+Belectrical &+Lpower.  Strange &N&+gdruidic &+Lmarkings of
+&+cstorms&+L and &+Blightning&+L cover this magical bracer.
+~
+A
+19 3
+A
+22 -2
 #83417
 ancient cask frothing mug ale~
 &+Lan ancient cask of &N&+y'Frothing Mug' ale&N~
@@ -5086,6 +5139,18 @@ A
 35 4
 A
 37 4
+#83427
+etched stone key~
+&+Lan &Ne&+Ltc&Nh&+Led&+L stone key&n~
+&+LAn etched &Nstone key&+L has been left here.~
+~
+18 11 3 0 7 0 0 16385 0 0 0
+0 100 0 0 0 0 0 0
+0 0 100
+E
+etched stone key~
+   &+LThis stone key is etched with strange markings of &N&+cstorms.
+~
 #83428
 cask vintage hammer shield ale~
 &N&+ya cask of vintage &n&+cHammer&N&+y and &+WShield &N&+ybrand ale&N~
@@ -5350,3 +5415,73 @@ bottomless bag collector~
 &+GIt stretches and gives seemingly endlessly to withstand any amount
 &+Gof space, or so it is advertised.
 ~
+#83446
+silver scimitar~
+&+La &N&+csilver &+Lscimitar&N~
+&+LA &N&+csilver &+Lscimitar has been left here, &+Wgleaming in the light.~
+~
+5 22 3 0 7 0 1 8193 65 0 0
+5 3 4 0 0 0 0 0
+0 0 100
+E
+silver scimitar~
+   &+cThis elegant, well-balanced scimitar is made of &+Cpolished
+&+Csilver&N&+c, fastened to a &+mmithril &+chilt.
+~
+A
+18 4
+A
+19 4
+#83447
+signet ring symbol baphomet~
+&+La &+Wsignet &+Lring bearing the &+Wsymbol&+L of &N&+rBaphomet&N~
+&n&+rA &+Wsignet &N&+rring of Baphomet&+L has been left here.~
+~
+9 16 1 0 8 0 0 3 64 0 0
+5 0 0 0 0 0 0 0
+0 14332 100
+E
+signet ring symbol baphomet~
+   &+LThis jagged &+Wsteel &+Lring is shaped like two large &N&+yhorns
+&+Lcurling around a single humanoid &+Wskull&+L, which has burning eyes
+&+Lof undead &+Rfire&+L.
+~
+A
+19 3
+A
+20 -3
+#83448
+string disembodied hands~
+&+La string of &N&+rdis&+Rem&N&+ybod&N&+ri&N&+re&N&+yd &+Yhands&N~
+&+LA disgusting string of disembodied &+Yhands&+L has been left here in a heap.~
+~
+9 2 3 0 7 0 0 5 0 0 0
+5 0 0 0 0 0 0 0
+0 14332 100
+E
+string disembodied hands~
+   &+rThis disgusting string of &+Rsinew &N&+rhas been skewered into several
+&+rdisembodied &+Yhands &N&+yof numerous shapes and sizes.
+~
+A
+32 4
+A
+36 4
+#83449
+breastplate gold trimmed mithril plate~
+&+ma breastplate of &+Ygold-trimmed &N&+mmithril&N~
+&+mA breastplate of &+Ygold-trimmed &N&+mmithril has been left here.~
+~
+9 18 3 0 7 0 0 9 0 0 0
+20 0 0 0 0 0 0 0
+4 44332 100
+E
+breastplate gold trimmed mithril plate~
+   &+mThis fine mithirl breastplate has been lined with a thick rim of
+&+Ygold&N&+m, which has also been etched into the &N&+mmithril in
+&+mmany locations depicting legendary dwarven heros and biblical lore.
+~
+A
+13 32
+A
+24 -1
