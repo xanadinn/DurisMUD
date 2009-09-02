@@ -8400,8 +8400,12 @@ void spell_vitality(int level, P_char ch, char *arg, int type, P_char victim,
   {
     send_to_char("&+BYou feel vitalized.\n", victim);
     act("$N looks vitalized.&n",
-      TRUE, ch, 0, victim, TO_ROOM);
-
+      TRUE, ch, 0, victim, TO_NOTVICT);
+      
+    if(ch != victim)
+      act("You vitalize $N.&n",
+        TRUE, ch, 0, victim, TO_CHAR);
+    
     bzero(&af, sizeof(af));
     af.type = SPELL_VITALITY;
     af.duration = duration;
