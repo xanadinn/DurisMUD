@@ -3751,6 +3751,17 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
           af.duration = WAIT_SEC * 30;
           affect_to_char(victim, &af);
         }
+        else
+        {
+          struct affected_type *af1;
+          for (af1 = victim->affected; af1; af1 = af1->next)
+          {
+            if(af1->type == TAG_TROLL_BURN)
+            {
+              af1->duration =  WAIT_SEC * 30;
+            }
+          }
+        }
       }
       else if(IS_AFFECTED2(victim, AFF2_FIRESHIELD))
         dam *= dam_factor[DF_ELSHIELDRED];
