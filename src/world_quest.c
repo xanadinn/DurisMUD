@@ -159,19 +159,27 @@ void quest_reward(P_char ch, P_char quest_mob, int type)
     if(!reward)
       reward = create_random_eq_new(ch, ch, -1, -1);
 
-    if(reward){
+    if(reward)
+    {
       wizlog(56, "%s reward was: %s", GET_NAME(ch), reward->short_description);
-      REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
-      SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
+      
+      if(IS_SET(reward->extra_flags, ITEM_SECRET))
+        REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
+      if(IS_SET(reward->extra_flags, ITEM_INVISIBLE))
+        REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
+      if(!IS_SET(reward->extra_flags, ITEM_NOREPAIR))
+        SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
+      
       act("$n gives you $q ", TRUE, quest_mob, reward, ch, TO_VICT);
       act("$n gives $N $q.", FALSE, quest_mob, reward, ch, TO_NOTVICT);
       obj_to_char(reward, ch);
     }
 
-    if( GET_CLASS(ch, CLASS_MERCENARY) && GET_LEVEL(ch) > 24  )
+    if(GET_CLASS(ch, CLASS_MERCENARY) &&
+       GET_LEVEL(ch) > 24)
     {
-      int temp = GET_LEVEL(ch) * 1256 + number(1,500);
-      mobsay(quest_mob, "As a mercenary i know you dont work for free. Take this.");
+      int temp = GET_LEVEL(ch) * 1256 + number(1, 1000);
+      mobsay(quest_mob, "As a mercenary, I know you do not work for free. Take this.");
       sprintf(Gbuf1, "You get %s.", coin_stringv(temp) );
       send_to_char(Gbuf1, ch);
       ADD_MONEY(ch, temp);
