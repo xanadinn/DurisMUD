@@ -1792,32 +1792,34 @@ int move_cost(P_char ch, int dir)
   moves = a + b;
   moves = (load_modifier(ch) * moves) / 200;
 
-  if (dir == DOWN)
+  if(dir == DOWN)
     moves = (moves / 3) * 2;    /* slightly less going down */
-  if (dir == UP)
+  if(dir == UP)
     moves = (moves * 3) / 2;    /* slightly more going up */
 
-  if (ch->specials.z_cord > 0 ||
-      (IS_NPC(ch) && IS_SET(ch->specials.act, ACT_MOUNT)))
-    moves = MAX(4, moves / 3);  /* Fly removes bunches of the cost */
+  if(ch->specials.z_cord > 0 ||
+    (IS_NPC(ch) && IS_SET(ch->specials.act, ACT_MOUNT)))
+        moves = MAX(4, moves / 3);  /* Fly removes bunches of the cost */
 
-  if (IS_AFFECTED(ch, AFF_FLY) ||      /* Fly/lev up/down costs very little */
-       (IS_AFFECTED(ch, AFF_LEVITATE) && ((dir == UP) || (dir == DOWN))))
-    if (world[ch->in_room].sector_type == SECT_MOUNTAIN ||
+  if(IS_AFFECTED(ch, AFF_FLY) ||      /* Fly/lev up/down costs very little */
+    (IS_AFFECTED(ch, AFF_LEVITATE) && ((dir == UP) || (dir == DOWN))))
+  {
+    if(world[ch->in_room].sector_type == SECT_MOUNTAIN ||
         world[ch->in_room].sector_type == SECT_OCEAN)
       ;
-    if(world[ch->in_room].sector_type == SECT_INSIDE ||
+    else if(world[ch->in_room].sector_type == SECT_INSIDE ||
        world[ch->in_room].sector_type == SECT_CITY ||
        world[ch->in_room].sector_type == SECT_ROAD)
           moves = 1;
     else
       moves = 2;
+  }
+  
+  if((world[world[ch->in_room].dir_option[dir]->to_room].sector_type == SECT_OCEAN) &&
+     is_ice(ch, ch->in_room))
+        moves = moves >> 1;
 
-  if ((world[world[ch->in_room].dir_option[dir]->to_room].sector_type ==
-       SECT_OCEAN) && is_ice(ch, ch->in_room))
-    moves = moves >> 2;
-
-  if (IS_TLEGLOCK(ch))
+  if(IS_TLEGLOCK(ch))
     moves += 10;
 
   return MAX(1, moves);
