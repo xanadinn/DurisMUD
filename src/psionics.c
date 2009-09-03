@@ -2351,46 +2351,49 @@ void spell_lend_health(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
   
-  hp = MIN(25 + GET_LEVEL(ch) * 3/2 , GET_MAX_HIT(victim) - GET_HIT(victim));
+  hp = MIN(25 + GET_LEVEL(ch) * 3 / 2 , GET_MAX_HIT(victim) - GET_HIT(victim));
+
+  ratio = get_property("spell.lendHealth.healRatio", 1.000);
   
-  if (hp <= 0)
+  if ((GET_HIT(ch) - (hp/ratio)) <= 1)
   {
-    act("Nice thought, but $N doesn't need healing.",
-      0, ch, 0, victim, TO_CHAR);
+    send_to_char("&+YYou realize this will kill you...\r\n", ch);
     return;
   }
   
-  if (GET_HIT(ch) - hp < -9)
+  if ((GET_HIT(ch) - hp) <= 1)
   {
     send_to_char("You do not feel healthy enough yourself!\r\n", ch);
     return;
   }
+
+  heal(victim, ch, (int)(ratio * hp), GET_MAX_HIT(victim) - number(1, 4));
+
+  GET_HIT(ch) -= (int)(hp/ratio);
   
-  ratio = get_property("spell.lendHealth.healRatio", 1.000);
-
-  heal(victim, ch, (int) ratio*hp, GET_MAX_HIT(victim) - number(1, 4));
-
-  GET_HIT(ch) -= (int) (hp/ratio);
-  if (GET_HIT(ch) > GET_MAX_HIT(ch))
+  if(GET_HIT(ch) > GET_MAX_HIT(ch))
     GET_HIT(ch) = GET_MAX_HIT(ch);
-  if (GET_HIT(ch) < 1)
-  {
-    int tmp = GET_HIT(ch)-1;
-    GET_HIT(ch) = 1;
-    act("&+WExhausted, $n &+Wpasses out!", FALSE, ch, 0, 0, TO_ROOM);
-    send_to_char("&+WHealth reserves exhausted, you pass out!\r\n", ch);
-    KnockOut(ch, -(int) tmp);
-  }
   
-  if (GET_HIT(victim) > GET_MAX_HIT(victim))
+  // if(GET_HIT(ch) < 1)
+  // {
+    // int tmp = GET_HIT(ch)-1;
+    // GET_HIT(ch) = 1;
+    // act("&+WExhausted, $n &+Wpasses out!", FALSE, ch, 0, 0, TO_ROOM);
+    // send_to_char("&+WHealth reserves exhausted, you pass out!\r\n", ch);
+    // KnockOut(ch, -(int) tmp);
+  // }
+  
+  if(GET_HIT(victim) > GET_MAX_HIT(victim))
     GET_HIT(victim) = GET_MAX_HIT(victim);
 
   update_pos(victim);
   update_pos(ch);
 
-  act("&+WYou lend some of your health to $N.", 0,
-    ch, 0, victim, TO_CHAR);
+  act("&+WYou lend some of your health to $N.",
+    0, ch, 0, victim, TO_CHAR);
   act("&+W$n lends you some of $s health.",
+    0, ch, 0, victim, TO_VICT);
+  act("&+W$n lends $N some of $s health.",
     0, ch, 0, victim, TO_VICT);
 
   return;
