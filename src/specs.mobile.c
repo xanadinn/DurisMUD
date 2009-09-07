@@ -11869,29 +11869,30 @@ int world_quest(P_char ch, P_char pl, int cmd, char *arg)
       return -1;
     }
 
-
-
     temp = 20 * GET_LEVEL(pl);
 
     sprintf(money_string, "Hmmmm, yeah, I might have a tip for you, but I'm not giving it away for free! It'll cost you %s.", coin_stringv(temp) );
 
     mobsay(ch, money_string);
+    
     if (GET_MONEY(pl) < temp)
     {
       send_to_char("You dont have the money, so you go sulk in the corner.\r\n", pl);
       return (TRUE);
     }
 
-    SUB_MONEY(pl, temp, 0);	
+    SUB_MONEY(pl, temp, 0);
     send_to_char("You hand over the money.\r\n", pl);
 
-    if(createQuest(pl, ch) > -1){
+    if(createQuest(pl, ch) > -1)
+    {
       do_quest(pl, "", 0);
       mobsay(ch, "Remember, you can always type 'quest' to see your current quest.");
       return TRUE;
     }
+    
     mobsay(ch, "Hmm, I'm unable to help you right now, try one of my colleagues around the world, or grab a few levels and come back.");
-    send_to_char("You get your money back.\r\n", pl);
+    send_to_char("\r\n&=LWYou get your money back.\r\n", pl);
     ADD_MONEY(pl, temp);
     return TRUE;
   }

@@ -1413,7 +1413,7 @@ void make_bloodstain(P_char ch)
   if (ch->specials.fighting && IS_UNDEADRACE(ch->specials.fighting))
     return;
 
-  if (IS_PUNDEAD(ch))
+  if (IS_UNDEADRACE(ch))
     return;
 
   if (world[ch->in_room].contents)
@@ -6412,7 +6412,9 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   else if (sic == -1 && (!GET_CLASS(ch, CLASS_MONK) || GET_LEVEL(ch) <= 50))
   {
     send_to_char("&=LWYou score a CRITICAL HIT!!!!!&N\r\n", ch);
-    make_bloodstain(ch);
+    
+    if(!number(0, 9))
+        make_bloodstain(victim);
   }
 
   if (sic == -1 &&
@@ -6497,6 +6499,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     {
       dam *= 1.5;
     } // Monk special critical hits don't work against a variety of victims.
+    
     if(IS_HUMANOID(victim) &&
       !IS_UNDEADRACE(victim) &&
       !IS_GREATER_RACE(victim) &&
@@ -6638,6 +6641,11 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
           !IS_SET(ch->equipment[WEAR_HANDS]->extra2_flags, ITEM2_MAGIC))
         dam = 1;
   }
+  
+  if(weapon &&
+     IS_PC(ch) &&
+     ilogb(dam) > number(5, 400))
+        DamageOneItem(ch, 1, weapon, FALSE);
 
   tmp = melee_death_messages_table[2 * msg + 1].attacker ? number(0, 1) : 0;
   messages.death_attacker =
@@ -6650,9 +6658,6 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
       (ch, victim, dam, (msg == MSG_HIT ? PHSDAM_TOUCH : PHSDAM_HELLFIRE | PHSDAM_BATTLETIDE) | RAWDAM_NOEXP,
        &messages) != DAM_NONEDEAD)
     return true;
-  
-  if (weapon && ilogb(dam) > number(15, 400))
-    DamageOneItem(ch, 1, weapon, FALSE);
 
   if (IS_NPC(victim) && (GET_POS(victim) < POS_STANDING))
   {

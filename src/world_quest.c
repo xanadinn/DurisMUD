@@ -860,8 +860,9 @@ int getQuestZone(P_char ch)
         zone_table[zone_count].avg_mob_level < 0 )
      continue;
     
-      if( zone_table[zone_count].avg_mob_level < (GET_LEVEL(ch)) &&
-        zone_table[zone_count].avg_mob_level > (GET_LEVEL(ch) - 7)){
+    if((zone_table[zone_count].avg_mob_level + 10) < (GET_LEVEL(ch)) &&
+        zone_table[zone_count].avg_mob_level > (GET_LEVEL(ch) - 5))
+    {
       //debug("%d %s " , zone_count, zone_table[zone_count].name);
 
       if(zone_count == world[ch->in_room].zone) //do not use same zone as the dude is in..
@@ -869,18 +870,20 @@ int getQuestZone(P_char ch)
 
       if( PLAYER_LEVEL < 51)
       {
-        if( (maproom1 = get_map_room(zone_count)) != -1){
+        if( (maproom1 = get_map_room(zone_count)) != -1)
+        {
           maproom2 = get_map_room(world[ch->in_room].zone);
           distance = calculate_map_distance(maproom1, maproom2);
 
-          if(distance < (3000 + PLAYER_LEVEL *PLAYER_LEVEL * PLAYER_LEVEL) && PLAYER_LEVEL < 45){
+          if(distance < (3000 + PLAYER_LEVEL *PLAYER_LEVEL * PLAYER_LEVEL) && PLAYER_LEVEL < 45)
+          {
 
             //debug("%d %d ", world[maproom1].zone, world[maproom2].zone);
 
             if(world[maproom1].zone != world[maproom2].zone) //make sure it's same map.
               continue;
 
-            //debug("Distance between %d and %d is %d", world[maproom1].number, world[maproom2].number, 							distance);
+            //debug("Distance between %d and %d is %d", world[maproom1].number, world[maproom2].number, distance);
             valid_zones.push_back(zone_count);
           }
           else if (PLAYER_LEVEL > 44)
@@ -895,7 +898,6 @@ int getQuestZone(P_char ch)
         valid_zones.push_back(zone_count);
       }
     }
-
   }
 
   //No valid zone found return -1
