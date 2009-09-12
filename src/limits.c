@@ -1049,7 +1049,8 @@ debug("damage 9 exp gain EXIT (%d)", XP);
   else if(type == EXP_HEALING)
   {
 // No exps for healing pets.
-    if(IS_NPC(victim))
+    if(victim &&
+       IS_NPC(victim))
     {
       return 0;
     }
