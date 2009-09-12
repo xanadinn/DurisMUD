@@ -636,7 +636,8 @@ void advance_level(P_char ch)
    * hitpoint gain
    */
 
-  if (GET_LEVEL(ch) < 26) {
+  if (GET_LEVEL(ch) < 26)
+  {
     ch->points.base_hit += (IS_ILLITHID(ch) ? 0 :number(0, 3));
     ch->points.base_mana += number(0, 3);
   }
@@ -941,6 +942,9 @@ int exp_mod(P_char k, P_char victim)
   return mod;
 }
 
+
+// DO NOT TOUCH THIS FUNCTION UNLESS YOU KNOW WHAT YOU ARE DOING!!!! 
+// -Lucrot Sep09
 int gain_exp(P_char ch, P_char victim, const int value, int type)
 {
   int i, range, XP = 0;
@@ -1153,13 +1157,13 @@ debug("melee 1 exp gain final (%d)", XP);
   }
   else if(type == EXP_WORLD_QUEST)
   {
-    XP = (int)(XP *
-               gain_exp_modifiers_race_only(ch, NULL, XP, NULL)); 
+debug("world quest 1 (%d)", XP);   
+    XP = (int)(gain_exp_modifiers_race_only(ch, NULL, XP, NULL));
+debug("world quest 2 (%d)", XP);   
   }
   else if(type == EXP_QUEST)
   {
-    XP = (int)(XP *
-               gain_exp_modifiers_race_only(ch, NULL, XP, NULL)); 
+    XP = (int)(gain_exp_modifiers_race_only(ch, NULL, XP, NULL)); 
   }
 debug("check 5 xp (%d).", XP);  
   range = (int) (new_exp_table[GET_LEVEL(ch) + 1] / 3);
