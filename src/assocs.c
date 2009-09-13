@@ -4179,8 +4179,8 @@ int max_assoc_size(int asc_number)
   int max_size = 1;
   int prestige = get_assoc_prestige(asc_number);  
 
-// Allowing 20 players per guild. Aug09 -Lucrot
-  return 20;
+// Allowing 30 players per guild. Sep09 -Lucrot
+  return 30;
 
 
   /* Commenting out kingdom code guild size for now. Jan08 -Lucrot
