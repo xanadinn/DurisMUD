@@ -709,7 +709,7 @@ void chant_heroism(P_char ch, char *argument, int cmd)
   if (number(1, 105) > skl_lvl) // 5 percent chance to fail at max pc skill.
   {
     send_to_char("Your inner thoughts are in turmoil.\r\n", ch);
-    notch_skill(ch, SKILL_HEROISM, 25);
+    notch_skill(ch, SKILL_HEROISM, 50);
     CharWait(ch, PULSE_VIOLENCE);
     return;
   }
@@ -1240,7 +1240,7 @@ void chant_regenerate(P_char ch, char *argument, int cmd)
   if (number(1, 100) > GET_CHAR_SKILL(ch, SKILL_REGENERATE))
   {
     send_to_char("You forgot the words for the chant.\r\n", ch);
-    notch_skill(ch, SKILL_REGENERATE, 10);
+    notch_skill(ch, SKILL_REGENERATE, 40);
     CharWait(ch, 2 * PULSE_VIOLENCE);
     return;
   }
