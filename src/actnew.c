@@ -3048,6 +3048,7 @@ void do_throat_crush(P_char ch, char *arg, int cmd)
     return;
   }
 */
+  CharWait(ch, PULSE_VIOLENCE * 1);
 
   if(affected_by_spell_flagged(ch, SKILL_THROAT_CRUSHER, 0))
   {
@@ -3062,8 +3063,6 @@ void do_throat_crush(P_char ch, char *arg, int cmd)
     
     return;
   }
-
-  CharWait(ch, PULSE_VIOLENCE * 1);
   
   if(!IS_HUMANOID(vict) ||
     IS_GREATER_RACE(vict) ||
@@ -3095,7 +3094,7 @@ void do_throat_crush(P_char ch, char *arg, int cmd)
     return;
   }
 
-  i = (int) ((float) skl_lvl) - (GET_C_AGI(vict) / 10);
+  i = (int)(skl_lvl - (GET_C_AGI(vict) / 10));
 
   if (GET_C_DEX(ch) > GET_C_DEX(vict))
   {
@@ -3114,6 +3113,8 @@ void do_throat_crush(P_char ch, char *arg, int cmd)
   {
     i = (int) (i * 0.9);
   }
+  
+  skl_lvl = MIN(i, 90);
 
   if(notch_skill(ch, SKILL_THROAT_CRUSH, get_property("skill.notch.offensive", 25) ||
     number(1, 100) > i))
