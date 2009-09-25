@@ -11802,6 +11802,9 @@ void spell_disintegrate(int level, P_char ch, char *arg, int type,
     TRUE, ch, 0, victim, TO_VICT);
   act("You grin evilly as you send a &+Ggreen beam of disintegration&n streaking towards&n $N!",
     TRUE, ch, 0, victim, TO_CHAR);
+    
+  if(resists_spell(ch, victim))
+    return;
   
   if(!saves_spell(victim, SAVING_SPELL))
   {
@@ -11886,7 +11889,7 @@ void spell_disintegrate(int level, P_char ch, char *arg, int type,
       }
     }
   }                             /* else dam = 0; */
-  spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, 0, &messages);
+  spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, SPLDAM_NOSHRUG, &messages);
 }
 
 void spell_shatter(int level, P_char ch, char *arg, int type, P_char victim,
