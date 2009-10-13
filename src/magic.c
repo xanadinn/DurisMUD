@@ -11914,8 +11914,7 @@ void spell_disintegrate(int level, P_char ch, char *arg, int type,
           }
           i++;
         }
-        while (i < MAX_WEAR &&
-               i < 3);
+        while (i < MAX_WEAR);
       }
     }
   }                             /* else dam = 0; */

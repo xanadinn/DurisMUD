@@ -692,8 +692,7 @@ void apply_affs(P_char ch, int mode)
 
   if(has_innate(ch, INNATE_HAMMER_MASTER) &&
      ch->equipment[PRIMARY_WEAPON] &&
-     (ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_HAMMER) ||
-     isname("hammer", ch->equipment[PRIMARY_WEAPON]->name))
+     ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_HAMMER)
   {
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 10;
