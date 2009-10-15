@@ -6936,7 +6936,7 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
       if(ch->in_room != illusionist->in_room &&
         !number(0, 1))
       {
-        send_to_char("&=LWYou receive a vision from elsewhere.&n&n\n", illusionist);
+        send_to_char("&+WYou receive a vision from elsewhere.\r\n", illusionist);
         new_look(illusionist, "", CMD_LOOK, obj->loc.room);
       }
     }
