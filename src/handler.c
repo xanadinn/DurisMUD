@@ -742,10 +742,13 @@ void char_from_room(P_char ch)
   {
     return;
   }
-/*
+
   if (ch->in_room == NOWHERE)
   {
-    logit(LOG_DEBUG, "call to char_from_room() when already NOWHERE (%s)", GET_NAME(ch));
+    return;
+  }
+/*  
+  logit(LOG_DEBUG, "call to char_from_room() when already NOWHERE (%s)", GET_NAME(ch));
     
     if(IS_NPC(ch))
     {
