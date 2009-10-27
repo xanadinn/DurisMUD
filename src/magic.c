@@ -13709,20 +13709,25 @@ void spell_resurrect(int level, P_char ch, char *arg, int type, P_char victim,
     if(!IS_TRUSTED(ch)) 
     { 
       if(EVIL_RACE(t_ch) && 
-              GET_LEVEL(t_ch) >= 52)
+         GET_LEVEL(t_ch) >= 52 &&
+         GET_LEVEL(t_ch) <= 55)
       {
-              resu_exp =
+         resu_exp =
           (long)(resu_exp * (get_property("gain.exp.mod.res.evil.52", 0.300)));
       }
       else if(EVIL_RACE(t_ch))
       {
-              resu_exp =
+         resu_exp =
           (long)(resu_exp * (get_property("gain.exp.mod.res.evil", 0.500)));
       }          
-            else
+      else if(GET_LEVEL(t_ch) >= 56)
       {
-        resu_exp =
-          (long)(resu_exp * get_property("gain.exp.mod.res.normal", 0.600)); 
+         resu_exp = (long)(resu_exp * 0.050);
+      }
+      else
+      {
+         resu_exp =
+          (long)(resu_exp * get_property("gain.exp.mod.res.normal", 0.600));
       }
     }     
     
