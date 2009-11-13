@@ -1265,20 +1265,23 @@ O 0 83104 2 83277 100 0 0 0        * a mithril sign
 O 0 83110 1 83285 100 0 0 0        * a huge moorwood armoire
 O 0 83139 7 83285 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
+P 1 58348 1 83139 80 0 0 0         *   (object type not in this .obj file)
 P 1 83241 1 83139 100 0 0 0        *   a tiny velvet case
 P 1 83242 1 83241 100 0 0 0        *     the royal signet ring of Alatorin
-O 0 83237 1 83285 100 0 0 0        * a huge golden weapon rack
-P 1 83240 1 83237 4 0 0 0          *   the enchanted mithril plumed helm of Shanat
-P 1 83238 1 83237 4 0 0 0          *   the enchanted mithril shield of Shanat
-P 1 83239 1 83237 4 0 0 0          *   the enchanted mithril full plate of Shanat
 O 0 83443 1 83296 100 0 0 0        * a huge golden key
 O 0 83107 1 83297 100 0 0 0        * a red button
 O 0 83373 1 83298 100 0 0 0        * a great mound of platinum
+O 0 83237 1 83298 100 0 0 0        * a huge golden weapon rack
+P 1 83240 1 83237 4 0 0 0          *   the enchanted mithril plumed helm of Shanat
+P 1 83238 1 83237 4 0 0 0          *   the enchanted mithril shield of Shanat
+P 1 83239 1 83237 4 0 0 0          *   the enchanted mithril full plate of Shanat
 O 0 83139 7 83300 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83272 1 83139 100 0 0 0        *   a parchment letter
 O 0 83199 3 83301 100 0 0 0        * a small concealed chest
 P 1 1728 1 83199 100 0 0 0         *   (object type not in this .obj file)
+O 0 83456 1 83302 100 0 0 0        * the righteous warhammer of Clangeddin Silverbeard
+O 0 83455 1 83304 100 0 0 0        * the smouldering forge hammer of Urtengor
 O 0 83137 1 83305 100 0 0 0        * a portal
 O 0 83134 1 83306 100 0 0 0        * a portal
 O 0 83195 1 83307 100 0 0 0        * a book entitled 'Remembering Dreams'
@@ -1604,7 +1607,7 @@ O 0 89008 4 83518 100 0 0 0        * (object type not in this .obj file)
 O 0 83428 1 83519 100 0 0 0        * a cask of vintage Hammer and Shield brand ale
 O 0 95527 1 83523 100 0 0 0        * (object type not in this .obj file)
 O 0 83114 6 83535 100 0 0 0        * a closet
-P 1 40444 2 83114 100 0 0 0        *   (object type not in this .obj file)
+P 1 40444 4 83114 100 0 0 0        *   (object type not in this .obj file)
 O 0 83114 6 83536 100 0 0 0        * a closet
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
@@ -1671,7 +1674,6 @@ O 0 83114 6 83769 100 0 0 0        * a closet
 P 1 97041 1 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 97047 1 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 97048 1 83114 100 0 0 0        *   (object type not in this .obj file)
-O 0 83405 999 83790 100 0 0 0      * a crude map of the Shanatar mountains
 O 0 3097 2 83795 100 0 0 0         * (object type not in this .obj file)
 O 0 83357 1 83796 100 0 0 0        * a broad sign
 O 0 72 2 83801 100 0 0 0           * (object type not in this .obj file)
@@ -2144,7 +2146,9 @@ E 1 83304 12 16 100 0 0 0          *   an illusionary dagger
 E 1 83304 12 17 100 0 0 0          *   an illusionary dagger
 M 0 83267 1 83267 100 0 0 0        * a royal shield dwarf delegate
 F 1 83268 1 83267 100 0 0 0        * an ambassador of Kimordril (following)
+G 1 40444 4 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83274 1 83267 100 0 0 0        * a visiting duergar guild leader (following)
+G 1 40444 4 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83273 2 83267 100 0 0 0        * an elite guard (following)
 F 1 83273 2 83267 100 0 0 0        * an elite guard (following)
 F 1 83275 2 83267 100 0 0 0        * a clansdwarf (following)
@@ -2195,6 +2199,7 @@ E 1 83142 999 16 100 0 0 0         *   a huge warhammer
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
 M 0 83248 1 83278 100 0 0 0        * Queen Bellethra
 M 0 83266 4 83279 100 0 0 0        * a mithril golem
+E 1 83454 1 3 100 0 0 0            *   a collar of razor-sharp mithril blades
 E 1 83259 8 16 100 0 0 0           *   a mithril blade
 E 1 83259 8 17 100 0 0 0           *   a mithril blade
 M 0 83266 4 83279 100 0 0 0        * a mithril golem
@@ -2447,7 +2452,7 @@ G 1 83275 6 0 100 0 0 0            *    a concealed dirk
 M 0 83384 4 83377 100 0 0 0        * a derro rogue
 M 0 83384 4 83377 100 0 0 0        * a derro rogue
 M 0 83383 1 83378 100 0 0 0        * a huge sloppy fat dwarf
-G 1 40444 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 4 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83303 4 83378 100 0 0 0        * a raucous goblin drunk
 M 0 83360 3 83379 100 0 0 0        * a Deramuth mercenary
 M 0 83384 4 83379 100 0 0 0        * a derro rogue
@@ -2644,6 +2649,7 @@ E 1 83292 8 26 100 0 0 0           *   a mithril battle axe
 M 0 83279 1 83472 100 0 0 0        * a mithril dwarf knight golem
 E 1 83293 5 16 100 0 0 0           *   a two-handed mithril broadsword
 M 0 83280 1 83472 100 0 0 0        * a mithril statue of Laduguer
+E 1 83452 1 9 100 0 0 0            *   some massive studded mithril fists
 G 1 83280 1 0 100 0 0 0            *    a mithril lever
 M 0 83281 8 83473 100 0 0 0        * a prison guardian
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
@@ -2664,6 +2670,7 @@ G 1 83294 2 0 100 0 0 0            *    a Shanat prison key
 M 0 83281 8 83474 100 0 0 0        * a prison guardian
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
 M 0 83292 1 83475 100 0 0 0        * Monaran the ancient prison overseer
+E 1 83451 5 5 100 0 0 0            *   a hooded flowing black robe
 E 1 83293 5 16 100 0 0 0           *   a two-handed mithril broadsword
 E 1 83293 5 17 100 0 0 0           *   a two-handed mithril broadsword
 F 1 83293 3 83475 100 0 0 0        * a dark dwarven minion (following)
@@ -2675,9 +2682,17 @@ E 1 83292 8 17 100 0 0 0           *   a mithril battle axe
 F 1 83293 3 83475 100 0 0 0        * a dark dwarven minion (following)
 E 1 83292 8 16 100 0 0 0           *   a mithril battle axe
 E 1 83292 8 17 100 0 0 0           *   a mithril battle axe
-M 0 83288 1 83483 100 0 0 0        * a massive blue dragon welp
-G 1 83305 1 0 100 0 0 0            *    the bloody heart of a blue dragon welp
-M 0 83289 1 83484 100 0 0 0        * a massive blue dragon welp
+M 0 83415 4 83476 100 0 0 0        * a black-hooded dwarf
+E 1 83451 5 5 100 0 0 0            *   a hooded flowing black robe
+M 0 83415 4 83477 100 0 0 0        * a black-hooded dwarf
+E 1 83451 5 5 100 0 0 0            *   a hooded flowing black robe
+M 0 83415 4 83480 100 0 0 0        * a black-hooded dwarf
+E 1 83451 5 5 100 0 0 0            *   a hooded flowing black robe
+M 0 83415 4 83482 100 0 0 0        * a black-hooded dwarf
+E 1 83451 5 5 100 0 0 0            *   a hooded flowing black robe
+M 0 83288 1 83483 100 0 0 0        * a massive blue drake
+G 1 83305 1 0 100 0 0 0            *    the bloody heart of a blue drake
+M 0 83289 1 83484 100 0 0 0        * a massive blue drake
 G 1 83306 1 0 100 0 0 0            *    the bloody heart of a blue dragon welp
 M 0 83284 6 83485 100 0 0 0        * a gloomwing
 M 0 83284 6 83485 100 0 0 0        * a gloomwing
