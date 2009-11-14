@@ -8653,8 +8653,10 @@ bool is_nopoof(P_obj obj)
 
 void DestroyStuff(P_char victim, int type)
 {
-  int slot, poof_chance, poofed = 0, worn = 0;
+  int slot, poofed = 0, worn = 0;
   P_obj item;
+  int poof_chance = (int)(get_property("pvp.eq.poof.chance", 10));
+  int poof_chance_niceq_multiplier = (int)(get_property("pvp.eq.poof.niceeq.chance.multiplier", 2));
 
   if(!(victim))
   {
@@ -8674,11 +8676,11 @@ void DestroyStuff(P_char victim, int type)
     
     worn++;
     
-    poof_chance =
-      MIN((int)
-          (get_property("damage.minPoofChance", 5.) +
-           obj_index[item->R_num].number / 5),
-          (int) get_property("damage.maxPoofChance", 20.));
+    //poof_chance =
+      // MIN((int)
+          // (get_property("damage.minPoofChance", 5.) +
+           // obj_index[item->R_num].number / 5),
+          // (int) get_property("damage.maxPoofChance", 20.));
     
     if(IS_SET(item->bitvector, AFF_STONE_SKIN) ||
       IS_SET(item->bitvector, AFF_HASTE) ||
@@ -8692,12 +8694,7 @@ void DestroyStuff(P_char victim, int type)
       IS_SET(item->bitvector4, AFF4_REGENERATION) ||
       obj_index[item->R_num].func.obj != NULL)
     {
-      poof_chance = 30;
-    }
-
-    if(IS_SET(item->extra_flags, ITEM_NOREPAIR))
-    {
-      poof_chance = 60;
+      poof_chance = (int)(poof_chance_niceq_multiplier * poof_chance);
     }
     
     if(poof_chance > number(0, 100))
