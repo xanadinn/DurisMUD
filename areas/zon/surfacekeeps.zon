@@ -22,6 +22,7 @@ O 0 193 5 121200 50 0 0 0          * (object type not in this .obj file)
 O 0 120017 2 121220 100 0 0 0      * a wooden merchant stall
 O 0 120003 1 121314 100 0 0 0      * a sign reading 'Court Hall'
 O 0 1460 1 121484 100 0 0 0        * (object type not in this .obj file)
+O 0 120049 1 121664 100 0 0 0      * a golden band bearing dwarven runes
 O 0 70 1 121680 100 0 0 0          * (object type not in this .obj file)
 O 0 53624 1 121680 100 0 0 0       * (object type not in this .obj file)
 O 0 193 5 121764 60 0 0 0          * (object type not in this .obj file)
@@ -112,7 +113,6 @@ G 1 821 999 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 835 999 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 120017 5 121014 80 0 0 0       * a wandering shield dwarf common man
 M 0 43132 1 121015 100 0 0 0       * (mob type not in this .mob file)
-M 0 120018 5 121015 80 0 0 0       * a shopping shield dwarf woman
 M 0 120018 5 121015 100 0 0 0      * a shopping shield dwarf woman
 M 0 120033 1 121030 100 0 0 0      * a Hammerhelm sergeant
 E 1 120019 1 11 100 0 0 0          *   an iron shield of Alatorin
@@ -151,6 +151,7 @@ G 1 11562 999 0 100 0 0 0          *    (object type not in this .obj file)
 G 1 6508 999 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 120028 5 121115 100 0 0 0      * an Alatorin noble
 G 1 94336 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 120018 5 121115 80 0 0 0       * a shopping shield dwarf woman
 M 0 120051 23 121123 80 0 0 0      * an osquip
 M 0 120036 5 121130 100 0 0 0      * an elite Alatorin ramrider
 E 1 120018 1 8 100 0 0 0           *   some gold-spurred polished mithril boots
@@ -200,6 +201,7 @@ M 0 120025 5 121318 100 0 0 0      * a shield dwarf
 M 0 120021 5 121321 100 0 0 0      * a wandering Alatorin guard
 M 0 120026 5 121324 100 0 0 0      * a visiting mountain dwarf
 M 0 120027 5 121328 100 0 0 0      * a duergar dwarf
+M 0 120065 1 121359 100 0 0 0      * Glendarla Shanat, the princess of Alatorin
 M 0 120044 8 121370 100 0 0 0      * a huge, furry mountain ram
 M 0 53642 23 121370 100 0 0 0      * (mob type not in this .mob file)
 M 0 120058 9 121371 80 0 0 0       * a troglodyte hunter

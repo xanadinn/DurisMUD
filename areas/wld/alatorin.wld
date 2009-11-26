@@ -323,7 +323,7 @@ D2
    &+CThis massive steel vault has a giant key hole.
 ~
 vault~
-3 0 83116
+3 83307 83116
 D3
 ~
 ~
@@ -343,7 +343,7 @@ D0
    &+CThe heavy steel vault door of the Alatorin depository.
 ~
 vault~
-3 0 83115
+3 83307 83115
 S
 #83117
 &+LThe &+CAlatorin &+LAuction House&N~
@@ -13506,6 +13506,10 @@ S
 &+Lside area to the east.
 ~
 831 0 0
+D0
+~
+~
+0 0 83892
 D2
 ~
 ~
@@ -15865,4 +15869,361 @@ D4
 ~
 trapdoor~
 5 0 83760
+S
+#83882
+&+LA Hallway Behind the &+GW&N&+gy&+Gr&n&+gm&+Wskull &N&+yThrone&N~
+   &+LThis narrow, dark hallway sits just behind the Wyrmskull throne.
+&+LAlthough narrow in relation to the overall size of BrightAxe Hall,
+&+Lthis mithril-blocked hallway is quite spacious.  The walls bare old
+&N&+ciron &+Lsconces, but no torches.  A small stepped staircase leads
+&+Leastward beyond a foyer, north of here.
+~
+831 32768 0
+D0
+~
+~
+0 0 83883
+D3
+~
+~
+0 0 83159
+S
+#83883
+&+CA Foyer&N~
+   &+CThis brief foyer has several small parapet slits at the very bottom,
+&+Clooking out onto the &N&+yShanatar &+Ctrails below.  A small staircase
+&+Cleading upwards veers off to the east, while a short hallway behind the
+&+CWyrmskull Throne is south of here.  The ground is nearly spotless, made
+&+Cof thick bricks of &N&+mmithril&+C.  The walls are made of thick stone,
+&+Cwith similar &N&+mmithril &+Cin the floor bricks standing as supportive
+&+Ccolumns throughout the passage.
+~
+831 32768 0
+D1
+~
+~
+0 0 83884
+D2
+~
+~
+0 0 83882
+S
+#83884
+&N&+rBelow a Sta&N&+circase&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D3
+~
+~
+0 0 83883
+D4
+~
+~
+0 0 83885
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83885
+&N&+rOn a &N&+cS&N&+rtai&N&+crcase&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D4
+~
+~
+0 0 83886
+D5
+~
+~
+0 0 83884
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83886
+&+rOn a &N&+cSt&N&+rair&N&+ccase&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D4
+~
+~
+0 0 83887
+D5
+~
+~
+0 0 83885
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83887
+&N&+rOn a &N&+cSta&+rirc&+case&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D4
+~
+~
+0 0 83888
+D5
+~
+~
+0 0 83886
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83888
+&N&+rOn a &N&+cStai&+rrca&+cse&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D4
+~
+~
+0 0 83889
+D5
+~
+~
+0 0 83887
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83889
+&N&+rOn a &+cStair&+rcas&+ce&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D4
+~
+~
+0 0 83890
+D5
+~
+~
+0 0 83888
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83890
+&N&+rAbove a &N&+cStairc&+rase&N~
+   &+cThis spiraling stone staircase leads up a long column within the
+&+cnortheastern corner of &N&+cBrightAxe &+LHall&N&+c, the largest structure
+&+cwithin Alatorin.  The stairs are covered with a thick carpet made of
+&+ca woven combination of reeds and hide - a technique not uncommon to
+&+cthe &Nsh&+Wie&Nld &+Ydwarves&N&+c.  There are small &+Ytorches &N&+csconced on either wall,
+&+cleading all the way up to the top of the staircase.
+~
+831 32768 0
+D1
+~
+~
+0 0 83891
+D5
+~
+~
+0 0 83889
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83891
+&NA Landing&N~
+   &+cThis drafty covered stone platform sits atop the highest peak of
+&+cAlatorin within &+CBrightAxe &N&+chall.  This small landing leads to
+&+ca few small steps before the glorious balcony of the royal Shanat family,
+&+coverlooking the mountain trails of &N&+yShanatar&N&+c.
+~
+831 32768 0
+D1
+~
+~
+0 0 120758
+D3
+~
+~
+0 0 83890
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
+S
+#83892
+&+YThe Golden &nP&+Wear&Nl &+RFeed &n&+rHole&N~
+   &+WThis large dining hall, located within the Golden Pearl Tavern of
+&+WDeramuth Port, is known collectively to the patrons as well as notoriously
+&+Wto outsiders as 'the &+RFeed &N&+rHole&+W.'
+   &+WThere are numerous small wooden benches parked along long wooden
+&+Wtables with heavy &+Lstone &+Wsupports.  Hearty &+Ydwarves&+B, barbarisn&+W, and
+&+Wothers come and go as they feast upon the delicious food served at
+&+Wthe &+RFeed &N&+rHole&+W.
+~
+831 32768 0
+D2
+~
+~
+0 0 83760
+E
+torch torches~
+&+r       '
+&+r     .''"'
+&+r   '  '&+R8&N&+r'.
+&+r   :;.&+R88&N&+r.. .
+&+r .  .&+Ro&+Y88&+Ro&N&+r..
+&+r .,:&+Ro&+Y888&+Rp&N&+r.;
+&+r...&+Roo&+Y888&+Ro&N&+r.
+&+r   .&+Ro&+Y88&+Ro&N&+r.
+&+L {        }
+&+L  \      /
+&+L   |&N&+b=&+B==&N&+b=&+L|
+&+L   |    |
+&+L    \  /
+&+L     \/
+~
 S
