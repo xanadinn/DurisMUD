@@ -8303,6 +8303,10 @@ a constant threat of raids and pillages from the races of lesser
 respect.
 ~
 536 33554432 1
+D0
+~
+~
+0 0 54242
 D1
 ~
 ~
@@ -9197,6 +9201,11 @@ D0
 ~
 ~
 0 0 54080
+D2
+&+yThe door to a large wooden shed.
+~
+shed door~
+1 0 54241
 D3
 ~
 ~
@@ -9231,6 +9240,7 @@ S
 ~
 536 33554432 1
 D1
+&+WThese large &+Ccrystal &+Wgates lead to the &+YShaledrieth Sunwell.
 ~
 gates~
 1 0 54082
@@ -9252,6 +9262,7 @@ S
 ~
 536 33554432 1
 D3
+&+CA pair of large crystal gates lead back to Grision street.
 ~
 gates~
 1 0 54081
@@ -12280,4 +12291,98 @@ S
 &+yand hanging from criss-crossing lines.
 ~
 536 134250496 0
+S
+#54241
+&+LWithin a &N&+yLarge Shed&N~
+   &+yThis large shed is located deep within the gardens of Shaledrieth.
+&+yMade mostly of nailed planks of &+Lmoor&N&+ywood crossed with sections
+&+yof &+rjodani&+y, this high-quality shed is built to withstand the
+&+yelements for a very long time.
+~
+536 33554432 0
+D0
+&+yA large wooden shed door leads back out to the gardens.
+~
+shed door~
+1 0 54079
+S
+#54242
+&+WThe Northern Guard Post of &+YShaledrieth~
+   &+WThis inner set of crystal gates marks the entrance of the high
+&+Welven mountain outpost of &+YShaledrieth&+W.  Only a few, heavily-
+&+Wfortified structures stand in this mountain outpost, giving the
+&+Wfeeling of protection of something by the high elves.  A roadway
+&+Wlies to the west, stretching into the small, but stable settlement.
+~
+536 33554432 1
+D0
+&+LA pair of large &N&+gcrystal gates&+L before the &+YShaledrieth &N&+cMoonwell&N.
+~
+gates~
+1 0 54243
+D2
+~
+~
+0 0 54034
+S
+#54243
+&+WA &NLanding &+WBelow the &+YShaledrieth &N&+cMoonwell&N~
+   &+WLocated just before the &n&+cmoonwell&+W of &+YShaledrieth&+W, this
+&+Wcircular stone room looks upon the stone well from a short,
+&+Wyet protective vantage point.  Heavily protected by the
+&+Wstrong and determined high elven guard, this portion of
+&+Wthe high elven village of Shaledrieth is located at the
+&+Wheart of the city.  Numerous races travel through this
+&+Warea on a daily basis, experiencing only a small part
+&+Wof the high elven culture in this mountain outpost.
+~
+536 33554432 1
+D2
+&+WA pair of large &+Gcrystal gates.
+~
+gates~
+1 0 54242
+D4
+~
+~
+0 0 54244
+S
+#54244
+&+WA Magnificent Stone Foyer Before the &+YShaledrieth &N&+cMoonwell~
+   &+WLocated just before the &n&+cmoonwell&+W of &+YShaledrieth&+W, this
+&+Wcircular stone room looks upon the stone well from a short,
+&+Wyet protective vantage point.  Heavily protected by the
+&+Wstrong and determined high elven guard, this portion of
+&+Wthe high elven village of Shaledrieth is located at the
+&+Wheart of the city.  Numerous races travel through this
+&+Warea on a daily basis, experiencing only a small part
+&+Wof the high elven culture in this mountain outpost.
+~
+536 33554432 1
+D0
+~
+~
+0 0 54245
+D5
+~
+~
+0 0 54243
+S
+#54245
+&N&+cThe &+YShaledrieth &N&+cMoonwell&N~
+   &+cThis large, domed chamber rests high in the mountain peaks of
+&+cthis great continent.  Gazing off miles in the distance, one can
+&+csee the other side of the great moonwell in the port of Fenaline.
+&+cThis moonwell, however, lies in Shaledrieth, the great mountain
+&+coutpost under the protection of the high elves.  Four huge columns
+&+cstand in the corners of this peak dias, each carved into various
+&+chigh elven prophets and figures of great lore.  A grand foyer
+&+clies to the south followed by a large staircase downward into
+&+cthe outpost of Shaledrieth.
+~
+536 33554432 1
+D2
+~
+~
+0 0 54244
 S

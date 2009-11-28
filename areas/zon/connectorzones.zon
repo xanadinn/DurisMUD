@@ -1,6 +1,6 @@
 #536
 &+LThe Great &n&+yRealm &+Lof &N&+rDuris&N~
-54240 2 0 40 50 1
+54245 2 0 40 50 1
 *
 * Zone edited with durisEdit v2.99de
 *
@@ -229,6 +229,14 @@ D 0 54062 1 1 100 0 0 0
 *     east exit from "Within a Guard's Bedroom" to
 *     "A Second Floor Hallway of the Barracks" - closed
 *
+D 0 54079 2 1 100 0 0 0
+*     south exit from "Within the Crystal Garden of Shaledrieth" to
+*     "Within a Large Shed" - closed
+*
+D 0 54241 0 1 100 0 0 0
+*     north exit from "Within a Large Shed" to
+*     "Within the Crystal Garden of Shaledrieth" - closed
+*
 D 0 54081 1 1 100 0 0 0
 *     east exit from "The Eastern Guard Post of Shaledrieth" to
 *     "A Landing Below the Shaledrieth Sunwell" - closed
@@ -341,6 +349,14 @@ D 0 54239 4 0 100 0 0 0
 *     up exit from "The Feculent Opening of a Massive Carcass" to
 *     "A Large Nesting Chamber" - open
 *
+D 0 54242 0 1 100 0 0 0
+*     north exit from "The Northern Guard Post of Shaledrieth" to
+*     "A Landing Below the Shaledrieth Moonwell" - closed
+*
+D 0 54243 2 1 100 0 0 0
+*     south exit from "A Landing Below the Shaledrieth Moonwell" to
+*     "The Northern Guard Post of Shaledrieth" - closed
+*
 *
 O 0 53601 1 53617 100 0 0 0        * a tarnished copper ring
 O 0 53604 1 53661 100 0 0 0        * a small wooden sign
@@ -367,6 +383,8 @@ O 0 53656 1 54218 100 0 0 0        * a large crack
 O 0 53657 1 54218 100 0 0 0        * a spider web
 P 1 54616 1 53657 100 0 0 0        *   (object type not in this .obj file)
 O 0 53666 1 54240 100 0 0 0        * a tent flap
+O 0 191 1 54241 100 0 0 0          * (object type not in this .obj file)
+O 0 53669 1 54245 100 0 0 0        * the Shaledrieth moonwell
 *
 M 0 53601 4 53601 100 0 0 0        * a tiny spider
 M 0 53600 1 53606 100 0 0 0        * an elite dwarven tunnel guard
@@ -542,8 +560,8 @@ M 0 53612 13 54017 100 0 0 0       * a mountain goat
 M 0 53674 1 54020 100 0 0 0        * a high elf scout
 E 1 53642 2 16 100 0 0 0           *   a crystal dagger
 E 1 53642 2 17 100 0 0 0           *   a crystal dagger
-M 0 53650 4 54024 100 0 0 0        * a proud high elf sentry
-M 0 53650 4 54024 100 0 0 0        * a proud high elf sentry
+M 0 53650 6 54024 100 0 0 0        * a proud high elf sentry
+M 0 53650 6 54024 100 0 0 0        * a proud high elf sentry
 M 0 53657 7 54026 100 0 0 0        * a patrolling high elf guard
 M 0 53666 5 54026 100 0 0 0        * a travelling merchant
 M 0 53669 5 54027 100 0 0 0        * a wandering human
@@ -607,8 +625,10 @@ M 0 53668 4 54079 100 0 0 0        * an elderly gardener
 M 0 53668 4 54079 100 0 0 0        * an elderly gardener
 M 0 53668 4 54079 100 0 0 0        * an elderly gardener
 M 0 53668 4 54079 100 0 0 0        * an elderly gardener
-M 0 53650 4 54081 100 0 0 0        * a proud high elf sentry
-M 0 53650 4 54081 100 0 0 0        * a proud high elf sentry
+M 0 55246 2 54079 50 0 0 0         * (mob type not in this .mob file)
+M 0 55246 2 54080 20 0 0 0         * (mob type not in this .mob file)
+M 0 53650 6 54081 100 0 0 0        * a proud high elf sentry
+M 0 53650 6 54081 100 0 0 0        * a proud high elf sentry
 M 0 53665 1 54085 100 0 0 0        * Glacienus, the captain of the guard
 E 1 53638 1 8 100 0 0 0            *   a pair of crystal spurred boots
 E 1 53639 1 12 100 0 0 0           *   an elven cloak of fine silk
@@ -740,5 +760,7 @@ M 0 53717 14 54237 100 0 0 0       * a small colorless worm
 M 0 53717 14 54237 100 0 0 0       * a small colorless worm
 M 0 53717 14 54237 100 0 0 0       * a small colorless worm
 M 0 53720 1 54240 100 0 0 0        * Asus the gnome brewer
+M 0 53650 6 54242 100 0 0 0        * a proud high elf sentry
+M 0 53650 6 54242 100 0 0 0        * a proud high elf sentry
 *
 S
