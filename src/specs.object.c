@@ -6900,12 +6900,13 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
 
       obj->value[6] = time(NULL);
 
-      for (illusionist = character_list; illusionist;
-           illusionist = illusionist->next)
-        if (IS_PC(illusionist) && GET_PID(illusionist) == obj->value[5])
+      for (illusionist = character_list; illusionist; illusionist = illusionist->next)
+        if(IS_PC(illusionist) &&
+           GET_PID(illusionist) == obj->value[5])
           break;
 
-      if (illusionist != NULL && ch->in_room != illusionist->in_room &&
+      if (illusionist != NULL &&
+          ch->in_room != illusionist->in_room &&
           !number(0, 2))
       {
         send_to_char("&=LWYou receive a vision from elsewhere.&n&n\n", illusionist);
@@ -6930,11 +6931,13 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
     if (type == WALL_OF_STONE)
       dam = GET_DAMROLL(ch);
     else if (type == WATCHING_WALL &&
-             illusionist)
+             illusionist &&
+             IS_ALIVE(illusionist) &&
+             GET_PID(illusionist) == obj->value[5])
     {
       dam = GET_DAMROLL(ch);
       if(ch->in_room != illusionist->in_room &&
-        !number(0, 1))
+         !number(0, 1))
       {
         send_to_char("&+WYou receive a vision from elsewhere.\r\n", illusionist);
         new_look(illusionist, "", CMD_LOOK, obj->loc.room);
