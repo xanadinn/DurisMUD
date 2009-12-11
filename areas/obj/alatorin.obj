@@ -2994,7 +2994,7 @@ tiny wand weapon enchantment~
 ~
 3 44 1 0 7 0 1 16385 64 0 0
 60 1 1 24 0 0 0 0
-0 15434 100
+0 11222 100
 E
 tiny wand weapon enchantment~
    &+cThis tiny wand has a slight &+Rred hue&n&+c when light shines throug hit,
@@ -3164,8 +3164,8 @@ bloody heart melbe~
 ~
 #83306
 bloody heart blue drake~
-&+rthe bloody heart of a &+bblue dragon welp&N~
 &+rthe bloody heart of a &+bblue drake&N~
+&+rThe bloody herat of a &+rblue drake&+r lies here in a pool of blood.~
 ~
 8 2 3 0 7 0 4096 16385 0 0 0
 0 0 0 0 0 0 0 0
@@ -4221,7 +4221,7 @@ marksman's goggles~
 ~
 9 44 2 0 11 0 0 131073 64 0 0
 5 0 0 0 0 0 0 0
-0 66558 100
+0 66558 100 4 0 0 1048576
 E
 marksman's goggles~
    &+LThese beautiful glassteel goggles are lightweight and increase the accuracy
@@ -4334,7 +4334,7 @@ mithril sign~
 &+m+-----------------------------------+
 &+m| &+MMundorno - Master of Dragon Scale&N&+m |
 &+m|           *-*-*-*-*-*-*           |
-&+m| &+LALL Smithery requires &+W500 &+Lplat !!&N&+m |
+&+m| &+LALL Smithery requires &+W100 &+Lplat !!&N&+m |
 &+m|   &+LMundorno will fasten the most&N&+m   |
 &+m| &+Lselect dragon scales from various&N&+m |
 &+m| &+Lbeasts around the world onto the&N&+m  |
@@ -4345,7 +4345,7 @@ mithril sign~
 &+m|          *-*-*-*-*-*-*-*          |
 &+m|  &+Wc&nh&+Cr&+Rom&+Ci&+Wu&nm &+Ldragon&N&+cs&+Lc&N&+ca&+Ll&N&+ce&+Lss&n&+m           |
 &+m|        &+Wsome si&+Cl&N&+cver dragonscales&+m   |
-&+m|           &+Ldragon scales   &N&+m        |
+&+m|           &+Ldragon scales&N x4   &N&+m     |
 &+m|          *-*-*-*-*-*-*-*          |
 &+m+-----------------------------------+
 ~
@@ -6162,7 +6162,7 @@ black leather boots adamantium heel blades~
 &+Cshrap &+Land well-maintained.
 ~
 A
-18 4
+32 5
 A
 19 4
 #83487
@@ -6197,7 +6197,7 @@ earring miniature durithalite dagger~
 &+Lvery exquisite.
 ~
 A
-18 2
+13 16
 A
 19 2
 #83489
@@ -6274,3 +6274,37 @@ A
 18 4
 A
 19 4
+#83492
+tight black shoes durithalite buckles~
+&+Lsome tight black shoes with &N&+rdu&+Rr&N&+ri&+Rth&+La&+Rl&+Li&+Rt&N&+re &+Lbuckles&N~
+&+LSome tight black shoes with &N&+rcrimson buckles&+L have been left here.~
+~
+9 3 2 0 9 0 0 65 0 0 0
+5 0 0 0 0 0 0 0
+0 11222 100
+E
+tight black shoes crimson buckles~
+   &+LThese cloth shoes are made of tightly-woven cloth.  Large straps help
+&+Lsupport ones ankles, reinforced with thick &N&+rdurithalite &+Lbuckles.
+~
+A
+2 5
+A
+19 3
+#83493
+wolf hide pants~
+&Nsome &+ywo&+Llf &+yhi&+Lde &N&+rpants&N~
+&nSome &+ywo&+llf &N&+yhi&+Lde &N&+rpants &+Llay here in a heap.~
+~
+9 12 3 0 5 0 0 33 0 0 0
+15 0 0 3 0 0 0 0
+0 17442 100
+E
+wolf hide pants~
+   &+yThese pants are made of thick wolf hide, stitched together in several
+&+ylayers to keep one warm and maneuverable in the harshest of &+Ccold&N&+y.
+~
+A
+32 4
+A
+19 2

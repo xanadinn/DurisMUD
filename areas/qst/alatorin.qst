@@ -2006,6 +2006,43 @@ D
 &N$n says &+LTake two of these &+Wtokens of &+Lstealth, as this has surely been an arduous adventure.'
 ~
 S
+#83337
+M
+qc_action 90~
+&N$n peers over his shoulders, occasionally &+Wsharpening &Na &+rdagger&N.
+~
+MA
+hi hello~
+&N$n grins at $N and says &+g'Hail, clansdwarf.'
+Sizing $N up, $n grins again and continues &+g'I do not recognize you as one of &+bClan Stealth Hunter&N&+g, but I can tell you how to get into our good graces.'
+~
+MA
+yes good graces clan stealth hunter~
+&+g'To get in good graces of Clan Stealth Hunter, $N,' &N$n says, &+g'You will have to complete a mission.  Go to the land of man and find two twin towers, identical in size and shape.  Our spies have revealed these towers to be prime location to watch the &N&+yKimordril Dwarves&+g on their own land, $N.'
+&n$n takes a swig of &+ydwarven ale&N and continues &+g'Find &+rMixt &+gand &+rLyena&+g, the keepers of these &+Ltwin towers&N&+g, and kill them.' &NHe says with a grin.
+&+g'Bring me their &+rhearts&+g as proof, and you will be rewarded.' $n concludes.
+~
+MA
+kimordril~
+&N$n scoffs at $N &+g'The dwarves of Kimordril are a waste of precious dwarvish skin!'
+&N$n coughs up a huge &Nlo&+Wo&+Yg&+Wi&Ne &Nand spits it onto the &+yground&N just inches from $N's feet.
+~
+MA
+no nope~
+&N$n nods at $N and says &+g'Very well, clansdwarf.'
+~
+QA
+&N$n says &+g'Well done, $N.'
+~
+R I 83486
+R E 60000
+R I 83463
+G I 13221
+G I 13223
+D
+&N$n slips past into the &+Lshadows&N, his &+yraspy dwarven voice &Nechoing more and more distant.
+~
+S
 #83338
 MA
 hi hello~
@@ -2059,9 +2096,9 @@ forge equipment mithril breastplate platemail arm leg plates helmet~
 &+W...and one of the following:
 &+Lsome &+Wc&Nh&+Cr&+Rom&+Ci&+Wu&Nm &+Ld&+Cr&+La&+Cg&+Lo&+Cn&n&+cscales&N
 &+Wsome sil&+Cv&N&+cer dragonscales&N
-&+La dragon scale&N
+&+La dragon scale&N x4
 
-&+W...and 500 platinum coins for my smithing fee, and I will imbue that &N&+mmi&+Mthr&N&+mil &+Warmament with that &+Ldragon&+Cs&N&+cc&+Ca&N&+cl&+Ce&+W.
+&+W...and 100 platinum coins for my smithing fee, and I will imbue that &N&+mmi&+Mthr&N&+mil &+Warmament with that &+Ldragon&+Cs&N&+cc&+Ca&N&+cl&+Ce&+W.
 ~
 MA
 steelgrip~
@@ -2080,85 +2117,97 @@ QA
 ~
 R I 83312
 G I 83313
-G C 500000
+G C 100000
 G I 83189
 QA
 &N$n &+Rsmelts the &+mmithril&+L, emblazoning it with the &+Wscales&+L.
 ~
 R I 83311
 G I 83313
-G C 500000
+G C 100000
 G I 83188
 QA
 &N$n smelts the &N&+mtempered &+Cmithril&+L, emblazoning it with &+Cdragonscales.
 ~
 R I 83211
 G I 83313
-G C 500000
+G C 100000
 G I 83191
 QA
 &N$n smelts the &N&+mtempered &+Cmithril&+L, and emblazons it with &+Cdragonscales.
 ~
 R I 83210
 G I 83313
-G C 500000
+G C 100000
 G I 83190
 QA
 &n$n melts down the &+Csilver &+Land emblazons it with &+Cthe dragonscales.
 ~
 R I 83378
 G I 83377
-G C 500000
+G C 100000
 G I 83190
 QA
 &N$n melts down the &+Csilver &Nore a bit and &+Lemblazons it with &+Cdragonscale.
 ~
 R I 96021
 G I 83377
-G C 500000
+G C 100000
 G I 83191
 QA
 &N$n smelts down the &N&+csilver &+Land emblazons it with &+Cdragonscales.
 ~
 R I 83380
 G I 83377
-G C 500000
+G C 100000
 G I 83189
 QA
 &N$n melts down the &+mmithril and emblazons it with &+Cdragonscales.
 ~
 R I 90018
 G I 83377
-G C 500000
+G C 100000
 G I 83188
 QA
 &N$n smelts the mithril and emblazons it with a few dragonscales.
 ~
 R I 83382
 G I 392
-G C 500000
+G C 100000
 G I 83191
+G I 392
+G I 392
+G I 392
 QA
 &N$n smelts the mithril and &+Lemblazons it with the dragonscales.
 ~
 R I 83381
 G I 392
-G C 500000
+G C 100000
 G I 83190
+G I 392
+G I 392
+G I 392
 QA
 &N$n smelts the mithril and &+Lemblazons it with the &+Cdragonscales.
 ~
 R I 83383
 G I 392
-G C 500000
+G C 100000
 G I 83189
+G I 392
+G I 392
+G I 392
 QA
 &N$n smelts the mithril and &+Lemblazons it with &+Cdragonscales.
 ~
 R I 83384
 G I 392
-G C 500000
+G C 100000
 G I 83188
+G I 392
+G I 392
+G I 392
 S
 #83348
 MA
