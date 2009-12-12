@@ -72,6 +72,9 @@ G 1 120005 999 0 100 0 0 0         *    a black-bladed dagger
 M 0 120052 1 120823 100 0 0 0      * Tok the exterminator
 M 0 120063 1 120823 100 0 0 0      * a tall golden knight
 E 1 120042 1 6 100 0 0 0           *   an ancient golden helmet
+M 0 120066 1 120823 50 0 0 0       * Gulranor the duergar hunter-killer
+E 1 120005 999 16 100 0 0 0        *   a black-bladed dagger
+E 1 120005 999 17 100 0 0 0        *   a black-bladed dagger
 M 0 120038 1 120827 100 0 0 0      * a dwarven blade merchant
 G 1 83290 999 0 100 0 0 0          *    (object type not in this .obj file)
 G 1 83291 999 0 100 0 0 0          *    (object type not in this .obj file)
@@ -82,8 +85,11 @@ M 0 120051 23 120828 80 0 0 0      * an osquip
 M 0 120031 5 120829 80 0 0 0       * a well-armored dwarven warrior
 M 0 53642 23 120868 100 0 0 0      * (mob type not in this .mob file)
 M 0 53642 23 120874 100 0 0 0      * (mob type not in this .mob file)
-M 0 120060 1 120880 100 0 0 0      * a roaming white dragon
+M 0 120060 1 120880 90 0 0 0       * a roaming white dragon
 G 1 83376 1 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 83366 3 0 50 0 0 0             *    (object type not in this .obj file)
+G 1 83366 3 0 50 0 0 0             *    (object type not in this .obj file)
+G 1 83366 3 0 50 0 0 0             *    (object type not in this .obj file)
 M 0 120062 1 120880 80 0 0 0       * Blendyl the storm druid
 G 1 120047 1 0 40 0 0 0            *    a plush saddle embroided with lightning bolts
 M 0 120061 1 120880 100 0 0 0      * Trag-guka-kag the troglodyte hunt leader

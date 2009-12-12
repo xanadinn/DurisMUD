@@ -7228,7 +7228,7 @@ S
 &+Wbeen chiseled out over time, and a few small balconies extend out of various
 &+Wparts of these walls.
 ~
-831 0 14
+831 134250496 14
 D0
 ~
 ~
@@ -9061,7 +9061,7 @@ door~
 S
 #83538
 &+WA &+YLa&+Mvi&+Ysh &+WSuite&N~
-   &+WThis castle bedroom, deep within the protection of Shanat Citadel,
+   &+WThis bedroom, deep within the inn of the Hammer and Shield Tavern,
 &+Whas been lavishly decorated with great detail, from the foreign silk
 &+Wtapestries on the walls to the carved miniatures sitting across the
 &+Wintricately-designed dwarven hearth.
@@ -9279,7 +9279,7 @@ S
 &+Lunfortunate enough to feed off the greedy dwarves that dwell in this
 &+Lshady underground.
 ~
-831 0 14
+831 4 14
 D0
 &+LA large &N&+rdoor&+L leads to a shop.
 ~
@@ -9288,7 +9288,7 @@ door~
 D1
 ~
 ~
-8 0 83812
+8 0 83898
 D2
 &+LA &N&+yra&+mgg&+bedy &+rold curtain &+Lleads to a shop named &N&+ythe Trapper's &+BKeepers&N&+y.
 ~
@@ -14578,14 +14578,14 @@ S
 &+Lquite far removed from the publics eye and knowledge.
 ~
 831 33554432 15
+D0
+~
+~
+0 0 83898
 D2
 ~
 ~
 0 0 83813
-D3
-~
-~
-0 0 83549
 S
 #83813
 &+LWithin a Contraband &N&+yStorage Cave&N~
@@ -14609,7 +14609,7 @@ S
 #83814
 &+WDemilich Load Room~
 ~
-831 1174405248 15
+831 1174446208 15
 D0
 ~
 ~
@@ -16426,4 +16426,63 @@ torch torches~
 &+L    \  /
 &+L     \/
 ~
+S
+#83898
+&+LA &N&+yS&+Lm&+yu&+Lg&+yg&+Ll&+Ye&+Lr&+ys&+L' &+yD&+Le&+yn&N~
+   &+LThis ancient, dark cavern has several large &N&+mmithril &+Land adamantite
+&+Lsupports fastened, giving the cavern an almost dwarven hall-like feeling.
+&+LThe ground is quite level, and perhaps doctored by the inhabiting dwarves.
+&+LFilling this massive cavern are massive crates, old and new, of all sizes
+&+Land covered in different languages.  The area is dusty, dark, wet, and
+&+Lquite far removed from the publics eye and knowledge.
+~
+831 33554432 15
+D0
+&+yA hide curtain hangs in front of the tunnel to the north.
+~
+curtain~
+1 0 83899
+D1
+~
+~
+0 0 83900
+D2
+~
+~
+0 0 83812
+D3
+~
+~
+0 0 83549
+S
+#83899
+&+LA &NDr&+mea&Nry &+yPlanning &+LRoom&N~
+   &+LThis ancient, dark cavern has several large &N&+mmithril &+Land adamantite
+&+Lsupports fastened, giving the cavern an almost dwarven hall-like feeling.
+&+LThe ground is quite level, and perhaps doctored by the inhabiting dwarves.
+&+LFilling this massive cavern are massive crates, old and new, of all sizes
+&+Land covered in different languages.  The area is dusty, dark, wet, and
+&+Lquite far removed from the publics eye and knowledge.
+~
+831 33554432 15
+D2
+&+yA hide curtain hangs over the southern tunnel.
+~
+curtain~
+1 0 83898
+S
+#83900
+&+yA &+LContraband-Filled &+yCavern&N~
+   &+LThis ancient, dark cavern has several large &N&+mmithril &+Land adamantite
+&+Lsupports fastened, giving the cavern an almost dwarven hall-like feeling.
+&+LThe ground is quite level, and perhaps doctored by the inhabiting dwarves.
+&+LFilling this massive cavern are massive crates, old and new, of all sizes
+&+Land covered in different languages.  The area is dusty, dark, wet, and
+&+Lquite far removed from the publics eye and knowledge.
+~
+831 33554432 15
+D3
+~
+~
+0 0 83898
 S

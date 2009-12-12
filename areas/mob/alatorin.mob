@@ -1551,7 +1551,7 @@ hammerhelm soldier shield dwarf recruit young~
 ~
 1073743944 0 0 24 0 0 0 0 S
 pm 0 1 -1
-46 0 0 1d1+1 1d1+1
+45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #83200
@@ -1653,7 +1653,7 @@ young soldier training~
 &+Lthen promoted to the &+CBright&N&+cAxe &+Larmy, the personal troops of the
 &+LKing and savior of the &N&+cAlatorin &+Lshield dwarves himself.
 ~
-67110986 0 0 24 0 0 0 0 S
+1140852810 0 0 24 0 0 0 0 S
 pm 0 1 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -1672,7 +1672,7 @@ clund hammerhelm shield dwarf~
 &+Wof troops in the entire &N&+cAlatorin &+Warmy from a very young age.
 ~
 1157650888 0 0 402653336 14528 128 4718592 1000 S
-pm 0 33 -1
+pm 0 67108897 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2216,7 +2216,7 @@ blazing avatar breuldin~
 &+Was a mortal resemblance of Breuldin, manifested by the great holy might
 &+Wof this holy sanctum.
 ~
-1074792650 0 0 152 0 0 131072 1000 S
+1091569866 0 0 152 0 0 131072 1000 S
 ug 0 32 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -2331,7 +2331,7 @@ pm 0 16385 -1
 0.0.0.0 0
 8 8 1
 #83246
-shanat royal guard shield dwarf~
+shanat royal guard shield dwarf _spec3_~
 &+La &N&+cShanat &+Mr&N&+mo&+My&N&+ma&+Ml &+Lguard&N~
 &+LA &N&+mr&+Mo&N&+my&+Ma&N&+ml &+Lguard of &N&+cShanat &+Lwalks here, looking &N&+rstern&+L.
 ~
@@ -2346,7 +2346,7 @@ pm 0 2097152 -1
 0.0.0.0 0
 8 8 1
 #83247
-captain guard shanat~
+captain guard shanat _spec3_~
 &+Lthe &N&+mc&+Ma&N&+mp&+Mt&N&+ma&+Mi&n&+mn&N~
 &+LThe &N&+mr&+Mo&+Yy&+Ma&N&+ml &+Wcaptain &+Lof the &N&+cShanat Guard&+L walks here, ordering his troops.
 ~
@@ -2651,7 +2651,7 @@ mithril golem~
 &+Lbody is made of rock and huge blade-like protrusions.  This mithril golem was created
 &+Lwith the most powerful &N&+yearth &+Lmagic.
 ~
-3274 1 0 0 0 0 0 0 S
+3274 1 0 144 0 0 0 0 S
 ee 0 1 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -2688,9 +2688,9 @@ pm 5 1 -1
 0.0.0.0 0
 8 8 1
 #83269
-citadel guardian guard shield dwarf~
-&+ca citadel &Npatrol &+cguardian&N~
-&+cA burly &Nsh&+Wie&Nld &+Ydwarf &N&+ccitadel guardian &+Lpatrols theese halls.
+citadel patrol guard shield dwarf _spec1_~
+&N&+ca citadel &Npatrol &+cguard&N~
+&+cA citadel &Npatrol &+cguard &N&+rgrimmaces as he walks the halls.
 ~
    &+LThis burly shield dwarf is dressed in standard Alatorin battle armor, but wearing
 &+Lthe high golden seal colors of Shanat Citadel with pale blue trim.  He has a large
@@ -2883,7 +2883,7 @@ mithril statue laduguer~
 &+mevil blood enemies of the shield dwarves, stored in this deep below.
 ~
 1075466 0 0 144 192 524416 12582912 -1000 S
-ee 0 67109377 6
+ee 0 577 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -2994,7 +2994,7 @@ half visible half-visible dwarf~
 &+Lthis &N&+cimage&+L does not take kindly to intruders.
 ~
 1140853064 1 0 538443800 14528 0 0 0 S
-ug 0 12288 -1
+wr 0 12288 -1
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -5247,5 +5247,51 @@ muscular githzerai prince~
 1073743882 0 0 0 0 0 0 1000 S
 gz 0 512 -1
 51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83432
+smuggler~
+&+ya smuggler&N~
+&+yA smuggler stands here&N&+r, alerted by your presence.
+~
+&+yThis humanoid smuggler looks to be the cross-breed between a human
+&+yand a halfling, or possibly a dwarf.  Needless to say he is quite
+&+yquick on his feet, albeit smaller than the average human.  He is
+&+ydressed in fine leathers and looks like he has been in many fights.
+~
+1073743944 1 0 0 0 0 0 0 S
+h 0 16384 2
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83433
+barbarian smuggler~
+&+La barbarian &N&+ysmuggler&N~
+&+LA large barbarian &N&+ysmuggler &+Lhauls a crate of &N&+rcontraband&+L through the cavern.
+~
+   &+BThis large &+ysmuggler&+B is a northland barbarian.  Although he wears
+&+Bsimilar leather armor on the outer layer of his garments, he is still
+&+Bdressed in stereotypical thick hides that one would expect such a person
+&+Bto wear.
+~
+1073743944 1 0 0 0 0 0 0 S
+pb 0 16384 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83434
+naltem halfling pirate~
+&+BNal&+Ltem &N&+ythe &+Ypirate&N~
+&+BNal&+Ltem &N&+ythe halfling &+Ypirate &N&+ysits on top of a crate&+W counting platinum.
+~
+&n  Naltem is the &+ghalf-brother &Nof the human smuggler Metlan.  He was
+&nonce an outcast of &+yWoodseer&n who has found a new life here in the
+dreary smuggling rings of &+cAlatorin&N.  He has numerous tattoos on his
+muscular arms, including one very distinguishable as a &+Lpsychomia &+gp&+Glan&+gt
+&+Gleaf&n.
+~
+1073744074 0 0 24 0 0 0 -420 S
+pf 0 16384 -1
+53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1

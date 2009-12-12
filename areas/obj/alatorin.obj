@@ -184,7 +184,7 @@ iron broadsword sword~
 &+LA heavy &+ciron &+Lbroadsword has been dropped here.~
 ~
 5 15 3 0 7 0 0 8193 0 0 0
-5 4 4 0 0 0 0 0
+5 3 4 0 0 0 0 0
 4 1598 100
 E
 iron broadsword sword~
@@ -2339,7 +2339,7 @@ earthen chest~
 &+Lan &N&+yearthen &+Lchest&N~
 &+LA huge chest of stone and &N&+yearth &+Lwith a huge keyhole is here.~
 ~
-15 11 3 0 7 0 4096 0 0 0 0
+15 11 3 0 7 0 134221824 0 0 0 0
 5000 29 83253 500 0 0 0 0
 0 0 100
 E
@@ -2509,7 +2509,7 @@ drop droplet baobob sap~
 &+LA small &N&+cdroplet &+Lof gooey &+Ytree sap&+L lies here, adhered to the &N&+yearth&+L.~
 ~
 10 40 3 0 7 0 4096 8404993 64 0 0
-55 141 398 515 0 0 0 0
+55 141 237 515 0 0 0 0
 0 15343 100
 E
 drop droplet baobob sap~
@@ -6246,7 +6246,7 @@ black dagger reckoning _noquest_~
 &+LThe black dagger of reckoning floats here on a &N&+rwisp of &+Yhell&N&+rfire&N.~
 ~
 5 19 3 0 14 0 33554432 8193 70 0 0
-2 2 8 0 7 324064321 40 35
+2 2 8 0 7 324064321 41 30
 0 66666 100 0 28 0 0
 E
 black dagger reckoning _noquest_~
@@ -6308,3 +6308,28 @@ A
 32 4
 A
 19 2
+#83494
+potion elemental power _noquest_~
+&+La &+Wpotion &+Lof &+rel&+yem&+ben&+Bt&+gal &+Ypower&N~
+&+LA &+Wpotion &+Lof &N&+rel&+yem&+ben&+Bt&+gal &+Ypower&N has been left here.~
+~
+10 15 3 0 7 0 33554433 8388609 64 0 0
+60 267 481 244 0 0 0 0
+0 0 100
+E
+potion elemental power _noquest_~
+   &+LThis thick potion bottle holds within it a swirling maelstrom of total
+&+Rpower&+L.
+~
+#83495
+belt dangling rat bat skulls~
+&+La belt of dangling &+Rrat &+Land &+Rbat &+Ws&Nk&+Wu&Nl&+Wl&Ns&N~
+&+LA belt of dangling &+Wskulls&N lies here.~
+~
+9 15 3 0 7 0 0 2049 64 0 0
+5 0 0 3 0 0 0 0
+0 0 100 0 0 128 0
+A
+24 -4
+A
+55 4

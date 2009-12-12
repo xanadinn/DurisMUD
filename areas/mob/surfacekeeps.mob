@@ -979,7 +979,7 @@ tall golden knight~
 1073743880 0 0 939524120 14552 0 0 1000 S
 PH 0 24 -1
 50 0 0 1d1+1 1d1+1
-0.0.0.0 0
+0.0.0.50 0
 8 8 1
 #120064
 zyka troll stalker~
@@ -1014,3 +1014,19 @@ pm 0 32 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
+#120066
+gulranor duergar hunter killer hunter-killer~
+&+rGulranor &+Lthe &N&+rduergar &+ghunter&+L-killer&N~
+&+rGulranor &+Lthe &N&+rduergar &+ghunter&+L-killer &N&+bsneaks through the shadows.
+~
+   &+rGulranor is a muscular duergar who is as stealthy as his title may
+&+rsuggest.  A member of the infamous &+gHunter&+L-Killers&N&+r, normally
+&+rbased in &+bStorm &+WPo&+Lrt&N&+r, Gulranor has taken to &N&+cAlatorin &+rin a
+&+rconsiderably sizable trek for fortune and blood.  His mission is unknown,
+&+rhowever his presence alone is quite powerful.
+~
+1073743880 0 0 134742040 0 0 0 -1000 S
+pd 0 12288 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.50 0
+8 8 1

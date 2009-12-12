@@ -396,6 +396,7 @@ hi hello~
 &NWith a grin on his face, &+cDweefniggle &Ncontinues &+G'There are what are commonly referred to as 'random objects' throughout the lands.  This could be anything from &Na &+Wm&+Ya&+Wg&+Yi&+Wc&+Ya&+Wl &+Rgem &N&+ymonolith&+G to &+La strange &+Wsharp &N&+rrubin&+G to &Na piece of &N&+bsapphire&+G!  I'll take it all!'
 After clearing his voice, $n continues 'Give me ten items and I'll give you a piece of a token of &n&+ycollecting!&+W'
 &N$n pauses for a moment, grabs $N's shirt, and says 'Wait $N!  Before you go, I have to ask you for a &+Wfavor.'
+&N'Don't forget to ask me about &+ycrafting&n!' he adds.
 ~
 M
 qc_action 200~
@@ -415,6 +416,16 @@ favor~
 MA
 medal medals honor~
 &N$n grins at $N and says &+W'Medals of Honor are rewarded all over Alatorin for certain deeds that honor the king.  Tell ya what, $N, if you bring me &+Rfour&+W of those &+Cmedals of honor&+W, I will repay you with a special &+Rtoken &+Wof &+Rgnome currency&+W!'
+~
+MA
+craft crafting~
+&n$n nods at $N and says 'I love crafting, $N.  I've been working on these new &+Bbody enhancement mechanics&N where we can increase our own energy output from simple &+Cmechanics &Nthat attach to the body!'
+With a large grin, $n continues 'My prototypes are finished and I'm ready to produce!  Here's what I will require:
+&Nsome &+Mte&n&+mmp&+Mer&N&+med &+Mmi&+mth&+Mril &Narmor, which you'll find at &+CSteel&N&+cgr&+Lip's &+WDepot&N
+a &+Rgn&N&+romi&+Rsh &+Lshopkeepers token&N
+and &+W50 platinum&N for my troubles
+
+'There are five different pieces of &+mte&+Mmpere&+d &+Cmithril &n&+marm&+Mor &Nand thus five different pieces of &+Bbody enhancements&N that I can craft for you, $N!' he says.
 ~
 QA
 &N$n grins and says 'Thanks!  Remember, just give me ten of those pieces and I'll give ya a whole token!'
@@ -641,6 +652,7 @@ dragon dragons dragonslayer taark~
 &+Ldragon scales&+R of dragons you have killed and I will give you my
 &+Rcommendation.'
 &+RTaark Shanat &+Wnods proudly at $N.
+&+R'Ancient dragons,' $N$n adds, &+R'Like Tiamat, Dragonnia, and Bahamut also plague these lands.'
 ~
 MA
 scale scales~
@@ -651,6 +663,12 @@ MA
 queen bellethra ring~
 &N$n smiles at $N.
 His eyes drift to out to his attendant's office across the throne room and nervously rubs his unringed finger as his face sours to a frown.
+~
+MA
+dragonnia tiamat bahamut~
+&N$n nods at $N and strokes his long billowing &+Ybeard&+W.
+&+R'Tiamat, Dragonnia, and Bahamut, the three dragon queens of these realms..' &Nhe says, letting out a huge sigh.
+&+R'If you can prove your strength and honor, $N, you will slay these three beasts and return to me with their &+rhearts&+R!'
 ~
 QA
 &+RTaark Shanat &+Wsnaps his finger and a nearby attendant happily collects
@@ -686,7 +704,18 @@ QA
 ~
 R I 83250
 R C 600000
+R E 140000
 G I 83272
+QA
+&N$n gathers the &+rhearts&+W and in a huge, powerful gesture, &+Lbanishes&N them to the land of &+Wwind &nand &+Lghosts&N.
+~
+R I 55241
+R I 55073
+R E 250000
+R C 2000000
+G I 55081
+G I 55082
+G I 55080
 S
 #83178
 M
@@ -1895,6 +1924,12 @@ After some discussion between $n and $N about their experiences with jade, $n sa
 $n sighs, and continues &+G'I am not a violent man, $N, but the citizens of the Jade Empire are monopolizing this precious stone.  You are so impressed by these &+Geyes &Nbecause they are of a rock you so rarely see!'
 &+G'There are certain highlanders that patrol the island of &n&+gJade&+G.  These highlanders force out all excavation operations that are not immediately affiliated with the &N&+gJade &+GEmpire.  Well, it is unfortunate that it has come to this, but we have no choice but to force the weapons from the hands of these samurai and dismantle their threat to our projects,' $n says.
 &+G'I will reward you for each jade katana you recover from these highland samurai, $N' he says with a bow, and a solemn nod.
+$n grins and asks $N '&+GWhat do you know of the jade &N&+gwyrm&+G?'.
+~
+MA
+wyrm~
+&N$n nods at $N and says &+G'Within this land of Jade one may find an ancient wyrm deep within the underbelly of the city.  I would repay you with an infamous weapon if you could find and slay this beast.'
+With a wicked grin, $n adds &+G'Bring me its heart.'
 ~
 QA
 &n$n smiles and says 'Excellent work $N.  It is unfortunate that we have had to take these actions, but at least you did not harm them, right $N?'
@@ -1902,6 +1937,11 @@ A deeply, &+Wgrave &Nlook sours $n's face.
 ~
 R C 45000
 G I 43141
+QA
+&N$n says &+G'Excellent work, $N!'
+~
+R I 55025
+R I 55342
 S
 #83335
 M
@@ -2063,6 +2103,22 @@ G I 83353
 G I 83397
 D
 &N$n disappears into the &+Lshadows.
+~
+S
+#83341
+MA
+hi hello~
+&N$n looks at you cautiously for a moment and whispers &+L'I must get out of here!  Please, $N, I have been trapped in the Shanatar mountains for some time.  I snuck into this inn during the night and do not know where to go once I leave the gates of Alatorin.  Can you find me a map of the Shanatar Mountains, $N?!'
+~
+QA
+&n$n grabs the map and studies it intently.
+~
+R E 126000
+R C 68000
+R I 83463
+G I 83405
+D
+&n$n says &+L'Excellent, I will take to the seas!'
 ~
 S
 #83342
@@ -2347,6 +2403,7 @@ MA
 alatorin yes~
 &N$n nods at $N and says &+G'Alatorin can be worth a nice coin, if you play your cards right' &Nwith a smirk.
 &+G'From the merchants all the way up to the king.. its a business!' he says with a small cackle.
+&+G'Down here,' &Nhe adds, &+G'You'll find a lot of dwarves with a taste for &+Ldrugs&+G.'
 ~
 MA
 no~
@@ -2374,6 +2431,49 @@ MA
 signet rings ring~
 &n$n nods at $N and says &+G'Taark Shanat and Clund Hammerhelm both wear signet rings to make their mark.  Acquire both of these rings for me, $N, and I shall repay your efforts.'
 ~
+MA
+bimk deramuth~
+&N$n grins at $N and says &+g'Ahh yes my dear brother Bimk from Deramuth Port.  He introduced me to &+Lpsychomia&+g which I love so much..  If you ever come across raw &+Lpsychomia &+gp&+Glan&+gt&+G, make sure to pay Bimk a visit to get it processed before coming back here.'
+&N$n begins &+Wdrooling&N.
+~
+MA
+drugs drug~
+&N$n nods at $N and says &+G'If ya come across any &+Wplastic &Nbags filled with &+gd&+Grug&+gs &+GI may be able to whip up a nice &+gp&+Go&+Wti&+Go&+gn &+Gfor ya.  You can visit my brother Bimk in Deramuth if you have raw &+Lpsychomia&+G'
+&+G'Ask me about the different &+gp&+Go&+Wti&+Go&+gns &+GI can make for you, &+W$N.&+G' &Nhe adds.
+~
+MA
+psychomia~
+&N$n licks his lips and smiles.
+&+G'Psychomia is a great plant, $N.' &N$n instructs.
+&+G'But it can only do me good down here if its processed and &+Wbagged&+G up like &+Ldrugs&+G should be.  You should see my brother Bimk for this.'
+~
+MA
+brother brothers~
+&N$n grins at $N and says &+G'I actually got two brothers.  Bimk over in Deramuth Port, and Mugflog back in the swamps outside of Moregeeth.'
+~
+MA
+mugflog~
+&N$n smiles at $N and says &+G'Mugflog can be found in an old hut in his private little island.  My brother Bimk has some stories about their voyages together, but Mugflog now deals with &+Ytreasure&+G.  You should pay him a visit sometime, see what he's got,' &N$n says with a grin.
+~
+MA
+delicate bubble wisp wind flint granite snowflake burning flame~
+&N$n says &+G'Well.. &+Ma del&+mica&+Mte bu&+mbb&+Mle&+G, &+Wa w&+Yis&+Wp of w&+Yin&+Wd&+G, &+La fl&Nin&+Lt of gr&Nani&+Lte&+G, &+Ca s&+Bma&+Cll s&+Bno&+Cwf&+Bla&+Cke&+G, and &+Ra bu&+rrn&+Rin&+rg f&+Rlam&+re &+Gcan all be found on the five different &+Wincarnates&+G that travel the realm.'
+~
+MA
+incarnate incarnates~
+&n$n nods at $N and says &+G'Pure manifestations.  Seek them out.'
+~
+MA
+potion potions~
+&n$n nods and says to $N &+G'I can craft the following potions, with the listed requirements..'
+&+GFor an &+rel&+yem&+Ben&+Rt&N&+gal &+Ypotion&+G, I will require...
+&+MA d&+meli&+Mcate bu&+mbb&+Mle&+G, &+Wa w&+Yis&+Wp of w&+Yin&+Wd&+G, &+La fl&Nin&+Lt of &Ngr&+Lan&Nit&+Le&+G, &+Ca s&+Bmal&+Cl sn&+Bow&+Cf&+Bla&+Cke&+G, OR &+Ra bu&+rrn&+Rin&+rg f&+Rlam&+re&+G, along with an &+Yempty potion bottle&+G.  These &N&+Yempty potion bottles&+L can be purchased in the &+YCommerce District &+Gat a particular &N&+mpotion &+cvendor&+G.
+&+GYou can also give me one each of these &+Wfive &+rel&+yem&+Ben&+Rt&+gal &+Ypotions&+G, five alltogether, for some &+Melixirs &+Lof &N&+mpower&+G.
+
+&+GFor a &+Ltiny &+gel&+Gix&+gir &+Lof &+gpotent &+Gdrugs I will require &+Wa small &Nplastic &+Wbag filled with &+gdr&+Gu&+ggs&+G.  Bring your &+Lpsychomia &N&+gp&+Glant&+gs &+Gto my brother Bimk for this one.
+
+&+GFor a &+Wpotion &+Lof &+rel&+yem&+ben&+Bta&+gl &+Ymight &+GI will require an &+Melixir &+Lof &+mpower &+Land a &+Rgn&+romi&+Rsh &+Lshopkeepers token&+G.'
+~
 QA
 &N$n exclaims &+G'Excellent, $N!  I will get to work right away.'
 ~
@@ -2385,6 +2485,54 @@ G I 83260
 D
 &N$n dissapears into the &+Lshadows&N, cackling wildly.
 ~
+QA
+&N$n gathers the potions and pours them into one massive &+Ybottle.&N
+He stirs it for a moment, utters some magical words, takes a few sips from the concoction and nods.
+~
+R I 55204
+R I 55204
+G I 55138
+G I 55139
+G I 55140
+G I 55136
+G I 55137
+QA
+&N$n combines the ingredients.
+~
+R I 55140
+G I 55554
+G I 55141
+QA
+&N$n combines the ingredients.
+~
+R I 55139
+G I 55553
+G I 55141
+QA
+&N$n combines the ingredients.
+~
+R I 55138
+G I 55552
+G I 55141
+QA
+&N$n combines the ingredients.
+~
+R I 55136
+G I 55551
+G I 55141
+QA
+&N$n combines the ingredients.
+~
+R I 55137
+G I 55550
+G I 55141
+QA
+&N$n mixes the ingredients.
+~
+R I 83494
+R I 83494
+G I 55204
+G I 55033
 S
 #83379
 M
@@ -2484,6 +2632,16 @@ gruneegth goblin~
 &n&+gA Gruneegth goblin nods excitedly at $N and says '$N help goblin!  Bring me flask from Gruneegth city, goblin pay!'
 &+gA Gruneegth goblin leans in real close to $N and says 'Or bring me fabled Gruneegth totem, and goblin pay with special treasure.'
 ~
+QA
+&N$n exclaims &+G'YESSS!'
+~
+R E 24705
+G I 40468
+QA
+&N$n exclaims &+Y'OH YES!!!!!!!!!'
+~
+R I 83495
+G I 37117
 S
 #83392
 MA
@@ -2520,13 +2678,40 @@ MA
 gruneegth~
 &N$n glares at $N.
 ~
-M
+MA
 hi hello~
 &N$n looks at $N and says &+G'Yeah and whatdo you know?!'
+$n peers at $N for a moment and says &+G'Got any psychomia?'
 ~
 M
 qc_action 300~
 &N$n grins and says &+G'The Ultranos was a fine ship, but not fine enough for Bimk!'
+~
+MA
+yes yeah nod~
+&N$n raises an eyebrow and asks $N &+G'"Yeah" what, you got psychomia?'
+~
+MA
+no nope~
+&N$n says to $N &+G'Than scram!'
+~
+MA
+psychomia~
+&N$n grins at $N and says &+G'Psychomia is the best!  Tell you what, $N, you look like a smart individual.. bring me a &+Lpsychomia &N&+gp&+Gla&+gnt &+Gand I'll chop it up and bag it for ya!'
+~
+MA
+brother brothers drug drugs~
+&N$n nods at $N with a huge &+Wgrin&N.
+&+G'My brothers are Jenk and Mugflog, and boy do they love &+Lpsychomia&+G,' &Nhe says without letting up on his smile.
+~
+MA
+jenk~
+&N$n says &+G'Jenk is pretty notorious 'round Alatorin.  You'll probly find him down below with the rogues, though.  He's my brother and he has a sweet tooth for my own special cut of &+Ldrugs&+G.'
+&N$n starts laughing and cackling with insane glee.
+~
+MA
+mugflog~
+&N$n grins at $n and says &+G'Mugflog stays much closer to home, down there in Moregeeth.  He used to sail with me on the &+BUltranos&+G but my dear brother is now only concerned with &+Ytreasure&+G.'
 ~
 QA
 &N$n says 'Well done, $n!'
@@ -2534,6 +2719,15 @@ QA
 R I 38779
 R I 83450
 G I 31538
+QA
+&N$n grins and takes the &+Lpsychomia&N.
+After several minutes of chopping up the &+Lpsychomia&N, grinding it into little bits, and shaking it over a metal screen, $n gathers the &+gp&Na&+gr&nt&+gi&nc&+Gl&Ne&+gs &Ninto a &+Wplastic&N bag&N.
+&+G'Here ya go' &Nhe says.
+&+G'Theres a few people out there who you might find that love this stuff,' &N$n continues&N, &+G'Particularly my brothers!'
+~
+R I 55247
+R C 100000
+G I 55246
 S
 #83394
 M
@@ -2846,4 +3040,68 @@ M
 qc_action 400~
 &N$n raises his hand and a ball of &+Rflame &Nstarts &N&+rbu&+Yrn&N&+rin&+Yg.
 ~
+S
+#83434
+MA
+hi hello~
+&N$n grins at $N and says &+y'Greetings, smuggler.'
+~
+MA
+alatorin~
+&N$n grins at $N and says &+y'Alatorin is a world of opportunities.  Especially for a smuggler.'
+~
+MA
+jenk bimk~
+&n$n chuckles at $N and says &+y'Nevermind those goblins.  They cannot touch a smuggler like me.'
+~
+M
+clan~
+&N$n nods at $N and says &+y'I often see many different duergar and mountain dwarves set up strange clans down here.  I'm not sure what is going on with them, but I know they are super-exclusive to their own blood.'
+~
+MA
+stealth hunter clansdwarf~
+&N$n nods at $N and says &+y'If yer goin anywhere near Clan Stealth Hunter, you'd better be a clansdwarf.'
+~
+MA
+cutpurse killers~
+&N$n nods at $N and says &+y'If yer goin anywhere near the Cutpurse Killers, ya better be a mountain dwarf.'
+~
+MA
+smuggler smuggle smugglers smugglin metlan naltem~
+&N$n nods at $N and says &+y'My brother Metlan and I run the show down here.  We see a lot of thugs turn to smuggling for the money, $N.'
+$n shakes a pouch full of rare &+Wplatinum &Ncoins at $N and laughs.
+&+y'If ya wanna be rich like us, you should start smugglin'!' &Nhe exclaims, slapping $N on the back.
+&+y'You can start right away!  We are looking to ship some &+Ydwarven spirits &N&+youtta here, $N.' &N$n says.
+~
+MA
+spirits spirit ale beer liquor~
+&N$n nods at $n and says &+y'Dwarven spirits.. beer, whiskey, ale.. all of it!'
+&+y'There are four taverns in &+cAlatorin&+y,' &Nhe says&+y 'StoneBrew, Hammer and Shield, Barlow's, and of course the Frothing Mug.'
+&+y'Bring me a barrel or keg of &+Yspirits &N&+yfrom each of these taverns, including a keg of the stuff they got at the &+YGolden Pearl &N&+yin &+WDeramuth&n&+y for a total of five barrels, and you will be rewarded handsomly.' &N$n says to $N, grinning.
+~
+MA
+barrels kegs barrel keg cask casks~
+&N$n nods at $N and says &+y'There are five types of dwarven booze one can find in the mountains of Shanatar.  Four of these barrels are in the different pubs of Alatorin while the fifth is in the Golden Pearl in Deramuth Port.  Bring me one of each for five total and I will reward you, $N.'
+~
+MA
+psychomia~
+&N$n grins at $n and says &+y'Psychomia is great stuff.  There's a goblin up at Deramuth Port named Bimk who can bag it up for ya if you bring him a plant.  Tell ya what, $N,' &Nhe says, &+y'If ya bring me a &+Wplastic &Nbag &+Wfull of &N&+gd&+Grug&+gs&+W &N&+yI will pay ya top coin!'
+~
+QA
+&N$n snaps his fingers and two &+ysmugglers&N - one a barbarian and the other a halfling - burst through the curtain.
+The two &+ysmugglers&N carry the &+ybarrels&, and &+ykegs&N off into the tunnels.
+~
+R E 80000
+R I 83463
+G I 83417
+G I 83428
+G I 83172
+G I 83473
+G I 83118
+QA
+&N$n exclaims &+y'Great work, $N!  You should try smugglin'!
+~
+R C 100000
+R E 100000
+G I 55247
 S
