@@ -1784,7 +1784,7 @@ void do_stat(P_char ch, char *argument, int cmd)
 
     int exits_shown = 0;
     for (i3 = 0, i = zone->real_bottom;
-         (i != NOWHERE) && (i <= zone->real_top) && (exits_shown < 100); i++)
+         (i != NOWHERE) && (i <= zone->real_top) && (exits_shown < 1000); i++)
     {
       for (i2 = 0; i2 < NUMB_EXITS; i2++)
       {
@@ -1806,11 +1806,6 @@ void do_stat(P_char ch, char *argument, int cmd)
                       world[i].number, dirs[i2]);
               exits_shown++;
             }
-            else if (IS_MAP_ROOM(i) &&
-                IS_MAP_ROOM(world[world[i].dir_option[i2]->to_room].number))
-            {
-              continue;
-            }
             else
             {
               sprintf(o_buf + strlen(o_buf),
@@ -1831,7 +1826,7 @@ void do_stat(P_char ch, char *argument, int cmd)
       strcat(o_buf, "&+RNONE!&n\n");
     }
     
-    if( exits_shown >= 100 )
+    if( exits_shown >= 1000 )
     {
       strcat(o_buf, " (and many more)\n");
     }      
