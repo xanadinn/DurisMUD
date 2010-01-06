@@ -225,6 +225,8 @@ void convertMob(P_char ch)
       (GET_RACE(ch) == RACE_A_ELEMENTAL) ||
       (GET_RACE(ch) == RACE_W_ELEMENTAL) ||
       (GET_RACE(ch) == RACE_E_ELEMENTAL) ||
+      (GET_RACE(ch) == RACE_V_ELEMENTAL) ||
+	  (GET_RACE(ch) == RACE_I_ELEMENTAL) ||
       IS_UNDEADRACE(ch) ||
       (GET_RACE(ch) == RACE_INSECT) ||
       (GET_RACE(ch) == RACE_REPTILE) ||
@@ -278,6 +280,7 @@ void convertMob(P_char ch)
   case RACE_W_ELEMENTAL:
   case RACE_A_ELEMENTAL:
   case RACE_E_ELEMENTAL:
+  case RACE_V_ELEMENTAL:
   case RACE_GHOST:
   case RACE_DRAGONKIN:
     ch->points.base_armor -= 50;
@@ -290,6 +293,7 @@ void convertMob(P_char ch)
     ch->points.base_armor -= 100;
     break;
   case RACE_DRAGON:
+  case RACE_I_ELEMENTAL:
     ch->points.base_armor -= 150;
     break;
   }

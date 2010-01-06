@@ -912,9 +912,11 @@ typedef unsigned int uint;
 #define RACE_DRIDER          76 /* mob race code: DR */
 #define RACE_PWORM           77 /* mob race code: PW */
 #define RACE_AGATHINON       78 /* mob race code: EH */
-#define LAST_RACE            78
+#define RACE_V_ELEMENTAL     79 /* mob race code: VE */
+#define RACE_I_ELEMENTAL     80 /* mob race code: IE */
+#define LAST_RACE            80
 
-#define DEFINED_RACES        77 /* actual number of races defined */
+#define DEFINED_RACES        79 /* actual number of races defined */
 #define MAX_HATRED	     5
 
 #define RACEWAR_NONE         0

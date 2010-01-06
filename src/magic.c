@@ -18131,6 +18131,7 @@ bool can_banish(P_char ch, P_char victim)
       case RACE_EFREET:
       case RACE_A_ELEMENTAL:
       case RACE_W_ELEMENTAL:
+	  case RACE_I_ELEMENTAL:
         return TRUE;
       default:
         return FALSE;

@@ -1406,6 +1406,12 @@ P_obj make_corpse(P_char ch, int loss)
       act("$n explodes into all corners of the room, covering it in darkness!", TRUE, ch, 0, 0, TO_ROOM);
       spell_darkness(GET_LEVEL(ch), ch, 0, 0, 0, 0);
       break;
+	case RACE_V_ELEMENTAL:
+	  act("$n howls, and returns to the void which spawned it.", TRUE, ch, 0, 0, TO_ROOM);
+	  break;
+	case RACE_I_ELEMENTAL:
+	  act("A blank look overcomes $n's face for a moment, before $e shatters into tiny fragments!", TRUE, ch, 0, 0, TO_ROOM);
+	  break;
     }
 
     obj_from_room(corpse);

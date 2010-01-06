@@ -1268,6 +1268,8 @@ struct racial_data_type racial_data[LAST_RACE + 1] = {
   {100, 100, 60, 120, -1, 1000},               /* * Drider * */
   {14, 170, 200, 150, 2, 5000} ,               /* * Purple Worm * */
   {500, 130, 200, 150, 1, 3000},               /* * Agathinon * */
+  {8, 170, 200, 150, 1, 20} ,                  /* * Void Elemental */
+  {8, 170, 200, 150, 1, 20} ,                  /* * Ice Elemental */
 };
 
 /*

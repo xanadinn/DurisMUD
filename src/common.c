@@ -139,6 +139,8 @@ const struct race_names race_names_table[LAST_RACE + 2] = {
   {"Drider", "Drider", "&+mDri&+Lder&n", "DR"},
   {"Purple Worm", "PurpleWorm", "&+mPurple &+LWorm&n", "PW"},
   {"Agathinon", "Agathinon", "&+WAga&+Yt&+Whin&+Yo&+Wn&n", "AG"},
+  {"Void Elemental", "VoidElemental", "&+LVoi&+wd Elemen&+Ltal&n", "VE"},
+  {"Ice Elemental", "IceElemental", "&+CIc&+We Ele&+cme&+Wnt&+Cal&n", "IE"},
   {0}
 };
 
@@ -223,6 +225,8 @@ int race_size(int race)
     case RACE_A_ELEMENTAL:
     case RACE_W_ELEMENTAL:
     case RACE_E_ELEMENTAL:
+	case RACE_V_ELEMENTAL:
+	case RACE_I_ELEMENTAL:
     case RACE_OGRE:
     case RACE_MINOTAUR:
     case RACE_EFREET:

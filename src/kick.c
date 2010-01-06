@@ -285,6 +285,7 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_GARGOYLE:
   case RACE_GIANT:
   case RACE_E_ELEMENTAL:
+  case RACE_I_ELEMENTAL:
   case RACE_EFREET:
   case RACE_CONSTRUCT:
     if (!number(0, 1))
@@ -298,6 +299,7 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_SHADOW:
   case RACE_PHANTOM:
   case RACE_WIGHT:
+  case RACE_V_ELEMENTAL:
   case RACE_F_ELEMENTAL:
   case RACE_A_ELEMENTAL:
   case RACE_W_ELEMENTAL:

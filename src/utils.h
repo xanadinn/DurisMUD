@@ -122,6 +122,7 @@
          (GET_RACE(mob) == RACE_SHADOW) || \
          (GET_RACE(mob) == RACE_PHANTOM) || \
          (GET_RACE(mob) == RACE_SPECTRE) || \
+		 (GET_RACE(mob) == RACE_V_ELEMENTAL) || \
          IS_AFFECTED4(mob, AFF4_PHANTASMAL_FORM))
 
 #define LEGLESS(mob) (IS_IMMATERIAL(mob) || IS_BEHOLDER(mob) || \
@@ -706,6 +707,7 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
            (GET_RACE(ch) == RACE_SKELETON) || \
            (GET_RACE(ch) == RACE_WRAITH) || \
            (GET_RACE(ch) == RACE_SHADOW) || \
+		   (GET_RACE(ch) == RACE_V_ELEMENTAL) || \
            (IS_DRACOLICH(ch)) || \
            (IS_UNDEAD(ch)))
 
@@ -727,6 +729,8 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define IS_ELEMENTAL(ch) ((GET_RACE(ch) == RACE_F_ELEMENTAL) || \
         (GET_RACE(ch) == RACE_A_ELEMENTAL) || \
         (GET_RACE(ch) == RACE_W_ELEMENTAL) || \
+		(GET_RACE(ch) == RACE_V_ELEMENTAL) || \
+		(GET_RACE(ch) == RACE_I_ELEMENTAL) || \
         (GET_RACE(ch) == RACE_E_ELEMENTAL))
 
 #define IS_NOCORPSE(ch) ((GET_RACE(ch) == RACE_UNDEAD) || \
@@ -742,6 +746,8 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
            ( GET_RACE(ch) == RACE_A_ELEMENTAL ) || \
            ( GET_RACE(ch) == RACE_F_ELEMENTAL ) || \
            ( GET_RACE(ch) == RACE_E_ELEMENTAL ) || \
+		   ( GET_RACE(ch) == RACE_V_ELEMENTAL ) || \
+		   ( GET_RACE(ch) == RACE_I_ELEMENTAL ) || \
            ( GET_RACE(ch) == RACE_EFREET ))
 
 
