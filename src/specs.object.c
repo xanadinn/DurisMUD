@@ -2936,6 +2936,13 @@ int living_necroplasm(P_obj obj, P_char ch, int cmd, char *arg)
         }
       }
     }
+    
+    // if it's in the HOLD slot, return to inventory
+    if (OBJ_WORN_BY(obj, ch) && (obj == ch->equipment[HOLD]))
+    {
+      obj_to_char(unequip_char(ch, HOLD), ch);
+    }    
+    
     // if not worn, but carried, equip self
     if (OBJ_CARRIED_BY(obj, ch))
     {
