@@ -15,20 +15,11 @@
   PROFILE_##action(pulse_reset) \
   PROFILE_##action(event_loop) \
   PROFILE_##action(event_func) \
-  PROFILE_##action(mundane1) \
-  PROFILE_##action(mundane2) \
-  PROFILE_##action(mundane3) \
-  PROFILE_##action(mundane4) \
-  PROFILE_##action(mundane5) \
-  PROFILE_##action(mundane51) \
-  PROFILE_##action(mundane52) \
-  PROFILE_##action(mundane53) \
-  PROFILE_##action(mundane54) \
-  PROFILE_##action(mundane6) \
-  PROFILE_##action(mundane7) \
-  PROFILE_##action(mundane8) \
-  PROFILE_##action(mundane9) \
-  PROFILE_##action(mundane10)
+  PROFILE_##action(mundane_track) \
+  PROFILE_##action(mundane_track_1) \
+  PROFILE_##action(mundane_track_2) \
+  PROFILE_##action(mundane_track_3) \
+  PROFILE_##action(mundane_track_4)
 
    
 
