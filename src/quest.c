@@ -85,9 +85,7 @@ void     give_reward(struct quest_complete_data *, P_char, P_char);
 
 bool execute_quest_routine(P_char ch, int cmd)
 {
-return false;
-
-int arg;
+  int arg;
   int qi = find_quester_id(GET_RNUM(ch));
   struct quest_msg_data *qdata = quest_index[qi].quest_message;
 
