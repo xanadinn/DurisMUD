@@ -7744,7 +7744,7 @@ void do_springleap(P_char ch, char *argument, int cmd)
            ((double) BOUNDED(80, 100 + GET_LEVEL(ch) - GET_LEVEL(vict), 125))
            / 100);
   percent_chance =
-    takedown_check(ch, vict, percent_chance, SKILL_SPRINGLEAP, APPLY_ALL ^ FOOTING);
+    takedown_check(ch, vict, percent_chance, SKILL_SPRINGLEAP, APPLY_ALL);
 
   if(percent_chance == TAKEDOWN_CANCELLED)
   {
