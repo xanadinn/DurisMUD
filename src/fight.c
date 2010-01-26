@@ -806,13 +806,12 @@ void AddFrags(P_char ch, P_char victim)
  // When a player with a bood tasks dies, they now satisfy the pvp spill blood task.
   if(afp = get_spell_from_char(victim, TAG_EPIC_ERRAND))
   {
-	if(afp->modifier == -10 &&
-	   -gain < 0)
-	{
-      send_to_char("The &+yGods of Duris&n are very pleased with YOUR &+Rblood&n, too!!!\n", victim);
-      send_to_char("You can now progress further in your quest for epic power!\n", victim);
-      affect_remove(victim, afp);
-	}
+    if(afp->modifier == -10 && gain > 0 )
+    {
+        send_to_char("The &+yGods of Duris&n are very pleased with YOUR &+Rblood&n, too!!!\n", victim);
+        send_to_char("You can now progress further in your quest for epic power!\n", victim);
+        affect_remove(victim, afp);
+    }
   }
 
   send_to_char(buffer, victim);
