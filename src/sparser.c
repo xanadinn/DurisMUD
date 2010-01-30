@@ -2126,7 +2126,7 @@ void do_cast(P_char ch, char *argument, int cmd)
   if (IS_TRUSTED(ch) || GET_CLASS(ch, CLASS_PSIONICIST) || 
       IS_SET(skills[spl].targets, TAR_INSTACAST))
     dura = 1;
-  else if (GET_CLASS(ch, CLASS_DRUID) ||
+  else if ((GET_CLASS(ch, CLASS_DRUID) && !IS_MULTICLASS_PC(ch)) ||
            ((!is_tank || number(0, 1)) &&
             (IS_NPC(ch) || IS_SET(ch->specials.act2, PLR2_QUICKCHANT)) &&
             (notch_skill(ch, SKILL_QUICK_CHANT, get_property("skill.notch.quickChant", 100)) ||
