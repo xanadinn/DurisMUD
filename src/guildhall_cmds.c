@@ -18,8 +18,6 @@
 #include "utility.h"
 #include "map.h"
 
-// TODO: block flashing ansi in room rename?
-
 #define CAN_CONSTRUCT_CMD(ch) ( GET_A_NUM(ch) && (IS_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_LEADER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
 #define CAN_GUILDHALL_CMD(ch) ( GET_A_NUM(ch) && (IS_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK)) || GT_OFFICER(GET_M_BITS(GET_A_BITS(ch), A_RK_MASK))) )
 
@@ -673,6 +671,9 @@ void do_construct_rename(P_char ch, char *arg)
     return;
   }
 
+  if( !is_valid_ansi_with_msg(ch, arg, false) )
+    return;
+  
   if(!IS_TRUSTED(ch))
   {
     if(GET_MONEY(ch) < plat_cost)
