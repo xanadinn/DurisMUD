@@ -40,6 +40,7 @@ using namespace std;
 #define GH_FOUNTAIN_VNUM    48004
 #define GH_BANK_COUNTER_VNUM 48010
 #define GH_TOWN_PORTAL_VNUM 48011
+#define GH_LIBRARY_TOME_VNUM 48012
 
 #define GH_ROOM_TEMPLATE_ENTRANCE 48000
 #define GH_ROOM_TEMPLATE_HEARTSTONE 48001
@@ -70,7 +71,8 @@ using namespace std;
 #define GH_ROOM_TYPE_HEAL 6
 #define GH_ROOM_TYPE_BANK 7
 #define GH_ROOM_TYPE_TOWN_PORTAL 8
-#define GH_ROOM_NUM_TYPES 9
+#define GH_ROOM_TYPE_LIBRARY 9
+#define GH_ROOM_NUM_TYPES 10
 
 /*
  rooms values are type-specific
@@ -111,6 +113,7 @@ int guildhall_heartstone(P_obj obj, P_char ch, int cmd, char *arg);
 int guildhall_bank_room(int room, P_char ch, int cmd, char *arg);
 
 int check_gh_home(P_char ch, int r_room);
+P_obj find_gh_library_book_obj(P_char ch);
 
 //
 // Guildhall classes
@@ -254,6 +257,16 @@ struct TownPortalRoom : public GuildhallRoom
   TownPortalRoom() : GuildhallRoom(GH_ROOM_TEMPLATE_TOWN_PORTAL), portal(NULL) {}
 };
 
+struct LibraryRoom : public GuildhallRoom
+{
+  bool init();
+  bool deinit();
+  
+  P_obj tome;
+  
+  LibraryRoom() : GuildhallRoom(GH_ROOM_TEMPLATE_LIBRARY), tome(NULL) {}
+};
+
 //
 // Main Guildhall class
 //
@@ -273,6 +286,7 @@ struct Guildhall {
   static GuildhallRoom* find_room_by_id(int id);
   static GuildhallRoom* find_room_by_vnum(int vnum);
   static Guildhall* find_from_ch(P_char ch);
+  static LibraryRoom* find_library_by_vnum(int vnum);
   
   static int count_by_assoc_id(int assoc_id, int type);
   

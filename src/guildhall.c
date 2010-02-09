@@ -200,6 +200,26 @@ GuildhallRoom* Guildhall::find_room_by_vnum(int vnum)
 }
 
 //
+// finds a library room from vnum, if any
+//
+LibraryRoom* Guildhall::find_library_by_vnum(int vnum)
+{
+  for( int i = 0; i < guildhalls.size(); i++ )
+  {
+    if( !guildhalls[i] )
+      continue;
+    
+    for( int j = 0; j < guildhalls[i]->rooms.size(); j++ )
+    {
+      if( guildhalls[i]->rooms[j] && guildhalls[i]->rooms[j]->type == GH_ROOM_TYPE_LIBRARY && guildhalls[i]->rooms[j]->vnum == vnum )
+        return (LibraryRoom *) guildhalls[i]->rooms[j];
+    }
+    
+  }
+  return NULL;  
+}
+
+//
 // returns the count by association id of a certain GH type
 //
 int Guildhall::count_by_assoc_id(int assoc_id, int type)

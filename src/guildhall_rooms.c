@@ -53,7 +53,6 @@ bool GuildhallRoom::destroy()
   return TRUE;
 }
 
-
 bool GuildhallRoom::valid()
 {
   if( !this->guildhall )
@@ -370,6 +369,19 @@ bool TownPortalRoom::init()
   return TRUE;
 }
 
+bool LibraryRoom::init()
+{
+  GuildhallRoom::init();
+  
+  // set up tome
+  if( this->tome = read_object(GH_LIBRARY_TOME_VNUM, VIRTUAL) )
+  {
+    obj_to_room(this->tome, real_room0(this->vnum));
+  }
+  
+  return TRUE;
+}
+
 //
 //
 //
@@ -503,6 +515,20 @@ bool TownPortalRoom::deinit()
   {
     obj_from_room(this->portal);
     this->portal = NULL;
+  }
+  
+  return TRUE;
+}
+
+bool LibraryRoom::deinit()
+{
+  GuildhallRoom::init();
+  
+  // deinit tome obj
+  if( this->tome )
+  {
+    obj_from_room(this->tome);
+    this->tome = NULL;
   }
   
   return TRUE;

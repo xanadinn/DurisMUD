@@ -534,6 +534,11 @@ void do_construct_upgrade(P_char ch, char *arg)
             coin_stringv(get_property("guildhalls.construction.platinum.upgrade.town_portal", 0) * 1000), 
             get_property("guildhalls.construction.points.upgrade.town_portal", 0));
     send_to_char(buff, ch);
+
+    sprintf(buff, "&+W%s&n) %s (%s and %d &+Wconstruction points&n)\r\n", "library", "a library with a tome from which you can memorize all spells", 
+            coin_stringv(get_property("guildhalls.construction.platinum.upgrade.library", 0) * 1000), 
+            get_property("guildhalls.construction.points.upgrade.library", 0));
+    send_to_char(buff, ch);
     
     send_to_char("\r\n", ch);
     send_to_char("To upgrade this room, type 'construct upgrade <type>'\r\n", ch);
@@ -575,6 +580,12 @@ void do_construct_upgrade(P_char ch, char *arg)
     plat_cost = get_property("guildhalls.construction.platinum.upgrade.town_portal", 0) * 1000;
     cp_cost = get_property("guildhalls.construction.points.upgrade.town_portal", 0);
   }    
+  else if( isname(buff, "library") )
+  {
+    type = GH_ROOM_TYPE_LIBRARY;    
+    plat_cost = get_property("guildhalls.construction.platinum.upgrade.library", 0) * 1000;
+    cp_cost = get_property("guildhalls.construction.points.upgrade.library", 0);
+  }      
   else
   {
     send_to_char("Please enter a valid type of room to upgrade to.\r\n", ch);
@@ -1264,4 +1275,23 @@ bool guildhall_map_check(P_char ch)
   }
   
   return FALSE;
+}
+
+P_obj find_gh_library_book_obj(P_char ch)
+{
+  if(!ch)
+    return NULL;
+  
+  LibraryRoom *room = Guildhall::find_library_by_vnum(world[ch->in_room].number);
+  
+  if(!room)
+    return NULL;
+  
+  if(!room->guildhall)
+    return NULL;
+  
+  if(GET_A_NUM(ch) != room->guildhall->assoc_id)
+    return NULL;
+  
+  return room->tome;
 }

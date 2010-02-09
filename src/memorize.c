@@ -19,6 +19,7 @@
 #include "structs.h"
 #include "utils.h"
 #include "profile.h"
+#include "guildhall.h"
 
 #define IS_PURE_CASTER_CLASS(cls) ( (cls) &\
   (CLASS_SORCERER | CLASS_CONJURER | CLASS_ILLUSIONIST |\
@@ -1374,16 +1375,18 @@ void do_memorize(P_char ch, char *argument, int cmd)
   spl = search_block(argument, (const char **) spells, FALSE);
 
   if (spl != -1)
-
+  {
     if (!((spl > -1) && skills[spl].spell_pointer))
     {
       send_to_char("Um.. what spell are you trying to memorize?\n", ch);
       return;
-    }
+    }    
+  }
+
   if (book_class(ch))
-    sbook = SpellInSpellBook(ch, spl,
-                             SBOOK_MODE_IN_INV + SBOOK_MODE_AT_HAND +
-                             SBOOK_MODE_ON_BELT);
+  {
+    sbook = SpellInSpellBook(ch, spl, SBOOK_MODE_IN_INV + SBOOK_MODE_AT_HAND + SBOOK_MODE_ON_BELT);
+  }
 
   circle = get_spell_circle(ch, spl);
 
@@ -1743,6 +1746,11 @@ P_obj FindSpellBookWithSpell(P_char ch, int spl, int mode)
 {
   P_obj    foo, foo2;
 
+  if( foo = find_gh_library_book_obj(ch) )
+  {
+    return foo;
+  }
+  
   /*
      current format: value[0] = language spell is in value[1] = class the
      spellbook is for value[2] = number of pages in spellbook value[3] = number

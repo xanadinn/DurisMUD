@@ -231,6 +231,9 @@ void load_guildhall_rooms(Guildhall *guildhall)
       case GH_ROOM_TYPE_TOWN_PORTAL:
         room = new TownPortalRoom();
         break;        
+      case GH_ROOM_TYPE_LIBRARY:
+        room = new LibraryRoom();
+        break;                
       default:
         room = new GuildhallRoom();
     }
