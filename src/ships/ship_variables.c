@@ -15,61 +15,19 @@
 #include "spells.h"
 #include "structs.h"
 
-
 /* new Ship Constants */
-
-const CargoData cargo_data[MAXCARGO] = {
-//    Name             Room   Cargo  Contra   Frags
-    { "Fiord",      559633,     31,    162,    150},
-    { "Dalvik",     635260,     33,    172,    150},
-    { "Menden",      88846,     30,    146,    100},
-    { "Myrabolus",   82670,     38,    166,    150},
-    { "Torrhan",     66689,     28,    184,    200},
-    { "Sarmiz",       9967,     32,    153,    100},
-    { "Stormport",   22441,     29,    190,    200},
-    { "Venan",       49090,     36,    174,    150},
-    { "TG",          43158,     34,    160,    150},
+const PortData ports[NUM_PORTS] = {
+  { 559633, "Flann" },
+  { 635260, "Dalvik" },
+  { 88846, "Menden" },
+  { 82670, "Myrabolus" },
+  { 66689, "Torrhan" },
+  { 9967, "Sarmiz'Duul" },
+  { 22441, "Storm Port" },
+  { 49090, "Venan'Trut" },
+  { 43158, "Thur'Gurax" },  
 };
 
-const char *cargo_name[MAXCARGO] = {
-  "&+LCured &+rMeats &+gand &+YCheeses&N",
-  "&+GExotic &+yFoods&N",
-  "&+gPine &+LPitch&N",
-  "&+CElven &+RWines&N",
-  "&+LBulk &+yLumber&N",
-  "&+LBlack&+WSteel &+wIngots&N",
-  "&+LBulk Coal&N",
-  "&+MSi&+mlk &+BCl&+Co&+Yth&N",
-  "&+YCopper &+yIngots&N",
-};
-
-const char *contra_name[MAXCARGO] = {
-  "&+gAncient &+LBooks &+gand &+yScrolls&N",
-  "&+GExotic &+WHerbs&N",
-  "&+GExotic &+COils&N",
-  "&+CElvish &+BAntiquities&N",
-  "&+GRare &+YMagical &+yComponents&N",
-  "&+RRare &+MDyes&N",
-  "&+LR&+woug&+Lh &+WD&+wi&+Wa&+wm&+Wo&+wn&+Wd&+ws&N",
-  "&+LR&+woug&+Lh &+RR&+ru&+Rb&+ri&+Re&+rs&N",
-  "&+mUnderdark &+MMithril&N",
-};
-
-const int cargo_mod[MAXCARGO][MAXCARGO] = {
-//  Fiord     KK    Menden   Myra  Torrhan  Sarmiz    SP    Venan     TG
-   {   0,    100,     70,     80,     85,    100,     70,    100,    100}, /* Fiord        */
-   { 100,      0,    100,     70,     80,     90,     95,    100,     75}, /* KK           */
-   {  70,    100,      0,     90,    100,    100,     70,     70,    100}, /* Menden       */
-   {  80,     70,     90,      0,    100,     90,     95,     85,     85}, /* Myra         */
-   {  85,     80,    100,    100,      0,    100,     80,     80,     70}, /* Torrhan      */
-   { 100,     90,    100,     90,    100,      0,     90,    100,    100}, /* Sarmiz       */
-   {  70,     95,     70,     95,     80,     90,      0,     80,     95}, /* SP           */
-   { 100,    100,     70,     85,     80,    100,     80,      0,     85}, /* Venan        */
-   { 100,     75,    100,     85,     70,    100,     95,     85,      0}, /* TG           */
-};
-
-      
-      
 /*const char *guncrewname[MAXGUNCREW] = {
   "Standard Crew",
   "Veteran Archers",

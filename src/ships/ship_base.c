@@ -27,84 +27,6 @@ Updated with warships. Nov08 -Lucrot
 #include "nexus_stones.h"
 #include "limits.h"
 
-int read_newship();
-int write_newship(P_ship ship);
-
-void nameship(char *name, P_ship ship);
-int loadship(P_ship shipdata, int to_room);
-
-struct ShipData *newship(int m_class);
-void delete_ship(P_ship ship);
-    
-// shops
-int newship_shop(int room, P_char ch, int cmd, char *arg);
-int crew_shop(int room, P_char ch, int cmd, char *arg);
-int erzul(P_char ch, P_char pl, int cmd, char *arg);
-
-// proc
-int newshiproom_proc(int room, P_char ch, int cmd, char *arg);
-int fire_arc(P_ship ship, P_char ch, int arc);
-int fire_weapon(P_ship ship, P_char ch, int w_num);
-void force_anchor(P_ship ship);
-int newship_proc(P_obj obj, P_char ch, int cmd, char *arg);
-int shiploader_proc(P_obj obj, P_char ch, int cmd, char *arg);
-int shipobj_proc(P_obj obj, P_char ch, int cmd, char *arg);
-
-int  bearing(float x1, float y1, float x2, float y2);
-int anchor_room(int room);
-void newshipfrags();
-void crash_land(P_ship ship);
-
-void setarmor(P_ship ship, bool equal);
-void setcrew(P_ship ship, int crew_index, int exp);
-void clear_ship_layout(P_ship ship);
-void set_ship_layout(P_ship ship, int m_class);
-void reset_ship_physical_layout(P_ship ship);
-void dock_ship(P_ship ship, int to_room);
-void check_contraband(P_ship ship, int to_room);
-void update_maxspeed(P_ship ship);
-
-
-extern void shipai_activity(P_ship ship);
-extern void act_to_all_in_ship(P_ship ship, const char *msg);
-extern void act_to_outside_ships(P_ship ship, const char *msg, P_ship notarget);
-extern void act_to_outside(P_ship ship, const char *msg);
-extern void everyone_get_out_newship(P_ship ship);
-extern void everyone_look_out_newship(P_ship ship);
-extern int  armorcondition(int maxhp, int curhp);
-extern void assignid(P_ship ship, char *id);
-extern int  assign_shipai(P_ship ship);
-extern int damage_sail(P_ship ship, P_ship target, int dam);
-extern int  damage_hull(P_ship ship, P_ship target, int dam, int arc, int armor_pierce);
-extern void dispcontact(int i);
-//extern int  getarc(P_ship ship1, int x, int y);
-extern int  getarc(int heading, int bearing);
-extern int  ybearing(int bearing, int range);
-extern int  xbearing(int bearing, int range);
-extern int getcontacts(P_ship ship);
-extern int getmap(P_ship ship);
-extern P_ship getshipfromchar(P_char ch);
-extern int num_people_in_ship(P_ship ship);
-extern int try_ram_ship(P_ship ship, P_ship target, int contact_j);
-extern int pilotroll(P_ship ship);
-extern float range(float x1, float y1, float z1, float x2, float y2, float z2);
-extern void scantarget(P_ship target, P_char ch);
-extern void stun_all_in_ship(P_ship ship, int timer);
-extern void summon_ship_event(P_char ch, P_char victim, P_obj obj, void *data);
-extern int weaprange(int w_index, char range);
-extern int weaponsight(P_char ch, P_ship ship, P_ship target, int weapon, float mod);
-extern void calc_crew_adjustments(P_ship ship);
-
-
-int sell_cargo(P_char ch, P_ship ship, int slot);
-int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom);
-int sell_contra(P_char ch, P_ship ship, int slot);
-int sell_contra_slot(P_char ch, P_ship ship, int slot, int rroom);
-
-
-extern int read_cargo();
-extern int write_cargo();
-
 static char buf[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
 
 struct ContactData contacts[MAXSHIPS];
@@ -119,18 +41,6 @@ static char arg3[MAX_STRING_LENGTH];
 static char tmp_str[MAX_STRING_LENGTH];
 int    shiperror;
 struct ShipFragData shipfrags[10];
-struct CargoStats shipcargo[MAXCARGO];
-struct CargoStats shipcontra[MAXCARGO];
-
-
-
-
-
-
-
-
-
-
 
 //--------------------------------------------------------------------
 // load all ships from file into the world
@@ -157,20 +67,7 @@ void initialize_newships()
             fn = shipObjHash.get_next(svs);
     }
 
-
-    for (i = 0; i < MAXCARGO; i++) 
-    {
-        for (j = 0; j < MAXCARGO; j++) 
-        {
-            shipcargo[i].buy[j] =    50;
-            shipcargo[i].sell[j] =  100;
-            shipcontra[i].buy[j] =   50;
-            shipcontra[i].sell[j] = 100;
-        }
-    }
-    if (!read_cargo()) {
-        logit(LOG_FILE, "Error reading cargo file!\r\n");
-    }
+    initialize_ship_cargo();
 }
 
 //--------------------------------------------------------------------
@@ -1131,7 +1028,7 @@ int jettison_cargo(P_char ch, P_ship ship, char* arg)
         {
             if (ship->slot[i].val0 > left)
             {
-                sprintf(buf, "%d units of %s have been jettisoned!\r\n", left, cargo_name[ship->slot[i].index]);
+                sprintf(buf, "%d units of %s have been jettisoned!\r\n", left, cargo_type_name(ship->slot[i].index));
                 send_to_char(buf, ch);
                 ship->slot[i].val0 -= left;
                 done += left;
@@ -1139,7 +1036,7 @@ int jettison_cargo(P_char ch, P_ship ship, char* arg)
             }
             else
             {
-                sprintf(buf, "%d units of %s have been jettisoned!\r\n", ship->slot[i].val0, cargo_name[ship->slot[i].index]);
+                sprintf(buf, "%d units of %s have been jettisoned!\r\n", ship->slot[i].val0, cargo_type_name(ship->slot[i].index));
                 send_to_char(buf, ch);
                 left -= ship->slot[i].val0;
                 done += ship->slot[i].val0;
@@ -1172,7 +1069,7 @@ int jettison_contraband(P_char ch, P_ship ship, char* arg)
         {
             if (ship->slot[i].val0 > left)
             {
-                sprintf(buf, "%d units of %s have been jettisoned!\r\n", left, contra_name[ship->slot[i].index]);
+                sprintf(buf, "%d units of %s have been jettisoned!\r\n", left, contra_type_name(ship->slot[i].index));
                 send_to_char(buf, ch);
                 ship->slot[i].val0 -= left;
                 done += left;
@@ -1180,7 +1077,7 @@ int jettison_contraband(P_char ch, P_ship ship, char* arg)
             }
             else
             {
-                sprintf(buf, "%d units of %s have been jettisoned!\r\n", ship->slot[i].val0, contra_name[ship->slot[i].index]);
+                sprintf(buf, "%d units of %s have been jettisoned!\r\n", ship->slot[i].val0, contra_type_name(ship->slot[i].index));
                 send_to_char(buf, ch);
                 left -= ship->slot[i].val0;
                 done += ship->slot[i].val0;
@@ -1824,7 +1721,7 @@ int look_cargo(P_char ch, P_ship ship)
         if (ship->slot[slot].type == SLOT_CARGO) 
         {
             sprintf(buf, "%s&n, &+Y%d&n crates, invoiced at %s.\r\n",
-              cargo_name[ship->slot[slot].index],
+              cargo_type_name(ship->slot[slot].index),
               ship->slot[slot].val0,
               coin_stringv(ship->slot[slot].val1));
             send_to_char(buf, ch);
@@ -1832,7 +1729,7 @@ int look_cargo(P_char ch, P_ship ship)
         else if (ship->slot[slot].type == SLOT_CONTRABAND) 
         {
             sprintf(buf, "&+Y*&n%s&n, &+Y%d&n crates, invoiced at %s.\r\n",
-              contra_name[ship->slot[slot].index],
+              contra_type_name(ship->slot[slot].index),
               ship->slot[slot].val0,
               coin_stringv(ship->slot[slot].val1));
             send_to_char(buf, ch);
@@ -2662,7 +2559,7 @@ int shiploader_proc(P_obj obj, P_char ch, int cmd, char *arg)
                 {
             send_to_char("---===Current Ship Economy Status===---\r\n", ch);
             sprintf(buf, "%-10s", "");
-            for (j = 0; j < MAXCARGO; j++) 
+            for (j = 0; j < NUM_PORTS; j++) 
             {
                 sprintf(buf2, " %-10s", cargo_data[j].loc_name);
                 strcat(buf, buf2);
@@ -2670,14 +2567,14 @@ int shiploader_proc(P_obj obj, P_char ch, int cmd, char *arg)
             strcat(buf, " Buy");
             strcat(buf, "\r\n");
             send_to_char(buf, ch);
-            for (i = 0; i < MAXCARGO; i++) 
+            for (i = 0; i < NUM_PORTS; i++) 
             {
                 sprintf(buf, "%-10s", cargo_data[i].loc_name);
-                for (j = 0; j < MAXCARGO; j++) 
+                for (j = 0; j < NUM_PORTS; j++) 
                 {
                     if (i != j) 
                     {
-                        sprintf(buf2, " %-10d", (int) shipcargo[i].sell[j]);
+                        sprintf(buf2, " %-10d", (int) ship_cargo_market_mod[i].sell[j]);
                         strcat(buf, buf2);
                     } 
                     else 
@@ -2685,7 +2582,7 @@ int shiploader_proc(P_obj obj, P_char ch, int cmd, char *arg)
                         strcat(buf, " N/A       ");
                     }
                 }
-                sprintf(buf2, " %-3d", (int) shipcargo[i].buy[i]);
+                sprintf(buf2, " %-3d", (int) ship_cargo_market_mod[i].buy[i]);
                 strcat(buf, buf2);
                 strcat(buf, "\r\n");
                 send_to_char(buf, ch);
@@ -3493,39 +3390,39 @@ int list_cargo(P_char ch, P_ship ship, int owned)
         return TRUE;
     }
     int rroom = 0;
-    while (rroom < MAXCARGO) 
+    while (rroom < NUM_PORTS) 
     {
-        if (cargo_data[rroom].loc_room == world[ch->in_room].number)
+        if (ports[rroom].loc_room == world[ch->in_room].number)
             break;
         rroom++;
     }
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
     {
         send_to_char ("There is no cargo for sale here!\r\n", ch);
         return TRUE;
     }
     send_to_char ("&+y---=== For sale ===---&N\r\n", ch);
-    int cost = 1000 * (int) (cargo_data[rroom].base_cost_cargo * shipcargo[rroom].buy[rroom] / 100.0);
+    
+    int cost = 1000 * cargo_sell_price(rroom);
 
     //if( GET_LEVEL(ch) < 50 )
     //    cost = (int) (cost * (float) GET_LEVEL(ch) / 50.0);
     
-    sprintf(buf, "%s:&N %s &Nper crate.\r\n", cargo_name[rroom], coin_stringv(cost));
+    sprintf(buf, "%s:&N %s &Nper crate.\r\n", cargo_type_name(rroom), coin_stringv(cost));
     send_to_char(buf, ch);
 
     send_to_char("\r\n&+y---=== We're buying ===---&N\r\n", ch);
-    for (int i = 0; i < MAXCARGO; i++) 
+    for (int i = 0; i < NUM_PORTS; i++) 
     {
         if (i == rroom)
             continue;
-        cost = 1000 * (int) (cargo_data[i].base_cost_cargo * (cargo_mod[rroom][i] / 100.0) * (shipcargo[rroom].sell[i] / 100.0));
+      
+        cost = 1000 * cargo_buy_price(rroom, i);
 
         //if( GET_LEVEL(ch) < 50 )
         //  cost = (int) (cost * (float) GET_LEVEL(ch) / 50.0);
     
-        int ansi_diff = strlen(strip_ansi(str_dup(cargo_name[i])).c_str()) - strlen(cargo_name[i]);
-        sprintf(buf2, "%%-%ds&n%%s per crate.\r\n", 30 - ansi_diff);
-        sprintf(buf, buf2, cargo_name[i], coin_stringv(cost));
+        sprintf(buf, "%s %s &nper crate.\r\n", pad_ansi(cargo_type_name(i), 30).c_str(), coin_stringv(cost));
         send_to_char(buf, ch);
     }
 
@@ -3535,32 +3432,31 @@ int list_cargo(P_char ch, P_ship ship, int owned)
     if (ship->frags >= MINCONTRAFRAGS && GET_ALIGNMENT(ch) <= MINCONTRAALIGN) 
     {
 
-        if (ship->frags >= cargo_data[rroom].frag_threshold)
+        if (ship->frags >= required_ship_frags_for_contraband(rroom))
         {
             send_to_char ("\r\n&+L---=== Contraband for sale ===---&N\r\n", ch);
-            cost = (1000 * (int) (cargo_data[rroom].base_cost_contra * shipcontra[rroom].buy[rroom] / 100.0));
+            
+            cost = 1000 * contra_sell_price(rroom);
 
             //if( GET_LEVEL(ch) < 50 )
             //    cost = (int) (cost * (float) GET_LEVEL(ch) / 50.0);
 
-            sprintf(buf, "%s&n: %s &+Lper crate.&N\r\n", contra_name[rroom], coin_stringv(cost));
+            sprintf(buf, "%s&n: %s &+Lper crate.&N\r\n", contra_type_name(rroom), coin_stringv(cost));
             send_to_char(buf, ch);
         }
         send_to_char("\r\n&+L---=== We buy contraband for ===---&N\r\n", ch);
 
-        for (int i = 0; i < MAXCARGO; i++) 
+        for (int i = 0; i < NUM_PORTS; i++) 
         {
             if (i == rroom)
                 continue;
-            cost = 1000 * (int) (cargo_data[i].base_cost_contra * (cargo_mod[rroom][i] / 100.0) * (shipcontra[rroom].sell[i] / 100.0));
+          
+            cost = 1000 * contra_buy_price(rroom, i);
 
             //if( GET_LEVEL(ch) < 50 )
             //    cost = (int) (cost * (float) GET_LEVEL(ch) / 50.0);
 
-            int ansi_diff = strlen(strip_ansi(str_dup(contra_name[i])).c_str()) - strlen(contra_name[i]);
-            sprintf(buf2, "%%-%ds&n%%s per crate.\r\n", 30 - ansi_diff);
-            sprintf(buf, buf2, contra_name[i], coin_stringv(cost));
-//            sprintf(buf, "&+L%-30s&n%s per crate.\r\n", strip_ansi(str_dup(contra_name[i])).c_str(), coin_stringv(cost));
+            sprintf(buf, "%s %s &nper crate.\r\n", pad_ansi(contra_type_name(i), 30).c_str(), coin_stringv(cost));
             send_to_char(buf, ch);
         }
 
@@ -3579,14 +3475,14 @@ int list_cargo(P_char ch, P_ship ship, int owned)
             if (cargo_type == rroom) 
             {
                 sprintf(buf, "%s&n, &+Y%d&n crates, invoiced at %s&n.\r\n", 
-                    cargo_name[cargo_type], 
+                    cargo_type_name(cargo_type), 
                     ship->slot[i].val0,
                     coin_stringv(ship->slot[i].val1));
                 send_to_char(buf, ch);
             }
             else
             {
-                cost = 1000 * (int) (cargo_data[cargo_type].base_cost_cargo * (cargo_mod[rroom][cargo_type] / 100.0) * (shipcargo[rroom].sell[cargo_type] / 100.0));
+                cost = 1000 * cargo_buy_price(rroom, cargo_type);
                 cost *= ship->slot[i].val0;
 
                 //if( GET_LEVEL(ch) < 50 )
@@ -3595,7 +3491,7 @@ int list_cargo(P_char ch, P_ship ship, int owned)
                 int cost2 = (int) ( ((float) cost / (float) ship->slot[i].val1) - 1.00) * 100;
 
                 sprintf(buf, "%s&n, &+Y%d&n crates. Can sell for %s&n, profit: %d%%\r\n",
-                    cargo_name[cargo_type], 
+                    cargo_type_name(cargo_type), 
                     ship->slot[i].val0,
                     coin_stringv(cost),
                     cost2);
@@ -3608,14 +3504,14 @@ int list_cargo(P_char ch, P_ship ship, int owned)
             if (contra_type == rroom) 
             {
                 sprintf(buf, "&+L*&n%s&n, &+Y%d&n crates, invoiced at %s&n.\r\n", 
-                    contra_name[contra_type], 
+                    contra_type_name(contra_type), 
                     ship->slot[i].val0,
                     coin_stringv(ship->slot[i].val1));
                 send_to_char(buf, ch);
             }
             else
             {
-                cost = 1000 * (int) (cargo_data[contra_type].base_cost_contra * (cargo_mod[rroom][contra_type] / 100.0) * (shipcontra[rroom].sell[contra_type] / 100.0));
+                cost = 1000 * contra_buy_price(rroom, contra_type);
                 cost *= ship->slot[i].val0;
 
                 //if( GET_LEVEL(ch) < 50 )
@@ -3623,7 +3519,7 @@ int list_cargo(P_char ch, P_ship ship, int owned)
             
                 int cost2 = (int) (((float) ((float) cost / (float) ship->slot[i].val1) - 1.00) * 100);
                 sprintf(buf, "&+L*&n%s&n, &+Y%d&n crates. Can sell for %s&n, profit: %d&n%%\r\n", 
-                    contra_name[contra_type],
+                    contra_type_name(contra_type),
                     ship->slot[i].val0,
                     coin_stringv(cost),
                     cost2);
@@ -3881,10 +3777,10 @@ int sell_cargo(P_char ch, P_ship ship, int slot)
     }
 
     int rroom = 0;
-    for (; rroom < MAXCARGO; ++rroom) 
-        if (cargo_data[rroom].loc_room == world[ch->in_room].number)
+    for (; rroom < NUM_PORTS; ++rroom) 
+        if (ports[rroom].loc_room == world[ch->in_room].number)
             break;
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
     {
         send_to_char("We don't buy cargo here!\r\n", ch);
         return 0;
@@ -3941,12 +3837,12 @@ int sell_cargo(P_char ch, P_ship ship, int slot)
 int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom)
 {
     int type = ship->slot[slot].index;
-    if( type >= MAXCARGO )
+    if( type >= NUM_PORTS )
         return 0;
 
     if (type == rroom)
     {
-        sprintf(buf, "We don't buy %s&n here.\r\n", cargo_name[type]);
+        sprintf(buf, "We don't buy %s&n here.\r\n", cargo_type_name(type));
         send_to_char(buf, ch);
         return 0;
     }
@@ -3955,30 +3851,18 @@ int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom)
         int crates = ship->slot[slot].val0;
         ship->slot[slot].clear();
 
-        int cost = 1000 * (int) ( crates * cargo_data[type].base_cost_cargo * (cargo_mod[rroom][type] / 100.0) * (shipcargo[rroom].sell[type] / 100.0));
+        int cost = crates * 1000 * cargo_buy_price(rroom, type);
+
         //if( GET_LEVEL(ch) < 50 )
         //    cost = (int) ( cost * GET_LEVEL(ch) / 50.0 );
 
-        wizlog(56,"Cargo: %s sold &+W%d&n crates of %s&n for %s&n.\r\n", GET_NAME(ch), crates, cargo_name[type], coin_stringv(cost));
-        sprintf(buf, "You sell &+W%d&n crates of %s&n for %s&n.\r\n", crates, cargo_name[type], coin_stringv(cost));
+        wizlog(56,"Cargo: %s sold &+W%d&n crates of %s&n for %s&n.\r\n", GET_NAME(ch), crates, cargo_type_name(type), coin_stringv(cost));
+        sprintf(buf, "You sell &+W%d&n crates of %s&n for %s&n.\r\n", crates, cargo_type_name(type), coin_stringv(cost));
         send_to_char(buf, ch);
 
         // economy affect
-        shipcargo[rroom].sell[type] = MAX(MINSELLMOD, shipcargo[rroom].sell[type] - (ONSELLADJUST * (float)crates));
-        for (int j = 0; j < MAXCARGO; j++) 
-        {
-            if (j != rroom)
-            {
-                shipcargo[j].sell[type] = MIN(MAXSELLMOD, shipcargo[j].sell[type] + (ONSELLADJUSTCARGO * (float)crates));
-            }
-            for (int k = 0; k < MAXCARGO; k++) 
-            {
-                if (k != type)
-                {
-                    shipcargo[j].sell[k] = MIN(MAXSELLMOD, shipcargo[j].sell[k] + (ONSELLADJUSTALL * (float)crates));
-                }
-            }
-        }
+        adjust_ship_market(SOLD_CARGO, rroom, type, crates);
+      
         return cost;
     }
 }
@@ -3992,10 +3876,10 @@ int sell_contra(P_char ch, P_ship ship, int slot)
     }
 
     int rroom = 0;    
-    for (rroom = 0; rroom < MAXCARGO; ++rroom) 
-        if (cargo_data[rroom].loc_room == world[ch->in_room].number)
+    for (rroom = 0; rroom < NUM_PORTS; ++rroom) 
+        if (ports[rroom].loc_room == world[ch->in_room].number)
             break;
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
     {
         send_to_char("We don't buy any contraband here!\r\n", ch);
         return 0;
@@ -4052,12 +3936,12 @@ int sell_contra(P_char ch, P_ship ship, int slot)
 int sell_contra_slot(P_char ch, P_ship ship, int slot, int rroom)
 {
     int type = ship->slot[slot].index;
-    if( type >= MAXCARGO )
+    if( type >= NUM_PORTS )
         return 0;
 
     if (type == rroom)
     {
-        sprintf(buf, "We're not interested in your %s&n.\r\n", contra_name[type]);
+        sprintf(buf, "We're not interested in your %s&n.\r\n", contra_type_name(type));
         send_to_char(buf, ch);
         return 0;
     }
@@ -4066,40 +3950,28 @@ int sell_contra_slot(P_char ch, P_ship ship, int slot, int rroom)
         int crates = ship->slot[slot].val0;
         ship->slot[slot].clear();
 
-        int cost = 1000 * (int) ( crates * cargo_data[type].base_cost_contra * (cargo_mod[rroom][type] / 100.0) * (shipcontra[rroom].sell[type] / 100.0));
+        int cost = crates * 1000 * contra_buy_price(rroom, type);
+      
         //if( GET_LEVEL(ch) < 50 )
         //    cost = (int) ( cost * GET_LEVEL(ch) / 50.0 );
 
-        wizlog(56,"Cargo: %s sold &+W%d&n crates of %s&n for %s&n.\r\n", GET_NAME(ch), crates, contra_name[type], coin_stringv(cost));
-        sprintf(buf, "You sell &+W%d&n crates of %s&n for %s&n.\r\n", crates, contra_name[type], coin_stringv(cost));
+        wizlog(56,"Cargo: %s sold &+W%d&n crates of %s&n for %s&n.\r\n", GET_NAME(ch), crates, contra_type_name(type), coin_stringv(cost));
+        sprintf(buf, "You sell &+W%d&n crates of %s&n for %s&n.\r\n", crates, contra_type_name(type), coin_stringv(cost));
         send_to_char(buf, ch);
 
         // economy affect
-        shipcontra[rroom].sell[type] = MAX(MINSELLMOD, shipcontra[rroom].sell[type] - (ONSELLADJUST * (float)crates * 5.0));
-        for (int j = 0; j < MAXCARGO; j++) 
-        {
-            if (j != rroom)
-            {
-                shipcontra[j].sell[type] = MIN(MAXSELLMOD, shipcontra[j].sell[type] + (ONSELLADJUSTCARGO * (float)crates * 5.0));
-            }
-            for (int k = 0; k < MAXCARGO; k++) 
-            {
-                if (k != type)
-                {
-                    shipcontra[j].sell[k] = MIN(MAXSELLMOD, shipcontra[j].sell[k] + (ONSELLADJUSTALL * (float)crates * 5.0));
-                }
-            }
-        }
+        adjust_ship_market(SOLD_CONTRA, rroom, type, crates);
+
         return cost;
     }
 }
 void check_contraband(P_ship ship, int to_room)
 {
     int rroom = 0;    
-    for (rroom = 0; rroom < MAXCARGO; ++rroom) 
-        if (cargo_data[rroom].loc_room == world[to_room].number)
+    for (rroom = 0; rroom < NUM_PORTS; ++rroom) 
+        if (ports[rroom].loc_room == world[to_room].number)
             break;
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
         return;
 
     if (SHIPCONTRA(ship) + SHIPCARGO(ship) == 0)
@@ -4114,7 +3986,7 @@ void check_contraband(P_ship ship, int to_room)
         {
             int type = ship->slot[slot].index;
             int crates = ship->slot[slot].val0;
-            if( type < 0 || type >= MAXCARGO ) return;
+            if( type < 0 || type >= NUM_PORTS ) return;
             if (type == rroom) continue; // port does not confiscate its own contraband
 
             float conf_chance = 100.0;
@@ -4123,7 +3995,7 @@ void check_contraband(P_ship ship, int to_room)
                 conf_chance = 0;
             }
             else*/ 
-            if (ship->frags >= cargo_data[type].frag_threshold)
+            if (ship->frags >= required_ship_frags_for_contraband(type))
             {
                 conf_chance = 25.0 + (float)crates / 2; // the more contraband you have, the bigger confiscation chance
                 conf_chance -= sqrt(ship->frags) / 5.0;
@@ -4141,7 +4013,7 @@ void check_contraband(P_ship ship, int to_room)
                     confiscated++;
             if (confiscated > 0)
             {
-                sprintf(buf, "The port authorities found %d crates of %s&n and confiscated it!", confiscated, contra_name[type]);
+                sprintf(buf, "The port authorities found %d crates of %s&n and confiscated it!", confiscated, contra_type_name(type));
                 act_to_all_in_ship(ship, buf);
                 ship->slot[slot].val0 -= confiscated;
                 if (ship->slot[slot].val0 <= 0)
@@ -4568,13 +4440,13 @@ int buy_cargo(P_char ch, P_ship ship, char* arg)
 {
     int rroom = 0;
         
-    while (rroom < MAXCARGO) 
+    while (rroom < NUM_PORTS) 
     {
-        if (world[ch->in_room].number == cargo_data[rroom].loc_room)
+        if (ports[rroom].loc_room == world[ch->in_room].number)
             break;
         rroom++;
     }
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
     {
         send_to_char("What cargo? We don't sell any cargo here!\r\n", ch);
         return TRUE;
@@ -4628,7 +4500,7 @@ int buy_cargo(P_char ch, P_ship ship, char* arg)
         return TRUE;
     }
 
-    int unit_cost = 1000 * (int) (cargo_data[rroom].base_cost_cargo * shipcargo[rroom].buy[rroom] / 100.0);
+    int unit_cost = 1000 * cargo_sell_price(rroom);
     int cost = asked_for * unit_cost; 
 
     //if (GET_LEVEL(ch) < 50)
@@ -4656,16 +4528,13 @@ int buy_cargo(P_char ch, P_ship ship, char* arg)
         ship->slot[slot].val1 = cost;
     }
 
-    sprintf(buf, "You buy &+W%d&n crates of %s&n for %s.\r\n", placed, cargo_name[rroom], coin_stringv(cost) );
+    sprintf(buf, "You buy &+W%d&n crates of %s&n for %s.\r\n", placed, cargo_type_name(rroom), coin_stringv(cost) );
     send_to_char(buf, ch);
 
     SUB_MONEY(ch, cost, 0);
 
     // economy affect
-    shipcargo[rroom].buy[rroom] += ONBUYADJUST * placed;
-    if (shipcargo[rroom].buy[rroom] > MAXBUYMOD)
-        shipcargo[rroom].buy[rroom] = MAXBUYMOD;
-    write_cargo();
+    adjust_ship_market(BOUGHT_CARGO, rroom, rroom, placed);
 
     send_to_char ("Thank you for your purchase, your cargo is loaded and set to go!\r\n", ch);
 
@@ -4677,13 +4546,13 @@ int buy_cargo(P_char ch, P_ship ship, char* arg)
 int buy_contra(P_char ch, P_ship ship, char* arg)
 {
     int rroom = 0;
-    while (rroom < MAXCARGO) 
+    while (rroom < NUM_PORTS) 
     {
-        if (world[ch->in_room].number == cargo_data[rroom].loc_room) 
+        if (ports[rroom].loc_room == world[ch->in_room].number) 
             break;
         rroom++;
     }
-    if (rroom >= MAXCARGO) 
+    if (rroom >= NUM_PORTS) 
     {
         send_to_char("What contraband?  We don't sell any contraband!\r\n", ch);
         return TRUE;
@@ -4693,7 +4562,7 @@ int buy_contra(P_char ch, P_ship ship, char* arg)
         send_to_char ("Goodie goodie two shoes like you shouldn't think of contraband.\r\n", ch);
         return TRUE;
     }
-    if (!IS_TRUSTED(ch) && ship->frags < cargo_data[rroom].frag_threshold) 
+    if (!IS_TRUSTED(ch) && ship->frags < required_ship_frags_for_contraband(rroom)) 
     {
         send_to_char ("Contraband?! *gasp* how could you even think that I would sell such things!\r\n", ch);
         return TRUE;
@@ -4756,8 +4625,9 @@ int buy_contra(P_char ch, P_ship ship, char* arg)
         send_to_char("You do not have a free slot to fit this contraband into!\r\n", ch);
         return TRUE;
     }
+  
+    int unit_cost = 1000 * contra_sell_price(rroom);
 
-    int unit_cost = 1000 * (int) (cargo_data[rroom].base_cost_contra * shipcontra[rroom].buy[rroom] / 100.0);
     int cost = asked_for * unit_cost;
 
     //if (GET_LEVEL(ch) < 50) 
@@ -4785,16 +4655,13 @@ int buy_contra(P_char ch, P_ship ship, char* arg)
         ship->slot[slot].val1 = cost;
     }
 
-    sprintf(buf, "You buy &+W%d&n crates of %s&n for %s.\r\n", placed, contra_name[rroom], coin_stringv(cost) );
+    sprintf(buf, "You buy &+W%d&n crates of %s&n for %s.\r\n", placed, contra_type_name(rroom), coin_stringv(cost) );
     send_to_char(buf, ch);
 
     SUB_MONEY(ch, cost, 0);
 
     // economy affect
-    shipcontra[rroom].buy[rroom] += ONBUYADJUST * asked_for;
-    if (shipcontra[rroom].buy[rroom] > MAXBUYMOD)
-        shipcontra[rroom].buy[rroom] = MAXBUYMOD;
-    write_cargo();
+    adjust_ship_market(BOUGHT_CONTRA, rroom, rroom, placed);
 
     send_to_char ("Thank you for your 'purchase' *snicker*, your 'cargo' is loaded and set to go!\r\n", ch);
 

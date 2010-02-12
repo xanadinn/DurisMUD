@@ -38,6 +38,7 @@
 #include "map.h"
 #include "epic.h"
 #include "trophy.h"
+#include "ships.h"
 
 /*
  * external variables
@@ -139,7 +140,6 @@ extern float combat_by_race[][2];
 extern int new_exp_table[];
 extern const char *get_event_name(P_event);
 extern const char *get_function_name(void *);
-extern P_ship delete_ship(P_ship);
 extern const char *spldam_types[];
 extern const char *craftsmanship_names[];
 

@@ -746,7 +746,7 @@ char* ShipSlot::get_status_str()
     return status;
 }
 
-char* ShipSlot::get_position_str()
+const char* ShipSlot::get_position_str()
 {
   switch (position) 
   {
@@ -771,11 +771,11 @@ char* ShipSlot::get_description()
     }
     else if (type == SLOT_CARGO)
     {
-        sprintf(desc, "%s", cargo_name[index]);
+        sprintf(desc, "%s", cargo_type_name(index));
     }
     else if (type == SLOT_CONTRABAND)
     {
-        sprintf(desc, "%s", contra_name[index]);
+        sprintf(desc, "%s", contra_type_name(index));
     }
     else
     {
@@ -808,11 +808,11 @@ int ShipSlot::get_weight() const
     }
     else if (type == SLOT_CARGO)
     {
-        return val0 * 2;
+        return (int) (val0 * get_property("ship.weight.cargo", 0.0));
     }
     else if (type == SLOT_CONTRABAND)
     {
-        return val0 * 2;
+        return (int) (val0 * get_property("ship.weight.contraband", 0.0));
     }
     return 0;
 }

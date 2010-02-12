@@ -50,7 +50,11 @@ Updated with warships. Nov08 -Lucrot
 #define MINCONTRAALIGN     1000
 #define MINCONTRAFRAGS      100
 
-
+// defines for adjust_ship_market
+#define SOLD_CARGO 1
+#define BOUGHT_CARGO 2
+#define SOLD_CONTRA 3
+#define BOUGHT_CONTRA 4
 
 #define MAXSHIPS         500
 #define MAX_SHIP_ROOM     10
@@ -62,7 +66,7 @@ Updated with warships. Nov08 -Lucrot
 
 #define MAXSLOTS          14
 #define MAXWEAPON         12
-#define MAXCARGO           9
+#define NUM_PORTS          9
 #define MINCAPFRAG      2000
 #define MAXSAIL          250
 #define BOARDING_SPEED     9
@@ -161,7 +165,7 @@ typedef struct ShipData *P_ship;
 struct ShipTypeData
 {
     int _classid;
-    char *_classname;
+    const char *_classname;
     int _cost;
     int _epiccost;
     int _hull;
@@ -218,7 +222,7 @@ struct ShipSlot
     void show(P_char ch) const;
     char* get_description();
     char* get_status_str();
-    char* get_position_str();
+    const char* get_position_str();
     void clone(const ShipSlot& other);
 
     char desc[100];
@@ -267,7 +271,7 @@ struct ShipCrew
 struct ShipCrewData
 {
     int type;
-    char *name;  //Crew desc
+    const char *name;  //Crew desc
     int start_skill;
     int min_skill;
     int skill_gain;
@@ -351,29 +355,29 @@ struct ShipFragData
     struct ShipData *ship;
 };
 
+struct PortData
+{
+  int loc_room;
+  const char * loc_name;
+};
+
 struct CargoData
 {
-    char* loc_name;
-    int loc_room;
     int base_cost_cargo;
     int base_cost_contra;
-    int frag_threshold;
+    int required_frags;
 };
-extern const CargoData cargo_data[MAXCARGO];
-extern const char *cargo_name[MAXCARGO];
-extern const char *contra_name[MAXCARGO];
-extern const int cargo_mod[MAXCARGO][MAXCARGO];
+
+extern const PortData ports[NUM_PORTS];
 
 struct CargoStats
 {
-    float buy[MAXCARGO], sell[MAXCARGO];
+    float buy[NUM_PORTS], sell[NUM_PORTS];
 };
-extern struct CargoStats shipcargo[MAXCARGO];
-extern struct CargoStats shipcontra[MAXCARGO];
 
 struct WeaponData
 {
-    char* name;
+    const char* name;
     int cost;
     int weight;
     int ammo;
@@ -508,6 +512,94 @@ P_ship get_ship(char *ownername);
 P_ship getshipfromchar(P_char ch);
 bool rename_ship(P_char ch, char *owner_name, char *new_name);
 bool rename_ship_owner(char *old_name, char *new_name);
+
+int read_newship();
+int write_newship(P_ship ship);
+
+void nameship(char *name, P_ship ship);
+int loadship(P_ship shipdata, int to_room);
+
+struct ShipData *newship(int m_class);
+void delete_ship(P_ship ship);
+
+// shops
+int newship_shop(int room, P_char ch, int cmd, char *arg);
+int crew_shop(int room, P_char ch, int cmd, char *arg);
+int erzul(P_char ch, P_char pl, int cmd, char *arg);
+
+// proc
+int newshiproom_proc(int room, P_char ch, int cmd, char *arg);
+int fire_arc(P_ship ship, P_char ch, int arc);
+int fire_weapon(P_ship ship, P_char ch, int w_num);
+void force_anchor(P_ship ship);
+int newship_proc(P_obj obj, P_char ch, int cmd, char *arg);
+int shiploader_proc(P_obj obj, P_char ch, int cmd, char *arg);
+int shipobj_proc(P_obj obj, P_char ch, int cmd, char *arg);
+
+int  bearing(float x1, float y1, float x2, float y2);
+int anchor_room(int room);
+void newshipfrags();
+void crash_land(P_ship ship);
+
+void setarmor(P_ship ship, bool equal);
+void setcrew(P_ship ship, int crew_index, int exp);
+void clear_ship_layout(P_ship ship);
+void set_ship_layout(P_ship ship, int m_class);
+void reset_ship_physical_layout(P_ship ship);
+void dock_ship(P_ship ship, int to_room);
+void check_contraband(P_ship ship, int to_room);
+void update_maxspeed(P_ship ship);
+
+
+extern void shipai_activity(P_ship ship);
+extern void act_to_all_in_ship(P_ship ship, const char *msg);
+extern void act_to_outside_ships(P_ship ship, const char *msg, P_ship notarget);
+extern void act_to_outside(P_ship ship, const char *msg);
+extern void everyone_get_out_newship(P_ship ship);
+extern void everyone_look_out_newship(P_ship ship);
+extern int  armorcondition(int maxhp, int curhp);
+extern void assignid(P_ship ship, char *id);
+extern int  assign_shipai(P_ship ship);
+extern int damage_sail(P_ship ship, P_ship target, int dam);
+extern int  damage_hull(P_ship ship, P_ship target, int dam, int arc, int armor_pierce);
+extern void dispcontact(int i);
+//extern int  getarc(P_ship ship1, int x, int y);
+extern int  getarc(int heading, int bearing);
+extern int  ybearing(int bearing, int range);
+extern int  xbearing(int bearing, int range);
+extern int getcontacts(P_ship ship);
+extern int getmap(P_ship ship);
+extern P_ship getshipfromchar(P_char ch);
+extern int num_people_in_ship(P_ship ship);
+extern int try_ram_ship(P_ship ship, P_ship target, int contact_j);
+extern int pilotroll(P_ship ship);
+extern float range(float x1, float y1, float z1, float x2, float y2, float z2);
+extern void scantarget(P_ship target, P_char ch);
+extern void stun_all_in_ship(P_ship ship, int timer);
+extern void summon_ship_event(P_char ch, P_char victim, P_obj obj, void *data);
+extern int weaprange(int w_index, char range);
+extern int weaponsight(P_char ch, P_ship ship, P_ship target, int weapon, float mod);
+extern void calc_crew_adjustments(P_ship ship);
+
+
+int sell_cargo(P_char ch, P_ship ship, int slot);
+int sell_cargo_slot(P_char ch, P_ship ship, int slot, int rroom);
+int sell_contra(P_char ch, P_ship ship, int slot);
+int sell_contra_slot(P_char ch, P_ship ship, int slot, int rroom);
+
+void initialize_ship_cargo();
+int read_cargo();
+int write_cargo();
+int cargo_sell_price(int location);
+int cargo_sell_price(int location, int type);
+int cargo_buy_price(int location, int type);
+int contra_sell_price(int location);
+int contra_sell_price(int location, int type);
+int contra_buy_price(int location, int type);
+void adjust_ship_market(int transaction, int location, int type, int volume);
+int required_ship_frags_for_contraband(int type);
+const char *cargo_type_name(int type);
+const char *contra_type_name(int type);
 
 // Externals
 extern P_index obj_index;
