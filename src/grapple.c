@@ -250,7 +250,7 @@ void do_bearhug(P_char ch, char *argument, int cmd)
     // success chance
     // CHECK_MODIFY
     percent = BOUNDED(0, GET_CHAR_SKILL(ch, SKILL_BEARHUG), 100);
-    gclvl = GET_CHAR_SKILL(ch, SKILL_GRAPPLER_COMBAT)/10;
+    gclvl = (int)(GET_CHAR_SKILL(ch, SKILL_GRAPPLER_COMBAT)/10);
 
     if (!IS_BEARHUG(victim) && 
         ( (percent > number(1, 101)) || 
@@ -298,7 +298,7 @@ void do_bearhug(P_char ch, char *argument, int cmd)
         set_fighting(victim, ch);
       }
       CharWait(ch, (int)(PULSE_VIOLENCE * (float)get_property("grapple.bearhug.duration", 3.00))-3);
-      CharWait(victim, (int)(PULSE_VIOLENCE * (float)get_property("grapple.bearhug.duration", 3.00)));
+      CharWait(victim, (int)(PULSE_VIOLENCE * (float)get_property("grapple.bearhug.duration.victim", 2.00)));
     }
     else
     {
