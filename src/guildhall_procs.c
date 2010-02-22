@@ -227,6 +227,20 @@ int guildhall_heartstone(P_obj obj, P_char ch, int cmd, char *arg)
 
 int guildhall_bank_room(int room, P_char ch, int cmd, char *arg)
 {
+  if( !ch )
+    return FALSE;
+  
+  if( cmd == CMD_ENTER )
+  {
+    Guildhall *gh = Guildhall::find_by_vnum(world[ch->in_room].number);
+    
+    if( !gh || gh->assoc_id != GET_A_NUM(ch) )
+    {
+      send_to_char("This isn't your guildhall!\r\n", ch);
+      return TRUE;
+    }
+  }
+  
   return guild_locker_room_hook(room, ch, cmd, arg);
 }
 
