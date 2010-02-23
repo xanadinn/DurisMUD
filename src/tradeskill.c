@@ -81,7 +81,7 @@ struct mine_range_data {
 } mine_data[] = {
   //Zone display name, command argument matching, start range, end range, reloading mines?
   {"Surface Map", "map", 500000, 659999, TRUE},
-  {"Tharnadia Rift", "tharnrift", 110000, 119999, FALSE},
+//  {"Tharnadia Rift", "tharnrift", 110000, 119999, FALSE},
   {0}
 };
 
