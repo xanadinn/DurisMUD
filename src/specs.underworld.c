@@ -3318,11 +3318,12 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
       }
       
       update_pos(vict);
-      
+     
+/* Disabling this for now. It seems that no messages are provided. 
       if(!affected_by_spell(vict, SPELL_WITHER) &&
          !affected_by_spell(vict, SPELL_RAY_OF_ENFEEBLEMENT))
             spell_wither(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, vict, 0);
-      
+*/
       barb_proc_dwarven_ancestor(ch->player.level, ch, vict);
       
       return true;
