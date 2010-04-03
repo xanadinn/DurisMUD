@@ -21,6 +21,14 @@ D 0 34804 2 2 100 0 0 0
 *     south exit from "The Vault of the Keepers" to
 *     "A Small Chamber with a Portal" - closed/locked
 *
+D 0 34562 5 2 100 0 0 0
+*     down exit from "The Center of a Ruined Town" to
+*     "The Bottom of a Destroyed Well" - closed/locked
+*
+D 0 34564 4 2 100 0 0 0
+*     up exit from "The Bottom of a Destroyed Well" to
+*     "The Center of a Ruined Town" - closed/locked
+*
 D 0 34568 0 0 100 0 0 0
 *     north exit from "A Blocked Section of Maplethorpe Road" to
 *     "A Blocked Section of the Road" - open
@@ -274,9 +282,10 @@ M 0 34534 11 34558 100 0 0 0       * a negative elemental
 M 0 34534 11 34558 100 0 0 0       * a negative elemental
 M 0 34534 11 34560 100 0 0 0       * a negative elemental
 M 0 34534 11 34560 100 0 0 0       * a negative elemental
+M 0 34569 1 34562 100 0 0 0        * a deadly vampire
+G 1 34571 1 0 100 0 0 0            *    the well key
 M 0 34523 20 34563 100 0 0 0       * a small skeleton
 M 0 34527 5 34563 100 0 0 0        * a vengeful ghast
-M 0 34569 1 34564 100 0 0 0        * a deadly vampire
 M 0 34523 20 34565 100 0 0 0       * a small skeleton
 M 0 34525 7 34565 100 0 0 0        * the wraith of a dead villager
 M 0 34523 20 34566 100 0 0 0       * a small skeleton

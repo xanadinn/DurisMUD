@@ -37,9 +37,9 @@ D 0 57096 2 2 100 0 0 0
 *     south exit from "The Tomb of Khan Aspuru" to
 *     "Inside the Rilla Catacombs" - closed/locked
 *
-D 0 57096 0 5 100 0 0 0
+D 0 57096 0 6 100 0 0 0
 *     north exit from "The Tomb of Khan Aspuru" to
-*     "The Lost Vault of Khan Aspuru" - closed/secret
+*     "The Lost Vault of Khan Aspuru" - closed/locked/secret
 *
 D 0 57097 2 5 100 0 0 0
 *     south exit from "The Lost Vault of Khan Aspuru" to
@@ -284,6 +284,7 @@ M 0 57055 8 57091 100 0 0 0        * a haunt
 M 0 57000 1 57096 100 0 0 0        * Khan Aspuru
 E 1 57043 1 12 20 0 0 0            *   the cloak of enternal anguish
 G 1 57054 1 0 100 0 0 0            *    the tormented soul of Khan Aspuru
+G 1 57055 1 0 100 0 0 0            *    a solid hellstone key
 M 0 57055 8 57096 100 0 0 0        * a haunt
 M 0 57055 8 57096 100 0 0 0        * a haunt
 M 0 57055 8 57096 100 0 0 0        * a haunt
