@@ -1251,6 +1251,7 @@ void setup_npc_clipper_01(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(100, 150);
 }
 void setup_npc_clipper_02(P_ship ship) // level 0
 {
@@ -1260,6 +1261,7 @@ void setup_npc_clipper_02(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(100, 150);
 }
 void setup_npc_clipper_03(P_ship ship) // level 0
 {
@@ -1270,6 +1272,7 @@ void setup_npc_clipper_03(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(150, 200);
 }
 void setup_npc_ketch_01(P_ship ship) // level 0
 {
@@ -1279,6 +1282,7 @@ void setup_npc_ketch_01(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(150, 200);
 }
 void setup_npc_ketch_02(P_ship ship) // level 0
 {
@@ -1288,6 +1292,7 @@ void setup_npc_ketch_02(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(200, 250);
 }
 void setup_npc_ketch_03(P_ship ship) // level 0
 {
@@ -1296,6 +1301,7 @@ void setup_npc_ketch_03(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(200, 250);
 }
 void setup_npc_caravel_01(P_ship ship) // level 0
 {
@@ -1306,6 +1312,7 @@ void setup_npc_caravel_01(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(250, 300);
 }
 void setup_npc_caravel_02(P_ship ship) // level 0
 {
@@ -1315,6 +1322,7 @@ void setup_npc_caravel_02(P_ship ship) // level 0
     setcrew(ship, sail_crew_list[0], 200000);
     setcrew(ship, gun_crew_list[0], 200000);
     setcrew(ship, repair_crew_list[0], 200000);
+    ship->frags = number(250, 300);
 }
 void setup_npc_caravel_03(P_ship ship) // level 1
 {
@@ -1325,6 +1333,7 @@ void setup_npc_caravel_03(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[0], 600000);
     setcrew(ship, gun_crew_list[0], 600000);
     setcrew(ship, repair_crew_list[0], 600000);
+    ship->frags = number(400, 500);
 }
 void setup_npc_corvette_01(P_ship ship) // level 1
 {
@@ -1334,6 +1343,7 @@ void setup_npc_corvette_01(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[0], 300000);
     setcrew(ship, gun_crew_list[0], 300000);
     setcrew(ship, repair_crew_list[0], 300000);
+    ship->frags = number(400, 500);
 }
 void setup_npc_corvette_02(P_ship ship) // level 1
 {
@@ -1343,6 +1353,7 @@ void setup_npc_corvette_02(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[0], 300000);
     setcrew(ship, gun_crew_list[0], 300000);
     setcrew(ship, repair_crew_list[0], 300000);
+    ship->frags = number(400, 500);
 }
 void setup_npc_corvette_03(P_ship ship) // level 1
 {
@@ -1354,6 +1365,7 @@ void setup_npc_corvette_03(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[0], 300000);
     setcrew(ship, gun_crew_list[0], 300000);
     setcrew(ship, repair_crew_list[0], 300000);
+    ship->frags = number(400, 500);
 }
 void setup_npc_corvette_04(P_ship ship) // level 2
 {
@@ -1364,20 +1376,20 @@ void setup_npc_corvette_04(P_ship ship) // level 2
     set_weapon(ship, 4, W_SMALL_BAL, STARBOARD);
     set_weapon(ship, 5, W_SMALL_BAL, STARBOARD);
     set_weapon(ship, 6, W_SMALL_BAL, STARBOARD);
-    ship->frags = number(300, 500);
     setcrew(ship, sail_crew_list[1], 800000);
     setcrew(ship, gun_crew_list[2], 800000);
     setcrew(ship, repair_crew_list[1], 800000);
+    ship->frags = number(600, 700);
 }
 void setup_npc_corvette_05(P_ship ship) // level 2
 {
     set_weapon(ship, 0, W_MEDIUM_CAT, FORE);
     set_weapon(ship, 1, W_LARGE_BAL, PORT);
     set_weapon(ship, 2, W_LARGE_BAL, PORT);
-    ship->frags = number(400, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(600, 700);
 }
 
 void setup_npc_corvette_06(P_ship ship) // level 2
@@ -1385,10 +1397,10 @@ void setup_npc_corvette_06(P_ship ship) // level 2
     set_weapon(ship, 0, W_MEDIUM_CAT, FORE);
     set_weapon(ship, 1, W_LARGE_BAL, STARBOARD);
     set_weapon(ship, 2, W_LARGE_BAL, PORT);
-    ship->frags = number(400, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(600, 700);
 }
 
 void setup_npc_corvette_07(P_ship ship) // level 2
@@ -1397,10 +1409,10 @@ void setup_npc_corvette_07(P_ship ship) // level 2
     set_weapon(ship, 1, W_MEDIUM_BAL, STARBOARD);
     set_weapon(ship, 2, W_MEDIUM_BAL, STARBOARD);
     set_weapon(ship, 3, W_MEDIUM_BAL, STARBOARD);
-    ship->frags = number(400, 600);
     setcrew(ship, sail_crew_list[2], 1800000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(700, 800);
 }
 
 void setup_npc_corvette_08(P_ship ship) // level 2
@@ -1411,10 +1423,10 @@ void setup_npc_corvette_08(P_ship ship) // level 2
     set_weapon(ship, 3, W_SMALL_BAL, STARBOARD);
     set_weapon(ship, 4, W_SMALL_BAL, PORT);
     set_weapon(ship, 5, W_SMALL_BAL, PORT);
-    ship->frags = number(500, 700);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(700, 800);
 }
 
 void setup_npc_destroyer_01(P_ship ship) // level 1
@@ -1429,6 +1441,7 @@ void setup_npc_destroyer_01(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[0], 400000);
     setcrew(ship, gun_crew_list[0], 400000);
     setcrew(ship, repair_crew_list[0], 400000);
+    ship->frags = number(600, 700);
 }
 
 void setup_npc_destroyer_02(P_ship ship) // level 1
@@ -1439,6 +1452,7 @@ void setup_npc_destroyer_02(P_ship ship) // level 1
     setcrew(ship, sail_crew_list[1], 500000);
     setcrew(ship, gun_crew_list[0], 500000);
     setcrew(ship, repair_crew_list[0], 500000);
+    ship->frags = number(600, 700);
 }
 
 void setup_npc_destroyer_03(P_ship ship) // level 2
@@ -1448,10 +1462,10 @@ void setup_npc_destroyer_03(P_ship ship) // level 2
     set_weapon(ship, 2, W_MEDIUM_BAL, PORT);
     set_weapon(ship, 3, W_MEDIUM_BAL, PORT);
     set_weapon(ship, 4, W_MEDIUM_BAL, PORT);
-    ship->frags = number(500, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(700, 900);
 }
 void setup_npc_destroyer_04(P_ship ship) // level 2
 {
@@ -1459,10 +1473,10 @@ void setup_npc_destroyer_04(P_ship ship) // level 2
     set_weapon(ship, 1, W_MEDIUM_CAT, FORE);
     set_weapon(ship, 2, W_LARGE_BAL, PORT);
     set_weapon(ship, 3, W_LARGE_BAL, STARBOARD);
-    ship->frags = number(500, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(700, 900);
 }
 void setup_npc_destroyer_05(P_ship ship) // level 2
 {
@@ -1473,10 +1487,10 @@ void setup_npc_destroyer_05(P_ship ship) // level 2
     set_weapon(ship, 4, W_SMALL_BAL, STARBOARD);
     set_weapon(ship, 5, W_SMALL_BAL, STARBOARD);
     set_weapon(ship, 6, W_SMALL_BAL, STARBOARD);
-    ship->frags = number(600, 700);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(800, 1000);
 }
 
 void setup_npc_destroyer_06(P_ship ship) // level 2
@@ -1487,10 +1501,10 @@ void setup_npc_destroyer_06(P_ship ship) // level 2
     set_weapon(ship, 3, W_MEDIUM_BAL, PORT);
     set_weapon(ship, 4, W_MEDIUM_BAL, STARBOARD);
     set_weapon(ship, 5, W_MEDIUM_BAL, STARBOARD);
-    ship->frags = number(500, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(800, 1000);
 }
 
 void setup_npc_destroyer_07(P_ship ship) // level 2
@@ -1504,6 +1518,7 @@ void setup_npc_destroyer_07(P_ship ship) // level 2
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(800, 1000);
 }
 
 void setup_npc_destroyer_08(P_ship ship) // level 2
@@ -1512,10 +1527,10 @@ void setup_npc_destroyer_08(P_ship ship) // level 2
     set_weapon(ship, 1, W_LARGE_BAL, PORT);
     set_weapon(ship, 2, W_LARGE_BAL, PORT);
     set_weapon(ship, 3, W_MEDIUM_BAL, PORT);
-    ship->frags = number(500, 600);
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(700, 900);
 }
 
 void setup_npc_destroyer_09(P_ship ship) // level 2
@@ -1530,6 +1545,7 @@ void setup_npc_destroyer_09(P_ship ship) // level 2
     setcrew(ship, sail_crew_list[2], 1500000);
     setcrew(ship, gun_crew_list[3], 1500000);
     setcrew(ship, repair_crew_list[1], 1500000);
+    ship->frags = number(800, 1000);
 }
 
 void setup_npc_dreadnought_01(P_ship ship) // level 4
@@ -1548,10 +1564,10 @@ void setup_npc_dreadnought_01(P_ship ship) // level 4
     set_weapon(ship,11, W_LARGE_BAL, PORT);
     set_weapon(ship,12, W_SMALL_CAT, REAR);
     set_weapon(ship,13, W_SMALL_CAT, REAR);
-    ship->frags = number(3000, 4000);
     setcrew(ship, sail_crew_list[3], 7500000);
     setcrew(ship, gun_crew_list[4], 7500000);
     setcrew(ship, repair_crew_list[2], 7500000);
+    ship->frags = number(3000, 4000);
 }
 
 void setup_npc_dreadnought_02(P_ship ship) // level 4
@@ -1570,10 +1586,10 @@ void setup_npc_dreadnought_02(P_ship ship) // level 4
     set_weapon(ship,11, W_LARGE_BAL, PORT);
     set_weapon(ship,12, W_LARGE_BAL, PORT);
     set_weapon(ship,13, W_MINDBLAST, REAR);
-    ship->frags = number(3000, 4000);
     setcrew(ship, sail_crew_list[3], 7500000);
     setcrew(ship, gun_crew_list[4], 7500000);
     setcrew(ship, repair_crew_list[2], 7500000);
+    ship->frags = number(3000, 4000);
 }
 
 
