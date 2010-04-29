@@ -1386,13 +1386,14 @@ void point_update(void)
       if (!GET_NAME(i))
         continue;
 	
-	int reloghere = GET_BIRTHPLACE(i);
-       if (!reloghere)
-         reloghere = GET_HOME(i);
-       if (!reloghere)
-         reloghere = GET_ORIG_BIRTHPLACE(i);
-       if (!reloghere)
-         continue;
+      int reloghere = GET_BIRTHPLACE(i);
+      
+      if (!reloghere)
+        reloghere = GET_HOME(i);
+      if (!reloghere)
+        reloghere = GET_ORIG_BIRTHPLACE(i);
+      if (!reloghere)
+        reloghere = i->in_room;
          
       strcat(Gbuf1, GET_NAME(i));
       strcat(Gbuf1, ", ");
