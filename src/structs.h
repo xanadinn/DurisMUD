@@ -434,8 +434,8 @@ struct edit_data {
 #define INNATE_AMORPHOUS_BODY    143
 #define INNATE_ENGULF            144
 #define INNATE_SLIME             145
-#define INNATE_GUARDIANS_BULWARK 146
 #define INNATE_DUAL_WIELDING_MASTER 146
+#define INNATE_SPEED              147
 
 #define LAST_INNATE              147   // LAST means last, not last + 1 or whatever
 

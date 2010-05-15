@@ -337,7 +337,7 @@ const struct innate_data
   {"aura_of_endurance", do_aura_endurance},
   {"aura_of_improved_healing", do_aura_healing},
   {"aura_of_vigor", do_aura_vigor},
-  {"speedy", 0},
+  {"speedy", do_flurry},
   {"dauntless", 0},
   {"summon totem", do_summon_totem},
   {"entrapment", 0},
@@ -554,7 +554,7 @@ void assign_innates()
 
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_GOBLIN, 1);
   ADD_RACIAL_INNATE(INNATE_DISAPPEAR, RACE_GOBLIN, 31);
-  ADD_RACIAL_INNATE(INNATE_FLURRY, RACE_GOBLIN, 36);
+
   ADD_RACIAL_INNATE(INNATE_DAYBLIND, RACE_GOBLIN, 1);
   ADD_RACIAL_INNATE(INNATE_SUMMON_WARG, RACE_GOBLIN, 16);
   ADD_RACIAL_INNATE(INNATE_SUMMON_TOTEM, RACE_GOBLIN, 26);
@@ -633,6 +633,7 @@ void assign_innates()
 
   ADD_RACIAL_INNATE(INNATE_HIDE, RACE_HALFLING, 1);
   ADD_RACIAL_INNATE(INNATE_PERCEPTION, RACE_HALFLING, 11);
+  ADD_RACIAL_INNATE(INNATE_FLURRY, RACE_HALFLING, 50);  
 
   ADD_RACIAL_INNATE(INNATE_HORSE_BODY, RACE_QUADRUPED, 1);
   ADD_RACIAL_INNATE(INNATE_DOORKICK, RACE_QUADRUPED, 1);
@@ -1929,12 +1930,17 @@ void do_flurry(P_char ch, char *arg, int cmd)
     return;
   }
 
-  send_to_char
-    ("A rush of energy fills your veins as your limbs become a flurry of activity!\n",
-     ch);
-  act
-    ("$n visibly becomes more energetic as the movement of $s limbs becomes a blurred flurry!",
-     FALSE, ch, 0, 0, TO_ROOM);
+  if(GET_RACE(ch, RACE_HALFLING))
+  {
+    send_to_char("&+WYou start to pick up momentum as your pulse quickens and the world slows down around you!\r\n", ch);
+    act("$n's limbs start to move with &+cincredible speed.&n You can barely keep $s in focus!&n", FALSE, ch, 0, 0, TO_ROOM); 
+  }
+  else
+  {
+    send_to_char("A rush of energy fills your veins as your limbs become a flurry of activity!\r\n", ch);
+    act("$n visibly becomes more energetic as the movement of $s limbs becomes a blurred flurry!&n", FALSE, ch, 0, 0, TO_ROOM);
+  }
+  
   memset(&af, 0, sizeof(struct affected_type));
   af.type = SKILL_RAGE;
   af.flags = AFFTYPE_SHORT;
