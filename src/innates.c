@@ -207,7 +207,7 @@ const struct innate_data
   {
   "charm animal", do_charm_animal},
   {
-  "burrowing", do_innate_hide},
+  "burrow", do_innate_hide},
   {
   "dispel", do_dispel_magic},
   {
@@ -358,7 +358,6 @@ const struct innate_data
   {"amorphous body", 0},
   {"engulf", do_engulf},
   {"slime", do_slime},
-  {"guardians bulwark", 0},
   {"dual wielding master", 0}  
 };
 
@@ -2067,10 +2066,8 @@ void do_innate_hide(P_char ch, char *arg, int cmd)
   }
 
   send_to_char
-    ("&+yYou drop flat to the &+yground&n perfectly melting in with its irregularities.\n",
-     ch);
-  act("$n suddenly suddenly falls to the &+yground&n and vanishes from sight.",
-      FALSE, ch, 0, 0, TO_ROOM);
+    ("&+yYou drop flat to the &+yground&n perfectly melting in with its irregularities.\n", ch);
+  act("$n suddenly suddenly falls to the &+yground&n and vanishes from sight.", FALSE, ch, 0, 0, TO_ROOM);
   ch->specials.affected_by |= AFF_HIDE;
 //  send_to_char("&+LYou find a shadow and meld deeply into it.\n", ch);
   CharWait(ch, PULSE_VIOLENCE);
