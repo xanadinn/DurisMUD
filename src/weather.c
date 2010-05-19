@@ -508,17 +508,17 @@ void event_weather_change(P_char ch, P_char victim, P_obj obj, void *data)
     else if (!old_wind && cond->windspeed)
     {
       STWS(zon, "The wind begins to blow.\r\n");
-      STWS(zon, "!!SOUND(wind* L=-1)");
+      //STWS(zon, "!!SOUND(wind* L=-1)");
     }
     else if (cond->windspeed - old_wind > 10)
     {
       STWS(zon, "The wind picks up some.\r\n");
-      STWS(zon, "!!SOUND(wind* L=-1)");
+      //STWS(zon, "!!SOUND(wind* L=-1)");
     }
     else if (cond->windspeed - old_wind < -10)
     {
       STWS(zon, "The wind calms down a bit.\r\n");
-      STWS(zon, "!!SOUND(wind* L=1 P=100)");    /* a final play to shut off */
+      //STWS(zon, "!!SOUND(wind* L=1 P=100)");    /* a final play to shut off */
     }
     else if (cond->windspeed > 60)
     {
