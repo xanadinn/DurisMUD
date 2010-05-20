@@ -246,7 +246,7 @@ void make_prompt(void)
           strcat(promptbuf, " Pos:");
         if (GET_POS(t_ch) == POS_STANDING)
           if (IS_ANSI_TERM(point))
-            strcat(promptbuf, "\033[0;33m standing\033[0m");
+            strcat(promptbuf, "\033[1;32m standing\033[0m");
           else
             strcat(promptbuf, " standing");
         else if (GET_POS(t_ch) == POS_SITTING)
