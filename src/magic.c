@@ -13222,7 +13222,7 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
        level > 57)
           nosave = 1;
 
-    mod = (GET_LEVEL(ch) - GET_LEVEL(victim)) / 2;
+    mod = MAX(2, (GET_LEVEL(ch) - GET_LEVEL(victim)) / 2);
 
     act("$n tries to dispel your magic!", FALSE, ch, 0, victim, TO_VICT);
     act("You try to dispel $N's magic.", FALSE, ch, 0, victim, TO_CHAR);
@@ -13238,7 +13238,7 @@ void spell_dispel_magic(int level, P_char ch, char *arg, int type,
           !(af->flags & AFFTYPE_NODISPEL) && (af->type > 0))
       {
         if(nosave ||
-           !NewSaves(victim, SAVING_SPELL, (IS_ELITE(ch) ? mod + 10 : mod)))
+           !NewSaves(victim, SAVING_SPELL, (IS_ELITE(ch) ? mod + 5 : mod)))
         {
           if(!nosave &&
              resists_spell(ch, victim))
