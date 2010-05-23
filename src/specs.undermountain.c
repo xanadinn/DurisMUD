@@ -178,21 +178,22 @@ int iron_flindbar(P_obj obj, P_char ch, int cmd, char *arg)
                                  */
     return FALSE;
 
-  if (!IS_NPC(ch))              /*
-                                   sigh, this ones not for players... 
-                                 */
-    return FALSE;
+  if (!ch || !obj || !IS_ALIVE(ch)) /*
+                                    If the player ain't here, why are we? 
+                                    */
+    return FALSE; 
 
-  if (!ch || !obj)              /*
-                                   If the player ain't here, why are we? 
-                                 */
-    return FALSE;
-
+// sigh, this ones not for players... 
+  if (IS_PC(ch) ||
+      IS_PC_PET(ch))
+  {
+    return false;
+  } 
+  
   if (!OBJ_WORN(obj))           /*
                                    Most things don't work in a sack... 
                                  */
     return FALSE;
-
 /*
    If it must be wielded, use this 
  */
