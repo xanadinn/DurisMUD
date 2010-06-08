@@ -415,10 +415,10 @@ brudo short stack macfuggens leader~
 &+Ghis blood because of his physical differences.  Nonetheless, the beard on
 &+Ghis chin is just as large as that of the mightiest miner.
    &+GBrudo 'Short Stack' MacFuggens currently &+Lpaces&+G about the Hall of
-&+LAdventurers, something on his mind.  Not surprising for the leader of the
+&+GAdventurers, something on his mind.  Not surprising for the leader of the
 &+cAlatorin &+Gexplorers has a lot to think about.
 ~
-67110984 0 0 939524248 14528 0 0 -100 S
+67110984 0 0 939524248 14528 262144 0 -100 S
 pm 0 81923 2
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -439,9 +439,9 @@ pd 0 1 -1
 0.0.0.0 0
 8 8 1
 #83128
-battle-ready seige dwarf battle shield~
-&+La &+Rb&+La&+Rt&+Lt&+Rl&+Le-ready &+Yseige &+Ldwarf&N~
-&+LA &+Rb&+La&+Rt&+Lt&+Rl&+Le-ready &Nsh&+Wie&Nld &+Ldwarf stands here in &+Yseige armor&+L, eager for war.
+battle-ready siege dwarf battle shield~
+&+La &+Rb&+La&+Rt&+Lt&+Rl&+Le-ready &+Ysiege &+Ldwarf&N~
+&+LA &+Rb&+La&+Rt&+Lt&+Rl&+Le-ready &Nsh&+Wie&Nld &+Ldwarf stands here in &+Ysiege armor&+L, eager for war.
 ~
    &+LThis dwarf wears huge pieces of armor, including massive leg plates,
 &+La chest plate bearing the &+cAlatorin &+Lcrest of a sword and a smithing
@@ -796,7 +796,7 @@ dweefniggle gnome tinkerer~
 &+csuch an atmosphere, here within Dweefniggle's workshop.
 ~
 2120 0 0 939524120 14528 0 524288 0 S
-pg 0 768 -1
+pg 0 512 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1174,7 +1174,7 @@ commander siege army~
 &+YA commander of the &+rsiege &+Yarmy oversees the troops.
 ~
    This proud, blonde-haired sh&+Wie&Nld dwarf soldier has rosen to the
-rank of commander in the &+rseige &+Yarmy&N.  He has piercing blue eyes and
+rank of commander in the &+rsiege &+Yarmy&N.  He has piercing blue eyes and
 walks with a determined stride.
 ~
 1140852808 0 0 24 0 0 0 0 S
@@ -1226,6 +1226,9 @@ grendar womhstal brightaxe sergeant dwarf~
    &+GGrendar &+BWomstahl &+cis a fourth-generation &Nsh&+Wie&Nld &+Ydwarf &+cof
 &+cAlatorin.  &+GGrendar &+chas silvery hair and beaming eyes.
 &+cOne of the most trusted men of the &+CBrightAxe &+cmilitary.
+&+GGrendar &+BWomstahl &+chas a long, thin &+Csilver beard&+c.
+&+BBlue &+ceyes &+cwatch his eager dwarven recruits gather in
+&+cthe halls, sharing in their plunder with great celebrations.
 ~
 1140852808 0 0 24 0 0 0 20 S
 pm 0 25 -1
@@ -1659,7 +1662,7 @@ pm 0 1 -1
 0.0.0.0 0
 8 8 1
 #83205
-clund hammerhelm shield dwarf~
+clund hammerhelm shield dwarf _spec1_~
 &+WClund Hammer&+Yhelm&N~
 &+WClund Hammer&+Yhelm, general and founder of the Hammer&+Yhelm &+Warmy stands here in blazing brilliance.
 ~
@@ -1671,7 +1674,7 @@ clund hammerhelm shield dwarf~
 &+Wmaster of the Hammer&+Yhelm &+Warmy, and oversees the grand production
 &+Wof troops in the entire &N&+cAlatorin &+Warmy from a very young age.
 ~
-1157650888 0 0 402653336 14528 128 4718592 1000 S
+1157650888 0 0 402653336 47296 1074004096 4722944 1000 S
 pm 0 67108897 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -2216,7 +2219,7 @@ blazing avatar breuldin~
 &+Was a mortal resemblance of Breuldin, manifested by the great holy might
 &+Wof this holy sanctum.
 ~
-1091569866 0 0 152 0 0 131072 1000 S
+1091569866 0 0 152 14528 524288 37880832 1000 S
 ug 0 32 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -2385,9 +2388,9 @@ grylus shield dwarf royal bodyguard guard~
    &+LThis shield dwarf, known as &+WGrylus&+L has been appointed to the &N&+mroyal
 &+Lbodyguard position of the king's Citadel.  Although he is rather young, &+WGrylus&+L
 &+Lreceived his position from the king directly after thwarting an &N&+rassassination
-&+Lattempt on Queen &+YBellethra&+L.  &+WGrylus &+Lhas a thick &N&+ybrown &+Lbeard and
+&+Lattempt on Queen &+YBellethra&+L.  &+WGrylus &+Lis known for his thick &N&+ybrown &+Lbeard and
 &+Lstern &N&+ybrown &+Leyes.  He looks over the Citadel, guarding the halls of the &n&+mroyal
-&+Lfamily.
+&+Lfamily under persistant patrol.
 ~
 1140852808 1 0 144 14528 0 0 0 S
 pm 0 16385 -1
@@ -2395,7 +2398,7 @@ pm 0 16385 -1
 0.0.0.0 0
 8 8 1
 #83250
-dweefniggles assistant aspiring craftsman~
+dweefniggles assistant aspiring craftsman _spec1_~
 &+cDweefniggle's &+Gassistant&N~
 &+gAn aspiring craftsman, &+cDweefniggle's &+gAssistant, &+gwalks close to the tinkerer.
 ~
@@ -2404,7 +2407,7 @@ dweefniggles assistant aspiring craftsman~
 &+ydiffernt projects at once with the master tinkerer.
 ~
 72 0 0 216 0 0 0 0 S
-pf 0 512 -1
+pf 0 1 -1
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -2438,7 +2441,7 @@ modan shanat clerk~
 &+Lof the city.
 ~
 2250 0 0 24 0 0 0 0 S
-pm 0 32769 -1
+pm 0 1 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2798,23 +2801,42 @@ meshadan recruiter shield dwarf~
 &+LMes&N&+yha&Ndan &+Lthe &N&+cre&+Ccru&N&+cit&+Cer&N~
 &+LMes&N&+yha&Ndan &+Lthe &+Crecruiter &+Lstands here, speaking to his &N&+rlegion.
 ~
-   &+LMeshadan is a half-breed shield/mountain dwarf.  His mother was of the
-&+Lpurest blood &+Yshield dwarf &+Lnobility, born under a family that had seen
-&+Lthe fourth most kings (6) in the underlying kingdoms through the centuries.
-&+LNevertheless, the seed that grew into Meshadan was that of a renegade duergar
-&+Lnamed &N&+rGraddakk&+L.  They loved each other on a bountiful night in their
-&+Lyouth and so began the legacy of Meshadan.  The half-breed first started his
-&+Ladventurer as a wealth-hungry miner, tapping the lands of all the precious
-&+Lmetals they could squeeze out.  After years of familiarizing himself with
-&+Lthe terrain, he became very good at outwitting his opponents in such familiar
-&+Lgrounds.  Meshadan was also a very convincing speaker and seemed to grab
-&+Lthe instant appeal of both dwarven bloodlines.  It was not long until he
-&+Ldeveloped a great following which then manifested into a small army.  Taark
-&+LShanat took notice of Meshadan's influence in a dwarven card game known as
-&+L'Ta Druen' when Taark, already at an old age at the time, challenged Meshadan
-&+Lto a duel.  Meshadan's men actually outnumbered the humbled guards who threw
-&+Ldown their steins and exited the tavern.  Today, however, Meshadan serves
-&+Lfor Taark Shanat.
+&+Y                                          ___.  &+LThe half-breed first started his
+&+Yz**=.                                  .P"  $ &+Ljournies as a wealth-hungry miner,
+&+Y %   ^c                               z"   $ &+Ltapping the lands of all the precious
+&+Y  b    %                             d    4" &+Lmetals they could squeeze out.  After
+&+Y  4     $            ....           4"    $  &+Lyears of familiarizing himself with
+&+Y   F     L       .P"       "%.      $     $  &+Lgrounds, he became quite skilled at
+&+Y   $     4     e"             "c    "     $  &+Lusing his terrain to his advantage,
+&+Y   $      F  z"                 *  4      $  &+Lbecoming quite popular with the shield
+&+Y   P      $ d                    3.$      $  &+Ldwarves for his battles against the
+&+Y   %      $d       ..eeeec..      *$      'b  &+Lblack ogres of the underdark where a
+&+Y  d       $%   .e$*c d" ".z**$%.   $       $  &+Lsmall group of dwarves defeated four
+&+Y  F       $  e" $   *F   $   ^F.db.$        b  &+Lof the most notorious black ogre
+&+Y J        $d\" ^$   4b   $    $  3/$        *  &+Lraiders, recovering a year's worth of
+&+Y $        $*$   $c  P *P" * ."F  .$$         b  &+Lale that had been pillaged and taken
+&+Y4F        $ $c .EeP""      ^C$$..*F F        $  &+Lfrom the city.  With his amazing new
+&+YJ         $ $.*"-"*.      ."    "b$ F        'r &+Lpopularity, Meshadan began started
+&+Y$         *"$   zc. ..  -"..-""\  $$%         $ &+Lrecruiting a greater and greater
+&+Y$          $      ..  L P  ebe    4$          $ &+Lnumber of the locals.  What first
+&+Y$          ^F   d%*$J%3 $ *$* "   4F          $ &+Lstarted as a band of mercenaries
+&+Y*          4b       @   3 ^r      4$          $ &+Leventually grew into a small army.
+&+Y4          d$.          4         $3.        4F  &+LThe bartenders of Alatorin would
+&+Y L         $$*.                  %$ $        J &+Ltake notice of when Meshadan's Army
+&+Y $        d $ $      -   ^.     P $c $       $ &+Lwould arrive from a victorious raid
+&+Y  r      z".$L L    .$%..*$    J  $P. *.    d &+Land be ready to console their lords
+&+Y  "     z" P$$ ^%  z"      ".  L d$$"c "e  z% &+Land of course drown them with ale.
+&+Y   *  .P .*$$$  "*"   .$c        $$$$.b  ^$"  &+LThese Shanatarian dwarves were indeed
+&+Y    *$  dL$$$$r ^4. ./" ""%..r"  $$$$$$J$e" &+La harsh breed, but you could say their
+&+Y     *$b$$$$$$F        ""        $$$$$$$P &+Lbloodlust was fueled by their dwarven
+&+Y      ^$$$$$$$$                  $$$$$"&+Lthirst.  Taark Shanat, king of the shield
+&+Y         "*$$$$                  $"&+Ldwarves, took notice of Meshadan's huge influence
+&+Y              '                 4 &+Lof his people when he himself was humbled by the
+&+Y               *  $         .$  F &+Lpresence of Meshadan when the much-younger half-
+&+Y                % 4F       .$  " &+Lbreed mercenary defeated the king in an arm wrestle
+&+Y                  *$%     .$dr &+Lto settle an argument over ethics in warfare.
+&+Y                    *.    .*
+&+Y                      ".."
 ~
 1073762762 0 0 408 0 0 0 500 S
 pm 0 69206537 -1
@@ -2905,7 +2927,7 @@ pm 0 16777216 -1
 0.0.0.0 0
 8 8 1
 #83282
-shield dwarf legionnaire~
+shield dwarf legionnaire _spec1_~
 &N&+ra leg&+Yi&N&+ro&+Ynna&N&+ri&+Yre&N~
 &+rA &+Ystern-faced &N&+rlegion&+Yna&N&+ri&+Yr&N&+r&+Ye stands here, obeying his senior officer.
 ~
@@ -3136,8 +3158,8 @@ harmon smeltmaster smelt master dwarf~
 &+rHar&+Rm&+Yo&+Wn&+L, the &+Rsmelt&+Lmaster&N~
 &N&+rHar&+Rm&+Yo&+Wn&+L, the &+Rsmelt&+Lmaster &+Lof &N&+cAlatorin &+Lmelts the &+Yore&+L brought to his &N&+cguild&+L.
 ~
-   &+RHarmon, a shield-mountain dwarf cross-breed, has gained much wisdom, and much
-&+Rweight in his old age.  Nevertheless, he continues to work with the same
+   &+RHarmon, a shield-mountain dwarf cross-breed, has gained much wisdom,
+&+Rand weight in his old age.  Nevertheless, he continues to work with the same
 &+Wwrit and determination that he has exhibited throughout his extensive ore-
 &+Wprocessing and &+Lmining &+Rcareer.
 ~
@@ -3410,9 +3432,9 @@ ho 0 20480 -1
 0.0.0.0 0
 4 4 1
 #83314
-massive seige dwarf~
-&+La &+Wmassive &n&+rs&+Ye&n&+ri&+Yg&N&+re &+Yd&N&+rw&+Ya&N&+rr&+Yf&N~
-&+LAn extremely-brawny, &+Wmassive &n&+rseige &+Ydwarf &+Lsits here enjoying the tavern.
+massive siege dwarf~
+&+La &+Wmassive &n&+rs&+Yi&n&+re&+Yg&N&+re &+Yd&N&+rw&+Ya&N&+rr&+Yf&N~
+&+LAn extremely-brawny, &+Wmassive &n&+rsiege &+Ydwarf &+Lsits here enjoying the tavern.
 ~
    &+LThis dwarf wears huge pieces of armor, including massive leg plates,
 &+La chest plate bearing the &+cAlatorin &+Lcrest of a sword and a smithing
@@ -3930,7 +3952,7 @@ pm 0 1 -1
 #83348
 ulster stonehammer shield dwarf constable~
 &+WUlster Stone&nh&+Lammer &+Rthe constable&N~
-&+WUlster Stone&nh&+Lammer &+Rthe &Nsh&+Wie&Nld &+Ydwarf &+Rconstable &+Yof &N&+cAlatorin &+Ystands here with a proud look upon his face.
+&+WUlster Stone&nh&+Lammer &+Rthe &Nsh&+Wie&Nld &+Ydwarf &+Rconstable &+Yof &N&+cAlatorin &+Ystands here with a &Nconcerned&+Y look upon his face.
 ~
    &+WUlster Stone&nh&+Lammer&+Y, the elder brother of the fabled paladin and
 &+Wweapon-obsessed Brino Stone&Nh&+Lammer&+Y.  With a flowing golden beard and
@@ -4829,7 +4851,7 @@ lord deramuth portmaster _spec1_~
 &+rheavy-set figure with a muscular back and massive chest.  He has
 &+Ywi&+Yl&+Ld &N&+yhazel &+reyes and thick, &N&+cmannish &+Lhands.
 ~
-1073744074 0 0 939524248 14528 0 0 1000 S
+1090521290 0 0 939524248 14528 0 0 1000 S
 pd 0 1 -1
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -4862,7 +4884,7 @@ angry guard~
 &+rabout through the &+WLord's &N&+rmanor, alerted at the presence of
 &+ra trespasser.
 ~
-1140852808 1 0 134217984 14416 0 0 600 S
+1140852808 1 0 134217984 12368 0 0 600 S
 pm 0 1048576 -1
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -5336,8 +5358,985 @@ tarkorsh dwarf dwarven inquisitor~
 &+Lmilitia, only to be taken in by the &N&+rcutpurse killers&+L - a suitable
 &+Lplacement given his reputation.
 ~
-1073743944 4294688768 234881039 24 0 0 0 1000 S
+1073743944 4294688768 234881039 24 14528 128 0 1000 S
 pm 0 67117057 -1
 59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83438
+troglodyte trog huge black _spec1_~
+&+La huge black &+Yt&N&+yr&+Yo&N&+yg&+Ylo&N&+ydyt&+Ye~
+&+LA huge black &+Yt&+yr&+Yo&+ygl&+Yody&+yte &+Lhulks here, &Nchest &+yheaving&+L.
+~
+   &+LThis huge black troglodyte is much larger than its mundane
+&+Ltrog cousins.  It has an extremely muscular body, which suggests
+&+La lifetime of hardship in the Shanatar mountains.  Deep-set
+&+Leyes stare out from its sloped head.  Saliva drips down from
+&+Lits toothy maw.
+~
+1073743882 1 0 24 0 0 0 -1000 S
+h 0 1 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83439
+wikzor dwarven warlord _spec1_~
+&+rWikzor &+Lthe &n&+Ydwarven &+Rwarlord&N~
+&+rWikzor &+Lthe great &+rwarlord &+Lof &+YKimordril &N&+rsneers in contempt.
+~
+   &+rWikzor has a thick, deep red beard and identical bushy eyebrows.
+&+rHe seldoms peaks, letting his reputation do his talking - or those
+&+rthat seem to cower and praise his name in his presence.  Wikzor is
+&+ra strong, able-bodied &+Ydwarf &+rwith bulging muscles and tanned
+&+rskin.  Huge &+mv&+Me&+mi&+Mn&+Ms &+rripple beneath his thick dwarven hide
+&+rwhich is loosely covered in black leather.
+~
+1140852872 4294426624 0 805306392 14528 0 0 0 S
+pm 0 1 -1
+59 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83440
+brutish troglodyte trog huge bone bonechewer~
+&+La &N&+rbrutish &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye &+Wbo&+mn&+Wec&+mh&+Wew&+me&+Wr&N~
+&+LA huge &N&+rbrutish &+Ytr&+yog&+Ylo&+ydy&+Yte &+Lsquats here, &+mchewing&+L on a &+Wbone&N.
+~
+   &+yThis large lizard-man looking beast has huge, &+Lblack &+yeyes
+&+yset beneath a huge &+Wbone ridge&+y on its scaled forehead.  A stare
+&+yof &+raggression &+yand &+rcontempt &+ypierces out from its monstrous
+&+yface.  This &+Ytr&+yog&+ylo&+Ydy&+yte is much larger then its cousins,
+&+yperhaps the result of generations upon generations of
+&+yin-breeding, or perhaps some sort of &+motherwordly &+ymutation.
+&+yRegardless, this fearsome scaled &+Rbeast&+y is one to be reckoned.
+~
+1073743882 1 0 24 0 0 0 -1000 S
+h 0 1048577 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83441
+troglodyte trog menacing savage~
+&+La &+ytr&+Log&+ylo&+Ldy&+yte &+rsavage&N~
+&+LA menacing &+ytr&+Log&+ylo&+Ldy&+yte &+rsavage &+Llicks its &+Wmaw&+L, hungry for &+rmeat&+L.
+~
+   &+LThis large troglodyte stands just over six feet tall - which
+&+Lis much larger then common troglodytes one might encounter
+&+Lthroughout the realm.  Perhaps the result of secluded evolution,
+&+Lrampant inbreeding, or an otherwordly force - this scaled,
+&+Lbipedal cave-dweller is much more vicious and aggressive then
+&+Lits primative cousins.
+~
+1073743882 1 0 0 0 0 0 -1000 S
+h 0 16385 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83442
+troglodyte trog berserker~
+&+ya &+Yt&+yr&+Yo&+yg&+Yl&+yo&+Yd&+yy&+Yt&+ye &+rberserker&N~
+&+yA huge, muscular &+Yt&+yr&+Yo&+yg&+Yl&+yo&+Yd&+yy&+Yt&+ye &+rberserker &nstomps through the tunnels, &+rattacking &Nits &+Rcousins&N.
+~
+   This huge scaled beast is much larger and aggressive than its
+common troglodyte cousins one might experience in other parts of
+the realm.  It stands at an uncharacteristic six-to-seven feet
+in height, covered in thick scales and bulging muscles.  It moves
+With a fierce aggression, attacking those who dare enter its hovel
+as well as its own troglodyte cousins with a vicious bloodthirst.
+~
+1073741896 1 0 0 0 0 0 -1000 S
+h 0 1048576 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83443
+prowling trog troglodyte~
+&+La prowling &+Ytr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yte&N~
+&+LA &+Ytr&+yo&+Yg&+Yl&+yo&+Ydy&+yte &+Lprowls through here&N, grinning fiendishly.
+~
+   Strong and muscular, yet lithe and lean, this wirey troglodyte
+prowls through the mountain rock of Shanatar eyeing the females
+of the species, the meat captured by its cousins, and avoiding
+the more ferocious of his kind.  Always wandering and looking
+for opportunities to increase its survival, or prestige among
+the tribe, this scaled primative beast scavenges its domain.
+~
+1073743944 1 0 0 0 0 0 -1000 S
+h 0 16385 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83444
+blazing demilich~
+&+ba blazing &+rdemi&+Ll&+mic&+Lh&N~
+&+bA blazing &+rdemi&+Ll&+mic&+Lh &+bflies here on a blaze of &+Bblue flame&+b.
+~
+&+b                  _________-----&+W_____
+&+b       _____------           &+B__ &+W     ----_
+&+b___----             &+B___------ &+W             \
+&+b   ----________        &+B---- &+W                \
+&+b               -----__    &+W|             _____)
+&+b                    __-     &+W           /     \
+&+b        _______-----    &+B___--&+W          \  &+Ro&+W  /)\
+&+b  ------_______      &+B---____&+W            \__/  /
+&+b               -----__    &+W\ &+B-&+b-    _&+W          /\
+&+b                      --__--__     &+W\_____/   \_/\
+&+b                              &+W----|   /          |
+&+W                                  |  |___________|
+&+W                                  |  | ((_(_)| )_)
+&+W                                  |  \_((_(_)|/(_)
+&+W                                  \             (
+&+W                                   \_____________)
+~
+1073760458 1 0 939532434 14528 18350080 541066752 -1000 S
+ul 0 1540 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83445
+skeletal hand _spec1_~
+&+Wa skeletal hand&N~
+&+WA skeletal hand leaps up on its own.
+~
+   &+WThis skeletal hand has been animated by some powerful
+&+Wmagic, giving it a life of itself - one that is hellbent
+&+Won the relentless attack upon the living.  Razor-sharp
+&+Wclawed finger bones extend from a thick wrist-knob.  The
+&+Whand is quite old, yet maintains its strength through
+&+Wthe dark forces that have caused its evil reanimation.
+~
+1073743882 1 0 1048600 0 0 0 -1000 S
+u 0 1 1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83446
+skeleton~
+&+Wa skeleton&N~
+&+WA suddenly-reanimated skeleton stands here made up of random bones.
+~
+   &+WThis skeleton is made up of random bones from
+&+Wall species in one bipedal mass.  Several broken
+&+Wbones, including leg, arm, and rib bones, fit as
+&+Wthe arms of the skeleton, while the torso is
+&+Wmade of many random bones forming ribs and a
+&+Wspine.  This freshly-animated skeleton is made
+&+Wout of many species bones, both old and new.
+~
+10 1 0 1048576 0 0 0 -1000 S
+sk 0 1 -1
+53 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83447
+bone gargoyle _spec1_~
+&+Wa bone gargoyle&N~
+&+WA gargoyle skeleton made of solid bone stands here glaring.
+~
+   &+WThis re-animated gargoyle corpse seems like a gross rarity for
+&+Wits surroundings of mostly human and dwarven bones.  The skeleton
+&+Wof this gargoyle is intact perfectly.  It even bares its original
+&+Wteeth - dominated by four front teeth that are as sharp as ever
+&+Win their post mortem state.
+~
+1073743882 1 0 671088664 0 0 0 -1000 S
+sk 0 1 5
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83448
+vicious white trog troglodyte _spec1_~
+&+La &+Wv&+Li&+Wc&+Li&+Wo&+Lu&+Ws &+Wwhite &+Wt&+yr&+Wo&+yg&+Wl&+yo&+Wd&+yy&+Wt&+ye&N~
+&+WA &+Lvi&+Wci&+Lou&+Ws white &+Ytr&+Wo&+ygl&+Wo&+ydy&+Wt&+ye &+Lrushes towards those not of his &+rbreed&+L.
+~
+   &+WThis troglodyte is much more vicious then common
+&+Wtroglodytes.  What stands out about this specimin the
+&+Wmost, however, is its pale color.  Perhaps the result
+&+Wof massive inbreeding amongst albino troglodytes, this
+&+Wpale-bodied beast is as aggressive as it is inhuman.
+~
+1073743880 1 0 0 0 0 0 -1000 S
+h 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83449
+berserker white-faced white faced trog troglodyte~
+&+Wa white-faced &+rb&+We&+rr&+Ws&+re&+Wr&+rk&+We&+rr&N~
+&+WA white-faced &+Ytr&+yog&+Ylo&+ydy&+Yte &+rb&+We&+rr&+Ws&+re&+Wr&+rk&+We&+rr &+rstomps through here in a fit of &+Rbloodlust&+r.
+~
+   &+WThis troglodyte is much more vicious then common
+&+Wtroglodytes.  What stands out about this specimin the
+&+Wmost, however, is its pale color.  Perhaps the result
+&+Wof massive inbreeding amongst albino troglodytes, this
+&+Wpale-bodied beast is as aggressive as it is inhuman.
+~
+1073743880 1 0 0 0 0 0 -1000 S
+h 0 1048576 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83450
+massive stone golem _spec1_~
+&+La MASSIVE &+mstone &+Lgolem&N~
+&+LA MASSIVE &+mstone &+Lgolem stands motionless, its &+Warms &+Lthe size of moors.
+~
+   &+LThis massive golem is made of strange &+mpurple stone &+Lin an
+&+Lotherwise blackrock environment.  It stands nearly the entire length
+&+Lof this massive domed cavern, existing as a strange outcropping
+&+Llike a gargantuan stalagtite.  The most noticable feature of this
+&+Lhulking &+yearthen &+Lbeast are its massive tree-sized &+Warms&+L and huge fists.
+&+LThe &+Warms &+Lof this titanic golem are made up of the same &+mstone
+&+Las the body.  The golem seems to ignore the native troglodytes entirely.
+~
+17301514 1 0 152 2048 0 0 0 S
+ee 0 1 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83451
+large white troglodyte trog~
+&+Wa large white &+Wtr&+yo&+Wg&+Ylo&+Wd&+yyt&+We&N~
+&+WA large white tr&+yo&+Wg&+Ylo&+ydy&+Wte&N sniffs around here&+W lumbering about.
+~
+   &+WThis troglodyte is much more vicious then common
+&+Wtroglodytes.  What stands out about this specimin the
+&+Wmost, however, is its pale color.  Perhaps the result
+&+Wof massive inbreeding amongst albino troglodytes, this
+&+Wpale-bodied beast is as aggressive as it is inhuman.
+~
+1073743880 1 0 0 0 0 0 -1000 S
+h 0 1 4
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83452
+black white speckled trog troglodyte~
+&+La &+Wb&+Ll&+Wa&+Lc&+Wk &+La&+Wn&+Ld &+Ww&+Lh&+Wi&+Lt&+We &+Ls&+Wp&+Le&+Wc&+Lk&+Wl&+Le&+Wd &+Lt&+Wr&+Lo&+Wg&N~
+&+LA &+Wt&+Lr&+Wo&+Lg&+Wl&+Lo&+Wd&+Ly&+Wt&+Le &+Ww&+Li&+Wt&+Lh &+Wa &+Ls&+Wp&+Le&+Wc&+Lk&+We&+Ld &+Lb&+Wl&+La&+Wc&+Lk &+Wa&+Ln&+Wd &+Lw&+Wh&+Li&+Wt&+Le &+Wh&+Li&+Wd&+Le &+Wp&+Lr&+Wo&+Lw&+Wl&+Ls &+Wh&+Le&+Wr&+Le&+W.
+~
+   &+WThis troglodyte is much more vicious then common
+&+Wtroglodytes.  What stands out about this specimin the
+&+Wmost, however, is its pale color.  Perhaps the result
+&+Wof massive inbreeding amongst albino troglodytes, this
+&+Wpale-bodied beast is as aggressive as it is inhuman.
+~
+1073743880 1 0 0 0 0 0 -1000 S
+h 0 1 4
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83453
+huge stone arm~
+&+La huge &+mstone arm&N~
+&+LA huge &+mstone arm &+Lreaches out from the &Ngolem&N.
+~
+   &+LThis massive stone arm is one of two that reaches out from
+&+Lthe massive &+mstone &+Lgolem deep within this ancient tunnel
+&+Lsystem.  The fist of this golem has only three large claw-like
+&+Lfingers which it uses to grab and hurl objects.  The &+mgolem&+L, and
+&+Lits arms alike, seems to be completely uninterested in the native
+&+Ltroglodytes that inhabit these tunnels.
+~
+10 1 0 1048576 0 0 0 0 S
+ee 0 65 5
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83454
+mithril golem dwarven king~
+&+La &+mm&+Mi&+mt&+Mh&+mr&+Mi&+ml &+ygolem &+Lof a &+ydwarven &+Ck&+Yi&+Cn&+Yg&N~
+&+mA &+Mmithril golem &+Lof a &+ydwarven &+Ck&+Yi&+Cn&+Yg &+mstands &+Lmotionless &+mbeside the &+Bdias&+L.
+~
+   &+mThis ancient &+Mmithril &+Mgolem &+mstands in the shape of an
+&+ma dwarven king - only much much larger.  A long forked beard of
+&+Mmithril &+mhangs below its stoic face, cascading onto a huge
+&+mbreastplate.  Large shoulder guards eclipse the horned helmet
+&+mof this royal warrior.  This golem wields no weapons, but has
+&+mhuge, mighty arms.  It stands motionless before the center &+Bdias&+m.
+~
+2122 0 0 805306520 14528 0 0 0 S
+ee 0 64 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83455
+marg d'ghor hooded figure trog troglodyte witch doctor witchdoctor~
+&+WMa&Nr&+Lg &+WD&+Y'&+Wg&Nh&+Lor&+W the &+Yw&+Gi&N&+gtchdoct&+Go&+Yr&N~
+&+WA hooded half-breed named &+LM&Nar&+Wg &+LD&+Y'&+Lg&Nh&+Wor floats here on a cloud of &+Lblack smoke&+W.
+~
+   &+WMarg D'ghor, revered amongst the troglodyte white-faced tribe
+&+Was the all-knowing father, is a unique and powerful figure.
+&+WAlthough his body posesses the traits of the neighboring trogs,
+&+Whis posture and intellect suggest that his lifestyle is much
+&+Wmore then the primative ritualistic ways of his kin.  Marg D'ghor
+&+Wwears a long, hooded white robe, for instance.  Clothing of any
+&+Wtype is extremely uncharacteristic for his race.  He is also
+&+Wseen grasping a staff used for invokation, rather then as a blunt
+&+Wweapon like his kin may do.  It is no wonder that Marg D'ghor is
+&+Wreverred with such 'graces' among the other troglodytes, as he
+&+Wclearly has an otherwordly intellect and presence.
+~
+1359497224 1 0 939524248 14528 524416 4194816 -1000 S
+up 0 289 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83456
+black smoke monster~
+&+La black smoke monster&N~
+&+LA swirling appiration of total blackness wisps through the area.
+~
+   &+LThis black appiration moves with a life of its own, almost
+&+Lfluidic in nature.  A strange churning sound can be heard as
+&+Lit swirls through the tunnels, almost like a fluidic snake.
+&+LThis black matter contains small crackles of dark energy and
+&+Lexists devoid of all light.
+~
+1074790408 1 0 134217752 0 524288 537657344 -1000 S
+SW 0 64 -1
+25 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83457
+lithe slimy trog troglodyte~
+&+La &+Gslimy &+gt&+yr&+Yo&+yg&+glo&+yd&+Yy&+yt&+ge&N~
+&+LA lithe &+gt&+yr&+Yog&+ylod&+gyte wades in the &+Gslime pool.
+~
+   &+yThis tr&+Goglodyte &+yis lit&+Ghe and wi&+yrey, spendi&+Gng his time
+&+ycurrently so&+Gaking in&+y the sl&+Gime po&+yol.  It &+Goccasi&+yonally
+&+ysn&+Gaps it's &+yhand forw&+Gard to gr&+yab a sli&+Gme slug t&+yo eat.
+&+y&+GOcc&+yasion&+Gally lettin&+yg out moa&+Gns of pleasure&+y, this re&+Glaxed
+&+ytr&+Goglod&+yyte se&+Gems to spend &+ya lot of&+G time w&+yading in th&+Gis
+&+ygreen fecu&+Glenc&+ye, as its sk&+Gin is nearl&+yy reflect&+Give w&+yith
+&+ysmooth&+Gness.
+~
+2122 0 0 0 0 0 0 -500 S
+h 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83458
+slime slug~
+&+ga &+Gslime s&+gl&+Gu&+gg&N~
+&+gA disgusting &+Gslime &+gs&+Gl&+gu&+Gg &+gwriggles through the feculent &+Gs&+yl&+Gu&+yd&+Gg&+ye&+L.
+~
+   &+gThis disgusting slug resembles a bloodworm i&+yn shape,
+&+ghowever with smaller teach and sl&+yightly narrower eye-
+&+gslits.  It wriggles through&+y the sludge, feasting on the
+&+gshit contained th&+yerein.  Many of these slugs, however
+&+gwind up a&+ys the food of the troglodytes providing them
+&+gwi&+yth their food, ironically.
+~
+262154 1 0 0 0 0 0 -200 S
+pw 0 4160749569 0
+36 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83459
+huge slime slug~
+&+ga &+Whuge &+Gslime &+gs&+Gl&+gu&+Gg&N~
+&+gA huge, d&+mi&+gs&+mg&+mu&+gs&+mt&+gi&+mn&+gg &+Gslime &+gs&+Gl&+gu&+Gg &+gwriggles slowly through the slime.
+~
+   &+gThis huge di&+Gsgusting worm is one of the few slime slugs
+&+gthat has reached maturity.  It &+Ghas grown considerably in
+&+gsize, existing at least ten times the size of&+G the smaller,
+&+gmore common slugs.  This creature looks like an enlarg&+Ged
+&+gbloodworm, however its body is cov&+Gered in a thick, transl-
+&+gucent liquid &+Gwith slightly smaller teeth in its maw.
+~
+264202 1 0 24 0 0 0 -400 S
+pw 0 1 -1
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83460
+aboleth slime mage~
+&+gan &+bab&+gol&+bet&+gh &+Gs&+ml&+Gi&+mm&+Ge &+mm&+Ga&+mg&+Ge&N~
+&+gTentacles swirl out from an &+baboleth &+Gslime &+mmage&+g as it wades through the &+Gm&+yu&+Gc&+yk&+g.
+~
+   &+gThis giant, &+Gslime-covered&+b aboleth&+g is quite massive in size,
+&+gdominating this huge underground cavern and the river of slime
+&+gin which it wades.  Huge &+ctentacles&+g reach out from a shiny, fat
+&+gmucous-covered body, extending as if each of them had a life
+&+gof its own.  A few of these long &+ctentacles&+g have strange &+We&+Gy&+We&+gs on
+&+gthem, while others have thick, &+rb&+ga&+rr&+gb&+re&+gd pads covered in a sticky
+&+ybrown &+gdi&+ysc&+gha&+yrg&+ge.
+~
+1359088650 1 0 671088664 1063104 262144 37753344 -1000 S
+bh 0 33556997 6
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83461
+hungry trog troglodyte~
+&+ga &+rhungry &+Gt&+gr&+yog&+gl&+Go&+gd&+yyt&+ge&N~
+&+gGnawing on a chunk of flesh, a &+rhungry &+Gt&+gr&+Go&+gg&+Gl&+go&+Gd&+gy&+Gt&+ge &+gviciously feeds his appetite.
+~
+   &+gThis scaled, reptillian creature is reluctant to gnaw the
+&+gflesh of a fresh catch from the unforgiving peaks of the
+&+gShanatar mountains, feasting on the rotting remains of one
+&+gof his brethren's kills.  Not particularly muscular for a
+&+gtroglodyte, this creature does, however, possess size.
+~
+2122 0 0 0 0 0 0 -1000 S
+h 0 1 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83462
+ancient ravenous arctic beast~
+&+ran ancient &+Rr&+ra&+Rveno&+ru&+Rs &+ca&+Br&+cc&+Bt&+ci&+Bc &+Bb&+ce&+Ba&+cs&+Bt&N~
+&+rAn ancient &+Bb&+ce&+Ba&+cs&+Bt &+rwith &+Crazor&+L-&+csharp &+Wfangs &+rand giant &+Gc&+Wl&+Ga&+Ww&+Gs &+rstomps through here.
+~
+   &+rThis huge &+mbeast &+rlooks like the cross between a &+Lgorilla&+r and
+&+ra &+ywolverine&+r; only much much larger than either.  It has beady
+&+gg&+Gree&+gn&+r eyes that stare forth from deep-set sockets beneath its
+&+rsloping, neanderthal brow.  Huge paws carry &+Crazor&+c-sharp &+rc&+Rl&+ra&+Rw&+rs
+&+rwhich are rather similar to its massive, pointy &+Wteeth&+r.  When
+&+rbiting, it opens its mouth unnaturally-wide, exposing three
+&+rrows of these &+Wteeth&+r.  The &+mbeast&+r stomps around similar to an
+&+rape, but runs on all fours like a &+ywolverine&+r.  It has imposing
+&+rstrength and an insatiable hunger, attacking with a furious
+&+rbl&+Roo&+rdl&+Rus&+rt.
+~
+1090521096 1 0 805306392 0 0 4206592 -1000 S
+x 0 17891329 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83463
+hargorigard duergar elder~
+&+rHargorigard the duergar &+Lelder&N~
+&+rDraped in a dark cloak, Hargorigard the duergar &+Lelder &+rvisits the shield dwarven king.
+~
+   &+rHargorigard is an old, but able duergar elder.  Known to
+&+rhis people as 'The Hammer' &+rit is rumored that Hargorigard
+&+rwas the keeper of Khildarak's war hammer for many of his
+&+rearly years after defending the great duergar city from
+&+rthe illithid raids, hundreds of years past.  Nowadays, the
+&+rgreat warrior Hargorigard is known for his politics amongst
+&+rthe Grand Council of Khildarak, rather then his prowess with
+&+rthe blunt-headed weapon.
+~
+1073743882 0 0 268435480 0 262144 0 -1000 S
+pd 0 1048576 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83464
+azarem tumek duergar assassin~
+&+rAzarem Tumek&N~
+&+rAzarem Tumek, the notorious duergar serial killer, stalks here, eyes filled with &+Rh&+ra&+Rt&+re.
+~
+   &+rThis duergar, Azarem Tumek, has gained quite a reputation
+&+ramongst the head guards of Alatorin.  Wanted signs featuring
+&+rhis face dominate some of the most prominant halls of Alatorin.
+&+rHis face is a twisted one, indeed; a wirey moustache and tightly-
+&+rbound goatee braid sit below a long, narrow nose and two blood-
+&+rshot eyes.
+~
+1073743896 0 0 270008344 2048 0 0 -1000 S
+pd 0 8192 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83465
+writhing tendril _spec1_~
+&+ya writhing &+gt&+Ge&+gn&+Gd&+gr&+Gi&+gl&N~
+&+yA vicious &+Gslime-covered &+gt&+Ge&+gn&+Gd&+gr&+Gi&+gl &+ylashes out from within the &+ym&+gu&+yc&+gk&+L.
+~
+   &+gThis long, fleshy tendril is covered in a sheen of
+&+gthick, green slime.  It lashes about within the slime
+&+gpool, wrapping itself around victims of the aboleth.
+~
+10 1 0 24 0 0 0 -500 S
+vt 0 1 3
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83466
+tired trog troglodyte~
+&+La tired &+gtr&+Go&+ggl&+Go&+gdy&+Gt&+ge&N~
+&+LA tired &+gtr&+Go&+ggl&+Go&+gdy&+Gt&+ge &+Lsprawls out trying to get some rest.
+~
+   &+LThis strong, young troglodyte is perhaps in
+&+Lthe makings of being a hunter.  His body is
+&+Ltan and weathered, suggesting that he frequently
+&+Lprowls the unforgiving peaks of the Shanatar
+&+Lmountains.  He is strong and able, yet currently
+&+Ltrying to get some rest after what must have been
+&+La grueling hunt or ambush.
+~
+2186 0 0 0 0 0 0 -700 S
+h 0 1 -1
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+9 9 1
+#83467
+troglodyte brightly colored trog matron~
+&+ga tr&+Gog&+gl&+Go&+Yd&+Gy&+gt&+Ge &+Ym&+Ga&+Yt&+Gr&+Yo&+Gn&N~
+&+gA fat, &+Gbrightly-colored &+gtr&+Go&+gg&+Gl&+Yo&+Gd&+Yy&+Gt&+Ge &+Ym&+Ga&+Yt&+Gr&+Go&+Yn &+glays here, awaiting here next &+ymate&+g.
+~
+   &+GThis fem&+Yale trog&+Glodyte, a rare&+Y specim&+Gen in&+Y itse&+Glf,
+&+Glays here breedi&+Yng with any a&+Gnd all male trog&+Ylodytes
+&+Gthat she ca&+Yn.  It is&+G not unco&+Ymmon for fem&+Gales to be
+&+Gin&+Ytegrated &+Ginto the ma&+Yle-domin&+Gated troglodyte s&+Yocie-
+&+Gties; but&+Y it is comm&+Gon for the males to fight&+Y one
+&+Ganother for an op&+Yportun&+Gity at breedi&+Yng.  This &+Gtrog
+&+Gis noti&+Ycably sma&+Gller than th&+Ye males of &+Gher species,
+&+Gand bares muc&+Yh bri&+Gghter colors.
+~
+2058 0 0 24 0 0 0 -800 S
+h 0 1 -1
+47 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 9 2
+#83468
+lean trog troglodyte fanatical fanatic~
+&+La lean &+Gtr&+go&+Ggl&+go&+Gdy&+gt&+Ge &+rf&+Ra&+rn&+Ra&+rt&+Ri&+rc&N~
+&+LA lean &+Gtr&+go&+Ggl&+go&+Gdy&+gt&+Ge &+Lthrashes about, a &+rf&+Ra&+rn&+Ra&+rt&+Ri&+rc&+Ra&+rl &+Llook in his eyes.
+~
+   &+GThis slime-drenched &+Gtr&+gog&+Glo&+gdy&+Gte dwells here deep within the
+&+Gslime-pool of the &+gtr&+Gog&+glo&+Gdy&+gte&+G tunnels of Shanatar.  His teeth are
+&+Gstained yellow and his entire body is covered with blisterous
+&+Gsores and cantankerous warts.  He seems to be uninterested in
+&+Gthe hardships he faces with this subterranean life, however,
+&+Gwrithing and thrashing in the slime pit in an orgasmic trance,
+&+Gseemingly brought upon by the ancient &+baboleth&+G inhabiting this
+&+Gdreadful place.s
+~
+1140983816 1 0 134217752 0 0 0 -1000 S
+h 0 1048641 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83469
+crazy young troglodyte trog _spec1_~
+&+ga crazy young &+Gtrog&N~
+&+gA crazy young &+Gtrog &+gwades here, mouth &+Wfuming&+g.
+~
+   &+GThis slime-drenched &+Gtr&+gog&+Glo&+gdy&+Gte dwells here deep within the
+&+Gslime-pool of the &+gtr&+Gog&+glo&+Gdy&+gte&+G tunnels of Shanatar.  His teeth are
+&+Gstained yellow and his entire body is covered with blisterous
+&+Gsores and cantankerous warts.  He seems to be uninterested in
+&+Gthe hardships he faces with this subterranean life, however,
+&+Gwrithing and thrashing in the slime pit in an orgasmic trance,
+&+Gseemingly brought upon by the ancient &+baboleth&+G inhabiting this
+&+Gdreadful place.s
+~
+1140983816 1 0 134217752 0 0 0 -1000 S
+h 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83470
+exhausted young troglodyte trog~
+&+Lan exhausted young &+gtrog&N~
+&+LAn exhausted young &+gtrog &+Lcurls up, &Nattempting to rest.
+~
+   &+LThis strong, young troglodyte is perhaps in
+&+Lthe makings of being a hunter.  His body is
+&+Ltan and weathered, suggesting that he frequently
+&+Lprowls the unforgiving peaks of the Shanatar
+&+Lmountains.  He is strong and able, yet currently
+&+Ltrying to get some rest after what must have been
+&+La grueling hunt or ambush.
+~
+2186 0 0 0 0 0 0 -700 S
+h 0 1 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+4 4 1
+#83471
+sex-crazed sex crazed trog troglodyte~
+&+La &+ms&+Lex-&+mc&+Lra&+mz&+Led &+Lt&+gr&+Lo&+gg&+Llo&+gd&+Ly&+gt&+Le&N~
+&+LA frenzied, sex-crazed &+gt&+Lro&+gg&+Llo&+gdy&+Lt&+ge &+Leagerly waits to fornicate.
+~
+   &+gThis young, male troglodyte has been excited by the opportunity
+&+gto mate with one of the few troglodyte females.  It currently
+&+gresides here, deep within the Shanatar troglodyte tunnels,
+&+genthusiastically grunting and salivating before sex.
+~
+1073743946 0 0 24 0 0 0 0 S
+h 0 16384 -1
+45 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83472
+troglodyte trog bone chewer bonechewer~
+&+Wa bo&+rn&+We&+rc&+Wh&+rew&+Wer&N~
+&+WA &+Lfilthy &+ytr&+Yo&+ygl&+Yo&+yd&+Yte &+Wbo&+rn&+We&+rch&+We&+rw&+Wer &+ykneels here, &+Wgrinding bones &+ybetween its &+Wteeth&+y.
+~
+   &+yThis large lizard-man looking beast has huge, &+Lblack &+yeyes
+&+yset beneath a huge &+Wbone ridge&+y on its scaled forehead.  A stare
+&+yof &+raggression &+yand &+rcontempt &+ypierces out from its monstrous
+&+yface.  This &+Ytr&+yog&+ylo&+Ydy&+yte is much larger then its cousins,
+&+yperhaps the result of generations upon generations of
+&+yin-breeding, or perhaps some sort of &+motherwordly &+ymutation.
+&+yRegardless, this fearsome scaled &+Rbeast&+y is one to be reckoned.
+~
+1073743882 1 0 24 0 0 0 -1000 S
+h 0 1048576 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83473
+shaman trog beefy troglodyte~
+&+ya beefy &+gt&+yr&+go&+yg&+gl&+yo&+gd&+yy&+gt&+ye &+Cshaman&N~
+&+yA large, beefy &+gtr&+yog&+glo&+ydy&+gte &+Cshaman &+Lsquats here, &+rchanting fanatically.
+~
+   &+yThis tall, beefy troglodyte is much larger than his
+&+ymore common cousins.  His body is covered with strange
+&+ysymbols, mostly brandings.  His yellowed teeth grin from
+&+ybehind his thick lips as he constantly chants, fanatically
+&+yputting hexes, curses, and occasionally blessings upon his
+&+ybrethren.
+~
+2186 0 0 24 0 0 0 -1000 S
+h 0 256 -1
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83474
+young trog troglodyte shaman~
+&+ma young &+gtrog &+mshaman&N~
+&+mA young &+gtrog &+mshaman cowers here, &nmimicing his master's invokations.
+~
+   &+gThis young troglodyte is quite small and lean; clearly
+&+gnot with the matured strength of his older cousins.  He does
+&+ghowever, have another strength in his shamanic spirituality.
+&+gMimicing the gestures, words, and other invokations of his
+&+gmaster, this young trog entrances himself in the shamanistic
+&+grituals.
+~
+1073743946 0 0 24 0 0 0 -1000 S
+h 0 256 -1
+44 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83475
+fat extremely black trog troglodyte~
+&+Lan extremely &+Yfat &+Lblack &+Gt&+gr&+Lo&+gg&+Gl&+Lod&+gy&+Lt&+ge&N~
+&+LAn extremely &+Yfat &+Lblack &+Gt&+gr&+Lo&+gg&+Gl&+Lod&+gy&+Lt&+ge &+Lslowly shambles through the tunnel.
+~
+   &+LThis troglodyte is noticably the fattest one of a
+&+Lnormally-lean race that inhabits these tunnels.  He
+&+Lslowly, but proudly walks through the tunnels, brea-
+&+Lthing at the females and scoffing at the males.  For
+&+Lsome reason this extra-fat troglodyte seems to choose
+&+Lits many mates and is treated like an alpha among the
+&+Ltribe.
+~
+1073743944 0 0 24 0 0 0 -800 S
+h 0 1 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83476
+large green basilisk _spec1_~
+&+ga large &+Lb&+ga&+Ls&+gi&+Ll&+gi&+Ls&+gk&N~
+&+gA large green &+Lb&+ga&+Ls&+gi&+Ll&+gi&+Ls&+gk &+gstands here, &+Lextending its &+Wc&+gl&+Wa&+gw&+Ws&+g.
+~
+   &+gThis large lizard-like creature is covered in
+&+gwide green scales that fade &+Ldarker &+gand &+Ldarker
+&+gas they go closer to its under-side.  Beady black eyes
+&+glook upon the troglodytes with fiendish protection,
+&+gsummoned here by the power of the troglodyte shaman.
+~
+1074268168 0 0 24 0 0 0 0 S
+r 0 1 4
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83477
+grim black trog troglodyte henchman~
+&+La black &+Yt&+yr&+Yo&+yg&+Yl&+yo&+Yd&+yyt&+Ye &+Lhenchman&N~
+&+LA grim, black &+ytr&+Yo&+ygl&+Yo&+ydy&+Yt&+ye &+Lhenchman &Nlumbers through the tunnels.
+~
+   Strong and muscular, yet lithe and lean, this wirey troglodyte
+prowls through the mountain rock of Shanatar eyeing the females
+of the species, the meat captured by its cousins, and avoiding
+the more ferocious of his kind.  Always wandering and looking
+for opportunities to increase its survival, or prestige among
+the tribe, this scaled primative beast scavenges its domain.
+~
+1073743944 1 0 0 0 0 0 -1000 S
+h 0 16385 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83478
+angry trog troglodyte guard~
+&Nan angry &+gtr&+Gog&+glo&+Gdy&+gte &+Lguard&N~
+&NAn angry &+gtr&+Gog&+glo&+Gdy&+gte &+Lguard &Nstands here, &+Leyeing the tunnels.
+~
+   &+gThis tall, green troglodyte is covered from head-to-toe
+&+gin bits of filth; slime, dirt, dried blood.  He stands here,
+&+grestlessly guarding the tunnels from intruders.  He wields a
+&+glong &+Wbone &+Bspear&+g but does not particularly seem to enjoy
+&+ghis position.
+~
+1140852810 1 0 24 0 0 0 -850 S
+h 0 1 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83479
+muscular trog troglodyte blood monger bloodmonger~
+&+ya muscular t&+Gr&+yo&+Gg&+yl&+Go&+yd&+Gy&+yt&+Ge &+rblood&+Rmonger&N~
+&+yA muscular t&+Gr&+yo&+Gg&+yl&+Go&+yd&+Gy&+yt&+Ge &+rblood&+Rmonger &+yseeks the thrill of his next &+rkill&+y.
+~
+   &+yThis tough, muscle-bound troglodyte has random blood
+&+ysplattered dried onto his greenish-brown hide.  Perhaps
+&+yblood from the dwarves inhabiting the civilized portions
+&+yof these mountains, it is also likely that much of it is
+&+yfrom his own race as well.  A keen look of hatred and
+&+ybloodlust fills the eyes of this supremely-violent trog.
+~
+1140852810 1 0 24 0 0 0 -1000 S
+h 0 1048576 -1
+54 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83480
+small young trog~
+&+ga small t&+Gr&+go&+Gg&N~
+&+gA small, youthful t&+Gr&+go&+Gg &+gcautiously prowls here&+L, wary of his elders.
+~
+   &+gThis young troglodyte wanders through the tunnels with
+&+ga strong caution about everything surrounding him.  It is
+&+gnot uncommon for the troglodyte elders to get particularly
+&+gabusive towards the young living in the tunnels, and this
+&+gimmature troglodyte appears to have been taught one or two
+&+glessons.
+~
+2188 0 0 24 0 0 0 -750 S
+h 0 16384 2
+41 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83481
+huge beastly trog troglodyte bone chewer bonechewer~
+&+Wa HUGE &+Rb&+We&+Ra&+Ws&+Rt&+Wl&+Ry &+Wb&+ro&+Wn&+re&+Wch&+re&+Ww&+re&+Wr&N~
+&+WA HUGE &+Rb&+We&+Ra&+Ws&+Rt&+Wl&+Ry &+Wtr&+Yo&+Wgl&+Yo&+Wd&+Yy&+Wt&+Ye &+Wbo&+rn&+We&+rch&+Wew&+re&+Wr&N hulks here, taking large &+Lsteamy &Nbreaths&N.
+~
+   &+WThis massive white troglodyte is of greatly abnormal size.
+&+WIt has pale-white skin and huge red eyes to match its monstrous
+&+Wbody.  At least two times bigger than a normal common troglodyte,
+&+Wthis beast towers over its cousins in comparison.  It stands with
+&+Wa large hunchback, leaning over to duck under the lower parts of
+&+Wof the tunnel ceilings as well as sharp stalagmites.
+~
+1073743944 1 0 24 0 262144 0 -1000 S
+h 0 1048576 5
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83482
+troglodyte trog excited hunter~
+&+ya t&+gr&+yo&+gg&+yl&+Yo&+gd&+Yy&+gt&+Ye &+rhunter&N~
+&+yAn excited &+gt&+Gr&+go&+Gg&+yl&+Yo&+yd&+Yy&+yt&+Ye &+rhunter &+msniffs around the cave.
+~
+   &+yThis muscular, mature troglodyte has several wounds across
+&+yits strong body which it currently favors while moving about
+&+ywithin these tunnels beneath Shanatar.  It is armored slightly
+&+ymore then the frequently-naked trogs, wearing bits of leather
+&+yarmor; occasionally seen with straps of metal strapped about.
+~
+1073744074 1 0 24 0 0 0 -1000 S
+h 0 16384 -1
+46 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83483
+borik mountain dwarf~
+&+YBorik&N~
+&nAn incapacitated mountain dwarf named &+YBorik &Nlays here, favoring a &+rwound&N.
+~
+   &+YBorik, a mountain dwarf native to the realm of &+WWinterhaven&+Y,
+&+Ywas one of a few &Nnon-sh&+Wie&Nld &+Ydwarves employed by the &+cAlatorin
+&+Ymilitary.  Having come to &+cAlatorin&+Y at a very young age, he
+&+Ygraduated from the &+WHammer&+Yhelm academy and went on to train
+&+Ywith the Royal &+CBright&+cAxe &+Yguard.  It was in the presence of
+&+Ythe king that he would rise to great prosperity, being the
+&+Yonly dwarf of &Nnon-sh&+Wie&Nld&+Y dwarven blood to serve in the royal
+&+Yguard.  Now, however, he has been captured by the &+ytr&+Yo&+yg&+Ylo&+yd&+Yyt&+yes
+&+Yand currently lays within a prison cave stripped of his weapons
+&+Yand armor; wearing only stains of &+rblood&+Y and the &+yfilth&+Y around
+&+Yhim.
+~
+2122 0 0 8 0 0 0 1000 S
+pm 0 1 -1
+55 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83484
+stealthy shield dwarf rogue~
+&+ya &+Lst&+re&+Lal&+rt&+Lhy &+Lsh&nie&+Lld &+ydwarf &+mrogue&N~
+&+LLurking in the shadows, a &+rs&+Lte&+ra&+Llt&+rh&+Ly sh&Nie&+Lld &+mdwarf &+Lrogue creeps through here.
+~
+   &+LThis shield dwarf is dressed in all black, moving about
+&+Lthese tunnels undetected with great stealth.  He appears to
+&+Lbe very confident in his movements; maneuvering with a
+&+Lplanned precision.  His face is concealed by a tight black
+&+Lmask from which he pears out of a thin slit in the material.
+&+LHe is very agile and able, and does not really seem like one
+&+Lfor conversation.  Perhaps his motives surround riches and
+&+Lfortune, or perhaps just his carnal instincts for blood.
+~
+1073744074 0 0 1572888 0 0 0 0 S
+pm 0 8192 -1
+50 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83485
+troglodyte trog brawny sentinel~
+&+ga &+ybrawny&+g t&+yr&+go&+yg&+gl&+yo&+gd&+yy&+gt&+ye &+gsentinel&N~
+&+gA tall, &+ybrawny &+gt&+yr&+go&+yg&+gl&+yo&+gd&+yy&+gt&+ye &+gsentinel stands here, eyeing any who approach the staircase.
+~
+&+y   This large, slimy green troglodyte is well-muscled and is
+&+yan obvious choice for his position - guard of the bone stair-
+&+ycase.  He has a devious look in his black eyes, and carries a
+&+ybone spear in his scaly claws.
+~
+67110922 1 0 24 0 0 0 -600 S
+h 0 1 -1
+51 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 0
+#83486
+kereghaktis kereg trog troglodyte mutant king~
+&+YK&+Ger&+ge&+Gg&+ghak&+Gt&+gis&N~
+&+YK&+Ger&+ge&+Gg&+ghak&+Gt&+gis&+L, the &+mm&+gu&+gt&+ma&+gn&+mt &+Yking &+Lof the &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+ys &+Lstands here, sneering in &+rcontempt&+L.
+~
+   &+gThis massive troglodyte stands easily three-times the size
+&+gof his subordinates.  His right arm is extraordinarily muscu-
+&+glar and his head bares two massive horns - the most identify-
+&+gable mutations of this troglodyte.  Whether he is cursed, de-
+&+gformed by a strange magic, or naturally this way is a mystery
+&+gand a common source of argument amongst his people and those
+&+gadventurers unfortunate enough to cross paths with him.
+&+gKereghaktis is utterly covered in slabs of muscle; many of
+&+gwhich have been deeply scarred from years and years of battle
+&+gand combat.  He has huge yellow and green teeth and awfully-
+&+grank halitosis.
+~
+1092619338 1 0 956301336 276672 0 0 -1000 S
+x 0 131137 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83487
+margon gortat'nyk gortat nyk minotaur~
+&+mMargon Gortat'Nyk&N~
+&+LA giant mino&+rtaur &+Lknown as &+mMargon Gortat'Nyk &+Lsits here, licking his &+ml&+ri&+mp&+rs&+L.
+~
+   &+mMargon Gortat'Nyk, &+Lwhose last name literally translates to
+&+L'Big Horn' &+Lis an utterly massive mino&+rtaur&+L, known for his
+&+Lcarefree lust for the rare troglodyte females, which are nearly
+&+Lhalf his size.  &+mMargon Gortat'Nyk &+Lhas a long black beard
+&+Lthat sits upon his massive, furry black chest.  His huge, shiny
+&+Lblack horns jut out and upward just a bit, ending in polished
+&+Lsharp tips.  &+mMargon Gortat'Nyk's &+Labormal size for a mino&+rtaur
+&+Lhave caused him to be feared and loathed by his own people.  He
+&+Lstill seems to enjoy the finer things in life, regardless of what
+&+Lvile creatures he might enjoy them with.
+~
+1140852938 0 0 24 0 0 0 -800 S
+mt 0 16385 6
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 5 1
+#83488
+basillion drow hunter~
+&+WBasillion&+m the drow &+Mw&+mo&+Mr&+mm &+rhunter&N~
+&+LA cloaked &+mdrow &+Lnamed &+WBasillion &+mcreeps through the shadows, hunting &+mpurple &+Mw&+mo&+Mr&+mm&+Ms&+L.
+~
+   &+WBasillion is rather tall for a drow elf, standing nearly six
+&+Wfeet in height.  He has a lean, yet muscular build.  At least a
+&+Wfew hundred years old, the background behind this drow is quite
+&+Wa mystery, as he is not known for any affiliation with any of
+&+Wthe houses of Arachdrathos, nor does he wear any of their colors.
+~
+1090521160 0 0 939524120 14528 0 0 -1000 S
+pl 0 2097152 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83489
+silmaeth devil price~
+&+RS&+mi&+Rl&+mm&+Ra&+me&+Rt&+mh&+L, &+rDevil &+RPrince &+Lof &+rKashtrakis&N~
+&+LA towering &+rd&+Re&+rv&+Ri&+rl &+Lhulks here, staring at you with eyes of darkness.
+~
+&+r                                              &+R,&+r--,  &+R,.&+r-.
+&+r                &+L,                   &+L\,&+r       &+R'-&+r,-`,&+R'-&+r.' | &+R._&+r
+&+r               &+L/|&+r           \    ,   &+L|\&+r         }  )/  / &+R`-&+r,',
+&+r               &+L[ '&+r          |\  /|   &+L| |&+r        /  \|  |/`  ,`
+&+r               &+L| |&+r       ,.`  `,` `, &+L| |&+r  _,...(   (      &+R_',
+&+r   &+l-ART BY-&+r    &+L\  \&+r  __ ,-` `  ,  , `&+L/ |&+r,'      Y     (   &+R\_&+rL\
+&+r    &+l-ZEUS-&+r      &+L\  \&+r_\,``,   ` , ,  &+L/  |&+r         )         _,/
+&+r                 &+L\  '&+r  `  ,_ _`_,-,&+L<._.&+r<        /         /
+&+r                  &+L', `>&+r.,`  `  `   ,., |_      |         /
+&+r                    &+L\/&+r`  `,   `   ,`  | /&+R__&+r,.-`    _,   `\
+&+r                -,-..\  _  \  `  /  ,  / &+R`._&+r) _,-\`       \
+&+r                 \_,,.) /\    ` /  / ) (-,, ``    ,        |
+&+r                ,` )  | \&+b*&+r\       '&+b*&+r`  |  `(               \
+&+r               /  /```(   , --, ,' \   |`<`    ,            |
+&+r              /  /_,--`\   &+L<\&+r  V &+L/>&+r ,` )<_/)  | \      _____)
+&+r        ,-, ,`   `   (_,\ \    |   /) / __/  /   `----`
+&+r       (&+R-&+r, \           ) \ ('_.-._)/ /,`    /
+&+r       &+R| /&+r  `          `/ \\ &+RV   V&+r, /`     /
+&+r    ,--&+R\(&+r        ,     <_/`\\     ||      /
+&+r   (   ,``-     \/|         \-&+RA&+r.&+RA&+r-`|     /
+&+r  ,>,_ )_,..(    )\          -,,_-`  _--`
+&+r (_ &+R\|&+r`   &+R_&+r,/_  /  \_            ,--`
+&+r  &+R\( `&+r   &+R<.&+r,../`     `-.._   _,-`   `
+       		          &+r```
+
+   &+LStanding nearly fifteen feet in height, this &+Rred&+r devil&+L looks like
+&+La well-muscled &+rfire &+Lgiant, with a thick leathery hide wrapped around
+&+La shell of muscle.  His skin is &+rblood-red&+L, with the exception of the
+&+Lpools of bl&+ba&+Lck&+bn&+Le&+bs&+Ls hanging in front of his hateful eyes.  His hairless
+&+Lhead reveals several black spike-like &+yh&+Lo&+yr&+Ln&+ys&+L on his elongated skull.
+&+LHis &+Rc&+Yl&+Ra&+Yw&+Re&+Yd&+L hands are long and powerful; the entwined muscles ready to
+&+Ldismember limbs from a man with the mere flick of his wrist.
+~
+1158707338 1 0 939524120 12480 0 33554432 -1000 S
+y 0 272 -1
+60 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83490
+chained cockatrice _spec1_~
+&+La &+cc&+Ch&+ca&+Ci&+cn&+Ce&+cd &+rcoc&+Ykatr&+rice&N~
+&+LA &+rcoc&+Ykatr&+rice &+Lstands here, &+cc&+Ch&+ca&+Ci&+cn&+Ce&+cd &+Lto a &+yboulder&+L.
+~
+   &+rThis cockatrice, native to the Shanatar mountains, has been
+&+rcaptured by the troglodytes and chained to a boulder in the
+&+rking's chamber.  Perhaps being treated like some sort of pet,
+&+rthis vicious mountain bird is still just as deadly as it would
+&+rbe in flight.
+~
+3082 1 0 24 0 0 0 -600 S
+dk 0 1 2
+56 0 0 1d1+1 1d1+1
+0.0.0.0 0
+8 8 1
+#83491
+trog beast troglodyte handler _spec1_~
+&+ga trog beast handler&N~
+&+gA trog beast handler yanks on the &+cchain &+gnear the cockatrice.
+~
+   &+gThis young troglodyte has earned himself the esteemed
+&+g'priviledge' of containing the beasts that Kereghaktis
+&+gamuses himself with in his personal throne room.  The
+&+gyouthfulness of this troglodyte may suggest that he
+&+gposesses some sort of qualities that the king sees in
+&+ghim, or perhaps that the position of beast handler is
+&+gin constant rotation amongst the troglodytes.
+~
+67111114 1 0 24 0 0 0 -800 S
+h 0 1 -1
+51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1

@@ -836,9 +836,10 @@ S
 ~
 831 0 14
 D1
+&+LThe stone wall to the east seems uneasy.
 ~
-~
-0 0 83146
+wall~
+6 0 83146
 D3
 ~
 ~
@@ -999,9 +1000,10 @@ D2
 door~
 1 0 83148
 D3
+&+LThe wall to the west slides open to the siege hall.
 ~
-~
-0 0 83138
+wall~
+1 0 83138
 S
 #83147
 &+LA &+WPlate&+L and &+WShield &+LStorage Hold~
@@ -5729,6 +5731,11 @@ S
 &+Rlikely another piece of stolen furnishings, common throughout.
 ~
 831 33554432 15
+D0
+&+L   A &+ywooden &+Ldoor leads to an old storage chamber.
+~
+door~
+2 0 83941
 D1
 ~
 ~
@@ -7585,7 +7592,7 @@ S
 D0
 ~
 ~
-3 0 83472
+0 0 83472
 D2
 ~
 ~
@@ -7738,7 +7745,7 @@ D1
 D2
 ~
 ~
-3 0 83465
+8 0 83465
 S
 #83473
 &+LA Deep Clearing Before the Western &N&+cCage&N~
@@ -8286,7 +8293,7 @@ S
 &+Lthe lava flow from the inception of &N&+cAlatorin&+L.  The ground here is
 &+Lcarpeted with a thick, black carpet.
 ~
-831 1073741825 14
+831 1 14
 D0
 ~
 ~
@@ -8304,7 +8311,7 @@ S
 &+Lthe lava flow from the inception of &N&+cAlatorin&+L.  The ground here is
 &+Lcarpeted with a thick, black carpet.
 ~
-831 1073741825 14
+831 1 14
 D0
 &+CTo the north there is a huge shimmering &N&+ccrystal &+Cdoor with a large &+Mglowing &+Lkeyhole&+C, above which a large &+Ysign &+Cdemands attention.
 &+CThis door leads to the honored sanction of the king of Alatorin himself.
@@ -8329,7 +8336,7 @@ S
 &+Lthe lava flow from the inception of &N&+cAlatorin&+L.  The ground here is
 &+Lcarpeted with a thick, black carpet.
 ~
-831 1073741825 14
+831 1 14
 D0
 ~
 ~
@@ -8347,7 +8354,7 @@ S
 &+Lthe lava flow from the inception of &N&+cAlatorin&+L.  The ground here is
 &+Lcarpeted with a thick, black carpet.
 ~
-831 1073741825 14
+831 1 14
 D0
 ~
 ~
@@ -8369,7 +8376,7 @@ S
 &+Lthe lava flow from the inception of &N&+cAlatorin&+L.  The ground here is
 &+Lcarpeted with a thick, black carpet.
 ~
-831 1073741825 14
+831 1 14
 D0
 ~
 ~
@@ -8827,6 +8834,30 @@ S
 &+LS&+Ypecia&+Ll &+GMobs &+Lo&+Yf Alatori&+Ln&N~
 ~
 831 0 14
+D0
+~
+~
+0 0 83154
+D1
+~
+~
+0 0 83137
+D2
+~
+~
+0 0 83175
+D3
+~
+~
+0 0 83191
+D8
+~
+~
+0 0 83503
+D9
+~
+~
+0 0 83238
 S
 #83526
 &+LA &+WSecond Floor &+LHallway~
@@ -8847,11 +8878,11 @@ D2
 S
 #83527
 &+WThe &n&+cHammer &+Land &+WShield &N&+cReception &+LRoom~
-   &+WTwo huge stone pillars stretch down along either side of a massive counter, behind
-&+Wwhich a small, cute gnome receptionist sits.  There are identical white wood doors
-&+Won hallways facing either side, while the hallway leading back to the lounge and the
-&+Wstairs to the tavern sit the north.  The floor is made of carved blocked stone,
-&+Was are the ceiling and pillars.  Huge tapestries of the great Taark Shanat defeating
+   &+WTwo huge stone pillars stretch down along either &+bs&+Wide of a m&+ba&+Wssive counter, behi&+bn&+Wd
+&+Wwhich a &+bs&+Wm&+ba&+Wll, cute g&+bn&+Wome receptionist sits.  There are identical white wood doors
+&+Won hallways facing either &+bs&+Wide, while the hallway le&+ba&+Wding back to the lou&+bn&+Wge and the
+&+bs&+Wt&+ba&+Wirs to the taver&+bn&+W sit the north.  The floor is made of carved blocked stone,
+&+Was are the ceiling and pillars.  Huge tapestrie&+bs&+W of the gre&+ba&+Wt Taark Sha&+bn&+Wat defeating
 &+Wthe blue dragon &N&+mRringlor Moroth&+W cover the walls.
 ~
 831 524288 14
@@ -9681,6 +9712,10 @@ S
 &+Ccases&+L, with a central dias set in the middle of the &+Chall&+L.
 ~
 831 134250496 14
+D0
+~
+~
+0 0 83945
 D2
 ~
 ~
@@ -11720,7 +11755,7 @@ S
 &+Lcan only be traversed in a single-file formation through this long, dark
 &+Lsubterennean shaft.
 ~
-831 134250500 0
+831 134250496 0
 D0
 ~
 ~
@@ -11737,7 +11772,7 @@ S
 &+Lcan only be traversed in a single-file formation through this long, dark
 &+Lsubterranean shaft.
 ~
-831 134250496 0
+831 134250500 0
 D4
 ~
 ~
@@ -14976,10 +15011,9 @@ D4
 ~
 0 0 121994
 D5
-&+yA gate with an 'Under Construction' sign is posted below.
 ~
-gate~
-3 0 83833
+~
+0 0 83833
 S
 #83833
 &+yA Rocky Tunnel Opening&N~
@@ -14997,7 +15031,7 @@ D2
 D4
 ~
 ~
-3 0 83832
+0 0 83832
 S
 #83834
 &+yA Fetid Tunnel Covered With &N&+mM&+yu&+ms&+yh&+mr&+yo&+mo&+ym&+ms &+yand &+yF&+Mu&N&+yn&+Mg&N&+yu&+Ms&N~
@@ -15030,6 +15064,10 @@ D0
 ~
 ~
 0 0 83834
+D1
+~
+~
+0 0 83944
 D3
 ~
 ~
@@ -15054,12 +15092,14 @@ D3
 0 0 83837
 S
 #83837
-&+yA Fetid Tunnel Covered With &N&+mM&+yu&+ms&+yh&+mr&+yo&+mo&+ym&+ms &+yand &+yF&+Mu&N&+yn&+Mg&N&+yu&+Ms&N~
+&+yA Turn in a Tunnel Covered With &N&+mM&+yu&+ms&+yh&+mr&+yo&+mo&+ym&+ms &+yand &+yF&+Mu&N&+yn&+Mg&N&+yu&+Ms&N~
 &+y  This long jagged tunnel twists deep beneath Shanatar.
 &+yA fungus &+ygrowing across the cavern walls, ceiling, and
 &+yfloor releases a  pungent stench.  Spores release noxious
 &+ygas which eventually settles, penetrating the senses.  A
 &+yterrible smell fills the cavern air.
+   &+LThe western wall of this portion of the fetid tunnel
+&+Lis made up of piled rocks - the result of a large cave-in.
 ~
 831 33587200 13
 D1
@@ -15070,6 +15110,12 @@ D2
 ~
 ~
 0 0 83838
+D3
+&+LSeveral large &+yrocks &+Lare piled up on the western side of the tunnel;
+&+Lthe result of a recent &+ycave-in&+L.
+~
+rocks~
+5 0 83963
 S
 #83838
 &n&+yA Junction of Tunnels Around a &+mF&+ge&+mc&+gu&+ml&+ge&+mn&+gt &+YPit&N~
@@ -15112,6 +15158,10 @@ D1
 ~
 ~
 0 0 83838
+D2
+~
+~
+0 0 83955
 D3
 ~
 ~
@@ -15127,10 +15177,19 @@ S
 &+Ltunnel curls sporadically through the deep inner rock of Shanatar.
 ~
 831 33587200 13
+D0
+&+LA large &Ncr&+La&Nck &+Lis on the the unstable northern tunnel wall.
+~
+crack~
+5 0 83966
 D1
 ~
 ~
 0 0 83843
+D2
+~
+~
+0 0 83958
 D3
 ~
 ~
@@ -15234,6 +15293,10 @@ D0
 ~
 ~
 0 0 83844
+D2
+~
+~
+0 0 83956
 D3
 ~
 ~
@@ -15249,6 +15312,11 @@ S
 &+Ltunnel curls sporadically through the deep inner rock of Shanatar.
 ~
 831 33587200 13
+D0
+&+LA large cr&na&+Lck can be seen on the northern tunnel wall.
+~
+crack~
+5 0 83965
 D1
 ~
 ~
@@ -15318,6 +15386,10 @@ D1
 ~
 ~
 0 0 83850
+D3
+~
+~
+0 0 83954
 S
 #83850
 &+LA Filthy, &N&+yRank Tunnel~
@@ -15371,6 +15443,11 @@ S
 &+Ltunnel curls sporadically through the deep inner rock of Shanatar.
 ~
 831 33587200 13
+D0
+&+LThe rocky cavern wall north of here seems to be quite unstable.
+~
+rocky wall~
+5 0 83990
 D1
 ~
 ~
@@ -15381,7 +15458,7 @@ D2
 0 0 83851
 S
 #83853
-&+LA Tunnel Before a &+WSkull-Lined Staircase&N~
+&+LA &+yMuddy &+LTunnel &+LIn&+cter&+Lsec&+cti&+Lon&N~
    &+LThis long, twisting tunnel violates nearly all of the senses.
 &+LA terrible &N&+yrank smell&+L wafts through the dark cavern air.
 &+LAn echoing mix of roars, grunts, and screams barrels through the
@@ -15417,32 +15494,38 @@ D0
 ~
 0 0 83838
 D5
+   &+LThe rocks below are covered in slime, leading to a slippery slope.
 ~
-~
-0 0 83855
+rocks~
+5 0 83855
 S
 #83855
 &+LA &N&+ySli&+Gpp&N&+yery &N&+gSlope&N~
    &+LThe jagged rocks on the slides of this slippery sluice
 &+Lcradle the slide, which has weakened into a smoothened
 &+Lstate after endless erosion by the feculence filling the
-&+Lpool.  Chunks of flesh, &N&+yshit&+L, and &+Wbones&+L cling
+&+Lpool.  Chunks of flesh, &N&+yshit&+L, and &+Wbones&+L tangled with &Nhair&N &+Lcling
 &+Lto the edges of the slope.  The narrow, jagged ceiling sits
 &+Ltight above the slide.
 ~
 831 33587200 13
 D4
+   &+LThe rocks up are climable, leading back to the top of the slime pit.
+~
+rocks~
+5 0 83854
+D5
 ~
 ~
-0 0 83854
+0 0 83925
 F
 100
 S
 #83856
-&+LAtop a &+WSkull-Lined Staircase&N~
+&+LOn a &+WSkull-Lined Staircase&N~
    &+LThese crude stone stairs are actually just massive rocks
 &+Lthat have been arranged into place to provide a stepping
-&+Lground into the deep inner depths of the &N&+ytrog&+Llo&N&+ydyte
+&+Lground into the deep inner depths of the great &N&+ytrog&+Llo&N&+ydyte
 &+Llair.  Along the massive rocky cavern walls there have been
 &+Lvarious humanoid &+Wskulls &+Lmounted on pikes ever so often,
 &+Lwhich one can consider a sign of royal decoration when considering
@@ -15456,13 +15539,13 @@ D2
 D5
 ~
 ~
-0 0 83857
+0 0 83924
 S
 #83857
 &+LBottom of a &+WSkull-Lined Staircase&N~
    &+LThese crude stone stairs are actually just massive rocks
 &+Lthat have been arranged into place to provide a stepping
-&+Lground into the deep inner depths of the &N&+ytrog&+Llo&N&+ydyte
+&+Lground into the deep inner depths of the great &N&+ytrog&+Llo&N&+ydyte
 &+Llair.  Along the massive rocky cavern walls there have been
 &+Lvarious humanoid &+Wskulls &+Lmounted on pikes ever so often,
 &+Lwhich one can consider a sign of royal decoration when considering
@@ -15473,10 +15556,15 @@ D0
 ~
 ~
 0 0 83864
+D3
+&+LThe rocky wall to the west of here seems to be quite unstable.
+~
+rocky wall~
+5 0 83992
 D4
 ~
 ~
-0 0 83856
+0 0 83924
 S
 #83858
 &N&+mA Vile Sleeping and Eating Cavern&N~
@@ -15566,7 +15654,7 @@ D8
 0 0 123314
 S
 #83864
-&+LA Short &N&+bTunnel~
+&+LA Short, Dark Hallway in the &+yRock&N~
    &+LThis short, dark hallway deep within the stone of the Shanatar
 &+Lmountains leads beneath the troglodyte caverns into its leaders
 &+Llair.  A second tunnel branching off to the east leads lairs of
@@ -15574,7 +15662,7 @@ S
 &+Lon the far ajoining wall.  The rocky tunnel floor is filthy, wet
 &+Land covered with &N&+mfungus.
 ~
-831 33587200 13
+831 33587456 13
 D0
 ~
 ~
@@ -15585,7 +15673,7 @@ D2
 0 0 83857
 S
 #83865
-&+LThe Tunnel &N&+mSplits&N~
+&+LA &+mSplit&+L in the Tunnel&N~
    &+LThis short, dark hallway deep within the stone of the Shanatar
 &+Lmountains leads beneath the troglodyte caverns into its leaders
 &+Llair.  A second tunnel branching off to the east leads lairs of
@@ -15593,7 +15681,7 @@ S
 &+Lon the far ajoining wall.  The rocky tunnel floor is filthy, wet
 &+Land covered with &N&+mfungus.
 ~
-831 33587200 13
+831 33587456 13
 D1
 ~
 ~
@@ -15614,11 +15702,15 @@ S
 &+Lcavernous mass is the result of the lands shifting; mountains
 &+Lpushing up against each other and others seperating.
 ~
-831 33587200 13
+831 33587456 13
 D1
 ~
 ~
 0 0 83865
+D2
+~
+~
+0 0 83922
 D3
 ~
 ~
@@ -15631,29 +15723,34 @@ S
 &+Lcavernous mass is the result of the lands shifting; mountains
 &+Lpushing up against each other and others seperating.
 ~
-831 33587200 13
+831 33587456 13
 D0
 ~
 ~
 0 0 83873
+D2
+~
+~
+0 0 83921
 D3
 ~
 ~
 0 0 83865
 S
 #83868
-&+LBefore the &n&+rLeader's Lair~
-   &+LA huge iron gate has been fastened onto the this natural
+&+LBefore a &+rCavernous Lair&N~
+   &+LA huge &+ciron&+L gate has been fastened onto the this natural
 &+Ltunnel, blocking off the portion just ahead to those of only
 &+Lpriviledged access.  Quite a marvel in troglodyte craftsmanship
 &+Lcauses one to wonder whether this was created by the trogs
 &+Lthemselves oer perhaps by some of their more advanced slaves.
 ~
-831 33587200 13
+831 33587456 13
 D0
+&+LA large &+ciron &+Lgate has been crudely fashioned into the cave entrance.
 ~
-~
-0 0 83869
+iron gate gates~
+3 0 83869
 D1
 ~
 ~
@@ -15663,9 +15760,9 @@ S
 &+rThe Cavernous Lair of the Troglodyte Leader&N~
    &+LThis massive lair opens from a depressed cavern, opening
 &+Lat a gradual descent into the vast domain - claimed by the
-&+Lleader of these &N&+rtroglodytes&+L.  There are strange
-&N&+ytotems&+L and &+Yidols&+L located on random locations
-&+Lthroughout this lair, suggesting that this tribe of
+&+Lleader of these &N&+rtroglodytes&+L.  There are is a strange array
+&+Lof &N&+ytotems&+L, &+Wskulls&+L, and &+Yidols&+L located on random locations
+&+Lthroughout this lair, suggesting that this brutish tribe of
 &+Ltroglodyte has taken into some form of religious or ritual-
 &+Listic practice.
 ~
@@ -15679,9 +15776,10 @@ D1
 ~
 0 0 83871
 D2
+&+LA large &+ciron gate &+Lhas been curdely fashioned into the cave entrance.
 ~
-~
-0 0 83868
+iron gate gates~
+2 0 83868
 S
 #83870
 &+LThe &N&+WBone &+YThrone &+Lof &+YKe&+Gre&+gghaktis&N~
@@ -15691,12 +15789,20 @@ S
 &+Lcrucifiction.  The throne at the northern end of this massive cavern
 &+Lhas been made of an array of bones, bound together into a massive
 &+Larmed chair.
+   &+LJust before the northern recess of this cavern, a huge crack sutures
+&+Lthe cavern into two halves, seperated by a deep chasm from which a foul
+&+Ggreen slime flows.  Deep below this bubbling, viscid fluid seems to
+&+Goriginate much further beneath the throne of the troglodyte king itself.
 ~
 831 33587200 13
 D2
 ~
 ~
 0 0 83869
+D5
+~
+~
+0 0 83957
 S
 #83871
 &NBefore a Small &+LGated Cell&N~
@@ -15719,10 +15825,13 @@ D3
 S
 #83872
 &+LA Filthy, &N&+yRank &+LPrison Cave~
-   &+LA river of &N&+yshit&+L and watery &N&+mrefuge &+Lflows through this
+   &+LA river of &N&+yshit&+L and watery &N&+mrefuse &+Lflows all the way through this
 &+Lcave via a huge crack running through the center of the cavern floor.
-&+LThis crude drainage system makes this, among the rest of the exposed=
-&+Lcaves and tunnels, makes the entire den quite a disgusting place.
+&+LThis crude drainage system makes this, among the rest of the exposed
+&+Lcaves and tunnels, makes the entire den quite a disgusting place.  A
+&+Lfew crude &+ciron&+L shackles hang, posted deeply into the rocky cavern
+&+Lwalls.  A large iron gate sits to the south, also of crude design -
+&+Lalthough sturdy and heavy enough to keep the prisoners contained.
 ~
 831 33587200 13
 D2
@@ -15737,15 +15846,16 @@ S
 &+Lcult-like within the inner circle of the ritualistic religion
 &+Lcarried by their species.
 ~
-831 33587200 13
+831 33587456 13
 D2
 ~
 ~
 0 0 83867
 D5
+&+LThis rocky hole leads down to a strange tunnel junction.
 ~
-~
-0 0 83874
+rocks~
+5 0 83874
 S
 #83874
 &+LA Junction of &+WWhite &+LHand &+WP&+Lr&+Wi&+Ln&+Wt&+L-Covered &+WTunn&+Lels&N~
@@ -15754,7 +15864,7 @@ S
 &+Lcult-like within the inner circle of the ritualistic religion
 &+Lcarried by their species.
 ~
-831 33587200 13
+831 33587456 13
 D0
 ~
 ~
@@ -15768,13 +15878,22 @@ D2
 ~
 0 0 83875
 D3
+&+WA human skeleton has been &+ylashed &+Lto the cavern wall
+&+Lbefore the western tunnel entrance.  This dark tunnel is
+&+Lfilled with a &+mdark mist &+Lthat makes everything very
+&+Ldifficult to see.
 ~
 ~
 0 0 83878
 D4
+&+LThis rocky hole leads up to the troglodyte tunnels.
+~
+rocks~
+5 0 83873
+D5
 ~
 ~
-0 0 83873
+8 0 83923
 S
 #83875
 &+LA Da&+Wrk Tu&+Lnnel Cov&+Wered&+L with W&+Whit&+Le Han&+Wd Pri&+Lnts&N~
@@ -15783,7 +15902,7 @@ S
 &+Lcult-like within the inner circle of the ritualistic religion
 &+Lcarried by their species.
 ~
-831 33587200 13
+831 33587456 13
 D0
 ~
 ~
@@ -15798,9 +15917,11 @@ S
    &+LThis dark cavern is full of &+Wwhite handprints&+L, covering the
 &+Lcavern walls and floors.  This chaotic, distrubing obsession is
 &+Lcult-like within the inner circle of the ritualistic religion
-&+Lcarried by their species.
+&+Lcarried by their species.  On the eastern wall of this cavern there
+&+Lare dozens of &+Wwhite hand prints&+L circling around one another
+&+Lin a pattern around one &+Woddly-fingered &+Lhand at the center.
 ~
-831 33587200 13
+831 33587456 13
 D0
 ~
 ~
@@ -15817,7 +15938,7 @@ S
 &+Lcult-like within the inner circle of the ritualistic religion
 &+Lcarried by their species.
 ~
-831 33587200 13
+831 33587456 13
 D2
 ~
 ~
@@ -15835,7 +15956,7 @@ S
 &+Lwhite hand prints.  This absurd decoration fills these tunnels
 &+Wand the cavern containing this massive heap of gnawed-up bones.
 ~
-831 33587200 13
+831 1107329024 13
 D1
 ~
 ~
@@ -17214,4 +17335,1515 @@ torch torches~
 &+L    \  /
 &+L     \/
 ~
+S
+#83921
+&+gAn Enormous, &+gDank &+mHovel&N~
+&+g   This deep, dank tunnel is filled with soft &+Lblack moss&N&+g
+&+ggrowing upon the ancient mountain &+yrock &+gof &+ySh&+La&+yna&+Lt&+yar&+g.
+&+gSeveral cluttered troglodyte footprints can be seen
+&+gcovering the floor, which exit the cave to the north
+&+gand continue throughout the mountain lair.
+~
+831 33587200 13
+D0
+~
+~
+0 0 83867
+S
+#83922
+&+yA Large Cavern Riddled With &+WBones&N~
+&+g   This deep, dank tunnel is filled with soft &+Lblack moss&N&+g
+&+ggrowing upon the ancient mountain &+yrock &+gof &+ySh&+La&+yna&+Lt&+yar&+g.
+&+gSeveral cluttered troglodyte footprints can be seen
+&+gcovering the floor, which exit the cave to the north
+&+gand continue throughout the mountain lair.
+~
+831 33587200 13
+D0
+~
+~
+0 0 83866
+S
+#83923
+&+WMarg D'ghor Load Room~
+~
+831 1174446208 15
+D4
+~
+~
+8 0 83874
+S
+#83924
+&+LA &+WSkull-Lined Staircase&N~
+   &+LThese crude stone stairs are actually just massive rocks
+&+Lthat have been arranged into place to provide a stepping
+&+Lground into the deep inner depths of the great &N&+ytrog&+Llo&N&+ydyte
+&+Llair.  Along the massive rocky cavern walls there have been
+&+Lvarious humanoid &+Wskulls &+Lmounted on pikes ever so often,
+&+Lwhich one can consider a sign of royal decoration when considering
+&+Lthe minds that have occupied this place.
+~
+831 33595392 13
+D4
+~
+~
+0 0 83856
+D5
+~
+~
+0 0 83857
+S
+#83925
+&+LA &N&+ySli&+Gpp&N&+yery &N&+gSlope&N~
+   &+LThe jagged rocks on the slides of this slippery sluice
+&+Lcradle the slide, which has weakened into a smoothened
+&+Lstate after endless erosion by the feculence filling the
+&+Lpool.  Chunks of flesh, &N&+yshit&+L, and &+Wbones&+L tangled with &Nhair&N &+Lcling
+&+Lto the edges of the slope.  The narrow, jagged ceiling sits
+&+Ltight above the slide.
+~
+831 33587200 13
+D3
+~
+~
+0 0 83927
+D4
+~
+~
+0 0 83855
+D5
+~
+~
+0 0 83926
+F
+100
+S
+#83926
+&+LA &N&+ySli&+Gpp&N&+yery &N&+gSlope&N~
+   &+LThe jagged rocks on the slides of this slippery sluice
+&+Lcradle the slide, which has weakened into a smoothened
+&+Lstate after endless erosion by the feculence filling the
+&+Lpool.  Chunks of flesh, &N&+yshit&+L, and &+Wbones&+L tangled with &Nhair&N &+Lcling
+&+Lto the edges of the slope.  The narrow, jagged ceiling sits
+&+Ltight above the slide.
+~
+831 33587200 13
+D0
+&+L   The rocky wall to the north, beneath a thick layer of &+Gslime&+L, may
+&+Lhave more to it than what one can easily see on the slippery slope.
+~
+secret opening~
+5 0 83985
+D4
+~
+~
+0 0 83925
+D5
+~
+~
+0 0 83933
+F
+100
+S
+#83927
+&+LA &NR&+Lo&Nc&+Lk&ny &+LLedge&N~
+   &+LThis rocky ledge, overlooking the slime sluice to the
+&+Least, leads off into a small, cramped tunnel west of
+&+Lhere through the jagged underbelly of the deep Shanatar
+&+Lmountains.  The ground is muddy and the walls are rich
+&+Lwith strange fungus.
+~
+831 33025 13
+D1
+~
+~
+0 0 83925
+D3
+~
+~
+0 0 83928
+S
+#83928
+&+LAbove a Steep, Unstable &NR&+Lo&Nc&+Lk&Ny Descent&N~
+   This rocky descent looks over a long shaft deep within
+the bowels of the Shanatar mountains.  This tunnel system
+seems to be relatively untraveled and perhaps exists by a
+natural erosion of the rocks.  The walls are teaming with
+a common fungus.  There are no steps or other means of
+support that would aid ones travels into the depths below.
+~
+831 33025 13
+D1
+~
+~
+0 0 83927
+D5
+~
+~
+0 0 83929
+F
+25
+S
+#83929
+&NWithin a Steep, Unstable Shaft&N~
+   This dark, rocky shaft seems to be a natural formation
+here deep within the bowels of the Shanatar mountains.
+The area is devoid of light, except for that which perpe-
+tually emits from the ripest of fungus just before relea-
+sing spores into the air.  The walls of this shaft are
+utterly covered with such fungus, which suggests that
+deep below a source of liquid exists.
+~
+831 33025 13
+D4
+~
+~
+0 0 83928
+D5
+~
+~
+0 0 83930
+F
+45
+S
+#83930
+&+LA Massive &+yR&+Lo&+yc&+Lk&+yp&+Li&+yl&+ye &+LBelow a &NSteep Shaft&N~
+   A huge rockpile has gathered at this part of this natural
+tunnel, perhaps from loose pieces of stone and debris falling
+down from the shaft above.  This large rockpile is climable
+to reach the shaft above, however once in the shaft it seems
+quite trecherous.  On the rocky cavern walls there is a large
+amount of thick fungal growth.  The tunnel continues to the
+south.
+~
+831 33025 13
+D2
+~
+~
+0 0 83931
+D4
+~
+~
+0 0 83929
+S
+#83931
+&+LA Tunnel Ledge Before a &+GRiver of Slime&N~
+   &+LThis rocky tunnel opening comes along side that of a large, fetid
+&+Lunderground pool.  The stalagmites seem to have ceased, above, as this
+&+Lnatural tunnel begins its ascent south and upwards.  The ground seems
+&+Lto be harder and darker the further one traverses up the southern
+&+Ltunnel, as the ceiling seems to be higher and more vaulted the further
+&+Lnorth one travels.
+~
+831 13 13
+D0
+~
+~
+0 0 83930
+D1
+~
+~
+0 0 83935
+S
+#83932
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D1
+~
+~
+0 0 83933
+D2
+~
+~
+0 0 83935
+S
+#83933
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83983
+D1
+~
+~
+0 0 83934
+D2
+~
+~
+0 0 83936
+D3
+~
+~
+0 0 83932
+S
+#83934
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D2
+~
+~
+0 0 83937
+D3
+~
+~
+0 0 83933
+S
+#83935
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83932
+D1
+~
+~
+0 0 83936
+D2
+~
+~
+0 0 83938
+D3
+~
+~
+0 0 83931
+S
+#83936
+&+gA Tr&+Gec&+ghe&+gro&+Gus &+gWh&+Gir&+glp&+Goo&+gl of &+ySludge&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+   &+GThis trecherous whirlpool swirls in a violent, green
+&+Gand brown sludgy maelstrom as the slime in the area all
+&+Gcomes to one main focal point.
+~
+831 32769 28
+D0
+~
+~
+0 0 83933
+D1
+~
+~
+0 0 83937
+D2
+~
+~
+0 0 83939
+D3
+~
+~
+0 0 83935
+D5
+&+gThe whirlpool below leads deeper and deeper into the mountain.
+~
+whirlpool~
+5 0 83946
+S
+#83937
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83934
+D2
+~
+~
+0 0 83940
+D3
+~
+~
+0 0 83936
+S
+#83938
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83935
+D1
+~
+~
+0 0 83939
+S
+#83939
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83936
+D1
+~
+~
+0 0 83940
+D3
+~
+~
+0 0 83938
+S
+#83940
+&+gA Churning &+GRi&+gv&+Ger &+gof &+GSl&+gi&+Gme&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D0
+~
+~
+0 0 83937
+D3
+~
+~
+0 0 83939
+S
+#83941
+&+LA &+yStorage &+LChamber&N~
+   &+LThis huge chamber is large, simple, dark, and dirty.  This serves
+&+Las the storage hold for all the implements of war for use by the
+&+Lshield dwarves of Alatorin.  This chamber sits across from another,
+&+Lidentical in dimension and proximity.  The difference between these
+&+Ltwo storage holds, however, is that the northern hold carries racks
+&+Lshields and armor, while the southern hold carries warhammers swords
+&+Land whetstones.
+~
+831 0 14
+D2
+&+L   A &+ywooden&+L door leads back into the hallway.
+~
+door~
+1 0 83367
+D4
+~
+~
+8 0 83942
+S
+#83942
+&+WCrate Monster Load Room&N~
+The crate monster loads here.  This mob is homage to the Stephen King
+story 'The Crate' popularized in the 1982 George Romero movie 'Creepshow'
+segment.
+~
+831 1174446208 15
+D5
+~
+~
+8 0 83941
+S
+#83943
+&+rAzarem Load Room&N~
+&+rLoad room for Azarem Tumek, the duergar serial killer.
+~
+831 1216380928 13
+D0
+~
+~
+0 0 83376
+D1
+~
+~
+0 0 83941
+D2
+~
+~
+0 0 83550
+D3
+~
+~
+0 0 83377
+D4
+~
+~
+0 0 83203
+D5
+~
+~
+0 0 83895
+D6
+~
+~
+0 0 83211
+D7
+~
+~
+0 0 83205
+D8
+~
+~
+0 0 83550
+D9
+~
+~
+0 0 83895
+S
+#83944
+&+yA Small Cave With an &+rOld Campsite&N~
+   &+LThis old cave appears to just be a natural formation
+&+Lof the rocky tunnel walls.  THe fungal growth that has
+&+Ldominated the normal walls of these tunnels has dried
+&+Lout around this campsite, suggesting that it has been
+&+Lremoved from the walls - possibly as food.  The center
+&+Lof the cavern floor has been completely cleared off and
+&+Lthe remnants of what appears to have been a campfire
+&+Lleaves a dark char-mark at its center.  A few stones
+&+Lhave been arranged and several small piles of fur and
+&+Lrags have been left behind.
+~
+831 134381568 15
+D3
+~
+~
+0 0 83835
+S
+#83945
+&+LBefore an &+rA&+Ln&+rc&+Li&+re&+Ln&+rt &+LDark Iron &+RArch&N~
+   &+gThis churning river of slime flows through the deep
+&+gregresses of the Shanatar mountain.  Chunks of rock and
+&+gfilth, including feces, bones, and tangled hair, can be
+&+gseen very commonly floating through the sludge, which
+&+gmoves at a staggeringly-slow pace.  The rocky tunnel
+&+gceiling and walls are splattered with the same sludge,
+&+gsuggesting that these tunnels are not without travel.
+~
+831 33025 28
+D2
+~
+~
+0 0 83567
+S
+#83946
+&+gA &+GS&+gl&+Gi&+gm&+Ge &+gV&+Go&+gr&+Gt&+ge&+Gx&N~
+   &+gThis gruesome deep ravine siphons the slime whirlpool,
+&+gabove, into a vortex here.  The slime travels into many
+&+gconduits that redistributes into other fissures and channels
+&+gwithin the mountain.  The largest and most prominent of these
+&+gconduits opens into a large, traversable tunnel to the west.
+~
+831 1073774849 28
+D0
+~
+~
+0 0 83951
+D1
+~
+~
+0 0 83949
+D2
+~
+~
+0 0 83952
+D3
+~
+~
+0 0 83947
+D4
+&+gA thick torrent of churning slime creates a whirlpool above.
+~
+whirlpool~
+5 0 83936
+D5
+~
+~
+0 0 83957
+S
+#83947
+&+LAn Ancient, &+yRo&+Lc&+yky &+LC&+yon&+Ld&+yui&+Lt&N~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 13
+D1
+~
+~
+0 0 83946
+D7
+~
+~
+0 0 83948
+S
+#83948
+&+LEnd of a &+yR&+Lo&+yc&+Lk&+yy Conduit&N~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 13
+D8
+~
+~
+0 0 83947
+S
+#83949
+&+LA Short &+yConduit&N~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 13
+D3
+~
+~
+0 0 83946
+D8
+~
+~
+0 0 83950
+S
+#83950
+&+LDead-End in a &+yConduit&N~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 28
+D7
+~
+~
+0 0 83949
+S
+#83951
+&+LA Dark, Narrow Dead-End~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 13
+D2
+~
+~
+0 0 83946
+S
+#83952
+&+LA &+yBr&+Lo&+yke&+Ln &+yT&+Lu&+ynn&+Le&+yl&N~
+   &+LThis ancient, rocky conduit extends naturally deep
+&+Lwithin the dark heart of the Shanatar mountain depths.
+&+LAlthough narrow and jagged, this tunnel is not completely
+&+Lnon-traversable; although is by no means comfortable.  A
+&+Lriver of &+Gslime&+L flows beside this conduit, eventually lead-
+&+Ling up to a vortex of sludge.
+~
+831 33025 13
+D0
+~
+~
+0 0 83946
+D9
+~
+~
+0 0 83953
+S
+#83953
+&+yA Low Cavern of &+gF&+ye&+gr&+yt&+gi&+yl&+ge &+yE&+La&+yr&+Lt&+yh&N~
+   &+LThis low cavern of fertile earth sits deep within the
+&+Gslime &+Ltunnels of Shanatar.  The earth here is rich and
+&+Lfertile - teaming with fresh vegetation and several mineral
+&+Gand &+Yore &+Ldeposits.  A violent churning of slime can be
+&+Lheard very distinctly coming from the neighboring tunnels.
+~
+831 33025 13
+D6
+~
+~
+0 0 83952
+S
+#83954
+&+LA Filthy Side &+yCavern &+LCovered With &+WBones&+L and &+mR&+yo&+mt&+yt&+mi&+yn&+mg &+rFlesh&N~
+   &+LVarious &+Wbones&+L with bits of &N&+rrotting flesh&+L sit swarming
+&+Lwith flies in insects in one corner, while on the opposite are several
+&+Lhuge, soiled piles of fur, hide, and tattered rags.  This horrible
+&+Lsleeping cave has a small fire pit at the center for which food is
+&+Loccasionally roasted and dark rituals are performed.
+~
+831 33587200 13
+D1
+~
+~
+0 0 83849
+S
+#83955
+&+LA Di&+mla&+Lpi&+mda&+Lte&+md &+yCave &+LFilled With &+RChunks &+Lof &+yR&+yo&+mt&+yt&+me&+yn &+rM&+Re&+ra&+Rt&N~
+   &+LVarious &+Wbones&+L with bits of &N&+rrotting flesh&+L sit swarming
+&+Lwith flies in insects in one corner, while on the opposite are several
+&+Lhuge, soiled piles of fur, hide, and tattered rags.  This horrible
+&+Lsleeping cave has a small fire pit at the center for which food is
+&+Loccasionally roasted and dark rituals are performed.
+~
+831 33587200 13
+D0
+~
+~
+0 0 83839
+S
+#83956
+&+LA &N&+yDisgusting &+LSleeping Cave&N~
+   &+LVarious &+Wbones&+L with bits of &N&+rrotting flesh&+L sit swarming
+&+Lwith flies in insects in one corner, while on the opposite are several
+&+Lhuge, soiled piles of fur, hide, and tattered rags.  This horrible
+&+Lsleeping cave has a small fire pit at the center for which food is
+&+Loccasionally roasted and dark rituals are performed.
+~
+831 33587200 13
+D0
+~
+~
+0 0 83845
+S
+#83957
+&+YA T&+Gorr&+gent &+Lof &+YS&+Gli&+gme&N~
+   &+gThis thick, viscous river of slame blasts through the deep
+&+gbelow of the Shanatar troglodyte tunnels into a huge vortex
+&+gof the same.  Chunks of hair, bits of bone, rocky debris,
+&+gchunks of feces, and other grotesque debris float through
+&+gthe horribly disgusting river of slime.  The origin of the
+&+gslime itself is unknown, as it seems to flow with an ever-
+&+gpresent movement.
+~
+831 1073774849 28
+D4
+~
+~
+0 0 83946
+S
+#83958
+&+LA Half-Collapsed &+yRock-Strewn Cave&N~
+   &+LThis once-massive cave has been half-collapsed at some point
+&+Land many rocks ranging from giant-to-small sizes are strewn
+&+Labout the cavern floor.  The tunnel entrance to this cave,
+&+Lnorth of here, is quite large which suggests that the cave
+&+Lwas once very large in size itself.  However now crumbling bits
+&+Lof rocky debris cover much of the cavern floor.
+~
+831 33025 13
+D0
+~
+~
+0 0 83840
+D5
+&+L   &+LRocks have piled up here in this half-collapsed cave.
+~
+rocks~
+5 0 83959
+S
+#83959
+&+LA Narrow Passage &NL&+yi&nt&+yt&Ne&+yr&Nr&+Le&nd &+LWith &+yRocky &+LDebris&N~
+   &+LThis rocky tunnel appears to have been recently-cleared
+&+Lout, as debris and chunks of stone are strewn about the
+&+Lsides of the tunnel making it quite a narrow junction.
+&+LThis tunnel is dark and nearly barren of the colorful
+&+Lfungus that grows upon the other portions of the Shanatar
+&+Lunder-tunnels.
+~
+831 33025 13
+D0
+~
+~
+0 0 83960
+D1
+&+L   A large rocky wall to the east appears to be movable.
+~
+secret wall~
+5 0 83964
+D4
+&+LRocks are piled up here, leading up to a large cave.
+~
+rocks~
+1 0 83958
+S
+#83960
+&+LA Rocky, &+yNarrow Tunnel&N~
+   &+LThis rocky tunnel appears to have been recently-cleared
+&+Lout, as debris and chunks of stone are strewn about the
+&+Lsides of the tunnel making it quite a narrow junction.
+&+LThis tunnel is dark and nearly barren of the colorful
+&+Lfungus that grows upon the other portions of the Shanatar
+&+Lunder-tunnels.
+~
+831 33025 13
+D2
+~
+~
+0 0 83959
+D3
+~
+~
+0 0 83961
+S
+#83961
+&+LA Rocky, &+yNarrow Tunnel&N~
+   &+LThis rocky tunnel appears to have been recently-cleared
+&+Lout, as debris and chunks of stone are strewn about the
+&+Lsides of the tunnel making it quite a narrow junction.
+&+LThis tunnel is dark and nearly barren of the colorful
+&+Lfungus that grows upon the other portions of the Shanatar
+&+Lunder-tunnels.
+~
+831 33025 13
+D1
+~
+~
+0 0 83960
+D6
+~
+~
+0 0 83962
+S
+#83962
+&+yA Narrow Tunnel&+y Below a Cave-In&N~
+   &+LThis rocky tunnel appears to have been recently-cleared
+&+Lout, as debris and chunks of stone are strewn about the
+&+Lsides of the tunnel making it quite a narrow junction.
+&+LThis tunnel is dark and nearly barren of the colorful
+&+Lfungus that grows upon the other portions of the Shanatar
+&+Lunder-tunnels.
+~
+831 33025 13
+D4
+&+LThe rocks of the ceiling are above.
+~
+rocks ceiling~
+1 0 83963
+D9
+~
+~
+0 0 83961
+S
+#83963
+&+yA &+LR&No&+Lc&nk-&+LS&Nt&+Lr&Ne&+Lw&Nn &+yCave-In&N~
+   &+LThis once-massive cave has been half-collapsed at some point
+&+Land many rocks ranging from giant-to-small sizes are strewn
+&+Labout the cavern floor.  The tunnel entrance to this cave,
+&+Lnorth of here, is quite large which suggests that the cave
+&+Lwas once very large in size itself.  However now crumbling bits
+&+Lof rocky debris cover much of the cavern floor.
+~
+831 33025 13
+D1
+&+LSeveral rocks are piled up to the east, before a &+yfetid tunnel.
+~
+rocks~
+1 0 83837
+D5
+&+LThe floor slabs are heavy here.
+~
+floor slabs~
+5 0 83962
+S
+#83964
+&+LA Dark, Concealed Cave&N~
+   &+LThis dark, concealed cave is located deep within the
+&+Lheart of the twisted tunnels of Shanatar's underbelly.
+&+LScorch marks on the cavern floor appear to have been
+&+Lthe sight of a camp at some point, which has long-since
+&+Lbeen vacated.  This old, dirty hiding place is quite
+&+Lwell hidden from the brutish troglodytes that haunt
+&+Lthese foul tunnels.
+~
+831 33025 13
+D3
+&+LA large stone wall to the west appears to be the only exit out
+&+Lof this secretive cave.
+~
+wall~
+1 0 83959
+S
+#83965
+&+LA &NCir&+Lcu&nlar &+LChamber Over a &NDeep Shaft&N~
+   &+LThis circular stone chamber looks to have been naturally dug
+&+Lout by some sort of giant rock-dwelling creature - most probably
+&+La massive purple worm.  The tunnels surrounding is smooth, like
+&+Lit has been melted down by worm acid, rather then dug out with
+&+Lpicks or blasted with dwarven dynamite and gnomish explosives.
+&+LA large, deep shaft opens at the north of the chamber, extending
+&+Linto the darkness below.
+~
+831 33029 13
+D2
+&+LA large cr&na&+Lck splits the rocks of the unstable southern wall.
+~
+crack~
+5 0 83846
+D5
+~
+~
+0 0 83969
+S
+#83966
+&NAbove a Deep Shaft&+L in a Cir&Ncu&+Llar &NChamber&N~
+   &+LThis circular stone chamber looks to have been naturally dug
+&+Lout by some sort of giant rock-dwelling creature - most probably
+&+La massive purple worm.  The tunnels surrounding is smooth, like
+&+Lit has been melted down by worm acid, rather then dug out with
+&+Lpicks or blasted with dwarven dynamite and gnomish explosives.
+&+LA large, deep shaft opens at the north of the chamber, extending
+&+Linto the darkness below.
+~
+831 33029 13
+D2
+&+LA large &Ncr&+La&Nck &+Lruns down the southern cavern wall.
+~
+crack~
+5 0 83840
+D5
+~
+~
+0 0 83967
+S
+#83967
+&+LA &+bSmooth&+L Shaft&N~
+   &+LThis smooth shaft runs almost perfectly vertically through
+&+Lthe deep rock of the Shanatar mountains.  Unlike the jagged
+&+Ledges and sharp slates that these mountains are known for,
+&+Lthese tunnel walls are completely smoothed out, as if melted
+&+Ldown by a strong &+gacid&+L.
+~
+831 33025 13
+D4
+~
+~
+0 0 83966
+D5
+~
+~
+0 0 83968
+F
+95
+S
+#83968
+&+LA &+bSmooth&+L Shaft&N~
+   &+LThis smooth shaft runs almost perfectly vertically through
+&+Lthe deep rock of the Shanatar mountains.  Unlike the jagged
+&+Ledges and sharp slates that these mountains are known for,
+&+Lthese tunnel walls are completely smoothed out, as if melted
+&+Ldown by a strong &+gacid&+L.
+~
+831 33025 13
+D4
+~
+~
+0 0 83967
+D5
+~
+~
+0 0 83978
+D7
+&+LThe rocky wall to the southwest seems to be rather unstable in this part of the shaft.
+~
+wall~
+5 0 83988
+F
+95
+S
+#83969
+&+bA &+LSmooth &+bShaft&N~
+   &+LThis smooth shaft runs almost perfectly vertically through
+&+Lthe deep rock of the Shanatar mountains.  Unlike the jagged
+&+Ledges and sharp slates that these mountains are known for,
+&+Lthese tunnel walls are completely smoothed out, as if melted
+&+Ldown by a strong &+gacid&+L.
+~
+831 33025 13
+D4
+~
+~
+0 0 83965
+D5
+~
+~
+0 0 83970
+F
+95
+S
+#83970
+&+bA &+LSmooth &+bShaft&N~
+   &+LThis smooth shaft runs almost perfectly vertically through
+&+Lthe deep rock of the Shanatar mountains.  Unlike the jagged
+&+Ledges and sharp slates that these mountains are known for,
+&+Lthese tunnel walls are completely smoothed out, as if melted
+&+Ldown by a strong &+gacid&+L.
+~
+831 33025 13
+D1
+&+LAn unstable rocky wall is on the east of this portion of the shaft.
+~
+wall~
+5 0 83987
+D4
+~
+~
+0 0 83969
+D5
+~
+~
+0 0 83979
+F
+95
+S
+#83971
+&+yA Deep Rocky Ledge &+LCovered With &+GVines&N~
+   &+LThis deep, &+yrocky ledge&+L overlooks a large &+mpurple worm &+ynest
+&+Lbelow.  The stench of the rotting &+ys&+gl&+yu&+gd&+yg&+ge&+L at the bottom of
+&+Lthis pit is utterly revolting and nearly unbearable.  Several
+&+Llarge &+Gvines &+Lgrow over the &+yrocky ledge&+L, perhaps as a result
+&+Lof all the moisture in the air to promote growth.  One of these
+&+Gvines&+L is particularly long and seems like it may be able to
+&+Lpose useful to someone stuck in the &+mworm&+y nest&+L, below.
+~
+831 32769 13
+D1
+~
+~
+0 0 83981
+S
+#83972
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D1
+~
+~
+0 0 83973
+D2
+~
+~
+0 0 83976
+S
+#83973
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D1
+~
+~
+0 0 83974
+D2
+~
+~
+0 0 83977
+D3
+~
+~
+0 0 83972
+E
+black leather pants glowing faerie fire~
+&+L   These tight-fitting black leather pants have been deeply
+&+Lenchanted by powerful &+bmagic&+L, causing them to &+mburn&+L with a mystical
+&+Llining of non-substantial &+mfa&+Mer&+mie f&+Mir&+me&+L.
+~
+S
+#83974
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D2
+~
+~
+0 0 83978
+D3
+~
+~
+0 0 83973
+S
+#83975
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D1
+~
+~
+0 0 83976
+D2
+~
+~
+0 0 83979
+S
+#83976
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D0
+~
+~
+0 0 83972
+D1
+~
+~
+0 0 83977
+D2
+~
+~
+0 0 83980
+D3
+~
+~
+0 0 83975
+S
+#83977
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D0
+~
+~
+0 0 83973
+D1
+~
+~
+0 0 83978
+D3
+~
+~
+0 0 83976
+S
+#83978
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D0
+~
+~
+0 0 83974
+D3
+~
+~
+0 0 83977
+S
+#83979
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D0
+~
+~
+0 0 83975
+D1
+~
+~
+0 0 83980
+S
+#83980
+&+LA &+yFe&+mc&+yu&+rl&+ye&+Yn&+yt &+mPurple Worm &+LNest&N~
+   &+LThis massive underground cavern is one of the many natural
+&+Lnests of the common &+mpurple worms&+L known throughout Duris for
+&+Ltheir bone-melting &+Gacid &+Land man-sized &+Rh&+Lu&+Rn&+Lg&+Re&+Lr.  The cavern walls
+&+Ldown here are smooth and melted down by the same very &+Gacid&+L which
+&+Lthey use to melt the &+rflesh&+L of their hunters.  A few feet of thick
+&+ymuck&+L covers the cavern floor - made up of &+mworm &+yexcrement&+L,&+g s&+Gl&+gi&+Gm&+ge&+L,
+&+Land decomposing &+yt&+Yr&+yo&+Yg&+yl&+Yo&+yd&+Yy&+yt&+Ye&+r flesh&+L.
+~
+831 32769 28
+D0
+~
+~
+0 0 83976
+D3
+~
+~
+0 0 83979
+S
+#83981
+&+yA Deep Rocky Ledge &+LCovered With &+GVines&N~
+   &+LThis deep, &+yrocky ledge&+L overlooks a large &+mpurple worm &+ynest
+&+Lbelow.  The stench of the rotting &+ys&+gl&+yu&+gd&+yg&+ge&+L at the bottom of
+&+Lthis pit is utterly revolting and nearly unbearable.  Several
+&+Llarge &+Gvines &+Lgrow over the &+yrocky ledge&+L, perhaps as a result
+&+Lof all the moisture in the air to promote growth.  One of these
+&+Gvines&+L is particularly long and seems like it may be able to
+&+Lpose useful to someone stuck in the &+mworm&+y nest&+L, below.
+~
+831 32769 13
+D1
+~
+~
+0 0 83982
+D2
+~
+~
+0 0 83989
+D3
+~
+~
+0 0 83971
+S
+#83982
+&+yA Deep Rocky Ledge &+LCovered With &+GVines&N~
+   &+LThis deep, &+yrocky ledge&+L overlooks a large &+mpurple worm &+ynest
+&+Lbelow.  The stench of the rotting &+ys&+gl&+yu&+gd&+yg&+ge&+L at the bottom of
+&+Lthis pit is utterly revolting and nearly unbearable.  Several
+&+Llarge &+Gvines &+Lgrow over the &+yrocky ledge&+L, perhaps as a result
+&+Lof all the moisture in the air to promote growth.  One of these
+&+Gvines&+L is particularly long and seems like it may be able to
+&+Lpose useful to someone stuck in the &+mworm&+y nest&+L, below.
+~
+831 32769 13
+D3
+~
+~
+0 0 83981
+S
+#83983
+&+LA Rocky &+yNiche &+Lon Some &+yRocks &+gAbove the &+GS&+gl&+Gi&+gm&+Ge&N~
+   &+LThis deep rocky niche is located just north of the river
+&+Lof slime, flowing through the dark heart of the Shanatar
+&+Lmountains.  There is all sorts of rocky debris strewn about
+&+Lthe area, and keeping ones footing on these jagged mountain
+&+Lrocks can pose quite a challenge.  The rocky walls here are
+&+Lso loosely formed that huge crevices, such as this one, are
+&+Lquite common and there may be other passages hidden beneath
+&+Lfallen stones that shape the corners of the river of slime.
+~
+831 32773 13
+D0
+&+L   A few rocks in the northern cave-in may be movable.
+~
+rocks~
+5 0 83984
+D2
+~
+~
+0 0 83933
+S
+#83984
+&+LA Deep Cave Cluttered With Sharp Rocks~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 32769 13
+D2
+&+L   Huge jagged rocks protrude from the south, from which some may seem movable.
+~
+rocks~
+1 0 83983
+D4
+~
+~
+0 0 83985
+S
+#83985
+&+LA Low, &NSlan&+Lting Tunnel&N~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 33025 13
+D0
+~
+~
+0 0 83986
+D2
+&+L   The rocky wall to the south seems to be seeping with &+Gslime&+L.
+~
+secret opening~
+5 0 83926
+D5
+~
+~
+0 0 83984
+S
+#83986
+&+LA Deep, Twisted Tunnel Junction&N~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 33025 13
+D0
+~
+~
+0 0 83989
+D1
+~
+~
+0 0 83988
+D2
+~
+~
+0 0 83985
+D3
+~
+~
+0 0 83987
+S
+#83987
+&+yA Tight and Jagged Tunnel&n~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 33025 13
+D1
+~
+~
+0 0 83986
+D3
+   &+LA large rocky wall seems like it might be unstable.
+~
+wall~
+1 0 83970
+S
+#83988
+&+yA Tight and Jagged Tunnel&n~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 33025 13
+D3
+~
+~
+0 0 83986
+D8
+&+LThe rocky wall to the northeast seems to be rather unstable.
+~
+wall~
+1 0 83968
+S
+#83989
+&+LA &+mVaulted &+LTu&+mnn&+Lel&N~
+   &+LThis jagged tunnel winds through the twisted underbelly
+&+Lof the Shanatar mountains and beneath the caves inhabited
+&+Lby the primative troglodytes.  There is colorful fungus
+&+Lgrowing all throughout these tunnels, seldomly releasing
+&+Lfine spores into the air and creating a thick, humid mist.
+&+LThese tunnels are quite dark and almost completely untra-
+&+Lveled, although it would not be a surprise if there are
+&+Ldarker wonders within the depths of the Shanatar mountains.
+~
+831 33025 13
+D0
+~
+~
+0 0 83981
+D2
+~
+~
+0 0 83986
+S
+#83990
+&+LA Secret Cave Above a &+mSteep Hole~
+   &+LThis steep shaft looks straight up and down through the
+&+mtwisted, unforgiving rocks of the Shanatar mountain depths.
+&+LThis shaft is quite aged and seems to be without much fungal
+&+mgrowth, as opposed to the other portions of the troglodyte
+&+Ltunnels.  Although it is not totally unscalable, the walls
+&+mof this deep shaft seem quite difficult to climb.
+~
+831 32769 13
+D2
+&+LThe rocky cavern wall to the south of here seems to be quite unstable.
+~
+rocky wall~
+1 0 83852
+D5
+~
+~
+0 0 83991
+F
+65
+S
+#83991
+&+LI&+mn &+LA &+mS&+Lt&+me&+Le&+mp &+LS&+mh&+La&+mf&+Lt&N~
+   &+LThis steep shaft looks straight up and down through the
+&+mtwisted, unforgiving rocks of the Shanatar mountain depths.
+&+LThis shaft is quite aged and seems to be without much fungal
+&+mgrowth, as opposed to the other portions of the troglodyte
+&+Ltunnels.  Although it is not totally unscalable, the walls
+&+mof this deep shaft seem quite difficult to climb.
+~
+831 32769 13
+D4
+~
+~
+0 0 83990
+D5
+~
+~
+0 0 83992
+F
+75
+S
+#83992
+&+LA Secret Cave Beneath a &+mSteep Shaft&N~
+   &+LThis steep shaft looks straight up and down through the
+&+mtwisted, unforgiving rocks of the Shanatar mountain depths.
+&+LThis shaft is quite aged and seems to be without much fungal
+&+mgrowth, as opposed to the other portions of the troglodyte
+&+Ltunnels.  Although it is not totally unscalable, the walls
+&+mof this deep shaft seem quite difficult to climb.
+~
+831 32769 13
+D1
+&+LThe rocky wall to the east of here appears to be quite unstable.
+~
+rocky wall~
+1 0 83857
+D4
+~
+~
+0 0 83991
 S

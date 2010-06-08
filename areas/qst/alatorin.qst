@@ -1,3 +1,9 @@
+#83101
+M
+qc_action 300~
+&N$n peers around the tavern with a stern grin and cracks his &+ykn&Nuc&+yk&Nl&+ye&ns.
+~
+S
 #83105
 M
 qc_action 55~
@@ -724,8 +730,9 @@ QA
 &+Rthe &+Ldragon scales &+Wand carries them off.
 &+RTaark Shanat &+Wsmiles and says &+R'Excellent work $N.  You truly may
 &+Rbecome a dragonslayer.'
+&+R'Collect ten of these &Npieces &+Rand return them to me for a full &+Wtoken&+R.'
 ~
-R I 83178
+R I 83532
 G I 392
 G I 392
 G I 392
@@ -765,6 +772,27 @@ R C 2000000
 G I 55081
 G I 55082
 G I 55080
+QA
+With a gleam in his eye, &+RTaark Shanat&N exclaims &+R'Well done, $N!'
+&NAfter a snap of &+RTaark's &Ningers, an &+Wattendant &Nrushes into his chamber and
+graciously takes all ten pieces &Nfrom $N and carries them out as hastily as he entered.
+&+RTaark &Nreaches into his royal garments and pulls out a magnificent, shiny &+Ytoken.
+&+R'In honor of the Kingdom of Alatorin, I present to thee this commendation tokeng, $N.'
+&+RTaark Shanat &Nsmiles at $N and they proudly shake hands.
+&+R'My trusted son, Modan Shanat, in the &+CCourt Hall&+R, will tell you what to do with
+&+Rthese tokens&+R' &Nhe says with a smile and a nod.
+~
+R I 83178
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
+G I 83532
 S
 #83178
 M
@@ -1329,7 +1357,7 @@ hi hello~
 &n$n throws his hands up in disgust in the face of $N and keeps walking without saying a word.
 ~
 MA
-banquet~
+worried banquet~
 &n$n quickly snaps his head to $N and says 'The Banquet!  It is scheduled in three moons and we have no food preparations made!'
 &N$n sighs and continues 'What are we going to do?  I still need to be presented with recipes!'
 &N$n looks frustrated and nearly pulls his hair out.
@@ -1558,10 +1586,13 @@ G I 83246
 G I 83246
 QA
 &nWith a large smile on his face, $n says 'Well done $N.  You have proven your honour.'
-'This key will unlock the gate to the stairs of virtue' he says with a solemn bow.
+&N'The &+cAla&+Ctor&+cin &+Ykey &+cof &+Whonor&N will unlock the gate to the stairs of virtue' he says with a solemn bow.
+&N'&+CThe &+Wkey &+Cof &+Ykings&n, bestoed by &+RTaark Shanat &Nhimself, will open one of the &+Cdisplay cases &Nyou find below the &+CSteps of Honour&N.'
+$n smiles at $N and says 'Congradulations, once again.'
 ~
 R I 83338
-R E 250000
+R I 83371
+R E 500000
 G I 83250
 G I 83250
 G I 83250
@@ -2048,8 +2079,8 @@ G I 43141
 QA
 &N$n says &+G'Excellent work, $N!'
 ~
-R I 55025
 R I 55342
+G I 55025
 S
 #83335
 M
@@ -2144,7 +2175,6 @@ After carefully examining each, one at a time, down the line, he approaches $N.
 R E 350000
 R I 83485
 R I 83463
-R I 83463
 G I 78419
 G I 95526
 G I 96835
@@ -2178,6 +2208,15 @@ kimordril~
 MA
 no nope~
 &N$n nods at $N and says &+g'Very well, clansdwarf.'
+~
+M
+qc_action 300~
+&N$n pops out his &+Wglass eye&N and flicks it high into the air.
+...then pops open a glass bottle of &+yale&N.
+...then catches the &+Weye &Nin the bottle&N.
+...then takes a big swig of &+Yale&N.
+...then spits the &+Weye &Nhigh into the air.
+...then then spreads open his eye socket and catches the &+Wglass eye&N in the hole.
 ~
 QA
 &N$n says &+g'Well done, $N.'
@@ -2395,6 +2434,13 @@ MA
 taark shanat~
 &N$n says '&+RTaark Shanat&N is my king, and to him I owe my very life.'
 ~
+MA
+azarem tumek~
+&N$n groans and nods at $N.
+&+W'Azarem Tumek.. now there is a name that will make your blood curl,' &Nhe says with a sigh.
+&+W'The butcher of Alatorin, they'd call him.  He is a brutal killer, and much worse than the others.  But we have had trouble locating him.'
+&+W'Find this brute, and bring me his head, $N!' &N$n exclaims.
+~
 QA
 &N$n applauds $N and says 'Excellent work, $N!'
 Gathering the heads, he continues 'Please, as a token of service to Alatorin, take this medal of honor and your reward money.'
@@ -2491,7 +2537,7 @@ QA
 &N&+r'Excellent!  I hope you twisted your dagger into his heart' $n says with a grin.
 ~
 R E 500000
-R C 1000000
+R C 2500000
 G I 83415
 D
 &N&+r'Enjoy your reward' he says 'Your eternal reward.'
@@ -2911,9 +2957,6 @@ QA
 R C 100000
 R E 80000
 G I 83366
-D
-&N$n says &+W'I'm afraid I have nothing more I can give you right now, but you can find me at Khoralator Fort in the future.'
-~
 S
 #83420
 M
@@ -2946,9 +2989,6 @@ QA
 R C 100000
 R E 80000
 G I 83366
-D
-&N$n sneaks off into the &+Ldarkness.
-~
 S
 #83421
 M
@@ -3135,6 +3175,16 @@ mountaineer~
 
 &+Y'Go, $N.' &NHe says.
 &+Y'Once ye become a &n&+gmountaineer&+Y, come back to me with the &+ginsignia &+Yof the Kimordril &+gMountaineers&+Y, and we'll talk again,' &Nhe says with a wink to $N.
+~
+QA
+&N$n smiles at $N and exclaims &+Y'Well done, $N!'
+~
+R C 300000
+R E 250000
+R I 83250
+G I 500021
+D
+&N$n smiles at walks down the hallway and out of sight.
 ~
 S
 #83426
@@ -3347,5 +3397,133 @@ G I 83353
 G I 83397
 D
 &n$n nods and says &+Y'It has been a shame what our people have done to this land.  Hopefully now they will disband their operation.'
+~
+S
+#83439
+MA
+hi hello~
+&N$n nods at $N and says &+L'Greetings, brother. The &+Yfive kings&N&+r...&+L grow with influence.'
+~
+MA
+five king kings influence~
+&N$n nods at $N and says &+L'The five kings of the &N&+ydwarves &+Lthat have taken the pride away from honor for the &N&+Ydwarves&+L but upon &+Ysplendor&+L...'
+With a grimmace on his face, $n turns to $N and says &+L'The &+Yfive kings &+Lare &n&+rBregnar&+L - &N&+rtyr&+Lant of the &N&+munderdark&+L, King StoutDorf the &+Rwar&N&+rmaster&+L, &N&+cGeneral Kimordril&+W lord of the &+Ymountain dwarves&+L, &+YBostas Firebraid&N&+r the maniacal ruler of the &+Ldark iron dwarves&+L, and &+CFirb Derstl&N&+c, Burrow Warden of Dirk'nspire&+L.'
+&+L'Each of the &+Yfive kings &+Lcarry a &+Bmagical &n&+cweapon &+Lblessed beyond mortal understanding.'
+&NWith a brief pause, $n grins and continues &+L'$N, you must &N&+rkill &+Lthe &+Yfive kings &+Land bring me their &N&+bweapons&+L.'
+~
+MA
+bregnar~
+&N$n says &+L'Bregnar lives within the duergar compound between the &N&+mUnderground River &+Land the &N&+mTracks of the Gargantuan Purple Worm&+L.  Also on the outskirts of &+MIx&n&+mar&+Lkon, &N&+rBregnar &+Lcontrols a powerful position in the &N&+munderdark&+L.  He is one of the &+Yfive kings&+L.'
+~
+MA
+stoutdorf~
+&N$n nods at $N and says &+L'King StoutDorf.. he built that army of his from low-life &N&+yderros&+L that fed off his leavings.'
+&N$n spits on the ground beside him, continuing &+L'They even say the great duergar king had the &N&+rdevil &+Lon his side.  King Stoutdorf is one of the &+Yfive kings&+L.'
+~
+MA
+devil~
+&N$n says &+L'Beware the arch-devil in the throne of StoutDorf.'
+~
+MA
+firb derstl~
+&N$n grins at $N and says &+L'Who would of thought the reclusive burrow warden, &+CFirb Derstl&+L, was a &N&+yderro &+Lking?  You will find &+CFirb Derstl &+Lin Dirknspire, unaware of his &N&+rbloodline &+Lamong the &+Yfive kings&+L.'
+~
+MA
+bostas firebraid~
+&N$n says &+L'&+YBostas Firebraid&+L, never has there been a more ruthless dwarf.  Known as the leader of the dark iron dwarves, &+YBostas Firebraid&+L has uncovered some sort of dark &+Yfire &+Rma&N&+rgic&+L.'
+As $n shivers for a moment, he continues &+L'You will find him far away in a keep called &N&+r'Strak'Ash' &+Lin the Blackrock Mountain.  He is one of the &+Yfive kings&+L.'
+~
+MA
+general kimodril~
+&N$n nods at $N and says &+L'I'm sure the "great" &N&+cGeneral Kimordril &+Lwould have ended up one of &N&+bStealth Hunter's &+Ltargets nonetheless.  The ruler of his self-named &+Ymountain dwarf &+Lcity has the &N&+rblood &+Lof &+Ykings&+L running through his veins.'
+~
+MA
+strak'ash strak ash blackrock~
+&N$n says &+L'The Blackrock mountain and Strak'Ash citadel are not easy to find, $N.  Although there are rumors that another way in could be found here in &N&+cAlatorin&+L...'
+~
+MA
+alatorin~
+&N$n says &+L'Alatorin is a glorious city, and full of opportunities.  It is also the location of our den, brother.'
+~
+MA
+taark shanat~
+&N$n says to $N &+L'$N, &+RTaark Shanat &+Lis a powerful ruler - you have seen the size of this place of you have found me - and it would be best not to challenge our existence in &N&+cAlatorin&+L.'
+~
+QA
+&N$n says &+L'Outstanding work!'
+He jumps to his feet, and arranges the weapons out in a large row.
+After carefully examining each, one at a time, down the line, he approaches $N.
+&+L'You have proven yourself well, brother.' &NHe says.
+~
+R E 350000
+R I 83485
+R I 83463
+G I 78419
+G I 95526
+G I 96835
+G I 34226
+G I 4505
+D
+&N$n says &+LTake two of these &+Wtokens of &+Lstealth, as this has surely been an arduous adventure.'
+~
+S
+#83461
+M
+qc_action 500~
+&N$n &+Rrips &+ga chunk of &+Gflesh &+rapart &+gand gulps the pieces down.
+~
+M
+qc_action 500~
+&N$n &+gsniffs around a chunk of &+Wbone &+gbefore chomping it in half.
+~
+M
+qc_action 500~
+&N$n &+gleans in and &+rgnaws &+gat a chunk of carcass meat.
+~
+M
+qc_action 500~
+&N$n licks his &+rbloody &Nclaws clean.
+~
+S
+#83471
+M
+qc_action 500~
+&N$n arches his hips and begins thrusting violently.
+~
+M
+qc_action 500~
+&N$n bobs his head up and down, shaking violently for a moment before stopping.
+~
+M
+qc_action 500~
+&N$n gets down on all fours and begins making violent pelvic thrusts downwards.
+~
+M
+qc_action 500~
+&n$n begins salivating a thick &+Wc&Nl&+Wou&Ndy substance, which he then gathers and rubs upon his scaly body.
+~
+S
+#83483
+M
+qc_action 400~
+&N$n reaches down and tends to a bloody, &+Rin&Nfec&+Rte&Nd wound.
+~
+M
+qc_action 400~
+&N$n coughs and hacks violently; his body polluted by the foul atmosphere.
+~
+M
+qc_action 400~
+&N$n picks a few &+Wm&Na&+Wg&Ng&+Wo&Nt&+Ws &Nfrom a large infected &+rgash &Nin his leg.
+&N$n winces in pain.
+~
+M
+qc_action 400~
+&N$n turns &+ggreen &Nand vomits out a thick &+Lblack discharge&N.
+$n &ngroans, clutching his stomach in pain.
+~
+M
+qc_action 400~
+&N$n tightens a handmade &+Wbandage &Naround his arm and lets out a gut-wrenching &+Rshriek &Nof pain.
 ~
 S

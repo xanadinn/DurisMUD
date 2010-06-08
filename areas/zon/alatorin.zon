@@ -1,6 +1,6 @@
 #831
 &+CAlatorin &+L- the &N&+rForge &+LCity~
-83920 2 0 40 50 2
+83992 2 0 180 190 3
 *
 * Zone edited with durisEdit v2.99de
 *
@@ -148,6 +148,14 @@ D 0 83134 1 1 100 0 0 0
 D 0 83398 3 1 100 0 0 0
 *     west exit from "A Connecting Hallway" to
 *     "A Neat and Tidy Chamber" - closed
+*
+D 0 83138 1 6 100 0 0 0
+*     east exit from "Below the Officers' Platform" to
+*     "East Wall of the Siege Court" - closed/locked/secret
+*
+D 0 83146 3 1 100 0 0 0
+*     west exit from "East Wall of the Siege Court" to
+*     "Below the Officers' Platform" - closed
 *
 D 0 83146 0 1 100 0 0 0
 *     north exit from "East Wall of the Siege Court" to
@@ -581,6 +589,14 @@ D 0 83376 2 1 100 0 0 0
 *     south exit from "A Storage Chamber" to
 *     "A Red Hallway Vestibule" - closed
 *
+D 0 83367 0 2 100 0 0 0
+*     north exit from "A Red Hallway" to
+*     "A Storage Chamber" - closed/locked
+*
+D 0 83941 2 1 100 0 0 0
+*     south exit from "A Storage Chamber" to
+*     "A Red Hallway" - closed
+*
 D 0 83368 0 1 100 0 0 0
 *     north exit from "An Open Gallery" to
 *     "End of a Hallway" - closed
@@ -669,13 +685,13 @@ D 0 83445 1 1 100 0 0 0
 *     east exit from "The Chamber of Frahzel Thunderfist" to
 *     "A Gold and Mithril Hallway" - closed
 *
-D 0 83465 0 2 100 0 0 0
-*     north exit from "A Rocky Landing" to
-*     "An Ancient Hall of Statues" - closed/locked
-*
-D 0 83472 2 2 100 0 0 0
+D 0 83472 2 8 100 0 0 0
 *     south exit from "An Ancient Hall of Statues" to
-*     "A Rocky Landing" - closed/locked
+*     "A Rocky Landing" - open/blocked
+*
+D 0 83465 0 0 100 0 0 0
+*     north exit from "A Rocky Landing" to
+*     "An Ancient Hall of Statues" - open
 *
 D 0 83473 3 2 100 0 0 0
 *     west exit from "A Deep Clearing Before the Western Cage" to
@@ -1221,13 +1237,61 @@ D 0 83829 4 2 100 0 0 0
 *     up exit from "An Elemental Prison" to
 *     "Base of the Tower of Xamora" - closed/locked
 *
-D 0 83832 5 2 100 0 0 0
-*     down exit from "Entrance of a Fetid Tunnel" to
-*     "A Rocky Tunnel Opening" - closed/locked
+D 0 83837 3 5 100 0 0 0
+*     west exit from "A Turn in a Tunnel Covered With Mushrooms and Fungus" to
+*     "A Rock-Strewn Cave-In" - closed/secret
 *
-D 0 83833 4 2 100 0 0 0
-*     up exit from "A Rocky Tunnel Opening" to
-*     "Entrance of a Fetid Tunnel" - closed/locked
+D 0 83963 1 1 100 0 0 0
+*     east exit from "A Rock-Strewn Cave-In" to
+*     "A Turn in a Tunnel Covered With Mushrooms and Fungus" - closed
+*
+D 0 83840 0 5 100 0 0 0
+*     north exit from "A Filthy, Rank Tunnel" to
+*     "Above a Deep Shaft in a Circular Chamber" - closed/secret
+*
+D 0 83966 2 5 100 0 0 0
+*     south exit from "Above a Deep Shaft in a Circular Chamber" to
+*     "A Filthy, Rank Tunnel" - closed/secret
+*
+D 0 83846 0 5 100 0 0 0
+*     north exit from "A Jagged Bend in a Rank Tunnel" to
+*     "A Circular Chamber Over a Deep Shaft" - closed/secret
+*
+D 0 83965 2 5 100 0 0 0
+*     south exit from "A Circular Chamber Over a Deep Shaft" to
+*     "A Jagged Bend in a Rank Tunnel" - closed/secret
+*
+D 0 83852 0 5 100 0 0 0
+*     north exit from "A Sharp Turn in a Rank Tunnel" to
+*     "A Secret Cave Above a Steep Hole" - closed/secret
+*
+D 0 83990 2 1 100 0 0 0
+*     south exit from "A Secret Cave Above a Steep Hole" to
+*     "A Sharp Turn in a Rank Tunnel" - closed
+*
+D 0 83854 5 4 100 0 0 0
+*     down exit from "A Wretched Slime Pool" to
+*     "A Slippery Slope" - open/secret
+*
+D 0 83855 4 4 100 0 0 0
+*     up exit from "A Slippery Slope" to
+*     "A Wretched Slime Pool" - open/secret
+*
+D 0 83857 3 5 100 0 0 0
+*     west exit from "Bottom of a Skull-Lined Staircase" to
+*     "A Secret Cave Beneath a Steep Shaft" - closed/secret
+*
+D 0 83992 1 1 100 0 0 0
+*     east exit from "A Secret Cave Beneath a Steep Shaft" to
+*     "Bottom of a Skull-Lined Staircase" - closed
+*
+D 0 83868 0 2 100 0 0 0
+*     north exit from "Before a Cavernous Lair" to
+*     "The Cavernous Lair of the Troglodyte Leader" - closed/locked
+*
+D 0 83869 2 2 100 0 0 0
+*     south exit from "The Cavernous Lair of the Troglodyte Leader" to
+*     "Before a Cavernous Lair" - closed/locked
 *
 D 0 83871 0 2 100 0 0 0
 *     north exit from "Before a Small Gated Cell" to
@@ -1237,6 +1301,22 @@ D 0 83872 2 2 100 0 0 0
 *     south exit from "A Filthy, Rank Prison Cave" to
 *     "Before a Small Gated Cell" - closed/locked
 *
+D 0 83873 5 4 100 0 0 0
+*     down exit from "A Dark Cavern Covered With White Handprints" to
+*     "A Junction of White Hand Print-Covered Tunnels" - open/secret
+*
+D 0 83874 4 4 100 0 0 0
+*     up exit from "A Junction of White Hand Print-Covered Tunnels" to
+*     "A Dark Cavern Covered With White Handprints" - open/secret
+*
+D 0 83874 5 8 100 0 0 0
+*     down exit from "A Junction of White Hand Print-Covered Tunnels" to
+*     "Marg D'ghor Load Room" - open/blocked
+*
+D 0 83923 4 8 100 0 0 0
+*     up exit from "Marg D'ghor Load Room" to
+*     "A Junction of White Hand Print-Covered Tunnels" - open/blocked
+*
 D 0 83898 0 1 100 0 0 0
 *     north exit from "A Smugglers' Den" to
 *     "A Dreary Planning Room" - closed
@@ -1245,8 +1325,81 @@ D 0 83899 2 1 100 0 0 0
 *     south exit from "A Dreary Planning Room" to
 *     "A Smugglers' Den" - closed
 *
+D 0 83926 0 5 100 0 0 0
+*     north exit from "A Slippery Slope" to
+*     "A Low, Slanting Tunnel" - closed/secret
+*
+D 0 83985 2 5 100 0 0 0
+*     south exit from "A Low, Slanting Tunnel" to
+*     "A Slippery Slope" - closed/secret
+*
+D 0 83936 5 4 100 0 0 0
+*     down exit from "A Trecherous Whirlpool of Sludge" to
+*     "A Slime Vortex" - open/secret
+*
+D 0 83946 4 4 100 0 0 0
+*     up exit from "A Slime Vortex" to
+*     "A Trecherous Whirlpool of Sludge" - open/secret
+*
+D 0 83941 4 8 100 0 0 0
+*     up exit from "A Storage Chamber" to
+*     "Crate Monster Load Room" - open/blocked
+*
+D 0 83942 5 8 100 0 0 0
+*     down exit from "Crate Monster Load Room" to
+*     "A Storage Chamber" - open/blocked
+*
+D 0 83958 5 5 100 0 0 0
+*     down exit from "A Half-Collapsed Rock-Strewn Cave" to
+*     "A Narrow Passage Litterred With Rocky Debris" - closed/secret
+*
+D 0 83959 4 1 100 0 0 0
+*     up exit from "A Narrow Passage Litterred With Rocky Debris" to
+*     "A Half-Collapsed Rock-Strewn Cave" - closed
+*
+D 0 83959 1 5 100 0 0 0
+*     east exit from "A Narrow Passage Litterred With Rocky Debris" to
+*     "A Dark, Concealed Cave" - closed/secret
+*
+D 0 83964 3 1 100 0 0 0
+*     west exit from "A Dark, Concealed Cave" to
+*     "A Narrow Passage Litterred With Rocky Debris" - closed
+*
+D 0 83962 4 0 100 0 0 0
+*     up exit from "A Narrow Tunnel Below a Cave-In" to
+*     "A Rock-Strewn Cave-In" - open
+*
+D 0 83963 5 4 100 0 0 0
+*     down exit from "A Rock-Strewn Cave-In" to
+*     "A Narrow Tunnel Below a Cave-In" - open/secret
+*
+D 0 83968 7 5 100 0 0 0
+*     southwest exit from "A Smooth Shaft" to
+*     "A Tight and Jagged Tunnel" - closed/secret
+*
+D 0 83988 8 1 100 0 0 0
+*     northeast exit from "A Tight and Jagged Tunnel" to
+*     "A Smooth Shaft" - closed
+*
+D 0 83970 1 5 100 0 0 0
+*     east exit from "A Smooth Shaft" to
+*     "A Tight and Jagged Tunnel" - closed/secret
+*
+D 0 83987 3 1 100 0 0 0
+*     west exit from "A Tight and Jagged Tunnel" to
+*     "A Smooth Shaft" - closed
+*
+D 0 83983 0 5 100 0 0 0
+*     north exit from "A Rocky Niche on Some Rocks Above the Slime" to
+*     "A Deep Cave Cluttered With Sharp Rocks" - closed/secret
+*
+D 0 83984 2 1 100 0 0 0
+*     south exit from "A Deep Cave Cluttered With Sharp Rocks" to
+*     "A Rocky Niche on Some Rocks Above the Slime" - closed
+*
 *
 O 0 83100 1 83103 100 0 0 0        * a giant statue of a dwarven warrior
+O 0 83591 1 83103 100 0 0 0        * a HUGE banner
 O 0 83117 1 83107 100 0 0 0        * a bloody haunch of theezak meat
 O 0 83118 1 83108 100 0 0 0        * a huge barrel marked Stonebrew
 O 0 83114 6 83112 100 0 0 0        * a closet
@@ -1273,15 +1426,15 @@ O 0 223 10 83116 25 0 0 0          * (object type not in this .obj file)
 O 0 223 10 83116 75 0 0 0          * (object type not in this .obj file)
 O 0 83453 1 83116 100 0 0 0        * Massive stacks of gold and silver coins
 O 0 83101 1 83136 100 0 0 0        * two imposing statues
-O 0 83112 999 83147 100 0 0 0      * an iron shield bearing the crest of Alatorin
-O 0 83175 12 83148 100 0 0 0       * a barbed longsword
-O 0 83174 10 83148 100 0 0 0       * a bloody warhammer
-O 0 83173 8 83148 100 0 0 0        * a spiked stone mace
+O 0 83112 999 83147 50 0 0 0       * an iron shield bearing the crest of Alatorin
+O 0 83175 12 83148 50 0 0 0        * a barbed longsword
+O 0 83174 10 83148 50 0 0 0        * a bloody warhammer
+O 0 83173 8 83148 50 0 0 0         * a spiked stone mace
 O 0 83102 1 83159 100 0 0 0        * the wyrmskull throne
 O 0 83116 1 83166 100 0 0 0        * a bloody haunch of caribou meat
 O 0 72 2 83171 100 0 0 0           * (object type not in this .obj file)
 O 0 83138 1 83175 100 0 0 0        * a floating bauble
-O 0 83139 7 83188 100 0 0 0        * a small wooden desk
+O 0 83139 8 83188 100 0 0 0        * a small wooden desk
 P 1 58335 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 1310 1 83139 100 0 0 0         *   (object type not in this .obj file)
 P 1 83436 1 83139 100 0 0 0        *   a key of shimmering light
@@ -1295,20 +1448,20 @@ O 0 83199 3 83206 100 0 0 0        * a small concealed chest
 P 1 58336 5 83199 100 0 0 0        *   (object type not in this .obj file)
 O 0 83199 3 83212 100 0 0 0        * a small concealed chest
 P 1 58336 5 83199 100 0 0 0        *   (object type not in this .obj file)
-O 0 83212 4 83213 100 0 0 0        * a stone hearth
-O 0 83212 4 83215 100 0 0 0        * a stone hearth
+O 0 83212 5 83213 100 0 0 0        * a stone hearth
+O 0 83212 5 83215 100 0 0 0        * a stone hearth
 O 0 361 2 83218 100 0 0 0          * (object type not in this .obj file)
 O 0 83461 1 83225 100 0 0 0        * a marble statue of Taark Shanat
-O 0 83139 7 83227 100 0 0 0        * a small wooden desk
+O 0 83139 8 83227 100 0 0 0        * a small wooden desk
 P 1 58335 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 5 1 83139 100 0 0 0            *   (object type not in this .obj file)
 P 1 204 999 83139 100 0 0 0        *   (object type not in this .obj file)
 O 0 83251 1 83227 100 0 0 0        * a large sign
-O 0 85520 1 83229 100 0 0 0        * (object type not in this .obj file)
-O 0 95519 1 83229 100 0 0 0        * (object type not in this .obj file)
-O 0 95518 1 83229 100 0 0 0        * (object type not in this .obj file)
-O 0 95524 1 83229 100 0 0 0        * (object type not in this .obj file)
-O 0 95521 1 83229 100 0 0 0        * (object type not in this .obj file)
+O 0 85520 1 83229 20 0 0 0         * (object type not in this .obj file)
+O 0 95519 1 83229 20 0 0 0         * (object type not in this .obj file)
+O 0 95518 1 83229 20 0 0 0         * (object type not in this .obj file)
+O 0 95524 1 83229 20 0 0 0         * (object type not in this .obj file)
+O 0 95521 1 83229 20 0 0 0         * (object type not in this .obj file)
 O 0 83103 1 83234 100 0 0 0        * a reflecting pool
 O 0 83201 1 83236 100 0 0 0        * a bloody haunch of lion meat
 O 0 83203 1 83238 100 0 0 0        * a statue of Breuldin
@@ -1320,25 +1473,26 @@ O 0 83262 1 83276 100 0 0 0        * a heavy mithril chest
 P 1 83279 1 83262 100 0 0 0        *   a gold and mithril key
 O 0 83104 2 83277 100 0 0 0        * a mithril sign
 O 0 83110 1 83285 100 0 0 0        * a huge moorwood armoire
-O 0 83139 7 83285 100 0 0 0        * a small wooden desk
+O 0 83139 8 83285 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 58348 1 83139 80 0 0 0         *   (object type not in this .obj file)
 P 1 83241 1 83139 100 0 0 0        *   a tiny velvet case
 P 1 83242 1 83241 100 0 0 0        *     the royal signet of Alatorin
 O 0 83237 1 83285 100 0 0 0        * a huge golden weapon rack
-P 1 83240 1 83237 4 0 0 0          *   the enchanted mithril plumed helm of Shanat
-P 1 83238 1 83237 4 0 0 0          *   the enchanted mithril shield of Shanat
-P 1 83239 1 83237 4 0 0 0          *   the enchanted mithril full plate of Shanat
-O 0 83212 4 83295 100 0 0 0        * a stone hearth
+P 1 83240 1 83237 5 0 0 0          *   the enchanted mithril plumed helm of Shanat
+P 1 83238 1 83237 5 0 0 0          *   the enchanted mithril shield of Shanat
+P 1 83239 1 83237 5 0 0 0          *   the enchanted mithril full plate of Shanat
+O 0 83212 5 83295 100 0 0 0        * a stone hearth
 O 0 83443 1 83296 100 0 0 0        * a huge golden key
 O 0 83107 1 83297 100 0 0 0        * a red button
 O 0 83373 1 83298 100 0 0 0        * a great mound of platinum
-O 0 83139 7 83300 100 0 0 0        * a small wooden desk
+O 0 83139 8 83300 100 0 0 0        * a small wooden desk
 P 1 58336 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83272 1 83139 100 0 0 0        *   a parchment letter
 O 0 83199 3 83301 100 0 0 0        * a small concealed chest
 P 1 1728 1 83199 100 0 0 0         *   (object type not in this .obj file)
 O 0 83456 1 83302 100 0 0 0        * the righteous warhammer of Clangeddin Silverbeard
+O 0 83554 1 83303 100 0 0 0        * the righteous platinum-plated shield of Berronar Truesilver
 O 0 83455 1 83304 100 0 0 0        * the smouldering forge hammer of Urtengor
 O 0 83137 1 83305 100 0 0 0        * a portal
 O 0 83134 1 83306 100 0 0 0        * a portal
@@ -1382,23 +1536,27 @@ O 0 29318 1 83357 100 0 0 0        * (object type not in this .obj file)
 O 0 83150 1 83358 100 0 0 0        * a small concealed chest
 P 1 83310 1 83150 100 0 0 0        *   some gold-rimmed ruby goggles
 P 1 58336 5 83150 100 0 0 0        *   (object type not in this .obj file)
+O 0 83139 8 83358 100 0 0 0        * a small wooden desk
 O 0 500012 1 83359 5 0 0 0         * (object type not in this .obj file)
+O 0 83558 1 83366 100 0 0 0        * a painting
+O 0 83559 1 83367 100 0 0 0        * a painting
 O 0 1712 1 83368 100 0 0 0         * (object type not in this .obj file)
 O 0 1705 3 83374 70 0 0 0          * (object type not in this .obj file)
 O 0 338 999 83374 20 0 0 0         * (object type not in this .obj file)
 O 0 1703 5 83374 15 0 0 0          * (object type not in this .obj file)
 O 0 1703 5 83374 65 0 0 0          * (object type not in this .obj file)
 O 0 83180 2 83376 100 0 0 0        * a huge crate
-P 1 500 999 83180 100 0 0 0        *   (object type not in this .obj file)
-P 1 102 2 83180 100 0 0 0          *   (object type not in this .obj file)
-P 1 102 2 83180 100 0 0 0          *   (object type not in this .obj file)
+P 1 102 2 83180 40 0 0 0           *   (object type not in this .obj file)
+P 1 102 2 83180 40 0 0 0           *   (object type not in this .obj file)
+P 1 412 999 83180 40 0 0 0         *   (object type not in this .obj file)
 P 1 412 999 83180 100 0 0 0        *   (object type not in this .obj file)
 P 1 412 999 83180 100 0 0 0        *   (object type not in this .obj file)
 P 1 412 999 83180 100 0 0 0        *   (object type not in this .obj file)
 P 1 412 999 83180 100 0 0 0        *   (object type not in this .obj file)
-O 0 43101 8 83376 100 0 0 0        * (object type not in this .obj file)
-O 0 43125 4 83376 100 0 0 0        * (object type not in this .obj file)
-O 0 43101 8 83376 100 0 0 0        * (object type not in this .obj file)
+P 1 500 999 83180 40 0 0 0         *   (object type not in this .obj file)
+O 0 43101 17 83376 100 0 0 0       * (object type not in this .obj file)
+O 0 43125 8 83376 100 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83376 100 0 0 0       * (object type not in this .obj file)
 O 0 38314 1 83380 5 0 0 0          * (object type not in this .obj file)
 O 0 83197 1 83385 100 0 0 0        * a pacing bookshelf
 P 1 83196 1 83197 100 0 0 0        *   a flying spellbook
@@ -1406,7 +1564,7 @@ O 0 83248 1 83387 100 0 0 0        * a large velvet couch
 P 1 83249 1 83248 100 0 0 0        *   an ancient wedding band
 O 0 83220 1 83396 100 0 0 0        * a bloody haunch of olyx meat
 O 0 83217 1 83397 100 0 0 0        * a golden altar
-O 0 83212 4 83400 100 0 0 0        * a stone hearth
+O 0 83212 5 83400 100 0 0 0        * a stone hearth
 P 1 53625 1 83212 100 0 0 0        *   (object type not in this .obj file)
 O 0 83218 1 83404 100 0 0 0        * a tear in space
 O 0 83254 8 83406 90 0 0 0         * an earthen chest
@@ -1467,7 +1625,7 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83407 50 0 0 0           * (object type not in this .obj file)
+O 0 193 14 83407 50 0 0 0          * (object type not in this .obj file)
 O 0 83254 8 83409 90 0 0 0         * an earthen chest
 P 1 194 8 83254 30 0 0 0           *   (object type not in this .obj file)
 P 1 196 8 83254 30 0 0 0           *   (object type not in this .obj file)
@@ -1497,7 +1655,7 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83409 50 0 0 0           * (object type not in this .obj file)
+O 0 193 14 83409 50 0 0 0          * (object type not in this .obj file)
 O 0 83254 8 83410 90 0 0 0         * an earthen chest
 P 1 194 8 83254 30 0 0 0           *   (object type not in this .obj file)
 P 1 196 8 83254 30 0 0 0           *   (object type not in this .obj file)
@@ -1527,7 +1685,7 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83410 5 0 0 0            * (object type not in this .obj file)
+O 0 193 14 83410 5 0 0 0           * (object type not in this .obj file)
 O 0 83254 8 83411 90 0 0 0         * an earthen chest
 P 1 194 8 83254 30 0 0 0           *   (object type not in this .obj file)
 P 1 196 8 83254 30 0 0 0           *   (object type not in this .obj file)
@@ -1557,7 +1715,7 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83411 5 0 0 0            * (object type not in this .obj file)
+O 0 193 14 83411 5 0 0 0           * (object type not in this .obj file)
 O 0 83254 8 83412 90 0 0 0         * an earthen chest
 P 1 194 8 83254 30 0 0 0           *   (object type not in this .obj file)
 P 1 196 8 83254 30 0 0 0           *   (object type not in this .obj file)
@@ -1616,7 +1774,7 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83413 5 0 0 0            * (object type not in this .obj file)
+O 0 193 14 83413 5 0 0 0           * (object type not in this .obj file)
 O 0 83254 8 83414 90 0 0 0         * an earthen chest
 P 1 194 8 83254 30 0 0 0           *   (object type not in this .obj file)
 P 1 196 8 83254 30 0 0 0           *   (object type not in this .obj file)
@@ -1646,12 +1804,13 @@ P 1 58331 9 83254 15 0 0 0         *   (object type not in this .obj file)
 P 1 78463 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78485 8 83254 10 0 0 0         *   (object type not in this .obj file)
 P 1 78422 8 83254 10 0 0 0         *   (object type not in this .obj file)
-O 0 193 6 83414 5 0 0 0            * (object type not in this .obj file)
+O 0 193 14 83414 5 0 0 0           * (object type not in this .obj file)
 O 0 83226 1 83416 100 0 0 0        * a polished wooden desk
 P 1 58335 5 83226 100 0 0 0        *   (object type not in this .obj file)
 P 1 83247 1 83226 100 0 0 0        *   a checklist
 O 0 83236 1 83431 100 0 0 0        * a plaque
 O 0 83308 1 83481 100 0 0 0        * a wall
+O 0 83561 1 83481 100 0 0 0        * a cave painting
 O 0 83301 1 83487 100 0 0 0        * a wormhole
 O 0 7353 10 83488 100 0 0 0        * (object type not in this .obj file)
 O 0 83149 1 83499 100 0 0 0        * an electrum sign
@@ -1674,7 +1833,7 @@ O 0 89008 4 83518 100 0 0 0        * (object type not in this .obj file)
 O 0 83428 1 83519 100 0 0 0        * a cask of vintage Hammer and Shield brand ale
 O 0 95527 1 83523 100 0 0 0        * (object type not in this .obj file)
 O 0 83114 6 83535 100 0 0 0        * a closet
-P 1 40444 8 83114 100 0 0 0        *   (object type not in this .obj file)
+P 1 40444 9 83114 100 0 0 0        *   (object type not in this .obj file)
 O 0 83114 6 83536 100 0 0 0        * a closet
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 500 999 83114 100 0 0 0        *   (object type not in this .obj file)
@@ -1685,23 +1844,28 @@ O 0 500001 1 83544 100 0 0 0       * (object type not in this .obj file)
 O 0 83330 1 83544 100 0 0 0        * a pile of rubble
 P 1 96820 1 83330 100 0 0 0        *   (object type not in this .obj file)
 O 0 83331 1 83544 100 0 0 0        * a circular boulder
-O 0 43125 4 83546 100 0 0 0        * (object type not in this .obj file)
+O 0 43125 8 83546 100 0 0 0        * (object type not in this .obj file)
 O 0 83180 2 83546 100 0 0 0        * a huge crate
 O 0 18718 1 83546 100 0 0 0        * (object type not in this .obj file)
-O 0 43101 8 83546 100 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83546 100 0 0 0       * (object type not in this .obj file)
 O 0 83332 1 83547 100 0 0 0        * a small wooden engraving
 O 0 83489 1 83548 100 0 0 0        * a mithril sign reading 'Cutpurse Killers'
 O 0 83422 1 83549 100 0 0 0        * a huge boulder
+O 0 43101 17 83549 100 0 0 0       * (object type not in this .obj file)
+O 0 83563 1 83550 100 0 0 0        * a painting
+O 0 83570 1 83551 100 0 0 0        * a painting
+O 0 83569 1 83552 100 0 0 0        * a painting
+O 0 83568 1 83553 100 0 0 0        * a painting
 O 0 83337 1 83554 100 0 0 0        * a dwarven inscription
 O 0 83368 1 83564 100 0 0 0        * a display case
-P 1 83442 1 83368 100 0 0 0        *   a smooth bracelet of the dwarven kind
+P 1 83442 1 83368 100 0 0 0        *   a smooth bracelet of dwarven kind
 O 0 83367 1 83566 100 0 0 0        * a display case
-P 1 83441 1 83367 100 0 0 0        *   a smooth torque of the dwarven kind
+P 1 83441 1 83367 100 0 0 0        *   a smooth torque of dwarven kind
 O 0 83370 1 83568 100 0 0 0        * a display case
-P 1 83439 1 83370 100 0 0 0        *   a spiked torque of the dwarven kind
+P 1 83439 1 83370 100 0 0 0        *   a spiked torque of dwarven kind
 O 0 83369 1 83570 100 0 0 0        * a display case
-P 1 83440 1 83369 100 0 0 0        *   a spiked bracelet of the dwarven kind
-O 0 83371 1 83575 100 0 0 0        * the key of kings
+P 1 83440 1 83369 100 0 0 0        *   a spiked bracelet of dwarven kind
+O 0 83545 1 83575 100 0 0 0        * a mithril inscription
 O 0 83348 1 83576 100 0 0 0        * a crucified dwarf
 O 0 83349 4 83581 100 0 0 0        * a red-flame torch
 O 0 83349 4 83582 100 0 0 0        * a red-flame torch
@@ -1709,26 +1873,30 @@ O 0 83349 4 83583 100 0 0 0        * a red-flame torch
 O 0 83349 4 83584 100 0 0 0        * a red-flame torch
 O 0 83359 1 83600 100 0 0 0        * the wall
 O 0 83360 1 83616 100 0 0 0        * the wall
-O 0 6603 1 83617 100 0 0 0         * (object type not in this .obj file)
-O 0 1460 3 83618 100 0 0 0         * (object type not in this .obj file)
-O 0 83366 12 83618 40 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83618 90 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83618 35 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83618 10 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83619 20 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83620 85 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83620 40 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83620 15 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83622 10 0 0 0        * an antiquated silver dragon egg
-O 0 1460 3 83623 100 0 0 0         * (object type not in this .obj file)
-O 0 83366 12 83623 10 0 0 0        * an antiquated silver dragon egg
-O 0 83366 12 83624 15 0 0 0        * an antiquated silver dragon egg
-O 0 1460 3 83625 100 0 0 0         * (object type not in this .obj file)
-O 0 83366 12 83626 15 0 0 0        * an antiquated silver dragon egg
-O 0 83139 7 83627 100 0 0 0        * a small wooden desk
+O 0 6603 2 83617 100 0 0 0         * (object type not in this .obj file)
+O 0 1460 10 83618 100 0 0 0        * (object type not in this .obj file)
+O 0 83366 15 83618 40 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83618 90 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83618 35 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83618 10 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83619 45 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83619 20 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83620 85 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83620 40 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83620 15 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83622 10 0 0 0        * an antiquated silver dragon egg
+O 0 1460 10 83623 100 0 0 0        * (object type not in this .obj file)
+O 0 83366 15 83623 10 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83624 40 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83624 15 0 0 0        * an antiquated silver dragon egg
+O 0 1460 10 83625 100 0 0 0        * (object type not in this .obj file)
+O 0 83366 15 83626 40 0 0 0        * an antiquated silver dragon egg
+O 0 83366 15 83626 15 0 0 0        * an antiquated silver dragon egg
+O 0 83139 8 83627 100 0 0 0        * a small wooden desk
 P 1 58335 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 83385 1 83139 100 0 0 0        *   a hide-bound notebook
 O 0 83388 1 83627 100 0 0 0        * a wanted list
+O 0 83540 1 83627 100 0 0 0        * a wanted poster
 O 0 83417 1 83628 100 0 0 0        * an ancient cask of 'Frothing Mug' ale
 O 0 1705 3 83631 70 0 0 0          * (object type not in this .obj file)
 O 0 338 999 83631 20 0 0 0         * (object type not in this .obj file)
@@ -1746,22 +1914,23 @@ O 0 83393 1 83697 100 0 0 0        * a small sign
 O 0 83425 1 83699 100 0 0 0        * an ancient petrified casket
 O 0 83402 1 83745 100 0 0 0        * a small stone fountain
 O 0 83413 1 83749 100 0 0 0        * a sign
-O 0 83139 7 83754 100 0 0 0        * a small wooden desk
+O 0 83139 8 83754 100 0 0 0        * a small wooden desk
 O 0 83404 1 83756 100 0 0 0        * a jodani wood sign
 O 0 45 2 83761 100 0 0 0           * (object type not in this .obj file)
 O 0 83114 6 83768 100 0 0 0        * a closet
-P 1 94336 7 83114 50 0 0 0         *   (object type not in this .obj file)
-P 1 94336 7 83114 50 0 0 0         *   (object type not in this .obj file)
+P 1 94336 8 83114 50 0 0 0         *   (object type not in this .obj file)
+P 1 94336 8 83114 50 0 0 0         *   (object type not in this .obj file)
 O 0 83114 6 83769 100 0 0 0        * a closet
 P 1 97041 1 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 97047 1 83114 100 0 0 0        *   (object type not in this .obj file)
 P 1 97048 1 83114 100 0 0 0        *   (object type not in this .obj file)
-O 0 43125 4 83783 10 0 0 0         * (object type not in this .obj file)
-O 0 43101 8 83783 60 0 0 0         * (object type not in this .obj file)
-O 0 43101 8 83783 30 0 0 0         * (object type not in this .obj file)
-O 0 43101 8 83783 10 0 0 0         * (object type not in this .obj file)
+O 0 43125 8 83783 10 0 0 0         * (object type not in this .obj file)
+O 0 43101 17 83783 10 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83783 30 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83783 10 0 0 0        * (object type not in this .obj file)
 O 0 3097 2 83795 100 0 0 0         * (object type not in this .obj file)
 O 0 83357 1 83796 100 0 0 0        * a broad sign
+O 0 83212 5 83798 100 0 0 0        * a stone hearth
 O 0 72 2 83801 100 0 0 0           * (object type not in this .obj file)
 O 0 83432 1 83823 100 0 0 0        * a swirling portal of mist
 O 0 83434 1 83823 100 0 0 0        * a shimmering portal
@@ -1769,18 +1938,68 @@ O 0 83429 1 83827 100 0 0 0        * a cluttered bookshelf
 P 1 55134 1 83429 90 0 0 0         *   (object type not in this .obj file)
 P 1 55392 1 83429 50 0 0 0         *   (object type not in this .obj file)
 P 1 83182 999 83429 40 0 0 0       *   an Alatorin spellbook
-O 0 83139 7 83828 100 0 0 0        * a small wooden desk
+O 0 83139 8 83828 100 0 0 0        * a small wooden desk
 P 1 58335 5 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 40404 1 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 40405 1 83139 100 0 0 0        *   (object type not in this .obj file)
 P 1 66723 999 83139 100 0 0 0      *   (object type not in this .obj file)
 P 1 11562 1 83139 100 0 0 0        *   (object type not in this .obj file)
 O 0 83433 1 83831 100 0 0 0        * a shimmering portal
+O 0 83528 1 83860 100 0 0 0        * a rotting basilisk carcass
+P 1 83529 1 83528 100 0 0 0        *   a chunk of rotting basilisk flesh
+O 0 83508 1 83870 100 0 0 0        * a giant throne of twisted bones
+O 0 83573 1 83870 100 0 0 0        * no-show green slime teleporter
+O 0 1460 10 83873 100 0 0 0        * (object type not in this .obj file)
+O 0 83513 1 83874 100 0 0 0        * a human skeleton lashed to the wall
+O 0 1460 10 83874 100 0 0 0        * (object type not in this .obj file)
+O 0 1460 10 83875 100 0 0 0        * (object type not in this .obj file)
+O 0 83512 1 83876 100 0 0 0        * a strange white hand print
+O 0 1460 10 83876 100 0 0 0        * (object type not in this .obj file)
+O 0 1460 10 83877 100 0 0 0        * (object type not in this .obj file)
+O 0 83510 1 83878 100 0 0 0        * a trophy skull
+O 0 1460 10 83878 100 0 0 0        * (object type not in this .obj file)
 O 0 83473 1 83881 100 0 0 0        * a keg of beer from 'the Golden Pearl'
+O 0 83567 1 83894 100 0 0 0        * a painting
+O 0 83564 1 83895 100 0 0 0        * a painting
+O 0 83565 1 83896 100 0 0 0        * a painting
+O 0 83566 1 83897 100 0 0 0        * a painting
 O 0 83500 1 83898 100 0 0 0        * a huge boulder
-O 0 43125 4 83899 100 0 0 0        * (object type not in this .obj file)
-O 0 43101 8 83899 100 0 0 0        * (object type not in this .obj file)
-O 0 43101 8 83899 100 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83898 80 0 0 0        * (object type not in this .obj file)
+O 0 43125 8 83898 50 0 0 0         * (object type not in this .obj file)
+O 0 43125 8 83899 100 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83899 100 0 0 0       * (object type not in this .obj file)
+O 0 43101 17 83899 100 0 0 0       * (object type not in this .obj file)
+O 0 43101 17 83900 100 0 0 0       * (object type not in this .obj file)
+O 0 43125 8 83900 60 0 0 0         * (object type not in this .obj file)
+O 0 43125 8 83900 100 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83900 20 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83900 30 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83900 40 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83900 50 0 0 0        * (object type not in this .obj file)
+O 0 43125 8 83900 50 0 0 0         * (object type not in this .obj file)
+O 0 1460 10 83922 100 0 0 0        * (object type not in this .obj file)
+O 0 83527 1 83936 100 0 0 0        * slime
+O 0 83478 1 83941 100 0 0 0        * a HUGE ancient wooden crate
+O 0 43101 17 83941 60 0 0 0        * (object type not in this .obj file)
+O 0 43101 17 83941 100 0 0 0       * (object type not in this .obj file)
+O 0 6603 2 83944 100 0 0 0         * (object type not in this .obj file)
+O 0 193 14 83947 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83948 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83949 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83950 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83951 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83952 20 0 0 0          * (object type not in this .obj file)
+O 0 193 14 83953 100 0 0 0         * (object type not in this .obj file)
+O 0 193 14 83953 100 0 0 0         * (object type not in this .obj file)
+O 0 83555 1 83954 100 0 0 0        * a rotting ram carcass
+P 1 83556 3 83555 100 0 0 0        *   a chunk of rotting ram meat
+P 1 83556 3 83555 50 0 0 0         *   a chunk of rotting ram meat
+P 1 83556 3 83555 50 0 0 0         *   a chunk of rotting ram meat
+O 0 83571 1 83955 100 0 0 0        * a rotting cockatrice carcass
+P 1 83572 1 83571 100 0 0 0        *   a chunk of rotting cockatrice flesh
+O 0 83579 1 83957 100 0 0 0        * no-show green slime teleporter
+O 0 83578 1 83978 100 0 0 0        * a long vine
+O 0 83577 1 83979 100 0 0 0        * a long vine
 *
 M 0 83100 4 83103 100 0 0 0        * an entry guard of Alatorin
 E 1 83112 999 11 100 0 0 0         *   an iron shield bearing the crest of Alatorin
@@ -1816,9 +2035,9 @@ M 0 83151 1 83117 100 0 0 0        * Glab'grol the goblin auctioneer
 M 0 83152 4 83117 100 0 0 0        * a young commoner
 M 0 83152 4 83117 100 0 0 0        * a young commoner
 M 0 83153 2 83117 100 0 0 0        * a greedy merchant
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83153 2 83117 100 0 0 0        * a greedy merchant
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83120 16 83118 100 0 0 0       * an Alatorin elite guard
 E 1 83112 999 11 100 0 0 0         *   an iron shield bearing the crest of Alatorin
 E 1 83119 999 16 100 0 0 0         *   a polished iron broadsword
@@ -1838,11 +2057,17 @@ M 0 83120 16 83120 100 0 0 0       * an Alatorin elite guard
 E 1 83112 999 11 100 0 0 0         *   an iron shield bearing the crest of Alatorin
 E 1 83119 999 16 100 0 0 0         *   a polished iron broadsword
 M 0 83126 1 83121 100 0 0 0        * Brudo 'Short Stack' MacFuggens
+E 1 83581 1 5 100 0 0 0            *   a fine suit of silver chainmail
 E 1 83119 999 16 100 0 0 0         *   a polished iron broadsword
 E 1 83344 1 17 100 0 0 0           *   Brudo's emerald shortsword
+E 1 83582 2 25 100 0 0 0           *   clund hammerhelm proc 1
 F 1 83157 19 83121 100 0 0 0       * an Alatorin peacekeeper (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83121 6 83121 100 0 0 0        * a shield dwarf explorer (following)
+F 1 83121 6 83121 100 0 0 0        * a shield dwarf explorer (following)
+F 1 83122 6 83121 100 0 0 0        * a strong explorer (following)
+F 1 83122 6 83121 100 0 0 0        * a strong explorer (following)
 M 0 83121 6 83122 100 0 0 0        * a shield dwarf explorer
 M 0 83121 6 83122 100 0 0 0        * a shield dwarf explorer
 M 0 83121 6 83122 100 0 0 0        * a shield dwarf explorer
@@ -1878,21 +2103,21 @@ M 0 83230 1 83134 100 0 0 0        * a shield dwarf warrior
 M 0 83232 1 83134 100 0 0 0        * a minotaur
 E 1 83234 8 16 100 0 0 0           *   a massive tauren battle-axe
 M 0 83197 1 83135 100 0 0 0        * Gradden the Dwarf Bounty Hunter
-G 1 94336 7 0 100 0 0 0            *    (object type not in this .obj file)
-M 0 83128 5 83138 100 0 0 0        * a battle-ready seige dwarf
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83128 5 83138 100 0 0 0        * a battle-ready siege dwarf
 E 1 83176 1 5 100 0 0 0            *   a suit of heavy spiked seige armor
 E 1 83175 12 16 100 0 0 0          *   a barbed longsword
 E 1 83174 10 17 100 0 0 0          *   a bloody warhammer
-M 0 83128 5 83138 100 0 0 0        * a battle-ready seige dwarf
+M 0 83128 5 83138 100 0 0 0        * a battle-ready siege dwarf
 E 1 83175 12 16 100 0 0 0          *   a barbed longsword
 E 1 83174 10 17 100 0 0 0          *   a bloody warhammer
-M 0 83128 5 83138 100 0 0 0        * a battle-ready seige dwarf
+M 0 83128 5 83138 100 0 0 0        * a battle-ready siege dwarf
 E 1 83175 12 16 100 0 0 0          *   a barbed longsword
 E 1 83174 10 17 100 0 0 0          *   a bloody warhammer
-M 0 83128 5 83138 100 0 0 0        * a battle-ready seige dwarf
+M 0 83128 5 83138 100 0 0 0        * a battle-ready siege dwarf
 E 1 83175 12 16 100 0 0 0          *   a barbed longsword
 E 1 83174 10 17 100 0 0 0          *   a bloody warhammer
-M 0 83128 5 83138 100 0 0 0        * a battle-ready seige dwarf
+M 0 83128 5 83138 100 0 0 0        * a battle-ready siege dwarf
 E 1 83175 12 16 100 0 0 0          *   a barbed longsword
 E 1 83174 10 17 100 0 0 0          *   a bloody warhammer
 M 0 83129 5 83138 100 0 0 0        * a battlerager
@@ -1915,14 +2140,14 @@ M 0 83147 1 83145 100 0 0 0        * Sturb Ironhead
 E 1 83228 1 14 100 0 0 0           *   a spiked mithril wristguard
 E 1 83229 2 16 100 0 0 0           *   a spiked mithril mace
 E 1 83229 2 17 100 0 0 0           *   a spiked mithril mace
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83175 1 83145 100 0 0 0        * a commander of the siege army (following)
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83174 1 83145 100 0 0 0        * Birch Scruden
 E 1 83173 8 16 100 0 0 0           *   a spiked stone mace
 E 1 83173 8 17 100 0 0 0           *   a spiked stone mace
 G 1 83323 1 0 100 0 0 0            *    the bloody heart of Birch Scruden
-G 1 94336 7 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83120 16 83149 100 0 0 0       * an Alatorin elite guard
 E 1 83112 999 11 100 0 0 0         *   an iron shield bearing the crest of Alatorin
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
@@ -2223,6 +2448,8 @@ E 1 83111 999 17 100 0 0 0         *   an iron broadsword
 M 0 83205 1 83259 100 0 0 0        * Clund Hammerhelm
 E 1 83260 1 1 100 0 0 0            *   the signet of Hammerhelm
 E 1 83469 1 8 100 0 0 0            *   some heavily-spiked stone-soled boots
+E 1 83583 1 16 100 0 0 0           *   clund hammerhelm proc 2
+E 1 83582 2 17 100 0 0 0           *   clund hammerhelm proc 1
 E 1 83261 3 16 100 0 0 0           *   a mammoth stone dwarven warhammer
 G 1 83345 1 0 100 0 0 0            *    the bloody head of Clund Hammerhelm
 F 1 83206 4 83259 100 0 0 0        * an elite Hammerhelm soldier (following)
@@ -2250,9 +2477,9 @@ E 1 83304 12 16 100 0 0 0          *   an illusionary dagger
 E 1 83304 12 17 100 0 0 0          *   an illusionary dagger
 M 0 83267 1 83267 100 0 0 0        * a royal shield dwarf delegate
 F 1 83268 1 83267 100 0 0 0        * an ambassador of Kimordril (following)
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83274 1 83267 100 0 0 0        * a visiting duergar guild leader (following)
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83273 2 83267 100 0 0 0        * an elite guard (following)
 F 1 83273 2 83267 100 0 0 0        * an elite guard (following)
 F 1 83275 2 83267 100 0 0 0        * a clansdwarf (following)
@@ -2429,7 +2656,7 @@ G 1 19501 2 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83163 1 83295 30 0 0 0         * Crysanthilis, Noble of Shaledrieth
 E 1 83166 1 1 100 0 0 0            *   a crystal ring set with a jade
 E 1 83167 1 16 100 0 0 0           *   a crystal longsword
-G 1 94336 7 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83185 1 83295 30 0 0 0         * Mishanen, the centaur herbalist
 E 1 83186 1 37 100 0 0 0           *   a tail ring of gilded sunpetals
 G 1 83187 1 0 100 0 0 0            *    a gnarled wooden wand
@@ -2445,6 +2672,14 @@ G 1 73 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 77 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 97 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 96 999 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83463 1 83295 20 0 0 0         * Hargorigard the duergar elder
+E 1 83535 1 14 100 0 0 0           *   a wristband of stitched snakeskin
+E 1 83536 2 16 100 0 0 0           *   an old diorite battle hammer
+E 1 83536 2 17 100 0 0 0           *   an old diorite battle hammer
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83537 1 16 30 0 0 0            *   a two-handed adamantite dwarven battle-hammer
+G 1 67113 1 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83157 19 83295 100 0 0 0       * an Alatorin peacekeeper
 E 1 83112 999 11 100 0 0 0         *   an iron shield bearing the crest of Alatorin
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
@@ -2455,25 +2690,49 @@ M 0 83276 1 83300 100 0 0 0        * Meshadan the recruiter
 E 1 83303 1 3 100 0 0 0            *   a shiny mithril key
 E 1 83465 1 6 100 0 0 0            *   a magnificent horned dwarven warhelm
 E 1 83293 6 16 100 0 0 0           *   a two-handed mithril broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
-M 0 83282 7 83300 100 0 0 0        * a legionnaire
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
+E 1 83111 999 16 100 0 0 0         *   an iron broadsword
+E 1 83111 999 17 100 0 0 0         *   an iron broadsword
+F 1 83282 17 83300 100 0 0 0       * a legionnaire (following)
 E 1 83111 999 16 100 0 0 0         *   an iron broadsword
 E 1 83111 999 17 100 0 0 0         *   an iron broadsword
 M 0 83138 3 83307 100 0 0 0        * a shield dwarf summoner
@@ -2492,7 +2751,7 @@ M 0 83135 3 83318 100 0 0 0        * a regal zebra
 M 0 83135 3 83318 100 0 0 0        * a regal zebra
 M 0 83133 3 83319 100 0 0 0        * a savannah lion
 M 0 83133 3 83319 100 0 0 0        * a savannah lion
-M 0 83133 3 83319 100 0 0 0        * a savannah lion
+M 0 83133 3 83319 33 0 0 0         * a savannah lion
 M 0 83134 5 83323 100 0 0 0        * a prairie dog
 M 0 83134 5 83323 100 0 0 0        * a prairie dog
 M 0 83134 5 83323 100 0 0 0        * a prairie dog
@@ -2510,7 +2769,7 @@ M 0 83132 3 83329 100 0 0 0        * a sneaky pixie
 E 1 83126 6 16 100 0 0 0           *   a sandstone barb
 E 1 83126 6 17 100 0 0 0           *   a sandstone barb
 G 1 83127 3 0 100 0 0 0            *    a magic pixie drink
-M 0 83132 3 83329 100 0 0 0        * a sneaky pixie
+M 0 83132 3 83329 33 0 0 0         * a sneaky pixie
 E 1 83126 6 16 100 0 0 0           *   a sandstone barb
 E 1 83126 6 17 100 0 0 0           *   a sandstone barb
 G 1 83127 3 0 100 0 0 0            *    a magic pixie drink
@@ -2588,8 +2847,11 @@ G 1 83275 6 0 100 0 0 0            *    a concealed dirk
 G 1 83275 6 0 100 0 0 0            *    a concealed dirk
 M 0 83384 4 83377 100 0 0 0        * a derro rogue
 M 0 83384 4 83377 100 0 0 0        * a derro rogue
+M 0 40467 2 83377 100 0 0 0        * (mob type not in this .mob file)
+M 0 40468 1 83377 100 0 0 0        * (mob type not in this .mob file)
+M 0 40467 2 83377 100 0 0 0        * (mob type not in this .mob file)
 M 0 83383 1 83378 100 0 0 0        * a huge sloppy fat dwarf
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83303 4 83378 100 0 0 0        * a raucous goblin drunk
 M 0 83360 3 83379 100 0 0 0        * a Deramuth mercenary
 M 0 83384 4 83379 100 0 0 0        * a derro rogue
@@ -2621,17 +2883,14 @@ G 1 421 999 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83190 1 83385 100 0 0 0        * a walking wooden stool
 M 0 83191 1 83385 100 0 0 0        * a broom sweeping on its own
 M 0 83192 1 83385 100 0 0 0        * a galloping arm chair
-M 0 83122 6 83391 100 0 0 0        * a strong explorer
-M 0 83121 6 83391 100 0 0 0        * a shield dwarf explorer
-M 0 83122 6 83394 100 0 0 0        * a strong explorer
-M 0 83121 6 83394 100 0 0 0        * a shield dwarf explorer
 M 0 83239 1 83396 100 0 0 0        * the guild cook
 M 0 83226 1 83397 100 0 0 0        * an elderly disciple of Dumathoin
 M 0 83315 3 83397 100 0 0 0        * a solemn dwarf
 M 0 83315 3 83397 100 0 0 0        * a solemn dwarf
 M 0 83315 3 83397 100 0 0 0        * a solemn dwarf
 M 0 83233 1 83401 100 0 0 0        * Nadaven the elven swordsman
-E 1 83202 1 10 100 0 0 0           *   some elven chainmail sleeves
+E 1 83562 1 7 5 0 0 0              *   some elven chainmail leggings
+E 1 83202 1 10 5 0 0 0             *   some elven chainmail sleeves
 E 1 83216 5 16 100 0 0 0           *   a green longsword
 E 1 83216 5 17 100 0 0 0           *   a green longsword
 M 0 83234 2 83401 100 0 0 0        * a young fighter
@@ -2641,7 +2900,7 @@ E 1 83119 999 16 100 0 0 0         *   a polished iron broadsword
 M 0 83255 1 83410 100 0 0 0        * a spirit avatar of Dumathoin
 G 1 83253 1 0 100 0 0 0            *    an ancient cracked stone key
 M 0 83238 1 83415 100 0 0 0        * a blazing avatar of Breuldin
-E 1 83219 1 5 50 0 0 0             *   an ancient suit of mithril dwarven scalemail
+E 1 83219 1 5 15 0 0 0             *   an ancient suit of mithril dwarven scalemail
 M 0 83240 1 83416 100 0 0 0        * the King's attendant
 M 0 83270 1 83418 100 0 0 0        * a strange baobob tree
 G 1 83266 5 0 100 0 0 0            *    a single droplet of baobob sap
@@ -2676,7 +2935,8 @@ E 1 83142 999 16 100 0 0 0         *   a huge warhammer
 M 0 83257 3 83426 100 0 0 0        * an officer
 E 1 83142 999 16 100 0 0 0         *   a huge warhammer
 M 0 83258 1 83427 100 0 0 0        * Omak the barbarian warlord
-E 1 83277 1 10 100 0 0 0           *   some fur-lined horned ram-skull shoulder guards
+E 1 83553 1 7 50 0 0 0             *   some fur-lined horned ram-skull knee guards
+E 1 83277 1 10 50 0 0 0            *   some fur-lined horned ram-skull shoulder guards
 E 1 83278 1 16 100 0 0 0           *   a huge club with a single bloodied bone shard
 F 1 83260 1 83427 100 0 0 0        * a vicious tundra panther (following)
 G 1 43140 2 0 100 0 0 0            *    (object type not in this .obj file)
@@ -2786,9 +3046,9 @@ F 1 83264 10 83446 100 0 0 0       * a well-armored mountain dwarf soldier (foll
 M 0 83277 1 83472 100 0 0 0        * a mithril dwarf priestess golem
 E 1 83290 1 16 100 0 0 0           *   a huge mithril mace
 M 0 83278 1 83472 100 0 0 0        * a four-armed mithril warrior
-E 1 83291 3 16 100 0 0 0           *   a mithril longsword
+E 1 83291 4 16 100 0 0 0           *   a mithril longsword
 E 1 83292 8 17 100 0 0 0           *   a mithril battle axe
-E 1 83291 3 25 100 0 0 0           *   a mithril longsword
+E 1 83291 4 25 100 0 0 0           *   a mithril longsword
 E 1 83292 8 26 100 0 0 0           *   a mithril battle axe
 M 0 83279 1 83472 100 0 0 0        * a mithril dwarf knight golem
 E 1 83293 6 16 100 0 0 0           *   a two-handed mithril broadsword
@@ -2893,7 +3153,7 @@ M 0 83305 4 83517 100 0 0 0        * a starving warrior
 G 1 88823 1 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 38303 2 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83104 2 83517 100 0 0 0        * a fat dwarf
-M 0 83314 1 83518 100 0 0 0        * a massive seige dwarf
+M 0 83314 1 83518 100 0 0 0        * a massive siege dwarf
 E 1 83174 10 16 100 0 0 0          *   a bloody warhammer
 M 0 83303 4 83518 83 0 0 0         * a raucous goblin drunk
 M 0 83297 1 83520 100 0 0 0        * the Hammer and Shield bartender
@@ -2933,47 +3193,47 @@ G 1 16599 2 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83396 2 83539 100 0 0 0        * a brutish dwarven thug
 M 0 83398 2 83539 100 0 0 0        * an ugly, strong, brutish thug
 M 0 83398 2 83539 100 0 0 0        * an ugly, strong, brutish thug
-M 0 4410 1 83543 50 0 0 0          * (mob type not in this .mob file)
+M 0 4410 2 83543 50 0 0 0          * (mob type not in this .mob file)
 M 0 83397 2 83549 100 0 0 0        * a strong, brutish thug
 M 0 83397 2 83549 100 0 0 0        * a strong, brutish thug
 M 0 83400 3 83549 100 0 0 0        * a sneaky goblin thief
 M 0 83335 1 83552 100 0 0 0        * Kirrb Faktl
 E 1 83492 1 8 100 0 0 0            *   some tight black shoes with durithalite buckles
-E 1 83362 11 16 100 0 0 0          *   a slender adamantite dagger
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
 G 1 83374 1 0 100 0 0 0            *    a tome of Clan Stealth Hunter lore
 M 0 83336 1 83552 100 0 0 0        * Ragmor
-E 1 83362 11 16 100 0 0 0          *   a slender adamantite dagger
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
 E 1 83488 1 21 100 0 0 0           *   a durithalite earring shaped like a dagger
 M 0 83337 1 83552 100 0 0 0        * Romgar
-E 1 83362 11 16 100 0 0 0          *   a slender adamantite dagger
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
 E 1 83490 1 19 100 0 0 0           *   a glass eye with a crimson iris
 M 0 83338 1 83552 100 0 0 0        * Tarkorsh
 E 1 83493 1 7 100 0 0 0            *   some wolf hide pants
-E 1 83362 11 16 100 0 0 0          *   a slender adamantite dagger
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
 M 0 83319 1 83582 100 0 0 0        * Grukadak the watcher
 E 1 83353 1 24 100 0 0 0           *   a war banner of Helgor
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 F 1 83318 4 83582 100 0 0 0        * a gate guard of Helgor outpost (following)
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 F 1 83318 4 83582 100 0 0 0        * a gate guard of Helgor outpost (following)
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 F 1 83318 4 83582 100 0 0 0        * a gate guard of Helgor outpost (following)
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 F 1 83318 4 83582 100 0 0 0        * a gate guard of Helgor outpost (following)
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 M 0 83323 8 83585 100 0 0 0        * a Helgor crossbowman
 M 0 83323 8 83585 100 0 0 0        * a Helgor crossbowman
@@ -2982,8 +3242,8 @@ M 0 83323 8 83587 100 0 0 0        * a Helgor crossbowman
 M 0 83323 8 83589 100 0 0 0        * a Helgor crossbowman
 M 0 83323 8 83589 100 0 0 0        * a Helgor crossbowman
 M 0 83334 5 83589 100 0 0 0        * a burly guard of Helgor outpost
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 R 1 83321 7 83589 100 0 0 0        * a huge warg (being ridden)
 M 0 83323 8 83590 100 0 0 0        * a Helgor crossbowman
@@ -3000,13 +3260,13 @@ E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
 M 0 83332 8 83594 100 0 0 0        * an elite Helgor sentinel
 E 1 83281 16 16 100 0 0 0          *   a mithril dwarven halberd
 M 0 83334 5 83594 100 0 0 0        * a burly guard of Helgor outpost
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 R 1 83321 7 83594 100 0 0 0        * a huge warg (being ridden)
 M 0 83334 5 83595 100 0 0 0        * a burly guard of Helgor outpost
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 R 1 83321 7 83595 100 0 0 0        * a huge warg (being ridden)
 M 0 83320 1 83600 100 0 0 0        * the Helgor taskmaster
@@ -3025,8 +3285,8 @@ M 0 83329 2 83603 100 0 0 0        * a halfling slave
 M 0 83330 3 83603 100 0 0 0        * a gnome slave
 M 0 83355 1 83603 85 0 0 0         * a grey elf prisoner
 M 0 83334 5 83604 100 0 0 0        * a burly guard of Helgor outpost
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 R 1 83321 7 83604 100 0 0 0        * a huge warg (being ridden)
 M 0 17197 2 83605 45 0 0 0         * (mob type not in this .mob file)
@@ -3047,8 +3307,8 @@ G 1 83356 999 0 100 0 0 0          *    a vial of adder venom
 G 1 2020 999 0 100 0 0 0           *    (object type not in this .obj file)
 G 1 53 999 0 100 0 0 0             *    (object type not in this .obj file)
 M 0 83334 5 83609 100 0 0 0        * a burly guard of Helgor outpost
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83352 10 16 100 0 0 0          *   a huge dwarven battle axe
 R 1 83321 7 83609 100 0 0 0        * a huge warg (being ridden)
 M 0 83325 1 83613 100 0 0 0        * an officer of Helgor
@@ -3062,14 +3322,14 @@ F 1 83324 4 83613 100 0 0 0        * an outpost clansdwarf (following)
 G 1 44404 9 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 44404 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83357 1 83614 100 0 0 0        * a sneaky clansdwarf
-E 1 83362 11 16 100 0 0 0          *   a slender adamantite dagger
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
-G 1 94336 7 0 100 0 0 0            *    (object type not in this .obj file)
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83326 1 83616 100 0 0 0        * Draksol the torturer
 E 1 83364 1 3 100 0 0 0            *   a string of mountain dwarf ears
 E 1 83363 1 13 100 0 0 0           *   a bloodstained black leather belt
 E 1 83361 1 16 100 0 0 0           *   a long bloody whip
-E 1 83362 11 17 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
 F 1 83332 8 83616 100 0 0 0        * an elite Helgor sentinel (following)
 G 1 83281 16 0 100 0 0 0           *    a mithril dwarven halberd
 F 1 83332 8 83616 100 0 0 0        * an elite Helgor sentinel (following)
@@ -3137,11 +3397,11 @@ R 1 83351 3 83666 100 0 0 0        * a huge boar (being ridden)
 M 0 83346 4 83667 100 0 0 0        * a fearless guard of Khoralator Fort
 R 1 83351 3 83667 100 0 0 0        * a huge boar (being ridden)
 M 0 83347 8 83670 100 0 0 0        * an elite dwarven guard
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 M 0 83347 8 83670 100 0 0 0        * an elite dwarven guard
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 M 0 83349 4 83670 100 0 0 0        * a dwarven battlerager
 E 1 83389 4 16 100 0 0 0           *   a mithril-headed morningstar
 E 1 83389 4 17 100 0 0 0           *   a mithril-headed morningstar
@@ -3154,29 +3414,30 @@ E 1 83142 999 16 100 0 0 0         *   a huge warhammer
 E 1 83142 999 17 100 0 0 0         *   a huge warhammer
 G 1 83386 1 0 100 0 0 0            *    a large mithril key
 F 1 83347 8 83672 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83347 8 83672 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 M 0 83350 1 83679 100 0 0 0        * Lord Berhad Khoralator
-E 1 83475 1 21 80 0 0 0            *   a dangling whitestone earring
+E 1 83515 1 1 50 0 0 0             *   a polished whitstone ring
+E 1 83475 1 21 50 0 0 0            *   a dangling whitestone earring
 E 1 83396 6 5 100 0 0 0            *   a full suit of mithril plate
 E 1 83400 6 6 100 0 0 0            *   a full-headed mithril helmet
 E 1 83474 1 16 100 0 0 0           *   a huge spiked bloody dwarven hammer
 G 1 83415 1 0 100 0 0 0            *    the bloody head of Borhad Khoralator
 F 1 83347 8 83679 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83347 8 83679 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83347 8 83679 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83347 8 83679 100 0 0 0        * an elite dwarven guard (following)
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 F 1 83376 1 83679 100 0 0 0        * a pet mountain lion (following)
 M 0 95531 3 83680 65 0 0 0         * (mob type not in this .mob file)
 M 0 95531 3 83680 100 0 0 0        * (mob type not in this .mob file)
@@ -3201,11 +3462,12 @@ G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 83380 8 83699 100 0 0 0        * a human smuggler
 G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 83381 1 83699 100 0 0 0        * Metlan the smuggler leader
-E 1 83424 1 8 100 0 0 0            *   some thick orog-hide moccasins
+E 1 83424 1 8 50 0 0 0             *   some thick orog-hide moccasins
+E 1 83557 1 9 50 0 0 0             *   some fingerless orog-hide gloves
 E 1 83275 6 16 100 0 0 0           *   a concealed dirk
 E 1 83275 6 17 100 0 0 0           *   a concealed dirk
 E 1 83423 1 20 100 0 0 0           *   a smuggler's black mask
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83380 8 83699 100 0 0 0        * a human smuggler (following)
 F 1 83380 8 83699 100 0 0 0        * a human smuggler (following)
 M 0 83379 1 83700 100 0 0 0        * a fast-talking goblin dealer
@@ -3229,8 +3491,8 @@ G 1 83401 1 0 100 0 0 0            *    a potion of ultimate protection
 G 1 66723 999 0 100 0 0 0          *    (object type not in this .obj file)
 M 0 83362 1 83706 100 0 0 0        * General Helgor
 E 1 83471 1 21 80 0 0 0            *   a dangling bloodstone earring
-E 1 83350 11 5 100 0 0 0           *   a full suit of heavy adamantite
-E 1 83351 11 6 100 0 0 0           *   a heavy adamantite full-faced helmet
+E 1 83350 12 5 100 0 0 0           *   a full suit of heavy adamantite
+E 1 83351 12 6 100 0 0 0           *   a heavy adamantite full-faced helmet
 E 1 83470 1 16 100 0 0 0           *   a huge spiked bloody battle-axe
 G 1 83414 1 0 100 0 0 0            *    the bloody head of General Helgor
 F 1 83332 8 83706 100 0 0 0        * an elite Helgor sentinel (following)
@@ -3369,7 +3631,7 @@ G 1 83112 999 0 50 0 0 0           *    an iron shield bearing the crest of Alat
 G 1 83119 999 0 90 0 0 0           *    a polished iron broadsword
 G 1 83175 12 0 20 0 0 0            *    a barbed longsword
 G 1 83216 5 0 5 0 0 0              *    a green longsword
-G 1 83291 3 0 25 0 0 0             *    a mithril longsword
+G 1 83291 4 0 25 0 0 0             *    a mithril longsword
 G 1 83293 6 0 25 0 0 0             *    a two-handed mithril broadsword
 G 1 83174 10 0 5 0 0 0             *    a bloody warhammer
 G 1 74016 1 0 15 0 0 0             *    (object type not in this .obj file)
@@ -3377,7 +3639,7 @@ G 1 74274 1 0 15 0 0 0             *    (object type not in this .obj file)
 G 1 74281 1 0 15 0 0 0             *    (object type not in this .obj file)
 G 1 74282 1 0 15 0 0 0             *    (object type not in this .obj file)
 M 0 83365 1 83795 100 0 0 0        * an eager moneychanger
-G 1 94336 7 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83366 2 83795 100 0 0 0        * a mercenary guard (following)
 F 1 83366 2 83795 100 0 0 0        * a mercenary guard (following)
 M 0 83393 2 83796 100 0 0 0        * a manor gate guard
@@ -3404,17 +3666,17 @@ F 1 83407 8 83799 100 0 0 0        * an angry guard (following)
 G 1 94730 4 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83405 1 83801 100 0 0 0        * Lord Deramuth the portmaster
 E 1 83448 1 3 100 0 0 0            *   a string of disembodied hands
-E 1 83394 18 16 100 0 0 0          *   a mithril-bladed battle-axe
-E 1 83394 18 17 100 0 0 0          *   a mithril-bladed battle-axe
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83409 1 83801 100 0 0 0        * a crooked advisor (following)
 E 1 83477 1 1 100 0 0 0            *   a blue crystalline band
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 F 1 83404 1 83801 100 0 0 0        * a brutal-looking storm giant bodyguard (following)
 E 1 83416 1 14 60 0 0 0            *   the spiked stone bracer of storms
 G 1 22938 1 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83433 2 83812 100 0 0 0        * a barbarian smuggler
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83380 8 83813 100 0 0 0        * a human smuggler
 G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 83380 8 83813 100 0 0 0        * a human smuggler
@@ -3449,6 +3711,117 @@ M 0 83390 4 83830 100 0 0 0        * a meditative halfling mage
 M 0 83390 4 83830 100 0 0 0        * a meditative halfling mage
 M 0 83390 4 83830 100 0 0 0        * a meditative halfling mage
 M 0 83390 4 83830 100 0 0 0        * a meditative halfling mage
+M 0 99460 5 83834 100 0 0 0        * (mob type not in this .mob file)
+M 0 83442 4 83838 100 0 0 0        * a troglodyte berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83478 4 83838 100 0 0 0        * an angry troglodyte guard
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83478 4 83838 100 0 0 0        * an angry troglodyte guard
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83479 2 83838 100 0 0 0        * a muscular troglodyte bloodmonger
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83443 6 83839 100 0 0 0        * a prowling troglodyte
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83443 6 83840 100 0 0 0        * a prowling troglodyte
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83480 5 83841 100 0 0 0        * a small trog
+M 0 99460 5 83841 100 0 0 0        * (mob type not in this .mob file)
+M 0 83475 1 83843 100 0 0 0        * an extremely fat black troglodyte
+E 1 83291 4 16 100 0 0 0           *   a mithril longsword
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 83477 3 83843 100 0 0 0        * a black troglodyte henchman (following)
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 83477 3 83843 100 0 0 0        * a black troglodyte henchman (following)
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 83477 3 83843 100 0 0 0        * a black troglodyte henchman (following)
+M 0 83442 4 83845 100 0 0 0        * a troglodyte berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83480 5 83845 100 0 0 0        * a small trog
+M 0 99460 5 83845 100 0 0 0        * (mob type not in this .mob file)
+M 0 83443 6 83846 100 0 0 0        * a prowling troglodyte
+M 0 83442 4 83847 100 0 0 0        * a troglodyte berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83480 5 83847 100 0 0 0        * a small trog
+M 0 99460 5 83847 100 0 0 0        * (mob type not in this .mob file)
+M 0 99460 5 83850 100 0 0 0        * (mob type not in this .mob file)
+M 0 83480 5 83851 100 0 0 0        * a small trog
+M 0 83443 6 83852 100 0 0 0        * a prowling troglodyte
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83478 4 83853 100 0 0 0        * an angry troglodyte guard
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83478 4 83853 100 0 0 0        * an angry troglodyte guard
+M 0 83479 2 83853 100 0 0 0        * a muscular troglodyte bloodmonger
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83457 3 83854 100 0 0 0        * a slimy troglodyte
+M 0 83457 3 83854 100 0 0 0        * a slimy troglodyte
+M 0 83457 3 83854 100 0 0 0        * a slimy troglodyte
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83458 42 83854 100 0 0 0       * a slime slug
+M 0 83459 13 83854 50 0 0 0        * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83459 13 83854 40 0 0 0        * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83459 13 83854 30 0 0 0        * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83459 13 83854 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83459 13 83854 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83485 4 83856 100 0 0 0        * a brawny troglodyte sentinel
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83485 4 83856 100 0 0 0        * a brawny troglodyte sentinel
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83485 4 83856 100 0 0 0        * a brawny troglodyte sentinel
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 11618 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83485 4 83856 100 0 0 0        * a brawny troglodyte sentinel
+M 0 83443 6 83857 100 0 0 0        * a prowling troglodyte
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83467 2 83858 100 0 0 0        * a troglodyte matron
+M 0 83471 4 83858 100 0 0 0        * a sex-crazed troglodyte
+M 0 83471 4 83858 100 0 0 0        * a sex-crazed troglodyte
+M 0 83471 4 83858 100 0 0 0        * a sex-crazed troglodyte
+M 0 83482 5 83858 50 0 0 0         * a troglodyte hunter
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 83466 6 83859 100 0 0 0        * a tired troglodyte
+M 0 83466 6 83859 100 0 0 0        * a tired troglodyte
+M 0 83466 6 83859 100 0 0 0        * a tired troglodyte
+M 0 83470 6 83859 100 0 0 0        * an exhausted young trog
+M 0 83470 6 83859 100 0 0 0        * an exhausted young trog
+M 0 83470 6 83859 100 0 0 0        * an exhausted young trog
+M 0 83461 9 83860 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83860 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83860 100 0 0 0        * a hungry troglodyte
+M 0 83482 5 83860 50 0 0 0         * a troglodyte hunter
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 83473 1 83861 100 0 0 0        * a beefy troglodyte shaman
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83551 1 12 100 0 0 0           *   a frayed skin cloak branded with primative glyphs
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83550 1 18 100 0 0 0           *   a brazen brass totem headed with dwarven skulls
+F 1 83476 1 83861 100 0 0 0        * a large basilisk (following)
+G 1 83552 1 0 100 0 0 0            *    a small basilisk scale
+F 1 83474 3 83861 100 0 0 0        * a young trog shaman (following)
+F 1 83474 3 83861 100 0 0 0        * a young trog shaman (following)
+F 1 83474 3 83861 100 0 0 0        * a young trog shaman (following)
 M 0 83412 1 83862 100 0 0 0        * an old dwarven trapper
 G 1 54 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 73 999 0 100 0 0 0             *    (object type not in this .obj file)
@@ -3457,6 +3830,112 @@ G 1 96 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 97 999 0 100 0 0 0             *    (object type not in this .obj file)
 G 1 53 999 0 100 0 0 0             *    (object type not in this .obj file)
 M 0 83414 1 83863 100 0 0 0        * the shield dwarf doctor of Alatorin
+M 0 83442 4 83865 100 0 0 0        * a troglodyte berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83443 6 83865 100 0 0 0        * a prowling troglodyte
+M 0 83480 5 83866 100 0 0 0        * a small trog
+M 0 83438 3 83868 100 0 0 0        * a huge black troglodyte
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83543 5 16 100 0 0 0           *   a giant bone club
+M 0 83438 3 83868 100 0 0 0        * a huge black troglodyte
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83543 5 16 100 0 0 0           *   a giant bone club
+M 0 83438 3 83868 100 0 0 0        * a huge black troglodyte
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83543 5 16 100 0 0 0           *   a giant bone club
+M 0 83440 1 83869 100 0 0 0        * a brutish troglodyte bonechewer
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83544 1 13 100 0 0 0           *   a tattered belt of dwarven scalps
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83441 2 83869 100 0 0 0        * a troglodyte savage
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83441 2 83869 100 0 0 0        * a troglodyte savage
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83486 1 83870 100 0 0 0        * Kereghaktis
+E 1 83594 1 1 100 0 0 0            *   a jagged ring of Shanatar rock
+E 1 83592 1 6 30 0 0 0             *   the dwarf-bone crown of the troglodytes
+E 1 83580 1 7 10 0 0 0             *   some barbed leggings oozing slime
+E 1 83595 1 12 100 0 0 0           *   a long cape of shabilly-stitched dwarf scalps
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 83509 1 0 100 0 0 0            *    the horned head of Kereghaktis
+F 1 83489 1 83870 100 0 0 0        * Silmaeth, Devil Prince of Kashtrakis (following)
+E 1 83593 1 12 15 0 0 0            *   the shroud of corruption
+E 1 83597 1 19 100 0 0 0           *   eyes of the tanar'ri
+E 1 83596 1 20 15 0 0 0            *   a grotesque quasit-skin mask
+G 1 21647 1 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83490 1 83870 100 0 0 0        * a chained cockatrice
+G 1 76067 1 0 10 0 0 0             *    (object type not in this .obj file)
+M 0 83491 1 83870 100 0 0 0        * a trog beast handler
+M 0 83483 1 83872 100 0 0 0        * Borik
+M 0 83448 4 83874 100 0 0 0        * a vicious white troglodyte
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83451 4 83874 100 0 0 0        * a large white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83452 4 83874 100 0 0 0        * a black and white speckled trog
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83449 4 83874 100 0 0 0        * a white-faced berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83481 1 83874 100 0 0 0        * a HUGE beastly bonechewer
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83543 5 16 100 0 0 0           *   a giant bone club
+E 1 83543 5 17 100 0 0 0           *   a giant bone club
+G 1 83560 1 0 100 0 0 0            *    a thick iron key
+M 0 83448 4 83875 100 0 0 0        * a vicious white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83451 4 83875 100 0 0 0        * a large white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83452 4 83875 100 0 0 0        * a black and white speckled trog
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83449 4 83875 100 0 0 0        * a white-faced berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83448 4 83876 100 0 0 0        * a vicious white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83451 4 83876 100 0 0 0        * a large white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83452 4 83876 100 0 0 0        * a black and white speckled trog
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83449 4 83876 100 0 0 0        * a white-faced berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83448 4 83877 100 0 0 0        * a vicious white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83451 4 83877 100 0 0 0        * a large white troglodyte
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83452 4 83877 100 0 0 0        * a black and white speckled trog
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+G 1 700 11 0 100 0 0 0             *    (object type not in this .obj file)
+M 0 83449 4 83877 100 0 0 0        * a white-faced berserker
+E 1 83531 11 16 100 0 0 0          *   a heavy, crude bone axe
+M 0 83445 5 83878 70 0 0 0         * a skeletal hand
+M 0 83445 5 83878 60 0 0 0         * a skeletal hand
+M 0 83445 5 83878 40 0 0 0         * a skeletal hand
+M 0 83446 3 83878 90 0 0 0         * a skeleton
+M 0 83446 3 83878 50 0 0 0         * a skeleton
+M 0 83446 3 83878 100 0 0 0        * a skeleton
+M 0 83445 5 83878 100 0 0 0        * a skeletal hand
+M 0 83445 5 83878 100 0 0 0        * a skeletal hand
+M 0 83447 1 83878 3 0 0 0          * a bone gargoyle
+G 1 83511 1 0 100 0 0 0            *    a pair of skeletal gargoyle wings
+M 0 83450 1 83879 100 0 0 0        * a MASSIVE stone golem
+G 1 83516 3 0 100 0 0 0            *    black blood of the earth
+G 1 83541 1 0 100 0 0 0            *    a purple stone bracelet
+F 1 83453 2 83879 100 0 0 0        * a huge stone arm (following)
+G 1 83516 3 0 100 0 0 0            *    black blood of the earth
+F 1 83453 2 83879 100 0 0 0        * a huge stone arm (following)
+G 1 83516 3 0 100 0 0 0            *    black blood of the earth
 M 0 83426 1 83892 100 0 0 0        * Lundeen the soup master
 M 0 83430 1 83892 100 0 0 0        * a halfling waiter
 G 1 83482 1 0 100 0 0 0            *    a bowl of white dragon egg soup
@@ -3466,18 +3945,22 @@ M 0 83428 1 83892 100 0 0 0        * a well-traveled wanderer
 M 0 83429 2 83892 100 0 0 0        * a hungry shield dwarf
 M 0 83429 2 83892 100 0 0 0        * a hungry shield dwarf
 M 0 83431 1 83893 100 0 0 0        * a muscular githzerai prince
-G 1 40444 8 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40444 9 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 83484 1 0 100 0 0 0            *    a ball of crackling energy
+M 0 83439 1 83894 100 0 0 0        * Wikzor the dwarven warlord
+E 1 83514 1 13 100 0 0 0           *   a thick duergar-hide belt with a mithril buckle
+E 1 83394 20 16 100 0 0 0          *   a mithril-bladed battle-axe
+E 1 83394 20 17 100 0 0 0          *   a mithril-bladed battle-axe
 M 0 83437 1 83895 100 0 0 0        * Tarkorsh
 E 1 83507 1 20 100 0 0 0           *   a blood-red inquisitor's mask
 E 1 83293 6 16 100 0 0 0           *   a two-handed mithril broadsword
 M 0 83435 1 83897 100 0 0 0        * Doklin the assassin
-E 1 83503 4 16 100 0 0 0           *   a slender mithril dagger
-E 1 83503 4 17 100 0 0 0           *   a slender mithril dagger
+E 1 83503 5 16 100 0 0 0           *   a slender mithril dagger
+E 1 83503 5 17 100 0 0 0           *   a slender mithril dagger
 E 1 83502 1 21 100 0 0 0           *   a mithril stud carved like a fist
 M 0 83436 1 83897 100 0 0 0        * Gimabon the tracker
-E 1 83503 4 16 100 0 0 0           *   a slender mithril dagger
-E 1 83503 4 17 100 0 0 0           *   a slender mithril dagger
+E 1 83503 5 16 100 0 0 0           *   a slender mithril dagger
+E 1 83503 5 17 100 0 0 0           *   a slender mithril dagger
 G 1 49136 1 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 83432 4 83898 100 0 0 0        * a smuggler
 G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
@@ -3489,7 +3972,7 @@ G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 83432 4 83900 100 0 0 0        * a smuggler
 G 1 40441 16 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 83433 2 83900 100 0 0 0        * a barbarian smuggler
-G 1 40442 6 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 40442 9 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 700066 3 83902 50 0 0 0        * (mob type not in this .mob file)
 M 0 700066 3 83905 50 0 0 0        * (mob type not in this .mob file)
 M 0 4530 10 83906 100 0 0 0        * (mob type not in this .mob file)
@@ -3503,5 +3986,234 @@ M 0 24011 6 83920 100 0 0 0        * (mob type not in this .mob file)
 G 1 53610 2 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 24011 6 83920 100 0 0 0        * (mob type not in this .mob file)
 M 0 24011 6 83920 100 0 0 0        * (mob type not in this .mob file)
+M 0 83467 2 83921 100 0 0 0        * a troglodyte matron
+M 0 83487 1 83921 100 0 0 0        * Margon Gortat'Nyk
+E 1 83576 1 1 100 0 0 0            *   a three-fingered ring of red rocks
+E 1 83549 9 5 100 0 0 0            *   some filthy hides
+E 1 83575 1 16 100 0 0 0           *   a huge iron axe covered in fungus
+G 1 94336 8 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83482 5 83921 50 0 0 0         * a troglodyte hunter
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 83471 4 83921 100 0 0 0        * a sex-crazed troglodyte
+M 0 83472 3 83922 100 0 0 0        * a bonechewer
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83472 3 83922 100 0 0 0        * a bonechewer
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83472 3 83922 100 0 0 0        * a bonechewer
+E 1 83530 28 16 100 0 0 0          *   a heavy bone club
+E 1 83530 28 17 100 0 0 0          *   a heavy bone club
+M 0 83455 1 83923 100 0 0 0        * Marg D'ghor the witchdoctor
+E 1 83520 1 3 100 0 0 0            *   a troglodyte witchdoctor's spirit pouch
+E 1 83517 1 5 100 0 0 0            *   a mysterious hooded white robe emitting black smoke
+E 1 83519 1 16 100 0 0 0           *   no-show Marg proc
+E 1 83518 1 18 100 0 0 0           *   a long gnarled moorwood staff headed with dwarven skulls
+F 1 83456 9 83923 100 0 0 0        * a black smoke monster (following)
+F 1 83456 9 83923 100 0 0 0        * a black smoke monster (following)
+F 1 83456 9 83923 100 0 0 0        * a black smoke monster (following)
+F 1 83456 9 83923 100 0 0 0        * a black smoke monster (following)
+M 0 83456 9 83923 100 0 0 0        * a black smoke monster
+M 0 83456 9 83923 100 0 0 0        * a black smoke monster
+M 0 83456 9 83923 100 0 0 0        * a black smoke monster
+M 0 83456 9 83923 100 0 0 0        * a black smoke monster
+M 0 83456 9 83923 100 0 0 0        * a black smoke monster
+M 0 83469 10 83932 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83932 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83932 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83932 100 0 0 0       * a crazy young trog
+G 1 83548 42 0 100 0 0 0           *    a slimy troglodyte claw
+G 1 83548 42 0 100 0 0 0           *    a slimy troglodyte claw
+M 0 83469 10 83932 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83458 42 83932 100 0 0 0       * a slime slug
+M 0 83458 42 83932 100 0 0 0       * a slime slug
+M 0 83458 42 83932 100 0 0 0       * a slime slug
+M 0 83458 42 83932 100 0 0 0       * a slime slug
+M 0 83459 13 83932 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83469 10 83933 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83933 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83933 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83933 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83469 10 83933 100 0 0 0       * a crazy young trog
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83458 42 83933 100 0 0 0       * a slime slug
+M 0 83458 42 83933 100 0 0 0       * a slime slug
+M 0 83458 42 83933 100 0 0 0       * a slime slug
+M 0 83458 42 83933 100 0 0 0       * a slime slug
+M 0 83459 13 83933 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83468 8 83934 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 97934 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83468 8 83934 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 97934 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83468 8 83934 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 97934 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83468 8 83934 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 97934 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83468 8 83934 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+G 1 97934 5 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83458 42 83934 100 0 0 0       * a slime slug
+M 0 83458 42 83934 100 0 0 0       * a slime slug
+M 0 83458 42 83934 100 0 0 0       * a slime slug
+M 0 83458 42 83934 100 0 0 0       * a slime slug
+M 0 83459 13 83934 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83458 42 83935 100 0 0 0       * a slime slug
+M 0 83458 42 83935 100 0 0 0       * a slime slug
+M 0 83458 42 83935 100 0 0 0       * a slime slug
+M 0 83458 42 83935 100 0 0 0       * a slime slug
+M 0 83459 13 83935 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83460 1 83936 100 0 0 0        * an aboleth slime mage
+E 1 83523 1 16 100 0 0 0           *   aboleth proc 1
+E 1 83524 1 17 100 0 0 0           *   aboleth proc 2
+E 1 83546 1 19 100 0 0 0           *   a slimy aboleth eye
+E 1 83525 1 25 100 0 0 0           *   aboleth proc 3
+E 1 83526 1 26 100 0 0 0           *   aboleth proc 4
+G 1 83542 1 0 100 0 0 0            *    some slime-covered aboleth skin
+G 1 83547 1 0 20 0 0 0             *    a long slime-covered tendril with an unblinking eye
+G 1 23045 2 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 23045 2 0 100 0 0 0            *    (object type not in this .obj file)
+F 1 83465 3 83936 100 0 0 0        * a writhing tendril (following)
+F 1 83465 3 83936 100 0 0 0        * a writhing tendril (following)
+F 1 83465 3 83936 100 0 0 0        * a writhing tendril (following)
+M 0 83468 8 83937 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83468 8 83937 100 0 0 0        * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83468 8 83937 50 0 0 0         * a lean troglodyte fanatic
+E 1 83548 42 16 100 0 0 0          *   a slimy troglodyte claw
+E 1 83548 42 17 100 0 0 0          *   a slimy troglodyte claw
+M 0 83458 42 83937 100 0 0 0       * a slime slug
+M 0 83458 42 83937 100 0 0 0       * a slime slug
+M 0 83458 42 83937 100 0 0 0       * a slime slug
+M 0 83458 42 83937 100 0 0 0       * a slime slug
+M 0 83459 13 83937 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83458 42 83938 100 0 0 0       * a slime slug
+M 0 83458 42 83938 100 0 0 0       * a slime slug
+M 0 83458 42 83938 100 0 0 0       * a slime slug
+M 0 83458 42 83938 100 0 0 0       * a slime slug
+M 0 83459 13 83938 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83458 42 83939 100 0 0 0       * a slime slug
+M 0 83458 42 83939 100 0 0 0       * a slime slug
+M 0 83458 42 83939 100 0 0 0       * a slime slug
+M 0 83458 42 83939 100 0 0 0       * a slime slug
+M 0 83459 13 83939 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83458 42 83940 100 0 0 0       * a slime slug
+M 0 83458 42 83940 100 0 0 0       * a slime slug
+M 0 83458 42 83940 100 0 0 0       * a slime slug
+M 0 83458 42 83940 100 0 0 0       * a slime slug
+M 0 83459 13 83940 100 0 0 0       * a huge slime slug
+G 1 83522 13 0 100 0 0 0           *    a potion of green and brown sludge
+M 0 83462 1 83942 100 0 0 0        * an ancient ravenous arctic beast
+E 1 83533 1 16 100 0 0 0           *   arctic beast proc 1
+E 1 83534 1 17 100 0 0 0           *   arctic beast proc 2
+G 1 58432 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 58432 3 0 100 0 0 0            *    (object type not in this .obj file)
+G 1 58432 3 0 100 0 0 0            *    (object type not in this .obj file)
+M 0 83464 1 83943 100 0 0 0        * Azarem Tumek
+E 1 83538 1 3 100 0 0 0            *   a black wool cowl stained with blood
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83362 14 17 100 0 0 0          *   a slender adamantite dagger
+G 1 83539 1 0 100 0 0 0            *    the bloody head of Azarem Tumek
+M 0 83461 9 83954 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83954 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83954 100 0 0 0        * a hungry troglodyte
+M 0 83482 5 83954 50 0 0 0         * a troglodyte hunter
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 83461 9 83955 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83955 100 0 0 0        * a hungry troglodyte
+M 0 83461 9 83955 100 0 0 0        * a hungry troglodyte
+M 0 83482 5 83955 50 0 0 0         * a troglodyte hunter
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+G 1 11619 10 0 100 0 0 0           *    (object type not in this .obj file)
+M 0 83466 6 83956 100 0 0 0        * a tired troglodyte
+M 0 83466 6 83956 100 0 0 0        * a tired troglodyte
+M 0 83466 6 83956 100 0 0 0        * a tired troglodyte
+M 0 83470 6 83956 100 0 0 0        * an exhausted young trog
+M 0 83470 6 83956 100 0 0 0        * an exhausted young trog
+M 0 83470 6 83956 100 0 0 0        * an exhausted young trog
+M 0 30611 1 83958 100 0 0 0        * (mob type not in this .mob file)
+M 0 83484 1 83964 100 0 0 0        * a stealthy shield dwarf rogue
+E 1 83574 1 3 100 0 0 0            *   a string of troglodyte teeth
+E 1 83362 14 16 100 0 0 0          *   a slender adamantite dagger
+E 1 83503 5 17 100 0 0 0           *   a slender mithril dagger
+G 1 83356 999 0 100 0 0 0          *    a vial of adder venom
+G 1 83421 999 0 100 0 0 0          *    a bottle of crimson poison
+M 0 49089 2 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 49118 2 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 49117 2 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 49091 4 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83972 100 0 0 0        * (mob type not in this .mob file)
+M 0 4480 6 83973 30 0 0 0          * (mob type not in this .mob file)
+M 0 83488 1 83973 30 0 0 0         * Basillion the drow worm hunter
+E 1 83589 1 5 100 0 0 0            *   a fine enchanted tunic of drow chainmail
+E 1 83586 1 7 60 0 0 0             *   some black leather pants glowing with faerie fire
+E 1 83587 1 8 60 0 0 0             *   some black leather boots glowing with faerie fire
+E 1 83588 1 9 60 0 0 0             *   a pair of black leather gloves glowing with faerie fire
+E 1 83585 1 10 60 0 0 0            *   some black leather sleeves glowing with faerie fire
+E 1 83590 2 16 100 0 0 0           *   a well-balanced, curved adamantium scimitar
+E 1 83590 2 17 100 0 0 0           *   a well-balanced, curved adamantium scimitar
+M 0 4480 6 83974 100 0 0 0         * (mob type not in this .mob file)
+M 0 42501 9 83974 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83974 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83974 100 0 0 0        * (mob type not in this .mob file)
+M 0 4480 6 83975 60 0 0 0          * (mob type not in this .mob file)
+M 0 42501 9 83975 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83975 100 0 0 0        * (mob type not in this .mob file)
+M 0 42501 9 83975 100 0 0 0        * (mob type not in this .mob file)
+M 0 49089 2 83976 100 0 0 0        * (mob type not in this .mob file)
+M 0 49118 2 83976 100 0 0 0        * (mob type not in this .mob file)
+M 0 49117 2 83976 100 0 0 0        * (mob type not in this .mob file)
+M 0 49091 4 83976 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83976 100 0 0 0        * (mob type not in this .mob file)
+M 0 4480 6 83977 80 0 0 0          * (mob type not in this .mob file)
+M 0 49091 4 83977 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83977 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83977 100 0 0 0        * (mob type not in this .mob file)
+M 0 4480 6 83978 40 0 0 0          * (mob type not in this .mob file)
+M 0 49091 4 83979 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83979 100 0 0 0        * (mob type not in this .mob file)
+M 0 49090 6 83979 100 0 0 0        * (mob type not in this .mob file)
+M 0 4480 6 83980 50 0 0 0          * (mob type not in this .mob file)
+M 0 4410 2 83984 100 0 0 0         * (mob type not in this .mob file)
 *
 S
