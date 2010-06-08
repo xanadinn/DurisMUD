@@ -259,14 +259,13 @@ ceopast                   *811-813
 ceofutur                  *814-816
 jin                       *820
 outpost                   *821
-lylr                      *822
+//lylr                      *822
 lab                       *823
 suntmpl                   *824
 mira                      *825-826
 forgotten_forest          *827 (Oraks)
 delwyn                    *828-830
-*alatorin                  *831-832
-alatorin_objects          * just a stub zone to allow loading alatorin objs while zone is reviewed - prevents crashes
+alatorin                  *831-832
 ancientb                  *856 Bridge Zone
 arcium                    *857-862
 crakkaro                  *870-875
@@ -283,7 +282,7 @@ fishermans_wharf          *889
 newhope                   *890
 foggy_woods               *900-902
 rtun                      *903 (Alachest, undead town)
-glacier                   *904-905
+//glacier                   *904-905
 river_styx                *907
 valinhav                  *908-909
 barovia                   *910-911
@@ -323,14 +322,17 @@ olympus                   *998
 interspa                  *999
 random                    *1000 used for random encounter stuff
 tharnrifts                *1100
-*surfacekeeps              *1200
-surfacekeeps_objects      * also a stub until alatorin gets reviewed
+surfacekeeps              *1200
+*surfacekeeps_objects      * also a stub until alatorin gets reviewed
 vecna                     *1300
 nexus_ic                  *1301
 nexus_uc                  *1302
 nexus_island              *1303
 nexus_roper               *1304
 brimeforge                 *1310-1311
+earthp                    *1312
+airp                      *1316
+lortower                  *1320
 *surf                     *2000
 *underdark                *2100
 surface                   *5000
