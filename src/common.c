@@ -21,7 +21,7 @@ const char *specdata[][MAX_SPEC] = {
   {"&+BSwordsman", "&+yGuardian", "&+CSw&+cas&+Lhbuc&+ckl&+Cer&n", ""},      //Warrior
   {"&+cBlademaster", "&+gHuntsman", "&+gMa&+yrsha&+gll&n", ""},    //Ranger
   {"&+rPyr&+Rokine&+rtic", "&+MEn&+mslav&+Mer", "&+bPsyche&+Lporter", ""},         //Psionicist
-  {"&+wCrusa&+Wder", "&+WCavalier", "&+WWar&+Gden&n", ""},    //Paladin
+  {"&+wCrusa&+Wder", "&+WCavalier", "", ""},    //Paladin
   {"&+LDark Knight", "&+LDem&+ronic Ri&+Lder", "", ""},  //Anti-Paladin
   {"&+YZealot&n", "&+WHealer&n", "&+cHoly&+Wman&n", ""},      //Cleric
   {"&+rRe&+Rd Dra&+rgon", "&+gElap&+Ghi&+gdist", "", ""},   //Monk
@@ -42,7 +42,7 @@ const char *specdata[][MAX_SPEC] = {
   {"&+CI&+Wc&+Ce &+LR&+Le&+wa&+wv&+Le&+Lr", "&+rF&+Rl&+Ya&+Rm&+re &+LR&+Le&+wa&+wv&+Le&+Lr", "&+bSh&+Bo&+Wck &+LR&+Le&+wa&+wv&+Le&+Lr", ""},      //Reaver
 //  {"&+LD&+Ce&+wc&+Le&+civ&+Ce&+Wr&n", "&+LD&+yar&+Lk D&+yre&+Wam&+Ler&n", "", ""},   Disabled illusionist specs until tested
   {"&+BM&+Yag&+Bic&+Yia&+Bn&n", "&+LDark &+mDreamer&n", "", ""},         // Illusionist
-  {"", "", "", ""},        //unused
+  {"Medium", "Templar", "Thaumaturge", ""},        // Theurgist
   {"&+LDeath&+rlord", "&+LShadow&+rlord", "", ""},      // Dreadlord
   {"&+cWindtalker", "&+WFro&+cst &+CMagus", "&+WCo&+Ysm&+Wom&+Yanc&+Wer", ""},     // Ethermancer
   {"&+YLight&+Wbringer", "&+WInq&+wuisi&+Wtor", "", ""}         //Avenger
@@ -217,6 +217,8 @@ int race_size(int race)
     case RACE_SNOW_OGRE:
     case RACE_DRIDER:
     case RACE_PWORM:
+    case RACE_DEMON:
+    case RACE_DEVIL:
       return SIZE_LARGE;
       break;
       
@@ -233,8 +235,6 @@ int race_size(int race)
       return SIZE_HUGE;
       break;
       
-    case RACE_DEMON:
-    case RACE_DEVIL:
     case RACE_GIANT:
     case RACE_PLANT:
     return SIZE_GIANT;
@@ -1093,7 +1093,7 @@ const struct class_names class_names_table[] = {
   {"Berserker", "&+rBeR&+RSeR&n&+rKeR&n", "Ber", 'u'},
   {"Reaver", "&+LRe&+Wav&+Ler&n", "Rev", 'v'},
   {"Illusionist", "&+WIl&+Clu&+csi&+Con&+Wist&n", "Ilu", 'y'},
-  {"unused", "unused", "unused", 'x'},
+  {"Theurgist", "&+cTh&+Ceur&+Wgist&n", "The", 'x'},
   {"Dreadlord", "&+LDread&+rlord&n", "Dre", 'e'},
   {"Ethermancer", "&+wEthermancer&n", "Eth", 'g'},
   {"Avenger", "&+WAvenger&n", "Ave", 'z'},
