@@ -416,11 +416,13 @@ P_char create_random_mob(int theme, int mob_level)
   random_mob->player.race = race;
 
   //find a class for it!
+  i = 0;
   do
   {
     class_idx = number(1, CLASS_COUNT);
+    i++; // adding this counter to prevent an infinite loop if every column in class_table[race] == 5
   }
-  while (class_table[race][class_idx] == 5);
+  while (class_table[race][class_idx] == 5 && i < 20);
   
   random_mob->player.m_class = 1 << (class_idx - 1);
 
