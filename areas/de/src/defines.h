@@ -906,7 +906,23 @@ typedef unsigned int uint;
 #define RACE_SHADOW          75 /* mob race code: SW */
 #define RACE_DRIDER          76 /* mob race code: DR */
 #define RACE_PWORM           77 /* mob race code: PW */
-#define LAST_RACE            77
+#define RACE_AGATHINON       78 /* mob race code: AG */
+#define RACE_V_ELEMENTAL     79 /* mob race code: EV */
+#define RACE_I_ELEMENTAL     80 /* mob race code: IE */
+#define RACE_ELADRIN         81 /* mob race code: EL */
+#define RACE_KOBOLD          82 /* mob race code: KB */
+#define RACE_PILLITHID       83 /* mob race code: PI */
+#define RACE_KUOTOA          84 /* mob race code: KT */
+#define RACE_WOODELF         85 /* mob race code: WE */
+#define RACE_FIRBOLG         86 /* mob race code: FB */
+#define RACE_PHOENIX         87 /* mob race code: PX */
+#define RACE_ARCHON          88 /* mob race code: AR */
+#define RACE_ASURA           89 /* mob race code: AU */
+#define RACE_TITAN           90 /* mob race code: TT */
+#define RACE_AVATAR          91 /* mob race code: AV */
+#define RACE_BRALANI         92 /* mob race code: BR */
+#define RACE_GHAELE          93 /* mob race code: GH */
+#define LAST_RACE            94
 
 #define DEFINED_RACES        LAST_RACE /* actual number of races defined */
 #define MAX_HATRED	     5
@@ -946,7 +962,8 @@ typedef unsigned int uint;
 #define CLASS_DREADLORD         BIT_25
 #define CLASS_ETHERMANCER       BIT_26
 #define CLASS_AVENGER           BIT_27
-#define CLASS_COUNT             27
+#define CLASS_THEURGIST         BIT_28
+#define CLASS_COUNT             28
 
 #define CLASS_TYPE_MAGE      20
 #define CLASS_TYPE_THIEF     21

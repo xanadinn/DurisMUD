@@ -106,6 +106,22 @@ const struct race_names race_names_table[LAST_RACE + 2] = {
   {"Shadow", "Shadow", "&+LShadow&n", "SW"},
   {"Drider", "Drider", "&+mDri&+Lder&n", "DR"},
   {"Purple Worm", "PurpleWorm", "&+mPurple &+LWorm&n", "PW"},
+  {"Agathinon", "Agathinon", "&+WAga&+Yt&+Whin&+Yo&+Wn&n" "AG"},
+  {"Void Elemental", "VoidElemental", "&+LVoi&+wd Elemen&+Ltal&n" "VE"},
+  {"Ice Elemental", "IceElemental", "&+CIc&+We Ele&+Cme&+Wnt&+Cal&n", "IE"},
+  {"Eladrin", "Eladrin", "&+cE&+Cl&+Wadr&+Ci&+cn&n" "EL"},
+  {"Kobold", "Kobold", "&+LKobold&n" "KB"},
+  {"Planetbound Illithid", "Pillithid", "&+MIllithid&n", "PI"},
+  {"Kuo Toa", "KuoToa", "&+GKu&+Lo T&+Goa&n" "KT"},
+  {"Wood Elf", "WoodElf", "&+gW&+Goo&+gd E&+Glf&n" "WE"},
+  {"Firbolg", "Firbolg", "&+yFir&+cbolg&n" "FB"},
+  {"Phoenix", "Phoenix", "&+rP&+Rh&+Yo&+We&+Yn&+Ri&+rx&n" "PX"},
+  {"Archon", "Archon", "&+RArch&+Wo&+Rn&n", "AR"},
+  {"Asura", "Asura", "&+RAsu&+Yr&+Ra&n" "AU"},
+  {"Titan", "Titan", "&+CT&+Wi&+Ct&+Wa&+Cn&n" "TT"},
+  {"Avatar", "Avatar", "&+cAv&+Ca&+Wt&+Ca&+cr&n", "AV"},
+  {"Bralani", "Bralani", "&+cB&+Cr&+Wala&+Cn&+ci&n" "BR"},
+  {"Ghaele", "Ghaele", "&+cG&+Ch&+Wae&+Cl&+ce&n", "GH"},
 {0}
 };
 
@@ -485,6 +501,7 @@ const struct class_names class_names_table[] = {
   {"Dreadlord", "&+LDread&+rlord&n", "Dre", 'e'},
   {"Ethermancer", "&+wEthermancer&n", "Eth", 'g'},
   {"Avenger", "&+WAvenger&n", "Ave", 'z'},
+  {"Theurgist", "&+cTh&+Ceur&+Wgist&n", 'The', 'e'},
   {0}
 };
 
