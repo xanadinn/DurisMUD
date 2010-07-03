@@ -1849,7 +1849,7 @@ void spell_taint(int level, P_char ch, char *arg, int type,
   if(saves_spell(victim, SAVING_SPELL))
     dam >>= 1;
 
-  spell_damage(ch, victim, dam, SPLDAM_HOLY, 0,
+  spell_damage(ch, victim, dam, SPLDAM_NEGATIVE, 0,
                &messages);
 }
 

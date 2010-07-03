@@ -8514,7 +8514,7 @@ void spell_vitalize_undead(int level, P_char ch, char *arg, int type,
     return;
   }
   if(IS_PC(victim))
-    healpoints = healpoints / 2;
+    healpoints = healpoints;
 
   if(!affected_by_spell(victim, SPELL_VITALIZE_UNDEAD))
   {

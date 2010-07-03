@@ -1253,6 +1253,13 @@ IS_GIANT(ch) || IS_PC_PET(ch) || IS_PC(ch) || IS_UNDEAD(ch)) && !IS_ANIMAL(ch))
                           (GET_RACE(ch) == RACE_CONSTRUCT))
 
 #define IS_ANGEL(ch) ((GET_RACE(ch) == RACE_ANGEL) || \
-                      (GET_RACE(ch) == RACE_ELADRIN))
+                      (GET_RACE(ch) == RACE_ELADRIN) || \
+                      (GET_RACE(ch) == RACE_AGATHINON) || \
+                      (GET_RACE(ch) == RACE_ARCHON) || \
+                      (GET_RACE(ch) == RACE_ASURA) || \
+                      (GET_RACE(ch) == RACE_TITAN) || \
+                      (GET_RACE(ch) == RACE_AVATAR) || \
+                      (GET_RACE(ch) == RACE_GHAELE) || \
+                      (GET_RACE(ch) == RACE_BRALANI))
 
 #endif /* _DURIS_UTILS_H_ */
