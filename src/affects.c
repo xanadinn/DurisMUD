@@ -722,15 +722,6 @@ void apply_affs(P_char ch, int mode)
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 12;
   }
-  
-/*  if( has_innate(ch, INNATE_LONGSWORD_MASTER) &&
-      ( ch->equipment[PRIMARY_WEAPON] && 
-ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_LONGSWORD )
-   )
-  {
-   ch->points.hitroll += GET_LEVEL(ch) / 8;
-   ch->points.damroll += GET_LEVEL(ch) / 10;
-  } */
 
   if (has_innate(ch, INNATE_GAMBLERS_LUCK))
   {
@@ -2816,8 +2807,8 @@ void poo(P_char ch)
     {
       load->str_mask = (STRUNG_DESC1 | STRUNG_DESC2);
 
-      load->description = str_dup("&+yA few bits of dry goblin poo have been left here.&n");
-      load->short_description = str_dup("&+ybits of dry goblin poo&n");
+      load->description = str_dup("&+ySome dry boobs has been left here.&n");
+      load->short_description = str_dup("&+ya dry goblin poo-poo&n");
 
       if (ch->in_room == NOWHERE)
       {
@@ -2835,7 +2826,7 @@ void poo(P_char ch)
         send_to_char
           ("&+yMmmm, much better. Don't forget to clean it up now.\n", ch);
         act
-          ("&+y$n screws $s face in concentration, and some a few small bits of dried goblin poo tumble from between his legs.",
+          ("&+y$n screws $s face in concentration, and some small tiny boobs drop from between his legs.",
            TRUE, ch, 0, 0, TO_ROOM);
       }
     }
@@ -2847,7 +2838,7 @@ int camp(P_char ch)
 {
   struct affected_type *af;
 
-  if (IS_PC(ch) && IS_ALIVE(ch) && IS_AFFECTED(ch, AFF_CAMPING))
+  if (IS_PC(ch) && IS_AFFECTED(ch, AFF_CAMPING))
   {
     for (af = ch->affected; af && (af->type != SKILL_CAMP); af = af->next) ;
 

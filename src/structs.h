@@ -1951,7 +1951,6 @@ struct mcname {
 #define SPEC_GUARDIAN  2
 #define SPEC_SWASHBUCKLER 3
 
-/* Anti-Paladin Specs */
 #define SPEC_DARKKNIGHT 1
 #define SPEC_DEMONIC 2
 #define SPEC_SPAWN 3
@@ -2011,11 +2010,6 @@ struct mcname {
 #define SPEC_THIEF    2
 #define SPEC_OLD_SWASHBUCKLER  3 // Switched to warrior.
 #define SPEC_SHARPSHOOTER 4
-
-// Theurogist Specs
-#define SPEC_MEDIUM
-#define SPEC_TEMPLAR
-#define SPEC_THAUMATURGE
 
 #define MAX_SPEC 4
 

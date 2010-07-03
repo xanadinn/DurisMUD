@@ -170,7 +170,6 @@ const char *stat_outofrange[2] = {
   "abnormally good"
 };
 
-/* alignments */
 const char *align_names[9] = {
   "&+Lextremely evil",
   "&+Levil",
@@ -873,7 +872,10 @@ void show_visual_status(P_char ch, P_char tar_char)
   else
     percent = -1;
 
-  if (!racewar(ch, tar_char) || IS_ILLITHID(ch) || IS_TRUSTED(ch))
+  if (IS_NPC(tar_char) && !IS_TRUSTED(ch)) {
+    sprintf(buf, "$N %%s");
+  }
+  else if (!racewar(ch, tar_char) || IS_ILLITHID(ch) || IS_TRUSTED(ch))
   {
     sprintf(buf, "$N appears to be %s and %%s",
             GET_RACE(tar_char) ? race_names_table[(int) GET_RACE1(tar_char)].
@@ -2280,7 +2282,7 @@ void new_look(P_char ch, char *argument, int cmd, int room_no)
       }
     
       if((IS_AFFECTED2(ch, AFF2_ULTRAVISION) &&
-          IS_MAGIC_LIGHT(temp) &&
+          IS_MAGIC_LIGHT(temp) && 
           !OLD_RACE_NEUTRAL(ch) &&
           !OLD_RACE_GOOD(ch) &&
           !IS_HARPY(ch) &&

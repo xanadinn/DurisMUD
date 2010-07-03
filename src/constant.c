@@ -80,7 +80,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
  {-1}, 
  
   {CLASS_MERCENARY, CLASS_CLERIC, CLASS_PSIONICIST, -1},      /* War */
-  {CLASS_WARRIOR, CLASS_DRUID, CLASS_ROGUE, -1},              /* Ran */
+  {CLASS_WARRIOR, CLASS_DRUID, -1},              /* Ran */
   {-1},                         		              /* Psi */
   {CLASS_WARRIOR, -1},          		              /* Pal */
   {CLASS_WARRIOR, -1},          		              /* APa */
@@ -90,7 +90,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
   {CLASS_CONJURER, CLASS_DRUID, CLASS_CLERIC, -1},    	      /* Sha */
   {CLASS_CONJURER, -1},         		              /* Sor */
   {-1},                         		              /* Nec */
-  {CLASS_SORCERER, CLASS_SHAMAN, -1},                         /* Con */
+  {CLASS_SORCERER, CLASS_SHAMAN, -1},                   	              /* Con */
   {CLASS_BARD, CLASS_MERCENARY, CLASS_CLERIC, -1},            /* Rog */
   {-1},                       /* Assassin not currently in game      */
   {CLASS_ROGUE, CLASS_WARRIOR, -1},                           /* Mer */
@@ -145,7 +145,7 @@ const mcname multiclass_names[] = {
   {CLASS_RANGER, CLASS_SORCERER,         "&+GOutland &+MMagi&n"},  
   {CLASS_RANGER, CLASS_NECROMANCER,      "&+GPu&+mtr&+Gif&+mie&+Gr   &n"},
   {CLASS_RANGER, CLASS_CONJURER,         "&+YElement &+GArc &n"},  
-  {CLASS_RANGER, CLASS_ROGUE,            "&+GS&+Lcou&+Gt       &n"},  
+  {CLASS_RANGER, CLASS_ROGUE,            "&+LScout       &n"},  
   {CLASS_RANGER, CLASS_MERCENARY,        "&+GB&+yr&+Gu&+yt&+Ga&+yl&+Gi&+yz&+Ge&+yr  &n"},
   {CLASS_RANGER, CLASS_BARD,             "&+bT&+Len&+bd&+Ger&+bi&+Lze&+br  &n"},  
   {CLASS_RANGER, CLASS_MINDFLAYER,       "&+MKinetic &+GGod &n"},  
@@ -1764,7 +1764,6 @@ const int avail_hometowns[][LAST_RACE + 1] = {
   {0, 1, 1, 0, 1, 1, 0, 1, 1, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1},   /* newbie */
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},   /* plane of life */
   {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0},  /* Orog Encampment */
-
 };
 
 /* N  Hu Ba Dr Gr Mo Du Ha Gn Og Tr H2 Il Or Th Ce Gi Mi Ae Su Gb Li Va DK SB*/

@@ -61,51 +61,51 @@ extern void event_short_affect(P_char, P_char , P_obj , void *);
 
 typedef void cmd_func(P_char, char *, int);
 
-void       do_levitate(P_char, char *, int);
-void       do_darkness(P_char, char *, int);
-void       do_faerie_fire(P_char, char *, int);
-void       do_ud_invisibility(P_char, char *, int);
-void       do_strength(P_char, char *, int);
-void       do_summon_book(P_char, char *, int);
-void       do_summon_totem(P_char, char *, int);
-void       do_blast(P_char, char *, int);
-void       do_shift_astral(P_char, char *, int);
-void       do_shift_prime(P_char, char *, int);
-void       do_bite(P_char, char *, int);
-void       do_enlarge(P_char, char *, int);
-void       do_reduce(P_char, char *, int);
-void       do_project_image(P_char, char *, int);
-void       do_fireball(P_char, char *, int);
-void       do_fireshield(P_char, char *, int);
-void       do_firestorm(P_char, char *, int);
-void       do_plane_shift(P_char, char *, int);
-void       do_charm_animal(P_char, char *, int);
-void       do_innate_hide(P_char, char *, int);
-void       do_dispel_magic(P_char, char *, int);
-void       do_globe_of_darkness(P_char, char *, int);
-void       do_flurry(P_char, char *, int);
-void       do_shapechange(P_char, char *, int);
-void       do_throw_lightning(P_char, char *, int);
-void       do_stone_skin(P_char, char *, int);
-void       do_phantasmal_form(P_char, char *, int);
-void       do_shade_movement(P_char, char *, int);
-void       do_dimension_door(P_char, char *, int);
-void       do_god_call(P_char, char *, int);
-void       do_battle_rage(P_char, char *, int);
-void       do_mass_dispel(P_char, char *, int);
-void       do_disappear(P_char, char *, int);
-void       do_dispel_magic(P_char, char *, int);
-void       do_conjure_water(P_char, char *, int);
-void       do_foundry(P_char, char *, int);
-void       do_webwrap(P_char, char *, int);
-void       do_summon_imp(P_char, char *, int);
-void       do_innate_gaze(P_char, char *, int);
+void     do_levitate(P_char, char *, int);
+void     do_darkness(P_char, char *, int);
+void     do_faerie_fire(P_char, char *, int);
+void     do_ud_invisibility(P_char, char *, int);
+void     do_strength(P_char, char *, int);
+void     do_summon_book(P_char, char *, int);
+void     do_summon_totem(P_char, char *, int);
+void     do_blast(P_char, char *, int);
+void     do_shift_astral(P_char, char *, int);
+void     do_shift_prime(P_char, char *, int);
+void     do_bite(P_char, char *, int);
+void     do_enlarge(P_char, char *, int);
+void     do_reduce(P_char, char *, int);
+void     do_project_image(P_char, char *, int);
+void     do_fireball(P_char, char *, int);
+void     do_fireshield(P_char, char *, int);
+void     do_firestorm(P_char, char *, int);
+void     do_plane_shift(P_char, char *, int);
+void     do_charm_animal(P_char, char *, int);
+void     do_innate_hide(P_char, char *, int);
+void     do_dispel_magic(P_char, char *, int);
+void     do_globe_of_darkness(P_char, char *, int);
+void     do_flurry(P_char, char *, int);
+void     do_shapechange(P_char, char *, int);
+void     do_throw_lightning(P_char, char *, int);
+void     do_stone_skin(P_char, char *, int);
+void     do_phantasmal_form(P_char, char *, int);
+void     do_shade_movement(P_char, char *, int);
+void     do_dimension_door(P_char, char *, int);
+void     do_god_call(P_char, char *, int);
+void     do_battle_rage(P_char, char *, int);
+void     do_mass_dispel(P_char, char *, int);
+void     do_disappear(P_char, char *, int);
+void     do_dispel_magic(P_char, char *, int);
+void     do_conjure_water(P_char, char *, int);
+void     do_foundry(P_char, char *, int);
+void     do_webwrap(P_char, char *, int);
+void     do_summon_imp(P_char, char *, int);
+void     do_innate_gaze(P_char, char *, int);
 void       do_innate_embrace_death(P_char, char *, int);
 void       do_lifedrain(P_char, char *, int);
 void       do_immolate(P_char, char *, int);
-void       do_summon_warg(P_char, char *, int);
-void       do_shift_ethereal(P_char, char *, int);
-void       do_fade(P_char, char *, int);
+void     do_summon_warg(P_char, char *, int);
+void     do_shift_ethereal(P_char, char *, int);
+void     do_fade(P_char, char *, int);
 
 void       do_aura_protection(P_char, char *, int);
 void       do_aura_precision(P_char, char *, int);
@@ -436,15 +436,15 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_HAMMER_MASTER, RACE_MOUNTAIN, 31);
   ADD_RACIAL_INNATE(INNATE_HATRED, RACE_MOUNTAIN, 21);
   ADD_RACIAL_INNATE(MAGICAL_REDUCTION , RACE_MOUNTAIN, 1);
-  ADD_RACIAL_INNATE(INNATE_MINER, RACE_MOUNTAIN, 46);
+  ADD_RACIAL_INNATE(INNATE_MINER, RACE_MOUNTAIN, 41);
   /* List of Eladrin Innates        */
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_ELADRIN, 1);
   ADD_RACIAL_INNATE(INNATE_MAGIC_RESISTANCE, RACE_ELADRIN, 1);
   ADD_RACIAL_INNATE(INNATE_EYELESS, RACE_ELADRIN, 1);
   /* List of Firbolg Innates        */
-  ADD_RACIAL_INNATE(INNATE_BODYSLAM, RACE_FIRBOLG, 1);
-  ADD_RACIAL_INNATE(INNATE_DOORBASH, RACE_FIRBOLG, 1);
-  ADD_RACIAL_INNATE(INNATE_FOREST_SIGHT, RACE_FIRBOLG, 1);
+  ADD_RACIAL_INNATE(INNATE_BODYSLAM, RACE_SGIANT, 1);
+  ADD_RACIAL_INNATE(INNATE_DOORBASH, RACE_SGIANT, 1);
+  ADD_RACIAL_INNATE(INNATE_FOREST_SIGHT, RACE_SGIANT, 1);
   /* List of Githzerai Innates      */
   ADD_RACIAL_INNATE(INNATE_MAGIC_RESISTANCE, RACE_GITHZERAI, 1);
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_GITHZERAI, 1);
@@ -457,7 +457,6 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_INFRAVISION, RACE_GNOME, 1);
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_GNOME, 1);
   ADD_RACIAL_INNATE(INNATE_FARSEE, RACE_GNOME, 21);
-  ADD_RACIAL_INNATE(INNATE_MINER, RACE_GNOME, 51);
   /* List of Grey Elf Innates       */
   ADD_RACIAL_INNATE(INNATE_INFRAVISION, RACE_GREY, 1);
   ADD_RACIAL_INNATE(INNATE_OUTDOOR_SNEAK, RACE_GREY, 21);
@@ -473,19 +472,13 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_FLURRY, RACE_HALFLING, 50);  
   /* List of Human Innates          */
   /* List of Wood Elf Innates       */
-  ADD_RACIAL_INNATE(INNATE_INFRAVISION, RACE_WOODELF, 1);
   ADD_RACIAL_INNATE(INNATE_OUTDOOR_SNEAK, RACE_WOODELF, 11);
   ADD_RACIAL_INNATE(INNATE_FOREST_SIGHT, RACE_WOODELF, 11);
-  ADD_RACIAL_INNATE(INNATE_MAGIC_RESISTANCE, RACE_WOODELF, 1);
 
   /* Evil Races */
   /* List of Drider Innates         */
   ADD_RACIAL_INNATE(INNATE_MAGIC_RESISTANCE, RACE_DRIDER, 1);
   //ADD_RACIAL_INNATE(INNATE_WEBWRAP, RACE_DRIDER, 1);
-  ADD_RACIAL_INNATE(INNATE_HORSE_BODY, RACE_DRIDER, 1);
-  ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_DRIDER, 1);
-  ADD_RACIAL_INNATE(INNATE_VULN_SUN, RACE_DRIDER, 1);
-  ADD_RACIAL_INNATE(INNATE_DAYBLIND, RACE_DRIDER, 1);
   /* List of Drow Elf Innates       */
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_DROW, 1);
   ADD_RACIAL_INNATE(INNATE_LEVITATE, RACE_DROW, 11);
@@ -494,8 +487,8 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_DARKNESS, RACE_DROW, 26);
   ADD_RACIAL_INNATE(INNATE_VULN_SUN, RACE_DROW, 1);
   ADD_RACIAL_INNATE(INNATE_DAYBLIND, RACE_DROW, 1);
-  //ADD_RACIAL_INNATE(INNATE_MASS_DISPEL, RACE_DROW, 53);
-  //ADD_RACIAL_INNATE(INNATE_FIREBALL, RACE_DROW, 21);
+//  ADD_RACIAL_INNATE(INNATE_MASS_DISPEL, RACE_DROW, 53);
+//  ADD_RACIAL_INNATE(INNATE_FIREBALL, RACE_DROW, 21);
   /* List of Duergar Dwarf Innates   */
   ADD_RACIAL_INNATE(MAGICAL_REDUCTION , RACE_DUERGAR, 1);
   ADD_RACIAL_INNATE(INNATE_STRENGTH, RACE_DUERGAR, 6);
@@ -515,14 +508,8 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_SUMMON_WARG, RACE_GOBLIN, 16);
   ADD_RACIAL_INNATE(INNATE_SUMMON_TOTEM, RACE_GOBLIN, 26);
   ADD_RACIAL_INNATE(INNATE_FLURRY, RACE_GOBLIN, 36);
-  /* List of Kobold Innates          */
-  ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_KOBOLD, 1);
-  ADD_RACIAL_INNATE(INNATE_DAYVISION, RACE_KOBOLD, 1);
-  ADD_RACIAL_INNATE(INNATE_UNDEAD_FEALTY, RACE_KOBOLD, 51);
-  ADD_RACIAL_INNATE(INNATE_MINER, RACE_KOBOLD, 51);
+  /* List of Kobold Innates                  */
   /* List of Kuo Toa Innates         */
-  ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_KUOTOA, 1);
-  ADD_RACIAL_INNATE(INNATE_THROW_LIGHTNING, RACE_KUOTOA, 30);
   /* List of Githyanki Innates       */
   ADD_RACIAL_INNATE(INNATE_SHIFT_ASTRAL, RACE_GITHYANKI, 1);
   ADD_RACIAL_INNATE(INNATE_SHIFT_PRIME, RACE_GITHYANKI, 1);
@@ -593,7 +580,6 @@ void assign_innates()
 
   
   /* NPC Races */
-
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_OROG, 1);
   ADD_RACIAL_INNATE(INNATE_VULN_SUN, RACE_OROG, 1);
   ADD_RACIAL_INNATE(INNATE_DAYBLIND, RACE_OROG, 1);

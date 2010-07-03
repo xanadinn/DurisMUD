@@ -4353,7 +4353,7 @@ void spell_dimension_door(int level, P_char ch, char *arg, int type,
     return;
   }
   
-  distance = (int)(level * 1.35);
+  distance = MAX(25, level);
 
   if(GET_SPEC(ch, CLASS_SORCERER, SPEC_SHADOW))
     distance += 15;
