@@ -1251,5 +1251,8 @@ IS_GIANT(ch) || IS_PC_PET(ch) || IS_PC(ch) || IS_UNDEAD(ch)) && !IS_ANIMAL(ch))
 
 #define IS_CONSTRUCT(ch) ((GET_RACE(ch) == RACE_GOLEM) || \
                           (GET_RACE(ch) == RACE_CONSTRUCT))
-        
+
+#define IS_ANGEL(ch) ((GET_RACE(ch) == RACE_ANGEL) || \
+                      (GET_RACE(ch) == RACE_ELADRIN))
+
 #endif /* _DURIS_UTILS_H_ */
