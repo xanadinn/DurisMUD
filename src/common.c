@@ -152,8 +152,12 @@ const struct race_names race_names_table[LAST_RACE + 2] = {
   {"Titan", "Titan", "&+CT&+Wi&+Ct&+Wa&+Cn&n", "TT"},
   {"Avatar", "Avatar", "&+cAv&+Ca&+Wt&+Ca&+cr&n", "AV"},
   {"Ghaele", "Ghaele", "&+cGh&+Cae&+cle&n", "GH"},
-  {"Braelani", "Bralani", "&+cBr&+ra&+cl&+ra&+cn&+ri&n", "BR"},
+  {"Bralani", "Bralani", "&+cBr&+ra&+cl&+ra&+cn&+ri&n", "BR"},
   {"Whiner", "Whiner", "&+MW&+Wh&+Min&+We&+Mr&n", "WH"},
+  {"Incubus", "Incubus", "&+BIn&+bcub&+Bus&n", "IN"},
+  {"Succubus", "Succubus", "&+LS&+ru&+Rcubb&+ru&+Ls&n", "SU"},
+  {"Fire Giant", "FireGiant", "&+rFi&+Rre Gia&+rnt&n", "FG"},
+  {"Frost Giant", "FrostGiant", "&+cFro&+Cst Gi&+cant&n", "IG"},
   {0}
 };
 
@@ -207,7 +211,7 @@ int race_size(int race)
     case RACE_CARNIVORE:
     case RACE_PLICH:
     case RACE_PVAMPIRE:
-	case RACE_PDKNIGHT:
+    case RACE_PDKNIGHT:
     case RACE_BARBARIAN:
     case RACE_BEHOLDERKIN:
     case RACE_ZOMBIE:
@@ -221,6 +225,8 @@ int race_size(int race)
     case RACE_PILLITHID:
     case RACE_KUOTOA:
     case RACE_WOODELF:
+    case RACE_INCUBUS:
+    case RACE_SUCCUBUS:
     default:
       return SIZE_MEDIUM;
       break;
