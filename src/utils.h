@@ -774,17 +774,28 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define IS_HUMANOID(ch) ((GET_RACE(ch) > RACE_NONE) && \
            (GET_RACE(ch) < 31) || \
            (GET_RACE(ch) == RACE_AGATHINON) || \
-           (GET_RACE(ch) == RACE_HUMANOID) || \
-           (GET_RACE(ch) == RACE_HALFORC) || \
-           (GET_RACE(ch) == RACE_FAERIE) || \
-           (GET_RACE(ch) == RACE_VAMPIRE) || \
-           (GET_RACE(ch) == RACE_RAKSHASA) || \
-           (GET_RACE(ch) == RACE_ANGEL) || \
-           (GET_RACE(ch) == RACE_DRIDER) || \
+           (GET_RACE(ch) == RACE_HUMANOID)  || \
+           (GET_RACE(ch) == RACE_HALFORC)   || \
+           (GET_RACE(ch) == RACE_FAERIE)    || \
+           (GET_RACE(ch) == RACE_VAMPIRE)   || \
+           (GET_RACE(ch) == RACE_RAKSHASA)  || \
+           (GET_RACE(ch) == RACE_ANGEL)     || \
+           (GET_RACE(ch) == RACE_DRIDER)    || \
            (GET_RACE(ch) == RACE_SNOW_OGRE) || \
-           (GET_RACE(ch) == RACE_LYCANTH) || \
-           (GET_RACE(ch) == RACE_ZOMBIE) || \
-           (GET_RACE(ch) == RACE_PRIMATE))
+           (GET_RACE(ch) == RACE_LYCANTH)   || \
+           (GET_RACE(ch) == RACE_ZOMBIE)    || \
+           (GET_RACE(ch) == RACE_PRIMATE)   || \
+           (GET_RACE(ch) == RACE_ELADRIN)   || \
+           (GET_RACE(ch) == RACE_KOBOLD)    || \
+           (GET_RACE(ch) == RACE_PILLITHID) || \
+           (GET_RACE(ch) == RACE_KUOTOA)    || \
+           (GET_RACE(ch) == RACE_WOODELF)   || \
+           (GET_RACE(ch) == RACE_ARCHON)    || \
+           (GET_RACE(ch) == RACE_ASURA)     || \
+           (GET_RACE(ch) == RACE_GHAELE)    || \
+           (GET_RACE(ch) == RACE_BRALANI)   || \
+           (GET_RACE(ch) == RACE_INCUBUS)   || \
+           (GET_RACE(ch) == RACE_SUCCUBUS))
 
 #define IS_MULTICLASS_NPC(ch) (IS_NPC(ch) && IS_AFFECTED4(ch, AFF4_MULTI_CLASS))
 
@@ -809,7 +820,7 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 
 #define IS_THRIKREEN(ch) (GET_RACE(ch) == RACE_THRIKREEN)
 
-#define IS_CENTAUR(ch) (GET_RACE(ch) == RACE_CENTAUR)
+#define IS_CENTAUR(ch) (GET_RACE(ch) == RACE_CENTAUR || GET_RACE(ch) == RACE_DRIDER)
 
 #define IS_GOBLIN(ch) (GET_RACE(ch) == RACE_GOBLIN)
 

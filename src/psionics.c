@@ -82,7 +82,8 @@ void do_drain(P_char ch, char *arg, int cmd)
 {
   P_char   victim;
 
-  if (GET_RACE(ch) != RACE_ILLITHID)
+  if (GET_RACE(ch) != RACE_ILLITHID && \
+     GET_RACE(ch) != RACE_PILLITHID)
   {
     send_to_char("What a sicko. Go home.\r\n", ch);
     return;
@@ -240,7 +241,8 @@ void do_absorbe(P_char ch, char *arg, int cmd)
 {
   P_char   victim;
 
-  if (GET_RACE(ch) != RACE_ILLITHID)
+  if (GET_RACE(ch) != RACE_ILLITHID && \
+      GET_RACE(ch) != RACE_PILLITHID)
   {
     send_to_char("What a sicko. Go home.\r\n", ch);
     return;
