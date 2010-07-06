@@ -1,0 +1,133 @@
+#1
+pets~
+Pets~
+Pets~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+pets~
+Theurgist Pets:
+
+Function: Skeleton RACE_ARCHON 'a &+yhou&+Yn&+yd &+Rarch&+Wo&+Rn &+rbr&+Raw&+rle&+rr&n'
+Function: Zombie RACE_ARCHON   'a &+YLant&+Ye&+Yrn &+Rarch&+Wo&+Rn &+yso&+rldi&+yer&n'
+Function: Spectre RACE_ASURA   'an &+Rasu&+Yr&+Ra &+rave&+Lng&+rer&n'
+Function: Wraith RACE_BRALANI  'a &+Cbral&+Wa&+Cni &+Rbattle&+Mmage&n'
+Function: Vampire RACE_GHAELE  'a &+cGha&+Ce&+cle &+wkn&+Wi&+wght&+W-e&+wrr&+Wa&+wnt&n'
+Function: Lich RACE_GHAELE     'a &+cg&+Ch&+Wae&+Cl&+ce &+Wholy &+Cliber&+Wator&n'
+Function: Dracolich RACE_TITAN '&+ra &+Rcrimson &+rtitan&n' '&+Ban &+bazure &+Btitan&n'
+                               '&+ga &+Gjasper &+gtitan&n'  '&+wa &+Lbasalt &+wtitan&n'
+Function: Greater Draco RACE_AVATAR
+&nan &+cav&+Ca&+Wt&+Ca&+cr&n of the &+Warch&+cangel &nof &+rWar&n | &nan &+cav&+Ca&+Wt&+Ca&+cr&n of the &+Warch&+cangel &nof &+RJudgement&n
+n &+cav&+Ca&+Wt&+Ca&+cr&n of the &+Warch&+cangel &nof &+LVengeance&n | &nan &+cav&+Ca&+Wt&+Ca&+cr&n of the &+Warch&+cangel &nof &+CJustice&n'
+Function: Shadow [Templar] '&+wan &+Lastral &+wd&+Wev&+wa'
+Function: Golem [Thaumaturge] '&na &+Yvalor&+Chamme&+cr&n'
+~
+#2
+innates~
+Innates~
+Innates~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+innates~
+Requiem (Mummify):	
+
+As the (corpse) dies, you send its &n&+Wsoul&n to the &n&+wu&n&+Wppe&n&+wr &n&+cp&n&+Clane&n&+cs&n and preserve the
+&n&+Lcorpse&n, ready to be inhabited by an &n&+Rang&n&+We&n&+Rl&n&+Yic &n&+Wsoul&n.
+
+Summon Host (Exhume Corpse):
+
+A &n&+Wholy be&n&+Ra&n&+Wm&n of &n&+Ylight&n appears before you. As the &n&+Ylight &n&+Wdis&n&+wsip&n&+Lates&n, a &n&+Wsoul&n&+wless
+&n&+Lcorpse&n remains.
+
+Ally (Spawn):
+
+As the (corpse) dies, the &n&+Wsoul&n of (pet) immediately enters the &n&+Ldead &n&+rbody&n, ready
+to aid you in your battle against &n&+Lev&n&+ri&n&+Ll&n.
+~
+#3
+spells~
+Spells~
+Spells~
+~
+13 15 3 0 7 0 0 0 0 0 0
+0 0 0 0 0 0 0 0
+0 0 100
+E
+spells~
+	Return Soul (Unmaking):
+
+The (corpse) turns to &n&+ydust&n and &n&+wb&n&+Llow&n&+ws&n away as its &n&+Wsoul&n is returned to whence it
+came.
+
+	Create Golem:
+
+*Insert Valorhammer where Blood Golem is.
+
+	Holy Blade (Doom Blade):
+
+As you call to the &n&+Wh&n&+Yea&n&+Wv&n&+Ye&n&+Wns&n for a weapon to slay the &n&+Lev&n&+ri&n&+Ll&n in the world, an
+&n&+Yang&n&+We&n&+Yl&n&+Ric&n figure &n&+Lmat&n&+wer&n&+Wia&n&+wli&n&+Lzes&n before you, handing you a &n&+Ygolden&n blade. The
+figure recites a short &n&+Yprayer&n before &n&+Wva&n&+wni&n&+Ls&n&+whi&n&+Wng&n as fast as it came.
+
+As (player) calls to the &n&+Wh&n&+Yea&n&+Wv&n&+Ye&n&+Wns&n for a weapon to slay the &n&+Lev&n&+ri&n&+Ll&n in the world,
+an &n&+Yang&n&+We&n&+Yl&n&+Ric&n figure &n&+Lmat&n&+wer&n&+Wia&n&+wli&n&+Lzes&n before you, handing a &n&+Ygolden&n blade to (player).
+The figure recites a short &n&+Yprayer&n before &n&+Wva&n&+wni&n&+Ls&n&+whi&n&+Wng&n as fast as it came.
+
+	Call (pet):
+
+After a short &n&+yr&n&+Yi&n&+Wtu&n&+Ya&n&+Yl&n, the &n&+Wsoul&n of (pet) is called to inhabit the (corpse).
+The (corpse) &n&+btr&n&+Ban&n&+Csf&n&+Bor&n&+bms&n into (pet) and awaits instruction from (caster).
+
+	Holy Aura:
+
+*Grants the Holyman soulshield procs. Same text, different god (Heironious).
+
+	Mend Soul (Heal Undead):
+
+&n&+WHoly &n&+Renergy&n flows into you from the &n&+Wh&n&+Yea&n&+Wv&n&+Ye&n&+Wns&n, mending your wounds.
+
+&n&+WHoly &n&+Renergy&n flows into (target) from the &n&+Wh&n&+Yea&n&+Wv&n&+Ye&n&+Wns&n, mending their wounds.
+
+	Restore Spirit (Enervate):
+
+A &n&+Wholy &n&+Yglow&n around you &n&+yre&n&+Ypl&n&+Weni&n&+Ysh&n&+yes&n your health and endurance.
+
+A &n&+Wholy &n&+Yglow&n around (target) &n&+yre&n&+Ypl&n&+Weni&n&+Ysh&n&+yes&n their health and endurance.
+
+	Vitalize Soul (Vitalize Undead):
+
+The &n&+Wholy powers&n of &n&+WH&n&+Yei&n&+Wr&n&+Yo&n&+Rn&n&+Yiou&n&+Rs&n strengthens (target)'s physical being.
+
+	Protect Soul (Protect Undead):
+
+With a quick &n&+Cge&n&+cs&n&+bt&n&+cu&n&+Cre&n, (target)'s skin hardens to the &n&+ydensity&n of &n&+Lstone&n.
+
+	Angelic Countenance (Vampiric Trance):
+
+&n&+WF&n&+Yea&n&+Wth&n&+Ye&n&+Wr&n&+Ye&n&+Wd w&n&+Yi&n&+Wngs&n sprout from your back and your &n&+Ysk&n&+yi&n&+Yn&n and &n&+Ye&n&+yy&n&+Yes&n gain a &n&+Ygolden
+&n&+Yhu&n&+ye&n. You can feel the &n&+Wholy &n&+Rpower&n of &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Csn&n&+ce&n&+Css&n flowing through you!
+
+&n&+WF&n&+Yea&n&+Wth&n&+Ye&n&+Wr&n&+Ye&n&+Wd w&n&+Yi&n&+Wngs&n sprout from (caster)'s back and their &n&+Ysk&n&+yi&n&+Yn&n and &n&+Yey&n&+ye&n&+Ys&n gain a
+&n&+Ygolden hu&n&+ye&n. They are surrounded with a &n&+Wholy &n&+Yglow&n of &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Cs &n&+Rpower&n!
+
+	Aid of the Heavens (Summon Ghasts):
+
+&n&+CR&n&+ci&n&+Cght&n&+ceou&n&+Cs &n&+Wsp&n&+wir&n&+Wits&n of past &n&+Lb&n&+ra&n&+Lttl&n&+re&n&+Ls&n begin to &n&+Lco&n&+wa&n&+Wle&n&+ws&n&+Lce&n around (caster).
+
+The &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Cs &n&+Wsp&n&+wir&n&+Wits&n glance about before looking towards (caster) for
+guidance.
+
+	Voice of Creation:
+
+&n&+bR&n&+cec&n&+Cit&n&+cin&n&+bg&n a &n&+Wholy &n&+Yprayer&n, you send (target) reeling with &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Cs &n&+Rpower&n.
+
+(Player) &n&+br&n&+cec&n&+Ci&n&+cte&n&+bs&n a &n&+Wholy &n&+Yprayer&n and sends (target) reeling with &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Cs
+&n&+Rpower&n.
+
+You are sent reeling by the &n&+Cr&n&+ci&n&+Cght&n&+ceou&n&+Cs &n&+Rpower&n of (caster)'s &n&+Wholy &n&+Yprayer&n.
+~
