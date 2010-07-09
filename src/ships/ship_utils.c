@@ -928,3 +928,30 @@ void set_weapon(P_ship ship, int slot, int w_num, int arc)
     ship->slot[slot].val1 = weapon_data[w_num].ammo; // ammo count
     ship->slot[slot].val2 = 0; // damage level
 }
+
+
+float WeaponData::average_hull_damage() const
+{
+    return 
+    ((float)(min_damage + max_damage) / 2.0) * 
+    ((float)fragments) * 
+    ((float)hull_dam / 100.0) * 
+    ((100.0 - (float)sail_hit) / 100.0);
+}
+
+float WeaponData::average_sail_damage() const
+{
+    return 
+    ((float)(min_damage + max_damage) / 2.0) * 
+    ((float)fragments) * 
+    ((float)sail_dam / 100.0) * 
+    ((float)sail_hit / 100.0);
+}
+
+void normalize_direction(int &dir)
+{
+    while (dir >= 360) dir = dir - 360;
+    while (dir < 0) dir = dir + 360;
+}
+
+

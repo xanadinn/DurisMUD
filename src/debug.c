@@ -26,6 +26,8 @@
 #include "utils.h"
 #include "mm.h"
 #include "profile.h"
+#include "ships/ships.h"
+#include "ships/ship_ai.h"
 
 /*
  * external variables 
@@ -154,6 +156,42 @@ void do_debug(P_char ch, char *argument, int cmd)
       send_to_char("Profiling is not defined.\r\n", ch);
     #endif
       return;
+    }
+    if (isname(arg1, "ship"))
+    {
+      ShipVisitor svs;
+      if (isname(arg2, "off"))
+      {
+        for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
+        {
+          P_ship ship = svs;
+          if (ship->npc_ai && ship->npc_ai->debug_char == ch)
+          {
+              ship->npc_ai->debug_char = 0;
+              send_to_char("Done.\r\n", ch);
+              return;
+          }
+        }
+      }
+      else
+      {
+        for (bool fn = shipObjHash.get_first(svs); fn; fn = shipObjHash.get_next(svs))
+        {
+          P_ship ship = svs;
+          if (isname(arg2, ship->id))
+          {
+            if (!ship->npc_ai)
+            {
+              send_to_char("This ship is not under NPC control, nothing to debug.\r\n", ch);
+              return;
+            }
+            ship->npc_ai->debug_char = ch;
+            return;
+          }
+        }
+        send_to_char("No ship with such id in game.\r\n", ch);
+        return;
+      }
     }
   }
   if (debug_mode)

@@ -24,7 +24,6 @@ extern char  weapon[100];
 
 int   write_newship(P_ship temp);
 P_ship getshipfromchar(P_char ch);
-int   getarc(int heading, int bearing);
 void  setcontact(int i, P_ship obj, P_ship ship, int x, int y);
 int   bearing(float x1, float y1, float x2, float y2);
 float range(float x1, float y1, float z1, float x2, float y2, float z2);
@@ -126,10 +125,10 @@ void setcontact(int i, P_ship target, P_ship ship, int x, int y)
   contacts[i].ship = target;
   
   char your_arc[3];
-  getarc(ship->heading, contacts[i].bearing);
+  get_arc_indicator(ship->heading, contacts[i].bearing);
   sprintf(your_arc, "%s", arc);
   
-  getarc(target->heading, (contacts[i].bearing >= 180) ? (contacts[i].bearing - 180) : (contacts[i].bearing + 180));
+  get_arc_indicator(target->heading, (contacts[i].bearing >= 180) ? (contacts[i].bearing - 180) : (contacts[i].bearing + 180));
   sprintf(contacts[i].arc, "%s%s", your_arc, arc);
 }
 
@@ -247,7 +246,7 @@ void scantarget(P_ship target, P_char ch)
                 SHIPPINTERNAL(target), 
                 SHIPMAXPINTERNAL(target),
                 contacts[i].bearing,
-                arc_name[getarc (getshipfromchar(ch)->heading, contacts[i].bearing)]);
+                arc_name[get_arc(getshipfromchar(ch)->heading, contacts[i].bearing)]);
         send_to_char(buf, ch);
 
         sprintf(buf, "%s %s\r\n",
@@ -611,7 +610,7 @@ void volley_hit_event(P_char ch, P_char victim, P_obj obj, void *data)
                     int hit_dir = your_bearing + number(-(weapon_data[w_index].hit_arc / 2), (weapon_data[w_index].hit_arc / 2));
                     if (hit_dir >= 360)    hit_dir -= 360;
                     else if (hit_dir < 0)  hit_dir = 360 + hit_dir;
-                    int hit_arc = getarc(target->heading, hit_dir);
+                    int hit_arc = get_arc(target->heading, hit_dir);
 
                     damage = (int)( (float)damage * (float)weapon_data[w_index].hull_dam / 100.0 );
                     damage_hull(ship, target, damage, hit_arc, weapon_data[w_index].armor_pierce);
@@ -714,7 +713,7 @@ void volley_hit_event(P_char ch, P_char victim, P_obj obj, void *data)
                     int hit_dir = your_bearing + number(-(weapon_data[w_index].hit_arc / 2), (weapon_data[w_index].hit_arc / 2));
                     if (hit_dir >= 360)    hit_dir -= 360;
                     else if (hit_dir < 0)  hit_dir = 360 + hit_dir;
-                    int hit_arc = getarc(target->heading, hit_dir);
+                    int hit_arc = get_arc(target->heading, hit_dir);
 
                     damage = (int)( (float)damage * (float)weapon_data[w_index].hull_dam / 100.0 );
                     damage_hull(ship, target, damage, hit_arc, weapon_data[w_index].armor_pierce);
@@ -1015,22 +1014,23 @@ int check_ram_arc(int heading, int bearing, int size)
     return FALSE;
 }
 
-int try_ram_ship(P_ship ship, P_ship target, int j)
+int try_ram_ship(P_ship ship, P_ship target, int tbearing)
 {
-    int tbearing = contacts[j].bearing, sbearing = 0;
     int theading = target->heading, sheading = ship->heading;
+    int sbearing = tbearing + 180;
+    if (sbearing > 360) sbearing -= 360;
 
     if (!check_ram_arc(sheading, tbearing, 120))
     {
         act_to_all_in_ship(ship, "&+WTarget is not in front of you to ram it!&N");
-        REMOVE_BIT(ship->flags, RAMMING);
+        if (IS_SET(ship->flags, RAMMING)) REMOVE_BIT(ship->flags, RAMMING);
         return FALSE;
     }
 
     if (ship->speed <= BOARDING_SPEED)
     {
         act_to_all_in_ship(ship, "&+WYour ship is too slow to ram!\r\n");
-        REMOVE_BIT(ship->flags, RAMMING);
+        if (IS_SET(ship->flags, RAMMING)) REMOVE_BIT(ship->flags, RAMMING);
         return FALSE;
     }
 
@@ -1049,7 +1049,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
         if (ram_speed <= 0)
         {
             act_to_all_in_ship(ship, "&+WTarget speeds away from your attempt to ram it!&N");
-            REMOVE_BIT(ship->flags, RAMMING);
+            if (IS_SET(ship->flags, RAMMING)) REMOVE_BIT(ship->flags, RAMMING);
             return FALSE;
         }
     }
@@ -1066,7 +1066,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
         chance = 75.0 / (hull_mod * speed_mod);
     else
         chance = 100.0 - (25.0 * hull_mod * speed_mod);
-    chance = 100.0 - (100.0 - chance) / (1.0 + ship->sailcrew.skill_mod * 2 * (chance / 100.0));
+    chance = 100.0 - (100.0 - chance) / (1.0 + ship->sailcrew.skill_mod * (chance / 50.0));
 
     int hit_chance = BOUNDED(0, (int)chance, 100);
 
@@ -1112,31 +1112,18 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
         }
 
 
-        // Calculating ram point on target
-        int k = getcontacts(target);
-        for (j = 0; j < k; j++) 
-        {
-            if (contacts[j].ship == ship)
-            {
-                sbearing = contacts[j].bearing;
-                break;
-            }
-        }
-
         // Calculating damage
         int ram_damage = (SHIPHULLWEIGHT(ship) + 100) / 10;
-        ram_damage = (int)((float)ram_damage * (0.4 * (float)ship->speed / (float)SHIPTYPESPEED(ship->m_class) + 0.6 * (float)ram_speed / (float)SHIPTYPESPEED(ship->m_class)));
-        if (tbearing < 40)
-            ram_damage = (int)((float)ram_damage * (1.0 + 0.2 * (float)tbearing / 40.0));
-        else if (tbearing > 320)
-            ram_damage = (int)((float)ram_damage * (1.0 + 0.2 * (float)(tbearing - 320) / 40.0));
+        ram_damage = (int)((float)ram_damage * (0.1 + 0.4 * (float)ship->speed / (float)SHIPTYPESPEED(ship->m_class) + 0.5 * (float)ram_speed / (float)SHIPTYPESPEED(ship->m_class)));
+        if (get_arc(ship->heading, tbearing) == FORE)
+            ram_damage = (int)((float)ram_damage * 1.2);
 
         int counter_damage = (SHIPHULLWEIGHT(target) + 100) / 10;
         counter_damage = (int)((float)counter_damage * (0.1 + 0.3 * (float)ship->speed / (float)SHIPTYPESPEED(ship->m_class) + 0.4 * (float)counter_speed / (float)SHIPTYPESPEED(target->m_class)));
-        if (sbearing < 40)
-            counter_damage = (int)((float)counter_damage * (1.0 + 0.2 * (float)sbearing / 40.0));
-        else if (sbearing > 320)
-            counter_damage = (int)((float)counter_damage * (1.0 + 0.2 * (float)(sbearing - 320) / 40.0));
+        if (get_arc(target->heading, sbearing) == FORE)
+            counter_damage = (int)((float)counter_damage * 1.2);
+
+        counter_damage += SHIPHULLWEIGHT(target) / SHIPHULLWEIGHT(ship);
 
 
         //sprintf(buf, "SBearing = %d, TBearing = %d, RSpeed = %d, CSpeed = %d, RDam = %d, CDam = %d\r\n", sbearing, tbearing, ram_speed, counter_speed, ram_damage, counter_damage);
@@ -1145,7 +1132,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
 
         // Applying damage
         int split = (int)(100.0 * (float)ram_damage / (float)(ram_damage + counter_damage));
-        while (ram_damage > 0 || counter_damage > 0)
+        while (ram_damage != 0 || counter_damage != 0)
         {
             bool hit_target = (number(0, 99) < split);
             if (ram_damage == 0) hit_target = false;
@@ -1165,7 +1152,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
                     int hit_dir = sbearing + number(-90, 90);
                     if (hit_dir >= 360)    hit_dir -= 360;
                     else if (hit_dir < 0)  hit_dir = 360 + hit_dir;
-                    damage_hull(ship, target, dam, getarc(target->heading, hit_dir), 2);
+                    damage_hull(ship, target, dam, get_arc(target->heading, hit_dir), 2);
                 }
             }
             else
@@ -1181,7 +1168,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
                     int hit_dir = ship->heading + number(-90, 90);
                     if (hit_dir >= 360)    hit_dir -= 360;
                     else if (hit_dir < 0)  hit_dir = 360 + hit_dir;
-                    damage_hull(NULL, ship, dam, getarc(ship->heading, hit_dir), 0);
+                    damage_hull(NULL, ship, dam, get_arc(ship->heading, hit_dir), 0);
                 }
             }
         }
@@ -1211,7 +1198,7 @@ int try_ram_ship(P_ship ship, P_ship target, int j)
     ship->timer[T_RAM]         = MAX(1, (int)(50.0 * (1.0 - whole_crew_mod * 0.15)));
     ship->timer[T_RAM_WEAPONS] = MAX(1, (int)(25.0 * (1.0 - ship->guncrew.skill_mod * 0.15)));
 
-    REMOVE_BIT(ship->flags, RAMMING);
+    if (IS_SET(ship->flags, RAMMING)) REMOVE_BIT(ship->flags, RAMMING);
     update_ship_status(target, ship);
     if (SHIPSINKING(target))
         update_ship_status(ship);
@@ -1265,7 +1252,7 @@ int weaponsight(P_ship ship, P_ship target, int slot, float range)
   return 0;
 }
 
-int getarc(int shipheading, int bearing)
+/*int getarc(int shipheading, int bearing)
 {
   if (shipheading < bearing)
     shipheading += 360;
@@ -1291,5 +1278,45 @@ int getarc(int shipheading, int bearing)
     sprintf(arc, "F");
     return FORE;
   }
+  return FORE;
+}*/
+
+int get_arc_indicator(int heading, int bearing)
+{
+  int arc_no = get_arc(heading, bearing);
+  switch(arc_no)
+  {
+  case FORE:
+    sprintf(arc, "F");
+    break;
+  case REAR:
+    sprintf(arc, "R");
+    break;
+  case STARBOARD:
+    sprintf(arc, "S");
+    break;
+  case PORT:
+    sprintf(arc, "P");
+    break;
+  default:
+    sprintf(arc, "*");
+    break;
+  }
+  return arc_no;
+}
+
+
+int get_arc(int heading, int bearing)
+{
+  bearing -= heading;
+  normalize_direction(bearing);
+  if (bearing <= 40 || bearing >= 320)
+    return FORE;
+  if (bearing >= 140 && bearing <= 220)
+    return REAR;
+  if (bearing >= 40 && bearing <= 140)
+    return STARBOARD;
+  if (bearing >= 220 && bearing <= 320)
+    return PORT;
   return FORE;
 }

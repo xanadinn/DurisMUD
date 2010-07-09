@@ -339,7 +339,7 @@ struct ShipData
     ulong flags;
     struct ShipData *next, *target;
     struct shipai_data *shipai;
-    struct ShipCombatAI *combat_ai;
+    struct NPCShipAI *npc_ai;
     int time;
     int race;
     int pilotlevel;
@@ -386,6 +386,9 @@ extern const PortData ports[NUM_PORTS];
 
 struct WeaponData
 {
+    float average_hull_damage() const;
+    float average_sail_damage() const;
+
     const char* name;
     int cost;
     int weight;
@@ -576,7 +579,9 @@ extern int damage_sail(P_ship ship, P_ship target, int dam);
 extern int  damage_hull(P_ship ship, P_ship target, int dam, int arc, int armor_pierce);
 //extern void dispcontact(int i);
 //extern int  getarc(P_ship ship1, int x, int y);
-extern int  getarc(int heading, int bearing);
+void normalize_direction(int &dir);
+extern int  get_arc(int heading, int bearing);
+extern int  get_arc_indicator(int heading, int bearing);
 extern int  ybearing(int bearing, int range);
 extern int  xbearing(int bearing, int range);
 extern int getcontacts(P_ship ship, bool limit_range = true);

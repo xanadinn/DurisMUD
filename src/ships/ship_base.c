@@ -298,7 +298,7 @@ struct ShipData *newship(int m_class, bool npc)
 
    // Set up the new ship
    ship->shipai = 0;
-   ship->combat_ai = 0;
+   ship->npc_ai = 0;
    ship->panel = read_object(60000, VIRTUAL);
    ship->m_class = m_class;
    setarmor(ship, true);
@@ -391,8 +391,8 @@ void delete_ship(P_ship ship, bool npc)
     extract_obj(ship->shipobj, TRUE);
     ship->panel = NULL;
     ship->shipobj = NULL;
-    if (ship->combat_ai)
-        delete ship->combat_ai;
+    if (ship->npc_ai)
+        delete ship->npc_ai;
 
     logit(LOG_STATUS, "Ship \"%s\" (%s) deleted", strip_ansi(ship->name).c_str(), ship->ownername);
     
@@ -1166,7 +1166,10 @@ int order_undock(P_char ch, P_ship ship)
         ship->race = GOODIESHIP;
     else
         ship->race = EVILSHIP;
-    ship->timer[T_UNDOCK] = 30;
+    if (IS_TRUSTED(ch))
+        ship->timer[T_UNDOCK] = 2;
+    else
+        ship->timer[T_UNDOCK] = 30;
     ship->time = time(NULL);
     update_ship_status(ship);
     return TRUE;
@@ -1711,10 +1714,10 @@ int lock_target(P_char ch, P_ship ship, char* arg)
     }
     if (isname(arg, "off")) 
     {
-        if (ship->combat_ai != 0 && IS_TRUSTED(ch))
+        if (ship->npc_ai != 0 && IS_TRUSTED(ch))
         {
-            delete ship->combat_ai;
-            ship->combat_ai = 0;
+            delete ship->npc_ai;
+            ship->npc_ai = 0;
         }
 
         if (ship->target != NULL) {
@@ -1728,22 +1731,22 @@ int lock_target(P_char ch, P_ship ship, char* arg)
     }
     if (isname(arg, "pirate") && IS_TRUSTED(ch))
     {
-        if (ship->combat_ai)
+        if (ship->npc_ai)
         {
-            delete ship->combat_ai;
-            ship->combat_ai = 0;
+            delete ship->npc_ai;
+            ship->npc_ai = 0;
         }
         else
-            ship->combat_ai = new ShipCombatAI(ship, ch);
+            ship->npc_ai = new NPCShipAI(ship, ch);
     }
     if (isname(arg, "debug") && IS_TRUSTED(ch))
     {
-        if (ship->combat_ai)
+        if (ship->npc_ai)
         {
-            if (ship->combat_ai->debug_char)
-                ship->combat_ai->debug_char = 0;
+            if (ship->npc_ai->debug_char)
+                ship->npc_ai->debug_char = 0;
             else
-                ship->combat_ai->debug_char = ch;
+                ship->npc_ai->debug_char = ch;
         }
     }
 
@@ -2560,7 +2563,7 @@ int fire_weapon(P_ship ship, P_char ch, int w_num)
         if (ch) send_to_char("You're too close to use this weapon!\r\n", ch);
         return TRUE;
     }
-    if (getarc(ship->heading, contacts[j].bearing) != ship->slot[w_num].position) 
+    if (get_arc(ship->heading, contacts[j].bearing) != ship->slot[w_num].position) 
     {
         if (ch) send_to_char("Target is not in weapon's firing arc!\r\n", ch);
         return TRUE;
@@ -3456,7 +3459,7 @@ void newship_activity()
                         {
                             if (contacts[j].range < 1.0) 
                             {
-                                    try_ram_ship(ship, ship->target, j);
+                                try_ram_ship(ship, ship->target, contacts[j].bearing);
                             }
                         }
                     }
@@ -3485,8 +3488,8 @@ void newship_activity()
             }
 
             shipai_activity(ship);
-            if (ship->combat_ai)
-                ship->combat_ai->activity();
+            if (ship->npc_ai)
+                ship->npc_ai->activity();
 
             if (ship->target == 0 && ship->speed > 0 && number(0, 3600) == 0)
                 try_load_pirate_ship(ship);
