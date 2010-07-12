@@ -869,16 +869,17 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define GOOD_RACE(ch) RACE_GOOD(ch)
 #define PUNDEAD_RACE(ch) RACE_PUNDEAD(ch)
 
-#define USES_MANA(ch) (((ch)->player.m_class & \
-    (CLASS_PSIONICIST | CLASS_MINDFLAYER)) || \
-    ((ch)->player.secondary_class & (CLASS_PSIONICIST | CLASS_MINDFLAYER)))
-#define USES_COMMUNE(ch) (!USES_MANA(ch) && \
+#define USES_COMMUNE(ch) ( \
     (IS_NPC(ch) || IS_SET((ch)->player.m_class, CLASS_DRUID)))
-#define USES_SPELL_SLOTS(ch) (!USES_MANA(ch) && ( \
+#define USES_FOCUS(ch) ( \
+    (IS_NPC(ch) || IS_SET((ch)->player.m_class, CLASS_PSIONICIST)) || \
+    IS_SET((ch)->player.m_class, CLASS_MINDFLAYER))
+#define USES_SPELL_SLOTS(ch) ( \
         USES_COMMUNE(ch) || \
         IS_PUNDEAD(ch) || \
         IS_HARPY(ch) || \
-        GET_CLASS(ch, CLASS_ETHERMANCER)))
+        GET_CLASS(ch, CLASS_ETHERMANCER) || \
+        USES_FOCUS(ch))
 
 #define IS_SPELL_S(n) (IS_SET(skills[n].targets, TAR_SPELL))
 #define IS_SPELL(n) (n>=FIRST_SPELL && n<=LAST_SPELL && IS_SPELL_S(n))

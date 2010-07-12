@@ -3834,6 +3834,17 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         dam *= 0.85;
       break;
     case SPLDAM_FIRE:
+      if ( IS_AFFECTED4(victim, AFF4_ICE_AURA) )
+      {
+        act("&+rYour fiery spell causes&n $N &+rsmolder and spasm in pain!&n",
+           TRUE, ch, 0, victim, TO_CHAR);
+        act("$n's &+fiery spell causes you smolder and spasm in pain!&n",
+           TRUE, ch, 0, victim, TO_VICT);
+        act("$n's &+rfiery spell causes&n $N &n&+rto smolder and spasm in pain!&n",
+           TRUE, ch, 0, victim, TO_NOTVICT);
+        dam *= dam_factor[DF_VULNFIRE];
+      }
+
       if(has_innate(victim, INNATE_VULN_FIRE))
       {
         dam *= dam_factor[DF_VULNFIRE];
@@ -3894,21 +3905,6 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
           send_to_char("The heat of the spell dried up your clothes completely!\n", victim);
         }
       }
-      if ( IS_AFFECTED4(victim, AFF4_ICE_AURA) )
-      {
-        act("&+rYour fiery spell causes&n $N &+rsmolder and spasm in pain!&n",
-           TRUE, ch, 0, victim, TO_CHAR);
-        act("$n's &+fiery spell causes you smolder and spasm in pain!&n",
-           TRUE, ch, 0, victim, TO_VICT);
-        act("$n's &+rfiery spell causes&n $N &n&+rto smolder and spasm in pain!&n",
-           TRUE, ch, 0, victim, TO_NOTVICT);
-        dam *= dam_factor[DF_VULNFIRE];
-      }
-
-      if (IS_AFFECTED2(victim, AFF2_FIRESHIELD))
-        dam *= dam_factor[DF_ELSHIELDRED];
-      else if (IS_AFFECTED(victim, AFF_PROT_FIRE))
-        dam *= dam_factor[DF_PROTECTION];
 
       break;
     case SPLDAM_COLD:

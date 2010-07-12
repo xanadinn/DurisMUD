@@ -989,7 +989,7 @@
 #define TAG_EATING                   2017
 #define TAG_OBJ_RECENT_FRAG          2018
 #define TAG_KNOWN_SHAPE              2019
-#define TAG_UNUSED                   2020
+#define TAG_DRINKING                 2020
 #define TAG_EPIC_MONOLITH            2021
 #define TAG_EPIC_ERRAND              2022
 #define TAG_EPIC_COMPLETED           2023
