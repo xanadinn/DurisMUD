@@ -971,7 +971,7 @@ void assign_ship_crew_funcs()
 }
 
 static int treasure_chests[5] = { 40215, 40216, 40217, 40218, 40219 };
-static int treasure_chest_keys[5] = { 40220, 40221, 40222, 40223, 50224 };
+static int treasure_chest_keys[5] = { 40220, 40221, 40222, 40223, 40224 };
 
 
 bool load_treasure_chest(P_ship ship, P_char captain, int level)

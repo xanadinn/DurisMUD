@@ -890,7 +890,7 @@ void dock_ship(P_ship ship, int to_room)
 bool is_npc_ship_name (const char*);
 bool check_ship_name(P_ship ship, P_char ch, char* name)
 {
-    if (ISNPCSHIP(ship))
+    if (ship && ISNPCSHIP(ship))
         return true;
 
     ShipVisitor svs;
