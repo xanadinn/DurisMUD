@@ -1529,7 +1529,7 @@ bool parse_spell(P_char ch, char *argument,
       return FALSE;
     }
   }
-  else if (circle != -1)
+  else if ((circle != -1) && !IS_TRUSTED(ch))
   {
     send_to_char("&+RYou don't have that spell memorized.\n", ch);
     return FALSE;
