@@ -413,7 +413,7 @@ void convertMob(P_char ch)
            (1.0 - class_hitpoints[flag2idx(ch->player.m_class)]));
 
 #if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
-  hits /= 2;
+  hits = (int)(hits * (1/10));
   hits += 1; // make sure they have at least a single hp..
 #endif
 
