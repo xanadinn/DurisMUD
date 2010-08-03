@@ -40,7 +40,8 @@
 #define ANTI 0
 
 #define MINES_MAP_SURFACE   0
-#define MINES_MAP_THARNRIFT 1
+#define MINES_MAP_UD        1
+#define MINES_MAP_THARNRIFT 2
 
 struct forge_item {
 
