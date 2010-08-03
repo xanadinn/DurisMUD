@@ -61,7 +61,10 @@ void update_skills(P_char ch)
   {
     if (IS_EPIC_SKILL(s))
     {
-    
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[s].taught = 100;
+      ch->only.pc->skills[s].learned = 100;
+#endif
     } 
     else if ( GET_LVL_FOR_SKILL(ch, s) > 0 && GET_LEVEL(ch) >= GET_LVL_FOR_SKILL(ch, s) )
     {
@@ -78,24 +81,29 @@ void update_skills(P_char ch)
       notched = lastlvl-shouldbe;
       
       //debug("should be: %d, learned so far: %d, notched above: %d", shouldbe, lastlvl, notched);
-      
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[s].learned = 100;
+      ch->only.pc->skills[s].taught = 100;
+#else
       ch->only.pc->skills[s].learned =
         MAX(MIN(40, GET_LEVEL(ch) * 3 / 2), ch->only.pc->skills[s].learned);
        
       //debug("new learned: %d", ch->only.pc->skills[s].learned);
-    
+#endif    
     } else {
       ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 0;
     }
-    
     if (!IS_EPIC_SKILL(s) &&
         SKILL_DATA_ALL(ch, s).maxlearn[0] < ch->only.pc->skills[s].taught &&
         SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec] < ch->only.pc->skills[s].taught)
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
+#else
       ch->only.pc->skills[s].taught =
         MAX(0,
             MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
                 SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
-  
+#endif  
   }
   
   // assumes that the instruments and songs are back to back in spells.h
@@ -103,22 +111,30 @@ void update_skills(P_char ch)
   {
     if ( GET_LVL_FOR_SKILL(ch, s) > 0 && GET_LEVEL(ch) >= GET_LVL_FOR_SKILL(ch, s) )
     {
+#if defined(CHAOS_MD) && (CHAOS_MUD == 1)
+      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
+#else
       ch->only.pc->skills[s].taught =
       MAX(ch->only.pc->skills[s].taught,
           MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
               SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
       ch->only.pc->skills[s].learned =
         MAX(MIN(40, GET_LEVEL(ch) * 3 / 2), ch->only.pc->skills[s].learned);
+#endif
     } else {
       ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 0;
     }
     
     if (SKILL_DATA_ALL(ch, s).maxlearn[0] < ch->only.pc->skills[s].taught &&
         SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec] < ch->only.pc->skills[s].taught)
+#if defined(CHAOS_MUD) && (CHAOS_MUD == 1)      
+      ch->only.pc->skills[s].taught = ch->only.pc->skills[s].learned = 100;
+#else
       ch->only.pc->skills[s].taught =
         MAX(0,
             MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
                 SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
+#endif  
   }
   
 }

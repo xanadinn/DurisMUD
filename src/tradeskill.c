@@ -81,6 +81,7 @@ struct mine_range_data {
 } mine_data[] = {
   //Zone display name, command argument matching, start range, end range, reloading mines?
   {"Surface Map", "map", 500000, 659999, TRUE},
+  {"Underdark", "ud", 700000, 859999, TRUE},
 //  {"Tharnadia Rift", "tharnrift", 110000, 119999, FALSE},
   {0}
 };
@@ -121,6 +122,9 @@ int mines_properties(int map)
   {
   case MINES_MAP_SURFACE:
     return (int)get_property("mines.maxSurfaceMap", 50);
+    break;
+  case MINES_MAP_UD:
+    return (int)get_property("mines.maxUD", 50);
     break;
   case MINES_MAP_THARNRIFT:
     return (int)get_property("mines.maxTharnRift", 50);
@@ -922,6 +926,11 @@ bool invalid_mine_room(int rroom_id)
       world[rroom_id].sector_type == SECT_MOUNTAIN || 
       world[rroom_id].sector_type == SECT_ROAD || 
       world[rroom_id].sector_type == SECT_UNDRWLD_MOUNTAIN || 
+      world[rroom_id].sector_type == SECT_UNDRWLD_NOGROUND ||
+      world[rroom_id].sector_type == SECT_UNDRWLD_NOSWIM ||
+      world[rroom_id].sector_type == SECT_UNDRWLD_WATER ||
+      world[rroom_id].sector_type == SECT_UNDRWLD_INSIDE ||
+      world[rroom_id].sector_type == SECT_UNDRWLD_CITY ||
       world[rroom_id].sector_type == SECT_OCEAN ||
       world[rroom_id].sector_type == SECT_INSIDE )
     return TRUE;
@@ -1197,17 +1206,20 @@ void do_mine(P_char ch, char *arg, int cmd)
   // From hearing Torgal's responses to it as well as knowing nobody ever uses
   // this command, i'm going to go ahead and get the engine in game. -Venthix
 
- /*
+ 
   int i;
   char buff[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH];
-  one_argument(arg, buff);
- 
+  char arg1[MAX_STRING_LENGTH], arg2[MAX_STRING_LENGTH];
+  half_chop(arg, arg1, arg2);
+  //one_argument(arg, buff);
 
-  if( !strcmp(buff, "reset") && IS_TRUSTED(ch) )
+  debug("(arg) %s, (arg1) %s, (arg2) %s", arg, arg1, arg2);
+
+  if( !strcmp(arg1, "reset") && IS_TRUSTED(ch) )
   {
     for (i = 0; mine_data[i].start; i++)
     {
-      if (!strcmp(arg, mine_data[i].abbrev))
+      if (isname(arg2, mine_data[i].abbrev))
       {
         sprintf(buf2, "purge %s", mine_data[i].abbrev);
         do_mine(ch, buf2, CMD_MINE);
@@ -1217,17 +1229,19 @@ void do_mine(P_char ch, char *arg, int cmd)
         return;
       }
     }
-    sprintf(buf2, "Available options for mine reset: map | tharnrift\n");
+    sprintf(buf2, "Available options for mine reset: map | ud\n");
+    /*
       for (i = 0; mine_data[i].start; i++);
       {
-      strcat(buf2, (mine_data[i].abbrev).c_str());
+      strcat(buf2, (mine_data[i].abbrev));
       if (mine_data[i+1].abbrev)
         strcat(buf2, " | ");
     }
     strcat(buf2, "\n");
+    */
     send_to_char(buf2, ch);
   }
-  else if( !strcmp(buff, "load") && IS_TRUSTED(ch) )
+  else if( !strcmp(arg1, "load") && IS_TRUSTED(ch) )
   {
     for (i = 0; mine_data[i].start; i++)
     {
@@ -1239,14 +1253,16 @@ void do_mine(P_char ch, char *arg, int cmd)
         return;
       }
     }
-    sprintf(buf2, "Available options for mine load: map | tharnrift\n");
-    for (i = 0; mine_data[i].start; i++);
+    sprintf(buf2, "Available options for mine load: map | ud\n");
+    /*for (i = 0; mine_data[i].abbrev; i++);
     {
+      debug("%s", mine_data[i].abbrev);
       strcat(buf2,  mine_data[i].abbrev);
       if (mine_data[i+1].abbrev)
         strcat(buf2, " | ");
     }
     strcat(buf2, "\n");
+    */
     send_to_char(buf2, ch);
   }  
   else if( !strcmp(buff, "purge") && IS_TRUSTED(ch) )
@@ -1294,6 +1310,7 @@ void do_mine(P_char ch, char *arg, int cmd)
     else
     {
       sprintf(buf2, "Available options for mine purge: all | map | tharnrift\n");
+      /*
       for (i = 0; mine_data[i].start; i++);
       {
         strcat(buf2, mine_data[i].abbrev);
@@ -1301,10 +1318,11 @@ void do_mine(P_char ch, char *arg, int cmd)
           strcat(buf2, " | ");
       }
       strcat(buf2, " | all\n");
+      */
       send_to_char(buf2, ch);
     }
   }
-  */
+  
   send_to_char("You can't mine here!\n", ch);
 }
 
