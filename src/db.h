@@ -11,7 +11,7 @@
 using namespace std;
 
 #ifndef CHAOS_MUD
-#define CHAOS_MUD       0  // normal rules suspended, maxes skills, etc, etc
+#define CHAOS_MUD       1  // normal rules suspended, maxes skills, etc, etc
 #endif 
 
 #define STRING(var) char (var)[MAX_STRING_LENGTH];
