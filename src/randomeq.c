@@ -691,19 +691,18 @@ int check_random_drop(P_char ch, P_char mob, int piece)
   
     chance = (int) ((luck / get_property("random.drop.luck.divisor", 10)) * charmobdiv);
     chance += number(0, 20);
-    if(char_lvl < 20)
-     chance += number(0, 30);
+    if(char_lvl < get_property("random.drop.increase.for.below.lvl", 20))
+     chance += number(0, get_property("random.drop.increase.for.below.lvl.perc", 30));
   if(IS_ELITE(mob)) //another boost for elite npcs
     chance += number(5, 35);
 
- /* if (piece)
+  if (piece)
     chance *= (get_property("random.drop.piece.percentage", 20.0f) / 100.0);
   else
     chance *= (get_property("random.drop.equip.percentage", 2.0f) / 100.0);
 
   if (IS_HARDCORE(ch))
     chance = chance * (get_property("random.drop.modifier.hardcore", 150.0f) / 100.0);
-  */  //more nixing - Jexni
 
   if (chance > number(0, 100 + (trophy_mod * 2)))
     return 1;
