@@ -343,10 +343,10 @@ D 0 55614 0 1 100 0 0 0
 *
 D 0 55413 1 1 100 0 0 0
 *     east exit from "Inside the Royal Palace" to
-*     "An Entryway Into the Palace" - closed
+*     "An Entryway Into the Royal Palace" - closed
 *
 D 0 55630 3 2 100 0 0 0
-*     west exit from "An Entryway Into the Palace" to
+*     west exit from "An Entryway Into the Royal Palace" to
 *     "Inside the Royal Palace" - closed/locked
 *
 D 0 55508 0 2 100 0 0 0
@@ -548,6 +548,7 @@ O 0 361 1 55318 100 0 0 0          * (object type not in this .obj file)
 O 0 55195 1 55355 100 0 0 0        * a rose
 O 0 55028 1 55396 100 0 0 0        * a well-preserved corpse
 O 0 55027 2 55411 100 0 0 0        * a massive oak tree
+O 0 55431 1 55413 100 0 0 0        * a pile of smoldering rubble
 O 0 55027 2 55446 100 0 0 0        * a massive oak tree
 O 0 55091 3 55500 100 0 0 0        * an imposing sign
 O 0 55193 1 55604 100 0 0 0        * a shimmering portal
@@ -926,7 +927,6 @@ M 0 55175 1 55395 100 0 0 0        * Marigold
 M 0 55176 1 55396 100 0 0 0        * Nubija
 M 0 55173 1 55397 100 0 0 0        * Theft
 M 0 55174 1 55398 100 0 0 0        * Ugruk
-M 0 55212 1 55399 100 0 0 0        * the Indomitable Snowman
 M 0 55201 1 55400 100 0 0 0        * an ambassador from the Icecrag Castle
 M 0 55208 1 55400 100 0 0 0        * an ambassador from the Domain of Lost Souls
 M 0 55199 1 55400 100 0 0 0        * an ambassador from The Jade Empire
@@ -996,6 +996,7 @@ M 0 55519 26 55407 25 0 0 0        * a medium carp
 M 0 55520 26 55407 25 0 0 0        * a large carp
 M 0 55261 1 55410 100 0 0 0        * Salt, the peg-legged dockmaster
 M 0 55262 1 55412 100 0 0 0        * A large funnelweb spider
+M 0 55212 1 55413 100 0 0 0        * the Indomitable Snowman
 M 0 55517 26 55415 25 0 0 0        * a baby duckling
 M 0 55518 26 55415 25 0 0 0        * a small carp
 M 0 55519 26 55415 25 0 0 0        * a medium carp
@@ -1082,13 +1083,6 @@ M 0 55049 7 55549 100 0 0 0        * a puffadder
 M 0 55049 7 55549 100 0 0 0        * a puffadder
 M 0 55049 7 55549 100 0 0 0        * a puffadder
 M 0 55521 1 55549 100 0 0 0        * a pregnant puffadder
-M 0 55061 1 55556 100 0 0 0        * a fearsome WaRRioR
-F 1 55063 2 55556 100 0 0 0        * a powerful sage (following)
-F 1 55064 1 55556 100 0 0 0        * a divine guardsman (following)
-F 1 55063 2 55556 100 0 0 0        * a powerful sage (following)
-M 0 55134 3 55559 100 0 0 0        * a ranger guardsman
-M 0 55134 3 55559 100 0 0 0        * a ranger guardsman
-M 0 55134 3 55559 100 0 0 0        * a ranger guardsman
 M 0 55149 1 55590 100 0 0 0        * an escaped inmate
 E 1 55011 4 16 100 0 0 0           *   a rusty bar
 M 0 55150 1 55590 100 0 0 0        * an escaped inmate
