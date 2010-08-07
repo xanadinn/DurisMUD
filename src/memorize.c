@@ -623,6 +623,8 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
   double   time_mult;
   P_nevent  e;
   int      tick_factor = 0, time, align, level, clevel;
+  int      lowlvlcap = (int)get_property("memorize.lowlvl.cap", 30);
+  int      lowlvlbottom = (int)get_property("memorize.lowlvl.bottom", 40);
 
   if(IS_PUNDEAD(ch) ||
      GET_CLASS(ch, CLASS_WARLOCK) ||
@@ -714,13 +716,13 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
     time = (int) (time * get_property("memorize.factor.commune", 2.0));
 
     // reduction in time if you have the epic skill
-  if(GET_CHAR_SKILL(ch, SKILL_NATURES_SANCTITY) > number(1, 100) &&
-     OUTSIDE(ch))
-  {
-    time = (int) (time * .65);
-  }
+    if(GET_CHAR_SKILL(ch, SKILL_NATURES_SANCTITY) > number(1, 100) &&
+       OUTSIDE(ch))
+    {
+      time = (int) (time * .65);
+    }
 
-  // randomly reduce the time by 1/3 based on level of caster
+    // randomly reduce the time by 1/3 based on level of caster
     if(!bStatOnly &&
        !GET_OPPONENT(ch) &&
        GET_LEVEL(ch) > number(0, 65))
@@ -759,6 +761,10 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
       time += ne_event_time(e);  // adding the time ensures that the event will not complete
                                  // instantly after a fight or spell is cast
     }
+  }
+  if (IS_PC(ch) && (GET_LEVEL(ch) < lowlvlcap))
+  {
+    time = (time * BOUNDED(lowlvlbottom, ((GET_LEVEL(ch), lowlvlcap) / lowlvlcap), 100) / 100);
   }
   return time;
 }
