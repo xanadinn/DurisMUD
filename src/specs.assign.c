@@ -2381,7 +2381,7 @@ void assign_rooms(void)
   world[real_room0(49051)].funct = crew_shop_proc;  // Venan'Trut (market inn)
   world[real_room0(81021)].funct = crew_shop_proc;  // Ceothia
   world[real_room0(76859)].funct = crew_shop_proc;  // Jade shipguild
-  //world[real_room0()].funct = crew_shop_proc;  // TODO: Tharnadia
+  world[real_room0(132766)].funct = crew_shop_proc;  // Tharnadia
   //world[real_room0()].funct = crew_shop_proc;  // TODO: Stronghold
 
   // Fiord on west side of GC.
