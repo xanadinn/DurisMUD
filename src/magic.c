@@ -3801,6 +3801,8 @@ void spell_fortitude(int level, P_char ch, char *arg, int type, P_char victim,
     bzero(&af, sizeof(af));
     af.type = SPELL_FORTITUDE;
     af.duration = 2 * (1 + temp);
+    af.location = APPLY_CON;
+    af.modifier = BOUNDED(1, GET_LEVEL(ch) / 4, 10);
     affect_to_char(victim, &af);
     send_to_char("&+WYour will to live grows stronger!\n", victim);
   }
