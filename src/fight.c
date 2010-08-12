@@ -7832,6 +7832,11 @@ int parrySucceed(P_char victim, P_char attacker, P_obj wpn)
      GET_SPEC(victim, CLASS_WARRIOR, SPEC_SWASHBUCKLER))
     learnedvictim = (int) (learnedvictim * 1.20);
   
+  //  Better chance for ap's
+  if((GET_CLASS(victim, CLASS_ANTIPALADIN) || GET_CLASS(victim, CLASS_PALADIN)) &&
+     is_wielding_paladin_sword(victim))
+    learnedvictim = (int) (learnedvictim * 1.10);
+
   // Harder to parry a swashbuckler.
   if(GET_SPEC(attacker, CLASS_WARRIOR, SPEC_SWASHBUCKLER))
     learnedattacker = (int) (learnedattacker * 0.80);

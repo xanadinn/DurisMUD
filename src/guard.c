@@ -23,6 +23,25 @@ P_char guarding(P_char ch)
   return NULL;
 }
 
+P_char guarding2(P_char ch, int n)
+{
+  int i = 0;
+  struct char_link_data *cld;
+
+  if (number_guarding(ch) < n)
+    return NULL;
+
+  for (cld = ch->linking; cld; cld = cld->next_linking)
+  {
+    if (cld->type == LNK_GUARDING)
+      i++;
+
+    if (i == n)
+      return cld->linked;
+  }
+  return NULL;
+}
+
 P_char guarded_by(P_char ch)
 {
   struct char_link_data *cld;
@@ -56,6 +75,30 @@ bool is_being_guarded(P_char ch)
 
   return FALSE;
 }
+
+int number_guarding(P_char ch)
+{
+  struct char_link_data *cld;
+  int i = 0;
+
+  for (cld = ch->linking; cld; cld = cld->next_linking)
+  {
+    if (cld->type == LNK_GUARDING)
+      i++;
+  }
+  return i;
+}
+
+void drop_one_guard(P_char ch)
+{
+  P_char tch;
+
+  tch = guarding2(ch, number_guarding(ch));;
+  unlink_char(ch, tch, LNK_GUARDING);
+
+  return;
+}
+
 
 void do_guard(P_char ch, char *argument, int cmd)
 {     
@@ -119,8 +162,19 @@ void do_guard(P_char ch, char *argument, int cmd)
     return;
   }
 
+  if( (CAN_MULTI_GUARD(ch)) &&
+      (number_guarding(ch) >= (int)get_property("skill.guard.max.multi", 2)) )
+  {
+    send_to_char("You're guarding too many people, so you drop one.\n", ch);
+    drop_one_guard(ch);
+  }
+  else if(!CAN_MULTI_GUARD(ch) && number_guarding(ch) >= (int)get_property("skill.guard.max", 1))
+  {
+    clear_links(ch, LNK_GUARDING);
+  }
+ 
   link_char(ch, target, LNK_GUARDING);
-
+  
   act("You are now guarding $N!", FALSE, ch, 0, target, TO_CHAR);
   act("$n is now guarding you!", FALSE, ch, 0, target, TO_VICT);
 

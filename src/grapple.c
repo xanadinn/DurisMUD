@@ -1327,7 +1327,7 @@ void do_groundslam(P_char ch, char *argument, int cmd)
       return;
     }
 
-    if ((GET_ALT_SIZE(ch) < (GET_ALT_SIZE(victim) - (int)get_property("grapple.groundslam.size.up", 2))) || has_innate(victim, INNATE_HORSE_BODY))
+    if ((GET_ALT_SIZE(ch) < (GET_ALT_SIZE(victim) - (int)get_property("grapple.groundslam.size.up", 2))) || has_innate(victim, INNATE_HORSE_BODY) || has_innate(victim, INNATE_SPIDER_BODY))
     {
       send_to_char("They'd squash you if you tried!\r\n", ch);
       return;

@@ -3931,7 +3931,7 @@ void do_score(P_char ch, char *argument, int cmd)
   float    frags;
   char     buffer[1024];
   float    fragnum, hardcorepts = 0;
-  P_char tch;
+  P_char tch, tch2;
   P_obj nexus;
 
   if (ch == NULL)
@@ -4785,6 +4785,16 @@ void do_score(P_char ch, char *argument, int cmd)
   {
     buf[0] = 0;
     strcat(buf, tch->player.name);
+    if (CAN_MULTI_GUARD(ch))
+      for (int maxg = 2; maxg <= (int)get_property("skill.guard.max.multi", 2); maxg++)
+      {
+	tch2 = guarding2(ch, maxg);
+        if (tch2)
+	{
+          strcat(buf, ", ");
+	  strcat(buf, tch2->player.name);
+	}
+      }
     send_to_char("Guarding: ", ch);
     send_to_char(buf, ch);
     send_to_char("\n", ch);

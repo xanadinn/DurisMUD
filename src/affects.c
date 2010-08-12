@@ -2304,7 +2304,7 @@ void initialize_links()
   memset(link_types, 0, sizeof(link_types));
   define_link(LNK_CONSENT, "CONSENT", NULL, LNKFLG_EXCLUSIVE);
   define_link(LNK_RIDING, "RIDING", NULL, LNKFLG_EXCLUSIVE);
-  define_link(LNK_GUARDING, "GUARDING", guard_broken, LNKFLG_ROOM | LNKFLG_EXCLUSIVE);
+  define_link(LNK_GUARDING, "GUARDING", guard_broken, LNKFLG_ROOM);
   define_link(LNK_EVENT, "EVENT", event_broken, 0);
   define_link(LNK_SNOOPING, "SNOOPING", NULL, 0);
   define_link(LNK_FLANKING, "FLANKING", flanking_broken,

@@ -1101,7 +1101,7 @@ void lance_charge(P_char ch, char *argument)
          FALSE, ch, weapon, victim, TO_CHAR);
       act("With a &+Wbone c&+wr&+Wu&+ws&+Wh&+wi&+Wn&+wg thud $n's $q slams into you!",
          FALSE, ch, weapon, victim, TO_VICT);
-      if(!number(0, 4))
+      if(!number(0, 100))
         DamageOneItem(ch, SPLDAM_GENERIC, weapon, FALSE);
       break;
     case 2:
@@ -1113,7 +1113,7 @@ void lance_charge(P_char ch, char *argument)
       act("$n glances you with the tip of $s $q causing a small surface wound.",
           FALSE, ch, weapon, victim, TO_VICT);
       knockdown_chance = 0;
-      if(!number(0, 4))
+      if(!number(0, 100))
         DamageOneItem(ch, SPLDAM_GENERIC, weapon, FALSE);
       break;
     case 3:
@@ -1143,7 +1143,7 @@ void lance_charge(P_char ch, char *argument)
         set_fighting(ch, victim);
         sprintf(buf,"$N is flung to the ground as $n charges in from the %s, with $M impaled on the tip of the $q.", 
           dirs[rev_dir[continue_dir]]);
-        if(!number(0,4))
+        if(!number(0,100))
           DamageOneItem(ch, SPLDAM_GENERIC, weapon, FALSE);
         act(buf, FALSE, ch, weapon, victim, TO_NOTVICT);
         break;
@@ -1156,7 +1156,7 @@ void lance_charge(P_char ch, char *argument)
          FALSE, ch, weapon, victim, TO_NOTVICT);
       act("$n rams $s $q right through your body making you &+RB&+rL&+RE&+rE&+RD&n all over!",
          FALSE, ch, weapon, victim, TO_VICT);
-      if(!number(0, 4))
+      if(!number(0, 100))
         DamageOneItem(ch, SPLDAM_GENERIC, weapon, FALSE);
       break;
     default:
@@ -2927,7 +2927,8 @@ bool isMaulable(P_char ch, P_char victim)
     return false;
   }
 
-  if(has_innate(victim, INNATE_HORSE_BODY) &&
+  if((has_innate(victim, INNATE_HORSE_BODY ||
+      has_innate(victim, INNATE_SPIDER_BODY))) &&
     get_takedown_size(ch) <= get_takedown_size(victim))
   {
     return false;
@@ -4920,8 +4921,9 @@ void bash(P_char ch, P_char victim)
 
   /* you must be size of centaur to bash it */
   if((has_innate(victim, INNATE_HORSE_BODY) ||
+      has_innate(victim, INNATE_SPIDER_BODY) ||
      GET_RACE(ch) == RACE_QUADRUPED)  &&
-     ch_size < vict_size )
+     ch_size < vict_size+1 ) // Need to be a size above to bash per kitsero
   {
     act("$n makes a futile attempt to bash $N, but $E is simply immovable.", FALSE, ch, 0, victim, TO_NOTVICT);
     act("$n makes a futile attempt to bash you, but you are simply immovable.", FALSE, ch, 0, victim, TO_VICT);
@@ -5396,7 +5398,7 @@ void do_tackle(P_char ch, char *arg, int cmd)
   
   if((has_innate(vict, INNATE_HORSE_BODY) ||
      GET_RACE(ch) == RACE_QUADRUPED)  &&
-     (get_takedown_size(ch) < get_takedown_size(vict)))
+     (get_takedown_size(ch) < get_takedown_size(vict)) + 1)
   {
     act("$n makes a futile attempt to tackle $N, but $E is simply immovable.",
         FALSE, ch, 0, vict, TO_NOTVICT);
@@ -6255,8 +6257,9 @@ void maul(P_char ch, P_char victim)
     percent_chance = (int) (percent_chance * 0.7);
   }
 
-  if(has_innate(victim, INNATE_HORSE_BODY) &&
-    get_takedown_size(ch) < get_takedown_size(victim))
+  if((has_innate(victim, INNATE_HORSE_BODY) ||
+      has_innate(victim, INNATE_SPIDER_BODY)) &&
+    get_takedown_size(ch) < get_takedown_size(victim) + 1)
         too_big = true;
   else if(vict_size > ch_size + 1)
         too_big = true;
@@ -7732,7 +7735,8 @@ void do_springleap(P_char ch, char *argument, int cmd)
   appear(ch);
   
   /* you must be size of centaur to springleap it */
-  if(has_innate(vict, INNATE_HORSE_BODY) &&
+  if((has_innate(vict, INNATE_HORSE_BODY) ||
+      has_innate(vict, INNATE_SPIDER_BODY)) &&
       (get_takedown_size(ch) < get_takedown_size(vict)))
   {
     act("$n makes a futile attempt to springleap $N, but $E is simply immovable.",
@@ -8053,8 +8057,9 @@ void do_trip(P_char ch, char *argument, int cmd)
 
   /* you must be size of centaur to springleap it */
   if((has_innate(vict, INNATE_HORSE_BODY) ||
+      has_innate(vict, INNATE_SPIDER_BODY) ||
      GET_RACE(vict) == RACE_QUADRUPED) &&
-     (get_takedown_size(ch) < get_takedown_size(vict)))
+     (get_takedown_size(ch) < get_takedown_size(vict) + 1))
   {
     act("$n makes a futile attempt to trip $N, but $E is simply immovable.",
         FALSE, ch, 0, vict, TO_NOTVICT);
@@ -9018,7 +9023,8 @@ char isSpringable(P_char ch, P_char victim)
     return FALSE;
   }
  
-  if(has_innate(victim, INNATE_HORSE_BODY) &&
+  if((has_innate(victim, INNATE_HORSE_BODY) ||
+      has_innate(victim, INNATE_SPIDER_BODY)) &&
     get_takedown_size(ch) <= get_takedown_size(victim))
   {
     return false;
