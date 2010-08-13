@@ -254,6 +254,8 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_FIRBOLG:
   case RACE_KOBOLD:
   case RACE_KUOTOA:
+  case RACE_AGATHINON:
+  case RACE_ELADRIN:
     i = number(0, 3);
     break;
   case RACE_HERBIVORE:
@@ -301,6 +303,7 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_WRAITH:
   case RACE_SPECTRE:
   case RACE_SHADOW:
+  case RACE_ASURA:
   case RACE_PHANTOM:
   case RACE_WIGHT:
   case RACE_V_ELEMENTAL:

@@ -120,9 +120,9 @@
          (GET_RACE(mob) == RACE_PHANTOM) || \
          (GET_RACE(mob) == RACE_WIGHT) || \
          (GET_RACE(mob) == RACE_SHADOW) || \
-         (GET_RACE(mob) == RACE_PHANTOM) || \
          (GET_RACE(mob) == RACE_SPECTRE) || \
-		 (GET_RACE(mob) == RACE_V_ELEMENTAL) || \
+         (GET_RACE(mob) == RACE_V_ELEMENTAL) || \
+         (GET_RACE(mob) == RACE_BRALANI) || \
          IS_AFFECTED4(mob, AFF4_PHANTASMAL_FORM))
 
 #define LEGLESS(mob) (IS_IMMATERIAL(mob) || IS_BEHOLDER(mob) || \
@@ -880,6 +880,10 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define IS_SHADOW(ch) (GET_RACE(ch) == RACE_SHADOW)
 
 #define IS_DRIDER(ch) (GET_RACE(ch) == RACE_DRIDER)
+
+#define IS_ASURA(ch) (GET_RACE(ch) == RACE_ASURA)
+
+#define IS_BRALANI(ch) (GET_RACE(ch) == RACE_BRALANI)
 
 #define HAS_FOUR_HANDS(ch) ((GET_RACE(ch) == RACE_THRIKREEN) || \
                            (IS_AFFECTED3((ch), AFF3_FOUR_ARMS)))
