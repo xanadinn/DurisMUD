@@ -738,7 +738,7 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
     align = GET_ALIGNMENT(ch);
     
     // alignment modifiers...
-    if((align == 0) &&
+    if((align >= -10) && (align <= 10) &&
        !IS_MULTICLASS_PC(ch))
     { 
         // only true druids...
