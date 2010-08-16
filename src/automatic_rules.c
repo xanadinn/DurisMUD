@@ -132,7 +132,7 @@ void do_raid(P_char ch, char *argument, int cmd)
         {
           if (hasRequriedSlots(tch))
           {  
-            if (!str_cmp(arg2, " bad"))
+            if (!str_cmp(arg2, "bad"))
               continue;
             sprintf(Gbuf, "%s is &+Wgood&n.\n", GET_NAME(tch));
             send_to_char(Gbuf, ch);
@@ -143,7 +143,9 @@ void do_raid(P_char ch, char *argument, int cmd)
             send_to_char(Gbuf, ch);
           }
         }
-	else
+	else if (!(!str_cmp(arg1, "room") || !str_cmp(arg1, "zone") ||
+	           !str_cmp(arg1, "evil") || !str_cmp(arg1, "good") ||
+		   !str_cmp(arg1, "all")))
 	{
 	  send_to_char("You don't see anybody.\n", ch);
 	}
