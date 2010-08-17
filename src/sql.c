@@ -619,16 +619,15 @@ void sql_connectIP(P_char ch)
   }
 }
 
-void sql_world_quest_finished(P_char ch, P_char giver, P_obj reward)
+void sql_world_quest_finished(P_char ch, P_obj reward)
 {
+  char buf[MAX_STRING_LENGTH];
 
-int m_virtual = (reward->R_num >= 0) ? obj_index[reward->R_num].virtual_number : 0;
+  int reward_vnum = reward ? ((reward->R_num >= 0) ? obj_index[reward->R_num].virtual_number : 0) : 0;
+  char* reward_desc = reward ? mysql_str(reward->short_description, buf) : mysql_str("", buf);
 
-char buf[MAX_STRING_LENGTH];
-
-db_query("INSERT INTO world_quest_accomplished (pid, timestamp, quest_giver, player_name, player_level, quest_target, reward_vnum, reward_desc) VALUES (%d, now(), %d, '%s', %d, %d, %d, '%s')", 
-						     GET_PID(ch), ch->only.pc->quest_giver, GET_NAME(ch), GET_LEVEL(ch), ch->only.pc->quest_mob_vnum, m_virtual ,mysql_str(reward->short_description, buf) );
-
+  db_query("INSERT INTO world_quest_accomplished (pid, timestamp, quest_giver, player_name, player_level, quest_target, reward_vnum, reward_desc) VALUES (%d, now(), %d, '%s', %d, %d, %d, '%s')", 
+						     GET_PID(ch), ch->only.pc->quest_giver, GET_NAME(ch), GET_LEVEL(ch), ch->only.pc->quest_mob_vnum, reward_vnum, reward_desc );
 }
 
 int sql_world_quest_can_do_another(P_char ch)

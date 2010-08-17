@@ -132,56 +132,12 @@ void resetQuest(P_char ch)
   ch->only.pc->quest_map_bought = 0;
 }
 
-void quest_reward(P_char ch, P_char quest_mob, int type)
+void quest_epic_reward(P_char ch, int type)
 {
-  char     Gbuf1[MAX_STRING_LENGTH];
-  
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     IS_NPC(ch))
-  {
-    return;
-  }
-  
-  P_obj reward = read_object(real_object(getItemFromZone(real_zone(ch->only.pc->quest_zone_number))), REAL);
-  
-  if(!reward)
-    reward = create_random_eq_new(ch, ch, -1, -1);
-  
-  if(reward)
-  {
-    wizlog(56, "%s reward was: %s", GET_NAME(ch), reward->short_description);
-    
-    REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
-    REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
-    SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
-    REMOVE_BIT(reward->extra_flags, ITEM_NODROP);
-    
-    act("$n gives you $q ", TRUE, quest_mob, reward, ch, TO_VICT);
-    act("$n gives $N $q.", FALSE, quest_mob, reward, ch, TO_NOTVICT);
-    obj_to_char(reward, ch);
-  }
-
-  if( GET_CLASS(ch, CLASS_MERCENARY) )
-  {
-    if( GET_LEVEL(ch) > 24 )
-    {
-      int temp = GET_LEVEL(ch) * 1256 + number(1,500);
-      mobsay(quest_mob, "I know you mercenaries don't work for free. Take this.");
-      sprintf(Gbuf1, "You receive %s.\r\n", coin_stringv(temp) );
-      send_to_char(Gbuf1, ch);
-      ADD_MONEY(ch, temp);
-    }
-    else
-    {
-      mobsay(quest_mob, "Sorry, but it's hard to take a little pipsqueek like you seriously as a mercenary. Grow up a bit and you'll start earning your keep.");
-    }
-  }
-  
   if(GET_LEVEL(ch) > 45 && ch->only.pc->quest_level > 45)
   {
-    sprintf(Gbuf1, "You gain some epic experience.");
-    act(Gbuf1, FALSE, quest_mob, 0, ch, TO_VICT);
+    //sprintf(Gbuf1, "You gain some epic experience.");
+    //act(Gbuf1, FALSE, quest_mob, 0, ch, TO_VICT);
 
     if(ch->only.pc->quest_level == 46)
       gain_epic(ch, EPIC_QUEST, 0, number(1, 3));
@@ -216,7 +172,10 @@ void quest_reward(P_char ch, P_char quest_mob, int type)
     if(ch->only.pc->quest_level > 55)
       gain_epic(ch, EPIC_QUEST, 0, 15);
   }
+}
 
+int quest_exp_reward(P_char ch, int type)
+{
   int exp_gain = 0;
   if(GET_LEVEL(ch) <= 30)
     exp_gain = EXP_NOTCH(ch) * get_property("world.quest.exp.level.30.andUnder", 1.300);
@@ -228,12 +187,72 @@ void quest_reward(P_char ch, P_char quest_mob, int type)
     exp_gain = EXP_NOTCH(ch) * get_property("world.quest.exp.level.55.andUnder", 0.500);
   else 
     exp_gain = EXP_NOTCH(ch) * get_property("world.quest.exp.level.other", 1.000);
+  return exp_gain;
+}
+
+P_obj quest_item_reward(P_char ch)
+{
+  P_obj reward = read_object(real_object(getItemFromZone(real_zone(ch->only.pc->quest_zone_number))), REAL);
+  
+  if(!reward)
+    reward = create_random_eq_new(ch, ch, -1, -1);
+  
+  if(reward)
+  {
+    wizlog(56, "%s reward was: %s", GET_NAME(ch), reward->short_description);
+    
+    REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
+    REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
+    SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
+    REMOVE_BIT(reward->extra_flags, ITEM_NODROP);
+  }
+  return reward;
+}
+
+void quest_full_reward(P_char ch, P_char quest_mob, int type)
+{
+  char     Gbuf1[MAX_STRING_LENGTH];
+  
+  if(!(ch) ||
+     !IS_ALIVE(ch) ||
+     IS_NPC(ch))
+  {
+    return;
+  }
+  
+  P_obj reward = quest_item_reward(ch);
+  if(reward)
+  {
+    act("$n gives you $q ", TRUE, quest_mob, reward, ch, TO_VICT);
+    act("$n gives $N $q.", FALSE, quest_mob, reward, ch, TO_NOTVICT);
+    obj_to_char(reward, ch);
+  }
+
+  if( GET_CLASS(ch, CLASS_MERCENARY) )
+  {
+    if( GET_LEVEL(ch) > 24 )
+    {
+      int temp = GET_LEVEL(ch) * 1256 + number(1,500);
+      mobsay(quest_mob, "I know you mercenaries don't work for free. Take this.");
+      sprintf(Gbuf1, "You receive %s.\r\n", coin_stringv(temp) );
+      send_to_char(Gbuf1, ch);
+      ADD_MONEY(ch, temp);
+    }
+    else
+    {
+      mobsay(quest_mob, "Sorry, but it's hard to take a little pipsqueek like you seriously as a mercenary. Grow up a bit and you'll start earning your keep.");
+    }
+  }
+  
+  quest_epic_reward(ch, type);
+
+  int exp_gain = quest_exp_reward(ch, type);
   gain_exp(ch, NULL, exp_gain, EXP_WORLD_QUEST); 
 
   sprintf(Gbuf1, "&+WYou gain some experience.&n");
   act(Gbuf1, FALSE, quest_mob, 0, ch, TO_VICT);
   
-  sql_world_quest_finished(ch, quest_mob, reward);
+  sql_world_quest_finished(ch, reward);
 
   resetQuest(ch);
 }
@@ -257,7 +276,7 @@ void quest_ask(P_char ch, P_char quest_mob)
 
   mobsay(quest_mob, "Thanks for bringing me the message. Here is a little something for your trouble.");
 
-  quest_reward(ch, quest_mob, FIND_AND_ASK);
+  quest_full_reward(ch, quest_mob, FIND_AND_ASK);
 }
 
 void quest_kill(P_char ch, P_char quest_mob)
@@ -279,7 +298,7 @@ void quest_kill(P_char ch, P_char quest_mob)
   if((GET_VNUM(quest_mob) != ch->only.pc->quest_mob_vnum) ) 
     return;
 
-  if(ch->only.pc->quest_accomplished ==1)
+  if(ch->only.pc->quest_accomplished == 1)
   {
     send_to_char("This quest is already finished, go visit your quest master for your reward!\r\n", ch);
     return;
@@ -287,11 +306,34 @@ void quest_kill(P_char ch, P_char quest_mob)
 
   ch->only.pc->quest_kill_how_many++;
 
+  int exp_gain = quest_exp_reward(ch, FIND_AND_KILL);
+
+  gain_exp(ch, NULL, exp_gain / ch->only.pc->quest_kill_original, EXP_WORLD_QUEST);
+  if (number(1, ch->only.pc->quest_kill_original) == 1)
+  {
+    P_obj reward = quest_item_reward(ch);
+    obj_to_char(reward, quest_mob);
+  }
+
+
   if(ch->only.pc->quest_kill_how_many - ch->only.pc->quest_kill_original == 0)
   {
-    ch->only.pc->quest_accomplished = 1;
     send_to_char("&+WCongratulations&n&n&+W, you finished your quest!&n\r\n", ch);
     wizlog(56, "%s finished quest @%s (kill quest)", GET_NAME(ch), quest_mob->player.short_descr );
+
+    if( GET_CLASS(ch, CLASS_MERCENARY) && GET_LEVEL(ch) > 24)
+    {
+      int temp = GET_LEVEL(ch) * 1256 + number(1,500);
+      act("A sneaky gremlin appears near $n and whispers something.", TRUE, ch, 0, 0, TO_ROOM);
+      act("A sneaky gremlin appears beside you.", FALSE, ch, 0, 0, TO_CHAR);
+      act("A sneaky gremlin whispers '&+LMy master sent me with your payment&N'.", FALSE, ch, 0, 0, TO_CHAR);
+      send_to_char_f(ch, "You receive %s.\r\n", coin_stringv(temp));
+      ADD_MONEY(ch, temp);
+    }
+
+    quest_epic_reward(ch, FIND_AND_KILL);
+    sql_world_quest_finished(ch, 0);
+    resetQuest(ch);
   }
   else
   {
@@ -315,7 +357,6 @@ int get_map_room(int zone_id)
 
   zone = &zone_table[zone_id];
 
-
   for (i = zone->real_bottom; (i != NOWHERE) && (i <= zone->real_top); i++)
     for (i2 = 0; i2 < NUM_EXITS; i2++)
       if (world[i].dir_option[i2])
@@ -330,7 +371,7 @@ int get_map_room(int zone_id)
           {
             if(IS_MAP_ROOM (world[i].dir_option[i2]->to_room) )
             {
-              /*
+                  /*
                  sprintf(o_buf,
                  " &+Y[&n%5d&+Y](&n%5d&+Y)&n &+R%-5s&n to &+Y[&+R%3d&n:&+Y%5d&+Y](&n%5d&+Y)&n %s\n",
                  world[i].number, i, dirs[i2],
@@ -412,11 +453,11 @@ void do_quest(P_char ch, char *args, int cmd)
         return;
       }
 
-      if(ch->only.pc->quest_kill_how_many != 0)
+      /*if(ch->only.pc->quest_kill_how_many != 0)
       {
         send_to_char("You already started the quest alone, so finish it alone!\r\n", ch);
         return;
-      }
+      }*/
       if(ch->only.pc->quest_shares_left == 0)
       {
         send_to_char("You cant share this quest with more people.\r\n", ch);

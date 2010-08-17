@@ -1274,7 +1274,7 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   else if(type == EXP_WORLD_QUEST)
   {
     XP = gain_exp_modifiers_race_only(ch, NULL, XP);
-// debug("world quest 2 (%d)", (int)XP);   
+// debug("world quest 1 (%d)", (int)XP);   
   }
   else if(type == EXP_QUEST)
   {

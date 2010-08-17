@@ -277,7 +277,7 @@ captain northshore pirate _no_move_~
 &+Lpirates coat drapes across his shoulders as it billows in the
 &+Lfierce winds.&n
 ~
-10314 0 0 0 0 0 0 -1000 S
+10314 1 0 0 0 0 0 -1000 S
 PH 0 1 -1
 42 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -294,7 +294,7 @@ first mate pirate~
 ~
 1073752136 1 0 0 0 0 0 -1000 S
 PH 0 1 -1
-41 0 0 1d1+1 1d1+1
+37 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40222
@@ -310,7 +310,7 @@ quarter master quartermaster northshore pirate~
 ~
 1074145288 1 0 0 0 0 0 -1000 S
 PH 0 1 -1
-41 0 0 1d1+1 1d1+1
+36 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40223
@@ -324,8 +324,8 @@ master gunner pirate northshore~
 &+Llooks upon his weapons, eager to unlease their fury.&n
 ~
 10312 1 0 0 0 0 0 0 S
-PH 0 4 -1
-41 0 0 1d1+1 1d1+1
+PH 0 1048576 -1
+35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40224
@@ -338,9 +338,9 @@ helmsman helm northshore pirate~
 &+Lhands control the wheel, he's constantly watching the water, the crew,
 &+Land keeps a weary eye on the clouds.&n
 ~
-10312 0 0 0 0 0 0 0 S
+10312 1 0 0 0 0 0 0 S
 PH 0 1 -1
-41 0 0 1d1+1 1d1+1
+34 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40225
@@ -354,9 +354,9 @@ doctor pirate surgeon northshore~
 &+Ldecent health, the doctor is among one of the more respected crew
 &+Lmembers and guarded very heavily during encounters.&n
 ~
-403528 0 0 0 0 0 0 -1000 S
+403528 1 0 0 0 0 0 -1000 S
 PH 0 524320 -1
-41 0 0 1d1+1 1d1+1
+36 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40226
@@ -370,7 +370,7 @@ deck standard northshore pirate~
 &+Lthe other crew members, for fear of being pushed into the great seas
 &+Lfor not pulling his own weight.&n
 ~
-403528 0 0 0 0 0 0 -850 S
+403528 1 0 0 0 0 0 -850 S
 PH 0 16384 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -384,13 +384,13 @@ lookout pirate northshore~
 &+Leyesight has already guided these pirates to wealth, and as he plies
 &+Lhis skills, he leers at you, hving spotted your coin purse.&n
 ~
-1073752136 0 0 0 0 0 0 -1000 S
+1073752136 1 0 0 0 0 0 -1000 S
 PH 0 4194304 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40228
-cut throat cutthroat north shore northshore pirate~
+cut throat cutthroat north shore northshore pirate _spec2_~
 &+La &+yv&+Liciou&+ys c&+Lutthroa&+yt &+Lof the &+YNorth&+Wshore &+LPirates&n~
 &+LA human cutthroat stands here, ready to send you to the depths.&n
 ~
@@ -399,13 +399,13 @@ cut throat cutthroat north shore northshore pirate~
 &+Lperminate scowl. Constantly flipping a small, well used knife, this
 &+Lpirate is ready to rip your heart out.&n
 ~
-10312 0 0 402653208 0 0 0 -1000 S
-PH 0 64 -1
-31 0 0 1d1+1 1d1+1
+10312 1 0 402653192 0 0 0 -1000 S
+PH 0 4096 -1
+30 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40229
-swashbuckler swash buckler northshore pirate~
+swashbuckler swash buckler northshore pirate _spec3_~
 &+La &+cs&+Cw&+ca&+Cs&+ch&+Cb&+cu&+Cc&+ck&+Cl&+ce&+Cr &+Lof the &+YNorth&+Wshore &+LPirates&n~
 &+LA swashbuckling pirate stands here, waiting to board your ship.&n
 ~
@@ -415,7 +415,7 @@ swashbuckler swash buckler northshore pirate~
 &+Labout his body. A flowing pirates shirt billows around him as he
 &+Lperpairs to plunder his next victim.&n
 ~
-10312 1 0 402653208 268435456 0 1024 -1000 S
+10312 1 0 402653192 268435456 0 1024 -1000 S
 PH 0 1 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -430,7 +430,7 @@ gunner pirate north shore northshore~
 &+Lfrom the weight of the bolts. As the crew goes to war with its next victims,
 &+Lthis man helps fuel the destructive powers the ship can unleash.&n
 ~
-395272 1 0 0 0 0 0 -1000 S
+395272 1 0 24 0 0 0 -1000 S
 PH 0 4096 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -447,7 +447,7 @@ captain twilight cove buccaneer pirate _no_move_~
 ~
 10314 1 0 402653208 0 0 0 0 S
 HO 0 16384 -1
-46 0 0 1d1+1 1d1+1
+44 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40232
@@ -460,9 +460,9 @@ first mate twilight cove buccaneer pirate~
 &+Lorc lashes out at the crew mates, ensuring they stay busy with the
 &+Ltasks at hand.&n
 ~
-10312 0 0 402653208 0 0 0 0 S
+10312 1 0 402653208 0 0 0 0 S
 HO 0 16 -1
-46 0 0 1d1+1 1d1+1
+41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40233
@@ -477,7 +477,7 @@ quartermaster twilight cove buccaneer pirate~
 ~
 10376 1 0 402653208 0 0 0 0 S
 HO 0 1 -1
-46 0 0 1d1+1 1d1+1
+40 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
 #40234
@@ -491,7 +491,7 @@ master gunner twilight cove buccaneer pirate~
 ~
 1073743944 1 0 402653208 0 0 0 -1000 S
 Ho 0 4096 -1
-45 0 0 1d1+1 1d1+1
+39 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40235
@@ -506,7 +506,7 @@ helmsman twilight cove buccaneer pirate~
 ~
 403464 1 0 402653208 0 0 0 -1000 S
 Ho 0 2097152 -1
-45 0 0 1d1+1 1d1+1
+37 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40236
@@ -522,7 +522,7 @@ surgeon twilight cove buccaneer pirate~
 ~
 1073752136 1 0 402653208 0 0 0 -1000 S
 Ho 0 32 -1
-45 0 0 1d1+1 1d1+1
+38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40237
@@ -534,9 +534,9 @@ deck hand twilight cove buccaneer pirate~
 &+LAssigned to the littlest of tasks, this deck hand better obey, or fear getting left
 &+Lon a deserted island.&n
 ~
-10312 0 0 0 0 0 0 -1000 S
+10312 1 0 56 0 0 0 -1000 S
 Ho 0 1 -1
-35 0 0 1d1+1 1d1+1
+34 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40238
@@ -565,13 +565,13 @@ cut throat cutthroat plunderer~
 &+Lvictim. Carried on his hip, a jagged shortsword clanks around as he
 &+Lrushes to plunder your ship!&n
 ~
-10312 1 0 402653208 0 0 0 -1000 S
-Ho 0 1 -1
-36 0 0 1d1+1 1d1+1
+10312 1 0 402653192 0 0 0 -1000 S
+Ho 0 16384 -1
+33 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40240
-swashbuckler twilight cove buccaneer pirate~
+swashbuckler twilight cove buccaneer pirate _spec3_~
 &+La &+cs&+Cw&+ca&+Cs&+ch&+Cb&+cu&+Cc&+ck&+Cl&+ce&+Cr &+Lof the &+BT&+bw&+Bi&+bl&+Bi&+bg&+Bh&+Bt &+LCove &+rBuccaneers&n~
 &+LAn orc swashbuckler sits here, eager to plunder.&n
 ~
@@ -581,7 +581,7 @@ swashbuckler twilight cove buccaneer pirate~
 ~
 403464 1 0 8 0 0 1024 -1000 S
 Ho 0 1 -1
-36 0 0 1d1+1 1d1+1
+34 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40241
@@ -646,7 +646,7 @@ quartermaster marauder four winds~
 ~
 10312 1 0 402653208 0 0 0 -1000 S
 U 0 64 -1
-50 0 0 1d1+1 1d1+1
+47 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40245
@@ -679,7 +679,7 @@ helm helmsman maurader four winds~
 ~
 14408 1 0 939524120 0 0 0 -100 S
 UM 0 2097152 -1
-50 0 0 1d1+1 1d1+1
+44 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40247
@@ -695,7 +695,7 @@ surgeon marauder four winds~
 ~
 395336 1 0 402653336 0 0 0 -1000 S
 U 0 288 -1
-50 0 0 1d1+1 1d1+1
+46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40248
@@ -728,11 +728,11 @@ lookout marauder four winds~
 ~
 10312 1 0 402653208 0 0 0 -1000 S
 U 0 4194304 -1
-40 0 0 1d1+1 1d1+1
+41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40250
-cutthroat plunderer marauder four winds~
+cutthroat plunderer marauder four winds _spec1_~
 &+La &+Ycutthroat plunderer &+LOf the &+yMa&+Lur&+yad&+Ler&+ys &+Lof the &+cFo&+Cur &+WWin&+wds&n~
 &+LA maniacal plunderer charges forth in search of treasure!&n
 ~
@@ -742,9 +742,9 @@ cutthroat plunderer marauder four winds~
 &+LFlayed flesh shows where the crew have whiped this poor undead pirate
 &+Linto shape!&n
 ~
-10312 0 0 402653208 0 0 0 -1000 S
-U 0 1 -1
-40 0 0 1d1+1 1d1+1
+10312 0 0 402653240 0 0 0 -1000 S
+U 0 16384 -1
+38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40251
@@ -760,11 +760,11 @@ swashbuckler swash buckler marauder four winds _spec3_ undead~
 ~
 10312 1 0 402653208 0 0 0 -1000 S
 U 0 1 -1
-40 0 0 1d1+1 1d1+1
+39 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40252
-bolt carrier marauder four winds~
+bolt carrier marauder four winds gunner~
 &+La g&+Wu&+Ln&+Wn&+Le&+Wr &+Lof the &+yMa&+Lra&+yud&+Ler&+ys &+Lof the &+cFo&+Cur &+wWi&+Wnds&n~
 &+LA bolt carrier stands here, stacking bolts carefully despite the rolling seas&n
 ~
@@ -812,7 +812,7 @@ first mate dark sun syndicate~
 ~
 10312 1 0 402653336 0 0 0 -1000 S
 PH 0 256 -1
-55 0 0 1d1+1 1d1+1
+54 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40255
@@ -831,7 +831,7 @@ quartermaster dark syn syndicate~
 ~
 10312 1 0 24 0 0 0 -1000 S
 PH 0 512 -1
-55 0 0 1d1+1 1d1+1
+52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40256
@@ -847,7 +847,7 @@ master gunner dark sun~
 ~
 6216 1 0 402653208 0 0 0 -1000 S
 PH 0 4 -1
-55 0 0 1d1+1 1d1+1
+52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40257
@@ -862,7 +862,7 @@ helm helmsman dark sun syndicate~
 ~
 10312 1 0 402653208 0 0 0 -1000 S
 PH 0 33554432 -1
-55 0 0 1d1+1 1d1+1
+50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40258
@@ -878,7 +878,7 @@ surgeon dark sun syndicate _spec2_~
 ~
 10312 1 0 402653208 0 0 0 -1000 S
 PH 0 32 -1
-55 0 0 1d1+1 1d1+1
+53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40259
@@ -892,8 +892,8 @@ deck hand dark sun syndicate~
 &+Lwhere to go and what to do. Some day he may be trusted more, but for
 &+Lnow, his work alone has to earn his shares of the loot.&n
 ~
-10312 1 0 0 0 0 0 -1000 S
-PH 0 1 -1
+10312 1 0 120 0 0 0 -1000 S
+PH 0 1048576 -1
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -914,7 +914,7 @@ PH 0 4194304 -1
 0.0.0.0 0
 8 8 1
 #40261
-vicious cuttthroat dark sun syndicate~
+vicious cuttthroat dark sun syndicate _spec1_~
 &+La &+mvic&+Mi&+mous cut&+Mth&+mroat &+Lof the Dark &+ySun &+LSyndicate&n~
 &+LA vicious cutthroat stands here, ready to send you to the depths.&n
 ~
@@ -925,9 +925,9 @@ vicious cuttthroat dark sun syndicate~
 &+Land doing their fair share. Working his butt off, he hopes to be
 &+Lpromoted out of the never ending work the crew drags up for him.&n
 ~
-10312 1 0 24 0 0 0 -1000 S
-PH 0 1048576 -1
-46 0 0 1d1+1 1d1+1
+10312 1 0 88 0 0 0 -1000 S
+PH 0 16384 -1
+42 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40262
@@ -942,9 +942,9 @@ swash buckler swashbuckler dark sun syndicate _spec3_~
 &+LWith hisfairly dexterous nature, he is constantly being sent up
 &+Lto help ready sails or tie ropes high up on the ship.&n
 ~
-10312 1 0 402653208 0 0 0 -1000 S
+10312 1 0 402653304 0 0 0 -1000 S
 PH 0 1 -1
-46 0 0 1d1+1 1d1+1
+43 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40263
@@ -1075,8 +1075,8 @@ vicious cut throat demon scion abyss~
 &+Lface as he attempts to board your ship.&n
 ~
 403464 1 0 402653208 1 0 0 -1000 S
-x 0 4096 -1
-55 0 0 1d1+1 1d1+1
+x 0 16384 4
+46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40271
@@ -1091,8 +1091,8 @@ brutal plunderer scion demon abyss~
 &+Leyes are set upon your vessel!&n
 ~
 395272 1 0 402653336 0 0 0 -1000 S
-x 0 16 -1
-55 0 0 1d1+1 1d1+1
+x 0 1048576 4
+46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #40272

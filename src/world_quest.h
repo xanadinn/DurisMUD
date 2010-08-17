@@ -12,7 +12,7 @@ int quest_buy_map(P_char ch);
 void resetQuest(P_char ch);
 int getItemFromZone(int zone);
 void show_map_at(P_char ch, int room);
-void quest_reward(P_char ch, P_char quest_mob, int type);
+void quest_full_reward(P_char ch, P_char quest_mob, int type);
 int createQuest(P_char ch, P_char giver);
 void getQuestZoneList(P_char ch, vector<int>&);
 bool isInvalidQuestZone(int zoneID);

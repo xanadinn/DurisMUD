@@ -11385,6 +11385,8 @@ int world_quest(P_char ch, P_char pl, int cmd, char *arg)
       send_to_char("You hand over the money.\r\n", pl);
 
       send_to_char("You no longer have a task.\r\n", pl);
+      if (pl->only.pc->quest_type == FIND_AND_KILL && pl->only.pc->quest_kill_how_many > 0)
+        sql_world_quest_finished(pl, 0);
       resetQuest(pl);
       return TRUE;	
     }
@@ -11457,7 +11459,7 @@ int world_quest(P_char ch, P_char pl, int cmd, char *arg)
       act
         ("$N says to $n, 'Well done!'",
          TRUE, pl, 0, ch, TO_NOTVICT);
-      quest_reward(pl, ch, 1);
+      quest_full_reward(pl, ch, 1);
       return TRUE;
     }
 

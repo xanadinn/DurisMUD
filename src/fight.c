@@ -1898,7 +1898,7 @@ P_char ForceReturn(P_char ch)
     true_id = MORPH_ORIG(t_ch);
     if (!is_avatar)
     {
-      act("$n's dying body slowly changes back into $N.",
+      act("$n's dying Sbody slowly changes back into $N.",
           FALSE, t_ch, 0, true_id, TO_ROOM);
       send_to_char
         ("As the last of life leaves you, your body resumes its natural form.\r\n",
@@ -2296,21 +2296,17 @@ void die(P_char ch, P_char killer)
   if(!CHAR_IN_ARENA(ch) ||
      IS_NPC(ch))
   {
-    if (killer->in_room >= 0)
+    //world quest hook
+    if((IS_PC(killer) || IS_PC_PET(killer)) && killer->in_room >= 0)
     {
-      for(tmp_ch = world[killer->in_room].people; tmp_ch; tmp_ch = tmp_ch->next_in_room)
+      quest_kill(killer , ch);
+      if (killer->group)
       {
-        if(killer->group)
+        for(tmp_ch = world[killer->in_room].people; tmp_ch; tmp_ch = tmp_ch->next_in_room)
         {
-          if(killer->group == tmp_ch->group &&
-            tmp_ch != ch &&
-            killer != tmp_ch)
+          if(killer->group == tmp_ch->group && tmp_ch != killer && tmp_ch != ch)
           {
-            if(IS_PC(killer) || 
-               IS_PC_PET(killer))
-            {
-              quest_kill(tmp_ch , ch);
-            }
+            quest_kill(tmp_ch , ch);
           }
         }
       }
@@ -2336,12 +2332,6 @@ void die(P_char ch, P_char killer)
     else
     {
       corpse = make_corpse(ch, loss);
-    }
-    //world quest hook
-    if(IS_PC(killer) || 
-       IS_PC_PET(killer))
-    {
-      quest_kill(killer , ch);
     }
     
     if(corpse &&
