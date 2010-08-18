@@ -16102,12 +16102,10 @@ int clear_epic_task_spec(P_char npc, P_char ch, int cmd, char *arg)
     if( afp->modifier <= -10 )
     {
     
-      mobsay(npc, "The gods will not answer prayers about &+Rspilling blood&n.");
-      mobsay(npc, "When the gods demand &+Rblood&n!");
-      return TRUE;    
+      mobsay(npc, "The gods are upset with your prayer to clear your &+Rspilling blood&n task.");
       // i.e., spill blood task
 
-      //rice *= 3;
+      price *= 3;
     }
     else if (afp->modifier < 0 && afp->modifier > -10) // a nexus stone
     {
