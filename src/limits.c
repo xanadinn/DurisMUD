@@ -1267,6 +1267,12 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
             GET_NAME(victim), GET_LEVEL(victim), GET_NAME(ch),
             GET_LEVEL(ch), GET_EXP(ch), GET_EXP(ch) + (int)XP, (int)XP);
     }
+    
+    if(pvp)
+    {
+      XP = XP * get_property("gain.exp.mod.pvp", 1.000);
+// debug("kill 8 exp gain (%d)", (int)XP);
+    }
   }
   else if(type == EXP_WORLD_QUEST)
   {
