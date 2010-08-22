@@ -1197,8 +1197,8 @@ void spell_psychic_crush(int level, P_char ch, char *arg, int type, P_char victi
   struct affected_type af;
   struct damage_messages messages = {
     "$N's &+meyes briefly cloud over as $S entire psyche is wracked with wonderfully intense pain.",
-    "&+mAs your body is consumed with pain, pain, and more pain, you briefly go to that 'happy place' inside.",
-    "$N's &+meyes briefly cloud over as $S body is painfully ripped apart from within.",
+    "&+mAs your mind is consumed with pain, pain, and more pain, you briefly go to that 'happy place' inside.",
+    "$N's &+meyes briefly cloud over as $S mind is painfully ripped apart from within.",
     "$N &+mcrumples to the ground, blood seeping from $S ears as your psychic crush tears $S mind to pieces.",
     "&+mYou crumple to the ground, blood seeping from your ears as your mind is torn to pieces.",
     "&+RBlood &+mseeps from&n $N's &+mears as $S mind is torn to &+wpieces.", 0
