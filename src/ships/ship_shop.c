@@ -2120,6 +2120,11 @@ int crew_shop_proc(int room, P_char ch, int cmd, char *arg)
         {
             if (ship_crew_data[i].hire_room(world[room].number) && ++c == n) 
             {
+                if (i == ship->crew.index)
+                {
+                    send_to_char("&+wYou already have this crew!\r\n", ch);
+                    return TRUE;
+                }
                 if (ship->frags < ship_crew_data[i].hire_frags && 
                     (ship->crew.sail_skill < ship_crew_data[i].base_sail_skill ||
                      ship->crew.guns_skill < ship_crew_data[i].base_guns_skill ||
@@ -2152,6 +2157,11 @@ int crew_shop_proc(int room, P_char ch, int cmd, char *arg)
         {
             if (ship_chief_data[i].hire_room(world[room].number) && ++c == n) 
             {
+                if (i == ship->crew.sail_chief || i == ship->crew.guns_chief || i == ship->crew.rpar_chief)
+                {
+                    send_to_char("&+wYou already have this chief!\r\n", ch);
+                    return TRUE;
+                }
                 if (ship->frags < ship_chief_data[i].hire_frags && 
                     ((ship_chief_data[i].type == SAIL_CHIEF && ship->crew.sail_skill < ship_chief_data[i].min_skill) ||
                      (ship_chief_data[i].type == GUNS_CHIEF && ship->crew.sail_skill < ship_chief_data[i].min_skill) ||

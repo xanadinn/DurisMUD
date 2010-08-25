@@ -323,12 +323,11 @@ int num_people_in_ship(P_ship ship)
     {
       if (IS_TRUSTED(ch))
         continue;
-      if (IS_NPC(ch))
+      if (IS_NPC(ch) && 
+         ((GET_VNUM(ch) > 40200 && GET_VNUM(ch) < 40300) ||  // pirates
+          (GET_VNUM(ch) == 250))) // images
       {
-        if(!ch->following || !IS_PC(ch->following)) // not counting mobs that arent followers
-          continue;
-        if (GET_VNUM(ch) == 250) // image
-          continue;
+        continue;
       }
       num++;
     }
