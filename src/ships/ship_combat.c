@@ -1112,10 +1112,11 @@ int weaponsight(P_ship ship, int slot, int t_contact, P_char ch)
   //send_to_char_f(ch, " hit_3=%5.2f", (1.0 - miss_chance) * 100);
 
   miss_chance /= (1.0 + ship->crew.guns_mod_applied);
-  if (SHIPISFLYING(target)) miss_chance = MIN(miss_chance * 1.5, 1.0);
+  if (SHIPISFLYING(target)) miss_chance = MIN(miss_chance * 1.5, 0.99);
   hit_chance = 1.0 - miss_chance;
   hit_chance *= ship->crew.get_stamina_mod();
-  hit_chance = BOUNDED(0.01, hit_chance, 1.00);
+  if (hit_chance < 0.01) hit_chance = 0.01;
+  if (hit_chance > 1.00) hit_chance = 1.00;
 
   //send_to_char_f(ch, " hit_4=%5.2f\n", hit_chance * 100);
   
