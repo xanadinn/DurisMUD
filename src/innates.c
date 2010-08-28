@@ -376,6 +376,7 @@ const struct innate_data
 string list_innates(int race, int cls)
 {
   string return_str;
+  char level[5];
   int innate;
   
   for (innate = 0; innate < LAST_INNATE; innate++)
@@ -392,8 +393,9 @@ string list_innates(int race, int cls)
       if (racial_innates[innate][race - 1] > 1)
       {
         return_str += " &n(obtained at level &+c";
-        return_str += racial_innates[innate][race - 1];
-        return_str += "&n)";
+        sprintf(level, "%d", racial_innates[innate][race - 1]);
+	return_str += string(level);
+	return_str += "&n)";
       }
       return_str += "&n\n";
     }
