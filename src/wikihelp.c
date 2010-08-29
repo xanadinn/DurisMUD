@@ -12,6 +12,7 @@ using namespace std;
 extern struct race_names race_names_table[];
 extern struct class_names class_names_table[];
 extern int class_table[LAST_RACE + 1][CLASS_COUNT + 1];
+extern char *specdata[][MAX_SPEC];
 extern const char *stat_to_string3(int);
 
 void debug( const char *format, ... );
@@ -146,8 +147,9 @@ string wiki_racial_stats(string title)
 {
   string return_str, race_str;
   char race[MAX_STRING_LENGTH];
+  int i;
 
-  for (int i = 0; i < RACE_PLAYER_MAX; i++)
+  for (i = 0; i <= RACE_PLAYER_MAX; i++)
   {
     if (!strcmp(tolower(race_names_table[i].normal).c_str(), tolower(title).c_str()))
     { 
@@ -157,6 +159,15 @@ string wiki_racial_stats(string title)
   }
 
   return_str += "==Statistics==\n";
+  
+  if (i > RACE_PLAYER_MAX)
+  {
+    return_str += "No data found for ";
+    return_str += title;
+    return_str += "&n\n";
+    return return_str;
+  }
+  
   return_str += "Strength    : &+c";
   sprintf(race, "stats.str.%s", race_str.c_str());
   return_str += stat_to_string3((int)get_property(race, 100));
@@ -198,10 +209,12 @@ string wiki_racial_stats(string title)
   return_str += stat_to_string3((int)get_property(race, 100));
   return_str += "&n\n";
   return_str += "\n==Racial Traits==\n";
-  return_str += "Damage Output: &+c";
-  sprintf(race, "damage.totalOutput.racial.%s", race_str.c_str());
-  return_str += stat_to_string_spell_pulse(get_property(race, 1.000));
-  return_str += "&n\n";
+  // Removing damage output because this is more of a fine tuning function
+  // for imm's, and will only confuse players.
+  //return_str += "Damage Output: &+c";
+  //sprintf(race, "damage.totalOutput.racial.%s", race_str.c_str());
+  //return_str += stat_to_string_spell_pulse(get_property(race, 1.000));
+  //return_str += "&n\n";
   return_str += "Combat Pulse : &+c";
   sprintf(race, "damage.pulse.racial.%s", race_str.c_str());
   return_str += stat_to_string_damage_pulse(get_property(race, 14.000));
@@ -217,9 +230,9 @@ string wiki_racial_stats(string title)
 string wiki_classes(string title)
 {
   string return_str;
-  int i;
+  int i, found = 0;
 
-  for (i = 0; i < RACE_PLAYER_MAX; i++)
+  for (i = 0; i <= RACE_PLAYER_MAX; i++)
   {
     if (!strcmp(tolower(race_names_table[i].normal).c_str(), tolower(title).c_str()))
     { 
@@ -229,10 +242,19 @@ string wiki_classes(string title)
 
   return_str += "==Class list==\n";
 
+  if (i > RACE_PLAYER_MAX)
+  {
+    return_str += "No data found for ";
+    return_str += title;
+    return_str += "&n\n";
+    return return_str;
+  }
+  
   for (int cls = 1; cls <= CLASS_COUNT; cls++)
   {
     if (class_table[i][cls] != 5)
     {
+      found = 1;
       return_str += "*";
       return_str += pad_ansi(class_names_table[cls].ansi, 12);
       return_str += "&n: ";
@@ -240,33 +262,150 @@ string wiki_classes(string title)
       return_str += "\n";
     }
   }
+  if (!found)
+    return_str += "No classes available.\n";
+
+  return return_str;
+}
+
+string wiki_specs(string title)
+{
+  string return_str;
+  int i, j, found = 0;
+
+  for (i = 0; i <= CLASS_COUNT; i++)
+  {
+    if (!strcmp(tolower(class_names_table[i].normal).c_str(), tolower(title).c_str()))
+    {
+      break;
+    }
+  }
+
+  return_str += "==Specializations==\n";
+  
+  if (i > CLASS_COUNT)
+  {
+    return_str += "No data found for ";
+    return_str += title;
+    return_str += "&n\n";
+    return return_str;
+  }
+
+  for (j = 0; j < MAX_SPEC; j++)
+  {
+    if (!strcmp(specdata[i][j], "") ||
+	!strcmp(specdata[i][j], "Not Used"))
+      continue;
+    found = 1;
+    return_str += string(specdata[i][j]);
+    return_str += "\n";
+  }
+  
+  if (!found)
+    return_str += "No specializations found.\n";
+
   return return_str;
 }
 
 string wiki_innates(string title)
 {
   string return_str;
-  int race, innate;
+  int i, j, innate, found = 0;
 
-  for (race = 0; race < RACE_PLAYER_MAX; race++)
+  for (i = 0; i <= RACE_PLAYER_MAX; i++)
   {
-    if (!strcmp(tolower(race_names_table[race].normal).c_str(), tolower(title).c_str()))
+    if (!strcmp(tolower(race_names_table[i].normal).c_str(), tolower(title).c_str()))
     { 
+      found = 1;
       break;
     }
   }
 
+  if (!found)
+  {
+    for (i = 0; i <= CLASS_COUNT; i++)
+    {
+      if (!strcmp(tolower(class_names_table[i].normal).c_str(), tolower(title).c_str()))
+      {
+	found = 2;
+	break;
+      }
+    }
+  }
+
+  j = 0;
+
+  if (!found)
+  {
+    for (i = 0; i <= CLASS_COUNT; i++)
+    {
+      for (j = 0; j < MAX_SPEC; j++)
+      {
+        if (!strcmp(tolower(strip_ansi(specdata[i][j])).c_str(), tolower(title).c_str()))
+	{
+	  found = 2;
+	  break;
+	}
+      }
+      if (found == 2)
+      {
+	j++;
+	break;
+      }
+    }
+  }
+  
   return_str += "==Innate abilities==\n";
-  return_str += list_innates(race, 0);
-  return_str += "\n'*' Designates passive ability.\n";
+  
+  if (!found)
+  {
+    return_str += "No entries found.\n";
+    return return_str;
+  }
+  
+  return_str += list_innates(((found == 1) ? i : 0), ((found == 2) ? i : 0), j);
 
   return return_str;
+}
+
+string wiki_races(string title)
+{
+  string return_str;
+  int cls, race;
+
+  for (cls = 0; cls <= CLASS_COUNT; cls++)
+  {
+    if (!strcmp(tolower(class_names_table[cls].normal).c_str(), tolower(title).c_str()))
+    {
+      break;
+    }
+  }
+
+  return_str += "==Allowed races==\n";
+  
+  if (cls > CLASS_COUNT)
+  {
+    return_str += "No data found for ";
+    return_str += title;
+    return_str += "&n\n";
+    return return_str;
+  }
+
+  for (race = 1; race <= RACE_PLAYER_MAX; race++)
+  {
+    if (class_table[race][cls] == 5)
+      continue;
+    
+    return_str += "*";
+    return_str += string(race_names_table[race].ansi);
+    return_str += "&n\n";
+  }
 }
 
 // display a single help topic
 string wiki_help_single(string str)
 {
-  string return_str, race;
+  string return_str, title;
   int category;
 
   if( !qry("select title, text, category_id from pages where title = '%s' limit 1", str.c_str()) )
@@ -295,13 +434,27 @@ string wiki_help_single(string str)
   // Race type help files
   if (atoi(row[2]) == 25)
   {
-    race += row[0];
-    return_str += wiki_classes(race);
+    title += row[0];
+    return_str += wiki_classes(title);
     return_str += "\n";
-    return_str += wiki_racial_stats(race);
+    return_str += wiki_racial_stats(title);
     return_str += "\n";
-    return_str += wiki_innates(race);
+    return_str += wiki_innates(title);
+  }
+  // Class type help files
+  else if (atoi(row[2]) == 9)
+  {
+    title += row[0];
+    return_str += wiki_races(title);
     return_str += "\n";
+    return_str += wiki_innates(title);
+    return_str += "\n";
+    return_str += wiki_specs(title);
+  }
+  // Spec type help files
+  // Going to leave spec help files alone.
+  else if (atoi(row[2]) == 16)
+  {
   }
 
   mysql_free_result(res);

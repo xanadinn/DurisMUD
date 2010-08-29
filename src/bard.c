@@ -94,9 +94,9 @@ struct song_description
   {
   "harming", bard_harming, INSTRUMENT_LYRE, SONG_HARMING, SONG_AGGRESSIVE},
   {
-  "healing", bard_healing, INSTRUMENT_LYRE, SONG_HEALING, 0},
+  "healing", bard_healing, INSTRUMENT_LYRE, SONG_HEALING, SONG_ALLIES},
   {
-  "revelation", bard_revelation, INSTRUMENT_MANDOLIN, SONG_REVELATION, 0},
+  "revelation", bard_revelation, INSTRUMENT_MANDOLIN, SONG_REVELATION, SONG_ALLIES},
   {
   "forgetfulness", bard_forgetfulness, INSTRUMENT_MANDOLIN,
       SONG_FORGETFULNESS, 0},
@@ -548,6 +548,7 @@ void bard_healing(int l, P_char ch, P_char victim, int song)
       affect_from_char(ch, SPELL_SILENCE);
     }
   }
+  
   if(is_linked_to(ch, victim, LNK_SONG))
   {
     return;
@@ -559,7 +560,7 @@ void bard_healing(int l, P_char ch, P_char victim, int song)
     af.bitvector4 = AFF4_REGENERATION;
     af.type = SONG_HEALING;
     af.location = APPLY_HIT_REG;
-    af.modifier = (int) (11 * l + (empower / 10));
+    af.modifier = (int) (11 * l * get_property("song.bard.healing.mod", 1.000) + (empower / 10));
 
     linked_affect_to_char(victim, &af, ch, LNK_SONG);
   }
@@ -570,7 +571,7 @@ void bard_healing(int l, P_char ch, P_char victim, int song)
     af.bitvector4 = AFF4_REGENERATION;
     af.type = SONG_HEALING;
     af.location = APPLY_HIT_REG;
-    af.modifier = (int) (11 * l + (empower / 10));
+    af.modifier = (int) (11 * l * get_property("song.bard.healing.mod", 1.000) + (empower / 10));
 
     linked_affect_to_char(ch, &af, ch, LNK_SONG);
   }
@@ -771,8 +772,7 @@ void bard_revelation(int l, P_char ch, P_char victim, int song)
     }
   }
   if((l > 30) &&
-  !IS_AFFECTED(victim, AFF_DETECT_INVISIBLE) &&
-  ch == victim)
+  !IS_AFFECTED(victim, AFF_DETECT_INVISIBLE))
   {
     bzero(&af, sizeof(af));
     af.type = song;
@@ -783,8 +783,7 @@ void bard_revelation(int l, P_char ch, P_char victim, int song)
     act("&+cYour eyes start to tingle.", FALSE, victim, 0, 0, TO_CHAR);
   }
   if((l > 30) &&
-    !IS_AFFECTED(victim, AFF_SENSE_LIFE) &&
-    ch == victim)
+    !IS_AFFECTED(victim, AFF_SENSE_LIFE))
   {
     bzero(&af, sizeof(af));
     af.type = song;
@@ -840,8 +839,8 @@ void bard_harming(int l, P_char ch, P_char victim, int song)
       return;
     }
     
-    dam = (int) (l * 3 + empower / 4 + number(-l, l)); // Adjusted. Nov08 -Lucrot
-    dam = (int) (dam * get_property("song.bard.harming.mod", 1.000)); // Added. Nov08 -Lucrot
+    dam = (int) (l * 3 + empower / 4 + number(-4, 4)); // Adjusted. Nov08 -Lucrot
+    dam = (int) dam * get_property("song.bard.harming.mod", 1.000);
     if(spell_damage(ch, victim, dam, SPLDAM_SOUND,
        SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages) != DAM_NONEDEAD)
     {
@@ -930,19 +929,21 @@ void bard_protection(int l, P_char ch, P_char victim, int song)
   if(GET_LEVEL(ch) > 51 &&
     !IS_AFFECTED2(victim, AFF2_GLOBE))
   {
-    if(ch == victim)
+    //if(ch == victim)
       spell_globe(l, ch, 0, 0, victim, NULL);
-    else if(!number(0, 9))
-      spell_globe(l, ch, 0, 0, victim, NULL);
+    //else if(!number(0, 9))
+      //spell_globe(l, ch, 0, 0, victim, NULL);
   }
   else if(GET_LEVEL(ch) > 31 &&
           !IS_AFFECTED(victim, AFF_MINOR_GLOBE))
               spell_minor_globe(l, ch, 0, 0, victim, NULL);
   
-  if(GET_LEVEL(ch) > 50 &&
-    (!has_skin_spell(victim)) &&
-    ch == victim)
-      spell_stone_skin(l, ch, 0, 0, victim, NULL);
+  if(GET_LEVEL(ch) > 46 &&
+     !has_skin_spell(victim))
+      if (IS_UNDEAD(victim) || IS_ANGEL(ch))
+	spell_prot_undead(l, ch, 0, 0, victim, NULL);
+      else
+	spell_stone_skin(l, ch, 0, 0, victim, NULL);
 
   if(!affected_by_spell(victim, song))
   {
@@ -1036,6 +1037,17 @@ void bard_cowardice(int l, P_char ch, P_char victim, int song)
   struct affected_type af;
   int empower = GET_CHAR_SKILL(ch, SKILL_EMPOWER_SONG);
 
+  if ((number(0, 100) < (int)get_property("song.bard.cowardice.flee.chance", 10.000)) &&
+      (number(0, 100) < GET_CHAR_SKILL(ch, SONG_COWARDICE)) &&
+      ((GET_LEVEL(ch)+MIN(5, (empower/20))) >= GET_LEVEL(victim)) &&
+      !bard_saves(ch, victim, song) &&
+      !IS_TRUSTED(victim) &&
+      !fear_check(victim))
+  {
+    send_to_char("You succumb to the terror of the voice.\n", victim);
+    do_flee(victim, 0, 0);
+  }
+  
   if(affected_by_spell(victim, song))
     return;
 
@@ -1732,9 +1744,9 @@ void do_play(P_char ch, char *arg, int cmd)
   if(IS_TRUSTED(ch) &&
     GET_LEVEL(ch) < OVERLORD)
   {
-    wizlog(GET_LEVEL(ch), "%s plays%s [%d]",
+    wizlog(GET_LEVEL(ch), "%s plays %s [%d]",
            GET_NAME(ch), arg, world[ch->in_room].number);
-    logit(LOG_WIZ, "%s plays%s [%d]",
+    logit(LOG_WIZ, "%s plays %s [%d]",
           GET_NAME(ch), arg, world[ch->in_room].number);
   }
   if(!arg || !*arg)
@@ -1794,7 +1806,7 @@ void do_play(P_char ch, char *arg, int cmd)
         !IS_ARTIFACT(instrument))
     {
       act
-        ("&+rYou start playing your $q, but this instrument won't work for this song.",
+        ("&+rYou start playing your $q&+r, but this instrument won't work for this song.",
          FALSE, ch, instrument, 0, TO_CHAR);
       act("$n starts playing $p and singing aloud.",
         FALSE, ch, instrument, 0, TO_ROOM);
