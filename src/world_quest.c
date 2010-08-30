@@ -308,6 +308,13 @@ void quest_kill(P_char ch, P_char quest_mob)
 
   int exp_gain = quest_exp_reward(ch, FIND_AND_KILL);
 
+  if (ch->only.pc->quest_kill_original == 0)
+  {
+    send_to_char("&-RMEMORY ERROR! quest_kill_original is zero, inform a god!&n\r\n", ch);
+    wizlog(56, "MEMORY ERROR: quest_kill_original is zero!");
+    ch->only.pc->quest_kill_original = ch->only.pc->quest_kill_how_many;
+  }
+
   gain_exp(ch, NULL, exp_gain / ch->only.pc->quest_kill_original, EXP_WORLD_QUEST);
   if (number(1, ch->only.pc->quest_kill_original + 1) <= 2)
   {
