@@ -23,7 +23,7 @@
 #define MAXTIMERS        10
 
 #define MAXSHIPS        2000
-#define MAX_SHIP_ROOM     10
+#define MAX_SHIP_ROOM     15
 #define SHIPZONE         600
 
 #define COSTPERSAIL        0
@@ -759,6 +759,8 @@ int eq_ram_cost(const ShipData* ship);
 bool has_eq_levistone(const ShipData* ship);
 int eq_levistone_slot(const ShipData* ship);
 int eq_levistone_weight(const ShipData* ship);
+
+bool ocean_pvp_state();
 
 // Externals
 extern P_index obj_index;

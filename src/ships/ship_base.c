@@ -228,32 +228,72 @@ void name_ship(const char *name, P_ship ship)
             return;
          }
 
-         if (ship->m_class == SH_CRUISER || ship->m_class == SH_DREADNOUGHT) 
+         if (ship->bridge == world[rroom].number) 
          {
-            if (ship->bridge == world[rroom].number) 
-            {
-               sprintf(buf, "&+ROn the &+WBridge&N&+R of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
-            } 
-            else if (world[rroom].number == ship->bridge + 9) 
-            {
-               sprintf(buf, "&+YDocking Bay&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
-            } 
-            else if (world[rroom].number == ship->bridge + 7) 
-            {
-               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
-            } 
-            else 
-            {
-               sprintf(buf, "&+yAboard the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
-            }
-         }
-         else if (ship->bridge == world[rroom].number) 
-         {
-            sprintf(buf, "&+yOn the &+WBridge&N&+y of the %s&N %s", SHIPCLASSNAME(ship), ship->name);
+            sprintf(buf, "&+ROn the &+WBridge&N&+R of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
          } 
          else 
          {
             sprintf(buf, "&+yAboard the %s&N %s", SHIPCLASSNAME(ship), ship->name);
+         }
+         if (ship->m_class == SH_CORVETTE) 
+         {
+            if (world[rroom].number == ship->bridge + 1 || 
+                world[rroom].number == ship->bridge + 3 || 
+                world[rroom].number == ship->bridge + 4) 
+            {
+               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+         }
+         if (ship->m_class == SH_DESTROYER) 
+         {
+            if (world[rroom].number == ship->bridge + 1 || 
+                world[rroom].number == ship->bridge + 2 || 
+                world[rroom].number == ship->bridge + 3) 
+            {
+               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+         }
+         if (ship->m_class == SH_FRIGATE) 
+         {
+            if (world[rroom].number == ship->bridge + 1 || 
+                world[rroom].number == ship->bridge + 2 || 
+                world[rroom].number == ship->bridge + 3) 
+            {
+               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+         }
+         if (ship->m_class == SH_CRUISER) 
+         {
+            if (world[rroom].number == ship->bridge + 9) 
+            {
+               sprintf(buf, "&+YDocking Bay&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+            else if (world[rroom].number == ship->bridge + 7 || 
+                     world[rroom].number == ship->bridge + 10 || 
+                     world[rroom].number == ship->bridge + 11) 
+            {
+               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+         }
+         else if (ship->m_class == SH_DREADNOUGHT)
+         {
+
+            if (world[rroom].number == ship->bridge + 14) 
+            {
+               sprintf(buf, "&+YDocking Bay&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+            if (world[rroom].number == ship->bridge + 7) 
+            {
+               sprintf(buf, "&+YSpacious Hold&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
+            else if (world[rroom].number == ship->bridge + 3 || 
+                     world[rroom].number == ship->bridge + 8 || 
+                     world[rroom].number == ship->bridge + 9 ||
+                     world[rroom].number == ship->bridge + 10) 
+            {
+               sprintf(buf, "&+BLaunch Deck&+y of the &+L%s&N %s", SHIPCLASSNAME(ship), ship->name);
+            } 
          }
 
          if (world[rroom].name) {
@@ -662,29 +702,52 @@ void set_ship_layout(P_ship ship, int m_class)
         SHIPROOMEXIT(ship, 8, NORTH) = room + 9;
         SHIPROOMEXIT(ship, 8, UP) = room + 5;
         SHIPROOMEXIT(ship, 9, SOUTH) = room + 8;
+        SHIPROOMEXIT(ship,  6, EAST) = room + 10; // laungh
+        SHIPROOMEXIT(ship, 10, WEST) = room + 6;
+        SHIPROOMEXIT(ship,  6, WEST) = room + 11; // laungh
+        SHIPROOMEXIT(ship, 11, EAST) = room + 6;
         ship->entrance = room + 9;
         break;
 
     case SH_DREADNOUGHT:
-        SHIPROOMEXIT(ship, 0, SOUTH) = room + 1;
-        SHIPROOMEXIT(ship, 1, NORTH) = room;
-        SHIPROOMEXIT(ship, 1, DOWN) = room + 3;
-        SHIPROOMEXIT(ship, 2, EAST) = room + 3;
-        SHIPROOMEXIT(ship, 3, WEST) = room + 2;
-        SHIPROOMEXIT(ship, 3, EAST) = room + 4;
-        SHIPROOMEXIT(ship, 3, NORTH) = room + 5;
-        SHIPROOMEXIT(ship, 3, UP) = room + 1;
-        SHIPROOMEXIT(ship, 4, WEST) = room + 3;
-        SHIPROOMEXIT(ship, 5, NORTH) = room + 6;
-        SHIPROOMEXIT(ship, 5, SOUTH) = room + 3;
-        SHIPROOMEXIT(ship, 5, DOWN) = room + 8;
-        SHIPROOMEXIT(ship, 6, NORTH) = room + 7;
-        SHIPROOMEXIT(ship, 6, SOUTH) = room + 5;
-        SHIPROOMEXIT(ship, 7, SOUTH) = room + 6;
-        SHIPROOMEXIT(ship, 8, NORTH) = room + 9;
-        SHIPROOMEXIT(ship, 8, UP) = room + 5;
-        SHIPROOMEXIT(ship, 9, SOUTH) = room + 8;
-        ship->entrance = room + 9;
+        SHIPROOMEXIT(ship, 0, DOWN)  = room + 1;
+        SHIPROOMEXIT(ship, 1, UP)    = room;
+        SHIPROOMEXIT(ship, 1, SOUTH) = room + 2;
+        SHIPROOMEXIT(ship, 1, NORTH) = room + 3; // launch
+        SHIPROOMEXIT(ship, 1, WEST)  = room + 4;
+        SHIPROOMEXIT(ship, 1, EAST)  = room + 5;
+        SHIPROOMEXIT(ship, 2, NORTH) = room + 1;
+        SHIPROOMEXIT(ship, 2, SOUTH) = room + 6;
+        SHIPROOMEXIT(ship, 2, DOWN)  = room + 7; // hold
+        SHIPROOMEXIT(ship, 2, WEST)  = room + 8; // launch
+        SHIPROOMEXIT(ship, 2, EAST)  = room + 9; // launch
+        SHIPROOMEXIT(ship, 6, NORTH) = room + 2;
+        SHIPROOMEXIT(ship, 6, SOUTH) = room + 10;
+        SHIPROOMEXIT(ship, 6, DOWN)  = room + 11;
+        SHIPROOMEXIT(ship, 6, WEST)  = room + 12;
+        SHIPROOMEXIT(ship, 6, EAST)  = room + 13;
+        SHIPROOMEXIT(ship,11, UP)    = room + 6;
+        SHIPROOMEXIT(ship,11, SOUTH) = room + 14;
+        SHIPROOMEXIT(ship, 3, SOUTH) = room + 1;
+        SHIPROOMEXIT(ship, 4, EAST)  = room + 1;
+        SHIPROOMEXIT(ship, 4, SOUTH) = room + 8;
+        SHIPROOMEXIT(ship, 5, WEST)  = room + 1;
+        SHIPROOMEXIT(ship, 5, SOUTH) = room + 9;
+        SHIPROOMEXIT(ship, 7, UP)    = room + 2;
+        SHIPROOMEXIT(ship, 8, EAST)  = room + 2;
+        SHIPROOMEXIT(ship, 8, SOUTH) = room + 12;
+        SHIPROOMEXIT(ship, 8, NORTH) = room + 4;
+        SHIPROOMEXIT(ship, 9, WEST)  = room + 2;
+        SHIPROOMEXIT(ship, 9, SOUTH) = room + 13;
+        SHIPROOMEXIT(ship, 9, NORTH) = room + 5;
+        SHIPROOMEXIT(ship,10, NORTH) = room + 6;
+        SHIPROOMEXIT(ship,12, EAST)  = room + 6;
+        SHIPROOMEXIT(ship,12, NORTH) = room + 8;
+        SHIPROOMEXIT(ship,13, WEST)  = room + 6;
+        SHIPROOMEXIT(ship,13, NORTH) = room + 9;
+        SHIPROOMEXIT(ship,14, NORTH) = room + 11;
+
+        ship->entrance = room + 14;
         break;
     default:
         break;
@@ -1632,6 +1695,8 @@ void dock_ship(P_ship ship, int to_room)
         obj_from_room(ship->shipobj);
         obj_to_room(ship->shipobj, ship->location);
     }
+    if (ship->target != NULL)
+        ship->target = NULL;
 
     clear_references_to_ship(ship);
 
