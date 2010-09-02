@@ -935,9 +935,10 @@ typedef unsigned int uint;
 #define RACE_SUCCUBUS        96 /* mob race code: SU */
 #define RACE_FIREGIANT       97 /* mob race code: FG */
 #define RACE_FROSTGIANT      98 /* mob race code: IG */
-#define LAST_RACE            98 /* 99 races on duris today, 99 races..*/
+#define RACE_DEVA             99 /* mob race code: DV */
+#define LAST_RACE            99 /* 99 races on duris today, 99 races..*/
 
-#define DEFINED_RACES        98 /* actual number of races defined */
+#define DEFINED_RACES        99 /* actual number of races defined */
 #define MAX_HATRED	     5
 
 #define RACEWAR_NONE         0
@@ -1229,7 +1230,7 @@ struct material_data {
 #define _NEW_LOW_NECRO_ 0
 #define PLAYERLESS_ZONE_SPEED_MODIFIER 3
 #define WH_HIGH_PRIEST_VNUM 55184
-#define IMAGE_RELFECTION_VNUM 250
+#define IMAGE_REFLECTION_VNUM 250
 #define DRAGONLORD_PLATE_VNUM 25723
 #define REVENANT_CROWN_VNUM 22070
 #define SNEAK(ch) (IS_AFFECTED(ch, AFF_SNEAK) || UD_SNEAK(ch) || OUTDOOR_SNEAK(ch))

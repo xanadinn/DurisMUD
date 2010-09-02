@@ -1698,7 +1698,7 @@ bool SanityCheck(P_char ch, const char *calling)
   if (ch->in_room && ch->in_room == NOWHERE)
   {
     if (ch->specials.was_in_room == NOWHERE &&
-       (IS_NPC(ch) && GET_VNUM(ch) != IMAGE_RELFECTION_VNUM))
+       (IS_NPC(ch) && GET_VNUM(ch) != IMAGE_REFLECTION_VNUM))
     {
       logit(LOG_EXIT, "%s in NOWHERE in call to SanityCheck from %s().",
             GET_NAME(ch), calling);
@@ -2928,7 +2928,7 @@ char racewar(P_char viewer, P_char viewee)
 
   if(IS_NPC(viewee))
   {
-    if(GET_VNUM(viewee) != IMAGE_RELFECTION_VNUM)
+    if(GET_VNUM(viewee) != IMAGE_REFLECTION_VNUM)
     {
       return FALSE;
     }

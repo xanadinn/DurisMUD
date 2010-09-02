@@ -280,8 +280,8 @@ int char_deserves_helping(const P_char ch, const P_char candidate,
         return false;
         
   if((IS_NPC(ch) && 
-     GET_VNUM(ch) == IMAGE_RELFECTION_VNUM) || 
-     GET_VNUM(candidate) == IMAGE_RELFECTION_VNUM) 
+     GET_VNUM(ch) == IMAGE_REFLECTION_VNUM) || 
+     GET_VNUM(candidate) == IMAGE_REFLECTION_VNUM) 
       return false; 
 
   return TRUE;
@@ -5120,13 +5120,110 @@ void BreathWeapon(P_char ch, int dir)
       CharWait(ch, PULSE_VIOLENCE * 4);
 }
 
+void StompAttack(P_char ch)
+{
+  P_char   tch, tch_next, chMaster = NULL;
+  
+  if(!SanityCheck(ch, "StompAttack"))
+  {
+    return;
+  }
+
+  if (IS_PC_PET(ch))
+  {
+    chMaster = GET_MASTER(ch);
+  }
+    
+  act("$n &=LWstomps&n the ground with $s giant foot!",
+    0, ch, 0, 0, TO_ROOM);
+
+  for (tch = world[ch->in_room].people; tch; tch = tch_next)
+  {
+    tch_next = tch->next_in_room;
+
+    if(!(tch))
+    {
+      continue;
+    }
+    
+    if (chMaster &&
+        !IS_FIGHTING(ch))
+    { 
+      if (tch == chMaster ||
+          tch == ch)
+      {
+        continue;
+      }
+    }
+    else if(!IS_PC(tch) &&
+            (!tch->following || IS_NPC(tch->following)) &&
+            (ch->specials.fighting != tch) &&
+            (tch->specials.fighting != ch))
+    {
+      continue;
+    }
+    
+    if (IS_TRUSTED(tch))
+    {
+      continue;
+    }
+    
+    if(IS_GH_GOLEM(tch) ||
+       IS_NEXUS_GUARDIAN(tch) || 
+       IS_ELITE(tch) || 
+       IS_IMMATERIAL(tch) ||
+       IS_GREATER_RACE(tch) ||
+       GET_POS(tch) != POS_STANDING)
+    {
+      continue;
+    }
+    
+    if(ch->group != NULL &&
+       ch->group == tch->group)
+    {
+      continue;
+    }
+    
+    if(((IS_FIGHTING(tch) &&
+        (tch->specials.fighting == ch)) ||
+        !IS_FIGHTING(tch)) &&
+        !IS_DRAGON(tch) &&
+	!IS_TITAN(tch) &&
+        !IS_AVATAR(tch))
+    {
+      if (!StatSave(tch, APPLY_AGI, (int) (-1 * GET_LEVEL(ch) / 10)))
+      {
+        SET_POS(tch, POS_SITTING + GET_STAT(tch));
+        CharWait(tch, PULSE_VIOLENCE * 2);
+        act("&+yThe powerful stomp sends out a shockwave knocking you to the &+Lground!&n",
+          FALSE, tch, 0, 0, TO_CHAR);
+        act("&+yThe shockwave sends $n &+ycrashing to the &+Lground!&n",
+          FALSE, tch, 0, 0, TO_ROOM);
+
+        damage(ch, tch,
+               dice(4, (GET_LEVEL(ch) / 2)),
+               TYPE_UNDEFINED);
+      }
+      else
+      {
+        send_to_char("You nimbly dodge the shockwave!\r\n", tch);
+        act("$N dodges your stomp.", 0, ch, 0, tch, TO_CHAR);
+      }
+    }
+    if (!char_in_list(ch))
+    {
+      return;
+    }
+  }
+}
+
 /*
  * newish attack type, this is a sweep (with a dragon's tail to start
  * with) which will knock down several opponents (like bash), if they fail
  * a save against Dex (at -2) -JAB
  */
  
- void SweepAttack(P_char ch)
+void SweepAttack(P_char ch)
 {
   P_char   tch, tch_next, chMaster = NULL;
   
@@ -6505,6 +6602,10 @@ void MobCombat(P_char ch)
     if(UndeadCombat(ch))
       return;
 
+  if (IS_ANGEL(ch))
+    if(AngelCombat(ch))
+      return;
+  
   if(IS_DEMON(ch))
     if(DemonCombat(ch))
       return;
@@ -7265,7 +7366,7 @@ int handle_npc_assist(P_char ch)
   struct follow_type *fol;
 
   if(IS_NPC(ch) &&
-     GET_VNUM(ch) == IMAGE_RELFECTION_VNUM)
+     GET_VNUM(ch) == IMAGE_REFLECTION_VNUM)
       return false;
   
   /*
