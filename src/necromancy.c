@@ -505,7 +505,8 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
 
   undead->specials.act = undead_data[typ].act;
   SET_BIT(undead->specials.act, ACT_SENTINEL);
-/*  SET_BIT(undead->only.npc->aggro_flags, AGGR_ALL); */
+  SET_BIT(undead->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(undead->specials.affected_by2, AFF2_ULTRAVISION);
   SET_BIT(undead->specials.act, ACT_ISNPC);
   if (!IS_SET(undead->specials.act, ACT_MEMORY))
     clearMemory(undead);
@@ -642,8 +643,6 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
   extract_obj(obj, TRUE);
   char_to_room(undead, ch->in_room, 0);
 
-  SET_BIT(undead->specials.affected_by2, AFF2_ULTRAVISION);
-  REMOVE_BIT(undead->only.npc->aggro_flags, AGGR_ALL);
 
   int duration = setup_pet(undead, ch, MAX(4, timeToDecay), PET_NOCASH);
   add_follower(undead, ch);
@@ -1006,7 +1005,8 @@ void spell_call_titan(int level, P_char ch, char *arg, int type, P_char victim, 
   SET_BIT(mob->specials.act, ACT_MOUNT);
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = dice(125, 15) + (life * 3);
   mob->specials.act |= ACT_SPEC_DIE;
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   mob->specials.alignment = 1000;
   
   if(IS_NPC(ch) &&
@@ -1244,7 +1244,8 @@ void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char vi
   SET_BIT(mob->specials.act, ACT_MOUNT);
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = dice(125, 15) + (life * 3);
   mob->specials.act |= ACT_SPEC_DIE;
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   
   if(IS_NPC(ch) &&
     !IS_PC_PET(ch))
@@ -1536,7 +1537,8 @@ void create_golem(int level, P_char ch, P_char victim, P_obj obj,
 
   extract_obj(obj, TRUE);
   remove_plushit_bits(mob);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
 
   balance_affects(mob);
 
@@ -1671,7 +1673,8 @@ void spell_call_avatar(int level, P_char ch, char *arg, int type,
   SET_BIT(mob->specials.act, ACT_MOUNT);
   mob->specials.act |= ACT_SPEC_DIE;
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = 2500 + number(-10, 50) + (life * 5);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   mob->specials.alignment = 1000;
 
   if(IS_NPC(ch) &&
@@ -1899,7 +1902,8 @@ void spell_create_greater_dracolich(int level, P_char ch, char *arg, int type,
   SET_BIT(mob->specials.act, ACT_MOUNT);
   mob->specials.act |= ACT_SPEC_DIE;
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = 2500 + number(-10, 50) + (life * 5);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   
   if(IS_NPC(ch) &&
     !IS_PC_PET(ch))
