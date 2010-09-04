@@ -1032,7 +1032,7 @@ void load_mines(bool set_event, bool load_all, int map)
   }
 
   max_mines = mines_properties(map) + number(-5,5);
-  debug("mines currently loaded: %d / %d", num_mines, max_mines );
+  //debug("mines currently loaded: %d / %d", num_mines, max_mines );
 
   if( num_mines < max_mines )
   {
@@ -1196,7 +1196,7 @@ void do_mine(P_char ch, char *arg, int cmd)
   half_chop(arg, arg1, arg2);
   //one_argument(arg, buff);
 
-  debug("(arg) %s, (arg1) %s, (arg2) %s", arg, arg1, arg2);
+  //debug("(arg) %s, (arg1) %s, (arg2) %s", arg, arg1, arg2);
 
   if( !strcmp(arg1, "reset") && IS_TRUSTED(ch) )
   {

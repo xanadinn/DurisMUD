@@ -59,7 +59,7 @@ int check_gh_home(P_char ch, int r_room)
 {
   Guildhall *gh = NULL;
   
-  debug("entering check_gh_home(): home: %d birthplace: %d orig_birthplace: %d", GET_HOME(ch), GET_BIRTHPLACE(ch), GET_ORIG_BIRTHPLACE(ch));
+  //debug("entering check_gh_home(): home: %d birthplace: %d orig_birthplace: %d", GET_HOME(ch), GET_BIRTHPLACE(ch), GET_ORIG_BIRTHPLACE(ch));
 
   if( IN_GH_ZONE(real_room0(GET_BIRTHPLACE(ch))) )
   {

@@ -5128,7 +5128,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
     {
       percent_chance /= NumFol;
     }
-    debug("Bash - elemental pet: (%d) chance versus (%s) numfol (%d).",percent_chance, GET_NAME(ch), NumFol);
+    //debug("Bash - elemental pet: (%d) chance versus (%s) numfol (%d).",percent_chance, GET_NAME(ch), NumFol);
   }
 
   percent_chance = BOUNDED(1, percent_chance, 95);
