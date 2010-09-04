@@ -5768,7 +5768,8 @@ void ascend_theurgist(P_char ch)
   ch->player.spec = 0;
   ch->player.secondary_class = 0;
   ch->only.pc->epics = MAX(0, ch->only.pc->epics - (int) get_property("ascend.epicCost.Eladrin", 10));
-  GET_HOME(ch) = GET_BIRTHPLACE(ch) = GET_ORIG_BIRTHPLACE(ch) = ch->in_room;
+  // Lets not home them on the map.
+  //GET_HOME(ch) = GET_BIRTHPLACE(ch) = GET_ORIG_BIRTHPLACE(ch) = ch->in_room;
 }
 
 void do_ascend(P_char ch, char *arg, int cmd)
