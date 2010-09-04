@@ -154,6 +154,8 @@ int is_wearing_necroplasm(P_char ch)
 
 void charm_broken(struct char_link_data *cld)
 {
+  int necropets[] = {3, 4, 5, 6, 7, 8, 9, 10, 78, 79, 80, 81, 82, 83, 84, 85};
+  
   /* called when a CHARM affect is broken */
   /* verify that the pet is still following anyone, as some mobs self-poof */
   if (cld->linking && cld->linking->following)
@@ -163,6 +165,17 @@ void charm_broken(struct char_link_data *cld)
         CheckFor_remember(cld->linking, cld->linked))
     {
       MobStartFight(cld->linking, cld->linked);
+    }
+  }
+
+  for(int i = 0; i < 16; i++)
+  {
+    if (IS_NPC(cld->linking) &&
+	((mob_index[GET_RNUM(cld->linking)].virtual_number == necropets[i]) ||
+         (mob_index[GET_RNUM(cld->linking)].virtual_number == NECROPET)))
+    {
+      add_event(event_pet_death, 1 * 60 * 4, cld->linking, NULL, NULL, 0, NULL, 0);
+      break;
     }
   }
 }
@@ -326,10 +339,9 @@ int can_raise_draco(P_char ch, int level, bool bGreater)
   else
     cost = 37;
     
-
+  //debug("numb %d + cost %d > np %d", numb, cost, necro_power);
   if ((numb + cost > necro_power) &&
-      !IS_TRUSTED(ch) &&
-      IS_PC(ch))
+      !IS_TRUSTED(ch))
   {
     act("You are too weak to animate more corpses!",
       FALSE, ch, 0, 0, TO_CHAR);
@@ -505,7 +517,8 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
 
   undead->specials.act = undead_data[typ].act;
   SET_BIT(undead->specials.act, ACT_SENTINEL);
-/*  SET_BIT(undead->only.npc->aggro_flags, AGGR_ALL); */
+  SET_BIT(undead->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(undead->specials.affected_by2, AFF2_ULTRAVISION);
   SET_BIT(undead->specials.act, ACT_ISNPC);
   if (!IS_SET(undead->specials.act, ACT_MEMORY))
     clearMemory(undead);
@@ -642,8 +655,6 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
   extract_obj(obj, TRUE);
   char_to_room(undead, ch->in_room, 0);
 
-  SET_BIT(undead->specials.affected_by2, AFF2_ULTRAVISION);
-  REMOVE_BIT(undead->only.npc->aggro_flags, AGGR_ALL);
 
   int duration = setup_pet(undead, ch, MAX(4, timeToDecay), PET_NOCASH);
   add_follower(undead, ch);
@@ -1006,7 +1017,8 @@ void spell_call_titan(int level, P_char ch, char *arg, int type, P_char victim, 
   SET_BIT(mob->specials.act, ACT_MOUNT);
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = dice(125, 15) + (life * 3);
   mob->specials.act |= ACT_SPEC_DIE;
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   mob->specials.alignment = 1000;
   
   if(IS_NPC(ch) &&
@@ -1244,7 +1256,8 @@ void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char vi
   SET_BIT(mob->specials.act, ACT_MOUNT);
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = dice(125, 15) + (life * 3);
   mob->specials.act |= ACT_SPEC_DIE;
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   
   if(IS_NPC(ch) &&
     !IS_PC_PET(ch))
@@ -1536,7 +1549,8 @@ void create_golem(int level, P_char ch, P_char victim, P_obj obj,
 
   extract_obj(obj, TRUE);
   remove_plushit_bits(mob);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
 
   balance_affects(mob);
 
@@ -1671,7 +1685,8 @@ void spell_call_avatar(int level, P_char ch, char *arg, int type,
   SET_BIT(mob->specials.act, ACT_MOUNT);
   mob->specials.act |= ACT_SPEC_DIE;
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = 2500 + number(-10, 50) + (life * 5);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   mob->specials.alignment = 1000;
 
   if(IS_NPC(ch) &&
@@ -1899,7 +1914,8 @@ void spell_create_greater_dracolich(int level, P_char ch, char *arg, int type,
   SET_BIT(mob->specials.act, ACT_MOUNT);
   mob->specials.act |= ACT_SPEC_DIE;
   GET_HIT(mob) = GET_MAX_HIT(mob) = mob->points.base_hit = 2500 + number(-10, 50) + (life * 5);
-  REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  //REMOVE_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
+  SET_BIT(mob->only.npc->aggro_flags, AGGR_ALL);
   
   if(IS_NPC(ch) &&
     !IS_PC_PET(ch))

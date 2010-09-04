@@ -7172,7 +7172,9 @@ void set_fighting(P_char ch, P_char vict)
   /* call for initial 'dragon fear' check.  -JAB */
 
   if(IS_NPC(ch) &&
-    IS_DRAGON(ch) &&
+    (IS_DRAGON(ch) ||
+     IS_TITAN(ch) ||
+     IS_AVATAR(ch)) &&
     !IS_MORPH(ch) &&
     !IS_PC_PET(ch))
   {
@@ -9185,6 +9187,9 @@ double orc_horde_dam_modifier(P_char ch, double dam, int attacking)
   float c = 0.00;
 
   if (!ch)
+    return dam;
+
+  if (ch->in_room < 1)
     return dam;
 
   for (horde = world[ch->in_room].people; horde; horde = next)

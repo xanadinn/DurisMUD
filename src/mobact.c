@@ -4946,6 +4946,22 @@ void BreathWeapon(P_char ch, int dir)
       i = 10;
   if(IS_ACT(ch, ACT_BREATHES_BLIND_GAS))       // || isname("br_b", GET_NAME(ch)))
     i = 11;                     /* blinding gas */
+  if(isname("crimson", GET_NAME(ch)))
+      i = 12;                    /* crimson */
+  if(isname("azure", GET_NAME(ch)))   
+      i = 13;                    /* azure */
+  if(isname("jasper", GET_NAME(ch)))
+      i = 14;                    /* jasper */
+  if(isname("basalt", GET_NAME(ch)))
+      i = 15;                    /* basalt */
+  if(isname("judgement", GET_NAME(ch)))
+      i = 16;                    /* war */
+  if(isname("justice", GET_NAME(ch)))
+      i = 17;                    /* judgement */
+  if(isname("war", GET_NAME(ch)))
+      i = 18;                    /* vengeance */
+  if(isname("vengeance", GET_NAME(ch)))
+      i = 19;                    /* justice */
   if(i == 0)
     i = number(1, 5);
 
@@ -5043,6 +5059,70 @@ void BreathWeapon(P_char ch, int dir)
       sprintf(buf, "A blast of &+ggas&n shoots in from the %s!\r\n",
               dirs[(int) rev_dir[dir] - 1]);
     funct = spell_blinding_breath;
+    break;
+  case 12:
+    act("$n spreads $s wings and emits a &+Rshimmering &+rlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Rshimmering &+rlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Rshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_crimson_light;
+    break;
+  case 13:
+    act("$n spreads $s wings and emits a &+Bshimmering &+blight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Bshimmering &+blight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Gshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_jasper_light;
+    break;
+  case 14:
+    act("$n spreads $s wings and emits a &+Gshimmering &+glight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Gshimmering &+glight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Bshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_azure_light;
+    break;
+  case 15:
+    act("$n spreads $s wings and emits a &+Lshimmering &+wlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Lshimmering &+wlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Lshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_basalt_light;
+    break;
+  case 16:
+    act("$n spreads $s wings and emits a &+Rshimmering &+rlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Rshimmering &+rlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Rshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_crimson_light_2;
+    break;
+  case 17:
+    act("$n spreads $s wings and emits a &+Bshimmering &+blight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Bshimmering &+blight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Bshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_azure_light_2;
+    break;
+  case 18:
+    act("$n spreads $s wings and emits a &+Gshimmering &+glight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Gshimmering &+glight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Gshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_jasper_light_2;
+    break;
+  case 19:
+    act("$n spreads $s wings and emits a &+Lshimmering &+wlight&n!", 1, ch, 0, 0, TO_ROOM);
+    act("You spread your wings and emit a &+Lshimmering &+wlight&n!", 0, ch, 0, 0, TO_CHAR);
+    if(dir != -1)
+      sprintf(buf, "A &+Lshimmering&n light blasts through from the %s!\r\n",
+              dirs[(int) rev_dir[dir] - 1]);
+    funct = spell_basalt_light_2;
     break;
   }
 

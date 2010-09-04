@@ -681,6 +681,7 @@ for ((IN_ROOM) = world[(PLAYER)->in_room].people; (IN_ROOM) != NULL; (IN_ROOM) =
 #define IS_DRAGON(ch)  ((GET_RACE(ch) == RACE_DRAGON) || IS_DRACOLICH(ch))
 #define IS_DRAGONKIN(ch) ((GET_RACE(ch) == RACE_DRAGONKIN))
 #define CAN_BREATHE(ch) (IS_NPC(ch) && (IS_DRAGON(ch) || \
+                         IS_AVATAR(ch) || IS_TITAN(ch) || \
                          IS_ACT(ch, ACT_BREATHES_FIRE | ACT_BREATHES_LIGHTNING | ACT_BREATHES_FROST | ACT_BREATHES_ACID | \
             ACT_BREATHES_GAS | ACT_BREATHES_SHADOW | ACT_BREATHES_BLIND_GAS)))
 /*    isname ("br_f", GET_NAME (ch)) || isname ("br_c", GET_NAME (ch)) || \

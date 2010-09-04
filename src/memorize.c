@@ -858,7 +858,7 @@ void handle_undead_mem(P_char ch)
         IS_PUNDEAD(ch) ||
         IS_HARPY(ch) ||
         GET_CLASS(ch, CLASS_ETHERMANCER) ||
-	IS_ANGELIC(ch)) &&
+	IS_ANGEL(ch)) &&
         IS_AFFECTED2(ch, AFF2_MEMORIZING)))
   {
     return;
@@ -902,7 +902,7 @@ void handle_undead_mem(P_char ch)
       sprintf(gbuf, "&+mYou feel a rush of energy as a&+L %d%s circle &+mspell coalesces in your mind...\n",
               i, i== 1 ? "st" : (i == 2 ? "nd" : (i == 3 ? "rd" : "th")));
     }
-    else if(IS_ANGELIC(ch))
+    else if(IS_ANGEL(ch))
     {
       sprintf(gbuf, "&+WYou feel illuminated with a %d%s circle spell.\n",
 	     i, i == 1 ? "st" : (i == 2 ? "nd" : (i == 3 ? "rd" : "th")));
@@ -954,7 +954,7 @@ void handle_undead_mem(P_char ch)
         ("&+CThe spir&n&+cits reced&+We, leaving y&+Cou in a m&n&+comentary stat&+We of lethargy.&n\n",
          ch);
     }
-    else if (IS_ANGELIC(ch))
+    else if (IS_ANGEL(ch))
     {
       send_to_char
 	("&+WYour gift from above is now complete.\n", ch);
@@ -1108,7 +1108,7 @@ void event_memorize(P_char ch, P_char victim, P_obj obj, void *data)
      IS_UNDEADRACE(ch) ||
      is_wearing_necroplasm(ch) ||
      USES_FOCUS(ch) ||
-     IS_ANGELIC(ch))
+     IS_ANGEL(ch))
   {
     handle_undead_mem(ch);
   }
@@ -1128,7 +1128,7 @@ void do_assimilate(P_char ch, char *argument, int cmd)
        IS_UNDEADRACE(ch) ||
        is_wearing_necroplasm(ch) ||
        GET_CLASS(ch, CLASS_WARLOCK) ||
-       IS_ANGELIC(ch)))
+       IS_ANGEL(ch)))
   {
     send_to_char("&+LThe powers of the dark ignore you...\n", ch);
     return;
@@ -1199,7 +1199,7 @@ void do_assimilate(P_char ch, char *argument, int cmd)
     {
       return;
     }
-    if (IS_ANGELIC(ch))
+    if (IS_ANGEL(ch))
       send_to_char("\n&+WYou call to the heanves above for the gift of magic.\n", ch);
     else
       send_to_char("&+LYou begin to invoke evil and assimilate the "
@@ -1278,9 +1278,9 @@ void do_memorize(P_char ch, char *argument, int cmd)
           !meming_class(ch) ||
           IS_UNDEADRACE(ch) ||
           is_wearing_necroplasm(ch)) ||
-	  (IS_ANGELIC(ch)))
+	  (IS_ANGEL(ch)))
   {
-    if (IS_ANGELIC(ch))
+    if (IS_ANGEL(ch))
       send_to_char("Try using Assimilate in this form.\n", ch);
     else
       send_to_char("You aren't trained in magic.\n", ch);

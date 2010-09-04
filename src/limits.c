@@ -1068,12 +1068,8 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
   }
   else if(type == EXP_HEALING)
   {
-// No exps for healing pets.
     if (!victim)
         return 0;
-
-    if(IS_NPC(victim))
-      return 0;
 
     if (victim != ch && !grouped(victim, ch)) // only for healing self and groupies
         return 0;
@@ -1082,8 +1078,8 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
     if (!attacker) // only for healing in fight
         return 0;
 
-    if (GET_LEVEL(victim) <= GET_LEVEL(ch) - GOOD_RACE(ch) ? goodcap : evilcap || 
-	GET_LEVEL(victim) >= GET_LEVEL(ch) + GOOD_RACE(ch) ? goodcap :evilcap)  // powerleveling stopgap
+    if ((GET_LEVEL(victim) <= GET_LEVEL(ch) - (GOOD_RACE(ch) ? goodcap : evilcap)) || 
+	    (GET_LEVEL(victim) >= GET_LEVEL(ch) + (GOOD_RACE(ch) ? goodcap : evilcap)))  // powerleveling stopgap
     {
       return 0;
     }
@@ -1099,10 +1095,10 @@ int gain_exp(P_char ch, P_char victim, const int value, int type)
     }
     
 // debug("healing 2 (%d)", (int)XP);
+    if(IS_NPC(victim))
+      XP /= 2;
     if(ch == victim)
-    {
       XP = XP / 2;
-    }
 // debug("healing 3 (%d)", (int)XP);
     XP = gain_global_exp_modifiers(ch, XP);
 // debug("healing 4 (%d)", (int)XP);

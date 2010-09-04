@@ -6887,7 +6887,8 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
     if (strcmp(arg1, "wall") || obj->value[1] != dir_from_keyword(arg2))
       return FALSE;
 
-    if (type == WALL_OF_STONE)
+    if (type == WALL_OF_STONE ||
+	type == WALL_OF_BONES)
       dam = GET_DAMROLL(ch);
     else if (type == WATCHING_WALL &&
              illusionist &&
@@ -7257,6 +7258,7 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
   case WATCHING_WALL:
   case WALL_OF_IRON:
   case WALL_OF_STONE:
+  case WALL_OF_BONES:
     act("Oof! You bump into $p...", TRUE, ch, obj, 0, TO_CHAR);
     act("Oof! $n bumps into $p...", TRUE, ch, obj, 0, TO_NOTVICT);
     return TRUE;

@@ -10152,6 +10152,195 @@ void spell_blinding_breath(int level, P_char ch, char *arg, int type,
   }
 }
 
+void spell_basalt_light_2(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  spell_basalt_light(level, ch, arg, type, victim, obj);
+  if (!number(0, 4))
+  {
+    
+  }
+}
+
+void spell_basalt_light(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  int save, dam;
+  struct damage_messages messages = {
+    "$N is partially corroded by your &+Lbasalt &+wlight&n.",
+    "$n emits a &+Lbasalt &+wlight&n that corrodes you.",
+    "$N is corroded by $n's &+Lbasalt &+wlight&n.",
+    "$N is corroded to nothing by your &+Lbasalt &+wlight&n.",
+    "You are corroded to nothing as $n emits a &+Lbasalt &+wlight&n.",
+    "$n corrodes $N to nothing.", 0
+  };
+  if(!are_we_still_alive(ch , victim))
+    return;
+
+  save = calc_dragon_breath_save(ch, victim);
+  dam = (int) (dice(level + get_property("dragon.Breath.DamageMod", 1), 11) + level);
+  if(IS_PC_PET(ch))
+    dam /= 2;
+  if(NewSaves(victim, SAVING_BREATH, save))
+    dam = (int) (dam / get_property("dragon.Breath.savedDamage", 2));
+
+  if(IS_AFFECTED2(victim, AFF2_PROT_ACID) &&
+    number(0, 4))
+      return;
+
+  if(spell_damage(ch, victim, dam, SPLDAM_ACID, SPLDAM_BREATH | SPLDAM_NODEFLECT, &messages) !=
+      DAM_NONEDEAD)
+    return;
+}
+
+void spell_jasper_light_2(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  spell_jasper_light(level, ch, arg, type, victim, obj);
+  if (!number(0, 3))
+  {
+    
+  }
+}
+
+void spell_jasper_light(int level, P_char ch, char *arg, int type,
+                      P_char victim, P_obj obj)
+{
+  int save, dam;
+  struct damage_messages messages = {
+    "$N is hit by your &+Gjasper &+glight&n.",
+    "$n emits a &+Gjasper&+g light&n.",
+    "$N chokes as $n emits a &+Gjasper &+glight&n.",
+    "$N chokes to death.",
+    "You die from the &+Gjasper &+glight&n.",
+    "$n kills $N with $s &+Gjasper &+glight&n.", 0
+  };
+  if(!are_we_still_alive(ch , victim))
+    return;
+
+  save = calc_dragon_breath_save(ch, victim);
+  dam = (int) (dice(level + get_property("dragon.Breath.DamageMod", 1), 7) + level);
+  if(IS_PC_PET(ch))
+    dam /= 2;
+  if(NewSaves(victim, SAVING_BREATH, save))
+    dam = (int) (dam / get_property("dragon.Breath.savedDamage", 2));
+
+  if(spell_damage(ch, victim, dam, SPLDAM_GAS, SPLDAM_BREATH | SPLDAM_NODEFLECT, &messages) ==
+      DAM_NONEDEAD)
+  {
+    if(!IS_AFFECTED2(victim, AFF2_PROT_GAS) ||
+      !number(0, 4))
+        spell_poison(level, ch, 0, 0, victim, 0);
+  }
+}
+
+void spell_azure_light_2(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  spell_azure_light(level, ch, arg, type, victim, obj);
+  if (!number(0, 3))
+  {
+    
+  }
+}
+  
+void spell_azure_light(int level, P_char ch, char *arg, int type,
+                            P_char victim, P_obj obj)
+{
+  int save, dam;
+  struct damage_messages messages = {
+    "$N is hit.",
+    "$n emits an &+bazure &+Blight&n which shocks you!",
+    "$N looks shocked as $n emits a &+bazure &+Blight&n.",
+    "$N is killed by your &+bazure &+Blight&n.",
+    "You are killed by $n's &+bazure &+Blight&n.",
+    "$n kills $N with his &+bazure &+Blight&n.", 0
+  };
+  if(!are_we_still_alive(ch , victim))
+    return;
+
+  save = calc_dragon_breath_save(ch, victim);
+  dam = (int) (dice(level + get_property("dragon.Breath.DamageMod", 1), 8) + level);
+  if(IS_PC_PET(ch))
+    dam /= 2;
+  if(NewSaves(victim, SAVING_BREATH, save))
+    dam = (int) (dam / get_property("dragon.Breath.savedDamage", 2));
+
+  if(IS_AFFECTED2(victim, AFF2_PROT_LIGHTNING) &&
+    number(0, 4))
+      return;
+
+  spell_damage(ch, victim, dam, SPLDAM_LIGHTNING, SPLDAM_BREATH | SPLDAM_NODEFLECT, &messages);
+}
+
+void spell_crimson_light_2(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  spell_crimson_light(level, ch, arg, type, victim, obj);
+  if (!number(0, 3))
+  {
+    
+  }
+}
+  
+void spell_crimson_light(int level, P_char ch, char *arg, int type,
+                       P_char victim, P_obj obj)
+{
+  struct damage_messages messages = {
+    "$N is hit.",
+    "$n burns you.",
+    "$N bakes in the &+Rcrimson &+rlight&n, as $n &+Wradiates&N.",
+    "$N is dead, flash-fried by your &+Rcrimson light&N.",
+    "You are burned to ashes as $n .",
+    "$n's &+Rcrimson light&n turns $N to ashes.", 0
+  };
+  int save, dam;
+  P_obj    burn = NULL;
+
+  if(!are_we_still_alive(ch , victim))
+    return;
+
+  save = calc_dragon_breath_save(ch, victim);
+  dam = (int) (dice(level + get_property("dragon.Breath.DamageMod", 1), 9) + level);
+
+  if(IS_PC_PET(ch))
+    dam /= 2;
+
+  if(NewSaves(victim, SAVING_BREATH, save))
+    dam = (int) (dam / get_property("dragon.Breath.savedDamage", 2));
+
+  if(spell_damage(ch, victim, dam, SPLDAM_FIRE, SPLDAM_BREATH | SPLDAM_NODEFLECT, &messages) !=
+    DAM_NONEDEAD)
+      return;
+
+  if(IS_AFFECTED(victim, AFF_PROT_FIRE) &&
+    number(0, 4))
+      return;
+
+  /*
+   * And now for the damage on inventory
+   */
+  if(number(0, TOTALLVLS) < GET_LEVEL(ch))
+  {
+    if(!NewSaves(victim, SAVING_BREATH, save) &&
+      !CHAR_IN_ARENA(victim))
+    {
+      for (burn = victim->carrying;
+           burn && (((burn->type != ITEM_SCROLL) &&
+                     (burn->type != ITEM_WAND) &&
+                     (burn->type != ITEM_STAFF) &&
+                     (burn->type != ITEM_NOTE)) ||
+                    number(0, 2)); burn = burn->next_content) ;
+      if(burn)
+      {
+        act("&+r$p is turned into ash!", FALSE, victim, burn, 0, TO_CHAR);
+        extract_obj(burn, TRUE);
+        burn = NULL;
+      }
+    }
+  }
+}
+
 void cont_light_dissipate_event(P_char ch, P_char victim, P_obj obj, void *data)
 {
   int      room, readd_dark, readd_twilight, had_light = TRUE;

@@ -1442,6 +1442,13 @@ void do_action(P_char ch, char *argument, int cmd)
       CharWait(ch, PULSE_VIOLENCE);
     return;
   }
+  if (cmd == CMD_ROAR && (IS_AVATAR(ch) || IS_TITAN(ch)))
+  {
+    DragonCombat(ch, TRUE);
+    if (IS_PC_PET(ch))
+      CharWait(ch, PULSE_VIOLENCE);
+    return;
+  }
   if (cmd == CMD_TRIP)
   {
     do_trip(ch, argument, cmd);

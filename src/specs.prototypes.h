@@ -13,6 +13,7 @@
 #define WALL_OF_IRON 10
 #define WATCHING_WALL 11
 #define WALL_OUTPOST 12
+#define WALL_OF_BONES 13
 
 int player_council_room(int, P_char, int, char *);
 

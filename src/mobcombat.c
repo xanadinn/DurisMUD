@@ -414,10 +414,6 @@ int UndeadCombat(P_char ch)
   return FALSE;
 }
 
-void TitanCombat(P_char ch, int i)
-{
-}
-
 void ArchonCombat(P_char ch, P_char victim)
 {}
 
@@ -446,7 +442,7 @@ int AngelCombat(P_char ch)
   }
 
   if ((IS_TITAN(ch) || IS_AVATAR(ch)) && IS_PC_PET(ch))
-    TitanCombat(ch, FALSE);
+    DragonCombat(ch, FALSE);
 
   if( IS_FIGHTING(ch) )
     victim = ch->specials.fighting;
@@ -908,13 +904,13 @@ bool DragonCombat(P_char ch, int awe)
     }
   }
     
-  if (!IS_DRAGON(ch) &&
+  if (!IS_DRAGON(ch) && !IS_TITAN(ch) && !IS_AVATAR(ch) &&
       awe)
   {
     return FALSE;
   }
   
-  if (!IS_DRAGON(ch) &&
+  if (!IS_DRAGON(ch) && !IS_TITAN(ch) && !IS_AVATAR(ch) &&
       CAN_BREATHE(ch))
   {
     if (number(0, breath_chance))
@@ -980,7 +976,7 @@ bool DragonCombat(P_char ch, int awe)
         continue;
       }
       
-      if (!IS_DRAGON(tchar1) &&
+      if (!IS_DRAGON(tchar1) && !IS_TITAN(tchar1) && !IS_AVATAR(tchar1) &&
           !IS_TRUSTED(tchar1) &&
          (tchar1->specials.z_cord == ch->specials.z_cord))
       {
@@ -1064,7 +1060,10 @@ bool DragonCombat(P_char ch, int awe)
         !isname("br_l", GET_NAME(ch)) && !isname("br_s", GET_NAME(ch)) &&
         !isname("br_b", GET_NAME(ch)))
     {
-      SweepAttack(ch);
+      if (IS_TITAN(ch) || IS_AVATAR(ch))
+	StompAttack(ch);
+      else
+	SweepAttack(ch);
       return TRUE;
     }
   }

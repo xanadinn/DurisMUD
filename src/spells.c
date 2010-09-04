@@ -1120,6 +1120,41 @@ void cast_wall_of_force(int level, P_char ch, char *arg, int type,
   }
 }
 
+void cast_wall_of_bones(int level, P_char ch, char *arg, int type,
+                        P_char tar_ch, P_obj tar_obj)
+{
+  char     buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH],
+    Gbuf4[MAX_STRING_LENGTH];
+  int      var = 0;
+
+  one_argument(arg, Gbuf4);
+  var = dir_from_keyword(Gbuf4);
+
+  if (!exit_wallable(ch->in_room, var, ch))
+  {
+    return;
+  }
+
+  if (create_walls
+      (ch->in_room, var, ch, level, WALL_OF_BONES, level, 1800,
+       "&+La wall of &+wbones&n",
+       "&+LA large wall of &+wbones&+L is here to the %s.&n", 0))
+  {
+    SET_BIT(EXIT(ch, var)->exit_info, EX_BREAKABLE);
+    SET_BIT(VIRTUAL_EXIT
+            ((world[ch->in_room].dir_option[var])->to_room,
+             rev_dir[var])->exit_info, EX_BREAKABLE);
+
+    sprintf(buf1, "&+LA pile of bones magically assembles to the %s!&n\r\n",
+            dirs[var]);
+    sprintf(buf2, "&+LA pile of bones magicaly assembles to the %s!&n\r\n",
+            dirs[rev_dir[var]]);
+
+    send_to_room(buf1, ch->in_room);
+    send_to_room(buf2, (world[ch->in_room].dir_option[var])->to_room);
+  }
+}
+
 void cast_lightning_curtain(int level, P_char ch, char *arg, int type,
                             P_char tar_ch, P_obj tar_obj)
 {
