@@ -154,6 +154,8 @@ int is_wearing_necroplasm(P_char ch)
 
 void charm_broken(struct char_link_data *cld)
 {
+  int necropets[] = {3, 4, 5, 6, 7, 8, 9, 10, 78, 79, 80, 81, 82, 83, 84, 85};
+  
   /* called when a CHARM affect is broken */
   /* verify that the pet is still following anyone, as some mobs self-poof */
   if (cld->linking && cld->linking->following)
@@ -163,6 +165,17 @@ void charm_broken(struct char_link_data *cld)
         CheckFor_remember(cld->linking, cld->linked))
     {
       MobStartFight(cld->linking, cld->linked);
+    }
+  }
+
+  for(int i = 0; i < 16; i++)
+  {
+    if (IS_NPC(cld->linking) &&
+	((mob_index[GET_RNUM(cld->linking)].virtual_number == necropets[i]) ||
+         (mob_index[GET_RNUM(cld->linking)].virtual_number == NECROPET)))
+    {
+      add_event(event_pet_death, 1 * 60 * 4, cld->linking, NULL, NULL, 0, NULL, 0);
+      break;
     }
   }
 }
