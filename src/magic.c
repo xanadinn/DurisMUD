@@ -17015,7 +17015,7 @@ void event_cdoom(P_char ch, P_char vict, P_obj obj, void *data)
  */
   P_char   tch, next;
   int      doomdam = 95 + number(0, 20);
-  int      num;
+  int      num, finaldam = 0;
   struct damage_messages messages = {
     "&+LYou send &+ma wave of insects and arachnids &+Lagainst $N!",
     "&+mA sea of arachnids and insects &+Lconsume and overwhelm you!",
@@ -17073,7 +17073,7 @@ void event_cdoom(P_char ch, P_char vict, P_obj obj, void *data)
   }
 
   if(get_spell_from_room(&world[ch->in_room], SPELL_SUMMON_INSECTS))
-    doomdam += 15;
+    doomdam += 25;
 
 /*
  * Originally doom was going to be the forest druid spec nuke, and
@@ -17084,7 +17084,7 @@ void event_cdoom(P_char ch, P_char vict, P_obj obj, void *data)
  */
 
   if(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND)) 
-    doomdam += 25;
+    doomdam += 35;
   else
     doomdam -= 5;
 
@@ -17106,6 +17106,7 @@ void event_cdoom(P_char ch, P_char vict, P_obj obj, void *data)
   for (tch = world[ch->in_room].people; tch; tch = next)
   {
     next = tch->next_in_room;
+    finaldam = doomdam;
     if ((tch == ch) || !should_area_hit(ch, tch))
       continue;
     
@@ -17113,18 +17114,18 @@ void event_cdoom(P_char ch, P_char vict, P_obj obj, void *data)
       IS_AFFECTED2(tch, AFF2_FIRESHIELD) ||
       IS_AFFECTED3(tch, AFF3_LIGHTNINGSHIELD))
     {
-      doomdam = (int) (doomdam * 0.75);
+      finaldam = (int) (finaldam * 0.75);
     }
     
     if (IS_PC(tch))
-      doomdam = doomdam * get_property("spell.area.damage.to.pc", 0.5);
+      finaldam = finaldam * get_property("spell.area.damage.to.pc", 0.5);
   
-    doomdam = doomdam * get_property("spell.area.damage.factor.doom", 1.000);
+    finaldam = finaldam * get_property("spell.area.damage.factor.doom", 1.000);
 
-    if (get_property("spell.area.minChance.doom", 100) >= number(1, 100))
+    if (number(1, 100) >= get_property("spell.area.minChance.doom", 100))
       continue;
 
-    if(spell_damage(ch, tch, doomdam, SPLDAM_GENERIC, SPLDAM_NODEFLECT,
+    if(spell_damage(ch, tch, finaldam, SPLDAM_GENERIC, SPLDAM_NODEFLECT,
       &messages) == DAM_NONEDEAD)
     {
       //if(IS_ALIVE(ch) && IS_ALIVE(tch))
