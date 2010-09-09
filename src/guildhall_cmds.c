@@ -1226,7 +1226,7 @@ bool guildhall_map_check(P_char ch)
       return FALSE;
     }
     
-    int dist = calculate_map_distance(ch->in_room, real_room(WH_MAP_VNUM));
+    int dist = calculate_map_distance(ch->in_room, real_room(TH_MAP_VNUM));
     
     if( dist )
       dist = (int) sqrt(dist); // calculate_map_distance returns the square of the distance

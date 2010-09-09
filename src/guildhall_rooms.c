@@ -352,7 +352,7 @@ bool TownPortalRoom::init()
       sprintf(buff, this->portal->description, "Tharnadia");
       this->portal->description = str_dup(buff);
       this->portal->str_mask = STRUNG_DESC1;
-      this->portal->value[0] = WH_INN_VNUM;      
+      this->portal->value[0] = TH_INN_VNUM;      
       obj_to_room(this->portal, real_room0(this->vnum));
     }
     else if( this->guildhall->racewar == RACEWAR_EVIL )

@@ -26,8 +26,10 @@ using namespace std;
 #define IN_GH_ZONE(r_room) ( world[r_room].number >= GH_START_VNUM && world[r_room].number <= GH_END_VNUM )
 
 #define WH_MAP_VNUM 545733
+#define TH_MAP_VNUM 570424
 #define SHADY_MAP_VNUM 583894
 #define WH_INN_VNUM 55160
+#define TH_INN_VNUM 132575
 #define SHADY_INN_VNUM 97663
 #define MAX_GH_HOMETOWN_RADIUS 30
 #define MAX_GH_PROXIMITY_RADIUS 3
