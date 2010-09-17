@@ -389,7 +389,7 @@ int summon_ship (P_char ch, P_ship ship, bool time_only)
     int summontime, pvp = false;
     if( IS_TRUSTED(ch) )
         summontime = 0;
-    else if (SHIP_CLASS(ship) == SH_SLOOP && SHIP_CLASS(ship) == SH_YACHT)
+    else if (SHIP_CLASS(ship) == SH_SLOOP || SHIP_CLASS(ship) == SH_YACHT)
     {
         summontime = (280 * 50) / MAX(get_maxspeed_without_cargo(ship), 1);
     }
