@@ -3907,6 +3907,16 @@ void do_prestige(P_char ch, char *argument, int cmd)
 void set_assoc_active(int assoc_id, bool active)
 {
 }
+
+void add_assoc_overmax(int assoc_id, int overmax)
+{
+}
+
+int get_assoc_overmax(int assoc_id)
+{
+  return 0;
+}
+
 #else
 void set_assoc_active(int assoc_id, bool active)
 {
@@ -4273,6 +4283,32 @@ void check_assoc_prestige_epics(P_char ch, int epics, int epic_type)
 //  return FALSE;    
 //}
 
+void add_assoc_overmax(int assoc_id, int overmax)
+{
+  qry("UPDATE associations SET over_max = over_max + %d WHERE id = %d AND active = 1", overmax, assoc_id);
+}
+
+int get_assoc_overmax(int asc_number)
+{
+  if( !qry("SELECT over_max FROM associations where id = %d", asc_number))
+    return 0;
+
+  MYSQL_RES *res = mysql_store_result(DB);
+  
+  if( mysql_num_rows(res) < 1 )
+  {
+    mysql_free_result(res);
+    return 0;
+  }
+  
+  MYSQL_ROW row = mysql_fetch_row(res);
+  
+  int overmax = atoi(row[0]);
+  mysql_free_result(res);
+  
+  return overmax;
+}
+
 int max_assoc_size(int asc_number)
 {  
   int prestige = get_assoc_prestige(asc_number);
@@ -4280,8 +4316,10 @@ int max_assoc_size(int asc_number)
   int max_size = get_property("guild.size.max", 0);
   int step_size = get_property("guild.size.prestige.step", 0);  
   int members = base_size + (int) ( (float) ( MAX(0, prestige) ) / (float) MAX(1, step_size) );
-  
-  return MIN(members, max_size);
+
+  members = MIN(members, max_size);
+
+  return (members + get_assoc_overmax(asc_number));
 }
 
 void get_assoc_name(int assoc, char *buf)

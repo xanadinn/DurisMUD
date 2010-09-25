@@ -140,6 +140,8 @@ void add_assoc_prestige(int assoc_id, int prestige);
 int get_assoc_cps(int assoc_id);
 void add_assoc_cps(int assoc_id, int cps);
 void set_assoc_cps(int assoc_id, int cps);
+void add_assoc_overmax(int assoc_id, int overmax);
+int get_assoc_overmax(int assoc_id);
 void show_prestige_list(P_char ch);
 void reload_assoc_table();
 void prestige_update();

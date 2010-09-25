@@ -26,6 +26,7 @@ extern P_room world;
 extern const int rev_dir[];
 
 // function declarations
+void do_construct_overmax(P_char ch, char *arg);
 void do_construct_guildhall(P_char ch, char *arg);
 void do_construct_destroy(P_char ch, char *arg);
 void do_construct_reset(P_char ch, char *arg);
@@ -116,7 +117,8 @@ const char CONSTRUCT_SYNTAX[] =
 "&+Wconstruct golem    &n - construct a golem in the entrance room\r\n"
 "&+Wconstruct room     &n - construct a new room\r\n"
 "&+Wconstruct upgrade  &n - upgrade the current room\r\n"
-"&+Wconstruct rename   &n - rename the current room\r\n";
+"&+Wconstruct rename   &n - rename the current room\r\n"
+"&+Wconstruct overmax  &n - increase max players\r\n";
 
 void do_construct(P_char ch, char *arg, int cmd)
 {
@@ -158,11 +160,74 @@ void do_construct(P_char ch, char *arg, int cmd)
   {
     do_construct_rename(ch, arg);
   }
+  else if( is_abbrev(buff, "overmax") )
+  {
+    do_construct_overmax(ch, arg);
+  }
   else
   {
     send_to_char(CONSTRUCT_SYNTAX, ch);
   }
   
+}
+
+void do_construct_overmax(P_char ch, char *arg)
+{
+  char buff[MAX_STRING_LENGTH];
+  int cp_cost = (int)get_property("guildhalls.construction.points.overmax", 100);
+  int plat_cost = (int)get_property("guildhalls.construction.platinum.overmax", 100000);
+  int maxovermax;
+  
+  if (!ch)
+    return;
+
+  if (!GET_A_NUM(ch))
+  {
+    send_to_char("You must be the leader of a guild to expand your max players.\r\n", ch);
+    return;
+  }
+  
+  if (RACE_GOOD(ch))
+  {
+    maxovermax = (int)get_property("guildhalls.construction.overmax.cap.good", 10);
+    plat_cost = plat_cost/2;
+  }
+  else if (RACE_EVIL(ch))
+    maxovermax = (int)get_property("guildhalls.construction.overmax.cap.evil", 5);
+  else
+    maxovermax = 0;
+
+  if(get_assoc_overmax(GET_A_NUM(ch)) >= maxovermax)
+  {
+    send_to_char("You can't purchase anymore max players.\r\n", ch);
+    return;
+  }
+
+  if (!IS_TRUSTED(ch))
+  {
+    debug("%d, %d", plat_cost, GET_MONEY(ch));
+    if(GET_MONEY(ch) < plat_cost)
+    {
+      sprintf(buff, "You don't have enough money on you - it costs %s&n to extend your max players.\r\n", coin_stringv(plat_cost));
+      send_to_char(buff, ch);
+      return;
+    }
+  
+    if(get_assoc_cps(GET_A_NUM(ch)) < cp_cost)
+    {
+      sprintf(buff, "Your guild doesn't yet have enough &+Wconstruction points&n - it costs %d to add a member over max.\r\n", cp_cost);
+      send_to_char(buff, ch);
+      return;
+    }
+  }
+  
+  if (!IS_TRUSTED(ch))
+    SUB_MONEY(ch, plat_cost, 0);
+  add_assoc_cps(GET_A_NUM(ch), -cp_cost);
+  add_assoc_overmax(GET_A_NUM(ch), 1);
+  send_to_char("You have purchased an overmax player limit.\n\r", ch);
+
+  return;
 }
 
 void do_construct_guildhall(P_char ch, char *arg)
