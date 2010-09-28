@@ -835,6 +835,8 @@ void cast_plane_shift(int level, P_char ch, char *arg, int type,
                (world[to_room].zone == 83) ||
                (world[to_room].zone == 260) ||
                (world[to_room].sector_type == SECT_AIR_PLANE) ||
+               (world[to_room].sector_type == SECT_MOUNTAIN) || /* mountains are no-walk on maps nowdays*/
+               (world[to_room].sector_type == SECT_UNDRWLD_MOUNTAIN) || /* underworld mountains double so */
                (zone_table[world[to_room].zone].flags & ZONE_CLOSED) ||
                (!IS_MAP_ROOM(to_room))    //not a map room
             );
