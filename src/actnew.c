@@ -1000,6 +1000,17 @@ void do_hitall(P_char ch, char *arg, int cmd)
   one_argument(arg, Gbuf2);
   hit_all = !str_cmp(Gbuf2, "all");
 
+  if (hit_all)
+  {
+    send_to_char("You madly swing your weapon around, trying to hit all of your opponents...\r\n", ch);
+	  act("$n madly swings $s weapon...", TRUE, ch, 0, 0, TO_ROOM);
+  }
+  else
+  {
+    send_to_char("You swing your weapon wide, trying to hit your opponents...\r\n", ch);
+	  act("$n swings $s weapon wide...", TRUE, ch, 0, 0, TO_ROOM);
+  }
+
   /* Hit all aggressive monsters in room */
 
   count = 0;
@@ -1062,6 +1073,12 @@ void do_hitall(P_char ch, char *arg, int cmd)
 
   if (char_in_list(ch))
   {
+    if (!count)
+    {
+      send_to_char("...but fail to impress anyone!\r\n", ch);
+	    act("...but in the end $e fails to impress anyone.", TRUE, ch, 0, 0, TO_ROOM);
+    }
+
     notch_skill(ch, SKILL_HITALL, get_property("skill.notch.offensive", 15));
     if (GET_CLASS(ch, CLASS_BERSERKER))
     {
