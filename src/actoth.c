@@ -452,9 +452,54 @@ void do_camp(P_char ch, char *arg, int cmd)
 
   if (IS_AFFECTED(ch, AFF_CAMPING))
   {
-    send_to_char("Your preparations are not quite complete.\r\n", ch);
-    return;
+    struct affected_type *next;
+    struct affected_type *aff;
+
+    for (aff = ch->affected; aff; aff = next)
+    {
+      next = aff->next;
+
+      if (aff->type == SKILL_CAMP)
+      {
+        break;
+      }
+    }
+	
+  	if (aff)
+  	{
+  		char buf[100];
+  		int i = 0;
+  		int j = 0;
+      
+      i = aff->duration;
+
+      i = i*100;
+
+      j = get_property("camp.timer", 9.00);
+
+      i = (int) (i/j);
+
+	    if (i > 80)
+	      send_to_char("You have just begun your preparations.\r\n", ch);
+  	  else
+	    if (i > 60)
+	      send_to_char("Your preparations are not quite complete.\r\n", ch);
+	    else
+	    if (i > 40)
+	      send_to_char("Your camping preparations are halfway complete.\r\n", ch);
+	    else
+	    if (i > 20)
+	      send_to_char("Your camping preparations should soon be finished.\r\n", ch);
+	    else
+	      send_to_char("You should finish your preparations anytime now!\r\n", ch);
+	  }
+	  else
+	  {
+      send_to_char("Your preparations are not quite complete!\r\n", ch);
+	  }
+	  return;
   }
+  
   if (!RACE_PUNDEAD(ch))
   {
     send_to_char("You start setting up camp...\r\n", ch);
