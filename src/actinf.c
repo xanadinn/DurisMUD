@@ -2056,6 +2056,20 @@ void display_room_auras(P_char ch, int room_no)
     strcat(buffer, "&+wAn &+yunnatural&+w silence fills this area.&n\r\n");
     send_to_char(buffer, ch);
   }
+  
+  if(IS_SET(world[ch->in_room].room_flags, MAGIC_LIGHT))
+  {
+    buffer[0] = 0;
+    strcat(buffer, "&+wA &+Wbright light&n&+w fills this area.&n\r\n");
+    send_to_char(buffer, ch);
+  }
+  
+  if(IS_SET(world[ch->in_room].room_flags, MAGIC_DARK))
+  {
+    buffer[0] = 0;
+    strcat(buffer, "&+LAn unnatural darkness fills this area.&n\r\n");
+    send_to_char(buffer, ch);
+  }
 }
 
 void new_look(P_char ch, char *argument, int cmd, int room_no)
