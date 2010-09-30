@@ -1395,6 +1395,7 @@ void spell_life_bolt(int, P_char, char *, int, P_char, P_obj);
 void spell_enervation(int, P_char, char *, int, P_char, P_obj);
 void spell_restore_spirit(int, P_char, char *, int, P_char, P_obj);
 void spell_repair_one_item(int, P_char, char *, int, P_char, P_obj);
+int get_spell_component(P_char, int, int);
 
 
 /* smagic.c */

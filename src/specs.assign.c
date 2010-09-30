@@ -1502,6 +1502,7 @@ void assign_objects(void)
   obj_index[real_object0(70571)].func.obj = ljs_armor;
   obj_index[real_object0(70572)].func.obj = dragon_skull_helm;
   obj_index[real_object0(99447)].func.obj = nightcrawler_dagger;
+  obj_index[real_object0(66419)].func.obj = rightous_blade;
 
   /* mobs */
   mob_index[real_mobile0(70535)].func.mob = long_john_silver_shout;

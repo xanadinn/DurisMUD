@@ -6933,7 +6933,7 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
       return FALSE;
 
     if (type == WALL_OF_STONE ||
-	type == WALL_OF_BONES)
+	      type == WALL_OF_BONES)
       dam = GET_DAMROLL(ch);
     else if (type == WATCHING_WALL &&
              illusionist &&
@@ -7303,10 +7303,33 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
   case WATCHING_WALL:
   case WALL_OF_IRON:
   case WALL_OF_STONE:
-  case WALL_OF_BONES:
     act("Oof! You bump into $p...", TRUE, ch, obj, 0, TO_CHAR);
     act("Oof! $n bumps into $p...", TRUE, ch, obj, 0, TO_NOTVICT);
     return TRUE;
+  case WALL_OF_BONES:
+    if (obj->value[2] < 10) /* Hackich assumption that if strength < 10 it's a thin dragonscale sheath */
+	  {
+	    if (obj->value[2] <= 1)
+	    {
+  	    act("You bump into $p, destroying it in the process!", TRUE, ch, obj, 0, TO_CHAR);
+        act("$n bumps into $p, destroying it in the process!", TRUE, ch, obj, 0, TO_NOTVICT);
+        // level 70 ensures that its dispelled..
+        spell_dispel_magic(70, ch, NULL, SPELL_TYPE_SPELL, 0, obj);
+	    }
+	    else
+	    {
+  	    act("You bump into $p, visibly weakening it!", TRUE, ch, obj, 0, TO_CHAR);
+        act("$n bumps into $p, visibly weakening it!", TRUE, ch, obj, 0, TO_NOTVICT);
+        obj->value[2] -= 1;
+	    }
+    }
+	  else  /* a "normal" wall of bones */
+	  {
+  	  act("Oof! You bump into $p...", TRUE, ch, obj, 0, TO_CHAR);
+      act("Oof! $n bumps into $p...", TRUE, ch, obj, 0, TO_NOTVICT);
+	  }
+	  return TRUE;
+    
   default:
     logit(LOG_DEBUG, "Wrong value[3] set in wall.");
     send_to_char("Serious screw-up on wall! Tell a god.\n", ch);
@@ -14236,3 +14259,54 @@ void soul_taking_check(P_char ch, P_char tch)
   }
 }
 
+int rightous_blade(P_obj obj, P_char ch, int cmd, char *arg)
+{
+  if( !ch )
+    return FALSE;
+
+  if (cmd != CMD_MELEE_HIT)
+    return FALSE;
+
+  P_char victim = (P_char) arg;
+
+  if( victim && !number(0, 30) )
+  {
+    if(!affected_by_spell(ch, SPELL_VIRTUE))
+    {
+	    if((IS_EVIL(ch) && !IS_EVIL(victim)) ||
+        (IS_GOOD(ch) && !IS_GOOD(victim)) )
+	    {
+        act("&+wA &+Wbright &+Wpu&+wl&+Ws&+wa&+Wt&+wi&+Wng &n&+Cg&+Wlo&+Cw&n&+w surrounds $q&+w, and after short while it spreads over whole $n's &+wbody!", FALSE, ch, obj, victim, TO_ROOM);
+        act("&+wA &+Wbright &+Cg&+Wlo&+Ww&n&+w surrounds your $q&+w, and then it spreads over all of you!", FALSE, ch, obj, victim, TO_CHAR);
+		    spell_virtue(50, ch, 0, SPELL_TYPE_SPELL, ch, 0);
+        return FALSE;
+	    }
+    }
+    
+    if (number(0, 3))
+	  {
+      act("$n&+W's weapon briefly glows and vibrates upon striking $N&+W...", FALSE, ch, obj, victim, TO_ROOM);
+      act("$n&+W's weapon briefly glows and vibrates upon striking you...", FALSE, ch, obj, victim, TO_VICT);
+      act("&+WYour $q&+W briefly glows and vibrates as it strikes $N&+W...", FALSE, ch, obj, victim, TO_CHAR);
+	    spell_life_bolt(60, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+      return FALSE;
+    }
+	  else
+	  {
+      act("$n&+W's weapon glows &+Rred&n&+W and vibrates upon striking $N&+W...", FALSE, ch, obj, victim, TO_ROOM);
+      act("$n&+W's weapon glows &+Rred&n&+W and vibrates upon striking you&+W...", FALSE, ch, obj, victim, TO_VICT);
+      act("&+WYour $q&+W glows &+Rred&n&+W and vibrates as it strikes $N&+W...", FALSE, ch, obj, victim, TO_CHAR);
+
+	  	if (IS_UNDEAD(victim))
+	  	  spell_destroy_undead(50, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+	  	else
+	      for (int i = 1 + GET_LEVEL(ch)/17; i && !affected_by_spell(victim, SPELL_DISPEL_LIFEFORCE); i--)
+	      {
+	        spell_dispel_lifeforce(50, ch, 0, SPELL_TYPE_SPELL, victim, 0);
+	      }
+	    return FALSE;
+	  }
+  }
+
+  return FALSE;
+}

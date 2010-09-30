@@ -25,6 +25,7 @@
 #include "specs.prototypes.h"
 #include "map.h"
 #include "disguise.h"
+#include "necromancy.h"
 
 /*
    external variables
@@ -1124,34 +1125,125 @@ void cast_wall_of_force(int level, P_char ch, char *arg, int type,
   }
 }
 
+#define DRAGONSCALE_VNUM 392
+
 void cast_wall_of_bones(int level, P_char ch, char *arg, int type,
                         P_char tar_ch, P_obj tar_obj)
 {
   char     buf1[MAX_STRING_LENGTH], buf2[MAX_STRING_LENGTH],
-    Gbuf4[MAX_STRING_LENGTH];
+           Gbuf4[MAX_STRING_LENGTH], Gbuf5[MAX_STRING_LENGTH];
   int      var = 0;
+  int      clevel = 0;
+  int      scales = 0;
+  P_obj    corpse = NULL;
+  P_obj    obj_in_corpse, next_obj;
+  
 
-  one_argument(arg, Gbuf4);
+  arg = one_argument(arg, Gbuf4);
   var = dir_from_keyword(Gbuf4);
-
-  if (!exit_wallable(ch->in_room, var, ch))
+  
+  if (var != -1)
   {
-    return;
+    if (EXIT(ch, var))
+      scales = get_spell_component(ch, DRAGONSCALE_VNUM, 4);
+    else
+    {
+      send_to_char("You see no exit in that direction!\r\n", ch);
+      return;
+    }
+      
+  } 
+  else
+  {
+    tar_obj = get_obj_in_list_vis(ch, Gbuf4, world[ch->in_room].contents);
+    
+    if (tar_obj && tar_obj->type == ITEM_CORPSE)
+    {
+      corpse = tar_obj;
+	
+      clevel = corpse->value[CORPSE_LEVEL];
+     
+      if (IS_SET(corpse->value[CORPSE_FLAGS], PC_CORPSE) && (clevel < 0))
+        clevel = -clevel;
+
+      if (clevel > (level + 4) &&
+        !IS_TRUSTED(ch) &&
+        (level < 49))
+      {
+        act("You are not powerful enough to transform that corpse!", FALSE, ch, 0, 0, TO_CHAR);
+        return;
+      }
+	
+	    if (clevel < 46)
+      {
+  	    act("This spell requires the corpse of a more powerful being!", FALSE, ch, 0, 0, TO_CHAR);
+        return;
+      }
+      
+      arg = one_argument(arg, Gbuf5);
+      var = dir_from_keyword(Gbuf5);
+    }
   }
 
-  if (create_walls
+  
+  if(!corpse && !scales)
+  {
+    send_to_char("You need some flesh and bones to transform!\nAt the very last, even some dragonscale would suffice.\n", ch);
+    act("&+L$n's&+L spell fizzles and dies.\n", TRUE, ch, 0, 0, TO_ROOM);
+    return;
+  }
+  
+  if (!exit_wallable(ch->in_room, var, ch))
+  {
+    send_to_char("You cannot block that direction.\n", ch);
+    act("&+L$n's&+L spell fizzles and dies.\n", TRUE, ch, 0, 0, TO_ROOM);
+	return;
+  }
+
+  
+  if (corpse && create_walls
       (ch->in_room, var, ch, level, WALL_OF_BONES, level, 1800,
        "&+La wall of &+wbones&n",
        "&+LA large wall of &+wbones&+L is here to the %s.&n", 0))
   {
+
     SET_BIT(EXIT(ch, var)->exit_info, EX_BREAKABLE);
     SET_BIT(VIRTUAL_EXIT
             ((world[ch->in_room].dir_option[var])->to_room,
              rev_dir[var])->exit_info, EX_BREAKABLE);
 
-    sprintf(buf1, "&+LA pile of bones magically assembles to the %s!&n\r\n",
-            dirs[var]);
+    sprintf(buf1, "&+LInfused by a powerful magic, %s &+Lmagically transforms into a pile of bones, blocking the %s!&n\r\n",
+	        corpse->short_description, dirs[var]);
     sprintf(buf2, "&+LA pile of bones magicaly assembles to the %s!&n\r\n",
+            dirs[rev_dir[var]]);
+
+    send_to_room(buf1, ch->in_room);
+    send_to_room(buf2, (world[ch->in_room].dir_option[var])->to_room);
+	
+    for (obj_in_corpse = corpse->contains; obj_in_corpse; obj_in_corpse = next_obj)
+    {
+        next_obj = obj_in_corpse->next_content;
+        obj_from_obj(obj_in_corpse);
+        obj_to_room(obj_in_corpse, ch->in_room);
+    }
+
+	extract_obj(corpse, TRUE);
+
+  }
+  else if (scales && create_walls
+      (ch->in_room, var, ch, level, WALL_OF_BONES, scales, 1000,
+       "&+La thin wall of &+gscales&n",
+       "&+LA thin wall of &+gscales&+L is here to the %s.&n", 0))
+  {
+
+    SET_BIT(EXIT(ch, var)->exit_info, EX_BREAKABLE);
+    SET_BIT(VIRTUAL_EXIT
+            ((world[ch->in_room].dir_option[var])->to_room,
+             rev_dir[var])->exit_info, EX_BREAKABLE);
+
+    sprintf(buf1, "&+LInfused by powerful sorcery, some &+gdragonscales &+Lmagically transform into a delicate yet solid curtain, blocking exit to the %s!&n\r\n",
+            dirs[var]);
+    sprintf(buf2, "&+LA thin &+gdragonscale&+L curtain magicaly assembles to the %s!&n\r\n",
             dirs[rev_dir[var]]);
 
     send_to_room(buf1, ch->in_room);
