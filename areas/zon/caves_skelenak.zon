@@ -1,6 +1,6 @@
 #40
 &+LCaves of &+gMt. Skelenak&n~
-4152 2 0 20 30 1
+4153 2 0 20 30 1
 *
 * Zone edited with durisEdit v2.99de
 *
@@ -81,6 +81,7 @@ O 0 4018 1 4067 100 0 0 0          * some gold coins
 O 0 4020 1 4107 100 0 0 0          * a skeletal corpse
 P 1 4010 2 4020 100 0 0 0          *   a double-bladed battleaxe
 P 1 4021 1 4020 100 0 0 0          *   a small silver disc
+O 0 4027 1 4110 100 0 0 0          * a large rock
 *
 M 0 4014 20 4002 100 0 0 0         * a kobold
 M 0 4014 20 4003 100 0 0 0         * a kobold
@@ -144,7 +145,8 @@ M 0 4008 4 4047 100 0 0 0          * a large orc
 M 0 4008 4 4048 100 0 0 0          * a large orc
 M 0 4008 4 4048 100 0 0 0          * a large orc
 M 0 4009 1 4049 100 0 0 0          * the orc chief
-E 1 4006 5 16 100 0 0 0            *   a huge club
+E 1 4025 1 14 100 0 0 0            *   an engraved bracelet of human bones
+E 1 4006 5 16 100 0 0 0            *   a huge club of bleached tighbone
 M 0 4013 3 4055 100 0 0 0          * a primitive human warrior
 G 1 398 9999 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 4013 3 4056 100 0 0 0          * a primitive human warrior
@@ -191,7 +193,7 @@ M 0 4037 1 4118 100 0 0 0          * a seven-headed cryohydra
 M 0 4034 1 4119 100 0 0 0          * a nine-headed pyrohydra
 G 1 4017 1 0 100 0 0 0             *    a glowing amber bracelet
 G 1 4016 1 0 100 0 0 0             *    a polished silver bracelet
-G 1 4024 1 0 100 0 0 0             *    a pile of platinum&m
+G 1 4024 1 0 100 0 0 0             *    a pile of platinum
 M 0 4002 2 4121 100 0 0 0          * a large green snake
 M 0 4002 2 4121 100 0 0 0          * a large green snake
 M 0 4003 2 4122 100 0 0 0          * a large green snake
@@ -210,5 +212,7 @@ M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
 M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
 M 0 94739 12 4144 100 0 0 0        * (mob type not in this .mob file)
 M 0 53609 1 4149 100 0 0 0         * (mob type not in this .mob file)
+M 0 4038 1 4153 100 0 0 0          * a blind monk
+E 1 4026 1 12 100 0 0 0            *   a flowing white cape
 *
 S

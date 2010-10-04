@@ -76,3 +76,132 @@ Goortok looks at you with playful interest.
 ~
 G I 4023
 S
+#4038
+M
+greetings hello hi~
+&+C'&+WGreetings to you, traveller. It's a pleasure for me.
+&+W it's not often that anyone visits me in this solace.&+C'
+~
+M
+solace rock~
+&+C'&+WThis place is my home now. Here I learn to live without eyes.
+&+W And once day, when I consider myself ready, I shall continue my
+&+W quest against the evil tyrrany.&+C'
+~
+M
+tyrrany warlord quest~
+&+C'&+WYears ago, I have sworn an oath to fight with evil tyrannies
+&+W of the world. Since then I travelled the realms, doing what
+&+W I could to fulfull the oath. Unfortunately, an evil warlod
+&+W has caught me, and instead of slaying me like he should do,
+&+W he has chosen to taunt me by removing my sight, and then he
+&+W let me go free.
+
+&+W So here I am now, training to make up for the lost sight,
+&+W and once ready I will go and overthrown him.&+C'
+~
+M
+eyes blind eye~
+&+C'&+WSo you have noticed? Insteed I am now pretty blind, due to
+&+W an unfortunate accident that happened during my quest.
+&+W Still, I hope one day I shall finish the quest.&+C'
+~
+M
+help~
+&+C'&+WSo, you wish to help me somehow? Was that an insult?
+&+W Do you think I am uncapable of taking care of myself?
+
+&+W And if you really want to help, and not to taunt me,
+&+W there are several ways in which you could be useful.
+&+W If you are still interested, just ask me for a task.
+
+&+W Or you could just bring me some glass eyes, for me
+&+W to fill those empty sockets.&+C'
+~
+M
+task~
+&+C'&+WYou do not need to be a demigod to fight with tyrranies.
+&+W You can do it on a smaller scale, and still bring good
+&+W to these war-ridden lands.
+
+&+W Have you wondered why I chosen this place for my solace?
+&+W It's because of my neighbours. Evil orcs and goblins,
+&+W threatening the good people of nearby lands.
+&+W Finish the reign of their leaders, and their tribes
+&+W should disperse, letting the people live in peace.
+
+&+W And do not forget to bring me proofs of their demise&+C'
+~
+M
+glass eyeball eyeballs~
+&+C'&+WMhm, false eyeballs, I'd give much to be able to put
+&+W something like that into my empty sockets. It would
+&+W make people no longer fear me as much, or so I hope.
+&+W they could be made of glass, or of marble.
+&+W Or other materials. I am sure you can come up with something.&+C'
+~
+Q
+&+W'Very well! Now I am sure those goblins and orcs will
+&+W think twice before raiding nearby villages again!
+
+&+W As for your next task - dragons are often a powerful
+&+W tool in hands of evil tyrrans. You should learn how to
+&+W deal with them. Bring me items from the treasure hoard
+&+W of the great pyrohydra that lives deep below this mount.&+C'
+~
+R I 4030
+G I 4005
+G I 4025
+Q
+&+C'&+WYou did it! You fought your first real evil overlord!
+&+W Now, do not let the pride fool you. He was a tough one, but
+&+W the realm is filled with many much more powerful tyrrans.
+&+W Some employ the help of mighty allies, like trolls and dragons.
+&+W You have fought dragons already - now show it to me that you
+&+W can tackle the trollkind too. For your next task,
+&+W bring me a proof of the death of the king of swamp trolls.&+C'
+~
+R I 4029
+G I 26438
+Q
+&+C'&+WA new eye for me, excellent! It's marble, and it
+&+W feels pleasant to touch. I hope it looks good too.&+C'
+~
+R C 100000
+G I 16071
+Q
+&+C'&+WA new glass eye! And it seems to be of an ancient
+&+W elven origin. Very well, here's your reward.&+C'
+~
+R C 150000
+G I 20604
+Q
+&+C'&+WIncredible! You are really a promising tyrran-slayer.
+
+&+W As for your next task - do you consider yourself strong?
+&+W If so, you could go and fight the evil warlord that lives
+&+W deep below the elven lands. Once you done, bring me his
+&+W shield as a proof of your deeds.
+
+&+W But beware!
+&+W This task is much more dangerous than previous ones were!&+C'
+~
+R I 4028
+G I 4016
+G I 4017
+Q
+&+C'&+WThis sphere... it still has a strong trollish smell around it.
+&+W And it's engraved with personal seal of the troll king. Well done!
+&+W As a token gift, please accept this belt. It should help you in your
+&+W quest, as I believe my quest has become yours now!
+
+&+W I have no more tasks for you. You have proven yourself to be an able
+&+W and capable fighter. Go into the wild world. Look around. Ask people.
+&+W And if you see an evil tyrrany, do your best to overthrow it.&+C'
+~
+R I 4031
+G I 26013
+D
+&+YAfter saying that, the blind monk bids you farewell and walks off, never turning back.
+~
+S

@@ -16,17 +16,17 @@ a ring made of &+Gsnake skin&n~
 &+gA tiny ring made from snake skin lies here.&N~
 ~
 9 47 3 0 7 0 4096 33554433 0 0 0
-0 20 0 2 0 0 0 0
-0 0 100
+5 20 0 2 0 0 0 0
+0 5000 100
 E
 ring snake~
 The ring is made up of the skin of an old snake, it does not look like
 it would fit a finger well.
 ~
 A
-13 5
+13 8
 A
-5 4
+5 8
 #4003
 robe red flowing~
 &+ra flowing red robe&+w~
@@ -62,7 +62,7 @@ scepter bronze~
 a bronze scepter lies on the ground here.~
 ~
 5 20 3 0 7 0 0 8193 0 4173708804 0
-10 1 4 7 0 0 0 0
+10 2 5 7 0 0 0 0
 10 1 100
 E
 scepter bronze~
@@ -73,21 +73,22 @@ A
 A
 19 2
 #4006
-club huge~
-a huge club~
-A large wooden club lays on the ground here.~
+club huge tigh bone tighbone bleached~
+&+Wa huge club of bleached tighbone~
+A large tigh bone lays on the ground here.~
 ~
-5 6 3 8 7 0 0 8193 0 4173708804 0
-10 1 4 0 0 0 0 0
-10 1 100
+5 10 4 8 7 0 0 8193 0 4173708804 0
+10 1 10 0 0 0 0 0
+10 10000 100
 E
-club huge~
-This is a very large club formed from an oak tree branch.
+club huge tigh tighbone bone bleached~
+&+WThis is a bleached tigh bone of some large humanoid - ogre maybe - formed
+&+Winto a handy club.
 ~
 A
-1 1
+1 5
 A
-19 2
+19 3
 #4007
 potion purple~
 &+ma purple potion&+w~
@@ -133,16 +134,16 @@ axe battleaxe double~
 &+Wa double-bladed battleaxe lies on the ground here.~
 ~
 5 16 3 8 7 0 1024 8193 66 87572571 0
-1 1 4 3 0 0 0 0
-8 500 100
+1 2 6 3 0 0 0 0
+8 5000 100
 E
 axe battleaxe double~
 This is a long axe with a wood shaft and a double blade at its top.
 ~
 A
-19 1
+19 2
 A
-18 1
+18 2
 #4011
 table long~
 a long table~
@@ -233,9 +234,14 @@ bracelet amber~
 &+ya &+Yg&+yl&+Yo&+Ww&+Yi&+yn&+Yg &+Ya&+ym&+Wb&+ye&+Yr&+y bracelet~
 &+yA &+Wglowing &+Yamber&+y bracelet lies on the ground here.~
 ~
-9 5 3 3 7 0 128 4097 64 0 0
+9 5 3 3 7 0 0 4097 64 0 0
 6 11 24 3 0 0 0 0
 2 50 100
+E
+bracelet amber~
+A bracelet made of polished amber. In dark area, it seems
+ to be emiting a faint yellowish glow.
+~
 A
 1 7
 A
@@ -248,6 +254,10 @@ A small pile of gold lies on scattered about on the ground here.~
 20 24 1 0 7 0 0 1 0 0 0
 0 0 10 0 0 0 0 0
 5 1 100
+E
+gold coins~
+&+YA pile of gold coins.
+~
 #4019
 gold coins~
 gold coins~
@@ -256,6 +266,10 @@ A huge pile of gold coins is stacked in the middle of the room here.~
 20 24 1 0 7 0 0 1 0 0 0
 0 0 200 200 0 0 0 0
 2 1 100
+E
+gold coins~
+&+YA pile of gold coins.
+~
 #4020
 corpse skeletal~
 a skeletal corpse~
@@ -278,6 +292,10 @@ A tiny silver disc lies here.~
 12 22 0 0 7 0 4096 1 0 0 0
 0 0 0 0 0 0 0 0
 1 1 100
+E
+silver disc~
+A small silver disc, its origin and purpose unknown.
+~
 #4022
 platinum disc~
 a small platinum disc~
@@ -286,6 +304,10 @@ A tiny platinum disc lies here.~
 12 25 0 0 7 0 4096 1 0 0 0
 0 0 0 0 0 0 0 0
 1 1 100
+E
+platinum disc~
+A small platinum disc, its origins and purpose unknown.
+~
 #4023
 vial strange~
 a strange looking vial~
@@ -294,11 +316,134 @@ A strange looking vial lies here.~
 10 7 2 4 7 0 4096 1 0 0 0
 50 28 75 41 0 0 0 0
 2 10 100
+E
+vial strange~
+A glass vial of unusual shape, filled with a greenish liquid.
+It emits a faint herbal smell.
+~
 #4024
 platinum coins~
-&+Wa pile of platinum&m~
+&+Wa pile of platinum~
 &+WA pile of platinum lies here.&n~
 ~
 20 15 3 0 7 0 0 1 0 0 0
 0 0 0 200 0 0 0 0
-0 0 100
+0 200000 100
+E
+platinum coins~
+&+WA large pile of platinum coins.
+~
+#4025
+bracelet engraved~
+&+can &+We&+wn&+Wg&+wr&+Wa&+wv&+We&+wd &+cbracelet of &+Chu&+cm&+Can &+Wbo&+wn&+Wes~
+A bracelet made from engraved bones has been left here.~
+~
+9 10 3 0 7 0 0 4097 0 0 0
+5 0 0 3 0 0 0 0
+1 5000 100
+E
+bracelet engraved~
+&+cThis bracelet is made from polished and then engraved human bones, linked
+&+ctogether by leather straps. Engravings on bones indicate its owner to be
+&+can orc chieftain of some minor tribe.
+~
+A
+18 1
+A
+1 5
+#4026
+cape flowing white~
+&+Wa flowing white cape~
+&+WA white cape made of flowing silk has been left here.~
+~
+9 3 3 0 9 0 0 1029 64 0 0
+5 0 0 2 0 0 0 0
+1 25000 100
+E
+cape flowing white~
+&+WA white cape of bleached silk, it flows with even the slightest of wind gusts.
+~
+A
+19 2
+A
+26 7
+#4027
+rock~
+a large rock~
+A large rock sits here next to the path.~
+~
+25 11 3 0 7 0 2 0 0 0 0
+4153 555 -1 0 0 0 0 0
+5000 0 100
+E
+rock~
+&+yA large rock protrudes here next to the path, its face rough and uneven.
+&+yWith proper asecuration you think it might be possible to climb it.
+~
+#4028
+arm armplates ogrebone bone spiked~
+&+gsome &+Rs&+rp&+Rik&+re&+Rd &+Bo&+bg&+Br&+be&+Wb&+wo&+Wn&+We &+garm&+cplates~
+&+bSome arm plates made of thick &+Rspiked &+Bogre&+Wbone&+b are here, unused.~
+~
+9 10 3 0 7 0 0 257 64 0 0
+10 0 0 4 1 0 0 0
+4 20000 100
+E
+arm armplates ogrebone bone~
+&+bA pair of thick armplates made of spiked ogrebone carved into
+&+bcircular plates and linked with cured leather straps.
+~
+A
+19 2
+A
+20 -3
+#4029
+leggings frozen icy ice~
+&+Cle&+Wg&+Cg&+Win&+Cgs &+cw&+Bo&+cv&+Be&+cn &+cof &+Cf&+Wr&+Co&+Wz&+Ce&+Wn i&+Yc&+Wy th&+Cr&+Wea&+Cd&+Ws~
+&+CA &+Yglittering &+Cset of leggings flats here in the air, covered with a &+Wwhite mesh of &+Cfrost!~
+~
+9 23 3 0 14 0 0 33 0 0 0
+9 0 0 1 0 0 0 0
+1 100000 100 0 64 2097152 0
+E
+leggings frozen icy ice~
+&+WA set of leggings woven of thin white thread. An aura of cold surrounds them.
+&+WThey glitter as if a bit of sun was entrapped inside.
+~
+A
+19 3
+A
+20 -3
+#4030
+mask copper~
+&+ya &+rc&+yo&+rp&+yp&+re&+yr mask~
+&+yA mask made of linked &+rc&+yo&+rp&+yp&+re&+yr plates sits here, gathering dust.~
+~
+9 21 3 0 7 0 0 262145 0 0 0
+5 0 0 3 0 0 0 0
+5 11000 100
+E
+mask copper~
+&+yA mask made of linked copper plates. It should provide a decent protection
+&+y during any serious combat.
+~
+A
+24 -2
+A
+5 5
+#4031
+belt trollhide hide thick~
+&+ca &+ythick &+cbelt of &+gtroll&+bhide~
+&+cA thick strap of trollish hide sits here, a large copper buckle binding it together.~
+~
+9 14 4 0 9 0 8192 2049 64 0 0
+13 0 0 5 0 0 0 0
+3 60000 100
+E
+belt trollhide hide thick~
+&+gA thick strap of cured troll-hide, joint together by a large copper buckle.
+~
+A
+31 3
+A
+35 3
