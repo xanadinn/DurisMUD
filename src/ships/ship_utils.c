@@ -184,7 +184,7 @@ void everyone_get_out_ship(P_ship ship)
   P_obj    obj, obj_next;
   int      i;
 
-  if (ship->room[i].roomnum == NOWHERE)
+  if (real_room(ship->room[i].roomnum) == NOWHERE)
   {
     debug("error: ship is NOWHERE in everyone_get_out_ship()");
     return;
