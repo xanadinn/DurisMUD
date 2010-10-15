@@ -86,6 +86,19 @@ static bool is_boardable(P_ship ship)
     return true;
 }
 
+static bool has_close_range_weapons(P_ship ship)
+{
+    for (int slot = 0; slot < MAXSLOTS; slot++) 
+    {
+        if (ship->slot[slot].type == SLOT_WEAPON) 
+        {
+            int w_index = ship->slot[slot].index;
+            if(weapon_data[w_index].max_range < 5 && ship->slot[slot].val1 > 0)
+                return true;
+        }
+    }
+    return false;
+}
 
 NPCShipAI::NPCShipAI(P_ship s, P_char ch)
 {
@@ -197,14 +210,16 @@ void NPCShipAI::activity()
 
         if (did_board != ship->target && is_boardable(ship->target))
         { // not maneuvering, just charging target
-            b_attack(); // well, trying to fire on the way
             if (check_boarding_conditions())
             {
                 board_target();
                 break;
             }
-            charge_target(true);
-            break;
+            if (charge_target(true))
+            {
+                b_attack(); // well, trying to fire on the way
+                break;
+            }
         }
 
         if (advanced == 1)
@@ -664,6 +679,9 @@ void NPCShipAI::steal_target_cargo()
 
 bool NPCShipAI::charge_target(bool for_boarding)
 {
+    if (!SHIP_IMMOBILE(ship->target) && has_close_range_weapons(ship->target)) // TODO: add 'smart' charging for advanced ai
+        return false;
+
     new_heading = t_bearing;
     if (for_boarding)
     {

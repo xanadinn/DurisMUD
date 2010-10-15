@@ -836,7 +836,7 @@ char* ShipSlot::get_status_str()
             sprintf(status, "&+RBadly Damaged");
         else if (val2 > 0)
             sprintf(status, "&+WDamaged");
-        else if (val1 == 0)
+        else if (val1 == 0 && type == SLOT_WEAPON)
             sprintf(status, "&+LOut of Ammo");
         else if (timer > 0)
             sprintf(status, "&+Y%-6d", timer);
