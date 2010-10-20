@@ -10901,6 +10901,13 @@ bool check_item_teleport(P_char ch, char *arg, int cmd)
 
   /* different messages for guild doors */
 
+  if ((obj_index[obj->R_num].virtual_number == 48000) &&
+      IS_FIGHTING(ch))
+  {
+    act("&+WYou cannot enter a guildhall in combat!", FLASE, ch, obj, 0, TO_CHAR);
+    return TRUE;
+  }
+
   if(obj_index[obj->R_num].virtual_number == 11007)
     teleport_to(ch, to_room, 1);
   else if(obj_index[obj->R_num].virtual_number == 11008)
