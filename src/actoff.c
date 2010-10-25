@@ -2973,7 +2973,6 @@ void do_maul(P_char ch, char *argument, int cmd)
      !IS_ALIVE(victim))
   {
     send_to_char("Maul who?\n", ch);
-    CharWait(ch, (int)(0.5 * PULSE_VIOLENCE));
     return;
   }
     

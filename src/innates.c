@@ -4385,7 +4385,10 @@ void do_layhand(P_char ch, char *argument, int cmd)
   /* Okay, lets change layhands a bit to make it more charisma based, 
    * like D&D
    */
- 
+
+  if (GET_RACE(ch) ==  RACE_REVENANT)
+    healpoints *= 2;
+
   if (IS_NPC(ch))
   {
     send_to_char("You can't lay hand!\r\n", ch);

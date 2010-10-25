@@ -3970,9 +3970,6 @@ int collar_frost(P_obj obj, P_char ch, int cmd, char *arg)
   if (cmd == CMD_SET_PERIODIC)
     return FALSE;
 
-  return false;
-
-
   if (!obj || !ch)
     return FALSE;
 
@@ -4131,26 +4128,19 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (cmd == CMD_SET_PERIODIC)
     return FALSE;
-  return false;
 
   if (!obj ||
       !ch ||
       !IS_ALIVE(ch) ||
       !(*arg))
-  {
     return FALSE;
-  }
   
   if (!OBJ_WORN(obj))
-  {
     return FALSE;
-  }
   
   if (ch->in_room &&
       IS_SET(world[ch->in_room].room_flags, LOCKER))
-  {
     return FALSE;
-  }
   
   if (arg &&
      (cmd == CMD_SAY))
@@ -4162,8 +4152,6 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
         return false;
       }
 
-      CharWait(ch,PULSE_VIOLENCE * 2);
-      
       if (IS_FIGHTING(ch))
       {
         send_to_char(
@@ -4221,8 +4209,7 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
           }
         }
         
-        if (!(firemental) &&
-            can_conjure_lesser_elem(ch, GET_LEVEL(ch)))
+        if (elesize <= 70)
         {
           act("You whisper '&+rFl&+Ram&+res&n' to your $q...&n",
             FALSE, ch, obj, 0, TO_CHAR);
@@ -4236,53 +4223,54 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
           firemental = read_mobile(1100, VIRTUAL);
         }
 
-        if(firemental)
+        if(!firemental ||
+	    firemental == NULL ||
+	    ch->in_room == NOWHERE)
+	{
+	  act("&+LTHERE IS NO FIRE ELEMENTAL, TELL A GOD!!&N", FALSE, ch, obj, obj, TO_CHAR);
+	  return FALSE;
+	}
+	
+        if(IS_SET(world[ch->in_room].room_flags, SINGLE_FILE))
         {
-        
-          if(IS_SET(world[ch->in_room].room_flags, SINGLE_FILE))
-          {
-            send_to_char("&+RThe elemental failed to arrive. This area is too narrow.\r\n", ch);
-            return false;
-          }
-          
-          char_to_room(firemental, ch->in_room, 0);
-
-          act("&nYou feel slightly drained as your $q channels magical energy.&n",
-            FALSE, ch, obj, obj, TO_CHAR);
-
-          firemental->player.level = 45 + number(-5, 0);
-
-          sum = dice(GET_LEVEL(firemental) * 4, 8) + (GET_LEVEL(firemental) * 3);
- 
-          if (IS_SET(firemental->specials.act, ACT_MEMORY))
-          {
-            clearMemory(firemental);
-          }
-          
-          if (!IS_SET(firemental->specials.affected_by, AFF_INFRAVISION))
-          {
-            SET_BIT(firemental->specials.affected_by, AFF_INFRAVISION);
-          }
-        
-          remove_plushit_bits(firemental);
-          GET_MAX_HIT(firemental) = GET_HIT(firemental) = firemental->points.base_hit = sum;
-          firemental->points.base_hitroll = firemental->points.hitroll = GET_LEVEL(firemental) / 3;
-          firemental->points.base_damroll = firemental->points.damroll = GET_LEVEL(firemental) / 3;
-          MonkSetSpecialDie(firemental);
-          GET_EXP(firemental) = 0;
-          balance_affects(firemental);
-          setup_pet(firemental, ch, 1500, PET_NOCASH);
-          add_follower(firemental, ch);
-          obj->timer[0] = curr_time;
-          return TRUE;
+          send_to_char("&+RThe elemental failed to arrive. This area is too narrow.\r\n", ch);
+          return false;
         }
-
+          
+        char_to_room(firemental, ch->in_room, 0);
+        CharWait(ch, PULSE_VIOLENCE * 2);
+        act("&nYou feel slightly drained as your $q channels magical energy.&n",
+            FALSE, ch, obj, obj, TO_CHAR);
+        GET_SIZE(firemental) = SIZE_MEDIUM;
+	firemental->player.m_class = CLASS_WARRIOR;
+	justice_witness(ch, NULL, CRIME_SUMMON);
+	firemental->player.level = 45 + number(-5, 0);
+        sum = dice(GET_LEVEL(firemental) * 4, 8) + (GET_LEVEL(firemental) * 3);
+        if (IS_SET(firemental->specials.act, ACT_MEMORY))
+          clearMemory(firemental);
+        if (!IS_SET(firemental->specials.affected_by, AFF_INFRAVISION))
+          SET_BIT(firemental->specials.affected_by, AFF_INFRAVISION);
+        remove_plushit_bits(firemental);
+        GET_MAX_HIT(firemental) = GET_HIT(firemental) = firemental->points.base_hit = sum;
+        firemental->points.base_hitroll = firemental->points.hitroll = GET_LEVEL(firemental) / 3;
+        firemental->points.base_damroll = firemental->points.damroll = GET_LEVEL(firemental) / 3;
+        MonkSetSpecialDie(firemental);
+        GET_EXP(firemental) = 0;
+        balance_affects(firemental);
+        setup_pet(firemental, ch, 1500, PET_NOCASH);
+        add_follower(firemental, ch);
+        obj->timer[0] = curr_time;
+        return TRUE;
+      }
+      else
+      {
         act("&+rOnly a small gust of &+Rhot &+rair fills the room.&n",
           FALSE, ch, obj, obj, TO_CHAR);
         act("&+rOnly a small gust of &+Rhot &+rair fills the room.&n",
           FALSE, ch, obj, obj, TO_ROOM);
         act("&nYou feel slightly drained as your $q fails to channel magical energy.&n",
           FALSE, ch, obj, obj, TO_CHAR);
+        CharWait(ch, PULSE_VIOLENCE * 2);
       }
     }
   }
