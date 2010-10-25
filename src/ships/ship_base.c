@@ -901,10 +901,12 @@ void reset_ship(P_ship ship, bool clear_slots)
     ship->mainsail = SHIPTYPE_MAX_SAIL(ship->m_class);
     ship->repair = SHIPTYPE_HULL_WEIGHT(ship->m_class);
 
+    obj_from_room(ship->panel);
     name_ship(ship->name, ship);
     clear_ship_layout(ship);
     set_ship_layout(ship, ship->m_class);
     set_ship_physical_layout(ship);
+    obj_to_room(ship->panel, real_room0(ship->bridge));
 
     ship->timer[T_UNDOCK] = 0; 
     ship->timer[T_MANEUVER] = 0; 
