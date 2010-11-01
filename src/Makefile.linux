@@ -69,7 +69,8 @@ OBJS	=  \
 	bard.o \
   beh_magic.o \
 	boards.o \
-	comm.o \
+	buildings.o \
+        comm.o \
 	common.o \
 	condition.o \
 	constant.o \
@@ -126,7 +127,8 @@ OBJS	=  \
 	nq.o \
 	objconv.o \
 	objmisc.o \
-	period.list.o \
+	outposts.o \
+        period.list.o \
 	prompt.o \
 	properties.o \
   psionics.o \

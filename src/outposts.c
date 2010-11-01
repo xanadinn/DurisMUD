@@ -1246,5 +1246,17 @@ int outpost_generate_portals(Building *building)
   return 1;
 }
 
+int check_castle_walls(int from, int to)
+{
+  if ((world[to].sector_type == SECT_CASTLE_WALL &&
+       world[from].sector_type != SECT_CASTLE_WALL &&
+       world[from].sector_type != SECT_CASTLE) ||
+      (world[from].sector_type == SECT_CASTLE_WALL && 
+       (world[to].sector_type != SECT_CASTLE &&
+	world[to].sector_type != SECT_CASTLE_WALL)))
+    return TRUE;
+  else
+    return FALSE;
+}
 #endif
 
