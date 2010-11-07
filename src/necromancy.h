@@ -55,6 +55,9 @@
 
 void spell_corpseform(int, P_char, char *, int, P_char, P_obj);
 void event_corpseform_wearoff(P_char, P_char, P_obj, void *);
+void check_saved_corpse(P_char);
+void event_saved_corpse(P_char ch, P_char vict, P_obj obj, void *data);
+void create_saved_corpse(P_obj obj, P_char mob);
 
 #endif // __NECROMANCY_H__
 

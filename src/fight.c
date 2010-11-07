@@ -2433,6 +2433,8 @@ void die(P_char ch, P_char killer)
         }
       }
 
+      check_saved_corpse(ch);
+
       ClearCharEvents(ch);
       ch->specials.conditions[DISEASE_TYPE] = 0;
       ch->specials.conditions[POISON_TYPE] = 0;

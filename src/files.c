@@ -1184,7 +1184,8 @@ void writeCorpse(P_obj corpse)
 
   sprintf(Gbuf1, "%s/Corpses/", SAVE_DIR);
 
-  strcpy(Gbuf2, corpse->action_description);
+  if (corpse->action_description)
+    strcpy(Gbuf2, corpse->action_description);
 
   for (buf = Gbuf2; *buf; buf++)
     *buf = LOWER(*buf);

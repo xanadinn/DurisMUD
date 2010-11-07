@@ -632,6 +632,7 @@ void raise_undead(int level, P_char ch, P_char victim, P_obj obj,
            (IS_PC(ch) ? GET_NAME(ch) :
             ch->player.short_descr), world[ch->in_room].number);
     corpselog = TRUE;
+    create_saved_corpse(obj, undead);
   }
 
   /* move objects in corpse to undead's inventory */
@@ -1076,6 +1077,7 @@ void spell_call_titan(int level, P_char ch, char *arg, int type, P_char victim, 
            (IS_PC(ch) ? GET_NAME(ch) : ch->player.short_descr),
            world[ch->in_room].number);
     corpselog = TRUE;
+    create_saved_corpse(obj, mob);
   }
 
   if (obj->contains)
@@ -1139,6 +1141,60 @@ void spell_call_titan(int level, P_char ch, char *arg, int type, P_char victim, 
       add_event(event_pet_death, (duration+1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }
   }
+}
+
+struct SavedCorpseData
+{
+  P_obj corpse;
+};
+
+void check_saved_corpse(P_char ch)
+{
+  P_nevent e = NULL;
+  P_obj corpse = NULL;
+
+  if (!ch)
+    return;
+
+  if (e = get_scheduled(ch, event_saved_corpse))
+  {
+    SavedCorpseData *data = (SavedCorpseData*) e->data;
+    corpse = data->corpse;
+  }
+  
+  if (corpse && corpse->loc.room == real_room(40))
+    extract_obj(corpse, TRUE);
+}
+
+void event_saved_corpse(P_char ch, P_char vict, P_obj obj, void *data)
+{
+  if (!ch || !data)
+    return;
+
+  SavedCorpseData *savedCorpseData = (SavedCorpseData*) data;
+
+  add_event(event_saved_corpse, 1000, ch, 0, 0, 0, savedCorpseData, sizeof(SavedCorpseData));
+}
+
+void create_saved_corpse(P_obj obj, P_char mob)
+{
+  char buff[MAX_STRING_LENGTH];
+  if (!obj || !mob)
+    return;
+
+  if(!IS_SET(obj->value[CORPSE_FLAGS], PC_CORPSE))
+    return;
+
+  P_obj savecorpse = clone_obj(obj);
+  clone_container_obj(savecorpse, obj);
+  sprintf(buff, "%s %s", savecorpse->name, "_savecorpse_");
+  savecorpse->name = str_dup(buff);
+  savecorpse->value[CORPSE_SAVEID] = time(NULL);
+  obj_to_room(savecorpse, real_room(40));
+  affect_from_obj(savecorpse, TAG_OBJ_DECAY);
+  SavedCorpseData savedCorpseData;
+  savedCorpseData.corpse = savecorpse;
+  add_event(event_saved_corpse, 0, mob, NULL, NULL, 0, &savedCorpseData, sizeof(SavedCorpseData));
 }
 
 void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
@@ -1318,6 +1374,7 @@ void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char vi
            (IS_PC(ch) ? GET_NAME(ch) : ch->player.short_descr),
            world[ch->in_room].number);
     corpselog = TRUE;
+    create_saved_corpse(obj, mob);
   }
 
   if (obj->contains)
@@ -1326,9 +1383,11 @@ void spell_create_dracolich(int level, P_char ch, char *arg, int type, P_char vi
          obj_in_corpse = next_obj)
     {
       if (corpselog)
-        logit(LOG_CORPSE, "%s raised with eq: [%d] %s", obj->short_description, 
+      {
+	logit(LOG_CORPSE, "%s raised with eq: [%d] %s", obj->short_description, 
               obj_index[obj_in_corpse->R_num].virtual_number,
               obj_in_corpse->name);
+      }
       next_obj = obj_in_corpse->next_content;
       obj_from_obj(obj_in_corpse);
       obj_to_char(obj_in_corpse, mob);
@@ -1552,6 +1611,7 @@ void create_golem(int level, P_char ch, P_char victim, P_obj obj,
   {
     for (obj_in_corpse = obj->contains; obj_in_corpse; obj_in_corpse = next_obj)
     {
+      create_saved_corpse(obj, mob);
       if (corpselog)
         logit(LOG_CORPSE, "%s raised with eq: [%d] %s",
               obj->short_description,
@@ -1763,6 +1823,7 @@ void spell_call_avatar(int level, P_char ch, char *arg, int type,
            (IS_PC(ch) ? GET_NAME(ch) : ch->player.short_descr),
            world[ch->in_room].number);
     corpselog = TRUE;
+    create_saved_corpse(obj, mob);
   }
 
   if (obj->contains)
@@ -1991,6 +2052,7 @@ void spell_create_greater_dracolich(int level, P_char ch, char *arg, int type,
            (IS_PC(ch) ? GET_NAME(ch) : ch->player.short_descr),
            world[ch->in_room].number);
     corpselog = TRUE;
+    create_saved_corpse(obj, mob);
   }
 
   if (obj->contains)

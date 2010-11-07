@@ -7553,7 +7553,11 @@ struct obj_data *clone_obj(P_obj obj)
   }
   if (obj->action_description)
   {
-    ocopy->action_description = str_dup(obj->action_description);
+    if (IS_SET(obj->str_mask, STRUNG_DESC3))
+    {
+      ocopy->action_description = str_dup(obj->action_description);
+      SET_BIT(ocopy->str_mask, STRUNG_DESC3);
+    }
   }
 
   for (i = 0; i <= NUMB_OBJ_VALS; i++)
@@ -9788,8 +9792,8 @@ void do_tranquilize(P_char ch, char *argument, int cmd)
 /* Storage command:
  * Item needs to be a type of ITEM_CONTAINER or ITEM_STORAGE
  * storage new <item vnum> - loads a new object setup to store through boots in room.
- * storage delete <item vnum> - deletes a storage object and all contents within.
- * storage remove <item vnum> - deletes a storage object and drops all contents to room.
+ * storage delete <item name> - deletes a storage object and all contents within.
+ * storage remove <item name> - deletes a storage object and drops all contents to room.
  */
 
 void do_storage(P_char ch, char *arg, int cmd)
@@ -9824,7 +9828,6 @@ void do_storage(P_char ch, char *arg, int cmd)
       {
         REMOVE_BIT(s_obj->wear_flags, ITEM_TAKE);
       }
-// Add code here to remove this object from being loaded in the .zon file
       obj_to_room(s_obj, ch->in_room);
       writeSavedItem(s_obj);
       send_to_char("This object now loads here without being in a .zon file.  Please remove it from the .zon file if necessessary to prevent double loading and confusion.\n", ch);
