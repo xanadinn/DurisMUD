@@ -1649,6 +1649,9 @@ bool check_mob_retaliate(P_char ch, P_char tar_char, int spl)
       if (number(1, 150) > (GET_LEVEL(tch) + STAT_INDEX(GET_C_INT(tch))))
         continue;
 
+      // if doom is being targeted, no need to have everyone retaliate in room
+      if (spl == SPELL_CDOOM && tar_char && tar_char != tch)
+	continue;
       /*
          justice hook:
 

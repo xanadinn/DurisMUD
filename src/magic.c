@@ -17300,13 +17300,14 @@ void event_cdoom(P_char victim, P_char ch, P_obj obj, void *data)
     cast_as_damage_area(ch, spell_single_cdoom_wave, cDoomData->level, victim,
                       get_property("spell.area.minChance.creepingDoom", 50),
                       get_property("spell.area.chanceStep.creepingDoom", 20));
+    add_event(event_cdoom, PULSE_VIOLENCE, ch, 0, NULL, 0, cDoomData, sizeof(CDoomData));
   }
   else
   {
     spell_single_cdoom_wave(cDoomData->level, ch, 0, 0, victim, obj);
+    add_event(event_cdoom, PULSE_VIOLENCE, victim, ch, NULL, 0, cDoomData, sizeof(CDoomData));
   }
 
-  add_event(event_cdoom, PULSE_VIOLENCE, ch, victim, NULL, 0, cDoomData, sizeof(CDoomData));
 }
 
 void spell_cdoom(int level, P_char ch, char *arg, int type, P_char victim,
