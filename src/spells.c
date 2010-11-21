@@ -1562,7 +1562,7 @@ void finish_room_transmute(P_char ch, struct grow_data *data)
      }
    }
 
-   add_event(event_transmute_bye, data->duration, ch, NULL, NULL, 0, &g_data,
+   add_event(event_transmute_bye, data->duration, 0, NULL, NULL, 0, &g_data,
              sizeof(g_data));
 }
 //-------------------------------------------------------------------------------

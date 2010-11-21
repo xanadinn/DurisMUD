@@ -17254,7 +17254,7 @@ struct CDoomData
   int area;
 };
 
-void event_cdoom(P_char victim, P_char ch, P_obj obj, void *data)
+void event_cdoom(P_char ch, P_char victim, P_obj obj, void *data)
 {
   CDoomData *cDoomData = (CDoomData*) data;
 
@@ -17266,7 +17266,7 @@ void event_cdoom(P_char victim, P_char ch, P_obj obj, void *data)
   }
   else
   {
-    ch = victim;
+    //ch = victim;
   }
 
   if(cDoomData->waves == 0)
@@ -17300,13 +17300,15 @@ void event_cdoom(P_char victim, P_char ch, P_obj obj, void *data)
     cast_as_damage_area(ch, spell_single_cdoom_wave, cDoomData->level, victim,
                       get_property("spell.area.minChance.creepingDoom", 50),
                       get_property("spell.area.chanceStep.creepingDoom", 20));
+    add_event(event_cdoom, PULSE_VIOLENCE, ch, 0, NULL, 0, cDoomData, sizeof(CDoomData));
   }
   else
   {
     spell_single_cdoom_wave(cDoomData->level, ch, 0, 0, victim, obj);
+    if (IS_ALIVE(victim))
+      add_event(event_cdoom, PULSE_VIOLENCE, ch, victim, NULL, 0, cDoomData, sizeof(CDoomData));
   }
 
-  add_event(event_cdoom, PULSE_VIOLENCE, ch, victim, NULL, 0, cDoomData, sizeof(CDoomData));
 }
 
 void spell_cdoom(int level, P_char ch, char *arg, int type, P_char victim,
@@ -17343,7 +17345,7 @@ void spell_cdoom(int level, P_char ch, char *arg, int type, P_char victim,
   act("&+LYou send out a &+mwave of insects&+L!", TRUE, ch, 0, victim, TO_CHAR);
   //engage(ch, victim);
   if (victim)
-    add_event(event_cdoom, 0, victim, ch, NULL, 0, &cDoomData, sizeof(CDoomData));
+    add_event(event_cdoom, 0, ch, victim, NULL, 0, &cDoomData, sizeof(CDoomData));
   else
     add_event(event_cdoom, 0, ch, 0, NULL, 0, &cDoomData, sizeof(CDoomData));
 }

@@ -531,9 +531,13 @@ void halloween_mine_proc(P_char ch)
   do_givepet(ch, buff, CMD_GIVEPET);
 }
 
-#define ZOMBIES_STATUS  0 // game 0=off, 1=on, 2=standby
-#define ZOMBIES_LEVEL   1 // current game level
-#define ZOMBIES_ID      2 // ZombiesGame Class id
+#define ZTIMER_STANDBY  0 // standby timer
+#define ZTIMER_WAVE     1 // wave timer
+
+#define ZOMBIES_ID      0 // ZombiesGame Class id
+#define ZOMBIES_STATUS  1 // game 0=off, 1=on, 2=standby
+#define ZOMBIES_LEVEL   2 // current game level
+#define ZOMBIES_WAVE    3 // wave # of the level
 
 // Zombies game: loads zombies per round until all players are dead. :)
 // Need to setup a zombies class to load zombie vectors per spawner item.
@@ -597,7 +601,7 @@ int zombies_game(P_obj obj, P_char ch, int cmd, char *arg)
     if (zombies < 0)
     {
       debug("Error with zg_count_zombies(): can't find zombie game data");
-      send_to_zone(zone, "Game has ended due to technical difficulties, please notify a god.\r\n");
+      send_to_zone(zone, "&+RGame has ended due to technical difficulties, please notify a god.&n\r\n");
       extract_obj(obj, TRUE);
       return TRUE;
     }
@@ -614,54 +618,93 @@ int zombies_game(P_obj obj, P_char ch, int cmd, char *arg)
 	  //reached end of max level end the game
 	  obj->value[ZOMBIES_LEVEL] = 0;
 	  obj->value[ZOMBIES_STATUS] = 0;
-	  send_to_zone(zone, "You've completed the last level, you're game is complete.  Congrats!\r\n");
+	  send_to_zone(zone, "&+WYou've completed the last level, you're game is complete.  Congrats!&n\r\n");
 	  return TRUE;
         }
         else
 	{
 	  //set game to standby mode to setup the next round
           obj->value[ZOMBIES_STATUS] = 2;
-          obj->timer[0] = time(NULL);
-	  sprintf(buff, "You've completed round %d.  Prepare for the next round.\r\n", obj->value[ZOMBIES_LEVEL]);
+          obj->timer[ZTIMER_STANDBY] = time(NULL);
+	  sprintf(buff, "&+WYou've completed round &+c%d&+W.  Prepare for the next round.&n\r\n", obj->value[ZOMBIES_LEVEL]);
           send_to_zone(zone, buff);
 	  return TRUE;
 	}
       }
       else if (!palive)
       {
-	sprintf(buff, "All players are dead, the game has ended on level %d.\r\n", obj->value[ZOMBIES_LEVEL]);
+	sprintf(buff, "&+WAll players are dead, the game has ended on level &+c%d&+W.&n\r\n", obj->value[ZOMBIES_LEVEL]);
         send_to_zone(zone, buff);
 	obj->value[ZOMBIES_STATUS] = 0;
-	obj->timer[0] = 0;
-        zgame_clear_zombies(obj);
+	obj->timer[ZTIMER_STANDBY] = 0;
+        obj->timer[ZTIMER_WAVE] = 0;
+	zgame_clear_zombies(obj);
 	return TRUE;
       }
       else
       {
-        //load zombies here
-	//need to make this more complex
-	//can have different types of mobs load at higher levels eventually
-	num = number(0, 2);
-	num = BOUNDED(0, num, zgame->zombies_to_load);
-	debug("loading %d zombies", num);
-	for (int i = 0; i < num; i++)
+	// Load zombies!!!
+	if ( (((obj->timer[ZTIMER_WAVE] +
+	  (int)get_property("zombies.game.spawn.delay", 30)) <= time(NULL)) || 
+	    (!zombies && !number(0, 2))) )
 	{
-          if (zgame_load_zombie(obj))
-	    zgame->zombies_to_load--;
-	}
-	return TRUE;
+	  obj->value[ZOMBIES_WAVE]++;
+	  
+	  // Waves handling
+	  int max = 0;
+	  int waves = 0;
+	  int load = 0;
+	  char loadstr[MAX_STRING_LENGTH];
+	  sprintf(loadstr, "%d", (int)get_property("zombies.game.load", 3445));
+	  char single[MAX_STRING_LENGTH];
+          while(loadstr[waves])
+	  {
+	    sprintf(single, "%c", loadstr[waves]);
+	    load = atoi(single);
+	    waves++;
+	    max += load;
+	  }
+	  sprintf(single, "%c", loadstr[obj->value[ZOMBIES_WAVE]-1]);
+	  load = atoi(single);
+	  debug("loadstr: %s, load: %d, max: %d, waves: %d", loadstr, load, max, waves);
+
+	  // eventually change this to leave the remaining
+	  // to redistribute through waves as harder mobs/bosses
+	  if (obj->value[ZOMBIES_WAVE] >= waves)
+	    num = zgame->zombies_to_load;
+	  else
+	    num = MAX(1, (int)(zgame->zombies_to_load * load / max));
+
+	  num = BOUNDED(1, num, zgame->zombies_to_load);
+	  if (num)
+	    obj->timer[ZTIMER_WAVE] = time(NULL);
+	
+	  debug("loading %d zombies", num);
+	  for (int i = 0; i < num; i++)
+	  {
+            if (zgame_load_zombie(obj))
+	      zgame->zombies_to_load--;
+	  }
+	  return TRUE;
+        }
+        return TRUE;
       }
     }
+    int delay = BOUNDED(10, 
+     (int)get_property("zombies.game.standby.delay", 15) * (obj->value[ZOMBIES_LEVEL]/10), 
+       120);
     // if 2 minutes have passed and we are in standby mode begin next round
     if (obj->value[ZOMBIES_STATUS] == 2 &&
-	(obj->timer[0] + BOUNDED(15, (15 * obj->value[ZOMBIES_LEVEL]/2), (60 * 3))) <= time(NULL))
+	(obj->timer[ZTIMER_STANDBY] + delay) <= time(NULL))
     {
-      obj->timer[0] = 0;
+      obj->timer[ZTIMER_STANDBY] = 0;
+      obj->timer[ZTIMER_WAVE] = 0;
       obj->value[ZOMBIES_STATUS] = 1;
       obj->value[ZOMBIES_LEVEL]++;
+      obj->value[ZOMBIES_WAVE] = 0;
       // need to scale the amount of mobs per level here
-      zgame->zombies_to_load = obj->value[ZOMBIES_LEVEL];
-      sprintf(buff, "Round %d is beginning.  Good Luck!\r\n", obj->value[ZOMBIES_LEVEL]);
+      zgame->zombies_to_load = MAX(obj->value[ZOMBIES_LEVEL], ((obj->value[ZOMBIES_LEVEL] + (palive*2))*palive/2));
+      sprintf(buff, "&+WRound &+c%d &+Wis beginning.  Good Luck!&n\r\n", obj->value[ZOMBIES_LEVEL]);
       send_to_zone(zone, buff);
       return TRUE;
     }
@@ -682,15 +725,15 @@ int zombies_game(P_obj obj, P_char ch, int cmd, char *arg)
     {
       //set game to standby mode to setup the next round
       obj->value[ZOMBIES_STATUS] = 2;
-      obj->timer[0] = time(NULL) - (10); // should be 10 seconds to start
-      send_to_zone(zone, "The game is beginning, good luck.\r\n");
+      obj->timer[ZTIMER_STANDBY] = time(NULL) - (10); // should be 10 seconds to start
+      send_to_zone(zone, "&+WThe game has started.&n\r\n");
       return TRUE;
     }
     else if (arg2 && isname(arg2, "end"))
     {
       obj->value[ZOMBIES_STATUS] = 0;
-      obj->timer[0] = 0;
-      sprintf(buff, "The game has been stopped by %s.\r\n", GET_NAME(ch));
+      obj->timer[ZTIMER_STANDBY] = 0;
+      sprintf(buff, "&+WThe game has been stopped by %s.&n\r\n", GET_NAME(ch));
       send_to_zone(zone, buff);
       zgame_clear_zombies(obj);
       return TRUE;
@@ -867,6 +910,10 @@ int zgame_mob_proc(P_char ch, P_char pl, int cmd, char *arg)
   if (cmd == CMD_DEATH)
   {
     ZombieGame* zgame = get_zgame_from_zombie(ch);
+    
+    if (!zgame)
+      return FALSE;
+
     for (int i = 0; i < zgame->zombies.size(); i++)
     {
       if (zgame->zombies[i] == ch)
