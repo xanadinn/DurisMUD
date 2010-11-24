@@ -352,7 +352,8 @@ int magebane_falchion(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch && cmd == CMD_PERIODIC)
   {
     ch = obj->loc.wearing;
-
+    if(GET_STAT(ch) == STAT_SLEEPING)
+      return FALSE;
     LOOP_THRU_PEOPLE(tmp_vict, ch)
       if (IS_MAGE(tmp_vict) && (tmp_vict != ch))
          break;
