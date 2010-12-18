@@ -4852,10 +4852,6 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
      (dam < 1))
         return;
 
-  if((GOOD_RACE(ch) && GOOD_RACE(victim)) ||
-     (EVIL_RACE(ch) && EVIL_RACE(victim)))
-      return;
-
 // Allowing cannibalize through all weapons.
         
   if(IS_AFFECTED3(ch, AFF3_CANNIBALIZE) &&
@@ -5136,7 +5132,9 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
     !IS_AFFECTED4(ch, AFF4_BATTLE_ECSTASY) &&
     IS_AFFECTED4(victim, AFF4_HOLY_SACRIFICE) &&
     (flags & RAWDAM_HOLYSAC) &&
-    !affected_by_spell(victim, SPELL_PLAGUE))
+    !affected_by_spell(victim, SPELL_PLAGUE)) &&
+    ((GOOD_RACE(victim) && !GOOD_RACE(ch)) ||
+     (EVIL_RACE(victim) && !EVIL_RACE(ch)))
   {
     sac_gain = dam * get_property("vamping.holySacrifice", 0.050);
 
@@ -5667,6 +5665,12 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
 
     update_pos(victim);
 
+    if (GET_HIT(victim) < 0 && affected_by_spell(ch, TAG_BUILDING))
+    {
+      debug("killed building");
+      new_stat = STAT_DEAD;
+    }
+    
     if (new_stat == STAT_DEAD)
     {
       room = ch->in_room;
