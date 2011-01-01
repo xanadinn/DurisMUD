@@ -91,7 +91,7 @@ saves_data_type saves_data[] = {
 
 /*
    new saving throws are given as {max, min} for each class, max applies at
-   level 1, min applies at MAXLVLMORTAL (50 currently), levels in between will
+   level 1, min applies at MAXLVLMORTAL, levels in between will
    have a saving throw somewhere in between.
    JAB
  */
@@ -743,7 +743,7 @@ void say_spell(P_char ch, int si)
     return;
   }
 
-// This for allows players who hear a spell beging casted the opportunity to notch.
+// This for allows players who hear a spell being casted the opportunity to notch.
   for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
   {
     if(tch->in_room != ch->in_room) // Not in same room.
@@ -955,15 +955,14 @@ bool NewSaves(P_char ch, int save_type, int mod)
   if ((save = find_save(ch, save_type)) == -1)
     return FALSE;               /* error in find_save  */
 
-  /*
+   /*
      save file scale has changed, so need to change meaning of the mods to it.
      For now, we just multiply the mod by 5.
    */
 //  if(GET_LEVEL(ch) > 57)
   //      return TRUE;
-
+  
   save += (ch->specials.apply_saving_throw[save_type] + mod) * 5;
-
 
   /* always 1% chance to fail/save regardless of saving throw  */
   i = (BOUNDED(1, save, 99) < number(1, 100));

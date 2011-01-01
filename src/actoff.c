@@ -5079,7 +5079,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
 
   if(IS_THRIKREEN(ch))
   {
-    percent_chance = (int) (percent_chance * 0.30);
+    percent_chance = (int) (percent_chance * 0.70);
   }
 
   bool bigger_victim = false;

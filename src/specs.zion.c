@@ -504,7 +504,7 @@ void event_zion_dispator(P_char ch, P_char victim, P_obj obj, void *data)
             !affected_by_skill(ch, SKILL_REGENERATE) &&
             !affected_by_spell(ch, SPELL_REGENERATION))
           {
-            send_to_char("&+YThe power of the &+LNine Hells&+y flows forth from the rod, imbuing your body with unholy healing.\r\n", ch);
+            send_to_char("&+YThe power of the &+LNine Hells&+y flows forth from the rod, imbuing your body with the power to regenerate.\r\n", ch);
             spell_regeneration(GET_LEVEL(ch), ch, 0, 0, ch, 0);
           }
           break;
@@ -547,7 +547,7 @@ void event_zion_dispator(P_char ch, P_char victim, P_obj obj, void *data)
             af.location = APPLY_AC;
             affect_to_char(ch, &af);
             act("&+LBands of dark armor burrow into your &+rflesh&+L.&n", FALSE, ch, 0, 0, TO_CHAR);
-            act("&+L$n&+L screams in agony as dark armor burrows into $s &+rflesh&+L, then grins malevolently.&n", FALSE, ch, 0, 0, TO_ROOM);
+            act("&+L$n&+L screams in agony as dark armor burrows into $s &+rflesh&+L, then $e grins malevolently.&n", FALSE, ch, 0, 0, TO_ROOM);
           }
           break;
         default:
@@ -641,10 +641,9 @@ int zion_dispator(P_obj obj, P_char ch, int cmd, char *arg)
     char buff[128];
     sprintf(buff, "&+y$n's $q &+ydeflects the blow, and channels a torrent of magical energy %s!&n", dirs[random_dir]);
 
-    act(buff, TRUE, ch, obj, NULL, TO_ROOM);
-
     if(exit_wallable(ch->in_room, random_dir, ch))
     {
+      act(buff, TRUE, ch, obj, NULL, TO_ROOM);
       sprintf(buff, "%s", dirs[random_dir]);
  // store the direction keyword in a buffer to be passed to cast_wall_of_iron
       cast_wall_of_iron(60, ch, buff, 0, 0, 0);
@@ -765,7 +764,6 @@ void event_zion_netheril(P_char ch, P_char victim, P_obj obj, void *data)
         if (ch->specials.undead_spell_slots[circle] <
             max_spells_in_circle(ch, circle))
          {
-  //debug("circle slot: %d", circle); some zion debug nonsense, can re-enable it if you wish.
           sprintf(buf, "&+LYou feel your %d%s circle power returning to you.\n",
           circle, circle == 1 ? "st" : (circle == 2 ? "nd" : (circle == 3 ? "rd" : "th")));
           send_to_char(buf, ch);

@@ -20532,7 +20532,7 @@ void spell_life_bolt(int level, P_char ch, char *arg, int type,
   struct damage_messages holy_messages = {
   "&+WYou sacrifice part of your lifeforce and send a pure white beam of &+Yholy energy&+W at $N&+W!",
   "&+wYou recoil in pain as $n &+wstretches out $s &+whands and a &+Wpure white&n&+w beam of &+Yholy energy&n&+w hits you dead-on!",
-  "&+w$n stretches out $s hands and a &+Wppure white&n&+w beam of &+Yholy energy&n&+w hits $N &+wdead-on!",
+  "&+w$n stretches out $s hands and a &+Wpure white&n&+w beam of &+Yholy energy&n&+w hits $N &+wdead-on!",
   "&+WYou sacrifice part of your lifeforce and &+Rdisintegrate&n $N &+Wwith a pure white stream of &+Yholy energy&+W!",
   "&+w$n &+Rtears&+W your &+Ysoul&n&+W apart with a pure white stream of &+Yholy energy&+W beaming from $s outstretched hands!",
   "&+w$n stretches out $s hands and &+Rdisintegrates&n $N &+w with a &+Wpure white&n&+w beam of &+Yholy energy&n&+w!",

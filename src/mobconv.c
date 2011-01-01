@@ -596,11 +596,11 @@ int GetFormType(P_char ch)
   case RACE_CENTAUR:
   case RACE_GITHYANKI:
   case RACE_SHADE:
-  case RACE_REVENANT:
   case RACE_MINOTAUR:
   case RACE_HALFELF:
   case RACE_GOBLIN:
   case RACE_HALFORC:
+  case RACE_ELADRIN:
   case RACE_FAERIE:
   case RACE_UNDEAD:
   case RACE_PLICH:
@@ -622,6 +622,8 @@ int GetFormType(P_char ch)
   case RACE_TROLL:
   case RACE_GOLEM:
   case RACE_PRIMATE:
+  case RACE_SGIANT:
+  case RACE_FIRBOLG:
   case RACE_SNOW_OGRE:
     return MSG_MAUL;
     break;
@@ -629,6 +631,7 @@ int GetFormType(P_char ch)
   case RACE_A_ELEMENTAL:
   case RACE_W_ELEMENTAL:
   case RACE_E_ELEMENTAL:
+  case RACE_EFREET:
   case RACE_DEMON:
   case RACE_GIANT:
   case RACE_DEVIL:
@@ -643,6 +646,8 @@ int GetFormType(P_char ch)
   case RACE_REPTILE:
   case RACE_SKELETON:
   case RACE_ZOMBIE:
+  case RACE_REVENANT:
+  case RACE_SPECTRE:
     return MSG_CLAW;
     break;
   case RACE_QUADRUPED:
