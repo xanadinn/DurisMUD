@@ -5681,11 +5681,11 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         return DAM_VICTDEAD;
     }
 
-    if(IS_MINOTAUR(victim) &&
-      (GET_HIT(victim) < GET_MAX_HIT(victim) / 4) &&
-      !affected_by_spell(victim, SKILL_BERSERK) )
+    if(IS_MINOTAUR(victim) && !number(0, 5) &&
+      (GET_HIT(victim) < GET_MAX_HIT(victim) / 6) &&
+      !affected_by_spell(victim, SKILL_BERSERK))
     {
-      berserk(victim, 8 * PULSE_VIOLENCE);
+      berserk(victim, 6 * PULSE_VIOLENCE);
     }
 
     if(GET_CLASS(victim, CLASS_BERSERKER) &&
@@ -7371,10 +7371,9 @@ int leapSucceed(P_char victim, P_char attacker)
     affected_by_spell(victim, SKILL_GAZE))
       return false;
 
-  chance = (GET_LEVEL(victim) / 7) + number(3, 5);
+  chance = (GET_C_AGI(victim) / 7);
   chance -= load_modifier(victim) / 100;
-  chance += (GET_LEVEL(victim) - GET_LEVEL(attacker)) / 5;
-  chance += (GET_C_AGI(victim) / 7);
+  chance += (GET_LEVEL(victim) - GET_LEVEL(attacker)) / 2;
   chance = BOUNDED(1, chance, 25);
 
   if(number(1, 100) > chance)

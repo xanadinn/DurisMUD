@@ -399,7 +399,7 @@ magic pixie drink vial potion~
 ~
 10 7 0 0 7 0 1 16385 64 0 0
 45 64 141 473 0 0 0 0
-0 6943 100
+1 19943 100
 E
 magic pixie drink vial potion~
    &+GThis tiny glass &+Cpotion&+G, called a 'pixie &+Cdrink&+G' sits in a
@@ -1310,11 +1310,11 @@ tempered mithril breastplate breast plate~
 &n&+ma te&+Mmp&N&+mer&+Med &+Cmithril &N&+mbr&+Mea&N&+mst&+Mpl&N&+mate&N~
 &+mA tempered &+Cmithril &+Mbreastplate&N has been left here.~
 ~
-9 18 3 0 11 0 134217728 9 64 0 0
+9 18 3 0 13 0 134217728 9 64 0 0
 20 0 0 5 0 0 0 0
-5 74332 100
+15 1756832 100
 A
-17 -50
+17 -30
 A
 1 4
 #83189
@@ -1322,11 +1322,11 @@ tempered mithril helmet~
 &+Ma te&N&+mmpe&+Mred &+Cmithril &+Mhel&N&+mmet&N~
 &+MA tempered &+Cmithril &+Chelmet has been left here.~
 ~
-9 18 3 0 11 0 134217728 17 64 0 0
+9 18 3 0 13 0 134217728 17 64 0 0
 15 0 0 5 0 0 0 0
-5 70118 100
+5 1170118 100
 A
-17 -30
+17 -10
 A
 1 4
 #83190
@@ -1334,11 +1334,11 @@ tempered mithril arm plates~
 &+Mso&N&+mme te&+Mmp&+Mere&N&+md &+Cmithril &n&+ma&+Mrm &N&+mp&+Mla&N&+mtes&N~
 &+CSome templered &+Cmithril &N&+carm plates have been left here.~
 ~
-9 18 3 0 11 0 134217728 257 64 0 0
+9 18 3 0 13 0 134217728 257 64 0 0
 15 0 0 5 0 0 0 0
-5 75332 100
+5 975332 100
 A
-17 -30
+17 -10
 A
 1 4
 #83191
@@ -1346,11 +1346,11 @@ tempered mithril leg plates~
 &+Mso&N&+mme te&+Mmp&+Mere&N&+md &+Cmithril &n&+mle&+Mg &N&+mp&+Mla&N&+mtes&N~
 &+CSome tempered &+Cmithril &+Cleg plates have been left here.~
 ~
-9 18 3 0 11 0 134217728 33 64 0 0
+9 18 3 0 13 0 134217728 33 64 0 0
 15 0 0 5 0 0 0 0
-5 75339 100
+5 975339 100
 A
-17 -30
+17 -10
 A
 1 4
 #83192
@@ -1358,11 +1358,11 @@ tempered mithril boots~
 &+Mso&N&+mme te&+Mmp&+Mere&N&+md &+Cmithril &n&+mbo&+Mots&N~
 &+CSome tempered &+Cmithril &+Cboots have been left here.~
 ~
-9 18 3 0 11 0 134217728 65 64 0 0
+9 18 3 0 13 0 134217728 65 64 0 0
 15 0 0 5 0 0 0 0
-5 72443 100
+10 1072443 100
 A
-17 -35
+17 -12
 A
 1 4
 #83193
@@ -1372,7 +1372,7 @@ well-balanced mithril longsword sword~
 ~
 5 18 3 0 14 0 0 8193 64 0 0
 5 3 4 0 0 0 0 0
-2 15993 100
+5 25993 100
 A
 18 2
 A
@@ -1384,7 +1384,7 @@ two-handed mithril bastard sword~
 ~
 5 18 3 0 14 0 4194304 8193 64 0 0
 13 4 5 0 0 0 0 0
-4 28000 100
+11 36543 100
 A
 18 4
 A
@@ -4164,7 +4164,7 @@ runed adamantite key~
 &+La runed adamantite key&N~
 &+LA runed adamantite key has been left here.~
 ~
-18 15 3 0 7 0 1 16385 0 0 0
+18 19 3 0 7 0 1 16385 0 0 0
 0 100 0 0 0 0 0 0
 0 0 100
 E
@@ -4195,7 +4195,7 @@ display case~
 ~
 15 7 3 0 7 0 1 0 0 0 0
 20 29 83371 5 0 0 0 0
-0 0 100
+10000 0 100
 E
 display case~
 &+WThis display case sits atop a sturdy &N&+mmithril column&+W.
@@ -4208,7 +4208,7 @@ display case~
 ~
 15 7 3 0 7 0 1 0 0 0 0
 20 29 83371 0 0 0 0 0
-0 0 100
+10000 0 100
 E
 display case~
 &+WThis display case sits atop a sturdy &N&+mmithril column&+W.
@@ -4221,7 +4221,7 @@ display case~
 ~
 15 7 3 0 7 0 1 0 0 0 0
 20 29 83371 0 0 0 0 0
-0 0 100
+10000 0 100
 E
 display case~
 &+WThis display case sits atop a sturdy &N&+mmithril column&+W.
@@ -4232,9 +4232,9 @@ display case~
 &+Wa display case&N~
 &+WA shiny glass display case &N&+msits atop a mithril column.~
 ~
-15 15 3 0 7 0 1 0 0 0 0
+15 7 3 0 7 0 1 0 0 0 0
 20 29 83371 83371 0 0 0 0
-0 0 100
+10000 0 100
 E
 display case~
 &+WThis display case sits atop a sturdy &N&+mmithril column&+W.
@@ -4268,9 +4268,9 @@ marksman's goggles~
 &+Lyet intricate frame of these tightly-worn goggles.
 ~
 A
-18 4
+18 3
 A
-36 5
+36 3
 #83373
 mound platinum coin coins~
 &Na great mound of &+Wplatinum&N~
@@ -4605,8 +4605,8 @@ potion insane strength~
 &+LA &n&+cpotion &+Lof &N&+miN&+MSa&N&+mNe &+YSTReNGTH&N has been left here.~
 ~
 10 7 2 0 7 0 33554433 8404993 64 0 0
-60 175 221 255 0 0 0 0
-0 50443 100
+50 175 221 255 0 0 0 0
+2 60443 100
 E
 potion insane strength~
    &+LThis large &+Wglass &+Lbottle contains a &+Wfizzing &n&+rred liquid&+L.
@@ -4631,7 +4631,7 @@ potion improved vision~
 &+LA &N&+cpotion &+Lof improved &+Cvision &+Lhas been left here.~
 ~
 10 7 2 0 7 0 0 8404993 64 0 0
-60 158 204 0 0 0 0 0
+50 158 204 0 0 0 0 0
 1 21222 100
 E
 potion improved vision~
@@ -4771,7 +4771,7 @@ potion ultimate protection~
 &+LA &N&+cpotion of ulimate protection has been left here.~
 ~
 10 7 2 0 7 0 1 8388609 64 0 0
-60 179 400 174 0 0 0 0
+50 179 400 174 0 0 0 0
 1 75043 100
 E
 potion ultimate protection~
@@ -5072,7 +5072,7 @@ potion minor invisibility~
 ~
 10 7 2 0 7 0 0 8404993 64 0 0
 50 29 0 0 0 0 0 0
-0 1445 100
+1 6445 100
 E
 potion minor invisibility~
    &+LThis &N&+cglass vial&+L contains a thick, black gooey potion.
@@ -5084,7 +5084,7 @@ potion greater invisibility~
 ~
 10 7 2 0 7 0 0 8404993 64 0 0
 50 412 0 0 0 0 0 0
-0 80555 100
+1 60555 100
 E
 potion greater invisibility~
    &+LThis &N&+cglass vial&+L contains a thick, black gooey potion.
@@ -5096,7 +5096,7 @@ potion bloodrage~
 ~
 10 7 2 0 7 0 0 8404993 64 0 0
 51 321 215 0 0 0 0 0
-0 18223 100
+0 22223 100
 E
 potion bloodrage~
    &+LThis tiny &n&+c'potion'&+L is more like a shot.  The vial is very tiny
@@ -5378,7 +5378,7 @@ spiked torque dwarven kind~
 ~
 9 18 3 0 14 0 0 5 64 0 0
 5 0 0 0 0 0 0 0
-0 22333 100 536870912 64 0 0
+3 322333 100 536870912 64 0 0
 E
 spiked torque dwarven kind~
    &+LThis perfect mithril spiked dwarven torque is a thick neckpiece
@@ -5386,9 +5386,9 @@ spiked torque dwarven kind~
 &+Lthe neck and upper nest area, pointed to screw-tips.
 ~
 A
-13 20
+13 10
 A
-31 5
+31 3
 #83440
 spiked bracelet dwarven kind~
 &+La &N&+rs&+Lp&N&+ri&+Lk&N&+re&+Ld &N&+cbracelet&+L of &N&+ydwarven kind&N~
@@ -5396,7 +5396,7 @@ spiked bracelet dwarven kind~
 ~
 9 18 3 0 7 0 0 4097 0 0 0
 5 0 0 0 0 0 0 0
-0 44332 100 536870912 64 0 0
+3 344332 100 536870912 64 0 0
 E
 spiked bracelet dwarven kind~
    &+LThis spiked bracelet contains the inner power of the ancient dwarven
@@ -5404,9 +5404,9 @@ spiked bracelet dwarven kind~
 &+Lby several massive mithril spikes with screw tips.
 ~
 A
-13 20
+13 10
 A
-31 5
+31 3
 #83441
 smooth torque dwarven kind~
 &N&+ma &+Csmooth &N&+ctorque &N&+mof &+ydwarven kind&N~
@@ -5414,7 +5414,7 @@ smooth torque dwarven kind~
 ~
 9 18 3 0 14 0 0 5 66 0 0
 5 0 0 0 0 0 0 0
-0 33333 100 536870912 64 0 0
+3 433239 100 536870912 64 0 0
 E
 smooth torque dwarven kind~
 &+mThis beautiful, polished mithril &+ctorque &+mis polished and &+Wsmooth&+L.
@@ -5422,9 +5422,9 @@ smooth torque dwarven kind~
 &+mages.
 ~
 A
-13 20
+13 10
 A
-35 5
+35 3
 #83442
 smooth bracelet dwarven kind~
 &N&+ma &+Csmooth &N&+cbracelet&+m of &N&+ydwarven kind&N~
@@ -5432,7 +5432,7 @@ smooth bracelet dwarven kind~
 ~
 9 18 3 0 14 0 0 4097 66 0 0
 5 0 0 0 0 0 0 0
-0 33333 100 536870912 64 0 0
+3 433239 100 536870912 64 0 0
 E
 smooth bracelet dwarven kind~
 &+mThis fine, pure mithril bracelet has been polished to an incredible
@@ -5440,9 +5440,9 @@ smooth bracelet dwarven kind~
 &+mvarious dwarven forgers.
 ~
 A
-13 20
+13 10
 A
-35 5
+35 3
 #83443
 huge golden key~
 &na huge &+Ygolden key&N~
@@ -6397,9 +6397,9 @@ potion elemental power _noquest_~
 &+La &+Wpotion &+Lof &+rel&+yem&+ben&+Bt&+gal &+Ypower&N~
 &+LA &+Wpotion &+Lof &N&+rel&+yem&+ben&+Bt&+gal &+Ypower&N has been left here.~
 ~
-10 15 3 0 7 0 33554433 8388609 64 0 0
+10 7 3 0 7 0 1 8388609 64 0 0
 60 267 481 244 0 0 0 0
-0 0 100
+1 225321 100
 E
 potion elemental power _noquest_~
    &+LThis thick potion bottle holds within it a swirling maelstrom of total
@@ -7002,9 +7002,9 @@ potion green brown sludge~
 &+Ga &+gpotion &+Gof &+Ggr&+gee&+Gn and &+ybrown &+gs&+yl&+gu&+yd&+gg&+ye&N~
 &+gA potion of &+Ggreen &+Gand &+ybrown &+ysludge &+gfloats here.~
 ~
-10 15 3 0 7 0 0 8404993 64 0 0
+10 7 3 0 7 0 0 8404993 64 0 0
 50 41 141 104 50 0 0 0
-0 0 100
+0 56255 100
 E
 potion green brown sludge~
    &+gThis 'potion' really is more of a slime-sac that has

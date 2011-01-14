@@ -832,7 +832,7 @@ void spell_restore_spirit(int level, P_char ch, char *arg, int type,
   if(IS_PC(ch) &&
     !(GET_CLASS(ch, CLASS_THEURGIST | CLASS_PALADIN)))
   {
-    send_to_char("&+rLacking the proper training in holy spiritry, you do not utilize the full potential of the spell!\r\n", ch);
+    send_to_char("&+rLacking the proper training in divinity, you do not utilize the full potential of the spell!\r\n", ch);
     dam = (int)(dam*0.80);
   }
   
@@ -877,8 +877,8 @@ void spell_restore_spirit(int level, P_char ch, char *arg, int type,
   {
       if (IS_AFFECTED2(victim, AFF2_SOULSHIELD))
       {
-        send_to_char("&+LYour soulshield protects you from lasting effects of the restore spell!&n\r\n", victim);
-        send_to_char("&+LYour victim is too well protected against holy spiritry - no lingering effects of the restore spell will hold&n\r\n", ch);
+        send_to_char("&+LYour soulshield protects you from lasting effects from the restore spell!&n\r\n", victim);
+        send_to_char("&+LYour victim is too well protected against divine power - no lingering effects of the restore spell will hold...&n\r\n", ch);
         return;
       }
       struct affected_type af;
@@ -893,7 +893,7 @@ void spell_restore_spirit(int level, P_char ch, char *arg, int type,
 
       if (affected_by_spell(victim, SPELL_RESTORE_SPIRIT))
       {
-        send_to_char("&+LThey're already affected by an restore spell - you only prolong and enhance the buzz!", ch);
+        send_to_char("&+LThey're already affected by a restore spell - you only prolong and enhance the buzz!", ch);
         send_to_char("&+LYour buzz is enhanced as another restore spell hits you!", victim);
         affect_join(victim, &af, FALSE, FALSE);
         return;
@@ -988,8 +988,8 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
   {
       if (IS_AFFECTED4(victim, AFF4_NEG_SHIELD))
       {
-        send_to_char("&+LYour negative energy shield protects you from lasting effects of the enervation spell!&n\r\n", victim);
-        send_to_char("&+LYour victim is too well protected against necromancy - no lingering effects of the enervation spell will hold&n\r\n", ch);
+        send_to_char("&+LYour negative energy shield protects you from lasting effects from the enervation spell!&n\r\n", victim);
+        send_to_char("&+LYour victim is too well protected against necromancy - no lingering effects of the enervation spell will hold...&n\r\n", ch);
         return;
       }
       struct affected_type af;
@@ -1004,13 +1004,13 @@ void spell_enervation(int level, P_char ch, char *arg, int type,
 
       if (affected_by_spell(victim, SPELL_ENERVATION))
       {
-        send_to_char("&+LThey're already affected by an enervate spell - you only prolong and enhance the suffering!", ch);
+        send_to_char("&+LThey're already affected by enervation - you only prolong and enhance the suffering!", ch);
         send_to_char("&+LYour suffering is enhanced as another enervation spell hits you!", victim);
         affect_join(victim, &af, FALSE, FALSE);
         return;
       }
 
-      affect_to_char_with_messages(victim, &af, "&+LYour life energy was drained, leaving you a bit shaken.", "&+LYou manage to shake off negative effects of the enervation spell.");
+      affect_to_char_with_messages(victim, &af, "&+LYour life energy was drained, leaving you a bit shaken.", "&+LYou manage to shake off the negative effects of the enervation spell.");
   }
 }
 
@@ -1113,7 +1113,7 @@ void spell_energy_drain(int level, P_char ch, char *arg, int type,
 
   if (IS_AFFECTED4(victim, AFF4_NEG_SHIELD))
   {
-    send_to_char("&+LYour negative energy shield protects you from lasting effects of the energy drain spell!&n\r\n", victim);
+    send_to_char("&+LYour negative energy shield protects you from lasting effects from the energy drain!&n\r\n", victim);
     send_to_char("&+LYour victim is too well protected against necromancy - no lingering effects of the energy drain will hold.&n\r\n", ch);
     return;
   }
@@ -1127,8 +1127,8 @@ void spell_energy_drain(int level, P_char ch, char *arg, int type,
   }
   else if(!saved)
   {
-    send_to_char("&+LAh success! The spell causes a devestating affliction.\r\n", ch);
-    send_to_char("&+LYour energy is twacked! You feel sluggish and stabbing pains start to afflict you...\r\n", victim);
+    send_to_char("&+LYour spell saps the energy from your foe, leaving you invigorated in return.\r\n", ch);
+    send_to_char("&+LYour energy is sapped! You feel sluggish and weak...\r\n", victim);
     struct affected_type af;
     memset(&af, 0, sizeof(af));
     af.type = SPELL_ENERGY_DRAIN;
@@ -1147,6 +1147,7 @@ void spell_energy_drain(int level, P_char ch, char *arg, int type,
 }
 
 // Old edrain below. -Lucrot Jul09
+// Shows exactly why Lucrot shouldn't have been touching code... seriously, nice commenting.
 /*
  * Drain XP, MANA, HP - caster gains HP and MANA
  */
@@ -1338,7 +1339,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
   if(affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
   {
     act("$E is already a &+ywithered prune.&n Enfeebling $M is not possible.", TRUE, ch, 0, victim, TO_CHAR);
-    act("&+LYou cannot possible get more feeble!&n", TRUE, ch, 0, victim, TO_VICT);
+    act("&+LLuckily for you, you cannot possibly get more feeble!&n", TRUE, ch, 0, victim, TO_VICT);
     return;
   }
 
@@ -20531,7 +20532,7 @@ void spell_life_bolt(int level, P_char ch, char *arg, int type,
   struct damage_messages holy_messages = {
   "&+WYou sacrifice part of your lifeforce and send a pure white beam of &+Yholy energy&+W at $N&+W!",
   "&+wYou recoil in pain as $n &+wstretches out $s &+whands and a &+Wpure white&n&+w beam of &+Yholy energy&n&+w hits you dead-on!",
-  "&+w$n stretches out $s hands and a &+Wppure white&n&+w beam of &+Yholy energy&n&+w hits $N &+wdead-on!",
+  "&+w$n stretches out $s hands and a &+Wpure white&n&+w beam of &+Yholy energy&n&+w hits $N &+wdead-on!",
   "&+WYou sacrifice part of your lifeforce and &+Rdisintegrate&n $N &+Wwith a pure white stream of &+Yholy energy&+W!",
   "&+w$n &+Rtears&+W your &+Ysoul&n&+W apart with a pure white stream of &+Yholy energy&+W beaming from $s outstretched hands!",
   "&+w$n stretches out $s hands and &+Rdisintegrates&n $N &+w with a &+Wpure white&n&+w beam of &+Yholy energy&n&+w!",

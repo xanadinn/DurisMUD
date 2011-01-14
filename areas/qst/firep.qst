@@ -15,7 +15,20 @@ dragonscales dragon dragonscale~
 &+M"&+mOf course dragonscales can be wrought into many things...  I'm sure
 &+mI could craft something of worth to you.  Bring me the scales and a suitable
 &+mblank upon which to work.  Perhaps you can find something around these
-&+maccursed halls.&+M"&n
+&+maccursed halls... some gauntlets perhaps...&+M"
+
+&+M"&+mI also have another item in my possession that I cannot work with,
+&+mas the means are not available to me here in this... place.  They are the
+&+mvery essence of the morning..."&n
+~
+M
+create forge items~
+&+mThe man-god looks away for a moment before responding.
+
+&+M"&+mThere are many items in the world that are suitable for crafting,
+&+mhowever at the moment I am bound here, and have limited means to work
+&+mwith.  Perhaps you can acquire some dragonscales from somewhere nearby
+&+mfor me to work with.&+M"
 ~
 Q
 &+LThe master artisan takes the scales and quickly moves to the forge where
@@ -35,7 +48,7 @@ Q
 &+min Winterhaven.&+M"&n
 ~
 R I 88320
-R I 55271
+R I 55270
 G I 88322
 G I 88323
 S

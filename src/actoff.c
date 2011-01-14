@@ -4259,11 +4259,11 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
      GET_STAT(victim) <= STAT_SLEEPING)
       dam = MAX(40, dam);
   
-  strdex = (double)(((GET_C_DEX(ch) + GET_C_STR(ch)) / 24) * strdex_multiplier); 
-  final_damage = (double)(((1 + GET_LEVEL(ch)) / 56) *
+  strdex = (double)(((GET_C_DEX(ch) + GET_C_STR(ch)) / 24.0) * strdex_multiplier); 
+  final_damage = (double)(((1.0 + GET_LEVEL(ch)) / 56.0) *
                            strdex * 
                            final_multiplier * 
-                           skil / 100); 
+                           skil / 100.0); 
   
   if(weapon->value[0] != WEAPON_SHORTSWORD)
     dam = (double)(dam * final_damage); 
@@ -5079,7 +5079,7 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
 
   if(IS_THRIKREEN(ch))
   {
-    percent_chance = (int) (percent_chance * 0.30);
+    percent_chance = (int) (percent_chance * 0.70);
   }
 
   bool bigger_victim = false;

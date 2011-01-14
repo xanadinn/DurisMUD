@@ -292,7 +292,6 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_GIANT:
   case RACE_E_ELEMENTAL:
   case RACE_I_ELEMENTAL:
-  case RACE_EFREET:
   case RACE_CONSTRUCT:
     if (!number(0, 1))
       i = 11;
@@ -311,6 +310,7 @@ void kick_messages(P_char ch, P_char victim, bool hit,
   case RACE_F_ELEMENTAL:
   case RACE_A_ELEMENTAL:
   case RACE_W_ELEMENTAL:
+  case RACE_EFREET:
     i = 12;
     break;
   case RACE_FLYING_ANIMAL:

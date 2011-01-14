@@ -5877,7 +5877,7 @@ void do_ascend(P_char ch, char *arg, int cmd)
         "the holy army, from this day on you will be an "
         "&+WAvenger&n of divine law.\n\n", ch);
       sprintf(buffer,
-        "You hear a loud voice exclaiming, '&+WWelcome my childe, you shall\n"
+        "You hear a loud voice exclaiming, '&+WWelcome my child, you shall\n"
         "&+Wnow be the avenging hand of %s,\n"
         "&+Wthe %s &+Wfor his enemies!'",
         get_god_name(ch),
@@ -5918,7 +5918,7 @@ void do_ascend(P_char ch, char *arg, int cmd)
         "the holy army, from this day on you will be an "
         "&+WAvenger&n of divine law.\n\n", ch);
     sprintf(buffer,
-        "You hear a loud voice exclaiming, '&+WWelcome my childe, you shall\n"
+        "You hear a loud voice exclaiming, '&+WWelcome my child, you shall\n"
         "&+Wnow be the avenging hand of %s,\n"
         "&+Wthe %s &+Wfor his enemies!'",
         get_god_name(ch),

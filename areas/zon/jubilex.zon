@@ -215,9 +215,9 @@ O 0 87547 1 87589 100 0 0 0        * a wobbling portal
 O 0 87516 1 87623 100 0 0 0        * a large green switch
 O 0 87518 1 87624 100 0 0 0        * a cleansed lake of slime
 O 0 87528 1 87627 50 0 0 0         * the spiked circles of bloodletting
-O 0 87539 1 87627 10 0 0 0         * the mask of stone form
+O 0 87539 1 87627 25 0 0 0         * the mask of stone form
 O 0 87540 1 87627 33 0 0 0         * the slippers of rot and decay
-O 0 87564 1 87627 15 0 0 0         * the quiver of the ages
+O 0 87564 1 87627 25 0 0 0         * the quiver of the ages
 O 0 360 1 87627 100 0 0 0          * (object type not in this .obj file)
 O 0 67274 1 87627 100 0 0 0        * (object type not in this .obj file)
 O 0 55336 1 87627 100 0 0 0        * (object type not in this .obj file)
@@ -257,16 +257,16 @@ M 0 87599 3 87536 100 0 0 0        * a small demon
 M 0 87514 2 87538 100 0 0 0        * an uncaptured imp
 M 0 87604 5 87538 100 0 0 0        * a cyan pudding
 M 0 87507 5 87539 100 0 0 0        * a shambling mound
-M 0 87581 1 87539 15 0 0 0         * Niev the Mad
+M 0 87581 1 87539 40 0 0 0         * Niev the Mad
 E 1 87562 1 9 100 0 0 0            *   the gloves of madness
 G 1 87609 1 0 100 0 0 0            *    a ferret leash
 M 0 87514 2 87541 100 0 0 0        * an uncaptured imp
 M 0 87511 8 87542 100 0 0 0        * a molten bubble
 M 0 87507 5 87544 100 0 0 0        * a shambling mound
 M 0 87552 5 87544 100 0 0 0        * the small brown mold
-M 0 87589 1 87544 10 0 0 0         * Zu, the God of Harmony
+M 0 87589 1 87544 33 0 0 0         * Zu, the God of Harmony
 E 1 87569 1 13 100 0 0 0           *   the twined rope of balance
-M 0 87594 1 87544 10 0 0 0         * Lokpan, the Plotter
+M 0 87594 1 87544 33 0 0 0         * Lokpan, the Plotter
 E 1 87583 1 16 100 0 0 0           *   the otherworldly dagger of Lokpan
 G 1 87582 1 0 100 0 0 0            *    the mass of darkness that was Lokpan
 M 0 87505 5 87546 100 0 0 0        * a blob of red jelly
@@ -305,7 +305,7 @@ M 0 87509 1 87565 100 0 0 0        * a gargantuan worm formed from acid
 G 1 87521 1 0 100 0 0 0            *    the heart of spitting acid
 G 1 87572 1 0 100 0 0 0            *    a tiny wriggling worm of acid
 M 0 87502 4 87566 100 0 0 0        * a jailkeeper imp
-M 0 87565 1 87569 10 0 0 0         * Alxorno, the tiefling guardian
+M 0 87565 1 87569 20 0 0 0         * Alxorno, the tiefling guardian
 E 1 87597 1 3 100 0 0 0            *   the necklet of tiefling superiority
 M 0 87591 1 87570 100 0 0 0        * Zorobabi, the conjurer
 E 1 87574 1 1 100 0 0 0            *   Zorobabi's circular stone ring
@@ -351,7 +351,7 @@ F 1 87523 1 87587 100 0 0 0        * the frozen legend Jonxin (following)
 F 1 87524 1 87587 100 0 0 0        * the frozen legend Dorn (following)
 F 1 87525 1 87587 100 0 0 0        * the frozen legend Tibor (following)
 F 1 87526 1 87587 100 0 0 0        * the frozen legend Lanom (following)
-M 0 87518 1 87588 10 0 0 0         * a depressed looking troll raider
+M 0 87518 1 87588 25 0 0 0         * a depressed looking troll raider
 M 0 87528 1 87589 100 0 0 0        * the pink elephant carrying luggage
 M 0 87529 1 87590 100 0 0 0        * Clone, of the almighty Zooox
 E 1 87511 1 1 100 0 0 0            *   a blue ring shooting sparks
@@ -402,7 +402,7 @@ M 0 87584 6 87619 100 0 0 0        * an overseer hezrou
 M 0 87583 8 87620 100 0 0 0        * a dark-skinned hezrou
 M 0 87584 6 87621 100 0 0 0        * an overseer hezrou
 M 0 87540 1 87623 100 0 0 0        * a massive balor
-E 1 87538 1 14 20 0 0 0            *   the power infused bracelet of dark-mithril
+E 1 87538 1 14 25 0 0 0            *   the power infused bracelet of dark-mithril
 F 1 87541 2 87623 100 0 0 0        * a small mane (following)
 F 1 87541 2 87623 100 0 0 0        * a small mane (following)
 M 0 87543 1 87625 100 0 0 0        * Jubilex, the demon prince
@@ -453,7 +453,7 @@ M 0 87570 1 87645 33 0 0 0         * the great wildmage
 G 1 87555 1 0 100 0 0 0            *    the head of the lost great wildmage
 M 0 87592 1 87646 33 0 0 0         * Urrsty, the traveler
 E 1 87584 1 12 100 0 0 0           *   the cloak of body control
-M 0 87558 1 87647 10 0 0 0         * one of Bahamut's children
+M 0 87558 1 87647 20 0 0 0         * one of Bahamut's children
 G 1 87573 1 0 100 0 0 0            *    a platinum scale facemask
 M 0 87567 1 87648 33 0 0 0         * the wildmage of creatures
 G 1 87556 1 0 100 0 0 0            *    the head of the lost wildmage
@@ -476,7 +476,7 @@ M 0 87562 8 87654 100 0 0 0        * the rival demon lord
 M 0 87564 1 87654 50 0 0 0         * the extremely powerful seraphim
 E 1 87542 1 1 100 0 0 0            *   a ring of angel feathers
 M 0 87562 8 87654 100 0 0 0        * the rival demon lord
-M 0 87568 1 87654 15 0 0 0         * the wildmage of space and time
+M 0 87568 1 87654 25 0 0 0         * the wildmage of space and time
 G 1 87553 1 0 100 0 0 0            *    the head of the lost wildmage
 M 0 87572 1 87654 100 0 0 0        * Xalandro's nightmare steed
 G 1 87545 1 0 100 0 0 0            *    the saddle of Xalandro's nightmare

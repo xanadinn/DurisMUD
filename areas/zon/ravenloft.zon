@@ -968,10 +968,10 @@ M 0 58300 9 58514 100 0 0 0        * a plague rat
 M 0 58326 5 58514 100 0 0 0        * a wight
 M 0 58324 5 58514 100 0 0 0        * a wraith
 M 0 58322 1 58516 100 0 0 0        * Khyristrix the Barbed Devil
-E 1 58384 1 5 34 0 0 0             *   a suit of wickedly-barbed devil hide
-E 1 58385 1 10 34 0 0 0            *   some barbed sleeves oozing slime
+E 1 58384 1 5 50 0 0 0             *   a suit of wickedly-barbed devil hide
+E 1 58385 1 10 50 0 0 0            *   some barbed sleeves oozing slime
 E 1 58371 18 16 100 0 0 0          *   a poisonous claw
-E 1 58389 1 17 33 0 0 0            *   Pek'Nasisk, the venom lash
+E 1 58389 1 17 50 0 0 0            *   Pek'Nasisk, the venom lash
 M 0 58323 12 58516 100 0 0 0       * a garden larva
 M 0 58323 12 58516 100 0 0 0       * a garden larva
 M 0 58323 12 58516 100 0 0 0       * a garden larva
@@ -1090,17 +1090,17 @@ E 1 58414 19 17 100 0 0 0          *   a sharpened black dagger
 G 1 94336 12 0 100 0 0 0           *    (object type not in this .obj file)
 M 0 58358 1 58544 40 0 0 0         * Yanosh Poha the Servant of Carpathia
 E 1 58387 1 19 100 0 0 0           *   some destruction holo-gogs
-M 0 58357 1 58544 30 0 0 0         * Prucha'shokourung'tagag'onk the Moon Stalker
-E 1 58386 1 16 25 0 0 0            *   Shokurung'otaghe'rakag'onk'rakag, the axe of ill repute
+M 0 58357 1 58544 40 0 0 0         * Prucha'shokourung'tagag'onk the Moon Stalker
+E 1 58386 1 16 75 0 0 0            *   Shokurung'otaghe'rakag'onk'rakag, the axe of ill repute
 G 1 58425 1 0 100 0 0 0            *    an elixir of the moonstalker
-M 0 58334 1 58544 15 0 0 0         * Nicoramus the Troll Stalker
+M 0 58334 1 58544 40 0 0 0         * Nicoramus the Troll Stalker
 E 1 58398 3 16 100 0 0 0           *   a vorpal blade
 E 1 58398 3 17 100 0 0 0           *   a vorpal blade
 E 1 58399 1 21 100 0 0 0           *   a multi-phased fish bone earring
-M 0 58341 1 58544 15 0 0 0         * Basklez the Troll Stalker
+M 0 58341 1 58544 40 0 0 0         * Basklez the Troll Stalker
 E 1 58400 1 16 100 0 0 0           *   a vorpal sword named 'Shimmer'
 E 1 58398 3 17 100 0 0 0           *   a vorpal blade
-M 0 58367 1 58544 20 0 0 0         * the sabbath Wizard
+M 0 58367 1 58544 50 0 0 0         * the sabbath Wizard
 M 0 58386 1 58544 75 0 0 0         * Lord Soth
 E 1 58426 1 16 100 0 0 0           *   the sword of scourging
 F 1 12401 1 58544 100 0 0 0        * (mob type not in this .mob file) (following)

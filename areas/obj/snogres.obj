@@ -17,7 +17,7 @@ A
 A
 19 5
 #87701
-skin skull leggings flayed _noquest_~
+skin skull leggings flayed _noquest_ unique~
 &+ra pair of &+Rskin leggings &+rwith &+Wbleached skull &+rkneepads&N~
 &+RA pair of flayed &+rskin &+Rleggings was discarded here.&N~
 ~
@@ -96,7 +96,7 @@ illithid face lord flesh _noquest_~
 &+Lthe &+mface &+Lof an &+Millithid &+Rlord&n~
 &+MA hideous chunk of flesh lies curled upon the ground here.&N~
 ~
-9 2 3 0 1 0 8200 262145 0 0 0
+9 2 3 0 8 0 8200 262145 0 0 0
 0 0 0 0 0 0 0 0
 2 0 100 536870912 12480 0 0
 E
@@ -169,7 +169,7 @@ entrails woven soul pile~
 &+rthe w&+yov&+me&+rn &+me&+rntra&+yi&+Yls &+rof an &+Yu&+mnf&+ror&+yt&+mu&+rnate &+ms&+yo&+ru&+ml&N~
 &+LA pile of entrails lies here.&N~
 ~
-11 2 3 0 0 0 0 2049 0 0 0
+11 2 3 0 10 0 0 2049 0 0 0
 0 0 0 0 0 0 0 0
 4 0 100 73728 0 0 0
 E
@@ -268,7 +268,7 @@ robe gold _noquest_~
 &+La &+wthreadbare &+Ygold&+L-&+Ytrimmed &+Lblack robe&N~
 &+LA black pile of cloth with some &+Ygold trim &+Llies in a heap here.&N~
 ~
-11 3 3 0 0 0 42056 1025 64 4197888 0
+11 3 3 0 15 0 42056 1025 64 4197888 0
 0 0 0 0 0 0 0 0
 2 0 100 2 0 0 0
 E

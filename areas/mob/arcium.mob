@@ -110,8 +110,8 @@ horse undead~
 &+gch&+Lun&+gks &+Lof &+gflesh&+L.  The horse has only half the normal amount of flesh as a
 &+Lregular horse since its un&+wdead&+L.&n
 ~
-1207959562 0 0 2056 2 0 0 -1000 S
-A 0 1 -1
+134217738 0 0 0 0 0 0 -1000 S
+u 0 1 -1
 25 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -206,7 +206,7 @@ archer undead~
 &+La &+ygiant bow&+L in hand.&n
 ~
 1073743882 0 0 2056 2 0 0 -100 S
-U 0 2 -1
+sk 0 2 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -222,7 +222,7 @@ archer undead~
 &+La &+ygiant bow&+L in hand.&n
 ~
 1073743882 0 0 2056 2 0 0 -100 S
-U 0 2 -1
+sk 0 2 -1
 48 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -266,7 +266,7 @@ royal undead soldier~
 &+wof the dead body.&n
 ~
 1141245960 0 0 2060 2 0 0 -1000 S
-U 0 1 -1
+zo 0 1 -1
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -308,8 +308,8 @@ mercenary undead~
 &+Las if in his prime the man radiates success.  Think twice before challenging
 &+Lthis survivor.&n
 ~
-1107691528 0 0 526348 2 0 0 -1000 S
-U 0 16384 -1
+395272 0 0 524292 0 0 0 -1000 S
+UW 0 16384 -1
 42 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -439,7 +439,7 @@ beggar undead~
 &+Lto the town.  The flesh of the zombie is almost completely gone.  It has
 &+Lslowly been falling off of the dead body.  Some lice falls from his &+ynappy hair&+L.&n
 ~
-1073743886 0 0 34816 2 0 0 -1000 S
+2062 0 0 0 2 0 0 -1000 S
 U 0 0 -1
 36 0 0 1d1+1 1d1+1
 0.0.0.0 0
@@ -788,7 +788,7 @@ royal undead soldier~
 &+wof the dead body.&n
 ~
 1140983818 0 0 2060 2 0 0 -1000 S
-U 0 1 -1
+zo 0 1 -1
 52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1

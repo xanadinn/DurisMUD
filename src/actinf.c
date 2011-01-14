@@ -4738,7 +4738,7 @@ void do_score(P_char ch, char *argument, int cmd)
   if (IS_AFFECTED3(ch, AFF3_INERTIAL_BARRIER))
     strcat(buf, " &+WIner&+Ltia&+Wl-Ba&+Lrri&+Wer&n");
   if (IS_AFFECTED3(ch, AFF3_NON_DETECTION))
-    strcat(buf, " &=LWNon-Detection&n");
+    strcat(buf, " &+LNon-Detection&n");
   if (IS_AFFECTED2(ch, AFF2_ULTRAVISION))
     strcat(buf, " &+MUltravision&n");
   if (IS_AFFECTED(ch, AFF_FARSEE))
@@ -4777,7 +4777,7 @@ void do_score(P_char ch, char *argument, int cmd)
   if (IS_AFFECTED5(ch, AFF5_TITAN_FORM))
      strcat(buf, " &+REno&+yrmou&+Rs Si&+yze&n");
   if (IS_AFFECTED(ch, AFF_SNEAK))
-     strcat(buf, " &=LWSneaking&n");
+     strcat(buf, " &+WSneaking&n");
   if (IS_AFFECTED4(ch, AFF4_EPIC_INCREASE))
     strcat(buf, " &+WBlessing of the Gods&n");
   if (IS_AFFECTED3(ch, AFF3_TOWER_IRON_WILL))

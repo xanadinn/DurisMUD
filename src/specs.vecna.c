@@ -360,7 +360,7 @@ int vecna_stonemist(P_obj obj, P_char ch, int cmd, char *arg)
 	
 	if (affected_by_spell(target, SPELL_STONE_SKIN))
         {
-          send_to_char("&+WA gh&+wostly mi&+Lt flows aro&+wund your &+Wlimbs, a&+ws it dis&+Lsapates you f&+weel more vu&+Wlnerable.&n\r\n", target);
+          send_to_char("&+WA gh&+wostly mi&+Lt flows aro&+wund your &+Wlimbs, a&+ws it dis&+Lsipates you f&+weel more vu&+Wlnerable.&n\r\n", target);
 	  af = get_spell_from_char(target, SPELL_STONE_SKIN);
 	  if (af)
 	  {
@@ -370,7 +370,7 @@ int vecna_stonemist(P_obj obj, P_char ch, int cmd, char *arg)
         }
 	else
 	{
-	  send_to_char("&+WA gh&+wostly mis&+Lt flows int&+wo the are&+Wa and qui&+wckly dis&+Lsapates...&n\r\n", target);
+	  send_to_char("&+WA gh&+wostly mis&+Lt flows int&+wo the are&+Wa and qui&+wckly dis&+Lsipates...&n\r\n", target);
 	}
       }
     }
@@ -380,7 +380,7 @@ int vecna_stonemist(P_obj obj, P_char ch, int cmd, char *arg)
       {
         if (affected_by_spell(target, SPELL_VITALITY))
         {
-          send_to_char("&+WA gh&+wostly mi&+Lt flows aro&+wund your &+Wlimbs, a&+ws it dis&+Lsapates you f&+weel your sp&+Wirit weaken.&n\r\n", target);
+          send_to_char("&+WA gh&+wostly mi&+Lt flows aro&+wund your &+Wlimbs, a&+ws it dis&+Lsipates you f&+weel your sp&+Wirit weaken.&n\r\n", target);
 	  af = get_spell_from_char(target, SPELL_VITALITY);
 	  if (af)
 	  {
@@ -390,7 +390,7 @@ int vecna_stonemist(P_obj obj, P_char ch, int cmd, char *arg)
         }
 	else
 	{
-	  send_to_char("&+WA gh&+wostly mis&+Lt flows int&+wo the are&+Wa and qui&+wckly dis&+Lsapates...&n\r\n", target);
+	  send_to_char("&+WA gh&+wostly mis&+Lt flows int&+wo the are&+Wa and qui&+wckly dis&+Lsipates...&n\r\n", target);
 	}
       }
     }
@@ -1224,7 +1224,7 @@ int vecna_death_mask(P_obj obj, P_char ch, int cmd, char *arg)
       if(!IS_UNDEADRACE(ch) &&
         !number(0, 2))
       {
-        act("&+wYour&n $q &+yoozes &+werosive decaying matter on your skin...",
+        act("&+wYour&n $q &+yoozes &+wcorrosive decaying matter upon your skin...",
           FALSE, ch, obj, victim, TO_CHAR | ACT_NOTTERSE);
         spell_damage(ch, ch, number(16, 80), SPLDAM_ACID, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, 0);
       }
@@ -1235,8 +1235,6 @@ int vecna_death_mask(P_obj obj, P_char ch, int cmd, char *arg)
   return FALSE;
 }
 
-// Lucrot June09
-// Lucrot updated Jan10 - downgraded the damage and affects. The zone was too hard.
 int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
 {
   struct proc_data *data;
@@ -1258,7 +1256,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
   if(cmd != CMD_GOTHIT)
     return false;
     
-  if(!number(0, 50) &&
+  if(!number(0, 40) &&
      !IS_PC(ch)  &&
      !IS_PC_PET(ch))
   {
@@ -1269,9 +1267,9 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       victim->in_room != ch->in_room)
         return false;
         
-    if(!number(0, 32) ||
+    if(!number(0, 25) ||
        (strstr(ch->player.name, "lich") &&
-       !number(0, 19)))
+       !number(0, 15)))
     {
       act("&+LVecna makes his presence known by channeling his decrepit ancient power through&n $n!&n",
         true, ch, 0, 0, TO_ROOM);
@@ -1345,7 +1343,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       bzero(&af, sizeof(af));
 
       af.type = SPELL_DISEASE;
-      af.duration = 5;
+      af.duration = 3;
       af.modifier = (-1 * number(12, 20));
       af.flags = AFFTYPE_NODISPEL;
       
@@ -1377,12 +1375,12 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       af.location = APPLY_CHA;
       affect_to_char(victim, &af);
     
-      af.duration = 4;
+      af.duration = 3;
       af.modifier = 5;
       af.location = APPLY_COMBAT_PULSE;
       affect_to_char(victim, &af);
       
-      af.duration = 4;
+      af.duration = 3;
       af.modifier = 2;
       af.location = APPLY_SPELL_PULSE;
       affect_to_char(victim, &af);
@@ -1407,7 +1405,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       {
         act("$N staggers and shudders!!!&n",
           true, ch, 0, victim, TO_NOTVICT);
-        dam = number(120, 600);
+        dam = number(120, 400);
         spell_damage(ch, victim, dam, SPLDAM_GENERIC, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, 0);
       }
       
@@ -1423,7 +1421,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       act("$n's massive claw shreds $N!&n",
         true, ch, 0, victim, TO_NOTVICT);
         
-      dam = number(600, 800);
+      dam = number(400, 600);
       melee_damage(ch, victim, dam,  PHSDAM_TOUCH | PHSDAM_NOREDUCE | PHSDAM_NOPOSITION, 0);
       CharWait(victim, PULSE_VIOLENCE * 2);
       
@@ -1452,7 +1450,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
     {
       act("You brush up against $N.&n",
         true, ch, 0, victim, TO_CHAR);
-      act("$n &+Lbushes up against you!&n",
+      act("$n &+Lbrushes up against you!&n",
         true, ch, 0, victim, TO_VICT);      
       act("$n &+Lbrushes up against $N!&n",
         true, ch, 0, victim, TO_NOTVICT);
@@ -1495,7 +1493,7 @@ int mob_vecna_procs(P_obj obj, P_char ch, int cmd, char *arg)
       act("$n bears $s large fangs, growls, and leap at $N!&n",
         true, ch, 0, victim, TO_NOTVICT);
 
-      dam = number(200, 400);
+      dam = number(200, 300);
       melee_damage(ch, victim, dam,  PHSDAM_TOUCH | PHSDAM_NOREDUCE | PHSDAM_NOPOSITION, 0);
       
       if(GET_POS(victim) == POS_STANDING &&

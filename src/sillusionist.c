@@ -1002,16 +1002,16 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a nightmare of $M taking a bath!", FALSE, ch, 0,
           victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of you taking a bath!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of you taking a bath!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
       break;
     case RACE_HUMAN:
-      act("You show $N a nightmare of a ogre sitting on $S face!", FALSE, ch,
+      act("You show $N a nightmare of an ogre sitting on $S face!", FALSE, ch,
           0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of a ogre sitting on your face!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of an ogre sitting on your face!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1021,17 +1021,17 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a nightmare of $M getting $S beard cut off!", FALSE,
           ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare with you getting your beard cut off!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare with you getting your beard cut off!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
       break;
     case RACE_HALFLING:
       act
-        ("You show $N a nightmare of $M getting $S hand cought in a cookie jar!",
+        ("You show $N a nightmare of $M getting $S hand caught in a cookie jar!",
          FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare with you getting your hand cought in a cookie jar!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare with you getting your hand caught in a cookie jar!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1040,7 +1040,7 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a nightmare of a little white mouse.", FALSE, ch, 0,
           victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of a little white mouse jumping in front of you!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of a little white mouse jumping in front of you!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1049,7 +1049,7 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a nightmare of $M getting stuffed into a freezer.",
           FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of you getting stuffed into a freezer!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of you getting stuffed into a freezer!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1059,7 +1059,7 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
         ("You show $N a nightmare of a old lady storm giant trying to ride $M.",
          FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of a old lady storm giant trying to mount you!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of a old lady storm giant trying to mount you!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1068,17 +1068,17 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a nightmare of $M getting killed by a bull fighter!",
           FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of you getting killed by a bull fighter!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of you getting killed by a bull fighter!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
       break;
     case RACE_GOBLIN:
     case RACE_GNOME:
-      act("You show $N a nightmare of $M getting steped on by a giant foot!",
+      act("You show $N a nightmare of $M getting stepped upon by a giant foot!",
           FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare with you getting steped on!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare with you getting stepped on!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1086,10 +1086,10 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
     case RACE_PLICH:
     case RACE_PVAMPIRE:
       act
-        ("You show $N a nightmare of $M getting stabed by a wooden stake through the heart!",
+        ("You show $N a nightmare of $M getting stabbed by a wooden stake through the heart!",
          FALSE, ch, 0, victim, TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a nightmare of you getting stab through the heart by a wooden stake!",
+        ("A wave of painful terror overcomes you as $n shows you a nightmare of you getting stabbed through the heart by a wooden stake!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);
@@ -1098,7 +1098,7 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim,
       act("You show $N a horror filled nightmare!", FALSE, ch, 0, victim,
           TO_CHAR);
       act
-        ("A wave of painfull terror overcomes you as $n shows you a horible nightmare!",
+        ("A wave of painful terror overcomes you as $n shows you a horrible nightmare!",
          FALSE, ch, 0, victim, TO_VICT);
       act("$n shows $N! his worst nightmare!", FALSE, ch, 0, victim,
           TO_NOTVICT);

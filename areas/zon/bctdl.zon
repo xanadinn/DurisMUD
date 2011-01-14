@@ -236,8 +236,8 @@ E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 M 0 32433 19 32451 100 0 0 0       * a red abishai guard
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
-M 0 32441 1 32452 40 0 0 0         * a human cleric
-M 0 32442 1 32453 40 0 0 0         * a human mercenary
+M 0 32441 1 32452 50 0 0 0         * a human cleric
+M 0 32442 1 32453 50 0 0 0         * a human mercenary
 M 0 32435 14 32454 100 0 0 0       * a blue abishai guard
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
@@ -245,7 +245,7 @@ M 0 32437 1 32456 100 0 0 0        * a sly goblin thief
 E 1 32449 9 16 100 0 0 0           *   a thin bronze dagger
 G 1 32447 1 0 100 0 0 0            *    a large pile of platinum coins
 G 1 32442 1 0 100 0 0 0            *    a thieves' guild insignia
-M 0 32443 1 32457 35 0 0 0         * a human sorcerer
+M 0 32443 1 32457 50 0 0 0         * a human sorcerer
 M 0 32435 14 32458 100 0 0 0       * a blue abishai guard
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
@@ -288,7 +288,7 @@ G 1 19730 1 0 100 0 0 0            *    (object type not in this .obj file)
 G 1 55282 1 0 100 0 0 0            *    (object type not in this .obj file)
 M 0 32453 1 32469 100 0 0 0        * Yeddikadir, servant of Bel
 E 1 32451 1 3 100 0 0 0            *   the holy symbol of sanctity
-E 1 32420 1 13 70 0 0 0            *   the ceinture of giant strength
+E 1 32420 1 13 75 0 0 0            *   the ceinture of giant strength
 M 0 32454 1 32469 100 0 0 0        * Nalebranc, servant of Bel
 E 1 32432 1 11 100 0 0 0           *   a shield made from Tiamat's scales
 E 1 32427 1 16 100 0 0 0           *   a shard of frozen styx water
@@ -297,21 +297,21 @@ E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 F 1 32435 14 32472 100 0 0 0       * a blue abishai guard (following)
 F 1 32435 14 32472 100 0 0 0       * a blue abishai guard (following)
-F 1 32424 4 32472 100 0 0 0        * a devil (following)
+F 1 32424 4 32472 100 0 0 0        * a blue devil (following)
 M 0 32433 19 32473 100 0 0 0       * a red abishai guard
 F 1 32435 14 32473 100 0 0 0       * a blue abishai guard (following)
 F 1 32435 14 32473 100 0 0 0       * a blue abishai guard (following)
-F 1 32424 4 32473 100 0 0 0        * a devil (following)
+F 1 32424 4 32473 100 0 0 0        * a blue devil (following)
 M 0 32449 1 32474 100 0 0 0        * Dagos, Marshall of the Pit
 E 1 32450 1 6 100 0 0 0            *   the helm of the Pit
 E 1 32433 1 16 100 0 0 0           *   'Baatezu', the sword of power
 G 1 32485 1 0 100 0 0 0            *    a dull obsidian key with fiendish runes
 M 0 32427 1 32474 100 0 0 0        * a mature silver dragon
-G 1 32470 1 0 15 0 0 0             *    the eyes of a bewitched silver dragon
+G 1 32470 1 0 25 0 0 0             *    the eyes of a bewitched silver dragon
 M 0 32423 1 32475 100 0 0 0        * an erinyes devil
 E 1 32430 1 10 100 0 0 0           *   some glowing sleeves made of devil skin
 G 1 32423 1 0 100 0 0 0            *    a white stone key
-G 1 32453 1 0 10 0 0 0             *    a tome of immeasurable knowledge
+G 1 32453 1 0 25 0 0 0             *    a tome of immeasurable knowledge
 M 0 32425 13 32475 100 0 0 0       * a scarred pit fiend
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
@@ -326,19 +326,19 @@ E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 F 1 32435 14 32477 100 0 0 0       * a blue abishai guard (following)
 F 1 32435 14 32477 100 0 0 0       * a blue abishai guard (following)
-F 1 32424 4 32477 100 0 0 0        * a devil (following)
+F 1 32424 4 32477 100 0 0 0        * a blue devil (following)
 M 0 32433 19 32478 100 0 0 0       * a red abishai guard
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 F 1 32435 14 32478 100 0 0 0       * a blue abishai guard (following)
 F 1 32435 14 32478 100 0 0 0       * a blue abishai guard (following)
-F 1 32424 4 32478 100 0 0 0        * a devil (following)
+F 1 32424 4 32478 100 0 0 0        * a blue devil (following)
 M 0 32450 1 32479 100 0 0 0        * Baalzephon, Duke of Hell
 E 1 32487 1 16 100 0 0 0           *   a blackened halberd
 G 1 32426 1 0 100 0 0 0            *    a shiny platinum key
 G 1 32473 1 0 10 0 0 0             *    the head of a tanar'ri warlord
 M 0 32435 14 32479 100 0 0 0       * a blue abishai guard
-M 0 32421 1 32479 100 0 0 0        * assassin of ages
+M 0 32421 1 32479 100 0 0 0        * an assassin of ages
 E 1 32428 1 16 100 0 0 0           *   the dagger of ages
 E 1 32449 9 17 100 0 0 0           *   a thin bronze dagger
 M 0 32425 13 32481 100 0 0 0       * a scarred pit fiend
@@ -356,13 +356,13 @@ G 1 32488 1 0 100 0 0 0            *    a blinding white key
 M 0 32432 1 32486 100 0 0 0        * a black pit fiend
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
-E 1 32429 1 20 40 0 0 0            *   the mask of Avernus
+E 1 32429 1 20 50 0 0 0            *   the mask of Avernus
 M 0 32426 28 32486 100 0 0 0       * a green pit fiend
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 M 0 32451 1 32489 100 0 0 0        * a HUGE chromatic dragon
 G 1 32452 1 0 100 0 0 0            *    a flowing cloak of black silk
-M 0 32452 1 32489 100 0 0 0        * A red pit fiend
+M 0 32452 1 32489 100 0 0 0        * a red pit fiend
 E 1 32474 138 16 100 0 0 0         *   a devilish warsword
 E 1 32474 138 17 100 0 0 0         *   a devilish warsword
 G 1 32489 1 0 100 0 0 0            *    a demonbone key, bearing the insignia of Bel
@@ -400,7 +400,7 @@ G 1 32479 4 0 100 0 0 0            *    a wicked key
 M 0 32434 9 32499 100 0 0 0        * a green abishai guard
 G 1 32479 4 0 100 0 0 0            *    a wicked key
 M 0 32446 1 32500 50 0 0 0         * an eternally tormented succubus
-E 1 32472 1 8 20 0 0 0             *   a pair of shadowseed stone boots
+E 1 32472 1 8 35 0 0 0             *   a pair of shadowseed stone boots
 E 1 32480 1 16 100 0 0 0           *   a runestone dagger
 E 1 32449 9 17 100 0 0 0           *   a thin bronze dagger
 M 0 32447 1 32501 50 0 0 0         * an enraged balor demon

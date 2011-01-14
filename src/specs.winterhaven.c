@@ -3881,11 +3881,11 @@ int damnation_staff(P_obj obj, P_char ch, int cmd, char *arg)
     data = (struct proc_data *) arg;
     vict = data->victim;
 
-    act("&+LYour $q &+mflares &+rbril&+Rli&+rantly &+Las it intercepts &n$n's &+Lattack and &+rsav&+Rag&+rely &+Lstrikes back!&n", TRUE, ch, obj, NULL, TO_CHAR);
+    act("&+LYour $q &+mflares &+rbril&+Rli&+rantly &+Las it intercepts &n$N's &+Lattack and &+rsav&+Rag&+rely &+Lstrikes back!&n", TRUE, ch, obj, NULL, TO_CHAR);
 
     act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las it intercepts &nyour &+Lattack and &+rsav&+Rag&+rely &+Lstrikes back!&n", TRUE, ch, obj, NULL, TO_VICT);
 
-    act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las it intercepts &n$n's &+Lattack and &+rsav&+Rag&+rely &+Lstrikes back!&n", TRUE, ch, obj, NULL, TO_NOTVICT);
+    act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las it intercepts &n$N's &+Lattack and &+rsav&+Rag&+rely &+Lstrikes back!&n", TRUE, ch, obj, NULL, TO_NOTVICT);
 
     switch(number(0,2))
     {
@@ -3959,11 +3959,11 @@ int nuke_damnation(P_obj obj, P_char ch, int cmd, char *arg)
     data = (struct proc_data *) arg;
     vict = data->victim;
 
-    act("&+LYour $q &+mflares &+rbril&+Rli&+rantly &+Las &n$n's &+Lspell is tranformed and deflected!&n", TRUE, ch, obj, NULL, TO_CHAR);
+    act("&+LYour $q &+mflares &+rbril&+Rli&+rantly &+Las &n$N's &+Lspell is tranformed and deflected!&n", TRUE, ch, obj, NULL, TO_CHAR);
 
     act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las your spell is tranformed and deflected back at you!&n", TRUE, ch, obj, NULL, TO_VICT);
 
-    act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las &n$n's &+Lspell is tranformed and deflected!&n", TRUE, ch, obj, NULL, TO_NOTVICT);
+    act("$n's $q &+mflares &+rbril&+Rli&+rantly &+Las &n$N's &+Lspell is tranformed and deflected!&n", TRUE, ch, obj, NULL, TO_NOTVICT);
 
     switch(number(0,1))
     {
@@ -4444,8 +4444,7 @@ int dragon_heart_decay(P_obj obj, P_char ch, int cmd, char *args)
       raise(SIGSEGV);
     }
     corpse->weight = obj->weight;
-    set_obj_affected(corpse, get_property("timer.decay.corpse.npc", 120),
-                     TAG_OBJ_DECAY, 0);
+    set_obj_affected(corpse, 15000, TAG_OBJ_DECAY, 0);
 
     if (OBJ_CARRIED(obj))
     {

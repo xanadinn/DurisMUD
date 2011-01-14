@@ -178,7 +178,7 @@ int torment(P_obj obj, P_char ch, int cmd, char *arg)
     vict &&
     CheckMultiProcTiming(ch))
   {
-    if(!number(0, 49)) // 2%
+    if(!number(0, 25)) // 5%
     {
       act("Your $q glows dark and bites into $N's neck.", FALSE,
           obj->loc.wearing, obj, vict, TO_CHAR);
@@ -188,8 +188,8 @@ int torment(P_obj obj, P_char ch, int cmd, char *arg)
           obj->loc.wearing, obj, vict, TO_NOTVICT);
       save = vict->specials.apply_saving_throw[SAVING_SPELL];
       vict->specials.apply_saving_throw[SAVING_SPELL] += 5;
-      spell_poison(40, ch, 0, SPELL_TYPE_SPELL, vict, 0);
-      spell_blindness(40, ch, 0, SPELL_TYPE_SPELL, vict, 0);
+      spell_poison(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, vict, 0);
+      spell_blindness(GET_LEVEL(ch), ch, 0, SPELL_TYPE_SPELL, vict, 0);
       vict->specials.apply_saving_throw[SAVING_SPELL] = save;
     }
   }
@@ -277,7 +277,7 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
     {
     case 1:                    // FIRE BREATH
       act
-        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+RFire breath&+L fills the area!&N",
+        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+Rfire breath&+L fills the area!&N",
          0, ch, obj, 0, TO_CHAR);
       act
         ("$n &+Lpulses with the power of &+rdragons&+L...&N\n&+L$n&N &+Rbreathes fire&n&+L, filling the surrounding area!&N",
@@ -295,7 +295,7 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
       return TRUE;
     case 2:                    //// FROST BREATH
       act
-        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+BFrost breath&+L fills the area!&N",
+        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+Bfrost breath&+L fills the area!&N",
          0, ch, obj, 0, TO_CHAR);
       act
         ("$n &+Lpulses with the power of &+rdragons&+L...&N\n&+L$n&N &+Bbreathes frost&n&+L, filling the surrounding area!&N",
@@ -313,7 +313,7 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
       return TRUE;
     case 3:                    //GAS BREATH
       act
-        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+gGas breath&+L fills the area!&N",
+        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+ggaseous breath&+L fills the area!&N",
          0, ch, obj, 0, TO_CHAR);
       act
         ("$n &+Lpulses with the power of &+rdragons&+L...&N\n&+L$n&N &+gbreathes gas&n&+L, filling the surrounding area!&N",
@@ -331,7 +331,7 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
       return TRUE;
     case 4:                    //ACID BREATH
       act
-        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+GAcid breath&+L fills the area!&N",
+        ("&+rYour veins pulse with dragon blood...&N\n&+LYour &+Gacid breath&+L fills the area!&N",
          0, ch, obj, 0, TO_CHAR);
       act
         ("$n &+Lpulses with the power of &+rdragons&+L...&N\n&+L$n&N &+Gbreathes acid&n&+L, filling the surrounding area!&N",
@@ -351,13 +351,6 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
     return TRUE;
   }                             // End breath proc
 
-
-/*
-        Start for TAIL PROC
-
-        LOOP_THRU_PEOPLE(tch, ch) {
-*/
-
   if (OBJ_WORN_BY(obj, ch) && vict)
   {
     if (!number(0, 27))
@@ -365,15 +358,10 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
       P_char   tch, tch_next;
 
       act
-        ("$n's $q &+Lsummons forth a &+gDRAGON&N\n&+La &+gDRAGON&+L of the &+Waxe&+L lashes out with its mighty tail!&N",
+        ("$n's $q &+Lsummons forth a visage of a &+gDRAGON&N\n&+LThe &+gdragon&+L visage of the &+Waxe&+L lashes out with its mighty tail!&N",
          TRUE, ch, obj, NULL, TO_ROOM);
-
-
-//act("$n's $q &+Lsummons forth a &+gDRAGON&N\n&+La &+gDRAGON&+L lashes its tail at YOU!&N", TRUE, ch, obj, vict, TO_VICT);
-
-
       act
-        ("Your $q &+Lsummons forth a &+gDRAGON&N\n&+La &+gDRAGON&+L of the &+Waxe&+L lashes out with its mighty tail!&N",
+        ("Your $q &+Lsummons forth a visage of a &+gDRAGON&N\n&+LThe &+gdragon&+L visage of the &+Waxe&+L lashes out with its mighty tail!&N",
          TRUE, ch, obj, vict, TO_CHAR);
 
       for (tch = world[ch->in_room].people; tch; tch = tch_next)
@@ -399,14 +387,7 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
                 FALSE, tch, 0, 0, TO_CHAR);
             act("$n crashes to the ground!", FALSE, tch, 0, 0, TO_ROOM);
             /* don't want to kill them with it, but can mess them up BAD! */
-/*
-   GET_HIT(tch) -= MIN(dice(2, (GET_LEVEL(ch) / 5)) + 5, GET_HIT(tch) + 8);
-   StartRegen(tch, EVENT_HIT_REGEN);
-   update_pos(tch);
- */
-            damage(ch, tch,
-                   MIN(dice(2, (GET_LEVEL(ch) / 5)) + 5, GET_HIT(tch) + 8),
-                   TYPE_UNDEFINED);
+            damage(ch, tch, MIN(dice(2, (GET_LEVEL(ch) / 5)) + 5, GET_HIT(tch) + 8), TYPE_UNDEFINED);
           }
           else
           {
@@ -417,7 +398,6 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
         if (!char_in_list(ch))
           return TRUE;
       }
-
 
     }
 /*
@@ -475,10 +455,6 @@ int dragonkind(P_obj obj, P_char ch, int cmd, char *arg)
       }
       return FALSE;
     }
-
-
-
-
   }
   return (FALSE);
 }
@@ -783,7 +759,7 @@ int flamberge(P_obj obj, P_char ch, int cmd, char *arg)
   if (cmd == 0)
     hummer(obj);
 
-  if (cmd != CMD_MELEE_HIT || !ch || number(0,20))
+  if (cmd != CMD_MELEE_HIT || !ch || number(0, 30))
     return FALSE;
 
   room = ch->in_room;
@@ -822,7 +798,7 @@ int doombringer(P_obj obj, P_char ch, int cmd, char *arg)
     return false;
   }
 
-  if((CheckMultiProcTiming(ch) || !number(0, 1)) &&
+  if((CheckMultiProcTiming(ch) || !number(0, 2)) &&
      (4 >= number(0, 100))) // 4% proc rate.
   {
     act("&+LYour $q blurs as it calls upon the elements of &+Blightning, &N&+rfire, &+Cand ice to strike&N $N.",
@@ -911,7 +887,7 @@ int unholy_avenger_bloodlust(P_obj obj, P_char ch, int cmd, char *arg)
         obj, vict, TO_NOTVICT);
     act("$n's $q turns &+rblood red&N as it slashes into you!", FALSE, ch,
         obj, vict, TO_VICT);
-    spell_damage(ch, vict, 400, SPLDAM_NEGATIVE,
+    spell_damage(ch, vict, 300, SPLDAM_NEGATIVE,
         SPLDAM_NODEFLECT | SPLDAM_NOSHRUG | RAWDAM_NOKILL, &messages);
 
     vamp(ch, dam / 2, (int) (GET_MAX_HIT(ch) * 1.3));
@@ -1257,14 +1233,11 @@ int avernus(P_obj obj, P_char ch, int cmd, char *arg)
 
   vict = (P_char) arg;
   dam = BOUNDED(0, (GET_HIT(vict) + 9), 200);
-/*
-  if (GET_RACE(ch) == RACE_THRIKREEN)
-    dam /= 2;
-*/
+
   if((obj->loc.wearing == ch) &&
      vict &&
      (4 >= number(0, 100)) &&
-     (CheckMultiProcTiming(ch) || !number(0, 1)) &&
+     (CheckMultiProcTiming(ch) || !number(0, 2)) &&
      !IS_UNDEADRACE(vict))
   {
     act("&+LAvernus, the life stealer &N&+Wglows brightly in your hands as it dives into $N.&N",
@@ -1750,11 +1723,11 @@ int githyanki(P_obj obj, P_char ch, int cmd, char *arg)
   if ((obj->loc.wearing == ch) && vict)
   {
 
-    if (!number(0, 50))
+    if (!number(0, 35))
     {
       if (IS_PC(ch))
         obj->value[7]++;
-      if (obj->value[7] > 10)
+      if (obj->value[7] > 20 && !number(0, 4))
       {
         /*
            kiss it goodbye
@@ -1788,10 +1761,10 @@ int githyanki(P_obj obj, P_char ch, int cmd, char *arg)
           act("Your sword releases a blinding flash of white light!", FALSE,
               ch, obj, vict, TO_CHAR);
           act
-            ("Your Silver Sword sings through the air as it lops $N's head off!",
+            ("Your $q sings through the air as it lops $N's head off!",
              FALSE, ch, obj, vict, TO_CHAR);
           act
-            ("$n's Silver Sword sings through the air as it lops $N's head off!",
+            ("$n's $q sings through the air as it lops $N's head off!",
              FALSE, ch, obj, vict, TO_ROOM);
           act
             ("$n's $q glows brightly and you see it coming towards your neck at an alarming rate of speed!",
@@ -1805,6 +1778,14 @@ int githyanki(P_obj obj, P_char ch, int cmd, char *arg)
          */
       case 3:
       case 4:
+         act("&+cYour $q &+Csings &+cas it slashes into $N!", FALSE, ch, obj, vict, TO_CHAR);
+         act("&+cYou feel slightly invigorated!", FALSE, ch, obj, vict, TO_CHAR);
+         act("$n&+c's $q &+Csings &+cas it slashes into $N!", FALSE, ch, obj, vict, TO_NOTVICT);
+         act("$n&+c's $q &+Csings &+cas it slashes into you!", FALSE, ch, obj, vict, TO_VICT);
+         vamp(ch, dam / 3, (int) (GET_MAX_HIT(ch) * 1.3));
+         GET_HIT(vict) -= dam;
+         update_pos(vict);
+         break;
       case 5:
         if (IS_PC(ch) && (temp = read_mobile(19790, VIRTUAL)))
         {
@@ -1817,7 +1798,7 @@ int githyanki(P_obj obj, P_char ch, int cmd, char *arg)
             ("BOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOM!  There is a great clap of thunder!",
              FALSE, temp, obj, 0, TO_ROOM);
           act
-            ("A deadly looking Githyanki Knight slowly fades into exsistance..",
+            ("A deadly looking Githyanki Knight slowly fades into existence..",
              FALSE, temp, obj, 0, TO_ROOM);
           act
             ("$n screams 'I have come to reclaim our Silver Sword for Gith!'",
@@ -2868,7 +2849,7 @@ void barb_proc_dwarven_ancestor(int level, P_char ch, P_char victim)
   mob->base_stats.Dex = 100;
   mob->base_stats.Agi = 100;
 
-  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = (int) (GET_MAX_HIT(ch) * 3);
+  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = (int) (GET_MAX_HIT(ch) * 1.5);
   GET_SIZE(mob) = GET_SIZE(victim);
 
   char_to_room(mob, ch->in_room, -1);
@@ -4338,7 +4319,7 @@ int Einjar(P_obj obj, P_char ch, int cmd, char *arg)
   act("$n blocks $N's attack.", FALSE, ch, 0, vict,
       TO_NOTVICT | ACT_NOTTERSE);
 
-  if (!number(0, 10) && GET_POS(vict) == POS_STANDING &&
+  if (!number(0, 15) && GET_POS(vict) == POS_STANDING &&
       !IS_TRUSTED(ch))
   {
     act("Your bash knocks $N to the ground!", FALSE, ch, 0, vict, TO_CHAR);
