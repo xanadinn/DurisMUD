@@ -1239,6 +1239,7 @@ int outpost_generate_portals(Building *building)
   }
   else
   {
+    debug("building->guild_id: %d", building->guild_id);
     if (Guildhall *gh = Guildhall::find_by_id(building->guild_id))
     {
       if (gh->heartstone_room)
