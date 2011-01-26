@@ -4937,6 +4937,24 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
   struct affected_type aff, *af;
   bool     should_jump;
   int      pcnt = 100, curr_time, tmpper, alignment; // 0 == good, 1 == evil, -1 == neutral
+  struct damage_messages goodmessages = {
+    "&+wThe power of your &+WGod&+w rains down pain and suffering upon $N&+w!&n",
+    "&+wPain unlike you have ever felt before permeates your body.&n",
+    "&+w$N &+wscreams in utter terror as he is judged before $n&+w's &+WGod&+w.&n",
+    "&+w$N &+wfalls to the ground, their soul a mere shell of what it once was.&n",
+    "&+WJudgement &+wis rendered, as you feel your soul being shattered to pieces.&n",
+    "&+w$N &+wfalls to the ground, their soul a mere shell of what it once was.&n.",
+      0
+  };
+  struct damage_messages evilmessages = {
+    "&+LThe power of your &+RGod&+L rains down pain and suffering upon $N&+L!&n",
+    "&+LPain unlike you have ever felt before permeates your body.&n",
+    "&+L$N &+Lscreams in utter terror as he is damned by $n&+L's &+RGod&+L.&n",
+    "&+L$N &+Lfalls to the ground, their soul a mere shell of what it once was.&n",
+    "&+RDamnation &+Lis rendered, as you feel your soul being shattered to pieces.&n",
+    "&+L$N &+Lfalls to the ground, their soul a mere shell of what it once was.&n.",
+      0
+  };
 
   if (cmd == CMD_SET_PERIODIC)
     return TRUE;
@@ -4980,13 +4998,13 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
               memset(&aff, 0, sizeof(aff));
               aff.type = TAG_HOLY_OFFENSE;
               aff.flags = AFFTYPE_NODISPEL;
-              aff.modifier = 8;
+              aff.modifier = 12;
               aff.location = APPLY_STR_MAX;
               aff.duration = -1;
               affect_to_char(ch, &aff);
               aff.type = TAG_HOLY_OFFENSE;
               aff.flags = AFFTYPE_NODISPEL;
-              aff.modifier = 8;
+              aff.modifier = 12;
               aff.location = APPLY_DEX_MAX;
               aff.duration = -1;
               affect_to_char(ch, &aff);
@@ -4994,18 +5012,6 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
               aff.flags = AFFTYPE_NODISPEL;
               aff.modifier = -1;
               aff.location = APPLY_COMBAT_PULSE;
-              aff.duration = -1;
-              affect_to_char(ch, &aff);
-              aff.type = TAG_HOLY_OFFENSE;
-              aff.flags = AFFTYPE_NODISPEL;
-              aff.modifier = -20;
-              aff.location = APPLY_AGI;
-              aff.duration = -1;
-              affect_to_char(ch, &aff);
-              aff.type = TAG_HOLY_OFFENSE;
-              aff.flags = AFFTYPE_NODISPEL;
-              aff.modifier = -20;
-              aff.location = APPLY_MOVE_REG;
               aff.duration = -1;
               affect_to_char(ch, &aff);
               act("&+LAs you utter the word, a chill runs through your body as power takes hold...", FALSE, ch, obj, 0, TO_CHAR);
@@ -5024,26 +5030,26 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
                memset(&aff, 0, sizeof(aff));
                aff.type = TAG_HOLY_DEFENSE;
                aff.flags = AFFTYPE_NODISPEL;
-               aff.modifier = 10;
+               aff.modifier = 15;
                aff.location = APPLY_AGI_MAX;
                aff.duration = -1;
                affect_to_char(ch, &aff);
                aff.type = TAG_HOLY_DEFENSE;
                aff.flags = AFFTYPE_NODISPEL;
-               aff.modifier = -10;
-               aff.location = APPLY_SAVING_FEAR;
+               aff.modifier = -8;
+               aff.location = APPLY_SAVING_PARA;
                aff.duration = -1;
                affect_to_char(ch, &aff);
                aff.type = TAG_HOLY_DEFENSE;
                aff.flags = AFFTYPE_NODISPEL;
-               aff.modifier = -10;
+               aff.modifier = -8;
                aff.location = APPLY_SAVING_SPELL;
                aff.duration = -1;
                affect_to_char(ch, &aff);
                aff.type = TAG_HOLY_DEFENSE;
                aff.flags = AFFTYPE_NODISPEL;
-               aff.modifier = -15;
-               aff.location = APPLY_STR;
+               aff.modifier = -8;
+               aff.location = APPLY_SAVING_BREATH;
                aff.duration = -1;
                affect_to_char(ch, &aff);
                aff.type = TAG_HOLY_DEFENSE;
@@ -5061,9 +5067,46 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
            }
         }
      }
-     return FALSE;
   } 
-  
+
+  if(cmd == CMD_MELEE_HIT && !number(0, 25) && CheckMultiProcTiming(ch))
+  {
+    vict = (P_char) arg;
+    
+    if (!vict || !IS_ALIVE(vict))
+      return (FALSE);
+
+    if (GET_RACEWAR(ch) == RACEWAR_GOOD)
+    {
+       act("$n's $q &+Wflares with pure light, unleashing the virtue of the gods at $N!&n",
+        TRUE, ch, obj, vict, TO_NOTVICT);
+       act("Your $q &+Wflares with pure light, unleashing the virtue of the gods at $N!&n",
+        TRUE, ch, obj, vict, TO_CHAR);
+       act("$n's $q &+Wflares with pure light, unleashing the virtue of the gods at _YOU_!&n",
+        TRUE, ch, obj, vict, TO_VICT);
+       spell_damage(ch, vict, 360, SPLDAM_HOLY, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &goodmessages);
+       if(GET_C_LUCK(ch) > number(0, 500))
+       {
+        spell_mending(51, ch, 0, 0, ch, 0);
+       }
+    }
+    else if (GET_RACEWAR(ch) == RACEWAR_EVIL)
+    {
+       act("$n's $q &+Lflares with darkness, unleashing the wrath of the underworld upon $N!&n",
+        TRUE, ch, obj, vict, TO_NOTVICT);
+       act("Your $q &+Lflares with darkness, unleashing the wrath of the underworld upon $N!&n",
+        TRUE, ch, obj, vict, TO_CHAR);
+       act("$n's $q &+Lflares with darkness, unleashing the wrath of the underworld upon _YOU_!&n",
+        TRUE, ch, obj, vict, TO_VICT);
+       spell_damage(ch, vict, 360, SPLDAM_NEGATIVE, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &evilmessages);
+       if(GET_C_LUCK(ch) > number(0, 500))
+       {
+         spell_malison(56, ch, 0, 0, vict, 0);
+       }
+    }
+    return TRUE;
+  }  
+
   if (cmd == CMD_PERIODIC)
   { 
      if(OBJ_WORN(obj))                  //  This periodically checks to see if
@@ -5124,7 +5167,7 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
        return TRUE;
      }
 
-     if (ch->equipment[WIELD] == obj && !number(0, 10))
+     if (OBJ_WORN(obj) && !number(0, 10))
      {
        hummer(obj);
        for( struct group_list *tgl = ch->group; tgl && tgl->ch; tgl = tgl->next )
@@ -5141,13 +5184,13 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
        return TRUE;
      }
      
-    // Following proc finds the most hurt ally tanking and rescues them - Jexni 12/2/10
+    // Following proc finds the most hurt casting ally that is tanking and rescues them - Jexni 12/2/10
 
-     if(IS_FIGHTING(ch) && ch->equipment[WIELD] == obj && number(0, 1))
+     if(IS_FIGHTING(ch) && OBJ_WORN(obj))
      {
         for(tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
         {
-           if(grouped(ch, tch) && IS_FIGHTING(tch) && (tch != ch))
+           if(grouped(ch, tch) && IS_FIGHTING(tch) && (tch != ch) && IS_CASTER(tch))
            {
              tmpper = (GET_HIT(tch) / GET_MAX_HIT(tch)) * 100;
              if(tmpper < pcnt)
@@ -5166,9 +5209,18 @@ int holy_weapon(P_obj obj, P_char ch, int cmd, char *arg)
         {      
            if(CanDoFightMove(ch, tch))
            {
-              act("Your $q &+Wglows &+was you slam the pommel into $N&+w,&L&+wknocking $M away from your ally!", FALSE, ch, obj, tch, TO_CHAR);
-              act("$p &+Wglows &+was its pommel is slammed into $N&+w,&L&+wknocking $M away from YOU!", FALSE, vict, obj, tch, TO_CHAR);
-              act("$n&+w's $q &+Wglows &+was its pommel smashes into you,&L&+wknocking you off-balance and back several steps!", FALSE, ch, obj, tch, TO_VICT);
+              if(alignment = 0)
+              {
+                 act("Your $q &+Wglows &+was you slam the pommel into $N&+w,&L&+wknocking $M away from your ally!", FALSE, ch, obj, tch, TO_CHAR);
+                 act("$p &+Wglows &+was its pommel is slammed into $N&+w,&L&+wknocking $M away from YOU!", FALSE, vict, obj, tch, TO_CHAR);
+                 act("$n&+w's $q &+Wglows &+was its pommel smashes into you,&L&+wknocking you off-balance and back several steps!", FALSE, ch, obj, tch, TO_VICT);
+              }
+              else
+              {
+                 act("&+LYour $q &+Rglows &+Las you slam the pommel into $N&+L,&L&+Lknocking $M away from your ally!", FALSE, ch, obj, tch, TO_CHAR);
+                 act("$p &+Rglows &+Las its pommel is slammed into $N&+L,&L&+Lknocking $M away from YOU!", FALSE, vict, obj, tch, TO_CHAR);
+                 act("$n&+L's $q &+Rglows &+Las its pommel smashes into you,&L&+Lknocking you off-balance and back several steps!", FALSE, ch, obj, tch, TO_VICT);
+              }
               if(vict->specials.fighting == tch)
                 stop_fighting(vict);
               if(!IS_FIGHTING(ch))

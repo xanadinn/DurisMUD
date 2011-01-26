@@ -18571,8 +18571,8 @@ void spell_knock(int cmd, P_char ch, char *argument, int type,
      {
         if(IS_SET(found_obj->value[1], CONT_PICKPROOF))
         {
-           send_to_char("You attempt to focus your magic, intent on breaking the formidable arcane barrier on the lock!\n", ch);
-           chance = (chance - number(1, GET_LEVEL(ch)));
+           send_to_char("You focus your magic, but the container resists all attempts to open it.  You'd better find the key.\n", ch);
+           return;
         }
 
         if((percent > chance))
