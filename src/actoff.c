@@ -2652,14 +2652,15 @@ void event_combination(P_char ch, P_char victim, P_obj obj, void *data)
     messages.victim = monk_combos_messages[stage][move][2];
     messages.room = monk_combos_messages[stage][move][0];
     result = melee_damage(ch, victim, dam, PHSDAM_TOUCH, &messages);
-    if(result == DAM_NONEDEAD && stage == 6 && GET_LEVEL(ch) >= 50)
-    {
-      act("Your final move stuns $N!", FALSE, ch, 0, victim, TO_CHAR);
-      act("You are STUNNED!", FALSE, ch, 0, victim, TO_VICT);
-      act("$N is stunned by $n's vicious combination!", FALSE, ch, 0, victim,
-          TO_NOTVICT);
-      Stun(victim, PULSE_VIOLENCE * 2);
-    }
+    //if(result == DAM_NONEDEAD && stage == 6 && GET_LEVEL(ch) >= 50)
+   // {
+    //  act("Your final move stuns $N!", FALSE, ch, 0, victim, TO_CHAR);
+    //  act("You are STUNNED!", FALSE, ch, 0, victim, TO_VICT);
+    //  act("$N is stunned by $n's vicious combination!", FALSE, ch, 0, 
+victim,
+    //      TO_NOTVICT);
+    //  Stun(victim, PULSE_VIOLENCE * 2);
+    //}
     stage++;
   }
   while (result == DAM_NONEDEAD && skill >= skill_req &&
