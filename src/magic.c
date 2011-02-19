@@ -2852,7 +2852,7 @@ void spell_earthen_maul(int level, P_char ch, char *arg, int type,
      act("$n crashes to the ground!", TRUE, victim, 0, 0, TO_ROOM);
      SET_POS(victim, number(0, 2) + GET_STAT(victim));
      if(GET_POS(victim) == POS_PRONE)
-     Stun(victim, ch, PULSE_VIOLENCE * 2);
+     Stun(victim, ch, PULSE_VIOLENCE * 2, TRUE);
      CharWait(victim, PULSE_VIOLENCE);
      play_sound(SOUND_EARTHQUAKE2, NULL, ch->in_room, TO_ROOM);
      }
@@ -3200,7 +3200,7 @@ void spell_cyclone(int level, P_char ch, char *arg, int type, P_char victim,
 
       if(!IS_STUNNED(victim))
       {
-        Stun(victim, ch, PULSE_VIOLENCE / 2);
+        Stun(victim, ch, PULSE_VIOLENCE / 2, TRUE);
       }
     }
     else if(affchance <= 5)
@@ -3215,7 +3215,7 @@ void spell_cyclone(int level, P_char ch, char *arg, int type, P_char victim,
 
       if(!IS_STUNNED(victim) && !number(0, 2))
       {                      
-        Stun(victim, ch, PULSE_VIOLENCE);
+        Stun(victim, ch, PULSE_VIOLENCE, TRUE);
       }
     }
   }
@@ -3546,7 +3546,7 @@ void spell_earthquake(int level, P_char ch, char *arg, int type,
               SET_POS(tch, number(0, 2) + GET_STAT(tch));
               if(GET_POS(tch) == POS_PRONE && !number(0, 1))
               {
-                Stun(tch, ch, PULSE_VIOLENCE * 1);
+                Stun(tch, ch, PULSE_VIOLENCE * 1, FALSE);
                 CharWait(tch, PULSE_VIOLENCE);
               }
             }
@@ -3771,7 +3771,7 @@ void event_call_lightning(P_char ch, P_char vict, P_obj obj, void *data)
           !IS_ELITE(vict) &&
           !IS_GREATER_RACE(vict))
   {
-    Stun(vict, ch, (int) (PULSE_VIOLENCE / 2));
+    Stun(vict, ch, (int) (PULSE_VIOLENCE / 2), TRUE);
   }
   
   if(result != DAM_CHARDEAD &&
@@ -11196,7 +11196,7 @@ void spell_grow_spike(int level, P_char ch, char *arg, int type, P_char victim,
      act("$n crashes to the ground!", TRUE, victim, 0, 0, TO_ROOM);
      SET_POS(victim, number(0, 2) + GET_STAT(victim));
      if(GET_POS(victim) == POS_PRONE)
-     Stun(victim, PULSE_VIOLENCE * 2);
+     Stun(victim, PULSE_VIOLENCE * 2, TRUE);
      CharWait(victim, PULSE_VIOLENCE);
      play_sound(SOUND_EARTHQUAKE2, NULL, ch->in_room, TO_ROOM);
      }
@@ -14084,7 +14084,7 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     act("$n's&n &+yword of power sends you reeling in utter confusion and pain!&n", FALSE, ch, 0, victim, TO_VICT);
     act("$N&n &+yis &+rstunned &+yinto complete submission by your powerful word!&n", TRUE, ch, 0, victim,
       TO_CHAR);
-    Stun(victim, ch, (number(3, 4) * PULSE_VIOLENCE));
+    Stun(victim, ch, (number(3, 4) * PULSE_VIOLENCE), FALSE);
   }
   else if(percent > 70)
   {
@@ -14093,7 +14093,7 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     act("$n's&n &+yword of power sends you reeling!&n", FALSE, ch, 0, victim, TO_VICT);
     act("$N&n &+yis sent reeling by your very powerful word!&n", TRUE, ch, 0, victim,
       TO_CHAR);
-    Stun(victim, ch, (number(2, 3) * PULSE_VIOLENCE));
+    Stun(victim, ch, (number(2, 3) * PULSE_VIOLENCE), FALSE);
   }
   else if(percent > 50)
   {
@@ -14102,7 +14102,7 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     act("$n's&n &+yword of power confuses and disorients you!&n", FALSE, ch, 0, victim, TO_VICT);
     act("$N&n &+yis sent reeling by your powerful word!&n", TRUE, ch, 0, victim,
       TO_CHAR);
-    Stun(victim, ch, (number(1, 2) * PULSE_VIOLENCE));
+    Stun(victim, ch, (number(1, 2) * PULSE_VIOLENCE), FALSE);
   }
   else
   {
@@ -14111,7 +14111,7 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     act("$n's&n &+yword of power &+wdazes &+yyou!&n", FALSE, ch, 0, victim, TO_VICT);
     act("$N&n &+yis &+wdazed &+yby your powerful word!&n", TRUE, ch, 0, victim,
       TO_CHAR);
-    Stun(victim, ch, PULSE_VIOLENCE);
+    Stun(victim, ch, PULSE_VIOLENCE, FALSE);
   }
 }
 
@@ -16512,7 +16512,7 @@ void spell_oldjudgement(int level, P_char ch, P_char victim, P_obj obj)
               
               if(CAN_ACT(t))
               { 
-                Stun(t, ch, PULSE_VIOLENCE * 2);
+                Stun(t, ch, PULSE_VIOLENCE * 2, FALSE);
                 CharWait(t, PULSE_VIOLENCE * 2);
               }
             }
@@ -16531,7 +16531,7 @@ void spell_oldjudgement(int level, P_char ch, P_char victim, P_obj obj)
               
               if(CAN_ACT(t))
               {
-                Stun(t, ch, PULSE_VIOLENCE * 2);
+                Stun(t, ch, PULSE_VIOLENCE * 2, FALSE);
                 CharWait(t, PULSE_VIOLENCE * 3);
               }
             }
@@ -17845,7 +17845,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
         send_to_char
           ("&+LThe Horseman of &+yF&+Ya&+ym&+Yi&+yn&+Ye &+Lglares at you with &+rdeathly g&+Rl&+wo&+Ww&+wi&+Rn&+rg eyes/r/n&+Lcausing you to lose your &+Yconcentration./n", tch);
            
-        Stun(tch, ch, PULSE_VIOLENCE * 1);
+        Stun(tch, ch, PULSE_VIOLENCE * 1, TRUE);
         
         StopCasting(tch);
         
@@ -18376,7 +18376,7 @@ void spell_command(int level, P_char ch, char *arg, int type, P_char victim,
     act("With a single indecipherable word, $n stuns $N into submission!",
         FALSE, ch, 0, victim, TO_NOTVICT);
 
-    Stun(victim, ch, (GET_LEVEL(ch) > 50) ? PULSE_VIOLENCE * 2 : PULSE_VIOLENCE);
+    Stun(victim, ch, (GET_LEVEL(ch) > 50) ? PULSE_VIOLENCE * 2 : PULSE_VIOLENCE, FALSE);
 
     if(IS_NPC(victim) && CAN_SEE(victim, ch))
     {
@@ -18884,7 +18884,7 @@ void spell_chaotic_ripple(int level, P_char ch, char *arg, int type,
         act
           ("&+wClutching your head you try to escape the\n&+rm&+wa&+rd&+wd&+re&+wn&+ri&+wn&+rg&n &+Wimages circling you!&n",
            TRUE, victim, 0, victim, TO_CHAR);
-        Stun(victim, ch, PULSE_VIOLENCE);
+        Stun(victim, ch, PULSE_VIOLENCE, FALSE);
       }
       break;
     case RIPPLE_BLIND:

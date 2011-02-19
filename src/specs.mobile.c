@@ -5717,7 +5717,7 @@ int boulder_pusher(P_char ch, P_char t_ch, int cmd, char *arg)
               {                 /*
                                  * stun
                                  */
-                Stun(victim, ch, (number(2, 10) * PULSE_VIOLENCE));
+                Stun(victim, ch, (number(2, 10) * PULSE_VIOLENCE), TRUE);
               }
             }
             return (TRUE);
@@ -8290,7 +8290,7 @@ int warhorse(P_char ch, P_char pl, int cmd, char *arg)
         {
           SET_POS(vict, POS_PRONE + GET_STAT(vict));
           if (!number(0, 2))
-            Stun(vict, ch, number(PULSE_VIOLENCE, PULSE_VIOLENCE * 5 / 2));
+            Stun(vict, ch, number(PULSE_VIOLENCE, PULSE_VIOLENCE * 5 / 2), TRUE);
         }
         else
         {
@@ -8392,7 +8392,7 @@ int warhorse(P_char ch, P_char pl, int cmd, char *arg)
     if (damage(ch, vict, GET_LEVEL(ch), TYPE_UNDEFINED))
       return TRUE;
     if (!number(0, 10))
-      Stun(vict, ch, PULSE_VIOLENCE * 2);
+      Stun(vict, ch, PULSE_VIOLENCE * 2, FALSE);
     update_pos(vict);
     if (AWAKE(vict))
       CharWait(vict, 2 * PULSE_VIOLENCE);

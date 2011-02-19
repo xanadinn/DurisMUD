@@ -454,7 +454,7 @@ void event_elemental_fury(P_char ch, P_char victim, P_obj obj, void *data)
             CharWait(t, PULSE_VIOLENCE);
          
           if(make_wet(t, 3))
-            Stun(t, ch,  PULSE_VIOLENCE);
+            Stun(t, ch,  PULSE_VIOLENCE, TRUE);
         }
       }
     }
@@ -3143,7 +3143,7 @@ void spell_greater_spirit_sight(int level, P_char ch, char *arg, int type,
       
     if(msg)
     {
-      act("&+WYour visions of the &+yspirits&+W is refreshed!",
+      act("&+WYour visions of the &+yspirits&+W are refreshed!",
           TRUE, ch, 0, victim, TO_VICT);
       return;
     }
@@ -4803,13 +4803,13 @@ void spell_cascading_elemental_beam(int level, P_char ch, char *arg, int type,
       !(deflect) &&
       !IS_AFFECTED2(victim, AFF2_STUNNED))
     {
-      Stun(victim, ch, PULSE_VIOLENCE * 2);
+      Stun(victim, ch, PULSE_VIOLENCE * 2, TRUE);
     } // Victims with deflect will also deflect stun affect.
     else if(deflect &&
             IS_ALIVE(ch) &&
             !IS_AFFECTED2(ch, AFF2_STUNNED))
     {
-      Stun(ch, ch, PULSE_VIOLENCE * 2);
+      Stun(ch, ch, PULSE_VIOLENCE * 2, TRUE);
     }
   }
   else if(IS_AFFECTED3(victim, AFF3_LIGHTNINGSHIELD))

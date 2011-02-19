@@ -497,7 +497,7 @@ void do_stampede(P_char ch, char *arg, int cmd)
       act("You crash wildly into $N!", 0, ch, 0, mob, TO_CHAR);
       act("$n crashes wildly into you!", 0, ch, 0, mob, TO_VICT);
       SET_POS(mob, POS_PRONE + GET_STAT(mob));
-      Stun(mob, ch, PULSE_VIOLENCE * 1 / 2);
+      Stun(mob, ch, PULSE_VIOLENCE / 2, TRUE);
       count++;
     }
     set_fighting(mob, ch);

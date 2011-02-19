@@ -1473,7 +1473,7 @@ void vampire_bite(P_char ch, P_char victim)
   {
     send_to_char(
       "You are stunned and unable to defend yourself properly!\n", victim);
-    Stun(victim, ch, PULSE_VIOLENCE);
+    Stun(victim, ch, PULSE_VIOLENCE, TRUE);
   }
 
   memset(&af, 0, sizeof(af));

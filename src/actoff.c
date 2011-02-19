@@ -1489,7 +1489,7 @@ void do_charge(P_char ch, char *argument, int cmd)
     /*   if(!damage(ch, victim, number(GET_LEVEL(ch), 6 * GET_LEVEL(ch)), TYPE_CHARGE))
        SET_POS(victim, POS_PRONE + GET_STAT(victim));
        CharWait(victim, PULSE_VIOLENCE);
-       Stun(victim, ch, PULSE_VIOLENCE * 3);
+       Stun(victim, ch, PULSE_VIOLENCE * 3, TRUE);
        if(char_in_list(ch)) CharWait(ch, PULSE_VIOLENCE * 4);
 
      */
@@ -2654,7 +2654,7 @@ void event_combination(P_char ch, P_char victim, P_obj obj, void *data)
     result = melee_damage(ch, victim, dam, PHSDAM_TOUCH, &messages);
     if(result == DAM_NONEDEAD && stage == 6 && GET_LEVEL(ch) >= 50)
     {
-      Stun(victim, ch, PULSE_VIOLENCE * 2);
+      Stun(victim, ch, PULSE_VIOLENCE * 2, TRUE);
       if(IS_AFFECTED2(victim, AFF2_STUNNED))
       {
         act("Your final move stuns $N!", FALSE, ch, 0, victim, TO_CHAR);
@@ -3235,7 +3235,7 @@ bool kick(P_char ch, P_char victim)
         if(!number(0, 24) &&
            !IS_STUNNED(victim))
         {
-          Stun(victim, ch, (PULSE_VIOLENCE * number(1, 2)));
+          Stun(victim, ch, (PULSE_VIOLENCE * number(1, 2)), TRUE);
         }
         stop_fighting(victim);
         CharWait(victim, (int) (PULSE_VIOLENCE *
@@ -3257,7 +3257,7 @@ bool kick(P_char ch, P_char victim)
       
       if(!number(0, 24))
       {
-        Stun(victim, ch, (PULSE_VIOLENCE * number(1, 3)));
+        Stun(victim, ch, (PULSE_VIOLENCE * number(1, 3)), TRUE);
       }
       stop_fighting(victim);
       CharWait(victim, (int) (PULSE_VIOLENCE * get_property("kick.groinkick.victimlag", 1.000)));
@@ -3945,7 +3945,7 @@ void do_headbutt(P_char ch, char *argument, int cmd)
     {
       send_to_char("Wow!  Look at all those stars!!\n", victim);
       CharWait(victim, (int) (PULSE_VIOLENCE * 1));
-      Stun(victim, ch, (int) (PULSE_VIOLENCE * 1.5));
+      Stun(victim, ch, (int) (PULSE_VIOLENCE * 1.5), TRUE);
     }
     else if (tmp_num < 11)
     {
@@ -3953,7 +3953,7 @@ void do_headbutt(P_char ch, char *argument, int cmd)
 
       if (number(0,4)) {
         CharWait(victim, (int) (PULSE_VIOLENCE * 0.5));
-        Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5));
+        Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5), TRUE);
       }
     }
     else
@@ -5487,7 +5487,7 @@ void do_tackle(P_char ch, char *arg, int cmd)
         SET_POS(ch, POS_PRONE + GET_STAT(ch));
         
         if(GET_C_CON(ch) < number(1, 125))
-          Stun(ch, ch, PULSE_VIOLENCE);
+          Stun(ch, ch, PULSE_VIOLENCE, FALSE);
         
         CharWait(ch, PULSE_VIOLENCE * 3);
       }
@@ -5585,7 +5585,7 @@ void buck(P_char ch)
 
   CharWait(ch, PULSE_VIOLENCE * 3);
   CharWait(victim, PULSE_VIOLENCE * 2);
-  Stun(victim, ch, PULSE_VIOLENCE);
+  Stun(victim, ch, PULSE_VIOLENCE, TRUE);
 
   SET_POS(victim, POS_PRONE + GET_STAT(victim));
 
@@ -6239,10 +6239,8 @@ void maul(P_char ch, P_char victim)
 
     SET_POS(victim, POS_KNEELING + GET_STAT(victim));
 
-    if((percent_chance / 5) > percentroll &&
-        !IS_STUNNED(victim))
-          Stun(victim, ch, number(PULSE_VIOLENCE, (int) (PULSE_VIOLENCE 
-* 1) ));
+    if((percent_chance / 5) > percentroll && !IS_STUNNED(victim))
+          Stun(victim, ch, PULSE_VIOLENCE, TRUE);
     
     if(GET_SPEC(ch, CLASS_BERSERKER, SPEC_MAULER) ||
        IS_ELITE(ch))
@@ -7059,11 +7057,15 @@ void do_rearkick(P_char ch, char *argument, int cmd)
       return;
     }
 
-    if((knockdown_chance + number(1,20)) > number(1,100)) {
-            act("Your kick stuns $N!", FALSE, ch, 0, victim, TO_CHAR);
-                        act("You are STUNNED!", FALSE, ch, 0, victim, TO_VICT);
-                        act("$N is stunned by $n's mighty kick!", FALSE, ch, 0, victim, TO_NOTVICT);
-                        Stun(victim, ch, PULSE_VIOLENCE*2);
+    if((knockdown_chance + number(1,20)) > number(1,100)) 
+    {
+       Stun(victim, ch, PULSE_VIOLENCE * 2, TRUE);
+       if(IS_AFFECTED2(victim, AFF2_STUNNED))
+       {
+         act("Your kick stuns $N!", FALSE, ch, 0, victim, TO_CHAR);
+         act("You are STUNNED!", FALSE, ch, 0, victim, TO_VICT);
+         act("$N is stunned by $n's mighty kick!", FALSE, ch, 0, victim, TO_NOTVICT);
+       }                
     }
 
     if(knockdown_chance > number(1,100)) {
@@ -7470,8 +7472,7 @@ void bodyslam(P_char ch, P_char victim)
          SKILL_BODYSLAM))
     {
       if(number(0, 1))
-        Stun(victim, ch, number(PULSE_VIOLENCE, (int) (PULSE_VIOLENCE * 
-2.5) ));
+        Stun(victim, ch, number(PULSE_VIOLENCE, (int) (PULSE_VIOLENCE * 2.5)), TRUE);
     }
     else
       return;
@@ -7488,7 +7489,7 @@ void bodyslam(P_char ch, P_char victim)
     {
       SET_POS(ch, POS_PRONE + GET_STAT(ch));
       fall = FALSE;
-      Stun(ch, ch, PULSE_VIOLENCE);
+      Stun(ch, ch, PULSE_VIOLENCE, FALSE);
     }
   }
 
@@ -7791,7 +7792,7 @@ void do_springleap(P_char ch, char *argument, int cmd)
          SKILL_SPRINGLEAP))
     {
       if(number(0, 1))
-        Stun(vict, ch, number(PULSE_VIOLENCE, PULSE_VIOLENCE ));
+        Stun(vict, ch, PULSE_VIOLENCE, TRUE);
     }
     else
       return;

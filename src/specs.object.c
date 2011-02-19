@@ -9350,7 +9350,7 @@ int stormbringer(P_obj obj, P_char ch, int cmd, char *arg)
       victim, TO_CHAR);
   act("&+cA &+Wforce&+c of &+Cwinds&+c throws $n backwards.&n", TRUE, victim,
       obj, ch, TO_NOTVICT);
-  Stun(victim, ch, (dice(1, 2) * PULSE_VIOLENCE));*/
+  Stun(victim, ch, (dice(1, 2) * PULSE_VIOLENCE), FALSE);*/
 
   spell_cyclone(30, ch, 0, SPELL_TYPE_SPELL, victim, 0);
 
@@ -9742,7 +9742,7 @@ int mankiller(P_obj obj, P_char ch, int cmd, char *arg)
   act
     ("&+w$n's&N $q pierces your mind with a &+wsupernatural&n &+MSCREAM&n, stunning you!&N",
      TRUE, ch, obj, victim, TO_VICT);
-  Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5));
+  Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5), FALSE);
   return (TRUE);
   break;
   case 1:
@@ -11241,7 +11241,7 @@ int out_of_god_bp(P_obj obj, P_char ch, int cmd, char *arg)
       act
         ("You attempt open &+ya large leather backpack&N but fail miserably, falling on your ass.",
          FALSE, ch, obj, tch, TO_CHAR);
-      Stun(ch, ch, (dice(1, 3) * PULSE_VIOLENCE));
+      Stun(ch, ch, (dice(1, 3) * PULSE_VIOLENCE), FALSE);
       SET_POS(ch, POS_PRONE + GET_STAT(ch));
       CharWait(ch, PULSE_VIOLENCE * 1);
 
@@ -13678,7 +13678,7 @@ int critical_attack_proc(P_obj obj, P_char ch, int cmd, char *arg)
       act("&nYou point your&n $q at&n $N and utter a word of &+rc&+Ro&+rm&+Rm&+ra&+Rn&+rd&n!", FALSE, ch, obj, victim, TO_CHAR);
 	  act("$n points $s $q at &+L_YOU_&n and utters a word of &+rc&+Ro&+rm&+Rm&+ra&+Rn&+rd&n!", FALSE, ch, obj, victim, TO_VICT);
 	  act("$n points $s $q at $N and utters a word of &+rc&+Ro&+rm&+Rm&+ra&+Rn&+rd&n!", FALSE, ch, obj, victim, TO_NOTVICT);
-	  Stun(victim, ch, PULSE_VIOLENCE);
+	  Stun(victim, ch, PULSE_VIOLENCE, FALSE);
       break;
     case 2:
       act("&nYou &+rhook&n your $q around $N's leg and pull $M to the ground!&n", FALSE, ch, obj, victim, TO_CHAR);

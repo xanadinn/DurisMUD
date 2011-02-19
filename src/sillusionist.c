@@ -515,7 +515,7 @@ void spell_stunning_visions(int level, P_char ch, char *arg, int type,
     }
     
     stop_fighting(ch);
-    Stun(victim, ch, PULSE_VIOLENCE * 3);
+    Stun(victim, ch, PULSE_VIOLENCE * 3, FALSE);
     return;
   }
   else if (percent > 60)
@@ -533,7 +533,7 @@ void spell_stunning_visions(int level, P_char ch, char *arg, int type,
     }
     
     stop_fighting(ch);
-    Stun(victim, ch, PULSE_VIOLENCE * 2);
+    Stun(victim, ch, PULSE_VIOLENCE * 2, FALSE);
     return;
   }
   else if (percent > 40)
@@ -550,7 +550,7 @@ void spell_stunning_visions(int level, P_char ch, char *arg, int type,
       stop_fighting(victim);
     }
     stop_fighting(ch);
-    Stun(victim, ch, PULSE_VIOLENCE * number(1, 2));
+    Stun(victim, ch, PULSE_VIOLENCE * number(1, 2), FALSE);
     return;
   }
   else if (percent >= 11)
@@ -567,7 +567,7 @@ void spell_stunning_visions(int level, P_char ch, char *arg, int type,
       stop_fighting(victim);
     }
     stop_fighting(ch);
-    Stun(victim, ch, PULSE_VIOLENCE);
+    Stun(victim, ch, PULSE_VIOLENCE, FALSE);
     return;
   }
 }
@@ -1253,9 +1253,9 @@ void spell_hammer(int level, P_char ch, char *arg, int type, P_char victim,
   if(!number(0, 19))
   {
     if(stunself)
-      Stun(ch, ch, PULSE_VIOLENCE);
+      Stun(ch, ch, PULSE_VIOLENCE, FALSE);
     else
-      Stun(victim, ch, PULSE_VIOLENCE);
+      Stun(victim, ch, PULSE_VIOLENCE, TRUE);
   }
 }
 

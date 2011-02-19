@@ -3709,10 +3709,10 @@ void do_true_strike(P_char ch, char *argument, int cmd)
     else if (x <= 40)
     {
       send_to_char
-        ("The pain is to much to bear and totaly numbs your senses.\n\r",
+        ("The pain is to much to bear and totally numbs your senses.\n\r",
          vict);
       act("$n grimaces with pain.", FALSE, vict, 0, 0, TO_ROOM);
-      Stun(vict, ch, PULSE_VIOLENCE * 2);
+      Stun(vict, ch, PULSE_VIOLENCE * 2, FALSE);
     }
     else if (x <= 60)
     {

@@ -2392,7 +2392,7 @@ int tiamat(P_char ch, P_char pl, int cmd, char *arg)
               
               if(CAN_ACT(vict))
               {                 // prevent cumulative stun/lag
-                Stun(vict, ch, PULSE_VIOLENCE * 2);
+                Stun(vict, ch, PULSE_VIOLENCE * 2, TRUE);
                 CharWait(vict, PULSE_VIOLENCE * 3);
               }
             }
@@ -3380,7 +3380,7 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
       
       if (!number(0, 2) &&
          MIN_POS(vict, POS_STANDING + STAT_NORMAL)) // Adding this to prevent perpetual stunning with mauls.
-            Stun(vict, ch, (int) (PULSE_VIOLENCE * .5));
+            Stun(vict, ch, (int) (PULSE_VIOLENCE * .5), TRUE);
 
       if( affected_by_spell(vict, SPELL_STONE_SKIN) )
       {
@@ -4266,7 +4266,7 @@ int tendrils(P_obj obj, P_char ch, int cmd, char *arg)
     act("Before $N can recover you grab $M by the throat and utter a single &+Wword&n.\n"
         "$N spasms in &+Rpain&n as tiny &+Bbolts&n of &+Blight&n surge through $S body!", FALSE, ch, 0, vict, TO_CHAR);
     spell_stone_skin(60, ch, 0, 0, ch, 0);
-    Stun(vict, ch, PULSE_VIOLENCE * 2);
+    Stun(vict, ch, PULSE_VIOLENCE * 2, TRUE);
     damage(ch, vict, dice(10, 45), TYPE_UNDEFINED);
   }
   return FALSE;
