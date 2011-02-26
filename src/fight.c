@@ -4935,6 +4935,10 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
     {
       vamped = vamp(ch,  dam * get_property("vamping.vampiricTouch.rangers", 0.100), GET_MAX_HIT(ch) * 1.3);
     }
+    else if(GET_CLASS(ch, CLASS_AVENGER) || GET_CLASS(ch, CLASS_DREADLORD))
+    {
+      vamped = vamp(ch, dam * get_property("vamping.vampiricTouch.dreadaven", 0.100), GET_MAX_HIT(ch) * 1.3);
+    }
     else
     {
       vamped = vamp(ch, dam * dam_factor[DF_TOUCHVAMP], GET_MAX_HIT(ch) * 1.3);
