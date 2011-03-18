@@ -589,8 +589,7 @@ void do_spellbind (P_char ch, char *argument, int cmd)
   int skill_points = epic_skillpoints(ch);
   int bonus;
   int skill = GET_CHAR_SKILL(ch, SKILL_SPELLBIND);
-  int randommod, total;
-  int multiplier = 2;
+  int total = 0;
   
   if(!(ch) ||
      !IS_ALIVE(ch))
@@ -631,8 +630,7 @@ void do_spellbind (P_char ch, char *argument, int cmd)
   
   if(IS_SET(item->extra_flags, ITEM_NOREPAIR))
   {
-    act("That item won't work, try another one!",
-      FALSE, ch, 0, 0, TO_CHAR);
+    act("You don't seem able to affect that item...", FALSE, ch, 0, 0, TO_CHAR);
     return;
   }
 
@@ -641,7 +639,7 @@ void do_spellbind (P_char ch, char *argument, int cmd)
   
   if(item->condition <= 99)
   {
-    send_to_char("This item is &=LRnot&n in perfect condition. Please fix it.\r\n", ch);
+    send_to_char("This item is &=LRnot&n in perfect condition. Please fix it, first.\r\n", ch);
     return;
   }
 
@@ -654,7 +652,7 @@ void do_spellbind (P_char ch, char *argument, int cmd)
 
   if(skill < number(10, 140))
   {
-    act("You failed to spell bind this item ...", FALSE, ch, 0, 0, TO_CHAR);
+    act("You failed to spellbind this item ...", FALSE, ch, 0, 0, TO_CHAR);
     if(!number(0, 4))
     {
       act("... and severely damage it.", FALSE, ch, 0, 0, TO_CHAR);
@@ -668,24 +666,20 @@ void do_spellbind (P_char ch, char *argument, int cmd)
 
   epic_gain_skillpoints(ch, -1);
 
-  if(!number(0, 2) &&
-    !IS_TRUSTED(ch))
+  if(!number(0, 2) && !IS_TRUSTED(ch))
   {
     item->condition = item->condition - number(1, 20);
     act("...however, you damaged it a bit...", FALSE, ch, 0, 0, TO_CHAR);
   }
-  else if(!number(0, 40) ||
-          IS_TRUSTED(ch))
+  // Once in a while give a bonus to skill -- Unless you're an immortal, then you always get the bonus.
+  else if(!number(0, 40) || IS_TRUSTED(ch))
   {
     setsuffix_obj_new(item);
     act("...you feel &+YSTRONG&n magic flowing this time...", FALSE, ch, 0, 0, TO_CHAR);
-// Once in a while give a bonus to skill -- Unless you're an immortal, then you always get the bonus.
-    multiplier += 1;
+    total += 1;
   }
 
   SET_BIT(item->extra_flags, ITEM_NOREPAIR);
-  
-  debug("Spellbind multiplier currently set to: %d", multiplier);
 
   // The nolocate flag allows imms to lookup. Not creating a new flag.
   if(!IS_SET(item->extra_flags, ITEM_NOLOCATE)) 
@@ -712,52 +706,28 @@ void do_spellbind (P_char ch, char *argument, int cmd)
     if(item->affected[i].modifier <= -120) 
       continue;
     
-// Need to limit uber hit/dam eq.
-    if(item->affected[i].location == APPLY_HITROLL ||
-       item->affected[i].location == APPLY_DAMROLL)
-      bonus = (skill / 50); // Max h/d bonus at 100 skill is 2
-    else // Normal bonus at 100 skill is 5.
-      bonus = (skill / 20);
-    
-    randommod = number(0, 2);
+    bonus = (int) (skill / 20);
 
 // Limiting stat max modifiers otherwise it'll get out of
 // control real quickly.
     if(is_stat_max(item->affected[i].location))
     {
-      total = item->affected[i].modifier + randommod + 1;
-      
-      if(total >= 15)
-      {
-        logit(LOG_DEBUG, "WARNING SPELLBIND: %s has spellbound item with a max stat 15 or greater.", GET_NAME(ch));
-        debug("WARNING SPELLBIND: %s has spellbound item with a max stat 15 or greater.", GET_NAME(ch));
-      }
+      total += item->affected[i].modifier + ((int) (skill / 50));
     }
     else if(neggood)
     {
       if(item->affected[i].location >= APPLY_SAVING_PARA &&
          item->affected[i].location <= APPLY_SAVING_SPELL)
-        total = MAX((item->affected[i].modifier * 2), // We are dealing with negative numbers, so use MAX and not MIN.
-                     item->affected[i].modifier - (number(1, multiplier + randommod + bonus)));
+        total = -total - (skill / 50);
+      else if(item->affected[i].location == APPLY_ARMOR)
+        total = (int) (item->affected[i].modifier * ((int) (skill / 50)));
       else
-        total = (int) (((item->affected[i].modifier * multiplier) * .65) - randommod - bonus);      
+        total = (int) (item->affected[i].modifier - (-total - bonus));      
     }
     else
     {
-      total = (int) (((item->affected[i].modifier * multiplier) * .65) + randommod + bonus);
+      total = (int) (item->affected[i].modifier + total + bonus);
     }
-    
-// These are stop gap measures to prevent high and low values which
-// cause the a sign change.
-    if(total >= 120)
-      total = 120;
-    
-    if(total <= -125)
-      total = -120;
-    
-    logit(LOG_DEBUG, "(%s) spellbound (%d) and the total was (%d).",
-           GET_NAME(ch), obj_index[item->R_num].virtual_number, total);
-
     item->affected[i].modifier = total;
   }
 
@@ -796,10 +766,15 @@ void do_encrust(P_char ch, char *argument, int cmd)
   }
   item = get_obj_in_list_vis(ch, arg, ch->carrying);
 
-   //Add a check if this is a encrustable item...
   if(!item)
   {
     act("What item do you wish to encrust?", FALSE, ch, 0, 0, TO_CHAR);
+    return;
+  }
+
+  if(IS_SET(item->extra_flags, ITEM_NOREPAIR))
+  {
+    send_to_char("You cannot encrust an item that cannot be repaired.", ch);
     return;
   }
 
@@ -839,13 +814,11 @@ void do_encrust(P_char ch, char *argument, int cmd)
   
   if (jewel == item)
   {
-  	act("Oh no you don't!", FALSE, ch, 0, 0, TO_CHAR);
+  	act("Try finding a suitable item to encrust with, bub.", FALSE, ch, 0, 0, TO_CHAR);
   	return;
   }
 
-  wizlog(56, "%s encrusted %s with %s", GET_NAME(ch), item->short_description,
-         jewel->short_description);
-  sprintf(buf2, "%s skillfully encrusts %s with %s...", GET_NAME(ch),
+  sprintf(buf2, "%s attempts to encrust %s with %s...", GET_NAME(ch),
           item->short_description, jewel->short_description);
   act(buf2, TRUE, ch, 0, 0, TO_ROOM);
 
@@ -858,70 +831,8 @@ void do_encrust(P_char ch, char *argument, int cmd)
     item->value[7] = 30;
 
   }
-/*
-  else
-  {
-    int      i = item->value[5];
 
-    if(!i / 1000000000)
-    {
-
-      if(!(i / 1000))
-      {
-        item->value[5] = i * 1000 + jewel->value[6];
-        if(number(0, 1))
-        {
-          i = item->value[5];
-          item->value[5] = i + 1000000000;
-          item->value[7] -= 1;
-        }
-      }
-      else if(!(i / 1000000))
-      {
-        item->value[5] = i * 1000 + jewel->value[6];
-        if(number(0, 2))
-        {
-          i = item->value[5];
-          item->value[5] = i + 1000000000;
-          item->value[7] -= 2;
-        }
-      }
-      else
-      {
-        item->value[5] = (i / 1000) * 1000 + jewel->value[6];
-        if(number(0, 3))
-        {
-          i = item->value[5];
-          item->value[5] = i + 1000000000;
-          item->value[7] -= 3;
-        }
-      }
-    }
-    else
-    {
-
-      i = i % 1000000000;
-
-      if(!(i / 1000))
-      {
-        item->value[5] = (i * 1000 + jewel->value[6]) + 1000000000;
-        item->value[7] -= 2;
-      }
-      else if(!(i / 1000000))
-      {
-        item->value[5] = (i * 1000 + jewel->value[6]) + 1000000000;
-        item->value[7] -= 4;
-      }
-      else
-      {
-        item->value[5] = ((i / 1000) * 1000 + jewel->value[6]) + 1000000000;
-        item->value[7] -= 6;
-      }
-
-    }
-  }
-*/
-  if(number(1, 100) > (skill - 10))
+  if(number(1, 110) > skill)
   {
     act("You broke your item in the process.", FALSE, ch, 0, 0, TO_CHAR);
     act("...and breaks it in the process.", TRUE, ch, 0, 0, TO_ROOM);
@@ -1030,7 +941,7 @@ int encrusted_eq_proc(P_obj obj, P_char ch, int cmd, char *arg)
   
   j = obj->value[5];
 
-  if(number(1, 33) == 33) // 3% chance
+  if(!number(0, 30))
   {
     if(j != SPELL_ENERGY_DRAIN &&
        j != 0)
@@ -1053,16 +964,13 @@ int encrusted_eq_proc(P_obj obj, P_char ch, int cmd, char *arg)
             !IS_AFFECTED4(kala, AFF4_NEG_SHIELD) &&
             !resists_spell(ch, kala))
     {
-      // if(affected_by_spell(ch, SKILL_SHORT_VAMP))
-        // return FALSE;
-      
-      // set_short_affected_by(ch, SKILL_SHORT_VAMP, 1);
       act("&+LYour encrusted &+rbloodstone &+Rglows brightly&+L, and your vision is &+rbathed in &+Rred&+L.&n", FALSE, ch, 0, 0, TO_CHAR);
       act("$n&+L's encrusted &+rbloodstone &+Rglows&+L, and $s &+reyes &+Lare &+rbathed in &+Rred&+L.&n", FALSE, ch, 0, 0, TO_ROOM);
       if(IS_ALIVE(kala))
       {
-        vamp(ch, 20, GET_MAX_HIT(ch));
-        melee_damage(ch, kala, 20 , 0, 0);
+        int dam = number(10, 30);
+        vamp(ch, dam, GET_MAX_HIT(ch));
+        melee_damage(ch, kala, dam, 0, 0);
       }
     }
   }

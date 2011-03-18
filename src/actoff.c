@@ -8135,7 +8135,7 @@ void event_unflank(P_char ch, P_char victim, P_obj obj, void *args)
 void flanking_broken(struct char_link_data *cld)
 {
   act("$N maneuvers $Mself into a better position.", FALSE, cld->linking, 0,
-      cld->linked, TO_CHAR);
+      cld->linked, TO_ROOM);
 }
 
 int flank(P_char ch, P_char victim)
@@ -8167,15 +8167,15 @@ int flank(P_char ch, P_char victim)
   
   appear(ch);
 
-  CharWait(ch, PULSE_VIOLENCE * 2);
+  CharWait(ch, PULSE_VIOLENCE * 1);
 
   if(!notch_skill(ch, SKILL_FLANK,
                    get_property("skill.notch.offensive", 15)) &&
       GET_CHAR_SKILL(ch, SKILL_FLANK) < number(0, 100))
   {
-    act("$N notices your clumsy attempt to flank $M and turns to face you.",
+    act("You fail to properly maneuver yourself to attack $N's flank.",
         FALSE, ch, 0, victim, TO_CHAR);
-    act("$N notices $n's clumsy attempt to flank $M and turns to face $m.",
+    act("$n attempts to flank $N, but fails miserably.",
         FALSE, ch, 0, victim, TO_NOTVICT);
     act("You notice $n's clumsy attempt to flank you and turn to face $m.",
         FALSE, ch, 0, victim, TO_VICT);
@@ -8197,9 +8197,10 @@ int flank(P_char ch, P_char victim)
   act("$n sidesteps to the fight in an attempt to flank you.", FALSE, ch, 0,
       victim, TO_VICT);
   link_char(ch, victim, LNK_FLANKING);
+  CharWait(ch, PULSE_VIOLENCE * 1);
   add_event(event_unflank, (tch ? 1 : 3) * (ch->specials.base_combat_round + 1),
       ch, victim, 0, 0, 0, 0);
-  return 1;
+  return TRUE;
 }
 
 void do_call_grave(P_char ch, char *argument, int cmd)
