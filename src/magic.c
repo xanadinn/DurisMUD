@@ -1320,9 +1320,14 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     
   int save = victim->specials.apply_saving_throw[SAVING_SPELL];
 
-  int percent = BOUNDED( 0, ((GET_C_POW(ch) - GET_C_POW(victim))
-                             + save
-                             + (GET_LEVEL(ch) - GET_LEVEL(victim))), 100);
+  int percent = (int) (GET_C_POW(ch) - GET_C_POW(victim));
+  
+  percent += (int) (GET_LEVEL(ch) - GET_LEVEL(victim));
+
+  if(NewSaves(victim, SAVING_SPELL, 0))
+    percent = (int) percent * .75;
+
+  percent = BOUNDED(0, percent, 100);
 
   if(IS_TRUSTED(victim) || percent < 1)
   {
@@ -1347,15 +1352,12 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     (IS_AFFECTED4(victim, AFF4_NEG_SHIELD) ||
      IS_AFFECTED2(victim, AFF2_SOULSHIELD)) ||
      IS_UNDEADRACE(victim) ||
-     IS_ELITE(victim) ||
      IS_GREATER_RACE(victim))
-        percent = (int)(percent * 0.66);
+        percent = (int)(percent * 0.75);
   
   struct affected_type af;
   bzero(&af, sizeof(af));
 
-  // debug("(%s) withered (%s) whose save (%d) and percent (%d).", GET_NAME(ch), GET_NAME(victim), save, percent);
-  
   if(percent > 90)
   {
     act("$N is &+Lwithered&n COMPLETELY by $n's touch!",
@@ -1371,7 +1373,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     af.modifier = 0 - (int) (GET_DAMROLL(victim) / 4);
     af.location = APPLY_DAMROLL;
     affect_to_char(victim, &af);
-    af.modifier = +50;
+    af.modifier = +100;
     af.location = APPLY_AC;
     affect_to_char(victim, &af);
   }
@@ -1384,12 +1386,11 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     af.duration = 1;
     af.modifier = 0 - (int) (GET_HITROLL(victim) / 4);
     af.location = APPLY_HITROLL;
-    //af.bitvector2 = AFF2_SLOW;
     affect_to_char(victim, &af);
     af.modifier = 0 - (int) (GET_DAMROLL(victim) / 4);
     af.location = APPLY_DAMROLL;
     affect_to_char(victim, &af);
-    af.modifier = +40;
+    af.modifier = +50;
     af.location = APPLY_AC;
     affect_to_char(victim, &af);
   }
@@ -1407,7 +1408,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     af.modifier = 0 - (int) (GET_DAMROLL(victim) / 5);
     af.location = APPLY_DAMROLL;
     affect_to_char(victim, &af);
-    af.modifier = +30;
+    af.modifier = +25;
     af.location = APPLY_AC;
     affect_to_char(victim, &af);
   }
@@ -1418,11 +1419,10 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     act("$N is &+Lwithered&n and begins to DECREASE in size by your touch!", FALSE, ch, 0, victim, TO_CHAR);
     af.type = SPELL_WITHER;
     af.duration = 1;
-    af.modifier = 0 - (int) (GET_HITROLL(victim) / 5);
+    af.modifier = 0 - (int) (GET_HITROLL(victim) / 8);
     af.location = APPLY_HITROLL;
-   // af.bitvector2 = AFF2_SLOW;
     affect_to_char(victim, &af);
-    af.modifier = 0 - (int) (GET_DAMROLL(victim) / 5);
+    af.modifier = 0 - (int) (GET_DAMROLL(victim) / 8);
     af.location = APPLY_DAMROLL;
     affect_to_char(victim, &af);
     af.modifier = +20;
@@ -5951,7 +5951,7 @@ void spell_curse(int level, P_char ch, char *arg, int type, P_char victim, P_obj
     af.location = APPLY_CURSE;
     affect_to_char(victim, &af);
 
-    act("&+r$n briefly reveals a red aura!", FALSE, victim, 0, 0, TO_ROOM);
+    act("&+r$n &+rbriefly reveals a red aura!", FALSE, victim, 0, 0, TO_ROOM);
     act("&+rYou suddenly feel very uncomfortable.", FALSE, victim, 0, 0, TO_CHAR);
   }
 }
@@ -7668,7 +7668,7 @@ void spell_word_of_recall(int level, P_char ch, char *arg, int type,
 
   if(IS_SET(world[ch->in_room].room_flags, ROOM_SILENT))
   {
-    send_to_char("The word dies aborning.\n", ch);
+    send_to_char("No sound can be heard.\n", ch);
     return;
   }
 
@@ -13239,7 +13239,7 @@ void spell_heavens_aid(int level, P_char ch, char *arg, int type, P_char victim,
   struct damage_messages messages = {
     "&+LYou direct the &+Wholy beam&n towards $N&+W.&n",
     "&+L$n's holy light passes over you, burning you with holy power.",
-    "&+LAn directs the &+Wholy beam&n towards $N, burning &m with it's holy power.",
+    "&+LAn directs the &+Wholy beam&n towards $N, burning $m with it's holy power.",
     "$N &+Lconvulses and dies a quick and quiet &+rdeath.",
     "&+LYou feel the &+Wholy beam&n sap the last bit of &+clifeforce &+Wfrom you.",
     "$N quietly collapses and &+rdies!", 0
@@ -14033,7 +14033,7 @@ void spell_pword_blind(int level, P_char ch, char *arg, int type,
 void spell_pword_stun(int level, P_char ch, char *arg, int type,
                       P_char victim, P_obj obj)
 {
-  int percent = level + number(-10, 10);
+  int percent = 50;
 
   if(!(ch) ||
     !(victim) ||
@@ -14059,6 +14059,10 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     send_to_char("Your target is already stunned!\r\n", ch);
     return;
   }
+ 
+  percent += (int) (GET_LEVEL(ch) - GET_LEVEL(victim));
+  
+  percent += (int) (GET_C_POW(ch) - GET_C_POW(victim)) * .75;
   
   if(IS_PC_PET(victim))
     percent *= 2;
@@ -14070,7 +14074,7 @@ void spell_pword_stun(int level, P_char ch, char *arg, int type,
     percent *= 1.5;
 
   if(NewSaves(ch, SAVING_SPELL, number(-3, 3)))
-    percent /= 2;
+    percent = (int) percent * .75;
 
   if(percent < 30)
   {

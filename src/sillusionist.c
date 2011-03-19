@@ -1306,11 +1306,11 @@ void spell_shadow_rift(int level, P_char ch, char *arg, int type,
         return;
 
   if(GET_SPEC(ch, CLASS_ILLUSIONIST, SPEC_DARK_DREAMER))
-    CharWait(ch, number(8, 16));
+    CharWait(ch, number(15, 25));
   else if(IS_PC(ch))
-    CharWait(ch, 80);
+    CharWait(ch, 50);
   else
-    CharWait(ch, 5);
+    CharWait(ch, 20);
 
   if(!can_relocate_to(ch, victim))
     return;
@@ -1354,22 +1354,29 @@ void spell_shadow_rift(int level, P_char ch, char *arg, int type,
             ("&+Lthe difference between reality and dreams.  You are &+Wflying&N, &+rc&+Ro&+Yl&+Wo&+Cr&+Bs&+b f&+Bl&+Co&+Ww p&Na&+Lst\r\n",
              targ);
           send_to_char
-            ("&+Lyou like paint in a river.  &NY&+Wou open your eyes and see:&N\r\n",
-             targ);
+            ("&+Lyou like paint in a river.  Then, as if something &+wchanged&+L, you feel a sense of urgency\r\n", targ);
+          send_to_char
+            ("&+Las you begin &+Wfalling &+Lrapidly towards the ground below.  You close your eyes as the &+Gground\r\n", targ);
+          send_to_char
+            ("&+Lrushes towards you...&n\r\n", targ);
+          if (GET_STAT(targ) == STAT_SLEEPING)
+             SET_POS(targ, GET_POS(targ) + STAT_NORMAL);
+          send_to_char
+            ("&+WYou open your eyes and see:&N\r\n", targ);
           char_from_room(targ);
           char_to_room(targ, location, -1);
-          send_to_char
-            ("&+WA&Nr&+Le you really here?  It must be a dream, you must be sleeping.&N\r\n",
-             targ);
           if (GET_STAT(targ) > STAT_SLEEPING)
-            SET_POS(targ, GET_POS(targ) + STAT_SLEEPING);
-
+             SET_POS(targ, GET_POS(targ) + STAT_SLEEPING);
+          send_to_char
+            ("&+WAre you really here?  It must be a dream, you must be sleeping.&N\r\n",
+             targ);
+         
           act("$n falls asleep.", FALSE, targ, 0, 0, TO_ROOM);
           
           if(GET_SPEC(ch, CLASS_ILLUSIONIST, SPEC_DARK_DREAMER))
-            CharWait(targ, 8);
+            CharWait(targ, 25);
           else
-            CharWait(targ, 80);
+            CharWait(targ, 50);
         }
       }
     }

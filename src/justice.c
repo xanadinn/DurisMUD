@@ -101,7 +101,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    */
 
   /* 1. Tharnadia */
-  {JUSTICE_GOODHOME, 132618,
+  {JUSTICE_LEVEL_CHAOS, 132618,
    {133050, 132628, 133057, 133065, 132504}, 132546, 132619, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 8},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -109,7 +109,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 2. iliithid  town */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {96421, 0, 0, 0, 0}, 96421, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -117,7 +117,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 3. drow town */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {36572, 36563, 36544, 0, 0}, 36436, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -125,7 +125,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 4. elftown */
-  {JUSTICE_GOODHOME, 8096,
+  {JUSTICE_LEVEL_CHAOS, 8096,
    {8096, 8087, 8214, 0, 0}, 8025, 8097, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 6},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -133,7 +133,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 5. dwarf town */
-  {JUSTICE_GOODHOME, 95643,
+  {JUSTICE_LEVEL_CHAOS, 95643,
    {95540, 95522, 95650, 0, 0}, 95532, 95644, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 10},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -141,7 +141,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 6. duergar */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {17173, 0, 0, 0, 0}, 17173, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -149,7 +149,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 7. halfling */
-  {JUSTICE_GOODHOME, 16512,
+  {JUSTICE_LEVEL_CHAOS, 16512,
    {16506, 16522, 16526, 16653, 16551}, 16705, 16513, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 5, 0},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -157,7 +157,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 8. gnome town */
-  {JUSTICE_GOODHOME, 66069,
+  {JUSTICE_LEVEL_CHAOS, 66069,
    {66091, 0, 0, 0, 0}, 66001, 66074, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 6},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -165,7 +165,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 9. faange (ogres) */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {15231, 0, 0, 0, 0}, 15231, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -173,7 +173,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 10. ghore (trolls) */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {11503, 0, 0, 0, 0}, 11503, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -181,7 +181,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 11. "ugta"  (barb) */
-  {JUSTICE_GOODHOME, 39310,
+  {JUSTICE_LEVEL_CHAOS, 39310,
    {39100, 39109, 39166, 39310, 0}, 39105, 39341, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 2},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -197,7 +197,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 13. "shady"... orc town */
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {97682, 97569, 97682, 97607, 97612}, 97562, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -213,7 +213,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
   /* 15 "fort marigot" (centaur) */
-  {JUSTICE_GOODHOME, 5307,
+  {JUSTICE_LEVEL_CHAOS, 5307,
    {5319, 5306, 5371, 0, 0}, 5340, 5308, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 8},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -221,7 +221,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
   /* 16  new elftown */
-  {JUSTICE_GOODHOME, 45006,
+  {JUSTICE_LEVEL_CHAOS, 45006,
    {45189, 45205, 45152, 45153, 45036}, 45030, 45036, NULL,
    {0, 2, 5, 10, 15, 20, 10, 10, 5, 12, 20, 2, 2, 8, 8},
    {0, 0, 0, 10, 0, 20, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -229,7 +229,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {6, 11, 16, 21, 26, 9999}},
 
 //  17 "Ancient City Ruins" (good undead)
-  {JUSTICE_GOODHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {66201, 0, 0, 0, 0}, 66201, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -245,7 +245,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
 //  19 "Githyanki Fortress",
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {19400, 0, 0, 0, 0}, 19400, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -253,7 +253,7 @@ struct hometown_data hometowns[LAST_HOME] = {
    {0, 0, 0, 0, 0, 0}},
 
 //  20 "Moregeeth",
-  {JUSTICE_EVILHOME, 0,
+  {JUSTICE_LEVEL_CHAOS, 0,
    {70187, 0, 0, 0, 0}, 70044, 0, NULL,
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
    {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0},
@@ -1796,19 +1796,35 @@ void justice_action_invader(P_char ch)
   zone_struct = &zone_table[world[ch->in_room].zone];
   room = ch->in_room;  
 
-  if(IS_INVADER(ch) && IS_PC(ch))
+  //  Re-doing justice here.  Major idea is to get rid of the overkill response
+  //  which doesn't allow for any hometown raiding, but still not make it far
+  //  too easy for a group to sit in a hometown and frag people all day long.
+  //  I've removed the constant spamming of the justice_raiding event that was
+  //  causing mobs to constantly be spawned to hunt invaders.  Instead, it will
+  //  be applied once only and give a 3 minute opportunity before it is refreshed.
+  //  When it gets refreshed, I'll add a different event as a placeholder/counter.
+  //  If this counter reaches 3x(10 minutes approx), I'll have a reinforcement
+  //  squad issued from another hometown that will 'encourage' the invaders to
+  //  leave.  Hopefully this works out better than justice ever has...  - Jexni 3/4/11
+
+  if(IS_INVADER(ch) && IS_PC(ch) && get_scheduled(ch, event_justice_raiding))
+  {
+    if(!number(0, 1))
+      return;
+  }
+  else
   {
     zone_struct->status = ZONE_RAID;
-    add_event(event_justice_raiding, 800, ch, 0, 0, 0, &room, sizeof(room));
+    add_event(event_justice_raiding, WAIT_SEC * 200, ch, 0, 0, 0, &room, sizeof(room));
   }
 
   if(IS_INVADER(ch))
   {
-    if (!number(0, 12))
-      justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST, 2);
+    if (!number(0, 2))
+      justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST, 1);
   
     if((GET_RACEWAR(ch) == RACEWAR_EVIL) &&
-        !(number(0, 9)) &&
+        !(number(0, 15)) &&
         get_property("justice.alarms.good", 1.000))
     { 
       int rnum = number(1, 4);
@@ -1824,10 +1840,10 @@ void justice_action_invader(P_char ch)
       return;
     }
     else if((GET_RACEWAR(ch) == RACEWAR_GOOD) &&
-              !number(0, 9) &&
+              !number(0, 15) &&
 	      (int)get_property("justice.alarms.evil", 1.000))
     {
-      justice_hometown_echo(CHAR_IN_TOWN(ch), "&+yHorns begin to &+Ybellow &+yand drums &+cthunder&n &+yto the &+RCall to Arms!&n");
+      justice_hometown_echo(CHAR_IN_TOWN(ch), "&+yHorns begin to &+Ybellow &+yand drums &+cthunder&n &+yto the &+Rcall to arms!&n");
       return;
     }
   }
@@ -2343,7 +2359,7 @@ int shout_and_hunt(P_char ch,
   sprintf(buffer, "%s shouts '", ch->player.short_descr);
   sprintf(buffer2, shout_str, CAN_SEE(ch, ch->specials.fighting) ? J_NAME(ch->specials.fighting) : "Someone");
   strcat(buffer, buffer2);
-  strcat(buffer, "&n'");
+  strcat(buffer, "&n'\n");
 
 /*
  * Replacing this with new generic function, ha.

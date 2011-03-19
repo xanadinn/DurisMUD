@@ -475,37 +475,30 @@ void do_outpost(P_char ch, char *arg, int cmd)
       if (GET_OBJ_VNUM(rubble) == BUILDING_RUBBLE)
 	break;
     }
-    // Ok found, now do we own it?
+    // Ok found rubble
     if (rubble && GET_OBJ_VNUM(rubble) == BUILDING_RUBBLE)
     {
       building = get_building_from_rubble(rubble);
       int ownerid = get_outpost_owner(building);
       op = building->mob;
-      if (ownerid == 0 &&
-          GET_A_NUM(ch))
+      if (GET_A_NUM(ch)) // removed check for ownership, who cares about ownership due to kill, it's rubble until it's rebuilt
+                         // and that is when it gets assigned an owner - Jexni 3/18/11 
       {
-        send_to_char("This outpost is unowned, you claim it!\r\n", ch);
+        send_to_char("You being the arduous task of rebuilding the destroyed tower, claiming it for your guild!\r\n", ch);
 	ownerid = GET_A_NUM(ch);
 	update_outpost_owner(ownerid, building);
       }
-      if (GET_A_NUM(ch) != ownerid &&
-          ownerid != 0)
-      {
-        send_to_char("You don't own this outpost!\r\n", ch);
-        return;
-      }
       if (!GET_A_NUM(ch))
       {
-	send_to_char("You must belong to an association to claim an outpost.\r\n", ch);
-	return;
+        send_to_char("You must belong to an association to claim an outpost.\r\n", ch);
+        return;
       }
       if (get_scheduled(op, event_outpost_repair))
-      {
-	send_to_char("The outpost is already being repaired.\r\n", ch);
-	return;
+      {	
+        send_to_char("The outpost is already being repaired.\r\n", ch);
+        return;
       }
-      // Ok we own it, so begin repairs.
-      send_to_char("You begin repairing the outpost.\r\n", ch);
+      // Ok begin repairs.
       SET_POS(ch, POS_STANDING + STAT_NORMAL);
       char_to_room(op, ch->in_room, -2);
       extract_obj(rubble, TRUE);
@@ -559,8 +552,8 @@ void do_outpost(P_char ch, char *arg, int cmd)
 	  return;
         }
 
-	send_to_char("You begin repairing the outpost.\r\n", ch);
-        act("$n begins repairs on the outpost.", TRUE, ch, 0, 0, TO_ROOM);
+	send_to_char("You order repairs to begin upon the outpost.\r\n", ch);
+        act("$n orders repairs begin on the outpost.", TRUE, ch, 0, 0, TO_ROOM);
 	add_event(event_outpost_repair, PULSES_IN_TICK, op, NULL, NULL, 0, NULL, 0);
         return;
       }
@@ -743,7 +736,7 @@ int get_killing_association(P_char ch)
 {
   struct group_list *gl;
   int guild[MAX_ASC];
-  int owner = 0, curmax = 0;
+  int killer = 0, curmax = 0;
     
   for (int i = 0; i < MAX_ASC; i++)
   {
@@ -757,8 +750,8 @@ int get_killing_association(P_char ch)
       return 0;
     else
     {
-      owner = GET_A_NUM(ch);
-      return owner;
+      killer = GET_A_NUM(ch);
+      return killer;
     }
   }
   else
@@ -773,7 +766,7 @@ int get_killing_association(P_char ch)
   
   // Lets find out who has the most guild members in group
   curmax = guild[0];
-  owner = 0;
+  killer = 0;
   for (int i = 0; i < MAX_ASC; i++)
   {
     // If there is a tie, check prestige.
@@ -783,19 +776,19 @@ int get_killing_association(P_char ch)
     }
     else if (guild[i] == curmax)
     {
-      if (get_assoc_prestige(i) > get_assoc_prestige(owner))
+      if (get_assoc_prestige(i) > get_assoc_prestige(killer))
       {
-	owner = i;
+	killer = i;
       }
     }
     else if(guild[i] > curmax)
     {
-      owner = i;
+      killer = i;
       curmax = guild[i];
     }
   }
   
-  return owner;
+  return killer;
 }
 
 // Add resources to a player's guild's current resource pool
