@@ -220,7 +220,14 @@ bool EntranceRoom::init()
       GET_HOME(golem) = GET_BIRTHPLACE(golem) = GET_ORIG_BIRTHPLACE(golem) = this->vnum;
       
       GET_A_NUM(golem) = this->guildhall->assoc_id;
-      
+      if(this->guildhall->racewar == RACEWAR_GOOD)
+      {
+         SET_BIT(golem->only.npc->aggro_flags, AGGR_EVIL_RACE);
+      }
+      else if(this->guildhall->racewar == RACEWAR_EVIL)
+      {
+         SET_BIT(golem->only.npc->aggro_flags, AGGR_GOOD_RACE);
+      } 
       add_tag_to_char(golem, TAG_GUILDHALL, this->guildhall->id, AFFTYPE_PERM);
       add_tag_to_char(golem, TAG_DIRECTION, rev_dir[this->value[GH_VALUE_ENTRANCE_DIR]], AFFTYPE_PERM);      
             

@@ -479,13 +479,16 @@ void do_outpost(P_char ch, char *arg, int cmd)
     if (rubble && GET_OBJ_VNUM(rubble) == BUILDING_RUBBLE)
     {
       building = get_building_from_rubble(rubble);
-      int ownerid = get_outpost_owner(building);
-      op = building->mob;
-      if (GET_A_NUM(ch)) // removed check for ownership, who cares about ownership due to kill, it's rubble until it's rebuilt
-                         // and that is when it gets assigned an owner - Jexni 3/18/11 
+      if(!building)
       {
-        send_to_char("You being the arduous task of rebuilding the destroyed tower, claiming it for your guild!\r\n", ch);
-	ownerid = GET_A_NUM(ch);
+         wizlog(56, "Failed to get building id from rubble.");
+         raise(SIGSEGV);
+      }
+      op = building->mob;
+      if (GET_A_NUM(ch))
+      {
+        send_to_char("You begin the arduous task of rebuilding the destroyed tower, claiming it for your guild!\r\n", ch);
+	int ownerid = GET_A_NUM(ch);
 	update_outpost_owner(ownerid, building);
       }
       if (!GET_A_NUM(ch))
@@ -703,8 +706,7 @@ void outpost_death(P_char outpost, P_char killer)
   reset_one_outpost(building);
   GET_HIT(building->mob) = 0;
   set_current_outpost_hitpoints(building);
-  ownerid = get_killing_association(killer);
-  update_outpost_owner(ownerid, building);
+  update_outpost_owner(0, building);
   // Remove players from inside the outpost.
   for (int i = 0; i < building->rooms.size(); i++)
   {
@@ -1236,7 +1238,7 @@ int outpost_generate_portals(Building *building)
   else
   {
     debug("building->guild_id: %d", building->guild_id);
-    if (Guildhall *gh = Guildhall::find_by_id(building->guild_id))
+    if (Guildhall *gh = Guildhall::find_by_assoc_id(building->guild_id))
     {
       if (gh->heartstone_room)
         guildhall_room = gh->heartstone_room->vnum;

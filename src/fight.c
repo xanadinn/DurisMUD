@@ -3443,11 +3443,6 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
   /* Being berserked incurs more damage from spells. Ouch. */
   if(affected_by_spell(victim, SKILL_BERSERK))
   {
-// Mountain and duergar dwarves do not receive addition berserk damage from spells.
-    if((GET_RACE(ch) == RACE_DUERGAR) ||
-       GET_RACE(ch) == RACE_MOUNTAIN)
-    { }
-    else
     { // 110%
       dam *= dam_factor[DF_BERSERKSPELL];
     }
@@ -3466,7 +3461,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     }
   }
 
-  // Lom: as I moved elementalist dam update here, so vamping(fire elemental fro mfire spell)
+  // Lom: as I moved elementalist dam update here, so vamping(fire elemental from fire spell)
   //      will be correctly increased as he does more dmg
   if(ELEMENTAL_DAM(type) &&
     GET_SPEC(ch, CLASS_SHAMAN, SPEC_ELEMENTALIST) &&
@@ -4048,21 +4043,21 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         {
           if(GET_LEVEL(victim) >= 46)
           {
-            levelmod = 1.50;
+            levelmod = 1.75;
           }
           if(GET_LEVEL(victim) >= 51)
           {
-            levelmod = 2.0;
+            levelmod = 1.5;
           }
           if(GET_LEVEL(victim) >= 56)
           {
-            levelmod = 2.5;
+            levelmod = 1.25;
           }
-          dam = (int) (dam / levelmod);
+          dam = (int) (dam * levelmod);
         }  
         //dam *= get_property("damage.holy.increase.modifierVsUndead", 2.000);
         
-        if(levelmod < 2.5) // Message is not displayed versus level 56 and greater vampires.
+        if(GET_LEVEL(victim) < 56) // Message is not displayed versus level 56 and greater vampires.
         {
           act("$N&+W wavers in agony, as the positive energies purge $s undead essence!&n",
             FALSE, ch, 0, victim, TO_CHAR);
@@ -4092,7 +4087,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       break;
     case SPLDAM_NEGATIVE:
       if (victim && IS_ANGEL(victim))
-        dam *= get_property("damage.neg.increase.modifierVsAngel", 1.300);
+        dam *= get_property("damage.neg.increase.modifierVsAngel", 1.500);
       if (IS_AFFECTED2(victim, AFF2_SOULSHIELD))
         dam *= dam_factor[DF_SLSHIELDINCREASE];
       if (IS_AFFECTED4(victim, AFF4_NEG_SHIELD))
@@ -5107,6 +5102,7 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
     !IS_AFFECTED4(ch, AFF4_BATTLE_ECSTASY) &&
     IS_AFFECTED4(victim, AFF4_HOLY_SACRIFICE) &&
     (flags & RAWDAM_HOLYSAC) &&
+    !affected_by_spell(victim, SPELL_BMANTLE) &&
     !affected_by_spell(victim, SPELL_PLAGUE)) &&
     ((GOOD_RACE(victim) && !GOOD_RACE(ch)) ||
      (EVIL_RACE(victim) && !EVIL_RACE(ch))))
@@ -6550,7 +6546,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     gvict = grapple_attack_check(victim);
     if (gvict && (gvict != ch))
     {
-      chance = grapple_attack_chance(ch, gvict, 0);
+      chance = grapple_misfire_chance(ch, gvict, 0);
       if (number(1, 100) <= chance)
       {
         victim = gvict;
@@ -6641,29 +6637,26 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     if (GET_CHAR_SKILL(victim, SKILL_INDOMITABLE_RAGE) > number(50, 160) &&
       affected_by_spell(victim, SKILL_BERSERK))
     {
-      act("The critical hit sends you into a pure berserk trance! &+RROARRRRRRR!&n\n", TRUE, ch,
+      act("$n&+W's critical hit sends you into a &+rpure &+Rberserk &+rtrance! &+RROARRRRRRR!&n\n", TRUE, ch,
             0, victim, TO_VICT);
       act("$N lets out a fearsome &+RROAR&n!\n", TRUE, ch, 0, victim, TO_CHAR);
       sic = 0;
-      if (!fear_check(ch) &&
-            NewSaves(ch, SAVING_FEAR, 0))
-      //do_flee(ch, 0, 0);
-            bzero(&ir, sizeof(ir));
+
+      bzero(&ir, sizeof(ir));
       ir.type = SKILL_INDOMITABLE_RAGE;
       ir.duration = 5;
       ir.flags = AFFTYPE_SHORT;
       //hitroll
-      ir.modifier = -20;
+      ir.modifier = 5;
       ir.location = APPLY_HITROLL;
         affect_to_char(ch, &ir);
       //damroll
-      ir.modifier = -20;
+      ir.modifier = 5;
       ir.location = APPLY_DAMROLL;
         affect_to_char(ch, &ir);
       //save fear
-      ir.modifier = 20;
+      ir.modifier = -5;
       ir.location = APPLY_SAVING_FEAR;
-      
       affect_to_char(ch, &ir);
     }
   }
@@ -6728,7 +6721,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     dam = dice(ch->points.damnodice, ch->points.damsizedice);
   }
   else
-    dam = number(0, 2);         /* 1d3 - 1 dam with bare hands */
+    dam = number(1, 4);         /* 1d4 dam with bare hands */
 
   if (weapon)
   {
@@ -6749,11 +6742,11 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   if (sic == -1 && GET_CHAR_SKILL(ch, SKILL_DEVASTATING_CRITICAL) > devcrit)
   {
-    dam = (int) ((float) dam * ((float) number(4, 7) / 1.5));
+    dam = (int) (dam * 2.5);
   }
   else if (sic == -1)
   {
-    dam = (int) ((float) dam * ((float) number(4, 7) / 2.00));
+    dam = (int) (dam * 2.0);
   }
 
   if(GET_CLASS(ch, CLASS_MONK) &&
@@ -6776,11 +6769,10 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     }
   }
 
-  // low weapon skill affects damage - used to be offense skill check
-  if(sic != -1 &&
-    wpn_skill < number(1, 101))
+  // Weapon skill check, used to be offense.
+  if(sic != -1)
   {
-    dam = (int) (dam * number(3, 10) / 10);
+    dam = (int) (dam * (wpn_skill / 100)); // maxes at .95 mod
   }
   
   if (has_divine_force(ch))
@@ -6804,7 +6796,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     
     if(IS_NPC(ch) &&
        IS_ELITE(ch))
-          vs_skill += 100;
+          vs_skill += number(25, 100);
   }
   if (vs_skill > 0 &&
       (notch_skill(ch, SKILL_VICIOUS_STRIKE,
@@ -6817,7 +6809,9 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
              * GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE);
     }
     else if(IS_ELITE(ch))
-      dam += GET_LEVEL(ch) * 2;
+      dam += (int) GET_LEVEL(ch) * 1.5;
+    else if(IS_GREATER_RACE(ch))
+      dam += GET_LEVEL(ch) * 1.25;
     else if(IS_NPC(ch))
       dam += GET_LEVEL(ch);
 

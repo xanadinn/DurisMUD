@@ -3878,6 +3878,13 @@ void do_headbutt(P_char ch, char *argument, int cmd)
 
     if (get_takedown_size(victim) < get_takedown_size(ch))
       dam = (int) (dam * 1.5);
+    
+    memset(&af, 0, sizeof(af));
+    af.type = SKILL_HEADBUTT;
+    af.duration = (int) (PULSE_VIOLENCE * 3);
+    af.flags = AFFTYPE_SHORT;
+    affect_to_char(ch, &af);
+    CharWait(ch, PULSE_VIOLENCE * 2);
 
     if (melee_damage(victim, ch, dam, PHSDAM_NOPOSITION | PHSDAM_TOUCH | PHSDAM_NOREDUCE, &fail_messages)
         != DAM_NONEDEAD)
@@ -3889,6 +3896,13 @@ void do_headbutt(P_char ch, char *argument, int cmd)
   {
     // merely failed
     dam = number(0, 25);
+    
+    memset(&af, 0, sizeof(af));
+    af.type = SKILL_HEADBUTT;
+    af.duration = (int) (PULSE_VIOLENCE * 2);
+    af.flags = AFFTYPE_SHORT;
+    affect_to_char(ch, &af);
+    CharWait(ch, PULSE_VIOLENCE * 1.5);
 
     if (melee_damage(victim, ch, dam, PHSDAM_NOPOSITION, &fail_messages)
         != DAM_NONEDEAD)
@@ -3929,7 +3943,7 @@ void do_headbutt(P_char ch, char *argument, int cmd)
 
     memset(&af, 0, sizeof(af));
     af.type = SKILL_HEADBUTT;
-    af.duration = (int) (2.5 *PULSE_VIOLENCE);
+    af.duration = (int) (PULSE_VIOLENCE * 2.5);
     af.flags = AFFTYPE_SHORT;
     affect_to_char(ch, &af);
     CharWait(ch, (int) (PULSE_VIOLENCE * 1.5));
@@ -3944,7 +3958,7 @@ void do_headbutt(P_char ch, char *argument, int cmd)
     {
       send_to_char("Wow!  Look at all those stars!!\n", victim);
       CharWait(victim, (int) (PULSE_VIOLENCE * 1));
-      Stun(victim, ch, (int) (PULSE_VIOLENCE * 1.5), TRUE);
+      Stun(victim, ch, (int) (PULSE_VIOLENCE * 1.5), FALSE);
     }
     else if (tmp_num < 11)
     {
@@ -3952,7 +3966,7 @@ void do_headbutt(P_char ch, char *argument, int cmd)
 
       if (number(0,4)) {
         CharWait(victim, (int) (PULSE_VIOLENCE * 0.5));
-        Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5), TRUE);
+        Stun(victim, ch, (int) (PULSE_VIOLENCE * 0.5), FALSE);
       }
     }
     else

@@ -17847,8 +17847,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
         act("The Horseman of &+yF&+Ya&+ym&+Yi&+yn&+Ye&N glares at $N!",
           TRUE, tch, 0, 0, TO_CHAR);
         
-        send_to_char
-          ("&+LThe Horseman of &+yF&+Ya&+ym&+Yi&+yn&+Ye &+Lglares at you with &+rdeathly g&+Rl&+wo&+Ww&+wi&+Rn&+rg eyes/r/n&+Lcausing you to lose your &+Yconcentration./n", tch);
+        act("&+LThe Horseman of &+yF&+Ya&+ym&+Yi&+yn&+Ye &+Lglares at you with &+rdeathly g&+Rl&+wo&+Ww&+wi&+Rn&+rg eyes&L&+Lcausing you to lose your &+Yconcentration.", FALSE, tch, 0, ch, TO_CHAR);
            
         Stun(tch, ch, PULSE_VIOLENCE * 1, TRUE);
         

@@ -2127,8 +2127,8 @@ void spell_cannibalize(int level, P_char ch, char *arg, int type, P_char victim,
   
   act("You will leach &+Rpower&n from those who oppose you!",
     FALSE, ch, 0, 0, TO_CHAR);
-  act("$n is surrounded by a &+Mmagenta haze&n quick dissipates quickly.",
-    FALSE, ch, 0, 0, TO_CHAR);
+  act("$n is surrounded by a &+Mmagenta haze&n which dissipates quickly.",
+    FALSE, ch, 0, 0, TO_ROOM);
     
     return;
   }

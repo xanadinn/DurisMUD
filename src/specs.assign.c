@@ -2338,7 +2338,6 @@ void assign_rooms(void)
   /* Shady */
   world[real_room0(97757)].funct = pet_shops;
   world[real_room0(76241)].funct = pet_shops;
-  mob_index[real_mobile0(97562)].func.mob = winterhaven_shout_two;
 
   world[real_room0(97663)].funct = inn;
 
@@ -2393,7 +2392,6 @@ void assign_rooms(void)
   world[real_room0(55418)].funct = crew_shop_proc;  // Winterhaven
   //world[real_room0()].funct = crew_shop_proc;  // TODO: Stronghold
   world[real_room0(22648)].funct = crew_shop_proc;  // Stronghold -temporary room
-  mob_index[real_mobile0(132546)].func.mob = winterhaven_shout_one;
 
   // Fiord on west side of GC.
   world[real_room0(559633)].funct = ship_shop_proc;

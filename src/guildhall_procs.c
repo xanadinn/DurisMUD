@@ -149,9 +149,14 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
     }
     else
     {
-      act("$N glares at you and refuses to let you pass.", FALSE, pl, 0, ch, TO_CHAR);
-      act("$N glares at $n and refuses to let them pass.", FALSE, pl, 0, ch, TO_NOTVICT);      
-      return TRUE;
+      if(IS_WARRIOR(ch))
+      {
+         act("$N glares at you and knocks you to the ground.", FALSE, pl, 0, ch, TO_CHAR);
+         act("$N glares at $n and knocks $m to the ground.", FALSE, pl, 0, ch, TO_NOTVICT);
+         SET_POS(pl, GET_STAT(ch) + POS_SITTING);
+         CharWait(pl, WAIT_SEC * 2); 
+         return TRUE;
+      }
     }
 
     return TRUE;

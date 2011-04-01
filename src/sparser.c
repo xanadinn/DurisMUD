@@ -735,14 +735,6 @@ void say_spell(P_char ch, int si)
   sprintf(Gbuf2, "$n utters the word%s '%s'", space ? "s" : "", Gbuf1);
   sprintf(Gbuf1, "$n utters the word%s '%s'", space ? "s" : "", skills[si].name);
   
-// Let us not have players sit around teachers to notch skills. Jan08 -Lucrot
-  if(IS_ACT(ch, ACT_TEACHER) ||
-     IS_ACT(ch, ACT_SPEC_TEACHER) ||
-     IS_TRUSTED(ch))
-  {
-    return;
-  }
-
 // This for allows players who hear a spell being casted the opportunity to notch.
   for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room)
   {
@@ -2468,7 +2460,7 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     gvict = grapple_attack_check(tar_char);
     if (gvict && (gvict != ch))
     {
-      chance = grapple_attack_chance(ch, gvict, 1);
+      chance = grapple_misfire_chance(ch, gvict, 1);
       if (number(1, 100) <= chance)
       {
         tar_char = gvict;
