@@ -1621,7 +1621,7 @@ void event_enchant(P_char ch, P_char victim, P_obj item, void *data)
       return;
     }
     skill = GET_CHAR_SKILL(ch, SKILL_ENCHANT);
-    if(!number(0, 9)) // straight 10% chance to fail
+    if(!number(0, skill - 10))
     {
       act
         ("$n utters a foul curse as $e pours too much acid on $q.&L$n's $q was damaged as the acid eats into it!",
@@ -1629,7 +1629,7 @@ void event_enchant(P_char ch, P_char victim, P_obj item, void *data)
       act
         ("You utter a foul curse as you pour too much acid on the $q.&LYour $q was damaged as the acid eats into it!",
         FALSE, ch, item, 0, TO_CHAR);
-      item->condition = item->condition - number(10, 50);
+      item->condition = item->condition - number(5, 10);
       
       if(item->condition < 1)
       {
@@ -1640,7 +1640,7 @@ void event_enchant(P_char ch, P_char victim, P_obj item, void *data)
         return;
       }
       
-      if(!number(0, 1))
+      if(!number(0, 5))
       {
         act("$q &+yglows bright and eerie!&n", FALSE, ch, item, 0, TO_ROOM);
         act("$q &+yglows bright and eerie!&n", FALSE, ch, item, 0, TO_CHAR);
@@ -1673,11 +1673,10 @@ void event_enchant(P_char ch, P_char victim, P_obj item, void *data)
       REMOVE_BIT(item->wear_flags, ITEM_WEAR_BACK);
     }
 
-    // enchant will last skill * real time min's now
     if(ch && 
        item)
     {
-      set_obj_affected(item, skill * WAIT_MIN, SKILL_ENCHANT, spll);
+      set_obj_affected(item, (skill / 2) * WAIT_MIN, SKILL_ENCHANT, spll);
     }
   }
 }
