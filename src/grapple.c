@@ -98,7 +98,7 @@ P_char grapple_attack_check(P_char ch)
   return grappler;
 }
 
-int grapple_attack_chance(P_char ch, P_char victim, int type)
+int grapple_misfire_chance(P_char ch, P_char victim, int type)
 {
   int chance;
 

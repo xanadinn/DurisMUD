@@ -631,6 +631,11 @@ static void setbit_char(P_char ch, char *name, char *flag, char *val,
           send_to_char("You aren't allowed to set the level that high.\r\n", ch);
           return;
         }
+	if( IS_PC(ppl) && (atoi(val) > MAXLVL) )
+	{
+	  send_to_char("You can't setbit someone's level above 62.  Changing value to 62.\r\n", ch);
+	  sprintf(val, "62");
+	}
       }
       if (SAME_STRING(flag, "winvis") &&
           (atoi(val) >= MIN(60, GET_LEVEL(ch))))

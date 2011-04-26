@@ -1,7 +1,11 @@
 //
-// Outposts and buildings are not attached to the mud, but is here in case someone wants to clean up and finish the code,
-// which was started by Torgal in 2008 and then continued by Venthix in 2009.
+// Started by Torgal in 2008 and then continued by Venthix in 2009.
 // - Torgal 1/29/2010
+//
+// Outposts are now implemented using the buildings.c code.  Eventually
+// need to clean up and make building code and outpost code more seperate
+// so buildings can expand in other directions.
+// - Venthix 4/15/2011
 //
 
 /* outposts.c
@@ -35,6 +39,7 @@ using namespace std;
 #include "utility.h"
 #include "guildhall.h"
 #include "alliances.h"
+#include "events.h"
 
 extern P_index mob_index;
 extern P_index obj_index;
@@ -169,7 +174,7 @@ void show_outposts(P_char ch)
   for (i = 0; i <= buildings.size(); i++)
   {
     building = get_building_from_id(i+1);
-    if (!qry("SELECT id, owner_id, archers, portal_room, golems, hitpoints FROM outposts WHERE id = %d", i))
+    if (!qry("SELECT id, owner_id, archers, portal_room, golems, hitpoints, meurtriere FROM outposts WHERE id = %d", i))
     {
       debug("show_outposts() cant read from db");
       return;
@@ -190,6 +195,7 @@ void show_outposts(P_char ch)
     int portal = atoi(row[3]);
     int golems = atoi(row[4]);
     int hitp = atoi(row[5]);
+    int meurtriere = atoi(row[6]);
 
     mysql_free_result(res);
 
@@ -212,7 +218,7 @@ void show_outposts(P_char ch)
     send_to_char(buff, ch);
     if (IS_TRUSTED(ch) || ((owner != 0) && (owner == GET_A_NUM(ch))))
     {
-      sprintf(buff, "       &+LGateguards: &+c%d &+LPortal: &+c%-4s &+LArchers: &+c%-4s&n\r\n", golems, (portal ? "Yes" : "No"), (archers ? "Yes" : "No"));
+      sprintf(buff, "       &+LGateguards: &+c%d &+LPortal: &+c%-4s &+LArchers: &+c%-4s &+LMeurtriere: &+c%-4s&n\r\n", golems, (portal ? "Yes" : "No"), (archers ? "Yes" : "No"), (meurtriere ? "Yes" : "No"));
       send_to_char(buff, ch);
       int basehit = building_types[BUILDING_OUTPOST-1].hitpoints;
       sprintf(buff, "       &+LOutpost Condition: %s%-6d&+L/&+c%d&n\r\n",
@@ -329,6 +335,56 @@ int get_outpost_golems(Building *building)
   return golems;
 }
 
+int get_outpost_archers(Building *building)
+{
+  if (!qry("SELECT id, archers FROM outposts WHERE id = %d", building->id-1))
+  {
+    debug("get_outpost_archers() cant read from db");
+    return FALSE;
+  }
+
+  MYSQL_RES *res = mysql_store_result(DB);
+
+  if (mysql_num_rows(res) < 1)
+  {
+    mysql_free_result(res);
+    return FALSE;
+  }
+
+  MYSQL_ROW row = mysql_fetch_row(res);
+
+  int archers = atoi(row[1]);
+
+  mysql_free_result(res);
+
+  return archers;
+}
+
+int get_outpost_meurtriere(Building *building)
+{
+  if (!qry("SELECT id, meurtriere FROM outposts WHERE id = %d", building->id-1))
+  {
+    debug("get_outpost_meurtriere() cant read from db");
+    return FALSE;
+  }
+
+  MYSQL_RES *res = mysql_store_result(DB);
+
+  if (mysql_num_rows(res) < 1)
+  {
+    mysql_free_result(res);
+    return FALSE;
+  }
+
+  MYSQL_ROW row = mysql_fetch_row(res);
+
+  int meurtriere = atoi(row[1]);
+
+  mysql_free_result(res);
+
+  return meurtriere;
+}
+
 int get_guild_resources(int id, int type)
 {
   if ((type != WOOD) && (type != STONE))
@@ -393,10 +449,31 @@ void do_outpost(P_char ch, char *arg, int cmd)
       return;
     }
     
-    // Option here to reset an outpost based on target in room.
 
-    send_to_char("Resetting all outposts.\n", ch);
-    reset_outposts(ch);
+    // Option here to reset an outpost based on target in room.
+    if (!str_cmp("all", buff3))
+    {
+      send_to_char("Resetting all outposts.\n", ch);
+      reset_outposts(ch);
+    }
+    else if (!isdigit(*buff3))
+    {
+      send_to_char("You must specify the outpost ID or 'all'.", ch);
+      return;
+    }
+    else
+    {
+      int id = atoi(buff3);
+      building = get_building_from_id(id);
+      if (!building)
+      {
+	send_to_char("Invalid outpost ID.\r\n", ch);
+	return;
+      }
+      reset_one_outpost(building);
+      sprintf(buff, "You reset outpost # %d.", id);
+      return;
+    }
 
     return;
   }
@@ -638,9 +715,85 @@ void do_outpost(P_char ch, char *arg, int cmd)
   }
   // END GOLEM
 
+  // BEGIN ARCHERS
+  if (!str_cmp("archers", buff2))
+  {
+    int cost = (int)get_property("outpost.cost.archers", 0);
+
+    if (!CAN_CONSTRUCT_CMD(ch) && !IS_TRUSTED(ch))
+    {
+      send_to_char("You need to be the leader of the guild to use this command.\r\n", ch);
+      return;
+    }
+
+    if (!(building = get_building_from_room(ch->in_room)))
+    {
+      send_to_char("You need to be inside your outpost to use this command.\r\n", ch);
+      return;
+    }
+
+    if (get_outpost_archers(building))
+    {
+      send_to_char("You already own archers.\r\n", ch);
+      return;
+    }
+
+    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+    {
+      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase outpost archers.");
+      return;
+    }
+    
+    db_query("UPDATE outposts SET archers = '1' WHERE id = '%d'", building->id-1);
+    send_to_char("You hire archers to defend your outpost.\r\n", ch);
+    return;
+  }
+  // END ARCHERS
+ 
+  // BEGIN MEURTRIERE
+  if (!str_cmp("meurtriere", buff2))
+  {
+    int cost = (int)get_property("outpost.cost.meurtriere", 0);
+
+    if (!CAN_CONSTRUCT_CMD(ch) && !IS_TRUSTED(ch))
+    {
+      send_to_char("You need to be the leader of the guild to use this command.\r\n", ch);
+      return;
+    }
+
+    if (!(building = get_building_from_room(ch->in_room)))
+    {
+      send_to_char("You need to be inside your outpost to use this command.\r\n", ch);
+      return;
+    }
+
+    if (get_outpost_meurtriere(building))
+    {
+      send_to_char("You already have a meurtriere.", ch);
+      return;
+    }
+
+    if (!IS_TRUSTED(ch) && !sub_money_asc(building->guild_id, cost/1000, 0, 0, 0))
+    {
+      send_to_guild(building->guild_id, "The Guild Banker", "There are not enough guild funds to purchase an meurtriere.");
+      return;
+    }
+
+    db_query("UPDATE outposts SET meurtriere = '1' WHERE id = '%d'", building->id-1);
+    send_to_char("Your outpost gate now posseses a meurtriere.", ch);
+    return;
+  }
+  // END MEURTRIERE
+
   if (!str_cmp("?", buff2) || !str_cmp("help", buff2))
   {
-    send_to_char("options available: repair, portal, golem, drop\r\n", ch);
+    if (IS_TRUSTED(ch))
+      send_to_char("&+CMortal Options&n", ch);
+    send_to_char("Options Available: Archers, Drop, Golem, Meurtriere, Portal, Repair\r\n", ch);
+    if (IS_TRUSTED(ch))
+    {
+      send_to_char("&+CImmortal Options:&n\r\nOptions Available: Reload [id|all] (&+Lnot implemented&n), Reset[id|all]", ch);
+    }
     return;
   }
 
@@ -863,7 +1016,7 @@ void reset_one_outpost(Building *building)
   }
   id = building->id-1;
 
-  db_query("UPDATE outposts SET owner_id = '0', level = '8', walls = '1', archers = '0', hitpoints = '%d', portal_room = '0' WHERE id = '%d'", building_types[BUILDING_OUTPOST-1].hitpoints, id);
+  db_query("UPDATE outposts SET owner_id = '0', level = '8', walls = '1', archers = '0', meurtriere = '0', hitpoints = '%d', portal_room = '0' WHERE id = '%d'", building_types[BUILDING_OUTPOST-1].hitpoints, id);
 
   GET_MAX_HIT(building->mob) = building->mob->points.base_hit = GET_HIT(building->mob) = building_types[BUILDING_OUTPOST-1].hitpoints;
 
@@ -1091,6 +1244,9 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
     char_to_room(ch, real_room(ch->player.birthplace), -1);
     act("$n pops into existence.&n", FALSE, ch, 0, 0, TO_ROOM);
   }
+
+  if (ch->group && ch->group->ch && !IS_PC(ch->group->ch))
+    group_remove_member(ch);
   
   // Make sure the gate guards update with the new owner
   Building *building = get_building_from_gateguard(ch);
@@ -1188,6 +1344,15 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
     return FALSE;
   }
   
+  if (get_outpost_meurtriere(building) &&
+      (cmd == CMD_GOTHIT || cmd == CMD_GOTNUKED))
+  {
+    // throw some percentages around and attack the room, we can't very well
+    // judge where we throw oil down the murder hole can we?
+    if (number(1, 100) < (int)get_property("outpost.meurtriere.attack.rate", 1))
+      outpost_meurtriere_attack(ch);
+  }
+
   if (pl && (cmd == CMD_GOTHIT && !number(0, 15)) ||
       (cmd == CMD_HIT || cmd == CMD_KILL))
   {
@@ -1205,8 +1370,6 @@ int outpost_gateguard_proc(P_char ch, P_char pl, int cmd, char *arg)
 	act(buff, FALSE, i->character, 0, pl, TO_CHAR);
     return FALSE;
   }
-  
-  return FALSE;
   
   return FALSE;
 }
@@ -1370,6 +1533,111 @@ void outposts_upkeep()
       }
     }
   }
+}
+
+int outpost_archer_attack(P_char ch, P_char vict)
+{
+  char buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH], buf3[MAX_STRING_LENGTH];
+
+  sprintf(buf, "You feel a sharp pain in your side as an arrow finds its mark!");
+  sprintf(buf1, "You hear a dull thud as an arrow pierces $n!");
+  sprintf(buf2, "An arrow whistles by your ear, barely missing you!");
+  sprintf(buf3, "An arrow narrowly misses $n!");
+
+  if (IS_TRUSTED(vict))
+    return 0;
+
+  //if someone wants to add a stat based save here, you're welcome to.
+  if (number(1, 100) <= (int)get_property("outpost.archers.hit.chance", 60))
+  {
+    act(buf, 1, ch, 0, vict, TO_VICT);
+    act(buf1, 1, vict, 0, 0, TO_NOTVICT);
+    if (!IS_TRUSTED(vict))
+      GET_HIT(vict) -= dice((int)get_property("outpost.archers.dice.hit", 5), (int)get_property("outpost.archers.dice.dam", 5));
+    if (number(1, 100) < (int)(get_property("outpost.archers.hit.chance", 60)/4))
+    {
+      GET_HIT(vict) -= (int)((GET_HIT(vict) / 10) * get_property("outpost.archers.crit.multi", 1));
+      send_to_char("&+RThe arrow pierces extremely deep!&n\r\n", vict);
+    }
+    if (GET_HIT(vict) < -10)
+    {
+      send_to_char("Alas, your wounds prove too much for you...\r\n", vict);
+      die(vict, ch);
+      return TRUE;
+    }
+    StartRegen(vict, EVENT_HIT_REGEN);
+    update_pos(vict);
+    return TRUE;
+  }
+  else
+  {
+    act(buf2, 1, ch, 0, vict, TO_VICT);
+    act(buf3, 1, vict, 0, 0, TO_NOTVICT);
+    return 0;
+  }
+
+  return 0;
+}
+
+int outpost_meurtriere_attack(P_char ch)
+{
+  // ch = gateguard
+  // when gateguard attacked, there's a chance a murder hole attack will
+  // go off.  this attack will attack everyone in the room, yes everyone.
+  // First the oil, then the fire.  Can make this DoT fire damage.
+  P_char vict, next_vict;
+  char buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH];
+  char buf2[MAX_STRING_LENGTH], buf3[MAX_STRING_LENGTH];
+
+  sprintf(buf, "&+LThe &+Rburning &+Loil splashes on you causing severe &+Rpain&+L!&n");
+  sprintf(buf1, "&+LThe &+Rburning &+Loil splashes on $n causing him severe &+Rpain&+L!");
+  sprintf(buf2, "You narrowly avoid being smothered in &+Rsearing &+Loil&n!");
+  sprintf(buf3, "$n narrowly avoids being smothered in &+Rsearing &+Loil&n!");
+
+  // Make sure we're in the gates.
+  if (world[ch->in_room].sector_type != SECT_CASTLE_GATE)
+    return 0;
+
+  // Ok we're in the gates of the outpost.
+  for (vict = world[ch->in_room].people; vict; vict = next_vict)
+  {
+    next_vict = vict->next_in_room;
+    
+    if (IS_TRUSTED(vict))
+      continue;
+
+    //if someone wants to add a stat based save here, you're welcome to.
+    if (number(1, 100) <= (int)get_property("outpost.meurtriere.hit.chance", 60))
+    {
+      act(buf, 1, ch, 0, vict, TO_VICT);
+      act(buf1, 1, vict, 0, 0, TO_NOTVICT);
+      if (!IS_TRUSTED(vict))
+        GET_HIT(vict) -= dice((int)get_property("outpost.meurtriere.dice.hit", 5), (int)get_property("outpost.meurtriere.dice.dam", 5));
+      if (number(1, 100) < (int)(get_property("outpost.meurtriere.hit.chance", 60)/4))
+      {
+        GET_HIT(vict) -= (int)((GET_HIT(vict) / 20) * get_property("outpost.meurtriere.crit.multi", 1));
+        send_to_char("&+ROUCH! &+LThe oil seeps deep into your &+Rwounds&+L!&n\r\n", vict);
+      }
+      if (GET_HIT(vict) < -10)
+      {
+        send_to_char("Alas, your wounds prove too much for you...\r\n", vict);
+        die(vict, ch);
+        continue;
+      }
+      StartRegen(vict, EVENT_HIT_REGEN);
+      update_pos(vict);
+      continue;
+    }
+    else
+    {
+      act(buf2, 1, ch, 0, vict, TO_VICT);
+      act(buf3, 1, vict, 0, 0, TO_NOTVICT);
+      continue;
+    }
+  }
+
+  return 0;
 }
 
 #endif

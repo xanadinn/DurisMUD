@@ -58,6 +58,10 @@ int guildhall_golem(P_char ch, P_char pl, int cmd, char *arg)
     char_to_room(ch, real_room(ch->player.birthplace), -1);
     act("$n pops into existence.&n", FALSE, ch, 0, 0, TO_ROOM);
   }
+
+  // why can't gh golems have some AI?
+  if (ch->group && ch->group->ch && !IS_PC(ch->group->ch))
+    group_remove_member(ch);
   
   //
   // standard checks

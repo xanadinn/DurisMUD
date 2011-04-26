@@ -17,9 +17,13 @@
 #include "alliances.h"
 #include "assocs.h"
 #include "outposts.h"
+#include "events.h"
 
 extern P_room world;
 extern P_index mob_index;
+extern void disarm_single_event(P_nevent);
+extern P_event current_event;
+extern const char *get_event_name(P_event);
 
 vector<Building*> buildings;
 
@@ -247,7 +251,27 @@ int check_outpost_death(P_char ch, P_char killer)
       affect_remove(ch, af);
     }
   }
-  
+
+  /*  and this doesn't work...
+  // hack to clear event damage spells killing outpost multiple times
+  if (current_event && current_event->actor.a_ch == ch)
+    current_event = NULL;
+  while (get_linking_char(ch, LNK_EVENT))
+  {
+    if (P_char evch = get_linking_char(ch, LNK_EVENT))
+    {
+      P_nevent nevent = NULL;
+      LOOP_EVENTS(nevent, evch->nevents)
+	if (nevent->victim == ch)
+	{
+	  nevent->victim = NULL;
+	  disarm_single_event(nevent);
+	}
+    }
+  }
+  */
+
+  clear_all_links(ch);
   ClearCharEvents(ch);
 
   ch->specials.conditions[DISEASE_TYPE] = 0;
@@ -298,7 +322,7 @@ int building_mob_proc(P_char ch, P_char pl, int cmd, char *arg)
     SET_BIT(ch->specials.act, ACT_SPEC_DIE);
     return TRUE;
   }
-
+  
   if( !affected_by_spell(ch, TAG_BUILDING) )
     return FALSE;
   
@@ -377,6 +401,34 @@ int building_mob_proc(P_char ch, P_char pl, int cmd, char *arg)
     char_from_room(pl);
     char_to_room(pl, building->gate_room(), -1);
     return TRUE;
+  }
+  
+  // Because outpost is para, can't use CMD_MOB_MUNDANE, so have to
+  // make the percentages based on it getting hit or nuked.
+  if (cmd == CMD_GOTHIT || cmd == CMD_GOTNUKED)
+  {
+    if (get_outpost_archers(building))
+    {
+	// instead of making it attack 25% of the time, can add things like,
+	// amount of archers how many attacks per round based on level of
+	// outpost, or how long they've held it for.
+	
+        if ( ((cmd == CMD_GOTHIT) && !number(0, 4)) ||
+	     ((cmd == CMD_GOTNUKED) && !number(0, 2)) )
+	{
+	  if (outpost_archer_attack(ch, pl) && (cmd != CMD_GOTNUKED))
+	  {
+	    return TRUE;
+	  }
+	  else
+	  {
+	    return FALSE;
+	  }
+	}
+      
+      //}
+    }
+    return FALSE;
   }
   
   return FALSE;
@@ -559,11 +611,11 @@ int outpost_mob(P_char ch, P_char pl, int cmd, char *arg)
   if( !ch )
     return FALSE;
   
-  if( cmd == CMD_MOB_MUNDANE )
-  {
+  //if( cmd == CMD_MOB_MUNDANE )
+  //{
     //mobsay(ch, "&+Cmundane");
-    return TRUE;
-  }
+    //return TRUE;
+  //}
   
   return FALSE;
 }

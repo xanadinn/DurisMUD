@@ -383,6 +383,11 @@ void run_the_game(int port)
   fprintf(stderr, "-- Loading alliances\r\n");
   load_alliances();
   
+#if CTF_MODE
+  fprintf(stderr, "-- CTF MODE engaged\r\n");
+  init_CTF();
+#endif
+
   loadHints();
   epic_initialization();
   time_after = clock();
@@ -3500,8 +3505,45 @@ void act(const char *str, int hide_invisible, P_char ch, P_obj obj,
           }
 
           if (i)
-            while (*(i + j))
+	  {
+	    // Making it so we don't get A or An in the middle of a sentence!
+            *tbuf = '\0';
+            tbp = 0;
+	    for (; *i; i++)
+	    {
+	      found = FALSE;
+	      // a and an
+	      if (!found && (*i == 'A') && (*(i + 1)))
+	      {
+		if (*(i + 1) == ' ')
+		  found = TRUE;
+		if ((LOWER(*(i + 1)) == 'n') && *(i + 2) &&
+		    (*(i + 2) == ' '))
+		  found = TRUE;
+	      }
+
+	      // the
+	      if (!found && (*i == 'T'))
+		if ((LOWER(*(i + 1)) == 'h') && (LOWER(*(i + 2)) == 'e') &&
+		    (*(i + 3) == ' '))
+		  found = TRUE;
+
+	      // some
+	      if (!found && (*i == 'S') && (LOWER(*(i + 1)) == 'o')
+		  && (LOWER(*(i + 2)) == 'm') && (LOWER(*(i + 3)) == 'e') &&
+		  (LOWER(*(i + 4)) == ' '))
+		found = TRUE;
+	      if (found)
+		tbuf[tbp++] = LOWER(*i);
+	      else
+		tbuf[tbp++] = *i;
+            }
+            tbuf[tbp++] = 0;
+            i = tbuf;
+	    
+	    while (*(i + j))
               *(point++) = *(i + j++);
+	  }
 
           ++strp;
         }
