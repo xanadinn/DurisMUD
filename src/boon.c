@@ -63,7 +63,7 @@ struct boon_types_struct boon_types[] = {
   {"exp",	"Gain exp"},
   {"epic",	"Gain %d epics"},
   {"cash",	"Receive %s"},
-  {"level",	"Gain a level"},
+  {"level",	"Gain a level (up to %d)"},
   {"power",	"Gain the power of '%s'"},
   {"spell",	"Gain the spell '%s'"},
   {"stat",	"Notch the %s attribute"},
@@ -79,7 +79,7 @@ struct boon_options_struct boon_options[] = {
   {"level",	"when you obtain level %d.",		0},
   {"mob",	"when you kill %d %s&n(s).",		1},
   {"race",	"when you kill %d %s&n(s).",		1},
-  {"frag",	"when you receive a %.2f frag.",	0},
+  {"frag",	"when you receive a %.2f frag or better.",	0},
   {"frags",	"when you obtain %.2f frags.",		1},
   {"guildhall",	"when you sack the %s&n guildhall.",	0},
   {"outpost",	"when you capture the %s&n outpost.",	0},
@@ -96,65 +96,66 @@ struct boon_data_struct boon_data[] = {
 // Type		Option		Level Requirement
   {BTYPE_EXPM,	BOPT_NONE,	0},		// 0
   {BTYPE_EXPM,	BOPT_RACE,	0},
+  {BTYPE_EXPM,	BOPT_MOB,	0},
   {BTYPE_EXP,	BOPT_ZONE,	0},
   {BTYPE_EXP,	BOPT_MOB,	0},
   {BTYPE_EXP,	BOPT_FRAG,	0},
-  {BTYPE_EXP,	BOPT_FRAGS,	0},		// 5
+  {BTYPE_EXP,	BOPT_FRAGS,	0},		// 6
   {BTYPE_EXP,	BOPT_LEVEL,	0},
   {BTYPE_EXP,	BOPT_OP,	0},
   {BTYPE_EXP,	BOPT_NEXUS,	0},
   {BTYPE_EPIC,	BOPT_ZONE,	0},
-  {BTYPE_EPIC,	BOPT_MOB,	0},		// 10
+  {BTYPE_EPIC,	BOPT_MOB,	0},		// 11
   {BTYPE_EPIC,	BOPT_RACE,	GREATER_G},
   {BTYPE_EPIC,	BOPT_FRAG,	0},
   {BTYPE_EPIC,	BOPT_FRAGS,	0},
   {BTYPE_EPIC,	BOPT_LEVEL,	GREATER_G},
-  {BTYPE_EPIC,  BOPT_OP,	0},		// 15
+  {BTYPE_EPIC,  BOPT_OP,	0},		// 16
   {BTYPE_EPIC,	BOPT_NEXUS,	0},
   {BTYPE_CASH,	BOPT_ZONE,	0},
   {BTYPE_CASH,	BOPT_MOB,	0},
   {BTYPE_CASH,	BOPT_RACE,	GREATER_G},
-  {BTYPE_CASH,	BOPT_FRAG,	0},		// 20
+  {BTYPE_CASH,	BOPT_FRAG,	0},		// 21
   {BTYPE_CASH,	BOPT_FRAGS,	0},
   {BTYPE_CASH,	BOPT_LEVEL,	GREATER_G},
   {BTYPE_CASH,	BOPT_OP,	0},
   {BTYPE_CASH,	BOPT_NEXUS,	0},
-  {BTYPE_LEVEL,	BOPT_ZONE,	GREATER_G},	// 25
+  {BTYPE_LEVEL,	BOPT_ZONE,	GREATER_G},	// 26
   {BTYPE_LEVEL, BOPT_MOB,	GREATER_G},
   {BTYPE_LEVEL, BOPT_RACE,	GREATER_G},
   {BTYPE_LEVEL,	BOPT_FRAG,	FORGER},
   {BTYPE_LEVEL, BOPT_FRAGS,	FORGER},
-  {BTYPE_LEVEL,	BOPT_OP,	FORGER},	// 30
+  {BTYPE_LEVEL,	BOPT_OP,	FORGER},	// 31
   {BTYPE_LEVEL,	BOPT_NEXUS,	FORGER},
   {BTYPE_POWER,	BOPT_ZONE,	GREATER_G},
   {BTYPE_POWER, BOPT_MOB,	GREATER_G},
   {BTYPE_POWER,	BOPT_FRAG,	GREATER_G},
-  {BTYPE_POWER, BOPT_FRAGS,	GREATER_G},	// 35
+  {BTYPE_POWER, BOPT_FRAGS,	GREATER_G},	// 36
   {BTYPE_POWER,	BOPT_OP,	GREATER_G},
   {BTYPE_POWER,	BOPT_NEXUS,	GREATER_G},
   {BTYPE_SPELL, BOPT_ZONE,	GREATER_G},
   {BTYPE_SPELL, BOPT_MOB,	GREATER_G},
-  {BTYPE_SPELL, BOPT_FRAG,	GREATER_G},	// 40
+  {BTYPE_SPELL, BOPT_FRAG,	GREATER_G},	// 41
   {BTYPE_SPELL, BOPT_FRAGS,	GREATER_G},
   {BTYPE_SPELL, BOPT_OP,	GREATER_G},
   {BTYPE_SPELL, BOPT_NEXUS,	GREATER_G},
   {BTYPE_STAT,	BOPT_ZONE,	FORGER},
-  {BTYPE_STAT,	BOPT_MOB,	FORGER},	// 45
+  {BTYPE_STAT,	BOPT_MOB,	FORGER},	// 46
   {BTYPE_STAT,	BOPT_FRAG,	FORGER},
   {BTYPE_STAT,	BOPT_FRAGS,	FORGER},
   {BTYPE_STAT,	BOPT_OP,	FORGER},
   {BTYPE_STAT,	BOPT_NEXUS,	FORGER},
-  {BTYPE_STATS,	BOPT_ZONE,	FORGER},	// 50
+  {BTYPE_STATS,	BOPT_ZONE,	FORGER},	// 51
   {BTYPE_STATS, BOPT_MOB,	FORGER},
   {BTYPE_STATS,	BOPT_FRAG,	FORGER},
   {BTYPE_STATS,	BOPT_FRAGS,	FORGER},
   {BTYPE_STATS,	BOPT_OP,	FORGER},
-  {BTYPE_STATS,	BOPT_NEXUS,	FORGER},	// 55
+  {BTYPE_STATS,	BOPT_NEXUS,	FORGER},	// 56
   {BTYPE_POINT,	BOPT_ZONE,	GREATER_G},
   {BTYPE_POINT, BOPT_MOB,	GREATER_G},
   {BTYPE_POINT, BOPT_RACE,	GREATER_G},
   {BTYPE_POINT,	BOPT_FRAG,	GREATER_G},
-  {BTYPE_POINT,	BOPT_FRAGS,	GREATER_G},	// 60
+  {BTYPE_POINT,	BOPT_FRAGS,	GREATER_G},	// 61
   {BTYPE_POINT, BOPT_LEVEL,	GREATER_G},
   {BTYPE_POINT,	BOPT_OP,	GREATER_G},
   {BTYPE_POINT,	BOPT_NEXUS,	GREATER_G},
@@ -463,7 +464,7 @@ int validate_boon_data(BoonData *bdata, int flag)
 	      // Check and see if zone is already complete
 	      vector<epic_zone_data> epic_zones = get_epic_zones();
 	      if (bdata->option == BOPT_ZONE &&
-		  epic_zone_done(epic_zones[i].number))
+		  epic_zone_done_now(epic_zones[i].number))
 		return 2;
 	    break;
 	    }
@@ -478,6 +479,10 @@ int validate_boon_data(BoonData *bdata, int flag)
 		return 3;
 	      if (bdata->criteria < 1)
 		return 4;
+	      if (bdata->type == BTYPE_EXPM)
+	      {
+		bdata->criteria = 1;
+	      }
 	      break;
 	    }
 	  case BOPT_RACE:
@@ -487,6 +492,10 @@ int validate_boon_data(BoonData *bdata, int flag)
 	      if (bdata->criteria2 < RACE_NONE ||
 		  bdata->criteria2 > LAST_RACE)
 		return 2;
+	      if (bdata->type == BTYPE_EXPM)
+	      {
+		bdata->criteria = 1;
+	      }
 	      break;
 	    }
 	  case BOPT_GH:
@@ -549,6 +558,11 @@ int validate_boon_data(BoonData *bdata, int flag)
 	      if (bdata->bonus <= 0)
 		return 1;
 	      break;
+	    }
+	  case BTYPE_LEVEL:
+	    {
+	      if (bdata->bonus < 1 || bdata->bonus > 56)
+		return 1;
 	    }
 	  case BTYPE_SPELL:
 	    {
@@ -774,6 +788,12 @@ int parse_boon_args(P_char ch, BoonData *bdata, char *argument)
     {
       switch (bdata->type)
       {
+	case BTYPE_LEVEL:
+	  {
+	    if (retval == 1)
+	      send_to_char("That level cap is out of range, please choose a cap on what level you can achieve (56 means, you can gain a level up to level 56).", ch);
+	    break;
+	  }
 	case BTYPE_SPELL:
 	  {
 	    if (retval == 1)
@@ -839,12 +859,22 @@ int parse_boon_args(P_char ch, BoonData *bdata, char *argument)
     // Handle criteria argument
     argument = setbit_parseArgument(argument, arg);
     
-    if (!*arg || !atof(arg))
+    if (!*arg || atof(arg) < 0)
     {
       send_to_char_f(ch, "&+W'%s' is not a valid criteria.  Please enter a number.&n\r\n", arg);
       return FALSE;
     }
     bdata->criteria = atof(arg);
+    
+    if ((bdata->option == BOPT_MOB ||
+	 bdata->option == BOPT_RACE) &&
+	bdata->type == BTYPE_EXPM &&
+	bdata->bonus > 1)
+    {
+      send_to_char("Exp modification is designed to work per mob, so defaulting your kills per completion criteria to 1.\r\n", ch);
+      bdata->criteria = 1;
+    }
+    
     // secondary arguments
     if (bdata->option == BOPT_MOB)
     {
@@ -865,7 +895,7 @@ int parse_boon_args(P_char ch, BoonData *bdata, char *argument)
 	send_to_char_f(ch, "&+W'%s' is not a valid race.  Please enter a race name.&n\r\n", arg);
 	return FALSE;
       }
-      for (i = 0; i > LAST_RACE; i++)
+      for (i = 0; i <= LAST_RACE; i++)
       {
 	if (is_abbrev(arg, race_names_table[i].normal))
 	  bdata->criteria2 = i;
@@ -1467,6 +1497,10 @@ int boon_display(P_char ch, char *argument)
     switch(type)
     {
       case BTYPE_LEVEL:
+	{
+	  sprintf(bufftype, boon_types[type].desc, (int)bonus);
+	  break;
+	}
       case BTYPE_EXP:
 	{
 	  sprintf(bufftype, boon_types[type].desc);
@@ -1963,16 +1997,15 @@ void boon_maintenance()
       case BOPT_ZONE:
 	{
 	  // is epic zone already complete?
-	  vector<epic_zone_data> epic_zones = get_epic_zones();
-	  if (epic_zone_done(epic_zones[i].number))
+	  if (epic_zone_done_now(bdata.criteria))
 	    expire = TRUE;
 	  break;
 	}
       case BOPT_LEVEL:
 	{
-	  if (bdata.pid)
-	  {
-	    P_char pl;
+	  // Only need to check if it's directed at a player, since this is a special case, handling expiration
+	  // in check_boon_completion().
+	    /*P_char pl;
 	    int lvl = 0;
 	    if (pl = find_player_by_pid(bdata.pid))
 	    {
@@ -1986,6 +2019,8 @@ void boon_maintenance()
 	    if (GET_LEVEL(pl) >= (int)bdata.criteria)
 	      expire = TRUE;
 	  }
+	  if (bdata.pid && !bdata.criteria && !bdata.repeat)
+	      */ // Taking this out so we don't have to pull a players file every second.
 	  break;
 	}
       case BOPT_NEXUS:
@@ -2056,7 +2091,7 @@ void check_boon_completion(P_char ch, P_char victim, double data, int option)
   if (option == BOPT_NONE)
     sprintf(buff, " AND (criteria = '%d')", ROOM_ZONE_NUMBER(ch->in_room));
   else if (option == BOPT_ZONE)
-    sprintf(buff, " AND (criteria = '%d')", ROOM_ZONE_NUMBER((int)data));
+    sprintf(buff, " AND (criteria = '%d')", (int)data);
   else if (option == BOPT_LEVEL)
     sprintf(buff, " AND (criteria = '%d' OR criteria = '0')", GET_LEVEL(ch));
   else if (option == BOPT_MOB &&
@@ -2182,6 +2217,8 @@ void check_boon_completion(P_char ch, P_char victim, double data, int option)
       case BTYPE_EXPM:
 	{
 	  //boon_notify(id, BN_NOTCH);
+	  // If we make this work only for kill exp and not all exp gains, we could notify
+	  // otherwise it's just too spammy to be practiacl.
 	  gain_exp(ch, victim, (int)(data * bdata.bonus), EXP_BOON);
 	  break;
 	}
@@ -2194,7 +2231,7 @@ void check_boon_completion(P_char ch, P_char victim, double data, int option)
       case BTYPE_EPIC:
 	{
 	  boon_notify(bdata.id, ch, BN_COMPLETE);
-	  gain_epic(ch, EPIC_BOON, GET_PID(victim), bdata.bonus);
+	  gain_epic(ch, EPIC_BOON, GET_PID(ch), bdata.bonus);
 	  break;
 	}
       case BTYPE_CASH:
@@ -2210,6 +2247,11 @@ void check_boon_completion(P_char ch, P_char victim, double data, int option)
       case BTYPE_LEVEL:
 	{
 	  boon_notify(bdata.id, ch, BN_COMPLETE);
+	  if ((GET_LEVEL(ch)+1) > (int)bdata.bonus)
+	  {
+	    send_to_char("&+WWell done, unfortionately you've already surpassed the max level this boon will grant.&n\r\n", ch);
+	    break;
+	  }
 	  advance_level(ch);
 	  break;
 	}
@@ -2368,6 +2410,15 @@ void check_boon_completion(P_char ch, P_char victim, double data, int option)
 	  }
       default:
 	break;
+    }
+
+    // Check and expire boon's if they are player targeted and not repeatable..
+    // all though boon_progress wont let them continue if its not repeatable,
+    // we don't need to leave it on the boon list if it's done.
+    if (bdata.pid == GET_PID(ch) && !bdata.repeat)
+    {
+      remove_boon(bdata.id);
+      boon_notify(bdata.id, NULL, BN_VOID);
     }
   }
   

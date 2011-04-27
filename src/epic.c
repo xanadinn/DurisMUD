@@ -1064,8 +1064,8 @@ int epic_stone(P_obj obj, P_char ch, int cmd, char *arg)
       int delta = GET_RACEWAR(ch) == RACEWAR_EVIL ? -1 : 1;
       update_epic_zone_alignment(zone_number, delta);
 
-		  // set completed flag
-		  epic_zone_completions.push_back(epic_zone_completion(zone_number, time(NULL), delta));
+      // set completed flag
+      epic_zone_completions.push_back(epic_zone_completion(zone_number, time(NULL), delta));
       db_query("UPDATE zones SET last_touch='%d' WHERE number='%d'", time(NULL), zone_number);
     }
 
@@ -2059,6 +2059,17 @@ void do_epic(P_char ch, char *arg, int cmd)
     send_to_char("\n", ch);
   }
 
+}
+
+bool epic_zone_done_now(int zone_number)
+{
+	for( vector<epic_zone_completion>::iterator it = epic_zone_completions.begin();
+			 it != epic_zone_completions.end();
+			 it++ )
+	{
+		if( (it->number == zone_number) ) return true;
+	}
+	return false;
 }
 
 bool epic_zone_done(int zone_number)

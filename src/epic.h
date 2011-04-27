@@ -91,6 +91,7 @@ void update_epic_zone_mods();
 void update_epic_zone_frequency(int zone_number);
 vector<epic_zone_data> get_epic_zones();
 float get_epic_zone_frequency_mod(int zone_number);
+bool epic_zone_done_now(int zone_number);
 bool epic_zone_done(int zone_number);
 void epic_zone_balance();
 int zone2saveable(int zone_index);
