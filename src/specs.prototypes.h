@@ -536,7 +536,8 @@ int ioun_warp(P_obj, P_char, int, char *);
 
 
 /* specs.object.c */
-
+int CTF_flag_proc(P_obj, P_char, int, char *);
+void event_CTF_drop(P_char, P_char, P_obj, void *data);
 
 /* START 56 ZONE */
 int transparent_blade(P_obj, P_char, int, char *);

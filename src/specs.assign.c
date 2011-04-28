@@ -1303,6 +1303,8 @@ bogentok
 void assign_objects(void)
 {
   obj_index[real_object0(354)].func.obj = artifact_monolith;
+  obj_index[real_object0(790)].func.obj = CTF_flag_proc;
+  obj_index[real_object0(791)].func.obj = CTF_flag_proc;
 
   /* outposts */
   //obj_index[real_object0(97800)].func.obj = outpost_rubble; 

@@ -32,7 +32,7 @@ using namespace std;
 #include "reavers.h"
 #include "map.h"
 #include "handler.h"
-
+#include "CTF.h"
 /*
    external variables
  */
@@ -150,6 +150,91 @@ void dispel_portal(P_char ch, P_obj obj)
   Decay(obj2);
 }
 
+struct CTF_flag
+{
+   int time;
+   bool takeable;
+   int frags;
+};
+
+int CTF_flag_proc(P_obj Flag, P_char ch, int cmd, char *arg)
+{
+  P_obj obj;
+  int curr_time;
+  struct CTF_flag newFlag;
+
+  if (cmd == CMD_SET_PERIODIC)
+    return TRUE;
+
+  if (cmd == CMD_DRAG)
+  {
+    send_to_char("For some reason, it won't budge...", ch);
+    return FALSE;
+  }
+
+  if (cmd == CMD_CAMP)
+  {
+    send_to_char("You can't camp while in possession of a &+Wflag&n.", ch);
+    return FALSE;
+  }
+
+  if (cmd == CMD_RENT)
+  {
+    send_to_char("You can't rent while in possession of a &+Wflag&n.", ch);
+    return FALSE;
+  }
+
+  if (cmd == CMD_DROP)
+  {
+    Flag->timer[0] = time(NULL);
+    add_event(event_CTF_drop, 10 * WAIT_SEC, 0, 0, Flag, 0, 0, 0);
+    return FALSE;
+  }
+
+  if (Flag->loc_p == LOC_ROOM && (cmd == CMD_GET || cmd == CMD_TAKE))
+  {
+    curr_time = time(NULL);
+    if (Flag->timer[0] + 10 <= curr_time)
+    {
+      Flag->timer[0] = curr_time;
+      return FALSE;
+    }
+    else
+    {
+      act("$p &+wrefuses to budge as you attempt to remove it from its place.", FALSE, ch, Flag, 0, TO_CHAR);
+      act("$p &+wrefuses to budge as $n &+wattempts to remove it from its place.", FALSE, 0, Flag, ch, TO_NOTVICTROOM);
+      return TRUE;
+    }
+  }
+
+  if (cmd == CMD_PERIODIC)
+  {
+    if(!number(0, 5))
+    {
+      hummer(Flag);
+    }
+    return FALSE;
+  }
+  return FALSE;
+}
+
+void event_CTF_drop(P_char ch, P_char victim, P_obj Flag, void *data)
+{
+  if(Flag->loc_p == LOC_ROOM)
+  {
+    if(world[Flag->loc.room].number == GOODRACE_FLAGDROP && GET_OBJ_VNUM(Flag) == CTF_GOOD_FLAG)
+    {
+      //do something neat here in the future for scoring a flag!
+      wizlog(56, "Good race scored an evil flag!");
+    }
+    if(world[Flag->loc.room].number == EVILRACE_FLAGDROP && GET_OBJ_VNUM(Flag) == CTF_EVIL_FLAG)
+    {
+      //do something neat here in the future for scoring a flag!
+      wizlog(56, "Evil race scored a good flag!");
+    }
+    act("&+wAn almost &+Ccrystalline &+cchime &+werupts suddenly from $p&+w...", FALSE, 0, Flag, 0, TO_ROOM);
+  }
+}
 int artifact_monolith(P_obj monolith, P_char ch, int cmd, char *arg)
 {
   P_obj obj, next_obj;

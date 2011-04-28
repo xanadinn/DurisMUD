@@ -3033,14 +3033,14 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
     /*act("$q begins to twist and writhe in $n's hands, his corruption seeping into it!", FALSE, ch, obj, vict, TO_ROOM);
       act("$q begins to twist and writhe in your hands, your will corrupting it!", FALSE, ch, obj, vict, TO_CHAR);
       */
-    sprintf(buf1, "&+bthe mighty warhammer of the ogre chiefs");
+    sprintf(buf1, "&+bthe mighty warhammer of the ogre chiefs&n");
     obj->short_description = NULL;
     obj->str_mask |= STRUNG_DESC2;
     obj->short_description = str_dup(buf1);
   }
   else if (GET_RACE(ch) == RACE_BARBARIAN)
   {
-    sprintf(buf3, "&+ythe mystical warhammer of the barbarian kings");
+    sprintf(buf3, "&+ythe mystical warhammer of the barbarian kings&n");
     obj->short_description = NULL;
     obj->str_mask |= STRUNG_DESC2;
     obj->short_description = str_dup(buf3);
@@ -3048,7 +3048,7 @@ int barb(P_obj obj, P_char ch, int cmd, char *arg)
   else if(GET_RACE(ch) == RACE_MOUNTAIN ||
           GET_RACE(ch) == RACE_DUERGAR)
   {
-    sprintf(buf3, "&+Lthe warhammer of the &+yancient dwarven &+Rb&+ra&+Ltt&+Rl&+re&+Lr&+ra&+Rge&+Lr&+rs");
+    sprintf(buf3, "&+Lthe warhammer of the &+yancient dwarven &+Rb&+ra&+Ltt&+Rl&+re&+Lr&+ra&+Rge&+Lr&+rs&n");
     obj->short_description = NULL;
     obj->str_mask |= STRUNG_DESC2;
     obj->short_description = str_dup(buf3);

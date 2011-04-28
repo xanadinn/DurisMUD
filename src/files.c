@@ -1672,12 +1672,34 @@ int writeCharacter(P_char ch, int type, int room)
   /*
    * unequip everything and remove affects before saving
    */
-
+#if CTF_MODE
   for (i = 0; i < MAX_WEAR; i++)
     if (ch->equipment[i])
-      save_equip[i] = unequip_char(ch, i);
+    {
+      if(ch->equipment[i]->R_num == CTF_GOOD_FLAG || ch->equipment[i]->R_num == CTF_EVIL_FLAG)
+      {
+        obj_to_room(ch->equipment[i], ch->in_room);
+      }
+      else
+      {
+        save_equip[i] = unequip_char(ch, i);
+      }
+    }
     else
+    {
       save_equip[i] = NULL;
+    }
+#else
+  for (i = 0; i < MAX_WEAR; i++)
+    if (ch->equipment[i])
+    {
+      save_equip[i] = unequip_char(ch, i);
+    }
+    else
+    {
+      save_equip[i] = NULL;
+    }
+#endif
 
   all_affects(ch, FALSE);
 

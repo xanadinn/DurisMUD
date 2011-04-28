@@ -2805,6 +2805,7 @@ void extract_char(P_char ch)
     {
 
       obj = unequip_char(ch, l);
+     
       /* Added pet check */
       if (ch->in_room == -1 || IS_SET(obj->extra_flags, ITEM_TRANSIENT) || IS_SHOPKEEPER(ch) ||
           (IS_NPC(ch) && IS_RANDOM_MOB(ch)))
@@ -2823,7 +2824,7 @@ void extract_char(P_char ch)
     for (obj = ch->carrying; obj != NULL; obj = next_obj)
     {
       next_obj = obj->next_content;
-      
+      wizlog(56, "checking object number %d before extracting %s from %d", GET_OBJ_VNUM(obj), GET_NAME(ch), ch->in_room);
       if(IS_SHOPKEEPER(ch) ||
         IS_SET(obj->extra_flags, ITEM_TRANSIENT) ||
         (IS_NPC(ch) &&

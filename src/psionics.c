@@ -2273,6 +2273,9 @@ void spell_ether_warp(int level, P_char ch, char *arg, int type,
      !(ch->in_room))
         return;
 
+  if(ch == victim)
+    return;
+
   if(GET_SPEC(ch, CLASS_PSIONICIST, SPEC_PSYCHEPORTER))
     CharWait(ch, number(4, 10));
   else if(IS_PC(ch))
