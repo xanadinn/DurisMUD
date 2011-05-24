@@ -275,6 +275,8 @@ int ctf_flag_proc(P_obj flag, P_char ch, int cmd, char *argument)
 
     if (apply_flag)
     {
+      flag->timer[0] = 0;
+
       if (ch->following)
 	stop_follower(ch);
 
