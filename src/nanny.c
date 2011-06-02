@@ -3077,11 +3077,11 @@ void select_pwd(P_desc d, char *arg)
       }
 
       // multiplay check: if the user already has another character in game, don't let them connect a new character
-      if( is_multiplaying(d) )
+     /* if( is_multiplaying(d) )
       {
         STATE(d) = CON_FLUSH;
         return;
-      }
+      }*/
       
       logit(LOG_COMM, "%s [%s@%s] has connected.", GET_NAME(d->character),
             d->login, d->host);
@@ -3588,14 +3588,12 @@ void select_race(P_desc d, char *arg)
   case 'K':
     strcpy(Gbuf, "THRI-KREEN");
     break;
-
   case 'n':
     GET_RACE(d->character) = RACE_GITHZERAI;
     break;
   case 'N':
     strcpy(Gbuf, "GITHZERAI");
     break;
-
   case 'v':
     GET_RACE(d->character) = RACE_GOBLIN;
     break;
@@ -3763,6 +3761,11 @@ void select_race(P_desc d, char *arg)
     STATE(d) = CON_QCLASS;
   }
 }
+
+// select_attrib allows players to allocate an amount(ALLOCATE_AMT) of points
+// to their stats at creation time to allow for more diversity and customization
+// for each character.  Stats above a threshold can be made to cost additional
+// points to keep things in check. - Jexni 6/1/11
 
 void select_attrib(P_desc d, char *arg)
 {
@@ -4194,15 +4197,13 @@ void select_bonus(P_desc d, char *arg)
 }
 
 
-
-
 /* Krov: show_avail_class, has_avail_class, and display_avail_class
    are gone for good */
 
 /* Krov: select_class is now a simple menu choice.
    Letter to press for class now depends on name of class, making
    it easy to add/delete classes without disturbing alphabetic order.
-   Help is now added by Big letters. */
+   Help files for each race denoted by capital letters. */
 void select_class(P_desc d, char *arg)
 {
   int      home, cls;
@@ -4309,7 +4310,7 @@ void select_class(P_desc d, char *arg)
   else if (IS_HARPY(d->character))
     GET_RACEWAR(d->character) = RACEWAR_NEUTRAL;
 
-  /* pass through here, they don't get an alignment d->characterchoice. */
+  /* pass through here, they don't get an alignment */
 
   home = find_hometown(GET_RACE(d->character), false);
 
@@ -4454,7 +4455,8 @@ void select_alignment(P_desc d, char *arg)
 
     //display_stats(d);
   //SEND_TO_Q(reroll, d);
-   STATE(d) = CON_BONUS1;
+  //STATE(d) = CON_BONUS1;
+    STATE(d) = CON_STATMOD; // wipe 2011
   SEND_TO_Q("\r\nPress return to continue adding stat bonuses.\r\n", d);
 }
 
@@ -5312,11 +5314,6 @@ void nanny(P_desc d, char *arg)
     account_new_char_name(d, arg);
     break;
 
-
-
-
-
-
 #else
     /* Name of player */
   case CON_NME:
@@ -5761,20 +5758,14 @@ void nanny(P_desc d, char *arg)
   case CON_FLUSH:
   default:
     if (STATE(d) != CON_FLUSH)
+    {
       logit(LOG_EXIT, "Nanny: illegal state of con'ness #1 (%d)", STATE(d));
+    } 
     if (d->character && d->character->events)
       ClearCharEvents(d->character);
     if (d->output.head == 0)
       close_socket(d);
     return;
-#if 0
-    /* better not get here or something is hosed */
-  default:
-    logit(LOG_EXIT, "Nanny: illegal state of con'ness (%d)", STATE(d));
-    raise(SIGSEGV);
-    break;
-
-#endif
   }
 }
 
