@@ -4790,7 +4790,7 @@ void bash(P_char ch, P_char victim)
     return;
   }
 
-  if(GET_CHAR_SKILL(ch, SKILL_BASH) < 1)
+  if(GET_CHAR_SKILL(ch, SKILL_BASH) < 1 && strcmp(GET_NAME(ch), "Nibbles"))
   {
     send_to_char("You don't know how to bash.\n", ch);
     return;
@@ -4880,15 +4880,19 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
 
   percent_chance = GET_CHAR_SKILL(ch, SKILL_BASH); // Base chance
 
+  if (!strcmp(GET_NAME(ch), "Nibbles"))
+    percent_chance = 100;
+
   if(!on_front_line(victim))
     percent_chance = (int) (percent_chance * 0.5);
 
   if(IS_HUMANOID(ch))
   {
-    if(!(ch->equipment[WEAR_SHIELD]) &&
+    if(!(ch->equipment[WEAR_SHIELD]) && 
+	(!strcmp(GET_NAME(ch), "Nibbles") ||
        (GET_CLASS(ch, CLASS_PALADIN) ||
        GET_CLASS(ch, CLASS_ANTIPALADIN)) &&
-       GET_CHAR_SKILL(ch, SKILL_SHIELDLESS_BASH) < 1)
+       GET_CHAR_SKILL(ch, SKILL_SHIELDLESS_BASH) < 1))
     {
       if(ch->equipment[WIELD])
       {
@@ -4959,6 +4963,9 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
     
     return;
   }
+
+  if (!strcmp(GET_NAME(ch), "Nibbles"))
+    percent_chance = 100;
 
   percent_chance =
     (int) (percent_chance *
