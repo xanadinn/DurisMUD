@@ -3749,8 +3749,8 @@ void select_race(P_desc d, char *arg)
   else if ((GET_RACE(d->character) != RACE_ILLITHID) &&
            (GET_RACE(d->character) != RACE_PILLITHID))
   {
-    SEND_TO_Q("\r\nIs your character Male or Female (Z for race)? (M/F/Z) ",
-              d);
+    SEND_TO_Q("\r\nIs your character Male or Female (Z for race)? (M/F/Z) ", d);
+    GET_CR_PNTS(d) = ALLOCATE_AMT;
     STATE(d) = CON_QSEX;
   }
   else
@@ -3827,7 +3827,6 @@ void select_attrib(P_desc d, char *arg)
       sprintf(instr, "Please select an attribute to modify, and an amount to modify it by.\r\nYou are allowed a total of %d points, but no stat can be below %d.\r\n                      Choose wisely.", ALLOCATE_AMT, min);
       SEND_TO_Q(instr, d);
       SEND_TO_Q(attribmod, d);
-      GET_CR_PNTS(d) = ALLOCATE_AMT;
       sprintf(buf2 + strlen(buf2), "\r\nYou have %d points remaining to allocate.\r\n", GET_CR_PNTS(d));
       SEND_TO_Q(buf2, d);
       return;
@@ -4333,8 +4332,8 @@ void select_class(P_desc d, char *arg)
   roll_basic_abilities(d->character, 0);
   display_characteristics(d);
 
-    //display_stats(d);
-  //SEND_TO_Q(reroll, d);
+    //display_stats(d); wipe 2011
+  //SEND_TO_Q(reroll, d); wipe 2011
   SEND_TO_Q("\r\nPress return to continue with adding stat bonuses.\r\n", d);
 }
 

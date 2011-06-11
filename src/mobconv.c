@@ -104,7 +104,7 @@ void convertMob(P_char ch)
       ch->player.spec = 4;
     }    
     else if( !isname("_nospec_", GET_NAME(ch)) &&
-             GET_LEVEL(ch) > number(20,50) )
+             GET_LEVEL(ch) > number(29,50))
     {
       int i = number(0,MAX_SPEC-1);
       if( *GET_SPEC_NAME(ch->player.m_class, i) &&
@@ -153,8 +153,7 @@ void convertMob(P_char ch)
   /* find multipliers for mob xp/money */
   if (GET_LEVEL(ch) > 50)
   {
-//    GET_EXP(ch) = (int) (GET_LEVEL(ch) * 2500);
-    xp = 2500;
+    xp = 1800;
     copp = 0;
     silv = 0;
     gold = .4292;
@@ -162,7 +161,7 @@ void convertMob(P_char ch)
   }
   else if (GET_LEVEL(ch) > 40)
   {
-    xp = 1500;
+    xp = 1100;
     copp = 0;
     silv = 0;
     gold = .3637;
@@ -170,7 +169,7 @@ void convertMob(P_char ch)
   }
   else if (GET_LEVEL(ch) > 30)
   {
-    xp = 800;
+    xp = 600;
     copp = 0;
     silv = 0;
     gold = .2857;
@@ -178,7 +177,7 @@ void convertMob(P_char ch)
   }
   else if (GET_LEVEL(ch) > 20)
   {
-    xp = 550;
+    xp = 350;
     copp = .6667;
     silv = .4546;
     gold = .2223;
@@ -186,7 +185,7 @@ void convertMob(P_char ch)
   }
   else if (GET_LEVEL(ch) > 10)
   {
-    xp = 300;
+    xp = 125;
     copp = .5000;
     silv = .4000;
     gold = .1667;
@@ -194,7 +193,7 @@ void convertMob(P_char ch)
   }
   else
   {
-    xp = 80;
+    xp = 50;
     copp = .4000;
     silv = .3334;
     gold = 0.0;
@@ -207,10 +206,9 @@ void convertMob(P_char ch)
   GET_SILVER(ch) = (int) (GET_LEVEL(ch) * silv * number(75, 125) / 100);
   GET_COPPER(ch) = (int) (GET_LEVEL(ch) * copp * number(75, 125) / 100);
   
-// EXP modifiers are found in limits.c in gain_exp().
+  // EXP modifiers are found in limits.c in gain_exp().
   
-  /* handle special situations for special races in regards to
-     money */
+  /* handle special situations for special races in regards to money */
   if(IS_GREATER_RACE(ch) ||
      IS_ELITE(ch))
       GET_PLATINUM(ch) *= 4;
@@ -263,7 +261,7 @@ void convertMob(P_char ch)
   ch->points.hitroll = ch->points.base_hitroll;
 
   /* AC computations... first base AC */
-  ch->points.base_armor = (int) (GET_LEVEL(ch) * -3);
+  ch->points.base_armor = 250 - (int) (GET_LEVEL(ch) * number(2, 4));
 
   /* then additions based on level... */
   if (GET_LEVEL(ch) > 57)
@@ -433,7 +431,7 @@ void convertMob(P_char ch)
 
   damA += damN * (1 + damS) / 2;
 
-  damN = MIN(damA, 90);
+  damN = MIN(damA, 70);
 
   if (damA > damN)
   {
@@ -490,16 +488,15 @@ void convertMob(P_char ch)
   }
 
   /* thieves and neutral folks pick up stuff laying around... */
-  if((GET_ALIGNMENT(ch) == 0 ||
-     isname("thief", GET_NAME(ch)) ||
-     GET_CLASS(ch, CLASS_ROGUE | CLASS_THIEF)) &&
-     IS_HUMANOID(ch) &&
-     !IS_SHOPKEEPER(ch))
+  if(isname("thief", GET_NAME(ch)) && IS_HUMANOID(ch) && !IS_SHOPKEEPER(ch) && !isname("banker", GET_NAME(ch)))
         SET_BIT(ch->specials.act, ACT_SCAVENGER);
 
   /* guards are protectors... */
   if(strstr(ch->player.name, "guard") ||
-    (strstr(ch->player.name, "militia")))
+     strstr(ch->player.name, "militia") ||
+     strstr(ch->player.name, "sentinel") ||
+     strstr(ch->player.name, "lieutenant") ||
+     strstr(ch->player.name, "captain"))
       SET_BIT(ch->specials.act, ACT_PROTECTOR);
 
   if (IS_SHOPKEEPER(ch))
@@ -576,7 +573,7 @@ void apply_zone_modifier(P_char ch)
 {
   int difficulty = BOUNDED(1, zone_table[world[real_room0(GET_BIRTHPLACE(ch))].zone].difficulty, 10);
 
-  if( difficulty == 1 )
+  if(difficulty == 1)
     return;
   
   float hit_mod = 1.0 + ((float) get_property("hitpoints.zoneDifficulty.factor", 0.500) * difficulty);

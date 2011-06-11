@@ -4283,8 +4283,8 @@ void spell_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj
   {
     bzero(&af, sizeof(af));
     af.type = SPELL_ARMOR;
-    af.duration = 20;
-    af.modifier = (int) (-1 * mod * level - number(0, 10));
+    af.duration = 5 * level;
+    af.modifier = (int) (-1 * mod * (level / 2));
     af.location = APPLY_AC;
     af.bitvector = AFF_ARMOR;
     affect_to_char(victim, &af);
@@ -4297,7 +4297,7 @@ void spell_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj
     {
       if(af1->type == SPELL_ARMOR)
       {
-        af1->duration = 20;
+        af1->duration = 3 * level;
       }
     }
   }
@@ -8728,15 +8728,17 @@ void spell_miracle(int level, P_char ch, char *arg, int type, P_char victim,
     /* leader first */
     if(gl->ch->in_room == ch->in_room)
       spell_vitality(50, ch, NULL, 0, gl->ch, 0);
-    spell_armor(50, ch, 0, 0, gl->ch, 0);
-    spell_bless(50, ch, 0, 0, gl->ch, 0);
+    spell_armor(level, ch, 0, 0, gl->ch, 0);
+    spell_bless(level, ch, 0, 0, gl->ch, 0);
     /* followers */
     for (gl = gl->next; gl; gl = gl->next)
     {
       if(gl->ch->in_room == ch->in_room)
+      {
         spell_vitality(50, ch, NULL, 0, gl->ch, 0);
-      spell_armor(50, ch, 0, 0, gl->ch, 0);
-      spell_bless(50, ch, 0, 0, gl->ch, 0);
+        spell_armor(level, ch, 0, 0, gl->ch, 0);
+        spell_bless(level, ch, 0, 0, gl->ch, 0);
+      }
     }
   }
 }
@@ -11831,7 +11833,7 @@ void spell_elemental_form(int level, P_char ch, char *arg, int type,
     case 1:                    /* earth */
       spell_stone_skin(level, ch, 0, 0, ch, 0);
       bzero(&af, sizeof(af));
-      af.type = SPELL_ARMOR;
+      af.type = SPELL_ELEMENTAL_FORM;
       af.duration = 25;
       af.modifier = -30;
       af.location = APPLY_AC;
@@ -11849,7 +11851,7 @@ void spell_elemental_form(int level, P_char ch, char *arg, int type,
       if(!IS_AFFECTED(victim, AFF_WATERBREATH))
         spell_waterbreath(level, ch, NULL, 0, ch, 0);
       bzero(&af, sizeof(af));
-      af.type = SPELL_ARMOR;
+      af.type = SPELL_ELEMENTAL_FORM;
       af.duration = 25;
       af.modifier = -20;
       af.location = APPLY_AC;
@@ -11867,7 +11869,7 @@ void spell_elemental_form(int level, P_char ch, char *arg, int type,
       if(!affected_by_spell(victim, SPELL_INVISIBLE))
         spell_improved_invisibility(level, ch, 0, 0, ch, 0);
       bzero(&af, sizeof(af));
-      af.type = SPELL_ARMOR;
+      af.type = SPELL_ELEMENTAL_FORM;
       af.duration = 25;
       af.modifier = -20;
       af.location = APPLY_AC;
@@ -12981,7 +12983,7 @@ void spell_faerie_fire(int level, P_char ch, char *arg, int type,
   bzero(&af, sizeof(af));
   af.type = SPELL_FAERIE_FIRE;
   af.duration =  3;
-  af.modifier = 20;
+  af.modifier = 50;
   af.location = APPLY_ARMOR;
 
   affect_to_char(victim, &af);

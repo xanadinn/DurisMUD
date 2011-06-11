@@ -383,7 +383,7 @@ struct edit_data {
 #define INNATE_HAMMER_MASTER     92
 #define INNATE_AXE_MASTER        93
 #define INNATE_GAZE              94
-#define INNATE_EMBRACE_DEATH       95
+#define INNATE_EMBRACE_DEATH     95
 #define INNATE_LIFEDRAIN         96
 #define INNATE_IMMOLATE          97
 #define INNATE_VULN_SUN          98
@@ -393,9 +393,9 @@ struct edit_data {
 #define INNATE_SUMMON_WARG       102
 #define INNATE_HATRED            103
 #define INNATE_EVASION           104
-#define INNATE_DRAGONMIND           105
-#define INNATE_SHIFT_ETHEREAL       106
-#define INNATE_ASTRAL_NATIVE        107
+#define INNATE_DRAGONMIND        105
+#define INNATE_SHIFT_ETHEREAL    106
+#define INNATE_ASTRAL_NATIVE     107
 #define INNATE_TWO_DAGGERS       108
 #define INNATE_HOLY_LIGHT        109
 #define INNATE_COMMAND_AURA      110
@@ -446,7 +446,8 @@ struct edit_data {
 #define INNATE_LONGSWORD_MASTER  155
 #define INNATE_MELEE_MASTER      156
 #define INNATE_GUARDIANS_BULWARK 157
-#define LAST_INNATE              157   // LAST means last, not last + 1 or whatever
+#define INNATE_ELEMENTAL_POWER   158
+#define LAST_INNATE              158   // LAST means last, not last + 1 or whatever
 
 struct extra_descr_data {
   char *keyword;                /* Keyword in look/examine          */

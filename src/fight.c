@@ -327,6 +327,7 @@ void update_dam_factors()
   dam_factor[DF_IRONWILL] =get_property("damage.reduction.towerOfIronWill", 0.5);
   dam_factor[DF_TIGERPALM] =get_property("damage.reduction.tigerpalm", 0.65);
   dam_factor[DF_ELAFFINITY] = get_property("damage.reduction.elementalAffinity", 0.25);
+  dam_factor[DF_ELPOWER] = get_property("damage.increase.elementalPower", 1.25);
   dam_factor[DF_COLDWRITHE] = get_property("damage.increase.coldWrithe", 2.0);
   dam_factor[DF_BARKFIRE] = get_property("damage.increase.barkskin", 1.15);
   dam_factor[DF_IRONWOOD] = get_property("damage.increase.ironwood", 1.80);
@@ -4078,6 +4079,11 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       break;
     default:
       break;
+    }
+  
+    if(has_innate(ch, INNATE_ELEMENTAL_POWER))
+    {
+      dam *= dam_factor[DF_ELPOWER];
     }
     // end of apply damage modifiers
 

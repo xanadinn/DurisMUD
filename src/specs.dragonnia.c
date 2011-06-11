@@ -328,8 +328,6 @@ int demodragon(P_char ch, P_char pl, int cmd, char *arg)
   if (dam != 0)
     cmd = -2;
 
-  give_proper_stat(ch);
-
   if (cmd != -2)
   {
     if (cmd && pl)
@@ -469,8 +467,6 @@ int dragon_guard(P_char ch, P_char pl, int cmd, char *arg)
   if (cmd == CMD_SET_PERIODIC)
     return FALSE;
 
-  give_proper_stat(ch);
-
   if (!AWAKE(ch) || IS_FIGHTING(ch))
     return FALSE;
 
@@ -535,8 +531,6 @@ int dragons_of_dragonnia(P_char ch, P_char pl, int cmd, char *arg)
 
   if (dam != 0)
     cmd = -2;
-
-  give_proper_stat(ch);
 
   if (cmd != -2)
   {

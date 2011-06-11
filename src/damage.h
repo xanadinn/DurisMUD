@@ -63,7 +63,8 @@
 #define DF_NEG_SHIELD_SPELL    47
 #define DF_GUARDIANS_BULWARK   48
 #define DF_TIGERPALM           49
-#define LAST_DF                50
+#define DF_ELPOWER             50
+#define LAST_DF                51
 
 #define SPLDAM_GENERIC   1
 #define SPLDAM_FIRE      2

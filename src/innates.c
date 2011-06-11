@@ -128,183 +128,95 @@ const struct innate_data
   cmd_func *func;
 } innates_data[LAST_INNATE + 1] =
 {
-  {
-  "horse body", 0},
-  {
-  "levitate", do_levitate},
-  {
-  "darkness", do_darkness},
-  {
-  "faerie fire", do_faerie_fire},
-  {
-  "invisibility", do_ud_invisibility},
-  {
-  "strength", do_strength},
-  {
-  "doorbash", do_doorbash},
-  {
-  "infravision", 0},
-  {
-  "summon horde", do_summon_orc},
-  {
-  "ultravision", 0},
-  {
-  "outdoor sneak", 0},
-  {
-  "bodyslam", do_bodyslam},
-  {
-  "summon mount", do_summon_mount},
-  {
-  "anti-good", 0},
-  {
-  "anti-evil", 0},
-  {
-  "ogre roar", do_ogre_roar},
-  {
-  "blast", do_blast},
-  {
-  "ud-sneak", 0},
-  {
-  "shift_astral", do_shift_astral},
-  {
-  "shift_prime", do_shift_prime},
-  {
-  "vampiric touch", 0},
-  {
-  "bite", do_bite},
-  {
-  "leap", 0},
-  {
-  "doorkick", do_doorkick},
-  {
-  "stampede", do_stampede},
-  {
-  "charge", do_charge},
-  {
-  "waterbreath", 0},
-  {
-  "enlarge", do_enlarge},
-  {
-  "regeneration", 0},
-  {
-  "reduce", do_reduce},
-  {
-  "breath", do_breath},
-  {
-  "project image", do_project_image},
-  {
-  "fireball", do_fireball},
-  {
-  "fireshield", do_fireshield},
-  {
-  "firestorm", do_firestorm},
-  {
-  "protection from fire", 0},
-  {
-  "tupor", do_tupor},
-  {
-  "sneak", 0},
-  {
-  "protection from lightning", 0},
-  {
-  "plane shift", do_plane_shift},
-  {
-  "charm animal", do_charm_animal},
-  {
-  "burrow", do_innate_hide},
-  {
-  "dispel", do_dispel_magic},
-  {
-  "globe of darkness", do_globe_of_darkness},
-  {
-  "mass dispel", do_mass_dispel},
-  {
-  "disappear", do_disappear},
-  {
-  "flurry", do_flurry},
-  {
-  "shapechange", 0}, //do_shapechange,
-  {
-  "battle frenzy", 0},
-  {
-  "throw lightning", do_throw_lightning},
-  {
-  "fly", 0},
-  {
-  "stone skin", do_stone_skin},
-  {
-  "phantasmal form", do_phantasmal_form},
-  {
-  "farsee", 0},
-  {
-  "shade movement", do_shade_movement},
-  {
-  "shadow door", do_dimension_door},
-  {
-  "god call", do_god_call},
-  {
-  "forest sight", 0},
-  {
-  "battlerage", do_battle_rage},
-  {
-  "damage spread", 0},
-  {
-  "troll skin", 0},
-  {
-  "dayvision", 0},
-  {
-  "spell absorb", 0},
-  {
-  "vulnerable to fire", 0},
-  {
-  "vulnerable to cold", 0},
-  {
-  "eyeless", 0},
-  {
-  "wildmagic", 0},
-  {
-  "knight", 0},
-  {
-  "sense weakness", 0},
-  {
-  "acid blood"},
-  {
-  "conjure water", do_conjure_water},
-  {
-  "barter", 0},
-  {
-  "weapon immunity", 0},
-  {
-  "magic resistance", 0},
-  {
-  "battlefield aid", 0},
-  {
-  "perception", 0},
-  {
-  "dayblind", 0},
-  {
-  "summon book", do_summon_book},
-  {
-  "quick thinker", 0},
-  {
-  "resurrection", 0},
-  {
-  "improved healing", 0},
-  {
-  "gamblers luck", 0},
-  {
-  "blood scent", 0},
-  {
-  "unholy alliance", 0},
-  {
-  "mummify", 0},
-  {
-  "frightening presence", 0},
-  {
-  "blindsinging", 0},
+  {"horse body", 0},
+  {"levitate", do_levitate},
+  {"darkness", do_darkness},
+  {"faerie fire", do_faerie_fire},
+  {"invisibility", do_ud_invisibility},
+  {"strength", do_strength},
+  {"doorbash", do_doorbash},
+  {"infravision", 0},
+  {"summon horde", do_summon_orc},
+  {"ultravision", 0},
+  {"outdoor sneak", 0},
+  {"bodyslam", do_bodyslam},
+  {"summon mount", do_summon_mount},
+  {"anti-good", 0},
+  {"anti-evil", 0},
+  {"ogre roar", do_ogre_roar},
+  {"blast", do_blast},
+  {"ud-sneak", 0},
+  {"shift_astral", do_shift_astral},
+  {"shift_prime", do_shift_prime},
+  {"vampiric touch", 0},
+  {"bite", do_bite},
+  {"leap", 0},
+  {"doorkick", do_doorkick},
+  {"stampede", do_stampede},
+  {"charge", do_charge},
+  {"waterbreath", 0},
+  {"enlarge", do_enlarge},
+  {"regeneration", 0},
+  {"reduce", do_reduce},
+  {"breath", do_breath},
+  {"project image", do_project_image},
+  {"fireball", do_fireball},
+  {"fireshield", do_fireshield},
+  {"firestorm", do_firestorm},
+  {"protection from fire", 0},
+  {"tupor", do_tupor},
+  {"sneak", 0},
+  {"protection from lightning", 0},
+  {"plane shift", do_plane_shift},
+  {"charm animal", do_charm_animal},
+  {"burrow", do_innate_hide},
+  {"dispel", do_dispel_magic},
+  {"globe of darkness", do_globe_of_darkness},
+  {"mass dispel", do_mass_dispel},
+  {"disappear", do_disappear},
+  {"flurry", do_flurry},
+  {"shapechange", 0}, //do_shapechange,
+  {"battle frenzy", 0},
+  {"throw lightning", do_throw_lightning},
+  {"fly", 0},
+  {"stone skin", do_stone_skin},
+  {"phantasmal form", do_phantasmal_form},
+  {"farsee", 0},
+  {"shade movement", do_shade_movement},
+  {"shadow door", do_dimension_door},
+  {"god call", do_god_call},
+  {"forest sight", 0},
+  {"battlerage", do_battle_rage},
+  {"damage spread", 0},
+  {"troll skin", 0},
+  {"dayvision", 0},
+  {"spell absorb", 0},
+  {"vulnerable to fire", 0},
+  {"vulnerable to cold", 0},
+  {"eyeless", 0},
+  {"wildmagic", 0},
+  {"knight", 0},
+  {"sense weakness", 0},
+  {"acid blood"},
+  {"conjure water", do_conjure_water},
+  {"barter", 0},
+  {"weapon immunity", 0},
+  {"magic resistance", 0},
+  {"battlefield aid", 0},
+  {"perception", 0},
+  {"dayblind", 0},
+  {"summon book", do_summon_book},
+  {"quick thinker", 0},
+  {"resurrection", 0},
+  {"improved healing", 0},
+  {"gamblers luck", 0},
+  {"blood scent", 0},
+  {"unholy alliance", 0},
+  {"mummify", 0},
+  {"frightening presence", 0},
+  {"blindsinging", 0},
   {"improved flee", 0}, // Deceiver Spec
-  {
-  "echo", 0},
+  {"echo", 0},
   {"branch", do_branch},
   {"webwrap", do_webwrap},
   {"summon imp", do_summon_imp},
@@ -373,7 +285,8 @@ const struct innate_data
   {"calming", 0},
   {"longsword master", 0},
   {"melee mastery", 0},
-  {"bulwark", 0}
+  {"bulwark", 0},
+  {"elemental power", 0}
 };
 
 string list_innates(int race, int cls, int spec)
@@ -881,6 +794,7 @@ void assign_innates()
   ADD_CLASS_INNATE(INNATE_SHAPECHANGE, CLASS_SHAMAN, 41, SPEC_ANIMALIST);
   ADD_CLASS_INNATE(INNATE_RESURRECTION, CLASS_SHAMAN, 56, SPEC_SPIRITUALIST);
   ADD_CLASS_INNATE(INNATE_IMPROVED_HEAL, CLASS_SHAMAN, 36, SPEC_SPIRITUALIST);
+  ADD_CLASS_INNATE(INNATE_ELEMENTAL_POWER, CLASS_SHAMAN, 35, SPEC_ELEMENTALIST);
 
   ADD_CLASS_INNATE(INNATE_CHARM_ANIMAL, CLASS_DRUID, 21, 0);
   ADD_CLASS_INNATE(INNATE_SHAPECHANGE, CLASS_DRUID, 11, 0);

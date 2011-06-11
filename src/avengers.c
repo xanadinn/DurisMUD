@@ -61,10 +61,10 @@ void spell_divine_power(int level, P_char ch, char *arg, int type,
      FALSE, ch, 0, 0, TO_ROOM);
      send_to_char("&+WA wave of holy energy sweeps over your body.\n", ch);
 
-	 bzero(&af, sizeof(af));
+     bzero(&af, sizeof(af));
 
      af.type = SPELL_DIVINE_POWER;
-     af.duration = level/2;
+     af.duration = level;
      af.location = APPLY_HITROLL;
      af.modifier = number(2, 5);
      affect_to_char(ch, &af);
@@ -73,12 +73,12 @@ void spell_divine_power(int level, P_char ch, char *arg, int type,
      af.modifier = number(2, 5);
      affect_to_char(ch, &af);
 
-	if (GET_LEVEL(ch) > 49)
-	{
-     af.location = APPLY_HIT;
-     af.modifier = healpoints;
-     affect_to_char(ch, &af);
-	}
+     if (GET_LEVEL(ch) > 49)
+     {
+       af.location = APPLY_HIT;
+       af.modifier = healpoints;
+       affect_to_char(ch, &af);
+     }
   }
 }
 
@@ -100,7 +100,7 @@ void spell_atonement(int level, P_char ch, char *arg, int type,
   af.type = SPELL_ATONEMENT;
   af.duration = level / 2;
   af.location = APPLY_HIT_REG;
-  af.modifier = level * 2;
+  af.modifier = level / 3;
   send_to_char(Gbuf1, ch);
   affect_to_char(ch, &af);
 }
@@ -205,11 +205,11 @@ void spell_celestial_aura(int level, P_char ch, char *arg, int type,
     af.type = SPELL_CELESTIAL_AURA;
     af.duration =  4;
     af.location = APPLY_AC;
-    af.modifier = -number(80, 150);
+    af.modifier = -number(30, 50);
     affect_to_char(ch, &af);
 
     af.location = APPLY_HIT;
-    af.modifier = number(50, 150);
+    af.modifier = number(30, 50);
     affect_to_char(ch, &af);
   }
 }

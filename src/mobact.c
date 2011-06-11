@@ -10596,20 +10596,20 @@ int empty_slot_for_weapon(P_char ch)
 
 void give_proper_stat(P_char ch)
 {
-  if(ch->base_stats.Str < 70)
-    ch->base_stats.Str = number(70, 110);
-  if(ch->base_stats.Dex < 70)
-    ch->base_stats.Dex = number(70, 110);
-  if(ch->base_stats.Int < 70)
-    ch->base_stats.Int = number(70, 110);
-  if(ch->base_stats.Wis < 70)
-    ch->base_stats.Wis = number(70, 110);
-  if(ch->base_stats.Agi < 70)
-    ch->base_stats.Agi = number(70, 110);
-  if(ch->base_stats.Con < 70)
-    ch->base_stats.Con = number(70, 110);
-  if(ch->base_stats.Pow < 70)
-    ch->base_stats.Pow = number(70, 110);
+  if(ch->base_stats.Str < 50)
+    ch->base_stats.Str = number(55, 100);
+  if(ch->base_stats.Dex < 50)
+    ch->base_stats.Dex = number(55, 100);
+  if(ch->base_stats.Int < 50)
+    ch->base_stats.Int = number(55, 100);
+  if(ch->base_stats.Wis < 50)
+    ch->base_stats.Wis = number(55, 100);
+  if(ch->base_stats.Agi < 50)
+    ch->base_stats.Agi = number(55, 100);
+  if(ch->base_stats.Con < 50)
+    ch->base_stats.Con = number(55, 100);
+  if(ch->base_stats.Pow < 50)
+    ch->base_stats.Pow = number(55, 100);
   affect_total(ch, FALSE);
 }
 

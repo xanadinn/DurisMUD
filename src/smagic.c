@@ -10,29 +10,28 @@
  */
 
 /* shaman spells written by RMG/Tavril, btw...  enjoy! */
-// Shaman spells updated by Lucrot Jun09
 
 #ifndef _SHAMAN_MAGIC_C_
 
-#   include <stdio.h>
-#   include <string.h>
-#   include <time.h>
+#include <stdio.h>
+#include <string.h>
+#include <time.h>
 
-#   include "comm.h"
-#   include "db.h"
-#   include "events.h"
-#   include "interp.h"
-#   include "structs.h"
-#   include "prototypes.h"
-#   include "specs.prototypes.h"
-#   include "spells.h"
-#   include "utils.h"
-#   include "weather.h"
-#   include "justice.h"
-#   include "damage.h"
-#   include "disguise.h"
-#   include "graph.h"
-#   include "ctf.h"
+#include "comm.h"
+#include "db.h"
+#include "events.h"
+#include "interp.h"
+#include "structs.h"
+#include "prototypes.h"
+#include "specs.prototypes.h"
+#include "spells.h"
+#include "utils.h"
+#include "weather.h"
+#include "justice.h"
+#include "damage.h"
+#include "disguise.h"
+#include "graph.h"
+#include "ctf.h"
 
 /*
  * external variables
@@ -1602,7 +1601,7 @@ void spell_spirit_armor(int level, P_char ch, char *arg, int type,
      !(victim) ||
      !IS_ALIVE(victim))
         return;
-  
+
   do_point(ch, victim);
   
   if(IS_SPIRITUALIST(ch))
@@ -1617,10 +1616,13 @@ void spell_spirit_armor(int level, P_char ch, char *arg, int type,
 
     af.type = SPELL_SPIRIT_ARMOR;
     af.duration = duration;
-    af.location = APPLY_AC;
-    af.modifier = -(duration);
-    af.bitvector = AFF_ARMOR;
-    affect_to_char(victim, &af);
+    if(!affected_by_spell(victim, SPELL_ARMOR))
+    {
+      af.location = APPLY_AC;
+      af.modifier = -(duration);
+      af.bitvector = AFF_ARMOR;
+      affect_to_char(victim, &af);
+    }
 
     if(level >= 50)
     {
@@ -1636,10 +1638,8 @@ void spell_spirit_armor(int level, P_char ch, char *arg, int type,
 
       affect_to_char(victim, &af);
     }
-    send_to_char("&+mYou feel protective spirits watching over you.\n",
-                 victim);
-    act("&n$n&n&+m is briefly surrounded by a purple aura.&n", TRUE, victim,
-        0, 0, TO_ROOM);
+    send_to_char("&+mYou feel protective spirits watching over you.\n", victim);
+    act("&n$n&n&+m is briefly surrounded by a purple aura.&n", TRUE, victim, 0, 0, TO_ROOM);
   }
   else
   {

@@ -466,7 +466,7 @@ int MonkDamage(P_char ch)
 
   MonkSetSpecialDie(ch);
   dam = dice(ch->points.damnodice, ch->points.damsizedice);
-  dam += skl_lvl / 11;
+  dam = dam * (skl_lvl / 10);
 
   if (GET_CLASS(ch, CLASS_MONK))
     dam = BOUNDED(1, dam - (wornweight(ch) + 56 - GET_LEVEL(ch)), dam); 
@@ -478,11 +478,6 @@ int MonkNumberOfAttacks(P_char ch)
   int      a, l;
   int      skl_lvl = 0;
 
-  /*
-     simplified combat routine, return 1 if not a monk
-   */
-/*  if (IS_AFFECTED4(ch, AFF4_VAMPIRE_FORM))
-      return 2 + number(0,1);*/// handled elsewhere
   if (!GET_CLASS(ch, CLASS_MONK))
     return 1;
 
@@ -508,9 +503,9 @@ int MonkNumberOfAttacks(P_char ch)
       a++;
   if (GET_LEVEL(ch) >= 51)
     if (GET_LEVEL(ch) >= 56)
-      return BOUNDED(1, a + 2, 7);
+      return BOUNDED(1, a + 2, 6);
     else
-      return BOUNDED(1, a + 1, 6);
+      return BOUNDED(1, a + 1, 5);
 
   return BOUNDED(1, a, 5);      /* 1 to 4 */
 }
@@ -652,7 +647,7 @@ void chant_calm(P_char ch, char *argument, int cmd)
 
   if (!GET_CLASS(ch, CLASS_MONK) && !IS_TRUSTED(ch))
   {
-    send_to_char("Just breathe deeply, will calm you right down.\r\n", ch);
+    send_to_char("Just breathe deeply, that will calm you right down.\r\n", ch);
     return;
   }
 
@@ -667,7 +662,7 @@ void chant_calm(P_char ch, char *argument, int cmd)
   {
     if (d->specials.fighting)
     {
-      if (notch_skill(ch, SKILL_CALM, 10) || number(1, 130) < skl_lvl )
+      if (notch_skill(ch, SKILL_CALM, 15) || number(1, 130) < skl_lvl )
       {
         if(!IS_GREATER_RACE(d) &&
            !IS_ELITE(d))
@@ -735,11 +730,11 @@ void chant_diamond_soul(P_char ch, char *argument, int cmd)
   af.flags = AFFTYPE_NODISPEL;
   af.duration = duration;
   
-  af.modifier = -(MAX(2, (int) (GET_LEVEL(ch) / 8)));
+  af.modifier = (int) -(GET_LEVEL(ch) / 10);
   af.location = APPLY_SAVING_SPELL;
   affect_to_char(ch, &af);
 
-  af.modifier = -(MAX(2, (int) (GET_LEVEL(ch) / 8)));
+  af.modifier = (int) -(GET_LEVEL(ch) / 10);
   af.location = APPLY_SAVING_PARA;
   affect_to_char(ch, &af);
 
@@ -880,11 +875,11 @@ void chant_buddha_palm(P_char ch, char *argument, int cmd)
   if (IS_PC(ch))
     skl_lvl = GET_CHAR_SKILL(ch, SKILL_BUDDHA_PALM);
   else
-    skl_lvl = MAX(100, GET_LEVEL(ch) * 3);
+    skl_lvl = GET_LEVEL(ch) + number(5, GET_LEVEL(ch));
 
   if (!notch_skill(ch, SKILL_BUDDHA_PALM,
                    get_property("skill.notch.offensive", 15)) &&
-      number(1, 101) > skl_lvl)
+      number(1, 110) > skl_lvl)
   {
     send_to_char("You forgot the words for the chant.\r\n", ch);
     CharWait(ch, 2 * PULSE_VIOLENCE);
@@ -902,7 +897,7 @@ void chant_buddha_palm(P_char ch, char *argument, int cmd)
     send_to_char
       ("A glowing globe of red light springs from your outstretched palms.\r\n",
        ch);
-    act("A glowing glove of red light springs from $n's outstretched palms.",
+    act("A glowing globe of red light springs from $n's outstretched palms.",
         TRUE, ch, 0, 0, TO_ROOM);
   }
   else
@@ -910,12 +905,12 @@ void chant_buddha_palm(P_char ch, char *argument, int cmd)
     send_to_char
       ("A glowing globe of light springs from your outstretched palms.\r\n",
        ch);
-    act("A glowing glove of light springs from $n's outstretched palms.",
+    act("A glowing globe of light springs from $n's outstretched palms.",
         TRUE, ch, 0, 0, TO_ROOM);
   }
 
   num_tar = GET_LEVEL(ch) / 10;
-  dam = dice(GET_LEVEL(ch) / 2, 8);
+  dam = dice(GET_LEVEL(ch) / 2, 6);
   for (vict = world[ch->in_room].people; vict; vict = hold)
   {
     hold = vict->next_in_room;
@@ -974,8 +969,7 @@ void chant_quivering_palm(P_char ch, char *argument, int cmd)
   if (IS_PC(ch))
     skl_lvl = GET_CHAR_SKILL(ch, SKILL_QUIVERING_PALM);
   else
-    skl_lvl = GET_LEVEL(ch) * 2; // Let's try this at a value that makes a bit more sense.
-                                 // Level 1 monk mobs should not have 100 skill, duhr.  - Jexni 09/20/08
+    skl_lvl = GET_LEVEL(ch) + number(5, GET_LEVEL(ch));
 
   if (argument)
     one_argument(argument, name);
@@ -1023,24 +1017,14 @@ void chant_quivering_palm(P_char ch, char *argument, int cmd)
     CharWait(ch, 2 * PULSE_VIOLENCE);
     return;
   }
-  dam = GET_C_DEX(ch) * 2 + GET_CHAR_SKILL(ch, SKILL_QUIVERING_PALM);
+  dam = BOUNDED(20, GET_LEVEL(ch) + IS_PC(ch) ? GET_CHAR_SKILL(ch, SKILL_QUIVERING_PALM) : skl_lvl, 110);
 
   if (GET_CHAR_SKILL(ch, SKILL_ANATOMY) &&
-      5 + GET_CHAR_SKILL(ch, SKILL_ANATOMY)/10 > number(0,100)) {
+      5 + GET_CHAR_SKILL(ch, SKILL_ANATOMY) / 10 > number(0, 100)) {
     dam = (int) (dam * 1.5);
   }
 
-  /*  can't for the life of me figure out why we need 2 messages for this skill...
-  act
-    ("You suddenly grab hold of $N's forehead and sends $M quivering with your chant.",
-     FALSE, ch, 0, vict, TO_CHAR);
-  act
-    ("$n suddenly grabs hold of $N's forehead and sends $M quivering with $s chant.",
-     FALSE, ch, 0, vict, TO_NOTVICT);
-  act
-    ("$n suddenly grabs hold of your forehead and sends you quivering with $s chant.",
-     FALSE, ch, 0, vict, TO_VICT); */
-  melee_damage(ch, vict, dam, PHSDAM_TOUCH, &messages);
+  melee_damage(ch, vict, dam, PHSDAM_TOUCH | PHSDAM_NOREDUCE, &messages);
   if (!char_in_list(ch))
     return;
   CharWait(ch, PULSE_VIOLENCE);
@@ -1068,10 +1052,8 @@ void chant_jin_touch(P_char ch, char *argument, int cmd)
         IS_PC_PET(ch))
       skl_lvl = GET_CHAR_SKILL(ch, SKILL_JIN_TOUCH);
     else
-      skl_lvl = MAX(100, GET_LEVEL(ch) * 3);
+      skl_lvl = GET_LEVEL(ch) + number(5, GET_LEVEL(ch));
   }
-
-  //debug("(%s) jin skill is (%d).", GET_NAME(ch), skl_lvl);
 
   if(IS_FIGHTING(ch))
     vict = ch->specials.fighting;

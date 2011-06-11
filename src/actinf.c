@@ -4007,18 +4007,11 @@ void do_attributes(P_char ch, char *argument, int cmd)
   /* Armor Class */
 
   t_val = calculate_ac(ch, TRUE);
-/*  if (GET_LEVEL(ch) >= 25) { */
-//    sprintf(buf, "&+cArmor Class: &+Y%d&n  &+y(100 to -100)\n", t_val);
-      if(t_val >= 0)
-      sprintf(buf, "&+cArmor Points: &+Y%d&+c  Increases melee damage taken by &+Y%.1f&+y%%&n\n", t_val, (double)(t_val * 0.10) );
-      else
-      sprintf(buf, "&+cArmor Points: &+Y%d&+c  Reduces melee damage taken by &+Y%.1f&n&+y%%&n \n", t_val, (double)(t_val * -0.10) );
+  if(t_val >= 0)
+    sprintf(buf, "&+cArmor Points: &+Y%d&+c  Increases melee damage taken by &+Y%.1f&+y%%&n\n", t_val, (double)(t_val * 0.10));
+  else
+    sprintf(buf, "&+cArmor Points: &+Y%d&+c  Reduces melee damage taken by &+Y%.1f&n&+y%%&n \n", t_val, (double)(t_val * -0.10));
 
-
-//    sprintf(buf, "&+cArmor Class: &+Y%s\n", ac_to_string(t_val));
-
-
-/*  if (IS_TRUSTED(ch)) send_to_char(buf, ch); */
   send_to_char(buf, ch);
 
   if (IS_PC(ch) && GET_CLASS(ch, CLASS_MONK))
@@ -4028,7 +4021,6 @@ void do_attributes(P_char ch, char *argument, int cmd)
    * Hitroll, Damroll
    */
 
-/*  if (GET_LEVEL(ch) >= 25) {*/
   if (IS_TRUSTED(ch) || GET_LEVEL(ch) >= 25)
   {
     sprintf(buf, "&+cHitroll: &+Y%d   &n&+cDamroll: &+Y%d",
@@ -4063,7 +4055,7 @@ void do_attributes(P_char ch, char *argument, int cmd)
   /*
    * Alignment
    */
-/*  if (GET_LEVEL(ch) >= 25) {*/
+
   if (IS_TRUSTED(ch) || GET_LEVEL(ch) >= 25)
   {
     sprintf(buf, "&+cAlignment: &+Y%d  &n&+y(-1000 to 1000)\n\n",
@@ -4087,18 +4079,6 @@ void do_attributes(P_char ch, char *argument, int cmd)
           save_to_string(ch, SAVING_SPELL).c_str());
   send_to_char(buf, ch);
 
-/*
-  if (IS_PC(ch)) {
-    if (GET_WIMPY(ch) > 0) {
-      sprintf(buf, "&+cWimpy: &+Y%d\n\n", GET_WIMPY(ch));
-    } else {
-      sprintf(buf, "&+cWimpy: &+Ynot set\n\n");
-    }
-    send_to_char(buf, ch);
-    sprintf(buf, "&+cCombat Target Location: &+Y%s\n", target_locs[ch->player.combat_target_loc]);
-    send_to_char(buf, ch);
-  }
-*/
   /*
    * Equipment Carried
    */
@@ -4695,9 +4675,6 @@ void do_score(P_char ch, char *argument, int cmd)
     strcat(buf, "&+LWraith&+gform&n");
   if (IS_AFFECTED4(ch, AFF4_DETECT_ILLUSION))
   {
-//     if (!IS_AFFECTED(ch, AFF_DETECT_INVISIBLE))
-//     strcat(buf, " Invisible Illusions");
-//     else
      strcat(buf, " &+MI&+Ll&+ml&+Mu&+Ls&+mi&+Mo&+Ln&+ms&n");
   }
   if (IS_AFFECTED(ch, AFF_DETECT_INVISIBLE))
@@ -4878,9 +4855,7 @@ void do_score(P_char ch, char *argument, int cmd)
 	  {
 	    ct = time(0);
 	    timer = real_time_countdown(ct, af->modifier, 60*60*24*2);
-	    sprintf(buf, "Stat Pool timeout: %d:%s%d:%s%d\n", 
-	            //af->duration * PULSES_IN_TICK / (WAIT_SEC * SECS_PER_REAL_HOUR));
-	      timer.day * 24 + timer.hour,
+	    sprintf(buf, "Stat Pool timeout: %d:%s%d:%s%d\n", timer.day * 24 + timer.hour,
 	      (timer.minute > 9) ? "" : "0", timer.minute,
 	      (timer.second > 9) ? "" : "0", timer.second);
 	    send_to_char(buf, ch);

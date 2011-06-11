@@ -2699,12 +2699,16 @@ void do_stat(P_char ch, char *argument, int cmd)
       strcat(buf, "\n");
     strcat(o_buf, buf);
 
+    i = calculate_ac(k, FALSE);
+    sprintf(buf, "&+cAgility Armor Class: &+Y%d&n", i);
+    strcat(o_buf, buf);
+
     i = calculate_ac(k, TRUE);
 
     if(i > 0)
-        sprintf(buf, "&+cArmor Points: &+Y%d&n,  Increase melees damage by &+W%+.2f&n percent.\n", i, (double)(i * 0.10) );
+        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Increase melees damage by &+W%+.2f&n percent.\n", i, (double)(i * 0.10) );
       else
-        sprintf(buf, "&+cArmor Points: &+Y%d&n,  Reduce melees damage by &+W%+.2f&n.\n", i, (double)(i * 0.10) );
+        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Reduce melees damage by &+W%+.2f&n.\n", i, (double)(i * 0.10) );
 
     strcat(o_buf, buf);
 
@@ -4765,15 +4769,15 @@ void roll_basic_abilities(P_char ch, int flag)
   }
   else if(flag == 0)
   {
-    ch->base_stats.Str = ch->curr_stats.Str = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Dex = ch->curr_stats.Dex = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Agi = ch->curr_stats.Agi = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Con = ch->curr_stats.Con = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Pow = ch->curr_stats.Pow = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Int = ch->curr_stats.Int = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Wis = ch->curr_stats.Wis = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(10, GET_LEVEL(ch));
-    ch->base_stats.Karma = ch->curr_stats.Karma = 50;
+    ch->base_stats.Str = ch->curr_stats.Str = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Dex = ch->curr_stats.Dex = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Agi = ch->curr_stats.Agi = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Con = ch->curr_stats.Con = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Pow = ch->curr_stats.Pow = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Int = ch->curr_stats.Int = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Wis = ch->curr_stats.Wis = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(1, GET_LEVEL(ch));
+    ch->base_stats.Karma = ch->curr_stats.Karma = number(50, 100);
     ch->base_stats.Luck = ch->curr_stats.Luck = number(80, 120);
   }
   else if(flag == 1)
@@ -4786,7 +4790,7 @@ void roll_basic_abilities(P_char ch, int flag)
     ch->base_stats.Int = ch->curr_stats.Int = stat_base + number(20, GET_LEVEL(ch) + 10);
     ch->base_stats.Wis = ch->curr_stats.Wis = stat_base + number(20, GET_LEVEL(ch) + 10);
     ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(20, GET_LEVEL(ch) + 10);
-    ch->base_stats.Karma = ch->curr_stats.Karma = 50;
+    ch->base_stats.Karma = ch->curr_stats.Karma = number(50, 100);
     ch->base_stats.Luck = ch->curr_stats.Luck = number(90, 110);
   }
  

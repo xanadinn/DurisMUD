@@ -834,10 +834,9 @@ void demogorgon_tail(P_char ch)
       victim);
     act("$N is hit by &+GDemogorgon's &+Lmighty tail!",
       TRUE, ch, 0, victim, TO_NOTVICT);
-    dam = dice(level, 15);
-    spell_dispel_magic(60, ch, 0, 0, victim, 0);
+    dam = dice(8, 40);
+    spell_dispel_magic(51, ch, 0, 0, victim, 0);
     melee_damage(ch, victim, dam, 0, 0);
-    spell_energy_drain(level, ch, 0, 0, victim, 0);
   }
   else
   {
@@ -854,8 +853,6 @@ void demogorgon_tail(P_char ch)
         send_to_char("&+LYou are hit by &+GDemogorgon's &+Lthe sweeping tail!\r\n", tch);
         act("$N is hit by &+GDemogorgon's &+Lsweeping tail!", TRUE, ch, 0, tch, TO_NOTVICT);
         melee_damage(ch, victim, dam, 0, 0);
-        dam *= 10;
-        dam /= 9;
       }
     }
     
@@ -872,7 +869,7 @@ void demogorgon_second_head(P_char ch)
   if (!victim)
     return;
 
-  if (!number(0, 3))
+  if (!number(0, 5))
     spell_negative_concussion_blast(GET_LEVEL(ch), ch, 0, 0, victim, 0);
   else if (!number(0, 2))
     do_fetid_breath(ch);
@@ -909,19 +906,6 @@ int demogorgon(P_char ch, P_char tch, int cmd, char *arg)
     return TRUE;
   }
   
-/*
-  Recharging the shout action, and preparing for the next battle
-  (a little surprise for groups that massed and/or had to retreat)
-*/
-  
-  if (demogorgon_shouted && !number(0, 10) && !IS_FIGHTING(ch))
-  {
-    demogorgon_shouted = FALSE; /* he's ready for shouting again */
-    act("$n &+Lregains his posture, ready for any forthcoming battles.", FALSE, ch, 0, 0, TO_ROOM);
-    wizlog(MINLVLIMMORTAL, "Demogorgon has just regained the ability to call for help.");
-    return TRUE;
-  }
-  
   if (!IS_FIGHTING(ch))
     return FALSE;
 
@@ -936,7 +920,7 @@ int demogorgon(P_char ch, P_char tch, int cmd, char *arg)
   if (!demogorgon_shouted) 
   {
     demogorgon_shouted = TRUE;
-    shout_and_hunt(ch, 3, "&+GYou will pay for attacking me mortal worms!   Denizens of darkness, come and feast upon %s!", NULL, helpers, 0, 0);
+    shout_and_hunt(ch, 2, "&+GYou will pay for attacking me mortal worms!   Denizens of darkness, come and feast upon %s!", NULL, helpers, 0, 0);
     return TRUE;
   }
 
