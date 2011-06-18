@@ -654,6 +654,10 @@ void apply_affs(P_char ch, int mode)
   if (IS_PC(ch) && ch->points.damroll > damroll_cap)
     ch->points.damroll = damroll_cap;
 
+#if 1 // wipe 2011
+  ch->points.damroll = (int) ch->points.damroll * (float) ((float) GET_C_STR(ch) * ((float) stat_factor[GET_RACE(ch)].Str / 100)) / 100;
+  ch->points.damroll = MAX(0, ch->points.damroll);
+#else
   if (GET_C_STR(ch) > stat_factor[(int) GET_RACE(ch)].Str)
   {
     if (GET_C_STR(ch) - stat_factor[(int) GET_RACE(ch)].Str < 9)
@@ -669,6 +673,7 @@ void apply_affs(P_char ch, int mode)
       ch->points.damroll += (int) sqrt(sqrt(diff * diff * diff));
     }
   }
+#endif
 
   ch->points.hitroll = ch->points.base_hitroll + ((mode) ? TmpAffs.Hit : 0);
 
@@ -678,27 +683,26 @@ void apply_affs(P_char ch, int mode)
       ch->points.hitroll += 5;
   }
 
-  if (IS_PC(ch) && ch->points.hitroll > damroll_cap )
-  {
-    ch->points.hitroll = damroll_cap;
-  }
-
+#if 1 // wipe 2011
+  int dexapp = (int) ((float) GET_C_DEX(ch) * ((float) stat_factor[GET_RACE(ch)].Dex / 100));
+  ch->points.hitroll += dex_app[STAT_INDEX(dexapp)].hitroll;
+#else
   if (GET_C_DEX(ch) > stat_factor[(int) GET_RACE(ch)].Dex)
   {
     ch->points.hitroll += (int) (GET_C_DEX(ch) - stat_factor[(int) GET_RACE(ch)].Dex) / 2;
   }
+#endif
 
-  if ( ( GET_CLASS(ch, CLASS_PALADIN) || GET_CLASS(ch, CLASS_ANTIPALADIN) ) &&
-       is_wielding_paladin_sword(ch) )
+  if((GET_CLASS(ch, CLASS_PALADIN) || GET_CLASS(ch, CLASS_ANTIPALADIN)) &&
+      is_wielding_paladin_sword(ch))
   {
     ch->points.hitroll += GET_LEVEL(ch) / 6;
     ch->points.damroll += GET_LEVEL(ch) / 6;
   }
    
-  if (has_innate(ch, INNATE_DUAL_WIELDING_MASTER) &&
-      ch->equipment[PRIMARY_WEAPON] &&
-      ch->equipment[SECONDARY_WEAPON])
-
+  if(has_innate(ch, INNATE_DUAL_WIELDING_MASTER) &&
+     ch->equipment[PRIMARY_WEAPON] &&
+     ch->equipment[SECONDARY_WEAPON])
   {
     ch->points.hitroll += GET_LEVEL(ch) / 5;
   }
@@ -711,23 +715,22 @@ void apply_affs(P_char ch, int mode)
     ch->points.damroll += GET_LEVEL(ch) / 10;
   }
 
-  if( has_innate(ch, INNATE_AXE_MASTER) &&
-      ( ch->equipment[PRIMARY_WEAPON] && ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_AXE )
-    )
+  if(has_innate(ch, INNATE_AXE_MASTER) &&
+    (ch->equipment[PRIMARY_WEAPON] && ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_AXE))
   {
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 12;
   }
 
-  if( has_innate(ch, INNATE_LONGSWORD_MASTER) &&
-      ( ch->equipment[PRIMARY_WEAPON] && 
-	ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_LONGSWORD))
+  if(has_innate(ch, INNATE_LONGSWORD_MASTER) &&
+    (ch->equipment[PRIMARY_WEAPON] && 
+     ch->equipment[PRIMARY_WEAPON]->value[0] == WEAPON_LONGSWORD))
   {
     ch->points.hitroll += GET_LEVEL(ch) / 8;
     ch->points.damroll += GET_LEVEL(ch) / 12;
   }
   
-  if (has_innate(ch, INNATE_GAMBLERS_LUCK))
+  if(has_innate(ch, INNATE_GAMBLERS_LUCK))
   {
     GET_C_LUCK(ch) = GET_C_LUCK(ch) + 10;
   }
