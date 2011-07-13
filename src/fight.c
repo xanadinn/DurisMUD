@@ -6835,7 +6835,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     sprintf(room_msg, "$n's%%s %s %%s.", attack_hit_text[msg].singular);
     messages.type = DAMMSG_HIT_EFFECT | DAMMSG_TERSE;
   }
-  wizlog(56, "dam is %d, pre damage_mod", (int) dam);
+
   dam *= ch->specials.damage_mod;
 
   if(GET_RACE(ch) == RACE_ORC)
@@ -6854,7 +6854,6 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     dam *= 10;
   }
   
-  wizlog(56, "dam @ bool hit is %d", (int) dam);
   dam = BOUNDED(1, (int) dam, 32766);
 
   if (has_innate(victim, INNATE_WEAPON_IMMUNITY))

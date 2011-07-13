@@ -3730,15 +3730,15 @@ void spell_resistance_check(P_char caster, P_char victim, void *data)
     
     if(GET_RACE(victim) == RACE_BEHOLDER)
     {
-      strcpy(messages->tovict, "&+W$n&+W's central eye glows brightly as it negates your spell!");
-      strcpy(messages->tochar, "&+WYour central eye glows brightly as it negates $N&+W's spell!");
+      strcpy(messages->tochar, "&+W$N&+W's central eye glows brightly as it negates your spell!");
+      strcpy(messages->tovict, "&+WYour central eye glows brightly as it negates $n&+W's spell!");
       strcpy(messages->toroom, "&+W$n&+W's central eye glows brightly as it negates $N&+W's spell!");
       messages->true_false = TRUE;
       return;
     }
     
-    strcpy(messages->tovict, "&+MYour spell flows around&n $N&+M, leaving $M unharmed!");
-    strcpy(messages->tochar, "&+MYou resist the effects of&n $n&+M's spell!");
+    strcpy(messages->tochar, "&+MYour spell flows around&n $n&+M, leaving $M unharmed!");
+    strcpy(messages->tovict, "&+MYou resist the effects of&n $N&+M's spell!");
     strcpy(messages->toroom, "$n's &+Mspell flows around&n $N&+M, leaving $M unharmed!");
     messages->true_false = TRUE;
     return;

@@ -776,6 +776,9 @@ void do_murde(P_char ch, char *argument, int cmd)
                ch);
 }
 
+
+//  Garrote written by Jexni, 06/11
+
 struct garrote_data {
 	int atk_str;
 	int vic_str;
@@ -1949,7 +1952,7 @@ void do_circle(P_char ch, char *argument, int cmd)
 
   if(ch->specials.fighting)
   {
-    circle(ch, ch->specials.fighting);
+    send_to_char("They circle right along with you... fairly pointless...", ch);
     return;
   }
 
@@ -1972,8 +1975,7 @@ void event_uncircle(P_char ch, P_char victim, P_obj obj, void *args)
 
 void circling_broken(struct char_link_data *cld)
 {
-  act("$N suddenly orients $Mself into a more defensive position.", FALSE, cld->linking, 0,
-      cld->linked, TO_CHAR);
+  // no point in having a message for this, it is assumed
 }
 
 int circle(P_char ch, P_char victim)
@@ -1996,8 +1998,7 @@ int circle(P_char ch, P_char victim)
 
   if(ch == victim)
   {
-    send_to_char
-      ("You run in circles, attempting to stab yourself; your comrades stare at you in awe.\n", ch);
+    send_to_char("You run in circles, attempting to stab yourself; your comrades stare at you in awe.\n", ch);
     return FALSE;
   }
 
@@ -2013,16 +2014,14 @@ int circle(P_char ch, P_char victim)
   
   if(found && !IS_TRUSTED(ch) )
   {
-    send_to_char("It is a bit hard to circle someone when you are being beaten upon!\n",
-                 ch);
+    send_to_char("It is a bit hard to circle someone when you are being beaten upon!\n", ch);
     return FALSE;
   }
 
-  set_short_affected_by(ch, SKILL_CIRCLE, PULSE_VIOLENCE * 4);
+  set_short_affected_by(ch, SKILL_CIRCLE, PULSE_VIOLENCE * 3);
   CharWait(ch, PULSE_VIOLENCE / 2);
 
-  if(!notch_skill(ch, SKILL_CIRCLE,
-                   get_property("skill.notch.offensive", 15)) &&
+  if(!notch_skill(ch, SKILL_CIRCLE, get_property("skill.notch.offensive", 15)) &&
       GET_CHAR_SKILL(ch, SKILL_CIRCLE) < number(0, 100))
   {
     act("Damn! You weren't quite stealthy enough, and $N noticed your attempt to circle $M!",
@@ -2043,11 +2042,8 @@ int circle(P_char ch, P_char victim)
   if(ch->specials.fighting == NULL)
     engage(ch, victim);
 
-  act("You stealthily position yourself behind $N, circling $M.", FALSE, ch, 0, victim, TO_CHAR);
-  act("$n moves in the shadows, suddenly reappearing behind $N!", FALSE, ch, 0, victim,
-      TO_NOTVICT);
-  act("$n disappears from your vision for a moment, suddenly appearing behind you; you fail to counter $s advance...", FALSE, ch, 0,
-      victim, TO_VICT);
+  act("You stealthily position yourself behind $N by circling $M.", FALSE, ch, 0, victim, TO_CHAR);
+  act("$n moves with stealthily precision at the edge of combat to get behind $N!", FALSE, ch, 0, victim, TO_NOTVICT);
   link_char(ch, victim, LNK_CIRCLING);
   add_event(event_uncircle, (tch ? 1 : 3) * (ch->specials.base_combat_round + 1),
       ch, victim, 0, 0, 0, 0);
@@ -8399,7 +8395,7 @@ void do_flank(P_char ch, char *argument, int cmd)
   
   if(ch->specials.fighting)
   {
-    flank(ch, ch->specials.fighting);
+    send_to_char("You can't seem to flank your opponent while they are watching...", ch);
     return;
   }
 
@@ -8420,8 +8416,7 @@ void event_unflank(P_char ch, P_char victim, P_obj obj, void *args)
 
 void flanking_broken(struct char_link_data *cld)
 {
-  act("$N maneuvers $Mself into a better position.", FALSE, cld->linking, 0,
-      cld->linked, TO_ROOM);
+  // there doesn't really need to be a message for this
 }
 
 int flank(P_char ch, P_char victim)

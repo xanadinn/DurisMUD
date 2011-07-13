@@ -39,29 +39,29 @@ void aura_broken(struct char_link_data *cld)
   P_char   target = cld->linked;
   int   aura_type = ( cld->affect ? cld->affect->type : -1 );
 
-  if( aura_type >= FIRST_AURA && aura_type <= LAST_AURA ) {
+  if(aura_type >= FIRST_AURA && aura_type <= LAST_AURA ) {
     sprintf(_buff, "The %s surrounding you fades away.\n", auras[aura_type-FIRST_AURA].glow_name );
     send_to_char(_buff, ch);
     
     bool has_other_auras = false;
     for( struct affected_type* aff = ch->affected; aff; aff = aff->next ) {
-      if( aff->type >= FIRST_AURA && aura_type <= LAST_AURA ) has_other_auras = true;
+      if(aff->type >= FIRST_AURA && aura_type <= LAST_AURA ) has_other_auras = true;
     }
     
-    if( !has_other_auras )
+    if(!has_other_auras )
       REMOVE_BIT(ch->specials.affected_by3, AFF3_PALADIN_AURA);	
   }
 }
 
 const char *aura_name(int aura) {
-  if( aura < FIRST_AURA || aura > LAST_AURA ) return 0;
+  if(aura < FIRST_AURA || aura > LAST_AURA ) return 0;
   return auras[aura-FIRST_AURA].name;
 }
 
 /* determines if player has an aura of the specified type */
 bool has_aura(P_char ch, int aura_type) {
   for( struct affected_type* aff = ch->affected; aff; aff = aff->next ) {
-    if( aff->type == aura_type ) 
+    if(aff->type == aura_type ) 
       return TRUE;
   }
   return FALSE;
@@ -70,7 +70,7 @@ bool has_aura(P_char ch, int aura_type) {
 /* returns the modifier for that aura, sometimes is the level of the paladin */
 int aura_mod(P_char ch, int aura_type) {
   for( struct affected_type* aff = ch->affected; aff; aff = aff->next ) {
-    if( aff->type == aura_type ) 
+    if(aff->type == aura_type ) 
       return aff->modifier;
   }
   return 0;
@@ -115,7 +115,7 @@ void purge_linked_auras(P_char ch)
 void event_apply_group_auras(P_char ch, P_char victim, P_obj obj, void *data) {
   int aura = *((int*)data);
 
-  if( GET_STAT(ch) == STAT_NORMAL && GET_POS(ch) == POS_STANDING )
+  if(GET_STAT(ch) == STAT_NORMAL && GET_POS(ch) == POS_STANDING )
     apply_aura_to_group(ch, aura);
 
   add_event(event_apply_group_auras, WAIT_SEC * 5, ch, 0, 0, 0, &aura, sizeof(aura));
@@ -124,14 +124,14 @@ void event_apply_group_auras(P_char ch, P_char victim, P_obj obj, void *data) {
 /* apply current aura to everyone in group */
 void apply_aura_to_group(P_char ch, int aura) {
   for( struct group_list* tgl = ch->group; tgl && tgl->ch; tgl = tgl->next ) {
-    if( ch != tgl->ch && tgl->ch->in_room == ch->in_room ) 
+    if(ch != tgl->ch && tgl->ch->in_room == ch->in_room ) 
       apply_aura( ch, tgl->ch, aura );
   }
 }
 
 /* actually apply the aura to victim char */
 void apply_aura(P_char ch, P_char victim, int aura) {
-  if (is_linked_to(ch, victim, LNK_PALADIN_AURA) || has_aura(victim, aura) )
+  if(is_linked_to(ch, victim, LNK_PALADIN_AURA) || has_aura(victim, aura))
     return;
 
   struct affected_type af;
@@ -145,7 +145,7 @@ void apply_aura(P_char ch, P_char victim, int aura) {
     case AURA_PROTECTION:
       af.location = APPLY_AC;
       af.modifier = 
-        (int) (-1 * get_property("innate.paladin_aura.protection_ac_mod", 1.0) * GET_LEVEL(ch) );
+        (int) (-1 * get_property("innate.paladin_aura.protection_ac_mod", 1.0) * GET_LEVEL(ch));
       break;
 
     case AURA_PRECISION:
@@ -189,7 +189,7 @@ void apply_aura(P_char ch, P_char victim, int aura) {
 /* hook from show_visual_status() in actinf.c, to show auras on glance/look listing */
 void send_paladin_auras(P_char ch, P_char tar_ch) {
   for( struct affected_type* aff = tar_ch->affected; aff; aff = aff->next ) {
-    if( aff->type >= FIRST_AURA && aff->type <= LAST_AURA ) {
+    if(aff->type >= FIRST_AURA && aff->type <= LAST_AURA ) {
       sprintf(_buff, "$E is surrounded by a %s.", auras[aff->type-FIRST_AURA].glow_name);
       act(_buff, FALSE, ch, 0, tar_ch, TO_CHAR);			
     }
@@ -207,33 +207,41 @@ void spell_vortex_of_fear(int level, P_char ch, char *arg, int type, P_char vict
 
   for (P_char vict = world[ch->in_room].people; vict; vict = vict->next_in_room)
   {
-    if (vict == ch)
+    if(vict == ch)
       continue;
-    if (IS_DRAGON(vict) || IS_UNDEAD(vict) || (GET_RACE(vict) == RACE_GOLEM) || IS_TRUSTED(vict))
+    if(IS_DRAGON(vict) || IS_UNDEAD(vict) || (GET_RACE(vict) == RACE_GOLEM) || IS_TRUSTED(vict))
       continue;
-    if (should_area_hit(ch, vict) && !NewSaves(vict, SAVING_FEAR, (int) level/11 - 3) && !fear_check(vict))
+    if(should_area_hit(ch, vict) && !NewSaves(vict, SAVING_FEAR, (int) level/11 - 3) && !fear_check(vict))
     {
       do_flee(vict, 0, 1);
       num_hit++;
     }
   }
 
-  int healpoints = 70 + number(0,10) + dice(num_hit, 10);
+  int healpoints = GET_LEVEL(ch) + number(0,25) + dice(num_hit, 10);
 
   struct group_list *gl;
       
-  if (ch && ch->group)
+  if(ch && ch->group)
   {     
     for (struct group_list *gl = ch->group; gl; gl = gl->next)
     {
-      if (gl->ch->in_room == ch->in_room)
+      if(gl->ch->in_room == ch->in_room)
       {
-        if( GET_HIT(gl->ch) < GET_MAX_HIT(gl->ch) )
+        if(GET_HIT(gl->ch) < GET_MAX_HIT(gl->ch))
         {
-          heal(gl->ch, ch, healpoints, GET_MAX_HIT(gl->ch) - number(1,4));
-          update_pos(gl->ch);
-          
-          if( num_hit > 0 )
+          if(is_linked_to(ch, victim, LNK_RIDING))
+          {
+            heal(gl->ch, ch, healpoints * (GET_LEVEL(ch) / 20), GET_MAX_HIT(gl->ch) - number(1,4));
+            update_pos(gl->ch);
+          }
+          else
+          {
+            heal(gl->ch, ch, healpoints, GET_MAX_HIT(gl->ch) - number(1,4));
+            update_pos(gl->ch);
+          }
+
+          if(num_hit > 0 )
             send_to_char("&+LYou feel a grim satisfaction as the power of your enemy's fear flows into your soul!", gl->ch);
           else
             send_to_char("&+WYou feel better.\n", gl->ch);
@@ -245,12 +253,12 @@ void spell_vortex_of_fear(int level, P_char ch, char *arg, int type, P_char vict
 
 bool is_wielding_paladin_sword(P_char ch)
 {
-  if( !ch || !ch->equipment[WIELD] )
+  if(!ch || !ch->equipment[WIELD] )
     return FALSE;
 
   P_obj weapon = ch->equipment[WIELD];
 
-  if( IS_PALADIN_SWORD(weapon) )
+  if(IS_PALADIN_SWORD(weapon))
     return TRUE;
   
   return FALSE;
@@ -258,10 +266,10 @@ bool is_wielding_paladin_sword(P_char ch)
 
 bool cleave(P_char ch, P_char victim)
 {
-  if( is_wielding_paladin_sword(ch) &&
+  if(is_wielding_paladin_sword(ch) &&
       !affected_by_spell(victim, SKILL_CLEAVE) &&
       ( notch_skill(ch, SKILL_CLEAVE, get_property("skill.notch.cleave", 10)) ||
-        number(5,100) < GET_CHAR_SKILL(ch, SKILL_CLEAVE) ) )
+        number(5,100) < GET_CHAR_SKILL(ch, SKILL_CLEAVE)) )
   {
     act("You bring down $p in a mighty slash, cleaving $N from $S target!", TRUE,
         ch, ch->equipment[WIELD], victim, TO_CHAR);
@@ -270,9 +278,9 @@ bool cleave(P_char ch, P_char victim)
     act("$n brings down $p in a mighty slash, cleaving you from your target!", TRUE,
         ch, ch->equipment[WIELD], victim, TO_VICT);
 
-    int dam = dice( GET_LEVEL(ch) / 2, 10 );
+    int dam = dice(GET_LEVEL(ch) / 2, 10);
 
-    if( damage(ch, victim, dam, SKILL_CLEAVE) != DAM_VICTDEAD )
+    if(damage(ch, victim, dam, SKILL_CLEAVE) != DAM_VICTDEAD )
       set_short_affected_by(victim, SKILL_CLEAVE, 4 * PULSE_VIOLENCE);
     return TRUE;
   }
@@ -284,10 +292,10 @@ void event_smite_evil(P_char ch, P_char victim, P_obj obj, void *data)
 {
   P_char tch;
 
-  if( is_wielding_paladin_sword(ch) )
+  if(is_wielding_paladin_sword(ch))
   {
     for (tch = world[ch->in_room].people; tch; tch = tch->next_in_room) {
-      if (!grouped(tch, ch) && GET_HIT(tch) < GET_MAX_HIT(tch)/10 &&
+      if(!grouped(tch, ch) && GET_HIT(tch) < GET_MAX_HIT(tch)/10 &&
           IS_ALIVE(tch) &&
           GET_HIT(tch) < 15 && IS_EVIL(tch) && (GET_RACEWAR(tch) != 1) &&
           (notch_skill(ch, SKILL_SMITE_EVIL, get_property("skill.notch.smiteEvil", 20)) || 
@@ -306,7 +314,7 @@ void event_smite_evil(P_char ch, P_char victim, P_obj obj, void *data)
 
 void spell_righteous_aura(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
-  if( affected_by_spell(ch, SPELL_RIGHTEOUS_AURA) )
+  if(affected_by_spell(ch, SPELL_RIGHTEOUS_AURA))
   {
     send_to_char("&+WYour god has already infused you with his power.&n\n", ch);
     return;
@@ -336,7 +344,7 @@ void event_righteous_aura_check(P_char ch, P_char victim, P_obj obj, void *data)
 {
   struct affected_type af;
   
-  if( !affected_by_spell(ch, SPELL_RIGHTEOUS_AURA) )
+  if(!affected_by_spell(ch, SPELL_RIGHTEOUS_AURA))
   {
     return;
   }
@@ -351,7 +359,7 @@ void event_righteous_aura_check(P_char ch, P_char victim, P_obj obj, void *data)
         affected_by_spell( tch, SPELL_BLEAK_FOEMAN ) &&
         GET_OPPONENT(ch) != tch &&
         !IS_TRUSTED(ch) &&
-        !IS_TRUSTED(tch) )
+        !IS_TRUSTED(tch))
       { // Soulshield up!
         if(!IS_AFFECTED2(ch, AFF2_SOULSHIELD) &&
            GET_ALIGNMENT(ch) >= 950 &&
@@ -413,13 +421,13 @@ void event_righteous_aura_check(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
     
-  if( IS_FIGHTING(ch) )
+  if(IS_FIGHTING(ch))
   {
     P_char opponent = GET_OPPONENT(ch);
 
-    if( GET_OPPONENT( opponent ) != ch &&
+    if(GET_OPPONENT( opponent ) != ch &&
        CAN_ACT(opponent) &&
-       (GET_ALIGNMENT(opponent) <= -500) )
+       (GET_ALIGNMENT(opponent) <= -500))
     {      
       act("&+WThe holy aura surrounding your body flares brightly, and&n $N &+Wrushes towards\n"
           "&+Wyou fiercely!", FALSE, ch, 0, opponent, TO_CHAR);      
@@ -445,7 +453,7 @@ void event_righteous_aura_check(P_char ch, P_char victim, P_obj obj, void *data)
 
 void spell_bleak_foeman(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
-  if( affected_by_spell(ch, SPELL_BLEAK_FOEMAN) )
+  if(affected_by_spell(ch, SPELL_BLEAK_FOEMAN))
   {
     send_to_char("&+LTo grow any more vile would require you to sprout horns and a tail.&n\n", ch);
     return;
@@ -477,7 +485,7 @@ void spell_bleak_foeman(int level, P_char ch, char *arg, int type, P_char victim
 
 void event_bleak_foeman_check(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  if( !affected_by_spell(ch, SPELL_BLEAK_FOEMAN) )
+  if(!affected_by_spell(ch, SPELL_BLEAK_FOEMAN))
     return;
   
   if(CAN_ACT(ch) &&
@@ -487,7 +495,7 @@ void event_bleak_foeman_check(P_char ch, P_char victim, P_obj obj, void *data)
     P_char tch;
     LOOP_THRU_PEOPLE(tch, ch)
     {
-      if( tch != ch && affected_by_spell( tch, SPELL_RIGHTEOUS_AURA ) && GET_OPPONENT(ch) != tch && !IS_TRUSTED(ch) && !IS_TRUSTED(tch) )
+      if(tch != ch && affected_by_spell( tch, SPELL_RIGHTEOUS_AURA ) && GET_OPPONENT(ch) != tch && !IS_TRUSTED(ch) && !IS_TRUSTED(tch))
       {
         act("&+LAs the vile paragon of justice enters the room, the evil magic infusing your\n"
             "&+Lbody compels you to strike $M &+Ldown!&n", FALSE, ch, 0, tch, TO_CHAR);
@@ -510,7 +518,7 @@ void spell_dread_blade(int level, P_char ch, char *arg, int type, P_char victim,
   struct affected_type af;
   P_obj weap;
   
-  if (affected_by_spell(ch, SPELL_DREAD_BLADE))
+  if(affected_by_spell(ch, SPELL_DREAD_BLADE))
     return;
   
   if(!(weap = victim->equipment[WIELD]))
@@ -550,7 +558,7 @@ bool dread_blade_proc(P_char ch, P_char victim)
   };
   spell_func_type spell_func;
   
-  if (!IS_FIGHTING(ch) ||
+  if(!IS_FIGHTING(ch) ||
       !(victim = ch->specials.fighting) ||
       !IS_ALIVE(victim) ||
       !(room) ||

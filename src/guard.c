@@ -232,53 +232,40 @@ P_char guard_check(P_char attacker, P_char victim)
     return victim;
   }
   
-  //debug("guard_check: %s vs %s protecting %s", attacker->player.name, guard->player.name, victim->player.name);
-  
-  int sneak_chance = BOUNDED( 0, (GET_CHAR_SKILL(attacker, SKILL_SNEAK) - GET_CHAR_SKILL(guard, SKILL_GUARD)), 100);
+  int sneak_chance = BOUNDED(0, (GET_CHAR_SKILL(attacker, SKILL_SNEAK) - GET_CHAR_SKILL(guard, SKILL_GUARD)), 100);
     
   if( sneak_chance > 0 )
   {
-    //debug("attacker sneak skill: %d", sneak_chance);
     if( IS_AFFECTED(guard, AFF_AWARE) || IS_AFFECTED(guard, AFF_SKILL_AWARE) )
       sneak_chance -= 25;
 
     if( GET_C_LUCK(victim) / 2 > number(0, 100) )
       sneak_chance -= 10;
   
-    if( guard->specials.fighting )
+    if(guard->specials.fighting)
       sneak_chance += 5;
  
     sneak_chance = BOUNDED(5, sneak_chance, 75);
 
-    //debug("sneakchance: %d", sneak_chance);
     if( sneak_chance > 0 && number(0, 100) < sneak_chance )
     {
-      //debug("snuck around guard");
       act("You sneak around $N's guard!", FALSE, attacker, 0, victim, TO_CHAR);
       return victim;
     }
   }
 
   int chance = GET_CHAR_SKILL(guard, SKILL_GUARD);
-  //debug("guard skill: %d", chance);
  
   if( chance <= 0 )
   {
     logit(LOG_DEBUG, "guard_check(): somehow %s's guard got checked, but they don't have guard skill", guard->player.name);
-    //debug("guard_check(): somehow %s's guard got checked, but they don't have guard skill", guard->player.name);
     return victim;
   }
-
-  //debug("attacker agi: %d, guard agi: %d", GET_C_AGI(attacker), GET_C_AGI(guard));
   
   // agi mod
   chance += BOUNDED(-get_property("skill.guard.agiDiffMaxBonus", 5), 
                     (GET_C_AGI(guard) - GET_C_AGI(attacker)), 
                     get_property("skill.guard.agiDiffMaxBonus", 5) );
-
-  // penalty if the guard is already engaged
-  //if( guard->specials.fighting )
-  //  chance -= get_property("skill.guard.guardFightingPenalty", 5);
   
   // and if the victim is lucky, they stay a bit safer :)
   if( GET_C_LUCK(victim) / 2 > number(0, 100) )
@@ -297,16 +284,12 @@ P_char guard_check(P_char attacker, P_char victim)
   if(IS_NPC(guard) &&
      IS_PC_PET(guard))
   {
-    chance = (int) (chance * get_property("skill.PC.PET.Guard", 0.750));
+    chance = GET_LEVEL(guard) / 2;
   }
-
-  //debug("final chance: %d", chance);
   
   if( !notch_skill(guard, SKILL_GUARD, (int) get_property("skill.notch.guard", 5) ) && 
       number(0, 100) > chance )
-  {
-    //debug("guard failed");
-    
+  { 
     // guard failed
     act("You try to step in front of $N, but don't make it in time.", FALSE, guard,
         0, victim, TO_CHAR);
@@ -319,8 +302,6 @@ P_char guard_check(P_char attacker, P_char victim)
   } 
   else 
   {
-    //debug("guard succeeded");
-
     // success!
     set_short_affected_by(guard, SKILL_GUARD, 1 * PULSE_VIOLENCE);
     

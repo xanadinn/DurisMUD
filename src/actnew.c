@@ -45,6 +45,7 @@ extern const int exp_table[61];
 extern const struct stat_data stat_factor[];
 extern struct command_info cmd_info[];
 extern struct dex_app_type dex_app[];
+extern struct agi_app_type agi_app[];
 extern struct shapechange_struct shapechange_name_list[];
 extern struct str_app_type str_app[];
 extern const char *item_types[];
@@ -3730,18 +3731,22 @@ void do_smith(P_char ch, char *argument, int cmd)
 int chance_throw_potion(P_char ch, P_char victim)
 {
   int      chance = 0;
+  int dex_chance, agi_chance;
 
-  if (IS_PC(ch))
+  if(IS_PC(ch))
   {
-    chance = GET_CHAR_SKILL(ch, SKILL_THROW_POTIONS);
+    chance = GET_CHAR_SKILL(ch, SKILL_THROW_POTIONS) + number(-20, 20);
   }
-  else if (GET_PRIME_CLASS(ch, CLASS_ALCHEMIST))
+  else
   {
-    chance = GET_LEVEL(ch) * 2;
+    chance = GET_LEVEL(ch) * 2 - number(0, 30);
+    chance = BOUNDED(10, chance, 100);
   }
-  
+  dex_chance = STAT_INDEX((stat_factor[GET_RACE(ch)].Dex * GET_C_DEX(ch) / 100));
+  agi_chance = STAT_INDEX((stat_factor[GET_RACE(victim)].Agi * GET_C_AGI(victim) / 100));
+  chance += dex_chance - agi_chance;
+
   return (int) chance;
-
 }
 
 bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
@@ -3756,41 +3761,41 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
 
   chance = chance_throw_potion(ch, victim);
 
-  if (!chance)
+  if(!chance)
   {
     act("Well, trying might not hurt.", FALSE, ch, 0, 0, TO_CHAR);
     return FALSE;
   }
 
-  if (scroll == ch->equipment[HOLD])
+  if(scroll == ch->equipment[HOLD])
     equipped = TRUE;
 
-  lag = get_property("alchemist.throwp.reorient.rounds", 1.75);
+  lag = get_property("alchemist.throwp.reorient.rounds", 1.00);
 
-  if (IS_AFFECTED2(ch, AFF2_FLURRY))
+  if(IS_AFFECTED2(ch, AFF2_FLURRY))
   {
     lag *= 0.5;
   }
-  else if (IS_AFFECTED(ch, AFF_HASTE))
+  else if(IS_AFFECTED(ch, AFF_HASTE))
   {
     lag *= 0.8;
   }
     
-  CharWait(ch, (int) (get_property("alchemist.throwp.lag.rounds", 0.75) * PULSE_VIOLENCE) );
+  CharWait(ch, (int) (get_property("alchemist.throwp.lag.rounds", 1.00) * PULSE_VIOLENCE) );
   set_short_affected_by(ch, SKILL_THROW_POTIONS, (int) (lag * PULSE_VIOLENCE));
 
   notch_skill(ch, SKILL_THROW_POTIONS, 100);
 
-  if (victim)
+  if(victim)
   {
-    if (number(0, chance))
+    if(number(0, chance))
     {
       victim = victim;
     }
     else
     {
       the_room = ch->in_room;
-      for (tch = world[the_room].people; tch; tch = temp)
+      for(tch = world[the_room].people; tch; tch = temp)
       {
         temp = tch->next_in_room;
         if (number(0, 1))
@@ -3803,35 +3808,31 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
       if (!victim)
         victim = ch;
 
-      if (victim == ch)
+      if(victim == ch)
       {
         if (equipped)
+        {
           unequip_char(ch, HOLD);
+        }
         obj_from_char(scroll, TRUE);
         obj_to_room(scroll, ch->in_room);
-        send_to_char
-          ("&+YYou aim your throw a little too high, sending your potion flying across the room!\r\n&n",
-           ch);
-        act
-          ("$n slips as $e throws a $p, sending it bouncing along the ground!",
-           TRUE, ch, scroll, 0, TO_ROOM);
+        send_to_char("&+YYou aim your throw a little too high, sending your potion flying across the room!\r\n&n",ch);
+        act("$n slips as $e throws a $p, sending it bouncing along the ground!", TRUE, ch, scroll, 0, TO_ROOM);
         return FALSE;
       }
     }
   }
 
-  if (victim)
+  if(victim)
   {
-    act
-      ("&+W$N&n &+Wpales&N &+Las $p &+Lthrown by&n&+m $n&n&+L hits $M&n &+Lin the face.&n",
-       FALSE, ch, scroll, victim, TO_NOTVICT);
-    act("&+W$N's&n&+L face turns&+W pale &+Las $p &+Lhits $M dead on!&n ",
-        FALSE, ch, scroll, victim, TO_CHAR);
-    act
-      ("&+LYour face &+Wpales&N&+L as $p &+Lthrown by&n&+m $n &n&+Lhits you dead on.&N",
-       FALSE, ch, scroll, victim, TO_VICT);
+    act("&+LYou throw a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_CHAR);
+    act("&+W$n&n &+Lthrows a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_ROOM);
+
+    act("&+L$N&n &-L&+Wscreams&N &+Las $p &+Lhits $M dead on!&n", FALSE, ch, scroll, victim, TO_NOTVICT);
+    act("&+L$N's&n&+L face turns&+W pale &+Las $p &+Lhits $M dead on!&n ", FALSE, ch, scroll, victim, TO_CHAR);
+    act("&+LYour face &+Wpales&N&+L as $p &+Lthrown by&n&+m $n &n&+Lhits you!&N", FALSE, ch, scroll, victim, TO_VICT);
   }
-  else if (obj)
+  else if(obj)
   {
     act("&+LYou throw a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_CHAR);
     act("&+W$n&n &+Lthrows a potion at&n $p&n&+L...&n", FALSE, ch, obj, 0, TO_ROOM);
@@ -3842,18 +3843,20 @@ bool throw_potion(P_char ch, P_obj scroll, P_char victim, P_obj obj)
     return FALSE;
   }
 
-  if (equipped)
+  if(equipped)
   {
     unequip_char(ch, HOLD);
   }
   
-  if (IS_SET(world[ch->in_room].room_flags, NO_MAGIC) && !IS_TRUSTED(ch))
+  if(IS_SET(world[ch->in_room].room_flags, NO_MAGIC) && !IS_TRUSTED(ch))
   {
     send_to_char("Nothing seems to happen.\r\n", ch);
   }
-  else if (victim && (victim != ch) && !IS_TRUSTED(ch) &&
-           (IS_SET(world[ch->in_room].room_flags, SINGLE_FILE)) &&
-           !AdjacentInRoom(ch, victim))
+  else if(victim && 
+         (victim != ch) && 
+         !IS_TRUSTED(ch) &&
+         (IS_SET(world[ch->in_room].room_flags, SINGLE_FILE)) &&
+         !AdjacentInRoom(ch, victim))
   {
     send_to_char("You can't get a clear line of sight!\r\n",
                  ch);

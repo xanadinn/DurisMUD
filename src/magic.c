@@ -4272,12 +4272,14 @@ void spell_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj
 
   if(GET_SPEC(ch, CLASS_CLERIC, SPEC_HOLYMAN))
   {
+    mod = 1.5;
+  }
+  else if(GET_CLASS(victim, CLASS_PALADIN) || GET_CLASS(victim, CLASS_ANTIPALADIN))
+  {
     mod = 1.25;
   }
   else
-  {
     mod = 1;
-  }
   
   if(!affected_by_spell(victim, SPELL_ARMOR))
   {
@@ -7459,7 +7461,7 @@ void spell_stone_skin(int level, P_char ch, char *arg, int type,
                       P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int      absorb = (level / 4) + number(1, 4);
+  int      absorb = (level / 3) + number(1, 6);
 
   if(!has_skin_spell(victim))
   {
@@ -7480,6 +7482,10 @@ void spell_stone_skin(int level, P_char ch, char *arg, int type,
       act("&+LYou feel your skin harden to stone.",
         TRUE, victim, 0, 0, TO_CHAR);
     }
+    
+    if(affected_by_spell(victim, SPELL_BARKSKIN))
+      affect_from_char(victim, SPELL_BARKSKIN);
+
   }
   else
   {
@@ -7495,13 +7501,19 @@ void spell_stone_skin(int level, P_char ch, char *arg, int type,
   af.duration = 4;
   af.modifier = absorb;
   affect_to_char(victim, &af);
+
+  af.type = SPELL_STONE_SKIN;
+  af.duration = 4;
+  af.modifier = -3;
+  af.location = victim->points.combat_pulse;
+  affect_to_char(victim, &af);
 }
 
 void spell_ironwood(int level, P_char ch, char *arg, int type,
                       P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int      absorb = (level / 4) + number(1, 4);
+  int      absorb = (level / 5) + number(1, 4);
 
 
   if(!affected_by_spell(victim, SPELL_BARKSKIN))
@@ -7531,6 +7543,12 @@ void spell_ironwood(int level, P_char ch, char *arg, int type,
   af.type = SPELL_IRONWOOD;
   af.duration = 4;
   af.modifier = absorb;
+  affect_to_char(victim, &af);
+
+  af.type = SPELL_IRONWOOD;
+  af.duration = 4;
+  af.modifier = -2;
+  af.location = victim->points.combat_pulse;
   affect_to_char(victim, &af);
 }
 
@@ -11069,6 +11087,11 @@ void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
         act("$N evades your spell!", TRUE, ch, 0, victim, TO_CHAR);
         return;
       }
+    }
+    if(affected_by_spell(victim, SPELL_STONE_SKIN))
+    {
+      send_to_char("Their stone skin is already harder than bark...", ch);
+      return;
     }
     if(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND))
     {
@@ -17767,7 +17790,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
   if(d->next_affect == 0)
   {
     send_to_room
-      ("&+LThe Horseman of D&+We&+La&+Wt&+Lh appears in the sky overhead!\n",
+      ("&+LThe Horseman of D&+We&+La&+Wt&+Lh appears in the sky overhead...\n",
        ch->in_room);
 
     act("&+LThe Horseman of &+LD&+We&+La&+Wt&+Lh cackles and swings a &+wmassive &+Wdeadly &+Lscythe &+Lat $n!",
@@ -17802,8 +17825,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
   }
   else if(d->next_affect == 1)
   {
-    send_to_room("The Horseman of &+RW&+ra&+Rr&N appears in the skies!\n",
-                 ch->in_room);
+    send_to_room("The Horseman of &+RW&+ra&+Rr&N appears in the sky overhead...\n", ch->in_room);
     
     i = 0;
     
@@ -17825,7 +17847,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
         act("&+LThe Horseman of &+RW&+ra&+Rr &+Lglares with &+renraged &+Reyes &+Lat you!",
           TRUE, tch, 0, 0, TO_VICT);
         
-        berserk(tch, 1 * PULSE_VIOLENCE);
+        berserk(tch, 2 * PULSE_VIOLENCE);
         
         i++;
         
@@ -17850,7 +17872,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
     if(opponents <=  get_property("spell.apocalypse.maxAffected", 4.000) &&
       should_area_hit(ch, vict))
     {
-      spell_incendiary_cloud(25, ch, NULL, 0, vict, NULL);
+      spell_incendiary_cloud(GET_LEVEL(ch), ch, NULL, 0, vict, NULL);
     }
     else
     {
@@ -17905,7 +17927,7 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
   else if(d->next_affect == 3)
   {
     send_to_room
-      ("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N appears in the skies!\n",
+      ("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N appears in the sky overhead...\n",
        ch->in_room);
        
     i = 0;
@@ -17915,11 +17937,11 @@ void event_apocalypse(P_char ch, P_char victim, P_obj obj, void *data)
       if(should_area_hit(ch, tch) &&
          !number(0, 2))
       {
-        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N breaths on $n!&N",
+        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N breathes on $n!&N",
           TRUE, tch, 0, 0, TO_ROOM);
-        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N breaths on $N!&N",
+        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N breathes on $N!&N",
           TRUE, tch, 0, 0, TO_CHAR);
-        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N chokes you with its\n&+ywretched breath!",
+        act("The Horseman of &+gP&+Le&+gs&+Lt&+gi&+Ll&+ge&+Ln&+gc&+Le&N chokes you with its &+ywretched breath!",
           TRUE, tch, 0, 0, TO_VICT);
           
         if(!affected_by_spell(tch, SPELL_WITHER) &&
