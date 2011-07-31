@@ -541,7 +541,7 @@ void gain_epic(P_char ch, int type, int data, int amount)
     amount = MAX(1, (int) ( amount * get_property("epic.errand.penaltyMod", 0.25) ) );
   }
 
-  // For murdok nexus stone... to change rate use property nexusStones.bonus.epics
+  // For marduk nexus stone... to change rate use property nexusStones.bonus.epics
   amount = check_nexus_bonus(ch, amount, NEXUS_BONUS_EPICS);
 
   if (GET_RACEWAR(ch) == RACEWAR_GOOD)
@@ -735,7 +735,7 @@ void epic_stone_absorb(P_obj obj)
     if( tobj == obj )
       continue;
 
-   /* if the other object is smaller epic stone, aborb it */
+   /* if the other object is smaller epic stone, absorb it */
    if( GET_OBJ_VNUM(tobj) <= GET_OBJ_VNUM(obj) &&
        obj_index[tobj->R_num].func.obj == epic_stone )
    {
@@ -1616,6 +1616,35 @@ void epic_initialization()
   }
 }
 
+int spell_penetration_check(P_char caster, P_char victim)
+{
+   int skill = GET_CHAR_SKILL(caster, SKILL_SPELL_PENETRATION);
+
+   if(skill)
+   {
+      skill /= 2;
+
+      if(number(0, 110) < BOUNDED(10, skill, (int)get_property("skill.spellPenetration.highEndPercent", 60.000)) &&
+         caster->in_room == victim->in_room)
+      {
+        struct affected_type af;
+
+        memset(&af, 0, sizeof(af));
+        af.type = SKILL_SPELL_PENETRATION;
+        af.flags = AFFTYPE_NOAPPLY | AFFTYPE_SHORT;
+        af.duration = 1;
+        affect_to_char(victim, &af);
+        act("&+CYour pure arcane focus causes your spell to partially burst through&n $N&+C's magical resistance!&n",
+          TRUE, caster, 0, victim, TO_CHAR);
+        act("$n&+C seems to focus for a moment, and $s spell partially bursts through your magical barrier!&n",
+          TRUE, caster, 0, victim, TO_VICT);
+        act("$n&+C seems to focus for a moment, and $s spell partially bursts through&n $N&+C's magical barrier!&n",
+          TRUE, caster, 0, victim, TO_NOTVICT);
+        return TRUE;
+      }
+    }
+  return FALSE;
+}
 
 // bonuses
 //     hit  dam
@@ -1704,28 +1733,28 @@ int stat_shops(int room, P_char ch, int cmd, char *arg)
     if(ch->base_stats.Str < MAX_SHOP_BUY)
     sprintf(buf, "1. A &+Gmagical&n strength potion for %s\r\n", coin_stringv(cost));
     else
-    sprintf(buf, "1. A &+Gmagical&n strength potion for is not available for you.\r\n");
+    sprintf(buf, "1. A &+Gmagical&n strength potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
      cost = ch->base_stats.Agi   *ch->base_stats.Agi   *ch->base_stats.Agi   * cost_mod;
     if(ch->base_stats.Agi < MAX_SHOP_BUY)
     sprintf(buf, "2. A &+Gmagical&n agility potion for %s\r\n", coin_stringv(cost));
     else
-    sprintf(buf, "2. A &+Gmagical&n agility potion for is not available for you.\r\n");
+    sprintf(buf, "2. A &+Gmagical&n agility potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
     cost = ch->base_stats.Dex   * ch->base_stats.Dex   * ch->base_stats.Dex   * cost_mod;
      if(ch->base_stats.Dex < MAX_SHOP_BUY)
     sprintf(buf, "3. A &+Gmagical&n dexterity potion for %s\r\n", coin_stringv(cost));
      else
-    sprintf(buf, "3. A &+Gmagical&n dexterity potion for is not available for you.\r\n");
+    sprintf(buf, "3. A &+Gmagical&n dexterity potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
     cost = ch->base_stats.Con   *ch->base_stats.Con   *ch->base_stats.Con   * cost_mod;
      if(ch->base_stats.Con < MAX_SHOP_BUY)
      sprintf(buf, "4. A &+Gmagical&n constitution potion for %s\r\n", coin_stringv(cost));
      else
-     sprintf(buf, "4. A &+Gmagical&n constitution potion for is not available for you.\r\n");
+     sprintf(buf, "4. A &+Gmagical&n constitution potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
 
@@ -1733,21 +1762,21 @@ int stat_shops(int room, P_char ch, int cmd, char *arg)
      if(ch->base_stats.Luck < MAX_SHOP_BUY)
     sprintf(buf, "5. A &+Gmagical&n luck potion for %s\r\n", coin_stringv(cost));
      else
-    sprintf(buf, "5. A &+Gmagical&n luck stat potion for is not available for you.\r\n");
+    sprintf(buf, "5. A &+Gmagical&n luck stat potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
       cost = ch->base_stats.Pow   *ch->base_stats.Pow   *ch->base_stats.Pow   * cost_mod;
     if(ch->base_stats.Pow < MAX_SHOP_BUY)
       sprintf(buf, "6. A &+Gmagical&n power potion for %s\r\n", coin_stringv(cost));
     else
-        sprintf(buf, "6. A &+Gmagical&n power stat potion for is not available for you.\r\n");
+        sprintf(buf, "6. A &+Gmagical&n power stat potion is not available for you.\r\n");
     send_to_char(buf, ch);
 
     cost = ch->base_stats.Int   *ch->base_stats.Int   *ch->base_stats.Int   * cost_mod;
     if(ch->base_stats.Int < MAX_SHOP_BUY)
     sprintf(buf, "7. A &+Gmagical&n intelligence potion for %s\r\n", coin_stringv(cost));
     else
-    sprintf(buf, "7. A &+Gmagical&n intelligence stat potion for is not available for you.\r\n");
+    sprintf(buf, "7. A &+Gmagical&n intelligence stat potion is not available for you.\r\n");
 
     send_to_char(buf, ch);
 
@@ -1755,7 +1784,7 @@ int stat_shops(int room, P_char ch, int cmd, char *arg)
     if(ch->base_stats.Wis < MAX_SHOP_BUY)
     sprintf(buf, "8. A &+Gmagical&n wisdom potion for %s\r\n", coin_stringv(cost));
     else
-    sprintf(buf, "8. A &+Gmagical&n wisdom stat potion for is not available for you.\r\n");
+    sprintf(buf, "8. A &+Gmagical&n wisdom stat potion is not available for you.\r\n");
 
     send_to_char(buf, ch);
 
@@ -1763,7 +1792,7 @@ int stat_shops(int room, P_char ch, int cmd, char *arg)
     if(ch->base_stats.Cha < MAX_SHOP_BUY)
         sprintf(buf, "9. A &+Gmagical&n charisma potion for %s\r\n", coin_stringv(cost));
     else
-    sprintf(buf, "9. A &+Gmagical&n charisma stat potion for is not available for you.\r\n");
+    sprintf(buf, "9. A &+Gmagical&n charisma stat potion  is not available for you.\r\n");
     send_to_char(buf, ch);
 
 
@@ -2526,9 +2555,9 @@ bool silent_spell_check(P_char ch)
 
 void say_silent_spell(P_char ch, int spell)
 {
-  act("Using your expanded knowledge, you enunciate the spell with nothing but a gesture of the hand.",
+  act("Using your expanded knowledge, you cast the spell with nothing but a gesture of the hand.",
       FALSE, ch, 0, 0, TO_CHAR);
-  act("Using $s expanded knowledge, $n enunciates $s spell with nothing but a gesture of the hand.",
+  act("Using $s expanded knowledge, $n casts $s spell with nothing but a gesture of the hand.",
       FALSE, ch, 0, 0, TO_ROOM);
 }
 

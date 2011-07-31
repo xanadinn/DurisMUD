@@ -37,8 +37,9 @@ void     trans_char(int);
 
 int npc_get_pseudo_spoken_language(P_char ch)
 {
-  if (IS_HUMANOID(ch))
-    /* wow, a genuine PC race. let's ronk. :) */
+  return TONGUE_COMMON;
+}
+/*  if (IS_HUMANOID(ch))
     return language_base[GET_RACE(ch) - 1][0];
   else if (ch->following)
     if (IS_PC(ch->following))
@@ -49,7 +50,7 @@ int npc_get_pseudo_spoken_language(P_char ch)
     return TONGUE_ORC;
   else
     return TONGUE_COMMON;
-}
+} */
 
 int npc_get_pseudo_language_skill(P_char ch, int lang)
 {

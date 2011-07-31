@@ -14,8 +14,8 @@
 extern P_index mob_index;       /* for IS_SHOPKEEPER() macro */
 extern struct stat_data stat_factor[];
 extern float class_hitpoints[];
-float    hp_mob_con_factor;
-float    hp_mob_npc_pc_ratio;
+float    hp_mob_con_factor = get_property("hitpoints.mob.conFactor", 1.000);
+float    hp_mob_npc_pc_ratio = get_property("hitpoints.mob.NpcPcRatio", 2.250);
 extern P_room world;
 extern struct zone_data *zone_table;
 extern char *specdata[][MAX_SPEC];
@@ -79,35 +79,47 @@ void convertMob(P_char ch)
       isname("zombie", GET_NAME(ch)))
       GET_RACE(ch) = RACE_ZOMBIE;
 
+  if (GET_RACE(ch) == RACE_UNDEAD &&
+      isname("wraith", GET_NAME(ch)))
+      GET_RACE(ch) = RACE_WRAITH;
+
+  if (GET_RACE(ch) == RACE_UNDEAD &&
+      isname("spectre", GET_NAME(ch)))
+      GET_RACE(ch) = RACE_SPECTRE;
+
+  if (GET_RACE(ch) == RACE_UNDEAD &&
+      isname("shadow", GET_NAME(ch)))
+      GET_RACE(ch) = RACE_SHADOW;
+
 
   /* assign specialization */
-  if( !IS_MULTICLASS_NPC(ch) && ch->player.spec == 0)
+  if(!IS_MULTICLASS_NPC(ch) && ch->player.spec == 0)
   {
-    if( isname("_spec1_", GET_NAME(ch)) && 
+    if(isname("_spec1_", GET_NAME(ch)) && 
         *GET_SPEC_NAME(ch->player.m_class, 0) )
     {
       ch->player.spec = 1;
     }
-    else if( isname("_spec2_", GET_NAME(ch)) && 
+    else if(isname("_spec2_", GET_NAME(ch)) && 
              *GET_SPEC_NAME(ch->player.m_class, 1) )
     {
       ch->player.spec = 2;
     }
-    else if( isname("_spec3_", GET_NAME(ch)) && 
+    else if(isname("_spec3_", GET_NAME(ch)) && 
              *GET_SPEC_NAME(ch->player.m_class, 2) )
     {
       ch->player.spec = 3;
     }
-    else if( isname("_spec4_", GET_NAME(ch)) && 
+    else if(isname("_spec4_", GET_NAME(ch)) && 
              *GET_SPEC_NAME(ch->player.m_class, 3) )
     {
       ch->player.spec = 4;
     }    
-    else if( !isname("_nospec_", GET_NAME(ch)) &&
+    else if(!isname("_nospec_", GET_NAME(ch)) &&
              GET_LEVEL(ch) > number(29,50))
     {
       int i = number(0,MAX_SPEC-1);
-      if( *GET_SPEC_NAME(ch->player.m_class, i) &&
+      if(*GET_SPEC_NAME(ch->player.m_class, i) &&
           is_allowed_race_spec(GET_RACE(ch), ch->player.m_class, i+1) )
       {
         ch->player.spec = i+1;
@@ -133,13 +145,15 @@ void convertMob(P_char ch)
       strstr(ch->player.name, "_ignore_"))
   {
     ch->points.hit = ch->points.max_hit = ch->points.base_hit =
-      MAX(1, ch->points.base_hit / 4);
+      MAX(1, ch->points.base_hit / number(2, 6));
     affect_total(ch, FALSE);
     return;
   }
    
   if ((ch->player.m_class == 0) && (GET_LEVEL(ch) >= 15))
+  {
     ch->player.m_class = CLASS_WARRIOR;
+  }
 
   /* minimum mob level */
   if (!GET_LEVEL(ch))
@@ -153,31 +167,31 @@ void convertMob(P_char ch)
   /* find multipliers for mob xp/money */
   if (GET_LEVEL(ch) > 50)
   {
-    xp = 1800;
+    xp = 1600;
     copp = 0;
     silv = 0;
-    gold = .4292;
-    plat = .0950;
+    gold = .9292;
+    plat = .1950;
   }
   else if (GET_LEVEL(ch) > 40)
   {
-    xp = 1100;
+    xp = 1000;
     copp = 0;
     silv = 0;
-    gold = .3637;
-    plat = .0667;
+    gold = .6637;
+    plat = .1267;
   }
   else if (GET_LEVEL(ch) > 30)
   {
-    xp = 600;
+    xp = 525;
     copp = 0;
     silv = 0;
-    gold = .2857;
-    plat = .0500;
+    gold = .4857;
+    plat = .0800;
   }
   else if (GET_LEVEL(ch) > 20)
   {
-    xp = 350;
+    xp = 275;
     copp = .6667;
     silv = .4546;
     gold = .2223;
@@ -185,7 +199,7 @@ void convertMob(P_char ch)
   }
   else if (GET_LEVEL(ch) > 10)
   {
-    xp = 125;
+    xp = 100;
     copp = .5000;
     silv = .4000;
     gold = .1667;
@@ -193,7 +207,7 @@ void convertMob(P_char ch)
   }
   else
   {
-    xp = 50;
+    xp = 25;
     copp = .4000;
     silv = .3334;
     gold = 0.0;
@@ -211,10 +225,8 @@ void convertMob(P_char ch)
   /* handle special situations for special races in regards to money */
   if(IS_GREATER_RACE(ch) ||
      IS_ELITE(ch))
-      GET_PLATINUM(ch) *= 4;
+      GET_PLATINUM(ch) *= number(3, 6);
 
-  /* finally, rarefy valuable platinum */
-  xhigh = GET_PLATINUM(ch);
   /* make sure they get at least 1 coin... */
   if (!GET_MONEY(ch))
     GET_COPPER(ch) = 1;
@@ -409,14 +421,13 @@ void convertMob(P_char ch)
    * hitpoints etc. the goal was to make it intuitively adjustable via
    * two provided properties. /tharkun
    */
-  hits = (int) ((0.00000045 *
+  hits = (int) ((.00000045 *
                  (stat_factor[GET_RACE(ch)].Con *
                   stat_factor[GET_RACE(ch)].Con * hp_mob_con_factor +
                   100 * 100 * (1 - hp_mob_con_factor)) * level * level +
                  2) * level * hp_mob_npc_pc_ratio);
-  hits -=
-    (int) (0.5 * hits *
-           (1.0 - class_hitpoints[flag2idx(ch->player.m_class)]));
+
+  hits *= class_hitpoints[flag2idx(ch->player.m_class)];
 
 #if defined(CHAOS_MUD) && (CHAOS_MUD == 1)
   hits = (int)(hits * (1/10));
@@ -577,13 +588,13 @@ void apply_zone_modifier(P_char ch)
     return;
   
   float hit_mod = 1.0 + ((float) get_property("hitpoints.zoneDifficulty.factor", 0.500) * difficulty);
-  GET_MAX_HIT(ch) = GET_HIT(ch) = ch->points.base_hit = (int) ( ch->points.base_hit * hit_mod );
+  GET_MAX_HIT(ch) = GET_HIT(ch) = ch->points.base_hit = (int) (ch->points.base_hit * hit_mod );
   
   float exp_mod = 1.0 + ((float) get_property("exp.zoneDifficulty.factor", 0.500) * difficulty);
-  GET_EXP(ch) = (int) ( GET_EXP(ch) * exp_mod);  
+  GET_EXP(ch) = (int) (GET_EXP(ch) * exp_mod);  
 
   float damage_mod_mod = 1.0 + ((float) get_property("damage.zoneDifficulty.mod.factor", 0.200) * difficulty);
-  ch->specials.damage_mod = (float) ( ch->specials.damage_mod * damage_mod_mod );
+  ch->specials.damage_mod = (float) (ch->specials.damage_mod * damage_mod_mod );
 }
 
 int GetFormType(P_char ch)

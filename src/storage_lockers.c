@@ -826,7 +826,12 @@ int storage_locker_room_hook(int room, P_char ch, int cmd, char *arg);
 /* obj proc - put on bank counter objects instead of in bank rooms */
 int storage_locker_obj_hook(P_obj obj, P_char ch, int cmd, char *argument)
 {
-  return storage_locker_room_hook(obj->loc.room, ch, cmd, argument);
+  if(obj->loc.room == real_room(139095))
+  {
+    return FALSE;
+  }
+  else
+    return storage_locker_room_hook(obj->loc.room, ch, cmd, argument);
 }
 
 /* room proc put in banks, etc to allow a person to enter a locker */

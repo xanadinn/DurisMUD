@@ -2586,6 +2586,13 @@ void assign_rooms(void)
   obj_index[real_object0(87611)].func.obj = jubilex_grid_mob_generator; 
   obj_index[real_object0(67274)].func.obj = zion_netheril;
 
+  /* Brass */
+  mob_index[real_mobile0(139014)].func.mob = block_dir;
+  mob_index[real_mobile0(139115)].func.mob = guild_guard;
+  mob_index[real_mobile0(139111)].func.mob = guild_guard;
+  mob_index[real_mobile0(139001)].func.mob = guild_guard;
+  mob_index[real_mobile0(139130)].func.mob = basilisk_freeze;
+
   /* Fortress of Dreams */
   mob_index[real_mobile0(32604)].func.mob = block_dir;
   mob_index[real_mobile0(32613)].func.mob = block_dir;

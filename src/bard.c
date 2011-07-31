@@ -834,11 +834,6 @@ void bard_harming(int l, P_char ch, P_char victim, int song)
       empower += 100;
     }
     
-    if(resists_spell(ch, victim)) // Added. Nov08 -Lucrot
-    {
-      return;
-    }
-    
     dam = (int) (l * 3 + empower / 4 + number(-4, 4)); // Adjusted. Nov08 -Lucrot
     dam = (int) dam * get_property("song.bard.harming.mod", 1.000);
     if(spell_damage(ch, victim, dam, SPLDAM_SOUND,

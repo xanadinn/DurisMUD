@@ -3123,7 +3123,7 @@ int try_riposte(P_char ch, P_char victim, P_obj wpn)
     skl *= 0.50;
 
   if(IS_AFFECTED5(ch, AFF5_DAZZLEE))
-    skl *= 0.95;
+    skl *= 0.85;
 
 // Expert riposte.
   if(expertriposte)
@@ -3454,9 +3454,11 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
   struct damage_messages dummy_messages;
   struct affected_type *af;
   struct proc_data data;
+  struct spell_res_data spell_msg_data = {"to char", "to vict", "to room", "TRUE"};
   P_char vict_group_member, next, eth_ch;
   P_obj vict_weapon, item;
-  int  result, circle, awe, i;
+  int result, circle, awe, i, resist;
+  float res_amt;
   double levelmod = 1.0;
 
   // Just making sure.
@@ -3469,6 +3471,17 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     messages = &dummy_messages;
   }
 
+  res_amt = get_innate_resistance(victim);
+  spell_resistance_check(ch, victim, &spell_msg_data);
+
+  if(spell_msg_data.true_false)  
+  {
+    act(spell_msg_data.tochar, FALSE, victim, 0, ch, TO_CHAR);
+    act(spell_msg_data.tovict, FALSE, victim, 0, ch, TO_VICT);
+    act(spell_msg_data.toroom, FALSE, victim, 0, ch, TO_NOTVICTROOM);
+    return DAM_NONEDEAD;
+  }
+
   /* Pets take double damage from PC spells */
   if(get_linked_char(victim, LNK_PET) &&
     IS_PC(ch))
@@ -3479,14 +3492,13 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
   /* Being berserked incurs more damage from spells. Ouch. */
   if(affected_by_spell(victim, SKILL_BERSERK))
   {
-    { // 110%
+    {
       dam *= dam_factor[DF_BERSERKSPELL];
     }
     
     if(GET_CLASS(ch, CLASS_BERSERKER))
     { // This is an additional penalty for berserkers since they are a hitter
-      // class but tend to have in excess of 1.5k hitpoints.
-      // + 10%
+      // class with high hp
       dam *= dam_factor[DF_BERSERKEREXTRA];
     }
     
@@ -3679,7 +3691,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       data.flags = flags;
       data.messages = messages;
 
-      if ((*mob_index[GET_RNUM(victim)].func.mob) (victim, ch, CMD_GOTNUKED,
+      if((*mob_index[GET_RNUM(victim)].func.mob) (victim, ch, CMD_GOTNUKED,
                                               (char *) &data))
       {
         if (GET_STAT(victim) == STAT_DEAD)
@@ -3691,7 +3703,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       }
     }
 
-    if (IS_AFFECTED4(victim, AFF4_STORNOGS_SPHERES))
+    if(IS_AFFECTED4(victim, AFF4_STORNOGS_SPHERES))
     {
       act("&+RThe sphere circling you darts in front of&n $n&+R's assault, absorbing its magic and leaving you unharmed!",
          FALSE, ch, 0, victim, TO_VICT);
@@ -3712,76 +3724,76 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       return DAM_NONEDEAD;
     }
 
-      if(GET_CHAR_SKILL(victim, SKILL_ARCANE_RIPOSTE) > 0 &&
+    if(GET_CHAR_SKILL(victim, SKILL_ARCANE_RIPOSTE) > 0 &&
         !IS_TRUSTED(victim))
-      {
-        int skill_lvl = GET_CHAR_SKILL(victim, SKILL_ARCANE_RIPOSTE);
+    {
+      int skill_lvl = GET_CHAR_SKILL(victim, SKILL_ARCANE_RIPOSTE);
         
-        if(!IS_STUNNED(victim) &&
-          (dam > 10 && 
-          notch_skill(victim, SKILL_ARCANE_RIPOSTE, get_property("skill.notch.arcane", 100))) ||
-          (number(1, 100) < skill_lvl / 8))
-        {
-          act("$N frowns in &+cconcentration&n as $E intercepts $n's spell and &+Churls it back at $m!&n",
-            TRUE, ch, 0, victim, TO_NOTVICT);
-          act("$N frowns in &+cconcentration&n as $E intercepts your spell and &+Churls it back at you!&n",
-            TRUE, ch, 0, victim, TO_CHAR);
-          act("With &+cgreat mastery&n you intercept $n's spell and &+Churl it back at $m!&n",
-            TRUE, ch, 0, victim, TO_VICT);
-          
-          result = spell_damage(victim, ch, (skill_lvl * dam) / 100, type, flags, messages);
-          
-          if (result == DAM_VICTDEAD)
-          {
-            return DAM_CHARDEAD;
-          }
-          else if (result == DAM_CHARDEAD)
-          {
-            return DAM_VICTDEAD;
-          }
-          else
-            return result;
-        }
-      }
-
-      if(GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK) > 0 &&
-        !IS_TRUSTED(victim) &&
-        !IS_STUNNED(victim) &&
-        !IS_IMMOBILE(victim))
+      if(!IS_STUNNED(victim) &&
+        (dam > 10 && 
+        notch_skill(victim, SKILL_ARCANE_RIPOSTE, get_property("skill.notch.arcane", 100))) ||
+        (number(1, 100) < skill_lvl / 8))
       {
-        if(dam > 15 &&
-          (notch_skill(victim, SKILL_ARCANE_BLOCK, get_property("skill.notch.arcane", 100)) ||
-          number(1, 200) <= (GET_LEVEL(victim) + GET_C_LUCK(victim) / 10) ||
-          ((IS_ELITE(victim) || IS_GREATER_RACE(victim)) && !number(0, 4))))
+        act("$N frowns in &+cconcentration&n as $E intercepts $n's spell and &+Churls it back at $m!&n",
+          TRUE, ch, 0, victim, TO_NOTVICT);
+        act("$N frowns in &+cconcentration&n as $E intercepts your spell and &+Churls it back at you!&n",
+          TRUE, ch, 0, victim, TO_CHAR);
+        act("With &+cgreat mastery&n you intercept $n's spell and &+Churl it back at $m!&n",
+          TRUE, ch, 0, victim, TO_VICT);
+        
+        result = spell_damage(victim, ch, (skill_lvl * dam) / 100, type, flags, messages);
+        
+        if (result == DAM_VICTDEAD)
         {
-          act("$N raises hands performing an &+Marcane gesture&n and some of $n's &+mspell energy&n is dispersed.",
-            TRUE, ch, 0, victim, TO_NOTVICT);
-          act("$N raises hands performing an &+Marcane gesture&n and some of your &+mspell's energy&n is dispersed.",
-            TRUE, ch, 0, victim, TO_CHAR);
-          act("You perform an &+Marcane gesture&n dispersing some of $n's &+mmspell energy.&n",
-            TRUE, ch, 0, victim, TO_VICT);
-          dam = dam - number(1, (get_property("skill.arcane.block.dam.reduction", .004) * GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK) * dam));
+          return DAM_CHARDEAD;
         }
+        else if (result == DAM_CHARDEAD)
+        {
+          return DAM_VICTDEAD;
+        }
+        else
+          return result;
       }
+    }
 
-      if(GET_CHAR_SKILL(victim, SKILL_DISPERSE_FLAMES) &&
-        type == SPLDAM_FIRE &&
-        GET_CHAR_SKILL(victim, SKILL_DISPERSE_FLAMES) > number(0, 100) &&
-        !IS_TRUSTED(victim))
+    if(GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK) > 0 &&
+      !IS_TRUSTED(victim) &&
+      !IS_STUNNED(victim) &&
+      !IS_IMMOBILE(victim))
+    {
+      if(dam > 15 &&
+        (notch_skill(victim, SKILL_ARCANE_BLOCK, get_property("skill.notch.arcane", 100)) ||
+        number(1, 200) <= (GET_LEVEL(victim) + GET_C_LUCK(victim) / 10) ||
+        ((IS_ELITE(victim) || IS_GREATER_RACE(victim)) && !number(0, 4))))
       {
-        if ((dam > 10 && notch_skill(victim, SKILL_DISPERSE_FLAMES,
-                                      get_property("skill.notch.pyrokinetics", 100))) ||
-            (!number(0, 2) && number(1, 56) <= GET_LEVEL(victim)))
-        {
-          act("$N &+rsmiles slightly as the &+Yflames &+rdwindle and die before reaching $M.&n",
-            TRUE, ch, 0, victim, TO_NOTVICT);
-          act("$N &+rsmiles slightly as the &+Yflames &+rdwindle and die before reaching $M.&n",
-            TRUE, ch, 0, victim, TO_CHAR);
-          act("&+rYou take control over the &+Yflames &+rand will them to dwindle and die.&n",
-            TRUE, ch, 0, victim, TO_VICT);
-          return DAM_NONEDEAD;
-        }
+        act("$N raises hands performing an &+Marcane gesture&n and some of $n's &+mspell energy&n is dispersed.",
+          TRUE, ch, 0, victim, TO_NOTVICT);
+        act("$N raises hands performing an &+Marcane gesture&n and some of your &+mspell's energy&n is dispersed.",
+          TRUE, ch, 0, victim, TO_CHAR);
+        act("You perform an &+Marcane gesture&n dispersing some of $n's &+mmspell energy.&n",
+          TRUE, ch, 0, victim, TO_VICT);
+        dam = dam - number(1, (get_property("skill.arcane.block.dam.reduction", .004) * GET_CHAR_SKILL(victim, SKILL_ARCANE_BLOCK) * dam));
       }
+    }
+
+    if(GET_CHAR_SKILL(victim, SKILL_DISPERSE_FLAMES) &&
+       type == SPLDAM_FIRE &&
+       GET_CHAR_SKILL(victim, SKILL_DISPERSE_FLAMES) > number(0, 100) &&
+       !IS_TRUSTED(victim))
+    {
+      if ((dam > 10 && notch_skill(victim, SKILL_DISPERSE_FLAMES,
+           get_property("skill.notch.pyrokinetics", 100))) ||
+          (!number(0, 2) && number(1, 56) <= GET_LEVEL(victim)))
+      {
+         act("$N &+rsmiles slightly as the &+Yflames &+rdwindle and die before reaching $M.&n",
+           TRUE, ch, 0, victim, TO_NOTVICT);
+         act("$N &+rsmiles slightly as the &+Yflames &+rdwindle and die before reaching $M.&n",
+           TRUE, ch, 0, victim, TO_CHAR);
+         act("&+rYou take control over the &+Yflames &+rand will them to dwindle and die.&n",
+            TRUE, ch, 0, victim, TO_VICT);
+         return DAM_NONEDEAD;
+      }
+     
 
       if(GET_CHAR_SKILL(victim, SKILL_FLAME_MASTERY) &&
         type == SPLDAM_FIRE &&
@@ -3816,34 +3828,8 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         }
       }
     }                             /* end deflectable */
-	
-	/* Guess we'll put the new ether spells here */
-	if (type == SPLDAM_FIRE && affected_by_spell(victim, SPELL_ICE_ARMOR))
-	{
-          act("&+C$N&+C's &+WI&+Cc&+wy &+BShield &+Rmelts &+Caround $M from $n's &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves $M unharmed!",
-            TRUE, ch, 0, victim, TO_NOTVICT);
-          act("&+C$N&+C's &+WI&+Cc&+wy &+BShield &+Rmelts &+Caround $M from your &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves $M unharmed!",
-            TRUE, ch, 0, victim, TO_CHAR);
-          act("&+CYour &+Wi&+Cc&+wy &+Bshield &+Rmelts &+Caround you from the &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves you unharmed!&n",
-            TRUE, ch, 0, victim, TO_VICT);
-	  affect_from_char(victim, SPELL_ICE_ARMOR);
-	  return DAM_NONEDEAD;
-	}
-
-	if (type == SPLDAM_HOLY && affected_by_spell(victim, SPELL_NEG_ARMOR))
-	{
-	 act("$n's &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses the negative shield surrounding $N&+L, but leaves $M unharmed!&n",
-           TRUE, ch, 0, victim, TO_NOTVICT);
-         act("&+LThe &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses the negative shield surrounding $N&+L, but leaves $M unharmed!&n",
-           TRUE, ch, 0, victim, TO_CHAR);
-         act("&+LThe barrier of negative energy &=LWFLASHES&n &+Las the &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses your shield but leaves you unharmed!&n",
-           TRUE, ch, 0, victim, TO_VICT);
-	 affect_from_char(victim, SPELL_NEG_ARMOR);
-	 return DAM_NONEDEAD;
-	}
-	/* End Ethermancer Absorb Spells */
-
-    if (!(flags & SPLDAM_NOSHRUG) && resists_spell(ch, victim))
+  }	
+    if (!(flags & SPLDAM_NOSHRUG) && spell_msg_data.true_false)
     {
       if (dam / 100 > number(1, 7) &&
           has_innate(victim, INNATE_SPELL_ABSORB) &&
@@ -3864,19 +3850,45 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       return DAM_NONEDEAD;
     }
 
+    /* Guess we'll put the new ether spells here */
+    if (type == SPLDAM_FIRE && affected_by_spell(victim, SPELL_ICE_ARMOR))
+    {
+       act("&+C$N&+C's &+WI&+Cc&+wy &+BShield &+Rmelts &+Caround $M from $n's &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves $M unharmed!",
+         TRUE, ch, 0, victim, TO_NOTVICT);
+       act("&+C$N&+C's &+WI&+Cc&+wy &+BShield &+Rmelts &+Caround $M from your &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves $M unharmed!",
+         TRUE, ch, 0, victim, TO_CHAR);
+       act("&+CYour &+Wi&+Cc&+wy &+Bshield &+Rmelts &+Caround you from the &+Rf&+ri&+Yer&+Ry &+rassault, &+Cbut leaves you unharmed!&n",
+         TRUE, ch, 0, victim, TO_VICT);
+       affect_from_char(victim, SPELL_ICE_ARMOR);
+       return DAM_NONEDEAD;
+     }
+
+    if (type == SPLDAM_HOLY && affected_by_spell(victim, SPELL_NEG_ARMOR))
+    {
+       act("$n's &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses the negative shield surrounding $N&+L, but leaves $M unharmed!&n",
+         TRUE, ch, 0, victim, TO_NOTVICT);
+       act("&+LThe &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses the negative shield surrounding $N&+L, but leaves $M unharmed!&n",
+         TRUE, ch, 0, victim, TO_CHAR);
+       act("&+LThe barrier of negative energy &=LWFLASHES&n &+Las the &+WH&+wo&+Ll&+Wy &+wspell &+Ldisperses your shield but leaves you unharmed!&n",
+         TRUE, ch, 0, victim, TO_VICT);
+       affect_from_char(victim, SPELL_NEG_ARMOR);
+       return DAM_NONEDEAD;
+    }
+	/* End Ethermancer Absorb Spells */
+
     if(!(flags & SPLDAM_NODEFLECT) &&
       IS_AFFECTED4(victim, AFF4_HELLFIRE) &&
-      !number(0, 5))
+      !number(0, (11 - GET_LEVEL(victim))))
     {
-      act("&+LYour spell is absorbed by&n $N's &+Rhellfire!",
-        FALSE, ch, 0, victim, TO_CHAR);
-      act("$n's&+L spell is absorbed by your &+Rhellfire!",
-        FALSE, ch, 0, victim, TO_VICT);
-      act("$n's&+L spell is absorbed by&n $N's &+Rhellfire!",
-        FALSE, ch, 0, victim, TO_NOTVICT);
-      vamp(victim, dam * get_property("vamping.hellfire.absorb", 0.14),
-           (int)(GET_MAX_HIT(victim) * 1.3));
-      return DAM_NONEDEAD;
+       act("&+LYour spell is absorbed by&n $N's &+Rhellfire!",
+         FALSE, ch, 0, victim, TO_CHAR);
+       act("$n's&+L spell is absorbed by your &+Rhellfire!",
+         FALSE, ch, 0, victim, TO_VICT);
+       act("$n's&+L spell is absorbed by&n $N's &+Rhellfire!",
+         FALSE, ch, 0, victim, TO_NOTVICT);
+       vamp(victim, dam * get_property("vamping.hellfire.absorb", 0.14),
+            (int)(GET_MAX_HIT(victim) * 1.3));
+       return DAM_NONEDEAD;
     }
 
     // apply damage modifiers
@@ -4126,12 +4138,10 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       dam *= dam_factor[DF_PHANTFORM];
     }
 
-    if(has_innate(victim, INNATE_VULN_COLD) &&
-      type == SPLDAM_COLD)
+    if(has_innate(victim, INNATE_VULN_COLD) && type == SPLDAM_COLD)
     {
       dam *= dam_factor[DF_VULNCOLD];
-      if(IS_PC(victim) &&
-        !NewSaves(victim, SAVING_PARA, 2))
+      if(IS_PC(victim) && !NewSaves(victim, SAVING_PARA, 2))
       {
         struct affected_type af;
 
@@ -4162,15 +4172,6 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       dam *= dam_factor[DF_CHAOSSHIELD];
     }
 
-    if(affected_by_spell(victim, SKILL_SPELL_PENETRATION))
-    {
-      int damageReductionMod = number(20, 70);
-      dam *= (double) damageReductionMod / 100.0;
-      // Use this properties file to make fine adjustments to this from now on.
-      dam *= (double) get_property("skill.spellPenetration.damageReductionMod", 1.00);
-      affect_from_char(victim, SKILL_SPELL_PENETRATION);
-    }
-
     // racial spell damage modifiers
     if(GET_RACE(ch) > RACE_NONE &&
       GET_RACE(ch) <= LAST_RACE &&
@@ -4186,19 +4187,19 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     }
 
     // adjust damage based on zone difficulty
-    if( IS_NPC(ch) )
+    if(IS_NPC(ch))
     {
       int zone_difficulty = BOUNDED(1, zone_table[world[real_room0(GET_BIRTHPLACE(ch))].zone].difficulty, 10);
       
-      if( zone_difficulty > 1 )
+      if(zone_difficulty > 1)
       {
         float dam_mod = 1.0 + ((float) get_property("damage.zoneDifficulty.spells.factor", 0.200) * zone_difficulty);
-        dam = (float) ( dam * dam_mod );
+        dam = (float) (dam * dam_mod);
       }
     }
 
     int necropets[] = {3, 4, 5, 6, 7, 8, 9, 10, 78, 79, 80, 81, 82, 83, 84, 85};
-    if (IS_NPC(ch) && IS_PC(victim))
+    if(IS_NPC(ch) && IS_PC(victim))
     {
       for (int r = 0; r < 16; r++)
       {
@@ -4212,20 +4213,20 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     }
 
     // across the board spell damage multiplier
-    dam = (int) ( dam * get_property("damage.spell.multiplier", 1.0) );
+    dam = (int) (dam * get_property("damage.spell.multiplier", 1.0));
 
-    if (get_linked_char(victim, LNK_ETHEREAL) || get_linking_char(victim, LNK_ETHEREAL))
+    if(get_linked_char(victim, LNK_ETHEREAL) || get_linking_char(victim, LNK_ETHEREAL))
     {
-      if (get_linked_char(victim, LNK_ETHEREAL))
+      if(get_linked_char(victim, LNK_ETHEREAL))
       {
        eth_ch = get_linked_char(victim, LNK_ETHEREAL);
       }
-      else if (get_linking_char(victim, LNK_ETHEREAL))
+      else if(get_linking_char(victim, LNK_ETHEREAL))
       {
        eth_ch = get_linking_char(victim, LNK_ETHEREAL);
       }
 
-      if( IS_ALIVE(eth_ch) )
+      if(IS_ALIVE(eth_ch))
       {
         dam = (int) dam * 0.5;
 
@@ -4237,6 +4238,20 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     }
 
     dam = MAX(1, dam);
+
+    //  MR below - Jexni 7/2/11
+    if(res_amt > number(1, 101))
+    {
+       act("&+bYou feel strange as your innate resistance causes some of the spell to flow around you!", FALSE, 0, 0, victim, TO_VICT);
+       act("&+b$n &+bseems to resist some of $N&+b's spell!&n", FALSE, victim, 0, ch, TO_NOTVICTROOM);
+       if(ch != victim)
+       {
+         act("&+b$N &+bseems to resist some of your spell!&n", FALSE, ch, 0, victim, TO_CHAR);
+       }
+       else
+       {}
+       dam = dam * (float) (1 - ((float) res_amt / 100));   
+    }
 
     // ugly hack - we smuggle damage_type for eq poofing messages on 8 highest bits
     messages->type |= type << 24;
@@ -6820,7 +6835,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     sprintf(room_msg, "$n's%%s %s %%s.", attack_hit_text[msg].singular);
     messages.type = DAMMSG_HIT_EFFECT | DAMMSG_TERSE;
   }
-  wizlog(56, "dam is %d, pre damage_mod", (int) dam);
+
   dam *= ch->specials.damage_mod;
 
   if(GET_RACE(ch) == RACE_ORC)
@@ -6839,7 +6854,6 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     dam *= 10;
   }
   
-  wizlog(56, "dam @ bool hit is %d", (int) dam);
   dam = BOUNDED(1, (int) dam, 32766);
 
   if (has_innate(victim, INNATE_WEAPON_IMMUNITY))
@@ -7394,7 +7408,7 @@ int dodgeSucceed(P_char char_dodger, P_char attacker, P_obj wpn)
   if(IS_AFFECTED5(char_dodger, AFF5_DAZZLEE) ||
     IS_STUNNED(char_dodger))
   {
-    percent = (int) (percent * 0.90);
+    percent = (int) (percent * 0.80);
   }
 
   if(IS_STUNNED(attacker))
@@ -7492,7 +7506,7 @@ int blockSucceed(P_char victim, P_char attacker, P_obj wpn)
         learned = (int) (learned * 1.5); 
 
   if(IS_AFFECTED5(victim, AFF5_DAZZLEE))
-    learned -= 10;
+    learned -= 15;
   // Victim benefits from having a shield and not standing.
   // This is intentional as parry and dodge values are
   // greatly reduced when victim is not standing. The victim
@@ -7781,7 +7795,7 @@ int parrySucceed(P_char victim, P_char attacker, P_obj wpn)
     learnedattacker = (int) (learnedattacker * 0.75);
 
   if(IS_AFFECTED5(victim, AFF5_DAZZLEE))
-    learnedvictim = (int) (learnedvictim * 0.90);
+    learnedvictim = (int) (learnedvictim * 0.80);
 
   if(affected_by_spell(victim, SKILL_GAZE))
     learnedvictim = (int) (learnedvictim * 0.80);
@@ -8815,7 +8829,7 @@ void DestroyStuff(P_char victim, int type)
   int slot, poofed = 0, worn = 0;
   P_obj item;
   int poof_chance = (int)(get_property("pvp.eq.poof.chance", 10));
-//  int poof_chance_niceq_multiplier = (int)(get_property("pvp.eq.poof.niceeq.chance.multiplier", 2));
+  int poof_chance_niceq_multiplier = (int)(get_property("pvp.eq.poof.niceeq.chance.multiplier", 2));
 
   if(!(victim))
   {
@@ -8827,64 +8841,59 @@ void DestroyStuff(P_char victim, int type)
   {
     item = victim->equipment[proccing_slots[slot]];
     
-    if(!item ||
-       is_nopoof(item))
+    if(!item || is_nopoof(item))
     {
       continue;
     }
     
-//    worn++;
+    worn++;
     
-    //poof_chance =
-      // MIN((int)
-          // (get_property("damage.minPoofChance", 5.) +
-           // obj_index[item->R_num].number / 5),
-          // (int) get_property("damage.maxPoofChance", 20.));
+    poof_chance =  MIN((int) (get_property("damage.minPoofChance", 5.) + obj_index[item->R_num].number / 5),
+                       (int) get_property("damage.maxPoofChance", 20.));
     
-    // if(IS_SET(item->bitvector, AFF_STONE_SKIN) ||
-       // IS_SET(item->bitvector, AFF_HASTE) ||
-       // IS_SET(item->bitvector, AFF_AWARE) ||
-       // IS_SET(item->bitvector, AFF_HIDE) ||
-       // IS_SET(item->bitvector2, AFF2_FIRE_AURA) ||
-       // IS_SET(item->bitvector2, AFF2_GLOBE) ||
-       // IS_SET(item->bitvector3, AFF3_GR_SPIRIT_WARD) ||
-       // IS_SET(item->bitvector4, AFF4_DAZZLER) ||
-       // IS_SET(item->bitvector4, AFF4_HELLFIRE) ||
-       // IS_SET(item->bitvector4, AFF4_REGENERATION) ||
-       // obj_index[item->R_num].func.obj != NULL)
-    // {
-      // poof_chance = (int)(poof_chance_niceq_multiplier * poof_chance);
-    // }
+    if(IS_SET(item->bitvector, AFF_STONE_SKIN) ||
+       IS_SET(item->bitvector, AFF_HASTE) ||
+       IS_SET(item->bitvector, AFF_AWARE) ||
+       IS_SET(item->bitvector, AFF_HIDE) ||
+       IS_SET(item->bitvector2, AFF2_FIRE_AURA) ||
+       IS_SET(item->bitvector2, AFF2_GLOBE) ||
+       IS_SET(item->bitvector3, AFF3_GR_SPIRIT_WARD) ||
+       IS_SET(item->bitvector4, AFF4_DAZZLER) ||
+       IS_SET(item->bitvector4, AFF4_HELLFIRE) ||
+       IS_SET(item->bitvector4, AFF4_REGENERATION) ||
+       IS_SET(item->bitvector, AFF_SNEAK) ||
+       obj_index[item->R_num].func.obj != NULL)
+    {
+       poof_chance = (int)(poof_chance_niceq_multiplier * poof_chance);
+    }
     
     if(poof_chance > number(1, 100))
     {
-//      poofed++;
+      poofed++;
       statuslog(AVATAR, "%s [%d] was destroyed.", item->short_description,
                 (item->R_num >= 0) ? obj_index[item->R_num].virtual_number : 0);
       DamageOneItem(victim, type, item, TRUE);
     }
   }
 
-  // if(worn)
-  // {
-    // if(!poofed)
-    // {
-      // do
-      // {
-        // slot = number(0, sizeof(proccing_slots) / sizeof(int) - 1);
-      // }
-      // while (!(item = victim->equipment[proccing_slots[slot]]) ||
-             // is_nopoof(item));
-             // statuslog(AVATAR, "%s [%d] was destroyed.", item->short_description,
-                // (item->R_num >=
-                 // 0) ? obj_index[item->R_num].virtual_number : 0);
-      // DamageOneItem(victim, type, item, TRUE);
-    // }
-  // }
-  // else
-  // {
-    // statuslog(AVATAR, "%s died with no eq.", victim->player.name);
-  // }
+  if(worn)
+  {
+    if(!poofed)
+    {
+      do
+      {
+        slot = number(0, sizeof(proccing_slots) / sizeof(int) - 1);
+      }
+      while (!(item = victim->equipment[proccing_slots[slot]]) || is_nopoof(item));
+      statuslog(AVATAR, "%s [%d] was destroyed.", item->short_description,
+               (item->R_num >= 0) ? obj_index[item->R_num].virtual_number : 0);
+      DamageOneItem(victim, type, item, TRUE);
+    }
+  }
+  else
+  {
+    statuslog(AVATAR, "%s died with no eq.", victim->player.name);
+  }
 }
 
 bool fear_check(P_char ch)

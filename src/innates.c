@@ -912,7 +912,7 @@ void get_property_format(const char *input, char *formatted)
 
   while (c = *input++) {
     if (isspace(c))
-      was_space = true;
+      was_space = TRUE;
     else if (was_space) {
       *formatted++ = toupper(c);
       was_space = false;
@@ -3641,23 +3641,18 @@ int get_innate_regeneration(P_char ch)
 
 int get_innate_resistance(P_char ch)
 {
-  int      res, lvl = GET_LEVEL(ch);
+  float      res;
   char     buf[128];
 
-  sprintf(buf, "innate.shrug.%s",
-          race_names_table[GET_RACE(ch)].no_spaces);
+  sprintf(buf, "innate.shrug.%s", race_names_table[GET_RACE(ch)].no_spaces);
   res = (int) get_property(buf, 10.);
-  res -= MIN(6, 56 - lvl);
-  res = (int) (res * MIN(1., ((float) lvl) / 50));
-  res = MAX(5, res);
 
   if(!(ch) ||
      !IS_ALIVE(ch))
         return 0;
 
-  if( has_innate(ch, INNATE_RRAKKMA) && ch->group )
+  if(has_innate(ch, INNATE_RRAKKMA) && ch->group )
   {
-  //  debug("shrug pct before rrakkma: %d", res);
     int count = 0;
     for(struct group_list *gl = ch->group; gl; gl = gl->next)
     {
@@ -3673,101 +3668,84 @@ int get_innate_resistance(P_char ch)
       count = MIN(count, (int) get_property("innate.rrakkma.maxSteps", 5));
       res += count * (int) get_property("innate.rrakkma.stepPc", 5);
     } 
-  //  debug("after: %d", res);
   }
-  
   return (res >= 100) ? 100 : res;
 }
 
+// deprecated
 int resists_spell(P_char caster, P_char victim)
 {
-  int skill = GET_CHAR_SKILL(caster, SKILL_SPELL_PENETRATION);
+  return FALSE;
+}
+
+//  For wipe 2011, MR is introduced into the call to spell_damage()
+//  which means that the resists check would almost always nullify
+//  things as it is called from the spell itself in most instances.
+//  I have included a check in spell_damage to account for flat
+//  out shrugging a spell, which for this wipe will be at half
+//  chance to go along with the MR check upon actually dealing
+//  damage.   Along with this change, the SPELL_PENETRATION epic skill
+//  check has been moved to its own function, as it should have
+//  been all along.  - Jexni 6/30/11
+
+void spell_resistance_check(P_char caster, P_char victim, void *data)
+{
   int in_room;
+  struct spell_res_data *messages = (struct spell_res_data*)data;
 
   if(!caster ||
     !victim)
   {
-    logit(LOG_EXIT, "resists_spell () bogus parms no ch or victim");
+    logit(LOG_EXIT, "spell_resistance_check() bogus parms no ch or victim");
     raise(SIGSEGV);
   }
 
   if(caster == victim)
   {
-    return FALSE;
+    messages->true_false = FALSE;
+    return;
   }
   
   if(IS_TRUSTED(caster) &&
     !IS_TRUSTED(victim))
   {
-    return FALSE;
+    messages->true_false = FALSE;
+    return;
   }
   
   if(affected_by_spell(victim, SKILL_SPELL_PENETRATION))
   {
-    return FALSE;
+    messages->true_false = FALSE;
+    affect_from_char(victim, SKILL_SPELL_PENETRATION);
+    return;
   }
   
-  if (has_innate(victim, INNATE_MAGIC_RESISTANCE))
+  if(has_innate(victim, INNATE_MAGIC_RESISTANCE))
   {
-    if(number(1, 101) > get_innate_resistance(victim))
+    if(number(1, 201) > get_innate_resistance(victim)) // wipe2011 chance halved(201 instead of 101) - Jexni 6/30/11
     {
-      return FALSE;
+      messages->true_false = FALSE;
+      return;
     }
     
     if(GET_RACE(victim) == RACE_BEHOLDER)
     {
-      act("&+W$n&+W's central eye glows brightly as it negates your spell!",
-          TRUE, victim, 0, caster, TO_VICT);
-      act("&+WYour central eye glows brightly as it negates $N&+W's spell!",
-          TRUE, victim, 0, caster, TO_CHAR);
-      act("&+W$n&+W's central eye glows brightly as it negates $N&+W's spell!",
-         TRUE, victim, 0, caster, TO_NOTVICT);
-      
-      return true;
+      strcpy(messages->tochar, "&+W$N&+W's central eye glows brightly as it negates your spell!");
+      strcpy(messages->tovict, "&+WYour central eye glows brightly as it negates $n&+W's spell!");
+      strcpy(messages->toroom, "&+W$n&+W's central eye glows brightly as it negates $N&+W's spell!");
+      messages->true_false = TRUE;
+      return;
     }
-     
-    if(GET_CHAR_SKILL(caster, SKILL_SPELL_PENETRATION) ||
-      (IS_NPC(caster) &&
-      (IS_ELITE(caster) || IS_GREATER_RACE(caster))))
-    {
-      
-      skill /= 2;
-
-      if(IS_NPC(caster) &&
-         !IS_PC_PET(caster))
-            skill = GET_LEVEL(caster); // Added Nov08 -Lucrot
-      
-      if(number(0, 110) < BOUNDED(10, skill, (int)get_property("skill.spellPenetration.highEndPercent", 60.000)) &&
-         caster->in_room == victim->in_room)
-      {
-        struct affected_type af;
-
-        memset(&af, 0, sizeof(af));
-        af.type = SKILL_SPELL_PENETRATION;
-        af.flags = AFFTYPE_NOAPPLY | AFFTYPE_SHORT;
-        af.duration = 0;
-        affect_to_char(victim, &af);
-
-        act("&+CYour pure arcane focus causes your spell to burst through&n $N&+C's magical resistance!&n",
-          TRUE, caster, 0, victim, TO_CHAR);
-        act("$n&+C seems to focus for a moment, and $s spell bursts through your magical barrier!&n",
-          TRUE, caster, 0, victim, TO_VICT);
-        act("$n&+C seems to focus for a moment, and $s spell bursts through&n $N&+C's magical barrier!&n",
-          TRUE, caster, 0, victim, TO_NOTVICT);
-        return FALSE;
-      }
-    }
-
-    act("&+MYour spell flows around&n $N&+M, leaving $M unharmed!",
-        TRUE, caster, 0, victim, TO_CHAR);
-    act("&+MYou resist the effects of&n $n&+M's spell!",
-      TRUE, caster, 0, victim, TO_VICT);
-    act("$n's &+Mspell flows around&n $N&+M, leaving $M unharmed!",
-        TRUE, caster, 0, victim, TO_NOTVICT);
     
-    return true;
+    strcpy(messages->tochar, "&+MYour spell flows around&n $n&+M, leaving $M unharmed!");
+    strcpy(messages->tovict, "&+MYou resist the effects of&n $N&+M's spell!");
+    strcpy(messages->toroom, "$n's &+Mspell flows around&n $N&+M, leaving $M unharmed!");
+    messages->true_false = TRUE;
+    return;
   }
-  return FALSE;
+
+  messages->true_false = FALSE;
+  return;
 }
 
 void engulf(P_char ch, P_char victim)
@@ -4199,7 +4177,7 @@ bool rapier_dirk_check(P_char ch)
     (weapon = ch->equipment[PRIMARY_WEAPON]) && IS_SWORD(weapon) &&
     (weapon = ch->equipment[SECONDARY_WEAPON]) && IS_DIRK(weapon))
   {
-    return true;
+    return TRUE;
   }
   return false;
 }
@@ -4211,7 +4189,7 @@ bool innate_two_daggers(P_char ch)
   if (has_innate(ch, INNATE_TWO_DAGGERS) &&
      // (weapon = ch->equipment[PRIMARY_WEAPON]) && IS_DAGGER(weapon) &&
       (weapon = ch->equipment[SECONDARY_WEAPON]) && IS_DAGGER(weapon))
-    return true;
+    return TRUE;
 
   return false;
 }
@@ -4585,7 +4563,7 @@ bool has_divine_force(P_char ch)
 
   if(affected_by_spell(ch, TAG_DIVINE_FORCE_AFFECT))
   {
-    return true;
+    return TRUE;
   }
   else
   {

@@ -387,6 +387,7 @@ int neg_pocket(P_char, P_char, int, char *);
 int jotun_balor(P_char, P_char, int, char *);
 int jotun_mimer(P_char, P_char, int, char *);
 int jotun_thrym(P_char, P_char, int, char *);
+int basilisk_freeze(P_char, P_char, int, char *);
 int jotun_utgard_loki(P_char, P_char, int, char *);
 int kobold_priest(P_char, P_char, int, char *);
 int loviatar(P_obj, P_char, int, char *);

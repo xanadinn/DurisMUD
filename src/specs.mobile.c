@@ -2272,6 +2272,37 @@ int guild_guard(P_char ch, P_char pl, int cmd, char *arg)
     if ((cmd == CMD_SOUTH) && !GET_CLASS(pl, CLASS_WARRIOR))
       block = TRUE;
     break;
+  case 139115:
+    g_prot = FALSE;
+    if ((cmd == CMD_EAST) && (!GET_CLASS(pl, CLASS_CONJURER) ||
+                           !GET_CLASS(pl, CLASS_NECROMANCER) ||
+                           !GET_CLASS(pl, CLASS_SORCERER) ||
+                           !GET_CLASS(pl, CLASS_ILLUSIONIST) ||
+                           !GET_CLASS(pl, CLASS_THEURGIST)))
+      block = TRUE;
+    break;
+  case 139111:
+    g_prot = FALSE;
+    if ((cmd == CMD_EAST ) && (!GET_CLASS(pl, CLASS_MERCENARY) ||
+                           !GET_CLASS(pl, CLASS_ROGUE) ||
+                           !GET_CLASS(pl, CLASS_ANTIPALADIN) ||
+                           !GET_CLASS(pl, CLASS_PALADIN) ||
+                           !GET_CLASS(pl, CLASS_AVENGER) ||
+                           !GET_CLASS(pl, CLASS_DREADLORD) ||
+                           !GET_CLASS(pl, CLASS_REAVER) ||
+                           !GET_CLASS(pl, CLASS_BERSERKER) ||
+                           !GET_CLASS(pl, CLASS_WARRIOR)))
+      block = TRUE;
+    break;
+  case 139001:
+    g_prot = FALSE;
+    if ((cmd == CMD_EAST ) && (!GET_CLASS(pl, CLASS_CLERIC) ||
+                           !GET_CLASS(pl, CLASS_SHAMAN) ||
+                           !GET_CLASS(pl, CLASS_DRUID) ||
+                           !GET_CLASS(pl, CLASS_ETHERMANCER) ||
+                           !GET_CLASS(pl, CLASS_WARLOCK)))
+      block = TRUE;
+    break;
   }                             /*
                                  * end switch
                                  */
@@ -9218,6 +9249,55 @@ int jotun_thrym(P_char ch, P_char pl, int cmd, char *arg)
       af.type = SPELL_MAJOR_PARALYSIS;
       af.flags = AFFTYPE_SHORT;
       af.duration = 120 * WAIT_SEC;
+      af.bitvector2 = AFF2_MAJOR_PARALYSIS;
+      affect_to_char(vict, &af);
+      CharWait(vict, af.duration);
+
+      return TRUE;
+    }
+  return FALSE;
+}
+
+int basilisk_freeze(P_char ch, P_char pl, int cmd, char *arg)
+{
+  P_char   vict;
+  struct affected_type af;
+
+  if (cmd == CMD_SET_PERIODIC)
+    return TRUE;
+
+  if (cmd)
+    return FALSE;
+
+  if (ch && IS_FIGHTING(ch))
+    if (!number(0, 4))
+    {
+      vict = ch->specials.fighting;
+      if (!vict)
+        return FALSE;
+
+      act
+        ("&+L$N &+Lturns $S baleful &+Ygaze &+Lat $n &+Lfreezing $m with deadly &+Yparalysis&+L!&n",
+         0, vict, 0, ch, TO_NOTVICT);
+      act
+        ("&+L$n &+Lturns $s baleful &+Ygaze &+Lat &+YYOU &+Lfreezing you with deadly &+Yparalysis&+L!&n",
+         0, ch, 0, vict, TO_VICT);
+      act
+        ("&+LYou &+Lturn your baleful &+Ygaze &+Lat $N &+Lfreezing $M with deadly &+Yparalysis&+L!&n",
+         0, ch, 0, vict, TO_CHAR);
+
+      /*
+       * Shut em down!
+       */
+
+      StopCasting(vict);
+      if (IS_FIGHTING(vict))
+        stop_fighting(vict);
+
+      bzero(&af, sizeof(af));
+      af.type = SPELL_MAJOR_PARALYSIS;
+      af.flags = AFFTYPE_SHORT;
+      af.duration = 80 * WAIT_SEC;
       af.bitvector2 = AFF2_MAJOR_PARALYSIS;
       affect_to_char(vict, &af);
       CharWait(vict, af.duration);

@@ -7251,7 +7251,7 @@ int RateObject(P_char ch, int a, P_obj obj)
        * :)
        */
     case APPLY_HIT:
-      value += 400 * obj->affected[tmp].modifier / GET_MAX_HIT(ch);
+      value += 400 * obj->affected[tmp].modifier / (GET_MAX_HIT(ch) + 1);
       break;
     case APPLY_SAVING_PARA:
     case APPLY_SAVING_ROD:

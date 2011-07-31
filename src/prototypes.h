@@ -473,6 +473,7 @@ void do_use(P_char, char *, int);
 void do_withdraw(P_char, char *, int);
 void halfling_stealaction(P_char, char *, int);
 void racial_strength(P_char);
+void make_alchemist(P_char);
 void reward_for_bury(P_char ch, int gold);
 void show_toggles(P_char);
 void try_to_donate(P_char, P_obj);
@@ -794,7 +795,7 @@ int ne_event_time(P_nevent);
 
 /* epic.c */
 int devotion_spell_check(int);
-
+void spell_resistance_check(P_char, P_char, void *);
 
 /* fight.c */
 bool rapier_dirk(P_char, P_char);

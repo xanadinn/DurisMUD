@@ -2953,6 +2953,9 @@ P_char get_char_room_vis(P_char ch, const char *name)
   char     tmpname[MAX_STRING_LENGTH];
   char    *tmp;
 
+  if(!ch || !IS_ALIVE(ch))
+    raise(SIGSEGV);
+
   if (!name || !*name)
     return NULL;
 
@@ -2968,8 +2971,7 @@ P_char get_char_room_vis(P_char ch, const char *name)
   if (!str_cmp(tmp, "me") || !str_cmp(tmp, "self"))
     return (ch);
 
-  for (i = world[ch->in_room].people, j = 1;
-       i && (j <= k); i = i->next_in_room)
+  for (i = world[ch->in_room].people, j = 1; i && (j <= k); i = i->next_in_room)
   {
 
     if (CAN_SEE(ch, i) && (ch->specials.z_cord == i->specials.z_cord) && (
@@ -3557,6 +3559,6 @@ int agi_defense(P_char ch)
 {
   int      i = GET_C_AGI(ch), final = 0;
   i = MAX(-250, 300 - i);
-  final = (((i * i) / 484 + i)) - 400;
+  final = (((i * i) / 484 + i)) - get_property("agi.def.minus", 400);
   return final;
 }

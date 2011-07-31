@@ -2700,15 +2700,15 @@ void do_stat(P_char ch, char *argument, int cmd)
     strcat(o_buf, buf);
 
     i = calculate_ac(k, FALSE);
-    sprintf(buf, "&+cAgility Armor Class: &+Y%d&n", i);
+    sprintf(buf, "&+cAgility Armor Class: &+Y%d&n  ", i);
     strcat(o_buf, buf);
 
     i = calculate_ac(k, TRUE);
 
     if(i > 0)
-        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Increase melees damage by &+W%+.2f&n percent.\n", i, (double)(i * 0.10) );
+        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Increases melee damage by &+W%+.2f&n percent.\n", i, (double)(i * 0.10) );
       else
-        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Reduce melees damage by &+W%+.2f&n.\n", i, (double)(i * 0.10) );
+        sprintf(buf, "&+cTotal Armor Class: &+Y%d&n,  Reduces melee damage by &+W%+.2f&n.\n", i, (double)(i * 0.10) );
 
     strcat(o_buf, buf);
 
@@ -4746,10 +4746,12 @@ void roll_basic_abilities(P_char ch, int flag)
 #endif
   if(IS_NPC(ch))
   {
-    if(GET_LEVEL(ch) < 40)
-      flag = 0;
-    else
+    if(GET_LEVEL(ch) > 40)
       flag = 1;
+    else if(GET_LEVEL(ch) < 10)
+      flag = 2;
+    else
+      flag = 0;
   }
   else
    flag = -1;
@@ -4778,7 +4780,7 @@ void roll_basic_abilities(P_char ch, int flag)
     ch->base_stats.Wis = ch->curr_stats.Wis = stat_base + number(1, GET_LEVEL(ch));
     ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(1, GET_LEVEL(ch));
     ch->base_stats.Karma = ch->curr_stats.Karma = number(50, 100);
-    ch->base_stats.Luck = ch->curr_stats.Luck = number(80, 120);
+    ch->base_stats.Luck = ch->curr_stats.Luck = number(60, 120);
   }
   else if(flag == 1)
   {
@@ -4792,6 +4794,19 @@ void roll_basic_abilities(P_char ch, int flag)
     ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(20, GET_LEVEL(ch) + 10);
     ch->base_stats.Karma = ch->curr_stats.Karma = number(50, 100);
     ch->base_stats.Luck = ch->curr_stats.Luck = number(90, 110);
+  }
+  else if(flag == 2)
+  {
+    ch->base_stats.Str = ch->curr_stats.Str = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Dex = ch->curr_stats.Dex = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Agi = ch->curr_stats.Agi = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Con = ch->curr_stats.Con = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Pow = ch->curr_stats.Pow = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Int = ch->curr_stats.Int = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Wis = ch->curr_stats.Wis = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Cha = ch->curr_stats.Cha = stat_base + number(-10, GET_LEVEL(ch));
+    ch->base_stats.Karma = ch->curr_stats.Karma = number(50, 70);
+    ch->base_stats.Luck = ch->curr_stats.Luck = number(30, 70);
   }
  
 /*}
@@ -4882,7 +4897,6 @@ void do_start(P_char ch, int nomsg)
     ch->only.pc->skills[i].learned = 0;
   }
 
-//  ch->only.pc->trophy = NULL;
   ZONE_TROPHY(ch) = NULL;
 
   ch->only.pc->prestige = 0;
@@ -4896,7 +4910,6 @@ void do_start(P_char ch, int nomsg)
   GET_EXP(ch) = 1;
 
   if (isname("Duris", GET_NAME(ch)))
-//    GET_LEVEL(ch) = OVERLORD;
     ch->player.level = OVERLORD;
   GET_HIT(ch) = ch->points.base_hit;
   GET_MAX_HIT(ch) = GET_HIT(ch);

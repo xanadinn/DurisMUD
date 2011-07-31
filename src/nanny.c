@@ -3926,65 +3926,6 @@ int allocation_check(P_char ch, int which, int amt)
   return total;
 }
 
-
-
-/*int total = 0;
-
-  if(which == -1)
-  {
-    total += ch->base_stats.Str;
-    total += ch->base_stats.Dex;
-    total += ch->base_stats.Agi;
-    total += ch->base_stats.Con;
-    total += ch->base_stats.Pow;
-    total += ch->base_stats.Int;
-    total += ch->base_stats.Wis;
-    total += ch->base_stats.Cha;
-
-    if(total > 540)
-    {
-      return 0;
-    }
-    else
-    {
-      return 540 - total;
-    }
-  }
-  else
-  {
-    switch(which)
-    {
-      case 1:
-      return ch->base_stats.Str;
-      break;
-      case 2:
-      return ch->base_stats.Dex;
-      break;
-      case 3:
-      return ch->base_stats.Agi;
-      break;
-      case 4:
-      return ch->base_stats.Con;
-      break;
-      case 5:
-      return ch->base_stats.Pow;
-      break;
-      case 6:
-      return ch->base_stats.Int;
-      break;
-      case 7:
-      return ch->base_stats.Wis;
-      break;
-      case 8:
-      return ch->base_stats.Cha;
-      break;
-      default:
-      return 0;
-    }
-  }
-  return 0;
-}*/
-
 int calc_attr_cost(int attr, int amount)
 {
   int final_cost = 0, i = 0;
@@ -4014,7 +3955,7 @@ int calc_attr_cost(int attr, int amount)
   }
   else if(amount < 0)
   {
-    for(amount;amount > (-1 * (attr_start - attr_floor));amount--)
+    for(amount;amount >= (-1 * (attr_start - attr_floor));amount--)
     {
       i = attr;
       if(i > attr_floor && i < 75)
