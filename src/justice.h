@@ -180,6 +180,8 @@ struct justice_guard_list {
   struct justice_guard_list *next;
 };
 
+void set_justice_guard_parms(P_char);
+
 /* An array of of these structures called "hometowns" is created,
    containing one structure for each hometown configured.  */
 

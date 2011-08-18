@@ -595,7 +595,7 @@ void show_ctf_score(P_char ch, char *argument)
       else
 	type = 2;
     }
-    if (!strcmp(arg, "primary") || is_abbrev(arg, "prmiary"))
+    if (!strcmp(arg, "primary") || is_abbrev(arg, "primary"))
     {
       if (flagtype == 2)
 	flagtype = 0;

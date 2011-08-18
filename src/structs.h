@@ -1147,6 +1147,7 @@ struct pc_only_data {           /* values only used by PCs        */
   int numb_gcmd;                /* number of granted cmds */
 
   ulong law_flags;              /* KNOWN, WANTED, OUTCAST in hometowns */
+  int justice_level;            /* Sets level of justice raid response */
   int olc_zone;                 /* what are they editing? */
 #ifdef OVL
   sh_int ovl_count;

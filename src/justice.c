@@ -311,11 +311,11 @@ void do_justice(P_char ch, char *arg, int cmd)
 
   arg = one_argument(arg, arg1);
 
-  if (*arg1)
+  if(*arg1)
   {
-    if (!str_cmp(arg1, "item") && IS_TRUSTED(ch))
+    if(!str_cmp(arg1, "item") && IS_TRUSTED(ch))
     {
-/*      if (!justice_items_list) {
+/*      if(!justice_items_list) {
         send_to_char( "No justice items!\r\n", ch);
       } else {
         for (o_obj = justice_items_list; o_obj; o_obj = o_obj->next_content) {
@@ -324,13 +324,13 @@ void do_justice(P_char ch, char *arg, int cmd)
         }
       }*/
     }
-    else if (!str_cmp(arg1, "info"))
+    else if(!str_cmp(arg1, "info"))
     {
       sprintf(buf1, "Justice info for %s.\r\n", J_NAME(ch));
 
       for (town = 1; town <= LAST_HOME; town++)
       {
-        if (!hometowns[town - 1].crime_list)
+        if(!hometowns[town - 1].crime_list)
           continue;
         sprintf(buf1, "%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n",
                 buf1);
@@ -342,7 +342,7 @@ void do_justice(P_char ch, char *arg, int cmd)
           sprintf(buf1, "%s  %s against %s, status &+c%s&n.\r\n",
                   buf1, crime_list[crec->crime], crec->victim,
                   justice_status[crec->status]);
-          if (crec->status == J_STATUS_JAIL_TIME)
+          if(crec->status == J_STATUS_JAIL_TIME)
           {
             in_jail = TRUE;
             town1 = town;
@@ -355,14 +355,14 @@ void do_justice(P_char ch, char *arg, int cmd)
               GET_TIME_JUDGE(ch));
       sprintf(buf1, "%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n",
               buf1);
-      if (in_jail)
+      if(in_jail)
       {
         sprintf(buf1, "%s=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=\r\n",
                 buf1);
         crec = NULL;
         crec = crime_find(hometowns[town1 - 1].crime_list, J_NAME(ch), NULL,
                           0, NOWHERE, J_STATUS_JAIL_TIME, NULL);
-        if (crec)
+        if(crec)
         {
           sprintf(buf1, "%sYou are in jail (%d hours left).\r\n",
                   buf1, (int) ((crec->time - time(NULL)) / 75));
@@ -373,14 +373,14 @@ void do_justice(P_char ch, char *arg, int cmd)
       send_to_char(buf1, ch);
 
     }
-    else if ((vict = get_char(arg1)) && IS_TRUSTED(ch))
+    else if((vict = get_char(arg1)) && IS_TRUSTED(ch))
     {
-      if (restoreJailItems(vict))
+      if(restoreJailItems(vict))
         send_to_char("Ok items restored!\r\n", ch);
       else
         send_to_char("Problem with restoring file!\r\n", ch);
     }
-    else if (IS_TRUSTED(ch))
+    else if(IS_TRUSTED(ch))
       send_to_char
         ("Justice <name of player>, to restore jail items or Justice item, to list justice items.\r\n",
          ch);
@@ -391,36 +391,36 @@ void do_justice(P_char ch, char *arg, int cmd)
   {
     sprintf(buf1, "List of crimes:\r\n");
 
-    if (CHAR_IN_JUSTICE_AREA(ch))
+    if(CHAR_IN_JUSTICE_AREA(ch))
     {
       sprintf(buf, "&+R---JUSTICE---&N\r\n");
       for (i = 0; i < CRIME_NB; i++)
       {
-        if (GET_CRIME_P(CHAR_IN_JUSTICE_AREA(ch), i))
+        if(GET_CRIME_P(CHAR_IN_JUSTICE_AREA(ch), i))
         {
           sprintf(buf1, "%s %s\r\n", buf1, crime_list[i]);
           crime_ok = TRUE;
         }
       }
-      if (crime_ok)
+      if(crime_ok)
       {
         sprintf(buf, "%sThis area is controlled by justice.\r\n", buf);
         sprintf(buf, "%s%s&+R-------------&N\r\n", buf, buf1);
       }
 
     }
-    else if (CHAR_IN_TOWN(ch))
+    else if(CHAR_IN_TOWN(ch))
     {
       sprintf(buf, "&+R---JUSTICE---&N\r\n");
       for (i = 0; i < CRIME_NB; i++)
       {
-        if (GET_CRIME_T(CHAR_IN_TOWN(ch), i))
+        if(GET_CRIME_T(CHAR_IN_TOWN(ch), i))
         {
           sprintf(buf1, "%s %s\r\n", buf1, crime_list[i]);
           crime_ok = TRUE;
         }
       }
-      if (crime_ok)
+      if(crime_ok)
       {
         sprintf(buf, "%sThis town is controlled by justice.\r\n", buf);
         sprintf(buf, "%s%s&+R-------------&N\r\n", buf, buf1);
@@ -444,14 +444,14 @@ void justice_dispatch_guard(int town, char *attacker, char *victim, int crime)
   P_char   tch;
   crm_rec *crec;
 
-  if ((crec = crime_find(hometowns[town - 1].crime_list, attacker, victim,
+  if((crec = crime_find(hometowns[town - 1].crime_list, attacker, victim,
                          crime, NOWHERE, J_STATUS_CRIME, NULL)))
   {
-    if (crec->money == 1)
+    if(crec->money == 1)
     {                           /* This if the first time */
-      if ((tch = get_char(attacker)))
+      if((tch = get_char(attacker)))
       {
-        if ((town == CHAR_IN_TOWN(tch)) &&
+        if((town == CHAR_IN_TOWN(tch)) &&
             (tch->in_room != real_room(hometowns[town - 1].jail_room)))
           //justice_send_guards(NOWHERE, tch, MOB_SPEC_ARREST1, 1);
           justice_send_guards(NOWHERE, tch, MOB_SPEC_J_PK, 1);
@@ -481,17 +481,17 @@ void JusticeGuardMove(P_char ch, char *argument, int cmd)
   P_char   vict = NULL;
   int      was_in;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
   {
     vict = ch->specials.arrest_by;
 
     was_in = ch->in_room;
     do_move(ch, NULL, cmd);
-    if (ch->in_room == NOWHERE)
+    if(ch->in_room == NOWHERE)
       return;
-    if (vict)
+    if(vict)
     {
-      if (vict->in_room == was_in)
+      if(vict->in_room == was_in)
       {                         /* ok vict did not escape */
         act("$n is dragged out of the room.", TRUE, vict, 0, 0, TO_ROOM);
         send_to_char("You are dragged along.\r\n", vict);
@@ -523,17 +523,17 @@ return FALSE;
   /* being all mobs check here anyway, its a good place townies to
      check for invaders */
 
-  if (int ht = CHAR_IN_TOWN(ch))
+  if(int ht = CHAR_IN_TOWN(ch))
   {
     for (tch = world[ch->in_room].people; tch; tch = nextch)
     {
       nextch = tch->next_in_room;
-      if (tch != ch && IS_TOWN_INVADER(tch, ht) && !IS_AFFECTED(tch, AFF_BOUND))
+      if(tch != ch && IS_TOWN_INVADER(tch, ht) && !IS_AFFECTED(tch, AFF_BOUND))
         justice_action_invader(tch);
     }
   }
 
-  if (IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
+  if(IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
     return FALSE;
 
   /* small hook here to get more guards, if more guards are needed... */
@@ -542,19 +542,19 @@ return FALSE;
   {
     nextch = tch->next_in_room;
 
-    if (IS_INVADER(tch) || IS_OUTCAST(tch))
+    if(IS_INVADER(tch) || IS_OUTCAST(tch))
       justice_action_invader(tch);
   }
 
-  if (IS_FIGHTING(ch))
+  if(IS_FIGHTING(ch))
     return FALSE;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_REMOVE))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_REMOVE))
     return FALSE;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_OUTCAST))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_OUTCAST))
   {
-    if (!ch->specials.arrest_by)
+    if(!ch->specials.arrest_by)
     {                           /* wtf? */
       REMOVE_BIT(ch->only.npc->spec[2], MOB_SPEC_J_OUTCAST);
       /* but don't return!  let if fall though so it starts hunting
@@ -571,7 +571,7 @@ return FALSE;
 
       LOOP_EVENTS(ev, ch->nevents)
       {
-        if (ev->func == mob_hunt_event) /* ah!  good..  */
+        if(ev->func == mob_hunt_event) /* ah!  good..  */
           return FALSE;
       }
       /* hmm.. I'm targetting someone, but not hunting or
@@ -583,23 +583,23 @@ return FALSE;
       return TRUE;
     }
   }
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
     return TRUE;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST1))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST1))
     return TRUE;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
   {
     return TRUE;
   }
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_REPORTING))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_REPORTING))
   {
     return TRUE;
   }
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_GOING_BACK))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_GOING_BACK))
   {
     return TRUE;
   }
@@ -633,15 +633,15 @@ void JusticeGuardHunt(P_char ch)
   P_event  ev;
   char     buf[MAX_STRING_LENGTH];
 
-  if (IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
+  if(IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
     return;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_REMOVE))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_REMOVE))
   {
     justice_delete_guard(ch);
     return;
   }
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
   {
 
     crec = hometowns[CHAR_IN_TOWN(ch) - 1].crime_list;
@@ -664,7 +664,7 @@ void JusticeGuardHunt(P_char ch)
       outcast_room = real_room(148781);
       break;
     }
-    if (outcast_room < 1)
+    if(outcast_room < 1)
       outcast_room = real_room(74444);
 
     mobsay(ch, "We don't want you stinking murderers here!!");
@@ -680,7 +680,7 @@ void JusticeGuardHunt(P_char ch)
        to the real player.  That way, when justice_hunt_cancel is
        called for this guard, the player gets outcasted  */
 
-    if (IS_MORPH(vict))
+    if(IS_MORPH(vict))
       ch->specials.arrest_by = MORPH_ORIG(vict);
 
     justice_hunt_cancel(ch);
@@ -690,14 +690,14 @@ void JusticeGuardHunt(P_char ch)
 
   /* ok guard is arresting the criminal */
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST1))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST1))
   {
 
     vict = ch->specials.arrest_by;
 
     sprintf(buf, "&+RStop!&N  %s, you're under &+RARREST!&N", J_NAME(vict));
     mobsay(ch, buf);
-    if (PC_TOWN_JUSTICE_FLAGS(ch, CHAR_IN_TOWN(ch)) == JUSTICE_IS_NORMAL)
+    if(PC_TOWN_JUSTICE_FLAGS(ch, CHAR_IN_TOWN(ch)) == JUSTICE_IS_NORMAL)
       sprintf(buf, "Tourists always cause problems around here.");
     mobsay(ch, buf);
     play_sound(SOUND_LAWPAY, NULL, ch->in_room, TO_ROOM);
@@ -720,11 +720,11 @@ void JusticeGuardHunt(P_char ch)
 
   /* guard had brought the criminal to justice, unless the criminal escape on his way here */
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_ARREST2))
   {
 
     vict = ch->specials.arrest_by;
-    if (ch->in_room == vict->in_room)
+    if(ch->in_room == vict->in_room)
     {
       char_from_room(vict);
       char_to_room(vict, real_room(hometowns[CHAR_IN_TOWN(ch) - 1].jail_room),
@@ -755,7 +755,7 @@ void JusticeGuardHunt(P_char ch)
 
   /* witness mob reporting a crime */
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_REPORTING))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_REPORTING))
   {
 
     while ((rec = witness_find(ch->specials.witnessed,
@@ -774,7 +774,7 @@ void JusticeGuardHunt(P_char ch)
 
     /* we send the witness mob to where it was */
 
-    if (GET_BIRTHPLACE(ch) > 0)
+    if(GET_BIRTHPLACE(ch) > 0)
     {
       data.hunt_type = HUNT_JUSTICE_SPECROOM;
       data.targ.room = real_room(GET_BIRTHPLACE(ch));
@@ -791,7 +791,7 @@ void JusticeGuardHunt(P_char ch)
 
   /* witness mob is back to where it was before */
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_GOING_BACK))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_GOING_BACK))
   {
     ch->only.npc->spec[2] = 0;
     return;
@@ -815,22 +815,22 @@ void justice_set_outcast(P_char ch, int town)
   crm_rec *crec, *t;
   P_char   r_ch;
 
-  if (!town || !ch)
+  if(!town || !ch)
     return;
 
-  if (IS_NPC(ch))
+  if(IS_NPC(ch))
     return;
 
-  if (IS_MORPH(ch))
+  if(IS_MORPH(ch))
     ch = MORPH_ORIG(ch);
 
   /* you CAN'T be set outcast from bloodstone, unless a god manually
      does it! */
-  if (town == HOME_BLOODSTONE)
+  if(town == HOME_BLOODSTONE)
     return;
 
   /* if 'ch' is morphed, have 'r_ch' point to the mob they are in */
-  if (IS_PC(ch) && IS_SET(ch->specials.act, PLR_MORPH) &&
+  if(IS_PC(ch) && IS_SET(ch->specials.act, PLR_MORPH) &&
       ch->only.pc->switched)
     r_ch = ch->only.pc->switched;
   else
@@ -842,12 +842,12 @@ void justice_set_outcast(P_char ch, int town)
   /* hmm.. if they are already starting in the outcast room, something
      is up.  Lets check old records, and see if they have a "good"
      old_birth room... */
-  if (old_birth == OUTCAST_BIRTH)
+  if(old_birth == OUTCAST_BIRTH)
   {
     t = NULL;
     while ((t = crime_find(hometowns[town - 1].crime_list, J_NAME(ch), NULL,
                            CRIME_FAKE_OUTCAST, NOWHERE, J_STATUS_NONE, t)))
-      if (t->room != OUTCAST_BIRTH)
+      if(t->room != OUTCAST_BIRTH)
         old_birth = t->room;
 
   }
@@ -861,8 +861,8 @@ void justice_set_outcast(P_char ch, int town)
   {
     t = crime_find(hometowns[town - 1].crime_list, J_NAME(ch), NULL, 0,
                    NOWHERE, J_STATUS_NONE, t);
-    if (t && (t->crime != CRIME_FAKE_OUTCAST))
-      if (t->crime <= CRIME_LAST_NON_VIO)
+    if(t && (t->crime != CRIME_FAKE_OUTCAST))
+      if(t->crime <= CRIME_LAST_NON_VIO)
       {
         crime_remove(town, t);
         t = NULL;
@@ -878,7 +878,7 @@ void justice_set_outcast(P_char ch, int town)
 
 
   /* if they are already outcast, don't do it again */
-  if (PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_OUTCAST)
+  if(PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_OUTCAST)
     return;
 
   PC_SET_TOWN_JUSTICE_FLAGS(ch, JUSTICE_IS_OUTCAST, town);
@@ -886,17 +886,17 @@ void justice_set_outcast(P_char ch, int town)
   /* adjust home/birth rooms... */
 
   r_room = real_room(GET_BIRTHPLACE(ch));
-  if ((r_room != NOWHERE) &&
+  if((r_room != NOWHERE) &&
       (town == zone_table[world[r_room].zone].hometown))
   {
 
-    if (PC_TOWN_JUSTICE_FLAGS(ch, HOME_BLOODSTONE) != JUSTICE_IS_OUTCAST)
+    if(PC_TOWN_JUSTICE_FLAGS(ch, HOME_BLOODSTONE) != JUSTICE_IS_OUTCAST)
       GET_BIRTHPLACE(ch) = OUTCAST_BIRTH;
     else
       GET_BIRTHPLACE(ch) = EVIL_RACE(ch) ? 4093 : 1757;
   }
   r_room = real_room(GET_HOME(ch));
-  if ((r_room != NOWHERE) &&
+  if((r_room != NOWHERE) &&
       (town == zone_table[world[r_room].zone].hometown))
     GET_HOME(ch) = GET_BIRTHPLACE(ch);
 
@@ -916,7 +916,7 @@ void justice_set_outcast(P_char ch, int town)
           "&+Wand will be killed should you ever be seen!!&n\r\n"
           "&+Y************************************************************&N\r\n",
           town_name_list[town]);
-  if (GET_STAT(r_ch) != STAT_DEAD)
+  if(GET_STAT(r_ch) != STAT_DEAD)
     writeCharacter(r_ch, 1, NOWHERE);
   else
     writeCharacter(r_ch, 4, NOWHERE);
@@ -928,7 +928,7 @@ void justice_set_outcast(P_char ch, int town)
           J_NAME(ch), town_name_list[town]);
 
 #if 0
-  if ((GET_CLASS(ch) == CLASS_RANGER) || (GET_CLASS(ch) == CLASS_PALADIN))
+  if((GET_CLASS(ch) == CLASS_RANGER) || (GET_CLASS(ch) == CLASS_PALADIN))
   {
     GET_CLASS(ch) = CLASS_WARRIOR;
     logit(LOG_PLAYER, "%s fucked up!  Changed to Warrior", J_NAME(ch));
@@ -949,29 +949,29 @@ void justice_sentence_outcast(P_char ch, int town)
   int      outcast_room;
   P_char   r_ch;
 
-  if (!town || !ch)
+  if(!town || !ch)
     return;
 
-  if (IS_NPC(ch))
+  if(IS_NPC(ch))
     return;
 
-  if (IS_MORPH(ch))
+  if(IS_MORPH(ch))
     ch = MORPH_ORIG(ch);
 
   /* you CAN'T be set outcast from bloodstone, unless a god manually
      does it! */
-  if (town == HOME_BLOODSTONE)
+  if(town == HOME_BLOODSTONE)
     return;
 
   /* if 'ch' is morphed, have 'r_ch' point to the mob they are in */
-  if (IS_PC(ch) && IS_SET(ch->specials.act, PLR_MORPH) &&
+  if(IS_PC(ch) && IS_SET(ch->specials.act, PLR_MORPH) &&
       ch->only.pc->switched)
     r_ch = ch->only.pc->switched;
   else
     r_ch = ch;
 
   /* if they are already outcast, don't do it again */
-  if (PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_OUTCAST)
+  if(PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_OUTCAST)
     return;
 
   PC_SET_TOWN_JUSTICE_FLAGS(ch, JUSTICE_IS_OUTCAST, town);
@@ -979,17 +979,17 @@ void justice_sentence_outcast(P_char ch, int town)
   /* adjust home/birth rooms... */
 
   r_room = real_room(GET_BIRTHPLACE(ch));
-  if ((r_room != NOWHERE) &&
+  if((r_room != NOWHERE) &&
       (town == zone_table[world[r_room].zone].hometown))
   {
 
-    if (PC_TOWN_JUSTICE_FLAGS(ch, HOME_BLOODSTONE) != JUSTICE_IS_OUTCAST)
+    if(PC_TOWN_JUSTICE_FLAGS(ch, HOME_BLOODSTONE) != JUSTICE_IS_OUTCAST)
       GET_BIRTHPLACE(ch) = OUTCAST_BIRTH;
     else
       GET_BIRTHPLACE(ch) = EVIL_RACE(ch) ? 4093 : 1757;
   }
   r_room = real_room(GET_HOME(ch));
-  if ((r_room != NOWHERE) &&
+  if((r_room != NOWHERE) &&
       (town == zone_table[world[r_room].zone].hometown))
     GET_HOME(ch) = GET_BIRTHPLACE(ch);
 
@@ -1006,14 +1006,14 @@ void justice_sentence_outcast(P_char ch, int town)
     outcast_room = real_room(148781);
     break;
   }
-  if (outcast_room < 1)
+  if(outcast_room < 1)
     outcast_room = real_room(74444);
 
   stop_fighting(ch);
   char_from_room(ch);
   char_to_room(ch, outcast_room, -1);
 
-  if (GET_STAT(r_ch) != STAT_DEAD)
+  if(GET_STAT(r_ch) != STAT_DEAD)
     writeCharacter(r_ch, 1, NOWHERE);
   else
     writeCharacter(r_ch, 4, NOWHERE);
@@ -1021,7 +1021,7 @@ void justice_sentence_outcast(P_char ch, int town)
 }
 
 
-/* Function used to make sure 'how_many' justice guards are out
+/* Function used to make sure 'response_level' justice guards are out
    performing the task dictated by 'type' (which should be a
    MOB_SPEC_* flag!!).  'victim' is who the task is performed against
    and 'to_rroom' is the real room number where the task is to be
@@ -1032,7 +1032,7 @@ void justice_sentence_outcast(P_char ch, int town)
 
    return TRUE if any guards sent out... */
 
-int justice_send_guards(int to_rroom, P_char victim, int type, int how_many)
+int justice_send_guards(int to_rroom, P_char victim, int type, int response_level)
 {
   struct justice_guard_list *gl;
   int      best_dist = 9999;
@@ -1041,34 +1041,14 @@ int justice_send_guards(int to_rroom, P_char victim, int type, int how_many)
   int      hunt_type;
   hunt_data data;
 
-  if ((to_rroom == NOWHERE) && !victim)
-    return FALSE;
-
-  /* figure out how many are REALLY needed (ie: aren't already doing
-     it) */
-  for (gl = guard_list; gl; gl = gl->next)
-  {
-
-    /* justice guards that have the same victim as we'd set, and the
-       same type flag that we'd set are counted as part of how_many */
-    if ( /*gl->ch->only.npc && */ (GET_STAT(gl->ch) != STAT_DEAD) &&
-        IS_NPC(gl->ch) &&
-        IS_SET(gl->ch->only.npc->spec[2], MOB_SPEC_JUSTICE) &&
-        (gl->ch->specials.arrest_by == victim) &&
-        (gl->ch->only.npc->spec[2] & type))
-      how_many--;
-  }
-
-  /* if the original how_many request is already being done, then
-     don't do any more */
-  if (how_many <= 0)
+  if((to_rroom == NOWHERE) && !victim)
     return FALSE;
 
   /* figure out what room we are going to, and what town thats in */
-  if (victim && (to_rroom == NOWHERE))
+  if(victim && (to_rroom == NOWHERE))
   {
     to_rroom = victim->in_room;
-    if (to_rroom == NOWHERE)
+    if(to_rroom == NOWHERE)
       return FALSE;
   }
   town = zone_table[world[to_rroom].zone].hometown;
@@ -1079,21 +1059,21 @@ int justice_send_guards(int to_rroom, P_char victim, int type, int how_many)
     int      rr, dist, dir;
 
     rr = real_room(hometowns[town - 1].guard_room[i]);
-    if (rr == NOWHERE)
+    if(rr == NOWHERE)
       continue;
     dir = find_first_step(rr, to_rroom, BFS_CAN_FLY | BFS_CAN_DISPEL, 0, 0, &dist);
-    if (dir == BFS_ALREADY_THERE)
+    if(dir == BFS_ALREADY_THERE)
       dist = 0;
-    else if (dir < 0)
+    else if(dir < 0)
       continue;
-    if (dist < best_dist)
+    if(dist < best_dist)
     {
       best_room = rr;
       best_dist = dist;
     }
   }
 
-  if (best_room == NOWHERE)
+  if(best_room == NOWHERE)
   {
     wizlog(56,
            "Justice: No guards able to get to room %d. Tracking %s in room %d.",
@@ -1111,19 +1091,19 @@ int justice_send_guards(int to_rroom, P_char victim, int type, int how_many)
     break;
 
   default:
-    if (victim)
+    if(victim)
       hunt_type = HUNT_JUSTICE_SPECVICT;
     else
       hunt_type = HUNT_JUSTICE_SPECROOM;
   }
 
   /* now send them out! */
-  while (how_many)
+  while (response_level)
   {
     P_char   tch;
 
     tch = justice_make_guard(best_room);
-    if (!tch)
+    if(!tch)
     {
       wizlog(56,
              "Justice: Unable to load mob vnum %d. Tracking: %s in room %d.",
@@ -1135,22 +1115,38 @@ int justice_send_guards(int to_rroom, P_char victim, int type, int how_many)
 
     tch->specials.arrest_by = victim;
 
+    set_justice_guard_parms(tch);
+
     data.hunt_type = hunt_type;
-    if (victim)
+    if(victim)
       data.targ.victim = victim;
     else
       data.targ.room = to_rroom;
 
     data.huntFlags = BFS_CAN_FLY | BFS_BREAK_WALLS;
-    if (npc_has_spell_slot(tch, SPELL_DISPEL_MAGIC))
+    if(npc_has_spell_slot(tch, SPELL_DISPEL_MAGIC))
       data.huntFlags |= BFS_CAN_DISPEL;
     
     add_event(mob_hunt_event, PULSE_MOB_HUNT, tch, NULL, NULL, 0, &data, sizeof(hunt_data));
-    //AddEvent(EVENT_MOB_HUNT, PULSE_MOB_HUNT, TRUE, tch, data);
-    how_many--;
+    response_level--;
 
   }                             /* while() */
   return TRUE;
+}
+
+void set_justice_guard_parms(P_char guard)
+{
+   int randomize = number(1, 20);
+
+   guard->points.vitality = guard->points.base_vitality =
+   guard->points.max_vitality = MAX(90, guard->base_stats.Agi) + (guard->base_stats.Str + guard->base_stats.Con) / 2;
+   guard->points.base_armor = 0 - GET_LEVEL(guard) * 2;
+   guard->specials.affected_by = AFF_FLY + AFF_DETECT_INVISIBLE;
+   GET_HIT(guard) = GET_MAX_HIT(guard) = guard->points.base_hit = (int) GET_C_CON(guard) * .5 * GET_LEVEL(guard);
+   MonkSetSpecialDie(guard);
+   guard->points.base_hitroll = guard->points.hitroll = (int) (0.75 * GET_LEVEL(guard));
+   guard->points.base_damroll = guard->points.damroll = (int) (0.75 * GET_LEVEL(guard));
+   guard->player.m_class = randomize;
 }
 
 P_char justice_make_guard(int rroom)
@@ -1165,8 +1161,10 @@ P_char justice_make_guard(int rroom)
 
   ch = read_mobile(vnum, VIRTUAL);
 
-  if (!ch)
+  if(!ch)
     return NULL;
+
+  ch->player.level = number(56, 60);
 
   /* make DAMN sure the birthplace is set... I need this to get back
      home when I'm done with my duty */
@@ -1177,32 +1175,30 @@ P_char justice_make_guard(int rroom)
   CLEAR_MONEY(ch);
 
   /* standard clause */
-  if (GET_HIT(ch) > GET_MAX_HIT(ch))
+  if(GET_HIT(ch) > GET_MAX_HIT(ch))
     GET_HIT(ch) = GET_MAX_HIT(ch);
 
   /* justice guards that don't have the ability to see in the dark
      need torches... this takes care of that */
-  if (!IS_AFFECTED2(ch, AFF2_ULTRAVISION))
+  if(!IS_AFFECTED2(ch, AFF2_ULTRAVISION))
   {
     obj = read_object(398, VIRTUAL);
-    if (obj)
+    if(obj)
       equip_char(ch, obj, HOLD, 0);
   }
-  /* justice guards should always be aggro to outcasts! */
-/*  if (!IS_SET(ch->specials.act, ACT_AGG_OUTCAST))
-    SET_BIT(ch->specials.act, ACT_AGG_OUTCAST);*/
-  if (!IS_AGGROFLAG(ch, AGGR_OUTCASTS))
+
+  if(!IS_AGGROFLAG(ch, AGGR_OUTCASTS))
     SET_BIT(ch->only.npc->aggro_flags, AGGR_OUTCASTS);
 
   /* however, don't rely on the "standard" protector code for these
      special guards... if I want them to do something similar, I'll
      code it in JusticeGuardAct() */
-  if (IS_SET(ch->specials.act, ACT_PROTECTOR))
+  if(IS_SET(ch->specials.act, ACT_PROTECTOR))
     REMOVE_BIT(ch->specials.act, ACT_PROTECTOR);
 
   /* also, I don't want guards that I control to be hunting on their
      own, so nuke HUNTER flags */
-  if (IS_SET(ch->specials.act, ACT_HUNTER))
+  if(IS_SET(ch->specials.act, ACT_HUNTER))
     REMOVE_BIT(ch->specials.act, ACT_HUNTER);
 
   // set them to always be able to fly.
@@ -1217,33 +1213,18 @@ P_char justice_make_guard(int rroom)
   /* justice guards in hometowns should be aggro to evil/good based on
      the hometown flags */
 
-  if (IS_SET(hometowns[town - 1].flags, JUSTICE_EVILHOME))
-//    SET_BIT(ch->specials.act, ACT_AGG_RACEGOOD);
+  if(IS_SET(hometowns[town - 1].flags, JUSTICE_EVILHOME))
     SET_BIT(ch->only.npc->aggro_flags, AGGR_GOOD_RACE);
 
-  if (IS_SET(hometowns[town - 1].flags, JUSTICE_GOODHOME))
-//    SET_BIT(ch->specials.act, ACT_AGG_RACEEVIL);
-    SET_BIT(ch->only.npc->aggro_flags, AGGR_EVIL_RACE);
-
-// 1 in 4 chance that warriors are changed to clerics.  This is used for
-// dispelling walls, and just neat that a group of 5 should have a cleric
-  if (!npc_has_spell_slot(ch, SPELL_DISPEL_MAGIC) && !number(0,3))
-  {
-    ch->player.level = 61;
-    ch->player.m_class = CLASS_CLERIC;
-  } 
-
-
-  /* give them some basic eq */
-  //load_obj_to_newbies(ch);
-
+  if(IS_SET(hometowns[town - 1].flags, JUSTICE_GOODHOME))
+    SET_BIT(ch->only.npc->aggro_flags, AGGR_EVIL_RACE); 
 
   /* finally, put the guard in the "master" list of guards that
      justice controls.  This allows me to loop through just those mobs
      faster when I'm looking for a particular justice mob.  It also
      provides a nice monitoring system via the mm_* debugging code. */
 
-  if (!dead_justice_guard_pool)
+  if(!dead_justice_guard_pool)
     dead_justice_guard_pool = mm_create("JUSTICE",
                                         sizeof(struct justice_guard_list),
                                         offsetof(struct justice_guard_list,
@@ -1263,7 +1244,7 @@ void justice_guard_remove(P_char ch)
 {
   struct justice_guard_list *gl;
 
-  if (IS_PC(ch) || !ch->only.npc || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
+  if(IS_PC(ch) || !ch->only.npc || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
     return;
 
   /* if I'm hunting anyone, I should stop now :) */
@@ -1272,12 +1253,12 @@ void justice_guard_remove(P_char ch)
   /* pull the guard from the master list of justice controlled guards
    */
 
-  if (!guard_list)
+  if(!guard_list)
     return;
-  if (!ch)
+  if(!ch)
     return;
 
-  if (ch == guard_list->ch)
+  if(ch == guard_list->ch)
   {
     gl = guard_list;
     guard_list = gl->next;
@@ -1286,7 +1267,7 @@ void justice_guard_remove(P_char ch)
   else
   {
     for (gl = guard_list; gl && gl->next; gl = gl->next)
-      if (ch == gl->next->ch)
+      if(ch == gl->next->ch)
       {
         struct justice_guard_list *t = gl->next;
 
@@ -1301,7 +1282,7 @@ void justice_delete_guard(P_char ch)
   int      i;
   P_obj    obj;
 
-  if (IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
+  if(IS_PC(ch) || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
     return;
 
 
@@ -1312,7 +1293,7 @@ void justice_delete_guard(P_char ch)
      which could result in a mess, just nuke it */
 
   for (i = 0; i < MAX_WEAR; i++)
-    if (ch->equipment[i])
+    if(ch->equipment[i])
     {
       obj = unequip_char(ch, i);
       extract_obj(obj, TRUE);
@@ -1321,7 +1302,7 @@ void justice_delete_guard(P_char ch)
      carrying was probably given to them, just dropping it makes a
      mess... so... I'll just nuke it :) */
 
-  if (ch->carrying)
+  if(ch->carrying)
   {
     P_obj    next_obj;
 
@@ -1349,18 +1330,18 @@ void justice_hunt_cancel(P_char ch)
 {
   P_event  ev;
 
-  if (IS_PC(ch) || !ch->only.npc || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
+  if(IS_PC(ch) || !ch->only.npc || (!IS_SET(ch->only.npc->spec[2], MOB_SPEC_JUSTICE)))
     return;
 
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_OUTCAST))
-    if (ch->specials.arrest_by == ch->specials.fighting)
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_OUTCAST))
+    if(ch->specials.arrest_by == ch->specials.fighting)
       /* we are doing exactly what we are supposed to! */
       return;
 
 
   /* if for some reason a guard going after a PK'er stops hunting,
      then just just outcast the PK'er and let'em suffer */
-  if (IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
+  if(IS_SET(ch->only.npc->spec[2], MOB_SPEC_J_PK))
   {
     justice_set_outcast(GET_PLYR(ch->specials.arrest_by), CHAR_IN_TOWN(ch));
     /* fall through... */
@@ -1390,7 +1371,7 @@ void justice_victim_remove(P_char ch)
      will get them to stop it */
 
   for (gl = guard_list; gl; gl = gl->next)
-    if (gl->ch->specials.arrest_by == ch)
+    if(gl->ch->specials.arrest_by == ch)
       justice_hunt_cancel(gl->ch);
 }
 
@@ -1445,7 +1426,7 @@ witness_scan(P_char attacker, P_char victim, int rroom, int crime,
   const int no_crime[] = { CRIME_THEFT, CRIME_ATT_THEFT, -1 };  /* crime we cannot witness from afar */
   return;
 
-  if (!CHAR_IN_TOWN(attacker))
+  if(!CHAR_IN_TOWN(attacker))
     return;
 
 /*  LOOP_THRU_PEOPLE(t_ch, attacker) {*/
@@ -1453,9 +1434,9 @@ witness_scan(P_char attacker, P_char victim, int rroom, int crime,
   {
     nextch = t_ch->next_in_room;
 
-    if ((send_witness) && (NPC_IS_CITIZEN(t_ch)))
+    if((send_witness) && (NPC_IS_CITIZEN(t_ch)))
     {
-      if (nb_witness < 2)
+      if(nb_witness < 2)
         justice_send_witness(t_ch, attacker, victim, rroom, crime);
       else
       {
@@ -1469,22 +1450,22 @@ witness_scan(P_char attacker, P_char victim, int rroom, int crime,
 
   while (no_crime[i] != -1)
   {
-    if (no_crime[i++] == crime)
+    if(no_crime[i++] == crime)
       return;
   }
 
   for (door = 0; door < NUM_EXITS; door++)
   {
-    if (CAN_GO(attacker, door))
+    if(CAN_GO(attacker, door))
     {
       for ((t_ch) = world[EXIT(attacker, door)->to_room].people;
            (t_ch) != NULL; (t_ch) = next)
       {
         next = t_ch->next_in_room;
 
-        if ((send_witness) && (NPC_IS_CITIZEN(t_ch)))
+        if((send_witness) && (NPC_IS_CITIZEN(t_ch)))
         {
-          if (nb_witness < 2)
+          if(nb_witness < 2)
             justice_send_witness(t_ch, attacker, victim, rroom, crime);
           else
             witness_add(t_ch, attacker, victim, rroom, crime);
@@ -1513,73 +1494,73 @@ void justice_witness(P_char attacker, P_char victim, int crime)
 
   return;
 
-  if (!attacker)
+  if(!attacker)
     return;
 
-/*  if (mini_mode)
+/*  if(mini_mode)
     return;*/
 
   /* on the mud, suicide is NOT a crime */
 
-  if (victim)
-    if (attacker == victim)
+  if(victim)
+    if(attacker == victim)
       return;
 
-  if (victim)
+  if(victim)
   {
-    if (GET_LEVEL(victim) > 25) // over 25?  You can fight back! */
+    if(GET_LEVEL(victim) > 25) // over 25?  You can fight back! */
       return;
   }
 
   /* make sure if they are invaders, they are dealt with */
-  if (IS_INVADER(attacker))
+  if(IS_INVADER(attacker))
   {
     justice_action_invader(attacker);
     return;
   }
 
-  if (victim)
+  if(victim)
   {
-    if (IS_INVADER(victim))
+    if(IS_INVADER(victim))
     {
       justice_action_invader(victim);
       return;
     }
   }
 
-  if (victim && IS_DISGUISE(victim))
+  if(victim && IS_DISGUISE(victim))
   {
     /* Disguise stuff in here ... evils get invaders, goodies get normal. */
   }
 
   /*
-     if (victim && attacker && (IS_DISGUISE(attacker) || IS_DISGUISE(victim)))
+     if(victim && attacker && (IS_DISGUISE(attacker) || IS_DISGUISE(victim)))
      return; /* disguised?  Tough luck, they can do what they want to you */
 
-  if (IS_TRUSTED(attacker))
+  if(IS_TRUSTED(attacker))
     return;
 
-  if (victim)
-    if (IS_TRUSTED(victim))
+  if(victim)
+    if(IS_TRUSTED(victim))
       return;
 
   /* thieves/assassins have repurcussions */
-  if (victim)
-    if (GET_CLASS(victim, CLASS_ROGUE) && IS_PC(attacker)
+  if(victim)
+    if(GET_CLASS(victim, CLASS_ROGUE) && IS_PC(attacker)
         && (crime == CRIME_ATT_MURDER || crime == CRIME_MURDER)
         && justice_is_criminal(victim))
       return;
 
-  if (IS_NPC(attacker))
+  if(IS_NPC(attacker))
   {
-    if (IS_PC_PET(attacker))
+    if(IS_PC_PET(attacker))
     {
-      if (!IS_FIGHTING(attacker) &&
+      if(!IS_FIGHTING(attacker) &&
           (crime == CRIME_ATT_MURDER || crime == CRIME_MURDER))
       {
         attacker = GET_MASTER(ch);
       }
-      else if (crime != CRIME_ATT_MURDER && crime != CRIME_MURDER)
+      else if(crime != CRIME_ATT_MURDER && crime != CRIME_MURDER)
       {
         attacker = GET_MASTER(ch);
       }
@@ -1590,50 +1571,50 @@ void justice_witness(P_char attacker, P_char victim, int crime)
       return;
   }
 
-  if (attacker && victim)
+  if(attacker && victim)
   {
-    if (CHAR_IN_JUSTICE_AREA(attacker) && !CHAR_IN_JUSTICE_AREA(victim))
+    if(CHAR_IN_JUSTICE_AREA(attacker) && !CHAR_IN_JUSTICE_AREA(victim))
       return;
-    if (racewar(attacker, victim))
+    if(racewar(attacker, victim))
       return;
   }
-  if (ch)
+  if(ch)
   {
-    if (!CHAR_IN_JUSTICE_AREA(attacker))
+    if(!CHAR_IN_JUSTICE_AREA(attacker))
       return;
-    if (!CHAR_IN_TOWN(attacker))
+    if(!CHAR_IN_TOWN(attacker))
       return;
   }
 
-  if (victim)
-    if (IS_NPC(victim))
+  if(victim)
+    if(IS_NPC(victim))
       return;
 /*
-  if (attacker && IS_DISGUISE(attacker) && (!number(0,2)))
+  if(attacker && IS_DISGUISE(attacker) && (!number(0,2)))
     return;  /* in theory should report wrongly, but we just wont' report at all */
 
 /*
-  if (victim && IS_DISGUISE(victim) && (!number(0,2)))
+  if(victim && IS_DISGUISE(victim) && (!number(0,2)))
     return;  /* in theory should report wrongly, but we just wont' report at all */
   /* if a crime happens OUTSIDE a hometown but in patrol area, log it on the char.
      we only log violent crime outside hometown */
 
-  if (CHAR_IN_JUSTICE_AREA(attacker))
+  if(CHAR_IN_JUSTICE_AREA(attacker))
   {
 
     /* first we check if this crime is a crime in this hometown patrol area */
 
-    if (!GET_CRIME_P(CHAR_IN_JUSTICE_AREA(attacker), crime))
+    if(!GET_CRIME_P(CHAR_IN_JUSTICE_AREA(attacker), crime))
       return;
 
-    if (victim)
+    if(victim)
     {
-      if ((attacker->specials.fighting == victim) ||
+      if((attacker->specials.fighting == victim) ||
           (victim->specials.fighting == attacker))
         return;
 
-      if (crime == CRIME_ATT_MURDER)
-        if (witness_find
+      if(crime == CRIME_ATT_MURDER)
+        if(witness_find
             (victim->specials.witnessed, J_NAME(victim), J_NAME(attacker),
              CRIME_ATT_MURDER, victim->in_room, NULL))
           return;
@@ -1641,7 +1622,7 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     }
 
     /* add timer to char, and prevent renting */
-    if (!IS_AFFECTED4(attacker, AFF4_LOOTER))
+    if(!IS_AFFECTED4(attacker, AFF4_LOOTER))
     {
       bzero(&af, sizeof(af));
 //      af.type = SKILL_CRIME;
@@ -1651,16 +1632,16 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     }
 
     /* ok for murder just make sure we get the real murderer */
-    if (victim && crime == CRIME_MURDER)
+    if(victim && crime == CRIME_MURDER)
     {
-      if (witness_find
+      if(witness_find
           (attacker->specials.witnessed, J_NAME(attacker), J_NAME(victim),
            CRIME_ATT_MURDER, attacker->in_room, NULL))
       {
         witness_scan(attacker, victim, attacker->in_room, crime, FALSE);
       }
       else
-        if (witness_find
+        if(witness_find
             (attacker->specials.witnessed, J_NAME(victim), J_NAME(attacker),
              CRIME_ATT_MURDER, attacker->in_room, NULL))
       {
@@ -1673,7 +1654,7 @@ void justice_witness(P_char attacker, P_char victim, int crime)
       return;
     }
 
-    if (!victim && crime == CRIME_ATT_MURDER)
+    if(!victim && crime == CRIME_ATT_MURDER)
       return;
 
     witness_scan(attacker, victim, attacker->in_room, crime, FALSE);
@@ -1682,19 +1663,19 @@ void justice_witness(P_char attacker, P_char victim, int crime)
   }
 
   /* CODE FOR DEALING WITH HOMETOWNS */
-  if (CHAR_IN_TOWN(attacker))
+  if(CHAR_IN_TOWN(attacker))
   {
 
     /* first we check if this crime is a crime in this hometown */
 
-    if (!GET_CRIME_T(CHAR_IN_TOWN(attacker), crime))
+    if(!GET_CRIME_T(CHAR_IN_TOWN(attacker), crime))
       return;
 
     /* what do I care if outcasts get nuked?  I'll even send help! */
 
-    if (victim)
+    if(victim)
     {
-      if (IS_OUTCAST(victim))
+      if(IS_OUTCAST(victim))
       {
         justice_action_invader(victim);
         return;
@@ -1702,7 +1683,7 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     }
 
     /* if the attacker is outcast, let invader code deal with it... */
-    if (world[attacker->in_room].zone && IS_OUTCAST(attacker))
+    if(world[attacker->in_room].zone && IS_OUTCAST(attacker))
     {
       justice_action_invader(attacker);
       return;
@@ -1711,14 +1692,14 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     /* if they are already fighting each other, and its attempted
        murder, we really can't tell who started it.  Just hope that
        the first blow got logged */
-    if (victim)
+    if(victim)
     {
-      if ((attacker->specials.fighting == victim) ||
+      if((attacker->specials.fighting == victim) ||
           (victim->specials.fighting == attacker))
         return;
 
-      if (crime == CRIME_ATT_MURDER)
-        if (witness_find
+      if(crime == CRIME_ATT_MURDER)
+        if(witness_find
             (victim->specials.witnessed, J_NAME(victim), J_NAME(attacker),
              CRIME_ATT_MURDER, victim->in_room, NULL))
           return;
@@ -1726,7 +1707,7 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     }
 
     /* add timer to char, and prevent renting */
-    if (!IS_AFFECTED4(attacker, AFF4_LOOTER))
+    if(!IS_AFFECTED4(attacker, AFF4_LOOTER))
     {
       bzero(&af, sizeof(af));
 //      af.type = SKILL_CRIME;
@@ -1736,16 +1717,16 @@ void justice_witness(P_char attacker, P_char victim, int crime)
     }
 
     /* ok for murder just make sure we get the real murderer */
-    if (victim && crime == CRIME_MURDER)
+    if(victim && crime == CRIME_MURDER)
     {
-      if (witness_find
+      if(witness_find
           (attacker->specials.witnessed, J_NAME(attacker), J_NAME(victim),
            CRIME_ATT_MURDER, attacker->in_room, NULL))
       {
         witness_scan(attacker, victim, attacker->in_room, crime, TRUE);
       }
       else
-        if (witness_find
+        if(witness_find
             (attacker->specials.witnessed, J_NAME(victim), J_NAME(attacker),
              CRIME_ATT_MURDER, attacker->in_room, NULL))
       {
@@ -1758,12 +1739,12 @@ void justice_witness(P_char attacker, P_char victim, int crime)
       return;
     }
 
-    if (!victim && crime == CRIME_ATT_MURDER)
+    if(!victim && crime == CRIME_ATT_MURDER)
       return;
 
     witness_scan(attacker, victim, attacker->in_room, crime, TRUE);
 
-    if (crime == CRIME_MURDER)
+    if(crime == CRIME_MURDER)
       wizlog(56, "JUSTICE: %s murdered %s in COLD BLOOD in a hometown!\r\n",
              J_NAME(attacker), J_NAME(victim));
 
@@ -1777,26 +1758,17 @@ void justice_action_invader(P_char ch)
   struct zone_data *zone_struct;
   int room;
 
-  if (IS_TRUSTED(ch))
+  if(IS_TRUSTED(ch))
     return;
 
-#if 1
-return;
-#endif
-
-/*
-  if (mini_mode)
-    return;
-*/
-
-  if (!CHAR_IN_TOWN(ch))
+  if(!CHAR_IN_TOWN(ch))
     return;
 
-  if (!IS_INVADER(ch) && !IS_OUTCAST(ch))
+  if(!IS_INVADER(ch) && !IS_OUTCAST(ch))
     return;
 
 /*  Original Justice 
-  if (!justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST,
+  if(!justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST,
                            (MAX(11, GET_LEVEL(ch)) / 11) + 1))
     return;
 */
@@ -1809,61 +1781,69 @@ return;
   //  too easy for a group to sit in a hometown and frag people all day long.
   //  I've removed the constant spamming of the justice_raiding event that was
   //  causing mobs to constantly be spawned to hunt invaders.  Instead, it will
-  //  be applied once only and give a 3 minute opportunity before it is refreshed.
+  //  be applied once only and give a 5 minute opportunity before it is refreshed.
   //  When it gets refreshed, I'll add a different event as a placeholder/counter.
-  //  If this counter reaches 3x(10 minutes approx), I'll have a reinforcement
+  //  If this counter reaches 3x(15 minutes approx), I'll have a reinforcement
   //  squad issued from another hometown that will 'encourage' the invaders to
   //  leave.  Hopefully this works out better than justice ever has...  - Jexni 3/4/11
 
-  if(IS_INVADER(ch) && IS_PC(ch) && get_scheduled(ch, event_justice_raiding))
+  if(IS_INVADER(ch) && IS_PC(ch) && get_scheduled(ch, event_justice_raiding) && ch->only.pc->justice_level > 2)
   {
-    if(!number(0, 1))
+      //call_out_the_army(ch);
       return;
   }
-  else
+  else if(IS_INVADER(ch) && IS_PC(ch) && !get_scheduled(ch, event_justice_raiding))
   {
+    add_event(event_justice_raiding, WAIT_SEC * get_property("justice.raiding.alarm.time", 300), ch, 0, 0, 0, &room, sizeof(room));
     zone_struct->status = ZONE_RAID;
-    add_event(event_justice_raiding, WAIT_SEC * 200, ch, 0, 0, 0, &room, sizeof(room));
   }
 
-  if(IS_INVADER(ch))
+  if(IS_INVADER(ch) && get_scheduled(ch, event_justice_raiding))
   {
-    if (!number(0, 2))
-      justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST, 1);
-  
     if((GET_RACEWAR(ch) == RACEWAR_EVIL) &&
         !(number(0, 15)) &&
         get_property("justice.alarms.good", 1.000))
     { 
       int rnum = number(1, 4);
       if(rnum == 1)
-        justice_hometown_echo(CHAR_IN_TOWN(ch), "&+RAlarm bells sound, &+rsignalling an invasion!&n");
+        justice_hometown_echo(CHAR_IN_TOWN(ch), "&+RAlarm bells sound, &+rsignaling an invasion!&n");
       if(rnum == 2)
         justice_hometown_echo(CHAR_IN_TOWN(ch), "&+YThe bells from all the shrines erupt in a thundering chorus!&n");
       if(rnum == 3)
         justice_hometown_echo(CHAR_IN_TOWN(ch), "&+LMilitia forces muster to bolster the town's defenses against the &=Lrinvaders!!!&n");
       if(rnum == 4)
         justice_hometown_echo(CHAR_IN_TOWN(ch), "&+WThere is a stillness in the air before the storm of battle...&n");
-      
-      return;
     }
     else if((GET_RACEWAR(ch) == RACEWAR_GOOD) &&
               !number(0, 15) &&
 	      (int)get_property("justice.alarms.evil", 1.000))
     {
       justice_hometown_echo(CHAR_IN_TOWN(ch), "&+yHorns begin to &+Ybellow &+yand drums &+cthunder&n &+yto the &+Rcall to arms!&n");
-      return;
     }
+  
+    justice_send_guards(NOWHERE, ch, MOB_SPEC_J_OUTCAST, ch->only.pc->justice_level);
+    return;
   }
 }
 
-void event_justice_raiding(P_char ch, P_char victim, P_obj obj, void *data) {
-
+void event_justice_raiding(P_char ch, P_char victim, P_obj obj, void *data) 
+{
   struct zone_data *zone;
   int room = *((int*)data);
 
   zone = &zone_table[world[room].zone];
-  zone->status = ZONE_NORMAL;
+
+  if(zone == &zone_table[world[ch->in_room].zone])
+  {
+    room = ch->in_room;
+    BOUNDED(0, ch->only.pc->justice_level++, 3);
+    add_event(event_justice_raiding, WAIT_SEC * get_property("justice.raiding.alarm.time", 300), ch, 0, 0, 0, &room, sizeof(room));
+  }
+  else
+  {
+    zone->status = ZONE_NORMAL;
+    ch->only.pc->justice_level = 0;
+  }
   return;
 }
 
@@ -1882,7 +1862,7 @@ int justice_is_criminal(P_char ch)
   int      town;
   crm_rec *crec, *t;
 
-  if (!(town = CHAR_IN_TOWN(ch)))
+  if(!(town = CHAR_IN_TOWN(ch)))
     return FALSE;
 
   crec = hometowns[town - 1].crime_list;
@@ -1892,7 +1872,7 @@ int justice_is_criminal(P_char ch)
     t =
       crime_find(crec, J_NAME(GET_PLYR(ch)), NULL, 0, NOWHERE, J_STATUS_CRIME,
                  t);
-    if (t && (t->crime > CRIME_LAST_FAKE))
+    if(t && (t->crime > CRIME_LAST_FAKE))
       return TRUE;
   }
   while (t);
@@ -1914,10 +1894,10 @@ void PC_SET_TOWN_JUSTICE_FLAGS(P_char ch, int flag, int town)
 {
   ulong    tmp;
 
-  if (IS_NPC(ch))
+  if(IS_NPC(ch))
     return;
 
-  if ((flag > 3) || (flag < 0))
+  if((flag > 3) || (flag < 0))
   {
     logit(LOG_EXIT, "make_just_flags - flag out of range!");
     raise(SIGSEGV);
@@ -1978,7 +1958,7 @@ witness_add(P_char ch, P_char attacker, P_char victim, int rroom, int crime)
 
   sprintf(debug_buf, "You see %s commit crime %d against %s\r\n",
           attacker, crime, victim);
-  if (ch)
+  if(ch)
     send_to_char(debug_buf, ch);
 #endif
   logit(LOG_CRIMES, "%s%s commited %s against %s at [%d]%s",
@@ -1987,7 +1967,7 @@ witness_add(P_char ch, P_char attacker, P_char victim, int rroom, int crime)
         crime_list[crime],
         (victim) ? J_NAME(victim) : "None",
         world[rroom].number, world[rroom].name);
-/*  if (crime > CRIME_LAST_FAKE)
+/*  if(crime > CRIME_LAST_FAKE)
     statuslog(55, "&+R%sJUSTICE:&N %s commited %s against %s at [%d]%s",
               ch ? "" : "TOWN ",
               J_NAME(attacker),
@@ -1996,7 +1976,7 @@ witness_add(P_char ch, P_char attacker, P_char victim, int rroom, int crime)
               world[rroom].number,
               world[rroom].name);*/
 
-  if (!dead_witness_pool)
+  if(!dead_witness_pool)
     dead_witness_pool = mm_create("WITNESS",
                                   sizeof(wtns_rec),
                                   offsetof(wtns_rec, next), 1);
@@ -2004,7 +1984,7 @@ witness_add(P_char ch, P_char attacker, P_char victim, int rroom, int crime)
   rec = (wtns_rec *) mm_get(dead_witness_pool);
   rec->time = time(NULL);
   rec->attacker = str_dup(J_NAME(attacker));
-  if (victim)
+  if(victim)
     rec->victim = str_dup(J_NAME(victim));
   else
     rec->victim = str_dup("None");
@@ -2030,7 +2010,7 @@ crime_add(int town, char *attacker, const char *victim,
 
   sprintf(debug_buf, "You report %s commit crime %d against %s\r\n",
           attacker, crime, victim);
-  if (ch)
+  if(ch)
     send_to_char(debug_buf, ch);
 #endif
 /*  logit(LOG_CRIMES, "report %s commited %s against %s at [%d]%s",
@@ -2039,7 +2019,7 @@ crime_add(int town, char *attacker, const char *victim,
         victim,
         world[rroom].number,
         world[rroom].name);
-  if (crime > CRIME_LAST_FAKE)
+  if(crime > CRIME_LAST_FAKE)
     statuslog(55, "&+RTOWN JUSTICE REPORT:&N %s commited %s against %s at [%d]%s",
               attacker,
               crime_list[crime],
@@ -2051,7 +2031,7 @@ crime_add(int town, char *attacker, const char *victim,
      many time it been log, so we use the var. money to keep count and update
      the record for last crime */
 
-  if ((crec = crime_find(hometowns[town - 1].crime_list,
+  if((crec = crime_find(hometowns[town - 1].crime_list,
                          attacker, victim, crime, NOWHERE, status, NULL)))
   {
     crec->money = crec->money + money;
@@ -2060,7 +2040,7 @@ crime_add(int town, char *attacker, const char *victim,
   }
   else
   {
-    if (!dead_crime_pool)
+    if(!dead_crime_pool)
       dead_crime_pool = mm_create("CRIME",
                                   sizeof(crm_rec),
                                   offsetof(crm_rec, next), 1);
@@ -2076,7 +2056,7 @@ crime_add(int town, char *attacker, const char *victim,
     crec->next = hometowns[town - 1].crime_list;
     hometowns[town - 1].crime_list = crec;
   }
-  if (!writeTownJustice(town))
+  if(!writeTownJustice(town))
     statuslog(55, "Town Justice %d save problem", town);
 
 }
@@ -2101,7 +2081,7 @@ wtns_rec *witness_find(wtns_rec * rec, char *attacker, char *victim,
    * if last_found is none-NULL, past that record...
    */
 
-  if (last_found)
+  if(last_found)
   {
     wtns_rec *tmp_rec;
 
@@ -2109,17 +2089,17 @@ wtns_rec *witness_find(wtns_rec * rec, char *attacker, char *victim,
     {
       tmp_rec = rec;
       rec = rec->next;
-      if (tmp_rec == last_found)
+      if(tmp_rec == last_found)
         break;
     }
   }
   while (rec)
   {
 
-    if (!attacker || !str_cmp(attacker, rec->attacker))
-      if (!victim || !str_cmp(victim, rec->victim))
-        if ((room == NOWHERE) || (room == rec->room))
-          if ((!crime || (crime == rec->crime)))
+    if(!attacker || !str_cmp(attacker, rec->attacker))
+      if(!victim || !str_cmp(victim, rec->victim))
+        if((room == NOWHERE) || (room == rec->room))
+          if((!crime || (crime == rec->crime)))
             break;
     rec = rec->next;
   }
@@ -2135,7 +2115,7 @@ crm_rec *crime_find(crm_rec * rec, char *attacker, const char *victim,
    * if last_found is none-NULL, past that record...
    */
 
-  if (last_found)
+  if(last_found)
   {
     crm_rec *tmp_rec;
 
@@ -2143,18 +2123,18 @@ crm_rec *crime_find(crm_rec * rec, char *attacker, const char *victim,
     {
       tmp_rec = rec;
       rec = rec->next;
-      if (tmp_rec == last_found)
+      if(tmp_rec == last_found)
         break;
     }
   }
 
   while (rec)
   {
-    if (!attacker || !str_cmp(attacker, rec->attacker))
-      if (!victim || !str_cmp(victim, rec->victim))
-        if ((room == NOWHERE) || (room == rec->room))
-          if ((!crime || (crime == rec->crime)))
-            if ((!status || (status == rec->status)))
+    if(!attacker || !str_cmp(attacker, rec->attacker))
+      if(!victim || !str_cmp(victim, rec->victim))
+        if((room == NOWHERE) || (room == rec->room))
+          if((!crime || (crime == rec->crime)))
+            if((!status || (status == rec->status)))
               break;
     rec = rec->next;
   }
@@ -2174,15 +2154,15 @@ int witness_remove(P_char ch, wtns_rec * what)
 
   /* sanity checks */
 
-  if (!what)
+  if(!what)
     return 0;
 
   rec = ch->specials.witnessed;
 
-  if (!rec)
+  if(!rec)
     return 0;
 
-  if (what == rec)
+  if(what == rec)
   {                             /* first record */
     ch->specials.witnessed = rec->next;
     str_free(rec->attacker);
@@ -2192,7 +2172,7 @@ int witness_remove(P_char ch, wtns_rec * what)
   }
   while (rec->next)
   {
-    if (rec->next == what)
+    if(rec->next == what)
     {
       wtns_rec *tmp_rec;
 
@@ -2215,15 +2195,15 @@ int crime_remove(int hometown, crm_rec * what)
 
   /* sanity checks */
 
-  if (!what)
+  if(!what)
     return 0;
 
   crec = hometowns[hometown - 1].crime_list;
 
-  if (!crec)
+  if(!crec)
     return 0;
 
-  if (what == crec)
+  if(what == crec)
   {                             /* first record */
     hometowns[hometown - 1].crime_list = crec->next;
     str_free(crec->attacker);
@@ -2233,7 +2213,7 @@ int crime_remove(int hometown, crm_rec * what)
   }
   while (crec->next)
   {
-    if (crec->next == what)
+    if(crec->next == what)
     {
       crm_rec *tmp_rec;
 
@@ -2294,7 +2274,7 @@ int shout_and_hunt(P_char ch,
   int      dummy;
   int      i;
 
-  if (!ch || !max_distance || (act_mask & no_act_mask))
+  if(!ch || !max_distance || (act_mask & no_act_mask))
   {
     logit(LOG_EXIT, "shout_and_hunt proc called with bogus params");
     raise(SIGSEGV);;
@@ -2352,7 +2332,7 @@ int shout_and_hunt(P_char ch,
    * him
    */
 
-  if (witness_find(ch->specials.witnessed, J_NAME
+  if(witness_find(ch->specials.witnessed, J_NAME
                    (ch->specials.fighting), NULL, 0, NOWHERE, NULL))
     return FALSE;
 
@@ -2377,7 +2357,7 @@ int shout_and_hunt(P_char ch,
 */
   int shout_distance = MIN(RMFR_MAX_RADIUS, max_distance);
   
-  if (!ch->in_room)
+  if(!ch->in_room)
   {
   
     REMOVE_BIT(world[ch->in_room].room_flags, SINGLE_FILE);
@@ -2431,11 +2411,11 @@ int shout_and_hunt(P_char ch,
        * vnums...  blame him!  (neb)
        */
 
-      if (vnums)
+      if(vnums)
       {
         while ((vnums[i] != mob_index[GET_RNUM(target)].virtual_number) &&
                vnums[++i]) ;
-        if (!vnums[i])
+        if(!vnums[i])
           continue;
       }
       /*
@@ -2443,15 +2423,15 @@ int shout_and_hunt(P_char ch,
        * things happen
        */
 
-      if (IS_FIGHTING(target))
+      if(IS_FIGHTING(target))
         continue;
 
 
-      LOOP_EVENTS(ev, target->nevents) if (ev->func == mob_hunt_event)
+      LOOP_EVENTS(ev, target->nevents) if(ev->func == mob_hunt_event)
       {
         break;
       }
-      if (ev)
+      if(ev)
         continue;
 
       /*
@@ -2461,16 +2441,16 @@ int shout_and_hunt(P_char ch,
 
 //       debug("Okay boss mob is shouting at this point and we calling for find_first_step in justice.c 2421");
        
-      if (find_first_step(target->in_room, ch->in_room,
+      if(find_first_step(target->in_room, ch->in_room,
                           (IS_MAGE(target) ? BFS_CAN_FLY : 0) |
                           (npc_has_spell_slot(target, SPELL_DISPEL_MAGIC) ? BFS_CAN_DISPEL : 0) |
                           BFS_BREAK_WALLS, 0, 0, &dummy) < 0)
         continue;
 
-      if (dummy > max_distance)
+      if(dummy > max_distance)
         continue;
 
-      if (CAN_SEE(ch, ch->specials.fighting))
+      if(CAN_SEE(ch, ch->specials.fighting))
       {
         data.hunt_type = HUNT_JUSTICE_INVADER;
         data.targ.victim = ch->specials.fighting;
@@ -2504,21 +2484,21 @@ void do_sorta_yell(P_char ch, char *str)
   P_desc   i;
   char     Gbuf1[MAX_STRING_LENGTH];
 
-  if (IS_PC(ch))
+  if(IS_PC(ch))
   {
     send_to_char
       ("Sorry, only mobs can sort of yell.  You'll have to shout\r\n", ch);
     return;
   }
-  if (!str)
+  if(!str)
     return;
 
   for (i = descriptor_list; i; i = i->next)
   {
-    if (i->character && (i->character != ch) &&
+    if(i->character && (i->character != ch) &&
         !is_silent(i->character, FALSE) &&
         !IS_SET(i->character->specials.act, PLR_NOSHOUT) && !i->connected)
-      if (world[i->character->in_room].zone == world[ch->in_room].zone)
+      if(world[i->character->in_room].zone == world[ch->in_room].zone)
       {
         sprintf(Gbuf1, "$n shouts %s'%s'", language_known(ch, i->character),
                 language_CRYPT(ch, i->character, str));
@@ -2526,7 +2506,7 @@ void do_sorta_yell(P_char ch, char *str)
       }
   }
 
-  if (ch->desc)
+  if(ch->desc)
     ch->desc->last_input[0] = '\0';
 }
 
@@ -2536,11 +2516,11 @@ void justice_hometown_echo(int town, const char *str)
 {
   P_desc   d;
 
-  if (!str || !*str)
+  if(!str || !*str)
     return;
 
   for (d = descriptor_list; d; d = d->next)
-    if ((d->connected == CON_PLYNG) &&
+    if((d->connected == CON_PLYNG) &&
         (CHAR_IN_TOWN(d->character) == town) && (AWAKE(d->character)))
     {
       send_to_char(str, d->character);
@@ -2560,7 +2540,7 @@ void justice_judge(P_char ch, int town)
   char     buf[MAX_STRING_LENGTH], buf1[MAX_STRING_LENGTH];;
 
 
-  if (!ch)
+  if(!ch)
     return;
 
   sprintf(buf, "&+R-=-=-=-=-=-=-=-=-=-=--=-=-=-=-=-=-=-&N\r\n");
@@ -2590,7 +2570,7 @@ void justice_judge(P_char ch, int town)
               crime_list[crec->crime]);
       break;
     case J_STATUS_WANTED:
-      if (crec->crime == CRIME_NOT_PAID)
+      if(crec->crime == CRIME_NOT_PAID)
       {
         crime_index += GET_CRIME_T(town, crec->crime);
         sprintf(buf, "%s  You did not pay your debt in time\r\n", buf);
@@ -2604,7 +2584,7 @@ void justice_judge(P_char ch, int town)
     }
   }
 
-  if (PC_IS_CITIZEN(ch))
+  if(PC_IS_CITIZEN(ch))
   {
     crime_index -= 2;
   }
@@ -2622,7 +2602,7 @@ void justice_judge(P_char ch, int town)
 
   sprintf(buf, "%s\r\nThe Judge says '", buf);
 
-  if ((crime_index >= SENTENCE_MIN(town, SENTENCE_NONE)) &&
+  if((crime_index >= SENTENCE_MIN(town, SENTENCE_NONE)) &&
       (crime_index <= SENTENCE_MAX(town, SENTENCE_NONE)))
   {
     logit(LOG_CRIMES, "%s sentence : free", J_NAME(ch));
@@ -2638,7 +2618,7 @@ void justice_judge(P_char ch, int town)
     act(buf, TRUE, ch, 0, 0, TO_ROOM);
     send_to_char(buf, ch);
     send_to_char("You get your equipment back.\r\n", ch);
-    if (previous_debt > 0)
+    if(previous_debt > 0)
     {
       crime_add(town, J_NAME(ch), town_name_list[town],
                 real_room(hometowns[town - 1].report_room), CRIME_NONE,
@@ -2646,7 +2626,7 @@ void justice_judge(P_char ch, int town)
     }
 
   }
-  else if ((crime_index >= SENTENCE_MIN(town, SENTENCE_DEBT)) &&
+  else if((crime_index >= SENTENCE_MIN(town, SENTENCE_DEBT)) &&
            (crime_index <= SENTENCE_MAX(town, SENTENCE_DEBT)))
   {
 
@@ -2670,7 +2650,7 @@ void justice_judge(P_char ch, int town)
     GET_PRESTIGE(ch) -= 2;
 
   }
-  else if ((crime_index >= SENTENCE_MIN(town, SENTENCE_JAIL)) &&
+  else if((crime_index >= SENTENCE_MIN(town, SENTENCE_JAIL)) &&
            (crime_index <= SENTENCE_MAX(town, SENTENCE_JAIL)))
   {
 
@@ -2695,7 +2675,7 @@ void justice_judge(P_char ch, int town)
     GET_PRESTIGE(ch) -= 5;
 
   }
-  else if ((crime_index >= SENTENCE_MIN(town, SENTENCE_OUTCAST)) &&
+  else if((crime_index >= SENTENCE_MIN(town, SENTENCE_OUTCAST)) &&
            (crime_index <= SENTENCE_MAX(town, SENTENCE_OUTCAST)))
   {
     logit(LOG_CRIMES, "%s sentence : outcast", J_NAME(ch));
@@ -2718,7 +2698,7 @@ void justice_judge(P_char ch, int town)
     GET_PRESTIGE(ch) -= 10;
 
   }
-  else if ((crime_index >= SENTENCE_MIN(town, SENTENCE_OUT_NO_EQ)) &&
+  else if((crime_index >= SENTENCE_MIN(town, SENTENCE_OUT_NO_EQ)) &&
            (crime_index <= SENTENCE_MAX(town, SENTENCE_OUT_NO_EQ)))
   {
     logit(LOG_CRIMES, "%s sentence : outcast and lost of eq.", J_NAME(ch));
@@ -2739,7 +2719,7 @@ void justice_judge(P_char ch, int town)
     GET_PRESTIGE(ch) -= 15;
 
   }
-  else if ((crime_index >= SENTENCE_MIN(town, SENTENCE_DEATH)) &&
+  else if((crime_index >= SENTENCE_MIN(town, SENTENCE_DEATH)) &&
            (crime_index <= SENTENCE_MAX(town, SENTENCE_DEATH)))
   {
     logit(LOG_CRIMES, "%s sentence : DEATH", J_NAME(ch));
@@ -2768,10 +2748,10 @@ void justice_judge(P_char ch, int town)
 
   }
 
-  if (GET_PRESTIGE(ch) < 0)
+  if(GET_PRESTIGE(ch) < 0)
     GET_PRESTIGE(ch) = 0;
 
-  if (GET_STAT(ch) != STAT_DEAD)
+  if(GET_STAT(ch) != STAT_DEAD)
     writeCharacter(ch, 7, ch->in_room);
   else
     writeCharacter(ch, 4, NOWHERE);
@@ -2794,14 +2774,14 @@ void justice_engine(int town)
 
   for (town_tmp = 1; town_tmp <= LAST_HOME; town_tmp++)
   {
-    if (!hometowns[town_tmp - 1].crime_list)
+    if(!hometowns[town_tmp - 1].crime_list)
       continue;
     while ((crec = crime_find(hometowns[town_tmp - 1].crime_list, NULL, NULL,
                               0, NOWHERE, J_STATUS_WANTED, crec)))
     {
-      if ((ch = get_char(crec->attacker)))
+      if((ch = get_char(crec->attacker)))
       {                         /* now we check if he's on   */
-        if ((town_tmp == CHAR_IN_TOWN(ch)) &&
+        if((town_tmp == CHAR_IN_TOWN(ch)) &&
             (ch->in_room != real_room(hometowns[town_tmp - 1].jail_room)) &&
             !IS_AFFECTED(ch, AFF_BOUND))
           //justice_send_guards(NOWHERE, ch, MOB_SPEC_ARREST1, 1);  /* go get him boy */
@@ -2810,7 +2790,7 @@ void justice_engine(int town)
     }
   }
 
-  if ((hometowns[town - 1].jail_room != 0) &&
+  if((hometowns[town - 1].jail_room != 0) &&
       IS_SET(world[real_room(hometowns[town - 1].jail_room)].room_flags,
              JAIL))
   {
@@ -2819,12 +2799,12 @@ void justice_engine(int town)
     {
       temp = tch->next_in_room;
 
-      if (!
+      if(!
           (crec =
            crime_find(hometowns[town - 1].crime_list, J_NAME(tch), NULL, 0,
                       NOWHERE, J_STATUS_NONE, NULL)))
       {
-        if (real_room(hometowns[town - 1].report_room) < 0)
+        if(real_room(hometowns[town - 1].report_room) < 0)
         {
           send_to_char("Strange bug with justice, let a god know..\r\n", tch);
         }
@@ -2847,7 +2827,7 @@ void justice_engine(int town)
 
   crec = NULL;
 
-  if (hometowns[town - 1].crime_list)
+  if(hometowns[town - 1].crime_list)
   {
 
     /* ok first we check for execution */
@@ -2855,9 +2835,9 @@ void justice_engine(int town)
     while ((crec = crime_find(hometowns[town - 1].crime_list, NULL, NULL,
                               0, NOWHERE, J_STATUS_SENTENCE_DEATH, crec)))
     {
-      if ((ch = get_char(crec->attacker)))
+      if((ch = get_char(crec->attacker)))
       {                         /* now we check if he's on   */
-        if (ch->in_room == real_room(hometowns[town - 1].jail_room))
+        if(ch->in_room == real_room(hometowns[town - 1].jail_room))
         {                       /* ok is he still in jail? */
           char_from_room(ch);
           char_to_room(ch, real_room(hometowns[town - 1].report_room), -1);
@@ -2901,11 +2881,11 @@ void justice_engine(int town)
                               0, NOWHERE, J_STATUS_JAIL_TIME, crec)))
     {
 
-      if (time(NULL) >= crec->time)
+      if(time(NULL) >= crec->time)
       {                         /* ok the player is free now */
-        if ((ch = get_char(crec->attacker)))
+        if((ch = get_char(crec->attacker)))
         {                       /* now we check if he's on   */
-          if (ch->in_room == real_room(hometowns[town - 1].jail_room))
+          if(ch->in_room == real_room(hometowns[town - 1].jail_room))
           {                     /* ok is he still in jail? */
             crec->crime = CRIME_NONE;
             crec->status = J_STATUS_DELETED;
@@ -2943,9 +2923,9 @@ void justice_engine(int town)
                               0, NOWHERE, J_STATUS_DEBT, crec)))
     {
 
-      if ((ch = get_char(crec->attacker)))
+      if((ch = get_char(crec->attacker)))
       {                         /* now we check if he's on   */
-        if (time(NULL) >= (crec->time + (JUSTICE_DAY * 30)))
+        if(time(NULL) >= (crec->time + (JUSTICE_DAY * 30)))
         {                       /* ok 30 days is up */
 
           crec->crime = CRIME_NONE;
@@ -2966,9 +2946,9 @@ void justice_engine(int town)
                               0, NOWHERE, J_STATUS_IN_JAIL, crec)))
     {
 
-      if ((ch = get_char(crec->attacker)))
+      if((ch = get_char(crec->attacker)))
       {                         /* now we check if he's on   */
-        if (ch->in_room == real_room(hometowns[town - 1].jail_room))
+        if(ch->in_room == real_room(hometowns[town - 1].jail_room))
         {                       /* ok is he still in jail? */
 
           justice_judge(ch, town);
@@ -2998,7 +2978,7 @@ void justice_engine(int town)
       crime_remove(town, crec);
     }
 
-    if (!writeTownJustice(town))
+    if(!writeTownJustice(town))
       statuslog(55, "Town Justice %d save problem", town);
   }
   return;
@@ -3013,7 +2993,7 @@ void load_justice_area(void)
   int      town_number, room_number, room_number1;
   char     type_rec;
 
-  if (!(fl = fopen(JUSTICE_FILE, "r")))
+  if(!(fl = fopen(JUSTICE_FILE, "r")))
   {
     perror("fopen");
     logit(LOG_FILE, "justice_area: could not open file.");
@@ -3025,20 +3005,20 @@ void load_justice_area(void)
   {
 
     fscanf(fl, " %c ", &type_rec);
-    if (type_rec == 'H')
+    if(type_rec == 'H')
       fscanf(fl, " %d\n", &town_number);
-    else if (type_rec == 'R')
+    else if(type_rec == 'R')
     {
       fscanf(fl, " %d %d\n", &room_number, &room_number1);
       for (i = room_number; i <= room_number1; i++)
         world[real_room0(i)].justice_area = town_number;
     }
-    else if (type_rec == 'U')
+    else if(type_rec == 'U')
     {
       fscanf(fl, " %d\n", &room_number);
       world[real_room0(room_number)].justice_area = town_number;
     }
-    else if (type_rec == '$')
+    else if(type_rec == '$')
       the_end = FALSE;
 
   }
@@ -3055,7 +3035,7 @@ void set_town_flag_justice(P_char ch, int start)
   int      town;
   int      r_room;
 
-  if (start == TRUE)
+  if(start == TRUE)
   {
     for (town = 1; town <= LAST_HOME; town++)
       PC_SET_TOWN_JUSTICE_FLAGS(ch, JUSTICE_IS_NORMAL, town);
@@ -3065,15 +3045,15 @@ void set_town_flag_justice(P_char ch, int start)
   {
     for (town = 1; town <= LAST_HOME; town++)
     {
-      if (PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_CITIZEN)
+      if(PC_TOWN_JUSTICE_FLAGS(ch, town) == JUSTICE_IS_CITIZEN)
         PC_SET_TOWN_JUSTICE_FLAGS(ch, JUSTICE_IS_NORMAL, town);
     }
   }
   r_room = real_room(GET_BIRTHPLACE(ch));
-  if (r_room != NOWHERE)
+  if(r_room != NOWHERE)
   {
     town = zone_table[world[r_room].zone].hometown;
-    if (town > 0)
+    if(town > 0)
     {
       PC_SET_TOWN_JUSTICE_FLAGS(ch, JUSTICE_IS_CITIZEN, town);
     }
@@ -3087,16 +3067,16 @@ void clean_town_justice()
 
   for (town = 1; town <= LAST_HOME; town++)
   {
-    if (!hometowns[town - 1].crime_list)
+    if(!hometowns[town - 1].crime_list)
       continue;
 
     while ((crec = crime_find(hometowns[town - 1].crime_list, NULL, NULL,
                               0, NOWHERE, J_STATUS_NONE, crec)))
     {
-      if (crec->status != J_STATUS_IN_JAIL &&
+      if(crec->status != J_STATUS_IN_JAIL &&
           crec->status != J_STATUS_JAIL_TIME)
       {
-        if (time(NULL) >= (crec->time + (JUSTICE_DAY * 90)))
+        if(time(NULL) >= (crec->time + (JUSTICE_DAY * 90)))
         {
           crec->crime = CRIME_NONE;
           crec->status = J_STATUS_DELETED;

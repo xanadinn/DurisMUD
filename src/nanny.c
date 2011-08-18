@@ -4996,6 +4996,7 @@ void init_char(P_char ch)
   ch->only.pc->screen_length = 24;      /* default */
   ch->only.pc->wiz_invis = 0;
   ch->only.pc->law_flags = 0;
+  ch->only.pc->justice_level = 0;
   ch->only.pc->highest_level = 1;
   ch->player.short_descr = 0;
   ch->player.long_descr = 0;
