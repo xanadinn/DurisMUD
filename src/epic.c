@@ -2346,23 +2346,16 @@ void do_epic_share(P_char ch, char *arg, int cmd)
 	  if (has_epic_task(gl->ch))
 	  {
 	    tafp = get_epic_task(gl->ch);
+	    // Don't let nexus stones or pvp get replaced
+	    if (tafp->modifier < 0)
+	      continue;
 	    tafp->type = afp->type;
 	    tafp->flags = afp->flags;
 	    tafp->duration = afp->duration;
 	    tafp->modifier = afp->modifier;
+	    act("&+C$n has just shared his epic task with you!&n", TRUE, ch, 0, gl->ch, TO_VICT);
+	    act("&+CYou have just shared your epic task with $N.&n", TRUE, ch, 0, gl->ch, TO_CHAR);
 	  }
-	  else
-	  {
-	    struct affected_type af, *afp;
-	    memset(&af, 0, sizeof(af));
-	    af.type = afp->type;
-	    af.flags = afp->flags;
-	    af.duration = afp->duration;
-	    af.modifier = afp->modifier;
-	    affect_to_char(gl->ch, &af);
-	  }
-	act("&+C$n has just shared his epic task with you!&n", TRUE, ch, 0, gl->ch, TO_VICT);
-	act("&+CYou have just shared your epic task with $N.&n", TRUE, ch, 0, gl->ch, TO_CHAR);
 	}
       }
     }
