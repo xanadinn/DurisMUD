@@ -86,6 +86,7 @@ OBJS	=  \
 	editor.o \
   encounters.o \
 	epic.o \
+	epic_bonus.o \
   ethermancer.o \
 	events.o \
 	new_events.o \
