@@ -42,6 +42,7 @@ using namespace std;
 #include "nexus_stones.h"
 #include "ships.h"
 #include "ctf.h"
+#include "epic_bonus.h"
 
 /* * external variables */
 
@@ -118,6 +119,7 @@ extern void map_look_room(P_char ch, int room, int show_map_regardless);
 extern const char *get_function_name(void *);
 extern void show_world_events(P_char ch, const char* arg);
 extern struct quest_data quest_index[];
+extern struct epic_bonus_data ebd[];
 void display_map(P_char ch, int n, int show_map_regardless);
 
 extern HelpFilesCPPClass help_index;
@@ -4657,6 +4659,14 @@ void do_score(P_char ch, char *argument, int cmd)
       send_to_char(buf, ch);
     }
   }
+
+  EpicBonusData ebdata;
+  if (!get_epic_bonus_data(ch, &ebdata))
+  {
+    ebdata.type = EPIC_BONUS_NONE;
+  }
+  send_to_char_f(ch, "&nEpic Bonus: &+C%s&n (&+C%.2f%&n)\r\n", ebd[ebdata.type].description, get_epic_bonus(ch, ebdata.type)*100);
+
   send_to_char("&+RFrags:&n   ", ch);
 
   fragnum = (float) ch->only.pc->frags;

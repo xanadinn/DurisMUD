@@ -26,6 +26,7 @@ using namespace std;
 #include "nexus_stones.h"
 #include "auction_houses.h"
 #include "boon.h"
+#include "epic_bonus.h"
 
 extern P_room world;
 extern P_index obj_index;
@@ -543,6 +544,7 @@ void gain_epic(P_char ch, int type, int data, int amount)
 
   // For murdok nexus stone... to change rate use property nexusStones.bonus.epics
   amount = check_nexus_bonus(ch, amount, NEXUS_BONUS_EPICS);
+  amount = amount + (int)((float)amount * get_epic_bonus(ch, EPIC_BONUS_EPIC_POINT));
 
   if (GET_RACEWAR(ch) == RACEWAR_GOOD)
     amount = amount * (float)get_property("epic.gain.modifier.good", 1.000);
@@ -2034,6 +2036,12 @@ void do_epic(P_char ch, char *arg, int cmd)
   if( !str_cmp("zones", buff2) )
   {
     do_epic_zones(ch, arg, cmd);
+    return;
+  }
+
+  if( !str_cmp("bonus", buff2) )
+  {
+    do_epic_bonus(ch, arg, cmd);
     return;
   }
 

@@ -20,6 +20,7 @@
 #include "salchemist.h"
 #include "specs.prototypes.h"
 #include "sql.h"
+#include "epic_bonus.h"
 
 /*
  * external variables
@@ -510,6 +511,9 @@ void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
   }
 
   sale = (int) (temp1->cost * cost_factor);
+	
+  // hook for epic bonus
+  sale -= (int) (sale * get_epic_bonus(ch, EPIC_BONUS_SHOP));
 
   if (sale < 1)
     sale = 1;
@@ -954,6 +958,9 @@ void shopping_list(char *arg, P_char ch, P_char keeper, int shop_nr)
         found_obj = TRUE;
 
         sale = (int) (temp1->cost * cost_factor);
+
+	// hook for epic bonus
+	sale -= (int) (sale * get_epic_bonus(ch, EPIC_BONUS_SHOP));
 
         if (sale < 1)
           sale = 1;
