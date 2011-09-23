@@ -109,17 +109,17 @@ float    racial_spldam_defensive_factor[LAST_RACE + 1][LAST_SPLDAM_TYPE + 1];
 
  /* Weapon attack texts */
 struct attack_hit_type attack_hit_text[] = {
-  {"strike", "strikes", "struck"},       /* TYPE_HIT      */
+  {"punch", "punches, "punched"},               /* TYPE_HIT      */
   {"bludgeon", "bludgeons", "bludgeoned"},      /* TYPE_BLUDGEON */
-  {"pierce", "pierces", "pierced"},     /* TYPE_PIERCE   */
-  {"slash", "slashes", "slashed"},      /* TYPE_SLASH    */
-  {"whip", "whips", "whipped"}, /* TYPE_WHIP     */
-  {"claw", "claws", "clawed"},  /* TYPE_CLAW     */
-  {"bite", "bites", "bitten"},  /* TYPE_BITE     */
-  {"sting", "stings", "stung"}, /* TYPE_STING    */
-  {"crush", "crushes", "crushed"},      /* TYPE_CRUSH    */
-  {"maul", "mauls", "mauled"},  /* TYPE_MAUL     */
-  {"thrash", "thrashes", "thrashed"}    /* TYPE_THRASH   */
+  {"pierce", "pierces", "pierced"},             /* TYPE_PIERCE   */
+  {"slash", "slashes", "slashed"},              /* TYPE_SLASH    */
+  {"whip", "whips", "whipped"},                 /* TYPE_WHIP     */
+  {"claw", "claws", "clawed"},                  /* TYPE_CLAW     */
+  {"bite", "bites", "bitten"},                  /* TYPE_BITE     */
+  {"sting", "stings", "stung"},                 /* TYPE_STING    */
+  {"crush", "crushes", "crushed"},              /* TYPE_CRUSH    */
+  {"maul", "mauls", "mauled"},                  /* TYPE_MAUL     */
+  {"thrash", "thrashes", "thrashed"}            /* TYPE_THRASH   */
 };
 
 struct melee_death_messages
