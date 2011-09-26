@@ -48,9 +48,15 @@ void do_tether( P_char ch, char *argument, int cmd )
       return;
 
    // If doesn't have tether (i.e. not a cabalist)
-   if( !GET_CLASS( ch, CLASS_CABALIST ) )
+   if( !GET_CLASS( ch, CLASS_CABALIST ) || GET_LEVEL(ch) < 11 )
    {
       act( "You would not know where to begin.", FALSE, ch, NULL, NULL, TO_CHAR );
+      return;
+   }
+
+   if( GET_LEVEL(ch) < 31 )
+   {
+      act( "You are to low lvl to tether a specific target.", FALSE, ch, NULL, NULL, TO_CHAR );
       return;
    }
 
@@ -131,6 +137,10 @@ void tetherheal( P_char ch, int damageamount )
    struct group_list *group;
    int healamount, groupies;
 //   char message [100];
+
+   // Min lvl 11
+   if( GET_LEVEL(ch) < 11 )
+      return;
 
    if( victim )
       vamp( victim, damageamount * get_property( "innate.cabalist.healing_mod", 0.200), GET_MAX_HIT(victim) );
