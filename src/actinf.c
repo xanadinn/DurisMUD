@@ -5787,7 +5787,7 @@ void do_who(P_char ch, char *argument, int cmd)
       {
         sprintf(buf, "&N&n[&+w%%2d&N&+g%%s%%-%ds&N&n]%%s",
                 strlen(get_class_name(who_list[j], ch)) -
-                ansi_strlen(get_class_name(who_list[j], ch)) + 13);
+                ansi_strlen(get_class_name(who_list[j], ch)) + 20);
         if (!IS_SET((who_list[j])->specials.act, PLR_ANONYMOUS) ||
             IS_TRUSTED(ch))
           sprintf(who_output + strlen(who_output), buf,
