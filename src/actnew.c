@@ -75,7 +75,8 @@ extern const flagDef affected4_bits[];
 extern const flagDef affected5_bits[];
 extern int top_of_zone_table;
 
-void     yank_make_item(P_char, P_obj);
+void yank_make_item(P_char, P_obj);
+void lore_item( P_char ch, P_obj obj );
 
 // This sets players to forego all their attacks. It is useful for 
 // caster type classes which do not want their opponent to riposte or
@@ -2652,29 +2653,40 @@ void do_lore(P_char ch, char *arg, int cmd)
   }
   if (obj)
   {
-    if (IS_SET(obj->extra_flags, ITEM_NOIDENTIFY))
-    {
+    lore_item( ch, obj );
+    CharWait(ch, 5);
+  }
+}
+
+void lore_item( P_char ch, P_obj obj )
+{
+   char Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH], Gbuf3[256];
+   int percent, i;
+   bool found;
+
+   if( !ch || !obj )
+      return;
+
+   if (IS_SET(obj->extra_flags, ITEM_NOIDENTIFY))
+   {
       if (GET_LEVEL(ch) < 50)
       {
-        send_to_char
-          ("You can't recall any legends or stories ever told about this item.\r\n",
-           ch);
-        return;
+         send_to_char("You can't recall any legends or stories ever told about this item.\n\r", ch);
+         return;
       }
-    }
-    sprintf(Gbuf1, "'%s'\r\nWeight %d, Item type: ",
-            obj->short_description, GET_OBJ_WEIGHT(obj));
-    sprinttype(GET_ITEM_TYPE(obj), item_types, Gbuf2);
-    strcat(Gbuf1, Gbuf2);
-    strcat(Gbuf1, "\r\n");
-    send_to_char(Gbuf1, ch);
+   }
+   sprintf(Gbuf1, "'%s'\r\nWeight %d, Item type: ", obj->short_description, GET_OBJ_WEIGHT(obj));
+   sprinttype(GET_ITEM_TYPE(obj), item_types, Gbuf2);
+   strcat(Gbuf1, Gbuf2);
+   strcat(Gbuf1, "\r\n");
+   send_to_char(Gbuf1, ch);
 
-    if (obj->bitvector ||
-        obj->bitvector2 ||
-        obj->bitvector3 ||
-        obj->bitvector4 ||
-        obj->bitvector5)
-    {
+   if( obj->bitvector  ||
+       obj->bitvector2 ||
+       obj->bitvector3 ||
+       obj->bitvector4 ||
+       obj->bitvector5 )
+   {
       *Gbuf2 = '\0';
       
       send_to_char("Item will give you following abilities:  ", ch);
@@ -2708,18 +2720,18 @@ void do_lore(P_char ch, char *arg, int cmd)
 
       strcat(Gbuf2, "\n");
       send_to_char(Gbuf2, ch);
-      
-    }
-    send_to_char("Item is: ", ch);
-    sprintbitde(obj->extra_flags, extra_bits, Gbuf1);
-    strcat(Gbuf1, "\r\n");
-    send_to_char(Gbuf1, ch);
+   }
 
-    switch (GET_ITEM_TYPE(obj))
-    {
+   send_to_char("Item is: ", ch);
+   sprintbitde(obj->extra_flags, extra_bits, Gbuf1);
+   strcat(Gbuf1, "\r\n");
+   send_to_char(Gbuf1, ch);
 
-    case ITEM_SCROLL:
-    case ITEM_POTION:
+   switch (GET_ITEM_TYPE(obj))
+   {
+
+   case ITEM_SCROLL:
+   case ITEM_POTION:
       send_to_char("Contains spells of: ", ch);
 
       if (obj->value[1] >= 1)
@@ -2744,8 +2756,8 @@ void do_lore(P_char ch, char *arg, int cmd)
       }
       break;
 
-    case ITEM_WAND:
-    case ITEM_STAFF:
+   case ITEM_WAND:
+   case ITEM_STAFF:
       if (obj->value[1] <= 0)
         percent = 0;
       else
@@ -2765,68 +2777,66 @@ void do_lore(P_char ch, char *arg, int cmd)
       }
       break;
 
-    case ITEM_WEAPON:
+   case ITEM_WEAPON:
       sprintf(Gbuf1, "Damage Dice is '%dD%d'\r\n", obj->value[1],
               obj->value[2]);
       send_to_char(Gbuf1, ch);
       break;
-    case ITEM_INSTRUMENT:
+   case ITEM_INSTRUMENT:
       sprintf(Gbuf1, "This instrument has level %d.\r\n", obj->value[1]);
       send_to_char(Gbuf1, ch);
       break;
 
-    case ITEM_ARMOR:
+   case ITEM_ARMOR:
       sprintf(Gbuf1, "AC-apply is %d\r\n", obj->value[0]);
       send_to_char(Gbuf1, ch);
       break;
 
-    }
+   }
 
-    found = FALSE;
-    for (i = 0; i < MAX_OBJ_AFFECT; i++)
-    {
+   found = FALSE;
+   for (i = 0; i < MAX_OBJ_AFFECT; i++)
+   {
       if ((obj->affected[i].location != APPLY_NONE) &&
           (obj->affected[i].modifier != 0))
       {
-        if (found)
-          send_to_char(" and ", ch);
-        else
-        {
-          send_to_char("This item will also affect your", ch);
-          found = TRUE;
-        }
-        sprinttype(obj->affected[i].location, apply_types, Gbuf2);
+         if (found)
+            send_to_char(" and", ch);
+         else
+         {
+            send_to_char("This item will also affect your", ch);
+            found = TRUE;
+         }
+         sprinttype(obj->affected[i].location, apply_types, Gbuf2);
 
-        if ((obj->affected[i].location >= APPLY_SAVING_PARA) &&
-            (obj->affected[i].location <= APPLY_SAVING_SPELL))
-        {
-          if (obj->affected[i].modifier < 0)
-            strcpy(Gbuf3, "positively");
-          else if (obj->affected[i].modifier > 0)
-            strcpy(Gbuf3, "negatively");
-          else
-            strcpy(Gbuf3, "not at all");
-        }
-        else if (obj->affected[i].location != APPLY_FIRE_PROT)
-        {
-          if (obj->affected[i].modifier > 0)
-            strcpy(Gbuf3, "positively");
-          else if (obj->affected[i].modifier < 0)
-            strcpy(Gbuf3, "negatively");
-          else
-            strcpy(Gbuf3, "not at all");
-        }
-        else
-          Gbuf3[0] = 0;
+         if ((obj->affected[i].location >= APPLY_SAVING_PARA) &&
+             (obj->affected[i].location <= APPLY_SAVING_SPELL))
+         {
+            if (obj->affected[i].modifier < 0)
+               strcpy(Gbuf3, "positively");
+            else if (obj->affected[i].modifier > 0)
+               strcpy(Gbuf3, "negatively");
+            else
+               strcpy(Gbuf3, "not at all");
+         }
+         else if (obj->affected[i].location != APPLY_FIRE_PROT)
+         {
+            if (obj->affected[i].modifier > 0)
+                strcpy(Gbuf3, "positively");
+            else if (obj->affected[i].modifier < 0)
+                strcpy(Gbuf3, "negatively");
+            else
+                strcpy(Gbuf3, "not at all");
+         }
+         else
+            Gbuf3[0] = 0;
 
-        sprintf(Gbuf1, " %s %s", Gbuf2, Gbuf3);
-        send_to_char(Gbuf1, ch);
+         sprintf(Gbuf1, " %s %s", Gbuf2, Gbuf3);
+         send_to_char(Gbuf1, ch);
       }
-    }
-    if (found)
-      send_to_char(".\r\n", ch);
-    CharWait(ch, 5);
-  }
+   }
+   if( found )
+      send_to_char( ".\n\r", ch );
 }
 
 const char *MAKE_FORMAT =

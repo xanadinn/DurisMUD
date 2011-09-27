@@ -146,7 +146,7 @@ extern const char *craftsmanship_names[];
 
 void apply_zone_modifier(P_char ch);
 static P_char load_locker_char(P_char ch, char *locker_name, int bValidateAccess);
-
+void shopping_stat( P_char ch, P_char keeper, char *arg, int cmd );
 /*
  * Macros
  */
@@ -1515,7 +1515,7 @@ void stat_game(P_char ch)
 //CMD = 555 is used for storing stat o string in db.
 void do_stat(P_char ch, char *argument, int cmd)
 {
-  P_char   k = 0, t_mob = 0;
+  P_char   k = 0, t_mob = 0, shopkeeper;
   P_event  e1 = NULL;
   P_obj    j = 0, t_obj = 0;
   P_room   rm = 0;
@@ -1545,8 +1545,14 @@ void do_stat(P_char ch, char *argument, int cmd)
   {
     if (!IS_TRUSTED(ch))
     {
-    do_attributes(ch, argument, cmd);
-    return;
+       for( shopkeeper = world[ch->in_room].people; shopkeeper; shopkeeper = shopkeeper->next_in_room )
+       if( IS_SHOPKEEPER( shopkeeper ) )
+       {
+          shopping_stat(ch, shopkeeper, argument, cmd);
+          return;
+       }
+       do_attributes(ch, argument, cmd);
+       return;
     }
   }
   

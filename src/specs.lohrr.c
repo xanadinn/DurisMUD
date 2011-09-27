@@ -173,8 +173,8 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
    if( !ch )
       return TRUE;
 
-   // Attack nearby ships (within 3 rooms ):
-   if( cmd == CMD_PERIODIC && !number( 0, 1 ) )
+   // Attack nearby ships (within 3 rooms ) if not fighting
+   if( cmd == CMD_PERIODIC && !number( 0, 1 ) && !IS_FIGHTING(ch) )
       if( ship = leviathan_find_ship( ch, ch->in_room, 3 ) )
       {
           act_to_all_in_ship( ship,"$N speeds into your ship!", ch );

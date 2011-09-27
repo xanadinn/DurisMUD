@@ -48,6 +48,8 @@ const char *operator_str[] = {
   "^'"
 };
 
+void lore_item( P_char ch, P_obj obj );
+
 void push(struct stack_data *stack, int pushval)
 {
   S_DATA(stack, S_LEN(stack)++) = pushval;
@@ -1766,4 +1768,24 @@ bool transact(P_char from, P_obj merchandise, P_char to, int value)
     }
   }
   return FALSE;
+}
+
+// Stats objects for sale, like in locker code.
+// Must be duplicated because do_lore is limited to inventory.
+void shopping_stat( P_char ch, P_char keeper, char *arg, int cmd )
+{
+   int i = 0;
+   P_obj obj;
+
+   if( !ch || !keeper )
+      return;
+
+   for( obj = keeper->carrying; obj; obj = obj->next_content )
+      if( CAN_SEE_OBJ( ch, obj ) && ( obj->cost > 0 ) )
+         if( ++i == atoi(arg) )
+         { 
+            lore_item( ch, obj );
+            return;
+         }
+   mobsay( keeper, "I do not sell that item." );
 }
