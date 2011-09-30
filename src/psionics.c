@@ -405,7 +405,8 @@ void spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
 {
   struct affected_type af;
   int duration;
-  
+  bool refresh = FALSE;
+
   if (!((level >= 0) && ch))
   {
     logit(LOG_EXIT, "assert: bogus parms in aura sight");
@@ -430,13 +431,13 @@ void spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
   {
     struct affected_type *af1;
 
+    refresh = TRUE;
+
     for (af1 = victim->affected; af1; af1 = af1->next)
       if (af1->type == SPELL_AURA_SIGHT)
       {
-        af1->duration = duration;
+        affect_remove(victim, af1);
       }
-    send_to_char("Your mental vision of various auras is refreshed.\r\n", victim);
-    return;
   }
   
   bzero(&af, sizeof(af));
@@ -481,8 +482,11 @@ void spell_aura_sight(int level, P_char ch, char *arg, int type, P_char victim,
     af.bitvector4 = AFF4_DETECT_ILLUSION;
     affect_to_char(victim, &af);
   }
-  
-  send_to_char("&+MYour vision sharpens considerably.&n\r\n", victim);
+
+  if( refresh )
+    send_to_char("Your mental vision of various auras is refreshed.\r\n", victim);
+  else
+    send_to_char("&+MYour vision sharpens considerably.&n\r\n", victim);
 
 }
 
