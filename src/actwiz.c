@@ -10020,14 +10020,18 @@ void do_givepet(P_char ch, char *arg, int cmd)
     else if (isdigit(*pet))
     {
       msg[0] = '\0';
-      mob = read_mobile(atoi(pet), VIRTUAL);
-      wizlog(56, "%s has loaded pet %s(Level: %d) for %s.", GET_NAME(ch), mob->player.short_descr, GET_LEVEL(mob), GET_NAME(victim));
-      logit(LOG_WIZ, "(%s) has loaded pet (%s)(Level: %d) for (%s).",
-        GET_NAME(ch), mob->player.short_descr, GET_LEVEL(mob), GET_NAME(victim));
+      if (!(mob = read_mobile(atoi(pet), VIRTUAL)))
+      {
+	send_to_char("Invalid mob vnum.\r\n", ch);
+	return;
+      }
     }
 
     if (mob)
     {
+      wizlog(56, "%s has loaded pet %s(Level: %d) for %s.", GET_NAME(ch), mob->player.short_descr, GET_LEVEL(mob), GET_NAME(victim));
+      logit(LOG_WIZ, "(%s) has loaded pet (%s)(Level: %d) for (%s).",
+        GET_NAME(ch), mob->player.short_descr, GET_LEVEL(mob), GET_NAME(victim));
       SET_BIT(mob->specials.act, ACT_SENTINEL);
       mob->only.npc->aggro_flags = 0;
       char_to_room(mob, victim->in_room, 0);
