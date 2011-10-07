@@ -3371,6 +3371,39 @@ int get_numb_free_hands(P_char ch)
   return free_hands;
 }
 
+bool check_single_artifact(P_char ch, P_obj obj)
+{
+  if (!ch || !obj)
+    return true;
+
+  if (!(int)get_property("artifact.major.limit.one", 1))
+  {
+    return false;
+  }
+
+  if (IS_ARTIFACT(obj))
+  {
+    if (isname("unique", obj->name) &&
+       !isname("powerunique", obj->name))
+    {
+      return false;
+    }
+
+    for (int i = 0; i < MAX_WEAR; i++)
+    {
+      if (ch->equipment[i] &&
+	  IS_ARTIFACT(ch->equipment[i]) &&
+	  !isname("unique", ch->equipment[i]->name))
+      {
+	return true;
+      }
+    }
+
+  }
+
+  return false;
+}
+
 /*
  ** Improvements:
  **
@@ -3500,6 +3533,12 @@ int wear(P_char ch, P_obj obj_object, int keyword, int showit)
     return FALSE;
   }
 #endif // Wield as many artis as you want
+
+  if (check_single_artifact(ch, obj_object))
+  {
+    send_to_char("You cannot wear any more items of such power!\r\n", ch);
+    return FALSE;
+  }
 
   free_hands = get_numb_free_hands(ch);
 
