@@ -193,7 +193,7 @@ const menuChoice objMisc2ChoiceArr[] =
   { "weight", 0, 0, offsetof(objectType, weight), mctInt, mclNone, mcdDefault, 0, 0 },
   { "volume", "volume (obsolete)", 0, offsetof(objectType, space), mctUInt, mclNone, mcdDefault, 0, 0 },
   { "worth", 0, 0, offsetof(objectType, worth), mctMoney, mclNone, mcdDefault, 0, 0 },
-  { "condition", "percentage of max condition", 0, offsetof(objectType, condition), mctPercentage, mclNone, mcdDefault, 0, 0 },
+  { "condition", "current condition", 0, offsetof(objectType, condition), mctUInt, mclNone, mcdDefault, 0, 0 },
   { "max condition", 0, 0, offsetof(objectType, max_condition), mctUInt, mclNone, mcdDefault, 0, 0 },
   { 0 } };
 
