@@ -630,7 +630,7 @@ void shopping_sell(char *arg, P_char ch, P_char keeper, int shop_nr)
     cost_factor = shop_index[shop_nr].buy_percent - .01;
 
   /* condition affects value too */
-  sale = (int) (temp1->cost * cost_factor * (temp1->condition / temp1->max_condition));
+  sale = (int) (temp1->cost * cost_factor * ((float) temp1->condition / temp1->max_condition));
 
   if (sale < 1)
     sale = 1;

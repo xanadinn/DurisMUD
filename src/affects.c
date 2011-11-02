@@ -217,14 +217,12 @@ int apply_ac(P_char ch, int eq_pos)
   switch (eq_pos)
   {
     case WEAR_SHIELD:
-      value *= 10;
+      value *= 2;
 
       if(GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT))
       {
         value += (int) (GET_CHAR_SKILL(ch, SKILL_SHIELD_COMBAT) * (float) get_property("skill.shieldCombat.ACBonusMultiplier", 1.00));
-        if (GET_CLASS(ch, CLASS_WARRIOR | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_MERCENARY))
-	  value *= 2;
-      }// FIX THIS JEXNI!
+      }
       break;
     case WEAR_BODY:
       if (IS_SET(ch->equipment[eq_pos]->extra_flags, ITEM_WHOLE_BODY))
@@ -239,12 +237,12 @@ int apply_ac(P_char ch, int eq_pos)
       if (IS_SET(ch->equipment[eq_pos]->extra_flags, ITEM_WHOLE_HEAD))
         value *= 3;
       else
-        value = (int) (value * 1.5);
+        value = (int) (value * 1.3);
       break;
     case WEAR_LEGS:
     case WEAR_ARMS:
     case WEAR_ARMS_2:
-      value = (int) (value * 1.2);
+      value = (int) (value * 1.1);
       break;
     case WEAR_FEET:
     case WEAR_HANDS:
@@ -269,7 +267,7 @@ int apply_ac(P_char ch, int eq_pos)
       return 0;
   }
 
-  return BOUNDED(-250, value * (int) (ch->equipment[eq_pos]->condition / ch->equipment[eq_pos]->max_condition), 250);
+  return BOUNDED(-250, value * (int) ((float) ch->equipment[eq_pos]->condition / ch->equipment[eq_pos]->max_condition), 250);
 }
 
 int calculate_mana(P_char ch)
