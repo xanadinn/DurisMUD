@@ -811,7 +811,8 @@ int can_enter_room(P_char ch, int room, int show_msg)
   /*
    * can't ride into a narrow hallway (RIDING) -DCL
    */
-  if (GET_RACE(ch) == RACE_AQUATIC_ANIMAL)        /* fish can only go into water */
+  if (GET_RACE(ch) == RACE_AQUATIC_ANIMAL      /* fish can only go into water */
+    || (IS_NPC(ch) && GET_VNUM(ch) == 55264) ) /* And leviathan. */
     if ((world[room].sector_type != SECT_OCEAN) &&
         (world[room].sector_type != SECT_UNDERWATER) &&
         (world[room].sector_type != SECT_UNDERWATER_GR) &&

@@ -188,7 +188,8 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
           return TRUE;
       }
 
-   if( cmd == CMD_PERIODIC && !number( 0, 1 ) )
+   // Toss people around, if fighting.
+   if( cmd == CMD_PERIODIC && !number( 0, 1 ) && IS_FIGHTING(ch) )
    {
       switch( number( 1, 2 ) )
       {
@@ -198,6 +199,8 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
          // To each char in room, chance of knockdown.
          for( tch = world[ch->in_room].people;tch;tch = tch->next_in_room )
          {
+            if( !IS_ALIVE(tch) || IS_TRUSTED(tch) )
+              continue;
             if( tch != ch )
             {
                if( number( 0, 1 ) )
@@ -211,9 +214,13 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
                }
             }
          }
+         return TRUE;
       break;
       case 2:
          tch = ch->specials.fighting;
+         if( !IS_ALIVE(tch) || IS_TRUSTED(tch)
+           || tch->in_room != ch->in_room )
+           return FALSE;
          if( tch )
          {
             act( "$N lashes out with a tentacle, wrapping it around you, lifts and quickly slams you upon the water surface!", FALSE, tch, NULL, ch, TO_CHAR );
@@ -227,6 +234,7 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
             stop_fighting( tch );
             // Stun for 3-5 sec
             CharWait( tch, number( 3, 5 ) );
+            return TRUE;
          }
       default:
       break;
@@ -236,7 +244,7 @@ int leviathan( P_char ch, P_char pl, int cmd, char *arg )
    return FALSE;
 }
 
-// Returns a ship if it's near Leviathan
+// Returns an undocked ship if it's near Leviathan
 P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms )
 {
    int i;
@@ -251,9 +259,13 @@ P_ship leviathan_find_ship( P_char leviathan, int room, int num_rooms )
    // Look through contents
    for(obj = world[room].contents;obj;obj = obj->next_content )
       // If found a ship && percent >= 50
-      if( obj && (GET_ITEM_TYPE(obj) == ITEM_SHIP) && (obj->value[6] == 1) && number( 0, 1) )
-         return shipObjHash.find(obj);
-
+      if( obj && (GET_ITEM_TYPE(obj) == ITEM_SHIP) && (obj->value[6] == 1)
+        && number( 0, 1) )
+        {
+          ship = shipObjHash.find(obj);
+          if( ship && !SHIP_DOCKED(ship) )
+            return ship;
+        }
    // This is a bit repetative, but that's ok, it's for a small number.
    if( num_rooms > 0 )
    {

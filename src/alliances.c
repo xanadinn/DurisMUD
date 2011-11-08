@@ -403,7 +403,8 @@ void do_acc(P_char ch, char *argument, int cmd)
            IS_AFFECTED2(ch, AFF2_SILENCED) ||
            affected_by_spell(ch, SPELL_SUPPRESSION) || 
            !IS_SET(ch->specials.act2, PLR2_ACC) || 
-           is_silent(ch, TRUE))
+           is_silent(ch, TRUE) ||
+           (IS_PC(ch) && !GT_PAROLE(GET_A_BITS(ch))) )
   {
     send_to_char("You can't use the ACC channel!\r\n", ch);
     return;
