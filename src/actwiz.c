@@ -5436,6 +5436,7 @@ void do_zreset(P_char ch, char *argument, int cmd)
   {
     sprintf(buf, "Zone: %s has been reset.\n", zone_struct->name);
     send_to_char(buf, ch);
+    zone_purge(zone_number);
     reset_zone(zone_number, TRUE);
     if(GET_LEVEL(ch) > MAXLVLMORTAL)
     {

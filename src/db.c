@@ -2999,6 +2999,53 @@ P_obj read_object(int nr, int type)
   return (obj);
 }
 
+#define RESET_COUNTER 1
+/*  Function to reset no_reset zones...
+ *  This function will be called at a time during boot
+ *     A) After the original stone has been touched
+ *     B) Random event timer expires(event is applied after touch)
+ *     C) Incremental chance of reset occurring above random roll
+ *
+ *  Why have this?  It moves us closer to a game-world that is persistent
+ *  and auto-refreshes.  Incremental time will be stored in DB and will
+ *  be modified by frequency of overall zone resets occurring through
+ * this method.
+ */
+void no_reset_zone_reset(int zone_number)
+{
+  int i;
+  struct zone_data zone = zone_table[zone_number];
+
+  if(!qry("SELECT * FROM zones WHERE zone_id = '%d'", zone_number))
+  {
+    logit(LOG_DEBUG, "no_reset_zone_reset: could not find zone information for zone %d", zone_number);
+    return;
+  }
+  
+  MYSQL_RES *res = mysql_store_result(DB);
+
+  if(mysql_num_rows(res) < 1)
+  {
+    logit(LOG_DEBUG, "No data retrieved from DB for no_reset_zone_reset...");
+    return;
+  }
+  
+  MYSQL_ROW row = mysql_fetch_row(res);
+    
+  if(atoi(row[RESET_COUNTER]) > number(0, 99))
+  {
+    zone_purge(zone_number);
+    statuslog(56, "Resetting no_reset zone %d, %s", zone_number, strip_ansi(zone_table[zone_number].name).c_str()); 
+    reset_zone(zone_number, FALSE); // does not require a forced repop
+                                    // due to the zone_purge function
+  }
+  else
+  {
+    db_query("UPDATE zones SET reset_counter = '%d'", row[RESET_COUNTER] + 1);
+  }
+}
+#undef RESET_COUNTER
+
 #define ZCMD zone_table[zone].cmd[cmd_no]
 
 /* execute the reset command table of a given zone */
@@ -3082,8 +3129,8 @@ void reset_zone(int zone, int force_item_repop)
           if (get_current_artifact_info
               (temp, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
           {
-            statuslog(56, "didn't load arti obj #%d because already tracked",
-                      obj_index[temp].virtual_number);
+            //statuslog(56, "didn't load arti obj #%d because already tracked",
+            //          obj_index[temp].virtual_number);
             break;
           }
 
@@ -3125,8 +3172,8 @@ void reset_zone(int zone, int force_item_repop)
         if (get_current_artifact_info
             (temp, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
         {
-          statuslog(56, "didn't load arti obj #%d because already tracked",
-                    obj_index[temp].virtual_number);
+          //statuslog(56, "didn't load arti obj #%d because already tracked",
+          //          obj_index[temp].virtual_number);
           break;
         }
 
@@ -3155,8 +3202,8 @@ void reset_zone(int zone, int force_item_repop)
           if (get_current_artifact_info
               (temp, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
           {
-            statuslog(56, "didn't load arti obj #%d because already tracked",
-                      obj_index[temp].virtual_number);
+            //statuslog(56, "didn't load arti obj #%d because already tracked",
+            //          obj_index[temp].virtual_number);
             break;
           }
 
@@ -3231,9 +3278,9 @@ void reset_zone(int zone, int force_item_repop)
                   (ZCMD.arg1, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
               {
                 last_cmd = 0;
-                statuslog(56,
-                          "didn't load arti obj #%d because already tracked",
-                          obj_index[ZCMD.arg1].virtual_number);
+              //  statuslog(56,
+              //            "didn't load arti obj #%d because already tracked",
+              //            obj_index[ZCMD.arg1].virtual_number);
                 break;
               }
 
@@ -3281,9 +3328,9 @@ void reset_zone(int zone, int force_item_repop)
             if (get_current_artifact_info
                 (ZCMD.arg1, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
             {
-              statuslog(56,
-                        "didn't load arti obj #%d because already tracked",
-                        obj_index[ZCMD.arg1].virtual_number);
+             // statuslog(56,
+             //           "didn't load arti obj #%d because already tracked",
+             //           obj_index[ZCMD.arg1].virtual_number);
               break;
             }
 
@@ -3331,9 +3378,9 @@ void reset_zone(int zone, int force_item_repop)
             if (get_current_artifact_info
                 (ZCMD.arg1, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
             {
-              statuslog(56,
-                        "didn't load arti obj #%d because already tracked",
-                        obj_index[ZCMD.arg1].virtual_number);
+              //statuslog(56,
+              //          "didn't load arti obj #%d because already tracked",
+              //          obj_index[ZCMD.arg1].virtual_number);
               break;
             }
 
@@ -3394,9 +3441,9 @@ void reset_zone(int zone, int force_item_repop)
             if (get_current_artifact_info
                 (ZCMD.arg1, 0, NULL, NULL, NULL, NULL, FALSE, NULL))
             {
-              statuslog(56,
-                        "didn't load arti obj #%d because already tracked",
-                        obj_index[ZCMD.arg1].virtual_number);
+              //statuslog(56,
+              //          "didn't load arti obj #%d because already tracked",
+              //          obj_index[ZCMD.arg1].virtual_number);
               break;
             }
 

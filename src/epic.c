@@ -39,6 +39,7 @@ extern int top_of_objt;
 extern P_desc descriptor_list;
 extern Skill skills[];
 extern int      new_exp_table[];
+extern void event_reset_zone(P_char, P_char, P_obj, void *);
 
 vector<epic_zone_completion> epic_zone_completions;
 
@@ -599,14 +600,14 @@ void gain_epic(P_char ch, int type, int data, int amount)
   /*
     exp.maxExpLevel means the highest level you can reach with just experience (i.e., without epics)
     epic.maxFreeLevel means the highest level you can reach by touching any stone. higher levels you have
-    to touch specific stones to level.
+    to touch specific stones to level, except in wipe2011
   */
 
   if(GET_LEVEL(ch) >= get_property("exp.maxExpLevel", 46) &&
       GET_LEVEL(ch) < get_property("epic.maxFreeLevel", 50))
   {
      //epic_free_level(ch);
-     advance_level(ch, FALSE);   
+     advance_level(ch, FALSE); // handles leveling for wipe2011
   }
 
   // feed artifacts
@@ -1028,12 +1029,13 @@ int epic_stone(P_obj obj, P_char ch, int cmd, char *arg)
       REMOVE_BIT(obj->extra2_flags, ITEM2_MAGIC);
       return TRUE;
     }
-
+    /*
     if(affected_by_spell(ch, TAG_EPIC_MONOLITH))
     {
       send_to_char("You need to wait before touching an epic stone again!\n", ch);
       return TRUE;
-    }
+    } this mitigation is no longer necessary for wipe2011, as exp must be gained in zone before touch
+      can reward player - Jexni */
 
     /* calculate epic value */
     int epic_value = epic_stone_payout(obj, ch);
@@ -1075,6 +1077,14 @@ int epic_stone(P_obj obj, P_char ch, int cmd, char *arg)
       // set completed flag
       epic_zone_completions.push_back(epic_zone_completion(zone_number, time(NULL), delta));
       db_query("UPDATE zones SET last_touch='%d' WHERE number='%d'", time(NULL), zone_number);
+
+      //  Allow !reset zones to possibly reset somewhere down the line...  - Jexni 11/7/11
+      if(!zone_table[zone_number].reset_mode)
+      {
+        struct zone_data *zone = &zone_table[zone_number];
+        add_event(event_reset_zone, WAIT_SEC, 0, 0, 0, 0, &zone, sizeof(zone));
+        db_query("INSERT INTO zones (reset_counter) VALUES (1)");
+      }
     }
 
     act("$p flashes brightly then blurs, and remains still and powerless.",
