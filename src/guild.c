@@ -349,7 +349,7 @@ P_char FindTeacher(P_char ch)
     if (!IS_PC(teacher) && IS_SET(teacher->specials.act, ACT_TEACHER))
       return teacher;
     /* Gods may teach */
-    if (IS_TRUSTED(teacher))
+    if (IS_TRUSTED(teacher) && is_linked_to(ch, teacher, LNK_CONSENT) )
       return teacher;
   }
   return NULL;
