@@ -1513,7 +1513,7 @@ void stat_game(P_char ch)
   send_to_char(buf, ch);
 }
 
-#define STAT_SYNTAX "Syntax:\n   stat room <room #>\n   stat zone <zone #>\n   stat char|mob #|'name'\n   stat obj|item  #|'name'\n"
+#define STAT_SYNTAX "Syntax:\n   stat game\n   stat room <room #>\n   stat zone <zone #>\n   stat obj|item  #|'name'\n   stat char|mob #|'name'\n   stat trap 'name'\n   shop #|'name'\n   stat damage\n"
 
 
 //CMD = 555 is used for storing stat o string in db.

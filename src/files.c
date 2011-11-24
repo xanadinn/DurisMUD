@@ -2709,7 +2709,7 @@ int restorePasswdOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 1: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2738,7 +2738,7 @@ int restorePasswdOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 2: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2765,9 +2765,14 @@ int restorePasswdOnly(P_char ch, char *name)
           csize);
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
-    send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
-       ch);
+    if( size > csize )
+      send_to_char
+        ("Error 3a: There is something wrong with your save file!  Please talk to a God.\r\n",
+         ch);
+    else
+      send_to_char
+        ("Error 3b: There is something wrong with your save file!  Please talk to a God.\r\n",
+         ch);
     return -2;
   }
   room = GET_INTE(buf);         /*
@@ -2855,7 +2860,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 4: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2891,7 +2896,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 5: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2911,7 +2916,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 6: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2932,7 +2937,7 @@ int restoreCharOnly(P_char ch, char *name)
     fprintf(stderr, "Problem restoring save file of: %s\n", name);
     logit(LOG_FILE, "Problem restoring save file of %s.", name);
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 7: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }
@@ -2953,7 +2958,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("Error 8: There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -2968,7 +2973,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("Error 9: There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -2979,7 +2984,7 @@ int restoreCharOnly(P_char ch, char *name)
       fprintf(stderr, "Problem restoring save file of: %s\n", name);
       logit(LOG_FILE, "Problem restoring save file of %s.", name);
       send_to_char
-        ("There is something wrong with your save file!  Please talk to a God.\r\n",
+        ("Error 10: There is something wrong with your save file!  Please talk to a God.\r\n",
          ch);
       return -2;
     }
@@ -3998,7 +4003,7 @@ int restoreItemsOnly(P_char ch, int flatrate)
             GET_NAME(ch), affect_off, item_off);
     logit(LOG_FILE, "Problem restoring save file of %s.", GET_NAME(ch));
     send_to_char
-      ("There is something wrong with your save file!  Please talk to a God.\r\n",
+      ("Error 11: There is something wrong with your save file!  Please talk to a God.\r\n",
        ch);
     return -2;
   }

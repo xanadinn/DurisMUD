@@ -151,7 +151,7 @@ void do_traplist(P_char ch, char *argument, int cmd)
       continue;
 
     found = TRUE;
-    sprintf(buf, "%s \r\n", where_obj(obj, FALSE));
+    sprintf(buf, "%s %s \r\n", obj->short_description, where_obj(obj, FALSE));
     send_to_char(buf, ch);
   }
   if (!found)
