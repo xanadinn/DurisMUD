@@ -1127,8 +1127,7 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   int      globe, flame;
   P_char   tmp_char;
 
-  globe = 0;
-  flame = 0;
+  globe = flame = 0;
 
   if(!(sub))
   {
@@ -1145,12 +1144,14 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   if(IS_BLIND(sub))
     return 0;
 
+  if(sub == obj)
+    return 1;
+
   if (WIZ_INVIS(sub, obj))
     return 0;
 
   if (GET_LEVEL(sub) > MAXLVLMORTAL)
     return 1;
-
 
   /* Flyers */
   if( 0 &&
@@ -1180,7 +1181,6 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   if(IS_AFFECTED(obj, AFF_HIDE) && !affected_by_spell(obj, TAG_CTF))// && (obj != sub))
     return 0;
 
-
   for (tmp_char = world[sub->in_room].people; tmp_char; tmp_char = tmp_char->next_in_room)
   {
     if (IS_AFFECTED4(tmp_char, AFF4_MAGE_FLAME))
@@ -1201,11 +1201,7 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
     !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
     !IS_TWILIGHT_ROOM(obj->in_room) &&
     !flame)
-      return 1;
-
-  /*
-   * Determine visibility by "vis" command
-   */
+      return 0;
 
   /*
    * as wraithform is kind of kludge, semi-godsight.
@@ -1240,10 +1236,10 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
     IS_PC(sub))
   {
     if((IS_SUNLIT(obj->in_room) ||
-      (IS_SET(world[obj->in_room].room_flags, MAGIC_LIGHT) &&
-      !IS_TWILIGHT_ROOM(obj->in_room))) &&
-      !globe)
-        return 1;
+       (IS_SET(world[obj->in_room].room_flags, MAGIC_LIGHT) &&
+       !IS_TWILIGHT_ROOM(obj->in_room))) &&
+       !globe)
+        return 0;
     else
       return 1;
   }
@@ -1254,9 +1250,6 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
   /*
    * room is dark - do infra checks
    */
-  if(IS_NPC(sub))
-    return 1;
-
   if(IS_AFFECTED((sub), AFF_INFRAVISION))
   {
     if(IS_UNDEAD(obj) || IS_INSECT(obj) ||
@@ -1266,14 +1259,15 @@ int ac_can_see(P_char sub, P_char obj, bool check_z)
       (GET_RACE(obj) == RACE_ARACHNID) ||
       (GET_RACE(obj) == RACE_AQUATIC_ANIMAL) ||
       (GET_RACE(obj) == RACE_PLANT) ||
-      (GET_RACE(obj) == RACE_PARASITE) || (GET_RACE(obj) == RACE_SLIME))
-        return 1;                 /*
-                                 * invis to infravision
-                                 */
+      (GET_RACE(obj) == RACE_PARASITE) || 
+      (GET_RACE(obj) == RACE_SLIME) ||
+      (GET_RACE(obj) == RACE_CONSTRUCT))
+        return 0;           // invis to infravision                              
     else
-      return 1;                 /*
-                                 * will see 'red shape'
-                                 */
+    {
+      return -1;             //  will see 'red shape'
+    }
+                                 
   }
   return 0;
 }
@@ -1287,6 +1281,12 @@ int ac_can_see_obj(P_char sub, P_obj obj)
   int      rroom;
   P_char   tmp_char;
   int      vis_mode;
+
+  if(!obj || !sub)
+  {
+    logit(LOG_EXIT, "ac_can_see_obj was not passed proper parms.");
+    raise(SIGSEGV);
+  }
 
   // As mobs don't directly act upon what they "see", I'm removing them entirely
   // from this particular check - Jexni 5/7/11
@@ -1331,14 +1331,6 @@ int ac_can_see_obj(P_char sub, P_obj obj)
   if (IS_SET((obj)->extra_flags, ITEM_BURIED))
     return 0;
 
-  /* Room is magically dark
-     Done Later - Granor */
-  /*if (IS_SET (world[obj->loc.room].room_flags, MAGIC_DARK) && IS_PC(sub)
-     && !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
-     !IS_TWILIGHT_ROOM(obj->loc.room))
-     return 0;
-   */
-
   while (OBJ_INSIDE(obj))
     obj = obj->loc.inside;
 
@@ -1353,8 +1345,11 @@ int ac_can_see_obj(P_char sub, P_obj obj)
   else
     return IS_TRUSTED(sub) ? 1 : 0;
 
-  if (IS_NPC(sub))
-    return 1;
+  // Room is magically dark
+  if ((IS_SET(world[rroom].room_flags, MAGIC_DARK) || !IS_LIGHT(rroom)) && 
+      !IS_AFFECTED2(sub, AFF2_ULTRAVISION) &&
+      !IS_TWILIGHT_ROOM(rroom))
+     return 0;
 
   vis_mode = get_vis_mode(sub, rroom);
   return (vis_mode == 1 || vis_mode == 2);
@@ -2729,8 +2724,6 @@ string strip_ansi(const char *str)
   return colorless;
 }
 
-
-
 /*
  * all stats are 1-100, all adjusted stats are 0-511 (ubyte), by nature of the thing,
  * they are all treated identically, however, I shudder at the thought of 10 tables
@@ -2896,11 +2889,12 @@ int STAT_INDEX_SPELL_PULSE(float v)
 
  return 12;
 }
+      /*
+       * SKB - 20 May 1995
+       */
 
 bool are_together(P_char ch1, P_char ch2)
-{                               /*
-                                 * SKB - 20 May 1995
-                                 */
+{
   if (!ch1 || !ch2)
   {
     return (FALSE);
@@ -2986,7 +2980,6 @@ bool spell_can_affect_char(P_char ch, int spl)
 }
 
 /* is viewee at war with viewer? */
-
 char racewar(P_char viewer, P_char viewee)
 {
   if (!viewer || !viewee)
@@ -3032,8 +3025,6 @@ char racewar(P_char viewer, P_char viewee)
     }
     if (GET_RACEWAR(viewer) == viewee->disguise.racewar)
     {
-       //if (IS_PC(viewer) && IS_PC(viewee))
-//         wizlog(57,"&+Wooooooooooooooooooooooooops. viewer: %d, viewee: %d. viewee disguise: %d",GET_RACEWAR(viewer), GET_RACEWAR(viewee), viewee->disguise.racewar);
       return FALSE;
     }
     return TRUE;
@@ -3131,7 +3122,6 @@ int maproom_of_zone(int zone_num)
             return (world[world[i].dir_option[i2]->to_room].number);
   return NOWHERE;
 }
-
 
 /* real rooms only! */
 int distance_from_shore(int room)

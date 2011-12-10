@@ -1239,7 +1239,6 @@ void show_char_to_char(P_char i, P_char ch, int mode)
         else
           send_to_char("&+LYou sense a hidden lifeform nearby.\n", ch);
       }
-
       return;
     }
     if((IS_AFFECTED(i, AFF_INVISIBLE) ||
@@ -1318,7 +1317,8 @@ void show_char_to_char(P_char i, P_char ch, int mode)
                      (GET_DISGUISE_RACE(i) == RACE_ORC) ||
 		     (GET_DISGUISE_RACE(i) == RACE_OROG) ||
                      (GET_DISGUISE_RACE(i) == RACE_OGRE) ||
-		     (GET_DISGUISE_RACE(i) == RACE_AGATHINON)) ? "An" : "A",
+		     (GET_DISGUISE_RACE(i) == RACE_AGATHINON) ||
+                     (GET_DISGUISE_RACE(i) == RACE_ELADRIN)) ? "An" : "A",
                     race_names_table[(int) GET_DISGUISE_RACE(i)].ansi,
                     size_types[GET_ALT_SIZE(i)]);
           else
@@ -1357,7 +1357,8 @@ void show_char_to_char(P_char i, P_char ch, int mode)
             (GET_RACE(i) == RACE_ORC) ||
             (GET_RACE(i) == RACE_OROG) ||
             (GET_RACE(i) == RACE_AGATHINON) ||
-            (GET_RACE(i) == RACE_OGRE)) ? "An" : "A",
+            (GET_RACE(i) == RACE_OGRE) ||
+            (GET_RACE(i) == RACE_ELADRIN)) ? "An" : "A",
               race_names_table[(int) GET_RACE(i)].ansi,
               size_types[GET_ALT_SIZE(i)]);
           else
@@ -1444,8 +1445,7 @@ void show_char_to_char(P_char i, P_char ch, int mode)
 				}
       }
 
-      if(!
-          (IS_DISGUISE_NPC(i) && GET_STAT(i) == STAT_NORMAL &&
+      if(!(IS_DISGUISE_NPC(i) && GET_STAT(i) == STAT_NORMAL &&
            GET_POS(i) == POS_STANDING))
       {
         switch (GET_STAT(i))
@@ -1868,12 +1868,11 @@ void list_char_to_char(P_char list, P_char ch, int mode)
     higher = (i->specials.z_cord > ch->specials.z_cord);
     lower = (i->specials.z_cord < ch->specials.z_cord);
 
-//    if(i->specials.z_cord == ch->specials.z_cord) {
     if(!CAN_SEE_Z_CORD(ch, i))
     {
 
       if(IS_AFFECTED(ch, AFF_SENSE_LIFE) && !IS_UNDEAD(i) &&
-          !IS_ANGEL(i) && !IS_AFFECTED3(i, AFF3_NON_DETECTION))
+         !IS_AFFECTED3(i, AFF3_NON_DETECTION))
       {
         if(higher)
           send_to_char("&+LYou sense a lifeform above you.\n", ch);
@@ -1883,10 +1882,9 @@ void list_char_to_char(P_char list, P_char ch, int mode)
           send_to_char("&+LYou sense a lifeform nearby.\n", ch);
       }
       else if(IS_AFFECTED(ch, AFF_SENSE_LIFE) &&
-               (IS_AFFECTED3(i, AFF3_NON_DETECTION) || IS_UNDEAD(i) ||
-		IS_ANGEL(i)) &&
+               (IS_AFFECTED3(i, AFF3_NON_DETECTION) || IS_UNDEAD(i)) &&
                !number(0, 4))
-        send_to_char("&+rYou barely sense a lifeform nearby.\n", ch);
+        send_to_char("&+rYou barely sense a presence nearby.\n", ch);
       continue;
     }
     /* ok, they can see SOMETHING at this point */
@@ -1896,19 +1894,20 @@ void list_char_to_char(P_char list, P_char ch, int mode)
      * the vantage point of i... not of ch... as ch might not be in
      * the same room...
      */
-     if(CAN_SEE(ch, i))
-     {
+    if(CAN_SEE(ch, i) == 1)
+    {
       show_char_to_char(i, ch, 0);
       continue;
-     }
-    /*if(IS_AFFECTED2(ch, AFF2_ULTRAVISION) ||
+    }
+
+    if(IS_AFFECTED2(ch, AFF2_ULTRAVISION) ||
         (IS_LIGHT(i->in_room)) ||
         (IS_TRUSTED(ch)) ||
         (IS_TWILIGHT_ROOM(i->in_room)) || (IS_AFFECTED(ch, AFF_WRAITHFORM)))
     {
       show_char_to_char(i, ch, 0);
       continue;
-    }*/
+    }
 
     /* then infravision */
     if(!IS_AFFECTED(ch, AFF_INFRAVISION))
@@ -1918,7 +1917,6 @@ void list_char_to_char(P_char list, P_char ch, int mode)
             size_types[GET_ALT_SIZE(i)],
             higher ? "above you " : lower ? "below you " : "");
     send_to_char(buf, ch);
-//    }
   }
 }
 
@@ -7664,7 +7662,6 @@ void do_artireset(P_char ch, char *arg, int cmd)
 
 }
 
-
 void do_glance(P_char ch, char *argument, int cmd)
 {
   char     name[MAX_INPUT_LENGTH];
@@ -7699,7 +7696,6 @@ void do_glance(P_char ch, char *argument, int cmd)
   }
   else
   {
-
     if(*argument)
     {
       one_argument(argument, name);
