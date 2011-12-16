@@ -81,7 +81,7 @@ void spell_vapor_armor(int level, P_char ch, char *arg, int type,
      !IS_ALIVE(victim))
         return;
 
-  if(!affected_by_spell(victim, SPELL_VAPOR_ARMOR))
+  if(!ARMORED(victim))
   {
     memset(&af, 0, sizeof(af));
 

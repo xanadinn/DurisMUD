@@ -77,15 +77,13 @@ void     checkPeriodOfFame(P_char ch, char killer[1024]);
 /* * When age >= 80 return the value p6 */
 
 
-int graf(P_char ch, int t_age,
-         int p0, int p1, int p2, int p3, int p4, int p5, int p6)
+int graf(P_char ch, int t_age, int p0, int p1, int p2, int p3, int p4, int p5, int p6)
 {
   int      a = 17;
 
   if (!t_age)
     t_age = p0;                 /* Somehow, we are occasionally passed an age of 0,
                                    which crashes us. This _might_ fix. */
-
   if (IS_PC(ch))
     a = racial_data[(int) GET_RACE(ch)].base_age;
 
@@ -224,16 +222,18 @@ int hit_regen(P_char ch)
 
   if (GET_HIT(ch) > GET_MAX_HIT(ch))
   {
-    gain = (int) (GET_MAX_HIT(ch) - GET_HIT(ch)) / 10;
+    gain = (int) (GET_MAX_HIT(ch) - GET_HIT(ch)) / 7; // degeneration quicker for wipe2011
     return MIN(-1, gain);
   }
+
   if (IS_NPC(ch))
   {
     gain = 14;
   }
   else
   {
-    gain = graf(ch, age(ch).year, 16, 15, 14, 13, 11, 9, 6);
+      gain = 15; // wipe2011, fuck age!
+   // gain = graf(ch, age(ch).year, 16, 15, 14, 13, 11, 9, 6);
   }
 
   /* * Position calculations    */
@@ -259,23 +259,23 @@ int hit_regen(P_char ch)
   switch (GET_POS(ch))
   {
   case POS_PRONE:
-    gain += (gain < 0) ? (-(gain >> 2)) : (gain >> 2);  /* * 125% */
+    gain += (gain < 0) ? (-(gain >> 1)) : (gain >> 1);  /* * 150% changed from (2) 125% for wipe2011*/
     break;
   case POS_KNEELING:
     gain += (gain < 0) ? (-(gain >> 4)) : (gain >> 4);  /* * 106% */
     break;
   case POS_SITTING:
-    gain += (gain < 0) ? (-(gain >> 3)) : (gain >> 3);  /* * 113% */
+    gain += (gain < 0) ? (-(gain >> 2)) : (gain >> 2);  /* * 125% changed from (3) 112% for wipe2011*/
     break;
   }
 
   if (GET_COND(ch, FULL) == 0)
-    gain >>= 1;
+    gain >> 1;
   if (GET_COND(ch, THIRST) == 0)
-    gain >>= 1;
+    gain >> 1;
 
   if (CHAR_IN_HEAL_ROOM(ch) && (GET_STAT(ch) >= STAT_SLEEPING))
-    gain += GET_LEVEL(ch) * 2;
+    gain *= 2;
 
   gain += ch->points.hit_reg;
 
@@ -287,7 +287,7 @@ int hit_regen(P_char ch)
     gain += get_innate_regeneration(ch);
 
   if (IS_AFFECTED4(ch, AFF4_TUPOR))
-    gain += (int) (GET_LEVEL(ch) * 3.5);
+    gain += (gain < 0) ? (-(gain >> 4)) : (gain >> 4);
 
   if (CHAR_IN_NO_HEAL_ROOM(ch) && gain > 0)
     gain = 0;
@@ -303,14 +303,14 @@ int hit_regen(P_char ch)
     if (af)
       ;
     else if (IS_AFFECTED4(ch, AFF4_REGENERATION))
-      gain >>= 1;
+      gain >> 1;
     else
       gain = 0;
   }
   
   if (has_innate(ch, INNATE_VULN_SUN) && IS_SUNLIT(ch->in_room) &&
      !IS_TWILIGHT_ROOM(ch->in_room))
-    gain = 0;
+    gain = -5; // wipe2011, was 0
 
   if (IS_AFFECTED3(ch, AFF3_SWIMMING) || IS_AFFECTED2(ch, AFF2_HOLDING_BREATH)
       || IS_AFFECTED2(ch, AFF2_IS_DROWNING))

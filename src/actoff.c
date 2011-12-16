@@ -2458,8 +2458,8 @@ void do_flee(P_char ch, char *argument, int cmd)
   char     amsg[512];
   int      available_exits, stun_chance_flee;
   int      chance_when_engaged, succeded;
-  int      percent_chance;
-  int      tmp_mv;
+  int      percent_chance, minflee = MIN_FLEE_CHANCE;
+  int      tmp_mv, maxflee = MAX_FLEE_CHANCE;
   bool expeditious = false;
   P_char   rider = get_linking_char(ch, LNK_RIDING);
   P_char   mount = get_linked_char(ch, LNK_RIDING);
@@ -2498,26 +2498,17 @@ void do_flee(P_char ch, char *argument, int cmd)
       FALSE, ch, 0, 0, TO_CHAR);
     
     if(IS_HUMANOID(ch))
-      act("$n &+yseems to be trying to shake off $s woozy feeling.&n",
-        FALSE, ch, 0, 0, TO_ROOM);
+      act("$n &+yseems to be trying to shake off $s woozy feeling.&n", FALSE, ch, 0, 0, TO_ROOM);
     else if(GET_RACE(ch) == RACE_QUADRUPED)
-      act("$n &+ysnorts and kicks&n at the ground for balance.&n",
-        FALSE, ch, 0, 0, TO_ROOM);
+      act("$n &+ysnorts and kicks&n at the ground for balance.&n", FALSE, ch, 0, 0, TO_ROOM);
     else
-      act("$n appears &+Gunbalanced&n and unable to react quickly!&n",
-        FALSE, ch, 0, 0, TO_ROOM);
+      act("$n appears &+Gunbalanced&n and unable to react quickly!&n", FALSE, ch, 0, 0, TO_ROOM);
         
     stun_chance_flee = 0;
     
     stun_chance_flee += (int) (GET_C_WIS(ch) / 10); // 100 wis 10%
 
     stun_chance_flee += (int) (GET_LEVEL(ch) / 4); // level 50 12%
-
-    // 22% chance to flee or about 1 in 5. Jan08 -Lucrot
-    // Advanced meditation can add 10% more.
-    
-    if(GET_CHAR_SKILL(ch, SKILL_ADVANCED_MEDITATION) > 0)
-      stun_chance_flee += (int) (SKILL_ADVANCED_MEDITATION / 10);
     
     if(number(1, 100) > stun_chance_flee)
       return;
@@ -2529,18 +2520,14 @@ void do_flee(P_char ch, char *argument, int cmd)
   {
     if(cmd != CMD_FLEE)
     {
-      act("&+WA powerful magic compels you to stay and fight!",
-        FALSE, ch, 0, 0, TO_CHAR);
-      act("$n tries to flee but something compels $m to stay!",
-        FALSE, ch, 0, 0, TO_ROOM);
+      act("&+WA powerful magic compels you to stay and fight!", FALSE, ch, 0, 0, TO_CHAR);
+      act("$n tries to flee but something compels $m to stay!", FALSE, ch, 0, 0, TO_ROOM);
       return;
     } 
     else if(number(0, 1))
     {
-      act("&+WYou fight valiantly to escape, but an unseen force compels you to stay.",
-        FALSE, ch, 0, 0, TO_CHAR);
-      act("$n tries to flee but something compels $m to stay!",
-        FALSE, ch, 0, 0, TO_ROOM);
+      act("&+WYou fight valiantly to escape, but an unseen force compels you to stay.", FALSE, ch, 0, 0, TO_CHAR);
+      act("$n tries to flee but something compels $m to stay!", FALSE, ch, 0, 0, TO_ROOM);
       tmp_mv = 30+number(0, 10);
 
       if((GET_VITALITY(ch) - tmp_mv) < 20)
@@ -2551,16 +2538,14 @@ void do_flee(P_char ch, char *argument, int cmd)
       return;
     }
     else
-      act("&+WYour will breaks the magic of the platemail, and you try to flee...",
-        FALSE, ch, 0, 0, TO_CHAR);
+      act("&+WYour will breaks the magic of the platemail, and you try to flee...", FALSE, ch, 0, 0, TO_CHAR);
   }
 
   if(!MIN_POS(ch, POS_STANDING + STAT_RESTING))
   {
     /* not standing, flee fails, but they stand (if they can) */
     SET_POS(ch, POS_STANDING + GET_STAT(ch));
-    act("Looking panicked, $n scrambles madly to $s feet!",
-      TRUE, ch, 0, 0, TO_ROOM);
+    act("Looking panicked, $n scrambles madly to $s feet!", TRUE, ch, 0, 0, TO_ROOM);
     send_to_char("You scramble madly to your feet!\n", ch);
     return;
   }
@@ -2575,7 +2560,7 @@ void do_flee(P_char ch, char *argument, int cmd)
       
       if(number(1, 100) < percent_chance)
       {
-        send_to_char("Your mount tries to flee, but your manage to calm it.\n", rider);
+        send_to_char("Your mount tries to flee, but you manage to calm it.\n", rider);
         return;
       }
     }
@@ -2602,7 +2587,7 @@ void do_flee(P_char ch, char *argument, int cmd)
     (GET_CHAR_SKILL(ch, SKILL_EXPEDITIOUS_RETREAT) > number(1, 100))))
       expeditious = true;
   
-  if(*arg && IS_PC(ch))
+  if(*arg && IS_PC(ch) && IS_FIGHTING(ch))
   {
     if(GET_CLASS(ch, CLASS_ROGUE))
     {
@@ -2642,12 +2627,9 @@ void do_flee(P_char ch, char *argument, int cmd)
   was_fighting = ch->specials.fighting;
   atts = NumAttackers(ch);
 
-  chance_when_engaged = MIN_CHANCE_TO_FLEE +
-    MIN(3,
-        available_exits - 1) * (MAX_CHANCE_TO_FLEE - MIN_CHANCE_TO_FLEE) / 3;
+  chance_when_engaged = minflee + MIN(3, available_exits - 1) * (maxflee - minflee) / 3;
 
-  succeded = attempted_dir >= 0 && (!was_fighting ||
-                                    (number(0, 100) < chance_when_engaged));
+  succeded = attempted_dir >= 0 && (!was_fighting || (number(0, 100) < chance_when_engaged));
 
   if(IS_AFFECTED(ch, AFF_SNEAK))
     REMOVE_BIT(ch->specials.affected_by, AFF_SNEAK);
@@ -2713,7 +2695,7 @@ void do_flee(P_char ch, char *argument, int cmd)
       StartRegen(ch, EVENT_MOVE_REGEN);
       
       if(GET_VITALITY(ch) > 0)
-        GET_VITALITY(ch) = MAX(0, (GET_VITALITY(ch) - (number(10, 15))));
+        GET_VITALITY(ch) = MAX(0, (GET_VITALITY(ch) - (number(20, 35))));
     }
     else if(GET_CLASS(ch, CLASS_ROGUE) &&
            GET_VITALITY(ch) > 0)
@@ -2731,7 +2713,7 @@ void do_flee(P_char ch, char *argument, int cmd)
       /*if they survive, they are gonna be somewhat twitchy */
       bzero(&af, sizeof(af));
       af.type = SKILL_AWARENESS;
-      af.duration = 1;
+      af.duration = 10 * PULSE_VIOLENCE;
       af.bitvector = AFF_AWARE;
       affect_to_char(ch, &af);
     }
@@ -2759,7 +2741,7 @@ void do_flee(P_char ch, char *argument, int cmd)
      * impossible chases
      */
     disarm_char_events(was_fighting, event_mob_mundane);
-    add_event(event_mob_mundane, 2, was_fighting, 0, 0, 0, 0, 0);
+    add_event(event_mob_mundane, 3, was_fighting, 0, 0, 0, 0, 0);
   }
 }
 

@@ -66,9 +66,9 @@
 #define MAX_TRACK_DIST         32 /* old limit for tracking */
 #define SHADOW_AWARE_PENALTY   20 /* penalty to shadowers skill, if target is 'aware' */
 #define MAX_TROPHY_SIZE        75 /* max number of mobs to keep in trophy array */
-#define MIN_CHANCE_TO_FLEE      78  /* this is the chance to flee from room with 1 exit*/
-#define MAX_CHANCE_TO_FLEE      86  /* this is the chance to flee from room with 4+ exits*/
-#define MAX_CHANCE_TO_CONTROL_FLEE 95  /* this is the chance for controlled flee with skill at 100 */
+#define MIN_FLEE_CHANCE        30  /* this is the chance to flee from room with 1 exit*/
+#define MAX_FLEE_CHANCE        85  /* this is the chance to flee from room with 4+ exits*/
+#define MAX_CONTROL_FLEE       99  /* this is the chance for controlled flee with skill at 100 */
 #define MAX_PETS                5 /* number of pets we can save for reloading */
 
 /* time factors */

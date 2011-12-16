@@ -4181,7 +4181,7 @@ void spell_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj
   else
     mod = 1;
   
-  if(!affected_by_spell(victim, SPELL_ARMOR))
+  if(!ARMORED(victim))
   {
     bzero(&af, sizeof(af));
     af.type = SPELL_ARMOR;

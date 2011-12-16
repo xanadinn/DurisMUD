@@ -1429,33 +1429,30 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
     notch_skill(ch, SKILL_SNEAK, 20);
   }
   
-/*
-  if (affected_by_spell(ch, TAG_PVPDELAY) ){
-    send_to_char
-          ("The &+Radrenaline&n is pumping through you like mad, this sure is exhausting...&n\n", ch);
+  if(affected_by_spell(ch, TAG_PVPDELAY))
+  {
+    send_to_char("The &+Radrenaline&n is pumping through you like mad, this sure is exhausting...&n\n", ch);
     
-    if(IS_PC(ch) &&  IS_THIEF(ch) && ( ch->only.pc->pc_timer[1] + 3 > time(NULL) ) )
-      send_to_char
-                ("...but as the master of close combat, you take no notice!!&n\n", ch);
+    if(IS_PC(ch) && 
+       IS_THIEF(ch) && 
+       (ch->only.pc->pc_timer[1] + 5 > time(NULL)))
+      send_to_char("...but as the master of close combat, you take no notice!!&n\n", ch);
     else
-      need_movement += number(1,2);
+      need_movement += number(1, 2);
   }
-*/
 
   /* pc_timer[1] gets set on successful flee */
- /*
-  if (IS_PC(ch) &&
-      (ch->only.pc->pc_timer[1] + (IS_THIEF(ch) ? 5 : 10) > time(NULL)))
+  if(IS_PC(ch) && (ch->only.pc->pc_timer[1] + (IS_THIEF(ch) ? 5 : 10) > time(NULL)))
   {
     if (need_movement < 4)
       need_movement += 4;
     else
-      need_movement <<= 1;
+      need_movement << 1;
 
     send_to_char
       ("Panicking, you don't exactly take the most efficient route..\n", ch);
   }
-*/
+
   if (mount)
   {
     if ((GET_VITALITY(mount) < need_movement) && !IS_TRUSTED(ch) &&
@@ -1510,24 +1507,26 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
         continue;
       amsg[0] = '\0';
 
-      for (flags & MVFLG_FLEE ? (has_innate(ch, INNATE_DECEPTIVE_FLEE) ? deceptnum = 9 : deceptnum = 0) : deceptnum = 0; deceptnum >= 0; deceptnum--)
+      deceptnum = has_innate(ch, INNATE_DECEPTIVE_FLEE) ? 9 : 0;
+
+      for(flags & MVFLG_FLEE ? deceptnum : deceptnum = 0; deceptnum >= 0; deceptnum--)
       {
         if (has_innate(ch, INNATE_DECEPTIVE_FLEE))
           if (!CAN_GO(ch, deceptnum))
             continue;
 
-        leave_message(ch, tch, flags & MVFLG_FLEE ? (has_innate(ch, INNATE_DECEPTIVE_FLEE) ? deceptnum : exitnumb) : exitnumb, amsg);
+        leave_message(ch, tch, flags & MVFLG_FLEE ? (deceptnum > 0 ? deceptnum : exitnumb) : exitnumb, amsg);
         
         if (mount)
         {
-          act(amsg, TRUE, ch, mount->lobj?mount->lobj->Visible_Object():0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
+          act(amsg, TRUE, ch, mount->lobj ? mount->lobj->Visible_Object() : 0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
         }
         else if(!IS_AFFECTED(ch, AFF_SNEAK) &&
                 !UD_SNEAK(ch) &&
                 !OUTDOOR_SNEAK(ch) &&
 		!SWAMP_SNEAK(ch))
         {
-          act(amsg, TRUE, ch, ch->lobj?ch->lobj->Visible_Object():0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
+          act(amsg, TRUE, ch, ch->lobj ? ch->lobj->Visible_Object() : 0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
         }
         else
         {
@@ -1538,7 +1537,7 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
             IS_AFFECTED(tch, AFF_SKILL_AWARE)) &&
             StatSave(tch, APPLY_INT, -4)))
           {    
-            act(amsg, TRUE,ch,ch->lobj?ch->lobj->Visible_Object():0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
+            act(amsg, TRUE, ch, ch->lobj ? ch->lobj->Visible_Object() : 0, tch, TO_VICT | ACT_IGNORE_ZCOORD);
           }
         }
       }
