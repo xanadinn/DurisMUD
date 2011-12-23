@@ -123,7 +123,7 @@ struct hold_data TmpAffs;
 
 int apply_ac(P_char ch, int eq_pos)
 {
-  int value;
+  int value, i;
 
   if (!(ch && (eq_pos >= 0) && (eq_pos < MAX_WEAR) && ch->equipment[eq_pos]))
   {
@@ -133,7 +133,15 @@ int apply_ac(P_char ch, int eq_pos)
 
   if (!GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_ARMOR &&
       !GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_SHIELD)
-    return 0;
+  {
+    if(GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_WORN &&
+       (ch->equipment[eq_pos]->affected[0].location == APPLY_AC ||
+        ch->equipment[eq_pos]->affected[1].location == APPLY_AC ||
+        ch->equipment[eq_pos]->affected[2].location == APPLY_AC))
+    {}
+    else
+     return 0;
+  }
 
   switch (ch->equipment[eq_pos]->material) {
     case MAT_UNDEFINED:
@@ -265,6 +273,18 @@ int apply_ac(P_char ch, int eq_pos)
       break;
     default:
       return 0;
+  }
+
+  if(GET_ITEM_TYPE(ch->equipment[eq_pos]) == ITEM_WORN)
+  {
+    for(i = 0;i < 3;i++)
+    {
+      if(ch->equipment[eq_pos]->affected[i].location == APPLY_AC)
+        value += ch->equipment[eq_pos]->affected[i].modifier;
+    }
+    
+    if(value > MAX_AC_APPLY)
+      value = MAX_AC_APPLY;
   }
 
   return BOUNDED(-250, value * (int) ((float) ch->equipment[eq_pos]->condition / ch->equipment[eq_pos]->max_condition), 250);
@@ -1378,10 +1398,10 @@ void all_affects(P_char ch, int mode)
   }
 
   /* HERE is the place to go into TmpAffs and tone things down */
-  TmpAffs.Hits = BOUNDED(0, TmpAffs.Hits, GET_LEVEL(ch) * 3);
+ // TmpAffs.Hits = BOUNDED(0, TmpAffs.Hits, GET_LEVEL(ch) * 3);
 
   /* better +dam handling */
-  TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
+  //TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
 
   for (af = ch->affected; af; af = af->next)
   {

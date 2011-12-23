@@ -1286,6 +1286,8 @@ struct material_data {
 
 #define RANDOM_ZONES 1 // Set to 1 to enable
 
+#define MAX_AC_APPLY 30 // used to cap benefit from items that use APPLY_AC
+
 // Tiamat stuff - OBJECT_FIRESWORN procs load leader + 4 followers 
 #define LEADER_FIRESWORN   135217
 #define FOLLOWER_FIRESWORN 135216

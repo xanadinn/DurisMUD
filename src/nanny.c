@@ -272,527 +272,178 @@ void load_obj_to_newbies(P_char ch)
 {
   int     *random;
   int     *newbie_kits[LAST_RACE][CLASS_COUNT + 1];
-
+  P_obj bandage;
   static int torch[] = { 1134, -1 };
 
-
-/*Thrikreen Basics*/
-  static int thrikreen_good_eq[] = { 613, 398, 398, 1176, 1167, -1 };
-
-  static int thrikreen_evil_eq[] = { 613, 1170, 1173, -1 };
-
 /*Minotaur Basics*/
-  static int minotaur_good_eq[] = { 398, 398, 1176, 1167, 1182, 603, -1 };
-
-  static int minotaur_evil_eq[] = { 1170, 1173, 1182, 603, -1 };
-
+  static int minotaur_good_eq[] = {398, 398, 1176, 1167, 1182, 603, -1};
+  static int minotaur_evil_eq[] = {1170, 1173, 1182, 603, -1};
 
   memset(newbie_kits, 0, sizeof(newbie_kits));
 
-  CREATE_KIT(RACE_BARBARIAN, 0, ((int[])
-                                 {
-                                 560, 603, 398, 398, 1154, 1155, -1}));
+/*Barbarian Basics*/
+  CREATE_KIT(RACE_BARBARIAN, 0, ((int[]) {560, 603, 398, 398, 1154, 1155, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_WARRIOR, ((int[])
-                                             {
-                                             1101, 1102, 1103, 1104, 1105,
-                                             1105, 1106, 1107, 1108, 1109,
-                                             -1}));
+            {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_SHAMAN, ((int[])
-                                            {
-                                            105, 106, 107, 1144, 1145, 1146,
-                                            1127, -1}));
+            {105, 106, 107, 1144, 1145, 1146, 1127, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_MERCENARY, ((int[])
-                                               {
-                                               1101, 1102, 1103, 1104, 1106,
-                                               1107, 1108, 1112, -1}));
+            {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
 
 /*Githzerai Basics*/
-  CREATE_KIT(RACE_GITHZERAI, 0, ((int[])
-                             {
-                             566, 390, 398, 398, 1152, 1153, -1}));
+  CREATE_KIT(RACE_GITHZERAI, 0, ((int[]) {566, 390, 398, 398, 1152, 1153, -1}));
 
 /*Githzerai Classes*/
-  CREATE_KIT(RACE_GITHZERAI, CLASS_SORCERER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_GITHZERAI, CLASS_CONJURER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_GITHZERAI, CLASS_MONK, ((int[])
-                                      {
-                                      1147, 1148, 1149, 1150, 1151, -1}));
-
-  CREATE_KIT(RACE_GITHZERAI, CLASS_CLERIC, ((int[])
-                                        {
-                                        1119, 1120, 1121, 1122, 1124, 1126,
-                                        1127, -1}));
-
+  CREATE_KIT(RACE_GITHZERAI, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GITHZERAI, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GITHZERAI, CLASS_MONK, ((int[]) {1147, 1148, 1149, 1150, 1151, -1}));
+  CREATE_KIT(RACE_GITHZERAI, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
 
 /*Human Basics*/
-  CREATE_KIT(RACE_HUMAN, 0, ((int[])
-                             {
-                             566, 390, 398, 398, 1152, 1153, -1}));
+  CREATE_KIT(RACE_HUMAN, 0, ((int[]) {566, 390, 398, 398, 1152, 1153, -1}));
 
 /*Human Classes*/
-  CREATE_KIT(RACE_HUMAN, CLASS_WARRIOR, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_RANGER, ((int[])
-                                        {
-                                        1101, 1102, 1103, 1104, 1105, 1105,
-                                        1106, 1107, 1113, 1113, 1114, 1115,
-                                        1116, 1117, 1117, 1117, 1117, 1117,
-                                        1117, 1117, 1117, 1117, 1117, 1118,
-                                        -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_PALADIN, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1107, 1110, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ANTIPALADIN, ((int[])
-                                             {
-                                             1101, 1102, 1103, 1107, 1111,
-                                             -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_CLERIC, ((int[])
-                                        {
-                                        1119, 1120, 1121, 1122, 1124, 1126,
-                                        1127, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_DRUID, ((int[])
-                                       {
-                                       1135, 1136, 1137, 1138, 1139, 1140,
-                                       -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_SHAMAN, ((int[])
-                                        {
-                                        105, 106, 107, 1144, 1145, 1146, 1127,
-                                        -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_SORCERER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_NECROMANCER, ((int[])
-                                             {
-                                             1112, 1114, 1115, 1141, 1142,
-                                             1143, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_CONJURER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_MONK, ((int[])
-                                      {
-                                      1147, 1148, 1149, 1150, 1151, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_MERCENARY, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1104, 1106, 1107,
-                                           1108, 1112, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_THIEF, ((int[])
-                                       {
-                                       1112, 1128, 1129, 1130, 1131, 1132,
-                                       412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ROGUE, ((int[])
-                                       {
-                                       1112, 1128, 1129, 1130, 1131, 1132,
-                                       412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ASSASSIN, ((int[])
-                                          {
-                                          1112, 1112, 1128, 1129, 1130, 1131,
-                                          -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_BARD, ((int[])
-                                      {
-                                      1112, 1128, 1129, 1130, 1131, 1134,
-                                      -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ALCHEMIST, ((int[])
-                                           {
-                                           377, 676, 52, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ILLUSIONIST, ((int[])
-                                             {
-                                             1114, 1115, 1131, 706, 735, 731,
-                                             731, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_ETHERMANCER, ((int[])
-                                             {
-                                             706, 735, 731, 731, -1}));
-
-  CREATE_KIT(RACE_HUMAN, CLASS_THEURGIST, ((int[])
-                                             {
-                                             1112, 1114, 1115, 1141, 1142,
-                                             1143, -1}));
-/*END Human Classes*/
-
+  CREATE_KIT(RACE_HUMAN, CLASS_WARRIOR, ((int[]) 
+            {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_RANGER, ((int[]) 
+            {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1113, 1113, 1114, 1115, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_PALADIN, ((int[]) {1101, 1102, 1103, 1107, 1110, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ANTIPALADIN, ((int[]) {1101, 1102, 1103, 1107, 1111, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_DRUID, ((int[]) {1135, 1136, 1137, 1138, 1139, 1140, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1146, 1127, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_NECROMANCER, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_MONK, ((int[]) {1147, 1148, 1149, 1150, 1151, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ALCHEMIST, ((int[]) {377, 676, 52, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ILLUSIONIST, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_ETHERMANCER, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HUMAN, CLASS_THEURGIST, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
 
 /*Drow Elf Basics*/
-  CREATE_KIT(RACE_DROW, 0, ((int[])
-                            {
-                            561, 604, 36016, 1156, 1157, -1}));
+  CREATE_KIT(RACE_DROW, 0, ((int[]) {561, 604, 36016, 1156, 1157, -1}));
 
 /*Drow Elf Classes*/
-  CREATE_KIT(RACE_DROW, CLASS_WARRIOR, ((int[])
-                                        {
-                                        1101, 1102, 1103, 1104, 1105, 1105,
-                                        1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1123, 1125, 1126, 1127, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_NECROMANCER, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
 
-  CREATE_KIT(RACE_DROW, CLASS_CLERIC, ((int[])
-                                       {
-                                       1119, 1120, 1121, 1123, 1125, 1126,
-                                       1127, -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_SORCERER, ((int[])
-                                         {
-                                         1114, 1115, 1131, 706, 735, 731, 731,
-                                         -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_CONJURER, ((int[])
-                                         {
-                                         1114, 1115, 1131, 706, 735, 731, 731,
-                                         -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_NECROMANCER, ((int[])
-                                            {
-                                            1112, 1114, 1115, 1141, 1142,
-                                            1143, -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_THIEF, ((int[])
-                                      {
-                                      1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                      412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_ROGUE, ((int[])
-                                      {
-                                      1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                      412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_ASSASSIN, ((int[])
-                                         {
-                                         1112, 1112, 1128, 1129, 1130, 1131,
-                                         -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_BARD, ((int[])
-                                     {
-                                     1112, 1128, 1129, 1130, 1131, 1134,
-                                     -1}));
-
-  CREATE_KIT(RACE_DROW, CLASS_REAVER, ((int[])
-                                       {
-                                       1109, 1108, 1107, 1106, 1105, 1105,
-                                       1104, 1103, 1102, 110, 604, 1157, 1156,
-                                       1115, 1114, -1}));
-
-/*END Drow Elf Classes*/
+  CREATE_KIT(RACE_DROW, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_DROW, CLASS_REAVER, ((int[]) 
+            {1109, 1108, 1107, 1106, 1105, 1105, 1104, 1103, 1102, 110, 604, 1157, 1156, 1115, 1114, -1}));
 
 /*Duergar Basics*/
-  CREATE_KIT(RACE_DUERGAR, 0, ((int[])
-                               {
-                               562, 605, 1164, 1165, -1}));
+  CREATE_KIT(RACE_DUERGAR, 0, ((int[]) {562, 605, 1164, 1165, -1}));
 
 /*Duergar Classes*/
-  CREATE_KIT(RACE_DUERGAR, CLASS_ASSASSIN, ((int[])
-                                            {
-                                            1112, 1112, 1128, 1129, 1130,
-                                            1131, -1}));
-
-  CREATE_KIT(RACE_DUERGAR, CLASS_CLERIC, ((int[])
-                                          {
-                                          1119, 1120, 1121, 1123, 1125, 1126,
-                                          1127, -1}));
-
-  CREATE_KIT(RACE_DUERGAR, CLASS_MERCENARY, ((int[])
-                                             {
-                                             1101, 1102, 1103, 1104, 1106,
-                                             1107, 1108, 1112, -1}));
-
-  CREATE_KIT(RACE_DUERGAR, CLASS_THIEF, ((int[])
-                                         {
-                                         1112, 1128, 1129, 1130, 1131, 1132,
-                                         412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_DUERGAR, CLASS_ROGUE, ((int[])
-                                         {
-                                         1112, 1128, 1129, 1130, 1131, 1132,
-                                         412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_DUERGAR, CLASS_WARRIOR, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1104, 1105, 1105,
-                                           1106, 1107, 1108, 1109, -1}));
-/*END Duergar Classes*/
+  CREATE_KIT(RACE_DUERGAR, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_DUERGAR, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1123, 1125, 1126, 1127, -1}));
+  CREATE_KIT(RACE_DUERGAR, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_DUERGAR, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_DUERGAR, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_DUERGAR, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
 
 /*Gnome Basics*/
-  CREATE_KIT(RACE_GNOME, 0, ((int[])
-                             {
-                             563, 605, 398, 398, 1166, 1167, -1}));
+  CREATE_KIT(RACE_GNOME, 0, ((int[]) {563, 605, 398, 398, 1166, 1167, -1}));
 
 /*Gnome Classes*/
-  CREATE_KIT(RACE_GNOME, CLASS_CLERIC, ((int[])
-                                        {
-                                        1119, 1120, 1121, 1122, 1124, 1126,
-                                        1127, -1}));
-  CREATE_KIT(RACE_GNOME, CLASS_CONJURER, ((int[])
-                                          {
-                                          276, 454, 436, 728, -1}));
-  CREATE_KIT(RACE_GNOME, CLASS_MERCENARY, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1104, 1106, 1107,
-                                           1108, 1112, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_CONJURER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_SORCERER, ((int[])
-                                          {
-                                          1114, 1115, 1131, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_THIEF, ((int[])
-                                       {
-                                       1112, 1128, 1129, 1130, 1131, 1132,
-                                       412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_ROGUE, ((int[])
-                                       {
-                                       1112, 1128, 1129, 1130, 1131, 1132,
-                                       412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_WARRIOR, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_SHAMAN, ((int[])
-                                        {
-                                        677, 454, 678, 679, 680, 436, 105,
-                                        106, 107, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_PSIONICIST, ((int[])
-                                            {
-                                            276, 454, 436, 728, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_ALCHEMIST, ((int[])
-                                           {
-                                           377, 676, 52, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_ILLUSIONIST, ((int[])
-                                             {
-                                             1114, 1115, 1131, 706, 735, 731,
-                                             731, -1}));
-
-  CREATE_KIT(RACE_GNOME, CLASS_ETHERMANCER, ((int[])
-                                             {
-                                             706, 735, 731, 731, -1}));
-  
-  CREATE_KIT(RACE_GNOME, CLASS_THEURGIST, ((int[])
-                                             {
-                                             1112, 1114, 1115, 1141, 1142,
-                                             1143, -1}));
-
-/*END Gnome Classes*/
-
+  CREATE_KIT(RACE_GNOME, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_CONJURER, ((int[]) {276, 454, 436, 728, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_SHAMAN, ((int[]) {677, 454, 678, 679, 680, 436, 105, 106, 107, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_PSIONICIST, ((int[]) {276, 454, 436, 728, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_ALCHEMIST, ((int[]) {377, 676, 52, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_ILLUSIONIST, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_ETHERMANCER, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GNOME, CLASS_THEURGIST, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
 
 /*Half Elf Basics*/
-  CREATE_KIT(RACE_HALFELF, 0, ((int[])
-                               {
-                               564, 607, 398, 398, 1160, 1161, -1}));
+  CREATE_KIT(RACE_HALFELF, 0, ((int[]) {564, 607, 398, 398, 1160, 1161, -1}));
 
-/*Half Elf Class EQ*/
-  CREATE_KIT(RACE_HALFELF, CLASS_WARRIOR, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1104, 1105, 1105,
-                                           1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_CONJURER, ((int[])
-                                            {
-                                            1114, 1115, 1131, 706, 735, 731,
-                                            731, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_SORCERER, ((int[])
-                                            {
-                                            1114, 1115, 1131, 706, 735, 731,
-                                            731, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_NECROMANCER, ((int[])
-                                            {
-                                            1114, 1115, 1143, 706, 735, 731,
-                                            731, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_RANGER, ((int[])
-                                          {
-                                          1101, 1102, 1103, 1104, 1105, 1105,
-                                          1106, 1107, 1113, 1113, 1114, 1115,
-                                          1116, 1117, 1117, 1117, 1117, 1117,
-                                          1117, 1117, 1117, 1117, 1117, 1118,
-                                          -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_DRUID, ((int[])
-                                         {
-                                         1135, 1136, 1137, 1138, 1139, 1140,
-                                         -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_BARD, ((int[])
-                                        {
-                                        1112, 1128, 1129, 1130, 1131, 1134,
-                                        -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_ASSASSIN, ((int[])
-                                            {
-                                            1112, 1112, 1128, 1129, 1130,
-                                            1131, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_THIEF, ((int[])
-                                         {
-                                         1112, 1128, 1129, 1130, 1131, 1132,
-                                         412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_ROGUE, ((int[])
-                                         {
-                                         1112, 1128, 1129, 1130, 1131, 1132,
-                                         412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_PALADIN, ((int[])
-	                                         {
-			                 1101, 1102, 1103, 1107, 1110, -1}));
-
-  CREATE_KIT(RACE_HALFELF, CLASS_THEURGIST, ((int[])
-                                             {
-                                             1112, 1114, 1115, 1141, 1142,
-                                             1143, -1}));
-/*END Half Elf Classes*/
+/*Half Elf Classes*/
+  CREATE_KIT(RACE_HALFELF, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_NECROMANCER, ((int[]) {1114, 1115, 1143, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_RANGER, ((int[]) 
+            {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1113, 1113, 1114, 1115, 1116, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_DRUID, ((int[]) {1135, 1136, 1137, 1138, 1139, 1140, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_PALADIN, ((int[]) {1101, 1102, 1103, 1107, 1110, -1}));
+  CREATE_KIT(RACE_HALFELF, CLASS_THEURGIST, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
 
 /*Halfling Basics*/
-  CREATE_KIT(RACE_HALFLING, 0, ((int[])
-                                {
-                                565, 608, 398, 398, 1168, 1169, -1}));
+  CREATE_KIT(RACE_HALFLING, 0, ((int[]) {565, 608, 398, 398, 1168, 1169, -1}));
 
 /*Halfling Classes*/
-  CREATE_KIT(RACE_HALFLING, CLASS_WARRIOR, ((int[])
-                                            {
-                                            1101, 1102, 1103, 1104, 1105,
-                                            1105, 1106, 1107, 1108, 1109,
-                                            -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_DRUID, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1127, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_HALFLING, CLASS_ILLUSIONIST, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
 
-  CREATE_KIT(RACE_HALFLING, CLASS_CLERIC, ((int[])
-                                           {
-                                           1119, 1120, 1121, 1122, 1124, 1126,
-                                           1127, -1}));
-  
-  CREATE_KIT(RACE_HALFLING, CLASS_DRUID, ((int[])
-                                           {
-                                           1119, 1120, 1121, 1122, 1124, 1126,
-                                           1127, -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_SHAMAN, ((int[])
-                                           {
-                                          105, 106, 107, 1144, 1145, 1127,
-                                            -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_SORCERER, ((int[])
-                                             {
-                                             1114, 1115, 1131, 706, 735, 731,
-                                             731, -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_THIEF, ((int[])
-                                          {
-                                          1112, 1128, 1129, 1130, 1131, 1132,
-                                          412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_ROGUE, ((int[])
-                                          {
-                                          1112, 1128, 1129, 1130, 1131, 1132,
-                                          412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_BARD, ((int[])
-                                         {
-                                         1112, 1128, 1129, 1130, 1131, 1134,
-                                         -1}));
-
-  CREATE_KIT(RACE_HALFLING, CLASS_ILLUSIONIST, ((int[])
-                                                {
-                                                1114, 1115, 1131, 706, 735,
-                                                731, 731, -1}));
-
-/*END Halfling Classes*/
-
+/*Thrikreen Basics*/
+  static int thrikreen_good_eq[] = {613, 398, 398, 1176, 1167, -1};
+  static int thrikreen_evil_eq[] = {613, 1170, 1173, -1};
+  static int thrikreen_gcler_eq[] = {613, 398, 398, 1176, 1167, 1122, 1124, -1};
+  static int thrikreen_ecler_eq[] = {613, 398, 398, 1170, 1173, 1123, 1125, -1};
 
 /*Thrikreen Classes*/
-  CREATE_KIT(RACE_THRIKREEN, CLASS_WARRIOR, ((int[])
-                                             {
-                                             1101, 1101, 1102, 1104, 1104,
-                                             1105, 1105, 1105, 1105, 1106,
-                                             580, 580, 580, 580, 581, 581,
-                                             -1}));
-/*END Thrikreen Classes*/
+  CREATE_KIT(RACE_THRIKREEN, CLASS_WARRIOR, ((int[]) 
+            {1101, 1101, 1102, 1104, 1104, 1105, 1105, 1105, 1105, 1106, 580, 580, 580, 580, 581, 581, -1}));
+  CREATE_KIT(RACE_THRIKREEN, CLASS_CLERIC, ((int[])
+            {1101, 1101, 1102, 1104, 1104, 1105, 1105, 1127, 693, -1})); 
+
+
+/*Minotaur Classes*/
+  CREATE_KIT(RACE_MINOTAUR, CLASS_MERCENARY, ((int[]) {1101, 1104, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_MINOTAUR, CLASS_WARRIOR, ((int[]) {1101, 1104, 1105, 1105, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_MINOTAUR, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1127, 731, 731, 1186, 706, 676, 729, 729 - 1}));
+  CREATE_KIT(RACE_MINOTAUR, CLASS_SORCERER, ((int[]) {1114, 1115, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_MINOTAUR, CLASS_BERSERKER, ((int[]) {1101, 1104, 1105, 1105, 1107, 699, 699, -1}));
+
+
+/* Harpy Classes */
+  CREATE_KIT(RACE_HARPY, CLASS_SORCERER, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HARPY, CLASS_CONJURER, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HARPY, CLASS_ETHERMANCER, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_HARPY, CLASS_BARD, ((int[]) {1128, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_HARPY, CLASS_SHAMAN, ((int[]) {731, 731, 706, 735, 107, 106, 105, 679, 388, -1}));
 
 
 /*Centaur Basics*/
-  CREATE_KIT(RACE_CENTAUR, 0, ((int[])
-                               {
-                               398, 398, 591, 590, 1178, 1179, -1}));
+  CREATE_KIT(RACE_CENTAUR, 0, ((int[]) {398, 398, 591, 590, 1178, 1179, -1}));
 
 /*Centaur Classes*/
-  CREATE_KIT(RACE_CENTAUR, CLASS_WARRIOR, ((int[])
-                                           {
-                                           1101, 1104, 1105, 1105, 1106, 1107,
-                                           1108, 1109, -1}));
-
-  CREATE_KIT(RACE_CENTAUR, CLASS_RANGER, ((int[])
-                                          {
-                                          1101, 1104, 1105, 1105, 1106, 1107,
-                                          1113, 1113, 1114, 1115, 1116, 1117,
-                                          1117, 1117, 1117, 1117, 1117, 1117,
-                                          1117, 1117, 1117, 1118, -1}));
-
-  CREATE_KIT(RACE_CENTAUR, CLASS_DRUID, ((int[])
-                                         {
-                                         1135, 1138, 1139, 1140, -1}));
-
-  CREATE_KIT(RACE_CENTAUR, CLASS_SHAMAN, ((int[])
-                                          {
-                                          105, 106, 107, 1144, 1145, 1127,
-                                          -1}));
-
-  CREATE_KIT(RACE_CENTAUR, CLASS_BARD, ((int[])
-                                        {
-                                        1112, 1128, 1130, 1134, -1}));
-
-/*END Centaur Classes*/
-
-  CREATE_KIT(RACE_HARPY, CLASS_SORCERER, ((int[])
-                                          {
-                                          706, 735, 731, 731, -1}));
-  CREATE_KIT(RACE_HARPY, CLASS_CONJURER, ((int[])
-                                          {
-                                          706, 735, 731, 731, -1}));
-  CREATE_KIT(RACE_HARPY, CLASS_ETHERMANCER, ((int[])
-                                             {
-                                             706, 735, 731, 731, -1}));
-  CREATE_KIT(RACE_HARPY, CLASS_BARD, ((int[])
-                                      {
-                                      1128, 1130, 1131, 1134, -1}));
-
-  CREATE_KIT(RACE_HARPY, CLASS_SHAMAN, ((int[])
-                                      {
-                                      731, 731, 706, 735, 107, 106, 105,
-679, 388, -1}));
-
+  CREATE_KIT(RACE_CENTAUR, CLASS_WARRIOR, ((int[]) {1101, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_CENTAUR, CLASS_RANGER, ((int[]) 
+            {1101, 1104, 1105, 1105, 1106, 1107, 1113, 1113, 1114, 1115, 1116, -1}));
+  CREATE_KIT(RACE_CENTAUR, CLASS_DRUID, ((int[]) {1135, 1138, 1139, 1140, -1}));
+  CREATE_KIT(RACE_CENTAUR, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1127, -1}));
+  CREATE_KIT(RACE_CENTAUR, CLASS_BARD, ((int[]) {1112, 1128, 1130, 1134, -1}));
 
 /*Planetbound Illithid Basic*/
   CREATE_KIT(RACE_ILLITHID, 0, ((int[])
@@ -843,56 +494,18 @@ void load_obj_to_newbies(P_char ch)
 
 
 /*Githyanki Basic*/
-  CREATE_KIT(RACE_GITHYANKI, 0, ((int[])
-                                 {
-                                 1180, 1181, -1}));
-                                 
-  CREATE_KIT(RACE_GITHYANKI, CLASS_CLERIC, ((int[])
-                                      {
-                                      1119, 1120, 1121, 1123, 1125, 1126,
-                                      1127, -1}));
+  CREATE_KIT(RACE_GITHYANKI, 0, ((int[]) {1180, 1181, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1123, 1125, 1126, 1127, -1}));
 
 /*Githyanki Classes*/
-  CREATE_KIT(RACE_GITHYANKI, CLASS_WARRIOR, ((int[])
-                                             {
-                                             1101, 1102, 1103, 1104, 1105,
-                                             1105, 1106, 1107, 1108, 1109,
-                                             -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_ANTIPALADIN, ((int[])
-                                                 {
-                                                 1101, 1102, 1103, 1107, 1111,
-                                                 -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_SORCERER, ((int[])
-                                              {
-                                              1114, 1115, 1131, 706, 735, 731,
-                                              731, -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_NECROMANCER, ((int[])
-                                                 {
-                                                 1112, 1114, 1115, 1141, 1142,
-                                                 1143, -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_BARD, ((int[])
-                                          {
-                                          1112, 1128, 1129, 1130, 1131, 1134,
-                                          -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_CONJURER, ((int[])
-                                              {
-                                              1114, 1115, 1131, 706, 735, 731,
-                                              731, -1}));
-
-  CREATE_KIT(RACE_GITHYANKI, CLASS_PSIONICIST, ((int[])
-                                                {
-                                                624, 735, -1}));
-  CREATE_KIT(RACE_GITHYANKI, CLASS_REAVER, ((int[])
-                                             {
-                                             1101, 1102, 1103, 1104, 1105,
-                                             1105, 1106, 1107, 1108, 1108,
-                                             -1}));
-/*End Githyanki Classes*/
+  CREATE_KIT(RACE_GITHYANKI, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_ANTIPALADIN, ((int[]) {1101, 1102, 1103, 1107, 1111, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_NECROMANCER, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_PSIONICIST, ((int[]) {624, 735, -1}));
+  CREATE_KIT(RACE_GITHYANKI, CLASS_REAVER, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1108, -1}));
 
 /*Phantom Basic*/
   CREATE_KIT(RACE_PHANTOM, 0, ((int[])
@@ -913,274 +526,74 @@ void load_obj_to_newbies(P_char ch)
 
 /* End Phantom Classes */
 
-/*Minotaur Classes*/
-  CREATE_KIT(RACE_MINOTAUR, CLASS_MERCENARY, ((int[])
-                                              {
-                                              1101, 1104, 1107, 1108, 1112,
-                                              -1}));
-
-  CREATE_KIT(RACE_MINOTAUR, CLASS_WARRIOR, ((int[])
-                                            {
-                                            1101, 1104, 1105, 1105, 1107,
-                                            1108, 1109, -1}));
-
-  CREATE_KIT(RACE_MINOTAUR, CLASS_SHAMAN, ((int[])
-                                           {
-                                           105, 106, 107, 1127, 731, 731,
-                                           1186, 706, 676, 729, 729 - 1}));
-
-  CREATE_KIT(RACE_MINOTAUR, CLASS_SORCERER, ((int[])
-                                          {
-                                          1114, 1115, 706, 735, 731,
-                                          731, -1}));
-
-  CREATE_KIT(RACE_MINOTAUR, CLASS_BERSERKER, ((int[])
-                                         {1101, 1104, 1105, 1105, 1107, 699, 699, -1}));
-
-/*END Minotaur Classes*/
-
-
 /*Grey Elf Basics*/
-  CREATE_KIT(RACE_GREY, 0, ((int[])
-                            {
-                            568, 610, 398, 398, 1158, 1159, -1}));
+  CREATE_KIT(RACE_GREY, 0, ((int[]) {568, 610, 398, 398, 1158, 1159, -1}));
 
 /*Grey Elf Classes*/
-  CREATE_KIT(RACE_GREY, CLASS_WARRIOR, ((int[])
-                                        {
-                                        1101, 1102, 1103, 1104, 1105, 1105,
-                                        1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_RANGER, ((int[])
-                                       {
-                                       1101, 1102, 1103, 1104, 1105, 1105,
-                                       1106, 1107, 1113, 1113, 1114, 1115,
-                                       1116, 1117, 1117, 1117, 1117, 1117,
-                                       1117, 1117, 1117, 1117, 1117, 1118,
-                                       -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_CLERIC, ((int[])
-                                       {
-                                       1119, 1120, 1121, 1122, 1124, 1126,
-                                       1127, -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_CONJURER, ((int[])
-                                         {
-                                         1114, 1115, 1131, 706, 735, 731, 731,
-                                         -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_DRUID, ((int[])
-                                      {
-                                      1135, 1136, 1137, 1138, 1139, 1140,
-                                      -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_SORCERER, ((int[])
-                                         {
-                                         1114, 1115, 1131, 706, 735, 731, 731,
-                                         -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_THIEF, ((int[])
-                                      {
-                                      1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                      412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_ROGUE, ((int[])
-                                      {
-                                      1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                      412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_GREY, CLASS_BARD, ((int[])
-                                     {
-                                     1112, 1128, 1129, 1130, 1131, 1134,
-                                     -1}));
-
-/*END Grey Elf Classes*/
-
+  CREATE_KIT(RACE_GREY, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_RANGER, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1113, 1113, 1114, 1115, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_DRUID, ((int[]) {1135, 1136, 1137, 1138, 1139, 1140, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_GREY, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
 
 /*Dwarf Basic*/
-  CREATE_KIT(RACE_MOUNTAIN, 0, ((int[])
-                                {
-                                569, 611, 398, 398, 1162, 1163, -1}));
+  CREATE_KIT(RACE_MOUNTAIN, 0, ((int[]) {569, 611, 398, 398, 1162, 1163, -1}));
 
 /*Dwarf Classes*/
-  CREATE_KIT(RACE_MOUNTAIN, CLASS_CLERIC, ((int[])
-                                           {
-                                           1119, 1120, 1121, 1122, 1124, 1126,
-                                           1127, -1}));
-
-  CREATE_KIT(RACE_MOUNTAIN, CLASS_MERCENARY, ((int[])
-                                              {
-                                              1101, 1102, 1103, 1104, 1106,
-                                              1107, 1108, 1112, -1}));
-
-  CREATE_KIT(RACE_MOUNTAIN, CLASS_THIEF, ((int[])
-                                          {
-                                          1112, 1128, 1129, 1130, 1131, 1132,
-                                          412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_MOUNTAIN, CLASS_ROGUE, ((int[])
-                                          {
-                                          1112, 1128, 1129, 1130, 1131, 1132,
-                                          412, 412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_MOUNTAIN, CLASS_WARRIOR, ((int[])
-                                            {
-                                            254, 1101, 1102, 1103, 1104, 1105,
-                                            1105, 1106, 1107, 1109, -1}));
-
-/*END Dwarf Classes*/
-
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1122, 1124, 1126, 1127, -1}));
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_MOUNTAIN, CLASS_WARRIOR, ((int[]) {254, 1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1109, -1}));
 
 /*Ogre Basic*/
-  CREATE_KIT(RACE_OGRE, 0, ((int[])
-                            {
-                            570, 612, 1170, 1183, 1183,
-                            1184, -1}));
+  CREATE_KIT(RACE_OGRE, 0, ((int[]) {570, 612, 1170, 1183, 1183, 1184, -1}));
 
 /*Ogre Classes*/
-  CREATE_KIT(RACE_OGRE, CLASS_MERCENARY, ((int[])
-                                          {
-                                          1105, 1105, 1185, -1}));
-
-  CREATE_KIT(RACE_OGRE, CLASS_SHAMAN, ((int[])
-                                       {
-                                       105, 106, 107, 1127, -1}));
-
-  CREATE_KIT(RACE_OGRE, CLASS_WARRIOR, ((int[])
-                                       {
-                                       1103, 1104, 1105, 1105,
-                                       1106, 1107, 1185, 1109, -1}));
-/*END Ogre Classes*/
+  CREATE_KIT(RACE_OGRE, CLASS_MERCENARY, ((int[]) {1105, 1105, 1185, -1}));
+  CREATE_KIT(RACE_OGRE, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1127, -1}));
+  CREATE_KIT(RACE_OGRE, CLASS_WARRIOR, ((int[]) {1103, 1104, 1105, 1105, 1106, 1107, 1185, 1109, -1}));
 
 /*Orog Basics*/
-  CREATE_KIT(RACE_OROG, 0, ((int[])
-                           {
-                           1172, 1173, 612, -1}));
+  CREATE_KIT(RACE_OROG, 0, ((int[]) {1172, 1173, 612, -1}));
                            
 /*Orog Classes*/
-  CREATE_KIT(RACE_OROG, CLASS_SHAMAN, ((int[])
-    {105, 106, 107, 676, -1}));
-
-  CREATE_KIT(RACE_OROG, CLASS_WARRIOR, ((int[])
-                                       {
-                                       1101, 1102, 1103, 1104, 1105, 1105,
-                                       1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_OROG, CLASS_CLERIC, ((int[])
-                                      {
-                                      1119, 1120, 1121, 1123, 1125, 1126,
-                                      1127, -1}));
-
-  CREATE_KIT(RACE_OROG, CLASS_BERSERKER, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 699, 1109, -1}));
-
-  CREATE_KIT(RACE_OROG, CLASS_MERCENARY, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 699, 1109, -1}));
+  CREATE_KIT(RACE_OROG, CLASS_SHAMAN, ((int[]) {1105, 106, 107, 676, -1}));
+  CREATE_KIT(RACE_OROG, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_OROG, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1123, 1125, 1126, 1127, -1}));
+  CREATE_KIT(RACE_OROG, CLASS_BERSERKER, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 699, 1109, -1}));
+  CREATE_KIT(RACE_OROG, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 699, 1109, -1}));
 
 /*Orc Basics*/
-  CREATE_KIT(RACE_ORC, 0, ((int[])
-                           {
-                           1172, 1173, 612, -1}));
+  CREATE_KIT(RACE_ORC, 0, ((int[]) {1172, 1173, 612, -1}));
 
 /*Orc Classes*/
-  CREATE_KIT(RACE_ORC, CLASS_WARRIOR, ((int[])
-                                       {
-                                       1101, 1102, 1103, 1104, 1105, 1105,
-                                       1106, 1107, 1108, 1109, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_SHAMAN, ((int[])
-                                      {
-                                      105, 106, 107, 1144, 1145, 1146, 1127,
-                                      -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_CLERIC, ((int[])
-                                      {
-                                      1119, 1120, 1121, 1123, 1125, 1126,
-                                      1127, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_NECROMANCER, ((int[])
-                                           {
-                                           1112, 1114, 1115, 1141, 1142, 1143,
-                                           -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_SORCERER, ((int[])
-                                        {
-                                        1114, 1115, 1131, 706, 735, 731, 731,
-                                        -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_MONK, ((int[])
-                                    {
-                                    1147, 1148, 1149, 1150, 1151, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_CONJURER, ((int[])
-                                        {
-                                        1114, 1115, 1131, 706, 735, 731, 731,
-                                        -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_MERCENARY, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1106, 1107,
-                                         1108, 1112, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ASSASSIN, ((int[])
-                                        {
-                                        1112, 1112, 1128, 1129, 1130, 1131,
-                                        -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ANTIPALADIN, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1107, 1111,
-                                           -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_THIEF, ((int[])
-                                     {
-                                     1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                     412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ROGUE, ((int[])
-                                     {
-                                     1112, 1128, 1129, 1130, 1131, 1132, 412,
-                                     412, 412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_BARD, ((int[])
-                                    {
-                                    1112, 1128, 1129, 1130, 1131, 1134, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ALCHEMIST, ((int[])
-                                         {
-                                         377, 676, 52, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ILLUSIONIST, ((int[])
-                                           {
-                                           1114, 1115, 1131, 706, 735, 731,
-                                           731, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_BERSERKER, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 699, 1109, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_REAVER, ((int[])
-                                         {
-                                         1109, 1108, 1107, 1106, 1105, 1104,
-                                         1103, 1102, 1101, 604, 1157, 1156,
-                                         1115, 1114, -1}));
-
-  CREATE_KIT(RACE_ORC, CLASS_ETHERMANCER, ((int[])
-                                             {
-                                             706, 735, 731, 731, -1}));
-
-
-/*END Orc Classes*/
+  CREATE_KIT(RACE_ORC, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1146, 1127, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_CLERIC, ((int[]) {1119, 1120, 1121, 1123, 1125, 1126, 1127, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_NECROMANCER, ((int[]) {1112, 1114, 1115, 1141, 1142, 1143, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_MONK, ((int[]) {1147, 1148, 1149, 1150, 1151, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ANTIPALADIN, ((int[]) {1101, 1102, 1103, 1107, 1111, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_THIEF, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 1132, 412, 412, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ALCHEMIST, ((int[]) {377, 676, 52, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ILLUSIONIST, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_BERSERKER, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 699, 1109, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_REAVER, ((int[]) 
+            {1109, 1108, 1107, 1106, 1105, 1104, 1103, 1102, 1101, 604, 1157, 1156, 1115, 1114, -1}));
+  CREATE_KIT(RACE_ORC, CLASS_ETHERMANCER, ((int[]) {706, 735, 731, 731, -1}));
 
 /*Lich Basics*/
-  CREATE_KIT(RACE_PLICH, 0, ((int[])
-                             {
-                             1172, 1173, 612, -1}));
+  CREATE_KIT(RACE_PLICH, 0, ((int[]) {1172, 1173, 612, -1}));
 
   /*Lich Classes */
   CREATE_KIT(RACE_PLICH, CLASS_ALCHEMIST, ((int[])
@@ -1374,106 +787,33 @@ void load_obj_to_newbies(P_char ch)
 
 
 /*Troll Basic*/
-  CREATE_KIT(RACE_TROLL, 0, ((int[])
-                             {
-                             1172, 1155, 571, 613, -1}));
+  CREATE_KIT(RACE_TROLL, 0, ((int[]) {1172, 1155, 571, 613, -1}));
 
 /*Troll Classes*/
-  CREATE_KIT(RACE_TROLL, CLASS_MERCENARY, ((int[])
-                                           {
-                                           1101, 1102, 1103, 1104, 1106, 1107,
-                                           1108, 1112, -1}));
-
-  CREATE_KIT(RACE_TROLL, CLASS_SHAMAN, ((int[])
-                                        {
-                                        105, 106, 107, 1144, 1145, 1146, 1127,
-                                        -1}));
-
-  CREATE_KIT(RACE_TROLL, CLASS_WARRIOR, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1104, 1105, 1105,
-                                         1106, 1107, 1108, 1109, -1}));
-
-/*END Troll Classes*/
-
+  CREATE_KIT(RACE_TROLL, CLASS_MERCENARY, ((int[]) {1101, 1102, 1103, 1104, 1106, 1107, 1108, 1112, -1}));
+  CREATE_KIT(RACE_TROLL, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1146, 1127, -1}));
+  CREATE_KIT(RACE_TROLL, CLASS_WARRIOR, ((int[]) {1101, 1102, 1103, 1104, 1105, 1105, 1106, 1107, 1108, 1109, -1}));
 
 /*Goblin Basics*/
-  CREATE_KIT(RACE_GOBLIN, 0, ((int[])
-                              {
-                              1172, 1173, 612, -1}));
+  CREATE_KIT(RACE_GOBLIN, 0, ((int[]) {1172, 1173, 612, -1}));
 
 /*Goblin Classes*/
-  CREATE_KIT(RACE_GOBLIN, CLASS_CLERIC, ((int[])
-                                         {706, 735, 731, 731, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_REAVER, ((int[])
-                                         {
-                                         1109, 1108, 1107, 1106, 1105, 1104,
-                                         1103, 1102, 1101, 604, 1157, 1156,
-                                         1115, 1114, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_WARRIOR, ((int[])
-                                          {
-                                          1109, 1108, 1107, 1106, 1105, 1104,
-                                          1103, 1102, 1101, 604, 1157, 1156, -1
-                                          }));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_ILLUSIONIST, ((int[])
-                                              {
-                                              1114, 1115, 1131, 706, 735, 731,
-                                              731, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_SORCERER, ((int[])
-                                           {
-                                           1114, 1115, 1131, 706, 735, 731,
-                                           731, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_NECROMANCER, ((int[])
-                                              {
-                                              1114, 1115, 1131, 706, 735, 731,
-                                              731, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_CONJURER, ((int[])
-                                           {
-                                           1114, 1115, 1131, 706, 735, 731,
-                                           731, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_SHAMAN, ((int[])
-                                         {
-                                         105, 106, 107, 1144, 1145, 1146,
-                                         1127, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_BARD, ((int[])
-                                       {
-                                       1112, 1128, 1129, 1130, 1131, 1134,
-                                       -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_ALCHEMIST, ((int[])
-                                            {
-                                            1108, 1107, 1106, 1105, 1104,
-                                            1103, 1102, 1101, 604, 1157, 1156, 52,
-                                            -1 }));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_ASSASSIN, ((int[])
-                                           {
-                                           1112, 1112, 1128, 1129, 1130, 1131,
-                                           -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_ROGUE, ((int[])
-                                           {
-                                           1112, 1128, 1129, 1130, 1131,
-                                           412, 412, 412, -1}));
-
-  CREATE_KIT(RACE_GOBLIN, CLASS_ETHERMANCER, ((int[])
-                                             {
-                                             706, 735, 731, 731, -1}));
-
-  CREATE_KIT(RACE_AGATHINON, CLASS_AVENGER, ((int[])
-                                         {
-                                         1101, 1102, 1103, 1107, 1110, -1}));
-
-
-/*END Goblin Classes*/
+  CREATE_KIT(RACE_GOBLIN, CLASS_CLERIC, ((int[]) {706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_REAVER, ((int[]) 
+            {1109, 1108, 1107, 1106, 1105, 1104, 1103, 1102, 1101, 604, 1157, 1156, 1115, 1114, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_WARRIOR, ((int[]) 
+            {1109, 1108, 1107, 1106, 1105, 1104, 1103, 1102, 1101, 604, 1157, 1156, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_ILLUSIONIST, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_SORCERER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_NECROMANCER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_CONJURER, ((int[]) {1114, 1115, 1131, 706, 735, 731, 731, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_SHAMAN, ((int[]) {105, 106, 107, 1144, 1145, 1146, 1127, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_BARD, ((int[]) {1112, 1128, 1129, 1130, 1131, 1134, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_ALCHEMIST, ((int[]) 
+            {1108, 1107, 1106, 1105, 1104, 1103, 1102, 1101, 604, 1157, 1156, 52, -1 }));
+  CREATE_KIT(RACE_GOBLIN, CLASS_ASSASSIN, ((int[]) {1112, 1112, 1128, 1129, 1130, 1131, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_ROGUE, ((int[]) {1112, 1128, 1129, 1130, 1131, 412, 412, 412, -1}));
+  CREATE_KIT(RACE_GOBLIN, CLASS_ETHERMANCER, ((int[]) {706, 735, 731, 731, -1}));
 
 /*Drider Basics*/
   CREATE_KIT(RACE_DRIDER, 0, ((int[])
@@ -1520,7 +860,7 @@ void load_obj_to_newbies(P_char ch)
                               {
                               1172, 1173, 612, -1}));
 
-/*Goblin Classes*/
+/*Kobold Classes*/
   CREATE_KIT(RACE_KOBOLD, CLASS_CLERIC, ((int[])
                                          {706, 735, 731, 731, -1}));
 
@@ -1594,7 +934,7 @@ void load_obj_to_newbies(P_char ch)
                              {
                              1172, 1155, 571, 613, -1}));
 
-/*Troll Classes*/
+/*Kuo Toa Classes*/
   CREATE_KIT(RACE_KUOTOA, CLASS_CLERIC, ((int[])
                                          {706, 735, 731, 731, -1}));
   
@@ -1617,8 +957,6 @@ void load_obj_to_newbies(P_char ch)
                                            {
                                            1112, 1128, 1129, 1130, 1131,
                                            412, 412, 412, -1}));
-
-/*END Troll Classes*/
 
 /* Firbolg Basic */
   CREATE_KIT(RACE_FIRBOLG, 0, ((int[])
@@ -1709,10 +1047,30 @@ void load_obj_to_newbies(P_char ch)
     LoadNewbyShit(ch, newbie_kits[GET_RACE(ch)][0]);
 
   if(GET_RACE(ch) == RACE_THRIKREEN)
+  {
     if(GET_ALIGNMENT(ch) >= 0)
-      LoadNewbyShit(ch, thrikreen_good_eq);
+    {
+      if(GET_CLASS(ch, CLASS_WARRIOR))
+      {
+        LoadNewbyShit(ch, thrikreen_good_eq);
+      }
+      else if(GET_CLASS(ch, CLASS_CLERIC))
+      {
+        LoadNewbyShit(ch, thrikreen_gcler_eq);
+      }
+    }
     else
-      LoadNewbyShit(ch, thrikreen_evil_eq);
+    {     
+      if(GET_CLASS(ch, CLASS_WARRIOR))
+      {
+        LoadNewbyShit(ch, thrikreen_evil_eq);
+      }
+      else if(GET_CLASS(ch, CLASS_CLERIC))
+      {
+        LoadNewbyShit(ch, thrikreen_ecler_eq);
+      }
+    }
+  }
 
   if(GET_RACE(ch) == RACE_MINOTAUR)
     if(GET_ALIGNMENT(ch) >= 0)
@@ -1721,30 +1079,19 @@ void load_obj_to_newbies(P_char ch)
       LoadNewbyShit(ch, minotaur_evil_eq);
 
   if(newbie_kits[GET_RACE(ch)][flag2idx(ch->player.m_class)])
-    LoadNewbyShit(ch,
-                  newbie_kits[GET_RACE(ch)][flag2idx(ch->player.m_class)]);
+    LoadNewbyShit(ch, newbie_kits[GET_RACE(ch)][flag2idx(ch->player.m_class)]);
 
-  if(world[ch->in_room].number == 29201) {
+  if(world[ch->in_room].number == 29201) 
+  {
     P_obj note = read_object(29319, VIRTUAL);
-
     obj_to_char(note, ch);
   }
-
- P_obj bandage = read_object(393, VIRTUAL);
- obj_to_char(bandage, ch);
-
- bandage = read_object(393, VIRTUAL);
-  obj_to_char(bandage, ch);
-
- bandage = read_object(393, VIRTUAL);
-  obj_to_char(bandage, ch);
-
- bandage = read_object(393, VIRTUAL);
-  obj_to_char(bandage, ch);
   
- bandage = read_object(393, VIRTUAL);
-  obj_to_char(bandage, ch);
-  
+  for(int i = 0;i < 6;i++)
+  {
+    bandage = read_object(393, VIRTUAL);
+    obj_to_char(bandage, ch);
+  }
 }
 
 #undef CREATE_KIT

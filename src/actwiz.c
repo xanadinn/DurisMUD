@@ -1945,7 +1945,6 @@ void do_stat(P_char ch, char *argument, int cmd)
   else if((*arg1 == 'o') || (*arg1 == 'O') || (*arg1 == 'i') ||
            (*arg1 == 'I'))
   {
-
     if(!*arg2)
     {
       send_to_char(STAT_SYNTAX, ch);
@@ -1966,8 +1965,8 @@ void do_stat(P_char ch, char *argument, int cmd)
         logit(LOG_DEBUG, "do_stat(): obj %d [%d] not loadable", i,
               obj_index[i].virtual_number);
         return;
-      }                         /*else
-                                   obj_to_room(t_obj, 0); */
+      }
+
       if(t_obj->name)
         strcpy(arg2, t_obj->name);
     }
@@ -2218,7 +2217,7 @@ void do_stat(P_char ch, char *argument, int cmd)
               missile_types[j->value[3] - 1].flagLong);
       break;
     case ITEM_ARMOR:
-      sprintf(buf, "&+YAC-apply: &N%d  &+rWarmth: &N%d  &+YPrestige: &N%d",
+      sprintf(buf, "&+YAC-apply(from zone file, not used): &N%d  &+rWarmth: &N%d  &+YPrestige: &N%d",
               j->value[0], j->value[1], j->value[2]);
 
 /*      sprintf(buf, "&+YDefl: &n%.2f  &+YAbs: &n%.2f",

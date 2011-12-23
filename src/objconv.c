@@ -1027,8 +1027,7 @@ void convertObj(P_obj obj)
   case ITEM_OTHER:
     /* hmm */
     break;
-  case ITEM_ARMOR:
-    /* 1 g * ac */
+/*  case ITEM_ARMOR:
     if (val0 < 10)
       cost = 100 * val0;
     else if (val0 < 20)
@@ -1039,7 +1038,9 @@ void convertObj(P_obj obj)
       cost = 1500 * val0;
     else
       cost = 2500 * val0;
-    break;
+    break;  val0 doesn't actually mean anything to armor type items atm, as all AC is pulled from material
+            type and where the item is worn, thus it's pointless to use the created "ac value" from the
+            original files to translate the supposed worth of the item - Jexni 12/23/11 */
   case ITEM_WORN:
     cost = 100;
     break;
@@ -1237,13 +1238,14 @@ void convertObj(P_obj obj)
       cost += obj->affected[i].modifier * 250;
       break;
     case APPLY_ARMOR:
-      if (obj->affected[i].modifier > -10)
+      val0 = 10000;
+      if (obj->affected[i].modifier > -5)
         cost -= 1500 * val0;
-      else if (obj->affected[i].modifier > -20)
+      else if (obj->affected[i].modifier > -10)
         cost -= 3000 * val0;
-      else if (obj->affected[i].modifier > -30)
+      else if (obj->affected[i].modifier > -15)
         cost -= 6000 * val0;
-      else if (obj->affected[i].modifier > -40)
+      else if (obj->affected[i].modifier > -20)
         cost -= 15000 * val0;
       else
         cost -= 25000 * val0;
@@ -1392,7 +1394,7 @@ void convertObj(P_obj obj)
         weight += number(5, 10);
       }
       if (isname("small", obj->name) || isname("tiny", obj->name))
-        weight -= number(5, 10);
+        weight -= BOUNDED(1, number(2, 5), 20);
     }
   }
 
@@ -1401,19 +1403,19 @@ void convertObj(P_obj obj)
       isname("gold", obj->name) || isname("platinum", obj->name) ||
       isname("jewel", obj->name) || isname("diamond", obj->name) ||
       isname("sapphire", obj->name) || isname("ruby", obj->name))
-    cost *= 2.5;
+    cost *= 5;
 
   if (isname("worn", obj->name) || isname("broken", obj->name) ||
       isname("ruined", obj->name) || isname("flesh", obj->name) ||
       isname("rusted", obj->name) || isname("rusty", obj->name) ||
       isname("poor", obj->name))
-    cost /= 2.5;
+    cost /= 5;
 
   cost = BOUNDED(1, cost, 9000000);
   if(type != ITEM_CONTAINER)
     weight = BOUNDED(0, weight, 10000);
   else
-    weight = BOUNDED(-1000, weight, 10000);
+    weight = BOUNDED(-300, weight, 10000);
 
   obj->weight = weight;
   if ((type != ITEM_INSTRUMENT) && (type != ITEM_TOTEM))
