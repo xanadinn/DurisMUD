@@ -5238,18 +5238,18 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         double bonus = BOUNDEDF(.02, (group_size / 100) + (GET_LEVEL(ch) / 1120), (double).15);
 
         dam += dam * bonus;
-        if( has_innate(ch, INNATE_WARCALLERS_FURY) && ch->group )
+        if(has_innate(ch, INNATE_WARCALLERS_FURY) && ch->group)
         {
           int count = 0;
           for(struct group_list *gl = ch->group; gl; gl = gl->next)
           {
-            if( ch != gl->ch && \
-                IS_PC(gl->ch) && \
-                ch->in_room == gl->ch->in_room && \
-                has_innate(gl->ch, INNATE_WARCALLERS_FURY) )
+            if(ch != gl->ch && \
+               IS_PC(gl->ch) && \
+               ch->in_room == gl->ch->in_room && \
+               has_innate(gl->ch, INNATE_WARCALLERS_FURY))
             count++;
           }
-          if( count > 0 )
+          if(count > 0)
           {
             count = MIN(count, (int) get_property("innate.warcallersfury.maxSteps", 3));
             dam += dam * ((double)count / 30);

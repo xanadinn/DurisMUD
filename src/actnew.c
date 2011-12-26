@@ -516,9 +516,9 @@ void do_stampede(P_char ch, char *arg, int cmd)
 // SPEC SKILL FOR WARRIOR - Kvark
 void do_war_cry(P_char ch, char *arg, int cmd)
 {
-  int      hpoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 2);
+  int      hpoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 4);
   struct group_list *gl;
-  int      dampoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 20);
+  int      dampoints = (GET_CHAR_SKILL(ch, SKILL_WAR_CRY) / 25);
   int      skl;
   struct affected_type af;
 
@@ -556,13 +556,10 @@ void do_war_cry(P_char ch, char *arg, int cmd)
         af.location = APPLY_DAMROLL;
         affect_to_char(gl->ch, &af);
         update_pos(gl->ch);
-        send_to_char("You feel like you could &+rfight&n forever.\r\n",
-                     gl->ch);
-        act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0,
-            0, TO_ROOM);
+        send_to_char("You feel like you could &+rfight&n forever.\r\n", gl->ch);
+        //act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0, 0, TO_ROOM);
         notch_skill(ch, SKILL_WAR_CRY, 15);
       }
-
     }
     /* followers */
     for (gl = gl->next; gl; gl = gl->next)
@@ -587,10 +584,8 @@ void do_war_cry(P_char ch, char *arg, int cmd)
           af.location = APPLY_DAMROLL;
           affect_to_char(gl->ch, &af);
           update_pos(gl->ch);
-          send_to_char("You feel like you could &+rfight&n forever.\r\n",
-                       gl->ch);
-          act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0,
-              0, TO_ROOM);
+          send_to_char("You feel like you could &+rfight&n forever.\r\n", gl->ch);
+          //act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, gl->ch, 0, 0, TO_ROOM);
           notch_skill(ch, SKILL_WAR_CRY, 50);
         }
       }
@@ -617,8 +612,7 @@ void do_war_cry(P_char ch, char *arg, int cmd)
       affect_to_char(ch, &af);
       update_pos(ch);
       send_to_char("You feel like you could &+rfight&n forever.\r\n", ch);
-      act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, ch, 0, 0,
-          TO_ROOM);
+     // act("&+L$n becomes alert and ready to &+rfight&n.", TRUE, ch, 0, 0, TO_ROOM);
     }
   }
 
@@ -628,7 +622,6 @@ void do_war_cry(P_char ch, char *arg, int cmd)
 
 int do_roar_of_heroes(P_char ch)
 {
-
   struct group_list *gl;
   struct affected_type af;
   
@@ -647,6 +640,7 @@ int do_roar_of_heroes(P_char ch)
   
   if(affected_by_spell(ch, SKILL_ROAR_OF_HEROES))
   {
+    send_to_char("You need to gather your strength a bit longer...\r\n", ch);
     return 0;
   }
   
@@ -663,11 +657,10 @@ int do_roar_of_heroes(P_char ch)
       {
         bzero(&af, sizeof(af));
         af.type = SKILL_ROAR_OF_HEROES;
-        af.duration = 5;
-        af.modifier = af.modifier = number(9, 13);
+        af.duration = 1;
+        af.modifier = number(9, 13);
         af.location = APPLY_CON_MAX;
         affect_to_char(gl->ch, &af);
-    
         update_pos(gl->ch);
         send_to_char("&+rAdrenaline burns your veins as the battle cry rings in your ears.&n\r\n",
         gl->ch);
@@ -727,9 +720,8 @@ int do_roar_of_heroes(P_char ch)
         {
           bzero(&af, sizeof(af));
           af.type = SKILL_ROAR_OF_HEROES;
-          af.duration = 5;
-          af.modifier = af.modifier = number(9, 13);
-
+          af.duration = 1;
+          af.modifier = number(9, 13);
           af.location = APPLY_CON_MAX;
           affect_to_char(gl->ch, &af);
 
@@ -791,8 +783,8 @@ int do_roar_of_heroes(P_char ch)
     {
       bzero(&af, sizeof(af));
       af.type = SKILL_ROAR_OF_HEROES;
-      af.duration = 5;
-      af.modifier = af.modifier = number(9, 13);
+      af.duration = 1;
+      af.modifier = number(9, 13);
       af.location = APPLY_CON_MAX;
       affect_to_char(ch, &af);
       update_pos(ch);
@@ -846,8 +838,12 @@ int do_roar_of_heroes(P_char ch)
     }
   }
 
-  return 1;
+  af.type = SKILL_ROAR_OF_HEROES;
+  af.duration = 5;
+  affect_to_char(ch, &af);
   CharWait(ch, PULSE_VIOLENCE * 1);
+
+  return FALSE;
 }
 
 void do_flurry_of_blows(P_char ch, char *arg)
