@@ -4797,8 +4797,7 @@ void do_wear(P_char ch, char *argument, int cmd)
   };
   int      loop = 0;
 
-  // Letting dragons wear eq
-  if (IS_ANIMAL(ch))
+  if(IS_ANIMAL(ch) || IS_DRAGON(ch))
   {
     send_to_char("DUH!\r\n", ch);
     return;
@@ -4916,12 +4915,6 @@ void do_wear(P_char ch, char *argument, int cmd)
             if (CAN_WEAR(obj_object, equipment_pos_table[loop][0]))
             {
               wear(ch, obj_object, equipment_pos_table[loop][1], 1);
-/*
-              if (!loop) {
-                act("$n fully equips $mself.", TRUE, ch, 0, 0, TO_ROOM);
-                act("You fully equip yourself.", FALSE, ch, 0, 0, TO_CHAR);
-              }
-*/
               break;
             }
           }
@@ -4942,7 +4935,7 @@ void do_wield(P_char ch, char *argument, int cmd)
   char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH];
   char     Gbuf3[MAX_STRING_LENGTH];
 
-  if (IS_ANIMAL(ch))
+  if (IS_ANIMAL(ch) || (IS_DRAGON(ch) && GET_LEVEL(ch) < 46))
   {
     send_to_char("DUH!\r\n", ch);
     return;
