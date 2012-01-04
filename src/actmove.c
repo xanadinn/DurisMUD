@@ -1426,7 +1426,7 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
      !mount &&
      GET_VITALITY(ch) > need_movement)
   {
-    notch_skill(ch, SKILL_SNEAK, 20);
+    notch_skill(ch, SKILL_SNEAK, 100);
   }
   
   if(affected_by_spell(ch, TAG_PVPDELAY))
@@ -2716,7 +2716,7 @@ void do_pick(P_char ch, char *argument, int cmd)
     else if ((percent > chance) || IS_SET(obj->value[1], CONT_PICKPROOF))
     {
       send_to_char("You failed to pick the lock.\n", ch);
-      notch_skill(ch, SKILL_PICK_LOCK, 3);
+      notch_skill(ch, SKILL_PICK_LOCK, 20);
       CharWait(ch, 8);
       percent =
         percent - chance + pick->value[1] - IS_SET(obj->value[1],
@@ -2770,7 +2770,7 @@ void do_pick(P_char ch, char *argument, int cmd)
              IS_SET(EXIT(ch, door)->exit_info, EX_PICKPROOF))
     {
       send_to_char("You failed to pick the lock.\n", ch);
-      notch_skill(ch, SKILL_PICK_LOCK, 3);
+      notch_skill(ch, SKILL_PICK_LOCK, 20);
       CharWait(ch, 8);
       percent = percent - chance + pick->value[1];
       if (IS_SET(EXIT(ch, door)->exit_info, EX_PICKPROOF))
@@ -3581,7 +3581,7 @@ void do_stand(P_char ch, char *argument, int cmd)
         if(skl &&
            success > 0)
         {
-          notch_skill(kala, SKILL_CRIPPLING_STRIKE, 5);
+          notch_skill(kala, SKILL_CRIPPLING_STRIKE, 10);
           if (success > 85)
           {
             act("You spin on your heel, slamming your elbow into $N's ear.",

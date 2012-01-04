@@ -268,7 +268,7 @@ bool cleave(P_char ch, P_char victim)
 {
   if(is_wielding_paladin_sword(ch) &&
       !affected_by_spell(victim, SKILL_CLEAVE) &&
-      ( notch_skill(ch, SKILL_CLEAVE, get_property("skill.notch.cleave", 10)) ||
+      (notch_skill(ch, SKILL_CLEAVE, get_property("skill.notch.cleave", 25)) ||
         number(5,100) < GET_CHAR_SKILL(ch, SKILL_CLEAVE)) )
   {
     act("You bring down $p in a mighty slash, cleaving $N from $S target!", TRUE,

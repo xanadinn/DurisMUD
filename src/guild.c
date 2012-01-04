@@ -71,13 +71,10 @@ void update_skills(P_char ch)
       ch->only.pc->skills[s].taught =
         MAX(ch->only.pc->skills[s].taught,
             MAX(SKILL_DATA_ALL(ch, s).maxlearn[0],
-                SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
-      
+                SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));      
       
       lastlvl = ch->only.pc->skills[s].learned;
-      
       shouldbe = (GET_LEVEL(ch) * 3 / 2); 
-      
       notched = lastlvl-shouldbe;
       
       //debug("should be: %d, learned so far: %d, notched above: %d", shouldbe, lastlvl, notched);
@@ -136,21 +133,19 @@ void update_skills(P_char ch)
                 SKILL_DATA_ALL(ch, s).maxlearn[ch->player.spec]));
 #endif  
   }
-  
 }
 
+#define wipe2011 1
 int notch_skill(P_char ch, int skill, int chance)
 {
   int intel, t, lvl, l, slvl, percent_chance;
   char buf[MAX_STRING_LENGTH];
 
-  if(!(ch) ||
-     !IS_ALIVE(ch))
-        return 0;
+  if(!(ch) || !IS_ALIVE(ch))
+    return 0;
   
-  if(IS_NPC(ch) ||
-     IS_TRUSTED(ch))
-        return 0;
+  if(IS_NPC(ch) || IS_TRUSTED(ch))
+    return 0;
   
   if(IS_SET(world[ch->in_room].room_flags, GUILD_ROOM | SAFE_ZONE))
     return 0;
@@ -180,18 +175,17 @@ int notch_skill(P_char ch, int skill, int chance)
   //  The following addition is for wipe 2011, where intelligence will help determine
   //  chance to notch a skill, thus making it a partially important stat for rockhead melee
   //  characters - Jexni 6/5/11  
-  intel = BOUNDED(0, 100 - GET_C_INT(ch), 70);
-  chance = chance - (intel / 10);
+  intel = BOUNDED(0, 100 - GET_C_INT(ch), 50);
+  chance = chance + (intel / 5);
 
   /* skills can be no higher than level * 2.5 + 5 */
-
-  /* level 1, max = 7 (adjusted to 10), level 10, max = 30, level 30, max = 80 */
+  /* level 1, max = 7 (adjusted to 20), level 10, max = 30, level 30, max = 80 */
 
   slvl = ((lvl * 5) / 2) + 5;
 
   if(l >= slvl)
   {
-    ch->only.pc->skills[skill].learned = MAX(10, slvl);
+    ch->only.pc->skills[skill].learned = MAX(20, slvl);
     return 0;
   }
 
@@ -199,16 +193,8 @@ int notch_skill(P_char ch, int skill, int chance)
   {
     return 0;
   }
-#if 0  
-  // some exp for using skills, chance check should
-  // exclude automatic skills
-  if(chance <= get_property("exp.maxSkillChance", 100) &&
-    GET_OPPONENT(ch))
-  {
-    gain_exp(ch, GET_OPPONENT(ch), 0, EXP_MELEE);
-  }
-#endif
-  //  The above code causes several issues.
+
+  //  Wipe2011 - The above code causes several issues.
   //  1. GET_OPPONENT only returns who you are currently tanking
   //     meaning all experience is compared to that mob, not necesssarily
   //     the one the actual skill is being compared to.
@@ -221,28 +207,34 @@ int notch_skill(P_char ch, int skill, int chance)
   {
     chance = (int)(get_property("skill.notch.hardcoreBonus", 0.6) * chance);
   }
+
+  if(affected_by_skill(ch, TAG_PHYS_SKILL_NOTCH))  // instead of simply not allowing notches, we just make it
+  {                                                // twice as hard - Jexni 1/3/12
+    chance = chance << 1;
+  }
+  else if(affected_by_skill(ch, TAG_MENTAL_SKILL_NOTCH))
+  {
+    chance = chance << 1;
+  }
   
-#if !defined(CHAOS_MUD) || (CHAOS_MUD == 0)
-  if(number(0, chance) ||
-    (l * l / 130) > number(0, 80))
+  chance = chance * (l / t); // the higher the skill, the tougher to notch and vice versa
+  
+#if !defined(CHAOS_MUD) || (CHAOS_MUD == 0) || !wipe2011
+  if(number(0, chance))
   {
     return 0;
   }
   
   if(IS_SET(skills[skill].targets, TAR_PHYS))
   {
-    if(!affect_timer(ch, 
-        get_property("timer.mins.physicalNotch", 5) * WAIT_MIN, 
-        TAG_PHYS_SKILL_NOTCH))
+    if(!affect_timer(ch, get_property("timer.mins.physicalNotch", 5) * WAIT_MIN, TAG_PHYS_SKILL_NOTCH))
     {
-      return 0;
+     // return 0;
     }
   }
-  else if(!affect_timer(ch, 
-        get_property("timer.mins.mentalNotch", 10) * WAIT_MIN, 
-        TAG_MENTAL_SKILL_NOTCH))
+  else if(!affect_timer(ch, get_property("timer.mins.mentalNotch", 10) * WAIT_MIN, TAG_MENTAL_SKILL_NOTCH))
   {
-    return 0;
+    // return 0;
   }
 #endif
 
@@ -252,8 +244,19 @@ int notch_skill(P_char ch, int skill, int chance)
 
   return 1;
 }
+#undef wipe2011
 
-int SpellCopyCost(P_char ch, int skill)
+int SpellCopyCost(P_char ch, int spell)
+{
+   int circle, cost;
+   // new simple cost formula, none of that other BS - Jexni 1/2/12
+   circle = get_spell_circle(ch, spell);
+   cost = circle * get_property("spell.cost.plat.per.circle", 1000.000);
+   return cost;
+}
+
+#if 0
+int SpellCopyCost(P_char ch, int skill)  // Old spell copy cost
 {
   int      cost = 0, c;
 
@@ -269,7 +272,7 @@ int SpellCopyCost(P_char ch, int skill)
   c *= 129;
   return c;
 }
-
+#endif
 
 int SkillRaiseCost(P_char ch, int skill)
 {
@@ -278,8 +281,8 @@ int SkillRaiseCost(P_char ch, int skill)
   if (IS_SPELL(skill))
     return SpellCopyCost(ch, skill);
 
-  s_lvl = MAX(1,ch->only.pc->skills[skill].learned / 10);
-  cost = (s_lvl*s_lvl -(2*s_lvl)) + 2;
+  s_lvl = MAX(1, ch->only.pc->skills[skill].learned / 10);
+  cost = (s_lvl * s_lvl - (2 * s_lvl)) + 2;
   cost = cost * get_property("skill.cost.practice", 1.0);
 
   /* ok, the result: cost in gp/etc stuff raising of the skill costs. */
@@ -287,7 +290,6 @@ int SkillRaiseCost(P_char ch, int skill)
     cost = 10;
   return (int) cost;
 }
-
 
 int GetClassType(P_char ch)
 {

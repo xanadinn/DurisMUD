@@ -1041,8 +1041,8 @@ bool ground_casting_check(P_char ch, int spl)
   /* check for if they were casting but just bashed, then check their groundcast skill */
   if( IS_SET(ch->specials.affected_by2, AFF2_CASTING) &&
       !IS_SET(skills[spl].targets, TAR_NOCOMBAT) &&
-      ( number(0,100) < (int) ( GET_CHAR_SKILL(ch, SKILL_GROUND_CASTING) / 2 ) ||
-        notch_skill(ch, SKILL_GROUND_CASTING, get_property("skill.notch.groundCasting", 100) ) )          
+      (number(0,100) < (int) ( GET_CHAR_SKILL(ch, SKILL_GROUND_CASTING) / 2) ||
+        notch_skill(ch, SKILL_GROUND_CASTING, get_property("skill.notch.groundCasting", 40)))          
       )
   {
     act("$n continues preparing $s spell from the ground...", FALSE, ch, 0, 0, TO_ROOM);
@@ -1940,7 +1940,7 @@ bool check_disruptive_blow(P_char ch)
 
     if (skl && success)
     {
-      notch_skill(ch, SKILL_DISRUPTIVE_BLOW, 5);
+      notch_skill(ch, SKILL_DISRUPTIVE_BLOW, 25);
       
       if (success > 75)
       {
@@ -2119,7 +2119,7 @@ void do_cast(P_char ch, char *argument, int cmd)
 
   if (weaved)
   {
-    if (notch_skill(ch, SKILL_SPELLWEAVE, get_property("skill.notch.spellWeave", 10)) || 
+    if (notch_skill(ch, SKILL_SPELLWEAVE, get_property("skill.notch.spellWeave", 40)) || 
         GET_CHAR_SKILL(ch, SKILL_SPELLWEAVE) > number(0, 100))
     {
       SET_BIT(ch->specials.affected_by2, AFF2_CASTING);
@@ -2286,27 +2286,28 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
 
-
-
   tar_obj = arg->object;
   tar_char = victim;
 
   // we don't have char-obj links, so need to check
   // whether item is still there
-  if (tar_obj) {
+  if (tar_obj) 
+  {
     bool ok = FALSE;
 
     if (IS_SET(skills[arg->spell].targets, TAR_OBJ_INV))
       ok = is_obj_in_list_vis(ch, tar_obj, ch->carrying);
     if (!ok && IS_SET(skills[arg->spell].targets, TAR_OBJ_EQUIP))
       for (int i = 0; i < MAX_WEAR; i++)
-        if (ch->equipment[i] == tar_obj) {
+        if (ch->equipment[i] == tar_obj) 
+        {
           ok = TRUE;
           break;
         }
     if (!ok && IS_SET(skills[arg->spell].targets, TAR_OBJ_ROOM))
       ok = is_obj_in_list_vis(ch, tar_obj, world[ch->in_room].contents);
-    if (!ok) {
+    if (!ok) 
+    {
       StopCasting(ch);
       return;
     }
@@ -2328,7 +2329,6 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
 
   if (arg->timeleft > 0)
   {
-
     if(IS_AGG_SPELL(arg->spell))
     {
       appear(ch);
@@ -2352,7 +2352,7 @@ void event_spellcast(P_char ch, P_char victim, P_obj obj, void *data)
         send_to_char(buf, ch);
       }
       else
-        notch_skill(ch, skl, 50);
+        notch_skill(ch, skl, 100);
     }
     i = MIN(arg->timeleft, 4);
     arg->timeleft -= i;

@@ -516,7 +516,7 @@ void do_forge(P_char ch, char *argument, int cmd)
       sprintf(buf1, "You finishing forging: %s!\n", obj->short_description); 
       send_to_char(buf1, ch);  
       wizlog(56, "%s forged %s" , GET_NAME(ch), buf1);
-      notch_skill(ch, SKILL_FORGE, 5);
+      notch_skill(ch, SKILL_FORGE, 40);
       return;
     }
     else
@@ -677,7 +677,7 @@ void do_fish(P_char ch, char *arg, int cmd)
   } 
 
   CharWait(ch, (int) (PULSE_VIOLENCE)); 
-  if (notch_skill(ch, SKILL_FISHING, get_property("skill.notch.fishing", 70)) ||
+  if (notch_skill(ch, SKILL_FISHING, get_property("skill.notch.fishing", 40)) ||
       GET_CHAR_SKILL(ch, SKILL_FISHING)/10 < number(1,100) )  
   {
     send_to_char("You didn't catch a thing..\n", ch);
@@ -842,7 +842,7 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data)
     return;
   }
 
-  if (!notch_skill(ch, SKILL_MINE, get_property("skill.notch.mining", 30)) &&
+  if (!notch_skill(ch, SKILL_MINE, get_property("skill.notch.mining", 40)) &&
       !number(0, (GET_CHAR_SKILL(ch, SKILL_MINE) * 2) ))
   {
     send_to_char("You thought you found something, but it was just worthless rock.\n", ch);  
@@ -1185,7 +1185,7 @@ void event_bandage_check(P_char ch, P_char victim, P_obj, void *data)
     return;
   }
 
-  if (!notch_skill(ch, SKILL_BANDAGE, get_property("skill.notch.bandage", 30)) &&
+  if (!notch_skill(ch, SKILL_BANDAGE, get_property("skill.notch.bandage", 20)) &&
       !number(number(0,3), (GET_CHAR_SKILL(ch, SKILL_BANDAGE) ) ))
   {
     send_to_char("You are not focused enough, you destroy the &+Wbandage&n.\n", ch);  

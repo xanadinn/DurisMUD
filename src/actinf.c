@@ -663,7 +663,7 @@ int ageCorpse(P_char ch, P_obj obj, char *s)
   if(GET_CHAR_SKILL(ch, SKILL_AGE_CORPSE) == 0)
     return FALSE;
 
-  notch_skill(ch, SKILL_AGE_CORPSE, 50);
+  notch_skill(ch, SKILL_AGE_CORPSE, 100);
 
   /* Change this to something that finds out how long
    * the corpse has left
@@ -2033,7 +2033,7 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
     send_to_char(buf, ch);
   }
   if(k)
-    notch_skill(ch, k, 20);
+    notch_skill(ch, k, 50);
 }
 
 void do_look(P_char ch, char *argument, int cmd)
@@ -3062,7 +3062,7 @@ void do_examine(P_char ch, char *argument, int cmd)
   if(tmp_object && (GET_CHAR_SKILL(ch, SKILL_LEGEND_LORE) > number(0, 110)) &&
 		  (GET_ITEM_TYPE(tmp_object) != ITEM_CONTAINER))
   {
-    notch_skill(ch, SKILL_LEGEND_LORE, 20);
+    notch_skill(ch, SKILL_LEGEND_LORE, 100);
     spell_identify(GET_LEVEL(ch), ch, 0, 0, 0, tmp_object);
     CharWait(ch, (int) (PULSE_VIOLENCE * 1.5));
     return;
@@ -5484,10 +5484,8 @@ void do_wizhelp(P_char ch, char *argument, int cmd)
 }
 
 const char *get_multiclass_name(P_char ch)
-{
-
-                                                                                                                                       
- int i = 0;
+{                                                                                                                       
+  int i = 0;
                                                                                                                                                 
   if(!IS_MULTICLASS_PC(ch))
     return "error #1";

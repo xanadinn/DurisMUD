@@ -2953,7 +2953,7 @@ int try_mangle(P_char ch, P_char victim)
   int skl = (int)(GET_CHAR_SKILL(ch, SKILL_MANGLE) / 20);
   
   if(skl < 1 ||
-    notch_skill(ch, SKILL_MANGLE, get_property("skill.notch.defensive", 30)) ||
+    notch_skill(ch, SKILL_MANGLE, get_property("skill.notch.defensive", 40)) ||
     IS_IMMOBILE(ch) ||
     IS_TRUSTED(victim) ||
     !IS_HUMANOID(victim) ||
@@ -3224,7 +3224,7 @@ int try_riposte(P_char ch, P_char victim, P_obj wpn)
     (skl = GET_CHAR_SKILL(ch, SKILL_FOLLOWUP_RIPOSTE)) > 0)
   { 
     notch_skill(ch, SKILL_FOLLOWUP_RIPOSTE,
-      get_property("skill.notch.defensive", 100));
+      get_property("skill.notch.defensive", 40));
        
     if(number(0, 1) == 0)
     {
@@ -6375,7 +6375,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   if(hit_type == -1 &&
     !IS_AFFECTED2(victim, AFF2_STUNNED) &&
     !IS_IMMOBILE(victim) &&
-    (notch_skill(victim, SKILL_QUICK_STEP, get_property("skill.notch.criticalAttack", 10)) ||
+    (notch_skill(victim, SKILL_QUICK_STEP, get_property("skill.notch.criticalAttack", 25)) ||
     GET_CHAR_SKILL(victim, SKILL_QUICK_STEP) > number(1, 100)))
   {
     bool qs = false;
@@ -6615,7 +6615,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   }
 
   if(hit_type == -1 &&
-      ( notch_skill(ch, SKILL_CRITICAL_ATTACK, get_property("skill.notch.criticalAttack", 10)) ||
+     (notch_skill(ch, SKILL_CRITICAL_ATTACK, get_property("skill.notch.criticalAttack", 25)) ||
         (1 * GET_CHAR_SKILL(ch, SKILL_CRITICAL_ATTACK)) > number(1, 100)))
   {
     critical_attack(ch, victim, msg);
@@ -6744,7 +6744,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   }
   if(vs_skill > 0 &&
       (notch_skill(ch, SKILL_VICIOUS_STRIKE,
-                  get_property("skill.notch.offensive.vicious.strike", 5)) ||
+                  get_property("skill.notch.offensive.vicious.strike", 50)) ||
       vs_skill > number(1, 1000))) // PC 15% max per attack with 100 anatomy.
   {
     if(IS_PC(ch))
@@ -6757,7 +6757,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     else if(IS_GREATER_RACE(ch))
       dam += GET_LEVEL(ch) * 1.25;
     else if(IS_NPC(ch))
-      dam += GET_LEVEL(ch);
+      dam += GET_LEVEL(ch) / 4;
 
     sprintf(attacker_msg, "You feel a powerful rush of &+rAnG&+RE&+rr&n "
             "as your%%s %s %%s.", attack_hit_text[msg].singular);
@@ -8393,7 +8393,7 @@ void perform_violence(void)
        !IS_STUNNED(opponent) &&
        !IS_BLIND(opponent))
     {
-      if(notch_skill(opponent, SKILL_BATTLE_SENSES, get_property("skill.notch.defensive", 80)))
+      if(notch_skill(opponent, SKILL_BATTLE_SENSES, get_property("skill.notch.defensive", 100)))
       { }
       else if((1 + (GET_CHAR_SKILL(opponent, SKILL_BATTLE_SENSES) / 10 )) >= number(1, 100))
       {

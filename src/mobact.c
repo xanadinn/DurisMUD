@@ -638,7 +638,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   {
     if(ch->specials.undead_spell_slots[circle] <= 0)
     {
-      send_to_char("Sorry, out of spells in this circle.\r\n", ch);
+     // send_to_char("Sorry, out of spells in this circle.\r\n", ch); sending messages to mobs is pointless!
       return (FALSE);
     }
   }
@@ -659,7 +659,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
     if(IS_SET(world[ch->in_room].room_flags, NO_MAGIC))
     {
-      send_to_char("&+WThe magic gathers, then fades away.\r\n", ch);
+     // send_to_char("&+WThe magic gathers, then fades away.\r\n", ch);
       return (FALSE);
     }
   }
@@ -739,8 +739,6 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
         }
       }
     }
-
-
   }
   /*
      The following constructs the requisite struct * spellcast_datatype
@@ -769,7 +767,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   if(lvl < 60)
     castdata.timeleft = ((number(1, 101) > (20 + 3 * GET_LEVEL(ch) / 2))
                           ? duration : (duration >> 1));
-/*  castdata->timeleft = duration; */
+
   if(lvl >= 60)
   {
     castdata.timeleft = -1;
@@ -781,7 +779,6 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
   /*  disruptive blow check */
   if(IS_FIGHTING(ch))
   {
-
     for (kala = world[ch->in_room].people; kala; kala = kala2)
     {
       kala2 = kala->next_in_room;
@@ -800,7 +797,7 @@ bool MobCastSpell(P_char ch, P_char victim, P_obj object, int spl, int lvl)
 
       if(skl && success > 0)
       {
-        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 5);
+        notch_skill(kala, SKILL_DISRUPTIVE_BLOW, 25);
         if(success > 75)
         {
           act("You lunge slamming your fist into $N's larynx.", FALSE, kala,

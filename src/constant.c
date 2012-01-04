@@ -94,32 +94,32 @@ extern const int allowed_secondary_classes[CLASS_COUNT + 1][5];
 const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
  {-1}, 
  
-  {CLASS_MERCENARY, CLASS_CLERIC, CLASS_PSIONICIST, -1},      /* War */
-  {CLASS_WARRIOR, CLASS_DRUID, -1},              /* Ran */
+  {CLASS_CLERIC, CLASS_CONJURER, -1},                         /* War */
+  {CLASS_DRUID, CLASS_SORCERER, -1},                          /* Ran */
   {-1},                         		              /* Psi */
-  {CLASS_WARRIOR, -1},          		              /* Pal */
-  {CLASS_WARRIOR, -1},          		              /* APa */
-  {CLASS_DRUID, CLASS_BARD, CLASS_WARRIOR, CLASS_SHAMAN, -1}, /* Cle */
+  {-1},                                                       /* Pal */
+  {-1},                                                       /* APa */
+  {CLASS_BARD, CLASS_WARRIOR, CLASS_ROGUE, -1},               /* Cle */
   {-1},                        	 		              /* Mon */
   {-1},                                                       /* Dru */
-  {CLASS_CONJURER, CLASS_DRUID, CLASS_CLERIC, -1},    	      /* Sha */
-  {CLASS_CONJURER, -1},         		              /* Sor */
+  {CLASS_CONJURER, CLASS_ROGUE, -1},                          /* Sha */
+  {CLASS_RANGER -1},                                          /* Sor */
   {-1},                         		              /* Nec */
-  {CLASS_SORCERER, CLASS_SHAMAN, -1},                   	              /* Con */
-  {CLASS_BARD, CLASS_MERCENARY, -1},            /* Rog */
+  {CLASS_WARRIOR, CLASS_CLERIC, CLASS_ROGUE, -1},             /* Con */
+  {CLASS_CLERIC, CLASS_CONJURER, CLASS_DRUID, -1},            /* Rog */
   {-1},                       /* Assassin not currently in game      */
-  {CLASS_ROGUE, CLASS_WARRIOR, -1},                           /* Mer */
-  {CLASS_SORCERER, CLASS_ROGUE, CLASS_ILLUSIONIST, -1},       /* Bar */
+  {-1},                                                       /* Mer */
+  {-1},                                                       /* Bar */
   {-1},    	             /* Thief not currently in game          */
   {-1},                      /* Warlock not currently in game        */
   {-1},                         		              /* MnF */
   {-1},                         		              /* Alc */
   {-1},                         		              /* Ber */
-  {CLASS_SORCERER, -1},                         	      /* Rea */
+  {CLASS_SORCERER, CLASS_PSIONICIST, -1},                     /* Rea */
   {-1},                         		              /* Ilu */
   {-1},                                                       /* Cab */
   {-1},                                  	              /* Dre */
-  {CLASS_SORCERER, CLASS_SHAMAN, -1},                         /* Eth */
+  {CLASS_WARRIOR, CLASS_ROGUE, -1},                           /* Eth */
   {-1},                                                       /* Ave */
   {-1}                                                        /* The */
 };

@@ -2504,7 +2504,7 @@ void event_scribe(P_char ch, P_char victim, P_obj obj, void *data)
       send_to_char
         ("The spell used the rest of the empty pages in the book.\n", ch);
     }
-    notch_skill(ch, SKILL_SCRIBE, 5);
+    notch_skill(ch, SKILL_SCRIBE, 10);
   }
   else
   {

@@ -1362,15 +1362,13 @@ bool can_char_multi_to_class(P_char ch,  int m_class)
 {
   int      i = 0;
 
-  
   while (allowed_secondary_classes[flag2idx(ch->player.m_class)][i] != -1)
   {
-    if (flag2idx(allowed_secondary_classes[flag2idx(ch->player.m_class)][i]) == m_class) {
-        
+    if (flag2idx(allowed_secondary_classes[flag2idx(ch->player.m_class)][i]) == m_class)
+    {
       if ((class_table[(int)GET_RACE(ch)] [m_class ]) != 5)
                return TRUE;
-               }
-
+    }
     i++;
   }
 
@@ -3955,7 +3953,6 @@ int GET_ALT_SIZE(P_char ch)
  *          limited to max of 100
  */
 
-
 ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
 {
   ClassSkillInfo dummy;
@@ -3964,7 +3961,7 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
   float pri_mod = get_property("skill.cap.multi.mod.primarySkill", 0.950);
   float sec_mod = get_property("skill.cap.multi.mod.secondarySkill", 0.750);
   
-  if (IS_MULTICLASS_PC(ch))
+  if(IS_MULTICLASS_PC(ch))
   {
     new_cap = 0;
     required_level = 0;
@@ -3974,26 +3971,26 @@ ClassSkillInfo SKILL_DATA_ALL(P_char ch, int skill)
     pri_cap = SKILL_DATA(ch, skill).maxlearn[0];
     sec_cap = SKILL_DATA2(ch, skill).maxlearn[0];
     
-    if( pri_rlevel && !sec_rlevel )
+    if(pri_rlevel && !sec_rlevel)
     {
-      new_cap = (int) ( pri_cap * pri_mod);
+      new_cap = (int) (pri_cap * pri_mod);
       required_level = pri_rlevel;
     }
-    else if( sec_rlevel && !pri_rlevel )
+    else if(sec_rlevel && !pri_rlevel)
     {
       new_cap = (int) (sec_cap * sec_mod);
       required_level = sec_rlevel + 5;
     } 
-    else if( pri_rlevel && sec_rlevel )
+    else if(pri_rlevel && sec_rlevel)
     {
-      new_cap = MAX( (int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod) );
-      required_level = MIN(pri_rlevel, (sec_rlevel+5) );
+      new_cap = MAX((int) (pri_cap * pri_mod), (int) (sec_cap * sec_mod));
+      required_level = MIN(pri_rlevel, (sec_rlevel + 5));
     }
 
     dummy.maxlearn[0] = new_cap;
     dummy.rlevel[0] = required_level;
   }
-  else if( IS_MULTICLASS_NPC(ch) )
+  else if(IS_MULTICLASS_NPC(ch))
   {
     /* because multiclass NPCs store their multiple classes in m_class, it's not possible
     to simply use SKILL_DATA(), as this just returns the skill data for the class with the
@@ -4101,7 +4098,8 @@ int GET_CHAR_SKILL_P(P_char ch, int skl)
 
   if(skllvl > 0)
   { 
-    if( IS_SET(skills[skl].category , SKILL_CATEGORY_DEFENSIVE)){ 
+    if(IS_SET(skills[skl].category, SKILL_CATEGORY_DEFENSIVE))
+    { 
        if(IS_AFFECTED5(ch, AFF5_STANCE_OFFENSIVE))
          mod = mod - 15;
        if(IS_AFFECTED5(ch, AFF5_STANCE_DEFENSIVE))
@@ -4109,12 +4107,13 @@ int GET_CHAR_SKILL_P(P_char ch, int skl)
     } 
 
    
-    if( IS_SET(skills[skl].category , SKILL_CATEGORY_OFFENSIVE))  {
+    if(IS_SET(skills[skl].category, SKILL_CATEGORY_OFFENSIVE))  
+    {
       if(IS_AFFECTED5(ch, AFF5_STANCE_OFFENSIVE))
          mod = mod + 10;
       if(IS_AFFECTED5(ch, AFF5_STANCE_DEFENSIVE)) 
          mod = mod - 10;
-   }
+    }
   }
  
    return MAX(0, (skllvl + mod) );
@@ -4431,16 +4430,15 @@ int cast_as_damage_area(P_char ch,
   for (int i = 0; i < count; i++)
   {
     P_char tch = vict_array[i];
-    if (!tch)
+    if(!tch)
       continue;
-    if (!is_char_in_room(tch, ch_room))
+    if(!is_char_in_room(tch, ch_room))
       continue;
-    if (!is_char_in_room(ch, ch_room))
+    if(!is_char_in_room(ch, ch_room))
       break;
-    if (has_innate(tch, INNATE_EVASION) &&
-	GET_SPEC(tch, CLASS_MONK, SPEC_WAYOFSNAKE))
+    if(has_innate(tch, INNATE_EVASION) && GET_SPEC(tch, CLASS_MONK, SPEC_WAYOFSNAKE))
     {
-      if ((GET_LEVEL(tch) - ((int) get_property("innate.evasion.removechance", 15.000))) > number(1,100))
+      if((int) get_property("innate.evasion.removechance", 15.000) > number(1, 100))
       {
         send_to_char("You twist out of the way avoiding the harmful magic!\n", tch);
         act ("$n twists out of the way avoiding the harmful magic!", FALSE, tch, 0, ch, TO_ROOM);
@@ -4489,17 +4487,15 @@ int cast_as_damage_area(P_char ch,
   int hit = 0;
   for (int chance = 100, i = 0; tch = vict_array[i]; i++)
   {
-    if (!is_char_in_room(tch, vict_room))
+    if(!is_char_in_room(tch, vict_room))
       continue;
-    if (!is_char_in_room(ch, ch_room))
+    if(!is_char_in_room(ch, ch_room))
       break;
-    if ((tch == ch ? ch == victim : select_func(ch, tch))
-        && (chance > number(0, 99) || IS_NPC(ch)))    
+    if((tch == ch ? ch == victim : select_func(ch, tch)) && (chance > number(0, 99) || IS_NPC(ch)))    
     {
-      if (has_innate(tch, INNATE_EVASION))
+      if(has_innate(tch, INNATE_EVASION))
       {
-  
-        if ((GET_LEVEL(tch) - ((int) get_property("innate.evasion.removechance", 15.000))) > number(1,100))
+        if(((int) get_property("innate.evasion.removechance", 15.000))) > number(1 ,100))
         {
           send_to_char("You twist out of the way avoiding the harmful magic!\n", tch);
           act ("$n twists out of the way avoiding the harmful magic!", FALSE, tch, 0, ch, TO_ROOM);

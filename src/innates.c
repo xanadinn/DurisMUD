@@ -2489,22 +2489,21 @@ void event_torm(P_char ch, P_char victim, P_obj obj, void *args)
     af.type = SPELL_DIVINE_FURY;
     af.bitvector2 = AFF2_SOULSHIELD;
     af.bitvector4 = AFF4_SANCTUARY;
-    af.duration = GET_LEVEL(ch)/18;
+    af.duration = GET_LEVEL(ch) / 8;
     affect_to_char_with_messages(ch, &af,
         "Your god no longer protects you.", "");
     return;
   }
-/* Allowing multiclass clerics get the forget special. Jan08 -Lucrot
-  if (!IS_SPECIALIZED(ch))
+
+  if (!IS_SPECIALIZED(ch) && !IS_MULTICLASS_PC(ch))
   {
     send_to_room("&+WA strong feeling of peace seems to radiate from&n "
                  "&+Wwithin the room.&n\n", ch->in_room);
     StopAllAttackers(ch);
     return;
   }
-*/
-  if(victim == ch ||
-    !IS_SPECIALIZED(ch)) 
+
+  if(victim == ch || !IS_SPECIALIZED(ch)) 
   {
     for (tch = character_list; tch; tch = tch->next)
     {
@@ -2513,9 +2512,7 @@ void event_torm(P_char ch, P_char victim, P_obj obj, void *args)
         forget(tch, ch);
       }
     }
-    send_to_char
-      ("&+WPraise Gods, for all your tresspasses have been forgiven!&n\n",
-       ch);
+    send_to_char("&+WPraise Gods, for all your tresspasses have been forgiven!&n\n", ch);
     return;
   }
 

@@ -2769,28 +2769,10 @@ void spell_earthen_maul(int level, P_char ch, char *arg, int type,
     break;
   }
 
-  dam = (int) (dam + 0.1*dam*dam_flag);
+  dam = (int) (dam + 0.1 * dam * dam_flag);
 
- // play_sound(SOUND_EARTHQUAKE1, NULL, ch->in_room, TO_ROOM);
   if(spell_damage(ch, victim, dam, SPLDAM_GENERIC, 0, &messages) != DAM_NONEDEAD)
   return;
-
-  /*
-     if(number(0, 3) || (GET_CHAR_SKILL(victim, SKILL_SAFE_FALL) >= number(1, 101))) {
-     act("$n almost dodges the &+yearth&n's maul, staying on $s feet!", TRUE, victim, 0, 0, TO_ROOM);
-     act("You almost dodge the &+yearth&n's maul, staying on your feet!", TRUE, victim, 0, 0, TO_CHAR);
-     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 32);
-     } else {
-     act("You are almost swallowed by the earth and injure yourself!",
-     FALSE, ch, 0, victim, TO_VICT);
-     act("$n crashes to the ground!", TRUE, victim, 0, 0, TO_ROOM);
-     SET_POS(victim, number(0, 2) + GET_STAT(victim));
-     if(GET_POS(victim) == POS_PRONE)
-     Stun(victim, ch, PULSE_VIOLENCE * 2, TRUE);
-     CharWait(victim, PULSE_VIOLENCE);
-     play_sound(SOUND_EARTHQUAKE2, NULL, ch->in_room, TO_ROOM);
-     }
-   */
 }
 
 
@@ -3458,7 +3440,7 @@ void spell_earthquake(int level, P_char ch, char *arg, int type,
                 0, 0, TO_ROOM);
             act("&+GYou do a &+Ydouble sommersault &+Gand land on your feet!", TRUE, tch,
                 0, 0, TO_CHAR);
-            notch_skill(tch, SKILL_SAFE_FALL, 32);
+            notch_skill(tch, SKILL_SAFE_FALL, 35);
           }
           else
           {
@@ -10820,28 +10802,10 @@ void spell_grow_spike(int level, P_char ch, char *arg, int type, P_char victim,
     break;
   }
 
-  dam = (int) (dam + 0.1*dam*dam_flag);
+  dam = (int) (dam + 0.1 *dam * dam_flag);
 
-//  play_sound(SOUND_EARTHQUAKE1, NULL, ch->in_room, TO_ROOM);
   if(spell_damage(ch, victim, dam, SPLDAM_GENERIC, dam_flag > 1 ? 0 : SPLDAM_GLOBE, &messages))
     return;
-
-  /*
-     if(number(0, 3) || (GET_CHAR_SKILL(victim, SKILL_SAFE_FALL) >= number(1, 101))) {
-     act("$n almost dodges the &+yearth&n's maul, staying on $s feet!", TRUE, victim, 0, 0, TO_ROOM);
-     act("You almost dodge the &+yearth&n's maul, staying on your feet!", TRUE, victim, 0, 0, TO_CHAR);
-     if(IS_PC(victim)) notch_skill(victim, SKILL_SAFE_FALL, 32);
-     } else {
-     act("You are almost swallowed by the earth and injure yourself!",
-     FALSE, ch, 0, victim, TO_VICT);
-     act("$n crashes to the ground!", TRUE, victim, 0, 0, TO_ROOM);
-     SET_POS(victim, number(0, 2) + GET_STAT(victim));
-     if(GET_POS(victim) == POS_PRONE)
-     Stun(victim, PULSE_VIOLENCE * 2, TRUE);
-     CharWait(victim, PULSE_VIOLENCE);
-     play_sound(SOUND_EARTHQUAKE2, NULL, ch->in_room, TO_ROOM);
-     }
-   */
 }
 
 void spell_entangle(int level, P_char ch, char *arg, int type, P_char victim,

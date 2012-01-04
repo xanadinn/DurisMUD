@@ -91,11 +91,9 @@ void do_multiclass(P_char ch, char *arg, int cmd)
   int found_one = FALSE, i;
   int min_level = get_property("multiclass.level.req.min", 41);
   
-  if (IS_MULTICLASS_PC(ch))
+  if(IS_MULTICLASS_PC(ch))
   {
-    send_to_char
-      ("You've already chosen your secondary class..  it's too late now to change your mind.\r\n",
-       ch);
+    send_to_char("You've already chosen your secondary class!\r\n", ch);
     return;
   }
 
@@ -122,7 +120,7 @@ void do_multiclass(P_char ch, char *arg, int cmd)
 
   for (i = 1; i <= CLASS_COUNT; i++)
   {
-    if (can_char_multi_to_class(ch, i ))
+    if (can_char_multi_to_class(ch, i))
     {
       char     strn[2048];
 
@@ -635,8 +633,7 @@ void do_berserk(P_char ch, char *argument, int cmd)
             affected_by_spell(ch, TAG_PVPDELAY) &&
             GET_HIT(ch) < (GET_MAX_HIT(ch) * 0.30))
     {
-      send_to_char
-        ("Your &+rwounds&n are severe, you taste &+Rblood&n and &+ysweat&n, thus coming out of your &+Rbloodlust&n is impossible!\r\n", ch);
+      send_to_char("&+RImPoSsIbLe!&n", ch);
       return;
     }
       
@@ -660,19 +657,17 @@ void do_berserk(P_char ch, char *argument, int cmd)
     return;
   }
 
-  if (GET_CHAR_SKILL(ch, SKILL_BERSERK) < number(1, 100))
+  if (GET_CHAR_SKILL(ch, SKILL_BERSERK) < number(1, 101))
   {
     send_to_char("You fail to evoke the dreaded battle rage.\r\n", ch);
-    notch_skill(ch, SKILL_BERSERK, 5);
+    notch_skill(ch, SKILL_BERSERK, 25);
   }
   else
   {
     duration = 5 * (MAX(25, (GET_CHAR_SKILL(ch, SKILL_BERSERK) + GET_LEVEL(ch))));
     
-    if(GET_CLASS(ch, CLASS_BERSERKER) ||
-       GET_RACE(ch) == RACE_MOUNTAIN ||
-       GET_RACE(ch) == RACE_DUERGAR)
-          duration *= 4;
+    if(GET_CLASS(ch, CLASS_BERSERKER))
+      duration *= GET_LEVEL(ch) / 12;
     
     berserk(ch, duration);
   }
@@ -695,8 +690,7 @@ void do_berserk(P_char ch, char *argument, int cmd)
 /* Let's see if berserk is used more often other than
  * in zones with this tweak. -Lucrot
  */
-  else if(GET_CLASS(ch, CLASS_WARRIOR) &&
-           GET_LEVEL(ch) >= 51)
+  else if(GET_CLASS(ch, CLASS_WARRIOR) && GET_LEVEL(ch) >= 51)
     CharWait(ch, 2);
   else
     CharWait(ch, 2 * PULSE_VIOLENCE);
@@ -764,7 +758,7 @@ void do_rampage(P_char ch, char *argument, int cmd)
     af.duration = 3;
 
     affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_RAMPAGE, 5);
+    notch_skill(ch, SKILL_RAMPAGE, 20);
     CharWait(ch, 8);
 
     return;
@@ -835,7 +829,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
   act
     ("$n is overwhelmed with &+RANGER&n, and starts to increase in size!\r\n",
      FALSE, ch, 0, 0, TO_ROOM);
-  notch_skill(ch, SKILL_INFURIATE, 5);
+  notch_skill(ch, SKILL_INFURIATE, 20);
   CharWait(ch, PULSE_VIOLENCE);
   }
   else
@@ -865,7 +859,7 @@ void do_infuriate(P_char ch, char *argument, int cmd)
     send_to_char("Your &+rblood boils&n and you feel your body grow to enormous proportions!\r\n", ch);
     act("$n is overwhelmed with &+RHATRED&n, and begins to grow to enormous proportions!\r\n",
     FALSE, ch, 0, 0, TO_ROOM);
-    notch_skill(ch, SKILL_INFURIATE, 5);
+    notch_skill(ch, SKILL_INFURIATE, 20);
     CharWait(ch, PULSE_VIOLENCE);
   }
 }
@@ -912,7 +906,7 @@ void do_rage(P_char ch, char *argument, int cmd)
     return;
   }
   
-  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 10));
+  notch_skill(ch, SKILL_RAGE, (int) get_property("skill.notch.offensive", 20));
         
   if(!(GET_SPEC(ch, CLASS_BERSERKER, SPEC_RAGELORD)))
     CharWait(ch, 1.5 * PULSE_VIOLENCE);
@@ -1879,9 +1873,6 @@ void do_sneak(P_char ch, char *argument, int cmd)
   percent = number(1, 101);
   CharWait(ch, PULSE_VIOLENCE);
 
-// Notching check moved to actmove.c Apr09 -Lucrot
-//  notch_skill(ch, SKILL_SNEAK, 20);
-
   bzero(&af, sizeof(af));
   af.type = SKILL_SNEAK;
   af.duration = GET_LEVEL(ch);
@@ -2011,10 +2002,10 @@ void do_hide(P_char ch, char *argument, int cmd)
     }
     if (percent > skl_lvl + agi_app[STAT_INDEX(GET_C_AGI(ch))].hide)
     {
-      notch_skill(ch, SKILL_HIDE, 5);
+      notch_skill(ch, SKILL_HIDE, 50);
       return;
     }
-    notch_skill(ch, SKILL_HIDE, 5);
+    notch_skill(ch, SKILL_HIDE, 100);
     SET_BIT(ch->specials.affected_by, AFF_HIDE);
     struct affected_type af;
 
@@ -2127,7 +2118,7 @@ void listen(P_char ch, char *argument)
       else
         sprintf(buf, "You hear an odd rustling in the immediate area.\r\n");
       send_to_char(buf, ch);
-      notch_skill(ch, SKILL_LISTEN, 1);
+      notch_skill(ch, SKILL_LISTEN, 100);
     }
     else
       send_to_char(heard_nothing, ch);
@@ -2171,7 +2162,7 @@ void listen(P_char ch, char *argument)
                   ((dir == 5) ? "below" : (dir == 4) ? "above" : "the "),
                   ((dir == 5) ? "" : (dir == 4) ? "" : dirs[dir]));
         send_to_char(buf, ch);
-        notch_skill(ch, SKILL_LISTEN, 1);
+        notch_skill(ch, SKILL_LISTEN, 100);
       }
       else
         send_to_char(heard_nothing, ch);
@@ -5722,7 +5713,7 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
   if (GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT) < number(1, 100))
   {
     send_to_char("You sniff around but cant smell anything special.\r\n", ch);
-    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
+    notch_skill(ch, SKILL_BLOOD_SCENT, 15);
     CharWait(ch, (2 * PULSE_VIOLENCE));
     return;
   }
@@ -5747,15 +5738,6 @@ void do_blood_scent(P_char ch, char *argument, int cmd)
   af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL | AFFTYPE_NOSHOW;
   af.duration = WAIT_SEC * GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT);
   affect_to_char(ch, &af);
-
-  /* I don't see the point of this...so lets comment it out!
-  if (GET_CHAR_SKILL(ch, SKILL_BLOOD_SCENT) > number(1, 100))
-  {
-    af.flags |= AFFTYPE_CUSTOM1;
-    af.duration >>= 1;
-    affect_to_char(ch, &af);
-    notch_skill(ch, SKILL_BLOOD_SCENT, 12);
-  }*/ 
 }
 
 /*void ascend_theurgist(P_char ch)

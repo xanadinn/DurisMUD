@@ -1630,11 +1630,11 @@ void event_bardsong(P_char ch, P_char victim, P_obj obj, void *data)
     }
   }
 
-  notch_skill(ch, song, 50);
+  notch_skill(ch, song, 100);
   if((instrument = has_instrument(ch)))
   {
     if(bard_get_type(song) == instrument->value[0] + INSTRUMENT_OFFSET)
-      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 50);
+      notch_skill(ch, instrument->value[0] + INSTRUMENT_OFFSET, 100);
   }
   for (af = ch->affected; af; af = af2)
   {

@@ -1057,7 +1057,7 @@ void do_fix(P_char ch, char *argument, int cmd)
       act("You fiddle with $p, but you fail, breaking it even more!", TRUE, ch,
           item, 0, TO_CHAR);
     }
-    //notch_skill(ch, SKILL_FIX, 15);
+    notch_skill(ch, SKILL_FIX, 40);
   }
 }
 
@@ -1190,7 +1190,7 @@ void do_smelt(P_char ch, char *arg, int cmd)
       act("&+LThe furnace hums with activity!&n", FALSE, ch, 0, 0, TO_CHAR);
       act("&+LYou have created $p!", FALSE, ch, new_obj, 0, TO_CHAR);
       act("&+L$p &+Lmakes a roaring sound!&n", FALSE, 0, furnace, 0, TO_ROOM);
-      //notch_skill(ch, SKILL_SMELT, 1);
+      notch_skill(ch, SKILL_SMELT, 40);
     }
 }
 
@@ -1555,7 +1555,7 @@ void do_enchant(P_char ch, char *argument, int cmd)
     }
 
     GET_PLATINUM(ch) = GET_PLATINUM(ch) - (circle * 10);
-    //notch_skill(ch, SKILL_ENCHANT, 12);
+    notch_skill(ch, SKILL_ENCHANT, 40);
 
     act
       ("&+L$n melts some &+Wplatinum &+Lcoins in a vial of &+gacid &+Land then&n &L&+Lproceeds to carefully pour it over $s $q.&n",
