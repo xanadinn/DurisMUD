@@ -672,8 +672,8 @@ void advance_level(P_char ch, bool bypass)
 
   if (GET_LEVEL(ch) < 26)
   {
-    ch->points.base_hit += (IS_ILLITHID(ch) ? 0 :number(0, 3));
-    ch->points.base_mana += number(0, 3);
+    ch->points.base_hit += (IS_ILLITHID(ch) ? 0 :number(3, 3)); // no more hp loss for losing level
+    ch->points.base_mana += number(0, 3);                       // - Jexni 1/4/12
   }
 
   if (GET_HIT(ch) > GET_MAX_HIT(ch))
