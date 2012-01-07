@@ -1386,6 +1386,54 @@ void do_npc_commune(P_char ch)
 #define MEM_SILENT     BIT_3
 #define MEM_FULL       BIT_4
 
+// first_circle is the first circle that they actually have spells in.
+int first_circle( P_char ch )
+{
+  int lowest = MAX_CIRCLE;
+  int i, spl;
+
+  // Loop through classes
+  for(i = 0; i < CLASS_COUNT; i++)
+  {
+    // Find the int version of the class.
+    if(ch->player.m_class & (1 << i))
+    {
+      // Look through skills for the min lvl spell for the class.
+      for( spl = 0;spl < MAX_SKILLS;spl++ )
+      {
+        if( !IS_SPELL(spl) )
+          continue;
+        if(skills[spl].m_class[i].rlevel[0] && (skills[spl].m_class[i].rlevel[0] <= lowest))
+          lowest = skills[spl].m_class[i].rlevel[0];
+      }
+      // Stop when found.
+      break;
+    }
+  }
+
+  if(IS_AFFECTED4(ch, AFF4_MULTI_CLASS))
+  {
+    for(i = 0; i < CLASS_COUNT; i++)
+    {
+      // Find the int version of the secondary class.
+      if(ch->player.secondary_class & (1 << i))
+      {
+        // Look through skills for the min lvl spell for the class.
+        for( spl = 0;spl < MAX_SKILLS;spl++ )
+        {
+          if( !IS_SPELL(spl) )
+            continue;
+          if(skills[spl].m_class[i].rlevel[0] && (skills[spl].m_class[i].rlevel[0] <= lowest))
+            lowest = skills[spl].m_class[i].rlevel[0];
+        }
+        break;
+      }
+    }
+  }
+
+  return lowest;
+}
+
 void do_memorize(P_char ch, char *argument, int cmd)
 {
   int      circle, i, time, shown_one, first_to_mem, spl;
@@ -1526,7 +1574,8 @@ void do_memorize(P_char ch, char *argument, int cmd)
     else
       strcat(Gbuf1, "\nYou can pray ");
     i = 0;
-    for(circle = 1; circle <= get_max_circle(ch); circle++)
+    // first_circle is the first circle that they actually have spells in.
+    for(circle = first_circle(ch); circle <= get_max_circle(ch); circle++)
       if(max_spells_in_circle(ch, circle) > memorized[circle])
       {
         if(i)

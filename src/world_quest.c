@@ -194,12 +194,18 @@ P_obj quest_item_reward(P_char ch)
   
   if(reward)
   { 
+    // Changed this to debug so it won't spam imms.
+    logit( LOG_DEBUG, "%s reward was: %s", GET_NAME(ch), reward->short_description);
+
     REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
     REMOVE_BIT(reward->extra_flags, ITEM_INVISIBLE);
     if(!number(0, 2))  // wipe 2011, quest reward items only set to !repair 33% of the time - Jexni 7/13/11
       SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
     REMOVE_BIT(reward->extra_flags, ITEM_NODROP);
   }
+  else
+    logit(LOG_DEBUG, "quest_item_reward: No reward item." );
+
   return reward;
 }
 
@@ -276,12 +282,8 @@ void quest_ask(P_char ch, P_char quest_mob)
 void quest_kill(P_char ch, P_char quest_mob)
 {
 
-  if(!(ch) ||
-     !IS_ALIVE(ch) ||
-     !(quest_mob))
-  {
+  if( !(ch) || !IS_ALIVE(ch) || !(quest_mob) )
     return;
-  }
   
   if(ch->only.pc->quest_active != 1)
     return;
@@ -316,7 +318,7 @@ void quest_kill(P_char ch, P_char quest_mob)
     send_to_char("&+WCongratulations&n&n&+W, you finished your quest!&n\r\n", ch);
     wizlog(56, "%s finished quest @%s (kill quest)", GET_NAME(ch), quest_mob->player.short_descr);
 
-    if (number(1, (10 - ch->only.pc->quest_kill_original + 1)) <= 2)
+    if (number(1, (10 - ch->only.pc->quest_kill_original + 1)) <= 2 )
     {
       P_obj reward = quest_item_reward(ch);
       obj_to_char(reward, quest_mob);
@@ -822,7 +824,9 @@ int getItemFromZone(int zone)
         list++;
         extract_obj(t_obj, FALSE);
         t_obj = NULL;
-
+        // Added a failsafe here (I doubt any zone has 1k items though).
+        if( list > 1000 )
+          break;
       }
       else
         logit(LOG_DEBUG, "do_world(): obj %d not loadable",

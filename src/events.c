@@ -660,7 +660,7 @@ void CharWait(P_char ch, int delay)
   {
     if(!IS_ALIVE(ch))
     {
-      if(ch->specials.act2, PLR2_WAIT)
+      if( IS_SET(ch->specials.act2, PLR2_WAIT) )
       {
         REMOVE_BIT(ch->specials.act2, PLR2_WAIT);
       }

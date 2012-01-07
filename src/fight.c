@@ -871,10 +871,12 @@ void update_pos(P_char ch)
     logit(LOG_EXIT, "assert: update_pos() - no ch");
     raise(SIGSEGV);
   }
+
   if((IS_NPC(ch) && ch->only.npc == NULL) ||
       (IS_PC(ch) && ch->only.pc == NULL))
     return;
 
+  // Stop fighting if not in same room.
   if(IS_FIGHTING(ch))
     if(ch->in_room != ch->specials.fighting->in_room)
       stop_fighting(ch);
@@ -1135,7 +1137,6 @@ void update_pos(P_char ch)
   /*
    * finally, set new position and status
    */
-
   SET_POS(ch, pos + stat);
   if(stat == STAT_DEAD)
   {
@@ -1171,11 +1172,29 @@ void update_pos(P_char ch)
    */
   /*
    * added check - DTS 7/11/95
+   * Fixed this to show mobs returning to default position. - Lohrr
    */
   if(IS_NPC(ch) && (stat > STAT_SLEEPING) && !IS_FIGHTING(ch) && CAN_ACT(ch)
-      && ((ch->only.npc->default_pos & STAT_MASK) >= STAT_SLEEPING) &&
-      (!HAS_MEMORY(ch) || !GET_MEMORY(ch)))
-    ch->specials.position = ch->only.npc->default_pos;
+    && (ch->only.npc->default_pos & STAT_MASK) >= STAT_SLEEPING
+    && (ch->only.npc->default_pos & 3) != GET_POS(ch)
+    && !GET_MEMORY(ch) )
+  {
+    switch( ch->only.npc->default_pos & 3 )
+    {
+      case POS_PRONE:
+        do_recline( ch, 0, 0 );
+      break;
+      case POS_KNEELING:
+        do_kneel( ch, 0, 0 );
+      break;
+      case POS_SITTING:
+        do_sit( ch, 0, 0 );
+      break;
+      case POS_STANDING:
+        do_stand( ch, 0, 0 );
+      break;
+    }
+  }
 }
 
 /*
@@ -8273,18 +8292,17 @@ void perform_violence(void)
       {
         // update PVP tag to prevent renting, instead of allowing them to rent regardless
         // of continued action - Jexni 12/31/11
-      /*  if(affected_by_spell(ch, TAG_PVPDELAY))
+        if(affected_by_spell(ch, TAG_PVPDELAY))
         {
-          for(afp = ch->affected; afp; afp = next_af);
+          for(afp = ch->affected; afp; afp = afp->next)
           {
-            next_af = afp->next;
             if(afp->type == TAG_PVPDELAY)
             {
-              afp->duration += WAIT_SEC * 20;
+              afp->duration = WAIT_SEC * 20;
             }
           }
         } 
-        else */
+        else 
         {
           bzero(&aff, sizeof(aff));
           aff.type = TAG_PVPDELAY;
@@ -8293,18 +8311,17 @@ void perform_violence(void)
           affect_to_char(ch, &aff);
         }
 
-      /*  if(affected_by_spell(opponent, TAG_PVPDELAY))
+        if(affected_by_spell(opponent, TAG_PVPDELAY))
         {
-          for(afp = opponent->affected; afp; afp = next_af);
+          for(afp = opponent->affected; afp; afp = afp->next)
           {
-            next_af = afp->next;
             if(afp->type == TAG_PVPDELAY)
             {
-              afp->duration += WAIT_SEC * 20;
+              afp->duration = WAIT_SEC * 20;
             }
           }
         }        
-        else */
+        else
         {
           bzero(&aff, sizeof(aff));
           aff.type = TAG_PVPDELAY;
