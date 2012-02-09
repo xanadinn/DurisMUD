@@ -532,14 +532,14 @@ void initialize_skills()
 
   SPELL_CREATE("corpseform", SPELL_CORPSEFORM, PULSE_SPELLCAST * 7,
                 TAR_OBJ_ROOM | TAR_NOCOMBAT,spell_corpseform);
-  SPELL_ADD(CLASS_NECROMANCER, 11);
-  SPELL_ADD(CLASS_THEURGIST, 11);
+  SPELL_ADD(CLASS_NECROMANCER, 12);
+  SPELL_ADD(CLASS_THEURGIST, 12);
 
   SPELL_CREATE_MSG("blackmantle", SPELL_BMANTLE, PULSE_SPELLCAST * 4,
                     TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                     spell_blackmantle, "&+LThe &+bnegative energy droplets &+Ldissipate harmlessly.");
-  SPELL_ADD(CLASS_NECROMANCER, 10);
-  SPELL_ADD(CLASS_THEURGIST, 10);
+  SPELL_ADD(CLASS_NECROMANCER, 11);
+  SPELL_ADD(CLASS_THEURGIST, 11);
 
   SPELL_CREATE("negative concussion blast", SPELL_NEGATIVE_CONCUSSION_BLAST, PULSE_SPELLCAST * 3 / 2,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
@@ -997,9 +997,9 @@ void initialize_skills()
   SPELL_CREATE_MSG("wither", SPELL_WITHER, PULSE_SPELLCAST, TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                    spell_wither, "You feel less &+Lwithered&n.");
   SPELL_ADD(CLASS_ANTIPALADIN, 8);
-  SPELL_ADD(CLASS_NECROMANCER, 4);
+  SPELL_ADD(CLASS_NECROMANCER, 7);
   SPEC_SPELL_ADD(CLASS_CLERIC, 6, SPEC_ZEALOT);
-  SPELL_ADD(CLASS_THEURGIST, 4);
+  SPELL_ADD(CLASS_THEURGIST, 7);
 
   SPELL_CREATE("living stone", SPELL_LIVING_STONE, PULSE_SPELLCAST * 4 / 3,
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_CHAR_RANGE | TAR_RANGE2 | TAR_AGGRO, spell_living_stone);
@@ -1059,7 +1059,7 @@ void initialize_skills()
 
   SPELL_CREATE("dimension door", SPELL_DIMENSION_DOOR, PULSE_SPELLCAST * 3 / 2,
                 TAR_CHAR_WORLD | TAR_SELF_NONO | TAR_NOCOMBAT, spell_dimension_door);
-  SPELL_ADD(CLASS_SORCERER, 5);
+  SPELL_ADD(CLASS_SORCERER, 7);
   SPELL_ADD(CLASS_CONJURER, 7);
   SPELL_ADD(CLASS_NECROMANCER, 9);
   SPELL_ADD(CLASS_BARD, 7);
@@ -1076,39 +1076,40 @@ void initialize_skills()
   SPELL_CREATE_MSG("wizard eye", SPELL_WIZARD_EYE, PULSE_SPELLCAST,
                    TAR_CHAR_WORLD | TAR_SELF_NONO | TAR_NOCOMBAT,
                    spell_wizard_eye, "Your magical eyesight dissipates.");
-  SPELL_ADD(CLASS_SORCERER, 4);
+//  SPELL_ADD(CLASS_SORCERER, 4);
 
   SPELL_CREATE_MSG("clairvoyance", SPELL_CLAIRVOYANCE, PULSE_SPELLCAST * 2,
                    TAR_CHAR_WORLD | TAR_SELF_NONO | TAR_NOCOMBAT,
                    spell_clairvoyance, "Your clairvoyant vision dissipates.");
-  SPELL_ADD(CLASS_SORCERER, 100);
-  SPELL_ADD(CLASS_CONJURER, 100);
-  SPELL_ADD(CLASS_BARD, 100);
+//  SPELL_ADD(CLASS_SORCERER, 100);
+//  SPELL_ADD(CLASS_CONJURER, 100);
+//  SPELL_ADD(CLASS_BARD, 100);
 
   SPELL_CREATE_MSG("rejuvenate major", SPELL_REJUVENATE_MAJOR, PULSE_SPELLCAST * 3,
                    TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_rejuvenate_major, "You feel &+Lolder&n.");
-  SPELL_ADD(CLASS_NECROMANCER, 6);
-  SPELL_ADD(CLASS_THEURGIST, 6);
+//  SPELL_ADD(CLASS_NECROMANCER, 6);
+//  SPELL_ADD(CLASS_THEURGIST, 6);
 
   SPELL_CREATE("age", SPELL_AGE, PULSE_SPELLCAST * 2,
                TAR_CHAR_ROOM | TAR_NOCOMBAT, spell_age);
-  SPELL_ADD(CLASS_NECROMANCER, 9);
-  SPELL_ADD(CLASS_THEURGIST, 9);
+//  SPELL_ADD(CLASS_NECROMANCER, 9);
+//  SPELL_ADD(CLASS_THEURGIST, 9);
 
   SPELL_CREATE_MSG("rejuvenate minor", SPELL_REJUVENATE_MINOR, PULSE_SPELLCAST * 2,
                    TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_rejuvenate_minor, "you feel &+Lolder&n.");
-  SPELL_ADD(CLASS_NECROMANCER, 4);
-  SPELL_ADD(CLASS_THEURGIST, 4);
+//  SPELL_ADD(CLASS_NECROMANCER, 4);
+//  SPELL_ADD(CLASS_THEURGIST, 4);
 
   SPELL_CREATE_MSG("ray of enfeeblement", SPELL_RAY_OF_ENFEEBLEMENT, PULSE_SPELLCAST,
                    TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                    spell_ray_of_enfeeblement, "You feel less feeble.");
-  SPELL_ADD(CLASS_SORCERER, 4);
+  SPELL_ADD(CLASS_SORCERER, 3);
   SPELL_ADD(CLASS_CONJURER, 4);
   SPELL_ADD(CLASS_BARD, 6);
   SPELL_ADD(CLASS_REAVER, 6);
+  SPELL_ADD(CLASS_NECROMANCER, 3);
 
   SPELL_CREATE("earthquake", SPELL_EARTHQUAKE, PULSE_SPELLCAST * 2, TAR_IGNORE | TAR_AGGRO, 
                spell_earthquake);
@@ -1177,11 +1178,11 @@ void initialize_skills()
   SPELL_ADD(CLASS_CLERIC, 5);
 
   SPELL_CREATE("teleport", SPELL_TELEPORT, PULSE_SPELLCAST, TAR_SELF_ONLY, spell_teleport);
-  SPELL_ADD(CLASS_SORCERER, 6);
-  SPELL_ADD(CLASS_NECROMANCER, 5);
+  SPELL_ADD(CLASS_SORCERER, 4);
+  SPELL_ADD(CLASS_NECROMANCER, 4);
   SPELL_ADD(CLASS_CONJURER, 6);
   SPELL_ADD(CLASS_MINDFLAYER, 4);
-  SPELL_ADD(CLASS_THEURGIST, 5);
+  SPELL_ADD(CLASS_THEURGIST, 4);
   
   SPELL_CREATE("depart", SPELL_DEPART, PULSE_SPELLCAST, TAR_SELF_ONLY, spell_depart);
   //SPELL_ADD(CLASS_PSIONICIST, 7);
@@ -1280,10 +1281,8 @@ void initialize_skills()
                cast_minor_creation);
   SPELL_ADD(CLASS_CONJURER, 1);
   SPELL_ADD(CLASS_SORCERER, 1);
-  SPELL_ADD(CLASS_NECROMANCER, 1);
   SPELL_ADD(CLASS_BARD, 4);
   SPELL_ADD(CLASS_ILLUSIONIST, 1);
-  SPELL_ADD(CLASS_THEURGIST, 1);
 
   SPELL_CREATE_MSG("pulchritude", SPELL_PULCHRITUDE, PULSE_SPELLCAST, TAR_CHAR_ROOM | TAR_NOCOMBAT | TAR_ANIMAL,
                    spell_pulchritude, "&+yYour features harden.&n");
@@ -1426,6 +1425,7 @@ void initialize_skills()
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                spell_invoke_negative_energy);
   SPELL_ADD(CLASS_WARLOCK, 3);
+  SPELL_ADD(CLASS_NECROMANCER, 3);
 
   SPELL_CREATE("purge living", SPELL_PURGE_LIVING, PULSE_SPELLCAST * 2,
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_purge_living);
@@ -1661,11 +1661,11 @@ void initialize_skills()
 
   SPELL_CREATE("raise wraith", SPELL_RAISE_WRAITH, PULSE_SPELLCAST * 3, TAR_OBJ_ROOM | TAR_NOCOMBAT, 
                spell_raise_wraith);
-  SPELL_ADD(CLASS_NECROMANCER, 7);
+  SPELL_ADD(CLASS_NECROMANCER, 8);
 
   SPELL_CREATE("raise vampire", SPELL_RAISE_VAMPIRE, PULSE_SPELLCAST * 3, TAR_OBJ_ROOM | TAR_NOCOMBAT, 
                spell_raise_vampire);
-  SPELL_ADD(CLASS_NECROMANCER, 9);
+  SPELL_ADD(CLASS_NECROMANCER, 6);
 
   SPELL_CREATE("raise lich", SPELL_RAISE_LICH, PULSE_SPELLCAST * 3,  TAR_OBJ_ROOM | TAR_NOCOMBAT, 
                spell_raise_lich);
@@ -1752,7 +1752,7 @@ void initialize_skills()
                spell_dispel_magic);
   SPELL_ADD(CLASS_CONJURER, 3);
   SPELL_ADD(CLASS_SORCERER, 4);
-  SPELL_ADD(CLASS_NECROMANCER, 3);
+  SPELL_ADD(CLASS_NECROMANCER, 4);
   SPELL_ADD(CLASS_CLERIC, 8);
   SPELL_ADD(CLASS_BARD, 6);
   SPELL_ADD(CLASS_DRUID, 7);
@@ -1760,7 +1760,7 @@ void initialize_skills()
   SPELL_ADD(CLASS_ILLUSIONIST, 2);
   SPELL_ADD(CLASS_WARLOCK, 8);
   SPELL_ADD(CLASS_ETHERMANCER, 7);
-  SPELL_ADD(CLASS_THEURGIST, 3);
+  SPELL_ADD(CLASS_THEURGIST, 4);
 
   SPELL_CREATE("tranquility", SPELL_TRANQUILITY, PULSE_SPELLCAST * 3, TAR_IGNORE, spell_tranquility);
   SPELL_ADD(CLASS_DRUID, 5);
@@ -1774,12 +1774,12 @@ void initialize_skills()
 
   SPELL_CREATE_MSG("dexterity", SPELL_DEXTERITY, PULSE_SPELLCAST * 2, TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_dexterity, "You feel less &+Ldexterous&n.");
-  SPELL_ADD(CLASS_SORCERER, 3);
+  SPELL_ADD(CLASS_SORCERER, 2);
   // SPELL_ADD(CLASS_CONJURER, 3);
   
   SPELL_CREATE_MSG("agility", SPELL_AGILITY, PULSE_SPELLCAST * 3, TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_agility, "You feel less &+cagile&n.");
-  SPELL_ADD(CLASS_SORCERER, 3);
+  SPELL_ADD(CLASS_SORCERER, 2);
   SPELL_ADD(CLASS_CONJURER, 3);
 
   SPELL_CREATE("summon", SPELL_SUMMON, PULSE_SPELLCAST * 2, TAR_CHAR_WORLD | TAR_NOCOMBAT, spell_summon);
@@ -1976,8 +1976,8 @@ void initialize_skills()
   SPELL_CREATE_MSG("protection from living", SPELL_PROTECT_FROM_LIVING, PULSE_SPELLCAST, TAR_CHAR_ROOM,
                    spell_protection_from_living, "You no longer feel safe from the &+wliving&n.");
   SPELL_ADD(CLASS_WARLOCK, 2);
-  SPELL_ADD(CLASS_NECROMANCER, 2);
-  SPELL_ADD(CLASS_THEURGIST, 2);
+  SPELL_ADD(CLASS_NECROMANCER, 4);
+  SPELL_ADD(CLASS_THEURGIST, 4);
 
   SPELL_CREATE_MSG("protection from animals", SPELL_PROTECT_FROM_ANIMAL, PULSE_SPELLCAST, TAR_CHAR_ROOM | TAR_SPIRIT,
                    spell_protection_from_animals, "You no longer feel safe from &+yanimals&n.");
@@ -2006,8 +2006,8 @@ void initialize_skills()
 
   SPELL_CREATE_MSG("levitate", SPELL_LEVITATE, PULSE_SPELLCAST, TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_levitate, "You feel heavier and stop levitating.");
-  SPELL_ADD(CLASS_NECROMANCER, 5);
-  SPELL_ADD(CLASS_SORCERER, 4);
+  SPELL_ADD(CLASS_NECROMANCER, 3);
+  SPELL_ADD(CLASS_SORCERER, 3);
   SPELL_ADD(CLASS_CONJURER, 4);
   SPELL_ADD(CLASS_ILLUSIONIST, 4);
   SPELL_ADD(CLASS_THEURGIST, 5);
@@ -2016,15 +2016,13 @@ void initialize_skills()
                    spell_fly, "You feel heavier and stop levitating.");
   SPELL_ADD(CLASS_SORCERER, 8);
   SPELL_ADD(CLASS_CONJURER, 9);
-  SPELL_ADD(CLASS_NECROMANCER, 10);
   SPELL_ADD(CLASS_ILLUSIONIST, 8);
-  SPELL_ADD(CLASS_THEURGIST, 10);
 
   SPELL_CREATE("reveal true name", SPELL_REVEAL_TRUE_NAME, PULSE_SPELLCAST * 2,
                TAR_OBJ_INV | TAR_OBJ_ROOM | TAR_OBJ_EQUIP | TAR_NOCOMBAT,
                spell_reveal_true_name);
   SPELL_ADD(CLASS_CONJURER, 4);
-  SPELL_ADD(CLASS_SORCERER, 7);
+  SPELL_ADD(CLASS_SORCERER, 6);
   SPELL_ADD(CLASS_NECROMANCER, 7);
   SPELL_ADD(CLASS_ILLUSIONIST, 7);
   SPELL_ADD(CLASS_THEURGIST, 7);
@@ -2071,10 +2069,8 @@ void initialize_skills()
   SPELL_CREATE_MSG("fireshield", SPELL_FIRESHIELD, PULSE_SPELLCAST * 3 / 2, TAR_SELF_ONLY,
                    spell_fireshield, "The &+Rburning flames &naround your body die down and fade.");
   SPELL_ADD(CLASS_CONJURER, 5);
-  SPELL_ADD(CLASS_NECROMANCER, 5);
   SPELL_ADD(CLASS_SORCERER, 6);
   SPEC_SPELL_ADD(CLASS_REAVER, 6, SPEC_FLAME_REAVER);
-  SPELL_ADD(CLASS_THEURGIST, 5);
 
   SPELL_CREATE("color spray", SPELL_COLOR_SPRAY, PULSE_SPELLCAST * 5 / 3,
                TAR_AREA | TAR_OFFAREA | TAR_AGGRO,
@@ -2135,10 +2131,10 @@ void initialize_skills()
 
   SPELL_CREATE("power word kill", SPELL_PWORD_KILL, PULSE_SPELLCAST * 2,
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_pword_kill);
-  SPELL_ADD(CLASS_SORCERER, 8);
-  SPELL_ADD(CLASS_NECROMANCER, 11);
-  SPELL_ADD(CLASS_CABALIST, 11);
-  SPELL_ADD(CLASS_THEURGIST, 11);
+//  SPELL_ADD(CLASS_SORCERER, 8);
+//  SPELL_ADD(CLASS_NECROMANCER, 11);
+//  SPELL_ADD(CLASS_CABALIST, 11);
+//  SPELL_ADD(CLASS_THEURGIST, 11);
 
   SPELL_CREATE("power word blind", SPELL_PWORD_BLIND, PULSE_SPELLCAST/2,
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_INSTACAST | TAR_AGGRO,
@@ -2148,7 +2144,7 @@ void initialize_skills()
   SPELL_CREATE_MSG("power word stun", SPELL_PWORD_STUN, PULSE_SPELLCAST * 2, 
                    TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO,
                    spell_pword_stun, "The world stops spinning.");
-  SPELL_ADD(CLASS_SORCERER, 7);
+  SPELL_ADD(CLASS_SORCERER, 8);
 
   SPELL_CREATE("unholy word", SPELL_UNHOLY_WORD, PULSE_SPELLCAST/2,
                TAR_AREA | TAR_INSTACAST | TAR_AGGRO, spell_unholy_word);
@@ -2311,6 +2307,7 @@ void initialize_skills()
   SPELL_CREATE_MSG("enlarge", SPELL_ENLARGE, PULSE_SPELLCAST * 2, TAR_CHAR_ROOM,
                    spell_enlarge, "&+MYou return to your normal size.&n");
   SPELL_ADD(CLASS_CONJURER, 11);
+  SPELL_ADD(CLASS_SORCERER, 11);
   SPELL_ADD(CLASS_BARD, 12);
 
   SPELL_CREATE_MSG("rope trick", SPELL_ROPE_TRICK, PULSE_SPELLCAST * 2, TAR_CHAR_ROOM,
@@ -2320,6 +2317,7 @@ void initialize_skills()
   SPELL_CREATE_MSG("reduce", SPELL_REDUCE, PULSE_SPELLCAST * 2, TAR_CHAR_ROOM,
                    spell_reduce, "&+MYou return to your normal size.&n");
   SPELL_ADD(CLASS_CONJURER, 11);
+  SPELL_ADD(CLASS_SORCERER, 11);
 
   SPELL_CREATE("word of command", SPELL_COMMAND, PULSE_SPELLCAST * 2, 
                TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_command);
@@ -3327,6 +3325,8 @@ void initialize_skills()
   SPELL_CREATE_MSG("globe of invulnerability", SPELL_GLOBE, PULSE_SPELLCAST * 3, TAR_CHAR_ROOM,
                    spell_globe, "Your globe shimmers and fades into thin air.");
   SPELL_ADD(CLASS_CONJURER, 8);
+  SPELL_ADD(CLASS_SORCERER, 8);
+  SPELL_ADD(CLASS_NECROMANCER, 9);
   SPELL_ADD(CLASS_SORCERER, 12);
 
   SPELL_CREATE_MSG("group globe of invulnerability", SPELL_GROUP_GLOBE, PULSE_SPELLCAST * 7, TAR_IGNORE,
@@ -3538,8 +3538,8 @@ void initialize_skills()
   SKILL_ADD(CLASS_REAVER, 11, 85);
 
   SPELL_CREATE("embalm", SPELL_EMBALM, PULSE_SPELLCAST * 3, TAR_OBJ_ROOM | TAR_NOCOMBAT, spell_embalm);
-  SPELL_ADD(CLASS_NECROMANCER, 3);
-  SPELL_ADD(CLASS_THEURGIST, 3);
+  SPELL_ADD(CLASS_NECROMANCER, 5);
+  SPELL_ADD(CLASS_THEURGIST, 5);
 
   SPELL_CREATE("mass embalm", SPELL_MASS_EMBALM, PULSE_SPELLCAST * 3, TAR_IGNORE | TAR_NOCOMBAT, spell_mass_embalm);
   SPELL_ADD(CLASS_NECROMANCER, 10);
@@ -3547,11 +3547,11 @@ void initialize_skills()
 
   SPELL_CREATE_MSG("angelic countenance", SPELL_ANGELIC_COUNTENANCE, PULSE_SPELLCAST * 2, TAR_SELF_ONLY | TAR_NOCOMBAT,
                    spell_vampiric_trance, "The holy aura about you dimishes.");
-  SPELL_ADD(CLASS_THEURGIST, 10);
+  SPELL_ADD(CLASS_THEURGIST, 11);
   
   SPELL_CREATE_MSG("vampiric trance", SPELL_VAMPIRE, PULSE_SPELLCAST * 2, TAR_SELF_ONLY | TAR_NOCOMBAT,
                    spell_vampiric_trance, "Color fades slowly into your face.");
-  SPELL_ADD(CLASS_NECROMANCER, 10);
+  SPELL_ADD(CLASS_NECROMANCER, 11);
 
   SPELL_CREATE_MSG("divine blessing", SPELL_DIVINE_BLESSING, PULSE_SPELLCAST * 3, TAR_SELF_ONLY,
                    spell_divine_blessing, "&+WYou feel detached from your weapon.");
@@ -3590,8 +3590,8 @@ void initialize_skills()
   
   SPELL_CREATE_MSG("protection from undead", SPELL_PROT_FROM_UNDEAD, PULSE_SPELLCAST * 2, TAR_CHAR_ROOM | TAR_NOCOMBAT,
                    spell_prot_from_undead, "You no longer feel safe from &+Lundead&n.");
-  SPELL_ADD(CLASS_NECROMANCER, 1);
-  SPELL_ADD(CLASS_THEURGIST, 1);
+  SPELL_ADD(CLASS_NECROMANCER, 2);
+  SPELL_ADD(CLASS_THEURGIST, 2);
   SPEC_SPELL_ADD(CLASS_CLERIC, 4, SPEC_ZEALOT);
   SPEC_SPELL_ADD(CLASS_CLERIC, 5, SPEC_HOLYMAN);
 
