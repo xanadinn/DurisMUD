@@ -1,4 +1,3 @@
-
 /*
  * ***************************************************************************
  *  file: affects.c                                          part of Duris
@@ -667,14 +666,11 @@ void apply_affs(P_char ch, int mode)
 
   ch->points.damroll = ch->points.base_damroll + ((mode) ? TmpAffs.Dam : 0);
 
-  P_obj wpn;
-
   if (IS_PC(ch) && ch->points.damroll > damroll_cap)
     ch->points.damroll = damroll_cap;
 
-#if 1 // wipe 2011
-  int strdam = (int) ((float) GET_C_STR(ch) * ((float) stat_factor[GET_RACE(ch)].Str / 100));
-  ch->points.damroll = (int) ch->points.damroll + str_app[STAT_INDEX(strdam)].todam;
+#if 1 // wipe2011
+  ch->points.damroll = ch->points.damroll + str_app[STAT_INDEX(GET_C_STR(ch))].todam;
   ch->points.damroll = MAX(0, ch->points.damroll);
 #else
   if (GET_C_STR(ch) > stat_factor[(int) GET_RACE(ch)].Str)
@@ -702,9 +698,8 @@ void apply_affs(P_char ch, int mode)
       ch->points.hitroll += 5;
   }
 
-#if 1 // wipe 2011
-  int dexapp = (int) ((float) GET_C_DEX(ch) * ((float) stat_factor[GET_RACE(ch)].Dex / 100));
-  ch->points.hitroll += dex_app[STAT_INDEX(dexapp)].hitroll;
+#if 1 // wipe2011
+  ch->points.hitroll += dex_app[STAT_INDEX(GET_C_DEX(ch))].hitroll;
 #else
   if (GET_C_DEX(ch) > stat_factor[(int) GET_RACE(ch)].Dex)
   {
@@ -860,14 +855,14 @@ void apply_affs(P_char ch, int mode)
 
   if (mode)
   {
-    if (IS_AFFECTED(ch, AFF_ARMOR))
-      GET_AC(ch) -= 25;
-    if (IS_AFFECTED(ch, AFF_BARKSKIN))
-      GET_AC(ch) -= 75;
-    if (IS_AFFECTED3(ch, AFF3_GR_SPIRIT_WARD))
-      ch->specials.apply_saving_throw[SAVING_SPELL] -= 4;
-    if (IS_AFFECTED3(ch, AFF3_SPIRIT_WARD))
-      ch->specials.apply_saving_throw[SAVING_SPELL] -= 2;
+//    if(IS_AFFECTED(ch, AFF_ARMOR))
+//       GET_AC(ch) -= 25;
+    if(IS_AFFECTED(ch, AFF_BARKSKIN))
+       GET_AC(ch) -= 75;
+    if(IS_AFFECTED3(ch, AFF3_GR_SPIRIT_WARD))
+       ch->specials.apply_saving_throw[SAVING_SPELL] -= 4;
+    if(IS_AFFECTED3(ch, AFF3_SPIRIT_WARD))
+       ch->specials.apply_saving_throw[SAVING_SPELL] -= 2;
   }
   two_weapon_check(ch);
 
@@ -1116,15 +1111,12 @@ void affect_modify(int loc, int mod, unsigned int *bitv, int from_eq)
   case APPLY_FIRE_PROT:
     SET_BIT(TmpAffs.BV_1, AFF_PROT_FIRE);
     break;
-
-#if 1
   case APPLY_ARMOR:
     TmpAffs.AC += mod;
     break;
-#endif
-  case APPLY_AGE:
-    TmpAffs.Age += mod;
-    break;
+  //case APPLY_AGE:
+ //   TmpAffs.Age += mod;
+ //   break;
 
   case APPLY_DAMROLL:
     TmpAffs.Dam += mod;
@@ -1168,9 +1160,9 @@ void affect_modify(int loc, int mod, unsigned int *bitv, int from_eq)
   case APPLY_SAVING_SPELL:
     TmpAffs.S_spell += mod;
     break;
-  case APPLY_CURSE:
-    if (mod < 0)
-      mod = -mod;
+  //case APPLY_CURSE:
+  //  if (mod < 0)
+  //    mod = -mod;
 
     TmpAffs.S_breath += mod;
     TmpAffs.S_para += mod;
@@ -1225,9 +1217,9 @@ void get_aura_affects(P_char ch)
   affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
 
   if (GET_CLASS(ch, CLASS_AVENGER))
-        {
-    af.location = APPLY_HIT_REG;
-    af.modifier = GET_LEVEL(ch)/2;
+  {
+    af.location = APPLY_SAVING_FEAR;
+    af.modifier = GET_LEVEL(ch)/10;
     affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
 
     if (GET_SPEC(ch, CLASS_AVENGER, SPEC_INQUISITOR))
@@ -1262,7 +1254,7 @@ void get_aura_affects(P_char ch)
       af.modifier = GET_LEVEL(ch)/10;
       affect_modify(af.location, af.modifier, &(af.bitvector), FALSE);
     }
-}
+  }
 }
 
 void get_epic_stat_affects(P_char ch)
@@ -1388,7 +1380,7 @@ void all_affects(P_char ch, int mode)
         continue;
     }
 // Below commented code is to hunt bad object affects.
-    for (j = 0; j < MAX_OBJ_AFFECT; j++)
+    for(j = 0; j < MAX_OBJ_AFFECT; j++)
     {
     affect_modify(ch->equipment[i]->affected[j].location,
                  ch->equipment[i]->affected[j].modifier,
@@ -1403,9 +1395,9 @@ void all_affects(P_char ch, int mode)
   /* better +dam handling */
   //TmpAffs.Dam = MIN(GET_LEVEL(ch) + 35, TmpAffs.Dam);
 
-  for (af = ch->affected; af; af = af->next)
+  for(af = ch->affected; af; af = af->next)
   {
-    if ( !IS_SET(af->flags, AFFTYPE_NOAPPLY) )
+    if(!IS_SET(af->flags, AFFTYPE_NOAPPLY))
     {
       affect_modify(af->location, af->modifier, &(af->bitvector), FALSE);
     }
@@ -1413,7 +1405,7 @@ void all_affects(P_char ch, int mode)
 
   get_epic_stat_affects(ch);
 
-  if (in_command_aura(ch))
+  if(in_command_aura(ch))
   {
     get_aura_affects(ch->group->ch);
   }
@@ -1423,7 +1415,7 @@ void all_affects(P_char ch, int mode)
    * now recalc con bonus, since we could have just changed something
    * dealing with Con
    */
-  if (IS_PC(ch))
+  if(IS_PC(ch))
   {
     int      missing_hps = GET_MAX_HIT(ch) - GET_HIT(ch);
     int      missing_mana = GET_MAX_MANA(ch) - GET_MANA(ch);
@@ -1523,9 +1515,9 @@ char affect_total(P_char ch, int kill_ch)
   ch->specials.base_combat_round += (int)(get_property("damage.pulse.class.all", 2));
   ch->specials.damage_mod = combat_by_race[GET_RACE(ch)][1];
 
-  if (IS_PC(ch))
+  if(IS_PC(ch))
   {
-    if (IS_MULTICLASS_PC(ch))
+    if(IS_MULTICLASS_PC(ch))
     {
       ch->specials.base_combat_round += (int) MIN(combat_by_class[flag2idx(ch->player.m_class)][0],
                                                  combat_by_class[flag2idx(ch->player.secondary_class)][0]);
@@ -1553,23 +1545,23 @@ char affect_total(P_char ch, int kill_ch)
 
   ch->specials.base_combat_round += ch->points.combat_pulse;
 
-  if (affected_by_spell(ch, SKILL_WHIRLWIND))
+  if(affected_by_spell(ch, SKILL_WHIRLWIND))
   {
     ch->specials.base_combat_round -= (ch->specials.base_combat_round >> 1);
   }
 
-  if (innate_two_daggers(ch))
+  if(innate_two_daggers(ch))
     ch->specials.base_combat_round += (int) get_property("innate.dualDaggers.pulse", -3.0);
 
-  if (IS_AFFECTED2(ch, AFF2_FLURRY))
+  if(IS_AFFECTED2(ch, AFF2_FLURRY))
     ch->specials.base_combat_round -= (int)(0.60 * ch->specials.base_combat_round);
 
-  if( GET_CLASS(ch, CLASS_REAVER) )
+  if(GET_CLASS(ch, CLASS_REAVER))
     apply_reaver_mods(ch);
 
   ch->specials.base_combat_round = MAX(3, ch->specials.base_combat_round);
 
-  if (IS_PC(ch) && GET_CHAR_SKILL(ch, SKILL_FORGE) >= 70)
+  if(IS_PC(ch) && GET_CHAR_SKILL(ch, SKILL_FORGE) >= 70)
 	  ch->specials.affected_by5 |= AFF5_MINE; /* high enough skill in forge grants miner's sight */
 
   /* only if actually in game. JAB */
@@ -1734,7 +1726,7 @@ void affect_to_end(P_char ch, struct affected_type *af)
   struct affected_type *afp, *prev = NULL;
   int      create = TRUE;
 
-  for (afp = ch->affected; afp; afp = afp->next)
+  for(afp = ch->affected; afp; afp = afp->next)
   {
     if (afp == af)
     {

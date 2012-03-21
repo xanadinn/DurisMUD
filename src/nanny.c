@@ -4374,7 +4374,8 @@ void init_char(P_char ch)
   ch->points.mana = GET_MAX_MANA(ch);
   ch->points.hit = GET_MAX_HIT(ch);
   ch->points.vitality = GET_MAX_VITALITY(ch);
-  ch->points.base_armor = 0;
+  ch->points.base_armor = 100;
+
   for (i = 0; i < MAX_SKILLS; i++)
   {
     if(GET_LEVEL(ch) < MINLVLIMMORTAL)

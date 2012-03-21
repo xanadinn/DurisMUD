@@ -3776,7 +3776,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       FALSE, ch, 0, victim, TO_VICT | ACT_NOTTERSE);
     act("$N&+C absorbs&n $n's &+Cspell!",
       FALSE, ch, 0, victim, TO_NOTVICT | ACT_NOTTERSE);
-    vamp(victim, dam / 4, GET_MAX_HIT(victim) * 1.3); 
+    vamp(victim, dam, GET_MAX_HIT(victim) * 1.3); 
 
     update_pos(victim);
     if(IS_NPC(victim))
@@ -4225,9 +4225,9 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     result = raw_damage(ch, victim, dam, RAWDAM_DEFAULT ^ flags, messages);
 
     // Tether code here
-    if( GET_CLASS( ch, CLASS_CABALIST ) )
+    if(GET_CLASS(ch, CLASS_CABALIST))
     {
-       tetherheal( ch, dam );
+       tetherheal(ch, dam);
     }
 
     if(type == SPLDAM_ACID &&
@@ -4549,7 +4549,7 @@ int check_shields(P_char ch, P_char victim, int dam, int flags)
 int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_messages *messages)
 {
   struct damage_messages dummy_messages;
-  int      vamp_dam, i, result, shld_result;
+  int      vamp_dam, i, result, shld_result, calc_ac;
   unsigned int skin;
   float    reduction;
   char     buffer[MAX_STRING_LENGTH];
@@ -4571,7 +4571,9 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
   
   if(!(flags & PHSDAM_NOREDUCE))
   {
-    dam = dam + (int)(.500 + (dam * calculate_ac(victim, TRUE) / 1000));
+    if(calc_ac = calculate_ac(victim, TRUE) < 100)
+      dam = dam + (int)(.500 + (dam * calc_ac / 1000));
+
     if(has_innate(victim, INNATE_TROLL_SKIN))
       dam *= dam_factor[DF_TROLLSKIN];
 
@@ -4604,19 +4606,19 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
     if(MIN_POS(victim, POS_STANDING + STAT_NORMAL))
     {
       if(get_linked_char(ch, LNK_FLANKING) == victim)
-        dam = (dam * get_property("damage.modifier.flank", 1.5));
+        dam = (dam * get_property("damage.modifier.flank", 1.25));
 
       if(get_linked_char(ch, LNK_CIRCLING) == victim)
-        dam = (dam * get_property("damage.modifier.circle", 2));
+        dam = (dam * get_property("damage.modifier.circle", 1.5));
     }
     else if(MIN_POS(victim, POS_SITTING + STAT_RESTING) &&
              !has_innate(victim, INNATE_GROUNDFIGHTING))
-      dam = (dam * get_property("damage.modifier.sitting", 1.150));
+      dam = (dam * get_property("damage.modifier.sitting", 1.25));
     else if(MIN_POS(victim, POS_KNEELING + STAT_DEAD) &&
              !has_innate(victim, INNATE_GROUNDFIGHTING))
-      dam = (dam * get_property("damage.modifier.kneeling", 1.300));
+      dam = (dam * get_property("damage.modifier.kneeling", 1.150));
     else if(!has_innate(victim, INNATE_GROUNDFIGHTING))
-      dam = (dam * get_property("damage.modifier.lying", 1.500));
+      dam = (dam * get_property("damage.modifier.lying", 1.400));
   }
 
   if(GET_CLASS(ch, CLASS_BERSERKER) &&
@@ -4631,16 +4633,13 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
 
   // Earth elementals ignore earth aura.
   if(IS_AFFECTED2(victim, AFF2_EARTH_AURA) &&
-    !number(0, 10 - (GET_LEVEL(victim) / 11)) &&
-    GET_RACE(ch) != RACE_E_ELEMENTAL)
+     !number(0, 10 - (GET_LEVEL(victim) / 11)) &&
+     GET_RACE(ch) != RACE_E_ELEMENTAL)
   {
     dam = 0;
-    act("$n's &+yattack glances off of your stone hide!",
-      TRUE, ch, NULL, victim, TO_VICT);
-    act("$n's &+yattack glances off of&n $N's &+ystone hide!",
-      TRUE, ch, NULL, victim, TO_NOTVICT);
-    act("&+yYour attack glances off of&n $N's &+ystone hide!",
-      TRUE, ch, NULL, victim, TO_CHAR);
+    act("$n's &+yattack glances off of your stone hide!", FALSE, ch, NULL, victim, TO_VICT);
+    act("$n's &+yattack glances off of $N's &+ystone hide!", FALSE, ch, NULL, victim, TO_NOTVICT);
+    act("&+yYour attack glances off of $N's &+ystone hide!", FALSE, ch, NULL, victim, TO_CHAR);
   }
  
   // Combat mind bypasses displacement.
@@ -4649,10 +4648,8 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
     !affected_by_spell(ch, SPELL_COMBAT_MIND))
   {
     dam = 0;
-    act("&+WThe aura of displacement around&n $n&+W absorbs most of the assault!&n",
-      FALSE, victim, 0, 0, TO_ROOM);
-    act("$e THOUGHT $s was going to hit you...&n",
-      FALSE, victim, 0, 0, TO_CHAR);
+    act("&+WThe aura of displacement around&n $n&+W absorbs most of the assault!&n", FALSE, victim, 0, 0, TO_ROOM);
+    act("$e THOUGHT $s was going to hit you...&n", FALSE, victim, 0, 0, TO_CHAR);
   }
 
   if(affected_by_spell(victim, SPELL_STONE_SKIN))
@@ -4714,14 +4711,15 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags, struct damage_
       !(flags & PHSDAM_NOREDUCE))
           dam -= dam * reduction;
 
-          // for mobs flagged with a skin spell that aren't pets, 1% chance to break it.  pets are more likely to have it broken (5%)
+    // for mobs flagged with a skin spell that aren't pets, 1% chance to break it.  
+    // pets are more likely to have it broken (5%)
     decrease_skin_counter(victim, skin);
   }
 
   dam = MAX(1, dam);
   
   messages->type |= 1 << 24;
-  
+
   result = raw_damage(ch, victim, dam, RAWDAM_DEFAULT | flags, messages);
 
   if(result != DAM_NONEDEAD)
@@ -5591,31 +5589,32 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
 
 int calculate_ac(P_char ch, bool flag) 
 {
-  int victim_ac;
+  float victim_ac;
 
   victim_ac = agi_defense(ch); // Sets agility AC
 
   if(IS_PC(ch))
   {
-    victim_ac += load_modifier(ch) / 2; // Modifies agility AC to account for weight carried
+    int mod = load_modifier(ch) / 2; // Modifies agility AC to account for weight carried
+    victim_ac += mod;
   }
-  else if(IS_NPC(ch))
+  else if(IS_NPC(ch) && GET_LEVEL(ch) < 50)
   {
-    victim_ac += 2 * (62 - GET_LEVEL(ch)); // this helps PC's at low levels hit NPC's
+    victim_ac += (75 - GET_LEVEL(ch)); // this helps PC's at low levels hit NPC's
   }
 
   if(flag)
   {
     victim_ac += GET_AC(ch); // Adds in modifiers from equipment
+    return BOUNDED(-500, (int)victim_ac, 100);
   }
 
-  return victim_ac;
+  return BOUNDED(-250, (int)victim_ac, 100);
 }
 
 int calculate_thac_zero(P_char ch, int skill)
 {
-  int to_hit = 0, hitr = GET_HITROLL(ch), alevel = GET_LEVEL(ch);
-  int skill_val = (IS_NPC(ch) ? BOUNDED(3, (alevel * 2), 95) : skill);
+  int to_hit = 0, hitr, alevel;
 
   if(GET_CLASS(ch, CLASS_WARRIOR)||
      GET_CLASS(ch, CLASS_PALADIN) ||
@@ -5675,6 +5674,9 @@ int calculate_thac_zero(P_char ch, int skill)
     to_hit = get_property("to.hit.npcTypes", 10);
   }
 
+  hitr = GET_HITROLL(ch);
+  alevel = GET_LEVEL(ch);
+
   // +1 bonus for greater race/guards
   if(IS_NPC(ch) && (IS_GREATER_RACE(ch) ||
      IS_SET(ch->specials.act, ACT_PROTECTOR)))
@@ -5682,39 +5684,32 @@ int calculate_thac_zero(P_char ch, int skill)
     to_hit += 1;
   }
 
-  // Combat mind provides a single point bonus to THAC0.  This bonus is approximately
-  // a 5% bonus to chance to hit.
-  if(affected_by_spell(ch, SPELL_COMBAT_MIND)) 
+  if(IS_ELITE(ch))
     to_hit += 1;
 
-  // Formula for THAC0 is base^3 + level^2 + skill^2 + hitroll^2.
-  // This lets base have greater weight than the other 3, while
+  // Formula for THAC0 is base^3 + skill^2 + hitroll^2.
+  // This lets base have greater weight than the other 2, while
   // maintaining the equal importance amongst the rest.  This number
-  // is then divided by 100, and hitroll / 5 is added to it, before
-  // being returned to the calling function.
+  // is then divided by 100, before being returned to the calling function.
   // The final number out of this function will be modified by the
   // natural(agi) AC from calculate_ac, and the level of the
-  // character being hit.  A 56 Human with 100 agility, will be
-  // hit by a warrior(base 16) at 56, and 35 hitroll and 100 skill
-  // ~ 72% of the time.  - Jexni  6/1/11
+  // character being hit.  - Jexni 6/1/11, modded 3/4/12
  
   to_hit = to_hit * to_hit * to_hit; // base THAC0 cubed to start
 
-  to_hit += alevel * alevel; // level squared added to base
-
-  to_hit += skill_val * skill_val; // skill squared
+  to_hit += skill * skill; // skill squared
 
   to_hit += hitr * hitr; // hitroll also squared, no bound
 
   if(ch->equipment[PRIMARY_WEAPON] &&
     IS_SET(ch->equipment[PRIMARY_WEAPON]->extra2_flags, ITEM2_BLESS))
   {
-    to_hit = (int) (to_hit * get_property("to.hit.BlessBonus", 1.100));
+    to_hit = ((float)to_hit * get_property("to.hit.BlessBonus", 1.100));
   }
   
   if(GET_C_LUCK(ch) / 2 > number(0, 100))
   {
-    to_hit = (int) (to_hit * get_property("to.hit.LuckBonus", 1.100));
+    to_hit = ((float)to_hit * get_property("to.hit.LuckBonus", 1.100));
   }
   
   if(to_hit < 0)
@@ -5723,17 +5718,18 @@ int calculate_thac_zero(P_char ch, int skill)
     to_hit = 0; // Shouldn't need this, but rather debug the code than pass errors.
   }
 
-  to_hit /= 100;
+  // Combat mind provides a bonus to THAC0
+  if(affected_by_spell(ch, SPELL_COMBAT_MIND)) 
+    to_hit = ((float)to_hit * 1.05);
 
-  // final hitroll addition
-  to_hit = (int) to_hit + (hitr / 5);
+  to_hit /= 100;
 
   return to_hit;
 }
 
 int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
 {
-  int to_hit, victim_ac, alevel = GET_LEVEL(ch);
+  int to_hit, victim_ac, alevel, diff;
   struct affected_type *af;
 
   if(!(ch) ||
@@ -5741,7 +5737,7 @@ int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
   {
     return 0;
   }
-
+  alevel = GET_LEVEL(ch);
   to_hit = calculate_thac_zero(ch, skill);
 
   // minor bonus for starting players to mitigate the
@@ -5758,7 +5754,7 @@ int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
     !IS_GOOD(victim) &&
     IS_AFFECTED(victim, AFF_PROTECT_GOOD))))
   {
-    to_hit -= 3;
+    to_hit -= GET_LEVEL(victim);
   }
 
   if((IS_EVIL(ch) && !IS_EVIL(victim)) ||
@@ -5791,8 +5787,8 @@ int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
     }
   }
 
-  victim_ac = MAX(-250, MIN(calculate_ac(victim, FALSE), 250));
-  
+  victim_ac = calculate_ac(ch, FALSE);
+
   if(IS_AFFECTED(victim, AFF_BLIND))
   {
     victim_ac += (int) (40 *
@@ -5822,10 +5818,14 @@ int chance_to_hit(P_char ch, P_char victim, int skill, P_obj weapon)
     to_hit -= (POS_STANDING - GET_POS(ch)) * 15;
   }
 
-  to_hit += GET_LEVEL(ch) - GET_LEVEL(victim);
+  diff = (alevel - GET_LEVEL(victim));
+  diff *= 3;  // 3% for each level of difference
+  to_hit += diff;
 
 #ifdef FIGHT_DEBUG
-  wizlog(56, "returning from to_hit: %d, victim_ac %d, level %d", to_hit + victim_ac + GET_LEVEL(victim), victim_ac, GET_LEVEL(victim));
+  wizlog(56, "returning from to_hit: %d percent chance to hit, victim_ac %d", 
+              to_hit + victim_ac + GET_LEVEL(victim), victim_ac, GET_LEVEL(victim));
+  wizlog(56, "victim %s, attacker %s", GET_NAME(ch), GET_NAME(victim));
 #endif
 
   return BOUNDED(1, to_hit + victim_ac, 100);
@@ -6147,7 +6147,6 @@ regular:
 #ifndef NEW_COMBAT
 int required_weapon_skill(P_obj wpn)
 {
-
   if(!wpn)
     return SKILL_UNARMED_DAMAGE;
   else if(wpn->type != ITEM_WEAPON)
@@ -6163,7 +6162,7 @@ int required_weapon_skill(P_obj wpn)
     return IS_SET(wpn->extra_flags, ITEM_TWOHANDS) ? SKILL_2H_SLASHING : SKILL_1H_SLASHING;
   case WEAPON_DAGGER:
   case WEAPON_HORN:
-    return IS_SET(wpn->extra_flags, ITEM_TWOHANDS) ? 0 : SKILL_1H_PIERCING;
+    return IS_SET(wpn->extra_flags, ITEM_TWOHANDS) ? SKILL_REACH_WEAPONS : SKILL_1H_PIERCING;
     break;
   case WEAPON_HAMMER:
   case WEAPON_CLUB:
@@ -6209,6 +6208,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   double dam;
   int room, pos, i, blade_skill, chance, damroll = GET_DAMROLL(ch);
   int vs_skill = GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE);
+  int lvl = GET_LEVEL(ch);
   struct affected_type aff, ir, *af;
   char attacker_msg[512];
   char victim_msg[512];
@@ -6306,10 +6306,13 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     msg = MSG_HIT;
 
   wpn_skill_num = required_weapon_skill(weapon);
-  wpn_skill = (IS_PC(ch) || IS_AFFECTED(ch, AFF_CHARM)) ?
-    GET_CHAR_SKILL(ch, wpn_skill_num) : MIN(100, GET_LEVEL(ch) * 2);
+  wpn_skill = (IS_PC(ch) || IS_AFFECTED(ch, AFF_CHARM)) ? GET_CHAR_SKILL(ch, wpn_skill_num) : MIN(95, lvl * 2 - 15);
+  if(wpn_skill < 10)
+  {
+    wpn_skill = lvl / 2;
+  }
+  wpn_skill = BOUNDED(10, wpn_skill, 95);
   to_hit = chance_to_hit(ch, victim, wpn_skill, weapon);
-
   diceroll = number(1, 100);
 
   //an increased chance to critical hit if affected by rage
@@ -6336,12 +6339,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     hit_type = 0;
   }
 
-  wpn_skill = BOUNDED(GET_LEVEL(ch) / 2, wpn_skill, 100);
-
-  if(hit_type == -1 && number(30, 101) > wpn_skill + (GET_C_LUCK(ch) / 4) && !GET_CLASS(ch, CLASS_MONK))
-    hit_type = 0;
-
-  if(hit_type == 1 && number(1, 101) <= wpn_skill + (GET_C_AGI(ch) / 2))
+  if(hit_type == 1 && number(1, 101) <= wpn_skill)
     hit_type = 0;
 
   bool bIsQuickStepMiss = false;
@@ -6403,7 +6401,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     switch (number(1, 5))
     {
     case 1:
-      if(weapon && GET_LEVEL(ch) > 1 &&
+      if(weapon && lvl > 1 &&
           !IS_SET(weapon->extra_flags, ITEM_NODROP))
       {
         for (pos = 0; pos < MAX_WEAR; pos++)
@@ -6490,9 +6488,8 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     struct affected_type af;
 
     send_to_char("&+WYou are briefly confused by &+Ydazzling &+wmotes &+Wof &+Ylight&+W...\r\n", ch);
-    act("$n &+ysuddenly appears a bit confused!&n", TRUE, ch, 0, 0, TO_ROOM);
-    act("&+WYou watch in &+Gglee &+Was $N &+Wlooks dazzled.&n", FALSE, victim, 0, ch,
-        TO_CHAR);
+    act("$n &+ysuddenly appears a bit confused!", TRUE, ch, 0, 0, TO_ROOM);
+    act("&+WYou watch in &+Gglee &+Was $N &+Wlooks dazzled.", FALSE, victim, 0, ch, TO_CHAR);
     memset(&af, 0, sizeof(af));
     af.type = SPELL_DAZZLE;
     af.bitvector5 = AFF5_DAZZLEE;
@@ -6507,7 +6504,8 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     act("You miss $N.", FALSE, ch, NULL, victim, TO_CHAR | ACT_NOTTERSE);
     act("$n misses you.", FALSE, ch, NULL, victim, TO_VICT | ACT_NOTTERSE);
     // 50% chance of damage tier going to 0 due to miss
-    if(number(0, 1) && affected_by_spell(ch, SPELL_CEGILUNE_BLADE)) {
+    if(number(0, 1) && affected_by_spell(ch, SPELL_CEGILUNE_BLADE)) 
+    {
       get_spell_from_char(ch, SPELL_CEGILUNE_BLADE)->modifier = 0;
     }
     remember(victim, ch);
@@ -6526,13 +6524,12 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   if(!weapon && affected_by_spell(ch, SPELL_VAMPIRIC_TOUCH) &&
       !IS_UNDEADRACE(victim) && !IS_CONSTRUCT(victim) && !NewSaves(victim, SAVING_PARA, 0))
   {
-    act("You touch $N with your bare hands, draining $S life force.",
-        FALSE, ch, 0, victim, TO_CHAR);
-    act("$n touches you with $s bare hands, draining your life force.",
-        FALSE, ch, 0, victim, TO_VICT);
-    damage(ch, victim, dice(3, GET_LEVEL(ch)), SPELL_VAMPIRIC_TOUCH);
+    act("You touch $N with your bare hands, draining $S life force.", FALSE, ch, 0, victim, TO_CHAR);
+    act("$n touches you with $s bare hands, draining your life force.", FALSE, ch, 0, victim, TO_VICT);
+    dam = BOUNDED(10, GET_HIT(victim) + 10, lvl); 
+    damage(ch, victim, dam, SPELL_VAMPIRIC_TOUCH);
     affect_from_char(ch, SPELL_VAMPIRIC_TOUCH);
-    vamp(ch, dice(10, 40), GET_MAX_HIT(ch) * 1.25);
+    vamp(ch, dam, GET_MAX_HIT(ch) * 1.25);
     return FALSE;
   }
 
@@ -6550,9 +6547,8 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     if(GET_CHAR_SKILL(victim, SKILL_INDOMITABLE_RAGE) > number(50, 160) &&
       affected_by_spell(victim, SKILL_BERSERK))
     {
-      act("$n&+W's critical hit sends you into a &+rpure &+Rberserk &+rtrance! &+RROARRRRRRR!&n\n", TRUE, ch,
-            0, victim, TO_VICT);
-      act("$N lets out a fearsome &+RROAR&n!\n", TRUE, ch, 0, victim, TO_CHAR);
+      act("$n&+W's critical hit sends you into a &+rpure &+Rberserk &+rtrance! &+RROARRRRRRR!", TRUE, ch, 0, victim, TO_VICT);
+      act("$N lets out a fearsome &+RROAR&n!", TRUE, ch, 0, victim, TO_CHAR);
       hit_type = 0;
 
       bzero(&ir, sizeof(ir));
@@ -6579,8 +6575,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     send_to_char("&=LWYou score a DEVASTATING HIT!!!!!&N\r\n", ch);
     make_bloodstain(ch);
   }
-
-  else if(hit_type == -1 && (!GET_CLASS(ch, CLASS_MONK) || GET_LEVEL(ch) <= 50))
+  else if(hit_type == -1 && (!GET_CLASS(ch, CLASS_MONK) || lvl <= 50))
   {
     send_to_char("&=LWYou score a CRITICAL HIT!!!!!&N\r\n", ch);
     
@@ -6590,7 +6585,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
 
   if(hit_type == -1 &&
      (notch_skill(ch, SKILL_CRITICAL_ATTACK, get_property("skill.notch.criticalAttack", 25)) ||
-        (1 * GET_CHAR_SKILL(ch, SKILL_CRITICAL_ATTACK)) > number(1, 100)))
+        (GET_CHAR_SKILL(ch, SKILL_CRITICAL_ATTACK)) > number(1, 100)))
   {
     critical_attack(ch, victim, msg);
   }
@@ -6603,29 +6598,36 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     !affected_by_spell(ch, SKILL_WHIRLWIND) &&
     !vicious_hit &&
     GET_POS(ch) == POS_STANDING &&
-    GET_RACE(victim) != RACE_CONSTRUCT )
+    GET_RACE(victim) != RACE_CONSTRUCT &&
+    IS_ALIVE(victim))
   {
-    if(notch_skill(ch, SKILL_VICIOUS_ATTACK,
-                    get_property("skill.notch.offensive.auto", 100)) ||
+    if(notch_skill(ch, SKILL_VICIOUS_ATTACK, get_property("skill.notch.offensive.auto", 100)) ||
         0.1 * GET_CHAR_SKILL(ch, SKILL_VICIOUS_ATTACK) > number(0, 100))
     {
-      act("$n slips beneath $N's guard dealing a vicious attack!!", TRUE, ch,
-          0, victim, TO_NOTVICT);
-      act("You slip beneath $N's guard dealing a vicious attack!", TRUE, ch,
-          0, victim, TO_CHAR);
-      act("$n slips beneath your guard, dealing you a vicious attack!", TRUE,
-          ch, 0, victim, TO_VICT);
-      vicious_hit = true;
+      act("$n slips beneath $N's guard dealing a vicious attack!", FALSE, ch, 0, victim, TO_NOTVICT);
+      act("You slip beneath $N's guard dealing a vicious attack!", FALSE, ch, 0, victim, TO_CHAR);
+      act("$n slips beneath your guard, dealing you a vicious attack!", FALSE, ch, 0, victim, TO_VICT);
       hit(ch, victim, weapon);
-      vicious_hit = false;
       if(!(is_char_in_room(ch, room) && is_char_in_room(victim, room)))
         return FALSE;
     }
   }
   
   /* calculate the damage */
+  if(weapon)
+  {
+    //if(IS_PC(ch) || IS_PC_PET(ch))
+    dam = dice(weapon->value[1], MAX(1, weapon->value[2]));
+    //else
+    //  dam += dice(weapon->value[1], MAX(1, weapon->value[2]));  wipe2011
 
-  if(IS_NPC(ch))
+    dam = (int) dam * dam_factor[DF_WEAPON_DICE];
+#ifdef FIGHT_DEBUG
+  wizlog(56, "weapon damage calc for %s is %f", GET_NAME(ch), dam);
+#endif
+
+  }
+  else if(IS_NPC(ch))
     dam = dice(ch->points.damnodice, ch->points.damsizedice);
   else if(GET_CLASS(ch, CLASS_MONK))
     dam = MonkDamage(ch);
@@ -6635,39 +6637,30 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     dam = dice(ch->points.damnodice, ch->points.damsizedice);
   }
   else
-    dam = number(1, 4);         /* 1d4 dam with bare hands */
+    dam = (GET_CHAR_SKILL(ch, SKILL_UNARMED_DAMAGE) / 100) + number(lvl / 12, lvl / 7);
+#ifdef FIGHT_DEBUG
+  wizlog(56, "first damage calc(NPC/unarmed) for %s is %f", GET_NAME(ch), dam);
+#endif
 
-  if(weapon)
-  {
-    if(IS_PC(ch) || IS_PC_PET(ch))
-      dam = dice(weapon->value[1], MAX(1, weapon->value[2]));
-    else
-      dam += dice(weapon->value[1], MAX(1, weapon->value[2]));
-  }
-  
-  dam = (int) dam * dam_factor[DF_WEAPON_DICE];
-  
   // damroll mitigation for wipe2011 - Jexni 12/17/11
-  if(damroll > 19)
-  {
-    if(dam + damroll < dam * 0.8)
-      dam = dam * (BOUNDEDF(0.80, (damroll * 2) / 100, 1.20));
-    else
-      dam += damroll;
-  }
+  dam = dam * BOUNDEDF(0.70, ((float)damroll / GET_LEVEL(victim)), 1.20);
+  dam = dam + ((float)damroll / 10);
+#ifdef FIGHT_DEBUG
+  wizlog(56, "damage calc after damroll for %s is %f", GET_NAME(ch), dam);
+#endif
 
   if(hit_type == -1 && GET_CHAR_SKILL(ch, SKILL_DEVASTATING_CRITICAL) > devcrit)
   {
-    dam = (int) (dam * 1.75);
+    dam = (int) (dam * get_property("damage.devastatingCritical.mult", 1.75));
   }
   else if(hit_type == -1)
   {
-    dam = (int) (dam * 1.5);
+    dam = (int) (dam * get_property("damage.Critical.mult", 1.5));
   }
 
   if(GET_CLASS(ch, CLASS_MONK) &&
-    GET_LEVEL(ch) > 30 &&
-    (hit_type == -1 || diceroll < GET_LEVEL(ch) - 40))
+     lvl > 30 &&
+    (hit_type == -1 || diceroll < lvl - 40))
   {
     if(hit_type != -1)
     {
@@ -6688,8 +6681,11 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   // Weapon skill check, used to be offense.
   if(hit_type != -1)
   {
-    dam = (int) (dam * (BOUNDED(20, wpn_skill, 100)) / 100);
+    dam = (int)(dam * (BOUNDED(20, wpn_skill, 100)) / 100);
   }
+#ifdef FIGHT_DEBUG
+  wizlog(56, "damage after wpn_skill for %s is %f", GET_NAME(ch), dam);
+#endif
   
   if(has_divine_force(ch) && IS_EVIL(victim))
   {
@@ -6727,11 +6723,11 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
              * GET_CHAR_SKILL(ch, SKILL_VICIOUS_STRIKE);
     }
     else if(IS_ELITE(ch))
-      dam += (int) GET_LEVEL(ch) * 1.5;
+      dam += (int) lvl / 4;
     else if(IS_GREATER_RACE(ch))
-      dam += GET_LEVEL(ch) * 1.25;
+      dam += lvl / 5;
     else if(IS_NPC(ch))
-      dam += GET_LEVEL(ch) / 4;
+      dam += lvl / 7;
 
     sprintf(attacker_msg, "You feel a powerful rush of &+rAnG&+RE&+rr&n "
             "as your%%s %s %%s.", attack_hit_text[msg].singular);
@@ -6741,9 +6737,8 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
             "$n as $s%%s %s %%s.", attack_hit_text[msg].singular);
     messages.type = DAMMSG_HIT_EFFECT;
   }
-  else if(notch_skill(victim, SKILL_BOILING_BLOOD,
-                       get_property("skill.notch.defensive", 100)) ||
-           GET_CHAR_SKILL(victim, SKILL_BOILING_BLOOD) / 10 > number(1, 100))
+  else if(notch_skill(victim, SKILL_BOILING_BLOOD, get_property("skill.notch.defensive", 100)) ||
+          GET_CHAR_SKILL(victim, SKILL_BOILING_BLOOD) / 10 > number(1, 100))
   {
     sprintf(attacker_msg, "$N is so overcome with bloodlust, "
             "your %s barely grazes $M!", attack_hit_text[msg].singular);
@@ -6799,7 +6794,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   }
 
   dam *= ch->specials.damage_mod;
-
+  
   if(GET_RACE(ch) == RACE_ORC)
     dam = orc_horde_dam_modifier(ch, dam, TRUE);
   else if(GET_RACE(victim) == RACE_ORC)
@@ -6816,7 +6811,9 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
     dam *= 10;
   }
   
-  dam = BOUNDED(1, (int) dam, 32766);
+  dam = BOUNDED(1, dam, 1000);
+  if(dam > 200)
+    wizlog(56, "DAMAGE ALERT: %s caused %d damage to %s", GET_NAME(ch), dam, GET_NAME(victim));
 
   if(has_innate(victim, INNATE_WEAPON_IMMUNITY))
   {
@@ -6825,7 +6822,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
       if(!IS_SET(weapon->extra2_flags, ITEM2_MAGIC))
         dam = 1;
     }
-    else if(GET_LEVEL(ch) < 51)
+    else if(lvl < 51)
       if(!ch->equipment[WEAR_HANDS] ||
           !IS_SET(ch->equipment[WEAR_HANDS]->extra2_flags, ITEM2_MAGIC))
         dam = 1;
@@ -6849,6 +6846,7 @@ bool hit(P_char ch, P_char victim, P_obj weapon)
   if(IS_NPC(victim) && (GET_POS(victim) < POS_STANDING))
   {
     do_alert(victim, 0, 0);
+    CharWait(victim, 1);
     do_stand(victim, 0, 0);
   }
 
@@ -8029,7 +8027,7 @@ int calculate_attacks(P_char ch, int attacks[])
       if(notch_skill(ch, SKILL_DUAL_WIELD,
             get_property("skill.notch.offensive.auto", 100))
           || number(1, 100) < GET_CHAR_SKILL(ch, SKILL_DUAL_WIELD) ||
-          (GET_CLASS(ch, CLASS_RANGER || GET_SECONDARY_CLASS(ch, CLASS_RANGER)) && !number(0, 2)))
+          (GET_CLASS(ch, CLASS_RANGER || GET_CLASS(ch, CLASS_ROGUE)) && !number(0, 2)))
       {
         ADD_ATTACK(SECONDARY_WEAPON);
 
@@ -8754,7 +8752,8 @@ int battle_frenzy(P_char ch, P_char victim)
     "$n elbows $N hard, breaking $S ribs and crushing $S heart!&N"
   };
 
-  dam = GET_DAMROLL(ch) * GET_LEVEL(ch) * number(1, 2) / 40;
+  dam = GET_LEVEL(ch) / 6;
+
   if(chance_to_hit(ch, victim, GET_CHAR_SKILL(ch, SKILL_UNARMED_DAMAGE), 0) >
       number(0, 100))
   {

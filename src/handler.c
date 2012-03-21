@@ -3555,10 +3555,11 @@ int can_prime_class_use_item(P_char ch, P_obj obj)
  	  return TRUE;
 }
 
-int agi_defense(P_char ch)
+float agi_defense(P_char ch)
 {
   int      i = GET_C_AGI(ch), final = 0;
+  i = i * (stat_factor[GET_RACE(ch)].Agi / 100);
   i = MAX(-250, 300 - i);
-  final = (((i * i) / 484 + i)) - get_property("agi.def.minus", 400);
+  final = (((i * i) / 484 + i)) - get_property("agi.def.minus", 355);
   return final;
 }

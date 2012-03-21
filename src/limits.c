@@ -355,17 +355,25 @@ int move_regen(P_char ch)
   
   if(IS_NPC(ch) || IS_UNDEADRACE(ch) || IS_ANGEL(ch))
   {
-    gain = 22;
+     if(has_innate(ch, INNATE_HORSE_BODY))
+       gain = 35;
+     else
+       gain = GET_LEVEL(ch) / 2;
+     //gain = 22; wipe2011
   }
   else
   {
-    gain = graf(ch, age(ch).year, 14, 20, 20, 16, 14, 12, 11);
+    //gain = graf(ch, age(ch).year, 14, 20, 20, 16, 14, 12, 11);
+    gain = 14;
   }
 
-  if (GET_COND(ch, FULL) == 0)
-    gain /= 1.250;
-  if (GET_COND(ch, THIRST) == 0)
-    gain /= 1.250;
+  if(IS_PC(ch))
+  {
+    if (GET_COND(ch, FULL) == 0)
+      gain /= 1.250;
+    if (GET_COND(ch, THIRST) == 0)
+      gain /= 1.250;
+  }
 
   /*
    * Position calculations
@@ -405,7 +413,7 @@ int move_regen(P_char ch)
 
   if(gain > 0 &&
     IS_AFFECTED4(ch, AFF4_TUPOR))
-      gain += 20;
+      gain += 14;
  
   gain += (int)((float)gain * get_epic_bonus(ch, EPIC_BONUS_MOVES));
 
@@ -418,9 +426,6 @@ int move_regen(P_char ch)
 
   if (endurance > 0)
     gain += (endurance / 10);
-
-  if (GET_RACE(ch) == RACE_QUADRUPED)
-    gain += (number(0, 6));
 
   return (int) (gain * gain / 5);
 }
