@@ -70,8 +70,7 @@ int      cast_as_damage_area(P_char,
                              bool (*s_func) (P_char, P_char));
 
 
-void spell_vapor_armor(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj tar_obj)
+void spell_vapor_armor(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
 
@@ -86,16 +85,14 @@ void spell_vapor_armor(int level, P_char ch, char *arg, int type,
     memset(&af, 0, sizeof(af));
 
     af.type = SPELL_VAPOR_ARMOR;
-    af.duration =  MAX(10, (int)(level / 2));
-    af.modifier = (int)(-1 * level * 1.25);
+    af.duration = level;
+    af.modifier = (int)(-1 * level * .75);
     af.bitvector = AFF_ARMOR;
     af.location = APPLY_AC;
 
     affect_to_char(victim, &af);
 
-    send_to_char
-      ("&+CYou feel the protection of the winds and storms flow through you.&n\r\n",
-       victim);
+    send_to_char("&+CYou feel the protection of the winds and storms flow through you.\r\n", victim);
   }
   else
   {
@@ -104,15 +101,14 @@ void spell_vapor_armor(int level, P_char ch, char *arg, int type,
     {
       if(af1->type == SPELL_VAPOR_ARMOR)
       {
-        af1->duration = MAX(10, (int)(level / 2));
+        af1->duration = level;
         send_to_char("&+cYour vaporous armor is renewed!\r\n", victim);
       }
     }
   }
 }
 
-void spell_faerie_sight(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj tar_obj)
+void spell_faerie_sight(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
   int count;    
@@ -134,7 +130,7 @@ void spell_faerie_sight(int level, P_char ch, char *arg, int type,
   }
 
   af.type = SPELL_FAERIE_SIGHT;
-  af.duration = 25;
+  af.duration = level / 2;
   af.bitvector = AFF_FARSEE;
 
   affect_to_char(victim, &af);
@@ -165,12 +161,11 @@ void spell_faerie_sight(int level, P_char ch, char *arg, int type,
   }
 
   affect_to_char(victim, &af);
-  send_to_char("&+mYour eyes begin to twinkle.&n\r\n", ch);
+  send_to_char("&+mYour eyes begin to twinkle.\r\n", ch);
 }
 
 
-void spell_cold_snap(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj tar_obj)
+void spell_cold_snap(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   int      num;
   struct affected_type af, af2;
@@ -190,15 +185,15 @@ void spell_cold_snap(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
 
-  num = dice(10, 5);
+  num = dice(level / 10, level / 7);
 
   af.type = SPELL_COLD_SNAP;
-  af.duration = 10;
+  af.duration = level / 14;
   af.modifier = num;
   af.location = APPLY_AC;
 
   af2.type = SPELL_COLD_SNAP;
-  af2.duration = 10;
+  af2.duration = level / 14;
   af2.modifier = num * -1;
   af2.location = APPLY_AC;
 
@@ -207,46 +202,37 @@ void spell_cold_snap(int level, P_char ch, char *arg, int type, P_char victim,
   if (!affected_by_spell(ch, SPELL_COLD_SNAP))
     affect_to_char(ch, &af2);
 
-  act
-    ("&+CYou unleash a blast of &+Wfreezing wind&n&+C at $N&+C, encasing $M in a layer of frost.",
-     TRUE, ch, 0, victim, TO_CHAR);
-
-  act
-    ("&+CYou suddenly feel incredibly stiff from the &+Wblast&n&+C of cold unleashed by $n.&n",
-     TRUE, ch, 0, victim, TO_VICT);
-
-  act
-    ("&+C$n &+Cunleashes a blast of &+Wfreezing wind&n&+C at $N&+C, encasing $M in a layer of frost.",
-     TRUE, ch, 0, victim, TO_NOTVICT);
+  act("&+CYou unleash a blast of &+Wfreezing wind&+C at $N&+C, encasing $M in a layer of frost.", 
+       FALSE, ch, 0, victim, TO_CHAR);
+  act("&+CYou suddenly feel incredibly stiff from the &+Wblast&n&+C of cold unleashed by $n.", 
+       FALSE, ch, 0, victim, TO_VICT);
+  act("$n &+Cunleashes a blast of &+Wfreezing wind&+C at $N&+C, encasing $M in a layer of frost.",
+      FALSE, ch, 0, victim, TO_NOTVICT);
 
   if (number(0, 100) < 10)
     spell_slow(level, ch, 0, 0, victim, tar_obj);
-
 }
 
-
-void spell_path_of_frost(int level, P_char ch, char *arg, int type,
-                         P_char victim, P_obj tar_obj)
+void spell_path_of_frost(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
 
   if (affected_by_spell(ch, SPELL_PATH_OF_FROST))
   {
-    send_to_char("You are frosty enough as it is..\r\n", ch);
+    send_to_char("You are frosty enough as it is...\r\n", ch);
     return;
   }
 
-  send_to_char("Your body emanates with a &+Cfrosty&n glow.\r\n", ch);
+  send_to_char("Your body emits a &+Cfrosty&n glow.\r\n", ch);
 
   memset(&af, 0, sizeof(af));
   af.type = SPELL_PATH_OF_FROST;
   af.flags = AFFTYPE_SHORT;
-  af.duration = 980;
+  af.duration = level / 4;
   affect_to_char(ch, &af);
 }
 
-void spell_mass_fly(int level, P_char ch, char *arg, int type, P_char victim,
-                    P_obj tar_obj)
+void spell_mass_fly(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct group_list *gl;
 
@@ -279,8 +265,8 @@ void wind_blade_attack_routine(P_char ch, P_char victim)
                 return;
         }
 
-  act("&+CWinds gather in the area to guide your weapon against $N!", TRUE, ch, 0, victim, TO_CHAR);
-  act("&+cWinds gather around $n &n&+cto guide $s &n&+cweapon in combat!", TRUE, ch, 0, victim, TO_ROOM);
+  act("&+CWinds gather in the area to guide your weapon against $N!", FALSE, ch, 0, victim, TO_CHAR);
+  act("&+cWinds gather around $n &+cto guide $s &+cweapon in combat!", FALSE, ch, 0, victim, TO_ROOM);
 
   struct affected_type af;
   bzero(&af, sizeof(af));
@@ -295,12 +281,12 @@ void wind_blade_attack_routine(P_char ch, P_char victim)
 
   affect_total(ch, FALSE);
 
-        for (;attacks;attacks--)
-        {
-                if (IS_ALIVE(victim) && IS_ALIVE(ch))
-                {
-                  hit(ch, victim, obj);
-                }
+  for (;attacks;attacks--)
+  {
+    if (IS_ALIVE(victim) && IS_ALIVE(ch))
+    {
+       hit(ch, victim, obj);
+    }
   }
 
   if (IS_ALIVE(ch) && affected_by_spell(ch, SPELL_WIND_BLADE))
@@ -360,45 +346,43 @@ void grant_wind_blade(P_char ch)
   blade->bitvector = 0;
   /* how about some gay de procs for wind blade? Yeah baby! */
   if (GET_LEVEL(ch) >= 21)
-      {
-          blade->value[5] = 191;
-          blade->value[6] = GET_LEVEL(ch);
-          blade->value[7] = 40; //procs ice missile
-      }
+  {
+      blade->value[5] = 191;
+      blade->value[6] = GET_LEVEL(ch);
+      blade->value[7] = 40; //procs ice missile
+  }
   if (GET_LEVEL(ch) >= 26)
-      {
-      SET_BIT(blade->bitvector2, AFF2_PROT_COLD);
-      }
+  {
+    SET_BIT(blade->bitvector2, AFF2_PROT_COLD);
+  }
   if (GET_LEVEL(ch) >= 31)
-      {
-      SET_BIT(blade->bitvector3, AFF3_COLDSHIELD);
-      }
+  {
+    SET_BIT(blade->bitvector3, AFF3_COLDSHIELD);
+  }
   if (GET_LEVEL(ch) >= 36)
-      {
-          blade->value[5] = 10;
-          blade->value[6] = GET_LEVEL(ch);
-          blade->value[7] = 40; //procs cone of cold
-      }
+  {
+      blade->value[5] = 10;
+      blade->value[6] = GET_LEVEL(ch);
+      blade->value[7] = 40; //procs cone of cold
+  }
   if (GET_LEVEL(ch) >= 41)
-      {
+  {
       blade->value[5] = 325;
-          blade->value[6] = GET_LEVEL(ch);
-          blade->value[7] = 40; //procs frostbite
-      }
+      blade->value[6] = GET_LEVEL(ch);
+      blade->value[7] = 40; //procs frostbite
+  }
   if (GET_LEVEL(ch) >= 51)
-      {
-          blade->value[5] = 254;
-          blade->value[6] = GET_LEVEL(ch);
-          blade->value[7] = 40; //procs iceball
-      }
+  {
+      blade->value[5] = 254;
+      blade->value[6] = GET_LEVEL(ch);
+      blade->value[7] = 40; //procs iceball
+  }
   if (GET_LEVEL(ch) >= 56)
-      {
-      SET_BIT(blade->bitvector2, AFF2_AIR_AURA);
-      }
-  act("&+cSwirling air solidifies into a slender sword.&n.", TRUE, ch, blade,
-      0, TO_ROOM);
-  act("&+cSwirling air solidifies into a slender sword.&n", TRUE, ch, blade,
-      0, TO_CHAR);
+  {
+    SET_BIT(blade->bitvector2, AFF2_AIR_AURA);
+  }
+  act("&+cSwirling air solidifies into a slender sword..", FALSE, ch, blade, 0, TO_ROOM);
+  act("&+cSwirling air solidifies into a slender sword.", FALSE, ch, blade, 0, TO_CHAR);
   blade->timer[0] = 180;
 
   obj_to_char(blade, ch);
@@ -407,8 +391,7 @@ void grant_wind_blade(P_char ch)
     wear(ch, blade, 12, TRUE);
 }
 
-void spell_wind_blade(int level, P_char ch, char *arg, int type, P_char
-                      victim, P_obj tar_obj)
+void spell_wind_blade(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_obj obj, next_obj;
   
@@ -443,8 +426,7 @@ void spell_wind_blade(int level, P_char ch, char *arg, int type, P_char
     
 }
 
-void spell_windwalk(int level, P_char ch, char *arg, int type, P_char victim,
-                    P_obj obj)
+void spell_windwalk(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int      location;
   char     buf[256] = { 0 };
@@ -458,7 +440,7 @@ void spell_windwalk(int level, P_char ch, char *arg, int type, P_char victim,
   }
 
   if (IS_PC(ch))
-    CharWait(ch, 36);
+    CharWait(ch, 100 - level);
   else
     CharWait(ch, 5);
 
@@ -567,8 +549,7 @@ void spell_windwalk(int level, P_char ch, char *arg, int type, P_char victim,
   }
 }
 
-void spell_frost_beacon(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj tar_obj)
+void spell_frost_beacon(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_obj    beacon;
 
@@ -580,12 +561,10 @@ void spell_frost_beacon(int level, P_char ch, char *arg, int type,
     return;
   }
 
-  act("&+CYou conjure a block of ice and mentally link it to yourself.",
-      FALSE, ch, beacon, 0, TO_CHAR);
-  act("&+C$n conjures up a block of arcane ice and leaves it to melt.", FALSE,
-      ch, beacon, 0, TO_ROOM);
+  act("&+CYou conjure a block of ice and mentally link it to yourself.", FALSE, ch, beacon, 0, TO_CHAR);
+  act("&+C$n conjures up a block of arcane ice and leaves it to melt.", FALSE, ch, beacon, 0, TO_ROOM);
 
-  set_obj_affected(beacon, dice(4, 2) * 120, TAG_OBJ_DECAY, 0);
+  set_obj_affected(beacon, dice(4, 2) * level * 4, TAG_OBJ_DECAY, 0);
 
   beacon->value[0] = GET_PID(ch);
 
@@ -593,8 +572,7 @@ void spell_frost_beacon(int level, P_char ch, char *arg, int type,
   SET_BIT(beacon->extra_flags, ITEM_SECRET);
 }
 
-void spell_vapor_strike(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj tar_obj)
+void spell_vapor_strike(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
     
@@ -611,8 +589,8 @@ void spell_vapor_strike(int level, P_char ch, char *arg, int type,
     send_to_char("&+cThe vapors have increased your precision.\r\n", victim);
 
     af.type = SPELL_VAPOR_STRIKE;
-    af.duration = MAX(5, level / 2);
-    af.modifier = dice(3, 3) + number(0, 2);
+    af.duration = MAX(10, level / 2);
+    af.modifier = dice(1, 4) + (level / 14);
     af.location = APPLY_HITROLL;
     affect_to_char(victim, &af);
   }
@@ -623,18 +601,17 @@ void spell_vapor_strike(int level, P_char ch, char *arg, int type,
     {
       if(af1->type == SPELL_VAPOR_STRIKE)
       {
-        af1->duration = MAX(5, (int)(level / 2));
+        af1->duration = MAX(10, (int)(level / 2));
         send_to_char("&+cYour &+Cvapor strike &+cability was refreshed!\r\n", victim);
       }
     }
   }
 }
 
-void spell_forked_lightning(int level, P_char ch, char *arg, int type,
-                            P_char victim, P_obj tar_obj)
+void spell_forked_lightning(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
-  int      dam;
-  int num_missiles = 3;
+  int dam;
+  int num_missiles = level / 14;
   struct damage_messages messages = {
     "You unleash a powerful blast of &-L&+Bforked lightning&n directed at $N.",
     "Giant bolts of &-L&+Bforked lightning&n hit you square in the chest, sending you reeling.",
@@ -645,18 +622,12 @@ void spell_forked_lightning(int level, P_char ch, char *arg, int type,
       0
   };
 
-  if (GET_LEVEL(ch) >= 53)
-          num_missiles ++;
-  dam = 5 * MIN(level, 56) + number(1, 25);
+  dam = dice(5, 2) + (level / 7);
 
-  if (saves_spell(victim, SAVING_SPELL))
-    dam >>= 1;
+  if(NewSaves(victim, SAVING_SPELL, 0))
+    dam >> 1;
 
-//  gain_exp(ch, victim, 0, EXP_DAMAGE); removed, changed to normal damage exp -Odorf
-
-  while (num_missiles-- &&
-      spell_damage(ch, victim, dam, SPLDAM_LIGHTNING, 0,
-                   &messages) == DAM_NONEDEAD);
+  while (num_missiles-- && spell_damage(ch, victim, dam, SPLDAM_LIGHTNING, 0, &messages) == DAM_NONEDEAD);
 }
 
 struct frost_data
@@ -667,47 +638,40 @@ struct frost_data
 
 void event_frost_bolt(P_char ch, P_char victim, P_obj obj, void *data)
 {
-  struct frost_data *fdata;
+  struct frost_data *fdata = (struct frost_data*)data;
 
   struct affected_type af;
-  int      dam, temp, round;
+  double dam;
   struct damage_messages messages = {
     "&+WYou send a bolt of &+Bchilling frost&n &+Wstreaking towards $N, which shatters on impact.",
     "&+BThe chill in your bones makes your body ache.",
-    "&+b$N is hit by an intense blast of &+Bfrost&n&+W, sending shards of ice flying through the room.",
+    "&+b$N is hit by an intense blast of &+Bfrost&n&+W, sending shards of ice flying through the area.",
     "&+WYour &+Bfrost bolt&+W is simply too much for $N who collapses in a frozen lump.",
     "&+BThe intense cold is simply too much as it completely overwhelms your body.",
     "&+W$n's &+Bfrost bolt&+W is simply too much for $N who collapses in a frozen lump.",
       0
   };
 
-  fdata = (struct frost_data *) data;
-
-  if (fdata->round >= 2)
+  if(fdata->round < 1)
     return;
-
-  fdata->round++;
-  temp = MIN(16, (fdata->level + 2));
-  dam = dice(temp, 2);
-
-  if (spell_damage(ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages)
-      == DAM_NONEDEAD)
-    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, fdata,
-              sizeof(struct frost_data));
+  fdata->round--;
+  dam = dice(fdata->level / 14, 3) + (fdata->level / 4);
+  wizlog(56, "dam %f level %d round %d", dam, fdata->level, fdata->round);
+  if (spell_damage(ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages) == DAM_NONEDEAD)
+    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, fdata, sizeof(struct frost_data));
 }
 
 
-void spell_frost_bolt(int level, P_char ch, char *arg, int type,
-                      P_char victim, P_obj tar_obj)
+void spell_frost_bolt(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_obj    obj;
   struct frost_data fdata;
   struct affected_type af;
-  int      dam, temp, round;
+  double dam;
   struct damage_messages messages = {
     "&+WYou send a bolt of &+Bchilling frost&n &+Wstreaking towards $N, which shatters on impact.",
     "&+BYou feel an intense cold that turns your body numb.",
-    "&+b$N is hit by an intense blast of &+Bfrost&n&+W, sending shards of ice flying through the room.",
+    "&+b$N is hit by an intense blast of &+Bfrost&n&+W, sending shards of ice flying through the area.",
     "&+WYour &+Bfrost bolt&+W is simply too much for $N who collapses in a frozen lump.",
     "&+BThe intense cold is simply too much as it completely overwhelms your body.",
     "&+W$n's &+Bfrost bolt&+W is simply too much for $N who collapses in a frozen lump.",
@@ -721,33 +685,27 @@ void spell_frost_bolt(int level, P_char ch, char *arg, int type,
   set_obj_affected(obj, 800, TAG_OBJ_DECAY, 0);
   obj_to_room(obj, ch->in_room);
 
-
-  round = 0;
-  temp = MIN(16, (level + 2));
-  dam = dice(temp, 3);
-
-  fdata.round = 0;
+  fdata.round = ((float)level / 14);
   fdata.level = level;
 
-  if (!spell_damage
-      (ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages))
+  dam = dice(level / 4, 2);
+  wizlog(56, "dam is %f", dam);
+  if(spell_damage(ch, victim, dam, SPLDAM_COLD, SPLDAM_ALLGLOBES, &messages) == DAM_NONEDEAD)
   {
     if (!NewSaves(victim, SAVING_SPELL, 2))
     {
       memset(&af, 0, sizeof(af));
       af.type = SPELL_CHILL_TOUCH;
       af.duration = 2;
-      af.modifier = -1;
+      af.modifier = -1 * (level / 7);
       af.location = APPLY_STR;
       affect_join(victim, &af, TRUE, FALSE);
     }
-    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, &fdata,
-              sizeof(fdata));
+    add_event(event_frost_bolt, PULSE_VIOLENCE, ch, victim, NULL, 0, &fdata, sizeof(fdata));
   }
 }
 
-void spell_ethereal_form(int level, P_char ch, char *arg, int type,
-                         P_char victim, P_obj tar_obj)
+void spell_ethereal_form(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
   int duration = (int)(8 + GET_LEVEL(ch) / 10 + GET_CHAR_SKILL(ch, SKILL_DEVOTION) / 10);
@@ -779,8 +737,7 @@ void spell_ethereal_form(int level, P_char ch, char *arg, int type,
   affect_to_char(ch, &af);
 }
 
-void spell_conjure_air(int level, P_char ch, char *arg, int type,
-                       P_char victim, P_obj tar_obj)
+void spell_conjure_air(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   P_char   mob;
   int      sum, mlvl, lvl;
@@ -833,7 +790,7 @@ void spell_conjure_air(int level, P_char ch, char *arg, int type,
   {
     logit(LOG_DEBUG, "spell_conjure_elemental(): mob %d not loadable",
           summons[sum].mob_number);
-    send_to_char("Bug in conjure elemental.  Tell a god!\r\n", ch);
+    send_to_char("Bug in conjure elemental air.  Tell a god!\r\n", ch);
     return;
   }
 
@@ -842,64 +799,53 @@ void spell_conjure_air(int level, P_char ch, char *arg, int type,
   char_to_room(mob, ch->in_room, 0);
 
   act(summons[sum].message, TRUE, mob, 0, 0, TO_ROOM);
-  justice_witness(ch, NULL, CRIME_SUMMON);
 
-  mlvl = (level / 5) * 2;
-  lvl = number(mlvl, mlvl * 3);
+  mlvl = level - number(3, 5);
 
   if (GET_SPEC(ch, CLASS_ETHERMANCER, SPEC_WINDTALKER))
-          mob->player.level = BOUNDED(10, level, 51);
+      mob->player.level = BOUNDED(10, mlvl, 51);
   else
-      mob->player.level = BOUNDED(10, lvl, 45);
+      mob->player.level = BOUNDED(10, mlvl, 46);
 
   if (GET_SPEC(ch, CLASS_ETHERMANCER, SPEC_WINDTALKER))
   {
-        GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob) / 2, 45) + GET_LEVEL(mob) + charisma;
+        GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =  dice(mlvl / 2, 15) + charisma;
   }
   else
   {
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob) / 2, 10) + GET_LEVEL(mob) + charisma;
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(mlvl / 2, 10) + charisma;
   }
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
 
+  mob->points.base_hitroll = mob->points.hitroll = mlvl;
+  mob->points.base_damroll = mob->points.damroll = mlvl;
+  MonkSetSpecialDie(mob);
 
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 3;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 3;
-  MonkSetSpecialDie(mob);       /* 2d6 to 4d5 */
-
-  if (IS_PC(ch) &&              /*(GET_LEVEL(mob) > number((level - i * 4), level * 3 / 2)) */
-      (GET_LEVEL(mob) > GET_LEVEL(ch)) && charisma < number(10, 100))
+  if (IS_PC(ch) && charisma < number(10, 150))
   {
-    act("$N is NOT pleased at being suddenly summoned against $S will!", TRUE,
-        ch, 0, mob, TO_ROOM);
-    act("$N is NOT pleased with you at all!", TRUE, ch, 0, mob, TO_CHAR);
+    act("$N is NOT pleased at being suddenly summoned against $S will!", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N is NOT pleased with you at all!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
 
   }
   else
   {                             /* Under control */
-    act("$N sulkily says 'Your wish is my command, $n!'", TRUE, ch, 0, mob,
-        TO_ROOM);
-    act("$N sulkily says 'Your wish is my command, master!'", TRUE, ch, 0,
-        mob, TO_CHAR);
+    act("$N sulkily says 'Your wish is my command, $n!'", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N sulkily says 'Your wish is my command, master!'", FALSE, ch, 0, mob, TO_CHAR);
 
-    int duration = setup_pet(mob, ch, 400 / STAT_INDEX(GET_C_INT(mob)), PET_NOCASH);
+    int duration = setup_pet(mob, ch, (level / 2), PET_NOCASH);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide */
     if (duration >= 0)
     {
-      duration += number(1,10);
-      add_event(event_pet_death, (duration+1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
+      add_event(event_pet_death, 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }    
 
   }
 }
 
-void spell_storm_empathy(int level, P_char ch, char *arg, int type,
-                         P_char victim, P_obj tar_obj)
+void spell_storm_empathy(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   struct affected_type af;
 
@@ -914,8 +860,7 @@ void spell_storm_empathy(int level, P_char ch, char *arg, int type,
   send_to_char("You feel protected from the storms!\r\n", victim);
 }
 
-void spell_greater_ethereal_recharge(int level, P_char ch, char *arg,
-                                     int type, P_char victim, P_obj tar_obj)
+void spell_greater_ethereal_recharge(int level, P_char ch, char *arg, int type, P_char victim, P_obj tar_obj)
 {
   int      healpoints;
 

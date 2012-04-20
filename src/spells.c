@@ -2097,9 +2097,7 @@ void cast_grow(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj t
   send_to_room("&+GThe ground starts to glow with a soft green light.&n\n", ch->in_room);
 }
 
-
-void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch,
-                P_obj tar_obj)
+void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch, P_obj tar_obj)
 {
   P_obj    t_obj, next_obj;
   P_obj    used_obj[32];
@@ -2109,13 +2107,11 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch,
   if (IS_AFFECTED5(ch, AFF5_VINES))
     return;
 
-/*
-  if (world[ch->in_room].sector_type != SECT_FOREST || world[ch->in_room].sector_type == SECT_FIELD
-      || world[ch->in_room].sector_type == SECT_SWAMP) {
+  if (world[ch->in_room].sector_type != SECT_FOREST || world[ch->in_room].sector_type != SECT_FIELD
+      || world[ch->in_room].sector_type != SECT_SWAMP) {
      send_to_char("There doesn't appear to be many vines around here.\n", ch);
      return;
   }
-*/
 
   if(IS_PC(ch) ||
      IS_PC_PET(ch))
@@ -2134,8 +2130,7 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch,
 
     if (!count)
     {
-      send_to_char("You must have &+ga green herb&n in your inventory.\r\n",
-                   ch);
+      send_to_char("You must have &+ga green herb&n in your inventory.\r\n", ch);
       return;
     }
 
@@ -2146,20 +2141,17 @@ void cast_vines(int level, P_char ch, char *arg, int type, P_char tar_ch,
       extract_obj(used_obj[i], TRUE);
   }
   else
-    count = (int)(level / 10);
+    count = level / 7;
     
-  act("&+GGreen&n vines sprout up around you forming a protective shield.",
-      FALSE, ch, 0, 0, TO_CHAR);
-
-  act("&+GVines&n sprout up around $n forming a protective shield.",
-    FALSE, ch, 0, 0, TO_NOTVICT);
+  act("&+GGreen&n vines sprout up around you forming a protective shield.", FALSE, ch, 0, 0, TO_CHAR);
+  act("&+GVines&n sprout up around $n forming a protective shield.", FALSE, ch, 0, 0, TO_NOTVICT);
 
   memset(&af, 0, sizeof(af));
   af.type = SPELL_VINES;
   af.flags = AFFTYPE_NOSHOW | AFFTYPE_NODISPEL;
   af.bitvector5 = AFF5_VINES;
-  af.duration = level / 2;
-  af.modifier = 100 * count;
+  af.duration = 4;
+  af.modifier = count * 5;
   affect_to_char(ch, &af);
 }
 

@@ -970,7 +970,7 @@ void spell_nightmare(int level, P_char ch, char *arg, int type, P_char victim, P
 void spell_shadow_shield(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int      absorb = (level / 6) + number(1, 4);
+  int absorb = level / 7;
 
   if(!has_skin_spell(victim))
   {
@@ -988,7 +988,6 @@ void spell_shadow_shield(int level, P_char ch, char *arg, int type, P_char victi
   af.duration = 4;
   af.modifier = absorb;
   affect_to_char(victim, &af);
-
 }
 
 void spell_vanish(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)

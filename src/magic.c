@@ -1280,7 +1280,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim, P_ob
   if(affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
   {
     act("$E is already a &+ywithered prune.&n Enfeebling $M is not possible.", TRUE, ch, 0, victim, TO_CHAR);
-    act("&+LLuckily for you, you cannot possibly get more feeble!&n", TRUE, ch, 0, victim, TO_VICT);
+    act("&+LLuckily for you, you cannot possibly get more feeble!", FALSE, ch, 0, victim, TO_VICT);
     return;
   }
 
@@ -1298,7 +1298,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim, P_ob
   {
     act("$N is &+Lwithered&n COMPLETELY by $n's touch!",
         TRUE, ch, 0, victim, TO_NOTVICT);
-    act("$n &+Lwithers&n you with his touch. You feel your muscles COMPLETELY shrink!", FALSE, ch, 0, victim, TO_VICT);
+    act("$n &+Lwithers&n you with his touch. You feel your muscles COMPLETELY shrink!", TRUE, ch, 0, victim, TO_VICT);
     act("$N is &+Lwithered&n COMPLETELY by your touch!", FALSE, ch, 0, victim, TO_CHAR);
     af.type = SPELL_WITHER;
     af.duration = 1;
@@ -1467,11 +1467,10 @@ P_char make_mirror (P_char ch) {
 
   image->specials.act |= ACT_SPEC_DIE;
 
-  int duration = setup_pet(image, ch, 30, PET_NOCASH);
-  /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+  int duration = setup_pet(image, ch, GET_LEVEL(ch), PET_NOCASH);
+  /* if the pet will stop being charmed after a bit, also make it suicide*/
   if(duration >= 0) {
-    duration += number(1,10);
-    add_event(event_pet_death, (duration+ 1) * 60 * 4, image, NULL, NULL, 0, NULL, 0);
+    add_event(event_pet_death, duration * 60 * 4, image, NULL, NULL, 0, NULL, 0);
   }
 
   /* string it */
@@ -1529,14 +1528,14 @@ bool can_conjure_lesser_elem(P_char ch, int level)
     i--;
   }
   
-  if(GET_C_CHA(ch) >= 200)
+  if(GET_C_CHA(ch) >= 130)
   {
     send_to_char("Your ability to inspire is amazing.\r\n", ch);
     j--;
     i--;
   }
 
-  if(j && i >= 2)
+  if(j) //wipe2011, limited to single greater, no lesser - Jexni 4/1/12
     return FALSE;
 
   if(GET_LEVEL(ch) >= 41 && i >= 3)
@@ -1653,32 +1652,30 @@ void spell_call_woodland_beings(int level, P_char ch, char *arg, int type, P_cha
     return;
   }
   GET_SIZE(mob) = SIZE_MEDIUM;
-  mob->player.m_class = CLASS_WARRIOR;
+  if(number(0, 1))
+    mob->player.m_class = CLASS_WARRIOR;
 
   char_to_room(mob, ch->in_room, 0);
-  act(summons[sum].message, TRUE, mob, 0, 0, TO_ROOM);
+  act(summons[sum].message, FALSE, mob, 0, 0, TO_ROOM);
   justice_witness(ch, NULL, CRIME_SUMMON);
 
   mlvl = (level / 5) * 2;
   lvl = number(mlvl, mlvl * 3);
 
-  mob->player.level = BOUNDED(10, lvl, 42);
+  mob->player.level = BOUNDED(10, lvl, 46);
 
-  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob) / 2, 8) + GET_LEVEL(mob);
+  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =  dice(level, 8) + lvl;
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
 
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 3;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 3;
-  MonkSetSpecialDie(mob);       /* 2d6 to 4d5 */
-  mob->points.damsizedice = (int)(0.5 * mob->points.damsizedice);
+  mob->points.base_hitroll = mob->points.hitroll = lvl;
+  mob->points.base_damroll = mob->points.damroll = lvl;
+  MonkSetSpecialDie(mob);
+  mob->points.damsizedice = (float)(0.5 * mob->points.damsizedice);
 
-  act("$N acts all friendly around $n!'", TRUE, ch, 0,
-      mob, TO_ROOM);
-  act("$N acts all friendly around you!'", TRUE, ch, 0,
-      mob, TO_CHAR);
-  int duration = setup_pet(mob, ch, 100 / STAT_INDEX(GET_C_INT(mob)), PET_NOCASH);
+  act("$N acts all friendly around $n!'", FALSE, ch, 0, mob, TO_ROOM);
+  act("$N acts all friendly around you!'", FALSE, ch, 0, mob, TO_CHAR);
+  int duration = setup_pet(mob, ch, (level / 4) * 60, PET_NOCASH);
   add_follower(mob, ch);
 
 }
@@ -1707,49 +1704,42 @@ void spell_elemental_swarm(int level, P_char ch, char *arg, int type, P_char vic
     send_to_char("Bug in conjure elemental.  Tell a god!\n", ch);
     return;
   }
+
   GET_SIZE(mob) = SIZE_MEDIUM;
-  //mob->player.m_class = 0;
 
   char_to_room(mob, ch->in_room, 0);
-  act("$n &+Lgrunts, and comes forth to join the swarm!!.", TRUE, mob, 0, 0, TO_ROOM);
+  act("$n &+Lmaterializes in front of you, ready to join the swarm!", FALSE, mob, 0, 0, TO_ROOM);
   justice_witness(ch, NULL, CRIME_SUMMON);
 
-  lvl = number(level - 3, level + 3);
-
- // GET_LEVEL(mob) = BOUNDED(10, lvl, 45);
-  mob->player.level = BOUNDED(1, lvl, 51);
+  lvl = level - number(2, 5);
+  mob->player.level = BOUNDED(1, lvl, 46);
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
   SET_BIT(mob->specials.act, ACT_SPEC_DIE);
-  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob), 7) + (GET_LEVEL(mob) * 2);
+  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(level, 7) + (level * 2);
   GET_EXP(mob) = 0;
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 2;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) + 10;
-  MonkSetSpecialDie(mob);       /* 2d6 to 4d5 */
+  mob->points.base_hitroll = mob->points.hitroll = level;
+  mob->points.base_damroll = mob->points.damroll = level;
+  MonkSetSpecialDie(mob);
 
   if(!can_conjure_lesser_elem(ch, level))
   {
-    act
-      ("$N &+Lis NOT pleased at being suddenly summoned with this many &+Celementals&+L in the room!&n",
-       TRUE, ch, 0, mob, TO_ROOM);
-    act
-      ("$N &+Lis NOT pleased with you summon $S with this many &+Celementals&+L in the room!",
-       TRUE, ch, 0, mob, TO_CHAR);
+    act("$N &+Lis NOT pleased at being suddenly summoned with this many &+Celementals&+L in the room!&n",
+       FALSE, ch, 0, mob, TO_ROOM);
+    act("$N &+Lis NOT pleased with you summon $S with this many &+Celementals&+L in the room!",
+       FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
     return;
   }
   else
   {
-    // play_sound(SOUND_ELEMENTAL, NULL, ch->in_room, TO_ROOM);
     int duration = setup_pet(mob, ch, 1, PET_NOCASH | PET_NOORDER | PET_NOAGGRO);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide*/
     if(duration >= 0)
     {
-      duration = number(5, 30);
       add_event(event_elemental_swarm_death, duration, mob, NULL, NULL, 0, NULL, 0);
-        }
+    }
   }
 
   if(victim)
@@ -1761,7 +1751,7 @@ void spell_conjure_elemental(int level, P_char ch, char *arg, int type, P_char v
 {
   P_char   mob;
   int      life = GET_CHAR_SKILL(ch, SKILL_INFUSE_LIFE);
-  int      charisma = GET_C_CHA(ch) + (GET_LEVEL(ch) / 5);
+  int      charisma = GET_C_CHA(ch);
   int      sum, mlvl, lvl, duration, room = ch->in_room;
   int      good_terrain = 0;
   static struct
@@ -1826,8 +1816,7 @@ void spell_conjure_elemental(int level, P_char ch, char *arg, int type, P_char v
   
   if(!mob)
   {
-    logit(LOG_DEBUG, "spell_conjure_elemental(): mob %d not loadable",
-          summons[sum].mob_number);
+    logit(LOG_DEBUG, "spell_conjure_elemental(): mob %d not loadable", summons[sum].mob_number);
     send_to_char("Bug in conjure elemental.  Tell a god!\n", ch);
     return;
   }
@@ -1839,20 +1828,8 @@ void spell_conjure_elemental(int level, P_char ch, char *arg, int type, P_char v
   act(summons[sum].message, TRUE, mob, 0, 0, TO_ROOM);
   justice_witness(ch, NULL, CRIME_SUMMON);
 
-  // Reworking level code for conj pets.
-  /*
-  mlvl = (level / 5) * 2;
-  lvl = number(mlvl, mlvl * 3);
-
-  mob->player.level = BOUNDED(10, lvl, 45);
-  */
-
-  if (number(1, 100) < 20)
-    lvl = level + number(2, 5);
-  else
-    lvl = level - number(-1, 5);
-
-  mob->player.level = BOUNDED(10, lvl, 45);
+  mlvl = level - number(1, 3);
+  mob->player.level = BOUNDED(10, mlvl, 46);
 
   MonkSetSpecialDie(mob);
   
@@ -1865,68 +1842,45 @@ void spell_conjure_elemental(int level, P_char ch, char *arg, int type, P_char v
 
   if(good_terrain == 1)
   {
-
-    if(IS_SET(mob->specials.affected_by2, AFF2_SLOW))
+    mob->points.base_hitroll = mob->points.hitroll = level;
+    mob->points.base_damroll = mob->points.damroll = level;
+    
+    give_proper_stat(mob);
+    
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = (int) (dice(level, 8) + life + charisma);
+    
+    if(GET_C_CHA(ch) > number(105, 200))
     {
-      REMOVE_BIT(mob->specials.affected_by2, AFF2_SLOW);
-    }
-    
-    if(!IS_SET(mob->specials.affected_by, AFF_HASTE))
-    {
-      SET_BIT(mob->specials.affected_by, AFF_HASTE);
-    }
-    
-    mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 2;
-    mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 2;
-    
-    mob->base_stats.Str = 100;
-    mob->base_stats.Dex = 100;
-    mob->base_stats.Agi = 100;
-    mob->base_stats.Pow = 100;
-    
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      (int) (dice(GET_LEVEL(mob) / 2, 12) + 6 * GET_LEVEL(mob) + life + charisma);
-    
-    if(GET_C_CHA(ch) > number(0, 400))
-    {
-      GET_SIZE(mob) = SIZE_LARGE;
       mob->player.spec = 2; // Guardian spec
     }
   }
   else
   {
-    mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 3;
-    mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 3;
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      dice(GET_LEVEL(mob) / 2, 10) + 3 * GET_LEVEL(mob) + life + charisma;
+    mob->points.base_hitroll = mob->points.hitroll = level - number(5, 8);
+    mob->points.base_damroll = mob->points.damroll = level - number(5, 8);
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(level, 6) + life + charisma;
     mob->points.damsizedice = (int)(0.8 * mob->points.damsizedice);
   }
   
   if(IS_PC(ch) && 
-    GET_LEVEL(mob) > GET_LEVEL(ch) &&
-    charisma < number(10, (int) (get_property("summon.lesser.elemental.charisma", 140.000))) &&
-    !has_air_staff_arti(ch) &&
-    GET_LEVEL(ch) < 50)
+     charisma < number(10, (int) (get_property("summon.lesser.elemental.charisma", 140.000))) &&
+     !has_air_staff_arti(ch) &&
+     GET_LEVEL(ch) < 51)
   {
-    act("$N is NOT pleased at being suddenly summoned against $S will!",
-        TRUE, ch, 0, mob, TO_ROOM);
-    act("$N is NOT pleased with you at all!", TRUE, ch, 0, mob, TO_CHAR);
+    act("$N is NOT pleased at being suddenly summoned against $S will!", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N is NOT pleased with you at all!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
   }
   else
   {                             /* Under control */
-    act("$N sulkily says 'Your wish is my command, $n!'", TRUE, ch, 0,
-        mob, TO_ROOM);
-    act("$N sulkily says 'Your wish is my command, master!'", TRUE, ch, 0,
-        mob, TO_CHAR);
-    // play_sound(SOUND_ELEMENTAL, NULL, ch->in_room, TO_ROOM);
-    duration = setup_pet(mob, ch, 400 / STAT_INDEX(GET_C_INT(mob)), PET_NOCASH);
+    act("$N sulkily says 'Your wish is my command, $n...'", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N sulkily says 'Your wish is my command, master...'", FALSE, ch, 0, mob, TO_CHAR);
+    duration = setup_pet(mob, ch, level / 2, PET_NOCASH);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide */
     if(duration >= 0)
     {
-      duration += number(1,10);
-      add_event(event_pet_death, (duration+ 1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
+      add_event(event_pet_death, duration * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }
   }
 }
@@ -1969,39 +1923,30 @@ void spell_living_stone(int level, P_char ch, char *arg, int type, P_char victim
   justice_witness(ch, NULL, CRIME_SUMMON);
 
   lvl = number(level - 3, level + 3);
-
-//  GET_LEVEL(mob) = BOUNDED(10, lvl, 45);
   mob->player.level = BOUNDED(1, lvl, 56);
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
   SET_BIT(mob->specials.act, ACT_SPEC_DIE);
-  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob), 3) + (GET_LEVEL(mob) * 2);
+  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(level, 4) + GET_C_CHA(ch);
   GET_EXP(mob) = 0;
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 2;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) + 10;
-  MonkSetSpecialDie(mob);       /* 2d6 to 4d5 */
+  mob->points.base_hitroll = mob->points.hitroll = level;
+  mob->points.base_damroll = mob->points.damroll = level;
+  MonkSetSpecialDie(mob);
 
   if(!can_conjure_lesser_elem(ch, level))
   {
-    act
-      ("$N &+Lis NOT pleased at being suddenly summoned with this many &+Rstones&+L in the room!&n",
-       TRUE, ch, 0, mob, TO_ROOM);
-    act
-      ("$N &+Lis NOT pleased with you summon $S with this many &+Rstone&+L in the room!",
-       TRUE, ch, 0, mob, TO_CHAR);
+    act("$N &+Lis NOT pleased at being summoned with this many &+Rstones&+L in the room!", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N &+Lis NOT pleased with you summoning $M with this many &+Rstones&+L in the room!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
     return;
   }
   else
   {
-    // play_sound(SOUND_ELEMENTAL, NULL, ch->in_room, TO_ROOM);
     int duration = setup_pet(mob, ch, 1, PET_NOCASH | PET_NOORDER | PET_NOAGGRO);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide*/
     if(duration >= 0)
     {
-      duration = number(5,10);
       add_event(event_living_stone_death, duration, mob, NULL, NULL, 0, NULL, 0);
     }
   }
@@ -2011,8 +1956,7 @@ void spell_living_stone(int level, P_char ch, char *arg, int type, P_char victim
   group_add_member(ch, mob);
 }
 
-void spell_greater_living_stone(int level, P_char ch, char *arg, int type,
-                                P_char victim, P_obj obj)
+void spell_greater_living_stone(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   P_char   mob;
   int      lvl;
@@ -2044,26 +1988,23 @@ void spell_greater_living_stone(int level, P_char ch, char *arg, int type,
   justice_witness(ch, NULL, CRIME_SUMMON);
 
   lvl = number(level - 3, level + 3);
-
   mob->player.level = BOUNDED(1, lvl, 56);
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
   SET_BIT(mob->specials.act, ACT_SPEC_DIE);
 
-  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    dice(GET_LEVEL(mob), 3) + (GET_LEVEL(mob) * 2);
+  GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(level, 4) + GET_C_CHA(ch);
 
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 2;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) + 15;
-  mob->points.damnodice = 15;
-  mob->points.damsizedice = 14;
+  mob->points.base_hitroll = mob->points.hitroll = level;
+  mob->points.base_damroll = mob->points.damroll = level;
+  mob->points.damnodice = level / 7;
+  mob->points.damsizedice = level / 8;
 
   int duration = setup_pet(mob, ch, 1, PET_NOCASH | PET_NOORDER | PET_NOAGGRO);
   add_follower(mob, ch);
-  /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+  /* if the pet will stop being charmed after a bit, also make it suicide  */
   if(duration >= 0)
   {
-    duration = number(7,12);
     add_event(event_living_stone_death, duration, mob, NULL, NULL, 0, NULL, 0);
   }
 
@@ -2082,6 +2023,9 @@ bool can_conjure_greater_elem(P_char ch, int level)
   for (k = ch->followers, j = 0; k; k = k->next)
   {
     victim = k->follower;
+
+    if(victim) // wipe2011, only single greater for a pet - Jexni 4/1/12
+      return FALSE;
     
     if(IS_GREATER_ELEMENTAL(victim))
     {
@@ -2145,22 +2089,17 @@ int conjure_terrain_check(P_char ch, P_char mob)
   switch (ch->player.spec)
   {
 	case 1: /* AIR conjurer*/
-
 	if (world[room].sector_type == SECT_AIR_PLANE)
 	{
-	  act("$N &+Labsorbs vast quantities of &+Cair &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Labsorbs vast quantities of &+Cair &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_CHAR);
+	  act("$N &+Labsorbs vast quantities of &+Cair &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Labsorbs vast quantities of &+Cair &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_CHAR);
 	  return 1;
 	}
 	else if (world[room].sector_type == SECT_EARTH_PLANE)
 	{
-	  act("$N &+Lfeebly tries to draw &+Cair &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Lfeebly tries to draw &+Cair &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_CHAR);
-      return -1;
+	  act("$N &+Lfeebly tries to draw &+Cair &+Lbut there is so little...", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Lfeebly tries to draw &+Cair &+Lbut there is so little...", FALSE, ch, 0, mob, TO_CHAR);
+          return -1;
 	}
 	else		
 	  return 0;
@@ -2168,67 +2107,52 @@ int conjure_terrain_check(P_char ch, P_char mob)
 	break;
 
 	case 2: /* WATER conjurer*/
-
-    if (IS_FIRE(room) || world[room].sector_type == SECT_FIREPLANE)
+        if (IS_FIRE(room) || world[room].sector_type == SECT_FIREPLANE)
 	{
-	  act("$N &+rfeebly tries to draw &+Bwater &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+rfeebly tries to draw &+Bwater &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_CHAR);
-      return -1;
+	  act("$N &+rfeebly tries to draw &+Bwater &+Lbut there is so little...", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+rfeebly tries to draw &+Bwater &+Lbut there is so little...", FALSE, ch, 0, mob, TO_CHAR);
+          return -1;
 	}
-    else if (IS_WATER_ROOM(room) || world[room].sector_type == SECT_OCEAN)
+        else if (IS_WATER_ROOM(room) || world[room].sector_type == SECT_OCEAN)
 	{
-	  act("$N &+Labsorbs vast quantities of &+Bwater &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Labsorbs vast quantities of &+Bwater &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_CHAR);
+	  act("$N &+Labsorbs vast quantities of &+Bwater &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Labsorbs vast quantities of &+Bwater &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_CHAR);
 	  return 1;
 	}
-    else
-      return 0;
+        else
+          return 0;
 
 	break;
 
 	case 3: /* FIRE conjurer*/
-
 	if (IS_FIRE(room) || world[room].sector_type == SECT_FIREPLANE)
 	{
-	  act("$N &+Labsorbs vast quantities of &+Rfire &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Labsorbs vast quantities of &+Rfire &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_CHAR);
-      return 1;
+	  act("$N &+Labsorbs vast quantities of &+Rfire &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Labsorbs vast quantities of &+Rfire &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_CHAR);
+          return 1;
 	}
-    else if (IS_WATER_ROOM(room) || world[room].sector_type == SECT_OCEAN)
+        else if (IS_WATER_ROOM(room) || world[room].sector_type == SECT_OCEAN)
 	{
-	  act("$N &+bfeebly tries to draw &+Rfire &+bbut there is so little...",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+bfeebly tries to draw &+Rfire &+bbut there is so little...",
-          TRUE, ch, 0, mob, TO_CHAR);
-      return -1;
+	  act("$N &+bfeebly tries to draw &+Rfire &+bbut there is so little...", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+bfeebly tries to draw &+Rfire &+bbut there is so little...", FALSE, ch, 0, mob, TO_CHAR);
+          return -1;
 	}
-    else
-      return 0;
+        else
+          return 0;
 
-    break;
+        break;
 
-	case 4: /* EARTH conjurer*/
-		
+	case 4: /* EARTH conjurer*/		
 	if (world[room].sector_type == SECT_EARTH_PLANE)
 	{
-	  act("$N &+Labsorbs vast quantities of &+yearth &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Labsorbs vast quantities of &+yearth &+Lfrom the surrounding area!",
-          TRUE, ch, 0, mob, TO_CHAR);
+	  act("$N &+Labsorbs vast quantities of &+yearth &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Labsorbs vast quantities of &+yearth &+Lfrom the surrounding area!", FALSE, ch, 0, mob, TO_CHAR);
 	  return 1;
 	}
 	else if (world[room].sector_type == SECT_AIR_PLANE)
 	{
-	  act("$N &+Lfeebly tries to draw &+yearth &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_ROOM);
-    act("$N &+Lfeebly tries to draw &+yearth &+Lbut there is so little...",
-          TRUE, ch, 0, mob, TO_CHAR);
+	  act("$N &+Lfeebly tries to draw &+yearth &+Lbut there is so little...", FALSE, ch, 0, mob, TO_ROOM);
+          act("$N &+Lfeebly tries to draw &+yearth &+Lbut there is so little...", FALSE, ch, 0, mob, TO_CHAR);
 	  return -1;
 	}
 	else		
@@ -2245,7 +2169,7 @@ void conjure_specialized(P_char ch, int level)
   P_char   mob;
   int      summoned, room;
   int      life = GET_CHAR_SKILL(ch, SKILL_INFUSE_LIFE);
-  int      charisma = GET_C_CHA(ch) + (GET_LEVEL(ch) / 5);
+  int      charisma = GET_C_CHA(ch);
   int      good_terrain = 0;
   char    *summons[] = {
     "&+CA HUGE gust of wind solidifies into&n $n.",
@@ -2256,35 +2180,35 @@ void conjure_specialized(P_char ch, int level)
   static struct
   {
     int      vnum;
-    int      hits;
+    int      hitmod;
     int      damroll;
   } pets[] = // If you add or remove mobs, make sure to adjust 
               // IS_GREATER_ELEMENTAL define in utils.h -Lucrot
   {
     {
-    1130, 500, 20},
+    1130, 12, 20},
     {
-    1131, 400, 20},
+    1131, 8, 15},
     {
-    1132, 600, 20},             /* AIR */
+    1132, 10, 17},             /* AIR */
     {
-    1140, 600, 25},
+    1140, 12, 20},
     {
-    1141, 600, 20},
+    1141, 8, 15},
     {
-    1142, 600, 20},             /* WATER */
+    1142, 10, 17},             /* WATER */
     {
-    1110, 600, 20},
+    1110, 12, 20},
     {
-    1111, 700, 25},
+    1111, 8, 15},
     {
-    1112, 550, 20},             /* FIRE */
+    1112, 10, 17},             /* FIRE */
     {
-    1120, 600, 20},
+    1120, 8, 15},
     {
-    1121, 800, 30},
+    1121, 12, 20},
     {
-    1122, 700, 25},             /* EARTH */
+    1122, 10, 17},             /* EARTH */
   };
 
   summoned = 3 * (ch->player.spec - 1) + number(0, 2);
@@ -2295,14 +2219,13 @@ void conjure_specialized(P_char ch, int level)
      !(mob) ||
      !(room))
   {
-    logit(LOG_DEBUG, "spell_conjure_greater_elemental(): mob %d not loadable",
-          pets[summoned].vnum);
+    logit(LOG_DEBUG, "spell_conjure_greater_elemental(): mob %d not loadable", pets[summoned].vnum);
     send_to_char("Bug in conjure greater elemental.  Tell a god!\n", ch);
     return;
   }
 
   char_to_room(mob, room, 0);
-  act(summons[ch->player.spec - 1], TRUE, mob, 0, 0, TO_ROOM);
+  act(summons[ch->player.spec - 1], FALSE, mob, 0, 0, TO_ROOM);
   
   if(!IS_SET(mob->specials.affected_by, AFF_INFRAVISION))
   {
@@ -2310,66 +2233,51 @@ void conjure_specialized(P_char ch, int level)
   }
   
   if(GET_LEVEL(ch) > 55)
-    mob->player.level = (ubyte)number(51,55);
+    mob->player.level = (ubyte)number(51, 53);
   else
-    mob->player.level = (ubyte)number(49,53);
+    mob->player.level = (ubyte)number(41, 50);
 
   //whew, big bonus for high level mobs!
-  if(mob->player.level > 53)
+  if(mob->player.level > 51)
   {
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-    pets[summoned].hits * 2 + number(0, 50) + (life * 3) + charisma;
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(pets[summoned].hitmod, 120) + (life * 3) + charisma;
   }
-  else if(mob->player.level > 49)
+  else if(mob->player.level > 45)
   {
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      pets[summoned].hits + number(0, 50) + (life * 3) + charisma;
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(pets[summoned].hitmod, 100) + (life * 2) + charisma;
   }
   else
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      310 + number(0,50) + (life * 3) + charisma;
-
-  GET_MAX_HIT(mob) = GET_HIT(mob) = (int) (GET_MAX_HIT(mob) * .66);
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(pets[summoned].hitmod, 80) + life + charisma;
   
-  mob->points.base_hitroll = mob->points.hitroll =
-    pets[summoned].damroll + number(0, 5);
-  mob->points.base_damroll = mob->points.damroll =
-    pets[summoned].damroll + number(0, 5);
+  mob->points.base_hitroll = mob->points.hitroll = level - 10;
+  mob->points.base_damroll = mob->points.damroll = level / 2 + pets[summoned].damroll;
   MonkSetSpecialDie(mob);
-  mob->points.damsizedice = (int)(0.8 * mob->points.damsizedice);
 
   good_terrain = conjure_terrain_check(ch, mob);
   
   if(good_terrain == -1)
   {
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      (int) (50 + number(1, 100) + (life * 2) + (charisma));
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(2, life) + dice(2, charisma);
     GET_SIZE(mob) = SIZE_MEDIUM;
   }
   else if(good_terrain == 1)
   {
-
     if(IS_SET(mob->specials.affected_by2, AFF2_SLOW))
     {
       REMOVE_BIT(mob->specials.affected_by2, AFF2_SLOW);
     }
     
     if(!IS_SET(mob->specials.affected_by, AFF_HASTE))
-    {
+    {	
       SET_BIT(mob->specials.affected_by, AFF_HASTE);
     }
     
-    mob->points.base_hitroll = mob->points.hitroll =
-      pets[summoned].damroll + number(20, 30);
-    mob->points.base_damroll = mob->points.damroll =
-      pets[summoned].damroll + number(20, 30);
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      (int) (GET_LEVEL(ch) * 30 + number(1, 100) + (life * 4) + (charisma * 2));
-    GET_SIZE(mob) = SIZE_HUGE;
-    mob->base_stats.Str = 100;
-    mob->base_stats.Dex = 100;
-    mob->base_stats.Agi = 100;
-    mob->base_stats.Pow = 100;
+    mob->points.base_hitroll = mob->points.hitroll = pets[summoned].damroll * 3 - 10;
+    mob->points.base_damroll = mob->points.damroll = pets[summoned].damroll * 3 - 5;
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(pets[summoned].hitmod, 100) + (life * 2) + dice(3, charisma);
+    GET_SIZE(mob) = SIZE_LARGE;
+    give_proper_stat(mob);
+    MonkSetSpecialDie(mob);
     
     if(!IS_MULTICLASS_NPC(mob) &&
        !IS_SPECIALIZED(mob) &&
@@ -2395,31 +2303,26 @@ void conjure_specialized(P_char ch, int level)
     !IS_TRUSTED(ch) &&
     !(has_air_staff_arti(ch)))
   {
-    act("$N is NOT pleased at being suddenly summoned against $S will!", TRUE,
-        ch, 0, mob, TO_ROOM);
-    act("$N is NOT pleased with you at all!", TRUE, ch, 0, mob, TO_CHAR);
+    act("$N is NOT pleased at being suddenly summoned against $S will!", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N is NOT pleased with you at all!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
   }
   else
   {
-    act("$N says 'I shall serve you for a short time $n!'", TRUE, ch, 0, mob,
-        TO_ROOM);
-    act("$N says 'I shall serve you for a short time!'", TRUE, ch, 0, mob,
-        TO_CHAR);
+    act("$N says 'I shall serve you for a short time $n!'", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N says 'I shall serve you for a short time!'", FALSE, ch, 0, mob, TO_CHAR);
 
-    int duration = setup_pet(mob, ch, 400 / STAT_INDEX(GET_C_INT(mob)), PET_NOCASH);
+    int duration = setup_pet(mob, ch, level / 2, PET_NOCASH);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if pet stops being charmed, make it "return home" */
     if(duration >= 0)
     {
-      duration += number(1,10);
-      add_event(event_pet_death, (duration+ 1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
+      add_event(event_pet_death, duration * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }
   }
 }
 
-void spell_conjure_greater_elemental(int level, P_char ch, char *arg,
-                                     int type, P_char victim, P_obj obj)
+void spell_conjure_greater_elemental(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   P_char   mob;
   int      sum, duration, room;
@@ -2480,63 +2383,59 @@ void spell_conjure_greater_elemental(int level, P_char ch, char *arg,
   
   if(!mob)
   {
-    logit(LOG_DEBUG, "spell_conjure_greater_elemental(): mob %d not loadable",
-          summons[sum].mob_number);
+    logit(LOG_DEBUG, "spell_conjure_greater_elemental(): mob %d not loadable", summons[sum].mob_number);
     send_to_char("Bug in conjure greater elemental.  Tell a god!\n", ch);
     return;
   }
   
-  GET_SIZE(mob) = SIZE_LARGE;
+  GET_SIZE(mob) = SIZE_HUGE;
+  mob->player.m_class = CLASS_WARRIOR;
   char_to_room(mob, room, 0);
-  act(summons[sum].message, TRUE, mob, 0, 0, TO_ROOM);
+  act(summons[sum].message, FALSE, mob, 0, 0, TO_ROOM);
+  mob->player.level = number(51, level);
 
-  mob->player.level = number(49, 53);
-  if(mob->player.level == 49)
+#if wipe2011
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = dice(level / 2, level) + (life * 4) + dice(charisma, 3);
+#else
+    if(mob->player.level == 49)
     GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = 550 + number(0,50) + (life * 3) + charisma;
   else if(mob->player.level == 50)
     GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = 600 + number(0,50) + (life * 3) + charisma;
   else if(mob->player.level == 51)
     GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = 650 + number(0,50) + (life * 3) + charisma;
   else if(mob->player.level == 52)
-    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
-      700 + number(0,50) + (life * 3) + charisma;
+    GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit = 700 + number(0,50) + (life * 3) + charisma;
   else
-          //big bonus for highest level pet, since it's rare
+         //big bonus for highest level pet, since it's rare
     GET_MAX_HIT(mob) = GET_HIT(mob) = mob->points.base_hit =
       800 + number(0,50) + (life * 3) + charisma;
+#endif
 
   SET_BIT(mob->specials.affected_by, AFF_INFRAVISION);
-
-  mob->points.base_hitroll = mob->points.hitroll = GET_LEVEL(mob) / 3;
-  mob->points.base_damroll = mob->points.damroll = GET_LEVEL(mob) / 3;
-
-  MonkSetSpecialDie(mob);       /* 2d6 to 4d5 */
-  mob->points.damsizedice = (int)(0.8 * mob->points.damsizedice);
+  mob->points.base_hitroll = mob->points.hitroll = level;
+  mob->points.base_damroll = mob->points.damroll = level;
+  MonkSetSpecialDie(mob);
 
   if(IS_PC(ch) &&              
     !has_air_staff_arti(ch) &&
     (charisma + number(0, GET_LEVEL(ch)) < number(10, (int) (get_property("summon.greater.elemental.charisma", 140.000)))) &&
     !IS_TRUSTED(ch))
   {
-    act("$N is NOT pleased at being suddenly summoned against $S will!",
-      TRUE, ch, 0, mob, TO_ROOM);
-    act("$N is NOT pleased with you at all!", TRUE, ch, 0, mob, TO_CHAR);
+    act("$N is NOT pleased at being suddenly summoned against $S will!", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N is NOT pleased with you at all!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
   }
   else
   {                             /* Under control */
-    act("$N says 'I shall serve you for a short time $n!'",
-      TRUE, ch, 0, mob, TO_ROOM);
-    act("$N says 'I shall serve you for a short time!'",
-      TRUE, ch, 0, mob, TO_CHAR);
+    act("$N says 'I shall serve you for a short time $n!'", FALSE, ch, 0, mob, TO_ROOM);
+    act("$N says 'I shall serve you for a short time!'", FALSE, ch, 0, mob, TO_CHAR);
 
-    duration = setup_pet(mob, ch, 400 / STAT_INDEX(GET_C_INT(mob)), PET_NOCASH);
+    duration = setup_pet(mob, ch, level + life, PET_NOCASH);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide */
     if(duration >= 0)
     {
-      duration += number(1,10);
-      add_event(event_pet_death, (duration+ 1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
+      add_event(event_pet_death, duration * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }
   }
 }
@@ -2581,7 +2480,7 @@ void spell_summon_greater_demon(int level, P_char ch, P_char victim, P_obj obj)
     return;
   }
   GET_SIZE(mob) = SIZE_LARGE;
-  act(summons[sum].message, TRUE, mob, 0, 0, TO_ROOM);
+  act(summons[sum].message, FALSE, mob, 0, 0, TO_ROOM);
   mob->points.base_mana = 1000;
   mob->points.mana = 1000;
   SET_BIT(mob->specials.act, ACT_SENTINEL);
@@ -2609,27 +2508,26 @@ void spell_summon_greater_demon(int level, P_char ch, P_char victim, P_obj obj)
       (weapon && (weapon->R_num != real_object(67207)))
       && !number(0, 300) && !IS_TRUSTED(ch))
   {
-    act("$N is NOT pleased at being suddenly summoned against $S will!", TRUE,
+    act("$N is NOT pleased at being suddenly summoned against $S will!", FALSE,
         ch, 0, mob, TO_ROOM);
-    act("$N is NOT pleased with you at all!", TRUE, ch, 0, mob, TO_CHAR);
+    act("$N is NOT pleased with you at all!", FALSE, ch, 0, mob, TO_CHAR);
     MobStartFight(mob, ch);
   }
   else
   {                             /* Under control */
     act
       ("$N says 'I shall serve you for a short time $n, and then I shall have you!'",
-       TRUE, ch, 0, mob, TO_ROOM);
+       FALSE, ch, 0, mob, TO_ROOM);
     act
       ("$N says 'I shall serve you for a short time, before taking your soul!'",
-       TRUE, ch, 0, mob, TO_CHAR);
+       FALSE, ch, 0, mob, TO_CHAR);
 
-    int duration = setup_pet(mob, ch, 30, PET_NOCASH);
+    int duration = setup_pet(mob, ch, level / 2, PET_NOCASH);
     add_follower(mob, ch);
-    /* if the pet will stop being charmed after a bit, also make it suicide 1-10 minutes later */
+    /* if the pet will stop being charmed after a bit, also make it suicide */
     if(duration >= 0)
     {
-      duration += number(1,10);
-      add_event(event_pet_death, (duration+ 1) * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
+      add_event(event_pet_death, duration * 60 * 4, mob, NULL, NULL, 0, NULL, 0);
     }
   }
 }
@@ -2883,7 +2781,7 @@ int spell_solbeeps_single_missile(int level, P_char ch, char *arg, int type, P_c
           char_from_room(victim);
           if(!char_to_room(victim, target_room, -1))
           {
-            act("$n flies in, crashing on the floor!", TRUE, victim, 0, 0,
+            act("$n flies in, crashing on the floor!", FALSE, victim, 0, 0,
               TO_ROOM);
             SET_POS(victim, POS_PRONE + GET_STAT(victim));
             update_pos(victim);
@@ -3363,7 +3261,7 @@ void spell_earthquake(int level, P_char ch, char *arg, int type, P_char victim, 
        affected_by_spell(tch, AFF_FLY))
     {
       act("The ground rumbles beneath you, but affects you little.", FALSE, ch, 0, tch, TO_VICT);
-      act("$n seems unaffected by the quake.", TRUE, tch, 0, 0, TO_ROOM);
+      act("$n seems unaffected by the quake.", FALSE, tch, 0, 0, TO_ROOM);
       continue;
     }
 
@@ -3376,12 +3274,12 @@ void spell_earthquake(int level, P_char ch, char *arg, int type, P_char victim, 
       if(StatSave(tch, APPLY_AGI, save))
       {    
         act("&+LYou stagger, but manage to keep your balance!&n", FALSE, ch, 0, tch, TO_VICT);
-        act("$n&n &+wstaggers slightly but manages to keep $s balance.&n", TRUE, tch, 0, 0, TO_ROOM);
+        act("$n&n &+wstaggers slightly but manages to keep $s balance.&n", FALSE, tch, 0, 0, TO_ROOM);
       }
       else
       {
         act("&+mYou stagger and fall to your knees!&n", FALSE, ch, 0, tch, TO_VICT);
-        act("$n&n &+mstaggers and falls to $s knees!&n", TRUE, tch, 0, 0, TO_ROOM);
+        act("$n&n &+mstaggers and falls to $s knees!&n", FALSE, tch, 0, 0, TO_ROOM);
         SET_POS(tch, POS_KNEELING + GET_STAT(tch));
         CharWait(tch, PULSE_VIOLENCE * 1);
       }
@@ -3396,14 +3294,14 @@ void spell_earthquake(int level, P_char ch, char *arg, int type, P_char victim, 
       {
         if(IS_PC(tch) && GET_CHAR_SKILL(tch, SKILL_SAFE_FALL) >= number(1, 101))
         {
-          act("$n&n &+Gdoes a &+ydouble sommersault &+Gand lands on $s feet!&n", TRUE, tch, 0, 0, TO_ROOM);
-          act("&+GYou do a &+Ydouble sommersault &+Gand land on your feet!", TRUE, tch, 0, 0, TO_CHAR);
+          act("$n&n &+Gdoes a &+ydouble sommersault &+Gand lands on $s feet!&n", FALSE, tch, 0, 0, TO_ROOM);
+          act("&+GYou do a &+Ydouble sommersault &+Gand land on your feet!", FALSE, tch, 0, 0, TO_CHAR);
           notch_skill(tch, SKILL_SAFE_FALL, 35);
         }
         else
         {
           act("&+WYou fall and injure yourself!&n", FALSE, ch, 0, tch, TO_VICT);
-          act("$n&n &+Wcrashes to the ground!&n", TRUE, tch, 0, 0, TO_ROOM);
+          act("$n&n &+Wcrashes to the ground!&n", FALSE, tch, 0, 0, TO_ROOM);
           dam = (int) (dice(level / 4, 6) + (level / 4));
           if(spell_damage(ch, tch, dam, SPLDAM_GENERIC, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, 0) == DAM_NONEDEAD);
           {
@@ -3419,7 +3317,7 @@ void spell_earthquake(int level, P_char ch, char *arg, int type, P_char victim, 
       else if(tch && ch->specials.z_cord == tch->specials.z_cord)
       {
         act("&+LYou stagger and almost break your leg!&n", FALSE, ch, 0, tch, TO_VICT);
-        act("$n&n &+Lstaggers and almost falls!&n", TRUE, tch, 0, 0, TO_ROOM);
+        act("$n&n &+Lstaggers and almost falls!&n", FALSE, tch, 0, 0, TO_ROOM);
         dam = (int) (dice(level / 4, 4) + dam_flag * level / 4);
         if(spell_damage(ch, tch, dam, SPLDAM_GENERIC, SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, 0) != DAM_NONEDEAD)
         {
@@ -3576,12 +3474,13 @@ void spell_flamestrike(int level, P_char ch, char *arg, int type, P_char victim,
      !IS_ALIVE(victim))
         return;
 
-  int dam = dice(level / 2, 3) + level / 4;
+  int dam = dice(level / 3, 4) + level / 4;
 
   if(NewSaves(victim, SAVING_SPELL, 0))
     dam >> 1;
 
-  spell_damage(ch, victim, dam, SPLDAM_HOLY | SPLDAM_FIRE, RAWDAM_NOKILL, 0);
+  spell_damage(ch, victim, dam / 2, SPLDAM_FIRE, 0, &messages);
+  spell_damage(ch, victim, dam / 2, SPLDAM_HOLY, 0, 0);
 }
 
 struct call_lightning_data
@@ -3693,12 +3592,12 @@ void spell_destroy_undead(int level, P_char ch, char *arg, int type, P_char vict
 {
   int      dam;
   struct damage_messages messages = {
-    "$N wavers under your deity's power!",
-    "Piercing light from $n's holy symbol hurts you!",
-    "$N wavers under the onslaught caused by $n's deity's power!",
-    "$N is disintegrated by the unleashed power of your deity!",
-    "You see $n's raised holy symbol, and nothing more.",
-    "$N is dispelled entirely by $n's deity's power!", 0
+    "$N &+Wwavers under the &+Gawesome power &+Wof your deity!",
+    "&+WPiercing light from $n's &+Gholy symbol &+Whurts you!",
+    "$N &+Wwavers under the &+Gonslaught &+Wcaused by $n&+W's deity's power!",
+    "$N &+Wis &+rdisintegrated &+Wby the unleashed power of your deity!",
+    "&+WYou see $n&+W's raised holy symbol, and &+rnothing more&+W.",
+    "$N&+W's soulless existence is ended abruptly by $n&+W's deity!", 0
   };
 
   struct damage_messages notcleric_msgs = {
@@ -3723,7 +3622,7 @@ void spell_destroy_undead(int level, P_char ch, char *arg, int type, P_char vict
     return;
   }
 
-  dam = dice(level / 2, 4) + level / 4;
+  dam = dice(level / 2, 4) + level / 2;
   if(NewSaves(victim, SAVING_SPELL, 2))
     dam >> 1;
 
@@ -3769,7 +3668,7 @@ void spell_full_harm(int level, P_char ch, char *arg, int type, P_char victim, P
     "$N &+Wis slowly ripped into many tiny bits as the &+yfull harm &+Wspell of $n&+W, ends $S life.",
   };
 
-  dam = dice(68, 2) + level / 4;
+  dam = dice(50, 2) + level / 4;
   if(NewSaves(victim, SAVING_SPELL, 0))
     dam >> 1;
 
@@ -3786,7 +3685,7 @@ void spell_fortitude(int level, P_char ch, char *arg, int type, P_char victim, P
     af.type = SPELL_FORTITUDE;
     af.duration = level / 4;
     af.location = APPLY_CON;
-    af.modifier = level / 4;
+    af.modifier = 4 + level / 12;
     affect_to_char(victim, &af);
     send_to_char("&+WYour will to live grows stronger!\n", victim);
   }
@@ -3804,9 +3703,9 @@ void event_nova(P_char ch, P_char victim, P_obj obj, void *data)
   }
 
   act("&+LYour immense &+Wgathering of light &+wcomes to fruition, &+Yexploding with violent force!",
-     FALSE, ch, 0, 0, TO_CHAR);
+       FALSE, ch, 0, 0, TO_CHAR);
   act("$n&+L's immense &+Wgathering of light &+wcomes to fruition, &+Yexploding with violent force!",
-     FALSE, ch, 0, 0, TO_ROOM);
+       FALSE, ch, 0, 0, TO_ROOM);
      
   zone_spellmessage(ch->in_room,
     "&+YT&+yh&+Yi&+yn &+Yr&+ya&+Yy&+ys of &+Yli&+ygh&+Yt &+Wfilter &+ythroughout the &+Warea!\n",
@@ -4259,15 +4158,12 @@ void spell_wizard_eye(int level, P_char ch, char *arg, int type, P_char victim, 
   strcpy(Gbuf1, "&+WYou cast your sights far out into the zone...\n");
   send_to_char(Gbuf1, ch);
   new_look(ch, NULL, -4, target);
-  // play_sound(SOUND_FARSITE, NULL, ch->in_room, TO_ROOM);
 
   if(NewSaves(victim, SAVING_SPELL, 0))
-    send_to_char("&+LYou feel strangely like you are being watched..\n",
-                 victim);
+    send_to_char("&+LYou feel strangely like you are being watched..\n", victim);
 }
 
-void spell_clairvoyance(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj obj)
+void spell_clairvoyance(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int      target, where;
   char     Gbuf1[MAX_STRING_LENGTH];
@@ -4357,9 +4253,9 @@ void spell_dimension_door(int level, P_char ch, char *arg, int type, P_char vict
   int      distance;
 
   if(GET_SPEC(ch, CLASS_SORCERER, SPEC_SHADOW))
-    CharWait(ch, 4);
+    CharWait(ch, 6);
   else if(IS_PC(ch))
-    CharWait(ch, 36);
+    CharWait(ch, 66 - level);
   else
     CharWait(ch, 5);
 
@@ -4471,8 +4367,7 @@ void spell_dimension_door(int level, P_char ch, char *arg, int type, P_char vict
   }
 }
 
-void spell_dark_compact(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj obj)
+void spell_dark_compact(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int      location;
   /*
@@ -4643,9 +4538,7 @@ void spell_group_teleport(int level, P_char ch, char *arg, int type, P_char vict
   if(LIMITED_TELEPORT_ZONE(ch->in_room))
   {
     if(how_close(ch->in_room, to_room, 5))
-      send_to_char
-        ("The magic gathers, but somehow fades away before taking effect.\n",
-         ch);
+      send_to_char("The magic gathers, but somehow fades away before taking effect.\n", ch);
     return;
   }
 
@@ -4993,8 +4886,8 @@ void spell_minor_creation(int level, P_char ch, P_char victim, P_obj obj)
 {
   obj_to_room(obj, ch->in_room);
   obj->z_cord = ch->specials.z_cord;
-  act("$p &+Wsuddenly appears.", TRUE, ch, obj, 0, TO_ROOM);
-  act("$p &+Wsuddenly appears.", TRUE, ch, obj, 0, TO_CHAR);
+  act("$p &+Wsuddenly appears.", FALSE, ch, obj, 0, TO_ROOM);
+  act("$p &+Wsuddenly appears.", FALSE, ch, obj, 0, TO_CHAR);
 }
 
 void spell_pulchritude(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
@@ -5011,7 +4904,7 @@ void spell_pulchritude(int level, P_char ch, char *arg, int type, P_char victim,
   bzero(&af, sizeof(af));
   af.type = SPELL_PULCHRITUDE;
   af.duration = level / 4;
-  af.modifier = 5 * (1 + level / 10);
+  af.modifier = 4 + level / 12;
   af.location = APPLY_CHA;
 
   affect_join(victim, &af, TRUE, FALSE);
@@ -5063,8 +4956,8 @@ void spell_flame_blade(int level, P_char ch, char *arg, int type, P_char victim,
     blade->value[6] = level - 10;
     blade->value[7] = 40; //procs sunray
   }
-  act("$p &+Warrives in a burst of &n&+rfire.", TRUE, ch, blade, 0, TO_ROOM);
-  act("$p &+Warrives in a burst of &n&+rfire.", TRUE, ch, blade, 0, TO_CHAR);
+  act("$p &+Warrives in a burst of &n&+rfire.", FALSE, ch, blade, 0, TO_ROOM);
+  act("$p &+Warrives in a burst of &n&+rfire.", FALSE, ch, blade, 0, TO_CHAR);
   blade->timer[0] = 180;
   if (IS_PC(ch))
     blade->timer[1] = GET_PID(ch);
@@ -5106,8 +4999,8 @@ void spell_shield(int level, P_char ch, char *arg, int type, P_char victim, P_ob
     logit(LOG_DEBUG, "spell_shield(): obj 368 not loadable");
     return;
   }
-  act("$p &+Wslowly materializes.", TRUE, ch, shield, 0, TO_ROOM);
-  act("$p &+Wslowly materializes.", TRUE, ch, shield, 0, TO_CHAR);
+  act("$p &+Wslowly materializes.", FALSE, ch, shield, 0, TO_ROOM);
+  act("$p &+Wslowly materializes.", FALSE, ch, shield, 0, TO_CHAR);
   shield->timer[0] = 180;
 
   obj_to_char(shield, ch);
@@ -5125,7 +5018,7 @@ void spell_create_food(int level, P_char ch, char *arg, int type, P_char victim,
     return;
   }
   act("$p &+Wsuddenly appears.", TRUE, ch, food, 0, TO_ROOM);
-  act("$p &+Wsuddenly appears.", TRUE, ch, food, 0, TO_CHAR);
+  act("$p &+Wsuddenly appears.", FALSE, ch, food, 0, TO_CHAR);
 
   SET_BIT(food->extra_flags, ITEM_NOSELL);
   obj_to_room(food, ch->in_room);
@@ -5454,8 +5347,8 @@ void spell_ray_of_enfeeblement(int level, P_char ch, char *arg, int type, P_char
 
   if(affected_by_spell(victim, SPELL_RAY_OF_ENFEEBLEMENT))
   {
-    act("$E is already pretty feeble.", TRUE, ch, 0, victim, TO_CHAR);
-    act("&+LYou cannot possible get more feeble!&n", TRUE, ch, 0, victim, TO_VICT);
+    act("$E is already pretty feeble.", FALSE, ch, 0, victim, TO_CHAR);
+    act("&+LYou cannot possible get more feeble!&n", FALSE, ch, 0, victim, TO_VICT);
     return;
   }
   
@@ -5884,10 +5777,8 @@ void spell_unmaking(int level, P_char ch, char *arg, int type, P_char victim, P_
     }
     else
     {
-      act("$p&+L begins to &+gwither&+L and &+yrot&+L as you absorb its essence.",
-         FALSE, ch, obj, 0, TO_CHAR);
-      act("$p&+L begins to &+gwither&+L and &+yrot&+L as $n &+Labsorbs its essence.",
-         FALSE, ch, obj, 0, TO_ROOM);
+      act("$p&+L begins to &+gwither&+L and &+yrot&+L as you absorb its essence.", FALSE, ch, obj, 0, TO_CHAR);
+      act("$p&+L begins to &+gwither&+L and &+yrot&+L as $n &+Labsorbs its essence.", FALSE, ch, obj, 0, TO_ROOM);
     }
     
     if(GET_MAX_HIT(ch) > GET_HIT(ch))
@@ -5941,23 +5832,23 @@ void spell_full_heal(int level, P_char ch, char *arg, int type, P_char victim, P
   int num_dice = 2;
 
   if(level >= 36)
-    num_dice += 2;
+    num_dice += 1;
 
   if(level >= 41)
-    num_dice += 2;
+    num_dice += 1;
 
   if(level >= 46)
-    num_dice += 2;
+    num_dice += 1;
 
   if(level >= 51)
-    num_dice += 2;
+    num_dice += 1;
 
   if(GET_SPEC(ch, CLASS_CLERIC, SPEC_HEALER))
   {
-    if(level >= 52)
+    //if(level >= 52)
       num_dice += 1;
 
-    if(level >= 54)
+    if(level >= 53)
       num_dice += 1;
 
     if(level >= 56)
@@ -5965,10 +5856,10 @@ void spell_full_heal(int level, P_char ch, char *arg, int type, P_char victim, P
   }
   else if(GET_SPEC(ch, CLASS_CLERIC, SPEC_ZEALOT))
   {
-    num_dice = level / 8;
+    num_dice = level / 12;
   }
 
-  int healpoints = dice(20, num_dice);
+  int healpoints = dice(40, num_dice);
 
   if(type == SPELL_TYPE_SPELL)
   {
@@ -6004,7 +5895,7 @@ void spell_full_heal(int level, P_char ch, char *arg, int type, P_char victim, P
 
 void spell_heal(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
-  int num_dice = 2, healpoints;
+  int num_dice = 1, healpoints;
   
   if(!(ch) ||
      !IS_ALIVE(ch) ||
@@ -6062,7 +5953,7 @@ void spell_heal(int level, P_char ch, char *arg, int type, P_char victim, P_obj 
       num_dice += 1;
   }
   
-  healpoints = dice(15, num_dice);
+  healpoints = dice(20, num_dice);
 
   if(type == SPELL_TYPE_SPELL)
   {
@@ -6091,7 +5982,7 @@ void spell_heal(int level, P_char ch, char *arg, int type, P_char victim, P_obj 
 
   spell_cure_blind(level, ch, NULL, SPELL_TYPE_SPELL, victim, obj);
   grapple_heal(victim);
-  heal(victim, ch, healpoints , GET_MAX_HIT(victim) - number(1, 4));
+  heal(victim, ch, healpoints, GET_MAX_HIT(victim) - number(1, 4));
   update_pos(victim);
   
   return;
@@ -7055,7 +6946,6 @@ bool has_skin_spell(P_char ch)
 void spell_stone_skin(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int      absorb = (level / 3) + number(1, 6);
 
   if(!has_skin_spell(victim))
   {
@@ -7063,7 +6953,7 @@ void spell_stone_skin(int level, P_char ch, char *arg, int type, P_char victim, 
       (victim->equipment[WIELD] &&
       (obj_index[victim->equipment[WIELD]->R_num].virtual_number == MACE_OF_EARTH_VNUM)))
     {
-      absorb = (int) (absorb * 1.5);
+      level = ((float) level * 1.25);
       act("&+LLiving stone sprouts up and covers $n's flesh.", TRUE, victim, 0, 0, TO_ROOM);
       act("&+LLiving stone sprouts up and covers your flesh.", TRUE, victim, 0, 0, TO_CHAR);
     }
@@ -7084,26 +6974,26 @@ void spell_stone_skin(int level, P_char ch, char *arg, int type, P_char victim, 
   }
 
   if(GET_OPPONENT(victim))
-    gain_exp(ch, victim, 50 + GET_LEVEL(ch) * 2, EXP_HEALING); // stoning the tank equal to small heal in exp -Odorf
+    gain_exp(ch, victim, (50 + GET_LEVEL(ch)) * 2, EXP_HEALING); // stoning the tank equal to small heal in exp -Odorf
 
   bzero(&af, sizeof(af));
   af.type = SPELL_STONE_SKIN;
   af.duration = 4;
-  af.modifier = absorb;
+  af.modifier = level;
   affect_to_char(victim, &af);
 
+/*
   af.type = SPELL_STONE_SKIN;
   af.duration = 4;
   af.modifier = 3;
   af.location = victim->points.combat_pulse;
-  affect_to_char(victim, &af);
+  affect_to_char(victim, &af); */
 }
 
 void spell_ironwood(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
-  int      absorb = (level / 5) + number(1, 4);
-
+  int absorb = (level / 7);
 
   if(!affected_by_spell(victim, SPELL_BARKSKIN))
   {
@@ -7112,7 +7002,6 @@ void spell_ironwood(int level, P_char ch, char *arg, int type, P_char victim, P_
   }
   if(!has_skin_spell(victim))
   {
-      absorb = (int) (absorb * 2);
       act("&+y$n's &+ybarkskin seems to take on the texture of &+Liron.", TRUE, victim, 0, 0, TO_ROOM);
       act("&+yYou feel your barkskin harden to &+Liron.", TRUE, victim, 0, 0, TO_CHAR);
   }
@@ -7123,7 +7012,7 @@ void spell_ironwood(int level, P_char ch, char *arg, int type, P_char victim, P_
   }
 
   if(GET_OPPONENT(victim))
-    gain_exp(ch, victim, 50 + GET_LEVEL(ch) * 2, EXP_HEALING); // stoning the tank equals to heal in exp -Odorf
+    gain_exp(ch, victim, (50 + GET_LEVEL(ch) * 2), EXP_HEALING); // stoning the tank equals to heal in exp -Odorf
 
   bzero(&af, sizeof(af));
   af.type = SPELL_IRONWOOD;
@@ -7133,7 +7022,7 @@ void spell_ironwood(int level, P_char ch, char *arg, int type, P_char victim, P_
 
   af.type = SPELL_IRONWOOD;
   af.duration = 4;
-  af.modifier = 2;
+  af.modifier = 3;
   af.location = victim->points.combat_pulse;
   affect_to_char(victim, &af);
 }
@@ -7208,8 +7097,7 @@ void spell_sleep(int level, P_char ch, char *arg, int type, P_char victim, P_obj
   }
 }
 
-void spell_dexterity(int level, P_char ch, char *arg, int type, P_char victim,
-                     P_obj obj)
+void spell_dexterity(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af;
 
@@ -7223,8 +7111,8 @@ void spell_dexterity(int level, P_char ch, char *arg, int type, P_char victim,
   bzero(&af, sizeof(af));
 
   af.type = SPELL_DEXTERITY;
-  af.duration = level;
-  af.modifier = 10;
+  af.duration = level / 5;
+  af.modifier = 4 + level / 12;
   af.location = APPLY_DEX;
 
   affect_join(victim, &af, TRUE, FALSE);
@@ -7251,7 +7139,7 @@ void spell_agility(int level, P_char ch, char *arg, int type, P_char victim, P_o
 
   af.type = SPELL_AGILITY;
   af.duration = level / 5;
-  af.modifier = level / 7;
+  af.modifier = 4 + level / 12;
   af.location = APPLY_AGI;
 
   affect_join(victim, &af, TRUE, FALSE);
@@ -7272,7 +7160,7 @@ void spell_strength(int level, P_char ch, char *arg, int type, P_char victim, P_
 
   af.type = SPELL_STRENGTH;
   af.duration = level / 5;
-  af.modifier = level / 7;
+  af.modifier = 4 + level / 12;
   af.location = APPLY_STR;
 
   affect_join(victim, &af, TRUE, FALSE);
@@ -10305,8 +10193,7 @@ int KludgeDuration(P_char ch, int baselevel, int baseduration)
 #endif
 }
 
-void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
-                    P_obj obj)
+void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   struct affected_type af1;
   double mod = 1;
@@ -10341,7 +10228,7 @@ void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
       send_to_char("Their stone skin is already harder than bark...", ch);
       return;
     }
-    if(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND))
+    if(GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST))
     {
       mod = 1.25;
     }
@@ -10353,16 +10240,14 @@ void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
     {
       bzero(&af1, sizeof(af1));
       af1.type = SPELL_BARKSKIN;
-      af1.duration =  25;
+      af1.duration = level / 4;
       af1.modifier =  (int) (-1 * mod * level);
       af1.location = APPLY_AC;
       af1.bitvector = AFF_BARKSKIN;
 
       affect_to_char(victim, &af1);
-      act("$n's skin gains the texture and toughness of &+ybark.&n", FALSE,
-          victim, 0, 0, TO_ROOM);
-      act("Your skin gains the texture and toughness of &+ybark.&n", FALSE,
-          victim, 0, 0, TO_CHAR);
+      act("$n's skin gains the texture and toughness of &+ybark.&n", FALSE, victim, 0, 0, TO_ROOM);
+      act("Your skin gains the texture and toughness of &+ybark.&n", FALSE, victim, 0, 0, TO_CHAR);
     }
     else
     {
@@ -10372,7 +10257,7 @@ void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
       {
         if(af1->type == SPELL_BARKSKIN)
         {
-          af1->duration = 25;
+          af1->duration = level / 4;
         }
       }
     }
@@ -10381,8 +10266,7 @@ void spell_barkskin(int level, P_char ch, char *arg, int type, P_char victim,
 
 // end of spell_barkskin
 
-void spell_grow_spike(int level, P_char ch, char *arg, int type, P_char victim,
-                    P_obj obj)
+void spell_grow_spike(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int      dam, temp, dam_flag;
   struct damage_messages messages = {
@@ -10967,7 +10851,7 @@ void spell_endurance(int level, P_char ch, char *arg, int type, P_char victim,
   
   if(affected_by_spell(ch, SPELL_MIELIKKI_VITALITY) &&
      !GET_CLASS(ch, CLASS_DRUID) &&
-     !GET_SPEC(ch, CLASS_RANGER, SPEC_WOODSMAN))
+     !GET_SPEC(ch, CLASS_RANGER, SPEC_HUNTSMAN))
   {
     send_to_char("&+GThe Goddess Mielikki is aiding your health, and prevents the endurance spell from functioning...\r\n", victim);
     return;
@@ -11749,8 +11633,7 @@ void unequip_char_dale(P_obj kala)
     unequip_char(kala->loc.wearing, b);
 }
 
-void spell_disintegrate(int level, P_char ch, char *arg, int type,
-                        P_char victim, P_obj obj)
+void spell_disintegrate(int level, P_char ch, char *arg, int type, P_char victim, P_obj obj)
 {
   int i, dam;
   P_obj x;
@@ -11779,14 +11662,12 @@ void spell_disintegrate(int level, P_char ch, char *arg, int type,
     return;
   }
   
-  dam = dice(level, 13) * DAMFACTOR;
+  dam = dice(60, 2) + (level / 4);
   
-  act("$n sends a bright &+Ggreen ray of light&n streaking towards&n $N!",
-    TRUE, ch, 0, victim, TO_NOTVICT);
-  act("$n sends a &+Ggreen ray of light&n coming .. straight towards YOU!",
-    TRUE, ch, 0, victim, TO_VICT);
-  act("You grin evilly as you send a &+Ggreen beam of disintegration&n streaking towards&n $N!",
-    TRUE, ch, 0, victim, TO_CHAR);
+  act("$n sends a bright &+Ggreen ray of light&n streaking towards&n $N!", FALSE, ch, 0, victim, TO_NOTVICT);
+  act("$n sends a &+Ggreen ray of light&n coming .. straight towards YOU!", FALSE, ch, 0, victim, TO_VICT);
+  act("You grin evilly as you send a &+Ggreen beam of disintegration&n streaking towards&n $N!", 
+      FALSE, ch, 0, victim, TO_CHAR);
     
   if(resists_spell(ch, victim))
     return;
@@ -16472,7 +16353,7 @@ void spell_single_cdoom_wave(int level, P_char ch, char *arg, int type, P_char v
   if(get_spell_from_room(&world[victim->in_room], SPELL_SUMMON_INSECTS))
     dam = (int) (dam * 1.05);
 
-  if(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND)) 
+  if(GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST)) 
     dam = (int) (dam * 1.05);
 
   if(IS_AFFECTED3(victim, AFF3_COLDSHIELD) ||
@@ -16577,7 +16458,7 @@ void spell_cdoom(int level, P_char ch, char *arg, int type, P_char victim, P_obj
   cDoomData.room = victim ? 0 : ch->in_room;
 
   /* either this or damage bonus in single wave
-  if(GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND) ||
+  if(GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST) ||
     (world[ch->in_room].sector_type == SECT_FOREST))
       cDoomData.waves++;*/
 
@@ -18838,7 +18719,7 @@ void spell_moonwell(int level, P_char ch, char *arg, int type, P_char victim,
   //--------------------------------
   // spec affected changes
   //--------------------------------
-  if( GET_SPEC(ch, CLASS_DRUID, SPEC_WOODLAND)
+  if( GET_SPEC(ch, CLASS_DRUID, SPEC_FOREST)
       && world[ch->in_room].sector_type == SECT_FOREST)
   {
     specBonus = 2;
@@ -19754,7 +19635,7 @@ void spell_mielikki_vitality(int level, P_char ch, char *arg, int type, P_char v
   /*  // They get endurance, no need for this.
   if((GET_CLASS(ch, CLASS_RANGER) &&
      !affected_by_spell(ch, SPELL_ENDURANCE)) ||
-     GET_SPEC(ch, CLASS_RANGER, SPEC_WOODSMAN))
+     GET_SPEC(ch, CLASS_RANGER, SPEC_HUNTSMAN))
   {
     af.modifier = number(25, 50);
     af.location = APPLY_MOVE_REG;
