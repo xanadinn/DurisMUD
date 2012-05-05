@@ -662,7 +662,7 @@ void fetid_breath(P_char ch, P_char victim)
 	
 	level = GET_LEVEL(ch);
 	
-	dam = dice(level, 8) + level;
+	dam = dice(level, 2);
 	
 	if (StatSave(victim, APPLY_CON, 0))
 	  dam >> 1;
@@ -766,7 +766,7 @@ void hyena_bite(P_char ch, P_char victim)
 
 	int level = GET_LEVEL(ch);
 	
-	int dam = dice(level, 10);
+	int dam = dice(level / 2, 2);
 	
 	if (raw_damage(ch, victim, dam, RAWDAM_DEFAULT, &messages) ==
       DAM_NONEDEAD)
@@ -830,17 +830,15 @@ void demogorgon_tail(P_char ch)
   
   if (number(0, 2))
   {
-    send_to_char("&+LYou are hit by &+GDemogorgon's &+Lmighty tail!\r\n",
-      victim);
-    act("$N is hit by &+GDemogorgon's &+Lmighty tail!",
-      TRUE, ch, 0, victim, TO_NOTVICT);
-    dam = dice(8, 40);
+    send_to_char("&+LYou are hit by &+GDemogorgon's &+Lmighty tail!\r\n", victim);
+    act("$N is hit by &+GDemogorgon's &+Lmighty tail!", FALSE, ch, 0, victim, TO_NOTVICT);
+    dam = dice(8, 10);
     spell_dispel_magic(51, ch, 0, 0, victim, 0);
     melee_damage(ch, victim, dam, 0, 0);
   }
   else
   {
-    dam = dice(level, 11);
+    dam = dice(level, 2);
     
     P_char tch, next_tch;
     
@@ -850,8 +848,8 @@ void demogorgon_tail(P_char ch)
       
       if (should_area_hit(ch, tch) && number(0, 1))
       {
-        send_to_char("&+LYou are hit by &+GDemogorgon's &+Lthe sweeping tail!\r\n", tch);
-        act("$N is hit by &+GDemogorgon's &+Lsweeping tail!", TRUE, ch, 0, tch, TO_NOTVICT);
+        send_to_char("&+LYou are hit by &+GDemogorgon's &+Lsweeping tail!\r\n", tch);
+        act("$N is hit by &+GDemogorgon's &+Lsweeping tail!", FALSE, ch, 0, tch, TO_NOTVICT);
         melee_damage(ch, victim, dam, 0, 0);
       }
     }
@@ -5333,8 +5331,7 @@ int animated_skeleton(P_char ch, P_char pl, int cmd, char *arg)
         num++;
     if (num > (GET_LEVEL(ch2) - 10) || number(0, 2))
     {
-      act("$n shatters into a pile of useless bones!", TRUE, ch, 0, 0,
-          TO_ROOM);
+      act("$n shatters into a pile of useless bones!", FALSE, ch, 0, 0, TO_ROOM);
       return TRUE;
     }
     undead = read_mobile(GET_RNUM(ch), REAL);
@@ -5348,29 +5345,17 @@ int animated_skeleton(P_char ch, P_char pl, int cmd, char *arg)
       }
       GET_RACE(undead) = RACE_UNDEAD;
       GET_SEX(undead) = SEX_NEUTRAL;
-//      GET_CLASS(undead) = GET_CLASS(ch);
-      undead->player.m_class = CLASS_WARRIOR;   // needs to be fixed..
-      GET_ALIGNMENT(undead) = -500;
-//      GET_LEVEL(undead) = BOUNDED(1, (GET_LEVEL(ch) - 1), 10);
+      undead->player.m_class = CLASS_WARRIOR;
       undead->player.level = BOUNDED(1, (GET_LEVEL(ch) - 1), 10);
-      undead->only.npc->str_mask =
-        (STRUNG_KEYS | STRUNG_DESC1 | STRUNG_DESC2);
+      undead->only.npc->str_mask = (STRUNG_KEYS | STRUNG_DESC1 | STRUNG_DESC2);
       undead->player.name = str_dup(ch->player.name);
       undead->player.short_descr = str_dup(ch->player.short_descr);
       undead->player.long_descr = str_dup(ch->player.long_descr);
       undead->points.damnodice = ch->points.damnodice - 1;
-      undead->points.base_hitroll = undead->points.hitroll =
-        GET_LEVEL(undead) / 4;
-      undead->points.base_damroll = undead->points.damroll =
-        GET_LEVEL(undead) / 4;
-      undead->points.mana = undead->points.base_mana = 0;
-      GET_PLATINUM(undead) = 0;
-      GET_GOLD(undead) = 0;
-      GET_SILVER(undead) = 0;
-      GET_COPPER(undead) = 0;
+      undead->points.base_hitroll = undead->points.hitroll = GET_LEVEL(undead);
+      undead->points.base_damroll = undead->points.damroll = GET_LEVEL(undead);
       while (undead->affected)
         affect_remove(undead, undead->affected);
-      GET_EXP(undead) = 0;
       mob_index[GET_RNUM(undead)].func.mob = animated_skeleton;
       char_to_room(undead, ch->in_room, 0);
       balance_affects(undead);
@@ -5378,42 +5363,28 @@ int animated_skeleton(P_char ch, P_char pl, int cmd, char *arg)
     undead = read_mobile(GET_RNUM(ch), REAL);
     if (undead)
     {
-      SET_BIT(undead->specials.act,
-              ACT_SENTINEL | ACT_ISNPC | ACT_SPEC | ACT_SPEC_DIE);
+      SET_BIT(undead->specials.act, ACT_SENTINEL | ACT_ISNPC | ACT_SPEC | ACT_SPEC_DIE);
       if (!IS_SET(undead->specials.act, ACT_MEMORY))
         clearMemory(undead);
       GET_RACE(undead) = RACE_UNDEAD;
       GET_SEX(undead) = SEX_NEUTRAL;
-      //    GET_CLASS(undead) = GET_CLASS(ch);
-      undead->player.m_class = CLASS_WARRIOR;   // needs to be fixed
+      undead->player.m_class = CLASS_WARRIOR;
       GET_ALIGNMENT(undead) = -500;
-//      GET_LEVEL(undead) = BOUNDED(1, (GET_LEVEL(ch) - 1), 10);
       undead->player.level = BOUNDED(1, (GET_LEVEL(ch) - 1), 10);
-      undead->only.npc->str_mask =
-        (STRUNG_KEYS | STRUNG_DESC1 | STRUNG_DESC2);
+      undead->only.npc->str_mask = (STRUNG_KEYS | STRUNG_DESC1 | STRUNG_DESC2);
       undead->player.name = str_dup(ch->player.name);
       undead->player.short_descr = str_dup(ch->player.short_descr);
       undead->player.long_descr = str_dup(ch->player.long_descr);
       undead->points.damnodice = ch->points.damnodice - 1;
-      undead->points.base_hitroll = undead->points.hitroll =
-        GET_LEVEL(undead) / 4;
-      undead->points.base_damroll = undead->points.damroll =
-        GET_LEVEL(undead) / 4;
-      undead->points.mana = undead->points.base_mana = 0;
-      GET_PLATINUM(undead) = 0;
-      GET_GOLD(undead) = 0;
-      GET_SILVER(undead) = 0;
-      GET_COPPER(undead) = 0;
+      undead->points.base_hitroll = undead->points.hitroll = GET_LEVEL(undead);
+      undead->points.base_damroll = undead->points.damroll = GET_LEVEL(undead);
       while (undead->affected)
         affect_remove(undead, undead->affected);
-      GET_EXP(undead) = 0;
       mob_index[GET_RNUM(undead)].func.mob = animated_skeleton;
       char_to_room(undead, ch->in_room, 0);
       balance_affects(undead);
     }
-    act
-      ("The bones of the skeleton split apart and reform into two new skeletons.",
-       TRUE, ch, 0, 0, TO_ROOM);
+    act("The bones of the skeleton split apart and reform into two new skeletons.", FALSE, ch, 0, 0, TO_ROOM);
     return TRUE;
   }
   return FALSE;
@@ -8319,12 +8290,9 @@ int warhorse(P_char ch, P_char pl, int cmd, char *arg)
         act("$n charges you!", FALSE, ch, 0, vict, TO_VICT);
         act("You charge $N!", FALSE, ch, 0, vict, TO_CHAR);
       }
-      act("$n then starts a deadly little dance on $N's prone form!", FALSE,
-          ch, 0, vict, TO_NOTVICT);
-      act("$n then starts a deadly little dance on your tender body!", FALSE,
-          ch, 0, vict, TO_VICT);
-      act("Then you start a deadly little dance on $N's prone form!", FALSE,
-          ch, 0, vict, TO_CHAR);
+      act("$n then starts a deadly little dance on $N's prone form!", FALSE, ch, 0, vict, TO_NOTVICT);
+      act("$n then starts a deadly little dance on your tender body!", FALSE, ch, 0, vict, TO_VICT);
+      act("Then you start a deadly little dance on $N's prone form!", FALSE, ch, 0, vict, TO_CHAR);
 
       /*
        * up to 3 'normal' attacks
@@ -8332,11 +8300,10 @@ int warhorse(P_char ch, P_char pl, int cmd, char *arg)
       for (i = 1; i < 4; i++)
       {
         if (!AWAKE(vict) || !StatSave(vict, APPLY_AGI, -2))
-          if (damage
-              (ch, vict,
-               (dice(ch->points.damnodice, ch->points.damsizedice) +
-                GET_DAMROLL(ch) + str_app[STAT_INDEX(GET_C_STR(ch))].todam),
-               TYPE_UNDEFINED))
+          if (melee_damage(ch, vict, (dice(ch->points.damnodice, ch->points.damsizedice) + GET_DAMROLL(ch)), TYPE_UNDEFINED, 0) 
+              != DAM_NONEDEAD)
+            return FALSE;
+          else
             break;
       }
       return TRUE;
@@ -8346,12 +8313,9 @@ int warhorse(P_char ch, P_char pl, int cmd, char *arg)
     {
       if (rider || number(0, 4) || StatSave(ch, APPLY_AGI, -2))
       {
-        act("$n charges toward $N, who quickly dodges aside!", FALSE, ch, 0,
-            vict, TO_NOTVICT);
-        act("$n charges you, but you manage to scramble out of the way!",
-            FALSE, ch, 0, vict, TO_VICT);
-        act("You charge $N, but $E dodges away!", FALSE, ch, 0, vict,
-            TO_CHAR);
+        act("$n charges toward $N, who quickly dodges aside!", FALSE, ch, 0, vict, TO_NOTVICT);
+        act("$n charges you, but you manage to scramble out of the way!", FALSE, ch, 0, vict, TO_VICT);
+        act("You charge $N, but $E dodges away!", FALSE, ch, 0, vict, TO_CHAR);
         return TRUE;
       }
       /*
@@ -8461,18 +8425,14 @@ int water_elemental(P_char ch, P_char pl, int cmd, char *arg)
     if (GET_RACE(vict) == RACE_F_ELEMENTAL)
     {
       act("$N vanishes in a cloud of steam!", FALSE, ch, 0, vict, TO_NOTVICT);
-      act
-        ("A wall of water crashes on top of you, you feel your lifefires being quenched!",
-         FALSE, ch, 0, vict, TO_VICT);
-      damage(ch, vict, dice(10, 6), TYPE_UNDEFINED);
+      act("A wall of water crashes on top of you, you feel your lifefires being quenched!", FALSE, ch, 0, vict, TO_VICT);
+      damage(ch, vict, dice(4, 6), TYPE_UNDEFINED);
     }
     else
     {
-      act("A wave crashes over you, pounding you into the ground!", FALSE, ch,
-          0, vict, TO_VICT);
-      damage(ch, vict, dice(1, 5), TYPE_UNDEFINED);
+      act("A wave crashes over you, pounding you into the ground!", FALSE, ch, 0, vict, TO_VICT);
+      damage(ch, vict, dice(3, 5), TYPE_UNDEFINED);
     }
-/*    update_pos(vict);*/
   }
 
   if (found)
@@ -8614,9 +8574,8 @@ int ice_masha(P_char ch, P_char pl, int cmd, char *arg)
   {
   case 1:
     mobsay(ch, "You have to slice the onions just perfectly...");
-    act("Masha skillfully dices his onions, and pieces fly everywhere.", TRUE,
-        ch, 0, 0, TO_ROOM);
-    mobsay(ch, "Theres nothing quite like the smell onions in the morning.");
+    act("Masha skillfully dices his onions, and pieces fly everywhere.", FALSE, ch, 0, 0, TO_ROOM);
+    mobsay(ch, "Theres nothing quite like the smell of onions in the morning.");
     do_action(ch, 0, CMD_CACKLE);
     return TRUE;
   }

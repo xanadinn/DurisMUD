@@ -1025,15 +1025,11 @@ bool check_reincarnate(P_char ch)
       CharWait(ch, dice(2, 2) * 4);
       update_pos(ch);
 
-      act
-        ("&+M$n's broken body unexpectedly returns to life again!  The worst of $s wounds quickly knit themselves.&N",
-         TRUE, ch, 0, 0, TO_ROOM);
-      act
-        ("&+W$n comes to life again! Taking a deep breath, $n opens $s eyes!&n",
-         TRUE, ch, 0, 0, TO_ROOM);
-      act
-        ("&+MYour soul quickly departs your broken body, only to be quickly ushered back by your spirit guide. After opening your eyes you discover that the worst of your wounds are healed!&N",
-         FALSE, ch, 0, 0, TO_CHAR);
+      act("&+M$n's broken body unexpectedly returns to life again!  The worst of $s wounds quickly knit themselves.&N",
+           FALSE, ch, 0, 0, TO_ROOM);
+      act("&+W$n comes to life again! Taking a deep breath, $n opens $s eyes!", FALSE, ch, 0, 0, TO_ROOM);
+      act("&+MYour soul quickly departs your broken body, only to be quickly ushered back by your spirit guide.\n"
+          "After opening your eyes you discover that the worst of your wounds are healed!", FALSE, ch, 0, 0, TO_CHAR);
 
       return TRUE;
     }
@@ -1270,7 +1266,6 @@ void do_innate_decrepify(P_char ch, P_char victim)
   return;
 }
 
-
 void event_throw_lightning(P_char ch, P_char victim, P_obj obj, void *data)
 {
   int      dam;
@@ -1298,7 +1293,7 @@ void event_throw_lightning(P_char ch, P_char victim, P_obj obj, void *data)
     return;
   }
 
-  dam = dice(3 * GET_LEVEL(ch), 5);
+  dam = dice(GET_LEVEL(ch), 2);
   spell_damage(ch, victim, dam, SPLDAM_LIGHTNING, 0, &messages);
 }
 
@@ -1359,14 +1354,13 @@ void vampire_bite(P_char ch, P_char victim)
 
   CharWait(ch, 3 * PULSE_VIOLENCE);
 
-  if (melee_damage(ch, victim, dice(2, GET_LEVEL(ch)), 0, &messages) !=
-      DAM_NONEDEAD || affected_by_spell(victim, TAG_VAMPIRE_BITE))
+  if (melee_damage(ch, victim, GET_LEVEL(ch), 0, &messages) != DAM_NONEDEAD || 
+      affected_by_spell(victim, TAG_VAMPIRE_BITE))
     return;
 
   if (!IS_STUNNED(victim) && number(0, 100) < 30)
   {
-    send_to_char(
-      "You are stunned and unable to defend yourself properly!\n", victim);
+    send_to_char("You are stunned and unable to defend yourself properly!\n", victim);
     Stun(victim, ch, PULSE_VIOLENCE, TRUE);
   }
 
@@ -1498,7 +1492,7 @@ int parasitebite(P_char ch, P_char victim)
   level = GET_LEVEL(ch);
   mod = (level >= 40) ? (level / 10) : (level / 15);
 
-  damage = dice(level, 8 + mod);
+  damage = level + mod;
 
   if(!StatSave(victim, APPLY_AGI, BOUNDED(-3, (GET_LEVEL(victim) - GET_LEVEL(ch) - (STAT_INDEX(GET_C_AGI(ch)) / 2)), 3)))
   {
@@ -2959,26 +2953,15 @@ void do_doorkick(P_char ch, char *arg, int cmd)
     if (char_to_room(ch, b, -1))
       return;
 
-/*
-    GET_HIT(ch) -= dice(2, 5);
-    StartRegen(ch, EVENT_HIT_REGEN);
-*/
     if (damage(ch, ch, dice(2, 5), TYPE_UNDEFINED))
       return;
   }
   else
   {
-    send_to_char
-      ("You kick the door with all your might, but alas, it seems unfazed.\n",
-       ch);
-    sprintf(Gbuf1,
-            "$n kicks the %s to the %s, but alas, it seems unaffected.",
-            "door", dirs[dir]);
+    send_to_char("You kick the door with all your might, but alas, it seems unfazed.\n", ch);
+    sprintf(Gbuf1, "$n kicks the %s to the %s, but alas, it seems unaffected.", "door", dirs[dir]);
     act(Gbuf1, TRUE, ch, 0, 0, TO_ROOM);
-/*
-    GET_HIT(ch) -= dice(2, number(1, 10));
-    StartRegen(ch, EVENT_HIT_REGEN);
-*/
+
     if (damage(ch, ch, dice(2, number(1, 10)), TYPE_UNDEFINED))
       return;
   }
@@ -3266,30 +3249,26 @@ void do_breath(P_char ch, char *arg, int cmd)
 
     if (ch == victim)
     {
-      send_to_char
-        ("Your breath suddenly fails you..  Perhaps the Great Gods of the North have other plans for you.\n",
-         ch);
+      send_to_char("Your breath suddenly fails you. Perhaps the Great Gods of the North have other plans for you.\n", ch);
       return;
     }
+
     if (!check_innate_time(ch, INNATE_BARB_BREATH))
     {
       send_to_char("You're too tired to do that right now.\n", ch);
       return;
     }
-    spell_damage(ch, victim, dice(GET_LEVEL(ch), 4), SPLDAM_COLD,
+    spell_damage(ch, victim, GET_LEVEL(ch), SPLDAM_COLD,
                  SPLDAM_NOSHRUG | SPLDAM_NODEFLECT | SPLDAM_BREATH,
                  &messages);
-    act("The wind dissipates, but a horrible stench remains..", TRUE, ch, 0,
-        0, TO_NOTVICT);
+    act("The wind dissipates, but a horrible stench remains...", TRUE, ch, 0, 0, TO_NOTVICT);
     CharWait(ch, PULSE_VIOLENCE);
     return;
   }
 
   if (!CAN_BREATHE(ch))
   {
-    send_to_char
-      ("Tis an involuntary action for most, but ne'ertheless, you breathe just to make sure.\n",
-       ch);
+    send_to_char("Tis an involuntary action for most, but ne'ertheless, you breathe just to make sure.\n", ch);
     return;
   }
   else

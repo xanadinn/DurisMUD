@@ -1946,16 +1946,15 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
   desc = find_spell_description(obj);
   if(!desc)
   {
-    sprintf(buf, "$p appears to be unused and has %d pages left.",
-            obj->value[2]);
-    act(buf, TRUE, ch, obj, 0, TO_CHAR);
+    sprintf(buf, "$p appears to be unused and has %d pages left.", obj->value[2]);
+    act(buf, FALSE, ch, obj, 0, TO_CHAR);
     return;
   }
   i = 0;
   j = 0;
 /*
    if(obj->value[0] && GET_LANGUAGE (ch, obj->value[0]) <= (25 + number (1, 10))) {
-   act ("$p is written in some language you don't understand!", TRUE, ch, obj, 0, TO_CHAR);
+   act ("$p is written in some language you don't understand!", FALSE, ch, obj, 0, TO_CHAR);
    return;
    }
  */
@@ -1963,14 +1962,12 @@ void ShowCharSpellBookSpells(P_char ch, P_obj obj)
   {                             //obj->value[1] != GET_CLASS(ch)) {
     sprintf(buf, "The original writer of $p appears to have been a %s.",
             class_names_table[flag2idx(obj->value[1])].ansi);
-    act(buf, TRUE, ch, obj, 0, TO_CHAR);
+    act(buf, FALSE, ch, obj, 0, TO_CHAR);
   }
   if(obj->value[1])
   {
     l = ch->player.m_class;
     ch->player.m_class = obj->value[1];
-
-    /* whee, what a gay hack! */
 
     switch (GetClassType(ch))
     {

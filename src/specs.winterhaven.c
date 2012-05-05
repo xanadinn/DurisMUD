@@ -4087,7 +4087,7 @@ int collar_frost(P_obj obj, P_char ch, int cmd, char *arg)
         icemental->player.m_class = CLASS_WARRIOR;
         justice_witness(ch, NULL, CRIME_SUMMON);
         icemental->player.level = 45;
-        sum = dice(GET_LEVEL(icemental) * 4, 8) + (GET_LEVEL(icemental) * 3);
+        sum = dice(GET_LEVEL(icemental), 8) + (GET_LEVEL(icemental));
         while (icemental->affected)
           affect_remove(icemental, icemental->affected);
         if (!IS_SET(icemental->specials.act, ACT_MEMORY))
@@ -4241,7 +4241,7 @@ int collar_flames(P_obj obj, P_char ch, int cmd, char *arg)
 	firemental->player.m_class = CLASS_WARRIOR;
 	justice_witness(ch, NULL, CRIME_SUMMON);
 	firemental->player.level = 45 + number(-5, 0);
-        sum = dice(GET_LEVEL(firemental) * 4, 8) + (GET_LEVEL(firemental) * 3);
+        sum = dice(GET_LEVEL(firemental), 8) + (GET_LEVEL(firemental) * 3);
         while (firemental->affected)
 	  affect_remove(firemental, firemental->affected);
 	if (!IS_SET(firemental->specials.act, ACT_MEMORY))
