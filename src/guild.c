@@ -44,6 +44,7 @@ extern Skill skills[];
 extern char *spells[];
 
 int GET_LVL_FOR_SKILL(P_char ch, int skill);
+P_obj find_gh_library_book_obj(P_char ch);
 
 #define MAX_GUILDS    15        /* max size of high/low lists */
 
@@ -366,6 +367,9 @@ int IsTaughtHere(P_char ch, int skl)
 
   if (!teacher)
   {
+    // In the room of knowledge.  This is for 'scribe all' option.
+    if( find_gh_library_book_obj(ch) != NULL )
+      return TRUE;
     send_to_char("And just who did you plan on teaching you?!?\n", ch);
     return FALSE;
   }
@@ -477,6 +481,7 @@ int spell_cmp(const void *va, const void *vb)
 
   return (str_cmp(skills[a->spell].name, skills[b->spell].name));
 }
+
 void do_spells(P_char ch, char *argument, int cmd)
 {
   int      spl, circle, i, count = 0, m_class = 0, class2 = 0, god_mode =
@@ -832,7 +837,10 @@ void prac_all_spells(P_char ch)
   struct spl_list spell_list[LAST_SPELL+1];
 
   if (!meming_class(ch))
+  {
+    send_to_char( "You don't practice spells.\n", ch );
     return;
+  }
 
   int max_circle = get_max_circle(ch);
   // get a list of spells for this char in circle order
