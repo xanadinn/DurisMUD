@@ -3,7 +3,7 @@
 SHELL = /bin/sh
 #EFENCE = 1
 
-CC	= /usr/bin/g++
+CC	= /usr/bin/g++-4.2
 DEBUG	= -ggdb3
 #LDFLAGS	= -ggdb3
 
@@ -15,7 +15,7 @@ LDFLAGS += -L/usr/local/lib/mysql -L./ships
 
 OPTS    = -O2
 
-CFLAGS = -pg -Wno-write-strings -m32 
+CFLAGS = -pg -Wno-write-strings -arch i386 -fno-stack-protector
 
 #CFLAGS += -D__NO_MYSQL__
 CFLAGS += -DTEST_MUD
