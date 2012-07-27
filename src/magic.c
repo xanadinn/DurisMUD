@@ -13430,6 +13430,27 @@ void single_unholy_word(int level, P_char ch, char *arg, int type,
   if(ch->in_room != victim->in_room)
     return;
   
+if(IS_NPC(victim) && IS_AFFECTED4(victim, AFF4_HELLFIRE))
+	{
+	  int rand1 = (number(1, 100));
+	  if (rand1 > victim->base_stats.Pow)
+	    {
+		act
+    	      ("&+LThe &+rHells&+L seem to heed the &+Ccall&+L of your &+rword&+W...",
+     	      FALSE, ch, 0, victim, TO_CHAR);
+		act
+    	      ("&+LThe &+rHells&+L seem to heed the &+Ccall&+L of $n&+L's &+rword&+W...",
+     	       TRUE, ch, 0, victim, TO_NOTVICT);
+		act
+    	      ("&+LA &+Ldark &+Ylight &+Ldecends upon $N&+L, returning its &+rfl&+Ram&+Yes &+Wof &+Rhell &+Lback into the abyss.",
+     	      FALSE, ch, 0, victim, TO_CHAR);
+		act
+		("&+LA &+Ldark &+Ylight &+Ldecends upon $N&+W, returning its &+rfl&+Ram&+Yes &+Wof &+Rhell &+Lback into the abyss.",
+     	  	TRUE, ch, 0, victim, TO_NOTVICT);
+	      REMOVE_BIT(victim->specials.affected_by4, AFF4_HELLFIRE);
+	    }
+	}
+
   if(GET_ALIGNMENT(victim) < 0 && !(IS_PC(victim) && opposite_racewar(victim, ch)))
   {
     act("$N is not good enough to be affected!", TRUE, ch, 0, victim, TO_CHAR);
@@ -13570,6 +13591,27 @@ void single_holy_word(int level, P_char ch, char *arg, int type,
   
   if(ch->in_room != victim->in_room)
     return;
+
+  if(IS_NPC(victim) && IS_AFFECTED4(victim, AFF4_HELLFIRE))
+	{
+	  int rand1 = (number(1, 100));
+	  if (rand1 > victim->base_stats.Pow)
+	    {
+		act
+    	      ("&+WThe Heavens seem to heed the &+Ccall&+W of your &+Lword&+W...",
+     	      FALSE, ch, 0, victim, TO_CHAR);
+		act
+    	      ("&+WThe Heavens seem to heed the &+Ccall&+W of $n&+W's &+Lword&+W...",
+     	       TRUE, ch, 0, victim, TO_NOTVICT);
+		act
+    	      ("&+CA br&+Wig&+Cht &+Ylight &+Wdecends upon $N&+W, causing its &+rfl&+Ram&+Yes &+Wof &+Rhell &+Wto slowly fade away.",
+     	      FALSE, ch, 0, victim, TO_CHAR);
+		act
+		("&+CA br&+Wig&+Cht &+Ylight &+Wdecends upon $N&+W, causing its &+rfl&+Ram&+Yes &+Wof &+Rhell &+Wto slowly fade away.",
+     	  	TRUE, ch, 0, victim, TO_NOTVICT);
+	      REMOVE_BIT(victim->specials.affected_by4, AFF4_HELLFIRE);
+	    }
+	}
     
   if(GET_ALIGNMENT(victim) > 0 && !(IS_PC(victim) && opposite_racewar(victim, ch)))
   {
@@ -13674,8 +13716,7 @@ void spell_holy_word(int level, P_char ch, char *arg, int type, P_char victim,
     return;
     }
   }
-
-  cast_as_damage_area(ch, single_holy_word, level, victim,
+       cast_as_damage_area(ch, single_holy_word, level, victim,
                       get_property("spell.area.minChance.holyWord", 60),
                       get_property("spell.area.chanceStep.holyWord", 20));
                       
