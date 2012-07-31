@@ -3996,6 +3996,44 @@ void do_headbutt(P_char ch, char *argument, int cmd)
   }
 }
 
+void event_bleedproc(P_char ch, P_char victim, P_obj obj, void *data)
+{
+  int dam;
+  int count = *((int*)data);
+  int rand1 = number(1, 100);
+
+  dam = dice(3, 6);
+
+  if ((GET_HIT(ch) - dam) > 0)
+  {
+    GET_HIT(ch) -= dam;
+    if(rand1 > 50)
+    {
+    send_to_char("&+rYour bl&+Rood spl&+ratte&+Rrs as it hits the ground.&N\n", ch);
+    act("$n&+r's blo&+Rod spla&+rtter&+Rs as it hits the ground.&N", TRUE, ch, NULL, NULL,
+        TO_NOTVICT);
+    make_bloodstain(ch);
+    }
+    else
+    {
+    send_to_char("&+rYour wound gushes &+Rblood &+rall over the surrounding area.&N\n", ch);
+    act("$n&+r's wound gushes &+Rblood &+rall over the surrounding area.", TRUE, ch, NULL, NULL,
+        TO_NOTVICT);
+    make_bloodstain(ch);
+    }
+  }
+
+  if (count >= 0)
+  {
+    count--;
+    add_event(event_bleedproc, PULSE_VIOLENCE, ch, 0, 0, 0, &count, sizeof(count));
+  }
+  else
+  {
+    send_to_char("&+rYour bleeding appears to have stopped.&N\n", ch);
+  }
+}
+
 void event_sneaky_strike(P_char ch, P_char victim, P_obj obj, void *data)
 {
   int      dam = 0;
@@ -4119,7 +4157,46 @@ void event_sneaky_strike(P_char ch, P_char victim, P_obj obj, void *data)
 	 }
     
     } //endthiefspeccheck
-	
+
+  if(GET_SPEC(ch, CLASS_ROGUE, SPEC_ASSASSIN)) //proc skill for assassin
+    {
+	skl_lvl = (int) (GET_CHAR_SKILL(ch, SKILL_SNEAKY_STRIKE));
+	i = skl_lvl - (GET_C_AGI(victim) / 6);
+	if (number(1, 100) < i)
+	 {
+	  if(IS_NPC(victim))
+	    {
+			int      numb;
+			numb = number(4, 7);
+			act("&+rYou sneak up on $N &+rand drive your &+Lweapon &+rdeep into a vital organ!&N", TRUE,
+				ch, obj, victim, TO_CHAR);
+			act("&+L$n &+rsneaks up on $N&+r driving their &+Lweapon &+rdeep into a vital organ!&N", TRUE,
+				ch, obj, victim, TO_NOTVICT);
+			act("&+L$n&+r appears behind you and drives their &+Lweapon &+rdeep into one of your vital organs!&N", TRUE, ch,
+				obj, victim, TO_VICT);
+			numb = number(4, 7);
+			add_event(event_bleedproc, PULSE_VIOLENCE, victim, 0, 0, 0, &numb, sizeof(numb));
+	   }
+
+	  else
+	    {
+	      int      numb;
+			numb = number(4, 7);
+			act("&+rYou sneak up on $N &+rand drive your &+Lweapon &+rdeep into a vital organ!&N", TRUE,
+				ch, obj, victim, TO_CHAR);
+			act("&+L$n &+rsneaks up on $N&+r driving their &+Lweapon &+rdeep into a vital organ!&N", TRUE,
+				ch, obj, victim, TO_NOTVICT);
+			act("&+L&n&+r appears behind you and drives their &+Lweapon &+rdeep into one of your vital organs!&N", TRUE, ch,
+				obj, victim, TO_VICT);
+			numb = number(4, 7);
+			add_event(event_bleedproc, PULSE_VIOLENCE, victim, 0, 0, 0, &numb, sizeof(numb));
+
+          }
+	 }
+    
+    } //endassassinspeccheck
+
+  	
 if(GET_CLASS(ch, CLASS_MERCENARY)) //proc skill for mercenary - sucks moves
     {
 	skl_lvl = (int) (GET_CHAR_SKILL(ch, SKILL_SNEAKY_STRIKE));
