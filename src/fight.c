@@ -3529,7 +3529,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       FALSE, ch, 0, victim, TO_VICT);
     act("$N&+R absorbs&n $n's&+R spell!",
       FALSE, ch, 0, victim, TO_NOTVICT);
-    vamp(victim,  dam / 4, GET_MAX_HIT(victim) * 1.3);
+    vamp(victim,  dam / 4, GET_MAX_HIT(victim) * 1.1);
     
     // Solving issue of fire elementals not unmorting after vamping from fire spell
     update_pos(victim);
@@ -3549,7 +3549,7 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
       FALSE, ch, 0, victim, TO_VICT);
     act("$N&+C absorbs&n $n's &+Cspell!",
       FALSE, ch, 0, victim, TO_NOTVICT);
-    vamp(victim, dam / 4, GET_MAX_HIT(victim) * 1.3); 
+    vamp(victim, dam / 4, GET_MAX_HIT(victim) * 1.1); 
 
     update_pos(victim);
     if (IS_NPC(victim))
