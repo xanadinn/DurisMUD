@@ -4898,7 +4898,7 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
    // The class order makes a difference to multiclass chars.
     if(GET_CLASS(ch, CLASS_ANTIPALADIN))
     {
-      vamped = vamp(ch, dam * get_property("vamping.vampiricTouch.antipaladins", 0.700), GET_MAX_HIT(ch) * 1.5);
+      vamped = vamp(ch, dam * get_property("vamping.vampiricTouch.antipaladins", 0.700), GET_MAX_HIT(ch) * 1.1);
     }
     
     else if(GET_CLASS(ch, CLASS_MONK))
@@ -4970,7 +4970,8 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
        GET_LEVEL(ch) >= 46)
     {
       temp_dam = dam * get_property("vamping.self.battleEcstasy", 0.150);
-      vamp(ch, temp_dam, GET_MAX_HIT(ch) * get_property("vamping.BTX.self.HP.PC", 1.10));
+      //vamp(ch, temp_dam, GET_MAX_HIT(ch) * get_property("vamping.BTX.self.HP.PC", 1.10));
+      vamp(ch, temp_dam, GET_MAX_HIT(ch) * 1.10);
     }
     
     if(IS_NPC(ch))
