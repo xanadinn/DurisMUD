@@ -8136,11 +8136,22 @@ void do_recall(P_char ch, char *argument, int cmd)
 {
   int index, i;
   char arg[256];
+  char buf[2048];
   int size = 10;
   char *pattern = 0;
+  P_char victim = NULL;
 
-  one_argument(argument, arg);
-
+  argument = one_argument(argument, arg);
+  if( *argument && IS_TRUSTED(ch) )
+  {
+    victim = get_char_vis(ch, argument);
+    if( !victim )
+    {
+      sprintf( buf, "Could not find char '%s'.\n", argument );
+      send_to_char( buf, ch );
+      return;
+    }
+  }
   if (*arg && atoi(arg) > 0)
   {
     size = MIN(atoi(arg), PRIVATE_LOG_SIZE);
@@ -8154,18 +8165,42 @@ void do_recall(P_char ch, char *argument, int cmd)
 
   if(!IS_PC(ch))
     return;
+  if( victim && !IS_PC(victim) )
+  {
+    sprintf( buf, "'%s' is not a PC.\n", argument );
+    send_to_char( buf, ch );
+    return;
+  }
 
-  if( !GET_PLAYER_LOG(ch) )
+  if( victim )
   {
-    logit(LOG_DEBUG, "Unintialized player log (%s) in do_recall()", GET_NAME(ch));
-    return;    
+    if( !GET_PLAYER_LOG(victim) )
+    {
+      logit(LOG_DEBUG, "Unintialized player log (%s) in do_recall()", GET_NAME(victim));
+      return;    
+    }
   }
-  
-  ITERATE_LOG_LIMIT(ch, LOG_PRIVATE, size)
+  else
   {
-    if( !pattern || isname( pattern, strip_ansi(LOG_MSG()).c_str() ) )
-      send_to_char( LOG_MSG(), ch, LOG_NONE );
+    if( !GET_PLAYER_LOG(ch) )
+    {
+      logit(LOG_DEBUG, "Unintialized player log (%s) in do_recall()", GET_NAME(ch));
+      return;    
+    }
   }
+
+  if( victim )  
+    ITERATE_LOG_LIMIT(victim, LOG_PRIVATE, size)
+    {
+      if( !pattern || isname( pattern, strip_ansi(LOG_MSG()).c_str() ) )
+        send_to_char( LOG_MSG(), ch, LOG_NONE );
+    }
+  else
+    ITERATE_LOG_LIMIT(ch, LOG_PRIVATE, size)
+    {
+      if( !pattern || isname( pattern, strip_ansi(LOG_MSG()).c_str() ) )
+        send_to_char( LOG_MSG(), ch, LOG_NONE );
+    }
 
 }
 
