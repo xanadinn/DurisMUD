@@ -1776,10 +1776,10 @@ void justice_action_invader(P_char ch)
 {
   struct zone_data *zone_struct;
   int room;
-/*
+
   if (IS_TRUSTED(ch))
     return;
-*/
+
 
 /*
 #if 1
