@@ -5233,6 +5233,10 @@ if((GET_RACE(victim) == RACE_OGRE) && ch_size < vict_size)
    * final check to smarten mobs up a little, if odds are too low don't
    * try very often.  JAB
    */
+if(GET_POS(victim) != POS_STANDING)
+      percent_chance = 0;
+    
+
 
   rolled = number(1, 100);
 
