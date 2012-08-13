@@ -95,9 +95,9 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
  {-1}, 
  
   {CLASS_MERCENARY, CLASS_CLERIC, CLASS_PSIONICIST, -1},      /* War */
-  {CLASS_WARRIOR, CLASS_DRUID, -1},              /* Ran */
+  {CLASS_WARRIOR, CLASS_DRUID, CLASS_ROGUE, -1},              /* Ran */
   {-1},                         		              /* Psi */
-  {CLASS_WARRIOR, -1},          		              /* Pal */
+  {CLASS_WARRIOR, -1},          		      /* Pal */
   {CLASS_WARRIOR, -1},          		              /* APa */
   {CLASS_DRUID, CLASS_BARD, CLASS_WARRIOR, CLASS_SHAMAN, -1}, /* Cle */
   {-1},                        	 		              /* Mon */
@@ -115,7 +115,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
   {-1},                         		              /* MnF */
   {-1},                         		              /* Alc */
   {-1},                         		              /* Ber */
-  {CLASS_SORCERER, -1},                         	      /* Rea */
+  {CLASS_SORCERER, CLASS_ROGUE, -1},                          /* Rea */
   {-1},                         		              /* Ilu */
   {-1},                                                       /* Cab */
   {-1},                                  	              /* Dre */
@@ -329,7 +329,7 @@ const mcname multiclass_names[] = {
   {CLASS_ROGUE, CLASS_BARD,              "&+bGr&+Lift&+ber"},
   {CLASS_ROGUE, CLASS_MINDFLAYER,        "Sly Wave"},
   {CLASS_ROGUE, CLASS_BERSERKER,         "Sly Maul"},
-  {CLASS_ROGUE, CLASS_REAVER,            "Sly Blend"},
+  {CLASS_ROGUE, CLASS_REAVER,            "&+LSh&+wado&+Lw R&+Wea&+Lv&+We&+Lr&n"},
   {CLASS_ROGUE, CLASS_ILLUSIONIST,       "Sly Secret"},
   {CLASS_ROGUE, CLASS_DREADLORD,         "Sly Dread"},
   {CLASS_ROGUE, CLASS_ETHERMANCER,       "Sly Sky"},

@@ -61,6 +61,7 @@ extern int is_wearing_necroplasm(P_char);
 void     event_memorize(P_char, P_char, P_obj, void *);
 void     event_scribe(P_char, P_char, P_obj, void *);
 void     affect_to_end(P_char ch, struct affected_type *af);
+void     prac_all_spells(P_char ch);
 
 char     Gbuf1[MAX_STRING_LENGTH], Gbuf2[MAX_STRING_LENGTH],
   Gbuf3[MAX_STRING_LENGTH];
@@ -1835,7 +1836,7 @@ P_obj FindSpellBookWithSpell(P_char ch, int spl, int mode)
 {
   P_obj    foo, foo2;
 
-  if( foo = find_gh_library_book_obj(ch) )
+  if( (foo = find_gh_library_book_obj(ch)) && IS_SET(mode, SBOOK_MODE_ON_GROUND))
   {
     return foo;
   }
@@ -2244,6 +2245,16 @@ void do_scribe(P_char ch, char *arg, int cmd)
     return;
   }
   arg = skip_spaces(arg);
+
+  // Added the scribe all option
+  if( !str_cmp(arg, "all") )
+  {
+    send_to_char( "Scribing all spells:\n", ch );
+    // This requires a check for the book in the room of knowledge.
+    prac_all_spells(ch);
+    return;
+  }
+
   spl = old_search_block(arg, 0, strlen(arg), (const char **) spells, 0);
   if (spl != -1)
     spl--;
