@@ -115,7 +115,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
   {-1},                         		              /* MnF */
   {-1},                         		              /* Alc */
   {-1},                         		              /* Ber */
-  {CLASS_SORCERER, -1},                         	      /* Rea */
+  {CLASS_SORCERER, CLASS_ROGUE, -1},                          /* Rea */
   {-1},                         		              /* Ilu */
   {-1},                                                       /* Cab */
   {-1},                                  	              /* Dre */
