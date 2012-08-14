@@ -4793,8 +4793,8 @@ void spell_group_teleport(int level, P_char ch, char *arg, int type,
   int from_room, dir, to_room, tries;
   P_char   targetChar;
   struct group_list *gl = 0;
-  int      range = get_property("spell.teleport.range", 30);
-  
+  //int      range = get_property("spell.teleport.range", 30);
+  int	range = 800000;
   if((ch && !is_Raidable(ch, 0, 0)) ||
      (victim && !is_Raidable(victim, 0, 0)))
   {
@@ -4819,14 +4819,27 @@ void spell_group_teleport(int level, P_char ch, char *arg, int type,
     for( int i = 0; i < range; i++ )
     {
       tries = 0;
-      do
+       do
+    {
+      to_room = number(zone_table[world[ch->in_room].zone].real_bottom,
+                       zone_table[world[ch->in_room].zone].real_top);
+      tries++;
+    }
+    while ((IS_SET(world[to_room].room_flags, PRIVATE) ||
+          IS_SET(world[to_room].room_flags, PRIV_ZONE) ||
+          IS_SET(world[to_room].room_flags, NO_TELEPORT) ||
+          IS_HOMETOWN(to_room) ||
+          world[to_room].sector_type == SECT_OCEAN) && tries < 1000);
+    }
+/*
+do
       {
         dir = number(0, 3);
       } while( tries++ < 20 && !VALID_TELEPORT_EDGE(to_room, dir, ch->in_room) );
 
       if( tries < 20 )
         to_room = TOROOM(to_room, dir);
-    }
+*/
   }
   else
   {
@@ -4846,7 +4859,7 @@ void spell_group_teleport(int level, P_char ch, char *arg, int type,
   // if no suitable room was found, teleport back to the same room they're in
   if(tries == 1000)
     to_room = ch->in_room;
-
+/*
   // if this zone limits teleports, check to see if the teleportation range is too great
   if(LIMITED_TELEPORT_ZONE(ch->in_room))
   {
@@ -4856,7 +4869,7 @@ void spell_group_teleport(int level, P_char ch, char *arg, int type,
          ch);
     return;
   }
-
+*/
   // get the room the teleport is taking place so we don't have to move the teleporter last
   from_room = ch->in_room;
 
