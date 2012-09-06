@@ -49,7 +49,7 @@ int npc_ship_crew_board_func(P_char ch, P_char player, int cmd, char *arg);
 
 #define CYRICS_REVENGE_CREW 4
 #define CYRICS_REVENGE_NAME "&+RCy&+rri&+Lc's Rev&+ren&+Rge"
-#define ZONE_SHIP_NAME "&+LTh&ne &+LBl&nack &+LPe&narl"
+#define ZONE_SHIP_NAME "&+LTh&+we &+LBl&+wack &+LPe&+warl"
 #define CYRICS_REVENGE_NEXUS_STONE NEXUS_STONE_ENLIL
 #define ZONE_SHIP_ZONE_ENTRANCE 142201
 bool load_cyrics_revenge();
