@@ -8,7 +8,7 @@ ulimit -c unlimited
 while [ $RESULT != 0 ]; do
 	DATESTR=`date +%C%y.%m.%d-%H.%M.%S`
 
-  if [ $RESULT != 52 ]; then
+  if [ $RESULT == 53 ]; then
     if [ -f src/dms_new ]; then
 			if [ -f dms ]; then
 		  	mv dms dms.$DATESTR
@@ -21,6 +21,9 @@ while [ $RESULT != 0 ]; do
     #LOGNAME=`date +%b%d-%H%M`
     mkdir logs/old-logs/$DATESTR
     mv logs/log/* logs/old-logs/$DATESTR
+    if [ -f core ]; then
+      mv core core.$DATESTR
+    fi
   fi
 
   echo "Generating list of function names.."
