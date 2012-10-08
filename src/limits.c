@@ -311,7 +311,7 @@ int hit_regen(P_char ch)
   }
   
   if (has_innate(ch, INNATE_VULN_SUN) && IS_SUNLIT(ch->in_room) &&
-     !IS_TWILIGHT_ROOM(ch->in_room))
+     !IS_TWILIGHT_ROOM(ch->in_room) && !IS_AFFECTED4(ch, AFF4_GLOBE_OF_DARKNESS))
     gain = 0;
 
   if (IS_AFFECTED3(ch, AFF3_SWIMMING) || IS_AFFECTED2(ch, AFF2_HOLDING_BREATH)

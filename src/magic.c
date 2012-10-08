@@ -12269,6 +12269,7 @@ void spell_globe_of_darkness(int level, P_char ch, char *arg, int type,
 
     char_light(victim);
     room_light(victim->in_room, REAL);
+
   }
   else
     send_to_char
