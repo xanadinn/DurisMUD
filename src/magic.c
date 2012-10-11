@@ -1416,7 +1416,7 @@ void spell_wither(int level, P_char ch, char *arg, int type, P_char victim,
     
   int save = victim->specials.apply_saving_throw[SAVING_SPELL];
 
-  int percent = (int) (GET_C_INT(ch) - GET_C_INT(victim));
+  int percent = (int) (GET_C_POW(ch) - GET_C_POW(victim));
   
   percent += (int) (GET_LEVEL(ch) - GET_LEVEL(victim));
 
@@ -11600,7 +11600,7 @@ void spell_heal_undead(int level, P_char ch, char *arg, int type,
   int      healpoints;
 
   if(!IS_UNDEADRACE(victim) &&
-     GET_RACE(victim) != RACE_GOLEM)
+     GET_RACE(victim) != RACE_GOLEM && !GET_CLASS(victim, CLASS_NECROMANCER))
   {
     act
       ("$N chants something odd and takes a look at $n, a weird look in $S eyes.",
@@ -11680,7 +11680,7 @@ void spell_prot_undead(int level, P_char ch, char *arg, int type,
 
   if(!IS_UNDEADRACE(victim) &&
      !IS_ANGEL(victim) &&
-     GET_RACE(victim) != RACE_GOLEM)
+     GET_RACE(victim) != RACE_GOLEM && !GET_CLASS(victim, CLASS_NECROMANCER))
   {
     send_to_char("The target is not undead!\r\n", ch);
     return;
