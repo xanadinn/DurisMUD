@@ -2029,7 +2029,8 @@ void do_cast(P_char ch, char *argument, int cmd)
 
   if (P_char mount = get_linked_char(ch, LNK_RIDING))
   {
-    if (!GET_CHAR_SKILL(ch, SKILL_MOUNTED_COMBAT) && !is_natural_mount(ch, mount))
+    if ((!GET_CHAR_SKILL(ch, SKILL_MOUNTED_COMBAT) && !is_natural_mount(ch, mount)) ||
+	(GET_RACE(ch) == RACE_GOBLIN))
     {
       send_to_char("You're too busy concentrating on staying on your mount to cast!\n", ch);
       return;

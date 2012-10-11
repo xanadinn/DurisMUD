@@ -2978,11 +2978,13 @@ void spell_ether_warp(int level, P_char ch, char *arg, int type,
        (IS_PC(victim) && IS_SET(victim->specials.act2, PLR2_NOLOCATE)
         && !is_introd(victim, ch)) ||
        racewar(ch, victim) || (GET_MASTER(ch) && IS_PC(victim))
+/* Allowing warping off planes - Drannak
        || (((temp == SECT_EARTH_PLANE)
             || (temp == SECT_AIR_PLANE) || (temp == SECT_ETHEREAL)
             || (temp == SECT_FIREPLANE) || (temp == SECT_WATER_PLANE)
             || (temp == SECT_NEG_PLANE))
-           && !(temp == world[to_room].sector_type))))
+*/
+           && !(temp == world[to_room].sector_type)))
   {
     to_room = ch->in_room;
   }

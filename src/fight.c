@@ -4896,7 +4896,7 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
      dam > 2)
   {
     can_mana = MAX(10, dam);
-    can_mana *= GET_LEVEL(ch) / 56;
+    can_mana *= GET_LEVEL(ch) / 30;
     can_mana = MIN(GET_MANA(victim), can_mana);
     
     GET_MANA(ch) += can_mana;
@@ -4906,14 +4906,14 @@ void check_vamp(P_char ch, P_char victim, double fdam, uint flags)
 
     if (GET_MANA(ch) < GET_MAX_MANA(ch))
     {
-      //StartRegen(victim, EVENT_MANA_REGEN);
+      StartRegen(victim, EVENT_MANA_REGEN);   
     }
 
     GET_MANA(victim) -= can_mana;
     
     if (GET_MANA(victim) < GET_MAX_MANA(victim))
     {
-      //StartRegen(victim, EVENT_MANA_REGEN);
+      StartRegen(victim, EVENT_MANA_REGEN);
     }
   }
   

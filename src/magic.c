@@ -1172,10 +1172,10 @@ void spell_energy_drain(int level, P_char ch, char *arg, int type,
       if(IS_PC(ch) || 
          IS_PC_PET(ch))
       {
-        vamp(ch, (int)(dam / 5), (int) (GET_MAX_HIT(ch) * 1.00));
+        vamp(ch, (int)(dam / 5), (int) (GET_MAX_HIT(ch) * get_property("vamping.maxHP.PC", 1.100)));
       }
       else
-        vamp(ch, (int)(dam / 2), (int) (GET_MAX_HIT(ch) * 1.00));
+        vamp(ch, (int)(dam / 2), (int) (GET_MAX_HIT(ch) * get_property("vamping.maxHP.PC", 1.100)));
 	 
     }
 
