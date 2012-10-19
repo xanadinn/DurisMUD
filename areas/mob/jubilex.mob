@@ -11,8 +11,8 @@ warrior missing legs~
 &+WOn his broken breastplate a sigil of Tharnadia.  It is obvious that the
 &+Wman needs &+Yassistance&+W.&N
 ~
-10250 0 0 33554712 32798 0 0 0 S
-PH 0 1 -1
+10250 0 0 0 33554712 32798 0 0 0 S
+PH 0 1 0 -1
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -26,8 +26,8 @@ confused imp~
 &+Lparticular imp is the farthest thing from.  It is all business and most likely&N
 &+Lwill not greet any visitors with jokes or pranks.&N
 ~
-1107703834 196608 0 436207932 30 0 0 -1000 S
-X 0 1 1
+1107703834 196608 0 0 436207932 30 0 0 -1000 S
+X 0 1 0 1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -44,8 +44,8 @@ jailkeeper imp~
 &+LNone of the demon's would have the patience for such organization, but the&N
 &+Limps provide that service to avoid further torture.&N
 ~
-1107703832 1 0 436207932 30 0 0 -1000 S
-X 0 1 2
+1107703832 1 0 0 436207932 30 0 0 -1000 S
+X 0 1 0 2
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -61,8 +61,8 @@ large jailkeeper demon~
 &+wfact, demons respect force.  Jubilex the demon prince, can exert an impressive&N
 &+ramount of that, even though he wishes no contact with others.&N
 ~
-33961994 1 0 436208060 31 0 0 -1000 S
-X 0 272 6
+33961994 1 0 0 436208060 31 0 0 -1000 S
+X 0 272 0 6
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -76,8 +76,8 @@ massive green ooze~
 &+Gquickly dissolve its victims.  The key to its assaults is always the amazing&N
 &+Gspeed with which the ooze can shoot out a spout of acid at its foes.&N
 ~
-1108114524 1 0 302549304 274462 0 8192 -1000 S
-x 0 1 5
+1108114524 1 0 0 302549304 274462 0 8192 -1000 S
+x 0 1 0 5
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -92,8 +92,8 @@ blob red jelly~
 &+rjelly occasionally has a wave go back and forth sickeningly inside of it.&N
 &+rInside that wave, a few dissolved claws float ominously.&N
 ~
-1109686348 1 0 302025016 12318 0 8192 -1000 S
-x 0 4 2
+1109686348 1 0 0 302025016 12318 0 8192 -1000 S
+x 0 4 0 2
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -109,8 +109,8 @@ mass purple slime~
 &+mstronger.  The purple color is odd as slimes usually tend to be green, however&N
 &+min the realm of Jubilex, nothing can be taken for granted.&N
 ~
-1074034764 1 0 302025016 274462 2097152 0 -1000 S
-x 0 1024 5
+1074034764 1 0 0 302025016 274462 2097152 0 -1000 S
+x 0 1024 0 5
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -124,8 +124,8 @@ shambling mound~
 &+Gquickly dissolve its victims.  The key to its assaults is always the amazing&N
 &+Gspeed with which the ooze can shoot out a spout of acid at its foes.&N
 ~
-1074018396 1 0 302025016 12318 0 2 -1000 S
-x 0 128 7
+1074018396 1 0 0 302025016 12318 0 2 -1000 S
+x 0 128 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -141,8 +141,8 @@ jelly striped emitting waves~
 &+bfloating inside the jelly from when its latest victim's head literally&N
 &+Lexploded due to the music.&N
 ~
-1076131916 1 0 302025016 12318 0 8192 -1000 S
-x 0 32772 3
+1076131916 1 0 0 302025016 12318 0 8192 -1000 S
+x 0 32772 0 3
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -158,8 +158,8 @@ gargantuan worm formed acid~
 &+rprotection in itself, and it is feared throughout this plane for its&N
 &+rpropensity to dissolve even the servants of Jubilex.&N
 ~
-291934 1 0 2583726396 14367 0 8192 -1000 S
-D 0 65 7
+291934 1 0 0 2583726396 14367 0 8192 -1000 S
+D 0 65 0 7
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -173,8 +173,8 @@ acid bubble~
 &+rspray on anybody nearby.  If those contents are the same which melted this&N
 &+gvery tunnel, such an experience would not be pleasant at all.&N
 ~
-1082421322 1 0 302025016 12318 0 0 -1000 S
-SL 0 0 1
+1082421322 1 0 0 302025016 12318 0 0 -1000 S
+SL 0 0 0 1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -188,8 +188,8 @@ molten bubble~
 &+Rcontents are just barely contained.  Whatever is inside of this bubble, it's&N
 &+Lguaranteed that it will hurt should the bubble burst.&N
 ~
-1082421322 1 0 838895928 30 0 8192 -1000 S
-SL 0 0 1
+1082421322 1 0 0 838895928 30 0 8192 -1000 S
+SL 0 0 0 1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -208,8 +208,8 @@ traxllopor demon demonic warden~
 &+Las he enjoys torturing it.  Although he's never gotten his hands onto Tallin&N
 &+Lherself, having one of her servants here is quite a treat.&N
 ~
-50739210 1 0 436240828 262175 0 0 -1000 S
-X 0 16777264 7
+50739210 1 0 0 436240828 262175 0 0 -1000 S
+X 0 16777264 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -225,8 +225,8 @@ tallin war demon wardemon~
 &+Lat the pain he endures.  Around his wrist an imperceptible glint can be seen&N
 &+Lwhich has somehow has not been seen by his captors.&N
 ~
-10266 1 0 436208060 31 0 0 -1000 S
-X 0 8192 4
+10266 1 0 0 436208060 31 0 0 -1000 S
+X 0 8192 0 4
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -241,8 +241,8 @@ uncaptured free imp~
 &+Lescape soon, this imp will end up working in one of the prisons or become&N
 &+Llunch for one of Jubilex's minions.&N
 ~
-1107703816 1 0 436207916 30 0 0 -1000 S
-X 0 16384 2
+1107703816 1 0 0 436207916 30 0 0 -1000 S
+X 0 16384 0 2
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -257,8 +257,8 @@ pool puddle pink slime~
 &+Mpowers is a mystery in itself.  Jubilex must infuse his minions with whatever&N
 &+Mhe chooses so that they may serve him.&N
 ~
-1074034764 1 0 302025016 274462 0 0 -1000 S
-x 0 512 6
+1074034764 1 0 0 302025016 274462 0 0 -1000 S
+x 0 512 0 6
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -274,8 +274,8 @@ burly demon~
 &+Lthat they are joined together trying to survive in this plane which they have&N
 &+rbeen drawn into.&N
 ~
-33961994 1 0 436208060 2079 0 0 -1000 S
-PO 0 1 6
+33961994 1 0 0 436208060 2079 0 0 -1000 S
+PO 0 1 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -290,8 +290,8 @@ burly war angel warangel~
 &+Wtogether.  The corpses of slimes and oozes strewn about however serve as a&N
 &+rreminder as to why this angel tolerates his new companions.&N
 ~
-33830920 1 0 436208060 31 0 0 1000 S
-PO 0 32 6
+33830920 1 0 0 436208060 31 0 0 1000 S
+PO 0 32 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -310,8 +310,8 @@ depressed troll raider~
 &+gspecial about a rotten vegetable is not known.  What is evident however is&N
 &+gthat this troll is truly &+Ldepressed&+g.&N
 ~
-33961994 0 0 436208060 2079 0 0 -1000 S
-X 0 1 6
+33961994 0 0 0 436208060 2079 0 0 -1000 S
+X 0 1 0 6
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -328,8 +328,8 @@ frozen legend llznixor illithid~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67516426 0 0 436224316 30 16777216 0 -1000 S
-MF 0 262144 3
+67516426 0 0 0 436224316 30 16777216 0 -1000 S
+MF 0 262144 0 3
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -346,8 +346,8 @@ frozen legend kulnon centaur~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67385354 0 0 436224316 30 0 0 0 S
-CT 0 1 4
+67385354 0 0 0 436224316 30 0 0 0 S
+CT 0 1 0 4
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -364,8 +364,8 @@ frozen legend smurp halfling~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67385354 0 0 436224316 30 0 0 -300 S
-PF 0 8192 1
+67385354 0 0 0 436224316 30 0 0 -300 S
+PF 0 8192 0 1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -382,8 +382,8 @@ frozen legend elirandel grey elf~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67385354 0 0 436224316 31 0 0 800 S
-PE 0 512 3
+67385354 0 0 0 436224316 31 0 0 800 S
+PE 0 512 0 3
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -400,8 +400,8 @@ frozen legend jonxin gnome~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67385354 0 0 436224316 30 2097152 0 -1000 S
-PE 0 512 2
+67385354 0 0 0 436224316 30 2097152 0 -1000 S
+PE 0 512 0 2
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -418,8 +418,8 @@ froze legend dorn barbarian~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67381258 0 0 436224316 30 0 0 0 S
-PB 0 16384 4
+67381258 0 0 0 436224316 30 0 0 0 S
+PB 0 16384 0 4
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -436,8 +436,8 @@ frozen legend tibor dwarf~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67381258 0 0 436224316 32798 0 0 0 S
-PM 0 32 3
+67381258 0 0 0 436224316 32798 0 0 0 S
+PM 0 32 0 3
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -454,8 +454,8 @@ frozen legend lanom human~
 &+Chis or her lesson, they will stay here as proof to the others that fighting&N
 &+Ceach other would not be beneficial.&N
 ~
-67381258 0 0 436224316 30 1073741824 0 0 S
-PH 0 8 3
+67381258 0 0 0 436224316 30 1073741824 0 0 S
+PH 0 8 0 3
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -474,8 +474,8 @@ uz goddess godess balance~
 &+Lat any who enter and tries to deem whether they can be useful to her in her
 &+cquest&+L to leave, or not.&N
 ~
-1176926490 0 0 2584289724 264223 262144 8397584 0 S
-AN 0 24 7
+1176926490 0 0 0 2584289724 264223 262144 8397584 0 S
+AN 0 24 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -490,8 +490,8 @@ pink elephant carrying luggage eleph~
 &+Mand explanation.  He had obviously packed a trunk, and was ready to go&N
 &+Mtraveling, so he's rather upset.&N
 ~
-33961996 1 0 436207932 30 67108864 8396800 -1000 S
-A 0 3 6
+33961996 1 0 0 436207932 30 67108864 8396800 -1000 S
+A 0 3 0 6
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -508,8 +508,8 @@ clone almighty zooox~
 &+Mseem glazed over, and one wonders if there is any true life behind those eyes,&N
 &+Mor if he is but a puppet himself.&N
 ~
-319191050 1 0 436208060 2079 0 8401920 0 S
-x 0 4196864 7
+319191050 1 0 0 436208060 2079 0 8401920 0 S
+x 0 4196864 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -524,8 +524,8 @@ golem straw hair guard~
 &+Lof personality.  He's an entertainer at heart and even occasionally sings into&N
 &+Lhis broomstick.&N
 ~
-33961994 1 0 436207932 30 0 0 -1000 S
-G 0 1 5
+33961994 1 0 0 436207932 30 0 0 -1000 S
+G 0 1 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -539,8 +539,8 @@ mound tower eyeballs eye balls ball~
 &+rmostly eyeballs, it's impossible to surprise it and each of those eyes has&N
 &+Wa large colored eyeball.&N
 ~
-1125005322 1 0 167772476 12318 0 67108864 -1000 S
-BH 0 420 7
+1125005322 1 0 0 167772476 12318 0 67108864 -1000 S
+BH 0 420 0 7
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -554,8 +554,8 @@ disgusting brown mold~
 &+yprovide a wide and large mealbase.  This mold however does survive, and well&N
 &+yat that.  It's a tough old creature.&N
 ~
-33961994 1 0 436207932 12318 0 0 -1000 S
-G 0 16384 5
+33961994 1 0 0 436207932 12318 0 0 -1000 S
+G 0 16384 0 5
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -569,8 +569,8 @@ black pudding covered rock slabs~
 &+Lsees prey, it raises up to a tall height and uses some of the stones for&n
 &+Ldefense, and many more to pound its enemies.&n
 ~
-33961994 1 0 436207932 12318 0 0 -1000 S
-SL 0 1 4
+33961994 1 0 0 436207932 12318 0 0 -1000 S
+SL 0 1 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -586,8 +586,8 @@ captured gadolinium dragon drag draco~
 &+Wthis beast amongst normal dragons, and the claw markings in the ground seem&N
 &+Wto make that evident.&N
 ~
-51804170 1 0 973144380 34846 0 8192 -1000 S
-D 0 16388 7
+51804170 1 0 0 973144380 34846 0 8192 -1000 S
+D 0 16388 0 7
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -602,8 +602,8 @@ shambling mound matron caretaker shamble~
 &+gmanner of vile dead creature to the young ones so that they can grow and scour&N
 &+gthe world.&N
 ~
-33961994 1 0 436207932 12318 0 0 -1000 S
-x 0 16640 5
+33961994 1 0 0 436207932 12318 0 0 -1000 S
+x 0 16640 0 5
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -617,8 +617,8 @@ small slimy slimeling slime~
 &+gfrom tank to tank sucking up sustenance and growing ever bigger.  As it moves&N
 &+gone can almost see the intelligence grow of the thing.&N
 ~
-33978376 1 0 301990204 12318 0 0 -1000 S
-SL 0 1 4
+33978376 1 0 0 301990204 12318 0 0 -1000 S
+SL 0 1 0 4
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -632,8 +632,8 @@ small oozing ooze slimeling~
 &+gfrom tank to tank sucking up sustenance and growing ever bigger.  As it moves&N
 &+gone can almost see the intelligence grow of the thing.&N
 ~
-33978376 1 0 301990204 12318 0 0 -1000 S
-SL 0 1024 4
+33978376 1 0 0 301990204 12318 0 0 -1000 S
+SL 0 1024 0 4
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -647,8 +647,8 @@ small pudding slimeling pud~
 &+gfrom tank to tank sucking up sustenance and growing ever bigger.  As it moves&N
 &+gone can almost see the intelligence grow of the thing.&N
 ~
-33978376 1 0 301990204 12318 0 0 -1000 S
-SL 0 8192 4
+33978376 1 0 0 301990204 12318 0 0 -1000 S
+SL 0 8192 0 4
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -662,8 +662,8 @@ small moldy slimeling mold~
 &+gfrom tank to tank sucking up sustenance and growing ever bigger.  As it moves&N
 &+gone can almost see the intelligence grow of the thing.&N
 ~
-33978376 1 0 301990204 12318 0 0 -1000 S
-SL 0 2048 4
+33978376 1 0 0 301990204 12318 0 0 -1000 S
+SL 0 2048 0 4
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -678,8 +678,8 @@ massive balor demon~
 &+rdribbles and the chains which bind it to this spot just barely seem to hold&N
 &+Lit.&N
 ~
-1174829098 1 0 436207932 31 0 0 -1000 S
-X 0 16384 7
+1174829098 1 0 0 436207932 31 0 0 -1000 S
+X 0 16384 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -693,8 +693,8 @@ small mane demon~
 &+Rat the time of its capture, and it is perhaps lucky for the creature that it&N
 &+Lis just out of reach of its former master.&N
 ~
-101070858 1 0 436207932 30 0 0 -1000 S
-X 0 1 3
+101070858 1 0 0 436207932 30 0 0 -1000 S
+X 0 1 0 3
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -708,8 +708,8 @@ lake pure slime gigantic~
 &+Gway to traverse the lake is to fight its vileness once and for all.  Only&N
 &+gthen could the waters be calmed and the source of the lake be exterminated.&N
 ~
-59145226 1 0 2583724348 2111518 0 8400896 -1000 S
-x 0 385 7
+59145226 1 0 0 2583724348 2111518 0 8400896 -1000 S
+x 0 385 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -729,8 +729,8 @@ jubilex demon prince eyeballs eye~
 &+Gso that it can be reshaped in this prince's image.  From the looks of it, such&N
 &+Gan event would be horrifying to say the least.&N
 ~
-109476875 1 0 2601093564 309279 67895296 100672514 -1000 S
-Y 0 596 7
+109476875 1 0 0 2601093564 309279 67895296 100672514 -1000 S
+Y 0 596 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -750,8 +750,8 @@ jubilex demon prince eyeballs eye~
 &+Gso that it can be reshaped in this prince's image.  From the looks of it, such&N
 &+Gan event would be horrifying to say the least.&N
 ~
-1460042763 1 0 2601093564 47134 67633152 100676610 -1000 S
-X 0 4194884 7
+1460042763 1 0 0 2601093564 47134 67633152 100676610 -1000 S
+X 0 4194884 0 7
 61 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -764,8 +764,8 @@ massive slime bubble~
 &+rJubilex.  Completely unstable, it is ready to send boiling slime shooting out&N
 &+Gthrough everything in sight.&N
 ~
-1082421322 1 0 839420216 30 524296 8192 -1000 S
-SL 0 0 5
+1082421322 1 0 0 839420216 30 524296 8192 -1000 S
+SL 0 0 0 5
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -780,8 +780,8 @@ supremely strong slime golem~
 &+yof the surrounding slimes, and its blades are ready to destroy those who&N
 &+Gtrespass.&N
 ~
-33961994 1 0 437256636 2078 0 0 -1000 S
-MG 0 32 6
+33961994 1 0 0 437256636 2078 0 0 -1000 S
+MG 0 32 0 6
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -795,8 +795,8 @@ awaiting waiting wait green slime~
 &+Ggrasp quite often.  It is apparent he owes much to the location above which&N
 &+Gpermits unsuspecting creatures to portal into the fortress.&N
 ~
-33978378 1 0 436207932 268435486 262144 8192 -1000 S
-G 0 2 7
+33978378 1 0 0 436207932 268435486 262144 8192 -1000 S
+G 0 2 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -811,8 +811,8 @@ confused wild mage wildmage~
 &+Mpropensity to just randomly cast a spell proves dangerous even to the&N
 &+Minterplanar creatures gathered here.&N
 ~
-1107720202 1 0 436207932 31 0 0 -1000 S
-PL 0 512 4
+1107720202 1 0 0 436207932 31 0 0 -1000 S
+PL 0 512 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -826,8 +826,8 @@ soldier heaven magic~
 &+Yhe is more magic than creature.  Therefore he apathetically follows orders&N
 &+Lpatrolling around the camp.&N
 ~
-33961994 1 0 436207932 30 0 0 -1000 S
-G 0 16384 5
+33961994 1 0 0 436207932 30 0 0 -1000 S
+G 0 16384 0 5
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -842,8 +842,8 @@ deep elder wyrm dragon golden gold~
 &+Ypleases the dragon very much, however even that isn't enough to make him&N
 &+Yentirely pleased with being trapped in the abyss.&N
 ~
-33961994 1 0 436207932 30 0 0 1000 S
-D 0 3 5
+33961994 1 0 0 436207932 30 0 0 1000 S
+D 0 3 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -857,8 +857,8 @@ tiefling guardian tief demon~
 &+mfrom demonic exploits.  As such they are exiles from all communities and&N
 &+msimply needed to band together for survival.&N
 ~
-1107703818 1 0 436207932 30 0 0 -1000 S
-PL 0 64 4
+1107703818 1 0 0 436207932 30 0 0 -1000 S
+PL 0 64 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -873,8 +873,8 @@ mold small brown~
 &+yintelligence such creatures can exhibit is quite unconventional when all&N
 &+ythings are considered.&N
 ~
-1107703820 1 0 436207932 30 0 0 -1000 S
-x 0 64 4
+1107703820 1 0 0 436207932 30 0 0 -1000 S
+x 0 64 0 4
 54 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -889,8 +889,8 @@ horn covered yugoloth fiend horn-covered~
 &+Lnot be wise to come anywhere near them while they are doing whatever it is&N
 &+Rthey are doing.&N
 ~
-101070858 1 0 437256510 2078 0 0 -1000 S
-X 0 86016 5
+101070858 1 0 0 437256510 2078 0 0 -1000 S
+X 0 86016 0 5
 54 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -905,8 +905,8 @@ razor backed razor-backed yugoloth fiend~
 &+Lwatches the surroundings with unerringly sharp eyes.  One gets the feeling&N
 &+Lthat nothing gets by this creature.&N
 ~
-101070856 1 0 437780798 2078 0 0 -1000 S
-X 0 86016 4
+101070856 1 0 0 437780798 2078 0 0 -1000 S
+X 0 86016 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -928,8 +928,8 @@ observing pit fiend pitfiend agronon~
 &+La truly logical devil.  One must wonder if some &+Routside influence&+L also might&N
 &+Lbe driving him.&N
 ~
-101070890 0 0 436207932 2079 0 8388608 -1000 S
-Y 0 16 6
+101070890 0 0 0 436207932 2079 0 8388608 -1000 S
+Y 0 16 0 6
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -944,8 +944,8 @@ bone devil~
 &+WAbsolute authority is respected absolutely in the realm of the hells, and this&N
 &+Wdevil knows well its low level in those worlds.&N
 ~
-101070858 0 0 436207932 30 0 0 -1000 S
-Y 0 16384 4
+101070858 0 0 0 436207932 30 0 0 -1000 S
+Y 0 16384 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -960,8 +960,8 @@ tiefling merchant cock-eyed~
 &+mlong enough, the begin to lose their grip on reality.  Perhaps that is what&N
 &+mis happening here with the shell shocked man.&N
 ~
-33961994 0 0 436208060 31 0 0 -1000 S
-PL 0 512 4
+33961994 0 0 0 436208060 31 0 0 -1000 S
+PL 0 512 0 4
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -976,8 +976,8 @@ bahamut's bahamut children child dragon draco~
 &+Wis such an abundance of demons in the abyss it is difficult not to be&N
 &+Woverwhelmed.&N
 ~
-1107704328 1 0 436207932 31 0 0 1000 S
-D 0 512 6
+1107704328 1 0 0 436207932 31 0 0 1000 S
+D 0 512 0 6
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -991,8 +991,8 @@ zooox second clone~
 &+Mjust as carefree as he always has.  Nothing seems to disturb him, not the&N
 &+Mchains on his arms and legs, or the bumps on his head.&N
 ~
-1107703816 1 0 436207932 2078 0 0 0 S
-UL 0 1024 4
+1107703816 1 0 0 436207932 2078 0 0 0 S
+UL 0 1024 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1007,8 +1007,8 @@ extremely buff angel war warangel~
 &+Wpunish evil for the rest of his existence.  Although a curious outlook, for&N
 &+Wone so committed to that task it is befitting.&N
 ~
-1107703816 1 0 436207932 34846 0 0 1000 S
-G 0 33 4
+1107703816 1 0 0 436207932 34846 0 0 1000 S
+G 0 33 0 4
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1026,8 +1026,8 @@ zuggtmoy lady fungus demon~
 &+gtheir power base.  While Jubilex believes in his solitude, Zuggtmoy is more&N
 &+Gpublic in her demonstrations of power.&N
 ~
-118388746 1 0 2601028028 276510 16777216 8192 -1000 S
-X 0 1025 7
+118388746 1 0 0 2601028028 276510 16777216 8192 -1000 S
+X 0 1025 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1042,8 +1042,8 @@ rival demon lord demonlord~
 &N&+Land now this once powerful demon simply fumes in his cell in an almost&N
 &N&+Lanimalistic fashion.&N
 ~
-1107703816 1 0 436207932 30 67108864 1024 -1000 S
-G 0 1 4
+1107703816 1 0 0 436207932 30 67108864 1024 -1000 S
+G 0 1 0 4
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1057,8 +1057,8 @@ demon dark power~
 &+Ldemon wields they would have destroyed him for fear of their lives.  Soft&N
 &+Lspoken and cool, it calmly and resolutely dissects what it sees.&N
 ~
-1107720200 1 0 436208060 296990 0 8192 -1000 S
-X 0 1088 7
+1107720200 1 0 0 436208060 296990 0 8192 -1000 S
+X 0 1088 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1073,8 +1073,8 @@ extremely powerful seraphim~
 &+Wwarrior has been locked in the prison awaiting the return of his comrades so&N
 &+Whe can continue the fight against that evil.&N
 ~
-1107703816 1 0 436207932 268470302 262144 8192 -1000 S
-AN 0 8 6
+1107703816 1 0 0 436207932 268470302 262144 8192 -1000 S
+AN 0 8 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1091,8 +1091,8 @@ alxorno tiefling guardian warrior~
 &+mand trapped here unfortunately.  His eyes burn with &+ranger&+m and it is
 &+mpossible he'd like to speak of &+grevenge&+m.&N
 ~
-1107703816 0 0 436207932 2078 0 0 -1000 S
-PL 0 16384 4
+1107703816 0 0 0 436207932 2078 0 0 -1000 S
+PL 0 16384 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1106,8 +1106,8 @@ wildmage mage wild nature~
 &+gdefinitely not a model prisoner.  He is constantly speaking about animals and&N
 &+gsaying very strange things which make little sense.&N
 ~
-1376139272 1 0 452985148 30 0 0 -1000 S
-PH 0 128 3
+1376139272 1 0 0 452985148 30 0 0 -1000 S
+PH 0 128 0 3
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1122,8 +1122,8 @@ wild mage wildmage creatures creature~
 &+Blonely.  It has been a long time since this mage was without creatures to be&N
 &+Bhis friends, but that has just happened.&N
 ~
-1376139272 1 0 436207932 30 64 1048576 -1000 S
-PH 0 256 3
+1376139272 1 0 0 436207932 30 64 1048576 -1000 S
+PH 0 256 0 3
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1137,8 +1137,8 @@ wildmage wild mage space time~
 &+LAlthough it wasn't a happy day, the fact that he had sent himself through&N
 &+Wspace always pleases this mage, even if it is to another plane.&N
 ~
-1376139272 1 0 436207932 30 16777216 0 -1000 S
-PH 0 4 3
+1376139272 1 0 0 436207932 30 16777216 0 -1000 S
+PH 0 4 0 3
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1153,8 +1153,8 @@ wildmage wild mage elements element~
 &+yof the elemental planes, this mage could be happy for the rest of his life.&N
 &+yHowever trapped in the abyss, and in a prison in the abyss, is not acceptable.&N
 ~
-1107703816 1 0 436207996 30 0 0 -1000 S
-PH 0 2048 3
+1107703816 1 0 0 436207996 30 0 0 -1000 S
+PH 0 2048 0 3
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1170,8 +1170,8 @@ wildmage wild mage great~
 &+Bit could happen to in the cosmos.  It's a wonder and a disturbing event all&N
 &+Cat once.&N
 ~
-1107703816 1 0 436207932 2079 0 0 -1000 S
-G 0 512 6
+1107703816 1 0 0 436207932 2079 0 0 -1000 S
+G 0 512 0 6
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1186,8 +1186,8 @@ captured devil~
 &+RUntil such time however he'll pray on the smaller prisoners and destroy them&N
 &+Rat his will.&N
 ~
-1107703816 1 0 436207932 2078 0 0 -1000 S
-G 0 512 6
+1107703816 1 0 0 436207932 2078 0 0 -1000 S
+G 0 512 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1202,8 +1202,8 @@ xalandro's nightmare horse steed~
 &+La fight, and neither did its master.  The lives of many demons were cleaved&N
 &+Lfrom them by its hooves.&N
 ~
-1107703816 1 0 437256508 268437534 67108864 0 -1000 S
-DK 0 2097152 4
+1107703816 1 0 0 437256508 268437534 67108864 0 -1000 S
+DK 0 2097152 0 4
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1218,8 +1218,8 @@ nonorga pit fiend pitfiend~
 &+rhowever was not the case, and she can't even find the freedom of death on this&N
 &+rplane so that she might one day once again return to hell.&N
 ~
-1174812714 1 0 436273468 2079 0 8388608 -1000 S
-Y 0 512 6
+1174812714 1 0 0 436273468 2079 0 8388608 -1000 S
+Y 0 512 0 6
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1236,8 +1236,8 @@ xalandro drow necromancer~
 &+mto be asleep much of the time, but this is deceptive.  He is always alert, and&N
 &+malways watching what is going on.&N
 ~
-1174829066 0 0 2583691708 2079 0 0 -1000 S
-UL 0 1024 5
+1174829066 0 0 0 2583691708 2079 0 0 -1000 S
+UL 0 1024 0 5
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1251,8 +1251,8 @@ ravaging dracolich draco lich ravage red~
 &+Lgreater demons out there can dispatch one, many of the smaller demons are&N
 &+Lfalling prey to this gigantic beast of hanging flesh, and destruction.&N
 ~
-35026986 1 0 436208060 264222 0 0 -1000 S
-UD 0 8192 7
+35026986 1 0 0 436208060 264222 0 0 -1000 S
+UD 0 8192 0 7
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1266,8 +1266,8 @@ ravaging dracolich draco lich ravage purple~
 &+Lgreater demons out there can dispatch one, many of the smaller demons are&N
 &+Lfalling prey to this gigantic beast of hanging flesh, and destruction.&N
 ~
-33979434 1 0 436208060 264222 0 0 -1000 S
-UD 0 1024 7
+33979434 1 0 0 436208060 264222 0 0 -1000 S
+UD 0 1024 0 7
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1281,8 +1281,8 @@ ravaging dracolich draco lich ravage blue~
 &+Lgreater demons out there can dispatch one, many of the smaller demons are&N
 &+Lfalling prey to this gigantic beast of hanging flesh, and destruction.&N
 ~
-33978666 1 0 436208060 264222 0 0 -1000 S
-UD 0 1 7
+33978666 1 0 0 436208060 264222 0 0 -1000 S
+UD 0 1 0 7
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1296,8 +1296,8 @@ ravaging dracolich draco lich ravage yellow~
 &+Lgreater demons out there can dispatch one, many of the smaller demons are&N
 &+Lfalling prey to this gigantic beast of hanging flesh, and destruction.&N
 ~
-34502698 1 0 436208060 264222 0 0 -1000 S
-UD 0 2048 7
+34502698 1 0 0 436208060 264222 0 0 -1000 S
+UD 0 2048 0 7
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1312,8 +1312,8 @@ tiefling elder sleepy relaxing~
 &+mby nature, but this community was originally founded simply out of need.  Now&N
 &+mit is stagnating under this tiefling's control.&N
 ~
-33978378 0 0 436208060 31 0 0 -1000 S
-PL 0 2048 4
+33978378 0 0 0 436208060 31 0 0 -1000 S
+PL 0 2048 0 4
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 9 9 1
@@ -1328,8 +1328,8 @@ barbaaba barbarian warrioress warrior barb~
 &+Bfair statement to say she took more than a fair number of the demons along&N
 &+Bwith her as she was captured.&N
 ~
-1107703816 1 0 436207932 34846 0 0 1000 S
-PB 0 11 4
+1107703816 1 0 0 436207932 34846 0 0 1000 S
+PB 0 11 0 4
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1349,8 +1349,8 @@ niev mad sorcerer human~
 &+Lhim all too well now.  &+LHe &+wmumbles &+Lto himself something about &N
 &+Wpower&+L.  Although mad his connection to &+MZooox&+L is unlikely.&N
 ~
-1376155656 0 0 436208060 2079 2097152 33554432 500 S
-PH 0 512 4
+1376155656 0 0 0 436208060 2079 2097152 33554432 500 S
+PH 0 512 0 4
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1365,8 +1365,8 @@ allisandrana sorceress elf grey~
 &+Cstill could be enough to help her escape if she could ever figure out how to&N
 &+Cuse it in this world.&N
 ~
-1107720200 1 0 436208060 2079 0 0 1000 S
-PE 0 516 3
+1107720200 1 0 0 436208060 2079 0 0 1000 S
+PE 0 516 0 3
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1382,8 +1382,8 @@ dark-skinned hezrou demon~
 &+Lhis leisure.  Very few of these hezrou would ever risk such a fate by&N
 &+Ldisappointing him.&N
 ~
-1107720200 1 0 436208060 30 67108864 0 -1000 S
-X 0 1 5
+1107720200 1 0 0 436208060 30 67108864 0 -1000 S
+X 0 1 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1397,8 +1397,8 @@ demon hezrou overseer seer~
 &+Rto begin with, but Jubilex demands that they follow his orders.  The sense of&N
 &+Rfear is passed on down from demon to demon.&N
 ~
-1107720200 1 0 436208060 30 67108864 0 -1000 S
-X 0 512 5
+1107720200 1 0 0 436208060 30 67108864 0 -1000 S
+X 0 512 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1415,8 +1415,8 @@ man maxilo infamous doppleganger~
 &+WThe &+bsymbol&+W he wears around his neck marks him a lord of some standing and&N
 &+Wwould certainly entice many to listen to his offers.&N
 ~
-1107703818 0 0 436207932 2079 0 0 -1000 S
-UL 0 384 5
+1107703818 0 0 0 436207932 2079 0 0 -1000 S
+UL 0 384 0 5
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1431,8 +1431,8 @@ miska's wolf spider wolfspider demon~
 &+yare especially vicious in hand to hand combat having a superior advantage to&N
 s&+ycreatures without as many legs.&N
 ~
-1107720202 1 0 436207932 268437534 67371008 1024 -1000 S
-AS 0 2097219 7
+1107720202 1 0 0 436207932 268437534 67371008 1024 -1000 S
+AS 0 2097219 0 7
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1449,8 +1449,8 @@ wolfspider spider wolf general~
 &+ythousands of demons and slimes between them.  In the end, they were&N
 &+yoverwhelmed, but it was not an easy task.&N
 ~
-1124497416 1 0 436208060 268437535 67371008 1024 -1000 S
-Y 0 18874448 7
+1124497416 1 0 0 436208060 268437535 67371008 1024 -1000 S
+Y 0 18874448 0 7
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1465,8 +1465,8 @@ quivering bard scared man human~
 &+bhe will be jailed with the wrong cellmate and that will be it for this&N
 &+Lunfortunate being.&N
 ~
-1107703816 1 0 436207932 2078 0 0 0 S
-PH 0 32768 3
+1107703816 1 0 0 436207932 2078 0 0 0 S
+PH 0 32768 0 3
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1481,8 +1481,8 @@ zu god harmony~
 &+Wmore to him than a momentary lapse in his traveling ways.  Soon enough he&N
 &+Wwill be on his way again.&N
 ~
-1107720200 0 0 436208060 264223 0 0 0 S
-AN 0 96 7
+1107720200 0 0 0 436208060 264223 0 0 0 S
+AN 0 96 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1496,8 +1496,8 @@ gargantuan balor demon~
 &+Lagainst the prisoners housed here.  Its massive body, violent temper, and&N
 &+Llack of intellect give it the perfect combination of abilities to stand guard.&N
 ~
-1175877674 1 0 436208060 2079 262144 0 -1000 S
-X 0 16 7
+1175877674 1 0 0 436208060 2079 262144 0 -1000 S
+X 0 16 0 7
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1511,8 +1511,8 @@ zorobabi rakshasa conjurer conji~
 &+Ya surprise, and more of a surprise when hundreds of demons leapt on top of&N
 &+Yhim dragging him here eventually.&N
 ~
-1107703816 1 0 436208060 2078 0 0 -1000 S
-RA 0 2048 4
+1107703816 1 0 0 436208060 2078 0 0 -1000 S
+RA 0 2048 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1528,8 +1528,8 @@ urrsty traveler man~
 &+Ysomewhat surprised to see him wandering by them paying him no heed.  As&N
 &+Yentertaining as that was, he was imprisoned nonetheless.&N
 ~
-1107720200 1 0 436208060 2078 0 0 0 S
-P2 0 18432 5
+1107720200 1 0 0 436208060 2078 0 0 0 S
+P2 0 18432 0 5
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1544,8 +1544,8 @@ yugoloth commander plotting fiend~
 &+Lit or not however is not clear.  Yugoloths are renowned for being devious&N
 &+Land this commander's &+Wplot&+L shows that he is no exceptions.&N
 ~
-101070858 0 0 437256510 2078 0 0 -1000 S
-X 0 26624 7
+101070858 0 0 0 437256510 2078 0 0 -1000 S
+X 0 26624 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1561,8 +1561,8 @@ lokpan plotter darkness dark~
 &+Llight upon itself.  As a divine leader of a realm of darkness, Lokpan has all&N
 &+Lthe powers of a god, while being a very solid form.&N
 ~
-1108768776 1 0 437856702 264223 524288 528 -1000 S
-Y 0 8198 7
+1108768776 1 0 0 437856702 264223 524288 528 -1000 S
+Y 0 8198 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1576,8 +1576,8 @@ winged unicorn wing horse~
 &+Wto their end.  It is no wonder that unicorn horns are such valuable objects&N
 &+Won the prime material plane.  These creatures are nearly magic incarnate.&N
 ~
-1107703816 1 0 436207934 30 0 0 -1000 S
-CT 0 41 6
+1107703816 1 0 0 436207934 30 0 0 -1000 S
+CT 0 41 0 6
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1591,8 +1591,8 @@ planar dragon wyrm~
 &+gdragon can't leave.  It has become decidedly angry about that fact, and will&N
 &+ghappily tear to shreds anything that comes near it.&N
 ~
-33961992 1 0 301990204 30 0 0 -1000 S
-D 0 4194304 5
+33961992 1 0 0 301990204 30 0 0 -1000 S
+D 0 4194304 0 5
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1607,8 +1607,8 @@ cornered corner creature~
 &+Lcreatures and make them manageable so he could leave the abyss with them.&N
 &+LPerhaps he could use someone to &+Whelp&+L him in this way.&N
 ~
-33961994 0 0 436207932 2078 0 0 -1000 S
-MG 0 64 4
+33961994 0 0 0 436207932 2078 0 0 -1000 S
+MG 0 64 0 4
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1626,8 +1626,8 @@ demonic demon ghost ruler~
 &+Lcommon knowledge.  This once mighty ruler may talk however to the right&N
 &+Lperson because he awaits &+Wsomething&+L.&N
 ~
-33978378 0 0 403702206 2078 0 0 -1000 S
-UG 0 32768 7
+33978378 0 0 0 403702206 2078 0 0 -1000 S
+UG 0 32768 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1643,8 +1643,8 @@ small demon~
 &+Rthe fact that Zuggtmoy also regularly keeps the demons in line with&N
 &+Rdemonstrations of power.&N
 ~
-1109800968 1 0 436207916 30 0 0 -1000 S
-X 0 16448 2
+1109800968 1 0 0 436207916 30 0 0 -1000 S
+X 0 16448 0 2
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1659,8 +1659,8 @@ blaxor demon run~
 &+Ra demon, and no amount of being evil will ever restore him to his once lofty&N
 &+Rplace in the abyss.&N
 ~
-33961992 0 0 402653244 2078 0 0 -1000 S
-X 0 32 4
+33961992 0 0 0 402653244 2078 0 0 -1000 S
+X 0 32 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1675,8 +1675,8 @@ kriben demon run~
 &+Rbut something planar.  What that is, and why he is hiding here will probably&N
 &+Rfollow him to the grave.&N
 ~
-33961992 0 0 402653244 2078 0 0 -1000 S
-X 0 1 4
+33961992 0 0 0 402653244 2078 0 0 -1000 S
+X 0 1 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1691,8 +1691,8 @@ dinok demon run~
 &+Rwould in no way be here.  As it is however, the mountain offers isolation for&N
 &+Rthis demon on the run.&N
 ~
-33961992 0 0 402653244 2078 0 0 -1000 S
-X 0 512 4
+33961992 0 0 0 402653244 2078 0 0 -1000 S
+X 0 512 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1707,8 +1707,8 @@ galnor demon run~
 &+Rexistance.  Being kicked out of the abyss is bad enough, but if he dies in&N
 &+Rthis mess it'll be worse.&N
 ~
-33961992 0 0 402653244 2078 0 0 -1000 S
-X 0 64 4
+33961992 0 0 0 402653244 2078 0 0 -1000 S
+X 0 64 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1722,8 +1722,8 @@ cyan pudding~
 &+cno greater supporters than these puddings as they are the spiritual generation&N
 &+cof power for the demon.&N
 ~
-1109686348 1 0 302025016 45086 0 8192 -1000 S
-x 0 32 2
+1109686348 1 0 0 302025016 45086 0 8192 -1000 S
+x 0 32 0 2
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1738,8 +1738,8 @@ devoted lich orcus undead~
 &+Lon this lich therefore matter little to it.  It will never give in to their&N
 &+Ldemands, and will never give out the location of the demon prince.&N
 ~
-1107720200 1 0 402653374 30 0 0 -1000 S
-UL 0 512 5
+1107720200 1 0 0 402653374 30 0 0 -1000 S
+UL 0 512 0 5
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1753,8 +1753,8 @@ pit fiend pitfiend lower reaches~
 &+Rkilled with the exception of himself.  He's been tortured here for quite some &N
 &+rtime, and would love an opportunity to take that frustration out on something.&N
 ~
-1107720200 1 0 402653244 2079 0 0 -1000 S
-Y 0 2 6
+1107720200 1 0 0 402653244 2079 0 0 -1000 S
+Y 0 2 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1768,8 +1768,8 @@ curious thri-kreen thri kreen bug~
 &+ypowerful wave that was felt recently.  They don't stray too closely to any&N
 &+ycracks and all seem to be tenuous about coming near such a site.&N
 ~
-33962058 0 0 436208060 268699742 262144 0 -1000 S
-TK 0 65 6
+33962058 0 0 0 436208060 268699742 262144 0 -1000 S
+TK 0 65 0 6
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1784,8 +1784,8 @@ succubus guardian demon alu-demon~
 &+Rthe prisoner.  Their charms keep intruders at bay and allow power to be sucked&N
 &+Rfrom the prisoner to supply the lake of slime with extra energy.&N
 ~
-33978378 1 0 436207932 2078 0 0 -1000 S
-UV 0 4194304 7
+33978378 1 0 0 436207932 2078 0 0 -1000 S
+UV 0 4194304 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1802,8 +1802,8 @@ neptune lord god seas sea~
 &+Wfreedom&+b after being charmed and held for so long.  Perhaps asking this&N
 &+bformidable god about the subject might provide insight.&N
 ~
-1107720970 0 0 2584291772 2099230 67371008 67117104 -1000 S
-AN 0 2305 7
+1107720970 0 0 0 2584291772 2099230 67371008 67117104 -1000 S
+AN 0 2305 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1818,8 +1818,8 @@ heavily armored yugoloth fiend~
 &+Lone of the imps or other planars running around the prison to free him.  As&N
 &+Lto what that plot is, a &+Ryugoloth&+L never tells.&N
 ~
-101070856 1 0 437780798 2078 0 0 -1000 S
-X 0 4096 6
+101070856 1 0 0 437780798 2078 0 0 -1000 S
+X 0 4096 0 6
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1835,8 +1835,8 @@ ferret marvin gigantic~
 &+ymagical fire poof into existence, and then disappear.  He looks expectantly at&N
 &+yall who enter wondering if they will show him a sign of his &+Rold master&+y.&n
 ~
-1107703816 0 0 268435516 2077 0 0 -1000 S
-A 0 2560 7
+1107703816 0 0 0 268435516 2077 0 0 -1000 S
+A 0 2560 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1847,8 +1847,8 @@ lolth spider demon queen~
 ~
 &+m  Standing here is Lolth the Demon Queen.  Her many legs move independently with deadly strokes as they move across the ground.  Two human arms wield blades as her beautiful head sits atop a fully spider body.  Her enormous size is impressive, but the red of her eyes as they peer at you is even more so. It is easy to understand how the Drow can be so afeared and enamoured of the demoness all at once.  &N
 ~
-1392933900 1 0 2585364924 4470813 85753856 536876066 -1000 S
-x 0 5125 7
+1392933900 1 0 0 2585364924 4470813 85753856 536876066 -1000 S
+x 0 5125 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1864,8 +1864,8 @@ graz'zt dark prince demon graz~
 &+Lwhich still peak out from behind his frock of blond hair.  A dark look&N
 &+rcrosses his face as he contemplates what to destroy next here.&N
 ~
-1392933388 1 0 2585364924 4470876 87851008 536876066 -1000 S
-x 0 35072 7
+1392933388 1 0 0 2585364924 4470876 87851008 536876066 -1000 S
+x 0 35072 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1880,8 +1880,8 @@ horde driders drider spider~
 &+Lbretheren died in the tournament just to be considered for this position by the &n
 &+mspider queen, and none will allow that charge to be harmed.&n
 ~
-134221834 1 0 124 262144 262144 0 -1000 S
-dr 0 8192 7
+134221834 1 0 0 124 262144 262144 0 -1000 S
+dr 0 8192 0 7
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1898,8 +1898,8 @@ pair dangerous lamias lamia~
 &+rmany of his enemies and by showing extreme loyalty.  How that loyalty was displayed&n
 &+ris up for speculation.&n
 ~
-134221834 1 0 124 262144 262144 0 -1000 S
-uv 0 8192 6
+134221834 1 0 0 124 262144 262144 0 -1000 S
+uv 0 8192 0 6
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1915,8 +1915,8 @@ ferret marvin gigantic~
 &+ysince the chaos and danger of the battlefield appears to be getting more&n
 &+ypronounced all the time..&n
 ~
-1107703816 0 0 268435516 2077 0 0 -1000 S
-A 0 2560 7
+1107703816 0 0 0 268435516 2077 0 0 -1000 S
+A 0 2560 0 7
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
