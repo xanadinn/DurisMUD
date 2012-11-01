@@ -2921,6 +2921,7 @@ void do_consume(P_char ch, char *argument, int cmd)
      act("...with a final gesture, &+L$n&n tears the last bit of &+gr&+Go&+gt&+Gt&+gi&+Gn&+gg&+r flesh&n from your&n &+gco&+Lrrod&+ged&n body.&n\r\n", FALSE, ch, 0, victim, TO_VICT);
      act("...with a final gesture, &+Lyou&n tear the last bit of &+gr&+Go&+gt&+Gt&+gi&+Gn&+gg&+r flesh&n from $N&n's &+gco&+Lrrod&+ged&n body.&n\r", FALSE, ch, 0, victim, TO_CHAR);
      act("The mass of &+gflesh&n is quickly absorbed by you, leaving your body &+rstrengthened&n and your &+Lprayers &nrefreshed.&n\n", FALSE, ch, 0, victim, TO_CHAR);
+     CharWait(ch, PULSE_VIOLENCE);
   }  
 	attack_back(ch, victim, FALSE);
 }
