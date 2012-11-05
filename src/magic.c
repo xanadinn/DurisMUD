@@ -3365,6 +3365,10 @@ void spell_single_meteorswarm(int level, P_char ch, char *arg, int type,
   if (IS_PC(ch) && IS_PC(victim))
     dam = dam * get_property("spell.area.damage.to.pc", 0.5); 
   dam = dam * get_property("spell.area.damage.factor.meteorSwarm", 1.000);
+  if(GET_SPEC(ch, CLASS_SORCERER, SPEC_WIZARD))
+   {
+    dam = dam * 2;
+   }
   spell_damage(ch, victim, dam, SPLDAM_GENERIC, 0, &messages);
 }
 
@@ -12722,7 +12726,10 @@ void spell_single_incendiary_cloud(int level, P_char ch, char *arg, int type,
     dam = dam * get_property("spell.area.damage.to.pc", 0.5);
   
   dam = dam * get_property("spell.area.damage.factor.incendiaryCloud", 1.000);
-
+  if(GET_SPEC(ch, CLASS_SORCERER, SPEC_WIZARD))
+  {
+   dam = dam * 2;
+  }
   spell_damage(ch, victim, dam, SPLDAM_FIRE, 0, &messages);
 }
 

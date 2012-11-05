@@ -1282,7 +1282,7 @@ void spell_single_earthen_rain(int level, P_char ch, char *arg, int type,
   if(GET_SPEC(ch, CLASS_SHAMAN, SPEC_ELEMENTALIST))
     //dam = (int) (dam * get_property("damage.increase.elementalist", 1.150));
     {
-     dam = dam * 2.5;
+	dam = dam * 2;
     }
  
   if (IS_PC(ch) && IS_PC(victim))

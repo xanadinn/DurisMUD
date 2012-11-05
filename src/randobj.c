@@ -289,15 +289,15 @@ unsigned int getMonsterDiffNumber(unsigned int level, unsigned int zoneDiff)
   else if (level <= 45)         // 41-45
     numb = 10;
   else if (level <= 50)         // 46-50
-    numb = 12;
+    numb = 11;
   else if (level <= 55)         // 51-55
-    numb = 14;
+    numb = 12;
   else if (level <= 59)         // 56-59
-    numb = 16;
+    numb = 14;
   else if (level <= 60)         // 60
-    numb = 20;
+    numb = 15;
   else                          // 61+
-    numb = 25;
+    numb = 20;
 
 
   numb += number(-1, 1);        // slight randomization

@@ -291,6 +291,95 @@ bool is_ally(P_char ch, P_char other)
   return FALSE;
 }
 
+int get_weight_allies_in_room(P_char ch, int room_index)
+{
+  P_char   t_char = world[room_index].people;
+  char buf[250];
+  int      allies = 0;
+  int	   weights = 0;
+  byte chrace;
+  
+  int chweight = 0;
+
+  if (IS_MORPH(ch))
+    ch = MORPH_ORIG(ch);
+  while (t_char)
+  {
+    if (is_ally(ch, t_char))
+    {
+     chrace = NULL;
+     chrace  = GET_RACE(t_char);
+	  switch (chrace)
+	  {
+	  case RACE_OGRE:
+	  chweight += 9;
+	  break;
+         case RACE_FIRBOLG:
+	  chweight += 9;
+	  break;
+	  case RACE_MINOTAUR:
+	  chweight += 8;
+	  break;
+	  case RACE_TROLL:
+	  chweight += 7;
+	  break;
+	  case RACE_CENTAUR:
+	  chweight += 8;
+	  break;
+	  case RACE_BARBARIAN:
+	  chweight += 7;
+	  break;
+	  case RACE_ORC:
+	  chweight += 6;
+	  break;
+	  case RACE_HUMAN:
+	  chweight += 5;
+	  break;
+	  case RACE_GITHYANKI:
+	  chweight += 5;
+	  break;
+	  case RACE_GITHZERAI:
+	  chweight += 5;
+	  break;
+	  case RACE_MOUNTAIN:
+	  chweight += 4;
+	  break;
+	  case RACE_DUERGAR:
+	  chweight += 4;
+	  break;
+         case RACE_THRIKREEN:
+         chweight += 4;
+         break;
+	  case RACE_GREY:
+	  chweight += 3;
+	  break;
+	  case RACE_DROW:
+	  chweight += 3;
+	  break;
+	  case RACE_HALFLING:
+	  chweight += 2;
+	  break;
+	  case RACE_GOBLIN:
+	  chweight += 2;
+	  break;
+	  case RACE_KOBOLD:
+	  chweight += 1;
+	  break;
+	  case RACE_GNOME:
+	  chweight += 1;
+         break;
+         default:
+         act("could not find race.\n", FALSE, ch, 0, 0, TO_CHAR);
+         //debug("&+gRace:&n (%s) weight (%d) at (%s).", GET_RACE(t_char), chweight, GET_NAME(ch));
+	  break; 
+	  }
+    }
+    t_char = t_char->next_in_room;
+  }
+  return chweight;
+}
+
+
 int get_number_allies_in_room(P_char ch, int room_index)
 {
   P_char   t_char = world[room_index].people;

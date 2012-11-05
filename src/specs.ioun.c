@@ -263,15 +263,18 @@ int ioun_warp(P_obj obj, P_char ch, int cmd, char *argument)
            0, TO_ROOM);
         act("&+GYour $p &+Gbegins whirling around your body very fast!!&n",
             FALSE, ch, obj, 0, TO_CHAR);
-        char_from_room(ch);
-        char_to_room(ch, target->in_room, -1);
-        act
+        //char_from_room(ch);
+        //char_to_room(ch, target->in_room, -1);
+        spell_relocate(56, ch, 0, 0, target, NULL);
+       /* act
           ("&+wAs the haze slowly subsides, you realize you are somewhere else!&n",
            FALSE, ch, obj, 0, TO_CHAR);
+	
         act
           ("&+wA soft, &+bblurry &+mhaze &+wfloats in from above and begins whirling about a central area...\r\n"
            "&+wAs the haze subides, $n is standing there with a grin on $s face.&n",
            FALSE, ch, obj, 0, TO_ROOM);
+	*/
         obj->timer[0] = curr_time;
         return TRUE;
       }

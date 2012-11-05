@@ -585,11 +585,17 @@ void bard_healing(int l, P_char ch, P_char victim, int song)
 
   healed = l * 3 * number(40, 80) / 100;
   //spell_heal(l, ch, 0, 0, victim, NULL);
-  heal(victim, ch, healed , GET_MAX_HIT(victim) - number(1, 4));
+  
    act("&+WYour body feels restored by the power of $n's soothing song!", FALSE, ch, 0, victim, TO_VICT);
   if(ch == victim)
   {
     act("&+WYour body feels restored by the power of your soothing song!", FALSE, ch, 0, victim, TO_CHAR);
+    heal(victim, ch, healed , GET_MAX_HIT(victim) - number(1, 4));
+  }
+  else
+  {
+   healed = (healed * .65);
+   heal(victim, ch, healed , GET_MAX_HIT(victim) - number(1, 4));
   }
 
 

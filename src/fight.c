@@ -2263,7 +2263,7 @@ void die(P_char ch, P_char killer)
   if(IS_PC(ch) &&
     !CHAR_IN_ARENA(ch) &&
     !IS_TRUSTED(ch) &&
-    (GET_LEVEL(ch) > 39))
+    (GET_RACEWAR(ch) != 1))
   {
     loss = gain_exp(ch, NULL, 0, EXP_DEATH);
   }
@@ -2319,7 +2319,8 @@ void die(P_char ch, P_char killer)
       }
       else
       {
-        if(GET_LEVEL(ch) < 30 || GET_LEVEL(killer) < 20)
+        //if(GET_LEVEL(ch) < 30 || GET_LEVEL(killer) < 20) //removing level restriction, adding racewar check goods only - drannak
+       if(GET_RACEWAR(ch) == 1)
 	{
         tempobj = create_random_eq_new(killer, ch, -1, -1);
        }

@@ -49,6 +49,7 @@ extern void check_room_links(P_char, int, int);
 extern bool grease_check(P_char);
 extern int top_of_world;
 extern int get_number_allies_in_room(P_char ch, int room_index);
+extern int get_weight_allies_in_room(P_char ch, int room_index);
 void send_movement_noise(P_char ch, int num);
 
 int is_ice(P_char ch, int room)
@@ -1863,10 +1864,11 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
     if(IS_MAP_ROOM(ch->in_room))
     {
       // Probably too simple, just count the number of allies in a room.
-      noise_var = get_number_allies_in_room(ch, ch->in_room);
+      //noise_var = get_number_allies_in_room(ch, ch->in_room);
+	noise_var = get_weight_allies_in_room(ch, ch->in_room); //changing to use weight code - 10/5/2012 Drannak
       
       // Let us randomize the noise a tad.
-      noise_var = noise_var + number(-1, 1);
+      //noise_var = noise_var + number(-1, 1);
       
       // Sounds suppression threshold is 13.
       if(affected_by_spell(ch, SPELL_SUPPRESSION) &&
@@ -1875,7 +1877,8 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
       }
       else
       {
-        send_movement_noise(ch, noise_var +1);
+        //send_movement_noise(ch, noise_var  +1);
+        send_movement_noise(ch, noise_var);
       }
     }
 // Commenting this out for now since the num_followed routine was
@@ -1913,7 +1916,7 @@ void send_movement_noise(P_char ch, int num)
       }
       
       int dist = calculate_map_distance(ch->in_room, i->character->in_room);
-
+/*
       if(num >= 20 &&
          dist <= 400)
       {
@@ -1937,6 +1940,37 @@ void send_movement_noise(P_char ch, int num)
               number(0, 4))
       {
         send_to_char("&+cYou hear the sounds of movement in the distance.&n\r\n", i->character);
+      }
+*/
+      if(num >= 30 &&
+         dist <= 400)
+      {
+        send_to_char("&+rThe ground &+Rb&+ru&+Rc&+rk&+Rl&+re&+Rs&n &+rto the tune of a marching &+Lhorde.&n\r\n", i->character);
+      }
+
+      else if(num >= 23 &&
+              num <= 29 &&
+              dist <= 320 )
+      {
+        send_to_char("&+yThe earth &+Ytrembles &+yfrom the marching of a nearby army.&n\r\n", i->character);
+      }
+      else if(num >= 19 &&
+              num <= 22 &&
+              dist <= 260 )
+      {
+        send_to_char("&+yRocks shake and the &+Learth&+y rumbles from the footsteps of an approaching &+Yparty.&n\r\n", i->character);
+      }
+      else if(num >= 14 &&
+              num <= 18 &&
+              dist <= 140 )
+      {
+        send_to_char("&+ySmall &+Lrocks&n jitter on the &+Lground &+yas an unknown &+Yentity &+yapproaches.&n\r\n", i->character);
+      }
+      else if(num >= 11 &&
+              num <= 13 &&
+              dist <= 64)
+      {
+       send_to_char("&nYou can hear the sound of &+ymovement &nin the distance.&n\r\n", i->character);
       }
     }
   }

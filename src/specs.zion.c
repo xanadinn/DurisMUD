@@ -916,7 +916,7 @@ int zion_mace_of_earth(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+  if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   if (arg && (cmd == CMD_SAY))
@@ -980,11 +980,12 @@ int zion_mace_of_earth(P_obj obj, P_char ch, int cmd, char *arg)
       spell_earthquake(60, ch, 0, SPELL_TYPE_SPELL, vict, 0);
     if (is_char_in_room(vict, ch->in_room))
     {
-      spell_damage(ch, vict, dam, SPLDAM_GENERIC,
-                   SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);
+      /*spell_damage(ch, vict, dam, SPLDAM_GENERIC,
+                   SPLDAM_NOSHRUG | SPLDAM_NODEFLECT, &messages);*/
+        spell_earthen_rain(60, ch, 0, SPELL_TYPE_SPELL, vict, 0);
+
     }
   }
-
   return (FALSE);
 }
 

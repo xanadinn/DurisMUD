@@ -1147,8 +1147,12 @@ void spell_single_death_field(int level, P_char ch, char *args, int type,
     "Your mind collapses as a wave of death runs through your body.",
     "$N's body shivers and falls lifeless as a wave of death reaches $M.", 0
   };
-
   dam = 130 + level * 3 + number(1, 10);
+  if(GET_SPEC(ch, CLASS_PSIONICIST, SPEC_ENSLAVER))
+  {
+   dam = dam * 2;
+  }
+  
 
   spell_damage(ch, victim, dam, SPLDAM_PSI, 0, &messages);
 }

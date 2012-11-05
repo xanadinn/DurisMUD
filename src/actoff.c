@@ -9400,7 +9400,7 @@ void restrain(P_char ch, P_char victim)
         0, victim, TO_NOTVICT);
     act("$n's&+L minions attempt to restrain you, but you simply break free of the &+rrestraints&+L.&n", FALSE,
         ch, 0, victim, TO_VICT);
-    CharWait(ch, (int) (0.5 * PULSE_VIOLENCE));
+    CharWait(ch, (int) (2 * PULSE_VIOLENCE));
     return;
   }
   
@@ -9412,7 +9412,7 @@ void restrain(P_char ch, P_char victim)
       FALSE, ch, 0, victim, TO_NOTVICT);
     act("$n &+Ltries to restrain you, but you easily evade the attempt!&n",
       FALSE, ch, 0, victim, TO_VICT);
-    CharWait(ch, (int) (0.5 * PULSE_VIOLENCE));
+    CharWait(ch, (int) (2 * PULSE_VIOLENCE));
     return;
   }
   
@@ -9567,12 +9567,13 @@ void restrain(P_char ch, P_char victim)
       set_short_affected_by(victim, SKILL_RESTRAIN, (int) (PULSE_VIOLENCE * 1.5));
       set_short_affected_by(ch, SKILL_BASH, (int) (PULSE_VIOLENCE * 3.0));
       victim->specials.combat_tics = victim->specials.base_combat_round;
+      CharWait(victim, (int) (2.0 * PULSE_VIOLENCE));
 
       if(IS_NPC(victim))
         // they can't do any cmds anyway, so lag them so they can stack
         // cmds the same as being bashed, etc.
       {
-        CharWait(victim, (int) (0.75 * PULSE_VIOLENCE));
+        CharWait(victim, (int) (2.0 * PULSE_VIOLENCE));
       }
       if(number(0, 2))
       {

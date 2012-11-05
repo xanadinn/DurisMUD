@@ -106,7 +106,7 @@ int hammer(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+  if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   vict = (P_char) arg;
@@ -580,7 +580,7 @@ int dispator(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   vict = (P_char) arg;
@@ -630,7 +630,7 @@ int orb_of_the_sea(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   if (cmd != CMD_GOTHIT)
@@ -801,7 +801,7 @@ int doombringer(P_obj obj, P_char ch, int cmd, char *arg)
     return TRUE;
   }
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+  if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   if (arg && (cmd == CMD_SAY))
@@ -1249,7 +1249,7 @@ int avernus(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   if (arg && (cmd == CMD_SAY))
@@ -2552,7 +2552,7 @@ int tiamat_stinger(P_obj obj, P_char ch, int cmd, char *arg)
   if (!ch)
     return (FALSE);
 
-  if (!OBJ_WORN_POS(obj, WIELD))
+   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
 
   vict = (P_char) arg;
@@ -2596,7 +2596,7 @@ int holy_mace(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (cmd == CMD_MELEE_HIT)
   {
-    if (!OBJ_WORN_POS(obj, WIELD))
+    if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
       return (FALSE);
 
     vict = (P_char) arg;

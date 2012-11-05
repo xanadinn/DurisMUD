@@ -1124,7 +1124,7 @@ void initialize_skills()
   SPELL_ADD(CLASS_BARD, 7);
   SPEC_SPELL_ADD(CLASS_REAVER, 8, SPEC_FLAME_REAVER);
 
-  SPELL_CREATE("meteorswarm", SPELL_METEOR_SWARM, PULSE_SPELLCAST * 3,
+  SPELL_CREATE("meteorswarm", SPELL_METEOR_SWARM, PULSE_SPELLCAST * 2,
                 TAR_AREA + TAR_OFFAREA | TAR_AGGRO, spell_meteorswarm);
   SPELL_ADD(CLASS_SORCERER, 10);
 
@@ -2360,7 +2360,7 @@ SPELL_ADD(CLASS_NONE, 1);
   SPELL_ADD(CLASS_SORCERER, 6);
   SPELL_ADD(CLASS_CONJURER, 6);
 
-  SPELL_CREATE("incendiary cloud", SPELL_INCENDIARY_CLOUD, (int) (PULSE_SPELLCAST * 2.5),
+  SPELL_CREATE("incendiary cloud", SPELL_INCENDIARY_CLOUD, (int) (PULSE_SPELLCAST * 2),
                 TAR_AREA | TAR_OFFAREA | TAR_AGGRO,
                 spell_incendiary_cloud);
   SPELL_ADD(CLASS_SORCERER, 9);
@@ -2842,7 +2842,7 @@ SPELL_ADD(CLASS_NONE, 1);
                 spell_scathing_wind);
   SPELL_ADD(CLASS_SHAMAN, 8);
 
-  SPELL_CREATE("earthen rain", SPELL_EARTHEN_RAIN, PULSE_SPELLCAST * 3,
+  SPELL_CREATE("earthen rain", SPELL_EARTHEN_RAIN, PULSE_SPELLCAST * 2,
                 TAR_AREA | TAR_OFFAREA | TAR_AGGRO | TAR_ELEMENTAL,
                 spell_earthen_rain);
   SPELL_ADD(CLASS_SHAMAN, 10);
