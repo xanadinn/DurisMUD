@@ -583,8 +583,11 @@ void bard_healing(int l, P_char ch, P_char victim, int song)
 {
   int healed, old_hits = GET_HIT(ch);
 
-  healed = l * 3 * number(40, 80) / 100;
+
+  //healed = l * 3 * number(40, 80) / 100;
   //spell_heal(l, ch, 0, 0, victim, NULL);
+  healed = GET_C_CHA(ch) / 3;
+  healed = healed + GET_LEVEL(ch);
   
    act("&+WYour body feels restored by the power of $n's soothing song!", FALSE, ch, 0, victim, TO_VICT);
   if(ch == victim)
@@ -750,6 +753,16 @@ void bard_sleep(int l, P_char ch, P_char victim, int song)
   {
     bard_aggro(victim, ch);
     return;
+  }
+
+  if(GET_LEVEL(victim) > 45)
+  {
+   if(number(1, 280) > GET_C_CHA(ch))
+    {
+    bard_aggro(victim, ch);
+    act("&+B$n stifles a yawn, but manages stay awake!", TRUE, victim, 0, 0, TO_ROOM);
+    return;
+    }
   }
 
   if(bard_saves(ch, victim, song))

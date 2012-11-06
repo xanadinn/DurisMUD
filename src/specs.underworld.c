@@ -105,10 +105,10 @@ int hammer(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   vict = (P_char) arg;
 
   if (!vict)
@@ -579,10 +579,10 @@ int dispator(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
    if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   vict = (P_char) arg;
 
   if (OBJ_WORN_BY(obj, ch) && vict)
@@ -629,10 +629,10 @@ int orb_of_the_sea(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
    if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   if (cmd != CMD_GOTHIT)
     return FALSE;
 
@@ -800,10 +800,10 @@ int doombringer(P_obj obj, P_char ch, int cmd, char *arg)
     hummer(obj);
     return TRUE;
   }
-
+/*
   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   if (arg && (cmd == CMD_SAY))
   {
     if (isname(arg, "stone"))
@@ -1248,9 +1248,10 @@ int avernus(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
    if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
+*/
 
   if (arg && (cmd == CMD_SAY))
   {
@@ -2551,10 +2552,10 @@ int tiamat_stinger(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
    if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   vict = (P_char) arg;
 
   if (OBJ_WORN_BY(obj, ch) && vict)
@@ -2596,9 +2597,10 @@ int holy_mace(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (cmd == CMD_MELEE_HIT)
   {
+   /*
     if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
       return (FALSE);
-
+   */
     vict = (P_char) arg;
 
     if(OBJ_WORN_BY(obj, ch) &&

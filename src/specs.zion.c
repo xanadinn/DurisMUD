@@ -915,10 +915,10 @@ int zion_mace_of_earth(P_obj obj, P_char ch, int cmd, char *arg)
 
   if (!ch)
     return (FALSE);
-
+/*
   if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
     return (FALSE);
-
+*/
   if (arg && (cmd == CMD_SAY))
   {
     if (isname(arg, "earth"))

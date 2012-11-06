@@ -4129,7 +4129,9 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
 	//send_to_char("&+Rdamage output halved\r\n", ch);
 	}
 */
-
+	if (has_innate(victim, MAGIC_VULNERABILITY))
+        dam *= 1.30;   
+ 
     if((af = get_spell_from_char(victim, SPELL_ELEM_AFFINITY)) &&
        ELEMENTAL_DAM(type))
     {
@@ -8280,6 +8282,11 @@ int calculate_attacks(P_char ch, int attacks[])
 	  }
 	}
     
+        if(GET_CLASS(ch, CLASS_MONK))
+	{
+	  ADD_ATTACK(PRIMARY_WEAPON);
+	}
+
     if(GET_SPEC(ch, CLASS_ANTIPALADIN, SPEC_VIOLATOR))
 	{
 	  ADD_ATTACK(PRIMARY_WEAPON);

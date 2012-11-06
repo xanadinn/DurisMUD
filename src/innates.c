@@ -378,6 +378,7 @@ const struct innate_data
   {"wall climbing", 0},
   {"woodland renewal", 0},
   {"natural movement", 0},
+  {"magic vulnerability", 0},
 };
 
 string list_innates(int race, int cls, int spec)
@@ -637,6 +638,7 @@ void assign_innates()
   ADD_RACIAL_INNATE(INNATE_BODYSLAM, RACE_OGRE, 1);
   ADD_RACIAL_INNATE(INNATE_VULN_SUN, RACE_OGRE, 1);
   ADD_RACIAL_INNATE(INNATE_DAYBLIND, RACE_OGRE, 1);
+  ADD_RACIAL_INNATE(MAGIC_VULNERABILITY, RACE_OGRE, 1);
   /* List of Orc Innates             */
   ADD_RACIAL_INNATE(INNATE_ULTRAVISION, RACE_ORC, 1);
   ADD_RACIAL_INNATE(INNATE_DAYVISION, RACE_ORC, 1);

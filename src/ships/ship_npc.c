@@ -737,12 +737,12 @@ P_ship try_load_pirate_ship(P_ship target)
         {
             level = 0;
         }
-        else if (n < 800)
+        else if (n < 1200) //old value 800 - drannak
         {
             level = 1;
         }
-        else if (n < 1600 || number(1, 4) != 1)
-        {
+       else if (n < 2200 || number(1, 4) != 1)
+                {
             level = 2;
             if (number(1, 3) == 1)
                 type = NPC_AI_HUNTER;
@@ -752,6 +752,18 @@ P_ship try_load_pirate_ship(P_ship target)
             level = 3;
             type = NPC_AI_HUNTER;
         }
+
+      /* else if (n < 1600 || number(1, 4) != 1)
+        {
+            level = 2;
+            if (number(1, 3) == 1)
+                type = NPC_AI_HUNTER;
+        }
+        else
+        {
+            level = 3;
+            type = NPC_AI_HUNTER;
+        } */
     }
     else
     {

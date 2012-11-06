@@ -4658,6 +4658,53 @@ bool single_stab(P_char ch, P_char victim, P_obj weapon)
   if(GET_STAT(victim) <= STAT_INCAP ||
      GET_STAT(victim) >= STAT_DYING)
      dam = MAX(200, dam);
+
+  if(affected_by_spell(victim, SPELL_STONE_SKIN))
+    {
+      affect_from_char(victim, SPELL_STONE_SKIN);
+      dam = 1;
+    act("$n attempts to stab you in the back, but your &+Lstone skin&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_VICT);
+    act("You attempt to stab $N in the back, but their &+Lstone skin&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_CHAR);
+        act("$n attempts to stab $N in the back, but $N's &+Lstone skin&n quickly absorbs the impact before fading away!",
+      FALSE, ch, 0, victim, TO_NOTVICTROOM);
+    }
+
+  if(affected_by_spell(victim, SPELL_BIOFEEDBACK))
+    {
+      affect_from_char(victim, SPELL_BIOFEEDBACK);
+      dam = 1;
+    act("$n attempts to stab you in the back, but your &+Gbiofeedback&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_VICT);
+    act("You attempt to stab $N in the back, but their &+Gbiofeedback&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_CHAR);
+        act("$n attempts to stab $N in the back, but $N's &+Gbiofeedback&n quickly absorbs the impact before fading away!",
+      FALSE, ch, 0, victim, TO_NOTVICTROOM);
+    }
+
+  if(affected_by_spell(victim, SPELL_VINES))
+    {
+      affect_from_char(victim, SPELL_VINES);
+      dam = 1;
+    act("$n attempts to stab you in the back, but your &+Gvines&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_VICT);
+    act("You attempt to stab $N in the back, but their &+Gvines&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_CHAR);
+        act("$n attempts to stab $N in the back, but $N's &+Gvines&n quickly absorbs the impact before fading away!",
+      FALSE, ch, 0, victim, TO_NOTVICTROOM);
+    }
+   if(affected_by_spell(victim, SPELL_IRONWOOD))
+    {
+      affect_from_char(victim, SPELL_IRONWOOD);
+      dam = 1;
+    act("$n attempts to stab you in the back, but your &+yironwood&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_VICT);
+    act("You attempt to stab $N in the back, but their &+yironwood&n quickly absorbs the impact before fading away!",
+       FALSE, ch, 0, victim, TO_CHAR);
+        act("$n attempts to stab $N in the back, but $N's &+yironwood&n quickly absorbs the impact before fading away!",
+      FALSE, ch, 0, victim, TO_NOTVICTROOM);
+    }
  
   if(GET_CHAR_SKILL(ch, SKILL_SPINAL_TAP) &&
     (notch_skill(ch, SKILL_SPINAL_TAP, get_property("skill.notch.offensive", 15)) ||

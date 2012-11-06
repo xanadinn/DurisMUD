@@ -428,8 +428,8 @@ int vecna_pestilence(P_obj obj, P_char ch, int cmd, char *arg)
 
  
   // Making this procable in offhand since the proc situation can be rare.
-  if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
-    return FALSE;
+ /* if (!OBJ_WORN_POS(obj, WIELD) || !OBJ_WORN_POS(obj, WIELD2))
+    return FALSE; */
 
   if (number(0, 100) <= 30 && GET_ALIGNMENT(ch) < -750)
   {
