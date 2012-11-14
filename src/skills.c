@@ -851,7 +851,9 @@ void initialize_skills()
   SPELL_CREATE_MSG("combat mind", SPELL_COMBAT_MIND, PULSE_SPELLCAST,
                 TAR_SELF_ONLY,
                 spell_combat_mind, "You forget your battle tactics.");
-  SPELL_ADD(CLASS_PSIONICIST, 1);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 1, SPEC_PSYCHEPORTER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 1, SPEC_ENSLAVER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 1, SPEC_PYROKINETIC);
   SPELL_ADD(CLASS_MINDFLAYER, 1);
 
 /* what the hell is this? -Zod */
@@ -944,7 +946,9 @@ void initialize_skills()
                 TAR_SELF_ONLY,
                 spell_inertial_barrier, "Your &+Winertial barrier&n fades away.");
   SPELL_ADD(CLASS_MINDFLAYER, 7);
-  SPELL_ADD(CLASS_PSIONICIST, 8);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_PSYCHEPORTER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_ENSLAVER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_PYROKINETIC);
 
   SPELL_CREATE("inflict pain", SPELL_INFLICT_PAIN, PULSE_SPELLCAST * 1,
                 TAR_CHAR_ROOM | TAR_FIGHT_VICT | TAR_AGGRO, spell_inflict_pain);
@@ -994,7 +998,9 @@ void initialize_skills()
   SPELL_CREATE_MSG("cannibalize", SPELL_CANNIBALIZE, PULSE_SPELLCAST,
                 TAR_SELF_ONLY,
                 spell_cannibalize, "&+YYou can no longer drain your victim!&N");
-  SPELL_ADD(CLASS_PSIONICIST, 8);
+    SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_PSYCHEPORTER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_ENSLAVER);
+  SPEC_SPELL_ADD(CLASS_PSIONICIST, 8, SPEC_PYROKINETIC);
   SPELL_ADD(CLASS_MINDFLAYER, 7);
 
 /* Removed

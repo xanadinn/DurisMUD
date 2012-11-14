@@ -1132,8 +1132,8 @@ bool ground_casting_check(P_char ch, int spl)
       !IS_SET(skills[spl].targets, TAR_NOCOMBAT) &&
       //( number(0,100) < (int) ( GET_CHAR_SKILL(ch, SKILL_GROUND_CASTING) / 2 ) ||
       //  notch_skill(ch, SKILL_GROUND_CASTING, get_property("skill.notch.groundCasting", 50) ) )    
-      ( number(0,120) < (int) ( GET_CHAR_SKILL(ch, SKILL_CONCENTRATION) ) ||
-        notch_skill(ch, SKILL_CONCENTRATION, 100) )       
+      ( number(0,120) < (int) ( GET_CHAR_SKILL(ch, SKILL_CONCENTRATION / 2)  ||
+        notch_skill(ch, SKILL_CONCENTRATION, 50) ))       
       )
   {
     act("$n continues preparing $s spell from the ground...", FALSE, ch, 0, 0, TO_ROOM);
