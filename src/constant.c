@@ -96,7 +96,7 @@ const int allowed_secondary_classes[CLASS_COUNT + 1][5] = {
  
   {CLASS_MERCENARY, CLASS_CLERIC, -1},      /* War */
   {CLASS_WARRIOR, CLASS_DRUID, CLASS_ROGUE, -1},              /* Ran */
-  {CLASS_CONJURER, -1},                         		              /* Psi */
+  {-1},                         		              /* Psi */
   {CLASS_WARRIOR, -1},          		      /* Pal */
   {CLASS_WARRIOR, -1},          		              /* APa */
   {CLASS_DRUID, CLASS_BARD, CLASS_WARRIOR, CLASS_SHAMAN, -1}, /* Cle */
@@ -1607,7 +1607,7 @@ const int class_table[LAST_RACE + 1][CLASS_COUNT + 1] = {
   { 5 ,  1 ,  5 ,  5 ,  1 ,  5 ,  1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  0 ,  5 ,  1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  0 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Mountain Dwarf */
   { 5 , -1 ,  5 ,  5 ,  5 , -1 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 , -1 ,  5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Duergar Dwarf */
   { 5 ,  5 ,  1 ,  5 ,  5 ,  5 ,  1 ,  5 ,  5 ,  3 ,  1 ,  5 ,  5 ,  3 ,  5 ,  5 ,  3 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Halfling */
-  { 5 ,  5 ,  5 ,  5 ,  5 , -1 ,  3 ,  5 ,  5 ,  2 ,  5 , -1 ,  3 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Gnome */
+  { 5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  3 ,  5 ,  5 ,  2 ,  5 , -1 ,  3 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Gnome */
   { 5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Ogre */
   { 5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 , -1 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Troll */
   { 5 ,  2 ,  1 ,  5 ,  1 ,  5 ,  2 ,  5 ,  0 ,  5 ,  2 ,  5 ,  2 ,  2 ,  5 ,  2 ,  2 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 ,  5 },  /* Half-Elf */
