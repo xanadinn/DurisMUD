@@ -3538,8 +3538,9 @@ void select_sex(P_desc d, char *arg)
     return;
   }
 
-  /*
-	if( !IS_NEWBIE(d->character)) {
+  
+  if( !IS_NEWBIE(d->character)) 
+	{
 	  SEND_TO_Q
 	    ("\r\n\r\nDo you want to play hardcore? Hardcore char can only die 5 times, then it's gone for ever.\r\n",
 	     d);
@@ -3548,13 +3549,14 @@ void select_sex(P_desc d, char *arg)
 	     d);
 	  SEND_TO_Q("Please select either H (for Hardcore), N (for Normal)", d);
 	  STATE(d) = CON_HARDCORE;
-	} else {
+	} 
+  else {
 	  display_classtable(d);
 	  STATE(d) = CON_QCLASS;
 	}
-*/
-   display_classtable(d);
-   STATE(d) = CON_QCLASS;
+//re-enabling hardcore - drannak 
+/*   display_classtable(d);
+   STATE(d) = CON_QCLASS;*/
 }
 
 

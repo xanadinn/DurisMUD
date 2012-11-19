@@ -9703,7 +9703,7 @@ void mob_hunt_event(P_char ch, P_char victim, P_obj obj, void *d)
       if(!char_in_list(ch))
         return;
     }
-  /*  else if(number(0, 3) &&
+  /*  else if(number(0, 3) && // Mobs can no longer see hidden chars - Drannak 10/2012
            IS_AFFECTED(vict, AFF_HIDE))
     {
       do_search(ch, NULL, 0);  

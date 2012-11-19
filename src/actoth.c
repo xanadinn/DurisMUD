@@ -2232,24 +2232,24 @@ static int location_mod[] = { 75,       /* light */
   110,                          /* body */
   105,                          /* head */
   95,                           /* legs */
-  125,                          /* feet */
+  145,                          /* feet */
   110,                          /* hands */
-  95,                           /* arms */
+  100,                           /* arms */
   100,                          /* shield */
   100,                          /* about */
   70,                           /* waist */
   75,                           /* r wrist */
   75,                           /* l wrist */
-  1250,                          /* primary weapon */
-  100,                          /* hold */
+  150,                          /* primary weapon */
+  120,                          /* hold */
   100,                          /* eyes */
   100,                          /* face */
   50,                           /* R earring */
   50,                           /* L earring */
   90,                           /* quiver */
   50,                           /* badge */
-  125,                          /* third wep */
-  125,                          /* 4th wep */
+  150,                          /* third wep */	
+  150,                          /* 4th wep */
   100,                          /* back */
   50,                           /* belt1 */
   50,                           /* belt2 */

@@ -1560,13 +1560,13 @@ void show_char_to_char(P_char i, P_char ch, int mode)
             strcat(buffer, ", floating");
           if (!IS_RIDING(i))
             strcat(buffer, " here");
-
+/*
               if (IS_SET(i->specials.act3, PLR3_FRAGLEAD))
 		  strcat(buffer, " (&+rF&+Rr&+ra&+Rg &+rL&+Ro&+rr&+Rd&n&N)");
 
 		if (IS_SET(i->specials.act3, PLR3_FRAGLOW))
 		  strcat(buffer, " (&+yFrag &+YFood&n&N)");
-
+*/
 
              		if(IS_SET(i->specials.act2, PLR2_NEWBIE))
 			strcat(buffer, " (&+GNewbie&N)");
