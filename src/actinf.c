@@ -6093,7 +6093,7 @@ void do_users(P_char ch, char *argument, int cmd)
     }
     
     sprintf(linebuf, " %s | %s | %4d | %s\r\n", 
-            (d->character ? pad_ansi(GET_NAME(d->character), 11).c_str() : "-          "),
+            ((d->character && GET_NAME(d->character)) ? pad_ansi(GET_NAME(d->character), 11).c_str() : "-          "),
             pad_ansi(connbuf, 11).c_str(),
             (d->wait / 240),            
             hostbuf
