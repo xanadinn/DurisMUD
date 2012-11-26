@@ -212,6 +212,9 @@ int ioun_warp(P_obj obj, P_char ch, int cmd, char *argument)
 
   half_chop(argument, Gbuf, Gbuf2);
 
+
+  if(!IS_FIGHTING(ch) &&  (ch->equipment[HOLD] != obj))
+  {
   if (*Gbuf && (cmd == CMD_SAY))
   {
     if (!strcmp(Gbuf, "join") && *Gbuf2)
@@ -280,6 +283,7 @@ int ioun_warp(P_obj obj, P_char ch, int cmd, char *argument)
         return TRUE;
       }
     }
+  }
   }
   return FALSE;
 }

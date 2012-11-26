@@ -333,7 +333,7 @@ int calculate_hitpoints(P_char ch)
    * reason in the future this skill ceases to exist.
    * -Zion 10/31/07 (happy halloween!)
    */
-
+/*
   if(IS_AFFECTED3(ch, AFF3_PALADIN_AURA) && (GET_RACEWAR(ch) == 1))
    {
     if(ch->group)
@@ -342,6 +342,7 @@ int calculate_hitpoints(P_char ch)
     	 hps = (hps + BOUNDED(1, (GET_LEVEL(ch) * 2), 110));
 	}
    }
+*/
 
   if (IS_ILLITHID(ch))
   {
