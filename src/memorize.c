@@ -38,7 +38,7 @@
 #define IS_BOOK_CLASS(cls) ( (cls) &\
   (CLASS_SORCERER | CLASS_CONJURER | CLASS_NECROMANCER |\
    CLASS_ILLUSIONIST | CLASS_BARD |\
-   CLASS_RANGER | CLASS_REAVER | CLASS_THEURGIST))
+   CLASS_REAVER | CLASS_THEURGIST))
 #define IS_PRAYING_CLASS(cls) ( (cls) &\
   (CLASS_CLERIC | CLASS_PALADIN | CLASS_ANTIPALADIN | CLASS_AVENGER | CLASS_ETHERMANCER | CLASS_CABALIST))
 #define IS_MEMING_CLASS(cls) (IS_BOOK_CLASS(cls) || ((cls) & CLASS_SHAMAN))
@@ -712,7 +712,7 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
   {
     time = time * get_property("memorize.factor.npc", 1.0);
   }
-  else if(ch->player.m_class & CLASS_DRUID)
+  else if(ch->player.m_class & CLASS_DRUID || CLASS_RANGER)
   {
     // modify for terrain
     float modifier = druid_memtime_terrain_mod[world[ch->in_room].sector_type];

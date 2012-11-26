@@ -1627,7 +1627,7 @@ else if (GET_CLASS(ch, CLASS_PSIONICIST) || GET_CLASS(ch, CLASS_MINDFLAYER))
   {
     if (circle != -1 && !ch->specials.undead_spell_slots[circle])
     {
-      if (GET_CLASS(ch, CLASS_DRUID))
+      if (GET_CLASS(ch, CLASS_DRUID) || GET_CLASS(ch, CLASS_RANGER))
         send_to_char("&+gYou must commune with nature more before "
                      "invoking its power.\n", ch);
 /*
