@@ -650,18 +650,15 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
   {
     level = MAX(1, level - 2);
     time_mult = 2.25;
-	send_to_char("semi cast, not multi\r\n", ch);
   }
   else if(IS_MULTICLASS_PC(ch))
   {
     time_mult = get_property("memorize.factor.multiclass", 1.75);
-	send_to_char("multiclass\r\n", ch);
   }
   else
   {
     //drannak - figuring this out
     time_mult = 1.25;
-	send_to_char("Normal calc\r\n", ch);
   }
 
   if(book_class(ch))
