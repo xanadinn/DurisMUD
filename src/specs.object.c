@@ -7395,9 +7395,7 @@ int wall_generic(P_obj obj, P_char ch, int cmd, char *arg)
 
   case PRISMATIC_WALL:
 
-    //if (GET_PID(ch) == obj->value[5])
-     if((IS_PC(ch) && GET_PID(ch) == obj->value[5]) ||
-        (IS_NPC(ch) && GET_RNUM(ch) == obj->value[5]))
+    if (GET_PID(ch) == obj->value[5])
     {
       act("You walk through your own wall.", TRUE, ch, obj, NULL, TO_CHAR);
       do_simple_move_skipping_procs(ch, dircmd, 0);
