@@ -811,7 +811,7 @@ lands in an attempt to control the surface.
 ~
 1140852808 128 0 0 67108888 0 0 0 600 S
 pg 0 1 0 -1
-41 0 0 1d1+1 1d1+1
+60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #500055
@@ -871,7 +871,7 @@ lands in an attempt to control the surface.
 ~
 603981896 128 0 0 67108888 0 0 0 600 S
 ph 0 1 0 -1
-51 0 0 1d1+1 1d1+1
+61 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #500059
@@ -885,8 +885,8 @@ evil forces who have an immensely-long running history of attacks on these
 lands in an attempt to control the surface.
 ~
 603981896 128 0 0 67108888 0 0 0 600 S
-ph 0 1 0 -1
-44 0 0 1d1+1 1d1+1
+ph 0 16384 0 -1
+57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #500060
@@ -901,7 +901,7 @@ lands in an attempt to control the surface.
 ~
 67110984 128 0 0 67108888 0 0 0 600 S
 ph 0 1 0 -1
-51 0 0 1d1+1 1d1+1
+60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #500061
@@ -1596,7 +1596,7 @@ elite human soldier~
 ~
 1074137096 128 0 0 8 0 0 0 0 S
 ph 0 1 0 -1
-51 0 0 1d1+1 1d1+1
+59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
 #500108
