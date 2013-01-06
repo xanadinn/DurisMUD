@@ -1284,11 +1284,11 @@ int avernus(P_obj obj, P_char ch, int cmd, char *arg)
   if((obj->loc.wearing == ch) &&
      vict 
 
-	/*&&
-     (!number(0, 24)) &&
+	&&
+     (!number(0, 24)))/* &&
      (CheckMultiProcTiming(ch) || !number(0, 2)) &&
-     !IS_UNDEADRACE(vict) && !IS_CONSTRUCT(vict)*/
-	)
+     !IS_UNDEADRACE(vict) && !IS_CONSTRUCT(vict))*/
+	
   {
     act("&+LAvernus, the life stealer &+Wglows brightly in your hands as it dives into $N.",
        FALSE, ch, obj, vict, TO_CHAR);
