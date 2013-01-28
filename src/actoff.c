@@ -4461,7 +4461,7 @@ void event_sneaky_strike(P_char ch, P_char victim, P_obj obj, void *data)
     
     } //endthiefspeccheck
 
-  if(GET_SPEC(ch, CLASS_ROGUE, SPEC_ASSASSIN)) //proc skill for assassin
+  if(GET_SPEC(ch, CLASS_ROGUE, SPEC_ASSASSIN) || (GET_CLASS(ch) == CLASS_BARD)) //proc skill for assassin and bard
     {
 	skl_lvl = (int) (GET_CHAR_SKILL(ch, SKILL_SNEAKY_STRIKE));
 	i = skl_lvl - (GET_C_AGI(victim) / 6);
