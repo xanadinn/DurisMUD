@@ -9698,7 +9698,7 @@ void mob_hunt_event(P_char ch, P_char victim, P_obj obj, void *d)
       justice_hunt_cancel(ch);
       return;
     }
-    if(CAN_SEE(ch, vict))
+    if(CAN_SEE(ch, vict) && !IS_AFFECTED(vict, AFF_HIDE))
     {
       MobStartFight(ch, vict);
       if(!char_in_list(ch))

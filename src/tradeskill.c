@@ -470,6 +470,7 @@ void do_forge(P_char ch, char *argument, int cmd)
 
   //Second - See what material it is. make a method called: find_material(obj)
    send_to_char("RECIPE CRAP IN THIS\r\n", ch);
+   itemvalue(ch, tobj);
     extract_obj(tobj, FALSE);
    return;
   }
@@ -1799,4 +1800,70 @@ int learn_tradeskill(P_char ch, P_char pl, int cmd, char *arg)
 	
   }
   return FALSE;
+}
+
+int itemvalue(P_char ch, P_obj obj)
+{
+ long workingvalue = 0;
+ 
+ if (IS_SET(obj->bitvector, AFF_STONE_SKIN)) 
+	{
+	 send_to_char("Item has stone skin.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF_HIDE)) 
+			{
+	 send_to_char("Item has hide.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF_SNEAK)) 
+			{
+	 send_to_char("Item has sneak.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF_FLY)) 
+			{
+	 send_to_char("Item has fly.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF4_NOFEAR)) 
+			{
+	 send_to_char("Item has nofear.", ch);
+	}
+    if (IS_SET(obj->bitvector2, AFF2_AIR_AURA)) 
+			{
+	 send_to_char("Item has aura aura.", ch);
+	}
+    if (IS_SET(obj->bitvector2, AFF2_EARTH_AURA)) 
+			{
+	 send_to_char("Item has earth aura.", ch);
+	}
+    if (IS_SET(obj->bitvector3, AFF3_INERTIAL_BARRIER)) 
+			{
+	 send_to_char("Item has inert barrier.", ch);
+	}
+    if (IS_SET(obj->bitvector3, AFF3_REDUCE)) 
+			{
+	 send_to_char("Item has reduce.", ch);
+	}
+    if (IS_SET(obj->bitvector2, AFF2_GLOBE)) 
+			{
+	 send_to_char("Item has globe.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF_HASTE)) 
+			{
+	 send_to_char("Item has haste.", ch);
+	}
+     if (IS_SET(obj->bitvector, AFF_DETECT_INVISIBLE)) 
+	{
+	 send_to_char("Item has det invis.", ch);
+	}         
+    if (IS_SET(obj->bitvector4, AFF4_DETECT_ILLUSION))
+	{
+	 send_to_char("Item has det illus.", ch);
+	}
+
+ if (obj->affected[1].location == APPLY_DAMROLL)
+  {
+   send_to_char("Item has damroll.", ch);
+   }
+   
+   return workingvalue;
+
 }
