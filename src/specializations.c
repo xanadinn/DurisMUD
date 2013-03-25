@@ -88,7 +88,7 @@ struct allowed_race_spec_struct {
 	{RACE_GREY, CLASS_SORCERER, SPEC_ALL},
 	{RACE_GREY, CLASS_CONJURER, SPEC_ALL},
 	{RACE_GREY, CLASS_ILLUSIONIST,    SPEC_ALL},
-	//{RACE_GREY, CLASS_ROGUE,    SPEC_THIEF},
+	{RACE_GREY, CLASS_ROGUE,    SPEC_ALL},
 	{RACE_GREY, CLASS_BARD,     SPEC_ALL},
 	/* End Grey Elf Options */
 
@@ -234,6 +234,7 @@ struct allowed_race_spec_struct {
 	{RACE_GOBLIN, CLASS_SORCERER,    SPEC_ALL},
 	{RACE_GOBLIN, CLASS_CONJURER,    SPEC_ALL},
        {RACE_GOBLIN, CLASS_ROGUE,       SPEC_ALL},
+	{RACE_GOBLIN, CLASS_MERCENARY,   SPEC_ALL},
 	/* End Goblin Options */
 
 	/* Start Lich Options */

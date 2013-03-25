@@ -984,9 +984,30 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data)
 
   mdata->counter--;
   add_event(event_mine_check, PULSE_VIOLENCE, ch, 0, 0, 0, mdata, sizeof(struct mining_data));
+
+  //noise distance calc
+  for (P_desc i = descriptor_list; i; i = i->next)
+    {
+      if( i->connected != CON_PLYNG ||
+          ch == i->character ||
+          i->character->following == ch ||
+          world[i->character->in_room].zone != world[ch->in_room].zone ||
+          ch->in_room == i->character->in_room ||
+          ch->in_room == real_room(i->character->specials.was_in_room) ||
+          real_room(ch->specials.was_in_room) == i->character->in_room )
+      {
+        continue;
+      }
+      
+      int dist = calculate_map_distance(ch->in_room, i->character->in_room);
+
+  if(dist <= 550)
+  {
   zone_spellmessage(ch->in_room,
     "&+yThe sound of &+wmetal &+yhewing &+Lrock&+y can be heard in the distance...&n\r\n",
     "&+yThe sound of &+wmetal &+yhewing &+Lrock&+y can be heard in the distance to the %s...&n\r\n");
+  }
+ }
 }
 
 int smith(P_char ch, P_char pl, int cmd, char *arg)
@@ -1795,6 +1816,8 @@ int learn_tradeskill(P_char ch, P_char pl, int cmd, char *arg)
 	pl->only.pc->epics -= 200;
 
        //wipe their learned recipes
+       create_recipes_name(GET_NAME(pl));
+
         strcpy(buf, GET_NAME(pl));
      	 buff = buf;
  	 for (; *buff; buff++)
