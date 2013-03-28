@@ -120,7 +120,7 @@ void new_ah_call(P_char ch, char *arguments, int cmd)
 		send_to_char("&+yYou're too busy fighting for your life to participate in an auction!&n\r\n", ch);
 		return;
 	}
-
+/*
   if (affected_by_spell(ch, SPELL_NOAUCTION))
   {
     send_to_char
@@ -128,6 +128,7 @@ void new_ah_call(P_char ch, char *arguments, int cmd)
        ch);
     return;
   }
+*/
 
 
 	if( !check_db_active() ) 
@@ -143,10 +144,30 @@ void new_ah_call(P_char ch, char *arguments, int cmd)
 	
 	bool success = false;
 	
-	if( isname(command, "offer o")) success = auction_offer(ch, args);
+	if( isname(command, "offer o"))
+	{
+	if(affected_by_spell(ch, SPELL_NOAUCTION))
+	  {
+		 send_to_char
+      		("&+RAuction House access has been temporarily disabled since you have recently &+Yremoved&+R a piece of worn equipment. Please try again in a little while.\r\n",
+      		 ch);
+   		 return;
+	  }
+	 success = auction_offer(ch, args);
+	}
 	else if( isname(command, "list l")) success = auction_list(ch, args);
 	else if( isname(command, "info i")) success = auction_info(ch, args);
-	else if( isname(command, "bid b")) success = auction_bid(ch, args);
+	else if( isname(command, "bid b")) 
+	  {
+		if(affected_by_spell(ch, SPELL_NOAUCTION))
+	  	  {
+		 send_to_char
+      		("&+RAuction House access has been temporarily disabled since you have recently &+Yremoved&+R a piece of worn equipment. Please try again in a little while.\r\n",
+      		 ch);
+   		 return;
+		  }
+	    success = auction_bid(ch, args);
+	  }
 	else if( isname(command, "pickup p")) success = auction_pickup(ch, args);
 	else if( isname(command, "resort")) success = auction_resort(ch, args);
 	else if( isname(command, "remove r")) success = auction_remove(ch, args);

@@ -1910,8 +1910,9 @@ int learn_tradeskill(P_char ch, P_char pl, int cmd, char *arg)
 int itemvalue(P_char ch, P_obj obj)
 {
  long workingvalue = 0;
- 
- if (IS_SET(obj->bitvector, AFF_STONE_SKIN)) 
+/*
+  //------- AFF ---------------
+    if (IS_SET(obj->bitvector, AFF_STONE_SKIN)) 
 	{
 	 send_to_char("Item has stone skin.", ch);
 	}
@@ -1927,9 +1928,95 @@ int itemvalue(P_char ch, P_obj obj)
 			{
 	 send_to_char("Item has fly.", ch);
 	}
-    if (IS_SET(obj->bitvector, AFF4_NOFEAR)) 
+    if (IS_SET(obj->bitvector, AFF_HASTE)) 
 			{
-	 send_to_char("Item has nofear.", ch);
+	 send_to_char("Item has haste.", ch);
+	}
+    if (IS_SET(obj->bitvector, AFF_DETECT_INVISIBLE)) 
+	{
+	 send_to_char("Item has det invis.", ch);
+	}     
+    if (IS_SET(obj->bitvector, AFF_SKILL_AWARE)) 
+	{
+	 send_to_char("Item has aware.", ch);
+	}      
+    if (IS_SET(obj->bitvector, AFF_BARKSKIN)) 
+	{
+	 send_to_char("Item has barkskin.", ch);
+	}  
+    if (IS_SET(obj->bitvector, AFF_INVIS)) 
+	{
+	 send_to_char("Item has invis.", ch);
+	}     
+    if (IS_SET(obj->bitvector, AFF_BIOFEEDBACK)) 
+	{
+	 send_to_char("Item has bio.", ch);
+	}      
+    if (IS_SET(obj->bitvector, AFF_FARSEE)) 
+	{
+	 send_to_char("Item has farsee.", ch);
+	}   
+    if (IS_SET(obj->bitvector, AFF_SENSE_LIFE)) 
+	{
+	 send_to_char("Item has sense life.", ch);
+	}   
+    if (IS_SET(obj->bitvector, AFF_UD_VISION)) 
+	{
+	 send_to_char("Item has ud vision.", ch);
+	}   
+    if (IS_SET(obj->bitvector, AFF_WATERBREATH)) 
+	{
+	 send_to_char("Item has wb.", ch);
+	}  
+    if (IS_SET(obj->bitvector, AFF_LEVITATE)) 
+	{
+	 send_to_char("Item has levi.", ch);
+	}  
+    if (IS_SET(obj->bitvector, AFF_PROT_FIRE)) 
+	{
+	 send_to_char("Item has prot fire.", ch);
+	}  
+    if (IS_SET(obj->bitvector, AFF_INFRAVISION)) 
+	{
+	 send_to_char("Item has infra.", ch);
+	}  
+
+  //------- AFF2 --------------
+  if (IS_SET(obj->bitvector2, AFF2_FIRESHIELD)) 
+			{
+	 send_to_char("Item has fireshield.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_DET_GOOD)) 
+			{
+	 send_to_char("Item has det good.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_PROT_GAS)) 
+			{
+	 send_to_char("Item has prot gas.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_SOULSHIELD)) 
+			{
+	 send_to_char("Item has soulshield.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_VAMP_TOUCH)) 
+			{
+	 send_to_char("Item has vampiric touch.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_ULTRA)) 
+			{
+	 send_to_char("Item has ultra.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_DET_MAGIC)) 
+			{
+	 send_to_char("Item has DM.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_PROT_LIGHT)) 
+			{
+	 send_to_char("Item has prot light.", ch);
+	}
+  if (IS_SET(obj->bitvector2, AFF2_WATER_AURA)) 
+			{
+	 send_to_char("Item has water aura.", ch);
 	}
     if (IS_SET(obj->bitvector2, AFF2_AIR_AURA)) 
 			{
@@ -1939,6 +2026,12 @@ int itemvalue(P_char ch, P_obj obj)
 			{
 	 send_to_char("Item has earth aura.", ch);
 	}
+    if (IS_SET(obj->bitvector2, AFF2_GLOBE)) 
+			{
+	 send_to_char("Item has globe.", ch);
+	}
+
+  //------- AFF3 --------------
     if (IS_SET(obj->bitvector3, AFF3_INERTIAL_BARRIER)) 
 			{
 	 send_to_char("Item has inert barrier.", ch);
@@ -1947,22 +2040,20 @@ int itemvalue(P_char ch, P_obj obj)
 			{
 	 send_to_char("Item has reduce.", ch);
 	}
-    if (IS_SET(obj->bitvector2, AFF2_GLOBE)) 
+
+  //------- AFF4 --------------
+   if (IS_SET(obj->bitvector, AFF4_NOFEAR)) 
 			{
-	 send_to_char("Item has globe.", ch);
+	 send_to_char("Item has nofear.", ch);
 	}
-    if (IS_SET(obj->bitvector, AFF_HASTE)) 
-			{
-	 send_to_char("Item has haste.", ch);
-	}
-     if (IS_SET(obj->bitvector, AFF_DETECT_INVISIBLE)) 
-	{
-	 send_to_char("Item has det invis.", ch);
-	}         
     if (IS_SET(obj->bitvector4, AFF4_DETECT_ILLUSION))
 	{
 	 send_to_char("Item has det illus.", ch);
 	}
+  //------- AFF5 --------------
+
+ */
+  //------- A0/A1 -------------   
 
  if (obj->affected[1].location == APPLY_DAMROLL)
   {
