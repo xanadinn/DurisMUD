@@ -2684,10 +2684,12 @@ void do_eat(P_char ch, char *argument, int cmd)
 	  send_to_char("&+GYou are much too powerful for the magic of this item&n.\r\n", ch);
 	  return;
 	}
+	return;
       send_to_char("&+gAs you eat the &+GMushroom&+g, a &+Mmagical&+g essence surrounds you and you suddenly feel more &+Gexperienced!&n\r\n", ch);
       advance_level(ch);
       //GET_EXP(ch) = exp_table[(GET_LEVEL(ch) - 1)] ;
-      GET_EXP(ch) -= new_exp_table[GET_LEVEL(ch) + 1];
+      GET_EXP(ch) += new_exp_table[GET_LEVEL(ch) + 1];
+      do_save_silent(ch, 1);
       extract_obj(temp, TRUE);
       return;
     }
