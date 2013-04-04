@@ -2255,13 +2255,19 @@ void do_open(P_char ch, char *argument, int cmd)
       send_to_char("It seems to be locked.\n", ch);
     else
     {
-      REMOVE_BIT(obj->value[1], CONT_CLOSED);
-      send_to_char("Ok.\n", ch);
-      act("$n opens $p.", FALSE, ch, obj, 0, TO_ROOM);
+      
 
       //special proc for bag of random goodness - drannak 4/3/2013
 	if (obj_index[obj->R_num].virtual_number == 400217)
 	{
+	   if ((IS_CARRYING_N(ch) + 1) > CAN_CARRY_N(ch)) //check their inventory
+  		{
+   		 send_to_char
+   		   ("You currently have too many items in your inventory to open a bag,\r\nput some items in a container then try again!\r\n",
+   		    ch);
+  		  return;
+ 		 }
+
 	 send_to_char("&+mAs you open the &+Mbag&+m, a magical mist &+rex&+Rpl&+Mod&+Wes&+m covering everything!\r\n", ch);
 	 char buf[MAX_STRING_LENGTH];
 	 P_obj robj;
@@ -2286,8 +2292,9 @@ void do_open(P_char ch, char *argument, int cmd)
 		 }
 
 	  }
-       act("&+mWhen at last it clears the &+Mbag&+m is gone, and all that remains is &n$p&+m!\r\n", FALSE, ch, robj, 0, TO_CHAR);
-	 P_obj reward;
+       REMOVE_BIT(robj->extra_flags, ITEM_SECRET);
+	act("&+mWhen at last it clears the &+Mbag&+m is gone, and all that remains is &n$p&+m!\r\n", FALSE, ch, robj, 0, TO_CHAR);
+	P_obj reward;
 	reward = read_object(robjint, VIRTUAL);
 	REMOVE_BIT(reward->extra_flags, ITEM_SECRET);
 	obj_to_char(reward, ch);       
@@ -2301,7 +2308,9 @@ void do_open(P_char ch, char *argument, int cmd)
        extract_obj(robj, FALSE);
 	return;
 	}
- 
+      REMOVE_BIT(obj->value[1], CONT_CLOSED);
+      send_to_char("Ok.\n", ch);
+      act("$n opens $p.", FALSE, ch, obj, 0, TO_ROOM);
       if (obj_index[obj->R_num].virtual_number == 1270) {
          treasure_chest(obj, ch, CMD_OPEN, argument);
       }    
