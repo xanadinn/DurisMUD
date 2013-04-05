@@ -5657,6 +5657,15 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
       {
         killer = ch;
       }
+
+	/*	if(!affected_by_spell(victim, TAG_PVPDELAY))
+	  {
+	    //send_to_char("no pvp here! die and make portal\r\n", victim);
+	    P_obj portal;
+	    portal = read_object(400220, VIRTUAL);
+	    portal->value[0] = world[victim->in_room].number;
+	    obj_to_room(portal, real_room(400000));
+	  }*/
       if(victim &&
         killer &&
         IS_PC(victim) &&
@@ -5746,6 +5755,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
     if (new_stat == STAT_DEAD)
     {
       room = ch->in_room;
+
       die(victim, ch);
       if (!is_char_in_room(ch, room))
         return DAM_BOTHDEAD;

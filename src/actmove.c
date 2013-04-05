@@ -1433,7 +1433,7 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
     notch_skill(ch, SKILL_SNEAK, 20);
   }
   
-/*
+
   if (affected_by_spell(ch, TAG_PVPDELAY) ){
     send_to_char
           ("The &+Radrenaline&n is pumping through you like mad, this sure is exhausting...&n\n", ch);
@@ -1444,7 +1444,7 @@ int do_simple_move_skipping_procs(P_char ch, int exitnumb, unsigned int flags)
     else
       need_movement += number(1,2);
   }
-*/
+//drannak movement loss
 
   /* pc_timer[1] gets set on successful flee */
  /*
@@ -2268,6 +2268,12 @@ void do_open(P_char ch, char *argument, int cmd)
   		  return;
  		 }
 
+	    if(!OBJ_CARRIED(obj))
+		{
+		  send_to_char("You must have the &+MFaerie &+Wbag&n in your &+Yinventory&n to open it!\r\n", ch);
+		  return;
+		}
+
 	 send_to_char("&+mAs you open the &+Mbag&+m, a magical mist &+rex&+Rpl&+Mod&+Wes&+m covering everything!\r\n", ch);
 	 char buf[MAX_STRING_LENGTH];
 	 P_obj robj;
@@ -2292,10 +2298,23 @@ void do_open(P_char ch, char *argument, int cmd)
 		 }
 
 	  }
+	//Remove Curse, Secret, add Invis
+	if(IS_SET(robj->extra_flags, ITEM_SECRET))
+	 {
+	  REMOVE_BIT(robj->extra_flags, ITEM_SECRET);
+	 }
+	if(IS_SET(robj->extra_flags, ITEM_NODROP))
+	 {
+	  REMOVE_BIT(robj->extra_flags, ITEM_NODROP);
+	 }
+
+ 	if(IS_SET(robj->extra_flags, ITEM_INVISIBLE))
+	{
+         REMOVE_BIT(robj->extra_flags, ITEM_INVISIBLE);
+	}
+
+
       	act("&+mWhen at last it clears the &+Mbag&+m is gone, and all that remains is &n$p&+m!\r\n", FALSE, ch, robj, 0, TO_CHAR);
-	/*P_obj reward;
-	reward = read_object(robjint, VIRTUAL);
-      	obj_to_char(reward, ch);  */
 	obj_to_char(robj, ch);     
 	obj_from_char(obj, TRUE);
 	 statuslog(ch->player.level,
@@ -2684,10 +2703,12 @@ void do_unlock(P_char ch, char *argument, int cmd)
     }
     else if (!(key_obj = has_key(ch, EXIT(ch, door)->key)))
     {
+
       send_to_char("You do not have the proper key for that.\n", ch);
       if (GET_LEVEL(ch) < MINLVLIMMORTAL)
         return;
       send_to_char("...but you unlock it anyway!\n", ch);
+
     }
     REMOVE_BIT(EXIT(ch, door)->exit_info, EX_LOCKED);
     /*
