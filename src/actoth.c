@@ -1404,8 +1404,11 @@ void do_save_silent(P_char ch, int type)
     sprintf(tmp_buf, "%d", ch->only.pc->numb_deaths);
     checkHallOfFame(ch, tmp_buf);
   }
+  if (!IS_TRUSTED(ch))
+   {
     sprintf(tmp_buf, "%d", ch->only.pc->numb_deaths);
     checkLeaderBoard(ch, tmp_buf);
+   }
 
   if ((ch->desc && !ch->desc->connected) || !ch->desc)
   {
@@ -1477,8 +1480,11 @@ void do_save(P_char ch, char *argument, int cmd)
     checkHallOfFame(ch, tmp_buf);
 
   }
+  if (!IS_TRUSTED(ch))
+   {
     sprintf(tmp_buf, "%d", ch->only.pc->numb_deaths);
     checkLeaderBoard(ch, tmp_buf);
+   }
 
 
   if (IS_NPC(ch) && !IS_MORPH(ch))
