@@ -123,6 +123,7 @@ void writeHallOfFame(P_char ch, char thekiller[1024])
     if (feof(halloffamelist))
     {
      // send_to_char("error: halloffame list terminated prematurely.\r\n", ch);
+			fclose(halloffamelist);
       return;
     }
 
