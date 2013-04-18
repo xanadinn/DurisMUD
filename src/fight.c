@@ -5686,6 +5686,7 @@ int raw_damage(P_char ch, P_char victim, double dam, uint flags,
         (messages->type & 0xff000000))
       {
         DestroyStuff(victim, (messages->type & 0xff000000) >> 24);
+        remove_soulbind(victim);
       }
     }
 

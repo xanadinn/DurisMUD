@@ -89,6 +89,8 @@ extern const char *carve_part_name[];
 extern const int carve_part_flag[];
 extern struct mm_ds *dead_mob_pool;
 extern struct mm_ds *dead_pconly_pool;
+extern void set_long_description(P_obj t_obj, const char *newDescription);
+extern void set_short_description(P_obj t_obj, const char *newDescription);
 
 // THE NEXT PERSON THAT OUTRIGHT COPIES A SPELL JUST TO CHANGE THE NAME/MESSAGES
 // IT OUTPUTS IS GOING TO BE CASTRATED BY ME AND FORCED TO EAT THEIR OWN GENITALIA.
@@ -21237,5 +21239,190 @@ void spell_corpse_portal(int level, P_char ch, char *arg, int type,
      FALSE, ch, 0, 0, TO_CHAR);
   obj_from_room(tobj);
   obj_to_room(tobj, real_room(location));
+
+}
+
+int has_soulbind(P_char ch)
+{
+  int result = 0;
+  struct affected_type *findaf, *next_af;
+     //  affect_remove(ch, af); save for later - from bard.c
+
+  for (findaf = ch->affected; findaf; findaf = next_af)
+   {
+    next_af = findaf->next;
+    if(findaf &&
+      findaf->type == TAG_SOULBIND)
+      {
+        //affect_remove(ch, af);
+       result = findaf->modifier;
+      }
+  }
+   return result;
+}
+
+void remove_soulbind(P_char ch)
+{
+  P_obj obj;
+  int found = 0;
+  // find any instance of their soulbound item and remove it
+  for (obj = object_list; obj; obj = obj->next)
+  {
+    if(IS_SET((obj)->extra2_flags, ITEM2_SOULBIND) &&
+        isname(GET_NAME(ch), obj->name))
+    {
+      extract_obj(obj, FALSE);
+    }
+  }
+}
+
+void do_soulbind(P_char ch, char *argument, int cmd)
+{
+
+    P_obj    obj;
+    char     gbuf1[MAX_STRING_LENGTH], gbuf2[MAX_STRING_LENGTH], buffer[MAX_STRING_LENGTH], gbuf3[MAX_STRING_LENGTH], bufbug[MAX_STRING_LENGTH];
+    argument_interpreter(argument, gbuf1, gbuf3);
+    struct affected_type af;
+
+    if(IS_TRUSTED(ch))
+      {
+       if(*gbuf1)
+        {
+         P_char victim = ParseTarget(ch, argument);
+           if(!victim)
+         	{
+       	  send_to_char("Remove Character's Soulbound Status. Syntax: soulbind <char>\r\n", ch);
+       	  return;
+       	}
+	      struct affected_type *findaf, *next_af;
+  		for (findaf = victim->affected; findaf; findaf = next_af)
+  		 {
+  		  next_af = findaf->next;
+  		  if(findaf &&
+   		   findaf->type == TAG_SOULBIND)
+   		   {
+   		     affect_remove(victim, findaf);
+                   sprintf(buffer, GET_NAME(victim));
+		     sprintf (gbuf3, "Cleared soulbind status on %s\r\n", buffer);
+                   send_to_char(gbuf3, ch);
+		    return;
+   		   }
+ 		 }
+	 }
+       else
+        {
+         send_to_char("Remove Character's Soulbound Status. Syntax: soulbind <char>\r\n", ch);
+         return;
+        }
+      }
+
+    if(get_frags(ch) < 2000)
+    {
+     send_to_char("&+LYou have not yet earned the right to use that ability.\r\n", ch);
+     return;
+    }
+
+    if(has_soulbind(ch) != 0)
+     {
+      remove_soulbind(ch);
+      send_to_char("&+yYour &+Ysoul &+ycalls out to the world to bring forth your &+ritem&+y...\r\n", ch);
+      load_soulbind(ch);
+      send_to_char("&+yAfter a brief moment, you feel &+Wwhole&+y once again, ready to &+rconquer &+ythe world.\r\n", ch);
+      return;
+     }
+   
+    if(*gbuf1)
+     {
+      obj = get_obj_in_list(gbuf1, ch->carrying);
+       if(!obj)
+      {
+       send_to_char("&+rYou must be carrying the item you wish to &+Wsoulbind&+r in your inventory.&n\r\n", ch);
+       return;
+      }
+      
+     if(affected_by_spell(ch, TAG_SOULBIND))
+     {
+       send_to_char("&+rA character may only &+Wsoulbind&+r once.&n\r\n", ch);
+       return;
+     }
+    //make sure objects are valid, no arti, etc.
+      if ((obj->type == ITEM_CONTAINER ||
+            obj->type == ITEM_STORAGE ||
+             obj->type == ITEM_TREASURE ||
+              obj->type == ITEM_POTION || 
+               obj->type == ITEM_KEY ||
+                obj->contains ||
+              obj->type == ITEM_FOOD ||
+              IS_OBJ_STAT2(obj, ITEM2_STOREITEM) ||
+		IS_OBJ_STAT2(obj, ITEM2_SOULBIND) ||
+	       IS_OBJ_STAT(obj, ITEM_NOSELL) ||
+	IS_SET(obj->extra_flags, ITEM_ARTIFACT)))
+      {
+       send_to_char("That item is not a valid type to &+Wsoulbind&n.\r\n", ch);
+       return;
+      }
+       memset(&af, 0, sizeof(struct affected_type));
+  	af.type = TAG_SOULBIND;
+  	af.modifier = (obj_index[obj->R_num].virtual_number);
+  	af.duration = -1;
+       af.location = 0;
+       af.flags = AFFTYPE_NOSHOW | AFFTYPE_PERM | AFFTYPE_NODISPEL;
+       affect_to_char(ch, &af);
+
+     //restring item with chars name
+           sprintf(gbuf2, "%s %s", GET_NAME(ch), obj->name);
+
+        FREE(obj->name);
+      obj->name = NULL;
+  	    obj->name = str_dup(gbuf2);
+
+	    sprintf(buffer, "%s &+Lbearing the &+Wsoul&+L of &+r%s&n", obj->short_description, GET_NAME(ch));
+	   set_short_description(obj, buffer);
+
+
+    SET_BIT(obj->extra_flags, ITEM_NOSELL);
+    SET_BIT(obj->extra_flags, ITEM_NORENT);
+  SET_BIT(obj->extra2_flags, ITEM2_CRUMBLELOOT);
+    SET_BIT(obj->extra2_flags, ITEM2_SOULBIND);
+     do_save_silent(ch, 1); // so our item updates right.
+    //acts here.
+
+  act
+    ("&+W$n &+rbegins to chant loudly, calling forth the &+Bblood &+rof their enemies. &+W$n's &+rhands begin to &+Rg&+rl&+Ro&+rw &+Rbrightly &+ras drops of blood begin to form.\r\n"
+     "&+W$n &+rgently takes the &+Rblood&+r and begins to spread it about their $p&+r, which starts to glow with an &+Lun&+rho&+Lly &+Rlight.&N",
+     TRUE, ch, obj, 0, TO_ROOM);
+  act
+    ("&+rYou begin to chant loudly, calling forth the &+Bblood &+rof your enemies. Your &+rhands begin to &+Rg&+rl&+Ro&+rw &+Rbrightly &+ras drops of blood begin to form.\r\n"
+      "&+rYou &+rgently take the &+Rblood&+r and begin to spread it about your $p&+r, which starts to glow with an &+Lun&+rho&+Lly &+Rlight.&N",
+     FALSE, ch, obj, 0, TO_CHAR);
+    }
+    if(!argument || !*argument)
+  send_to_char("What item would you like to &+Wsoulbind&n?\r\n", ch);
+}
+
+void load_soulbind(P_char ch)
+{
+  int item;
+  P_obj obj;
+    char     gbuf1[MAX_STRING_LENGTH], gbuf2[MAX_STRING_LENGTH], buffer[MAX_STRING_LENGTH];
+
+  item = has_soulbind(ch);
+  if(item == 0)
+  {
+   send_to_char("&+rYour &+Wsoul &+rhas not bound with anything yet.&n\r\n", ch);
+   return;
+  }
+ /* sprintf(gbuf2, "%d", item);
+  send_to_char(gbuf2, ch);*/
+  obj = read_object(item, VIRTUAL);
+           sprintf(gbuf2, "%s %s", GET_NAME(ch), obj->name);
+  	    obj->name = str_dup(gbuf2);
+	    sprintf(buffer, "%s &+Lbearing the &+Wsoul&+L of &+r%s&n", obj->short_description, GET_NAME(ch));
+	   set_short_description(obj, buffer);
+  obj_to_char(obj, ch); 
+  SET_BIT(obj->extra_flags, ITEM_NOSELL);
+  SET_BIT(obj->extra_flags, ITEM_NORENT);
+  SET_BIT(obj->extra2_flags, ITEM2_CRUMBLELOOT);
+  SET_BIT(obj->extra2_flags, ITEM2_SOULBIND); 
 
 }

@@ -2224,3 +2224,10 @@ int itemvalue(P_char ch, P_obj obj)
    return workingvalue;
 
 }
+
+int get_frags(P_char ch)
+{
+ int frags;
+ frags = ch->only.pc->frags;
+ return frags;
+}

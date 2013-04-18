@@ -2317,6 +2317,7 @@ void do_open(P_char ch, char *argument, int cmd)
       	act("&+mWhen at last it clears the &+Mbag&+m is gone, and all that remains is &n$p&+m!\r\n", FALSE, ch, robj, 0, TO_CHAR);
 	obj_to_char(robj, ch);     
 	obj_from_char(obj, TRUE);
+       extract_obj(obj, FALSE);
 	 statuslog(ch->player.level,
         "&+MFaerie Bag:&n (%s&n) just got [%d] (%s&n) at [%d]!",
           GET_NAME(ch),

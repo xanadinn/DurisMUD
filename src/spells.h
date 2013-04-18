@@ -1112,6 +1112,7 @@
 #define TAG_CTF			     2067
 #define TAG_CTF_BONUS		     2068
 #define TAG_RACIAL_SKILLS		  2069
+#define TAG_SOULBIND			  2070
 #define DAMAGE_FALLING               2100       /* From falling to the ground */
 
 #define SAVING_PARA   0

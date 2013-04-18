@@ -652,6 +652,7 @@ flagDef  extra2_bits[] = {
   {"NOLOOT", "Not lootable", 1, 0},
   {"CRUMBLELOOT", "Crumble when looted", 1, 0},
   {"STOREITEM", "Bought from shop", 0, 0},
+  {"SOULBIND", "Soul bound item", 0, 0},
   {0}
 };
 

@@ -327,6 +327,9 @@ void do_apply_poison(P_char, char *, int);
 void do_dropalldot(P_char, char *, int);
 bool is_stat_max(sbyte);
 
+/* tradeskill.c */
+int get_frags(P_char);
+
 /* actoff.c */
 bool CheckMultiProcTiming(P_char);
 bool single_stab(P_char ch, P_char victim, P_obj weapon);
@@ -2334,6 +2337,11 @@ void negsector(P_char);
 /* items prefixed with spell_ have been cleaned up and their function definitions are found now in magic.c
  * these will gradually obsolete the spell_ declarations in the magic.c section of this file
  *  May 05 2003 dbb */
+
+int has_soulbind(P_char ch);
+void do_soulbind(P_char ch, char *argument, int cmd);
+void load_soulbind(P_char ch);
+void remove_soulbind(P_char ch);
 
 void spell_earthen_maul(int, P_char, char *, int, P_char, P_obj);
 void spell_acid_stream(int, P_char, char *, int, P_char, P_obj);

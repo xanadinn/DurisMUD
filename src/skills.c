@@ -4910,6 +4910,7 @@ SPELL_ADD(CLASS_NONE, 1);
   TAG_CREATE("no misfire", TAG_NOMISFIRE);
   TAG_CREATE("witch spell", TAG_WITCHSPELL);
   TAG_CREATE("racial skills", TAG_RACIAL_SKILLS);
+  TAG_CREATE("soulbind", TAG_SOULBIND);
   TAG_CREATE("recent frag obj", TAG_OBJ_RECENT_FRAG);
   TAG_CREATE_WITH_MESSAGES("phantasmal form", TAG_PHANTASMAL_FORM,
                            "&+WYou feel yourself return to normal as you leave your phantasmal form.&n",

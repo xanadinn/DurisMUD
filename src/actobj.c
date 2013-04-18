@@ -26,6 +26,7 @@
 #include "sql.h"
 #include "ctf.h"
 
+
 /*
  * external variables
  */
@@ -4607,6 +4608,12 @@ void do_wear(P_char ch, char *argument, int cmd)
 	send_to_char("&nThe power of this item is too great for a multiclassed character!&n\r\n", ch);
 	return;
     }
+      if(IS_OBJ_STAT2(obj_object, ITEM2_SOULBIND) &&
+      !isname(GET_NAME(ch), obj_object->name))
+      {
+       send_to_char("&+LThis item is bound to someone elses &+Wsoul&+L, you may not wear it!&n\r\n", ch);
+       return;
+      }
         wear(ch, obj_object, keyword, 1);
       }
     }
@@ -4639,6 +4646,12 @@ void do_wear(P_char ch, char *argument, int cmd)
 			send_to_char("&nThe power of this item is too great for a multiclassed character!&n\r\n", ch);
 			return;
   		  }
+                      if(IS_OBJ_STAT2(obj_object, ITEM2_SOULBIND) &&
+     		 !isname(GET_NAME(ch), obj_object->name))
+     		 {
+    		   send_to_char("&+LThis item is bound to someone elses &+Wsoul&+L, you may not wear it!&n\r\n", ch);
+   		    return;
+   		   }
           next_obj = obj_object->next_content;
           if (obj_object->type != ITEM_SPELLBOOK)
           {
@@ -4725,6 +4738,12 @@ void do_grab(P_char ch, char *argument, int cmd)
       {
 	send_to_char("&nThe power of this item is too great for a multiclassed character!&n\r\n", ch);
 	return;
+      }
+      if(IS_OBJ_STAT2(obj_object, ITEM2_SOULBIND) &&
+      !isname(GET_NAME(ch), obj_object->name))
+      {
+       send_to_char("&+LThis item is bound to someone elses &+Wsoul&+L, you may not wear it!&n\r\n", ch);
+       return;
       }
       wear(ch, obj_object, 13, 1);
     }
