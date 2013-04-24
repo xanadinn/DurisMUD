@@ -4174,7 +4174,10 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
         dam *= 1.20;
 
        if(has_innate(victim, MAGIC_VULNERABILITY) && (GET_RACE(victim) == RACE_FIRBOLG))
-        dam *= 1.15;   
+        dam *= 1.15; 
+
+      if(affected_by_spell(ch, ACH_DRAGONSLAYER) && (GET_RACE(victim) == RACE_DRAGON))
+        dam *=1.10;  
  
     if((af = get_spell_from_char(victim, SPELL_ELEM_AFFINITY)) &&
        ELEMENTAL_DAM(type))
@@ -4906,6 +4909,9 @@ int melee_damage(P_char ch, P_char victim, double dam, int flags,
   {
     if(!(flags & PHSDAM_NOENGAGE))
       attack_back(ch, victim, TRUE);
+
+        if(affected_by_spell(ch, ACH_DRAGONSLAYER) && (GET_RACE(victim) == RACE_DRAGON))
+        dam *=1.10; 
 
     return result;
   }
