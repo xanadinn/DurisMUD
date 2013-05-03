@@ -1,65 +1,28 @@
 #1420
 &+LThe &+yPara&+L-&+yElemental &+LPlane of &+rM&+Ra&+rg&+Rm&+ra&n~
-142127 0 0 40 50 1
+142128 0 0 40 50 1
 *
 * Zone edited with durisEdit v2.99de
 *
 *
 *
 *
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142000 10 142014 100 0 0 0     * a magma mephit
-M 0 142009 2 142021 100 0 0 0      * Grish, emissary of the fire giants
-M 0 142008 1 142021 100 0 0 0      * a fire giant commander
-M 0 142007 5 142021 100 0 0 0      * a fire giant soldier
-M 0 142007 5 142021 100 0 0 0      * a fire giant soldier
-M 0 142007 5 142021 100 0 0 0      * a fire giant soldier
-M 0 142007 5 142021 100 0 0 0      * a fire giant soldier
-M 0 142007 5 142021 100 0 0 0      * a fire giant soldier
-M 0 142010 2 142021 100 0 0 0      * a fire giant shaman
-M 0 142010 2 142021 100 0 0 0      * a fire giant shaman
-M 0 142001 5 142075 100 0 0 0      * a magma mephit lord
-M 0 142001 5 142075 100 0 0 0      * a magma mephit lord
-M 0 142001 5 142075 100 0 0 0      * a magma mephit lord
-M 0 142001 5 142075 100 0 0 0      * a magma mephit lord
-M 0 142001 5 142075 100 0 0 0      * a magma mephit lord
-M 0 142004 3 142075 100 0 0 0      * an efreeti patrol leader
-M 0 142004 3 142075 100 0 0 0      * an efreeti patrol leader
-M 0 142004 3 142075 100 0 0 0      * an efreeti patrol leader
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142005 16 142075 100 0 0 0     * an efreeti soldier
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
-M 0 142006 8 142075 100 0 0 0      * a magman warrior
+M 0 142000 1 142001 100 0 0 0      * a magma mephit
+M 0 142001 1 142001 100 0 0 0      * a magma mephit lord
+M 0 142002 1 142001 100 0 0 0      * a magma drake
+M 0 142017 1 142125 100 0 0 0      * Chilimba, the Searing Emperor and Lord of All Magma
+F 1 142016 3 142125 100 0 0 0      * a guardian magma mephit (following)
+F 1 142016 3 142125 100 0 0 0      * a guardian magma mephit (following)
+F 1 142016 3 142125 100 0 0 0      * a guardian magma mephit (following)
 M 0 142003 1 142127 100 0 0 0      * Sainafinalil the ancient red dragon
 M 0 142009 2 142127 100 0 0 0      * Grish, emissary of the fire giants
 M 0 142014 1 142127 100 0 0 0      * Palenian, the legendary planeswalker
+M 0 142009 2 142128 100 0 0 0      * Grish, emissary of the fire giants
+F 1 142010 2 142128 100 0 0 0      * a fire giant shaman (following)
+F 1 142010 2 142128 100 0 0 0      * a fire giant shaman (following)
+F 1 142007 3 142128 100 0 0 0      * a fire giant soldier (following)
+F 1 142007 3 142128 100 0 0 0      * a fire giant soldier (following)
+F 1 142007 3 142128 100 0 0 0      * a fire giant soldier (following)
+F 1 142008 1 142128 100 0 0 0      * a fire giant commander (following)
 *
 S

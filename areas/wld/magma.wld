@@ -1,7 +1,25 @@
 #142000
-Unnamed~
+Welcome to the Elemental Plane of Magma~
+Zone Info:
+
+This is the elemental plane of Magma. Placed between the elemental
+planes of fire and earth, this plane is a churning mass of super
+heated rock that is inhospital to most people, short of planar
+inhabitants and the hybrid creatures from the earth/fire planes.
+
+The zone itself is pretty straight forward and contained the typical
+duris style grid with an angry boss mob. There are some rare loads,
+planes walkers, a rare load drake, and some dao looking to pick up
+slaves for their evil shenanigans. Attatched to this zone will be a
+secondary zone (Think, plane of water w/ Sea Kingdom attached).
+
+This secondary zone will be the Citadel of Fire. This Citadel is the
+home to an outpost of fire giants, their battallion, and their local
+warlord. From here these giant's launch raids on places such as
+Jotenheim (will be linking lore between the two, muspelheim and
+the invasion loads), and the prime material plane.
 ~
-1420 33820736 0 0
+1420 243568852 11 0
 S
 #142001
 &+LThe &+yPara&+L-&+yElemental &+LPlane of &+rM&+Ra&+rg&+Rm&+ra&n~
@@ -4141,7 +4159,7 @@ S
 1420 243568832 0 0
 S
 #142127
-&+GRare Load Dispersal Room&n~
+&+GRare Load Dispersal Room&n &+M12.5%&n~
 ~
 1420 33820736 0 0
 D0
@@ -4173,6 +4191,27 @@ D6
 ~
 0 0 142126
 D8
+~
+~
+0 0 142126
+S
+#142128
+&+MEmissary Rare Load Room&n &+G25%&n~
+~
+1420 176193600 0 0
+D0
+~
+~
+0 0 142126
+D1
+~
+~
+0 0 142126
+D2
+~
+~
+0 0 142009
+D3
 ~
 ~
 0 0 142126
