@@ -1067,7 +1067,7 @@ void do_fix(P_char ch, char *argument, int cmd)
 
   }
   P_obj needed = read_object(imat, VIRTUAL);
-  if (i < 1);
+  if (i < 1)
    {
     sprintf(gbuf1, "You must have %s in your inventory to repair that item.\r\n", needed->short_description);
     extract_obj(needed, TRUE);
