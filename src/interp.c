@@ -1498,6 +1498,11 @@ void command_interpreter(P_char ch, char *argument)
         send_to_char("You are too petrified with fear to try that.\r\n", ch);
         return;
       }
+      if (affected_by_spell(ch, SKILL_RESTRAIN))
+      {
+        send_to_char("&+LYou are being restrained by a band of &+rminions&+L right now!\r\n", ch);
+        return;
+      }
       if ((target = get_linked_char(ch, LNK_ESSENCE_OF_WOLF)))
       {
         clear_links(ch, LNK_ESSENCE_OF_WOLF);

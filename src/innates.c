@@ -381,6 +381,7 @@ const struct innate_data
   {"magic vulnerability", 0},
   {"two-handed sword mastery", 0},
   {"holy combat", 0},
+  {"giant avoidance", 0},
 };
 
 string list_innates(int race, int cls, int spec)
@@ -502,6 +503,7 @@ void assign_innates()
   ADD_RACIAL_INNATE(TWO_HANDED_SWORD_MASTERY, RACE_CENTAUR, 31);
   /* List of Mountain Dwarf Innates */
   ADD_RACIAL_INNATE(INNATE_STRENGTH, RACE_MOUNTAIN, 1);
+  ADD_RACIAL_INNATE(INNATE_GIANT_AVOIDANCE, RACE_MOUNTAIN, 1);
   ADD_RACIAL_INNATE(INNATE_INFRAVISION, RACE_MOUNTAIN, 1);
   ADD_RACIAL_INNATE(INNATE_AXE_MASTER, RACE_MOUNTAIN, 11);
   ADD_RACIAL_INNATE(INNATE_HAMMER_MASTER, RACE_MOUNTAIN, 31);

@@ -9441,6 +9441,7 @@ void restrain(P_char ch, P_char victim)
   int percent_chance, anatomy_skill, standing = 1, battling = 1;
   bool death_door;
   P_char temp_ch;
+  struct affected_type af;
 
   if(!(ch))
   {
@@ -9666,10 +9667,15 @@ void restrain(P_char ch, P_char victim)
             FALSE, ch, 0, victim, TO_VICT);
       }
       
-      set_short_affected_by(victim, SKILL_RESTRAIN, (int) (PULSE_VIOLENCE * 1.5));
-      set_short_affected_by(ch, SKILL_BASH, (int) (PULSE_VIOLENCE * 3.0));
-      victim->specials.combat_tics = victim->specials.base_combat_round;
-      CharWait(victim, (int) (2.0 * PULSE_VIOLENCE));
+      
+    memset(&af, 0, sizeof(af));
+    af.type = SKILL_RESTRAIN;
+    af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL ;
+    af.duration = (PULSE_VIOLENCE * 2);
+    affect_to_char_with_messages(victim, &af, "&+LThe &+rminions&+L finally release their hold on you!", "$n &+Lfinally breaks free from the &+rminions &+Lrestraining them.");
+    set_short_affected_by(ch, SKILL_BASH, (int) (PULSE_VIOLENCE * 3.0));
+    victim->specials.combat_tics = victim->specials.base_combat_round;
+      //CharWait(victim, (int) (2.0 * PULSE_VIOLENCE));
 
       if(IS_NPC(victim))
         // they can't do any cmds anyway, so lag them so they can stack
@@ -9916,6 +9922,8 @@ void do_dreadnaught(P_char ch, char *, int)
 	return;
   }  
 
+  if(number(1, 102) < GET_CHAR_SKILL(ch, SKILL_DREADNAUGHT))
+    {
     act("&+RCCCHHHAAARRGGEEEE!!!&+y You raise your defenses and assume a stoic stance!&n", FALSE, ch, 0, 0, TO_CHAR);
     act("$n &+ysuddenly assumes a &+Ydefensive&+y position, shield and weapon at the ready!&n", FALSE, ch, 0, 0, TO_ROOM);
   
@@ -9924,19 +9932,24 @@ void do_dreadnaught(P_char ch, char *, int)
     af.type = SKILL_DREADNAUGHT;
     af.bitvector5 = AFF5_DREADNAUGHT;
     af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL ;
-    af.duration = (GET_CHAR_SKILL(ch, SKILL_DREADNAUGHT) / 2);
+    af.duration = 25;
 	affect_to_char(ch, &af);
 	
     af.type = SKILL_DREADNAUGHT;
     af.bitvector4 = AFF4_NOFEAR;
-    af.duration = (GET_CHAR_SKILL(ch, SKILL_DREADNAUGHT) / 2);
+    af.duration = 25;
     af.flags = AFFTYPE_SHORT | AFFTYPE_NODISPEL ;
 
     affect_to_char_with_messages(ch, &af,
                                  "&+yYou lower your &+Yguard&+y, and assume an offensive stance.",
                                  "$n &+ylowers his guard, and assumes an offensive stance.&n");
 								 
-	set_short_affected_by(ch, TAG_DREADNAUGHT, GET_CHAR_SKILL(ch, SKILL_DREADNAUGHT));
+	set_short_affected_by(ch, TAG_DREADNAUGHT, 50);
+    notch_skill(ch, SKILL_DREADNAUGHT, 15);
+    }
+    act("&nYou attempt to assume a &+ydefensive &nposition, but fail horribly!&n", FALSE, ch, 0, 0, TO_CHAR);
+    act("$n &+yattempts to assume a &+Ydefensive&+y position, but fails horribly!&n", FALSE, ch, 0, 0, TO_ROOM);
+    set_short_affected_by(ch, TAG_DREADNAUGHT, 50);
     notch_skill(ch, SKILL_DREADNAUGHT, 15);
 }
 

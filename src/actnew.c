@@ -3781,16 +3781,16 @@ void do_craft(P_char ch, char *argument, int cmd)
    //display startmat + difference;
    if(fullcount != 0)
    {
-    if(difference == 0)
+if(difference == 0)
     {
     send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-     sprintf(matbuf, "To forge this item, you will need %d of %s.\r\n&n", fullcount, material->short_description);
+     sprintf(matbuf, "To craft this item, you will need %d of %s.\r\n&n", fullcount, material->short_description);
 	page_string(ch->desc, matbuf, 1);
     }
     else
     {
     send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-    sprintf(matbuf, "To forge this item, you will need %d of %s and 1 of %s.\r\n&n", fullcount, material->short_description, material2->short_description);
+    sprintf(matbuf, "To craft this item, you will need %d of %s and %d of %s.\r\n&n", fullcount, material->short_description, (int)difference, material2->short_description);
     page_string(ch->desc, matbuf, 1);
     }
 
@@ -3798,9 +3798,10 @@ void do_craft(P_char ch, char *argument, int cmd)
    else
     {
     send_to_char("&+yYou open your &+Ltome &+yof &+Ycra&+yftsm&+Lanship &+yand examine the &+Litem&n.\n", ch);
-    sprintf(matbuf, "To forge this item, you will need 1 of %s.\r\n&n", material2->short_description);
+    sprintf(matbuf, "To craft this item, you will need %d of %s.\r\n&n", (int)difference, material2->short_description);
     page_string(ch->desc, matbuf, 1);
      }
+
     if(has_affect(tobj))
     send_to_char("...as well as &+W1 &nof &+ma &+Mm&+Ya&+Mg&+Yi&+Mc&+Ya&+Ml &+messence&n due to the &+mmagical &nproperties this item possesses.\r\n", ch);
     extract_obj(tobj, FALSE);
@@ -3866,7 +3867,7 @@ void do_craft(P_char ch, char *argument, int cmd)
    int z = 0;
    if(has_affect(tobj))
     z = 1;
-
+  debug(" difference: %d\r\n", (int)difference);
   if((i < fullcount) || (o < (int)difference) || ((z == 1) && (x < 1)))
   {
     send_to_char("You do not have the required &+ysalvaged &+Ymaterials &nin your inventory.\r\n", ch);
@@ -3918,7 +3919,9 @@ void do_craft(P_char ch, char *argument, int cmd)
  //reward here
       wizlog(56, "%s crafted %s" , GET_NAME(ch), tobj->short_description);
       notch_skill(ch, SKILL_CRAFT, 1);
-     obj_to_char(read_object(selected, VIRTUAL), ch);
+  P_obj reward = read_object(selected, VIRTUAL);
+  SET_BIT(reward->extra2_flags, ITEM2_STOREITEM);
+  obj_to_char(reward, ch);
   act
     ("&+W$n &+Ldelicately opens their &+ybox &+mof &+Rgnomish &+rcrafting &+mtools&+L and starts their work...\r\n"
      "&+W$n &+Lremoves the &+Wim&+wpur&+Lities &+Lfrom their &+ymaterials &+Land gently assembles a masterpiece...\r\n"
@@ -3929,7 +3932,7 @@ void do_craft(P_char ch, char *argument, int cmd)
      "you &+Lremove the &+Wim&+wpur&+Lities &+Lfrom your &+ymaterials &+Land gently assemble a masterpiece...\r\n"
      "&+L...hands shaking, &+Wyou &+Lraise your head and &+Ysmile&+L, admiring your new $p.&N",
      FALSE, ch, tobj, 0, TO_CHAR);
-
+    gain_exp(ch, NULL, (itemvalue(ch, tobj) * 1000), EXP_BOON);
     extract_obj(tobj, FALSE);
     extract_obj(material2, FALSE);
     extract_obj(material, FALSE);

@@ -630,8 +630,9 @@ void do_forge(P_char ch, char *argument, int cmd)
  //reward here
       wizlog(56, "%s crafted %s" , GET_NAME(ch), tobj->short_description);
       notch_skill(ch, SKILL_FORGE, 1);
-
-  obj_to_char(read_object(selected, VIRTUAL), ch);
+  P_obj reward = read_object(selected, VIRTUAL);
+  SET_BIT(reward->extra2_flags, ITEM2_STOREITEM);
+  obj_to_char(reward, ch);
   act
     ("&+W$n &+Lgently takes their &+ymaterials&+L, their &nflux&+L, and places them into the &+rf&+Ro&+Yr&+Rg&+re&+L.\r\n"
      "&+W$n &+Lremoves the &+yitems &+Lfrom the &+rheat &+Land starts to &nhammer &+Laway at the mixture..\r\n"
@@ -642,7 +643,7 @@ void do_forge(P_char ch, char *argument, int cmd)
      "You &+Lremove the &+yitems &+Lfrom the &+rheat &+Land start to &nhammer &+Laway at the mixture..\r\n"
      "&+L...after shedding plenty of &+Wsweat&+L, you &+Lstep back, admiring your new $p.&N",
      FALSE, ch, tobj, 0, TO_CHAR);
-
+    gain_exp(ch, NULL, (itemvalue(ch, tobj) * 1000), EXP_BOON);
     extract_obj(tobj, FALSE);
     extract_obj(material2, FALSE);
     extract_obj(material, FALSE);
@@ -918,38 +919,114 @@ P_obj get_pole(P_char ch)
   return NULL;
 }
 
-void do_fish(P_char ch, char *arg, int cmd)
+void do_fish(P_char ch, char*, int cmd)
 {
-  char     buf[MAX_STRING_LENGTH]; 
-  const int fishes[12] = {293 , 294 , 295 , 318 , 319 , 330 , 332 , 333 , 334 , 335, 355, 356};
-  int random = number(0,11);
-
-
-  if (IS_NPC(ch)) {
-     return;
-  }
-
-  if(GET_CHAR_SKILL(ch, SKILL_FISHING) == 0)
-  {
-    update_skills(ch);
-  }
-
-  P_obj pole = get_pole(ch);
-  if(!pole)
-  {
-    send_to_char("You need a fishing pole to fish!\n", ch);
+  if( cmd == CMD_SET_PERIODIC )
     return;
-
-  }
-  if(!IS_WATER_ROOM(ch->in_room))
+  
+  if( cmd == CMD_FISH )
+  {
+  if( !ch || !IS_PC(ch) )
+      return;
+    
+    if( GET_CHAR_SKILL(ch, SKILL_FISHING) == 0 )
+    {
+      send_to_char("You don't know how to fish.\n", ch);
+      return;      
+    }
+    
+    if( get_scheduled(ch, event_fish_check) )
+    {
+      send_to_char("You're already fishing!\n", ch);
+      return;
+    }
+    
+    if (!MIN_POS(ch, POS_STANDING + STAT_NORMAL))
+    {
+      send_to_char("You're too relaxed to fish.\n", ch);
+      return;
+    }
+	
+	  if(!IS_WATER_ROOM(ch->in_room))
   {
     send_to_char("Well you DO have a fishing pole, but where do you plan to fish???\n", ch);
     return;
   } 
 
-  CharWait(ch, (int) (PULSE_VIOLENCE)); 
-  if (notch_skill(ch, SKILL_FISHING, get_property("skill.notch.fishing", 70)) ||
-      GET_CHAR_SKILL(ch, SKILL_FISHING)/10 < number(1,100) )  
+  P_obj pole = get_pole(ch);
+
+   if (IS_DISGUISE(ch))
+  {
+    send_to_char("Fishing will ruin your disguise!\r\n", ch);
+    return;
+  }
+
+
+  if(!pole)
+  {
+    send_to_char("How are you supposed to fish when you don't have anything ready to fish with?\n", ch);
+    return;
+  }
+      // start fishing
+    send_to_char("You cast your pole and start waiting...\n", ch);
+
+   struct fishing_data data;
+    data.room = ch->in_room;
+    data.counter = (140 - GET_CHAR_SKILL(ch, SKILL_FISHING)) /3;
+	
+   add_event( event_fish_check, PULSE_VIOLENCE, ch, 0, 0, 0, &data, sizeof(struct fishing_data));
+    return;
+  }
+return;
+}
+
+void event_fish_check(P_char ch, P_char victim, P_obj, void *data)
+{
+  struct fishing_data *fdata = (struct fishing_data*)data;
+  P_obj ore, pole;
+  char  buf[MAX_STRING_LENGTH], dbug[MAX_STRING_LENGTH];
+  const int fishes[12] = {293 , 294 , 295 , 318 , 319 , 330 , 332 , 333 , 334 , 335, 355, 356};
+  int random = number(0,11);
+  pole = get_pole(ch);
+
+  if (!ch->desc ||
+      IS_FIGHTING(ch) ||
+      (ch->in_room != fdata->room) ||            
+      !MIN_POS(ch, POS_STANDING + STAT_NORMAL) ||                    
+      IS_SET(ch->specials.affected_by, AFF_HIDE) ||
+      IS_IMMOBILE(ch) ||
+      !AWAKE(ch) ||
+      IS_STUNNED(ch) ||
+      IS_CASTING(ch) ||
+      IS_AFFECTED2(ch, AFF2_CASTING))
+  {
+    send_to_char("You stop fishing.\n", ch);
+    return;  
+  }
+
+  if(!IS_WATER_ROOM(ch->in_room))
+  {
+    send_to_char("You stop fishing.\n", ch);
+    return;
+  } 
+
+  if (IS_DISGUISE(ch))
+  {
+    send_to_char("Fishing will ruin your disguise!\r\n", ch);
+    return;
+  }
+
+
+  if(!pole)
+  {
+    send_to_char("How are you supposed to fish when you don't have anything ready to fish with?\n", ch);
+    return;
+  }
+  
+  if(fdata->counter == 0 )
+  {
+
+   if (GET_CHAR_SKILL(ch, SKILL_FISHING)/2 < number(1,105) )  
   {
     send_to_char("You didn't catch a thing..\n", ch);
     return;
@@ -969,13 +1046,54 @@ void do_fish(P_char ch, char *arg, int cmd)
   act("You reel in $p on your fishing pole!", FALSE,
       ch, fish, NULL, TO_CHAR);
 
+  gain_exp(ch, NULL, (GET_CHAR_SKILL(ch, SKILL_FISHING) * 5), EXP_BOON);
+
   act("$n reels in $p on $s fishing pole", FALSE,
       ch, fish, NULL, TO_ROOM);
 
-  fish->timer[0] = time(NULL);
+  //fish->timer[0] = time(NULL); Fish no longer decay - drannak 5/13/13
   obj_to_char(fish, ch);
-}
+  return;
+  }
 
+
+  if (GET_VITALITY(ch) < 10)
+  {
+    send_to_char("You are too exhausted to continue fishing.\n", ch);
+    return;
+  }
+
+  send_to_char("You continue fishing...\n", ch);
+  notch_skill(ch, SKILL_FISHING, 40);
+  GET_VITALITY(ch) -= (number(0,100) > GET_CHAR_SKILL(ch, SKILL_FISHING)) ? 3 : 2;
+
+  fdata->counter--;
+  add_event(event_fish_check, PULSE_VIOLENCE, ch, 0, 0, 0, fdata, sizeof(struct fishing_data));
+
+  //noise distance calc
+  for (P_desc i = descriptor_list; i; i = i->next)
+    {
+      if( i->connected != CON_PLYNG ||
+          ch == i->character ||
+          i->character->following == ch ||
+          world[i->character->in_room].zone != world[ch->in_room].zone ||
+          ch->in_room == i->character->in_room ||
+          ch->in_room == real_room(i->character->specials.was_in_room) ||
+          real_room(ch->specials.was_in_room) == i->character->in_room )
+      {
+        continue;
+      }
+      
+      int dist = calculate_map_distance(ch->in_room, i->character->in_room);
+
+  if(dist <= 550)
+  {
+  zone_spellmessage(ch->in_room,
+    "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard in the distance...&n\r\n",
+    "&+cThe &+Csoft &+csound of &+Cwater&+c splashing can be heard to the %s...&n\r\n");
+  }
+ }
+}
 
 int mine(P_obj obj, P_char ch, int cmd, char *arg)
 {
@@ -1086,7 +1204,7 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data)
     return;
   }
   
- // if (mdata->counter == 0 )
+  if (mdata->counter == 0 )
    if(ch)//debugging
   {
     ore = get_ore_from_mine(ch, mdata->mine_quality);
@@ -1121,7 +1239,7 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data)
      
     act("Your mining efforts turn up $p&n!", FALSE, ch, ore, 0, TO_CHAR);
     act("$n finds $p&n!", FALSE, ch, ore, 0, TO_ROOM);
-    
+     gain_exp(ch, NULL, (GET_CHAR_SKILL(ch, SKILL_MINE) * 4), EXP_BOON);
     //SET_BIT(ore->cost, newcost);
     ore->cost = newcost;
     obj_to_room(ore, ch->in_room);
@@ -1154,6 +1272,7 @@ void event_mine_check(P_char ch, P_char victim, P_obj, void *data)
     return;
 
   send_to_char("You continue mining...\n", ch);
+  notch_skill(ch, SKILL_MINE, 40);
   GET_VITALITY(ch) -= (number(0,100) > GET_CHAR_SKILL(ch, SKILL_MINE)) ? 3 : 2;
 
   mdata->counter--;
