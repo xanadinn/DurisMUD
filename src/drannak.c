@@ -229,7 +229,7 @@ void display_surnames(P_char ch)
 
 
   sprintf(buf2, "\r\n   &+W%-22s\r\n",
-          "Note: Some &+cachievements&n grant access to additional surnames&n\r\n");
+          "Note: &nSome &+cachievements&n grant access to additional surnames&n\r\n");
   strcat(buf, buf2);
 
 
