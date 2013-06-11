@@ -277,20 +277,29 @@ void load_obj_to_newbies(P_char ch)
 
 
 /*Thrikreen Basics*/
-  static int thrikreen_good_eq[] = { 613, 398, 398, 1176, 1167, -1 };
+  static int thrikreen_good_eq[] = { 
+						  677, 283, 285, 1112, 286, 288, 290,
+						  613, 398, 398, 1176, 1167, -1 };
 
-  static int thrikreen_evil_eq[] = { 613, 1170, 1173, -1 };
+  static int thrikreen_evil_eq[] = { 
+						  677, 283, 285, 1112, 286, 288, 290,
+						  613, 1170, 1173, -1 };
 
 /*Minotaur Basics*/
-  static int minotaur_good_eq[] = { 398, 398, 1176, 1167, 1182, 603, -1 };
+  static int minotaur_good_eq[] = { 
+						  677, 283, 285, 1112, 286, 288, 290,
+						398, 398, 1176, 1167, 1182, 603, -1 };
 
-  static int minotaur_evil_eq[] = { 1170, 1173, 1182, 603, -1 };
+  static int minotaur_evil_eq[] = { 
+						  677, 283, 285, 1112, 286, 288, 290,
+						1170, 1173, 1182, 603, -1 };
 
 
   memset(newbie_kits, 0, sizeof(newbie_kits));
 
   CREATE_KIT(RACE_BARBARIAN, 0, ((int[])
                                  {
+						  677, 283, 285, 1112, 286, 288, 290,
                                  560, 603, 398, 398, 1154, 1155, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_WARRIOR, ((int[])
                                              {
@@ -303,6 +312,7 @@ void load_obj_to_newbies(P_char ch)
                                             1127, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_BERSERKER, ((int[])
                                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                                             105, 106, 107, 1144, 1145, 1146,
                                             1127, -1}));
   CREATE_KIT(RACE_BARBARIAN, CLASS_MERCENARY, ((int[])
@@ -313,6 +323,7 @@ void load_obj_to_newbies(P_char ch)
 /*Githzerai Basics*/
   CREATE_KIT(RACE_GITHZERAI, 0, ((int[])
                              {
+				 677, 283, 285, 1112, 286, 288, 290,
                              566, 390, 398, 398, 1152, 1153, -1}));
 
 /*Githzerai Classes*/
@@ -345,6 +356,7 @@ void load_obj_to_newbies(P_char ch)
 /*Human Basics*/
   CREATE_KIT(RACE_HUMAN, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              566, 390, 398, 398, 1152, 1153, -1}));
 
 /*Human Classes*/
@@ -452,6 +464,7 @@ void load_obj_to_newbies(P_char ch)
 /*Drow Elf Basics*/
   CREATE_KIT(RACE_DROW, 0, ((int[])
                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                             561, 604, 36016, 1156, 1157, -1}));
 
 /*Drow Elf Classes*/
@@ -511,6 +524,7 @@ void load_obj_to_newbies(P_char ch)
 /*Duergar Basics*/
   CREATE_KIT(RACE_DUERGAR, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                562, 605, 1164, 1165, -1}));
 
 /*Duergar Classes*/
@@ -556,6 +570,7 @@ void load_obj_to_newbies(P_char ch)
 /*Gnome Basics*/
   CREATE_KIT(RACE_GNOME, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              563, 605, 398, 398, 1166, 1167, -1}));
 
 /*Gnome Classes*/
@@ -629,6 +644,7 @@ void load_obj_to_newbies(P_char ch)
 /*Half Elf Basics*/
   CREATE_KIT(RACE_HALFELF, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                564, 607, 398, 398, 1160, 1161, -1}));
 
 /*Half Elf Class EQ*/
@@ -698,6 +714,7 @@ void load_obj_to_newbies(P_char ch)
 /*Halfling Basics*/
   CREATE_KIT(RACE_HALFLING, 0, ((int[])
                                 {
+						  677, 283, 285, 1112, 286, 288, 290,
                                 565, 608, 398, 398, 1168, 1169, -1}));
 
 /*Halfling Classes*/
@@ -763,6 +780,7 @@ void load_obj_to_newbies(P_char ch)
 /*Centaur Basics*/
   CREATE_KIT(RACE_CENTAUR, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                398, 398, 591, 590, 1178, 1179, -1}));
 
 /*Centaur Classes*/
@@ -815,6 +833,7 @@ void load_obj_to_newbies(P_char ch)
 /*Planetbound Illithid Basic*/
   CREATE_KIT(RACE_ILLITHID, 0, ((int[])
                                 {
+						  677, 283, 285, 1112, 286, 288, 290,
                                 567, 609, 733, 1174, 1175, -1}));
 
 /*Planetbound Illithid Classes*/
@@ -863,6 +882,7 @@ void load_obj_to_newbies(P_char ch)
 /*Githyanki Basic*/
   CREATE_KIT(RACE_GITHYANKI, 0, ((int[])
                                  {
+						  677, 283, 285, 1112, 286, 288, 290,
                                  1180, 1181, -1}));
                                  
   CREATE_KIT(RACE_GITHYANKI, CLASS_CLERIC, ((int[])
@@ -919,6 +939,7 @@ void load_obj_to_newbies(P_char ch)
 /*Phantom Basic*/
   CREATE_KIT(RACE_PHANTOM, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                1180, 1181, -1}));
 
 /*Phantom Classes*/
@@ -965,6 +986,7 @@ void load_obj_to_newbies(P_char ch)
 /*Grey Elf Basics*/
   CREATE_KIT(RACE_GREY, 0, ((int[])
                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                             568, 610, 398, 398, 1158, 1159, -1}));
 
 /*Grey Elf Classes*/
@@ -1022,6 +1044,7 @@ void load_obj_to_newbies(P_char ch)
 /*Dwarf Basic*/
   CREATE_KIT(RACE_MOUNTAIN, 0, ((int[])
                                 {
+						  677, 283, 285, 1112, 286, 288, 290,
                                 569, 611, 398, 398, 1162, 1163, -1}));
 
 /*Dwarf Classes*/
@@ -1060,6 +1083,7 @@ void load_obj_to_newbies(P_char ch)
 /*Ogre Basic*/
   CREATE_KIT(RACE_OGRE, 0, ((int[])
                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                             570, 612, 1170, 1183, 1183,
                             1184, -1}));
 
@@ -1081,6 +1105,7 @@ void load_obj_to_newbies(P_char ch)
 /*Orog Basics*/
   CREATE_KIT(RACE_OROG, 0, ((int[])
                            {
+						  677, 283, 285, 1112, 286, 288, 290,
                            1172, 1173, 612, -1}));
                            
 /*Orog Classes*/
@@ -1110,6 +1135,7 @@ void load_obj_to_newbies(P_char ch)
 /*Orc Basics*/
   CREATE_KIT(RACE_ORC, 0, ((int[])
                            {
+						  677, 283, 285, 1112, 286, 288, 290,
                            1172, 1173, 612, -1}));
 
 /*Orc Classes*/
@@ -1206,6 +1232,7 @@ void load_obj_to_newbies(P_char ch)
 /*Lich Basics*/
   CREATE_KIT(RACE_PLICH, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              1172, 1173, 612, -1}));
 
   /*Lich Classes */
@@ -1231,6 +1258,7 @@ void load_obj_to_newbies(P_char ch)
 /*Death Knight Basics*/
   CREATE_KIT(RACE_PDKNIGHT, 0, ((int[])
                                 {
+						  677, 283, 285, 1112, 286, 288, 290,
                                 1106, 1107, -1}));
 
   /*Death Knight Classes */
@@ -1252,6 +1280,7 @@ void load_obj_to_newbies(P_char ch)
 
   CREATE_KIT(RACE_VAMPIRE, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                1172, 1173, 612, -1}));
 
   /*Vampire Classes */
@@ -1292,6 +1321,7 @@ void load_obj_to_newbies(P_char ch)
 /*Wight Basics*/
   CREATE_KIT(RACE_WIGHT, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              1172, 1173, 612, -1}));
 /*Wight Classes*/
   CREATE_KIT(RACE_WIGHT, CLASS_WARRIOR, ((int[])
@@ -1307,6 +1337,7 @@ void load_obj_to_newbies(P_char ch)
 /*Storm Giant Basics*/
   CREATE_KIT(RACE_SGIANT, 0, ((int[])
                               {
+						  677, 283, 285, 1112, 286, 288, 290,
                               1172, 1173, 612, -1}));
 /*Storm Giant Classes*/
   CREATE_KIT(RACE_SGIANT, CLASS_WARRIOR, ((int[])
@@ -1323,6 +1354,7 @@ void load_obj_to_newbies(P_char ch)
 /*Shade Basics*/
   CREATE_KIT(RACE_SHADE, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              1172, 1173, 612, -1}));
 /*Shade Classes*/
   CREATE_KIT(RACE_SHADE, CLASS_WARRIOR, ((int[])
@@ -1354,6 +1386,7 @@ void load_obj_to_newbies(P_char ch)
 /*Revenant Basics*/
   CREATE_KIT(RACE_REVENANT, 0, ((int[])
                                 {
+						  677, 283, 285, 1112, 286, 288, 290,
                                 1172, 1173, 612, -1}));
 /*Revenant Classes*/
   CREATE_KIT(RACE_REVENANT, CLASS_WARRIOR, ((int[])
@@ -1372,6 +1405,7 @@ void load_obj_to_newbies(P_char ch)
 
   CREATE_KIT(RACE_PSBEAST, 0, ((int[])
                                {
+						  677, 283, 285, 1112, 286, 288, 290,
                                1172, 1173, 612, -1}));
 
   /*Shadow Beast Classes */
@@ -1402,6 +1436,7 @@ void load_obj_to_newbies(P_char ch)
 /*Troll Basic*/
   CREATE_KIT(RACE_TROLL, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              1172, 1155, 571, 613, -1}));
 
 /*Troll Classes*/
@@ -1426,6 +1461,7 @@ void load_obj_to_newbies(P_char ch)
 /*Goblin Basics*/
   CREATE_KIT(RACE_GOBLIN, 0, ((int[])
                               {
+						  677, 283, 285, 1112, 286, 288, 290,
                               1172, 1173, 612, -1}));
 
 /*Goblin Classes*/
@@ -1504,6 +1540,7 @@ void load_obj_to_newbies(P_char ch)
 /*Drider Basics*/
   CREATE_KIT(RACE_DRIDER, 0, ((int[])
                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                             561, 604, 36016, 1156, 1157, -1}));
 
 /*Drider Classes*/
@@ -1544,6 +1581,7 @@ void load_obj_to_newbies(P_char ch)
 /*Kobold Basics*/
   CREATE_KIT(RACE_KOBOLD, 0, ((int[])
                               {
+						  677, 283, 285, 1112, 286, 288, 290,
                               1172, 1173, 612, -1}));
 
 /*Goblin Classes*/
@@ -1618,6 +1656,7 @@ void load_obj_to_newbies(P_char ch)
 /*Kuo Toa Basic*/
   CREATE_KIT(RACE_KUOTOA, 0, ((int[])
                              {
+						  677, 283, 285, 1112, 286, 288, 290,
                              1172, 1155, 571, 613, -1}));
 
 /*Troll Classes*/
@@ -1649,6 +1688,7 @@ void load_obj_to_newbies(P_char ch)
 /* Firbolg Basic */
   CREATE_KIT(RACE_FIRBOLG, 0, ((int[])
                                  {
+						  677, 283, 285, 1112, 286, 288, 290,
                                  560, 603, 398, 398, 1154, 1155, -1}));
 
 /* Firbolg Classes */  
@@ -1675,6 +1715,7 @@ void load_obj_to_newbies(P_char ch)
 /*Wood Elf Basics*/
   CREATE_KIT(RACE_WOODELF, 0, ((int[])
                             {
+						  677, 283, 285, 1112, 286, 288, 290,
                             568, 610, 398, 398, 1158, 1159, -1}));
 
 /*Wood Elf Classes*/
