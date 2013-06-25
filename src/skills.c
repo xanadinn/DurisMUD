@@ -337,7 +337,7 @@ void initialize_skills()
   SKILL_CREATE("dreadnaught", SKILL_DREADNAUGHT, TAR_PHYS);
   SPEC_SKILL_ADD(CLASS_WARRIOR, 30, 100, SPEC_GUARDIAN);
 
-  SKILL_CREATE("shieldless bash", SKILL_SHIELDLESS_BASH, TAR_PHYS);
+
   //SPEC_SKILL_ADD(CLASS_WARRIOR, 36, 100, SPEC_SWORDSMAN);
 
   SKILL_CREATE("sweeping thrust", SKILL_SWEEPING_THRUST, TAR_PHYS);
@@ -4871,6 +4871,9 @@ SPELL_ADD(CLASS_NONE, 1);
   SKILL_CREATE("infuse life", SKILL_INFUSE_LIFE, TAR_MENTAL | TAR_EPIC);
   SKILL_CREATE("spell penetration", SKILL_SPELL_PENETRATION, TAR_MENTAL | TAR_EPIC);
   SKILL_CREATE("devastating critical", SKILL_DEVASTATING_CRITICAL, TAR_PHYS | TAR_EPIC);
+
+  SKILL_CREATE("shieldless bash", SKILL_SHIELDLESS_BASH, TAR_PHYS | TAR_EPIC);
+
   SKILL_CREATE("toughness", SKILL_TOUGHNESS, TAR_MENTAL | TAR_EPIC);
   SKILL_CREATE("spatial focus", SKILL_SPATIAL_FOCUS, TAR_MENTAL | TAR_EPIC);
   SKILL_CREATE("improved endurance", SKILL_IMPROVED_ENDURANCE, TAR_MENTAL | TAR_EPIC);
@@ -5373,12 +5376,6 @@ void update_racial_skills(P_char ch)
 			ch->only.pc->skills[SKILL_FIX].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			do_save_silent(ch, 1); // racial skills require a save.
 			break;
-			case RACE_THRIKREEN:
-			//assign thri-kreen racial epic skills
-			ch->only.pc->skills[SKILL_SHIELDLESS_BASH].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
-			ch->only.pc->skills[SKILL_SHIELDLESS_BASH].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
-			do_save_silent(ch, 1); // racial skills require a save.
-			break;
 			case RACE_HALFLING:
 			ch->only.pc->skills[SKILL_EXPERT_PARRY].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			ch->only.pc->skills[SKILL_EXPERT_PARRY].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
@@ -5435,6 +5432,14 @@ void update_racial_skills(P_char ch)
 			do_save_silent(ch, 1); // racial skills require a save.
 			break;
 			case RACE_OGRE:
+			ch->only.pc->skills[SKILL_DEVASTATING_CRITICAL].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
+			ch->only.pc->skills[SKILL_DEVASTATING_CRITICAL].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
+			do_save_silent(ch, 1); // racial skills require a save.
+			break;
+			case RACE_THRIKREEN:
+			//assign thri-kreen racial epic skills
+			ch->only.pc->skills[SKILL_SHIELDLESS_BASH].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
+			ch->only.pc->skills[SKILL_SHIELDLESS_BASH].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			ch->only.pc->skills[SKILL_DEVASTATING_CRITICAL].taught = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			ch->only.pc->skills[SKILL_DEVASTATING_CRITICAL].learned = BOUNDED(10, GET_LEVEL(ch) *2, 100);
 			do_save_silent(ch, 1); // racial skills require a save.
