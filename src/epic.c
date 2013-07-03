@@ -359,10 +359,14 @@ void epic_choose_new_epic_task(P_char ch)
   af.flags = AFFTYPE_STORE | AFFTYPE_PERM;
   af.duration = -1;
 
-  if(number(0, 5))
+ /* if(number(0, 5))
   {
     zone_number = epic_random_task_zone(ch);
-  }
+  }*/
+
+//Getting rid of nexus and spill blood tasks for now. 7/13 Drannak
+
+  zone_number = epic_random_task_zone(ch);
 
   if(zone_number < 0)
   {
