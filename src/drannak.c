@@ -1124,16 +1124,8 @@ bool new_summon_check(P_char ch, P_char selected)
   if(count >= 4)
   return FALSE;
 
-  if(GET_LEVEL(ch) <= 35 && i > 45)
-  return FALSE;
-  
-  if(GET_LEVEL(ch) <= 45 && i > 75)
-  return FALSE;
-  
-  if(GET_LEVEL(ch) <= 55 && i > 90)
-  return FALSE;
 
-  if(i > 100)
+  if(i > 120)
   return FALSE;
 
 
