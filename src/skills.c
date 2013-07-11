@@ -588,7 +588,7 @@ void initialize_skills()
 		  TAR_CHAR_ROOM | TAR_AGGRO, do_nothing_spell);
 
   SPELL_CREATE("contain being", SPELL_CONTAIN_BEING, PULSE_SPELLCAST * 3,
-		  TAR_CHAR_ROOM, spell_contain_being);
+		  TAR_CHAR_ROOM | TAR_FIGHT_VICT, spell_contain_being);
   SPELL_ADD(CLASS_CONJURER, 5);
 
   SPELL_CREATE("corpse portal", SPELL_CORPSE_PORTAL, PULSE_SPELLCAST,
