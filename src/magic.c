@@ -19304,15 +19304,17 @@ void event_acidimmolate(P_char ch, P_char vict, P_obj obj, void *data)
     }
     //dam = (int) (GET_LEVEL(ch) * 2);
     dam = 1; //this is now just a pulling spell.
-
-  /*  if(acidburntime >= 3)
+    if(!GET_CLASS(ch, CLASS_CONJURER))
+    {
+    if(acidburntime >= 3)
     {
       dam = (int) (GET_LEVEL(ch) * 2 - number(4, 20));
     }
     if(acidburntime >= 4)
     {
       dam = (int) GET_LEVEL(ch) + number(4, 12);
-    }*/
+    }
+    }
     if(IS_ALIVE(vict) &&
       !number(0, 4) && (spell_damage(ch, vict, dam, SPLDAM_ACID, SPLDAM_NODEFLECT |
       SPLDAM_NOSHRUG, &messages) == DAM_NONEDEAD))
