@@ -1247,7 +1247,7 @@ int calculate_shipfrags(P_char ch)
 {
   for (int i = 0; i < 1000; i++)
   {
-    if (shipfrags[i].ship == NULL)
+     if (shipfrags[i].ship == NULL)
     {
       break;
     }
@@ -1264,6 +1264,15 @@ int calculate_shipfrags(P_char ch)
     {
       break;
     }
+
+    //debug("ownername: %s frags: %d getname: %s\r\n", shipfrags[i].ship->ownername, shipfrags[i].ship->frags, GET_NAME(ch));
+   if(strstr(shipfrags[i].ship->ownername, GET_NAME(ch)))
+	{
+	 int shipfr = shipfrags[i].ship->frags;
+       // debug("shipfr: %d\r\n", shipfr);
+	 return shipfr;
+	}
+
     if (shipfrags[i].ship->frags == 0)
     {
       break;
@@ -1276,11 +1285,7 @@ int calculate_shipfrags(P_char ch)
       }
     }
 	
-    if(shipfrags[i].ship->ownername == GET_NAME(ch))
-	{
-	 int shipfr = shipfrags[i].ship->frags;
-	 return shipfr;
-	}
+   
     /*send_to_char_f(ch,
             "&+W%d:&N %s\r\n&+LCaptain: &+W%-20s &+LClass: &+y%-15s&+R Tonnage Sunk: &+W%d&N\r\n\r\n",
             i + 1, shipfrags[i].ship->name, shipfrags[i].ship->ownername,

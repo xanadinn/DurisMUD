@@ -308,7 +308,7 @@ long getLeaderBoardPts(P_char ch)
 {
  int sf = calculate_shipfrags(ch); 
  long hardcorepts =
-       (GET_LEVEL(ch) * 1000) + (ch->points.curr_exp / 10000) + (sf) +
+       (GET_LEVEL(ch) * 1000) + (ch->points.curr_exp / 10000) + (sf * 100) +
              (ch->only.pc->frags * 100) - (ch->only.pc->numb_deaths * 25);
   /*
  if(IS_MULTICLASS_NPC(ch))
