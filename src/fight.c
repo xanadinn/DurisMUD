@@ -414,8 +414,8 @@ bool rapier_dirk(P_char victim, P_char attacker)
     
     hit(victim, attacker, wep1);
     
-    if(wep1->craftsmanship == OBJCRAFT_HIGHEST &&
-      CanDoFightMove(victim, attacker))
+    //if(wep1->craftsmanship == OBJCRAFT_HIGHEST &&
+     if(number(0, 3) && CanDoFightMove(victim, attacker))
     {
       act("$p slices through the air with incredible ease!",
         TRUE, victim, wep1, attacker, TO_CHAR);
