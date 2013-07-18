@@ -5421,7 +5421,6 @@ void bash(P_char ch, P_char victim)
     return;
   }
   
-  display_map(ch, 20, TRUE);
 
   if(affected_by_spell(ch, SKILL_BASH))
   {
