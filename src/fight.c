@@ -3839,7 +3839,8 @@ int spell_damage(P_char ch, P_char victim, double dam, int type, uint flags,
     /* defensive spell hook for mob proc - Torgal */
     if(victim &&
       IS_NPC(victim) &&
-      mob_index[GET_RNUM(victim)].func.mob )
+      mob_index[GET_RNUM(victim)].func.mob &&
+	!affected_by_spell(victim, TAG_CONJURED_PET))
     {
       data.victim = ch;
       data.dam = (int) dam;
@@ -9244,7 +9245,8 @@ int pv_common(P_char ch, P_char opponent, const P_obj wpn)
   /* defensive hit hook for mob procs - Torgal */
   if(IS_ALIVE(opponent) &&
      IS_NPC(opponent) &&
-     mob_index[GET_RNUM(opponent)].func.mob )
+     mob_index[GET_RNUM(opponent)].func.mob &&
+	!affected_by_spell(opponent, TAG_CONJURED_PET))
   {
     data.victim = ch;
 

@@ -2060,6 +2060,7 @@ bool special(P_char ch, int cmd, char *arg)
          IS_NPC(k) &&
          AWAKE(k) &&
          mob_index[GET_RNUM(k)].func.mob &&
+         !affected_by_spell(k, TAG_CONJURED_PET) &&
          (!IS_IMMOBILE(k) ||
 	  (IS_NPC(k) && (GET_VNUM(k) == BUILDING_OUTPOST_MOB))))
       {

@@ -6608,7 +6608,7 @@ void MobCombat(P_char ch)
   /*
    * Examine call for special procedure
    */
-  if(!no_specials && IS_SET(ch->specials.act, ACT_SPEC))
+  if(!no_specials && IS_SET(ch->specials.act, ACT_SPEC) && !affected_by_spell(ch, TAG_CONJURED_PET))
   {
     if(!mob_index[GET_RNUM(ch)].func.mob)
     {
@@ -7893,7 +7893,7 @@ PROFILE_END(mundane_autostand);
 
   /* Examine call for special procedure */
 PROFILE_START(mundane_specproc);
-  if(IS_SET(ch->specials.act, ACT_SPEC) && !no_specials)
+  if(IS_SET(ch->specials.act, ACT_SPEC) && !no_specials && !affected_by_spell(ch, TAG_CONJURED_PET))
   { // 8%
     if(!mob_index[ch->only.npc->R_num].func.mob)
     { // 0%

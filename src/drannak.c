@@ -925,14 +925,14 @@ void do_conjure(P_char ch, char *argument, int cmd)
     int duration;
     tobj = read_mobile(selected, VIRTUAL);
 
-    if(!valid_conjure(ch, tobj))
+    if(!valid_conjure(ch, tobj) && !IS_TRUSTED(ch))
     {
      send_to_char("Your character does not have &+Ldominion&n over this race of &+Lmonster&n, either because its level is too high, or it is not a valid race for you to summon.\r\n", ch);
      extract_char(tobj);
      return;
     }
 
-    if(!new_summon_check(ch, tobj))
+    if(!new_summon_check(ch, tobj) && !IS_TRUSTED(ch))
     {
      send_to_char("You have too many, or too powerful followers to summon this minion.\r\n", ch);
     extract_char(tobj);
@@ -940,7 +940,7 @@ void do_conjure(P_char ch, char *argument, int cmd)
     }
 
 
-    if(affected_by_spell(ch, SPELL_CONJURE_ELEMENTAL))
+    if(affected_by_spell(ch, SPELL_CONJURE_ELEMENTAL) && !IS_TRUSTED(ch))
     {
      send_to_char("You must wait a short time before calling another &+Yminion&n into existence.\r\n", ch);
     extract_char(tobj);
@@ -981,6 +981,7 @@ void do_conjure(P_char ch, char *argument, int cmd)
    REMOVE_BIT(tobj->specials.act, ACT_BREAK_CHARM);
 
    //mob_index[tobj->only.npc->idnum].func.mob = 0;
+
 
 
    if(GET_LEVEL(tobj) > 56 && !IS_TRUSTED(ch))
