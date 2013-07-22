@@ -535,15 +535,16 @@ void do_gcc(P_char ch, char *argument, int cmd)
     }
     for (i = descriptor_list; i; i = i->next)
       {
-        P_char chara = i->character;
+
       if ((i->character != ch) && !i->connected &&
           !is_silent(i->character, FALSE) &&
+          (i->connected == CON_PLYNG ) &&
           IS_SET(i->character->specials.act, PLR_GCC) &&
           IS_MEMBER(GET_A_BITS(i->character)) &&
           (GET_A_NUM(i->character) == GET_A_NUM(ch)) &&
           (!(IS_AFFECTED4(i->character, AFF4_DEAF))) &&
           (GT_PAROLE(GET_A_BITS(i->character))) ||
-         (IS_TRUSTED(chara) && IS_SET(chara->specials.act, PLR_GCC)))
+         (IS_TRUSTED(i->character) && IS_SET(i->character->specials.act, PLR_GCC)))
       {
         sprintf(Gbuf1, "&+c%s&n&+c tells your guild '&+C%s&n&+c'\r\n",
                 PERS(ch, i->character, FALSE),
