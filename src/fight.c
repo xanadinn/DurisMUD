@@ -8814,8 +8814,13 @@ int calculate_attacks(P_char ch, int attacks[])
       ADD_ATTACK(SECONDARY_WEAPON); 
   }
 
-  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL)) //not-standing? half attacks - Drannak 7/22/13
-  number_attacks /= 2;
+  if(!MIN_POS(ch, POS_STANDING + STAT_NORMAL) && !has_innate(ch, INNATE_GROUNDFIGHTING)) //not-standing? half attacks - Drannak 7/22/13
+  {
+   if(GET_POS(ch) == POS_KNEELING)
+   number_attacks = (int)(number_attacks - (number_attacks * .70));
+   else
+   number_attacks = (int)(number_attacks - (number_attacks / 2));
+  }
   
 
   if(IS_AFFECTED5(ch, AFF5_NOT_OFFENSIVE))
