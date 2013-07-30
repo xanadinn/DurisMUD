@@ -3327,6 +3327,9 @@ int chance_kick(P_char ch, P_char victim)
     return 0;
 
   percent_chance = GET_CHAR_SKILL(ch, SKILL_KICK);
+  
+  if(GET_RACE(ch) == RACE_CENTAUR)
+  percent_chance *= 2;
 
   percent_chance =
     (int) (percent_chance * ((double) BOUNDED(80, GET_C_DEX(ch), 125)) / 100);
@@ -3489,6 +3492,9 @@ bool kick(P_char ch, P_char victim)
       takedown_chance = (int) (takedown_chance / 5);
     }
     
+    if(GET_RACE(ch) == RACE_CENTAUR)
+    takedown_chance *= 2;
+
     int gh = (zone_table[world[ch->in_room].zone].number == GH_ZONE_NUMBER);
     if(takedown_chance > random_number &&
       csize > (vsize + 1))
