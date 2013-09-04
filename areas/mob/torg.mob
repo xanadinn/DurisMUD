@@ -8,8 +8,8 @@ A &+ydeer &Nstands here looking skittish at every sound.&n
 &ndangerous enviroment has taken all the sweetness out of it, and replaced it&n
 &nwith suspicion.&N
 ~
-72 0 0 0 0 0 0 0 S
-A 0 0 -1
+72 0 0 0 0 0 0 0 0 S
+A 0 0 0 -1
 10 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -27,8 +27,8 @@ An &+Millithid&n is here panicked and fearful.&n
 &+Mlong enough to find a way out of &+rT&+gor&+rg&+M's compound.  Desperately his tentacles&n
 &+Mtwitch.  &n
 ~
-14346 1 0 33562952 30 0 0 -1000 S
-MF 0 262144 -1
+14346 1 0 0 33562952 30 0 0 -1000 S
+MF 0 262144 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -41,8 +41,8 @@ A &+ghobgoblin&N stands growling at everything and everyone.&n
 &Nclaimed this area as theirs and they enjoy enforcing their control.  These&N
 &Ncaves are their kingdom and they are unwilling to give them up without a fight.&n
 ~
-2122 1 0 33554688 8 0 0 -900 S
-HG 0 1 3
+2122 1 0 0 33554688 8 0 0 -900 S
+HG 0 1 0 3
 22 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -55,8 +55,8 @@ goblin miner~
 &nnearly every minute day or night to make up for his inferior physical strength.&n
 &nHis only hope is that Torg does not eliminate him before he might escape. &n
 ~
-2252 0 0 33554688 30 0 0 -900 S
-HG 0 1 -1
+2252 0 0 0 33554688 30 0 0 -900 S
+HG 0 1 0 -1
 25 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -70,8 +70,8 @@ duergar miner dwarf~
 &nthe &+Gtrolls&n or to Torg himself.  Thinking for a moment of the possibilites of&N
 &Nbecoming lunch for somebody he works on tirelessly.  &n
 ~
-2076 0 0 34078976 30 0 0 -900 S
-PD 0 8192 -1
+2076 0 0 0 34078976 30 0 0 -900 S
+PD 0 8192 0 -1
 26 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -85,8 +85,8 @@ orc miner~
 &Nget the best share of rations once again.  Their speed is unmatched in the&N
 &Nmines.&N
 ~
-2062 0 0 33554688 30 0 0 -900 S
-HO 0 16384 -1
+2062 0 0 0 33554688 30 0 0 -900 S
+HO 0 16384 0 -1
 27 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -100,8 +100,8 @@ kobold miner~
 &Nhunt humans.  Now he is trapped under piles of rock for the rest of his days&N
 &Nand he can't take it.&N
 ~
-2062 1 0 33554688 30 0 0 -900 S
-H 0 64 -1
+2062 1 0 0 33554688 30 0 0 -900 S
+H 0 64 0 -1
 29 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -115,8 +115,8 @@ hobgoblin guard large~
 &nthough if he awoke he would not appreciate it.  An ungodly snoring rumbles&n
 &nfrom him and a pool of drool gathers under his chin.&N
 ~
-1140852810 0 0 33554688 30 0 0 -900 S
-HG 0 1 3
+1140852810 0 0 0 33554688 30 0 0 -900 S
+HG 0 1 0 3
 30 0 0 1d1+1 1d1+1
 0.0.0.0 0
 4 4 1
@@ -129,8 +129,8 @@ rakshasa commander rough rak~
 &Nand kicks them furiously when they do not obey to his satisfaction. Brandishing&N
 &Nhis blade he glares about him.  &n
 ~
-67110922 1 0 100729128 30 0 0 -1000 S
-RA 0 16 -1
+67110922 1 0 0 100729128 30 0 0 -1000 S
+RA 0 16 0 -1
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -143,8 +143,8 @@ nightmare horse~
 &Nand respects nobody in this world except for his master upon his back.  Flames&N
 &Nlick his tail as it swishes back and forth slowly.&N
 ~
-134350922 1 0 570491136 30 0 0 0 S
-AE 0 1 -1
+134350922 1 0 0 570491136 30 0 0 0 S
+AE 0 1 0 -1
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -158,8 +158,8 @@ guard hob hobgoblin goblin veteran~
 &Nof fights.  Looking at those that pass by, his glare pierces to the very heart&N
 &Nevery movement in the cavern.&N
 ~
-1140852812 0 0 33554720 30 0 0 -900 S
-HG 0 1 3
+1140852812 0 0 0 33554720 30 0 0 -900 S
+HG 0 1 0 3
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -172,8 +172,8 @@ hobgoblin child kid~
 &Nblows his nose in his hand.  Pondering he looks around for something or&N
 &Nsomebody to rub it off on.&N
 ~
-2184 0 0 256 0 0 0 -900 S
-HG 0 0 2
+2184 0 0 0 256 0 0 0 -900 S
+HG 0 0 0 2
 10 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -189,8 +189,8 @@ guard ogre veteran~
 &Ncompound.  Even a slight theft would result in ten years of torture to any&N
 &Ninvolved.&N
 ~
-1140852810 1 0 33554712 30 0 0 0 S
-PO 0 1 -1
+1140852810 1 0 0 33554712 30 0 0 0 S
+PO 0 1 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -205,8 +205,8 @@ ogre shaman commander~
 &Nspells, her strength is enormous.  Whether growling, roaring, or eating elves&N
 &Nthis &+bogre&N exceeds the norm and is on top.&N
 ~
-67123274 1 0 33556792 158 64 0 -1000 S
-PO 0 256 -1
+67123274 1 0 0 33556792 158 64 0 -1000 S
+PO 0 256 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -223,8 +223,8 @@ ogre guard elite~
 &nIt also goes without saying however, that those sent on by the monitor are let&n
 &Nin without even a glance.&N
 ~
-67119178 1 0 33554696 30 0 0 -900 S
-PO 0 1 -1
+67119178 1 0 0 33554696 30 0 0 -900 S
+PO 0 1 0 -1
 52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -240,8 +240,8 @@ golem monitor~
 &Nevidenced by the pile of corpses strewn about the golem.  He grins and his&N
 &Nstony face cracks slightly as he finds new "visitors".&N
 ~
-100687946 1 0 167772504 262238 2097152 0 -950 S
-G 0 1024 -1
+100687946 1 0 0 167772504 262238 2097152 0 -950 S
+G 0 1024 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -255,8 +255,8 @@ decaying decayed undead dragon dracolich~
 &+rT&+gor&+rg&n.  While ferocious and a force of its own the skeletal beast bows its head&N
 &Nat a glance from the monitor.  It knows its place well.&N
 ~
-234907724 1 0 33554730 262238 0 0 -900 S
-UD 0 1 -1
+234907724 1 0 0 33554730 262238 0 0 -900 S
+UD 0 1 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -272,8 +272,8 @@ kordor smith weaponsmith armorsmith troll~
 &Nhe hopes for a new &+Wmaterial&n to be presented to him which is he could enjoy for&N
 &Nits rarity and interesting texture.&N
 ~
-2122 0 0 33554728 30 0 8192 -900 S
-PT 0 16384 4
+2122 0 0 0 33554728 30 0 8192 -900 S
+PT 0 16384 0 4
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -287,8 +287,8 @@ flind sorcerer battle~
 &Nsimply idles away.  There are but few people in this compound who command him,&N
 &Nand without their pressence he is free to do as he will. &N
 ~
-67123272 1 0 33554794 30 2097152 0 -900 S
-HO 0 512 4
+67123272 1 0 0 33554794 30 2097152 0 -900 S
+HO 0 512 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -304,8 +304,8 @@ war cleric duergar dwarf~
 &Nexcites him.  Indeed one of the only reasons he is not general himself stems&N
 &Nfrom his renowned recklessness seeing and no army can afford to lose a general.&N
 ~
-67123272 1 0 33554472 32768 0 0 -1000 S
-H2 0 32 -1
+67123272 1 0 0 33554472 32768 0 0 -1000 S
+H2 0 32 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -321,8 +321,8 @@ enforcer high mage drow~
 &Nbecause he is afraid to.  Flames lick her gigantic body, and when she moves all&N
 &Nsurrounding her seem to lack grace for the comparrison.   &N
 ~
-33699912 1 0 503316744 30 0 0 -950 S
-PL 0 512 4
+33699912 1 0 0 503316744 30 0 0 -950 S
+PL 0 512 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -339,8 +339,8 @@ healing she takes every opportunity she is given to acquire information from
 spies and traitors alike. Her room contains countless instruments of &+rtor&+wt&+rure&n
 and "influence".&n
 ~
-67123272 1 0 33628456 30 0 0 -1000 S
-PL 0 32 4
+67123272 1 0 0 33628456 30 0 0 -1000 S
+PL 0 32 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -356,8 +356,8 @@ troll keeper~
 &nor proof of apprehension or destruction of a criminal in their realm be&n
 &npresented to him this &+YKeeper&n is also in charge of &+grewards&n.&N
 ~
-67110926 0 0 33554744 30 0 0 -900 S
-PT 0 16384 -1
+67110926 0 0 0 33554744 30 0 0 -900 S
+PT 0 16384 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -372,8 +372,8 @@ golem obsidian~
 &nterror to the eyes and to the soul.  The horror of a gigantic living mass of&n
 &nrock indeed puts even the bravest man's heart thumping.&N
 ~
-67139626 1 0 33554824 30 0 0 0 S
-G 0 16 -1
+67139626 1 0 0 33554824 30 0 0 0 S
+G 0 16 0 -1
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -388,8 +388,8 @@ hobnobbing duergar dwarf~
 &nwidely as he makes his stories unfold.  Those flailing arms appear to be&n
 &nupseting most everybody he tries to impress.&n
 ~
-14344 1 0 33554728 30 0 0 -600 S
-PD 0 2048 -1
+14344 1 0 0 33554728 30 0 0 -600 S
+PD 0 2048 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -404,8 +404,8 @@ gladiator dwarven dwarf fighter~
 &nleader he failed, cross his furrowed brow.  Knowing full well however that he&n
 &nis unable to complete the war against &+rT&+gor&+rg&n he fights now for his life. &n
 ~
-10248 1 0 33554688 30 0 0 500 S
-PM 0 1 -1
+10248 1 0 0 33554688 30 0 0 500 S
+PM 0 1 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -421,8 +421,8 @@ champion minotaur mino champ~
 &nto the crowd.  Small curls of smoke snake from his ringed nose in sadistic&n
 &nanticipation of more &+Ldeath&n. &n
 ~
-1073772572 1 0 302514488 30 0 0 0 S
-G 0 16384 -1
+1073772572 1 0 0 302514488 30 0 0 0 S
+G 0 16384 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -437,8 +437,8 @@ kobold gladiator~
 &nand mild entertainment at that.  Nothing however will take away his will to&n
 &nlive.&n
 ~
-67110990 1 0 33554696 30 0 0 0 S
-HO 0 1 -1
+67110990 1 0 0 33554696 30 0 0 0 S
+HO 0 1 0 -1
 40 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -454,8 +454,8 @@ elf gladiator~
 &Nfury hoping to destroy her opponents.  Maybe, should she win, would she might&N
 &Nbe able to get close enough to destroy one of the &+WCouncilors&n.   &n
 ~
-67119178 1 0 40 30 0 0 500 S
-PE 0 512 -1
+67119178 1 0 0 40 30 0 0 500 S
+PE 0 512 0 -1
 52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -474,8 +474,8 @@ the reward for the &+ccha&+gmp&+cion&n.  Those who win in the Colloseum are to b
 rewarded for their valor.  Only by bringing her this symbol of that victory is
 anybody recognized as the true &+rCham&+Lpion&N, and given their reward&N
 ~
-67137610 0 0 33554892 30 0 0 -900 S
-PL 0 2048 -1
+67137610 0 0 0 33554892 30 0 0 -900 S
+PL 0 2048 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 6 6 2
@@ -489,8 +489,8 @@ lion enraged~
 &namongst the gladiator's the &+Ylion's&n &+rbloody&n maw drips already from his first&n
 &nkill of the day.  He looks around now for his next.&N
 ~
-30920 1 0 33554440 18 0 0 0 S
-A 0 1 4
+30920 1 0 0 33554440 18 0 0 0 S
+A 0 1 0 4
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -507,8 +507,8 @@ limestone lime stone golem~
 &nwas made to move through these halls as if a living sculpture, but another&n
 &npiece of artwork for the council's fancy.&N
 ~
-67123210 1 0 570425400 30 0 0 -900 S
-G 0 64 -1
+67123210 1 0 0 570425400 30 0 0 -900 S
+G 0 64 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -524,8 +524,8 @@ zojt councilor drow~
 &nkind of another.  Constantly he is on a witch hunt to destroy any of those not&n
 &nwithin his rules.&N
 ~
-1140881484 0 0 302514440 30 0 0 -900 S
-PL 0 8192 -1
+1140881484 0 0 0 302514440 30 0 0 -900 S
+PL 0 8192 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -542,8 +542,8 @@ fomorian giant guard~
 &nare rumored to, out of frustration, simply grab their enemies and rip them in&n
 &ntwo by hand. &n
 ~
-100663306 0 0 33554712 30 0 0 -400 S
-G 0 1 -1
+100663306 0 0 0 33554712 30 0 0 -400 S
+G 0 1 0 -1
 54 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -560,8 +560,8 @@ zarina councilor~
 &nwith the leaders of rivals.  Her style of politics as well is known as the&n
 &n"stomp on everybody's feet and carry a claymore" method.&N
 ~
-67139656 0 0 100663626 31 0 0 -900 S
-PL 0 512 -1
+67139656 0 0 0 100663626 31 0 0 -900 S
+PL 0 512 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -576,8 +576,8 @@ raging illithid~
 &nlast moments of life he is trying to reap what joy he can from the &+Ld&+reat&+Lh&n
 &nhe may still deal.&n
 ~
-10316 1 0 33554728 30 0 0 -900 S
-MF 0 4 -1
+10316 1 0 0 33554728 30 0 0 -900 S
+MF 0 4 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -593,8 +593,8 @@ hob hobgoblin goblin jewel jeweler~
 &nnew ideas and materials.  Maybe a new &+Lmat&+rer&+Lial&N would please her greatly and he&n
 &ncould win her complete favor once more. &n
 ~
-2062 0 0 33554696 30 0 0 -900 S
-HG 0 2048 3
+2062 0 0 0 33554696 30 0 0 -900 S
+HG 0 2048 0 3
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -610,8 +610,8 @@ zuzon councilor drow~
 &nlook upon his face.  It would make anybody wonder whether &+mZuzon&n has a related&n
 &nproblem.&n
 ~
-67139656 0 0 33554792 30 0 0 -900 S
-PL 0 4 -1
+67139656 0 0 0 33554792 30 0 0 -900 S
+PL 0 4 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -626,8 +626,8 @@ formorian commander giant~
 &nhis bretheren, this giant's strength also makes him a terror.  He smiles and&n
 &noccasionally wipes a stray &+Ydwarf&n &+rear&n from his forked beard. &n
 ~
-1140865118 1 0 301990168 30 0 0 -900 S
-G 0 16384 -1
+1140865118 1 0 0 301990168 30 0 0 -900 S
+G 0 16384 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -645,8 +645,8 @@ fomorian giant guard elite~
 &nare rumored to, out of frustration, simply grab their enemies and rip them in&n
 &ntwo by hand. &n
 ~
-67110990 1 0 33554744 30 0 0 -400 S
-G 0 1 -1
+67110990 1 0 0 33554744 30 0 0 -400 S
+G 0 1 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -664,8 +664,8 @@ fomorian giant guard~
 &nare rumored to, out of frustration, simply grab their enemies and rip them in&n
 &ntwo by hand.&n
 ~
-67110988 1 0 33554712 30 0 0 -400 S
-G 0 1 -1
+67110988 1 0 0 33554712 30 0 0 -400 S
+G 0 1 0 -1
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -682,8 +682,8 @@ tagnor giant golem~
 &nloyal to its master, &+rT&+gor&+rg&n can trust it.  The massive golem is uninfluencable,&n
 &nimplacable, and beyond brutal.&n
 ~
-100694090 1 0 301990264 2078 0 0 -900 S
-G 0 1 -1
+100694090 1 0 0 301990264 2078 0 0 -900 S
+G 0 1 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -699,8 +699,8 @@ councilor zravi drow~
 &nrealm he moves and works with all the ability he can muster, for should he&n
 &nsuceed, their realm is unconquerable. &n
 ~
-67139592 1 0 33554744 30 0 0 -900 S
-PL 0 32 -1
+67139592 1 0 0 33554744 30 0 0 -900 S
+PL 0 32 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -716,8 +716,8 @@ councelor zorn drow~
 &nquicker nor more talented.  An anger &+Yb&+yu&+rr&+yn&+Ys&n within him which is unmatched&n
 &nin the hearts of some of the most hearty of legends. &n
 ~
-67139594 1 0 33554712 30 0 0 -900 S
-PL 0 16 -1
+67139594 1 0 0 33554712 30 0 0 -900 S
+PL 0 16 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -730,8 +730,8 @@ goblin gladiator~
 &nis reduced to this.  Now rather than leading his people and growing old with a&n
 &nfew wives, he must fight to live.  He wishes to vent his frustration now!  &n
 ~
-2120 1 0 33554696 30 0 0 -900 S
-HG 0 32 -1
+2120 1 0 0 33554696 30 0 0 -900 S
+HG 0 32 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -745,8 +745,8 @@ wemic gladiator~
 &nfiercly.  All his children are dead.  Now he fights but for a way to release&n
 &nhis pain.&n
 ~
-92 1 0 33554712 30 0 0 0 S
-PH 0 16384 2
+92 1 0 0 33554712 30 0 0 0 S
+PH 0 16384 0 2
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -759,8 +759,8 @@ half orc gladiator half-orc~
 &nIn great numbers they are sold to the colosseum for gladiator fodder by their&n
 &nparents.  The creature now suffers for its forebears shame. &n
 ~
-10316 1 0 33554696 30 0 0 -950 S
-H2 0 16 -1
+10316 1 0 0 33554696 30 0 0 -950 S
+H2 0 16 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -773,8 +773,8 @@ ravenous wolf~
 &nwell for the past few days he has been starved and beaten.  Large clumps of fur&n
 &nfall from its coat as it snarls viciously.  It wants flesh and &+rblood&n.
 ~
-1073741896 1 0 33554696 30 0 0 0 S
-AC 0 1 -1
+1073741896 1 0 0 33554696 30 0 0 0 S
+AC 0 1 0 -1
 43 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -792,8 +792,8 @@ llznixor illithid legend~
 &nintent is to destroy everyone and win the opportunity to attempt to feed on the&n
 &+WCouncilor's&n brain.&n
 ~
-67123272 1 0 33554712 30 0 0 0 S
-MF 0 4 -1
+67123272 1 0 0 33554712 30 0 0 0 S
+MF 0 4 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -812,8 +812,8 @@ elirandel elf~
 &nallowing for a lucky thump on the back of her head.  Now she throws spells&n
 &ndefying death yet.&n
 ~
-14408 1 0 33554712 30 0 0 0 S
-PE 0 512 -1
+14408 1 0 0 33554712 30 0 0 0 S
+PE 0 512 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -830,8 +830,8 @@ dorn barbarian~
 &nattempted to hire &+bDorn&n to train and lead their armies.  His blatant refusal&n
 &nresulted in his present situation.&N
 ~
-14344 1 0 34603288 30 0 0 200 S
-PB 0 16384 -1
+14344 1 0 0 34603288 30 0 0 200 S
+PB 0 16384 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -849,8 +849,8 @@ tibor dwarf~
 &nhouse."  Unfortunately somehow &+YTibor&n found a nice dark place to sleep in&n
 &nwhile a bit drunk and it turned out to be the gates of this very city. &n
 ~
-14344 1 0 33554712 30 0 0 900 S
-PM 0 32 -1
+14344 1 0 0 33554712 30 0 0 900 S
+PM 0 32 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -865,8 +865,8 @@ jonxin gnome~
 &ndiscovered the deception the king sent him to the front lines where he was&n
 &ncaptured attempting to defend the lines alone, when the rest had fled. &n
 ~
-14408 1 0 33554712 30 0 0 600 S
-PG 0 2048 -1
+14408 1 0 0 33554712 30 0 0 600 S
+PG 0 2048 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -880,8 +880,8 @@ one-armed one armed thri-kreen thri~
 &nit to stay.  In this final cruelty he allowed him the futile hope that possibly&n
 &nhe could live long enough to fight again and again in this arena.&N
 ~
-2056 1 0 33554712 30 0 0 0 S
-TK 0 1 -1
+2056 1 0 0 33554712 30 0 0 0 S
+TK 0 1 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -899,8 +899,8 @@ smurp halfling~
 &nthe hands of &+rT&+gor&+rg&n.  Many of that battlalion payed for &+ySmurp's&n capture&n
 &nwith their lives.&n
 ~
-14360 1 0 303563032 30 0 0 0 S
-PF 0 65536 -1
+14360 1 0 0 303563032 30 0 0 0 S
+PF 0 65536 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -915,8 +915,8 @@ kulnon centaur~
 &nmassive warrior to the ground.  Forever he shall be sung for his bravery and&n
 &nbrave deads which saved the lives of hundreds of retreating peasants.&n
 ~
-14376 1 0 33554712 30 0 0 600 S
-CT 0 1 -1
+14376 1 0 0 33554712 30 0 0 600 S
+CT 0 1 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -931,8 +931,8 @@ guard ogre city~
 &NThey are sent about the city to fortify and make a retreating action within the&N
 &Ncity until the most defensive post of the compound can be reached. &N
 ~
-1140861002 0 0 302514456 30 0 0 0 S
-PO 0 1 -1
+1140861002 0 0 0 302514456 30 0 0 0 S
+PO 0 1 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -949,8 +949,8 @@ lanom human~
 &nto lose their patience.  In single combat this paladin fights valiantly but&n
 &nagainst the &+WCouncilor&n and hundreds of &+ghobgoblins&n he did not have a chance.&n
 ~
-14408 1 0 33562904 30 0 0 1000 S
-PH 0 8 -1
+14408 1 0 0 33562904 30 0 0 1000 S
+PH 0 8 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -967,8 +967,8 @@ ogre guard elite~
 &Naround, it would take nearly double the &+Ydwarf&n number from the last attack&N
 &Nto break into the compound. &n
 ~
-67119180 1 0 33554712 30 0 0 -900 S
-PO 0 1 -1
+67119180 1 0 0 33554712 30 0 0 -900 S
+PO 0 1 0 -1
 53 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -983,8 +983,8 @@ guardian granite golem~
 &noutsider, that does not live within who is allowed should he ever want to come,&n
 &nallowed within would be &+gTagnor&n.    &n
 ~
-1140865098 1 0 33554840 30 0 0 -900 S
-G 0 1 -1
+1140865098 1 0 0 33554840 30 0 0 -900 S
+G 0 1 0 -1
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -999,8 +999,8 @@ musician bard music rakshasa~
 &nHis smiling &+Lrat&n-like face sniffles and wiggles its nose with every bit of&n
 &nbanter.&n
 ~
-30750 1 0 270008376 2078 0 0 -600 S
-RA 0 32768 5
+30750 1 0 0 270008376 2078 0 0 -600 S
+RA 0 32768 0 5
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1017,8 +1017,8 @@ timoro drow mastermind master mind~
 &nto that of a controllable god.  Having direct power over a god would make them&n
 &nunstoppable.&n
 ~
-42367054 1 0 369099260 2079 0 0 -900 S
-PL 0 512 5
+42367054 1 0 0 369099260 2079 0 0 -900 S
+PL 0 512 0 5
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1034,8 +1034,8 @@ gilaxi githyanki mind controller gith~
 &njob makes this &+Ggith&+Wyanki&n a person of privelage.  He gets all his needs&n
 &ntaken care of and is satisfied with his role in this plot.&n
 ~
-30798 1 0 301990296 30 1048576 0 -800 S
-GI 0 4 5
+30798 1 0 0 301990296 30 1048576 0 -800 S
+GI 0 4 0 5
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1052,8 +1052,8 @@ torg giant~
 &nbut it takes nothing away from his power.  Were it not for giant's legendary&n
 &nlack of intellect, &+rT&+gor&+rg&n would still be making &+rTi&+mmo&+rro&n grovel at his feet.&n
 ~
-125859914 1 0 838861244 34846 67371008 1536 -1000 S
-G 0 64 7
+125859914 1 0 0 838861244 34846 67371008 1536 -1000 S
+G 0 64 0 7
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1069,8 +1069,8 @@ lore keeper ogre shaman~
 &ngiving large rewards for these &+yartifacts&n because power itself is beyond simple&n
 &nobjects.&n
 ~
-14346 0 0 33554696 30 64 0 -900 S
-PO 0 256 -1
+14346 0 0 0 33554696 30 64 0 -900 S
+PO 0 256 0 -1
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1085,8 +1085,8 @@ pacing preoccupied preocuppied woman drow shaman~
 &nhas her in this state.  Indeed she looks as though, she bears an interesting&n
 &nstory for anybody who would listen to a tale of &+Rlove&n and woe.&n
 ~
-12424 0 0 33554696 30 0 0 -900 S
-PL 0 256 -1
+12424 0 0 0 33554696 30 0 0 -900 S
+PL 0 256 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1101,8 +1101,8 @@ large hobgoblin goblin hob soldier~
 &NWhile he enjoys the fighting this bit of relaxation is a welcome change for&N
 &Nthis soldier.&n
 ~
-2122 0 0 33554728 30 0 0 -900 S
-HG 0 1 4
+2122 0 0 0 33554728 30 0 0 -900 S
+HG 0 1 0 4
 33 0 0 1d1+1 1d1+1
 0.0.0.0 0
 4 4 1
@@ -1117,8 +1117,8 @@ orc miner~
 &Nof breaking through to the street he hopes to find an escape cave.  Fortunately&N
 &Nhe was able to conceal that blunder.&N
 ~
-1073743886 0 0 33554688 30 0 0 0 S
-HO 0 16384 -1
+1073743886 0 0 0 33554688 30 0 0 0 S
+HO 0 16384 0 -1
 27 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1133,8 +1133,8 @@ gornogo butcher~
 &nbeen working with these &+Rmeats&n and he understands completely how to handle them&n
 &nall.&n
 ~
-2058 0 0 33554696 30 0 0 -800 S
-HG 0 1 4
+2058 0 0 0 33554696 30 0 0 -800 S
+HG 0 1 0 4
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1149,8 +1149,8 @@ ogre soldier~
 &nallowed to hit in the second wave after the &+Lmercenaries&n have softened the enemy&n
 &nsome for the rest of the host.&n
 ~
-2122 0 0 33554728 4126 0 0 -900 S
-PO 0 1 -1
+2122 0 0 0 33554728 4126 0 0 -900 S
+PO 0 1 0 -1
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1165,8 +1165,8 @@ veteran goblin hob hobgoblin soldier~
 &nsmoothness, rather like that of petrified wood.  Fingers covered in &+Lblack&n bits&n
 &nof metal he has been intently sharpening his weapons.&n
 ~
-2122 0 0 33554728 30 0 0 -900 S
-HG 0 1 4
+2122 0 0 0 33554728 30 0 0 -900 S
+HG 0 1 0 4
 37 0 0 1d1+1 1d1+1
 0.0.0.0 0
 5 5 1
@@ -1182,8 +1182,8 @@ mercenary orc soldier~
 &ndanger than his own troops.  Every battle will find these &+Lorcs&n in the &+Rhottest&n
 &nspot of the battle.&n
 ~
-2122 0 0 33554728 30 0 0 -900 S
-HO 0 16384 -1
+2122 0 0 0 33554728 30 0 0 -900 S
+HO 0 16384 0 -1
 39 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1198,8 +1198,8 @@ grumbling goblin hob hobgoblin woman~
 &nrelatively powerless except to her offspring.  Her fleshy &+ggreen&n skin tightens&n
 &naround her &+rbeady&n eyes at the sight of another child.&n
 ~
-2076 0 0 33554696 30 0 0 -900 S
-HG 0 65536 3
+2076 0 0 0 33554696 30 0 0 -900 S
+HG 0 65536 0 3
 26 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1213,8 +1213,8 @@ relief rakshasa commander~
 &Nafter a long day of work.  However, whether on duty or off, this commander&N
 &Nis far more aware than his drooping eyes suggest.&n
 ~
-67110922 0 0 302055720 30 0 0 -1000 S
-RA 0 16 -1
+67110922 0 0 0 302055720 30 0 0 -1000 S
+RA 0 16 0 -1
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1229,8 +1229,8 @@ dranar dwarf~
 &nher neck where something appears to be missing.  Her hard eyes are brimming&n
 &nwith &+Wtears&n as she tries to be strong.&n
 ~
-67139594 0 0 34079016 30 0 0 1000 S
-PM 0 32 -1
+67139594 0 0 0 34079016 30 0 0 1000 S
+PM 0 32 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1246,8 +1246,8 @@ tibornor dwarven dwarf leader~
 &nthe &+Ydwarven&n troop he moves through these caverns trying to find the leader&n
 &+rT&+gor&+rg&n so that they may destroy him and end this empire.&n
 ~
-1140852746 0 0 34079144 32798 0 0 1000 S
-PM 0 3 5
+1140852746 0 0 0 34079144 32798 0 0 1000 S
+PM 0 3 0 5
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1262,8 +1262,8 @@ soldier war hardened dwarf dwarven battle rager battlerager~
 &nupon this warrior's belt possibly with the intent that should they win, he be&n
 &nable to take a toe or a finger of the giant for a trophy.&n
 ~
-67110986 0 0 34079000 30 0 0 1000 S
-PM 0 1 4
+67110986 0 0 0 34079000 30 0 0 1000 S
+PM 0 1 0 4
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1278,8 +1278,8 @@ tough dwarven scout soldier~
 &nupon this warrior's belt possibly with the intent that should they win, he be&n
 &nable to take a toe or a finger of the giant for a trophy.&n
 ~
-67110986 0 0 34079000 30 0 0 1000 S
-PM 0 8192 -1
+67110986 0 0 0 34079000 30 0 0 1000 S
+PM 0 8192 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1294,8 +1294,8 @@ ogre guard veteran~
 &Ngreat numbers.  Frustrated with his lot in life he looks about for a hobgoblin&N
 &Nchild to punt across the room.&N
 ~
-1140852808 0 0 33554696 14 0 0 0 S
-PO 0 1 -1
+1140852808 0 0 0 33554696 14 0 0 0 S
+PO 0 1 0 -1
 38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1309,8 +1309,8 @@ ravenous warg~
 &nAfter the torture this wolflike animal received he is looking to inflict some&n
 &nof that same pain.&N
 ~
-14408 1 0 33554440 2 0 0 0 S
-A 0 1 4
+14408 1 0 0 33554440 2 0 0 0 S
+A 0 1 0 4
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1324,8 +1324,8 @@ common worker duergar~
 &nof the furnaces and ore.  His &+Wapron&n is stained with iron, charcoal, copper&n
 &nand bronze.  &n
 ~
-10 0 0 0 30 0 0 -400 S
-PD 0 16384 -1
+10 0 0 0 0 30 0 0 -400 S
+PD 0 16384 0 -1
 29 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1341,8 +1341,8 @@ hobnobbing hob rakshasa rak~
 &na thinly disguised method of making himself out to be braver than he actually&n
 &nis.&n
 ~
-14344 1 0 33554728 30 0 0 -600 S
-RA 0 64 -1
+14344 1 0 0 33554728 30 0 0 -600 S
+RA 0 64 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1358,8 +1358,8 @@ hobnobbing hob goblin hobgoblin~
 &nempire.  This powerful &+ghobgoblin&n can barely keep his fingers from straying&n
 &ninto his nostrils.&n
 ~
-14344 1 0 33554456 30 0 0 -600 S
-HG 0 16384 4
+14344 1 0 0 33554456 30 0 0 -600 S
+HG 0 16384 0 4
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1374,8 +1374,8 @@ baby dragon confused~
 &nfrom death and destruction.  It is almost pitiable.  As it opens its maw you&n
 &nreconsider that evaluation.&n
 ~
-161897 1 0 56 8222 0 0 0 S
-D 0 0 -1
+161897 1 0 0 56 8222 0 0 0 S
+D 0 0 0 -1
 44 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1391,8 +1391,8 @@ hill giant unfortunate~
 &nSomehow, the captors found a way to combine the best of both worlds in this&n
 &nfashion.&n
 ~
-8 1 0 33554440 30 0 0 -600 S
-PO 0 2 -1
+8 1 0 0 33554440 30 0 0 -600 S
+PO 0 2 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1408,8 +1408,8 @@ flind sorcerer guard~
 &Nsystem this flind has been assigned the important and scary task of guarding&N
 &Nand assisting the &+YTem&+rp&+Ylar&n.&N
 ~
-67123274 1 0 33554698 30 0 0 -700 S
-HO 0 512 -1
+67123274 1 0 0 33554698 30 0 0 -700 S
+HO 0 512 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1425,8 +1425,8 @@ duergar guard~
 &Nas protection for the &+rEnforcer&n but also therefore become weapons for her to&N
 &Nuse as she sees fit.&N
 ~
-67123274 1 0 33554472 30 0 0 -1000 S
-PD 0 32 -1
+67123274 1 0 0 33554472 30 0 0 -1000 S
+PD 0 32 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1441,8 +1441,8 @@ rat ratkin gladiator~
 &na certain air of dignity, even being a prisoner and sentenced to die for the&n
 &nentertainment of others.&n
 ~
-2120 1 0 33554728 30 0 0 -900 S
-A 0 256 2
+2120 1 0 0 33554728 30 0 0 -900 S
+A 0 256 0 2
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1458,8 +1458,8 @@ hobgoblin guard goblin~
 &Ncargo of merchants, and tax them for Torg.  Should any real trouble happen,&N
 &Nthe cityguards would appear to assist in the matter.&n
 ~
-67110986 0 0 33554688 30 0 0 -800 S
-HG 0 1 3
+67110986 0 0 0 33554688 30 0 0 -800 S
+HG 0 1 0 3
 23 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1475,8 +1475,8 @@ ogre guard lieutenant~
 &+Wsteel&n nor any outward expressions of menace.  Standing idly it is apparent&N
 &Nthat he wishes to cause serious bodily harm to others.&N
 ~
-67119182 1 0 33554696 30 0 0 -900 S
-PO 0 1 -1
+67119182 1 0 0 33554696 30 0 0 -900 S
+PO 0 1 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1491,8 +1491,8 @@ gnome ears missing earless~
 &nused for fun and entertainment, to fight with.  Using them at every step he&n
 &ndoesn't try anymore to tell friend from foe.&n
 ~
-14344 1 0 33554720 30 0 0 600 S
-PG 0 2048 -1
+14344 1 0 0 33554720 30 0 0 600 S
+PG 0 2048 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1508,8 +1508,8 @@ flind hobnobbing sorcerer~
 &nWith some more witicisms however and a few more tricks who knows how far this&n
 &nflind might go.&n
 ~
-14344 1 0 33554456 30 0 0 -600 S
-HO 0 512 -1
+14344 1 0 0 33554456 30 0 0 -600 S
+HO 0 512 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1525,8 +1525,8 @@ common worker goblin~
 &+ggoblin&n is odd.  However considering the fact that he could be a slave&n
 &nexplains his "enthusiasm" to work.  &n
 ~
-10 0 0 0 30 0 0 0 S
-PH 0 0 -1
+10 0 0 0 0 30 0 0 0 S
+PH 0 0 0 -1
 30 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1540,8 +1540,8 @@ tired hobgoblin merchant~
 &nwith the armies.  All of their needs are taken care of, and as well the loot&n
 &nthat they get from raids keeps their supply on trinkets high.&n
 ~
-1073743880 0 0 33554688 30 0 0 0 S
-HG 0 0 -1
+1073743880 0 0 0 33554688 30 0 0 0 S
+HG 0 0 0 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1560,8 +1560,8 @@ dwarven equipment master dwarf~
 &nIf only there were a &+Lblock&n of rock for him to work on, and &+Wchisels&n to work&n
 &nwith.&n
 ~
-67121162 0 0 33554744 30 0 0 800 S
-PM 0 16384 -1
+67121162 0 0 0 33554744 30 0 0 800 S
+PM 0 16384 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1575,8 +1575,8 @@ common mage soldier warrior~
 &nupon him.  He wears a tired expression and appears to still be covered in &+rgore&n
 &nfrom the latest battle.&n
 ~
-2248 0 0 33554696 30 0 0 -500 S
-HO 0 512 -1
+2248 0 0 0 33554696 30 0 0 -500 S
+HO 0 512 0 -1
 35 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1590,8 +1590,8 @@ ogre soldier grumbling grumble~
 &nDuring the first wave the defense appears to have been staunch enough to do&n
 &nsignificant damage to some of the soldier.&n
 ~
-2122 0 0 33554728 4126 0 0 -900 S
-PO 0 1 -1
+2122 0 0 0 33554728 4126 0 0 -900 S
+PO 0 1 0 -1
 36 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1606,8 +1606,8 @@ hobgoblin goblin soldier large nervous~
 &Nmercenaries to hit the very front ranks of the enemy.  His discomfiture is&N
 &Nunderstandable.&n
 ~
-2122 0 0 33554720 30 0 0 -900 S
-HG 0 1 4
+2122 0 0 0 33554720 30 0 0 -900 S
+HG 0 1 0 4
 34 0 0 1d1+1 1d1+1
 0.0.0.0 0
 4 4 1
@@ -1623,8 +1623,8 @@ mercenary orc soldier angry~
 &ndanger than his own troops.  Every battle will find these &+Lorcs&n on the road&n
 &nto a quicker meeting with the everlong dirt nap.&n
 ~
-2122 0 0 33554728 30 0 0 -900 S
-HO 0 16384 -1
+2122 0 0 0 33554728 30 0 0 -900 S
+HO 0 16384 0 -1
 40 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1639,8 +1639,8 @@ veteran hobgoblin soldier alert~
 &nsmoothness, rather like that of petrified wood.  Alert he is here awaiting for&n
 &nhis next orders into the field of battle.&n
 ~
-2122 0 0 33554728 30 0 0 -900 S
-HG 0 1 4
+2122 0 0 0 33554728 30 0 0 -900 S
+HG 0 1 0 4
 38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 5 5 1
@@ -1656,8 +1656,8 @@ tranug treacherous yuan-ti yuan~
 &ninto places where many could not go.  Having found an item the Lore Keeper&n
 &nwould want, &+gTr&+yan&+gug&n is here to deliver it.&n
 ~
-1073743948 1 0 67142072 30 0 0 -900 S
-PH 0 2 4
+1073743948 1 0 0 67142072 30 0 0 -900 S
+PH 0 2 0 4
 57 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1672,8 +1672,8 @@ drunk drunken hobgoblin goblin guard~
 &nBeing one of the most low ranking in the prison itself, most of the other&n
 &nguards simply laugh at his antics, or kick him.&n
 ~
-8 0 0 0 0 0 0 -800 S
-HG 0 0 3
+8 0 0 0 0 0 0 0 -800 S
+HG 0 0 0 3
 38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1688,8 +1688,8 @@ starved starving goblin gladiator~
 &nstarved till it once again has freedom for just moments long enough to provide&n
 &nthe elite with some entertainment.&n
 ~
-270346 0 0 34079016 30 0 0 -900 S
-HG 0 1 -1
+270346 0 0 0 34079016 30 0 0 -900 S
+HG 0 1 0 -1
 42 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1704,8 +1704,8 @@ starved starving goblin gladiator~
 &nstarved till it once again has freedom for just moments long enough to provide&n
 &nthe elite with some entertainment.&n
 ~
-270346 0 0 34079016 30 0 0 -900 S
-HG 0 1 -1
+270346 0 0 0 34079016 30 0 0 -900 S
+HG 0 1 0 -1
 43 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1719,8 +1719,8 @@ starved starving kobold gladiator~
 &nhave started to make him an appropriate gladiator.  His once cowardly ways&n
 &nhave turned into a vicious lust for revenge.&n
 ~
-270346 0 0 34079016 30 0 0 -900 S
-PH 0 1 -1
+270346 0 0 0 34079016 30 0 0 -900 S
+PH 0 1 0 -1
 44 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1734,8 +1734,8 @@ starved starving kobold gladiator~
 &nhave started to make him an appropriate gladiator.  His once cowardly ways&n
 &nhave turned into a vicious lust for revenge.&n
 ~
-270346 0 0 34079016 30 0 0 -900 S
-PH 0 1 -1
+270346 0 0 0 34079016 30 0 0 -900 S
+PH 0 1 0 -1
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1749,8 +1749,8 @@ starved starving tortured dwarf dwarven gladiator~
 &nalone, now he is nearly ready to be sent to his demise.  The gleam in his eyes&n
 &nthough says that he will not pass easily.&n
 ~
-270346 0 0 34079016 30 0 0 800 S
-PM 0 1 -1
+270346 0 0 0 34079016 30 0 0 800 S
+PM 0 1 0 -1
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1764,8 +1764,8 @@ starved starving tortured dwarf dwarven gladiator~
 &nalone, now he is nearly ready to be sent to his demise.  The gleam in his eyes&n
 &nthough says that he will not pass easily.&n
 ~
-270346 0 0 34079016 30 0 0 800 S
-PM 0 1 -1
+270346 0 0 0 34079016 30 0 0 800 S
+PM 0 1 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1779,8 +1779,8 @@ starved starving tortured gnome gladiator~
 &Nsimple survival.  That in itself will be fleeting as well however, because&N
 &Nhis survival will be dependent on his performance in the Colloseum.&N
 ~
-270346 0 0 34079016 30 0 0 800 S
-PG 0 1 -1
+270346 0 0 0 34079016 30 0 0 800 S
+PG 0 1 0 -1
 47 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1794,8 +1794,8 @@ starved starving tortured gnome gladiator~
 &Nsimple survival.  That in itself will be fleeting as well however, because&N
 &Nhis survival will be dependent on his performance in the Colloseum.&N
 ~
-270346 0 0 34079016 30 0 0 800 S
-PG 0 1 -1
+270346 0 0 0 34079016 30 0 0 800 S
+PG 0 1 0 -1
 48 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1809,8 +1809,8 @@ chained warg chain tortured~
 &nnormal warg.  Its hatred for all things humanoid is now so large, that it&n
 &ncan not be undone.&n
 ~
-270346 1 0 34079016 30 0 0 -900 S
-A 0 1 4
+270346 1 0 0 34079016 30 0 0 -900 S
+A 0 1 0 4
 50 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1824,8 +1824,8 @@ chained chain tortured lion~
 &ntufts of hair from the struggle it is putting up, and the once smooth coat&n
 &nnow is patchy.&n
 ~
-270346 0 0 34079016 30 0 0 -900 S
-A 0 1 4
+270346 0 0 0 34079016 30 0 0 -900 S
+A 0 1 0 4
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1841,8 +1841,8 @@ mean ogre prison guard~
 &non any of the hobgoblins who dare do anything to annoy it.  It need not be&n
 &nsaid that only those who truly need to pass by, do so.&n
 ~
-67119178 1 0 33554696 30 0 0 -900 S
-PO 0 1 -1
+67119178 1 0 0 33554696 30 0 0 -900 S
+PO 0 1 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1856,8 +1856,8 @@ hobgoblin hob goblin prison guard~
 &Nof fights.  Looking at those that pass by, his glare pierces to the very heart&N
 &Nevery movement in the cavern.&N
 ~
-1140852812 0 0 33554720 30 0 0 -900 S
-HG 0 1 3
+1140852812 0 0 0 33554720 30 0 0 -900 S
+HG 0 1 0 3
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1873,8 +1873,8 @@ fomorian giant guard prison~
 &nby all the gladiators, they scuttle away from this behemoth as it walks about&n
 &nthe staging area.&n
 ~
-1140852808 1 0 33554840 30 0 0 -400 S
-G 0 1 -1
+1140852808 1 0 0 33554840 30 0 0 -400 S
+G 0 1 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1889,8 +1889,8 @@ githyanki prison guard~
 &nfunctions which no others are capable of.  Most likely, the ogres would have&n
 &nvery much enjoyed ripping them apart rather than working with them.&n
 ~
-1073756168 1 0 301990204 30 0 0 -950 S
-GI 0 4 -1
+1073756168 1 0 0 301990204 30 0 0 -950 S
+GI 0 4 0 -1
 55 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1903,8 +1903,8 @@ half orc gladiator half-orc~
 &nIn great numbers they are sold to the Colloseum for gladiator fodder by their&n
 &nparents.  The creature now suffers for its forebears shame. &n
 ~
-10316 1 0 33554696 30 0 0 -950 S
-H2 0 16 -1
+10316 1 0 0 33554696 30 0 0 -950 S
+H2 0 16 0 -1
 46 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1918,8 +1918,8 @@ gladiator dwarven dwarf fighter~
 &+rbeaten&n out of him by his cruel captors. Nothing is left for him to do but&n
 &nprepare for death. &n
 ~
-10248 1 0 33554688 30 0 0 500 S
-PM 0 1 -1
+10248 1 0 0 33554688 30 0 0 500 S
+PM 0 1 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -1935,8 +1935,8 @@ elf gladiator~
 &Nfury hoping to destroy her opponents.  Maybe, should she win, would she might&N
 &Nbe able to get close enough to destroy one of the &+WCouncilors&n.   &n
 ~
-67119178 1 0 40 30 0 0 500 S
-PE 0 512 -1
+67119178 1 0 0 40 30 0 0 500 S
+PE 0 512 0 -1
 52 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1951,8 +1951,8 @@ rough guard ogre vicious~
 &njoy in their punishment.  His massive arms, and rough demeanor make him&n
 &nperfect for this type of employment.&n
 ~
-67123274 1 0 33554712 30 0 0 -900 S
-PO 0 16384 -1
+67123274 1 0 0 33554712 30 0 0 -900 S
+PO 0 16384 0 -1
 54 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -1967,8 +1967,8 @@ gate master drow~
 &nseem to pierce each of the gladiators deeply enough for him to evaluate their&n
 &nentire worth in an instant.&n
 ~
-33699912 1 0 503316744 30 0 0 -950 S
-PL 0 512 4
+33699912 1 0 0 503316744 30 0 0 -950 S
+PL 0 512 0 4
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -1984,8 +1984,8 @@ iron bloodhound blood member bloodhounds~
 &+Lrough as they come, these warriors are known for their dangerous effectiveness&n
 &+Las a group.&n
 ~
-67139594 1 0 301990204 30 0 0 0 S
-PT 0 1 5
+67139594 1 0 0 301990204 30 0 0 0 S
+PT 0 1 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2001,8 +2001,8 @@ captain iron blood bloodhound bloodhounds~
 &+LIf that does happen however, the member was not good enough to be part of the&n
 &+rbloodhounds&+L in the first place.&n
 ~
-67139594 1 0 302055740 31 0 0 0 S
-PT 0 256 5
+67139594 1 0 0 302055740 31 0 0 0 S
+PT 0 256 0 5
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2021,8 +2021,8 @@ dwarven equipment master dwarf~
 &nIf only there were a &+Lblock&n of rock for him to work on, and &+Wchisels&n to work&n
 &nwith.&n
 ~
-67121162 0 0 33554744 30 0 0 800 S
-PM 0 16384 -1
+67121162 0 0 0 33554744 30 0 0 800 S
+PM 0 16384 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2041,8 +2041,8 @@ dwarven equipment master dwarf~
 &nIf only there were a &+Lblock&n of rock for him to work on, and &+Wchisels&n to work&n
 &nwith.&n
 ~
-67121162 0 0 33554744 30 0 0 800 S
-PM 0 16384 -1
+67121162 0 0 0 33554744 30 0 0 800 S
+PM 0 16384 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -2058,8 +2058,8 @@ lanella drow~
 &N&+Lsomething &N&+Wdoomed&N&+L eventually, and it is only a matter of time before&N
 &N&+Lone &N&+rkills&N&+L the other.  You wonder who will be the &N&+Wsurvivor.&N
 ~
-1082161160 0 0 537395448 268437534 262144 0 -1000 S
-pl 0 1048592 -1
+1082161160 0 0 0 537395448 268437534 262144 0 -1000 S
+pl 0 1048592 0 -1
 60 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
