@@ -2884,8 +2884,8 @@ void kill_gain(P_char ch, P_char victim)
 
   // exp gain drops slower than group size increases 
   // to avoid people being unable to get in groups  -Odorf
- // float exp_divider = ((float)group_size + 2.0) / 3.0; 
-  float exp_divider = 1.0; //Doing away with this as I want groups to be more beneficial. Not concerned with too much exp gain - drannak
+  float exp_divider = ((float)group_size + 2.0) / 3.0; 
+ // float exp_divider = 1.0; //Doing away with this as I want groups to be more beneficial. Not concerned with too much exp gain - drannak
 
   for (gl = ch->group; gl; gl = gl->next)
   {
