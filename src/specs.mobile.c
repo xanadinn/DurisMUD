@@ -11468,6 +11468,12 @@ int world_quest(P_char ch, P_char pl, int cmd, char *arg)
       
       //debug("timediff: %f, hrsdiff: %f, costmod: %f, temp: %d, cost: %s", timediff, timediff / 60 / 60, costmod, temp, coin_stringv(temp));
 
+      if (pl->only.pc->quest_type == FIND_AND_KILL && pl->only.pc->quest_kill_how_many > 0)
+      {
+        send_to_char("You cannot buy off a kill task after starting it...\r\n", pl);
+        return (TRUE);
+      }
+
       sprintf(money_string, "OH NO, you've cost me alot of time and money, but toss me %s and I'll take care of your task!", coin_stringv(temp) );
 
       mobsay(ch, money_string);
@@ -11476,6 +11482,8 @@ int world_quest(P_char ch, P_char pl, int cmd, char *arg)
         send_to_char("You dont have that much money...\r\n", pl);
         return (TRUE);
       }
+
+
 
       SUB_MONEY(pl, temp, 0);
       send_to_char("You hand over the money.\r\n", pl);
