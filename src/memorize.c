@@ -711,8 +711,9 @@ int get_circle_memtime(P_char ch, int circle, bool bStatOnly)
   {
     time = time * get_property("memorize.factor.npc", 1.0);
   }
-  else if(ch->player.m_class & (CLASS_DRUID || CLASS_RANGER))
+  else if(ch->player.m_class && (GET_CLASS(ch, CLASS_DRUID) || GET_CLASS(ch,  CLASS_RANGER)))
   {
+  // send_to_char("you're a druid or ranger\r\n", ch);
     // modify for terrain
     float modifier = druid_memtime_terrain_mod[world[ch->in_room].sector_type];
 
