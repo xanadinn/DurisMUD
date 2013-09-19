@@ -543,7 +543,7 @@ void shopping_buy(char *arg, P_char ch, P_char keeper, int shop_nr)
   sprintf(Gbuf1, shop_index[shop_nr].message_buy, GET_NAME(ch),
           coin_stringv(sale));
   do_tell(keeper, Gbuf1, 0);
-  SET_BIT(temp1->type, ITEM_TREASURE);
+ // SET_BIT(temp1->type, ITEM_TREASURE);
   sprintf(Gbuf1, "You now have %s.\r\n", temp1->short_description);
   send_to_char(Gbuf1, ch);
 /*

@@ -307,6 +307,9 @@ void checkHallOfFame(P_char ch, char killer[1024])
 
 long getLeaderBoardPts(P_char ch)
 {
+ if(!IS_PC(ch))
+ return 0;
+
  update_shipfrags();
  int sf = calculate_shipfrags(ch); 
  long hardcorepts =
