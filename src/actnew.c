@@ -3946,7 +3946,7 @@ if(difference == 0)
   P_obj reward = read_object(selected, VIRTUAL);
   SET_BIT(reward->extra2_flags, ITEM2_CRAFTED);
   SET_BIT(reward->extra_flags, ITEM_NOREPAIR);
-
+  randomizeitem(ch, reward);
   sprintf(keywords, "%s %s", reward->name, GET_NAME(ch));
 
   sprintf(tempdesc, "%s", reward->short_description);
@@ -3954,7 +3954,6 @@ if(difference == 0)
   set_keywords(reward, keywords);
   set_short_description(reward, short_desc);
 
-  randomizeitem(ch, reward);
 
   obj_to_char(reward, ch);
   act

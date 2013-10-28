@@ -7,8 +7,8 @@ shark~
 &+bfor its type. There seem to be several of these beasts waiting down
 &+bhere for someone to come in through the grate.
 ~
-1073743880 1 0 34078744 0 0 0 -1000 S
-F 0 1 4
+1073743880 1 0 0 34078744 0 0 0 -1000 S
+F 0 1 0 4
 33 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -23,8 +23,8 @@ dragon red thundering~
 &+rappearance, and takes up just about the entire cave. Its scales are
 &+rhuge and shiny, and seem to radiate heat.
 ~
-1073874956 1 0 570425560 1 0 0 -1000 S
-D 0 16 -1
+1073874956 1 0 0 570425560 1 0 0 -1000 S
+D 0 16 0 -1
 59 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -40,8 +40,8 @@ ixarvonl illithid~
 &+MHe seems to be conspiring with the evil aligned good races in this
 &+Mregion, planning for an invasion some time in the future.
 ~
-1073743884 1 0 33554472 0 0 0 -1000 S
-MF 0 512 -1
+1073743884 1 0 0 33554472 0 0 0 -1000 S
+MF 0 512 0 -1
 58 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -57,8 +57,8 @@ A hunched man stomps madly.
 intently. He has long black hair, that seems to be frozen together. He
 seems very protective of his books.
 ~
-2058 0 0 0 0 0 0 -1000 S
-PB 0 1 -1
+2058 0 0 0 0 0 0 0 -1000 S
+PB 0 1 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -72,8 +72,8 @@ guest strange~
 &+grelatively discomforted by the fire place, but in all other aspects,
 &+gdoesn't mind the cold.
 ~
-1073743880 64 0 0 0 0 0 -1000 S
-PH 0 1 -1
+1073743880 64 0 0 0 0 0 0 -1000 S
+PH 0 1 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -87,8 +87,8 @@ shady traveller~
 &+mshady  ghetto. He wears a dark cloak about him, and seems to be hiding
 &+msomething.
 ~
-1073743880 64 0 0 0 0 0 -1000 S
-H 0 32 -1
+1073743880 64 0 0 0 0 0 0 -1000 S
+H 0 32 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -101,8 +101,8 @@ human traveller~
 &+Cand all of the dirty foot prints of past travelers here. He huddles in
 &+Cthe corner when he hears any kinda noise. He has scars all over him.
 ~
-1073743880 128 0 0 0 0 0 1000 S
-PH 0 1 -1
+1073743880 128 0 0 0 0 0 0 1000 S
+PH 0 1 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -116,8 +116,8 @@ traveller dark~
 &+LOnly a few facial features can be deteremined, like his small beard, and
 &+Lslinted eyes.
 ~
-1073743882 0 0 0 0 0 0 0 S
-PH 0 1 -1
+1073743882 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -130,8 +130,8 @@ bartender pale~
 &+Whiding from the deadly creatures that might dwell down in this under
 &+Wground fort.
 ~
-67110922 0 0 0 0 0 0 0 S
-PH 0 1 -1
+67110922 0 0 0 0 0 0 0 0 S
+PH 0 1 0 -1
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -143,8 +143,8 @@ hook horror~
 &+L  This hook horror seems unusually hungry, and seems to be waiting for
 &+Lsomeone to talk in, so it may feast, and grow stronger.
 ~
-2056 1 0 0 0 0 0 -1000 S
-A 0 1 -1
+2056 1 0 0 0 0 0 0 -1000 S
+A 0 1 0 -1
 33 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -161,8 +161,8 @@ blacksmith barbarian~
 &+cof furs while not at the fire, and nothing but an apron while working
 &+cat the forge.
 ~
-2058 0 0 0 0 0 0 1000 S
-PB 0 1 -1
+2058 0 0 0 0 0 0 0 1000 S
+PB 0 1 0 -1
 41 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -176,8 +176,8 @@ barbarian fisherman man~
 &+cthe docks fishing. He wears nothign but furs that are covered with
 &+cfish guts.
 ~
-2184 0 0 0 0 0 0 1000 S
-PB 0 1 -1
+2184 0 0 0 0 0 0 0 1000 S
+PB 0 1 0 -1
 26 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -191,8 +191,8 @@ barbarian elder~
 &+care numerous cases that he goes through every minute, and new ones
 &+cthat come in. He has a thick beard, however has just about no hair.
 ~
-1073743882 0 0 0 0 0 0 1000 S
-PB 0 1 -1
+1073743882 0 0 0 0 0 0 0 1000 S
+PB 0 1 0 -1
 45 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -206,8 +206,8 @@ guard barbarian~
 &+cassigned to be a guard, where he must patrol for 12 hours and then
 &+cgo and get some sleep.
 ~
-1140852746 0 0 0 0 0 0 1000 S
-PB 0 1 -1
+1140852746 0 0 0 0 0 0 0 1000 S
+PB 0 1 0 -1
 26 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -220,8 +220,8 @@ snow buffalo~
 &+Cice melts, or when it finds a warm spot in the earth. It is incredibly
 &+Clarge though, and incredibly mean looking.
 ~
-8 0 0 0 0 0 0 -1000 S
-ae 0 1 -1
+8 0 0 0 0 0 0 0 -1000 S
+ae 0 1 0 -1
 30 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -234,8 +234,8 @@ fox snow~
 &+Wsmall rodents to eat, and water to drink. It matches the backround
 &+Wof the snow perfectly.
 ~
-8 0 0 0 0 0 0 0 S
-A 0 0 2
+8 0 0 0 0 0 0 0 0 S
+A 0 0 0 2
 10 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -249,8 +249,8 @@ ice forest for quite some time. She has long silvery hair, and silvery eyes
 that sparkle in the sun light. She stands about five feet tall and has
 a very feint beige skin.
 ~
-1073743880 128 0 152 2049 0 0 1000 S
-P2 0 512 5
+1073743880 128 0 0 152 2049 0 0 1000 S
+P2 0 512 0 5
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
@@ -269,8 +269,8 @@ even met with the frostmaiden.  Other than the few pieces of clothing he
 got at Ice Crag and Bloodstone, he is mostly dressed in thick animal hide
 furs, and coats.
 ~
-1073743884 0 0 154 2049 0 0 -1000 S
-G 0 256 -1
+1073743884 0 0 0 154 2049 0 0 -1000 S
+G 0 256 0 -1
 56 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -284,8 +284,8 @@ the ice forest looking for whatever food it can find. It has brown fur and
 a snow covered nose from digging in the dirt all day. It has enmorous
 thighs which give it great strength.
 ~
-72 0 0 0 0 0 0 0 S
-AE 0 1 3
+72 0 0 0 0 0 0 0 0 S
+AE 0 1 0 3
 31 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -300,8 +300,8 @@ seems to like the cold and decided to run a shop here. Using his connections
 in Tharnadia, and Ugta, he has setup this small shop on a common trading
 path for travelers to stop at.
 ~
-1073743882 0 0 128 0 0 0 1000 S
-PB 0 1 -1
+1073743882 0 0 0 128 0 0 0 1000 S
+PB 0 1 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -313,8 +313,8 @@ leopard snow~
   This animal is only a few feet in height, but romps around and plays in
 the snow, like most of the other animals.
 ~
-8 0 0 0 0 0 0 0 S
-AC 0 0 3
+8 0 0 0 0 0 0 0 0 S
+AC 0 0 0 3
 5 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -326,8 +326,8 @@ fox arctic~
   This small creature has beautiful white fur and plays through the snow.
 It is very small, and probably only weighs a few pounds.
 ~
-8 0 0 0 0 0 0 0 S
-A 0 0 1
+8 0 0 0 0 0 0 0 0 S
+A 0 0 0 1
 3 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 1
@@ -337,8 +337,8 @@ barbarian shaman~
 &+cA barbarian &+gshaman &+cstands here, protecting the city from evil.&n
 ~
 ~
-8 0 0 0 0 0 0 0 S
-pb 0 256 -1
+8 0 0 0 0 0 0 0 0 S
+pb 0 256 0 -1
 51 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -348,8 +348,8 @@ starving barbarian~
 &+cA &+rstarving &+cbarbarian stands here, looking very frail.&n
 ~
 ~
-2058 0 0 0 0 0 0 0 S
-pb 0 0 -1
+2058 0 0 0 0 0 0 0 0 S
+pb 0 0 0 -1
 38 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -359,8 +359,8 @@ barbarian fishmonger~
 &+cThis stout barbarian &+gfishmonger &+ctries to sell his catch.&n
 ~
 ~
-10 0 0 0 0 0 0 0 S
-pb 0 1 -1
+10 0 0 0 0 0 0 0 0 S
+pb 0 1 0 -1
 40 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 0
@@ -370,8 +370,8 @@ angry barbarian wife~
 &+cA really &+gangry &+cbarbarian wife stands here, her foot placed firmly on the door.&n
 ~
 ~
-2058 0 0 0 0 0 0 0 S
-pb 0 32 -1
+2058 0 0 0 0 0 0 0 0 S
+pb 0 32 0 -1
 37 0 0 1d1+1 1d1+1
 0.0.0.0 0
 8 8 2
