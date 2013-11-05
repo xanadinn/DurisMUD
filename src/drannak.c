@@ -432,6 +432,58 @@ bool lightbringer_weapon_proc(P_char ch, P_char victim)
   */
 }
 
+bool stat_roll(P_char ch, P_char victim, int stat)
+{
+  int current;
+  /*
+    1. STR
+    2. DEX
+    3. AGI
+    4. CON
+    5. POW
+    6. INT
+    7. WIS
+    8. CHA
+    9. LUCK
+  */
+
+  if(!ch)
+  return FALSE;
+
+  switch (stat)
+  {
+   case 1:
+   current = GET_C_STR(ch);
+   break;
+   case 2:
+   current = GET_C_DEX(ch);
+   break;
+   case 3:
+   current = GET_C_AGI(ch);
+   break;
+   case 4:
+   current = GET_C_CON(ch);
+   break;
+   case 5:
+   current = GET_C_POW(ch);
+   break;
+   case 6:
+   current = GET_C_INT(ch);
+   break;
+   case 7:
+   current = GET_C_WIS(ch);
+   break;
+   case 8:
+   current = GET_C_CHA(ch);
+   break;
+   case 9:
+   current = GET_C_LUCK(ch);
+   break;
+   default = 0;
+  }
+
+}
+
 bool mercenary_defensiveproc(P_char victim, P_char ch) //victim is the merc being hit
 {
   int num, room = ch->in_room, save, pos;
